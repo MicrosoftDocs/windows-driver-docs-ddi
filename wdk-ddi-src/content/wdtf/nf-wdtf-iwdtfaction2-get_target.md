@@ -49,6 +49,13 @@ Gets the target to which this action refers.
 
 This property is read-only.
 
+## -parameters
+
+### -param 
+
+### -returns
+
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a>

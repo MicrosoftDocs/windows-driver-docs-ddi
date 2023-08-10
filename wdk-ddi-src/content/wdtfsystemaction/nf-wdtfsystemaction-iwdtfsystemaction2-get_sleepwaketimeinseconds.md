@@ -50,7 +50,7 @@ This property is read/write.
 
 ## -parameters
 
-### -param  pnWakeTimeInSeconds
+### -param  pnWakeTimeInSeconds [out, retval]
 
 The time in seconds when the system will wake from the sleep state.
 

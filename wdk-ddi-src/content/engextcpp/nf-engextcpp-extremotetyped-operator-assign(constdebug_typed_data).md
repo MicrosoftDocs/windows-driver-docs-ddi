@@ -42,12 +42,21 @@ api_name:
 
 # ExtRemoteTyped::operator= method
 
-
 ## -description
 
 The *operator=* method is part of the <b>ExtRemoteTyped</b> class. The <b>ExtRemoteTyped</b> class provides the ability to manipulate typed data on the target.  An instance of this class represents a small region of memory on the target. This region is interpreted as a specific type.  This class provides methods for manipulating the memory according to the type and for accessing the object hierarchy on the target.
 
 <b>ExtRemoteTyped</b> is a subclass of <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>.
+
+## -parameters
+
+### -param Typed
+
+An existing <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object that represents the data and type to be assigned to this object.
+
+## -returns
+
+<b>operator=</b>  returns the <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object.
 
 ## -see-also
 

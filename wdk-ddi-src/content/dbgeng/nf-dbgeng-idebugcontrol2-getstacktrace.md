@@ -58,11 +58,9 @@ Specifies the location of the current stack.  If <i>StackOffset</i> is set to ze
 
 ### -param InstructionOffset [in]
 
-
 Specifies the location of the instruction of interest for the function that is represented by the stack frame at the top of the stack.  If <i>InstructionOffset</i> is set to zero, the current instruction is used instead.
 
-### -param Frames [out]
-
+### -param Frames [out, writes]
 
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 

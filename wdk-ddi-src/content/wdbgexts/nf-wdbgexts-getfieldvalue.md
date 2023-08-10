@@ -65,13 +65,13 @@ Specifies the name of the member in the structure.  Submembers can be specified 
 
 Specifies the object into which the member's value is read.
 
-## -returns
-
-If the function succeeds, the return value is zero. Otherwise, the return value is one of the *IG_DUMP_SYMBOL_INFO* error code.
-
 ## -remarks
 
 The parameters provided to this macro are the same as those provided to the <b>GetFieldData</b> function except that instead of providing a pointer to a buffer and its size, the variable to hold the returned value can be provided directly.
+
+### Returns
+
+If the function succeeds, the return value is zero. Otherwise, the return value is one of the *IG_DUMP_SYMBOL_INFO* error code.
 
 ## -see-also
 

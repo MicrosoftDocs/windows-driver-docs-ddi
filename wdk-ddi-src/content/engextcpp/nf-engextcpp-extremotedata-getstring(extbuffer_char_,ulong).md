@@ -43,7 +43,6 @@ api_name:
 
 # ExtRemoteData::GetString(ExtBuffer<char>,ULONG)
 
-
 ## -description
 
 The <b>GetString</b> method reads a null-terminated string from the target's memory.  The string is located in the beginning of the region represented by the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.
@@ -52,7 +51,6 @@ The <b>GetString</b> method reads a null-terminated string from the target's mem
 
 ### -param Buffer [out]
 
-
 Receives the null-terminated string read from the target.  The type of <i>Buffer</i> must be the same as the type of the string on the target.  If the string is a Unicode string, the type of <i>Buffer</i> must be PWSTR.  If the string is a multibyte string, the type of <i>Buffer</i> must be PSTR.
 
 <div class="alert"><b>Note</b>   the remainder of the <i>Buffer</i> buffer, after the string, can be overwritten by this method.</div>
@@ -60,18 +58,7 @@ Receives the null-terminated string read from the target.  The type of <i>Buffer
 
 ### -param MaxChars [in]
 
-
 Specifies the maximum number of characters to read from the target.
-
-
-### -param BufferChars [in]
-
-Specifies the size, in characters, of the <i>Buffer</i> buffer.
-
-
-### -param MustFit [in]
-
-Specifies what happens if the string is larger than <i>BufferChars</i> characters.  If <i>MustFit</i> is <code>true</code> and the string is larger than <i>BufferChars</i> characters, an <b>ExtRemoteException</b> will be thrown.  If <i>MustFit</i> is <code>false</code> and the string is larger than <i>BufferChars</i> characters, the string will be truncated and null-terminated to fit inside the <i>Buffer</i> buffer.
 
 ## -returns
 

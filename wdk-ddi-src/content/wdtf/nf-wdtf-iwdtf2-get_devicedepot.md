@@ -48,6 +48,13 @@ Gets the DeviceDepot object.
 
 This property is read-only.
 
+## -parameters
+
+### -param 
+
+### -returns
+
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>

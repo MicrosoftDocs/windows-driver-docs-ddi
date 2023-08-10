@@ -47,7 +47,11 @@ api_name:
 
 Removes all items from the collection.
 
-## -returns
+## -parameters
+
+### -param 
+
+### -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

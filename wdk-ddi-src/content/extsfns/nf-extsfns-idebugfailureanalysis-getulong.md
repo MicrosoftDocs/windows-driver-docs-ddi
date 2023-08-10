@@ -4,7 +4,7 @@ title: IDebugFailureAnalysis::GetUlong (extsfns.h)
 description: The GetUlong method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag.
 old-location: debugger\idebugfailureanalysis2_getstring.htm
 tech.root: debugger
-ms.date: 06/27/2022
+ms.date: 08/10/2023
 keywords: ["IDebugFailureAnalysis::GetUlong"]
 ms.keywords: GetUlong, GetUlong method [Windows Debugging], GetUlong method [Windows Debugging],IDebugFailureAnalysis interface, IDebugFailureAnalysis interface [Windows Debugging],GetUlong method, IDebugFailureAnalysis.GetUlong, IDebugFailureAnalysis::GetUlong, debugger.IDebugFailureAnalysis_getstring, extsfns/IDebugFailureAnalysis2::GetUlong
 req.header: extsfns.h
@@ -42,7 +42,6 @@ api_name:
 
 # IDebugFailureAnalysis::GetUlong
 
-
 ## -description
 
 The <b>GetUlong</b> method searches a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object for the first <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> that has a specified tag. If it finds an FA entry with the specified tag, it gets the ANSI string value from the entry's data block.
@@ -51,17 +50,9 @@ The <b>GetUlong</b> method searches a <a href="/windows-hardware/drivers/ddi/ext
 
 ### -param Tag [in]
 
-
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration.
 
-### -param Value
-
-### -param MaxSize [in]
-
-The size, in bytes, of the buffer pointed to by <i>Str</i>.
-
-
-### -param Str [out]
+### -param Value [out]
 
 A pointer to a buffer that receives the string value from the entry's data block.
 
