@@ -4,7 +4,7 @@ title: _DEBUG_FAILURE_TYPE (extsfns.h)
 description: The values in the DEBUG_FAILURE_TYPE enumeration indicate the type of a failure.
 old-location: debugger\debug_failure_type.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 08/10/2023
 keywords: ["DEBUG_FAILURE_TYPE enumeration"]
 ms.keywords: DEBUG_FAILURE_TYPE, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], DEBUG_FLR_IE_CRASH, DEBUG_FLR_KERNEL, DEBUG_FLR_UNKNOWN, DEBUG_FLR_USER_CRASH, _DEBUG_FAILURE_TYPE, debugger.debug_failure_type, extsfns/DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_KERNEL, extsfns/DEBUG_FLR_UNKNOWN, extsfns/DEBUG_FLR_USER_CRASH
 req.header: extsfns.h
@@ -60,13 +60,9 @@ The failure type is not known.
 
 The failing code was running in kernel mode.
 
-### -field DEBUG_FLR_USER_CRASH
+### -field DEBUG_USER
 
 The failing code was running in user mode.
-
-### -field DEBUG_FLR_IE_CRASH
-
-The failure occurred in the application iexplore.exe.
 
 ## -see-also
 

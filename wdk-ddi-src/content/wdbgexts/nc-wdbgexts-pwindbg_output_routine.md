@@ -4,7 +4,7 @@ title: PWINDBG_OUTPUT_ROUTINE (wdbgexts.h)
 description: The callback function implements the functionality to print a formatted string to the Debugger Command window.
 old-location: debugger\dprintf.htm
 tech.root: debugger
-ms.date: 07/27/2023
+ms.date: 08/10/2023
 keywords: ["PWINDBG_OUTPUT_ROUTINE callback function"]
 ms.keywords: PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE callback, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml, debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], wdbgexts/dprintf
 req.header: wdbgexts.h
@@ -227,13 +227,9 @@ String containing the name of the specified symbol (and displacement, if any), a
 </tr>
 </table>
 
-### -param unnamedParam1
+### -param unnamedParam2 [in]
 
-### -param unnamedParam2
-
-### -param [arguments] [in]
-
-Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a>.
+**[arguments]** - Specifies arguments for the format string, as in <b>printf</b>. The number of arguments specified should match the number of conversion characters in <i>FormatString</i>. Each argument is an expression that will be evaluated by the default expression evaluator (MASM or C++). For details, see <a href="/windows-hardware/drivers/debugger/numerical-expression-syntax">Numerical Expression Syntax</a>.
 
 ## -remarks
 

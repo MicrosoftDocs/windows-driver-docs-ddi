@@ -4,7 +4,7 @@ title: IMiniportDMus::NewStream (dmusicks.h)
 description: The (IMiniportDMus) NewStream (dmusicks.h) method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportdmus_newstream.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 08/10/2023
 keywords: ["IMiniportDMus::NewStream"]
 ms.keywords: IMiniportDMus interface [Audio Devices],NewStream method, IMiniportDMus.NewStream, IMiniportDMus::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
 req.header: dmusicks.h
@@ -41,7 +41,6 @@ api_name:
 ---
 
 # IMiniportDMus::NewStream
-
 
 ## -description
 
@@ -102,7 +101,6 @@ Pointer to an <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-imaste
 ### -param SchedulePreFetch [out]
 
 Output pointer for the schedule-prefetch time. This parameter is a pointer to a caller-allocated ULONGLONG variable into which the method writes a time value that specifies how far ahead to query for events. The time is specified in 100-nanosecond units. The port driver is responsible for sequencing any events that exceed the amount of time that the miniport driver specifies here.
-
 
 ## -returns
 

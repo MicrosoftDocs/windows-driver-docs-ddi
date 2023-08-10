@@ -51,7 +51,6 @@ The <b>GetDebuggerCacheSize</b> function returns the size of the cache that is u
 
 ### -param CacheSize [out]
 
-
 Receives the size of the debugger's cache.
 
 ## -returns

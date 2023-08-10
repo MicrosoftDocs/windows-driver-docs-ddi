@@ -52,4 +52,8 @@ The the search record used to restrict symbol searches.
 
 ## -remarks
 
+Use **SymbolSearchInfo** to describe the search record used to restrict symbol searches.
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

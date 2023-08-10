@@ -4,7 +4,7 @@ title: IDebugFailureAnalysis2::AddExtensionCommand (extsfns.h)
 description: The AddExtensionCommand method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified debugger command.
 old-location: debugger\idebugfailureanalysis2_addextensioncommand.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 08/10/2023
 keywords: ["IDebugFailureAnalysis2::AddExtensionCommand"]
 ms.keywords: AddExtensionCommand, AddExtensionCommand method [Windows Debugging], AddExtensionCommand method [Windows Debugging],IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging],AddExtensionCommand method, IDebugFailureAnalysis2.AddExtensionCommand, IDebugFailureAnalysis2::AddExtensionCommand, debugger.idebugfailureanalysis2_addextensioncommand, extsfns/IDebugFailureAnalysis2::AddExtensionCommand
 req.header: extsfns.h
@@ -42,7 +42,6 @@ api_name:
 
 # IDebugFailureAnalysis2::AddExtensionCommand
 
-
 ## -description
 
 The <b>AddExtensionCommand</b> method adds a new <a href="/windows-hardware/drivers/debugger/failure-analysis-entries">FA entry</a> to a <a href="/windows-hardware/drivers/ddi/extsfns/nn-extsfns-idebugfailureanalysis2">DebugFailureAnalysis</a> object and sets the data block of the FA entry to a specified debugger command.
@@ -53,9 +52,7 @@ The <b>AddExtensionCommand</b> method adds a new <a href="/windows-hardware/driv
 
 A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-extension-to-extend--analyze">FA_TAG</a> enumeration. The data type associated with this tag must be <b>DEBUG_FA_ENTRY_EXTENSION_CMD</b> or <b>DEBUG_FA_ENTRY_ANSI_STRING</b>.
 
-### -param Extension
-
-### -param Str [in]
+### -param Extension [in]
 
 A pointer to a null-terminated ANSI string that is the debugger command. An example of debugger command is "!analyze -v".
 
