@@ -73,6 +73,8 @@ A pointer to the caller's driver object.
 
 To ensure that the driver remains loaded while it is registered for PnP notification, this call increments the reference count on *DriverObject*. The PnP manager decrements the reference count when this registration is removed.
 
+For **EventCategoryTargetDeviceChange**, *DriverObject* must not be the driver object of the target device; rather, it should be the driver object of the driver that implements *CallbackRoutine*.
+
 ### -param CallbackRoutine [in]
 
 A pointer to the PnP notification callback routine to be called when the specified PnP event occurs.
