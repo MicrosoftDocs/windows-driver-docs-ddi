@@ -4,7 +4,7 @@ title: IWDTFTarget2::HasInterface (wdtf.h)
 description: Determines whether the target supports a given interface.
 old-location: dtf\iwdtftarget2_hasinterface.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFTarget2::HasInterface"]
 ms.keywords: HasInterface, HasInterface method [Windows Device Testing Framework], HasInterface method [Windows Device Testing Framework],IWDTFTarget2 interface, IWDTFTarget2 interface [Windows Device Testing Framework],HasInterface method, IWDTFTarget2.HasInterface, IWDTFTarget2::HasInterface, Microsoft.WDTF.IWDTFTarget2.HasInterface, Microsoft::WDTF::IWDTFTarget2::HasInterface, dtf.iwdtftarget2_hasinterface, wdtf/IWDTFTarget2::HasInterface
 req.header: wdtf.h
@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFTarget2::HasInterface
 
-
 ## -description
 
 Determines whether the target supports a given interface.
@@ -55,33 +54,14 @@ Determines whether the target supports a given interface.
 
 ### -param MonikerSuffix [in, optional]
 
+An optional moniker that defines more options about how the interface should be instantiated. 
 
-An optional moniker that defines more options about how 
-the interface should be instantiated. 
-
-This parameter is not yet implemented. 
-Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that 
+This parameter is not yet implemented. Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that 
 contains <b>VT_EMPTY</b>.
 
 ### -param pResult [out, retval]
 
-
 True if the target supports the interface; otherwise false.
-
-
-### -param MoreTargets [in, optional]
-
-Optional extra arguments that you can use to 
-define additional targets to attach to the returned interface. 
-
-This parameter is not 
-currently implemented. Set <i>MoreTargets</i>o a <b>VARIANT</b> 
-that contains <b>VT_EMPTY</b>.
-
-
-### -param ProgID [in]
-
-The WDTF ProgID of the requested interface.
 
 ## -returns
 
@@ -90,4 +70,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
-

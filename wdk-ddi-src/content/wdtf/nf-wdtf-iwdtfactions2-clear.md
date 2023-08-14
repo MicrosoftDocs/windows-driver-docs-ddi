@@ -49,7 +49,7 @@ Removes all items from the collection.
 
 ## -parameters
 
-### -param 
+### -param
 
 ### -returns
 
