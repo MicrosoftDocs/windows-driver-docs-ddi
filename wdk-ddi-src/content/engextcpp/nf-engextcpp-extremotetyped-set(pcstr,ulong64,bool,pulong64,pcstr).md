@@ -77,7 +77,9 @@ A <i>cache cookie</i> is a pointer to a ULONG64. It is associated with a particu
 
 The name of a field in the typed data structure which contains the pointer to the next item in a list.  <i>LinkField</i> should be set if <i>CacheCookie</i> is being used for the first time and will later be used with <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetypedlist-extremotetypedlist(extremotedata__pcstr_pcstr_ulong64_ulong_pulong64_bool)">ExtRemoteTypedList</a>.
 
-## -returns
+## -remarks
+
+### Returns
 
 This method does not return a value.
 
