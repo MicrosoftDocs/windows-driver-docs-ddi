@@ -4,7 +4,7 @@ title: IWDTFActions2::Clear (wdtf.h)
 description: Removes all items from the collection.
 old-location: dtf\iwdtfactions2_clear.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFActions2::Clear"]
 ms.keywords: Clear, Clear method [Windows Device Testing Framework], Clear method [Windows Device Testing Framework],IWDTFActions2 interface, IWDTFActions2 interface [Windows Device Testing Framework],Clear method, IWDTFActions2.Clear, IWDTFActions2::Clear, dtf.iwdtfactions2_clear, wdtf/IWDTFActions2::Clear
 req.header: wdtf.h
@@ -42,16 +42,11 @@ api_name:
 
 # IWDTFActions2::Clear
 
-
 ## -description
 
 Removes all items from the collection.
 
-## -parameters
-
-### -param
-
-### -returns
+## -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 

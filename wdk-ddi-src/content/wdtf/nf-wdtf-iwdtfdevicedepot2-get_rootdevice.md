@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::get_RootDevice (wdtf.h)
 description: Gets the root device.
 old-location: dtf\iwdtfdevicedepot2_rootdevice.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFDeviceDepot2::get_RootDevice"]
 ms.keywords: IWDTFDeviceDepot2 interface [Windows Device Testing Framework],RootDevice property, IWDTFDeviceDepot2.RootDevice, IWDTFDeviceDepot2.get_RootDevice, IWDTFDeviceDepot2::RootDevice, IWDTFDeviceDepot2::get_RootDevice, Microsoft.WDTF.IWDTFDeviceDepot2.RootDevice, Microsoft::WDTF::IWDTFDeviceDepot2::RootDevice, RootDevice property [Windows Device Testing Framework], RootDevice property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, dtf.iwdtfdevicedepot2_rootdevice, get_RootDevice, wdtf/IWDTFDeviceDepot2::RootDevice, wdtf/IWDTFDeviceDepot2::get_RootDevice
 req.header: wdtf.h
@@ -42,12 +42,17 @@ api_name:
 
 # IWDTFDeviceDepot2::get_RootDevice
 
-
 ## -description
 
 Gets the root device.
 
 This property is read-only.
+
+## -parameters
+
+### -param pVal
+
+### -returns
 
 ## -see-also
 

@@ -42,12 +42,17 @@ api_name:
 
 # IWDTFDeviceDepot2::get_WDTF
 
-
 ## -description
 
 Gets the main WDTF aggregation object.
 
 This property is read-only.
+
+## -parameters
+
+### -param ppWDTF
+
+## -returns
 
 ## -see-also
 

@@ -4,7 +4,7 @@ title: IWDTFStrings2::get_Count (wdtf.h)
 description: Gets the number of strings in the collection.
 old-location: dtf\iwdtfstrings2_count.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFStrings2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFStrings2 interface, IWDTFStrings2 interface [Windows Device Testing Framework],Count property, IWDTFStrings2.Count, IWDTFStrings2.get_Count, IWDTFStrings2::Count, IWDTFStrings2::get_Count, Microsoft.WDTF.IWDTFStrings2.Count, Microsoft::WDTF::IWDTFStrings2::Count, dtf.iwdtfstrings2_count, get_Count, wdtf/IWDTFStrings2::Count, wdtf/IWDTFStrings2::get_Count
 req.header: wdtf.h
@@ -42,12 +42,19 @@ api_name:
 
 # IWDTFStrings2::get_Count
 
-
 ## -description
 
 Gets the number of strings in the collection.
 
 This property is read-only.
+
+### -param Index
+
+### -param pVal
+
+## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 

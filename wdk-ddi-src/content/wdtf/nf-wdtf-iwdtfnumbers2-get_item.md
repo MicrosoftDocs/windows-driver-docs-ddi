@@ -4,7 +4,7 @@ title: IWDTFNumbers2::get_Item (wdtf.h)
 description: Gets an individual number in the collection.
 old-location: dtf\iwdtfnumbers2_item.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFNumbers2::get_Item"]
 ms.keywords: IWDTFNumbers2 interface [Windows Device Testing Framework],Item property, IWDTFNumbers2.Item, IWDTFNumbers2.get_Item, IWDTFNumbers2::Item, IWDTFNumbers2::get_Item, Item property [Windows Device Testing Framework], Item property [Windows Device Testing Framework],IWDTFNumbers2 interface, Microsoft.WDTF.IWDTFNumbers2.Item, Microsoft::WDTF::IWDTFNumbers2::Item, dtf.iwdtfnumbers2_item, get_Item, wdtf/IWDTFNumbers2::Item, wdtf/IWDTFNumbers2::get_Item
 req.header: wdtf.h
@@ -42,14 +42,20 @@ api_name:
 
 # IWDTFNumbers2::get_Item
 
-
 ## -description
 
 Gets an individual number in the collection.
 
 This property is read-only.
 
+## -parameters
+
+### -param Index
+
+### -param pNumber
+
+## -returns
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfnumbers2">IWDTFNumbers2</a>
-
