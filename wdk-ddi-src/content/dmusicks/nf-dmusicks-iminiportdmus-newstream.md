@@ -4,7 +4,7 @@ title: IMiniportDMus::NewStream (dmusicks.h)
 description: The (IMiniportDMus) NewStream (dmusicks.h) method creates a new instance of a logical stream associated with a specified physical channel.
 old-location: audio\iminiportdmus_newstream.htm
 tech.root: audio
-ms.date: 08/10/2023
+ms.date: 08/11/2023
 keywords: ["IMiniportDMus::NewStream"]
 ms.keywords: IMiniportDMus interface [Audio Devices],NewStream method, IMiniportDMus.NewStream, IMiniportDMus::NewStream, NewStream, NewStream method [Audio Devices], NewStream method [Audio Devices],IMiniportDMus interface, audio.iminiportdmus_newstream, audmp-routines_a6630d1b-4a9d-4d4e-973a-09d541d7db70.xml, dmusicks/IMiniportDMus::NewStream
 req.header: dmusicks.h
@@ -60,7 +60,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 Specifies the type of memory pool from which the storage for the DMA-channel object should be allocated. This parameter is set to one of the <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_pool_type">POOL_TYPE</a> enumeration values.
 
-### -param PinId [in]
+### -param PinID [in]
 
 Specifies the pin ID. This parameter identifies the pin that is to be opened. If the DMus miniport driver's <a href="/windows-hardware/drivers/ddi/portcls/nf-portcls-iminiport-getdescription">IMiniport::GetDescription</a> method outputs a filter descriptor that specifies a total of <i>n</i> pin factories on the filter, then valid pin IDs are in the range 0 to <i>n</i>-1.
 

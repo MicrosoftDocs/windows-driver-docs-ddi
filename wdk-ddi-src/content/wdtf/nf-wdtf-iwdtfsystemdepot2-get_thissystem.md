@@ -4,7 +4,7 @@ title: IWDTFSystemDepot2::get_ThisSystem (wdtf.h)
 description: Gets an IWDTFTarget2 value that represents the local computer.
 old-location: dtf\iwdtfsystemdepot2_thissystem.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFSystemDepot2::get_ThisSystem"]
 ms.keywords: IWDTFSystemDepot2 interface [Windows Device Testing Framework],ThisSystem property, IWDTFSystemDepot2.ThisSystem, IWDTFSystemDepot2.get_ThisSystem, IWDTFSystemDepot2::ThisSystem, IWDTFSystemDepot2::get_ThisSystem, Microsoft.WDTF.IWDTFSystemDepot2.ThisSystem, Microsoft::WDTF::IWDTFSystemDepot2::ThisSystem, ThisSystem property [Windows Device Testing Framework], ThisSystem property [Windows Device Testing Framework],IWDTFSystemDepot2 interface, dtf.iwdtfsystemdepot2_thissystem, get_ThisSystem, wdtf/IWDTFSystemDepot2::ThisSystem, wdtf/IWDTFSystemDepot2::get_ThisSystem
 req.header: wdtf.h
@@ -42,18 +42,20 @@ api_name:
 
 # IWDTFSystemDepot2::get_ThisSystem
 
-
 ## -description
 
 Gets an <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a> value that represents the local computer.
 
 This property is read-only.
 
+## -parameters
+
+### -param pVal
+
+## -returns
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
-

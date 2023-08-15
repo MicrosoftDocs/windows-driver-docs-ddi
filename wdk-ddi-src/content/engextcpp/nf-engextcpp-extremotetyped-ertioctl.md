@@ -49,6 +49,28 @@ The ErtIoctl method is part of the <b>ExtRemoteTyped</b> class. The <b>ExtRemote
 
 <b>ExtRemoteTyped</b> is a subclass of <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>.
 
+## -parameters
+
+### -param Message
+
+### -param Op
+
+### -param Flags
+
+### -param InStr
+
+### -param In64
+
+### -param Ret
+
+### -param StrBuffer
+
+### -param StrBufferChars
+
+### -param Out32
+
+### -returns
+
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>

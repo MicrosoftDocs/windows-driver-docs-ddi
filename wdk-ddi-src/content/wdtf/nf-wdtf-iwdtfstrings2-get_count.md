@@ -50,9 +50,11 @@ This property is read-only.
 
 ## -parameters
 
-### -param Index
+### -param pVal
 
-### -returns
+## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 

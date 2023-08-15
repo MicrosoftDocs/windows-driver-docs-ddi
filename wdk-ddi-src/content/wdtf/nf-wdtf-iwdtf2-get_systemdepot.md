@@ -4,7 +4,7 @@ title: IWDTF2::get_SystemDepot (wdtf.h)
 description: Gets the SystemDepot object.
 old-location: dtf\iwdtf2_systemdepot.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTF2::get_SystemDepot"]
 ms.keywords: IWDTF2 interface [Windows Device Testing Framework],SystemDepot property, IWDTF2.SystemDepot, IWDTF2.get_SystemDepot, IWDTF2::SystemDepot, IWDTF2::get_SystemDepot, Microsoft.WDTF.IWDTF2.SystemDepot, Microsoft::WDTF::IWDTF2::SystemDepot, SystemDepot property [Windows Device Testing Framework], SystemDepot property [Windows Device Testing Framework],IWDTF2 interface, dtf.iwdtf2_systemdepot, get_SystemDepot, wdtf/IWDTF2::SystemDepot, wdtf/IWDTF2::get_SystemDepot
 req.header: wdtf.h
@@ -42,18 +42,20 @@ api_name:
 
 # IWDTF2::get_SystemDepot
 
-
 ## -description
 
 Gets the SystemDepot object.
 
 This property is read-only.
 
+## -parameters
+
+### -param pVal
+
+## -returns
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfsystemdepot2">IWDTFSystemDepot2</a>
-

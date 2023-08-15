@@ -42,7 +42,6 @@ api_name:
 
 # ExtRemoteData::Set (engextcpp.h)
 
-
 ## -description
 
 The <b>Set</b> method sets the region of the target's memory represented by the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a> object.
@@ -53,32 +52,24 @@ The <b>Set</b> method sets the region of the target's memory represented by the 
 
 Location of the beginning of the memory region in the target's virtual address space.
 
-
 ### -param Bytes [in]
 
 Number of bytes in the memory region.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 
 The <b>Set</b> method will read the contents of the specified region of memory and cache the data.  The data can be retrieved using <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getdata">ExtRemoteData::GetData</a> or one of the ExtRemoteTyped::Get<i>Xxx</i> methods.
 
+## Returns
+
+This method does not return a value.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata(pcstr_ulong64_ulong)">ExtRemoteData</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-extremotedata">ExtRemoteData::ExtRemoteData</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-getdata">ExtRemoteData::GetData</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotedata-set(constdebug_typed_data)">ExtRemoteData::Set (Typed)</a>
-

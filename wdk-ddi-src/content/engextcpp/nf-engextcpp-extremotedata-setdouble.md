@@ -4,7 +4,7 @@ title: ExtRemoteData::SetDouble method (engextcpp.h)
 description: The SetDouble convenience method is provided by the ExtRemoteData class, which provides a wrapper for a small section of a target's memory.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
-ms.date: 01/19/2018
+ms.date: 08/11/2023
 keywords: ["ExtRemoteData::SetDouble method"]
 ms.keywords: ExtRemoteData class [Windows Debugging], described, ExtRemoteData::SetChar, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, debugger.extremotedata, ExtRemoteData::Clear, ExtRemoteData class [Windows Debugging], SetDouble, ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::SetDouble, SetChar, ExtRemoteData::SetBoolean, ExtRemoteData::SetData, SetData, SetBoolean
 req.header: engextcpp.hpp
@@ -255,6 +255,12 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 </dd>
 </dl>
+
+## -parameters
+
+### -param Data
+
+See description.
 
 ## -see-also
 

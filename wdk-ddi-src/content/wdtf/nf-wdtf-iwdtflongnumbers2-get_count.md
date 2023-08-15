@@ -42,12 +42,17 @@ api_name:
 
 # IWDTFLongNumbers2::get_Count
 
-
 ## -description
 
 Gets the number of long numbers in the collection.
 
 This property is read-only.
+
+## -parameters
+
+### -param pVal
+
+## -returns
 
 ## -see-also
 
