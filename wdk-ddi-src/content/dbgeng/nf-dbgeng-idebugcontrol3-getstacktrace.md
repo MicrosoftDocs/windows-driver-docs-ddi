@@ -66,7 +66,7 @@ Specifies the location of the instruction of interest for the function that is r
 
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 
-### -param FrameSize [in]
+### -param FramesSize [in]
 
 Specifies the number of items in the <i>Frames</i> array.
 

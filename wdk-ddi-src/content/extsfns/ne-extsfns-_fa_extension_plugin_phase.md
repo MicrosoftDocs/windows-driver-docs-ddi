@@ -4,7 +4,7 @@ title: _FA_EXTENSION_PLUGIN_PHASE (extsfns.h)
 description: A value in the FA_EXTENSION_PLUGIN_PHASE enumeration is passed to the _EFN_Analyze function to specify which phase of the analysis is currently in progress.
 old-location: debugger\fa_extension_plugin_phase.htm
 tech.root: debugger
-ms.date: 08/10/2023
+ms.date: 08/15/2023
 keywords: ["FA_EXTENSION_PLUGIN_PHASE enumeration"]
 ms.keywords: FA_EXTENSION_PLUGIN_PHASE, FA_EXTENSION_PLUGIN_PHASE enumeration [Windows Debugging], FA_PLUGIN_INITILIZATION, FA_PLUGIN_POST_BUCKETING, FA_PLUGIN_PRE_BUCKETING, FA_PLUGIN_STACK_ANALYSIS, _FA_EXTENSION_PLUGIN_PHASE, debugger.fa_extension_plugin_phase, extsfns/FA_EXTENSION_PLUGIN_PHASE, extsfns/FA_PLUGIN_INITILIZATION, extsfns/FA_PLUGIN_POST_BUCKETING, extsfns/FA_PLUGIN_PRE_BUCKETING, extsfns/FA_PLUGIN_STACK_ANALYSIS
 req.header: extsfns.h
@@ -52,7 +52,7 @@ A value in the <b>FA_EXTENSION_PLUGIN_PHASE</b> enumeration is passed to the <a 
 
 ## -enum-fields
 
-### -field FA_PLUGIN_INITILIZATION
+### -field FA_PLUGIN_INITIALIZATION
 
 The analysis is in the initialization phase. This is after the primary data such as exception record (for user mode) or  bugcheck code (for kernel mode) is initialized.
 

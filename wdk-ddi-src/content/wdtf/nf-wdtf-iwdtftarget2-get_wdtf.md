@@ -4,7 +4,7 @@ title: IWDTFTarget2::get_WDTF (wdtf.h)
 description: This method gets the main WDTF aggregation object.
 old-location: dtf\iwdtftarget2_wdtf.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/15/2023
 keywords: ["IWDTFTarget2::get_WDTF"]
 ms.keywords: IWDTFTarget2 interface [Windows Device Testing Framework],WDTF property, IWDTFTarget2.WDTF, IWDTFTarget2.get_WDTF, IWDTFTarget2::WDTF, IWDTFTarget2::get_WDTF, Microsoft.WDTF.IWDTFTarget2.WDTF, Microsoft::WDTF::IWDTFTarget2::WDTF, WDTF property [Windows Device Testing Framework], WDTF property [Windows Device Testing Framework],IWDTFTarget2 interface, dtf.iwdtftarget2_wdtf, get_WDTF, wdtf/IWDTFTarget2::WDTF, wdtf/IWDTFTarget2::get_WDTF
 req.header: wdtf.h
@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFTarget2::get_WDTF
 
-
 ## -description
 
 Gets the main WDTF aggregation object.
@@ -51,7 +50,7 @@ This property is read-only.
 
 ## -parameters
 
-### -param 
+### -param ppWDTF
 
 ### -returns
 
@@ -59,7 +58,4 @@ This property is read-only.
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtf2">IWDTF2</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
-

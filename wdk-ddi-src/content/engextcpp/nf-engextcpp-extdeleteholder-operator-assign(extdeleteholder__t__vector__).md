@@ -42,7 +42,6 @@ api_name:
 
 # ExtDeleteHolder::operator= method
 
-
 ## -description
 
 The <b>operator=</b> overloaded assignment operator sets the typed data represented by the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object by copying the information from another object.
@@ -61,7 +60,7 @@ A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPE
 
 ## -syntax
 
-```
+```cpp
 ExtRemoteTyped & operator=(
   [in] const DEBUG_TYPED_DATA *Typed
 );
@@ -78,4 +77,3 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
 <a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
-
