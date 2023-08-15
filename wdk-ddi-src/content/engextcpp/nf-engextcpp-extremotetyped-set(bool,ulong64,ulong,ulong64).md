@@ -57,20 +57,19 @@ Specifies whether or not to set the <b>ExtRemoteTyped</b> instance to the specif
 
 ### -param TypeModBase [in]
 
-
 The base address of the module to which the type belongs.
 
 ### -param TypeId [in]
-
 
 The type ID of the type.
 
 ### -param Offset [in]
 
-
 Specifies the location of the data in the target's memory.
 
-## -returns
+## -remarks
+
+### Returns
 
 This method does not return a value.
 

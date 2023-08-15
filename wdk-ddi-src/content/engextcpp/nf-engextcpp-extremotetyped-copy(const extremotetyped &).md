@@ -63,6 +63,10 @@ This method does not return a value.
 
 The typed data can also be copied using the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constdebug_typed_data)">ExtRemoteTyped::Copy(Debug Typed Data)</a> method.
 
+### Returns
+
+This method does not return a value.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>

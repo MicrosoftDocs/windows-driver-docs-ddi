@@ -4,7 +4,7 @@ title: IWDTFDeviceDepot2::get_Count (wdtf.h)
 description: Gets the number of devices that are currently provided by the DeviceDepot.
 old-location: dtf\iwdtfdevicedepot2_count.htm
 tech.root: dtf
-ms.date: 09/29/2022
+ms.date: 08/14/2023
 keywords: ["IWDTFDeviceDepot2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2 interface [Windows Device Testing Framework],Count property, IWDTFDeviceDepot2.Count, IWDTFDeviceDepot2.get_Count, IWDTFDeviceDepot2::Count, IWDTFDeviceDepot2::get_Count, Microsoft.WDTF.IWDTFDeviceDepot2.Count, Microsoft::WDTF::IWDTFDeviceDepot2::Count, dtf.iwdtfdevicedepot2_count, get_Count, wdtf/IWDTFDeviceDepot2::Count, wdtf/IWDTFDeviceDepot2::get_Count
 req.header: wdtf.h
@@ -41,7 +41,6 @@ api_name:
 ---
 
 # IWDTFDeviceDepot2::get_Count
-
 
 ## -description
 
