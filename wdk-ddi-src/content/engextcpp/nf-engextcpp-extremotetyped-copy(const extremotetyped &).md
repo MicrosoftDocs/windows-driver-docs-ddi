@@ -4,7 +4,7 @@ title: ExtRemoteTyped::Copy(const ExtRemoteTyped &) (engextcpp.h)
 description: The Copy(constExtRemoteTyped&) method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_extremotetyped.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 08/15/2023
 keywords: ["ExtRemoteTyped::Copy(const ExtRemoteTyped &)"]
 ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const ExtRemoteTyped &), ExtRemoteTyped.Copy(const ExtRemoteTyped&), ExtRemoteTyped::Copy, ExtRemoteTyped::Copy(const ExtRemoteTyped &), debugger.extremotetyped_copy_extremotetyped
 req.header: engextcpp.hpp
@@ -43,7 +43,6 @@ api_name:
 
 # ExtRemoteTyped::Copy(const ExtRemoteTyped &)
 
-
 ## -description
 
 The <b>Copy</b> method sets the typed data represented by the <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object by copying the information from another object.
@@ -52,12 +51,7 @@ The <b>Copy</b> method sets the typed data represented by the <a href="/windows-
 
 ### -param Typed [in, ref]
 
-
 An existing <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a> object that represents the typed data description to copy. This becomes the typed data represented by this object.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 
@@ -71,11 +65,6 @@ This method does not return a value.
 
 <a href="/windows-hardware/drivers/ddi/wdbgexts/ns-wdbgexts-_debug_typed_data">DEBUG_TYPED_DATA</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/engextcpp/nl-engextcpp-extremotetyped">ExtRemoteTyped</a>
 
-
-
 <a href="/previous-versions/windows/hardware/previsioning-framework/ff544357(v=vs.85)">ExtRemoteTyped::operator=</a>
-

@@ -4,7 +4,7 @@ title: IWDTFTargets2::get_Count (wdtf.h)
 description: Gets the number of items in this collection.
 old-location: dtf\iwdtftargets2_count.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/15/2023
 keywords: ["IWDTFTargets2::get_Count"]
 ms.keywords: Count property [Windows Device Testing Framework], Count property [Windows Device Testing Framework],IWDTFTargets2 interface, IWDTFTargets2 interface [Windows Device Testing Framework],Count property, IWDTFTargets2.Count, IWDTFTargets2.get_Count, IWDTFTargets2::Count, IWDTFTargets2::get_Count, Microsoft.WDTF.IWDTFTargets2.Count, Microsoft::WDTF::IWDTFTargets2::Count, dtf.iwdtftargets2_count, get_Count, wdtf/IWDTFTargets2::Count, wdtf/IWDTFTargets2::get_Count
 req.header: wdtf.h
@@ -50,7 +50,7 @@ This property is read-only.
 
 ## -parameters
 
-### -param
+### -param pVal
 
 ## -returns
 

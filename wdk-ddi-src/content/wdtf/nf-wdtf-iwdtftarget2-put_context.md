@@ -42,12 +42,19 @@ api_name:
 
 # IWDTFTarget2::put_Context
 
-
 ## -description
 
 Gets and sets a name-value pair that represents user data for the target.
 
 This property is read/write.
+
+## -parameters
+
+### -param Tag
+
+### -param newVal
+
+## -returns
 
 ## -remarks
 
@@ -67,4 +74,3 @@ see <a href="/windows-hardware/drivers/wdtf/creating-wdtf-scenarios">Creating WD
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftarget2">IWDTFTarget2</a>
-

@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFTargets2::GetInterfaces
 
-
 ## -description
 
 Returns a collection of actions that support the interface - one <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtfaction2">IWDTFAction2</a> for each item
@@ -54,34 +53,21 @@ that has one.
 
 ### -param MoreTargets [in, optional]
 
+Optional extra arguments that you can use to define additional targets to attach to the returned interface. 
 
-Optional extra arguments that you can use to 
-define additional targets to attach to the returned interface. 
-
-This parameter is not 
-currently implemented. Set <i>MoreTargets </i>to a <b>VARIANT</b> 
+This parameter is not currently implemented. Set <i>MoreTargets </i>to a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
 
 ### -param MonikerSuffix [in, optional]
 
+An optional moniker that defines more options about how the interface should be instantiated. 
 
-An optional moniker that defines more options about how 
-the interface should be instantiated. 
-
-This parameter is not yet implemented. 
-Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that 
+This parameter is not yet implemented. Set <i>MonikerSuffix </i>to a <b>VARIANT</b> that 
 contains <b>VT_EMPTY</b>.
 
 ### -param ppInterface [out, retval]
 
-
-The address of a variable that will receive the 
-collection of actions.
-
-
-### -param ProgID [in]
-
-The WDTF ProgID of the requested interface.
+The address of a variable that will receive the collection of actions.
 
 ## -returns
 
@@ -94,4 +80,3 @@ If any items in the collection fail to return an action, this method fails.
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtf/nn-wdtf-iwdtftargets2">IWDTFTargets2</a>
-
