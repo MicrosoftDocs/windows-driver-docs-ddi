@@ -2,7 +2,7 @@
 UID: NS:wdm._DMA_IOMMU_INTERFACE_EX
 tech.root: kernel
 title: DMA_IOMMU_INTERFACE_EX
-ms.date: 01/06/2023
+ms.date: 08/16/2023
 targetos: Windows
 description: An interface structure that allows device drivers to interface with the IOMMU functions that perform device domain operations.
 req.construct-type: structure
@@ -64,6 +64,10 @@ These are the same set of functions as those provided by the deprecated [**DMA_I
 ### -field V2
 
 A [**DMA_IOMMU_INTERFACE_V2**](ns-wdm-dma_iommu_interface_v2.md) structure that specifies the set of Version 2 (V2) IOMMU interface functions.
+
+### -field V3
+
+A **DMA_IOMMU_INTERFACE_V3** structure that specifies the set of Version 3 (V3) IOMMU interface functions.
 
 ## -remarks
 

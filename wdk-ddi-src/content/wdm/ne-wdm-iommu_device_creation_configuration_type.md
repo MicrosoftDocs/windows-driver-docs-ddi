@@ -2,7 +2,7 @@
 UID: NE:wdm._IOMMU_DEVICE_CREATION_CONFIGURATION_TYPE
 tech.root: kernel
 title: IOMMU_DEVICE_CREATION_CONFIGURATION_TYPE
-ms.date: 03/01/2022
+ms.date: 08/17/2023
 targetos: Windows
 description: Describes the configuration types that are used upon IOMMU_DMA_DEVICE creation depending on the device type and the system.
 prerelease: false
@@ -57,6 +57,10 @@ Provides ACPI device specific parameters. This is currently used for ARM64 only.
 ### -field IommuDeviceCreationConfigTypeDeviceId
 
 Defines the **IommuDeviceCreationConfigTypeDeviceId** constant.
+
+### -field IommuDeviceCreationConfigTypePasid
+
+Defines the **IommuDeviceCreationConfigTypePasid** constant.
 
 ### -field IommuDeviceCreationConfigTypeMax
 
