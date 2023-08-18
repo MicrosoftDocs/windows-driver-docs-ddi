@@ -157,10 +157,6 @@ Setting this member is equivalent to setting the thirteenth bit of the 32-bit **
 
 Setting this member is equivalent to setting the fourteenth bit of the 32-bit **Value** member (0x00002000).
 
-### -field Reserved03
-
-Reserved for system use.
-
 ### -field HistoryBuffer
 
 [out] A UINT value that specifies whether the  user-mode display driver allocates a history buffer. The display miniport driver must set this flag to indicate that the user-mode driver can manage the creation and destruction of history buffers.
@@ -194,6 +190,10 @@ When this member is set, the allocation will hold content used for hardware digi
 ### -field CpuVisibleOnDemand
 
 When this member is set, the video memory manager will try to allocate the virtual address for the allocation when it is mapped/locked. This will result in the allocation not having a permanent virtual address, which reduces the amount of virtual address space used. It behaves similarly to the **CpuVisible** flag in that it’s an allocation directly accessible by the CPU, but it just gets the virtual address for it “on demand” instead of being permanently assigned.
+
+### -field Reserved
+
+Reserved for system use. Available starting with Windows 10.
 
 ### -field DXGK_ALLOC_RESERVED16
 

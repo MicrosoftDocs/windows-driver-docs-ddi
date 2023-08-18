@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX
-title: _D3DKMT_ACQUIREKEYEDMUTEX (d3dkmthk.h)
-description: The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the D3DKMTAcquireKeyedMutex function acquires.
-old-location: display\d3dkmt_acquirekeyedmutex.htm
-ms.date: 05/10/2018
+title: D3DKMT_ACQUIREKEYEDMUTEX (d3dkmthk.h)
+description: Learn more about the D3DKMT_ACQUIREKEYEDMUTEX structure.
+ms.date: 07/27/2023
 keywords: ["D3DKMT_ACQUIREKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
-req.target-min-winverclnt: D3DKMT_ACQUIREKEYEDMUTEX is supported beginning with the Windows 7 operating system.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,36 +42,34 @@ api_name:
  - D3DKMT_ACQUIREKEYEDMUTEX
 ---
 
-# _D3DKMT_ACQUIREKEYEDMUTEX structure
-
+# D3DKMT_ACQUIREKEYEDMUTEX structure
 
 ## -description
 
-The D3DKMT_ACQUIREKEYEDMUTEX structure describes a keyed mutex that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a> function acquires.
+The **D3DKMT_ACQUIREKEYEDMUTEX** structure describes a keyed mutex that the [**D3DKMTAcquireKeyedMutex**](nf-d3dkmthk-d3dkmtacquirekeyedmutex.md) function acquires.
 
 ## -struct-fields
 
-### -field hKeyedMutex [in]
+### -field hKeyedMutex
 
-A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to acquire.
+[in] A D3DKMT_HANDLE data type that represents a kernel-mode handle to the keyed mutex object to acquire.
 
-### -field Key [in]
+### -field Key
 
-A 64-bit value that specifies the key value to acquire the mutex for.
+[in] A 64-bit value that specifies the key value to acquire the mutex for.
 
-### -field pTimeout [in]
+### -field pTimeout
 
-A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which acquiring the mutex is to be completed. 
+[in] A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which acquiring the mutex is to be completed.
 
-A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes. 
+A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
-If *<b>pTimeout</b> = 0, <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a> returns without waiting. If the caller supplies a <b>NULL</b> pointer, <b>D3DKMTAcquireKeyedMutex</b> waits indefinitely until the mutex object is set to the signaled state.
+If ***pTimeout** = 0, [**D3DKMTAcquireKeyedMutex**](nf-d3dkmthk-d3dkmtacquirekeyedmutex.md) returns without waiting. If the caller supplies a NULL pointer, **D3DKMTAcquireKeyedMutex** waits indefinitely until the mutex object is set to the signaled state.
 
-### -field FenceValue [out]
+### -field FenceValue
 
-A 64-bit value that specifies the current fence value of the GPU synchronization object.
+[out] A 64-bit value that specifies the current fence value of the GPU synchronization object.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex">D3DKMTAcquireKeyedMutex</a>
-
+[**D3DKMTAcquireKeyedMutex**](nf-d3dkmthk-d3dkmtacquirekeyedmutex.md)

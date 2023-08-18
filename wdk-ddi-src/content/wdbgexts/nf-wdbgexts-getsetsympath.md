@@ -60,10 +60,11 @@ Optional. If <i>Arg</i> is <b>NULL</b>, <b>GetSetSympath</b> stores the current 
 
 Specifies the size of the buffer for storing the result.
 
-## -returns
-
-None
 
 ## -remarks
 
 When the symbol path is changed, a call to <b>ReloadSymbols</b> is made implicitly.
+
+### Returns
+
+None

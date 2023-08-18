@@ -42,7 +42,6 @@ api_name:
 
 # ExtBuffer::Copy method
 
-
 ## -description
 
 The <b>Copy</b> method sets the typed data represented by the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object by copying the information from another object.
@@ -51,7 +50,7 @@ The <b>Copy</b> method sets the typed data represented by the <a href="..\engext
 
 ### -param Src
 
-### -param Elts
+### -param Elts [in]
 
 ### -param Typed [in]
 

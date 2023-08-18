@@ -42,9 +42,7 @@ api_name:
 
 # ExtRemoteList::StartTail
 
-
 ## -description
 
 The <b>StartTail</b> method initializes the list for iterating backward, starting at the head.
 
-## -parameters

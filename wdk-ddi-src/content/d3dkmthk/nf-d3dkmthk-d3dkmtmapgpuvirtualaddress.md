@@ -64,13 +64,13 @@ This function might also return other **NTSTATUS** values.
 
 ## -remarks
 
-The user-mode driver can specify a base GPU virtual address (VA) to map or let the video memory manager automatically pick one. When specifying a non-NULL **BaseAddress** value, the entire range from **BaseAddress** to **BaseAddress**+**Size** must be in a freed state or belong to a VA range that was obtained by calling **MapGpuVirtualAddress** or [**DxgkCbReserveGpuVirtualAddressRange**](../d3dkmddi/nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md). When **Protection.Zero** or **Protection.NoAccess** is specified, the VA range can't belong to a range that was obtained by calling **MapGpuVirtualAddressCb**.
+The driver can specify a base GPU virtual address (VA) to map or let the video memory manager automatically pick one. When specifying a non-NULL **BaseAddress** value, the entire range from **BaseAddress** to **BaseAddress**+**Size** must be in a freed state or belong to a VA range that was obtained by calling **D3DKMTMapGpuVirtualAddress** or [**DxgkCbReserveGpuVirtualAddressRange**](../d3dkmddi/nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md). When **Protection.Zero** or **Protection.NoAccess** is specified, the VA range can't belong to a range that was obtained by calling [**MapGpuVirtualAddressCb**](nc-d3dkmthk-pfnd3dkmt_mapgpuvirtualaddress.md).
 
-The user-mode driver can specify whether the mapping should allow for write and execute privileges in addition to read privileges, which always exist by default.
+The driver can specify whether the mapping should allow for write and execute privileges in addition to read privileges, which always exist by default.
 
 In the linked display adapter (LDA) configuration, the paging queue defines a physical GPU whose page tables are modified, and the allocation handle (if not NULL) defines where the page table entries are pointing to. The allocation can be resident in any physical GPU memory segment.
 
-The GPU VA range, which is allocated by the API, is freed when the allocation (the GPU VA is mapped to) is destroyed. The VA range can also be freed by calling [**D3DMTFreeGpuVirtualAddress**](../d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md), but this needs to be synchronized with allocation destruction if necessary.
+The GPU VA range, which is allocated by the API, is freed when the allocation (the GPU VA is mapped to) is destroyed. The VA range can also be freed by calling [**D3DKMTFreeGpuVirtualAddress**](../d3dkmthk/nf-d3dkmthk-d3dkmtfreegpuvirtualaddress.md), but this needs to be synchronized with allocation destruction if necessary.
 
 ## -see-also
 

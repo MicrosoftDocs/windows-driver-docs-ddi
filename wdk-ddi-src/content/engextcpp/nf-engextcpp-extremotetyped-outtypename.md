@@ -47,11 +47,10 @@ api_name:
 
 The <b>OutTypeName</b> method prints the type name of the typed data represented by this object.
 
-## -returns
-
-This method does not return a value.
-
 ## -remarks
 
 The type name is sent to the debugger engine's output callbacks.
 
+### Returns
+
+This method does not return a value.

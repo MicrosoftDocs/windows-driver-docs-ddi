@@ -93,7 +93,7 @@ Notifies the miniport that the unit has been surprise-removed. Storport calls [*
 
 ### -field ScsiUnitRichDescription
 
-The miniport can choose to support this if the device reports a longer vendor ID, model number, or firmware revision than is defined in the SCSI spec. Storport calls [**HwStorUnitControl**](nc-storport-hw_unit_control.md) with this control type and **Parameters** pointing to a [**STOR_RICH_DEVICE_DESCRIPTION**](ns-storport-stor_rich_device_description.md) structure.
+The miniport can choose to support this if the device reports a longer vendor ID, model number, or firmware revision than is defined in the SCSI spec. Storport calls [**HwStorUnitControl**](nc-storport-hw_unit_control.md) with this control type and **Parameters** pointing to a [**STOR_RICH_DEVICE_DESCRIPTION**](ns-storport-_stor_rich_device_description.md) structure.
 
 ### -field ScsiUnitQueryBusType
 

@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFActions2::get_Count
 
-
 ## -description
 
 Gets the number of actions in this collection.
@@ -51,10 +50,8 @@ Gets the number of actions in this collection.
 
 ### -param pVal [out]
 
-
 The number of actions.
 
-## -returns
+### -returns
 
 If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
-

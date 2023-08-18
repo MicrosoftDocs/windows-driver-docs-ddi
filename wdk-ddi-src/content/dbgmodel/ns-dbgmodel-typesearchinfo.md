@@ -2,7 +2,7 @@
 UID: NS:dbgmodel.TypeSearchInfo
 title: TypeSearchInfo (dbgmodel.h)
 description: The TypeSearchInfo (dbgmodel.h) structure contains a search record passed to EnumerateChildrenEx specifically for SymbolType searches.
-ms.date: 07/26/2023
+ms.date: 08/15/2023
 keywords: ["TypeSearchInfo structure"]
 ms.keywords: TypeSearchInfo, ,
 req.header: dbgmodel.h
@@ -46,10 +46,10 @@ The search record passed to EnumerateChildrenEx specifically for SymbolType sear
 
 Defines the type being searched for.
 
-### -field SymbolSearchInfo
-
-The the search record used to restrict symbol searches.
-
 ## -remarks
 
+Use **SymbolSearchInfo** to describe the search record used to restrict symbol searches.
+
 ## -see-also
+
+[Debugger Data Model C++ Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

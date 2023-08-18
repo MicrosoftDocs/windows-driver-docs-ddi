@@ -42,18 +42,21 @@ api_name:
 
 # IWDTFDeviceDepot2::get__NewEnum
 
-
 ## -description
 
-Gets a new iteration variable that the <b>For Each</b> 
-loop structure implicitly uses.
+Gets a new iteration variable that the <b>For Each</b> loop structure implicitly uses.
 
 This property is read-only.
 
+## -parameters
+
+### -param ppNewEnum
+
+## -returns
+
 ## -remarks
 
-You cannot access the <b>_NewEnum</b> property from the 
-JScript programming language.
+You cannot access the <b>_NewEnum</b> property from the JScript programming language.
 
 You must use the Active Template Library (ATL) to implement this functionality. 
 For more information about how ATL implements this functionality, see the 

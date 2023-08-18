@@ -4,7 +4,7 @@ title: IDebugSymbols3::GetSourceEntriesByLine (dbgeng.h)
 description: The GetSourceEntriesByLine method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
 old-location: debugger\getsourceentriesbyline.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 08/10/2023
 keywords: ["IDebugSymbols3::GetSourceEntriesByLine"]
 ms.keywords: GetSourceEntriesByLine, GetSourceEntriesByLine method [Windows Debugging], GetSourceEntriesByLine method [Windows Debugging],IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging],GetSourceEntriesByLine method, IDebugSymbols3.GetSourceEntriesByLine, IDebugSymbols3::GetSourceEntriesByLine, IDebugSymbols_b750f895-6583-49a6-be03-c373f89808a7.xml, dbgeng/IDebugSymbols3::GetSourceEntriesByLine, debugger.getsourceentriesbyline
 req.header: dbgeng.h
@@ -42,7 +42,6 @@ api_name:
 
 # IDebugSymbols3::GetSourceEntriesByLine
 
-
 ## -description
 
 The <b>GetSourceEntriesByLine</b>  method queries symbol information and returns locations in the target's memory that correspond to lines in a source file.
@@ -51,16 +50,13 @@ The <b>GetSourceEntriesByLine</b>  method queries symbol information and returns
 
 ### -param Line [in]
 
-
 Specifies the line in the source file for which to query.  The number for the first line is <b>1</b>.
 
 ### -param File [in]
 
-
 Specifies the source file.  The symbols for each module in the target are queried for this file.
 
 ### -param Flags [in]
-
 
 Specifies bit flags that control the behavior of this method.  <i>Flags</i> can be any combination of values from the following table.
 
@@ -112,23 +108,18 @@ Only return at most one result.  If DEBUG_GSEL_ALLOW_LOWER or DEBUG_GSEL_ALLOW_H
 </td>
 </tr>
 </table>
- 
 
 To use the default set of flags, set <i>Flags</i> to DEBUG_GSEL_DEFAULT.  This has all the flags in the previous table turned off.
 
-### -param Entries [out, optional]
-
+### -param Entries [out, writes, optional]
 
 Receives the locations in the target's memory that correspond to the source lines queried for.  Each entry in this array is of type <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_symbol_source_entry">DEBUG_SYMBOL_SOURCE_ENTRY</a> and contains the source line number along with a location in the target's memory.
 
 ### -param EntriesCount [in]
 
-
 Specifies the number of entries in the <i>Entries</i> array.
 
-### -param EntriesAvail
-
-### -param EntriesAvailable [out, optional]
+### -param EntriesAvail [out, optional]
 
 Receives the number of locations that match the query found in the target's memory.
 

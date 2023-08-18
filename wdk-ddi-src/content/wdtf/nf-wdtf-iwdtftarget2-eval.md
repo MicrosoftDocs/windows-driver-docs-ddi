@@ -51,11 +51,9 @@ Evaluate whether this target matches an SDEL statement.
 
 ### -param SDEL [in]
 
-
 The SDEL statement.
 
 ### -param pResult [out, retval]
-
 
 True if the SDEL statement matches this target; 
 otherwise, alse.

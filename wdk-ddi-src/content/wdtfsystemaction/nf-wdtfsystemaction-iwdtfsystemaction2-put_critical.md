@@ -50,7 +50,7 @@ This property is read/write.
 
 ## -parameters
 
-### -param pbCritical
+### -param bCritical
 
 A value that indicates whether the system power state is critical.
 

@@ -4,7 +4,7 @@ title: IDebugControl::GetStackTrace (dbgeng.h)
 description: Learn how the GetStackTrace method returns the frames at the top of the specified call stack.
 old-location: debugger\getstacktrace.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 08/15/2023
 keywords: ["IDebugControl::GetStackTrace"]
 ms.keywords: GetStackTrace, GetStackTrace method [Windows Debugging], GetStackTrace method [Windows Debugging],IDebugControl interface, GetStackTrace method [Windows Debugging],IDebugControl2 interface, GetStackTrace method [Windows Debugging],IDebugControl3 interface, IDebugControl interface [Windows Debugging],GetStackTrace method, IDebugControl.GetStackTrace, IDebugControl2 interface [Windows Debugging],GetStackTrace method, IDebugControl2::GetStackTrace, IDebugControl3 interface [Windows Debugging],GetStackTrace method, IDebugControl3::GetStackTrace, IDebugControl::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, dbgeng/IDebugControl2::GetStackTrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl::GetStackTrace, debugger.getstacktrace
 req.header: dbgeng.h
@@ -60,11 +60,11 @@ Specifies the location of the current stack.  If <i>StackOffset</i> is set to ze
 
 Specifies the location of the instruction of interest for the function that is represented by the stack frame at the top of the stack.  If <i>InstructionOffset</i> is set to zero, the current instruction is used instead.
 
-### -param Frames [out]
+### -param Frames [out, writes]
 
 Receives the stack frames.  The number of elements this array holds is <i>FrameSize</i>.
 
-### -param FrameSize [in]
+### -param FramesSize [in]
 
 Specifies the number of items in the <i>Frames</i> array.
 

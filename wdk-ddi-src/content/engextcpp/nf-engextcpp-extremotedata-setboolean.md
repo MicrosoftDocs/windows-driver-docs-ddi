@@ -4,7 +4,7 @@ title: ExtRemoteData::SetBoolean method (engextcpp.h)
 description: The SetBoolean convenience method is provided by the ExtRemoteData class, which provides a wrapper for a small section of a target's memory.
 old-location: debugger\extremotedata.htm
 tech.root: debugger
-ms.date: 01/19/2018
+ms.date: 08/11/2023
 keywords: ["ExtRemoteData::SetBoolean method"]
 ms.keywords: ExtRemoteData class [Windows Debugging], described, EngExtCpp_Ref_e84c03ce-1156-481b-a429-f0a918797565.xml, Clear, debugger.extremotedata, ExtRemoteData class [Windows Debugging], ExtRemoteData, engextcpp/ExtRemoteData, ExtRemoteData::SetBoolean, ExtRemoteData::Clear, SetBoolean
 req.header: engextcpp.hpp
@@ -41,7 +41,6 @@ api_name:
 ---
 
 # ExtRemoteData::SetBoolean method
-
 
 ## -description
 
@@ -255,6 +254,12 @@ The DEBUG_PHYSICAL_<i>XXX</i> flags used for accessing physical memory on the ta
 
 </dd>
 </dl>
+
+## -parameters
+
+### -param Data
+
+See description.
 
 ## -see-also
 

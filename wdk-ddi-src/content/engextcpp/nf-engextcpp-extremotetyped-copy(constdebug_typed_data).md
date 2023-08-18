@@ -4,7 +4,7 @@ title: ExtRemoteTyped::Copy (engextcpp.h)
 description: The Copy method sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
 old-location: debugger\extremotetyped_copy_debug_typed_data.htm
 tech.root: debugger
-ms.date: 04/24/2018
+ms.date: 08/11/2023
 keywords: ["ExtRemoteTyped::Copy"]
 ms.keywords: Copy, Copy method [Windows Debugging], Copy method [Windows Debugging],ExtRemoteTyped class, ExtRemoteTyped class [Windows Debugging],Copy method, ExtRemoteTyped.Copy, ExtRemoteTyped.Copy(const DEBUG_TYPED_DATA*), ExtRemoteTyped::Copy, debugger.extremotetyped_copy_debug_typed_data
 req.header: engextcpp.hpp
@@ -51,16 +51,15 @@ The <b>Copy</b> method sets the typed data represented by the <a href="/windows-
 
 ### -param Typed [in]
 
-
 The typed data description to copy. This becomes the typed data represented by this object.
-
-## -returns
-
-This method does not return a value.
 
 ## -remarks
 
 The typed data can also be copied using the <a href="/windows-hardware/drivers/ddi/engextcpp/nf-engextcpp-extremotetyped-copy(constextremotetyped_)">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
+
+### Returns
+
+This method does not return a value.
 
 ## -see-also
 

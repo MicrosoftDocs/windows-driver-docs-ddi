@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::put_SleepWakeTimeInSeconds (wdtfsystemaction.h)
 description: Sets or gets the time in seconds when the system will wake from the sleep state.
 old-location: dtf\iwdtfsystemaction2_sleepwaketimeinseconds.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/10/2023
 keywords: ["IWDTFSystemAction2::put_SleepWakeTimeInSeconds"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],SleepWakeTimeInSeconds property, IWDTFSystemAction2.SleepWakeTimeInSeconds, IWDTFSystemAction2.put_SleepWakeTimeInSeconds, IWDTFSystemAction2::SleepWakeTimeInSeconds, IWDTFSystemAction2::get_SleepWakeTimeInSeconds, IWDTFSystemAction2::put_SleepWakeTimeInSeconds, Microsoft.WDTF.IWDTFSystemAction2.SleepWakeTimeInSeconds, Microsoft::WDTF::IWDTFSystemAction2::SleepWakeTimeInSeconds, SleepWakeTimeInSeconds property [Windows Device Testing Framework], SleepWakeTimeInSeconds property [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_sleepwaketimeinseconds, put_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::get_SleepWakeTimeInSeconds, wdtfsystemaction/IWDTFSystemAction2::put_SleepWakeTimeInSeconds
 req.header: wdtfsystemaction.h
@@ -50,7 +50,7 @@ This property is read/write.
 
 ## -parameters
 
-### -param  nWakeTimeInSeconds
+### -param  nWakeTimeInSeconds [in]
 
 The time in seconds when the system will wake from the sleep state.
 
@@ -61,4 +61,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-

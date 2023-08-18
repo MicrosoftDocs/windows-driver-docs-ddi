@@ -4,7 +4,7 @@ title: IWDTFActions2::get__NewEnum (wdtf.h)
 description: Gets a new iteration variable that the For Each loop structure implicitly uses.
 old-location: dtf\iwdtfactions2__newenum.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/14/2023
 keywords: ["IWDTFActions2::get__NewEnum"]
 ms.keywords: IWDTFActions2 interface [Windows Device Testing Framework],_NewEnum method, IWDTFActions2.get__NewEnum, IWDTFActions2::_NewEnum, IWDTFActions2::get__NewEnum, _NewEnum method [Windows Device Testing Framework], _NewEnum method [Windows Device Testing Framework],IWDTFActions2 interface, dtf.iwdtfactions2__newenum, get__NewEnum, wdtf/IWDTFActions2::_NewEnum
 req.header: wdtf.h
@@ -42,16 +42,13 @@ api_name:
 
 # IWDTFActions2::get__NewEnum
 
-
 ## -description
 
-Gets a new iteration variable that the <b>For Each</b> 
-loop structure implicitly uses.
+Gets a new iteration variable that the <b>For Each</b> loop structure implicitly uses.
 
 ## -parameters
 
 ### -param ppNewEnum [out]
-
 
 The iteration variable.
 
@@ -61,10 +58,6 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 ## -remarks
 
-You cannot access the <b>_NewEnum</b> property from the 
-JScript programming language.
+You cannot access the <b>_NewEnum</b> property from the JScript programming language.
 
-You must use the Active Template Library (ATL) to implement this functionality. 
-For more information about how ATL implements this functionality, see the 
-<b>ICollectionOnSTLImpl </b>interface in the MSDN Library.
-
+You must use the Active Template Library (ATL) to implement this functionality. For more information about how ATL implements this functionality, see the <b>ICollectionOnSTLImpl </b>interface in the MSDN Library.
