@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_ADD_PF (kdnetpf.h)
 ms.date: 07/27/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_ADD_PF" 
+description: "KDNETPF transport support API - The NDIS_KDNET_ADD_PF structure describes the data required to add a PF to the BDF port." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -63,6 +63,6 @@ One element containing the added PF port number.
 
 ## -see-also
 
-[kdnetpf.h](kdnetpf.md)
+[kdnetpf.h](index.md)
 
 [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

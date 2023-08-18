@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_ENUMERATE_PFS (kdnetpf.h)
 ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API -The NDIS_KDNET_ENUMERATE_PFS structure describes the data required to enumerate the list of PF." 
+description: "KDNETPF transport support API -The NDIS_KDNET_ENUMERATE_PFS structure describes the data required to enumerate the list of PF." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -71,6 +71,6 @@ Offset value to the first element of the returned array. Each array element is d
 
 ## -see-also
 
-[kdnetpf.h](kdnetpf.md)
+[kdnetpf.h](index.md)
 
 [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

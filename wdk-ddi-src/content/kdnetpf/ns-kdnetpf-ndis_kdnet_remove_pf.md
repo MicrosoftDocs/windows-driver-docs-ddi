@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_REMOVE_PF (kdnetpf.h)
 ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API - NDIS_KDNET_REMOVE_PF" 
+description: "KDNETPF transport support API - The NDIS_KDNET_REMOVE_PF structure describes the data required to remove a PF from the BDF port." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -67,6 +67,6 @@ The one element containing the removed PF port.
 
 ## -see-also
 
-[kdnetpf.h](kdnetpf.md)
+[kdnetpf.h](index.md)
 
 [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

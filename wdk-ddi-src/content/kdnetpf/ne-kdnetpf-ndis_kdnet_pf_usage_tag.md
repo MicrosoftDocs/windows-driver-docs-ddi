@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_PF_USAGE_TAG (kdnetpf.h)
 ms.date: 08/18/2023
 targetos: Windows
-description: "The KDNETPF transport support API  NDIS_KDNET_PF_USAGE_TAG defines the PF usage." 
+description: "KDNETPF transport support API - The NDIS_KDNET_PF_USAGE_TAG defines the PF usage." 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ helpviewer_keywords:
 ## -description
 
 The **NDIS_KDNET_PF_USAGE_TAG** enumeration defines the PF usage. It is ued to indicate the entity that owns the PF.
-It is used by the query NdisKdnetQueryUsageTag.
+It is used by the query NdisKdnetQueryUsageTag. TBD - locate this  >>> could be NDIS_KDNET_QUERY_PF_INFORMATION?
 
 ## -enum-fields
 
@@ -54,11 +54,12 @@ The usage is unknown.
 
 ### -field NdisKdnetPfUsageKdModule
 
+The usage is a KdModule.
 
 ## -remarks
 
 ## -see-also
 
-[kdnetpf.h](kdnetpf.md)
+[kdnetpf.h](index.md)
 
 [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

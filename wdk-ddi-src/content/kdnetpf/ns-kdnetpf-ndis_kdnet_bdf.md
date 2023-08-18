@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_BDF (kdnetpf.h)
 ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API - NDIS_KDNET_BDF" 
+description: "KDNETPF transport support API - The NDIS_KDNET_BDF structure describes the PCI location of the port to query." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -75,6 +75,6 @@ This field is reserved. Set to TBD.
 
 ## -see-also
 
-[kdnetpf.h](kdnetpf.md)
+[kdnetpf.h](index.md)
 
 [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

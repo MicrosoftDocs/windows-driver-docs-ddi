@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_QUERY_PF_INFORMATION (kdnetpf.h)
 ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_QUERY_PF_INFORMATION" 
+description: "KDNETPF transport support API - The NDIS_KDNET_QUERY_PF_INFORMATION structure describes the data required to query the PF management data." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -67,7 +67,7 @@ The PF assigned MAC address.
 
 ### -field UsageTag
 
-The PF Usage tag described by [NDIS_KDNET_PF_USAGE_TAG](ne-kdnetpf-ndis_kdnet_pf_usage_tag.md)
+The PF Usage tag described by [NDIS_KDNET_PF_USAGE_TAG](ne-kdnetpf-ndis_kdnet_pf_usage_tag.md).
 
 ### -field MaximumNumberOfSupportedPfs
 
@@ -81,6 +81,6 @@ The KDNET PF device ID. It is used if there is a new added PF and the FW assigns
 
 ## -see-also
 
-[kdnetpf.h](kdnetpf.md)
+[kdnetpf.h](index.md)
 
 [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)
