@@ -2,9 +2,9 @@
 UID: NS:kdnetpf._NDIS_KDNET_ENUMERATE_PFS
 tech.root: debugger
 title: NDIS_KDNET_ENUMERATE_PFS (kdnetpf.h)
-ms.date: 07/27/2023
+ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API -_NDIS_KDNET_ENUMERATE_PFS" 
+description: "Learn more about the KDNETPF transport support API -The NDIS_KDNET_ENUMERATE_PFS structure describes the data required to enumerate the list of PF." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -47,18 +47,30 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_KDNET_ENUMERATE_PFS**  structure describes the data required to enumerate the list of PF. It is used by OID_KDNET_ENUMERATE_PFS.
+
 ## -struct-fields
 
 ### -field Header
 
+A [NDIS_OBJECT_HEADER structure](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header) used to package the object type, version, and size information that is required in many NDIS 6.0 structures.
+
 ### -field ElementSize
+
+The size of each element is the sizeof(NDIS_KDNET_PF_ENUM_ELEMENT).
 
 ### -field NumberOfElements
 
+The number of elements in the returned array.
+
 ### -field OffsetToFirstElement
+
+Offset value to the first element of the returned array. Each array element is defined by [NDIS_KDNET_PF_ENUM_ELEMENT](ns-kdnetpf-ndis_kdnet_pf_enum_element.md).
 
 ## -remarks
 
 ## -see-also
 
 [kdnetpf.h](kdnetpf.md)
+
+[Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

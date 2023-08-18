@@ -2,9 +2,9 @@
 UID: NS:kdnetpf._NDIS_KDNET_PF_ENUM_ELEMENT
 tech.root: debugger
 title: NDIS_KDNET_PF_ENUM_ELEMENT (kdnetpf.h)
-ms.date: 07/27/2023
+ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_PF_ENUM_ELEMENT" 
+description: "Learn more about the KDNETPF transport support API - The NDIS_KDNET_PF_ENUM_ELEMENT is a PF element array structure." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -47,16 +47,26 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_KDNET_PF_ENUM_ELEMENT** is a PF element array structure.
+
 ## -struct-fields
 
 ### -field Header
 
+A [NDIS_OBJECT_HEADER structure](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header) used to package the object type, version, and size information that is required in many NDIS 6.0 structures.
+
 ### -field PfNumber
 
+The PF value (e.g. if `<bus.dev.fun>`, then PF value = fun)
+
 ### -field PfState
+
+The PF state value defined by [NDIS_KDNET_PF_STATE](ne-kdnetpf-ndis_kdnet_pf_state.md).
 
 ## -remarks
 
 ## -see-also
 
 [kdnetpf.h](kdnetpf.md)
+
+[Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

@@ -2,7 +2,7 @@
 UID: NS:kdnetpf._NDIS_KDNET_REMOVE_PF
 tech.root: debugger
 title: NDIS_KDNET_REMOVE_PF (kdnetpf.h)
-ms.date: 07/27/2023
+ms.date: 08/18/2023
 targetos: Windows
 description: "Learn more about the KDNETPF transport support API - NDIS_KDNET_REMOVE_PF" 
 prerelease: false
@@ -47,16 +47,26 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_KDNET_REMOVE_PF** structure describes the data required to remove a PF from the BDF port. It is used by OID_KDNET_REMOVE_PF.
+
 ## -struct-fields
 
 ### -field Header
 
+A [NDIS_OBJECT_HEADER structure](/windows-hardware/drivers/ddi/objectheader/ns-objectheader-ndis_object_header) used to package the object type, version, and size information that is required in many NDIS 6.0 structures.
+
 ### -field Bdf
 
+The PCI location that points to the PF that needs to be removed.
+
 ### -field FunctionNumber
+
+The one element containing the removed PF port.
 
 ## -remarks
 
 ## -see-also
 
 [kdnetpf.h](kdnetpf.md)
+
+[Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

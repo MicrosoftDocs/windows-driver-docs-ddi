@@ -2,7 +2,7 @@
 UID: NS:kdnetpf._NDIS_KDNET_BDF
 tech.root: debugger
 title: NDIS_KDNET_BDF (kdnetpf.h)
-ms.date: 07/27/2023
+ms.date: 08/18/2023
 targetos: Windows
 description: "Learn more about the KDNETPF transport support API - NDIS_KDNET_BDF" 
 prerelease: false
@@ -47,20 +47,34 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_KDNET_BDF** structure describes the PCI location of the port to query.
+
 ## -struct-fields
 
 ### -field SegmentNumber
 
+The PCI SegmentNumber.
+
 ### -field BusNumber
+
+The PCI BusNumber.
 
 ### -field DeviceNumber
 
+The PCI DeviceNumber.
+
 ### -field FunctionNumber
 
+The PCI Function Number.
+
 ### -field Reserved
+
+This field is reserved. Set to TBD.
 
 ## -remarks
 
 ## -see-also
 
 [kdnetpf.h](kdnetpf.md)
+
+[Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)

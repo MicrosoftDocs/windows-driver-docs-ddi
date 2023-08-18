@@ -2,9 +2,9 @@
 UID: NE:kdnetpf._NDIS_KDNET_PF_STATE
 tech.root: debugger
 title: NDIS_KDNET_PF_STATE (kdnetpf.h)
-ms.date: 07/27/2023
+ms.date: 08/18/2023
 targetos: Windows
-description: "Learn more about the KDNETPF transport support API - _NDIS_KDNET_PF_STATE" 
+description: "KDNETPF transport support API - The NDIS_KDNET_PF_STATE enumeration defines the PF state." 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -43,16 +43,26 @@ helpviewer_keywords:
 
 ## -description
 
+The **NDIS_KDNET_PF_STATE** enumeration defines the PF state.
+
 ## -enum-fields
 
 ### -field NdisKdNetPfStatePrimary
 
+This is a primary PF and it's usually used only by the miniport driver.
+
 ### -field NdisKdnetPfStateEnabled
 
+This is an added secondary PF, that is used by KDNET.
+
 ### -field NdisKdnetPfStateConfigured
+
+This is an added PF, but it is only added/configured and is not used.
 
 ## -remarks
 
 ## -see-also
 
 [kdnetpf.h](kdnetpf.md)
+
+[Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)
