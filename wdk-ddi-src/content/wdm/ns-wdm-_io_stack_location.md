@@ -3,7 +3,7 @@ UID: NS:wdm._IO_STACK_LOCATION
 title: IO_STACK_LOCATION (wdm.h)
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
 tech.root: kernel
-ms.date: 12/16/2022
+ms.date: 08/16/2023
 keywords: ["IO_STACK_LOCATION structure"]
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 req.header: wdm.h
@@ -334,6 +334,8 @@ System service parameters for **MountVolume**.
 
 ### -field Parameters.MountVolume.DeviceObject
 
+### -field Parameters.MountVolume.OutputBufferLength
+
 ### -field Parameters.VerifyVolume
 
 System service parameters for **VerifyVolume**.
@@ -436,7 +438,7 @@ Parameters for IRP_MN_DEVICE_USAGE_NOTIFICATION.
 
 ### -field Parameters.UsageNotification.InPath
 
-### -field Parameters.UsageNotification.Reserved
+### -field Parameters.UsageNotification.Reserved[3]
 
 ### -field Parameters.UsageNotification.Type
 

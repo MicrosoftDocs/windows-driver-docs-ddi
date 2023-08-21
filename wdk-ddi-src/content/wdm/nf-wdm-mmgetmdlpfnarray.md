@@ -2,7 +2,7 @@
 UID: NF:wdm.MmGetMdlPfnArray
 tech.root: kernel
 title: MmGetMdlPfnArray (wdm.h)
-ms.date: 01/06/2023
+ms.date: 08/16/2023
 targetos: Windows
 description: The MmGetMdlPfnArray macro returns a pointer to the beginning of the array of physical page numbers that are associated with a memory descriptor list (MDL).
 prerelease: false
@@ -52,7 +52,7 @@ A pointer to an MDL.
 
 ## -returns
 
-Returns a pointer to the beginning of the array of physical page numbers that are associated with the MDL.
+**MmGetMdlPfnArray** returns a pointer to the beginning of the array of physical page numbers that are associated with the MDL.
 
 ## -remarks
 

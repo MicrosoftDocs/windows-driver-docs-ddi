@@ -2,7 +2,7 @@
 UID: NE:wdm._IOMMU_DMA_DOMAIN_TYPE
 tech.root: kernel
 title: IOMMU_DMA_DOMAIN_TYPE
-ms.date: 06/13/2021
+ms.date: 08/17/2023
 targetos: Windows
 description: Describes the domain types that can be created and interacted with via the DMA_IOMMU_INTERFACE_EX.
 prerelease: false
@@ -56,6 +56,10 @@ Represents a passthrough domain. Calls to map and unmap are not necessary. Depen
 
 This is a remapping domain in which the page table is owned by the caller. The caller is responsible for interacting with the IOMMU Interface to provide its page table as well as performing necessary IOMMU TLB flushes.
 
+### -field DomainTypeTranslateS1
+
+Defines the **DomainTypeTranslateS1** constant.
+
 ### -field DomainTypeMax
 
 Invalid domain type.
@@ -64,7 +68,7 @@ Invalid domain type.
 
 ## -see-also
 
-[*IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md)
+[**IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md)
 
 [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md)
 

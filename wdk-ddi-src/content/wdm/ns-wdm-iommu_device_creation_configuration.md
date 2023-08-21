@@ -2,7 +2,7 @@
 UID: NS:wdm._IOMMU_DEVICE_CREATION_CONFIGURATION
 tech.root: kernel
 title: IOMMU_DEVICE_CREATION_CONFIGURATION (wdm.h)
-ms.date: 03/02/2022
+ms.date: 08/17/2023
 targetos: Windows
 description: IOMMU_DEVICE_CREATION_CONFIGURATION describes a configuration or list of configurations to be used as part of creation and initialization of an IOMMU_DMA_DEVICE.
 prerelease: false
@@ -65,6 +65,10 @@ If `(ConfigType == IommuDeviceCreationConfigTypeAcpi)`, provides the input param
 ### -field DeviceId
 
 Defines the **PVOID** member **DeviceId**.
+
+### -field Pasid
+
+Defines the **IOMMU_DEVICE_CREATION_CONFIGURATION_PASID** member **Pasid**.
 
 ## -remarks
 

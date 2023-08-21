@@ -2,7 +2,7 @@
 UID: NS:wdm._POOL_CREATE_EXTENDED_PARAMS
 tech.root: kernel
 title: POOL_CREATE_EXTENDED_PARAMS
-ms.date: 06/13/2021
+ms.date: 08/17/2023
 targetos: Windows
 description: Defines the POOL_CREATE_EXTENDED_PARAMS structure.
 req.construct-type: structure
@@ -49,6 +49,17 @@ Defines the **POOL_CREATE_EXTENDED_PARAMS** structure.
 
 ### -field Version
 
+Defines the **ULONG** member **Version**.
+
+### -field ParameterCount
+
+Defines the **ULONG** member **ParameterCount**.
+
+### -field Parameters
+
+Defines the **PPOOL_CREATE_EXTENDED_PARAMETER** member **Parameters**.
+
 ## -remarks
 
 ## -see-also
+
