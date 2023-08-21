@@ -2,9 +2,9 @@
 UID: NE:kdnetpf._NDIS_KDNET_PF_STATE
 tech.root: debugger
 title: NDIS_KDNET_PF_STATE (kdnetpf.h)
-ms.date: 08/18/2023
+ms.date: 08/21/2023
 targetos: Windows
-description: "KDNETPF transport support API - The NDIS_KDNET_PF_STATE enumeration defines the PF state." 
+description: "The KDNETPF transport support NDIS_KDNET_PF_STATE enumeration defines the PF state." 
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

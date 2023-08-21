@@ -2,9 +2,9 @@
 UID: NS:kdnetpf._NDIS_KDNET_QUERY_PF_INFORMATION
 tech.root: debugger
 title: NDIS_KDNET_QUERY_PF_INFORMATION (kdnetpf.h)
-ms.date: 08/18/2023
+ms.date: 08/21/2023
 targetos: Windows
-description: "KDNETPF transport support API - The NDIS_KDNET_QUERY_PF_INFORMATION structure describes the data required to query the PF management data." 
+description: "KDNETPF transport support API NDIS_KDNET_QUERY_PF_INFORMATION structure describes the data required to query the PF management data." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

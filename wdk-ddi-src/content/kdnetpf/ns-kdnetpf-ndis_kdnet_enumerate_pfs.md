@@ -2,9 +2,9 @@
 UID: NS:kdnetpf._NDIS_KDNET_ENUMERATE_PFS
 tech.root: debugger
 title: NDIS_KDNET_ENUMERATE_PFS (kdnetpf.h)
-ms.date: 08/18/2023
+ms.date: 08/21/2023
 targetos: Windows
-description: "KDNETPF transport support API -The NDIS_KDNET_ENUMERATE_PFS structure describes the data required to enumerate the list of PF." 
+description: "The KDNETPF transport support NDIS_KDNET_ENUMERATE_PFS structure describes the data required to enumerate the list of PF." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

@@ -4,7 +4,7 @@ tech.root: debugger
 title: NDIS_KDNET_PF_ENUM_ELEMENT (kdnetpf.h)
 ms.date: 08/18/2023
 targetos: Windows
-description: "KDNETPF transport support API - The NDIS_KDNET_PF_ENUM_ELEMENT is a PF element array structure." 
+description: "KDNETPF transport support API NDIS_KDNET_PF_ENUM_ELEMENT is a PF element array structure." 
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

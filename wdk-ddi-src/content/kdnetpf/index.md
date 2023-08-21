@@ -4,7 +4,7 @@ description: "KDNETPF transport support APIs in the kdnetpf.h header"
 title: kdnetpf.h header
 ms.topic: overview
 tech.root: debugger
-ms.date: 08/18/2023
+ms.date: 08/21/2023
 f1_keywords:
  - kdnetpf
  - kdnetpf/kdnetpf
@@ -29,4 +29,4 @@ The PF supports the SR-IOV Extended Capability structure in its PCIe configurati
 For more information, see the following topics:
 
 - [Debugger 2PF KDNET Support](/windows-hardware/drivers/network/debugger-2pf-kdnet-support)
-- [Debugger](../_debugger/index.md)
+- [Debugger APIs](../_debugger/index.md)
