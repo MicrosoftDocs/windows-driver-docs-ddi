@@ -54,6 +54,10 @@ This topic describes the **IOMMU_DEVICE_CREATION_CONFIGURATION_PASID** structure
 
 Defines the **IOMMU_PASID_CONFIGURATION_TYPE** member **ConfigType**.
 
+### -field SuppressPasidFaults
+
+Faults related to PASID-tagged DMA traffic can be silenced. By default, even if not specified here, faults are fatal.
+
 ## -remarks
 
 ## -see-also
