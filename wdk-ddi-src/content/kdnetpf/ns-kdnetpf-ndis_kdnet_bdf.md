@@ -2,7 +2,7 @@
 UID: NS:kdnetpf._NDIS_KDNET_BDF
 tech.root: debugger
 title: NDIS_KDNET_BDF (kdnetpf.h)
-ms.date: 08/18/2023
+ms.date: 08/22/2023
 targetos: Windows
 description: "The KDNETPF transport support NDIS_KDNET_BDF structure describes the PCI location of the port to query." 
 prerelease: false
@@ -69,7 +69,7 @@ The PCI Function Number.
 
 ### -field Reserved
 
-This field is reserved.
+This field is reserved. Do not use.
 
 ## -remarks
 
