@@ -210,10 +210,6 @@ An opaque pointer to the head of the IRP list associated with the file object.
 
 An opaque pointer to the file object's file object extension ([FOBX](/windows-hardware/drivers/ifs/the-fobx-structure)) structure. The **FOBX** structure contains various opaque contexts used internally as well as the per-file object contexts available through **FsRtl*Xxx*** routines.
 
-### -field _IOP_FILE_OBJECT_EXTENSION
-
-Defines the **struct** member **_IOP_FILE_OBJECT_EXTENSION**.
-
 ## -remarks
 
 Drivers can use the **FsContext** and **FsContext2** members to maintain driver-determined state about an open file object. A driver cannot use these members unless the file object is accessible in the driver's I/O stack location of an IRP.

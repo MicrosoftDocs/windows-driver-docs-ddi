@@ -334,8 +334,6 @@ System service parameters for **MountVolume**.
 
 ### -field Parameters.MountVolume.DeviceObject
 
-### -field Parameters.MountVolume.OutputBufferLength
-
 ### -field Parameters.VerifyVolume
 
 System service parameters for **VerifyVolume**.

@@ -58,10 +58,6 @@ Provides ACPI device specific parameters. This is currently used for ARM64 only.
 
 Defines the **IommuDeviceCreationConfigTypeDeviceId** constant.
 
-### -field IommuDeviceCreationConfigTypePasid
-
-Defines the **IommuDeviceCreationConfigTypePasid** constant.
-
 ### -field IommuDeviceCreationConfigTypeMax
 
 Invalid type.

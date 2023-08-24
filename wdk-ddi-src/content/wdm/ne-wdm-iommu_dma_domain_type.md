@@ -56,10 +56,6 @@ Represents a passthrough domain. Calls to map and unmap are not necessary. Depen
 
 This is a remapping domain in which the page table is owned by the caller. The caller is responsible for interacting with the IOMMU Interface to provide its page table as well as performing necessary IOMMU TLB flushes.
 
-### -field DomainTypeTranslateS1
-
-Defines the **DomainTypeTranslateS1** constant.
-
 ### -field DomainTypeMax
 
 Invalid domain type.

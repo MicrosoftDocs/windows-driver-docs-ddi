@@ -66,10 +66,6 @@ If `(ConfigType == IommuDeviceCreationConfigTypeAcpi)`, provides the input param
 
 Defines the **PVOID** member **DeviceId**.
 
-### -field Pasid
-
-Defines the **IOMMU_DEVICE_CREATION_CONFIGURATION_PASID** member **Pasid**.
-
 ## -remarks
 
 If the device is an ACPI device on an ARM64 system, then an **IOMMU_DEVICE_CREATION_CONFIGURATION** structure must be provided during device creation, `ConfigType = IommuDeviceCreationConfigTypeAcpi`, and ACPI-specific parameters must be provided through [**IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI**](ns-wdm-iommu_device_creation_configuration_acpi.md) in the `Acpi` field.

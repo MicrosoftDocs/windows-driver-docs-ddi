@@ -358,26 +358,6 @@ A [**FILE_CASE_SENSITIVE_INFORMATION**](../ntifs/ns-ntifs-_file_case_sensitive_i
 
 A [**FILE_KNOWN_FOLDER_INFORMATION**](../ntifs/ns-ntifs-file_known_folder_information.md) structure, declared in ntifs.h. This value is available starting with Windows Server 2022.
 
-### -field FileStatBasicInformation
-
-A **FileStatBasicInformation** stucture.
-
-### -field FileId64ExtdDirectoryInformation
-
-A **FileId64ExtdDirectoryInformation** stucture.
-
-### -field FileId64ExtdBothDirectoryInformation
-
-A **FileId64ExtdBothDirectoryInformation** stucture.
-
-### -field FileIdAllExtdDirectoryInformation
-
-A **FileIdAllExtdDirectoryInformation** stucture.
-
-### -field FileIdAllExtdBothDirectoryInformation
-
-A **FileIdAllExtdBothDirectoryInformation** stucture.
-
 ### -field FileMaximumInformation
 
 This value is reserved for system use. This value is available starting with Windows 7.
@@ -476,12 +456,7 @@ typedef enum _FILE_INFORMATION_CLASS {
     FileStorageReserveIdInformation,                // 74
     FileCaseSensitiveInformationForceAccessCheck,   // 75
     FileKnownFolderInformation,                     // 76
-    FileStatBasicInformation,                       // 77
-    FileId64ExtdDirectoryInformation,               // 78
-    FileId64ExtdBothDirectoryInformation,           // 79
-    FileIdAllExtdDirectoryInformation,              // 80
-    FileIdAllExtdBothDirectoryInformation,          // 81
-
+ 
     FileMaximumInformation
 } FILE_INFORMATION_CLASS, *PFILE_INFORMATION_CLASS;
 ```
