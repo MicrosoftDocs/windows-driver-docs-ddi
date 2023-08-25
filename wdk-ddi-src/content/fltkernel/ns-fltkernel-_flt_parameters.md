@@ -105,6 +105,8 @@ The following I/O operations do not have parameters, and therefore do not have a
 - IRP_MJ_SHUTDOWN
 - IRP_MJ_VOLUME_DISMOUNT
 
+Note that the terms "acquire" or "release" in some operation names, such as `IRP_MJ_ACQUIRE_FOR_CC_FLUSH` and `IRP_MJ_RELEASE_FOR_CC_FLUSH`, do not imply any guarantees that a minifilter will always see both operations. Just as with operations such as `IRP_MJ_CREATE` and `IRP_MJ_CLEANUP`, a minifilter may be prevented from observing the second operation by other factors, such as receiving an _[InstanceTeardownStartCallback](/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_teardown_callback)_ before the second operation occurs.
+
 ## -see-also
 
 [FLT_CALLBACK_DATA](./ns-fltkernel-_flt_callback_data.md)
