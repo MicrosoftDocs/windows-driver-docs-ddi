@@ -356,6 +356,8 @@ If
     the miniport adapter in the 
     <a href="/windows-hardware/drivers/ddi/ndis/nc-ndis-miniport_halt">MiniportHaltEx</a> function.
 
+The driver must call **NdisMSetMiniportAttributes** and set the **GeneralAttributes** in the **NDIS_MINIPORT_ADAPTER_ATTRIBUTES** structure if it returns NDIS_STATUS_SUCCESS.
+
 If 
     <i>MiniportInitializeEx</i> failed, 
     <i>MiniportInitializeEx</i> must release all resources that it allocated before it returns and the
