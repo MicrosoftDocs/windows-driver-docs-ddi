@@ -62,6 +62,8 @@ Bitmask of flags that indicate why the instance is being attached. Can be one or
 | FLTFL_INSTANCE_SETUP_MANUAL_ATTACHMENT (0x00000002) | The instance is being attached manually because a user-mode application has called [FilterAttach](/windows/win32/api/fltuser/nf-fltuser-filterattach) or [FilterAttachAtAltitude](/windows/win32/api/fltuser/nf-fltuser-filterattachataltitude), or because a kernel-mode component has called [FltAttachVolume](nf-fltkernel-fltattachvolume.md) or [FltAttachVolumeAtAltitude](nf-fltkernel-fltattachvolumeataltitude.md) |
 | FLTFL_INSTANCE_SETUP_NEWLY_MOUNTED_VOLUME (0x00000004) | The instance is being attached automatically to a newly mounted volume. |
 | FLTFL_INSTANCE_SETUP_DETACHED_VOLUME (0x00000008) | The instance is being attached to a detached volume. It is possible, on some file systems (such as FAT and CDFS, which are used by some removable media drives), to reattach a volume after it has detached. A volume is detached if it has no associated storage stack. A volume in this state is usually a dismounted volume that still has open files. |
+| FLTFL_INSTANCE_SETUP_DEV_VOLUME (0x00000010) | The instance is being attached to a volume that is formatted as a developer volume. File system filters can enable optimizations that don't require an administrator to trust the volume on a given machine. Available starting with Windows 11, version 22H2 September Update. |
+| FLTFL_INSTANCE_SETUP_TRUSTED_VOLUME (0x00000020) | Indicates that an adminstrator on a given machine has trusted this volume and is willing to enable optimizations like not having anti-virus filters attach to the volume. This information is persisted in the registry on a given machine. This can be used by the file system filters to enable optimizations that require an administrator to trust the volume on a given machine. Available starting with Windows 11, version 22H2 September Update. |
 
 ### -param VolumeDeviceType [in]
 
@@ -115,3 +117,5 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 [PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_query_teardown_callback.md)
 
 [PFLT_INSTANCE_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_teardown_callback.md)
+
+[Dev Drive](https://learn.microsoft.com/en-us/windows/dev-drive/)
