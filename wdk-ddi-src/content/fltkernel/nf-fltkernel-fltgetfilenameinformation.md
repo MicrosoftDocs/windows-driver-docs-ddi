@@ -58,7 +58,7 @@ Pointer to a [FLT_CALLBACK_DATA](ns-fltkernel-_flt_callback_data.md) structure, 
 
 
 
-A [**FLT_FILE_NAME_OPTIONS**](/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. (Additional flags can be used by name provider minifilter drivers to specify name query options.) This parameter is required and cannot be **NULL**.
+A [**FLT_FILE_NAME_OPTIONS**](/windows-hardware/drivers/ifs/flt-file-name-options) value containing flags that specify the format of the name information to be returned, as well as the query method that the Filter Manager is to use. The caller must include a name format flag and a query method flag. Additional flags can be used by name provider minifilter drivers to specify name query options. This parameter is required and cannot be **NULL**.
 
 The following are the file name format flag values. Only one of the following flags can be specified. For an explanation of these formats, see [FLT_FILE_NAME_INFORMATION](ns-fltkernel-_flt_file_name_information.md).
 
