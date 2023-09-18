@@ -39,7 +39,7 @@ api_name:
 
 ## -description
 
-See Table 4-42, Offset 64 in [UCSI spec version 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
+See Table 4-42, Offset 64 in [UCSI spec version 1.2](https://www.intel.cn/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
 
 ## -enum-fields
 

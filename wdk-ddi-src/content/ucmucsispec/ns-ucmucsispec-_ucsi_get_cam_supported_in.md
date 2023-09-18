@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Used in the GET_CAM_SUPPORTED command. See Table 4-27 in [UCSI spec version 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
+Used in the GET_CAM_SUPPORTED command. See Table 4-27 in [UCSI spec version 1.2](https://www.intel.cn/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
 
 ## -struct-fields
 
