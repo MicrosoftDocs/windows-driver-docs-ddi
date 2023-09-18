@@ -114,9 +114,9 @@ Indicates that the connector is capable of accepting swap to SNK.
 
 ## -remarks
 
-See Table 4-17 in [UCSI spec version 1.2](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
+See Table 4-17 in [UCSI spec version 1.2](https://www.intel.cn/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
 
 ## -see-also
 
 - [UCSI_GET_CONNECTOR_CAPABILITY_COMMAND](ns-ucmucsispec-_ucsi_get_connector_capability_command.md)
-- [UCSI spec version 1.2](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf)
+- [UCSI spec version 1.2](https://www.intel.cn/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf)

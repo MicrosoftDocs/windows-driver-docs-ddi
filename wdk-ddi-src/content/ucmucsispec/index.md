@@ -23,7 +23,7 @@ api_name:
 
 This header declares registers defined in the Intel UCSI Specification 1.1.
 
-For information, see [UCSI spec version 1.1](https://www.intel.com/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
+For information, see [UCSI spec version 1.2](https://www.intel.cn/content/dam/www/public/us/en/documents/technical-specifications/usb-type-c-ucsi-spec.pdf).
 
 > Do not include this header. Instead, include Ucmucsicx.h.
 
