@@ -1,16 +1,15 @@
 ---
 UID: NS:iddcx.IDARG_IN_UPDATEMODES
 title: IDARG_IN_UPDATEMODES (iddcx.h)
-description: Gives information about the target modes that will be updated by the driver.
-old-location: display\idarg_in_updatemodes.htm
+description: Learn more about the IDARG_IN_UPDATEMODES structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 09/22/2023
 keywords: ["IDARG_IN_UPDATEMODES structure"]
 ms.keywords: IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices], display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,22 +41,28 @@ api_name:
 
 # IDARG_IN_UPDATEMODES structure
 
-
 ## -description
 
-                 Gives information about the target modes that will be updated by the driver.
+The **IDARG_IN_UPDATEMODES** structure contains input parameters for the [**IddCxMonitorUpdateModes**](nf-iddcx-iddcxmonitorupdatemodes.md) function.
 
 ## -struct-fields
 
 ### -field Reason
 
-                     Indicates the reason why the driver is updating the modes.
+[in] An [**IDDCX_UPDATE_REASON**](ne-iddcx-iddcx_update_reason.md) value that indicates the reason why the driver is updating the modes.
 
 ### -field TargetModeCount
 
-                     [in] Number of target modes in the <b>pTargetModes</b> buffer.  This cannot be zero.
+[in] Number of target modes in the buffer that **pTargetModes** points to. **TargetModeCount** can't be zero.
 
 ### -field pTargetModes
 
-                     [in] Pointer to the buffer that the driver should copy the target modes it supports for this monitor into.
+[in] Pointer to a [**IDDCX_TARGET_MODE**](ns-iddcx-idarg_in_updatemodes.md) structure that contains the target modes the driver supports for this monitor.
 
+## -see-also
+
+[**IDDCX_TARGET_MODE**](ns-iddcx-idarg_in_updatemodes.md)
+
+[**IDDCX_UPDATE_REASON**](ne-iddcx-iddcx_update_reason.md)
+
+[**IddCxMonitorUpdateModes**](nf-iddcx-iddcxmonitorupdatemodes.md)

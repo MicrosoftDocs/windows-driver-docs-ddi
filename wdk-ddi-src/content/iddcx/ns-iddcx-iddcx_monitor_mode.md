@@ -4,13 +4,13 @@ title: IDDCX_MONITOR_MODE (iddcx.h)
 description: Gives information about the current monitor mode.
 old-location: display\iddcx_monitor_mode.htm
 tech.root: display
-ms.date: 08/08/2022
+ms.date: 09/22/2023
 keywords: ["IDDCX_MONITOR_MODE structure"]
 ms.keywords: IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode, iddcx/IDDCX_MONITOR_MODE
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -60,5 +60,12 @@ A [**IDDCX_MONITOR_MODE_ORIGIN**](ne-iddcx-iddcx_monitor_mode_origin.md) value f
 
 A [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure that provides the details of the Monitor mode.
 
-> [!NOTE]
-> **MonitorVideoSignalInfo.AdditionalSignalInfo**'s union value of **vSyncFreqDivider** must be zero.
+**MonitorVideoSignalInfo.AdditionalSignalInfo**'s union value of **vSyncFreqDivider** must be zero.
+
+## -see-also
+
+[**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION**](nc-iddcx-evt_idd_cx_parse_monitor_description.md)
+
+[**IDARG_IN_PARSEMONITORDESCRIPTION**](ns-iddcx-idarg_in_parsemonitordescription.md)
+
+[**IDARG_OUT_PARSEMONITORDESCRIPTION**](ns-iddcx-idarg_out_parsemonitordescription.md)

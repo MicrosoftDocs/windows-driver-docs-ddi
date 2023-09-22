@@ -1,10 +1,9 @@
 ---
 UID: NF:iddcx.IddCxMonitorUpdateModes
 title: IddCxMonitorUpdateModes function (iddcx.h)
-description: An OS callback function the driver calls to update the mode list.
-old-location: display\iddcxmonitorupdatemodes.htm
+description: Learn more about the IddCxMonitorUpdateModes function.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 09/22/2023
 keywords: ["IddCxMonitorUpdateModes function"]
 ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 req.header: iddcx.h
@@ -42,23 +41,30 @@ api_name:
 
 # IddCxMonitorUpdateModes function
 
-
 ## -description
 
-                An OS callback function the driver calls to update the mode list
+An indirect display driver calls **IddCxMonitorUpdateModes** to have the OS update the mode list for a monitor. A driver that reports HDR support must use [**IddCxMonitorUpdateModes2**](nf-iddcx-iddcxmonitorupdatemodes2.md) instead.
 
 ## -parameters
 
-### -param MonitorObject [in]
+### -param MonitorObject
 
+[in] An [**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects) object that is the OS's context handle for the monitor. The OS provided this handle in a prior call to [**IddCxMonitorCreate**](nf-iddcx-iddcxmonitorcreate.md).
 
-The monitor object being updated
+### -param pInArgs
 
-### -param pInArgs [in]
-
-
-Input arguments of function
+[in] Pointer to an [**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg-in-updatemodes.md) structure that contains the input arguments for this function.
 
 ## -returns
 
-(NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+**IddCxMonitorUpdateModes** returns STATUS_SUCCESS upon success; otherwise it returns an [appropriate NTSTATUS error code](/windows-hardware/drivers/kernel/ntstatus-values).
+
+## -remarks
+
+A driver can call **IddCxMonitorUpdateModes** to update the mode list previously reported for a monitor.
+
+## -see-also
+
+[**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg-in-updatemodes.md)
+
+[**IddCxMonitorUpdateModes2**](nf-iddcx-iddcxmonitorupdatemodes2.md)

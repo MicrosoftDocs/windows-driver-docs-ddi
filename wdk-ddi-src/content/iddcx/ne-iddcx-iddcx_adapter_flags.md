@@ -1,10 +1,9 @@
 ---
 UID: NE:iddcx.IDDCX_ADAPTER_FLAGS
 title: IDDCX_ADAPTER_FLAGS (iddcx.h)
-description: Specifies boolean flags for an indirect display adapter.
-old-location: display\iddcx_adapter_flags.htm
+description: Learn more about the IDDCX_ADAPTER_FLAGS enumeration.
 tech.root: display
-ms.date: 09/13/2023
+ms.date: 09/22/2023
 keywords: ["IDDCX_ADAPTER_FLAGS enumeration"]
 ms.keywords: IDDCX_ADAPTER_FLAGS, IDDCX_ADAPTER_FLAGS enumeration [Display Devices], IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, IDDCX_ADAPTER_FLAGS_NONE, IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE, display.iddcx_adapter_flags, iddcx/IDDCX_ADAPTER_FLAGS, iddcx/IDDCX_ADAPTER_FLAGS_CAN_USE_MOVE_REGIONS, iddcx/IDDCX_ADAPTER_FLAGS_NONE, iddcx/IDDCX_ADAPTER_FLAGS_USE_SMALLEST_MODE
 req.header: iddcx.h
@@ -93,7 +92,7 @@ Supported starting in [IddCx version 1.8](/windows-hardware/drivers/display/iddc
 
 ### -field IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16: 0x40
 
-Indicates that the driver can process IEEE half-precision floating point (FP16) swapchain surfaces. A driver should set **IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16** even for adapters that don't support HDR or SDR WCG. HDR or SDR WC surfaces and modes will be sent to the driver when the right combination of monitor, target capabilities, O settings, and so forth are in place so a driver that sets **IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16** must also support the new functions that allow this to happen. A driver that supports HDR10 must be capable of:
+Indicates that the driver can process IEEE half-precision floating point (FP16) swapchain surfaces. A driver should set **IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16** even for adapters that don't support HDR or SDR WCG. The OS sends HDR or SDR WC surfaces and modes to the driver when the right combination of monitor, target capabilities, O settings, and so forth are in place. Therefore, a driver that sets **IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16** must also support the IddCx version 1.10 functions that allow this to happen. A driver that supports HDR10 must be capable of:
 
 * Receiving and processing FP16 format surfaces within a swapchain.
 * Applying the indicated SDR white level to mouse cursors.
@@ -107,14 +106,24 @@ Remote drivers must also:
 
 * Supply colorimetry and SDR white level when required.
 
-Supported starting in [IddCx version 1.10](/windows-hardware/drivers/display/iddcx1.10-updates).
+Supported starting in [IddCx version 1.10](/windows-hardware/drivers/display/iddcx1.10-updates). See Remarks.
 
 ### -field IDDCX_ADAPTER_FLAGS_REMOTE_ALL_TARGET_MODES_MONITOR_COMPATIBLE:0x80
 
-When set, indicates that every target mode reported in calls to [**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2**](nc-iddcx-evt_idd_cx_monitor_query_target_modes2.md) and [**IddCxMonitorUpdateModes2**](f-iddcx-iddcxmonitorupdatemodes2.md) is guaranteed to be compatible with the currently connected monitor. The OS will then not call [**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2**](nc-iddcx-evt_idd_cx_parse_monitor_description2.md) or [**EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES**](nc-iddcx-evt_idd_cx_monitor_get_default_description_modes.md). Only remote drivers can set this flag.
+Only remote drivers can set this flag.
 
-Supported starting in [IddCx version 1.10](/windows-hardware/drivers/display/iddcx1.10-updates).
+Remote drivers can use **IDDCX_ADAPTER_FLAGS_ALL_TARGET_MODES_MONITOR_COMPATIBLE** to allow them to specify target modes that are not part of a monitor descriptor. Normally the OS chooses a mode based on it being in both the monitor and target mode list, reported either via [**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION**](nc-iddcx-evt_idd_cx_parse_monitor_description.md) or [**EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES**](nc-iddcx-evt_idd_cx_monitor_get_default_description_modes.md) if no descriptor is available, and the target mode list. Remote scenarios may require modes that are not in the descriptor. Instead, the driver can use target modes to describe them and indicate to the OS they should not be checked against monitor modes.
+
+When a remote driver sets this flag, it indicates that every target mode reported in calls to [**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2**](nc-iddcx-evt_idd_cx_monitor_query_target_modes2.md) and [**IddCxMonitorUpdateModes2**](f-iddcx-iddcxmonitorupdatemodes2.md) is guaranteed to be compatible with the currently connected monitor. The OS will then not call [**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2**](nc-iddcx-evt_idd_cx_parse_monitor_description2.md) or [**EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES**](nc-iddcx-evt_idd_cx_monitor_get_default_description_modes.md).
+
+Supported starting in [IddCx version 1.10](/windows-hardware/drivers/display/iddcx1.10-updates). See Remarks.
+
+## -remarks
+
+To determine whether the OS accepts drivers setting **IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16** or **IDDCX_ADAPTER_FLAGS_ALL_TARGET_MODES_MONITOR_COMPATIBLE**, the driver should use the **IDD_IS_FUNCTION_AVAILABLE** macro to check for the presence of one of the version 1.10 DDIs; for example ```IDD_IS_FUNCTION_AVAILABLE(IddCxSwapChainReleaseAndAcquireBuffer2)```. This macro evaluates to TRUE on a v1.10-supported OS and false otherwise. See [Updates for IddCx versions 1.10 and later](/windows-hardware/drivers/display/iddcx1.10-updates) for more information.
 
 ## -see-also
 
 [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md)
+
+[**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md)

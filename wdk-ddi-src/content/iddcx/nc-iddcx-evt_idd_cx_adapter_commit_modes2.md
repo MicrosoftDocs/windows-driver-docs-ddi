@@ -2,7 +2,7 @@
 UID: NC:iddcx.EVT_IDD_CX_ADAPTER_COMMIT_MODES2
 tech.root: display
 title: EVT_IDD_CX_ADAPTER_COMMIT_MODES2
-ms.date: 09/13/2023
+ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the EVT_IDD_CX_ADAPTER_COMMIT_MODES2 callback function.
 prerelease: true
@@ -50,7 +50,7 @@ The OS calls **EVT_IDD_CX_ADAPTER_COMMIT_MODES2** to inform the driver of a mode
 
 ### -param AdapterObject
 
-[in] A driver-provided [**IDDCX_ADAPTER**](/windows-hardware/drivers/display/iddcx-objects#iddcx_adapter) handle that is used by the OS to reference the adapter in a call to the driver.
+[in] The OS-generated adapter object of the adapter being queried. This [**IDDCX_ADAPTER**](/windows-hardware/drivers/display/iddcx-objects#iddcx_adapter) object handle was returned in a previous call to [**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md).
 
 ### -param pInArgs
 
@@ -62,14 +62,20 @@ The OS calls **EVT_IDD_CX_ADAPTER_COMMIT_MODES2** to inform the driver of a mode
 
 ## -remarks
 
-When modes are committed for monitors, IddCx version 1.10 drivers that support HDR or WCG are called via this function and told the color space and bits per component to be used on the physical monitor connection. These values are based on the target capabilities and mode parameters previously reported by the driver. Reporting adapter support for FP16 but not exposing this function is an error.
+When modes are committed for monitors, IddCx version 1.10 drivers that support HDR or WCG are called via this function and told the color space and bits per component to be used on the physical monitor connection. These values are based on the target capabilities and mode parameters previously reported by the driver. Reporting [adapter support for FP16](ns-iddcx-iddcx_adapter_caps.md) but not exposing this function is an error.
 
 The color space specified in a committed mode does not specify the surface format used for every surface in a swapchain. The surface provided in [**IDDCX_METADATA2**](ns-iddcx-iddcx_metadata2.md) must still be queried.
 
-The OS always provides the IDDCX_PATH for every connected monitor even if it is not active and indicates which paths have changed. If a path is marked inactive, then the whole display pipeline for that path will be powered off and no signal will be sent to the monitor.
+The OS always provides the [**IDDCX_PATH2**](ns-iddcx-iddcx_path2.md) for every connected monitor even if that monitor isn't active, and indicates which paths have changed. If a path is marked inactive, then the whole display pipeline for that path will be powered off and no signal will be sent to the monitor.
 
 When a new path is committed, the driver should program the display pipeline to display a black image until the first frame is ready to be displayed. To achieve this, WDDM visibility should be off until the first frame is ready to be displayed, then the visibility should be turned on.
+
+For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
 
 ## -see-also
 
 [**IDARG_IN_COMMITMODES2**](ns-iddcx-idarg_in_commitmodes2.md)
+
+[**IDDCX_PATH2**](ns-iddcx-iddcx_path2.md)
+
+[**IDDCX_METADATA2**](ns-iddcx-iddcx_metadata2.md)

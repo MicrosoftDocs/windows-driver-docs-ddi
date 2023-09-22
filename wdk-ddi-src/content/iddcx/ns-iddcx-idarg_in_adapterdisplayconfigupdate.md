@@ -48,13 +48,13 @@ dev_langs:
 
 ## -struct-fields
 
-### -field PathCount [in]
+### -field PathCount
 
-The number of paths in the pPaths array. **PathCount** cannot be zero.
+[in] The number of paths in the pPaths array. **PathCount** can't be zero.
 
-### -field pPaths [in]
+### -field pPaths
 
-Pointer to array of [**IDDCX_DISPLAYCONFIGPATH**](ns-iddcx-iddcx_displayconfigpath.md) structures containing path display configuration information.
+[in] Pointer to array of [**IDDCX_DISPLAYCONFIGPATH**](ns-iddcx-iddcx_displayconfigpath.md) structures containing path display configuration information.
 
 ## -remarks
 

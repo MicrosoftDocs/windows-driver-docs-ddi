@@ -1,16 +1,15 @@
 ---
 UID: NE:iddcx.IDDCX_MONITOR_MODE_ORIGIN
 title: IDDCX_MONITOR_MODE_ORIGIN (iddcx.h)
-description: Used to describe a mode the monitor supports based on the monitor description.
-old-location: display\iddcx_monitor_mode_origin.htm
+description: Learn more about the IDDCX_MONITOR_MODE_ORIGIN enumeration.
 tech.root: display
-ms.date: 08/08/2022
+ms.date: 09/22/2023
 keywords: ["IDDCX_MONITOR_MODE_ORIGIN enumeration"]
 ms.keywords: IDDCX_MONITOR_MODE_ORIGIN, IDDCX_MONITOR_MODE_ORIGIN enumeration [Display Devices], IDDCX_MONITOR_MODE_ORIGIN_DRIVER, IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED, display.iddcx_monitor_mode_origin, iddcx/IDDCX_MONITOR_MODE_ORIGIN, iddcx/IDDCX_MONITOR_MODE_ORIGIN_DRIVER, iddcx/IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, iddcx/IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -61,5 +60,7 @@ Indicates that the driver added this mode from directly processing the monitor d
 Indicates that the driver did not add this mode as a direct resolution of processing the modes/ supported by the monitor but because of separate additional knowledge it has about the monitor.
 
 ## -see-also
+
+[**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION**](nc-iddcx-evt_idd_cx_parse_monitor_description.md)
 
 [**IDDCX_MONITOR_MODE**](ns-iddcx-iddcx_monitor_mode.md)

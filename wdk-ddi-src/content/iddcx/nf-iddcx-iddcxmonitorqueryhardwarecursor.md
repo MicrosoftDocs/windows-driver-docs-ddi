@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-An indirect display driver calls **IddCxMonitorQueryHardwareCursor** to obtain updated hardware cursor information for the specified monitor.
+An indirect display driver calls **IddCxMonitorQueryHardwareCursor** to obtain updated hardware cursor information for the specified monitor. A driver that reports HDR support must use [**IddCxMonitorQueryHardwareCursor3**](nf-iddcx-iddcxmonitorqueryhardwarecursor3.md) instead.
 
 ## -parameters
 
@@ -68,7 +68,7 @@ An [**IDARG_OUT_QUERY_HWCURSOR**](ns-iddcx-idarg_out_query_hwcursor.md) structur
 
 The driver normally only calls this function when [the event that signals cursor update](ns-iddcx-idarg_in_setup_hwcursor.md) has triggered.
 
-For additional cursor information beyond what this function returns, call [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md).
+For additional cursor information beyond what this function returns, call [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md) or [**IddCxMonitorQueryHardwareCursor3**](nf-iddcx-iddcxmonitorqueryhardwarecursor3.md).
 
 ## -see-also
 
@@ -79,5 +79,7 @@ For additional cursor information beyond what this function returns, call [**Idd
 [**IDARG_OUT_QUERY_HWCURSOR**](ns-iddcx-idarg_out_query_hwcursor.md)
 
 [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md)
+
+[**IddCxMonitorQueryHardwareCursor3**](nf-iddcx-iddcxmonitorqueryhardwarecursor3.md)
 
 [**IddCxMonitorSetupHardwareCursor**](nf-iddcx-iddcxmonitorsetuphardwarecursor.md)

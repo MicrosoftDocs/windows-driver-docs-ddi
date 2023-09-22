@@ -62,7 +62,7 @@ The OS calls **EVT_IDD_CX_ADAPTER_COMMIT_MODES** to inform the driver of a mode 
 
 ## -remarks
 
-The OS always provides the IDDCX_PATH for every connected monitor even if it is not active and indicates which paths have changed. If a path is marked inactive, then the whole display pipeline for that path will be powered off and no signal will be sent to the monitor.
+The OS always provides the [**IDDCX_PATH**](ns-iddcx-iddcx_path.md) for every connected monitor even if that monitor isn't active, and indicates which paths have changed. If a path is marked inactive, then the whole display pipeline for that path will be powered off and no signal will be sent to the monitor.
 
 When a new path is committed, the driver should program the display pipeline to display a black image until the first frame is ready to be displayed. To achieve this, WDDM visibility should be off until the first frame is ready to be displayed, then the visibility should be turned on.
 

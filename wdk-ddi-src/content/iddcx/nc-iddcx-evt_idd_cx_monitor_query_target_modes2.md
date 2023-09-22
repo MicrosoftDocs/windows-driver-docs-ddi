@@ -2,7 +2,7 @@
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2
 tech.root: display
 title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2
-ms.date: 09/13/2023
+ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2 callback function.
 prerelease: true
@@ -68,12 +68,14 @@ The OS calls **EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2** to get a list of target 
 
 This function is similar to [**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2**](nc-iddcx-evt_idd_cx_parse_monitor_description2.md) in that it allows drivers to report the same extra mode information. A driver that supports HDR must implement this function; drivers that don't support HDR can expose only the existing [**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES**](nc-iddcx-evt_idd_cx_monitor_query_target_modes.md) function.
 
-Note: The IDDCX_TARGET_MODE2::BitsPerComponent field allows multiple formats and bit depths to be reported in a single mode. For example, a driver can report 8 and 10 bits per component in RGB by setting both IDDCX_BITS_PER_COMPONENT_8 and IDDCX_BITS_PER_COMPONENT_10 in IDDCX_TARGET_MODE2::BitsPerComponent::Rgb. A driver should only report different bits per component as unique modes if other mode details also differ.
+The [**IDDCX_TARGET_MODE2::BitsPerComponent**](ns-iddcx-iddcx_target_mode2.md) field allows multiple formats and bit depths to be reported in a single mode. For example, a driver can report 8 and 10 bits per component in RGB by setting both **IDDCX_BITS_PER_COMPONENT_8** and **IDDCX_BITS_PER_COMPONENT_10** in **IDDCX_TARGET_MODE2::BitsPerComponent::Rgb**. A driver should only report different bits per component as unique modes if other mode details also differ.
 
-Drivers returning modes with SDR WCG or HDR parameters will fail if they have not also reported **IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16** in the [**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md) call. SDR WCG and HDR parameters are:
+Drivers returning modes with SDR WCG or HDR parameters will fail if they have not also reported [**IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16**](ne-iddcx-iddcx_adapter_flags.md) in the [**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md) call. SDR WCG and HDR [**IDDCX_WIRE_BITS_PER_COMPONENT.BitsPerComponent**](ns-iddcx-iddcx_wire_bits_per_component.md) parameters are:
 
-* Any value for IDDCX_WIRE_BITS_PER_COMPONENT::BitsPerComponent.Rgb other than IDDCX_BITS_PER_COMPONENT_8, or
-* Any value for IDDCX_WIRE_BITS_PER_COMPONENT::BitsPerComponent.YCbCr444, IDDCX_WIRE_BITS_PER_COMPONENT::BitsPerComponent.YCbCr422 or IDDCX_WIRE_BITS_PER_COMPONENT::BitsPerComponent.YCbCr420 other than IDDCX_BITS_PER_COMPONENT_NONE.
+* Any value for **Rgb** other than **IDDCX_BITS_PER_COMPONENT_8**, or
+* Any value for **YCbCr444**, **YCbCr422**, or **YCbCr420** other than **IDDCX_BITS_PER_COMPONENT_NONE**.
+
+For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
 
 ## -see-also
 

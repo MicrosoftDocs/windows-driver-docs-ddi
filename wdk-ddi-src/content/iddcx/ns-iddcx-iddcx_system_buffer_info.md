@@ -1,10 +1,10 @@
 ---
 UID: NS:iddcx.IDDCX_SYSTEM_BUFFER_INFO
 title: IDDCX_SYSTEM_BUFFER_INFO
-ms.date: 10/20/2020
+ms.date: 09/22/2023
 tech.root: display
 targetos: Windows
-description: IDDCX_SYSTEM_BUFFER_INFO holds the resulting buffer-specific information after a buffer release and acquire operation.
+description: Learn more about the IDDCX_SYSTEM_BUFFER_INFO structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -71,5 +71,8 @@ Pointer in system memory to the surface buffer. **pBuffer** must be at lease 16-
 
 [**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md)
 
+[**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER2**](ns-iddcx-idarg_out_releaseandacquiresystembuffer2.md)
+
 [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md)
 
+[**IddCxSwapChainReleaseAndAcquireSystemBuffer2**](ns-iddcx-idarg_out_releaseandacquiresystembuffer2.md)
