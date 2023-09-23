@@ -95,7 +95,7 @@ The callback routine's *NotificationStructure* is specific to the *EventCategory
 |---|---|
 | **EventCategoryDeviceInterfaceChange** | [DEVICE_INTERFACE_CHANGE_NOTIFICATION](ns-wdm-_device_interface_change_notification.md) |
 | **EventCategoryHardwareProfileChange** | [HWPROFILE_CHANGE_NOTIFICATION](ns-wdm-_hwprofile_change_notification.md) |
-| **EventCategoryTargetDeviceChange** | [TARGET_DEVICE_REMOVAL_NOTIFICATION](ns-wdm-_target_device_removal_notification.md) |
+| **EventCategoryTargetDeviceChange** | [TARGET_DEVICE_REMOVAL_NOTIFICATION](ns-wdm-_target_device_removal_notification.md)<br>[TARGET_DEVICE_CUSTOM_NOTIFICATION](ns-wdm-_target_device_custom_notification.md) |
 
 The callback routine's *Context* parameter contains the context data the driver supplied during registration.
 
