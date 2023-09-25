@@ -3,7 +3,7 @@ UID: NS:wdm._IO_STACK_LOCATION
 title: IO_STACK_LOCATION (wdm.h)
 description: The IO_STACK_LOCATION structure defines an I/O stack location, which is an entry in the I/O stack that is associated with each IRP.
 tech.root: kernel
-ms.date: 08/16/2023
+ms.date: 09/20/2023
 keywords: ["IO_STACK_LOCATION structure"]
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 req.header: wdm.h
@@ -84,7 +84,7 @@ than welcome to provide sector atomicity as long as there is no remapping.
 
 ### -field Control
 
-Drivers can check this member to determine whether it is set with SL_PENDING_RETURNED. Drivers have read-only access to this member.
+Drivers can check this member to determine whether it is set with SL_PENDING_RETURNED and under what conditions the *CompletionRoutine* is called. Drivers have read-only access to this member. Drivers call [**IoSetCompletionRoutine**](nf-wdm-iosetcompletionroutine.md) or [**IoSetCompletionRoutineEx**](nf-wdm-iosetcompletionroutineex.md) to specify these conditions.
 
 ### -field Parameters
 
@@ -508,7 +508,7 @@ A pointer to a [**FILE_OBJECT**](./ns-wdm-_file_object.md) structure that repres
 
 ### -field CompletionRoutine
 
-The completion routines that is invoked depending on the flags in the preceding flags field.
+The completion routine that is invoked depending on the flags in the **Control** field of this structure.
 
 ### -field Context
 
