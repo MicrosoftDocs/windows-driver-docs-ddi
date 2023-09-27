@@ -107,7 +107,7 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 [**FltQueryInformationFile**](../fltkernel/nf-fltkernel-fltqueryinformationfile.md)
 
-[**FltQueryVolumeInformation**](/fltkernel/nf-fltkernel-fltqueryvolumeinformation.md)
+[**FltQueryVolumeInformation**](../fltkernel/nf-fltkernel-fltqueryvolumeinformation.md)
 
 [**IRP_MJ_QUERY_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-information)
 

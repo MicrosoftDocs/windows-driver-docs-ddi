@@ -118,4 +118,4 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 
 [PFLT_INSTANCE_TEARDOWN_CALLBACK](nc-fltkernel-pflt_instance_teardown_callback.md)
 
-[Dev Drive](https://learn.microsoft.com/en-us/windows/dev-drive/)
+[Dev Drive](/windows/dev-drive/)

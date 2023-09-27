@@ -86,12 +86,12 @@ File system minifilter drivers must not use the following functions:
 
 Instead, minifilters can use the following functions to associate context information with a file object:
 
-* [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
-* [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
-* [**FltSetStreamHandleContext**](nf-fltkernel-fltsetstreamhandlecontext.md)
-* [**FltDeleteStreamHandleContext**](nf-fltkernel-fltdeletestreamhandlecontext.md)
-* [**FltGetStreamHandleContext**](nf-fltkernel-fltgetstreamhandlecontext.md)
-* [**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
+* [**FltAllocateContext**](../fltkernel/nf-fltkernel-fltallocatecontext.md)
+* [**FltDeleteContext**](../fltkernel/nf-fltkernel-fltdeletecontext.md)
+* [**FltSetStreamHandleContext**](../fltkernel/nf-fltkernel-fltsetstreamhandlecontext.md)
+* [**FltDeleteStreamHandleContext**](../fltkernel/nf-fltkernel-fltdeletestreamhandlecontext.md)
+* [**FltGetStreamHandleContext**](../fltkernel/nf-fltkernel-fltgetstreamhandlecontext.md)
+* [**FltReleaseContext**](../fltkernel/nf-fltkernel-fltreleasecontext.md)
 
 File system minifilter drivers must not use the **FsRtl*Xxx*PerFileObjectContext** functions. Instead, minifilters can use the **Flt*Xxx*Context** functions to associate context information with a file object. For a complete list, see the **FSRTL_PER_FILEOBJECT_CONTEXT** topic.
 
@@ -103,17 +103,17 @@ File system minifilter drivers must not use the **FsRtl*Xxx*PerFileObjectContext
 
 [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md)
 
-[**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md)
+[**FltAllocateContext**](../fltkernel/nf-fltkernel-fltallocatecontext.md)
 
-[**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md)
+[**FltDeleteContext**](../fltkernel/nf-fltkernel-fltdeletecontext.md)
 
-[**FltDeleteStreamHandleContext**](nf-fltkernel-fltdeletestreamhandlecontext.md)
+[**FltDeleteStreamHandleContext**](../fltkernel/nf-fltkernel-fltdeletestreamhandlecontext.md)
 
-[**FltGetStreamHandleContext**](nf-fltkernel-fltgetstreamhandlecontext.md)
+[**FltGetStreamHandleContext**](../fltkernel/nf-fltkernel-fltgetstreamhandlecontext.md)
 
-[**FltReleaseContext**](nf-fltkernel-fltreleasecontext.md)
+[**FltReleaseContext**](../fltkernel/nf-fltkernel-fltreleasecontext.md)
 
-[**FltSetStreamHandleContext**](nf-fltkernel-fltsetstreamhandlecontext.md)
+[**FltSetStreamHandleContext**](../fltkernel/nf-fltkernel-fltsetstreamhandlecontext.md)
 
 [**FsRtlInitPerFileObjectContext**](/previous-versions/ff546170(v=vs.85))
 
