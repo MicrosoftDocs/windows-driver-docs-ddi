@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlInitializeLargeMcb
 title: FsRtlInitializeLargeMcb function (ntifs.h)
-description: The FsRtlInitializeLargeMcb routine initializes a map control block (MCB) structure.
-old-location: ifsk\fsrtlinitializelargemcb.htm
+description: Learn more about the FsRtlInitializeLargeMcb function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["FsRtlInitializeLargeMcb function"]
 ms.keywords: FsRtlInitializeLargeMcb, FsRtlInitializeLargeMcb routine [Installable File System Drivers], fsrtlref_298126ca-6c2b-4662-a7ef-2dbc5d1ba361.xml, ifsk.fsrtlinitializelargemcb, ntifs/FsRtlInitializeLargeMcb
 req.header: ntifs.h
@@ -45,80 +44,55 @@ dev_langs:
 
 # FsRtlInitializeLargeMcb function
 
-
 ## -description
 
-The <b>FsRtlInitializeLargeMcb</b> routine initializes a map control block (MCB) structure.
+The **FsRtlInitializeLargeMcb** routine initializes a map control block (MCB) structure.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Pointer to a caller-allocated MCB structure to initialize.</p>
+Pointer to a caller-allocated MCB structure to initialize.
 
 ### -param PoolType [in]
 
-
 Type of pool to use when allocating additional internal storage for the MCB. One of the following:
 
+* **NonPagedPool**
+* **PagedPool**
+* **NonPagedPoolCacheAligned**
+* **PagedPoolCacheAligned**
 
-<ul>
-<li><b>NonPagedPool</b></li>
-<li><b>PagedPool</b></li>
-<li><b>NonPagedPoolCacheAligned</b></li>
-<li><b>PagedPoolCacheAligned</b></li>
-</ul>
-
-
-<div class="alert"><b>Note</b>    The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used. </div>
-<div> </div>
+The **NonPagedPoolMustSucceed** and **NonPagedPoolCacheAlignedMustS** pool types are obsolete and should no longer be used.
 
 ## -remarks
 
-<b>FsRtlInitializeLargeMcb</b> initializes a map control block (MCB) structure. File systems use MCB structures to map virtual block numbers (VBN) for a file to the corresponding logical block numbers (LBN) on disk.
+**FsRtlInitializeLargeMcb** initializes a map control block (MCB) structure. File systems use MCB structures to map virtual block numbers (VBN) for a file to the corresponding logical block numbers (LBN) on disk.
 
-<div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
-<div> </div>
-File systems must call <b>FsRtlInitializeLargeMcb</b> before using any other <b>FsRtl...Mcb...</b> routines on the MCB structure.
+The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used.
 
-If a pool allocation failure occurs, <b>FsRtlInitializeLargeMcb</b> raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to <b>FsRtlInitializeLargeMcb</b> in a <b>try-except</b> or <b>try-finally</b> statement.
+File systems must call **FsRtlInitializeLargeMcb** before using any other **FsRtl*Xxx*Mcb*Yyy*** routines on the MCB structure.
+
+If a pool allocation failure occurs, **FsRtlInitializeLargeMcb** raises a STATUS_INSUFFICIENT_RESOURCES exception. To gain control if this pool allocation failure occurs, the driver should wrap the call to **FsRtlInitializeLargeMcb** in a *try-except* or *try-finally* statement.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a>
+[**FsRtlAddLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry.md)
 
+[**FsRtlGetNextLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry.md)
 
+[**FsRtlLookupLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry">FsRtlGetNextLargeMcbEntry</a>
+[**FsRtlLookupLastLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry.md)
 
+[**FsRtlLookupLastLargeMcbEntryAndIndex**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex.md)
 
+[**FsRtlNumberOfRunsInLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry">FsRtlLookupLargeMcbEntry</a>
+[**FsRtlRemoveLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry.md)
 
+[**FsRtlSplitLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb.md)
 
+[**FsRtlTruncateLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry">FsRtlLookupLastLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex">FsRtlLookupLastLargeMcbEntryAndIndex</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry">FsRtlRemoveLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb">FsRtlSplitLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a>
+[**FsRtlUninitializeLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md)

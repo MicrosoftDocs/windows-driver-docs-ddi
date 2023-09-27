@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.RtlGetCompressionWorkSpaceSize
 title: RtlGetCompressionWorkSpaceSize function (ntifs.h)
-description: The RtlGetCompressionWorkSpaceSize function is used to determine the correct size of the WorkSpace buffer for the RtlCompressBuffer and RtlDecompressFragment functions.
-old-location: ifsk\rtlgetcompressionworkspacesize.htm
+description: Learn more about the RtlGetCompressionWorkSpaceSize function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["RtlGetCompressionWorkSpaceSize function"]
 ms.keywords: RtlGetCompressionWorkSpaceSize, RtlGetCompressionWorkSpaceSize function [Installable File System Drivers], ifsk.rtlgetcompressionworkspacesize, ntifs/RtlGetCompressionWorkSpaceSize, rtlref_26332738-6278-49f9-b948-87bcb7e68c83.xml
 req.header: ntifs.h
@@ -42,206 +41,66 @@ api_name:
 
 # RtlGetCompressionWorkSpaceSize function
 
-
 ## -description
 
-The <b>RtlGetCompressionWorkSpaceSize</b> function is used to determine the correct size of the <i>WorkSpace</i> buffer for the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a> functions.
+The **RtlGetCompressionWorkSpaceSize** function is used to determine the correct size of the **WorkSpace** buffer for the [**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md) and [**RtlDecompressFragment**](nf-ntifs-rtldecompressfragment.md) functions.
 
 ## -parameters
 
 ### -param CompressionFormatAndEngine [in]
 
-
 Bitmask specifying the compression format and engine type. This parameter must be set to a valid bitwise OR combination of one format type and one engine type. For example, COMPRESSION_FORMAT_LZNT1 | COMPRESSION_ENGINE_STANDARD.
 
 The meanings of these, and other related values, are as follows:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_FORMAT_NONE"></a><a id="compression_format_none"></a><dl>
-<dt><b>COMPRESSION_FORMAT_NONE</b></dt>
-</dl>
-</td>
-<td width="60%">
-Not supported by this function.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_FORMAT_DEFAULT"></a><a id="compression_format_default"></a><dl>
-<dt><b>COMPRESSION_FORMAT_DEFAULT</b></dt>
-</dl>
-</td>
-<td width="60%">
-Not supported by this function.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_FORMAT_LZNT1"></a><a id="compression_format_lznt1"></a><dl>
-<dt><b>COMPRESSION_FORMAT_LZNT1</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function will perform LZ compression.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS"></a><a id="compression_format_xpress"></a><dl>
-<dt><b>COMPRESSION_FORMAT_XPRESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function will perform Xpress compression.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_FORMAT_XPRESS_HUFF"></a><a id="compression_format_xpress_huff"></a><dl>
-<dt><b>COMPRESSION_FORMAT_XPRESS_HUFF</b></dt>
-</dl>
-</td>
-<td width="60%">
-The function will perform Xpress Huffman compression.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_ENGINE_STANDARD"></a><a id="compression_engine_standard"></a><dl>
-<dt><b>COMPRESSION_ENGINE_STANDARD</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provides a balance between data compression and performance. This value cannot be used with COMPRESSION_ENGINE_MAXIMUM.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_ENGINE_MAXIMUM"></a><a id="compression_engine_maximum"></a><dl>
-<dt><b>COMPRESSION_ENGINE_MAXIMUM</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>UncompressedBuffer</i> buffer is compressed using an algorithm that provides maximum data compression but with relatively slower performance. This value cannot be used with COMPRESSION_ENGINE_STANDARD.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="COMPRESSION_ENGINE_HIBER"></a><a id="compression_engine_hiber"></a><dl>
-<dt><b>COMPRESSION_ENGINE_HIBER</b></dt>
-</dl>
-</td>
-<td width="60%">
-Not supported by this function.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| COMPRESSION_FORMAT_NONE        | Not supported by this function. |
+| COMPRESSION_FORMAT_DEFAULT     | Not supported by this function. |
+| COMPRESSION_FORMAT_LZNT1       | The function will perform LZ compression. |
+| COMPRESSION_FORMAT_XPRESS      | The function will perform Xpress compression. |
+| COMPRESSION_FORMAT_XPRESS_HUFF | The function will perform Xpress Huffman compression. |
+| COMPRESSION_ENGINE_STANDARD    | The **UncompressedBuffer** buffer is compressed using an algorithm that provides a balance between data compression and performance. This value cannot be used with COMPRESSION_ENGINE_MAXIMUM. |
+| COMPRESSION_ENGINE_MAXIMUM     | The **UncompressedBuffer** buffer is compressed using an algorithm that provides maximum data compression but with relatively slower performance. This value cannot be used with COMPRESSION_ENGINE_STANDARD. |
+| COMPRESSION_ENGINE_HIBER       | Not supported by this function. |
 
 ### -param CompressBufferWorkSpaceSize [out]
 
-
-A pointer to a caller-allocated buffer receiving the size, in bytes, required to compress a buffer. This value is used to determine the correct size of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a>'s <i>WorkSpace</i> buffer.
+A pointer to a caller-allocated buffer receiving the size, in bytes, required to compress a buffer. This value is used to determine the correct size of [**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md)'s **WorkSpace** buffer.
 
 ### -param CompressFragmentWorkSpaceSize [out]
 
-
-A pointer to a caller-allocated buffer receiving the size, in bytes, required to decompress a compressed buffer to a fragment. This value is used to determine the correct size of <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a>'s <i>WorkSpace</i> buffer. Note that the <b>RtlCompressFragment</b> function does not currently exist.
+A pointer to a caller-allocated buffer receiving the size, in bytes, required to decompress a compressed buffer to a fragment. This value is used to determine the correct size of [**RtlDecompressFragment**](nf-ntifs-rtldecompressfragment.md)'s **WorkSpace** buffer. Note that the **RtlCompressFragment** function does not currently exist.
 
 ## -returns
 
-<b>RtlGetCompressionWorkSpaceSize</b>returns an appropriate error status, such as one of the following:
+**RtlGetCompressionWorkSpaceSize**returns an appropriate error status, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The required buffer sizes, in bytes, were successfully returned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid compression format was specified via the <i>CompressionFormatAndEngine</i> parameter. If <i>CompressionFormatAndEngine</i> is either COMPRESSION_FORMAT_NONE or COMPRESSION_FORMAT_DEFAULT (but not both), this value is returned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUPPORTED_COMPRESSION</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid compression format was specified via the <i>CompressionFormatAndEngine</i> parameter. If <i>CompressionFormatAndEngine</i> is not one of the following, STATUS_UNSUPPORTED_COMPRESSION is returned:
-
-
-
-<ul>
-<li>COMPRESSION_FORMAT_LZNT1</li>
-<li>COMPRESSION_FORMAT_XPRESS</li>
-<li>COMPRESSION_FORMAT_XPRESS_HUFF</li>
-<li>COMPRESSION_FORMAT_NONE (in this case, STATUS_INVALID_PARAMETER is returned) 
-</li>
-<li>COMPRESSION_FORMAT_DEFAULT (in this case, STATUS_INVALID_PARAMETER is returned) </li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid compression engine was specified via the <i>CompressionFormatAndEngine</i> parameter. If <i>CompressionFormatAndEngine</i> is not COMPRESSION_ENGINE_STANDARD or COMPRESSION_ENGINE_MAXIMUM (but not both), this value is returned.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_SUCCESS | The required buffer sizes, in bytes, were successfully returned. |
+| STATUS_INVALID_PARAMETER | An invalid compression format was specified via the **CompressionFormatAndEngine** parameter. If **CompressionFormatAndEngine** is either COMPRESSION_FORMAT_NONE or COMPRESSION_FORMAT_DEFAULT (but not both), this value is returned. |
+| STATUS_UNSUPPORTED_COMPRESSION | An invalid compression format was specified via the **CompressionFormatAndEngine** parameter. If **CompressionFormatAndEngine** is not one of the following, STATUS_UNSUPPORTED_COMPRESSION is returned: COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUF |
+| STATUS_NOT_SUPPORTED | An invalid compression engine was specified via the **CompressionFormatAndEngine** parameter. If **CompressionFormatAndEngine** is not COMPRESSION_ENGINE_STANDARD or COMPRESSION_ENGINE_MAXIMUM (but not both), this value is returned. |
 
 ## -remarks
 
-The <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a>functions require an appropriately sized work space buffer to compress and decompress successfully. To determine the correct work space buffer size, in bytes, call the <b>RtlGetCompressionWorkSpaceSize</b> function. 
+The [**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md) and [**RtlDecompressFragment**](nf-ntifs-rtldecompressfragment.md)functions require an appropriately sized work space buffer to compress and decompress successfully. To determine the correct work space buffer size, in bytes, call the **RtlGetCompressionWorkSpaceSize** function.
 
-As an example, the <i>WorkSpace</i> parameter of the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> function must point to an adequately sized work space buffer. The <i>CompressBufferWorkSpaceSize</i> parameter of the <b>RtlGetCompressionWorkSpaceSize</b> provides this size.
+As an example, the **WorkSpace** parameter of the [**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md) function must point to an adequately sized work space buffer. The **CompressBufferWorkSpaceSize** parameter of the **RtlGetCompressionWorkSpaceSize** provides this size.
 
-To compress an uncompressed buffer, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> function.
+To compress an uncompressed buffer, use the [**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md) function.
 
-To decompress a compressed buffer, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbuffer">RtlDecompressBuffer</a> function.
+To decompress a compressed buffer, use the [**RtlDecompressBuffer**](nf-ntifs-rtldecompressbuffer.md) function.
 
-To decompress only a portion of a compressed buffer (that is, a "fragment" of the buffer), use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a> function.
+To decompress only a portion of a compressed buffer (that is, a "fragment" of the buffer), use the [**RtlDecompressFragment**](nf-ntifs-rtldecompressfragment.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_compression_information">FILE_COMPRESSION_INFORMATION</a>
+[**FILE_COMPRESSION_INFORMATION**](ns-ntifs-_file_compression_information.md)
 
+[**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md)
 
+[**RtlDecompressBuffer**](nf-ntifs-rtldecompressbuffer.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbuffer">RtlDecompressBuffer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragment">RtlDecompressFragment</a>
+[**RtlDecompressFragment**](nf-ntifs-rtldecompressfragment.md)

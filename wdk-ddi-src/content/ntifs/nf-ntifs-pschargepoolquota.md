@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.PsChargePoolQuota
 title: PsChargePoolQuota function (ntifs.h)
-description: The PsChargePoolQuota routine charges pool quota of the specified pool type to the specified process.
-old-location: ifsk\pschargepoolquota.htm
+description: Learn more about the PsChargePoolQuota function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["PsChargePoolQuota function"]
 ms.keywords: PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, ntifs/PsChargePoolQuota, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml
 req.header: ntifs.h
@@ -42,46 +41,39 @@ api_name:
 
 # PsChargePoolQuota function
 
-
 ## -description
 
-The <b>PsChargePoolQuota</b> routine charges pool quota of the specified pool type to the specified process.
+The **PsChargePoolQuota** routine charges pool quota of the specified pool type to the specified process.
 
 ## -parameters
 
 ### -param Process [in]
 
-
 Pointer to the process whose quota is to be charged.
 
 ### -param PoolType [in]
 
+Type of pool quota to charge, which can be one of the following:
 
-Type of pool quota to charge, which can be one of the following: 
+* **NonPagedPool**
+* **PagedPool**
+* **NonPagedPoolCacheAligned**
+* **PagedPoolCacheAligned**
 
-<ul>
-<li><b>NonPagedPool</b></li>
-<li><b>PagedPool</b></li>
-<li><b>NonPagedPoolCacheAligned</b></li>
-<li><b>PagedPoolCacheAligned</b></li>
-</ul>
-
-
-<b>Note</b>: The <b>NonPagedPoolMustSucceed</b> and <b>NonPagedPoolCacheAlignedMustS</b> pool types are obsolete and should no longer be used.
+The **NonPagedPoolMustSucceed** and **NonPagedPoolCacheAlignedMustS** pool types are obsolete and should no longer be used.
 
 ### -param Amount [in]
-
 
 Number of bytes to charge against the pool quota for this process.
 
 ## -remarks
 
-If insufficient quota exists for the process, quota is not charged, and <b>PsChargePoolQuota</b> raises an exception with the status value STATUS_QUOTA_EXCEEDED. Callers are responsible for handling this exception. Thus calls to <b>PsChargePoolQuota</b> must be wrapped within a driver-supplied exception handler.
+If insufficient quota exists for the process, quota is not charged, and **PsChargePoolQuota** raises an exception with the status value STATUS_QUOTA_EXCEEDED. Callers are responsible for handling this exception. Thus calls to **PsChargePoolQuota** must be wrapped within a driver-supplied exception handler.
 
-Every successful call to <b>PsChargePoolQuota</b> must be matched by a subsequent call to <b>PsReturnPoolQuota</b>.
+Every successful call to **PsChargePoolQuota** must be matched by a subsequent call to **PsReturnPoolQuota**.
 
-For more information about memory management, see <a href="/windows-hardware/drivers/kernel/managing-memory-for-drivers">Memory Management</a>.
+For more information about memory management, see [Memory Management](/windows-hardware/drivers/kernel/managing-memory-for-drivers).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psreturnpoolquota">PsReturnPoolQuota</a>
+[**PsReturnPoolQuota**](nf-ntifs-psreturnpoolquota.md)

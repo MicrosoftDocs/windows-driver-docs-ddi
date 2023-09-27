@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.PoSetPowerRequest
 title: PoSetPowerRequest function (ntifs.h)
-description: The PoSetPowerRequest routine in ntifs.h increments the count for the power request type. The power manager counts requests for each power request type.
-old-location: kernel\posetpowerrequest.htm
+description: Learn more about the PoSetPowerRequest function.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/27/2023
 keywords: ["PoSetPowerRequest function"]
 ms.keywords: PoSetPowerRequest, PoSetPowerRequest routine [Kernel-Mode Driver Architecture], kernel.posetpowerrequest, portn_8f3abb03-a324-4841-b630-b62344d656ce.xml, wdm/PoSetPowerRequest
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Windows 7.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,66 +41,40 @@ api_name:
 
 # PoSetPowerRequest function (ntifs.h)
 
-
 ## -description
 
-The <b>PoSetPowerRequest</b> routine increments the count for the specified power request type.
+The **PoSetPowerRequest** routine increments the count for the specified power request type.
 
 ## -parameters
 
 ### -param PowerRequest [in, out]
 
-
-A pointer to a power request object that was created by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
+A pointer to a power request object that was created by the [**PoCreatePowerRequest**](nf-ntifs-pocreatepowerrequest.md) routine.
 
 ### -param Type [in]
 
+The type of power request. Set this parameter to the following [**POWER_REQUEST_TYPE**](../wdm/ne-wdm-_power_request_type.md) enumeration value:
 
-The type of power request. Set this parameter to the following <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_power_request_type">POWER_REQUEST_TYPE</a> enumeration value:
-
-<ul>
-<li>
-<b>PowerRequestSystemRequired</b>
-
-</li>
-</ul>
+* **PowerRequestSystemRequired**
 
 ## -returns
 
-<b>PoSetPowerRequest</b> returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
+**PoSetPowerRequest** returns STATUS_SUCCESS if the call is successful. If the call fails, possible error return codes include the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Type</i> parameter is set to an unsupported value.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_NOT_SUPPORTED | The **Type** parameter is set to an unsupported value. |
 
 ## -remarks
 
-A driver can call the <b>PoSetPowerRequest</b> routine to request that the <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> override several types of default power behavior, which are specified as <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_power_request_type">POWER_REQUEST_TYPE</a> enumeration values. To restore the default behavior, the driver cancels the request by calling the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a> routine.
+A driver can call the **PoSetPowerRequest** routine to request that the [power manager](/windows-hardware/drivers/kernel/power-manager) override several types of default power behavior, which are specified as [**POWER_REQUEST_TYPE**](../wdm/ne-wdm-_power_request_type.md) enumeration values. To restore the default behavior, the driver cancels the request by calling the [**PoClearPowerRequest**](nf-ntifs-poclearpowerrequest.md) routine.
 
-The power manager maintains a count of the active requests for each power request type. The <b>PoSetPowerRequest</b> routine increments the count for the specified power request type by one. The <b>PoClearPowerRequest</b> routine decrements the count by one. A nonzero count indicates that requests from one or more components are active. After the count decrements to zero, the computer reverts to the default behavior for the specified power request type.
+The power manager maintains a count of the active requests for each power request type. The **PoSetPowerRequest** routine increments the count for the specified power request type by one. The **PoClearPowerRequest** routine decrements the count by one. A nonzero count indicates that requests from one or more components are active. After the count decrements to zero, the computer reverts to the default behavior for the specified power request type.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-_power_request_type">POWER_REQUEST_TYPE</a>
+[**POWER_REQUEST_TYPE**](../wdm/ne-wdm-_power_request_type.md)
 
+[**PoClearPowerRequest**](nf-ntifs-poclearpowerrequest.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-poclearpowerrequest">PoClearPowerRequest</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
+[**PoCreatePowerRequest**](nf-ntifs-pocreatepowerrequest.md)

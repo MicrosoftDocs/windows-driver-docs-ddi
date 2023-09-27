@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.MmCanFileBeTruncated
 title: MmCanFileBeTruncated function (ntifs.h)
-description: The MmCanFileBeTruncated routine checks whether a file can be truncated.
-old-location: ifsk\mmcanfilebetruncated.htm
+description: Learn more about the MmCanFileBeTruncated function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["MmCanFileBeTruncated function"]
 ms.keywords: MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, ntifs/MmCanFileBeTruncated
 req.header: ntifs.h
@@ -42,56 +41,40 @@ api_name:
 
 # MmCanFileBeTruncated function
 
-
 ## -description
 
-The <b>MmCanFileBeTruncated</b> routine checks whether a file can be truncated.
+The **MmCanFileBeTruncated** routine checks whether a file can be truncated.
 
 ## -parameters
 
 ### -param SectionPointer [in]
 
-
 Pointer to a structure that contains the file object's section object pointers.
 
 ### -param NewFileSize [in, optional]
-
 
 Pointer to a variable that specifies the size to which the file is to be truncated.
 
 ## -returns
 
-<b>MmCanFileBeTruncated</b> returns <b>TRUE</b> if the file can be truncated, <b>FALSE</b> otherwise.
+**MmCanFileBeTruncated** returns TRUE if the file can be truncated; FALSE otherwise.
 
 ## -remarks
 
-<b>MmCanFileBeTruncated</b> must always be called before a file is truncated.
+**MmCanFileBeTruncated** must always be called before a file is truncated.
 
-A file cannot be truncated (and <b>MmCanFileBeTruncated</b> will return <b>FALSE</b>) if any of the following are true:
+A file cannot be truncated (and **MmCanFileBeTruncated** will return FALSE) if any of the following are true:
 
-<ul>
-<li>
-An image section exists for the file.
+* An image section exists for the file.
 
-</li>
-<li>
-There are one or more outstanding write probes on the file's data section.
+* There are one or more outstanding write probes on the file's data section.
 
-</li>
-<li>
-There is a mapped view of file's data section within the truncation range determined by <i>NewFileSize</i>.
+* There is a mapped view of file's data section within the truncation range determined by **NewFileSize**.
 
-</li>
-<li>
-One or more users hold references to the data section for the file, and <i>NewFileSize</i> <= the current file size.
-
-</li>
-</ul>
+* One or more users hold references to the data section for the file, and **NewFileSize** <= the current file size.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ccpurgecachesection">CcPurgeCacheSection</a>
+[**CcPurgeCacheSection**](nf-ntifs-ccpurgecachesection.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-mmflushimagesection">MmFlushImageSection</a>
+[**MmFlushImageSection**](nf-ntifs-mmflushimagesection.md)

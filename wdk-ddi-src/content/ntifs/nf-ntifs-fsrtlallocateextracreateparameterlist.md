@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.FsRtlAllocateExtraCreateParameterList
 title: FsRtlAllocateExtraCreateParameterList function (ntifs.h)
-description: The FsRtlAllocateExtraCreateParameterList routine allocates paged pool memory for an ECP_LIST structure and generates a pointer to that structure.
-old-location: ifsk\fsrtlallocateextracreateparameterlist.htm
+description: Learn more about the FsRtlAllocateExtraCreateParameterList function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["FsRtlAllocateExtraCreateParameterList function"]
 ms.keywords: FsRtlAllocateExtraCreateParameterList, FsRtlAllocateExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_2d552d23-4312-4203-91fb-c6cf6fb39681.xml, ifsk.fsrtlallocateextracreateparameterlist, ntifs/FsRtlAllocateExtraCreateParameterList
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: The FsRtlAllocateExtraCreateParameterList routine is available starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,112 +41,59 @@ api_name:
 
 # FsRtlAllocateExtraCreateParameterList function
 
-
 ## -description
 
-The <b>FsRtlAllocateExtraCreateParameterList</b> routine allocates paged pool memory for an <a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a> structure and generates a pointer to that structure.
+The **FsRtlAllocateExtraCreateParameterList** routine allocates paged pool memory for an [**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)) structure and generates a pointer to that structure.
 
 ## -parameters
 
 ### -param Flags [in]
 
-
-Defines pool allocation options.  If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is combined with the <i>Flags</i> parameter by using a bitwise OR operation, any pool allocated by <b>FsRtlAllocateExtraCreateParameterList</b>  will be charged against the current process' memory quota.
+Defines pool allocation options.  If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is combined with the **Flags** parameter by using a bitwise OR operation, any pool allocated by **FsRtlAllocateExtraCreateParameterList**  will be charged against the current process' memory quota.
 
 ### -param EcpList [out]
 
-
-Receives a pointer to an initialized ECP list structure.  If <b>FsRtlAllocateExtraCreateParameterList</b>  failed to allocate sufficient pool, <i>*EcpList</i> will be <b>NULL</b> and <b>FsRtlAllocateExtraCreateParameterList</b>  will return status code STATUS_INSUFFICIENT_RESOURCES.
+Receives a pointer to an initialized ECP list structure.  If **FsRtlAllocateExtraCreateParameterList**  failed to allocate sufficient pool, ***EcpList** will be NULL and **FsRtlAllocateExtraCreateParameterList**  will return status code STATUS_INSUFFICIENT_RESOURCES.
 
 ## -returns
 
-<b>FsRtlAllocateExtraCreateParameterList</b> can return one of the following values:
+**FsRtlAllocateExtraCreateParameterList** can return one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-<b>FsRtlAllocateExtraCreateParameterList</b> was unable to allocate sufficient memory for an ECP list structure.  In this case, <i>*EcpList</i> will be <b>NULL</b>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The memory for the <a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a> structure was successfully allocated and initialized.  In this case, a pointer to the initialized list structure is returned in the <i>EcpList</i> parameter.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INSUFFICIENT_RESOURCES | **FsRtlAllocateExtraCreateParameterList** was unable to allocate sufficient memory for an ECP list structure.  In this case, ***EcpList** will be NULL. |
+| STATUS_SUCCESS  | The memory for the [**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)) structure was successfully allocated and initialized.  In this case, a pointer to the initialized list structure is returned in the **EcpList** parameter. |
 
 ## -remarks
 
-Whether the operating system automatically frees memory that <b>FsRtlAllocateExtraCreateParameterList</b> allocates depends on when <b>FsRtlAllocateExtraCreateParameterList</b> is called, as shown in the following situations:
+Whether the operating system automatically frees memory that **FsRtlAllocateExtraCreateParameterList** allocates depends on when **FsRtlAllocateExtraCreateParameterList** is called, as shown in the following situations:
 
-<ul>
-<li>
-A caller can invoke <b>FsRtlAllocateExtraCreateParameterList</b> to allocate the ECP_LIST and add one or more ECP context structures before the caller invokes the <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a> routine. In this situation, the operating system does not free any of the ECP context structures. Therefore, the caller can make multiple calls to <b>IoCreateFileEx</b> with the same ECP set. When the caller is done with the ECP_LIST, the caller must call the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfreeextracreateparameterlist">FsRtlFreeExtraCreateParameterList</a> routine to free the ECP_LIST.
+* A caller can invoke **FsRtlAllocateExtraCreateParameterList** to allocate the ECP_LIST and add one or more ECP context structures before the caller invokes the [**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md) routine. In this situation, the operating system does not free any of the ECP context structures. Therefore, the caller can make multiple calls to **IoCreateFileEx** with the same ECP set. When the caller is done with the ECP_LIST, the caller must call the [**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md) routine to free the ECP_LIST.
 
-</li>
-<li>
-While a file system or file system filter driver processes an <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request, the file system or file system filter driver can call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlinsertextracreateparameter">FsRtlInsertExtraCreateParameter</a> to attach an ECP to an existing ECP_LIST. If the ECP_LIST does not exist, the caller must call <b>FsRtlAllocateExtraCreateParameterList</b> to create the ECP_LIST. In this situation, the ECP_LIST and the ECP context structure are automatically cleaned up by the I/O manager when the create operation completes. This allows a file system's or filter driver's ECP to be properly propagated across the processing of reparse points. This process might require multiple IRP_MJ_CREATE requests to be generated. 
+* While a file system or file system filter driver processes an [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create) request, the file system or file system filter driver can call [**FltInsertExtraCreateParameter**](../fltkernel/nf-fltkernel-fltinsertextracreateparameter.md) to attach an ECP to an existing ECP_LIST. If the ECP_LIST does not exist, the caller must call **FsRtlAllocateExtraCreateParameterList** to create the ECP_LIST. In this situation, the ECP_LIST and the ECP context structure are automatically cleaned up by the I/O manager when the create operation completes. This allows a file system's or filter driver's ECP to be properly propagated across the processing of reparse points. This process might require multiple IRP_MJ_CREATE requests to be generated.
 
-</li>
-</ul>
-If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is used with the <i>Flags</i> parameter, a pageable pool is allocated. Otherwise, a pageable pool is allocated by using an internal lookaside list.
+If the FSRTL_ALLOCATE_ECPLIST_FLAG_CHARGE_QUOTA flag is used with the **Flags** parameter, a pageable pool is allocated. Otherwise, a pageable pool is allocated by using an internal lookaside list.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+[**ECP_LIST**](/previous-versions/windows/hardware/drivers/ff540148(v=vs.85))
 
+[**FltAllocateExtraCreateParameter**](../fltkernel/nf-fltkernel-fltallocateextracreateparameter.md)
 
+[**FltAllocateExtraCreateParameterFromLookasideList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameter">FltAllocateExtraCreateParameter</a>
+[**FltCreateFileEx2**](../fltkernel/nf-fltkernel-fltcreatefileex2.md)
 
+[**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md)
 
+[**FltFreeExtraCreateParameterList**](../fltkernel/nf-fltkernel-fltfreeextracreateparameterlist.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist">FltAllocateExtraCreateParameterFromLookasideList</a>
+[**FltGetEcpListFromCallbackData**](../fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata.md)
 
+[**FltInsertExtraCreateParameter**](../fltkernel/nf-fltkernel-fltinsertextracreateparameter.md)
 
+[**FltRemoveExtraCreateParameter**](../fltkernel/nf-fltkernel-fltremoveextracreateparameter.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex2">FltCreateFileEx2</a>
+[**FltSetEcpListIntoCallbackData**](../fltkernel/nf-fltkernel-fltsetecplistintocallbackdata.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameterlist">FltFreeExtraCreateParameterList</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata">FltGetEcpListFromCallbackData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltinsertextracreateparameter">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
+[**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md)

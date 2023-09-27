@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.PsReferencePrimaryToken
 title: PsReferencePrimaryToken function (ntifs.h)
-description: The PsReferencePrimaryToken routine increments the reference count of the primary token for the specified process.
-old-location: ifsk\psreferenceprimarytoken.htm
+description: Learn more about the PsReferencePrimaryToken function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["PsReferencePrimaryToken function"]
 ms.keywords: PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,52 +41,35 @@ api_name:
 
 # PsReferencePrimaryToken function
 
-
 ## -description
 
-The <b>PsReferencePrimaryToken</b> routine increments the reference count of the primary token for the specified process.
+The **PsReferencePrimaryToken** routine increments the reference count of the primary token for the specified process.
 
 ## -parameters
 
 ### -param Process [in, out]
 
-
 Pointer to the process whose primary token's reference count is to be incremented.
 
 ## -returns
 
-<b>PsReferencePrimaryToken</b> returns a pointer to the primary token for the given process.
+**PsReferencePrimaryToken** returns a pointer to the primary token for the given process.
 
 ## -remarks
 
-This routine is available starting with Microsoft Windows 2000. 
+**PsReferencePrimaryToken** increments the reference count of the returned primary token. Thus for every successful call to **PsReferencePrimaryToken**, the primary token's reference count must be decremented by calling one of the following functions:
 
-<b>PsReferencePrimaryToken</b> increments the reference count of the returned primary token. Thus for every successful call to <b>PsReferencePrimaryToken</b>, the primary token's reference count must be decremented by calling one of the following functions:
+* **ObDereferenceObject**, for Windows 2000
+* **PsDereferencePrimaryToken**, for Microsoft Windows XP and later
 
-<ul>
-<li>
-<b>ObDereferenceObject</b>, for Windows 2000
-
-</li>
-<li>
-<b>PsDereferencePrimaryToken</b>, for Microsoft Windows XP and later.
-
-</li>
-</ul>
 For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obdereferenceobject">ObDereferenceObject</a>
+[**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md)
 
+[**PsDereferencePrimaryToken**](nf-ntifs-psdereferenceprimarytoken.md)
 
+[**PsReferenceImpersonationToken**](nf-ntifs-psreferenceimpersonationtoken.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psdereferenceprimarytoken">PsDereferencePrimaryToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-psreferenceimpersonationtoken">PsReferenceImpersonationToken</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-sequeryinformationtoken">SeQueryInformationToken</a>
+[**SeQueryInformationToken**](nf-ntifs-sequeryinformationtoken.md)

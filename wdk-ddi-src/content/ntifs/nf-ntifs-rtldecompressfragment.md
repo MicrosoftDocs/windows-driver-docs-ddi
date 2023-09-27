@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.RtlDecompressFragment
 title: RtlDecompressFragment function (ntifs.h)
-description: The RtlDecompressFragment function is used to decompress part of a compressed buffer (that is, a buffer &#0034;fragment&#0034;).
-old-location: ifsk\rtldecompressfragment.htm
+description: Learn more about the RtlDecompressFragment function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["RtlDecompressFragment function"]
 ms.keywords: RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], ifsk.rtldecompressfragment, ntifs/RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml
 req.header: ntifs.h
@@ -42,180 +41,81 @@ api_name:
 
 # RtlDecompressFragment function
 
-
 ## -description
 
-The <b>RtlDecompressFragment</b> function is used to decompress part of a compressed buffer (that is, a buffer "fragment").
+The **RtlDecompressFragment** function is used to decompress part of a compressed buffer (that is, a buffer "fragment").
 
 ## -parameters
 
 ### -param CompressionFormat [in]
 
-
 Bitmask specifying the compression format of the compressed buffer. This parameter must be set to COMPRESSION_FORMAT_LZNT1. The meaning of this and other related compression format values are as follows:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-COMPRESSION_FORMAT_NONE
-
-</td>
-<td>
-Not supported by this function.
-
-</td>
-</tr>
-<tr>
-<td>
-COMPRESSION_FORMAT_DEFAULT
-
-</td>
-<td>
-Not supported by this function.
-
-</td>
-</tr>
-<tr>
-<td>
-COMPRESSION_FORMAT_LZNT1
-
-</td>
-<td>
-Specifies that compression should be performed. This value is required.
-
-</td>
-</tr>
-</table>
+| Value | Meaning |
+| ----- | ------- |
+| COMPRESSION_FORMAT_NONE    | Not supported by this function. |
+| COMPRESSION_FORMAT_DEFAULT | Not supported by this function. |
+| COMPRESSION_FORMAT_LZNT1   | Specifies that compression should be performed. This value is required. |
 
 ### -param UncompressedFragment [out]
 
-
-Pointer to a caller-allocated buffer (allocated from paged or non-paged pool) receiving the decompressed data from <i>CompressedBuffer</i>. This parameter is required and cannot be <b>NULL</b>.
+Pointer to a caller-allocated buffer (allocated from paged or non-paged pool) receiving the decompressed data from **CompressedBuffer**. This parameter is required and cannot be NULL.
 
 ### -param UncompressedFragmentSize [in]
 
-
-The size, in bytes, of the <i>UncompressedFragment</i> buffer.
+The size, in bytes, of the **UncompressedFragment** buffer.
 
 ### -param CompressedBuffer [in]
 
-
-A pointer to the buffer containing the data to decompress. This parameter is required and cannot be <b>NULL</b>.
+A pointer to the buffer containing the data to decompress. This parameter is required and cannot be NULL.
 
 ### -param CompressedBufferSize [in]
 
-
-The size, in bytes, of the <i>CompressedBuffer</i> buffer.
+The size, in bytes, of the **CompressedBuffer** buffer.
 
 ### -param FragmentOffset [in]
-
 
 The zero-based offset, in bytes, where the uncompressed fragment is being extract from. This offset value is the position within the original uncompressed buffer.
 
 ### -param FinalUncompressedSize [out]
 
-
-A pointer to a caller-allocated variable which receives the size, in bytes, of the decompressed data stored in <i>UncompressedFragment</i>. This parameter is required and cannot be <b>NULL</b>.
+A pointer to a caller-allocated variable which receives the size, in bytes, of the decompressed data stored in **UncompressedFragment**. This parameter is required and cannot be NULL.
 
 ### -param WorkSpace [in]
 
-
-A pointer to a caller-allocated work space buffer used by the <b>RtlDecompressFragment</b> function during decompression. Use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetcompressionworkspacesize">RtlGetCompressionWorkSpaceSize</a> function to determine the correct work space buffer size.
+A pointer to a caller-allocated work space buffer used by the **RtlDecompressFragment** function during decompression. Use the [**RtlGetCompressionWorkSpaceSize**](nf-ntifs-rtlgetcompressionworkspacesize.md) function to determine the correct work space buffer size.
 
 ## -returns
 
-<b>RtlDecompressFragment</b>returns an appropriate error status, such as one of the following:
+**RtlDecompressFragment**returns an appropriate NTSTATUS code, such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>CompressedBuffer</i> buffer was successfully decompressed into <i>UncompressedFragment</i>.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid compression format was specified via the <i>CompressionFormat</i> parameter. If <i>CompressionFormat</i> is either COMPRESSION_FORMAT_NONE or COMPRESSION_FORMAT_DEFAULT (but not both), this value is returned.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUPPORTED_COMPRESSION</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid compression format was specified via the <i>CompressionFormat</i> parameter. If <i>CompressionFormat</i> is not one of the following, STATUS_UNSUPPORTED_COMPRESSION is returned:
-
-<ul>
-<li>COMPRESSION_FORMAT_LZNT1</li>
-<li>COMPRESSION_FORMAT_NONE (in this case, STATUS_INVALID_PARAMETER is returned).</li>
-<li>COMPRESSION_FORMAT_DEFAULT (in this case, STATUS_INVALID_PARAMETER is returned). </li>
-</ul>
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BAD_COMPRESSION_BUFFER</b></dt>
-</dl>
-</td>
-<td width="60%">
-<i>UncompressedFragment</i> is not large enough to contain the uncompressed data.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_SUCCESS                 | The **CompressedBuffer** buffer was successfully decompressed into **UncompressedFragment**. |
+| STATUS_INVALID_PARAMETER       | An invalid compression format was specified via the **CompressionFormat** parameter. If **CompressionFormat** is either COMPRESSION_FORMAT_NONE or COMPRESSION_FORMAT_DEFAULT (but not both), this value is returned. |
+| STATUS_UNSUPPORTED_COMPRESSION | An invalid compression format was specified via the **CompressionFormat** parameter. If **CompressionFormat** is not one of the following, STATUS_UNSUPPORTED_COMPRESSION is returned: COMPRESSION_FORMAT_LZNT1 |
+| STATUS_BAD_COMPRESSION_BUFFER  | **UncompressedFragment** is not large enough to contain the uncompressed data. |
 
 ## -remarks
 
-Relative to the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbuffer">RtlDecompressBuffer</a> function, <b>RtlDecompressFragment</b> is used for decompressing a portion of the data from a compressed buffer (as opposed to the entire buffer). 
+Relative to the [**RtlDecompressBuffer**](nf-ntifs-rtldecompressbuffer.md) function, **RtlDecompressFragment** is used for decompressing a portion of the data from a compressed buffer (as opposed to the entire buffer).
 
-To determine the correct buffer size for the <i>WorkSpace</i> parameter, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetcompressionworkspacesize">RtlGetCompressionWorkSpaceSize</a> function (that is, the value returned by the <b>RtlGetCompressionWorkSpaceSize</b> parameter).
+To determine the correct buffer size for the **WorkSpace** parameter, use the [**RtlGetCompressionWorkSpaceSize**](nf-ntifs-rtlgetcompressionworkspacesize.md) function (that is, the value returned by the **RtlGetCompressionWorkSpaceSize** parameter).
 
-To compress an uncompressed buffer, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a> function.
+To compress an uncompressed buffer, use the [**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md) function.
 
-To decompress an entire compressed buffer, use the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbuffer">RtlDecompressBuffer</a> function.
+To decompress an entire compressed buffer, use the [**RtlDecompressBuffer**](nf-ntifs-rtldecompressbuffer.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_compression_information">FILE_COMPRESSION_INFORMATION</a>
+[**FILE_COMPRESSION_INFORMATION**](ns-ntifs-_file_compression_information.md)
 
+[**RtlCompressBuffer**](nf-ntifs-rtlcompressbuffer.md)
 
+[**RtlDecompressBuffer**](nf-ntifs-rtldecompressbuffer.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcompressbuffer">RtlCompressBuffer</a>
+[**RtlDecompressBufferEx**](nf-ntifs-rtldecompressbufferex.md)
 
+[**RtlDecompressBufferEx2**](nf-ntifs-rtldecompressbufferex2.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbuffer">RtlDecompressBuffer</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbufferex">RtlDecompressBufferEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressbufferex2">RtlDecompressBufferEx2</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldecompressfragmentex">RtlDecompressFragmentEx</a>
+[**RtlDecompressFragmentEx**](nf-ntifs-rtldecompressfragmentex.md)

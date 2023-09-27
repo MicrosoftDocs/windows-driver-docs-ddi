@@ -1,8 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlFindInTunnelCache
 title: FsRtlFindInTunnelCache function (ntifs.h)
-description: The FsRtlFindInTunnelCache routine searches for a matching entry in the tunnel cache that matches the specified name.
-old-location: ifsk\fsrtlfindintunnelcache.htm
+description: Learn more about the FsRtlFindInTunnelCache function.
 tech.root: ifsk
 ms.date: 04/16/2018
 keywords: ["FsRtlFindInTunnelCache function"]
@@ -45,81 +44,62 @@ dev_langs:
 
 # FsRtlFindInTunnelCache function
 
-
 ## -description
 
-The <b>FsRtlFindInTunnelCache</b> routine searches for a matching entry in the tunnel cache that matches the specified name.
+The **FsRtlFindInTunnelCache** routine searches for a matching entry in the tunnel cache that matches the specified name.
 
 ## -parameters
 
 ### -param Cache [in]
 
-
-Pointer to a tunnel cache initialized by <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache">FsRtlInitializeTunnelCache</a>.
+Pointer to a tunnel cache initialized by [**FsRtlInitializeTunnelCache**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md).
 
 ### -param DirectoryKey
 
-<p>Key value of the directory containing the file that is being created or renamed.</p>
+Key value of the directory containing the file that is being created or renamed.
 
 ### -param Name [in]
-
 
 Pointer to a Unicode string containing the new name for the file that is being renamed or created.
 
 ### -param ShortName [out]
 
-
-Pointer to a caller-allocated Unicode string to receive the short name of the tunneled file. This string must be long enough to hold a full 8.3 file name. (Unlike <i>LongName</i>, <i>ShortName</i> is not grown dynamically.)
+Pointer to a caller-allocated Unicode string to receive the short name of the tunneled file. This string must be long enough to hold a full 8.3 file name. (Unlike **LongName**, **ShortName** is not grown dynamically.)
 
 ### -param LongName [out]
 
-
-Pointer to a caller-allocated Unicode string to receive the long name of the tunneled file. If this string is not large enough to hold the tunneled name, <b>FsRtlFindInTunnelCache</b> replaces it with a larger system-allocated string. If such a string is allocated, the caller is responsible for detecting this case and freeing the new system-allocated string as well as the original caller-allocated string.
+Pointer to a caller-allocated Unicode string to receive the long name of the tunneled file. If this string is not large enough to hold the tunneled name, **FsRtlFindInTunnelCache** replaces it with a larger system-allocated string. If such a string is allocated, the caller is responsible for detecting this case and freeing the new system-allocated string as well as the original caller-allocated string.
 
 ### -param DataLength [in, out]
 
-
-On input, this is a pointer to a variable that specifies the length of the buffer pointed to by <i>Data</i>. On output, the same variable receives the length in bytes of the data written to the buffer.
+On input, this is a pointer to a variable that specifies the length of the buffer pointed to by **Data**. On output, the same variable receives the length in bytes of the data written to the buffer.
 
 ### -param Data [out]
-
 
 Pointer to a caller-allocated buffer to receive the data found in the tunnel cache.
 
 ## -returns
 
-<b>FsRtlFindInTunnelCache</b> returns <b>TRUE</b> if a matching entry is found in the tunnel cache, <b>FALSE</b> otherwise.
+**FsRtlFindInTunnelCache** returns TRUE if a matching entry is found in the tunnel cache, FALSE otherwise.
 
 ## -remarks
 
-File systems can call <b>FsRtlFindInTunnelCache</b> when a file name is added to a directory for a file that is being created or renamed. <b>FsRtlFindInTunnelCache</b> searches the tunnel cache for an entry that matches <i>DirKey</i> and <i>Name</i>. If one is found, <b>FsRtlFindInTunnelCache</b> fetches the cached information.
+File systems can call **FsRtlFindInTunnelCache** when a file name is added to a directory for a file that is being created or renamed. **FsRtlFindInTunnelCache** searches the tunnel cache for an entry that matches **DirKey** and **Name**. If one is found, **FsRtlFindInTunnelCache** fetches the cached information.
 
 The match is performed as follows:
 
-<ul>
-<li>
-The value of <i>DirKey</i> is compared against the entry's directory key. (This is the <i>DirectoryKey</i> value that was passed to <b>FsRtlAddToTunnelCache</b>.)
+* The value of **DirKey** is compared against the entry's directory key. (This is the **DirectoryKey** value that was passed to **FsRtlAddToTunnelCache**.)
 
-</li>
-<li>
-If <i>KeyByShortName</i> was set to <b>TRUE</b> in the call to <b>FsRtlAddToTunnelCache</b>, the string pointed to by <i>Name</i> is compared against the short name of the tunneled file. Otherwise, it is compared against the long name.
+* If **KeyByShortName** was set to TRUE in the call to **FsRtlAddToTunnelCache**, the string pointed to by **Name** is compared against the short name of the tunneled file. Otherwise, it is compared against the long name.
 
-</li>
-</ul>
-The value of the buffer length variable pointed to by <i>DataLength</i> must be greater than or equal to the length in bytes of the data stored in the tunnel cache entry.
+The value of the buffer length variable pointed to by **DataLength** must be greater than or equal to the length in bytes of the data stored in the tunnel cache entry.
 
-The caller is required to synchronize this call against <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache">FsRtlDeleteTunnelCache</a>. In other words, a file system must ensure that it does not call <b>FsRtlFindInTunnelCache</b> and <b>FsRtlDeleteTunnelCache</b> at the same time from different threads. 
-
-For more information about file name tunneling, see <a href="https://go.microsoft.com/fwlink/p/?linkid=3100&id=172190">Microsoft Knowledge Base Article 172190</a>.
+The caller is required to synchronize this call against [**FsRtlDeleteTunnelCache**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md). In other words, a file system must ensure that it does not call **FsRtlFindInTunnelCache** and **FsRtlDeleteTunnelCache** at the same time from different threads.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache">FsRtlDeleteTunnelCache</a>
+[**FsRtlDeleteTunnelCache**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md)
 
+[**FsRtlInitializeTunnelCache**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache">FsRtlInitializeTunnelCache</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)
