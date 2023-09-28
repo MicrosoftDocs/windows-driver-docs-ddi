@@ -1,10 +1,10 @@
 ---
-UID: NE:ksmedia.KSDS3D_HRTF_FILTER_VERSION
+UID: NE:ksmedia.KSEVENT_SOUNDDETECTOR
 tech.root: kernel
-title: KSDS3D_HRTF_FILTER_VERSION (ksmedia.h)
-ms.date: 09/27/2023
+title: KSEVENT_SOUNDDETECTOR (ksmedia.h)
+ms.date: 09/28/2023
 targetos: Windows
-description: This topic describes the KSDS3D_HRTF_FILTER_VERSION enumeration (ksmedia.h).
+description: This topic describes the KSEVENT_SOUNDDETECTOR enumeration (ksmedia.h).
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -25,25 +25,25 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
- - KSDS3D_HRTF_FILTER_VERSION
+ - KSEVENT_SOUNDDETECTOR
 f1_keywords:
- - KSDS3D_HRTF_FILTER_VERSION
- - ksmedia/KSDS3D_HRTF_FILTER_VERSION
+ - KSEVENT_SOUNDDETECTOR
+ - ksmedia/KSEVENT_SOUNDDETECTOR
 dev_langs:
  - c++
 helpviewer_keywords:
- - KSDS3D_HRTF_FILTER_VERSION
+ - KSEVENT_SOUNDDETECTOR
 ---
 
 ## -description
 
-This topic describes the **KSDS3D_HRTF_FILTER_VERSION** enumeration (ksmedia.h).
+This topic describes the **KSEVENT_SOUNDDETECTOR** enumeration (ksmedia.h).
 
 ## -enum-fields
 
-### -field DS3D_HRTF_VERSION_1
+### -field KSEVENT_SOUNDDETECTOR_MATCHDETECTED
 
-Defines the **DS3D_HRTF_VERSION_1** constant.
+Defines the **KSEVENT_SOUNDDETECTOR_MATCHDETECTED** constant.
 
 ## -remarks
 

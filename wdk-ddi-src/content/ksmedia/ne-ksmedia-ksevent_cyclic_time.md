@@ -1,10 +1,10 @@
 ---
-UID: NE:ksmedia.KSDS3D_HRTF_FILTER_VERSION
+UID: NE:ksmedia.KSEVENT_CYCLIC_TIME
 tech.root: kernel
-title: KSDS3D_HRTF_FILTER_VERSION (ksmedia.h)
-ms.date: 09/27/2023
+title: KSEVENT_CYCLIC_TIME (ksmedia.h)
+ms.date: 09/28/2023
 targetos: Windows
-description: This topic describes the KSDS3D_HRTF_FILTER_VERSION enumeration (ksmedia.h).
+description: This topic describes the KSEVENT_CYCLIC_TIME enumeration (ksmedia.h).
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -25,25 +25,25 @@ api_type:
 api_location:
  - ksmedia.h
 api_name:
- - KSDS3D_HRTF_FILTER_VERSION
+ - KSEVENT_CYCLIC_TIME
 f1_keywords:
- - KSDS3D_HRTF_FILTER_VERSION
- - ksmedia/KSDS3D_HRTF_FILTER_VERSION
+ - KSEVENT_CYCLIC_TIME
+ - ksmedia/KSEVENT_CYCLIC_TIME
 dev_langs:
  - c++
 helpviewer_keywords:
- - KSDS3D_HRTF_FILTER_VERSION
+ - KSEVENT_CYCLIC_TIME
 ---
 
 ## -description
 
-This topic describes the **KSDS3D_HRTF_FILTER_VERSION** enumeration (ksmedia.h).
+This topic describes the **KSEVENT_CYCLIC_TIME** enumeration (ksmedia.h).
 
 ## -enum-fields
 
-### -field DS3D_HRTF_VERSION_1
+### -field KSEVENT_CYCLIC_TIME_INTERVAL
 
-Defines the **DS3D_HRTF_VERSION_1** constant.
+Defines the **KSEVENT_CYCLIC_TIME_INTERVAL** constant.
 
 ## -remarks
 
