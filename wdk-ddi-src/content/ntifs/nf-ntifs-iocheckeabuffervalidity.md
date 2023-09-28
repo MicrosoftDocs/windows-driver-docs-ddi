@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.IoCheckEaBufferValidity
 title: IoCheckEaBufferValidity function (ntifs.h)
-description: The IoCheckEaBufferValidity routine checks whether the specified extended attribute (EA) buffer is valid.
-old-location: ifsk\iocheckeabuffervalidity.htm
+description: Learn more about the IoCheckEaBufferValidity function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["IoCheckEaBufferValidity function"]
 ms.keywords: IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ifsk.iocheckeabuffervalidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, ntifs/IoCheckEaBufferValidity
 req.header: ntifs.h
@@ -42,80 +41,54 @@ api_name:
 
 # IoCheckEaBufferValidity function
 
-
 ## -description
 
-The <b>IoCheckEaBufferValidity</b> routine checks whether the specified extended attribute (EA) buffer is valid.
+The **IoCheckEaBufferValidity** routine checks whether the specified extended attribute (EA) buffer is valid.
 
 ## -parameters
 
 ### -param EaBuffer [in]
 
-
 Pointer to the buffer containing the EAs to be checked.
 
 ### -param EaLength [in]
 
-
-Length, in bytes, of <i>EaBuffer</i>.
+Length, in bytes, of **EaBuffer**.
 
 ### -param ErrorOffset [out]
-
 
 Pointer to a variable that receives the offset of the offending entry in the EA buffer if an error is found. This variable is only valid if an error occurs.
 
 ## -returns
 
-<b>IoCheckEaBufferValidity</b> returns STATUS_SUCCESS if the EA buffer is valid; otherwise it returns STATUS_EA_LIST_INCONSISTENT.
+**IoCheckEaBufferValidity** returns STATUS_SUCCESS if the EA buffer is valid; otherwise it returns STATUS_EA_LIST_INCONSISTENT.
 
 ## -remarks
 
-<b>IoCheckEaBufferValidity</b> checks each FILE_FULL_EA_INFORMATION entry in the specified EA buffer to ensure that the following conditions are met:
+**IoCheckEaBufferValidity** checks each FILE_FULL_EA_INFORMATION entry in the specified EA buffer to ensure that the following conditions are met:
 
-<ul>
-<li>
-The entire entry must fall within the buffer.
+* The entire entry must fall within the buffer.
 
-</li>
-<li>
-The value of <b>EaName</b> must be a null-terminated character array.
+* The value of **EaName** must be a null-terminated character array.
 
-</li>
-<li>
-The value of <b>EaNameLength</b> must match the length in bytes of the <b>EaName</b> array (not including the zero-terminator).
+* The value of **EaNameLength** must match the length in bytes of the **EaName** array (not including the zero-terminator).
 
-</li>
-<li>
-For all entries except the last, the value of <b>NextEntryOffset</b> must be greater than zero and must fall on a ULONG boundary.
+* For all entries except the last, the value of **NextEntryOffset** must be greater than zero and must fall on a ULONG boundary.
 
-</li>
-</ul>
-In addition, <b>IoCheckEaBufferValidity</b> checks the EA buffer to ensure that the following conditions are met:
+In addition, **IoCheckEaBufferValidity** checks the EA buffer to ensure that the following conditions are met:
 
-<ul>
-<li>
-The length passed in <i>EaLength</i> matches the actual length of the buffer.
+* The length passed in **EaLength** matches the actual length of the buffer.
 
-</li>
-<li>
-The actual buffer length is nonnegative.
+* The actual buffer length is nonnegative.
 
-</li>
-</ul>
 To be valid, the EA buffer must meet all of these conditions.
 
-<div class="alert"><b>Warning</b>  
-      <b>IoCheckEaBufferValidity</b> does not perform any synchronization to ensure that the contents of <i>EaBuffer</i> do not change asynchronously. If a user-mode application can access the buffer in another thread, the application could change the buffer while <b>IoCheckEaBufferValidity</b> is running. This change might cause the routine to return incorrect information.  To avoid this scenario, the driver should copy the buffer before calling <b>IoCheckEaBufferValidity</b>.  After the buffer has been validated, the caller should use only the validated copy, not the original buffer.</div>
-<div> </div>
+**IoCheckEaBufferValidity** doesn't perform any synchronization to ensure that the contents of **EaBuffer** do not change asynchronously. If a user-mode application can access the buffer in another thread, the application could change the buffer while **IoCheckEaBufferValidity** is running. This change might cause the routine to return incorrect information.  To avoid this scenario, the driver should copy the buffer before calling **IoCheckEaBufferValidity**.  After the buffer has been validated, the caller should use only the validated copy, not the original buffer.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_file_full_ea_information">FILE_FULL_EA_INFORMATION</a>
+[**FILE_FULL_EA_INFORMATION**](../wdm/ns-wdm-_file_full_ea_information.md)
 
+[**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea)
 
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-query-ea">IRP_MJ_QUERY_EA</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-set-ea">IRP_MJ_SET_EA</a>
+[**IRP_MJ_SET_EA**](/windows-hardware/drivers/ifs/irp-mj-set-ea)

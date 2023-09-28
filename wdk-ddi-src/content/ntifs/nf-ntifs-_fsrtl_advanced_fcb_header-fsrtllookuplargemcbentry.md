@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlLookupLargeMcbEntry
 title: FsRtlLookupLargeMcbEntry function (ntifs.h)
-description: Given a virtual block number (VBN) and a map control block (MCB), the FsRtlLookupLargeMcbEntry routine searches the MCB for mapping information corresponding to the specified VBN.
-old-location: ifsk\fsrtllookuplargemcbentry.htm
+description: Learn more about the FsRtlLookupLargeMcbEntry function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["FsRtlLookupLargeMcbEntry function"]
 ms.keywords: FsRtlLookupLargeMcbEntry, FsRtlLookupLargeMcbEntry routine [Installable File System Drivers], fsrtlref_600ea10a-a948-4169-9877-5a8a603b0426.xml, ifsk.fsrtllookuplargemcbentry, ntifs/FsRtlLookupLargeMcbEntry
 req.header: ntifs.h
@@ -45,103 +44,74 @@ dev_langs:
 
 # FsRtlLookupLargeMcbEntry function
 
-
 ## -description
 
-Given a virtual block number (VBN) and a map control block (MCB), the <b>FsRtlLookupLargeMcbEntry</b> routine searches the MCB for mapping information corresponding to the specified VBN.
+Given a virtual block number (VBN) and a map control block (MCB), the **FsRtlLookupLargeMcbEntry** routine searches the MCB for mapping information corresponding to the specified VBN.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Pointer to an initialized MCB structure. </p>
+Pointer to an initialized MCB structure.
 
 ### -param Vbn
 
-<p>Pointer to the requested VBN.</p>
+Pointer to the requested VBN.
 
 ### -param Lbn
 
-<p>Pointer to a variable that receives the LBN that is mapped to <i>LargeVbn</i> in the mapping entry, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. </p>
+Pointer to a variable that receives the LBN that is mapped to **LargeVbn** in the mapping entry, or -1 if no such LBN exists. This parameter is optional and can be NULL.
 
 ### -param SectorCountFromLbn
 
-<p>Pointer to a variable that receives the number of sectors that follow <i>LargeVbn</i> in the mapping run. This parameter is optional and can be <b>NULL</b>. </p>
+Pointer to a variable that receives the number of sectors that follow **LargeVbn** in the mapping run. This parameter is optional and can be NULL.
 
 ### -param StartingLbn
 
-<p>Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. </p>
+Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be NULL.
 
 ### -param SectorCountFromStartingLbn
 
-<p>Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. </p>
+Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be NULL.
 
 ### -param Index [out, optional]
 
-
-Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>.
+Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be NULL.
 
 ## -returns
 
-<b>FsRtlLookupLargeMcbEntry</b> returns <b>TRUE</b> if the specified VBN is within the range of VBNs that are mapped by the MCB, <b>FALSE</b> otherwise.
+**FsRtlLookupLargeMcbEntry** returns TRUE if the specified VBN is within the range of VBNs that are mapped by the MCB, FALSE otherwise.
 
 ## -remarks
 
-<b>FsRtlLookupLargeMcbEntry</b> searches for a mapping entry in the MCB whose run includes the specified VBN. 
+**FsRtlLookupLargeMcbEntry** searches for a mapping entry in the MCB whose run includes the specified VBN.
 
-<ul>
-<li>
-If such a mapping exists, the lookup operation yields positive values for the corresponding LBN and sector count, and <b>FsRtlLookupLargeMcbEntry</b> returns <b>TRUE</b>. 
+* If such a mapping exists, the lookup operation yields positive values for the corresponding LBN and sector count, and **FsRtlLookupLargeMcbEntry** returns TRUE.
 
-</li>
-<li>
-If no such mapping exists, but the specified VBN is lower than the highest VBN mapped by the MCB, this is referred to as a hole in the mapping. In this case, <b>FsRtlLookupLargeMcbEntry</b> still returns <b>TRUE</b>, but the lookup operation yields a value of -1 for the LBN.
+* If no such mapping exists, but the specified VBN is lower than the highest VBN mapped by the MCB, this is referred to as a hole in the mapping. In this case, **FsRtlLookupLargeMcbEntry** still returns TRUE, but the lookup operation yields a value of -1 for the LBN.
 
-</li>
-<li>
-If the specified VBN is higher than the highest VBN mapped by the MCB, or if the MCB contains no mappings, <b>FsRtlLookupLargeMcbEntry</b> returns <b>FALSE</b>.
+* If the specified VBN is higher than the highest VBN mapped by the MCB, or if the MCB contains no mappings, **FsRtlLookupLargeMcbEntry** returns FALSE.
 
-</li>
-</ul>
-<div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
-<div> </div>
+The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a>
+[**FsRtlAddLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry.md)
 
+[**FsRtlGetNextLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry.md)
 
+[**FsRtlInitializeLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry">FsRtlGetNextLargeMcbEntry</a>
+[**FsRtlLookupLastLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry.md)
 
+[**FsRtlLookupLastLargeMcbEntryAndIndex**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex.md)
 
+[**FsRtlNumberOfRunsInLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb">FsRtlInitializeLargeMcb</a>
+[**FsRtlRemoveLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry.md)
 
+[**FsRtlSplitLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb.md)
 
+[**FsRtlTruncateLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry">FsRtlLookupLastLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex">FsRtlLookupLastLargeMcbEntryAndIndex</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry">FsRtlRemoveLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb">FsRtlSplitLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a>
+[**FsRtlUninitializeLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md)

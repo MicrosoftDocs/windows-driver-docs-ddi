@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.RtlUpcaseUnicodeStringToCountedOemString
 title: RtlUpcaseUnicodeStringToCountedOemString function (ntifs.h)
-description: The RtlUpcaseUnicodeStringToCountedOemString routine translates a given Unicode source string into an uppercase counted OEM string using the current system OEM code page.
-old-location: ifsk\rtlupcaseunicodestringtocountedoemstring.htm
+description: Learn more about the RtlUpcaseUnicodeStringToCountedOemString function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["RtlUpcaseUnicodeStringToCountedOemString function"]
 ms.keywords: RtlUpcaseUnicodeStringToCountedOemString, RtlUpcaseUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlupcaseunicodestringtocountedoemstring, ntifs/RtlUpcaseUnicodeStringToCountedOemString, rtlref_54925045-9df1-41ef-9878-030f30e2a0f1.xml
 req.header: ntifs.h
@@ -42,87 +41,60 @@ api_name:
 
 # RtlUpcaseUnicodeStringToCountedOemString function
 
-
 ## -description
 
-The <b>RtlUpcaseUnicodeStringToCountedOemString</b> routine translates a given Unicode source string into an uppercase counted OEM string using the current system OEM code page.
+The **RtlUpcaseUnicodeStringToCountedOemString** routine translates a given Unicode source string into an uppercase counted OEM string using the current system OEM code page.
 
 ## -parameters
 
 ### -param DestinationString
 
-Pointer to a caller-allocated buffer to receive the counted OEM string. If <i>AllocateDestinationString</i> is <b>FALSE</b>, the caller must also allocate a buffer for the <b>Buffer</b> member of <i>DestinationString</i> to hold the OEM data. If <i>AllocateDestinationString</i> is <b>TRUE</b>, <b>RtlUpcaseUnicodeStringToCountedOemString </b>allocates a buffer large enough to hold the string, passes a pointer to it in <b>Buffer</b>, and updates the length and maximum length members of <i>DestinationString</i> accordingly.
+Pointer to a caller-allocated buffer to receive the counted OEM string. If **AllocateDestinationString** is FALSE, the caller must also allocate a buffer for the **Buffer** member of **DestinationString** to hold the OEM data. If **AllocateDestinationString** is TRUE, **RtlUpcaseUnicodeStringToCountedOemString** allocates a buffer large enough to hold the string, passes a pointer to it in **Buffer**, and updates the length and maximum length members of **DestinationString** accordingly.
 
 ### -param SourceString [in]
-
 
 Pointer to the Unicode string to be translated.
 
 ### -param AllocateDestinationString [in]
 
-
-Set to <b>TRUE</b> if <b>RtlUpcaseUnicodeStringToCountedOemString </b>should allocate the buffer space for the <i>DestinationString</i>, <b>FALSE</b> otherwise. If this parameter is <b>TRUE</b>, the caller is responsible for freeing the buffer when it is no longer needed by calling <b>RtlFreeOemString</b>.
+Set to TRUE if **RtlUpcaseUnicodeStringToCountedOemString** should allocate the buffer space for the **DestinationString**, FALSE otherwise. If this parameter is TRUE, the caller is responsible for freeing the buffer when it is no longer needed by calling **RtlFreeOemString**.
 
 ## -returns
 
-<b>RtlUpcaseUnicodeStringToCountedOemString</b> returns STATUS_SUCCESS if it returns a translated string at <i>DestinationString</i>. Otherwise, no storage was allocated, nor was any conversion performed. It returns STATUS_UNMAPPABLE_CHARACTER if it cannot translate a character in the given <i>SourceString</i>.
+**RtlUpcaseUnicodeStringToCountedOemString** returns STATUS_SUCCESS if it returns a translated string at **DestinationString**. Otherwise, no storage was allocated, nor was any conversion performed. It returns STATUS_UNMAPPABLE_CHARACTER if it cannot translate a character in the given **SourceString**.
 
 ## -remarks
 
-<b>RtlUpcaseUnicodeStringToCountedOemString</b> returns a string that is not null-terminated. It translates the given source string using the OEM code page that was installed as the current system code page at system boot time, and converts the translated string to uppercase. 
+**RtlUpcaseUnicodeStringToCountedOemString** returns a string that is not null-terminated. It translates the given source string using the OEM code page that was installed as the current system code page at system boot time, and converts the translated string to uppercase.
 
-To find a best-match mapping for any special characters, such as a copyright character, in the given source string, <b>RtlUpcaseUnicodeStringToCountedOemString</b> performs the following operations: 
+To find a best-match mapping for any special characters, such as a copyright character, in the given source string, **RtlUpcaseUnicodeStringToCountedOemString** performs the following operations:
 
-<ol>
-<li>
-Translates a copy of the Unicode string at <i>SourceString</i> into an OEM string
+1. Translates a copy of the Unicode string at **SourceString** into an OEM string
 
-</li>
-<li>
-Translates the OEM string back into Unicode
+2. Translates the OEM string back into Unicode
 
-</li>
-<li>
-Converts this new Unicode string to uppercase
+3. Converts this new Unicode string to uppercase
 
-</li>
-<li>
-Translates the uppercase Unicode string into a counted OEM string and returns it at <i>DestinationString</i>
+4. Translates the uppercase Unicode string into a counted OEM string and returns it at **DestinationString**
 
-</li>
-</ol>
-This routine does not modify the source string. 
+This routine does not modify the source string.
 
-For information about other string-handling routines, see <a href="/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines">Run-Time Library (RTL) Routines</a>.
+For information about other string-handling routines, see [Run-Time Library (RTL) Routines](/windows-hardware/drivers/ddi/_kernel/#run-time-library-rtl-routines).
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff558741(v=vs.85)">OEM_STRING</a>
+[**OEM_STRING**](/previous-versions/windows/hardware/drivers/ff558741(v=vs.85))
 
+[**RtlFreeOemString**](nf-ntifs-rtlfreeoemstring.md)
 
+[**RtlOemStringToCountedUnicodeString**](nf-ntifs-rtloemstringtocountedunicodestring.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlfreeoemstring">RtlFreeOemString</a>
+[**RtlUnicodeStringToCountedOemString**](nf-ntifs-rtlunicodestringtocountedoemstring.md)
 
+[**RtlUnicodeStringToOemSize**](nf-ntifs-rtlunicodestringtooemsize.md)
 
+[**RtlUpcaseUnicodeStringToOemString**](nf-ntifs-rtlupcaseunicodestringtooemstring.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtloemstringtocountedunicodestring">RtlOemStringToCountedUnicodeString</a>
+[**RtlUpcaseUnicodeToOemN**](nf-ntifs-rtlupcaseunicodetooemn.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtocountedoemstring">RtlUnicodeStringToCountedOemString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodestringtooemsize">RtlUnicodeStringToOemSize</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodestringtooemstring">RtlUpcaseUnicodeStringToOemString</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlupcaseunicodetooemn">RtlUpcaseUnicodeToOemN</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

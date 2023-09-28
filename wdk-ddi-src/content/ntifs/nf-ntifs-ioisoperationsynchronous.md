@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.IoIsOperationSynchronous
 title: IoIsOperationSynchronous function (ntifs.h)
-description: The IoIsOperationSynchronous routine determines whether a given IRP represents a synchronous or asynchronous I/O request.
-old-location: ifsk\ioisoperationsynchronous.htm
+description: Learn more about the IoIsOperationSynchronous function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["IoIsOperationSynchronous function"]
 ms.keywords: IoIsOperationSynchronous, IoIsOperationSynchronous routine [Installable File System Drivers], ifsk.ioisoperationsynchronous, ioref_259181c2-f6d9-4fe6-8d4b-594e7cf8db09.xml, ntifs/IoIsOperationSynchronous
 req.header: ntifs.h
@@ -42,80 +41,50 @@ api_name:
 
 # IoIsOperationSynchronous function
 
-
 ## -description
 
-The <b>IoIsOperationSynchronous</b> routine determines whether a given IRP represents a synchronous or asynchronous I/O request.
+The **IoIsOperationSynchronous** routine determines whether a given IRP represents a synchronous or asynchronous I/O request.
 
 ## -parameters
 
 ### -param Irp [in]
 
-
 Pointer to the IRP for the operation.
 
 ## -returns
 
-<b>IoIsOperationSynchronous</b> returns <b>TRUE</b> if the operation is synchronous, otherwise <b>FALSE</b>.
+**IoIsOperationSynchronous** returns TRUE if the operation is synchronous, otherwise FALSE.
 
 ## -remarks
 
-<b>IoIsOperationSynchronous</b> determines whether a given IRP requests a synchronous or asynchronous I/O operation, according to the following conditions: 
+**IoIsOperationSynchronous** determines whether a given IRP requests a synchronous or asynchronous I/O operation, according to the following conditions:
 
-<ul>
-<li>
-If the IRP requests asynchronous paging I/O, the operation is asynchronous, even if one of the other conditions is true. 
+* If the IRP requests asynchronous paging I/O, the operation is asynchronous, even if one of the other conditions is true.
 
-</li>
-<li>
-If the IRP requests synchronous paging I/O, the operation is synchronous. 
+* If the IRP requests synchronous paging I/O, the operation is synchronous.
 
-</li>
-<li>
-If the file object was opened for synchronous I/O, the operation is synchronous. 
+* If the file object was opened for synchronous I/O, the operation is synchronous.
 
-</li>
-<li>
-If the IRP_SYNCHRONOUS_API flag is set in the IRP, the operation is synchronous. This flag is set for operations, such as <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> and <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>, that are always synchronous, even when performed on a file object that was opened for asynchronous I/O. 
+* If the IRP_SYNCHRONOUS_API flag is set in the IRP, the operation is synchronous. This flag is set for operations, such as [**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md) and [**ZwSetInformationFile**](nf-ntifs-ntsetinformationfile.md), that are always synchronous, even when performed on a file object that was opened for asynchronous I/O.
 
-</li>
-<li>
-If none of the above conditions is true, the operation is asynchronous. 
+* If none of the above conditions is true, the operation is asynchronous.
 
-</li>
-</ul>
-<div class="alert"><b>Note</b>  <b>IoIsOperationSynchronous</b>
-      also returns <b>TRUE</b> if the IRP contains an IOCTL or FSCTL request with an I/O or file system control code that was defined with METHOD_BUFFERED, even if the file object was opened for asynchronous I/O. Such a request is likely to be made synchronous by the file system, but this is not necessarily true in all cases. </div>
-<div> </div>
+**IoIsOperationSynchronous** also returns TRUE if the IRP contains an IOCTL or FSCTL request with an I/O or file system control code that was defined with METHOD_BUFFERED, even if the file object was opened for asynchronous I/O. Such a request is likely to be made synchronous by the file system, but this is not necessarily true in all cases.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>
+[**IRP**](../wdm/ns-wdm-_irp.md)
 
+[**IoBuildSynchronousFsdRequest**](../wdm/nf-wdm-iobuildsynchronousfsdrequest.md)
 
+[**IoCreateFile**](../wdm/nf-wdm-iocreatefile.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iobuildsynchronousfsdrequest">IoBuildSynchronousFsdRequest</a>
+[**IoCreateFileEx**](../ntddk/nf-ntddk-iocreatefileex.md)
 
+[**IoCreateFileSpecifyDeviceObjectHint**](../ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint.md)
 
+[**ZwCreateFile**](nf-ntifs-ntcreatefile.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocreatefile">IoCreateFile</a>
+[**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefileex">IoCreateFileEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-iocreatefilespecifydeviceobjecthint">IoCreateFileSpecifyDeviceObjectHint</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntsetinformationfile">ZwSetInformationFile</a>
+[**ZwSetInformationFile**](nf-ntifs-ntsetinformationfile.md)
