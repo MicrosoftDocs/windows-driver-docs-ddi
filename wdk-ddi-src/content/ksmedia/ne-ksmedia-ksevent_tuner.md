@@ -43,6 +43,8 @@ This topic describes the **KSEVENT_TUNER** enumeration (ksmedia.h).
 
 ### -field KSEVENT_TUNER_CHANGED
 
+Defines the **KSEVENT_TUNER_CHANGED** constant.
+
 ### -field KSEVENT_TUNER_INITIATE_SCAN
 
 Defines the **KSEVENT_TUNER_INITIATE_SCAN** constant.
