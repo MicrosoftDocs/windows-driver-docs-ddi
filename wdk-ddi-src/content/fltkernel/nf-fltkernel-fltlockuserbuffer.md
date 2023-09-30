@@ -1,10 +1,9 @@
 ---
 UID: NF:fltkernel.FltLockUserBuffer
 title: FltLockUserBuffer function (fltkernel.h)
-description: The FltLockUserBuffer routine locks the user buffer for a given I/O operation.
-old-location: ifsk\fltlockuserbuffer.htm
+description: Learn more about the FltLockUserBuffer function.
 tech.root: ifsk
-ms.date: 01/20/2023
+ms.date: 09/29/2023
 keywords: ["FltLockUserBuffer function"]
 ms.keywords: FltApiRef_e_to_o_7d39ba00-c97d-4adb-a0e1-a019ca4056b0.xml, FltLockUserBuffer, FltLockUserBuffer routine [Installable File System Drivers], fltkernel/FltLockUserBuffer, ifsk.fltlockuserbuffer
 req.header: fltkernel.h
@@ -63,7 +62,7 @@ Pointer to the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callb
 
 ## -remarks
 
-For best performance, filter drivers should not call **FltLockUserBuffer** unless absolutely necessary. The performance slowdown is not because of **FltLockUserBuffer** itself, but rather because of the performance penalty incurred by [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md).
+For best performance, filter drivers should not call **FltLockUserBuffer** unless absolutely necessary. The performance slowdown is not because of **FltLockUserBuffer** itself, but rather because of the performance penalty incurred by the subsequent call to [**MmGetSystemAddressForMdlSafe**](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md); see later Remarks for more information.
 
 A minifilter driver can call **FltLockUserBuffer** to lock the user buffer for one of the following I/O operations:
 
@@ -83,13 +82,15 @@ A minifilter driver can call **FltLockUserBuffer** to lock the user buffer for o
 
 **FltLockUserBuffer** sets the **MdlAddress** (or **OutputMdlAddress**) member in the callback data parameter structure ([**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)) to point to the MDL for the locked pages. If there is no MDL, **FltLockUserBuffer** allocates one. (Note that FltMgr cannot generate an MDL before the file system does, which is why **FltLockUserBuffer** returns STATUS_INVALID_PARAMETER for IRP_MJ_READ or IRP_MJ_WRITE with IRP_MN_MDL).
 
-If the callback data parameter structure contains a system buffer and does not contain a user buffer, **FltLockUserBuffer** locks the system buffer. If there is no MDL for the system buffer, **FltLockUserBuffer** allocates one.
+If the callback data parameter structure contains a system buffer (**Irp->AssociatedIrp.SystemBuffer**) and does not contain a user buffer (**Irp->UserBuffer**), **FltLockUserBuffer** locks the system buffer. If there is no MDL for the system buffer, **FltLockUserBuffer** allocates one.
+
+If the callback data parameter structure contains a user buffer, **FltLockUserBuffer** [probes and locks](../wdm/nf-wdm-mmprobeandlockpages.md) the user buffer.
+
+The caller can be running in any process context. **FltLockUserBuffer** automatically locks the buffer in the correct process context.
 
 If **FltLockUserBuffer** is called from a pre-operation callback routine ([**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)) and it allocates an MDL, **FltLockUserBuffer** sets the FLTFL_CALLBACK_DATA_DIRTY flag in the callback data structure ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) so that the I/O system frees the MDL when the I/O operation is completed.
 
-To conserve system page table entries (PTE), **FltLockUserBuffer** does not map the locked pages. After calling **FltLockUserBuffer**, the caller must call [MmGetSystemAddressForMdlSafe](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md), passing the **MdlAddress** (or **OutputMdlAddress**) member in the callback data parameter structure as the value of the **Mdl** parameter, to get a system buffer that represents this memory.
-
-The caller can be running in any process context. **FltLockUserBuffer** automatically locks the buffer in the correct process context.
+To conserve system page table entries (PTEs), **FltLockUserBuffer** doesn't map the locked pages. After calling **FltLockUserBuffer**, the caller must call [**MmGetSystemAddressForMdlSafe**](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md), passing the **MdlAddress** (or **OutputMdlAddress**) member in the callback data parameter structure as the value of the **Mdl** parameter, to get a system buffer that represents this memory.
 
 When the callback data structure is freed, the locked buffer is automatically unlocked, and the MDL is freed. The caller should never free the MDL; the I/O system does this automatically.
 
@@ -130,6 +131,8 @@ When the callback data structure is freed, the locked buffer is automatically un
 [**FltDecodeParameters**](nf-fltkernel-fltdecodeparameters.md)
 
 [**MmGetSystemAddressForMdlSafe**](../wdm/nf-wdm-mmgetsystemaddressformdlsafe.md)
+
+[**MmProbeAndLockPages**](../wdm/nf-wdm-mmprobeandlockpages.md)
 
 [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
