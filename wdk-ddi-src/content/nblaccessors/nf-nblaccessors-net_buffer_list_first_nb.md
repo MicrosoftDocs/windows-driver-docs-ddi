@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_LIST_FIRST_NB
 title: NET_BUFFER_LIST_FIRST_NB
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_LIST_FIRST_NB is a macro that NDIS drivers use to get the first NET_BUFFER structure in a NET_BUFFER_LIST structure.
 tech.root: netvista 
@@ -45,6 +45,12 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_LIST_FIRST_NB** is a macro that NDIS drivers use to get the first [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure in a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_LIST_FIRST_NB(_NBL) ((_NBL)->FirstNetBuffer)
+```
 
 ## -parameters
 

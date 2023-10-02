@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_LIST_FLAGS
 title: NET_BUFFER_LIST_FLAGS
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_LIST_FLAGS is a macro that NDIS drivers use to get the flags associated with a NET_BUFFER_LIST structure.
 tech.root: netvista
@@ -46,6 +46,12 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_LIST_FLAGS** is a macro that NDIS drivers use to get the flags associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_LIST_FLAGS(_NBL) ((_NBL)->Flags)
+```
 
 ## -parameters
 
