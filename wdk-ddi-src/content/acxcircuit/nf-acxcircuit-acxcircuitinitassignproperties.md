@@ -5,7 +5,7 @@ title: AcxCircuitInitAssignProperties
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignProperties function assigns one or more ACX properties for the ACXCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

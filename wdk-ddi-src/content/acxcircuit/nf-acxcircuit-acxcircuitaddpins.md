@@ -5,7 +5,7 @@ title: AcxCircuitAddPins
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddPins function adds pins to an ACXCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

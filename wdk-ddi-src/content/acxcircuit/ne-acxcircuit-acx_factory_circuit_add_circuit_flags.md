@@ -5,7 +5,7 @@ title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS
 ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS enumeration defines factory circuit add flags.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxcircuit.h

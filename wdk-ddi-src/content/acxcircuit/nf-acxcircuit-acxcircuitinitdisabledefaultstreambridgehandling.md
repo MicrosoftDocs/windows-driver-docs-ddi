@@ -5,7 +5,7 @@ title: AcxCircuitInitDisableDefaultStreamBridgeHandling
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitDisableDefaultStreamBridgeHandling function disables the ACX default stream bridge handling in a multi-circuit environment.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: ACX_CIRCUIT_PNPPOWER_CALLBACKS
 ms.date: 08/12/2021
 targetos: Windows
 description: The ACX_CIRCUIT_PNPPOWER_CALLBACKS structure contains pointers to an ACXCIRCUIT's Plug and Play and power event callback functions.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

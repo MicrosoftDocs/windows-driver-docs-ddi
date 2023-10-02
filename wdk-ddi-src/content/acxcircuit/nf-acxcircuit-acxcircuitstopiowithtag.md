@@ -5,7 +5,7 @@ title: AcxCircuitStopIoWithTag
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitStopIoWithTag function is used to signal to the operating system to temporarily stop circuit I/O.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

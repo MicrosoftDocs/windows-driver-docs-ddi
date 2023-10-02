@@ -5,7 +5,7 @@ title: AcxCircuitStopIoActual
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxCircuitStopIoActual function is used to signal to the operating system to temporarily stop circuit I/O.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

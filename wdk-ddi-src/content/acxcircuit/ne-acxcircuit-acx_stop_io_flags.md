@@ -5,7 +5,7 @@ title: ACX_STOP_IO_FLAGS
 ms.date: 11/02/2021
 targetos: Windows
 description: The ACX_STOP_IO_FLAGS enumeration defines Stop IO flags.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxcircuit.h

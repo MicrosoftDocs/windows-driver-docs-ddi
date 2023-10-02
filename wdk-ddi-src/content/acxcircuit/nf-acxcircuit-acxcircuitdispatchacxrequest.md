@@ -5,7 +5,7 @@ title: AcxCircuitDispatchAcxRequest
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitDispatchAcxRequest dispatches an ACX WDFREQUEST object to the ACX framework which will manage the request.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxFactoryCircuitInitSetComponentId
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitSetComponentId function sets the component ID for the ACXFACTORYCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxCircuitCreate
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitCreate function is used to create an ACXCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

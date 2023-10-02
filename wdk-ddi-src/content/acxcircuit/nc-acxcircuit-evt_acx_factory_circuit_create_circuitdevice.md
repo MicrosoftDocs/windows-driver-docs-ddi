@@ -5,7 +5,7 @@ title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE
 ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback is invoked by ACX when the driver must create a WDFDEVICE for a new ACXCIRCUIT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

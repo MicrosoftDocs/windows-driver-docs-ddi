@@ -5,7 +5,7 @@ title: ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_CIRCUIT_PNPPOWER_CALLBACKS_INIT function initializes a ACX_CIRCUIT_PNPPOWER_CALLBACKS structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
