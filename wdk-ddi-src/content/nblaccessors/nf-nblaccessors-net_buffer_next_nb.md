@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_NEXT_NB
 title: NET_BUFFER_NEXT_NB
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_NEXT_NB is a macro that NDIS drivers use to get a pointer to the next NET_BUFFER structure in a linked list of NET_BUFFER structures.
 tech.root: netvista
@@ -45,6 +45,12 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_NEXT_NB** is a macro that NDIS drivers use to get a pointer to the next [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure in a linked list of **NET_BUFFER** structures.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_NEXT_NB(_NB) ((_NB)->Next)
+```
 
 ## -parameters
 

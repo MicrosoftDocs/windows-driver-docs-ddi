@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_LIST_NBL_FLAGS
 title: NET_BUFFER_LIST_NBL_FLAGS
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: The NET_BUFFER_LIST_NBL_FLAGS macro retrieves the NblFlags member of a NET_BUFFER_LIST structure.
 tech.root: netvista
@@ -45,6 +45,13 @@ dev_langs:
 ## -description
 
 The **NET_BUFFER_LIST_NBL_FLAGS** macro retrieves the **NblFlags** member of a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_LIST_NBL_FLAGS(_NBL) ((_NBL)->NblFlags)
+```
+
 
 ## -parameters
 

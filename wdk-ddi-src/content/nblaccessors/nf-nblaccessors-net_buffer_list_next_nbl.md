@@ -46,6 +46,12 @@ dev_langs:
 
 **NET_BUFFER_LIST_NEXT_NBL** is a macro that NDIS drivers use to get the next [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure in a linked list of **NET_BUFFER_LIST** structures.
 
+## -syntax
+
+```cpp
+#define NET_BUFFER_LIST_NEXT_NBL(_NBL) ((_NBL)->Next)
+```
+
 ## -parameters
 
 ### -param _NBL

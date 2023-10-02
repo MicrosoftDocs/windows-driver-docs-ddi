@@ -2,7 +2,7 @@
 UID: NF:nblaccessors.NET_BUFFER_LIST_CONTEXT_DATA_START
 tech.root: netvista
 title: NET_BUFFER_LIST_CONTEXT_DATA_START
-ms.date: 03/16/2022
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_LIST_CONTEXT_DATA_START is a macro that NDIS drivers use to get a pointer to the NET_BUFFER_LIST_CONTEXT context space that is associated with a NET_BUFFER_LIST structure.
 prerelease: false
@@ -45,6 +45,12 @@ helpviewer_keywords:
 ## -description
 
 **NET_BUFFER_LIST_CONTEXT_DATA_START** is a macro that NDIS drivers use to get a pointer to the [**NET_BUFFER_LIST_CONTEXT**](../nbl/ns-nbl-net_buffer_list_context.md) context space that is associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_LIST_CONTEXT_DATA_START(_NBL) ((PUCHAR)(((_NBL)->Context)+1)+(_NBL)->Context->Offset)
+```
 
 ## -parameters
 

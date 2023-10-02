@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_SHARED_MEM_OFFSET
 title: NET_BUFFER_SHARED_MEM_OFFSET
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: The NET_BUFFER_SHARED_MEM_OFFSET macro gets the shared memory offset from a NET_BUFFER_SHARED_MEMORY structure.
 tech.root: netvista
@@ -45,6 +45,12 @@ dev_langs:
 ## -description
 
 The **NET_BUFFER_SHARED_MEM_OFFSET** macro gets the shared memory offset from a [**NET_BUFFER_SHARED_MEMORY**](../nbl/ns-nbl-net_buffer_shared_memory.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_SHARED_MEM_OFFSET(_SHI) ((_SHI)->SharedMemoryOffset)
+```
 
 ## -parameters
 
