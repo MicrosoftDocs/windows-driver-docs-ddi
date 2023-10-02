@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_CHECKSUM_BIAS
 title: NET_BUFFER_CHECKSUM_BIAS
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_CHECKSUM_BIAS is a macro that NDIS drivers use to get the ChecksumBias member of a NET_BUFFER structure.
 tech.root: netvista 
@@ -45,6 +45,13 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_CHECKSUM_BIAS** is a macro that NDIS drivers use to get the **ChecksumBias** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_CHECKSUM_BIAS(_NB) ((_NB)->ChecksumBias)
+```
+
 
 ## -parameters
 

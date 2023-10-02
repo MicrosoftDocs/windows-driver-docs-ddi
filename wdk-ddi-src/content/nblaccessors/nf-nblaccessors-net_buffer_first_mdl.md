@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_FIRST_MDL
 title: NET_BUFFER_FIRST_MDL
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_FIRST_MDL is a macro that NDIS drivers use to get the first MDL in a NET_BUFFER structure.
 tech.root: netvista 
@@ -45,6 +45,12 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_FIRST_MDL** is a macro that NDIS drivers use to get the first MDL in a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_FIRST_MDL(_NB) ((_NB)->MdlChain)
+```
 
 ## -parameters
 
