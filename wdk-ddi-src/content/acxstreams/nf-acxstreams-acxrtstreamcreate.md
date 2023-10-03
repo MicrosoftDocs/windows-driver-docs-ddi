@@ -5,7 +5,7 @@ title: AcxRtStreamCreate
 ms.date: 12/16/2022
 targetos: Windows
 description: AcxRtStreamCreate creates an ACX RT-based Stream that is used by the OS to stream audio data.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

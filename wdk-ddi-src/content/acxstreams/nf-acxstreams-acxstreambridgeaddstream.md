@@ -5,7 +5,7 @@ title: AcxStreamBridgeAddStream
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamBridgeAddStream function adds an existing stream to an existing bridge. This function is located in the acxstream header.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

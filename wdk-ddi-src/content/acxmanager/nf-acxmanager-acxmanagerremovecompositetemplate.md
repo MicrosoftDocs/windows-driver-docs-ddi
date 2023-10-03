@@ -5,7 +5,7 @@ title: AcxManagerRemoveCompositeTemplate
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxManagerRemoveCompositeTemplate function removes the specified composite template from the specified ACXMANAGER.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

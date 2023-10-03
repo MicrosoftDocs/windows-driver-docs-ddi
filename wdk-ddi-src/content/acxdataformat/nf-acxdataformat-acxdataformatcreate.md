@@ -5,7 +5,7 @@ title: AcxDataFormatCreate
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatCreate function is used to create a data format for use by an audio class extension (ACX) driver.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

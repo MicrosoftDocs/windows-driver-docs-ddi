@@ -5,7 +5,7 @@ title: AcxStreamAudioEngineGetStream
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxStreamAudioEngineGetStream function retrieves the ACXSTREAM object associated with the given stream audio engine object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

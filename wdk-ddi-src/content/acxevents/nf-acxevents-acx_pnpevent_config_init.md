@@ -5,7 +5,7 @@ title: ACX_PNPEVENT_CONFIG_INIT
 ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_PNPEVENT_CONFIG_INIT function initializes an ACX_PNPEVENT_CONFIG structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

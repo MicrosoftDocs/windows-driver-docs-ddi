@@ -5,7 +5,7 @@ title: AcxStreamBridgeCreate
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamBridgeCreate function uses a stream configuration to create a StreamBridge for a circuit.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

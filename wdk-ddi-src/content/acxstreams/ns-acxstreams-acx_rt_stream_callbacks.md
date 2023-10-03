@@ -5,7 +5,7 @@ title: ACX_RT_STREAM_CALLBACKS
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_RT_STREAM_CALLBACKS structure defines callbacks for RT streaming to the ACX framework.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

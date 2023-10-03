@@ -5,7 +5,7 @@ title: AcxTargetFactoryCircuitGetWdfIoTarget
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetFactoryCircuitGetWdfIoTarget given an existing ACXTARGETFACTORYCIRCUIT object, returns its corresponding WDFIOTARGET object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

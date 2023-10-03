@@ -5,7 +5,7 @@ title: ACX_STREAM_STATE
 ms.date: 07/28/2022
 targetos: Windows
 description: ACX_STREAM_STATE describes the Acx Stream State flags. This function is located in the acxstreams header.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxstreams.h

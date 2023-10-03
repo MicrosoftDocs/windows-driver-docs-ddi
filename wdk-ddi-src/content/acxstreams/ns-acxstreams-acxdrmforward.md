@@ -5,7 +5,7 @@ title: ACXDRMFORWARD
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACXDRMFORWARD structure contains the information that the DRM system driver needs in order to forward a DRM content ID to a device that handles protected content.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

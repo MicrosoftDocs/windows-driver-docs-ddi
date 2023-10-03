@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_GET_CURRENT_PACKET
 ms.date: 10/31/2022
 targetos: Windows
 description: EvtAcxStreamGetCurrentPacket tells the driver to indicate which packet (0-based) is currently being rendered to the hardware or is currently being filled by the capture hardware.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

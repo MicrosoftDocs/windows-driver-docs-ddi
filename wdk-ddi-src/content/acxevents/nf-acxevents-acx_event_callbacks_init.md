@@ -5,7 +5,7 @@ title: ACX_EVENT_CALLBACKS_INIT
 ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_EVENT_CALLBACKS_INIT function initializes a ACX_EVENTS_CALLBACKS structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

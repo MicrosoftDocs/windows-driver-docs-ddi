@@ -5,7 +5,7 @@ title: EVT_ACX_MUTE_RETRIEVE_STATE
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_MUTE_RETRIEVE_STATE callback function is implemented by the driver and is called when the state of a specified channel on a mute node is requested.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

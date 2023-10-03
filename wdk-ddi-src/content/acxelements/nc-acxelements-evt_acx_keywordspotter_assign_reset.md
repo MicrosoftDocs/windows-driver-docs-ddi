@@ -5,7 +5,7 @@ title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET
 ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET resets the keyword spotter detector to an unarmed state with no pattern set.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

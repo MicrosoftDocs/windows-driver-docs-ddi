@@ -5,7 +5,7 @@ title: AcxStreamCreate
 ms.date: 12/16/2022
 targetos: Windows
 description: AcxStreamCreate creates an ACX Stream that is used to control streaming behavior.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

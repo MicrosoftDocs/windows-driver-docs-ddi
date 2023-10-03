@@ -5,7 +5,7 @@ title: AcxStreamResumeIoActual
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamResumeIoActual function is used to resume IO for a stream.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

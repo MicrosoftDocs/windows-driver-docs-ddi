@@ -5,7 +5,7 @@ title: AcxObjectBagAddI1
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddI1 function adds a int one byte (CHAR) I1 value  to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

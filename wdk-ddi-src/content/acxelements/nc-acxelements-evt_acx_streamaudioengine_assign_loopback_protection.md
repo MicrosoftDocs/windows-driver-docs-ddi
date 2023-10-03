@@ -5,7 +5,7 @@ title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION
 ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION is implemented by the driver and is called when the loopback protection status is set for a stream audio engine node.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

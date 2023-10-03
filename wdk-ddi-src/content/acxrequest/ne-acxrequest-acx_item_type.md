@@ -5,7 +5,7 @@ title: ACX_ITEM_TYPE
 ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_ITEM_TYPE enumeration describes the possible types of items.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxrequest.h

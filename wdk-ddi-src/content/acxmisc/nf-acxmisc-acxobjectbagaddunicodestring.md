@@ -5,7 +5,7 @@ title: AcxObjectBagAddUnicodeString
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddUnicodeString function adds a unicode string to and existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

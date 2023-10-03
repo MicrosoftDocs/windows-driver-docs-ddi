@@ -5,7 +5,7 @@ title: ACX_TARGET_FACTORY_CIRCUIT_CONFIG_FLAGS
 ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_FACTORY_CIRCUIT_CONFIG_FLAGS enumeration defines the config flags for the ACX target circuit factory.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxtargets.h

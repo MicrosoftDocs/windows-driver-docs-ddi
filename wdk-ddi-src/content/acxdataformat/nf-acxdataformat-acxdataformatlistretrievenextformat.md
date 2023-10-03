@@ -5,7 +5,7 @@ title: AcxDataFormatListRetrieveNextFormat
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatListRetrieveNextFormat function gets the next ACX data format when iterating an ACX data format list.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

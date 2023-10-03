@@ -5,7 +5,7 @@ title: ACX_OBJECTBAG_CONFIG_FLAGS
 ms.date: 06/17/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG_FLAGS enumeration defines the configuration for an AcxObjectBag.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxmisc.h

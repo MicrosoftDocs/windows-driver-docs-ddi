@@ -5,7 +5,7 @@ title: AcxDataFormatIsEqual
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatIsEqual function compares two ACXDATAFORMAT objects for equality.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: ACX_STREAM_BRIDGE_CONFIG
 ms.date: 07/28/2022
 targetos: Windows
 description: The AcxStreamBridge structure is used by a circuit to propagate stream creation, states transitions and DRM settings between the endpoints circuit stream segments.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

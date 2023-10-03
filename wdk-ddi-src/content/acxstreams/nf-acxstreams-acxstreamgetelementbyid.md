@@ -5,7 +5,7 @@ title: AcxStreamGetElementById
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamGetElementById function returns the ACXELEMENT Object handle for the requested element ID.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

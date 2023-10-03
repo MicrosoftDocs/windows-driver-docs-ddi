@@ -5,7 +5,7 @@ title: AcxTargetPinFormatRequestForMethod
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetPinFormatRequestForMethod function formats a WDFREQUEST as an ACX method request to be used on specified pin target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

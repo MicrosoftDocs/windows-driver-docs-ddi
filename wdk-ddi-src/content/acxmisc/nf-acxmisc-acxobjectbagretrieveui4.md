@@ -5,7 +5,7 @@ title: AcxObjectBagRetrieveUI4
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUI4 function retrieves an unsigned int four byte UI4 (ULONG) value from an existing, initialized AcxObjectBag that contains values.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

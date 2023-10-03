@@ -5,7 +5,7 @@ title: AcxManagerAddCompositeTemplate
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxManagerAddCompositeTemplate function adds the specified composite template to the specified ACXMANAGER.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

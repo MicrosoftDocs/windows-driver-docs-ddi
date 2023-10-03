@@ -5,7 +5,7 @@ title: AcxTargetFactoryCircuitFormatRequestForProperty
 ms.date: 12/16/2022
 targetos: Windows
 description: AcxTargetFactoryCircuitFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified circuit factory target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

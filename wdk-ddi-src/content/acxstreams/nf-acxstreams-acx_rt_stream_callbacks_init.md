@@ -5,7 +5,7 @@ title: ACX_RT_STREAM_CALLBACKS_INIT
 ms.date: 10/31/2022
 targetos: Windows
 description: The ACX_RT_STREAM_CALLBACKS_INIT function method initializes the ACX RT stream callbacks. This function is located in the acxstreams header.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

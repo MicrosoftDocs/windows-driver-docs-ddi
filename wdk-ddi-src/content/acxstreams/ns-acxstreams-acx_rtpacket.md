@@ -5,7 +5,7 @@ title: ACX_RTPACKET
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_RTPACKET structure represents a single allocated packet. The PacketBuffer must be an MDL.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
