@@ -4,7 +4,7 @@ tech.root: display
 title: DXGKARG_RESETHWENGINE
 ms.date: 10/03/2023
 targetos: Windows
-description: 
+description: Learn more about the DXARG_RESETHWENGINE structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
