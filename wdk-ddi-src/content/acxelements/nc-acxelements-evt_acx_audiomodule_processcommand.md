@@ -5,7 +5,7 @@ title: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND
 ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_AUDIOMODULE_PROCESSCOMMAND tells the driver to process a command for an audio module element.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

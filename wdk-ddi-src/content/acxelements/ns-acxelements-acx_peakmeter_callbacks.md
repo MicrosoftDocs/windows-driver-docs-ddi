@@ -5,7 +5,7 @@ title: ACX_PEAKMETER_CALLBACKS
 ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_PEAKMETER_CALLBACKS structure identifies the driver callbacks for ACX peakmeter operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

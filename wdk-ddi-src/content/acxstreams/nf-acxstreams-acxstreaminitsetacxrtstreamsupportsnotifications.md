@@ -5,7 +5,7 @@ title: AcxStreamInitSetAcxRtStreamSupportsNotifications
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitSetAcxRtStreamSupportsNotifications function is used to indicate that buffer notifications are supported.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

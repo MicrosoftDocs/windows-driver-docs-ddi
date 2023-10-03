@@ -5,7 +5,7 @@ title: ACX_PNPEVENT_CONFIG
 ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_PNPEVENT_CONFIG structure is used to configure an ACXPNPEVENT.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

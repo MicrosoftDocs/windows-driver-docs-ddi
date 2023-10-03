@@ -5,7 +5,7 @@ title: ACX_STREAMAUDIOENGINE_CALLBACKS
 ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CALLBACKS structure identifies the driver callbacks for ACX audio engine stream operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

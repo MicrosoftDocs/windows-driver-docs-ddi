@@ -5,7 +5,7 @@ title: AcxDataFormatListBeginIteration
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatListBeginIteration function gets an ACX_DATAFORMAT_LIST_ITERATOR to use for iterating through the specified data format list.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

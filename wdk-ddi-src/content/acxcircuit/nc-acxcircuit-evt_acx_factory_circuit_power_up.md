@@ -5,7 +5,7 @@ title: EVT_ACX_FACTORY_CIRCUIT_POWER_UP
 ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_POWER_UP callback is used by the driver to add functionality in the power up path of an ACXFACTORYCIRCUIT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

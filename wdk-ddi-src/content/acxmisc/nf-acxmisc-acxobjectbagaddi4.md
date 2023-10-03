@@ -5,7 +5,7 @@ title: AcxObjectBagAddI4
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddI4 function adds a int four byte I4 (LONG) value to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxTargetStreamCreate
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamCreate function is used to create a target stream.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

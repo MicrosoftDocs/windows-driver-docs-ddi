@@ -5,7 +5,7 @@ title: AcxDataFormatGetKsDataFormat
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetKsDataFormat function gets the kernel streaming data format for the specified data format.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

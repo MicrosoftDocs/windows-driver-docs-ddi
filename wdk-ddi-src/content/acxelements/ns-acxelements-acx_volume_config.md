@@ -5,7 +5,7 @@ title: ACX_VOLUME_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_VOLUME_CONFIG structure is used to define the acx volume configuration.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

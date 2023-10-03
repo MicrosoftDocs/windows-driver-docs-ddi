@@ -5,7 +5,7 @@ title: AcxObjectBagAddMultiString
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddMultiString function adds a MultiString to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

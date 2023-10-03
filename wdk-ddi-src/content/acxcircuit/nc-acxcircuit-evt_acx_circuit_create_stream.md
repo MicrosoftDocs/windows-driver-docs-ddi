@@ -5,7 +5,7 @@ title: EVT_ACX_CIRCUIT_CREATE_STREAM
 ms.date: 12/14/2022
 targetos: Windows
 description: The driver defines the EVT_ACX_CIRCUIT_CREATE_STREAM callback to create circuit stream instances.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

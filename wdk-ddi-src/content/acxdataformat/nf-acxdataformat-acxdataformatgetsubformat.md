@@ -5,7 +5,7 @@ title: AcxDataFormatGetSubFormat
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetSubFormat function gets the subformat for the specified data format.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID
 ms.date: 10/31/2022
 targetos: Windows
 description: The EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID event tells the driver to assign a content ID for the purposes of DRM streaming.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

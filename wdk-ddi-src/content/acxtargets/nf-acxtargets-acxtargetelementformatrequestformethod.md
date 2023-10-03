@@ -5,7 +5,7 @@ title: AcxTargetElementFormatRequestForMethod
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetElementFormatRequestForMethod function formats a WDFREQUEST as an ACX method request to be used on specified element target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

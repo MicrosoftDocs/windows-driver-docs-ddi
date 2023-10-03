@@ -5,7 +5,7 @@ title: AcxObjectBagAddBlob
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddBlob function adds blob data to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxFactoryCircuitInitFree
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitFree function deletes the factory circuit initialization object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

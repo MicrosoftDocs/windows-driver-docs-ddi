@@ -5,7 +5,7 @@ title: AcxFactoryCircuitInitAssignComponentUri
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXFACTORYCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

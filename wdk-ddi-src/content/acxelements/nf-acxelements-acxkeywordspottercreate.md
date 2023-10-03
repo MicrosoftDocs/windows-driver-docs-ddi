@@ -5,7 +5,7 @@ title: AcxKeywordSpotterCreate
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxKeywordSpotterCreate function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxTargetElementGetWdfIoTarget
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetElementGetWdfIoTarget given an existing ACXTARGETELEMENT object, returns its corresponding WDFIOTARGET object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: ACX_KEYWORDSPOTTER_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CONFIG structure is used to define the audio keyword spotter configuration.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

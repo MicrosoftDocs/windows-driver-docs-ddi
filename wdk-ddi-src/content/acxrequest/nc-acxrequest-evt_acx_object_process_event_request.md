@@ -5,7 +5,7 @@ title: EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST
 ms.date: 11/10/2022
 targetos: Windows
 description: The EVT_ACX_OBJECT_PROCESS_EVENT_REQUEST callback is used by the driver to handle event notifications.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

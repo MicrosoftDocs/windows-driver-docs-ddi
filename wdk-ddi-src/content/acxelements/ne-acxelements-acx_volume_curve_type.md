@@ -5,7 +5,7 @@ title: ACX_VOLUME_CURVE_TYPE
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_VOLUME_CURVE_TYPE enumeration defines constants that specify a curve algorithm to be applied to set a volume level.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxelements.h

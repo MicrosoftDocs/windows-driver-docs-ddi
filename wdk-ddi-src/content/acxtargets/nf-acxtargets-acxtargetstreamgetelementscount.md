@@ -5,7 +5,7 @@ title: AcxTargetStreamGetElementsCount
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamGetElementsCount function given an ACXTARGETSTREAM object, returns its number of ACX elements.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

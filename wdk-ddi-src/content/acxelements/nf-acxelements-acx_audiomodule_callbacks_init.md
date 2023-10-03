@@ -5,7 +5,7 @@ title: ACX_AUDIOMODULE_CALLBACKS_INIT
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOMODULE_CALLBACKS_INIT function initializes the ACX_AUDIOMODULE_CALLBACKS structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

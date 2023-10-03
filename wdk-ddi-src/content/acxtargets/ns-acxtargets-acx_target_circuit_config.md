@@ -5,7 +5,7 @@ title: ACX_TARGET_CIRCUIT_CONFIG
 ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_CIRCUIT_CONFIG structure is used to define the target circuit configuration.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -5,7 +5,7 @@ title: AcxTargetElementFormatRequestForProperty
 ms.date: 08/01/2022
 targetos: Windows
 description: The AcxTargetElementFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified element target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

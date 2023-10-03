@@ -5,7 +5,7 @@ title: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM
 ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM retrieves the current arm state of the keyword spotter.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

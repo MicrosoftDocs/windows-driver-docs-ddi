@@ -5,7 +5,7 @@ title: ACX_METHOD_ITEM
 ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_METHOD_ITEM structure describes a method item that is the target of an ACX request.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

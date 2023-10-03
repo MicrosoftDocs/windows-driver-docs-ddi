@@ -5,7 +5,7 @@ title: acxmanager
 ms.date: 07/28/2022
 targetos: Windows
 description: The acxmanager header is used by the ACX audio class extensions.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 

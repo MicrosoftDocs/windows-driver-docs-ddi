@@ -5,7 +5,7 @@ title: AcxTargetStreamGetTargetElement
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamGetTargetElement function, given a valid element index value, returns the corresponding ACXTARGETELEMENT ACX object that is associated with the specified stream.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

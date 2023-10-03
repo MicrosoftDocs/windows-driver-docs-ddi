@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_GET_PRESENTATION_POSITION
 ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamGetPresentationPosition tells the driver to indicate the current position along with the QPC value at the time the current position was calculated.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

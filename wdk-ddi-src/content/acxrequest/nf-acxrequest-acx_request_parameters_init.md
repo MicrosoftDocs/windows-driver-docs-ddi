@@ -5,7 +5,7 @@ title: ACX_REQUEST_PARAMETERS_INIT
 ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT function initializes ACX_REQUEST_PARAMETERS struct.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

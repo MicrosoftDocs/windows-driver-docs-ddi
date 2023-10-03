@@ -5,7 +5,7 @@ title: EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE
 ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE callback is used by the driver to do any post-initialization after the composite endpoint has been assembled by ACX Manager.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

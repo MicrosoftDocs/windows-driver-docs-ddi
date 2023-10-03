@@ -5,7 +5,7 @@ title: AcxMuteChangeStateNotification
 ms.date: 04/29/2022
 targetos: Windows
 description: The AcxMuteChangeStateNotification function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: EVT_ACX_VOLUME_ASSIGN_LEVEL
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_VOLUME_ASSIGN_LEVEL callback function is implemented by the driver and is called when the volume level of a channel is set for a volume node.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: ACX_TARGET_STREAM_CONFIG_INIT
 ms.date: 07/22/2022
 targetos: Windows
 description: The ACX_TARGET_STREAM_CONFIG_INIT function initializes an ACX target stream config structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

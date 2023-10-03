@@ -5,7 +5,7 @@ title: ACX_OBJECTBAG_CONFIG_INIT
 ms.date: 06/17/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG_INIT function initializes an ACX_OBJECTBAG_CONFIG structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

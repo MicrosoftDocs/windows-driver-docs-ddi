@@ -5,7 +5,7 @@ title: AcxTargetPinGetId
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetPinGetId given an existing ACXTARGETPIN object returns its associated ID value.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

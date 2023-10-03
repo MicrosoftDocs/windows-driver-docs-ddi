@@ -5,7 +5,7 @@ title: AcxDataFormatGetWaveFormatExtensibleIec61937
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatExtensibleIec61937 function gets the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with the specified data format.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

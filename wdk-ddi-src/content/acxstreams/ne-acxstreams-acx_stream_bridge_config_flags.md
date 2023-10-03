@@ -5,7 +5,7 @@ title: ACX_STREAM_BRIDGE_CONFIG_FLAGS
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_CONFIG_FLAGS enumeration describes the Acx Stream Bridge config flags.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxstreams.h

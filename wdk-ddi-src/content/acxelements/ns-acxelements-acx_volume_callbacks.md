@@ -5,7 +5,7 @@ title: ACX_VOLUME_CALLBACKS
 ms.date: 08/01/2022
 targetos: Windows
 description: The ACX_VOLUME_CALLBACKS structure identifies the driver callbacks for ACX volume operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

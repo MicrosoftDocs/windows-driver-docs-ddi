@@ -5,7 +5,7 @@ title: AcxObjectBagAddSizeT
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: ACX_AUDIOMODULE_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOMODULE_CONFIG structure is used to define the audio module configuration.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

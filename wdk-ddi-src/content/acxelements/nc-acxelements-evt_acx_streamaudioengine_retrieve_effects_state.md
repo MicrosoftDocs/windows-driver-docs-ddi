@@ -5,7 +5,7 @@ title: EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_EFFECTS_STATE callback function is implemented by the driver and is called when the local effects state is requested for the specified stream audio engine.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

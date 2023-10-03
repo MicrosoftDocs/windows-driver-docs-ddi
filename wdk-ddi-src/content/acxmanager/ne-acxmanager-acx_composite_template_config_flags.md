@@ -5,7 +5,7 @@ title: ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS
 ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_COMPOSITE_TEMPLATE_CONFIG_FLAGS enumeration is used to configure the properties of a composite template used by the audio class extension (ACX) manager.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxmanager.h

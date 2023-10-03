@@ -5,7 +5,7 @@ title: ACX_PNPEVENT_CONFIG_FLAGS
 ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_PNPEVENT_CONFIG_FLAGS enumeration defines the PNPEVENT config flags for an ACXEVENT type.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxevents.h

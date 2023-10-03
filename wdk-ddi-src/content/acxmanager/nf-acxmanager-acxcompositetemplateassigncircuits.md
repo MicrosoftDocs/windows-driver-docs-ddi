@@ -5,7 +5,7 @@ title: AcxCompositeTemplateAssignCircuits
 ms.date: 04/27/2022
 targetos: Windows
 description: The AcxCompositeTemplateAssignCircuits function adds an array of circuit templates to the specified composite template.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: ACX_PROPERTY_VERB
 ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_PROPERTY_VERB enumeration describes the type of verb operations suppored on ACX properties.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxrequest.h

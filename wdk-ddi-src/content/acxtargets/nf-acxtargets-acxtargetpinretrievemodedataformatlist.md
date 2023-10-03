@@ -5,7 +5,7 @@ title: AcxTargetPinRetrieveModeDataFormatList
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetPinRetrieveModeDataFormatList function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

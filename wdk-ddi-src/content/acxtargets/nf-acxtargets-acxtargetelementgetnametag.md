@@ -5,7 +5,7 @@ title: AcxTargetElementGetNameTag
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetElementGetNameTag given an existing ACXTARGETELEMENT object, returns its name-tag in the form of a GUID.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

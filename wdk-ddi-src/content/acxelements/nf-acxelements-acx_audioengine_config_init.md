@@ -5,7 +5,7 @@ title: ACX_AUDIOENGINE_CONFIG_INIT
 ms.date: 07/27/2022
 targetos: Windows
 description: The ACX_AUDIOENGINE_CONFIG_INIT function initializes a driver's ACX_AUDIOENGINE_CONFIG structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

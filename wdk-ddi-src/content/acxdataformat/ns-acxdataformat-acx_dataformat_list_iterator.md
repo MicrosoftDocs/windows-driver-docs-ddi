@@ -5,7 +5,7 @@ title: ACX_DATAFORMAT_LIST_ITERATOR
 ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_LIST_ITERATOR structure holds the state of iteration over an ACX data format list.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

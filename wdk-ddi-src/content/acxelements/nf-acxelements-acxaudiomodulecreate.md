@@ -5,7 +5,7 @@ title: AcxAudioModuleCreate
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxAudioModuleCreate function is used to create an audio module that that will be associated with an ACX circuit object parent.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

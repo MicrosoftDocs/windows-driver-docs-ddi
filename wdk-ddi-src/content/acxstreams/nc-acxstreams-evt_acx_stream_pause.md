@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_PAUSE
 ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamPause event tells the driver to transition the stream state from Run to Pause.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

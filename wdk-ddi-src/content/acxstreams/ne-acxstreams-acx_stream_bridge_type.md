@@ -5,7 +5,7 @@ title: ACX_STREAM_BRIDGE_TYPE
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_TYPE enumeration describes the Acx Stream Bridge Type.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxstreams.h

@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_PREPARE_HARDWARE
 ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamPrepareHardware event tells the driver to prepare the hardware for streaming.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

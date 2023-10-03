@@ -5,7 +5,7 @@ title: EVT_ACX_PEAKMETER_RETRIEVE_LEVEL
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_PEAKMETER_RETRIEVE_LEVEL callback function is implemented by the driver and is called when the level of a specified channel on a peakmeter node is requested.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

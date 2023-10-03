@@ -5,7 +5,7 @@ title: EVT_ACX_EVENT_DISABLE
 ms.date: 12/16/2022
 targetos: Windows
 description: The EVT_ACX_EVENT_DISABLE callback is used by the driver to disable the ACXEVENT source.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

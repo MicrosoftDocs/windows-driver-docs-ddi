@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_RUN
 ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamRun event tells the driver to transition the stream state from Pause to Run.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

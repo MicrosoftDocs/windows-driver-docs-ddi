@@ -5,7 +5,7 @@ title: ACX_CIRCUIT_COMPOSITE_CALLBACKS
 ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_CIRCUIT_COMPOSITE_CALLBACKS structure identifies the driver callbacks for ACX composite circuit  operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

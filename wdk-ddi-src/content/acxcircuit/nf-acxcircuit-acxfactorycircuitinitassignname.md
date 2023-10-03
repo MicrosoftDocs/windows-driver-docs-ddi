@@ -5,7 +5,7 @@ title: AcxFactoryCircuitInitAssignName
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignName function assigns a friendly name for the ACXFACTORYCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

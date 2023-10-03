@@ -5,7 +5,7 @@ title: AcxTargetElementGetId
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetElementGetId given an existing ACXTARGETELEMENT object, returns its corresponding ID value.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

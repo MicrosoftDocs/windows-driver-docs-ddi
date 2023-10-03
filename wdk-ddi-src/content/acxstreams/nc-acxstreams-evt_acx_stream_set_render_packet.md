@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_SET_RENDER_PACKET
 ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamSetRenderPacket event tells the driver which packet was just released by the client.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

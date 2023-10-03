@@ -5,7 +5,7 @@ title: AcxFactoryCircuitInitAssignCategories
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

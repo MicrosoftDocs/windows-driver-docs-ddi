@@ -5,7 +5,7 @@ title: AcxTargetCircuitGetPinsCount
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetPinsCount function returns the count of ACX pins on the remote target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

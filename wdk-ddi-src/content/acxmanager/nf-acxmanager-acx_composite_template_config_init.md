@@ -5,7 +5,7 @@ title: ACX_COMPOSITE_TEMPLATE_CONFIG_INIT
 ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_COMPOSITE_TEMPLATE_CONFIG_INIT function initializes an ACX_COMPOSITE_TEMPLATE_CONFIG structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

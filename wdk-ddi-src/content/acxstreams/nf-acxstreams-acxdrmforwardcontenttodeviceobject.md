@@ -5,7 +5,7 @@ title: AcxDrmForwardContentToDeviceObject
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxDrmForwardContentToDeviceObject function accepts a device object representing a device to which the caller intends to forward protected content.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

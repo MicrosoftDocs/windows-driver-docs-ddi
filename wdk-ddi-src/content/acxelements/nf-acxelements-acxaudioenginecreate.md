@@ -5,7 +5,7 @@ title: AcxAudioEngineCreate
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxAudioEngineCreate function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

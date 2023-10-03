@@ -5,7 +5,7 @@ title: AcxCircuitAddPhysicalConnections
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitAddPhysicalConnections function adds physical connections to an ACXCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

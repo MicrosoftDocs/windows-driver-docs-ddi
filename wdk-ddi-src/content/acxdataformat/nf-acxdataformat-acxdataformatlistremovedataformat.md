@@ -5,7 +5,7 @@ title: AcxDataFormatListRemoveDataFormat
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatListRemoveDataFormat function removes the specified ACX data format from an ACX data format list.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

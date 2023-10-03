@@ -5,7 +5,7 @@ title: AcxPnpEventGenerateEvent
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxPnpEventGenerateEvent function generates an ACX PNP event.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

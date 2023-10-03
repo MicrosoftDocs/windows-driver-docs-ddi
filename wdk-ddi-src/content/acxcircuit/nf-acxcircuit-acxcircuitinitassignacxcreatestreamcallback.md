@@ -5,7 +5,7 @@ title: AcxCircuitInitAssignAcxCreateStreamCallback
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignAcxCreateStreamCallback function is used to assign an ACX create stream callback.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
