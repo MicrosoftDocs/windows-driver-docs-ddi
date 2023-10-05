@@ -1,7 +1,7 @@
 ---
 UID: NE:d3d12umddi.D3D12DDICAPS_TYPE
 title: D3D12DDICAPS_TYPE (d3d12umddi.h)
-description: Specifies a capability type.
+description: Learn more about the D3D12DDICAPS_TYPE enumeration.
 old-location: display\d3d12ddicaps_type.htm
 ms.date: 03/31/2023
 req.header: d3d12umddi.h
@@ -77,10 +77,6 @@ Options for D3D12.
 ### -field D3D12DDICAPS_TYPE_3DPIPELINESUPPORT
 
 The driver provides 3D pipeline support. The driver reports the [**D3D12DDI_3DPIPELINELEVEL**](ne-d3d12umddi-d3d12ddi_3dpipelinelevel.md) value that represents the maximum pipeline level that it supports. Valid returnable feature levels are 12.1 and earlier. The **3DPIPELINESUPPORT1** value is used to query for any feature level, including 12.2 and later. See Remarks.
-
-### -field D3D12DDICAPS_TYPE_JPEG_OPTIONS
-
-JPEG options.
 
 ### -field D3D12DDICAPS_TYPE_GPUVA_CAPS
 
@@ -165,10 +161,6 @@ Supports protected resource session types. Starting with D3D12DDI_FEATURE_VERSIO
 ### -field D3D12DDICAPS_TYPE_0081_3DPIPELINESUPPORT1
 
 Support for 3D pipeline; [**pData**](../d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps.md) points to a [**D3D12DDI_3DPIPELINESUPPORT1_DATA_0081**](ns-d3d12umddi-d3d12ddi_3dpipelinesupport1_data_0081.md) structure. The driver reports the [**D3D12DDI_3DPIPELINELEVEL**](ne-d3d12umddi-d3d12ddi_3dpipelinelevel.md) value that represents the maximum feature level that it supports in the **MaximumDriverSupportedFeatureLevel** field. See Remarks.
-
-### -field D3D12DDICAPS_TYPE_0082_WAVE_MMA
-
-Supports Wave Matrix Multiplication Accumulate (WaveMMA) instructions. Currently reserved for system use, so if a driver sees a [GetCaps](../d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps.md) query for this type, it can safely zero out the D3D12DDI_WAVE_MMA_DATA_0082 structure that is expected to be returned.
 
 ### -field D3D12DDICAPS_TYPE_OPTIONS_0090
 

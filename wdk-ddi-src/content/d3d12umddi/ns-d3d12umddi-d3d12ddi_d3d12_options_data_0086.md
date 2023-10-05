@@ -1,11 +1,11 @@
 ---
-UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0089
+UID: NS:d3d12umddi.D3D12DDI_D3D12_OPTIONS_DATA_0086
 tech.root: display
-title: D3D12DDI_D3D12_OPTIONS_DATA_0089
-ms.date: 09/29/2022
+title: D3D12DDI_D3D12_OPTIONS_DATA_0086
+ms.date: 10/04/2023
 targetos: Windows
-description: Learn more about the D3D12DDI_D3D12_OPTIONS_DATA_0089 structure.
-prerelease: true
+description: Learn more about the D3D12DDI_D3D12_OPTIONS_DATA_0086 structure.
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,10 +15,11 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 22H2 (WDDM 3.0)
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0089
+req.typenames: D3D12DDI_D3D12_OPTIONS_DATA_0086
+typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -28,19 +29,19 @@ api_type:
 api_location:
  - d3d12umddi.h
 api_name:
- - D3D12DDI_D3D12_OPTIONS_DATA_0089
+ - D3D12DDI_D3D12_OPTIONS_DATA_0086
 f1_keywords:
- - D3D12DDI_D3D12_OPTIONS_DATA_0089
- - d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0089
+ - D3D12DDI_D3D12_OPTIONS_DATA_0086
+ - d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0086
 dev_langs:
  - c++
 helpviewer_keywords:
- - D3D12DDI_D3D12_OPTIONS_DATA_0089
+ - D3D12DDI_D3D12_OPTIONS_DATA_0086
 ---
 
 ## -description
 
-The **D3D12DDI_D3D12_OPTIONS_DATA_0089** structure describes the feature options supported by the driver/ in D3D12 Release 8, Build Revision 9.
+The **D3D12DDI_D3D12_OPTIONS_DATA_0086** structure describes the feature options supported by the driver/hardware in D3D12 Release 8, Build Revision 6.
 
 ## -struct-fields
 
@@ -165,9 +166,7 @@ Set TRUE when the SV_ShadingRate can be set from a mesh shader; otherwise, set F
 
 Set TRUE when the driver supports culled primitives pipeline statistics; otherwise, set FALSE.
 
-### -field EnhancedBarriersSupported
-
-Set TRUE when the driver supports enhanced barriers; otherwise, set FALSE.
+## -remarks
 
 ## -see-also
 

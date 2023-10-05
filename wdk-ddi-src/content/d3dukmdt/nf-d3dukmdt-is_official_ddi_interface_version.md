@@ -1,8 +1,8 @@
 ---
 UID: NF:d3dukmdt.IS_OFFICIAL_DDI_INTERFACE_VERSION
 title: IS_OFFICIAL_DDI_INTERFACE_VERSION macro (d3dukmdt.h)
-description: Indicates whether the interface version is an official DDI.
-ms.date: 10/19/2018
+description: Learn more about the IS_OFFICIAL_DDI_INTERFACE_VERSION macro.
+ms.date: 10/04/2023
 keywords: ["IS_OFFICIAL_DDI_INTERFACE_VERSION macro"]
 ms.keywords: IS_OFFICIAL_DDI_INTERFACE_VERSION
 req.header: d3dukmdt.h
@@ -42,36 +42,16 @@ dev_langs:
 
 # IS_OFFICIAL_DDI_INTERFACE_VERSION macro
 
-
 ## -description
 
-Indicates whether the interface version is an official DDI.
+The **IS_OFFICIAL_DDI_INTERFACE_VERSION** macro indicates whether the specified interface version is an official DXGK interface version.
 
 ## -parameters
 
 ### -param version
 
-The version to test. Can be one of the following values:
-
-* DXGKDDI_INTERFACE_VERSION_VISTA
-* DXGKDDI_INTERFACE_VERSION_VISTA_SP1
-* DXGKDDI_INTERFACE_VERSION_WIN7
-* DXGKDDI_INTERFACE_VERSION_WIN8
-* DXGKDDI_INTERFACE_VERSION_WDDM1_3
-* DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION
-* DXGKDDI_INTERFACE_VERSION_WDDM2_0
-* DXGKDDI_INTERFACE_VERSION_WDDM2_1
-* DXGKDDI_INTERFACE_VERSION_WDDM2_1_5
-* DXGKDDI_INTERFACE_VERSION_WDDM2_2
-* DXGKDDI_INTERFACE_VERSION_WDDM2_3
-* DXGKDDI_INTERFACE_VERSION_WDDM2_4
-* DXGKDDI_INTERFACE_VERSION_WDDM2_5
-
-## -returns
-
-Returns a boolean value.
+The version to test. See **IS_OFFICIAL_DDI_INTERFACE_VERSION**'s definition in *d3dukmdt.h* for a list of valid values.
 
 ## -remarks
 
-## -see-also
-
+**IS_OFFICIAL_DDI_INTERFACE_VERSION** returns TRUE if **version** is set to an official DXGK interface version. Otherwise, it returns FALSE.

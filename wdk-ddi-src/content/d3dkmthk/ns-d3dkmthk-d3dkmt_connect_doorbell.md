@@ -4,7 +4,7 @@ tech.root: display
 title: D3DKMT_CONNECT_DOORBELL
 ms.date: 05/22/2023
 targetos: Windows
-description: Learn more about the _D3DKMT_CONNECT_DOORBELL structure.
+description: Learn more about the D3DKMT_CONNECT_DOORBELL structure.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

@@ -9,7 +9,7 @@ ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback fun
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

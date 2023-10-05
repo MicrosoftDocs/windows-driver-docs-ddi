@@ -51,37 +51,37 @@ api_name:
 
 ## -struct-fields
 
-### -field hDevice [in]
+### -field hDevice
 
-A handle to the device that owns the context being created.
+[in] A handle to the device that owns the context being created.
 
-### -field NodeOrdinal [in]
+### -field NodeOrdinal
 
-The zero-based index for the node that the context is scheduled on.
+[in] The zero-based index for the node that the context is scheduled on.
 
-### -field EngineAffinity [in]
+### -field EngineAffinity
 
-The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
+[in] The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
 
-### -field Flags [in]
+### -field Flags
 
-A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
+[in] A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
 
-### -field unnamedParam1 [in]
+### -field unnamedParam1
 
-A pointer to private data that is passed to a display miniport driver.
+[in] A pointer to private data that is passed to a display miniport driver.
 
-### -field PrivateDriverDataSize [in]
+### -field PrivateDriverDataSize
 
-The size, in bytes, of the private data that **pPrivateDriverData** points to.
+[in] The size, in bytes, of the private data that **pPrivateDriverData** points to.
 
-### -field ClientHint [in]
+### -field ClientHint
 
-A hint describing which graphics subsystem is creating the context.
+[in] A hint describing which graphics subsystem is creating the context.
 
-### -field hContext [out]
+### -field hContext
 
-A handle to the created device context.
+[out] A handle to the created device context.
 
 ## -see-also
 

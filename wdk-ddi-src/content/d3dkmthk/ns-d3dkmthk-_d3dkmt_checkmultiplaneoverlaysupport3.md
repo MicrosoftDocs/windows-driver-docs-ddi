@@ -59,7 +59,7 @@ A handle to the device.
 
 The number of resources to pin.
 
-### -field unnamedParam1
+### -field pOverlayPlanes
 
 Array of pointers to overlay planes.
 

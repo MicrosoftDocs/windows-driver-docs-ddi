@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHANGEVIDEOMMEMORYRESERVATION
-title: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION (d3dkmthk.h)
-description: Used to change the video memory management reservation.
-ms.date: 10/19/2018
+title: D3DKMT_CHANGEVIDEOMMEMORYRESERVATION (d3dkmthk.h)
+description: Learn more about the D3DKMT_CHANGEVIDEOMMEMORYRESERVATION structure.
+ms.date: 10/04/2023
 keywords: ["D3DKMT_CHANGEVIDEOMMEMORYRESERVATION structure"]
 ms.keywords: _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION, D3DKMT_CHANGEVIDEOMEMORYRESERVATION,
 req.header: d3dkmthk.h
@@ -39,37 +39,34 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_CHANGEVIDEOMMEMORYRESERVATION structure
-
+# D3DKMT_CHANGEVIDEOMMEMORYRESERVATION structure
 
 ## -description
 
-Used to change the video memory management reservation.
+The **D3DKMT_CHANGEVIDEOMMEMORYRESERVATION** structure is used to change the video memory management reservation.
 
 ## -struct-fields
 
-### -field unnamedParam1 [in, opt]
+### -field hProcess
 
-A handle to a process. If NULL, the current process is used. The process handle must be opened with PROCESS_SET_INFORMATION privileges.
+[in, opt] A handle to a process. If NULL, the current process is used. The process handle must be opened with PROCESS_SET_INFORMATION privileges.
 
-### -field hAdapter [in]
+### -field hAdapter
 
-A handle to the graphics adapter.
+[in] A handle to the graphics adapter.
 
-### -field MemorySegmentGroup [in]
+### -field MemorySegmentGroup
 
-The memory segment group to change reservation for.
+[in] The memory segment group to change reservation for.
 
-### -field Reservation [in]
+### -field Reservation
 
-Desired reservation in the range between 0 and AvailableForReservation returned by [QueryVideoMemoryInfo](nf-d3dkmthk-d3dkmtqueryvideomemoryinfo.md).
+[in] Desired reservation in the range between 0 and AvailableForReservation returned by [QueryVideoMemoryInfo](nf-d3dkmthk-d3dkmtqueryvideomemoryinfo.md).
 
-### -field PhysicalAdapterIndex [in]
+### -field PhysicalAdapterIndex
 
- 
-Zero based physical adapter index in the LDA (linked display adapter) configuration.
-
-## -remarks
+[in] Zero based physical adapter index in the LDA (linked display adapter) configuration.
 
 ## -see-also
 
+[**D3DKMTChangeVideoMemoryReservation**](nf-d3dkmthk-d3dkmtchangevideomemoryreservation.md)
