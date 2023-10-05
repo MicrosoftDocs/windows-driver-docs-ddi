@@ -67,7 +67,7 @@ The **D3DKMT_CREATECONTEXT** structure is used with [**D3DKMTCreateContext**](nf
 
 [in] A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
 
-### -field unnamedParam1
+### -field pPrivateDriverData
 
 [in] A pointer to private data that is to be passed to the display miniport driver.
 
@@ -83,7 +83,7 @@ The **D3DKMT_CREATECONTEXT** structure is used with [**D3DKMTCreateContext**](nf
 
 [out] A handle to the created device context.
 
-### -field unnamedParam2
+### -field pCommandBuffer
 
 [out] Pointer to an array of allocated command buffers in which the OpenGL ICD can place commands into.
 
@@ -91,7 +91,7 @@ The **D3DKMT_CREATECONTEXT** structure is used with [**D3DKMTCreateContext**](nf
 
 [out] The size, in bytes, of the memory block that **pCommandBuffer** points to.
 
-### -field unnamedParam3
+### -field pAllocationList
 
 [out] Pointer to an array of [**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md) structures that the OpenGL ICD can insert referenced allocations in.
 
@@ -99,7 +99,7 @@ The **D3DKMT_CREATECONTEXT** structure is used with [**D3DKMTCreateContext**](nf
 
 [out] The number of elements in the array of allocations that **pAllocationList** points to. This quantity of allocations is available when *Dxgkrnl* submits the command buffer that is pointed to by **pCommandBuffer** to the display miniport driver.
 
-### -field unnamedParam4
+### -field pPatchLocationList
 
 [out] Pointer to an allocated array of [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md) structures that the OpenGL ICD inserts patching information in.
 

@@ -70,6 +70,10 @@ The **D3DKMT_OUTPUTDUPL_SNAPSHOT** structure provides information on the current
 
 [out] The number of contexts in which output duplication is occurring.
 
-### -field OutputDuplDebugInfos
+### -field Padding
+
+Padding.
+
+### -field OutputDuplDebugInfos[0]
 
 Reserved for system use. Set to zero.

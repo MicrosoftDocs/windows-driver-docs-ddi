@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO
 title: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO (d3dkmthk.h)
-description: Structure to check multiplane overlay support return info.
-ms.date: 10/19/2018
+description: Learn more about the D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO structure.
+ms.date: 10/05/2023
 keywords: ["D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO structure"]
 ms.keywords: D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO, D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO,
 req.header: d3dkmthk.h
@@ -38,10 +38,9 @@ dev_langs:
 
 # D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO structure
 
-
 ## -description
 
-Structure to check multiplane overlay support return info.
+The **D3DKMT_CHECK_MULTIPLANE_OVERLAY_SUPPORT_RETURN_INFO** structure is used to return multiplane overlay support failure information.
 
 ## -struct-fields
 
@@ -59,10 +58,12 @@ Reserved for internal use.
 
 ### -field Value
 
- 
-The value used to operate over the other members.
+The value used to operate over the other members of this structure.
 
 ## -remarks
 
 ## -see-also
 
+[**D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT2**](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport2.md)
+
+[**D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3**](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md)

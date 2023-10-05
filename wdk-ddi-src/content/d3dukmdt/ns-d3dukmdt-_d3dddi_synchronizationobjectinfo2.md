@@ -50,13 +50,13 @@ The **D3DDDI_SYNCHRONIZATIONOBJECTINFO2** structure contains information about a
 
 ## -struct-fields
 
-### -field Type [in]
+### -field Type
 
-A value of type [**D3DDDI_SYNCHRONIZATIONOBJECT_TYPE**](ne-d3dukmdt-_d3dddi_synchronizationobject_type.md) that indicates the type of synchronization object.
+[in] A value of type [**D3DDDI_SYNCHRONIZATIONOBJECT_TYPE**](ne-d3dukmdt-_d3dddi_synchronizationobject_type.md) that indicates the type of synchronization object.
 
-### -field Flags [in]
+### -field Flags
 
-A [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structure that specifies, in bit-field flags, attributes of the synchronization object.
+[in] A [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) structure that specifies, in bit-field flags, attributes of the synchronization object.
 
 ### -field SynchronizationMutex
 
@@ -100,27 +100,27 @@ A structure that contains information about a monitored fence. If the **Type** m
 
 Supported starting with Windows 10.
 
-### -field MonitoredFence.InitialFenceValue [in]
+### -field MonitoredFence.InitialFenceValue
 
-A 64-bit value that specifies the initial fence value.
-
-Supported starting with Windows 10.
-
-### -field MonitoredFence.FenceValueCPUVirtualAddress [out]
-
-A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as ```InterlockedCompareExchange64(pointer,0,0)```, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of **No64BitAtomics** cap, this address points to either a 32 bit or a 64 bit underlying value.
+[in] A 64-bit value that specifies the initial fence value.
 
 Supported starting with Windows 10.
 
-### -field MonitoredFence.FenceValueGPUVirtualAddress [out]
+### -field MonitoredFence.FenceValueCPUVirtualAddress
 
-A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics kernel will unblock waiters for this fence object value. Depending on the value of **No64BitAtomics** cap, this address points to either a 32 bit or a 64 bit underlying value.
+[out] A read-only mapping of the fence value for the CPU. This is a user mode address readable from the process that created the monitored fence object. For 32 bit platforms that support 64 bit atomic reads via methods such as ```InterlockedCompareExchange64(pointer,0,0)```, the mapping will be made read-write instead of read-only to avoid an access violation during the interlocked operation. Depending on the value of **No64BitAtomics** cap, this address points to either a 32 bit or a 64 bit underlying value.
 
 Supported starting with Windows 10.
 
-### -field MonitoredFence.EngineAffinity [in]
+### -field MonitoredFence.FenceValueGPUVirtualAddress
 
-A bit field, where each bit position (starting from zero) defines a physical adapter index in an link display adapter (LDA) link where the GPU virtual address will be committed. Zero means that the GPU virtual address will be committed to all physical adapters.
+[out] A read-write mapping of the fence value for the GPU. A driver can signal a new fence value by inserting a GPU write command for this address into a command buffer, and the DirectX graphics kernel will unblock waiters for this fence object value. Depending on the value of **No64BitAtomics** cap, this address points to either a 32 bit or a 64 bit underlying value.
+
+Supported starting with Windows 10.
+
+### -field MonitoredFence.EngineAffinity
+
+[in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an link display adapter (LDA) link where the GPU virtual address will be committed. Zero means that the GPU virtual address will be committed to all physical adapters.
 
 Supported starting with Windows 10.
 
@@ -134,39 +134,39 @@ Supported starting with Windows 10.
 
 [out] The output ID that the compositor wishes to receive notifications for.
 
-### -field PeriodicMonitoredFence.hAdapter [in]
+### -field PeriodicMonitoredFence.hAdapter
 
-A handle to the adapter associated with VidPnSourceID
+[in] A handle to the adapter associated with VidPnSourceID
 
 ### -field PeriodicMonitoredFence.VidPnTargetId
 
-### -field PeriodicMonitoredFence.Time [out]
+### -field PeriodicMonitoredFence.Time
 
-Represents an offset before the VSync (time of VSync – Time parameter). The Time value may not be longer than a VSync interval (1 / DisplayModeRefresh). Time is specified in units of 100ns.
+[out] Represents an offset before the VSync (time of VSync – Time parameter). The Time value may not be longer than a VSync interval (1 / DisplayModeRefresh). Time is specified in units of 100ns.
 
-### -field PeriodicMonitoredFence.FenceValueCPUVirtualAddress [in]
+### -field PeriodicMonitoredFence.FenceValueCPUVirtualAddress
 
-Read-only mapping of the fence value for the CPU
+[in] Read-only mapping of the fence value for the CPU
 
-### -field PeriodicMonitoredFence.FenceValueGPUVirtualAddress [in]
+### -field PeriodicMonitoredFence.FenceValueGPUVirtualAddress
 
-Read-only mapping of the fence value for the GPU
+[in] Read-only mapping of the fence value for the GPU
 
-### -field PeriodicMonitoredFence.EngineAffinity [in]
+### -field PeriodicMonitoredFence.EngineAffinity
 
-Defines physical adapters where the GPU VA will be mapped
+[in] Defines physical adapters where the GPU VA will be mapped
 
 ### -field Reserved
 
 A structure that is reserved for future use. This structure contains the following member:
 
-### -field Reserved.Reserved
+### -field Reserved.[8]
 
 An array of 64-bit values that are reserved for future use.
 
-### -field SharedHandle [out]
+### -field SharedHandle
 
-A handle to the shared synchronization object if a shared handle currently exists. The driver should share synchronization objects using NT handles. It should set the [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS::NtSecuritySharing**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) to indicate that the object will be shared using NT handles and call [**D3DKMTShareObjects**](../d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects.md) to get an NT handle. Using global handles is not secure. Any process can guess a global handle and open a shared objects. Global handles are supported only for compatibility reasons with old D3D runtimes.
+[out] A handle to the shared synchronization object if a shared handle currently exists. The driver should share synchronization objects using NT handles. It should set the [**D3DDDI_SYNCHRONIZATIONOBJECT_FLAGS::NtSecuritySharing**](ns-d3dukmdt-_d3dddi_synchronizationobject_flags.md) to indicate that the object will be shared using NT handles and call [**D3DKMTShareObjects**](../d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects.md) to get an NT handle. Using global handles is not secure. Any process can guess a global handle and open a shared objects. Global handles are supported only for compatibility reasons with old D3D runtimes.
 
 ## -see-also
 

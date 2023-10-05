@@ -1,8 +1,8 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
 title: PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB (dxgiddi.h)
-description: The PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function is implemented by the client driver to submit a present Blt to the hardware queue.
-ms.date: 10/19/2018
+description: Learn more about the PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function.
+ms.date: 10/05/2023
 keywords: ["PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function"]
 req.header: dxgiddi.h
 req.include-header: 
@@ -40,10 +40,9 @@ product:
 
 # PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function
 
-
 ## -description
 
-Implemented by the client driver to submit a present Blt to hardware queue.
+The **PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB** callback function is implemented by a graphics client driver to submit a present Blt to the hardware queue.
 
 ## -parameters
 
@@ -51,9 +50,9 @@ Implemented by the client driver to submit a present Blt to hardware queue.
 
 A handle to the device.
 
-### -param DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE *
+### -param unnamedParam2
 
-Pointer to a [DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE](ns-dxgiddi-dxgiddicb_submitpresentblttohwqueue.md) structure that contains information to submit a present Blt to hardware queue.
+Pointer to a [**DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE**](ns-dxgiddi-dxgiddicb_submitpresentblttohwqueue.md) structure that contains information to submit a present Blt to hardware queue.
 
 ## -returns
 
@@ -70,8 +69,8 @@ PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB PfnddxgiddiSubmitpresentblttohwqueuecb;
 
 HRESULT PfnddxgiddiSubmitpresentblttohwqueuecb
 (
-	HANDLE hDevice
-	DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE *
+    HANDLE hDevice
+    DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE *
 )
 {...}
 
@@ -79,4 +78,3 @@ PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
 
 
 ```
-

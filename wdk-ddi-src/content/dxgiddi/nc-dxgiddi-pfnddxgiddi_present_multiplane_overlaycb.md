@@ -1,10 +1,9 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB
 title: PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB (dxgiddi.h)
-description: Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation.
-old-location: display\pfnpresentmultiplaneoverlay__dxgi_.htm
+description: Learn more about the PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback function.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 10/05/2023
 keywords: ["PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback function"]
 ms.keywords: PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB, PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback, display.pfnpresentmultiplaneoverlay__dxgi_, dxgiddi/pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb, pfnPresentMultiPlaneOverlayCb callback function [Display Devices]
 req.header: dxgiddi.h
@@ -42,10 +41,9 @@ api_name:
 
 # PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB callback function
 
-
 ## -description
 
-Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify  the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. Must be implemented by Windows Display Driver Model (WDDM) 1.3 or later drivers that support multiplane overlays.
+**PFNDDXGIDDI_PRESENT_MULTIPLANE_OVERLAYCB** is called by the DirectX Graphics Infrastructure (DXGI) runtime to notify the user-mode display driver that an application finished rendering and requests that the driver display the source surface by either copying or flipping or that the driver perform a color-fill operation. Must be implemented by Windows Display Driver Model (WDDM) 1.3 or later drivers that support multiplane overlays.
 
 ## -parameters
 
@@ -53,11 +51,9 @@ Called by the Microsoft DirectX Graphics Infrastructure (DXGI) runtime to notify
 
 A handle to a display device (graphics context).
 
-### -param 
+### -param unnamedParam2
 
-**pPresentDXGI**
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a> structure that describes how to display to the destination surface.
+**pPresentDXGI** is a pointer to a [**DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY**](ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md) structure that describes how to display to the destination surface.
 
 ## -returns
 
@@ -65,13 +61,10 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 
 ## -remarks
 
-When the user-mode display driver successfully completes its processing of a call to this function, it presents the source surface to the display by calling the <a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a> function.
+When the user-mode display driver successfully completes its processing of a call to this function, it presents the source surface to the display by calling the [**pfnPresentMultiPlaneOverlayCb (DXGI)**](nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dxgiddi/ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay">DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY</a>
+[**DXGI_DDI_ARG_PRESENTMULTIPLANEOVERLAY**](ns-dxgiddi-_dxgi_ddi_arg_presentmultiplaneoverlay.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/dxgiddi/nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb">pfnPresentMultiPlaneOverlayCb (DXGI)</a>
-
+[**pfnPresentMultiPlaneOverlayCb (DXGI)**](nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md)
