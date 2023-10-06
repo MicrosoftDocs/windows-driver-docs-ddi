@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_QUERYREGISTRY_INFO
-title: _D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
-description: Contains information about the query registry.
-ms.date: 11/21/2018
+title: D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
+description: Learn more about the D3DDDI_QUERYREGISTRY_INFO structure.
+ms.date: 10/05/2023
 keywords: ["D3DDDI_QUERYREGISTRY_INFO structure"]
 ms.keywords: _D3DDDI_QUERYREGISTRY_INFO, D3DDDI_QUERYREGISTRY_INFO,
 req.header: d3dukmdt.h
@@ -38,107 +38,95 @@ product:
  - Windows
 ---
 
-# _D3DDDI_QUERYREGISTRY_INFO structure
-
+# D3DDDI_QUERYREGISTRY_INFO structure
 
 ## -description
 
-This structure indicates how **D3DKMT_QUERYADAPTERINFO\::pDriverPrivateData** should be reinterpreted when **D3DKMT_QUERYADAPTERINFO\::Type** is **KMTQAITYPE_QUERYREGISTRY**. 
-It is used to read the registry for information that is commonly cached during driver installation.
-
-Instead of using raw OS methods, user mode drivers and other components must ubiquitously use this technique on the OS versions where it is supported.
-This enables the OS to maximize user mode compatibility with dependency changes and scenarios like virtualized environments.
+The **D3DDDI_QUERYREGISTRY_INFO** structure indicates how **D3DKMT_QUERYADAPTERINFO\::pDriverPrivateData** should be reinterpreted when **D3DKMT_QUERYADAPTERINFO\::Type** is **KMTQAITYPE_QUERYREGISTRY**.
 
 ## -struct-fields
 
 ### -field QueryType
 
-*[In] [D3DDDI_QUERYREGISTRY_TYPE](ne-d3dukmdt-_d3dddi_queryregistry_type.md) QueryType*
+[in] A [**D3DDDI_QUERYREGISTRY_TYPE**](ne-d3dukmdt-_d3dddi_queryregistry_type.md) value that indicates which data to retrieve.
 
 **QueryType** is the most-significant field.
 It indicates whether the registry or file paths are being retrieved, as well as which specific registry hive and file path.
 
 Registry Key Enums:
+
 - **D3DDDI_QUERYREGISTRY_SERVICEKEY**
 - **D3DDDI_QUERYREGISTRY_ADAPTERKEY**
 
 File Path Enums:
+
 - **D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH**
 - **D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH**
 
 ### -field QueryFlags
 
-*[In] [D3DDDI_QUERYREGISTRY_FLAGS](ns-d3dukmdt-_d3dddi_queryregistry_flags.md) QueryFlags*
+[in] A [**D3DDDI_QUERYREGISTRY_FLAGS**](ns-d3dukmdt-_d3dddi_queryregistry_flags.md) structure with flags that control how strings are retrieved. **QueryFlags** can do additional operations, like translate retrieved strings containing file paths to the guest environment.
 
-**QueryFlags** can do additional operations, like translate retrieved strings containing file paths to the guest environment.
+### -field ValueName[MAX_PATH]
 
-### -field ValueName
-
-*[In] WCHAR ValueName[ MAX\_PATH ]*
-
-When retrieving registry information, **ValueName** must specify the registry value name to retrieve.
-When retrieving file path information, **ValueName** is ignored.
+[in] When retrieving registry information, **ValueName** must specify the registry value name to retrieve. When retrieving file path information, **ValueName** is ignored.
 
 ### -field ValueType
 
-*[In] ULONG ValueType*
-
-When retrieving registry information, **ValueType** must specify the expected registry value type that corresponds to the registry value name.
-When retrieving file path information, **ValueType** must be 0 to succeed. 
-See [Registry Value Types](/windows/win32/sysinfo/registry-value-types) for more detail.
+[in] When retrieving registry information, **ValueType** must specify the expected registry value type that corresponds to the registry value name.
+When retrieving file path information, **ValueType** must be 0 to succeed. See [Registry Value Types](/windows/win32/sysinfo/registry-value-types) for more detail.
 
 ### -field PhysicalAdapterIndex
 
-*[In] ULONG PhysicalAdapterIndex*
-
-The physical adapter index in a LDA chain.
+[in] The physical adapter index in a LDA chain.
 
 ### -field OutputValueSize
 
-*[Out] ULONG OutputValueSize*
-
-The size of the output data is retrieved to this field, even when there's wasn't enough room to retrieve that data.
+[out] The size of the output data is retrieved to this field, even when there wasn't enough room to retrieve that data.
 This field is most useful when variable-sized data is being retrieved.
 
 ### -field Status
 
-*[Out] [D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md) Status*
+[out] A [**D3DDDI_QUERYREGISTRY_STATUS**](ne-d3dukmdt-_d3dddi_queryregistry_status.md) value that indicates the status of the query.
 
-The status of the query is returned seperately, to indicate varying amounts of data has been retrieved.
+The status of the query is returned separately to indicate varying amounts of data has been retrieved.
 The following three return states are most important to understand:
+
 - When QueryAdapterInfo returns STATUS_SUCCESS and **Status** is **D3DDDI_QUERYREGISTRY_STATUS_SUCCESS**, all fields starting with **Output** are valid.
 - When QueryAdapterInfo returns STATUS_SUCCESS and **Status** is **D3DDDI_QUERYREGISTRY_STATUS_BUFFER_OVERFLOW**, only **OutputValueSize** is valid.
 - When QueryAdapterInfo doesn't return STATUS_SUCCESS, all fields are left unmodified, except **Status** may be changed to **D3DDDI_QUERYREGISTRY_STATUS_FAIL**.
 
-### OutputDword
-*[Out] DWORD OutputDword*
+### -field OutputDword
 
-**OutputDword** is a convenience field for reinterpreting the successfully retrieved data.
-It is most useful when a registry dword is being read.
+[out] A convenience field for reinterpreting the successfully retrieved data. It is most useful when a registry DWORD is being read.
 
-### OutputQword
-*[Out] UINT64 OutputQword*
+### -field OuputQword
 
-**OutputQword** is a convenience field for reinterpreting the successfully retrieved data.
-It is most useful when a registry qword is being read.
+[out] A convenience field for reinterpreting the successfully retrieved data. It is most useful when a registry QWORD is being read.
 
-### OutputString
-*[Out] WCHAR OutputString[ ANYSIZE\_ARRAY ]*
+### -field OutputString[1]
 
-**OutputString** is a convenience field for reinterpreting the successfully retrieved data.
-It is most useful for retreiving a registry string or a file path.
+[out] A convenience field for reinterpreting the successfully retrieved data. It is most useful for retrieving a registry string or a file path.
 
-### OutputBinary
-*[Out] BYTE OutputBinary[ ANYSIZE\_ARRAY ]*
+### -field OutputBinary[1]
 
-**OutputBinary** is a convenience field for reinterpreting the successfully retrieved data.
-It is most useful when a registry binary blob is being read.
+[out] A convenience field for reinterpreting the successfully retrieved data. It is most useful when a registry binary blob is being read.
+
+## -remarks
+
+**D3DDDI_QUERYREGISTRY_INFO** is used to read the registry for information that is commonly cached during driver installation.
+
+Instead of using raw OS methods, user mode drivers and other components must ubiquitously use this technique on the OS versions where it is supported.
+This enables the OS to maximize user mode compatibility with dependency changes and scenarios like virtualized environments.
 
 ## -see-also
 
-- [D3DDDI_QUERYREGISTRY_TYPE](ne-d3dukmdt-_d3dddi_queryregistry_type.md)
-- [D3DDDI_QUERYREGISTRY_FLAGS](ns-d3dukmdt-_d3dddi_queryregistry_flags.md)
-- [D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md)
-- [KMTQUERYADAPTERINFOTYPE](../d3dkmthk/ne-d3dkmthk-_kmtqueryadapterinfotype.md)
-- [D3DKMT_QUERYADAPTERINFO](../d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
+[D3DDDI_QUERYREGISTRY_TYPE](ne-d3dukmdt-_d3dddi_queryregistry_type.md)
 
+[D3DDDI_QUERYREGISTRY_FLAGS](ns-d3dukmdt-_d3dddi_queryregistry_flags.md)
+
+[D3DDDI_QUERYREGISTRY_STATUS](ne-d3dukmdt-_d3dddi_queryregistry_status.md)
+
+[KMTQUERYADAPTERINFOTYPE](../d3dkmthk/ne-d3dkmthk-_kmtqueryadapterinfotype.md)
+
+[D3DKMT_QUERYADAPTERINFO](../d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)

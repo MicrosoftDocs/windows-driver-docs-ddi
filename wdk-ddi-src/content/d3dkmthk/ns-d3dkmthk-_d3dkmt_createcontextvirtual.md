@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXTVIRTUAL
 title: D3DKMT_CREATECONTEXTVIRTUAL (d3dkmthk.h)
-description: D3DKMT_CREATECONTEXTVIRTUAL is used with D3DKMTCreateContextVirtual to create a kernel mode device context that supports virtual addressing.
+description: Learn more about the D3DKMT_CREATECONTEXTVIRTUAL structure.
 old-location: display\d3dkmt_createcontextvirtual.htm
 ms.date: 02/28/2023
 keywords: ["D3DKMT_CREATECONTEXTVIRTUAL structure"]
@@ -67,7 +67,7 @@ api_name:
 
 [in] A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
 
-### -field unnamedParam1
+### -field pPrivateDriverData
 
 [in] A pointer to private data that is passed to a display miniport driver.
 

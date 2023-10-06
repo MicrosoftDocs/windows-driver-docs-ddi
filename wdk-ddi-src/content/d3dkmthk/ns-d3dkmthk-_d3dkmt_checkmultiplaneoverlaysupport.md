@@ -71,4 +71,4 @@ The return info.
 
 ## -see-also
 
-[**D3DKMTPresentMultiPlaneOverlaySupport**](nf-d3dkmthk-d3dkmtpresentmultiplaneoverlaysupport.md)
+[**D3DKMTCheckMultiPlaneOverlaySupport**](nf-d3dkmthk-d3dkmtcheckmultiplaneoverlaysupport.md)
