@@ -48,13 +48,13 @@ The **FltGetContexts** routine retrieves a minifilter driver's contexts for the 
 
 ## -parameters
 
-### -param FltObjects [in]
+### -param FltObjects
 
-Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
+[in] Pointer to a [**FLT_RELATED_OBJECTS**](ns-fltkernel-_flt_related_objects.md) structure containing opaque pointers for the objects related to the current operation. For more information about this parameter, see the Remarks section.
 
-### -param DesiredContexts [in]
+### -param DesiredContexts
 
-Identifies the types of contexts to retrieve. This parameter can be a bitwise OR of the following values.
+[in] Identifies the types of contexts to retrieve. This parameter can be a bitwise OR of the following values.
 
 | Constant | Value |
 | -------- | ----- |
@@ -67,9 +67,9 @@ Identifies the types of contexts to retrieve. This parameter can be a bitwise OR
 | FLT_SECTION_CONTEXT (starting in Windows 8)     | 020040 |
 | FLT_ALL_CONTEXTS                                | Bitwise OR of all of the context values |
 
-### -param Contexts [out]
+### -param Contexts
 
-Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure that receives the requested contexts. This parameter is required and cannot be set to NULL. *FltMgr* sets a structure member to zero for:
+[out] Pointer to a caller-allocated [**FLT_RELATED_CONTEXTS**](ns-fltkernel-_flt_related_contexts.md) structure that receives the requested contexts. This parameter is required and cannot be set to NULL. *FltMgr* sets a structure member to zero for:
 
 * Contexts that the caller did not request.
 * Contexts that the caller requested but *FltMgr* couldn't find.
