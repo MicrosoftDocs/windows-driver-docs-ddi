@@ -45,16 +45,15 @@ dev_langs:
 
 # FsRtlOplockBreakToNone function
 
-
 ## -description
 
-The <b>FsRtlOplockBreakToNone</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex">FsRtlOplockBreakToNoneEx</a> instead.
+The **FsRtlOplockBreakToNone** routine is obsolete, but is exported to support existing driver binaries. Use [**FsRtlOplockBreakToNoneEx**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtloplockbreaktononeex.md) instead.
 
 ## -parameters
 
 ### -param Oplock
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param IrpSp
 
@@ -73,5 +72,9 @@ Reserved.
 Reserved.
 
 ### -param PostIrpRoutine
+
+Reserved.
+
+## -returns
 
 Reserved.

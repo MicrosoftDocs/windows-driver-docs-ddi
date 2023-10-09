@@ -45,16 +45,15 @@ dev_langs:
 
 # FsRtlPrivateLock function
 
-
 ## -description
 
-The <b>FsRtlPrivateLock</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtlfastlock">FsRtlFastLock</a> instead.
+The **FsRtlPrivateLock** routine is obsolete, but is exported to support existing driver binaries. Use [**FsRtlFastLock**](nf-ntifs-fsrtlfastlock.md) instead.
 
 ## -parameters
 
 ### -param FileLock
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param FileObject
 
@@ -97,5 +96,9 @@ Reserved.
 Reserved.
 
 ### -param AlreadySynchronized
+
+Reserved.
+
+## -returns
 
 Reserved.

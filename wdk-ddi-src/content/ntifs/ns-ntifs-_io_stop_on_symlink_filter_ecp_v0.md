@@ -51,11 +51,11 @@ The **IO_STOP_ON_SYMLINK_FILTER_ECP_v0** structure contains the extra create par
 
 The structure in which the I/O manager returns information to the caller. The information is returned in this structure's members.
 
-### -field ReparseCount
+### -field Out.ReparseCount
 
 Member of Out. The number of name-grafting reparses.
 
-### -field RemainingPathLength
+### -field Out.RemainingPathLength
 
 Member of Out. The portion of the path remaining after the last reparse.
 

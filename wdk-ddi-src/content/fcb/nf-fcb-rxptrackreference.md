@@ -72,10 +72,6 @@ api_name:
 
 A pointer to the structure to be referenced.
 
-## -returns
-
-**RxpTrackReference** always returns TRUE on checked builds.
-
 ## -remarks
 
 In checked builds, **RxpTrackReference** is used to track requests to reference SRV_CALL, NET_ROOT, V_NET_ROOT, FOBX, FCB, and SRV_OPEN structures. For retail builds, this function does nothing.

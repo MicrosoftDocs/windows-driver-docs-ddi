@@ -68,13 +68,31 @@ The prefix resolution operation serves two purposes:
 
 ### -ioctl-major-code
 
+IOCTL_REDIR_QUERY_PATH_EX
+
 ### -input-buffer
 
 **IrpSp->Parameters.DeviceIoControl.Type3InputBuffer** is set to a [**QUERY_PATH_REQUEST_EX**](ns-ntifs-query_path_request_ex.md) data structure that contains the request.
 
+### -input-buffer-length
+
+Size of the [**QUERY_PATH_REQUEST_EX**](ns-ntifs-query_path_request_ex.md) structure that the input buffer points to, in bytes.
+
 ### -output-buffer
 
 **IRP->UserBuffer** is set to a [**QUERY_PATH_RESPONSE**](ns-ntifs-query_path_response.md) data structure that contains the response.
+
+### -output-buffer-length
+
+Size of the [**QUERY_PATH_RESPONSE**](ns-ntifs-query_path_response.md) structure that the output buffer points to, in bytes.
+
+### -inout-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 

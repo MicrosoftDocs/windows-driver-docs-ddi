@@ -51,3 +51,7 @@ helpviewer_keywords:
 ### -param Number
 
 Reserved.
+
+## -returns
+
+Reserved.
