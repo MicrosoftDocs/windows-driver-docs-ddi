@@ -61,11 +61,11 @@ The **FILE_LINK_INFORMATION** structure is used to create an NTFS hard link to a
 
 ### -field DUMMYUNIONNAME.ReplaceIfExists
 
-Set to TRUE to specify that if the link already exists, it should be replaced with the new link. Set to FALSE if the link creation operation should fail if the link already exists.
+Set to TRUE to specify that if the link already exists, it should be replaced with the new link. Set to FALSE if the link creation operation should fail if the link already exists. Available starting with Windows 10, version 1809.
 
 ### -field DUMMYUNIONNAME.Flags
 
-Flags for the link operation. This field is only applicable when used with the FileLinkInformationEx information class.
+Flags for the link operation. This field is only applicable when used with the FileLinkInformationEx information class. Available starting with Windows 10, version 1809.
 
 Here are the possible values:
 
@@ -82,6 +82,10 @@ Here are the possible values:
 | **FILE_LINK_FORCE_RESIZE_SOURCE_SR** (0x00000100) | If FILE_LINK_SUPPRESS_STORAGE_RESERVE_INHERITANCE is not also specified, when creating a link in a new directory that is part of a different storage reserve area, always shrink the source directory's storage reserve area by the full size of the file being linked.  Requires manage volume access. |
 | **FILE_LINK_FORCE_RESIZE_SR** (0x00000180) | Equivalent to specifying both FILE_LINK_FORCE_RESIZE_TARGET_SR and FILE_LINK_FORCE_RESIZE_SOURCE_SR. |
 
+### -field ReplaceIfExists
+
+Set to TRUE to specify that if the link already exists, it should be replaced with the new link. Set to FALSE if the link creation operation should fail if the link already exists.
+
 ### -field RootDirectory
 
 If the link is to be created in the same directory as the file that is being linked to, or if the **FileName** member contains the full pathname for the link to be created, this is NULL. Otherwise it is a handle for the directory where the link is to be created.
@@ -90,7 +94,7 @@ If the link is to be created in the same directory as the file that is being lin
 
 Length, in bytes, of the file name string.
 
-### -field FileName
+### -field FileName[1]
 
 The first character of the name to be assigned to the newly created link. This is followed in memory by the remainder of the string. If the **RootDirectory** member is NULL and the link is to be created in a different directory from the file that is being linked to, this member specifies the full pathname for the link to be created. Otherwise, it specifies only the file name. (See the Remarks section for [**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md) for details on the syntax of this file name string.)
 

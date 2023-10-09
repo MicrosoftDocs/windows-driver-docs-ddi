@@ -43,6 +43,40 @@ ms.custom: engagement-fy23
 
 **FSCTL_QUERY_ALLOCATED_RANGES** requests a scan of a file or alternate [stream](/openspecs/windows_protocols/ms-fscc/8ac44452-328c-4d7b-a784-d72afd19bd9f#gt_f3529cd8-50da-4f36-aa0b-66af455edbb6) looking for byte ranges that can contain nonzero data, and then return of information on those ranges. Only sparse files can have zeroed ranges known to the operating system. For other files, the output buffer will contain only a single range that contains the starting point and the length requested.
 
+## -ioctlparameters
+
+### -ioctl-major-code
+
+FSCTL_QUERY_ALLOCATED_RANGES
+
+### -input-buffer
+
+Pointer to a [**FILE_ALLOCATED_RANGE_BUFFER**](ns-ntifs-file_allocated_range_buffer.md) structure that indicates the range to query for allocation.
+
+### -input-buffer-length
+
+Size of the [**FILE_ALLOCATED_RANGE_BUFFER**](ns-ntifs-file_allocated_range_buffer.md) structure that **InputBuffer** points to, in bytes.
+
+### -output-buffer
+
+Pointer to an array of zero or more [**FILE_ALLOCATED_RANGE_BUFFER**](ns-ntifs-file_allocated_range_buffer.md) data elements in which the results of the query are returned. See below for more information.
+
+### -output-buffer-length
+
+Size of the buffer that **OutputBuffer** points to, in bytes.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
+
+### -status-block
+
+Reserved for system use.
+
 ## -remarks
 
 To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.

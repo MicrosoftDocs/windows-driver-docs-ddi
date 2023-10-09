@@ -45,16 +45,15 @@ dev_langs:
 
 # FsRtlLookupMcbEntry function
 
-
 ## -description
 
-<b>FsRtlLookupMcbEntry</b> is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry">FsRtlLookupLargeMcbEntry</a> instead.
+**FsRtlLookupMcbEntry** is obsolete, but is exported to support existing driver binaries. Use [**FsRtlLookupLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry.md) instead.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param Vbn
 
@@ -71,3 +70,7 @@ Reserved.
 ### -param Index
 
 Reserved.
+
+## -returns
+
+**FsRtlLookupMcbEntry** returns TRUE if the specified VBN is within the range of VBNs that are mapped by the MCB, FALSE otherwise.

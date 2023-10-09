@@ -1,9 +1,9 @@
 ---
 UID: NS:ntifs._ENCRYPTION_KEY_CTRL_INPUT
-title: _ENCRYPTION_KEY_CTRL_INPUT (ntifs.h)
-description: "Learn more about: _ENCRYPTION_KEY_CTRL_INPUT structure"
+title: ENCRYPTION_KEY_CTRL_INPUT (ntifs.h)
+description: "Learn more about: ENCRYPTION_KEY_CTRL_INPUT structure"
 tech.root: ifsk
-ms.date: 10/19/2018
+ms.date: 10/06/2023
 keywords: ["ENCRYPTION_KEY_CTRL_INPUT structure"]
 ms.keywords: _ENCRYPTION_KEY_CTRL_INPUT, ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT,
 req.header: ntifs.h
@@ -38,16 +38,38 @@ api_name:
  - ENCRYPTION_KEY_CTRL_INPUT
 ---
 
-# _ENCRYPTION_KEY_CTRL_INPUT structure
-
+# ENCRYPTION_KEY_CTRL_INPUT structure
 
 ## -description
 
+The **ENCRYPTION_KEY_CTRL_INPUT** structure is reserved for system use.
+
 ## -struct-fields
 
-### -field IsProtect
+### -field HeaderSize
 
-## -remarks
+Reserved.
 
-## -see-also
+### -field StructureSize
 
+Reserved.
+
+### -field KeyOffset
+
+Reserved.
+
+### -field KeySize
+
+Reserved.
+
+### -field DplLock
+
+Reserved.
+
+### -field DplUserId
+
+Reserved.
+
+### -field DplCredentialId
+
+Reserved.

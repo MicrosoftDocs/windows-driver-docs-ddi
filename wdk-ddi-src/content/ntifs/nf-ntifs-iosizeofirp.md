@@ -47,15 +47,13 @@ The **IoSizeOfIrp** routine determines the size in bytes for an IRP, given the n
 
 ## -parameters
 
-### -param StackSize [in]
+### -param StackSize
 
-Specifies the number of stack locations for the IRP.
-
-## -returns
-
-**IoSizeOfIrp** returns the size, in bytes, of the IRP.
+[in] Specifies the number of stack locations for the IRP.
 
 ## -remarks
+
+**IoSizeOfIrp** returns the size, in bytes, of the IRP.
 
 The input **StackSize** value is either that of the next-lower driver's device object or one more than that value.
 

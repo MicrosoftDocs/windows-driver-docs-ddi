@@ -42,6 +42,40 @@ helpviewer_keywords:
 
 **FSCTL_QUERY_FILE_REGIONS** queries a list of file regions, based on a specified usage parameter, for the file associated with the handle on which this FSCTL was invoked. This message contains an optional [**FILE_REGION_INPUT**](ns-ntifs-file_region_input.md) data element. If no **FILE_REGION_INPUT** parameter is specified, information for the entire size of the file is returned.
 
+## -ioctlparameters
+
+### -ioctl-major-code
+
+FSCTL_QUERY_FILE_REGIONS
+
+### -input-buffer
+
+Pointer to a [**FILE_REGION_INPUT**](ns-ntifs-file_region_input.md) structure that indicates the file region(s) to query.
+
+### -input-buffer-length
+
+Size of the [**FILE_REGION_INPUT**](ns-ntifs-file_region_input.md) structure that **InputBuffer** points to, in bytes.
+
+### -output-buffer
+
+Pointer to a [**FILE_REGION_OUTPUT**](ns-ntifs-file_region_output.md) structure in which the results of the query are returned.
+
+### -output-buffer-length
+
+Size of the buffer that **OutputBuffer** points to, in bytes.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
+
+### -status-block
+
+Reserved for system use.
+
 ## -remarks
 
 To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.

@@ -42,18 +42,20 @@ api_name:
 
 # SeSetSessionIdToken function
 
-
 ## -description
 
-The <b>SeSetSessionIdToken</b> routine is reserved for system use.
+The **SeSetSessionIdToken** routine is reserved for system use.
 
 ## -parameters
 
 ### -param Token
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param SessionId
 
 Reserved.
 
+## -returns
+
+Reserved.

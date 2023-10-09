@@ -42,21 +42,24 @@ api_name:
 
 # FsRtlLookupPerStreamContextInternal function
 
-
 ## -description
 
-The <b>FsRtlLookupPerStreamContextInternal</b> routine is reserved for system use. See <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-fsrtllookupperstreamcontext">FsRtlLookupPerStreamContext</a>.
+The **FsRtlLookupPerStreamContextInternal** routine is reserved for system use. See [**FsRtlLookupPerStreamContext**](nf-ntifs-fsrtllookupperstreamcontext.md).
 
 ## -parameters
 
 ### -param StreamContext
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param OwnerId
 
 Reserved.
 
 ### -param InstanceId
+
+Reserved.
+
+## - returns
 
 Reserved.

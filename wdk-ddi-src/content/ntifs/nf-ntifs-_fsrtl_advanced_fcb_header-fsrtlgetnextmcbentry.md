@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlGetNextMcbEntry
 title: FsRtlGetNextMcbEntry function (ntifs.h)
-description: The FsRtlGetNextMcbEntry function is obsolete.
-old-location: ifsk\fsrtlgetnextmcbentry.htm
+description: Learn more about the FsRtlGetNextMcbEntry function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/06/2023
 keywords: ["FsRtlGetNextMcbEntry function"]
 ms.keywords: FsRtlGetNextMcbEntry, FsRtlGetNextMcbEntry function [Installable File System Drivers], fsrtlref_3465b156-f358-4049-8480-e59e92ecccbb.xml, ifsk.fsrtlgetnextmcbentry, ntifs/FsRtlGetNextMcbEntry
 req.header: ntifs.h
@@ -45,16 +44,15 @@ dev_langs:
 
 # FsRtlGetNextMcbEntry function
 
-
 ## -description
 
-The <b>FsRtlGetNextMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry">FsRtlGetNextLargeMcbEntry</a> instead.
+The **FsRtlGetNextMcbEntry** routine retrieves a mapping run from a map control block (MCB). It's obsolete, but is exported to support existing driver binaries. Use [**FsRtlGetNextLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry.md) instead.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param RunIndex
 
@@ -71,3 +69,7 @@ Reserved.
 ### -param SectorCount
 
 Reserved.
+
+## -returns
+
+**FsRtlGetNextMcbEntry** returns TRUE if the requested mapping run exists in the MCB; otherwise it returns FALSE.
