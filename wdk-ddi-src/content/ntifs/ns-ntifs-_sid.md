@@ -68,7 +68,11 @@ Number of subauthorities in the SID.
 
 A [**SID_IDENTIFIER_AUTHORITY**](ns-ntifs-_sid_identifier_authority.md) structure that represents the top-level authority of the SID.
 
-### -field SubAuthority
+### -field SubAuthority[*]
+
+The subauthority of the SID.
+
+### -field SubAuthority[ANYSIZE_ARRAY]
 
 The subauthority of the SID.
 

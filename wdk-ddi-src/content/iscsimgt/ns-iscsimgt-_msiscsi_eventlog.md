@@ -66,10 +66,10 @@ This specifies the size of the Additional Data field.
 
 This provides additional information associated with this event.
 
-### -field LogToEventLog
+### -field LogToEventlog
 
 If this value it set to 1, the message will be logged to the system event log.
 
 ## -remarks
 
-We recommend that you implement this class.
+It is recommended that you implement this class.

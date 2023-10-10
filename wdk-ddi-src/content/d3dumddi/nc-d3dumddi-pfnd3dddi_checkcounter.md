@@ -52,42 +52,27 @@ api_name:
 
 [in] A handle to the display device (graphics context).
 
-### -param unnamedParam1
-
-*Counter* [in]
-
-A value of type [**D3DDDIQUERYTYPE**](ns-d3dumddi-_d3dddiarg_createquery.md) that identifies the counter identifier that info is retrieved for.
-
 ### -param unnamedParam2
 
-*pType* [out]
-
-A pointer to a variable that receives one of the following values from the **D3DDDI_COUNTER_TYPE** enumeration that identifies the data type that the counter outputs.
-
-|Value|Meaning|
-|:--|:--|
-|D3DDDI_COUNTER_TYPE_FLOAT32|Single-precision float|
-|D3DDDI_COUNTER_TYPE_UINT16|16-bit value|
-|D3DDDI_COUNTER_TYPE_UINT32|32-bit value|
-|D3DDDI_COUNTER_TYPE_UINT64|64-bit value|
+[in] **Counter** is a value of type [**D3DDDIQUERYTYPE**](ns-d3dumddi-_d3dddiarg_createquery.md) that identifies the counter identifier that info is retrieved for.
 
 ### -param unnamedParam3
 
-*pActiveCounters* [out]
-
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the **Counter** parameter identifies.
+[out] **pType** is a pointer to a variable that receives a [**D3DDDI_COUNTER_TYPE**](ne-d3dumddi-d3dddi_counter_type.md) enumeration value that identifies the data type that the counter outputs.
 
 ### -param unnamedParam4
 
-*pszName* [out, optional]
+*pActiveCounters* [out] **pActiveCounters** is a pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the **Counter** parameter identifies.
 
-An optional pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier.
+### -param unnamedParam5
+
+[out, optional] **pszName** is an optional pointer that the driver returns a NULL-terminated string to that contains the name of the counter identifier.
 
 Can be NULL, in which case the app doesn't need the name.
 
-### -param pNameLength [in, out, optional]
+### -param pNameLength
 
-An optional pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the **pszName** parameter specifies.
+[in, out, optional] An optional pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the **pszName** parameter specifies.
 
 Here are limitations on the values of the **pNameLength** and  **pszName** parameters:
 
@@ -95,17 +80,15 @@ Here are limitations on the values of the **pNameLength** and  **pszName** param
 * If **pszName** is NULL and **pNameLength** is not NULL, the input value of **pNameLength** is ignored, and the length of the string (including terminating NULL character) must be returned through the **pNameLength** parameter.
 * If both **pszName** and **pNameLength** are not NULL, the driver must check the input value of **pNameLength** to ensure that there's enough room in the allocated buffer, and then the length of the **pszName** string (including terminating NULL character) is passed out through the **pNameLength** parameter.
 
-### -param unnamedParam6
+### -param unnamedParam7
 
-*pszUnits* [out, optional]
-
-An optional pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures.
+[out, optional] **pszUnits** is an optional pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures.
 
 Can be NULL, in which case the app doesn't need the units info. See more info in the explanation of the **pUnitsLength** parameter.
 
-### -param pUnitsLength [in, out, optional]
+### -param pUnitsLength
 
- An optional pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the **pszUnits** parameter specifies.
+[in, out, optional] **pUnitsLength** is an optional pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the **pszUnits** parameter specifies.
 
 Here are limitations on the values of the **pUnitsLength** and  **pszUnits** parameters:
 
@@ -113,17 +96,15 @@ Here are limitations on the values of the **pUnitsLength** and  **pszUnits** par
 * If **pszUnits** is NULL and **pUnitsLength** is not NULL, the input value of **pUnitsLength** is ignored, and the length of the string (including terminating NULL character) must be returned through the **pUnitsLength** parameter.
 * If both **pszUnits** and **pUnitsLength** are not NULL, the driver must check the input value of **pUnitsLength** to ensure that there's enough room in the allocated buffer, and then the length of the **pszUnits** string (including terminating NULL character) is passed out through the **pUnitsLength** parameter.
 
-### -param unnamedParam8
+### -param unnamedParam9
 
-*pszDescription* [out, optional]
-
-An optional pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures.
+[out, optional] **pszDescription** is an optional pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures.
 
 Can be NULL, in which case the app doesn't need the description info. See more info in the explanation of the **pDescriptionLength** parameter.
 
 ### -param pDescriptionLength
 
-[in, out, optional] An optional pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the **pszDescription** parameter specifies.
+[in, out, optional] **pDescriptionLength** is an optional pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the **pszDescription** parameter specifies.
 
 Here are limitations on the values of the **pDescriptionLength** and  **pszDescription** parameters:
 

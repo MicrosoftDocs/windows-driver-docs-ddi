@@ -100,7 +100,7 @@ The following three return states are most important to understand:
 
 [out] A convenience field for reinterpreting the successfully retrieved data. It is most useful when a registry DWORD is being read.
 
-### -field OuputQword
+### -field OutputQword
 
 [out] A convenience field for reinterpreting the successfully retrieved data. It is most useful when a registry QWORD is being read.
 
