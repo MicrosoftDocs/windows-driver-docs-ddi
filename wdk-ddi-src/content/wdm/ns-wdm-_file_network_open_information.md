@@ -65,7 +65,7 @@ Specifies the time that the file was last accessed.
 
 ### -field LastWriteTime
 
-Specifies he time that the file was last written to.
+Specifies the time that the file was last written to.
 
 ### -field ChangeTime
 
