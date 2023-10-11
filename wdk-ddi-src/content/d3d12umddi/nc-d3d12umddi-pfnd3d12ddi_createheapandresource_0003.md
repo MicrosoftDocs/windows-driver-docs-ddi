@@ -61,7 +61,7 @@ A [**D3D12DDIARG_CREATEHEAP_0001**](ns-d3d12umddi-d3d12ddiarg_createheap_0001.md
 
 A **D3D12DDI_HHEAP** handle to a heap.
 
-### -param UnnamedParam4
+### -param unnamedParam4
 
 The **D3D12DDI_HRTRESOURCE** handle of the resource for the driver to use when it calls back into the runtime.
 

@@ -186,10 +186,6 @@ If **pfnCheckMultiplaneOverlaySupport** succeeds, it returns S_OK. Otherwise, it
 
 A pointer to the driver's [**pfnPresentMultiplaneOverlay (DXGI)**](nc-dxgiddi-pfnddxgiddi_present_multiplane_overlaycb.md) function. Supported starting with Windows 8.1.
 
-### -field pfnCheckMultiPlaneOverlaySupport
-
-Called by the DXGI runtime to check the details on hardware support for multiplane overlays.
-
 #### pSupport
 
 A pointer to a [**DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT**](ns-dxgiddi-_dxgi_ddi_arg_checkmultiplaneoverlaysupport.md) structure that describes how to display to the destination surface.

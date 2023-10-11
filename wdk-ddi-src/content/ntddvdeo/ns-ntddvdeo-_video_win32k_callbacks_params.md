@@ -1,6 +1,6 @@
 ---
 UID: NS:ntddvdeo._VIDEO_WIN32K_CALLBACKS_PARAMS
-title: _VIDEO_WIN32K_CALLBACKS_PARAMS (ntddvdeo.h)
+title: VIDEO_WIN32K_CALLBACKS_PARAMS (ntddvdeo.h)
 description: The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
 old-location: display\video_win32k_callbacks_params.htm
 tech.root: display
@@ -46,12 +46,11 @@ api_name:
  - VIDEO_WIN32K_CALLBACKS_PARAMS
 ---
 
-# _VIDEO_WIN32K_CALLBACKS_PARAMS structure
-
+# VIDEO_WIN32K_CALLBACKS_PARAMS structure
 
 ## -description
 
-The VIDEO_WIN32K_CALLBACKS_PARAMS structure and the VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE enumeration are reserved for system use.
+The **VIDEO_WIN32K_CALLBACKS_PARAMS** structure and the **VIDEO_WIN32K_CALLBACKS_PARAMS_TYPE** enumeration are reserved for system use.
 
 ## -struct-fields
 
@@ -73,7 +72,16 @@ Reserved for system use.
 
 ### -field LockUserSession
 
+Reserved for system use.
+
 ### -field IsPostDevice
+
+Reserved for system use.
 
 ### -field SurpriseRemoval
 
+Reserved for system use.
+
+### -field WaitForQueueReady
+
+Reserved for system use.
