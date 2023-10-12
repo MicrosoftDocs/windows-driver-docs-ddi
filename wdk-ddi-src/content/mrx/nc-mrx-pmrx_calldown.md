@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_CALLDOWN
 title: PMRX_CALLDOWN (mrx.h)
-description: This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
-old-location: ifsk\mrxclosesrvopen.htm
+description: Learn more about the PMRX_CALLDOWN callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_CALLDOWN callback function"]
 ms.keywords: MRxCleanupFobx, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown, MyCalldown routine [Installable File System Drivers], PMRX_CALLDOWN, ifsk.mrxclosesrvopen, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
 req.header: mrx.h
@@ -42,7 +41,6 @@ api_name:
 
 # PMRX_CALLDOWN callback function
 
-
 ## -description
 
 This callback is called by RDBSS to request that the network mini-redirector perform an action based in the supplied IRP.
@@ -51,1034 +49,654 @@ This callback is called by RDBSS to request that the network mini-redirector per
 
 ### -param RxContext [in, out]
 
-
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 ## -returns
 
-            This callback returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+This callback returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-A request was made to stop or start the network mini-redirector, but the caller lacked the proper security for this operation. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_OVERFLOW</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer to receive the extended attribute information was too small. 
-
-This return value should be considered success and as much valid data as possible should be returned in the <b>Info.Buffer</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer is too small to receive the requested data. 
-
-If this value is returned, the <b>InformationToReturn</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter should be set to the minimum size of the expected buffer for the call to succeed.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_CONNECTION_DISCONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The connection was disconnected. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_EA_CORRUPT_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-Invalid extended attribute information was received from the remote server. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_EA_TOO_LARGE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The extended attribute information that is passed is larger than the size that is supported by the remote share. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FILE_CLOSED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The FCB structure was acquired, but the associated SRV_OPEN structure has been closed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-There were insufficient resources to complete the operation. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INTERNAL_ERROR</b></dt>
-</dl>
-</td>
-<td width="60%">
-An internal error occurred in the network mini-redirector. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_BUFFER_SIZE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The requested buffer size was too large. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid device request was sent to the network mini-redirector.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_NETWORK_RESPONSE</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid response was received from the remote server. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was specified in <i>RxContext</i>. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_LINK_FAILED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The attempt to reconnect to a remote server to complete the request failed. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_MORE_PROCESSING_REQUIRED</b></dt>
-</dl>
-</td>
-<td width="60%">
-A network mini-redirector returns this value to disable collapsing of this open request. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NETWORK_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-Network access was denied. This error can be returned if the network mini-redirector was asked to open a new file on a read-only share. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NETWORK_NAME_DELETED</b></dt>
-</dl>
-</td>
-<td width="60%">
-A network name was deleted. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NONEXISTENT_EA_ENTRY</b></dt>
-</dl>
-</td>
-<td width="60%">
-There are no extended attributes on the file object and the user supplied an extended attribute index. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-A feature that is requested, such as remote boot or a remote page file, is not implemented. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-A feature that is requested, such as extended attributes, is not supported. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_NAME_COLLISION</b></dt>
-</dl>
-</td>
-<td width="60%">
-The network mini-redirector was asked to create a file that already exists. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_NAME_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The object name was not found. This error can be returned if the network mini-redirector was asked to open a file that doesn't exist. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_OBJECT_PATH_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The object path was not found. This error can be returned if an NTFS stream object was requested and the remote file system does not support streams. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ONLY_IF_CONNECTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The SRV_OPEN structure is not connected. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_REDIRECTOR_HAS_OPEN_HANDLES</b></dt>
-</dl>
-</td>
-<td width="60%">
-This was a request to stop the network mini-redirector, but the redirector has open handles that prevent it from stopping at this time.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_REDIRECTOR_NOT_STARTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This was a request to stop the network mini-redirector, but the redirector was not started.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_REDIRECTOR_STARTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This was a request to start the network mini-redirector, but the redirector was already started. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_REPARSE</b></dt>
-</dl>
-</td>
-<td width="60%">
-A reparse is required to handle a symbolic link. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_REQUEST_ABORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The network request was aborted. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_RETRY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation should be retried. This error can be returned if the network mini-redirector encountered a sharing violation or an access denied error. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SHARING_VIOLATION</b></dt>
-</dl>
-</td>
-<td width="60%">
-A sharing violation occurred. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_UNSUCCESSFUL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The call was unsuccessful. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ------------- | ------------- |
+| STATUS_ACCESS_DENIED | A request was made to stop or start the network mini-redirector, but the caller lacked the proper security for this operation.  |
+| STATUS_BUFFER_OVERFLOW | The buffer to receive the extended attribute information was too small. This return value should be considered success and as much valid data as possible should be returned in the **Info.Buffer** member of the RX_CONTEXT structure pointed to by the **RxContext** parameter. |
+| STATUS_BUFFER_TOO_SMALL | The buffer is too small to receive the requested data. If this value is returned, the **InformationToReturn** member of the RX_CONTEXT structure pointed to by the **RxContext** parameter should be set to the minimum size of the expected buffer for the call to succeed. |
+| STATUS_CONNECTION_DISCONNECTED | The connection was disconnected.  |
+| STATUS_EA_CORRUPT_ERROR | Invalid extended attribute information was received from the remote server.  |
+| STATUS_EA_TOO_LARGE | The extended attribute information that is passed is larger than the size that is supported by the remote share.  |
+| STATUS_FILE_CLOSED | The FCB structure was acquired, but the associated SRV_OPEN structure has been closed.  |
+| STATUS_INSUFFICIENT_RESOURCES | There were insufficient resources to complete the operation.  |
+| STATUS_INTERNAL_ERROR | An internal error occurred in the network mini-redirector.  |
+| STATUS_INVALID_BUFFER_SIZE | The requested buffer size was too large.  |
+| STATUS_INVALID_DEVICE_REQUEST | An invalid device request was sent to the network mini-redirector. |
+| STATUS_INVALID_NETWORK_RESPONSE | An invalid response was received from the remote server.  |
+| STATUS_INVALID_PARAMETER | An invalid parameter was specified in **RxContext**.  |
+| STATUS_LINK_FAILED | The attempt to reconnect to a remote server to complete the request failed.  |
+| STATUS_MORE_PROCESSING_REQUIRED | A network mini-redirector returns this value to disable collapsing of this open request.  |
+| STATUS_NETWORK_ACCESS_DENIED | Network access was denied. This error can be returned if the network mini-redirector was asked to open a new file on a read-only share.  |
+| STATUS_NETWORK_NAME_DELETED | A network name was deleted.  |
+| STATUS_NONEXISTENT_EA_ENTRY | There are no extended attributes on the file object and the user supplied an extended attribute index.  |
+| STATUS_NOT_IMPLEMENTED | A feature that is requested, such as remote boot or a remote page file, is not implemented.  |
+| STATUS_NOT_SUPPORTED | A feature that is requested, such as extended attributes, is not supported.  |
+| STATUS_OBJECT_NAME_COLLISION | The network mini-redirector was asked to create a file that already exists.  |
+| STATUS_OBJECT_NAME_NOT_FOUND | The object name was not found. This error can be returned if the network mini-redirector was asked to open a file that doesn't exist.  |
+| STATUS_OBJECT_PATH_NOT_FOUND | The object path was not found. This error can be returned if an NTFS stream object was requested and the remote file system does not support streams.  |
+| STATUS_ONLY_IF_CONNECTED | The SRV_OPEN structure is not connected.  |
+| STATUS_REDIRECTOR_HAS_OPEN_HANDLES | This was a request to stop the network mini-redirector, but the redirector has open handles that prevent it from stopping at this time. |
+| STATUS_REDIRECTOR_NOT_STARTED | This was a request to stop the network mini-redirector, but the redirector was not started. |
+| STATUS_REDIRECTOR_STARTED | This was a request to start the network mini-redirector, but the redirector was already started.  |
+| STATUS_REPARSE | A reparse is required to handle a symbolic link.  |
+| STATUS_REQUEST_ABORTED | The network request was aborted. |
+| STATUS_RETRY | The operation should be retried. This error can be returned if the network mini-redirector encountered a sharing violation or an access denied error.  |
+| STATUS_SHARING_VIOLATION | A sharing violation occurred.  |
+| STATUS_UNSUCCESSFUL | The call was unsuccessful. |
 
 ## -remarks
 
-The<i> MRxCloseSrvOpen</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector close an SRV_OPEN structure.
+The **MRxCloseSrvOpen** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that the network mini-redirector close an SRV_OPEN structure.
 
-<i>MRxCloseSrvOpen</i>
-     is called by RDBSS as part of cleanup and close operations on a file object. It is assumed that the network mini-redirector will close a file across the network.
+**MRxCloseSrvOpen** is called by RDBSS as part of cleanup and close operations on a file object. It is assumed that the network mini-redirector will close a file across the network.
 
-Before calling <i>MRxCloseSrvOpen</i>, RDBSS modifies the following members in the RX_CONTEXT structure, pointed to by the <i>RxContext</i> parameter:
+Before calling **MRxCloseSrvOpen**, RDBSS modifies the following members in the RX_CONTEXT structure, pointed to by the **RxContext** parameter:
 
-<b>MajorFunction</b> is set to IRP_MJ_CLOSE
+**MajorFunction** is set to IRP_MJ_CLOSE
 
-<b>pFcb</b> is set to the FCB structure for which close processing is to be initiated
+**pFcb** is set to the FCB structure for which close processing is to be initiated
 
-<b>pFobx</b> is set to the FOBX structure for which close processing is to be initiated
+**pFobx** is set to the FOBX structure for which close processing is to be initiated
 
 RDBSS and a network mini-redirector do not necessarily close the SRV_OPEN structures when the user closes a file. To improve performance in some cases, a network mini-redirector may try to reuse the SRV_OPEN and the cached data without any contact with the server. Some Microsoft Windows applications exhibit behavior that opens, reads, and closes a file and then quickly reopens the same file. In these cases, reusing the SRV_OPEN structures can improve performance.
 
-RDBSS calls<i> MRxCloseSrvOpen </i>for delayed close processing while scavenging an FOBX structure. This happens when the close processing was delayed in anticipation of an open request and no open requests were forthcoming.
+RDBSS calls **MRxCloseSrvOpen** for delayed close processing while scavenging an FOBX structure. This happens when the close processing was delayed in anticipation of an open request and no open requests were forthcoming.
 
-<i>MRxCloseSrvOpen</i> cannot return a value of STATUS_RETRY indicating that the call should be retried. If a retry loop is necessary, it must be handled internally in the <i>MRxCloseSrvOpen</i> routine by the network mini-redirector.
+**MRxCloseSrvOpen** cannot return a value of STATUS_RETRY indicating that the call should be retried. If a retry loop is necessary, it must be handled internally in the **MRxCloseSrvOpen** routine by the network mini-redirector.
 
-The<a href="/windows-hardware/drivers/ifs/mrxcollapseopen"> MRxCollapseOpen</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector collapse an open file system request onto an existing SRV_OPEN structure.
+The [**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that the network mini-redirector collapse an open file system request onto an existing SRV_OPEN structure.
 
+[**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen) is called by RDBSS to collapse an SRV_OPEN structure locally. The network mini-redirector is consulted to determine if a collapse is possible so there is no reason to call the network mini-redirector twice. If the network mini-redirector decides to collapse the SRV_OPEN structure, then it will do so and pass back a returnable status. A return value of STATUS_SUCCESS is a terminating return value. A different return value, for example, STATUS_MORE_PROCESSING_REQUIRED, is considered a non-terminating return value.
 
-<a href="/windows-hardware/drivers/ifs/mrxcollapseopen">MRxCollapseOpen</a> is called by RDBSS to collapse an SRV_OPEN structure locally. The network mini-redirector is consulted to determine if a collapse is possible so there is no reason to call the network mini-redirector twice. If the network mini-redirector decides to collapse the SRV_OPEN structure, then it will do so and pass back a returnable status. A return value of STATUS_SUCCESS is a terminating return value. A different return value, for example, STATUS_MORE_PROCESSING_REQUIRED, is considered a non-terminating return value. 
+Before calling [**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxcollapseopen"> MRxCollapseOpen</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+**pRelevantSrvOpen** is set to the SRV_OPEN structure to collapse.
 
-<b>pRelevantSrvOpen</b> is set to the SRV_OPEN structure to collapse.
+**Create.pSrvCall** is set to the SRV_CALL structure associated with the SRV_OPEN.
 
-<b>Create.pSrvCall</b> is set to the SRV_CALL structure associated with the SRV_OPEN.
+If the network mini-redirector decides to collapse the SRV_OPEN structure, then the **SrvOpen** member of the RX_CONTEXT structure must be set to the collapsed SRV_OPEN structure.
 
-If the network mini-redirector decides to collapse the SRV_OPEN structure, then the <b>SrvOpen</b> member of the RX_CONTEXT structure must be set to the collapsed SRV_OPEN structure.
+The[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that the network mini-redirector create a file system object.
 
-The<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector create a file system object. 
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) is called by RDBSS to request that the network mini-redirector open a file system object across the network. This call is issued by RDBSS in response to receiving an [**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create) request.
 
+Before calling [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a> is called by RDBSS to request that the network mini-redirector open a file system object across the network. This call is issued by RDBSS in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-create">IRP_MJ_CREATE</a> request.
+**pRelevantSrvOpen** is set to the SRV_OPEN structure.
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+**Create.pSrvCall** is set to the SRV_CALL structure.
 
-<b>pRelevantSrvOpen</b> is set to the SRV_OPEN structure.
+**Create.NtCreateParameters** is set to the requested NT_CREATE_PARAMETERS.
 
-<b>Create.pSrvCall</b> is set to the SRV_CALL structure.
+In the context of a network mini-redirector, a file object refers to the associated file control block (FCB) and file object extension (FOBX) structures. There is a one to one correspondence between file objects and FOBXs. Many file objects will refer to the same FCB, which represents a single file on a remote server. A client can have several different open requests (NtCreateFile requests) on the same FCB and each of these will create a new file object. RDBSS and network mini-redirectors can choose to send fewer [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) requests than the NtCreateFile requests received, in effect sharing an SRV_OPEN structure among several FOBXs.
 
-<b>Create.NtCreateParameters</b> is set to the requested NT_CREATE_PARAMETERS.
+If the [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) request was for a file overwrite and **MRxCreate** returned STATUS_SUCCESS, then RDBSS will acquire the paging I/O resource and truncate the file. If the file is being cached by cache manager, RDBSS will update the sizes the cache manager has with the ones just received from the server.
 
-In the context of a network mini-redirector, a file object refers to the associated file control block (FCB) and file object extension (FOBX) structures. There is a one to one correspondence between file objects and FOBXs. Many file objects will refer to the same FCB, which represents a single file on a remote server. A client can have several different open requests (NtCreateFile requests) on the same FCB and each of these will create a new file object. RDBSS and network mini-redirectors can choose to send fewer <a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a> requests than the NtCreateFile requests received, in effect sharing an SRV_OPEN structure among several FOBXs.
+Before returning,[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate) must set the **CurrentIrp->IoStatus.Information** member of the RX_CONTEXT structure pointed to by the **RxContext** parameter.
 
-If the<a href="/windows-hardware/drivers/ifs/mrxcreate"> MRxCreate</a> request was for a file overwrite and <i>MRxCreate</i> returned STATUS_SUCCESS, then RDBSS will acquire the paging I/O resource and truncate the file. If the file is being cached by cache manager, RDBSS will update the sizes the cache manager has with the ones just received from the server. 
+The [**MRxDevFcbXXXControlFile**](/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to pass a device FCB control request (an IOCTL or FSCTL request) to the network mini-redirector.
 
-Before returning,<a href="/windows-hardware/drivers/ifs/mrxcreate"> MRxCreate</a> must set the <b>CurrentIrp->IoStatus.Information</b> member of the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter.
+[**MRxDevFcbXXXControlFile**](/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile) handles IOCTL and FSCTL requests related to the device FCB that are sent to the network mini-redirector.
 
-The<a href="/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile"> MRxDevFcbXXXControlFile</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to pass a device FCB control request (an IOCTL or FSCTL request) to the network mini-redirector.
+Before calling [**MRxDevFcbXXXControlFile**](/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile), RDBSS modifies the following member in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
+**MajorFunction** is set to the major function of the IRP
 
-<a href="/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile">MRxDevFcbXXXControlFile</a> handles IOCTL and FSCTL requests related to the device FCB that are sent to the network mini-redirector. 
+If this was an IRP_MJ_FILE_SYSTEM_CONTROL request, then RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile">MRxDevFcbXXXControlFile</a>, RDBSS modifies the following member in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+**LowIoContext.ParamsFor.FsCtl.MinorFunction** is set to the minor function code for the FSCTL code
 
-<b>MajorFunction</b> is set to the major function of the IRP
+**LowIoContext.ParamsFor.FsCtl.FsControlCode** is set to the FSCTL code for the IRP
 
-If this was an IRP_MJ_FILE_SYSTEM_CONTROL request, then RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+If this was an IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL request, then RDBSS modifies the following member in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-<b>LowIoContext.ParamsFor.FsCtl.MinorFunction</b> is set to the minor function code for the FSCTL code
+**LowIoContext.ParamsFor.FsCtl.FsControlCode** is set to the control code for the IRP.
 
-<b>LowIoContext.ParamsFor.FsCtl.FsControlCode</b> is set to the FSCTL code for the IRP
+If [**MRxDevFcbXXXControlFile**](/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile) returns STATUS_SUCCESS, then the routine was successful. Any other return value indicates that an error occurred.
 
-If this was an IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL request, then RDBSS modifies the following member in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The [**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector write the contents of a file system object to storage. RDBSS issues this call in response to receiving an [**IRP_MJ_FLUSH_BUFFERS**](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request.
 
-<b>LowIoContext.ParamsFor.FsCtl.FsControlCode</b> is set to the control code for the IRP.
+[**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush) handles network requests for file flush.
 
-If <a href="/windows-hardware/drivers/ifs/mrxdevfcbxxxcontrolfile">MRxDevFcbXXXControlFile</a> returns STATUS_SUCCESS, then the routine was successful. Any other return value indicates that an error occurred.
+The [**MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector open an exclusive lock on a file object.
 
-The<a href="/windows-hardware/drivers/ifs/mrxflush"> MRxFlush</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector write the contents of a file system object to storage. RDBSS issues this call in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-flush-buffers">IRP_MJ_FLUSH_BUFFERS</a> request.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-) in response to receiving an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) request with a minor code of IRP_MN_LOCK if **IrpSp->Flags** has the SL_EXCLUSIVE_LOCK bit set.
 
+Before calling [**MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-<a href="/windows-hardware/drivers/ifs/mrxflush">MRxFlush</a> handles network requests for file flush.
+The **LowIoContext.Operation** member is set to LOWIO_OP_EXCLUSIVELOCK.
 
-The <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector open an exclusive lock on a file object.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_LOCK if <b>IrpSp->Flags</b> has the SL_EXCLUSIVE_LOCK bit set.
+The **LowIoContext.ParamsFor.Locks.ByteOffset** member is set to the value of **IrpSp->Parameters.LockControl.ByteOffset.QuadPart**.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-"> MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The **LowIoContext.ParamsFor.Locks.Key** member is set to the value of **IrpSp->Parameters.LockControl.Key**.
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_EXCLUSIVELOCK.
+The **LowIoContext.ParamsFor.Locks.Flags** member is set to the value of **IrpSp->Flags**.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ParamsFor.Locks.Length** member is set to the value of **IrpSp->Parameters.LockControl.Length.QuadPart**.
 
-The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp->Parameters.LockControl.ByteOffset.QuadPart</b>.
+The **LowIoContext.Operation** member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this **LowIoContext.Operation** member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and that routine could use the **LowIoContext.Operation** member to differentiate between the lock and unlock operation that is requested.
 
-The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Key</b>.
+If the [**MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-) routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md). While the **MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]** routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp->Flags</b>.
+The **LowIoContext.ResourceThreadId** member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released.
 
-The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Length.QuadPart</b>.
+The [**MRxLowIOSubmit[LOWIO_OP_FSCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector issue file system control request on remote file.
 
-The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and that routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_FSCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-) in response to receiving an [**IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-file-system-control) request.
 
-If the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-exclusivelock-">MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+Before calling [**MRxLowIOSubmit[LOWIO_OP_FSCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
+The **LowIoContext.Operation** member is set to LOWIO_OP_FSCTL.
 
-The<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-"> MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector issue file system control request on remote file.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> in response to receiving an <a href="/windows-hardware/drivers/kernel/irp-mj-file-system-control">IRP_MJ_FILE_SYSTEM_CONTROL</a> request.
+The **LowIoContext.ParamsFor.FsCtl.FsControlCode** member is set to the FSCTL major control code.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-"> MRxLowIOSubmit[LOWIO_OP_FSCTL]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The **LowIoContext.ParamsFor.FsCtl.MinorFunction** member is set to the FSCTL minor control code.
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_FSCTL.
+The **LowIoContext.ParamsFor.FsCtl.pInputBuffer** member is set to the input buffer.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ParamsFor.FsCtl.InputBufferLength** member is set to the input buffer length.
 
-The <b>LowIoContext.ParamsFor.FsCtl.FsControlCode</b> member is set to the FSCTL major control code.
+The **LowIoContext.ParamsFor.FsCtl.pOutputBuffer** member is set to the output buffer.
 
-The <b>LowIoContext.ParamsFor.FsCtl.MinorFunction</b> member is set to the FSCTL minor control code.
-
-The <b>LowIoContext.ParamsFor.FsCtl.pInputBuffer</b> member is set to the input buffer.
-
-The <b>LowIoContext.ParamsFor.FsCtl.InputBufferLength</b> member is set to the input buffer length.
-
-The <b>LowIoContext.ParamsFor.FsCtl.pOutputBuffer</b> member is set to the output buffer.
-
-The <b>LowIoContext.ParamsFor.FsCtl.OutputBufferLength</b> member is set to the output buffer length.
+The **LowIoContext.ParamsFor.FsCtl.OutputBufferLength** member is set to the output buffer length.
 
 The file system control code (FSCTL) requests handled by a network mini-redirector can be classified into one of several categories:
 
-<ul>
-<li>
-FSCTLs that are implemented and used by RDBSS and the network mini redirector
+* FSCTLs that are implemented and used by RDBSS and the network mini redirector
 
-</li>
-<li>
-FSCTLs that are implemented and used only by the network mini-redirector
+* FSCTLs that are implemented and used only by the network mini-redirector
 
-</li>
-<li>
-FSCTLs which should never be seen by the network mini-redirector. These FSCTLs are solely intended as a debugging aid.
+* FSCTLs which should never be seen by the network mini-redirector. These FSCTLs are solely intended as a debugging aid.
 
-</li>
-</ul>
-While the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released. 
+While the [**MRxLowIOSubmit[LOWIO_OP_FSCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-fsctl-) routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The **LowIoContext.ResourceThreadId** member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released.
 
-The<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-"> MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue an I/O system control request to the network mini-redirector.
+The [**MRxLowIOSubmit[LOWIO_OP_IOCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to issue an I/O system control request to the network mini-redirector.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a> or <a href="/windows-hardware/drivers/kernel/irp-mj-internal-device-control">IRP_MJ_INTERNAL_DEVICE_CONTROL</a> requests.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_IOCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-) in response to receiving an [**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control) or [**IRP_MJ_INTERNAL_DEVICE_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-internal-device-control) requests.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-"> MRxLowIOSubmit[LOWIO_OP_IOCTL]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxLowIOSubmit[LOWIO_OP_IOCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_IOCTL.
+The **LowIoContext.Operation** member is set to LOWIO_OP_IOCTL.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.IoCtl.IoControlCode</b> member is set to the IOCTL control code.
+The **LowIoContext.ParamsFor.IoCtl.IoControlCode** member is set to the IOCTL control code.
 
-The <b>LowIoContext.ParamsFor.IoCtl.pInputBuffer</b> member is set to the input buffer.
+The **LowIoContext.ParamsFor.IoCtl.pInputBuffer** member is set to the input buffer.
 
-The <b>LowIoContext.ParamsFor.IoCtl.InputBufferLength</b> member is set to the input buffer length.
+The **LowIoContext.ParamsFor.IoCtl.InputBufferLength** member is set to the input buffer length.
 
-The <b>LowIoContext.ParamsFor.IoCtl.pOutputBuffer</b> member is set to the output buffer.
+The **LowIoContext.ParamsFor.IoCtl.pOutputBuffer** member is set to the output buffer.
 
-The <b>LowIoContext.ParamsFor.IoCtl.OutputBufferLength</b> member is set to the output buffer length.
+The **LowIoContext.ParamsFor.IoCtl.OutputBufferLength** member is set to the output buffer length.
 
-While the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-">MRxLowIOSubmit[LOWIO_OP_IOCTL]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released. 
+While the [**MRxLowIOSubmit[LOWIO_OP_IOCTL]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-ioctl-) routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The **LowIoContext.ResourceThreadId** member of RX_CONTEXT can be used to release the input resource on behalf of another thread. When an asynchronous routine completes, the input resource that was acquired from the initial thread can be released.
 
-The <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue a request to the network mini-redirector for a directory change notification operation. 
+The [**MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to issue a request to the network mini-redirector for a directory change notification operation.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-directory-control">IRP_MJ_DIRECTORY_CONTROL</a> request.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-) in response to receiving an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-"> MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_NOTIFY_CHANGE_DIRECTORY.
+The **LowIoContext.Operation** member is set to LOWIO_OP_NOTIFY_CHANGE_DIRECTORY.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.WatchTree</b> member is set to <b>TRUE</b> if the <b>IrpSp->Flags</b> has the SL_WATCH_TREE bit set. 
+The **LowIoContext.ParamsFor.NotifyChangeDirectory.WatchTree** member is set to **TRUE** if the **IrpSp->Flags** has the SL_WATCH_TREE bit set.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.CompletionFilter</b> member is set to the value of <b>IrpSp->Parameters.NotifyDirectory.CompletionFilter</b>.
+The **LowIoContext.ParamsFor.NotifyChangeDirectory.CompletionFilter** member is set to the value of **IrpSp->Parameters.NotifyDirectory.CompletionFilter**.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.NotificationBufferLength</b> member is set to the value of <b>IrpSp->Parameters.NotifyDirectory.Length</b>.
+The **LowIoContext.ParamsFor.NotifyChangeDirectory.NotificationBufferLength** member is set to the value of **IrpSp->Parameters.NotifyDirectory.Length**.
 
-The <b>LowIoContext.ParamsFor.NotifyChangeDirectory.pNotificationBuffer</b> member is set to the value returned by calling <b>MmGetSystemAddressForMdlSafe</b> passing in the <b>Irp->MdlAddress</b> and NormalPagePriority. The user buffer also is probed and locked for write access. 
+The **LowIoContext.ParamsFor.NotifyChangeDirectory.pNotificationBuffer** member is set to the value returned by calling **MmGetSystemAddressForMdlSafe** passing in the **Irp->MdlAddress** and NormalPagePriority. The user buffer also is probed and locked for write access.
 
 A directory change notification operation is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server requesting change notification. The response is obtained when the desired change is affected on the server. This is an example of an operation for which the network mini-redirector may need to register a unique context value for handling cancellations initiated locally.
 
-While the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. 
+While the [**MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-notify-change-directory-) routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The **LowIoContext.ResourceThreadId** member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md).
 
-The <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-">MRxLowIOSubmit[LOWIO_OP_READ]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue a read request to the network mini-redirector. 
+The [**MRxLowIOSubmit[LOWIO_OP_READ]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to issue a read request to the network mini-redirector.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-">MRxLowIOSubmit[LOWIO_OP_READ]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-read">IRP_MJ_READ</a> request.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_READ]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-) in response to receiving an [**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read) request.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-"> MRxLowIOSubmit[LOWIO_OP_READ]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxLowIOSubmit[LOWIO_OP_READ]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_READ.
+The **LowIoContext.Operation** member is set to LOWIO_OP_READ.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp->Parameters.Read.Key</b>.
+The **LowIoContext.ParamsFor.ReadWrite.Key** member is set to the value of **IrpSp->Parameters.Read.Key**.
 
-The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp->Flags</b> has the IRP_PAGING_IO bit on.
+The **ParamsFor.ReadWrite.Flags** member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if **Irp->Flags** has the IRP_PAGING_IO bit on.
 
-The <b>ParamsFor.ReadWrite.Buffer</b> member is set to the user buffer locked for IoReadAccess.
+The **ParamsFor.ReadWrite.Buffer** member is set to the user buffer locked for IoReadAccess.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value of IrpSp->Parameters.Read.Length.
+The **LowIoContext.ParamsFor.ReadWrite.ByteCount** member is set to the value of IrpSp->Parameters.Read.Length.
 
 A read request is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server. The response is obtained when the read request is completed on the server. This is an example of an operation for which the network mini-redirector may need to register a context for handling cancellations initiated locally.
 
-While the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-">MRxLowIOSubmit[LOWIO_OP_READ]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. 
+While the [**MRxLowIOSubmit[LOWIO_OP_READ]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-read-) routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The **LowIoContext.ResourceThreadId** member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md).
 
-The<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-"> MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network redirector open a shared lock on a file object. 
+The [**MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network redirector open a shared lock on a file object.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_LOCK if <b>IrpSp->Flags</b> does not have the SL_EXCLUSIVE_LOCK bit set.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-) in response to receiving an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) request with a minor code of IRP_MN_LOCK if **IrpSp->Flags** does not have the SL_EXCLUSIVE_LOCK bit set.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-"> MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_SHAREDLOCK.
+The **LowIoContext.Operation** member is set to LOWIO_OP_SHAREDLOCK.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp->Parameters.LockControl.ByteOffset.QuadPart</b>.
+The **LowIoContext.ParamsFor.Locks.ByteOffset** member is set to the value of **IrpSp->Parameters.LockControl.ByteOffset.QuadPart**.
 
-The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Key</b>.
+The **LowIoContext.ParamsFor.Locks.Key** member is set to the value of **IrpSp->Parameters.LockControl.Key**.
 
-The <b>LowIoContext.ParamsFor.Locks.Flags</b> member is set to the value of <b>IrpSp->Flags</b>.
+The **LowIoContext.ParamsFor.Locks.Flags** member is set to the value of **IrpSp->Flags**.
 
-The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Length.QuadPart</b>.
+The **LowIoContext.ParamsFor.Locks.Length** member is set to the value of **IrpSp->Parameters.LockControl.Length.QuadPart**.
 
-The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
+The **LowIoContext.Operation** member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the **LowIoContext.Operation** member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the **LowIoContext.Operation** member to differentiate between the lock and unlock operation that is requested.
 
-If the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-">MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+If the [**MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-sharedlock-) routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md). While the **MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK]** routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ResourceThreadId</b> member of the RX_CONTEXT structure can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
+The **LowIoContext.ResourceThreadId** member of the RX_CONTEXT structure can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released.
 
-The<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-"> MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector remove a single lock on a file object.
+The [**MRxLowIOSubmit[LOWIO_OP_UNLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector remove a single lock on a file object.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-">MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_UNLOCK_SINGLE.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_UNLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-) in response to receiving an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) request with a minor code of IRP_MN_UNLOCK_SINGLE.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-"> MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxLowIOSubmit[LOWIO_OP_UNLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_UNLOCK.
+The **LowIoContext.Operation** member is set to LOWIO_OP_UNLOCK.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.ByteOffset</b> member is set to the value of <b>IrpSp->Parameters.LockControl.ByteOffset.QuadPart</b>.
+The **LowIoContext.ParamsFor.Locks.ByteOffset** member is set to the value of **IrpSp->Parameters.LockControl.ByteOffset.QuadPart**.
 
-The <b>LowIoContext.ParamsFor.Locks.Key</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Key</b>.
+The **LowIoContext.ParamsFor.Locks.Key** member is set to the value of **IrpSp->Parameters.LockControl.Key**.
 
-The <b>LowIoContext.ParamsFor.Locks.Length</b> member is set to the value of <b>IrpSp->Parameters.LockControl.Length.QuadPart</b>.
+The **LowIoContext.ParamsFor.Locks.Length** member is set to the value of **IrpSp->Parameters.LockControl.Length.QuadPart**.
 
-The <b>LowIoContext.Operation</b> member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
+The **LowIoContext.Operation** member of the RX_CONTEXT structure specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because this **LowIoContext.Operation** member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the **LowIoContext.Operation** member to differentiate between the lock and unlock operation that is requested.
 
-If the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-">MRxLowIOSubmit[LOWIO_OP_UNLOCK]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+If the [**MRxLowIOSubmit[LOWIO_OP_UNLOCK]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-) routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md). While the **MRxLowIOSubmit[LOWIO_OP_UNLOCK]** routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
+The **LowIoContext.ResourceThreadId** member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released.
 
-The<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-"> MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector remove multiple locks held on a file object.
+The [**MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that the network mini-redirector remove multiple locks held on a file object.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-">MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-lock-control">IRP_MJ_LOCK_CONTROL</a> request with a minor code of IRP_MN_UNLOCK_ALL or IRP_MN_UNLOCK_ALL_BY_KEY.
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-) in response to receiving an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) request with a minor code of IRP_MN_UNLOCK_ALL or IRP_MN_UNLOCK_ALL_BY_KEY.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-"> MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_UNLOCK_MULTIPLE.
+The **LowIoContext.Operation** member is set to LOWIO_OP_UNLOCK_MULTIPLE.
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>LowIoContext.ParamsFor.Locks.LockList</b> member is set to a list of LOWIO_LOCK_LIST elements. Each element specifies a range to be unlocked.
+The **LowIoContext.ParamsFor.Locks.LockList** member is set to a list of LOWIO_LOCK_LIST elements. Each element specifies a range to be unlocked.
 
-The byte ranges to be unlocked are specified in the <b>LowIoContext.ParamsFor.Locks.LockList</b> member of the RX_CONTEXT structure. The LOWIO_LOCK_LIST structure is as follows: 
+The byte ranges to be unlocked are specified in the **LowIoContext.ParamsFor.Locks.LockList** member of the RX_CONTEXT structure. The LOWIO_LOCK_LIST structure is as follows:
 
-<pre class="syntax"><code>typedef struct _LOWIO_LOCK_LIST {
+```cpp
+typedef struct _LOWIO_LOCK_LIST {
   struct  _LOWIO_LOCK_LIST  *Next;
   ULONG  LockNumber;
   RXVBO  ByteOffset;
   LONGLONG  Length;
   ULONG  Key;
   BOOLEAN  ExclusiveLock;
-} LOWIO_LOCK_LIST, *PLOWIO_LOCK_LIST;</code></pre>
-The <b>LowIoContext.Operation</b> member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the <b>LowIoContext.Operation</b> member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the <b>LowIoContext.Operation</b> member to differentiate between the lock and unlock operation that is requested.
+} LOWIO_LOCK_LIST, *PLOWIO_LOCK_LIST;
+```
 
-If the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-">MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</a> routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. While the <i>MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]</i> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. 
+The **LowIoContext.Operation** member of RX_CONTEXT specifies the low I/O operation to perform. It is possible for several of the low I/O routines to point to the same routine in a network mini-redirector because the **LowIoContext.Operation** member can be used to differentiate the low I/O operation that is requested. For example, all the I/O calls related to file locks could call the same low I/O routine in the network mini-redirector and this routine could use the **LowIoContext.Operation** member to differentiate between the lock and unlock operation that is requested.
 
-The <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. 
+If the [**MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-unlock-multiple-) routine can take a long time to complete, the network mini-redirector driver should release the FCB structure before initiating the network communication. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md). While the **MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE]** routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS.
 
-The<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-"> MRxLowIOSubmit[LOWIO_OP_WRITE]</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to issue a write request to the network mini-redirector.
+The **LowIoContext.ResourceThreadId** member of RX_CONTEXT can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released.
 
-RDBSS calls <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-">MRxLowIOSubmit[LOWIO_OP_WRITE]</a> in response to receiving an <a href="/windows-hardware/drivers/kernel/irp-mj-write">IRP_MJ_WRITE</a> request.
+The [**MRxLowIOSubmit[LOWIO_OP_WRITE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to issue a write request to the network mini-redirector.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-"> MRxLowIOSubmit[LOWIO_OP_WRITE]</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+RDBSS calls [**MRxLowIOSubmit[LOWIO_OP_WRITE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-) in response to receiving an [**IRP_MJ_WRITE**](/windows-hardware/drivers/kernel/irp-mj-write) request.
 
-The <b>LowIoContext.Operation</b> member is set to LOWIO_OP_WRITE.
+Before calling [**MRxLowIOSubmit[LOWIO_OP_WRITE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>LowIoContext.ResourceThreadId</b> member is set to the thread of the process that initiated the operation in RDBSS.
+The **LowIoContext.Operation** member is set to LOWIO_OP_WRITE.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.Key</b> member is set to the value of <b>IrpSp->Parameters.Read.Key</b>.
+The **LowIoContext.ResourceThreadId** member is set to the thread of the process that initiated the operation in RDBSS.
 
-The <b>ParamsFor.ReadWrite.Flags</b> member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if <b>Irp->Flags</b> has the IRP_PAGING_IO bit on.
+The **LowIoContext.ParamsFor.ReadWrite.Key** member is set to the value of **IrpSp->Parameters.Read.Key**.
 
-The <b>ParamsFor.ReadWrite.Buffer</b> member is set to the user buffer locked for IoWriteAccess.
+The **ParamsFor.ReadWrite.Flags** member has the LOWIO_READWRITEFLAG_PAGING_IO bit is set on if **Irp->Flags** has the IRP_PAGING_IO bit on.
 
-The <b>LowIoContext.ParamsFor.ReadWrite.ByteCount</b> member is set to the value of <b>IrpSp->Parameters.Write.Length</b>.
+The **ParamsFor.ReadWrite.Buffer** member is set to the user buffer locked for IoWriteAccess.
+
+The **LowIoContext.ParamsFor.ReadWrite.ByteCount** member is set to the value of **IrpSp->Parameters.Write.Length**.
 
 A write request is normally implemented by a network mini-redirector as an asynchronous operation because it can take considerable time. The operation usually consists of sending a network request to the remote server. The response is obtained when the write request is completed on the server. This is an example of an operation for which the network mini-redirector may need to register a context for handling cancellations initiated locally.
 
-While the <a href="/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-">MRxLowIOSubmit[LOWIO_OP_WRITE]</a> routine is processing, the <b>LowIoContext.ResourceThreadId</b> member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The <b>LowIoContext.ResourceThreadId</b> member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling <a href="/windows-hardware/drivers/ddi/mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx">RxReleaseFcbResourceForThreadInMRx</a>. 
+While the [**MRxLowIOSubmit[LOWIO_OP_WRITE]**](/windows-hardware/drivers/ifs/mrxlowiosubmit-lowio-op-write-) routine is processing, the **LowIoContext.ResourceThreadId** member of RX_CONTEXT is guaranteed to indicate the thread of the process that initiated the operation in RDBSS. The **LowIoContext.ResourceThreadId** member can be used to release the FCB structure on behalf of another thread. When an asynchronous routine completes, the FCB structure that was acquired from the initial thread can be released. The FCB structure can be released by calling [**RxReleaseFcbResourceForThreadInMRx**](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md).
 
-The<a href="/windows-hardware/drivers/ifs/mrxquerydirectory"> MRxQueryDirectory</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query information on a file directory.
+The [**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector query information on a file directory.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxquerydirectory"> MRxQueryDirectory</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.FileInformationClass</b> member is set to <b>IrpSp->Parameters.QueryDirectory.FileInformationClass</b>.
+The **Info.FileInformationClass** member is set to **IrpSp->Parameters.QueryDirectory.FileInformationClass**.
 
-The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+The **Info.Buffer** member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryDirectory.Length</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QueryDirectory.Length**.
 
-The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp->Parameters.QueryDirectory.FileIndex</b>.
+The **QueryDirectory.FileIndex** member is set to **IrpSp->Parameters.QueryDirectory.FileIndex**.
 
-The <b>QueryDirectory.RestartScan</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit on.
+The **QueryDirectory.RestartScan** member is set to nonzero if **IrpSp->Flags** has the SL_RESTART_SCAN bit on.
 
-The <b>QueryDirectory.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
+The **QueryDirectory.ReturnSingleEntry** member is set to nonzero if **IrpSp->Flags** has the SL_RETURN_SINGLE_ENTRY bit on.
 
-The <b>QueryDirectory.IndexSpecified</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit on.
+The **QueryDirectory.IndexSpecified** member is set to nonzero if **IrpSp->Flags** has the SL_INDEX_SPECIFIED bit on.
 
-The <b>QueryDirectory.InitialQuery</b> member is set to nonzero if <b>UnicodeQueryTemplate.Buffer</b> member of the associated FOBX is <b>NULL</b> and the <b>Flags</b> member of the FOBX does not have the FOBX_FLAG_MATCH_ALL bit on.
+The **QueryDirectory.InitialQuery** member is set to nonzero if **UnicodeQueryTemplate.Buffer** member of the associated FOBX is NULL and the **Flags** member of the FOBX does not have the FOBX_FLAG_MATCH_ALL bit on.
 
-For a wild card query ("*.*", for example), RDBSS will set the <b>UnicodeQueryTemplate.Buffer</b> member of the associated FOBX to the wild card query passed.
+For a wild card query ("*.*", for example), RDBSS will set the **UnicodeQueryTemplate.Buffer** member of the associated FOBX to the wild card query passed.
 
-If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="/windows-hardware/drivers/ifs/mrxquerydirectory">MRxQueryDirectory</a>, then RDBSS will call <a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxfsdpostrequest">RxFsdPostRequest</a> passing the RX_CONTEXT structure to a worker queue for processing by the file system process (FSP). 
+If the **PostRequest** member of the RX_CONTEXT structure is **TRUE** on return from [**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory), then RDBSS will call [**RxFsdPostRequest**](../rxprocs/nf-rxprocs-rxfsdpostrequest.md) passing the RX_CONTEXT structure to a worker queue for processing by the file system process (FSP).
 
-The<a href="/windows-hardware/drivers/ifs/mrxqueryeainfo"> MRxQueryEaInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query extended attribute information on a file system object.
+The [**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector query extended attribute information on a file system object.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxqueryeainfo">MRxQueryEaInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-query-ea">IRP_MJ_QUERY_EA</a> request. 
+RDBSS issues a call to [**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo) in response to receiving an [**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea) request.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxqueryeainfo"> MRxQueryEaInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.Buffer</b> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+The **Info.Buffer** member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryEa.Length</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QueryEa.Length**.
 
-The <b>QueryEa.UserEaList</b> member is set to <b>IrpSp->Parameters.QueryEa.EaList</b>.
+The **QueryEa.UserEaList** member is set to **IrpSp->Parameters.QueryEa.EaList**.
 
-The <b>QueryEa.UserEaListLength</b> member is set to <b>IrpSp->Parameters.QueryEa.EaListLength</b>.
+The **QueryEa.UserEaListLength** member is set to **IrpSp->Parameters.QueryEa.EaListLength**.
 
-The <b>QueryEa.UserEaIndex</b> member is set to <b>IrpSp->Parameters.QueryEa.EaIndex</b>.
+The **QueryEa.UserEaIndex** member is set to **IrpSp->Parameters.QueryEa.EaIndex**.
 
-The <b>QueryEa.RestartScan</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit on.
+The **QueryEa.RestartScan** member is set to nonzero if **IrpSp->Flags** has the SL_RESTART_SCAN bit on.
 
-The <b>QueryEa.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit on.
+The **QueryEa.ReturnSingleEntry** member is set to nonzero if **IrpSp->Flags** has the SL_RETURN_SINGLE_ENTRY bit on.
 
-The <b>QueryEa.IndexSpecified</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit on.
+The **QueryEa.IndexSpecified** member is set to nonzero if **IrpSp->Flags** has the SL_INDEX_SPECIFIED bit on.
 
-On success, <a href="/windows-hardware/drivers/ifs/mrxqueryeainfo">MRxQueryEaInfo</a> should set the <b>Info.LengthRemaininging</b> member of the RX_CONTEXT structure to the length of extended attribute information returned and also update the <b>Fobx->OffsetOfNextEaToReturn</b> member. If the call to <i>MRxQueryEaInfo</i> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryEa.Length</b> minus the <b>Info.LengthRemaining</b> member of RX_CONTEXT. 
+On success, [**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo) should set the **Info.LengthRemaininging** member of the RX_CONTEXT structure to the length of extended attribute information returned and also update the **Fobx->OffsetOfNextEaToReturn** member. If the call to **MRxQueryEaInfo** was successful, RDBSS sets the **IoStatus.Information** member of the IRP to **IrpSp->Parameters.QueryEa.Length** minus the **Info.LengthRemaining** member of RX_CONTEXT.
 
-The<a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query file information on a file system object.
+The [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector query file information on a file system object.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a> request. 
+RDBSS issues a call to [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo) in response to receiving an [**IRP_MJ_QUERY_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-information) request.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo"> MRxQueryFileInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.FileInformationClass</b> member is set to <b>IrpSp->Parameters.QueryFile.FileInformationClass</b>, the requested FILE_INFORMATION_CLASS value.
+The **Info.FileInformationClass** member is set to **IrpSp->Parameters.QueryFile.FileInformationClass**, the requested FILE_INFORMATION_CLASS value.
 
-The <b>Info.Buffer</b> member is set to the user buffer from the I/O request packet.
+The **Info.Buffer** member is set to the user buffer from the I/O request packet.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryFile.Length</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QueryFile.Length**.
 
-The <b>QueryDirectory.FileIndex</b> member is set to <b>IrpSp->Parameters.QueryDirectory.FileIndex</b>.
+The **QueryDirectory.FileIndex** member is set to **IrpSp->Parameters.QueryDirectory.FileIndex**.
 
-The <b>QueryDirectory.RestartScan</b> member is set if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit set.
+The **QueryDirectory.RestartScan** member is set if **IrpSp->Flags** has the SL_RESTART_SCAN bit set.
 
-The <b>QueryDirectory.ReturnSingleEntry</b> member is set if <b>IrpSp->Flags</b> has SL_RETURN_SINGLE_ENTRY bit set.
+The **QueryDirectory.ReturnSingleEntry** member is set if **IrpSp->Flags** has SL_RETURN_SINGLE_ENTRY bit set.
 
-The <b>QueryDirectory.InitialQuery</b> member is set if <b>Fobx->UnicodeQueryTemplate.Buffer</b> is <b>NULL</b> and <b>Fobx->Flags</b> does not have the FOBX_FLAG_MATCH_ALL bit set.
+The **QueryDirectory.InitialQuery** member is set if **Fobx->UnicodeQueryTemplate.Buffer** is NULL and **Fobx->Flags** does not have the FOBX_FLAG_MATCH_ALL bit set.
 
-On success, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to <b>Info.Length</b> member minus the length of the file information returned. If the call to <a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryFile.Length</b> minus the<b> Info.LengthRemaining</b> member of RX_CONTEXT. 
+On success, the network mini-redirector should set the **Info.LengthRemaining** member of the RX_CONTEXT structure to **Info.Length** member minus the length of the file information returned. If the call to [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo) was successful, RDBSS sets the **IoStatus.Information** member of the IRP to **IrpSp->Parameters.QueryFile.Length** minus The **Info.LengthRemaining** member of RX_CONTEXT.
 
-RDBSS does not support requests with the SL_INDEX_SPECIFIED bit of the <b>IrpSp->Flags</b> set. A network mini-redirector will not receive calls to <a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a> with the SL_INDEX_SPECIFIED bit of <b>IrpSp->Flags</b> set.
+RDBSS does not support requests with the SL_INDEX_SPECIFIED bit of the **IrpSp->Flags** set. A network mini-redirector will not receive calls to [**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo) with the SL_INDEX_SPECIFIED bit of **IrpSp->Flags** set.
 
-The<a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo"> MRxQueryQuotaInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query quota information on a file system object. 
+The [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector query quota information on a file system object.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo">MRxQueryQuotaInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-query-quota">IRP_MJ_QUERY_QUOTA</a> request. 
+RDBSS issues a call to [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo) in response to receiving an [**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota) request.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo"> MRxQueryQuotaInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+The **Info.Buffer** member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryQuota.Length</b>. 
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QueryQuota.Length**.
 
-The <b>QueryQuota.SidList</b> member is set to <b>IrpSp->Parameters.QueryQuota.SidList</b>. 
+The **QueryQuota.SidList** member is set to **IrpSp->Parameters.QueryQuota.SidList**.
 
-The <b>QueryQuota.SidListLength</b> member is set to <b>IrpSp->Parameters.QueryQuota.SidListLength</b>.
+The **QueryQuota.SidListLength** member is set to **IrpSp->Parameters.QueryQuota.SidListLength**.
 
-The <b>QueryQuota.StartSid</b> member is set to <b>IrpSp->Parameters.QueryQuota.StartSid</b>.
+The **QueryQuota.StartSid** member is set to **IrpSp->Parameters.QueryQuota.StartSid**.
 
-The <b>QueryQuota.Length</b> member is set to <b>IrpSp->Parameters.QueryQuota.Length</b>.
+The **QueryQuota.Length** member is set to **IrpSp->Parameters.QueryQuota.Length**.
 
-The <b>QueryQuota.RestartScan</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RESTART_SCAN bit set. 
+The **QueryQuota.RestartScan** member is set to nonzero if **IrpSp->Flags** has the SL_RESTART_SCAN bit set.
 
-The <b>QueryQuota.ReturnSingleEntry</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_RETURN_SINGLE_ENTRY bit set. 
+The **QueryQuota.ReturnSingleEntry** member is set to nonzero if **IrpSp->Flags** has the SL_RETURN_SINGLE_ENTRY bit set.
 
-The <b>QueryQuota.IndexSpecified</b> member is set to nonzero if <b>IrpSp->Flags</b> has the SL_INDEX_SPECIFIED bit set. 
+The **QueryQuota.IndexSpecified** member is set to nonzero if **IrpSp->Flags** has the SL_INDEX_SPECIFIED bit set.
 
-On success, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the length of the quota information to return. If the call to <a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo">MRxQueryQuotaInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the <b>Info.LengthRemaining</b> member of RX_CONTEXT. 
+On success, the network mini-redirector should set the **Info.LengthRemaining** member of the RX_CONTEXT structure to the length of the quota information to return. If the call to [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo) was successful, RDBSS sets the **IoStatus.Information** member of the IRP to the **Info.LengthRemaining** member of RX_CONTEXT.
 
-If the call to <a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo">MRxQueryQuotaInfo</a> is successful, the <b>InformationToReturn</b> member of the RX_CONTEXT structure should be set to the length of quota information returned. If the call is unsuccessful, the <b>InformationToReturn</b> member of RX_CONTEXT should be set to zero.
+If the call to [**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo) is successful, the **InformationToReturn** member of the RX_CONTEXT structure should be set to the length of quota information returned. If the call is unsuccessful, the **InformationToReturn** member of RX_CONTEXT should be set to zero.
 
-The<a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query security descriptor information on a file system object. 
+The [**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector query security descriptor information on a file system object.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-query-security">IRP_MJ_QUERY_SECURITY</a> request. 
+RDBSS issues a call to [**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo) in response to receiving an [**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security) request.
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>QuerySecurity.SecurityInformation</b> member is set to <b>IrpSp->Parameters.QuerySecurity.SecurityInformation</b>.
+The **QuerySecurity.SecurityInformation** member is set to **IrpSp->Parameters.QuerySecurity.SecurityInformation**.
 
-The <b>Info.Buffer</b> member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+The **Info.Buffer** member is set to user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QuerySecurity.Length</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QuerySecurity.Length**.
 
-On success, the network mini-redirector should set the <b>InformationToReturn</b> member of the RX_CONTEXT structure to the length of the security information returned. If the call to <a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the <b>InformationToReturn</b> member of RX_CONTEXT. 
+On success, the network mini-redirector should set the **InformationToReturn** member of the RX_CONTEXT structure to the length of the security information returned. If the call to [**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo) was successful, RDBSS sets the **IoStatus.Information** member of the IRP to the **InformationToReturn** member of RX_CONTEXT.
 
-The<a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo"> MRxQueryVolumeInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector query volume information. 
+The [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector query volume information.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a> in either of the following cases:
+RDBSS issues a call to [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo) in either of the following cases:
 
-<ul>
-<li>
-RDBSS receives an <a href="/windows-hardware/drivers/ifs/irp-mj-query-volume-information">IRP_MJ_QUERY_VOLUME_INFORMATION</a> request.
+* RDBSS receives an [**IRP_MJ_QUERY_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-volume-information) request.
 
-</li>
-<li>
-RDBSS receives an <a href="/windows-hardware/drivers/kernel/irp-mj-file-system-control">IRP_MJ_FILE_SYSTEM_CONTROL</a> request for an FSCTL_LMR_GET_LINK_TRACKING_INFORMATION control code. 
+* RDBSS receives an [**IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-file-system-control) request for an FSCTL_LMR_GET_LINK_TRACKING_INFORMATION control code.
 
-</li>
-</ul>
-Before calling<a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo"> MRxQueryVolumeInfo</a> in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo) in the case of an IRP_MJ_QUERY_VOLUME_INFORMATION request, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.FsInformationClass</b> member is set to <b>IrpSp->Parameters.QueryVolume.FsInformationClass</b>. 
+The **Info.FsInformationClass** member is set to **IrpSp->Parameters.QueryVolume.FsInformationClass**.
 
-The <b>Info.Buffer</b> member is set to <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The **Info.Buffer** member is set to **Irp->AssociatedIrp.SystemBuffer**.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryVolume.Length</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QueryVolume.Length**.
 
-For an IRP_MJ_QUERY_VOLUME_INFORMATION request, if the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>TRUE</b> on return from <a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a>, RDBSS will call <a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxfsdpostrequest">RxFsdPostRequest</a> to post the request. For this case, the IRP_MJ_QUERY_VOLUME_INFORMATION request will pass the RX_CONTEXT structure to queue RX_CONTEXT to a worker queue for processing by the file system process (FSP). 
+For an IRP_MJ_QUERY_VOLUME_INFORMATION request, if the **PostRequest** member of the RX_CONTEXT structure is **TRUE** on return from [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo), RDBSS will call [**RxFsdPostRequest**](../rxprocs/nf-rxprocs-rxfsdpostrequest.md) to post the request. For this case, the IRP_MJ_QUERY_VOLUME_INFORMATION request will pass the RX_CONTEXT structure to queue RX_CONTEXT to a worker queue for processing by the file system process (FSP).
 
-If the <b>PostRequest</b> member of the RX_CONTEXT structure is <b>FALSE</b> on return from <a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a>, the network mini-redirector must set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the length of the volume information returned. RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
+If the **PostRequest** member of the RX_CONTEXT structure is **FALSE** on return from [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo), the network mini-redirector must set the **Info.LengthRemaining** member of the RX_CONTEXT structure to the length of the volume information returned. RDBSS sets the **IoStatus.Information** member of the IRP to **IrpSp->Parameters.QueryVolume.Length** minus the **Info.LengthRemaining** member of the RX_CONTEXT structure.
 
-If the call to <a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a> is successful, the network mini-redirector should set the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure to the <b>Info.Length</b>  member minus the length of the volume information returned. If the call to <i>MRxQueryVolumeInfo</i> was successful, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to <b>IrpSp->Parameters.QueryVolume.Length</b> minus the <b>Info.LengthRemaining</b> member of the RX_CONTEXT structure. 
+If the call to [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo) is successful, the network mini-redirector should set the **Info.LengthRemaining** member of the RX_CONTEXT structure to the **Info.Length**  member minus the length of the volume information returned. If the call to **MRxQueryVolumeInfo** was successful, RDBSS sets the **IoStatus.Information** member of the IRP to **IrpSp->Parameters.QueryVolume.Length** minus the **Info.LengthRemaining** member of the RX_CONTEXT structure.
 
-For an IRP_MJ_QUERY_VOLUME_INFORMATION request with the <b>Info.FsInformationClass</b> member set to <b>FileFsDeviceInformation</b>, the network mini-redirector returns the following information in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+For an IRP_MJ_QUERY_VOLUME_INFORMATION request with the **Info.FsInformationClass** member set to **FileFsDeviceInformation**, the network mini-redirector returns the following information in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The<b> Info.Buffer</b> member contains an FILE_FS_DEVICE_INFORMATION structure
+The **Info.Buffer** member contains an FILE_FS_DEVICE_INFORMATION structure
 
-The<b> Info.Buffer.Characteristics</b> member is set to the characteristics of the volume, which must include FILE_REMOTE_DEVICE as one of the options.
+The **Info.Buffer.Characteristics** member is set to the characteristics of the volume, which must include FILE_REMOTE_DEVICE as one of the options.
 
-The<b> Info.Buffer.DeviceType</b> member is set to the <b>DeviceType</b> member of the associated NET_ROOT structure. If the <b>Type</b> member of the associated NET_ROOT is NET_ROOT_PIPE, <b>Info.Buffer.DeviceType</b> member is set to FILE_DEVICE_NAMED_PIPE.
+The **Info.Buffer.DeviceType** member is set to the **DeviceType** member of the associated NET_ROOT structure. If the **Type** member of the associated NET_ROOT is NET_ROOT_PIPE, **Info.Buffer.DeviceType** member is set to FILE_DEVICE_NAMED_PIPE.
 
-For an IRP_MJ_QUERY_VOLUME_INFORMATION request with the <b>Info.FsInformationClass</b> member set to <b>FileFsVolumeInformation</b>, the network mini-redirector returns the following information in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+For an IRP_MJ_QUERY_VOLUME_INFORMATION request with the **Info.FsInformationClass** member set to **FileFsVolumeInformation**, the network mini-redirector returns the following information in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The<b> Info.Buffer</b> member contains a FILE_FS_VOLUME_INFORMATION structure.
+The **Info.Buffer** member contains a FILE_FS_VOLUME_INFORMATION structure.
 
-The<b> Info.Buffer</b> member is set to the <b>VolumeInfo</b> member of the associated NET_ROOT structure.
+The **Info.Buffer** member is set to the **VolumeInfo** member of the associated NET_ROOT structure.
 
-The <b>Info.LengthRemaining</b> member is set to the <b>VolumeInfoLength</b> member of the associated NET_ROOT structure.
+The **Info.LengthRemaining** member is set to the **VolumeInfoLength** member of the associated NET_ROOT structure.
 
-An <a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a> call from RDBSS for <a href="/windows-hardware/drivers/kernel/irp-mj-file-system-control">IRP_MJ_FILE_SYSTEM_CONTROL</a> is a request for the link tracking information. Before calling<i> MRxQueryVolumeInfo</i> for IRP_MJ_FILE_SYSTEM_CONTROL, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+An [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo) call from RDBSS for [**IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-file-system-control) is a request for the link tracking information. Before calling **MRxQueryVolumeInfo** for IRP_MJ_FILE_SYSTEM_CONTROL, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.FsInformationClass</b> member is set to<b> FileFsObjectIdInformation</b>. 
+The **Info.FsInformationClass** member is set to **FileFsObjectIdInformation**.
 
-The <b>Info.Buffer</b> member is set to a FILE_FS_OBJECTID_INFORMATION structure.
+The **Info.Buffer** member is set to a FILE_FS_OBJECTID_INFORMATION structure.
 
-The <b>Info.LengthRemaining</b> member is set to <b>sizeof</b>(FILE_FS_OBJECTID_INFORMATION).
+The **Info.LengthRemaining** member is set to **sizeof**(FILE_FS_OBJECTID_INFORMATION).
 
-For this case of an IRP_MJ_FILE_SYSTEM_CONTROL request, the <b>AssociatedIrp.SystemBuffer</b> member of the IRP points to a LINK_TRACKING_INFORMATION structure. 
+For this case of an IRP_MJ_FILE_SYSTEM_CONTROL request, the **AssociatedIrp.SystemBuffer** member of the IRP points to a LINK_TRACKING_INFORMATION structure.
 
-If a request is initiated as an IRP_MJ_FILE_SYSTEM_CONTROL to <a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a> with a return value of STATUS_SUCCESS or STATUS_BUFFER_OVERFLOW, RDBSS copies the <b>ObjectId</b> member of the FILE_FS_OBJECTID_INFORMATION structure passed in the <b>Info.Buffer</b> member of RX_CONTEXT structure to the <b>NetRoot->DiskParameters.VolumeId</b> member of the FCB structure and to the <b>AssociatedIrp.SystemBuffer.VolumeId</b> member of the IRP. If the call to <i>MRxQueryVolumeInfo</i> was successful, RDBSS sets the <b>Type</b> member of the LINK_TRACKING_INFORMATION structure. If the <b>NetRoot->Flags</b> member of the FCB structure has the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the <b>Type</b> member is set by RDBSS to <b>DfsLinkTrackingInformation</b>. If the <b>NetRoot->Flags</b> member of the FCB structure does not have the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the <b>Type</b> member is set by RDBSS to <b>NtfsLinkTrackingInformation</b>. On success, RDBSS sets the <b>IoStatus.Information</b> member of the IRP to the size of a LINK_TRACKING_INFORMATION structure. 
+If a request is initiated as an IRP_MJ_FILE_SYSTEM_CONTROL to [**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo) with a return value of STATUS_SUCCESS or STATUS_BUFFER_OVERFLOW, RDBSS copies the **ObjectId** member of the FILE_FS_OBJECTID_INFORMATION structure passed in the **Info.Buffer** member of RX_CONTEXT structure to the **NetRoot->DiskParameters.VolumeId** member of the FCB structure and to the **AssociatedIrp.SystemBuffer.VolumeId** member of the IRP. If the call to **MRxQueryVolumeInfo** was successful, RDBSS sets the **Type** member of the LINK_TRACKING_INFORMATION structure. If the **NetRoot->Flags** member of the FCB structure has the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the **Type** member is set by RDBSS to **DfsLinkTrackingInformation**. If the **NetRoot->Flags** member of the FCB structure does not have the NETROOT_FLAG_DFS_AWARE_NETROOT bit set, the **Type** member is set by RDBSS to **NtfsLinkTrackingInformation**. On success, RDBSS sets the **IoStatus.Information** member of the IRP to the size of a LINK_TRACKING_INFORMATION structure.
 
-The<a href="/windows-hardware/drivers/ifs/mrxseteainfo">MRxSetEaInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set extended attribute information on a file system object. 
+The [**MRxSetEaInfo**](/windows-hardware/drivers/ifs/mrxseteainfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector set extended attribute information on a file system object.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxseteainfo">MRxSetEaInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-set-ea">IRP_MJ_SET_EA</a> request.
+RDBSS issues a call to [**MRxSetEaInfo**](/windows-hardware/drivers/ifs/mrxseteainfo) in response to receiving an [**IRP_MJ_SET_EA**](/windows-hardware/drivers/ifs/irp-mj-set-ea) request.
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxseteainfo">MRxSetEaInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxSetEaInfo**](/windows-hardware/drivers/ifs/mrxseteainfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.Buffer</b> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+The **Info.Buffer** member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.QueryEa.Length</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.QueryEa.Length**.
 
-The <a href="/windows-hardware/drivers/ifs/mrxsetfileinfo">MRxSetFileInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set file information on a file system object. 
+The [**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector set file information on a file system object.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxsetfileinfo">MRxSetFileInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-set-information">IRP_MJ_SET_INFORMATION</a> request.
+RDBSS issues a call to [**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo) in response to receiving an [**IRP_MJ_SET_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-information) request.
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxsetfileinfo">MRxSetFileInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling [**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-The <b>Info.FileInformationClass</b> member is set to <b>IrpSp->Parameters.SetFile.FileInformationClass</b>, the specified FILE_INFORMATION_CLASS value.
+The **Info.FileInformationClass** member is set to **IrpSp->Parameters.SetFile.FileInformationClass**, the specified FILE_INFORMATION_CLASS value.
 
-The <b>Info.Buffer</b> member is set to <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The **Info.Buffer** member is set to **Irp->AssociatedIrp.SystemBuffer**.
 
-The <b>Info.Length</b> member is set to <b>IrpSp->Parameters.SetFile.Length</b>.
+The **Info.Length** member is set to **IrpSp->Parameters.SetFile.Length**.
 
-The<a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup"> MRxSetFileInfoAtCleanup</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set file information on a file system object at cleanup.
+The [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector set file information on a file system object at cleanup.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup">MRxSetFileInfoAtCleanup</a> during cleanup, when the last handle to a file object is closed. This is different than the close operation which is invoked when the last reference to a file object is deleted. 
+RDBSS issues a call to [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup) during cleanup, when the last handle to a file object is closed. This is different than the close operation which is invoked when the last reference to a file object is deleted.
 
+[**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup) is called by RDBSS if the timestamps on a file or the size of a file have changed. The calls to **MRxSetFileInfoAtCleanup** by RDBSS are made separately for each of these changes. If both the file size and the timestamps have changed, then RDBSS makes two calls to **MRxSetFileInfoAtCleanup**.
 
-<a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup">MRxSetFileInfoAtCleanup</a> is called by RDBSS if the timestamps on a file or the size of a file have changed. The calls to <i>MRxSetFileInfoAtCleanup</i> by RDBSS are made separately for each of these changes. If both the file size and the timestamps have changed, then RDBSS makes two calls to <i>MRxSetFileInfoAtCleanup</i>. 
+Before calling [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter if the timestamps on a file have changed:
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup"> MRxSetFileInfoAtCleanup</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter if the timestamps on a file have changed:
+The **Info.FileInformationClass** member is set to a FILE_INFORMATION_CLASS value of FileBasicInformation.
 
-The <b>Info.FileInformationClass</b> member is set to a FILE_INFORMATION_CLASS value of FileBasicInformation. 
+The **Info.Buffer** member is set to a FILE_BASIC_INFORMATION structure allocated on the stack.
 
-The <b>Info.Buffer</b> member is set to a FILE_BASIC_INFORMATION structure allocated on the stack.
+The **Info.Length** member is set to the sizeof a FILE_BASIC_INFORMATION structure.
 
-The <b>Info.Length</b> member is set to the sizeof a FILE_BASIC_INFORMATION structure.
+Before calling [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter if the size of a file has changed:
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup"> MRxSetFileInfoAtCleanup</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter if the size of a file has changed:
+The **Info.FileInformationClass** member is set to a FILE_INFORMATION_CLASS value of FileEndOfFileInformation.
 
-The <b>Info.FileInformationClass</b> member is set to a FILE_INFORMATION_CLASS value of FileEndOfFileInformation.
+The **Info.Buffer** member is set to a FILE_END_OF_FILE_INFORMATION structure allocated on the stack.
 
-The <b>Info.Buffer</b> member is set to a FILE_END_OF_FILE_INFORMATION structure allocated on the stack.
+The **Info.Length** member is set to **sizeof(**FILE_END_OF_FILE_INFORMATION**)**.
 
-The <b>Info.Length</b> member is set to <b>sizeof(</b>FILE_END_OF_FILE_INFORMATION<b>)</b>.
+RDBSS ignores the return value from [**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup).
 
-RDBSS ignores the return value from <a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup">MRxSetFileInfoAtCleanup</a>. 
+A network mini-redirector can choose to do nothing in this routine and return STATUS_SUCCESS. Any changes to the file size or timestamps will be handled during the cleanup operation.
 
-A network mini-redirector can choose to do nothing in this routine and return STATUS_SUCCESS. Any changes to the file size or timestamps will be handled during the cleanup operation. 
+The [**MRxSetQuotaInfo**](/windows-hardware/drivers/ifs/mrxsetquotainfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector set quota information on a file system object.
 
-The<a href="/windows-hardware/drivers/ifs/mrxsetquotainfo">MRxSetQuotaInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set quota information on a file system object. 
+RDBSS issues a call to [**MRxSetQuotaInfo**](/windows-hardware/drivers/ifs/mrxsetquotainfo) in response to receiving an [**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota) request.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxsetquotainfo">MRxSetQuotaInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-set-quota">IRP_MJ_SET_QUOTA</a> request. 
+Before calling [**MRxSetQuotaInfo**](/windows-hardware/drivers/ifs/mrxsetquotainfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxsetquotainfo">MRxSetQuotaInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The **Info.Buffer** member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
 
-The <i>Info.Buffer</i> member is set to the user buffer from I/O request packet. This buffer has already been locked by RDBSS if needed.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.SetQuota.Length**.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.SetQuota.Length</b>. 
+The [**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector set security descriptor information on a file system object.
 
-The<a href="/windows-hardware/drivers/ifs/mrxsetsdinfo">MRxSetSdInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set security descriptor information on a file system object. 
+RDBSS issues a call to [**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo) in response to receiving an [**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security) request.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxsetsdinfo">MRxSetSdInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-set-security">IRP_MJ_SET_SECURITY</a> request. 
+Before calling [**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxsetsdinfo">MRxSetSdInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The **SetSecurity.SecurityInformation** member is set to **IrpSp->Parameters.SetSecurity.SecurityInformation**.
 
-The <b>SetSecurity.SecurityInformation</b> member is set to <b>IrpSp->Parameters.SetSecurity.SecurityInformation</b>.
+The **SetSecurity.SecurityDescriptor** member is set to **IrpSp->Parameters.SetSecurity.SecurityDescriptor**.
 
-The <b>SetSecurity.SecurityDescriptor</b> member is set to <b>IrpSp->Parameters.SetSecurity.SecurityDescriptor</b>.
+The [**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector set volume information.
 
-The<a href="/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector set volume information. 
+RDBSS issues a call to [**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo) in response to receiving an [**IRP_MJ_SET_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-volume-information) request.
 
-RDBSS issues a call to <a href="/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a> in response to receiving an <a href="/windows-hardware/drivers/ifs/irp-mj-set-volume-information">IRP_MJ_SET_VOLUME_INFORMATION</a> request. 
+Before calling [**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo), RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-Before calling <a href="/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The **Info.FsInformationClass** member is set to **IrpSp->Parameters.SetVolume.FsInformationClass**.
 
-The <b>Info.FsInformationClass</b> member is set to <b>IrpSp->Parameters.SetVolume.FsInformationClass</b>. 
+The **Info.Buffer** member is set to **Irp->AssociatedIrp.SystemBuffer**.
 
-The <b>Info.Buffer</b> member is set to <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The **Info.LengthRemaining** member is set to **IrpSp->Parameters.SetVolume.Length**.
 
-The <b>Info.LengthRemaining</b> member is set to <b>IrpSp->Parameters.SetVolume.Length</b>.
+The [**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector indicate if RDBSS should try and collapse an open request onto an existing file system object.
 
-The<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen"> MRxShouldTryToCollapseThisOpen</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector indicate if RDBSS should try and collapse an open request onto an existing file system object.
+[**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen) is called to determine if an open request should not be collapsed.
 
+Before calling [**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen), RDBSS modifies the following member in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a> is called to determine if an open request should not be collapsed. 
+The **pRelevantSrvOpen** member is set to the SRV_OPEN.
 
-Before calling<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen"> MRxShouldTryToCollapseThisOpen</a>, RDBSS modifies the following member in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+The call to [**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen) could be a change notify request for a directory. Therefore, the network mini-redirector might not allow collapsing open requests so that change notification works correctly.
 
-The <b>pRelevantSrvOpen</b> member is set to the SRV_OPEN. 
+RDBSS disallows collapsing opens if the **Create.NtCreateParameters.CreateOptions** member of the RX_CONTEXT structure has the FILE_OPEN_FOR_BACKUP_INTENT option or the FILE_DELETE_ON_CLOSE option set.
 
-The call to <a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a> could be a change notify request for a directory. Therefore, the network mini-redirector might not allow collapsing open requests so that change notification works correctly. 
+The [**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector truncate the contents of a file system object.
 
-RDBSS disallows collapsing opens if the <b>Create.NtCreateParameters.CreateOptions</b> member of the RX_CONTEXT structure has the FILE_OPEN_FOR_BACKUP_INTENT option or the FILE_DELETE_ON_CLOSE option set. 
+[**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate) is called as part of cleanup operations if both of the following conditions are true:
 
-The<a href="/windows-hardware/drivers/ifs/mrxtruncate"> MRxTruncate</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector truncate the contents of a file system object. 
+* The file object corresponds to a disk file or directory
 
+* This is the last cleanup call and the file object was marked for truncation.
 
-<a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a> is called as part of cleanup operations if both of the following conditions are true: 
+The file object is marked for truncation if the **fcbstate** member of the FCB structure has the FCB_STATE_TRUNCATE_ON_CLOSE bit set. RDBSS will uninitialize the cache map at some later time.
 
-<ul>
-<li>
-The file object corresponds to a disk file or directory
+A call to [**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate) will be followed by a call to [**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)) as part of the cleanup operation.
 
-</li>
-<li>
-This is the last cleanup call and the file object was marked for truncation. 
+RDBSS ignores the return value from [**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate).
 
-</li>
-</ul>
-The file object is marked for truncation if the <b>fcbstate</b> member of the FCB structure has the FCB_STATE_TRUNCATE_ON_CLOSE bit set. RDBSS will uninitialize the cache map at some later time.
+The [**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend) routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector truncate the contents of a file system object.
 
-A call to <a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a> will be followed by a call to <a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a> as part of the cleanup operation.
+[**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend) is called as part of cleanup operations if the file object was not marked for deletion and the file object is not a paging file. **MRxZeroExtend** is called to ensure that the portion between the valid data length and the file size is zero-extended. After calling **MRxZeroExtend**, RDBSS sets the **Header.ValidDataLength.QuadPart** member of the structure of an FCB structure equal to the **Header.FileSize.QuadPart** member of the FCB structure.
 
-RDBSS ignores the return value from <a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a>. 
+A call to [**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend) will be followed by a call to [**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)) as part of the cleanup operation.
 
-The<a href="/windows-hardware/drivers/ifs/mrxzeroextend"> MRxZeroExtend</a> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector truncate the contents of a file system object. 
-
-
-<a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a> is called as part of cleanup operations if the file object was not marked for deletion and the file object is not a paging file. <i>MRxZeroExtend</i> is called to ensure that the portion between the valid data length and the file size is zero-extended. After calling <i>MRxZeroExtend</i>, RDBSS sets the <b>Header.ValidDataLength.QuadPart</b> member of the structure of an FCB structure equal to the <b>Header.FileSize.QuadPart</b> member of the FCB structure.
-
-A call to <a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a> will be followed by a call to <a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a> as part of the cleanup operation.
-
-RDBSS ignores the return value from <a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>. 
+RDBSS ignores the return value from [**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend).
 
 The MRxCleanupFobx routine is called by RDBSS to request the network mini-redirector to close a file system object extension. RDBSS issues this call in response to receiving an IRP_MJ_CLEANUP request on a file object.
 
-MRxCleanupFobx is called by RDBSS as part of cleanup and close operations on a file object. 
+MRxCleanupFobx is called by RDBSS as part of cleanup and close operations on a file object.
 
 MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call should be retried. If a retry loop is necessary, it must be handled internally in the MRxCleanupFobx routine by the network mini-redirector.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
+[**MRxAreFilesAliased**](nc-mrx-pmrx_chkfcb_calldown.md)
 
+[**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85))
 
+[**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen)
 
-<a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a>
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
+[**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 
+[**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 
-<a href="/windows-hardware/drivers/ifs/mrxcollapseopen">MRxCollapseOpen</a>
+[**MRxExtendForCache**](nc-mrx-pmrx_extendfile_calldown.md)
 
+[**MRxExtendForNonCache**](/windows-hardware/drivers/ifs/mrxextendfornoncache)
 
+[**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush)
 
-<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>
+[**MRxForceClosed**](nc-mrx-pmrx_forceclosed_calldown.md)
 
+[**MRxIsLockRealizable**](nc-mrx-pmrx_is_lock_realizable.md)
 
+[**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fcb">MRxDeallocateForFcb</a>
+[**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate)
 
+[**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend)
 
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fobx">MRxDeallocateForFobx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extendfile_calldown">MRxExtendForCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxextendfornoncache">MRxExtendForNonCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxflush">MRxFlush</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_forceclosed_calldown">MRxForceClosed</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_is_lock_realizable">MRxIsLockRealizable</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
-
+[**RxFinalizeNetFCB**](../rxprocs/nf-rxprocs-rxfinalizenetfcb.md)

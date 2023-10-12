@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_DEALLOCATE_FOR_FCB
 title: PMRX_DEALLOCATE_FOR_FCB (mrx.h)
-description: The MRxDeallocateForFcb routine is called by RDBSS to request that the network mini-redirector deallocate an FCB structure. This call is in response to a request to close a file system object.
-old-location: ifsk\mrxdeallocateforfcb.htm
+description: Learn more about the PMRX_DEALLOCATE_FOR_FCB callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_DEALLOCATE_FOR_FCB callback function"]
 ms.keywords: MRxDeallocateForFcb, MRxDeallocateForFcb routine [Installable File System Drivers], PMRX_DEALLOCATE_FOR_FCB, ifsk.mrxdeallocateforfcb, mrx/MRxDeallocateForFcb, mrxref_02a9e4a3-db00-48e1-ac2e-cd6a47ae4c37.xml
 req.header: mrx.h
@@ -42,84 +41,52 @@ api_name:
 
 # PMRX_DEALLOCATE_FOR_FCB callback function
 
-
 ## -description
 
-The<i> MRxDeallocateForFcb</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that the network mini-redirector deallocate an FCB structure. This call is in response to a request to close a file system object.
+The **MRxDeallocateForFcb** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that the network mini-redirector deallocate an FCB structure. This call is in response to a request to close a file system object.
 
 ## -parameters
 
 ### -param Fcb
 
-### -param pFcb [in, out]
-
-A pointer to the FCB structure to deallocate.
+[in, out] A pointer to the FCB structure to deallocate.
 
 ## -returns
 
-<i>MRxDeallocateForFcb</i> returns STATUS_SUCCESS.
+**MRxDeallocateForFcb** returns STATUS_SUCCESS.
 
 ## -remarks
 
-<i>MRxDeallocateForFcb</i> is called by <a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxfinalizenetfcb">RxFinalizeNetFCB</a> as part of the process to finalize an FCB structure. The calls to <b>RxFinalizeNetFCB</b> and <i>MRxDeallocateForFcb</i> occur when an <a href="/windows-hardware/drivers/kernel/irp-mj-close">IRP_MJ_CLOSE</a> request is received.
+**MRxDeallocateForFcb** is called by [**RxFinalizeNetFCB**](../rxprocs/nf-rxprocs-rxfinalizenetfcb.md) as part of the process to finalize an FCB structure. The calls to **RxFinalizeNetFCB** and **MRxDeallocateForFcb** occur when an [**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close) request is received.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
+[**MRxAreFilesAliased**](nc-mrx-pmrx_chkfcb_calldown.md)
 
+[**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85))
 
+[**MRxCloseSrvOpen**](nc-mrx-pmrx_calldown.md)
 
-<a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a>
+[**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen)
 
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
+[**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_calldown">MRxCloseSrvOpen</a>
+[**MRxExtendForCache**](nc-mrx-pmrx_extendfile_calldown.md)
 
+[**MRxExtendForNonCache**](/windows-hardware/drivers/ifs/mrxextendfornoncache)
 
+[**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush)
 
-<a href="/windows-hardware/drivers/ifs/mrxcollapseopen">MRxCollapseOpen</a>
+[**MRxForceClosed**](nc-mrx-pmrx_forceclosed_calldown.md)
 
+[**MRxIsLockRealizable**](nc-mrx-pmrx_is_lock_realizable.md)
 
+[**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen)
 
-<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>
+[**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate)
 
+[**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend)
 
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fobx">MRxDeallocateForFobx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extendfile_calldown">MRxExtendForCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxextendfornoncache">MRxExtendForNonCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxflush">MRxFlush</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_forceclosed_calldown">MRxForceClosed</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_is_lock_realizable">MRxIsLockRealizable</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxfinalizenetfcb">RxFinalizeNetFCB</a>
-
+[**RxFinalizeNetFCB**](../rxprocs/nf-rxprocs-rxfinalizenetfcb.md)

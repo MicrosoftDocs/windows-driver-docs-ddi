@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_IS_LOCK_REALIZABLE
 title: PMRX_IS_LOCK_REALIZABLE (mrx.h)
-description: The MRxIsLockRealizable routine is called by RDBSS to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
-old-location: ifsk\mrxislockrealizable.htm
+description: Learn more about the PMRX_IS_LOCK_REALIZABLE callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_IS_LOCK_REALIZABLE callback function"]
 ms.keywords: MRxIsLockRealizable, MRxIsLockRealizable routine [Installable File System Drivers], PMRX_IS_LOCK_REALIZABLE, ifsk.mrxislockrealizable, mrx/MRxIsLockRealizable, mrxref_52518201-df6f-40ab-803d-14d8fc0993f6.xml
 req.header: mrx.h
@@ -42,116 +41,68 @@ api_name:
 
 # PMRX_IS_LOCK_REALIZABLE callback function
 
-
 ## -description
 
-The<i> MRxIsLockRealizable</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
+The **MRxIsLockRealizable** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector indicate whether a specific byte-range lock is supported on this NET_ROOT structure.
 
 ## -parameters
 
 ### -param Fcb
 
-### -param ByteOffset [in]
+[in, out] A pointer to the FCB structure.
 
+### -param ByteOffset
 
-A value indicating the byte offset for the byte range lock.
+[in] A value indicating the byte offset for the byte range lock.
 
-### -param Length [in]
+### -param Length
 
+[in] A value indicating the length for the byte range lock.
 
-A value indicating the length for the byte range lock.
+### -param LowIoLockFlags
 
-### -param LowIoLockFlags [in]
-
-
-A value indicating the I/O lock flags. This parameter is a bitmask that contains any combination of the following values: 
-
-
-### -param pFcb [in, out]
-
-A pointer to the FCB structure.
+[in] A value with a bitmask indicating the I/O lock flags.
 
 ## -returns
 
-<i>MRxIsLockRealizable</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+**MRxIsLockRealizable** returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_SUPPORTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The byte range lock that is requested is not supported. A network mini-redirector would return this value for a lock request that is not supported even if other types of byte range locks are supported. Unsupported locks might include 64-bit locks (the <b>ByteOffset->HighPart</b> member is nonzero), zero-length locks (the <b>Length</b> parameter is zero), or shared locks (the LOWIO_LOCKSFLAG_EXCLUSIVELOCK bit of the <i>LowIoLockFlags</i> parameter is not set). 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ------------- | ------------- |
+| STATUS_NOT_SUPPORTED | The byte range lock that is requested is not supported. A network mini-redirector would return this value for a lock request that is not supported even if other types of byte range locks are supported. Unsupported locks might include 64-bit locks (the **ByteOffset->HighPart** member is nonzero), zero-length locks (the **Length** parameter is zero), or shared locks (the LOWIO_LOCKSFLAG_EXCLUSIVELOCK bit of the **LowIoLockFlags** parameter is not set).
 
 ## -remarks
 
-<i>MRxIsLockRealizable</i> determines whether the specific byte-range lock requested is supported on this NET_ROOT structure. A network mini-redirector might support certain byte range locks and not support others. For example, a network mini-redirector might only support 32-bit byte range locks or exclusive locks.
+**MRxIsLockRealizable** determines whether the specific byte-range lock requested is supported on this NET_ROOT structure. A network mini-redirector might support certain byte range locks and not support others. For example, a network mini-redirector might only support 32-bit byte range locks or exclusive locks.
 
-<i>MRxIsLockRealizable</i> is called in response to receiving an IRP with the IRP_MN_LOCK minor function.
+**MRxIsLockRealizable** is called in response to receiving an IRP with the IRP_MN_LOCK minor function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
+[**MRxAreFilesAliased**](nc-mrx-pmrx_chkfcb_calldown.md)
 
+[**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85))
 
+[**MRxCloseSrvOpen**](nc-mrx-pmrx_calldown.md)
 
-<a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a>
+[**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen)
 
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
+[**MRxDeallocateForFbc**](nc-mrx-pmrx_deallocate_for_fbc.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_calldown">MRxCloseSrvOpen</a>
+[**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 
+[**MRxExtendForCache**](nc-mrx-pmrx_extendfile_calldown.md)
 
+[**MRxExtendForNonCache**](/windows-hardware/drivers/ifs/mrxextendfornoncache)
 
-<a href="/windows-hardware/drivers/ifs/mrxcollapseopen">MRxCollapseOpen</a>
+[**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush)
 
+[**MRxForceClosed**](nc-mrx-pmrx_forceclosed_calldown.md)
 
+[**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen)
 
-<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>
+[**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate)
 
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fcb">MRxDeallocateForFcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fobx">MRxDeallocateForFobx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extendfile_calldown">MRxExtendForCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxextendfornoncache">MRxExtendForNonCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxflush">MRxFlush</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_forceclosed_calldown">MRxForceClosed</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
-
+[**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend)

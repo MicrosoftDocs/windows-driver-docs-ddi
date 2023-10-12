@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_SRVCALL_WINNER_NOTIFY
 title: PMRX_SRVCALL_WINNER_NOTIFY (mrx.h)
-description: The MRxSrvCallWinnerNotify routine is called by RDBSS to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request.
-old-location: ifsk\mrxsrvcallwinnernotify.htm
+description: Learn more about the PMRX_SRVCALL_WINNER_NOTIFY callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_SRVCALL_WINNER_NOTIFY callback function"]
 ms.keywords: MRxSrvCallWinnerNotify, MRxSrvCallWinnerNotify routine [Installable File System Drivers], PMRX_SRVCALL_WINNER_NOTIFY, ifsk.mrxsrvcallwinnernotify, mrx/MRxSrvCallWinnerNotify, mrxref_32054fb8-84ca-407a-ab65-90feee16041d.xml
 req.header: mrx.h
@@ -42,70 +41,50 @@ api_name:
 
 # PMRX_SRVCALL_WINNER_NOTIFY callback function
 
-
 ## -description
 
-The<i> MRxSrvCallWinnerNotify</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request.
+The **MRxSrvCallWinnerNotify** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request.
 
 ## -parameters
 
 ### -param SrvCall
 
-### -param ThisMinirdrIsTheWinner [in]
+[in, out] A pointer to an SRV_CALL structure that is created by the network mini-redirector.
 
+### -param ThisMinirdrIsTheWinner
 
-A Boolean value that indicates that this network mini-redirector was chosen.
+[in] A Boolean value that indicates that this network mini-redirector was chosen.
 
 ### -param RecommunicateContext
 
-### -param pSrvCall [in, out]
-
-A pointer to the SRV_CALL structure. 
-
-
-### -param pSrvCallContext [in, out]
-
-A pointer to an SRV_CALL structure that is created by the network mini-redirector.
+[in/out] Pointer to the network mini-redirector-provided value in [**PMRX_CREATE_SRVCALL**](nc-mrx-pmrx_create_srvcall.md).
 
 ## -returns
 
-<i>MRxSmbSrvCallWinnerNotify</i> returns STATUS_SUCCESS on success.
+**MRxSmbSrvCallWinnerNotify** returns STATUS_SUCCESS on success.
 
 ## -remarks
 
-<i>MRxSrvCallWinnerNotify</i> was originally designed to be called by RDBSS to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. The chosen network mini-redirector is expected to create the SRV_CALL structure and establish a connection with the server.
+**MRxSrvCallWinnerNotify** was originally designed to be called by RDBSS to notify a network mini-redirector that it was chosen when multiple redirectors could fulfill the request. The chosen network mini-redirector is expected to create the SRV_CALL structure and establish a connection with the server.
 
-The network mini-redirector should complete the context for the SRV_CALL structure. If the network mini-redirector supports case-insensitive names for NET_ROOT structures and for filenames, then the SRV_CALL <b>Flags</b> member should set the bits for SRVCALL_FLAG_CASE_INSENSITIVE_NETROOTS and SRVCALL_FLAG_CASE_INSENSITIVE_FILENAMES.
+The network mini-redirector should complete the context for the SRV_CALL structure. If the network mini-redirector supports case-insensitive names for NET_ROOT structures and for filenames, then the SRV_CALL **Flags** member should set the bits for SRVCALL_FLAG_CASE_INSENSITIVE_NETROOTS and SRVCALL_FLAG_CASE_INSENSITIVE_FILENAMES.
 
-Under the current implementation of RDBSS, each network mini-redirector has its own copy of RDBSS, so there are no competing network redirectors at the RDBSS layer. All network mini-redirectors will receive a call to <i>MRxSrvCallWinnerNotify</i> with the <i>ThisMinirdrIsTheWinner</i> parameter set to <b>TRUE</b> after receiving a call to <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a> to create the SRV_CALL structure. 
+Under the current implementation of RDBSS, each network mini-redirector has its own copy of RDBSS, so there are no competing network redirectors at the RDBSS layer. All network mini-redirectors will receive a call to **MRxSrvCallWinnerNotify** with the **ThisMinirdrIsTheWinner** parameter set to **TRUE** after receiving a call to [**MRxCreateSrvCall**](nc-mrx-pmrx_create_srvcall.md) to create the SRV_CALL structure.
 
 When multiple redirectors are installed for handling the same UNC namespace, the redirector to service a request is chosen by multiple UNC provider (MUP) based on the order of redirectors specified in the registry.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a>
+[**MRxCreateSrvCall**](nc-mrx-pmrx_create_srvcall.md)
 
+[**MRxCreateVNetRoot**](nc-mrx-pmrx_create_v_net_root.md)
 
+[**MRxExtractNetRootName**](nc-mrx-pmrx_extract_netroot_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_v_net_root">MRxCreateVNetRoot</a>
+[**MRxFinalizeNetRoot**](nc-mrx-pmrx_finalize_net_root_calldown.md)
 
+[**MRxFinalizeVNetRoot**](nc-mrx-pmrx_finalize_v_net_root_calldown.md)
 
+[**MRxPreparseName**](nc-mrx-pmrx_preparse_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extract_netroot_name">MRxExtractNetRootName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_net_root_calldown">MRxFinalizeNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_v_net_root_calldown">MRxFinalizeVNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_preparse_name">MRxPreparseName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
-
+[**RxFinalizeSrvCall**](../fcb/nf-fcb-rxfinalizesrvcall.md)

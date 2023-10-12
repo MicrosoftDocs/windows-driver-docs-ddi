@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_PREPARSE_NAME
 title: PMRX_PREPARSE_NAME (mrx.h)
-description: The MRxPreparseName routine is called by RDBSS to give a network mini-redirector the opportunity to preparse a name.
-old-location: ifsk\mrxpreparsename.htm
+description: Learn more about the PMRX_PREPARSE_NAME callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_PREPARSE_NAME callback function"]
 ms.keywords: MRxPreparseName, MRxPreparseName routine [Installable File System Drivers], PMRX_PREPARSE_NAME, ifsk.mrxpreparsename, mrx/MRxPreparseName, mrxref_4f7f0d54-93a0-4b61-bf62-6e7b1063415c.xml
 req.header: mrx.h
@@ -42,60 +41,44 @@ api_name:
 
 # PMRX_PREPARSE_NAME callback function
 
-
 ## -description
 
-The<i> MRxPreparseName</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to give a network mini-redirector the opportunity to preparse a name.
+The **MRxPreparseName** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to give a network mini-redirector the opportunity to preparse a name.
 
 ## -parameters
 
-### -param RxContext [in, out]
+### -param RxContext
 
+[in, out] A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
-A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
+### -param Name
 
-### -param Name [in]
-
-
-A pointer to a Unicode string that contains the name string.
+[in] A pointer to a Unicode string that contains the name string.
 
 ## -returns
 
-<i>MRxPreparseName</i> returns STATUS_SUCCESS on success.
+**MRxPreparseName** returns STATUS_SUCCESS on success.
 
 ## -remarks
 
-<i>MRxPreparseName</i> is called by RDBSS after parsing a name to give a network mini-redirector a final opportunity to preparse the name. 
+**MRxPreparseName** is called by RDBSS after parsing a name to give a network mini-redirector a final opportunity to preparse the name.
 
-RDBSS tries to convert the name to its canonical form, removing a dot (".") and two dots (".."), before calling <i>MRxPreparseName</i>. RDBSS will also parse the format used by NTFS streams. 
+RDBSS tries to convert the name to its canonical form, removing a dot (".") and two dots (".."), before calling **MRxPreparseName**. RDBSS will also parse the format used by NTFS streams.
 
-RDBSS ignores the return value from <i>MRxPreparseName</i>.
+RDBSS ignores the return value from **MRxPreparseName**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a>
+[**MRxCreateSrvCall**](nc-mrx-pmrx_create_srvcall.md)
 
+[**MRxCreateVNetRoot**](nc-mrx-pmrx_create_v_net_root.md)
 
+[**MRxExtractNetRootName**](nc-mrx-pmrx_extract_netroot_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_v_net_root">MRxCreateVNetRoot</a>
+[**MRxFinalizeNetRoot**](nc-mrx-pmrx_finalize_net_root_calldown.md)
 
+[**MRxFinalizeVNetRoot**](nc-mrx-pmrx_finalize_v_net_root_calldown.md)
 
+[**MRxSrvCallWinnerNotify**](nc-mrx-pmrx_srvcall_winner_notify.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extract_netroot_name">MRxExtractNetRootName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_net_root_calldown">MRxFinalizeNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_v_net_root_calldown">MRxFinalizeVNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_srvcall_winner_notify">MRxSrvCallWinnerNotify</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
-
+[**RxFinalizeSrvCall**](../fcb/nf-fcb-rxfinalizesrvcall.md)

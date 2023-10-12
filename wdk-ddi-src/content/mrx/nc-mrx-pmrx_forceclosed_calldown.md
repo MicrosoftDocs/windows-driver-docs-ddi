@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_FORCECLOSED_CALLDOWN
 title: PMRX_FORCECLOSED_CALLDOWN (mrx.h)
-description: The MRxForceClosed routine is called by RDBSS to request that a network mini-redirector force a close. This routine is called when the condition of the SRV_OPEN structure is not good or the SRV_OPEN structure is marked as closed.
-old-location: ifsk\mrxforceclosed.htm
+description: Learn more about the PMRX_FORCECLOSED_CALLDOWN callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_FORCECLOSED_CALLDOWN callback function"]
 ms.keywords: MRxForceClosed, MRxForceClosed routine [Installable File System Drivers], PMRX_FORCECLOSED_CALLDOWN, ifsk.mrxforceclosed, mrx/MRxForceClosed, mrxref_4ebb7c98-0f0f-402e-b6f7-53e75c5cac54.xml
 req.header: mrx.h
@@ -42,104 +41,58 @@ api_name:
 
 # PMRX_FORCECLOSED_CALLDOWN callback function
 
-
 ## -description
 
-The<i> MRxForceClosed</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector force a close. This routine is called when the condition of the SRV_OPEN structure is not good or the SRV_OPEN structure is marked as closed.
+The **MRxForceClosed** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector force a close. This routine is called when the condition of the SRV_OPEN structure is not good or the SRV_OPEN structure is marked as closed.
 
 ## -parameters
 
 ### -param SrvOpen
 
-### -param pSrvOpen [in]
-
-A pointer to the SRV_OPEN structure.
+[in] A pointer to the SRV_OPEN structure.
 
 ## -returns
 
-<i>MRxForceClosed</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+**MRxForceClosed** returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This routine is not implemented. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ------------- | ------------- |
+| STATUS_NOT_IMPLEMENTED | This routine is not implemented.
 
 ## -remarks
 
-<i>MRxForceClosed</i> requests that the network mini-redirector force a close of a file system object.
+**MRxForceClosed** requests that the network mini-redirector force a close of a file system object.
 
-<i>MRxForceClosed</i> is called by <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvopen">RxFinalizeSrvOpen</a> as part of the process to finalize an SRV_OPEN structure.
+**MRxForceClosed** is called by [**RxFinalizeSrvOpen**](../fcb/nf-fcb-rxfinalizesrvopen.md) as part of the process to finalize an SRV_OPEN structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
+[**MRxAreFilesAliased**](nc-mrx-pmrx_chkfcb_calldown.md)
 
+[**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85))
 
+[**MRxCloseSrvOpen**](nc-mrx-pmrx_calldown.md)
 
-<a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a>
+[**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen)
 
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
+[**MRxDeallocateForFbc**](nc-mrx-pmrx_deallocate_for_fbc.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_calldown">MRxCloseSrvOpen</a>
+[**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 
+[**MRxExtendForCache**](nc-mrx-pmrx_extendfile_calldown.md)
 
+[**MRxExtendForNonCache**](/windows-hardware/drivers/ifs/mrxextendfornoncache)
 
-<a href="/windows-hardware/drivers/ifs/mrxcollapseopen">MRxCollapseOpen</a>
+[**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush)
 
+[**MRxIsLockRealizable**](nc-mrx-pmrx_is_lock_realizable.md)
 
+[**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen)
 
-<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>
+[**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate)
 
+[**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend)
 
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fcb">MRxDeallocateForFcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fobx">MRxDeallocateForFobx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extendfile_calldown">MRxExtendForCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxextendfornoncache">MRxExtendForNonCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxflush">MRxFlush</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_is_lock_realizable">MRxIsLockRealizable</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvopen">RxFinalizeSrvOpen</a>
-
+[**RxFinalizeSrvOpen**](../fcb/nf-fcb-rxfinalizesrvopen.md)

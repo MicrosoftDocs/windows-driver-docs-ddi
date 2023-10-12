@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_GET_CONNECTION_ID
 title: PMRX_GET_CONNECTION_ID (mrx.h)
-description: TheMRxGetConnectionId routine is called by RDBSS to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions.
-old-location: ifsk\mrxgetconnectionid.htm
+description: Learn more about PMRX_GET_CONNECTION_ID callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_GET_CONNECTION_ID callback function"]
 ms.keywords: MRxGetConnectionId, MRxGetConnectionId routine [Installable File System Drivers], PMRX_GET_CONNECTION_ID, ifsk.mrxgetconnectionid, mrx/MRxGetConnectionId, mrxref_14943242-5da1-4404-bc5b-b86c2a88b347.xml
 req.header: mrx.h
@@ -42,56 +41,36 @@ api_name:
 
 # PMRX_GET_CONNECTION_ID callback function
 
-
 ## -description
 
-The<i>MRxGetConnectionId</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions.
+The**MRxGetConnectionId** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector return a connection ID, which can be used for handling multiple sessions.
 
 ## -parameters
 
-### -param RxContext [in, out]
+### -param RxContext
 
+[in, out] A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
-A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
+### -param UniqueId
 
-### -param UniqueId [in, out]
-
-
-A pointer to the connection ID when the routine returns.
+[in, out] A pointer to the connection ID when the routine returns.
 
 ## -returns
 
-<i>MRxGetConnectionId</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+**MRxGetConnectionId** returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This routine is not implemented. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ------------- | ------------- |
+| STATUS_NOT_IMPLEMENTED | This routine is not implemented.
 
 ## -remarks
 
-<i>MRxGetConnectionId</i> is called by RDBSS when trying to find or construct a V_NET_ROOT structure. 
+**MRxGetConnectionId** is called by RDBSS when trying to find or construct a V_NET_ROOT structure.
 
 If connection IDs are supported by the network mini-redirector, then the returned connection ID is appended to the NET_ROOT structure name stored in the NetName table used by RDBSS for storing network names. RDBSS considers the connection ID as an opaque blob, and does a byte-by-byte comparison of the connection ID blob while looking up the NetName table for a given name with a connection ID.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_change_buffering_state_calldown">MRxCompleteBufferingStateChangeRequest</a>
+[**MRxCompleteBufferingStateChangeRequest**](nc-mrx-pmrx_change_buffering_state_calldown.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_compute_new_buffering_state">MRxComputeNewBufferingState</a>
-
+[**MRxComputeNewBufferingState**](nc-mrx-pmrx_compute_new_buffering_state.md)
