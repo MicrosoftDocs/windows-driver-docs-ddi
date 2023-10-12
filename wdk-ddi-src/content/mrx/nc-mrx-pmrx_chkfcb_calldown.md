@@ -85,7 +85,7 @@ RDBSS calls this routine when processing two files that appear to be the same bu
 
 [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
-[**MRxDeallocateForFbc**](nc-mrx-pmrx_deallocate_for_fbcb.md)
+[**MRxDeallocateForFcb**](nc-mrx-pmrx_deallocate_for_fcb.md)
 
 [**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 

@@ -77,7 +77,7 @@ The **MRxForceClosed** routine is called by [RDBSS](/windows-hardware/drivers/if
 
 [**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
-[**MRxDeallocateForFbc**](nc-mrx-pmrx_deallocate_for_fbc.md)
+[**MRxDeallocateForFcb**](nc-mrx-pmrx_deallocate_for_fcb.md)
 
 [**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 

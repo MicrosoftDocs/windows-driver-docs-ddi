@@ -57,7 +57,7 @@ The **MRxDeallocateForFobx** routine is called by [RDBSS](/windows-hardware/driv
 
 ## -remarks
 
-**MRxDeallocateForFobx** is called by [**RxFinalizeNetFOBX**](..fcb/nf-fcb-rxfinalizenetfobx.md) as part of the process to finalize an FOBX structure. The calls to **RxFinalizeNetFOBX** and **MRxDeallocateForFobx** occurs when an [**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close) request is received.
+**MRxDeallocateForFobx** is called by [**RxFinalizeNetFOBX**](../fcb/nf-fcb-rxfinalizenetfobx.md) as part of the process to finalize an FOBX structure. The calls to **RxFinalizeNetFOBX** and **MRxDeallocateForFobx** occurs when an [**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close) request is received.
 
 RDBSS ignores the return value from **MRxDeallocateForFobx**.
 
@@ -91,6 +91,6 @@ RDBSS ignores the return value from **MRxDeallocateForFobx**.
 
 [**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend)
 
-[**RxFinalizeNetFCB**](../rxprocs/nf-rxprocs-rxfinalizenetfcb.md)
+[**RxFinalizeNetFOBX**](../fcb/nf-fcb-rxfinalizenetfobx.md)
 
 [**RxFinalizeNetFCB**](../rxprocs/nf-rxprocs-rxfinalizenetfcb.md)
