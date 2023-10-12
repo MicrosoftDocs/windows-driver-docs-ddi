@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_FINALIZE_SRVCALL_CALLDOWN
 title: PMRX_FINALIZE_SRVCALL_CALLDOWN (mrx.h)
-description: The MRxFinalizeSrvCall routine is called by RDBSS to request that a network mini-redirector finalize an SRV_CALL structure.
-old-location: ifsk\mrxfinalizesrvcall.htm
+description: Learn more about the PMRX_FINALIZE_SRVCALL_CALLDOWN callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_FINALIZE_SRVCALL_CALLDOWN callback function"]
 ms.keywords: MRxFinalizeSrvCall, MRxFinalizeSrvCall routine [Installable File System Drivers], PMRX_FINALIZE_SRVCALL_CALLDOWN, ifsk.mrxfinalizesrvcall, mrx/MRxFinalizeSrvCall, mrxref_7f2d4c59-1668-4c73-adc4-bdb6fac34d38.xml
 req.header: mrx.h
@@ -42,66 +41,46 @@ api_name:
 
 # PMRX_FINALIZE_SRVCALL_CALLDOWN callback function
 
-
 ## -description
 
-The <i>MRxFinalizeSrvCall</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize an SRV_CALL structure.
+The **MRxFinalizeSrvCall** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector finalize an SRV_CALL structure.
 
 ## -parameters
 
 ### -param SrvCall
 
-### -param Force [in]
+[in, out] A pointer to the SRV_CALL structure to finalize.
 
+### -param Force
 
-A pointer to a Boolean value that indicates if the disconnect is to be enforced immediately, ignoring the reference count on the SRV_CALL structure. The <i>Force</i> parameter is the <i>ForceFinalize</i> parameter passed to the <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a> routine. This action triggers a call to <i>MRxFinalizeSrvCall</i>.
-
-
-### -param pSrvCall [in, out]
-
-A pointer to the SRV_CALL structure to finalize.
+[in] A pointer to a Boolean value that indicates if the disconnect is to be enforced immediately, ignoring the reference count on the SRV_CALL structure. The **Force** parameter is the **ForceFinalize** parameter passed to the [**RxFinalizeSrvCall**](../fcb/nf-fcb-rxfinalizesrvcall.md) routine. This action triggers a call to **MRxFinalizeSrvCall**.
 
 ## -returns
 
-<i>MRxFinalizeSrvCall</i> returns STATUS_SUCCESS on success.
+**MRxFinalizeSrvCall** returns STATUS_SUCCESS on success.
 
 ## -remarks
 
-<i>MRxFinalizeSrvCall</i> is called when RDBSS is tearing down an SRV_CALL structure. The network mini-redirector is expected to close its connection to the server. 
+**MRxFinalizeSrvCall** is called when RDBSS is tearing down an SRV_CALL structure. The network mini-redirector is expected to close its connection to the server.
 
-<i>MRxFinalizeSrvCall</i> is called by RDBSS after receiving an <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a> call. If <a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizenetroot">RxFinalizeNetRoot</a> is called from a different process than the RDBSS system process, then the call to <i>MRxFinalizeSrvCall</i> is posted to a worker thread for later execution. At some later time <b>RxFinalizeSrvCall</b> is called to complete the finalization of the SRV_CALL structure. 
+**MRxFinalizeSrvCall** is called by RDBSS after receiving an [**RxFinalizeSrvCall**](../fcb/nf-fcb-rxfinalizesrvcall.md) call. If [**RxFinalizeSrvCall**](../fcb/nf-fcb-rxfinalizenetroot.md) is called from a different process than the RDBSS system process, then the call to **MRxFinalizeSrvCall** is posted to a worker thread for later execution. At some later time **RxFinalizeSrvCall** is called to complete the finalization of the SRV_CALL structure.
 
-RDBSS ignores the return value from the <i>MRxFinalizeSrvCall</i> call.
+RDBSS ignores the return value from the **MRxFinalizeSrvCall** call.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a>
+[**MRxCreateSrvCall**](nc-mrx-pmrx_create_srvcall.md)
 
+[**MRxCreateVNetRoot**](nc-mrx-pmrx_create_v_net_root.md)
 
+[**MRxExtractNetRootName**](nc-mrx-pmrx_extract_netroot_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_v_net_root">MRxCreateVNetRoot</a>
+[**MRxFinalizeNetRoot**](nc-mrx-pmrx_finalize_net_root_calldown.md)
 
+[**MRxFinalizeVNetRoot**](nc-mrx-pmrx_finalize_v_net_root_calldown.md)
 
+[**MRxPreparseName**](nc-mrx-pmrx_preparse_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extract_netroot_name">MRxExtractNetRootName</a>
+[**MRxSrvCallWinnerNotify**](nc-mrx-pmrx_srvcall_winner_notify.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_net_root_calldown">MRxFinalizeNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_v_net_root_calldown">MRxFinalizeVNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_preparse_name">MRxPreparseName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_srvcall_winner_notify">MRxSrvCallWinnerNotify</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fcb/nf-fcb-rxfinalizesrvcall">RxFinalizeSrvCall</a>
-
+[**RxFinalizeSrvCall**](../fcb/nf-fcb-rxfinalizesrvcall.md)

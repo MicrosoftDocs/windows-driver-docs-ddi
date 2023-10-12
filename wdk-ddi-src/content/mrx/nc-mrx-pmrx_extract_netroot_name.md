@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_EXTRACT_NETROOT_NAME
 title: PMRX_EXTRACT_NETROOT_NAME (mrx.h)
-description: The MRxExtractNetRootName routine is called by RDBSS to request that a network mini-redirector extract the name of the NET_ROOT structure from a given pathname.
-old-location: ifsk\mrxextractnetrootname.htm
+description: Learn more about the PMRX_EXTRACT_NETROOT_NAME callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_EXTRACT_NETROOT_NAME callback function"]
 ms.keywords: MRxExtractNetRootName, MRxExtractNetRootName routine [Installable File System Drivers], PMRX_EXTRACT_NETROOT_NAME, ifsk.mrxextractnetrootname, mrx/MRxExtractNetRootName, mrxref_6ccbe7d3-a74d-4eab-bfc1-994791d9613a.xml
 req.header: mrx.h
@@ -42,63 +41,44 @@ api_name:
 
 # PMRX_EXTRACT_NETROOT_NAME callback function
 
-
 ## -description
 
-The<i> MRxExtractNetRootName</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector extract the name of the NET_ROOT structure from a given pathname.
+The **MRxExtractNetRootName** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector extract the name of the NET_ROOT structure from a given pathname.
 
 ## -parameters
 
-### -param FilePathName [in]
+### -param FilePathName
 
+[in] A pointer to a Unicode string that contains a pathname.
 
-A pointer to a Unicode string that contains a pathname.
+### -param SrvCall
 
-### -param SrvCall [in]
+[in] A pointer to the SRV_CALL structure.
 
+### -param NetRootName
 
-A pointer to the SRV_CALL structure.
+[out] On input, a pointer for storing a Unicode string. On success, this parameter will contain a pointer to a Unicode string that contains a NET_ROOT structure name.
 
-### -param NetRootName [out]
+### -param RestOfName
 
-
-On input, a pointer for storing a Unicode string. On success, this parameter will contain a pointer to a Unicode string that contains a NET_ROOT structure name.
-
-### -param OPTIONAL
-
-### -param RestOfName [out, optional]
-
-A pointer to a Unicode string that contains the rest of the name on success. This parameter is optional and can be a <b>NULL</b> pointer on input.
+[out, optional] A pointer to a Unicode string that contains the rest of the name on success. This parameter is optional and can be a NULL pointer on input.
 
 ## -remarks
 
-<i>MRxExtractNetRootName</i> parses the input name into the SRV_CALL structure, the NET_ROOT structure, and the rest of the pathname.
+**MRxExtractNetRootName** parses the input name into the SRV_CALL structure, the NET_ROOT structure, and the rest of the pathname.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a>
+[**MRxCreateSrvCall**](nc-mrx-pmrx_create_srvcall.md)
 
+[**MRxCreateVNetRoot**](nc-mrx-pmrx_create_v_net_root.md)
 
+[**MRxFinalizeNetRoot**](nc-mrx-pmrx_finalize_net_root_calldown.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_v_net_root">MRxCreateVNetRoot</a>
+[**MRxFinalizeSrvCall**](nc-mrx-pmrx_finalize_srvcall_calldown.md)
 
+[**MRxFinalizeVNetRoot**](nc-mrx-pmrx_finalize_v_net_root_calldown.md)
 
+[**MRxPreparseName**](nc-mrx-pmrx_preparse_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_net_root_calldown">MRxFinalizeNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_srvcall_calldown">MRxFinalizeSrvCall</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_v_net_root_calldown">MRxFinalizeVNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_preparse_name">MRxPreparseName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_srvcall_winner_notify">MRxSrvCallWinnerNotify</a>
-
+[**MRxSrvCallWinnerNotify**](nc-mrx-pmrx_srvcall_winner_notify.md)

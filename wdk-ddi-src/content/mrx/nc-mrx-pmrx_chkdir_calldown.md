@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_CHKDIR_CALLDOWN
 title: PMRX_CHKDIR_CALLDOWN (mrx.h)
-description: TheMRxIsValidDirectory routine is called by RDBSS to request that a network mini-redirector check for the existence of a remote directory.
-old-location: ifsk\mrxisvaliddirectory.htm
+description: Learn more about the PMRX_CHKDIR_CALLDOWN callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_CHKDIR_CALLDOWN callback function"]
 ms.keywords: MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], PMRX_CHKDIR_CALLDOWN, ifsk.mrxisvaliddirectory, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
 req.header: mrx.h
@@ -42,94 +41,54 @@ api_name:
 
 # PMRX_CHKDIR_CALLDOWN callback function
 
-
 ## -description
 
-The<i>MRxIsValidDirectory</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector check for the existence of a remote directory.
+The**MRxIsValidDirectory** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector check for the existence of a remote directory.
 
 ## -parameters
 
 ### -param RxContext [in, out]
 
-
 A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 ### -param DirectoryName [in]
-
 
 A pointer to a Unicode string that contains the name of the remote directory.
 
 ## -returns
 
-<i>MRxIsValidDirectory</i> returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following: 
+**MRxIsValidDirectory** returns STATUS_SUCCESS on success or an appropriate NTSTATUS value, such as the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BAD_NETWORK_PATH</b></dt>
-</dl>
-</td>
-<td width="60%">
-This remote directory does not exist. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ------------- | ------------- |
+| STATUS_BAD_NETWORK_PATH | This remote directory does not exist. |
 
 ## -remarks
 
-<i>MRxIsValidDirectory</i> is called as part of create or open request processing for the remaining name string beyond the V_NET_ROOT structure, if the <b>IrpSp->Parameters.Create.Options</b> member has the FILE_CREATE_TREE_CONNECTION bit set on.
+**MRxIsValidDirectory** is called as part of create or open request processing for the remaining name string beyond the V_NET_ROOT structure, if the **IrpSp->Parameters.Create.Options** member has the FILE_CREATE_TREE_CONNECTION bit set on.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/mrxquerydirectory">MRxQueryDirectory</a>
+[**MRxQueryDirectory**](/windows-hardware/drivers/ifs/mrxquerydirectory)
 
+[**MRxQueryEaInfo**](/windows-hardware/drivers/ifs/mrxqueryeainfo)
 
+[**MRxQueryFileInfo**](/windows-hardware/drivers/ifs/mrxqueryfileinfo)
 
-<a href="/windows-hardware/drivers/ifs/mrxqueryeainfo">MRxQueryEaInfo</a>
+[**MRxQueryQuotaInfo**](/windows-hardware/drivers/ifs/mrxqueryquotainfo)
 
+[**MRxQuerySdInfo**](/windows-hardware/drivers/ifs/mrxquerysdinfo)
 
+[**MRxQueryVolumeInfo**](/windows-hardware/drivers/ifs/mrxqueryvolumeinfo)
 
-<a href="/windows-hardware/drivers/ifs/mrxqueryfileinfo">MRxQueryFileInfo</a>
+[**MRxSetEaInfo**](/windows-hardware/drivers/ifs/mrxseteainfo)
 
+[**MRxSetFileInfo**](/windows-hardware/drivers/ifs/mrxsetfileinfo)
 
+[**MRxSetFileInfoAtCleanup**](/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup)
 
-<a href="/windows-hardware/drivers/ifs/mrxqueryquotainfo">MRxQueryQuotaInfo</a>
+[**MRxSetQuotaInfo**](/windows-hardware/drivers/ifs/mrxsetquotainfo)
 
+[**MRxSetSdInfo**](/windows-hardware/drivers/ifs/mrxsetsdinfo)
 
-
-<a href="/windows-hardware/drivers/ifs/mrxquerysdinfo">MRxQuerySdInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxqueryvolumeinfo">MRxQueryVolumeInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxseteainfo">MRxSetEaInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxsetfileinfo">MRxSetFileInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxsetfileinfoatcleanup">MRxSetFileInfoAtCleanup</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxsetquotainfo">MRxSetQuotaInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxsetsdinfo">MRxSetSdInfo</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxsetvolumeinfo">MRxSetVolumeInfo</a>
-
+[**MRxSetVolumeInfo**](/windows-hardware/drivers/ifs/mrxsetvolumeinfo)

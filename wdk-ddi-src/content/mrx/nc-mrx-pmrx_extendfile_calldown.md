@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_EXTENDFILE_CALLDOWN
 title: PMRX_EXTENDFILE_CALLDOWN (mrx.h)
-description: The MRxExtendForCache routine is called by RDBSS to request that a network mini-redirector extend a file when the file is being cached by the cache manager.
-old-location: ifsk\mrxextendforcache.htm
+description: Learn more about the PMRX_EXTENDFILE_CALLDOWN callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_EXTENDFILE_CALLDOWN callback function"]
 ms.keywords: MRxExtendForCache, MRxExtendForCache routine [Installable File System Drivers], PMRX_EXTENDFILE_CALLDOWN, ifsk.mrxextendforcache, mrx/MRxExtendForCache, mrxref_9d9e2b3a-589c-41a3-b786-fbaaab97814a.xml
 req.header: mrx.h
@@ -42,100 +41,65 @@ api_name:
 
 # PMRX_EXTENDFILE_CALLDOWN callback function
 
-
 ## -description
 
-The<i> MRxExtendForCache</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector extend a file when the file is being cached by the cache manager.
+The **MRxExtendForCache** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector extend a file when the file is being cached by the cache manager.
 
 ## -parameters
 
-### -param RxContext [in, out]
+### -param RxContext
 
-
-A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
+[in, out] A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is requesting the operation.
 
 ### -param NewFileSize
 
+[in, out] A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size.
+
 ### -param NewAllocationSize
 
-### -param pNewAllocationSize [out]
-
-A pointer to the LARGE_INTEGER structure for storing the new allocation size when <i>MRxExtendForCache</i> returns. 
-
-
-### -param pNewFileSize [in, out]
-
-A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size.
+[out] A pointer to the LARGE_INTEGER structure for storing the new allocation size when **MRxExtendForCache** returns.
 
 ## -returns
 
-<i>MRxExtendForCache</i> returns STATUS_SUCCESS on success or an error code on failure.
+**MRxExtendForCache** returns STATUS_SUCCESS on success or an error code on failure.
 
 ## -remarks
 
-<i>MRxExtendForCache</i> handles network requests to extend the file for cached I/O.
+**MRxExtendForCache** handles network requests to extend the file for cached I/O.
 
-Before calling<i> MRxExtendForCache</i>, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the <i>RxContext</i> parameter:
+Before calling **MRxExtendForCache**, RDBSS modifies the following members in the RX_CONTEXT structure pointed to by the **RxContext** parameter:
 
-<b>LowIoContext.Operation </b>is set to LOWIO_OP_WRITE
-
-<b>LowIoContext.ParamsFor.ReadWrite.Flags</b> has the LOWIO_READWRITEFLAG_EXTENDING_FILESIZE bit set
+* **LowIoContext.Operation** is set to LOWIO_OP_WRITE
+* **LowIoContext.ParamsFor.ReadWrite.Flags** has the LOWIO_READWRITEFLAG_EXTENDING_FILESIZE bit set
 
 A network mini-redirector that caches file or directory information may need to invalidate its cache information when the file is extended.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a>
+[**MRxAreFilesAliased**](nc-mrx-pmrx_chkfcb_calldown.md)
 
+[**MRxCleanupFobx**](/previous-versions/windows/hardware/drivers/ff549841(v=vs.85))
 
+[**MRxCloseSrvOpen**](nc-mrx-pmrx_calldown.md)
 
-<a href="/previous-versions/windows/hardware/drivers/ff549841(v=vs.85)">MRxCleanupFobx</a>
+[**MRxCollapseOpen**](/windows-hardware/drivers/ifs/mrxcollapseopen)
 
+[**MRxCreate**](/windows-hardware/drivers/ifs/mrxcreate)
 
+[**MRxDeallocateForFcb**](nc-mrx-pmrx_deallocate_for_fcb.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_calldown">MRxCloseSrvOpen</a>
+[**MRxDeallocateForFobx**](nc-mrx-pmrx_deallocate_for_fobx.md)
 
+[**MRxExtendForNonCache**](/windows-hardware/drivers/ifs/mrxextendfornoncache)
 
+[**MRxFlush**](/windows-hardware/drivers/ifs/mrxflush)
 
-<a href="/windows-hardware/drivers/ifs/mrxcollapseopen">MRxCollapseOpen</a>
+[**MRxForceClosed**](nc-mrx-pmrx_forceclosed_calldown.md)
 
+[**MRxIsLockRealizable**](nc-mrx-pmrx_is_lock_realizable.md)
 
+[**MRxShouldTryToCollapseThisOpen**](/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen)
 
-<a href="/windows-hardware/drivers/ifs/mrxcreate">MRxCreate</a>
+[**MRxTruncate**](/windows-hardware/drivers/ifs/mrxtruncate)
 
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fcb">MRxDeallocateForFcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_deallocate_for_fobx">MRxDeallocateForFobx</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxextendfornoncache">MRxExtendForNonCache</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxflush">MRxFlush</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_forceclosed_calldown">MRxForceClosed</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_is_lock_realizable">MRxIsLockRealizable</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxshouldtrytocollapsethisopen">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxtruncate">MRxTruncate</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/mrxzeroextend">MRxZeroExtend</a>
-
+[**MRxZeroExtend**](/windows-hardware/drivers/ifs/mrxzeroextend)
