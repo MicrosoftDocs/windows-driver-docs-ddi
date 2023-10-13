@@ -1,8 +1,7 @@
 ---
 UID: NF:ntifs.FsRtlLookupPerStreamContextInternal
 title: FsRtlLookupPerStreamContextInternal function (ntifs.h)
-description: "Microsoft reserves the FsRtlLookupPerStreamContextInternal function for internal use only. Don't use this function in your code."
-old-location: ifsk\fsrtllookupperstreamcontextinternal.htm
+description: Learn more about the FsRtlLookupPerStreamContextInternal function.
 tech.root: ifsk
 ms.date: 04/16/2018
 keywords: ["FsRtlLookupPerStreamContextInternal function"]
@@ -60,6 +59,6 @@ Reserved.
 
 Reserved.
 
-## - returns
+## -returns
 
 Reserved.

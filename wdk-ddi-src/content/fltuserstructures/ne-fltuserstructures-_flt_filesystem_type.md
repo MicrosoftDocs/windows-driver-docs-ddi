@@ -1,8 +1,7 @@
 ---
 UID: NE:fltuserstructures._FLT_FILESYSTEM_TYPE
-title: _FLT_FILESYSTEM_TYPE (fltuserstructures.h)
-description: The FLT_FILESYSTEM_TYPE enumeration identifies the type of file system being used on a volume.
-old-location: ifsk\flt_filesystem_type.htm
+title: FLT_FILESYSTEM_TYPE (fltuserstructures.h)
+description: Learn more about the FLT_FILESYSTEM_TYPE enumeration.
 tech.root: ifsk
 ms.date: 04/16/2018
 keywords: ["FLT_FILESYSTEM_TYPE enumeration"]
@@ -10,7 +9,7 @@ ms.keywords: "*PFLT_FILESYSTEM_TYPE, FLT_FILESYSTEM_TYPE, FLT_FILESYSTEM_TYPE en
 req.header: fltuserstructures.h
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,11 @@ api_name:
  - FLT_FILESYSTEM_TYPE
 ---
 
-# _FLT_FILESYSTEM_TYPE enumeration
-
+# FLT_FILESYSTEM_TYPE enumeration
 
 ## -description
 
-The <b>FLT_FILESYSTEM_TYPE</b> enumeration identifies the type of file system being used on a volume.
+The **FLT_FILESYSTEM_TYPE** enumeration identifies the type of file system being used on a volume.
 
 ## -enum-fields
 
@@ -175,23 +173,20 @@ Microsoft ReFS file system. File system namespace: \FileSystem\refs.
 
  OpenAFS file system. File system namespace: \FileSystem\AFSRedirector.
 
+### -field FLT_FSTYPE_CIMFS
+
+Microsoft Composite Image file system. File system namespace: \FileSystem\cimfs.
+
 ## -remarks
 
-New file systems that are not part of the <b>FLT_FILESYSTEM_TYPE</b> enumeration are treated as <b>FLT_FSTYPE_UNKNOWN</b>.
+New file systems that are not part of the **FLT_FILESYSTEM_TYPE** enumeration are treated as **FLT_FSTYPE_UNKNOWN**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_filter_volume_standard_information">FILTER_VOLUME_STANDARD_INFORMATION</a>
+[**FILTER_VOLUME_STANDARD_INFORMATION**](ns-fltuserstructures-_filter_volume_standard_information.md)
 
+[**FltGetFileSystemType**](../fltkernel/nf-fltkernel-fltgetfilesystemtype.md)
 
+[**INSTANCE_AGGREGATE_STANDARD_INFORMATION**](ns-fltuserstructures-_instance_aggregate_standard_information.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetfilesystemtype">FltGetFileSystemType</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltuserstructures/ns-fltuserstructures-_instance_aggregate_standard_information">INSTANCE_AGGREGATE_STANDARD_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_instance_setup_callback">PFLT_INSTANCE_SETUP_CALLBACK</a>
-
+[**PFLT_INSTANCE_SETUP_CALLBACK**](../fltkernel/nc-fltkernel-pflt_instance_setup_callback.md)
