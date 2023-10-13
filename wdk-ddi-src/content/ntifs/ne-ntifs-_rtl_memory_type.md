@@ -51,6 +51,10 @@ The memory type is paged.
 
 The memory type is non-paged.
 
+### -field MemoryType64KPage
+
+The memory type is a 64K page.
+
 ### -field MemoryTypeLargePage
 
 The memory type is a large page.
