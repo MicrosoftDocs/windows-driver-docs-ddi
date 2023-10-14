@@ -49,7 +49,7 @@ The **DXGK_CONNECTION_MONITOR_CONNECT_FLAGS** structure specifies flags for the 
 
 ### -field Usb4DisplayPortMonitor
 
-The monitor is a USB4 connected monitor.
+The monitor is a USB4 connected monitor. See [Supporting DisplayPort monitors over USB4 in KMD](/windows-hardware/drivers/display/supporting-usb4) for more information.
 
 ### -field Reserved
 
