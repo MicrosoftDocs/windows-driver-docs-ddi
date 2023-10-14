@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGK_DISPLAY_DRIVERCAPS_EXTENSION
 title: DXGK_DISPLAY_DRIVERCAPS_EXTENSION (d3dkmddi.h)
-description: Driver capabilities extension for WDDM 2.0 or later drivers.
+description: Learn more about the DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure.
 ms.date: 08/25/2021
 keywords: ["DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure"]
 ms.keywords: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION, DXGK_DISPLAY_DRIVERCAPS_EXTENSION,
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Driver capabilities extension for WDDM 2.0 and later drivers.
+The **DXGK_DISPLAY_DRIVERCAPS_EXTENSION** structure specifies driver capabilities for WDDM 2.0 and later drivers. The OS queries these capabilities at start time.
 
 ## -struct-fields
 
@@ -73,11 +73,11 @@ The driver supports HDR10 metadata. Available starting in Windows 10 version 200
 
 ### -field VirtualRefreshRateSupport
 
-Indicates support for virtual refresh rate. Available starting in Windows Server 2022 (WDDM 2.9).
+Indicates that the driver supports virtual refresh rate. Available starting in Windows Server 2022 (WDDM 2.9).
 
 ### -field SupportUsb4Targets
 
-Indicates support for USB4 targets. Available starting in Windows 11 (WDDM 3.0).
+Indicates that the driver supports USB4 targets. Available starting in Windows 11 (WDDM 3.0).
 
 ### -field Reserved
 
