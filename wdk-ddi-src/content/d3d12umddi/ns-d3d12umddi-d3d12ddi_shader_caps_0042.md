@@ -1,8 +1,8 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SHADER_CAPS_0042
 title: D3D12DDI_SHADER_CAPS_0042 (d3d12umddi.h)
-description: The D3D12DDI_SHADER_CAPS_0042 structure contains display device shader capabilities that the driver supports.
-ms.date: 10/19/2018
+description: Learn more about the D3D12DDI_SHADER_CAPS_0042 structure.
+ms.date: 10/19/2023
 keywords: ["D3D12DDI_SHADER_CAPS_0042 structure"]
 ms.keywords: D3D12DDI_SHADER_CAPS_0042, D3D12DDI_SHADER_CAPS_0042,
 req.header: d3d12umddi.h
@@ -37,54 +37,66 @@ product:
 
 # D3D12DDI_SHADER_CAPS_0042 structure
 
-
 ## -description
 
-The D3D12DDI_SHADER_CAPS_0042 structure contains display device shader capabilities that the driver supports.
+The **D3D12DDI_SHADER_CAPS_0042** structure contains display device shader capabilities that the driver supports.
 
 ## -struct-fields
 
 ### -field MinPrecision
 
-Indicates a minimum precision of source and destination operands.
+A bitwise OR of [**D3D12DDI_SHADER_MIN_PRECISION**](ne-d3d12umddi-d3d12ddi_shader_min_precision.md) values that describe the driver's minimum precision support options for shaders.
 
 ### -field DoubleOps
 
-Double operations.
+A Boolean value that specifies whether the driver allows **double** types for shader operations (TRUE indicates driver support).
 
 ### -field ShaderSpecifiedStencilRef
 
-The shader specified stencil reference.
+A Boolean value that specifies whether the driver supports pixel shader stencil ref (TRUE indicates driver support).
 
 ### -field TypedUAVLoadAdditionalFormats
 
-Typed Unordered Access View load additional formats.
+A Boolean value that specifies whether the driver supports the loading of additional formats for typed unordered-access views (UAVs) (TRUE indicates driver support).
 
 ### -field ROVs
 
-Rasterizer ordered view.
+A Boolean value that specifies whether the driver supports [rasterizer ordered views](/windows/win32/direct3d12/directx-12-glossary) (TRUE indicates driver support).
 
 ### -field WaveOps
 
-Wave operations.
+A Boolean value that specifies whether the driver supports wave operations.
 
 ### -field WaveLaneCountMin
 
-The minimum wave lane count.
+Specifies the minimum number of lanes in the SIMD (single instruction, multiple data) wave that the driver supports.
 
 ### -field WaveLaneCountMax
 
-The maximum wave lane count.
+Specifies the maximum number of lanes in the SIMD wave that the driver supports.
 
 ### -field TotalLaneCount
 
-The total lane count.
+Specifies the total number of SIMD lanes on the hardware.
 
 ### -field Int64Ops
 
-Native 64-bit operations.
+A Boolean value that indicates whether the driver supports 64-bit operations (TRUE indicates driver support).
 
 ### -field Native16BitOps
 
-Native 16-bit operations.
+A Boolean value that indicates whether the driver supports native 64-bit operations (TRUE indicates driver support).
 
+## -remarks
+
+The user-mode display driver returns these caps when the D3D runtime calls UMD's [**PFND3DDDI_GETCAPS**](../d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps.md) function with the **Type** member of the [**D3DDDIARG_GETCAPS**](../d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps.md) structure set to **D3D12DDICAPS_TYPE_SHADER**.
+  
+## -see-also
+
+[**D3D12DDI_SHADER_CAPS_0084**](ns-d3d12umddi-d3d12ddi_shader_caps_0084.md)
+
+[**D3D12DDICAPS_TYPE**](ne-d3d12umddi-d3d12ddicaps_type.md)
+
+[**D3DDDIARG_GETCAPS**](../d3dumddi/ns-d3dumddi-_d3dddiarg_getcaps.md)
+
+[**PFND3DDDI_GETCAPS**](../d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps.md)
