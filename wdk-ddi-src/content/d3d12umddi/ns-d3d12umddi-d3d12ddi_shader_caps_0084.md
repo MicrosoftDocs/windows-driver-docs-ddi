@@ -1,6 +1,6 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SHADER_CAPS_0084
-tech.root:display
+tech.root: display
 title: D3D12DDI_SHADER_CAPS_0084
 ms.date: 10/19/2023
 targetos: Windows
