@@ -41,7 +41,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA** structure contains the input arguments for the [**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](ns-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md) callback function.
+The **IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA** structure contains the input arguments for the [**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](nc-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md) callback function.
 
 ## -struct-fields
 
@@ -67,7 +67,7 @@ For more information about HDR support, see [IddCx version 1.10 updates](/window
 
 ## -see-also
 
-[**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](ns-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md)
+[**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](nc-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md)
 
 [**IDDCX_DEFAULT_HDR_METADATA_TYPE**](ne-iddcx-iddcx_default_hdr_metadata_type.md)
 

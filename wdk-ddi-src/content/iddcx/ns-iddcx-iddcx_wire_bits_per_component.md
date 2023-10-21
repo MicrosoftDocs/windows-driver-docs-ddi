@@ -47,19 +47,19 @@ The **IDDCX_WIRE_BITS_PER_COMPONENT** structure identifies the dithering support
 
 ### -field Rgb
 
-An [**IDDCX_BITS_PER_COMPONENT**](ns-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using RGB sample format.
+An [**IDDCX_BITS_PER_COMPONENT**](ne-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using RGB sample format.
 
 ### -field YCbCr444
 
-An [**IDDCX_BITS_PER_COMPONENT**](ns-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using YCbCr 4:4:4 sample format.
+An [**IDDCX_BITS_PER_COMPONENT**](ne-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using YCbCr 4:4:4 sample format.
 
 ### -field YCbCr422
 
-An [**IDDCX_BITS_PER_COMPONENT**](ns-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using YCbCr 4:2:2 sample format.
+An [**IDDCX_BITS_PER_COMPONENT**](ne-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using YCbCr 4:2:2 sample format.
 
 ### -field YCbCr420
 
-An [**IDDCX_BITS_PER_COMPONENT**](ns-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using YCbCr 4:2:0 sample format.
+An [**IDDCX_BITS_PER_COMPONENT**](ne-iddcx-iddcx_bits_per_component.md) value that describes the supported/requested pixel encoding using YCbCr 4:2:0 sample format.
 
 ## -remarks
 

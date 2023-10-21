@@ -55,7 +55,7 @@ A [**DISPLAYCONFIG_TARGET_MODE**](/windows/win32/api/wingdi/ns-wingdi-displaycon
 
 ### -field RequiredBandwidth
 
-The display pipeline bandwidth required for this mode. The driver reports pipeline bandwidth in [**IDDCX_ADAPTER_CAPS**](nc-iddcx-iddcx_adapter_caps.md)**.MaxDisplayPipelineRate**. The OS will never pick a combination of modes across all targets that exceeds this value.
+The display pipeline bandwidth required for this mode. The driver reports pipeline bandwidth in [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md)**.MaxDisplayPipelineRate**. The OS will never pick a combination of modes across all targets that exceeds this value.
 
 ### -field BitsPerComponent
 

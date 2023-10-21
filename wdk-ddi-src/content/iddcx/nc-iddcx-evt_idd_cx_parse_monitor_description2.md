@@ -64,7 +64,7 @@ The OS calls **EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2** to ask the driver to pars
 
 A version 1.10 or later indirect display driver that supports HDR must expose this function to report modes. Setting the following [**IDDCX_WIRE_BITS_PER_COMPONENT**](ns-iddcx-iddcx_wire_bits_per_component.md) values is equivalent to creating a mode via the pre-1.10 functions:
 
-* **BitsPerComponent.Rgb** to [**IDDCX_BITS_PER_COMPONENT_8**](ns-iddcx-iddcx_bits_per_component.md)
+* **BitsPerComponent.Rgb** to [**IDDCX_BITS_PER_COMPONENT_8**](ne-iddcx-iddcx_bits_per_component.md)
 * **BitsPerComponent.YCbCr444**, **BitsPerComponent.YCbCr422** and **BitsPerComponent.YCbCr420** to **IDDCX_BITS_PER_COMPONENT_NONE**
 
 Version 1.10 and later drivers that don't set the [**IDDCX_ADAPTER_FLAGS_CAN_PROCESS_FP16**](ne-iddcx-iddcx_adapter_flags.md) adapter flag can continue to report only the pre-1.10 function.

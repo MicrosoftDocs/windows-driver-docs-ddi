@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - iddcx.h
 api_name:
@@ -54,7 +54,7 @@ An indirect display driver calls **IddCxMonitorUpdateModes2** to have the OS upd
 
 ### -param pInArgs
 
-[in] Pointer to an [**IDARG_IN_UPDATEMODES2**](ns-iddcx-idarg-in-updatemodes2.md) structure that contains the input arguments for this function.
+[in] Pointer to an [**IDARG_IN_UPDATEMODES2**](ns-iddcx-idarg_in_updatemodes2.md) structure that contains the input arguments for this function.
 
 ## -returns
 
@@ -70,4 +70,4 @@ For more information about HDR support, see [IddCx version 1.10 updates](/window
 
 ## -see-also
 
-[**IDARG_IN_UPDATEMODES2**](ns-iddcx-idarg-in-updatemodes2.md)
+[**IDARG_IN_UPDATEMODES2**](ns-iddcx-idarg_in_updatemodes2.md)

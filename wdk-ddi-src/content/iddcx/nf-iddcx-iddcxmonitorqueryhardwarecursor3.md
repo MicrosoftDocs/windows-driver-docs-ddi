@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
  - iddcx.h
 api_name:

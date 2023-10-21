@@ -71,8 +71,4 @@ Pointer in system memory to the surface buffer. **pBuffer** must be at lease 16-
 
 [**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md)
 
-[**IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER2**](ns-iddcx-idarg_out_releaseandacquiresystembuffer2.md)
-
 [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md)
-
-[**IddCxSwapChainReleaseAndAcquireSystemBuffer2**](ns-iddcx-idarg_out_releaseandacquiresystembuffer2.md)

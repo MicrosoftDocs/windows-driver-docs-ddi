@@ -53,7 +53,7 @@ An indirect display driver calls **IddCxMonitorUpdateModes** to have the OS upda
 
 ### -param pInArgs
 
-[in] Pointer to an [**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg-in-updatemodes.md) structure that contains the input arguments for this function.
+[in] Pointer to an [**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg_in_updatemodes.md) structure that contains the input arguments for this function.
 
 ## -returns
 
@@ -65,6 +65,6 @@ A driver can call **IddCxMonitorUpdateModes** to update the mode list previously
 
 ## -see-also
 
-[**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg-in-updatemodes.md)
+[**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg_in_updatemodes.md)
 
 [**IddCxMonitorUpdateModes2**](nf-iddcx-iddcxmonitorupdatemodes2.md)

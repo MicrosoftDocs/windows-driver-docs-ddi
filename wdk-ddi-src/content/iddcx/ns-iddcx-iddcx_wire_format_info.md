@@ -51,7 +51,7 @@ An [**IDDCX_COLOR_SPACE**](ne-iddcx-iddcx_color_space.md) value that specifies t
 
 ### -field BitsPerComponent
 
-An [**IDDCX_WIRE_BITS_PER_COMPONENT**](ne-iddcx-iddcx_wire_bits_per_component.md) value that specifies the number of bits per component and which pixel encoding to use on the monitor.
+An [**IDDCX_WIRE_BITS_PER_COMPONENT**](ns-iddcx-iddcx_wire_bits_per_component.md) value that specifies the number of bits per component and which pixel encoding to use on the monitor.
 
 ## -remarks
 
