@@ -1,16 +1,15 @@
 ---
 UID: NS:iddcx.IDARG_OUT_QUERYTARGETMODES
 title: IDARG_OUT_QUERYTARGETMODES (iddcx.h)
-description: Gives information about the number of target modes provided by the OS.
-old-location: display\idarg_out_querytargetmodes.htm
+description: Learn more about the IDARG_OUT_QUERYTARGETMODES structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 09/22/2023
 keywords: ["IDARG_OUT_QUERYTARGETMODES structure"]
 ms.keywords: IDARG_OUT_QUERYTARGETMODES, IDARG_OUT_QUERYTARGETMODES structure [Display Devices], display.idarg_out_querytargetmodes, iddcx/IDARG_OUT_QUERYTARGETMODES
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,14 +41,16 @@ api_name:
 
 # IDARG_OUT_QUERYTARGETMODES structure
 
-
 ## -description
 
-                 Gives information about the number of target modes provided by the OS.
+The **IDARG_OUT_QUERYTARGETMODES** structure contains output arguments for the [**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES**](nc-iddcx-evt_idd_cx_monitor_query_target_modes.md) and [**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2**](nc-iddcx-evt_idd_cx_monitor_query_target_modes2.md) callback functions.
 
 ## -struct-fields
 
 ### -field TargetModeBufferOutputCount
 
-                       [out] If the OS provides the number of target modes, the driver sets this to that value.
+[out] If the OS provides the number of target modes, the driver sets this to that value. See [**IDARG_IN_QUERYTARGETMODES**](ns-iddcx-idarg_in_querytargetmodes.md) for more information.
 
+## -see-also
+
+[**IDARG_IN_QUERYTARGETMODES**](ns-iddcx-idarg_in_querytargetmodes.md)

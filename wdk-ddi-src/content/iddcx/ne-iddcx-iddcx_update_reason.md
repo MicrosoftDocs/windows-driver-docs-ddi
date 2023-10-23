@@ -1,16 +1,15 @@
 ---
 UID: NE:iddcx.IDDCX_UPDATE_REASON
 title: IDDCX_UPDATE_REASON (iddcx.h)
-description: Describes why the driver is calling to update the mode list.
-old-location: display\iddcx_update_reason.htm
+description: Learn more about the IDDCX_UPDATE_REASON enumeration.
 tech.root: display
-ms.date: 08/08/2022
+ms.date: 09/22/2023
 keywords: ["IDDCX_UPDATE_REASON enumeration"]
 ms.keywords: IDDCX_UPDATE_REASON, IDDCX_UPDATE_REASON enumeration [Display Devices], IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, IDDCX_UPDATE_REASON_OTHER, IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, IDDCX_UPDATE_REASON_UNINITIALIZED, display.iddcx_update_reason, iddcx/IDDCX_UPDATE_REASON, iddcx/IDDCX_UPDATE_REASON_CONFIGURATION_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_DISPLAY_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_HOST_LINK_BANDWIDTH, iddcx/IDDCX_UPDATE_REASON_OTHER, iddcx/IDDCX_UPDATE_REASON_POWER_CONSTRAINTS, iddcx/IDDCX_UPDATE_REASON_UNINITIALIZED
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -77,3 +76,9 @@ The mode list is changing due to another reason not listed above.
 [**IDARG_IN_MAXDISPLAYPIPELINERATE**](ns-iddcx-idarg_in_maxdisplaypipelinerate.md)
 
 [**IDARG_IN_UPDATEMODES**](ns-iddcx-idarg_in_updatemodes.md)
+
+[**IddCxAdapterUpdateMaxDisplayPipelineRate**](nf-iddcx-iddcxadapterupdatemaxdisplaypipelinerate.md)
+
+[**IddCxMonitorUpdateModes2**](nf-iddcx-iddcxmonitorupdatemodes2.md)
+
+[**IddCxMonitorUpdateModes**](nf-iddcx-iddcxmonitorupdatemodes.md)

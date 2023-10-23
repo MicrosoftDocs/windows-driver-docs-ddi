@@ -1,16 +1,15 @@
 ---
 UID: NS:iddcx.IDDCX_TARGET_MODE
 title: IDDCX_TARGET_MODE (iddcx.h)
-description: Gives information about the target mode signal, including the bandwidth needed for the mode.
-old-location: display\iddcx_target_mode.htm
+description: Learn more about the IDDCX_TARGET_MODE structure.
 tech.root: display
-ms.date: 01/11/2021
+ms.date: 09/22/2023
 keywords: ["IDDCX_TARGET_MODE structure"]
 ms.keywords: IDDCX_TARGET_MODE, IDDCX_TARGET_MODE structure [Display Devices], display.iddcx_target_mode, iddcx/IDDCX_TARGET_MODE
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -68,5 +67,9 @@ Using the values reported in [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win3
 * **vSyncFreqDivider** is used to calculate the rate at which the OS will update the desktop image. This value cannot be zero.
 
 ## -see-also
+
+[**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES**](nc-iddcx-evt_idd_cx_monitor_query_target_modes.md)
+
+[**IddCxMonitorUpdateModes**](nf-iddcx-iddcxmonitorupdatemodes.md)
 
 [**IDDCX_ADAPTER_CAPS**](ns-iddcx-iddcx_adapter_caps.md)

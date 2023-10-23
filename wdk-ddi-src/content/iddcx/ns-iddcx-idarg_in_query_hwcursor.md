@@ -1,10 +1,9 @@
 ---
 UID: NS:iddcx.IDARG_IN_QUERY_HWCURSOR
 title: IDARG_IN_QUERY_HWCURSOR (iddcx.h)
-description: Gives information about the cursor associated with the monitor.
-old-location: display\idarg_in_query_hwcursor.htm
+description: Learn more about the IDARG_IN_QUERY_HWCURSOR structure.
 tech.root: display
-ms.date: 08/05/2022
+ms.date: 09/22/2023
 keywords: ["IDARG_IN_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_IN_QUERY_HWCURSOR, IDARG_IN_QUERY_HWCURSOR structure [Display Devices], PIDARG_IN_QUERY_HWCURSOR, PIDARG_IN_QUERY_HWCURSOR structure pointer [Display Devices], display.idarg_in_query_hwcursor, iddcx/IDARG_IN_QUERY_HWCURSOR, iddcx/PIDARG_IN_QUERY_HWCURSOR
 req.header: iddcx.h
@@ -44,7 +43,8 @@ api_name:
 
 ## -description
 
-The **IDARG_IN_QUERY_HWCURSOR** structure is passed to [**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md) and [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md) to provide information about the cursor associated with the monitor.
+The **IDARG_IN_QUERY_HWCURSOR** structure is passed to [**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md), [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md), and [**IddCxMonitorQueryHardwareCursor3**](nf-iddcx-iddcxmonitorqueryhardwarecursor3.md)
+ to provide information about the cursor associated with the monitor.
 
 ## -struct-fields
 
@@ -62,6 +62,12 @@ Pointer to a driver-allocated buffer that the OS will copy any new cursor image 
 
 ## -see-also
 
+[**IDARG_OUT_QUERY_HWCURSOR2**](ns-iddcx-idarg_out_query_hwcursor2.md)
+
+[**IDARG_OUT_QUERY_HWCURSOR3**](ns-iddcx-idarg_out_query_hwcursor3.md)
+
 [**IddCxMonitorQueryHardwareCursor**](nf-iddcx-iddcxmonitorqueryhardwarecursor.md)
 
- [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md)
+[**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md)
+
+[**IddCxMonitorQueryHardwareCursor3**](nf-iddcx-iddcxmonitorqueryhardwarecursor3.md)
