@@ -85,7 +85,9 @@ Flags for this operation. Set this parameter to zero or to the bitwise-OR of one
 
 - MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS
 
-The MM_ALLOCATE_PREFER_CONTIGUOUS and MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS flag bits are mutually exclusive. For more information about these flags, see [MM_ALLOCATE_XXX](./nf-wdm-mmallocatepagesformdlex.md).
+- MM_ALLOCATE_AND_HOT_REMOVE
+
+For more information about these flags, see [MM_ALLOCATE_XXX](./nf-wdm-mmallocatepagesformdlex.md).
 
 ## -returns
 
