@@ -55,6 +55,7 @@ See the [IKsControl (ksproxy.h)](../ksproxy/nn-ksproxy-ikscontrol.md) kernel-str
 The **IKsControl** interface inherits from the [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) interface.
 
 ## -remarks
+**NOTE:** The **IKsControl** interface should not be used with KSPROPERTY_CAMERACONTROL_EXTENDED_PROPERTY properties under [KSPROPERTYSETID_ExtendedCameraControl](/windows-hardware/drivers/stream/kspropertysetid-extendedcameracontrol) property set, please use [IMFExtendedCameraController](/windows/win32/api/mfidl/nn-mfidl-imfextendedcameracontroller).
 
 Minidrivers typically acquire the **IKsControl** interface through a call to [KsPinGetConnectedFilterInterface](./nf-ks-kspingetconnectedfilterinterface.md) or [KsPinGetConnectedPinInterface](./nf-ks-kspingetconnectedpininterface.md). Because this is a COM-style interface, the function call to obtain this interface calls the **QueryInterface** method, which in turn calls the **AddRef** method. Therefore, the minidriver does not have to perform these steps.
 
