@@ -5,7 +5,7 @@ title: EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2 callback function.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

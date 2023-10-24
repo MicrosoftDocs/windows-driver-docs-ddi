@@ -5,7 +5,7 @@ title: IddCxAdapterDisplayConfigUpdate2
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn about the IddCxAdapterDisplayConfigUpdate2 function.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -87,7 +87,7 @@ The first time a path is included in a **IddCxAdapterDisplayConfigUpdate2** call
 
 | Path field      | Required in initial call for path | Can be updated after initial call | How would Windows client get the info|
 | ----------------|-----------------------------------|-----------------------------------|--------------------------------------|
-| Mode            | Yes                               | Yes                               | [**QueryDisplayConfig**](/win32/api/winuser/nf-winuser-querydisplayconfig) will provide client display configuration and [**WM_DISPLAYCHANGE**](/windows/win32/gdi/wm-displaychange) is sent when display config changes; [**AdvancedColorInfo.CurrentAdvancedColorKind**](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) will give a color mode |
+| Mode            | Yes                               | Yes                               | [**QueryDisplayConfig**](/windows/win32/api/winuser/nf-winuser-querydisplayconfig) will provide client display configuration and [**WM_DISPLAYCHANGE**](/windows/win32/gdi/wm-displaychange) is sent when display config changes; [**AdvancedColorInfo.CurrentAdvancedColorKind**](/uwp/api/windows.graphics.display.advancedcolorinfo.currentadvancedcolorkind) will give a color mode |
 | Scale factor    | Yes                               | Yes                               | Drivers can use the method used for [**IddCxAdapterDisplayConfigUpdate**](nf-iddcx-iddcxadapterdisplayconfigupdate.md) |
 | Physical size   | Yes if no EDID passed             | No                                | Not needed if EDID passed |
 | Colorimetry     | Yes for non SDR color mode        | Yes                               | Most fields from corresponding **AdvancedColorInfo** fields |

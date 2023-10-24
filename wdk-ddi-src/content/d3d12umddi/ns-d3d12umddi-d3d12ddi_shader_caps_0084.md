@@ -103,7 +103,7 @@ A Boolean value that indicates whether the driver supports quad-based derivative
 
 ### -field WaveMMATier
 
-A [**D3D12DDI_WAVE_MMA_TIER**](ns-d3d12umddi-d3d12ddi_wave_mma_tier.md) value that indicates the wave matrix-matrix multiply-accumulate (MMA) tier supported by the driver.
+A [**D3D12DDI_WAVE_MMA_TIER**](ne-d3d12umddi-d3d12ddi_wave_mma_tier.md) value that indicates the wave matrix-matrix multiply-accumulate (MMA) tier supported by the driver.
 
 ### -field AtomicInt64OnDescriptorHeapResource
 

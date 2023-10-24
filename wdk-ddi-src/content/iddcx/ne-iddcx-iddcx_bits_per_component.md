@@ -5,7 +5,7 @@ title: IDDCX_BITS_PER_COMPONENT
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_BITS_PER_COMPONENT enumeration.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: iddcx.h

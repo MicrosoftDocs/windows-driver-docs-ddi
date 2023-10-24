@@ -5,7 +5,7 @@ title: IDARG_OUT_QUERYTARGET_INFO
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDARG_OUT_QUERYTARGET_INFO structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

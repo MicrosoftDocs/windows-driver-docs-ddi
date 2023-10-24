@@ -1,11 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_MODE2
-tech.root:display
+tech.root: display
 title: IDDCX_MONITOR_MODE2
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_MONITOR_MODE2 structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -55,7 +55,7 @@ An [**IDDCX_MONITOR_MODE_ORIGIN**](ne-iddcx-iddcx_monitor_mode_origin.md) value 
 
 ### -field MonitorVideoSignalInfo
 
-A [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure that contains details about the monitor mode. **AdditionalSignalInfo.vSyncFreqDivider** must be set to zero.
+A [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure that contains details about the monitor mode. **AdditionalSignalInfo.vSyncFreqDivider** must be set to zero.
 
 ### -field BitsPerComponent
 
