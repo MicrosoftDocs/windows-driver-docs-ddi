@@ -55,7 +55,7 @@ An [**IDDCX_MONITOR_MODE_ORIGIN**](ne-iddcx-iddcx_monitor_mode_origin.md) value 
 
 ### -field MonitorVideoSignalInfo
 
-A [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure that contains details about the monitor mode. **AdditionalSignalInfo.vSyncFreqDivider** must be set to zero.
+A [**DISPLAYCONFIG_VIDEO_SIGNAL_INFO**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_video_signal_info) structure that contains details about the monitor mode. **AdditionalSignalInfo.vSyncFreqDivider** must be set to zero.
 
 ### -field BitsPerComponent
 

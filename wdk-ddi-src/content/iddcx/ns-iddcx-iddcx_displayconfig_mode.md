@@ -59,7 +59,7 @@ A [**DISPLAYCONFIG_ROTATION**](/windows/win32/api/wingdi/ne-wingdi-displayconfig
 
 ### -field RefreshRate
 
-A [**DISPLAYCONFIG_RATIONAL**](/win32/api/wingdi/ns-wingdi-displayconfig_rational) structure that contains the requested refresh rate for this path. **RefreshRate** must match a refresh rate supported by the driver for the specified resolution. This refresh rate is defined as progressive because remote drivers can only support progressive target modes.
+A [**DISPLAYCONFIG_RATIONAL**](/windows/win32/api/wingdi/ns-wingdi-displayconfig_rational) structure that contains the requested refresh rate for this path. **RefreshRate** must match a refresh rate supported by the driver for the specified resolution. This refresh rate is defined as progressive because remote drivers can only support progressive target modes.
 
 ### -field VSyncFreqDivider
 
