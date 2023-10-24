@@ -5,7 +5,7 @@ title: IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

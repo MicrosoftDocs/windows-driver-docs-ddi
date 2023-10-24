@@ -5,7 +5,7 @@ title: IDDCX_WIRE_BITS_PER_COMPONENT
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_WIRE_BITS_PER_COMPONENT structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

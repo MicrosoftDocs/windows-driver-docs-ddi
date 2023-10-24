@@ -5,7 +5,7 @@ title: IDDCX_DISPLAYCONFIG_MODE
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_DISPLAYCONFIG_MODE structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

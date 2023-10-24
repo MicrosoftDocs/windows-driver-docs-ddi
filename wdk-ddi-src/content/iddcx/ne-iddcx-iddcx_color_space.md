@@ -5,7 +5,7 @@ title: IDDCX_COLOR_SPACE
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_COLOR_SPACE enumeration.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: iddcx.h

@@ -5,7 +5,7 @@ title: IddCxAdapterDisplayConfigUpdate2
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn about the IddCxAdapterDisplayConfigUpdate2 function.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: IDDCX_HDR10_METADATA
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_HDR10_METADATA structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -83,7 +83,7 @@ For more information about HDR support, see [IddCx version 1.10 updates](/window
 
 ## -see-also
 
-[**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](ne-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md)
+[**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](nc-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md)
 
 [**IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA**](ns-iddcx-idarg_in_monitor_set_default_hdr_metadata.md)
 

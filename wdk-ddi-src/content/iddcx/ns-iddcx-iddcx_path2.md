@@ -5,7 +5,7 @@ title: IDDCX_PATH2
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_PATH2 structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

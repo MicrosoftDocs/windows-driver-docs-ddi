@@ -5,7 +5,7 @@ title: IDDCX_METADATA2_VALID_FLAGS
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_METADATA2_VALID_FLAGS enumeration.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: iddcx.h

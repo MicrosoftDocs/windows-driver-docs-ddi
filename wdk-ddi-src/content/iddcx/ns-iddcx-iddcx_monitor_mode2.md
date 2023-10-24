@@ -1,11 +1,11 @@
 ---
 UID: NS:iddcx.IDDCX_MONITOR_MODE2
-tech.root:display
+tech.root: display
 title: IDDCX_MONITOR_MODE2
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_MONITOR_MODE2 structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

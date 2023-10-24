@@ -5,7 +5,7 @@ title: IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY_FLAGS
 ms.date: 09/22/2023
 targetos: Windows
 description: Learn more about the IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY_FLAGS enumeration.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: iddcx.h
