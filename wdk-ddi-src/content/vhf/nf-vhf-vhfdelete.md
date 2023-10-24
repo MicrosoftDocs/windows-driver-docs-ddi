@@ -70,7 +70,7 @@ To call <b>VhfDelete</b> synchronously, call it at PASSIVE_LEVEL with the <i>Wai
 
 <b>VhfDelete</b> cannot be called asynchronously (<i>Wait</i> parameter set to FALSE) or at any IRQL higher than PASSIVE_LEVEL.  Doing so may result in undefined behavior.
 
-There are no restrictions on when a KMDF driver should call this function. It is recommended to call it from a function matching the <a href="/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a> call. For example, if <b>VhfCreate</b> is called from <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>, then call <b>VhfDelete</b> synchronously from <i>EvtDeviceCleanupCallback</i>.  <b>VhfDelete</b> may be called before <b>VhfStart</b> (which is a no-op)
+There are no restrictions on when a KMDF driver should call this function. It is recommended to call it from a function matching the <a href="/windows-hardware/drivers/ddi/vhf/nf-vhf-vhfcreate">VhfCreate</a> call. For example, if <b>VhfCreate</b> is called from <a href="/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add">EvtDriverDeviceAdd</a>, then call <b>VhfDelete</b> synchronously from <i>EvtDeviceCleanupCallback</i>.  <b>VhfDelete</b> may be called on a VHFHANDLE without having previously called <b>VhfStart</b>.
 
 ## -see-also
 

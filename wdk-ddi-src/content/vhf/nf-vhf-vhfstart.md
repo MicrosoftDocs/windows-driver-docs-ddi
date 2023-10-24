@@ -64,5 +64,3 @@ If the <b>VhfStart</b> call succeeds, the method returns STATUS_SUCCESS. Otherwi
 Virtual HID Framework (VHF) does not invoke any callback functions implemented by the HID source driver until the source driver calls <b>VhfStart</b>. A callback can get invoked before <b>VhfStart</b> returns.  After this call succeeds, the driver can call <b>VhfDelete</b>.
 
 <b>VhfAsyncOperationComplete</b> and <b>VhfReadReportSubmit</b> may be called before <b>VhfStart</b> returns (e.g. from within an invoked callback).
-
-<b>VhfDelete</b> may be called before <b>VhfStart</b> (which is a no-op)
