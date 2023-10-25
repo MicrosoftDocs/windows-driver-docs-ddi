@@ -60,7 +60,7 @@ A handle to a virtual HID device that your HID source driver received in the pre
 
 TRUE to return synchronously after deleting a device. In this case, Virtual HID Framework (VHF) does not return until the device is reported as missing to PnP Manager and <a href="/windows-hardware/drivers/ddi/vhf/nc-vhf-evt_vhf_cleanup">EvtVhfCleanup</a> callback function returns. 
 
-FALSE is not valid.  See Remarks for more information.
+FALSE is reserved and should not be passed.  See Remarks for more information.
 
 ## -remarks
 
