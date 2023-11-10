@@ -1,7 +1,7 @@
 ---
 UID: NA:acxevents
 title: acxevents.h header
-ms.date: 07/28/2022
+ms.date: 11/10/2023
 description: The  acxevents.h header is used by an ACX audio class extensions.
 keywords: ["acxevents.h header"]
 ms.keywords: 
@@ -29,7 +29,7 @@ ACXEVENTs can be used for a variety of purposes, for example they can be used to
 For more information, see:
 
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
- 
+
 - [Audio](../_audio/index.md)
 
 **Audio Kernel Steaming KSEVENTS**
@@ -44,3 +44,5 @@ For general information on KSEVENTS, see these topics.
 
 [Audio Device Hardware Events](/windows-hardware/drivers/audio/hardware-events)
 
+>[!NOTE]
+> The ACX headers and libraries are not included in the  WDK 10.0.22621.2428 (released October 24, 2023), but are available in previous versions, as well as the latest (25000 series builds) Insider Preview of the WDK. For more information about preview versions of the WDK, see [Installing preview versions of the Windows Driver Kit (WDK)](../installing-preview-versions-wdk.md).
