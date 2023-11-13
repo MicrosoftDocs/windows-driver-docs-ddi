@@ -2,7 +2,7 @@
 UID: NA:acxfuncenum
 tech.root: audio
 title: acxfuncenum.h
-ms.date: 11/10/2023
+ms.date: 11/13/2023
 targetos: Windows
 description: The acxfuncenum.h header is used by an ACX audio class extensions.
 prerelease: false
@@ -47,9 +47,7 @@ helpviewer_keywords:
 
 The acxfuncenum.h header is used by an ACX audio class extensions.
 
-## -remarks
-
-## -see-also
+For more information, see:
 
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
 - [Audio](../_audio/index.md)
