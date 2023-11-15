@@ -3,7 +3,7 @@ UID: NF:fltkernel.FltWriteFileEx
 title: FltWriteFileEx function (fltkernel.h)
 description: Learn more about the FltWriteFileEx function.
 tech.root: ifsk
-ms.date: 11/14/2023
+ms.date: 11/15/2023
 keywords: ["FltWriteFileEx function"]
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 req.header: fltkernel.h
@@ -57,13 +57,25 @@ A pointer to a [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the file tha
 
 ### -param ByteOffset [in, optional]
 
-A pointer to a caller-allocated variable that specifies the starting byte offset within the file where the write operation is to begin.
+Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the read operation is to begin.
 
-If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET** flag is specified in the **Flags** parameter, **FltWriteFileEx** does not update the file object's **CurrentByteOffset** field.
+If **ByteOffset** is specified, the I/O is performed at that offset, regardless of the current value of the file object’s **CurrentByteOffset** field.
 
-If the file object that **FileObject** points to was opened for synchronous I/O, the caller of **FltWriteFileEx** can specify that the current file position offset be used instead of an explicit **ByteOffset** value by setting this parameter to NULL. If the current file position is used, the file object's **CurrentByteOffset** field is updated by adding the number of bytes written when it completes the write operation.
+* If the file was opened for synchronous I/O (FO_SYNCHRONOUS_IO is set in the file object’s **Flags** field), the caller can set **ByteOffset->LowPart** to FILE_USE_FILE_POINTER_POSITION and **ByteOffset->HighPart** to -1 to have the I/O performed at the file object’s **CurrentByteOffset** field. If the file wasn't opened for synchronous I/O, using FILE_USE_FILE_POINTER_POSITION is an error.
+* The caller can set **ByteOffset->LowPart** to FILE_WRITE_TO_END_OF_FILE and **ByteOffset->HighPart** to -1 to start the write at the end of the file (i.e., perform an appending write).
 
-If the file object that **FileObject** points to was opened for asynchronous I/O, this parameter is required and cannot be NULL.
+If **ByteOffset** isn't specified:
+
+* If the file wasn't opened for synchronous I/O, that's an error.
+* Otherwise, the I/O is performed at the file object’s **CurrentByteOffset**.
+
+If the file object was opened for synchronous I/O, the **CurrentByteOffset** field gets updated unless the caller passes the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag.
+
+* Note: the file system still updates **CurrentByteOffset** in this case. Filter Manager saves the **CurrentByteOffset** value before sending the I/O down the stack and restores it when the I/O returns. From the perspective of the caller of **FltWriteFileEx** (and filters at higher altitudes) the **CurrrentByteOffset** isn't updated. But filters below the caller see the updated **CurrentByteOffset** value in their post-read/write callbacks.
+
+If the file object wasn't opened for synchronous I/O, the **CurrentByteOffset** field isn't updated regardless of the state of the **ByteOffset** parameter.
+
+If the file object that **FileObject** points to was opened for asynchronous I/O, this parameter is required and can't be NULL.
 
 **FltWriteFileEx** doesn't support the FILE_WRITE_TO_END_OF_FILE flag.
 

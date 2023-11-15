@@ -3,7 +3,7 @@ UID: NF:fltkernel.FltReadFile
 title: FltReadFile function (fltkernel.h)
 description: Learn more about the FltReadFile function.
 tech.root: ifsk
-ms.date: 11/14/2023
+ms.date: 11/15/2023
 keywords: ["FltReadFile function"]
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 req.header: fltkernel.h
@@ -59,11 +59,20 @@ Pointer to a [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the file that 
 
 Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the read operation is to begin.
 
-If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag is specified in the **Flags** parameter, the file object's **CurrentByteOffset** isn't updated.
+If **ByteOffset** is specified, the I/O is performed at that offset, regardless of the current value of the file object’s **CurrentByteOffset** field.
 
-If the file object that **FileObject** points to was opened for synchronous I/O, the caller of **FltReadFile** can specify that the current file position offset be used instead of an explicit **ByteOffset** value by setting this parameter to NULL. If the current file position is used, the file object's **CurrentByteOffset** field is updated by adding the number of bytes read when it completes the read operation.
+* If the file was opened for synchronous I/O (FO_SYNCHRONOUS_IO is set in the file object’s **Flags** field), the caller can set **ByteOffset->LowPart** to FILE_USE_FILE_POINTER_POSITION and **ByteOffset->HighPart** to -1 to have the I/O performed at the file object’s **CurrentByteOffset** field. If the file wasn't opened for synchronous I/O, using FILE_USE_FILE_POINTER_POSITION is an error.
 
-If the file object that **FileObject** points to was opened for asynchronous I/O, this parameter is required and cannot be NULL.
+If **ByteOffset** isn't specified:
+
+* If the file wasn't opened for synchronous I/O, that's an error.
+* Otherwise, the I/O is performed at the file object’s **CurrentByteOffset**.
+
+If the file object was opened for synchronous I/O, the **CurrentByteOffset** field gets updated unless the caller passes the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag.
+
+* Note: the file system still updates **CurrentByteOffset** in this case. Filter Manager saves the **CurrentByteOffset** value before sending the I/O down the stack and restores it when the I/O returns. From the perspective of the caller of **FltReadFile** (and filters at higher altitudes) the **CurrrentByteOffset** isn't updated. But filters below the caller see the updated **CurrentByteOffset** value in their post-read/write callbacks.
+
+If the file object wasn't opened for synchronous I/O, the **CurrentByteOffset** field isn't updated regardless of the state of the **ByteOffset** parameter.
 
 ### -param Length [in]
 
