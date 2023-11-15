@@ -1,10 +1,9 @@
 ---
 UID: NF:fltkernel.FltWriteFile
 title: FltWriteFile function (fltkernel.h)
-description: FltWriteFile is used to write data to an open file, stream, or device.
-old-location: ifsk\fltwritefile.htm
+description: Learn more about the FltWriteFile function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 11/15/2023
 keywords: ["FltWriteFile function"]
 ms.keywords: FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile, FltWriteFile function [Installable File System Drivers], fltkernel/FltWriteFile, ifsk.fltwritefile
 req.header: fltkernel.h
@@ -42,190 +41,123 @@ api_name:
 
 # FltWriteFile function
 
-
 ## -description
 
-<b>FltWriteFile</b> is used to write data to an open file, stream, or device.
+**FltWriteFile** is used to write data to an open file, stream, or device.
 
 ## -parameters
 
 ### -param InitiatingInstance [in]
 
-
-An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be <b>NULL</b>.
+An opaque instance pointer for the minifilter driver instance that the operation is to be sent to. The instance must be attached to the volume where the file resides. This parameter is required and cannot be NULL.
 
 ### -param FileObject [in]
 
-
-Pointer to a file object for the file that the data is to be written to. This file object must be currently open. Calling <b>FltWriteFile</b> when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be <b>NULL</b>.
+Pointer to a [**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md) for the file that the data is to be written to. This file object must be currently open. Calling **FltWriteFile** when the file object is not yet open or is no longer open (for example, in a pre-create or post-cleanup callback routine) causes the system to ASSERT on a checked build. This parameter is required and cannot be NULL.
 
 ### -param ByteOffset [in, optional]
 
+Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the read operation is to begin.
 
-Pointer to a caller-allocated variable that specifies the starting byte offset within the file where the write operation is to begin. 
+If **ByteOffset** is specified, the I/O is performed at that offset, regardless of the current value of the file object’s **CurrentByteOffset** field.
 
-If this offset is supplied, or if the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag is specified in the <i>Flags</i> parameter, <b>FltWriteFile</b> does not update the file object's <b>CurrentByteOffset</b> field. 
+* If the file was opened for synchronous I/O (FO_SYNCHRONOUS_IO is set in the file object’s **Flags** field), the caller can set **ByteOffset->LowPart** to FILE_USE_FILE_POINTER_POSITION and **ByteOffset->HighPart** to -1 to have the I/O performed at the file object’s **CurrentByteOffset** field. If the file wasn't opened for synchronous I/O, using FILE_USE_FILE_POINTER_POSITION is an error.
+* The caller can set **ByteOffset->LowPart** to FILE_WRITE_TO_END_OF_FILE and **ByteOffset->HighPart** to -1 to start the write at the end of the file (i.e., perform an appending write).
 
-If the file object that <i>FileObject</i> points to was opened for synchronous I/O, the caller of <b>FltWriteFile</b> can specify that the current file position offset be used instead of an explicit <i>ByteOffset</i> value by setting this parameter to <b>NULL</b>. If the current file position is used, <b>FltWriteFile</b> updates the file object's <b>CurrentByteOffset</b> field by adding the number of bytes written when it completes the write operation. 
+If **ByteOffset** isn't specified:
 
-If the file object that <i>FileObject</i> points to was opened for asynchronous I/O, this parameter is required and cannot be <b>NULL</b>. 
+* If the file wasn't opened for synchronous I/O, that's an error.
+* Otherwise, the I/O is performed at the file object’s **CurrentByteOffset**.
 
+If the file object was opened for synchronous I/O, the **CurrentByteOffset** field gets updated unless the caller passes the FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET flag.
 
-<div class="alert"><b>Note</b>  Prior to Windows 8, the special constants FILE_WRITE_TO_END_OF_FILE and  FILE_USE_FILE_POINTER_POSITION are not supported for this parameter.</div>
-<div> </div>
+* Note: the file system still updates **CurrentByteOffset** in this case. Filter Manager saves the **CurrentByteOffset** value before sending the I/O down the stack and restores it when the I/O returns. From the perspective of the caller of **FltWriteFile** (and filters at higher altitudes) the **CurrrentByteOffset** isn't updated. But filters below the caller see the updated **CurrentByteOffset** value in their post-read/write callbacks.
+
+If the file object wasn't opened for synchronous I/O, the **CurrentByteOffset** field isn't updated regardless of the state of the **ByteOffset** parameter.
+
+If the file object that **FileObject** points to was opened for asynchronous I/O, this parameter is required and can't be NULL.
+
+Prior to Windows 8, the special constants FILE_WRITE_TO_END_OF_FILE and  FILE_USE_FILE_POINTER_POSITION aren't supported for this parameter.
 
 ### -param Length [in]
 
-
-Size, in bytes, of the buffer that the <i>Buffer</i> parameter points to.
+Size, in bytes, of the buffer that the **Buffer** parameter points to.
 
 ### -param Buffer [in]
 
-
-Pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>.
+Pointer to a buffer that contains the data to be written to the file. If the file is opened for noncached I/O, this buffer be must be aligned in accordance with the alignment requirement of the underlying storage device. Minifilter drivers can allocate such an aligned buffer by calling [**FltAllocatePoolAlignedWithTag**](nf-fltkernel-fltallocatepoolalignedwithtag.md).
 
 ### -param Flags [in]
 
+Bitmask of flags specifying the type of write operation to be performed.
 
-Bitmask of flags specifying the type of write operation to be performed. 
-
-<table>
-<tr>
-<th>Flag</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET
-
-</td>
-<td>
-Minifilter drivers can set this flag to specify that <b>FltWriteFile</b> should not update the file object's <b>CurrentByteOffset</b> field. 
-
-</td>
-</tr>
-<tr>
-<td>
-FLTFL_IO_OPERATION_NON_CACHED
-
-</td>
-<td>
-Minifilter drivers can set this flag to specify a noncached write, even if the file object was not opened with FILE_NO_INTERMEDIATE_BUFFERING. 
-
-</td>
-</tr>
-<tr>
-<td>
-FLTFL_IO_OPERATION_PAGING
-
-</td>
-<td>
-Minifilter drivers can set this flag to specify a paging write. 
-
-</td>
-</tr>
-<tr>
-<td>
-FLTFL_IO_OPERATION_SYNCHRONOUS_PAGING
-
-</td>
-<td>
-Minifilter drivers can set this flag to specify a synchronous paging I/O write. Minifilter drivers that set this flag must also set the FLTFL_IO_OPERATION_PAGING flag.
-
-This flag is available for Windows Vista and later versions of the Windows operating system.
-
-
-</td>
-</tr>
-</table>
+| Flag | Meaning |
+| ---- | ------- |
+| FLTFL_IO_OPERATION_DO_NOT_UPDATE_BYTE_OFFSET | Minifilter drivers can set this flag to specify that **FltWriteFile**  will not update the file object's **CurrentByteOffset** field. |
+| FLTFL_IO_OPERATION_NON_CACHED | Minifilter drivers can set this flag to specify a noncached write, even if the file object was not opened with FILE_NO_INTERMEDIATE_BUFFERING. |
+| FLTFL_IO_OPERATION_PAGING | Minifilter drivers can set this flag to specify a paging write. |
+| FLTFL_IO_OPERATION_SYNCHRONOUS_PAGING | Minifilter drivers can set this flag to specify a synchronous paging I/O write. Minifilter drivers that set this flag must also set the FLTFL_IO_OPERATION_PAGING flag. This flag is available starting with Windows Vista. |
 
 ### -param BytesWritten [out, optional]
 
-
-Pointer to a caller-allocated variable that receives the number of bytes written to the file. If <i>CallbackRoutine</i> is not <b>NULL</b>, this parameter is ignored. Otherwise, this parameter is optional and can be <b>NULL</b>.
+Pointer to a caller-allocated variable that receives the number of bytes written to the file. If **CallbackRoutine** is not NULL, this parameter is ignored. Otherwise, this parameter is optional and can be NULL.
 
 ### -param CallbackRoutine [in, optional]
 
-
-Pointer to a <a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>-typed callback routine to call when the write operation is complete. This parameter is optional and can be <b>NULL</b>.
+Pointer to a [**PFLT_COMPLETED_ASYNC_IO_CALLBACK**](nc-fltkernel-pflt_completed_async_io_callback.md)-typed callback routine to call when the write operation is complete. This parameter is optional and can be NULL.
 
 ### -param CallbackContext [in, optional]
 
-
-Context pointer to be passed to the <i>CallbackRoutine</i> if one is present. This parameter is optional and can be <b>NULL</b>. If <i>CallbackRoutine</i> is <b>NULL</b>, this parameter is ignored.
+Context pointer to be passed to the **CallbackRoutine** if one is present. This parameter is optional and can be NULL. If **CallbackRoutine** is NULL, this parameter is ignored.
 
 ## -returns
 
-<b>FltWriteFile</b> returns the NTSTATUS value that was returned by the file system.
+**FltWriteFile** returns the NTSTATUS value that was returned by the file system.
 
 ## -remarks
 
-A minifilter driver calls <b>FltWriteFile</b> to write data to an open file. 
+A minifilter driver calls **FltWriteFile** to write data to an open file.
 
-<b>FltWriteFile</b> causes a write request to be sent to the minifilter driver instances attached below the initiating instance and to the file system. The specified instance and the instances attached above it do not receive the write request. 
+**FltWriteFile** causes a write request to be sent to the minifilter driver instances attached below the initiating instance and to the file system. The specified instance and the instances attached above it do not receive the write request.
 
-<b>FltWriteFile</b> performs noncached I/O if either of the following is true: 
+**FltWriteFile** performs noncached I/O if either of the following is true:
 
-<ul>
-<li>
-The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the <i>Flags</i> parameter. 
+* The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the **Flags** parameter.
 
-</li>
-<li>
-The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING <b>CreateOptions</b> flag in the preceding call to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>, <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>, or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>. 
+* The file object was opened for noncached I/O. Usually, this is done by specifying the FILE_NO_INTERMEDIATE_BUFFERING **CreateOptions** flag in the preceding call to [**FltCreateFile**](nf-fltkernel-fltcreatefile.md), [**FltCreateFileEx**](nf-fltkernel-fltcreatefileex.md), or [**ZwCreateFile**](../wdm/nf-wdm-zwcreatefile.md).
 
-</li>
-</ul>
-Noncached I/O imposes the following restrictions on the parameter values passed to <b>FltWriteFile</b>: 
+Noncached I/O imposes the following restrictions on the parameter values passed to **FltWriteFile**:
 
-<ul>
-<li>
-The buffer that the <i>Buffer</i> parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>. 
+* The buffer that the **Buffer** parameter points to must be aligned in accordance with the alignment requirement of the underlying storage device. To allocate such an aligned buffer, call [**FltAllocatePoolAlignedWithTag**](nf-fltkernel-fltallocatepoolalignedwithtag.md).
 
-</li>
-<li>
-The byte offset that the <i>ByteOffset</i> parameter points to must be a nonnegative multiple of the volume's sector size. 
+* The byte offset that the **ByteOffset** parameter points to must be a nonnegative multiple of the volume's sector size.
 
-</li>
-<li>
-The length specified in the <i>Length</i> parameter must be a nonnegative multiple of the volume's sector size. 
+* The length specified in the **Length** parameter must be a nonnegative multiple of the volume's sector size.
 
-</li>
-</ul>
-If the value of the <i>CallbackRoutine</i> parameter is not <b>NULL</b>, the write operation is performed asynchronously. 
+If the value of the **CallbackRoutine** parameter is not NULL, the write operation is performed asynchronously.
 
-If the value of the <i>CallbackRoutine</i> parameter is <b>NULL</b>, the write operation is performed synchronously. That is, <b>FltWriteFile</b> waits until the write operation is complete before returning. This is true even if the file object that <i>FileObject</i> points to was opened for asynchronous I/O. 
+If the value of the **CallbackRoutine** parameter is NULL, the write operation is performed synchronously. That is, **FltWriteFile** waits until the write operation is complete before returning. This is true even if the file object that **FileObject** points to was opened for asynchronous I/O. 
 
-If multiple threads call <b>FltWriteFile</b> for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, <b>FltWriteFile</b> differs from <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>.
+If multiple threads call **FltWriteFile** for the same file object, and the file object was opened for synchronous I/O, the Filter Manager does not attempt to serialize I/O on the file. In this respect, **FltWriteFile** differs from [**ZwWriteFile**](../wdm/nf-wdm-zwwritefile.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatepoolalignedwithtag">FltAllocatePoolAlignedWithTag</a>
+[**FILE_OBJECT**](../wdm/ns-wdm-_file_object.md)
 
+[**FltAllocatePoolAlignedWithTag**](nf-fltkernel-fltallocatepoolalignedwithtag.md)
 
+[**FltCreateFile**](nf-fltkernel-fltcreatefile.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefile">FltCreateFile</a>
+[**FltCreateFileEx**](nf-fltkernel-fltcreatefileex.md)
 
+[**FltReadFile**](nf-fltkernel-fltreadfile.md)
 
+[**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatefileex">FltCreateFileEx</a>
+[**PFLT_COMPLETED_ASYNC_IO_CALLBACK**](nc-fltkernel-pflt_completed_async_io_callback.md)
 
+[**ZwCreateFile**](../wdm/nf-wdm-zwcreatefile.md)
 
+[**ZwReadFile**](../wdm/nf-wdm-zwreadfile.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreadfile">FltReadFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-obreferenceobjectbyhandle">ObReferenceObjectByHandle</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nc-fltkernel-pflt_completed_async_io_callback">PFLT_COMPLETED_ASYNC_IO_CALLBACK</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntreadfile">ZwReadFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntwritefile">ZwWriteFile</a>
+[**ZwWriteFile**](../wdm/nf-wdm-zwwritefile.md)
