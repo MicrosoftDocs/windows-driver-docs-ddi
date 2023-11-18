@@ -1,16 +1,15 @@
 ---
 UID: NE:d3dkmdt._D3DKMDT_STANDARDALLOCATION_TYPE
-title: _D3DKMDT_STANDARDALLOCATION_TYPE (d3dkmdt.h)
-description: The D3DKMDT_STANDARDALLOCATION_TYPE enumeration type contains values that identify particular types of surfaces.
-old-location: display\d3dkmdt_standardallocation_type.htm
+title: D3DKMDT_STANDARDALLOCATION_TYPE (d3dkmdt.h)
+description: Learn more about the D3DKMDT_STANDARDALLOCATION_TYPE enumeration.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 11/17/2023
 keywords: ["D3DKMDT_STANDARDALLOCATION_TYPE enumeration"]
 ms.keywords: D3DKMDT_STANDARDALLOCATION_GDISURFACE, D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE, D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE, D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE, D3DKMDT_STANDARDALLOCATION_TYPE, D3DKMDT_STANDARDALLOCATION_TYPE enumeration [Display Devices], DmEnums_d1c8e6c1-098d-4c01-9d26-7506ea59f34f.xml, _D3DKMDT_STANDARDALLOCATION_TYPE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_GDISURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE, d3dkmdt/D3DKMDT_STANDARDALLOCATION_TYPE, display.d3dkmdt_standardallocation_type
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,52 +42,44 @@ api_name:
  - D3DKMDT_STANDARDALLOCATION_TYPE
 ---
 
-# _D3DKMDT_STANDARDALLOCATION_TYPE enumeration
-
+# D3DKMDT_STANDARDALLOCATION_TYPE enumeration
 
 ## -description
 
-The D3DKMDT_STANDARDALLOCATION_TYPE enumeration type contains values that identify particular types of surfaces.
+The **D3DKMDT_STANDARDALLOCATION_TYPE** enumeration type contains values that identify particular types of surfaces.
 
 ## -enum-fields
 
-### -field D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE
+### -field D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE:1
 
 Indicates that the surface is a shared primary surface, which is opened by multiple applications that all require direct central processing unit (CPU) access to it.
 
-### -field D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE
+### -field D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE:2
 
 Indicates that the surface is a shadow surface.
 
-### -field D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE
+### -field D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE:3
 
 Indicates that the surface is a staging surface.
 
-### -field D3DKMDT_STANDARDALLOCATION_GDISURFACE
+### -field D3DKMDT_STANDARDALLOCATION_GDISURFACE:4
 
 Indicates that the surface is used for GDI hardware acceleration and Desktop Windows Manager (DWM) redirection.
 
 This constant value is available beginning with Windows 7.
 
-### -field D3DKMDT_STANDARDALLOCATION_VGPU
+### -field D3DKMDT_STANDARDALLOCATION_VGPU:5
+
+Indicates that the surface is an allocation for a virtual graphics processing unit (GPU). Available starting in WDDM 2.1.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_shadowsurfacedata">D3DKMDT_SHADOWSURFACEDATA</a>
+[**D3DKMDT_SHADOWSURFACEDATA**](ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md)
 
+[**D3DKMDT_SHAREDPRIMARYSURFACEDATA**](ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md)
 
+[**D3DKMDT_STAGINGSURFACEDATA**](ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a>
+[**DXGKARG_CREATEALLOCATION**](../d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmdt/ns-d3dkmdt-_d3dkmdt_stagingsurfacedata">D3DKMDT_STAGINGSURFACEDATA</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createallocation">DXGKARG_CREATEALLOCATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation">DxgkDdiCreateAllocation</a>
-
+[**DxgkDdiCreateAllocation**](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md)

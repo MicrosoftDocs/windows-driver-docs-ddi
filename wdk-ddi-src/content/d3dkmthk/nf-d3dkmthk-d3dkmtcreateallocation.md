@@ -64,7 +64,7 @@ The **D3DKMTCreateAllocation** function creates or adds allocations of system or
 
 ## -remarks
 
-A user-mode graphics client driver can call **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+The D3D runtime calls **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
 
 **D3DKMTCreateAllocation** can also be called to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
 
@@ -72,7 +72,9 @@ Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**, wh
 
 ### Examples
 
-The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation** to create a stand-alone allocation in video memory that is not associated with a resource.
+#### Creating a stand-alone allocation in video memory that isn't associated with a resource
+
+The following code example demonstrates how **D3DKMTCreateAllocation** can be used to create a stand-alone allocation in video memory that is not associated with a resource.
 
 ```c
 D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAllocationInfo, UINT Size)
@@ -97,7 +99,9 @@ D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAl
 }
 ```
 
-The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation** to create a resource with a single system memory allocation.
+#### Creating a resource with a single system memory allocation
+
+The following code example demonstrates how **D3DKMTCreateAllocation** can be used to create a resource with a single system memory allocation.
 
 ```c
 HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice, 
@@ -144,6 +148,39 @@ HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice,
     return E_FAIL;
 }
 ```
+
+#### Creating a standard allocation with ExistingSysMem
+
+The following code example shows the arguments to pass to **D3DKMTCreateAllocation** to create a standard allocation with **ExistingSysMem**. The existing system memory buffer that the runtime provides to the kernel must be page-aligned and a multiple of the page size; otherwise the kernel fails the call.
+
+```c
+    UINT PrivateDriverDataEstimate = 2048;
+
+    D3DDDI_ALLOCATIONINFO2 AllocInfo = {};
+    AllocInfo.pSystemMem = SomeValidPageAlignedSysMem;
+    AllocInfo.VidPnSourceId = SomeVidPnSourceId;
+
+    D3DKMDT_CREATESTANDARDALLOCATION StandardAlloc = {};
+    StandardAlloc.Type = D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP;
+    StandardAlloc.ExistingHeapData.Size = SizeOfSystemMemBuffer; // Multiple of PAGE SIZE
+
+    D3DKMT_CREATEALLOCATION CreateAlloc = {};
+    CreateAlloc.hDevice = SomeDevice;
+    CreateAlloc.NumAllocations = 1;
+    CreateAlloc.pAllocationInfo2 = &AllocInfo;
+    CreateAlloc.pStandardAllocation = &StandardAlloc;
+    CreateAlloc.Flags.ExistingSysMem = TRUE;
+
+    ntStatus = D3DKMTCreateAllocation(&CreateAlloc);
+```
+
+Argument limitations for **D3DKMTCreateAllocation**:
+
+* **ExistingSysMem** (or **ExistingSection**) is only supported with **StandardAllocation** and vice versa.
+* **NumAllocations** supported is 1.
+* Only one of **ExistingSysMem** or **ExistingSection** can be set.
+* When creating a **StandardAllocation**, the **CreateShared** and **CrossAdapter** flags must always be set.
+* **ExistingSysMem**  (or **ExistingSection**) can't be created against an existing resource (**D3DKMT_CREATALLOCATION::hResource**).
 
 ## -see-also
 
