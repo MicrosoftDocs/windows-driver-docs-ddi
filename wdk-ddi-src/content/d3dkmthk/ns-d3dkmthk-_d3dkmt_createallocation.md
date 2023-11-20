@@ -74,7 +74,7 @@ The size, in bytes, of the private data that **pPrivateRuntimeData** points to.
 
 ### -field pStandardAllocation [in]
 
-Pointer to a [**D3DKMT_CREATESTANDARDALLOCATION**](ns-d3dkmthk-_d3dkmt_createstandardallocation.md) structure that contains information to use when creating a standard allocation.
+Pointer to a [**D3DKMT_CREATESTANDARDALLOCATION**](ns-d3dkmthk-_d3dkmt_createstandardallocation.md) structure that describes the standard allocation to be created.
 
 ### -field pPrivateDriverData [in]
 

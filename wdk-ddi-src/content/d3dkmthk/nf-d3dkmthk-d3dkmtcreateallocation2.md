@@ -70,6 +70,8 @@ A user-mode graphics client can call **D3DKMTCreateAllocation2** to create alloc
 
 ### Examples
 
+#### Creating a stand-alone allocation in video memory that isn't associated with a resource
+
 The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation2** to create a stand-alone allocation in video memory that is not associated with a resource.
 
 ```c
@@ -94,6 +96,8 @@ D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAl
     return 0;
 }
 ```
+
+### Creating a resource with a single system memory allocation
 
 The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation2** to create a resource with a single system memory allocation.
 
