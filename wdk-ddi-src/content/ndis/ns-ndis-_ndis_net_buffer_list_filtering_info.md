@@ -84,7 +84,7 @@ A USHORT value that contains an identifier for a virtual machine  queue (VMQ) re
 
 ### -field FilteringInfo.QueueVPortInfo.VPortId
 
-A USHORT value that contains the identifier for a virtual port (VPort). A value of DEFAULT_VPORT_ID specifies the default VPort on the NIC switch. 
+A USHORT value that contains the identifier for a virtual port (VPort). A value of NDIS_DEFAULT_VPORT_ID specifies the default VPort on the NIC switch. 
 
 The VPort with the specified VPortId value must have previously been created through a set request of <a href="/windows-hardware/drivers/network/oid-nic-switch-create-vport">OID_NIC_SWITCH_CREATE_VPORT</a>.
 
