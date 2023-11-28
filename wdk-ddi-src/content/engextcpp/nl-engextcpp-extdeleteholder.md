@@ -1,10 +1,10 @@
 ---
-UID: NL:engextcpp.ExtUnknownHolder
+UID: NL:engextcpp.ExtDeleteHolder
 tech.root: debugger
-title: ExtUnknownHolder
+title: ExtDeleteHolder
 ms.date: 11/28/2023
 targetos: Windows
-description: The ExtUnknownHolder class is used with the engextcpp header.
+description: The ExtDeleteHolder class is used with the engextcpp header.
 prerelease: false
 req.assembly: 
 req.construct-type: class
@@ -29,14 +29,14 @@ api_type:
 api_location:
  - engextcpp.h
 api_name:
- - ExtUnknownHolder
+ - ExtDeleteHolder
 f1_keywords:
- - ExtUnknownHolder
- - engextcpp/ExtUnknownHolder
+ - ExtDeleteHolder
+ - engextcpp/ExtDeleteHolder
 dev_langs:
  - c++
 helpviewer_keywords:
- - ExtUnknownHolder
+ - ExtDeleteHolder
 ---
 
 ## -description
@@ -46,4 +46,3 @@ The ExtDeleteHolder class is used with the engextcpp header.
 ## -remarks
 
 ## -see-also
-
