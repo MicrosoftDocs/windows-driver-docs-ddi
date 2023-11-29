@@ -68,12 +68,10 @@ ExtRemoteTyped & operator=(
 
 ## -remarks
 
-The typed data can also be copied using the [ExtBuffer::Copy method](nf-engextcpp-extbuffer-copy(const_t_ulong).md)
+The typed data can also be copied using the [ExtBuffer::Copy method](nf-engextcpp-extbuffer-copy(const_t_ulong).md).
 
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>

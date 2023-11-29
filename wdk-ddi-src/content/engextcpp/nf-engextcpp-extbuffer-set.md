@@ -85,7 +85,7 @@ void Set(
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set(pcstr).md">ExtRemoteTyped::Set (PCSTR)</a>
+<a href="..\engextcpp\nf-engextcpp-extremotetyped-set(pcstr).md">ExtRemoteTyped::Set (PCSTR)</a>
 
 <a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
 

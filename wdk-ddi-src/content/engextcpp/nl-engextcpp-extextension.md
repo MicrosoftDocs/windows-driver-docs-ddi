@@ -413,7 +413,9 @@ The <b>ExtExtension</b> class includes the following methods, which can be used 
 
 </dd>
 </dl>The <b>ExtExtension</b> class also contains the following fields that can be used by the subclass:
-<pre class="syntax"><code>class ExtExtension
+
+```cpp
+class ExtExtension
 {
 public:
     USHORT  m_ExtMajorVersion;
@@ -468,6 +470,4 @@ public:
     ULONG  m_AppendBufferChars;
     PSTR  m_AppendAt;
 };
-
-
-</code></pre>
+```

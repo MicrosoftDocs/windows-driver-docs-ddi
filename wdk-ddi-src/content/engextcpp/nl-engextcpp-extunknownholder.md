@@ -7,7 +7,6 @@ targetos: Windows
 description: The ExtUnknownHolder class is used with the engextcpp header.
 prerelease: false
 req.assembly: 
-req.construct-type: class
 req.ddi-compliance: 
 req.dll: 
 req.header: engextcpp.h
