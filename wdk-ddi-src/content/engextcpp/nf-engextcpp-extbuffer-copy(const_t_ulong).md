@@ -76,8 +76,6 @@ void Copy(
 
 ## -remarks
 
-The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
-
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
