@@ -48,10 +48,7 @@ Default constructs an equivalent nullptr.
 
 ## -remarks
 
-Defines the location for an object.  This particular variant of Location is the C-COM access struct.
-Note that a location only has meaning in conjunction with a host context.  It is a location within
-a context.  When performing an operation on the location (reading bytes, writing bytes, etc...), 
-a valid host context must be supplied.
+Defines the location for an object.  This particular variant of Location is the C-COM access struct. Note that a location only has meaning in conjunction with a host context.  It is a location within a context.  When performing an operation on the location (reading bytes, writing bytes, etc...), a valid host context must be supplied.
 
 ### Returns
 

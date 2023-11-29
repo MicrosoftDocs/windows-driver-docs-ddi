@@ -50,9 +50,9 @@ The <b>operator=</b> overloaded assignment operator sets the typed data represen
 
 ### -param Ptr
 
-### -param Typed [in]
-
 A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the data and type to be assigned to this object.
+
+### -param Typed [in]
 
 ## -returns
 
@@ -68,13 +68,10 @@ ExtRemoteTyped & operator=(
 
 ## -remarks
 
-The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
+The typed data can also be copied using the [ExtBuffer::Copy method](nf-engextcpp-extbuffer-copy(const_t_ulong).md).
 
 ## -see-also
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
-
-<a href="..\engextcpp\nf-engextcpp-extbuffer-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
-

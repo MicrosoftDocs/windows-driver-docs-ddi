@@ -50,7 +50,13 @@ The <b>Copy</b> method sets the typed data represented by the <a href="..\engext
 
 ### -param Src
 
+### -param Elts
+
+DEBUG_TYPED_DATA
+
 ### -param Elts [in]
+
+DEBUG_TYPED_DATA
 
 ### -param Typed [in]
 
@@ -69,8 +75,6 @@ void Copy(
 ```
 
 ## -remarks
-
-The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy ExtRemoteTyped</a> method.
 
 ## -see-also
 

@@ -40,7 +40,6 @@ api_name:
 
 # Location(constLocation&) function
 
-
 ## -description
 
 Copy constructs a location.
