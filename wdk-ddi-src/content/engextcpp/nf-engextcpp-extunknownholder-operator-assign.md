@@ -84,9 +84,7 @@ A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPE
 
 ## -remarks
 
-
 The typed data can also be copied using the [ExtBuffer::Copy method](nf-engextcpp-extbuffer-copy(const_t_ulong).md)
-
 
 
 ## -see-also
