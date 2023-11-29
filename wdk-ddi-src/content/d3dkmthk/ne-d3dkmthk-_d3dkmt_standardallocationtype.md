@@ -50,9 +50,13 @@ The **D3DKMT_STANDARDALLOCATIONTYPE** enumeration specifies the standard allocat
 
 ## -enum-fields
 
-### -field D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP
+### -field D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP:1
 
-Indicates that the allocation type is an existing heap.
+The allocation type is an existing heap.
+
+### -field D3DKMT_STANDARDALLOCATIONTYPE_INTERNALBACKINGSTORE:2
+
+The allocation type is an internal backing store.
 
 ## -see-also
 
