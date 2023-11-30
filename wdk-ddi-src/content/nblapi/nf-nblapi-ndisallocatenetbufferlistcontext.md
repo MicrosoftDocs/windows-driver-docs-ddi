@@ -61,14 +61,14 @@ A pointer to a previously allocated NET_BUFFER_LIST structure.
 
 
 The amount of context space to allocate in the NET_BUFFER_LIST_CONTEXT structure. This amount must
-     be a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
+     be a multiple of the value defined by `sizeof(void*)`.
 
 ### -param ContextBackFill [in]
 
 
 The amount of memory, in addition to the value of 
      <i>ContextSize</i>, to allocate if NDIS must allocate memory to satisfy the request. This amount must be
-     a multiple of the value defined by MEMORY_ALLOCATION_ALIGNMENT.
+     a multiple of the value defined by `sizeof(void*)`.
 
 ### -param PoolTag [in]
 
@@ -134,6 +134,9 @@ If there is enough unused context space available in the
     context space. You can specify 
     <i>ContextBackFill</i> to allocate extra memory so that the next call to 
     <b>NdisAllocateNetBufferListContext</b> does not have to allocate memory.
+
+<div class="alert"><b>Note</b> The context space is always aligned to `sizeof(void*)`.
+     This is adequate alignment for all natural types, but it is not adequate for datatypes with unusual alignment requirements, like SLIST_ENTRY.</div>
 
 Call the 
     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfreenetbufferlistcontext">
