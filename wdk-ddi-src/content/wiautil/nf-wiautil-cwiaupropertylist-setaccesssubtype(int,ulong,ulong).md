@@ -64,7 +64,7 @@ Specifies the property subtype, one of WIA_PROP_FLAG, WIA_PROP_LIST, WIA_PROP_RA
 
 ## -returns
 
-This method does not return a value.
+This method returns an NTSTATUS value.
 
 ## -remarks
 
