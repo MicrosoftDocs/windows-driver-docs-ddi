@@ -80,7 +80,9 @@ A minifilter calls **FltVetoBypassIo** when it intends to veto a [FS_BPIO_OP_ENA
 
 **FltVetoBypassIo** fills in the caller-allocated [**FS_BPIO_OUTPUT**](../ntifs/ns-ntifs-fs_bpio_output.md) structure associated with **CallbackData** with the information needed to veto the BypassIO request. The caller must provide a buffer that is large enough to hold the structure.
 
-See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) for more information.
+**FltVetoBypassIo** logs an ETW event with the status, filter-provided reason, and filter's name.
+
+See [BypassIO for filter drivers](/windows-hardware/drivers/ifs/bypassio) and [Supporting BypassIO operations](/windows-hardware/drivers/ifs/bypassio-operations) for more information.
 
 ## -see-also
 
