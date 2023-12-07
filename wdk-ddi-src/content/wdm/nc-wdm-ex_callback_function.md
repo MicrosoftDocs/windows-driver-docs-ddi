@@ -2,9 +2,8 @@
 UID: NC:wdm.EX_CALLBACK_FUNCTION
 title: EX_CALLBACK_FUNCTION (wdm.h)
 description: A filter driver's RegistryCallback routine can monitor, block, or modify a registry operation.
-old-location: kernel\registrycallback.htm
 tech.root: kernel
-ms.date: 01/31/2022
+ms.date: 12/07/2023
 keywords: ["EX_CALLBACK_FUNCTION callback function"]
 ms.keywords: DrvrRtns_988f8f3d-4ee8-4351-8fc0-703a88bd8421.xml, EX_CALLBACK_FUNCTION, RegistryCallback, RegistryCallback routine [Kernel-Mode Driver Architecture], kernel.registrycallback, wdm/RegistryCallback
 req.header: wdm.h
@@ -50,18 +49,15 @@ A filter driver's *RegistryCallback* routine can monitor, block, or modify a reg
 
 ### -param CallbackContext [in]
 
-
 The value that the driver passed as the *Context* parameter to [CmRegisterCallback](./nf-wdm-cmregistercallback.md) or [CmRegisterCallbackEx](./nf-wdm-cmregistercallbackex.md) when it registered this *RegistryCallback* routine.
 
 ### -param Argument1 [in, optional]
 
-
-A [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)-typed value that identifies the type of registry operation that is being performed and whether the *RegistryCallback* routine is being called before or after the registry operation is performed.
+A [**REG_NOTIFY_CLASS**](./ne-wdm-_reg_notify_class.md)-typed value that identifies the type of registry operation that is being performed and whether the *RegistryCallback* routine is being called before or after the registry operation is performed.
 
 ### -param Argument2 [in, optional]
 
-
-A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md).
+A pointer to a structure that contains information that is specific to the type of registry operation. The structure type depends on the [**REG_NOTIFY_CLASS**](./ne-wdm-_reg_notify_class.md)-typed value for *Argument1*, as shown in the following table. For information about which REG_NOTIFY_CLASS-typed values are available for which operating system versions, see [**REG_NOTIFY_CLASS**](./ne-wdm-_reg_notify_class.md).
 
 | REG_NOTIFY_CLASS value | Structure type |
 |--|--|
@@ -126,9 +122,9 @@ A pointer to a structure that contains information that is specific to the type 
 | **RegNtPreQueryKeyName** | [REG_QUERY_KEY_NAME](./ns-wdm-_reg_query_key_name.md) |
 | **RegNtPostQueryKeyName** | [REG_POST_OPERATION_INFORMATION](./ns-wdm-_reg_post_operation_information.md) |
 | **RegNtPreSaveMergedKey** | [REG_SAVE_MERGED_KEY_INFORMATION](./ns-wdm-reg_save_merged_key_information.md) |
-| **RegNtPostSaveMergedKey** | [REG_SAVE_MERGED_KEY_INFORMATION](./ns-wdm-reg_save_merged_key_information.md) |
+| **RegNtPostSaveMergedKey** | [REG_POST_OPERATION_INFORMATION](./ns-wdm-_reg_post_operation_information.md) |
 
-Starting with Windows 7, the actual data structure passed in when the notify class is RegNtPreCreateKeyEx or RegNtPreOpenKeyEx is the V1 version of this structure, [REG_CREATE_KEY_INFORMATION_V1](./ns-wdm-_reg_create_key_information_v1.md)  or **REG_OPEN_KEY_INFORMATION_V1**, respectively. Check the Reserved member to determine the version of the structure.
+Starting with Windows 7, the actual data structure passed in when the notify class is RegNtPreCreateKeyEx or RegNtPreOpenKeyEx is the V1 version of this structure, [**REG_CREATE_KEY_INFORMATION_V1**](./ns-wdm-_reg_create_key_information_v1.md)  or **REG_OPEN_KEY_INFORMATION_V1**, respectively. Check the Reserved member to determine the version of the structure.
 
 | Version number | Structure name |
 |--|--|
@@ -187,7 +183,7 @@ NTSTATUS
   }
 ```
 
-The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the EX_CALLBACK_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about _Use_decl_annotations_, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
+The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the *Use_decl_annotations* annotation to your function definition. The *Use_decl_annotations* annotation ensures that the annotations that are applied to the EX_CALLBACK_FUNCTION function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about *Use_decl_annotations*, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
 
@@ -197,6 +193,6 @@ The EX_CALLBACK_FUNCTION function type is defined in the Wdm.h header file. To m
 
 [ProbeForRead](./nf-wdm-probeforread.md)
 
-[REG_NOTIFY_CLASS](./ne-wdm-_reg_notify_class.md)
+[**REG_NOTIFY_CLASS**](./ne-wdm-_reg_notify_class.md)
 
 [ZwOpenKey](./nf-wdm-zwopenkey.md)
