@@ -1,5 +1,5 @@
 ---
-UID: NF:ntifs._FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess
+UID: NF:ntifs.FsRtlOplockGetAnyBreakOwnerProcess
 title: FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess
 description: FsRtlOplockGetAnyBreakOwnerProcess gets an owner of an allegedly breaking oplock.
 tech.root: ifsk

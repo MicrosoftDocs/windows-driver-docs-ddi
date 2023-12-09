@@ -1,14 +1,14 @@
 ---
 UID: NS:d3dkmthk._DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
-title: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 (d3dkmthk.h)
-description: Used to register the power state of a new input.
-ms.date: 10/19/2018
+title: DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 (d3dkmthk.h)
+description: Learn more about the DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure.
+ms.date: 12/08/2023
 keywords: ["DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure"]
 ms.keywords: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,12 +41,11 @@ product:
  - Windows
 ---
 
-# _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure
-
+# DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure
 
 ## -description
 
-Used to register the power state of a new input.
+The **DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2** structure is used to register the power state of a new input.
 
 ## -struct-fields
 
@@ -60,30 +59,31 @@ The current version being used. This value must be set to one of the following D
 #define DXGK_GRAPHICSPOWER_VERSION_1_2 0x1002
 #define DXGK_GRAPHICSPOWER_VERSION DXGK_GRAPHICSPOWER_VERSION_1_2
 ```
-By default, DXGK_GRAPHICSPOWER_VERSION represents the latest version. Graphics will support the current version and all previous versions. If this value is a version that is not recognized, we will fail with STATUS_NOINTERFACE. This should only happen in the case the non-graphics driver was built for a newer OS than what is currently running, and in this case we expect the non-graphics driver to retry with a lower version number.
+
+By default, DXGK_GRAPHICSPOWER_VERSION represents the latest version. The graphics subsystem supports the current version and all previous versions. If this value is a version that isn't recognized, we will fail with STATUS_NOINTERFACE. This should only happen in the case the non-graphics driver was built for a newer OS than what is currently running, and in this case we expect the non-graphics driver to retry with a lower version number.
 
 DXGK_GRAPHICSPOWER_VERSION_1_1 supports F-state change notifications.
 DXGK_GRAPHICSPOWER_VERSION_1_2 supports initial enumeration of shared power component data and state.
 
 ### -field PrivateHandle
 
-An opaque handle which will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used. This handle will be used as a key by graphics to track this specific registration, and will be associated with the non-graphics driver callbacks in order to handle their future removal.
+An opaque handle that will be provided in any callbacks. This handle must be globally unique, therefore, a pointer to the calling driver’s PDO or FDO should be used. This handle will be used as a key by graphics to track this specific registration, and will be associated with the non-graphics driver callbacks in order to handle their future removal.
 
 ### -field PowerNotificationCb
 
-A callback providing notification that the graphics device will be undergoing a device power state transition, and provide a new DEVICE_POWER_STATE. This callback is required to be implemented. See [PDXGK_POWER_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_power_notification.md).
+A callback providing notification that the graphics device will be undergoing a device power state transition, and provide a new DEVICE_POWER_STATE. This callback is required to be implemented. See [**PDXGK_POWER_NOTIFICATION**](../d3dkmthk/nc-d3dkmthk-pdxgk_power_notification.md).
 
 ### -field RemovalNotificationCb
 
-A callback notifying that the graphics device is being removed. Any further callbacks into graphics for this DeviceHandle will return a failing NTSTATUS code and will be blocked until you return from the RemovalNotificationCb callback. This callback is required to be implemented. See [PDXGK_REMOVAL_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_removal_notification.md)
+A callback notifying that the graphics device is being removed. Any further callbacks into graphics for this DeviceHandle will return a failing NTSTATUS code and will be blocked until you return from the RemovalNotificationCb callback. This callback is required to be implemented. See [**PDXGK_REMOVAL_NOTIFICATION**](../d3dkmthk/nc-d3dkmthk-pdxgk_removal_notification.md)
 
 ### -field FStateNotificationCb
 
-Issues a state notification. This callback is optional, and is used by non-graphics drivers. See [PDXGK_FSTATE_NOTIFICATION](../d3dkmthk/nc-d3dkmthk-pdxgk_fstate_notification.md).
+Issues a state notification. This callback is optional, and is used by non-graphics drivers. See [**PDXGK_FSTATE_NOTIFICATION**](../d3dkmthk/nc-d3dkmthk-pdxgk_fstate_notification.md).
 
 ### -field InitialComponentStateCb
 
-Initializes the component state. See [PDXGK_INITIAL_COMPONENT_STATE](../d3dkmthk/nc-d3dkmthk-pdxgk_initial_component_state.md).
+Initializes the component state. See [**PDXGK_INITIAL_COMPONENT_STATE**](../d3dkmthk/nc-d3dkmthk-pdxgk_initial_component_state.md).
 
 ## -remarks
 
@@ -97,12 +97,4 @@ A blocking power component will prevent the graphics device from powering down w
 
 A graphics driver may expose both a blocking and non-blocking power component for a single physical/logical component, if it wishes to provide the ability for the non-graphics driver to selectively choose blocking or non-blocking usage.
 
-When the GRAPHICSPOWER driver interface is available and enabled, a non-graphics driver can make an IO call to the graphics driver to register itself with the graphics driver providing and obtaining callbacks which will be used to manage the shared power components. The IO call will use the ioctl code IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER, with input data **_DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2** and output data [_DXGK_GRAPHICSPOWER_REGISTER_OUTPUT](../d3dkmthk/ns-d3dkmthk-_dxgk_graphicspower_register_output.md).
-
-The IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER code is defined as follows:
-
-```c
-#define IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER \
-    CTL_CODE(FILE_DEVICE_VIDEO, 0xa01, METHOD_NEITHER, FILE_ANY_ACCESS)
-```
-
+When the GRAPHICSPOWER driver interface is available and enabled, a non-graphics driver can make an IO call to the graphics driver to register itself with the graphics driver providing and obtaining callbacks which will be used to manage the shared power components. The IO call will use the [**IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER**](ni-d3dkmthk-ioctl_internal_graphicspower_register.md) control code, with input data **DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2** and output data [_DXGK_GRAPHICSPOWER_REGISTER_OUTPUT](../d3dkmthk/ns-d3dkmthk-_dxgk_graphicspower_register_output.md).

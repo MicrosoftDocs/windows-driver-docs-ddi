@@ -1,14 +1,14 @@
 ---
-UID: NE:ntddvdeo._DSI2_CONTROL_TRANSMISSION_MODE
-title: DSI2_CONTROL_TRANSMISSION_MODE
+UID: NE:ntddvdeo._DSI_CONTROL_TRANSMISSION_MODE
+title: DSI_CONTROL_TRANSMISSION_MODE
 description: DSI-2 (display serial interface) control transmission mode.
 tech.root: display
 ms.date: 04/04/2019
-keywords: ["DSI2_CONTROL_TRANSMISSION_MODE enumeration"]
+keywords: ["DSI_CONTROL_TRANSMISSION_MODE enumeration"]
 f1_keywords:
- - "ntddvdeo/DSI2_CONTROL_TRANSMISSION_MODE"
- - "DSI2_CONTROL_TRANSMISSION_MODE"
-ms.keywords: DSI2_CONTROL_TRANSMISSION_MODE, DSI2_CONTROL_TRANSMISSION_MODE, 
+ - "ntddvdeo/DSI_CONTROL_TRANSMISSION_MODE"
+ - "DSI_CONTROL_TRANSMISSION_MODE"
+ms.keywords: DSI_CONTROL_TRANSMISSION_MODE, DSI_CONTROL_TRANSMISSION_MODE, 
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:
@@ -18,7 +18,7 @@ req.kmdf-ver:
 req.umdf-ver:
 req.ddi-compliance:
 req.max-support:
-req.typenames: DSI2_CONTROL_TRANSMISSION_MODE
+req.typenames: DSI_CONTROL_TRANSMISSION_MODE
 topic_type: 
  - apiref
 api_type: 
@@ -26,14 +26,14 @@ api_type:
 api_location: 
  - ntddvdeo.h
 api_name: 
- - DSI2_CONTROL_TRANSMISSION_MODE
+ - DSI_CONTROL_TRANSMISSION_MODE
 targetos: Windows
 dev_langs:
  - c++
 ms.custom: 19H1
 ---
 
-# DSI2_CONTROL_TRANSMISSION_MODE enumeration
+# DSI_CONTROL_TRANSMISSION_MODE enumeration
 
 ## -description
 
@@ -49,7 +49,7 @@ Default.
 
 Force low power.
 
-### -field DCT_FORCE_HIGH_PERFORMANCE 
+### -field DCT_FORCE_HIGH_PERFORMANCE
 
 Force high performance.
 

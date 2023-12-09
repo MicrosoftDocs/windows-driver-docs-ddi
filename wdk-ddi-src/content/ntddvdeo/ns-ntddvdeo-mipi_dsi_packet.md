@@ -1,14 +1,14 @@
 ---
-UID: NS:ntddvdeo._MIPI_DSI2_PACKET
-title: MIPI_DSI2_PACKET
+UID: NS:ntddvdeo._MIPI_DSI_PACKET
+title: MIPI_DSI_PACKET
 description: Mipi (mobile industry processor interface) DSI-2 (display serial interface) packet.
 tech.root: display
 ms.date: 04/04/2019
-keywords: ["MIPI_DSI2_PACKET structure"]
+keywords: ["MIPI_DSI_PACKET structure"]
 f1_keywords:
- - "ntddvdeo/MIPI_DSI2_PACKET"
- - "MIPI_DSI2_PACKET"
-ms.keywords: MIPI_DSI2_PACKET, MIPI_DSI2_PACKET, 
+ - "ntddvdeo/MIPI_DSI_PACKET"
+ - "MIPI_DSI_PACKET"
+ms.keywords: MIPI_DSI_PACKET, MIPI_DSI_PACKET, 
 req.header: ntddvdeo.h
 req.include-header:
 req.target-type:
@@ -21,7 +21,7 @@ req.dll:
 req.ddi-compliance:
 req.unicode-ansi:
 req.max-support:
-req.typenames: MIPI_DSI2_PACKET
+req.typenames: MIPI_DSI_PACKET
 topic_type: 
  - apiref
 api_type: 
@@ -29,14 +29,14 @@ api_type:
 api_location: 
  - ntddvdeo.h
 api_name: 
- - MIPI_DSI2_PACKET
+ - MIPI_DSI_PACKET
 targetos: Windows
 dev_langs:
  - c++
 ms.custom: 19H1
 ---
 
-# MIPI_DSI2_PACKET structure
+# MIPI_DSI_PACKET structure
 
 ## -description
 
