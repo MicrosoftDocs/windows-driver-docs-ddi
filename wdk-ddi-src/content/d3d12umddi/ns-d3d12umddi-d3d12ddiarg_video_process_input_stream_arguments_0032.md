@@ -42,10 +42,9 @@ api_name:
 
 # D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032 structure
 
-
 ## -description
 
-Specifies input stream parameters for an input stream passed to [PFND3D12DDI_VIDEO_PROCESS_FRAME](nc-d3d12umddi-pfnd3d12ddi_video_process_frame_0032.md).
+**D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0032** specifies input stream parameters for an input stream passed to [PFND3D12DDI_VIDEO_PROCESS_FRAME](nc-d3d12umddi-pfnd3d12ddi_video_process_frame_0032.md).
 
 ## -struct-fields
 
@@ -77,3 +76,6 @@ The planar alpha for an input stream on the video processor. See [D3D12DDI_VIDEO
 
 The size of the video decoder heap is static at compile time.
 
+## -see-also
+
+[**PFND3D12DDI_VIDEO_PROCESS_FRAME_0032**](nc-d3d12umddi-pfnd3d12ddi_video_process_frame_0032.md)
