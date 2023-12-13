@@ -1,9 +1,8 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032
 title: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 (d3d12umddi.h)
-description: Describes output stream properties for the video processor.
-old-location: display\d3d12ddi_video_process_output_stream_desc_0032.htm
-ms.date: 04/16/2018
+description: Learn more about the D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure.
+ms.date: 12/08/2023
 keywords: ["D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, display.d3d12ddi_video_process_output_stream_desc_0032
 req.header: d3d12umddi.h
@@ -42,10 +41,9 @@ api_name:
 
 # D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure
 
-
 ## -description
 
-Describes output stream properties for the video processor.
+**D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032** describes output stream properties for the video processor.
 
 ## -struct-fields
 
@@ -55,19 +53,19 @@ The DXGI format of the output texture.
 
 ### -field ColorSpace
 
-A DXGI_COLOR_SPACE_TYPE value that specifies the color space for the video processor output surface.
+The color space for the video processor output surface as a [**DXGI_COLOR_SPACE_TYPE**](/windows/win32/api/dxgicommon/ne-dxgicommon-dxgi_color_space_type) value.
 
 ### -field AlphaFillMode
 
-The alpha fill mode for data that the video processor writes to the render target. See [D3D12DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE](ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md).
+The alpha fill mode for data that the video processor writes to the render target. See [**D3D12DDI_VIDEO_PROCESSOR_ALPHA_FILL_MODE**](ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md).
 
 ### -field AlphaFillModeSourceStreamIndex
 
-The zero-based index of an input stream. This parameter is used if AlphaFillMode is [D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_SOURCE_STREAM](ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md). Otherwise, the parameter is ignored.
+The zero-based index of an input stream. This field is used if **AlphaFillMode** has the value **D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE_SOURCE_STREAM**. Otherwise, it is ignored.
 
 ### -field BackgroundColor
 
-The video processor uses the background color to fill areas of the target rectangle that do not contain a video image. Areas outside the target rectangle are not affected. The meaning of the values is specified by the ColorSpace parameter.
+The video processor uses the background color to fill areas of the target rectangle that don't contain a video image. Areas outside the target rectangle aren't affected. The meaning of the values is specified by the **ColorSpace** member.
 
 | Value | YCbCrA | RGBA |
 | ----- | ------ | ---- |
@@ -78,9 +76,12 @@ The video processor uses the background color to fill areas of the target rectan
 
 ### -field FrameRate
 
-The frame rate of the output video stream, specified as a DXGI_RATIONAL structure.
+The frame rate of the output video stream, specified as a [**DXGI_RATIONAL**](/windows/win32/api/dxgicommon/ns-dxgicommon-dxgi_rational) structure.
 
 ### -field EnableStereo
 
 If TRUE, stereo output is enabled. Otherwise, the video processor produces mono video frames.
 
+## -see-also
+
+[**PFND3D12DDI_VIDEO_PROCESS_FRAME_0043**](nc-d3d12umddi-pfnd3d12ddi_video_process_frame_0043.md)
