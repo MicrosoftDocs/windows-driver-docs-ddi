@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **IRP** structure is a partially opaque structure that represents an *I/O request packet*. Undocumented members of the IRP structure are reserved, used only by the I/O manager or in some cases, by file system drivers (FSDs).
+The **IRP** structure is a partially opaque structure that represents an *I/O request packet*. Undocumented members of the **IRP** structure are reserved, used only by the I/O manager or in some cases, by file system drivers (FSDs).
 
 ## -struct-fields
 
