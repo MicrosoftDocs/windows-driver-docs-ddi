@@ -42,7 +42,6 @@ api_name:
 
 # D3D12DDI_VIDEO_DECODE_COMPRESSED_BITSTREAM_0032 structure
 
-
 ## -description
 
 Contains the compressed bitstream to decode from.
@@ -60,4 +59,3 @@ The offset to the beginning of the first slice. This offset has alignment requir
 ### -field Size
 
 The buffer size.
-
