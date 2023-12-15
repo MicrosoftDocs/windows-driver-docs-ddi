@@ -50,7 +50,7 @@ api_name:
 
 ## -description
 
-The **USB_NODE_CONNECTION_INFORMATION_EX** structure is used in conjunction with the **[IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX](ni-usbioctl-ioctl_usb_get_node_connection_information_ex)** request to obtain information about the connection associated with the indicated USB port.
+The **USB_NODE_CONNECTION_INFORMATION_EX** structure is used in conjunction with the **[IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX](ni-usbioctl-ioctl_usb_get_node_connection_information_ex.md)** request to obtain information about the connection associated with the indicated USB port.
 
 ## -struct-fields
 
