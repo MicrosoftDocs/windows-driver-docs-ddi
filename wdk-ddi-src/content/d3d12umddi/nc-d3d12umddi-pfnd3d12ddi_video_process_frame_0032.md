@@ -65,7 +65,7 @@ The output arguments for the video process. The available parameters are in the 
 
 ### -param pInputStreamParameters
 
-Specifies an array of input parameters. The available parameters are in the [D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0032.md) structure.
+Specifies an array of input parameters. The available parameters are in the [D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0043.md) structure.
 
 ### -param NumInputStreams
 
