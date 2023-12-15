@@ -42,7 +42,6 @@ api_name:
 
 # D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_DATA_0032 structure
 
-
 ## -description
 
 Structure used to check if a color space conversion, format conversion, and scale are supported, and whether it is required for real-time reasons or reference buffer format.
@@ -83,9 +82,10 @@ Indicates the supported output size range for decode conversion. See [D3D12DDI_V
 
 ## -remarks
 
+The check is made through [**pfnGetCaps**](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md) with the [**D3D12DDICAPS_TYPE**](ne-d3d12umddi-d3d12ddicaps_type.md) set to a value of **D3D12DDICAPS_TYPE_VIDEO_DECODE_CONVERSION_SUPPORT**.
+
 If the color space and format conversion is reported, **SupportedFlags** will have D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_SUPPORTED set. Callers should check **ScaleSupport** to understand if the scale is supported.
 
 ## -see-also
 
 [D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS](ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md)
-

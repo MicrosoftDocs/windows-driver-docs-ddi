@@ -42,16 +42,15 @@ api_name:
 
 # D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032 structure
 
-
 ## -description
 
-The video process input stream rate info.
+The **D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_RATE_INFO_0032** structure specifies the video process input stream rate info.
 
 ## -struct-fields
 
 ### -field OutputIndex
 
-The OutputIndex member is a zero-based cyclic number that indicates the frame index number of the output frame. The driver uses this output-index information to perform the video processing in a certain pattern or cycle, especially when the driver performs deinterlacing or frame-rate conversion.With the following output-index pattern, the driver performs the indicated video processing:
+A zero-based cyclic number that indicates the frame index number of the output frame. The driver uses this output-index information to perform the video processing in a certain pattern or cycle, especially when the driver performs deinterlacing or frame-rate conversion.With the following output-index pattern, the driver performs the indicated video processing:
 
 * Progressive format at normal and half rate:  OutputIndex = 0, 0, ...
 * Progressive format at 2/1 custom rate (double frame-rate conversion, OutputFrames=2):  OutputIndex = 0, 1, 0, 1, ...
@@ -68,3 +67,6 @@ The InputFrameOrField member is a zero-based number that indicates the frame or 
 * Interlaced format at 4/5 custom rate (3:2 inverse telecine, OutputFrames=4 and InputFrameOrField=10):  InputFrameOrField = 0, 0, 0, 0, 10, 10, 10, 10, 20, 20, 20, 20, ...
 * Interlaced format at 4/15 custom rate (8:7 inverse telecine, OutputFrames=2 and InputFrameOrField=15): InputFrameOrField = 0, 0, 15, 15, 30, 30, ...
 
+## -see-also
+
+[**D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043**](ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0043.md)

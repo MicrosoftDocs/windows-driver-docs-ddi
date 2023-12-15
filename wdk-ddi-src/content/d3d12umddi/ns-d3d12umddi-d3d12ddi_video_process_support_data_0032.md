@@ -42,10 +42,9 @@ api_name:
 
 # D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032 structure
 
-
 ## -description
 
-Structure for the [D3D12DDICAPS_TYPE_VIDEO_PROCESS_SUPPORT](ns-d3d12umddi-d3d12ddi_video_decode_support_data_0020.md) capability check.This structure is used to retrieve the capabilities for the video processor.
+The **D3D12DDI_VIDEO_PROCESS_SUPPORT_DATA_0032** structure specifies information used to retrieve the capabilities for a video processor. It's used by the [PFND3D12DDI_VIDEO_GETCAPS](nc-d3d12umddi-pfnd3d12ddi_video_getcaps.md) callback function, with the **Type** parameter in [D3D12DDIARG_VIDEO_GETCAPS_0020](ns-d3d12umddi-d3d12ddiarg_video_getcaps_0020.md) set to D3D12DDICAPS_TYPE_VIDEO_0020_PROCESS_SUPPORT.
 
 ## -struct-fields
 
@@ -113,4 +112,3 @@ The value of D3D12DDI_VIDEO_PROCESS_MAX_FILTERS is defined as such:
 ```c
 #define D3D12DDI_VIDEO_PROCESS_MAX_FILTERS_0020 32
 ```
-
