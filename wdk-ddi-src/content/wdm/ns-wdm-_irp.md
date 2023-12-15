@@ -63,17 +63,17 @@ Reserved for internal system use.
 
 Pointer to an MDL describing a user buffer, if the driver is using direct I/O, and the IRP major function code is one of the following:
 
-#### IRP_MJ_READ
+- **IRP_MJ_READ**
 
-The MDL describes an empty buffer that the device or driver fills in.
+    The MDL describes an empty buffer that the device or driver fills in.
 
-#### IRP_MJ_WRITE
+- **IRP_MJ_WRITE**
 
-The MDL describes a buffer that contains data for the device or driver.
+    The MDL describes a buffer that contains data for the device or driver.
 
-#### IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
+- **IRP_MJ_DEVICE_CONTROL** or **IRP_MJ_INTERNAL_DEVICE_CONTROL**
 
-If the IOCTL code specifies the METHOD_IN_DIRECT transfer type, the MDL describes a buffer that contains data for the device or driver.
+    If the IOCTL code specifies the METHOD_IN_DIRECT transfer type, the MDL describes a buffer that contains data for the device or driver.
 
 If the IOCTL code specifies the METHOD_OUT_DIRECT transfer type, the MDL describes an empty buffer that the device or driver fills in.
 
@@ -121,21 +121,17 @@ Pointer to a system-space buffer.
 
 If the driver is using buffered I/O, the buffer's purpose is determined by the IRP major function code, as follows:
 
-#### SystemBuffer.IRP_MJ_READ
+- **SystemBuffer.IRP_MJ_READ**
 
-The buffer receives data from the device or driver. The buffer's length is specified by **Parameters.Read.Length** in the driver's [IO_STACK_LOCATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location) structure.
+    The buffer receives data from the device or driver. The buffer's length is specified by **Parameters.Read.Length** in the driver's [IO_STACK_LOCATION](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_stack_location) structure.
 
-**NULL**.
+- **SystemBuffer.IRP_MJ_WRITE**
 
-#### SystemBuffer.IRP_MJ_WRITE
+    The buffer supplies data for the device or driver. The buffer's length is specified by **Parameters.Write.Length** in the driver's **IO_STACK_LOCATION** structure.
 
-The buffer supplies data for the device or driver. The buffer's length is specified by **Parameters.Write.Length** in the driver's **IO_STACK_LOCATION** structure.
+- **SystemBuffer.IRP_MJ_DEVICE_CONTROL** or **IRP_MJ_INTERNAL_DEVICE_CONTROL**
 
-**NULL**.
-
-##### SystemBuffer.IRP_MJ_DEVICE_CONTROL or IRP_MJ_INTERNAL_DEVICE_CONTROL
-
-The buffer represents both the input and output buffers that are supplied to **DeviceIoControl** and **IoBuildDeviceIoControlRequest**. Output data overwrites input data.
+    The buffer represents both the input and output buffers that are supplied to **DeviceIoControl** and **IoBuildDeviceIoControlRequest**. Output data overwrites input data.
 
 For input, the buffer's length is specified by **Parameters.DeviceIoControl.InputBufferLength** in the driver's **IO_STACK_LOCATION** structure.
 
