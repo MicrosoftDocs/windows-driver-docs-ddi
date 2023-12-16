@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052
 title: PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052 (d3d12umddi.h)
-description: Calculates the private meta-command size.
-ms.date: 10/19/2018
+description: Learn more about the PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -43,10 +43,9 @@ dev_langs:
 
 # PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052 callback function
 
-
 ## -description
 
-Calculates the private meta-command size.
+**PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052** calculates the private meta-command size.
 
 ## -parameters
 
@@ -64,38 +63,12 @@ The node mask of the command list.
 
 ### -param pCreationParameters
 
-The creation parameters.
+Pointer to the creation parameters.
 
 ### -param CreationParametersDataSizeInBytes
 
-The size of the creation parameters.
+The size in bytes of the creation parameters that **pCreationParameters** points to.
 
 ## -returns
 
-Returns SIZE_T.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_CALC_PRIVATE_META_COMMAND_SIZE_0052 Pfnd3d12ddiCalcPrivateMetaCommandSize0052; 
-
-// Definition
-
-SIZE_T Pfnd3d12ddiCalcPrivateMetaCommandSize0052 
-(
-	D3D12DDI_HDEVICE Arg1
-	GUID CommandId
-	UINT NodeMask
-	CONST void *pCreationParameters
-	SIZE_T CreationParametersDataSizeInBytes
-)
-{...}
-
-```
-
-## -remarks
-
-## -see-also
-
+Returns SIZE_T that describes the meta-command size, in bytes.

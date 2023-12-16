@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1
 title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 (d3d12umddi.h)
-description: The PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 callback function decodes a video frame. The function is called by a client driver.
-ms.date: 10/19/2018
+description: Learn more about the PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -40,7 +40,6 @@ product:
 
 # PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 callback function
 
-
 ## -description
 
 Implemented by the client driver to decode a video frame.
@@ -57,33 +56,8 @@ The video decoder that contains internal state for this decode session.  Example
 
 ### -param pOutputStreamParameters
 
-Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md).
+Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0041_1.md).
 
 ### -param pInputStreamParameters
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1 Pfnd3d12ddiVideoDecodeFrame00411;
-
-// Definition
-
-VOID Pfnd3d12ddiVideoDecodeFrame00411
-(
-	D3D12DDI_HCOMMANDLIST hDrvCommandList
-	D3D12DDI_HVIDEODECODER_0020 hDrvDecoder
-	 const D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041_1 *pOutputStreamParameters
-	 const D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 *pInputStreamParameters
-)
-{...}
-
-PFND3D12DDI_VIDEO_DECODE_FRAME_0041_1
-
-
-```
-
-## -see-also

@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_EXECUTE_META_COMMAND_0052
 title: PFND3D12DDI_EXECUTE_META_COMMAND_0052 (d3d12umddi.h)
-description: Executes the meta-command.
-ms.date: 10/19/2018
+description: Learn more about the D3D12DDI_EXECUTE_META_COMMAND_0052 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_EXECUTE_META_COMMAND_0052 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -43,10 +43,9 @@ dev_langs:
 
 # PFND3D12DDI_EXECUTE_META_COMMAND_0052 callback function
 
-
 ## -description
 
-Executes the meta-command.
+**PFND3D12DDI_EXECUTE_META_COMMAND_0052** executes a meta-command.
 
 ## -parameters
 
@@ -60,27 +59,16 @@ A handle to the meta-command.
 
 ### -param unnamedParam3
 
-A pointer to void.
+A pointer to the execution parameters for the meta-command.
 
 ### -param unnamedParam4
 
-## -prototype
+Size of the execution parameters for the meta-command, in bytes.
 
-```cpp
-//Declaration
+## -remarks
 
-PFND3D12DDI_EXECUTE_META_COMMAND_0052 Pfnd3d12ddiExecuteMetaCommand0052; 
+The meta-command initialize call must be executed at least once prior to any execute call being executed on the GPU timeline.
 
-// Definition
+## -see-also
 
-VOID Pfnd3d12ddiExecuteMetaCommand0052 
-(
-	D3D12DDI_HCOMMANDLIST Arg1
-	D3D12DDI_HMETACOMMAND_0052 Arg2
-	CONST void *
-	SIZE_T Arg3
-)
-{...}
-
-```
-
+[**PFND3D12DDI_INITIALIZE_META_COMMAND_0052**](nc-d3d12umddi-pfnd3d12ddi_initialize_meta_command_0052.md)
