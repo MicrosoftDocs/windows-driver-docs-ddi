@@ -44,10 +44,9 @@ product:
 
 # PFND3D12DDI_VIDEO_DECODE_FRAME_0032 callback
 
-
 ## -description
 
-Records a decode frame operation to the command list.  Inputs, outputs, and parameters for the decode are specified as arguments to this method.
+**PFND3D12DDI_VIDEO_DECODE_FRAME_0032** records a decode frame operation to the command list. Inputs, outputs, and parameters for the decode are specified as arguments to this method.
 
 ## -parameters
 
@@ -66,4 +65,3 @@ Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_O
 ### -param pInputStreamParameters
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
-

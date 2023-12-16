@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_INITIALIZE_META_COMMAND_0052
 title: PFND3D12DDI_INITIALIZE_META_COMMAND_0052 (d3d12umddi.h)
-description: Initializes a meta-command.
-ms.date: 10/19/2018
+description: Learn more about the D3D12DDI_INITIALIZE_META_COMMAND_0052 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_INITIALIZE_META_COMMAND_0052 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -43,16 +43,15 @@ dev_langs:
 
 # PFND3D12DDI_INITIALIZE_META_COMMAND_0052 callback function
 
-
 ## -description
 
-Initializes a meta-command.
+**PFND3D12DDI_INITIALIZE_META_COMMAND_0052** initializes a meta-command.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-A handle to the driver's data for the command list.
+A handle to the driver's data for the command list. The driver uses this region of memory to store internal data structures that are related to its command list.
 
 ### -param unnamedParam2
 
@@ -60,29 +59,11 @@ A handle to a meta-command.
 
 ### -param unnamedParam3
 
-A pointer to a meta-command.
+A pointer to the execution parameters for the meta-command.
 
 ### -param unnamedParam4
 
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_INITIALIZE_META_COMMAND_0052 Pfnd3d12ddiInitializeMetaCommand0052; 
-
-// Definition
-
-VOID Pfnd3d12ddiInitializeMetaCommand0052 
-(
-	D3D12DDI_HCOMMANDLIST Arg1
-	D3D12DDI_HMETACOMMAND_0052 Arg2
-	CONST void *
-	SIZE_T Arg3
-)
-{...}
-
-```
+Size of the execution parameters for the meta-command, in bytes.
 
 ## -remarks
 
@@ -90,3 +71,4 @@ The meta-command initialize call must be executed at least once prior to any exe
 
 ## -see-also
 
+[**PFND3D12DDI_EXECUTE_META_COMMAND_0052**](nc-d3d12umddi-pfnd3d12ddi_execute_meta_command_0052.md)

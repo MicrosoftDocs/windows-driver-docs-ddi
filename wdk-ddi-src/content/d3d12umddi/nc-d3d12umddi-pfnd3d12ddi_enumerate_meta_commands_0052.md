@@ -43,10 +43,9 @@ dev_langs:
 
 # PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function
 
-
 ## -description
 
-The PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 callback function enumerates meta-commands.
+The **PFND3D12DDI_ENUMERATE_META_COMMANDS_0052** callback function enumerates meta-commands.
 
 ## -parameters
 
@@ -56,36 +55,16 @@ A handle to the display device (graphics context).
 
 ### -param pNumMetaCommands
 
-The number of meta-commands.
+Pointer to a value in which the number of enumerated meta-commands is written.
 
 ### -param pDescs
 
-Pointer to an array of meta-command descriptions.
+Pointer to an array of [**D3D12DDIARG_META_COMMAND_DESC**](ns-d3d12umddi-d3d12ddiarg_meta_command_desc.md) structures containing the meta-command descriptions.
 
 ## -returns
 
 Returns HRESULT.
 
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_ENUMERATE_META_COMMANDS_0052 Pfnd3d12ddiEnumerateMetaCommands0052; 
-
-// Definition
-
-HRESULT Pfnd3d12ddiEnumerateMetaCommands0052 
-(
-	D3D12DDI_HDEVICE Arg1
-	UINT *pNumMetaCommands
-	D3D12DDIARG_META_COMMAND_DESC *pDescs
-)
-{...}
-
-```
-
-## -remarks
-
 ## -see-also
 
+[**PFND3D12DDI_CREATE_META_COMMAND_0052**](nc-d3d12umddi-pfnd3d12ddi_create_meta_command_0052.md)

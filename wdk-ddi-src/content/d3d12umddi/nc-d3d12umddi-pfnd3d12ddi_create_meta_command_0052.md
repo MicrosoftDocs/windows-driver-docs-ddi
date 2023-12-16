@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATE_META_COMMAND_0052
 title: PFND3D12DDI_CREATE_META_COMMAND_0052 (d3d12umddi.h)
-description: Creates a meta-command.
-ms.date: 10/19/2018
+description: Learn more about the PFND3D12DDI_CREATE_META_COMMAND_0052 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_CREATE_META_COMMAND_0052 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -42,7 +42,6 @@ dev_langs:
 ---
 
 # PFND3D12DDI_CREATE_META_COMMAND_0052 callback function
-
 
 ## -description
 
@@ -111,3 +110,8 @@ The runtime will validate the meta-command guid via an approved list. This check
 
 ## -see-also
 
+[**PFND3D12DDI_DESTROY_META_COMMAND_0052**](nc-d3d12umddi-pfnd3d12ddi_destroy_meta_command_0052.md)
+
+[**PFND3D12DDI_EXECUTE_META_COMMAND_0052**](nc-d3d12umddi-pfnd3d12ddi_execute_meta_command_0052.md)
+
+[**PFND3D12DDI_INITIALIZE_META_COMMAND_0052**](nc-d3d12umddi-pfnd3d12ddi_initialize_meta_command_0052.md)

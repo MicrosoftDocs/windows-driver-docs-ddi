@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052
 title: PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 (d3d12umddi.h)
-description: Gets required information for a meta-command.
-ms.date: 10/19/2018
+description: Learn more about the PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -43,7 +43,7 @@ dev_langs:
 
 ## -description
 
-Gets required information for a meta-command.
+**PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052** gets required information for a meta-command.
 
 ## -parameters
 
@@ -53,7 +53,7 @@ A handle to a meta-command.
 
 ### -param Stage
 
-A pointer to a [D3D12DDI_META_COMMAND_PARAMETER_STAGE](ne-d3d12umddi-d3d12ddi_meta_command_parameter_stage.md).
+A pointer to a [**D3D12DDI_META_COMMAND_PARAMETER_STAGE**](ne-d3d12umddi-d3d12ddi_meta_command_parameter_stage.md).
 
 ### -param ParameterIndex
 
@@ -61,29 +61,7 @@ The index of the parameter.
 
 ### -param unnamedParam4
 
-A pointer to a [D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO](ns-d3d12umddi-d3d12ddiarg_meta_command_required_parameter_info.md) structure that contains the meta-command's required parameter info.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_GET_META_COMMAND_REQUIRED_PARAMETER_INFO_0052 Pfnd3d12ddiGetMetaCommandRequiredParameterInfo0052;
-
-// Definition
-
-VOID Pfnd3d12ddiGetMetaCommandRequiredParameterInfo0052
-(
-    D3D12DDI_HMETACOMMAND_0052 Arg1
-    D3D12DDI_META_COMMAND_PARAMETER_STAGE Stage
-    UINT ParameterIndex
-    D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO *
-)
-{...}
-
-```
-
-## -remarks
+A pointer to a [**D3D12DDIARG_META_COMMAND_REQUIRED_PARAMETER_INFO**](ns-d3d12umddi-d3d12ddiarg_meta_command_required_parameter_info.md) structure in which the meta-command's required parameter info is written.
 
 ## -see-also
 
