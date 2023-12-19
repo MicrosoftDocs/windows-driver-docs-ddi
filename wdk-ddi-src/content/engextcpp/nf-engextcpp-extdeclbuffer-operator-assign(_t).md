@@ -1,7 +1,7 @@
 ---
 UID: NF:engextcpp.ExtDeclBuffer.operator-assign(_T)
-title: ExtDeclBuffer::operator= method (engextcpp.h)
-description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
+title: "ExtDeclBuffer::operator= method (engextcpp.h)"
+description: "The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object."
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
 ms.date: 01/19/2018

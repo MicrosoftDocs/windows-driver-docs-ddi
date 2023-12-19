@@ -1,10 +1,10 @@
 ---
 UID: NF:engextcpp.ExtDeclAlignedBuffer.operator-assign(_T)
-title: ExtDeclAlignedBuffer::operator= method (engextcpp.h)
-description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
+title: "ExtDeclAlignedBuffer::operator= method (engextcpp.h)"
+description: "The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object."
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
 tech.root: debugger
-ms.date: 01/19/2018
+ms.date: 12/19/2023
 keywords: ["ExtDeclAlignedBuffer::operator= method"]
 ms.keywords: debugger.extremotetyped_operatorequals_debug_typed_data, operator=, ExtCheckedPointer::operator=, ExtRemoteTyped class [Windows Debugging], operator= method, ExtCheckedPointer, ExtDeclAlignedBuffer::operator=, ExtBuffer::operator=, ExtBuffer, operator= method [Windows Debugging], ExtRemoteTyped class, operator= method [Windows Debugging], ExtDeclAlignedBuffer
 f1_keywords:
