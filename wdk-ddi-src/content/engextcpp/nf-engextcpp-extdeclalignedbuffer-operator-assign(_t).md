@@ -48,9 +48,7 @@ req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 
 The <b>operator=</b> overloaded assignment operator sets the typed data represented by the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object by copying the information from another object.
 
-
 ## -syntax
-
 
 ```
 ExtRemoteTyped & operator=(
@@ -61,19 +59,9 @@ ExtRemoteTyped & operator=(
 
 ## -parameters
 
-
-
-
 ### -param Ptr
 
-
-
-
-
-### -param Typed [in]
-
 A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a> structure that describes the data and type to be assigned to this object.
-
 
 ## -returns
 
@@ -81,12 +69,9 @@ A pointer to a <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPE
 <b>operator=</b>  returns the <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a> object.
 
 
-
 ## -remarks
 
-
 The typed data can also be copied using the [ExtBuffer::Copy method](nf-engextcpp-extbuffer-copy(const_t_ulong).md)
-
 
 
 ## -see-also
