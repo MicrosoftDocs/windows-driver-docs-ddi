@@ -1622,37 +1622,152 @@
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/index.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriverpackageaction/index.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-compare.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-compare",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordevicethatcanusepackage.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordevicethatcanusepackage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordeviceusingpackage.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-getqueryfordeviceusingpackage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_catalogfile.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_catalogfile",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classguid.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classguid",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classname.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_classname",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_date.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_date",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_digitalsigner.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_digitalsigner",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_hascatalog.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_hascatalog",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_inffilename.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_inffilename",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isdigitalsigned.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isdigitalsigned",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isimported.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_isimported",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_provider.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_version.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-get_version",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-setpackageinffilename.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriverpackageaction-iwdtfdriverpackageaction2-setpackageinffilename",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriverpackageaction/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriverpackageaction-iwdtfdriverpackageaction2",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriversetupdeviceaction/index.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriversetupdeviceaction/index.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-uninstalldriverpermanently",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriversetupdeviceaction/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2-updatedriver",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriversetupdeviceaction/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriversetupdeviceaction-iwdtfdriversetupaction2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/index.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-cleartriagelogs.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-cleartriagelogs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-importdriverpackage.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-importdriverpackage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-isimported.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-isimported",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-removedriverpackage.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-removedriverpackage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-rescanalldevices.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-rescanalldevices",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-snaptriagelogs.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-snaptriagelogs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-waitnopendinginstallevents.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nf-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2-waitnopendinginstallevents",
       "redirect_document_id": false
     },
     {
       "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md",
-      "redirect_URL": "https://github.com/MicrosoftDocs/windows-driver-docs-ddi/blob/staging/wdk-ddi-src/content/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md",
+      "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2",
       "redirect_document_id": false
     }
   ]
