@@ -71,6 +71,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_context_data_size.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_size",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/ndis/nf-ndis-net_buffer_list_context_data_start.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/nblaccessors/nf-nblaccessors-net_buffer_list_context_data_start",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "wdk-ddi-src/content/ntddndis/ne-ntddndis-_ndis_request_type.md",
       "redirect_URL": "/windows-hardware/drivers/ddi/oidtypes/ne-oidtypes-ndis_request_type",
       "redirect_document_id": false
@@ -543,6 +553,11 @@
     {
       "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_buffer_list.md",
       "redirect_URL": "/windows-hardware/drivers/ddi/nbl/ns-nbl-net_buffer_list",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/ndis/ns-ndis-_net_pnp_event.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/netpnp/ns-netpnp-_net_pnp_event",
       "redirect_document_id": false
     },
     {
