@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "wdk-ddi-src/content/wwan/ns-wwan-_wwan_modem_config_status.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/wwan/ns-wwan-_wwan_modem_config_info",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "wdk-ddi-src/content/wdfsync/nc-wdfsync-pfn_wdfobjectacquirelock.md",
       "redirect_URL": "/windows-hardware/drivers/ddi/wdfsync/nf-wdfsync-wdfobjectacquirelock",
       "redirect_document_id": false

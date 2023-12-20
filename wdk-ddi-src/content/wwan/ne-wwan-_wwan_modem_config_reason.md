@@ -94,5 +94,5 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="/previous-versions/mt813894(v=vs.85)">WWAN_MODEM_CONFIG_STATUS</a>
+[WWAN_MODEM_CONFIG_INFO](ns-wwan-_wwan_modem_config_info.md)
 
