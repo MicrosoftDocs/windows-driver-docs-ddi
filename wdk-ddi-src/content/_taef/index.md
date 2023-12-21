@@ -17,6 +17,5 @@ Overview of the Test Authoring and Execution Framework (TAEF) technology.
 
 The TAEF technology is associated with these headers.
 
-wexlogtrace.h
-wextestclass.h
-
+- [wexlogtrace.h](../wexlogtrace/index.md)
+- [wextestclass.h](../wextestclass/index.md)
