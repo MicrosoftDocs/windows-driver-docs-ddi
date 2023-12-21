@@ -1,9 +1,9 @@
 ---
 UID: NF:wexlogtrace.operator-assign
-title: operator= function (wexlogtrace.h)
-description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
+title: "operator= function (wexlogtrace.h)"
+description: "The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object."
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
-tech.root: debugger
+tech.root: taef
 ms.date: 08/10/2018
 keywords: ["operator= function"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
