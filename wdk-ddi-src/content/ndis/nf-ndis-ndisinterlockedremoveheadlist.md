@@ -50,6 +50,14 @@ The
   <b>NdisInterlockedRemoveHeadList</b> function removes an entry, usually a packet, from the head of a doubly
   linked list so that access to the list is synchronized in a multiprocessor-safe way.
 
+## -syntax
+```cpp
+PLIST_ENTRY NdisInterlockedRemoveHeadList(
+  [in]  _ListHead,
+  [in]  _SpinLock
+);
+```
+
 ## -parameters
 
 ### -param _ListHead [in]
@@ -61,6 +69,10 @@ A pointer to the head of the doubly linked list from which an entry is to be rem
 
 
 A pointer to a caller-supplied spin lock, used to synchronize access to the list.
+
+## -returns
+
+<b>NdisInterlockedRemoveHeadList</b> returns a pointer to the <a href="/windows/win32/api/ntdef/ns-ntdef-list_entry">LIST_ENTRY</a> structure removed from the list. If the list was empty, the routine returns <b>NULL</b>.
 
 ## -remarks
 
