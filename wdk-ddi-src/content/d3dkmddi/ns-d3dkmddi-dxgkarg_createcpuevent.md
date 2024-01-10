@@ -61,7 +61,7 @@ The **DXGKARG_CREATECPUEVENT** structure is an argument passed to [**DXGKDDI_CRE
 
 ### -field hKmdCpuEvent
 
-[in] Handle to the KMD CPU event object.
+[out] Handle to the created KMD CPU event object.
 
 ## -remarks
 
