@@ -5,8 +5,8 @@ ms.date: 11/10/2023
 description: The  acxelements.h header is used by the ACX audio class extensions.
 keywords: ["acxelements.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.service: windows-hardware-driver-quality
+ms.subservice: windows-devices
 ms.topic: overview
 tech.root: audio
 f1_keywords:

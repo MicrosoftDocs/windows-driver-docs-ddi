@@ -5,8 +5,8 @@ ms.date: 11/10/2023
 description: This topic describes the acxstreams header that are used to create Microsoft Windows ACX audio drivers. These drivers control audio hardware that render and capture streams containing audio data.
 keywords: ["acxstreams.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.service: windows-hardware-driver-quality
+ms.subservice: windows-devices
 ms.topic: overview
 tech.root: audio
 f1_keywords:

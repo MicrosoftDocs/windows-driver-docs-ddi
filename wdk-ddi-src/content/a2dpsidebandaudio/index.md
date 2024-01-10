@@ -5,8 +5,8 @@ title: a2dpsidebandaudio.h header
 ms.date: 06/30/2023
 keywords: ["a2dpsidebandaudio.h header"]
 ms.keywords: 
-ms.prod: windows-hardware
-ms.technology: windows-devices
+ms.service: windows-hardware-driver-quality
+ms.subservice: windows-devices
 ms.topic: overview
 tech.root: audio
 f1_keywords:
