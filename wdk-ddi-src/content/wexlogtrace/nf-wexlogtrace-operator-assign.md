@@ -1,5 +1,5 @@
 ---
-UID: NF:wexlogtrace.operator-assign
+UID: NF:wexlogtrace.LogTrace.operator-assign
 title: "operator= function (wexlogtrace.h)"
 description: "The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object."
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
@@ -60,7 +60,7 @@ ExtRemoteTyped & operator=(
 
 ## -parameters
 
-### -param Typed [in]
+### -param unnamedParam1 [in]
 
 A pointer to a [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) structure that describes the data and type to be assigned to this object.
 
