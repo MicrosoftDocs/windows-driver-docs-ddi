@@ -52,39 +52,39 @@ The **NtCopyFileChunk** routine copies data from the source file into the destin
 
 The HANDLE of the source file to be read.
 
-### DestHandle [in]
+### -param DestHandle [in]
 
 The HANDLE of the destination file. The data from **SourceHandle**'s file is copied into **DestHandle**'s file. Completion ports can be used on this handle.
 
-### Event [in, optional]
+### -param Event [in, optional]
 
 An optional event to be signaled when the copy operation is complete.
 
-### IoStatusBlock [out]
+### -param IoStatusBlock [out]
 
 A pointer to an [**IO_STATUS_BLOCK**](../wdm/ns-wdm-_io_status_block.md) structure that receives the final completion status and other information about the copy operation.
 
-### Length [in]
+### -param Length [in]
 
 The length of the data to copy, in bytes.
 
-### SourceOffset [in]
+### -param SourceOffset [in]
 
 The starting byte offset within the source file to begin the read operation.
 
-### DestOffset [in]
+### -param DestOffset [in]
 
 The starting byte offset within the destination file to begin the write operation.
 
-### SourceKey [in, optional]
+### -param SourceKey [in, optional]
 
 An optional key to be used if there are oplocks associated with the source file.
 
-### DestKey [in, optional]
+### -param DestKey [in, optional]
 
 An optional key to be used if there are oplocks associated with the destination file.
 
-### Flags [in]
+### -param Flags [in]
 
 Optional flags. Currently there are no valid flag values.
 
