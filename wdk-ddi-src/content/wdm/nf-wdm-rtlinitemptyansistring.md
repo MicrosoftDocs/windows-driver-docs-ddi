@@ -54,7 +54,7 @@ Pointer to the [**ANSI_STRING**](/windows/win32/api/ntdef/ns-ntdef-string) struc
 ### -param Buffer [in]
 
 
-Pointer to a caller-allocated buffer to be used to contain a WCHAR string.
+Pointer to a caller-allocated buffer to be used to contain a CHAR string.
 
 ### -param BufferSize [in]
 
@@ -71,4 +71,4 @@ The members of the structure that the _DestinationString_ parameter points to ar
 
 *   **Buffer**. _SourceString_.
 
-To initialize a non-empty counted Unicode string, call [**RtlInitAnsiString**](./nf-wdm-rtlinitansistring.md).
+To initialize a non-empty counted ANSI string, call [**RtlInitAnsiString**](./nf-wdm-rtlinitansistring.md).
