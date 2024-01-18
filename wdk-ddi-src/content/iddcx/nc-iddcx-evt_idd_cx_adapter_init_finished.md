@@ -49,16 +49,15 @@ api_name:
 
 ## -parameters
 
-### -param AdapterObject [in]
+### -param AdapterObject
 
 
-A handle provided by the driver used by the OS to reference the adapter in a call to the driver.
+[in] A handle provided by the driver used by the OS to reference the adapter in a call to the driver.
 
-### -param pInArgs [in]
+### -param pInArgs
 
 
-
-Input arguments used by <b>EVT_IDD_CX_ADAPTER_COMMIT_MODES</b>.
+[in] A pointer to a [**IDARG_IN_ADAPTER_INIT_FINISHED**](ns-iddcx-idarg_in_adapter_init_finished.md) structure.
 
 ## -returns
 
