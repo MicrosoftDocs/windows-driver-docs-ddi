@@ -55,7 +55,7 @@ The **IDARG_IN_UPDATEMODES2** structure contains input parameters for the [**Idd
 
 ### -field pTargetModes
 
-[in] Pointer to a [**IDDCX_TARGET_MODE2**](ns-iddcx-idarg_in_updatemodes2.md) structure that contains the target modes the driver supports for this monitor.
+[in] Pointer to a [**IDDCX_TARGET_MODE2**](ns-iddcx-iddcx_target_mode2.md) structure that contains the target modes the driver supports for this monitor.
 
 ## -remarks
 
@@ -63,7 +63,7 @@ For more information about HDR support, see [IddCx version 1.10 updates](/window
 
 ## -see-also
 
-[**IDDCX_TARGET_MODE2**](ns-iddcx-idarg_in_updatemodes2.md)
+[**IDDCX_TARGET_MODE2**](ns-iddcx-iddcx_target_mode2.md)
 
 [**IDDCX_UPDATE_REASON**](ne-iddcx-iddcx_update_reason.md)
 
