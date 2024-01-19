@@ -65,6 +65,10 @@ These are the same set of functions as those provided by the deprecated [**DMA_I
 
 A [**DMA_IOMMU_INTERFACE_V2**](ns-wdm-dma_iommu_interface_v2.md) structure that specifies the set of Version 2 (V2) IOMMU interface functions.
 
+### -field V3
+
+A **DMA_IOMMU_INTERFACE_V3** structure that specifies the set of Version 3 (V3) IOMMU interface functions.
+
 ## -remarks
 
 Use this structure for V1 functions instead of the deprecated [**DMA_IOMMU_INTERFACE**](ns-wdm-_dma_iommu_interface.md) structure.
