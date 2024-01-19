@@ -85,7 +85,7 @@ Pointer to a [**IDXGIResource**](/windows/win32/api/dxgi/nn-dxgi-idxgiresource) 
 
 ## -remarks
 
-A zero **DirtyRectCount** value and **MoveRegionCount** value indicates there were no desktop updates and the **PresentationFrameNumber** is the same as last frame.
+A single empty dirty rect indicates there were no desktop updates.
 
 ### -see-also
 
