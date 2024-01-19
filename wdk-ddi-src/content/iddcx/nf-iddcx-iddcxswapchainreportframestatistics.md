@@ -45,14 +45,14 @@ api_name:
 
 ## -description
 
-                An OS callback function the driver calls to report the frame statistics after it has processed a frame completely
+An OS callback function the driver calls to report the frame statistics after it has processed a frame completely
 
 ## -parameters
 
-### -param SwapChainObject [in]
+### -param SwapChainObject
 
 
-The swap-chain object whose current frame is being queried.
+[in[ Pointer to a [**IDARG_IN_REPORTFRAMESTATISTICS **](ns-iddcx-idarg_in_reportframestatistics.md) structure.
 
 ### -param pInArgs [in]
 
