@@ -52,9 +52,9 @@ api_name:
 ### -field ObjectAttributes
 
                      
-                 Indicates object attributes for the monitor.
+Indicates object attributes for the monitor.
 
-### -field pMonitorInfo [in]
+### -field pMonitorInfo
 
-Pointer to the information about this monitor.
+[in] A pointer to a [**IDDCX_MONITOR_INFO**](ns-iddcx-iddcx_monitor_info.md) structure that gives information about this monitor.
 
