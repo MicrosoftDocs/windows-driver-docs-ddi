@@ -66,7 +66,8 @@ NTDDI_WIN10
 
 </td>
 <td>
-Windows 10 1507
+Windows 11<br/>
+Windows 10
 
 </td>
 </tr>
