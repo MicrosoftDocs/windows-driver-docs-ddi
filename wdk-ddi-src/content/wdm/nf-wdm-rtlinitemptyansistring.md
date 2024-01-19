@@ -54,7 +54,7 @@ Pointer to the [**ANSI_STRING**](/windows/win32/api/ntdef/ns-ntdef-string) struc
 ### -param Buffer [in]
 
 
-Pointer to a caller-allocated buffer to be used to contain a CHAR string.
+Pointer to a caller-allocated buffer to be used to contain an ANSI string composed of CHAR elements.
 
 ### -param BufferSize [in]
 
