@@ -45,11 +45,11 @@ api_name:
 
 ## -description
 
-                 Gives information about frame statistics.
+Gives information about frame statistics.
 
 ## -struct-fields
 
 ### -field FrameStatistics
 
-                     [in] Frame statics being reported.
+[in] Frame statistics being reported. See [**IDDCX_FRAME_STATISTICS **](ns-iddcx-iddcx_frame_statistics.md) for details on how a driver should fill this structure.
 
