@@ -57,7 +57,7 @@ The **IDARG_IN_UPDATEMODES** structure contains input parameters for the [**IddC
 
 ### -field pTargetModes
 
-[in] Pointer to a [**IDDCX_TARGET_MODE**](ns-iddcx-idarg_in_updatemodes.md) structure that contains the target modes the driver supports for this monitor.
+[in] Pointer to a [**IDDCX_TARGET_MODE**](ns-iddcx-iddcx_target_mode.md) structure that contains the target modes the driver supports for this monitor.
 
 ## -see-also
 
