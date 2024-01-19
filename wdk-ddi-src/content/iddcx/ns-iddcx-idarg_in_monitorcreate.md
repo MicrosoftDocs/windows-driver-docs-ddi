@@ -56,5 +56,5 @@ Indicates object attributes for the monitor.
 
 ### -field pMonitorInfo
 
-[in] A pointer to a [**IDDCX_MONITOR_INFO**](ns-iddcx-iddcx_monitor_info.md) which gives information about this monitor.
+[in] A pointer to a [**IDDCX_MONITOR_INFO**](ns-iddcx-iddcx_monitor_info.md) structure that gives information about this monitor.
 
