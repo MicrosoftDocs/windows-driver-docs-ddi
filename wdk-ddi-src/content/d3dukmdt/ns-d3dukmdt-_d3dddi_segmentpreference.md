@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dukmdt._D3DDDI_SEGMENTPREFERENCE
-title: _D3DDDI_SEGMENTPREFERENCE (d3dukmdt.h)
-description: The segment preference.
-ms.date: 10/19/2018
+title: D3DDDI_SEGMENTPREFERENCE (d3dukmdt.h)
+description: Learn more about the D3DDDI_SEGMENTPREFERENCE structure.
+ms.date: 01/19/2024
 keywords: ["D3DDDI_SEGMENTPREFERENCE structure"]
 ms.keywords: _D3DDDI_SEGMENTPREFERENCE, D3DDDI_SEGMENTPREFERENCE,
 req.header: d3dukmdt.h
@@ -39,12 +39,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDI_SEGMENTPREFERENCE structure
-
+# D3DDDI_SEGMENTPREFERENCE structure
 
 ## -description
 
-The segment preference.
+The **D3DDI_SEGMENTPREFERENCE** structure describes the preferred segment for a resource.
 
 ## -struct-fields
 
