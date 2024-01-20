@@ -72,8 +72,7 @@ A pointer to a [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) str
 
 ## -remarks
 
-The typed data can also be copied using the [ExtBuffer::Copy method](../engextcpp/nf-engextcpp-extbuffer-copy.md) method.
-
+The typed data can also be copied using the [ExtBuffer::Copy method](../engextcpp/nf-engextcpp-extbuffer-copy(const_t_ulong).md) method.
 
 ## -see-also
 
