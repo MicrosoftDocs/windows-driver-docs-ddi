@@ -66,7 +66,7 @@ A minifilter that does data scanning must register its volume for scanning by ca
 
 > [!NOTE]
 >
-> If **FltRegisterForDataScan** returns STATUS_NOT_SUPPORTED, a minifilter can still create sections for data scanning by calling [**FsRtlCreateSectionForDataScan**](../ntifs/nf-ntifs-fsrtlcreatesectionfordatascan.md). However, access to the section created by **FsRtlCreateSectionForDataScan** is not synchronized, and it is the calling minifilter's responsibility to handle any conflict resolution that arises. Such a miniport must implement and register a [**PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK**](nc-fltkernel-pflt_section_conflict_notification_callback.md) callback routine that can be called when section conflict occurs.
+> If **FltRegisterForDataScan** returns STATUS_NOT_SUPPORTED, a minifilter can still create sections for data scanning by calling [**FsRtlCreateSectionForDataScan**](../ntifs/nf-ntifs-fsrtlcreatesectionfordatascan.md). However, access to the section created by **FsRtlCreateSectionForDataScan** is not synchronized, and it is the calling minifilter's responsibility to handle any conflict resolution that arises. Such a minifilter must implement and register a [**PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK**](nc-fltkernel-pflt_section_conflict_notification_callback.md) callback routine that can be called when section conflict occurs.
 
 ## -see-also
 
