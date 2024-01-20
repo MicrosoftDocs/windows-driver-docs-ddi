@@ -3,7 +3,7 @@ UID: NF:ntifs.ZwNotifyChangeKey
 title: ZwNotifyChangeKey function (ntifs.h)
 description: Learn more about the ZwNotifyChangeKey function.
 tech.root: kernel
-ms.date: 09/27/2023
+ms.date: 01/19/2024
 keywords: ["ZwNotifyChangeKey function"]
 ms.keywords: NtNotifyChangeKey, ZwNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey
 req.header: ntifs.h
@@ -53,23 +53,24 @@ Handle to the key to register a notification routine for. This handle is created
 
 ### -param Event [in, optional]
 
-Handle to a caller-created event. If not NULL, the caller is placed into a wait state until the operation succeeds, at which time the event is set to the Signaled state.
+Optional handle to a caller-created event to be set to the Signaled state when the operation completes. If not NULL, the caller is placed into a wait state until the operation succeeds, at which time the event is set to the Signaled state.
 
 ### -param ApcRoutine [in, optional]
 
- For a user-mode call, this parameter points to a caller-supplied APC routine that is run after the operation is completed. This parameter is optional and can be NULL.
-
-  For a kernel-mode call, this parameter must be NULL.
+Pointer to a caller-supplied APC routine to run after the operation completes. This parameter is optional and can be NULL.
 
 ### -param ApcContext [in, optional]
 
-The meaning of this parameter depends on whether the routine is called from kernel mode or from user mode. For a kernel-mode call, set this parameter to one of the following [**WORK_QUEUE_TYPE**](../wdm/ne-wdm-_work_queue_type.md) enumeration values:
+Pointer to pass as an argument to the APC routine that **ApcRoutine** points to. This argument is required if **ApcRoutine** isn't NULL, and must be cast to type PVOID. Otherwise, if **ApcRoutine** is NULL, set this parameter to NULL, too.
 
-* CriticalWorkQueue
+The meaning of this parameter depends on whether the routine is called from kernel mode or from user mode:
 
-* DelayedWorkQueue
+* For a kernel-mode call, set this parameter to one of the following [**WORK_QUEUE_TYPE**](../wdm/ne-wdm-_work_queue_type.md) enumeration values:
 
-The parameter value must be cast to type PVOID. For a user-mode call, this parameter points to a caller-specified context for the APC routine. This value is passed to the APC routine when it is run.
+  * CriticalWorkQueue
+  * DelayedWorkQueue
+
+* For a user-mode call, this parameter points to a caller-specified context for the APC routine.
 
 ### -param IoStatusBlock [out]
 
