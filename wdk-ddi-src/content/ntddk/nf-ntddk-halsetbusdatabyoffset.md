@@ -2,7 +2,7 @@
 UID: NF:ntddk.HalSetBusDataByOffset
 tech.root: kernel
 title: HalSetBusDataByOffset
-ms.date: 09/22/2022
+ms.date: 01/17/2024
 targetos: Windows
 description: This function sets bus-configuration data for a device on a dynamically configurable I/O bus with a published, standard interface.
 prerelease: false
@@ -43,6 +43,9 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+>[!WARNING]
+>[**HalGetBusDataByOffset**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halgetbusdatabyoffset) and **HalSetBusDataByOffset** are provided for backward compatibility but should be used only if the methods recommended in [Accessing Device Configuration Space](/windows-hardware/drivers/kernel/accessing-device-configuration-space) cannot be used.
 
 This function sets bus-configuration data for a device on a dynamically configurable I/O bus with a published, standard interface.
 

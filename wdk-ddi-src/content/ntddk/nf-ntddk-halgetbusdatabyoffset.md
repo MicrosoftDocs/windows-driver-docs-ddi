@@ -2,7 +2,7 @@
 UID: NF:ntddk.HalGetBusDataByOffset
 tech.root: kernel
 title: HalGetBusDataByOffset
-ms.date: 09/22/2022
+ms.date: 01/17/2024
 targetos: Windows
 description: This function retrieves information, starting at the offset, about a slot or address on an I/O bus.
 prerelease: false
@@ -43,6 +43,9 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+>[!WARNING]
+>**HalGetBusDataByOffset** and [**HalSetBusDataByOffset**](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-halsetbusdatabyoffset) are provided for backward compatibility but should be used only if the methods recommended in [Accessing Device Configuration Space](/windows-hardware/drivers/kernel/accessing-device-configuration-space) cannot be used.
 
 This function retrieves information, starting at the offset, about a slot or address on an I/O bus.
 
