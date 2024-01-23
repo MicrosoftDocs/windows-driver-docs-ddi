@@ -68,3 +68,7 @@ To obtain this structure, call [**NetExtensionGetFragmentLogicalAddress**](../lo
 
 [**NetExtensionGetFragmentLogicalAddress**](../logicaladdress/nf-logicaladdress-netextensiongetfragmentlogicaladdress.md)
 
+[**NET_ADAPTER_TX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_tx_capabilities.md)
+
+[**NET_ADAPTER_RX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md)
+
