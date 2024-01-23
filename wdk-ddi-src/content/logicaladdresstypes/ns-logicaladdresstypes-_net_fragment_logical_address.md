@@ -3,7 +3,7 @@ UID: NS:logicaladdresstypes._NET_FRAGMENT_LOGICAL_ADDRESS
 title: NET_FRAGMENT_LOGICAL_ADDRESS (logicaladdresstypes.h)
 description: The NET_FRAGMENT_LOGICAL_ADDRESS structure contains DMA logical address information for a NET_FRAGMENT.
 tech.root: netvista
-ms.date: 09/26/2019
+ms.date: 01/22/2024
 keywords: ["NET_FRAGMENT_LOGICAL_ADDRESS structure"]
 ms.keywords: NET_FRAGMENT_LOGICAL_ADDRESS, NET_FRAGMENT_LOGICAL_ADDRESS,
 req.header: logicaladdresstypes.h
@@ -50,13 +50,13 @@ The **NET_FRAGMENT_LOGICAL_ADDRESS** structure contains DMA logical address info
 
 ### -field LogicalAddress
 
-For receive queues, contains a mapped DMA address that can be used to program NIC hardware.
-
-For transmit queues, cast this value to an MDL pointer.
+On DMA capable adapters, contains a mapped DMA address that can be used to program NIC hardware.
 
 Do not modify this value.
 
 ## -remarks
+
+The **NET_FRAGMENT_LOGICAL_ADDRESS** extension is only valid if the driver sets the **DmaCapabilities** member in the [**NET_ADAPTER_TX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_tx_capabilities.md) or [**NET_ADAPTER_RX_CAPABILITIES**](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md) structure.
 
 To obtain this structure, call [**NetExtensionGetFragmentLogicalAddress**](../logicaladdress/nf-logicaladdress-netextensiongetfragmentlogicaladdress.md).
 
