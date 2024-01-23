@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
 title: D3DKMTCreateAllocation function (d3dkmthk.h)
 description: Learn more about the D3DKMTCreateAllocation function.
-ms.date: 03/22/2023
+ms.date: 01/22/2024
 keywords: ["D3DKMTCreateAllocation function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 req.header: d3dkmthk.h
@@ -39,8 +39,6 @@ api_name:
  - D3DKMTCreateAllocation
 ---
 
-# D3DKMTCreateAllocation function
-
 ## -description
 
 The **D3DKMTCreateAllocation** function creates or adds allocations of system or video memory. User-mode graphics client drivers should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead (see Remarks).
@@ -64,11 +62,13 @@ The **D3DKMTCreateAllocation** function creates or adds allocations of system or
 
 ## -remarks
 
-The D3D runtime calls **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+User-mode graphics client drivers should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead. One reason is that Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**(nf-d3dkmthk-d3dkmtcreateallocation2.md).
+
+User mode (in this case, the D3D runtime) calls **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+
+When user mode calls [**D3DKMTCreateAllocation**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation.md), the UMD provides private driver data describing the allocation. *Dxgkrnl* takes this private driver data and passes it to the KMD who then fills out a description of each allocation in a way understood by *VidMm*. The UMD data contains information such as the resource type (texture, swapchain, etc). The KMD translates this data to things like size, alignment, a set of memory segments that the allocation can be located, preferences for these segments, and so forth.
 
 **D3DKMTCreateAllocation** can also be called to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
-
-Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**, which is one reason why graphics client drivers should use [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead.
 
 ### Examples
 
