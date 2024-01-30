@@ -73,6 +73,8 @@ DEFINE_GUIDSTRUCT("2795A0F7-1688-44FE-BC14-BF8273992141", KSATTRIBUTEID_AUDIOLOO
 #define KSATTRIBUTEID_AUDIOLOOPBACK_TAPPOINT DEFINE_GUIDNAMED(KSATTRIBUTEID_AUDIOLOOPBACK_TAPPOINT)
 ```
 
+At pin creation time, a KSATTRIBUTEID_AUDIOLOOPBACK_TAPPOINT  entry containing a KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT is added to the pin creation attributes. This entry contains the AUDIOLOOPBACK_TAPPOINT_TYPE for the loopback pin instance.
+
 ## -see-also
 
 [KSPROPERTY_AUDIOLOOPBACK](/windows-hardware/drivers/audio/ksproperty-audioloopback)
