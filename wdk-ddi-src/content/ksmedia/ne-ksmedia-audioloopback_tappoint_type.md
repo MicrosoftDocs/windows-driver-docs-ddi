@@ -2,7 +2,7 @@
 UID: NE:ksmedia.tagAUDIOLOOPBACK_TAPPOINT_TYPE
 tech.root: audio
 title: AUDIOLOOPBACK_TAPPOINT_TYPE
-ms.date: 01/25/2024
+ms.date: 01/29/2024
 targetos: Windows
 description: The AUDIOLOOPBACK_TAPPOINT_TYPE enum contains the  pre and post tap point definitions.
 prerelease: false
@@ -61,3 +61,5 @@ The enum is used by [KSPROPERTY_AUDIOLOOPBACK](/windows-hardware/drivers/audio/k
 [KSPROPERTY_AUDIOLOOPBACK](/windows-hardware/drivers/audio/ksproperty-audioloopback)
 
 [KSPROPSETID_AudioLoopback](/windows-hardware/drivers/audio/kspropsetid-audioloopback)
+
+[KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT](ns-ksmedia-ksattribute_audioloopback_tappoint.md)
