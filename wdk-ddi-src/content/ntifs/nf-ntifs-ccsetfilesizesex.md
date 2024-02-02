@@ -2,7 +2,7 @@
 UID: NF:ntifs.CcSetFileSizesEx
 tech.root: ifsk
 title: CcSetFileSizesEx
-ms.date: 01/08/2024
+ms.date: 02/02/2024
 targetos: Windows
 description: Learn more about the CcSetFileSizesEx function.
 prerelease: false
@@ -58,7 +58,13 @@ The **CcSetFileSizesEx** routine updates the cache maps and section object for a
 
 ## -returns
 
-**CcSetFileSizesEx** returns STATUS_SUCCESS if the file size was successfully changed, and, if a purge was needed that the purge was successful. Otherwise it returns a non-success NSTATUS code such as STATUS_INSUFFICIENT_RESOURCES.
+**CcSetFileSizesEx** returns STATUS_SUCCESS if the file size was successfully changed, and, if a purge was needed that the purge was successful. Otherwise it returns a non-success NSTATUS code such as STATUS_INSUFFICIENT_RESOURCES, and might raise a status exception.
+
+Regarding raising a status exception on error:
+
+* If the operation causes **CcSetFileSizesEx** to flush and/or purge the file, **CcSetFileSizesEx** won't raise on errors; it just returns the appropriate non-success NTSTATUS code of the flush or purge operation.
+
+* If the operation causes **CcSetFileSizesEx** to extend the section, then **CcSetFileSizesEx** will raise on any error it hits during this extension.
 
 ## -remarks
 
@@ -72,7 +78,7 @@ File systems must call **CcSetFileSizesEx** to update the cache manager data str
 
 * Its file size is increased or decreased.
 
-If any failure occurs, **CcSetFileSizesEx** raises a status exception for that particular failure. For example, if a pool allocation failure occurs, **CcSetFileSizesEx** raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to **CcSetFileSizesEx** in a *try-except* or *try-finally* statement.
+If the operation causes **CcSetFileSizesEx** to extend the section and a failure occurs, **CcSetFileSizesEx** raises a status exception for that particular failure. For example, if a pool allocation failure occurs, **CcSetFileSizesEx** raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to **CcSetFileSizesEx** in a *try-except* or *try-finally* statement.
 
 To cache a file, use [**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md).
 
