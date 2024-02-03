@@ -3,9 +3,8 @@ UID: NF:ntifs.CcSetFileSizes
 title: CcSetFileSizes function (ntifs.h)
 description: Learn more about the CcSetFileSizes function.
 tech.root: ifsk
-ms.date: 09/27/2023
+ms.date: 02/02/2024
 keywords: ["CcSetFileSizes function"]
-ms.keywords: CcSetFileSizes, CcSetFileSizes routine [Installable File System Drivers], ccref_2d554d89-6378-4a7c-8984-cb54b9e9e01c.xml, ifsk.ccsetfilesizes, ntifs/CcSetFileSizes
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -43,7 +42,7 @@ api_name:
 
 ## -description
 
-The **CcSetFileSizes** routine updates the cache maps and section object for a cached file whose size has changed.
+The **CcSetFileSizes** routine updates the cache maps and section object for a cached file whose size has changed. Use [**CcSetFileSizesEx**](nf-ntifs-ccsetfilesizesex.md) instead since it provides an NTSTATUS return code along with better guidance for error handling.
 
 ## -parameters
 
