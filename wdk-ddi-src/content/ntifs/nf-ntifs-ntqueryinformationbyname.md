@@ -1,9 +1,9 @@
 ---
 UID: NF:ntifs.NtQueryInformationByName
 title: NtQueryInformationByName function (ntifs.h)
-description: NtQueryInformationByName returns the requested information about a file specified by file name.
+description: Learn more about the NtQueryInformationByName function.
 tech.root: ifsk
-ms.date: 10/06/2022
+ms.date: 02/02/2024
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
 req.include-header: 
@@ -72,6 +72,7 @@ A [FILE_INFORMATION_CLASS](../wdm/ne-wdm-_file_information_class.md) value that 
 | **FileStatInformation**   (68)       | [FILE_STAT_INFORMATION](./ns-ntifs-_file_stat_information.md). Available starting with Windows 10, version 1709. |
 | **FileStatLxInformation**  (70)   | [FILE_STAT_LX_INFORMATION](./ns-ntifs-_file_stat_lx_information.md). Available starting with Windows 10 April 2018 Update. |
 | **FileCaseSensitiveInformation** (71) | [FILE_CASE_SENSITIVE_INFORMATION](./ns-ntifs-_file_case_sensitive_information.md). Available starting with Windows 10 April 2018 Update. |
+| **FileStatBasicInformation** (77) | [**FILE_STAT_BASIC_INFORMATION**](ns-ntifs-file_stat_basic_information.md). Available starting with Windows 11, build 26048. |
 
 ## -returns
 
