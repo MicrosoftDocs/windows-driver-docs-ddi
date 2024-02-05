@@ -58,10 +58,6 @@ A **FILE_NOTIFY_EXTENDED_INFORMATION** structure.
 
 A **FILE_NOTIFY_FULL_INFORMATION** structure.
 
-### -field DirectoryNotifyMaximumInformation
-
-A **FILE_NOTIFY_MAXIMUM_INFORMATION** structure.
-
 ## -remarks
 
 ## -see-also
