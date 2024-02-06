@@ -80,6 +80,8 @@ File systems must call **CcSetFileSizesEx** to update the cache manager data str
 
 If the operation causes **CcSetFileSizesEx** to extend the section and a failure occurs, **CcSetFileSizesEx** raises a status exception for that particular failure. For example, if a pool allocation failure occurs, **CcSetFileSizesEx** raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to **CcSetFileSizesEx** in a *try-except* or *try-finally* statement.
 
+The file system must ensure that the cache map is valid and will remain so for the duration of this call.
+
 To cache a file, use [**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md).
 
 To get the size of the cached file, pass **FileObject** to [**CcGetFileSizePointer**](nf-ntifs-ccgetfilesizepointer.md).
@@ -88,3 +90,4 @@ To get the size of the cached file, pass **FileObject** to [**CcGetFileSizePoint
 
 [**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md)
 
+[**CcSetCacheFileSizes**](nf-ntifs-ccsetcachefilesizes.md)

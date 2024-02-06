@@ -56,7 +56,7 @@ Pointer to a [**CC_FILE_SIZES**](ns-ntifs-cc_file_sizes.md) structure containing
 
 ## -remarks
 
-File systems must call **CcSetFileSizes** to update the cache manager data structures whenever one of the following changes is made to a cached file:
+File systems must call [**CcSetFileSizesEx**](nf-ntifs-ccsetfilesizesex.md) or **CcSetFileSizes** to update the cache manager data structures whenever one of the following changes is made to a cached file:
 
 * Its allocation size is increased.
 
@@ -68,6 +68,8 @@ File systems must call **CcSetFileSizes** to update the cache manager data struc
 
 If any failure occurs, **CcSetFileSizes** raises a status exception for that particular failure. For example, if a pool allocation failure occurs, **CcSetFileSizes** raises a STATUS_INSUFFICIENT_RESOURCES exception. Therefore, to gain control if a failure occurs, the driver should wrap the call to **CcSetFileSizes** in a *try-except* or *try-finally* statement.
 
+The file system must ensure that the cache map is valid and will remain so for the duration of this call.
+
 To cache a file, use [**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md).
 
 To get the size of the cached file, pass **FileObject** to [**CcGetFileSizePointer**](nf-ntifs-ccgetfilesizepointer.md).
@@ -75,3 +77,5 @@ To get the size of the cached file, pass **FileObject** to [**CcGetFileSizePoint
 ## -see-also
 
 [**CcInitializeCacheMap**](nf-ntifs-ccinitializecachemap.md)
+
+ [**CcSetFileSizesEx**](nf-ntifs-ccsetfilesizesex.md)
