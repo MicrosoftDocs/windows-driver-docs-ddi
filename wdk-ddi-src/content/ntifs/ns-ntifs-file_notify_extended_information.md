@@ -1,9 +1,10 @@
 ---
-UID: NS:ntifs._FILE_NOTIFY_FULL_INFORMATION
+UID: NS:ntifs._FILE_NOTIFY_EXTENDED_INFORMATION
 tech.root: ifsk
-title: FILE_NOTIFY_FULL_INFORMATION
+title: FILE_NOTIFY_EXTENDED_INFORMATION
 ms.date: 02/05/2024
-description: Learn more about the FILE_NOTIFY_FULL_INFORMATION structure.
+targetos: Windows
+description: Learn more about the FILE_NOTIFY_EXTENDED_INFORMATION structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -14,10 +15,11 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 22H2
+req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: FILE_NOTIFY_FULL_INFORMATION, *PFILE_NOTIFY_FULL_INFORMATION
+req.typenames: FILE_NOTIFY_EXTENDED_INFORMATION, *PFILE_NOTIFY_EXTENDED_INFORMATION
+typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
@@ -27,25 +29,25 @@ api_type:
 api_location:
  - ntifs.h
 api_name:
- - _FILE_NOTIFY_FULL_INFORMATION
- - PFILE_NOTIFY_FULL_INFORMATION
- - FILE_NOTIFY_FULL_INFORMATION
+ - _FILE_NOTIFY_EXTENDED_INFORMATION
+ - PFILE_NOTIFY_EXTENDED_INFORMATION
+ - FILE_NOTIFY_EXTENDED_INFORMATION
 f1_keywords:
- - _FILE_NOTIFY_FULL_INFORMATION
- - ntifs/_FILE_NOTIFY_FULL_INFORMATION
- - PFILE_NOTIFY_FULL_INFORMATION
- - ntifs/PFILE_NOTIFY_FULL_INFORMATION
- - FILE_NOTIFY_FULL_INFORMATION
- - ntifs/FILE_NOTIFY_FULL_INFORMATION
+ - _FILE_NOTIFY_EXTENDED_INFORMATION
+ - ntifs/_FILE_NOTIFY_EXTENDED_INFORMATION
+ - PFILE_NOTIFY_EXTENDED_INFORMATION
+ - ntifs/PFILE_NOTIFY_EXTENDED_INFORMATION
+ - FILE_NOTIFY_EXTENDED_INFORMATION
+ - ntifs/FILE_NOTIFY_EXTENDED_INFORMATION
 dev_langs:
  - c++
 helpviewer_keywords:
- - _FILE_NOTIFY_FULL_INFORMATION
+ - _FILE_NOTIFY_EXTENDED_INFORMATION
 ---
 
 ## -description
 
-A **FILE_NOTIFY_FULL_INFORMATION** structure is returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when [**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md) is DirectoryNotifyFullInformation.
+**FILE_NOTIFY_EXTENDED_INFORMATION** provides information about a directory change in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when [**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md) is DirectoryNotifyExtendedInformation.
 
 ## -struct-fields
 
@@ -124,20 +126,7 @@ The identifier of the parent directory of the file.
 
 The size of the file name portion of the record, in bytes. This value does not include a terminating null character.
 
-### -field FileNameFlags
-
-Flags specifying what type of file name is being returned, if known. If neither of the following flags is set, the type of file name is not known. If both of the following flags are set, the file name acts as both the long name and the short name (both the NTFS name and the DOS name) of a long/short name pair.
-
-| Flag | Value |
-| ---- | ----- |
-| FILE_NAME_NTFS (0x01) | The file name is the long name (NTFS name) of a long/short name pair. |
-| FILE_NAME_DOS (0x02)  | The file name is the short name (DOS name) of a long/short name pair. |
-
-### -field Reserved
-
-Reserved for system use.
-
-### -field FileName
+### -field FileName[1]
 
 A variable-length field that contains the file name relative to the directory handle. The file name is in the Unicode character format and is not null-terminated.
 
