@@ -2,9 +2,9 @@
 UID: NE:wdm._DIRECTORY_NOTIFY_INFORMATION_CLASS
 tech.root: ifsk
 title: DIRECTORY_NOTIFY_INFORMATION_CLASS
-ms.date: 03/01/2022
+ms.date: 02/05/2024
 targetos: Windows
-description: A value that specifies which structure to use to query or set information for a files in a directory.
+description: Learn more about the DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -42,22 +42,27 @@ helpviewer_keywords:
 
 ## -description
 
-A value that specifies which structure to use to query or set information for a files in a directory.
+A **DIRECTORY_NOTIFY_INFORMATION_CLASS** value specifies which structure to use to query or set information for files in a directory.
 
 ## -enum-fields
 
 ### -field DirectoryNotifyInformation
 
-A **FILE_NOTIFY_INFORMATION** structure.
+Use a [**FILE_NOTIFY_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-file_notify_information) structure.
 
 ### -field DirectoryNotifyExtendedInformation
 
-A **FILE_NOTIFY_EXTENDED_INFORMATION** structure.
+Use a [**FILE_NOTIFY_EXTENDED_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-file_notify_extended_information) structure.
 
 ### -field DirectoryNotifyFullInformation
 
-A **FILE_NOTIFY_FULL_INFORMATION** structure.
+Use a [**FILE_NOTIFY_FULL_INFORMATION**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-file_notify_full_information) structure. Supported starting in Windows 11, version 22H2.
 
-## -remarks
+### -field DirectoryNotifyMaximumInformation
+
+The maximum value for this enumeration.
 
 ## -see-also
+
+[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
+
