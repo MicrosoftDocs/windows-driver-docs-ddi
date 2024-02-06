@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_NOTIFY_INFORMATION
 tech.root: ifsk
 title: FILE_NOTIFY_INFORMATION
-ms.date: 10/26/2021
+ms.date: 02/05/2024
 targetos: Windows
 description: Learn more about the FILE_NOTIFY_INFORMATION structure.
 prerelease: false
@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-**FILE_NOTIFY_INFORMATION** describes the changes to a directory.
+**FILE_NOTIFY_INFORMATION** describes the changes to a directory. It's returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when [**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md) is DirectoryNotifyInformation.
 
 ## -struct-fields
 
@@ -80,10 +80,10 @@ A variable-length field that contains the file name relative to the directory ha
 
 If there is both a short and long name for the file, only one of these names will be returned, but it is unspecified which one.
 
-## -remarks
-
-A **FILE_NOTIFY_INFORMATION** structure is returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code.
-
 ## -see-also
 
+[**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md)
+
 [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
+
+[**ZwNotifyChangeDirectoryFileEx**](/previous-versions/mt812581(v=vs.85))
