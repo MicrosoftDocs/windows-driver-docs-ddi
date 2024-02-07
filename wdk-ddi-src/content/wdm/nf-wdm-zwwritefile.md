@@ -4,6 +4,7 @@ title: ZwWriteFile function (wdm.h)
 description: The ZwWriteFile routine writes data to an open file.
 tech.root: kernel
 ms.date: 12/15/2022
+author: lorihollasch
 keywords: ["ZwWriteFile function"]
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
 req.header: wdm.h

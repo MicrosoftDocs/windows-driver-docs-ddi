@@ -4,6 +4,7 @@ title: _FILE_MEMORY_PARTITION_INFORMATION (wdm.h)
 description: Stores information about memory partition. This structure is used by the ZwSetInformationFile function.
 tech.root: ifsk
 ms.date: 06/11/2021
+author: lorihollasch
 keywords: ["FILE_MEMORY_PARTITION_INFORMATION structure"]
 ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, wdm/FILE_MEMORY_PARTITION_INFORMATION"
 req.header: wdm.h

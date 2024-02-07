@@ -122,8 +122,18 @@ The 128-byte file reference number for the file. This number is generated and as
 
 ## -remarks
 
-[**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md) returns information in a **FILE_STAT_BASIC_INFORMATION** structure when the **FileInformationClass** parameter is FileStatBasicInformation.
+This information can be queried by calling [**ZwQueryInformationByName **](../wdm/nf-wdm-zwqueryinformationbyname.md), passing **FileIdAllExtdDirectoryInformation** as the value of[**FileInformationClass**](../wdm/ne-wdm-_file_information_class.md) and a caller-allocated, **FILE_STAT_BASIC_INFORMATION**-structured buffer as the value of **FileInformation**.
+
+No specific access rights are required to query this information.
+
+File reference numbers, also called file IDs, are guaranteed to be unique only within a static file system. They are not guaranteed to be unique over time, because file systems are free to reuse them. Nor are they guaranteed to remain constant. For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk. Defragmentation can change this byte offset. Thus a FAT file reference number can change over time.
+
+All dates and times are in absolute system-time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601.
+
+This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the **NextEntryOffset** value in each entry, except the last, falls on an 8-byte boundary.
 
 ## -see-also
 
-[**NtQueryInformationByName**](nf-ntifs-ntqueryinformationbyname.md)
+[**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md)
+
+[**ZwQueryInformationByName **](../wdm/nf-wdm-zwqueryinformationbyname.md)

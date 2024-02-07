@@ -4,6 +4,7 @@ title: ZwQueryInformationFile function (wdm.h)
 description: The ZwQueryInformationFile routine returns various kinds of information about a file object.
 tech.root: kernel
 ms.date: 01/06/2023
+author: lorihollasch
 keywords: ["ZwQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 req.header: wdm.h

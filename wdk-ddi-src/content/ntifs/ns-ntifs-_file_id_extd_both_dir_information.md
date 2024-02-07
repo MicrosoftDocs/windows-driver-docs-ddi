@@ -1,12 +1,10 @@
 ---
 UID: NS:ntifs._FILE_ID_EXTD_BOTH_DIR_INFORMATION
 title: FILE_ID_EXTD_BOTH_DIR_INFORMATION (ntifs.h)
-description: The FILE_ID_EXTD_BOTH_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
-old-location: ifsk\file_id_extd_both_dir_information.htm
+description: Learn more about the FILE_ID_EXTD_BOTH_DIR_INFORMATION structure.
 tech.root: ifsk
 ms.date: 07/26/2022
 keywords: ["FILE_ID_EXTD_BOTH_DIR_INFORMATION structure"]
-ms.keywords: "*PFILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION, FILE_ID_EXTD_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_EXTD_BOTH_DIR_INFORMATION, PFILE_ID_EXTD_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_EXTD_BOTH_DIR_INFORMATION, ifsk.file_id_extd_both_dir_information, ntifs/FILE_ID_EXTD_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_EXTD_BOTH_DIR_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -50,7 +48,7 @@ api_name:
 
 ## -description
 
-The **FILE_ID_EXTD_BOTH_DIR_INFORMATION** structure is used to query file reference number information for the files in a directory.
+The **FILE_ID_EXTD_BOTH_DIR_INFORMATION** structure is used to query 128-bit file reference number information for the files in a directory.
 
 ## -struct-fields
 
@@ -113,7 +111,7 @@ Tag value for the reparse point.
 
 ### -field FileId
 
-The 128-byte file reference number for the file. This number is generated and assigned to the file by the file system.
+The 128-bit file reference number for the file. This number is generated and assigned to the file by the file system.
 
 ### -field ShortNameLength
 
@@ -131,7 +129,7 @@ Specifies the first character of the file name string. This is followed in memor
 
 This information can be queried in either of the following ways:
 
-* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwqueryvirtualmemory.md), passing **FileIdExtdBothDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, FILE_ID_EXTD_BOTH_DIR_INFORMATION-structured buffer as the value of **FileInformation**.
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwqueryvirtualmemory.md), passing **FileIdExtdBothDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, **FILE_ID_EXTD_BOTH_DIR_INFORMATION**-structured buffer as the value of **FileInformation**.
 
 * Create an IRP with major function code [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control) and minor function code IRP_MN_QUERY_DIRECTORY.
 

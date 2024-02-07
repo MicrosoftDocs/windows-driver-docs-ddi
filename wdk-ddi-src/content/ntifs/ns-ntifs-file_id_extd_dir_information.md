@@ -4,7 +4,7 @@ title: FILE_ID_EXTD_DIR_INFORMATION
 ms.date: 07/26/2022
 tech.root: ifsk
 targetos: Windows
-description: The FILE_FULL_DIR_INFORMATION structure is used to query file reference number information for the files in a directory.
+description: Learn more about the FILE_ID_EXTD_DIR_INFORMATION structure.
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -45,7 +45,7 @@ dev_langs:
 
 ## -description
 
-The **FILE_ID_EXTD_DIR_INFORMATION** structure is used to query file reference number information for the files in a directory.
+The **FILE_ID_EXTD_DIR_INFORMATION** structure is used to query 128-bit file reference number information for the files in a directory.
 
 ## -struct-fields
 
@@ -96,7 +96,7 @@ File attributes, which can be any valid combination of the following:
 
 ### -field FileNameLength
 
-Specifies the length of the file name string.
+Specifies the length of the file name string, in bytes.
 
 ### -field EaSize
 
@@ -108,7 +108,7 @@ Tag value for the reparse point.
 
 ### -field FileId
 
-The 128-byte file reference number for the file. This number is generated and assigned to the file by the file system.
+The 128-bit file reference number for the file. This number is generated and assigned to the file by the file system.
 
 ### -field FileName
 
@@ -118,19 +118,21 @@ Specifies the first character of the file name string. This is followed in memor
 
 This information can be queried in either of the following ways:
 
-* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md), passing **FileIdExtdDirectoryInformation** as the value of **FileInformationClass** and passing a caller-allocated, FILE_ID_EXTD_DIR_INFORMATION-structured buffer as the value of **FileInformation**.
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md), passing **FileIdExtdDirectoryInformation** as the value of [**FileInformationClass**](../wdm/ne-wdm-_file_information_class.md) and passing a caller-allocated, **FILE_ID_EXTD_DIR_INFORMATION**-structured buffer as the value of **FileInformation**.
 
 * Create an IRP with major function code [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control) and minor function code IRP_MN_QUERY_DIRECTORY.
 
 No specific access rights are required to query this information.
 
-File reference numbers, also called file IDs, are guaranteed to be unique only within a static file system. They are not guaranteed to be unique over time, because file systems are free to reuse them. Nor are they guaranteed to remain constant. For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk. Defragmentation can change this byte offset. Thus a FAT file reference number can change over time.
+File reference numbers, also called file IDs, are guaranteed to be unique only within a static file system. They aren't guaranteed to be unique over time because file systems are free to reuse them, nor are they guaranteed to remain constant. For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk. Defragmentation can change this byte offset. Thus a FAT file reference number can change over time.
 
 All dates and times are in absolute system-time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601.
 
 This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer contains two or more of these structures, the **NextEntryOffset** value in each entry, except the last, falls on an 8-byte boundary.
 
 ## -see-also
+
+[**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md)
 
 [**FsRtlNotifyFullChangeDirectory**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullchangedirectory.md)
 
