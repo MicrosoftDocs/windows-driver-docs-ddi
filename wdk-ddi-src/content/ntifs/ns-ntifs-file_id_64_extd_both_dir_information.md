@@ -1,6 +1,6 @@
 ---
 UID: NS:ntifs._FILE_ID_64_EXTD_BOTH_DIR_INFORMATION
-tech.root:ifsk
+tech.root: ifsk
 title: FILE_ID_64_EXTD_BOTH_DIR_INFORMATION
 ms.date: 02/06/2024
 targetos: Windows
