@@ -4,6 +4,7 @@ title: ZwReadFile function (wdm.h)
 description: The ZwReadFile routine in wdm.h reads data from an open file. Callers of ZwReadFile must have already called ZwCreateFile.
 tech.root: kernel
 ms.date: 12/15/2022
+author: lorihollasch
 keywords: ["ZwReadFile function"]
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
 req.header: wdm.h

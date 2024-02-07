@@ -4,6 +4,7 @@ title: ZwOpenFile function (wdm.h)
 description: The ZwOpenFile routine in wdm.h opens an existing file, directory, device, or volume. Once the handle pointed to is no longer in use, the driver must close it.
 tech.root: kernel
 ms.date: 12/14/2022
+author: lorihollasch
 keywords: ["ZwOpenFile function"]
 ms.keywords: NtOpenFile, ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, kernel.zwopenfile, wdm/NtOpenFile, wdm/ZwOpenFile
 req.header: wdm.h

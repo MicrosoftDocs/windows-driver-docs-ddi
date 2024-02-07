@@ -5,6 +5,7 @@ description: The FILE_IO_PRIORITY_HINT_INFORMATION structure is used by the ZwQu
 old-location: kernel\file_io_priority_hint_information.htm
 tech.root: kernel
 ms.date: 04/30/2018
+author: lorihollasch
 keywords: ["FILE_IO_PRIORITY_HINT_INFORMATION structure"]
 ms.keywords: "*PFILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_IO_PRIORITY_HINT_INFORMATION, kernel.file_io_priority_hint_information, kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, wdm/FILE_IO_PRIORITY_HINT_INFORMATION, wdm/PFILE_IO_PRIORITY_HINT_INFORMATION"
 req.header: wdm.h

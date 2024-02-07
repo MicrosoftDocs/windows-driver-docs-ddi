@@ -3,6 +3,7 @@ UID: NF:wdm.ZwQueryInformationByName
 tech.root: kernel
 title: ZwQueryInformationByName function (wdm.h)
 ms.date: 06/21/2021
+author: lorihollasch
 targetos: Windows
 description: ZwQueryInformationByName returns the requested information about a file specified by file name.
 prerelease: false
