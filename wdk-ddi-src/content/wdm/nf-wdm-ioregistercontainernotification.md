@@ -43,6 +43,17 @@ api_name:
 
 The **IoRegisterContainerNotification** routine registers a kernel-mode driver to receive notifications about a specified class of events.
 
+## -syntax
+
+```cpp
+NTSTATUS
+IoRegisterContainerNotification(
+    _In_ IO_CONTAINER_NOTIFICATION_CLASS NotificationClass,
+    _In_ PIO_CONTAINER_NOTIFICATION_FUNCTION CallbackFunction,
+    _In_reads_bytes_opt_(NotificationInformationLength) PVOID NotificationInformation,
+    _In_ ULONG NotificationInformationLength,
+    _Out_ PVOID * CallbackRegistration
+    );```
 ## -parameters
 
 ### -param NotificationClass [in]
