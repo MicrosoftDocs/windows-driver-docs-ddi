@@ -53,7 +53,9 @@ IoRegisterContainerNotification(
     _In_reads_bytes_opt_(NotificationInformationLength) PVOID NotificationInformation,
     _In_ ULONG NotificationInformationLength,
     _Out_ PVOID * CallbackRegistration
-    );```
+    );
+```
+
 ## -parameters
 
 ### -param NotificationClass [in]
