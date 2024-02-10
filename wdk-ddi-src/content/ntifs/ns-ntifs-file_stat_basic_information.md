@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_STAT_BASIC_INFORMATION
 tech.root: ifsk
 title: FILE_STAT_BASIC_INFORMATION
-ms.date: 02/02/2024
+ms.date: 02/09/2024
 targetos: Windows
 description: Learn more about FILE_STAT_BASIC_INFORMATION structure.
 prerelease: true
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, build 26048
+req.target-min-winverclnt: Windows 11, version 24H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: FILE_STAT_BASIC_INFORMATION, *PFILE_STAT_BASIC_INFORMATION
@@ -122,7 +122,11 @@ The 128-byte file reference number for the file. This number is generated and as
 
 ## -remarks
 
-This information can be queried by calling [**ZwQueryInformationByName **](../wdm/nf-wdm-zwqueryinformationbyname.md), passing **FileIdAllExtdDirectoryInformation** as the value of[**FileInformationClass**](../wdm/ne-wdm-_file_information_class.md) and a caller-allocated, **FILE_STAT_BASIC_INFORMATION**-structured buffer as the value of **FileInformation**.
+This information can be queried in either of the following ways:
+
+* Call [**ZwQueryDirectoryFile**](nf-ntifs-zwquerydirectoryfile.md), passing **FileStatBasicInformation** as the value of [**FileInformationClass**](../wdm/ne-wdm-_file_information_class.md) and passing a caller-allocated, **FILE_ID_EXTD_DIR_INFORMATION**-structured buffer as the value of **FileInformation**.
+
+* Create an IRP with major function code [IRP_MJ_DIRECTORY_CONTROL](/windows-hardware/drivers/ifs/irp-mj-directory-control) and minor function code IRP_MN_QUERY_DIRECTORY.
 
 No specific access rights are required to query this information.
 
