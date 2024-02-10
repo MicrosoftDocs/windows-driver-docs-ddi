@@ -2,7 +2,7 @@
 UID: NS:ksmedia.tagKSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT
 tech.root: audio
 title: KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT
-ms.date: 01/29/2024
+ms.date: 02/09/2024
 targetos: Windows
 description: 
 prerelease: false
