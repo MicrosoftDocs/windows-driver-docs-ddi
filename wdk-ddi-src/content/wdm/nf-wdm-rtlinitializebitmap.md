@@ -53,7 +53,7 @@ The <b>RtlInitializeBitMap</b> routine initializes the header of a bitmap variab
 ### -param BitMapHeader [out]
 
 
-Pointer to an empty <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure.
+Pointer to an empty <a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a> structure.
 
 ### -param BitMapBuffer [in]
 
@@ -79,7 +79,7 @@ A driver can use a bitmap variable as an economical way to keep track of a set o
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
+<a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a>
 
 
 
