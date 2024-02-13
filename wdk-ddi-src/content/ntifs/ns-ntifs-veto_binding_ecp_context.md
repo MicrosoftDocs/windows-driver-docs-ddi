@@ -2,7 +2,7 @@
 UID: NS:ntifs._VETO_BINDING_ECP_CONTEXT
 tech.root: ifsk
 title: VETO_BINDING_ECP_CONTEXT
-ms.date: 02/09/2024
+ms.date: 02/12/2024
 targetos: Windows
 description: Learn more about the VETO_BINDING_ECP_CONTEXT structure.
 prerelease: true
@@ -47,16 +47,16 @@ helpviewer_keywords:
 
 ## -description
 
-The **VETO_BINDING_ECP_CONTEXT** structure is the ECP context structure associated with [**GUID_ECP_TYPE_VETO_BINDING**](/windows-hardware/drivers/ifs/system-defined-ecps) for vetoing a binding.
+The **VETO_BINDING_ECP_CONTEXT** structure is the ECP context structure associated with [**GUID_ECP_TYPE_VETO_BINDING**](/windows-hardware/drivers/ifs/system-defined-ecps) for vetoing a bind link.
 
 ## -struct-fields
 
 ### -field ShouldVetoBinding
 
-When set true, the binding is vetoed. When set false, the binding is not vetoed.
+When set true, the bind link is vetoed. When set false, the bind link isn't vetoed.
 
 ## -remarks
 
-A filter sitting below *BindFlt* can veto a binding on the system's boot partition only, not any other partition.
+A filter sitting below *BindFlt* can veto a binding on the system's boot partition only, not on any other partition.
 
-For more information, see [Vetoing a binding](/windows-hardware/drivers/ifs/vetoing-a-binding).
+For more information, see [Vetoing a bind link](/windows-hardware/drivers/ifs/vetoing-a-bind-link).
