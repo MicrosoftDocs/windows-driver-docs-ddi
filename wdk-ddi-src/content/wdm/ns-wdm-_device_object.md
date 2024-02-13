@@ -1,12 +1,10 @@
 ---
 UID: NS:wdm._DEVICE_OBJECT
-title: _DEVICE_OBJECT (wdm.h)
-description: A device object represents a logical, virtual, or physical device for which a driver handles I/O requests.
-old-location: kernel\device_object.htm
+title: DEVICE_OBJECT (wdm.h)
+description: Learn more about the DEVICE_OBJECT structure.
 tech.root: kernel
-ms.date: 12/13/2023
+ms.date: 02/09/2024
 keywords: ["DEVICE_OBJECT structure"]
-ms.keywords: "*PDEVICE_OBJECT, DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DEVICE_OBJECT, kernel.device_object, kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/DEVICE_OBJECT, wdm/PDEVICE_OBJECT"
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -45,8 +43,6 @@ api_name:
  - PDEVICE_OBJECT
  - DEVICE_OBJECT
 ---
-
-# _DEVICE_OBJECT structure
 
 ## -description
 
@@ -92,115 +88,46 @@ A pointer to a timer object. This allows the I/O manager to call a driver-suppli
 
 ### -field Flags
 
-Device drivers perform a bitwise **OR** operation with this member in their newly created device objects by using one or more of the following system-defined values:
-
-#### DO_BUFFERED_IO or DO_DIRECT_IO
-
-Specifies the type of buffering that is used by the I/O manager for I/O requests that are sent to the device stack. Higher-level drivers OR this member with the same value as the next-lower driver in the stack, except possibly for highest-level drivers.
-
-#### DO_BUS_ENUMERATED_DEVICE
-
-The operating system sets this flag in each physical device object (PDO). Drivers must not modify this flag.
-
-#### DO_DEVICE_INITIALIZING
-
-The I/O manager sets this flag when it creates the device object. A device function driver or filter driver clears the flag in its [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine, after it does the following:
-
-- Attaches the device object to the device stack.
-- Establishes the device power state.
-- Performs a bitwise OR operation on the member with one of the power flags (if it is necessary).
-
-The Plug and Play (PnP) manager checks that the flag is clear after the [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine returns.
-
-#### DO_EXCLUSIVE
-
-Indicates that the driver services an exclusive device, such as a video, serial, parallel, or sound device. WDM drivers must not set this flag. For more information, see the [Specifying Exclusive Access to Device Objects](/windows-hardware/drivers/kernel/specifying-exclusive-access-to-device-objects) topic.
-
-#### DO_MAP_IO_BUFFER
-
-This flag is no longer used. Drivers should not set this flag.
-
-#### DO_POWER_INRUSH
-
-Drivers of devices that require inrush current when the device is turned on must set this flag. A driver cannot set both this flag and DO_POWER_PAGABLE.
-
-#### DO_POWER_PAGABLE
-
-Pageable drivers that are compatible with Microsoft Windows 2000 and later versions of Windows, are not part of the paging path, and do not require inrush current must set this flag. The system calls such drivers at IRQL = PASSIVE_LEVEL. Drivers cannot set both this flag and DO_POWER_INRUSH. All drivers for WDM, Microsoft Windows 98, and Windows Millennium Edition must set DO_POWER_PAGABLE.
-
-#### DO_SHUTDOWN_REGISTERED
-
-Used by the I/O manager to indicate that a driver has registered the device object for shutdown notifications. This flag should not be used by drivers.
-
-#### DO_VERIFY_VOLUME
-
-Removable-media drivers set this flag while they process transfer requests. Such drivers should also check for this flag in the target for a transfer request before they transfer any data. For more information, see the [Supporting Removable Media](/windows-hardware/drivers/kernel/supporting-removable-media) topic.
+Device drivers perform a bitwise **OR** operation with this member in their newly created device objects by using one or more of the following system-defined values.
 
 For more information about how to set the **Flags** member, see [Initializing a Device Object](/windows-hardware/drivers/kernel/initializing-a-device-object).
+
+| Value | Meaning |
+| ----- | ------- |
+| DO_VERIFY_VOLUME (0x00000002) | Removable-media drivers set this flag while they process transfer requests. Such drivers should also check for this flag in the target for a transfer request before they transfer any data. For more information, see the [Supporting Removable Media](/windows-hardware/drivers/kernel/supporting-removable-media) topic. |
+| DO_BUFFERED_IO (0x00000004) | Specifies the type of buffering that is used by the I/O manager for I/O requests that are sent to the device stack. Higher-level drivers OR this member with the same value as the next-lower driver in the stack, except possibly for highest-level drivers. |
+| DO_EXCLUSIVE (0x00000008) | Indicates that the driver services an exclusive device, such as a video, serial, parallel, or sound device. WDM drivers must not set this flag. For more information, see the [Specifying Exclusive Access to Device Objects](/windows-hardware/drivers/kernel/specifying-exclusive-access-to-device-objects) topic. |
+| DO_DIRECT_IO (0x00000010) | See DO_BUFFERED_IO. |
+| DO_MAP_IO_BUFFER (0x00000020) | This flag is no longer used. Drivers should not set this flag. |
+| DO_DEVICE_INITIALIZING (0x00000080) | The I/O manager sets this flag when it creates the device object. A device function driver or filter driver clears the flag in its [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine, after it: (1) Attaches the device object to the device stack. (2) Establishes the device power state. (3) Performs a bitwise OR operation on the member with one of the power flags (if it is necessary). The Plug and Play (PnP) manager checks that the flag is clear after the [AddDevice](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_add_device) routine returns. |
+| DO_SHUTDOWN_REGISTERED (0x00000800) | Used by the I/O manager to indicate that a driver has registered the device object for shutdown notifications. This flag should not be used by drivers. |
+| DO_BUS_ENUMERATED_DEVICE (0x00001000) | The operating system sets this flag in each physical device object (PDO). Drivers must not modify this flag. |
+| DO_POWER_PAGABLE (0x00002000) | Pageable drivers that are compatible with Microsoft Windows 2000 and later versions of Windows, are not part of the paging path, and do not require inrush current must set this flag. The system calls such drivers at IRQL = PASSIVE_LEVEL. Drivers cannot set both this flag and DO_POWER_INRUSH. All drivers for WDM, Microsoft Windows 98, and Windows Millennium Edition must set DO_POWER_PAGABLE. |
+| DO_POWER_INRUSH (0x00004000) | Drivers of devices that require inrush current when the device is turned on must set this flag. A driver cannot set both this flag and DO_POWER_PAGABLE. |
+| DO_DEVICE_TO_BE_RESET (0x04000000) | The I/O manager sets this flag as a signal for the bus driver to reset the device. Other drivers should not use this flag. |
+| DO_DAX_VOLUME (0x10000000) | Indicates that a volume is a DAX volume. |
 
 ### -field Characteristics
 
 Specifies one or more system-defined constants, combined with a bitwise OR operation, that provide additional information about the driver's device. These constants include the following:
 
-#### FILE_AUTOGENERATED_DEVICE_NAME
-
-Directs the I/O manager to generate a name for the device, instead of the caller specifying a *DeviceName* when it calls this routine. The I/O manager makes sure that the name is unique. This characteristic is typically specified by a PnP bus driver to generate a name for a physical device object (PDO) for a child device on the same bus. This characteristic is new starting with Microsoft Windows 2000 and Microsoft Windows 98.
-
-#### FILE_CHARACTERISTIC_PNP_DEVICE
-
-Indicates that the device object is part of a Plug and Play (PnP) stack. This characteristic is required if a bus driver (or bus filter driver) registers WMI support for a device object that has not yet received the [IRP_MN_START_DEVICE](/windows-hardware/drivers/kernel/irp-mn-start-device) request. FILE_CHARACTERISTIC_PNP_DEVICE is also required if a function or filter driver registers for WMI *before* attaching to its device stack.
-
-#### FILE_CHARACTERISTIC_TS_DEVICE
-
-Indicates that the device object is part of a Terminal Services device stack. Drivers should not set this characteristic.
-
-#### FILE_CHARACTERISTIC_WEBDAV_DEVICE
-
-Indicates that a Web-based Distributed Authoring and Versioning (WebDAV) file system is mounted on the device. Drivers should not set this characteristic.
-
-#### FILE_DEVICE_IS_MOUNTED
-
-Indicates that a file system is mounted on the device. Drivers should not set this characteristic.
-
-#### FILE_DEVICE_SECURE_OPEN
-
-Directs the I/O manager to apply the security descriptor of the device object to relative opens and trailing file name opens for the device. For more information, see the [Controlling Device Namespace Access](/windows-hardware/drivers/kernel/controlling-device-namespace-access) topic.
-
-#### FILE_FLOPPY_DISKETTE
-
-Indicates that the device is a floppy disk device.
-
-#### FILE_READ_ONLY_DEVICE
-
-Indicates that the device cannot be written to.
-
-#### FILE_REMOTE_DEVICE
-
-Indicates that the device is remote.
-
-#### FILE_REMOVABLE_MEDIA
-
-Indicates that the storage device supports removable media. Notice that this characteristic indicates removable *media*, not a removable *device*. For example, drivers for JAZ drive devices should specify this characteristic, but drivers for PCMCIA flash disks should not.
-
-#### FILE_VIRTUAL_VOLUME
-
-Indicates that the volume is virtual. Drivers should not set this characteristic.
-
-#### FILE_WRITE_ONCE_MEDIA
-
-Indicates that the device supports write-once media. Drivers do not set this member directly. For more information about how to set device characteristics, see the [Specifying Device Characteristics](/windows-hardware/drivers/kernel/specifying-device-characteristics) topic.
-
-#### FILE_CHARACTERISTIC_CSV
-
-Indicates that the device is a Cluster Shared Volume (CSV).
-
-#### FILE_DEVICE_ALLOW_APPCONTAINER_TRAVERSAL
-
-The IO Manager normally performs a full security check for traverse access on every file open when the client is an app container.  Setting of this flag bypasses this enforced traverse access check if the client token already has traverse privileges.
-
-#### FILE_PORTABLE_DEVICE
-
-Indicates that the underlying stack considers the device portable. This is used by the storage stack and means that the device is not in the local machine container and is not on a fixed bus type.
+| Value | Meaning |
+| ----- | ------- |
+| FILE_AUTOGENERATED_DEVICE_NAME | Directs the I/O manager to generate a name for the device, instead of the caller specifying a *DeviceName* when it calls this routine. The I/O manager makes sure that the name is unique. This characteristic is typically specified by a PnP bus driver to generate a name for a physical device object (PDO) for a child device on the same bus. |
+| FILE_CHARACTERISTIC_PNP_DEVICE | Indicates that the device object is part of a Plug and Play (PnP) stack. This characteristic is required if a bus driver (or bus filter driver) registers WMI support for a device object that has not yet received the [IRP_MN_START_DEVICE](/windows-hardware/drivers/kernel/irp-mn-start-device) request. FILE_CHARACTERISTIC_PNP_DEVICE is also required if a function or filter driver registers for WMI *before* attaching to its device stack. |
+| FILE_CHARACTERISTIC_TS_DEVICE | Indicates that the device object is part of a Terminal Services device stack. Drivers should not set this characteristic. |
+| FILE_CHARACTERISTIC_WEBDAV_DEVICE | Indicates that a Web-based Distributed Authoring and Versioning (WebDAV) file system is mounted on the device. Drivers should not set this characteristic. |
+| FILE_DEVICE_IS_MOUNTED | Indicates that a file system is mounted on the device. Drivers should not set this characteristic. |
+| FILE_DEVICE_SECURE_OPEN | Directs the I/O manager to apply the security descriptor of the device object to relative opens and trailing file name opens for the device. For more information, see the [Controlling Device Namespace Access](/windows-hardware/drivers/kernel/controlling-device-namespace-access) topic. |
+| FILE_FLOPPY_DISKETTE | Indicates that the device is a floppy disk device. |
+| FILE_READ_ONLY_DEVICE | Indicates that the device cannot be written to. |
+| FILE_REMOTE_DEVICE | Indicates that the device is remote. |
+| FILE_REMOVABLE_MEDIA | Indicates that the storage device supports removable media. Notice that this characteristic indicates removable *media*, not a removable *device*. For example, drivers for JAZ drive devices should specify this characteristic, but drivers for PCMCIA flash disks should not. |
+| FILE_VIRTUAL_VOLUME | Indicates that the volume is virtual. Drivers should not set this characteristic. |
+| FILE_WRITE_ONCE_MEDIA | Indicates that the device supports write-once media. Drivers do not set this member directly. For more information about how to set device characteristics, see the [Specifying Device Characteristics](/windows-hardware/drivers/kernel/specifying-device-characteristics) topic. |
+| FILE_CHARACTERISTIC_CSV | Indicates that the device is a Cluster Shared Volume (CSV). |
+| FILE_DEVICE_ALLOW_APPCONTAINER_TRAVERSAL | The IO Manager normally performs a full security check for traverse access on every file open when the client is an app container.  Setting of this flag bypasses this enforced traverse access check if the client token already has traverse privileges. |
+| FILE_PORTABLE_DEVICE | Indicates that the underlying stack considers the device portable. This is used by the storage stack and means that the device is not in the local machine container and is not on a fixed bus type. |
 
 ### -field Vpb
 
