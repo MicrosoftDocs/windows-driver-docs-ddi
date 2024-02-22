@@ -142,6 +142,8 @@ Driver routines that do not run in the system process context must set the OBJ_K
 
 > [!NOTE]
 > Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.
+>
+> Do not call this routine with APCs disabled (an outstanding [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) or [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md), as this can cause a thread deadlock.
 
 Certain *DesiredAccess* flags and combinations of flags have the following effects:
 
