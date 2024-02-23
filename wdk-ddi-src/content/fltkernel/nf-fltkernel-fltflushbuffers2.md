@@ -1,15 +1,15 @@
 ---
 UID: NF:fltkernel.FltFlushBuffers2
 title: FltFlushBuffers2 function
-description: A minifilter driver calls FltFlushBuffers2 to send a flush request to the file system for a given file.
+description: Learn more about the FltFlushBuffers2 function.
 tech.root: ifsk
-ms.date: 01/02/2020
+ms.date: 02/22/2024
 keywords: ["FltFlushBuffers2 function"]
 ms.keywords: FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS
 req.header: fltkernel.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1903
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,7 +44,6 @@ dev_langs:
 
 # FltFlushBuffers2 function
 
-
 ## -description
 
 A minifilter driver calls **FltFlushBuffers2** to send a flush request to the file system for a given file.
@@ -53,27 +52,27 @@ A minifilter driver calls **FltFlushBuffers2** to send a flush request to the fi
 
 ### -param Instance
 
-Opaque instance pointer for the calling minifilter driver instance. This parameter is required and cannot be **NULL**.
+[in] Opaque instance pointer for the calling minifilter driver instance. This parameter is required and can't be NULL.
 
 ### -param FileObject
 
-File object pointer for the file or volume to be flushed. This parameter is required and cannot be **NULL**.
+[in] File object pointer for the file or volume to be flushed. This parameter is required and can't be NULL.
 
 ### -param FlushType
 
-Specifies the type of flush that the file system should do on the file. *FlushType* can be one of the following:
+[in] Specifies the type of flush that the file system should do on the file. **FlushType** can be one of the following:
 
 | FlushType Operation Value | Description |
 | ------------------------- | ----------- |
-| 0 | If *FileObject* is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If *FileObject* is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. This operation is equivalent to [**FltFlushBuffers**](./nf-fltkernel-fltflushbuffers.md). |
+| 0 | If **FileObject** is for a file, both the file data and metadata in the file cache will be written, and the underlying storage will be synchronized to flush its cache. If **FileObject** is for a volume, the file system will cause both the file data and metadata for all modified files on the volume will be written, and the underlying storage to be synchronized to flush its cache. This operation is equivalent to [**FltFlushBuffers**](./nf-fltkernel-fltflushbuffers.md). |
 | FLT_FLUSH_TYPE_FLUSH_AND_PURGE | Same as 0 (**FltFlushBuffers**), except that the cache is also purged after the flush completes. |
-| FLT_FLUSH_TYPE_FILE_DATA_ONLY | If the file is on an NTFS file system, only file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume. |
-| FLT_FLUSH_TYPE_NO_SYNC | If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage will not be synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume. |
-| FLT_FLUSH_TYPE_DATA_SYNC_ONLY | If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written. The underlying storage is synchronized to flush its cache. This flag is not valid if *FileObject* is for a volume or directory. |
+| FLT_FLUSH_TYPE_FILE_DATA_ONLY | If the file is on an NTFS file system, only file data in the file cache will be written. No metadata is written and the underlying storage is not synchronized to flush its cache. This flag is not valid if **FileObject** is for a volume. |
+| FLT_FLUSH_TYPE_NO_SYNC | If the file is on an NTFS file system, file data and metadata in the file cache will be written. The underlying storage will not be synchronized to flush its cache. This flag is not valid if **FileObject** is for a volume. |
+| FLT_FLUSH_TYPE_DATA_SYNC_ONLY | If the file is on an NTFS file system, file data in the file cache will be written. No metadata is written. The underlying storage is synchronized to flush its cache. This flag is not valid if **FileObject** is for a volume or directory. |
 
 ### -param CallbackData
 
-Pointer to optional callback data used to propagate the caller's IRP extension. See [**FltPropagateIrpExtension**](./nf-fltkernel-fltpropagateirpextension.md).
+[in/optional] Pointer to optional [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure used to propagate the caller's IRP extension. See [**FltPropagateIrpExtension**](nf-fltkernel-fltpropagateirpextension.md).
 
 ## -returns
 
@@ -86,9 +85,9 @@ Pointer to optional callback data used to propagate the caller's IRP extension. 
 
 ## -remarks
 
-A minifilter driver can call **FltFlushBuffers2** to issue an [IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified *Instance*.
+A minifilter driver can call **FltFlushBuffers2** to issue an [IRP_MJ_FLUSH_BUFFERS](/windows-hardware/drivers/ifs/irp-mj-flush-buffers) request to the file system for a given file. The flush operation is synchronous and is issued to the instance(s) below the specified **Instance**.
 
-If the file is on an NTFS file system, the minifilter can control the type of flush through the *FlushType* parameter.
+If the file is on an NTFS file system, the minifilter can control the type of flush through the **FlushType** parameter.
 
 ## -see-also
 
