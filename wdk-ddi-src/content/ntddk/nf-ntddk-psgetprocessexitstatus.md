@@ -13,7 +13,7 @@ req.dll:
 req.header: ntddk.h
 req.idl: 
 req.include-header: 
-req.irql: APC_LEVEL
+req.irql: <= APC_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

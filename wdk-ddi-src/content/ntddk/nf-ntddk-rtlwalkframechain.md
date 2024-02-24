@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
