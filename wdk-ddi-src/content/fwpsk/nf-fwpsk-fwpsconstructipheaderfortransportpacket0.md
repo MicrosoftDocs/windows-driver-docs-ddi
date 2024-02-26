@@ -162,8 +162,14 @@ The length, in bytes, of the
 
 ### -param flags [in]
 
+Flags that specify whether the NBL is intended for the send or receive path. The **flags** parameter can have the following values:
 
-Reserved. Callout drivers must set this parameter to zero.
+|Value|Meaning|
+|--- |--- |
+|**FWPS_CONSTRUCT_IPHEADER_FOR_SEND**|When set, this flag specifies that the NBL is intended for send path.|
+|**FWPS_CONSTRUCT_IPHEADER_FOR_RECEIVE**|When set, this flag specifies that the NBL is intended for receive path.|
+
+For callout drivers that support USO or URO, it is mandatory to set this parameter to one of these values. Other callout drivers can set this parameter to **zero**. These flags are only supported on Windows Server 2022 23H2 and later. On prior releases of Windows, callout drivers must always set this parameter to **zero**.
 
 ### -param reserved
 
