@@ -20,7 +20,7 @@ req.max-support:
 req.namespace: 
 req.redist: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winversvr:  Windows Server 2003, Service Pack 1
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,22 +44,46 @@ helpviewer_keywords:
 
 ## -description
 
-This topic describes the **ExAllocateCacheAwareRundownProtection** function.
+The **ExAllocateCacheAwareRundownProtection** routine allocates a cache-friendly rundown protection structure for multi-processor scenarios. Rundown protection is a synchronization mechanism that allows for the safe cleanup of resources that might be accessed by multiple threads.
 
 ## -parameters
 
-### -param PoolType
+### -param PoolType [in]
 
-Defines the **POOL_TYPE** parameter *PoolType*.
+The type of pool memory to allocate. For a description of the available pool memory types, see [**POOL_TYPE**](ne-wdm-_pool_type.md).
 
-### -param PoolTag
+### -param PoolTag [in]
 
-Defines the **ULONG** parameter *PoolTag*.
+A ULONG that specifies the pool tag for the memory allocation. The pool tag is a 32-bit value that is used to track memory usage.
 
 ## -returns
 
-Returns a pointer to a **PEX_RUNDOWN_REF_CACHE_AWARE** structure.
+Returns a pointer to an opaque **EX_RUNDOWN_REF_CACHE_AWARE** structure or NULL if allocation fails.
 
 ## -remarks
 
+A driver can call **ExAllocateCacheAwareRundownProtection** as an alternative to calling [**ExSizeOfRundownProtectionCacheAware**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exsizeofrundownprotectioncacheaware) followed by [**ExInitializeRundownProtectionCacheAware**](/windows-hardware/drivers/ddi/wdm/nf-wdm-exinitializerundownprotectioncacheaware).
+
+For more info, see [Cache-aware run-down protection](/windows-hardware/drivers/kernel/run-down-protection#cache-aware-run-down-protection).
+
 ## -see-also
+
+[**ExAcquireRundownProtectionCacheAware**](./nf-wdm-exacquirerundownprotectioncacheaware.md)
+
+[**ExAcquireRundownProtectionCacheAwareEx**](./nf-wdm-exacquirerundownprotectioncacheawareex.md)
+
+[**ExFreeCacheAwareRundownProtection**](./nf-wdm-exfreecacheawarerundownprotection.md)
+
+[**ExInitializeRundownProtectionCacheAware**](./nf-wdm-exinitializerundownprotectioncacheaware.md)
+
+[**ExReInitializeRundownProtectionCacheAware**](./nf-wdm-exreinitializerundownprotectioncacheaware.md)
+
+[**ExReleaseRundownProtectionCacheAware**](./nf-wdm-exreleaserundownprotectioncacheaware.md)
+
+[**ExReleaseRundownProtectionCacheAwareEx**](./nf-wdm-exreleaserundownprotectioncacheawareex.md)
+
+[**ExRundownCompletedCacheAware**](./nf-wdm-exrundowncompletedcacheaware.md)
+
+[**ExSizeOfRundownProtectionCacheAware**](./nf-wdm-exsizeofrundownprotectioncacheaware.md)
+
+[**ExWaitForRundownProtectionReleaseCacheAware**](./nf-wdm-exwaitforrundownprotectionreleasecacheaware.md)
