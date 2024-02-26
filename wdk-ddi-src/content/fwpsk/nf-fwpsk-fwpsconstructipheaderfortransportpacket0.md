@@ -170,7 +170,7 @@ flags can have the following value:
 |**FWPS_CONSTRUCT_IPHEADER_FOR_RECEIVE**|When set, this flag specifies that the NBL is intended for receive path.|
 
 For callout drivers that support USO or URO, it is mandatory to set this parameter to one of these values. Other callout drivers can set this parameter to zero. 
-These flags are only supported on Windows versions 10.0.25876 and later. On prior versions of Windows, callout drivers must always set this parameter to zero.
+These flags are only supported on Windows Server 2022 23H2 and later. On prior releases of Windows, callout drivers must always set this parameter to zero.
 
 ### -param reserved
 
