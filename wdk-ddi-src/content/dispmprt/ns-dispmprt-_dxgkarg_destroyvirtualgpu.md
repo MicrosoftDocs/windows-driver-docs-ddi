@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_DESTROYVIRTUALGPU
  - PDXGKARG_DESTROYVIRTUALGPU
  - DXGKARG_DESTROYVIRTUALGPU
-product:
- - Windows
 dev_langs:
  - c++
 ---

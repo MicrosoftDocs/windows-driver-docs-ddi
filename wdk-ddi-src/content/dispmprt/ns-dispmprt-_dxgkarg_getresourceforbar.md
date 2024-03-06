@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_GETRESOURCEFORBAR
  - PDXGKARG_GETRESOURCEFORBAR
  - DXGKARG_GETRESOURCEFORBAR
-product:
- - Windows
 dev_langs:
  - c++
 ---

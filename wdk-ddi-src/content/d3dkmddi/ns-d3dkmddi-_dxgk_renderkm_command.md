@@ -40,8 +40,6 @@ api_location:
 api_name:
  - _DXGK_RENDERKM_COMMAND
  - DXGK_RENDERKM_COMMAND
-product:
- - Windows
 ---
 
 # DXGK_RENDERKM_COMMAND structure

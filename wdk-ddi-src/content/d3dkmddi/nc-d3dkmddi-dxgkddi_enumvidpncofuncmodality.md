@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_ENUMVIDPNCOFUNCMODALITY
-product:
- - Windows
 ---
 
 # DXGKDDI_ENUMVIDPNCOFUNCMODALITY callback function

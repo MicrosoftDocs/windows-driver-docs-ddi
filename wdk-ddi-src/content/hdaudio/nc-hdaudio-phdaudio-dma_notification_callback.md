@@ -35,8 +35,6 @@ api_location:
  - hdaudio.h
 api_name:
  - PHDAUDIO_DMA_NOTIFICATION_CALLBACK
-product:
- - Windows
 ---
 
 # PHDAUDIO_DMA_NOTIFICATION_CALLBACK callback function

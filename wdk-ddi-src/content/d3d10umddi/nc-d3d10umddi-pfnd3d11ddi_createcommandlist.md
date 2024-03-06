@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D11DDI_CREATECOMMANDLIST
-product:
- - Windows
 ---
 
 # PFND3D11DDI_CREATECOMMANDLIST callback function

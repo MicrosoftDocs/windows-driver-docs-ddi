@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES
  - NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES
-product:
- - Windows
 ---
 
 # _NET_ADAPTER_OFFLOAD_GSO_CAPABILITIES structure

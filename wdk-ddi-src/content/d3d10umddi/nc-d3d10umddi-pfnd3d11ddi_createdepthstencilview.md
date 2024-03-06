@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D11DDI_CREATEDEPTHSTENCILVIEW
-product:
- - Windows
 ---
 
 # PFND3D11DDI_CREATEDEPTHSTENCILVIEW callback function

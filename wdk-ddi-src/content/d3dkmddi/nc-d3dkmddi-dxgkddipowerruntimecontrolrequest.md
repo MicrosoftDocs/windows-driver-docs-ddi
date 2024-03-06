@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDIPOWERRUNTIMECONTROLREQUEST
-product:
- - Windows
 ---
 
 # DXGKDDIPOWERRUNTIMECONTROLREQUEST callback function

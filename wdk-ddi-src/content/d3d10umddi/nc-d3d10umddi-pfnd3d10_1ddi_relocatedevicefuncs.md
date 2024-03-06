@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D10_1DDI_RELOCATEDEVICEFUNCS
-product:
- - Windows
 ---
 
 # PFND3D10_1DDI_RELOCATEDEVICEFUNCS callback function

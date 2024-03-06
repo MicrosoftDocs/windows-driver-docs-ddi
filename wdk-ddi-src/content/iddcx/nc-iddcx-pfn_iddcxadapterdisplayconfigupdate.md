@@ -37,8 +37,6 @@ api_location:
  - iddcx.h
 api_name:
  - PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPN_ASSIGNMULTISAMPLINGMETHODSET callback function

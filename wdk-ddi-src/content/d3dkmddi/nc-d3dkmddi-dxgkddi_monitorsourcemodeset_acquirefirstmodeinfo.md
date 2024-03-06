@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_MONITORSOURCEMODESET_ACQUIREFIRSTMODEINFO callback function

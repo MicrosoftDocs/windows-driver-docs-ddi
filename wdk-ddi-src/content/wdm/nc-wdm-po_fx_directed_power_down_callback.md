@@ -34,8 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PO_FX_DIRECTED_POWER_DOWN_CALLBACK
-product:
- - Windows
 ---
 
 ## -description

@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DKMT_BLOCKLIST_INFO
  - D3DKMT_BLOCKLIST_INFO
-product:
- - Windows
 ---
 
 # _D3DKMT_BLOCKLIST_INFO structure

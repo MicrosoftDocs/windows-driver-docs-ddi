@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_BRIGHTNESS_NIT_RANGE
  - DXGK_BRIGHTNESS_NIT_RANGE
-product:
- - Windows
 ---
 
 # _DXGK_BRIGHTNESS_NIT_RANGE structure

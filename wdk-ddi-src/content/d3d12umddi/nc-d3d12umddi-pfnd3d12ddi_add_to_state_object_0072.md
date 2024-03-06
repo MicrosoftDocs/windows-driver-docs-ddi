@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_ADD_TO_STATE_OBJECT_0072
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -36,8 +36,6 @@ api_location:
  - netpoweroffload.h
 api_name:
  - NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT
-product:
- - Windows
 ---
 
 # NET_POWER_OFFLOAD_ARP_PARAMETERS_INIT function

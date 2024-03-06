@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _DXGKARGCB_ISFEATUREENABLED
  - DXGKARGCB_ISFEATUREENABLED
-product:
- - Windows
 dev_langs:
  - c++
 ---

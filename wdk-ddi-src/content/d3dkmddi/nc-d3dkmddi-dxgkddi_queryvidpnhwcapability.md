@@ -37,8 +37,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_QUERYVIDPNHWCAPABILITY
-product:
- - Windows
 ---
 
 # DXGKDDI_QUERYVIDPNHWCAPABILITY callback function

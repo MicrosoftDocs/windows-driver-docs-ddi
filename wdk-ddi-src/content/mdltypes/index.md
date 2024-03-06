@@ -9,8 +9,6 @@ ms.keywords:
 ms.topic: overview
 tech.root: netvista
 ms.custom: Vb
-product:
- - Windows
 f1_keywords:
  - mdltypes
  - mdltypes/mdltypes

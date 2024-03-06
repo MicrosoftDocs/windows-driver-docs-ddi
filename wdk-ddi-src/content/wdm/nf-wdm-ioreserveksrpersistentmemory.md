@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - IoReserveKsrPersistentMemory
-product:
- - Windows
 f1_keywords:
  - IoReserveKsrPersistentMemory
  - wdm/IoReserveKsrPersistentMemory

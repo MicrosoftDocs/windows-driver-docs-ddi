@@ -27,8 +27,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDIARG_CREATE_SHADER_0026
-product:
- - Windows
 f1_keywords:
  - D3D12DDIARG_CREATE_SHADER_0026
  - d3d12umddi/D3D12DDIARG_CREATE_SHADER_0026

@@ -35,8 +35,6 @@ api_location:
 api_name:
  - PMATRIX3X3
  - MATRIX3X3
-product:
- - Windows
 ---
 
 # MATRIX3X3 structure

@@ -35,8 +35,6 @@ api_location:
  - Storport.dll
 api_name:
  - StorPortMarkDeviceFailedEx
-product:
- - Windows
 ---
 
 # StorPortMarkDeviceFailedEx function

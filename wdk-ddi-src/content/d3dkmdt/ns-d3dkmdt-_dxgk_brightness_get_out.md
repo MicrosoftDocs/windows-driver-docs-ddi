@@ -37,8 +37,6 @@ api_name:
  - _DXGK_BRIGHTNESS_GET_OUT
  - PDXGK_BRIGHTNESS_GET_OUT
  - DXGK_BRIGHTNESS_GET_OUT
-product:
- - Windows
 ---
 
 # _DXGK_BRIGHTNESS_GET_OUT structure

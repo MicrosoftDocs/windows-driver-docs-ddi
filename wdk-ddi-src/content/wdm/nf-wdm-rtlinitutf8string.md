@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - RtlInitUTF8String
-product:
- - Windows
 f1_keywords:
  - RtlInitUTF8String
  - wdm/RtlInitUTF8String

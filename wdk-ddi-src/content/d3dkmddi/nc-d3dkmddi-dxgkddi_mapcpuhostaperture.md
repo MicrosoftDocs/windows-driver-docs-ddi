@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MAPCPUHOSTAPERTURE
-product:
- - Windows
 ---
 
 # DXGKDDI_MAPCPUHOSTAPERTURE callback function

@@ -37,8 +37,6 @@ api_location:
  - Ndis.h
 api_name:
  - NDIS_PD_QUERY_QUEUE_DEPTH
-product:
- - Windows
 ---
 
 # NDIS_PD_QUERY_QUEUE_DEPTH callback function

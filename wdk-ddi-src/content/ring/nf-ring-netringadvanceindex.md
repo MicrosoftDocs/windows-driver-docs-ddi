@@ -36,8 +36,6 @@ api_location:
  - ring.h
 api_name:
  - NetRingAdvanceIndex
-product:
- - Windows
 ---
 
 # NetRingAdvanceIndex function

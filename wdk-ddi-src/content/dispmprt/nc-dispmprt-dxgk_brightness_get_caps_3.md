@@ -34,8 +34,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGK_BRIGHTNESS_GET_CAPS_3
-product:
- - Windows
 ---
 
 # DXGK_BRIGHTNESS_GET_CAPS_3 callback function

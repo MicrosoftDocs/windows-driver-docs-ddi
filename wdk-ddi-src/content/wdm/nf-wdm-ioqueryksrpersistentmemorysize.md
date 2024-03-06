@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - IoQueryKsrPersistentMemorySize
-product:
- - Windows
 f1_keywords:
  - IoQueryKsrPersistentMemorySize
  - wdm/IoQueryKsrPersistentMemorySize

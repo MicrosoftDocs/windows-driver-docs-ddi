@@ -33,8 +33,6 @@ api_location:
  - iddcx.h
 api_name:
  - IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
-product:
- - Windows
 dev_langs:
  - c++
 ---

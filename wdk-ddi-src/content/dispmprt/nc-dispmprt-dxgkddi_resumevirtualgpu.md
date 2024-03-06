@@ -35,8 +35,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGKDDI_RESUMEVIRTUALGPU
-product:
- - Windows
 dev_langs:
  - c++
 ---

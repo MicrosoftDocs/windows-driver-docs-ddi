@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_POWER_OFFLOAD_LIST
  - NET_POWER_OFFLOAD_LIST
-product:
- - Windows
 ---
 
 # NET_POWER_OFFLOAD_LIST structure

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESTROYDEVICE
-product:
- - Windows
 ---
 
 # DXGKDDI_DESTROYDEVICE callback function

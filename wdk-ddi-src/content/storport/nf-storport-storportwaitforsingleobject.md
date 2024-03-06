@@ -35,8 +35,6 @@ api_location:
  - Storport.dll
 api_name:
  - StorPortWaitForSingleObject
-product:
- - Windows
 ---
 
 # StorPortWaitForSingleObject function

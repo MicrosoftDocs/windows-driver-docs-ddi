@@ -38,8 +38,6 @@ api_location:
  - sdplib.h
 api_name:
  - PBYTESWAPUUID128
-product:
- - Windows
 ---
 
 # PBYTESWAPUUID128 callback function

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETTARGETANALOGCOPYPROTECTION
-product:
- - Windows
 ---
 
 # DXGKDDI_SETTARGETANALOGCOPYPROTECTION callback function

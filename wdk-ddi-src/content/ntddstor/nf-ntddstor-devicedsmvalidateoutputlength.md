@@ -35,8 +35,6 @@ api_location:
  - ntddstor.h
 api_name:
  - DeviceDsmValidateOutputLength
-product:
- - Windows
 ---
 
 # DeviceDsmValidateOutputLength function

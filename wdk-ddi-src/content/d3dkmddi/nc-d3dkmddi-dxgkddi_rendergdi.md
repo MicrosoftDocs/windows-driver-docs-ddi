@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_RENDERGDI
-product:
- - Windows
 ---
 
 # DXGKDDI_RENDERGDI callback function

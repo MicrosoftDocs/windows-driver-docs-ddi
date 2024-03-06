@@ -30,8 +30,6 @@ api_location:
  - ntddscsi.h
 api_name:
  - IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL
-product:
- - Windows
 ---
 
 # IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE

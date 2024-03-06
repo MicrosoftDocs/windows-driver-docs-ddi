@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_HARDWARERESERVEDRANGES
  - DXGK_HARDWARERESERVEDRANGES
-product:
- - Windows
 ---
 
 # DXGK_HARDWARERESERVEDRANGES structure

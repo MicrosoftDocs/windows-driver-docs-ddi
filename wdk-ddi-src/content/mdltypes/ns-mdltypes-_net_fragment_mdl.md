@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_FRAGMENT_MDL
  - NET_FRAGMENT_MDL
-product:
- - Windows
 ---
 
 # NET_FRAGMENT_MDL structure

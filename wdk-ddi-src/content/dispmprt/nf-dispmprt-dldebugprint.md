@@ -37,8 +37,6 @@ api_location:
  - Displib.dll
 api_name:
  - DlDebugPrint
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_FLUSH1
-product:
- - Windows
 ---
 
 # PFND3DDDI_FLUSH1 callback function

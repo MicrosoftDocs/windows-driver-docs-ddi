@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATE_SAMPLER
-product:
- - Windows
 dev_langs:
  - c++
 ---

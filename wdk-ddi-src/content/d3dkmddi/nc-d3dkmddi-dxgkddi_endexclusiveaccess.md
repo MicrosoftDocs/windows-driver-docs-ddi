@@ -35,8 +35,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_ENDEXCLUSIVEACCESS
-product:
- - Windows
 dev_langs:
  - c++
 ---

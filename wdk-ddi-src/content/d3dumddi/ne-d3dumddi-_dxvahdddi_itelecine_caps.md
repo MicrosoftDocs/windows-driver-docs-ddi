@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXVAHDDDI_ITELECINE_CAPS
  - DXVAHDDDI_ITELECINE_CAPS
-product:
- - Windows
 dev_langs:
  - c++
 ---

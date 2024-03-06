@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_QUERYPROBEDBARS
  - PDXGKARG_QUERYPROBEDBARS
  - DXGKARG_QUERYPROBEDBARS
-product:
- - Windows
 dev_langs:
  - c++
 ---

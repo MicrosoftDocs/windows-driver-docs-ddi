@@ -31,8 +31,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - RtlIsZeroMemory
-product:
- - Windows
 f1_keywords:
  - RtlIsZeroMemory
  - ntddk/RtlIsZeroMemory

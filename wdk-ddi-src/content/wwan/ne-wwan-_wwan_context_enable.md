@@ -35,8 +35,6 @@ api_name:
  - _WWAN_CONTEXT_ENABLE
  - PWWAN_CONTEXT_ENABLE
  - WWAN_CONTEXT_ENABLE
-product:
- - Windows
 ---
 
 # _WWAN_CONTEXT_ENABLE enumeration

@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IMiniportPnpNotify::PnpStop
-product:
- - Windows
 ---
 
 # IMiniportPnpNotify::PnpStop

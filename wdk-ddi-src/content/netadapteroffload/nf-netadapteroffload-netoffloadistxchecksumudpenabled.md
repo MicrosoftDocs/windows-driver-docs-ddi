@@ -35,8 +35,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetOffloadIsTxChecksumUdpEnabled
-product:
- - Windows
 ---
 
 # NetOffloadIsTxChecksumUdpEnabled function

@@ -32,8 +32,6 @@ api_location:
 api_name:
  - __MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0007
  - EVENTACTIONSCALE
-product:
- - Windows
 ---
 
 # EVENTACTIONSCALE enumeration

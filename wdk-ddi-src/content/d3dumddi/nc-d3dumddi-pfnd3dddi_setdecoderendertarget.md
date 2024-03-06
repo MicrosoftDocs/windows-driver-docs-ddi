@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_SETDECODERENDERTARGET
-product:
- - Windows
 ---
 
 # PFND3DDDI_SETDECODERENDERTARGET callback function

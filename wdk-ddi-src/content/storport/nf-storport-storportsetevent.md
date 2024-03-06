@@ -35,8 +35,6 @@ api_location:
  - Storport.dll
 api_name:
  - StorPortSetEvent
-product:
- - Windows
 ---
 
 # StorPortSetEvent function

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTARGETMODESET_GETNUMMODES callback function

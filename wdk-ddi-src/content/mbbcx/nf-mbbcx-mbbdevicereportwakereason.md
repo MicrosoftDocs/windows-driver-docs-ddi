@@ -36,8 +36,6 @@ api_location:
  - mbbcxstub.lib
 api_name:
  - MbbDeviceReportWakeReason
-product:
- - Windows
 ---
 
 # MbbDeviceReportWakeReason function

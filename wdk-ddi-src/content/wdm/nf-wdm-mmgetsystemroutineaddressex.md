@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - MmGetSystemRoutineAddressEx
-product:
- - Windows
 f1_keywords:
  - MmGetSystemRoutineAddressEx
  - wdm/MmGetSystemRoutineAddressEx

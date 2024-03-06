@@ -36,8 +36,6 @@ api_location:
  - ntddk.h
 api_name:
  - RtlFillNonVolatileMemory
-product:
- - Windows
 ---
 
 # RtlFillNonVolatileMemory function

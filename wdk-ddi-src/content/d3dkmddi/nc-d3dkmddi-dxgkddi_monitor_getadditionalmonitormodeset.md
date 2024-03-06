@@ -37,8 +37,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET
-product:
- - Windows
 ---
 
 # DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback function

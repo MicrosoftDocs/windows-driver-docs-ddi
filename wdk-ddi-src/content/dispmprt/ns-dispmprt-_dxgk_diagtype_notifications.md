@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_DIAGTYPE_NOTIFICATIONS
  - DXGK_DIAGTYPE_NOTIFICATIONS
-product:
- - Windows
 ---
 
 # _DXGK_DIAGTYPE_NOTIFICATIONS structure

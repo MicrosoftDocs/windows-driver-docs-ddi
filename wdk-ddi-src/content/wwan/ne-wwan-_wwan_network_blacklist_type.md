@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _WWAN_NETWORK_BLACKLIST_TYPE
  - WWAN_NETWORK_BLACKLIST_TYPE
-product:
- - Windows
 ---
 
 # _WWAN_NETWORK_BLACKLIST_TYPE enumeration

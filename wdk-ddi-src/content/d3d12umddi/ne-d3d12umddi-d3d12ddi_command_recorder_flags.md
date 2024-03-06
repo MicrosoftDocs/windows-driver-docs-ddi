@@ -28,8 +28,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_COMMAND_RECORDER_FLAGS
-product:
- - Windows
 ---
 
 # D3D12DDI_COMMAND_RECORDER_FLAGS enumeration

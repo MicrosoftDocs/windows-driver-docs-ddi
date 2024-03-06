@@ -35,8 +35,6 @@ api_location:
  - netdevice.h
 api_name:
  - EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE
-product:
- - Windows
 ---
 
 # EVT_NET_DEVICE_PREVIEW_WAKE_SOURCE callback function

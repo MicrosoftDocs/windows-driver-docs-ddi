@@ -36,8 +36,6 @@ api_location:
  - netadapterpacket.h
 api_name:
  - NET_EXTENSION_QUERY_INIT
-product:
- - Windows
 ---
 
 # NET_EXTENSION_QUERY_INIT function

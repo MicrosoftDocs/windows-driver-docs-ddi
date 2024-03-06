@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET
-product:
- - Windows
 ---
 
 # DXGKDDI_MONITOR_GETMONITORDESCRIPTORSET callback function

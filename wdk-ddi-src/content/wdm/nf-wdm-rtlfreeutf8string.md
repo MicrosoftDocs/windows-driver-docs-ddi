@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - RtlFreeUTF8String
-product:
- - Windows
 f1_keywords:
  - RtlFreeUTF8String
  - wdm/RtlFreeUTF8String

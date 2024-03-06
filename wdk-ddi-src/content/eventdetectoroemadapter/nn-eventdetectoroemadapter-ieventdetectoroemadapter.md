@@ -31,8 +31,6 @@ api_location:
  - eventdetectoroemadapter.h
 api_name:
  - IEventDetectorOemAdapter
-product:
- - Windows
 ---
 
 # IEventDetectorOemAdapter interface

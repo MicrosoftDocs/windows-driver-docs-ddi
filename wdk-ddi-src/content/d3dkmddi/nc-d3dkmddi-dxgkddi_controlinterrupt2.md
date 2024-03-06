@@ -36,8 +36,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CONTROLINTERRUPT2
-product:
- - Windows
 ---
 
 # DXGKDDI_CONTROLINTERRUPT2 callback function

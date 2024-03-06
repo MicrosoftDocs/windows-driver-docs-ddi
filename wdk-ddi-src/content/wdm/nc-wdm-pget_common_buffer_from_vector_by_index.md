@@ -34,8 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PGET_COMMON_BUFFER_FROM_VECTOR_BY_INDEX
-product:
- - Windows
 ---
 
 ## -description

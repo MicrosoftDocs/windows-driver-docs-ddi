@@ -30,8 +30,6 @@ api_location:
 api_name:
  - _STORPORT_FEATURE_TYPE
  - STORPORT_FEATURE_TYPE
-product:
- - Windows
 ---
 
 # STORPORT_FEATURE_TYPE enumeration

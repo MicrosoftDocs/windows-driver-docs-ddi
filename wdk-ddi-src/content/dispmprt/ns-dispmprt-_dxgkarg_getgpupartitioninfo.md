@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_GETGPUPARTITIONINFO
  - PDXGKARG_GETGPUPARTITIONINFO
  - DXGKARG_GETGPUPARTITIONINFO
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -37,8 +37,6 @@ api_location:
  - Ndis.h
 api_name:
  - IF_SET_OBJECT
-product:
- - Windows
 ---
 
 # IF_SET_OBJECT callback function

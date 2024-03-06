@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATECONTEXT
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATECONTEXT callback function

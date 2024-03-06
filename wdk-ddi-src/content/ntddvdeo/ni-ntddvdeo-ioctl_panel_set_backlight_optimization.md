@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION IOCTL

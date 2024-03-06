@@ -25,8 +25,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_MIPI_DSI_RESET
-product:
- - Windows
 f1_keywords:
  - IOCTL_MIPI_DSI_RESET
  - ntddvdeo/IOCTL_MIPI_DSI_RESET

@@ -37,8 +37,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_RESETENGINE
-product:
- - Windows
 ---
 
 # DXGKDDI_RESETENGINE callback function

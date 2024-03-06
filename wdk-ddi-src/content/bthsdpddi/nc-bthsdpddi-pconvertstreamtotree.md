@@ -38,8 +38,6 @@ api_location:
  - BthSdpddi.h
 api_name:
  - PCONVERTSTREAMTOTREE
-product:
- - Windows
 ---
 
 # PCONVERTSTREAMTOTREE callback function

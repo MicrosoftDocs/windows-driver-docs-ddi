@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_BRIGHTNESS_SENSOR_DATA
  - DXGK_BRIGHTNESS_SENSOR_DATA
-product:
- - Windows
 ---
 
 # _DXGK_BRIGHTNESS_SENSOR_DATA structure

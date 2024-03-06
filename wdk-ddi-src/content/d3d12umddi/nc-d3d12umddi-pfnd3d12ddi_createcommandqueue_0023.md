@@ -38,8 +38,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATECOMMANDQUEUE_0023
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATECOMMANDQUEUE_0023 callback function

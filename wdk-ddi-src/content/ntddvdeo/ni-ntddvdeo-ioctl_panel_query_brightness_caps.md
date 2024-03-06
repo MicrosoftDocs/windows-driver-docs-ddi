@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS IOCTL

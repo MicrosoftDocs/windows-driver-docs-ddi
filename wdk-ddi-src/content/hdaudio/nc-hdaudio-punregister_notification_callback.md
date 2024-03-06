@@ -35,8 +35,6 @@ api_location:
  - hdaudio.h
 api_name:
  - PUNREGISTER_NOTIFICATION_CALLBACK
-product:
- - Windows
 ---
 
 # PUNREGISTER_NOTIFICATION_CALLBACK callback function

@@ -34,8 +34,6 @@ api_location:
  - iddcx.h
 api_name:
  - PFN_IDDCXMONITORSETSRMLIST
-product:
- - Windows
 ---
 
 # PFN_IDDCXMONITORSETSRMLIST callback function

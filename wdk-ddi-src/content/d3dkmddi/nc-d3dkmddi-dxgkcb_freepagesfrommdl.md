@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_FREEPAGESFROMMDL
-product:
- - Windows
 ---
 
 # DXGKCB_FREEPAGESFROMMDL callback function

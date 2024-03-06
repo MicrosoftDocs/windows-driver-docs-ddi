@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT
-product:
- - Windows
 ---
 
 # DXGKDDI_SETDISPLAYPRIVATEDRIVERFORMAT callback function

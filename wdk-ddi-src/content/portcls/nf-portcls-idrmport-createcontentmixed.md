@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IDrmPort::CreateContentMixed
-product:
- - Windows
 ---
 
 # IDrmPort::CreateContentMixed

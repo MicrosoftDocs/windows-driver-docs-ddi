@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_DIAGNOSTIC_HEADER
  - DXGK_DIAGNOSTIC_HEADER
-product:
- - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_HEADER structure

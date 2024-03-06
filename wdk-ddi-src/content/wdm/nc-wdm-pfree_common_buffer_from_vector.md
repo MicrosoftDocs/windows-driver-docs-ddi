@@ -34,8 +34,6 @@ api_location:
  - wdm.h
 api_name:
  - PFREE_COMMON_BUFFER_FROM_VECTOR
-product:
- - Windows
 ---
 
 ## -description

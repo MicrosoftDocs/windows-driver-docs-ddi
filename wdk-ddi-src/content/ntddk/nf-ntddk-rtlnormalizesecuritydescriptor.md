@@ -31,8 +31,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - RtlNormalizeSecurityDescriptor
-product:
- - Windows
 f1_keywords:
  - RtlNormalizeSecurityDescriptor
  - ntddk/RtlNormalizeSecurityDescriptor

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ACQUIREFIRSTPATHINFO callback function

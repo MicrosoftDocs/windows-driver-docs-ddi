@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKCB_SETPOWERCOMPONENTIDLE
-product:
- - Windows
 ---
 
 # DXGKCB_SETPOWERCOMPONENTIDLE callback function

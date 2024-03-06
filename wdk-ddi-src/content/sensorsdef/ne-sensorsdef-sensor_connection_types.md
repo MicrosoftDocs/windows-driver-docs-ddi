@@ -28,8 +28,6 @@ api_location:
  - sensorsdef.h
 api_name:
  - SENSOR_CONNECTION_TYPES
-product:
- - Windows
 ---
 
 # SENSOR_CONNECTION_TYPES enumeration

@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _NET_EXTENSION_TYPE
  - NET_EXTENSION_TYPE
-product:
- - Windows
 ---
 
 # NET_EXTENSION_TYPE enumeration

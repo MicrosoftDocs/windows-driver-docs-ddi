@@ -38,8 +38,6 @@ api_location:
  - dxgiddi.h
 api_name:
  - DXGI_DDI_BASE_CALLBACKS
-product:
- - Windows
 ---
 
 # DXGI_DDI_BASE_CALLBACKS structure

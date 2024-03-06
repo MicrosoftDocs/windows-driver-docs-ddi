@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXVAHDDDI_FILTER_CAPS
  - DXVAHDDDI_FILTER_CAPS
-product:
- - Windows
 dev_langs:
  - c++
 ---

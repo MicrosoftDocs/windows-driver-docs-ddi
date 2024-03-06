@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_ALLOCATECONTIGUOUSMEMORY
-product:
- - Windows
 ---
 
 # DXGKCB_ALLOCATECONTIGUOUSMEMORY callback function

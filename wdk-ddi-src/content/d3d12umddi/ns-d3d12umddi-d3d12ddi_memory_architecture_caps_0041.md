@@ -31,8 +31,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041
-product:
- - Windows
 ---
 
 # D3D12DDI_MEMORY_ARCHITECTURE_CAPS_0041 structure

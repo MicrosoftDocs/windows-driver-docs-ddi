@@ -36,8 +36,6 @@ api_location:
  - netwakesource.h
 api_name:
  - NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT
-product:
- - Windows
 ---
 
 # NET_WAKE_SOURCE_MEDIA_CHANGE_PARAMETERS_INIT function

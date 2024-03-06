@@ -38,8 +38,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021
-product:
- - Windows
 ---
 
 # PFND3D12DDI_SET_EXTENDED_FEATURE_CALLBACKS_0021 callback function

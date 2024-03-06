@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPN_CREATENEWTARGETMODESET
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPN_CREATENEWTARGETMODESET callback function

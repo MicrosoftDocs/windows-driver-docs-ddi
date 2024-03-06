@@ -38,8 +38,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATEDEVICE_0003
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATEDEVICE_0003 callback function

@@ -38,8 +38,6 @@ api_name:
  - _WHEAP_ERROR_RECORD_EVENT
  - PWHEAP_ERROR_RECORD_EVENT
  - WHEAP_ERROR_RECORD_EVENT
-product:
- - Windows
 ---
 
 # WHEAP_ERROR_RECORD_EVENT structure

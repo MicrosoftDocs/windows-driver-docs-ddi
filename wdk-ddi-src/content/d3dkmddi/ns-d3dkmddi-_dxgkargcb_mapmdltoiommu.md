@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGKARGCB_MAPMDLTOIOMMU
  - DXGKARGCB_MAPMDLTOIOMMU
-product:
- - Windows
 ---
 
 # DXGKARGCB_MAPMDLTOIOMMU structure

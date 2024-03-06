@@ -35,8 +35,6 @@ api_location:
  - d3dkmthk.h
 api_name:
  - PDXGK_INITIAL_COMPONENT_STATE
-product:
- - Windows
 ---
 
 # PDXGK_INITIAL_COMPONENT_STATE callback function

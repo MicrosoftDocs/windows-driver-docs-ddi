@@ -30,8 +30,6 @@ api_location:
  - lamp.h
 api_name:
  - IOCTL_LAMP_BASE
-product:
- - Windows
 ---
 
 # IOCTL_LAMP_BASE IOCTL

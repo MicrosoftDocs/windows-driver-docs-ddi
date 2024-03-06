@@ -29,8 +29,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - D3DDDI_COUNTER_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

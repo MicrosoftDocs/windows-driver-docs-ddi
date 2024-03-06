@@ -35,8 +35,6 @@ api_location:
  - netadapteroffload.h
 api_name:
  - EVT_NET_ADAPTER_OFFLOAD_SET_RSC
-product:
- - Windows
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_RSC callback function

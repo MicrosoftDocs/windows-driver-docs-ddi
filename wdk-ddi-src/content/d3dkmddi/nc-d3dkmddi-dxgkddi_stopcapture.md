@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_STOPCAPTURE
-product:
- - Windows
 ---
 
 # DXGKDDI_STOPCAPTURE callback function

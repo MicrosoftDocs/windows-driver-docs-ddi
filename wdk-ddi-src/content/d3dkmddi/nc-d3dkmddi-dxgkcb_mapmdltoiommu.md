@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_MAPMDLTOIOMMU
-product:
- - Windows
 ---
 
 # DXGKCB_MAPMDLTOIOMMU callback function

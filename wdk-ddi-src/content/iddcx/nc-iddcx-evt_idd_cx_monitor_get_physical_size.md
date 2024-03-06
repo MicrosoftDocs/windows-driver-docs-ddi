@@ -35,8 +35,6 @@ api_location:
  - iddcx.h
 api_name:
  - EVT_IDD_CX_MONITOR_GET_PHYSICAL_SIZE
-product:
- - Windows
 dev_langs:
  - c++
 ---

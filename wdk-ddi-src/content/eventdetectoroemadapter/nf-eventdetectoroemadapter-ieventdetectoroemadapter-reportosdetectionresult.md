@@ -36,8 +36,6 @@ api_location:
  - eventdetectoroemadapter.h
 api_name:
  - IEventDetectorOemAdapter::ReportOSDetectionResult
-product:
- - Windows
 ---
 
 # IEventDetectorOemAdapter::ReportOSDetectionResult

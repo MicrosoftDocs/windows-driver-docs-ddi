@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_ADAPTER_PERFDATA
  - DXGK_ADAPTER_PERFDATA
-product:
- - Windows
 ---
 
 # _DXGK_ADAPTER_PERFDATA structure

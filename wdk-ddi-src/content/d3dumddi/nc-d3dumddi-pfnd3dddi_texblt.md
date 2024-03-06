@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_TEXBLT
-product:
- - Windows
 ---
 
 # PFND3DDDI_TEXBLT callback function

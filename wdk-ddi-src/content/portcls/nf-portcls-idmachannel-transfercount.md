@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IDmaChannel::TransferCount
-product:
- - Windows
 ---
 
 # IDmaChannel::TransferCount

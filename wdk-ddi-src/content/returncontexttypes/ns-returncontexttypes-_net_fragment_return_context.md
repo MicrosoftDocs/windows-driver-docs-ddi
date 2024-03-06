@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_FRAGMENT_RETURN_CONTEXT
  - NET_FRAGMENT_RETURN_CONTEXT
-product:
- - Windows
 ---
 
 # NET_FRAGMENT_RETURN_CONTEXT structure

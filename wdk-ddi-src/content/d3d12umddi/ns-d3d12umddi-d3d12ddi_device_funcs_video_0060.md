@@ -32,8 +32,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_DEVICE_FUNCS_VIDEO_0060
-product:
- - Windows
 dev_langs:
  - c++
 ---

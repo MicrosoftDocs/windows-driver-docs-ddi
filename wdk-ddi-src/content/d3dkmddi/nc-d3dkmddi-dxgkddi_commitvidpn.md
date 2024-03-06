@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_COMMITVIDPN
-product:
- - Windows
 ---
 
 # DXGKDDI_COMMITVIDPN callback function

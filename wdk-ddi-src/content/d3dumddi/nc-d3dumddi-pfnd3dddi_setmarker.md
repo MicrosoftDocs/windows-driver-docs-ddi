@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_SETMARKER
-product:
- - Windows
 ---
 
 # PFND3DDDI_SETMARKER callback function

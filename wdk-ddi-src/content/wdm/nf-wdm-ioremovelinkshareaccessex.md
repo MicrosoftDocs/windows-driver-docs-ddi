@@ -36,8 +36,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - IoRemoveLinkShareAccessEx
-product:
- - Windows
 ---
 
 # IoRemoveLinkShareAccessEx function

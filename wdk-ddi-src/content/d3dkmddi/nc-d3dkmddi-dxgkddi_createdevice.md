@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATEDEVICE
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATEDEVICE callback function

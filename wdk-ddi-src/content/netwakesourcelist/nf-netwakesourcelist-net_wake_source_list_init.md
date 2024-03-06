@@ -36,8 +36,6 @@ api_location:
  - netwakesourcelist.h
 api_name:
  - NET_WAKE_SOURCE_LIST_INIT
-product:
- - Windows
 ---
 
 # NET_WAKE_SOURCE_LIST_INIT function

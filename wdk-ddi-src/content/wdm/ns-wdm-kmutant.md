@@ -38,8 +38,6 @@ api_name:
  - _KMUTANT
  - PKMUTANT
  - KMUTANT
-product:
- - Windows
 ---
 
 # KMUTANT structure

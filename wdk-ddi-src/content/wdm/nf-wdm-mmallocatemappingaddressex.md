@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - MmAllocateMappingAddressEx
-product:
- - Windows
 f1_keywords:
  - MmAllocateMappingAddressEx
  - wdm/MmAllocateMappingAddressEx

@@ -29,8 +29,6 @@ api_location:
  - usbprint.h
 api_name:
  - IOCTL_USBPRINT_GET_PROTOCOL
-product:
- - Windows
 ---
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)

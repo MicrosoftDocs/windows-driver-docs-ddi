@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _DXGK_MEMORY_CACHING_TYPE
  - DXGK_MEMORY_CACHING_TYPE
-product:
- - Windows
 ---
 
 # DXGK_MEMORY_CACHING_TYPE enumeration

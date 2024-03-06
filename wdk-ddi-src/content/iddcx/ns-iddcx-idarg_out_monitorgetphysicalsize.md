@@ -32,8 +32,6 @@ api_location:
  - iddcx.h
 api_name:
  - IDARG_OUT_MONITORGETPHYSICALSIZE
-product:
- - Windows
 dev_langs:
  - c++
 ---

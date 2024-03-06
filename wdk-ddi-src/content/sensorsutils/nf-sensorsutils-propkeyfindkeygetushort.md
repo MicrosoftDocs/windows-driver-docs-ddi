@@ -36,8 +36,6 @@ api_location:
  - sensorsutils.h
 api_name:
  - PropKeyFindKeyGetUshort
-product:
- - Windows
 ---
 
 # PropKeyFindKeyGetUshort function

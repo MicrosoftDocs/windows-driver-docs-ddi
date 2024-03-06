@@ -36,8 +36,6 @@ api_location:
  - iddcx.h
 api_name:
  - PFN_IDDCXADAPTERSETRENDERADAPTER
-product:
- - Windows
 dev_langs:
  - c++
 ---

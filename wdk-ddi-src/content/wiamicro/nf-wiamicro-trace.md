@@ -35,8 +35,6 @@ api_location:
  - wiamicro.h
 api_name:
  - Trace
-product:
- - Windows
 ---
 
 ## -description

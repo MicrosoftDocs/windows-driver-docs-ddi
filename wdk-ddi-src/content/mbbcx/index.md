@@ -9,8 +9,6 @@ ms.keywords:
 ms.topic: overview
 tech.root: netvista
 ms.custom: RS5
-product:
- - Windows
 f1_keywords:
  - mbbcx
  - mbbcx/mbbcx

@@ -35,8 +35,6 @@ api_location:
  - vmbuskernelmodeclientlibapi.h
 api_name:
  - FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS
-product:
- - Windows
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_SAVE_RESTORE_PACKET_CALLBACKS callback function

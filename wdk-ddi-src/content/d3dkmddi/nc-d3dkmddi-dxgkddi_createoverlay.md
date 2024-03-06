@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATEOVERLAY
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATEOVERLAY callback function

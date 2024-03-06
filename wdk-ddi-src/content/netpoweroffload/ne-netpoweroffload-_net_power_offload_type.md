@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _NET_POWER_OFFLOAD_TYPE
  - NET_POWER_OFFLOAD_TYPE
-product:
- - Windows
 ---
 
 # NET_POWER_OFFLOAD_TYPE enumeration

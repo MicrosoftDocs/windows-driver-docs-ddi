@@ -29,8 +29,6 @@ api_location:
  - winsplp.h
 api_name:
  - EBranchOfficeJobEventType
-product:
- - Windows
 ---
 
 # EBranchOfficeJobEventType enumeration

@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DEVICE_USAGE_NOTIFICATION_TYPE
  - DEVICE_USAGE_NOTIFICATION_TYPE
-product:
- - Windows
 ---
 
 # DEVICE_USAGE_NOTIFICATION_TYPE enumeration

@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_GETVENDORANDDEVICE
  - PDXGKARG_GETVENDORANDDEVICE
  - DXGKARG_GETVENDORANDDEVICE
-product:
- - Windows
 dev_langs:
  - c++
 ---

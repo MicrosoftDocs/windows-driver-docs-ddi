@@ -34,8 +34,6 @@ api_location:
  - dxgiddi.h
 api_name:
  - PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB
-product:
- - Windows
 ---
 
 # PFNDDXGIDDI_SUBMITPRESENTBLTTOHWQUEUECB callback function

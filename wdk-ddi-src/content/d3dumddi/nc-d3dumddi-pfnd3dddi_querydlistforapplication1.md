@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_QUERYDLISTFORAPPLICATION1
-product:
- - Windows
 ---
 
 # PFND3DDDI_QUERYDLISTFORAPPLICATION1 callback function

@@ -32,8 +32,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_GPUCLOCKDATA_0054
-product:
- - Windows
 dev_langs:
  - c++
 ---

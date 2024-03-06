@@ -35,8 +35,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS
-product:
- - Windows
 ---
 
 # PFND3DWDDM2_6DDI_QUERY_SCANOUT_CAPS callback function

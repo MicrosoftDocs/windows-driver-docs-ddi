@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_DIAGNOSTIC_CATEGORIES
  - DXGK_DIAGNOSTIC_CATEGORIES
-product:
- - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_CATEGORIES structure

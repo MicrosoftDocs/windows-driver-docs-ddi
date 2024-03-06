@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DDDI_QUERYREGISTRY_INFO
  - D3DDDI_QUERYREGISTRY_INFO
-product:
- - Windows
 ---
 
 # D3DDDI_QUERYREGISTRY_INFO structure

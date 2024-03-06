@@ -34,8 +34,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - RtlInitUTF8StringEx
-product:
- - Windows
 ---
 
 # RtlInitUTF8StringEx function (ntifs.h)

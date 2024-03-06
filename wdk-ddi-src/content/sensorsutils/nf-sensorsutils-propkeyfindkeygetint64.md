@@ -36,8 +36,6 @@ api_location:
  - sensorsutils.h
 api_name:
  - PropKeyFindKeyGetInt64
-product:
- - Windows
 ---
 
 # PropKeyFindKeyGetInt64 function

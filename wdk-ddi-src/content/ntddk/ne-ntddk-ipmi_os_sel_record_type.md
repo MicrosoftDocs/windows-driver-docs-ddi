@@ -35,8 +35,6 @@ api_name:
  - _IPMI_OS_SEL_RECORD_TYPE
  - PIPMI_OS_SEL_RECORD_TYPE
  - IPMI_OS_SEL_RECORD_TYPE
-product:
- - Windows
 ---
 
 # IPMI_OS_SEL_RECORD_TYPE enumeration

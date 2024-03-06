@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_QUERYCONNECTIONCHANGE
-product:
- - Windows
 ---
 
 # DXGKDDI_QUERYCONNECTIONCHANGE callback function

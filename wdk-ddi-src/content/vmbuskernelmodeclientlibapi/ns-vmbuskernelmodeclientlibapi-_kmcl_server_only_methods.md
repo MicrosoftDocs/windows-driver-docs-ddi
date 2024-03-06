@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _KMCL_SERVER_ONLY_METHODS
  - KMCL_SERVER_ONLY_METHODS
-product:
- - Windows
 ---
 
 # _KMCL_SERVER_ONLY_METHODS structure

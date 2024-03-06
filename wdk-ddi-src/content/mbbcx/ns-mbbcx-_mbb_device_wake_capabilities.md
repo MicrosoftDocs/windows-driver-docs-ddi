@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _MBB_DEVICE_WAKE_CAPABILITIES
  - MBB_DEVICE_WAKE_CAPABILITIES
-product:
- - Windows
 ---
 
 # MBB_DEVICE_WAKE_CAPABILITIES structure

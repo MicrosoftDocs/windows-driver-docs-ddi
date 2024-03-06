@@ -37,8 +37,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SUBMITCOMMAND
-product:
- - Windows
 ---
 
 # DXGKDDI_SUBMITCOMMAND callback function

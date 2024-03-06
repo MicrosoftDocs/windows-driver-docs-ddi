@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGKARGCB_FREEPAGESFROMMDL
  - DXGKARGCB_FREEPAGESFROMMDL
-product:
- - Windows
 ---
 
 # DXGKARGCB_FREEPAGESFROMMDL structure

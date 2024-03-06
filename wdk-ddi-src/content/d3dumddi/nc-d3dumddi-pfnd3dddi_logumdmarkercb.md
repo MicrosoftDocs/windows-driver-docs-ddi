@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_LOGUMDMARKERCB
-product:
- - Windows
 ---
 
 # PFND3DDDI_LOGUMDMARKERCB callback function

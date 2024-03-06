@@ -38,8 +38,6 @@ api_location:
  - sdplib.h
 api_name:
  - PRETRIEVEUUID128
-product:
- - Windows
 ---
 
 # PRETRIEVEUUID128 callback function

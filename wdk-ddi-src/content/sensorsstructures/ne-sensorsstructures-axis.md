@@ -32,8 +32,6 @@ api_location:
 api_name:
  - PAXIS
  - AXIS
-product:
- - Windows
 ---
 
 # AXIS enumeration

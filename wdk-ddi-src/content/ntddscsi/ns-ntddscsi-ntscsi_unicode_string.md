@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NTSCSI_UNICODE_STRING
  - NTSCSI_UNICODE_STRING
-product:
- - Windows
 ---
 
 # NTSCSI_UNICODE_STRING structure

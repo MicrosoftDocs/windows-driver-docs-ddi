@@ -36,8 +36,6 @@ api_location:
  - mbbcxstub.lib
 api_name:
  - MbbDeviceSetWakeCapabilities
-product:
- - Windows
 ---
 
 # MbbDeviceSetWakeCapabilities function

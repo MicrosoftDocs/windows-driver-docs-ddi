@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_DISPATCH_MESH_0074
-product:
- - Windows
 dev_langs:
  - c++
 ---

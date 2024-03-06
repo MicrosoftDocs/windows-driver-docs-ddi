@@ -37,8 +37,6 @@ api_location:
  - Displib.dll
 api_name:
  - DlSetRegistryParameters
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -34,8 +34,6 @@ api_location:
  - iddcx.h
 api_name:
  - PFN_IDDCXREPORTCRITICALERROR
-product:
- - Windows
 ---
 
 # PFN_IDDCXREPORTCRITICALERROR callback function

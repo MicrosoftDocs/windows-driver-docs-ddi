@@ -28,8 +28,6 @@ api_location:
  - ntddstor.h
 api_name:
  - IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
-product:
- - Windows
 ---
 
 # IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG IOCTL

@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKCB_SETPOWERCOMPONENTLATENCY
-product:
- - Windows
 ---
 
 # DXGKCB_SETPOWERCOMPONENTLATENCY callback function

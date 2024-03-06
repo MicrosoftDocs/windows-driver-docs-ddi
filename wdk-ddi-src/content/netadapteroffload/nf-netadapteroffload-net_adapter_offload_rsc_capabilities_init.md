@@ -36,8 +36,6 @@ api_location:
  - netadapteroffload.h
 api_name:
  - NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT
-product:
- - Windows
 ---
 
 # NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES_INIT function

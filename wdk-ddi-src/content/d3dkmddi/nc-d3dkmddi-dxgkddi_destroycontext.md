@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESTROYCONTEXT
-product:
- - Windows
 ---
 
 # DXGKDDI_DESTROYCONTEXT callback function

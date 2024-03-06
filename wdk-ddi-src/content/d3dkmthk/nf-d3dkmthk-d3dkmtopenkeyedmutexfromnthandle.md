@@ -35,8 +35,6 @@ api_location:
  - Gdi32.dll
 api_name:
  - D3DKMTOpenKeyedMutexFromNtHandle
-product:
- - Windows
 ---
 
 # D3DKMTOpenKeyedMutexFromNtHandle function

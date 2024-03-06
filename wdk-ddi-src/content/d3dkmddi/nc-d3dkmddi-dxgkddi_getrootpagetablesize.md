@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_GETROOTPAGETABLESIZE
-product:
- - Windows
 ---
 
 # DXGKDDI_GETROOTPAGETABLESIZE callback function

@@ -36,8 +36,6 @@ api_location:
  - ucmucsispec.h
 api_name:
  - UCSI_CMD_SUCCEEDED
-product:
- - Windows
 ---
 
 # UCSI_CMD_SUCCEEDED function

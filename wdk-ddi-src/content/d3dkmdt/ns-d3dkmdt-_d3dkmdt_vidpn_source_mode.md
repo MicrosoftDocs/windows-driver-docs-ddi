@@ -41,8 +41,6 @@ api_location:
 api_name:
  - _D3DKMDT_VIDPN_SOURCE_MODE
  - D3DKMDT_VIDPN_SOURCE_MODE
-product:
- - Windows
 ---
 
 # D3DKMDT_VIDPN_SOURCE_MODE structure

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_QUERYMONITORINTERFACE
-product:
- - Windows
 ---
 
 # DXGKCB_QUERYMONITORINTERFACE callback function

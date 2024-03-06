@@ -35,8 +35,6 @@ api_location:
  - printoem.h
 api_name:
  - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
-product:
- - Windows
 ---
 
 # GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro

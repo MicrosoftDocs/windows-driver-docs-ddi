@@ -34,8 +34,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGK_BRIGHTNESS_GET_NIT_RANGES
-product:
- - Windows
 ---
 
 # DXGK_BRIGHTNESS_GET_NIT_RANGES callback function

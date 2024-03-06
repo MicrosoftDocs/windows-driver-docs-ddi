@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetDeviceInitConfig
-product:
- - Windows
 ---
 
 # NetDeviceInitConfig function

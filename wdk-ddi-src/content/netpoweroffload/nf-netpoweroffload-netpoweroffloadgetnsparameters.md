@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetPowerOffloadGetNSParameters
-product:
- - Windows
 ---
 
 # NetPowerOffloadGetNSParameters function

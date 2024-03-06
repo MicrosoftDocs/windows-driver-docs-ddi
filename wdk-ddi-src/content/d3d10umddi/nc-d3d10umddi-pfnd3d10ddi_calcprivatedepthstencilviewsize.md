@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D10DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE
-product:
- - Windows
 ---
 
 # PFND3D10DDI_CALCPRIVATEDEPTHSTENCILVIEWSIZE callback function

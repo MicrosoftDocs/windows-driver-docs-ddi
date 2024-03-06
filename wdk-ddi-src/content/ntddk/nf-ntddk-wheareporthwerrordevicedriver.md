@@ -36,8 +36,6 @@ api_location:
  - ntddk.h
 api_name:
  - WheaReportHwErrorDeviceDriver
-product:
- - Windows
 ---
 
 # WheaReportHwErrorDeviceDriver function

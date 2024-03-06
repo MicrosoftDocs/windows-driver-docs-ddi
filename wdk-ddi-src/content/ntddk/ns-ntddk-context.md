@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _CONTEXT
  - CONTEXT
-product:
- - Windows
 ---
 
 # CONTEXT structure

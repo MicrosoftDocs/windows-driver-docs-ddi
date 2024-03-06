@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _DXGKARG_UPDATEMONITORLINKINFO
  - DXGKARG_UPDATEMONITORLINKINFO
-product:
- - Windows
 dev_langs:
  - c++
 ---

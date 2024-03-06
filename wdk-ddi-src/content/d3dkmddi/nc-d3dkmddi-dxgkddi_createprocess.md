@@ -39,8 +39,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATEPROCESS
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATEPROCESS callback function

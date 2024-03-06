@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT
-product:
- - Windows
 ---
 
 # DXGKDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback function

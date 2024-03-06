@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNSOURCEMODESET_ACQUIRENEXTMODEINFO callback function

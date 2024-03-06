@@ -38,8 +38,6 @@ api_name:
  - _MCG_CAP
  - PMCG_CAP
  - MCG_CAP
-product:
- - Windows
 ---
 
 # MCG_CAP structure

@@ -35,8 +35,6 @@ api_location:
  - hdaudio.h
 api_name:
  - PREGISTER_NOTIFICATION_CALLBACK
-product:
- - Windows
 ---
 
 # PREGISTER_NOTIFICATION_CALLBACK callback function

@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT
-product:
- - Windows
 ---
 
 # NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES_INIT function

@@ -36,8 +36,6 @@ api_location:
  - fltkernel.h
 api_name:
  - FltRetrieveFileInfoOnCreateCompletionEx
-product:
- - Windows
 dev_langs:
  - c++
 ---

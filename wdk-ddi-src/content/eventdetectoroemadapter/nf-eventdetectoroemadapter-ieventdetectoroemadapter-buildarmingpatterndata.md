@@ -36,8 +36,6 @@ api_location:
  - eventdetectoroemadapter.h
 api_name:
  - IEventDetectorOemAdapter::BuildArmingPatternData
-product:
- - Windows
 ---
 
 # IEventDetectorOemAdapter::BuildArmingPatternData

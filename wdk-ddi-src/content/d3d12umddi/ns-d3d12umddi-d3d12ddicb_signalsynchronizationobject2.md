@@ -32,8 +32,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDICB_SIGNALSYNCHRONIZATIONOBJECT2
-product:
- - Windows
 dev_langs:
  - c++
 ---

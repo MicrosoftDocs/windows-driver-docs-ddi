@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGKARG_SUBMITCOMMANDTOHWQUEUE
  - DXGKARG_SUBMITCOMMANDTOHWQUEUE
-product:
- - Windows
 ---
 
 # _DXGKARG_SUBMITCOMMANDTOHWQUEUE structure

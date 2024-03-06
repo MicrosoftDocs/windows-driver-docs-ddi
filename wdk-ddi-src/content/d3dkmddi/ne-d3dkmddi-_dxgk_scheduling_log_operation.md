@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXGK_SCHEDULING_LOG_OPERATION
  - DXGK_SCHEDULING_LOG_OPERATION
-product:
- - Windows
 dev_langs:
  - c++
 ---

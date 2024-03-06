@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_WAKE_SOURCE_LIST
  - NET_WAKE_SOURCE_LIST
-product:
- - Windows
 ---
 
 # NET_WAKE_SOURCE_LIST structure

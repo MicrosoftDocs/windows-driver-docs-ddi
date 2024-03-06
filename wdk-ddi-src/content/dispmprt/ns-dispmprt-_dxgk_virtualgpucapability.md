@@ -38,8 +38,6 @@ api_name:
  - _DXGK_VIRTUALGPUCAPABILITY
  - PDXGK_VIRTUALGPUCAPABILITY
  - DXGK_VIRTUALGPUCAPABILITY
-product:
- - Windows
 dev_langs:
  - c++
 ---

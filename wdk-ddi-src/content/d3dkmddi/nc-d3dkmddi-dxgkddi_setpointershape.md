@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETPOINTERSHAPE
-product:
- - Windows
 ---
 
 # DXGKDDI_SETPOINTERSHAPE callback function

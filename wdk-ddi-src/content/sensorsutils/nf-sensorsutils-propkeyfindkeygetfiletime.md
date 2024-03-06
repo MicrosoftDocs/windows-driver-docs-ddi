@@ -36,8 +36,6 @@ api_location:
  - sensorsutils.h
 api_name:
  - PropKeyFindKeyGetFileTime
-product:
- - Windows
 ---
 
 # PropKeyFindKeyGetFileTime function

@@ -36,8 +36,6 @@ api_location:
  - wdm.h
 api_name:
  - KeInitializeTriageDumpDataArray
-product:
- - Windows
 ---
 
 # KeInitializeTriageDumpDataArray function

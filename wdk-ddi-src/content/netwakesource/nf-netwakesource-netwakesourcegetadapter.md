@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetWakeSourceGetAdapter
-product:
- - Windows
 ---
 
 # NetWakeSourceGetAdapter function

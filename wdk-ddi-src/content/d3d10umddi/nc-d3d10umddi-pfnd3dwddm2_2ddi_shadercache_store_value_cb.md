@@ -38,8 +38,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB
-product:
- - Windows
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback function

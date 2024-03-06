@@ -35,8 +35,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetOffloadIsRxChecksumIPv4Enabled
-product:
- - Windows
 ---
 
 # NetOffloadIsRxChecksumIPv4Enabled function

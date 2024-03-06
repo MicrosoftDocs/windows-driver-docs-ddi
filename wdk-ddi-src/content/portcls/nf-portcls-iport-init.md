@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IPort::Init
-product:
- - Windows
 ---
 
 # IPort::Init

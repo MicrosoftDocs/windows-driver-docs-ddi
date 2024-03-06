@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
-product:
- - Windows
 ---
 
 # DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function

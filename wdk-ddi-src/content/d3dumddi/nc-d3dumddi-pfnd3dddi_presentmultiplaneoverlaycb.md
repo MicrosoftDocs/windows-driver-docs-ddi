@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB
-product:
- - Windows
 ---
 
 # PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB callback function

@@ -38,8 +38,6 @@ api_name:
  - _MCI_STATUS_BITS_COMMON
  - PMCI_STATUS_BITS_COMMON
  - MCI_STATUS_BITS_COMMON
-product:
- - Windows
 ---
 
 # MCI_STATUS_BITS_COMMON structure

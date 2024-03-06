@@ -32,8 +32,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - D3D12_DOWNLEVEL_DDI_UMDFILENAME
-product:
- - Windows
 ---
 
 # D3D12_DOWNLEVEL_DDI_UMDFILENAME structure

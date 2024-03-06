@@ -29,8 +29,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE
-product:
- - Windows
 dev_langs:
  - c++
 ---

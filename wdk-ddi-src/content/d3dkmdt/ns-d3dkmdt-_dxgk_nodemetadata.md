@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_NODEMETADATA
  - DXGK_NODEMETADATA
-product:
- - Windows
 ---
 
 # DXGK_NODEMETADATA structure

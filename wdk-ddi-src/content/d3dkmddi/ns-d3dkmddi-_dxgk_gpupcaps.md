@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _DXGK_GPUPCAPS
  - DXGK_GPUPCAPS
-product:
- - Windows
 ---
 
 # DXGK_GPUPCAPS structure

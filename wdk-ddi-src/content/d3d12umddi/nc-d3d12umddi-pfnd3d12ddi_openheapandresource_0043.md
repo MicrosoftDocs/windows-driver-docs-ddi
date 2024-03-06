@@ -34,8 +34,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_OPENHEAPANDRESOURCE_0043
-product:
- - Windows
 ---
 
 # PFND3D12DDI_OPENHEAPANDRESOURCE_0043 callback function

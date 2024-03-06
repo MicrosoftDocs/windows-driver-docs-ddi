@@ -35,8 +35,6 @@ api_name:
  - _STORAGE_SET_TYPE
  - PSTORAGE_SET_TYPE
  - STORAGE_SET_TYPE
-product:
- - Windows
 ---
 
 # STORAGE_SET_TYPE enumeration

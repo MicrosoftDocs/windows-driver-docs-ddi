@@ -37,8 +37,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_MAPGPUVIRTUALADDRESSCB
-product:
- - Windows
 ---
 
 # PFND3DDDI_MAPGPUVIRTUALADDRESSCB callback function

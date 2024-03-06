@@ -29,8 +29,6 @@ api_location:
  - ntddk.h
 api_name:
  - IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
-product:
- - Windows
 ---
 
 # IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL

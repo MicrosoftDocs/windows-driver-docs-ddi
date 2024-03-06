@@ -34,8 +34,6 @@ api_location:
  - d3dkmthk.h
 api_name:
  - PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS
-product:
- - Windows
 ---
 
 # PFND3DKMT_QUERYPROTECTEDSESSIONSTATUS callback function

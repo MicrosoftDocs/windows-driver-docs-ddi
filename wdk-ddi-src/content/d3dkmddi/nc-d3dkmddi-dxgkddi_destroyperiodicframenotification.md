@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION
-product:
- - Windows
 ---
 
 # DXGKDDI_DESTROYPERIODICFRAMENOTIFICATION callback function

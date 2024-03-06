@@ -34,8 +34,6 @@ api_location:
  - iddcx.h
 api_name:
  - PFN_IDDCXSWAPCHAINSETDEVICE
-product:
- - Windows
 ---
 
 # PFN_IDDCXSWAPCHAINSETDEVICE callback function

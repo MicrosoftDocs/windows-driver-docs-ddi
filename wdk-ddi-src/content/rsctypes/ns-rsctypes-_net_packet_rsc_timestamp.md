@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_PACKET_RSC_TIMESTAMP
  - NET_PACKET_RSC_TIMESTAMP
-product:
- - Windows
 ---
 
 # NET_PACKET_RSC_TIMESTAMP structure

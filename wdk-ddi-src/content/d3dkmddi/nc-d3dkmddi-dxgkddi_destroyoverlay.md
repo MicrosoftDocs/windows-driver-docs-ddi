@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESTROYOVERLAY
-product:
- - Windows
 ---
 
 # DXGKDDI_DESTROYOVERLAY callback function

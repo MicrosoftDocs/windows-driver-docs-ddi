@@ -35,8 +35,6 @@ api_location:
 api_name:
  - PQUATERNION
  - QUATERNION
-product:
- - Windows
 ---
 
 # QUATERNION structure

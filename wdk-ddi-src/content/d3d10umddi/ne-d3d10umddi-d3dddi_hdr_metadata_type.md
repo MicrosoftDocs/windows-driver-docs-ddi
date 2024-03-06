@@ -29,8 +29,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - D3DDDI_HDR_METADATA_TYPE
-product:
- - Windows
 ---
 
 # D3DDDI_HDR_METADATA_TYPE enumeration (d3d10umddi.h)

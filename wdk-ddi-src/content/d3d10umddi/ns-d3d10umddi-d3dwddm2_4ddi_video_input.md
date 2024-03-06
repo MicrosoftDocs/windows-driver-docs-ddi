@@ -31,8 +31,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - D3DWDDM2_4DDI_VIDEO_INPUT
-product:
- - Windows
 ---
 
 # D3DWDDM2_4DDI_VIDEO_INPUT structure

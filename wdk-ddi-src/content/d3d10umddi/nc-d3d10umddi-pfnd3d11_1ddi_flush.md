@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D11_1DDI_FLUSH
-product:
- - Windows
 ---
 
 # PFND3D11_1DDI_FLUSH callback function

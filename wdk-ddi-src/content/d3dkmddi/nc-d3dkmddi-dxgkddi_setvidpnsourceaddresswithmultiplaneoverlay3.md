@@ -37,8 +37,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3
-product:
- - Windows
 ---
 
 # DXGKDDI_SETVIDPNSOURCEADDRESSWITHMULTIPLANEOVERLAY3 callback function

@@ -37,8 +37,6 @@ api_name:
  - _BRIGHTNESS_LEVEL
  - PBRIGHTNESS_LEVEL
  - BRIGHTNESS_LEVEL
-product:
- - Windows
 ---
 
 # _BRIGHTNESS_LEVEL structure

@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DDDIRENDERSTATETYPE
  - D3DDDIRENDERSTATETYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

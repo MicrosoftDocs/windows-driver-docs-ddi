@@ -34,8 +34,6 @@ api_location:
  - d3dkmthk.h
 api_name:
  - PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE
-product:
- - Windows
 ---
 
 # PFND3DKMT_SUBMITWAITFORSYNCOBJECTSTOHWQUEUE callback function

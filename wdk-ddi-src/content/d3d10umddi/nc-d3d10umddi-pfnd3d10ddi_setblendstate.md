@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D10DDI_SETBLENDSTATE
-product:
- - Windows
 ---
 
 # PFND3D10DDI_SETBLENDSTATE callback function

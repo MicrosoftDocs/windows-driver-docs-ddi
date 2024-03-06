@@ -31,8 +31,6 @@ api_location:
  - wiamdef.h
 api_name:
  - CWiaLogProcEx
-product:
- - Windows
 ---
 
 # CWiaLogProcEx class

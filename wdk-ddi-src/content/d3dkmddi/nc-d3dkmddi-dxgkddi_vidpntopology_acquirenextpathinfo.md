@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ACQUIRENEXTPATHINFO callback function

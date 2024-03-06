@@ -38,8 +38,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATE_PROTECTED_SESSION_CB_0030 callback function

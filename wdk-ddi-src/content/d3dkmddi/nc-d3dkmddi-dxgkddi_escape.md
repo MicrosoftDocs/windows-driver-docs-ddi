@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_ESCAPE
-product:
- - Windows
 ---
 
 # DXGKDDI_ESCAPE callback function

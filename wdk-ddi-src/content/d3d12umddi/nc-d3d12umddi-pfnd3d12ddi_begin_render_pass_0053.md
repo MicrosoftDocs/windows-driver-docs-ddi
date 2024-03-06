@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_BEGIN_RENDER_PASS_0053
-product:
- - Windows
 dev_langs:
  - c++
 ---

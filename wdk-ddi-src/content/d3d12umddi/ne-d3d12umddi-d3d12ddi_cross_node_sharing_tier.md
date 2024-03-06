@@ -28,8 +28,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_CROSS_NODE_SHARING_TIER
-product:
- - Windows
 ---
 
 # D3D12DDI_CROSS_NODE_SHARING_TIER enumeration

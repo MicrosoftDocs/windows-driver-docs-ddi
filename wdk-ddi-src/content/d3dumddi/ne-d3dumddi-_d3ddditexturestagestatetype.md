@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DDDITEXTURESTAGESTATETYPE
  - D3DDDITEXTURESTAGESTATETYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

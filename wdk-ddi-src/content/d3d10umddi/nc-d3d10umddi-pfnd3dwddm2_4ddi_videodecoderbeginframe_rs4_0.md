@@ -34,8 +34,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0
-product:
- - Windows
 ---
 
 # PFND3DWDDM2_4DDI_VIDEODECODERBEGINFRAME_RS4_0 callback function

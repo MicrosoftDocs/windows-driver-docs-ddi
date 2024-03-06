@@ -30,8 +30,6 @@ api_location:
 api_name:
  - _STOR_DEVICE_RESET_TYPE
  - STOR_DEVICE_RESET_TYPE
-product:
- - Windows
 ---
 
 # STOR_DEVICE_RESET_TYPE enumeration

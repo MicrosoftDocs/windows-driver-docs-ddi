@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATEPERIODICFRAMENOTIFICATION
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATEPERIODICFRAMENOTIFICATION callback function

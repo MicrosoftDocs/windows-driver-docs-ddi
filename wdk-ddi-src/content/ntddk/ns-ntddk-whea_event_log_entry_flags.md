@@ -38,8 +38,6 @@ api_name:
  - _WHEA_EVENT_LOG_ENTRY_FLAGS
  - PWHEA_EVENT_LOG_ENTRY_FLAGS
  - WHEA_EVENT_LOG_ENTRY_FLAGS
-product:
- - Windows
 ---
 
 # WHEA_EVENT_LOG_ENTRY_FLAGS structure

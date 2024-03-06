@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPN_RELEASESOURCEMODESET
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPN_RELEASESOURCEMODESET callback function

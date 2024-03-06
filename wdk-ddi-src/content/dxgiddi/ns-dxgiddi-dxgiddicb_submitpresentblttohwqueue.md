@@ -31,8 +31,6 @@ api_location:
  - dxgiddi.h
 api_name:
  - DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
-product:
- - Windows
 ---
 
 # DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE structure

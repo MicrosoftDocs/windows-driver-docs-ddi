@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_UPDATECONTEXTALLOCATION
-product:
- - Windows
 ---
 
 # DXGKCB_UPDATECONTEXTALLOCATION callback function

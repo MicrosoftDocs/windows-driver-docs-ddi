@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_CREATECRYPTOSESSION
-product:
- - Windows
 ---
 
 # PFND3DDDI_CREATECRYPTOSESSION callback function

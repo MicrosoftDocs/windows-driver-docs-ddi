@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETPOINTERPOSITION
-product:
- - Windows
 ---
 
 # DXGKDDI_SETPOINTERPOSITION callback function

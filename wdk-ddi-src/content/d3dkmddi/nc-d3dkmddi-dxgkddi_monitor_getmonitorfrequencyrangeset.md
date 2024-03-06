@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET
-product:
- - Windows
 ---
 
 # DXGKDDI_MONITOR_GETMONITORFREQUENCYRANGESET callback function

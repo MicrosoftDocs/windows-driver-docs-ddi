@@ -37,8 +37,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_RENDERKM
-product:
- - Windows
 ---
 
 # DXGKDDI_RENDERKM callback function

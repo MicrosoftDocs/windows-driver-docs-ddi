@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATE_SHADER_0010
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -28,8 +28,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_SHADER_MODEL
-product:
- - Windows
 ---
 
 # D3D12DDI_SHADER_MODEL enumeration

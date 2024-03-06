@@ -38,8 +38,6 @@ api_name:
  - _WHEAP_PROCESS_EINJ_EVENT
  - PWHEAP_PROCESS_EINJ_EVENT
  - WHEAP_PROCESS_EINJ_EVENT
-product:
- - Windows
 ---
 
 # WHEAP_PROCESS_EINJ_EVENT structure

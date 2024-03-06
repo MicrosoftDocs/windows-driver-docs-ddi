@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_IPV6_ADDRESS
  - NET_IPV6_ADDRESS
-product:
- - Windows
 ---
 
 # NET_IPV6_ADDRESS union

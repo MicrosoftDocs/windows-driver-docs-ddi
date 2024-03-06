@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTARGETMODESET_PINMODE
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTARGETMODESET_PINMODE callback function

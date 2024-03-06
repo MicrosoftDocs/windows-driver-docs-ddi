@@ -35,8 +35,6 @@ api_location:
  - winppi.h
 api_name:
  - EMFPLAYPROC
-product:
- - Windows
 ---
 
 # EMFPLAYPROC callback function

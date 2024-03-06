@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_SET_BRIGHTNESS_STATE
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_SET_BRIGHTNESS_STATE IOCTL

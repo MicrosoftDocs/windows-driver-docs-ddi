@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetAdapterPowerOffloadSetArpCapabilities
-product:
- - Windows
 ---
 
 # NetAdapterPowerOffloadSetArpCapabilities function

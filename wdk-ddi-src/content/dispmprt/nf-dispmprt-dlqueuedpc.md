@@ -37,8 +37,6 @@ api_location:
  - Displib.dll
 api_name:
  - DlQueueDpc
-product:
- - Windows
 dev_langs:
  - c++
 ---

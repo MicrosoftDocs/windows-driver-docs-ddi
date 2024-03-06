@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_UNPINFRAMEBUFFERFORSAVE
-product:
- - Windows
 ---
 
 # DXGKCB_UNPINFRAMEBUFFERFORSAVE callback function

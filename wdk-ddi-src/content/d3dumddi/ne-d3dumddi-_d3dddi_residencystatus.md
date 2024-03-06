@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DDDI_RESIDENCYSTATUS
  - D3DDDI_RESIDENCYSTATUS
-product:
- - Windows
 dev_langs:
  - c++
 ---

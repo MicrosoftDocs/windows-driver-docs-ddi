@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESCRIBEALLOCATION
-product:
- - Windows
 ---
 
 # DXGKDDI_DESCRIBEALLOCATION callback function

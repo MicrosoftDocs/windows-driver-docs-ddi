@@ -36,8 +36,6 @@ api_location:
  - eventdetectoroemadapter.h
 api_name:
  - IEventDetectorOemAdapter::GetCapabilitiesForLanguage
-product:
- - Windows
 ---
 
 # IEventDetectorOemAdapter::GetCapabilitiesForLanguage

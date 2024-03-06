@@ -39,8 +39,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESTROYPROCESS
-product:
- - Windows
 ---
 
 # DXGKDDI_DESTROYPROCESS callback function

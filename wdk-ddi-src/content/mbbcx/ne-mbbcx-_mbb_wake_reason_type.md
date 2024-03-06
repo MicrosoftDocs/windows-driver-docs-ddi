@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _MBB_WAKE_REASON_TYPE
  - MBB_WAKE_REASON_TYPE
-product:
- - Windows
 ---
 
 # MBB_WAKE_REASON_TYPE enumeration

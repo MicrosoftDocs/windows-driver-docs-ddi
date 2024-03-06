@@ -38,8 +38,6 @@ api_name:
  - _STORAGE_ENDURANCE_INFO
  - PSTORAGE_ENDURANCE_INFO
  - STORAGE_ENDURANCE_INFO
-product:
- - Windows
 ---
 
 # STORAGE_ENDURANCE_INFO structure

@@ -34,8 +34,6 @@ api_location:
  - ntddk.h
 api_name:
  - _WHEA_ERROR_SOURCE_INITIALIZE
-product:
- - Windows
 ---
 
 ## -description

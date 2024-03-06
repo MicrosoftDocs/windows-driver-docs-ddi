@@ -36,8 +36,6 @@ api_location:
  - netadapter.h
 api_name:
  - NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT
-product:
- - Windows
 ---
 
 # NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES_INIT function

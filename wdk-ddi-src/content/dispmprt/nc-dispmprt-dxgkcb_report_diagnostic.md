@@ -34,8 +34,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGKCB_REPORT_DIAGNOSTIC
-product:
- - Windows
 ---
 
 # DXGKCB_REPORT_DIAGNOSTIC callback function

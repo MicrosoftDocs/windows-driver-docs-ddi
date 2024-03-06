@@ -38,8 +38,6 @@ api_name:
  - _WWAN_LTE_ATTACH_CONFIG
  - PWWAN_LTE_ATTACH_CONFIG
  - WWAN_LTE_ATTACH_CONFIG
-product:
- - Windows
 ---
 
 # _WWAN_LTE_ATTACH_CONFIG structure

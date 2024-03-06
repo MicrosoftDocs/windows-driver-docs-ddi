@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _KMTQUERYADAPTERINFOTYPE
  - KMTQUERYADAPTERINFOTYPE
-product:
- - Windows
 ---
 
 # KMTQUERYADAPTERINFOTYPE enumeration

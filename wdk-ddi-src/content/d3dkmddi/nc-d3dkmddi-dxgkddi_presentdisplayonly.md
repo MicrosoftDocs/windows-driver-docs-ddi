@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_PRESENTDISPLAYONLY
-product:
- - Windows
 ---
 
 # DXGKDDI_PRESENTDISPLAYONLY callback function

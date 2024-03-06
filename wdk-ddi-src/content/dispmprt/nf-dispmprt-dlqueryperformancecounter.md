@@ -37,8 +37,6 @@ api_location:
  - Displib.dll
 api_name:
  - DlQueryPerformanceCounter
-product:
- - Windows
 dev_langs:
  - c++
 ---

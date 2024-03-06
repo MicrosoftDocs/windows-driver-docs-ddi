@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DKMT_GPUVERSION
  - D3DKMT_GPUVERSION
-product:
- - Windows
 ---
 
 # _D3DKMT_GPUVERSION structure

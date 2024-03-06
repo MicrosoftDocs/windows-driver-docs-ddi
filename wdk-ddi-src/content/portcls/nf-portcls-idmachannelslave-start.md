@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IDmaChannelSlave::Start
-product:
- - Windows
 ---
 
 # IDmaChannelSlave::Start

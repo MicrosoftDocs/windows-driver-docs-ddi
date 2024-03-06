@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DDDI_SETLIGHT_TYPE
  - D3DDDI_SETLIGHT_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

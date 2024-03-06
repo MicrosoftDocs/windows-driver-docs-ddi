@@ -37,8 +37,6 @@ api_location:
  - IddCx.dll
 api_name:
  - IddCxAdapterDisplayConfigUpdate
-product:
- - Windows
 dev_langs:
  - c++
 ---

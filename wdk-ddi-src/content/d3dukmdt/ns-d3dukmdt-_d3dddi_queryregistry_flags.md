@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DDDI_QUERYREGISTRY_FLAGS
  - D3DDDI_QUERYREGISTRY_FLAGS
-product:
- - Windows
 ---
 
 # _D3DDDI_QUERYREGISTRY_FLAGS structure

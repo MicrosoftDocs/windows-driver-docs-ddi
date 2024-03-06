@@ -31,8 +31,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CONTROLMODEBEHAVIOR
-product:
- - Windows
 f1_keywords:
  - DXGKDDI_CONTROLMODEBEHAVIOR
  - d3dkmddi/DXGKDDI_CONTROLMODEBEHAVIOR

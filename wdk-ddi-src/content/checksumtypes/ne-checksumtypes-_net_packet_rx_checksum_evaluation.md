@@ -27,8 +27,6 @@ api_location:
 api_name:
  - _NET_PACKET_RX_CHECKSUM_EVALUATION
  - NET_PACKET_RX_CHECKSUM_EVALUATION
-product:
- - Windows
 f1_keywords:
  - _NET_PACKET_RX_CHECKSUM_EVALUATION
  - checksumtypes/_NET_PACKET_RX_CHECKSUM_EVALUATION

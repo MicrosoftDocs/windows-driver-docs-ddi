@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_CALIBRATEGPUCLOCK
-product:
- - Windows
 ---
 
 # DXGKDDI_CALIBRATEGPUCLOCK callback function

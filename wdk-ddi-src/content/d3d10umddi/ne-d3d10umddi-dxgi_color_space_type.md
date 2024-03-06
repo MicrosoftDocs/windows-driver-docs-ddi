@@ -29,8 +29,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - DXGI_COLOR_SPACE_TYPE
-product:
- - Windows
 ---
 
 # DXGI_COLOR_SPACE_TYPE enumeration

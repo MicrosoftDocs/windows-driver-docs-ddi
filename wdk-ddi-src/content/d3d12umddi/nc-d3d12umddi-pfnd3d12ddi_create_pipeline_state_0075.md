@@ -37,8 +37,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATE_PIPELINE_STATE_0075
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATE_PIPELINE_STATE_0075 callback function

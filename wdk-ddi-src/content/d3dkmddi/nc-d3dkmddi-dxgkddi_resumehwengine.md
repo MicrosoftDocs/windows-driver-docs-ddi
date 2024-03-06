@@ -35,8 +35,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_RESUMEHWENGINE
-product:
- - Windows
 dev_langs:
  - c++
 ---

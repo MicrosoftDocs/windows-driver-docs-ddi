@@ -35,8 +35,6 @@ api_name:
  - _WHEA_PFA_REMOVE_TRIGGER
  - PWHEA_PFA_REMOVE_TRIGGER
  - WHEA_PFA_REMOVE_TRIGGER
-product:
- - Windows
 ---
 
 # WHEA_PFA_REMOVE_TRIGGER enumeration

@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DKMT_WDDM_1_3_CAPS
  - D3DKMT_WDDM_1_3_CAPS
-product:
- - Windows
 ---
 
 # D3DKMT_WDDM_1_3_CAPS structure

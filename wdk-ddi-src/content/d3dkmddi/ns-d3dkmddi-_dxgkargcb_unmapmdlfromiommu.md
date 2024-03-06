@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGKARGCB_UNMAPMDLFROMIOMMU
  - DXGKARGCB_UNMAPMDLFROMIOMMU
-product:
- - Windows
 ---
 
 # DXGKARGCB_UNMAPMDLFROMIOMMU structure

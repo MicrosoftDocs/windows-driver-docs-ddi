@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_GETPOSTCOMPOSITIONCAPS
-product:
- - Windows
 ---
 
 # DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function

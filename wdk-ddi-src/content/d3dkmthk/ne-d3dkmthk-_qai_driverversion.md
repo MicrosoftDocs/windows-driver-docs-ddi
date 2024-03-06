@@ -41,8 +41,6 @@ api_location:
 api_name:
  - _QAI_DRIVERVERSION
  - D3DKMT_DRIVERVERSION
-product:
- - Windows
 dev_langs:
  - c++
 ---

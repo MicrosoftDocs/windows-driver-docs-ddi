@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETTARGETGAMMA
-product:
- - Windows
 ---
 
 # DXGKDDI_SETTARGETGAMMA callback function

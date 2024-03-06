@@ -29,8 +29,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_FLAGS_0063
-product:
- - Windows
 dev_langs:
  - c++
 ---

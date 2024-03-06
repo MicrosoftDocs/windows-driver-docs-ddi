@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_NOTIFY_DPC
-product:
- - Windows
 ---
 
 # DXGKCB_NOTIFY_DPC callback function

@@ -35,8 +35,6 @@ api_location:
  - oprghdlr.h
 api_name:
  - ACPI_OP_REGION_CALLBACK
-product:
- - Windows
 ---
 
 ## -description

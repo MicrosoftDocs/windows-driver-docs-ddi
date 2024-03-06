@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXGK_FEATURE_ID
  - DXGK_FEATURE_ID
-product:
- - Windows
 dev_langs:
  - c++
 ---

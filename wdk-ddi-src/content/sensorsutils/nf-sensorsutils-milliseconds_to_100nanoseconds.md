@@ -36,8 +36,6 @@ api_location:
  - sensorsutils.h
 api_name:
  - MILLISECONDS_TO_100NANOSECONDS
-product:
- - Windows
 ---
 
 # MILLISECONDS_TO_100NANOSECONDS macro

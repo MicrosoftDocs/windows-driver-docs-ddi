@@ -38,8 +38,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - D3D12DDI_FEATURE_0020
-product:
- - Windows
 ---
 
 # D3D12DDI_FEATURE_0020 enumeration

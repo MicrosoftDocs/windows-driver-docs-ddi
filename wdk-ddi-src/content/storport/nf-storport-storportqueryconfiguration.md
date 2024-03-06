@@ -36,8 +36,6 @@ api_location:
  - storport.h
 api_name:
  - StorPortQueryConfiguration
-product:
- - Windows
 dev_langs:
  - c++
 ---

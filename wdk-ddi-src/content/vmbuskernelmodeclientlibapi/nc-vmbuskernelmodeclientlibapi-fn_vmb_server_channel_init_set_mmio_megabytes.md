@@ -35,8 +35,6 @@ api_location:
  - vmbuskernelmodeclientlibapi.h
 api_name:
  - FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES
-product:
- - Windows
 ---
 
 # FN_VMB_SERVER_CHANNEL_INIT_SET_MMIO_MEGABYTES callback function

@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_NODE_PERFDATA
  - DXGK_NODE_PERFDATA
-product:
- - Windows
 ---
 
 # _DXGK_NODE_PERFDATA structure

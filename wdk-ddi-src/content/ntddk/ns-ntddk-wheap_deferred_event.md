@@ -38,8 +38,6 @@ api_name:
  - _WHEAP_DEFERRED_EVENT
  - PWHEAP_DEFERRED_EVENT
  - WHEAP_DEFERRED_EVENT
-product:
- - Windows
 ---
 
 # WHEAP_DEFERRED_EVENT structure

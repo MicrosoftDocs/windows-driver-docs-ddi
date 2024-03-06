@@ -36,8 +36,6 @@ api_location:
  - math3dhelper.h
 api_name:
  - FloatEq
-product:
- - Windows
 ---
 
 # FloatEq function

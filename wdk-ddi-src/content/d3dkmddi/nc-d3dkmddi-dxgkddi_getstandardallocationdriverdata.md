@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA
-product:
- - Windows
 ---
 
 # DXGKDDI_GETSTANDARDALLOCATIONDRIVERDATA callback function

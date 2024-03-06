@@ -35,8 +35,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - GetMethodArgumentFromAcpi
-product:
- - Windows
 ---
 
 # GetMethodArgumentFromAcpi function

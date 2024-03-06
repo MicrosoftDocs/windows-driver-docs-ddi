@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DKMT_ADAPTER_PERFDATACAPS
  - D3DKMT_ADAPTER_PERFDATACAPS
-product:
- - Windows
 ---
 
 # _D3DKMT_ADAPTER_PERFDATACAPS structure

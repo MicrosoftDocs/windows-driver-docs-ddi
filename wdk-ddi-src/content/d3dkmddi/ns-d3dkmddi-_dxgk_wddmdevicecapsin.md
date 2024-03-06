@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _DXGK_WDDMDEVICECAPSIN
  - DXGK_WDDMDEVICECAPSIN
-product:
- - Windows
 dev_langs:
  - c++
 ---

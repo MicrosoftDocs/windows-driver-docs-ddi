@@ -36,8 +36,6 @@ api_location:
  - rsc.h
 api_name:
  - NetExtensionGetPacketRsc
-product:
- - Windows
 ---
 
 # NetExtensionGetPacketRsc function

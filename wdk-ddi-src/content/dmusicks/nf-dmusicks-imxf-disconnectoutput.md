@@ -35,8 +35,6 @@ api_location:
  - dmusicks.h
 api_name:
  - IMXF::DisconnectOutput
-product:
- - Windows
 ---
 
 # IMXF::DisconnectOutput

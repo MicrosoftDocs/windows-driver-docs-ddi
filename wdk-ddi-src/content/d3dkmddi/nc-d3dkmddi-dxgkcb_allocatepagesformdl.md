@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_ALLOCATEPAGESFORMDL
-product:
- - Windows
 ---
 
 # DXGKCB_ALLOCATEPAGESFORMDL callback function

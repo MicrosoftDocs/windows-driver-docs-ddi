@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGKARG_CONTROLMODEBEHAVIOR
  - DXGKARG_CONTROLMODEBEHAVIOR
-product:
- - Windows
 ---
 
 # _DXGKARG_CONTROLMODEBEHAVIOR structure
