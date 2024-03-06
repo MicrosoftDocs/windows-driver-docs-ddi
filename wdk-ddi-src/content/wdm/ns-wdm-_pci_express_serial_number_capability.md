@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY, *PPCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY
  - wdm/_PCI_EXPRESS_SERIAL_NUMBER_CAPABILITY

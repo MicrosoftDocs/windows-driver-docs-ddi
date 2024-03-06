@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_CIPHER_KEY_MAPPING_KEY_VALUE
  - PDOT11_CIPHER_KEY_MAPPING_KEY_VALUE
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_CIPHER_KEY_MAPPING_KEY_VALUE structure

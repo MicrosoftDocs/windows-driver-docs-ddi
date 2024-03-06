@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_PORT_STATE, *PDOT11_PORT_STATE
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_PORT_STATE
  - wlclient/_DOT11_PORT_STATE

@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WPS_DEVICE_NAME
  - PDOT11_WPS_DEVICE_NAME
  - DOT11_WPS_DEVICE_NAME
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WPS_DEVICE_NAME structure

@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_ADDITIONAL_IE
  - PDOT11_WFD_ADDITIONAL_IE
  - DOT11_WFD_ADDITIONAL_IE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_ADDITIONAL_IE structure

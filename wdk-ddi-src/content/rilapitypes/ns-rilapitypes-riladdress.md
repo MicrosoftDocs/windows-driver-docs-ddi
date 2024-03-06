@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILADDRESS, *LPRILADDRESS
-req.product: Windows 10 or later.
 f1_keywords:
  - RILADDRESS
  - rilapitypes/RILADDRESS

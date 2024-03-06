@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_AUTH_CIPHER_PAIR, *PDOT11_AUTH_CIPHER_PAIR
-req.product: Windows 10 or later.
 f1_keywords:
  - DOT11_AUTH_CIPHER_PAIR
  - wlantypes/DOT11_AUTH_CIPHER_PAIR

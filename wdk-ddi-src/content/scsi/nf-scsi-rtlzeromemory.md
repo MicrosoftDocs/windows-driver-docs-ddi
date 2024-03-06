@@ -26,7 +26,6 @@ req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
-req.product: Windows 10 or later.
 f1_keywords:
  - RtlZeroMemory
  - scsi/RtlZeroMemory

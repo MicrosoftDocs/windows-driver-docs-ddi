@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_GO_INTENT
  - PDOT11_WFD_GO_INTENT
  - DOT11_WFD_GO_INTENT
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_GO_INTENT structure

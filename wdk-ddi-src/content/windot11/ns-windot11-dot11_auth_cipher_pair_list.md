@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_AUTH_CIPHER_PAIR_LIST
  - PDOT11_AUTH_CIPHER_PAIR_LIST
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_AUTH_CIPHER_PAIR_LIST structure

@@ -38,7 +38,6 @@ api_name:
 - ExtRemoteTyped.operator=
 targetos: Windows
 req.typenames: TTraceLevel
-req.product: Windows 10 or later.
 ---
 
 # operator= function

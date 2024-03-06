@@ -26,7 +26,6 @@ req.dll: NtosKrnl.exe
 req.irql: <= APC_LEVEL
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
 f1_keywords:
  - ExConvertExclusiveToSharedLite
  - wdm/ExConvertExclusiveToSharedLite

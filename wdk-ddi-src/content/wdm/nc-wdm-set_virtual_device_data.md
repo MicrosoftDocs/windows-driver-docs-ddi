@@ -25,7 +25,6 @@ req.dll:
 req.irql: IRQL <= APC_LEVEL
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
 f1_keywords:
  - SET_VIRTUAL_DEVICE_DATA
  - wdm/SET_VIRTUAL_DEVICE_DATA

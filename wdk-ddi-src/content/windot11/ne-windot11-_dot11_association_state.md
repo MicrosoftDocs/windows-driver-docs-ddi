@@ -44,8 +44,6 @@ api_name:
  - _DOT11_ASSOCIATION_STATE
  - PDOT11_ASSOCIATION_STATE
  - DOT11_ASSOCIATION_STATE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_ASSOCIATION_STATE enumeration

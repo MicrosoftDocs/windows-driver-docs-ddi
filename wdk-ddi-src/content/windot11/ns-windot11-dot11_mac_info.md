@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_MAC_INFO
  - PDOT11_MAC_INFO
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_MAC_INFO structure

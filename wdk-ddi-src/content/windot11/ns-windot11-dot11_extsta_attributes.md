@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_EXTSTA_ATTRIBUTES
  - PDOT11_EXTSTA_ATTRIBUTES
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_ATTRIBUTES structure

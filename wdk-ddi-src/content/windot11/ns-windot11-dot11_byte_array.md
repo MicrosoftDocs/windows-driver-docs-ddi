@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_BYTE_ARRAY
  - PDOT11_BYTE_ARRAY
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_BYTE_ARRAY structure

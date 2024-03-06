@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_STATISTICS
  - PDOT11_STATISTICS
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_STATISTICS structure

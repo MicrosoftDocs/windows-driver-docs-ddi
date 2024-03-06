@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 f1_keywords:
  - EVT_POS_CX_DEVICE_REMOTE_CLAIM
  - poscx/EVT_POS_CX_DEVICE_REMOTE_CLAIM

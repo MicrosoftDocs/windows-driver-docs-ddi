@@ -44,8 +44,6 @@ api_name:
  - _DOT11_TEMP_TYPE
  - PDOT11_TEMP_TYPE
  - DOT11_TEMP_TYPE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_TEMP_TYPE enumeration

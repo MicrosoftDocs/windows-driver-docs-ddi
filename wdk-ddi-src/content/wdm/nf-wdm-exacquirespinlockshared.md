@@ -20,7 +20,6 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.namespace: 
-req.product: Windows 10 or later.
 req.redist: 
 req.target-min-winverclnt:
 req.target-min-winversvr: 

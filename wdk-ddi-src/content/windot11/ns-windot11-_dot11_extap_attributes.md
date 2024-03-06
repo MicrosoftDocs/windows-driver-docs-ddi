@@ -44,8 +44,6 @@ api_name:
  - _DOT11_EXTAP_ATTRIBUTES
  - PDOT11_EXTAP_ATTRIBUTES
  - DOT11_EXTAP_ATTRIBUTES
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_EXTAP_ATTRIBUTES structure

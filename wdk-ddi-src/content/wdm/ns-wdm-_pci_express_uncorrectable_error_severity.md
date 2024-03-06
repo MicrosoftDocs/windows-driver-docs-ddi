@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
  - wdm/_PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY

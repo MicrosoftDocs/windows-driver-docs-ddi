@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT
-req.product: Windows 10 or later.
 f1_keywords:
  - PSYM_DUMP_FIELD_CALLBACK
  - wdbgexts/PSYM_DUMP_FIELD_CALLBACK

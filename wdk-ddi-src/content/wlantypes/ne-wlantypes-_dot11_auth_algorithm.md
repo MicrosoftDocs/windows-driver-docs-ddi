@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, *PDOT11_AUTH_ALGORITHM
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_AUTH_ALGORITHM
  - wlantypes/_DOT11_AUTH_ALGORITHM

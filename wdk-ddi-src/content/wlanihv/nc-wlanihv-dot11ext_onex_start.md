@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
 f1_keywords:
  - DOT11EXT_ONEX_START
  - wlanihv/DOT11EXT_ONEX_START

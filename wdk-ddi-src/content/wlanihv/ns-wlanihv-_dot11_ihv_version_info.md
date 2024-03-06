@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_IHV_VERSION_INFO, *PDOT11_IHV_VERSION_INFO
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_IHV_VERSION_INFO
  - wlanihv/_DOT11_IHV_VERSION_INFO

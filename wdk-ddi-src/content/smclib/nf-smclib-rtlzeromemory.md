@@ -26,7 +26,6 @@ req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
 targetos: Windows
 req.typenames: SFFDISK_DPCMD
-req.product: Windows 10 or later.
 f1_keywords:
  - RtlZeroMemory
  - smclib/RtlZeroMemory

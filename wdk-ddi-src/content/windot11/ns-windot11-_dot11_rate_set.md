@@ -44,8 +44,6 @@ api_name:
  - _DOT11_RATE_SET
  - PDOT11_RATE_SET
  - DOT11_RATE_SET
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_RATE_SET structure

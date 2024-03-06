@@ -26,7 +26,6 @@ req.dll:
 req.irql: DISPATCH_LEVEL
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
-req.product: Windows 10 or later.
 f1_keywords:
  - IOCTL_VPCI_READ_BLOCK
  - vpci/IOCTL_VPCI_READ_BLOCK

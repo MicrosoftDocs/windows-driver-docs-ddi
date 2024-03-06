@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
 f1_keywords:
  - WRITE_REGISTER_BUFFER_ULONG64
  - wdm/WRITE_REGISTER_BUFFER_ULONG64

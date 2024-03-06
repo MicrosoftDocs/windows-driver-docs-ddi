@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_INVITATION_FLAGS
  - PDOT11_WFD_INVITATION_FLAGS
  - DOT11_WFD_INVITATION_FLAGS
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_INVITATION_FLAGS structure

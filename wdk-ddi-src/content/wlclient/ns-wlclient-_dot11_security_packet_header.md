@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_SECURITY_PACKET_HEADER, *PDOT11_SECURITY_PACKET_HEADER
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_SECURITY_PACKET_HEADER
  - wlclient/_DOT11_SECURITY_PACKET_HEADER

@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILPOSITIONINFO_V2, *LPRILPOSITIONINFO_V2, RILPOSITIONINFO, *LPRILPOSITIONINFO
-req.product: Windows 10 or later.
 f1_keywords:
  - RILPOSITIONINFO_V2
  - rilapitypes/RILPOSITIONINFO_V2

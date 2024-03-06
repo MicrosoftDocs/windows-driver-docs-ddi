@@ -25,7 +25,6 @@ req.dll: WinSpool.drv
 req.irql: 
 targetos: Windows
 req.typenames: BIDI_TYPE
-req.product: Windows 10 or later.
 f1_keywords:
  - FindFirstPrinterChangeNotification
  - winspool/FindFirstPrinterChangeNotification

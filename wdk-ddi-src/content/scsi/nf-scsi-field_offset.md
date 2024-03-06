@@ -26,7 +26,6 @@ req.dll:
 req.irql: Any level
 targetos: Windows
 req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
-req.product: Windows 10 or later.
 f1_keywords:
  - FIELD_OFFSET
  - scsi/FIELD_OFFSET

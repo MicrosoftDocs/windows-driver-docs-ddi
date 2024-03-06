@@ -25,7 +25,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL
 targetos: Windows
 req.typenames: POWER_ACTION
-req.product: Windows 10 or later.
 f1_keywords:
  - PPOWER_ACTION
  - wdm/PPOWER_ACTION

@@ -44,8 +44,6 @@ api_name:
  - _DOT11_PHY_TYPE_INFO
  - PDOT11_PHY_TYPE_INFO
  - DOT11_PHY_TYPE_INFO
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_PHY_TYPE_INFO structure

@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_DEVICE_INFO
  - PDOT11_WFD_DEVICE_INFO
  - DOT11_WFD_DEVICE_INFO
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_DEVICE_INFO structure

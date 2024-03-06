@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: WDIAG_IHV_WLAN_ID, *PWDIAG_IHV_WLAN_ID
-req.product: Windows 10 or later.
 f1_keywords:
  - _WDIAG_IHV_WLAN_ID
  - wlanihv/_WDIAG_IHV_WLAN_ID

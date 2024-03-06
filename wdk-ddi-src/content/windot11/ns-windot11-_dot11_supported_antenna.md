@@ -44,8 +44,6 @@ api_name:
  - _DOT11_SUPPORTED_ANTENNA
  - PDOT11_SUPPORTED_ANTENNA
  - DOT11_SUPPORTED_ANTENNA
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_SUPPORTED_ANTENNA structure

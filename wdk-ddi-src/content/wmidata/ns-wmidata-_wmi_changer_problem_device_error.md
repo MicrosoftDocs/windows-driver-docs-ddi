@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: WMI_CHANGER_PROBLEM_DEVICE_ERROR, *PWMI_CHANGER_PROBLEM_DEVICE_ERROR
-req.product: Windows 10 or later.
 f1_keywords:
  - _WMI_CHANGER_PROBLEM_DEVICE_ERROR
  - wmidata/_WMI_CHANGER_PROBLEM_DEVICE_ERROR

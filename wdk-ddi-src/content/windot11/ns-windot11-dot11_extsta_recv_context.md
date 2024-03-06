@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_EXTSTA_RECV_CONTEXT
  - PDOT11_EXTSTA_RECV_CONTEXT
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_RECV_CONTEXT structure

@@ -25,7 +25,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_BRIDGE_AER_CAPABILITY, *PPCI_EXPRESS_BRIDGE_AER_CAPABILITY
-req.product: Windows10 or later.
 f1_keywords:
  - _PCI_EXPRESS_BRIDGE_AER_CAPABILITY
  - wdm/_PCI_EXPRESS_BRIDGE_AER_CAPABILITY

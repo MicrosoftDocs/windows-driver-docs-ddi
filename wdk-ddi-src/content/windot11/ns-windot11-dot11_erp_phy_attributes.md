@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_ERP_PHY_ATTRIBUTES
  - PDOT11_ERP_PHY_ATTRIBUTES
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_ERP_PHY_ATTRIBUTES structure

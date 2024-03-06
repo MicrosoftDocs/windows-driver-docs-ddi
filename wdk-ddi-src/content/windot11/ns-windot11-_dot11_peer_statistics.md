@@ -44,8 +44,6 @@ api_name:
  - _DOT11_PEER_STATISTICS
  - PDOT11_PEER_STATISTICS
  - DOT11_PEER_STATISTICS
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_PEER_STATISTICS structure

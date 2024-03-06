@@ -26,7 +26,6 @@ req.dll:
 req.irql: See Remarks section.
 targetos: Windows
 req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
-req.product: Windows 10 or later.
 f1_keywords:
  - PFN_WDFOBJECTACQUIRELOCK
  - wdfsync/PFN_WDFOBJECTACQUIRELOCK

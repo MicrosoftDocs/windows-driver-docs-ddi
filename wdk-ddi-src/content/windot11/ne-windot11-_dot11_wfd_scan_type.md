@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_SCAN_TYPE
  - PDOT11_WFD_SCAN_TYPE
  - DOT11_WFD_SCAN_TYPE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_SCAN_TYPE enumeration

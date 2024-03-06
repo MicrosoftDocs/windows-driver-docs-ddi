@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_CAPABILITIES_HEADER, *PPCI_CAPABILITIES_HEADER
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_CAPABILITIES_HEADER
  - wdm/_PCI_CAPABILITIES_HEADER

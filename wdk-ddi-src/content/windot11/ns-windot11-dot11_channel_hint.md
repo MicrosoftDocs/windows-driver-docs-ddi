@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_CHANNEL_HINT
  - PDOT11_CHANNEL_HINT
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_CHANNEL_HINT structure

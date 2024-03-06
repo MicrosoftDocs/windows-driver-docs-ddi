@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_VWIFI_ATTRIBUTES
  - PDOT11_VWIFI_ATTRIBUTES
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_VWIFI_ATTRIBUTES structure

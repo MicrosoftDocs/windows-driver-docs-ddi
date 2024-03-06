@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_DISASSOCIATION_PARAMETERS
  - PDOT11_DISASSOCIATION_PARAMETERS
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_DISASSOCIATION_PARAMETERS structure

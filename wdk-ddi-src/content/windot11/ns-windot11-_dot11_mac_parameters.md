@@ -44,8 +44,6 @@ api_name:
  - _DOT11_MAC_PARAMETERS
  - PDOT11_MAC_PARAMETERS
  - DOT11_MAC_PARAMETERS
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_MAC_PARAMETERS structure

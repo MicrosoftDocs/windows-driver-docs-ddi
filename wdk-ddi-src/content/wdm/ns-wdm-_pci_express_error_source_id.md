@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_ERROR_SOURCE_ID, *PPCI_EXPRESS_ERROR_SOURCE_ID
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_ERROR_SOURCE_ID
  - wdm/_PCI_EXPRESS_ERROR_SOURCE_ID

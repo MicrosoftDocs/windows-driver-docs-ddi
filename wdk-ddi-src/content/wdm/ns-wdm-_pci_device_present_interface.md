@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_DEVICE_PRESENT_INTERFACE, *PPCI_DEVICE_PRESENT_INTERFACE
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_DEVICE_PRESENT_INTERFACE
  - wdm/_PCI_DEVICE_PRESENT_INTERFACE

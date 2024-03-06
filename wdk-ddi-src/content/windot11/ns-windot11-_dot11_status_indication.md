@@ -44,8 +44,6 @@ api_name:
  - _DOT11_STATUS_INDICATION
  - PDOT11_STATUS_INDICATION
  - DOT11_STATUS_INDICATION
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_STATUS_INDICATION structure

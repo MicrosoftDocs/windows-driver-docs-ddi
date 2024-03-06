@@ -26,7 +26,6 @@ req.dll: NtosKrnl.exe
 req.irql: Any level (See Remarks section)
 targetos: Windows
 req.typenames: STOR_SPINLOCK
-req.product: Windows 10 or later.
 f1_keywords:
  - RtlZeroMemory
  - storport/RtlZeroMemory

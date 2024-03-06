@@ -44,8 +44,6 @@ api_name:
  - _DOT11_PHY_TYPE
  - PDOT11_PHY_TYPE
  - DOT11_PHY_TYPE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_PHY_TYPE enumeration

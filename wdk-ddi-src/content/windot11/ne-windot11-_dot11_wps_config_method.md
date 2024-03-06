@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WPS_CONFIG_METHOD
  - PDOT11_WPS_CONFIG_METHOD
  - DOT11_WPS_CONFIG_METHOD
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WPS_CONFIG_METHOD enumeration

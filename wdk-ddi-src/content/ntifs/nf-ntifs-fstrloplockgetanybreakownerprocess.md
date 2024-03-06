@@ -33,10 +33,7 @@ api_location:
 - ntifs.h
 api_name: 
 - FSRTL_ADVANCED_FCB_HEADER.FsRtlOplockGetAnyBreakOwnerProcess
-product: 
-- Windows
 targetos: Windows
-
 ---
 
 # FSRTL_ADVANCED_FCB_HEADER::FsRtlOplockGetAnyBreakOwnerProcess

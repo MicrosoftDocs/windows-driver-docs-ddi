@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, *PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
  - wdm/_PCI_EXPRESS_LINK_QUIESCENT_INTERFACE

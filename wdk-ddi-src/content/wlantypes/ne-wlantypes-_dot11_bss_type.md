@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_BSS_TYPE, *PDOT11_BSS_TYPE
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_BSS_TYPE
  - wlantypes/_DOT11_BSS_TYPE

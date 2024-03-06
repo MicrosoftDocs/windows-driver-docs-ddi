@@ -25,7 +25,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL
 targetos: Windows
 req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
-req.product: Windows 10 or later.
 f1_keywords:
  - GET_VIRTUAL_FUNCTION_PROBED_BARS
  - wdm/GET_VIRTUAL_FUNCTION_PROBED_BARS

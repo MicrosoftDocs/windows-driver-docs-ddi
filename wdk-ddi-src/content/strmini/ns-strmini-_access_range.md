@@ -25,7 +25,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: ACCESS_RANGE, *PACCESS_RANGE
-req.product: Windows 10 or later.
 f1_keywords:
  - _ACCESS_RANGE
  - strmini/_ACCESS_RANGE

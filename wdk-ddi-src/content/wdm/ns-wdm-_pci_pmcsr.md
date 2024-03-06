@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_PMCSR, *PPCI_PMCSR
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_PMCSR
  - wdm/_PCI_PMCSR

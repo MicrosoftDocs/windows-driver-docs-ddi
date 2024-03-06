@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_DEVICE_ENTRY
  - PDOT11_WFD_DEVICE_ENTRY
  - DOT11_WFD_DEVICE_ENTRY
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_DEVICE_ENTRY structure

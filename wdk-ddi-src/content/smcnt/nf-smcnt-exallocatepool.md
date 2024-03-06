@@ -26,7 +26,6 @@ req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: VENDOR_ATTR, *PVENDOR_ATTR
-req.product: Windows 10 or later.
 f1_keywords:
  - ExAllocatePool
  - smcnt/ExAllocatePool

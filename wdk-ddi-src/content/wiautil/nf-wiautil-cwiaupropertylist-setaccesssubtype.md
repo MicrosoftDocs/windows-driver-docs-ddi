@@ -37,7 +37,6 @@ api_name:
 - CWiauPropertyList.SetAccessSubType
 targetos: Windows
 req.typenames: SKIP_AMOUNT
-req.product:
 ---
 
 # CWiauPropertyList::SetAccessSubType method

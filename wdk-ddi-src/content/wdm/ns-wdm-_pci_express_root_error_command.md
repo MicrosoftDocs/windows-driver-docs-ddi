@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_ROOT_ERROR_COMMAND, *PPCI_EXPRESS_ROOT_ERROR_COMMAND
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_ROOT_ERROR_COMMAND
  - wdm/_PCI_EXPRESS_ROOT_ERROR_COMMAND

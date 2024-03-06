@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_ROAMING_COMPLETION_PARAMETERS
  - PDOT11_ROAMING_COMPLETION_PARAMETERS
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_ROAMING_COMPLETION_PARAMETERS structure

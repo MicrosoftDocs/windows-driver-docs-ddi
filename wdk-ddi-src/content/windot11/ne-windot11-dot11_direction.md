@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_DIRECTION
  - PDOT11_DIRECTION
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_DIRECTION enumeration
