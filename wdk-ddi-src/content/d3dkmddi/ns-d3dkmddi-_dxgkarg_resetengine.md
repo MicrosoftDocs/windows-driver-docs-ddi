@@ -1,9 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_RESETENGINE
-title: _DXGKARG_RESETENGINE (d3dkmddi.h)
-description: Specifies a node within the physical display adapter that can be reset when the display port driver's GPU scheduler calls the DxgkDdiResetEngine function to request a reset operation.
-old-location: display\dxgkarg_resetengine.htm
-ms.date: 05/10/2018
+title: DXGKARG_RESETENGINE (d3dkmddi.h)
+description: Learn more about the _DXGKARG_RESETENGINE structure.
+ms.date: 03/14/2024
 keywords: ["DXGKARG_RESETENGINE structure"]
 ms.keywords: "*INOUT_PDXGKARG_RESETENGINE, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], _DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine"
 req.header: d3dkmddi.h
@@ -43,22 +42,21 @@ api_name:
  - DXGKARG_RESETENGINE
 ---
 
-# _DXGKARG_RESETENGINE structure
-
+# DXGKARG_RESETENGINE structure
 
 ## -description
 
-Specifies a node within the physical display adapter that can be reset when the display port driver's GPU scheduler calls the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a> function to request a reset operation.
+The **DXGKARG_RESETENGINE** structure specifies a node within the physical display adapter that can be reset when the display port driver's GPU scheduler calls KMD's [**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md) function to request a node reset operation.
 
 ## -struct-fields
 
 ### -field NodeOrdinal [in]
 
-An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being reset in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>.
+The index of a node within the physical adapter that **EngineOrdinal** specifies that is being reset in a call to [**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md).
 
 ### -field EngineOrdinal [in]
 
-An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
+The index that defines the physical adapter in a linked display adapter (LDA) configuration that the node specified by **NodeOrdinal** belongs to.
 
 ### -field LastAbortedFenceId [out]
 
@@ -66,9 +64,8 @@ The fence identifier for the last packet that was aborted in the middle of execu
 
 ## -remarks
 
-For more information, see <a href="/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.
+For more information, see [TDR changes in Windows 8](/windows-hardware/drivers/display/tdr-changes-in-windows-8).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
-
+[**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md)

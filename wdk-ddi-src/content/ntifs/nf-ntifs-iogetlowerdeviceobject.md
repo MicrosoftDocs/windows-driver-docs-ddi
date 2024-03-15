@@ -3,9 +3,8 @@ UID: NF:ntifs.IoGetLowerDeviceObject
 title: IoGetLowerDeviceObject function (ntifs.h)
 description: Learn more about the IoGetLowerDeviceObject function.
 tech.root: ifsk
-ms.date: 09/27/2023
+ms.date: 03/15/2024
 keywords: ["IoGetLowerDeviceObject function"]
-ms.keywords: IoGetLowerDeviceObject, IoGetLowerDeviceObject routine [Installable File System Drivers], ifsk.iogetlowerdeviceobject, ioref_0739069f-c14d-4b35-accd-8d65954bbc3d.xml, ntifs/IoGetLowerDeviceObject
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -69,7 +68,7 @@ Given a pointer to a device object in a file system or device driver stack, **Io
 
 A file system filter driver typically uses **IoGetLowerDeviceObject** to determine whether it is already attached to the filter driver stack that is chained above a given file system device object. First, the filter calls [**IoGetAttachedDeviceReference**](nf-ntifs-iogetattacheddevicereference.md) to get a pointer to the topmost device object in the stack. Then it calls **IoGetLowerDeviceObject** repeatedly to walk the driver stack, checking each device object to see whether the object belongs to the filter driver.
 
-**IoGetLowerDeviceObject** increments the reference count on the next-lower-level device object. Thus every successful call to **IoGetLowerDeviceObject** must be matched by a subsequent call [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md).
+**IoGetLowerDeviceObject** increments the reference count on the next-lower-level device object if there is one. Thus every call to **IoGetLowerDeviceObject** that doesn't return NULL must be matched by a subsequent call [**ObDereferenceObject**](../wdm/nf-wdm-obdereferenceobject.md).
 
 ## -see-also
 
