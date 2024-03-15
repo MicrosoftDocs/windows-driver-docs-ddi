@@ -2,11 +2,9 @@
 UID: NF:fltkernel.FltAllocateContext
 title: FltAllocateContext function (fltkernel.h)
 description: Learn more about the FltAllocateContext function.
-old-location: ifsk\fltallocatecontext.htm
 tech.root: ifsk
-ms.date: 05/04/2023
+ms.date: 03/15/2024
 keywords: ["FltAllocateContext function"]
-ms.keywords: FltAllocateContext, FltAllocateContext routine [Installable File System Drivers], FltApiRef_a_to_d_dcc03d8c-1f61-4afb-8774-f98951ebfb1f.xml, fltkernel/FltAllocateContext, ifsk.fltallocatecontext
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -58,7 +56,8 @@ A **FLT_CONTEXT_TYPE** value that indicates the type of context to allocate. **C
 
 | Value  | Meaning |
 | ------ | ------- |
-| FLT_VOLUME_CONTEXT       (0x0002) | Allocate a volume context. |
+| FLT_VOLUME_CONTEXT       (0x0001) | Allocate a volume context. |
+| FLT_INSTANCE_CONTEXT     (0x0002) | Allocate an instance context.  |
 | FLT_FILE_CONTEXT         (0x0004) | Allocate a file context.   |
 | FLT_STREAM_CONTEXT       (0x0008) | Allocate a stream context.  |
 | FLT_STREAMHANDLE_CONTEXT (0x0010) | Allocate a stream handle context.  |
