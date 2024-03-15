@@ -1,15 +1,13 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCreateSynchronizationObject2
 title: D3DKMTCreateSynchronizationObject2 function (d3dkmthk.h)
-description: The D3DKMTCreateSynchronizationObject2 function creates a kernel-mode synchronization object.
-old-location: display\d3dkmtcreatesynchronizationobject2.htm
-ms.date: 05/10/2018
+description: Learn more about the D3DKMTCreateSynchronizationObject2 function.
+ms.date: 03/14/2024
 keywords: ["D3DKMTCreateSynchronizationObject2 function"]
-ms.keywords: D3DKMTCreateSynchronizationObject2, D3DKMTCreateSynchronizationObject2 function [Display Devices], OpenGL_Functions_ba9aa4a0-19e6-40d2-8a17-d22c8756c555.xml, d3dkmthk/D3DKMTCreateSynchronizationObject2, display.d3dkmtcreatesynchronizationobject2
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
-req.target-min-winverclnt: D3DKMTCreateSynchronizationObject2 is supported beginning with the Windows 7 operating system.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,32 +43,27 @@ api_name:
 
 # D3DKMTCreateSynchronizationObject2 function
 
-
 ## -description
 
-The <b>D3DKMTCreateSynchronizationObject2</b> function creates a kernel-mode synchronization object.
+The **D3DKMTCreateSynchronizationObject2** function creates a kernel-mode synchronization object.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-*pData* [in, out]
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a> structure that describes a synchronization object.
+**pData** [in/out] is a pointer to a [**D3DKMT_CREATESYNCHRONIZATIONOBJECT2**](ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md) structure that describes the synchronization object to create.
 
 ## -returns
 
-<b>D3DKMTCreateSynchronizationObject2</b> returns one of the following values:
+**D3DKMTCreateSynchronizationObject2** returns an **NTSTATUS** value such as one of the following:
 
-| **Return code** | **Description** | 
+| **Return code** | **Description** |
 |:--|:--|
-| **STATUS_SUCCESS** | The kernel-mode synchronization object was successfully created. | 
-| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. | 
-| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. | 
-| **STATUS_NO_MEMORY** | [D3DKMTCreateSynchronizationObject2]() could not complete because of insufficient memory. | 
-
-This function might also return other <b>NTSTATUS</b> values.
+| **STATUS_SUCCESS** | The kernel-mode synchronization object was successfully created. |
+| **STATUS_DEVICE_REMOVED** | The graphics adapter was stopped or the display device was reset. |
+| **STATUS_INVALID_PARAMETER** | Parameters were validated and determined to be incorrect. |
+| **STATUS_NO_MEMORY** | **D3DKMTCreateSynchronizationObject2** couldn't complete because of insufficient memory. |
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_createsynchronizationobject2">D3DKMT_CREATESYNCHRONIZATIONOBJECT2</a>
+[**D3DKMT_CREATESYNCHRONIZATIONOBJECT2**](ns-d3dkmthk-_d3dkmt_createsynchronizationobject2.md)
