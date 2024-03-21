@@ -1,7 +1,7 @@
 ---
 UID: NF:fltkernel.FltRequestFileInfoOnCreateCompletion
 title: FltRequestFileInfoOnCreateCompletion function
-description: A minifilter calls FltRequestFileInfoOnCreateCompletion during file pre-create to request that the file manager stores the specified file information for retrieval upon create complete.
+description: A minifilter calls FltRequestFileInfoOnCreateCompletion during file pre-create to request that the file system stores the specified file information for retrieval upon create complete.
 tech.root: ifsk
 ms.date: 01/11/2019
 keywords: ["FltRequestFileInfoOnCreateCompletion function"]
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-A minifilter calls **FltRequestFileInfoOnCreateCompletion** during file pre-create to request that the file manager store file information for retrieval during post create.
+A minifilter calls **FltRequestFileInfoOnCreateCompletion** during file pre-create to request that the file system stores file information for retrieval during post create.
 
 ## -parameters
 
@@ -60,9 +60,10 @@ Flag bitmask indicating the type of file information that the file system should
 
 | Flag | Meaning |
 | ---- | ------- |
-| **QoCFileStatInformation** (0x00000001) | If set, the file system will store file stat information in a QUERY_ON_CREATE_FILE_STAT_INFORMATION structure for retrieval. |
-| **QoCFileLxInformation** (0x00000002) | If set, the file system will store extended Linux-like information in a QUERY_ON_CREATE_FILE_LX_INFORMATION structure for retrieval. |
-| **QoCFileEaInformation** (0x00000004) | If set, the file system will store extended attributes (EA) in a QUERY_ON_CREATE_EA_INFORMATION structure for retrieval. |
+| **QoCFileStatInformation** (0x00000001) | If set, the file system will store file stat information in a [**QUERY_ON_CREATE_FILE_STAT_INFORMATION**](../ntifs/ns-ntifs-query_on_create_file_stat_information.md) structure for retrieval. |
+| **QoCFileLxInformation** (0x00000002) | If set, the file system will store extended Linux-like information in a [**QUERY_ON_CREATE_FILE_LX_INFORMATION**](../ntifs/ns-ntifs-query_on_create_file_lx_information.md) structure for retrieval. |
+| **QoCFileEaInformation** (0x00000004) | If set, the file system will store extended attributes (EA) in a [**QUERY_ON_CREATE_EA_INFORMATION**](../ntifs/ns-ntifs-query_on_create_ea_information.md) structure for retrieval. |
+| **QoCFileUsnInformation** (0x00000008) | If set, the file system will store USN information in a [**QUERY_ON_CREATE_USN_INFORMATION**](../ntifs/ns-ntifs-query_on_create_usn_information.md) structure for retrieval. |
 
 ## -returns
 

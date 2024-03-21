@@ -65,6 +65,8 @@ Flag that indicates the type of file information to return. Note that flags cann
 | **QoCFileStatInformation** (0x00000001) | The file system will return file stat information in a [**QUERY_ON_CREATE_FILE_STAT_INFORMATION**](../ntifs/ns-ntifs-query_on_create_file_stat_information.md) structure. |
 | **QoCFileLxInformation** (0x00000002) | The file system will return extended Linux-like information in a [**QUERY_ON_CREATE_FILE_LX_INFORMATION**](../ntifs/ns-ntifs-query_on_create_file_lx_information.md) structure. |
 | **QoCFileEaInformation** (0x00000004) | The file system will return extended attributes (EA) in a [**QUERY_ON_CREATE_EA_INFORMATION**](../ntifs/ns-ntifs-query_on_create_ea_information.md) structure. |
+| **QoCFileUsnInformation** (0x00000008) | The file system will return USN information in a [**QUERY_ON_CREATE_USN_INFORMATION**](../ntifs/ns-ntifs-query_on_create_usn_information.md) structure. |
+| **QoCFileSecurityInformation** (0x00000010) | The file system will return file security information in a [**QUERY_ON_CREATE_SECURITY_INFORMATION**](../ntifs/ns-ntifs-query_on_create_security_information.md) structure. |
 
 ### -param RetInfoSize [out]
 
@@ -97,7 +99,10 @@ Receives a pointer to the requested **InfoClass** structure. If the file system 
 NTSTATUS status;
 status = FltRequestFileInfoOnCreateCompletion( Filter,
                                                CallbackData,
-                                               QoCFileStatInformation | QoCFileLxInformation | QoCFileEaInformation );
+                                               QoCFileStatInformation
+                                                | QoCFileLxInformation
+                                                | QoCFileEaInformation 
+                                                | QoCFileUsnInformation );
 
 // Post-create:
 NTSTATUS status;
@@ -105,6 +110,7 @@ ULONG fileStatSize, fileLxSize, fileEaSize;
 QUERY_ON_CREATE_FILE_STAT_INFORMATION* fileStatInfo;
 QUERY_ON_CREATE_FILE_LX_INFORMATION* fileLxInfo;
 QUERY_ON_CREATE_EA_INFORMATION* fileEaInfo;
+QUERY_ON_CREATE_USN_INFORMATION* fileUsnInfo;
 
 status = FltRetrieveFileInfoOnCreateCompletionEx( Filter,
                                                   CallbackData,
@@ -121,6 +127,11 @@ status = FltRetrieveFileInfoOnCreateCompletionEx( Filter,
                                                   QoCFileEaInformation, 
                                                   &fileEaSize, 
                                                   &fileEaInfo );
+status = FltRetrieveFileInfoOnCreateCompletionEx( Filter,
+                                                  CallbackData,
+                                                  QoCFileUsnInformation, 
+                                                  &fileUsnInfo, 
+                                                  &fileUsnInfo );
 ```
 
 Once **FltRetrieveFileInfoOnCreateCompletionEx** returns, a minifilter can write into the buffer that **RetInfoBuffer** points to. Any filters above that minifilter will see the changes if they call **FltRetrieveFileInfoOnCreateCompletionEx** on the modified information type.
