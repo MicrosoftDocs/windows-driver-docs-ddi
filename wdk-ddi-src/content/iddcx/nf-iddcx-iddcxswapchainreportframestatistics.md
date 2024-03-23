@@ -49,16 +49,21 @@ An OS callback function the driver calls to report the frame statistics after it
 
 ## -parameters
 
-### -param SwapChainObject
+### -param SwapChainObject [in]
 
-
-[in[ Pointer to a [**IDARG_IN_REPORTFRAMESTATISTICS **](ns-iddcx-idarg_in_reportframestatistics.md) structure.
+The swap-chain object whose frame statistics is reported.
 
 ### -param pInArgs [in]
 
-
-Input arguments to the function
+Pointer to a [**IDARG_IN_REPORTFRAMESTATISTICS**](ns-iddcx-idarg_in_reportframestatistics.md) structure.
 
 ## -returns
 
 (NTSTATUS) The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method may return an appropriate <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> error code.
+
+## -see-also
+
+[**EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN**](nc-iddcx-evt_idd_cx_monitor_assign_swapchain.md)
+[**EVT_IDD_CX_MONITOR_UNASSIGN_SWAPCHAIN**](nc-iddcx-evt_idd_cx_monitor_unassign_swapchain.md)
+
+
