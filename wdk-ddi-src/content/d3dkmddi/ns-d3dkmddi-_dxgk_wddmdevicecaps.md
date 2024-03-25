@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _DXGK_WDDMDEVICECAPS
  - DXGK_WDDMDEVICECAPS
-product:
- - Windows
 dev_langs:
  - c++
 ---

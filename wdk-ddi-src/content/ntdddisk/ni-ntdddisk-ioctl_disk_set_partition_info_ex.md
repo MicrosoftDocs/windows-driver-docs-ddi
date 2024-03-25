@@ -49,6 +49,8 @@ Changes the partition type of the specified disk partition. (Floppy drivers need
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_set_partition_information_ex">SET_PARTITION_INFORMATION_EX</a> to be set.

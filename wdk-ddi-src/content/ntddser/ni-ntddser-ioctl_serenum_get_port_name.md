@@ -49,6 +49,8 @@ The IOCTL_SERENUM_GET_PORT_NAME request returns the value of the <b>PortName</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

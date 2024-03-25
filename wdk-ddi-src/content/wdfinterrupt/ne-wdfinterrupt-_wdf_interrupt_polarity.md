@@ -57,7 +57,7 @@ The <b>WDF_INTERRUPT_POLARITY</b> enumeration type is used to specify an interru
 
 ## -enum-fields
 
-### -field WdfInterruptPolarityUnknown
+### -field WdfInterruptPolarityUnknown:0
 
 The interrupt signal's polarity is unknown.
 

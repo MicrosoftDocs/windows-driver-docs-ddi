@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL returns a structure that contains a set
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

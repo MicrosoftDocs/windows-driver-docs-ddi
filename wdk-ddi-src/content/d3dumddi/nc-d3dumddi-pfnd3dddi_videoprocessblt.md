@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_VIDEOPROCESSBLT
-product:
- - Windows
 ---
 
 # PFND3DDDI_VIDEOPROCESSBLT callback function

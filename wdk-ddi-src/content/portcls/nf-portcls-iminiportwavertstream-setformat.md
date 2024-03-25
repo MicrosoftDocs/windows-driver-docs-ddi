@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IMiniportWaveRTStream::SetFormat
-product:
- - Windows
 ---
 
 # IMiniportWaveRTStream::SetFormat

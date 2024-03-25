@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILC2KMRLPARAMMASK
-req.product: Windows 10 or later.
 f1_keywords:
  - RILC2KMRLPARAMMASK
  - rilapitypes/RILC2KMRLPARAMMASK

@@ -48,7 +48,6 @@ api_name:
 
 # _HDAUDIO_CODEC_RESPONSE structure
 
-
 ## -description
 
 The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec command or an unsolicited response from a codec.
@@ -57,78 +56,43 @@ The HDAUDIO_CODEC_RESPONSE structure specifies either a response to a codec comm
 
 ### -field Unsolicited
 
+Specifies a 32-bit unsolicited response value that consists of a 26-bit response value and a 6-bit tag value.
+
 ### -field Unsolicited.Response
+
+Specifies a 21-bit unsolicited response value.
 
 ### -field Unsolicited.SubTag
 
+Specifies a 5-bit SubTag.
+
 ### -field Unsolicited.Tag
+
+Specifies a 6-bit tag value for an unsolicited response.
 
 ### -field Response
 
-### -field SDataIn
+Specifies a response value.
+
+#### -field SDataIn
+
+Specifies the 4-bit codec address (SDI line) of the codec that generates the response.
 
 ### -field IsUnsolicitedResponse
 
+Specifies whether the response is unsolicited. If 1, the response is unsolicited. If 0, the response is solicited (that is, a response to a codec command).
+
 ### -field HasFifoOverrun
 
+Specifies whether a FIFO overrun occurred in the response input ring buffer (RIRB). If 1, a FIFO overrun occurred. If 0, a FIFO overrun did not occur.
+
 ### -field IsValid
+
+Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
 
 ### -field CompleteResponse
 
 Specifies a complete, 64-bit response summary that consists of a 32-bit response, 4-bit codec address, three status bits, and 25 unused bits (set to zero). This value is mostly used in debug messages.
-
-
-### -field ( unnamed struct )
-
-Specifies a 26-bit unsolicited response value.
-
-
-
-#### Unsolicited
-
-Specifies a 32-bit unsolicited response value that consists of a 26-bit response value and a 6-bit tag value.
-
-
-
-##### Response
-
-Specifies a 26-bit unsolicited response value.
-
-
-
-##### Tag
-
-Specifies a 6-bit tag value for an unsolicited response.
-
-
-
-#### Response
-
-Specifies a 26-bit unsolicited response value.
-
-
-
-#### SDataIn
-
-Specifies the 4-bit codec address (SDI line) of the codec that generates the response.
-
-
-
-#### IsUnsolicitedResponse
-
-Specifies whether the response is unsolicited. If 1, the response is unsolicited. If 0, the response is solicited (that is, a response to a codec command).
-
-
-
-#### HasFifoOverrun
-
-Specifies whether a FIFO overrun occurred in the response input ring buffer (RIRB). If 1, a FIFO overrun occurred. If 0, a FIFO overrun did not occur.
-
-
-
-#### IsValid
-
-Specifies whether the response is valid. If 1, the response is valid. If 0, it is not valid.
 
 ## -remarks
 

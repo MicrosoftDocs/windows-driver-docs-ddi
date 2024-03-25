@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_PATCH
-product:
- - Windows
 ---
 
 # DXGKDDI_PATCH callback function

@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: PRINTIFI32, *PPRINTIFI32
-req.product: Windows 10 or later.
 f1_keywords:
  - _PRINTIFI32
  - prntfont/_PRINTIFI32

@@ -1,8 +1,8 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_DECODE_FRAME_0041
 title: PFND3D12DDI_VIDEO_DECODE_FRAME_0041 (d3d12umddi.h)
-description: The PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function decodes a video frame. The function is called by a client driver.
-ms.date: 10/19/2018
+description: Learn more about the PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function.
+ms.date: 12/15/2023
 keywords: ["PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -34,16 +34,13 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_VIDEO_DECODE_FRAME_0041
-product:
- - Windows
 ---
 
 # PFND3D12DDI_VIDEO_DECODE_FRAME_0041 callback function
 
-
 ## -description
 
-Implemented by the client driver to decode a video frame.
+**PFND3D12DDI_VIDEO_DECODE_FRAME_0041** records a decode frame operation to the command list. Inputs, outputs, and parameters for the decode are specified as arguments to this method.
 
 ## -parameters
 
@@ -57,33 +54,8 @@ The video decoder that contains internal state for this decode session.  Example
 
 ### -param pOutputStreamParameters
 
-Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md).
+Specifies the output surface and output parameters. See [D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0041.md).
 
 ### -param pInputStreamParameters
 
 Specifies the input bit stream, parameters, reference frames, and other input parameters for the decode operation.  See [D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS](ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0032.md).
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_VIDEO_DECODE_FRAME_0041 Pfnd3d12ddiVideoDecodeFrame0041;
-
-// Definition
-
-VOID Pfnd3d12ddiVideoDecodeFrame0041
-(
-	D3D12DDI_HCOMMANDLIST hDrvCommandList
-	D3D12DDI_HVIDEODECODER_0020 hDrvDecoder
-	 const D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041 *pOutputStreamParameters
-	 const D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0032 *pInputStreamParameters
-)
-{...}
-
-PFND3D12DDI_VIDEO_DECODE_FRAME_0041
-
-
-```
-
-## -see-also

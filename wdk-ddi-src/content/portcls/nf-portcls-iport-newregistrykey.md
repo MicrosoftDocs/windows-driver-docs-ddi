@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IPort::NewRegistryKey
-product:
- - Windows
 ---
 
 # IPort::NewRegistryKey

@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTCreateAllocation
 title: D3DKMTCreateAllocation function (d3dkmthk.h)
 description: Learn more about the D3DKMTCreateAllocation function.
-ms.date: 03/22/2023
+ms.date: 01/22/2024
 keywords: ["D3DKMTCreateAllocation function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 req.header: d3dkmthk.h
@@ -39,11 +39,9 @@ api_name:
  - D3DKMTCreateAllocation
 ---
 
-# D3DKMTCreateAllocation function
-
 ## -description
 
-The **D3DKMTCreateAllocation** function creates or adds allocations of system or video memory. User-mode graphics clients should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead.
+The **D3DKMTCreateAllocation** function creates or adds allocations of system or video memory. User-mode graphics client drivers should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead (see Remarks).
 
 ## -parameters
 
@@ -64,15 +62,19 @@ The **D3DKMTCreateAllocation** function creates or adds allocations of system or
 
 ## -remarks
 
-A user-mode graphics client can call **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+User-mode graphics client drivers should call [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md) instead. One reason is that Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**(nf-d3dkmthk-d3dkmtcreateallocation2.md).
+
+User mode (in this case, the D3D runtime) calls **D3DKMTCreateAllocation** to create allocations and resources. An allocation can be associated with a resource or it can stand alone.
+
+When user mode calls [**D3DKMTCreateAllocation**](../d3dkmthk/nf-d3dkmthk-d3dkmtcreateallocation.md), the UMD provides private driver data describing the allocation. *Dxgkrnl* takes this private driver data and passes it to the KMD who then fills out a description of each allocation in a way understood by *VidMm*. The UMD data contains information such as the resource type (texture, swapchain, etc). The KMD translates this data to things like size, alignment, a set of memory segments that the allocation can be located, preferences for these segments, and so forth.
 
 **D3DKMTCreateAllocation** can also be called to add additional allocations to a resource at anytime. The only restrictions are that all shared allocations must be associated with a resource and additional allocations cannot be added to an existing shared resource.
 
-Windows Subsystem for Linux (WSL) doesn't support **D3DKMTCreateAllocation**, which is one reason why graphics clients should use [**D3DKMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md).
-
 ### Examples
 
-The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation** to create a stand-alone allocation in video memory that is not associated with a resource.
+#### Creating a stand-alone allocation in video memory that isn't associated with a resource
+
+The following code example demonstrates how **D3DKMTCreateAllocation** can be used to create a stand-alone allocation in video memory that is not associated with a resource.
 
 ```c
 D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAllocationInfo, UINT Size)
@@ -97,7 +99,9 @@ D3DKMT_HANDLE CreateStandAloneAllocation(D3DKMT_HANDLE hDevice, VOID* pPrivateAl
 }
 ```
 
-The following code example demonstrates how a user-mode graphics client can use **D3DKMTCreateAllocation** to create a resource with a single system memory allocation.
+#### Creating a resource with a single system memory allocation
+
+The following code example demonstrates how **D3DKMTCreateAllocation** can be used to create a resource with a single system memory allocation.
 
 ```c
 HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice, 
@@ -144,6 +148,39 @@ HRESULT CreateSysmemResource(D3DKMT_HANDLE hDevice,
     return E_FAIL;
 }
 ```
+
+#### Creating a standard allocation with ExistingSysMem
+
+The following code example shows the arguments to pass to **D3DKMTCreateAllocation** to create a standard allocation with **ExistingSysMem**. The existing system memory buffer that the runtime provides to the kernel must be page-aligned and a multiple of the page size; otherwise the kernel fails the call.
+
+```c
+    UINT PrivateDriverDataEstimate = 2048;
+
+    D3DDDI_ALLOCATIONINFO2 AllocInfo = {};
+    AllocInfo.pSystemMem = SomeValidPageAlignedSysMem;
+    AllocInfo.VidPnSourceId = SomeVidPnSourceId;
+
+    D3DKMDT_CREATESTANDARDALLOCATION StandardAlloc = {};
+    StandardAlloc.Type = D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP;
+    StandardAlloc.ExistingHeapData.Size = SizeOfSystemMemBuffer; // Multiple of PAGE SIZE
+
+    D3DKMT_CREATEALLOCATION CreateAlloc = {};
+    CreateAlloc.hDevice = SomeDevice;
+    CreateAlloc.NumAllocations = 1;
+    CreateAlloc.pAllocationInfo2 = &AllocInfo;
+    CreateAlloc.pStandardAllocation = &StandardAlloc;
+    CreateAlloc.Flags.ExistingSysMem = TRUE;
+
+    ntStatus = D3DKMTCreateAllocation(&CreateAlloc);
+```
+
+Argument limitations for **D3DKMTCreateAllocation**:
+
+* **ExistingSysMem** (or **ExistingSection**) is only supported with **StandardAllocation** and vice versa.
+* **NumAllocations** supported is 1.
+* Only one of **ExistingSysMem** or **ExistingSection** can be set.
+* When creating a **StandardAllocation**, the **CreateShared** and **CrossAdapter** flags must always be set.
+* **ExistingSysMem**  (or **ExistingSection**) can't be created against an existing resource (**D3DKMT_CREATALLOCATION::hResource**).
 
 ## -see-also
 

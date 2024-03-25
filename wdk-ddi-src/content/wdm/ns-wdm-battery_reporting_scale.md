@@ -25,7 +25,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
-req.product: Windows 10 or later.
 f1_keywords:
  - PBATTERY_REPORTING_SCALE
  - wdm/PBATTERY_REPORTING_SCALE

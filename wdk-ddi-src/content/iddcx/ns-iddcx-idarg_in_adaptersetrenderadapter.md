@@ -32,8 +32,6 @@ api_location:
  - iddcx.h
 api_name:
  - IDARG_IN_ADAPTERSETRENDERADAPTER
-product:
- - Windows
 dev_langs:
  - c++
 ---

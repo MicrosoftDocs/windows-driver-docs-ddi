@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_UPDATEHWCONTEXTSTATE
-product:
- - Windows
 ---
 
 # DXGKDDI_UPDATEHWCONTEXTSTATE callback function

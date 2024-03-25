@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlLookupLastMcbEntry
 title: FsRtlLookupLastMcbEntry function (ntifs.h)
-description: The FsRtlLookupLastMcbEntry function is obsolete.
-old-location: ifsk\fsrtllookuplastmcbentry.htm
+description: Learn more about the FsRtlLookupLastMcbEntry function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/06/2023
 keywords: ["FsRtlLookupLastMcbEntry function"]
 ms.keywords: FsRtlLookupLastMcbEntry, FsRtlLookupLastMcbEntry function [Installable File System Drivers], fsrtlref_432dcb48-ee5d-4eef-89ee-d10e6e8a9da7.xml, ifsk.fsrtllookuplastmcbentry, ntifs/FsRtlLookupLastMcbEntry
 req.header: ntifs.h
@@ -45,16 +44,15 @@ dev_langs:
 
 # FsRtlLookupLastMcbEntry function
 
-
 ## -description
 
-The <b>FsRtlLookupLastMcbEntry</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry">FsRtlLookupLastLargeMcbEntry</a> instead.
+The **FsRtlLookupLastMcbEntry** routine retrieves the last mapping entry stored in the map control block (MCB). It's obsolete, but is exported to support existing driver binaries. Use [**FsRtlLookupLastLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry.md) instead.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Reserved.</p>
+Reserved.
 
 ### -param Vbn
 
@@ -63,3 +61,7 @@ Reserved.
 ### -param Lbn
 
 Reserved.
+
+## -returns
+
+**FsRtlGetNextLargeMcbEntry** returns TRUE if the requested mapping run exists in the MCB, FALSE otherwise.

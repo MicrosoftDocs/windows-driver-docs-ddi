@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _DXGKARGCB_ISFEATUREENABLED
  - DXGKARGCB_ISFEATUREENABLED
-product:
- - Windows
 dev_langs:
  - c++
 ---
@@ -55,7 +53,7 @@ Device handle that was passed to the driver's [**DxgkDdiStartDevice**](../dispmp
 
 ### -field FeatureId [in]
 
-A [**DXGK_FEATURE_ID**](../d3dukmdt/ne-d3dukmdt-dxgk_feature_id.md) value that identifies the feature to query enabled state for.
+A [**DXGK_FEATURE_ID**](ne-d3dkmddi-_dxgk_feature_id.md) value that identifies the feature to query enabled state for.
 
 ### -field Enabled [out]
 

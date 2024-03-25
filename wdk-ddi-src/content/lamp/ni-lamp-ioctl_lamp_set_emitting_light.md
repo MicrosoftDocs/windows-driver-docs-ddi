@@ -54,6 +54,8 @@ The **IOCTL_LAMP_SET_EMITTING_LIGHT** control code turns the lamp on or off.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 `Irp->AssociatedIrp.SystemBuffer` points to a buffer of type **BOOLEAN**, with **TRUE** indicating a request to turn the lamp on; **FALSE** otherwise.

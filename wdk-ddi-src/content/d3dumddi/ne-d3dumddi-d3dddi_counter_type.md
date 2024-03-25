@@ -1,8 +1,8 @@
 ---
 UID: NE:d3dumddi.D3DDDI_COUNTER_TYPE
 title: D3DDDI_COUNTER_TYPE (d3dumddi.h)
-description: The counter type.
-ms.date: 10/19/2018
+description: Learn more about the D3DDDI_COUNTER_TYPE enumeration.
+ms.date: 10/10/2023
 keywords: ["D3DDDI_COUNTER_TYPE enumeration"]
 ms.keywords: D3DDDI_COUNTER_TYPE, D3DDDI_COUNTER_TYPE,
 req.header: d3dumddi.h
@@ -29,30 +29,36 @@ api_location:
  - d3dumddi.h
 api_name:
  - D3DDDI_COUNTER_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---
 
 # D3DDDI_COUNTER_TYPE enumeration
 
-
 ## -description
 
-The counter type.
+A **D3DDDI_COUNTER_TYPE** enumeration value identifies the counter type.
 
 ## -enum-fields
 
 ### -field D3DDDI_COUNTER_TYPE_FLOAT32
 
+The counter type is a single-precision float.
+
 ### -field D3DDDI_COUNTER_TYPE_UINT16
+
+The counter type is an unsigned 16-bit integer value.
 
 ### -field D3DDDI_COUNTER_TYPE_UINT32
 
+The counter type is an unsigned 32-bit integer value.
+
 ### -field D3DDDI_COUNTER_TYPE_UINT64
+
+The counter type is an unsigned 64-bit integer value.
 
 ## -remarks
 
 ## -see-also
 
+[**PFND3DDDI_CHECKCOUNTER**](nc-d3dumddi-pfnd3dddi_checkcounter.md)

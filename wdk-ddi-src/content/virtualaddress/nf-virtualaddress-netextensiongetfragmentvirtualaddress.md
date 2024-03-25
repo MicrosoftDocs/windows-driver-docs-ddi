@@ -36,8 +36,6 @@ api_location:
  - virtualaddress.h
 api_name:
  - NetExtensionGetFragmentVirtualAddress
-product:
- - Windows
 ---
 
 # NetExtensionGetFragmentVirtualAddress function

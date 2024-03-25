@@ -59,6 +59,8 @@ The **IOCTL_ATA_PASS_THROUGH_DIRECT** request is typically used for transferring
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at **Irp->AssociatedIrp.SystemBuffer** contains an [**ATA_PASS_THROUGH_DIRECT**](ns-ntddscsi-_ata_pass_through_direct.md) structure that includes a set of task file input registers that indicate the sort of command to be performed. The caller must initialize all the members of this structure except for **PathId**, **TargetId**, and **Lun**, which the port driver fills in. For a data-out command, the **DataBuffer** member of **ATA_PASS_THROUGH_DIRECT** must point to a cache-aligned buffer containing the data to be written.

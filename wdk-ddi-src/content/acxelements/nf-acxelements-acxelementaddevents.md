@@ -5,7 +5,7 @@ title: AcxElementAddEvents
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxElementAddEvents function provides the ability to add ACXEVENT event objects to an ACXELEMENT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

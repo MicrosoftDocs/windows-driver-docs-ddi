@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT
-product:
- - Windows
 ---
 
 # PFND3DDDI_CHECKMULTIPLANEOVERLAYSUPPORT callback function

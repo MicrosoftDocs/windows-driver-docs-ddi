@@ -49,6 +49,8 @@ A silo driver sends this IOCTL to the storage device stack to query for storage 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

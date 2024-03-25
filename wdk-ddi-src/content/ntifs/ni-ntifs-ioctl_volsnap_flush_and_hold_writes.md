@@ -51,6 +51,8 @@ When a file system such as NTFS receives IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, th
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>IrpSp->Parameters.DeviceIoControl.IoControlCode</b> is set to IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES.

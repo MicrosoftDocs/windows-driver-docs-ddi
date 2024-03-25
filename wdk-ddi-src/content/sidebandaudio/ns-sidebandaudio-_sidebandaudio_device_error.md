@@ -1,8 +1,8 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_DEVICE_ERROR
 title: _SIDEBANDAUDIO_DEVICE_ERROR (sidebandaudio.h)
-description: Describes the error reported on the Device.
-ms.date: 09/06/2018
+description: The SIDEBANDAUDIO_DEVICE_ERROR structure describes the error reported on the Device.
+ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_DEVICE_ERROR structure"]
 ms.keywords: _SIDEBANDAUDIO_DEVICE_ERROR, SIDEBANDAUDIO_DEVICE_ERROR, *PSIDEBANDAUDIO_DEVICE_ERROR,
 req.header: sidebandaudio.h
@@ -40,12 +40,11 @@ api_name:
  - SIDEBANDAUDIO_DEVICE_ERROR
 ---
 
-# _SIDEBANDAUDIO_DEVICE_ERROR structure
-
+# SIDEBANDAUDIO_DEVICE_ERROR structure
 
 ## -description
 
-Describes the error reported on the Device.
+The **SIDEBANDAUDIO_DEVICE_ERROR** structure describes the error reported on the Device.
 
 ## -struct-fields
 
@@ -63,7 +62,12 @@ Indicates status of the device.
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

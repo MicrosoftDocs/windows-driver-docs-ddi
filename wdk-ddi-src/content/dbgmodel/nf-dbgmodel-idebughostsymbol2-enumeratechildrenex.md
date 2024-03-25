@@ -77,4 +77,3 @@ This method returns HRESULT which indicate success or failure.
 [SymbolSearchInfo structure](ns-dbgmodel-symbolsearchinfo.md)
 
 [IDebugHostSymbol2 interface](nn-dbgmodel-idebughostsymbol2.md)
-

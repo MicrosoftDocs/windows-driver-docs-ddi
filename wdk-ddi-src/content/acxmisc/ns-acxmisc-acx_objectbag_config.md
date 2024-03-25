@@ -5,7 +5,7 @@ title: ACX_OBJECTBAG_CONFIG
 ms.date: 07/01/2022
 targetos: Windows
 description: The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

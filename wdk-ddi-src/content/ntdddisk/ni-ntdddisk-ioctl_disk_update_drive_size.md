@@ -49,6 +49,8 @@ Updates device extension with drive size information for current media.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

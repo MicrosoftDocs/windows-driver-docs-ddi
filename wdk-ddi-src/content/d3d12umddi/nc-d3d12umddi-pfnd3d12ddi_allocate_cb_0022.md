@@ -38,8 +38,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - PFND3D12DDI_ALLOCATE_CB_0022
-product:
- - Windows
 ---
 
 # PFND3D12DDI_ALLOCATE_CB_0022 callback function

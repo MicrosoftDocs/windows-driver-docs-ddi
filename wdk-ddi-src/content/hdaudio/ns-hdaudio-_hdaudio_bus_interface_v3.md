@@ -38,8 +38,6 @@ api_name:
  - _HDAUDIO_BUS_INTERFACE_V3
  - PHDAUDIO_BUS_INTERFACE_V3
  - HDAUDIO_BUS_INTERFACE_V3
-product:
- - Windows
 ---
 
 # _HDAUDIO_BUS_INTERFACE_V3 structure

@@ -51,6 +51,8 @@ This IOCTL is used primarily for cluster support.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

@@ -35,8 +35,6 @@ api_location:
  - math3dhelper.h
 api_name:
  - CVEC3D::operator-=
-product:
- - Windows
 ---
 
 # CVEC3D::operator-=

@@ -5,7 +5,7 @@ title: ACX_REQUEST_PARAMETERS_INIT_METHOD
 ms.date: 09/29/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS_INIT_METHOD initializes an ACX_REQUEST_PARAMETERS struct with ACX method parameters.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

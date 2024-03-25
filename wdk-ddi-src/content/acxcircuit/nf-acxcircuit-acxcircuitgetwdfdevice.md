@@ -5,7 +5,7 @@ title: AcxCircuitGetWdfDevice
 ms.date: 12/14/2022
 targetos: Windows
 description: Given an existing ACX Circuit object, the AcxCircuitGetWdfDevice function returns the associated WDFDEVICE object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

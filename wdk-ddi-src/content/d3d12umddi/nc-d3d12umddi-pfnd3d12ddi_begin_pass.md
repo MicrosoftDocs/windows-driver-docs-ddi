@@ -34,8 +34,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_BEGIN_PASS
-product:
- - Windows
 ---
 
 # PFND3D12DDI_BEGIN_PASS callback function

@@ -49,6 +49,8 @@ A client sends the <b>IOCTL_NFP_DISABLE</b> request to temporarily disable subsc
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

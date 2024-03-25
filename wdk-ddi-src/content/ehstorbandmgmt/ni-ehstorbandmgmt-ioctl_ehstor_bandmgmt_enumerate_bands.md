@@ -49,6 +49,8 @@ This <b>IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</b> request is sent to retrieve th
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain an <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_enumerate_bands_parameters">ENUMERATE_BANDS_PARAMETERS</a> structure.

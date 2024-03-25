@@ -5,7 +5,7 @@ title: AcxVolumeChangeLevelNotification
 ms.date: 04/29/2022
 targetos: Windows
 description: The AcxVolumeChangeLevelNotification function sends a notification of a volume level change on an ACXVOLUME object so that acx can generate a corresponding event.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

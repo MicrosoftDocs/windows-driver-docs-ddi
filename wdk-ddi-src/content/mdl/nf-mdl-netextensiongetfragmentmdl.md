@@ -36,8 +36,6 @@ api_location:
  - mdl.h
 api_name:
  - NetExtensionGetFragmentMdl
-product:
- - Windows
 ---
 
 # NetExtensionGetFragmentMdl function

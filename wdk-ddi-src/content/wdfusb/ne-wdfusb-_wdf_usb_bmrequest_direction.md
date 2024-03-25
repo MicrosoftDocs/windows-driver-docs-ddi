@@ -54,7 +54,7 @@ The <b>WDF_USB_BMREQUEST_DIRECTION</b> enumeration identifies the data transfer 
 
 ## -enum-fields
 
-### -field BmRequestHostToDevice
+### -field BmRequestHostToDevice:0
 
 The data transfer direction is from the host system to the device.
 

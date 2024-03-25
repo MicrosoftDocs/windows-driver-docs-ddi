@@ -1,8 +1,7 @@
 ---
 UID: NI:ntifs.IOCTL_REDIR_QUERY_PATH_EX
 title: IOCTL_REDIR_QUERY_PATH_EX (ntifs.h)
-description: The IOCTL_REDIR_QUERY_PATH_EX control code is sent by the multiple UNC provider (MUP) on Windows Vista or later to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request.
-old-location: ifsk\ioctl_redir_query_path_ex.htm
+description: Learn more about the IOCTL_REDIR_QUERY_PATH_EX control code.
 tech.root: ifsk
 ms.date: 08/12/2021
 keywords: ["IOCTL_REDIR_QUERY_PATH_EX IOCTL"]
@@ -66,13 +65,33 @@ The prefix resolution operation serves two purposes:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+IOCTL_REDIR_QUERY_PATH_EX
+
 ### -input-buffer
 
 **IrpSp->Parameters.DeviceIoControl.Type3InputBuffer** is set to a [**QUERY_PATH_REQUEST_EX**](ns-ntifs-query_path_request_ex.md) data structure that contains the request.
 
+### -input-buffer-length
+
+Size of the [**QUERY_PATH_REQUEST_EX**](ns-ntifs-query_path_request_ex.md) structure that the input buffer points to, in bytes.
+
 ### -output-buffer
 
 **IRP->UserBuffer** is set to a [**QUERY_PATH_RESPONSE**](ns-ntifs-query_path_response.md) data structure that contains the response.
+
+### -output-buffer-length
+
+Size of the [**QUERY_PATH_RESPONSE**](ns-ntifs-query_path_response.md) structure that the output buffer points to, in bytes.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
 
 ### -status-block
 

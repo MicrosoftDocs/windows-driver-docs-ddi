@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
  - D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE
-product:
- - Windows
 dev_langs:
  - c++
 ---

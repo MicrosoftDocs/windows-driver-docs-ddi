@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IDrmPort::DestroyContent
-product:
- - Windows
 ---
 
 # IDrmPort::DestroyContent

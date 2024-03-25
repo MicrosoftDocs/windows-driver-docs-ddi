@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_DISCOVER_REQUEST
  - PDOT11_WFD_DISCOVER_REQUEST
  - DOT11_WFD_DISCOVER_REQUEST
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_DISCOVER_REQUEST structure

@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11EXT_APIS, *PDOT11EXT_APIS
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11EXT_APIS
  - wlanihv/_DOT11EXT_APIS

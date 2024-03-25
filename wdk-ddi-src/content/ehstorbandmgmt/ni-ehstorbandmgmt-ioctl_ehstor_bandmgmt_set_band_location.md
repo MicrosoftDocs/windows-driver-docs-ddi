@@ -49,6 +49,8 @@ The location properties of bands in a band-managed storage device are modified w
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a   <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_location_parameters">SET_BAND_LOCATION_PARAMETERS</a> structure followed by the <b>AUTH_KEY</b> and <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_location_info">BAND_LOCATION_INFO</a> structures. 

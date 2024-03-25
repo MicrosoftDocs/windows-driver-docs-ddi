@@ -52,7 +52,7 @@ The <b>GetInterestMask</b> callback method is called to determine which <a href=
 ### -param Mask [out]
 
 
-Receives a bitmask that indicates which events the object is interested in.  The engine will call only those methods that correspond to the bit flags set by <b>GetInterestMask</b>.  For a description of the bit flags and their corresponding methods, see <a href="/previous-versions/ff541478(v=vs.85)">DEBUG_EVENT_XXX</a>.
+Receives a bitmask that indicates which events the object is interested in.  The engine will call only those methods that correspond to the bit flags set by <b>GetInterestMask</b>.  For a description of the bit flags and their corresponding methods, see <a href="/windows-hardware/drivers/debugger/debug-event-xxx">DEBUG_EVENT_XXX</a>.
 
 ## -returns
 

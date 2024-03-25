@@ -38,8 +38,6 @@ api_name:
  - _MCI_STATUS
  - PMCI_STATUS
  - MCI_STATUS
-product:
- - Windows
 ---
 
 # MCI_STATUS structure

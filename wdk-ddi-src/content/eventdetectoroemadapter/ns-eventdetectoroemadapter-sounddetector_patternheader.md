@@ -35,8 +35,6 @@ api_location:
 api_name:
  - __MIDL___MIDL_itf_eventdetectoroemadapter_0000_0000_0001
  - SOUNDDETECTOR_PATTERNHEADER
-product:
- - Windows
 ---
 
 # SOUNDDETECTOR_PATTERNHEADER structure (eventdetectoroemadapter.h)

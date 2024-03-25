@@ -5,7 +5,7 @@ title: EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS
 ms.date: 12/15/2022
 targetos: Windows
 description: EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS assigns detection patterns for keyword detection to be used by the keyword spotter.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

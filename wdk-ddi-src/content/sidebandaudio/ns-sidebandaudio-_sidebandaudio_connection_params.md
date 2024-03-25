@@ -1,8 +1,8 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_CONNECTION_PARAMS
 title: _SIDEBANDAUDIO_CONNECTION_PARAMS (sidebandaudio.h)
-description: Describes the endpoint index and Connection value.
-ms.date: 09/06/2018
+description: The SIDEBANDAUDIO_CONNECTION_PARAMS structure describes the endpoint index and connection value.
+ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_CONNECTION_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_CONNECTION_PARAMS, SIDEBANDAUDIO_CONNECTION_PARAMS, *PSIDEBANDAUDIO_CONNECTION_PARAMS,
 req.header: sidebandaudio.h
@@ -40,12 +40,11 @@ api_name:
  - SIDEBANDAUDIO_CONNECTION_PARAMS
 ---
 
-# _SIDEBANDAUDIO_CONNECTION_PARAMS structure
-
+# SIDEBANDAUDIO_CONNECTION_PARAMS structure
 
 ## -description
 
-Describes the endpoint index and Connection value.
+The **SIDEBANDAUDIO_CONNECTION_PARAMS** structure describes the endpoint index and connection value.
 
 ## -struct-fields
 
@@ -63,7 +62,12 @@ Indicates whether the endpoint is connected or not. Could reflect jack states or
 
 ## -remarks
 
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

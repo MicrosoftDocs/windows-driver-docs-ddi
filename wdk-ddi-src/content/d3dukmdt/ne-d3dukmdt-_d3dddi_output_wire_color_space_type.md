@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
  - D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
-product:
- - Windows
 ---
 
 # _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration

@@ -1,9 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGK_GPUPCAPS
-title: _DXGK_GPUPCAPS
-description: The GPU capabilities for a kernel mode display driver.
+title: DXGK_GPUPCAPS
+description: Learn more about the DXGK_GPUPCAPS structure.
 tech.root: display
-ms.date: 04/04/2019
+ms.date: 10/17/2023
 keywords: ["DXGK_GPUPCAPS structure"]
 ms.keywords: _DXGK_GPUPCAPS, DXGK_GPUPCAPS,
 req.header: d3dkmddi.h
@@ -35,18 +35,14 @@ api_location:
 api_name:
  - _DXGK_GPUPCAPS
  - DXGK_GPUPCAPS
-product:
- - Windows
 ---
 
-# _DXGK_GPUPCAPS structure
-
+# DXGK_GPUPCAPS structure
 
 ## -description
 
-The GPU capabilities for a kernel mode display driver.
+A kernel-mode display driver uses the **DXGK_GPUPCAPS** structure to identify its GPU capabilities.
 
-These caps must be filled out by the KMD in response to **DXGKQAITYPE_GPUPCAPS** [QueryAdapterInfo](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) request. These are queried by the OS during device initialization after [DxgkDdiStartDevice](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) is called and only if the adapter supports GPU partitioning.
 
 ## -struct-fields
 
@@ -54,7 +50,7 @@ These caps must be filled out by the KMD in response to **DXGKQAITYPE_GPUPCAPS**
 
 ### -field Caps.VirtualMachineHibernation
 
-The driver sets the cap if guest hibernation is supported for GPU-P devices.
+The driver sets the cap if guest hibernation is supported for GPU-P devices. The support for guest hibernation is optional and not required for driver certification. A VM, which has hibernation enabled and a GPU-P adapter added, will fail to start, if the driver does not support guest hibernation.
 
 ### -field Caps.HotDriverUpdate
 
@@ -66,13 +62,8 @@ Reserved.
 
 ### -field Caps.Value
 
-The driver sets the cap if VM save/restore is supported for GPU-P devices.
-
-The support for guest hibernation is optional and not required for driver certification.
-
-A VM, which has hibernation enabled and a GPU-P adapter added, will fail to start, if the driver does not support guest hibernation.
+The UINT collection of bitfields for the different GPU-P capabilities.
 
 ## -remarks
 
-## -see-also
-
+The KMD must fill out these caps in response to a **DXGKQAITYPE_GPUPCAPS** [**QueryAdapterInfo**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) request. These are queried by the OS during device initialization after [**DxgkDdiStartDevice**](../dispmprt/nc-dispmprt-dxgkddi_start_device.md) is called and only if the adapter supports GPU partitioning.

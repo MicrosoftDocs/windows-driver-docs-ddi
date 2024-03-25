@@ -37,8 +37,6 @@ api_location:
  - DispLib.dll
 api_name:
  - DlAllocateCommonBuffer
-product:
- - Windows
 dev_langs:
  - c++
 ---

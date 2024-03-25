@@ -66,6 +66,8 @@ The <b>IOCTL_SMARTCARD_POWER</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 (DWORD) that contains the power state to set.

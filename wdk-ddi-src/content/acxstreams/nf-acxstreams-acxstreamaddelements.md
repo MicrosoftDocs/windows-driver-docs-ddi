@@ -5,7 +5,7 @@ title: AcxStreamAddElements
 ms.date: 12/16/2022
 targetos: Windows
 description: AcxStreamAddElements is used to add stream elements to an AcxStream.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

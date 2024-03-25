@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_RELEASE_HARDWARE
 ms.date: 10/31/2022
 targetos: Windows
 description: The EvtAcxStreamReleaseHardware event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

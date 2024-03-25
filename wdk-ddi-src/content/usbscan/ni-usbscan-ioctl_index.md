@@ -30,8 +30,6 @@ api_location:
  - usbscan.h
 api_name:
  - IOCTL_INDEX
-product:
- - Windows
 ---
 
 # IOCTL_INDEX IOCTL
@@ -41,6 +39,8 @@ product:
 ## -description
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

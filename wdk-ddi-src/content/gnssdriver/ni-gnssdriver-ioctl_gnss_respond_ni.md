@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_RESPOND_NI</b> control code is used by the GNSS adapter to res
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/gnssdriver/ns-gnssdriver-gnss_ni_response">GNSS_NI_RESPONSE</a> structure.

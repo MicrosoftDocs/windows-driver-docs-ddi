@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYCONNECTIONCHANGE
 title: DXGKARG_QUERYCONNECTIONCHANGE (d3dkmddi.h)
-description: Used to hold the arguments for DXGKDDI_QUERYCONNECTIONCHANGE.
+description: Learn more about the DXGKARG_QUERYCONNECTIONCHANGE structure.
 old-location: display\dxgkarg_queryconnectionchange.htm
 ms.date: 08/26/2022
 keywords: ["DXGKARG_QUERYCONNECTIONCHANGE structure"]
@@ -57,7 +57,7 @@ A **DXGKARG_QUERYCONNECTIONCHANGE** structure holds the arguments for [**DXGKDDI
 
 ### -field Usb4MonitorInfo
 
-[out] An OS-allocated [**DXGK_CONNECTION_USB4_INFO**](ns-d3dkmddi-dxgk_connection_usb4_info.md) structure that the driver should complete if [**MonitorConnectFlags.Usb4DisplayPortMonitor**](ns-d3dkmddi-dxgk_connection_monitor_connect_flags.md) was set. Available starting in Windows 11 (WDDM 3.0).
+[out] An OS-allocated [**DXGK_CONNECTION_USB4_INFO**](ns-d3dkmddi-dxgk_connection_usb4_info.md) structure that the driver should complete if [**MonitorConnectFlags.Usb4DisplayPortMonitor**](ns-d3dkmddi-dxgk_connection_monitor_connect_flags.md) was set. Available starting in Windows 11 (WDDM 3.0). See [Supporting DisplayPort monitors over USB4 in KMD](/windows-hardware/drivers/display/supporting-usb4) for more information.
 
 ## -see-also
 

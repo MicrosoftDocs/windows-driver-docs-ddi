@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXGK_VGPU_CAPABILITY_TYPE
  - DXGK_VGPU_CAPABILITY_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

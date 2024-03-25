@@ -36,8 +36,6 @@ api_location:
  - returncontext.h
 api_name:
  - NetExtensionGetFragmentReturnContext
-product:
- - Windows
 ---
 
 # NetExtensionGetFragmentReturnContext function

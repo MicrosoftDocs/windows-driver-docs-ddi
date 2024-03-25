@@ -38,8 +38,6 @@ api_name:
  - _DXGKDDI_GPU_PARTITION_INTERFACE
  - PDXGKDDI_GPU_PARTITION_INTERFACE
  - DXGKDDI_GPU_PARTITION_INTERFACE
-product:
- - Windows
 dev_langs:
  - c++
 ---

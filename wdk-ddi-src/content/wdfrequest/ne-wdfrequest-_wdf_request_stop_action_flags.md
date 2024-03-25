@@ -54,19 +54,19 @@ The <b>WDF_REQUEST_STOP_ACTION_FLAGS</b> enumeration type defines flags that the
 
 ## -enum-fields
 
-### -field WdfRequestStopActionInvalid
+### -field WdfRequestStopActionInvalid:0
 
 Reserved for internal use only.
 
-### -field WdfRequestStopActionSuspend
+### -field WdfRequestStopActionSuspend:0x01
 
 The framework is stopping the I/O queue because the device is leaving its working (D0) state.
 
-### -field WdfRequestStopActionPurge
+### -field WdfRequestStopActionPurge:0x2
 
 The framework is stopping the I/O queue because the device is being removed.
 
-### -field WdfRequestStopRequestCancelable
+### -field WdfRequestStopRequestCancelable:0x10000000
 
 The I/O request is cancelable.
 

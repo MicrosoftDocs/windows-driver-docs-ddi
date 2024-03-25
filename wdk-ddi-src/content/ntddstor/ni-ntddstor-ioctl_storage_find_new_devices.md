@@ -53,6 +53,8 @@ Legacy class drivers can continue to handle this IOCTL without modifications. If
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

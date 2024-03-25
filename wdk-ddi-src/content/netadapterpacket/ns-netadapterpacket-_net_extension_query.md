@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_EXTENSION_QUERY
  - NET_EXTENSION_QUERY
-product:
- - Windows
 ---
 
 # NET_EXTENSION_QUERY structure

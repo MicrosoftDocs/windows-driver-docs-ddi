@@ -51,6 +51,8 @@ This IOCTL effectively provides the GNSS driver with a pending I/O request that 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

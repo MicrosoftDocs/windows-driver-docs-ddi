@@ -29,8 +29,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - D3DWDDM2_6DDI_SCANOUT_FLAGS
-product:
- - Windows
 ---
 
 # D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration

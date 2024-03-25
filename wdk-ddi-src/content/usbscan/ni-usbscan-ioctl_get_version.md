@@ -49,6 +49,8 @@ Returns the version number of the driver.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>NULL</b>

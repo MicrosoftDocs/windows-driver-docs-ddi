@@ -49,6 +49,8 @@ This I/O control function returns unified point of service (UPOS) standard infor
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [in] Not used with this operation; set to **NULL**.

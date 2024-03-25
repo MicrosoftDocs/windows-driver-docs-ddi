@@ -5,7 +5,7 @@ title: AcxTargetPinGetWdfIoTarget
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetPinGetWdfIoTarget function given an existing ACXTARGETPIN object, returns its corresponding WDFIOTARGET object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

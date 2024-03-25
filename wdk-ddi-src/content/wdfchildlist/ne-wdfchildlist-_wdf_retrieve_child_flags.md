@@ -54,27 +54,27 @@ The <b>WDF_RETRIEVE_CHILD_FLAGS</b> enumeration defines flags that a driver can 
 
 ## -enum-fields
 
-### -field WdfRetrieveUnspecified
+### -field WdfRetrieveUnspecified:0x0000
 
 Reserved for internal use only.
 
-### -field WdfRetrievePresentChildren
+### -field WdfRetrievePresentChildren:0x0001
 
 Calls to <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a> will retrieve child devices for which a framework device object exists.
 
-### -field WdfRetrieveMissingChildren
+### -field WdfRetrieveMissingChildren:0x0002
 
 Calls to <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a> will retrieve child devices that are marked as missing.
 
-### -field WdfRetrievePendingChildren
+### -field WdfRetrievePendingChildren:0x0004
 
 Calls to <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a> will retrieve child devices that the driver has reported as present, but for which a framework device object has not been created (because the framework has not called the driver's <a href="/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_create_device">EvtChildListCreateDevice</a> callback function).
 
-### -field WdfRetrieveAddedChildren
+### -field WdfRetrieveAddedChildren:(WdfRetrievePresentChildren | WdfRetrievePendingChildren)
 
 Calls to <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a> will retrieve child devices that are present or pending.
 
-### -field WdfRetrieveAllChildren
+### -field WdfRetrieveAllChildren:(WdfRetrievePresentChildren | WdfRetrievePendingChildren | WdfRetrieveMissingChildren)
 
 Calls to <a href="/windows-hardware/drivers/ddi/wdfchildlist/nf-wdfchildlist-wdfchildlistretrievenextdevice">WdfChildListRetrieveNextDevice</a> will retrieve child devices that are present, pending, or missing.
 

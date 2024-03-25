@@ -4,7 +4,7 @@ title: PWINDBG_IOCTL_ROUTINE (wdbgexts.h)
 description: The PWINDBG_IOCTL_ROUTINE (Ioctl) function performs a variety of different operations. Much of its functionality mirrors the functionality of other functions in wdbgexts.h.
 old-location: debugger\ioctl.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 07/26/2023
 keywords: ["PWINDBG_IOCTL_ROUTINE callback function"]
 ms.keywords: Ioctl, Ioctl callback function [Windows Debugging], PWINDBG_IOCTL_ROUTINE, PWINDBG_IOCTL_ROUTINE callback, WdbgExts_Ref_fa1f5367-924d-478c-a3cb-ca08bf8dde2f.xml, debugger.ioctl, wdbgexts/Ioctl
 req.header: wdbgexts.h
@@ -42,7 +42,6 @@ api_name:
 
 # PWINDBG_IOCTL_ROUTINE callback function
 
-
 ## -description
 
 The <b>PWINDBG_IOCTL_ROUTINE</b> (<b>Ioctl</b>) function performs a variety of different operations. Much of its functionality mirrors the functionality of other functions in wdbgexts.h.
@@ -58,8 +57,6 @@ Specifies which <b>Ioctl</b> operation to perform. For a list of possible <i>Ioc
 Points to the address of a data structure. The type of structure that is required depends on the value of <i>IoctlType</i>.
 
 ### -param cbSize
-
-### -param cbSizeOfContext
 
 Specifies the size of the structure that <i>lpvData</i> points to.
 

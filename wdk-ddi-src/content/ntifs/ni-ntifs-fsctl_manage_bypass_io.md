@@ -40,6 +40,40 @@ dev_langs:
 
 The **FSCTL_MANAGE_BYPASS_IO** control code controls BypassIO operations on a given file in the filter and file system stacks.
 
+## -ioctlparameters
+
+### -ioctl-major-code
+
+FSCTL_MANAGE_BYPASS_IO
+
+### -input-buffer
+
+Pointer to a [**FS_BPIO_INPUT**](ns-ntifs-fs_bpio_input.md) structure containing information about the BypassIO request.
+
+### -input-buffer-length
+
+Size of the [**FS_BPIO_INPUT**](ns-ntifs-fs_bpio_input.md) structure that **InputBuffer** points to, in bytes.
+
+### -output-buffer
+
+Pointer to a [**FS_BPIO_OUTPUT**](ns-ntifs-fs_bpio_output.md) structure in which to return information about the BypassIO operation.
+
+### -output-buffer-length
+
+Size of the [**FS_BPIO_OUTPUT**](ns-ntifs-fs_bpio_output.md) structure that **OutputBuffer** points to, in bytes.
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
+
+### -status-block
+
+Reserved for system use.
+
 ## -remarks
 
 To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.

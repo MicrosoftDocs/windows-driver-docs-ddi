@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB
-product:
- - Windows
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_ADDREF_RELEASE_CB callback function

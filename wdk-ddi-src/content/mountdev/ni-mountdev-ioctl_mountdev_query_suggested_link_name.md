@@ -51,6 +51,8 @@ Drive letter names must include the full path of the symbolic link in object nam
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

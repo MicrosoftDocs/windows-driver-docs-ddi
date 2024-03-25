@@ -33,10 +33,7 @@ api_location:
 - hidpi.h
 api_name: 
 - HidP_UnsetButtons
-product: 
-- Windows
 targetos: Windows
-
 ---
 
 # HidP_UnsetButtons macro

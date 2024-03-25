@@ -73,6 +73,8 @@ A pointer to the caller's driver object.
 
 To ensure that the driver remains loaded while it is registered for PnP notification, this call increments the reference count on *DriverObject*. The PnP manager decrements the reference count when this registration is removed.
 
+For **EventCategoryTargetDeviceChange**, *DriverObject* must not be the driver object of the target device; rather, it should be the driver object of the driver that implements *CallbackRoutine*.
+
 ### -param CallbackRoutine [in]
 
 A pointer to the PnP notification callback routine to be called when the specified PnP event occurs.
@@ -91,9 +93,9 @@ The callback routine's *NotificationStructure* is specific to the *EventCategory
 
 | Event category | Notification structure |
 |---|---|
-| **EventCategoryDeviceInterfaceChange** | [DEVICE_INTERFACE_CHANGE_NOTIFICATION](ns-wdm-_device_interface_change_notification.md) |
-| **EventCategoryHardwareProfileChange** | [HWPROFILE_CHANGE_NOTIFICATION](ns-wdm-_hwprofile_change_notification.md) |
-| **EventCategoryTargetDeviceChange** | [TARGET_DEVICE_REMOVAL_NOTIFICATION](ns-wdm-_target_device_removal_notification.md) |
+| **EventCategoryDeviceInterfaceChange** | [**DEVICE_INTERFACE_CHANGE_NOTIFICATION**](ns-wdm-_device_interface_change_notification.md) |
+| **EventCategoryHardwareProfileChange** | [**HWPROFILE_CHANGE_NOTIFICATION**](ns-wdm-_hwprofile_change_notification.md) |
+| **EventCategoryTargetDeviceChange** | [**TARGET_DEVICE_REMOVAL_NOTIFICATION**](ns-wdm-_target_device_removal_notification.md)<br><br>For more information, see [Using PnP Notification](/windows-hardware/drivers/kernel/using-pnp-custom-notification) and [**TARGET_DEVICE_CUSTOM_NOTIFICATION**](ns-wdm-_target_device_custom_notification.md). |
 
 The callback routine's *Context* parameter contains the context data the driver supplied during registration.
 
@@ -117,7 +119,7 @@ A pointer to an opaque value returned by this call that identifies the registrat
 
 A driver registers for an event category. Each category includes one or more types of PnP events.
 
-A driver can register different callback routines for different event categories or can register a single callback routine. A single callback routine can cast the *NotificationStructure* to a [PLUGPLAY_NOTIFICATION_HEADER](ns-wdm-_plugplay_notification_header.md) and use the **Event** field to determine the exact type of the notification structure.
+A driver can register different callback routines for different event categories or can register a single callback routine. A single callback routine can cast the *NotificationStructure* to a [**PLUGPLAY_NOTIFICATION_HEADER**](ns-wdm-_plugplay_notification_header.md) and use the **Event** field to determine the exact type of the notification structure.
 
 If the caller specifies PNPNOTIFY_DEVICE_INTERFACE_INCLUDE_EXISTING_INTERFACES, the operating system might call the PnP notification callback routine twice for a single **EventCategoryDeviceInterfaceChange** event for an existing interface. You can safely ignore the second call to the callback. The operating system will not call the callback more than twice for a single event.
 
@@ -156,6 +158,8 @@ NTSTATUS
 The **DRIVER_NOTIFICATION_CALLBACK_ROUTINE** function type is defined in the Wdm.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the *Use_decl_annotations* annotation to your function definition. The *Use_decl_annotations* annotation ensures that the annotations that are applied to the DRIVER_NOTIFICATION_CALLBACK_ROUTINE function type in the header file are used. For more information about the requirements for function declarations, see [Declaring Functions by Using Function Role Types for WDM Drivers](/windows-hardware/drivers/devtest/declaring-functions-using-function-role-types-for-wdm-drivers). For information about `_Use_decl_annotations_`, see [Annotating Function Behavior](/visualstudio/code-quality/annotating-function-behavior).
 
 ## -see-also
+
+[Using PnP Notification](/windows-hardware/drivers/kernel/using-pnp-custom-notification)
 
 [**DEVICE_INTERFACE_CHANGE_NOTIFICATION**](ns-wdm-_device_interface_change_notification.md)
 

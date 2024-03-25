@@ -39,8 +39,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETROOTPAGETABLE
-product:
- - Windows
 ---
 
 # DXGKDDI_SETROOTPAGETABLE callback function

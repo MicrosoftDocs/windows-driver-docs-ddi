@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXGK_GAMMA_DATA_TYPE
  - DXGK_GAMMA_DATA_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

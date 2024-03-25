@@ -35,8 +35,6 @@ api_location:
  - fltkernel.h
 api_name:
  - FltRetrieveFileInfoOnCreateCompletion
-product:
- - Windows
 ---
 
 # FltRetrieveFileInfoOnCreateCompletion function

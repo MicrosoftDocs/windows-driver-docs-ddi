@@ -37,8 +37,6 @@ api_name:
  - _KBUGCHECK_REMOVE_PAGES
  - PKBUGCHECK_REMOVE_PAGES
  - KBUGCHECK_REMOVE_PAGES
-product:
- - Windows
 ---
 
 # KBUGCHECK_REMOVE_PAGES structure

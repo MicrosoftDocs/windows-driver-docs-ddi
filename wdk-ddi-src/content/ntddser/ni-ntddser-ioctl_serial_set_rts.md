@@ -53,6 +53,8 @@ A client can use an <a href="/windows-hardware/drivers/ddi/ntddser/ni-ntddser-io
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

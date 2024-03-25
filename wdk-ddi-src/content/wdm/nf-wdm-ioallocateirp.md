@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The **IoAllocateIrp** routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller. See also [**IsAllocateIrpEx**](./nf-wdm-ioallocateirpex.md).
+The **IoAllocateIrp** routine allocates an IRP, given the number of I/O stack locations for each driver layered under the caller, and, optionally, for the caller. See also [**IoAllocateIrpEx**](./nf-wdm-ioallocateirpex.md).
 
 ## -parameters
 

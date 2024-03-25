@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_QUERYENGINESTATUS
-product:
- - Windows
 ---
 
 # DXGKDDI_QUERYENGINESTATUS callback function

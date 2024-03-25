@@ -34,8 +34,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - RtlQueryPackageIdentity
-product:
- - Windows
 ---
 
 # RtlQueryPackageIdentity function

@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_LISTEN_DRIVER_REQUEST</b> control code is used by the GNSS dri
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

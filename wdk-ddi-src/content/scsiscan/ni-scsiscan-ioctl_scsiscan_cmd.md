@@ -49,6 +49,8 @@ Creates a customized SCSI control descriptor block (CDB) and sends it to the ker
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a **SCSISCAN_CMD** structure.

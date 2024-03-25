@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILUICCKEYREF
-req.product: Windows 10 or later.
 f1_keywords:
  - RILUICCKEYREF
  - rilapitypes/RILUICCKEYREF

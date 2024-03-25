@@ -49,6 +49,8 @@ Returns an authentication grant ID (AGID) as a DVD session ID, which a caller mu
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_DESTROYPROTECTEDSESSION
-product:
- - Windows
 ---
 
 # DXGKDDI_DESTROYPROTECTEDSESSION callback function

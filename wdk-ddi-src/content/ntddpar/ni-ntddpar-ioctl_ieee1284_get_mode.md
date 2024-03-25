@@ -57,6 +57,8 @@ For more information, see <a href="/previous-versions/ff544797(v=vs.85)">Setting
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -37,8 +37,6 @@ api_name:
  - _DXGK_BRIGHTNESS_SET_IN
  - PDXGK_BRIGHTNESS_SET_IN
  - DXGK_BRIGHTNESS_SET_IN
-product:
- - Windows
 ---
 
 # _DXGK_BRIGHTNESS_SET_IN structure

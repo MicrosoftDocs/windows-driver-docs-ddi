@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _PANEL_BRIGHTNESS_SENSOR_DATA
  - PANEL_BRIGHTNESS_SENSOR_DATA
-product:
- - Windows
 ---
 
 # _PANEL_BRIGHTNESS_SENSOR_DATA structure

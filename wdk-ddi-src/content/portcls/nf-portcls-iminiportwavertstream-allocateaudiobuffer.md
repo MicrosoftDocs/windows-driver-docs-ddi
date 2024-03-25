@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IMiniportWaveRTStream::AllocateAudioBuffer
-product:
- - Windows
 ---
 
 # IMiniportWaveRTStream::AllocateAudioBuffer

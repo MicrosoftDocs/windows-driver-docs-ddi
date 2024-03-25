@@ -31,8 +31,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGK_BRIGHTNESS_INTERFACE_3
-product:
- - Windows
 ---
 
 ## -description

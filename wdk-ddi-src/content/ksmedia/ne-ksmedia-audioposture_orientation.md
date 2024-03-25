@@ -16,8 +16,6 @@ req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 req.umdf-ver: 
-product:
- - Windows
 topic_type:
  - apiref
 api_type:

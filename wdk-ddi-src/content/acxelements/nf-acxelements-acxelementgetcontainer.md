@@ -5,7 +5,7 @@ title: AcxElementGetContainer
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxElementGetContainer function retrieves the associated container for the given ACX element.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

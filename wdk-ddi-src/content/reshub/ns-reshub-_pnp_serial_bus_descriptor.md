@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: PNP_SERIAL_BUS_DESCRIPTOR, *PPNP_SERIAL_BUS_DESCRIPTOR
-req.product: Windows 10 or later.
 f1_keywords:
  - _PNP_SERIAL_BUS_DESCRIPTOR
  - reshub/_PNP_SERIAL_BUS_DESCRIPTOR

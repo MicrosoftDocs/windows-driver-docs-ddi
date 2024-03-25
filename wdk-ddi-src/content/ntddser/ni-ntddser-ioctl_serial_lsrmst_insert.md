@@ -75,6 +75,8 @@ Indicates that the next character in the receive data stream, which was received
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated UCHAR input value to use as the escape character. If the escape character is nonzero, insertion is enabled, and the serial driver uses the specified escape character. Otherwise, insertion is disabled.

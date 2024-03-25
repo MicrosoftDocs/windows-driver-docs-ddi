@@ -38,8 +38,6 @@ api_name:
  - _DXGK_VGPU_PROFILE_CAPABILITY
  - PDXGK_VGPU_PROFILE_CAPABILITY
  - DXGK_VGPU_PROFILE_CAPABILITY
-product:
- - Windows
 dev_langs:
  - c++
 ---

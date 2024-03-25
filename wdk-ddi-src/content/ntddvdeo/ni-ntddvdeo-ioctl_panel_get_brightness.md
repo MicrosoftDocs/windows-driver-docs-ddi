@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_GET_BRIGHTNESS
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_GET_BRIGHTNESS IOCTL
@@ -43,6 +41,8 @@ product:
 Returns the brightness level for the display panel.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

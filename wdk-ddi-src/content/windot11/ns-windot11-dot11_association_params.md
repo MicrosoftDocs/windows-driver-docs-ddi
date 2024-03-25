@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_ASSOCIATION_PARAMS
  - PDOT11_ASSOCIATION_PARAMS
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_ASSOCIATION_PARAMS structure

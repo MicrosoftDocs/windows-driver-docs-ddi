@@ -33,10 +33,7 @@ api_location:
 - hidpi.h
 api_name: 
 - HidP_GetButtonsEx
-product: 
-- Windows
 targetos: Windows
-
 ---
 
 # HidP_GetButtonsEx macro

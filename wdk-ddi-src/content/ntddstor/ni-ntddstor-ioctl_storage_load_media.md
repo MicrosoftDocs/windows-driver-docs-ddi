@@ -49,6 +49,8 @@ Causes media to be loaded in a device that the caller has opened for read or wri
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

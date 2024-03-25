@@ -62,6 +62,10 @@ Uniquely identifies the host router in the system.
 
 Uniquely identifies the USB4 device in the host router domain.
 
+## -remarks
+
+See [Supporting DisplayPort monitors over USB4 in KMD](/windows-hardware/drivers/display/supporting-usb4) for more information.
+
 ## -see-also
 
 [**DXGKARG_QUERYCONNECTIONCHANGE**](ns-d3dkmddi-_dxgkarg_queryconnectionchange.md)

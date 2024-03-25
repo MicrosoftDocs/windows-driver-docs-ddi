@@ -70,7 +70,7 @@ The [**CDROM_PERFORMANCE_EXCEPTION_TYPE**](ne-ntddcdrm-_cdrom_performance_except
 
 The [**CDROM_PERFORMANCE_TOLERANCE_TYPE**](ne-ntddcdrm-_cdrom_performance_tolerance_type.md) enumeration specifies the performance tolerance for the nominal performance and the time tolerance (seek delay) for the exception list.
 
-### -field StartingLba
+### -field StaringLba
 
 The starting logical block address field.
 

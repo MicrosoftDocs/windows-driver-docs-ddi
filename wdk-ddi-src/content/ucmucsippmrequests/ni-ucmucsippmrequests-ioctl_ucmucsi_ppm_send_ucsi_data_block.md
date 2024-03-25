@@ -43,6 +43,8 @@ Sends a UCSI data block to the PPM firmware by using the supported transport.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a [**UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK_IN_PARAMS**](ns-ucmucsippmrequests-_ucmucsi_ppm_send_ucsi_data_block_in_params.md) structure that contains the UCSI data block.

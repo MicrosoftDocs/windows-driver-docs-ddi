@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ENUMPATHTARGETSFROMSOURCE callback function

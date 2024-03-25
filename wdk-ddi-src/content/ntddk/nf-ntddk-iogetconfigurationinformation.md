@@ -45,51 +45,7 @@ The **IoGetConfigurationInformation** routine returns a pointer to the I/O manag
 
 ## -returns
 
-**IoGetConfigurationInformation** returns a pointer to the configuration information structure. This structure is defined as follows:
-
-```cpp
-typedef struct _CONFIGURATION_INFORMATION {
-
-    //
-    // This field indicates the total number of disks in the system. This
-    // number should be used by the driver to determine the names of new
-    // disks. This field should be updated by the driver as it finds new
-    // disks.
-    //
-
-    ULONG DiskCount;                // Count of hard disks thus far
-    ULONG FloppyCount;              // Count of floppy disks thus far
-    ULONG CdRomCount;               // Count of CD-ROM drives thus far
-    ULONG TapeCount;                // Count of tape drives thus far
-    ULONG ScsiPortCount;            // Count of SCSI port adapters thus far
-    ULONG SerialCount;              // Count of serial devices thus far
-    ULONG ParallelCount;            // Count of parallel devices thus far
-
-    //
-    // These next two fields indicate ownership of the two I/O address
-    // spaces that are used by WD1003-compatible disk controllers.
-    //
-
-    BOOLEAN AtDiskPrimaryAddressClaimed;    // 0x1F0 - 0x1FF
-    BOOLEAN AtDiskSecondaryAddressClaimed;  // 0x170 - 0x17F
-
-    //
-    // Indicates the structure version, as anything value beyond this will have been added.
-    // Use the structure size as the version.
-    //
-
-    ULONG Version;
-
-    //
-    // Indicates the total number of medium changer devices in the system.
-    // This field will be updated by the drivers as it determines that
-    // new devices have been found and will be supported.
-    //
-
-    ULONG MediumChangerCount;
-
-} CONFIGURATION_INFORMATION, *PCONFIGURATION_INFORMATION;
-```
+**IoGetConfigurationInformation** returns a pointer to a [**CONFIGURATION_INFORMATION**](ns-ntddk-configuration_information.md) structure.
 
 ## -remarks
 

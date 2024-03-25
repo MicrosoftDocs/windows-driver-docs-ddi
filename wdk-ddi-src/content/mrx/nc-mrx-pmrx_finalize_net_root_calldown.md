@@ -1,10 +1,9 @@
 ---
 UID: NC:mrx.PMRX_FINALIZE_NET_ROOT_CALLDOWN
 title: PMRX_FINALIZE_NET_ROOT_CALLDOWN (mrx.h)
-description: The MRxFinalizeNetRoot routine is called by RDBSS to request that a network mini-redirector finalize a NET_ROOT structure.
-old-location: ifsk\mrxfinalizenetroot.htm
+description: Learn more about the PMRX_FINALIZE_NET_ROOT_CALLDOWN callback function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["PMRX_FINALIZE_NET_ROOT_CALLDOWN callback function"]
 ms.keywords: MRxFinalizeNetRoot, MRxFinalizeNetRoot routine [Installable File System Drivers], PMRX_FINALIZE_NET_ROOT_CALLDOWN, ifsk.mrxfinalizenetroot, mrx/MRxFinalizeNetRoot, mrxref_5f5d7468-3257-4800-99fe-e5e6b7c99e37.xml
 req.header: mrx.h
@@ -42,61 +41,42 @@ api_name:
 
 # PMRX_FINALIZE_NET_ROOT_CALLDOWN callback function
 
-
 ## -description
 
-The<i> MRxFinalizeNetRoot</i> routine is called by <a href="/windows-hardware/drivers/ifs/the-rdbss-driver-and-library">RDBSS</a> to request that a network mini-redirector finalize a NET_ROOT structure.
+The **MRxFinalizeNetRoot** routine is called by [RDBSS](/windows-hardware/drivers/ifs/the-rdbss-driver-and-library) to request that a network mini-redirector finalize a NET_ROOT structure.
 
 ## -parameters
 
 ### -param NetRoot
 
+[in, out] A pointer to the NET_ROOT structure to finalize.
+
 ### -param Force
 
-### -param ForceDisconnect [in]
-
-A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes <b>FALSE</b> for this parameter in all cases.
-
-
-### -param pNetRoot [in, out]
-
-A pointer to the NET_ROOT structure to finalize.
+[in] A pointer to a Boolean value that indicates if the disconnect is to be forced. RDBSS currently passes **FALSE** for this parameter in all cases.
 
 ## -returns
 
-<i>MRxFinalizeNetRoot</i> returns STATUS_SUCCESS on success.
+**MRxFinalizeNetRoot** returns STATUS_SUCCESS on success.
 
 ## -remarks
 
-<i>MRxFinalizeNetRoot</i> is called by RDBSS when RDBSS finalizes a NET_ROOT structure. Because a NET_ROOT structure is always associated with one or more V_NET_ROOT structures, this finalization normally occurs when the last V_NET_ROOT structure on the NET_ROOT structure is finalized. 
+**MRxFinalizeNetRoot** is called by RDBSS when RDBSS finalizes a NET_ROOT structure. Because a NET_ROOT structure is always associated with one or more V_NET_ROOT structures, this finalization normally occurs when the last V_NET_ROOT structure on the NET_ROOT structure is finalized.
 
-RDBSS ignores the return value from <i>MRxFinalizeNetRoot</i>.
+RDBSS ignores the return value from **MRxFinalizeNetRoot**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_srvcall">MRxCreateSrvCall</a>
+[**MRxCreateSrvCall**](nc-mrx-pmrx_create_srvcall.md)
 
+[**MRxCreateVNetRoot**](nc-mrx-pmrx_create_v_net_root.md)
 
+[**MRxExtractNetRootName**](nc-mrx-pmrx_extract_netroot_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_create_v_net_root">MRxCreateVNetRoot</a>
+[**MRxFinalizeSrvCall**](nc-mrx-pmrx_finalize_srvcall_calldown.md)
 
+[**MRxFinalizeVNetRoot**](nc-mrx-pmrx_finalize_v_net_root_calldown.md)
 
+[**MRxPreparseName**](nc-mrx-pmrx_preparse_name.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_extract_netroot_name">MRxExtractNetRootName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_srvcall_calldown">MRxFinalizeSrvCall</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_finalize_v_net_root_calldown">MRxFinalizeVNetRoot</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_preparse_name">MRxPreparseName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_srvcall_winner_notify">MRxSrvCallWinnerNotify</a>
-
+[**MRxSrvCallWinnerNotify**](nc-mrx-pmrx_srvcall_winner_notify.md)

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_RECOMMENDFUNCTIONALVIDPN
-product:
- - Windows
 ---
 
 # DXGKDDI_RECOMMENDFUNCTIONALVIDPN callback function

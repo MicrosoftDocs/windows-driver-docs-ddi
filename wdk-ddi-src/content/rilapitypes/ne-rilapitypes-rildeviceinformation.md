@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILDEVICEINFORMATION
-req.product: Windows 10 or later.
 f1_keywords:
  - RILDEVICEINFORMATION
  - rilapitypes/RILDEVICEINFORMATION

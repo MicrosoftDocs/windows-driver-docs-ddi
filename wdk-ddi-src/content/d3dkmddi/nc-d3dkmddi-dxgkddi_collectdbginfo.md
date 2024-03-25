@@ -37,8 +37,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_COLLECTDBGINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_COLLECTDBGINFO callback function

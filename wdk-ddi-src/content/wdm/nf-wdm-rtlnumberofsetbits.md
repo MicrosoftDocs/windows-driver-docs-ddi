@@ -53,7 +53,7 @@ The <b>RtlNumberOfSetBits</b> routine returns a count of the set bits in a given
 ### -param BitMapHeader [in]
 
 
-A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
+A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
 ## -returns
 
@@ -65,7 +65,7 @@ Callers of <b>RtlNumberOfSetBits</b> must be running at IRQL <= APC_LEVEL if the
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
+<a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a>
 
 
 

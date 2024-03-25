@@ -119,6 +119,7 @@ The following table shows the speaker configurations that are defined for Direct
 |  | SPEAKER_BACK_RIGHT |
 | KSAUDIO_SPEAKER_5POINT1_SURROUND | SPEAKER_FRONT_LEFT |
 |  | SPEAKER_FRONT_RIGHT |
+|  | SPEAKER_FRONT_CENTER |
 |  | SPEAKER_LOW_FREQUENCY |
 |  | SPEAKER_SIDE_LEFT |
 |  | SPEAKER_SIDE_RIGHT |

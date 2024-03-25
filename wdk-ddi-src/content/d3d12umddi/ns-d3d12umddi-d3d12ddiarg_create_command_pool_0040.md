@@ -31,8 +31,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDIARG_CREATE_COMMAND_POOL_0040
-product:
- - Windows
 ---
 
 # D3D12DDIARG_CREATE_COMMAND_POOL_0040 structure

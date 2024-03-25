@@ -49,6 +49,8 @@ Plays the specified range of the media. Obsolete, beginning with Windows Vista.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_play_audio_msf">CDROM_PLAY_AUDIO_MSF</a> structure in the buffer at <i>Irp->AssociatedIrp.System</i> contains the starting and ending MSF values.

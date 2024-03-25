@@ -49,6 +49,8 @@ Sets the value of a control register defined as per the Universal Serial Bus Typ
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/ucmtcpciportcontrollerrequests/ns-ucmtcpciportcontrollerrequests-_ucmtcpci_port_controller_set_control_in_params">UCMTCPCI_PORT_CONTROLLER_SET_CONTROL_IN_PARAMS</a> structure that contains the type of register and the value to set.

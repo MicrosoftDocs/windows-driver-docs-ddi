@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IMiniport::DataRangeIntersection
-product:
- - Windows
 ---
 
 # IMiniport::DataRangeIntersection

@@ -25,7 +25,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: PrintSchemaSelectionType
-req.product: Windows 10 or later.
 f1_keywords:
  - IPrinterExtensionContextCollection::get__NewEnum
  - printerextension/IPrinterExtensionContextCollection::get__NewEnum

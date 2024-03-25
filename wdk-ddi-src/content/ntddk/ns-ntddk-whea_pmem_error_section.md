@@ -38,8 +38,6 @@ api_name:
  - _WHEA_PMEM_ERROR_SECTION
  - PWHEA_PMEM_ERROR_SECTION
  - WHEA_PMEM_ERROR_SECTION
-product:
- - Windows
 ---
 
 # WHEA_PMEM_ERROR_SECTION structure

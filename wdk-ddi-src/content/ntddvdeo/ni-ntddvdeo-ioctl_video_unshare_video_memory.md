@@ -49,6 +49,8 @@ Unmaps a video hardware frame buffer and video RAM from the virtual address spac
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_share_memory">VIDEO_SHARE_MEMORY</a> structure specifying the process and the virtual address where the video memory is mapped. The memory is unmapped by calling <a href="/windows-hardware/drivers/ddi/video/nf-video-videoportunmapmemory">VideoPortUnmapMemory</a>.

@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_DESTROY_PIPELINE_STATE
-product:
- - Windows
 dev_langs:
  - c++
 ---

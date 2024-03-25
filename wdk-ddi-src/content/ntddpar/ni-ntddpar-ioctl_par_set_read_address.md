@@ -55,6 +55,8 @@ The IOCTL_PAR_SET_READ_ADDRESS request sets an extended capabilities port (ECP) 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a UCHAR buffer that the client allocates to input a read address. The request sets the buffer to an ECP or EPP read address.

@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DDDITEXTUREFILTERTYPE
  - D3DDDITEXTUREFILTERTYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

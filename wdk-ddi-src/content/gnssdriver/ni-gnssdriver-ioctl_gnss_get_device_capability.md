@@ -49,6 +49,8 @@ The IOCTL_GNSS_GET_DEVICE_CAPABILITY control code is used by the GNSS adapter to
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

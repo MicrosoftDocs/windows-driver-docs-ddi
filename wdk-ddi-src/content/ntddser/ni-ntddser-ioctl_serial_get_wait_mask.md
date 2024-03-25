@@ -53,6 +53,8 @@ To set an event wait mask, a client can use an <a href="/windows-hardware/driver
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

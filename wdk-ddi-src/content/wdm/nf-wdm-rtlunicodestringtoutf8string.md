@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - RtlUnicodeStringToUTF8String
-product:
- - Windows
 f1_keywords:
  - RtlUnicodeStringToUTF8String
  - wdm/RtlUnicodeStringToUTF8String

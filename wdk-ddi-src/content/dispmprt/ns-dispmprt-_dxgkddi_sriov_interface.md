@@ -38,8 +38,6 @@ api_name:
  - _DXGKDDI_SRIOV_INTERFACE
  - PDXGKDDI_SRIOV_INTERFACE
  - DXGKDDI_SRIOV_INTERFACE
-product:
- - Windows
 dev_langs:
  - c++
 ---

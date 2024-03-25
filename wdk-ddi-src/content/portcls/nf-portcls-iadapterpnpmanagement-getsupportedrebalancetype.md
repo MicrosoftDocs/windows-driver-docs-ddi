@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IAdapterPnpManagement::GetSupportedRebalanceType
-product:
- - Windows
 ---
 
 # IAdapterPnpManagement::GetSupportedRebalanceType

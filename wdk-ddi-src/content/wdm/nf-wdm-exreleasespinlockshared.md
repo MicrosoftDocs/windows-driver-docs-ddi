@@ -26,7 +26,6 @@ req.dll:
 req.irql: DISPATCH_LEVEL (See Remarks.)
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
 f1_keywords:
  - ExReleaseSpinLockShared
  - wdm/ExReleaseSpinLockShared

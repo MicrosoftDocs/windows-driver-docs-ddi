@@ -34,8 +34,6 @@ api_location:
 api_name:
  - BRIGHTNESS_NIT_RANGES
  - PBRIGHTNESS_NIT_RANGES
-product:
- - Windows
 ---
 
 # BRIGHTNESS_NIT_RANGES structure

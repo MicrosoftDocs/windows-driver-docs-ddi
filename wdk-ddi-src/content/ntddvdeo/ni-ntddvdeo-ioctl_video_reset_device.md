@@ -49,6 +49,8 @@ Resets the video hardware to the default mode, to which it was initialized at sy
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

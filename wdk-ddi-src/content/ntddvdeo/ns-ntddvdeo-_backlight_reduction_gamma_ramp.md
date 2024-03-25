@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _BACKLIGHT_REDUCTION_GAMMA_RAMP
  - BACKLIGHT_REDUCTION_GAMMA_RAMP
-product:
- - Windows
 ---
 
 # _BACKLIGHT_REDUCTION_GAMMA_RAMP structure

@@ -5,7 +5,7 @@ title: AcxCircuitInitAssignCategories
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitAssignCategories function assigns a set of KSCATERGORY entries for the ACXCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxTargetCircuitGetElementsCount
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetElementsCount function returns the count of ACX elements on the remote target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

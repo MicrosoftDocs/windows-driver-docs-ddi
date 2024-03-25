@@ -62,10 +62,7 @@ A driver registers an <i>EvtDriverUnload</i> callback function when it calls [**
 
 The <i>EvtDriverUnload</i> callback function must deallocate any non-device-specific system resources that the driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine allocated.
 
-The framework does not call a driver's 
-    <i>EvtDriverUnload</i> callback function if the driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine returns an error status value.
-
-You must declare the function by using the EVT_WDF_DRIVER_UNLOAD type. For more information, see the following Example section.
+The framework does not call a driver's <i>EvtDriverUnload</i> callback function if the driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> routine returns an error status value.
 
 ## -see-also
 

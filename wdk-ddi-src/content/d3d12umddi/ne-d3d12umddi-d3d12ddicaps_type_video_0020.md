@@ -39,8 +39,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - D3D12DDICAPS_TYPE_VIDEO_0020
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
-title: _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN (d3dkmthk.h)
-description: The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-history operation.
+title: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN (d3dkmthk.h)
+description: Learn more about the D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure.
 old-location: display\d3dkmt_flipmodel_presenthistorytoken.htm
 ms.date: 05/10/2018
 keywords: ["D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure"]
@@ -9,7 +9,7 @@ ms.keywords: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN, D3DKMT_FLIPMODEL_PRESENTHISTO
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
-req.target-min-winverclnt: D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN is Supported starting with the Windows 7 operating system.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,22 +43,21 @@ api_name:
  - D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN
 ---
 
-# _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure
-
+# D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure
 
 ## -description
 
-The D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN structure identifies a flip present-history operation.
+The **D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN** structure identifies a flip present-history operation.
 
 ## -struct-fields
 
-### -field FenceValue [in]
+### -field FenceValue
 
-A 64-bit value that specifies the fence value that is used for the flip.
+[in] A 64-bit value that specifies the fence value that is used for the flip.
 
-### -field hLogicalSurface [in]
+### -field hLogicalSurface
 
-A 64-bit value that specifies the handle to a logical surface.
+[in] A 64-bit value that specifies the handle to a logical surface.
 
 ### -field dxgContext
 
@@ -68,21 +67,21 @@ The DirectX graphics context.
 
 The zero-based identification number of the video present source in a path of a video present network (VidPN) topology that the monitor is connected to.
 
-### -field SwapChainIndex [in]
+### -field SwapChainIndex
 
-The index of the surface in the swap chain that is used for the flip.
+[in] The index of the surface in the swap chain that is used for the flip.
 
-### -field PresentLimitSemaphoreId [in]
+### -field PresentLimitSemaphoreId
 
-A 64-bit value that identifies the present-limit semaphore.
+[in] A 64-bit value that identifies the present-limit semaphore.
 
-### -field FlipInterval [in]
+### -field FlipInterval
 
-A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
+[in] A [**D3DDDI_FLIPINTERVAL_TYPE**](../d3dukmdt/ne-d3dukmdt-d3dddi_flipinterval_type.md)-typed value that indicates the flip interval (that is, if the flip occurs after zero, one, two, three, or four vertical syncs).
 
-### -field Flags [in]
+### -field Flags
 
-A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a> structure that identifies, in bit-field flags, attributes of a flip present-history operation.
+[in] A [**D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS**](ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md) structure that identifies, in bit-field flags, attributes of a flip present-history operation.
 
 ### -field hCompSurf
 
@@ -182,9 +181,9 @@ The target rectangle.
 
 The color space of the data.
 
-### -field DirtyRegions [in]
+### -field DirtyRegions
 
-A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a> structure that identifies the active rectangles (dirty regions) of the flip surface.
+[in] A [**D3DKMT_DIRTYREGIONS**](ns-d3dkmthk-_d3dkmt_dirtyregions.md) structure that identifies the active rectangles (dirty regions) of the flip surface.
 
 ### -field HDRMetaDataHDR10
 
@@ -192,45 +191,12 @@ A <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS<
 
 ### -field HDRMetaDataType
 
-## -syntax
-
-```cpp
-typedef struct _D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN {
-  UINT64                                    FenceValue;
-  ULONG64                                   hLogicalSurface;
-  UINT                                      SwapChainIndex;
-  UINT64                                    PresentLimitSemaphoreId;
-  D3DDDI_FLIPINTERVAL_TYPE                  FlipInterval;
-  D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS Flags;
-#if (DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WIN8)
-  LONG64                                    hCompSurf;
-  UINT64                                    CompositionSyncKey;
-  UINT                                      RemainingTokens;
-  RECT                                      ScrollRect;
-  POINT                                     ScrollOffset;
-  UINT                                      PresentCount;
-  FLOAT                                     RevealColor[4];
-  D3DDDI_ROTATION                           Rotation;
-  D3DKMT_SCATTERBLTS                        ScatterBlts;
-  D3DKMT_HANDLE                             hSyncObject;
-#endif
-  D3DKMT_DIRTYREGIONS                       DirtyRegions;
-} D3DKMT_FLIPMODEL_PRESENTHISTORYTOKEN;
-```
-
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md">D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS</a>
+[**D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS**](ns-d3dkmthk-_d3dkmt_flipmodel_presenthistorytokenflags.md)
 
+[**D3DDDI_FLIPINTERVAL_TYPE**](..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md)
 
+[**D3DKMT_PRESENTHISTORYTOKEN**](ns-d3dkmthk-_d3dkmt_presenthistorytoken.md)
 
-<a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_flipinterval_type.md">D3DDDI_FLIPINTERVAL_TYPE</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_presenthistorytoken.md">D3DKMT_PRESENTHISTORYTOKEN</a>
-
-
-
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_dirtyregions.md">D3DKMT_DIRTYREGIONS</a>
-
+[**D3DKMT_DIRTYREGIONS**](ns-d3dkmthk-_d3dkmt_dirtyregions.md)

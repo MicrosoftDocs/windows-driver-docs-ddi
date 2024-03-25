@@ -42,13 +42,16 @@ api_name:
 
 # FsRtlNumberOfRunsInMcb function
 
-
 ## -description
 
-The <b>FsRtlNumberOfRunsInMcb</b> routine is obsolete, but is exported to support existing driver binaries. Use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a> instead.
+The **FsRtlNumberOfRunsInMcb** routine is obsolete, but is exported to support existing driver binaries. Use [**FsRtlNumberOfRunsInLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md) instead.
 
 ## -parameters
 
 ### -param Mcb
 
-<p>Reserved.</p>
+Reserved.
+
+## -returns
+
+Reserved.

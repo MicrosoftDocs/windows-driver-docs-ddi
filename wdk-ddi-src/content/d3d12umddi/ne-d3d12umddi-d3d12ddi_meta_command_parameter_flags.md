@@ -29,8 +29,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_META_COMMAND_PARAMETER_FLAGS
-product:
- - Windows
 dev_langs:
  - c++
 ---

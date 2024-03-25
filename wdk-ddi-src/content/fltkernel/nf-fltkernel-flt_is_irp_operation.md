@@ -44,30 +44,28 @@ helpviewer_keywords:
 
 ## -description
 
-The FLT\_IS\_IRP\_OPERATION macro determines whether the given callback data structure represents an I/O request packet (IRP)-based I/O operation.
+The **FLT_IS_IRP_OPERATION** macro determines whether the given callback data structure represents an I/O request packet (IRP)-based I/O operation.
 
 ## -parameters
 
 ### -param Data
 
-[in] A pointer to a callback data ([**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
-
-## -returns
-
-FLT\_IS\_IRP\_OPERATION returns a nonzero value if the IRP operation flag is set in the callback data structure. Otherwise, it returns zero.
+[in] A pointer to a callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
 
 ## -remarks
 
-The FLT\_IS\_IRP\_OPERATION macro checks whether the FLTFL\_CALLBACK\_DATA\_IRP\_OPERATION bit is set in the **Flags** member of the [**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md) structure that the *Data* parameter points to. Thus, the return type of **FLT\_IS\_IRP\_OPERATION** is of the same type as the **Flags** member.
+**FLT_IS_IRP_OPERATION** returns a nonzero value if the IRP operation flag is set in the callback data structure. Otherwise, it returns zero.
+
+The **FLT_IS_IRP_OPERATION** macro checks whether the **FLTFL_CALLBACK_DATA_IRP_OPERATION** bit is set in the **Flags** member of the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure that the **Data** parameter points to. Thus, the return type of **FLT_IS_IRP_OPERATION** is of the same type as the **Flags** member.
 
 ## -see-also
 
-[**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
-[**FLT\_IS\_FASTIO\_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
+[**FLT_IS_FASTIO_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
 
-[**FLT\_IS\_FS\_FILTER\_OPERATION**](nf-fltkernel-flt_is_fs_filter_operation.md)
+[**FLT_IS_FS_FILTER_OPERATION**](nf-fltkernel-flt_is_fs_filter_operation.md)
 
-[**FLT\_IS\_REISSUED\_IO**](nf-fltkernel-flt_is_reissued_io.md)
+[**FLT_IS_REISSUED_IO**](nf-fltkernel-flt_is_reissued_io.md)
 
-[**FLT\_IS\_SYSTEM\_BUFFER**](nf-fltkernel-flt_is_system_buffer.md)
+[**FLT_IS_SYSTEM_BUFFER**](nf-fltkernel-flt_is_system_buffer.md)

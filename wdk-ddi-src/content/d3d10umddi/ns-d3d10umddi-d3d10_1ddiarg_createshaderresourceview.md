@@ -59,7 +59,7 @@ A DXGI_FORMAT-typed value that indicates the pixel format of the view.
 
 ### -field ResourceDimension [in]
 
-A [**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)-typed value that indicates the resource type and dimensionality.
+A [**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)-typed value that indicates the resource type and dimensionality.
 
 ### -field Buffer [in]
 
@@ -101,4 +101,4 @@ If the value in the **ResourceDimension** member is set to D3D10DDIRESOURCE_TEXT
 
 [**D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW**](ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md)
 
-[**D3D10DDIRESOURCE_TYPE**](/windows-hardware/drivers/display/ne-d3d10umddi-d3d10ddiresource_type)
+[**D3D10DDIRESOURCE_TYPE**](ne-d3d10umddi-d3d10ddiresource_type.md)

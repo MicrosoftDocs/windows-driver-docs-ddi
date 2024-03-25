@@ -5,7 +5,7 @@ title: AcxStreamInitAssignProperties
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitAssignProperties function assigns an array of properties to a stream using an ACXSTREAM_INIT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

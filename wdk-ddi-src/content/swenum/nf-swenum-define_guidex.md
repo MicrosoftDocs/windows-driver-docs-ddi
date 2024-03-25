@@ -36,8 +36,6 @@ api_location:
  - swenum.h
 api_name:
  - DEFINE_GUIDEX
-product:
- - Windows
 ---
 
 # DEFINE_GUIDEX function

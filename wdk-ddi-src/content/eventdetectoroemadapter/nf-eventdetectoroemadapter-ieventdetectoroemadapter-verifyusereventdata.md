@@ -36,8 +36,6 @@ api_location:
  - eventdetectoroemadapter.h
 api_name:
  - IEventDetectorOemAdapter::VerifyUserEventData
-product:
- - Windows
 ---
 
 # IEventDetectorOemAdapter::VerifyUserEventData

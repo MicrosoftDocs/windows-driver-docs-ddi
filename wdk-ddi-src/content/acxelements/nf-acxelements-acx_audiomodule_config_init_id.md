@@ -5,7 +5,7 @@ title: ACX_AUDIOMODULE_CONFIG_INIT_ID
 ms.date: 04/29/2022
 targetos: Windows
 description: As the ACX_AUDIOMODULE_CONFIG_INIT_ID provides the same functionality as ACX_AUDIOMODULE_CONFIG_INIT, the use of ACX_AUDIOMODULE_CONFIG_INIT is recommended.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

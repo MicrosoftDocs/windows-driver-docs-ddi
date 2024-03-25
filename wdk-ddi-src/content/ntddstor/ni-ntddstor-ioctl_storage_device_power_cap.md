@@ -49,6 +49,8 @@ A driver can use **IOCTL_STORAGE_DEVICE_POWER_CAP** to specify a maximum operati
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 [**Irp->AssociatedIrp.SystemBuffer**](../wdm/ns-wdm-_irp.md) contains a [**STORAGE_DEVICE_POWER_CAP**](ns-ntddstor-_storage_device_power_cap.md) structure that specifies the maximum power.

@@ -49,6 +49,8 @@ The **IOCTL_SCSISCAN_GET_INFO** I/O control code returns device information.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

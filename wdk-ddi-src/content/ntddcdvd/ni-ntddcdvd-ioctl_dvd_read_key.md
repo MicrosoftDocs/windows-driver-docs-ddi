@@ -49,6 +49,8 @@ Returns a copy-protection key of the specified type: challenge key, bus key, tit
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_dvd_copy_protect_key">DVD_COPY_PROTECT_KEY</a> structure that indicates the session ID of the DVD session and the type of key to return.

@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: POS_CX_EVENT_DEST
-req.product: Windows 10 or later.
 f1_keywords:
  - _POS_CX_EVENT_DEST
  - poscx/_POS_CX_EVENT_DEST

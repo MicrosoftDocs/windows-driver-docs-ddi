@@ -10,7 +10,7 @@ ms.keywords: "*PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFL
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

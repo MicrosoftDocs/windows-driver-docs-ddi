@@ -51,6 +51,8 @@ To obtain the performance statistics, a client can use an <a href="/windows-hard
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

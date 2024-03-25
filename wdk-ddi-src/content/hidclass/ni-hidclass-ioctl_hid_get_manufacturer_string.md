@@ -50,6 +50,8 @@ For general information about HIDClass devices see [HID Collections](/windows-ha
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 **Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer. If the output buffer is not large enough to hold the entire NULL-terminated embedded string, the request returns nothing in the output buffer.

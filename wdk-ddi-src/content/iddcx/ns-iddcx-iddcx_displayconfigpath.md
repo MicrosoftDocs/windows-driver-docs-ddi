@@ -33,8 +33,6 @@ api_location:
  - iddcx.h
 api_name:
  - IDDCX_DISPLAYCONFIGPATH
-product:
- - Windows
 dev_langs:
  - c++
 ---
@@ -53,7 +51,7 @@ Size, in bytes, of this structure.
 
 ### -field MonitorObject
 
-Monitor object handle that the driver provides to identify the monitor this path is targeted at.
+An [**IDDCX_MONITOR**](/windows-hardware/drivers/display/iddcx-objects) object handle that the driver provides to identify the monitor this path is targeted at.
 
 ### -field Position
 
@@ -80,7 +78,7 @@ The V Sync divider value for the specified **RefreshRate**.
 
 ### -field MonitorScaleFactor
 
-The requested monitor DPI for this path. Note that this value is just a hint and OS may override the value to ensure the DPI configuration of the session is valid. Valid values are 100 to 500 inclusive.
+The requested monitor DPI for this path. This value is just a hint and OS may override the value to ensure the DPI configuration of the session is valid. Valid values are 100 to 500 inclusive.
 
 ### -field PhysicalWidthOverride
 

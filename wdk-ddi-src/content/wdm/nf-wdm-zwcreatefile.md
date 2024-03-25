@@ -4,6 +4,7 @@ title: ZwCreateFile function (wdm.h)
 description: The ZwCreateFile routine creates a new file or opens an existing file.
 tech.root: kernel
 ms.date: 12/14/2022
+author: lorihollasch
 keywords: ["ZwCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
 req.header: wdm.h

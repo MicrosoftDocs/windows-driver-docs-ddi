@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER, *PPCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER
  - wdm/_PCI_EXPRESS_ENHANCED_CAPABILITY_HEADER

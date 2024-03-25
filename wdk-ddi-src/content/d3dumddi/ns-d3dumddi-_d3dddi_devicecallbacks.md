@@ -1,16 +1,15 @@
 ---
 UID: NS:d3dumddi._D3DDDI_DEVICECALLBACKS
-title: _D3DDDI_DEVICECALLBACKS (d3dumddi.h)
-description: The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
-old-location: display\d3dddi_devicecallbacks.htm
+title: D3DDDI_DEVICECALLBACKS (d3dumddi.h)
+description: Learn more about the D3DDDI_DEVICECALLBACKS structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 10/12/2023
 keywords: ["D3DDDI_DEVICECALLBACKS structure"]
 ms.keywords: D3DDDI_DEVICECALLBACKS, D3DDDI_DEVICECALLBACKS structure [Display Devices], D3D_other_Structs_a835da78-4f70-4fc5-9f0f-43cef61bd304.xml, _D3DDDI_DEVICECALLBACKS, d3dumddi/D3DDDI_DEVICECALLBACKS, display.d3dddi_devicecallbacks
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,12 +42,11 @@ api_name:
  - D3DDDI_DEVICECALLBACKS
 ---
 
-# _D3DDDI_DEVICECALLBACKS structure
-
+# D3DDDI_DEVICECALLBACKS structure
 
 ## -description
 
-The D3DDDI_DEVICECALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
+The **D3DDDI_DEVICECALLBACKS** structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
 
 ## -struct-fields
 
@@ -136,7 +134,7 @@ A pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizatio
 
 A pointer to the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setasynccallbackscb.md">pfnSetAsyncCallbacksCb</a> function that the user-mode display driver uses to notify the Direct3D runtime whether the runtime will start or stop receiving calls to the runtime's callback functions from a worker thread.
 
-Only DirectX 9 and Direct 9L versions of the runtime support the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setasynccallbackscb.md">pfnSetAsyncCallbacksCb</a> function. DirectX 10 and later versions of the runtime set the <b>pfnSetAsyncCallbacksCb</b> member to <b>NULL</b> when the runtime calls the user-mode display driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create a rendering device.
+Only DirectX 9 and Direct 9L versions of the runtime support the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setasynccallbackscb.md">pfnSetAsyncCallbacksCb</a> function. DirectX 10 and later versions of the runtime set the **pfnSetAsyncCallbacksCb** member to NULL when the runtime calls the user-mode display driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a> function to create a rendering device.
 
 ### -field pfnSetDisplayPrivateDriverFormatCb
 
@@ -314,266 +312,16 @@ A pointer to a [PFND3DDDI_SUBMITSIGNALSYNCOBJECTSTOHWQUEUECB](nc-d3dumddi-pfnd3d
 
 ### -field pfnSubmitPresentBltToHwQueueCb
 
-A [PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresentblttohwqueuecb.md) callback function.
+A pointer to a [PFND3DDDI_SUBMITPRESENTBLTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresentblttohwqueuecb.md) callback function.
 
-## -syntax
+### -field pfnSubmitPresentToHwQueueCb
 
-```cpp
-typedef struct _D3DDDI_DEVICECALLBACKS {
-  PFND3DDDI_ALLOCATECB                            pfnAllocateCb;
-  PFND3DDDI_DEALLOCATECB                          pfnDeallocateCb;
-  PFND3DDDI_SETPRIORITYCB                         pfnSetPriorityCb;
-  PFND3DDDI_QUERYRESIDENCYCB                      pfnQueryResidencyCb;
-  PFND3DDDI_SETDISPLAYMODECB                      pfnSetDisplayModeCb;
-  PFND3DDDI_PRESENTCB                             pfnPresentCb;
-  PFND3DDDI_RENDERCB                              pfnRenderCb;
-  PFND3DDDI_LOCKCB                                pfnLockCb;
-  PFND3DDDI_UNLOCKCB                              pfnUnlockCb;
-  PFND3DDDI_ESCAPECB                              pfnEscapeCb;
-  PFND3DDDI_CREATEOVERLAYCB                       pfnCreateOverlayCb;
-  PFND3DDDI_UPDATEOVERLAYCB                       pfnUpdateOverlayCb;
-  PFND3DDDI_FLIPOVERLAYCB                         pfnFlipOverlayCb;
-  PFND3DDDI_DESTROYOVERLAYCB                      pfnDestroyOverlayCb;
-  PFND3DDDI_CREATECONTEXTCB                       pfnCreateContextCb;
-  PFND3DDDI_DESTROYCONTEXTCB                      pfnDestroyContextCb;
-  PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB         pfnCreateSynchronizationObjectCb;
-  PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB        pfnDestroySynchronizationObjectCb;
-  PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB        pfnWaitForSynchronizationObjectCb;
-  PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB         pfnSignalSynchronizationObjectCb;
-  PFND3DDDI_SETASYNCCALLBACKSCB                   pfnSetAsyncCallbacksCb;
-  PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB       pfnSetDisplayPrivateDriverFormatCb;
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN8)
-  PFND3DDDI_OFFERALLOCATIONSCB                    pfnOfferAllocationsCb;
-  PFND3DDDI_RECLAIMALLOCATIONSCB                  pfnReclaimAllocationsCb;
-  PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB        pfnCreateSynchronizationObject2Cb;
-  PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB       pfnWaitForSynchronizationObject2Cb;
-  PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB        pfnSignalSynchronizationObject2Cb;
-  PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB            pfnPresentMultiPlaneOverlayCb;
-#endif
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM1_3)
-  PFND3DDDI_LOGUMDMARKERCB                        pfnLogUMDMarkerCb;
-#endif
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_0)
-  PFND3DDDI_MAKERESIDENTCB                        pfnMakeResidentCb;
-  PFND3DDDI_EVICTCB                               pfnEvictCb;
-  PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMCPUCB pfnWaitForSynchronizationObjectFromCpuCb;
-  PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMCPUCB  pfnSignalSynchronizationObjectFromCpuCb;
-  PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTFROMGPUCB pfnWaitForSynchronizationObjectFromGpuCb;
-  PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPUCB  pfnSignalSynchronizationObjectFromGpuCb;
-  PFND3DDDI_CREATEPAGINGQUEUECB                   pfnCreatePagingQueueCb;
-  PFND3DDDI_DESTROYPAGINGQUEUECB                  pfnDestroyPagingQueueCb;
-  PFND3DDDI_LOCK2CB                               pfnLock2Cb;
-  PFND3DDDI_UNLOCK2CB                             pfnUnlock2Cb;
-  PFND3DDDI_INVALIDATECACHECB                     pfnInvalidateCacheCb;
-  PFND3DDDI_RESERVEGPUVIRTUALADDRESSCB            pfnReserveGpuVirtualAddressCb;
-  PFND3DDDI_MAPGPUVIRTUALADDRESSCB                pfnMapGpuVirtualAddressCb;
-  PFND3DDDI_FREEGPUVIRTUALADDRESSCB               pfnFreeGpuVirtualAddressCb;
-  PFND3DDDI_UPDATEGPUVIRTUALADDRESSCB             pfnUpdateGpuVirtualAddressCb;
-  PFND3DDDI_CREATECONTEXTVIRTUALCB                pfnCreateContextVirtualCb;
-  PFND3DDDI_SUBMITCOMMANDCB                       pfnSubmitCommandCb;
-  PFND3DDDI_DEALLOCATE2CB                         pfnDeallocate2Cb;
-  PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTFROMGPU2CB pfnSignalSynchronizationObjectFromGpu2Cb;
-  PFND3DDDI_RECLAIMALLOCATIONS2CB                 pfnReclaimAllocations2Cb;
-  PFND3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATACB pfnGetResourcePresentPrivateDriverDataCb;
-#endif
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM2_1_1)
-  PFND3DDDI_UPDATEALLOCATIONPROPERTYCB            pfnUpdateAllocationPropertyCb;
-#endif
-  PFND3DDDI_OFFERALLOCATIONS2CB                   pfnOfferAllocations2Cb;
-  PFND3DDDI_RECLAIMALLOCATIONS3CB                 pfnReclaimAllocations3Cb;
-} D3DDDI_DEVICECALLBACKS;
-```
+Pointer to a [PFND3DDDI_SUBMITPRESENTTOHWQUEUECB](nc-d3dumddi-pfnd3dddi_submitpresenttohwqueuecb.md) callback function.
+
+### -field pfnSubmitHistorySequenceCb
+
+Pointer to a [PFND3DDDI_SUBMITHISTORYSEQUENCECB](nc-d3dumddi-pfnd3dddi_submithistorysequencecb.md) callback function.
 
 ## -remarks
 
-The following code, from D3dumddi.h, shows the function declarations for the callback functions that the members of <b>D3DDDI_DEVICECALLBACKS</b> point to.
-
-```cpp
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_ALLOCATECB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_ALLOCATE*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_DEALLOCATECB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_DEALLOCATE*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_SETPRIORITYCB)(
-        _In_ HANDLE hDevice, _In_ D3DDDICB_SETPRIORITY*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_QUERYRESIDENCYCB)(
-        _In_ HANDLE hDevice, _Inout_ CONST D3DDDICB_QUERYRESIDENCY*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_SETDISPLAYMODECB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_SETDISPLAYMODE*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_SETDISPLAYPRIVATEDRIVERFORMATCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_PRESENTCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_PRESENT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_RENDERCB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_RENDER*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_LOCKCB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_LOCK*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_UNLOCKCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_UNLOCK*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_ESCAPECB)(
-        _In_ HANDLE hAdapter, _Inout_ CONST D3DDDICB_ESCAPE*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_CREATEOVERLAYCB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_CREATEOVERLAY*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_UPDATEOVERLAYCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_UPDATEOVERLAY*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_FLIPOVERLAYCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_FLIPOVERLAY*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_DESTROYOVERLAYCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_DESTROYOVERLAY*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_CREATECONTEXTCB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_CREATECONTEXT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_DESTROYCONTEXTCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_DESTROYCONTEXT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_CREATESYNCHRONIZATIONOBJECTCB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_CREATESYNCHRONIZATIONOBJECT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_DESTROYSYNCHRONIZATIONOBJECTCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_DESTROYSYNCHRONIZATIONOBJECT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECTCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECTCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_SETASYNCCALLBACKSCB)(
-        _In_ HANDLE hDevice, _In_ BOOL Enable);
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WIN8)
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_CREATESYNCHRONIZATIONOBJECT2CB)(
-        _In_ HANDLE hDevice, _Inout_ D3DDDICB_CREATESYNCHRONIZATIONOBJECT2*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_WAITFORSYNCHRONIZATIONOBJECT2CB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_SIGNALSYNCHRONIZATIONOBJECT2*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_OFFERALLOCATIONSCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_OFFERALLOCATIONS*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_RECLAIMALLOCATIONSCB)(
-        _In_ HANDLE hDevice, _Inout_ CONST D3DDDICB_RECLAIMALLOCATIONS*);
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_PRESENTMULTIPLANEOVERLAYCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_PRESENTMULTIPLANEOVERLAY*);
-#endif
-#if (D3D_UMD_INTERFACE_VERSION >= D3D_UMD_INTERFACE_VERSION_WDDM1_3)
-typedef _Check_return_ HRESULT (APIENTRY CALLBACK *PFND3DDDI_LOGUMDMARKERCB)(
-        _In_ HANDLE hDevice, _In_ CONST D3DDDICB_LOGUMDMARKER*);
-#endif
-```
-
-## -see-also
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobject2cb.md">pfnSignalSynchronizationObject2Cb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_updateoverlaycb.md">pfnUpdateOverlayCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroycontextcb.md">pfnDestroyContextCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb.md">pfnWaitForSynchronizationObject2Cb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_queryresidencycb.md">pfnQueryResidencyCb</a>
-
-
-
-<a href="/previous-versions/ff568895(v=vs.85)">pfnCreateContextCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobjectcb.md">pfnWaitForSynchronizationObjectCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_allocatecb.md">pfnAllocateCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_escapecb.md">pfnEscapeCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplayprivatedriverformatcb.md">pfnSetDisplayPrivateDriverFormatCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_offerallocations2cb.md">pfnOfferAllocations2Cb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setprioritycb.md">pfnSetPriorityCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_presentmultiplaneoverlaycb">pfnPresentMultiPlaneOverlayCb (D3D)</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setdisplaymodecb.md">pfnSetDisplayModeCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroyoverlaycb.md">pfnDestroyOverlayCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroysynchronizationobjectcb.md">pfnDestroySynchronizationObjectCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_setasynccallbackscb.md">pfnSetAsyncCallbacksCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_logumdmarkercb.md">pfnLogUMDMarkerCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_signalsynchronizationobjectcb.md">pfnSignalSynchronizationObjectCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flipoverlaycb.md">pfnFlipOverlayCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobject2cb.md">pfnCreateSynchronizationObject2Cb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createsynchronizationobjectcb.md">pfnCreateSynchronizationObjectCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createoverlaycb.md">pfnCreateOverlayCb</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_presentcb.md">pfnPresentCb</a>
-
+Declarations for the callback functions that **D3DDDI_DEVICECALLBACKS** members point to can be found in *d3dumddi.h*.

@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKCB_SETPOWERCOMPONENTRESIDENCY
-product:
- - Windows
 ---
 
 # DXGKCB_SETPOWERCOMPONENTRESIDENCY callback function

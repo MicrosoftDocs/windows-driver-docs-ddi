@@ -51,6 +51,8 @@ If, however, an application or kernel-mode component must read data from a parti
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Caller inserts the <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_read_plex_input">VOLUME_READ_PLEX_INPUT</a> structure, containing the logical offset, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.

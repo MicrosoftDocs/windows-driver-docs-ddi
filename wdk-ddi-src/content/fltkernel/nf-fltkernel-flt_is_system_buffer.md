@@ -44,21 +44,19 @@ helpviewer_keywords:
 
 ## -description
 
-The FLT\_IS\_SYSTEM\_BUFFER macro tests the system buffer flag in a callback data structure.
+The **FLT_IS_SYSTEM_BUFFER** macro tests the system buffer flag in a callback data structure.
 
 ## -parameters
 
 ### -param Data
 
-[in] Pointer to a callback data ([**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
-
-## -returns
-
-FLT\_IS\_SYSTEM\_BUFFER returns **TRUE** if the system buffer flag is set in the callback data structure; **FALSE** otherwise.
+[in] Pointer to a callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
 
 ## -remarks
 
-The FLT\_IS\_SYSTEM\_BUFFER macro checks whether the system buffer flag (FLTFL\_CALLBACK\_DATA\_SYSTEM\_BUFFER) is set in a callback data ([**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
+**FLT_IS_SYSTEM_BUFFER** returns TRUE if the system buffer flag is set in the callback data structure; FALSE otherwise.
+
+The **FLT_IS_SYSTEM_BUFFER** macro checks whether the system buffer flag (**FLTFL_CALLBACK_DATA_SYSTEM_BUFFER**) is set in a callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure.
 
 The system buffer flag is set in the callback data structure for an I/O operation if the buffer for the operation is allocated from nonpaged pool. If this flag is set, minifilter drivers can assume that the buffer is already locked down and can be accessed safely.
 
@@ -66,12 +64,12 @@ Note that minifilter drivers must never set the system buffer flag.
 
 ## -see-also
 
-[**FLT\_CALLBACK\_DATA**](ns-fltkernel-_flt_callback_data.md)
+[**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)
 
-[**FLT\_IS\_FASTIO\_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
+[**FLT_IS_FASTIO_OPERATION**](nf-fltkernel-flt_is_fastio_operation.md)
 
-[**FLT\_IS\_FS\_FILTER\_OPERATION**](nf-fltkernel-flt_is_fs_filter_operation.md)
+[**FLT_IS_FS_FILTER_OPERATION**](nf-fltkernel-flt_is_fs_filter_operation.md)
 
-[**FLT\_IS\_IRP\_OPERATION**](nf-fltkernel-flt_is_irp_operation.md)
+[**FLT_IS_IRP_OPERATION**](nf-fltkernel-flt_is_irp_operation.md)
 
-[**FLT\_IS\_REISSUED\_IO**](nf-fltkernel-flt_is_reissued_io.md)
+[**FLT_IS_REISSUED_IO**](nf-fltkernel-flt_is_reissued_io.md)

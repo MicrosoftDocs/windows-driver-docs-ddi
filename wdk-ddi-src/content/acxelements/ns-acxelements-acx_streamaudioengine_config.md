@@ -5,7 +5,7 @@ title: ACX_STREAMAUDIOENGINE_CONFIG
 ms.date: 09/02/2021
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CONFIG structure is used to define the audio engine stream configuration.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -51,6 +51,8 @@ A common use for <b>IOCTL_VOLUME_OFFLINE</b> is a case in which one application 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

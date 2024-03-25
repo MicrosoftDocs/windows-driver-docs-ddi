@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_GPUVERSION
  - DXGK_GPUVERSION
-product:
- - Windows
 ---
 
 # _DXGK_GPUVERSION structure

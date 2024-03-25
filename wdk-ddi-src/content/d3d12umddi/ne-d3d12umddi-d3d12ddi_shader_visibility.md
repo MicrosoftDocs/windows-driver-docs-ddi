@@ -24,8 +24,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_SHADER_VISIBILITY
-product:
- - Windows
 f1_keywords:
  - D3D12DDI_SHADER_VISIBILITY
  - d3d12umddi/D3D12DDI_SHADER_VISIBILITY

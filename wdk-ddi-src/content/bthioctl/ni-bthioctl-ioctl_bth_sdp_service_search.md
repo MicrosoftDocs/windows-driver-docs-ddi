@@ -50,6 +50,8 @@ The IOCTL_BTH_SDP_SERVICE_SEARCH request contacts a remote device with an SDP re
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

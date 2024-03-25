@@ -49,6 +49,8 @@ This topic describes <b>IOCTL_DOT4_USER_BASE</b>.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

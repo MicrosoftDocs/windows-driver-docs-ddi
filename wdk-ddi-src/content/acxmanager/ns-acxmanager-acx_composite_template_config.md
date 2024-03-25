@@ -5,7 +5,7 @@ title: ACX_COMPOSITE_TEMPLATE_CONFIG
 ms.date: 04/27/2022
 targetos: Windows
 description: The ACX_COMPOSITE_TEMPLATE_CONFIG structure is used to configure a new ACX composite template object.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

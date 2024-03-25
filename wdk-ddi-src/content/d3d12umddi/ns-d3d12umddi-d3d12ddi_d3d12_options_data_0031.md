@@ -42,7 +42,6 @@ api_name:
 
 # D3D12DDI_D3D12_OPTIONS_DATA_0031 structure
 
-
 ## -description
 
 Display options data.
@@ -101,4 +100,3 @@ The core runtime will no longer remove the command list in response to EndQuery 
 * A COPY_QUEUE_TIMESTAMP query is issued/resolved on a command list type other than COPY.
 
 The runtime allows ID3D12CommandQueue::GetClockCalibration/GetTimestampFrequency on Copy command queues when the capability are set. This API should return timestamps that correspond to what the Copy engine will emit, which in turn should be on the same GPU timeline/frequency with what the existing 3D/Compute engines emit.
-

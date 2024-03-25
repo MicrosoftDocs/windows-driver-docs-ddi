@@ -49,6 +49,8 @@ Increments a reference counter that enables the collection of disk performance s
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

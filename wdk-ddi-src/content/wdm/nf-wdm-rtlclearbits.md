@@ -52,7 +52,7 @@ The <b>RtlClearBits</b> routine sets all bits in the specified range of bits in 
 ### -param BitMapHeader [in]
 
 
-A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
+A pointer to the <a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
 ### -param StartingIndex [in]
 
@@ -78,7 +78,7 @@ Callers of <b>RtlClearBits</b> must be running at IRQL <= APC_LEVEL if the memor
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
+<a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a>
 
 
 

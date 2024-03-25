@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _BACKLIGHT_OPTIMIZATION_LEVEL
  - BACKLIGHT_OPTIMIZATION_LEVEL
-product:
- - Windows
 ---
 
 # _BACKLIGHT_OPTIMIZATION_LEVEL enumeration

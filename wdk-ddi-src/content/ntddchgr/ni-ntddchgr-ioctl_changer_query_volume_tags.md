@@ -49,6 +49,8 @@ Returns volume tag information for the specified elements.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> indicates the starting element for which to return information, the action to perform, and a template to use when searching for volume IDs.

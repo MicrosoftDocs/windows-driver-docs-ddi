@@ -10,7 +10,7 @@ ms.keywords: RtlInitString, RtlInitString routine [Kernel-Mode Driver Architectu
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 10.
+req.target-min-winverclnt: Windows 10.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

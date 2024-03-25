@@ -38,8 +38,6 @@ api_name:
  - _WHEAP_PROCESS_HEST_EVENT
  - PWHEAP_PROCESS_HEST_EVENT
  - WHEAP_PROCESS_HEST_EVENT
-product:
- - Windows
 ---
 
 # WHEAP_PROCESS_HEST_EVENT structure

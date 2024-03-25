@@ -33,8 +33,6 @@ api_name:
  - _STOR_EVENT_TYPE
  - PSTOR_EVENT_TYPE
  - STOR_EVENT_TYPE
-product:
- - Windows
 ---
 
 # STOR_EVENT_TYPE enumeration

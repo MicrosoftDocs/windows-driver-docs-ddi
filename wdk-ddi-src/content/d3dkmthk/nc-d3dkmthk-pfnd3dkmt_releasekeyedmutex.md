@@ -35,8 +35,6 @@ api_location:
  - d3dkmthk.h
 api_name:
  - PFND3DKMT_RELEASEKEYEDMUTEX
-product:
- - Windows
 dev_langs:
  - c++
 ---

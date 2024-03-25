@@ -5,7 +5,7 @@ title: AcxCircuitInitSetAcxCircuitCompositeCallbacks
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxCircuitInitSetAcxCircuitCompositeCallbacks function sets the driver's composite callbacks for the ACXCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

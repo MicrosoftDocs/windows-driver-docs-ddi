@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
 title: PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 (d3d12umddi.h)
 description: Implemented by the client driver to process a video frame.
-ms.date: 10/19/2018
+ms.date: 12/14/2023
 keywords: ["PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 callback function"]
 req.header: d3d12umddi.h
 req.include-header: 
@@ -34,8 +34,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
-product:
- - Windows
 ---
 
 # PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 callback function
@@ -43,7 +41,7 @@ product:
 
 ## -description
 
-Implemented by the client driver to process a video frame.
+The **PFND3D12DDI_VIDEO_PROCESS_FRAME_0043** callback function performs a video processing operation on one or more input samples and writes the result to an output surface.
 
 ## -parameters
 
@@ -53,43 +51,16 @@ A handle to the driver's data for the command list. The driver uses this region 
 
 ### -param hDrvVideoProcessor
 
-The video processor.
+The video processor instance to use for this video process call.
 
 ### -param pOutputParameters
 
-The output arguments for the video process.
+A [**D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0032**](ns-d3d12umddi-d3d12ddiarg_video_process_output_stream_arguments_0032.md) structure to hold the output arguments for the video process.
 
 ### -param pInputStreamParameters
 
-The input arguments for the video process.
+A [**D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043**](ns-d3d12umddi-d3d12ddiarg_video_process_input_stream_arguments_0043.md) structure with the input arguments for the video process.
 
 ### -param NumInputStreams
 
 The number of input streams.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_VIDEO_PROCESS_FRAME_0043 Pfnd3d12ddiVideoProcessFrame0043;
-
-// Definition
-
-VOID Pfnd3d12ddiVideoProcessFrame0043
-(
-	D3D12DDI_HCOMMANDLIST hDrvCommandList
-	D3D12DDI_HVIDEOPROCESSOR_0020 hDrvVideoProcessor
-	 const D3D12DDIARG_VIDEO_PROCESS_OUTPUT_STREAM_ARGUMENTS_0032 *pOutputParameters
-	 const D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043 *pInputStreamParameters
-	UINT NumInputStreams
-)
-{...}
-
-PFND3D12DDI_VIDEO_PROCESS_FRAME_0043
-
-
-```
-
-## -see-also
-

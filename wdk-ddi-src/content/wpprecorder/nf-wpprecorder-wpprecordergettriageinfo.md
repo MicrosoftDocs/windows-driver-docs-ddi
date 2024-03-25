@@ -27,7 +27,6 @@ req.lib:
 req.dll: 
 req.irql: 
 req.typenames: WNODE_HEADER, *PWNODE_HEADER
-req.product: Windows 10 or later.
 targetos: Windows
 f1_keywords:
  - WppRecorderGetTriageInfo

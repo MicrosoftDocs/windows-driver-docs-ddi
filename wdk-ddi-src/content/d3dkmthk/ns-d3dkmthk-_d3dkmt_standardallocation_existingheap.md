@@ -1,9 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
-title: _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP (d3dkmthk.h)
-description: Holds information about the existing heap.
-old-location: display\d3dkmt-standardallocation-existingheap.htm
-ms.date: 05/10/2018
+title: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP (d3dkmthk.h)
+description: Learn more about the D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure.
+ms.date: 11/17/2023
 keywords: ["D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure"]
 ms.keywords: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap
 req.header: d3dkmthk.h
@@ -43,16 +42,20 @@ api_name:
  - D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ---
 
-# _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure
-
+# D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure
 
 ## -description
 
-Holds information about the existing heap.
+The **D3DKMT_STANDARDALLOCATION_EXISTINGHEAP** structure holds information about an existing heap.
 
 ## -struct-fields
 
 ### -field Size
 
-Size in bytes of the existing heap.
+Size in bytes of the heap.
 
+## -see-also
+
+[**D3DKMT_CREATESTANDARDALLOCATION**](ns-d3dkmthk-_d3dkmt_createstandardallocation.md)
+
+[**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md)

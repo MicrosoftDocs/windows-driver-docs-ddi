@@ -2,7 +2,6 @@
 UID: NF:ntifs.NtCreateSection
 title: NtCreateSection function (ntifs.h)
 description: The NtCreateSection routine in ntifs.h creates a section object. Once the handle pointed to is no longer in use, the driver must close it.
-old-location: kernel\zwcreatesection.htm
 tech.root: kernel
 ms.date: 10/06/2022
 keywords: ["NtCreateSection function"]
@@ -10,7 +9,7 @@ ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-M
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000.
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

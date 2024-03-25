@@ -26,7 +26,6 @@ req.dll: WUDFx.dll
 req.irql: 
 targetos: Windows
 req.typenames: POWER_ACTION, *PPOWER_ACTION
-req.product: Windows 10 or later.
 f1_keywords:
  - IWDFRemoteInterface
  - wudfddi/IWDFRemoteInterface

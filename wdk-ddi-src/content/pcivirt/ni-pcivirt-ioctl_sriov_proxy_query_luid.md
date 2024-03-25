@@ -56,6 +56,8 @@ identifier of the SR_IOV device implementing the interface.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

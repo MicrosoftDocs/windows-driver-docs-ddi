@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETPALETTE
-product:
- - Windows
 ---
 
 # DXGKDDI_SETPALETTE callback function

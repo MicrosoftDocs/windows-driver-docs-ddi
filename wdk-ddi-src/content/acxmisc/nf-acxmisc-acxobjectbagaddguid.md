@@ -5,7 +5,7 @@ title: AcxObjectBagAddGuid
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddGuid function adds Guid data to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

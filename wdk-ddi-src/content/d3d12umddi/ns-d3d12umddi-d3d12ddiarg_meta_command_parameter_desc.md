@@ -1,8 +1,8 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_PARAMETER_DESC
 title: D3D12DDIARG_META_COMMAND_PARAMETER_DESC (d3d12umddi.h)
-description: Meta-command parameter descriptions.
-ms.date: 10/19/2018
+description: Learn more about the D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure.
+ms.date: 12/12/2023
 keywords: ["D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure"]
 ms.keywords: D3D12DDIARG_META_COMMAND_PARAMETER_DESC, D3D12DDIARG_META_COMMAND_PARAMETER_DESC,
 req.header: d3d12umddi.h
@@ -38,10 +38,9 @@ dev_langs:
 
 # D3D12DDIARG_META_COMMAND_PARAMETER_DESC structure
 
-
 ## -description
 
-Meta-command parameter descriptions.
+**D3D12DDIARG_META_COMMAND_PARAMETER_DESC** contains the meta-command parameter descriptions.
 
 ## -struct-fields
 
@@ -51,22 +50,22 @@ The name of the meta-command parameter.
 
 ### -field Type
 
-The type of meta-command parameter, such as float or UINT64.
+A [**D3D12DDI_META_COMMAND_PARAMETER_TYPE**] value that indicates the type of meta-command parameter.
 
 ### -field Flags
 
-Flags that indicate whether the resource is used for input or output.
+A [**D3D12DDI_META_COMMAND_PARAMETER_FLAGS**] value that indicate whether the resource is used for input or output.
 
 ### -field RequiredResourceState
 
- 
-Resources that indicate the expected state of the resource. This is specified for each resource in the meta-command definition.
+A [**D3D12DDI_RESOURCE_STATES**](ne-d3d12umddi-d3d12ddi_resource_states.md) value that indicates the expected state of the resource. This is specified for each resource in the meta-command definition.
 
 ## -remarks
 
-The type and state will be validated by the debug layer to ensure the parameters supplied during creation are setup correctly.
+The debug layer validates the type and state to ensure the parameters supplied during creation are set up correctly.
 
-The driver will report the list of parameters and their type and the runtime will calculate a 4-byte aligned offset in a struct the user developer will pass these parameters in.
+The driver reports the list of parameters and their type and the runtime calculates a 4-byte aligned offset in a structure that the user developer passes these parameters in.
 
 ## -see-also
 
+[**PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052**](nc-d3d12umddi-pfnd3d12ddi_enumerate_meta_command_parameters_0052.md)

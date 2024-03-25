@@ -35,8 +35,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SWITCHTOHWCONTEXTLIST
-product:
- - Windows
 dev_langs:
  - c++
 ---

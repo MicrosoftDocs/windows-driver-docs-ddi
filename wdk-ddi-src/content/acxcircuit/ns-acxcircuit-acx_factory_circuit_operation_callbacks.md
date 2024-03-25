@@ -5,7 +5,7 @@ title: ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS
 ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure identifies the driver callbacks for ACX factory operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

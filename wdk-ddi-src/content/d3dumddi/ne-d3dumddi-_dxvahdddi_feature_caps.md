@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DXVAHDDDI_FEATURE_CAPS
  - DXVAHDDDI_FEATURE_CAPS
-product:
- - Windows
 dev_langs:
  - c++
 ---

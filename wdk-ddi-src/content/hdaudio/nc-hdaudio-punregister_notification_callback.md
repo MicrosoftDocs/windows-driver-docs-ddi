@@ -35,8 +35,6 @@ api_location:
  - hdaudio.h
 api_name:
  - PUNREGISTER_NOTIFICATION_CALLBACK
-product:
- - Windows
 ---
 
 # PUNREGISTER_NOTIFICATION_CALLBACK callback function
@@ -74,7 +72,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 The function pointer type for an UnregisterNotificationCallback routine is defined as follows.
 
-```
+```cpp
 //Declaration
 
 PUNREGISTER_NOTIFICATION_CALLBACK PUnregisterNotificationCallback;

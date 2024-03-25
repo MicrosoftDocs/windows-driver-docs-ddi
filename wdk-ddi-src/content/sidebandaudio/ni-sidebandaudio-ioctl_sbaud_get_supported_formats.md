@@ -1,8 +1,8 @@
 ---
 UID: NI:sidebandaudio.IOCTL_SBAUD_GET_SUPPORTED_FORMATS
 title: IOCTL_SBAUD_GET_SUPPORTED_FORMATS (sidebandaudio.h)
-description: "Learn more about: IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"
-ms.date: 10/05/2018
+description: "The audio driver issues the IOCTL_SBAUD_GET_SUPPORTED_FORMATS control code to get information about the stream formats supported by sideband audio endpoint."
+ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL"]
 req.header: sidebandaudio.h
 req.include-header: 
@@ -34,36 +34,35 @@ api_name:
 
 # IOCTL_SBAUD_GET_SUPPORTED_FORMATS IOCTL
 
-### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
-
-
 ## -description
 
-The audio driver issues the <b>IOCTL_SBAUD_GET_SUPPORTED_FORMATS</b> control code to get information about the stream formats supported by Sideband Audio endpoint.
+The audio driver issues the **IOCTL_SBAUD_GET_SUPPORTED_FORMATS** control code to get information about the stream formats supported by sideband audio endpoint.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
+
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 
 ### -input-buffer
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) containing endpoint index, and array of formats supported by the Audio driver.
 
-### -input-buffer-length 
+### -input-buffer-length
 
 Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) including storage for array of formats.
 
 ### -output-buffer
 
-[SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md). The sideband driver will return intersection of the Sideband audio formats with the formats supplied dy Audio driver as input parameter.
+[SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md). The sideband driver will return the intersection of the sideband audio formats with the formats supplied by the audio driver as an input parameter.
 
-### -output-buffer-length 
+### -output-buffer-length
 
 Size of [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md) including storage for array of formats.
 
 ### -in-out-buffer
 
-
-### -inout-buffer-length 
-
+### -inout-buffer-length
 
 ### -status-block
 
@@ -73,6 +72,18 @@ If Status is set to STATUS_BUFFER_TOO_SMALL, then the audio driver should read t
 
 ## -remarks
 
+This IOCTL can only be called from kernel mode.
+
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
+
 ## -see-also
 
 [SIDEBANDAUDIO_SUPPORTED_FORMATS](./ns-sidebandaudio-_sidebandaudio_supported_formats.md)
+
+[Introduction to I/O Control Codes](/windows-hardware/drivers/kernel/introduction-to-i-o-control-codes)
+
+[sidebandaudio.h](index.md)

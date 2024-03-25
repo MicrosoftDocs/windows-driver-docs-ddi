@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILUICCFILELOCKSTATUSPARAMMASK
-req.product: Windows 10 or later.
 f1_keywords:
  - RILUICCFILELOCKSTATUSPARAMMASK
  - rilapitypes/RILUICCFILELOCKSTATUSPARAMMASK

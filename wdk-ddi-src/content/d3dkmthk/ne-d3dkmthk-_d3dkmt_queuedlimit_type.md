@@ -9,7 +9,7 @@ ms.keywords: D3DKMT_GET_QUEUEDLIMIT_PRESENT, D3DKMT_QUEUEDLIMIT_TYPE, D3DKMT_QUE
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

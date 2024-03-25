@@ -5,7 +5,7 @@ title: ACX_DATAFORMAT_CONFIG_INIT_KS
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_CONFIG_INIT_KS function initializes an ACX_DATAFORMAT_CONFIG structure using a KS data format.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

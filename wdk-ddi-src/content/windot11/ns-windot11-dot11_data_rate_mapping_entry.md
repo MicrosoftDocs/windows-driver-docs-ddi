@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_DATA_RATE_MAPPING_ENTRY
  - PDOT11_DATA_RATE_MAPPING_ENTRY
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_DATA_RATE_MAPPING_ENTRY structure

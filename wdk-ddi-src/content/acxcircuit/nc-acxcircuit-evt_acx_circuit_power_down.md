@@ -5,7 +5,7 @@ title: EVT_ACX_CIRCUIT_POWER_DOWN
 ms.date: 12/08/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_POWER_DOWN callback is used by the driver to add functionality in the power down path of an ACXCIRCUIT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

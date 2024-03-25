@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_DISCOVER_TYPE
  - PDOT11_WFD_DISCOVER_TYPE
  - DOT11_WFD_DISCOVER_TYPE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_DISCOVER_TYPE enumeration

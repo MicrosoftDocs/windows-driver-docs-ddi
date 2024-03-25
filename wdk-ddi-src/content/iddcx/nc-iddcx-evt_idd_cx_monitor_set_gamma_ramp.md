@@ -1,10 +1,9 @@
 ---
 UID: NC:iddcx.EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP
 title: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP (iddcx.h)
-description: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP is called by the OS to set a gamma ramp on the specified monitor.
-old-location: display\evt_idd_cx_monitor_set_gamma_ramp.htm
+description: Learn more about the EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function.
 tech.root: display
-ms.date: 08/08/2022
+ms.date: 09/22/2023
 keywords: ["EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function"]
 ms.keywords: EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP callback, EvtIddCxMonitorSetGammaRamp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], display.evt_idd_cx_monitor_set_gamma_ramp, iddcx/EvtIddCxMonitorSetGammaRamp
 req.header: iddcx.h
@@ -58,4 +57,18 @@ An [**IDARG_IN_SET_GAMMARAMP**](ns-iddcx-idarg_in_set_gammaramp.md) structure co
 
 ## -returns
 
-If the operation is successful, the callback function must return STATUS_SUCCESS, or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, return an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) error code.
+**EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP** returns an [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value. If the operation is successful, it returns STATUS_SUCCESS or another status value for which NT_SUCCESS(status) equals TRUE. Otherwise, it returns an appropriate NTSTATUS error code.
+
+## -remarks
+
+If a driver reports [FP16 support](ns-iddcx-iddcx_adapter_caps.md) for an adapter it must also accept and use [**IDDCX_GAMMARAMP_TYPE_3x4_COLORSPACE_TRANSFORM**](ne-iddcx-iddcx_gammaramp_type.md) regardless of gamma support previously reported in a call to [**IddCxAdapterInitAsync**](nf-iddcx-iddcxadapterinitasync.md). This type of gamma ramp can be sent for any monitor even if HDR is not currently being used.
+
+It's possible that some parts of the transform won't be required or have no effect. In this case, the OS will set the appropriate flag to FALSE allowing the driver to potentially use an optimized transform. Like other gamma ramps, the 3x4 transform must also be applied to mouse cursors.
+
+For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
+
+## -see-also
+
+[**IDARG_IN_SET_GAMMARAMP**](ns-iddcx-idarg_in_set_gammaramp.md)
+
+[**IDDCX_GAMMARAMP_TYPE_3x4_COLORSPACE_TRANSFORM**](ne-iddcx-iddcx_gammaramp_type.md)

@@ -38,8 +38,6 @@ api_name:
  - _WWAN_CONTEXT_V2
  - PWWAN_CONTEXT_V2
  - WWAN_CONTEXT_V2
-product:
- - Windows
 ---
 
 # _WWAN_CONTEXT_V2 structure

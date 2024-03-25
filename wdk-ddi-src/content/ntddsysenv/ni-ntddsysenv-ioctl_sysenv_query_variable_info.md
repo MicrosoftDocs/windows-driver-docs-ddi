@@ -50,6 +50,8 @@ Returns information about system environment variables using
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a ULONG variable that contains the attributes of the system environment variable.

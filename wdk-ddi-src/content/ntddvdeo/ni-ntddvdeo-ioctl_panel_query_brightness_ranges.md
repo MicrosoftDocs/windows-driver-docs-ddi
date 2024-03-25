@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL
@@ -43,6 +41,8 @@ product:
 Queries the brightness ranges for a display panel.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

@@ -51,6 +51,8 @@ The completion of the purge request does not indicate that the requests canceled
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a client-allocated ULONG that is used to input a <i>purge mask</i>. The client sets the purge mask to a bitwise-OR of one or more of the following purge flags:

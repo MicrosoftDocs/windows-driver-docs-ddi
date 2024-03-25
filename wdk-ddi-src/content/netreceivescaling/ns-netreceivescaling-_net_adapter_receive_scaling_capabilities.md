@@ -55,7 +55,7 @@ The number of hardware receive queues. This member must be a power of 2.
 
 ### -field IndirectionTableSize
 
-The number of indirection table entries. This member must be a power of 2.
+The number of indirection table entries. This member must be a minimum of 128 and a power of 2.
 
 ### -field UnhashedTargetIndex
 

@@ -35,8 +35,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY
-product:
- - Windows
 dev_langs:
  - c++
 ---

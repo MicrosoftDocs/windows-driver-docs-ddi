@@ -50,6 +50,14 @@ The SD_RW_DIRECT_ARGUMENT structure is used in conjunction with the [**SdBusSubm
 
 ## -struct-fields
 
+### -field u
+
+Name of union.
+
+### -field u.bits
+
+Structure that contains the following members.
+
 ### -field u.bits.Data
 
 Contains eight bits of data to read or write.

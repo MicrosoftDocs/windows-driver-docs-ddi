@@ -52,6 +52,8 @@ User mode clients, including user mode driver framework (UMDF) drivers, use this
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>Parameters.DeviceIoControl.OutputBufferLength</b> member specifies the size, in bytes, of a requester-allocated output buffer.

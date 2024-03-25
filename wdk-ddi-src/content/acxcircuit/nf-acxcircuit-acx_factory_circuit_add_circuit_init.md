@@ -5,7 +5,7 @@ title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT
 ms.date: 07/28/2022
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_INIT function initializes a ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

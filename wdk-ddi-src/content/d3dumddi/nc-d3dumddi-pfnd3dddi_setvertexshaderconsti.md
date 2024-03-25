@@ -39,8 +39,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_SETVERTEXSHADERCONSTI
-product:
- - Windows
 dev_langs:
  - c++
 ---

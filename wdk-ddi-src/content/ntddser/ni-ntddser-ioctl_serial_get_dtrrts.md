@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_GET_DTRRTS</b> request returns information about the <i>data
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

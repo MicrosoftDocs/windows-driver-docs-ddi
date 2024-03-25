@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXT
 title: D3DKMT_CREATECONTEXT (d3dkmthk.h)
-description: The D3DKMT_CREATECONTEXT structure describes a kernel-mode device context to create.
+description: Learn more about the D3DKMT_CREATECONTEXT structure.
 old-location: display\d3dkmt_createcontext.htm
 ms.date: 02/28/2023
 keywords: ["D3DKMT_CREATECONTEXT structure"]
@@ -9,7 +9,7 @@ ms.keywords: D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT structure [Display Devic
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -51,65 +51,65 @@ The **D3DKMT_CREATECONTEXT** structure is used with [**D3DKMTCreateContext**](nf
 
 ## -struct-fields
 
-### -field hDevice [in]
+### -field hDevice
 
-A handle to the device that owns the context being created.
+[in] A handle to the device that owns the context being created.
 
-### -field NodeOrdinal [in]
+### -field NodeOrdinal
 
-The zero-based index of the node that the context is scheduled on.
+[in] The zero-based index of the node that the context is scheduled on.
 
-### -field EngineAffinity [in]
+### -field EngineAffinity
 
-The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
+[in] The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
 
-### -field Flags [in]
+### -field Flags
 
-A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
+[in] A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
 
-### -field unnamedParam1 [in]
+### -field pPrivateDriverData
 
-A pointer to private data that is to be passed to the display miniport driver.
+[in] A pointer to private data that is to be passed to the display miniport driver.
 
-### -field PrivateDriverDataSize [in]
+### -field PrivateDriverDataSize
 
-The size, in bytes, of the private data that **pPrivateDriverData** points to.
+[in] The size, in bytes, of the private data that **pPrivateDriverData** points to.
 
-### -field ClientHint [in]
+### -field ClientHint
 
-A [**D3DKMT_CLIENTHINT**](ne-d3dkmthk-_d3dkmt_clienthint.md) value that indicates the type of client that is creating the context.
+[in] A [**D3DKMT_CLIENTHINT**](ne-d3dkmthk-_d3dkmt_clienthint.md) value that indicates the type of client that is creating the context.
 
-### -field hContext [out]
+### -field hContext
 
-A handle to the created device context.
+[out] A handle to the created device context.
 
-### -field unnamedParam2 [out]
+### -field pCommandBuffer
 
-Pointer to an array of allocated command buffers in which the OpenGL ICD can place commands into.
+[out] Pointer to an array of allocated command buffers in which the OpenGL ICD can place commands into.
 
-### -field CommandBufferSize [out]
+### -field CommandBufferSize
 
-The size, in bytes, of the memory block that **pCommandBuffer** points to.
+[out] The size, in bytes, of the memory block that **pCommandBuffer** points to.
 
-### -field unnamedParam3 [out]
+### -field pAllocationList
 
-Pointer to an array of [**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md) structures that the OpenGL ICD can insert referenced allocations in.
+[out] Pointer to an array of [**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md) structures that the OpenGL ICD can insert referenced allocations in.
 
-### -field AllocationListSize [out]
+### -field AllocationListSize
 
-The number of elements in the array of allocations that **pAllocationList** points to. This quantity of allocations is available when *Dxgkrnl* submits the command buffer that is pointed to by **pCommandBuffer** to the display miniport driver.
+[out] The number of elements in the array of allocations that **pAllocationList** points to. This quantity of allocations is available when *Dxgkrnl* submits the command buffer that is pointed to by **pCommandBuffer** to the display miniport driver.
 
-### -field unnamedParam4 [out]
+### -field pPatchLocationList
 
-Pointer to an allocated array of [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md) structures that the OpenGL ICD inserts patching information in.
+[out] Pointer to an allocated array of [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md) structures that the OpenGL ICD inserts patching information in.
 
-### -field PatchLocationListSize [out]
+### -field PatchLocationListSize
 
-The number of elements in the patch-location list that **pPatchLocationList** points to. This quantity of patch locations is available when *Dxgkrnl* submits the command buffer that is pointed to by **pCommandBuffer** to the display miniport driver.
+[out] The number of elements in the patch-location list that **pPatchLocationList** points to. This quantity of patch locations is available when *Dxgkrnl* submits the command buffer that is pointed to by **pCommandBuffer** to the display miniport driver.
 
-### -field CommandBuffer [out]
+### -field CommandBuffer
 
-The GPU virtual address of the command buffer memory.
+[out] The GPU virtual address of the command buffer memory.
 
 ## -see-also
 

@@ -5,7 +5,7 @@ title: AcxTargetCircuitGetTargetPin
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetTargetPin function, given a valid pin index value, will return the associated ACXTARGETPIN object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

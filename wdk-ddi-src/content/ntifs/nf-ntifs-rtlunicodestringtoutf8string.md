@@ -34,8 +34,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - RtlUnicodeStringToUTF8String
-product:
- - Windows
 ---
 
 # RtlUnicodeStringToUTF8String function (ntifs.h)

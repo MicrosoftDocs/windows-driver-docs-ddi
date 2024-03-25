@@ -57,11 +57,11 @@ The <b>WDF_SPECIAL_FILE_TYPE</b> enumeration identifies special file types that 
 
 ## -enum-fields
 
-### -field WdfSpecialFileUndefined
+### -field WdfSpecialFileUndefined:0
 
 For internal use only.
 
-### -field WdfSpecialFilePaging
+### -field WdfSpecialFilePaging:1
 
 The device supports paging files.
 

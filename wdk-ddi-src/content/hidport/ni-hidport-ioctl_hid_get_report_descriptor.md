@@ -51,6 +51,8 @@ For general information about HIDClass devices, see <a href="/windows-hardware/d
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.OutputBufferLength</b> specifies the length, in bytes, of the locked-down buffer at <b>Irp->UserBuffer</b>.

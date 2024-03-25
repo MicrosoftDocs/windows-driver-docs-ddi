@@ -53,6 +53,10 @@ This request is sent by a driver that replaces the Microsoft-provided composite 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 **Parameters.Others.Argument1** is a pointer to a caller-allocated and initialized [REGISTER_COMPOSITE_DEVICE<](../usbdlib/ns-usbdlib-_register_composite_device.md) structure that contains information about the parent driver. To initialize the structure, call the [USBD_BuildRegisterCompositeDevice](../usbdlib/nf-usbdlib-usbd_buildregistercompositedevice.md) routine.

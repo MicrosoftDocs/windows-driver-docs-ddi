@@ -2,7 +2,7 @@
 UID: NF:wdfdevice.WdfDeviceSetDeviceInterfaceStateEx
 title: WdfDeviceSetDeviceInterfaceStateEx
 tech.root: wdf
-ms.date: 03/24/2020
+ms.date: 06/14/2023
 targetos: Windows
 description: "Learn more about: WdfDeviceSetDeviceInterfaceStateEx"
 req.assembly: 
@@ -66,10 +66,10 @@ A Boolean value that, if <b>TRUE</b>, enables the specified device interface ins
 
 ## -remarks
 
-The driver can call this function from [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md), or after the device has started. 
- 
-When calling from [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md), the driver should set **IsInterfaceEnabled** to FALSE. 
- 
+The driver can call this function either before or after the device has started.
+
+When called before the device starts (for example from [*EvtDriverDeviceAdd*](/windows-hardware/drivers/ddi/wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add), [*EvtChildListCreateDevice*](/windows-hardware/drivers/ddi/wdfchildlist/nc-wdfchildlist-evt_wdf_child_list_create_device), or [*EvtDevicePrepareHardware*](/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware)), the driver should set **IsInterfaceEnabled** to FALSE to prevent the interface from being automatically enabled during PnP start. Setting the parameter to TRUE before the device starts is redundant and such a call should be removed.
+
 When calling after the device has started, the behavior is the same as [**WdfDeviceSetDeviceInterfaceState**](./nf-wdfdevice-wdfdevicesetdeviceinterfacestate.md).
 
 ## -see-also

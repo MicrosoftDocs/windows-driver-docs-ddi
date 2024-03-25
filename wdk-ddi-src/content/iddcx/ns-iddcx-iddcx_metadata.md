@@ -1,7 +1,7 @@
 ---
 UID: NS:iddcx.IDDCX_METADATA
 title: IDDCX_METADATA (iddcx.h)
-description: IDDCX_METADATA provides information about the current provided surface and what is displayed on it.
+description: Learn more about the IDDCX_METADATA structure.
 old-location: display\iddcx_metadata.htm
 tech.root: display
 ms.date: 08/08/2022
@@ -10,7 +10,7 @@ ms.keywords: IDDCX_METADATA, IDDCX_METADATA structure, IDDCX_METADATA structure 
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -78,14 +78,14 @@ System QPC time of when this surface should be displayed on the indirect display
 
 ### -field pSurface
 
-DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until [**IddCxSwapChainReleaseAndAcquire**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md) is called again.
+Pointer to a [**IDXGIResource**](/windows/win32/api/dxgi/nn-dxgi-idxgiresource) DX surface that contains the image to encode and transmit. The driver can use this DX surface anytime until [**IddCxSwapChainReleaseAndAcquire**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md) is called again.
 
 > [!NOTE]
 > This surface is always a A8R8G8B8 formatted surface.
 
 ## -remarks
 
-A zero **DirtyRectCount** value and **MoveRegionCount** value indicates there were no desktop updates and the **PresentationFrameNumber** is the same as last frame.
+A single empty dirty rect indicates there were no desktop updates.
 
 ### -see-also
 

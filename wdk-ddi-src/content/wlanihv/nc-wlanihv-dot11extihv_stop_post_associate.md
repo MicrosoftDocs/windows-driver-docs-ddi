@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
-req.product: Windows 10 or later.
 f1_keywords:
  - DOT11EXTIHV_STOP_POST_ASSOCIATE
  - wlanihv/DOT11EXTIHV_STOP_POST_ASSOCIATE

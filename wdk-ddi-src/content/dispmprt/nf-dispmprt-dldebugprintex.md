@@ -36,8 +36,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DlDebugPrintEx
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -1,5 +1,5 @@
 ---
-UID: NE:portabledevice.WPD_CAPTURE_MODES
+UID: NE:portabledevice.tagWPD_CAPTURE_MODES
 title: WPD_CAPTURE_MODES (portabledevice.h)
 description: The WPD_CAPTURE_MODES enumeration type describes the capture timing mode of a still image capture.
 old-location: wpddk\wpd_capture_modes.htm

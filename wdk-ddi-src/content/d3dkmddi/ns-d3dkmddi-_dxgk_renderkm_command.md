@@ -1,15 +1,14 @@
 ---
 UID: NS:d3dkmddi._DXGK_RENDERKM_COMMAND
 title: DXGK_RENDERKM_COMMAND (d3dkmddi.h)
-description: The DXGK_RENDERKM_COMMAND structure is used to construct a command buffer to control GDI hardware-accelerated rendering.
-old-location: display\dxgk_renderkm_command.htm
+description: Learn more about the DXGK_RENDERKM_COMMAND structure.
 ms.date: 08/24/2022
 keywords: ["DXGK_RENDERKM_COMMAND structure"]
 ms.keywords: DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,8 +40,6 @@ api_location:
 api_name:
  - _DXGK_RENDERKM_COMMAND
  - DXGK_RENDERKM_COMMAND
-product:
- - Windows
 ---
 
 # DXGK_RENDERKM_COMMAND structure
@@ -95,8 +92,7 @@ An array of variable-size DXGK_RENDERKM_COMMAND structures defines a command buf
 
 A display miniport driver should report that it supports command buffer processing for GDI hardware acceleration by setting [**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md)->**PresentationCaps**.**SupportKernelModeCommandBuffer** to TRUE.
 
-> [!NOTE]
-> A display miniport driver should report that it supports GDI hardware acceleration only if the cache-coherent GPU aperture segment exists, and there is no significant performance penalty when the CPU accesses the memory.
+A display miniport driver should report that it supports GDI hardware acceleration only if the cache-coherent GPU aperture segment exists, and there is no significant performance penalty when the CPU accesses the memory.
 
 Each command varies in length depending on the value of the **OpCode** member and the number of sub-rectangles in the command.
 

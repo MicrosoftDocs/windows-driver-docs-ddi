@@ -31,8 +31,6 @@ api_location:
  - wdm.h
 api_name:
  - IoAcquireKsrPersistentMemory
-product:
- - Windows
 f1_keywords:
  - IoAcquireKsrPersistentMemory
  - wdm/IoAcquireKsrPersistentMemory

@@ -49,6 +49,8 @@ The IOCTL_ACPI_ENUM_CHILDREN device control request can be used to enumerate the
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set the <b>IoBuildDeviceIoControlRequest</b> input parameters as follows:

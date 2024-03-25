@@ -49,6 +49,8 @@ This request retrieves socket information for the socket that is indicated by th
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(PCMCIA_SOCKET_INFORMATION).

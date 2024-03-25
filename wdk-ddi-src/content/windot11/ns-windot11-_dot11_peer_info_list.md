@@ -44,8 +44,6 @@ api_name:
  - _DOT11_PEER_INFO_LIST
  - PDOT11_PEER_INFO_LIST
  - DOT11_PEER_INFO_LIST
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_PEER_INFO_LIST structure

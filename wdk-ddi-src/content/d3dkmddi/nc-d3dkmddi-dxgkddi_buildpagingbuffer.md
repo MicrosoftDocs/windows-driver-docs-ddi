@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_BUILDPAGINGBUFFER
-product:
- - Windows
 ---
 
 # DXGKDDI_BUILDPAGINGBUFFER callback function

@@ -1,8 +1,8 @@
 ---
 UID: NC:dxgiddi.PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB
 title: PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB (dxgiddi.h)
-description: pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
-ms.date: 10/19/2018
+description: Learn more about the PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function.
+ms.date: 10/05/2023
 keywords: ["PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function"]
 req.header: dxgiddi.h
 req.include-header: 
@@ -41,10 +41,9 @@ dev_langs:
 
 # PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB callback function
 
-
 ## -description
 
-pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
+**pfnSubmitPresentToHwQueueCb** submits a Present operation to a hardware queue.
 
 ## -parameters
 
@@ -52,9 +51,9 @@ pfnSubmitPresentToHwQueueCb submits a Present operation to a hardware queue.
 
 A handle to a device.
 
-### -param 
+### -param unnamedParam2
 
-Pointer to a [DXGIDDICB_SUBMITPRESENTTOHWQUEUE](ns-dxgiddi-dxgiddicb_submitpresenttohwqueue.md) structure.
+Pointer to a [**DXGIDDICB_SUBMITPRESENTTOHWQUEUE**](ns-dxgiddi-dxgiddicb_submitpresenttohwqueue.md) structure.
 
 ## -returns
 
@@ -71,14 +70,9 @@ PFNDDXGIDDI_SUBMITPRESENTTOHWQUEUECB PfnddxgiddiSubmitpresenttohwqueuecb;
 
 HRESULT PfnddxgiddiSubmitpresenttohwqueuecb 
 (
-	HANDLE hDevice
-	DXGIDDICB_SUBMITPRESENTTOHWQUEUE *
+    HANDLE hDevice
+    DXGIDDICB_SUBMITPRESENTTOHWQUEUE *
 )
 {...}
 
 ```
-
-## -remarks
-
-## -see-also
-

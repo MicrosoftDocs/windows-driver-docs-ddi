@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _D3DDDI_QUERYREGISTRY_TYPE
  - D3DDDI_QUERYREGISTRY_TYPE
-product:
- - Windows
 ---
 
 # _D3DDDI_QUERYREGISTRY_TYPE enumeration

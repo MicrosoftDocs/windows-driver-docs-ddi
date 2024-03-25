@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB
-product:
- - Windows
 ---
 
 # PFND3DDDI_SIGNALSYNCHRONIZATIONOBJECT2CB callback function

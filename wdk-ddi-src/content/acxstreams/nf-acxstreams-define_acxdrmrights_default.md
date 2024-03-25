@@ -5,7 +5,7 @@ title: DEFINE_ACXDRMRIGHTS_DEFAULT
 ms.date: 07/28/2022
 targetos: Windows
 description: This macro provides the default DRM rights
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

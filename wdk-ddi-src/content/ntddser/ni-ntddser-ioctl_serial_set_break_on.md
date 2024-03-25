@@ -51,6 +51,8 @@ To set the line control break signal inactive, a client can use an <a href="/win
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -36,8 +36,6 @@ api_location:
  - ntddk.h
 api_name:
  - MmSecureVirtualMemoryEx
-product:
- - Windows
 ---
 
 # MmSecureVirtualMemoryEx function
@@ -85,11 +83,11 @@ If the range could not be locked because of protection problems, noncommitted me
 
 ## -remarks
 
-Use **MmSecureVirtualMemoryEx** instead of [**MmSecureVirtualMemory **](./nf-ntddk-mmsecurevirtualmemory.md) if you need to specify **MM_SECURE_NO_CHANGE** so that no protection change will be allowed on the supplied view.
+Use **MmSecureVirtualMemoryEx** instead of [**MmSecureVirtualMemory**](./nf-ntddk-mmsecurevirtualmemory.md) if you need to specify **MM_SECURE_NO_CHANGE** so that no protection change will be allowed on the supplied view.
 
 The return value from this function can only be used with [**MmUnsecureVirtualMemory**](./nf-ntddk-mmunsecurevirtualmemory.md). The driver calls that routine to return the range to a normal state.
 
 ## -see-also
 
-- [**MmSecureVirtualMemory **](./nf-ntddk-mmsecurevirtualmemory.md)
+- [**MmSecureVirtualMemory**](./nf-ntddk-mmsecurevirtualmemory.md)
 - [**MmUnsecureVirtualMemory**](./nf-ntddk-mmunsecurevirtualmemory.md)

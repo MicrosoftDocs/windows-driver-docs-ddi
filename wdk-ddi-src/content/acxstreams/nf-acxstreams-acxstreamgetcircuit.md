@@ -5,7 +5,7 @@ title: AcxStreamGetCircuit
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamGetCircuit function returns the ACXCIRCUIT Object associated with the stream.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -38,8 +38,6 @@ api_name:
  - _STORAGE_PROPERTY_SET
  - PSTORAGE_PROPERTY_SET
  - STORAGE_PROPERTY_SET
-product:
- - Windows
 ---
 
 # STORAGE_PROPERTY_SET structure

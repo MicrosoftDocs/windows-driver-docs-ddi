@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _IO_NOTIFICATION_EVENT_CATEGORY
  - IO_NOTIFICATION_EVENT_CATEGORY
-product:
- - Windows
 ---
 
 # IO_NOTIFICATION_EVENT_CATEGORY enumeration

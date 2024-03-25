@@ -5,7 +5,7 @@ title: ACX_MUTE_CONFIG_INIT
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_MUTE_CONFIG_INIT function initializes an ACX_MUTE_CONFIG structure.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

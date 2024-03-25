@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_PACKET_RSC
  - NET_PACKET_RSC
-product:
- - Windows
 ---
 
 # NET_PACKET_RSC structure

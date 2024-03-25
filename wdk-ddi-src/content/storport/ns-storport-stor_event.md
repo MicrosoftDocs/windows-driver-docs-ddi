@@ -36,8 +36,6 @@ api_name:
  - _STOR_EVENT
  - PSTOR_EVENT
  - STOR_EVENT
-product:
- - Windows
 ---
 
 # STOR_EVENT structure

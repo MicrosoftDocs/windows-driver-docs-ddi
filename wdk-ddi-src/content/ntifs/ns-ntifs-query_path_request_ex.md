@@ -78,6 +78,10 @@ Pointer to an optional [**ECP_LIST**](/previous-versions/windows/hardware/driver
 
 Available starting in Windows 7.
 
+### -field Reserved[2]
+
+Reserved for system use.
+
 ### -field Silo
 
 Pointer to a SILO, associated with the file object on the original IRP. This is required for redirectors to query mini RDR context. This consumes 1 of the 5 ULONG_PTRs initially reserved in the [**IOCTL_REDIR_QUERY_PATH_EX**](ni-ntifs-ioctl_redir_query_path_ex.md) query.

@@ -37,29 +37,27 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATEVIDEODECODER_0072
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATEVIDEODECODER_0072 callback function
 
 ## -description
 
-A client driver's **PFND3D12DDI_CREATEVIDEODECODER_0072** callback function creates a video decoder object.
+A client driver's **PFND3D12DDI_CREATEVIDEODECODER_0072** callback function creates a video decoder.
 
 ## -parameters
 
 ### -param hDrvDevice
 
-Handle for the D3D12 device.
+[in] Handle for the D3D12 device.
 
 ### -param pArgs
 
-Pointer to a [**D3D12DDIARG_CREATE_VIDEO_DECODER_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_decoder_0072.md) structure with arguments to create this video decoder object.
+[in] Pointer to a [**D3D12DDIARG_CREATE_VIDEO_DECODER_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_decoder_0072.md) structure with arguments to create this video decoder object.
 
 ### -param hDrvVideoDecoder
 
-Handle to the created video decoder object.
+[out] Handle to the created video decoder object.
 
 ## -returns
 

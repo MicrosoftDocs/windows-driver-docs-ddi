@@ -26,7 +26,6 @@ req.dll:
 req.irql: DISPATCH_LEVEL
 targetos: Windows
 req.typenames: VMB_CHANNEL_STATE_CHANGE_CALLBACKS, *PVMB_CHANNEL_STATE_CHANGE_CALLBACKS
-req.product: Windows 10 or later.
 f1_keywords:
  - IOCTL_VPCI_READ_BLOCK
  - vpci/IOCTL_VPCI_READ_BLOCK
@@ -78,6 +77,8 @@ The driver for a PCI Express (PCIe) virtual function (VF) issues an <a href="/wi
 </dl>For more information about issuing IOCTLs between kernel-mode drivers, see <a href="/windows-hardware/drivers/kernel/creating-ioctl-requests-in-drivers">Creating IOCTL Requests in Drivers</a>.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

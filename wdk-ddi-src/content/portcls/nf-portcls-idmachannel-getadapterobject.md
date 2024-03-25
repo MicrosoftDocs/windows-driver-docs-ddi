@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IDmaChannel::GetAdapterObject
-product:
- - Windows
 ---
 
 # IDmaChannel::GetAdapterObject

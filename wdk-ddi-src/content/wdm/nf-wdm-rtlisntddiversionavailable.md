@@ -4,7 +4,7 @@ title: RtlIsNtDdiVersionAvailable function (wdm.h)
 description: The RtlIsNtDdiVersionAvailable routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.
 old-location: kernel\rtlisntddiversionavailable.htm
 tech.root: kernel
-ms.date: 04/11/2022
+ms.date: 01/16/2024
 keywords: ["RtlIsNtDdiVersionAvailable function"]
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
 req.header: wdm.h
@@ -46,6 +46,9 @@ api_name:
 
 ## -description
 
+>[!WARNING]
+> The **RtlIsNtDdiVersionAvailable** routine is obsolete. Use [**RtlVerifyVersionInfo**](nf-wdm-rtlverifyversioninfo.md) instead.
+
 The <b>RtlIsNtDdiVersionAvailable</b> routine determines if a specified version of the Microsoft Windows device driver interface (DDI) is available.
 
 ## -parameters
@@ -62,101 +65,12 @@ The version of the Windows DDI that is available. The following table lists the 
 </tr>
 <tr>
 <td>
-NTDDI_WIN10_CO
-
-</td>
-<td>
-Windows 11 21H2
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_VB
-
-</td>
-<td>
-Windows 10 2004
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_19H1
-
-</td>
-<td>
-Windows 10 1903
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_RS5
-
-</td>
-<td>
-Windows 10 1809
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_RS4
-
-</td>
-<td>
-Windows 10 1803
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_RS3
-
-</td>
-<td>
-Windows 10 1709
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_RS2
-
-</td>
-<td>
-Windows 10 1703
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_RS1
-
-</td>
-<td>
-Windows 10 1607
-
-</td>
-</tr>
-<tr>
-<td>
-NTDDI_WIN10_TH2
-
-</td>
-<td>
-Windows 10 1511
-
-</td>
-</tr>
-<tr>
-<td>
 NTDDI_WIN10
 
 </td>
 <td>
-Windows 10 1507
+Windows 11<br/>
+Windows 10
 
 </td>
 </tr>
@@ -264,3 +178,5 @@ For more information about <b>RtlIsNtDdiVersionAvailable</b> and <b>RtlIsService
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlisservicepackversioninstalled">RtlIsServicePackVersionInstalled</a>
+
+[**RtlVerifyVersionInfo**](nf-wdm-rtlverifyversioninfo.md)

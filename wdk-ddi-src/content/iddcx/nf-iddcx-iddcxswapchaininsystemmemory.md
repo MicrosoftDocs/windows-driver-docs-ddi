@@ -4,7 +4,7 @@ title: IddCxSwapChainInSystemMemory
 ms.date: 10/20/2020
 tech.root: display
 targetos: Windows
-description: IddCxSwapChainInSystemMemory checks whether buffers for a swapchain are resident in system memory.
+description: Learn more about the IddCxSwapChainInSystemMemory function.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -47,7 +47,7 @@ dev_langs:
 
 ### -param SwapChainObject [in]
 
-The [IDDCX_SWAPCHAIN](/windows-hardware/drivers/display/iddcx-objects) object whose allocation is to be checked.
+The [**IDDCX_SWAPCHAIN**](/windows-hardware/drivers/display/iddcx-objects) object whose allocation is to be checked.
 
 ### -param pInSystemMemory [out]
 
@@ -59,7 +59,7 @@ The result of the check. Set to TRUE when buffers are resident in system memory;
 
 ## -remarks
 
-The driver can call **IddCxSwapChainInSystemMemory** at any point to check if the buffers for the swapchain are resident in system memory. It is recommended that drivers call this method when a new swapchain is being assigned, but are free to call it at any point in the lifecycle of the swapchain object.
+The driver can call **IddCxSwapChainInSystemMemory** at any point after [**IddCxSwapChainSetDevice**](nf-iddcx-iddcxswapchainsetdevice.md) has been called to check if the buffers for the swapchain are resident in system memory. It is recommended that drivers call this method when a new swapchain is being assigned, but are free to call it at any point in the lifecycle of the swapchain object.
 
 When **IddCxSwapChainInSystemMemory** returns TRUE in **pInSystemMemory**, the driver can use either [**IddCxSwapChainReleaseAndAcquireBuffer**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md) or [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](nf-iddcx-iddcxswapchainreleaseandacquiresystembuffer.md) for releasing and acquiring buffers from the swapchain. The driver must continue to use that particular method throughout the lifetime of that particular swapchain.
 

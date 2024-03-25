@@ -50,6 +50,8 @@ The <b>IOCTL_NFCSE_GET_NFCC_CAPABILITIES</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

@@ -5,7 +5,7 @@ title: AcxCircuitTemplateCreate
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxCircuitTemplateCreate function is used to create a circuit template for use by the audio class extension (ACX) manager.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -34,8 +34,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_GEOMETRY_SHADER_WITH_STREAM_OUTPUT callback function

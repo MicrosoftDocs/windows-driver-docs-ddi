@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
-req.product: Windows 10 or later.
 f1_keywords:
  - PHW_FIND_ADAPTER
  - srb/PHW_FIND_ADAPTER

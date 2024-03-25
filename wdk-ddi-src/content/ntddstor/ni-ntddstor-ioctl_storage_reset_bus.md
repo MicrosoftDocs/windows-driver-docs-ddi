@@ -51,6 +51,8 @@ The <b>SrbStatus</b> flag of pending SRBs is set to SRB_STATUS_BUS_RESET.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_bus_reset_request">STORAGE_BUS_RESET_REQUEST</a> structure that specifies the path ID of the bus to reset.

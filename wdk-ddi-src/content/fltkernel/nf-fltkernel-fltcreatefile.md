@@ -1,7 +1,7 @@
 ---
 UID: NF:fltkernel.FltCreateFile
 title: FltCreateFile function (fltkernel.h)
-description: Minifilter drivers call FltCreateFile to create a new file or open an existing file.
+description: Learn more about the FltCreateFile function.
 old-location: ifsk\fltcreatefile.htm
 tech.root: ifsk
 ms.date: 02/13/2020
@@ -10,7 +10,7 @@ ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreat
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems. Not available in Windows 2000 SP4 and earlier operating systems.
+req.target-min-winverclnt: Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -142,6 +142,8 @@ Driver routines that do not run in the system process context must set the OBJ_K
 
 > [!NOTE]
 > Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.
+>
+> Do not call this routine with APCs disabled (an outstanding [**FsRtlEnterFileSystem**](/windows-hardware/drivers/ifs/fsrtlenterfilesystem) or [**KeEnterCriticalRegion**](../ntddk/nf-ntddk-keentercriticalregion.md), as this can cause a thread deadlock.
 
 Certain *DesiredAccess* flags and combinations of flags have the following effects:
 

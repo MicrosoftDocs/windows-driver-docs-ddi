@@ -37,8 +37,6 @@ api_location:
  - Displib.dll
 api_name:
  - DlScanRom
-product:
- - Windows
 dev_langs:
  - c++
 ---

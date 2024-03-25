@@ -49,6 +49,8 @@ The IOCTL_BIOMETRIC_SET_INDICATOR IOCTL directs the driver to update the status 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <a href="/windows-hardware/drivers/ddi/winbio_ioctl/ns-winbio_ioctl-_winbio_set_indicator">WINBIO_SET_INDICATOR</a>

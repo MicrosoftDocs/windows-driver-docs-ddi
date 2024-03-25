@@ -49,9 +49,7 @@ api_name:
 
 ## -parameters
 
-### -param pBuffer
-
-### -param pbBuffer [in]
+### -param pBuffer [in]
 
 Pointer to the buffer being passed to the allocator
 
@@ -67,11 +65,6 @@ The miniport driver does not need to use this method because when the miniport d
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/ns-dmusicks-_dmus_kernel_event">DMUS_KERNEL_EVENT</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-imxf-putmessage">IMXF::PutMessage</a>
-

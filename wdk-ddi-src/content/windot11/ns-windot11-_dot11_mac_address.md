@@ -44,8 +44,6 @@ api_name:
  - _DOT11_MAC_ADDRESS
  - PDOT11_MAC_ADDRESS
  - DOT11_MAC_ADDRESS
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_MAC_ADDRESS structure

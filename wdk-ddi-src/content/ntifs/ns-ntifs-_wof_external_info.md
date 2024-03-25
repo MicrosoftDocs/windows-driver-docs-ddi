@@ -1,16 +1,15 @@
 ---
 UID: NS:ntifs._WOF_EXTERNAL_INFO
-title: _WOF_EXTERNAL_INFO (ntifs.h)
-description: The WOF_EXTERNAL_INFO structure identifies a file backing provider and the overlay service version it supports.
-old-location: ifsk\wof_external_info.htm
+title: WOF_EXTERNAL_INFO (ntifs.h)
+description: Learn more about the WOF_EXTERNAL_INFO structure.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["WOF_EXTERNAL_INFO structure"]
 ms.keywords: "*PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], _WOF_EXTERNAL_INFO, ifsk.wof_external_info, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.1 Update.
+req.target-min-winverclnt: Windows 8.1 Update
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,12 +45,11 @@ api_name:
  - WOF_EXTERNAL_INFO
 ---
 
-# _WOF_EXTERNAL_INFO structure
-
+# WOF_EXTERNAL_INFO structure
 
 ## -description
 
-The <b>WOF_EXTERNAL_INFO</b> structure identifies a file backing provider and  the overlay service version it supports.
+The **WOF_EXTERNAL_INFO** structure identifies a file backing provider and the overlay service version it supports.
 
 ## -struct-fields
 
@@ -65,9 +63,6 @@ The identifier of the data source provider. Valid provider identifiers  are WOF_
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_external_file_id">WOF_EXTERNAL_FILE_ID</a>
+[**WOF_EXTERNAL_FILE_ID**](ns-ntifs-_wof_external_file_id.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_wof_version_info">WOF_VERSION_INFO</a>
-
+[**WOF_VERSION_INFO**](ns-ntifs-_wof_version_info.md)

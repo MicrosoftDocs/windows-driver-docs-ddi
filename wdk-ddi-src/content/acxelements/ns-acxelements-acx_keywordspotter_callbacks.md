@@ -5,7 +5,7 @@ title: ACX_KEYWORDSPOTTER_CALLBACKS
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_KEYWORDSPOTTER_CALLBACKS structure identifies the driver callbacks for key word spotter operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

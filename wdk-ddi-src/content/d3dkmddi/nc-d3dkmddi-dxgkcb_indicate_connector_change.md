@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_INDICATE_CONNECTOR_CHANGE
-product:
- - Windows
 ---
 
 # DXGKCB_INDICATE_CONNECTOR_CHANGE callback function

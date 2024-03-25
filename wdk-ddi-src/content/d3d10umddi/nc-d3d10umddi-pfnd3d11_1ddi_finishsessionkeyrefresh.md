@@ -38,8 +38,6 @@ api_location:
  - D3d10umddi.h
 api_name:
  - PFND3D11_1DDI_FINISHSESSIONKEYREFRESH
-product:
- - Windows
 ---
 
 # PFND3D11_1DDI_FINISHSESSIONKEYREFRESH callback function

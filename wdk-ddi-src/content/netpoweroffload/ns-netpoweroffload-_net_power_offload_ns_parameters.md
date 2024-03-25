@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_POWER_OFFLOAD_NS_PARAMETERS
  - NET_POWER_OFFLOAD_NS_PARAMETERS
-product:
- - Windows
 ---
 
 # NET_POWER_OFFLOAD_NS_PARAMETERS structure

@@ -113,5 +113,3 @@ A **PCI_EXPRESS_LINK_CONTROL_2_REGISTER** structure is contained in the [PCI_EXP
 
 [PCI_EXPRESS_CAPABILITY_REGISTER](ns-ntddk-_pci_express_capability.md)
 
-[PCI_EXPRESS_LINK_CONTROL_REGISTER](ns-ntddk-pci_express_link_control_register.md)
-

@@ -49,6 +49,8 @@ Sets the spindle speed of the CD-ROM drive.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains either a <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_set_speed">CDROM_SET_SPEED</a> structure or a <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_set_streaming">CDROM_SET_STREAMING</a> structure. These two structures have the same first member: an <a href="/windows-hardware/drivers/ddi/ntddcdrm/ne-ntddcdrm-_cdrom_speed_request">CDROM_SPEED_REQUEST</a> enumeration value. Caller uses this enumeration value to specify which of these two structures is in the input buffer.

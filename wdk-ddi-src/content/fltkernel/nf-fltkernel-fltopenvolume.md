@@ -109,6 +109,8 @@ To get a pointer to the device object for a given volume, call <a href="/windows
 
 To get detailed information about the volume that a given instance is attached to, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryvolumeinformation">FltQueryVolumeInformation</a>.
 
+NOTE: Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock. To determine if the thread TopLevelIrp is set call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iogettoplevelirp">IoGetTopLevelIrp</a>.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltclose">FltClose</a>

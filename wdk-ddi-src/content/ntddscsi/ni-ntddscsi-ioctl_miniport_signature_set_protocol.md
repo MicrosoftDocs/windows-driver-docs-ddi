@@ -30,8 +30,6 @@ api_location:
  - ntddscsi.h
 api_name:
  - IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL
-product:
- - Windows
 ---
 
 # IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE
@@ -41,6 +39,8 @@ product:
 **IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL** is the system-defined signature used in conjunction with the [**IOCTL_SCSI_MINIPORT**](ni-ntddscsi-ioctl_scsi_miniport.md) control code to send protocol-specific data to a miniport.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

@@ -5,7 +5,7 @@ title: AcxDataFormatGetEncodedChannelCount
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetEncodedChannelCount function gets the channel count for the specified encoded data format.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

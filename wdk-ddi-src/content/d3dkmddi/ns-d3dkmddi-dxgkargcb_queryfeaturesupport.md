@@ -53,7 +53,7 @@ The **DXGKARGCB_QUERYFEATURESUPPORT** structure is the parameter passed to the [
 
 ### -field FeatureId
 
-[in] A [**DXGK_FEATURE_ID**](../d3dukmdt/ne-d3dukmdt-dxgk_feature_id.md) value that identifies the feature to query enabled state for.
+[in] A [**DXGK_FEATURE_ID**](ne-d3dkmddi-_dxgk_feature_id.md) value that identifies the feature to query enabled state for.
 
 ### -field DriverSupportState
 

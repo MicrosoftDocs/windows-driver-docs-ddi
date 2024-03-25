@@ -37,8 +37,6 @@ api_location:
  - Ndis.h
 api_name:
  - IF_QUERY_OBJECT
-product:
- - Windows
 ---
 
 # IF_QUERY_OBJECT callback function

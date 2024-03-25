@@ -35,8 +35,6 @@ api_location:
  - hdaudio.h
 api_name:
  - PREGISTER_NOTIFICATION_CALLBACK
-product:
- - Windows
 ---
 
 # PREGISTER_NOTIFICATION_CALLBACK callback function
@@ -78,7 +76,7 @@ For more information, see [NTSTATUS Values](/windows-hardware/drivers/kernel/nts
 
 The function pointer type for a RegisterNotificationCallback routine is defined as follows.
 
-```
+```cpp
 //Declaration
 
 PREGISTER_NOTIFICATION_CALLBACK PRegisterNotificationCallback; 

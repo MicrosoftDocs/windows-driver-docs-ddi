@@ -49,6 +49,8 @@ The <b>IOCTL_PMI_GET_CAPABILITIES</b> request obtains the capability and asset i
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member of the I/O request packet (IRP) points to an initiator-allocated buffer that is used both as the input buffer and the output buffer for the request. On input, this buffer contains a <a href="/windows-hardware/drivers/ddi/pmi/ns-pmi-_pmi_capabilities">PMI_CAPABILITIES</a> structure in which the <b>Version</b> and <b>CapabilityType</b> members are set to valid values. The <b>CapabilitiesType</b> member contains a <a href="/windows-hardware/drivers/ddi/pmi/ne-pmi-pmi_capabilities_type">PMI_CAPABILITIES_TYPE</a> enumeration value that specifies the type of PMI capability information to be retrieved from the power meter. This value also determines the size of the output buffer required to contain this information.

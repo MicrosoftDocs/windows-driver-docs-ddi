@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DKMT_GPU_PREFERENCE_QUERY_TYPE
  - D3DKMT_GPU_PREFERENCE_QUERY_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

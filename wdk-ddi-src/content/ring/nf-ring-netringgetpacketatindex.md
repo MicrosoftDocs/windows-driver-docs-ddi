@@ -36,8 +36,6 @@ api_location:
  - ring.h
 api_name:
  - NetRingGetPacketAtIndex
-product:
- - Windows
 ---
 
 # NetRingGetPacketAtIndex function

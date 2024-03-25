@@ -1,10 +1,9 @@
 ---
 UID: NS:ntifs._FILE_INTERNAL_INFORMATION
-title: _FILE_INTERNAL_INFORMATION (ntifs.h)
-description: The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file.
-old-location: ifsk\file_internal_information.htm
+title: FILE_INTERNAL_INFORMATION (ntifs.h)
+description: Learn more about FILE_INTERNAL_INFORMATION structure.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["FILE_INTERNAL_INFORMATION structure"]
 ms.keywords: "*PFILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION, FILE_INTERNAL_INFORMATION structure [Installable File System Drivers], PFILE_INTERNAL_INFORMATION, PFILE_INTERNAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_INTERNAL_INFORMATION, fileinformationstructures_7be724e0-06ec-4555-bcce-14926b7d92df.xml, ifsk.file_internal_information, ntifs/FILE_INTERNAL_INFORMATION, ntifs/PFILE_INTERNAL_INFORMATION"
 req.header: ntifs.h
@@ -46,12 +45,11 @@ api_name:
  - FILE_INTERNAL_INFORMATION
 ---
 
-# _FILE_INTERNAL_INFORMATION structure
-
+# FILE_INTERNAL_INFORMATION structure
 
 ## -description
 
-The FILE_INTERNAL_INFORMATION structure is used to query for the file system's 8-byte file reference number for a file.
+The **FILE_INTERNAL_INFORMATION** structure is used to query for the file system's 8-byte file reference number for a file.
 
 ## -struct-fields
 
@@ -61,45 +59,30 @@ The 8-byte file reference number for the file. This number is assigned by the fi
 
 ## -remarks
 
-This information can be queried in either of the following ways: 
+This information can be queried in either of the following ways:
 
-<ul>
-<li>
-Call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>, passing FileInternalInformation as the value of <i>FileInformationClass</i> and passing a caller-allocated, FILE_INTERNAL_INFORMATION-structured buffer as the value of <i>FileInformation</i>. 
+* Call [**FltQueryInformationFile**](../fltkernel/nf-fltkernel-fltqueryinformationfile.md) or [**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md), passing FileInternalInformation as the value of **FileInformationClass** and passing a caller-allocated, FILE_INTERNAL_INFORMATION-structured buffer as the value of **FileInformation**.
 
-</li>
-<li>
-Create an IRP with major function code <a href="/windows-hardware/drivers/ifs/irp-mj-query-information">IRP_MJ_QUERY_INFORMATION</a>. 
+* Create an IRP with major function code [**IRP_MJ_QUERY_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-information).
 
-</li>
-</ul>
-No specific access rights are required to query this information. 
+No specific access rights are required to query this information.
 
-The <b>IndexNumber</b> member of the FILE_INTERNAL_INFORMATION structure is the same as the <b>FileId</b> member of the FILE_ID_BOTH_DIR_INFORMATION and FILE_ID_FULL_DIR_INFORMATION structures. 
+The **IndexNumber** member of the FILE_INTERNAL_INFORMATION structure is the same as the **FileId** member of the FILE_ID_BOTH_DIR_INFORMATION and FILE_ID_FULL_DIR_INFORMATION structures.
 
-File reference numbers, also called file IDs, are guaranteed to be unique only within a static file system. They are not guaranteed to be unique over time, because file systems are free to reuse them. Nor are they guaranteed to remain constant. For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk. Defragmentation can change this byte offset. Thus a FAT file reference number can change over time. 
+File reference numbers, also called file IDs, are guaranteed to be unique only within a static file system. They are not guaranteed to be unique over time, because file systems are free to reuse them. Nor are they guaranteed to remain constant. For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk. Defragmentation can change this byte offset. Thus a FAT file reference number can change over time.
 
-The size of the buffer passed in the <i>FileInformation</i> parameter to <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a> or <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a> must be at least <b>sizeof</b> (FILE_INTERNAL_INFORMATION). 
+The size of the buffer passed in the **FileInformation** parameter to [**FltQueryInformationFile**](../fltkernel/nf-fltkernel-fltqueryinformationfile.md) or [**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md) must be at least ```sizeof(FILE_INTERNAL_INFORMATION)```.
 
 This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_both_dir_information">FILE_ID_BOTH_DIR_INFORMATION</a>
+[**FILE_ID_BOTH_DIR_INFORMATION**](ns-ntifs-_file_id_both_dir_information.md)
 
+[**FILE_ID_FULL_DIR_INFORMATION**](ns-ntifs-_file_id_full_dir_information.md)
 
+[**FILE_OBJECTID_INFORMATION**](ns-ntifs-_file_objectid_information.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_id_full_dir_information">FILE_ID_FULL_DIR_INFORMATION</a>
+[**FltQueryInformationFile**](../fltkernel/nf-fltkernel-fltqueryinformationfile.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_objectid_information">FILE_OBJECTID_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltqueryinformationfile">FltQueryInformationFile</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntqueryinformationfile">ZwQueryInformationFile</a>
-
+[**ZwQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)

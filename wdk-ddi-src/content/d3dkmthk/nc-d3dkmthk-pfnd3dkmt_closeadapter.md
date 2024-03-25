@@ -9,7 +9,7 @@ ms.keywords: D3DKMTCloseAdapter, D3DKMTCloseAdapter callback function [Display D
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -38,8 +38,6 @@ api_location:
  - d3dkmthk.h
 api_name:
  - PFND3DKMT_CLOSEADAPTER
-product:
- - Windows
 ---
 
 # PFND3DKMT_CLOSEADAPTER callback function

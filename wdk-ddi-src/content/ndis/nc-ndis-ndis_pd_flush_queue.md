@@ -37,8 +37,6 @@ api_location:
  - Ndis.h
 api_name:
  - NDIS_PD_FLUSH_QUEUE
-product:
- - Windows
 ---
 
 # NDIS_PD_FLUSH_QUEUE callback function

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_MONITORSOURCEMODESET_CREATENEWMODEINFO callback function

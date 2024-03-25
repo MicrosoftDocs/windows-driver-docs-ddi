@@ -53,6 +53,8 @@ The volume manager supports this IOCTL as described for all types of basic and d
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Caller inserts the <a href="/windows-hardware/drivers/ddi/ntddvol/ns-ntddvol-_volume_physical_offset">VOLUME_PHYSICAL_OFFSET</a> structure, containing the physical offset and physical disk number, at the beginning of the buffer, at <b>Irp->AssociatedIrp.SystemBuffer</b>.

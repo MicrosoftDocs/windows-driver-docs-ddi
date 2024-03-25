@@ -50,6 +50,8 @@ The <b>IOCTL_GNSS_GET_CHIPSETINFO</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

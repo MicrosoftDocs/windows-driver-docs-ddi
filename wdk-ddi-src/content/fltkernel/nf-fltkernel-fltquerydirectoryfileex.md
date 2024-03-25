@@ -35,8 +35,6 @@ api_location:
  - fltkernel.h
 api_name:
  - FltQueryDirectoryFileEx
-product:
- - Windows
 ---
 
 # FltQueryDirectoryFileEx function

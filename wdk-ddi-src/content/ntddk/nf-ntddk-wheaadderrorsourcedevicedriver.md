@@ -35,8 +35,6 @@ api_location:
  - ntddk.h
 api_name:
  - WheaAddErrorSourceDeviceDriver
-product:
- - Windows
 ---
 
 # WheaAddErrorSourceDeviceDriver function

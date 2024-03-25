@@ -5,7 +5,7 @@ title: ACX_CIRCUIT_TYPE
 ms.date: 06/16/2022
 targetos: Windows
 description: The ACX_CIRCUIT_TYPE enumeration defines the types of ACXCIRCUITs.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxcircuit.h

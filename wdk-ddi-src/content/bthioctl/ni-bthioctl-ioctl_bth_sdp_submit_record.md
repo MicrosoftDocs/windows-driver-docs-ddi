@@ -53,6 +53,8 @@ The IOCTL_BTH_SDP_SUBMIT_RECORD request allows a profile driver to add an SDP re
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

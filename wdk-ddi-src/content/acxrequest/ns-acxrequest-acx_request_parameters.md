@@ -5,7 +5,7 @@ title: ACX_REQUEST_PARAMETERS
 ms.date: 07/27/2022
 targetos: Windows
 description: The ACX_REQUEST_PARAMETERS structure receives parameters that are associated with an I/O ACX request.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

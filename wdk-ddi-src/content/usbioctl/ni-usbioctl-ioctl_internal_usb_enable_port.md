@@ -49,6 +49,10 @@ The <b>IOCTL_INTERNAL_USB_ENABLE_PORT</b> IOCTL has been deprecated. Do not use.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 ### -input-buffer-length

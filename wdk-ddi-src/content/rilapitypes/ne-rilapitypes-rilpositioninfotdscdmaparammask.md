@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILPOSITIONINFOTDSCDMAPARAMMASK
-req.product: Windows 10 or later.
 f1_keywords:
  - RILPOSITIONINFOTDSCDMAPARAMMASK
  - rilapitypes/RILPOSITIONINFOTDSCDMAPARAMMASK

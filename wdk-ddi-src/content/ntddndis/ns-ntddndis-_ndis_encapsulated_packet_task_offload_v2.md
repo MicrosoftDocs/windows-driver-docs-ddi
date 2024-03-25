@@ -3,7 +3,7 @@ UID: NS:ntddndis._NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 title: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 (ntddndis.h)
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure contains the offload support state for VXLAN task offload. This structure is used in the EncapsulatedPacketTaskOffloadVxlan member of the NDIS_OFFLOAD structure.
 tech.root: netvista
-ms.date: 12/02/2021
+ms.date: 06/15/2023
 keywords: ["NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure"]
 ms.keywords: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2,
 req.header: ntddndis.h
@@ -119,7 +119,7 @@ Reserved for system use.
 
 ## -remarks
 
-In the initial capability advertisement and in [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) and [NDIS_STATUS_TASK_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/ndis-status-task-offload-hardware-capabilities) status indications, the **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, and **VmqSupported** members can be set to a bitwise OR of the following flags:
+In the initial capability advertisement and in [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) and [NDIS_STATUS_TASK_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/ndis-status-task-offload-hardware-capabilities) status indications, the **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, **VmqSupported**, and **UsoSupported** members can be set to a bitwise OR of the following flags:
 
 | Term | Description |
 | --- | --- |
@@ -129,7 +129,7 @@ In the initial capability advertisement and in [NDIS_STATUS_TASK_OFFLOAD_CURRENT
 | NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV6 | Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the inner IP header of an encapsulated packet is IPv6. |
 | NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6 | Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the outer IP header of an encapsulated packet is IPv6. |
 
-As an example, if a miniport adapter and driver only support an IPv6 header as outer IP header but not as inner IP header, it will set **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, and **VmqSupported** to the value of the bitwise OR of NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4 and NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6.
+As an example, if a miniport adapter and driver only support an IPv6 header as outer IP header but not as inner IP header, it will set **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, **VmqSupported**, and **UsoSupported** to the value of the bitwise OR of NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4 and NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6.
 
 Regarding IP options and TCP options, the following assumption was made for encapsulated packets:
 

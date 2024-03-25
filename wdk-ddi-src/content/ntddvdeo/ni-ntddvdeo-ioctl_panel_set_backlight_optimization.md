@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_SET_BACKLIGHT_OPTIMIZATION IOCTL
@@ -43,6 +41,8 @@ product:
 Sets the backlight optimization for the display panel.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

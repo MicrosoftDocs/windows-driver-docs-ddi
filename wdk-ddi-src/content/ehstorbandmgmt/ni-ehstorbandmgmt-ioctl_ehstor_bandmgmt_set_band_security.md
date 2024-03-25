@@ -49,6 +49,8 @@ The security properties of bands in a band-managed storage device are modified w
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_security_parameters"> SET_BAND_SECURITY_PARAMETERS</a> structure followed by the <b>AUTH_KEY</b> and <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_band_security_info">BAND_SECURITY_INFO</a> structures. 

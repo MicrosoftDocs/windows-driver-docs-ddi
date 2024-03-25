@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IAdapterPnpManagement::PnpStop
-product:
- - Windows
 ---
 
 # IAdapterPnpManagement::PnpStop

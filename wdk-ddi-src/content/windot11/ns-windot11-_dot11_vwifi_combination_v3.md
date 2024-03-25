@@ -44,8 +44,6 @@ api_name:
  - _DOT11_VWIFI_COMBINATION_V3
  - PDOT11_VWIFI_COMBINATION_V3
  - DOT11_VWIFI_COMBINATION_V3
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_VWIFI_COMBINATION_V3 structure

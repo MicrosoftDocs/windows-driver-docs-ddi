@@ -49,6 +49,8 @@ The <b>IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</b> request retrieves the banded
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

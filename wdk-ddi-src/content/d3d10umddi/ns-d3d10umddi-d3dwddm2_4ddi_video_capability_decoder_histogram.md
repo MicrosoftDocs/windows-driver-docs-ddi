@@ -31,8 +31,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
-product:
- - Windows
 ---
 
 # D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM structure

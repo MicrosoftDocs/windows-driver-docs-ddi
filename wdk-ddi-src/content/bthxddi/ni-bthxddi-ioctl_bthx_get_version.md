@@ -49,6 +49,8 @@ Profile drivers use IOCTL_BTHX_GET_VERSION to get the version supported by the t
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.Location.Location(ULONG64)
 title: Location(ULONG64) function (dbgmodel.h)
 description: Constructs a location from an offset into the virtual address space of the target.
-ms.date: 09/28/2018
+ms.date: 08/11/2023
 keywords: ["Location function"]
 ms.keywords: Location
 req.header: dbgmodel.h
@@ -51,18 +51,16 @@ Constructs a location from an offset into the virtual address space of the targe
 
 The virtual address.
 
-## -returns
-
-This function is a constructor and does not return value.
-
 ## -remarks
 
 Defines the location for an object.  This particular variant of Location is the C-COM access struct.
 Note that a location only has meaning in conjunction with a host context.  It is a location within
-a context.  When performing an operation on the location (reading bytes, writing bytes, etc...), 
-a valid host context must be supplied.
+a context.  When performing an operation on the location (reading bytes, writing bytes, etc...), a valid host context must be supplied.
+
+### Returns
+
+This function is a constructor and does not return value.
 
 ## -see-also
 
 [dbgmodel.h header](./index.md)
-

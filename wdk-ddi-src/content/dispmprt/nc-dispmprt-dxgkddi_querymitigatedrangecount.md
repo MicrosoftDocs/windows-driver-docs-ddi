@@ -35,8 +35,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGKDDI_QUERYMITIGATEDRANGECOUNT
-product:
- - Windows
 dev_langs:
  - c++
 ---

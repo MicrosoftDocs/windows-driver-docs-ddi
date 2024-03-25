@@ -34,12 +34,9 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATEVIDEOPROCESSOR_0072
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATEVIDEOPROCESSOR_0072 callback function
-
 
 ## -description
 
@@ -61,28 +58,7 @@ The video processor.
 
 ## -returns
 
-Returns STATUS_SUCCESS if completed successfully.
-
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_CREATEVIDEOPROCESSOR_0072 Pfnd3d12ddiCreatevideoprocessor0072;
-
-// Definition
-
-HRESULT Pfnd3d12ddiCreatevideoprocessor0072
-(
-    D3D12DDI_HDEVICE hDrvDevice
-    CONST D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072 *pArgs
-    D3D12DDI_HVIDEOPROCESSOR_0020 hDrvVideoProcessor
-)
-{...}
-
-PFND3D12DDI_CREATEVIDEOPROCESSOR_0072
-
-```
+If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 
@@ -93,4 +69,3 @@ See the [D3D Video Protected Resource Support Specification](https://microsoft.g
 ## -see-also
 
 [**D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072**](ns-d3d12umddi-d3d12ddiarg_create_video_processor_0072.md)
-

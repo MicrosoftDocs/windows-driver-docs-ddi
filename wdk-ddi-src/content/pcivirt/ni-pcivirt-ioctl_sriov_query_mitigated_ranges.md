@@ -55,6 +55,8 @@ The request determines the specific ranges on which intercepts must be placed.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_input">SRIOV_MITIGATED_RANGES_INPUT</a> structure that specifies the virtual function (VF) whose ranges are to be mitigated.

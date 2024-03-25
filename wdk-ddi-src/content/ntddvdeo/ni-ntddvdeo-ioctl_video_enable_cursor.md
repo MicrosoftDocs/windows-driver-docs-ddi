@@ -49,6 +49,8 @@ Makes the cursor visible by enabling the cursor's visibility attribute. Miniport
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

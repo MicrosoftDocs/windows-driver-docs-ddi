@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DKMT_ADAPTER_PERFDATA
  - D3DKMT_ADAPTER_PERFDATA
-product:
- - Windows
 ---
 
 # _D3DKMT_ADAPTER_PERFDATA structure

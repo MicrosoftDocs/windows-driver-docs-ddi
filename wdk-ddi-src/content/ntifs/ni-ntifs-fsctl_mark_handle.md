@@ -40,6 +40,40 @@ dev_langs:
 
 The **FSCTL_MARK_HANDLE** control code marks a specified file or directory and its change journal record with information about changes to that file or directory.
 
+## -ioctlparameters
+
+### -ioctl-major-code
+
+FSCTL_MARK_HANDLE
+
+### -input-buffer
+
+Pointer to a [**MARK_HANDLE_INFO**](ns-ntifs-mark_handle_info.md) structure containing the information to use to mark a specified file or directory, and its update sequence number (USN) change journal record with data about changes.
+
+### -input-buffer-length
+
+Size of the [**MARK_HANDLE_INFO**](ns-ntifs-mark_handle_info.md) structure that **InputBuffer** points to, in bytes.
+
+### -output-buffer
+
+Set to NULL.
+
+### -output-buffer-length
+
+n/a (ignored)
+
+### -in-out-buffer
+
+n/a
+
+### -inout-buffer-length
+
+n/a
+
+### -status-block
+
+Reserved for system use.
+
 ## -remarks
 
 To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md) with the following parameters.

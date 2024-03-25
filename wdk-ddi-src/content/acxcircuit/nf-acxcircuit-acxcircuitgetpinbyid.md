@@ -5,7 +5,7 @@ title: AcxCircuitGetPinById
 ms.date: 12/14/2022
 targetos: Windows
 description: When provided a valid PinID number, the AcxCircuitGetPinById function returns the corresponding ACXPIN object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

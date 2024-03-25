@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_EXTSTA_SEND_CONTEXT
  - PDOT11_EXTSTA_SEND_CONTEXT
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_EXTSTA_SEND_CONTEXT structure

@@ -49,6 +49,8 @@ The <b>IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS</b> control code queries for an
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to an input buffer that receives a [**PHYSICAL_ELEMENT_STATUS_REQUEST**](ns-ntddstor-_physical_element_status_request.md) structure that defines the starting element to look for the physical element status of a device.

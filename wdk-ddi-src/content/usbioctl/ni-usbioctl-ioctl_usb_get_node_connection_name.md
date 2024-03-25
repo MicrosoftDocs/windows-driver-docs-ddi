@@ -51,6 +51,8 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_NAME</b> I/O control request is used with t
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_name">USB_NODE_CONNECTION_NAME</a> structure. On input, the <b>ConnectionIndex</b> member of this structure must indicate the number of the port to check for an attached hub.

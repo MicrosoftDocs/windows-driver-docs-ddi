@@ -48,6 +48,8 @@ A driver can use **IOCTL_STORAGE_QUERY_PROPERTY** to return properties of a stor
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 **Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= **sizeof**([**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)).

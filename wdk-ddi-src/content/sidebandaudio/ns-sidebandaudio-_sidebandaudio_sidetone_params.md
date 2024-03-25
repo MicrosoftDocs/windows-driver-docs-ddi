@@ -1,8 +1,8 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_SIDETONE_PARAMS
 title: _SIDEBANDAUDIO_SIDETONE_PARAMS (sidebandaudio.h)
-description: Describes the endpoint index and sidetone value.
-ms.date: 10/19/2021
+description: The SIDEBANDAUDIO_SIDETONE_PARAMS structure describes the endpoint index and sidetone value.
+ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_SIDETONE_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_PARAMS, SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS,
 req.header: sidebandaudio.h
@@ -40,12 +40,11 @@ api_name:
  - SIDEBANDAUDIO_SIDETONE_PARAMS
 ---
 
-# _SIDEBANDAUDIO_SIDETONE_PARAMS structure
-
+# SIDEBANDAUDIO_SIDETONE_PARAMS structure
 
 ## -description
 
-Describes the endpoint index and sidetone value.
+The **SIDEBANDAUDIO_SIDETONE_PARAMS** structure describes the endpoint index and sidetone value.
 
 ## -struct-fields
 
@@ -65,10 +64,16 @@ Sidetone Volume and Mute per channel. Set as ULONG(-1) if channel specific sidet
 
 A [SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure](ns-sidebandaudio-_sidebandaudio_sidetone_descriptor.md) that describes the Sidetone on the device.
 
-
 ## -remarks
+
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
 
 ## -see-also
 
 [sidebandaudio.h](index.md)
 
+[SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure](ns-sidebandaudio-_sidebandaudio_sidetone_descriptor.md)

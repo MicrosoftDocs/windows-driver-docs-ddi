@@ -5,7 +5,7 @@ title: ACX_FACTORY_CIRCUIT_ADD_CIRCUIT
 ms.date: 09/30/2021
 targetos: Windows
 description: The ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure is used to add circuits by an ACX circuit factory.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

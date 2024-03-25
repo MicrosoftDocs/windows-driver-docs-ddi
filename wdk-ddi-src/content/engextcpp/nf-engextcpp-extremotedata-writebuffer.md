@@ -4,7 +4,7 @@ title: ExtRemoteData::WriteBuffer (engextcpp.h)
 description: The WriteBuffer method writes data to the target's memory. The data is located in the beginning of the region represented by the ExtRemoteData object. However, the size of the data can be different.
 old-location: debugger\extremotedata_writebuffer.htm
 tech.root: debugger
-ms.date: 05/03/2018
+ms.date: 08/11/2023
 keywords: ["ExtRemoteData::WriteBuffer"]
 ms.keywords: EngExtCpp_Ref_0a08b058-ddc3-44e4-9d80-bb20d6e8f952.xml, ExtRemoteData class [Windows Debugging],WriteBuffer method, ExtRemoteData.WriteBuffer, ExtRemoteData::WriteBuffer, WriteBuffer, WriteBuffer method [Windows Debugging], WriteBuffer method [Windows Debugging],ExtRemoteData class, debugger.extremotedata_writebuffer
 req.header: engextcpp.hpp
@@ -51,19 +51,13 @@ The <b>WriteBuffer</b> method writes data to the target's memory.  The data is l
 
 ### -param Buffer [in]
 
-
 Specifies the data to write to the target.
 
 ### -param Bytes [in]
 
-
 Specifies the number of bytes to write.  The <i>Buffer</i> buffer must be at least this size.
 
 ### -param MustWriteAll
-
-### -param MustReadAll [in]
-
-Specifies what happens if the debugger engine is unable to write all the data to the target.  If <i>MustReadAll</i> is <code>true</code> and the debugger engine is unable to write <i>Bytes</i> bytes to the target, an <b>ExtRemoteException</b> will be thrown.  If <i>MustReadAll</i> is <code>false</code>, no exception will be thrown if the engine is unable to write the requested number of bytes to the target.
 
 ## -returns
 

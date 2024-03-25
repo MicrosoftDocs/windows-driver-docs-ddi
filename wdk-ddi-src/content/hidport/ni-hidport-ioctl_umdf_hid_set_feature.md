@@ -50,6 +50,8 @@ The <a href="/windows-hardware/drivers/ddi/hidport/ni-hidport-ioctl_umdf_hid_get
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A UMDF-based driver calls <a href="/windows-hardware/drivers/ddi/wudfddi/nf-wudfddi-iwdfiorequest-getinputmemory">IWDFRequest::GetInputMemory</a> to retrieve a  requester-allocated input buffer that contains a feature report.

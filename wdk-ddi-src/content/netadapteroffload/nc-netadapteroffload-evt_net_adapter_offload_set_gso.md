@@ -35,8 +35,6 @@ api_location:
  - netadapteroffload.h
 api_name:
  - EVT_NET_ADAPTER_OFFLOAD_SET_GSO
-product:
- - Windows
 ---
 
 # EVT_NET_ADAPTER_OFFLOAD_SET_GSO callback function

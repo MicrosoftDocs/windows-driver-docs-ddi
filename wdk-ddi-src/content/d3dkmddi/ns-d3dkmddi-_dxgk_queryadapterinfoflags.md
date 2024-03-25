@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_QUERYADAPTERINFOFLAGS
  - DXGK_QUERYADAPTERINFOFLAGS
-product:
- - Windows
 ---
 
 # _DXGK_QUERYADAPTERINFOFLAGS structure

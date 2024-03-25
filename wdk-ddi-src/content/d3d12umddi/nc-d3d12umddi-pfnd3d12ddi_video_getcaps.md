@@ -38,8 +38,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - PFND3D12DDI_VIDEO_GETCAPS
-product:
- - Windows
 ---
 
 # PFND3D12DDI_VIDEO_GETCAPS callback function

@@ -49,6 +49,8 @@ This <b>IOCTL_EHSTOR_BANDMGMT_REVERT</b> request is sent to deactivate the secur
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <b> ACTIVATE_REVERT_PARAMETERS</b>  structure. <b>ACTIVATE_REVERT_PARAMETERS</b> is declared in <i>ehstorbandmgmt.h</i> as the following.

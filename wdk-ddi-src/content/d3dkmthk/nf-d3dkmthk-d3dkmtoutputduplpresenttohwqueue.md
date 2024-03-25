@@ -36,8 +36,6 @@ api_location:
  - Gdi32.dll
 api_name:
  - D3DKMTOutputDuplPresentToHwQueue
-product:
- - Windows
 dev_langs:
  - c++
 ---

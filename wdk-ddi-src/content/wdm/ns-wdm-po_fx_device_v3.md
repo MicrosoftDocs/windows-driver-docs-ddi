@@ -38,8 +38,6 @@ api_name:
  - _PO_FX_DEVICE_V3
  - PPO_FX_DEVICE_V3
  - PO_FX_DEVICE_V3
-product:
- - Windows
 ---
 
 # PO_FX_DEVICE_V3 structure

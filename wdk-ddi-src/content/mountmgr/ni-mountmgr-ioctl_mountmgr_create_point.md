@@ -109,6 +109,8 @@ In this pseudocode sample, a mount manager client uses IOCTL_MOUNTMGR_CREATE_POI
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The mount point manager places a header, defined as the structure <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_create_point_input">MOUNTMGR_CREATE_POINT_INPUT</a> in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The mount manager inserts the newly-assigned persistent symbolic link name at the address pointed to by the <i>SymbolicLinkNameOffset</i> member of this structure, and it inserts the nonpersistent device name at the address pointed to by the <i>DeviceNameOffset</i> member of this structure.

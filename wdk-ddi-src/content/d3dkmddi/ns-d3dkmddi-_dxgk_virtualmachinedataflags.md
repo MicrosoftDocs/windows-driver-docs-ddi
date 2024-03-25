@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_VIRTUALMACHINEDATAFLAGS
  - DXGK_VIRTUALMACHINEDATAFLAGS
-product:
- - Windows
 ---
 
 # DXGK_VIRTUALMACHINEDATAFLAGS structure

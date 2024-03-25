@@ -27,8 +27,6 @@ api_location:
 api_name:
  - _NET_PACKET_TX_CHECKSUM_ACTION
  - NET_PACKET_TX_CHECKSUM_ACTION
-product:
- - Windows
 f1_keywords:
  - _NET_PACKET_TX_CHECKSUM_ACTION
  - checksumtypes/_NET_PACKET_TX_CHECKSUM_ACTION

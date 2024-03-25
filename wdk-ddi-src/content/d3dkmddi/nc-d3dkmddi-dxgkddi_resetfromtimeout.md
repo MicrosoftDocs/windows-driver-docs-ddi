@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_RESETFROMTIMEOUT
-product:
- - Windows
 ---
 
 # DXGKDDI_RESETFROMTIMEOUT callback function

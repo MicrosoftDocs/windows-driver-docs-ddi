@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.RtlAddAce
 title: RtlAddAce function (ntifs.h)
-description: The RtlAddAce routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
-old-location: ifsk\rtladdace.htm
+description: Learn more about the RtlAddAce function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["RtlAddAce function"]
 ms.keywords: RtlAddAce, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available starting with Windows Server 2003 with SP1.
+req.target-min-winverclnt: Windows Server 2003 with SP1
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,146 +42,70 @@ api_name:
 
 # RtlAddAce function
 
-
 ## -description
 
-The <b>RtlAddAce</b> routine adds one or more access control entries (ACEs) to a specified access control list (ACL).
+The **RtlAddAce** routine adds one or more access control entries (ACEs) to a specified access control list ([**ACL**](../wdm/ns-wdm-_acl.md)).
 
 ## -parameters
 
 ### -param Acl [in, out]
 
-
-Pointer to the ACL to be modified. <b>RtlAddAce</b> adds the specified ACEs to this ACL.
+Pointer to the ACL to be modified. **RtlAddAce** adds the specified ACEs to this ACL.
 
 ### -param AceRevision [in]
 
-
 ACL revision level of the ACE to be added. Windows version requirments are the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ACL_REVISION</dt>
-</dl>
-</td>
-<td width="60%">
-The revision level valid on all Windows versions.
+| Value | Meaning |
+| ----- | ------- |
+| ACL_REVISION    | The revision level valid on all Windows versions. |
+| ACL_REVISION_DS | The revision level valid starting with Windows 2000. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt>ACL_REVISION_DS</dt>
-</dl>
-</td>
-<td width="60%">
-The revision level valid starting with Windows 2000.
-
-<div class="alert"><b>Note</b>  <i>AceRevision</i> must be ACL_REVISION_DS if the ACL in <i>Acl</i> contains an object-specific ACE.</div>
-<div> </div>
-</td>
-</tr>
-</table>
+**AceRevision** must be ACL_REVISION_DS if the ACL in **Acl** contains an object-specific ACE.
 
 ### -param StartingAceIndex [in]
-
 
 Specifies the position in the ACL's list of ACEs at which to add new ACEs. A value of zero inserts the ACEs at the beginning of the list. A value of MAXULONG appends the ACEs to the end of the list.
 
 ### -param AceList [in]
 
-
 Pointer to a buffer containing a list of one or more ACEs to be added to the specified ACL. The ACEs in the list must be stored contiguously.
 
 ### -param AceListLength [in]
 
-
-Size, in bytes, of the input buffer pointed to by the <i>AceList</i> parameter.
+Size, in bytes, of the input buffer pointed to by the **AceList** parameter.
 
 ## -returns
 
-<b>RtlAddAce</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
+**RtlAddAce** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The new ACEs do not fit into the ACL. A larger ACL buffer is required. STATUS_BUFFER_TOO_SMALL is an error code. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the parameter values was invalid. Possible reasons include: 
-
-<ul>
-<li>
-The specified ACL is invalid.
-
-</li>
-<li>
-The specified revision is unknown, is not compatible with revisions in the ACE list, or is not compatible with the revision of the ACL. 
-
-</li>
-</ul>
-STATUS_INVALID_PARAMETER is an error code. 
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_BUFFER_TOO_SMALL   | The new ACEs do not fit into the ACL. A larger ACL buffer is required. STATUS_BUFFER_TOO_SMALL is an error code. |
+| STATUS_INVALID_PARAMETER | One of the parameter values was invalid. Possible reasons include that the specified ACL is invalid or the specified revision is unknown, is not compatible with revisions in the ACE list, or is not compatible with the revision of the ACL. STATUS_INVALID_PARAMETER is an error code. |
 
 ## -remarks
 
-For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>. 
+For information about calculating the size of an ACL, see the Remarks section of the reference entry for [**RtlCreateAcl**](nf-ntifs-rtlcreateacl.md).
 
-To obtain a pointer to an ACE in an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>. 
+To obtain a pointer to an ACE in an ACL, use [**RtlGetAce**](nf-ntifs-rtlgetace.md).
 
-To delete an ACE from an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldeleteace">RtlDeleteAce</a>. 
+To delete an ACE from an ACL, use [**RtlDeleteAce**](nf-ntifs-rtldeleteace.md).
 
-To add an access-allowed ACE to an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtladdaccessallowedace">RtlAddAccessAllowedAce</a>. 
+To add an access-allowed ACE to an ACL, use [**RtlAddAccessAllowedAce**](nf-ntifs-rtladdaccessallowedace.md).
 
-For more information about security and access control, see the Microsoft Windows Software Development Kit (SDK) for Windows 7 and .NET Framework 4.0 documentation.
+For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/ace">ACE</a>
+[**ACE**](/windows-hardware/drivers/ifs/ace)
 
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
+[**RtlAddAccessAllowedAce**](nf-ntifs-rtladdaccessallowedace.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[**RtlCreateAcl**](nf-ntifs-rtlcreateacl.md)
 
+[**RtlDeleteAce**](nf-ntifs-rtldeleteace.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtladdaccessallowedace">RtlAddAccessAllowedAce</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtldeleteace">RtlDeleteAce</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>
+[**RtlGetAce**](nf-ntifs-rtlgetace.md)

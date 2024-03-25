@@ -4,7 +4,7 @@ title: PTRANSFER_CODEC_VERBS (hdaudio.h)
 description: The TransferCodecVerbs routine transfers one or more commands to a codec or codecs and retrieves the responses to those commands.The function pointer type for a TransferCodecVerbs routine is defined as follows.
 old-location: audio\transfercodecverbs.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["PTRANSFER_CODEC_VERBS callback function"]
 ms.keywords: PTRANSFER_CODEC_VERBS, PTRANSFER_CODEC_VERBS callback, TransferCodecVerbs, TransferCodecVerbs callback function [Audio Devices], aud-prop2_120467b8-2871-49f5-9e5a-0715505e786e.xml, audio.transfercodecverbs, hdaudio/TransferCodecVerbs
 req.header: hdaudio.h
@@ -42,7 +42,6 @@ api_name:
 
 # PTRANSFER_CODEC_VERBS callback function
 
-
 ## -description
 
 The <i>TransferCodecVerbs</i> routine transfers one or more commands to a codec or codecs and retrieves the responses to those commands.
@@ -53,27 +52,21 @@ The function pointer type for a <i>TransferCodecVerbs</i> routine is defined as 
 
 ### -param _context [in]
 
-
 Specifies the context value from the <b>Context</b> member of the <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface">HDAUDIO_BUS_INTERFACE</a><u>, </u><a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_v2">HDAUDIO_BUS_INTERFACE_V2</a><u>,</u> or <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_bus_interface_bdl">HDAUDIO_BUS_INTERFACE_BDL</a> structure.
 
 ### -param Count [in]
-
 
 Specifies the number of elements in the <i>codecTransfer</i> array.
 
 ### -param CodecTransfer [in, out]
 
-
 Pointer to an array of <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_codec_transfer">HDAUDIO_CODEC_TRANSFER</a> structures. Each array element is a structure that contains storage for both an output command from the caller and the corresponding input response from the codec.
 
 ### -param Callback [in]
 
-
 Function pointer to a callback routine. This parameter is a function pointer of type HDAUDIO_TRANSFER_COMPLETE_CALLBACK. The parameter can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
-### -param Context
-
-### -param CallbackContext [in]
+### -param Context [in]
 
 A context value for the callback routine. The caller casts the context value to type PVOID. After completing the commands asynchronously, the HD Audio bus driver passes the context value to the callback routine as a call parameter.
 
@@ -120,7 +113,7 @@ If the caller specifies a non-<b>NULL</b> value for the <i>callback</i> paramete
 The function pointer type for the callback parameter is defined as:
 
 
-```
+```cpp
 typedef VOID
   (*PHDAUDIO_TRANSFER_COMPLETE_CALLBACK)
     (HDAUDIO_CODEC_TRANSFER *, PVOID);

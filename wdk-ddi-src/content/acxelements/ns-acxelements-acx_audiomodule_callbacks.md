@@ -5,7 +5,7 @@ title: ACX_AUDIOMODULE_CALLBACKS
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOMODULE_CALLBACKS structure identifies the driver callbacks for ACX audio module operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

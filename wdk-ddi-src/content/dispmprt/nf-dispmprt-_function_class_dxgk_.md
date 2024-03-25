@@ -36,8 +36,6 @@ api_location:
  - dispmprt.h
 api_name:
  - _Function_class_DXGK_
-product:
- - Windows
 dev_langs:
  - c++
 ---

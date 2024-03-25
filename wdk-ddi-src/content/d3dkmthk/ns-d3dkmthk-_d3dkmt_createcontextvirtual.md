@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CREATECONTEXTVIRTUAL
 title: D3DKMT_CREATECONTEXTVIRTUAL (d3dkmthk.h)
-description: D3DKMT_CREATECONTEXTVIRTUAL is used with D3DKMTCreateContextVirtual to create a kernel mode device context that supports virtual addressing.
+description: Learn more about the D3DKMT_CREATECONTEXTVIRTUAL structure.
 old-location: display\d3dkmt_createcontextvirtual.htm
 ms.date: 02/28/2023
 keywords: ["D3DKMT_CREATECONTEXTVIRTUAL structure"]
@@ -51,37 +51,37 @@ api_name:
 
 ## -struct-fields
 
-### -field hDevice [in]
+### -field hDevice
 
-A handle to the device that owns the context being created.
+[in] A handle to the device that owns the context being created.
 
-### -field NodeOrdinal [in]
+### -field NodeOrdinal
 
-The zero-based index for the node that the context is scheduled on.
+[in] The zero-based index for the node that the context is scheduled on.
 
-### -field EngineAffinity [in]
+### -field EngineAffinity
 
-The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
+[in] The zero-based index for the engine, within the node that **NodeOrdinal** specifies, that the context can run in.
 
-### -field Flags [in]
+### -field Flags
 
-A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
+[in] A [**D3DDDI_CREATECONTEXTFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_createcontextflags.md) structure that indicates, in bit-field flags, how to create the context.
 
-### -field unnamedParam1 [in]
+### -field pPrivateDriverData
 
-A pointer to private data that is passed to a display miniport driver.
+[in] A pointer to private data that is passed to a display miniport driver.
 
-### -field PrivateDriverDataSize [in]
+### -field PrivateDriverDataSize
 
-The size, in bytes, of the private data that **pPrivateDriverData** points to.
+[in] The size, in bytes, of the private data that **pPrivateDriverData** points to.
 
-### -field ClientHint [in]
+### -field ClientHint
 
-A hint describing which graphics subsystem is creating the context.
+[in] A hint describing which graphics subsystem is creating the context.
 
-### -field hContext [out]
+### -field hContext
 
-A handle to the created device context.
+[out] A handle to the created device context.
 
 ## -see-also
 

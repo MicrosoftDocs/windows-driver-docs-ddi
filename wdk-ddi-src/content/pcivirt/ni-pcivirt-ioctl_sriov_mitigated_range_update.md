@@ -55,6 +55,8 @@ The  <b>IOCTL_SRIOV_MITIGATED_RANGE_UPDATE</b> request indicates that the virtua
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_mitigated_range_update_input">SRIOV_MITIGATED_RANGE_UPDATE_INPUT</a> structure.

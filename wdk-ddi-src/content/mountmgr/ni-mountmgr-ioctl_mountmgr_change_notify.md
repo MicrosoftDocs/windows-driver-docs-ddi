@@ -61,6 +61,8 @@ If the number supplied by the client is equal to <i>EpicNumber</i>, the mount ma
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The mount manager client initializes the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_change_notify_info">MOUNTMGR_CHANGE_NOTIFY_INFO</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.

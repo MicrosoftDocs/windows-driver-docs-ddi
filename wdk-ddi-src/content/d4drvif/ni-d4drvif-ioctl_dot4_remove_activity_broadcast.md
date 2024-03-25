@@ -49,6 +49,8 @@ This topic describes IOCTL_DOT4_REMOVE_ACTIVITY_BROADCAST.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

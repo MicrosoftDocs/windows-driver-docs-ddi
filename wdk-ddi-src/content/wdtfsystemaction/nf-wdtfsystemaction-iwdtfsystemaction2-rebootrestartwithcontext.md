@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::RebootRestartWithContext (wdtfsystemaction.h)
 description: Reboots the system and restarts the test script with context data.
 old-location: dtf\iwdtfsystemaction2_rebootrestartwithcontext.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 07/27/2023
 keywords: ["IWDTFSystemAction2::RebootRestartWithContext"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],RebootRestartWithContext method, IWDTFSystemAction2.RebootRestartWithContext, IWDTFSystemAction2::RebootRestartWithContext, Microsoft.WDTF.IWDTFSystemAction2.RebootRestartWithContext, Microsoft::WDTF::IWDTFSystemAction2::RebootRestartWithContext, RebootRestartWithContext, RebootRestartWithContext method [Windows Device Testing Framework], RebootRestartWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_rebootrestartwithcontext, wdtfsystemaction/IWDTFSystemAction2::RebootRestartWithContext
 req.header: wdtfsystemaction.h
@@ -42,23 +42,15 @@ api_name:
 
 # IWDTFSystemAction2::RebootRestartWithContext
 
-
 ## -description
 
 Reboots the  system and restarts the test script with context data.
 
 ## -parameters
 
-### -param psContextName
-
-### -param psContext [in]
+### -param psContextName [in]
 
 The context name.
-
-
-### -param psContextData [in]
-
-The context data.
 
 ## -returns
 
@@ -67,4 +59,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-

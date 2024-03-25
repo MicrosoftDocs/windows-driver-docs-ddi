@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_PREEMPTCOMMAND
-product:
- - Windows
 ---
 
 # DXGKDDI_PREEMPTCOMMAND callback function

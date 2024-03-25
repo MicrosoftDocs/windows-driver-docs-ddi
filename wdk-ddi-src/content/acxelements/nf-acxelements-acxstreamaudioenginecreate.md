@@ -5,7 +5,7 @@ title: AcxStreamAudioEngineCreate
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxStreamAudioEngineCreate function is used to create an ACX stream audio engine object that will be associated with an ACX stream object parent.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -5,7 +5,7 @@ title: AcxTargetCircuitGetTargetElement
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitGetTargetElement function, given a valid element index value, will return the associated ACXTARGETELEMENT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_GETVIRTUALGPUINFO
  - PDXGKARG_GETVIRTUALGPUINFO
  - DXGKARG_GETVIRTUALGPUINFO
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -41,8 +41,6 @@ api_location:
 api_name:
  - _D3DKMDT_MONITOR_FREQUENCY_RANGE
  - D3DKMDT_MONITOR_FREQUENCY_RANGE
-product:
- - Windows
 ---
 
 # D3DKMDT_MONITOR_FREQUENCY_RANGE structure

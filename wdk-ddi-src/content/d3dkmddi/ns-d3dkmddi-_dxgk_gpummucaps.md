@@ -91,11 +91,11 @@ When set to 1, the GPU supports two pointers to page tables in the level one pag
 
 ### -field AllowNonAlignedLargePageAddress
 
-When set to 1, the Operating System is able to set the **LargePage** flag when the physical address of the large page entry is not aligned to the leaf page table coverage.
+When set to 1, the Operating System is able to set the **LargePage** flag when the physical address of the large page entry is not aligned to the leaf page table coverage. Available starting in Windows 10 version 1607 (WDDM 2.1).
 
 ### -field SysMem64KBPageSupported
 
-The driver provides memory segment management at 64KB.
+The driver provides memory segment management at 64KB. Available starting in Windows 10 version 1607 (WDDM 2.1).
 
 ### -field InvalidTlbEntriesNotCached
 
@@ -111,9 +111,13 @@ The driver provides large-page support. Available starting in Windows Server 202
 
 Cached page tables are supported. Available starting in WDDM 3.1.
 
+### -field Reserved
+
+Reserved for system use; don't use.
+
 ### -field Value
 
-The value of the structure expressed as an integer.
+The value of the union's structure expressed as an integer.
 
 ### -field PageTableUpdateMode
 

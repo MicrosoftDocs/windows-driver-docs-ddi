@@ -42,7 +42,6 @@ api_name:
 
 # IWDTFSystemAction2::PowerTracingStartByFile
 
-
 ## -description
 
 Starts a trace session for power state transitions and saves the trace message file (.etl) using the specified path. This method is available starting with Windows 8.
@@ -51,9 +50,7 @@ Starts a trace session for power state transitions and saves the trace message f
 
 ### -param EventFilePath [in]
 
-
-Specifies the location to store the trace message (.etl)
-    log file.
+Specifies the location to store the trace message (.etl) log file.
 
 ## -returns
 
@@ -62,4 +59,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-

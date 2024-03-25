@@ -48,6 +48,7 @@
     "netadapteroffload.h",
     "netadapterpacket.h",
     "netconfiguration.h",
+    "netdatapathdescriptor.h",
     "netdevice.h",
     "netdma.h",
     "netexecutioncontext.h",

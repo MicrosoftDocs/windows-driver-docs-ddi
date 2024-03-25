@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION</b> control code configures the 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

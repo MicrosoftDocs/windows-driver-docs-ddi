@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_GET_PRESENT_PRIVATE_DRIVER_DATA_SIZE
-product:
- - Windows
 dev_langs:
  - c++
 ---

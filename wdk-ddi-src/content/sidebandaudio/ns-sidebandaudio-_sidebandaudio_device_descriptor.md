@@ -1,8 +1,8 @@
 ---
 UID: NS:sidebandaudio._SIDEBANDAUDIO_DEVICE_DESCRIPTOR
 title: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR (sidebandaudio.h)
-description: Describes the number of endpoints on the device.
-ms.date: 09/06/2018
+description: The SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure describes the number of endpoints on the device.
+ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_DEVICE_DESCRIPTOR, SIDEBANDAUDIO_DEVICE_DESCRIPTOR, *PSIDEBANDAUDIO_DEVICE_DESCRIPTOR,
 req.header: sidebandaudio.h
@@ -40,12 +40,11 @@ api_name:
  - SIDEBANDAUDIO_DEVICE_DESCRIPTOR
 ---
 
-# _SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure
-
+# SIDEBANDAUDIO_DEVICE_DESCRIPTOR structure
 
 ## -description
 
-Describes the number of endpoints on the device.
+The **SIDEBANDAUDIO_DEVICE_DESCRIPTOR** structure describes the number of endpoints on the device.
 
 ## -struct-fields
 
@@ -56,7 +55,14 @@ Number of Audio endpoints on the devices that can be sidebanded.  This number ex
 ## -remarks
 
 A device can contain multiple audio endpoints that can be used in Sideband mode. The number of endpoints can be used to iterate through all the endpoints contained in the device using a 0 based index (0 to n-1).
-Driver should call <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a> iteratively to get details about each of the endpoints.
+
+The driver should call <a href="/windows-hardware/drivers/ddi/sidebandaudio/ni-sidebandaudio-ioctl_sbaud_get_endpoint_descriptor">IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR</a> iteratively to get details about each of the endpoints.
+
+## -requirements
+
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
 
 ## -see-also
 

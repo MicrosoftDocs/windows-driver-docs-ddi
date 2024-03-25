@@ -57,7 +57,7 @@ The <b>WDF_INTERRUPT_PRIORITY</b> enumeration type identifies relative prioritie
 
 ## -enum-fields
 
-### -field WdfIrqPriorityUndefined
+### -field WdfIrqPriorityUndefined:0
 
 The relative priority of a device's interrupt is undefined.
 

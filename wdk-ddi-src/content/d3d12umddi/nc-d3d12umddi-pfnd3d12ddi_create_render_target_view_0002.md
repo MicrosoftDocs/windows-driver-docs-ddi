@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATE_RENDER_TARGET_VIEW_0002
-product:
- - Windows
 dev_langs:
  - c++
 ---

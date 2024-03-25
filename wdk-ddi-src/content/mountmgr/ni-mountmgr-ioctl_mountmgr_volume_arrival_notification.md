@@ -53,6 +53,8 @@ Clients that have registered a device interface of type MOUNTDEV_MOUNTED_DEVICE_
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The mount manager client loads the following structure with the nonpersistent target device name. The initialized structure, <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_target_name">MOUNTMGR_TARGET_NAME</a>, defined in <i>Mountmgr.h</i>, is inserted at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.

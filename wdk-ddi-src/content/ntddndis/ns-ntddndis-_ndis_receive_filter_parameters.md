@@ -177,7 +177,7 @@ When the hardware timer expires, the adapter must generate a receive interrupt t
 
 ### -field VPortId
 
-The VPort identifier on which the receive filter is to be configured. A value of DEFAULT_VPORT_ID specifies the default VPort that is attached to the PCI Express (PCIe) physical function (PF) of the network adapter.
+The VPort identifier on which the receive filter is to be configured. A value of NDIS_DEFAULT_VPORT_ID specifies the default VPort that is attached to the PCI Express (PCIe) physical function (PF) of the network adapter.
 
 
 

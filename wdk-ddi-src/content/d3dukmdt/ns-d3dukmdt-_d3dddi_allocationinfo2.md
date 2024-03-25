@@ -2,7 +2,7 @@
 UID: NS:d3dukmdt._D3DDDI_ALLOCATIONINFO2
 title: D3DDDI_ALLOCATIONINFO2 (d3dukmdt.h)
 description: Learn more about the D3DDDI_ALLOCATIONINFO2 structure.
-ms.date: 03/21/2023
+ms.date: 11/17/2023
 keywords: ["D3DDDI_ALLOCATIONINFO2 structure"]
 ms.keywords: _D3DDDI_ALLOCATIONINFO2, D3DDDI_ALLOCATIONINFO2,
 req.header: d3dukmdt.h
@@ -57,11 +57,11 @@ Union with **hSection** and **pSystemMem**.
 
 ### -field D3DKMT_ALIGN64.hSection
 
-[in] A handle to valid section object.
+[in] A handle to valid section object. Use **hSection** when [**D3DKMT_CREATEALLOCATIONFLAGS::ExistingSection**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocationflags.md) is set.
 
 ### -field D3DKMT_ALIGN64.pSystemMem
 
-[in] A pointer to pre-allocated system memory.
+[in] A pointer to pre-allocated system memory. Use **pSystemMem** when [**D3DKMT_CREATEALLOCATIONFLAGS::ExistingSection**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_createallocationflags.md) isn't set.
 
 ### -field pPrivateDriverData
 

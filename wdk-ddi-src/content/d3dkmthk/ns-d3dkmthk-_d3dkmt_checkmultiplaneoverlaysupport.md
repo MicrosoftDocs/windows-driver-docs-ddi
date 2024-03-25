@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT
 title: D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT (d3dkmthk.h)
-description: The _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT structure contains information that is used to check for multiplane overlay support.
-ms.date: 10/19/2018
+description: Learn more about the D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT structure.
+ms.date: 10/04/2023
 keywords: ["D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT structure"]
 ms.keywords: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT, D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT,
 req.header: d3dkmthk.h
@@ -57,7 +57,7 @@ A handle to the device.
 
 The number of resources to pin.
 
-### -field unnamedParam1
+### -field pOverlayPlanes
 
 Array of pointers to overlay planes.
 
@@ -69,6 +69,6 @@ Indicates support.
 
 The return info.
 
-## -remarks
-
 ## -see-also
+
+[**D3DKMTCheckMultiPlaneOverlaySupport**](nf-d3dkmthk-d3dkmtcheckmultiplaneoverlaysupport.md)

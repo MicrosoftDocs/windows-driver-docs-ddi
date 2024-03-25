@@ -35,8 +35,6 @@ api_name:
  - _STOR_TELEMETRY_CATEGORY
  - PSTOR_TELEMETRY_CATEGORY
  - STOR_TELEMETRY_CATEGORY
-product:
- - Windows
 dev_langs:
  - c++
 ---

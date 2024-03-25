@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_ADAPTER_PERFDATACAPS
  - DXGK_ADAPTER_PERFDATACAPS
-product:
- - Windows
 ---
 
 # _DXGK_ADAPTER_PERFDATACAPS structure

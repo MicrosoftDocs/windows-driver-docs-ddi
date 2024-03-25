@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _CHROMATICITY_COORDINATE
  - CHROMATICITY_COORDINATE
-product:
- - Windows
 ---
 
 # _CHROMATICITY_COORDINATE structure

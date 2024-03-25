@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_PMC, *PPCI_PMC
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_PMC
  - wdm/_PCI_PMC

@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
  - PDOT11_BSS_ENTRY_PHY_SPECIFIC_INFO
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO structure

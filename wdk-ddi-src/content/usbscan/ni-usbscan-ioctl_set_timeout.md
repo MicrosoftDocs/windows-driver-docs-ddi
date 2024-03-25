@@ -45,6 +45,8 @@ Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a [USBSCAN_TIMEOUT](./ns-usbscan-_usbscan_timeout.md) structure.

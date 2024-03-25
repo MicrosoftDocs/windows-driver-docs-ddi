@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IPortClsStreamResourceManager::RemoveStreamResource
-product:
- - Windows
 ---
 
 # IPortClsStreamResourceManager::RemoveStreamResource

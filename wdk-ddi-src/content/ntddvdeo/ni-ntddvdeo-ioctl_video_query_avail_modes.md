@@ -49,6 +49,8 @@ Returns information about each video mode supported by the adapter. Miniport dri
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

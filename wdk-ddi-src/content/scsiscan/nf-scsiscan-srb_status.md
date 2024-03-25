@@ -36,8 +36,6 @@ api_location:
  - scsiscan.h
 api_name:
  - SRB_STATUS
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -49,6 +49,8 @@ An application can use IOCTL_KS_METHOD to execute a method on a KS object. The a
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The application places a pointer to a structure of type <a href="/windows-hardware/drivers/stream/ksmethod-structure">KSMETHOD</a> specifying the method to invoke in the <b>InBuffer</b> parameter, and the size of the method structure at <b>InLength</b>.

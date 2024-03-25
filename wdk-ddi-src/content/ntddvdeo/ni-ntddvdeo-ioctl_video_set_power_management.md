@@ -51,6 +51,8 @@ Resets the power-consumption level of the adapter to the specified state. As lon
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntddvdeo/ns-ntddvdeo-_video_power_management">VIDEO_POWER_MANAGEMENT</a> structure, specifying the state to be set.

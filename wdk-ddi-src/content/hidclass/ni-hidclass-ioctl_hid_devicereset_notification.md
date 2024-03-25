@@ -73,6 +73,8 @@ AddReg = hidi2c_Device.Filter.AddReg, hidi2c_Device.Configuration.AddReg
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        None.

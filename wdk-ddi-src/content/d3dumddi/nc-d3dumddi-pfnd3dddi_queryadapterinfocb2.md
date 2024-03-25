@@ -34,8 +34,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_QUERYADAPTERINFOCB2
-product:
- - Windows
 ---
 
 # PFND3DDDI_QUERYADAPTERINFOCB2 callback function

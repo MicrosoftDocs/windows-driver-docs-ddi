@@ -34,8 +34,6 @@ api_location:
  - ntddk.h
 api_name:
  - PFN_WHEA_HIGH_IRQL_LOG_SEL_EVENT_HANDLER
-product:
- - Windows
 ---
 
 ## -description

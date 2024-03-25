@@ -53,6 +53,8 @@ The <b>IOCTL_USB_GET_HUB_CAPABILITIES</b> I/O control request retrieves the capa
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

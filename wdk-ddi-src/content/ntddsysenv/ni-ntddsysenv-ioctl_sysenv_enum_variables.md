@@ -50,6 +50,8 @@ Returns information about system environment variables using
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A boolean value indicating whether values should be included.

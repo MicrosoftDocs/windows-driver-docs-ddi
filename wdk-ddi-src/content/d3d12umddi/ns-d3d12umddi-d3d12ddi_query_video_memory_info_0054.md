@@ -32,8 +32,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_QUERY_VIDEO_MEMORY_INFO_0054
-product:
- - Windows
 dev_langs:
  - c++
 ---

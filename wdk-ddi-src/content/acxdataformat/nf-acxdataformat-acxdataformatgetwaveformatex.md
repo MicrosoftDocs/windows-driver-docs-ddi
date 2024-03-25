@@ -5,7 +5,7 @@ title: AcxDataFormatGetWaveFormatEx
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxDataFormatGetWaveFormatEx function gets the WAVEFORMATEX structure associated with the specified data format.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

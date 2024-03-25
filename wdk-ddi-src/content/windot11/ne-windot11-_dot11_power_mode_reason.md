@@ -41,8 +41,6 @@ api_location:
 api_name:
  - _DOT11_POWER_MODE_REASON
  - DOT11_POWER_MODE_REASON
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_POWER_MODE_REASON enumeration

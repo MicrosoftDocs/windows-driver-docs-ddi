@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_ATTRIBUTES
  - PDOT11_WFD_ATTRIBUTES
  - DOT11_WFD_ATTRIBUTES
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_ATTRIBUTES structure

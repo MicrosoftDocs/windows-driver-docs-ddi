@@ -1,8 +1,8 @@
 ---
 UID: NS:sidebandaudio.SIDEBANDAUDIO_IO_PARAM_HEADER
 title: SIDEBANDAUDIO_IO_PARAM_HEADER (sidebandaudio.h)
-description: Describes the size and type of parameter.
-ms.date: 10/19/2021
+description: The SIDEBANDAUDIO_IO_PARAM_HEADER structure describes the size and type of the IO parameter.
+ms.date: 07/21/2023
 keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER,
 req.header: sidebandaudio.h
@@ -39,22 +39,21 @@ api_name:
 
 # SIDEBANDAUDIO_IO_PARAM_HEADER structure
 
-
 ## -description
 
-Describes the size and type of the IO parameter.
+The **SIDEBANDAUDIO_IO_PARAM_HEADER** structure describes the size and type of the IO parameter.
 
 ## -struct-fields
 
-### -field .ParamSet
+### -field ParamSet
 
 Parameter Set - This could be Microsoft Standard set or IHV defined.
 
-### -field .TypeId
+### -field TypeId
 
 Type of parameter.
 
-### -field .Size
+### -field Size
 
 Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicate size of any extra input parameter.
 
@@ -64,21 +63,12 @@ Allows for byte alignment.
 
 ## -remarks
 
-Union fields described here.
+## -requirements
 
-#### ParamSet
-
-Parameter Set - This could be Microsoft Standard set or IHV defined.
-
-#### TypeId
-
-Type of parameter.
-
-#### Size
-
-Size in bytes of Parameter. In case of IOCTL_SBAUD_GET_SIOPxxx Size will indicate size of any extra input parameter.
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| **Header** | sidebandaudio.h |
 
 ## -see-also
 
 [sidebandaudio.h](index.md)
-

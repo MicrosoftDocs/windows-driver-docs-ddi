@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_DIAGNOSTIC_TYPES
  - DXGK_DIAGNOSTIC_TYPES
-product:
- - Windows
 ---
 
 # _DXGK_DIAGNOSTIC_TYPES structure

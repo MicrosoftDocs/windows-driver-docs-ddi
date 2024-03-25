@@ -5,7 +5,7 @@ title: ACX_STREAMAUDIOENGINE_CONFIG_FLAGS
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enumeration defines the config flags for the ACX stream audio engine.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxelements.h

@@ -38,8 +38,6 @@ api_name:
  - _MCI_STATUS_AMD_BITS
  - PMCI_STATUS_AMD_BITS
  - MCI_STATUS_AMD_BITS
-product:
- - Windows
 ---
 
 # MCI_STATUS_AMD_BITS structure

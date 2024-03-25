@@ -49,6 +49,8 @@ The <b>IOCTL_ACPI_EVAL_METHOD_V2</b> control code synchronously evaluates an ACP
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 An input buffer structure that depends on the type of input arguments to be passed to the control method.

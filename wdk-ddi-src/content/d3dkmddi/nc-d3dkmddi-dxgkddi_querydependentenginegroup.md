@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_QUERYDEPENDENTENGINEGROUP
-product:
- - Windows
 ---
 
 # DXGKDDI_QUERYDEPENDENTENGINEGROUP callback function

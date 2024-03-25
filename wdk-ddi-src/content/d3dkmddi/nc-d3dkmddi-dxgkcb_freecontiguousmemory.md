@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_FREECONTIGUOUSMEMORY
-product:
- - Windows
 ---
 
 # DXGKCB_FREECONTIGUOUSMEMORY callback function

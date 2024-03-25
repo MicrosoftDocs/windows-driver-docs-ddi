@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11EXT_VIRTUAL_STATION_AP_PROPERTY, *PDOT11EXT_VIRTUAL_STATION_AP_PROPERTY
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11EXT_VIRTUAL_STATION_AP_PROPERTY
  - wlanihv/_DOT11EXT_VIRTUAL_STATION_AP_PROPERTY

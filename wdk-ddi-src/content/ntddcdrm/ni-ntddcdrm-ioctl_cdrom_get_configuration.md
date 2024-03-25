@@ -55,6 +55,8 @@ See the <i>MMC-3</i> specification for further discussion concerning features an
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Input buffer.

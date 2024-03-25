@@ -49,6 +49,8 @@ The <a href="/windows-hardware/drivers/ddi/acpiioct/ni-acpiioct-ioctl_acpi_async
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 An input buffer structure that depends on the type of input arguments to be passed to the control method.

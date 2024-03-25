@@ -50,6 +50,8 @@ Sets the value of the specified system environment variables using
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a  <a href="/windows-hardware/drivers/ddi/ntddsysenv/ns-ntddsysenv-_xvariable_name_and_value">XVARIABLE_NAME_AND_VALUE</a> structure that contains the information to set.

@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: 
-req.product: Windows 10 or later.
 f1_keywords:
  - POS_CX_ATTRIBUTES_INIT
  - poscx/POS_CX_ATTRIBUTES_INIT

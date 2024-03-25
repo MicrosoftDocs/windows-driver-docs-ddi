@@ -1,8 +1,7 @@
 ---
 UID: NF:ntifs.NtSetSecurityObject
 title: NtSetSecurityObject function (ntifs.h)
-description: The NtSetSecurityObject routine sets an object's security state. If the call is in user mode, use the name NtSetSecurityObject.
-old-location: kernel\zwsetsecurityobject.htm
+description: Learn more about the NtSetSecurityObject routine.
 tech.root: kernel
 ms.date: 04/30/2018
 keywords: ["NtSetSecurityObject function"]
@@ -10,7 +9,7 @@ ms.keywords: NtSetSecurityObject, ZwSetSecurityObject, ZwSetSecurityObject routi
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows XP.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,7 +41,6 @@ api_name:
 
 # NtSetSecurityObject function
 
-
 ## -description
 
 The **NtSetSecurityObject** routine sets an object's security state.
@@ -55,7 +53,7 @@ Handle for the object whose security state is to be set. This handle must have t
 
 ### -param SecurityInformation [in]
 
-[**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following. 
+[**SECURITY_INFORMATION**](/windows-hardware/drivers/ifs/security-information) value specifying the information to be set as a combination of one or more of the following.
 
 | Value | Meaning |
 | ----- | ------- |
@@ -86,11 +84,11 @@ Pointer to the security descriptor to be set for the object.
 
 ## -remarks
 
-A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see [Absolute and Self-Relative Security Descriptors](/windows/win32/secauthz/absolute-and-self-relative-security-descriptors). 
+A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure only contains pointers to the members. For more information, see [Absolute and Self-Relative Security Descriptors](/windows/win32/secauthz/absolute-and-self-relative-security-descriptors).
 
 For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
-Minifilters should use [**FltSetSecurityObject**](../fltkernel/nf-fltkernel-fltsetsecurityobject.md) instead of **NtSetSecurityObject**. 
+Minifilters should use [**FltSetSecurityObject**](../fltkernel/nf-fltkernel-fltsetsecurityobject.md) instead of **NtSetSecurityObject**.
 
 Callers of **NtSetSecurityObject** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
@@ -112,4 +110,3 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**NtQuerySecurityObject**](nf-ntifs-ntquerysecurityobject.md)
 
 [**ZwSetSecurityObject**](nf-ntifs-zwsetsecurityobject.md)
-

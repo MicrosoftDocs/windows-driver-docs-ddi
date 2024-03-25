@@ -49,6 +49,8 @@ IOCTL_BTHX_WRITE_HCI is used to write Bluetooth ACL Data and Commands to the tra
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Profile drivers should use KMDF and its <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestretrieveinputmemory">WdfRequestRetrieveInputMemory</a> method to retrieve input parameters.  For example, to get the input buffer:

@@ -58,7 +58,11 @@ TOKEN_GROUPS contains information about the group security identifiers (SID) in 
 
 Specifies the number of groups in the access token.
 
-### -field Groups
+### -field Groups[*]
+
+Specifies an array of [**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md) structures containing a set of SIDs and corresponding attributes.
+
+### -field Groups[ANYSIZE_ARRAY]
 
 Specifies an array of [**SID_AND_ATTRIBUTES**](ns-ntifs-_sid_and_attributes.md) structures containing a set of SIDs and corresponding attributes.
 

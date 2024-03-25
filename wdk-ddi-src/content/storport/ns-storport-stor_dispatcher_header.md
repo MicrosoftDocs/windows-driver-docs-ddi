@@ -36,8 +36,6 @@ api_name:
  - _STOR_DISPATCHER_HEADER
  - PSTOR_DISPATCHER_HEADER
  - STOR_DISPATCHER_HEADER
-product:
- - Windows
 ---
 
 # STOR_DISPATCHER_HEADER structure

@@ -2,7 +2,7 @@
 UID: NF:wdm.ExInitializeRundownProtectionCacheAware
 tech.root: kernel
 title: ExInitializeRundownProtectionCacheAware (wdm.h)
-ms.date: 02/13/2023
+ms.date: 02/16/2024
 targetos: Windows
 description: This topic describes the ExInitializeRundownProtectionCacheAware function.
 prerelease: false
@@ -19,8 +19,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt:
+req.target-min-winversvr:  Windows Server 2003, Service Pack 1
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
@@ -44,18 +44,48 @@ helpviewer_keywords:
 
 ## -description
 
-This topic describes the **ExInitializeRundownProtectionCacheAware** function.
+This routine initializes a cache-aware rundown protection object.
 
 ## -parameters
 
-### -param RunRefCacheAware
+### -param RunRefCacheAware [out]
 
-Defines the **PEX_RUNDOWN_REF_CACHE_AWARE** parameter *RunRefCacheAware*.
+Pointer to a caller-supplied buffer where the routine returns an opaque **EX_RUNDOWN_REF_CACHE_AWARE** structure. See Remarks for more information.
 
-### -param RunRefSize
+### -param RunRefSize [in]
 
-Defines the **SIZE_T** parameter *RunRefSize*.
+Specifies the size, in bytes, of the rundown protection object.
 
 ## -remarks
 
+Rundown protection is a synchronization mechanism used by the Windows kernel to safely clean up resources that might be accessed by multiple threads.
+
+This function is optimized for scenarios where the access patterns to a protected resource are cache-aware, meaning that the same thread is likely to access the resource repeatedly, and different threads are likely to access different parts of the resource. By using this function rather than ExInitializeRundownProtection, a driver can reduce the likelihood of cache contention, where multiple threads compete for the same cache lines, leading to performance degradation.
+
+This function is typically used during the initialization phase of a driver, when it is setting up the resources that it needs to operate. The driver calls this function for each resource that needs to be protected by cache-aware rundown protection.
+
+The **EX_RUNDOWN_REF_CACHE_AWARE** structure is an opaque structure that is used to manage the rundown protection. The caller should first call [**ExSizeOfRundownProtectionCacheAware**](./nf-wdm-exsizeofrundownprotectioncacheaware.md) to determine the appropriate size for the rundown protection object. This size should then be used to allocate a buffer for the **RunRefCacheAware** parameter and also passed as the **RunRefSize** parameter.
+
 ## -see-also
+
+[**ExAcquireRundownProtectionCacheAware**](./nf-wdm-exacquirerundownprotectioncacheaware.md)
+
+[**ExAcquireRundownProtectionCacheAwareEx**](./nf-wdm-exacquirerundownprotectioncacheawareex.md)
+
+[**ExAllocateCacheAwareRundownProtection**](./nf-wdm-exallocatecacheawarerundownprotection.md)
+
+[**ExFreeCacheAwareRundownProtection**](./nf-wdm-exfreecacheawarerundownprotection.md)
+
+[**ExReInitializeRundownProtectionCacheAware**](./nf-wdm-exreinitializerundownprotectioncacheaware.md)
+
+[**ExReleaseRundownProtectionCacheAware**](./nf-wdm-exreleaserundownprotectioncacheaware.md)
+
+[**ExReleaseRundownProtectionCacheAwareEx**](./nf-wdm-exreleaserundownprotectioncacheawareex.md)
+
+[**ExRundownCompletedCacheAware**](./nf-wdm-exrundowncompletedcacheaware.md)
+
+[**ExSizeOfRundownProtectionCacheAware**](./nf-wdm-exsizeofrundownprotectioncacheaware.md)
+
+[**ExWaitForRundownProtectionReleaseCacheAware**](./nf-wdm-exwaitforrundownprotectionreleasecacheaware.md)
+
+[Cache-aware run-down protection](/windows-hardware/drivers/kernel/run-down-protection#cache-aware-run-down-protection)

@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATEALLOCATION
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATEALLOCATION callback function

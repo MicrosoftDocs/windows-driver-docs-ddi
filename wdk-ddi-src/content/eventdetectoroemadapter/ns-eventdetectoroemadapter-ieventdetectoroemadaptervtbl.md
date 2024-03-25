@@ -32,8 +32,6 @@ api_location:
  - eventdetectoroemadapter.h
 api_name:
  - IEventDetectorOemAdapterVtbl
-product:
- - Windows
 ---
 
 # IEventDetectorOemAdapterVtbl structure

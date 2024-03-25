@@ -5,7 +5,7 @@ title: EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -47,6 +47,8 @@ Applies to GNSS DDI version 2 and later.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

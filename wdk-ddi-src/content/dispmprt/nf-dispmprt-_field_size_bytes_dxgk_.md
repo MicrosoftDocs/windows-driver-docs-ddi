@@ -36,8 +36,6 @@ api_location:
  - dispmprt.h
 api_name:
  - _Field_size_bytes_DXGK_
-product:
- - Windows
 dev_langs:
  - c++
 ---

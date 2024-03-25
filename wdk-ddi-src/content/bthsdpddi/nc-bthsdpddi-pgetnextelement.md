@@ -38,8 +38,6 @@ api_location:
  - sdplib.h
 api_name:
  - PGETNEXTELEMENT
-product:
- - Windows
 ---
 
 # PGETNEXTELEMENT callback function

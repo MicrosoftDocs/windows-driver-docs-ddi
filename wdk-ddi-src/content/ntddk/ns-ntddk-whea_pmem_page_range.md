@@ -38,8 +38,6 @@ api_name:
  - _WHEA_PMEM_PAGE_RANGE
  - PWHEA_PMEM_PAGE_RANGE
  - WHEA_PMEM_PAGE_RANGE
-product:
- - Windows
 ---
 
 # WHEA_PMEM_PAGE_RANGE structure

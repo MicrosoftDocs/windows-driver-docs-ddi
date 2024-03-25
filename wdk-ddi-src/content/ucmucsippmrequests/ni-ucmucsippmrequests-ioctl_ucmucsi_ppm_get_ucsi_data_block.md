@@ -43,6 +43,8 @@ Gets a UCSI data block from the PPM firmware by using the supported transport.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer a [**UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_IN_PARAMS**](ns-ucmucsippmrequests-_ucmucsi_ppm_get_ucsi_data_block_in_params.md) structure that contains the PPM object that managers the PPM hardware.

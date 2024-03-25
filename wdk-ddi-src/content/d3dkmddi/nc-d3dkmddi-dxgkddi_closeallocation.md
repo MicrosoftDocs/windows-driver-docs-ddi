@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CLOSEALLOCATION
-product:
- - Windows
 ---
 
 # DXGKDDI_CLOSEALLOCATION callback function

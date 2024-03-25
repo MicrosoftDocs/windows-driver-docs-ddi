@@ -4,7 +4,7 @@ title: _BATTERYPROVISIONINGSTATUS (charging.h)
 description: "Microsoft reserves the BATTERYPROVISIONINGSTATUS structure for internal use only. Don't use this structure in your code."
 old-location: battery\batteryprovisioningstatus.htm
 tech.root: battery
-ms.date: 02/15/2018
+ms.date: 07/25/2023
 keywords: ["BATTERYPROVISIONINGSTATUS structure"]
 ms.keywords: "*PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS structure [Battery Devices], _BATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus, charging/BATTERY_INFORMATION"
 req.header: charging.h
@@ -55,3 +55,8 @@ This structure is for internal use only.
 
 ## -struct-fields
 
+### -field IsDeviceProvisionedForBatteryBlank
+
+## -see-also
+
+[**charging.h**](index.md)

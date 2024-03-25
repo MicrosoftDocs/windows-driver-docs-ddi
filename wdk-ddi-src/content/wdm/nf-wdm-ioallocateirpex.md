@@ -32,8 +32,6 @@ api_location:
  - ntoskrnl.exe
 api_name:
  - IoAllocateIrpEx
-product:
- - Windows
 f1_keywords:
  - IoAllocateIrpEx
  - wdm/IoAllocateIrpEx

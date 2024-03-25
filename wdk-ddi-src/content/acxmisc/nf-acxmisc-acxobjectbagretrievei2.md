@@ -5,7 +5,7 @@ title: AcxObjectBagRetrieveI2
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI2 function retrieves a int two byte I2 (SHORT) value from an existing, initialized AcxObjectBag that contains values.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

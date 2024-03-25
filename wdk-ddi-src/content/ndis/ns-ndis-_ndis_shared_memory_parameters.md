@@ -144,7 +144,7 @@ An NDIS_NIC_SWITCH_VPORT_ID value that specifies a virtual port (VPort) identifi
 
 
 
-<div class="alert"><b>Note</b>  Miniport drivers that support the VMQ interface must set this member to zero. Miniport drivers that support the SR-IOV interface must not set this member to zero (DEFAULT_VPORT_ID).</div>
+<div class="alert"><b>Note</b>  Miniport drivers that support the VMQ interface must set this member to zero. Miniport drivers that support the SR-IOV interface must not set this member to zero (NDIS_DEFAULT_VPORT_ID).</div>
 <div> </div>
 
 ## -remarks

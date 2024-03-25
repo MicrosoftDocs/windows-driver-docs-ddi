@@ -1,16 +1,15 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_RENDER
-title: _D3DDDICB_RENDER (d3dumddi.h)
-description: The D3DDDICB_RENDER structure describes the current command buffer to be rendered.
-old-location: display\d3dddicb_render.htm
+title: D3DDDICB_RENDER (d3dumddi.h)
+description: Learn more about the D3DDDICB_RENDER structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 10/05/2023
 keywords: ["D3DDDICB_RENDER structure"]
 ms.keywords: D3DDDICB_RENDER, D3DDDICB_RENDER structure [Display Devices], D3D_param_Structs_62df043b-dbd7-4faf-a911-683ab12ba79b.xml, _D3DDDICB_RENDER, d3dumddi/D3DDDICB_RENDER, display.d3dddicb_render
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,82 +42,81 @@ api_name:
  - D3DDDICB_RENDER
 ---
 
-# _D3DDDICB_RENDER structure
-
+# D3DDDICB_RENDER structure
 
 ## -description
 
-The D3DDDICB_RENDER structure describes the current command buffer to be rendered.
+The **D3DDDICB_RENDER** structure describes the current command buffer to be rendered.
 
 ## -struct-fields
 
-### -field CommandLength [in]
+### -field CommandLength
 
-The size, in bytes, of the command buffer, starting from offset zero.
+[in] The size, in bytes, of the command buffer, starting from offset zero.
 
-### -field CommandOffset [in]
+### -field CommandOffset
 
-The offset, in bytes, to the first command in the command buffer.
+[in] The offset, in bytes, to the first command in the command buffer.
 
-### -field NumAllocations [in]
+### -field NumAllocations
 
-The number of elements in the allocation list.
+[in] The number of elements in the allocation list.
 
-### -field NumPatchLocations [in]
+### -field NumPatchLocations
 
-The number of elements in the patch-location list.
+[in] The number of elements in the patch-location list.
 
-### -field pNewCommandBuffer [out]
+### -field pNewCommandBuffer
 
-A pointer to a command buffer that the user-mode display driver receives to use in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
+[out] A pointer to a command buffer that the user-mode display driver receives to use in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
 
-### -field NewCommandBufferSize [in/out]
+### -field NewCommandBufferSize
 
-The size, in bytes, that the user-mode display driver requests for the next command buffer.
+[in/out] The size, in bytes, that the user-mode display driver requests for the next command buffer.
 
 The driver receives the size, in bytes, of the next command buffer to use.
 
-### -field pNewAllocationList [out]
+### -field pNewAllocationList
 
-An array of [**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md) structures that the user-mode display driver receives to use as the allocation list in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
+[out] An array of [**D3DDDI_ALLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationlist.md) structures that the user-mode display driver receives to use as the allocation list in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
 
-### -field NewAllocationListSize [in/out]
+### -field NewAllocationListSize
 
-The number of elements that the user-mode display driver requests for the next allocation list.
+[in/out] The number of elements that the user-mode display driver requests for the next allocation list.
 
 The driver receives the number of elements for the allocation list that will be available when the next command buffer is submitted.
 
-### -field pNewPatchLocationList [out]
+### -field pNewPatchLocationList
 
-An array of [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md) structures that the user-mode display driver receives to use as the patch-location list in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
+[out] An array of [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md) structures that the user-mode display driver receives to use as the patch-location list in its next call to the [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md) function.
 
-### -field NewPatchLocationListSize [in/out]
+### -field NewPatchLocationListSize
 
-The number of elements that the user-mode display driver requests for the next patch-location list.
+[in/out] The number of elements that the user-mode display driver requests for the next patch-location list.
 
 The driver receives the number of elements for the patch-location list that will be available when the next command buffer is submitted.
 
-### -field Flags [in]
+### -field Flags
 
-A [**D3DDDICB_RENDERFLAGS**](./ns-d3dumddi-_d3dddicb_renderflags.md) structure that indicates information about a command buffer to be rendered.
+[in] A [**D3DDDICB_RENDERFLAGS**](./ns-d3dumddi-_d3dddicb_renderflags.md) structure that indicates information about a command buffer to be rendered.
 
-### -field hContext [in]
+### -field hContext
 
-A handle to the context that the driver submits the rendering operation to. The user-mode display driver previously created this context by calling the [**pfnCreateContextCb**](/previous-versions/ff568895(v=vs.85)) function.
+[in] A handle to the context that the driver submits the rendering operation to. The user-mode display driver previously created this context by calling the [**pfnCreateContextCb**](/previous-versions/ff568895(v=vs.85)) function.
 
-### -field BroadcastContextCount [in]
+### -field BroadcastContextCount
 
-The number of additional contexts in the array that the **BroadcastContext** member specifies.
+[in] The number of additional contexts in the array that the **BroadcastContext** member specifies.
 
-### -field BroadcastContext [in]
+### -field BroadcastContext
 
-An array of handles to the additional contexts to broadcast the current command buffer to. The D3DDDI_MAX_BROADCAST_CONTEXT constant, which is defined as 64, defines the maximum number of additional contexts that the user-mode display driver can broadcast the current command buffer to.
+[in] An array of handles to the additional contexts to broadcast the current command buffer to. The D3DDDI_MAX_BROADCAST_CONTEXT constant, which is defined as 64, defines the maximum number of additional contexts that the user-mode display driver can broadcast the current command buffer to.
 
 The original context that the **hContext** member specifies and that owns the command buffer is not an element in the **BroadcastContext** array. For example, if the **BroadcastContext** array contains one element, the user-mode display driver sends the command buffer to the owning context (**hContext**) and broadcasts to that one additional context.
 
-### -field QueuedBufferCount [out]
+### -field QueuedBufferCount
 
-The number of DMA buffers that are queued to the context that the **hContext** member specifies after the current submission occurs.
+[out] The number of DMA buffers that are queued to the context that the **hContext** member specifies after the current submission occurs.
 
 ### -field NewCommandBuffer
 
@@ -126,15 +124,15 @@ This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
-### -field pPrivateDriverData [in]
+### -field pPrivateDriverData
 
-This member is reserved and should be set to zero.
+[in] This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
-### -field PrivateDriverDataSize [in]
+### -field PrivateDriverDataSize
 
-This member is reserved and should be set to zero.
+[in] This member is reserved and should be set to zero.
 
 This member is available beginning with Windows 7.
 
@@ -191,4 +189,3 @@ A pointer used by the driver to pass the context's API sequence number.
 [**D3DDDI_PATCHLOCATIONLIST**](../d3dukmdt/ns-d3dukmdt-_d3dddi_patchlocationlist.md)
 
 [**pfnRenderCb**](./nc-d3dumddi-pfnd3dddi_rendercb.md)
-

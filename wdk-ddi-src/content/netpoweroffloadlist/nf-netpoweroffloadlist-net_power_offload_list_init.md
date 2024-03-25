@@ -36,8 +36,6 @@ api_location:
  - netpoweroffloadlist.h
 api_name:
  - NET_POWER_OFFLOAD_LIST_INIT
-product:
- - Windows
 ---
 
 # NET_POWER_OFFLOAD_LIST_INIT function

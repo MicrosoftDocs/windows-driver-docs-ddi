@@ -35,8 +35,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGKDDI_GETDEVICELOCATION
-product:
- - Windows
 dev_langs:
  - c++
 ---

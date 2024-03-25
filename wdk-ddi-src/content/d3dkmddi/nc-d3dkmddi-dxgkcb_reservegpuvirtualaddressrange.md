@@ -39,8 +39,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE
-product:
- - Windows
 ---
 
 # DXGKCB_RESERVEGPUVIRTUALADDRESSRANGE callback function

@@ -5,7 +5,7 @@ title: AcxObjectBagAddUI1
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

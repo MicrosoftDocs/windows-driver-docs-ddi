@@ -49,6 +49,8 @@ Returns information about the CD-ROM's geometry (media type, number of cylinders
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

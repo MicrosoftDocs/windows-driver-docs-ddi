@@ -37,8 +37,6 @@ api_location:
  - Displib.dll
 api_name:
  - DlUnmapMemory
-product:
- - Windows
 dev_langs:
  - c++
 ---

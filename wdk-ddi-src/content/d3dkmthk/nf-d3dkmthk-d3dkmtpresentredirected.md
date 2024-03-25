@@ -35,8 +35,6 @@ api_location:
  - Gdi32.dll
 api_name:
  - D3DKMTPresentRedirected
-product:
- - Windows
 ---
 
 # D3DKMTPresentRedirected function

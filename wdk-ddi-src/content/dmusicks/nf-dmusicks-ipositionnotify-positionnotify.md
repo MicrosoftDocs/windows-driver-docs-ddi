@@ -42,7 +42,6 @@ api_name:
 
 # IPositionNotify::PositionNotify
 
-
 ## -description
 
 Byte position notify for MXF graph.
@@ -51,13 +50,8 @@ Byte position notify for MXF graph.
 
 ### -param bytePosition [in]
 
-
-
-## -returns
-
-If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+The bytePosition.
 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-ipositionnotify">IPositionNotify</a>
-

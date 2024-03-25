@@ -1,9 +1,9 @@
 ---
 UID: NF:wextestclass.FixtureInvokeFunctor.operator-assign
-title: operator= function (wextestclass.h)
-description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
+title: "FixtureInvokeFunctor::operator= function (wextestclass.h)"
+description: "The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object."
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
-tech.root: debugger
+tech.root: taef
 ms.date: 02/27/2018
 keywords: ["operator= function"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: TTraceLevel
-req.product: Windows 10 or later.
 f1_keywords:
  - FixtureInvokeFunctor::operator=
  - wextestclass/FixtureInvokeFunctor::operator=
@@ -68,7 +67,7 @@ ExtRemoteTyped & operator=(
 
 ## -remarks
 
-The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="..\engextcpp\nf-engextcpp-extbuffer-copy.md">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
+The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-extbuffer-copy(const_t_ulong).md">ExtRemoteTyped::Copy(Debug Typed Data)</a> or <a href="..\engextcpp\nf-engextcpp-extbuffer-copy(const_t_ulong).md">ExtRemoteTyped::Copy(ExtRemoteTyped)</a> methods.
 
 ## -see-also
 
@@ -76,7 +75,7 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 
 
-<a href="..\wextestclass\nf-wextestclass-fixtureinvokefunctor-operator=.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
+<a href="..\wextestclass\nf-wextestclass-fixtureinvokefunctor-operator-assign.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
 
 
 

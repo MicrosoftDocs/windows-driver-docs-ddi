@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _NET_ADAPTER_PAUSE_FUNCTION_TYPE
  - NET_ADAPTER_PAUSE_FUNCTION_TYPE
-product:
- - Windows
 ---
 
 # NET_ADAPTER_PAUSE_FUNCTION_TYPE enumeration

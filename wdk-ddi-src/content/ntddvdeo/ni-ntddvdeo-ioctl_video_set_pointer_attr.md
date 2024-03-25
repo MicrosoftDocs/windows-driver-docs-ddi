@@ -49,6 +49,8 @@ Sets the pointer attributes. Support for this modal request is optional. A suppo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains the VIDEO_POINTER_ATTRIBUTES structure to be set.

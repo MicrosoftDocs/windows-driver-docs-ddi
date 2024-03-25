@@ -53,6 +53,8 @@ The prescribed way to open the HBA is use the [SetupDi*Xxx* APIs](/windows-hardw
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at **Irp->AssociatedIrp.SystemBuffer** must contain an [SRB_IO_CONTROL](./ns-ntddscsi-_srb_io_control.md) structure.

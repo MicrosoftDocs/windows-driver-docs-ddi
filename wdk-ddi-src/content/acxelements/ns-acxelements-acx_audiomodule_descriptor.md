@@ -5,7 +5,7 @@ title: ACX_AUDIOMODULE_DESCRIPTOR
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOMODULE_DESCRIPTOR is used to define an audio module descriptor structure.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

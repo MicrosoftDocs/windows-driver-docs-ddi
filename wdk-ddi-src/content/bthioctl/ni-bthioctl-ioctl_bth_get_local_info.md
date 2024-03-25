@@ -50,6 +50,8 @@ The IOCTL_BTH_GET_LOCAL_INFO request returns information about the local Bluetoo
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The 

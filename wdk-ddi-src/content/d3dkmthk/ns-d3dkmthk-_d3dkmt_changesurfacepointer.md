@@ -47,15 +47,15 @@ Used to change the surface pointer.
 
 ## -struct-fields
 
-### -field unnamedParam1
+### -field hDC
 
 The device context handle.
 
-### -field unnamedParam2
+### -field hBitmap
 
 The bitmap handle.
 
-### -field unnamedParam3
+### -field pSurfacePointer
 
 The new surface pointer.
 

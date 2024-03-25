@@ -35,8 +35,6 @@ api_location:
  - netdevice.h
 api_name:
  - EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD
-product:
- - Windows
 ---
 
 # EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD callback function

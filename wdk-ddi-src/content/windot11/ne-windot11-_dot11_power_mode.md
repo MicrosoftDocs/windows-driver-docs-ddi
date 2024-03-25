@@ -44,8 +44,6 @@ api_name:
  - _DOT11_POWER_MODE
  - PDOT11_POWER_MODE
  - DOT11_POWER_MODE
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_POWER_MODE enumeration

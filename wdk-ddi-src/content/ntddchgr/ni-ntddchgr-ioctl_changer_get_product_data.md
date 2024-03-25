@@ -49,6 +49,8 @@ Returns product data for the device.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

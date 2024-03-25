@@ -38,8 +38,6 @@ api_location:
  - BthSdpddi.h
 api_name:
  - PCONVERTTREETOSTREAM
-product:
- - Windows
 ---
 
 # PCONVERTTREETOSTREAM callback function

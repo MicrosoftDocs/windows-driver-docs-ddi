@@ -44,8 +44,6 @@ api_name:
  - _DOT11_DIVERSITY_SUPPORT
  - PDOT11_DIVERSITY_SUPPORT
  - DOT11_DIVERSITY_SUPPORT
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_DIVERSITY_SUPPORT enumeration

@@ -61,7 +61,6 @@ Specifies the base address of the module containing the type.
 
 ### -param TypeId [in]
 
-
 Specifies the type ID of the type.
 
 ### -param Buffer [in]

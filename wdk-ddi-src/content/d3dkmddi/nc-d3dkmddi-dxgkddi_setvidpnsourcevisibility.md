@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETVIDPNSOURCEVISIBILITY
-product:
- - Windows
 ---
 
 # DXGKDDI_SETVIDPNSOURCEVISIBILITY callback function

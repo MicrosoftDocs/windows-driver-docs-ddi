@@ -1,9 +1,8 @@
 ---
 UID: NF:d3dkmthk.D3DKMTCheckMultiPlaneOverlaySupport3
 title: D3DKMTCheckMultiPlaneOverlaySupport3 function (d3dkmthk.h)
-description: The D3DKMTCheckMultiPlaneOverlaySupport3 function uses the specified D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure to check for multiplane overlay support.
-
-ms.date: 10/19/2018
+description: Learn more about the D3DKMTCheckMultiPlaneOverlaySupport3 function.
+ms.date: 10/05/2023
 keywords: ["D3DKMTCheckMultiPlaneOverlaySupport3 function"]
 ms.keywords: D3DKMTCheckMultiPlaneOverlaySupport3
 req.header: d3dkmthk.h
@@ -43,16 +42,15 @@ dev_langs:
 
 # D3DKMTCheckMultiPlaneOverlaySupport3 function
 
-
 ## -description
 
-Checks multiplane overlay support.
+The **D3DKMTCheckMultiPlaneOverlaySupport3** function checks details on support for multiplane overlays.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-Pointer to a [D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md) structure.
+Pointer to a [**D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3**](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md) structure.
 
 ## -returns
 
@@ -60,5 +58,8 @@ This function returns NTSTATUS.
 
 ## -remarks
 
+See [Multiplane overlay support](/windows-hardware/drivers/display/multiplane-overlay-support) for more information.
+
 ## -see-also
 
+[**D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3**](ns-d3dkmthk-_d3dkmt_checkmultiplaneoverlaysupport3.md)

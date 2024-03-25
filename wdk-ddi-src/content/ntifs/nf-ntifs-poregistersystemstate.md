@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.PoRegisterSystemState
 title: PoRegisterSystemState function (ntifs.h)
-description: The PoRegisterSystemState routine in ntifs.h registers the system as busy due to certain activity as indicated by the flags.
-old-location: kernel\poregistersystemstate.htm
+description: Learn more about the PoRegisterSystemState routine.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/06/2023
 keywords: ["PoRegisterSystemState function"]
 ms.keywords: PoRegisterSystemState, PoRegisterSystemState routine [Kernel-Mode Driver Architecture], kernel.poregistersystemstate, portn_477a2d72-00f7-45a1-b7ca-504b741c5fe0.xml, wdm/PoRegisterSystemState
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,69 +41,45 @@ api_name:
 
 # PoRegisterSystemState function (ntifs.h)
 
-
 ## -description
 
-The <b>PoRegisterSystemState</b> routine registers the system as busy due to certain activity.
+The **PoRegisterSystemState** routine registers the system as busy due to certain activity.
 
 ## -parameters
 
 ### -param StateHandle [in, out]
 
-
-A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is <b>sizeof</b>(ULONG). If <b>NULL</b>, this is a new registration. If non-<b>NULL</b>, this parameter points to a handle that was returned by a previous call to <b>PoRegisterSystemState</b>.
+A pointer to a caller-supplied buffer for a registration state handle. The size, in bytes, of the buffer is ```sizeof(ULONG)```. If NULL, this is a new registration. If non-NULL, this parameter points to a handle that was returned by a previous call to **PoRegisterSystemState**.
 
 ### -param Flags [in]
 
-
 Indicates the type of activity, as specified by a bitwise OR of one or more of the following values:
 
-
-
-
-
-#### ES_SYSTEM_REQUIRED
-
-The system is not idle, regardless of apparent load.
-
-
-
-#### ES_DISPLAY_REQUIRED
-
-Use of the display is required.
-
-
-
-#### ES_USER_PRESENT
-
-A user is present.
-
-
-
-#### ES_CONTINUOUS
-
-The settings are continuous and should remain in effect until explicitly changed.
+| Value | Meaning |
+| ----- | ------- |
+| ES_SYSTEM_REQUIRED  | The system is not idle, regardless of apparent load. |
+| ES_DISPLAY_REQUIRED | Use of the display is required. |
+| ES_USER_PRESENT     | A user is present. |
+| ES_CONTINUOUS       | The settings are continuous and should remain in effect until explicitly changed. |
 
 ## -returns
 
-<b>PoRegisterSystemState</b> returns a handle to be used later to change or unregister the system busy state. It returns <b>NULL</b> if the handle could not be allocated.
+**PoRegisterSystemState** returns a handle to be used later to change or unregister the system busy state. It returns NULL if the handle could not be allocated.
 
 ## -remarks
 
-<b>PoRegisterSystemState</b> registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to <b>PoRegisterSystemState</b> or cancels it with a call to <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>.
+**PoRegisterSystemState** registers the system busy state as indicated by the flags. The registration persists until the caller explicitly changes it with another call to **PoRegisterSystemState** or cancels it with a call to [**PoUnregisterSystemState**](nf-ntifs-pounregistersystemstate.md).
 
-The <i>Flags</i> parameter specifies the type of activity in progress. Drivers can specify any combination of the flags.
+The **Flags** parameter specifies the type of activity in progress. Drivers can specify any combination of the flags.
 
-Setting ES_CONTINUOUS makes the busy state persist until a driver explicitly changes or cancels it by calling <b>PoRegisterSystemState</b> or <b>PoUnregisterSystemState</b>.
+Setting ES_CONTINUOUS makes the busy state persist until a driver explicitly changes or cancels it by calling **PoRegisterSystemState** or **PoUnregisterSystemState**.
 
-A driver can set the system busy state to request that the <a href="/windows-hardware/drivers/kernel/power-manager">power manager</a> avoid system power state transitions out of the system working state (S0) while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the power manager may override this request and put the system to sleep anyway.
+A driver can set the system busy state to request that the [power manager](/windows-hardware/drivers/kernel/power-manager) avoid system power state transitions out of the system working state (S0) while driver activity is occurring. Note, however, that under some circumstances (such as a critically low battery) the power manager may override this request and put the system to sleep anyway.
 
-To set the system power state, call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>.
+To set the system power state, call [**PoSetSystemState**](../wdm/nf-wdm-posetsystemstate.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-posetsystemstate">PoSetSystemState</a>
+[**PoSetSystemState**](../wdm/nf-wdm-posetsystemstate.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pounregistersystemstate">PoUnregisterSystemState</a>
+[**PoUnregisterSystemState**](nf-ntifs-pounregistersystemstate.md)

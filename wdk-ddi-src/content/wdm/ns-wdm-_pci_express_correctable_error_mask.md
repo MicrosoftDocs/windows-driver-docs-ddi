@@ -26,7 +26,6 @@ req.dll:
 req.irql: PASSIVE_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: PCI_EXPRESS_CORRECTABLE_ERROR_MASK, *PPCI_CORRECTABLE_ERROR_MASK
-req.product: Windows 10 or later.
 f1_keywords:
  - _PCI_EXPRESS_CORRECTABLE_ERROR_MASK
  - wdm/_PCI_EXPRESS_CORRECTABLE_ERROR_MASK

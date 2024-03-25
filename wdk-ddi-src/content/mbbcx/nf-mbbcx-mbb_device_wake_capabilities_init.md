@@ -36,8 +36,6 @@ api_location:
  - mbbcx.h
 api_name:
  - MBB_DEVICE_WAKE_CAPABILITIES_INIT
-product:
- - Windows
 ---
 
 # MBB_DEVICE_WAKE_CAPABILITIES_INIT function

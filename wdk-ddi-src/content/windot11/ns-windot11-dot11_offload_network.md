@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_OFFLOAD_NETWORK
  - PDOT11_OFFLOAD_NETWORK
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_OFFLOAD_NETWORK structure

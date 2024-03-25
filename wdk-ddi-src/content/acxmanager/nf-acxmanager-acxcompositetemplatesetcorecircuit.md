@@ -5,7 +5,7 @@ title: AcxCompositeTemplateSetCoreCircuit
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxCompositeTemplateSetCoreCircuit function sets the core circuit template for the specified composite template.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

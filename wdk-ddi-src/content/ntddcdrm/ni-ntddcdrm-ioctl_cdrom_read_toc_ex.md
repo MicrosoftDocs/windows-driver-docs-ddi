@@ -49,6 +49,8 @@ Queries the target device for the table of contents (TOC), the program memory ar
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>Irp->AssociatedIrp.SystemBuffer</b> points to a buffer of type <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_read_toc_ex">CDROM_READ_TOC_EX</a> whose contents indicate what information should be retrieved from the target device. 

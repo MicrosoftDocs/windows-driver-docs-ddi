@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGK_DIAGNOSTIC_PSR
  - DXGK_DIAGNOSTIC_PSR
-product:
- - Windows
 ---
 
 # DXGK_DIAGNOSTIC_PSR structure

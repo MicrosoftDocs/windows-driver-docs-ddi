@@ -51,6 +51,8 @@ For more information, see <a href="/windows-hardware/drivers/kernel/supporting-r
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

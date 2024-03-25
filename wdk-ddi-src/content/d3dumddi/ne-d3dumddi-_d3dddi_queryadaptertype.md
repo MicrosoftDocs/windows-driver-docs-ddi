@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _D3DDDI_QUERYADAPTERTYPE
  - D3DDDI_QUERYADAPTERTYPE
-product:
- - Windows
 ---
 
 # _D3DDDI_QUERYADAPTERTYPE enumeration

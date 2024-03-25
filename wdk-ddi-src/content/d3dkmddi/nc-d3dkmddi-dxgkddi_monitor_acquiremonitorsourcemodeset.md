@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET
-product:
- - Windows
 ---
 
 # DXGKDDI_MONITOR_ACQUIREMONITORSOURCEMODESET callback function

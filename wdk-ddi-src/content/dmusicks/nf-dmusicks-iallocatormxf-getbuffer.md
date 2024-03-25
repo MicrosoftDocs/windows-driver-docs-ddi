@@ -4,7 +4,7 @@ title: IAllocatorMXF::GetBuffer (dmusicks.h)
 description: The GetBuffer method allocates a buffer for long MIDI events.
 old-location: audio\iallocatormxf_getbuffer.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 08/10/2023
 keywords: ["IAllocatorMXF::GetBuffer"]
 ms.keywords: GetBuffer, GetBuffer method [Audio Devices], GetBuffer method [Audio Devices],IAllocatorMXF interface, IAllocatorMXF interface [Audio Devices],GetBuffer method, IAllocatorMXF.GetBuffer, IAllocatorMXF::GetBuffer, audio.iallocatormxf_getbuffer, audmp-routines_5abb78f4-de92-4342-877f-e7f1c15f8d8e.xml, dmusicks/IAllocatorMXF::GetBuffer
 req.header: dmusicks.h
@@ -42,16 +42,13 @@ api_name:
 
 # IAllocatorMXF::GetBuffer
 
-
 ## -description
 
 The <code>GetBuffer</code> method allocates a buffer for long MIDI events.
 
 ## -parameters
 
-### -param ppBuffer
-
-### -param ppbBuffer [out]
+### -param ppBuffer [out]
 
 Output pointer for the buffer. This parameter points to a caller-allocated pointer variable into which the method writes a pointer to the buffer.
 
@@ -69,11 +66,6 @@ The size of the buffer can determined by calling <a href="/windows-hardware/driv
 
 <a href="/windows-hardware/drivers/ddi/dmusicks/ns-dmusicks-_dmus_kernel_event">DMUS_KERNEL_EVENT</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dmusicks/nn-dmusicks-iallocatormxf">IAllocatorMXF</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/dmusicks/nf-dmusicks-iallocatormxf-getbuffersize">IAllocatorMXF::GetBufferSize</a>
-

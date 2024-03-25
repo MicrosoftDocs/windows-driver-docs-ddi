@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _SENSORSCXFUNCENUM
  - SENSORSCXFUNCENUM
-product:
- - Windows
 ---
 
 # _SENSORSCXFUNCENUM enumeration

@@ -5,7 +5,7 @@ title: ACX_DATAFORMAT_TYPE
 ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_TYPE enumeration is used to specify the type of a data format used by an audio class extension (ACX) driver.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxdataformat.h

@@ -2,8 +2,7 @@
 UID: NS:ntifs._FILE_NOTIFY_FULL_INFORMATION
 tech.root: ifsk
 title: FILE_NOTIFY_FULL_INFORMATION
-ms.date: 07/26/2022
-targetos: Windows
+ms.date: 02/05/2024
 description: Learn more about the FILE_NOTIFY_FULL_INFORMATION structure.
 prerelease: false
 req.construct-type: structure
@@ -46,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-**FILE_NOTIFY_FULL_INFORMATION** describes detailed changes found by the [**ReadDirectoryChangesExW**](/windows/win32/api/winbase/nf-winbase-readdirectorychangesexw) and [**ZwNotifyChangeDirectoryFileEx**](/previous-versions/mt812581(v%3dvs.85)) functions.
+A **FILE_NOTIFY_FULL_INFORMATION** structure is returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when [**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md) is DirectoryNotifyFullInformation.
 
 ## -struct-fields
 
@@ -141,10 +140,6 @@ Reserved for system use.
 ### -field FileName
 
 A variable-length field that contains the file name relative to the directory handle. The file name is in the Unicode character format and is not null-terminated.
-
-## -remarks
-
-A **FILE_NOTIFY_FULL_INFORMATION** structure is returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when DIRECTORY_NOTIFY_INFORMATION_CLASS=DirectoryNotifyFullInformation.
 
 ## -see-also
 

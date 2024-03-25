@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_CREATEVIDEODECODERHEAP_0072
 title: PFND3D12DDI_CREATEVIDEODECODERHEAP_0072 (d3d12umddi.h)
-description: PFND3D12DDI_CREATEVIDEODECODERHEAP_0072 is used to create a video decoder heap.
+description: Learn more about the PFND3D12DDI_CREATEVIDEODECODERHEAP_0072 callback function.
 ms.date: 02/02/2022
 keywords: ["PFND3D12DDI_CREATEVIDEODECODERHEAP_0072 callback function"]
 ms.keywords: PFND3D12DDI_CREATEVIDEODECODERHEAP_0072, PFND3D12DDI_CREATEVIDEODECODERHEAP_0072  callback, PFND3D12DDI_CREATEVIDEODECODERHEAP_0072 callback function [Display Devices], d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0072, display.pfnd3d12ddi_createvideodecoderheap_0072_
@@ -37,8 +37,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CREATEVIDEODECODERHEAP_0072
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CREATEVIDEODECODERHEAP_0072 callback function
@@ -59,7 +57,7 @@ Pointer to a [**D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072**](ns-d3d12umddi-d3d1
 
 ### -param hDrvVideoDecoderHeap [out]
 
-Handle to the video decoder heap.
+Handle to the created video decoder heap.
 
 ## -returns
 

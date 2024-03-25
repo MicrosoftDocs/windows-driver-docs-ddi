@@ -58,15 +58,15 @@ The WDF_TRI_STATE enumeration type defines three values that the framework uses 
 
 ## -enum-fields
 
-### -field WdfFalse
+### -field WdfFalse:FALSE
 
 The meaning of this enumerator is specific to its use as a structure member or function parameter.
 
-### -field WdfTrue
+### -field WdfTrue:TRUE
 
 The meaning of this enumerator is specific to its use as a structure member or function parameter.
 
-### -field WdfUseDefault
+### -field WdfUseDefault:2
 
 The meaning of this enumerator is specific to its use as a structure member or function parameter.
 

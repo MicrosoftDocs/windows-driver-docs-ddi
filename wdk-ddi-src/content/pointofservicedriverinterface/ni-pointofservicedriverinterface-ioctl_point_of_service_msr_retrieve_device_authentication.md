@@ -49,6 +49,8 @@ This I/O control function retrieves the device authentication type.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used with this operation; set to **NULL**.

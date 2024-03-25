@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_CIPHER_ALGORITHM
  - wlantypes/_DOT11_CIPHER_ALGORITHM

@@ -35,8 +35,6 @@ api_location:
  - NtosKrnl.exe
 api_name:
  - I2CSensorReadRegister
-product:
- - Windows
 ---
 
 # I2CSensorReadRegister function

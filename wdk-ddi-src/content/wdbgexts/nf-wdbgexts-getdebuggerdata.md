@@ -42,7 +42,6 @@ api_name:
 
 # GetDebuggerData macro
 
-
 ## -description
 
 The <b>GetDebuggerData</b> function retrieves information stored in a data block.
@@ -61,7 +60,9 @@ The <b>GetDebuggerData</b> function retrieves information stored in a data block
 
 <p>Specifies the size of the data block, including the header.</p>
 
-## -returns
+## -remarks
+
+### Returns
 
 If the data block is found, the return value is TRUE; otherwise, it is FALSE.
 

@@ -5,7 +5,7 @@ title: AcxObjectBagRetrieveI1
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveI1 function retrieves a int one byte (CHAR) I1 value from an existing, initialized AcxObjectBag that contains values.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

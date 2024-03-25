@@ -1,6 +1,7 @@
 {
   "tech": "audio",
   "headers": [
+    "a2dpsidebandaudio",
     "acxcircuit.h",
     "acxdevice.h",
     "acxdataformat.h",

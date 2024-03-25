@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_WAKE_SOURCE_BITMAP_PARAMETERS
  - NET_WAKE_SOURCE_BITMAP_PARAMETERS
-product:
- - Windows
 ---
 
 # NET_WAKE_SOURCE_BITMAP_PARAMETERS structure

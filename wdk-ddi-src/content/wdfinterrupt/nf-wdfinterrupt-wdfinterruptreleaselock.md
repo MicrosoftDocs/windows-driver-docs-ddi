@@ -26,7 +26,6 @@ req.dll:
 req.irql: See Remarks section.
 targetos: Windows
 req.typenames: WDF_COINSTALLER_INSTALL_OPTIONS, *PWDF_COINSTALLER_INSTALL_OPTIONS
-req.product: Windows 10 or later.
 f1_keywords:
  - PFN_WDFINTERRUPTRELEASELOCK
  - wdfinterrupt/PFN_WDFINTERRUPTRELEASELOCK

@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.FsRtlLookupLastLargeMcbEntryAndIndex
 title: FsRtlLookupLastLargeMcbEntryAndIndex function (ntifs.h)
-description: The FsRtlLookupLastLargeMcbEntryAndIndex routine retrieves the last mapping entry stored in a given map control block (MCB).
-old-location: ifsk\fsrtllookuplastlargemcbentryandindex.htm
+description: Learn more about the FsRtlLookupLastLargeMcbEntryAndIndex function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["FsRtlLookupLastLargeMcbEntryAndIndex function"]
 ms.keywords: FsRtlLookupLastLargeMcbEntryAndIndex, FsRtlLookupLastLargeMcbEntryAndIndex routine [Installable File System Drivers], fsrtlref_d7148458-8a3c-4633-8be3-578623ba4d01.xml, ifsk.fsrtllookuplastlargemcbentryandindex, ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
 req.header: ntifs.h
@@ -45,94 +44,60 @@ dev_langs:
 
 # FsRtlLookupLastLargeMcbEntryAndIndex function
 
-
 ## -description
 
-The <b>FsRtlLookupLastLargeMcbEntryAndIndex</b> routine retrieves the last mapping entry stored in a given map control block (MCB).
+The **FsRtlLookupLastLargeMcbEntryAndIndex** routine retrieves the last mapping entry stored in a given map control block (MCB).
 
 ## -parameters
 
 ### -param OpaqueMcb [in]
 
-
 Pointer to an initialized MCB structure to be searched.
 
 ### -param LargeVbn [out]
-
 
 Pointer to a variable that receives the last virtual block number (VBN) that was mapped.
 
 ### -param LargeLbn [out]
 
-
-Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by <i>LargeVbn</i>, or -1 if no such LBN exists.
+Pointer to a variable that receives the logical block number (LBN) that is mapped to the VBN pointed to by **LargeVbn**, or -1 if no such LBN exists.
 
 ### -param Index [out]
-
 
 Pointer to a variable that receives the index of the last run in the MCB.
 
 ## -returns
 
-<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b> if the MCB contains no mapping entries, <b>TRUE</b> otherwise.
+**FsRtlLookupLastLargeMcbEntryAndIndex** returns FALSE if the MCB contains no mapping entries, FALSE otherwise.
 
 ## -remarks
 
-<b>FsRtlLookupLastLargeMcbEntryAndIndex </b>searches for the last mapping of the last run in the MCB: 
+**FsRtlLookupLastLargeMcbEntryAndIndex** searches for the last mapping of the last run in the MCB:
 
-<ul>
-<li>
-If the MCB contains no mappings, <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>FALSE</b>. 
+* If the MCB contains no mappings, **FsRtlLookupLastLargeMcbEntryAndIndex** returns FALSE.
 
-</li>
-<li>
-If the last mapping is a hole, <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>TRUE</b>, but the lookup operation yields a value of -1 for the LBN. 
+* If the last mapping is a hole, **FsRtlLookupLastLargeMcbEntryAndIndex** returns FALSE, but the lookup operation yields a value of -1 for the LBN.
 
-</li>
-<li>
-If the last mapping is not a hole, the lookup operation yields a positive value for the LBN, and <b>FsRtlLookupLastLargeMcbEntryAndIndex </b>returns <b>TRUE</b>. 
+* If the last mapping is not a hole, the lookup operation yields a positive value for the LBN, and **FsRtlLookupLastLargeMcbEntryAndIndex** returns FALSE.
 
-</li>
-</ul>
-<div class="alert"><b>Note</b>    The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used. </div>
-<div> </div>
+The upper 32 bits of the LBN are ignored. Only the lower 32 bits are used.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry">FsRtlAddLargeMcbEntry</a>
+[**FsRtlAddLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtladdlargemcbentry.md)
 
+[**FsRtlGetNextLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry.md)
 
+[**FsRtlInitializeLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlgetnextlargemcbentry">FsRtlGetNextLargeMcbEntry</a>
+[**FsRtlLookupLastLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry.md)
 
+[**FsRtlNumberOfRunsInLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb.md)
 
+[**FsRtlRemoveLargeMcbEntry**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry.md)
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializelargemcb">FsRtlInitializeLargeMcb</a>
+[**FsRtlSplitLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb.md)
 
+[**FsRtlTruncateLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb.md)
 
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry">FsRtlLookupLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentry">FsRtlLookupLastLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnumberofrunsinlargemcb">FsRtlNumberOfRunsInLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlremovelargemcbentry">FsRtlRemoveLargeMcbEntry</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlsplitlargemcb">FsRtlSplitLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtltruncatelargemcb">FsRtlTruncateLargeMcb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb">FsRtlUninitializeLargeMcb</a>
+[**FsRtlUninitializeLargeMcb**](nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md)

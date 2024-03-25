@@ -28,8 +28,6 @@ api_location:
  - ntddstor.h
 api_name:
  - IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
-product:
- - Windows
 ---
 
 # IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG IOCTL
@@ -43,6 +41,10 @@ product:
 A driver can use **IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG** to get the internal status data from the device.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
 
 ### -input-buffer
 

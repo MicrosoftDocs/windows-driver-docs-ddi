@@ -66,8 +66,6 @@ For more information about when the framework calls this callback function, see 
 
 For more information about drivers that provide this callback function, see <a href="/windows-hardware/drivers/wdf/using-self-managed-i-o">Using Self-Managed I/O</a>.
 
-You must declare the function by using the EVT_WDF_DEVICE_SELF_MANAGED_IO_FLUSH type. For more information, see the following Example section.
-
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup">EvtDeviceSelfManagedIoCleanup</a>

@@ -5,7 +5,7 @@ title: ACX_CONSTRICTOR_OPTION
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_CONSTRICTOR_OPTION enumeration defines the options for the loopback protection status of a stream audio engine node.
-prerelease: true
+prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: acxelements.h

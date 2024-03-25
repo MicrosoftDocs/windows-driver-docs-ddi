@@ -38,8 +38,6 @@ api_name:
  - _DXGK_GPUENGINE
  - PDXGK_GPUENGINE
  - DXGK_GPUENGINE
-product:
- - Windows
 dev_langs:
  - c++
 ---

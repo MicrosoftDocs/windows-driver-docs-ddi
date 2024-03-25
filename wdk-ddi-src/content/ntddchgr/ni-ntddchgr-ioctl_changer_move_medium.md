@@ -49,6 +49,8 @@ Moves a piece of media from a source element to a destination.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_move_medium">CHANGER_MOVE_MEDIUM</a> data, which indicates the transport to use for the operation, the source, the destination, and whether the medium should be flipped, assuming the device supports two-sided media.

@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_UNMAPMDLFROMIOMMU
-product:
- - Windows
 ---
 
 # DXGKCB_UNMAPMDLFROMIOMMU callback function

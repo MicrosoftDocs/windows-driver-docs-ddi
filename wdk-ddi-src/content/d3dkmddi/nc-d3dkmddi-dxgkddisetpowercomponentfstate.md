@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDISETPOWERCOMPONENTFSTATE
-product:
- - Windows
 ---
 
 # DXGKDDISETPOWERCOMPONENTFSTATE callback function

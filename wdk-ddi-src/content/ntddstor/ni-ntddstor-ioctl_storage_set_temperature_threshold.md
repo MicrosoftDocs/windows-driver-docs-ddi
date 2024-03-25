@@ -49,6 +49,8 @@ A driver can use <b>IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD</b> to set the tempe
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_temperature_threshold">STORAGE_TEMPERATURE_THRESHOLD</a> structure.

@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.IoStartPacket
 title: IoStartPacket function (ntifs.h)
-description: The IoStartPacket routine in ntifs.h calls the driver's StartIo routine with an IRP or inserts the IRP into the device queue for the given device object.
-old-location: kernel\iostartpacket.htm
+description: Learn more about the IoStartPacket routine.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/06/2023
 keywords: ["IoStartPacket function"]
-ms.keywords: IoStartPacket, IoStartPacket routine [Kernel-Mode Driver Architecture], k104_d27461b9-32fe-4d7b-853d-fd110fcdb644.xml, kernel.iostartpacket, wdm/IoStartPacket
+ms.keywords: IoStartPacket, kernel.iostartpacket, wdm/IoStartPacket
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,59 +41,46 @@ api_name:
 
 # IoStartPacket function (ntifs.h)
 
-
 ## -description
 
-The <b>IoStartPacket</b> routine calls the driver's <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_startio">StartIo</a> routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy.
+The **IoStartPacket** routine calls the driver's [**StartIo**](../wdm/nc-wdm-driver_startio.md) routine with the given IRP or inserts the IRP into the device queue associated with the given device object if the device is already busy.
 
 ## -parameters
 
 ### -param DeviceObject [in]
 
-
 Pointer to the target device object for the IRP.
 
 ### -param Irp [in]
-
 
 Pointer to the IRP to be processed.
 
 ### -param Key [in, optional]
 
-
 Pointer to a value that determines where to insert the packet into the device queue. If this is zero, the packet is inserted at the tail of the device queue.
 
 ### -param CancelFunction [in, optional]
 
-
-Specifies the entry point for a driver-supplied <a href="/windows-hardware/drivers/ddi/printerextension/nf-printerextension-iprinterextensionrequest-cancel">Cancel</a> routine.
+Specifies the entry point for a driver-supplied [**Cancel**](../wdm/nc-wdm-driver_cancel.md) routine.
 
 ## -remarks
 
-If the driver is already busy processing a request for the target device object, then the packet is queued in the device queue. Otherwise, this routine calls the driver's <i>StartIo</i> routine with the specified IRP.
+If the driver is already busy processing a request for the target device object, then the packet is queued in the device queue. Otherwise, this routine calls the driver's **StartIo** routine with the specified IRP.
 
-If a non-NULL <i>CancelFunction</i> pointer is supplied, it is set in the IRP so the driver's <i>Cancel</i> routine is called if the IRP is canceled before its completion.
+If a non-NULL **CancelFunction** pointer is supplied, it is set in the IRP so the driver's **Cancel** routine is called if the IRP is canceled before its completion.
 
-Drivers that do not have a <i>StartIo</i> routine cannot call <b>IoStartPacket</b>.
+Drivers that do not have a **StartIo** routine cannot call **IoStartPacket**.
 
-Callers of <b>IoStartPacket</b> must be running at IRQL <= DISPATCH_LEVEL. Usually, this routine is called from a device driver's Dispatch routine at IRQL = PASSIVE_LEVEL.
+Callers of **IoStartPacket** must be running at IRQL <= DISPATCH_LEVEL. Usually, this routine is called from a device driver's Dispatch routine at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
+[**DEVICE_OBJECT**](../wdm/ns-wdm-_device_object.md)
 
+[**IoMarkIrpPending**](../wdm/nf-wdm-iomarkirppending.md)
 
+[**IoSetCancelRoutine**](../wdm/nf-wdm-iosetcancelroutine.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iomarkirppending">IoMarkIrpPending</a>
+[**IoStartNextPacket**](nf-ntifs-iostartnextpacket.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iosetcancelroutine">IoSetCancelRoutine</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacket">IoStartNextPacket</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-iostartnextpacketbykey">IoStartNextPacketByKey</a>
+[**IoStartNextPacketByKey**](nf-ntifs-iostartnextpacketbykey.md)

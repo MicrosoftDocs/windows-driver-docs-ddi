@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_UPDATEPATHSUPPORTINFO callback function

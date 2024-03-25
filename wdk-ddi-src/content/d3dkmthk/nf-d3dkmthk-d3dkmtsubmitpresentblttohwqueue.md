@@ -35,8 +35,6 @@ api_location:
  - Gdi32.dll
 api_name:
  - D3DKMTSubmitPresentBltToHwQueue
-product:
- - Windows
 ---
 
 # D3DKMTSubmitPresentBltToHwQueue function

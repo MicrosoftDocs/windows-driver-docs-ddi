@@ -38,8 +38,6 @@ api_location:
  - D3d10umddi.h
 api_name:
  - PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE
-product:
- - Windows
 ---
 
 # PFND3DWDDM2_0DDI_GETCRYPTOSESSIONPRIVATEDATASIZE callback function

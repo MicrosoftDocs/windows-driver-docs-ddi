@@ -68,21 +68,21 @@ The **D3DKMT_CREATE_DOORBELL** structure contains parameters for [**D3DKMTCreate
 
 [in] Size of the private driver data that **pPrivateDriverData** points to, in bytes.
 
-### -field pPrivateDriverData
+### -field PrivateDriverData
 
 [in/out] Pointer to a buffer that is private to the driver. The size of this buffer is specified by **PrivateDriverDataSize**.
 
-### -field pDoorbellCPUVirtualAddress
+### -field DoorbellCPUVirtualAddress
 
 [out] Pointer to the CPU virtual address (both read/write) reserved by the OS for this doorbell. UMD will write a specific value to this address, effectively "ringing the doorbell" to notify the GPU scheduler of a new work submission on the hardware queue. This address remains constant over the lifetime of the doorbell, even if the underlying physical doorbell gets disconnected. The UMD should always use this address to write/read to this doorbell.
 
-### -field pDoorbellSecondaryCPUVirtualAddress
+### -field DoorbellSecondaryCPUVirtualAddress
 
 [out/optional] Pointer to a secondary CPU virtual address (both read/write) reserved by the OS for this doorbell.
 
 On hardware that implements a secondary doorbell location the UMD sets the [**RequireSecondaryCpuVA**](ns-d3dkmthk-d3dkmt_create_doorbell_flags.md) flag. For such devices, the OS will reserve another CPU virtual address for this doorbell. Over the lifetime of the doorbell, this address will remain constant even if the underlying physical doorbell gets disconnected.
 
-### -field pDoorbellStatusCPUVirtualAddress
+### -field DoorbellStatusCPUVirtualAddress
 
 [out] Pointer to the CPU virtual address of the doorbell status. The value at this address indicates to the UMD whether the doorbell assigned to this hardware queue is currently connected. Each time the UMD submits new work to the queue and rings the doorbell, it must check this value to determine whether the doorbell ring succeeded. If the ring failed, UMD must call [**D3DKMTConnectDoorbell**](nf-d3dkmthk-d3dkmtconnectdoorbell.md) to reconnect the doorbell and then try submitting the work again.
 

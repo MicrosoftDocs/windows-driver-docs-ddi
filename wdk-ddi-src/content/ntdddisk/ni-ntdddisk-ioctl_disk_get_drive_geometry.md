@@ -49,6 +49,8 @@ Returns information about the physical disk's geometry (media type, number of cy
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

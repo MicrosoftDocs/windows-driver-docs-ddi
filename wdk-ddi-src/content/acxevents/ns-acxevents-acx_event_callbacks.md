@@ -5,7 +5,7 @@ title: ACX_EVENT_CALLBACKS
 ms.date: 06/22/2022
 targetos: Windows
 description: The ACX_EVENT_CALLBACKS structure identifies the driver callbacks for ACX event operations.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

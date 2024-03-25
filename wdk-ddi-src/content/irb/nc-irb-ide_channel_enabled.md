@@ -59,10 +59,6 @@ The **AtaControllerChannelEnabled** miniport driver routine indicates whether th
 
 [in] The channel to enable.
 
-### -param ChannelNumber
-
-[in] Specifies the channel number whose state will be determined.
-
 ## -returns
 
 **AtaControllerChannelEnabled** returns an enumerator value of type [**ATA_CHANNEL_STATE**](ne-irb-ata_channel_state.md), which can have any of the following values:

@@ -51,6 +51,8 @@ For general information about HIDClass devices, see <a href="/windows-hardware/d
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>Parameters.DeviceIoControl.Type3InputBuffer</b> contains a collection identifier, as a ULONG value, of the collection to activate.

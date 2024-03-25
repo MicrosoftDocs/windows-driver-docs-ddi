@@ -53,6 +53,8 @@ The
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer specified in the <b>DataBuffer</b> member of the SRB must contain an <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_srb_io_control">SRB_IO_CONTROL</a> structure and a <b>HYBRID_REQUEST_BLOCK</b> structure. Depending on the <b>Function</b> member of <b>HYBRID_REQUEST_BLOCK</b>, additional data can be supplied.

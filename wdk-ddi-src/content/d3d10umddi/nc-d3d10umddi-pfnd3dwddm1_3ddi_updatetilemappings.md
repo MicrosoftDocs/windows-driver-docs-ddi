@@ -38,8 +38,6 @@ api_location:
  - D3d10umddi.h
 api_name:
  - PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS
-product:
- - Windows
 ---
 
 # PFND3DWDDM1_3DDI_UPDATETILEMAPPINGS callback function

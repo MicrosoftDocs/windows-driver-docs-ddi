@@ -36,8 +36,6 @@ api_location:
  - netdevice.h
 api_name:
  - NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT
-product:
- - Windows
 ---
 
 # NET_DEVICE_POWER_POLICY_EVENT_CALLBACKS_INIT function

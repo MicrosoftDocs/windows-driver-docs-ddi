@@ -5,7 +5,7 @@ title: ACX_AUDIOENGINE_CONFIG
 ms.date: 04/29/2022
 targetos: Windows
 description: The ACX_AUDIOENGINE_CONFIG structure is used to define the audio engine configuration.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _D3DDDIQUERYTYPE
  - D3DDDIQUERYTYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

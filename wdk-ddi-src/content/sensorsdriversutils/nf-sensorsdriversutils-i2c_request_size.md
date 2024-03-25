@@ -35,8 +35,6 @@ api_location:
  - sensorsdriversutils.h
 api_name:
  - I2C_REQUEST_SIZE
-product:
- - Windows
 ---
 
 # I2C_REQUEST_SIZE macro

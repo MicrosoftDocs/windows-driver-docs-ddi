@@ -50,6 +50,8 @@ The <b>IOCTL_GNSS_LISTEN_ERROR</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to a [**SHUFFLE_FILE_DATA**](ns-ntifs-shuffle_file_data.md) structure that describes the allocation to be shuffled.

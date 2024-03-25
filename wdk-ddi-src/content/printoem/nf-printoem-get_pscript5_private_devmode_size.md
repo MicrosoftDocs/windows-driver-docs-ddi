@@ -35,8 +35,6 @@ api_location:
  - printoem.h
 api_name:
  - GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
-product:
- - Windows
 ---
 
 ## -description

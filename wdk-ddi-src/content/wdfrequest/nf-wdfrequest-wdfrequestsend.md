@@ -4,7 +4,7 @@ title: WdfRequestSend function (wdfrequest.h)
 description: The WdfRequestSend method sends a specified I/O request to a specified I/O target.
 old-location: wdf\wdfrequestsend.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 06/19/2023
 keywords: ["WdfRequestSend function"]
 ms.keywords: DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, WdfRequestSend, WdfRequestSend method, kmdf.wdfrequestsend, wdf.wdfrequestsend, wdfrequest/WdfRequestSend
 req.header: wdfrequest.h
@@ -70,7 +70,7 @@ A handle to a framework I/O target object. For more information about how to obt
 
 ## -returns
 
-<b>WdfRequestSend</b> returns <b>TRUE</b> if the request was sent to the target. Otherwise, this method returns <b>FALSE</b>.
+<b>WdfRequestSend</b> returns <b>TRUE</b> if the request was sent to the target. Otherwise, this method returns <b>FALSE</b>, and calling [**WdfRequestGetStatus**](nf-wdfrequest-wdfrequestgetstatus.md) returns a status that fails an NT_SUCCESS() test.
 
 A bug check occurs if the driver supplies an invalid object handle.
 

@@ -50,6 +50,8 @@ A client sends the <b>IOCTL_NFP_GET_KILO_BYTES_PER_SECOND</b> request to any gen
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

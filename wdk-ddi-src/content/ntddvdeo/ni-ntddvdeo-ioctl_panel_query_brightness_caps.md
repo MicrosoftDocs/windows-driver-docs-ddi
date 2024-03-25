@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_QUERY_BRIGHTNESS_CAPS IOCTL
@@ -43,6 +41,8 @@ product:
 Queries the brightness capabilities for a display panel.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

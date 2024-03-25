@@ -1,8 +1,7 @@
 ---
 UID: NS:ntifs._FSCTL_OFFLOAD_READ_INPUT
 title: FSCTL_OFFLOAD_READ_INPUT (ntifs.h)
-description: The FSCTL_OFFLOAD_READ_INPUT structure contains the input for the FSCTL_OFFLOAD_READ control code request.
-old-location: ifsk\fsctl_offload_read_input.htm
+description: Learn more about the FSCTL_OFFLOAD_READ_INPUT structure.
 tech.root: ifsk
 ms.date: 05/24/2022
 keywords: ["FSCTL_OFFLOAD_READ_INPUT structure"]
@@ -10,7 +9,7 @@ ms.keywords: "*PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOA
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -56,7 +55,7 @@ The **FSCTL_OFFLOAD_READ_INPUT** structure contains the input for the [**FSCTL_O
 
 ### -field Size
 
-The size of this structure. Set this member to **sizeof**(FSCTL_OFFLOAD_READ_INPUT).
+The size in bytes of this structure. Set this member to ```sizeof(FSCTL_OFFLOAD_READ_INPUT)```.
 
 ### -field Flags
 

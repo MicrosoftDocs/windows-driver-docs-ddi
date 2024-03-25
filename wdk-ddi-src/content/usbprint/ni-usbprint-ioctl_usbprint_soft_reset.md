@@ -49,6 +49,8 @@ The <b>IOCTL_USBPRINT_SOFT_RESET</b> request allows upper-layer software (such a
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Not used with this operation; set this parameter to <b>NULL</b>.

@@ -5,7 +5,7 @@ title: EVT_ACX_STREAM_ALLOCATE_RTPACKETS
 ms.date: 04/05/2022
 targetos: Windows
 description: The EvtAcxStreamAllocateRtPackets event tells the driver to allocate RtPackets for streaming.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _DXGKMT_POWER_SHARED_TYPE
  - DXGKMT_POWER_SHARED_TYPE
-product:
- - Windows
 ---
 
 # _DXGKMT_POWER_SHARED_TYPE enumeration

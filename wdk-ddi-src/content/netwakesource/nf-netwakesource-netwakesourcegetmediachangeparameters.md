@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetWakeSourceGetMediaChangeParameters
-product:
- - Windows
 ---
 
 # NetWakeSourceGetMediaChangeParameters function

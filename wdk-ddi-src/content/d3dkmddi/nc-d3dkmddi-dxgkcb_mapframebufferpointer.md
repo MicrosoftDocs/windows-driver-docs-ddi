@@ -34,8 +34,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_MAPFRAMEBUFFERPOINTER
-product:
- - Windows
 ---
 
 # DXGKCB_MAPFRAMEBUFFERPOINTER callback function

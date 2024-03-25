@@ -49,6 +49,10 @@ The IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS request restores the specified operat
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member of the IRP structure points to a client-allocated SERIAL_BASIC_SETTINGS structure that is used to input operating mode settings. The client should use settings that were returned by an IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS request.

@@ -35,8 +35,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_CREATECONTEXTCB
-product:
- - Windows
 dev_langs:
  - c++
 ---

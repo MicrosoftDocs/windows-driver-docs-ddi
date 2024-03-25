@@ -55,6 +55,8 @@ The IOCTL_PAR_SET_WRITE_ADDRESS request sets an extended capabilities port (ECP)
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The <b>AssociatedIrp.SystemBuffer</b> member points to a UCHAR buffer that the client allocates to input a write address. The client sets the buffer to an ECP or EPP write address.

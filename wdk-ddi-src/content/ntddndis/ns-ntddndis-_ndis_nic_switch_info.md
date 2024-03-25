@@ -93,7 +93,7 @@ An NDIS_NIC_SWITCH_ID value that specifies a switch identifier. The switch ident
 
 ### -field SwitchFriendlyName
 
-An NDIS_NIC_SWITCH_FRIENDLY_NAME value that contains the user-friendly description of the switch.
+An NDIS_NIC_SWITCH_FRIENDLYNAME value that contains the user-friendly description of the switch.
 
 ### -field NumVFs
 

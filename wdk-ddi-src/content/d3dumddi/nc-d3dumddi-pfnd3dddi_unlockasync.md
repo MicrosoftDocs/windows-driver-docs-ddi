@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_UNLOCKASYNC
-product:
- - Windows
 ---
 
 # PFND3DDDI_UNLOCKASYNC callback function

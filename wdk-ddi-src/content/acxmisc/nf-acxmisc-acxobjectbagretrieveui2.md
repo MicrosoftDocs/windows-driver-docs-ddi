@@ -5,7 +5,7 @@ title: AcxObjectBagRetrieveUI2
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagRetrieveUI2 function retrieves a unsigned int two byte UI2 (USHORT) from an existing, initialized AcxObjectBag that contains values.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

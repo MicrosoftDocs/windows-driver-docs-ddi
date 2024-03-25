@@ -4,7 +4,7 @@ title: IWDTFSystemAction2::IsRestartedWithContext (wdtfsystemaction.h)
 description: Gets a value that indicates whether the test script was restarted for a specific context.
 old-location: dtf\iwdtfsystemaction2_isrestartedwithcontext.htm
 tech.root: dtf
-ms.date: 04/04/2018
+ms.date: 08/10/2023
 keywords: ["IWDTFSystemAction2::IsRestartedWithContext"]
 ms.keywords: IWDTFSystemAction2 interface [Windows Device Testing Framework],IsRestartedWithContext method, IWDTFSystemAction2.IsRestartedWithContext, IWDTFSystemAction2::IsRestartedWithContext, IsRestartedWithContext, IsRestartedWithContext method [Windows Device Testing Framework], IsRestartedWithContext method [Windows Device Testing Framework],IWDTFSystemAction2 interface, Microsoft.WDTF.IWDTFSystemAction2.IsRestartedWithContext, Microsoft::WDTF::IWDTFSystemAction2::IsRestartedWithContext, dtf.iwdtfsystemaction2_isrestartedwithcontext, wdtfsystemaction/IWDTFSystemAction2::IsRestartedWithContext
 req.header: wdtfsystemaction.h
@@ -42,24 +42,19 @@ api_name:
 
 # IWDTFSystemAction2::IsRestartedWithContext
 
-
 ## -description
 
 Gets a value that indicates whether the test script was restarted for a specific context.
 
 ## -parameters
 
-### -param psContextName
+### -param psContextName [in]
+
+The context name.
 
 ### -param pbIsRestarted [out, retval]
 
-
 True if the script was restarted with the context; otherwise, false.
-
-
-### -param psContext [in]
-
-The context name.
 
 ## -returns
 
@@ -68,4 +63,3 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-

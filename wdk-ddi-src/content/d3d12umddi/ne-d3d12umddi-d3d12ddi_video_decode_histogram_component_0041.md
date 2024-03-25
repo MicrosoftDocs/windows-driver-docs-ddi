@@ -28,8 +28,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041
-product:
- - Windows
 ---
 
 # D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041 enumeration

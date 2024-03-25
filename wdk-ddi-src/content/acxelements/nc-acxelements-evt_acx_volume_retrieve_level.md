@@ -5,7 +5,7 @@ title: EVT_ACX_VOLUME_RETRIEVE_LEVEL
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_VOLUME_RETRIEVE_LEVEL callback function is implemented by the driver and is called when the volume level of a specified channel on a volume node is requested.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

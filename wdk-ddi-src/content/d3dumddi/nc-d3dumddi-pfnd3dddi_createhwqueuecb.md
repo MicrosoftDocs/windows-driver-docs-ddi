@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_CREATEHWQUEUECB
-product:
- - Windows
 ---
 
 # PFND3DDDI_CREATEHWQUEUECB callback function

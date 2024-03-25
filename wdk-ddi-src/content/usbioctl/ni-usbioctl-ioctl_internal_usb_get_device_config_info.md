@@ -53,6 +53,10 @@ The <b>IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</b>
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> points to a <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_hub_device_config_info_v1">HUB_DEVICE_CONFIG_INFO</a> structure to receive the device configuration information.

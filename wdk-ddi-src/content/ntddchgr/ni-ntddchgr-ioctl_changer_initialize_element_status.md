@@ -49,6 +49,8 @@ Initializes the status of all elements or of specified number of elements of a p
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
        The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains an <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_initialize_element_status">CHANGER_INITIALIZE_ELEMENT_STATUS</a> structure that indicates the element type and the number of elements to initialize. If the <b>BarCodeScan</b> member is <b>TRUE</b> and CHANGER_BAR_CODE_SCANNER_INSTALLED is also set in <b>Features0</b> of <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>, the elements should be initialized using a bar code scan.

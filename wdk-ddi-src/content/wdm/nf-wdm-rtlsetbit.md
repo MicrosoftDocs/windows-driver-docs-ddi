@@ -52,7 +52,7 @@ The <b>RtlSetBit</b> routine sets the specified bit in a bitmap to one.
 ### -param BitMapHeader [in]
 
 
-Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
+Pointer to the <a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a> structure that describes the bitmap. This structure must have been initialized by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlinitializebitmap">RtlInitializeBitMap</a> routine.
 
 ### -param BitNumber [in]
 
@@ -69,7 +69,7 @@ Callers of <b>RtlSetBit</b> must be running at IRQL <= APC_LEVEL if the memory t
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/kernel/eprocess">RTL_BITMAP</a>
+<a href="/windows-hardware/drivers/kernel/eprocess#rtl_bitmap">RTL_BITMAP</a>
 
 
 

@@ -96,6 +96,10 @@ For more information about this request and the callbacks, see the following top
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 The <b>Parameters.DeviceIoControl.Type3InputBuffer</b> points to an INTERNAL_I8042_HOOK_KEYBOARD structure. This structure includes the following members:

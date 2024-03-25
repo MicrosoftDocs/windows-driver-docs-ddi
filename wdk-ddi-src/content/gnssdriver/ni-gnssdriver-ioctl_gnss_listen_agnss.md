@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_LISTEN_AGNSS</b> control code is used by the GNSS adapter to s
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Set to NULL.

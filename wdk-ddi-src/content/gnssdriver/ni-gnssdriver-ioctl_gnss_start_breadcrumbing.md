@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_START_BREADCRUMBING</b> control code is used to start and conf
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to the input buffer.

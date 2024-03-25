@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_QUERYVIDPNINTERFACE
-product:
- - Windows
 ---
 
 # DXGKCB_QUERYVIDPNINTERFACE callback function

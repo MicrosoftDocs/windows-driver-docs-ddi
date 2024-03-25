@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_SETVIRTUALGPUVMBUS
  - PDXGKARG_SETVIRTUALGPUVMBUS
  - DXGKARG_SETVIRTUALGPUVMBUS
-product:
- - Windows
 dev_langs:
  - c++
 ---

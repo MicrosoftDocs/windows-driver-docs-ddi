@@ -1,9 +1,9 @@
 ---
-UID: NF:wexlogtrace.operator-assign
-title: operator= function (wexlogtrace.h)
-description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
+UID: NF:wexlogtrace.LogTrace.operator-assign
+title: "operator= function (wexlogtrace.h)"
+description: "The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object."
 old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
-tech.root: debugger
+tech.root: taef
 ms.date: 08/10/2018
 keywords: ["operator= function"]
 ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
@@ -38,7 +38,6 @@ api_name:
 - ExtRemoteTyped.operator=
 targetos: Windows
 req.typenames: TTraceLevel
-req.product: Windows 10 or later.
 ---
 
 # operator= function
@@ -60,7 +59,7 @@ ExtRemoteTyped & operator=(
 
 ## -parameters
 
-### -param Typed [in]
+### -param unnamedParam1 [in]
 
 A pointer to a [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) structure that describes the data and type to be assigned to this object.
 
@@ -72,8 +71,7 @@ A pointer to a [ExtRemoteTyped](../engextcpp/nl-engextcpp-extremotetyped.md) str
 
 ## -remarks
 
-The typed data can also be copied using the [ExtBuffer::Copy method](../engextcpp/nf-engextcpp-extbuffer-copy.md) method.
-
+The typed data can also be copied using the [ExtBuffer::Copy method](../engextcpp/nf-engextcpp-extbuffer-copy(const_t_ulong).md) method.
 
 ## -see-also
 

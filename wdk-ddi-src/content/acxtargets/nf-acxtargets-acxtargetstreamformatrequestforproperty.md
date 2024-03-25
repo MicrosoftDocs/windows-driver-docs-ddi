@@ -5,7 +5,7 @@ title: AcxTargetStreamFormatRequestForProperty
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetStreamFormatRequestForProperty formats a WDFREQUEST as an ACX property request to be used on specified stream target.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

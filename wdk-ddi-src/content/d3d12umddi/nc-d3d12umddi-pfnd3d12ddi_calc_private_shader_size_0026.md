@@ -34,8 +34,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026
-product:
- - Windows
 ---
 
 # PFND3D12DDI_CALC_PRIVATE_SHADER_SIZE_0026 callback function

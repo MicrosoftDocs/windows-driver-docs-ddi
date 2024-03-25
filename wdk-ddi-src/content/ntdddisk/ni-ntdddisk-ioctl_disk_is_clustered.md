@@ -49,6 +49,8 @@ Allows a driver or application to determine if a disk is clustered.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

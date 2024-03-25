@@ -36,8 +36,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetAdapterWakeSetPacketFilterCapabilities
-product:
- - Windows
 ---
 
 # NetAdapterWakeSetPacketFilterCapabilities function

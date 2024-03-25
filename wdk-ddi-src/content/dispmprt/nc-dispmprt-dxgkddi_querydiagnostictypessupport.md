@@ -34,8 +34,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT
-product:
- - Windows
 ---
 
 # DXGKDDI_QUERYDIAGNOSTICTYPESSUPPORT callback function

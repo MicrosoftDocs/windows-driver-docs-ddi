@@ -5,7 +5,7 @@ title: AcxStreamInitAssignAcxRtStreamCallbacks
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitAssignAcxRtStreamCallbacks function sets the RT callbacks using an  ACXSTREAM_INIT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

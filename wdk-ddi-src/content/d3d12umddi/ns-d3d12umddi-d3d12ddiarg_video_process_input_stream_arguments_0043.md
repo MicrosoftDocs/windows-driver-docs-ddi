@@ -31,8 +31,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043
-product:
- - Windows
 ---
 
 # D3D12DDIARG_VIDEO_PROCESS_INPUT_STREAM_ARGUMENTS_0043 structure
@@ -72,3 +70,6 @@ The planar alpha for an input stream on the video processor. See [D3D12DDI_VIDEO
 
 The video process field type.
 
+## -see-also
+
+[**PFND3D12DDI_VIDEO_PROCESS_FRAME_0043**](nc-d3d12umddi-pfnd3d12ddi_video_process_frame_0043.md)

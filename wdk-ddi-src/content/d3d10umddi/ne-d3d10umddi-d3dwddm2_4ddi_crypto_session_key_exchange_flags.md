@@ -28,8 +28,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
-product:
- - Windows
 ---
 
 # D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS enumeration

@@ -2,10 +2,10 @@
 UID: NA:acxtargets
 tech.root: audio
 title: acxtargets
-ms.date: 07/28/2022
+ms.date: 11/10/2023
 targetos: Windows
 description: The acxtargets header is used by the ACX audio class extensions.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
@@ -62,14 +62,16 @@ Drivers use *AcxTargetFactoryCircuit* to communicate with a remote circuit facto
 To interact with the remote circuit, each of the above ACX types supports:
 
 - properties
-- methods 
+- methods
 - events
- 
+
 For more information, see:
 
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
 
 - [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects)
- 
+
 - [Audio](../_audio/index.md)
 
+>[!NOTE]
+> The ACX headers and libraries are not included in the  WDK 10.0.22621.2428 (released October 24, 2023), but are available in previous versions, as well as the latest (25000 series builds) Insider Preview of the WDK. For more information about preview versions of the WDK, see [Installing preview versions of the Windows Driver Kit (WDK)](/windows-hardware/drivers/installing-preview-versions-wdk).

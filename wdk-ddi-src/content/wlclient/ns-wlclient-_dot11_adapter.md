@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_ADAPTER, *PDOT11_ADAPTER
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_ADAPTER
  - wlclient/_DOT11_ADAPTER

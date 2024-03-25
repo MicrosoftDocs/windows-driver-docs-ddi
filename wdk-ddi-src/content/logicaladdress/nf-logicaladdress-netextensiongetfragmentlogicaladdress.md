@@ -36,8 +36,6 @@ api_location:
  - logicaladdress.h
 api_name:
  - NetExtensionGetFragmentLogicalAddress
-product:
- - Windows
 ---
 
 # NetExtensionGetFragmentLogicalAddress function

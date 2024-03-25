@@ -4,7 +4,7 @@ title: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD (ntddndis.h)
 description: The NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure contains the offload support state for Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload (NVGRE-TO).
 old-location: netvista\ndis_encapsulated_packet_task_offload.htm
 tech.root: netvista
-ms.date: 12/02/2021
+ms.date: 06/15/2023
 keywords: ["NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure"]
 ms.keywords: "*PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, netvista.ndis_encapsulated_packet_task_offload, ntddndis/NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD"
 req.header: ntddndis.h
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD</b> structure contains the offload support state for Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload (NVGRE-TO). This structure is used in the <b>EncapsulatedPacketTaskOffloadGre</b> member of the <a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a> structure.
+The **NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD** structure contains the offload support state for Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload (NVGRE-TO). This structure is used in the **EncapsulatedPacketTaskOffloadGre** member of the [NDIS_OFFLOAD](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload) structure.
 
 ## -struct-fields
 
@@ -87,90 +87,34 @@ Reserved for system use.
 
 This member should be set to the maximum header size from the beginning of the packet to the beginning of the inner TCP or UDP payload (the last byte of TCP or UDP inner header) that the NIC must support for all of these task offloads. The protocol driver is expected to not offload processing of a packet whose combined encapsulation headers exceed this size. 
 
-<div class="alert"><b>Note</b>  256 bytes is a good default value that should cover all possible cases.</div>
-<div> </div>
+**Note**: 256 bytes is a good default value that should cover all possible cases.
 
 ## -remarks
 
-In the initial capability advertisement and in <a href="/windows-hardware/drivers/network/ndis-status-task-offload-current-config">NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a> and <a href="/windows-hardware/drivers/network/ndis-status-task-offload-hardware-capabilities">NDIS_STATUS_TASK_OFFLOAD_HARDWARE_CAPABILITIES</a> status indications, the <b>TransmitChecksumOffloadSupported</b>, <b>ReceiveChecksumOffloadSupported</b>, <b>LsoV2Supported</b>, <b>RssSupported</b>, and <b>VmqSupported</b> members can be set to a bitwise OR of the following flags:
+In the initial capability advertisement and in [NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG](/windows-hardware/drivers/network/ndis-status-task-offload-current-config) and [NDIS_STATUS_TASK_OFFLOAD_HARDWARE_CAPABILITIES](/windows-hardware/drivers/network/ndis-status-task-offload-hardware-capabilities) status indications, the **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, **VmqSupported**, and **UsoSupported** members can be set to a bitwise OR of the following flags:
 
 
 
 
-<table>
-<tr>
-<th>Term</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<a id="NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_NOT_SUPPORTED"></a><a id="ndis_encapsulated_packet_task_offload_not_supported"></a>NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_NOT_SUPPORTED
+Term | Description
+--- | ---
+NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_NOT_SUPPORTED | Specifies that the miniport adapter does not support the corresponding task offload feature that the member specifies.
+NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4 | Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the inner IP header of an encapsulated packet is IPv4.
+NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4 | Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the outer IP header of an encapsulated packet is IPv4.
+NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV6 | Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the inner IP header of an encapsulated packet is IPv6.
+NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6 | Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the outer IP header of an encapsulated packet is IPv6.
 
-</td>
-<td width="60%">
-Specifies that the miniport adapter does not support the corresponding task offload feature that the member specifies.
+As an example, if a miniport adapter and driver only support an IPv6 header as outer IP header but not as inner IP header, it will set **TransmitChecksumOffloadSupported**, **ReceiveChecksumOffloadSupported**, **LsoV2Supported**, **RssSupported**, **VmqSupported**, and **UsoSupported** to the value of the bitwise OR of NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4 and NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6.
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4"></a><a id="ndis_encapsulated_packet_task_offload_inner_ipv4"></a>NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4
+Regarding IP options and TCP options, the following assumption was made for encapsulated packets:
 
-</td>
-<td width="60%">
-Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the inner IP header of an encapsulated packet is IPv4.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4"></a><a id="ndis_encapsulated_packet_task_offload_outer_ipv4"></a>NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4
-
-</td>
-<td width="60%">
-Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the outer IP header of an encapsulated packet is IPv4.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV6"></a><a id="ndis_encapsulated_packet_task_offload_inner_ipv6"></a>NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV6
-
-</td>
-<td width="60%">
-Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the inner IP header of an encapsulated packet is IPv6.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<a id="NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6"></a><a id="ndis_encapsulated_packet_task_offload_outer_ipv6"></a>NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6
-
-</td>
-<td width="60%">
-Specifies that the miniport adapter supports the corresponding task offload feature that the member specifies where the outer IP header of an encapsulated packet is IPv6.
-
-</td>
-</tr>
-</table>
- 
-
-
-
-As an example, if a miniport adapter and driver only support an  IPv6 header as outer IP header but not as inner IP header, it will set <b>TransmitChecksumOffloadSupported</b>, <b>ReceiveChecksumOffloadSupported</b>, <b>LsoV2Supported</b>, <b>RssSupported</b>, and <b>VmqSupported</b> to the value of the bitwise OR of NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_INNER_IPV4, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV4 and NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_OUTER_IPV6.
-
-Regarding IP options and TCP options, the following assumption was made for encapsulated packets:<ul>
-<li>If the NIC specifies <b>IpOptions</b> and <b>TcpOptions</b> support in normal checksum offload and LSOv2 advertisement, it must support the option processing for encapsulated packets if <a href="/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a> is supported. This means it will support both inner and outer IP options and TCP options inside the encapsulated packets. There is no separate capability advertisement for these specific to only NVGRE Task Offload.</li>
-</ul>
-
+- If the NIC specifies **IpOptions** and **TcpOptions** support in normal checksum offload and LSOv2 advertisement, it must support the option processing for encapsulated packets if [Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload](/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload) is supported. This means it will support both inner and outer IP options and TCP options inside the encapsulated packets. There is no separate capability advertisement for these specific to only NVGRE Task Offload.
 
 It is possible for a protocol driver to offload "mixed mode" packets which means packets in which the inner and outer IP header versions are different. For example, a packet could have outer IP header as IPv6 and the inner IP header as IPv4.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload">NDIS_OFFLOAD</a>
+- [NDIS_OFFLOAD](/windows-hardware/drivers/ddi/ntddndis/ns-ntddndis-_ndis_offload)
 
-
-
-<a href="/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+- [Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload](/windows-hardware/drivers/network/network-virtualization-using-generic-routing-encapsulation--nvgre--task-offload)
 

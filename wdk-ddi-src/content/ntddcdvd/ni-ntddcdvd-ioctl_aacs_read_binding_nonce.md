@@ -49,6 +49,8 @@ Reads the Advanced Access Content System (AACS) binding nonce starting at the sp
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains a structure of type <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_read_binding_nonce">AACS_READ_BINDING_NONCE</a> that specifies the <a href="/previous-versions/windows/hardware/drivers/ff553743(v=vs.85)">DVD_SESSION_ID</a>, the starting logical block address and the number of sectors for which the logical unit should generate a binding nonce.

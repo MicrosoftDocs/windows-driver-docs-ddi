@@ -38,8 +38,6 @@ api_location:
  - D3d10umddi.h
 api_name:
  - PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS
-product:
- - Windows
 ---
 
 # PFND3DWDDM2_0DDI_CHECKCRYPTOSESSIONSTATUS callback function

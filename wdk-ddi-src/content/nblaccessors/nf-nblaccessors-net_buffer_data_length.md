@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_DATA_LENGTH
 title: NET_BUFFER_DATA_LENGTH
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_DATA_LENGTH is a macro that NDIS drivers use to get the amount of used data space in a NET_BUFFER structure.
 tech.root: netvista
@@ -23,7 +23,8 @@ req.target-min-winversvr:
 req.target-type: Universal
 req.type-library: 
 req.umdf-ver: 
-req.unicode-ansi: 
+req.unicode-ansi:
+returns-override: true
 topic_type:
  - apiref
 api_type:
@@ -45,6 +46,12 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_DATA_LENGTH** is a macro that NDIS drivers use to get the amount of *used data space* in a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_DATA_LENGTH(_NB) ((_NB)->DataLength)
+```
 
 ## -parameters
 

@@ -49,6 +49,8 @@ Determines whether the media has changed on a removable-media device - the calle
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Input is identical to the input for <a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_check_verify">IOCTL_STORAGE_CHECK_VERIFY</a>.

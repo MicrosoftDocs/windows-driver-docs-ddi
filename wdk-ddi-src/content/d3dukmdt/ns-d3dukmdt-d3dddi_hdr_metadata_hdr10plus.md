@@ -31,8 +31,6 @@ api_location:
  - d3dukmdt.h
 api_name:
  - D3DDDI_HDR_METADATA_HDR10PLUS
-product:
- - Windows
 ---
 
 # D3DDDI_HDR_METADATA_HDR10PLUS structure

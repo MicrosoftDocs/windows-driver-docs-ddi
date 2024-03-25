@@ -26,7 +26,6 @@ req.dll: Videoprt.sys
 req.irql: DISPATCH_LEVEL (see Remarks section)
 targetos: Windows
 req.typenames: VIDEO_PORT_SERVICES
-req.product: Windows 10 or later.
 f1_keywords:
  - VideoPortReleaseSpinLock
  - video/VideoPortReleaseSpinLock

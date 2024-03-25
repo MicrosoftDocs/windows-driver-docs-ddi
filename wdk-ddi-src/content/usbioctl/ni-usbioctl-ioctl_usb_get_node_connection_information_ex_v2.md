@@ -53,6 +53,8 @@ The <b>IOCTL_USB_GET_NODE_CONNECTION_INFORMATION_EX_V2</b> I/O control is sent b
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>AssociatedIrp.SystemBuffer</b> points to a caller-allocated    <a href="/windows-hardware/drivers/ddi/usbioctl/ns-usbioctl-_usb_node_connection_information_ex_v2">USB_NODE_CONNECTION_INFORMATION_EX_V2</a> structure.

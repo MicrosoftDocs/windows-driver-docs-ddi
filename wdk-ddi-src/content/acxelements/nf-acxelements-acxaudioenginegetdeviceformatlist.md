@@ -5,7 +5,7 @@ title: AcxAudioEngineGetDeviceFormatList
 ms.date: 12/15/2022
 targetos: Windows
 description: The AcxAudioEngineGetDeviceFormatList function retrieves a ACXDATAFORMATLIST device format list ACX object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -29,8 +29,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_PANEL_GET_BACKLIGHT_REDUCTION
-product:
- - Windows
 ---
 
 # IOCTL_PANEL_GET_BACKLIGHT_REDUCTION IOCTL
@@ -43,6 +41,8 @@ product:
 Panel control IOCTLs must/can be handled by the monitor, OEM panel, or port/miniport driver.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

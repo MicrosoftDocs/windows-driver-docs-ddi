@@ -49,6 +49,8 @@ Returns a USB device's maximum packet size for the read, write, and interrupt tr
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>NULL</b>.

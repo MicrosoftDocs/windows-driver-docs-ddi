@@ -1,10 +1,9 @@
 ---
 UID: NF:rxprocs.RxFinalizeConnection
 title: RxFinalizeConnection function (rxprocs.h)
-description: RxFinalizeConnection deletes a connection to a share.
-old-location: ifsk\rxfinalizeconnection.htm
+description: Learn more about the RxFinalizeConnection function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/12/2023
 keywords: ["RxFinalizeConnection function"]
 ms.keywords: RxFinalizeConnection, RxFinalizeConnection function [Installable File System Drivers], ifsk.rxfinalizeconnection, rxprocs/RxFinalizeConnection, rxref_4d5f5633-98fc-4cdc-9803-01ccc06486f5.xml
 req.header: rxprocs.h
@@ -42,19 +41,17 @@ api_name:
 
 # RxFinalizeConnection function
 
-
 ## -description
 
 <b>RxFinalizeConnection</b> deletes a connection to a share. Any files open on the connection are closed depending on the level of force specified. The network mini-redirector might choose to keep the transport connection open for performance reasons, unless some option is specified to force a close of connection.
 
 ## -parameters
 
-### -param NetRoot [in, out]
+### -param NetRoot
 
+[in, out] A pointer to the NET_ROOT structure being finalized.
 
-A pointer to the NET_ROOT structure being finalized.
-
-### -param OPTIONAL
+### -param VNetRoot
 
 <p>A pointer to the V_NET_ROOT structure being finalized.</p>
 

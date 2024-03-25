@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_CREATEPROTECTEDSESSION
-product:
- - Windows
 ---
 
 # DXGKDDI_CREATEPROTECTEDSESSION callback function

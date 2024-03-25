@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_CALC_PRIVATE_COMMAND_SIGNATURE_SIZE_0001
-product:
- - Windows
 dev_langs:
  - c++
 ---

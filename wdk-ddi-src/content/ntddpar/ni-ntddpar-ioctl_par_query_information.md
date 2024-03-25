@@ -55,6 +55,8 @@ The IOCTL_PAR_QUERY_INFORMATION request returns the status of an IEEE 1284 end-o
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

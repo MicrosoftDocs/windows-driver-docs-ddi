@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11_EAP_RESULT, *PDOT11_EAP_RESULT
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11_EAP_RESULT
  - wlanihv/_DOT11_EAP_RESULT

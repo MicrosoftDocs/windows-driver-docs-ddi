@@ -39,8 +39,6 @@ api_location:
  - D3d12umddi.h
 api_name:
  - D3D12DDI_TABLE_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

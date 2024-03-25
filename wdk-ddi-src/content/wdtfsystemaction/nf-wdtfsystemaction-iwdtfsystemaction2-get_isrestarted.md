@@ -42,16 +42,22 @@ api_name:
 
 # IWDTFSystemAction2::get_IsRestarted
 
-
 ## -description
 
-Gets a value that indicates whether the test script restarted as a result of a call to 
-	<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 
-	<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
+Gets a value that indicates whether the test script restarted as a result of a call to 	<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestart">RebootRestart</a> or 	<a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nf-wdtfsystemaction-iwdtfsystemaction2-rebootrestartwithcontext">RebootRestartWithContext</a>.
 
 This property is read-only.
+
+## -parameters
+
+### -param pbIsRestarted
+
+A value that indicates whether the system is restarted.
+
+## -returns
+
+If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdtfsystemaction/nn-wdtfsystemaction-iwdtfsystemaction2">IWDTFSystemAction2</a>
-

@@ -49,6 +49,8 @@ The <b>IOCTL_USB_RESET_HUB</b> IOCTL is used by the USB driver stack.  Do not us
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

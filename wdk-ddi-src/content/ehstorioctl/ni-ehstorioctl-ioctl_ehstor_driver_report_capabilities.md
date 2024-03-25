@@ -49,6 +49,8 @@ This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of the s
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a>. This structure is followed immediately by a list of which redirected IOCTLs the silo driver will handle.

@@ -5,7 +5,7 @@ title: AcxTargetCircuitCreate
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxTargetCircuitCreate function is used to create an ACX target circuit.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -49,6 +49,8 @@ Makes the pointer invisible by disabling the pointer attributes. Support for thi
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

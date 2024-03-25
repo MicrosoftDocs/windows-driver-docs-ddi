@@ -35,8 +35,6 @@ api_location:
  - dispmprt.h
 api_name:
  - PBANKED_SECTION_ROUTINE
-product:
- - Windows
 dev_langs:
  - c++
 ---

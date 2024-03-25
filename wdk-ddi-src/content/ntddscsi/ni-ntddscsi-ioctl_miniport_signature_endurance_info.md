@@ -30,8 +30,6 @@ api_location:
  - ntddscsi.h
 api_name:
  - IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO
-product:
- - Windows
 ---
 
 # IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO SIGNATURE
@@ -41,6 +39,8 @@ product:
 **IOCTL_MINIPORT_SIGNATURE_ENDURANCE_INFO** is the system-defined *signature* used in conjunction with the [**IOCTL_SCSI_MINIPORT**](./ni-ntddscsi-ioctl_scsi_miniport.md) control code to request that a miniport return a target device's endurance information.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

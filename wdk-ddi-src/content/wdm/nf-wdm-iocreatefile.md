@@ -4,6 +4,7 @@ title: IoCreateFile function (wdm.h)
 description: The IoCreateFile routine either causes a new file or directory to be created, or it opens an existing file, device, directory, or volume, giving the caller a handle for the file object.
 tech.root: kernel
 ms.date: 02/13/2020
+author: lorihollasch
 keywords: ["IoCreateFile function"]
 ms.keywords: IoCreateFile, IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, kernel.iocreatefile, wdm/IoCreateFile
 req.header: wdm.h

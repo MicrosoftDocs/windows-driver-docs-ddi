@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.PoDeletePowerRequest
 title: PoDeletePowerRequest function (ntifs.h)
-description: The PoDeletePowerRequest routine in ntifs.h deletes a power request object. The driver must delete the power request object before it deletes the device object.
-old-location: kernel\podeletepowerrequest.htm
+description: Learn more about the PoDeletePowerRequest routine.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 07/06/2023
 keywords: ["PoDeletePowerRequest function"]
 ms.keywords: PoDeletePowerRequest, PoDeletePowerRequest routine [Kernel-Mode Driver Architecture], kernel.podeletepowerrequest, portn_a0e21464-039d-4619-b9d5-f67bf2d7273b.xml, wdm/PoDeletePowerRequest
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 7.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,17 +41,15 @@ api_name:
 
 # PoDeletePowerRequest function (ntifs.h)
 
-
 ## -description
 
-The <b>PoDeletePowerRequest</b> routine deletes a power request object.
+The **PoDeletePowerRequest** routine deletes a power request object.
 
 ## -parameters
 
 ### -param PowerRequest [in, out]
 
-
-A pointer to a power request object that was created by the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a> routine.
+A pointer to a power request object that was created by the [**PoCreatePowerRequest**](nf-ntifs-pocreatepowerrequest.md) routine.
 
 ## -remarks
 
@@ -60,4 +57,4 @@ The driver must delete the power request object before it deletes the device obj
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-pocreatepowerrequest">PoCreatePowerRequest</a>
+[**PoCreatePowerRequest**](nf-ntifs-pocreatepowerrequest.md)

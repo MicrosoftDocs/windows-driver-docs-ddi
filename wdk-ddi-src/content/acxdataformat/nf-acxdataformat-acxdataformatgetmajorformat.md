@@ -5,7 +5,7 @@ title: AcxDataFormatGetMajorFormat
 ms.date: 12/15/2022
 targetos: Windows
 description: AcxDataFormatGetMajorFormat
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

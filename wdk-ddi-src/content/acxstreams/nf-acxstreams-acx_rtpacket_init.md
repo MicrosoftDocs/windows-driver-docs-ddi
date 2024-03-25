@@ -5,7 +5,7 @@ title: ACX_RTPACKET_INIT
 ms.date: 07/28/2022
 targetos: Windows
 description: ACX_RTPACKET_INIT initializes the ACX RT packet structure. This function is located in the acxstreams header.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

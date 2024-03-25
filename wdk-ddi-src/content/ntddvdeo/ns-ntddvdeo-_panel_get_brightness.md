@@ -37,8 +37,6 @@ api_name:
  - _PANEL_GET_BRIGHTNESS
  - PPANEL_GET_BRIGHTNESS
  - PANEL_GET_BRIGHTNESS
-product:
- - Windows
 ---
 
 # _PANEL_GET_BRIGHTNESS structure

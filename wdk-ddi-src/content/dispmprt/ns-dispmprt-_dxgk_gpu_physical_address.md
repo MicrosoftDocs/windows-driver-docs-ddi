@@ -38,8 +38,6 @@ api_name:
  - _DXGK_GPU_PHYSICAL_ADDRESS
  - PDXGK_GPU_PHYSICAL_ADDRESS
  - DXGK_GPU_PHYSICAL_ADDRESS
-product:
- - Windows
 dev_langs:
  - c++
 ---

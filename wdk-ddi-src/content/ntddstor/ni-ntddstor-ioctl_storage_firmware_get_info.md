@@ -49,6 +49,8 @@ A driver can use <b>IOCTL_STORAGE_FIRMWARE_GET_INFO</b> to query a storage devic
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 <b>

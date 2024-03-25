@@ -1,9 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ACQUIREKEYEDMUTEX2
-title: _D3DKMT_ACQUIREKEYEDMUTEX2 (d3dkmthk.h)
-description: Describes a keyed mutex object that the D3DKMTAcquireKeyedMutex2 function acquires that includes private data.
-old-location: display\d3dkmt_acquirekeyedmutex2.htm
-ms.date: 05/10/2018
+title: D3DKMT_ACQUIREKEYEDMUTEX2 (d3dkmthk.h)
+description: Learn more about the D3DKMTAcquireKeyedMutex2 function.
+ms.date: 07/27/2023
 keywords: ["D3DKMT_ACQUIREKEYEDMUTEX2 structure"]
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX2, D3DKMT_ACQUIREKEYEDMUTEX2 structure [Display Devices], _D3DKMT_ACQUIREKEYEDMUTEX2, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX2, display.d3dkmt_acquirekeyedmutex2
 req.header: d3dkmthk.h
@@ -43,40 +42,38 @@ api_name:
  - D3DKMT_ACQUIREKEYEDMUTEX2
 ---
 
-# _D3DKMT_ACQUIREKEYEDMUTEX2 structure
-
+# D3DKMT_ACQUIREKEYEDMUTEX2 structure
 
 ## -description
 
-Describes a keyed mutex object that the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex2">D3DKMTAcquireKeyedMutex2</a> function acquires that includes private data.
+Describes a keyed mutex object that the [**D3DKMTAcquireKeyedMutex2**](nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md) function acquires that includes private data.
 
 ## -struct-fields
 
-### -field hKeyedMutex [in]
+### -field hKeyedMutex
 
-A D3DKMT_HANDLE data type that represents a handle to the keyed mutex.
+[in] A D3DKMT_HANDLE data type that represents a handle to the keyed mutex.
 
-### -field Key [in]
+### -field Key
 
-The key value to acquire.
+[in] The key value to acquire.
 
-### -field pTimeout [in]
+### -field pTimeout
 
-An NT-style timeout value.
+[in] An NT-style timeout value.
 
-### -field FenceValue [out]
+### -field FenceValue
 
-The current fence value of the GPU sync object.
+[out] The current fence value of the GPU sync object.
 
-### -field pPrivateRuntimeData [out]
+### -field pPrivateRuntimeData
 
-A pointer to a buffer to copy private data to.
+[out] A pointer to a buffer to copy private data to.
 
-### -field PrivateRuntimeDataSize [in]
+### -field PrivateRuntimeDataSize
 
-The size, in bytes, of the <b>pPrivateRuntimeData</b> member.
+[in] The size, in bytes, of the **pPrivateRuntimeData** member.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtacquirekeyedmutex2">D3DKMTAcquireKeyedMutex2</a>
-
+[**D3DKMTAcquireKeyedMutex2**](nf-d3dkmthk-d3dkmtacquirekeyedmutex2.md)

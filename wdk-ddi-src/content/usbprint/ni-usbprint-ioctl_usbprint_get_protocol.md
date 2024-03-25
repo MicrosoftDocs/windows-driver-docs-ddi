@@ -29,8 +29,6 @@ api_location:
  - usbprint.h
 api_name:
  - IOCTL_USBPRINT_GET_PROTOCOL
-product:
- - Windows
 ---
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
@@ -40,6 +38,8 @@ product:
 Retrieve the current printer protocol code of the USB printer interface.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

@@ -1,16 +1,15 @@
 ---
 UID: NF:ntifs.FsRtlAcknowledgeEcp
 title: FsRtlAcknowledgeEcp function (ntifs.h)
-description: The FsRtlAcknowledgeEcp routine marks an extra create parameter (ECP) context structure as acknowledged.
-old-location: ifsk\fsrtlacknowledgeecp.htm
+description: Learn more about the FsRtlAcknowledgeEcp routine.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["FsRtlAcknowledgeEcp function"]
-ms.keywords: FsRtlAcknowledgeEcp, FsRtlAcknowledgeEcp routine [Installable File System Drivers], fsrtlref_2c3b8577-e61e-4ff3-9443-b3838077d762.xml, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp
+ms.keywords: FsRtlAcknowledgeEcp, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,52 +41,36 @@ api_name:
 
 # FsRtlAcknowledgeEcp function
 
-
 ## -description
 
-The <b>FsRtlAcknowledgeEcp</b> routine marks an extra create parameter (ECP) context structure as acknowledged.
+The **FsRtlAcknowledgeEcp** routine marks an extra create parameter (ECP) context structure as acknowledged.
 
 ## -parameters
 
 ### -param EcpContext [in]
 
-
 A pointer to the ECP to mark as acknowledged.
 
 ## -remarks
 
-When <b>FsRtlAcknowledgeEcp</b> marks an ECP as acknowledged, it could indicate   whether the ECP has been looked at, used, processed, or any other condition of the ECP.  
+When **FsRtlAcknowledgeEcp** marks an ECP as acknowledged, it could indicate   whether the ECP has been looked at, used, processed, or any other condition of the ECP.  
 
-You can use the <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisecpacknowledged">FltIsEcpAcknowledged</a> routine to determine if a particular ECP has been marked as acknowledged.
+You can use the [**FltIsEcpAcknowledged**](../fltkernel/nf-fltkernel-fltisecpacknowledged.md) routine to determine if a particular ECP has been marked as acknowledged.
 
 ## -see-also
 
-<a href="/previous-versions/windows/hardware/drivers/ff540148(v=vs.85)">ECP_LIST</a>
+[**ECP_LIST**](/windows-hardware/drivers/ifs/introduction-to-extra-create-parameters)
 
+[**FltAllocateExtraCreateParameterFromLookasideList**](../fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md)
 
+[**FltFreeExtraCreateParameter**](../fltkernel/nf-fltkernel-fltfreeextracreateparameter.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocateextracreateparameterfromlookasidelist">FltAllocateExtraCreateParameterFromLookasideList</a>
+[**FltGetEcpListFromCallbackData**](../fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata.md)
 
+[**FltIsEcpAcknowledged**](../fltkernel/nf-fltkernel-fltisecpacknowledged.md)
 
+[**FltIsEcpFromUserMode**](../fltkernel/nf-fltkernel-fltisecpfromusermode.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltfreeextracreateparameter">FltFreeExtraCreateParameter</a>
+[**FltRemoveExtraCreateParameter**](../fltkernel/nf-fltkernel-fltremoveextracreateparameter.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltgetecplistfromcallbackdata">FltGetEcpListFromCallbackData</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisecpacknowledged">FltIsEcpAcknowledged</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltisecpfromusermode">FltIsEcpFromUserMode</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltremoveextracreateparameter">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltsetecplistintocallbackdata">FltSetEcpListIntoCallbackData</a>
+[**FltSetEcpListIntoCallbackData**](../fltkernel/nf-fltkernel-fltsetecplistintocallbackdata.md)

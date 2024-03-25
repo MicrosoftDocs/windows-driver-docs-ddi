@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
  - D3DKMT_QUERY_ADAPTER_UNIQUE_GUID
-product:
- - Windows
 ---
 
 # _D3DKMT_QUERY_ADAPTER_UNIQUE_GUID structure

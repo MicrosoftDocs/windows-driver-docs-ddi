@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _WWAN_NETWORK_BLACKLIST_STATE
  - WWAN_NETWORK_BLACKLIST_STATE
-product:
- - Windows
 ---
 
 # _WWAN_NETWORK_BLACKLIST_STATE enumeration

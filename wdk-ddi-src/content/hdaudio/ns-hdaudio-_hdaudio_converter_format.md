@@ -4,7 +4,7 @@ title: _HDAUDIO_CONVERTER_FORMAT (hdaudio.h)
 description: The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream format for an input or output converter, as defined in the Intel High Definition Audio Specification (see the Intel HD Audio website).
 old-location: audio\hdaudio_converter_format.htm
 tech.root: audio
-ms.date: 05/08/2018
+ms.date: 07/25/2023
 keywords: ["HDAUDIO_CONVERTER_FORMAT structure"]
 ms.keywords: "*PHDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT, HDAUDIO_CONVERTER_FORMAT structure [Audio Devices], PHDAUDIO_CONVERTER_FORMAT, PHDAUDIO_CONVERTER_FORMAT structure pointer [Audio Devices], _HDAUDIO_CONVERTER_FORMAT, aud-prop2_fbc3cdcb-94a1-43ef-bf23-4b1cca37e99d.xml, audio.hdaudio_converter_format, hdaudio/HDAUDIO_CONVERTER_FORMAT, hdaudio/PHDAUDIO_CONVERTER_FORMAT"
 req.header: hdaudio.h
@@ -48,53 +48,33 @@ api_name:
 
 # _HDAUDIO_CONVERTER_FORMAT structure
 
-
 ## -description
 
 The HDAUDIO_CONVERTER_FORMAT structure specifies the 16-bit encoded stream format for an input or output converter, as defined in the Intel High Definition Audio Specification (see the <a href="https://go.microsoft.com/fwlink/p/?linkid=42508">Intel HD Audio</a> website).
 
 ## -struct-fields
 
+Specifies the number of channels in the stream's data format. For more information, see the Remarks section.
+
 ### -field NumberOfChannels
+
+Specifies the number of channels in the stream's data format. For more information, see the following Remarks section.
 
 ### -field BitsPerSample
 
+Specifies the number of bits per sample. For more information, see the following Remarks section.
+
 ### -field SampleRate
 
+Specifies the stream's sample rate. For more information, see the following Remarks section.
+
 ### -field StreamType
+
+Specifies the stream type. If <b>StreamType</b>=0, the stream contains PCM data. If <b>StreamType</b>=1, the stream contains non-PCM data.
 
 ### -field ConverterFormat
 
 Specifies the stream's data format as an encoded 16-bit value. For more information, see the following Remarks section.
-
-
-### -field ( unnamed struct )
-
-Specifies the number of channels in the stream's data format. For more information, see the following Remarks section.
-
-
-
-#### NumberOfChannels
-
-Specifies the number of channels in the stream's data format. For more information, see the following Remarks section.
-
-
-
-#### BitsPerSample
-
-Specifies the number of bits per sample. For more information, see the following Remarks section.
-
-
-
-#### SampleRate
-
-Specifies the stream's sample rate. For more information, see the following Remarks section.
-
-
-
-#### StreamType
-
-Specifies the stream type. If <b>StreamType</b>=0, the stream contains PCM data. If <b>StreamType</b>=1, the stream contains non-PCM data.
 
 ## -remarks
 
@@ -110,15 +90,8 @@ Each valid HDAUDIO_CONVERTER_FORMAT encoding has a one-to-one correspondence to 
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_capture_dma_engine">AllocateCaptureDmaEngine</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pallocate_render_dma_engine">AllocateRenderDmaEngine</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/hdaudio/nc-hdaudio-pchange_bandwidth_allocation">ChangeBandwidthAllocation</a>
 
-
-
 <a href="/windows-hardware/drivers/ddi/hdaudio/ns-hdaudio-_hdaudio_stream_format">HDAUDIO_STREAM_FORMAT</a>
-

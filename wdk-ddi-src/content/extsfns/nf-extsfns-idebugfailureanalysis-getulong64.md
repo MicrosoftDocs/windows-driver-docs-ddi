@@ -55,7 +55,6 @@ A value in the <a href="/windows-hardware/drivers/debugger/writing-an-analysis-e
 
 ### -param Value [out]
 
-
 A pointer to a <b>ULONG64</b> that receives the value from the entry's data block.
 
 ## -returns

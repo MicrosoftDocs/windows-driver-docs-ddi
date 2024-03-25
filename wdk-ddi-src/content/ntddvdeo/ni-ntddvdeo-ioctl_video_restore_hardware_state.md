@@ -49,6 +49,8 @@ Restores all values used to set the hardware registers. Miniport drivers for VGA
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains the previously-saved VIDEO_HARDWARE_STATE structure.

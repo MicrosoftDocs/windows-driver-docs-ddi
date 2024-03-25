@@ -51,6 +51,10 @@ The <b>IOCTL_INTERNAL_USB_SUBMIT_URB</b> I/O control request is used by drivers 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 <b>Parameters.Others.Argument1</b> points to the URB, a variable-length structure. The <b>UrbHeader.Function</b> member of the URB specifies the URB type. The length of URB, as well as the meaning of any additional members depends on the value of <b>UrbHeader.Function</b>. See <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> for details.

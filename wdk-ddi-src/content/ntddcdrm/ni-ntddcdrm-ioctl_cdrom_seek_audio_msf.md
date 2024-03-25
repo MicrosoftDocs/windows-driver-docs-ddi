@@ -49,6 +49,8 @@ Moves the heads to the specified MSF on the media.  Obsolete, beginning with Win
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> contains the <a href="/windows-hardware/drivers/ddi/ntddcdrm/ns-ntddcdrm-_cdrom_seek_audio_msf">CDROM_SEEK_AUDIO_MSF</a> specification.

@@ -1,8 +1,8 @@
 ---
 UID: NS:d3d12umddi.D3D12DDIARG_META_COMMAND_DESC
 title: D3D12DDIARG_META_COMMAND_DESC (d3d12umddi.h)
-description: The description of a meta-command.
-ms.date: 10/19/2018
+description: Learn more about the D3D12DDIARG_META_COMMAND_DESC structure.
+ms.date: 12/12/2023
 keywords: ["D3D12DDIARG_META_COMMAND_DESC structure"]
 ms.keywords: D3D12DDIARG_META_COMMAND_DESC, D3D12DDIARG_META_COMMAND_DESC,
 req.header: d3d12umddi.h
@@ -38,10 +38,9 @@ dev_langs:
 
 # D3D12DDIARG_META_COMMAND_DESC structure
 
-
 ## -description
 
-The description of a meta-command. A meta-command is a Direct3D object intended to represent an IHV-accelerated algorithm. It’s an opaque reference to a command generator implemented by the driver.
+The **D3D12DDIARG_META_COMMAND_DESC** structure contains the description of a meta-command. A meta-command is a Direct3D object intended to represent an IHV-accelerated algorithm. It’s an opaque reference to a command generator implemented by the driver.
 
 ## -struct-fields
 
@@ -51,17 +50,18 @@ The id of a meta-command.
 
 ### -field Name
 
-Pointer to a wide string, the driver allocates and keeps for the lifetime of the device.
+Pointer to a wide string that holds the name of the meta-command. The driver allocates and keeps this string for the lifetime of the device.
 
 ### -field InitializationDirtyState
 
-Specifies the command list states that are modified by the initialization call.
+A [**D3D12DDI_GRAPHICS_STATES**](ne-d3d12umddi-d3d12ddi_graphics_states.md) value specifying the command list states that are modified by the initialization call.
 
 ### -field ExecutionDirtyState
 
-Specifies the command list states that are modified by the execute call.
+A [**D3D12DDI_GRAPHICS_STATES**](ne-d3d12umddi-d3d12ddi_graphics_states.md) value specifying the command list states that are modified by the execute call.
 
 ## -remarks
 
 ## -see-also
 
+[**PFND3D12DDI_ENUMERATE_META_COMMANDS_0052**](nc-d3d12umddi-pfnd3d12ddi_enumerate_meta_commands_0052.md)

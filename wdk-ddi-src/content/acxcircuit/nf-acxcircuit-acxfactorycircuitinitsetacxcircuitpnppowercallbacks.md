@@ -5,7 +5,7 @@ title: AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks
 ms.date: 12/14/2022
 targetos: Windows
 description: The AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks function sets the driver's PNP callbacks for the ACXFACTORYCIRCUIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

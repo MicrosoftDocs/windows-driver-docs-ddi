@@ -1,16 +1,15 @@
 ---
 UID: NS:ntifs._FILE_LINKS_INFORMATION
-title: _FILE_LINKS_INFORMATION (ntifs.h)
-description: The FILE_LINKS_INFORMATION structure is used to query NTFS hard links to an existing file.
-old-location: ifsk\file_links_information.htm
+title: FILE_LINKS_INFORMATION (ntifs.h)
+description: Learn more about the FILE_LINKS_INFORMATION structure.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["FILE_LINKS_INFORMATION structure"]
 ms.keywords: "*PFILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION, FILE_LINKS_INFORMATION structure [Installable File System Drivers], PFILE_LINKS_INFORMATION, PFILE_LINKS_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINKS_INFORMATION, ifsk.file_links_information, ntifs/FILE_LINKS_INFORMATION, ntifs/PFILE_LINKS_INFORMATION"
 req.header: ntifs.h
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,30 +45,32 @@ api_name:
  - FILE_LINKS_INFORMATION
 ---
 
-# _FILE_LINKS_INFORMATION structure
-
+# FILE_LINKS_INFORMATION structure
 
 ## -description
 
-The <b>FILE_LINKS_INFORMATION</b> structure is used to query NTFS hard links to an existing file.
+The **FILE_LINKS_INFORMATION** structure is used to query or set researchNTFS hard links to an existing file.
 
 ## -struct-fields
 
 ### -field BytesNeeded
 
-The number of bytes needed to hold all available names returned using the <b>Entry</b> member. This value must be greater than 0.
+The number of bytes needed to hold all available names returned in **Entry**. This value must be greater than 0.
 
 ### -field EntriesReturned
 
-The number of <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structures that have been returned using the <b>Entry</b> member.
+The number of [**FILE_LINK_ENTRY_INFORMATION**](ns-ntifs-_file_link_entry_information.md) structures that have been returned using the **Entry** member.
 
 ### -field Entry
 
-A buffer that contains the returned <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structures.
+A buffer that contains the returned [**FILE_LINK_ENTRY_INFORMATION**](ns-ntifs-_file_link_entry_information.md) structures.
 
 ## -remarks
 
-If the member <b>EntriesReturned</b> has a value of 0, there is not enough available memory to return an entry. The error STATUS_BUFFER_OVERFLOW (0x80000005) indicates that not all available entries were returned.
+If **EntriesReturned** has a value of 0, there is not enough available memory to return an entry. The error STATUS_BUFFER_OVERFLOW (0x80000005) indicates that not all available entries were returned.
 
-The member <b>Entry</b> is the first <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_link_entry_information">FILE_LINK_ENTRY_INFORMATION</a> structure in a list of entries. Each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) + ((FileNameLength - 1 ) * <b>sizeof</b>(WCHAR)) from the previous entry when the FileNameLength member of <b>FILE_LINK_ENTRY_INFORMATION</b> > 1. Otherwise, each entry is located <b>sizeof</b>(FILE_LINK_ENTRY_INFORMATION) from the previous entry.
+**Entry** is the first [**FILE_LINK_ENTRY_INFORMATION**](ns-ntifs-_file_link_entry_information.md) structure in a list of entries. If an entry’s **NextEntryOffset** field has a value of 0, no further entries were returned; otherwise, the next entry returned is located **NextEntryOffset** bytes from the previous entry.
 
+## -see-also
+
+[**FILE_LINK_ENTRY_INFORMATION**](ns-ntifs-_file_link_entry_information.md)

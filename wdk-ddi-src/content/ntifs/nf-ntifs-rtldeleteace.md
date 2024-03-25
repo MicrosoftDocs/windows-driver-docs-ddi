@@ -1,10 +1,9 @@
 ---
 UID: NF:ntifs.RtlDeleteAce
 title: RtlDeleteAce function (ntifs.h)
-description: The RtlDeleteAce routine deletes an access control entry (ACE) from a specified access control list (ACL).
-old-location: ifsk\rtldeleteace.htm
+description: Learn more about the RtlDeleteAce function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 09/27/2023
 keywords: ["RtlDeleteAce function"]
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 req.header: ntifs.h
@@ -42,83 +41,52 @@ api_name:
 
 # RtlDeleteAce function
 
-
 ## -description
 
-The <b>RtlDeleteAce</b> routine deletes an access control entry (ACE) from a specified access control list (ACL).
+The **RtlDeleteAce** routine deletes an access control entry (ACE) from a specified access control list (ACL).
 
 ## -parameters
 
 ### -param Acl [in, out]
 
-
-Pointer to the ACL to be modified. <b>RtlDeleteAce</b> deletes the specified ACE from this ACL.
+Pointer to the ACL to be modified. **RtlDeleteAce** deletes the specified ACE from this ACL.
 
 ### -param AceIndex [in]
-
 
 Specifies the ACE to delete. A value of zero corresponds to the first ACE in the ACL, 1 to the second ACE, and so on.
 
 ## -returns
 
-<b>RtlDeleteAce</b> returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
+**RtlDeleteAce** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-One of the parameter values was invalid. Possible reasons include: 
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INVALID_PARAMETER | One of the parameter values was invalid. |
 
-<ul>
-<li>
-The specified ACL is invalid.
+Possible reasons for STATUS_INVALID_PARAMETER include:
 
-</li>
-<li>
-The specified index value is out of range. 
-
-</li>
-</ul>
-STATUS_INVALID_PARAMETER is an error code. 
-
-</td>
-</tr>
-</table>
+* The specified ACL is invalid.
+* The specified index value is out of range.
+* STATUS_INVALID_PARAMETER is an error code.
 
 ## -remarks
 
-For information about calculating the size of an ACL, see the Remarks section of the reference entry for <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>. 
+For information about calculating the size of an ACL, see the Remarks section of the reference entry for [**RtlCreateAcl**](nf-ntifs-rtlcreateacl.md).
 
-To add an ACE to an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtladdace">RtlAddAce</a>. 
+To add an ACE to an ACL, use [**RtlAddAce**](nf-ntifs-rtladdace.md).
 
-To obtain a pointer to an ACE in an ACL, use <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>. 
+To obtain a pointer to an ACE in an ACL, use [**RtlGetAce**](nf-ntifs-rtlgetace.md).
 
 For more information about security and access control, see [Windows security model for driver developers](/windows-hardware/drivers/driversecurity/windows-security-model) and the documentation on these topics in the Windows SDK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/ace">ACE</a>
+[**ACE**](/windows-hardware/drivers/ifs/ace)
 
+[**ACL**](../wdm/ns-wdm-_acl.md)
 
+[**RtlAddAce**](nf-ntifs-rtladdace.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a>
+[**RtlCreateAcl**](nf-ntifs-rtlcreateacl.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtladdace">RtlAddAce</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlgetace">RtlGetAce</a>
+[**RtlGetAce**](nf-ntifs-rtlgetace.md)

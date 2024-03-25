@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_SETTARGETCONTENTTYPE
-product:
- - Windows
 ---
 
 # DXGKDDI_SETTARGETCONTENTTYPE callback function

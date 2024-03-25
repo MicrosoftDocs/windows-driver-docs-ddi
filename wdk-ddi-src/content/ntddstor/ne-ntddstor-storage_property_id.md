@@ -35,8 +35,6 @@ api_name:
  - _STORAGE_PROPERTY_ID
  - PSTORAGE_PROPERTY_ID
  - STORAGE_PROPERTY_ID
-product:
- - Windows
 ---
 
 # STORAGE_PROPERTY_ID enumeration

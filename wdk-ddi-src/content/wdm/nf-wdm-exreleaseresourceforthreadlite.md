@@ -26,7 +26,6 @@ req.dll: NtosKrnl.exe
 req.irql: <= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
-req.product: Windows 10 or later.
 f1_keywords:
  - ExReleaseResourceForThreadLite
  - wdm/ExReleaseResourceForThreadLite

@@ -5,7 +5,7 @@ title: AcxCircuitGetElementById
 ms.date: 12/14/2022
 targetos: Windows
 description: When provided a valid ElementID number, the AcxCircuitGetElementById function returns the corresponding ACXELEMENT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_ADAPTER_WAKE_REASON_PACKET
  - NET_ADAPTER_WAKE_REASON_PACKET
-product:
- - Windows
 ---
 
 # NET_ADAPTER_WAKE_REASON_PACKET structure

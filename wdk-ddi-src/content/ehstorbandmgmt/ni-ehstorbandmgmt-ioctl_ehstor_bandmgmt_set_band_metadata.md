@@ -49,6 +49,8 @@ Metadata associated with a band is set with an <b>IOCTL_EHSTOR_BANDMGMT_SET_BAND
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The input buffer at <i>Irp->AssociatedIrp.SystemBuffer</i> must contain a <a href="/windows-hardware/drivers/ddi/ehstorbandmgmt/ns-ehstorbandmgmt-_set_band_metadata_parameters">SET_BAND_METADATA_PARAMETERS</a> and possibly an <b>AUTH_KEY</b> structure along with the new metadata to set for the band. 

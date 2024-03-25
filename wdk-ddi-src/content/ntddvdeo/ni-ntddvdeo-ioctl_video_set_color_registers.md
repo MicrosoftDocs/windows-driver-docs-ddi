@@ -49,6 +49,8 @@ Sets the adapter's color registers to the specified RGB values. If the adapter h
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The VRP <b>InputBuffer</b> contains a VIDEO_CLUT structure, specifying an array of RGB values to be set.

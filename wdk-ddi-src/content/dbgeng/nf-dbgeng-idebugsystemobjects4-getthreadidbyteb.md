@@ -42,7 +42,6 @@ api_name:
 
 # IDebugSystemObjects4::GetThreadIdByTeb
 
-
 ## -description
 
 The <b>GetThreadIdByTeb</b> method returns the engine thread ID of the specified thread.  The thread is specified by its thread environment block (TEB).
@@ -51,11 +50,9 @@ The <b>GetThreadIdByTeb</b> method returns the engine thread ID of the specified
 
 ### -param Offset [in]
 
-
 Specifies the location of the thread's TEB.
 
 ### -param Id [out]
-
 
 Receives the engine thread ID.
 

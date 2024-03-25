@@ -5,7 +5,7 @@ title: ACX_DATAFORMAT_LIST_CONFIG
 ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_LIST_CONFIG structure is used to configure a new ACX data format list object.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

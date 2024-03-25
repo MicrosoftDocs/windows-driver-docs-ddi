@@ -32,8 +32,6 @@ api_location:
 api_name:
  - _DEBUG_LEVEL
  - DEBUG_LEVEL
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -38,8 +38,6 @@ api_location:
  - D3dumddi.h
 api_name:
  - PFND3DDDI_CHECKCOUNTERINFO
-product:
- - Windows
 ---
 
 # PFND3DDDI_CHECKCOUNTERINFO callback function

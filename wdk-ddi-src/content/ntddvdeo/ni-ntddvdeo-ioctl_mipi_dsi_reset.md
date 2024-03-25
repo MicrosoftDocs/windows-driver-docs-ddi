@@ -25,8 +25,6 @@ api_location:
  - ntddvdeo.h
 api_name:
  - IOCTL_MIPI_DSI_RESET
-product:
- - Windows
 f1_keywords:
  - IOCTL_MIPI_DSI_RESET
  - ntddvdeo/IOCTL_MIPI_DSI_RESET
@@ -41,6 +39,8 @@ f1_keywords:
 **IOCTL_MIPI_DSI_RESET** requests the reset of a device under graphics driver and OS control.
 
 ## -ioctlparameters
+
+### -ioctl-major-code
 
 ### -input-buffer
 

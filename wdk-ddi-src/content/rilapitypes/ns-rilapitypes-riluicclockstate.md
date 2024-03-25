@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: RILUICCLOCKSTATE, *LPRILUICCLOCKSTATE
-req.product: Windows 10 or later.
 f1_keywords:
  - RILUICCLOCKSTATE
  - rilapitypes/RILUICCLOCKSTATE

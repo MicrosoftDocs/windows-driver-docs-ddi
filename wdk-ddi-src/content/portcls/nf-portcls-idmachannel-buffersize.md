@@ -35,8 +35,6 @@ api_location:
  - portcls.h
 api_name:
  - IDmaChannel::BufferSize
-product:
- - Windows
 ---
 
 # IDmaChannel::BufferSize

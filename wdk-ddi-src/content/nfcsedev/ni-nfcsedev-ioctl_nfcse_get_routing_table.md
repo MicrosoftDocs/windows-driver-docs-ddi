@@ -49,6 +49,8 @@ Returns information regarding the current configuration of listen mode routing t
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

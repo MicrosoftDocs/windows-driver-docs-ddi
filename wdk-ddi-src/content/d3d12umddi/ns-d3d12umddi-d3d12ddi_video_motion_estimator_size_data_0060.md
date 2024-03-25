@@ -32,8 +32,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_VIDEO_MOTION_ESTIMATOR_SIZE_DATA_0060
-product:
- - Windows
 dev_langs:
  - c++
 ---

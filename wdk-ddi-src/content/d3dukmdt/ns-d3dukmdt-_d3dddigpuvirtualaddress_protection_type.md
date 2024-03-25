@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dukmdt._D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
-title: _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE (d3dukmdt.h)
-description: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
-old-location: display\d3dddigpuvirtualaddress_protection_type.htm
+title: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE (d3dukmdt.h)
+description: Learn more about the D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 07/25/2023
 keywords: ["D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure"]
 ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type
 req.header: d3dukmdt.h
@@ -43,12 +42,11 @@ api_name:
  - D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ---
 
-# _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure
-
+# D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure
 
 ## -description
 
-<b>D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE</b> specifies the protection on the graphics processing unit (GPU) virtual address that is mapped.
+The **D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE** structure specifies the protection on the GPU virtual address that is mapped.
 
 ## -struct-fields
 
@@ -62,15 +60,15 @@ The pages will be allowed execute access.
 
 ### -field Zero
 
-The pages will be put to the <i>zero</i> state.
+The pages will be put to the *Zero* state ([**hAllocation**](ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md) must be NULL). Reads return zero and writes are discarded in this state.
 
 ### -field NoAccess
 
-The pages will be put to the <i>invalid</i> state.
+The pages will be put to the *Invalid* state ([**hAllocation**](ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md) must be NULL).
 
 ### -field SystemUseOnly
 
-This member is for system use only and should not be set by the user mode driver.
+This member is for system use only and should not be set by the user-mode driver.
 
 ### -field Reserved
 
@@ -80,3 +78,6 @@ This member is reserved and should be set to zero.
 
 The consolidated value of the structure's members.
 
+## -see-also
+
+[**D3DDDI_MAPGPUVIRTUALADDRESS**](ns-d3dukmdt-d3dddi_mapgpuvirtualaddress.md)

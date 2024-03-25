@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_CIPHER_ALGORITHM_LIST
  - PDOT11_CIPHER_ALGORITHM_LIST
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_CIPHER_ALGORITHM_LIST structure

@@ -5,7 +5,7 @@ title: AcxObjectBagAddUI8
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddUI8 function adds an unsigned int eight byte I8 (ULONG64) value to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

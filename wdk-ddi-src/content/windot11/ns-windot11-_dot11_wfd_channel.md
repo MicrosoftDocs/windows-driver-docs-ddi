@@ -44,8 +44,6 @@ api_name:
  - _DOT11_WFD_CHANNEL
  - PDOT11_WFD_CHANNEL
  - DOT11_WFD_CHANNEL
-product:
- - Windows 10 or later.
 ---
 
 # _DOT11_WFD_CHANNEL structure

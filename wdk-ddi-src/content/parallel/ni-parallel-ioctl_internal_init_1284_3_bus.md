@@ -58,6 +58,10 @@ Windows 2000 supports from zero to four daisy chain devices and an end-of-chain 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
+[IRP_MJ_INTERNAL_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
+
 ### -input-buffer
 
 None.

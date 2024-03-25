@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_PHY_ID_LIST
  - PDOT11_PHY_ID_LIST
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_PHY_ID_LIST structure

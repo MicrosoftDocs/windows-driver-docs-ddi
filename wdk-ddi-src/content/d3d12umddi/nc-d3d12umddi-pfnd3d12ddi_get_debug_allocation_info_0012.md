@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_GET_DEBUG_ALLOCATION_INFO_0012
-product:
- - Windows
 dev_langs:
  - c++
 ---

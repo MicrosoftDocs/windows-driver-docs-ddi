@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _D3DDDICB_QUERYADAPTERINFO2
  - D3DDDICB_QUERYADAPTERINFO2
-product:
- - Windows
 ---
 
 # _D3DDDICB_QUERYADAPTERINFO2 structure

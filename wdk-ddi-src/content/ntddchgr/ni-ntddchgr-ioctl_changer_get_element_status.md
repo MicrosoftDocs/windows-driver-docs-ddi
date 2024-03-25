@@ -51,6 +51,8 @@ For a description of the possible element types, see <a href="/windows-hardware/
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_changer_read_element_status">CHANGER_READ_ELEMENT_STATUS</a> data that indicates the element type and the number of elements for which to return status.

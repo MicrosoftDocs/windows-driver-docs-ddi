@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _D3DKMT_ESCAPETYPE
  - D3DKMT_ESCAPETYPE
-product:
- - Windows
 ---
 
 # _D3DKMT_ESCAPETYPE enumeration

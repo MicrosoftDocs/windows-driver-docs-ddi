@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_VIDPNTOPOLOGY_ADDPATH
-product:
- - Windows
 ---
 
 # DXGKDDI_VIDPNTOPOLOGY_ADDPATH callback function

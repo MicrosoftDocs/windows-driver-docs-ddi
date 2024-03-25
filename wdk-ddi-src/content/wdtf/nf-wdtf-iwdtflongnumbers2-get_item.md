@@ -42,12 +42,19 @@ api_name:
 
 # IWDTFLongNumbers2::get_Item
 
-
 ## -description
 
 Gets an individual long number in the collection.
 
 This property is read-only.
+
+## -parameters
+
+### -param Index
+
+### -param pNumber
+
+## -returns
 
 ## -see-also
 

@@ -54,15 +54,15 @@ The <b>WDF_USB_DEVICE_TRAITS</b> enumeration identifies USB device traits.
 
 ## -enum-fields
 
-### -field WDF_USB_DEVICE_TRAIT_SELF_POWERED
+### -field WDF_USB_DEVICE_TRAIT_SELF_POWERED:0x00000001
 
 The device is self-powered.
 
-### -field WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE
+### -field WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE:0x00000002
 
 The device has a remote wakeup capability.
 
-### -field WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED
+### -field WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED:0x00000004
 
 The device is operating at high speed or SuperSpeed.
 

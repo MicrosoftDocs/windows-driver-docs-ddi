@@ -5,7 +5,7 @@ title: ACX_DATAFORMAT_LIST_ITERATOR_INIT
 ms.date: 05/31/2022
 targetos: Windows
 description: The ACX_DATAFORMAT_LIST_ITERATOR_INIT function initializes an ACX_DATAFORMAT_LIST_ITERATOR structure for use by an audio class extension (ACX) driver.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

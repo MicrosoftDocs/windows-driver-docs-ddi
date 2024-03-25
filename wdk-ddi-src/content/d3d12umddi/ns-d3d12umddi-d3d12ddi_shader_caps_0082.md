@@ -74,3 +74,5 @@ Reserved for system use.
 ## -remarks
 
 ## -see-also
+
+[**D3D12DDI_SHADER_CAPS_0084**](ns-d3d12umddi-d3d12ddi_shader_caps_0084.md)

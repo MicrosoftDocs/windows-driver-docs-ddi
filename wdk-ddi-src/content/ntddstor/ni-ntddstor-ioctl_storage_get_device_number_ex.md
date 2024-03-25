@@ -48,6 +48,8 @@ Returns a [**STORAGE_DEVICE_NUMBER_EX**](ns-ntddstor-_storage_device_number_ex.m
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

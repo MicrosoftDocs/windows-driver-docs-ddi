@@ -5,7 +5,7 @@ title: AcxObjectBagAddI8
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxObjectBagAddI8 function adds a int eight byte I8 (LONG64) value to an existing, initialized AcxObjectBag.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

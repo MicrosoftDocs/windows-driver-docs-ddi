@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _D3DDDI_QUERYREGISTRY_STATUS
  - D3DDDI_QUERYREGISTRY_STATUS
-product:
- - Windows
 ---
 
 # _D3DDDI_QUERYREGISTRY_STATUS enumeration

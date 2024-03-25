@@ -51,6 +51,8 @@ This request is not implemented and is <b>obsolete</b>. The request must not be 
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 ### -input-buffer-length

@@ -49,6 +49,8 @@ Sends the host certificate to the logical unit.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains host certificate of type <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_send_certificate">AACS_SEND_CERTIFICATE</a>.

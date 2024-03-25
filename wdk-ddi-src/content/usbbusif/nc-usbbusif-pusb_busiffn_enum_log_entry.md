@@ -26,7 +26,6 @@ req.dll:
 req.irql: ANY
 targetos: Windows
 req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
-req.product: Windows 10 or later.
 f1_keywords:
  - PUSB_BUSIFFN_ENUM_LOG_ENTRY
  - usbbusif/PUSB_BUSIFFN_ENUM_LOG_ENTRY

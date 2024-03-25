@@ -51,6 +51,8 @@ If the input to this IOCTL is ("\DosDevices\X:", <b>NULL</b>, <b>NULL</b>) where
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 See <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>.

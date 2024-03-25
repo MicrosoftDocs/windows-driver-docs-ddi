@@ -5,7 +5,7 @@ title: AcxRtStreamNotifyPacketComplete
 ms.date: 12/16/2022
 targetos: Windows
 description: The driver calls AcxRtStreamNotifyPacketComplete when a packet has completed.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

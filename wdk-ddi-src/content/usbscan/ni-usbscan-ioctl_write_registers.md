@@ -49,6 +49,8 @@ Writes to USB device registers, using the control pipe.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 Pointer to an [IO_BLOCK](./ns-usbscan-_io_block.md) structure.

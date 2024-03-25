@@ -2,7 +2,7 @@
 UID: NA:acxmisc
 tech.root: audio
 title: acxmisc
-ms.date: 07/28/2022
+ms.date: 11/10/2023
 targetos: Windows
 description: The acxmisc header is used by the ACX audio class extensions.
 prerelease: false
@@ -48,7 +48,8 @@ The acxmisc header is used by the ACX audio class extensions. It provides the ab
 For additional information on working with ACX, see the following topics.
 
 - [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview)
- 
+
 - [Audio](../_audio/index.md)
 
-
+>[!NOTE]
+> The ACX headers and libraries are not included in the  WDK 10.0.22621.2428 (released October 24, 2023), but are available in previous versions, as well as the latest (25000 series builds) Insider Preview of the WDK. For more information about preview versions of the WDK, see [Installing preview versions of the Windows Driver Kit (WDK)](/windows-hardware/drivers/installing-preview-versions-wdk).

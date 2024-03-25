@@ -24,7 +24,7 @@ The driver support routines in this section are organized by kernel-mode manager
 
   - [DriverEntry](../wdm/nc-wdm-driver_initialize.md)
   - [AddDevice](../wdm/nc-wdm-driver_add_device.md)
-  - [DispatchXxx (routines beginning with "Dispatch" such as DispatchCreate)](../wdm/nc-wdm-driver_dispatch.md)
+  - [Dispatch___ (routines beginning with "Dispatch" such as DispatchCreate)](../wdm/nc-wdm-driver_dispatch.md)
   - [DriverUnload](../wdm/nc-wdm-driver_unload.md)
 
   The other routines are optional, but you may need to implement them depending on your driver type and the location of your driver in the device stack.
@@ -935,7 +935,6 @@ For an overview of the functionality of these routines and macros, see Memory Al
 
 The following routines are reserved for system use. Do not use them in your driver.
 
-- MmAddPhysicalMemory
 - MmAddPhysicalMemoryEx
 - MmAddVerifierThunks
 - MmCreateMirror
@@ -1117,6 +1116,14 @@ The section- and view-management routines are called by kernel-mode drivers to s
 | ZwOpenSection | Obtains a handle for an existing section, provided that the requested access can be allowed. |
 | ZwMapViewOfSection | Maps a view of an open section into the virtual address space of a process. Returns an offset into the section (base of the mapped view) and the size mapped. |
 | ZwUnmapViewOfSection | Releases a mapped view in the virtual address space of a process. |
+
+### Physical memory
+
+The physical memory routines are called by kernel-mode drivers to manage regions of physical memory.
+
+| Function | Description |
+|---|---|
+| MmAddPhysicalMemory | Adds the specified physical address range to the system. |
 
 ### Access to structures
 

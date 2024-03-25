@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKCB_MULTIPLANEOVERLAYDISABLED
-product:
- - Windows
 ---
 
 # DXGKCB_MULTIPLANEOVERLAYDISABLED callback function

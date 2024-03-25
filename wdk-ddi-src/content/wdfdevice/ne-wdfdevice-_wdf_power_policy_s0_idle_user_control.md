@@ -55,7 +55,7 @@ The <b>WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</b> enumeration identifies whether 
 
 ## -enum-fields
 
-### -field IdleUserControlInvalid
+### -field IdleUserControlInvalid:0
 
 For internal use only.
 

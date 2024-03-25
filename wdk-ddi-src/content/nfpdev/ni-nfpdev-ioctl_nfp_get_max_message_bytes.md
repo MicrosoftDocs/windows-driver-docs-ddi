@@ -49,6 +49,8 @@ A client sends the <b>IOCTL_NFP_GET_MAX_MESSAGE_BYTES</b> request to any generic
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

@@ -10,7 +10,7 @@ ms.keywords: "*PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIR
 req.header: storport.h
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 

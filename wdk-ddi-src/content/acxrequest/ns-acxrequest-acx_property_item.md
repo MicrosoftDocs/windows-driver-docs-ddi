@@ -5,7 +5,7 @@ title: ACX_PROPERTY_ITEM
 ms.date: 07/26/2022
 targetos: Windows
 description: The ACX_PROPERTY_ITEM structure describes a property item that is the target of an ACX request.
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

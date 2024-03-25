@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH
-product:
- - Windows
 ---
 
 # DXGKDDI_UPDATEACTIVEVIDPNPRESENTPATH callback function

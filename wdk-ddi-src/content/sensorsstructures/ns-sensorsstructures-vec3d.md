@@ -35,8 +35,6 @@ api_location:
 api_name:
  - PVEC3D
  - VEC3D
-product:
- - Windows
 ---
 
 # VEC3D structure

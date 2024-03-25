@@ -38,8 +38,6 @@ api_location:
  - d3dumddi.h
 api_name:
  - PFND3DDDI_DELETEVERTEXSHADERDECL
-product:
- - Windows
 ---
 
 # PFND3DDDI_DELETEVERTEXSHADERDECL callback function

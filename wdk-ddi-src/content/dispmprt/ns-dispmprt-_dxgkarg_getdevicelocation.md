@@ -38,8 +38,6 @@ api_name:
  - _DXGKARG_GETDEVICELOCATION
  - PDXGKARG_GETDEVICELOCATION
  - DXGKARG_GETDEVICELOCATION
-product:
- - Windows
 dev_langs:
  - c++
 ---

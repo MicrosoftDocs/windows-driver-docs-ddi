@@ -36,8 +36,6 @@ api_location:
  - sensorsutils.h
 api_name:
  - CollectionsListAllocateBufferAndSerialize
-product:
- - Windows
 ---
 
 # CollectionsListAllocateBufferAndSerialize function

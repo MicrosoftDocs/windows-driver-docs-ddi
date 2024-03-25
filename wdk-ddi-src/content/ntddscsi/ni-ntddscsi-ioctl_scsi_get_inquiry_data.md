@@ -52,6 +52,8 @@ Returns the SCSI inquiry data for all devices on a given SCSI host bus adapter (
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

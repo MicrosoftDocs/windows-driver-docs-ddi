@@ -5,7 +5,7 @@ title: EVT_ACX_CIRCUIT_RELEASE_HARDWARE
 ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_CIRCUIT_RELEASE_HARDWARE callback is used by the driver to add functionality when an ACXCIRCUIT is in the release hardware phase.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

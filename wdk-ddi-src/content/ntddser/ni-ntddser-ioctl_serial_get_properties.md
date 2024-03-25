@@ -49,6 +49,8 @@ The <b>IOCTL_SERIAL_GET_PROPERTIES</b> request returns information about the cap
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

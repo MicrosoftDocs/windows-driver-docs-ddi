@@ -48,7 +48,6 @@ api_name:
 
 # _DEBUG_VALUE structure
 
-
 ## -description
 
 The DEBUG_VALUE structure holds register and expression values.
@@ -57,204 +56,101 @@ The DEBUG_VALUE structure holds register and expression values.
 
 ### -field I8
 
+See Remarks.
+
 ### -field I16
+
+See Remarks.
 
 ### -field I32
 
+See Remarks.
+
 ### -field I64
+
+See Remarks.
 
 ### -field Nat
 
+See Remarks.
+
 ### -field F32
+
+See Remarks.
 
 ### -field F64
 
-### -field F80Bytes
+See Remarks.
 
-### -field F82Bytes
+### -field F80Bytes[10]
 
-### -field F128Bytes
+See Remarks.
 
-### -field VI8
+### -field F82Bytes[11]
 
-### -field VI16
+See Remarks.
 
-### -field VI32
+### -field F128Bytes[16]
 
-### -field VI64
+See Remarks.
 
-### -field VF32
+### -field VI8[16]
 
-### -field VF64
+See Remarks.
+
+### -field VI16[8]
+
+See Remarks.
+
+### -field VI32[4]
+
+See Remarks.
+
+### -field VI64[2]
+
+See Remarks.
+
+### -field VF32[4]
+
+See Remarks.
+
+### -field VF64[2]
+
+See Remarks.
 
 ### -field I64Parts32
 
+See Remarks.
+
 ### -field I64Parts32.LowPart
+
+See Remarks.
 
 ### -field I64Parts32.HighPart
 
+See Remarks.
+
 ### -field F128Parts64
+
+See Remarks.
 
 ### -field F128Parts64.LowPart
 
+See Remarks.
+
 ### -field F128Parts64.HighPart
 
-### -field RawBytes
+See Remarks.
+
+### -field RawBytes[32]
+
+See Remarks.
 
 ### -field TailOfRawBytes
 
 See Remarks.
 
 ### -field Type
-
-See Remarks.
-
-
-### -field ( unnamed union )
-
- 
-
-
-
-#### I8
-
-See Remarks.
-
-
-
-#### I16
-
-See Remarks.
-
-
-
-#### I32
-
-See Remarks.
-
-
-
-#### ( unnamed struct )
-
- 
-
-
-
-##### I64
-
-See Remarks.
-
-
-
-##### Nat
-
-See Remarks.
-
-
-
-#### F32
-
-See Remarks.
-
-
-
-#### F64
-
-See Remarks.
-
-
-
-#### F80Bytes
-
-See Remarks.
-
-
-
-#### F82Bytes
-
-See Remarks.
-
-
-
-#### F128Bytes
-
-See Remarks.
-
-
-
-#### VI8
-
-See Remarks.
-
-
-
-#### VI16
-
-See Remarks.
-
-
-
-#### VI32
-
-See Remarks.
-
-
-
-#### VI64
-
-See Remarks.
-
-
-
-#### VF32
-
-See Remarks.
-
-
-
-#### VF64
-
-See Remarks.
-
-
-
-#### I64Parts32
-
-See Remarks.
-
-
-
-##### LowPart
-
-See Remarks.
-
-
-
-##### HighPart
-
-See Remarks.
-
-
-
-#### F128Parts64
-
-See Remarks.
-
-
-
-##### LowPart
-
-See Remarks.
-
-
-
-##### HighPart
-
-See Remarks.
-
-
-
-#### RawBytes
 
 See Remarks.
 

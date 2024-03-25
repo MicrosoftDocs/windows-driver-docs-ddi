@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_POWER_OFFLOAD_ARP_PARAMETERS
  - NET_POWER_OFFLOAD_ARP_PARAMETERS
-product:
- - Windows
 ---
 
 # NET_POWER_OFFLOAD_ARP_PARAMETERS structure

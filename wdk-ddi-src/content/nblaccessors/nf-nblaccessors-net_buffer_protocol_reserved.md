@@ -1,7 +1,7 @@
 ---
 UID: NF:nblaccessors.NET_BUFFER_PROTOCOL_RESERVED
 title: NET_BUFFER_PROTOCOL_RESERVED
-ms.date: 11/30/2020
+ms.date: 10/02/2023
 targetos: Windows
 description: NET_BUFFER_PROTOCOL_RESERVED is a macro that NDIS drivers use to get the ProtocolReserved member of a NET_BUFFER structure.
 tech.root: netvista
@@ -46,6 +46,12 @@ dev_langs:
 ## -description
 
 **NET_BUFFER_PROTOCOL_RESERVED** is a macro that NDIS drivers use to get the **ProtocolReserved** member of a [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure.
+
+## -syntax
+
+```cpp
+#define NET_BUFFER_PROTOCOL_RESERVED(_NB) ((_NB)->ProtocolReserved)
+```
 
 ## -parameters
 

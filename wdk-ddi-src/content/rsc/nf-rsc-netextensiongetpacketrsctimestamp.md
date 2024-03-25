@@ -36,8 +36,6 @@ api_location:
  - rsc.h
 api_name:
  - NetExtensionGetPacketRscTimestamp
-product:
- - Windows
 ---
 
 # NetExtensionGetPacketRscTimestamp function

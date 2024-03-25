@@ -1,16 +1,15 @@
 ---
 UID: NS:ntifs._REFS_SMR_VOLUME_GC_PARAMETERS
-title: _REFS_SMR_VOLUME_GC_PARAMETERS (ntifs.h)
+title: REFS_SMR_VOLUME_GC_PARAMETERS (ntifs.h)
 description: The REFS_SMR_VOLUME_GC_PARAMETERS structure.
-old-location: ifsk\refs_smr_volume_gc_parameters.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 07/06/2023
 keywords: ["REFS_SMR_VOLUME_GC_PARAMETERS structure"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], _REFS_SMR_VOLUME_GC_PARAMETERS, ifsk.refs_smr_volume_gc_parameters, ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS"
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 10, version 1709.
+req.target-min-winverclnt: Windows 10, version 1709
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -46,18 +45,17 @@ api_name:
  - REFS_SMR_VOLUME_GC_PARAMETERS
 ---
 
-# _REFS_SMR_VOLUME_GC_PARAMETERS structure
-
+# REFS_SMR_VOLUME_GC_PARAMETERS structure
 
 ## -description
 
-The <b>REFS_SMR_VOLUME_GC_PARAMETERS</b> structure is used as the input structure for <a href="/windows-hardware/drivers/ifs/fsctl-set-refs-smr-volume-gc-parameters">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>.
+The **REFS_SMR_VOLUME_GC_PARAMETERS** structure is used as the input structure for [**FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS**](/windows-hardware/drivers/ifs/fsctl-set-refs-smr-volume-gc-parameters).
 
 ## -struct-fields
 
 ### -field Version
 
-Specifies the current version of <b>REFS_SMR_VOLUME_GC_PARAMETERS</b>. Version is currently ignored but should be set to <b>REFS_SMR_VOLUME_GC_PARAMETERS_VERSION_V1</b>.
+The current version of **REFS_SMR_VOLUME_GC_PARAMETERS**. This field should be set to **REFS_SMR_VOLUME_GC_PARAMETERS_VERSION_V1**.
 
 ### -field Flags
 
@@ -69,11 +67,11 @@ Specifies the garbage collection action.
 
 ### -field Method
 
-Specifies the garbage collection method or strategy. Currently only <b>MsSmrGcMethodCompaction</b> is allowed.
+Specifies the garbage collection method or strategy. Currently only **MsSmrGcMethodCompaction** is allowed.
 
 ### -field IoGranularity
 
-Specifies the volume's granularity. <b>IoGranularity</b> is a multiple of the cluster size up to the Shingled Magnetic Recording (SMR) band size (256 MB).  Zero or non-multiple of cluster size will result in a <b>STATUS_INVALID_PARAMETERS</b> status.
+Specifies the volume's granularity. **IoGranularity** is a multiple of the cluster size up to the Shingled Magnetic Recording (SMR) band size (256 MB).  Zero or non-multiple of cluster size will result in a **STATUS_INVALID_PARAMETERS** status.
 
 ### -field CompressionFormat
 
@@ -85,5 +83,4 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ifs/fsctl-set-refs-smr-volume-gc-parameters">FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS</a>
-
+[**FSCTL_SET_REFS_SMR_VOLUME_GC_PARAMETERS**](/windows-hardware/drivers/ifs/fsctl-set-refs-smr-volume-gc-parameters)

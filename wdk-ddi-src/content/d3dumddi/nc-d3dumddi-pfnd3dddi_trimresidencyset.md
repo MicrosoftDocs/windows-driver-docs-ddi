@@ -38,8 +38,6 @@ api_location:
  - d3dukmdt.h
 api_name:
  - PFND3DDDI_TRIMRESIDENCYSET
-product:
- - Windows
 ---
 
 # PFND3DDDI_TRIMRESIDENCYSET callback function

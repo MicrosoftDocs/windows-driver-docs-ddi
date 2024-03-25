@@ -5,7 +5,7 @@ title: EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS
 ms.date: 12/15/2022
 targetos: Windows
 description: The EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS callback is implemented by the driver and is called when the buffer size limits for a given data format are requested for the specified audio engine.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

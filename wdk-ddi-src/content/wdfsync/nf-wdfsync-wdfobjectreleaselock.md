@@ -26,7 +26,6 @@ req.dll:
 req.irql: <=DISPATCH_LEVEL
 targetos: Windows
 req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
-req.product: Windows 10 or later.
 f1_keywords:
  - PFN_WDFOBJECTRELEASELOCK
  - wdfsync/PFN_WDFOBJECTRELEASELOCK

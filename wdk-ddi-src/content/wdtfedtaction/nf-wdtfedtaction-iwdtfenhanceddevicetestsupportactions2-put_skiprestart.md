@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: TTraceLevel
-req.product: Windows 10 or later.
 f1_keywords:
  - IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart
  - wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart
@@ -43,7 +42,6 @@ api_name:
 
 # IWDTFEnhancedDeviceTestSupportActions2::put_SkipRestart method
 
-
 ## -description
 
 Sets a value that indicates whether the target device should be restarted by default.
@@ -51,6 +49,12 @@ Sets a value that indicates whether the target device should be restarted by def
 This property is write-only.
 
 ## -parameters
+
+### -param bSkipRestart
+
+A BOOL value indicating if the device should be restarted.
+
+## -returns
 
 ## -syntax
 

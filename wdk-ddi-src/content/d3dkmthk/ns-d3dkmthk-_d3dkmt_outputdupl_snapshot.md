@@ -1,9 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_SNAPSHOT
-title: _D3DKMT_OUTPUTDUPL_SNAPSHOT (d3dkmthk.h)
-description: Provides information on the current processes in which output duplication is occurring.
-old-location: display\d3dkmt_outputdupl_snapshot.htm
-ms.date: 05/10/2018
+title: D3DKMT_OUTPUTDUPL_SNAPSHOT (d3dkmthk.h)
+description: Learn more about the D3DKMT_OUTPUTDUPL_SNAPSHOT structure.
+ms.date: 10/04/2023
 keywords: ["D3DKMT_OUTPUTDUPL_SNAPSHOT structure"]
 ms.keywords: D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], _D3DKMT_OUTPUTDUPL_SNAPSHOT, d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, display.d3dkmt_outputdupl_snapshot
 req.header: d3dkmthk.h
@@ -43,36 +42,38 @@ api_name:
  - D3DKMT_OUTPUTDUPL_SNAPSHOT
 ---
 
-# _D3DKMT_OUTPUTDUPL_SNAPSHOT structure
-
+# D3DKMT_OUTPUTDUPL_SNAPSHOT structure
 
 ## -description
 
-Provides information on the current processes in which output duplication is occurring.
+The **D3DKMT_OUTPUTDUPL_SNAPSHOT** structure provides information on the current processes in which output duplication is occurring.
 
 ## -struct-fields
 
-### -field Size [in/out]
+### -field Size
 
-The size, in bytes, of the entire structure.
+[in/out] The size, in bytes, of the entire structure.
 
-### -field SessionProcessCount [out]
+### -field SessionProcessCount
 
-The number of processes in this session that are currently duplicating output. The value of <b>NumOutputDuplContexts</b> specifies the maximum possible number of processes.
+[out] The number of processes in this session that are currently duplicating output. The value of **NumOutputDuplContexts** specifies the maximum possible number of processes.
 
-### -field SessionActiveConnectionsCount [out]
+### -field SessionActiveConnectionsCount
 
-The total number of active contexts in this session. The value may be more than the number of active contexts in the 2-D array, which are per adapter.
+[out] The total number of active contexts in this session. The value may be more than the number of active contexts in the 2-D array, which are per adapter.
 
-### -field NumVidPnSources [out]
+### -field NumVidPnSources
 
-The number of video present network (VidPN) sources.
+[out] The number of video present network (VidPN) sources.
 
-### -field NumOutputDuplContexts [out]
+### -field NumOutputDuplContexts
 
-The number of contexts in which output duplication is occurring.
+[out] The number of contexts in which output duplication is occurring.
 
-### -field OutputDuplDebugInfos
+### -field Padding
+
+Padding.
+
+### -field OutputDuplDebugInfos[0]
 
 Reserved for system use. Set to zero.
-

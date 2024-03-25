@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_KEY_ALGO_BIP
  - PDOT11_KEY_ALGO_BIP
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_KEY_ALGO_BIP structure

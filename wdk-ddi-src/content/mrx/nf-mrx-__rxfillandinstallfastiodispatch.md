@@ -1,10 +1,9 @@
 ---
 UID: NF:mrx.__RxFillAndInstallFastIoDispatch
-title: __RxFillAndInstallFastIoDispatch function (mrx.h)
-description: RxFillAndInstallFastIoDispatch fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
-old-location: ifsk\__rxfillandinstallfastiodispatch.htm
+title: RxFillAndInstallFastIoDispatch function (mrx.h)
+description: Learn more about the RxFillAndInstallFastIoDispatch function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/11/2023
 keywords: ["_RxFillAndInstallFastIoDispatch function"]
 ms.keywords: "__RxFillAndInstallFastIoDispatch, __RxFillAndInstallFastIoDispatch function [Installable File System Drivers], ifsk.__rxfillandinstallfastiodispatch, mrx/__RxFillAndInstallFastIoDispatch, rxref_5898351a-a474-44bb-8ba0-3d2edf81d073.xml"
 req.header: mrx.h
@@ -40,50 +39,40 @@ api_name:
  - __RxFillAndInstallFastIoDispatch
 ---
 
-# __RxFillAndInstallFastIoDispatch function
-
+# RxFillAndInstallFastIoDispatch function
 
 ## -description
 
-<b>RxFillAndInstallFastIoDispatch</b> fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
+**RxFillAndInstallFastIoDispatch** fills out a fast I/O dispatch vector to be identical with the normal dispatch I/O vector and installs it into the driver object associated with the device object passed.
 
 ## -parameters
 
 ### -param RxDeviceObject [in]
 
-
 A pointer to the RDBSS device object for this network redirector.
 
 ### -param FastIoDispatch [in, out]
-
 
 A pointer to the fast I/O dispatch table to fill in and use.
 
 ### -param FastIoDispatchSize [in]
 
-
 The size, in bytes, of the fast I/O dispatch table passed.
 
 ## -remarks
 
-The <b>__RxFillAndInstallFastIoDispatch</b> routine is implemented differently for monolithic and non-monolithic drivers network mini-redirector. 
+The **RxFillAndInstallFastIoDispatch** routine is implemented differently for monolithic and non-monolithic drivers network mini-redirector.
 
-For non-monolithic network mini-redirector drivers, such as the Microsoft SMB redirector that links to rdbss.sys dynamically, <b>__RxFillAndInstallFastIoDispatch</b> is a convenience routine that copies the normal dispatch I/O vector table routines to the fast I/O dispatch vector table. This routine would normally be used by a non-monolithic network mini-redirector to fill out the fast I/O dispatch table before calling <a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxregisterminirdr">RxRegisterMiniRdr</a>. This routine uses the minimum of the <i>FastIoDispatchSize</i> parameter and the size of the FAST_IO_DISPATCH structure defined in ntifs.h to determine the number of bytes to copy.
+For non-monolithic network mini-redirector drivers, such as the Microsoft SMB redirector that links to rdbss.sys dynamically, **RxFillAndInstallFastIoDispatch** is a convenience routine that copies the normal dispatch I/O vector table routines to the fast I/O dispatch vector table. This routine would normally be used by a non-monolithic network mini-redirector to fill out the fast I/O dispatch table before calling [**RxRegisterMiniRdr**](nf-mrx-rxregisterminirdr.md). This routine uses the minimum of the **FastIoDispatchSize** parameter and the size of the FAST_IO_DISPATCH structure defined in ntifs.h to determine the number of bytes to copy.
 
-For monolithic network mini-redirectors built by developers, the <b>__RxFillAndInstallFastIoDispatch</b> routine does nothing.
+For monolithic network mini-redirectors built by developers, the **RxFillAndInstallFastIoDispatch** routine does nothing.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxregisterminirdr">RxRegisterMinirdr</a>
+[**RxRegisterMinirdr**](nf-mrx-rxregisterminirdr.md)
 
+[**RxSetDomainForMailslotBroadcast**](nf-mrx-rxsetdomainformailslotbroadcast.md)
 
+[**RxStartMiniRdr**](nf-mrx-rxstartminirdr.md)
 
-<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxsetdomainformailslotbroadcast">RxSetDomainForMailslotBroadcast</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstartminirdr">RxStartMiniRdr</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxstopminirdr">RxStopMiniRdr</a>
+[**RxStopMiniRdr**](nf-mrx-rxstopminirdr.md)

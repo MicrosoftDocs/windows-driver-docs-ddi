@@ -5,7 +5,7 @@ title: ACX_VOLUME_CONFIG_INIT_ID
 ms.date: 04/29/2022
 targetos: Windows
 description: At this time, the ACX_VOLUME_CONFIG_INIT_ID can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_VOLUME_CONFIG_INIT.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -35,8 +35,6 @@ api_name:
  - _EMULATOR_PORT_ACCESS_TYPE
  - PEMULATOR_PORT_ACCESS_TYPE
  - EMULATOR_PORT_ACCESS_TYPE
-product:
- - Windows
 dev_langs:
  - c++
 ---

@@ -49,6 +49,8 @@ The <b>IOCTL_GNSS_EXECUTE_SELFTEST</b> control code is used by the GNSS manufact
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 A pointer to a <b>GNSS_SELFTESTCONFIG</b> structure.

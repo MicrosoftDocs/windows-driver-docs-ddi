@@ -35,8 +35,6 @@ api_location:
 api_name:
  - _NET_IPV4_ADDRESS
  - NET_IPV4_ADDRESS
-product:
- - Windows
 ---
 
 # NET_IPV4_ADDRESS union

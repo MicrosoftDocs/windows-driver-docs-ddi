@@ -49,6 +49,8 @@ Returns information about the geometry of floppy drives.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None.

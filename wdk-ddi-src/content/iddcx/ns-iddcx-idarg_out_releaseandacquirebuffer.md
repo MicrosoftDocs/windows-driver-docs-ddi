@@ -52,5 +52,5 @@ Gives information about the
 
 ### -field MetaData
 
-                     [out] Per-frame metadata and frame information.
+[out] An [**IDDCX_METADATA**](ns-iddcx-iddcx_metadata.md) structure containing the metadata that accompanies the new buffer.
 

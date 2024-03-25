@@ -51,7 +51,7 @@ The **FSRTL_ADVANCED_FCB_HEADER** structure contains context information that a 
 
 ## -struct-fields
 
-### -field DUMMYUNIONNAME
+### -field DUMMYSTRUCTNAME
 
 An unnamed member that contains a structure of type [**FSRTL_COMMON_FCB_HEADER**](ns-ntifs-_fsrtl_common_fcb_header.md).
 

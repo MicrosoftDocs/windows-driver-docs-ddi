@@ -26,7 +26,6 @@ req.dll:
 req.irql: 
 targetos: Windows
 req.typenames: DOT11EXT_IHV_DISCOVERY_PROFILE, *PDOT11EXT_IHV_DISCOVERY_PROFILE
-req.product: Windows 10 or later.
 f1_keywords:
  - _DOT11EXT_IHV_DISCOVERY_PROFILE
  - wlanihv/_DOT11EXT_IHV_DISCOVERY_PROFILE

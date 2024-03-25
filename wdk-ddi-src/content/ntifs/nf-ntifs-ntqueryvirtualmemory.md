@@ -62,7 +62,7 @@ The memory information class about which to retrieve information. Currently, the
 
 ### -param MemoryInformation [out]
 
-Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformationClass* parameter value is a [**MEMORY_BASIC_INFORMATION**](./ns-ntifs-_memory_basic_information.md) structure.
+Pointer to a buffer that receives the specified information.  The format and content of the buffer depend on the information class specified in the *MemoryInformationClass* parameter. When the value **MemoryBasicInformation** is passed to *MemoryInformationClass*, the *MemoryInformation* parameter value is a [**MEMORY_BASIC_INFORMATION**](./ns-ntifs-_memory_basic_information.md) structure.
 
 ### -param MemoryInformationLength [in]
 

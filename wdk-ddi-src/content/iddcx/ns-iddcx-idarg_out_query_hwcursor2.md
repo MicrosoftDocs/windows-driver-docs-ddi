@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-An **IDARG_OUT_QUERY_HWCURSOR2** structure is the output parameter used by [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md) to return information about the current cursor.
+An **IDARG_OUT_QUERY_HWCURSOR2** structure is the output parameter used by [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md) to return information about the current hardware cursor.
 
 ## -struct-fields
 
@@ -50,11 +50,11 @@ An **IDARG_OUT_QUERY_HWCURSOR2** structure is the output parameter used by [**Id
 
 ### -field X
 
-[out] If the cursor is visible (**IsCursorVisible** = TRUE) then **X** is the *x* screen co-ordinate of the top-left hand pixel in the cursor image. This field is only valid if **PositionValid** is TRUE. See Remarks.
+[out] If the cursor is visible (**IsCursorVisible** = TRUE) then **X** is the *x* screen co-ordinate of the top-left hand pixel in the cursor image. This field is only valid if **PositionValid** is TRUE. **X** can be negative; for example, when a hot spot in the center of cursor is placed in the top-left of the screen.
 
 ### -field Y
 
-[out] If the cursor is visible (**IsCursorVisible** = TRUE) then **Y** is the *y* screen co-ordinate of the top-left hand pixel in the cursor image. This field is only valid if **PositionValid** is TRUE. See Remarks.
+[out] If the cursor is visible (**IsCursorVisible** = TRUE) then **Y** is the *y* screen co-ordinate of the top-left hand pixel in the cursor image. This field is only valid if **PositionValid** is TRUE. **Y** can be negative; for example, when a hot spot in the center of cursor is placed in the top-left of the screen.
 
 ### -field IsCursorShapeUpdated
 
@@ -62,7 +62,7 @@ An **IDARG_OUT_QUERY_HWCURSOR2** structure is the output parameter used by [**Id
 
 ### -field CursorShapeInfo
 
-[out] A [**IDDCX_CURSOR_SHAPE_INFO**](ns-iddcx-iddcx_cursor_shape_info.md) structure in which the OS copies the current cursor information if the cursor is visible. If the cursor is not visible then OS zeroes this structure.
+[out] A [**IDDCX_CURSOR_SHAPE_INFO**](ns-iddcx-iddcx_cursor_shape_info.md) structure in which the OS copies the current cursor information if the cursor is visible. If the cursor is not visible then the OS zeroes this structure.
 
 ### -field PositionValid
 
@@ -73,10 +73,6 @@ An **IDARG_OUT_QUERY_HWCURSOR2** structure is the output parameter used by [**Id
 [out] The ID of the last cursor position that the OS received for this monitor. The driver can compare this ID to the last cursor position that it processed to know whether it should process a new position update.
 
 Note that there are cases where the position values might not have changed but the position ID value has changed. In this case the driver should process the position as if it was a new move. **PositionId** is not updated if **IsCursorVisible** changes and is only valid if **PositionValid** is TRUE.
-
-## -remarks
-
-Note that **X** and **Y** can be negative; for example, a hot spot in the center of cursor that is placed in the top-left of the screen.
 
 ## -see-also
 

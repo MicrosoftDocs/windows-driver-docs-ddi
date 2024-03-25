@@ -35,8 +35,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - PFND3D12DDI_ENUMERATE_META_COMMAND_PARAMETERS_0052
-product:
- - Windows
 dev_langs:
  - c++
 ---
@@ -64,7 +62,7 @@ A [D3D12DDI_META_COMMAND_PARAMETER_STAGE](ne-d3d12umddi-d3d12ddi_meta_command_pa
 
 ### -param pParameterCount
 
-The number of meta-command paramters.
+The number of meta-command parameters.
 
 ### -param pParameterDescs
 

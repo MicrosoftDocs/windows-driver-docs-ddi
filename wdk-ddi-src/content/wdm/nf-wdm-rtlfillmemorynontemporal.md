@@ -36,8 +36,6 @@ api_location:
  - wdm.h
 api_name:
  - RtlFillMemoryNonTemporal
-product:
- - Windows
 ---
 
 # RtlFillMemoryNonTemporal function

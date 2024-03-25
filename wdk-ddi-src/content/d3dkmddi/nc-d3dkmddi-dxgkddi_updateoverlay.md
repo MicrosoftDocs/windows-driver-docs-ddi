@@ -38,8 +38,6 @@ api_location:
  - d3dkmddi.h
 api_name:
  - DXGKDDI_UPDATEOVERLAY
-product:
- - Windows
 ---
 
 # DXGKDDI_UPDATEOVERLAY callback function

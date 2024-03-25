@@ -5,7 +5,7 @@ title: AcxStreamInitAssignMethods
 ms.date: 12/16/2022
 targetos: Windows
 description: The AcxStreamInitAssignMethods function assigns an array of methods to a stream using the ACXSTREAM_INIT object.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

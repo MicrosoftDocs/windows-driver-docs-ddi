@@ -34,8 +34,6 @@ api_location:
  - dispmprt.h
 api_name:
  - DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3
-product:
- - Windows
 ---
 
 # DXGK_BRIGHTNESS_SET_BACKLIGHT_OPTIMIZATION_3 callback function

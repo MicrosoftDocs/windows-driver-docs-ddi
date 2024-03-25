@@ -32,8 +32,6 @@ api_location:
  - math3dhelper.h
 api_name:
  - CVEC3D
-product:
- - Windows
 ---
 
 # CVEC3D class

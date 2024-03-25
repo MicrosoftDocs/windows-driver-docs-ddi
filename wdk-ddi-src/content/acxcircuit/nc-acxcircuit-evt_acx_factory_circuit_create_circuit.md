@@ -5,7 +5,7 @@ title: EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT
 ms.date: 12/14/2022
 targetos: Windows
 description: The EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

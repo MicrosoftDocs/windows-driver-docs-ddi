@@ -31,8 +31,6 @@ api_location:
 api_name:
  - _BRIGHTNESS_INTERFACE_VERSION
  - BRIGHTNESS_INTERFACE_VERSION
-product:
- - Windows
 ---
 
 # _BRIGHTNESS_INTERFACE_VERSION enumeration

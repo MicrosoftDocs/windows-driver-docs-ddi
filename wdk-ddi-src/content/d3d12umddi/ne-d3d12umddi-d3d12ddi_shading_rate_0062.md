@@ -29,8 +29,6 @@ api_location:
  - d3d12umddi.h
 api_name:
  - D3D12DDI_SHADING_RATE_0062
-product:
- - Windows
 dev_langs:
  - c++
 ---

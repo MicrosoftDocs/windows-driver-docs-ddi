@@ -38,8 +38,6 @@ api_location:
  - d3d10umddi.h
 api_name:
  - PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
-product:
- - Windows
 ---
 
 # PFND3D10_1DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE callback function

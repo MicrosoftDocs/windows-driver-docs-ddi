@@ -32,8 +32,6 @@ api_location:
 api_name:
  - PPO_INTERNAL_WAKE_SOURCE_TYPE
  - PO_INTERNAL_WAKE_SOURCE_TYPE
-product:
- - Windows
 ---
 
 # PO_INTERNAL_WAKE_SOURCE_TYPE enumeration

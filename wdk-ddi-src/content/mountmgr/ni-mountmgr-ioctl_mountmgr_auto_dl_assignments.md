@@ -49,6 +49,8 @@ This IOCTL informs the mount manager that it should assign drive letters to volu
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 None

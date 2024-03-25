@@ -41,8 +41,6 @@ api_location:
 api_name:
  - DOT11_ENCAP_ENTRY
  - PDOT11_ENCAP_ENTRY
-product:
- - Windows 10 or later.
 ---
 
 # DOT11_ENCAP_ENTRY structure

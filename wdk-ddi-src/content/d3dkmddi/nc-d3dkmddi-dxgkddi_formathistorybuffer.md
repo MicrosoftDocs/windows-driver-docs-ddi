@@ -38,8 +38,6 @@ api_location:
  - D3dkmddi.h
 api_name:
  - DXGKDDI_FORMATHISTORYBUFFER
-product:
- - Windows
 ---
 
 # DXGKDDI_FORMATHISTORYBUFFER callback function

@@ -37,8 +37,6 @@ api_location:
  - netadaptercxstub.lib
 api_name:
  - NetOffloadIsUsoIPv4Enabled
-product:
- - Windows
 ---
 
 # NetOffloadIsUsoIPv4Enabled function

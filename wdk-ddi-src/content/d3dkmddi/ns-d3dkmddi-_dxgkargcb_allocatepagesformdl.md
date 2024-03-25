@@ -34,8 +34,6 @@ api_location:
 api_name:
  - _DXGKARGCB_ALLOCATEPAGESFORMDL
  - DXGKARGCB_ALLOCATEPAGESFORMDL
-product:
- - Windows
 ---
 
 # DXGKARGCB_ALLOCATEPAGESFORMDL structure

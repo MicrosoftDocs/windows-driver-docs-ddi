@@ -49,6 +49,8 @@ Performs verification for a specified extent on a disk.
 
 ## -ioctlparameters
 
+### -ioctl-major-code
+
 ### -input-buffer
 
 The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the <a href="/windows-hardware/drivers/ddi/ntdddisk/ns-ntdddisk-_verify_information">VERIFY_INFORMATION</a> data specifying the starting offset and length to be verified.
