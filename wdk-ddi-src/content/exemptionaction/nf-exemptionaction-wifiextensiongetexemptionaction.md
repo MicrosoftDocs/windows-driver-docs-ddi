@@ -2,9 +2,9 @@
 UID: NF:exemptionaction.WifiExtensionGetExemptionAction
 tech.root: netvista
 title: WifiExtensionGetExemptionAction
-ms.date: 05/26/2023
+ms.date: 03/25/2024
 targetos: Windows
-description: The WifiExtensionGetExemptionAction function retrieves the exemption action information for a packet.
+description: The WifiExtensionGetExemptionAction function retrieves the exemption type for a packet.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WifiExtensionGetExemptionAction** function retrieves the exemption action information for a packet.
+The **WifiExtensionGetExemptionAction** function retrieves the exemption type for a packet.
 
 ## -parameters
 

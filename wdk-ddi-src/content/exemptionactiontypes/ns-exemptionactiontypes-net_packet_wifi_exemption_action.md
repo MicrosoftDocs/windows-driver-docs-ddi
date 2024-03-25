@@ -2,9 +2,9 @@
 UID: NS:exemptionactiontypes._NET_PACKET_WIFI_EXEMPTION_ACTION
 tech.root: netvista
 title: NET_PACKET_WIFI_EXEMPTION_ACTION
-ms.date: 05/26/2023
+ms.date: 03/25/2024
 targetos: Windows
-description: The NET_PACKET_WIFI_EXEMPTION_ACTION structure specifies the exemption action for a packet.
+description: The NET_PACKET_WIFI_EXEMPTION_ACTION structure specifies the type of encryption exemption for the packet.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **NET_PACKET_WIFI_EXEMPTION_ACTION** structure specifies the exemption action type for a packet.
+The **NET_PACKET_WIFI_EXEMPTION_ACTION** structure specifies the type of encryption exemption for the packet.
 
 ## -struct-fields
 
