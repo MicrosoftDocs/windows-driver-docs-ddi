@@ -50,7 +50,7 @@ The **WifiExtensionGetExemptionAction** function retrieves the exemption action 
 
 ### -param Extension
 
-A pointer to a [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that describes the exemption action information for this packet.
+A pointer to a [**NET_EXTENSION**](../extension/ns-extension-_net_extension.md) structure that describes the exemption action information for this packet queue.
 
 ### -param Index
 
@@ -62,8 +62,10 @@ Returns a pointer to a [**NET_PACKET_WIFI_EXEMPTION_ACTION**](../exemptionaction
 
 ## -remarks
 
-
+This function is a wrapper function around [**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md).
 
 ## -see-also
 
 [**NET_PACKET_WIFI_EXEMPTION_ACTION**](../exemptionactiontypes/ns-exemptionactiontypes-net_packet_wifi_exemption_action.md)
+
+[**NetExtensionGetData**](../extension/nf-extension-netextensiongetdata.md)
