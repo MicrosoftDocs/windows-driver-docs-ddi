@@ -4,7 +4,7 @@ tech.root: netvista
 title: NET_PACKET_WIFI_EXEMPTION_ACTION
 ms.date: 03/25/2024
 targetos: Windows
-description: The NET_PACKET_WIFI_EXEMPTION_ACTION structure specifies the type of encryption exemption for the packet.
+description: The NET_PACKET_WIFI_EXEMPTION_ACTION structure contains the exemption action information for a packet.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,25 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
-The **NET_PACKET_WIFI_EXEMPTION_ACTION** structure specifies the type of encryption exemption for the packet.
+The **NET_PACKET_WIFI_EXEMPTION_ACTION** structure contains the exemption action information for a packet.
 
 ## -struct-fields
 
 ### -field ExemptionAction
 
-The type of exemption action for the packet. The following exemption types are defined:
-
-`DOT11_EXEMPT_NO_EXEMPTION`
-
-The packet is not exempt from any cipher operations performed by the 802.11 station.
-
-`DOT11_EXEMPT_ALWAYS`
-
-The packet is exempt from any cipher operations performed by the 802.11 station. The 802.11 station must transmit the packet unencrypted.
-
-`DOT11_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE`
-
-The packet is exempt from any cipher operations performed by the 802.11 station only if the station does not have a key-mapping key for the packet's destination media access control (MAC) address. 
+A bit field that specifies a flag from [**WDI_EXEMPTION_ACTION_TYPE**](../dot11wificxintf/ne-dot11wificxintf-wdi_exemption_action_type.md).
 
 ## -remarks
 
@@ -71,3 +59,5 @@ Client drivers can obtain this structure for a packet by calling [**WifiExtensio
 ## -see-also
 
 [**WifiExtensionGetExemptionAction**](../exemptionaction/nf-exemptionaction-wifiextensiongetexemptionaction.md)
+
+[**WDI_EXEMPTION_ACTION_TYPE**](../dot11wificxintf/ne-dot11wificxintf-wdi_exemption_action_type.md)
