@@ -51,7 +51,7 @@ An OS callback function the driver calls to report the frame statistics after it
 
 ### -param SwapChainObject [in]
 
-The swap-chain object whose frame statistics is reported.
+The swap-chain object whose frame statistics to be reported.
 
 ### -param pInArgs [in]
 
