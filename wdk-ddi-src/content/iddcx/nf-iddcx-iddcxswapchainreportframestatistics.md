@@ -45,13 +45,13 @@ api_name:
 
 ## -description
 
-An OS callback function the driver calls to report the frame statistics after it has processed a frame completely
+An OS callback function the driver calls to report the frame statistics after it has processed a frame completely.
 
 ## -parameters
 
 ### -param SwapChainObject [in]
 
-The swap-chain object whose frame statistics to be reported.
+The swap-chain object whose frame statistics are being reported.
 
 ### -param pInArgs [in]
 
