@@ -51,5 +51,5 @@ Gives information about frame statistics.
 
 ### -field FrameStatistics
 
-[in] Frame statistics being reported. See [**IDDCX_FRAME_STATISTICS **](ns-iddcx-iddcx_frame_statistics.md) for details on how a driver should fill this structure.
+[in] Frame statistics being reported. See [**IDDCX_FRAME_STATISTICS**](ns-iddcx-iddcx_frame_statistics.md) for details on how a driver should fill this structure.
 
