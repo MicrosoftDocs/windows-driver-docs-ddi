@@ -53,7 +53,7 @@ Pointer to a structure that contains the file object's section object pointers.
 
 ### -param NewFileSize [in, optional]
 
-Pointer to a variable that specifies the size to which the file is to be truncated.
+Pointer to a variable that specifies the size to which the file is to be truncated.  If this parameter is NULL, then a length of zero is assumed.
 
 ## -returns
 
