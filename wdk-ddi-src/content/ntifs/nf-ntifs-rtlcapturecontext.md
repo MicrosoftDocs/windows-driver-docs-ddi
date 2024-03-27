@@ -4,7 +4,7 @@ title: RtlCaptureContext function (ntifs.h)
 description: The RtlCaptureContext function retrieves a context record in the context of the caller.
 old-location: ifsk\rtlcapturecontext.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 03/27/2024
 keywords: ["RtlCaptureContext function"]
 ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], ifsk.rtlcapturecontext, ntifs/RtlCaptureContext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml
 req.header: ntifs.h
@@ -48,14 +48,13 @@ api_name:
 
 ## -description
 
-The <b>RtlCaptureContext </b>function retrieves a context record in the context of the caller.
+The **RtlCaptureContext** function retrieves a context record in the context of the caller.
 
 ## -parameters
 
 ### -param ContextRecord [out]
 
-
-A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> structure.
+A pointer to a [**CONTEXT**](/windows/win32/api/winnt/ns-winnt-context) structure.
 
 ## -returns
 
@@ -63,10 +62,10 @@ This function does not return a value.
 
 ## -remarks
 
-The <i>ContextRecord</i> that is captured contains processor-specific register data.  
+The captured **ContextRecord** contains processor-specific register data.  
 
-For kernel-mode code, the CONTEXT structure is defined in <i>Ntddk.h</i>. For more information, see the <a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a> Structure topic in the SDK documentation.
+For kernel-mode code, the [**CONTEXT**](../ntddk/ns-ntddk-context.md) structure is defined in *Ntddk.h*. For more information, see the [**CONTEXT**](/windows/win32/api/winnt/ns-winnt-arm64_nt_context) structure topic in the SDK documentation.
 
 ## -see-also
 
-<a href="/windows/win32/api/winnt/ns-winnt-arm64_nt_context">CONTEXT</a>
+[**CONTEXT**](/windows/win32/api/winnt/ns-winnt-arm64_nt_context)
