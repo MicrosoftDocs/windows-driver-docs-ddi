@@ -65,7 +65,7 @@ A pointer to an IRP.
 
 ## -remarks
 
-Beginning with Windows Vista, drivers should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, an Windows 2000, drivers must also call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-postartnextpowerirp">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
+Beginning with Windows Vista, drivers should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iocalldriver">IoCallDriver</a>, not <b>PoCallDriver</b> to pass a power IRP to the next-lower driver. However, on Windows Server 2003, Windows XP, and Windows 2000, drivers must call <b>PoCallDriver</b>, not <b>IoCallDriver</b>  to pass a power IRP to the next-lower driver. On Windows Server 2003, Windows XP, a Windows 2000, drivers must also call <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-postartnextpowerirp">PoStartNextPowerIrp</a> before calling <b>PoCallDriver</b>.
 
 A driver that requires a new IRP should call <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-porequestpowerirp">PoRequestPowerIrp</a>. A driver must not allocate its own power IRP.
 

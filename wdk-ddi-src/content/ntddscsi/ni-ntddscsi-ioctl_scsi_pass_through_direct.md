@@ -106,7 +106,7 @@ The port driver returns any request-sense data and the <a href="/windows-hardwar
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned in the output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>. The Status field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_BUFFER_TOO_SMALL</b> or <b>STATUS_INVALID_PARAMETER</b> if the input <b>Length</b> value in <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct">SCSI_PASS_THROUGH_DIRECT</a> is improperly set or the buffer specifed in  <b>DataBuffer</b> is not properly device aligned.
+The <b>Information</b> field is set to the number of bytes returned in the output buffer at <i>Irp->AssociatedIrp.SystemBuffer</i>. The Status field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_BUFFER_TOO_SMALL</b> or <b>STATUS_INVALID_PARAMETER</b> if the input <b>Length</b> value in <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct">SCSI_PASS_THROUGH_DIRECT</a> is improperly set or the buffer specified in  <b>DataBuffer</b> is not properly device aligned.
 
 ## -remarks
 

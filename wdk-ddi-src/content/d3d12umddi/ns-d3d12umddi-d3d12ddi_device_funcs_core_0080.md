@@ -515,7 +515,7 @@ Create sampler feedback unordered access view. See the [D3D Sampler Feedback Spe
 
 ### -field pfnCreateAmplificationShader
 
-Create amplication shader. See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
+Create amplification shader. See the [Mesh Shader Specification](https://microsoft.github.io/DirectX-Specs/d3d/MeshShader.html) for more information.
 
 ### -field pfnCreateMeshShader
 

@@ -46,7 +46,7 @@ More information here:
 
 [Discrete Device Assignment — Description and background](https://techcommunity.microsoft.com/t5/Virtualization/bg-p/Virtualization)
 
-To determine if a system supports device assignement, and if a particular PCI device will work for device assignment:
+To determine if a system supports device assignment, and if a particular PCI device will work for device assignment:
 
 [Discrete Device Assignment script](https://github.com/MicrosoftDocs/Virtualization-Documentation/blob/live/hyperv-tools/DiscreteDeviceAssignment/SurveyDDA.ps1)
 

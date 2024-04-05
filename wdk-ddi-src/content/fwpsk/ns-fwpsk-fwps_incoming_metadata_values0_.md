@@ -537,7 +537,7 @@ Reserved.
 
 ### -field l2ConnectionProfileIndex
 
-A the layer 2 connection profile index. 
+The layer 2 connection profile index. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>

@@ -61,11 +61,11 @@ An Alpha processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-
 
 ### -field Amd64
 
-An AMD64 processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_amd64">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a> stuct.
+An AMD64 processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_amd64">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a> struct.
 
 ### -field Ia64
 
-An Italium architecture processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_ia64">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a> stuct.
+An Itanium architecture processor as a <a href="/windows-hardware/drivers/ddi/dbgeng/ns-dbgeng-_debug_processor_identification_ia64">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a> stuct.
 
 ### -field X86
 

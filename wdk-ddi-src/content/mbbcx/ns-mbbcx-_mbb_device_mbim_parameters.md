@@ -72,7 +72,7 @@ The MBBCx framework uses the value of this field to determine if it needs to fra
 
 ## -remarks
 
-Call [**MBB_DEVICE_MBIM_PARAMETERS_INIT**](nf-mbbcx-mbb_device_mbim_parameters_init.md) to intialize this structure.
+Call [**MBB_DEVICE_MBIM_PARAMETERS_INIT**](nf-mbbcx-mbb_device_mbim_parameters_init.md) to initialize this structure.
 
 ## -see-also
 

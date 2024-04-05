@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxTargetFactoryCircuitCreate
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxTargetFactoryCircuitCreate function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
+description: The AcxTargetFactoryCircuitCreate function returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxTargetFactoryCircuitCreate** function returns an handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
+The **AcxTargetFactoryCircuitCreate** function returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object.
 
 ## -parameters
 

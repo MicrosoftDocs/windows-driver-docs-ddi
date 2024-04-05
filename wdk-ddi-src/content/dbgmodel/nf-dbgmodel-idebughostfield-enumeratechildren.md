@@ -70,7 +70,7 @@ This method returns HRESULT that indicates success or failure.
 ```cpp
 ComPtr<IDebugHostType> spType; /* get the type of an object */
 
-// Enumerate every field of this type.  Note thiat this *WILL NOT* enumerate 
+// Enumerate every field of this type.  Note that this *WILL NOT* enumerate 
 // fields of base classes!
 ComPtr<IDebugHostSymbolEnumerator> spEnum;
 if (SUCCEEDED(spType->EnumerateChildren(SymbolField, nullptr, &spEnum)))

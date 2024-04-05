@@ -82,7 +82,7 @@ A read-write mapping of the fence value for the GPU. A driver can signal a new f
 
 ### -field MonitoredFence.EngineAffinity [in]
 
-A bit field, where each bit position (starting from zero) defines a physical adapter index in an linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
+A bit field, where each bit position (starting from zero) defines a physical adapter index in a linked display adapter link where the GPU virtual address will be committed. Zero means that GPU virtual address will be committed to all physical adapters.
 
 ### -field Reserved
 

@@ -75,7 +75,7 @@ A [**WWAN_UICC_FILE_STRUCTURE**](../wwan/ne-wwan-_wwan_uicc_file_structure.md) v
 
 ### -field ItemCount
 
-The number of items in the UICC file. For transparent and TLV viles, this is set to **1**.
+The number of items in the UICC file. For transparent and TLV files, this is set to **1**.
 
 ### -field ItemSize
 

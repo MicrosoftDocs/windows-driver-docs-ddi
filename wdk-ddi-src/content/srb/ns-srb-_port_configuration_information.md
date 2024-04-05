@@ -87,7 +87,7 @@ Specifies the maximum number of bytes the HBA can transfer in a single transfer 
 
 ### -field NumberOfPhysicalBreaks
 
-Specifies the maximum number of breaks between address ranges that a data buffer can have if the HBA supports scatter/gather. In other words, the number of scatter/gather lists minus one. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates the HBA can support an unlimited number of physical discontiguities. If the port driver sets a value for this member, the miniport driver can adjust the value lower but no higher. If this member is SP_UNINITIALIZED_VALUE, the miniport driver must reset this member according to the HBA's scatter/gather capacity, with zero representing no scatter/gather support.
+Specifies the maximum number of breaks between address ranges that a data buffer can have if the HBA supports scatter/gather. In other words, the number of scatter/gather lists minus one. By default, the value of this member is SP_UNINITIALIZED_VALUE, which indicates the HBA can support an unlimited number of physical discontinuities. If the port driver sets a value for this member, the miniport driver can adjust the value lower but no higher. If this member is SP_UNINITIALIZED_VALUE, the miniport driver must reset this member according to the HBA's scatter/gather capacity, with zero representing no scatter/gather support.
 
 ### -field DmaChannel
 

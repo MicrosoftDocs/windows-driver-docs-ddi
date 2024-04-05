@@ -52,7 +52,7 @@ api_name:
 ### -param pConnection [in]
 
 
-A pointer to an connection to be torn down.
+A pointer to a connection to be torn down.
 
 ## -returns
 

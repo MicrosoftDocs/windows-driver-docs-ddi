@@ -1,7 +1,7 @@
 ---
 UID: NS:ntifs._SYSTEM_SCOPED_POLICY_ID_ACE
 title: _SYSTEM_SCOPED_POLICY_ID_ACE (ntifs.h)
-description: The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying rights for a scoped policy identifer.
+description: The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying rights for a scoped policy identifier.
 old-location: ifsk\system_scoped_policy_id_ace.htm
 tech.root: ifsk
 ms.date: 04/16/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying  rights for a scoped policy identifer. This ACE causes an audit message to be logged when an atrempt to gain access to an object  based on a configured policy scope.
+The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying  rights for a scoped policy identifier. This ACE causes an audit message to be logged when an atrempt to gain access to an object  based on a configured policy scope.
 
 ## -struct-fields
 

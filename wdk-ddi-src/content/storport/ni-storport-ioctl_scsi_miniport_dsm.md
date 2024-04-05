@@ -119,7 +119,7 @@ The LBA ranges are included in the  in <b>DataSetRanges</b> member of <b>DSM_NOT
 
 
 ```
-rypedef struct _MP_DEVICE_DATA_SET_RANGE {
+typedef struct _MP_DEVICE_DATA_SET_RANGE {
     LONGLONG    StartingOffset;
     ULONGLONG   LengthInBytes;
 } MP_DEVICE_DATA_SET_RANGE, *PMP_DEVICE_DATA_SET_RANGE;

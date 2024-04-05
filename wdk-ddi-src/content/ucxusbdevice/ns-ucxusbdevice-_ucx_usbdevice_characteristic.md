@@ -1,7 +1,7 @@
 ---
 UID: NS:ucxusbdevice._UCX_USBDEVICE_CHARACTERISTIC
 title: _UCX_USBDEVICE_CHARACTERISTIC (ucxusbdevice.h)
-description: Stores the characteristics of an device.
+description: Stores the characteristics of a device.
 old-location: buses\ucx_usbdevice_characteristic.htm
 tech.root: usbref
 ms.date: 05/07/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-Stores the characteristics of an device.
+Stores the characteristics of a device.
 
 ## -struct-fields
 

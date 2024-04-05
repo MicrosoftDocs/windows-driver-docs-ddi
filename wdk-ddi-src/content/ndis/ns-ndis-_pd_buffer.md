@@ -134,7 +134,7 @@ This field denotes where the packet starts relative to the original starting add
 
 ### -field DataLength
 
-The length of the this packet or partial packet data.
+The length of the packet or partial packet data.
 
 ### -field MetaDataV0
 

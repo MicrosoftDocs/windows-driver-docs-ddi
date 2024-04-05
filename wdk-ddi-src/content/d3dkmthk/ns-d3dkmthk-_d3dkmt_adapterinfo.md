@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Supplies information about a adapter.
+Supplies information about an adapter.
 
 ## -struct-fields
 

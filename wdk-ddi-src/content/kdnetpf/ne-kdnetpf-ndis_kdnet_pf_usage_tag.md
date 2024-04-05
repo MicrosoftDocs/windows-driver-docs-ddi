@@ -43,7 +43,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **NDIS_KDNET_PF_USAGE_TAG** enumeration defines the PF usage. It is ued to indicate the entity that owns the PF.
+The **NDIS_KDNET_PF_USAGE_TAG** enumeration defines the PF usage. It is used to indicate the entity that owns the PF.
 It is used by [NDIS_KDNET_QUERY_PF_INFORMATION](ns-kdnetpf-ndis_kdnet_query_pf_information.md).
 
 ## -enum-fields

@@ -63,7 +63,7 @@ The request block to containing the input data buffer.
 ### -param SystemAddress [out]
 
 
-A pointer to  a an  address  value to receive the system address for the input data buffer in <i>Srb</i>.
+A pointer to an address value to receive the system address for the input data buffer in <i>Srb</i>.
 
 ## -returns
 
@@ -114,7 +114,7 @@ The current IRQL is > DISPATCH_LEVEL.
 </dl>
 </td>
 <td width="60%">
-A system address can not be assigned.
+A system address can't be assigned.
 
 </td>
 </tr>

@@ -52,7 +52,7 @@ Hardware has write access to the common buffer.
 
 ### -field CommonBufferHardwareAccessReadWrite
 
-Hardware has both both read and write access to the common buffer.
+Hardware has both read and write access to the common buffer.
 
 ### -field CommonBufferHardwareAccessMax
 

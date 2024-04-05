@@ -112,7 +112,7 @@ If **lGlyphSetDataRCID** is not CC_DEFAULT, then the following rules apply:
     // System predefined character conversion
     //
     // UNIDRV is going to support  following system predefined character conversion.
-    // By speciffying these number in UNIFM.dwGlyphSetDataRCID;
+    // By specifying these number in UNIFM.dwGlyphSetDataRCID;
     //
 
     #define CC_NOPRECNV 0x0000FFFF // Not use predefined
@@ -133,11 +133,11 @@ If **lGlyphSetDataRCID** is not CC_DEFAULT, then the following rules apply:
     #define CC_ISC      -11 // Unicode to Korean Industrial Standard. Codepage 949.
     #define CC_JIS      -12 // Unicode to JIS X0208. Codepage 932.
     #define CC_JIS_ANK  -13 // Unicode to JIS X0208 except ANK. Codepage 932.
-    #define CC_NS86     -14 // Big-5 to National Standstand conversion. Codepage 950
+    #define CC_NS86     -14 // Big-5 to National Standard conversion. Codepage 950
     #define CC_TCA      -15 // Big-5 to Taipei Computer Association. Codepage 950.
     #define CC_GB2312   -16 // Unicode to GB2312. Codepage 936
     #define CC_SJIS     -17 // Unicode to Shift-JIS. Codepage 932.
-    #define CC_WANSUNG  -18 // Unicode to Extented Wansung. Codepage 949.
+    #define CC_WANSUNG  -18 // Unicode to Extended Wansung. Codepage 949.
     ```
 
 If **lGlyphSetDataRCID** is CC_DEFAULT, there are no restrictions on the value specified for **ulDefaultCodepage**, but a default code page must be specified.

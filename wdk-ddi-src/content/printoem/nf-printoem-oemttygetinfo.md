@@ -67,4 +67,4 @@ Defines the **DWORD** parameter *pcbcNeeded*.
 
 ## -returns
 
-Returns a **INT** value.
+Returns an **INT** value.

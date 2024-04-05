@@ -285,7 +285,7 @@ AttemptRequestCompletion(
         // needs to be immediately disposable at dispatch-level.
         //
         // Delete the timer now so that we can complete the request safely.
-        // At this point the timer has either expired or been succesfully 
+        // At this point the timer has either expired or been successfully 
         // cancelled so there's no race with the timer routine.
         //
         if (RequestContext->Timer != NULL) {

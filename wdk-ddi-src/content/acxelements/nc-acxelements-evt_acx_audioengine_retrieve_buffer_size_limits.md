@@ -52,7 +52,7 @@ The ACXAUDIOENGINE object for which the buffer size limits have been requested. 
 
 ### -param Format
 
-The ACXDATAFORMAT for which the callback is determining the min and max buffer sizes the audio engine can accomodate it with.
+The ACXDATAFORMAT for which the callback is determining the min and max buffer sizes the audio engine can accommodate it with.
 
 ### -param MinBufferSizeInBytes
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugDataSpaces3.StartEnumTagged
 title: IDebugDataSpaces3::StartEnumTagged (dbgeng.h)
-description: Learn about the StartEnumTagged method, which initializes a enumeration over the tagged data associated with a debugger session.
+description: Learn about the StartEnumTagged method, which initializes an enumeration over the tagged data associated with a debugger session.
 old-location: debugger\startenumtagged.htm
 tech.root: debugger
 ms.date: 05/03/2018
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>StartEnumTagged</b> method initializes a enumeration over the tagged data associated with a debugger session.
+The <b>StartEnumTagged</b> method initializes an enumeration over the tagged data associated with a debugger session.
 
 ## -parameters
 

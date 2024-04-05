@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxStreamInitAssignAcxStreamCallbacks
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxStreamInitAssignAcxStreamCallbacks function sets the callbacks using an an ACX_STREAM_CALLBACKS structure and a ACXSTREAM_INIT object.
+description: The AcxStreamInitAssignAcxStreamCallbacks function sets the callbacks using an ACX_STREAM_CALLBACKS structure and a ACXSTREAM_INIT object.
 prerelease: false
 req.assembly: 
 req.construct-type: function

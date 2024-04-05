@@ -67,7 +67,7 @@ The handle that the offload target obtained in a previous call to the
 
 A pointer to an 
      <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_miniport_offload_block_list">
-     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The ofload target obtained this pointer as an input
+     NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a> structure. The offload target obtained this pointer as an input
      parameter to its 
      <a href="/windows-hardware/drivers/ddi/ndischimney/nc-ndischimney-w_invalidate_offload_handler">
      MiniportInvalidateOffload</a> function.

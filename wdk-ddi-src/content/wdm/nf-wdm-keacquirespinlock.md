@@ -70,7 +70,7 @@ Spin locks can cause serious problems if not used judiciously. In particular, no
 
 <ul>
 <li>
-The code within a critical region guarded by an spin lock must neither be pageable nor make any references to pageable data.
+The code within a critical region guarded by a spin lock must neither be pageable nor make any references to pageable data.
 
 </li>
 <li>

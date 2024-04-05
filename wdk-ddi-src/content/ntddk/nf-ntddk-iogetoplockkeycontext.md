@@ -52,7 +52,7 @@ The file object to query for an oplock key context.
 
 ## -returns
 
-An pointer to an [**OPLOCK_KEY_ECP_CONTEXT**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-oplock_key_ecp_context) structure containing the target oplock key for *FileObject*. Otherwise, NULL if *FileObject*  has no target oplock key.
+A pointer to an [**OPLOCK_KEY_ECP_CONTEXT**](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-oplock_key_ecp_context) structure containing the target oplock key for *FileObject*. Otherwise, NULL if *FileObject*  has no target oplock key.
 
 ## -remarks
 

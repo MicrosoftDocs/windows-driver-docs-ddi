@@ -128,7 +128,7 @@ Arguments:
                         IoControlCode);
 
     if (!HandledbyUfx) {
-        TraceError("Recieved an un supported IOCTL");
+        TraceError("received an un supported IOCTL");
         WdfRequestComplete(Request, STATUS_INVALID_DEVICE_REQUEST);
     }
 

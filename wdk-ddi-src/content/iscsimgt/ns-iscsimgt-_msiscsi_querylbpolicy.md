@@ -65,7 +65,7 @@ Reserved for Microsoft use only.
 
 ### -field SessionCount
 
-This specifies the number of active sessions for this adapater ID.
+This specifies the number of active sessions for this adapter ID.
 
 ### -field LoadBalancePolicies
 

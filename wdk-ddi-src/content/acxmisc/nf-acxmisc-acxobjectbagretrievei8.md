@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveI8
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveI8 function retrieves a int eight byte I8 (LONG64) value from an existing, initialized AcxObjectBag that contains values.
+description: The AcxObjectBagRetrieveI8 function retrieves an int eight byte I8 (LONG64) value from an existing, initialized AcxObjectBag that contains values.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI8 function retrieves a int eight byte I8 (LONG64) value from an existing, initialized AcxObjectBag that contains values.
+The AcxObjectBagRetrieveI8 function retrieves an int eight byte I8 (LONG64) value from an existing, initialized AcxObjectBag that contains values.
 
 ## -parameters
 

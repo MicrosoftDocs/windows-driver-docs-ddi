@@ -68,5 +68,5 @@ The EventId is used to identify the different voice assistant/agents such as Cor
 
 <a href="/windows-hardware/drivers/stream/ksproperty-structure">KSPROPERTY</a>
 
-<a href="/windows-hardware/drivers/audio/voice-activation-mva">Mulitple Voice Assistant</a>
+<a href="/windows-hardware/drivers/audio/voice-activation-mva">multiple Voice Assistant</a>
 

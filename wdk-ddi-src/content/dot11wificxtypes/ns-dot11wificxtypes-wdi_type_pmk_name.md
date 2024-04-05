@@ -57,7 +57,7 @@ The PMKR0Name or PMKR1Name.
 
 ## -remarks
 
-The **WDI_TYPE_PMK_NAME** structure is a paramter of the [WDI_TLV_FT_PMKR0NAME](/windows-hardware/drivers/netcx/wdi-tlv-ft-pmkr0name) TLV.  
+The **WDI_TYPE_PMK_NAME** structure is a parameter of the [WDI_TLV_FT_PMKR0NAME](/windows-hardware/drivers/netcx/wdi-tlv-ft-pmkr0name) TLV.  
 
 ## -see-also
 

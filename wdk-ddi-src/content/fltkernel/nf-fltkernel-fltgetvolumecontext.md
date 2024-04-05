@@ -76,7 +76,7 @@ For more information about contexts, see [About minifilter contexts](/windows-ha
 
 To set a context for a volume, call [**FltSetVolumeContext**](nf-fltkernel-fltsetvolumecontext.md).
 
-To allocate a new context, call call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
+To allocate a new context, call [**FltAllocateContext**](nf-fltkernel-fltallocatecontext.md).
 
 To delete a volume context, call [**FltDeleteVolumeContext**](nf-fltkernel-fltdeletevolumecontext.md) or [**FltDeleteContext**](nf-fltkernel-fltdeletecontext.md).
 

@@ -54,7 +54,7 @@ Pointer to the ACL to be modified. **RtlAddAce** adds the specified ACEs to this
 
 ### -param AceRevision [in]
 
-ACL revision level of the ACE to be added. Windows version requirments are the following:
+ACL revision level of the ACE to be added. Windows version requirements are the following:
 
 | Value | Meaning |
 | ----- | ------- |

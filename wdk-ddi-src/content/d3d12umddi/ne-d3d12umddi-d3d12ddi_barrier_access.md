@@ -146,7 +146,7 @@ A resource is accessible for write access in a video encode queue.
 
 ### -field D3D12DDI_BARRIER_ACCESS_NO_ACCESS:0x80000000
 
-A resource is inaccessible for read or write. Once a subresource access has been transitioned to **D3D12DDI_BARRIER_ACCESS_NO_ACCESS**, it must be be reactivated by a barrier with **AccessBefore** set to **D3D12DDI_BARRIER_ACCESS_NO_ACCESS** before using in the same ExecuteCommandLists scope.
+A resource is inaccessible for read or write. Once a subresource access has been transitioned to **D3D12DDI_BARRIER_ACCESS_NO_ACCESS**, it must be reactivated by a barrier with **AccessBefore** set to **D3D12DDI_BARRIER_ACCESS_NO_ACCESS** before using in the same ExecuteCommandLists scope.
 
 **D3D12DDI_BARRIER_ACCESS_NO_ACCESS** can only be used in conjunction with **D3D12DDI_BARRIER_SYNC_NONE** or **D3D12DDI_BARRIER_SYNC_SPLIT**.
 

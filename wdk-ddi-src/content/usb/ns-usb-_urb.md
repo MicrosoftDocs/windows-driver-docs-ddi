@@ -115,7 +115,7 @@ Defines the format for a command to get status from a device, interface, or endp
 
 ### -field UrbControlFeatureRequest
 
-Defines the format for a command to set or clear USB-defined features on an device, interface, or endpoint. For more information, see <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_feature_request">_URB_CONTROL_FEATURE_REQUEST</a>.
+Defines the format for a command to set or clear USB-defined features on a device, interface, or endpoint. For more information, see <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb_control_feature_request">_URB_CONTROL_FEATURE_REQUEST</a>.
 
 ### -field UrbControlVendorClassRequest
 

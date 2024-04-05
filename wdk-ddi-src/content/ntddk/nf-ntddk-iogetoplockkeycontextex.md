@@ -52,7 +52,7 @@ The file object to query for an oplock key context.
 
 ## -returns
 
-An pointer to an [**OPLOCK_KEY_CONTEXT**](./ns-ntddk-_oplock_key_context.md) structure containing the parent and target oplock keys for *FileObject*. Otherwise, NULL if *FileObject* has no oplock keys.
+A pointer to an [**OPLOCK_KEY_CONTEXT**](./ns-ntddk-_oplock_key_context.md) structure containing the parent and target oplock keys for *FileObject*. Otherwise, NULL if *FileObject* has no oplock keys.
 
 ## -remarks
 

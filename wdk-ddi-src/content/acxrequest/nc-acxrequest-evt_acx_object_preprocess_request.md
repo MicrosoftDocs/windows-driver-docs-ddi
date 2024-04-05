@@ -94,7 +94,7 @@ Routine Description:
     ASSERT(Request);
 
     // Add the handling of the request here.
-    // Driver is responsable for completing the request when done.
+    // Driver is responsible for completing the request when done.
 
     //
     // Else, just give the request back to ACX.

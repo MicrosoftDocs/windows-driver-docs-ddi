@@ -63,4 +63,4 @@ Defines the **PDWORD** parameter *pdwParams*.
 
 ## -returns
 
-Returns a **INT** value.
+Returns an **INT** value.

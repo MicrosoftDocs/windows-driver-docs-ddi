@@ -101,7 +101,7 @@ Retrieve the number of formats supported by the video decoder. The associated st
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0032_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT:12
 
-Retrieve the number of bitstream encryption schemes suppoorted by the video decoder. The associated structure is [D3D12DDI_VIDEO_ DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA](ns-d3d12umddi-d3d12ddi_video_decode_bitstream_encryption_schemes_data_0020.md).
+Retrieve the number of bitstream encryption schemes supported by the video decoder. The associated structure is [D3D12DDI_VIDEO_ DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA](ns-d3d12umddi-d3d12ddi_video_decode_bitstream_encryption_schemes_data_0020.md).
 
 ### -field D3D12DDICAPS_TYPE_VIDEO_0032_CRYPTO_SESSION_SUPPORT:13
 

@@ -63,7 +63,7 @@ A destination region, of type  <a href="/windows-hardware/drivers/ddi/d3dumddi/n
 
 ### -field pSysMemUP
 
-A pointer to the beginning address of the source data that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatesubresourceup">pfnUpdateSubresourceUP</a> function copies to update the destination subresouce.
+A pointer to the beginning address of the source data that the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_updatesubresourceup">pfnUpdateSubresourceUP</a> function copies to update the destination subresource.
 
 ### -field RowPitch
 

@@ -58,7 +58,7 @@ A handle to the device.
 
 ### -field hContext
 
-A handle to a context that the map operation will be synchronized against. This also determines which kernel context the map operation will be executed against. In an linked display adapter (LDA) configuration <b>hContext</b> defines a physical GPU whose page tables are modified.
+A handle to a context that the map operation will be synchronized against. This also determines which kernel context the map operation will be executed against. In a linked display adapter (LDA) configuration <b>hContext</b> defines a physical GPU whose page tables are modified.
 
 ### -field hFenceObject
 

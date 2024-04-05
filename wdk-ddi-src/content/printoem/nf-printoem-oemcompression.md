@@ -67,4 +67,4 @@ Defines the **DWORD** parameter *dwOutLen*.
 
 ## -returns
 
-Returns a **INT** value.
+Returns an **INT** value.

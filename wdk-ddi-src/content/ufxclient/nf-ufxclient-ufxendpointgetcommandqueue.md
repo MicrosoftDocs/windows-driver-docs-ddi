@@ -60,7 +60,7 @@ A handle to a framework queue object.
 
 ## -remarks
 
-For an code example that shows how to create an endpoint object and initialize its context, see the Remarks section of <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
+For a code example that shows how to create an endpoint object and initialize its context, see the Remarks section of <a href="/windows-hardware/drivers/ddi/ufxclient/nf-ufxclient-ufxendpointcreate">UfxEndpointCreate</a>.
 
 ## -see-also
 

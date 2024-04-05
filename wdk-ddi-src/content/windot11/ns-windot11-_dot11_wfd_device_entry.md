@@ -57,7 +57,7 @@ api_name:
 
 ### -field uPhyId
 
-The identifer of the PHY the miniport used to detect the device. This identifier is in the index range of the list of supported PHYs returned from an <a href="/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a> query request. This identifer cannot be <b>DOT_PHY_ID_ANY</b>.
+The identifier of the PHY the miniport used to detect the device. This identifier is in the index range of the list of supported PHYs returned from an <a href="/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a> query request. This identifier cannot be <b>DOT_PHY_ID_ANY</b>.
 
 ### -field PhySpecificInfo
 
@@ -77,7 +77,7 @@ The MAC address for the transmitter of the device that sent the beacon or probe 
 
 ### -field lRSSI
 
-The recieved signal strength indicator value of the discovered device. The units for this value are in decibels referenced to 1 milliwatt (dBm).
+The received signal strength indicator value of the discovered device. The units for this value are in decibels referenced to 1 milliwatt (dBm).
 
 ### -field uLinkQuality
 

@@ -43,7 +43,7 @@ dev_langs:
 
 Debuggee state, such as registers or data spaces, has changed.
 
-This is an informational callback notifying the provider about changes in debug state.  The return value of this callbacks is ignored.  Implementations can not call back into the engine.
+This is an informational callback notifying the provider about changes in debug state.  The return value of this callbacks is ignored.  Implementations can't call back into the engine.
 
 Refer to [IDebugEventCallbacks::ChangeDebuggeeState](nf-dbgeng-idebugeventcallbacks-changedebuggeestate.md) for parameter description and additional information.
 

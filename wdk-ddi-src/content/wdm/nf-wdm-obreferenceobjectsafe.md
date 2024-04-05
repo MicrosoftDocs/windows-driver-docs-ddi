@@ -57,7 +57,7 @@ ObReferenceObjectSafe returns one of the following values:
 
 Return Value|Meaning
 ---|--
-TRUE  |The object was successfuly referenced and safe to use.
+TRUE  |The object was successfully referenced and safe to use.
 FALSE |The object is being deleted.
 
 ## -remarks

@@ -71,7 +71,7 @@ A pointer to the client driver's implementation of the [*EVT_MBB_DEVICE_CREATE_A
 
 ## -remarks
 
-Call [**MBB_DEVICE_CONFIG_INIT**](nf-mbbcx-mbb_device_config_init.md) to intialize this structure.
+Call [**MBB_DEVICE_CONFIG_INIT**](nf-mbbcx-mbb_device_config_init.md) to initialize this structure.
 
 ## -see-also
 

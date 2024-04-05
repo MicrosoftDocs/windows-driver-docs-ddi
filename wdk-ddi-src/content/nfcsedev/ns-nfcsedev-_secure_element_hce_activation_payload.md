@@ -55,7 +55,7 @@ api_name:
 
 ### -field bConnectionId
 
-Unique identifer for current connection.
+Unique identifier for current connection.
 
 ### -field eRfTechType
 

@@ -60,7 +60,7 @@ The <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-ioconnectinterruptex">IoCo
 
 An ISR that is in the active state can be disconnected or made inactive. To disconnect the ISR and delete its registration, call the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iodisconnectinterruptex">IoDisconnectInterruptEx</a> routine. To make the ISR inactive without changing its registration, call <b>IoReportInterruptInactive</b>.
 
-The <b>IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</b> structure must contain a valid connection contect obtained from an <b>IoConnectInterruptEx</b> call. 
+The <b>IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS</b> structure must contain a valid connection contact obtained from an <b>IoConnectInterruptEx</b> call. 
 
 For more information about <b>IoReportInterruptActive</b>, see <a href="/windows-hardware/drivers/kernel/making-an-isr-active-or-inactive">Making an ISR Active or Inactive</a>.
 

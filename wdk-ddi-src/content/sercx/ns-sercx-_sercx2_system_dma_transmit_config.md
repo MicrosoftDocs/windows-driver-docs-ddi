@@ -101,7 +101,7 @@ If <b>Exclusive</b> is <b>TRUE</b>, the <b>MinimumTransferUnitOverride</b>, <b>A
 
 ### -field EvtSerCx2SystemDmaTransmitInitializeTransaction
 
-A pointer to the driver-implemented <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction">EvtSerCx2SystemDmaTransmitInitializeTransaction</a> event callbackcallback function.  This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
+A pointer to the driver-implemented <a href="/windows-hardware/drivers/ddi/sercx/nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction">EvtSerCx2SystemDmaTransmitInitializeTransaction</a> event callback function.  This member is optional and can be set to <b>NULL</b> to indicate that the driver does not implement the function.
 
 ### -field EvtSerCx2SystemDmaTransmitCleanupTransaction
 

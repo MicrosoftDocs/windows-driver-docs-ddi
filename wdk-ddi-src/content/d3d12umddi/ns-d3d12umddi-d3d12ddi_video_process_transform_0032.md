@@ -49,7 +49,7 @@ The **D3D12DDI_VIDEO_PROCESS_TRANSFORM_0032** structure specifies the flip, rota
 
 ### -field SourceRectangle
 
-The source rectangle is the portion of the input surface that is bltted (bit block transferred) to the destination surface. The source rectangle is given in pixel coordinates, relative to the input surface. Stereo format after orientation is applied.
+The source rectangle is the portion of the input surface that is blitted (bit block transferred) to the destination surface. The source rectangle is given in pixel coordinates, relative to the input surface. Stereo format after orientation is applied.
 
 ### -field DestinationRectangle
 

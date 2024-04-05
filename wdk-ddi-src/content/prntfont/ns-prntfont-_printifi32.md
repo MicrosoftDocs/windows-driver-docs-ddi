@@ -117,7 +117,7 @@ Identifies the character set best supported by this font. If the font supports o
 | EASTEUROPE_CHARSET | This font supports the Eastern European character set. |
 | GB2312_CHARSET | This font supports the simplified (PRC) Chinese character set. |
 | GREEK_CHARSET | This font supports the Greek character set. |
-| HANGEUL_CHARSET | This font supports the Korean (Hangeul) character set. |
+| HANGEUL_CHARSET | This font supports the Korean (Hangul) character set. |
 | HEBREW_CHARSET | This font supports the Hebrew character set. |
 | JOHAB_CHARSET | This font supports the Korean (Johab) character set. |
 | OEM_CHARSET | This font supports an OEM-specific character set. The OEM character set is system dependent. |

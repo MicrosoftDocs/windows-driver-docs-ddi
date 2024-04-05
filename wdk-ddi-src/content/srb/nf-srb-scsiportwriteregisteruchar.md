@@ -1,7 +1,7 @@
 ---
 UID: NF:srb.ScsiPortWriteRegisterUchar
 title: ScsiPortWriteRegisterUchar function (srb.h)
-description: The ScsiPortWriteRegisterUchar routine transfers a unsigned byte value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
+description: The ScsiPortWriteRegisterUchar routine transfers an unsigned byte value to the HBA.Note  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future.
 old-location: storage\scsiportwriteregisteruchar.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The <b>ScsiPortWriteRegisterUchar</b> routine transfers a unsigned byte value to the HBA.
+The <b>ScsiPortWriteRegisterUchar</b> routine transfers an unsigned byte value to the HBA.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -parameters

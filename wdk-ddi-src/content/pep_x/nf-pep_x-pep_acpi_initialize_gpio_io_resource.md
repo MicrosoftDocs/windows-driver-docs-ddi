@@ -100,7 +100,7 @@ A pointer to a raw data buffer containing vendor-defined byte data to be decoded
 ### -param VendorDataLength [in]
 
 
-The size of the buffer in the <i>VendorData</i> partameter.
+The size of the buffer in the <i>VendorData</i> parameter.
 
 ### -param PinTable [in]
 

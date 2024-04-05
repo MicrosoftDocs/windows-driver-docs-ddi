@@ -66,7 +66,7 @@ Indicates that the pipe is a bulk transfer pipe.
 
 ### -field UsbdPipeTypeInterrupt
 
-Indicates that the pipe is a interrupt pipe.
+Indicates that the pipe is an interrupt pipe.
 
 ## -see-also
 

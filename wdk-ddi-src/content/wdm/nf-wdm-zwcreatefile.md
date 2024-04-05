@@ -207,9 +207,9 @@ The *ShareAccess* parameter determines whether separate threads can access the s
 
 To successfully open a shared file, the *DesiredAccess* flags must be compatible with the *DesiredAccess* and *ShareAccess* flags of all the previous open operations that have not yet been released through . That is, the *DesiredAccess* specified to **ZwCreateFile** for a given file must not conflict with the accesses that other openers of the file have disallowed.
 
-The *CreateDisposition* value FILE_SUPERSEDE requires that the caller have DELETE access to a existing file object. If so, a successful call to **ZwCreateFile** with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess* parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
+The *CreateDisposition* value FILE_SUPERSEDE requires that the caller have DELETE access to an existing file object. If so, a successful call to **ZwCreateFile** with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that, if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess* parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
 
-The *CreateDisposition* values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If **ZwCreateFile** is called with a existing file and either of these *CreateDisposition* values, the file will be replaced.
+The *CreateDisposition* values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If **ZwCreateFile** is called with an existing file and either of these *CreateDisposition* values, the file will be replaced.
 
 Overwriting a file is semantically equivalent to a supersede operation, except for the following:
 

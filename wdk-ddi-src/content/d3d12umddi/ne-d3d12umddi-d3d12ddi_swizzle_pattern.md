@@ -59,5 +59,5 @@ A 64 KB standard swizzle pattern.
 
 ### -field D3D12DDI_SP_DEVICE_DEPENDENT_0
 
-A device dependant swizzle pattern.
+A device dependent swizzle pattern.
 

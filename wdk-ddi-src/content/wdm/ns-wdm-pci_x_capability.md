@@ -82,7 +82,7 @@ Reserved for future use.
 
 ### -field Command.AsUSHORT
 
-Reports the data in the device's command register in the form of a unsigned long integer.
+Reports the data in the device's command register in the form of an unsigned long integer.
 
 ### -field Status
 
@@ -150,7 +150,7 @@ Defines the **ULONG** member **CapablePCIX533**.
 
 ### -field Status.AsULONG
 
-Reports the data in the device's status register in the form of a unsigned long integer.
+Reports the data in the device's status register in the form of an unsigned long integer.
 
 ## -see-also
 

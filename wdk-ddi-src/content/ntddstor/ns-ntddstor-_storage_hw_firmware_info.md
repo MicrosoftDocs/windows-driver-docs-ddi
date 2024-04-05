@@ -96,7 +96,7 @@ Reserved for future use.
 
 ### -field ImagePayloadAlignment
 
-The alignment of the image payload, in number of bytes. The maximum is PAGE_SIZE. The transfer size is a mutliple of this size. Some protocols require at least sector size. When this value is set to 0, this means that this value is invalid.
+The alignment of the image payload, in number of bytes. The maximum is PAGE_SIZE. The transfer size is a multiple of this size. Some protocols require at least sector size. When this value is set to 0, this means that this value is invalid.
 
 ### -field ImagePayloadMaxSize
 

@@ -104,7 +104,7 @@ A pointer to an [UpdatePlatformIdleState](../pepfx/nc-pepfx-pofxcallbackupdatepl
 
 ### -field RequestCommon
 
-A pointer to an [RequestCommon](../pepfx/nc-pepfx-pofxcallbackrequestcommon.md) routine. PoFx sets the value of this member. The **RequestCommon** routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
+A pointer to a [RequestCommon](../pepfx/nc-pepfx-pofxcallbackrequestcommon.md) routine. PoFx sets the value of this member. The **RequestCommon** routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
 
 ## -remarks
 

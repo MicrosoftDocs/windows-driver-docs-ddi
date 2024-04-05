@@ -57,7 +57,7 @@ Pointer to a caller-allocated buffer containing the ACL to be modified. <b>RtlAd
 ### -param AceRevision [in]
 
 
-ACL revision level of the ACE to be added. Windows version requirments are the following:
+ACL revision level of the ACE to be added. Windows version requirements are the following:
 
 <table>
 <tr>

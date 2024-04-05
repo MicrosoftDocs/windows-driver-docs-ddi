@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddI4
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagAddI4 function adds a int four byte I4 (LONG) value to an existing, initialized AcxObjectBag.
+description: The AcxObjectBagAddI4 function adds an int four byte I4 (LONG) value to an existing, initialized AcxObjectBag.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI4 function adds a int four byte I4 (LONG) value to an existing, initialized AcxObjectBag.
+The AcxObjectBagAddI4 function adds an int four byte I4 (LONG) value to an existing, initialized AcxObjectBag.
 
 ## -parameters
 

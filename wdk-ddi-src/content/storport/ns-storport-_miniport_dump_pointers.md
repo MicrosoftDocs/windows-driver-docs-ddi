@@ -128,7 +128,7 @@ Specifies the number of target peripherals that the adapter can control. For mor
 
 ## -remarks
 
-Starting with Windows 8, physical minport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
+Starting with Windows 8, physical miniport drivers can optionally support SRB_FUNCTION_DUMP_POINTERS. If a physical miniport supports this function, it must set the STOR_FEATURE_DUMP_POINTERS flag in the **FeatureSupport** member of the [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md) structure before calling [**StorPortInitialize**](nf-storport-storportinitialize.md). Physical miniports are required to set at least the **Version** and **Size** members of **MINIPORT_DUMP_POINTERS**. Also, if different from the value given in [**PORT_CONFIGURATION_INFORMATION**](ns-storport-_port_configuration_information.md), the **MaximumTransferLength** member is required for a physical miniport.
 
 ## -see-also
 

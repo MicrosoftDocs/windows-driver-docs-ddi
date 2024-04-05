@@ -65,7 +65,7 @@ The physical Cell ID (0-1007). Use 0xFFFFFFFF when this information is not avail
 
 ### -field NRARFCN
 
-Thr Absolute Radio Frequency Channel Number of the serving cells. The range is 0 to 3279165. Use 0xffffffff when the information is not available.
+The Absolute Radio Frequency Channel Number of the serving cells. The range is 0 to 3279165. Use 0xffffffff when the information is not available.
 
 ### -field TAC
 

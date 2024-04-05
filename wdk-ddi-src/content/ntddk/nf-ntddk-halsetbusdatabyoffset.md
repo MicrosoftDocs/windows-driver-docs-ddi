@@ -67,7 +67,7 @@ Logical slot number or location of the device. If you specify PCIConfiguration a
 
 Pointer to a caller-supplied buffer for configuration information specific to BusDataType.
 
-If you specify PCIConfiguration, the buffer contains the PCI config space information for the specifed SlotNumber and function number. The specified Offset and Length determine how much information to supply. Certain members of PCI config space have read-only values The caller is responsible for preserving the system-supplied values of read-only members. Note that for a Type-1 PCI device, HalSetBusDataByOffset prevents writes to registers inside the common header (first 256bytes of the config space).
+If you specify PCIConfiguration, the buffer contains the PCI config space information for the specified SlotNumber and function number. The specified Offset and Length determine how much information to supply. Certain members of PCI config space have read-only values The caller is responsible for preserving the system-supplied values of read-only members. Note that for a Type-1 PCI device, HalSetBusDataByOffset prevents writes to registers inside the common header (first 256bytes of the config space).
 
 ### -param Offset [in]
 

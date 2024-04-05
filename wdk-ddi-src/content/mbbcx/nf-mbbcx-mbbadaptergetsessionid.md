@@ -1,7 +1,7 @@
 ---
 UID: NF:mbbcx.MbbAdapterGetSessionId
 title: MbbAdapterGetSessionId function (mbbcx.h)
-description: The MbbAdapterGetSessionId method retreives the data session ID represented by the given NETADAPTER object.
+description: The MbbAdapterGetSessionId method retrieves the data session ID represented by the given NETADAPTER object.
 tech.root: netvista
 ms.date: 06/29/2018
 keywords: ["MbbAdapterGetSessionId function"]
@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The **MbbAdapterGetSessionId** method retreives the data session ID represented by the given NETADAPTER object.
+The **MbbAdapterGetSessionId** method retrieves the data session ID represented by the given NETADAPTER object.
 
 ## -parameters
 

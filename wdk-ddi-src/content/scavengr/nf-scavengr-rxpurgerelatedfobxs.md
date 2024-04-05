@@ -97,7 +97,7 @@ The <b>RxPurgeRelatedFobxs</b> routine attempts to purge all of the FOBX structu
 
 If <i>AttemptFinalize</i> is set to <b>TRUE</b>, then <b>RxPurgeRelatedFobxs</b> will try to finalize and release the associated FCB.
 
-If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the same as the FCB structure associated with the FOBX on the <b>ClosePendingFobxsList</b> member, then <b>RxPurgeRelatedFobxs</b> will call the <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if this routine is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure.
+If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB structure is not the same as the FCB structure associated with the FOBX on the <b>ClosePendingFobxsList</b> member, then <b>RxPurgeRelatedFobxs</b> will call the <a href="/windows-hardware/drivers/ddi/mrx/nc-mrx-pmrx_chkfcb_calldown">MRxAreFilesAliased</a> callback routine provided by the network mini-redirector if this routine is supported. The call to <b>MRxAreFilesAliased</b> is to determine if the PFCB is an alias for the FCB associated with the FOBX structure.
 
 ## -see-also
 

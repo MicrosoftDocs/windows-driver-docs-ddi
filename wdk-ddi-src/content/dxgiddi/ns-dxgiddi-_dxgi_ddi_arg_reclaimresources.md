@@ -68,7 +68,7 @@ An optional array of Boolean values that specify whether each resource or alloca
 
 Each Boolean value in this array corresponds to a resource at the same index location in the structure pointed to by <b>pResources</b>.
 
-The driver sets each Boolean value to <b>TRUE</b> if the correponding resource was discarded, or to <b>FALSE</b> if not.
+The driver sets each Boolean value to <b>TRUE</b> if the corresponding resource was discarded, or to <b>FALSE</b> if not.
 
 If <b>pDiscarded</b> is <b>NULL</b>, the driver can ignore it.
 

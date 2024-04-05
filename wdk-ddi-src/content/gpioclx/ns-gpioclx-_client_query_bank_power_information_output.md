@@ -72,7 +72,7 @@ The unnamed struct inside _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT contains a
 
 The **BankPowerInformation** member of the [CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT](./ns-gpioclx-_client_controller_query_set_information_output.md) structure is a structure of type **CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT**.
 
-For more information about GPIO banks, see [Partioning a GPIO Controller into Banks of Pins](/windows-hardware/drivers/gpio/partitioning-a-gpio-controller-into-banks-of-pins).
+For more information about GPIO banks, see [Partitioning a GPIO Controller into Banks of Pins](/windows-hardware/drivers/gpio/partitioning-a-gpio-controller-into-banks-of-pins).
 
 ## -see-also
 

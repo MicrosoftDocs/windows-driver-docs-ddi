@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagRetrieveI1
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagRetrieveI1 function retrieves a int one byte (CHAR) I1 value from an existing, initialized AcxObjectBag that contains values.
+description: The AcxObjectBagRetrieveI1 function retrieves an int one byte (CHAR) I1 value from an existing, initialized AcxObjectBag that contains values.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagRetrieveI1 function retrieves a int one byte (CHAR) I1 value from an existing, initialized AcxObjectBag that contains values.
+The AcxObjectBagRetrieveI1 function retrieves an int one byte (CHAR) I1 value from an existing, initialized AcxObjectBag that contains values.
 
 ## -parameters
 

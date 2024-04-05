@@ -250,7 +250,7 @@ Pointer to the function to create a sampler.
 
 ### -field pfnCreateUnorderedAccessView
 
-Pointer to the function to create a unordered access view.
+Pointer to the function to create an unordered access view.
 
 ### -field pfnCreateRenderTargetView
 

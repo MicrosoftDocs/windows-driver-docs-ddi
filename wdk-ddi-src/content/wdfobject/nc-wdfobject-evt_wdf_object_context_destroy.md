@@ -64,7 +64,7 @@ The framework calls the <i>EvtDestroyCallback</i> callback function after the ob
 
 The <i>EvtDestroyCallback</i> can access the object context but cannot call any methods on the object.
 
-If a driver supplies both an <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> callback function and an <i>EvtDestroyCallback</i> callback function for a object, the framework calls the <i>EvtCleanupCallback</i> callback function first.
+If a driver supplies both an <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> callback function and an <i>EvtDestroyCallback</i> callback function for an object, the framework calls the <i>EvtCleanupCallback</i> callback function first.
 
 When an object is deleted, the framework also deletes the object's children. The framework calls the child objects' <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> callback functions before calling the parent object's <i>EvtCleanupCallback</i> callback function. Next, if the child's reference count is zero, the framework calls the child object's <i>EvtDestroyCallback</i> callback function. Finally, if the parent's reference count is zero, the framework calls the parent object's <i>EvtDestroyCallback</i> callback function.
 

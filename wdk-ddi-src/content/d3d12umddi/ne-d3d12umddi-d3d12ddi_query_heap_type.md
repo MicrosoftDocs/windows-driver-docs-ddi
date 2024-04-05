@@ -70,7 +70,7 @@ The heap is to contain video decode data. See [**D3D12DDI_QUERY_DATA_VIDEO_DECOD
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_0032_COPY_QUEUE_TIMESTAMP:5
 
-The heap is to contain timestamp queries emitted exclusively by copy command lists. Copy queue timestamps can only be queried from a copy command list, and a copy command list can not emit to a regular timestamp query Heap.
+The heap is to contain timestamp queries emitted exclusively by copy command lists. Copy queue timestamps can only be queried from a copy command list, and a copy command list can't emit to a regular timestamp query Heap.
 
 ### -field D3D12DDI_QUERY_HEAP_TYPE_PIPELINE_STATISTICS1:7
 

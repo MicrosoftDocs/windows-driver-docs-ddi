@@ -68,7 +68,7 @@ Optional GUID to identify a specific item set ID.
 
 ### -param Id
 
-An ID to indentify a specific item in the specified set ID.
+An ID to identify a specific item in the specified set ID.
 
 ## -returns
 

@@ -258,7 +258,7 @@ An optional handle to a directory, obtained by a preceding call to <a href="/win
 
 </td>
 <td>
-An optional security descriptor (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) to be applied to a pipe. <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACLs</a> specified by such a security descriptor are only applied to the pipe when it is created. If the value is <b>NULL</b> when a pipe is created, the ACL placed on the pipe is dependant on the named pipe file system and may allow a client with any access to create an instance.
+An optional security descriptor (<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>) to be applied to a pipe. <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACLs</a> specified by such a security descriptor are only applied to the pipe when it is created. If the value is <b>NULL</b> when a pipe is created, the ACL placed on the pipe is dependent on the named pipe file system and may allow a client with any access to create an instance.
 
 </td>
 </tr>

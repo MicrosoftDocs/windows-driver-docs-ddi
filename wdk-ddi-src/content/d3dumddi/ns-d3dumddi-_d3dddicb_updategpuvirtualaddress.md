@@ -54,7 +54,7 @@ api_name:
 
 ### -field hContext
 
-Specifies the context against which the map operation will be synchronized against. This also determines which kernel context the map operation will be executed against. In an linked display adapter configuration <b>hContext</b> defines a physical GPU, whose page tables are modified.
+Specifies the context against which the map operation will be synchronized against. This also determines which kernel context the map operation will be executed against. In a linked display adapter configuration <b>hContext</b> defines a physical GPU, whose page tables are modified.
 
 ### -field hFenceObject
 

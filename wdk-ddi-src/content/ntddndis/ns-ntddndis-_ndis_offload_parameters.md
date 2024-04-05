@@ -682,7 +682,7 @@ Specifies VXLAN encapsulation.
 
 A union that describes the encapsulation parameters for VXLAN encapsulation. 
 
-If the miniport driver advertised **VxlanUDPPortNumerConfigurable** as **TRUE**, then a protocol driver can set **EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber** to a non-0 value. The minport driver must use this port number for matching and generating VXLAN frames after succeeding the OID, and also advertise the updated value in its capabilities. If the protocol driver passes a value of **0**, then the miniport driver continues to use the port number initialized from the standardized keyword.
+If the miniport driver advertised **VxlanUDPPortNumerConfigurable** as **TRUE**, then a protocol driver can set **EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber** to a non-0 value. The miniport driver must use this port number for matching and generating VXLAN frames after succeeding the OID, and also advertise the updated value in its capabilities. If the protocol driver passes a value of **0**, then the miniport driver continues to use the port number initialized from the standardized keyword.
 
 ### -field EncapsulationProtocolParameters.VxlanParameters
 

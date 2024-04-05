@@ -401,7 +401,7 @@ TRUE to enable automatic normalization of vertex normals, or FALSE to disable it
 
 ### -field D3DDDIRS_COLORKEYBLENDENABLE
 
-Indicates whether the color key is blend enaable.
+Indicates whether the color key is blend enable.
 
 ### -field D3DDDIRS_DIFFUSEMATERIALSOURCE
 

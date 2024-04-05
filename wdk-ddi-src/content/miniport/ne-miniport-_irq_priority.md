@@ -61,7 +61,7 @@ Specifies that the device does not require any particular priority for its inter
 
 ### -field IrqPriorityLow
 
-Specifies that the device's interrupts are of low priority. This setting is appropiate for devices that can tolerate higher-than-normal latency.
+Specifies that the device's interrupts are of low priority. This setting is appropriate for devices that can tolerate higher-than-normal latency.
 
 ### -field IrqPriorityNormal
 

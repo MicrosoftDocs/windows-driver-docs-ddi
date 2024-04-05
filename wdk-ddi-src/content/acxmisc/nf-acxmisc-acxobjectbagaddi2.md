@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxObjectBagAddI2
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxObjectBagAddI2 function adds a int two byte I2 (SHORT) value to an existing, initialized AcxObjectBag.
+description: The AcxObjectBagAddI2 function adds an int two byte I2 (SHORT) value to an existing, initialized AcxObjectBag.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The AcxObjectBagAddI2 function adds a int two byte I2 (SHORT) value to an existing, initialized AcxObjectBag.
+The AcxObjectBagAddI2 function adds an int two byte I2 (SHORT) value to an existing, initialized AcxObjectBag.
 
 ## -parameters
 

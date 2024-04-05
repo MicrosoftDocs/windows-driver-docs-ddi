@@ -2,7 +2,7 @@
 UID: NF:ucmucsidevice.UcmUcsiDeviceInitInitialize
 title: UcmUcsiDeviceInitInitialize function (ucmucsidevice.h)
 tech.root: usbref
-description: Intializes the **WDFDEVICE_INIT** provided by the framework.
+description: Initializes the **WDFDEVICE_INIT** provided by the framework.
 ms.date: 09/30/2018
 keywords: ["UcmUcsiDeviceInitInitialize function"]
 ms.keywords: UcmUcsiDeviceInitInitialize

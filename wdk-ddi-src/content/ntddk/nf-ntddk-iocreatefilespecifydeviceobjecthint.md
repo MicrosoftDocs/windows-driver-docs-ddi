@@ -257,7 +257,7 @@ In order for a shared file to be successfully opened, the requested *DesiredAcce
 
 If IO_IGNORE_SHARE_ACCESS_CHECK is specified in the *Options* parameter, the I/O manager ignores the *ShareAccess* parameter. However, the file system might still perform access checks. Thus, it is important to specify the sharing mode you would like for the *ShareAccess* parameter, even when using the IO_IGNORE_SHARE_ACCESS_CHECK flag.
 
-The *Disposition* value FILE_SUPERSEDE requires that the caller have DELETE access to a existing file object. If so, a successful call to **IoCreateFileSpecifyDeviceObjectHint** with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess* parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
+The *Disposition* value FILE_SUPERSEDE requires that the caller have DELETE access to an existing file object. If so, a successful call to **IoCreateFileSpecifyDeviceObjectHint** with FILE_SUPERSEDE on an existing file effectively deletes that file, and then recreates it. This implies that if the file has already been opened by another thread, it opened the file by specifying a *ShareAccess* parameter with the FILE_SHARE_DELETE flag set. Note that this type of disposition is consistent with the POSIX style of overwriting files.
 
 The *Disposition* values FILE_OVERWRITE_IF and FILE_SUPERSEDE are similar. If **IoCreateFileSpecifyDeviceObjectHint** is called with an existing file and either of these *Disposition* values, the file will be replaced.
 

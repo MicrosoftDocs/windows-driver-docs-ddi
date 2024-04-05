@@ -62,7 +62,7 @@ Reserved for future use. Must be set to 0.
 
 ### -field PerformanceCounterValue
 
-Returns the performance counter value corresponding to the sampling instant of the first sample in the packet.
+Returns the performance counter value corresponding to the sampling instance of the first sample in the packet.
 
 ### -field MoreData
 

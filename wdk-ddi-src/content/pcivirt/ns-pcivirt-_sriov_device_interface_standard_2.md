@@ -101,7 +101,8 @@ Pointer to the driver's implementation of the <a href="/windows-hardware/drivers
 
 ### -field GetDeviceLocation
 
-Pointer to the driver's implementation of the <a href="/windows-hardware/drivers/ddi/pcivirt/nc-pcivirt-sriov_get_device_location">SRIOV_GET_DEVICE_LOCATION</a> callback function that allows the a non-privileged VM to determine the bus to which the device is attached.
+Pointer to the driver's implementation of the <a href="/windows-hardware/drivers/ddi/pcivirt/nc-pcivirt-sriov_get_device_location">SRIOV_GET_DEVICE_LOCATION</a> callback function that allows 
+a non-privileged VM to determine the bus to which the device is attached.
 
 ### -field ResetVf
 

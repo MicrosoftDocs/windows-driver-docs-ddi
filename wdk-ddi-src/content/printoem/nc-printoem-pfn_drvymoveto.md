@@ -63,4 +63,4 @@ Defines the **DWORD** parameter *dwFlags*.
 
 ## -returns
 
-Returns a **INT** value.
+Returns an **INT** value.

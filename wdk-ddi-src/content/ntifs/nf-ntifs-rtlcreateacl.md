@@ -61,7 +61,7 @@ Length, in bytes, of the buffer pointed to by the <i>Acl</i> parameter. This val
 
 ### -param AclRevision
 
-<p>ACL revision level of the ACE to be added. Windows version requirments are the following:</p>
+<p>ACL revision level of the ACE to be added. Windows version requirements are the following:</p>
   <table>
     <tr>
       <th>Value</th>

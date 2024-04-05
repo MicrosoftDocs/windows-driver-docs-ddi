@@ -34,7 +34,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_VIDEO_ENCODER_ENCODE_ERROR_FLAGS_0082_0** enumeration specified error(s) encounted during the associated [**PFND3D12DDI_VIDEO_ENCODE_FRAME_0082_0**](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md) command execution.
+The **D3D12DDI_VIDEO_ENCODER_ENCODE_ERROR_FLAGS_0082_0** enumeration specified error(s) encountered during the associated [**PFND3D12DDI_VIDEO_ENCODE_FRAME_0082_0**](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md) command execution.
 
 ## -enum-fields
 

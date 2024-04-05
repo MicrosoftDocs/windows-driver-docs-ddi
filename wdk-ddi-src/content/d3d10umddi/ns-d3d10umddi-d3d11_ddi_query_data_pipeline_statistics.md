@@ -51,7 +51,7 @@ The D3D11_DDI_QUERY_DATA_PIPELINE_STATISTICS structure describes statistics for 
 
 ### -field IAVertices
 
-The number of input assembler (IA) veritces.
+The number of input assembler (IA) vertices.
 
 ### -field IAPrimitives
 

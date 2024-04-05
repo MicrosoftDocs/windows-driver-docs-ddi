@@ -149,7 +149,7 @@ The multicast cipher algorithm that the 802.11 station resolved with the AP or p
 
 The offset of the list of PHY identifiers (IDs) that the 802.11 station uses to send or receive packets on the BSS network connection. Each entry is a ULONG value.
 
-The Extensible Station (ExtSTA) <a href="/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB objec also references the active PHY list.
+The Extensible Station (ExtSTA) <a href="/windows-hardware/drivers/network/oid-dot11-active-phy-list">msDot11ActivePhyList</a> MIB object also references the active PHY list.
 
 Entries in the active PHY list can be one of the following values:
 

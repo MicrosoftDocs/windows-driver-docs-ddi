@@ -134,7 +134,7 @@ Receives the location in the target's memory of the first instruction included i
 ### -param EndOffset [out, optional]
 
 
-Receives the locaiton in the target's memory of the instruction that follows the last disassembled instruction.
+Receives the location in the target's memory of the instruction that follows the last disassembled instruction.
 
 ### -param LineOffsets [out, optional]
 

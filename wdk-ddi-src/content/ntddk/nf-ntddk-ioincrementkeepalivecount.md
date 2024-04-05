@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.IoIncrementKeepAliveCount
 title: IoIncrementKeepAliveCount function (ntddk.h)
-description: The IoIncrementKeepAliveCount routine increments a reference count associated with an Windows app process on a specific device.
+description: The IoIncrementKeepAliveCount routine increments a reference count associated with a Windows app process on a specific device.
 old-location: kernel\ioincrementkeepalivecount.htm
 tech.root: kernel
 ms.date: 04/30/2018
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>IoIncrementKeepAliveCount</b> routine increments a reference count associated with an Windows app process on a specific device. This routine is called by a kernel mode driver in response to the app opening a process for I/O. This prevents Windows from suspending the app before the I/O process is complete.
+The <b>IoIncrementKeepAliveCount</b> routine increments a reference count associated with a Windows app process on a specific device. This routine is called by a kernel mode driver in response to the app opening a process for I/O. This prevents Windows from suspending the app before the I/O process is complete.
 
 ## -parameters
 

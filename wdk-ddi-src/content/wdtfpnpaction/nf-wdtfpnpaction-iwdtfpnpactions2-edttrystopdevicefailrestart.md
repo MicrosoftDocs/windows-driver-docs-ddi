@@ -65,7 +65,7 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 method must be called for the target device before calling this method.</div>
 <div> </div>
 <b>EDTTryStopDeviceFailRestart</b> attempts to trigger a PnP resource 
-rebalance (an Query Stop, Stop, Start IRP sequence) in which it fails the IRP_MN_START_DEVICE event 
+rebalance (a Query Stop, Stop, Start IRP sequence) in which it fails the IRP_MN_START_DEVICE event 
 which follows a successful Query Stop and Stop. The failed Start IRP, in turn, causes the system 
 to surprise remove the device (IRP_MN_SURPRISE_REMOVAL).
 

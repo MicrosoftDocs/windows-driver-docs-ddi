@@ -71,7 +71,7 @@ The NAME_CACHE entry is removed from the active list to avoid possible problems 
 
 If a matching NAME_CACHE entry is found, no check is made for expiration. The caller must check for expiration because it might want to take some special action.
 
-As a aside effect as the name cache active list is scanned, any non-matching entries that have expired are put on the free list. The name cache lock is acquired to protect this operation.
+As a side effect as the name cache active list is scanned, any non-matching entries that have expired are put on the free list. The name cache lock is acquired to protect this operation.
 
 ## -see-also
 

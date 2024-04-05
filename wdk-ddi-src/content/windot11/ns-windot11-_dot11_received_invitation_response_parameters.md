@@ -80,7 +80,7 @@ Specifies the type, revision and size of the <b>DOT11_RECEIVED_INVITATION_RESPON
 
 ### -field TransmitterDeviceAddress
 
-The address of the device that transmitted the invitaion response packet.
+The address of the device that transmitted the invitation response packet.
 
 ### -field BSSID
 

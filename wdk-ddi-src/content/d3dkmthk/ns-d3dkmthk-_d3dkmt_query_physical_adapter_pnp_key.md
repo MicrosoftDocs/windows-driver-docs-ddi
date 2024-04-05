@@ -62,7 +62,7 @@ The type of the PNP key being queried.
 
 ### -field pDest
 
-A WCHAR value respresenting the pDest.
+A WCHAR value representing the pDest.
 
 ### -field pCchDest
 
