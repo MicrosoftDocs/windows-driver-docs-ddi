@@ -66,7 +66,7 @@ A [**STOR_UNIT_ATTRIBUTES**](ns-storport-_stor_unit_attributes.md) structure wit
 | Return code | Description |
 | ----------- | ----------- |
 | STOR_STATUS_SUCCESS | The routine set the unit attributes successfully. |
-| STOR_STATUS_INVALID_PARAMETER | One more parameters are invalid. |
+| STOR_STATUS_INVALID_PARAMETER | One or more parameters are invalid. |
 
 An invalid parameter can be any of the following:
 
