@@ -1,7 +1,7 @@
 ---
 UID: NC:mbbcx.EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT
 title: EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT (mbbcx.h)
-description: A client driver's EvtMbbDeviceSendMbimFragment event callabck function instructs its device to perform the task specified by the MBIM control message. This callback function is the equivalent of the SendEncapsulatedCommand request defined in the MBIM specification.
+description: A client driver's EvtMbbDeviceSendMbimFragment event callback function instructs its device to perform the task specified by the MBIM control message. This callback function is the equivalent of the SendEncapsulatedCommand request defined in the MBIM specification.
 tech.root: netvista
 ms.date: 07/02/2018
 keywords: ["EVT_MBB_DEVICE_SEND_MBIM_FRAGMENT callback function"]
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-A client driver's *EvtMbbDeviceSendMbimFragment* event callabck function instructs its device to perform the task specified by the MBIM control message. This callback function is the equivalent of the *SendEncapsulatedCommand* request defined in the MBIM specification.
+A client driver's *EvtMbbDeviceSendMbimFragment* event callback function instructs its device to perform the task specified by the MBIM control message. This callback function is the equivalent of the *SendEncapsulatedCommand* request defined in the MBIM specification.
 
 ## -parameters
 
@@ -52,7 +52,7 @@ A handle to a framework device object the client driver obtained from a previous
 
 ### -param SendRequest
 
-A handle to the framework object that represents the request to send a fragemented MBIM message to the device.
+A handle to the framework object that represents the request to send a fragmented MBIM message to the device.
 
 ## -prototype
 
@@ -76,9 +76,9 @@ VOID EvtMbbDeviceSendMbimFragment
 
 An MBBCx client driver must register an *EvtMbbDeviceSendMbimFragment* callback function by calling [**MbbDeviceInitialize**](nf-mbbcx-mbbdeviceinitialize.md).
 
-The MBBCx framework calls this callback function when it wants to issue a command in the format of an MBIM control message to the client driver. If the size of the MBIM control message is larger than the maximum fragment size set by the client driver in the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure, the MBBCx framework splits the MBIM control message into multiple fragmented messages and calls this callback function once per fragemented message.
+The MBBCx framework calls this callback function when it wants to issue a command in the format of an MBIM control message to the client driver. If the size of the MBIM control message is larger than the maximum fragment size set by the client driver in the [**MBB_DEVICE_MBIM_PARAMETERS**](ns-mbbcx-_mbb_device_mbim_parameters.md) structure, the MBBCx framework splits the MBIM control message into multiple fragmented messages and calls this callback function once per fragmented message.
 
-To get the actual MBIM message fragment being sent, the client driver should call [**MbbRequestGetBuffer**](nf-mbbcx-mbbrequestgetbuffer.md) to get the buffer where the MBIM message fragment is stored. Once its device has successfully accepted the control request, or any failure condition has occurred, the client driver must acknowledge this to MBBCx by calling [**MbbRequestComplete**](nf-mbbcx-mbbrequestcomplete.md) either asynchronously or sychronously. 
+To get the actual MBIM message fragment being sent, the client driver should call [**MbbRequestGetBuffer**](nf-mbbcx-mbbrequestgetbuffer.md) to get the buffer where the MBIM message fragment is stored. Once its device has successfully accepted the control request, or any failure condition has occurred, the client driver must acknowledge this to MBBCx by calling [**MbbRequestComplete**](nf-mbbcx-mbbrequestcomplete.md) either asynchronously or synchronously. 
 
 For more information, see [Handling MBIM control messages](/windows-hardware/drivers/netcx/writing-an-mbbcx-client-driver#handling-mbim-control-messages).
 

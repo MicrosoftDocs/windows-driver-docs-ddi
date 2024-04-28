@@ -133,7 +133,7 @@ The maximum value for this enumeration. This value might change in future versio
 ## -remarks
 
 The following macros in 
-    <i>Fwpsk.h</i> are defined with FWPS_FIELDS_DATAGRAM_DATA_V6 enumeration vallues:
+    <i>Fwpsk.h</i> are defined with FWPS_FIELDS_DATAGRAM_DATA_V6 enumeration values:
 
 
 ```

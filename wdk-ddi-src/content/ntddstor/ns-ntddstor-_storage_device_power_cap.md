@@ -69,7 +69,7 @@ The units of the **MaxPower** value. This value can be either a percentage (0-10
 
 ### -field MaxPower
 
-On input, **MaxPower** specifies the desired maximum power consumption value for the storage device. On output, **MaxPower** contains the value of the actual maximum power consuption level of the device. The output buffer value may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
+On input, **MaxPower** specifies the desired maximum power consumption value for the storage device. On output, **MaxPower** contains the value of the actual maximum power consumption level of the device. The output buffer value may be equal to, less than, or greater than the desired threshold, depending on what the device supports.
 
 ## -see-also
 

@@ -268,7 +268,7 @@ A
 ### -field ConnectionType
 
 The NDIS network interface connection type. Use <b>NET_IF_CONNECTION_DEDICATED</b> for a typical Ethernet
-     adapter. The following valuse are valid:
+     adapter. The following values are valid:
      
 
 

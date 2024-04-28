@@ -81,7 +81,7 @@ If this callback function succeeds, it returns **S_OK**. Otherwise, it returns a
 
 ## -remarks
 
-The [**pfnShaderCacheStoreValueCb**](nc-d3d12umddi-pfnd3d12ddi_shadercachestorevalue_cb_0021.md) and **pfnShaderCacheGetValueCb** callbacks are used to store and retrieve compiled shader code or other shader-related data in the driver's shader cache. Caching helps improve performance by reducing the need to recompile shaders that have alread been compiled and cached.
+The [**pfnShaderCacheStoreValueCb**](nc-d3d12umddi-pfnd3d12ddi_shadercachestorevalue_cb_0021.md) and **pfnShaderCacheGetValueCb** callbacks are used to store and retrieve compiled shader code or other shader-related data in the driver's shader cache. Caching helps improve performance by reducing the need to recompile shaders that have already been compiled and cached.
 
 Access this callback by using the [**D3D12DDI_SHADERCACHE_CALLBACKS_0021**](ns-d3d12umddi-d3d12ddi_shadercache_callbacks_0021.md) structure.
 

@@ -1,7 +1,7 @@
 ---
 UID: NF:eventdetectoroemadapter.IEventDetectorOemAdapter.GetCapabilities
 title: IEventDetectorOemAdapter::GetCapabilities
-description: Returns langauges and detector features supported by the object.
+description: Returns languages and detector features supported by the object.
 tech.root: audio
 ms.date: 02/25/2019
 keywords: ["IEventDetectorOemAdapter::GetCapabilities"]
@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Returns langauges and detector features supported by the object.
+Returns languages and detector features supported by the object.
 
 ## -parameters
 

@@ -95,7 +95,7 @@ The PNET_BUFFER_LIST pointer that NDIS passed to the intermediate driver's
 
 </li>
 </ul>
-In response, NDIS calls the overyling driver's 
+In response, NDIS calls the overlying driver's 
     <i>ProtocolTcpOffloadSendComplete</i> function, passing a 
     <i>ProtocolBindingContext</i> handle and the PNET_BUFFER_LIST pointer supplied by the intermediate driver
     to the 

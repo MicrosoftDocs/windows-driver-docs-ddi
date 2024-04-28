@@ -66,7 +66,7 @@ Drivers call AcxStreamBridgeRemoveStream in these scenarios:
 
 (a) drivers want to manually remove the ACXSTREAM from the ACXSTREAMBRIDGE.
 
-(b) drivers (and thier h/w requirements) need for the upper level ACXSTREAMs i.e., the circuit streams closer to the streaming bridge pin, to take action before downlevel ACXSTREAMs.
+(b) drivers (and their h/w requirements) need for the upper level ACXSTREAMs i.e., the circuit streams closer to the streaming bridge pin, to take action before downlevel ACXSTREAMs.
 
 (c) drivers need to take action before and after the downlevel ACXSTREAM goes away.
 

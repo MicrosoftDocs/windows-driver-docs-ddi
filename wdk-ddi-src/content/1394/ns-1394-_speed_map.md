@@ -1,7 +1,7 @@
 ---
 UID: NS:1394._SPEED_MAP
 title: _SPEED_MAP (1394.h)
-description: The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
+description: The SPEED_MAP structure is stores an IEEE 1394 bus speed map.
 old-location: ieee\speed_map.htm
 tech.root: IEEE
 ms.date: 02/15/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The SPEED_MAP structure is stores a IEEE 1394 bus speed map.
+The SPEED_MAP structure is stores an IEEE 1394 bus speed map.
 
 ## -struct-fields
 

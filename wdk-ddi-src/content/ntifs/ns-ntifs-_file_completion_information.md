@@ -61,7 +61,7 @@ The handle to the completion port created for an associated file handle.
 
 ### -field Key
 
-An custom defined value which is included in every I/O completion packet for <b>Port</b>.
+A custom defined value which is included in every I/O completion packet for <b>Port</b>.
 
 ## -remarks
 

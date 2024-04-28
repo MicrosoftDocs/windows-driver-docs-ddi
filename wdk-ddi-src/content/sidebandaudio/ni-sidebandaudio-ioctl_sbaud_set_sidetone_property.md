@@ -46,7 +46,7 @@ The **IOCTL_SBAUD_SET_SIDETONE_PROPERTY** IOCLT is used to set the side tone pro
 
 ### -input-buffer
 
-A The [SIDEBANDAUDIO_SIDETONE_PARAMS](./ns-sidebandaudio-_sidebandaudio_sidetone_params.md) structure that describes the endpoint index and sidetone value to be set.
+A [SIDEBANDAUDIO_SIDETONE_PARAMS](./ns-sidebandaudio-_sidebandaudio_sidetone_params.md) structure that describes the endpoint index and sidetone value to be set.
 
 ### -input-buffer-length
 

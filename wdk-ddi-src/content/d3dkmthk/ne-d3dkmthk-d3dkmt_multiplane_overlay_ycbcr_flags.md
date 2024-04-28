@@ -44,7 +44,7 @@ Multiplane overlay YCbCr flags.
 
 ### -field D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE 
 
-Nomial range.
+Nominal range.
 
 ### -field D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709 
 

@@ -69,7 +69,7 @@ Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropri
 
 The negotiated settings are persistent only as long as the port partner is attached, and is  discarded when the port partner is detached. The client driver is required to call this function based on the current connector state, without assuming the previous setting.  
 
-If this call succeeds, the request was been accepted but PD contract renegotiation might not be complete. The result of PD contract renegotiation can be either success or failure.
+If this call succeeds, the request has been accepted but PD contract renegotiation might not be complete. The result of PD contract renegotiation can be either success or failure.
 
 As a result of successful PD contract renegotiation, **EVT_USBPM_EVENT_CALLBACK** is invoked with a connector state change event. If PD contract renegotiation request fails, the callback function is not invoked. For example, the request gets rejected by the partner, or is no longer valid because the connector state has changed.  
 In Windows 10, version 1809, the driver can only call this function with the power role of UsbCPowerRoleSink and when a partner is attached to the connector.

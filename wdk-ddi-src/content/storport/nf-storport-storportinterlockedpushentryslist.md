@@ -67,7 +67,7 @@ A pointer to an <b>STOR_SLIST_ENTRY</b> structure that represents the item to in
 ### -param Result [out]
 
 
-A pointer to a list entry pointer. The value returned is a pointer to  the previous item that existed  at the front of the list. This pervious item remains in the list behind the item new item added from <i>SListEntry</i>. If the list is empty, then <b>NULL</b> is returned in value pointed to by <i>Result</i>.
+A pointer to a list entry pointer. The value returned is a pointer to  the previous item that existed  at the front of the list. This previous item remains in the list behind the item new item added from <i>SListEntry</i>. If the list is empty, then <b>NULL</b> is returned in value pointed to by <i>Result</i>.
 
 ## -returns
 

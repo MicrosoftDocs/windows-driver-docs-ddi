@@ -59,7 +59,7 @@ A handle to a context block that is associated with a display adapter. The displ
 
 ## -remarks
 
-The operating system calls the <i>DxgkDdiRestartFromTimeout</i> function after the recovery of a hardware tim-eout completes from the operating system's perspective (for example, all of the system-managed resources, mappings, and so on are released). The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can begin to access the GPU and release any driver-managed resources. However, most drivers might not be required to perform any actions during a call to <i>DxgkDdiRestartFromTimeout</i>. Regardless of whether <i>DxgkDdiRestartFromTimeout</i> performs any actions, it must still be implemented and can simply return STATUS_SUCCESS immediately.
+The operating system calls the <i>DxgkDdiRestartFromTimeout</i> function after the recovery of a hardware time-out completes from the operating system's perspective (for example, all of the system-managed resources, mappings, and so on are released). The <i>DxgkDdiRestartFromTimeout</i> function indicates that the driver can begin to access the GPU and release any driver-managed resources. However, most drivers might not be required to perform any actions during a call to <i>DxgkDdiRestartFromTimeout</i>. Regardless of whether <i>DxgkDdiRestartFromTimeout</i> performs any actions, it must still be implemented and can simply return STATUS_SUCCESS immediately.
 
 <i>DxgkDdiRestartFromTimeout</i> should be made pageable.
 

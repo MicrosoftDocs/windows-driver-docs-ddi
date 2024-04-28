@@ -118,7 +118,7 @@ An NPI_REGISTRATION_INSTANCE structure is a member of the
     NPI_PROVIDER_CHARACTERISTICS</a> structures. These structures are used for registering network modules
     with the NMR.
 
-When the NMR calls a cleint module's 
+When the NMR calls a client module's 
     <a href="/windows-hardware/drivers/ddi/netioddk/nc-netioddk-npi_client_attach_provider_fn">ClientAttachProvider</a> callback
     function, it passes a pointer to the NPI_REGISTRATION_INSTANCE structure for the provider module to which
     the client module can attach itself. Likewise, when the NMR calls a provider module's 

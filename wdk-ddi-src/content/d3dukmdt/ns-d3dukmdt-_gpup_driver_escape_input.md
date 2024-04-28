@@ -54,7 +54,7 @@ The GPU partition driver escape input.
 ### -field vfLUID
 
  
-An LUID (locally unique identifier).
+A LUID (locally unique identifier).
 
 ## -remarks
 

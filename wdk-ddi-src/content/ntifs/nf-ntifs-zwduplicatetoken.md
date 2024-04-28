@@ -116,7 +116,7 @@ A pointer to a caller-allocated variable, of type HANDLE, that receives a handle
 
 ## -returns
 
-**ZwDuplicateToken** returns STATUS_SUCCESS if the call is successfull. Possible error return codes include the following:
+**ZwDuplicateToken** returns STATUS_SUCCESS if the call is successful. Possible error return codes include the following:
 
 | Return code | Description |
 | ----------- | ----------- |

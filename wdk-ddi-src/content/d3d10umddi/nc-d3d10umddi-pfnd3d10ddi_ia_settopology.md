@@ -1,7 +1,7 @@
 ---
 UID: NC:d3d10umddi.PFND3D10DDI_IA_SETTOPOLOGY
 title: PFND3D10DDI_IA_SETTOPOLOGY (d3d10umddi.h)
-description: The IaSetTopology function sets the primitive topology to enable drawing for the input assember.
+description: The IaSetTopology function sets the primitive topology to enable drawing for the input assembler.
 old-location: display\iasettopology.htm
 ms.date: 05/10/2018
 keywords: ["PFND3D10DDI_IA_SETTOPOLOGY callback function"]
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <i>IaSetTopology</i> function sets the primitive topology to enable drawing for the input assember.
+The <i>IaSetTopology</i> function sets the primitive topology to enable drawing for the input assembler.
 
 ## -parameters
 

@@ -80,7 +80,7 @@ A structure within NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO that specifi
 
 ### -field LsoV1Transmit.MSS
 
-The maximum segment size (MSS), in bytes, for each packet after segmentaion. The TCP/IP
+The maximum segment size (MSS), in bytes, for each packet after segmentation. The TCP/IP
         transport writes this value before passing a large TCP packet to a miniport driver for segmentation.
         The size of TCP payload in each transmitted segment must not exceed this value.
 
@@ -114,7 +114,7 @@ The total number of TCP payload bytes in a set of packets that a network interfa
 
 ### -field LsoV1TransmitComplete.Type
 
-The offload type that the miniport driver performed. The mniport drivers leaves this value the
+The offload type that the miniport driver performed. The miniport drivers leaves this value the
         same as it was when the overlying driver submitted the packet for transmit.
 
 ### -field LsoV1TransmitComplete.Reserved2
@@ -161,7 +161,7 @@ In general, this member is reserved for NDIS.  However, when a send operation is
 
 ### -field LsoV2TransmitComplete.Type
 
-The offload type that the miniport driver performed. The mniport driver leaves this value the
+The offload type that the miniport driver performed. The miniport driver leaves this value the
         same as it was when the overlying driver submitted the packet for transmit.
 
  For example, when a send operation is complete, the miniport driver sets this member to <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2_TYPE</b>.

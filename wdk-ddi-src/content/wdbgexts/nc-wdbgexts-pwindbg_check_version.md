@@ -1,7 +1,7 @@
 ---
 UID: NC:wdbgexts.PWINDBG_CHECK_VERSION
 title: PWINDBG_CHECK_VERSION (wdbgexts.h)
-description: The PWINDBG_CHECK_VERSION (CheckVersion) callback function verifies that the extension module version matches the debugger version, and outputs an warning message if there is a mismatch.
+description: The PWINDBG_CHECK_VERSION (CheckVersion) callback function verifies that the extension module version matches the debugger version, and outputs a warning message if there is a mismatch.
 old-location: debugger\checkversion.htm
 tech.root: debugger
 ms.date: 05/03/2018
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <i>PWINDBG_CHECK_VERSION</i>  (<b>CheckVersion</b>) callback function verifies that the extension module version matches the debugger version, and outputs an warning message if there is a mismatch.
+The <i>PWINDBG_CHECK_VERSION</i>  (<b>CheckVersion</b>) callback function verifies that the extension module version matches the debugger version, and outputs a warning message if there is a mismatch.
 
 ## -returns
 

@@ -298,7 +298,7 @@ Reserved for future use.
 
 ### -field IrbFlags
 
-Qualifies the request with ceratin actions that need to be performed. The table below describes them in detail.
+Qualifies the request with certain actions that need to be performed. The table below describes them in detail.
 
 <table>
 <tr>

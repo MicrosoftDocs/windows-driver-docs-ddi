@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **StorPortGetPfns** routine can be called when a miniport needs to retreive PFNs associated with a MDL for a SRB.
+The **StorPortGetPfns** routine can be called when a miniport needs to retrieve PFNs associated with a MDL for a SRB.
 
 ## -parameters
 

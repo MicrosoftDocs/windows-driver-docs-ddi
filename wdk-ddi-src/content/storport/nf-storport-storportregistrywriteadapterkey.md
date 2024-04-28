@@ -83,7 +83,7 @@ One of the following registry data types.
 
 ### -param ValueData [in, out]
 
-Pointer to a the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
+Pointer to the data that contains the registry data to be read. The data is converted from UNICODE to a NULL-terminated ASCII string.
 
 ### -param ValueDataLength [in, out]
 

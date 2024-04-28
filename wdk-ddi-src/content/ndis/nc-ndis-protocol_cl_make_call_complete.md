@@ -70,7 +70,7 @@ Specifies the final status of the client's original call to
 
 #### NDIS_STATUS_SUCCESS
 
-The client's attempt to set up a virtual connection succeded. Consequently, the client can
+The client's attempt to set up a virtual connection succeeded. Consequently, the client can
        proceed to make transfers on the active VC using the 
        <i>NdisVcHandle</i> returned by 
        <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscocreatevc">NdisCoCreateVc</a>, which the client has

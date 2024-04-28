@@ -86,7 +86,7 @@ If a filter driver does not queue direct OID requests, the driver is not require
 
 NDIS calls the 
     <i>FilterCancelDirectOidRequest</i> function when the originator of the request
-    cancels therequest.
+    cancels the request.
 
 If the request processing is still not complete in a filter driver, the driver calls the 
     <b>NdisFDirectOidRequestComplete</b> function with the status set to NDIS_STATUS_REQUEST_ABORTED.

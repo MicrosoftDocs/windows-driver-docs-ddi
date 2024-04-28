@@ -98,7 +98,7 @@ NTSTATUS GetPhysicalNetworkName(HANDLE Target, WCHAR *NetworkName, ULONG MaxNetw
 
     NetworkName[0] = (WCHAR)0;  // initially terminate the output string;
 
-    // set the initial name length, the one WCHAR in NetFileNameInfo.FileName is reserved for the terminatting NULL
+    // set the initial name length, the one WCHAR in NetFileNameInfo.FileName is reserved for the terminating NULL
     NameInfoLength = sizeof(PFILE_NETWORK_PHYSICAL_NAME_INFORMATION) +
                      min(1024, MaxNetworkNameLength - sizeof(WCHAR));
     NetFileNameInfo = (PFILE_NETWORK_PHYSICAL_NAME_INFORMATION)ExAllocatePool(PagedPool, NameInfoLength);

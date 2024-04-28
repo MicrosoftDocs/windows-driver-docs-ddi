@@ -68,7 +68,7 @@ PhysAddrMappingRoutine (
 );
 ```
 
-The physical mapping routine is invoked on an <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
+The physical mapping routine is invoked on a <a href="/windows-hardware/drivers/ddi/1394/ni-1394-ioctl_1394_class">REQUEST_ALLOCATE_ADDRESS_RANGE</a> IRB. It fills in the <b>u.AllocateAddressRange.pAddressRange</b> member with the physical addresses that the <b>u.AllocateAddressRange.Mdl</b> member of the IRB are mapped to. The proper value for the <i>Context</i> parameter is the <b>Context</b> member below.
 
 ### -field Context
 

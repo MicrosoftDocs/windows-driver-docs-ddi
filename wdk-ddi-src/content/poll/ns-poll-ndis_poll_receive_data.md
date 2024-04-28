@@ -62,7 +62,7 @@ The number of NBLs that the driver placed in the **IndicatedNblChain**. The driv
 
 ### -field NumberOfRemainingNbls
 
-Specifies the number of NBLs thta remain to be indicated. A value of **zero** indicates that there are no more NBLs to indicate. A value of **NDIS_ANY_NUMBER_OF_NBLS** indicates that there is some unknown (but non-zero) number of NBLs remaining. The driver should only fill this field with a precise number if it is cheap to calculate.
+Specifies the number of NBLs that remain to be indicated. A value of **zero** indicates that there are no more NBLs to indicate. A value of **NDIS_ANY_NUMBER_OF_NBLS** indicates that there is some unknown (but non-zero) number of NBLs remaining. The driver should only fill this field with a precise number if it is cheap to calculate.
 
 ### -field Flags
 

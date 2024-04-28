@@ -59,9 +59,9 @@ The GUID's purpose is similar to the **TransactionId** field of the MBIM message
 
 ## -remarks
 
-The MBBCx framework calls into the client driver to issue an MBIM command message, and later calls into the client driver again to retreive the response message for that command. The GUID value returned for both calls will be the same, and it would only change if a new command and response message pair is requested.
+The MBBCx framework calls into the client driver to issue an MBIM command message, and later calls into the client driver again to retrieve the response message for that command. The GUID value returned for both calls will be the same, and it would only change if a new command and response message pair is requested.
 
-Sometimes, the command and response message pair might get fragemented due to size limitations. In that case, all fragments from the same pair will have the same GUID value.
+Sometimes, the command and response message pair might get fragmented due to size limitations. In that case, all fragments from the same pair will have the same GUID value.
 
 ## -see-also
 

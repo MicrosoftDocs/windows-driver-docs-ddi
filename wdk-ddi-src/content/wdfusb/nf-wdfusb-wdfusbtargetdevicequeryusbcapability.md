@@ -182,7 +182,7 @@ The following table describes the USB-specific capabilities that a KMDF-based US
 <tr>
 <td>GUID_USB_CAPABILITY_CHAINED_MDLS</td>
 <td>
-The new USB driver stack in Windows 8 is capable of accepting a chained MDL (see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) from the a KMDF-based USB client driver.
+The new USB driver stack in Windows 8 is capable of accepting a chained MDL (see <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_mdl">MDL</a>) from a KMDF-based USB client driver.
 
  For more information about the chained MDLs capability in the USB driver stack, see <a href="/windows-hardware/drivers/ddi/index">How to Send Chained MDLs</a>.  
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:iscsiop._ScsiReadCapacity_IN
 title: _ScsiReadCapacity_IN (iscsiop.h)
-description: The ScsiReadCapacity_IN structure holds the input data for the ScsiReadCapacity method, which is used to send a SCSI read Ccapacity command.
+description: The ScsiReadCapacity_IN structure holds the input data for the ScsiReadCapacity method, which is used to send a SCSI read capacity command.
 old-location: storage\scsireadcapacity_in.htm
 tech.root: storage
 ms.date: 03/29/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The ScsiReadCapacity_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a> method, which is used to send a SCSI read Ccapacity command.
+The ScsiReadCapacity_IN structure holds the input data for the <a href="/windows-hardware/drivers/storage/scsireadcapacity6">ScsiReadCapacity</a> method, which is used to send a SCSI read capacity command.
 
 ## -struct-fields
 

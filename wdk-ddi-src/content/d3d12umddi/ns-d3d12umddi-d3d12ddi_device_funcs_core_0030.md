@@ -105,7 +105,7 @@ Create rasterizer state.
 
 ### -field pfnDestroyRasterizerState
 
-Destory rasterizer state.
+Destroy rasterizer state.
 
 ### -field pfnCalcPrivateShaderSize
 
@@ -407,7 +407,7 @@ Calculate serialized library size.
 
 ### -field pfnSerializeLibrary
 
-Serialized libary.
+Serialized library.
 
 ### -field pfnGetDebugAllocationInfo
 

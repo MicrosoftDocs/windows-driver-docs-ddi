@@ -71,7 +71,7 @@ The type of group invitation. The invitation types have the following meanings.
 </dl>
 </td>
 <td width="60%">
-An invitiation to join an active group.
+An invitation to join an active group.
 
 </td>
 </tr>

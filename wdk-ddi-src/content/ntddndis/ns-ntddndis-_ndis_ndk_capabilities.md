@@ -111,7 +111,7 @@ A bitmask that identifies counters that an NDK provider does not support. NDK pr
 
 ### -field NdkInfo
 
-A pointer to an <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure that specifies NDK adapter capabilities and limits that are relevant for an specific NDK consumer. These capabilities can be different from system-wide limits.
+A pointer to an <a href="/windows/win32/api/ndkinfo/ns-ndkinfo-ndk_adapter_info">NDK_ADAPTER_INFO</a> structure that specifies NDK adapter capabilities and limits that are relevant for a specific NDK consumer. These capabilities can be different from system-wide limits.
 
 ## -remarks
 

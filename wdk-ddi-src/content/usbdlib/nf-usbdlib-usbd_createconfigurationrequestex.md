@@ -68,7 +68,7 @@ Pointer to the first element of a caller-allocated array of <a href="/windows-ha
 
 ## -remarks
 
-For information about how to build a select-configuration reqeuest and code example, see <a href="/windows-hardware/drivers/ddi/index">How to Select a Configuration for a USB Device</a>.
+For information about how to build a select-configuration request and code example, see <a href="/windows-hardware/drivers/ddi/index">How to Select a Configuration for a USB Device</a>.
 
 The returned value is a pointer to the <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> structure that you can use to submit a select-configuration request to the host controller driver to set the specified configuration.
 

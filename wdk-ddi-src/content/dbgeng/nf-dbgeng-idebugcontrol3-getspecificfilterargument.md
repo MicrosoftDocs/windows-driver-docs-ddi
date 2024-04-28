@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugControl3.GetSpecificFilterArgument
 title: IDebugControl3::GetSpecificFilterArgument (dbgeng.h)
-description: The GetSpecificFilterArgument method returns the value of filter argument for thespecific filters that have an argument.
+description: The GetSpecificFilterArgument method returns the value of filter argument for the specific filters that have an argument.
 old-location: debugger\getspecificfilterargument.htm
 tech.root: debugger
 ms.date: 02/06/2022
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>GetSpecificFilterArgument</b>  method returns the value of filter argument for thespecific filters that have an argument.
+The <b>GetSpecificFilterArgument</b>  method returns the value of filter argument for the specific filters that have an argument.
 
 ## -parameters
 

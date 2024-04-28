@@ -101,7 +101,7 @@ A pointer to a driver-allocated and initialized [**NET_DMA_CAPABILITIES**](ns-ne
 
 Call one of the NET_ADAPTER_RX_CAPABILITIES_INIT_*XXX* functions to initialize this structure. For more info about each initialization function, see the links in the See Also section. An initialized **NET_ADAPTER_RX_CAPABILITIES** structure is passed as a parameter to [**NetAdapterSetDatapathCapabilities**](nf-netadapter-netadaptersetdatapathcapabilities.md).
 
-Typically, a client driver either performs both allocation and attachmment itself or specifies that the operating system perform both. In most cases, we recommend that the operating system allocates and attaches receive buffers.
+Typically, a client driver either performs both allocation and attachment itself or specifies that the operating system perform both. In most cases, we recommend that the operating system allocates and attaches receive buffers.
 
 If the client does specify driver-allocated and attached receive buffers, it must supply both a custom return context structure in the **RxBufferReturnContext** member of each [**NET_FRAGMENT**](../fragment/ns-fragment-_net_fragment.md) during buffer allocation, as well as an *EVT_NET_ADAPTER_RETURN_RX_BUFFER* callback function in this **NET_ADAPTER_RX_CAPABILITIES** structure for the operating system to invoke once it has finished with the buffer.
 

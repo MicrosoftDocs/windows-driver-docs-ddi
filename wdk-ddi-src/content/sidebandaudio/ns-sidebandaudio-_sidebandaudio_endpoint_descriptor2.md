@@ -46,7 +46,7 @@ api_name:
 
 The second version of the SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR struct. This version allows the controller driver to provide custom device properties to add to the audio device's interface.
 
-It describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
+It describes the characteristics of a Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
 
 ## -struct-fields
 
