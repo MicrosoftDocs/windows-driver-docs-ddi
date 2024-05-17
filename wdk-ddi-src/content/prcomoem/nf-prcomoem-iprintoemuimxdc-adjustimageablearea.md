@@ -81,7 +81,7 @@ A pointer to a <a href="/windows/win32/api/windef/ns-windef-rectl">RECTL</a> str
 
 The <i>prclImageableArea</i> parameter is IN OUT. All other parameters for this method are input only.
 
-If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT value, which willcause the current print job to fail.
+If the plug-in cannot complete the operation, it should return an appropriate failure HRESULT value, which will cause the current print job to fail.
 
 ## -see-also
 

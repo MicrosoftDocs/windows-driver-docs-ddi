@@ -70,7 +70,7 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -remarks
 
-The handle to the window that is checked for occlusion must be valid. A window is not occluded if a part of its client area lies on a unowned video present network (VidPn) source, if its client area is an empty rectangular area (RECT), or if desktop composition is running.
+The handle to the window that is checked for occlusion must be valid. A window is not occluded if a part of its client area lies on an unowned video present network (VidPn) source, if its client area is an empty rectangular area (RECT), or if desktop composition is running.
 
 ## -see-also
 

@@ -123,7 +123,7 @@ Describes the maximum current in multiples of 10 mA.
 
 ### -field VariableSupplyNonBatteryPdo.MinimumVoltageIn50mV
 
-Desribes the minimum voltage in multiples of 50 mV.
+Describes the minimum voltage in multiples of 50 mV.
 
 ### -field VariableSupplyNonBatteryPdo.MaximumVoltageIn50mV
 

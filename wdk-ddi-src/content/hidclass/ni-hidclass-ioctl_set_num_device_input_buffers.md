@@ -59,7 +59,7 @@ For general information about HIDClass devices, see <a href="/windows-hardware/d
 
 <b>Irp->AssociatedIrp.SystemBuffer</b> points to a ULONG-sized input buffer that receives the new number of buffers for the input report queue.
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP contains the size, in bytes, of the input bufferat <b>Irp->AssociatedIrp.SystemBuffer</b>. This size must be <b>sizeof</b>(ULONG).
+<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP contains the size, in bytes, of the input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. This size must be <b>sizeof</b>(ULONG).
 
 ### -input-buffer-length
 

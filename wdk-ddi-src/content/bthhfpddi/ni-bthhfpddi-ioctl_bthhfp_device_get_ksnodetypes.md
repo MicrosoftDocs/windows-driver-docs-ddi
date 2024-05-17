@@ -88,7 +88,7 @@ N/A
 
 ## -InputType
 
- The KSNODE type for the intput.
+ The KSNODE type for the input.
 
 ## -OutputType
 

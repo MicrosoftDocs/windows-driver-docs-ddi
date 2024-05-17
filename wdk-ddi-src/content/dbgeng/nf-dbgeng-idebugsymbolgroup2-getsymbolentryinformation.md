@@ -52,7 +52,7 @@ The <b>GetSymbolEntryInformation</b> method returns information about a symbol i
 ### -param Index [in]
 
 
-The index of the symbol whose information iyou want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
+The index of the symbol whose information you want.  The index of a symbol is an identification number. The index ranges from zero through the number of symbols in the symbol group minus one.
 
 ### -param Entry [out]
 

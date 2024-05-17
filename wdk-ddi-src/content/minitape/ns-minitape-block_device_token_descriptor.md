@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-**BLOCK_DEVICE_TOKEN_DESCRIPTOR** contains the token returned from a the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](./ns-minitape-receive_token_information_response_header.md) structure.
+**BLOCK_DEVICE_TOKEN_DESCRIPTOR** contains the token returned from the POPULATE TOKEN command for an offload read data operation. The token information is included as part of the [**RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER**](./ns-minitape-receive_token_information_response_header.md) structure.
 
 ## -struct-fields
 

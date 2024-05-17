@@ -120,7 +120,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
         // Block until it is safe for the VSP to attach.  Don't
         // bother with pending this IRP since this is always a sent as
         // a synchronous kernel-mode IRP and the caller would block
-        // the thread anyway.  May need to repeat the wait since since
+        // the thread anyway.  May need to repeat the wait since
         // waiting for the safe-to-attach event must not be done while
         // holding the state lock.
         //

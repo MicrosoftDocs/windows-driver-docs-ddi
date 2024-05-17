@@ -83,7 +83,7 @@ The <b>RGB_Range</b> member specifies the RGB color range. If this member is set
 <li>
 The <b>YCbCr_Matrix </b> member specifies the YCbCr transfer matrix. If this member is set to zero, the transfer matrix is based on the BT.601 format. If this member is set to one, the transfer matrix is based on the BT.709 format.
 
-<div class="alert"><b>Note</b>  Both of these transfer matrixes define the black point as index 16 and the white point as index 235.</div>
+<div class="alert"><b>Note</b>  Both of these transfer matrices define the black point as index 16 and the white point as index 235.</div>
 <div> </div>
 </li>
 <li>

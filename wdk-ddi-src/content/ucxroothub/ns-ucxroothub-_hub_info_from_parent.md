@@ -111,7 +111,7 @@ A bitwise-OR of <a href="/windows-hardware/drivers/ddi/ucxroothub/ns-ucxroothub-
 
 ### -field SublinkSpeedAttr
 
-A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that describes the USB 3.1capability's sublink speed attributes. For structure declaration, see Usbspec.h
+A pointer to a <b>USB_DEVICE_CAPABILITY_SUPERSPEEDPLUS_SPEED</b> structure that describes the USB 3.1 capability's sublink speed attributes. For structure declaration, see Usbspec.h
 
 ### -field SublinkSpeedAttrCount
 

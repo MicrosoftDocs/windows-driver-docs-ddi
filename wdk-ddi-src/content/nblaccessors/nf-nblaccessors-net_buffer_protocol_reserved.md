@@ -68,7 +68,7 @@ A pointer to a **NET_BUFFER** structure.
 Protocol drivers and NDIS intermediate drivers can use this area for their own purposes. Protocol drivers typically use **ProtocolReserved** to maintain [**NET_BUFFER**](../nbl/ns-nbl-net_buffer.md) structure context information for outstanding transfers.
 
 > [!NOTE]
-> Only one driver can use **ProtocolReserved**. Therefore, if an another driver has used **ProtocolReserved**, an intermediate driver cannot use it.
+> Only one driver can use **ProtocolReserved**. Therefore, if another driver has used **ProtocolReserved**, an intermediate driver cannot use it.
 
 ## -see-also
 

@@ -163,7 +163,7 @@ For a VGA device, indicates whether the parent bridge has the VGA decoding bit s
 
 ### -field DecodeIoOnBoot
 
-Indictates whether the device has IO decode enabled on boot.
+Indicates whether the device has IO decode enabled on boot.
 
 ### -field Reserved
 

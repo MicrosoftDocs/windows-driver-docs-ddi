@@ -87,7 +87,7 @@ The number of elements in the
 
 ### -field SelectedMediumIndex
 
-A pointer to an driver-provided UINT variable that contains an index into the 
+A pointer to a driver-provided UINT variable that contains an index into the 
      <b>MediumArray</b> array. NDIS writes this index which identifies the media type that the underlying
      driver uses.
 

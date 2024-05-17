@@ -61,7 +61,7 @@ A pointer to an owner thread pointer of type ERESOURCE_THREAD (for additional re
 
 ## -remarks
 
-<b>ExSetResourceOwnerPointer</b>, used in conjunction with <b>ExReleaseResourceForThreadLite</b>, provides a means for one thread (acting as an resource manager thread) to acquire and release resources for use by another thread (acting as a resource user thread).
+<b>ExSetResourceOwnerPointer</b>, used in conjunction with <b>ExReleaseResourceForThreadLite</b>, provides a means for one thread (acting as a resource manager thread) to acquire and release resources for use by another thread (acting as a resource user thread).
 
 After calling <b>ExSetResourceOwnerPointer</b> for a specific resource, the only other routine that can be called for that resource is <b>ExReleaseResourceForThreadLite</b>.
 

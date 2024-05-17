@@ -71,7 +71,7 @@ A pointer to an [**InterfaceDereference**](nc-wdm-pinterface_dereference.md) rou
 
 ### -field GetUpdatedBusResource
 
-A pointer to the busdriver-implemented callback function that is invoked to retrieve the pdated resource information. See [**GET_UPDATED_BUS_RESOURCE**](nc-wdm-get_updated_bus_resource.md)
+A pointer to the busdriver-implemented callback function that is invoked to retrieve the updated resource information. See [**GET_UPDATED_BUS_RESOURCE**](nc-wdm-get_updated_bus_resource.md)
 
 ## -remarks
 

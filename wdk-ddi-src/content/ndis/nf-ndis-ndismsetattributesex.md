@@ -65,7 +65,7 @@ Specifies a handle for a resident context area allocated by *MiniportInitialize*
 
 Specifies the interval, in seconds, at which NDIS should call the [**MiniportCheckForHang**](https://msdn.microsoft.com/library/ff549367\(v=vs.85\)) function. If a driver has not responded to an OID request or sent request within two successive calls to *MiniportCheckForHang*, NDIS can call the driver's [*MiniportReset*](https://msdn.microsoft.com/library/ff550502\(v=vs.85\)) function.
 
-The actual interval that NDIS uses when calling *MiniportCheckForHang* is always a multiple of 2 seconds. For example, if you specifiy 5 seconds, the actual interval will be approximately 4 seconds.
+The actual interval that NDIS uses when calling *MiniportCheckForHang* is always a multiple of 2 seconds. For example, if you specify 5 seconds, the actual interval will be approximately 4 seconds.
 
 Specifying zero for this parameter indicates that NDIS should call *MiniportCheckForHang* at the NDIS default 2-second interval.
 

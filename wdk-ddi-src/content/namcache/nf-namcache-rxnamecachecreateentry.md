@@ -62,7 +62,7 @@ A pointer to the Unicode name string with which to initialize the name cache ent
 ### -param CaseInsensitive [in]
 
 
-A Boolean value that indicates if case insensitive comparions should be used when comparing the <i>Name</i> parameter.
+A Boolean value that indicates if case insensitive comparisons should be used when comparing the <i>Name</i> parameter.
 
 ## -returns
 
