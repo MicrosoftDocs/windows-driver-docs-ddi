@@ -62,7 +62,7 @@ The flags for the stream file create options. This value can be one of the follo
 | Value | Meaning |
 | ----- | ------- |
 | IO_CREATE_STREAM_FILE_RAISE_ON_ERROR | On an error condition, **IoCreateStreamFileObjectEx2** will raise the error status as an exception instead of returning it. This flag is specified to maintain error status behavior of the other stream file object creation routines. |
-| IO_CREATE_STREAM_FILE_LITE | A file object is created with out a file handle. No close operation is sent for the file object when it is deleted. |
+| IO_CREATE_STREAM_FILE_LITE | A file object is created without a file handle. No close operation is sent for the file object when it is deleted. |
 
 ### -field TargetDeviceObject
 

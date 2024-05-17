@@ -246,7 +246,7 @@ The IPsec offload Encapsulating Security Payload (ESP) feature should be enabled
 </dl>
 </td>
 <td width="60%">
-The IPsec offload AH and ESP features areenabled for transmit and receive.
+The IPsec offload AH and ESP features are enabled for transmit and receive.
 
 </td>
 </tr>

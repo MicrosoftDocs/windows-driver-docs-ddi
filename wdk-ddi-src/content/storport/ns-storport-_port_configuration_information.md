@@ -110,7 +110,7 @@ Mask indicating the alignment restrictions for buffers required by the HBA for t
 | FILE_BYTE_ALIGNMENT (0x00000000)     | Data is byte aligned (no alignment requirements for the device) |
 | FILE_WORD_ALIGNMENT (0x00000001)     | Data must be aligned on a 2-byte boundary.  |
 | FILE_LONG_ALIGNMENT (0x00000003)     | Data must be aligned on a 4-byte boundary.  |
-| FILE_QUAD_ALIGNMENT (0x00000007)     | Data must be aligned on a 8-byte boundary.  |
+| FILE_QUAD_ALIGNMENT (0x00000007)     | Data must be aligned on an 8-byte boundary.  |
 | FILE_OCTA_ALIGNMENT (0x0000000f)     | Data must be aligned on a 16-byte boundary. |
 | FILE_32_BYTE_ALIGNMENT (0x0000001f)  | Data must be aligned on a 32-byte boundary.  |
 | FILE_64_BYTE_ALIGNMENT (0x0000003f)  | Data must be aligned on a 64-byte boundary.  |

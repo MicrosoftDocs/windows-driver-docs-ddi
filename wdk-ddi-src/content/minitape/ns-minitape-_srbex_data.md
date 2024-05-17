@@ -169,7 +169,7 @@ The extended SRB data block contents.
 
 The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_storage_request_block">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
 
-The following example code fragment shows how to access the extended data for the an SRB function of SRB_FUNCTION_PNP.
+The following example code fragment shows how to access the extended data for an SRB function of SRB_FUNCTION_PNP.
 
 
 ```cpp

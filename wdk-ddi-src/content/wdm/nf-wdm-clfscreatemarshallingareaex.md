@@ -1,7 +1,7 @@
 ---
 UID: NF:wdm.ClfsCreateMarshallingAreaEx
 title: ClfsCreateMarshallingAreaEx function (wdm.h)
-description: Initalizes a marshalling area for a physical or client log file stream.
+description: Initializes a marshalling area for a physical or client log file stream.
 ms.date: 10/19/2018
 tech.root: ifsk
 keywords: ["ClfsCreateMarshallingAreaEx function"]
@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Initalizes a marshalling area for a physical or client log file stream.
+Initializes a marshalling area for a physical or client log file stream.
 
 ## -parameters
 

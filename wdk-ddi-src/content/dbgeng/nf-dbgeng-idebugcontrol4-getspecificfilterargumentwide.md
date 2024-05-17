@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>GetSpecificFilterArgumentWide</b>  method returns the value of filter argument for thespecific filters that have an argument.
+The <b>GetSpecificFilterArgumentWide</b>  method returns the value of filter argument for the specific filters that have an argument.
 
 ## -parameters
 

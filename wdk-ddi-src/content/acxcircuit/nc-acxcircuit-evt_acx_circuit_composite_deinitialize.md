@@ -4,7 +4,7 @@ tech.root: audio
 title: EVT_ACX_CIRCUIT_COMPOSITE_DEINITIALIZE
 ms.date: 12/14/2022
 targetos: Windows
-description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
+description: The EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE callback is used by the driver to do any de-initialization of a composite circuit when it is de-initialized by ACX Manager.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE** callback is used by the driver to do any de-initialiation of a composite circuit when it is de-initialized by ACX Manager.
+The **EVT_ACX_CIRCUIT_COMPOSITE_CIRCUIT_DEINITIALIZE** callback is used by the driver to do any de-initialization of a composite circuit when it is de-initialized by ACX Manager.
 
 ## -parameters
 

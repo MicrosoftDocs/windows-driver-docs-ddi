@@ -92,7 +92,7 @@ The dialog token received  in the provision discovery request packet.
 
 ### -field RequestContext
 
-The context data from the miniport. The system will send this data with angiven initially by the <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a> request.
+The context data from the miniport. The system will send this data with any given initially by the <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-provision-discovery-response">OID_DOT11_WFD_SEND_PROVISION_DISCOVERY_RESPONSE</a> request.
 
 ### -field uIEsOffset
 

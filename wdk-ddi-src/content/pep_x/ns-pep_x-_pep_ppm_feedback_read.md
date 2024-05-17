@@ -72,7 +72,7 @@ The actual value read from the counter.
 
 ## -remarks
 
-The unnamed union contains rither an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value.
+The unnamed union contains either an instantaneous counter value, if the counter generates an instantaneous value, or both relative and accumulated counter values, if the counter hardware generates a relative value.
 
 This structure is used by the [PEP_NOTIFY_PPM_FEEDBACK_READ](../pepfx/ns-pepfx-_pep_ppm_feedback_read.md) notification. The **CounterIndex** member of the structure contains an input value supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the **InstantaneousValue** member if the counter generates an instantaneous value, or to the **NominalCount** and **ActualCount** members if the counter generates a relative value.
 

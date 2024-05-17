@@ -49,7 +49,7 @@ Informs the USB device emulation class extension (UdeCx) that the device needs a
 
 ### -param UdeWdfDevice [In]
 
-A handle to a framework device object that represents the a USB device. The client driver initialized this object in the previous call to [**UdecxWdfDeviceAddUsbDeviceEmulation**](../udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md).
+A handle to a framework device object that represents a USB device. The client driver initialized this object in the previous call to [**UdecxWdfDeviceAddUsbDeviceEmulation**](../udecxwdfdevice/nf-udecxwdfdevice-udecxwdfdeviceaddusbdeviceemulation.md).
 
 ### -param ResetType [In]
 

@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The **DXGK_BRIGHTNESS_INTERFACE_2** structure contins pointers to functions in the Panel Brightness Control Interface Version 2. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive and smooth brightness control.
+The **DXGK_BRIGHTNESS_INTERFACE_2** structure contains pointers to functions in the Panel Brightness Control Interface Version 2. Used by Windows Display Driver Model (WDDM) 1.2 and later display miniport drivers that support adaptive and smooth brightness control.
 
 ## -struct-fields
 

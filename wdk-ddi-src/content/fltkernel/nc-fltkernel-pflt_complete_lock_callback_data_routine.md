@@ -68,7 +68,7 @@ This routine returns STATUS_SUCCESS or an appropriate NTSTATUS value. If it retu
 
 A minifilter driver can optionally specify a routine of type **PFLT_COMPLETE_LOCK_CALLBACK_DATA_ROUTINE** as the minifilter driver's **CompleteLockCallbackDataRoutine** routine for a byte-range file lock. To specify this routine, the minifilter driver passes a pointer to the routine as the **CompleteLockCallbackDataRoutine** parameter for [**FltAllocateFileLock**](nf-fltkernel-fltallocatefilelock.md).
 
-When completing the an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) operation for the file lock, filter manager calls this routine, if specified, as a notification to the minifilter.
+When completing an [**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control) operation for the file lock, filter manager calls this routine, if specified, as a notification to the minifilter.
 
 ## -see-also
 
