@@ -62,7 +62,7 @@ Standard COM Release method.
 
 ### -field GetCapabilities
 
-Returns langauges and detector features supported by the object. For more information, see [IEventDetectorOemAdapter::GetCapabilities method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-getcapabilities.md).
+Returns languages and detector features supported by the object. For more information, see [IEventDetectorOemAdapter::GetCapabilities method](nf-eventdetectoroemadapter-ieventdetectoroemadapter-getcapabilities.md).
 
 ### -field GetCapabilitiesForLanguage
 

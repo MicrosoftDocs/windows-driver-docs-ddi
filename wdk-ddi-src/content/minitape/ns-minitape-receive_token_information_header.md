@@ -124,7 +124,7 @@ The length of data transferred in the operation. The unit type in **TransferCoun
 
 ### -field SegmentsProcessed
 
-The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windowssystems, this value is reserved and applications must ignore this member.
+The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windows systems, this value is reserved and applications must ignore this member.
 
 ### -field Reserved3
 

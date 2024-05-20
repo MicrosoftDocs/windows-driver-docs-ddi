@@ -69,7 +69,7 @@ To register an *IoCompletion* routine for a specific IRP, a driver must call [Io
 
 When any driver completes an IRP, it calls [IoCompleteRequest](./nf-wdm-iocompleterequest.md), which in turn calls the *IoCompletion* routine of each higher-level driver, from the next-highest to the highest, until all higher *IoCompletion* routines have been called or until one routine returns STATUS_MORE_PROCESSING_REQUIRED.
 
-When you create the IRP, allocate a stack location for the current driver as well as any lower drivers. If you do not allocate sufficient stack locations, the *DeviceObject* pointer might be set to **NULL** when the completion routine is called. You can avoid allocating extra stack location for the current driver if you use the *Context* field to pass information to *IoCompletion* rather then relying on the *DeviceObject* parameter.
+When you create the IRP, allocate a stack location for the current driver as well as any lower drivers. If you do not allocate sufficient stack locations, the *DeviceObject* pointer might be set to **NULL** when the completion routine is called. You can avoid allocating extra stack location for the current driver if you use the *Context* field to pass information to *IoCompletion* rather than relying on the *DeviceObject* parameter.
 
 If an *IoCompletion* routine returns STATUS_MORE_PROCESSING_REQUIRED, the lower driver's call to **IoCompleteRequest** immediately returns. In this case, a higher-level driver will have to call **IoCompleteRequest** to complete the IRP.
 

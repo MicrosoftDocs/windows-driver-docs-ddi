@@ -61,7 +61,7 @@ Pointer to a device object for the device on which the stream file is to be open
 
 ### -param StreamFileObject [out]
 
-Pointer to a device object pointer to receive the stream fille object.
+Pointer to a device object pointer to receive the stream file object.
 
 ### -param FileHandle [out, optional]
 

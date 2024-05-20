@@ -1,7 +1,7 @@
 ---
 UID: NF:wdfusb.WdfUsbTargetDeviceFormatRequestForUrb
 title: WdfUsbTargetDeviceFormatRequestForUrb function (wdfusb.h)
-description: The WdfUsbTargetDeviceFormatRequestForUrb method builds an USB request for a specified USB device, using request parameters that are described by a URB, but it does not send the request.
+description: The WdfUsbTargetDeviceFormatRequestForUrb method builds a USB request for a specified USB device, using request parameters that are described by a URB, but it does not send the request.
 old-location: wdf\wdfusbtargetdeviceformatrequestforurb.htm
 tech.root: wdf
 ms.date: 02/26/2018
@@ -48,7 +48,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-The <b>WdfUsbTargetDeviceFormatRequestForUrb</b> method builds an USB request for a specified USB device, using request parameters that are described by a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>, but it does not send the request.
+The <b>WdfUsbTargetDeviceFormatRequestForUrb</b> method builds a USB request for a specified USB device, using request parameters that are described by a <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a>, but it does not send the request.
 
 ## -parameters
 

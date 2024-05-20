@@ -105,7 +105,7 @@ Specifies the allocation unit size in number of segments.
 
 ### -field bMinAddrBlockSize
 
-Specifies the minimum addressable block size in units of 512 bytes. The minium size is 4 KB or a value of 0x08.
+Specifies the minimum addressable block size in units of 512 bytes. The minimum size is 4 KB or a value of 0x08.
 
 ### -field bOptimalReadBlockSize
 

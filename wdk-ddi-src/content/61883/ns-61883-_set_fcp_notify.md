@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-This structure is used for FCP notification. The SetFcpNotify request registers a client driver notification of FCP requests or responses, or cancels a prior registration. A driver must register for FCP notifications in order to retrieve requests or responses. The driver is responsible for canceling registration by sending an SetFcpNotify request with DEREGISTER_FCP_NOTIFY set in <b>Flags</b> before the system unloads the driver.
+This structure is used for FCP notification. The SetFcpNotify request registers a client driver notification of FCP requests or responses, or cancels a prior registration. A driver must register for FCP notifications in order to retrieve requests or responses. The driver is responsible for canceling registration by sending a SetFcpNotify request with DEREGISTER_FCP_NOTIFY set in <b>Flags</b> before the system unloads the driver.
 
 ## -struct-fields
 

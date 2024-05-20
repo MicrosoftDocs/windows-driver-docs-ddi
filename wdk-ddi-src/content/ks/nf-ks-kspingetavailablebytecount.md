@@ -67,7 +67,7 @@ A pointer to  a LONG value in which the routine returns the number of output buf
 
 ## -returns
 
-Returns STATUS_SUCCESS if the requested count(s) have been retrieved. A nonsuccessful return status indicates that <i>Pin</i> does not have an associated queue.
+Returns STATUS_SUCCESS if the requested count(s) have been retrieved. An unsuccessful return status indicates that <i>Pin</i> does not have an associated queue.
 
 ## -remarks
 

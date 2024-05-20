@@ -24,7 +24,7 @@ To develop Debugger apps, you can work with these headers:
 
 For the programming guide information, see [Debugging Resources](/windows-hardware/drivers/debugger/debugging-resources).
 
-Use the following header to add 2PF debuuger transport support to miniport NDIS drivers, to allow increased performance for high speed network adapters. This feature is available in Windows 11 and later.
+Use the following header to add 2PF debugger transport support to miniport NDIS drivers, to allow increased performance for high speed network adapters. This feature is available in Windows 11 and later.
 
  * [kdnetpf.h](../kdnetpf/index.md)
 

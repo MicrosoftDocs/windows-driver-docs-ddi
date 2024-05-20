@@ -54,7 +54,7 @@ To determine if a system supports device assignment, and if a particular PCI dev
 
 GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE is a device class interface that is provided by drivers for SR-IOV devices. This GUID provides a way to query for all the device stacks which expose the various function tables that are used to manage the virtualization-related features of the device. After the driver registers the GUID, individual capabilities are discovered by sending IRP_MN_QUERY_INTERFACE. The driver must respond to that request with GUID_SRIOV_DEVICE_INTERFACE_STANDARD. Drivers must also handle IOCTL_SRIOV_NOTIFICATION and IOCTL_SRIOV_EVENT_COMPLETE.
 
-A driver for an SR_IOV device, which runs in a privileged VM is the host OS. It owns Plug-and-Play and power management for a entire machine, and exposes PCI Express SR-IOV Virtual Functions in non-privileged VMs, must provide the GUID_SRIOV_DEVICE_INTERFACE_STANDARD (defined in the header Pcivirt.h). That driver might be PCI Express SR-IOV Physical Function (PF) driver that creates the FDO, or it might be a lower filter on that device node in the case when the FDO is being managed by a port driver.
+A driver for an SR_IOV device, which runs in a privileged VM is the host OS. It owns Plug-and-Play and power management for an entire machine, and exposes PCI Express SR-IOV Virtual Functions in non-privileged VMs, must provide the GUID_SRIOV_DEVICE_INTERFACE_STANDARD (defined in the header Pcivirt.h). That driver might be PCI Express SR-IOV Physical Function (PF) driver that creates the FDO, or it might be a lower filter on that device node in the case when the FDO is being managed by a port driver.
 
 The device interface is required so that the driver can access the configuration space of the VFs.
 

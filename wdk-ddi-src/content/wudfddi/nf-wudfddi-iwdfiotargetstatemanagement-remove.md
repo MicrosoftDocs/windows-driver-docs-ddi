@@ -54,7 +54,7 @@ The <b>Remove</b> method removes a <a href="/windows-hardware/drivers/wdf/genera
 ### -param bIsSurpriseRemove [in]
 
 
-A BOOL value which, if <b>TRUE</b>, specifies that the device was unexpectly removed ("surprise removal").   However, the framework ignores this parameter.
+A BOOL value which, if <b>TRUE</b>, specifies that the device was unexpectedly removed ("surprise removal").   However, the framework ignores this parameter.
 
 ## -returns
 

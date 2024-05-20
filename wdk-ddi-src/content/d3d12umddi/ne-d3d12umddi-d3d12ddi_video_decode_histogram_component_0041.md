@@ -53,15 +53,15 @@ If the format is a YUV format, indicates a histogram for the V component.
 
 ### -field D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041_R
 
-If the format is a RGB/BGR format, indicates a histogram for the R component.
+If the format is an RGB/BGR format, indicates a histogram for the R component.
 
 ### -field D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041_G
 
-If the format is a RGB/BGR format, indicates a histogram for the G component.
+If the format is an RGB/BGR format, indicates a histogram for the G component.
 
 ### -field D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041_B
 
-If the format is a RGB/BGR format, indicates a histogram for the B component.
+If the format is an RGB/BGR format, indicates a histogram for the B component.
 
 ### -field D3D12DDI_VIDEO_DECODE_HISTOGRAM_COMPONENT_0041_A
 

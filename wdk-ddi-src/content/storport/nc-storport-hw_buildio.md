@@ -73,7 +73,7 @@ HW_BUILDIO (
   );
 ```
 
-The port driver calls the **HwStorBuildIo** routine at DISPATCH IRQL without holding any spin locks. Because of this, memory allocation using [**StorPortAllocatePool**](nf-storport-storportallocatepool.md) and mutual exclusion via [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md) are allowed in **HwStorBuildIo**. In a multiprocessor environment, more than one **HwStorBuildIo** can be active at a time, so the miniport driver is required to synchronize access to system resources, which may be in contention if more than one instance of  **HwStorBuildIo** is active at any given time.
+The port driver calls the **HwStorBuildIo** routine at DISPATCH IRQL without holding any spin locks. Because of this, memory allocation using [**StorPortAllocatePool**](nf-storport-storportallocatepool.md) and mutual exclusion via [**StorPortAcquireSpinLock**](nf-storport-storportacquirespinlock.md) are allowed in **HwStorBuildIo**. In a multiprocessor environment, more than one **HwStorBuildIo** can be active at a time, so the miniport driver is required to synchronize access to system resources, which may be in contention if more than one instance of **HwStorBuildIo** is active at any given time.
 
 By completed time-consuming I/O setup activities in **HwStorBuildIo** instead of in [**HwStorStartIo**](nc-storport-hw_startio.md), the miniport driver enables greater I/O concurrency and therefore improves I/O throughput. For highest performance, miniport drivers are expected to do as much preprocessing as possible in **HwStorBuildIo** so that it can send requests to the HBA via **HwStorStartIo** in as short amount of time as possible. Preprocessed data and state can be stored in either the *DeviceExtension* or *SrbExtension* structures. Only modifications to unique portions of the *DeviceExtension* must occur since no locks are held. **HwStorBuildIo** and **HwStorStartIo** receive the following Srb function types:
 
@@ -119,7 +119,7 @@ For more information about what you can and cannot do safely in this miniport dr
 
 ### Examples
 
-To define an **HwStorBuildIo** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+To define a **HwStorBuildIo** callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
  For example, to define a **HwStorBuildIo** callback routine that is named *MyHwBuildIo*, use the **HW_BUILDIO** type as shown in this code example:
 

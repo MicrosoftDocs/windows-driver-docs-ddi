@@ -133,7 +133,7 @@ The <i>Flags</i> parameter is nonzero.
 </dl>
 </td>
 <td width="60%">
-TThe adapter or unit does not support PoFx.
+The adapter or unit does not support PoFx.
 
 </td>
 </tr>

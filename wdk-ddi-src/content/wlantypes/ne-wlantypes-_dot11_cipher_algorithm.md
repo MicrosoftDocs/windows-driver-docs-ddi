@@ -166,7 +166,7 @@ An IHV can assign a value for its proprietary cipher algorithms from
     <b>DOT11_CIPHER_ALGO_IHV_END</b>. The IHV must assign a unique number in this range to each of its
     proprietary cipher algorithms.
 
-If the IHV develops its own support for an cipher algorithm supported by the operating system, the IHV
+If the IHV develops its own support for a cipher algorithm supported by the operating system, the IHV
     must also assign a unique number from this range. For example, if the IHV develops its own version of
     TKIP, it must assign a value for this version from
     <b>DOT11_CIPHER_ALGO_IHV_START</b> through

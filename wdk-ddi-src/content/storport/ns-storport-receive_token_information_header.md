@@ -205,7 +205,7 @@ The length, in bytes, of the data in <b>SenseData</b>.
 
 ### -field TransferCountUnits
 
-The byte units applied to <i>TransferCount</i>. Each unit expansion is a exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
+The byte units applied to <i>TransferCount</i>. Each unit expansion is an exponent in base 2. The multiplier value of <b>TRANSFER_COUNT_UNITS_KIBIBYTES</b>, for example, is 1024 and not 1000. The defined units are the following.
 
 <table>
 <tr>
@@ -300,7 +300,7 @@ The length of data transferred in the operation. The unit type in <b>TransferCou
 
 ### -field SegmentsProcessed
 
-The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windowssystems, this value is reserved and applications must ignore this member.
+The number of segments processed for the data transfer operation. Segments are copy length units used internally by a storage device's copy provider. On Windows systems, this value is reserved and applications must ignore this member.
 
 ### -field Reserved3
 

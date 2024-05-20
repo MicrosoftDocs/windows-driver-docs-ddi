@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxStreamStopIoWithTag** function is used used to signal to the operating system to temporarily stop stream IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
+The **AcxStreamStopIoWithTag** function is used to signal to the operating system to temporarily stop stream IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.
 
 ## -parameters
 

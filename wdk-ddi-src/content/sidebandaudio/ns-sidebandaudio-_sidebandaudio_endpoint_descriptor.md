@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The **SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR** structure describes the characteristics of an Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
+The **SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR** structure describes the characteristics of a Sideband audio Endpoint. Audio driver should query this information to build the KS filter representing this endpoint.
 
 ## -struct-fields
 

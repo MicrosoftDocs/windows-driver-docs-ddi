@@ -65,7 +65,7 @@ The ClassId of the audio module. The ClassId is an identifier that establishes w
 
 ### -field InstanceId
 
-The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of an module.
+The InstanceId of the audio module.  The InstanceId is a unique identifier that distinguishes this instance of a module from another instance of a module.
 
 ## -remarks
 
