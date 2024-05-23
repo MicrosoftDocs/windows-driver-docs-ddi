@@ -58,7 +58,7 @@ A defined GUID that serves as the component ID for the circuit factory.
 
 ## -remarks
 
-The driver must initialize the circuit factory's identity by setting the its URI (AcxFactoryCircuitInitAssignComponentUri) and/or its ID (this DDI).
+The driver must initialize the circuit factory's identity by setting its URI (AcxFactoryCircuitInitAssignComponentUri) and/or its ID (this DDI).
 
 ### Example
 

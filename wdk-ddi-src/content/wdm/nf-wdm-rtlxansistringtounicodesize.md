@@ -56,7 +56,7 @@ Pointer to the ANSI string for which to compute the number of bytes that are req
 
 ## -returns
 
-<b>RtlxAnsiStringToUnicodeSize</b> returns the number of bytes that are required for an equivalent null-terminated Unicode string, if the ANSI string can be translated into an Unicode string by using the current system locale information. Otherwise, this routine returns zero.
+<b>RtlxAnsiStringToUnicodeSize</b> returns the number of bytes that are required for an equivalent null-terminated Unicode string, if the ANSI string can be translated into a Unicode string by using the current system locale information. Otherwise, this routine returns zero.
 
 ## -remarks
 

@@ -68,7 +68,7 @@ A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dk
 |STATUS_DEVICE_REMOVED|The graphics adapter was stopped or the display device was reset.|
 |STATUS_INVALID_PARAMETER|Parameters were validated and determined to be incorrect.|
 
-This function might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a> values.
+This function might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> values.
 
 ## -see-also
 

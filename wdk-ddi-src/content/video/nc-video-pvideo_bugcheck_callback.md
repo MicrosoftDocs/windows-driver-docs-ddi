@@ -79,7 +79,7 @@ A video miniport driver registers the <i>HwVidBugcheckCallback</i> function by c
 
 To facilitate system recovery after a bug check, any registers that are accessed by this function must not impede the ability of the hardware to transfer to fallback mode, regardless of the state of the device. Also, the function <i>must</i> return control to its caller.
 
-Because a system can consist of multiple video miniport drivers, venders should add an identifying string to the data that this function appends to the dump file. 
+Because a system can consist of multiple video miniport drivers, vendors should add an identifying string to the data that this function appends to the dump file. 
 
 The function is called at raised IRQL and must not attempt to access pageable code or data.
 

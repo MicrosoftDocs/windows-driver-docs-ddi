@@ -46,7 +46,7 @@ No flags.
 
 ### -field D3D12DDI_VIDEO_ENCODER_PICTURE_CONTROL_FLAG_0080_USED_AS_REFERENCE_PICTURE
 
-When set, indicates that this frame will be used as a reference frame in future encode commands. This value also indicates to output the reconstructed picture along with the bistream for the host to place it, in future calls, in the reconstructed pictures reference list. Check feature support before setting this flag because there might be limitations for some frame types to be marked as references.
+When set, indicates that this frame will be used as a reference frame in future encode commands. This value also indicates to output the reconstructed picture along with the bitstream for the host to place it, in future calls, in the reconstructed pictures reference list. Check feature support before setting this flag because there might be limitations for some frame types to be marked as references.
 
 > [!NOTE]
 >

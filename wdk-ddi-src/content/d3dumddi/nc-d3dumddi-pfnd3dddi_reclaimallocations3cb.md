@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-<b>pfnReclaimAllocations3Cb</b> is called by the user mode driver   to reclaim video memory allocations that were previously offered  for reuse.
+<b>pfnReclaimAllocations3Cb</b> is called by the user mode driver to reclaim video memory allocations that were previously offered  for reuse.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Returns one of the following values.
 |:--|:--|
 | **S_OK** | The allocations were successfully reclaimed. | 
 | **E_INVALIDARG** | An invalid parameter was supplied. | 
-| **D3DDDIERR_DEVICEREMOVED** | The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.<br.>**Note:** If this error code is returned, the driver's calling function (typically the [pfnReclaimResources](../dxgiddi/ns-dxgiddi-dxgi1_2_ddi_base_functions.md)  routine) must return this error code to the Direct3D runtime. |
+| **D3DDDIERR_DEVICEREMOVED** | The video memory manager or display miniport driver could not complete the operation because either a Plug and Play (PnP) Stop event or a Timeout Detection and Recovery (TDR) event occurred.<br>**Note:** If this error code is returned, the driver's calling function (typically the [pfnReclaimResources](../dxgiddi/ns-dxgiddi-dxgi1_2_ddi_base_functions.md) routine) must return this error code to the Direct3D runtime. |
 
 ## -see-also
 

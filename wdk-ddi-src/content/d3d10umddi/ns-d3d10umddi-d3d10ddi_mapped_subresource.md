@@ -59,7 +59,7 @@ The row pitch,  width, or physical size (in bytes) of the data.
 
 ### -field DepthPitch [out]
 
-The deptch pitch,  width, or physical size (in bytes) of the data.
+The depth pitch,  width, or physical size (in bytes) of the data.
 
 ## -remarks
 

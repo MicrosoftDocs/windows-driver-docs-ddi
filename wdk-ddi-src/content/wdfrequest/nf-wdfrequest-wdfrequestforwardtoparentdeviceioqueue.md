@@ -121,7 +121,7 @@ The specified I/O queue does not belong to the parent device.
 
 </li>
 <li>
-The driver has enabled <a href="/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guaranted forward progress</a> and the specified I/O request is reserved for low-memory situations.
+The driver has enabled <a href="/windows-hardware/drivers/wdf/guaranteeing-forward-progress-of-i-o-operations">guaranteed forward progress</a> and the specified I/O request is reserved for low-memory situations.
 
 </li>
 <li>

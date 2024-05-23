@@ -99,14 +99,14 @@ Arguments:
 
     UfxDevice - UFXDEVICE object representing the device.
 
-    EndpointDescriptor - Cosntant Pointer to Endpoint descriptor for the
+    EndpointDescriptor - Constant Pointer to Endpoint descriptor for the
         newly reported endpoint.
 
     EndpointInit - Pointer to the Opaque UFXENDPOINT_INIT object
 
 Return Value:
 
-    STATUS_SUCCESS on success, or an appropirate NTSTATUS message on failure.
+    STATUS_SUCCESS on success, or an appropriate NTSTATUS message on failure.
 
 --*/
 {

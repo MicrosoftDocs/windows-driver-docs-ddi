@@ -97,7 +97,7 @@ The range extending beyond the selected range contains all zeros.
 </dl>
 </td>
 <td width="60%">
-The offload operation cannot complete beyond the selected range. An non-offloaded read method should be used to complete the operation.
+The offload operation cannot complete beyond the selected range. A non-offloaded read method should be used to complete the operation.
 
 </td>
 </tr>

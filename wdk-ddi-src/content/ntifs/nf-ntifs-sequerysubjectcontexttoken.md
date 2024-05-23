@@ -20,8 +20,8 @@ req.max-support:
 req.namespace: 
 req.assembly: 
 req.type-library: 
-req.lib: 
-req.dll: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 

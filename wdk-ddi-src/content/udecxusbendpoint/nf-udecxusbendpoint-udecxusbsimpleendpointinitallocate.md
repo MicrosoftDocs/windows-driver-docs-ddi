@@ -63,7 +63,7 @@ This method returns a pointer to an opaque <b>UDECXUSBENDPOINT_INIT</b> structur
 
 The UDE client driver calls this method to allocate parameters for a simple endpoint that is created by a subsequent call to <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointcreate">UdecxUsbEndpointCreate</a>. If the device is not created or the driver is finished using the resources, the driver must free the resources by calling <a href="/windows-hardware/drivers/ddi/udecxusbendpoint/nf-udecxusbendpoint-udecxusbendpointinitfree">UdecxUsbEndpointInitFree</a>.
 
-The only valid time to create simple endpoints is after creating a the UDE device object and before calling <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceplugin">UdecxUsbDevicePlugIn</a> on the device.
+The only valid time to create simple endpoints is after creating a UDE device object and before calling <a href="/windows-hardware/drivers/ddi/udecxusbdevice/nf-udecxusbdevice-udecxusbdeviceplugin">UdecxUsbDevicePlugIn</a> on the device.
 
 ## -see-also
 

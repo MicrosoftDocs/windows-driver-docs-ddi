@@ -99,7 +99,7 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/oidrequest/ns-oidrequest-
 
 The <b>NDIS_SWITCH_NIC_OID_REQUEST</b> structure is used in OID method requests of <a href="/windows-hardware/drivers/network/oid-switch-nic-request">OID_SWITCH_NIC_REQUEST</a>.
 
-A extension can forward or originate OID requests to underlying physical network adapters in the extensible switch driver stack. This enables an extension to do the following:
+An extension can forward or originate OID requests to underlying physical network adapters in the extensible switch driver stack. This enables an extension to do the following:
 
 <ul>
 <li>

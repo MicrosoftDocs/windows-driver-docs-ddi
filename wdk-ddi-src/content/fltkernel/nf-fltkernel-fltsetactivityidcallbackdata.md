@@ -57,7 +57,7 @@ A pointer to the callback data containing the request with an associated activit
 ### -param Guid [in, optional]
 
 
-A optional pointer to the <b>GUID</b> structure receiving the activity ID. if <i>Guid</i> is <b>NULL</b>, the system will attempt to assign an ETW activity ID for the request.
+An optional pointer to the <b>GUID</b> structure receiving the activity ID. if <i>Guid</i> is <b>NULL</b>, the system will attempt to assign an ETW activity ID for the request.
 
 ## -returns
 

@@ -93,7 +93,7 @@ The operation is used to fill an allocation with a pattern. WDDMv1 only.
 
 ### -field DXGK_OPERATION_INIT_CONTEXT_RESOURCE:10
 
-Perform an context initialization operation for a GPU context or device-specific context. This value is supported beginning with Windows 8. The display miniport driver allocates context resources by calling [**DxgkCbCreateContextAllocation**](nc-d3dkmddi-dxgkcb_createcontextallocation.md). Common WDDMv1 and WDDMv2.
+Perform a context initialization operation for a GPU context or device-specific context. This value is supported beginning with Windows 8. The display miniport driver allocates context resources by calling [**DxgkCbCreateContextAllocation**](nc-d3dkmddi-dxgkcb_createcontextallocation.md). Common WDDMv1 and WDDMv2.
 
 ### -field DXGK_OPERATION_UPDATE_PAGE_TABLE:11
 

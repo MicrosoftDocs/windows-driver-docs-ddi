@@ -100,7 +100,7 @@ The IOCTL completed successfully.
 
 During startup, the Bluetooth stack sends IOCTL_BTHX_QUERY_CAPABILITIES to query the capabilities of the transport driver.
 
-This is a synchrononous call and failure of this IOCTL prevents Windows from loading the Bluetooth stack.
+This is a synchronous call and failure of this IOCTL prevents Windows from loading the Bluetooth stack.
 
 The output buffer of this IOCTL is defined by the BTHX_CAPABILITIES structure.
 

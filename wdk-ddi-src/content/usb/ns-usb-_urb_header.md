@@ -100,7 +100,7 @@ Available in Windows Vista and later operating systems.
 
 #### URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER
 
-Transfers data from a bulk pipe or interrupt pipe or to an bulk pipe. If set, the URB is used with [_URB_BULK_OR_INTERRUPT_TRANSFER](./ns-usb-_urb_bulk_or_interrupt_transfer.md) as the data structure.
+Transfers data from a bulk pipe or interrupt pipe or to a bulk pipe. If set, the URB is used with [_URB_BULK_OR_INTERRUPT_TRANSFER](./ns-usb-_urb_bulk_or_interrupt_transfer.md) as the data structure.
 
 #### URB_FUNCTION_BULK_OR_INTERRUPT_TRANSFER_USING_CHAINED_MDL
 

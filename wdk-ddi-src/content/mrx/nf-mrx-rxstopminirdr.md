@@ -73,7 +73,7 @@ There are a number of strategies that can be employed to close down the RDBSS. C
 
 The RDBSS **RxStopMinirdr** is usually called as a result of an FSCTL or IOCTL request from a user-mode application or service to stop the network mini-redirector, although this call could also be made from the network mini-redirector or as part of shutdown processing by the operating system.
 
-Once a call to **RxStopMinirdr** is issued, the only operations allowed by RDBSS and passed to the network mini-redirector are rerquests for the following I/O request packets:
+Once a call to **RxStopMinirdr** is issued, the only operations allowed by RDBSS and passed to the network mini-redirector are requests for the following I/O request packets:
 
 * IRP_MJ_CLEANUP
 * IRP_MJ_CLOSE
@@ -82,7 +82,7 @@ The stop sequence for RDBSS and the network mini-redirector must be completed in
 
 If a network mini-redirector indicates support for UNC when registering with RDBSS (the **Controls** parameter to **RxRegisterMinirdr**), then **RxStopMinirdr** will try to de-register the **DeviceName** of the network mini-redirector as a UNC provider with MUP (calls [**FsRtlDeregisterUncProvider**](../ntifs/nf-ntifs-fsrtlderegisteruncprovider.md) on behalf of the network mini-redirector). **RxStopMinirdr** also de-registers the file system with the I/O manager (calls [**IoUnregisterFileSystem**](../ntifs/nf-ntifs-iounregisterfilesystem.md)) on behalf of the network mini-redirector).
 
-The **RxStopMinirdr** routine then calls the network mini-redirector **MrxStop** callback routine if this routine is implemented. If there are no active FCBs remaining, STATUS_SUCCESS is returned. If there are some remaining active FCBs, STATUS_REDIRECTOR_HAS_OPEN_HANDLES is returned. In either case, the RDBSS dispatcher for the redrector is spun down and the internal state of the network mini-redirector in RDBSS is set to RDBSS_STARTABLE.
+The **RxStopMinirdr** routine then calls the network mini-redirector **MrxStop** callback routine if this routine is implemented. If there are no active FCBs remaining, STATUS_SUCCESS is returned. If there are some remaining active FCBs, STATUS_REDIRECTOR_HAS_OPEN_HANDLES is returned. In either case, the RDBSS dispatcher for the redirector is spun down and the internal state of the network mini-redirector in RDBSS is set to RDBSS_STARTABLE.
 
 ## -see-also
 

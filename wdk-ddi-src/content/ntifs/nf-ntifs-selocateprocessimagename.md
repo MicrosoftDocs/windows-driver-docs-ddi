@@ -9,13 +9,13 @@ prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll: 
+req.dll: NtosKrnl.exe
 req.header: ntifs.h
 req.idl: 
 req.include-header: 
 req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: NtosKrnl.lib
 req.max-support: 
 req.namespace: 
 req.redist: 

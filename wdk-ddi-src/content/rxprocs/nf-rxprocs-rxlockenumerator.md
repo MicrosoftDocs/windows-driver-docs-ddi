@@ -57,7 +57,7 @@ A pointer to the SRV_OPEN structure on the FCB to be enumerated.
 ### -param ContinuationHandle [in, out]
 
 
-A pointer to a handle passed back and forth representing the state of the enumeration. If this parameter is a <b>NULL</b> pointer, then this is the start of an lock enumeration.
+A pointer to a handle passed back and forth representing the state of the enumeration. If this parameter is a <b>NULL</b> pointer, then this is the start of a lock enumeration.
 
 ### -param FileOffset [out]
 

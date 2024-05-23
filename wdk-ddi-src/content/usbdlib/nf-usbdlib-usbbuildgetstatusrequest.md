@@ -52,7 +52,7 @@ api_name:
 ### -param urb [in, out]
 
 
-Pointer to an <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be formatted as an status request.
+Pointer to an <a href="/windows-hardware/drivers/ddi/usb/ns-usb-_urb">URB</a> to be formatted as a status request.
 
 ### -param op [in]
 

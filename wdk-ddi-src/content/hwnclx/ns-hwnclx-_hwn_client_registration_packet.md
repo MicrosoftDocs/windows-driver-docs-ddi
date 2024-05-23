@@ -71,7 +71,7 @@ Size of the driver-defined context structure.
 
 ### -field Reserved
 
-Reseved.
+Reserved.
 
 ### -field ClientInitializeDevice
 

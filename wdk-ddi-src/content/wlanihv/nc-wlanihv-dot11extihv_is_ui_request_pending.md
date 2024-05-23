@@ -87,7 +87,7 @@ DWORD APIENTRY Dot11ExtIhvIsUIRequestPending(
 ## -remarks
 
 The IHV Extensions DLL can issue requests to the IHV UI Extensions DLL to interact with the user.
-    Examples of such requests are thedisplay of notifications during the pre-association operation or the
+    Examples of such requests are the display of notifications during the pre-association operation or the
     input of credentials for the post-association operation. For more information about the IHV UI Extensions
     DLL, see
     <a href="/previous-versions/windows/hardware/wireless/ff560635(v=vs.85)">Native 802.11 IHV UI Extensions

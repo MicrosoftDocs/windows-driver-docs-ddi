@@ -120,7 +120,7 @@ Indicates a 6mm digital video tape device.
 
 ### -field DMI
 
-Indicates a Exabyte DMI tape device and compatible devices.
+Indicates an Exabyte DMI tape device and compatible devices.
 
 ### -field SONY_D2
 
@@ -184,7 +184,7 @@ Indicates a phase change dual rewritable optical disk.
 
 ### -field ABL_5_WO
 
-Indicates a ablative 5.25" write once optical disk.
+Indicates an ablative 5.25" write once optical disk.
 
 ### -field PINNACLE_APEX_5_RW
 

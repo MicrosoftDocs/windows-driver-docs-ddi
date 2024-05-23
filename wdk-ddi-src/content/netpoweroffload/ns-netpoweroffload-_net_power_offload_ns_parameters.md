@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-The **NET_POWER_OFFLOAD_NS_PARAMETERS** structure contains parameters for an IPv6 Neighbor Solitication (NS) low power protocol offload to a net adapter.
+The **NET_POWER_OFFLOAD_NS_PARAMETERS** structure contains parameters for an IPv6 Neighbor Solicitation (NS) low power protocol offload to a net adapter.
 
 ## -struct-fields
 

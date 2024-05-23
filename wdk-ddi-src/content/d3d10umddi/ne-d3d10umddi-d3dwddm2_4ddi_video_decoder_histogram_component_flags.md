@@ -57,15 +57,15 @@ If the format is a YUV format, indicates the V component.
 
 ### -field D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_R
 
-If the format is a RGB/BGR format, indicates the Y component.
+If the format is an RGB/BGR format, indicates the Y component.
 
 ### -field D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_G
 
-If the format is a RGB/BGR format, indicates the G component.
+If the format is an RGB/BGR format, indicates the G component.
 
 ### -field D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_B
 
-If the format is a RGB/BGR format, indicates the B component.
+If the format is an RGB/BGR format, indicates the B component.
 
 ### -field D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT_FLAG_A
 

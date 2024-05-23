@@ -86,7 +86,7 @@ Contains the node address byte to send to the smart card.
 
 ### -field OriginalState
 
-Contains teh state before an error occurred.
+Contains the state before an error occurred.
 
 ### -field Resend
 

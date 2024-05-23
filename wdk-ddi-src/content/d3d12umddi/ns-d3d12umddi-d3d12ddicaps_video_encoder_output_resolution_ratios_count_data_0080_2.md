@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **D3D12DDICAPS_VIDEO_ENCODER_OUTPUT_RESOLUTION_RATIOS_COUNT_DATA_0080_2** structure is used to retrieve the number of supported resolution ratios basec on the specified codec, profile, and level.
+The **D3D12DDICAPS_VIDEO_ENCODER_OUTPUT_RESOLUTION_RATIOS_COUNT_DATA_0080_2** structure is used to retrieve the number of supported resolution ratios based on the specified codec, profile, and level.
 
 ## -struct-fields
 

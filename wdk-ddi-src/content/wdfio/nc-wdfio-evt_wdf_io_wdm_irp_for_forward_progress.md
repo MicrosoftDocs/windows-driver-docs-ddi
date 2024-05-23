@@ -73,7 +73,7 @@ If your driver registers an <i>EvtIoWdmIrpForForwardProgress</i> callback functi
 
 <ul>
 <li>
-The framework has received a I/O request packet (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>) that the I/O manager is sending to the driver.
+The framework has received an I/O request packet (<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_irp">IRP</a>) that the I/O manager is sending to the driver.
 
 </li>
 <li>

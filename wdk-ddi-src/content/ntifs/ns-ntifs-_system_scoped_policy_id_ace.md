@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying  rights for a scoped policy identifier. This ACE causes an audit message to be logged when an atrempt to gain access to an object  based on a configured policy scope.
+The SYSTEM_SCOPED_POLICY_ID_ACE structure defines an access-control entry (ACE) for the system access-control list (ACL) specifying  rights for a scoped policy identifier. This ACE causes an audit message to be logged when an attempt to gain access to an object  based on a configured policy scope.
 
 ## -struct-fields
 

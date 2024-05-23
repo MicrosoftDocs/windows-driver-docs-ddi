@@ -1,7 +1,7 @@
 ---
 UID: NF:ntddk.MmFreeContiguousMemorySpecifyCache
 title: MmFreeContiguousMemorySpecifyCache function (ntddk.h)
-description: The MmFreeContiguousMemorySpecifyCache routine frees a buffer that was allocated by an MmAllocateContiguousMemorySpecifyCacheXxx routine.
+description: The MmFreeContiguousMemorySpecifyCache routine frees a buffer that was allocated by a MmAllocateContiguousMemorySpecifyCacheXxx routine.
 old-location: kernel\mmfreecontiguousmemoryspecifycache.htm
 tech.root: kernel
 ms.date: 04/30/2018

@@ -106,7 +106,7 @@ If this flag is set and the function returns STATUS_BUFFER_OVERFLOW, the destina
 ### -param pszFormat [in]
 
 
-A pointer to a nul-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
+A pointer to a null-terminated text string that contains <b>printf</b>-styled formatting directives. This pointer can be <b>NULL</b>, but only if STRSAFE_IGNORE_NULLS is set in <i>dwFlags</i>.
 
 ### -param argList [in]
 

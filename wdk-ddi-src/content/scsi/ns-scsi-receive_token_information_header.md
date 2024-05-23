@@ -105,7 +105,7 @@ The length, in bytes, of the data in **SenseData**.
 
 ### -field TransferCountUnits
 
-The byte units applied to *TransferCount*. Each unit expansion is a exponent in base 2. The multiplier value of **TRANSFER_COUNT_UNITS_KIBIBYTES**, for example, is 1024 and not 1000. The defined units are the following.
+The byte units applied to *TransferCount*. Each unit expansion is an exponent in base 2. The multiplier value of **TRANSFER_COUNT_UNITS_KIBIBYTES**, for example, is 1024 and not 1000. The defined units are the following.
 
 | Value | Meaning |
 |--|--|

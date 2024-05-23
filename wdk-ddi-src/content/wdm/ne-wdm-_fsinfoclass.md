@@ -112,7 +112,7 @@ Returns a [**FILE_FS_FULL_SIZE_INFORMATION_EX**](../ntddk/ns-ntddk-_file_fs_full
 
 ### -field FileFsGuidInformation
 
-Returns a **FILE_FS_GUID_INFORMATION** structure tha contains the GUID information.
+Returns a **FILE_FS_GUID_INFORMATION** structure that contains the GUID information.
 
 ### -field FileFsMaximumInformation
 

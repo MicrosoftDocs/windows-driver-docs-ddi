@@ -56,7 +56,7 @@ The PIPE_TERMINATION structure is for proxy use and not recommended for applicat
 
 ### -field OutsideFactors
 
-### -field Weigth
+### -field Weight
 
 ### -field PhysicalRange
 

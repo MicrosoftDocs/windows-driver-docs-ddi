@@ -1,7 +1,7 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_DECRYPTIONBLT
 title: _D3DDDIARG_DECRYPTIONBLT (d3dumddi.h)
-description: The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of an decrypted bit-block transfer (bitblt) in a call to the DecryptionBlt function.
+description: The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of a decrypted bit-block transfer (bitblt) in a call to the DecryptionBlt function.
 old-location: display\d3dddiarg_decryptionblt.htm
 tech.root: display
 ms.date: 05/10/2018
@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of an decrypted bit-block transfer (bitblt) in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decryptionblt">DecryptionBlt</a> function.
+The D3DDDIARG_DECRYPTIONBLT structure describes the parameters of a decrypted bit-block transfer (bitblt) in a call to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_decryptionblt">DecryptionBlt</a> function.
 
 ## -struct-fields
 

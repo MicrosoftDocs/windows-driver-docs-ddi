@@ -33,11 +33,11 @@ jobs:
       if [ $? -eq 0 ]; then
         git push gh-public main:staging
         git push origin main:main
-        git checkout release-copper
+        git checkout release-amethyst
         git merge main --no-ff --no-commit
         if [ $? -eq 0 ]; then
           git commit -m "Merged main into release"
-          git push origin release-copper
+          git push origin release-amethyst
         else
           echo "Error merging main to release"
           exit 1
