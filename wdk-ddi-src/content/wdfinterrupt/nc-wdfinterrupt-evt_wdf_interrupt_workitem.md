@@ -77,7 +77,7 @@ If your driver creates multiple framework interrupt objects for each device, you
 
 Drivers that implement either DIRQL  interrupt handling or passive level interrupt handling can queue an <i>EvtInterruptWorkItem</i> callback.
 
- A driver cannot queue both an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> and a <i>EvtInterruptWorkItem</i> callback.
+ A driver cannot queue both an <a href="/windows-hardware/drivers/ddi/wdfinterrupt/nc-wdfinterrupt-evt_wdf_interrupt_dpc">EvtInterruptDpc</a> and an <i>EvtInterruptWorkItem</i> callback.
 
 If the driver has set the <b>AutomaticSerialization</b> member to TRUE in the interrupt's <a href="/windows-hardware/drivers/ddi/wdfinterrupt/ns-wdfinterrupt-_wdf_interrupt_config">WDF_INTERRUPT_CONFIG</a> structure, the framework  synchronizes execution of the interrupt object's <i>EvtInterruptWorkItem</i> callback function with callback functions from other objects that are underneath the interrupt's parent object.  For information about callback synchronization locks, see <a href="/windows-hardware/drivers/wdf/using-framework-locks">Using Framework Locks</a>.
 

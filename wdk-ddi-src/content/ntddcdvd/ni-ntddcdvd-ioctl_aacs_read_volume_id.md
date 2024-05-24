@@ -65,7 +65,7 @@ The buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> contains the value of type 
 
 ### -output-buffer-length
 
-Length of a <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a>.
+Length of an <a href="/windows-hardware/drivers/ddi/ntddcdvd/ns-ntddcdvd-_aacs_volume_id">AACS_VOLUME_ID</a>.
 
 ### -in-out-buffer
 

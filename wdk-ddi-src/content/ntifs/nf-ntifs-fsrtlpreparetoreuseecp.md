@@ -55,7 +55,7 @@ A pointer to the ECP to prepare for reuse.
 
 The **FsRtlPrepareToReuseEcp** allows reuse of an ECP used in a previous create request. This prevents having to initialize a new ECP with the same information.
 
-The target of an ECP uses [**FsRtlAcknowledgeEcp**](nf-ntifs-fsrtlacknowledgeecp.md) to mark the ECP as acknowledged. This indicates that the ECP was discovered and processed.  To reuse an previously acknowledged ECP, such as in processing a reparse, a driver can use **FsRtlPrepareToReuseEcp** to clear the acknowledged state from the ECP before sending it in another create request.
+The target of an ECP uses [**FsRtlAcknowledgeEcp**](nf-ntifs-fsrtlacknowledgeecp.md) to mark the ECP as acknowledged. This indicates that the ECP was discovered and processed.  To reuse a previously acknowledged ECP, such as in processing a reparse, a driver can use **FsRtlPrepareToReuseEcp** to clear the acknowledged state from the ECP before sending it in another create request.
 
 Within a file system minifilter driver, use [**FltPrepareToReuseEcp**](../fltkernel/nf-fltkernel-fltpreparetoreuseecp.md) to reuse an ECP.
 

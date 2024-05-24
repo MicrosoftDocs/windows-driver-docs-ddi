@@ -48,7 +48,7 @@ api_name:
 The <b>IOCTL_MPIO_PASS_THROUGH_PATH_EX</b>
      control code request is the extended version of the <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_mpio_pass_through_path">IOCTL_MPIO_PASS_THROUGH_PATH</a> request. This request provides support for bidirectional data transfers and allows a command data block (CDB) > 16 bytes.
 
-This I/O control code allows an application or kernel driver to send a SCSI command to a designated real LUN. The following restrictions apply to the use of this I/O control code:
+This I/O control code allows an application or kernel driver to send an SCSI command to a designated real LUN. The following restrictions apply to the use of this I/O control code:
 <ul>
 <li>
 If a class driver for the pseudo LUN exists, the application must send the request to that class driver. Thus, an application can send this request directly to MPIO only if there is no class driver for the device.
@@ -63,7 +63,7 @@ Applications do not require administrative privileges to send a pass-through req
 
 </li>
 <li>
-The request comprises a SCSI pass-through request (in an embedded <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a> structure) as well as certain directives.
+The request comprises an SCSI pass-through request (in an embedded <a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_ex">SCSI_PASS_THROUGH_EX</a> structure) as well as certain directives.
 
 </li>
 <li>

@@ -45,7 +45,7 @@ Enumeration the types of context associated with an action.
 
 ### -field EVENTACTIONCONTEXTTYPE_None 
 
-0 - no additional conxt provided
+0 - no additional context provided
 
 ### -field EVENTACTIONCONTEXTTYPE_Confidence 
 

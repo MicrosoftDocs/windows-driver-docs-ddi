@@ -65,7 +65,7 @@ The container union for the different authentication challenge methods.
 
 ### -field u.AuthSim
 
-The esponse from the SIM authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthSim</i>, use this member.
+The response from the SIM authentication method. If <b>AuthMethod</b> is set to <i>WwanAuthSim</i>, use this member.
 
 ### -field u.AuthAka
 

@@ -82,7 +82,7 @@ Indicates the subunit state has changed.
 
 ### -field AVC_RESPONSE_INTERIM
 
-Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED</b> or <b>AVC_RESPONSE_REJECTED</b> within the 100 millisecond timeframe for responses. The subunit will ultimately return a response frame with either a <b>AVC_RESPONSE_ACCEPTED</b> or <b>AVC_RESPONSE_REJECTED</b> code.
+Indicates the subunit is unable to respond with either <b>AVC_RESPONSE_ACCEPTED</b> or <b>AVC_RESPONSE_REJECTED</b> within the 100 millisecond timeframe for responses. The subunit will ultimately return a response frame with either an <b>AVC_RESPONSE_ACCEPTED</b> or <b>AVC_RESPONSE_REJECTED</b> code.
 
 ## -see-also
 

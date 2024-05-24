@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Intializes the [**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init) provided by the framework.
+Initializes the [**WDFDEVICE_INIT**](/windows-hardware/drivers/wdf/wdfdevice_init) provided by the framework.
 
 ## -parameters
 

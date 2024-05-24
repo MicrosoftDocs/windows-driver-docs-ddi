@@ -117,7 +117,7 @@ Indicates a Yenta-compliant NEC cardbus controller.
 
 ### -field PcmciaNEC_98
 
-Indicates a NEC cardbus controller.
+Indicates an NEC cardbus controller.
 
 ## -see-also
 
