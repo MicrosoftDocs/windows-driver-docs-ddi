@@ -14,11 +14,7 @@ schedules:
   always: true
 
 trigger:
-  branches:
-    include:
-    - main  # Include only the main branch
-    exclude:
-    - '*'   # Exclude all other branches
+- main
 
 jobs:
 - job: MergeBranches
