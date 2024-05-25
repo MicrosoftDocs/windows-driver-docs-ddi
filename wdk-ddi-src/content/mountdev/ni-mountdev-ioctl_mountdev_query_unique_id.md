@@ -45,6 +45,7 @@ api_name:
 
 ## -description
 
+<!-- BUGBUG!! Article mentions IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY but fails to document it, and the link is dead/non-existent -->
 Support for this IOCTL by mount manager clients is mandatory. Upon receiving this IOCTL, the mount manager client must provide a counted byte string identifier that is unique to the client (that is, the device or the volume). The client cannot change this unique ID without alerting the mount manager (see <a href="/windows-hardware/drivers/storage/index">IOCTL_MOUNTDEV_UNIQUE_ID_CHANGE_NOTIFY</a>).
 
 ## -ioctlparameters
