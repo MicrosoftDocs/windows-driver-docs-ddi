@@ -63,4 +63,4 @@ Defines the **LPARAM** parameter *lParam*.
 
 ## -returns
 
-Returns a **INT_PTR** value.
+Returns an **INT_PTR** value.

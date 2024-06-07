@@ -1,10 +1,9 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS
 title: IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS (mountmgr.h)
-description: This IOCTL informs the mount manager that it should assign drive letters to volumes automatically as they are introduced in the system.
-old-location: storage\ioctl_mountmgr_auto_dl_assignments.htm
+description: Learn about the IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS IOCTL.
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS control, IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS control code [Storage Devices], k307_ec5f9d47-ffd0-481c-8ce9-fa0465c5b69c.xml, mountmgr/IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS, storage.ioctl_mountmgr_auto_dl_assignments
 req.header: mountmgr.h
@@ -40,38 +39,44 @@ api_name:
  - IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS
 ---
 
-# IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS IOCTL
-
-
 ## -description
 
-This IOCTL informs the mount manager that it should assign drive letters to volumes automatically as they are introduced in the system.
+IOCTL_MOUNTMGR_AUTO_DL_ASSIGNMENTS informs the mount manager that it should assign drive letters to volumes automatically as they are introduced in the system.
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
-None
+None.
 
 ### -input-buffer-length
 
-None
+None.
 
 ### -output-buffer
 
-None
+None.
 
 ### -output-buffer-length
 
-None
+None.
 
 ### -in-out-buffer
 
+N/A
+
 ### -inout-buffer-length
+
+N/A
 
 ### -status-block
 
-If the operation is successful, the <b>Status</b> field is set to STATUS_SUCCESS.
+If the operation is successful, the **Status** field is set to STATUS_SUCCESS.
 
+## -remarks
+
+For more information, see [Supporting Mount Manager Requests in a Storage Class Driver](/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).

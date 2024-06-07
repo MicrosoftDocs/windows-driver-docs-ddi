@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi.RS_ALL_COMMANDS_PARAMETER_DATA
 tech.root: storage
-title: RS_ALL_COMMANDS_PARAMETER_DATA
+title: RS_ALL_COMMANDS_PARAMETER_DATA (scsi.h)
 ms.date: 03/21/2024
 targetos: Windows
 description: The RS_ALL_COMMANDS_PARAMETER_DATA structure contains a list of RS_COMMAND_DESCRIPTOR structures.

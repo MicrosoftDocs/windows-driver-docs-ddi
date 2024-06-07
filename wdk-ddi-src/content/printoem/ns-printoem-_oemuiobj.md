@@ -57,7 +57,7 @@ Size of the **OEMUIOBJ** structure.
 
 ### -field pOemUIProcs
 
-Pointer to a an [**OEMUIPROCS**](./ns-printoem-_oemuiprocs.md) structure, which is a private, internal structure.
+Pointer to an [**OEMUIPROCS**](./ns-printoem-_oemuiprocs.md) structure, which is a private, internal structure.
 
 ## -remarks
 

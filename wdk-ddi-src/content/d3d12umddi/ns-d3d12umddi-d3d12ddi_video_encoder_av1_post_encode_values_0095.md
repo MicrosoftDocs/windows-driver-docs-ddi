@@ -97,7 +97,7 @@ API Client will write the picture header ref_frame_idx AV1 syntax from this outp
 
 ## -remarks
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

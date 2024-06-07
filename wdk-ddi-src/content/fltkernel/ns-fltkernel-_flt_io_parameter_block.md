@@ -1,10 +1,9 @@
 ---
 UID: NS:fltkernel._FLT_IO_PARAMETER_BLOCK
 title: FLT_IO_PARAMETER_BLOCK (fltkernel.h)
-description: The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data (FLT_CALLBACK_DATA) structure.
-old-location: ifsk\flt_io_parameter_block.htm
+description: Learn more about the FLT_IO_PARAMETER_BLOCK structure.
 tech.root: ifsk
-ms.date: 07/27/2020
+ms.date: 05/30/2024
 keywords: ["FLT_IO_PARAMETER_BLOCK structure"]
 ms.keywords: "*PFLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK, FLT_IO_PARAMETER_BLOCK structure [Installable File System Drivers], FltSystemStructures_8abf39e5-b9d1-4c44-8137-80ee1b35c0a3.xml, PFLT_IO_PARAMETER_BLOCK, PFLT_IO_PARAMETER_BLOCK structure pointer [Installable File System Drivers], _FLT_IO_PARAMETER_BLOCK, fltkernel/FLT_IO_PARAMETER_BLOCK, fltkernel/PFLT_IO_PARAMETER_BLOCK, ifsk.flt_io_parameter_block"
 req.header: fltkernel.h
@@ -46,12 +45,11 @@ api_name:
  - FLT_IO_PARAMETER_BLOCK
 ---
 
-# _FLT_IO_PARAMETER_BLOCK structure
-
+# FLT_IO_PARAMETER_BLOCK structure
 
 ## -description
 
-The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data structure.
+The **FLT_IO_PARAMETER_BLOCK** structure contains the parameters for the I/O operation represented by a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data structure.
 
 ## -struct-fields
 
@@ -125,7 +123,7 @@ An [**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md) structure that contains
 
 ## -remarks
 
-The FLT_IO_PARAMETER_BLOCK structure contains the parameters for the I/O operation that is represented by a callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure. The callback data structure contains a pointer to the FLT_IO_PARAMETER_BLOCK structure in its  **Iopb** member.
+The **FLT_IO_PARAMETER_BLOCK** structure contains the parameters for the I/O operation that is represented by a callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure. The callback data structure contains a pointer to the FLT_IO_PARAMETER_BLOCK structure in its  **Iopb** member.
 
 A minifilter receives a pointer to the callback data structure as the *Data* or *CallbackData* input parameter to the following callback routine types:
 
@@ -167,8 +165,6 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 
 [**FLT_IS_IRP_OPERATION**](/previous-versions/ff544654(v=vs.85))
 
-[**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)
-
 [**FltAllocateCallbackData**](nf-fltkernel-fltallocatecallbackdata.md)
 
 [**FltClearCallbackDataDirty**](nf-fltkernel-fltclearcallbackdatadirty.md)
@@ -185,51 +181,50 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 
 [**IRP**](../wdm/ns-wdm-_irp.md)
 
+[**FLT_PARAMETERS**](ns-fltkernel-_flt_parameters.md)
+
+* [**FLT_PARAMETERS** for **IRP_MJ_ACQUIRE_FOR_MOD_WRITE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-acquire-for-mod-write)
+* [**FLT_PARAMETERS** for **IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-acquire-for-section-synchronization)
+* [**FLT_PARAMETERS** for **IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create)
+* [**FLT_PARAMETERS** for **IRP_MJ_CREATE_MAILSLOT**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-mailslot)
+* [**FLT_PARAMETERS** for **IRP_MJ_CREATE_NAMED_PIPE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-create-named-pipe)
+* [**FLT_PARAMETERS** for **IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-device-control-and-irp-mj-internal-device-co)
+* [**FLT_PARAMETERS** for **IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-directory-control)
+* [**FLT_PARAMETERS** for **IRP_MJ_FAST_IO_CHECK_IF_POSSIBLE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-fast-io-check-if-possible)
+* [**FLT_PARAMETERS** for **IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-file-system-control)
+* [**FLT_PARAMETERS** for **IRP_MJ_INTERNAL_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-device-control-and-irp-mj-internal-device-co)
+* [**FLT_PARAMETERS** for **IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-lock-control)
+* [**FLT_PARAMETERS** for **IRP_MJ_MDL_READ**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-mdl-read)
+* [**FLT_PARAMETERS** for **IRP_MJ_MDL_READ_COMPLETE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-mdl-read-complete)
+* [**FLT_PARAMETERS** for **IRP_MJ_MDL_WRITE_COMPLETE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-mdl-write-complete)
+* [**FLT_PARAMETERS** for **IRP_MJ_NETWORK_QUERY_OPEN**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-network-query-open)
+* [**FLT_PARAMETERS** for **IRP_MJ_PNP**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-pnp)
+* [**FLT_PARAMETERS** for **IRP_MJ_PREPARE_MDL_WRITE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-prepare-mdl-write)
+* [**FLT_PARAMETERS** for **IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-ea)
+* [**FLT_PARAMETERS** for **IRP_MJ_QUERY_INFORMATION**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-information)
+* [**FLT_PARAMETERS** for **IRP_MJ_QUERY_OPEN**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-open)
+* [**FLT_PARAMETERS** for **IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-quota)
+* [**FLT_PARAMETERS** for **IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-security)
+* [**FLT_PARAMETERS** for **IRP_MJ_QUERY_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-query-volume-information)
+* [**FLT_PARAMETERS** for **IRP_MJ_READ**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-read)
+* [**FLT_PARAMETERS** for **IRP_MJ_RELEASE_FOR_MOD_WRITE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-release-for-mod-write)
+* [**FLT_PARAMETERS** for **IRP_MJ_RELEASE_FOR_SECTION_SYNCHRONIZATION**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-release-for-section-synchronization)
+* [**FLT_PARAMETERS** for **IRP_MJ_SET_EA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-ea)
+* [**FLT_PARAMETERS** for **IRP_MJ_SET_INFORMATION**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-information)
+* [**FLT_PARAMETERS** for **IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-quota)
+* [**FLT_PARAMETERS** for **IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-security)
+* [**FLT_PARAMETERS** for **IRP_MJ_SET_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-set-volume-information)
+* [**FLT_PARAMETERS** for **IRP_MJ_SYSTEM_CONTROL**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-system-control)
+* [**FLT_PARAMETERS** for **IRP_MJ_VOLUME_MOUNT**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-volume-mount)
+* [**FLT_PARAMETERS** for **IRP_MJ_WRITE**](/windows-hardware/drivers/ifs/flt-parameters-for-irp-mj-write)
+
 [**IRP_MJ_CLEANUP**](/windows-hardware/drivers/ifs/irp-mj-cleanup)
 
 [**IRP_MJ_CLOSE**](/windows-hardware/drivers/kernel/irp-mj-close)
 
-[**IRP_MJ_CREATE**](/windows-hardware/drivers/ifs/irp-mj-create)
-
-[**IRP_MJ_DEVICE_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-device-control)
-
-[**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control)
-
-[**IRP_MJ_FILE_SYSTEM_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-file-system-control)
-
 [**IRP_MJ_FLUSH_BUFFERS**](/windows-hardware/drivers/ifs/irp-mj-flush-buffers)
 
-[**IRP_MJ_INTERNAL_DEVICE_CONTROL**](/windows-hardware/drivers/kernel/irp-mj-internal-device-control)
-
-[**IRP_MJ_LOCK_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-lock-control)
-
-[**IRP_MJ_PNP**](/windows-hardware/drivers/ifs/irp-mj-pnp)
-
-[**IRP_MJ_QUERY_EA**](/windows-hardware/drivers/ifs/irp-mj-query-ea)
-
-[**IRP_MJ_QUERY_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-information)
-
-[**IRP_MJ_QUERY_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-query-quota)
-
-[**IRP_MJ_QUERY_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-query-security)
-
-[**IRP_MJ_QUERY_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
-
-[**IRP_MJ_READ**](/windows-hardware/drivers/ifs/irp-mj-read)
-
-[**IRP_MJ_SET_EA**](/windows-hardware/drivers/ifs/irp-mj-set-ea)
-
-[**IRP_MJ_SET_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-information)
-
-[**IRP_MJ_SET_QUOTA**](/windows-hardware/drivers/ifs/irp-mj-set-quota)
-
-[**IRP_MJ_SET_SECURITY**](/windows-hardware/drivers/ifs/irp-mj-set-security)
-
-[**IRP_MJ_SET_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-set-volume-information)
-
 [**IRP_MJ_SHUTDOWN**](/windows-hardware/drivers/ifs/irp-mj-shutdown)
-
-[**IRP_MJ_WRITE**](/windows-hardware/drivers/kernel/irp-mj-write)
 
 [**PFLT_COMPLETED_ASYNC_IO_CALLBACK**](nc-fltkernel-pflt_completed_async_io_callback.md)
 
@@ -238,4 +233,3 @@ A minifilter can initiate an I/O operation by calling a support routine such as 
 [**PFLT_POST_OPERATION_CALLBACK**](nc-fltkernel-pflt_post_operation_callback.md)
 
 [**PFLT_PRE_OPERATION_CALLBACK**](nc-fltkernel-pflt_pre_operation_callback.md)
-

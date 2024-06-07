@@ -81,7 +81,7 @@ The settings associated to each of the levels exposed by **QualityVsSpeed** must
 
 ## -remarks
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

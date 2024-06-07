@@ -139,7 +139,7 @@ Level 7.3.
 
 Each level defines a set of capabilities, such as maximum resolution, bitrate, and decoding performance, which determine the complexity of the video content that can be encoded and decoded.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

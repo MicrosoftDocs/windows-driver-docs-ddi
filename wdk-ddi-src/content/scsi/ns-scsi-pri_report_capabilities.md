@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi.PRI_REPORT_CAPABILITIES
 tech.root: storage
-title: PRI_REPORT_CAPABILITIES
+title: PRI_REPORT_CAPABILITIES (scsi.h)
 ms.date: 03/21/2024
 targetos: Windows
 description: The PRI_REPORT_CAPABILITIES structure contains information on persistent reservation features.

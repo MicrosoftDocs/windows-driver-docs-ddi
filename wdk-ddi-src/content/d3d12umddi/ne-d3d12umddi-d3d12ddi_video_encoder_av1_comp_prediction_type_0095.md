@@ -51,7 +51,7 @@ Indicates that the mode info for inter blocks contains the syntax element comp_m
 
 ## -remarks
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

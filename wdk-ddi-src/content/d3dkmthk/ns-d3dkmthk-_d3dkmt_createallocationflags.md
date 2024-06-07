@@ -41,8 +41,6 @@ api_name:
  - D3DKMT_CREATEALLOCATIONFLAGS
 ---
 
-# D3DKMT_CREATEALLOCATIONFLAGS structure
-
 ## -description
 
 **D3DKMT_CREATEALLOCATIONFLAGS** is a structure of bit fields that specify how to create an allocation in a call to the [**D3DKMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md) function.
@@ -135,33 +133,33 @@ If set, indicates that the resource is created by opening a cross adapter resour
 
 Specifies whether the allocation is created as a partial shared allocation. Supported starting with Windows 8.1 (WDDM 1.3).
 
+### -field Zeroed
+
+[out] Set when the allocation was fulfilled with zeroed pages. Supported starting with Windows 8 (WDDM 1.3).
+
 ### -field WriteWatch
 
-Indicates whether to create the allocation with write-watch enabled. Supported starting with Windows 8.1 (WDDM 1.3).
+[in] Indicates whether to create the allocation with write-watch enabled. Supported starting with Windows 8.1 (WDDM 1.3).
 
 ### -field StandardAllocation
 
-When set, instructs *Dxgkrnl* to create a standard allocation using [**pStandardAllocation**](ns-d3dkmthk-_d3dkmt_createallocation.md) instead of **pPrivateDriverData**. Either **ExistingSysMem** or **ExistingSection** (but not both) must also be set if **StandardAllocation** is set. Additionally, when creating a **StandardAllocation**, the **CreateShared** and **CrossAdapter** flags must also be set. Supported starting with Windows 10 version 1709 (WDDM 2.3).
+[in] When set, instructs *Dxgkrnl* to create a standard allocation using [**pStandardAllocation**](ns-d3dkmthk-_d3dkmt_createallocation.md) instead of **pPrivateDriverData**. Either **ExistingSysMem** or **ExistingSection** (but not both) must also be set if **StandardAllocation** is set. Additionally, when creating a **StandardAllocation**, the **CreateShared** and **CrossAdapter** flags must also be set. Supported starting with Windows 10 version 1709 (WDDM 2.3).
 
 ### -field ExistingSection
 
-When set, instructs *Dxgkrnl* to use the section handle ([**hSection**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo2.md)) instead of the system memory pointer (**pSystemMem**). **ExistingSystemMem** and **ExistingSection** can't both be set for the same allocation. If **ExistingSection** is set, **StandardAllocation** must also be set. Supported starting with Windows 10 version 1709 (WDDM 2.3).
-
-### -field Zeroed
-
-Specifies whether the allocation is to be zero-filled when created. Supported starting with Windows 8.
+[in] When set, instructs *Dxgkrnl* to use the section handle ([**hSection**](../d3dukmdt/ns-d3dukmdt-_d3dddi_allocationinfo2.md)) instead of the system memory pointer (**pSystemMem**). **ExistingSystemMem** and **ExistingSection** can't both be set for the same allocation. If **ExistingSection** is set, **StandardAllocation** must also be set. Supported starting with Windows 10 version 1709 (WDDM 2.3).
 
 ### -field AllowNotZeroed
 
-Indicates that the allocation can be created without zeroing the pages. Supported starting with Windows 10, version 1903 (WDDM 2.6).
+[in] Indicates that the allocation can be created without zeroing the pages. Supported starting with Windows 10, version 1903 (WDDM 2.6).
 
 ### -field PhysicallyContiguous
 
-Indicates that the allocation must be physically contiguous. Supported starting with Windows 10, version 2004 (WDDM 2.7).
+[in] Indicates that the allocation must be physically contiguous. Supported starting with Windows 10, version 2004 (WDDM 2.7).
 
 ### -field NoKmdAccess
 
-Indicates that the KMD isn't notified about the allocation. Supported starting with Windows 10, version 2004 (WDDM 2.7).
+[in] Indicates that the KMD isn't notified about the allocation. Supported starting with Windows 10, version 2004 (WDDM 2.7).
 
 ### -field SharedDisplayable
 

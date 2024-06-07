@@ -68,10 +68,10 @@ A UINT8 representing the Action Frame Action. The driver ignores **ActionFrameAc
 
 ## -remarks
 
-The IHV driver must call [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](wificxpoweroffload\nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md) to initialize this structure and fill in its **Size** field. Then the driver must call [**WifiPowerOffloadGetActionFrameWakePatternParameters**](nf-wificxpoweroffload-wifipoweroffloadgetactionframewakepatternparameters.md) to fill in the remaining members of the structure.
+The IHV driver must call [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md) to initialize this structure and fill in its **Size** field. Then the driver must call [**WifiPowerOffloadGetActionFrameWakePatternParameters**](nf-wificxpoweroffload-wifipoweroffloadgetactionframewakepatternparameters.md) to fill in the remaining members of the structure.
 
 ## -see-also
 
-[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](wificxpoweroffload\nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md)
+[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md)
 
 [**WifiPowerOffloadGetActionFrameWakePatternParameters**](nf-wificxpoweroffload-wifipoweroffloadgetactionframewakepatternparameters.md)

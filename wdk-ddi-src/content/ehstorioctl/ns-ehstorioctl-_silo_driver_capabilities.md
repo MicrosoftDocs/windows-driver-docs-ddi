@@ -92,7 +92,7 @@ The silo driver supports banding of LBA ranges.
 
 ### -field MaxLbaFilterCount
 
-Maximum number of LBA filter entries the silo driver can provide in a <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
+Maximum number of LBA filter entries the silo driver can provide in an <a href="/windows-hardware/drivers/ddi/ehstorioctl/ni-ehstorioctl-ioctl_ehstor_driver_update_lba_filter_table">IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE</a> request.
 
 ### -field RedirectedIoctlListCount
 

@@ -58,5 +58,5 @@ The font code is human-readable.
 
 ### -field Font_Obfusticate
 
-The font code is obfusticated (that is, the internal structure of the font is scrambled in such a way to prevent someone from understaning how the structure works).
+The font code is obfuscated (that is, the internal structure of the font is scrambled in such a way to prevent someone from understanding how the structure works).
 

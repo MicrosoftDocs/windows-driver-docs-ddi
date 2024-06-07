@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.RS_COMMAND_DESCRIPTOR
 tech.root: storage
-title: RS_COMMAND_DESCRIPTOR
+title: RS_COMMAND_DESCRIPTOR (storport.h)
 ms.date: 03/22/2024
 targetos: Windows
 description: The RS_COMMAND_DESCRIPTOR structure contains information about a single supported command descriptor block (CDB).

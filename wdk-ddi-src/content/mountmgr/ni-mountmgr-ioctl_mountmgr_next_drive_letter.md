@@ -1,10 +1,9 @@
 ---
 UID: NI:mountmgr.IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
 title: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER (mountmgr.h)
-description: This IOCTL checks to see if the given volume has a drive letter.
-old-location: storage\ioctl_mountmgr_next_drive_letter.htm
+description: Learn about the IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER IOCTL.
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control code [Storage Devices], k307_c77572b5-04ff-453d-91a4-9f58c65930e0.xml, mountmgr/IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, storage.ioctl_mountmgr_next_drive_letter
 req.header: mountmgr.h
@@ -40,8 +39,6 @@ api_name:
  - IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
 ---
 
-# IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER IOCTL
-
 
 ## -description
 
@@ -51,32 +48,42 @@ This IOCTL checks to see if the given volume has a drive letter. If it already h
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
+
 ### -input-buffer
 
-The mount manager client initializes the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_drive_letter_target">MOUNTMGR_DRIVE_LETTER_TARGET</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>. The client must insert the name of the target volume at the address pointed to by the <i>DeviceName[]</i> member of this structure. The target volume name is the name of the nonpersistent device object associated with the volume (for example, "\Device\HarddiskVolume1").
+The mount manager client initializes the [**MOUNTMGR_DRIVE_LETTER_TARGET**](ns-mountmgr-_mountmgr_drive_letter_target.md) structure at the beginning of the buffer at **Irp->AssociatedIrp.SystemBuffer**. The client must insert the name of the target volume at the address pointed to by the **DeviceName[]** member of this structure. The target volume name is the name of the nonpersistent device object associated with the volume (for example, "\Device\HarddiskVolume1").
 
 ### -input-buffer-length
 
-<b>Parameters.DeviceIoControl.InputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTMGR_DRIVE_LETTER_TARGET).
+**Parameters.DeviceIoControl.InputBufferLength** in the I/O stack location of the IRP indicates the size, in bytes, of the input buffer, which must be greater than or equal to ```sizeof(MOUNTMGR_DRIVE_LETTER_TARGET)```.
 
 ### -output-buffer
 
-The mount manager inserts either the current drive letter or the newly assigned drive letter (see previous discussion) in the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_drive_letter_information">MOUNTMGR_DRIVE_LETTER_INFORMATION</a> structure, defined in <i>Mountmgr.h</i>, at the beginning of the buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>.
+The mount manager inserts either the current drive letter or the newly assigned drive letter (see previous discussion) in the [**MOUNTMGR_DRIVE_LETTER_INFORMATION**](ns-mountmgr-_mountmgr_drive_letter_information.md) structure at the beginning of the buffer at **Irp->AssociatedIrp.SystemBuffer**.
 
 ### -output-buffer-length
 
-<b>Parameters.DeviceIoControl.OutputBufferLength</b> in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer, which must be greater than or equal to <b>sizeof</b>(MOUNTMGR_DRIVE_LETTER_INFORMATION).
+**Parameters.DeviceIoControl.OutputBufferLength** in the I/O stack location of the IRP indicates the size, in bytes, of the output buffer, which must be greater than or equal to ```sizeof(MOUNTMGR_DRIVE_LETTER_INFORMATION)```.
 
 ### -in-out-buffer
 
+N/A
+
 ### -inout-buffer-length
+
+N/A
 
 ### -status-block
 
-If the operation is successful , the <b>Status</b> field is set to STATUS_SUCCESS.
+If the operation is successful , the **Status** field is set to STATUS_SUCCESS.
 
-If <b>InputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_DRIVE_LETTER_TARGET) or if <b>OutputBufferLength</b> is less than <b>sizeof</b>(MOUNTMGR_DRIVE_LETTER_INFORMATION), the <b>Status</b> field is set to STATUS_INVALID_PARAMETER.
+If **InputBufferLength** is less than ```sizeof(MOUNTMGR_DRIVE_LETTER_TARGET)``` or if **OutputBufferLength** is less than ```sizeof(MOUNTMGR_DRIVE_LETTER_INFORMATION)```, the **Status** field is set to STATUS_INVALID_PARAMETER.
+
+## -remarks
+
+For more information, see [Supporting Mount Manager Requests in a Storage Class Driver](/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_drive_letter_target">MOUNTMGR_DRIVE_LETTER_TARGET</a>
+[**MOUNTMGR_DRIVE_LETTER_TARGET**](ns-mountmgr-_mountmgr_drive_letter_target.md)

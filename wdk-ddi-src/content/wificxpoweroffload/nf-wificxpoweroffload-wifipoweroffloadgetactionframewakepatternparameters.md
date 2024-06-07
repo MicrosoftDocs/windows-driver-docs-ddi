@@ -54,15 +54,15 @@ The WIFIPOWEROFFLOAD object that represents this protocol offload.
 
 ### -param Parameters [inout]
 
-A pointer to a driver-allocated and initialized [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](wdk-ddi-src\content\wificxpoweroffloadns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure that receives the action frame wake pattern parameter information.
+A pointer to a driver-allocated and initialized [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure that receives the action frame wake pattern parameter information.
 
 ## -remarks
 
-Drivers must call [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](wificxpoweroffload\nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md) to initialize the [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](wdk-ddi-src\content\wificxpoweroffloadns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure before calling this function.
+Drivers must call [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md) to initialize the [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure before calling this function.
 
 ## -see-also
 
-[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](wdk-ddi-src\content\wificxpoweroffloadns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md)
+[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md)
 
-[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](wificxpoweroffload\nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md)
+[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT**](nf-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters_init.md)
 

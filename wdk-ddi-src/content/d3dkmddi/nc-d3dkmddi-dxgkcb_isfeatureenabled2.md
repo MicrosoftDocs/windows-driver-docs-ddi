@@ -54,7 +54,7 @@ A kernel-mode display miniport driver (KMD) calls **DXGKCB_ISFEATUREENABLED2** t
 
 ### -param pArgs
 
-[in/out] Pointer to a [**DXGKARGCB_ISFEATUREENABLED2**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled2.md) structure that contains information about the feature being queried.
+[in/out] Pointer to a [**DXGKARGCB_ISFEATUREENABLED2**](ns-d3dkmddi-dxgkargcb_isfeatureenabled2.md) structure that contains information about the feature being queried.
 
 ## -returns
 
@@ -68,4 +68,4 @@ For more information, see [Querying WDDM feature support and enablement](/window
 
 [**DXGK_FEATURE_INTERFACE**](../dispmprt/ns-dispmprt-dxgk_feature_interface.md)
 
-[**DXGKARGCB_ISFEATUREENABLED2**](ns-d3dkmddi-_dxgkargcb_isfeatureenabled2.md)
+[**DXGKARGCB_ISFEATUREENABLED2**](ns-d3dkmddi-dxgkargcb_isfeatureenabled2.md)

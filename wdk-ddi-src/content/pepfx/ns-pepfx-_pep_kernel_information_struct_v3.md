@@ -105,7 +105,7 @@ A pointer to an <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallba
 
 ### -field RequestCommon
 
-A pointer to an <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackrequestcommon">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
+A pointer to a <a href="/windows-hardware/drivers/ddi/pepfx/nc-pepfx-pofxcallbackrequestcommon">RequestCommon</a> routine. PoFx sets the value of this member. The <b>RequestCommon</b> routine is implemented by PoFx. The PEP calls this routine to perform a processing operation that is specified by a request ID.
 
 ## -remarks
 

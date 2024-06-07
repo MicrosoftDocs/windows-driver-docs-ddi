@@ -63,7 +63,7 @@ The crypto session support flag requires a header decryption.
 
 ### -field D3D12DDI_CRYPTO_SESSION_SUPPORT_FLAG_0030_INDEPENDENT_DECRYPTION_REQUIRED
 
-The crypto session support flag requires an independent decyption.
+The crypto session support flag requires an independent decryption.
 
 ### -field D3D12DDI_CRYPTO_SESSION_SUPPORT_FLAG_0030_TRANSCRYPTION_REQUIRED
 

@@ -223,7 +223,7 @@ The following is the contract the API client and the driver must conform to when
       * **ppTexture2Ds** = { compact array (no null entries) containing the reconstructed picture from the previously encoded frames referred to by **ReferenceFramesReconPictureDescriptors**.**ReconstructedPictureResourceIndex**[j] for j in {0..7} }
       * [Texture Array mode only] **pSubresources** = { compact array (no null entries) containing the subresource index of the texture array from the previously encoded frames referred to by **ReferenceFramesReconPictureDescriptors**.**ReconstructedPictureResourceIndex**[j] for j in {0..7} }
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:srb._SRBEX_DATA_NVMEOF_OPERATION
 tech.root: storage
-title: SRBEX_DATA_NVMEOF_OPERATION
+title: SRBEX_DATA_NVMEOF_OPERATION (srb.h)
 ms.date: 03/28/2024
 targetos: Windows
 description: For internal use only. Do not use.

@@ -65,7 +65,7 @@ A Boolean value that indicates whether the initiator can use IPsec to protect iS
 
 ### -field CertificatesSupported
 
-A Boolean value that indicates whether the initiator supports certificates. If this member is <b>TRUE</b>, the initiator supports certificates. If this member is <b>FALSE</b>, the initiatiator does not support certificates.
+A Boolean value that indicates whether the initiator supports certificates. If this member is <b>TRUE</b>, the initiator supports certificates. If this member is <b>FALSE</b>, the initiator does not support certificates.
 
 ### -field EncryptionAvailableCount
 

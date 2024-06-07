@@ -121,7 +121,7 @@ Supported starting with Windows 10.
 
 ### -field MonitoredFence.EngineAffinity
 
-[in] A bit field, where each bit position (starting from zero) defines a physical adapter index in an link display adapter (LDA) link where the GPU virtual address will be committed. Zero means that the GPU virtual address will be committed to all physical adapters.
+[in] A bit field, where each bit position (starting from zero) defines a physical adapter index in a link display adapter (LDA) link where the GPU virtual address will be committed. Zero means that the GPU virtual address will be committed to all physical adapters.
 
 Supported starting with Windows 10.
 

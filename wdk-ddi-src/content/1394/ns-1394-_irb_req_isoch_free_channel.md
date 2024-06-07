@@ -1,7 +1,7 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_FREE_CHANNEL
 title: _IRB_REQ_ISOCH_FREE_CHANNEL (1394.h)
-description: This structure contains the fields required to carry out a IsochFreeChannel request.
+description: This structure contains the fields required to carry out an IsochFreeChannel request.
 old-location: ieee\irb_req_isoch_free_channel.htm
 tech.root: IEEE
 ms.date: 02/15/2018
@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-This structure contains the fields required to carry out a IsochFreeChannel request.
+This structure contains the fields required to carry out an IsochFreeChannel request.
 
 ## -struct-fields
 

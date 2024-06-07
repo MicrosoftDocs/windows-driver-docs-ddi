@@ -59,7 +59,7 @@ Indicates that the Self-Guided Restoration (Sgrproj) restoration filter should b
 
 ## -remarks
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

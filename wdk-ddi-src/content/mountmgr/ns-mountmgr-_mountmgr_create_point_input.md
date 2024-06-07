@@ -1,10 +1,9 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_CREATE_POINT_INPUT
-title: _MOUNTMGR_CREATE_POINT_INPUT (mountmgr.h)
-description: The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an IOCTL_MOUNTMGR_CREATE_POINT request.
-old-location: storage\mountmgr_create_point_input.htm
+title: MOUNTMGR_CREATE_POINT_INPUT (mountmgr.h)
+description: Learn about the MOUNTMGR_CREATE_POINT_INPUT structure.
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 06/04/2024
 keywords: ["MOUNTMGR_CREATE_POINT_INPUT structure"]
 ms.keywords: "*PMOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], PMOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], _MOUNTMGR_CREATE_POINT_INPUT, mountmgr/MOUNTMGR_CREATE_POINT_INPUT, mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, storage.mountmgr_create_point_input, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml"
 req.header: mountmgr.h
@@ -46,12 +45,9 @@ api_name:
  - MOUNTMGR_CREATE_POINT_INPUT
 ---
 
-# _MOUNTMGR_CREATE_POINT_INPUT structure
-
-
 ## -description
 
-The MOUNTMGR_CREATE_POINT_INPUT structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a> request.
+The **MOUNTMGR_CREATE_POINT_INPUT** structure is used by the mount manager to send a symbolic link name to a client that has requested symbolic link name by means of an [**IOCTL_MOUNTMGR_CREATE_POINT**](ni-mountmgr-ioctl_mountmgr_create_point.md) request.
 
 ## -struct-fields
 
@@ -73,9 +69,10 @@ Contains the length in bytes of the nonpersistent (target) device name.
 
 ## -remarks
 
-The name given for purposes of identifying the volume can be of any type: a unique volume name, a symbolic link name, or a nonpersistent device name. For a discussion of the difference between symbolic link names and nonpersistent target device names, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+The name given for purposes of identifying the volume can be of any type: a unique volume name, a symbolic link name, or a nonpersistent device name.
+
+For more information, see [Supporting Mount Manager Requests in a Storage Class Driver](/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_create_point">IOCTL_MOUNTMGR_CREATE_POINT</a>
-
+[**IOCTL_MOUNTMGR_CREATE_POINT**](ni-mountmgr-ioctl_mountmgr_create_point.md)

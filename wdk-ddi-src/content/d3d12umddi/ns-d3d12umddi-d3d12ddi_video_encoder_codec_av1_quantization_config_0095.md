@@ -91,7 +91,7 @@ AV1 syntax separate_uv_delta_q will always be coded as 1.
 
 AV1 syntax diff_uv_delta can be inferred if U and V AC/DC components are the same.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

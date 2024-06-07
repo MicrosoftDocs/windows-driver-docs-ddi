@@ -59,7 +59,7 @@ This array consists of integers that represent the parameters of the transformat
 
 This structure is related to warped motion transformation/global motion type. It indicates the transform(s) to be applied to motion vectors.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

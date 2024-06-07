@@ -227,11 +227,11 @@ This enumerates the **KSPROPERTY_CAMERACONTROL_EXTENDED_FRAMERATE_THROTTLE** con
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2_CONFIGCAPS
 
-This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2_CONFIGCAPS](/windows-hardware/drivers/stream/ksproperty_cameracontrol_extended_fieldofview2_configcaps) control.
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2_CONFIGCAPS](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview2-configcaps) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2
 
-This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2](/windows-hardware/drivers/stream/ksproperty_cameracontrol_extended_fieldofview2) control.
+This enumerates the [KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview2) control.
 
 ### -field KSPROPERTY_CAMERACONTROL_EXTENDED_END
 

@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.PRI_REPORT_CAPABILITIES
 tech.root: storage
-title: PRI_REPORT_CAPABILITIES
+title: PRI_REPORT_CAPABILITIES (storport.h)
 ms.date: 03/22/2024
 targetos: Windows
 description: The PRI_REPORT_CAPABILITIES structure contains information on persistent reservation features.

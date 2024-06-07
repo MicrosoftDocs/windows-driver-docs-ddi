@@ -194,7 +194,7 @@ The values set in the **MajorNdisVersion** and **MinorNdisVersion** members of t
 
 ## -remarks
 
-A protocol driver must specify an **MajorNdisVersion** of 0x05 (the current version) or 0x04. NDIS no longer supports V.30 protocols and therefore does not load a protocol that specifies an **MajorNdisVersion** of 0x03.
+A protocol driver must specify a **MajorNdisVersion** of 0x05 (the current version) or 0x04. NDIS no longer supports V.30 protocols and therefore does not load a protocol that specifies a **MajorNdisVersion** of 0x03.
 
 All protocols must be Plug and Play (PnP) capable. A protocol must therefore specify entry points for **BindAdapterHandler** and **UnbindAdapterHandler**. NDIS does not load a protocol that specifies **NULL** for these handlers.
 

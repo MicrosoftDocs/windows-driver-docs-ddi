@@ -1804,6 +1804,31 @@
       "source_path": "wdk-ddi-src/content/wdtfdriversetupsystemaction/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2.md",
       "redirect_URL": "/windows-hardware/drivers/wdtf/nn-wdtfdriversetupsystemaction-iwdtfdriversetupsystemaction2",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/acpitabl/ns-acpitabl-aspt_entry_acpi_mailbox_registers.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/acpitabl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/acpitabl/ns-acpitabl-aspt_table.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/acpitabl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/acpitabl/ns-acpitabl-aspt_entry_asp_global_registers.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/acpitabl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/acpitabl/ns-acpitabl-aspt_entry_sev_mailbox_registers.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/acpitabl",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/ntddk/ns-ntddk-process_mitigation_activation_context_trust_policy.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/ntddk",
+      "redirect_document_id": false
     }
   ]
 }

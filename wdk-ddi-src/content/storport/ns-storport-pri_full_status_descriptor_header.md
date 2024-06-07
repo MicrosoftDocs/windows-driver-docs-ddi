@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.PRI_FULL_STATUS_DESCRIPTOR_HEADER
 tech.root: storage
-title: PRI_FULL_STATUS_DESCRIPTOR_HEADER
+title: PRI_FULL_STATUS_DESCRIPTOR_HEADER (storport.h)
 ms.date: 03/22/2024
 targetos: Windows
 description: The PRI_FULL_STATUS_DESCRIPTOR_HEADER structure is the first member of a PRI_FULL_STATUS_DESCRIPTOR structure, which is used to populate a PRI_FULL_STATUS_LIST.

@@ -53,7 +53,7 @@ The monitor is connected directly to the graphics card.
 
 ### -field DXGK_DIAG_DISPLAY_CONNECTED_INDIRECTLY_CONVERTOR
 
-The monitor is connected indirectly to the graphics card via a convertor/connector. In most cases, the driver can only detect active convertors.
+The monitor is connected indirectly to the graphics card via a converter/connector. In most cases, the driver can only detect active converters.
 
 ### -field DXGK_DIAG_DISPLAY_CONNECTED_INDIRECTLY_HUB
 
@@ -61,7 +61,7 @@ The monitor is connected indirectly to the graphics card via a hub.
 
 ### -field DXGK_DIAG_DISPLAY_CONNECTED_INDIRECTLY
 
-The monitor is connected indirectly to the graphics card but the driver cannot determine whether it is connected via a hub or a convertor.
+The monitor is connected indirectly to the graphics card but the driver cannot determine whether it is connected via a hub or a converter.
 
 ### -field DXGK_DIAG_DISPLAY_CONNECTED_UNKNOWN
 

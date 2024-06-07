@@ -44,13 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
-The **WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT** function initializes a [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](wdk-ddi-src\content\wificxpoweroffloadns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure.
+The **WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS_INIT** function initializes a [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure.
 
 ## -parameters
 
 ### -param Parameters
 
-[_Out_] A pointer to a client driver-allocated [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](wdk-ddi-src\content\wificxpoweroffloadns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure.
+[_Out_] A pointer to a client driver-allocated [**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md) structure.
 
 ## -remarks
 
@@ -60,6 +60,6 @@ The client driver must only call **WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_
 
 ## -see-also
 
-[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](wdk-ddi-src\content\wificxpoweroffloadns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md)
+[**WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_action_frame_wake_pattern_parameters.md)
 
 [**WifiPowerOffloadGetActionFrameWakePatternParameters**](nf-wificxpoweroffload-wifipoweroffloadgetactionframewakepatternparameters.md)

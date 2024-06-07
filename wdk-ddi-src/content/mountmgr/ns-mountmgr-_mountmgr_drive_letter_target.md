@@ -1,10 +1,9 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_DRIVE_LETTER_TARGET
-title: _MOUNTMGR_DRIVE_LETTER_TARGET (mountmgr.h)
-description: The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request to furnish a nonpersistent target device name to the mount manager.
-old-location: storage\mountmgr_drive_letter_target.htm
+title: MOUNTMGR_DRIVE_LETTER_TARGET (mountmgr.h)
+description: Learn about the MOUNTMGR_DRIVE_LETTER_TARGET structure.
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 06/04/2024
 keywords: ["MOUNTMGR_DRIVE_LETTER_TARGET structure"]
 ms.keywords: "*PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_TARGET, PMOUNTMGR_DRIVE_LETTER_TARGET structure pointer [Storage Devices], _MOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/PMOUNTMGR_DRIVE_LETTER_TARGET, storage.mountmgr_drive_letter_target, structs-mntmgr_66751bbf-3c3a-407d-9faf-1ef190c9c7a2.xml"
 req.header: mountmgr.h
@@ -46,12 +45,9 @@ api_name:
  - MOUNTMGR_DRIVE_LETTER_TARGET
 ---
 
-# _MOUNTMGR_DRIVE_LETTER_TARGET structure
-
-
 ## -description
 
-The MOUNTMGR_DRIVE_LETTER_TARGET structure is used by a mount manager client with an <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a> request to furnish a nonpersistent target device name to the mount manager.
+The **MOUNTMGR_DRIVE_LETTER_TARGET** structure is used by a mount manager client with an [**IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER**](ni-mountmgr-ioctl_mountmgr_next_drive_letter.md) request to furnish a nonpersistent target device name to the mount manager.
 
 ## -struct-fields
 
@@ -65,11 +61,12 @@ Contains the nonpersistent target device name.
 
 ## -remarks
 
-The mount manager responds to the IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request by furnishing the client with a drive letter for the target device. 
+The mount manager responds to the IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER request by furnishing the client with a drive letter for the target device.
 
-Nonpersistent target names must contain the full path of a target object name in the system object tree. For example: "\Device\HarddiskVolume1". For a discussion of the difference between drive letters and nonpersistent target device names, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+Nonpersistent target names must contain the full path of a target object name in the system object tree. For example: "\Device\HarddiskVolume1".
+
+For more information, see [Supporting Mount Manager Requests in a Storage Class Driver](/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_next_drive_letter">IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER</a>
-
+[**IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER**](ni-mountmgr-ioctl_mountmgr_next_drive_letter.md)

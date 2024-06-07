@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_PROPERTY_ITEM** structure describes a property item that is the target of an ACX request. A property represents a capability or control-state setting that belongs to a ACX object, such as a circuit, element, pin, stream, etc. For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
+The **ACX_PROPERTY_ITEM** structure describes a property item that is the target of an ACX request. A property represents a capability or control-state setting that belongs to an ACX object, such as a circuit, element, pin, stream, etc. For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).
 
 ## -struct-fields
 

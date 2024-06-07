@@ -1,7 +1,7 @@
 ---
 UID: NS:1394._IRB_REQ_ISOCH_ATTACH_BUFFERS
 title: _IRB_REQ_ISOCH_ATTACH_BUFFERS (1394.h)
-description: This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
+description: This structure contains the fields required for the 1394 bus driver to carry out an IsochAttachBuffers request.
 old-location: ieee\irb_req_isoch_attach_buffers.htm
 tech.root: IEEE
 ms.date: 02/15/2018
@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-This structure contains the fields required for the 1394 bus driver to carry out a IsochAttachBuffers request.
+This structure contains the fields required for the 1394 bus driver to carry out an IsochAttachBuffers request.
 
 ## -struct-fields
 

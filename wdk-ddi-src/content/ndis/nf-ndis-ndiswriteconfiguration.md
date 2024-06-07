@@ -126,7 +126,7 @@ If an entry of the same name as at
 In the configuration registry of Windows 2000 and later versions, an NDIS 
     <i>Keyword</i> is a synonym for a
     <i>value entry name</i>. Such a name is a counted sequence of Unicode characters, terminated with a
-    NUL.
+    null character.
 
 <b>NdisWriteConfiguration</b> buffers and copies the caller-supplied string at 
     <i>Keyword</i> and the caller-supplied data specified at 

@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.RS_ONE_COMMAND_PARAMETER_DATA
 tech.root: storage
-title: RS_ONE_COMMAND_PARAMETER_DATA
+title: RS_ONE_COMMAND_PARAMETER_DATA (storport.h)
 ms.date: 03/22/2024
 targetos: Windows
 description: The RS_ONE_COMMAND_PARAMETER_DATA structure contains information about the command data block (CDB) and a usage map for bits in the CDB.

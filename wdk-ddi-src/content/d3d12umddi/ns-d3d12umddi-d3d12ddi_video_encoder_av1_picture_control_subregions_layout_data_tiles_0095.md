@@ -86,7 +86,7 @@ Check the limitations for tile configuration returned in [**D3D12DDI_FEATURE_DAT
 **D3D12DDI_VIDEO_ENCODER_AV1_MAX_TILE_ROWS_0095** and **D3D12DDI_VIDEO_ENCODER_AV1_MAX_TILE_COLS_0095** are constants as defined in the AV1 codec specification. For the width and height parameter lists, make sure they fall under these AV1 codec standard-defined dimension limitations. The units of these arrays are measured in block of size [**D3D12DDI_VIDEO_ENCODER_RESOLUTION_SUPPORT_LIMITS_0080_2**](ns-d3d12umddi-d3d12ddi_video_encoder_resolution_support_limits_0080_2.md)**.SubregionBlockPixelsSize**. For example if **ColHeights**[0] equals 2 and **SubregionBlockPixelsSize** equals 64,
 then ```ColHeightInPixels**[0] = ColHeights[0] * SubregionBlockPixelsSize = 2 * 64 = 128```.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

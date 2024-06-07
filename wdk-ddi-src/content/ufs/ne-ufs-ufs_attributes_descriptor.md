@@ -58,18 +58,7 @@ Reserved for future use.
 
 ### -field UFS_bCurrentPowerMode
 
-Indicates the current power mode. Contains one of the following values:
-
-| Value | Description |
-|--|--|
-| 0x00 | Idle power mode. |
-| 0x10 | Pre-Active power mode. |
-| 0x11 | Active power mode. |
-| 0x20 | Pre-Sleep power mode. |
-| 0x22 | Universal Flash Storage (UFS)-Sleep power mode. |
-| 0x30 | 40% to 50% of the device's estimated life time has been used. |
-| 0x33 | 50% to 60% of the device's estimated life time has been used. |
-| All other values | Reserved for future use. |
+Indicates the current power mode. See Remarks for possible values.
 
 ### -field UFS_bActiveICCLevel
 
@@ -81,14 +70,7 @@ Specifies if out-of-order data transfer is enabled.
 
 ### -field UFS_bBackgroundOpStatus
 
-Specifies if the device has a need for background operations. Contains one of the following values:
-
-| Value | Description |
-|--|--|
-| 0x00 | Device requires no background operations. |
-| 0x01 | Device has a non-critical need of background operations. |
-| 0x02 | Device has a performance impacted-based need of background operations. |
-| 0x03 | Device has a critical need of background operations. |
+Specifies if the device has a need for background operations. See Remarks for possible values.
 
 ### -field UFS_bPurgeStatus
 
@@ -108,14 +90,7 @@ Specifies the dynamic capacity need.
 
 ### -field UFS_bRefClkFreq
 
-Specifies the reference clock frequency value.
-
-| Value | Description |
-|--|--|
-| 0x00 | 19.2 MHz |
-| 0x01 | 26 MHz |
-| 0x02 | 38.4 MHz |
-| 0x03 | 52 MHz |
+Specifies the reference clock frequency value. See Remarks for possible values.
 
 ### -field UFS_bConfigDescrLock
 
@@ -131,14 +106,7 @@ Specifies the Exception Event Controller. **UFS_wExceptionEventControl** enables
 
 ### -field UFS_wExceptionEventStatus
 
-Specifies a bitmap of each exception event status.A bit will be set only if the relevant event has occurred (regardless of the **UFS_wExceptionEventControl** status). Contains the following bits:
-
-| Bit | Value |
-|--|--|
-| 0 | DYNCAP_NEEDED |
-| 1 | SYSPOOL_EXHAUSTED |
-| 2 | URGENT_BKOPS |
-| 3 to 15 | Reserved. |
+Specifies a bitmap of each exception event status.A bit will be set only if the relevant event has occurred (regardless of the **UFS_wExceptionEventControl** status).  See Remarks for possible values.
 
 ### -field UFS_dSecondsPassed
 
@@ -162,28 +130,11 @@ Reserved for future use.
 
 ### -field UFS_bDeviceFFUStatus
 
-Specifies the Device Field Firmware Update (FFU) status.
-
-| Value | Description |
-|--|--|
-| 0x00 | No information on the FFU status. |
-| 0x01 | Successful microcode update. |
-| 0x02 | Microcode corruption error. |
-| 0x03 | Internal error. |
-| 0x04 | Microcode version mismatch. |
-| 0x05 to 0xFE | Reserved. |
-| 0xFF | General Error. |
+Specifies the Device Field Firmware Update (FFU) status. See Remarks for possible values.
 
 ### -field UFS_bPSAState
 
-Specifies the current Product State Awareness (PSA) State.
-
-| Value | State | Description |
-|--|--|--|
-| 0x00 | Off | PSA feature is off. |
-| 0x01 | Pre-solder | PSA feature is on and the device is in a pre-soldering state. |
-| 0x02 | Loading Complete | The PSA feature is on. The host will set to this value after the host finished writing data during pre-soldering state. |
-| 0x03 | Soldered | PSA feature is no longer available. Set by the Device to indicate it is in a post-soldering state. This attribute is locked after it is in 'Soldered' state. |
+Specifies the current Product State Awareness (PSA) State. See Remarks for possible values.
 
 ### -field UFS_dPSADataSize
 
@@ -294,20 +245,82 @@ Specifies the refresh method.
 **UFS_bCurrentPowerMode** is the only attribute the device is required to return in any power mode. If the device
 is not in Active power mode or Idle power mode, a **QUERY REQUEST UPIU** to access descriptors, flags, or attributes other than **bCurrentPowerMode** may fail.
 
-**UFS_bDeviceFFUStatu**s value is kept after power cycle, hardware reset or any other type of reset. This attribute may change value when a
-microcode activation event occurs.
+Tje **UFS_bDeviceFFUStatus** value is kept after power cycle, hardware reset or any other type of reset. This attribute may change value when a microcode activation event occurs.
 
 **UFS_bMaxDataInSize** is equal to **bMaxInBufferSize** when a UFS device is shipped.
 
+### Possible values for some fields
+
+**UFS_bCurrentPowerMode** contains one of the following values:
+
+| Value | Description |
+|--|--|
+| 0x00 | Idle power mode. |
+| 0x10 | Pre-Active power mode. |
+| 0x11 | Active power mode. |
+| 0x20 | Pre-Sleep power mode. |
+| 0x22 | Universal Flash Storage (UFS)-Sleep power mode. |
+| 0x30 | 40% to 50% of the device's estimated life time has been used. |
+| 0x33 | 50% to 60% of the device's estimated life time has been used. |
+| All other values | Reserved for future use. |
+
+**UFS_bBackgroundOpStatus** contains one of the following values:
+
+| Value | Description |
+|--|--|
+| 0x00 | Device requires no background operations. |
+| 0x01 | Device has a non-critical need of background operations. |
+| 0x02 | Device has a performance impacted-based need of background operations. |
+| 0x03 | Device has a critical need of background operations. |
+
+**UFS_bRefClkFreq** contains one of the following values:
+
+| Value | Description |
+|--|--|
+| 0x00 | 19.2 MHz |
+| 0x01 | 26 MHz |
+| 0x02 | 38.4 MHz |
+| 0x03 | 52 MHz |
+
+**UFS_wExceptionEventStatus** contains the following bits:
+
+| Bit | Value |
+|--|--|
+| 0 | DYNCAP_NEEDED |
+| 1 | SYSPOOL_EXHAUSTED |
+| 2 | URGENT_BKOPS |
+| 3 to 15 | Reserved. |
+
+**UFS_bDeviceFFUStatus** contains one of the following values:
+
+| Value | Description |
+|--|--|
+| 0x00 | No information on the FFU status. |
+| 0x01 | Successful microcode update. |
+| 0x02 | Microcode corruption error. |
+| 0x03 | Internal error. |
+| 0x04 | Microcode version mismatch. |
+| 0x05 to 0xFE | Reserved. |
+| 0xFF | General Error. |
+
+**UFS_bPSAState** contains one of the following values:
+
+| Value | State | Description |
+|--|--|--|
+| 0x00 | Off | PSA feature is off. |
+| 0x01 | Pre-solder | PSA feature is on and the device is in a pre-soldering state. |
+| 0x02 | Loading Complete | The PSA feature is on. The host will set to this value after the host finished writing data during pre-soldering state. |
+| 0x03 | Soldered | PSA feature is no longer available. Set by the Device to indicate it is in a post-soldering state. This attribute is locked after it is in 'Soldered' state. |
+
 ## -see-also
 
-- **[UFS_CONFIG_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor)**
-- **[UFS_DEVICE_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_device_descriptor)**
-- **[UFS_DEVICE_HEALTH_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_device_health_descriptor)**
-- **[UFS_GEOMETRY_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor)**
-- **[UFS_INTERCONNECT_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_interconnect_descriptor)**
-- **[UFS_POWER_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_power_descriptor)**
-- **[UFS_RPMB_UNIT_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor)**
-- **[UFS_STRING_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-_ufs_string_descriptor)**
-- **[UFS_UNIT_CONFIG_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor)**
-- **[UFS_UNIT_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor)**
+**[UFS_CONFIG_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_config_descriptor)**
+**[UFS_DEVICE_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_device_descriptor)**
+**[UFS_DEVICE_HEALTH_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_device_health_descriptor)**
+**[UFS_GEOMETRY_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_geometry_descriptor)**
+**[UFS_INTERCONNECT_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_interconnect_descriptor)**
+**[UFS_POWER_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_power_descriptor)**
+**[UFS_RPMB_UNIT_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_rpmb_unit_descriptor)**
+**[UFS_STRING_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-_ufs_string_descriptor)**
+**[UFS_UNIT_CONFIG_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_config_descriptor)**
+**[UFS_UNIT_DESCRIPTOR](/windows-hardware/drivers/ddi/ufs/ns-ufs-ufs_unit_descriptor)**

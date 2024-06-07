@@ -55,8 +55,3 @@ The command is a Fabrics command.
 ## -remarks
 
 **SRBEX_DATA_NVME_COMMAND_TYPE** is specified in a **[SRBEX_DATA_NVME_COMMAND](ns-srb-srbex_data_nvme_command.md)** structure.
-
-## -see-also
-
-- [**SRBEX_DATA_NVME_COMMAND_TYPE** (*minitape.h*)](../minitape/ne-minitape-srbex_data_nvme_command_type.md)
-- [**SRBEX_DATA_NVME_COMMAND_TYPE** (*storport.h*)](../storport/ne-minitape-srbex_data_nvme_command_type.md)

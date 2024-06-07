@@ -1,7 +1,7 @@
 ---
 UID: NS:scsi.RS_COMMAND_TIMEOUTS_DESCRIPTOR
 tech.root: storage
-title: RS_COMMAND_TIMEOUTS_DESCRIPTOR
+title: RS_COMMAND_TIMEOUTS_DESCRIPTOR (scsi.h)
 ms.date: 03/21/2024
 targetos: Windows
 description: The RS_COMMAND_TIMEOUTS_DESCRIPTOR structure contains command timeout information from the start of processing a command to its reported completion.

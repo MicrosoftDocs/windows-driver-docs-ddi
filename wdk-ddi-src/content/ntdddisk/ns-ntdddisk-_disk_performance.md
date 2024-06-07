@@ -1,10 +1,9 @@
 ---
 UID: NS:ntdddisk._DISK_PERFORMANCE
-title: _DISK_PERFORMANCE (ntdddisk.h)
-description: The DISK_PERFORMANCE structure is used in conjunction with the IOCTL_DISK_PERFORMANCE request to collect summary disk statistics for purposes of measuring disk performance.
-old-location: storage\disk_performance.htm
+title: DISK_PERFORMANCE (ntdddisk.h)
+description: Learn more about the DISK_PERFORMANCE structure.
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 05/24/2024
 keywords: ["DISK_PERFORMANCE structure"]
 ms.keywords: "*PDISK_PERFORMANCE, DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices], PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], _DISK_PERFORMANCE, ntdddisk/DISK_PERFORMANCE, ntdddisk/PDISK_PERFORMANCE, storage.disk_performance, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml"
 req.header: ntdddisk.h
@@ -46,12 +45,11 @@ api_name:
  - DISK_PERFORMANCE
 ---
 
-# _DISK_PERFORMANCE structure
-
+# DISK_PERFORMANCE structure
 
 ## -description
 
-The DISK_PERFORMANCE structure is used in conjunction with the <a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a> request to collect summary disk statistics for purposes of measuring disk performance.
+The DISK_PERFORMANCE structure is used in conjunction with the [**IOCTL_DISK_PERFORMANCE**](ni-ntdddisk-ioctl_disk_performance.md) request to collect summary disk statistics for purposes of measuring disk performance.
 
 ## -struct-fields
 
@@ -93,15 +91,19 @@ Contains the number of disk accesses by means of an associated IRP since the per
 
 ### -field QueryTime
 
-Contains a timestamp indicating the system time at the moment that the query took place. System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. For more information about system time, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime">KeQuerySystemTime</a>.
+Contains a timestamp indicating the system time at the moment that the query took place. System time is a count of 100-nanosecond intervals since January 1, 1601. System time is typically updated approximately every ten milliseconds. For more information about system time, see[**KeQuerySystemTime**](../wdm/nf-wdm-kequerysystemtime.md).
 
 ### -field StorageDeviceNumber
 
-Contains a unique number assigned to every disk or volume across a particular storage type. The storage types are <i>disk.sys</i>, <i>ftdisk.sys</i>, and <i>dmio.sys</i>.
+Contains a unique number assigned to every disk or volume across a particular storage type. The storage types are *disk.sys*, *ftdisk.sys*, and *dmio.sys*.
 
 ### -field StorageManagerName
 
-Contains an 8-character string that indicates which device driver provided the performance statistics. In Windows 2000, this can be either "LogiDisk" for the driver <i>logidisk.sys</i> or "PhysDisk" for the driver <i>physdisk.sys</i>. These drivers collect performance statistics for devices and physical disks respectively. In Windows XP and later operating systems, this can be any of the following three strings: "FTDISK" for the driver <i>ftdisk.sys</i>, "DMIO" for the driver <i>dmio.sys</i>, or "PARTMGR" for the driver <i>partmgr.sys</i>. These three drivers collect performance statistics for basic disk volumes, dynamic disk volumes, and physical disks respectively. Note that these strings are 8-character case-sensitive strings with blank fill. For example, in the case of the string "FTDISK", the <b>StorageManagerName</b> character array should contain two trailing blanks ("FTDISK&nbsp;&nbsp;"), and in the case of the string "DMIO", the array should contain four trailing blanks ("DMIO&nbsp;&nbsp;&nbsp;&nbsp;").
+Contains an 8-character string that indicates which device driver provided the performance statistics.
+
+* In Windows 2000, this can be either "LogiDisk" for the driver *logidisk.sys* or "PhysDisk" for the driver *physdisk.sys*. These drivers collect performance statistics for devices and physical disks respectively.
+
+* In Windows XP and later operating systems, this can be any of the following three strings: "FTDISK" for the driver *ftdisk.sys*, "DMIO" for the driver *dmio.sys*, or "PARTMGR" for the driver *partmgr.sys*. These three drivers collect performance statistics for basic disk volumes, dynamic disk volumes, and physical disks respectively. Note that these strings are 8-character case-sensitive strings with blank fill. For example, in the case of the string "FTDISK", the **StorageManagerName** character array should contain two trailing blanks ("FTDISK&nbsp;&nbsp;"), and in the case of the string "DMIO", the array should contain four trailing blanks ("DMIO&nbsp;&nbsp;&nbsp;&nbsp;").
 
 ## -remarks
 
@@ -109,7 +111,6 @@ Counting halts whenever the performance counters are disabled, but the counters 
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance">IOCTL_DISK_PERFORMANCE</a>
+[**IOCTL_DISK_PERFORMANCE**](ni-ntdddisk-ioctl_disk_performance.md)
 
-<a href="/windows-hardware/drivers/ddi/ntdddisk/ni-ntdddisk-ioctl_disk_performance_off">IOCTL_DISK_PERFORMANCE_OFF</a>
-
+[**IOCTL_DISK_PERFORMANCE_OFF**](ni-ntdddisk-ioctl_disk_performance_off.md)

@@ -50,9 +50,7 @@ If the selected rate control mode is [**D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_MODE
 
 For the other rate control modes, this flag enables **pRateControlQPMap** to be interpreted as a delta QP map to be used for the current [frame encode operation](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md). The values provided in the map are incremented/decremented on top of the QP values decided by the rate control algorithm or the baseline QP constant set in CQP mode.
 
-> [!NOTE]
->
-> Using delta QP adjustment along with some active rate control modes might violate bitrate constraints as it explicitly alters the QP values that were selected by the rate control budgeting algorithm.
+Using delta QP adjustment along with some active rate control modes might violate bitrate constraints as it explicitly alters the QP values that were selected by the rate control budgeting algorithm.
 
 ### -field D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAG_0080_ENABLE_FRAME_ANALYSIS:0x2
 
@@ -76,9 +74,15 @@ When set, enable the usage of **VBVCapacity** and **InitialVBVFullness**.
 
 ### -field D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAG_0096_ENABLE_EXTENSION1_SUPPORT:0x40
 
-Requires [**D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT**](ne-d3d12umddi-d3d12ddi_video_encoder_support_flags_0083_0.md) to be set.
+Requires [**D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT**](ne-d3d12umddi-d3d12ddi_video_encoder_support_flags_0083_0.md) to be set. See Remarks.
 
-When enabled, indicates that the rate control structures extended for AV1 encoding will be used in [**D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS.pConfiguration_*Xxx***](ns-d3d12umddi-d3d12ddi_video_encoder_rate_control_configuration_params_0080_2.md), as per the following table.
+### -field D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAG_0096_ENABLE_QUALITY_VS_SPEED:0x80
+
+Requires **D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT** and **D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_QUALITY_VS_SPEED_AVAILABLE**. When enabled, indicates the use of **QualityVsSpeed** in the rate control structure.
+
+## -remarks
+
+When **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAG_0096_ENABLE_EXTENSION1_SUPPORT** is enabled, this indicates that the rate control structures extended for AV1 encoding will be used in [**D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS.pConfiguration_*Xxx***](ns-d3d12umddi-d3d12ddi_video_encoder_rate_control_configuration_params_0080_2.md), as per the following table.
 
 | Rate control mode when flag is enabled | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS type | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CONFIGURATION_PARAMS DataSize |
 | -------------------------------------- | ------------------------------------------------------------- | ----------------------------------------------------------------- |
@@ -97,12 +101,6 @@ Otherwise, the legacy structures will be used when disabled, as per the followin
 | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_MODE_CBR | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CBR | sizeof(D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CBR) |
 | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_MODE_VBR | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_VBR | sizeof(D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_VBR) |
 | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_MODE_QVBR | D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_QVBR | sizeof(D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_QVBR) |
-
-### -field D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_FLAG_0096_ENABLE_QUALITY_VS_SPEED:0x80
-
-Requires **D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_EXTENSION1_SUPPORT** and **D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAG_RATE_CONTROL_QUALITY_VS_SPEED_AVAILABLE**. When enabled, indicates the use of **QualityVsSpeed** in the rate control structure.
-
-## -remarks
 
 See [D3D12 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12) for general information.
 

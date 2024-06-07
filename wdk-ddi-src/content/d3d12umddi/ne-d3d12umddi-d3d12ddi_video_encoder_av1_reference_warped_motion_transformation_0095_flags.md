@@ -65,7 +65,7 @@ Indicates support for the affine transformation.
 
 If only **D3D12DDI_VIDEO_ENCODER_AV1_REFERENCE_WARPED_MOTION_TRANSFORMATION_0095_FLAG_NONE** is supported, reference warp motion arguments are ignored and AV1 is_global syntax is false for all references.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

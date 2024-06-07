@@ -1,10 +1,9 @@
 ---
 UID: NS:mountmgr._MOUNTMGR_MOUNT_POINT
-title: _MOUNTMGR_MOUNT_POINT (mountmgr.h)
-description: The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an IOCTL_MOUNTMGR_QUERY_POINTS request to query the mount manager for all of the mount points (symbolic links) associated with a device.
-old-location: storage\mountmgr_mount_point.htm
+title: MOUNTMGR_MOUNT_POINT (mountmgr.h)
+description: Learn about the MOUNTMGR_MOUNT_POINT structure.
 tech.root: storage
-ms.date: 03/29/2018
+ms.date: 06/04/2024
 keywords: ["MOUNTMGR_MOUNT_POINT structure"]
 ms.keywords: "*PMOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT, MOUNTMGR_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_MOUNT_POINT, PMOUNTMGR_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_MOUNT_POINT, mountmgr/MOUNTMGR_MOUNT_POINT, mountmgr/PMOUNTMGR_MOUNT_POINT, storage.mountmgr_mount_point, structs-mntmgr_88136173-0786-4d4e-80b7-77f523e8d125.xml"
 req.header: mountmgr.h
@@ -46,12 +45,9 @@ api_name:
  - MOUNTMGR_MOUNT_POINT
 ---
 
-# _MOUNTMGR_MOUNT_POINT structure
-
-
 ## -description
 
-The MOUNTMGR_MOUNT_POINT structure is used by mount manager clients in conjunction with an <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request to query the mount manager for all of the mount points (symbolic links) associated with a device. The mount manager responds by sending an array of MOUNTMGR_MOUNT_POINT structures containing the mount points.
+The **MOUNTMGR_MOUNT_POINT** structure is used by mount manager clients in conjunction with an [**IOCTL_MOUNTMGR_QUERY_POINTS**](ni-mountmgr-ioctl_mountmgr_query_points.md) request to query the mount manager for all of the mount points (symbolic links) associated with a device. The mount manager responds by sending an array of **MOUNTMGR_MOUNT_POINT** structures containing the mount points.
 
 ## -struct-fields
 
@@ -87,15 +83,14 @@ Contains the length, in bytes, of the nonpersistent device name.
 
 ## -remarks
 
-None of the names returned are <b>NULL</b> terminated, nor do the buffers require terminating <b>NULL</b> characters. The caller of <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> is not required to provide data in all of the members of the MOUNTMGR_MOUNT_POINT structure, but empty members must have an offset of zero.
+None of the names returned are NULL terminated, nor do the buffers require terminating NULL characters. The caller of [**IOCTL_MOUNTMGR_QUERY_POINTS**](ni-mountmgr-ioctl_mountmgr_query_points.md) is not required to provide data in all of the members of the MOUNTMGR_MOUNT_POINT structure, but empty members must have an offset of zero.
 
-On input, offsets are from the beginning of the MOUNTMGR_MOUNT_POINT structure. On output offsets are from the beginning of the buffer. This is usually the same as the beginning of the <a href="/windows-hardware/drivers/ddi/mountmgr/ns-mountmgr-_mountmgr_mount_points">MOUNTMGR_MOUNT_POINTS</a> container structure (as opposed to the embedded MOUNTMGR_MOUNT_POINT array instance).
+On input, offsets are from the beginning of the MOUNTMGR_MOUNT_POINT structure. On output offsets are from the beginning of the buffer. This is usually the same as the beginning of the [**MOUNTMGR_MOUNT_POINTS**](ns-mountmgr-_mountmgr_mount_points.md) container structure (as opposed to the embedded MOUNTMGR_MOUNT_POINT array instance).
 
-The <a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a> request is available in Windows 2000 and later operating systems.
+The [**IOCTL_MOUNTMGR_QUERY_POINTS**](ni-mountmgr-ioctl_mountmgr_query_points.md) request is available in Windows 2000 and later operating systems.
 
-For a discussion of the different between symbolic links, unique IDs, and nonpersistent device names, see <a href="/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver">Supporting Mount Manager Requests in a Storage Class Driver</a>.
+For more information, see [Supporting Mount Manager Requests in a Storage Class Driver](/windows-hardware/drivers/storage/supporting-mount-manager-requests-in-a-storage-class-driver).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mountmgr/ni-mountmgr-ioctl_mountmgr_query_points">IOCTL_MOUNTMGR_QUERY_POINTS</a>
-
+[**IOCTL_MOUNTMGR_QUERY_POINTS**](ni-mountmgr-ioctl_mountmgr_query_points.md)

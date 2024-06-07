@@ -123,7 +123,7 @@ The **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT1_DATA_0096** structure provides the dri
 
 The previous **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0** structure doesn't work for AV1 codec input.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

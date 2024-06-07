@@ -2,9 +2,8 @@
 UID: NF:ntifs.NtCreateFile
 title: NtCreateFile function (ntifs.h)
 description: Learn more about the NtCreateFile function.
-old-location: kernel\zwcreatefile.htm
 tech.root: kernel
-ms.date: 05/24/2022
+ms.date: 05/24/2024
 keywords: ["NtCreateFile function"]
 ms.keywords: NtCreateFile, ZwCreateFile, ZwCreateFile routine [Kernel-Mode Driver Architecture], k111_80b1882a-8617-45d4-a783-dbc3bfc9aad4.xml, kernel.zwcreatefile, wdm/NtCreateFile, wdm/ZwCreateFile
 req.header: ntifs.h
@@ -157,7 +156,7 @@ Specifies the options to apply when the driver creates or opens the file. Use on
 | FILE_NO_INTERMEDIATE_BUFFERING (0x00000008) | The file cannot be cached or buffered in a driver's internal buffers. This flag is incompatible with the **DesiredAccess** parameter's FILE_APPEND_DATA flag. |
 | FILE_SYNCHRONOUS_IO_ALERT (0x00000010) | All operations on the file are performed synchronously. Any wait on behalf of the caller is subject to premature termination from alerts. This flag also causes the I/O system to maintain the file-position pointer. If this flag is set, the SYNCHRONIZE flag must be set in the **DesiredAccess** parameter. |
 | FILE_SYNCHRONOUS_IO_NONALERT (0x00000020) | All operations on the file are performed synchronously. Waits in the system that synchronize I/O queuing and completion are not subject to alerts. This flag also causes the I/O system to maintain the file-position context. If this flag is set, the SYNCHRONIZE flag must be set in the **DesiredAccess** parameter. |
-| FILE_NON_DIRECTORY_FILE (0x00000040) | The file is *not* a directory. The file object to open can represent a data file; a logical, virtual, or physical device; or a volume. |
+| FILE_NON_DIRECTORY_FILE (0x00000040) | The file is *not* a directory. The file object to open can represent a data file; a logical, virtual, or physical device; or a volume. Starting in Windows 11, version 24H2, NTFS now honors this flag when opening a $INDEX_ALLOCATION attribute. |
 | FILE_CREATE_TREE_CONNECTION (0x00000080) | Create a tree connection for this file in order to open it over the network. This flag is not used by device and intermediate drivers. |
 | FILE_COMPLETE_IF_OPLOCKED (0x00000100) | Complete this operation immediately with an alternate success code of STATUS_OPLOCK_BREAK_IN_PROGRESS if the target file is oplocked, rather than blocking the caller's thread. If the file is oplocked, another caller already has access to the file. This flag is not used by device and intermediate drivers. |
 | FILE_NO_EA_KNOWLEDGE (0x00000200) | If the extended attributes (EAs) for an existing file being opened indicate that the caller must understand EAs to properly interpret the file, **NtCreateFile** should return an error. This flag is irrelevant for device and intermediate drivers. |

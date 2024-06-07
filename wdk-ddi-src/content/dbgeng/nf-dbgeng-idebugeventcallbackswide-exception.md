@@ -1,7 +1,7 @@
 ---
 UID: NF:dbgeng.IDebugEventCallbacksWide.Exception
 title: IDebugEventCallbacksWide::Exception (dbgeng.h)
-description: The Exception callback method is called by the engine when an exceptiondebugging event occurs in the target.
+description: The Exception callback method is called by the engine when an exception debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exception.htm
 tech.root: debugger
 ms.date: 05/03/2018
@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-The <b>Exception</b> callback method is called by the engine when an <a href="/windows-hardware/drivers/">exception</a>debugging event occurs in the target.
+The <b>Exception</b> callback method is called by the engine when an <a href="/windows-hardware/drivers/">exception</a> debugging event occurs in the target.
 
 ## -parameters
 

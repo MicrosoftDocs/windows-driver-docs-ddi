@@ -62,5 +62,4 @@ Indicates to send the command with interrupt mode.
 
 ## -see-also
 
-- [**SRBEX_DATA_NVME_COMMAND_FLAG** (*minitape.h*)](../minitape/ne-minitape-srbex_data_nvme_command_flag.md)
-- [**SRBEX_DATA_NVME_COMMAND_FLAG** (*storport.h*)](../storport/ne-storport-srbex_data_nvme_command_flag.md)
+[**SRBEX_DATA_NVME_COMMAND_FLAG** (*storport.h*)](../storport/ne-storport-srbex_data_nvme_command_flag.md)

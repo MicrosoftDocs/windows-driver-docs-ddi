@@ -65,7 +65,7 @@ A pointer to the current IRP to process. Access to this field must be sequential
 
 ### -field NotificationIrp
 
-A pointer to an IRP that the smart card reader driver uses to notify applications when a smart card has been inserted or removedl. Access to this field must be sequentialized by using the spin lock that is pointed to by the <b>OsData->SpinLock</b> member of SMARTCARD_EXTENSION.
+A pointer to an IRP that the smart card reader driver uses to notify applications when a smart card has been inserted or removed. Access to this field must be sequentialized by using the spin lock that is pointed to by the <b>OsData->SpinLock</b> member of SMARTCARD_EXTENSION.
 
 ### -field Mutex
 

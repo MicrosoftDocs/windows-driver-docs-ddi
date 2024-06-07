@@ -63,7 +63,7 @@ Indicates whether this connector is attached.
 
 ### -field AttachCount
 
-Indicates the number of attache events that have occurred on this connector. If client driver sees the transition from one “Attached” state to another “Attached” state but with different “AttachCount”, it indicates two attaches and with two different port partners.
+Indicates the number of attached events that have occurred on this connector. If client driver sees the transition from one “Attached” state to another “Attached” state but with different “AttachCount”, it indicates two attaches and with two different port partners.
 
 ### -field Partner
 

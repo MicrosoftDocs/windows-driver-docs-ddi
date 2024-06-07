@@ -83,6 +83,6 @@ Reserved. Set to 0.
 
 ## -see-also
 
-[KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2](/windows-hardware/drivers/stream/ksproperty_cameracontrol_extended_fieldofview2)
+[KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview2)
 
-[KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2_CONFIGCAPS](/windows-hardware/drivers/stream/ksproperty_cameracontrol_extended_fieldofview2_configcaps)
+[KSPROPERTY_CAMERACONTROL_EXTENDED_FIELDOFVIEW2_CONFIGCAPS](/windows-hardware/drivers/stream/ksproperty-cameracontrol-extended-fieldofview2-configcaps)

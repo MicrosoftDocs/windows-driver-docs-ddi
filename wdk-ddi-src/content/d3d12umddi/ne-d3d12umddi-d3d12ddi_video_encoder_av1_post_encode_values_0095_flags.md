@@ -91,7 +91,7 @@ When the bitflag is SET for a given feature, the driver receives the related API
 
 When the bitflag is NOT SET for a given feature, the driver honors the related API Client input exactly and copies the input values in **D3D12DDI_VIDEO_ENCODER_AV1_POST_ENCODE_VALUES_0095**. In this way, the client can always copy the post encode values to pack the headers directly.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

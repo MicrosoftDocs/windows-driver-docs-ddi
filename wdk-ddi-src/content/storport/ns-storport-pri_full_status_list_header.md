@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.PRI_FULL_STATUS_LIST_HEADER
 tech.root: storage
-title: PRI_FULL_STATUS_LIST_HEADER
+title: PRI_FULL_STATUS_LIST_HEADER (storport.h)
 ms.date: 03/22/2024
 targetos: Windows
 description: The PRI_FULL_STATUS_LIST_HEADER structure is the first member of a PRI_FULL_STATUS_LIST that is returned in response to a Persistent Reserve In command with ServiceAction=RESERVATION_ACTION_READ_FULL_STATUS.

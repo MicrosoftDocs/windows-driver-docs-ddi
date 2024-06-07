@@ -1,7 +1,7 @@
 ---
 UID: NS:storport.PRI_FULL_STATUS_LIST
 tech.root: storage
-title: PRI_FULL_STATUS_LIST
+title: PRI_FULL_STATUS_LIST (storport.h)
 ms.date: 03/22/2024
 targetos: Windows
 description: The PRI_FULL_STATUS_LIST structure is returned in response to a Persistent Reserve In command with ServiceAction=RESERVATION_ACTION_READ_FULL_STATUS.

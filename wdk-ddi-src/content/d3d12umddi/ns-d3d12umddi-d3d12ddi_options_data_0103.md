@@ -50,7 +50,7 @@ A user-mode driver indicates support for capabilities in the **D3D12DDI_OPTIONS_
 
 ### -field WorkGraphsTier
 
-A [**D3D12DDI_WORK_GRAPHS_TIER**](ne-d3d12umddi-d3d12ddi_work_graphs_tier.md) enumeration that specifies the work graphs tier supported by the driver. For more information about work graphs, see [Work graphs](/windows-hardware/drivers/display/work-graphs.md).
+A [**D3D12DDI_WORK_GRAPHS_TIER**](ne-d3d12umddi-d3d12ddi_work_graphs_tier.md) enumeration that specifies the work graphs tier supported by the driver. For more information about work graphs, see [Work graphs](/windows-hardware/drivers/display/work-graphs).
 
 ## -see-also
 

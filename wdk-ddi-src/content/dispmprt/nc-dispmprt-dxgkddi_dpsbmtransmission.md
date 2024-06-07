@@ -89,7 +89,7 @@ For a SBM Transaction, a request is written to and reply is read from fixed DPCD
 
 The driver should use the End_Of_Message bit in the SideBand_MSG_Header to decide if a full reply has been received but should avoid further processing. **Data** can hold a reply up to **MaxReplyLength** in bytes, so the driver needs to discard the overflowing packet. The driver should return the actual length of the reply in **ActualReplyLength**.
 
-The driver doesn’t need to specifically check for a NAK reply, which is decoded by the caller just as an other ACK reply. For a NAK reply, driver should return STATUS_SUCCESS.
+The driver doesn’t need to specifically check for a NAK reply, which is decoded by the caller just as another ACK reply. For a NAK reply, driver should return STATUS_SUCCESS.
 
 The **MaxReplyLength** is at least 48 bytes, which is the maximum Sideband Message packet size. This allows the raw message to be copied directly for a single packet reply. For a reply with multiple packets, **MaxReplyLength** is calculated based on a packet size of 16 bytes and longest Relative Address in the SBM header to lower the possibility of insufficient buffer.
 

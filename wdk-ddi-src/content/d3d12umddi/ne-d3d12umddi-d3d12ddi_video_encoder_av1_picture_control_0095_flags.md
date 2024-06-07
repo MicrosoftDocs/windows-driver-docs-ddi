@@ -107,7 +107,7 @@ Related to AV1 syntax allow_high_precision_mv. Requires D3D12_VIDEO_ENCODER_AV1_
 
 ## -remarks
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

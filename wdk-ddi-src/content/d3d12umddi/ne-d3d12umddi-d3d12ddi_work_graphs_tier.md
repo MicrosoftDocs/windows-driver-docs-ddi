@@ -55,7 +55,7 @@ The driver fully supports the first full work graphs release.
 
 ## -remarks
 
-For more information about work graphs, see [Work graphs](/windows-hardware/drivers/display/work-graphs.md).
+For more information about work graphs, see [Work graphs](/windows-hardware/drivers/display/work-graphs).
 
 ## -see-also
 

@@ -57,7 +57,7 @@ A [**D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_TILESIZE_0095**](ne-d3d12umddi-d3d12
 
 This structure is related to AV1 syntax lr_params(). The array entries correspond to Y, U, V planes.
 
-See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1.md) for more information.
+See [D3D12 AV1 video encoding](/windows-hardware/drivers/display/video-encoding-d3d12-av1) for more information.
 
 ## -see-also
 

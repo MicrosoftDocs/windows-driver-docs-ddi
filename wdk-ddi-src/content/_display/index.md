@@ -29,7 +29,6 @@ For the programming guide, see the [Display/Graphics design guide](/windows-hard
 * [d3dukmdt.h](../d3dukmdt/index.md)
 * [d3dumddi.h](../d3dumddi/index.md)
 * [dispmprt.h](../dispmprt/index.md)
-* [dxapi.h](../dxapi/index.md)
 * [dxgiddi.h](../dxgiddi/index.md)
 * [dxgitype.h](../dxgitype/index.md)
 * [dxva.h](../dxva/index.md)
