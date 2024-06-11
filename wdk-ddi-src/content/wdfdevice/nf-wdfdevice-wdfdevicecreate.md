@@ -48,7 +48,7 @@ api_name:
 
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
+[Applies to KMDF and UMDF]
 
 The <b>WdfDeviceCreate</b> method creates a framework device object.
 
