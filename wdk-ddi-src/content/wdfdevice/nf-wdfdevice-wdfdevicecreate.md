@@ -4,7 +4,7 @@ title: WdfDeviceCreate function (wdfdevice.h)
 description: The WdfDeviceCreate method creates a framework device object.
 old-location: wdf\wdfdevicecreate.htm
 tech.root: wdf
-ms.date: 02/28/2018
+ms.date: 03/01/2018
 keywords: ["WdfDeviceCreate function"]
 ms.keywords: DFDeviceObjectGeneralRef_bd1ae89e-0e52-4c30-8ca4-9eaf6994a2f2.xml, WdfDeviceCreate, WdfDeviceCreate method, kmdf.wdfdevicecreate, wdf.wdfdevicecreate, wdfdevice/WdfDeviceCreate
 req.header: wdfdevice.h
