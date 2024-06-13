@@ -52,8 +52,6 @@ For passive level interrupt objects, the method ends a code sequence that execut
 
 ## -parameters
 
-### -param DriverGlobals
-
 ### -param Interrupt [in]
 
 A handle to a framework interrupt object.
@@ -67,8 +65,6 @@ VOID
     WDFINTERRUPT Interrupt
     );
 ```
-
-## -returns
 
 ## -remarks
 

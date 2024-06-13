@@ -59,13 +59,9 @@ VOID WdfObjectReleaseLock(
 
 ## -parameters
 
-### -param DriverGlobals
-
 ### -param Object [in]
 
 A handle to a framework device object or a framework queue object.
-
-## -returns
 
 ## -remarks
 
