@@ -55,7 +55,7 @@ Points to the instruction to be disassembled.
 
 ### -param lpBuffer
 
-Receives the disassembled instruction.
+Receives the disassembled instruction. This buffer must be at least 2000 characters in length.
 
 ### -param fShowEffectiveAddress
 
