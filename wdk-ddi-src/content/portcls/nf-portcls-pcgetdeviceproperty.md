@@ -57,8 +57,7 @@ Pointer to the device object for the device. This parameter points to a <a href=
 
 ### -param DeviceProperty [in]
 
-
-Specifies the Plug and Play device property that is requested. For a list of property specifier values, see the following Remarks section.
+A <a href="/windows-hardware/drivers/ddi/wdm/ne-wdm-device_registry_property">DEVICE_REGISTRY_PROPERTY</a>-typed enumerator that identifies the device property to be retrieved.
 
 ### -param BufferLength [in]
 
@@ -81,56 +80,10 @@ Pointer to a caller-allocated variable into which the method outputs a count spe
 
 ## -remarks
 
-Set the <b>DeviceProperty</b> parameter to one of the following DEVICE_REGISTRY_PROPERTY enumeration values from header file wdm.h:
-
-<b>DevicePropertyAddress</b>
-
-<b>DevicePropertyBootConfiguration</b>
-
-<b>DevicePropertyBootConfigurationTranslated</b>
-
-<b>DevicePropertyBusNumber</b>
-
-<b>DevicePropertyBusTypeGuid</b>
-
-<b>DevicePropertyClassGuid</b>
-
-<b>DevicePropertyClassName</b>
-
-<b>DevicePropertyCompatibleIDs</b>
-
-<b>DevicePropertyDetachability</b>
-
-<b>DevicePropertyDeviceDescription</b>
-
-<b>DevicePropertyDriverKeyName</b>
-
-<b>DevicePropertyEnumeratorName</b>
-
-<b>DevicePropertyFriendlyName</b>
-
-<b>DevicePropertyHardwareID</b>
-
-<b>DevicePropertyInstallState</b>
-
-<b>DevicePropertyLegacyBusType</b>
-
-<b>DevicePropertyLocationInformation</b>
-
-<b>DevicePropertyManufacturer</b>
-
-<b>DevicePropertyPhysicalDeviceObjectName</b>
-
-<b>DevicePropertyUINumber</b>
-
-For a description of the preceding DeviceProperty<i>Xxx</i> values, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>.
-
 Two calls to <b>PcGetDeviceProperty</b> might be necessary to determine the required <i>BufferLength</i>. In the first call, <i>BufferLength</i> can either be zero or a best-guess estimate of the required buffer size. If the return status is STATUS_BUFFER_TOO_SMALL, this means that the caller should allocate a buffer of the size that was output through <i>ResultLength</i> and call <b>PcGetDeviceProperty</b> again.
 
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object">DEVICE_OBJECT</a>
-
-
 
 <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>
