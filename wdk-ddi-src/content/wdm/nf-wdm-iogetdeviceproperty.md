@@ -51,110 +51,11 @@ The **IoGetDeviceProperty** routine retrieves information about a device such as
 
 ### -param DeviceObject [in]
 
-
 Pointer to the physical device object (PDO) for the device being queried.
 
 ### -param DeviceProperty [in]
 
-
-Specifies the device property being requested. Must be one of the following [DEVICE_REGISTRY_PROPERTY](./ne-wdm-device_registry_property.md) enumeration values:
-
-#### DevicePropertyAddress
-
-Requests the address of the device on the bus. *PropertyBuffer* points to a ULONG.
-
-The interpretation of this address is bus-specific. The caller of this routine should call the routine again to request the **DevicePropertyBusTypeGuid**, or possibly the **DevicePropertyLegacyBusType**, so it can interpret the address. An address value of 0xFFFFFFFF indicates that the underlying bus driver did not supply a bus address for the device.
-
-The following list describes the information certain bus drivers store in the *PropertyBuffer* for their child devices:
-
-| Bus | Description |
-|-----|-------------|
-| 1394 | Does not supply an address because the addresses are volatile. Defaults to 0xFFFFFFFF. |
-| EISA | Slot Number (0-F). |
-| IDE | For an IDE device, the address contains the target ID and LUN. For an IDE channel, the address is zero or one (0 = primary channel and 1 = secondary channel). |
-| ISApnp | Does not supply an address. Defaults to 0xFFFFFFFF. |
-| PC Card (PCMCIA) | The socket number (typically 0x00 or 0x40). |
-| PCI | The device number in the high word and the function number in the low word. |
-| SCSI | The target ID. |
-| USB | The port number. |
-
-#### DevicePropertyBootConfiguration
-
-Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
-
-#### DevicePropertyBootConfigurationTranslated
-
-The hardware resources assigned to the device by the firmware, in translated form. *PropertyBuffer* points to a **CM_RESOURCE_LIST** structure.
-
-#### DevicePropertyBusNumber
-
-Requests the legacy bus number of the bus the device is connected to. *PropertyBuffer* points to a ULONG.
-
-#### DevicePropertyBusTypeGuid
-
-Requests the GUID for the bus that the device is connected to. The system-defined bus type GUIDs are listed in the Wdmguid.h header file. *PropertyBuffer* points to a GUID, which is a 16-byte structure that contains the GUID in binary form.
-
-#### DevicePropertyClassGuid
-
-Requests the GUID for the device's setup class. *PropertyBuffer* points to a NULL-terminated array of WCHAR. This routine returns the GUID in a string format as follows, where each "c" represents a hexadecimal character: {cccccccc-cccc-cccc-cccc-cccccccccccc}
-
-#### DevicePropertyClassName
-
-Requests the name of the device's setup class, in text format. *PropertyBuffer* points to a NULL-terminated WCHAR string. 
-
-#### DevicePropertyCompatibleIDs
-
-Requests the [compatible IDs](/windows-hardware/drivers/install/compatible-ids) reported by the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
-
-#### DevicePropertyDeviceDescription
-
-Requests a string describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. *PropertyBuffer* points to a NULL-terminated WCHAR string. 
-
-#### DevicePropertyDriverKeyName
-
-Requests the name of the driver-specific registry key. *PropertyBuffer* points to a NULL-terminated WCHAR string.
-
-#### DevicePropertyEnumeratorName
-
-Requests the name of the enumerator for the device, such as "PCI" or "root". *PropertyBuffer* points to a NULL-terminated WCHAR string.
-
-#### DevicePropertyFriendlyName
-
-Requests a string that can be used to distinguish between two similar devices, typically defined by the class installer. *PropertyBuffer* points to a NULL-terminated WCHAR string.
-
-#### DevicePropertyHardwareID
-
-Requests the [hardware](/windows-hardware/drivers/install/hardware-ids) IDs provided by the device that identify the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
-
-#### DevicePropertyInstallState
-
-Requests the device's installation state. The installation state is returned as a [DEVICE_INSTALL_STATE](ne-wdm-_device_install_state.md) enumeration value.
-
-#### DevicePropertyLegacyBusType
-
-Requests the bus type, such as PCIBus or PCMCIABus. *PropertyBuffer* points to an [INTERFACE_TYPE](ne-wdm-_interface_type.md) enumeration value.
-
-#### DevicePropertyLocationInformation
-
-Requests information about the device's location on the bus; the interpretation of this information is bus-specific. *PropertyBuffer* points to a NULL-terminated WCHAR string.
-
-#### DevicePropertyManufacturer
-
-Requests a string identifying the manufacturer of the device. *PropertyBuffer* points to a NULL-terminated WCHAR string.
-
-#### DevicePropertyPhysicalDeviceObjectName
-
-Requests the name of the PDO for this device. *PropertyBuffer* points to a NULL-terminated WCHAR string.
-
-#### DevicePropertyRemovalPolicy
-
-Requests the device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. The *PropertyBuffer* parameter points to a [DEVICE_REMOVAL_POLICY](ne-wdm-_device_removal_policy.md) enumeration value.
-
-#### DevicePropertyUINumber
-
-Requests a number associated with the device that can be displayed in the user interface. *PropertyBuffer* points to a ULONG value.
-
-This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
+A [DEVICE_REGISTRY_PROPERTY](./ne-wdm-device_registry_property.md)-typed enumerator that identifies the device property to be retrieved.
 
 ### -param BufferLength [in]
 
