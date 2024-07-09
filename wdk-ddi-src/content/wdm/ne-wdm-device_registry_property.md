@@ -42,7 +42,6 @@ api_name:
 
 # DEVICE_REGISTRY_PROPERTY enumeration
 
-
 ## -description
 
 The <b>DEVICE_REGISTRY_PROPERTY</b> enumeration identifies device properties that are stored in the registry.
@@ -51,75 +50,77 @@ The <b>DEVICE_REGISTRY_PROPERTY</b> enumeration identifies device properties tha
 
 ### -field DevicePropertyDeviceDescription
 
-Requests a string describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. *PropertyBuffer* points to a NULL-terminated WCHAR string. 
+String describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. Property type is a NULL-terminated WCHAR string. 
 
 ### -field DevicePropertyHardwareID
 
-Requests the [hardware](/windows-hardware/drivers/install/hardware-ids) IDs provided by the device that identify the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
+[Hardware IDs](/windows-hardware/drivers/install/hardware-ids) provided by the device that identify the device. Property type is a REG_MULTI_SZ value.
 
 ### -field DevicePropertyCompatibleIDs
 
-Requests the [compatible IDs](/windows-hardware/drivers/install/compatible-ids) reported by the device. *PropertyBuffer* points to a REG_MULTI_SZ value.
+[Compatible IDs](/windows-hardware/drivers/install/compatible-ids) reported by the device. Property type is a REG_MULTI_SZ value.
 
 ### -field DevicePropertyBootConfiguration
 
-Requests the hardware resources assigned to the device by the firmware, in raw form. *PropertyBuffer* points to a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
+Hardware resources assigned to the device by the firmware, in raw form. Property type is a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
 
 ### -field DevicePropertyBootConfigurationTranslated
 
-The hardware resources assigned to the device by the firmware, in translated form. *PropertyBuffer* points to a **CM_RESOURCE_LIST** structure.
+The hardware resources assigned to the device by the firmware, in translated form. Property type is a **CM_RESOURCE_LIST** structure.
 
 ### -field DevicePropertyClassName
 
-Requests the name of the device's setup class, in text format. *PropertyBuffer* points to a NULL-terminated WCHAR string. 
+Name of the device's setup class, in text format. Property type is a NULL-terminated WCHAR string. 
 
 ### -field DevicePropertyClassGuid
 
-Requests the GUID for the device's setup class. *PropertyBuffer* points to a NULL-terminated array of WCHAR. This routine returns the GUID in a string format as follows, where each "c" represents a hexadecimal character: {cccccccc-cccc-cccc-cccc-cccccccccccc}
+GUID for the device's setup class. Property type is a NULL-terminated array of WCHAR.
+
+The GUID in a string format as follows, where each "c" represents a hexadecimal character: {cccccccc-cccc-cccc-cccc-cccccccccccc}
 
 ### -field DevicePropertyDriverKeyName
 
-Requests the name of the driver-specific registry key. *PropertyBuffer* points to a NULL-terminated WCHAR string.
+Name of the driver-specific registry key. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyManufacturer
 
-Requests a string identifying the manufacturer of the device. *PropertyBuffer* points to a NULL-terminated WCHAR string.
+String identifying the manufacturer of the device. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyFriendlyName
 
-Requests a string that can be used to distinguish between two similar devices, typically defined by the class installer. *PropertyBuffer* points to a NULL-terminated WCHAR string.
+String that can be used to distinguish between two similar devices, typically defined by the class installer. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyLocationInformation
 
-Requests information about the device's location on the bus; the interpretation of this information is bus-specific. *PropertyBuffer* points to a NULL-terminated WCHAR string.
+Information about the device's location on the bus; the interpretation of this information is bus-specific. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyPhysicalDeviceObjectName
 
-Requests the name of the PDO for this device. *PropertyBuffer* points to a NULL-terminated WCHAR string.
+Name of the PDO for this device. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyBusTypeGuid
 
-Requests the GUID for the bus that the device is connected to. The system-defined bus type GUIDs are listed in the Wdmguid.h header file. *PropertyBuffer* points to a GUID, which is a 16-byte structure that contains the GUID in binary form.
+GUID for the bus that the device is connected to. The system-defined bus type GUIDs are listed in the `Wdmguid.h` header file. Property type is a GUID, which is a 16-byte structure that contains the GUID in binary form.
 
 ### -field DevicePropertyLegacyBusType
 
-Requests the bus type, such as PCIBus or PCMCIABus. *PropertyBuffer* points to an [INTERFACE_TYPE](ne-wdm-_interface_type.md) enumeration value.
+Requests the bus type, such as PCIBus or PCMCIABus. Property type is an [INTERFACE_TYPE](ne-wdm-_interface_type.md) enumeration value.
 
 ### -field DevicePropertyBusNumber
 
-Requests the legacy bus number of the bus the device is connected to. *PropertyBuffer* points to a ULONG.
+Legacy bus number of the bus the device is connected to. Property type is a ULONG.
 
 ### -field DevicePropertyEnumeratorName
 
-Requests the name of the enumerator for the device, such as "PCI" or "root". *PropertyBuffer* points to a NULL-terminated WCHAR string.
+Name of the enumerator for the device, such as "PCI" or "root". Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyAddress
 
-Requests the address of the device on the bus. *PropertyBuffer* points to a ULONG.
+Address of the device on the bus. Property type is a ULONG.
 
 The interpretation of this address is bus-specific. The caller of this routine should call the routine again to request the **DevicePropertyBusTypeGuid**, or possibly the **DevicePropertyLegacyBusType**, so it can interpret the address. An address value of 0xFFFFFFFF indicates that the underlying bus driver did not supply a bus address for the device.
 
-The following list describes the information certain bus drivers store in the *PropertyBuffer* for their child devices:
+The following list describes the information certain bus drivers store for their child devices:
 
 | Bus | Description |
 |-----|-------------|
@@ -134,17 +135,17 @@ The following list describes the information certain bus drivers store in the *P
 
 ### -field DevicePropertyUINumber
 
-Requests a number associated with the device that can be displayed in the user interface. *PropertyBuffer* points to a ULONG value.
+Number associated with the device that can be displayed in the user interface. Property type is a ULONG value.
 
 This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
 
 ### -field DevicePropertyInstallState
 
-Requests the device's installation state. The installation state is returned as a [DEVICE_INSTALL_STATE](ne-wdm-_device_install_state.md) enumeration value.
+Device's installation state. Property type is a [DEVICE_INSTALL_STATE](ne-wdm-_device_install_state.md) enumeration value.
 
 ### -field DevicePropertyRemovalPolicy
 
-Requests the device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. The *PropertyBuffer* parameter points to a [DEVICE_REMOVAL_POLICY](ne-wdm-_device_removal_policy.md) enumeration value.
+Device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. Property type is a [DEVICE_REMOVAL_POLICY](ne-wdm-_device_removal_policy.md) enumeration value.
 
 ### -field DevicePropertyResourceRequirements
 
