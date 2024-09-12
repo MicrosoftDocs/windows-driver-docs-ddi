@@ -6,7 +6,7 @@ ms.assetid: 9fc41607-d4ed-3730-94bb-e2172700583f
 ms.date: 05/09/2018
 keywords: ["Wextestclass.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: taef
 f1_keywords:
  - wextestclass

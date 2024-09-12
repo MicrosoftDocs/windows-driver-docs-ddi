@@ -5,7 +5,7 @@ title: Print devices
 ms.date: 03/02/2023
 keywords: ["Print devices"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Print devices

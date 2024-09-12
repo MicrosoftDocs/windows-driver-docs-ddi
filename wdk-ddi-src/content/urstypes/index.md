@@ -6,7 +6,7 @@ ms.assetid: 15f371fd-cce0-3b44-b121-995ecf31a13e
 ms.date: 05/09/2018
 keywords: ["Urstypes.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 f1_keywords:
  - urstypes

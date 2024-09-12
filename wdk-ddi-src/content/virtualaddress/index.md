@@ -6,7 +6,7 @@ ms.assetid: A6846C87-3797-4472-9E0D-E44FD57E09BF
 ms.date: 09/20/2019
 keywords: ["Virtualaddress.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 ms.custom: Vb
 f1_keywords:

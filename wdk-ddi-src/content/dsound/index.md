@@ -5,7 +5,7 @@ title: Dsound.h header
 ms.date: 03/02/2023
 keywords: ["Dsound.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: stream
 f1_keywords:
  - dsound

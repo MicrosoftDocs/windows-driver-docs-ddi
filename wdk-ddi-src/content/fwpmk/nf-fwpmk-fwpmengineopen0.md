@@ -1,10 +1,10 @@
 ---
 UID: NF:fwpmk.FwpmEngineOpen0
 title: FwpmEngineOpen0 function (fwpmk.h)
-description: The FwpmEngineOpen0 function opens a session to the filter engine.Note  FwpmEngineOpen0 is a specific version of FwpmEngineOpen.
+description: The FwpmEngineOpen0 function opens a session to the filter engine. FwpmEngineOpen0 is a specific version of FwpmEngineOpen.
 old-location: netvista\fwpmengineopen0.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 06/21/2024
 keywords: ["FwpmEngineOpen0 function"]
 ms.keywords: FwpmEngineOpen0, FwpmEngineOpen0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmEngineOpen0, netvista.fwpmengineopen0, wfp_ref_2_funct_2_fwpm_29969a12-e73c-4b61-b940-e0da4b0be737.xml
 req.header: fwpmk.h
@@ -43,37 +43,29 @@ api_name:
 
 # FwpmEngineOpen0 function
 
-
 ## -description
 
 The **FwpmEngineOpen0** function opens a session to the filter engine.
-> [!Note]
-> **FwpmEngineOpen0** is a specific version of **FwpmEngineOpen**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
 
 ## -parameters
 
 ### -param serverName [in, optional]
 
-
-A pointer to a NULL-terminated string that specifies the standard DNS name of the system on which the session to the filter engine is opened. Callout drivers must specify <b>NULL</b> for this parameter.
+A pointer to a NULL-terminated string that specifies the standard DNS name of the system on which the session to the filter engine is opened. Callout drivers must specify **NULL** for this parameter.
 
 ### -param authnService [in]
-
 
 The authentication service to use. For a list of valid choices for this parameter, see Authentication-Service Constants in the RPC section in the Microsoft Windows SDK documentation. Callout drivers must specify either RPC_C_AUTHN_WINNT or RPC_C_AUTHN_DEFAULT for this parameter.
 
 ### -param authIdentity [in, optional]
 
-
 A pointer to a **SEC_WINNT_AUTH_IDENTITY_W** structure that contains the authentication and authorization credentials for accessing the filter engine. This parameter is ignored when the **FwpmEngineOpen0** function is called from a callout driver. Callout drivers should set this parameter to **NULL**.
 
 ### -param session [in, optional]
 
-
 A pointer to an [FWPM_SESSION0](/previous-versions/windows/hardware/drivers/ff550083(v=vs.85)) structure that defines session-specific parameters for the session being opened. This pointer is optional and can be **NULL**.
 
 ### -param engineHandle [out]
-
 
 A pointer to a variable that receives a handle for the open session to the filter engine.
 
@@ -81,10 +73,10 @@ A pointer to a variable that receives a handle for the open session to the filte
 
 The **FwpmEngineOpen0** function returns one of the following NTSTATUS codes.
 
-|Return code|Description|
-|--- |--- |
-|**STATUS_SUCCESS**|A session to the filter engine was successfully opened. The variable pointed to by the _engineHandle_ parameter contains a handle for the open session.|
-|**Other status codes**|An error occurred.|
+| Return code | Description |
+|--|--|
+| **STATUS_SUCCESS** | A session to the filter engine was successfully opened. The variable pointed to by the _engineHandle_ parameter contains a handle for the open session. |
+| **Other NTSTATUS codes** | An error occurred. |
 
 ## -remarks
 
@@ -97,30 +89,14 @@ For a callout driver to successfully open a session to the filter engine, the fi
 
 After a callout driver has finished accessing the filter engine, it calls the [FwpmEngineClose0](./nf-fwpmk-fwpmengineclose0.md) function to close the open session to the filter engine.
 
+**FwpmEngineOpen0** is a specific version of **FwpmEngineOpen**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
+
 ## -see-also
 
-[FwpmBfeStateGet0](./nf-fwpmk-fwpmbfestateget0.md)
-
-
-
-[FwpmBfeStateSubscribeChanges0](./nf-fwpmk-fwpmbfestatesubscribechanges0.md)
-
-
-
-[FwpmCalloutAdd0](./nf-fwpmk-fwpmcalloutadd0.md)
-
-
-
-[FwpmCalloutDeleteById0](./nf-fwpmk-fwpmcalloutdeletebyid0.md)
-
-
-
-[FwpmCalloutDeleteByKey0](./nf-fwpmk-fwpmcalloutdeletebykey0.md)
-
-
-
-[FwpmEngineClose0](./nf-fwpmk-fwpmengineclose0.md)
-
-
-
-[Other Windows Filtering Platform Functions](/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions)
+- **[FwpmBfeStateGet0](./nf-fwpmk-fwpmbfestateget0.md)**
+- **[FwpmBfeStateSubscribeChanges0](./nf-fwpmk-fwpmbfestatesubscribechanges0.md)**
+- **[FwpmCalloutAdd0](./nf-fwpmk-fwpmcalloutadd0.md)**
+- **[FwpmCalloutDeleteById0](./nf-fwpmk-fwpmcalloutdeletebyid0.md)**
+- **[FwpmCalloutDeleteByKey0](./nf-fwpmk-fwpmcalloutdeletebykey0.md)**
+- **[FwpmEngineClose0](./nf-fwpmk-fwpmengineclose0.md)**
+- [Other Windows Filtering Platform Functions](/windows-hardware/drivers/network/calling-other-windows-filtering-platform-functions)

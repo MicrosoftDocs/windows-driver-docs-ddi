@@ -56,9 +56,13 @@ Driver escape type to translate resource handle; used to translate the resource 
 
 Driver escape type for CPU event usage; used to notify the kernel-mode driver (KMD) about the intended use of a KMD CPU event object. Available starting in Windows 11 (WDDM 3.0). See [Signaling a CPU event from KMD](/windows-hardware/drivers/display/signaling-cpu-event-from-kmd) for more information.
 
+### -field D3DDDI_DRIVERESCAPETYPE_BUILDTESTCOMMANDBUFFER:3
+
+Driver escape type for building a test command buffer; used to build a test command buffer for kernel-mode testing. Available starting in Windows 11, version 24H2 (WDDM 3.2). See [Kernel-mode testing](/windows-hardware/drivers/display/kernel-mode-testing-of-wddm-features) for more information.
+
 ### -field D3DDDI_DRIVERESCAPETYPE_MAX
 
-Driver escape type max.
+The maximum value for this enumeration.
 
 ## -see-also
 

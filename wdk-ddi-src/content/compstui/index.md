@@ -5,7 +5,7 @@ title: Compstui.h header
 ms.date: 11/14/2022
 keywords: ["Compstui.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: print
 f1_keywords:
  - compstui

@@ -6,7 +6,7 @@ ms.assetid: 3aa40561-30b1-310a-b289-97b5253ecbc6
 ms.date: 05/09/2018
 keywords: ["Wexlogtrace.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: taef
 f1_keywords:
  - wexlogtrace

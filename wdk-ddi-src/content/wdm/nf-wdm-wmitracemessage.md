@@ -4,7 +4,7 @@ title: WmiTraceMessage function (wdm.h)
 description: The WmiTraceMessage routine adds a message to the output log of a WPP software tracing session.
 old-location: kernel\wmitracemessage.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 09/10/2024
 keywords: ["WmiTraceMessage function"]
 ms.keywords: WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage
 req.header: wdm.h
@@ -72,7 +72,7 @@ Identifies the message subtype. The meaning of subtypes is specific to the softw
 ### -param ... [in]
 
 
-Provides a required list of message parameters that specify a set of message parts. The parameters are organized as a sequence of parameter pairs, where each pair specifies one part of the complete message. Each parameter pair consists of a PVOID pointer to data, followed immediately by a ULONG value that specifies the length of the data. The parameter list must be terminated by a <b>NULL</b> PVOID pointer followed by a ULONG(0).
+Provides a required list of message parameters that specify a set of message parts. The parameters are organized as a sequence of parameter pairs, where each pair specifies one part of the complete message. Each parameter pair consists of a PVOID pointer to data, followed immediately by a size_t value that specifies the length of the data. The parameter list must be terminated by a <b>NULL</b> PVOID pointer followed by a size_t(0).
 
 ## -returns
 

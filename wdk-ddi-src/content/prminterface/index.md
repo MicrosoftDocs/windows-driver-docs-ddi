@@ -5,7 +5,7 @@ title: Prminterface.h header
 ms.date: 02/07/2024
 keywords: ["Prminterface.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - prminterface

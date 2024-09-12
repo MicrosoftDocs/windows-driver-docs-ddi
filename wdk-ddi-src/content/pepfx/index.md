@@ -6,7 +6,7 @@ ms.assetid: 49d516fa-79a0-3209-8812-5b701f4a9c52
 ms.date: 05/09/2018
 keywords: ["Pepfx.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - pepfx

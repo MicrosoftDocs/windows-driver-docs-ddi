@@ -6,7 +6,7 @@ ms.assetid: 1891D2AF-ED3C-4CF2-8B4E-DF5E710712DB
 ms.date: 09/20/2019
 keywords: ["Logicaladdresstypes.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 ms.custom: Vb
 f1_keywords:

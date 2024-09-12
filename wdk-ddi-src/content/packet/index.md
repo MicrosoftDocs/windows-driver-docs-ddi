@@ -6,7 +6,7 @@ ms.assetid: D3BF3662-53D2-4661-8347-99459CB9B34B
 ms.date: 01/30/2019
 keywords: ["Packet.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - packet

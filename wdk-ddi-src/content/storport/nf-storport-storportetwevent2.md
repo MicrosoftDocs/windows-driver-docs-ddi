@@ -1,12 +1,9 @@
 ---
 UID: NF:storport.StorPortEtwEvent2
 title: StorPortEtwEvent2 function (storport.h)
-description: StorPortEtwEvent2 logs an Event Tracing for Windows (ETW) event with two general-purpose ETW parameters to a storage trace channel.
-old-location: storage\storportetwevent2.htm
+description: Learn more about the StorPortEtwEvent2 function.
 tech.root: storage
-ms.date: 05/13/2021
-keywords: ["StorPortEtwEvent2 function"]
-ms.keywords: STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, STORPORT_ETW_EVENT_KEYWORD_IO, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, STORPORT_ETW_EVENT_KEYWORD_POWER, StorPortEtwEvent2, StorPortEtwEvent2 routine [Storage Devices], StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeExtension, StorportEtwEventOpcodeInfo, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeStop, StorportEtwEventOpcodeSuspend, StorportEtwLevelCritical, StorportEtwLevelError, StorportEtwLevelInformational, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, StorportEtwLevelWarning, storage.storportetwevent2, storport/StorPortEtwEvent2
+ms.date: 07/25/2024
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
@@ -44,25 +41,25 @@ api_name:
 
 ## -description
 
-**StorPortEtwEvent2** logs an Event Tracing for Windows (ETW) event with two general-purpose ETW parameters to a storage trace channel.
+A miniport calls **StorPortEtwEvent2** to log an ETW event with two general-purpose ETW parameters to a storage trace channel.
 
 ## -parameters
 
 ### -param HwDeviceExtension [in]
 
-A pointer to the miniport's device extension.
+A pointer to the hardware device extension for the host bus adapter (HBA).
 
-### -param Address [in, optional]
+### -param Address [in/optional]
 
 The storage unit device address. This parameter is NULL for adapter devices.
 
 ### -param EventId [in]
 
-A miniport-defined identifier for the ETW event.
+A miniport-defined identifier to uniquely identify the type of event.
 
 ### -param EventDescription [in]
 
-The description text for the event. This text string must be <= STORPORT_ETW_MAX_DESCRIPTION_LENGTH.
+Required string that describes the event. The maximum size of the string is **STORPORT_ETW_MAX_DESCRIPTION_LENGTH** characters, not including the null terminator.
 
 ### -param EventKeywords [in]
 
@@ -77,49 +74,27 @@ Keyword flags for event categorization. Set to 0 if no keyword is desired. The k
 
 ### -param EventLevel [in]
 
-The event level. This value can indicate the importance or severity of the event. This is one of the following values.
-
-| Value | Meaning |
-| ----- | ------- |
-| StorportEtwLevelLogAlways | Log the event unconditionally. The event is logged regardless of any filters set. |
-| StorportEtwLevelCritical | Critical level event. |
-| StorportEtwLevelError | Error level event. |
-| StorportEtwLevelWarning | Warning level event. |
-| StorportEtwLevelInformational | Informational event. |
-| StorportEtwLevelVerbose | Verbose event information provided. |
+A [**STORPORT_ETW_LEVEL**](ne-storport-storport_etw_level.md) value that specifies the importance or severity of the event.
 
 ### -param EventOpcode [in]
 
-The operational nature of the event. This is one of the following values.
+A [**STORPORT_ETW_EVENT_OPCODE**](ne-storport-storport_etw_event_opcode.md) value that specifies the operational nature of the event.
 
-| Value | Meaning |
-| ----- | ------- |
-| StorportEtwEventOpcodeInfo | General informational event. |
-| StorportEtwEventOpcodeStart | Device or unit was starting. |
-| StorportEtwEventOpcodeStop | Device or unit was stopping. The event corresponds to the last unpaired start event. |
-| StorportEtwEventOpcodeDC_Start | A data collection starting event. These are rundown event types. |
-| StorportEtwEventOpcodeDC_Stop | A data collection stopping event. These are rundown event types. |
-| StorportEtwEventOpcodeExtension | An extension event. |
-| StorportEtwEventOpcodeReply | A reply event. |
-| StorportEtwEventOpcodeResume | Device or unit was resuming after suspend. |
-| StorportEtwEventOpcodeSuspend | Device or unit is suspended pending completion of another operation. |
-| StorportEtwEventOpcodeReceive | Transfer of activity is received from another component. |
-
-### -param Srb [in, optional]
+### -param Srb [in/optional]
 
 A pointer to the SRB associated with the logged event. If this parameter contains a valid SRB, this SRB pointer and the associated SRB pointer are logged.
 
-### -param Parameter1Name [in, optional]
+### -param Parameter1Name [in/optional]
 
-A description of the meaning of *Parameter1Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the meaning of **Parameter1Value**. The maximum size of the string is **STORPORT_ETW_MAX_PARAM_NAME_LENGTH** characters, not including the null terminator.
 
 ### -param Parameter1Value [in]
 
 The value for parameter 1.
 
-### -param Parameter2Name [in, optional]
+### -param Parameter2Name [in/optional]
 
-A description of the meaning of *Parameter2Value*. This parameter name string must be <= STORPORT_ETW_MAX_PARAM_NAME_LENGTH.
+A description of the meaning of **Parameter2Value**. The maximum size of the string is **STORPORT_ETW_MAX_PARAM_NAME_LENGTH** characters, not including the null terminator.
 
 ### -param Parameter2Value [in]
 
@@ -133,7 +108,7 @@ The value for parameter 2.
 | ----------- | ----------- |
 | STOR_STATUS_SUCCESS | The event was successfully logged. |
 | STOR_STATUS_NOT_IMPLEMENTED | Tracing is not enabled for storage events. |
-| STOR_STATUS_INVALID_PARAMETER | One of the parameters is invalid. For example, *HwDeviceExtension* or *EventDescription* are NULL, *EventDescription* is greater than the maximum name length, or an ETW parameter name is greater than the maximum name length. |
+| STOR_STATUS_INVALID_PARAMETER | One of the parameters is invalid. For example, **HwDeviceExtension** or **EventDescription** are NULL, **EventDescription** is greater than the maximum name length, or an ETW parameter name is greater than the maximum name length. |
 
 ## -remarks
 
@@ -142,6 +117,14 @@ A miniport can call **StorPortEtwEvent2** to log two general-purpose ETW paramet
 Events generated from StorPort miniport drivers are logged to the "Microsoft-Windows-Storage-Storport/Diagnose" ETW channel.
 
 ## -see-also
+
+[**StorPortNvmeMiniportEvent**](nf-storport-storportnvmeminiportevent.md)
+
+[**StorPortEtwChannelEvent2**](nf-storport-storportetwchannelevent2.md)
+
+[**StorPortEtwChannelEvent4**](nf-storport-storportetwchannelevent4.md)
+
+[**StorPortEtwChannelEvent8**](nf-storport-storportetwchannelevent8.md)
 
 [**StorPortEtwEvent4**](nf-storport-storportetwevent4.md)
 

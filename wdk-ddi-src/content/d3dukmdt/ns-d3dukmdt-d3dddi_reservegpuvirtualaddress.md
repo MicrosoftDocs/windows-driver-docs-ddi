@@ -1,10 +1,9 @@
 ---
 UID: NS:d3dukmdt.D3DDDI_RESERVEGPUVIRTUALADDRESS
 title: D3DDDI_RESERVEGPUVIRTUALADDRESS (d3dukmdt.h)
-description: D3DDDI_RESERVEGPUVIRTUALADDRESS is used with pfnReserveGpuVirtualAddressCb to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
-old-location: display\d3dddi_reservegpuvirtualaddress.htm
+description: Learn more about the D3DDDI_RESERVEGPUVIRTUALADDRESS structure.
 tech.root: display
-ms.date: 05/10/2018
+ms.date: 07/19/2024
 keywords: ["D3DDDI_RESERVEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 req.header: d3dukmdt.h
@@ -42,53 +41,45 @@ api_name:
 
 # D3DDDI_RESERVEGPUVIRTUALADDRESS structure
 
-
 ## -description
 
-<b>D3DDDI_RESERVEGPUVIRTUALADDRESS</b> is used with <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a> to reserve an address range in the graphics processing unit (GPU) virtual address space of the current process.
+The user-mode graphics driver passes **D3DDDI_RESERVEGPUVIRTUALADDRESS** to the D3D runtime's [**pfnReserveGpuVirtualAddressCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md) callback to reserve an address range in the GPU virtual address space of the current process.
 
 ## -struct-fields
 
 ### -field hPagingQueue
 
-Paging queue to synchronize the operation on.
+This member is obsolete. Don't use it.
 
 ### -field hAdapter
 
-DirectX graphics adapter handle.
+[in] DirectX graphics adapter handle or zero (0). If UMD sets **hAdapter** set to 0, the D3D runtime will set **hAdapter** to the kernel's D3DKMT_HANDLE before calling the [**D3DKMTReserveGpuVirtualAddress**](../d3dkmthk/nf-d3dkmthk-d3dkmtreservegpuvirtualaddress.md) kernel interface.
 
 ### -field BaseAddress
 
-(Optional) If <b>non-NULL</b>, the video memory manager will attempt to use this address as the base address for the reserved range. If the range from <b>BaseAddress</b> to <b>BaseAddress</b>+<b>Size</b> isn’t free, the call will fail. When this parameter is <b>non-NULL</b>, <b>MinimumAddress</b> and <b>MaximumAddress</b> are ignored.
+[in/optional] The number of bytes to reserve in the GPU virtual address space. **BaseAddress** must be aligned to a 64KB boundary.
 
-<b>BaseAddress</b> is in bytes and must be aligned to 64KB boundary.
+If **BaseAddress** is non-NULL, the video memory manager attempts to use this address as the base address for the reserved range. If the range from **BaseAddress** to **BaseAddress**+**Size** isn’t free, the call fails. When **BaseAddress** is non-NULL, **MinimumAddress** and **MaximumAddress** are ignored.
 
-
-If <b>NULL</b> is specified the video memory manager will pick the base address for the allocation within the specified <b>MinimumAddress</b> and <b>MaximumAddress</b>.
+If NULL is specified the video memory manager picks the base address for the allocation within the specified **MinimumAddress** and **MaximumAddress**.
 
 ### -field MinimumAddress
 
-(Optional) Specifies the minimum GPU virtual address to consider for the reserved range.
-
-<b>MinimumAddress</b> is in bytes and must be aligned to 64KB boundary.
-
-This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
+[in/optional] The minimum GPU virtual address to consider for the reserved range. **MinimumAddress** is in bytes and must be aligned to 64KB boundary. It's ignored when **BaseAddress** is non-NULL.
 
 ### -field MaximumAddress
 
-(Optional) Specifies the maximum GPU virtual address to consider for the reserved range. the video memory manager will guarantee that <b>BaseAddress</b>+<b>Size</b> <= <b>MaximumAddress</b>. If this is set to NULL the video memory manager will not apply any limit.
+[in/optional] The maximum GPU virtual address to consider for the reserved range. The video memory manager guarantees that **BaseAddress**+**Size** <= **MaximumAddress**. If **MaximumAddress** is set to NULL the video memory manager will not apply any limit.
 
-<b>MaximumAddress</b> is in bytes and must be aligned to 64KB boundary.
-
-This parameter is ignored when <b>BaseAddress</b> != <b>NULL</b>.
+**MaximumAddress** is in bytes and must be aligned to 64KB boundary. It's ignored when **BaseAddress** is non-NULL.
 
 ### -field Size
 
-Specify the size of the range to reserve in bytes. Must be a multiple of 64KB.
+[in] The size of the range to reserve, in bytes. Must be a multiple of 64KB.
 
 ### -field ReservationType
 
-Specifies the virtual address reservation type.
+This member is obsolete. Don't use it.
 
 ### -field Reserved0
 
@@ -96,19 +87,19 @@ This member is reserved and should be set to zero.
 
 ### -field DriverProtection
 
-Specifies the driver-specific protection
+This member is obsolete. Don't use it.
 
 ### -field Reserved1
 
 This member is reserved and should be set to zero.
 
-### -field VirtualAddress [out]
+### -field VirtualAddress
 
-The reserved virtual address.
+[out] The reserved virtual address.
 
 ### -field PagingFenceValue
 
-Paging fence identifier for synchronization
+This member is obsolete. Don't use it.
 
 ### -field Reserved2
 
@@ -116,4 +107,4 @@ This member is reserved and should be set to zero.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb">pfnReserveGpuVirtualAddressCb</a>
+[**pfnReserveGpuVirtualAddressCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_reservegpuvirtualaddresscb.md)

@@ -6,7 +6,7 @@ title: dot11wificxtypes
 ms.date: 04/30/2021
 keywords: ["Dot11wificxtypes.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 f1_keywords:
  - dot11wificxtypes
  - dot11wificxtypes/dot11wificxtypes

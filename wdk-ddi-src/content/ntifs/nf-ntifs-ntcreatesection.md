@@ -1,15 +1,15 @@
 ---
 UID: NF:ntifs.NtCreateSection
 title: NtCreateSection function (ntifs.h)
-description: The NtCreateSection routine in ntifs.h creates a section object. Once the handle pointed to is no longer in use, the driver must close it.
+description: Learn about the NtCreateSection function.
 tech.root: kernel
-ms.date: 10/06/2022
+ms.date: 07/02/2024
 keywords: ["NtCreateSection function"]
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 req.header: ntifs.h
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Windows 2000.
+req.target-min-winverclnt: Windows 2000
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -44,7 +44,7 @@ ms.custom: engagement-fy23
 
 ## -description
 
-The **NtCreateSection** routine creates a [section object**](/windows-hardware/drivers/kernel/section-objects-and-views).
+The **NtCreateSection** routine creates a [section object](/windows-hardware/drivers/kernel/section-objects-and-views).
 
 ## -parameters
 
@@ -103,7 +103,7 @@ Once the handle pointed to by **SectionHandle** is no longer in use, the driver 
 
 If the caller is not running in a system thread context, it must ensure that any handles it creates are private handles. Otherwise, the handle can be accessed by the process in whose context the driver is running. For more information, see [Object Handles](/windows-hardware/drivers/kernel/object-handles).
 
-For more information about setting up mapped sections and views of memory, see [Sections and Views](../_kernel/index.md#sections-and-views).
+For more information, see [Managing Memory Sections](/windows-hardware/drivers/kernel/managing-memory-sections).
 
 > [!NOTE]
 > If the call to this function occurs in user mode, you should use the name "**NtCreateSection**" instead of "**ZwCreateSection**".

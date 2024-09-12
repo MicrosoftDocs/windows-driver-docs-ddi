@@ -2,7 +2,7 @@
 UID: NC:acxstreams.EVT_ACX_STREAM_SET_RENDER_PACKET
 tech.root: audio
 title: EVT_ACX_STREAM_SET_RENDER_PACKET
-ms.date: 10/31/2022
+ms.date: 07/17/2024
 targetos: Windows
 description: The EvtAcxStreamSetRenderPacket event tells the driver which packet was just released by the client.
 prerelease: false
@@ -58,11 +58,11 @@ The number of the packet written by the OS to the WaveRT buffer. Depending on th
 
 ### -param Flags
 
-Flags can be 0 or AcxStreamSetRenderPacketEndOfStream, indicating the Packet is the last packet in the stream.
+Flags can be 0 or `KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM = 0x200`, indicating the Packet is the last packet in the stream, and EosPacketLength is a valid length in bytes for the packet. For more information see _OptionsFlags_ in [KSSTREAM_HEADER structure (ks.h)](/windows-hardware/drivers/ddi/ks/ns-ks-ksstream_header).
 
 ### -param EosPacketLength
 
-The length of the EOS packet if AcxStreamSetRenderPacketEndOfStream is specified in Flags. Zero is a valid value. If AcxStreamSetRenderPacketEndOfStream is not specified in Flags, this parameter should be ignored. The EosPacketLength is measured in bytes.
+The length of the EOS packet if `KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM = 0x200` is specified in Flags. Zero is a valid value. If `KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM`  is not specified in Flags, this parameter should be ignored. The EosPacketLength is measured in bytes.
 
 ## -returns
 
@@ -72,7 +72,7 @@ STATUS_DATA_LATE_ERROR – The driver returns this error if the OS passes a pack
 
 STATUS_DATA_OVERRUN – The driver returns this error if the OS passes a packet number that is higher than can be stored in the WaveRT buffer. In this case, a glitch condition has occurred. The driver may optionally ignore the data in the packet.
 
-STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls this routine after previously setting the AcxStreamSetRenderPacketEndOfStream flag.
+STATUS_INVALID_DEVICE_STATE – The driver returns this error if the OS calls this routine after previously setting the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM flag.
 
 STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other parameter invalid, aside from the specific cases for other error status. This includes any Flag values not specifically defined above.
 
@@ -80,7 +80,7 @@ STATUS_INVALID_PARAMETER – The driver returns this error if it finds any other
 
 After the OS calls this routine, the driver may optionally use the provided information to optimize the hardware transfer. For example, the driver might optimize DMA transfers, or program hardware to stop transfer at the end of the specified packet in case the OS does not call this routine again to inform the driver of another packet. This can mitigate audible effects of underflow, for example introducing an audible gap rather than repeating a circular buffer. The driver however is still obligated to increase its internal packet counter and signal notification events at a nominal real time rate.
 
-Depending on hardware capabilities, if the AcxStreamSetRenderPacketEndOfStream flag is specified, the driver may silence-fill a portion of the WaveRT buffer that follows the EOS packet in case the hardware transfers data beyond the EOS position.
+Depending on hardware capabilities, if the KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM flag is specified, the driver may silence-fill a portion of the WaveRT buffer that follows the EOS packet in case the hardware transfers data beyond the EOS position.
 
 The client starts by pre-rolling a buffer. When the client calls ReleaseBuffer, this will translate to a call in AudioKSE that will call into the ACX layer, which will call EvtAcxStreamSetRenderPacket on the active ACXSTREAM. The property will include the packet index (0-based) and, if appropriate, an EOS flag with the byte offset of the end of the stream in the current packet.  
   

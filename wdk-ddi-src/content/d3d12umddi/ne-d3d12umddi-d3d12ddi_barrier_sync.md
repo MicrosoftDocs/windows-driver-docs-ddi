@@ -141,6 +141,10 @@ Synchronize against shader execution except pixel shading. Exists for compatibil
 
 Synchronize against [**PFND3D12DDI_EMIT_RAYTRACING_ACCELERATION_STRUCTURE_POSTBUILD_INFO_0054**](nc-d3d12umddi-pfnd3d12ddi_emit_raytracing_acceleration_structure_postbuild_info_0054.md) work.
 
+### -field D3D12DDI_BARRIER_SYNC_CLEAR_UNORDERED_ACCESS_VIEW:0x8000
+
+Synchronize against execution to a UAV.
+
 ### -field D3D12DDI_BARRIER_SYNC_VIDEO_DECODE:0x100000
 
 Synchronize against Video Decode execution.

@@ -6,7 +6,7 @@ ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
 ms.date: 09/18/2020
 keywords: ["Serial port"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Serial port

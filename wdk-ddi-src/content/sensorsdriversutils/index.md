@@ -6,7 +6,7 @@ ms.assetid: 0e15d0bf-dc40-34ad-b0ef-c0c40e90929c
 ms.date: 05/09/2018
 keywords: ["Sensorsdriversutils.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: sensors
 f1_keywords:
  - sensorsdriversutils

@@ -6,7 +6,7 @@ ms.assetid: c8496ac9-e318-30df-baca-c0ea009e04d1
 ms.date: 05/09/2018
 keywords: ["Aux_Klib.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - aux_klib

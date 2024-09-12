@@ -6,7 +6,7 @@ ms.assetid: 8c375ed6-386a-38cc-8d32-9ad589db65cc
 ms.date: 05/09/2018
 keywords: ["Dmusprop.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: audio
 f1_keywords:
  - dmusprop

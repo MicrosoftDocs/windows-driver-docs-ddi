@@ -63,7 +63,7 @@ The handle of a resource.
 
 ### -field hKMResource
 
-A handle of a kernel resource.
+Reserved.
 
 ### -field NumAllocations
 

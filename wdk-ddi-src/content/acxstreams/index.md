@@ -6,8 +6,8 @@ description: This topic describes the acxstreams header that are used to create 
 keywords: ["acxstreams.h header"]
 ms.keywords: 
 ms.service: windows-hardware-driver-quality
-ms.subservice: windows-devices
-ms.topic: overview
+ms.subservice: wdk-api-reference
+ms.topic: reference
 tech.root: audio
 f1_keywords:
  - acxstreams

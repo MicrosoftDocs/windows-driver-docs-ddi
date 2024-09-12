@@ -5,7 +5,7 @@ title: winsplp.h header
 ms.date: 03/02/2023
 keywords: ["Winsplp.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: print
 f1_keywords:
  - winsplp

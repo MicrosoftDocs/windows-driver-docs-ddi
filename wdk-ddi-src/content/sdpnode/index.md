@@ -6,7 +6,7 @@ ms.assetid: 03f84fc0-9c8e-37d3-bcac-e26636d44d47
 ms.date: 05/09/2018
 keywords: ["Sdpnode.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: bltooth
 f1_keywords:
  - sdpnode

@@ -1,16 +1,13 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEDECODEDEVICE
-title: _D3DDDIARG_CREATEDECODEDEVICE (d3dumddi.h)
-description: The D3DDDIARG_CREATEDECODEDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) decode device to create.
-old-location: display\d3dddiarg_createdecodedevice.htm
+title: D3DDDIARG_CREATEDECODEDEVICE (d3dumddi.h)
+description: Learn more about the D3DDDIARG_CREATEDECODEDEVICE structure.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["D3DDDIARG_CREATEDECODEDEVICE structure"]
-ms.keywords: D3DDDIARG_CREATEDECODEDEVICE, D3DDDIARG_CREATEDECODEDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_eb54920e-5904-4a9d-bfac-fe71743b2726.xml, _D3DDDIARG_CREATEDECODEDEVICE, d3dumddi/D3DDDIARG_CREATEDECODEDEVICE, display.d3dddiarg_createdecodedevice
+ms.date: 09/10/2024
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,44 +40,36 @@ api_name:
  - D3DDDIARG_CREATEDECODEDEVICE
 ---
 
-# _D3DDDIARG_CREATEDECODEDEVICE structure
-
+# D3DDDIARG_CREATEDECODEDEVICE structure
 
 ## -description
 
-The D3DDDIARG_CREATEDECODEDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) decode device to create.
+The **D3DDDIARG_CREATEDECODEDEVICE** structure describes a DirectX Video Acceleration (DXVA) decode device to create.
 
 ## -struct-fields
 
 ### -field pGuid [in]
 
-A pointer to the GUID that represents the DirectX VA decode type. The Microsoft Direct3D runtime calls the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the supported GUIDs.
+A pointer to the GUID that represents the DXVA decode type. The Direct3D runtime calls the [**GetCaps**](nc-d3dumddi-pfnd3dddi_getcaps.md) function to query for the supported GUIDs.
 
 ### -field VideoDesc [in]
 
-The <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a> structure for the video stream that the decode device should decode.
+The [**DXVADDI_VIDEODESC**](ns-d3dumddi-_dxvaddi_videodesc.md) structure for the video stream that the decode device should decode.
 
 ### -field pConfig [in]
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_configpicturedecode">DXVADDI_CONFIGPICTUREDECODE</a> structure that contains the DirectX VA connection configuration data for compressed picture decoding that the decode device requires. The Direct3D runtime calls the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the supported configurations.
+A pointer to the [**DXVADDI_CONFIGPICTUREDECODE**](ns-d3dumddi-_dxvaddi_configpicturedecode.md) structure that contains the DirectX VA connection configuration data for compressed picture decoding that the decode device requires. The Direct3D runtime calls the [**GetCaps**](nc-d3dumddi-pfnd3dddi_getcaps.md) function to query for the supported configurations.
 
 ### -field hDecode [in/out]
 
-A handle to the decode device. The user-mode display driver must set this handle to a value that the Direct3D runtime can use to identify the decode device in subsequent calls.
+A handle to the decode device. The user-mode display driver generates this handle for the Direct3D runtime to use to identify the decode device in subsequent calls.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createdecodedevice">CreateDecodeDevice</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_configpicturedecode">DXVADDI_CONFIGPICTUREDECODE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_videodesc">DXVADDI_VIDEODESC</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
-
+[**CreateDecodeDevice**](nc-d3dumddi-pfnd3dddi_createdecodedevice.md)  
+  
+[**DXVADDI_CONFIGPICTUREDECODE**](ns-d3dumddi-_dxvaddi_configpicturedecode.md)  
+  
+[**DXVADDI_VIDEODESC**](ns-d3dumddi-_dxvaddi_videodesc.md)  
+  
+[**GetCaps**](nc-d3dumddi-pfnd3dddi_getcaps.md)

@@ -6,7 +6,7 @@ ms.assetid: f85c530f-35d6-36ba-99e3-5ed06a65e9c8
 ms.date: 05/09/2018
 keywords: ["Mountmgr.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - mountmgr

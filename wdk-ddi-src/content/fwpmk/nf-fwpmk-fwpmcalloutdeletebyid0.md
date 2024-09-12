@@ -4,7 +4,7 @@ title: FwpmCalloutDeleteById0 function (fwpmk.h)
 description: The FwpmCalloutDeleteById0 function deletes a callout from the filter engine.Note  FwpmCalloutDeleteById0 is a specific version of FwpmCalloutDeleteById.
 old-location: netvista\fwpmcalloutdeletebyid0.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 06/21/2024
 keywords: ["FwpmCalloutDeleteById0 function"]
 ms.keywords: FwpmCalloutDeleteById0, FwpmCalloutDeleteById0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutDeleteById0, netvista.fwpmcalloutdeletebyid0, wfp_ref_2_funct_2_fwpm_466376ac-f7a1-417e-9de8-9c3a7ff31404.xml
 req.header: fwpmk.h
@@ -43,108 +43,43 @@ api_name:
 
 # FwpmCalloutDeleteById0 function
 
-
 ## -description
 
-The 
-  <b>FwpmCalloutDeleteById0</b> function deletes a callout from the filter engine.
-<div class="alert"><b>Note</b>  <b>FwpmCalloutDeleteById0</b> is a specific version of <b>FwpmCalloutDeleteById</b>. See <a href="/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows">WFP Version-Independent Names and Targeting Specific Versions of Windows</a> for more information.</div><div> </div>
+The **FwpmCalloutDeleteById0** function deletes a callout from the filter engine.
 
 ## -parameters
 
 ### -param engineHandle [in]
 
-
-A handle for an open session to the filter engine. A callout driver calls the 
-     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a> function to open a
-     session to the filter engine.
+A handle for an open session to the filter engine. A callout driver calls the **[FwpmEngineOpen0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0)** function to open a session to the filter engine.
 
 ### -param id [in]
 
-
-The run-time identifier for the callout that is being deleted from the filter engine. This must be
-     the run-time identifier that was returned when the callout driver called the 
-     <a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a> function to add the
-     callout to the filter engine.
+The run-time identifier for the callout that is being deleted from the filter engine. This must be the run-time identifier that was returned when the callout driver called the [FwpmCalloutAdd0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0) function to add the callout to the filter engine.
 
 ## -returns
 
-The 
-     <b>FwpmCalloutDeleteById0</b> function returns one of the following NTSTATUS codes.
+The **FwpmCalloutDeleteById0** function returns one of the following NTSTATUS codes.
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The callout was successfully deleted from the filter engine.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FWP_IN_USE</b></dt>
-</dl>
-</td>
-<td width="60%">
-One or more filters in the filter engine specify the callout for the filter's action.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_FWP_CALLOUT_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-There is not a callout in the filter engine that matches the run-time identifier specified in
-       the 
-       <i>id</i> parameter.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>Other status codes</b></dt>
-</dl>
-</td>
-<td width="60%">
-An error occurred.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+| --- | --- |
+| **STATUS_SUCCESS** | The callout was successfully deleted from the filter engine. |
+| **STATUS_FWP_IN_USE** | One or more filters in the filter engine specify the callout for the filter's action. |
+| **STATUS_FWP_CALLOUT_NOT_FOUND** | There is not a callout in the filter engine that matches the run-time identifier specified in the *id* parameter. |
+| **Other NTSTATUS codes** | An error occurred. |
 
 ## -remarks
 
-A callout driver calls the 
-    <b>FwpmCalloutDeleteById0</b> function to delete a callout from the filter engine, using the run-time
-    identifier to identify the callout to be deleted.
+A callout driver calls the **FwpmCalloutDeleteById0** function to delete a callout from the filter engine, using the run-time identifier to identify the callout to be deleted.
 
-Callout drivers do not typically delete their callouts from the filter engine. In most situations, this
-    is handled by a user-mode <a href="/windows/desktop/FWP/windows-filtering-platform-start-page">Windows Filtering Platform</a> management application.
+Callout drivers do not typically delete their callouts from the filter engine. In most situations, this is handled by a user-mode [Windows Filtering Platform](/windows/desktop/FWP/windows-filtering-platform-start-page) management application.
 
-A callout can be deleted from the filter engine only if there are no filters in the filter engine that
-    specify the callout for the filter's action.
+A callout can be deleted from the filter engine only if there are no filters in the filter engine that specify the callout for the filter's action.
+
+**FwpmCalloutDeleteById0** is a specific version of **FwpmCalloutDeleteById**. See [WFP Version-Independent Names and Targeting Specific Versions of Windows](/windows/desktop/FWP/wfp-version-independent-names-and-targeting-specific-versions-of-windows) for more information.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0">FwpmCalloutAdd0</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0">FwpmCalloutDeleteByKey0</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0">FwpmEngineOpen0</a>
+- [FwpmCalloutAdd0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutadd0)
+- [FwpmCalloutDeleteByKey0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmcalloutdeletebykey0)
+- [FwpmEngineOpen0](/windows-hardware/drivers/ddi/fwpmk/nf-fwpmk-fwpmengineopen0)

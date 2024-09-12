@@ -6,7 +6,7 @@ ms.assetid: 2d111291-ad47-3189-aac5-bdd3b2a649a6
 ms.date: 05/09/2018
 keywords: ["Hbapiwmi.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - hbapiwmi

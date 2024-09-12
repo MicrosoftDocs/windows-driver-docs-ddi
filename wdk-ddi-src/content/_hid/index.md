@@ -6,7 +6,7 @@ ms.assetid: 87c002be-da96-313a-bae1-c6a49c9ce065
 ms.date: 01/11/2022
 keywords: ["Human Interface Devices (HID)"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Human Interface Devices (HID)

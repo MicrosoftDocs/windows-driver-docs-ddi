@@ -6,7 +6,7 @@ ms.assetid: 21939472-b0b4-3c10-86e6-842cb8446575
 ms.date: 05/09/2018
 keywords: ["Ntddcdrm.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - ntddcdrm

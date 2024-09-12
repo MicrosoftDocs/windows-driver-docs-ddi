@@ -5,7 +5,7 @@ title: Acpiioct.h header
 ms.date: 03/02/2023
 keywords: ["Acpiioct.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: acpi
 f1_keywords:
  - acpiioct

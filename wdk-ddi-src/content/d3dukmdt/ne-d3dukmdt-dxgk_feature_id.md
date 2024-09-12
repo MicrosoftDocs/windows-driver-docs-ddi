@@ -2,7 +2,7 @@
 UID: NE:d3dukmdt._DXGK_FEATURE_ID
 tech.root: display
 title: DXGK_FEATURE_ID
-ms.date: 04/05/2024
+ms.date: 06/17/2024
 targetos: Windows
 description: Learn more about the DXGK_FEATURE_ID enumeration.
 prerelease: false
@@ -78,7 +78,7 @@ The page-based memory management feature. The feature category is DXGK_FEATURE_C
 
 ### -field DXGK_FEATURE_KERNEL_MODE_TESTING
 
-The kernel-mode testing interface feature. The feature category is DXGK_FEATURE_CATEGORY_DRIVER.
+The [kernel-mode testing](/windows-hardware/drivers/display/kernel-mode-testing-of-wddm-features) feature. The feature category is DXGK_FEATURE_CATEGORY_DRIVER.
 
 ### -field DXGK_FEATURE_64K_PT_DEMOTION_FIX
 
@@ -90,7 +90,7 @@ The OS has the fix for the issue in GPU paravirtualization and hardware scheduli
 
 ### -field DXGK_FEATURE_NATIVE_FENCE
 
-The native GPU fence feature. The feature category is DXGK_FEATURE_CATEGORY_DRIVER.
+The [native GPU fence](/windows-hardware/drivers/display/native-gpu-fence-objects) feature. The feature category is DXGK_FEATURE_CATEGORY_DRIVER.
 
 ### -field DXGK_FEATURE_GPUVAIOMMU
 

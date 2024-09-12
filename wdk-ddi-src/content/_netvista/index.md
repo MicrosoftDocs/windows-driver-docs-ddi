@@ -6,7 +6,7 @@ ms.assetid: 81753000-e53e-3c99-bde3-5c662c944380
 ms.date: 10/30/2021
 keywords: ["Networking drivers for Windows Vista and later"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ms.custom: contperf-fy22q2
 ---
 

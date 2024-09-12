@@ -5,7 +5,7 @@ title: Windows kernel
 ms.date: 01/03/2023
 keywords: ["Windows kernel"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Kernel

@@ -5,7 +5,7 @@ title: Pointofservicedriverinterface.h header
 ms.date: 03/02/2023
 keywords: ["Pointofservicedriverinterface.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: pos
 f1_keywords:
  - pointofservicedriverinterface

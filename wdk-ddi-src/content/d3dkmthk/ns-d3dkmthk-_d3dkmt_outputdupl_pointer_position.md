@@ -1,15 +1,13 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_POINTER_POSITION
-title: _D3DKMT_OUTPUTDUPL_POINTER_POSITION (d3dkmthk.h)
-description: Contains output duplicate pointer position info.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_OUTPUTDUPL_POINTER_POSITION structure"]
-ms.keywords: _D3DKMT_OUTPUTDUPL_POINTER_POSITION, D3DKMT_OUTPUTDUPL_POINTER_POSITION,
+title: D3DKMT_OUTPUTDUPL_POINTER_POSITION (d3dkmthk.h)
+description: Learn more about the D3DKMT_OUTPUTDUPL_POINTER_POSITION structure.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTPUTDUPL_POINTER_POSITION structure
-
+# D3DKMT_OUTPUTDUPL_POINTER_POSITION structure
 
 ## -description
 
-Contains output duplicate pointer position info.
+The **D3DKMT_OUTPUTDUPL_POINTER_POSITION** structure contains output duplicate pointer position info.
 
 ## -struct-fields
 
@@ -54,10 +51,8 @@ The pointer position.
 
 ### -field Visible
 
- 
 Indicates whether the pointer is visible or not.
 
 ## -remarks
 
 ## -see-also
-

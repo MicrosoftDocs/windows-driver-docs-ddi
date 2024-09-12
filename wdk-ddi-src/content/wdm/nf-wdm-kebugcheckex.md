@@ -81,7 +81,7 @@ A driver or other kernel-mode component should call this routine only in cases o
 
 <b>KeBugCheckEx</b> can be useful in the early stages of developing a driver, or while it is undergoing testing. In these circumstances, the <i>BugCheckCode</i> passed to this routine should be distinct from those codes already in use by Windows or its drivers. For a list of these codes, see <a href="/windows-hardware/drivers/debugger/bug-check-code-reference2">Bug Check Codes</a>.
 
-However, even during driver development, this routine is of only limited utility, since it results in a complete system shutdown. A more effective debugging method is to attach a kernel debugger to the system and then use routines that send messages to the debugger or break into the debugger. For further information, see <a href="/windows-hardware/drivers/devtest/using-debugging-code-in-a-driver">Using Debugging Code in a Driver</a>.
+However, even during driver development, this routine is of only limited utility, since it results in a complete system shutdown. A more effective debugging method is to attach a kernel debugger to the system and then use routines that send messages to the debugger or break into the debugger. For further information, see <a href="/windows-hardware/drivers/debugger/getting-started-with-windbg--kernel-mode-">Get started with WinDbg (kernel mode)</a>.
 
 ## -see-also
 

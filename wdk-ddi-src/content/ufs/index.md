@@ -6,7 +6,7 @@ ms.assetid: 77c0dfa6-2ceb-31c0-bda9-4c80a5be1c49
 ms.date: 05/09/2018
 keywords: ["Ufs.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - ufs

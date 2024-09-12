@@ -6,7 +6,7 @@ ms.assetid: 6b009b60-06dc-3225-88b1-4c355dadc70e
 ms.date: 05/09/2018
 keywords: ["Spbcx.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: spb
 f1_keywords:
  - spbcx

@@ -1,16 +1,13 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_EXTENSIONEXECUTE
 title: PFND3DDDI_EXTENSIONEXECUTE (d3dumddi.h)
-description: The ExtensionExecute function performs an operation by using the given Microsoft DirectX Video Accelerator (VA) extension device.
-old-location: display\extensionexecute.htm
+description: Learn more about the PFND3DDDI_EXTENSIONEXECUTE callback function.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["PFND3DDDI_EXTENSIONEXECUTE callback function"]
-ms.keywords: ExtensionExecute, ExtensionExecute callback function [Display Devices], PFND3DDDI_EXTENSIONEXECUTE, PFND3DDDI_EXTENSIONEXECUTE callback, UserModeDisplayDriver_Functions_2972e743-bdb5-41ab-92ff-986b8335883b.xml, d3dumddi/ExtensionExecute, display.extensionexecute
+ms.date: 09/10/2024
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,10 +39,9 @@ api_name:
 
 # PFND3DDDI_EXTENSIONEXECUTE callback function
 
-
 ## -description
 
-The <i>ExtensionExecute</i> function performs an operation by using the given Microsoft DirectX Video Accelerator (VA) extension device.
+The **ExtensionExecute** function performs an operation by using the given DirectX Video Accelerator (DXVA) extension device.
 
 ## -parameters
 
@@ -57,22 +53,25 @@ A handle to the display device (graphics context).
 
 *pData* [in]
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_extensionexecute">D3DDDIARG_EXTENSIONEXECUTE</a> structure that describes the DirectX VA operation to perform.
+A pointer to a [**D3DDDIARG_EXTENSIONEXECUTE**](ns-d3dumddi-_d3dddiarg_extensionexecute.md) structure that describes the DXVA operation to perform.
 
 ## -returns
 
-<i>ExtensionExecute</i> returns one of the following values:
+**ExtensionExecute** returns one of the following values:
 
 |Return code|Description|
 |--- |--- |
-|S_OK|The DirectX VA operation is successfully performed.|
+|S_OK|The DXVA operation is successfully performed.|
 |E_OUTOFMEMORY|ExtensionExecute could not allocate the required memory for it to complete.|
+
+## -remarks
+
+For more information, see [Extended Support for DirectX VA 2.0](/windows-hardware/drivers/display/extended-support-for-directx-va-2-0).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_extensionexecute">D3DDDIARG_EXTENSIONEXECUTE</a>
+[**CreateExtensionDevice**](nc-d3dumddi-pfnd3dddi_createextensiondevice.md)
 
+[**D3DDDIARG_EXTENSIONEXECUTE**](ns-d3dumddi-_d3dddiarg_extensionexecute.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddi_devicefuncs">D3DDDI_DEVICEFUNCS</a>
-
+[**D3DDDI_DEVICEFUNCS**](ns-d3dumddi-_d3dddi_devicefuncs.md)

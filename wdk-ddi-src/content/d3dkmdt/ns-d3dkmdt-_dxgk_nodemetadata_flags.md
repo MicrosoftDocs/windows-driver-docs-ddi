@@ -2,7 +2,7 @@
 UID: NS:d3dkmdt._DXGK_NODEMETADATA_FLAGS
 title: DXGK_NODEMETADATA_FLAGS (d3dkmdt.h)
 description: Learn more about the DXGK_NODEMETADATA_FLAGS structure.
-ms.date: 05/22/2023
+ms.date: 06/17/2024
 keywords: ["DXGK_NODEMETADATA_FLAGS structure"]
 ms.keywords: _DXGK_NODEMETADATA_FLAGS, DXGK_NODEMETADATA_FLAGS,
 req.header: d3dkmdt.h
@@ -61,7 +61,11 @@ The engine supports tracked workloads. Available starting with Windows 10, versi
 
 ### -field UserModeSubmission
 
-The engine supports user-mode work submission. For more information, see [User-mode work submission](/windows-hardware/drivers/display/user-mode-work-submission). Supported starting with Windows 11, version 24H2.
+The engine supports [user-mode work submission](/windows-hardware/drivers/display/user-mode-work-submission). Supported starting with Windows 11, version 24H2.
+
+### -field SupportBuildTestCommandBuffer
+
+The engine supports [kernel-mode testing](/windows-hardware/drivers/display/kernel-mode-testing-of-wddm-features). Supported starting with Windows 11, version 24H2.
 
 ### -field MaxInFlightHwQueueBuffers
 

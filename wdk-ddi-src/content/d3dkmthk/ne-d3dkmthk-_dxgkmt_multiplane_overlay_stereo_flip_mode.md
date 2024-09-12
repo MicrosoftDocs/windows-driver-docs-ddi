@@ -1,10 +1,8 @@
 ---
 UID: NE:d3dkmthk._DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE
-title: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE (d3dkmthk.h)
-description: The multiplane overlay stereo flip modes.
-ms.date: 10/19/2018
-keywords: ["DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration"]
-ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE, DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE,
+title: DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE (d3dkmthk.h)
+description: Learn more about the DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
@@ -36,28 +34,26 @@ dev_langs:
  - c++
 ---
 
-# _DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration
-
+# DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration
 
 ## -description
 
-The multiplane overlay stereo flip modes.
+The **DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE** enumeration specifies multiplane overlay stereo flip modes.
 
 ## -enum-fields
 
-### -field DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE 
+### -field DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_NONE
 
 None.
 
-### -field DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0 
+### -field DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME0
 
 Frame 0.
 
-### -field DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1 
+### -field DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_FRAME1
 
 Frame 1.
 
 ## -remarks
 
 ## -see-also
-

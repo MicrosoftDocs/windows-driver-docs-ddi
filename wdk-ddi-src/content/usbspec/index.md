@@ -6,7 +6,7 @@ ms.assetid: 399eedeb-abab-3fb2-9a78-c323c5ecb8ef
 ms.date: 05/09/2018
 keywords: ["Usbspec.h header"]
 ms.keywords: USB specification data structures
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 f1_keywords:
  - usbspec

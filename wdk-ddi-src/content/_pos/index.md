@@ -5,7 +5,7 @@ title: Point of Service (POS)
 ms.date: 03/02/2023
 keywords: ["Point of Service (POS)"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Point of Service (POS)

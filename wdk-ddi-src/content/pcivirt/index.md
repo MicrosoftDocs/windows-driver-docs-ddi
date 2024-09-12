@@ -6,7 +6,7 @@ ms.assetid: bc773e64-8435-30c4-b21e-3a5a58d3b29e
 ms.date: 05/09/2018
 keywords: ["Pcivirt.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - pcivirt

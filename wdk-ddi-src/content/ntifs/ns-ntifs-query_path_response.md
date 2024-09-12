@@ -2,7 +2,7 @@
 UID: NS:ntifs._QUERY_PATH_RESPONSE
 tech.root: ifsk
 title: QUERY_PATH_RESPONSE
-ms.date: 08/12/2021
+ms.date: 06/21/2024
 targetos: Windows
 description: Learn more about the QUERY_PATH_RESPONSE structure.
 prerelease: false

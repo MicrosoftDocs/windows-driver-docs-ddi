@@ -6,7 +6,7 @@ ms.assetid: 191B3590-DB72-4E6F-B716-E536CE042E09
 ms.date: 09/28/2020
 keywords: ["Checksumtypes.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - checksumtypes

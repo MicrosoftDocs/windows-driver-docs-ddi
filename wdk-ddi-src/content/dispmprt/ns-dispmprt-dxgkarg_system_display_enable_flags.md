@@ -1,7 +1,7 @@
 ---
 UID: NS:dispmprt._DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 title: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
-ms.date: 03/24/2020
+ms.date: 07/17/2024
 targetos: Windows
 description: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS is reserved for system use.
 tech.root: display
@@ -14,8 +14,8 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.target-type: 
 req.typenames: DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS, *PDXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS
 req.umdf-ver: 
@@ -43,7 +43,6 @@ dev_langs:
 
 # DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS structure
 
-
 ## -description
 
 **DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS** is reserved for system use.
@@ -59,4 +58,3 @@ dev_langs:
 ## -see-also
 
 [**DxgkddiSystemDisplayEnable**](./nc-dispmprt-dxgkddi_system_display_enable.md)
-

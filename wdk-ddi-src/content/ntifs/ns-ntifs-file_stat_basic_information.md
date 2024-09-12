@@ -2,7 +2,7 @@
 UID: NS:ntifs._FILE_STAT_BASIC_INFORMATION
 tech.root: ifsk
 title: FILE_STAT_BASIC_INFORMATION
-ms.date: 02/09/2024
+ms.date: 07/26/2024
 targetos: Windows
 description: Learn more about FILE_STAT_BASIC_INFORMATION structure.
 prerelease: false
@@ -53,7 +53,7 @@ helpviewer_keywords:
 
 ### -field FileId
 
-Specifies the id of a file.
+Specifies the identifier of a file.
 
 ### -field CreationTime
 
@@ -77,7 +77,7 @@ File allocation size, in bytes. Usually this value is a multiple of the sector o
 
 ### -field EndOfFile
 
-Absolute new end-of-file position as a byte offset from the start of the file. **EndOfFile** specifies the byte offset to the end of the file. Because this value is zero-based, it actually refers to the first free byte in the file. In other words, **EndOfFile** is the offset to the byte immediately following the last valid byte in the file.
+The absolute new end-of-file position as a byte offset from the start of the file. **EndOfFile** specifies the byte offset to the end of the file. Because this value is zero-based, it actually refers to the first free byte in the file. In other words, **EndOfFile** is the offset to the byte immediately following the last valid byte in the file.
 
 ### -field FileAttributes
 
@@ -94,7 +94,7 @@ FILE_ATTRIBUTE_NORMAL   |0x00000080
 
 ### -field ReparseTag
 
-Reparse point tag. See [About reparse points](/windows-hardware/drivers/ifs/reparse-points) for more information.
+Specifies the tag for a reparse point. See [About reparse points](/windows-hardware/drivers/ifs/reparse-points) for more information.
 
 ### -field NumberOfLinks
 
@@ -140,4 +140,4 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 [**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md)
 
-[**ZwQueryInformationByName **](../wdm/nf-wdm-zwqueryinformationbyname.md)
+[**ZwQueryInformationByName**](../wdm/nf-wdm-zwqueryinformationbyname.md)

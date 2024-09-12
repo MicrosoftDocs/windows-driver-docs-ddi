@@ -6,7 +6,7 @@ ms.assetid: 3e459ad2-db6c-372c-95bd-d836bce39752
 ms.date: 05/09/2018
 keywords: ["Ucmmanager.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 f1_keywords:
  - ucmmanager

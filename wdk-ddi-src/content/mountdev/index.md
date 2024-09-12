@@ -6,7 +6,7 @@ ms.assetid: be9fed45-a126-3ee3-a8af-d3afa08baea2
 ms.date: 05/09/2018
 keywords: ["Mountdev.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - mountdev

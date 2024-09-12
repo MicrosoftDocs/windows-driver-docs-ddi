@@ -1,7 +1,7 @@
 ---
 UID: NE:srb.STOR_PNP_ACTION
 tech.root: storage
-title: STOR_PNP_ACTION
+title: STOR_PNP_ACTION (srb.h)
 ms.date: 03/12/2024
 targetos: Windows
 description: Enumerates Plug and Play minor function codes.

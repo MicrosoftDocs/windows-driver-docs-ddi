@@ -6,7 +6,7 @@ ms.assetid: 467e5627-4547-3535-a408-d23128a36471
 ms.date: 05/09/2018
 keywords: ["Arrayofelements.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 f1_keywords:
  - arrayofelements
  - arrayofelements/arrayofelements

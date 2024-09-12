@@ -2,7 +2,7 @@
 UID: NS:ntifs._QUERY_PATH_REQUEST_EX
 tech.root: ifsk
 title: QUERY_PATH_REQUEST_EX
-ms.date: 08/12/2021
+ms.date: 06/24/2024
 targetos: Windows
 description: Learn more about the QUERY_PATH_REQUEST_EX structure.
 prerelease: false
@@ -62,7 +62,7 @@ A pointer to the extended attributes buffer.
 
 ### -field PathName
 
-A non-NULL terminated Unicode string of the form \\<*server*>\\<*share*>\\<*path*>.
+A non-NULL terminated Unicode string of the form \\\\<*server*>\\<*share*>\\<*path*>.
 
 ### -field DomainServiceName
 

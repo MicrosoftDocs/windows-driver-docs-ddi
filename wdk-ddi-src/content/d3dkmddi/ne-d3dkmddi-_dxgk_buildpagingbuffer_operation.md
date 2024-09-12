@@ -1,11 +1,8 @@
 ---
 UID: NE:d3dkmddi._DXGK_BUILDPAGINGBUFFER_OPERATION
 title: DXGK_BUILDPAGINGBUFFER_OPERATION (d3dkmddi.h)
-description: Indicates the type of memory operation to perform.
-old-location: display\dxgk_buildpagingbuffer_operation.htm
-ms.date: 06/24/2022
-keywords: ["DXGK_BUILDPAGINGBUFFER_OPERATION enumeration"]
-ms.keywords: DXGK_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION enumeration [Display Devices], DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES, DXGK_OPERATION_DISCARD_CONTENT, DXGK_OPERATION_FILL, DXGK_OPERATION_FLUSH_TLB, DXGK_OPERATION_INIT_CONTEXT_RESOURCE, DXGK_OPERATION_MAP_APERTURE_SEGMENT, DXGK_OPERATION_NOTIFY_RESIDENCY, DXGK_OPERATION_READ_PHYSICAL, DXGK_OPERATION_SPECIAL_LOCK_TRANSFER, DXGK_OPERATION_TRANSFER, DXGK_OPERATION_UNMAP_APERTURE_SEGMENT, DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION, DXGK_OPERATION_UPDATE_PAGE_TABLE, DXGK_OPERATION_VIRTUAL_FILL, DXGK_OPERATION_VIRTUAL_TRANSFER, DXGK_OPERATION_WRITE_PHYSICAL, _DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/, d3dkmddi/DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/DXGK_OPERATION_COPY_PAGE_TABLE_ENTRIES, d3dkmddi/DXGK_OPERATION_DISCARD_CONTENT, d3dkmddi/DXGK_OPERATION_FILL, d3dkmddi/DXGK_OPERATION_FLUSH_TLB, d3dkmddi/DXGK_OPERATION_INIT_CONTEXT_RESOURCE, d3dkmddi/DXGK_OPERATION_MAP_APERTURE_SEGMENT, d3dkmddi/DXGK_OPERATION_NOTIFY_RESIDENCY, d3dkmddi/DXGK_OPERATION_READ_PHYSICAL, d3dkmddi/DXGK_OPERATION_SPECIAL_LOCK_TRANSFER, d3dkmddi/DXGK_OPERATION_TRANSFER, d3dkmddi/DXGK_OPERATION_UNMAP_APERTURE_SEGMENT, d3dkmddi/DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION, d3dkmddi/DXGK_OPERATION_UPDATE_PAGE_TABLE, d3dkmddi/DXGK_OPERATION_VIRTUAL_FILL, d3dkmddi/DXGK_OPERATION_VIRTUAL_TRANSFER, d3dkmddi/DXGK_OPERATION_WRITE_PHYSICAL, display.dxgk_buildpagingbuffer_operation
+description: Learn more about the DXGK_BUILDPAGINGBUFFER_OPERATION enumeration.
+ms.date: 08/16/2024
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -101,7 +98,7 @@ The operation is called to allow the kernel mode driver to build a command buffe
 
 ### -field DXGK_OPERATION_FLUSH_TLB:12
 
-This operation instructs GPU to flush *translation look-aside buffer* entries, which belong to the given root page table. Available starting with WDDM 2.0.
+This operation instructs the GPU to flush *translation look-aside buffer* entries, which belong to the given root page table. Available starting with WDDM 2.0.
 
 ### -field DXGK_OPERATION_UPDATE_CONTEXT_ALLOCATION:13
 
@@ -125,6 +122,32 @@ Perform a map-aperture-segment operation that maps an address descriptor list (A
 
 To opt in to this operation, which is required for [IOMMU DMA remapping](/windows-hardware/drivers/display/iommu-dma-remapping), the driver must indicate **MapAperture2Supported** support in [**DXGK_VIDMMCAPS**](ns-d3dkmddi-_dxgk_vidmmcaps.md) structure. This operation is available starting with WDDM 3.0.
 
+### -field DXGK_OPERATION_NOTIFY_FENCE_RESIDENCY:18
+
+This operation notifies the driver about fence residency changes. Available starting with WDDM 2.9.
+
+### -field DXGK_OPERATION_MAP_MMU:19
+
+Available starting in Windows 11, version 24H2 (WDDM 3.2).
+
+### -field DXGK_OPERATION_UNMAP_MMU:20
+
+Available starting in Windows 11, version 24H2 (WDDM 3.2).
+
+### -field DXGK_OPERATION_NOTIFY_RESIDENCY2:21
+
+Available starting in Windows 11, version 24H2 (WDDM 3.2).
+
+### -field DXGK_OPERATION_NOTIFY_ALLOC:22
+
+This operation notifies the driver about certain paging operations for an allocation. Available starting in Windows 11, version 24H2 (WDDM 3.2). For more information, see [Allocation notification](/windows-hardware/drivers/display/allocation-notification).
+
 ## -remarks
 
 The **DXGK_BUILDPAGINGBUFFER_OPERATION** structure is specified in the **Operation** member of the [**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md) structure, which is passed to [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) to build paging buffers for memory operations.
+
+## -see-also
+
+[**DXGKARG_BUILDPAGINGBUFFER**](ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md)
+
+[**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md)

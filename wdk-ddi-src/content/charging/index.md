@@ -6,7 +6,7 @@ ms.assetid: ea5ea45e-3345-3551-94ef-8fd0f279aa6b
 ms.date: 05/09/2018
 keywords: ["Charging.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: buses
 f1_keywords:
  - charging

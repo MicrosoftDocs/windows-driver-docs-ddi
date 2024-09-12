@@ -6,7 +6,7 @@ ms.assetid: 19d1c21c-e570-36c7-a800-a34b1f3fba03
 ms.date: 05/09/2018
 keywords: ["Sensorscxfuncenum.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: sensors
 f1_keywords:
  - sensorscxfuncenum

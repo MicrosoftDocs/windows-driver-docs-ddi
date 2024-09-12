@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARG_QUERYADAPTERINFO
 title: DXGKARG_QUERYADAPTERINFO (d3dkmddi.h)
 description: Learn more about the DXGKARG_QUERYADAPTERINFO structure.
-ms.date: 03/28/2024
+ms.date: 08/19/2024
 keywords: ["DXGKARG_QUERYADAPTERINFO structure"]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -64,6 +64,7 @@ A pointer to input information for the query. The following table describes the 
 | DXGKQAITYPE_POWERCOMPONENTINFO | Buffer containing the power component index. |
 | DXGKQAITYPE_DIRTYBITTRACKINGSEGMENTCAPS | Buffer containing the driver's segment ID. The driver should fill out the output caps for this particular segment. |
 | DXGKQAITYPE_SCATTER_RESERVE | A [**DXGK_QUERYSCATTERRESERVEIN**](ns-d3dkmddi-dxgk_queryscatterreservein.md) structure. |
+| DXGKQAITYPE_PAGINGPROCESSGPUVASIZE | A UNIT value that specifies the physical adapter index in an LDA configuration. It's set to zero for non-LDA configurations. |
 
 ### -field InputDataSize [in]
 

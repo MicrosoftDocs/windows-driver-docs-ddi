@@ -1,10 +1,8 @@
 ---
 UID: NS:d3dkmdt._DXGK_ADAPTER_PERFDATACAPS
-title: _DXGK_ADAPTER_PERFDATACAPS (d3dkmdt.h)
-description: The physical adapter index in a LDA chain.
-ms.date: 10/19/2018
-keywords: ["DXGK_ADAPTER_PERFDATACAPS structure"]
-ms.keywords: _DXGK_ADAPTER_PERFDATACAPS, DXGK_ADAPTER_PERFDATACAPS,
+title: DXGK_ADAPTER_PERFDATACAPS (d3dkmdt.h)
+description: Learn more about the DXGK_ADAPTER_PERFDATACAPS structure.
+ms.date: 09/11/2024
 req.header: d3dkmdt.h
 req.include-header: 
 req.target-type: 
@@ -36,32 +34,40 @@ api_name:
  - DXGK_ADAPTER_PERFDATACAPS
 ---
 
-# _DXGK_ADAPTER_PERFDATACAPS structure
-
+# DXGK_ADAPTER_PERFDATACAPS structure
 
 ## -description
 
-The physical adapter index in a LDA chain.
+The **DXGK_ADAPTER_PERFDATACAPS** structure describes the performance data capabilities of the adapter.
 
 ## -struct-fields
 
 ### -field MaxMemoryBandwidth
 
-Max memory bandwidth in bytes for 1 second.
+The maximum memory bandwidth in bytes for 1 second.
 
 ### -field MaxPCIEBandwidth
 
-Max PCIE bandwidth in bytes for 1 second.
+The maximum PCIE bandwidth in bytes for 1 second.
 
 ### -field MaxFanRPM
 
-The max fan rpm of the main fan.
+The maximum fan revolutions per minute of the main fan.
 
 ### -field TemperatureMax
 
-The max temperature before damage levels occur in deci Celsius. 1 = 0.1C.
+The maximum temperature before damage levels occur in deci-Celsius (a value of 1 = 0.1C).
 
 ### -field TemperatureWarning
 
-The temperature level where temperature based throttling begins in deci Celsius. 1 = 0.1C.
+The temperature level where temperature based throttling begins in deci-Celsius (a value of 1 = 0.1C).
 
+## -remarks
+
+KMD's [**DxgkDdiQueryAdapterInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function should fill in the **DXGK_ADAPTER_PERFDATACAPS** structure in response to a [**DXGK_QUERYADAPTERINFOTYPE**](../d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype.md) query of type **DXGKQAITYPE_ADAPTERPERFDATA_CAPS**.
+
+## -see-also
+
+[**DXGK_QUERYADAPTERINFOTYPE**](../d3dkmddi/ne-d3dkmddi-_dxgk_queryadapterinfotype.md)
+
+[**DxgkDdiQueryAdapterInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md)

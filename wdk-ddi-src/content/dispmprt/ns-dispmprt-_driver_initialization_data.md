@@ -721,9 +721,9 @@ A pointer to the **DxgkDdiDestroyNativeFence** callback function. Available star
 
 A pointer to the **DxgkDdiUpdateMonitoredValues** callback function. Available starting with Windows 11 version 22H2 (DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WDDM3_1).
 
-### -field DxgkDdiNotifyCurrentValueUpdates
+### -field DxgkDdiUpdateCurrentValuesFromCpu
 
-A pointer to the **DxgkDdiNotifyCurrentValueUpdates** callback function. Available starting with Windows 11 version 22H2 (DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WDDM3_1).
+A pointer to the **DxgkDdiUpdateCurrentValuesFromCpu** callback function. Available starting with Windows 11 version 22H2 (DXGKDDI_INTERFACE_VERSION ≥ DXGKDDI_INTERFACE_VERSION_WDDM3_1).
 
 ### -field DxgkDdiCreateDoorbell
 

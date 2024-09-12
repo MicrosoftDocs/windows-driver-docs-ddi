@@ -171,7 +171,10 @@ Starting with NDIS 6.30, this flag is set if the miniport driver  is able to tra
 
 For more information about this flag, see the Remarks section.
 
+#### NDIS_MINIPORT_ATTRIBUTES_NO_OID_INTERCEPT_ON_NONDEFAULT_PORTS
 
+Starting with NDIS 6.30, this flag is set if the miniport driver handles OIDs on non-default ports that are usually intercepted
+       and handled by NDIS on its behalf. This does not change the behavior of OIDs destined to the default port.
 
 #### NDIS_MINIPORT_ATTRIBUTES_REGISTER_BUGCHECK_CALLBACK
 

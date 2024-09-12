@@ -6,7 +6,7 @@ ms.assetid: 3c9d30b6-1230-3c65-a5e6-41697649a0bc
 ms.date: 05/09/2018
 keywords: ["Wmidata.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - wmidata

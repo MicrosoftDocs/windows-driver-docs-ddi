@@ -96,7 +96,7 @@ Specifies the root index of the UAV.
 
 The index within the root signature that identifies the root constant to be updated.
 
-### field IncrementingConstant.DestOffsetIn32BitValues
+### -field IncrementingConstant.DestOffsetIn32BitValues
 
 This field specifies the offset, in terms of 32-bit values (not bytes), within the root constant's memory where the incremented value will be written. It defines the position within the root constant at which the incrementing constant will start. If the root constant is an array of multiple 32-bit values, this offset indicates which element of the array will receive the first incremented value.
 

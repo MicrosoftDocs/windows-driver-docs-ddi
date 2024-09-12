@@ -1,9 +1,8 @@
 ---
 UID: NS:d3d12umddi.D3D12DDI_SHADERCACHE_HASH
 title: D3D12DDI_SHADERCACHE_HASH (d3d12umddi.h)
-description: Includes a hash value.
-old-location: display\d3d12ddi_shadercache_hash.htm
-ms.date: 05/10/2018
+description: Learn about the D3D12DDI_SHADERCACHE_HASH structure.
+ms.date: 06/27/2024
 keywords: ["D3D12DDI_SHADERCACHE_HASH structure"]
 ms.keywords: D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash
 req.header: d3d12umddi.h
@@ -42,14 +41,20 @@ api_name:
 
 # D3D12DDI_SHADERCACHE_HASH structure
 
-
 ## -description
 
-Includes a hash value.
+The **D3D12DDI_SHADERCACHE_HASH** structure contains a hash value associated with a shader in the shader cache.
 
 ## -struct-fields
 
 ### -field Hash
 
-A hash value.
+A hash value. When a shader is compiled, a hash value based on the shader code and possibly other relevant data is computed. This hash is then used as a key to store and retrieve the compiled shader code from the shader cache.
 
+## -see-also
+
+[**PFND3D12DDI_CREATE_SHADER_0026**](nc-d3d12umddi-pfnd3d12ddi_create_shader_0026.md)
+
+[**pfnShaderCacheGetValueCb**](nc-d3d12umddi-pfnd3d12ddi_shadercachegetvalue_cb_0021.md)
+
+[**pfnShaderCacheStoreValueCb**](nc-d3d12umddi-pfnd3d12ddi_shadercachestorevalue_cb_0021.md)

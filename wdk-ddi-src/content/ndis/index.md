@@ -6,7 +6,7 @@ ms.assetid: e28f0b17-202f-367c-9cdd-eb5880617eca
 ms.date: 05/09/2018
 keywords: ["Ndis.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - ndis

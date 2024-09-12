@@ -6,7 +6,7 @@ ms.assetid: 2cf71389-08f1-3c73-b478-7efa6045e05e
 ms.date: 05/09/2018
 keywords: ["Ucxusbdevice.h header"]
 ms.keywords: USB host controller driver
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 f1_keywords:
  - ucxusbdevice

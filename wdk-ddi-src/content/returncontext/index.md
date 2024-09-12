@@ -6,7 +6,7 @@ ms.assetid: 54F42043-0F6B-45EC-9E91-90505DB1575D
 ms.date: 09/20/2019
 keywords: ["Returncontext.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 ms.custom: Vb
 f1_keywords:

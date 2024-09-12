@@ -5,7 +5,7 @@ title: Winddiui.h header
 ms.date: 03/02/2023
 keywords: ["Winddiui.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: print
 f1_keywords:
  - winddiui

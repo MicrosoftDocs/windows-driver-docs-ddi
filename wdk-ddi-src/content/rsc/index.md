@@ -6,7 +6,7 @@ ms.assetid: D1B06148-6745-469E-B878-EAB79B253A1F
 ms.date: 09/28/2020
 keywords: ["Rsc.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - rsc

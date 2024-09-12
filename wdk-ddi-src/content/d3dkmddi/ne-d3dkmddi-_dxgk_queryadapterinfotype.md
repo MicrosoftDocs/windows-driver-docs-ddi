@@ -2,7 +2,7 @@
 UID: NE:d3dkmddi._DXGK_QUERYADAPTERINFOTYPE
 title: DXGK_QUERYADAPTERINFOTYPE (d3dkmddi.h)
 description: Learn more about the DXGK_QUERYADAPTERINFOTYPE enumeration.
-ms.date: 04/03/2024
+ms.date: 08/19/2024
 keywords: ["DXGK_QUERYADAPTERINFOTYPE enumeration"]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -234,6 +234,22 @@ The KMD should populate a [**DXGK_DIRTY_BIT_TRACKING_SEGMENT_CAPS**](ns-d3dkmddi
 ### -field DXGKQAITYPE_SCATTER_RESERVE:41
 
 The KMD should populate a [**DXGK_QUERYSCATTERRESERVEOUT**](ns-d3dkmddi-dxgk_queryscatterreserveout.md) structure that contains the driver's support details for scatter reserve. Supported starting in Windows 11, version 24H2. For more information, see [Live migration on GPU-P devices](/windows-hardware/drivers/display/live-migration-on-gpup-devices).
+
+### -field DXGKQAITYPE_QUERYPAGINGBUFFERINFO:42
+
+### -field DXGKQAITYPE_QUERYSEGMENTCOUNT:43
+
+### -field DXGKQAITYPE_QUERYSEGMENT5:44
+
+### -field DXGKQAITYPE_QUERYMMUCOUNT:45
+
+### -field DXGKQAITYPE_QUERYMMUS:46
+
+### -field DXGKQAITYPE_64BITONLYCAPS:47
+
+### -field DXGKQAITYPE_PAGINGPROCESSGPUVASIZE:48
+
+KMD should return the size of the paging process GPU VA space, in megabytes. For more information, see [Allocation Notification](/windows-hardware/drivers/display/allocation-notification). Available starting in Windows 11, version 24H2 (WDDM 3.2).
 
 ## -remarks
 

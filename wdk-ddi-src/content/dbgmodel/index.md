@@ -6,7 +6,7 @@ ms.assetid: 1ed8e19a-ceff-3fbf-906f-a4cb735628aa
 ms.date: 07/12/2018
 keywords: ["Dbgmodel.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: debugger
 ms.custom: RS5
 f1_keywords:

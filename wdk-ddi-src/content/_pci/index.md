@@ -5,7 +5,7 @@ title: PCI overview
 ms.date: 03/23/2022
 keywords: ["PCI"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # PCI

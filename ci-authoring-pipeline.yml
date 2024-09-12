@@ -31,6 +31,7 @@ jobs:
       git checkout main
       git merge gh-public/staging --no-ff --no-commit
       if [ $? -eq 0 ]; then
+        git commit -m "Merged staging into main"
         git push gh-public main:staging
         git push origin main:main
         git checkout release-amethyst

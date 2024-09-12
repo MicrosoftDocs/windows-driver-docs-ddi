@@ -2,9 +2,9 @@
 UID: NF:storport.StorPortNvmeIceIoComplete
 tech.root: storage
 title: StorPortNvmeIceIoComplete
-ms.date: 03/25/2024
+ms.date: 07/26/2024
 targetos: Windows
-description: The StorPortNvmeIceIoComplete function signals the completion of a Non-Volatile Memory Express (NVMe) input/output (IO) operation that was initiated by a previous call to StorPortNvmeIceIoStart.
+description: Learn more about the StorPortNvmeIceIoComplete function.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,24 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
-The **StorPortNvmeIceIoComplete** function signals the completion of a Non-Volatile Memory Express (NVMe) input/output (IO) operation that was initiated by a previous call to **[StorPortNvmeIceIoStart](nf-storport-storportnvmeiceiostart.md)**.
+The **StorPortNvmeIceIoComplete** function signals the completion of an NVMe I/O operation that was initiated by a previous call to [**StorPortNvmeIceIoStart**](nf-storport-storportnvmeiceiostart.md).
 
 ## -parameters
 
 ### -param HwDeviceExtension
 
-A pointer to the hardware device extension. This is a per HBA (Host Bus Adapter) context area provided by the miniport driver. The miniport driver can store HBA-specific information here.
+[in] A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Srb
 
-A pointer to a SCSI request block. This structure represents a single I/O request.
+[in] A pointer to a SCSI request block. This structure represents a single I/O request.
 
 ## -returns
 
-Returns a STOR_STATUS_XXXX value as defined in storport.h. If the Windows version is earlier than Windows 11, the function returns STOR_STATUS_NOT_IMPLEMENTED.
+**StorPortNvmeIceIoComplete** returns STOR_STATUS_SUCCESS if the operation is successful. Otherwise, it returns a STOR_STATUS value such as one of the following:
+
+| Return code | Description |
+| ----------- | ----------- |
+| STOR_STATUS_NOT_IMPLEMENTED | This function isn't implemented on the active operating system. |
+| STOR_STATUS_INVALID_PARAMETER | One of the parameters is invalid. |
 
 ## -remarks
 
 ## -see-also
 
-- **[StorPortNvmeIceIoStart](nf-storport-storportnvmeiceiostart.md)**
+[**StorPortNvmeIceIoStart**](nf-storport-storportnvmeiceiostart.md)

@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY
 title: D3DKMT_MULTIPLANE_OVERLAY (d3dkmthk.h)
-description: The D3DKMT_MULTIPLANE_OVERLAY structure contains information that is used to define a multiplane overlay.
-ms.date: 10/19/2018
+description: Learn more about the D3DKMT_MULTIPLANE_OVERLAY structure.
+ms.date: 07/17/2024
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY structure"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY, D3DKMT_MULTIPLANE_OVERLAY,
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -38,10 +38,9 @@ dev_langs:
 
 # D3DKMT_MULTIPLANE_OVERLAY structure
 
-
 ## -description
 
-Multiplane overlay structure.
+The **D3DKMT_MULTIPLANE_OVERLAY** structure contains information that is used to define a multiplane overlay.
 
 ## -struct-fields
 
@@ -51,16 +50,16 @@ The layer index.
 
 ### -field Enabled
 
+Boolean value that specifies whether the overlay is enabled for display.
+
 ### -field hAllocation
 
 A handle to a device allocation.
 
 ### -field PlaneAttributes
 
- 
-A structure that contains the plane attributes.
+A [**D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES**](ns-d3dkmthk-d3dkmt_multiplane_overlay_attributes.md) structure that contains the plane's attributes.
 
 ## -remarks
 
 ## -see-also
-

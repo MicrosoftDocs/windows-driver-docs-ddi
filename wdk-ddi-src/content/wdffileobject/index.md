@@ -6,7 +6,7 @@ ms.assetid: 90b55e9f-4c2f-3ec8-9b52-55f348298e80
 ms.date: 05/09/2018
 keywords: ["Wdffileobject.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: wdf
 f1_keywords:
  - wdffileobject

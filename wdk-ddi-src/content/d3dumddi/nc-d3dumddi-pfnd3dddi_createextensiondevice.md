@@ -1,16 +1,13 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATEEXTENSIONDEVICE
 title: PFND3DDDI_CREATEEXTENSIONDEVICE (d3dumddi.h)
-description: The CreateExtensionDevice function creates a Microsoft DirectX Video Acceleration (DirectX VA) extension device.
-old-location: display\createextensiondevice.htm
+description: Learn more about the PFND3DDDI_CREATEEXTENSIONDEVICE callback function.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["PFND3DDDI_CREATEEXTENSIONDEVICE callback function"]
-ms.keywords: CreateExtensionDevice, CreateExtensionDevice callback function [Display Devices], PFND3DDDI_CREATEEXTENSIONDEVICE, PFND3DDDI_CREATEEXTENSIONDEVICE callback, UserModeDisplayDriver_Functions_342ee084-e24a-43a8-99a9-c83c2670e2e4.xml, d3dumddi/CreateExtensionDevice, display.createextensiondevice
+ms.date: 09/09/2024
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,10 +39,9 @@ api_name:
 
 # PFND3DDDI_CREATEEXTENSIONDEVICE callback function
 
-
 ## -description
 
-The <b>CreateExtensionDevice</b> function creates a Microsoft DirectX Video Acceleration (DirectX VA) extension device.
+The **CreateExtensionDevice** function creates a DirectX Video Acceleration (DXVA) extension device.
 
 ## -parameters
 
@@ -57,22 +53,25 @@ A handle to the display device (graphics context).
 
 *pData* [in, out]
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createextensiondevice">D3DDDIARG_CREATEEXTENSIONDEVICE</a> structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Microsoft Direct3D runtime can use.
+A pointer to a [**D3DDDIARG_CREATEEXTENSIONDEVICE**](ns-d3dumddi-_d3dddiarg_createextensiondevice.md) structure. On input, this structure contains information that the driver can use. On output, the driver specifies information in the structure that the Direct3D runtime can use.
 
 ## -returns
 
-<b>CreateExtensionDevice</b> returns one of the following values:
+**CreateExtensionDevice** returns one of the following values:
 
-| **Return code** | **Description** | 
+| **Return code** | **Description** |
 |:--|:--|
-| **S_OK** | The extension device is successfully created. | 
-| **E_OUTOFMEMORY** | [CreateExtensionDevice]()  could not allocate the required memory for it to complete. |
+| **S_OK** | The extension device is successfully created. |
+| **E_OUTOFMEMORY** | **CreateExtensionDevice** couldn't allocate the required memory for it to complete. |
+
+## -remarks
+
+For more information, see [Creating and Using a DirectX VA 2.0 Extension Device](/windows-hardware/drivers/display/creating-and-using-a-directx-va-2-0-extension-device).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createextensiondevice">D3DDDIARG_CREATEEXTENSIONDEVICE</a>
+[**D3DDDIARG_CREATEEXTENSIONDEVICE**](ns-d3dumddi-_d3dddiarg_createextensiondevice.md)
 
+[**DecodeExtensionExecute**](nc-d3dumddi-pfnd3dddi_decodeextensionexecute.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_destroyextensiondevice">DestroyExtensionDevice</a>
-
+[**DestroyExtensionDevice**](nc-d3dumddi-pfnd3dddi_destroyextensiondevice.md)

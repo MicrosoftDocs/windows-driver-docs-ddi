@@ -6,7 +6,7 @@ ms.assetid: 4bae9dcd-2c48-3a14-9947-7e0831da3b42
 ms.date: 05/09/2018
 keywords: ["Fltkernel.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: ifsk
 f1_keywords:
  - fltkernel

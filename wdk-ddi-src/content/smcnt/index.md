@@ -6,7 +6,7 @@ ms.assetid: f0458d39-14d8-3d3d-9c48-866fa482bc98
 ms.date: 09/28/2022
 keywords: ["Smcnt.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: smartcard
 f1_keywords:
  - smcnt

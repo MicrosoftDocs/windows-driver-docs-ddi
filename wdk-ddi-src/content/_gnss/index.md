@@ -5,7 +5,7 @@ title: Global Navigation Satellite System (GNSS)
 ms.date: 03/02/2023
 keywords: ["Global Navigation Satellite System (GNSS)"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Global Navigation Satellite System (GNSS)

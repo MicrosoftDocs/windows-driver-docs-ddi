@@ -6,7 +6,7 @@ ms.assetid: 64c7511b-6379-3c2f-bd00-f08eab970dc2
 ms.date: 05/09/2018
 keywords: ["D3Dumddi.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: display
 f1_keywords:
  - d3dumddi

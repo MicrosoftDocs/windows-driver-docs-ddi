@@ -6,7 +6,7 @@ description: "Learn more about: ieee8021qtypes.h header"
 ms.date: 04/15/2021
 keywords: ["ieee8021qtypes.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 f1_keywords:
  - ieee8021qtypes
  - ieee8021qtypes/ieee8021qtypes

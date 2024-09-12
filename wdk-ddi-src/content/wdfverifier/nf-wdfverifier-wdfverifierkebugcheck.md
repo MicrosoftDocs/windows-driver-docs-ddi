@@ -81,7 +81,7 @@ For information about this parameter, see the specified bug check code's descrip
 
 ## -remarks
 
-If your Kernel-Mode Driver Framework (KMDF) driver calls <b>WdfVerifierKeBugCheck</b>, the operating system halts and displays a <a href="/windows-hardware/drivers/debugger/blue-screen-data">blue screen</a> unless a <a href="/windows-hardware/drivers/devtest/using-a-debugger">debugger</a> is running.
+If your Kernel-Mode Driver Framework (KMDF) driver calls <b>WdfVerifierKeBugCheck</b>, the operating system halts and displays a <a href="/windows-hardware/drivers/debugger/blue-screen-data">blue screen</a> unless a debugger is running. For more information, see  [Getting Started with WinDbg - Kernel Mode](/windows-hardware/drivers/debugger/getting-started-with-windbg--kernel-mode-).
 
 If your  User-Mode Driver Framework (UMDF) driver (version 2.0 or later) calls <b>WdfVerifierKeBugCheck</b>, the framework does not use  the parameters that the driver supplies.   In this case, the framework breaks into the debugger if one is connected. If a debugger is not connected, the framework generates an exception, and the default UMDF exception handler creates a minidump file. For more information about unhandled exceptions in the driver host process, see <a href="/windows-hardware/drivers/wdf/how-umdf-reports-errors">How UMDF Reports Errors</a>.
 

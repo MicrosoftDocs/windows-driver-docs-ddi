@@ -6,7 +6,7 @@ ms.assetid: 2f24ce41-8f5a-4071-883f-202c58f4c7dd
 ms.date: 07/30/2018
 keywords: ["Sensorsutils.h header"]
 ms.keywords: sensorsutils.h
-ms.topic: overview
+ms.topic: reference
 tech.root: sensors
 ms.custom: RS5
 f1_keywords:

@@ -74,7 +74,7 @@ A [**D3D12DDI_LIBRARY_REFERENCE_0010**](ns-d3d12umddi-d3d12ddi_library_reference
 
 ### -field ShaderCodeHash
 
-A [**D3D12DDI_SHADERCACHE_HASH**](ns-d3d12umddi-d3d12ddi_shadercache_hash.md) structure containing a hash value.
+A [**D3D12DDI_SHADERCACHE_HASH**](ns-d3d12umddi-d3d12ddi_shadercache_hash.md) structure containing a hash value to associate with the shader for shader cache lookup.
 
 ## -remarks
 

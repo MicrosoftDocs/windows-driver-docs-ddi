@@ -1,15 +1,13 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PINDIRECTFLIPRESOURCES
-title: _D3DKMT_PINDIRECTFLIPRESOURCES (d3dkmthk.h)
-description: Indirect flip resources.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_PINDIRECTFLIPRESOURCES structure"]
-ms.keywords: _D3DKMT_PINDIRECTFLIPRESOURCES, D3DKMT_PINDIRECTFLIPRESOURCES,
+title: D3DKMT_PINDIRECTFLIPRESOURCES (d3dkmthk.h)
+description: Learn more about the D3DKMT_PINDIRECTFLIPRESOURCES structure.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_PINDIRECTFLIPRESOURCES structure
-
+# D3DKMT_PINDIRECTFLIPRESOURCES structure
 
 ## -description
 
-Indirect flip resources.
+The **D3DKMT_PINDIRECTFLIPRESOURCES** structure specifies indirect flip resources.
 
 ## -struct-fields
 
@@ -58,10 +55,8 @@ The resource count.
 
 ### -field pResourceList
 
- 
 Pointer to a resource list.
 
 ## -remarks
 
 ## -see-also
-

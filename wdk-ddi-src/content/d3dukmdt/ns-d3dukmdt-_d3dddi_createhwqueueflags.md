@@ -3,7 +3,7 @@ UID: NS:d3dukmdt._D3DDDI_CREATEHWQUEUEFLAGS
 title: D3DDDI_CREATEHWQUEUEFLAGS (d3dukmdt.h)
 description: Learn more about the D3DDDI_CREATEHWQUEUEFLAGS structure.
 tech.root: display
-ms.date: 03/21/2024
+ms.date: 06/17/2024
 keywords: ["D3DDDI_CREATEHWQUEUEFLAGS structure"]
 req.header: d3dukmdt.h
 req.include-header: 
@@ -74,6 +74,8 @@ When set, indicates to the OS that the hardware queue being created uses the use
 When set, indicates that the [**DXGKARG_CREATEHWQUEUE::hHwQueueProgressFence**](../d3dkmddi/ns-d3dkmddi-dxgkarg_createhwqueue.md) handle points to the driver handle of a native GPU fence object previously created using [**DxgkDdiCreateNativeFence**](../d3dkmddi/nc-d3dkmddi-dxgkddi_createnativefence.md). For more information, see [Native GPU fence objects](/windows-hardware/drivers/display/native-gpu-fence-objects). Available starting with Windows 11, version 24H2.
 
 ### -field TestQueue
+
+When set, indicates that the hardware queue being created is a test queue for [kernel-mode testing](/windows-hardware/drivers/display/kernel-mode-testing-of-wddm-features). Available starting with Windows 11, version 24H2.
 
 ### -field Reserved
 

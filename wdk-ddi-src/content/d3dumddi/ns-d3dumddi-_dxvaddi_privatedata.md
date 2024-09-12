@@ -1,16 +1,13 @@
 ---
 UID: NS:d3dumddi._DXVADDI_PRIVATEDATA
-title: _DXVADDI_PRIVATEDATA (d3dumddi.h)
-description: The DXVADDI_PRIVATEDATA structure describes data that is required for a particular decoder to operate.
-old-location: display\dxvaddi_privatedata.htm
+title: DXVADDI_PRIVATEDATA (d3dumddi.h)
+description: Learn more about the DXVADDI_PRIVATEDATA structure.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["DXVADDI_PRIVATEDATA structure"]
-ms.keywords: DXVA2_Structs_8d49dc5e-8eff-4b7a-aa44-20b4f784a70f.xml, DXVADDI_PRIVATEDATA, DXVADDI_PRIVATEDATA structure [Display Devices], _DXVADDI_PRIVATEDATA, d3dumddi/DXVADDI_PRIVATEDATA, display.dxvaddi_privatedata
+ms.date: 09/10/2024
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,32 +40,36 @@ api_name:
  - DXVADDI_PRIVATEDATA
 ---
 
-# _DXVADDI_PRIVATEDATA structure
-
+# DXVADDI_PRIVATEDATA structure
 
 ## -description
 
-The DXVADDI_PRIVATEDATA structure describes data that is required for a particular decoder to operate.
+The **DXVADDI_PRIVATEDATA** structure encapsulates private data for a DirectX Video Acceleration (DXVA) extension device.
 
 ## -struct-fields
 
 ### -field pData [in]
 
-A pointer to a buffer that contains decoder data.
+A pointer to a buffer that contains private, driver-defined data for the extension device.
 
 ### -field DataSize [in]
 
-The size, in bytes, of the buffer that is pointed to by <b>pData</b>.
+The size, in bytes, of the buffer that is pointed to by **pData**.
+
+## -remarks
+
+For more information, see [Extended Support for DirectX VA 2.0](/windows-hardware/drivers/display/extended-support-for-directx-va-2-0).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_createdecodedevice">D3DDDIARG_CREATEDECODEDEVICE</a>
+[**CreateExtensionDevice**](nc-d3dumddi-pfnd3dddi_createextensiondevice.md)
 
+[**D3DDDIARG_CREATEEXTENSIONDEVICE**](ns-d3dumddi-_d3dddiarg_createextensiondevice.md)
 
+[**DecodeExtensionExecute**](nc-d3dumddi-pfnd3dddi_decodeextensionexecute.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeexecute">D3DDDIARG_DECODEEXECUTE</a>
+[**D3DDDIARG_DECODEEXTENSIONEXECUTE**](ns-d3dumddi-_d3dddiarg_decodeextensionexecute.md)
 
+[**ExtensionExecute**](nc-d3dumddi-pfnd3dddi_extensionexecute.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_decodeextensionexecute">D3DDDIARG_DECODEEXTENSIONEXECUTE</a>
-
+[**D3DDDIARG_EXTENSIONEXECUTE**](ns-d3dumddi-_d3dddiarg_extensionexecute.md)

@@ -6,7 +6,7 @@ ms.assetid: 8081c1fb-7fac-3c8c-b9a7-bcc62bf38982
 ms.date: 05/09/2018
 keywords: ["Ntddsysenv.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - ntddsysenv

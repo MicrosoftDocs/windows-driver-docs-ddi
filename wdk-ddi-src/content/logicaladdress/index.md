@@ -6,7 +6,7 @@ ms.assetid: 6D4C1CAF-3D08-4956-9C69-88D610AAB5C9
 ms.date: 09/20/2019
 keywords: ["Logicaladdress.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 ms.custom: Vb
 f1_keywords:

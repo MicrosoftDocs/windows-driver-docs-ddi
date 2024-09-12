@@ -1,9 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_VIDMM_ESCAPE
-title: _D3DKMT_VIDMM_ESCAPE (d3dkmthk.h)
+title: D3DKMT_VIDMM_ESCAPE (d3dkmthk.h)
 description: The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the D3DKMTEscape function.
-old-location: display\d3dkmt_vidmm_escape.htm
-ms.date: 05/10/2018
+ms.date: 06/14/2024
 keywords: ["D3DKMT_VIDMM_ESCAPE structure"]
 ms.keywords: D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, _D3DKMT_VIDMM_ESCAPE, d3dkmthk/D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape
 req.header: d3dkmthk.h
@@ -46,26 +45,17 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_VIDMM_ESCAPE structure
-
-
 ## -description
 
-<b>Do not use the D3DKMT_VIDMM_ESCAPE structure; it is for testing purposes only.</b>
+Don't use the **D3DKMT_VIDMM_ESCAPE** structure; it's for testing purposes only.
 
-The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory manager (which is part of Dxgkrnl.sys) in a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function.
+The **D3DKMT_VIDMM_ESCAPE** structure describes how to control the video memory manager, which is a part of *Dxrngkl.sys*, in a call to the [**D3DKMTEscape**](nf-d3dkmthk-d3dkmtescape.md) function.
 
 ## -struct-fields
 
 ### -field Type
 
 ### -field SetFault
-
-#### SplitPoin
-
-
-
-#### HotAddMemory
 
 ### -field SetFault.ProbeAndLock
 
@@ -109,8 +99,6 @@ The D3DKMT_VIDMM_ESCAPE structure describes how to control the video memory mana
 
 ### -field Evict.hProcess
 
-A handle to the process.
-
 ### -field EvictByNtHandle
 
 ### -field EvictByNtHandle.NtHandle
@@ -127,8 +115,6 @@ A handle to the process.
 
 ### -field GetVads.GetGpuMmuCaps
 
-The GPU memory management capabilities.
-
 ### -field GetVads.GetPte
 
 ### -field GetVads.GetSegmentCaps
@@ -136,6 +122,8 @@ The GPU memory management capabilities.
 ### -field GetVads.Command
 
 ### -field GetVads.Status
+
+### -field GetVads.GetPteExt
 
 ### -field SetBudget
 
@@ -147,15 +135,11 @@ The GPU memory management capabilities.
 
 ### -field SuspendProcess.hProcess
 
-A handle to the process.
-
 ### -field SuspendProcess.bAllowWakeOnSubmission
 
 ### -field ResumeProcess
 
 ### -field ResumeProcess.hProcess
-
-A handle to the process.
 
 ### -field GetBudget
 
@@ -193,15 +177,24 @@ A handle to the process.
 
 ### -field DelayExecution.hPagingQueue
 
+### -field DelayExecution.PhysicalAdapterIndex
+
 ### -field DelayExecution.Milliseconds
 
 ### -field DelayExecution.PagingFenceValue
 
+### -field VerifyIntegrity
+
+### -field VerifyIntegrity.PhysicalAdapterIndex
+
+### -field VerifyIntegrity.SegmentId
+
+### -field DelayEvictionConfig
+
+### -field DelayEvictionConfig.TimerValue
+
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a>
+[**D3DKMTEscape**](nf-d3dkmthk-d3dkmtescape.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_escape">D3DKMT_ESCAPE</a>
-
+[**D3DKMT_ESCAPE**](ns-d3dkmthk-_d3dkmt_escape.md)

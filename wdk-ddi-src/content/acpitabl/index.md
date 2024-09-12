@@ -5,7 +5,7 @@ title: Acpitabl.h header
 ms.date: 03/02/2023
 keywords: ["Acpitabl.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: acpi
 f1_keywords:
  - acpitabl

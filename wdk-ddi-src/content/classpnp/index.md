@@ -6,7 +6,7 @@ ms.assetid: be83a418-7913-3897-93e4-64f8740098af
 ms.date: 05/09/2018
 keywords: ["Classpnp.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - classpnp

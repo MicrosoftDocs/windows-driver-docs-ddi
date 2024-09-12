@@ -6,7 +6,7 @@ ms.assetid: 4BB252ED-3D1E-4D44-9997-B1BEEF12B490
 ms.date: 09/20/2019
 keywords: ["Netwakesource.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - netwakesource

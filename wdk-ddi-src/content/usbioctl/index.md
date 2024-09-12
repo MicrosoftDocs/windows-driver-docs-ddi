@@ -6,7 +6,7 @@ ms.assetid: 0cb01349-16ee-3a58-babe-fd5b85e93d9f
 ms.date: 05/09/2018
 keywords: ["Usbioctl.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 f1_keywords:
  - usbioctl

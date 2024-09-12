@@ -2,7 +2,7 @@
 UID: NS:ntifs._QUERY_PATH_REQUEST
 tech.root: ifsk
 title: QUERY_PATH_REQUEST
-ms.date: 08/12/2021
+ms.date: 06/21/2024
 targetos: Windows
 description: Learn more about the QUERY_PATH_REQUEST structure.
 prerelease: false
@@ -50,7 +50,7 @@ The **QUERY_PATH_REQUEST** structure contains the prefix resolution request for 
 
 ### -field PathNameLength
 
-The length, in bytes, of the Unicode string contained in the ***FilePathName*** member.
+The length, in bytes, of the Unicode string contained in ***FilePathName***.
 
 ### -field SecurityContext
 
@@ -58,8 +58,12 @@ A pointer to the security context.
 
 ### -field FilePathName
 
-A non-NULL terminated Unicode string of the form \\<*server*>\\<*share*>\\<*path*>.
+A non-NULL terminated Unicode string of **PathNameLength** bytes with the form \\\\<*server*>\\<*share*>\\<*path*>.
 
 ## -see-also
 
 [**IOCTL_REDIR_QUERY_PATH**](ni-ntifs-ioctl_redir_query_path.md)
+
+[**QUERY_PATH_REQUEST_EX**](ns-ntifs-query_path_request_ex.md)
+
+[**QUERY_PATH_RESPONSE**](ns-ntifs-query_path_response.md)

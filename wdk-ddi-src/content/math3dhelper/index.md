@@ -7,7 +7,7 @@ ms.date: 07/30/2018
 keywords: ["Math3dhelper.h header"]
 ms.keywords: 
 tech.root: sensors
-ms.topic: overview
+ms.topic: reference
 ms.custom: RS5
 f1_keywords:
  - math3dhelper

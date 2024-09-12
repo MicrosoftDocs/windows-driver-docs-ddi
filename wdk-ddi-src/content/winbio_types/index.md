@@ -6,7 +6,7 @@ ms.assetid: 628c8ccb-7d9b-34de-a75a-7126646798ee
 ms.date: 05/09/2018
 keywords: ["Winbio_Types.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: biometric
 f1_keywords:
  - winbio_types

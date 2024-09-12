@@ -55,8 +55,6 @@ Specifies arguments for the format string, as in **printf**.
 
 **KdPrintEx** is identical to the **DbgPrintEx** routine in code that is compiled for a debug configuration. This routine has no effect in code that is compiled for a release build. Only kernel-mode drivers can call the **KdPrintEx** routine.
 
-The Windows Driver Kit (WDK) 8 and WDK 7 manage the **DBG** preprocessor constant define appropriately for debug (check) and release (free) builds. For more information, see [Conditional Compilation and the Build Environment](/windows-hardware/drivers/devtest/conditional-compilation-and-the-build-environment).
-
 **KdPrintEx** either passes the specified string to the kernel debugger or does nothing at all, depending on the values of _ComponentId_, _Level_, and the corresponding component filter masks. For details, see [Reading and Filtering Debugging Messages](/windows-hardware/drivers/devtest/reading-and-filtering-debugging-messages).
 
 Unless it is absolutely necessary, you should not obtain a string from user input or another process and pass it to **KdPrintEx**. If you do use a string that you did not create, you must verify that this is a valid format string, and that the format codes match the argument list in type and quantity. The best coding practice is for all _Format_ strings to be static and defined at compile time.

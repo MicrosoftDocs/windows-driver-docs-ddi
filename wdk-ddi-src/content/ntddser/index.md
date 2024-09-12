@@ -6,7 +6,7 @@ ms.assetid: 1ef9acf8-d5d8-39b0-a68c-2a25e1e7e669
 ms.date: 05/09/2018
 keywords: ["Ntddser.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: serports
 f1_keywords:
  - ntddser

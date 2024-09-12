@@ -6,7 +6,7 @@ ms.assetid: 7916a78e-8897-372f-8e32-22081a9589d3
 ms.date: 05/09/2018
 keywords: ["Kbdmou.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: hid
 f1_keywords:
  - kbdmou

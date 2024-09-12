@@ -6,7 +6,7 @@ ms.assetid: 10b9bec4-c13d-3d81-bf4f-3a6c11fa28b5
 ms.date: 05/09/2018
 keywords: ["Wdfrequest.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: wdf
 f1_keywords:
  - wdfrequest

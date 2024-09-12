@@ -5,7 +5,7 @@ title: Wdm.h header
 ms.date: 01/05/2023
 keywords: ["Wdm.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - wdm

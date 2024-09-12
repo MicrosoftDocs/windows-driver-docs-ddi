@@ -6,7 +6,7 @@ ms.assetid: 674c88a6-47af-3f20-8f7a-e79f72def812
 ms.date: 05/09/2018
 keywords: ["Video.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: display
 f1_keywords:
  - video

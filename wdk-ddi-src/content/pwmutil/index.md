@@ -6,7 +6,7 @@ ms.assetid: b99cfd83-b486-3074-858e-6a79e4967733
 ms.date: 05/09/2018
 keywords: ["Pwmutil.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: spb
 f1_keywords:
  - pwmutil

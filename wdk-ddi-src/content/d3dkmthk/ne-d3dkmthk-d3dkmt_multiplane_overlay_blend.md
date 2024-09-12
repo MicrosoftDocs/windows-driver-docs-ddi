@@ -1,15 +1,13 @@
 ---
 UID: NE:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_BLEND
 title: D3DKMT_MULTIPLANE_OVERLAY_BLEND (d3dkmthk.h)
-description: Multiplane overlay blend type.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_MULTIPLANE_OVERLAY_BLEND enumeration"]
-ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_BLEND, D3DKMT_MULTIPLANE_OVERLAY_BLEND,
+description: Learn more about the D3DKMT_MULTIPLANE_OVERLAY_BLEND enumeration.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -35,22 +33,20 @@ dev_langs:
 
 # D3DKMT_MULTIPLANE_OVERLAY_BLEND enumeration
 
-
 ## -description
 
-Multiplane overlay blend type.
+The **D3DKMT_MULTIPLANE_OVERLAY_BLEND** enumeration specifies the multiplane overlay blend type.
 
 ## -enum-fields
 
-### -field D3DKMT_MULTIPLANE_OVERLAY_BLEND_OPAQUE 
+### -field D3DKMT_MULTIPLANE_OVERLAY_BLEND_OPAQUE:0x0
 
 Opaque.
 
-### -field D3DKMT_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND 
+### -field D3DKMT_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND:0x1
 
 Alpha blend (in linear space).
 
 ## -remarks
 
 ## -see-also
-

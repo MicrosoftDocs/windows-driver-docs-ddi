@@ -5,7 +5,7 @@ title: Kcom.h header
 ms.date: 03/02/2023
 keywords: ["Kcom.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: stream
 f1_keywords:
  - kcom

@@ -1,16 +1,13 @@
 ---
 UID: NF:storport.StorPortGetCurrentProcessorNumber
 title: StorPortGetCurrentProcessorNumber function (storport.h)
-description: The StorPortGetCurrentProcessorNumber routine retrieves the current processor number from the kernel.
-old-location: storage\storportgetcurrentprocessornumber.htm
+description: Learn more about the StorPortGetCurrentProcessorNumber function.
 tech.root: storage
-ms.date: 03/29/2018
-keywords: ["StorPortGetCurrentProcessorNumber function"]
-ms.keywords: StorPortGetCurrentProcessorNumber, StorPortGetCurrentProcessorNumber routine [Storage Devices], storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml
+ms.date: 07/26/2024
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 7.
+req.target-min-winverclnt: Windows 7
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,64 +39,32 @@ api_name:
 
 # StorPortGetCurrentProcessorNumber function
 
-
 ## -description
 
-The <b>StorPortGetCurrentProcessorNumber</b> routine retrieves the current processor number from the kernel.
+The **StorPortGetCurrentProcessorNumber** routine retrieves the current processor number from the kernel.
 
 ## -parameters
 
 ### -param HwDeviceExtension [in]
 
-
 A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param ProcNumber [out]
 
-
-A pointer to a processor number structure that holds the return data.
+Pointer to a [**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md) structure that holds the return data.
 
 ## -returns
 
-The <b>StorPortGetCurrentProcessorNumber</b> routine returns one of the following status codes:
+The **StorPortGetCurrentProcessorNumber** routine returns one of the following status codes:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_NOT_IMPLEMENTED</b></dt>
-</dl>
-</td>
-<td width="60%">
-This function is not implemented on the active operating system.
+| Return code | Description |
+| ----------- | ----------- |
+| **STOR_STATUS_NOT_IMPLEMENTED** | This function is not implemented on the active operating system.                                 |
+| **STOR_STATUS_SUCCESS**         | The operation was successful.                                                                   |
+| **STOR_STATUS_INVALID_PARAMETER** | The operation fails with this return value if one or more of the parameters are invalid, for example, if **ProcNumber** is set to **NULL**. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation was successful.
+## -see-also
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STOR_STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-The operation fails with this return value if one or more of the parameters are invalid, for example, if <i>ProcNumber</i> is set to <b>NULL</b>.
+[**PROCESSOR_NUMBER**](../miniport/ns-miniport-_processor_number.md)
 
-</td>
-</tr>
-</table>
-
+[**StorPortGetProcessorCount**](nf-storport-storportgetprocessorcount.md)

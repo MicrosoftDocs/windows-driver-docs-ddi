@@ -2,7 +2,7 @@
 UID: NA:kdnetpf
 description: "KDNETPF transport support APIs in the kdnetpf.h header"
 title: kdnetpf.h header
-ms.topic: overview
+ms.topic: reference
 tech.root: debugger
 ms.date: 08/21/2023
 f1_keywords:

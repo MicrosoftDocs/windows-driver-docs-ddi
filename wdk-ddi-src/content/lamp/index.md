@@ -5,7 +5,7 @@ title: Lamp.h header
 ms.date: 03/02/2023
 keywords: ["Lamp.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: stream
 f1_keywords:
  - lamp

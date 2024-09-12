@@ -2,7 +2,7 @@
 UID: NC:d3d12umddi.PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021
 title: PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 (d3d12umddi.h)
 description: Learn about the pfnShaderCacheGetValueCb callback.
-ms.date: 04/23/2024
+ms.date: 06/27/2024
 keywords: ["PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback function"]
 ms.keywords: PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021, PFND3D12DDI_SHADERCACHEGETVALUE_CB_0021 callback, d3d12umddi/pfnShaderCacheGetValueCb, display.pfnd3d12ddi_shadercachegetvalue_cb_0021, pfnShaderCacheGetValueCb, pfnShaderCacheGetValueCb callback function [Display Devices]
 req.header: d3d12umddi.h
@@ -77,7 +77,7 @@ The **pfnShaderCacheGetValueCb** callback function gets a value stored in the sh
 
 ## -returns
 
-If this callback function succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
+If **pfnShaderCacheGetValueCb** succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT** error code.
 
 ## -remarks
 

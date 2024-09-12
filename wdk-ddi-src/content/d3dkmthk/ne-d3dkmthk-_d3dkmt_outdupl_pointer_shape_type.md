@@ -1,15 +1,13 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE
-title: _D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE (d3dkmthk.h)
-description: Output duplicate pointer shape types.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration"]
-ms.keywords: _D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE, D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE,
+title: D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE (d3dkmthk.h)
+description: Learn more about the _D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -36,28 +34,26 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration
-
+# D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration
 
 ## -description
 
-Output duplicate pointer shape types.
+The **D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE** enumeration specifies output duplicate pointer shape types.
 
 ## -enum-fields
 
-### -field D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE_MONOCHROME 
+### -field D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE_MONOCHROME
 
 Monochrome.
 
-### -field D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE_COLOR 
+### -field D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE_COLOR
 
 Color.
 
-### -field D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE_MASKED_COLOR 
+### -field D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE_MASKED_COLOR
 
 Masked color.
 
 ## -remarks
 
 ## -see-also
-

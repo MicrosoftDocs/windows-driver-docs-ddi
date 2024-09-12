@@ -6,7 +6,7 @@ ms.assetid: ac342a18-24b7-36b8-9447-8ee711b42a24
 ms.date: 05/09/2018
 keywords: ["Wdfpdo.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: wdf
 f1_keywords:
  - wdfpdo

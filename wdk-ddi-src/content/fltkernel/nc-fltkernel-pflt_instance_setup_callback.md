@@ -69,7 +69,7 @@ Bitmask of flags that indicate why the instance is being attached. Can be one or
 
 [Device type](/windows-hardware/drivers/kernel/specifying-device-types) of the file system volume. Must be one of the following:
 
-* FILE_DEVICE_CD_ROM_FILE_SYSTEM (0x00000002)
+* FILE_DEVICE_CD_ROM_FILE_SYSTEM (0x00000003)
 * FILE_DEVICE_DISK_FILE_SYSTEM (0x00000008)
 * FILE_DEVICE_NETWORK_FILE_SYSTEM (0x00000014)
 

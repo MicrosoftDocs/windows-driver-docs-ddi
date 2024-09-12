@@ -6,7 +6,7 @@ ms.assetid: 773626f3-b745-3356-92cd-f15505c3683c
 ms.date: 05/09/2018
 keywords: ["Scavengr.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: ifsk
 f1_keywords:
  - scavengr

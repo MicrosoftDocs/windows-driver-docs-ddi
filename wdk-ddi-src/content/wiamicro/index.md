@@ -5,7 +5,7 @@ title: Wiamicro.h header
 ms.date: 03/02/2023
 keywords: ["Wiamicro.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: image
 f1_keywords:
  - wiamicro

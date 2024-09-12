@@ -6,7 +6,7 @@ ms.assetid: c527b3d1-92c4-3901-8854-46f3a1d6612b
 ms.date: 05/09/2018
 keywords: ["Namcache.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: ifsk
 f1_keywords:
  - namcache

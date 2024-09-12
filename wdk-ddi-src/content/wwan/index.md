@@ -6,7 +6,7 @@ ms.assetid: 5d64f71a-37de-3e02-bd8a-2f870aefdc5b
 ms.date: 05/09/2018
 keywords: ["Wwan.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - wwan

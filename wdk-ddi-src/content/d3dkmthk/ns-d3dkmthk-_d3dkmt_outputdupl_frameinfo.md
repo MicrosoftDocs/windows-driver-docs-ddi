@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_FRAMEINFO
-title: _D3DKMT_OUTPUTDUPL_FRAMEINFO (d3dkmthk.h)
-description: "Learn more about: _D3DKMT_OUTPUTDUPL_FRAMEINFO structure"
-ms.date: 10/19/2018
+title: D3DKMT_OUTPUTDUPL_FRAMEINFO (d3dkmthk.h)
+description: Learn more about the D3DKMT_OUTPUTDUPL_FRAMEINFO structure.
+ms.date: 07/17/2024
 keywords: ["D3DKMT_OUTPUTDUPL_FRAMEINFO structure"]
 ms.keywords: _D3DKMT_OUTPUTDUPL_FRAMEINFO, D3DKMT_OUTPUTDUPL_FRAMEINFO,
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,10 +39,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTPUTDUPL_FRAMEINFO structure
-
+# D3DKMT_OUTPUTDUPL_FRAMEINFO structure
 
 ## -description
+
+The **D3DKMT_OUTPUTDUPL_FRAMEINFO** structure is reserved for system use. Don't use it in your driver.
 
 ## -struct-fields
 
@@ -65,4 +66,3 @@ dev_langs:
 ## -remarks
 
 ## -see-also
-

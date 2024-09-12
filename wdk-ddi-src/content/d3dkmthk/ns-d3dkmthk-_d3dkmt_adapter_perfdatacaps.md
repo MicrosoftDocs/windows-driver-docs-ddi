@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_PERFDATACAPS
-title: _D3DKMT_ADAPTER_PERFDATACAPS (d3dkmthk.h)
-description: Represents data capabilities that are static and queried once per GPU during initialization.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_ADAPTER_PERFDATACAPS structure"]
-ms.keywords: _D3DKMT_ADAPTER_PERFDATACAPS, D3DKMT_ADAPTER_PERFDATACAPS,
+title: D3DKMT_ADAPTER_PERFDATACAPS (d3dkmthk.h)
+description: Learn more about the D3DKMT_ADAPTER_PERFDATACAPS structure.
+ms.date: 09/10/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -36,12 +34,11 @@ api_name:
  - D3DKMT_ADAPTER_PERFDATACAPS
 ---
 
-# _D3DKMT_ADAPTER_PERFDATACAPS structure
-
+# D3DKMT_ADAPTER_PERFDATACAPS structure
 
 ## -description
 
-Represents data capabilities that are static and queried once per GPU during initialization.
+The **D3DKMT_ADAPTER_PERFDATACAPS** structure represents data capabilities that are static and queried once per GPU during initialization.
 
 ## -struct-fields
 
@@ -69,3 +66,6 @@ The max temperature before damage levels occur in deci Celsius. 1 = 0.1C.
 
 The temperature level where temperature based throttling begins in deci Celsius. 1 = 0.1C.
 
+## -see-also
+
+[**D3DKMT_QUERYSTATISTICS_PHYSICAL_ADAPTER_INFORMATION**](ns-d3dkmthk-d3dkmt_querystatistics_physical_adapter_information.md)

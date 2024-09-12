@@ -5,7 +5,7 @@ description: "Learn more about: Gso.h header"
 ms.date: 05/13/2021
 keywords: ["Gso.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - gso

@@ -4,7 +4,7 @@ title: WdfDeviceMapIoSpace function (wdfdevice.h)
 description: The WdfDeviceMapIoSpace function maps the given physical address range to system address space and returns a pseudo base address.
 old-location: wdf\wdfdevicemapiospace.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 08/20/2024
 keywords: ["WdfDeviceMapIoSpace function"]
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
 req.header: wdfdevice.h
@@ -96,7 +96,7 @@ A driver that calls <b>WdfDeviceMapIoSpace</b> must set the <b>UmdfDirectHardwar
 
  For more information about  INF directives that UMDF drivers can use, see <a href="/windows-hardware/drivers/wdf/specifying-wdf-directives-in-inf-files">Specifying WDF Directives in INF Files</a>.
 
-For more information about parsing hardware resources starting in UMDF version 2, see <a href="/windows-hardware/drivers/wdf/handling-client-impersonation-in-umdf-drivers">Handling Hardware Resources in a UMDF Driver</a>.
+For more information about parsing hardware resources starting in UMDF version 2, see <a href="/windows-hardware/drivers/wdf/finding-and-mapping-hardware-resources">Handling Hardware Resources in a UMDF Driver</a>.
 
 The PHYSICAL_ADDRESS type is defined in Wudfwdm.h, as follows:<pre class="syntax"><code>typedef LARGE_INTEGER PHYSICAL_ADDRESS;</code></pre>
 

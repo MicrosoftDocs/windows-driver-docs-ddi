@@ -1,15 +1,13 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_OUTPUTDUPL_METADATATYPE
-title: _D3DKMT_OUTPUTDUPL_METADATATYPE (d3dkmthk.h)
-description: Output duplicate metadata types.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_OUTPUTDUPL_METADATATYPE enumeration"]
-ms.keywords: _D3DKMT_OUTPUTDUPL_METADATATYPE, D3DKMT_OUTPUTDUPL_METADATATYPE,
+title: D3DKMT_OUTPUTDUPL_METADATATYPE (d3dkmthk.h)
+description: Learn more about the _D3DKMT_OUTPUTDUPL_METADATATYPE enumeration.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -36,24 +34,22 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTPUTDUPL_METADATATYPE enumeration
-
+# D3DKMT_OUTPUTDUPL_METADATATYPE enumeration
 
 ## -description
 
-Output duplicate metadata types.
+The **D3DKMT_OUTPUTDUPL_METADATATYPE** enumeration identifies output duplicate metadata types.
 
 ## -enum-fields
 
-### -field D3DKMT_OUTPUTDUPL_METADATATYPE_DIRTY_RECTS 
+### -field D3DKMT_OUTPUTDUPL_METADATATYPE_DIRTY_RECTS
 
 Dirty rectangles.
 
-### -field D3DKMT_OUTPUTDUPL_METADATATYPE_MOVE_RECTS 
+### -field D3DKMT_OUTPUTDUPL_METADATATYPE_MOVE_RECTS
 
 Move rectangles.
 
 ## -remarks
 
 ## -see-also
-

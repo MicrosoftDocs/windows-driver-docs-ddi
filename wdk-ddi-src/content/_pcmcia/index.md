@@ -6,7 +6,7 @@ ms.assetid: be0dbb4f-1fa6-3700-9bd4-462e8bb27384
 ms.date: 05/09/2018
 keywords: ["PCMCIA bus drivers"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # PCMCIA bus drivers

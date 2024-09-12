@@ -5,7 +5,7 @@ title: Prdrvcom.h header
 ms.date: 08/22/2022
 keywords: ["Prdrvcom.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: print
 f1_keywords:
  - prdrvcom

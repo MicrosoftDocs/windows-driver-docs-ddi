@@ -6,7 +6,7 @@ ms.assetid: B499B985-A672-4D19-A370-A0F07C65E2FC
 ms.date: 09/28/2020
 keywords: ["Checksum.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - checksum

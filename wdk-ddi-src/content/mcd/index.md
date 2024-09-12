@@ -6,7 +6,7 @@ ms.assetid: d0f47be9-5c97-3970-aeb3-d7c1f17ca997
 ms.date: 05/09/2018
 keywords: ["Mcd.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - mcd

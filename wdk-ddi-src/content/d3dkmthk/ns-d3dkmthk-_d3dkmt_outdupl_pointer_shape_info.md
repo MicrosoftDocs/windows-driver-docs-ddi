@@ -1,15 +1,13 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTDUPL_POINTER_SHAPE_INFO
-title: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO (d3dkmthk.h)
-description: Contains output duplicate pointer shape info.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure"]
-ms.keywords: _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO, D3DKMT_OUTDUPL_POINTER_SHAPE_INFO,
+title: D3DKMT_OUTDUPL_POINTER_SHAPE_INFO (d3dkmthk.h)
+description: Learn more about the _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure
-
+# D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure
 
 ## -description
 
-Contains output duplicate pointer shape info.
+The **D3DKMT_OUTDUPL_POINTER_SHAPE_INFO** structure contains output duplicate pointer shape info.
 
 ## -struct-fields
 
@@ -71,4 +68,3 @@ Hot spot of pointer shape.
 ## -remarks
 
 ## -see-also
-

@@ -6,7 +6,7 @@ ms.assetid: d256bd60-5dd4-3212-aedd-dbf0a73383e6
 ms.date: 05/09/2018
 keywords: ["Ntddtape.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - ntddtape

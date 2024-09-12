@@ -6,7 +6,7 @@ ms.assetid: 6839a2d9-d025-3af4-9d57-2d591f143ae1
 ms.date: 01/19/2024
 keywords: ["Ucmucsicx.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 ms.custom: RS5
 f1_keywords:

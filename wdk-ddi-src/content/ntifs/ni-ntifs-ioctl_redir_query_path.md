@@ -1,10 +1,9 @@
 ---
 UID: NI:ntifs.IOCTL_REDIR_QUERY_PATH
 title: IOCTL_REDIR_QUERY_PATH (ntifs.h)
-description: The IOCTL_REDIR_QUERY_PATH control code is sent by the multiple UNC provider (MUP) to network redirectors to determine which provider can handle a specific UNC path in a name-based operation, typically an IRP_MJ_CREATE request.
-old-location: ifsk\ioctl_redir_query_path.htm
+description: Learn more about the IOCTL_REDIR_QUERY_PATH control code.
 tech.root: ifsk
-ms.date: 08/12/2021
+ms.date: 06/21/2024
 keywords: ["IOCTL_REDIR_QUERY_PATH IOCTL"]
 ms.keywords: IOCTL_REDIR_QUERY_PATH, IOCTL_REDIR_QUERY_PATH control, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], ifsk.ioctl_redir_query_path, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml, ntifs/IOCTL_REDIR_QUERY_PATH
 req.header: ntifs.h
@@ -74,7 +73,7 @@ IOCTL_REDIR_QUERY_PATH
 
 ### -input-buffer
 
-**IrpSp->Parameters.DeviceIoControl.Type3InputBuffer** is set to a [**QUERY_PATH_REQUEST**](ni-ntifs-ioctl_redir_query_path.md) data structure that contains the request.
+**IrpSp->Parameters.DeviceIoControl.Type3InputBuffer** is set to a [**QUERY_PATH_REQUEST**](ns-ntifs-query_path_request.md) data structure that contains the request.
 
 ### -input-buffer-length
 
@@ -117,13 +116,13 @@ Network redirectors should only honor kernel-mode senders of this IOCTL, by veri
 
 Note that IOCTL_REDIR_QUERY_PATH is a METHOD_NEITHER IOCTL. This means that the input and output buffers might not be at the same address. A common mistake by UNC providers is to assume that the input buffer and the output buffer are the same and to use the input buffer pointer to provide the response.
 
-When a UNC provider receives an IOCTL_REDIR_QUERY_PATH request, it has to determine whether it can handle the UNC path specified in the **FilePathName** member of the **QUERY_PATH_REQUEST** structure. If so, it has to update the **LengthAccepted** member of the **QUERY_PATH_RESPONSE** structure with the length, in bytes, of the prefix it has claimed and complete the IRP with STATUS_SUCCESS. If the provider cannot handle the UNC path specified, it must fail the IOCTL_REDIR_QUERY_PATH request with an appropriate NTSTATUS error code and must not update the **LengthAccepted** member of the **QUERY_PATH_RESPONSE** structure. Providers must not modify any of the other members or the **FilePathName** string under any condition.
+When a UNC provider receives an IOCTL_REDIR_QUERY_PATH request, it has to determine whether it can handle the UNC path specified in the **FilePathName** member of the [**QUERY_PATH_REQUEST**](ns-ntifs-query_path_request.md) structure. If so, it has to update the **LengthAccepted** member of the [**QUERY_PATH_RESPONSE**](ns-ntifs-query_path_response.md) structure with the length, in bytes, of the prefix it has claimed and complete the IRP with STATUS_SUCCESS. If the provider cannot handle the UNC path specified, it must fail the IOCTL_REDIR_QUERY_PATH request with an appropriate NTSTATUS error code and must not update the **LengthAccepted** member of the **QUERY_PATH_RESPONSE** structure. Providers must not modify any of the other members or the **FilePathName** string under any condition.
 
 The length of the prefix claimed by the provider depends on an individual UNC provider. Most providers usually claim the \\\\*servername*\\*sharename* part of a path of the form \\\\*servername*\\*sharename*\\*path*. For example, if a provider claimed \\\\*server*\\*public*  given a path \\\\*server*\\*public*\\*dir1*\\*dir2*, all name-based operations for the prefix \\\\*server*\\*public* (\\\\*server*\\*public*\\*file1*, for example) will be routed to that provider automatically without any prefix resolution because the prefix is already in the prefix cache. However, a path with the prefix \\\\*server*\\*marketing*\\*presentation* will go through prefix resolution.
 
 If a network redirector claims a server name (\\\\*server*, for example), all requests for shares on this server will go to this network redirector. This behavior is only acceptable if there is no possibility of another share on the same server being accessed by a different network redirector. For example, a network redirector that claims \\\\*server* of a UNC path will prevent access by other network redirectors to other shares on this server (WebDAV access to \\\\*server*\\*web*, for example).
 
-For more information, see the following sections in the Design Guide:
+For more information, see the following articles:
 
 * [Support for UNC Naming and MUP](/windows-hardware/drivers/ifs/support-for-unc-naming-and-mup)
 

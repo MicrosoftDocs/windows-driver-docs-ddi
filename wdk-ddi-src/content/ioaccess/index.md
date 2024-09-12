@@ -6,7 +6,7 @@ ms.assetid: 5d64cfe2-da47-3c7e-8bce-9959a6715531
 ms.date: 05/09/2018
 keywords: ["Ioaccess.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - ioaccess

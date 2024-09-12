@@ -1,15 +1,13 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA
-title: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA (d3dkmthk.h)
-description: Get pointer shape data.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure"]
-ms.keywords: _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA, D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA,
+title: D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA (d3dkmthk.h)
+description: Learn more about the D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure
-
+# D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure
 
 ## -description
 
-Get pointer shape data.
+The **D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA** structure contains pointer shape data.
 
 ## -struct-fields
 
@@ -70,10 +67,8 @@ The required buffer size.
 
 ### -field ShapeInfo
 
- 
 The shape info.
 
 ## -remarks
 
 ## -see-also
-

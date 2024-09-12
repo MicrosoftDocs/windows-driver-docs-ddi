@@ -1,7 +1,7 @@
 ---
 UID: NE:srb.SRBEX_DATA_NVME_RESPONSE_FLAG
 tech.root: storage
-title: SRBEX_DATA_NVME_RESPONSE_FLAG
+title: SRBEX_DATA_NVME_RESPONSE_FLAG (srb.h)
 ms.date: 03/12/2024
 targetos: Windows
 description: Enumerates the properties of a SRBEX data NVMe response.

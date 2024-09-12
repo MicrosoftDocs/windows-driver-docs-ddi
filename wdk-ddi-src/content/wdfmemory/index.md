@@ -6,7 +6,7 @@ ms.assetid: abbf138a-21f3-364c-9c5f-ea0dedb411c8
 ms.date: 05/09/2018
 keywords: ["Wdfmemory.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: wdf
 f1_keywords:
  - wdfmemory

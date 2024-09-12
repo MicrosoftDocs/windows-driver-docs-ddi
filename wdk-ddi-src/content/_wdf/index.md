@@ -6,7 +6,7 @@ ms.assetid: cf4c7959-f8f4-3342-82e9-ced7b9f1b959
 ms.date: 05/09/2018
 keywords: ["Windows Driver Framework"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ---
 
 # Windows Driver Framework (WDF)

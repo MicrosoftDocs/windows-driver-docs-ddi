@@ -6,7 +6,7 @@ ms.assetid: 48cd2b63-634e-3de2-8512-b526fb95a434
 ms.date: 09/28/2022
 keywords: ["Smclib.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: smartcard
 f1_keywords:
  - smclib

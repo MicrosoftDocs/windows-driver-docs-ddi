@@ -6,7 +6,7 @@ ms.assetid: 6cb5d20a-c66a-3e85-8ef2-8930ca44e63a
 ms.date: 05/09/2018
 keywords: ["Udecxurb.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: usbref
 f1_keywords:
  - udecxurb

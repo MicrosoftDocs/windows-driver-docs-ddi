@@ -6,7 +6,7 @@ ms.assetid: a16d6b4d-e662-310b-8a4f-7845b1de062b
 ms.date: 05/09/2018
 keywords: ["Rxworkq.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: ifsk
 f1_keywords:
  - rxworkq

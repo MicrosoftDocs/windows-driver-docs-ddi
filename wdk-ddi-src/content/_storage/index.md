@@ -6,7 +6,7 @@ ms.assetid: 2c8add25-915b-3bb1-957b-a04df40081fc
 ms.date: 03/23/2022
 keywords: ["Storage"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 ms.custom: contperf-fy22q2
 ---
 

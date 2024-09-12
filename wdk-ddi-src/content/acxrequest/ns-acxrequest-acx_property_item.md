@@ -2,7 +2,7 @@
 UID: NS:acxrequest._ACX_PROPERTY_ITEM
 tech.root: audio
 title: ACX_PROPERTY_ITEM
-ms.date: 07/26/2022
+ms.date: 09/11/2024
 targetos: Windows
 description: The ACX_PROPERTY_ITEM structure describes a property item that is the target of an ACX request.
 prerelease: false
@@ -77,7 +77,7 @@ ACX_PROPERTY_ITEM_FLAG_BASICSUPPORT - Queries the request types that the driver 
 
 ### -field EvtAcxObjectProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_event_request.md) property handler associated with this item.
+The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_request.md) property handler associated with this item.
 
 ### -field Reserved
 

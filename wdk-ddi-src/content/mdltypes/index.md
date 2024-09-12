@@ -6,7 +6,7 @@ ms.assetid: A62810CE-785C-4C14-8F45-F1919F057F4F
 ms.date: 09/20/2019
 keywords: ["Mdltypes.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 ms.custom: Vb
 f1_keywords:

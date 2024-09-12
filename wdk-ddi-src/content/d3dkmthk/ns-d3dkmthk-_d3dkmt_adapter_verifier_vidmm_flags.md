@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS
-title: _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS (d3dkmthk.h)
-description: The display adapter verifier video memory management flags.
-ms.date: 03/08/2022
+title: D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS (d3dkmthk.h)
+description: Learn more about the _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure.
+ms.date: 07/02/2024
 keywords: ["D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure"]
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS, D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS,
 req.header: d3dkmthk.h
@@ -39,11 +39,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure
+# D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure
 
 ## -description
 
-The display adapter verifier video memory management flags.
+The **D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS** structure contains Verifier flags for the video memory manager (*VidMm*).
 
 ## -struct-fields
 
@@ -127,13 +127,21 @@ Always relocate displayable resources.
 
 Always fail grow VPR moves.
 
+### -field NeverFlushTemporaryResources
+
+Instructs *VidMm* to not flush any temporary resources unless it's required to do so.
+
+### -field AllocateTemporaryResourcesInAperture
+
+Instructs *VidMm* to allocate temporary resources in the aperture.
+
 ### -field Reserved
 
 Reserved for internal use.
 
 ### -field Value
 
-The value used to operate over the other members.
+An alternative way to access the flags.
 
 ## -remarks
 

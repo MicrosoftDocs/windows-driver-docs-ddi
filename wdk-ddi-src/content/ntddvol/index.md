@@ -6,7 +6,7 @@ ms.assetid: 8e87c3d1-6f05-3860-b49c-2ea9e281b96f
 ms.date: 05/09/2018
 keywords: ["Ntddvol.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - ntddvol

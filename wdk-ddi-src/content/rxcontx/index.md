@@ -6,7 +6,7 @@ ms.assetid: 8c6d4a7f-608f-3a47-b2a9-e46284870bd4
 ms.date: 05/09/2018
 keywords: ["Rxcontx.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: ifsk
 f1_keywords:
  - rxcontx

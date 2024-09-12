@@ -6,7 +6,7 @@ title: exemptionaction overview
 ms.date: 05/26/2023
 keywords: ["Exemptionaction.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 f1_keywords:
  - exemptionaction
  - exemptionaction/exemptionaction

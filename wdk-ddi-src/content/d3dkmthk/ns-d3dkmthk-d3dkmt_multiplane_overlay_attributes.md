@@ -1,15 +1,15 @@
 ---
 UID: NS:d3dkmthk.D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES
 title: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES (d3dkmthk.h)
-description: Structure that contains multiplane overlay attributes.
-ms.date: 10/19/2018
+description: Learn more about the D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure.
+ms.date: 07/17/2024
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES,
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -38,10 +38,9 @@ dev_langs:
 
 # D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure
 
-
 ## -description
 
-Structure that contains multiplane overlay attributes.
+The **D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES** structure contains multiplane overlay attributes.
 
 ## -struct-fields
 
@@ -111,10 +110,8 @@ Specifies the overlay plane's stereo flip mode, given as a value from the [_DXGK
 
 ### -field StretchQuality
 
- 
 Specifies the overlay plane's stretch quality, given as a value from the [_DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY](ne-d3dkmthk-_dxgkmt_multiplane_overlay_stretch_quality.md) enumeration.
 
 ## -remarks
 
 ## -see-also
-

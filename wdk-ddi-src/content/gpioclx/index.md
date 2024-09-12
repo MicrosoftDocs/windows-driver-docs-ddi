@@ -6,7 +6,7 @@ ms.assetid: 3adddb79-a9ea-349e-8ec7-150a8cd8b0e0
 ms.date: 05/09/2018
 keywords: ["Gpioclx.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: gpio
 f1_keywords:
  - gpioclx

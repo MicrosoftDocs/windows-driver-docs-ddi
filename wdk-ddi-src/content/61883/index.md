@@ -6,7 +6,7 @@ ms.assetid: e401eb24-793e-3800-b0b7-55496f44fbb8
 ms.date: 05/09/2018
 keywords: ["61883.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: ieee
 f1_keywords:
  - "61883"

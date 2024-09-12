@@ -6,7 +6,7 @@ ms.assetid: 4eebcc15-de7e-3d7d-b3d9-c8f7b86b35cb
 ms.date: 05/09/2018
 keywords: ["Hidpddi.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: hid
 f1_keywords:
  - hidpddi

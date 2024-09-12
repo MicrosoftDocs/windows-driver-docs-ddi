@@ -1,15 +1,13 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OUTPUTDUPL_GET_FRAMEINFO
-title: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO (d3dkmthk.h)
-description: Gets frame info for duplicate outputs.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure"]
-ms.keywords: _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO, D3DKMT_OUTPUTDUPL_GET_FRAMEINFO,
+title: D3DKMT_OUTPUTDUPL_GET_FRAMEINFO (d3dkmthk.h)
+description: Learn more about the D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure
-
+# D3DKMT_OUTPUTDUPL_GET_FRAMEINFO structure
 
 ## -description
 
-Gets frame info for duplicate outputs.
+The **D3DKMT_OUTPUTDUPL_GET_FRAMEINFO** structure contains frame info for duplicate outputs.
 
 ## -struct-fields
 
@@ -58,10 +55,8 @@ The zero-based identification number of the video present source in a path of a 
 
 ### -field FrameInfo
 
- 
 The frame info.
 
 ## -remarks
 
 ## -see-also
-

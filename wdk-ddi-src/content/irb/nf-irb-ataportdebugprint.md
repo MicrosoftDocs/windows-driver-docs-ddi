@@ -69,7 +69,7 @@ Variadic arguments to be used with the string that **DebugMessage** points to.
 
 ## -remarks
 
-**ScsiDebugPrint** will print the message pointed to by **DebugMessage**, along with other debugging information depending on the value of **DebugPrintLevel** and a port driver-specific mask. Use the **nt!kd_idep_mask** command to set the desired level of verbosity. For more information about the kernel debugger, see [Using a Debugger](/windows-hardware/drivers/devtest/using-a-debugger).
+**ScsiDebugPrint** will print the message pointed to by **DebugMessage**, along with other debugging information depending on the value of **DebugPrintLevel** and a port driver-specific mask. Use the **nt!kd_idep_mask** command to set the desired level of verbosity. For more information about the kernel debugger, see [Getting Started with WinDbg - Kernel Mode](/windows-hardware/drivers/debugger/getting-started-with-windbg--kernel-mode-).
 
 ## -see-also
 

@@ -6,7 +6,7 @@ ms.assetid: 11dc5d8a-0b66-3f59-a907-73d9f33071a8
 ms.date: 05/09/2018
 keywords: ["D3Dcaps.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: display
 f1_keywords:
  - d3dcaps

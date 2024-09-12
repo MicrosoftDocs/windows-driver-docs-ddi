@@ -5,7 +5,7 @@ title: Wiadevd.h header
 ms.date: 03/02/2023
 keywords: ["Wiadevd.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: image
 f1_keywords:
  - wiadevd

@@ -5,7 +5,7 @@ title: nbluro.h header
 ms.date: 01/18/2024
 keywords: ["nbluro.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - nbluro

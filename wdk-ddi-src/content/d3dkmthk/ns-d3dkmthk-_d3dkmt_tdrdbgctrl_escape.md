@@ -1,15 +1,13 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_TDRDBGCTRL_ESCAPE
-title: _D3DKMT_TDRDBGCTRL_ESCAPE (d3dkmthk.h)
-description: Contains values for the (TDR) timeout detection and recovery escape process.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_TDRDBGCTRL_ESCAPE structure"]
-ms.keywords: _D3DKMT_TDRDBGCTRL_ESCAPE, D3DKMT_TDRDBGCTRL_ESCAPE,
+title: D3DKMT_TDRDBGCTRL_ESCAPE (d3dkmthk.h)
+description: Learn more about the D3DKMT_TDRDBGCTRL_ESCAPE structure.
+ms.date: 07/17/2024
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 8
+req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_TDRDBGCTRL_ESCAPE structure
-
+# D3DKMT_TDRDBGCTRL_ESCAPE structure
 
 ## -description
 
-Contains values for the (TDR) timeout detection and recovery escape process.
+The **D3DKMT_TDRDBGCTRL_ESCAPE** structure contains values for the (TDR) timeout detection and recovery escape process.
 
 ## -struct-fields
 
@@ -54,10 +51,8 @@ The TDR control.
 
 ### -field NodeOrdinal
 
- 
 The node ordinal. This value is valid if the TdrControl is set to D3DKMT_TDRDBGCTRLTYPE_ENGINETDR.
 
 ## -remarks
 
 ## -see-also
-

@@ -6,7 +6,7 @@ ms.assetid: 25b559be-8aba-37fb-a06b-da3663df2a53
 ms.date: 05/09/2018
 keywords: ["Igpupvdev.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: display
 f1_keywords:
  - igpupvdev

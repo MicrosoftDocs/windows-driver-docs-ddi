@@ -78,7 +78,7 @@ Specifies whether the context supports hardware queues.
 
 ### -field TestContext
 
-Specifies whether the context is a test context.
+Specifies whether the context is a test context for [Kernel-mode testing](/windows-hardware/drivers/display/kernel-mode-testing-of-wddm-features). Available starting with Windows 11, version 24H2 (WDDM 3.2).
 
 ### -field Reserved
 

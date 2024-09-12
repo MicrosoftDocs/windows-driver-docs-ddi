@@ -77,7 +77,6 @@ A pointer to an array of <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_po_f
 
 ## -remarks
 
-This structure
 
 ## -see-also
 

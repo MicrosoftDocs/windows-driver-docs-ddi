@@ -1,9 +1,8 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_VIDSCHESCAPETYPE
-title: _D3DKMT_VIDSCHESCAPETYPE (d3dkmthk.h)
+title: D3DKMT_VIDSCHESCAPETYPE (d3dkmthk.h)
 description: The D3DKMT_VIDMMESCAPETYPE enumeration is used with the D3DKMT_VIDSCH_ESCAPE structure.
-old-location: display\d3dkmt_vidschescapetype.htm
-ms.date: 05/10/2018
+ms.date: 06/14/2024
 keywords: ["D3DKMT_VIDSCHESCAPETYPE enumeration"]
 ms.keywords: D3DKMT_VIDSCHESCAPETYPE, D3DKMT_VIDSCHESCAPETYPE enumeration [Display Devices], D3DKMT_VIDSCHESCAPETYPE_CONFIGURE_TDR_LIMIT, D3DKMT_VIDSCHESCAPETYPE_ENABLECONTEXTDELAY, D3DKMT_VIDSCHESCAPETYPE_PREEMPTIONCONTROL, D3DKMT_VIDSCHESCAPETYPE_SUSPENDRESUME, D3DKMT_VIDSCHESCAPETYPE_SUSPENDSCHEDULER, D3DKMT_VIDSCHESCAPETYPE_TDRCONTROL, _D3DKMT_VIDSCHESCAPETYPE, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE_CONFIGURE_TDR_LIMIT, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE_ENABLECONTEXTDELAY, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE_PREEMPTIONCONTROL, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE_SUSPENDRESUME, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE_SUSPENDSCHEDULER, d3dkmthk/D3DKMT_VIDSCHESCAPETYPE_TDRCONTROL, display.d3dkmt_vidschescapetype
 req.header: d3dkmthk.h
@@ -43,14 +42,11 @@ api_name:
  - D3DKMT_VIDSCHESCAPETYPE
 ---
 
-# _D3DKMT_VIDSCHESCAPETYPE enumeration
-
-
 ## -description
 
-<b>Do not use the D3DKMT_VIDSCHESCAPETYPE enumeration; it is for testing purposes only.</b>
+Don't use the **D3DKMT_VIDSCHESCAPETYPE** enumeration; it's for testing purposes only.
 
-The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidsch_escape">D3DKMT_VIDSCH_ESCAPE</a> structure.
+The **D3DKMT_VIDMMESCAPETYPE** enumeration is used with the [**D3DKMT_VIDSCH_ESCAPE**](ns-d3dkmthk-_d3dkmt_vidsch_escape.md) structure.
 
 ## -enum-fields
 
@@ -70,3 +66,4 @@ The D3DKMT_VIDMMESCAPETYPE enumeration is used with the <a href="/windows-hardwa
 
 ### -field D3DKMT_VIDSCHESCAPETYPE_PFN_CONTROL
 
+### -field D3DKMT_VIDSCHESCAPETYPE_VIRTUAL_REFRESH_RATE

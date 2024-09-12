@@ -1,16 +1,13 @@
 ---
 UID: NS:d3dumddi._D3DDDIARG_CREATEEXTENSIONDEVICE
-title: _D3DDDIARG_CREATEEXTENSIONDEVICE (d3dumddi.h)
-description: The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) extension device to create.
-old-location: display\d3dddiarg_createextensiondevice.htm
+title: D3DDDIARG_CREATEEXTENSIONDEVICE (d3dumddi.h)
+description: Learn more about the D3DDDIARG_CREATEEXTENSIONDEVICE structure.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["D3DDDIARG_CREATEEXTENSIONDEVICE structure"]
-ms.keywords: D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice
+ms.date: 09/10/2024
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,36 +40,34 @@ api_name:
  - D3DDDIARG_CREATEEXTENSIONDEVICE
 ---
 
-# _D3DDDIARG_CREATEEXTENSIONDEVICE structure
-
+# D3DDDIARG_CREATEEXTENSIONDEVICE structure
 
 ## -description
 
-The D3DDDIARG_CREATEEXTENSIONDEVICE structure describes a Microsoft DirectX Video Acceleration (DirectX VA) extension device to create.
+The **D3DDDIARG_CREATEEXTENSIONDEVICE** structure describes a DirectX Video Acceleration (DirectX VA) extension device to create.
 
 ## -struct-fields
 
 ### -field pGuid [in]
 
-A pointer to the GUID that represents the DirectX VA extension type. The Microsoft Direct3D runtime calls the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a> function to query for the supported extension GUIDs.
+A pointer to the GUID that represents the DirectX VA extension type. The Direct3D runtime calls the [**GetCaps**](nc-d3dumddi-pfnd3dddi_getcaps.md)</a> function to query for the supported extension GUIDs.
 
 ### -field pPrivate [in]
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a> structure that contains data that the driver requires to create the extension device.
+A pointer to the [**DXVADDI_PRIVATEDATA**](ns-d3dumddi-_dxvaddi_privatedata.md) structure that contains data needed by the driver to create the extension device.
 
-### -field hExtension [in/out]
+### -field hExtension [out]
 
-A handle to the extension device. The user-mode display driver must set this handle to a value that the Direct3D runtime can use to identify the extension device in subsequent calls.
+A handle to the extension device. The user-mode driver creates this handle. The Direct3D runtime uses it to identify the extension device in subsequent calls.
+
+## -remarks
+
+For more information, see [Creating and Using a DirectX VA 2.0 Extension Device](/windows-hardware/drivers/display/creating-and-using-a-directx-va-2-0-extension-device).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_createextensiondevice">CreateExtensionDevice</a>
+[**CreateExtensionDevice**](nc-d3dumddi-pfnd3dddi_createextensiondevice.md)
 
+[**DXVADDI_PRIVATEDATA**](ns-d3dumddi-_dxvaddi_privatedata.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_dxvaddi_privatedata">DXVADDI_PRIVATEDATA</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps">GetCaps</a>
-
+[**GetCaps**](nc-d3dumddi-pfnd3dddi_getcaps.md)

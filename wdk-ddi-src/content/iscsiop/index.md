@@ -6,7 +6,7 @@ ms.assetid: 16203758-f031-3557-a36d-abe33c7c4a6d
 ms.date: 05/09/2018
 keywords: ["Iscsiop.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: storage
 f1_keywords:
  - iscsiop

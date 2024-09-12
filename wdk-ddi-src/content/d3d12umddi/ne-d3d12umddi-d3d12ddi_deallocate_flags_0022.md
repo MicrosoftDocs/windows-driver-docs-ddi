@@ -59,10 +59,6 @@ Assume that the allocation is not in use.
 
 Ensure that the resource is destroyed synchronously.
 
-### -field D3D12DDI_DEALLOCATE_FLAGS_0022_VALID_MASK:0x3
-
-A mask that defines all valid bits for the flags in this enumeration.
-
 ## -remarks
 
 The UMD provides these flags when it calls the runtime's [**pfnDeallocateCb**](nc-d3d12umddi-pfnd3d12ddi_deallocate_cb_0022.md) callback to deallocate resources.

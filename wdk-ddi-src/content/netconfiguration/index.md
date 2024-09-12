@@ -6,7 +6,7 @@ ms.assetid: 511aa490-3d63-3b72-a325-bdea5ca35ecb
 ms.date: 05/09/2018
 keywords: ["Netconfiguration.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - netconfiguration

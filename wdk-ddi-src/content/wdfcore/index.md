@@ -6,7 +6,7 @@ ms.assetid: 4f56c8a5-51f6-3d3f-9e25-d3d94ffc66e1
 ms.date: 05/09/2018
 keywords: ["Wdfcore.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: wdf
 f1_keywords:
  - wdfcore

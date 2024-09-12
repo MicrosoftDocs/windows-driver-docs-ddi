@@ -6,7 +6,7 @@ ms.assetid: 019f4ae8-bb25-3ccb-9dae-26b111c96303
 ms.date: 05/09/2018
 keywords: ["D3Dkmdt.h header"]
 ms.keywords: 
-ms.topic: overview
+ms.topic: reference
 tech.root: display
 f1_keywords:
  - d3dkmdt
