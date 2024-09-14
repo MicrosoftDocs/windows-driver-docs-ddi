@@ -51,7 +51,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL</b> structure describes the Wi-Fi Direct device's listen channel when responding to a <a href="/windows-hardware/drivers/network/oid-dot11-wfd-device-listen-channel">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a> set or query request.
+> [!Important]
+> [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the new Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest features. The WDI driver model is now in maintenance mode and will only receive high priority fixes.
+
+The <b>DOT11_WFD_DEVICE_LISTEN_CHANNEL</b> structure describes the Wi-Fi Direct device's listen channel when responding to a <a href="/windows-hardware/drivers/network/oid-dot11-wfd-device-listen-channel">OID_DOT11_WFD_DEVICE_LISTEN_CHANNEL</a> set or query request.
 
 ## -struct-fields
 

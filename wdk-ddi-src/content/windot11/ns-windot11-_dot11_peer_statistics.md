@@ -51,7 +51,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>The DOT11_PEER_STATISTICS structure records statistical counters for the IEEE media access control
+> [!Important]
+> [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the new Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest features. The WDI driver model is now in maintenance mode and will only receive high priority fixes.
+
+The DOT11_PEER_STATISTICS structure records statistical counters for the IEEE media access control
   (MAC) sublayer of a peer station within an independent basic service set (IBSS) network.
 <div class="alert"><b>Note</b>  IBSS (Ad hoc) and SoftAP are deprecated. Starting with Windows 8.1 and Windows Server 2012 R2, use <a href="/windows-hardware/drivers/partnerapps/wi-fi-direct">Wi-Fi Direct</a>.</div><div> </div>
 

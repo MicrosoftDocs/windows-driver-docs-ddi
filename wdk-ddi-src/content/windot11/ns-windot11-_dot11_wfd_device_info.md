@@ -51,7 +51,10 @@ api_name:
 
 ## -description
 
-<div class="alert"><b>Important</b>  The <a href="/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)">Native 802.11 Wireless LAN</a> interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see <a href="/windows-hardware/drivers/network/wifi-universal-driver-model">WLAN Universal Windows driver model</a>.</div><div> </div>the <b>DOT11_WFD_DEVICE_INFO</b> structure is included with a <a href="/windows-hardware/drivers/network/oid-dot11-wfd-device-info">OID_DOT11_WFD_DEVICE_INFO</a> request. The structure contains  Wi-Fi Direct (WFD) device information related to Peer-to-Peer (P2P) attributes.
+> [!Important]
+> [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the new Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest features. The WDI driver model is now in maintenance mode and will only receive high priority fixes.
+
+the <b>DOT11_WFD_DEVICE_INFO</b> structure is included with a <a href="/windows-hardware/drivers/network/oid-dot11-wfd-device-info">OID_DOT11_WFD_DEVICE_INFO</a> request. The structure contains  Wi-Fi Direct (WFD) device information related to Peer-to-Peer (P2P) attributes.
 
 ## -struct-fields
 

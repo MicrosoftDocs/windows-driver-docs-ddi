@@ -52,7 +52,7 @@ api_name:
 ## -description
 
 > [!IMPORTANT]
-> The [Native 802.11 Wireless LAN](/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](/windows-hardware/drivers/network/wifi-universal-driver-model).
+> [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the new Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest features. The WDI driver model is now in maintenance mode and will only receive high priority fixes.
 
 The DOT11_EXTAP_ATTRIBUTES structure defines the physical and operating attributes of the miniport driver and 802.11 station when it operates in Extensible Access Point (ExtAP) mode.
 

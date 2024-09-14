@@ -49,7 +49,7 @@ api_name:
 ## -description
 
 > [!IMPORTANT]
-> The [Native 802.11 Wireless LAN](/previous-versions/windows/hardware/wireless/ff560689(v=vs.85)) interface is deprecated in Windows 10 and later. Please use the WLAN Device Driver Interface (WDI) instead. For more information about WDI, see [WLAN Universal Windows driver model](/windows-hardware/drivers/network/wifi-universal-driver-model).
+> [WiFiCx](/windows-hardware/drivers/netcx/wifi-wdf-class-extension-wificx) is the new Wi-Fi driver model released in Windows 11. We recommend that you use WiFiCx to take advantage of the latest features. The WDI driver model is now in maintenance mode and will only receive high priority fixes.
 
 The DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure specifies the results of the association operation performed by the 802.11 station with either an access point (AP) or peer station. The Native 802.11 miniport driver includes a DOT11_ASSOCIATION_COMPLETION_PARAMETERS structure when the miniport driver makes an [NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION](/windows-hardware/drivers/network/ndis-status-dot11-association-completion) status indication.
 
