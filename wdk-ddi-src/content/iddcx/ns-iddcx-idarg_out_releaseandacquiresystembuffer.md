@@ -53,6 +53,16 @@ Pointer to a [**IDDCX_SYSTEM_BUFFER_INFO**](ns-iddcx-iddcx_system_buffer_info.md
 
 An indirect display driver (IDD) passes a pointer to a **IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER** when it calls [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](ns-iddcx-idarg_out_releaseandacquiresystembuffer.md).
 
+> [!NOTE]
+>  The IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER structure contains pointers to two other structures that should be set by the driver as in the following example code:
+
+```
+IDDCX_METADATA MetaData = {};
+IDDCX_SYSTEM_BUFFER_INFO SystemBufferInfo = {};
+IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER system_Buffer = { &MetaData, &SystemBufferInfo };
+HRESULT hr = IddCxSwapChainReleaseAndAcquireSystemBuffer(m_hSwapChain, &system_Buffer);
+```
+
 ## -see-also
 
 [**IDDCX_METADATA**](ns-iddcx-iddcx_metadata.md)
