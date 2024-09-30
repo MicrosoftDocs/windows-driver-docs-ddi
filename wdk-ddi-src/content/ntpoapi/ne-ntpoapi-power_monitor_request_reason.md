@@ -35,7 +35,7 @@ api_name:
 
 ## -description
 
-Defines values for power transition reasons for a monitor.
+Reserved for system use.
 
 ## -enum-fields
 
