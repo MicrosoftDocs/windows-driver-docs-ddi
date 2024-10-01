@@ -4,7 +4,7 @@ title: WdfTimerStop function (wdftimer.h)
 description: The WdfTimerStop method stops a timer's clock.
 old-location: wdf\wdftimerstop.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 10/01/2024
 keywords: ["WdfTimerStop function"]
 ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdf.wdftimerstop, wdftimer/WdfTimerStop
 req.header: wdftimer.h
@@ -80,10 +80,10 @@ For more information about framework timer objects, see <a href="/windows-hardwa
 
 <b>WdfTimerStop</b> must be called at IRQL = PASSIVE_LEVEL if the <i>Wait</i> parameter is <b>TRUE</b>. Otherwise, this method must be called at IRQL <= DISPATCH_LEVEL.
 
-
-
 Do not call <b>WdfTimerStop</b> from inside <a href="/windows-hardware/drivers/ddi/wdftimer/nc-wdftimer-evt_wdf_timer">EvtTimerFunc</a> with the <i>Wait</i> parameter set to <b>TRUE</b>.  Doing so may result in deadlock.
 
+> [!CAUTION]
+>Concurrent calls to **WdfTimerStop** on the same timer object will break into the debugger if Verifier is enabled. For more info, see [Using KMDF Verifier](/windows-hardware/drivers/wdf/using-kmdf-verifier).
 
 #### Examples
 
