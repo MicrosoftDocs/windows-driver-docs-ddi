@@ -93,15 +93,6 @@ MyEvtIoDefault(
 {
     WDF_REQUEST_SEND_OPTIONS options;
     NTSTATUS status;
-    WDF_REQUEST_PARAMETERS params;
-    BOOLEAN ret;
-
-    WDF_REQUEST_PARAMETERS_INIT(&params);
-
-    WdfRequestGetParameters(
-                            Request,
-                            &params
-                            );
 
     WdfRequestFormatRequestUsingCurrentType(Request);
 
