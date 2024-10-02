@@ -1616,6 +1616,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "wdk-ddi-src/content/dxapi/index.md",
+      "redirect_URL": "/previous-versions/windows/drivers/display/nf-dxapi-dxapi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/dxapi/nf-dxapi-dxapi.md",
+      "redirect_URL": "/previous-versions/windows/drivers/display/nf-dxapi-dxapi",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/dxapi/nf-dxapi-dxapigetversion.md",
+      "redirect_URL": "/previous-versions/windows/drivers/display/dd-dxapi-getversionnumber",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "wdk-ddi-src/content/d3dkmddi/ne-d3dkmddi-_dxgk_feature_id.md",
+      "redirect_URL": "/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-dxgk_feature_id",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "wdk-ddi-src/content/ntddk/ns-ntddk-_whea_pshed_plugin_registration_packet.md",
       "redirect_URL": "/windows-hardware/drivers/ddi/ntddk/ns-ntddk-whea_pshed_plugin_registration_packet_v2",
       "redirect_document_id": false
