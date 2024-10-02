@@ -69,7 +69,7 @@ VOID (*PCC_POST_DEFERRED_WRITE) (
     _In_ PVOID Context2
     );
 ```
-
+This function can be called with the TopLevelIrp field in the current IRP set to FSRTL_MOD_WRITE_TOP_LEVEL_IRP.
 
 ### -param Context1 [in]
 
