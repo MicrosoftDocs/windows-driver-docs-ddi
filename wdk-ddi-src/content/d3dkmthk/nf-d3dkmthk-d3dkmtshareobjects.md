@@ -2,9 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTShareObjects
 title: D3DKMTShareObjects function (d3dkmthk.h)
 description: Learn more about the D3DKMTShareObjects function.
-ms.date: 04/18/2023
-keywords: ["D3DKMTShareObjects function"]
-ms.keywords: D3DKMTShareObjects, D3DKMTShareObjects function [Display Devices], d3dkmthk/D3DKMTShareObjects, display.d3dkmtshareobjects
+ms.date: 10/02/2024
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -46,7 +44,7 @@ api_name:
 
 ## -description
 
-**D3DKMTShareObjects** shares resource objects that were created with the [**D3KMDTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md),  [**D3KMDTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md)[**D3DKMTCreateKeyedMutex2**](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md), and [**D3DKMTCreateSynchronizationObject2**](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md) functions.
+**D3DKMTShareObjects** shares resource objects that were created with the [**D3KMTCreateAllocation**](nf-d3dkmthk-d3dkmtcreateallocation.md),  [**D3KMTCreateAllocation2**](nf-d3dkmthk-d3dkmtcreateallocation2.md)[**D3DKMTCreateKeyedMutex2**](nf-d3dkmthk-d3dkmtcreatekeyedmutex2.md), and [**D3DKMTCreateSynchronizationObject2**](nf-d3dkmthk-d3dkmtcreatesynchronizationobject2.md) functions.
 
 ## -parameters
 
