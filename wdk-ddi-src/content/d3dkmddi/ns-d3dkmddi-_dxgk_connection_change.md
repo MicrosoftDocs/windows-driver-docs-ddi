@@ -1,11 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGK_CONNECTION_CHANGE
 title: DXGK_CONNECTION_CHANGE (d3dkmddi.h)
-description: Structure to describe the most recently updated status of the link for a target.
-old-location: display\dxgk_connection_change.htm
-ms.date: 08/24/2022
-keywords: ["DXGK_CONNECTION_CHANGE structure"]
-ms.keywords: "*PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], _DXGK_CONNECTION_CHANGE, d3dkmddi/DXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change"
+description: Learn more about the DXGK_CONNECTION_CHANGE structure.
+ms.date: 10/03/2024
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Windows
@@ -64,7 +61,7 @@ The target ID for which the change is being reported. This target ID must have b
 
 ### -field ConnectionStatus
 
-A [**DXGK_CONNECTION_STATUS**](ne-d3dkmddi-_dxgk_connection_status.md) value that specifies the status of the connection.
+A [**DXGK_CONNECTION_STATUS**](ne-d3dkmddi-_dxgk_connection_status.md) value that specifies the status of the connection. **ConnectionStatus** typically indicates the type of change, guiding which structure within the union member to use.
 
 ### -field Reserved
 
@@ -72,7 +69,7 @@ Reserved for system use.
 
 ### -field MonitorConnect
 
-Describes the monitor that has been connected.
+Describes the monitor that has been connected. This structure is used when **ConnectionStatus** is **MonitorStatusConnected**.
 
 ### -field MonitorConnect.LinkTargetType
 
@@ -80,32 +77,32 @@ A [**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_out
 
 ### -field MonitorConnect.MonitorConnectFlags
 
-A [**DXGK_CONNECTION_MONITOR_CONNECT_FLAGS**](ns-d3dkmddi-dxgk_connection_monitor_connect_flags.md) structure with flags for the connected monitor.
+A [**DXGK_CONNECTION_MONITOR_CONNECT_FLAGS**](ns-d3dkmddi-dxgk_connection_monitor_connect_flags.md) structure with flags for the connected monitor. This member is available starting with Windows 11 (WDDM 3.0).
 
 ### -field TargetConnect
 
-Describes the current target's connector.
+Describes the current target's connector. This structure is used when **ConnectionStatus** is **TargetStatusConnected**.
 
-#### TargetConnect.BaseTargetType
+#### -field TargetConnect.BaseTargetType
 
 A [**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology.md) value that identifies the video output technology of the current target's connector. As with **MonitorConnect.LinkTargetType**, the **D3DKMDT_VOT_INTERNAL** and **D3DKMDT_VOT_MIRACAST** values are not allowed.
 
-#### TargetConnect.NewTargetId
+#### -field TargetConnect.NewTargetId
 
 The target ID for which the change is being reported. This target ID must have been reported to the OS before and must be in a state which supports the given change.
 
 ### -field TargetJoin
 
-Describes the joining target's connector.
+Describes the joining target's connector. This structure is used when **ConnectionStatus** is **TargetStatusJoined**.
 
-#### TargetJoin.BaseTargetType
+#### -field TargetJoin.BaseTargetType
 
-This is the video output technology of the connector of the new target. As with **MonitorConnect.LinkTargetType**, the **D3DKMDT_VOT_INTERNAL** and **D3DKMDT_VOT_MIRACAST** values are not allowed.  
+A [**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology.md) value that identifies the video output technology of the connector of the new target. As with **MonitorConnect.LinkTargetType**, the **D3DKMDT_VOT_INTERNAL** and **D3DKMDT_VOT_MIRACAST** values are not allowed.  
 
 > [!NOTE]
 > The same **BaseTargetType** must be reported for all targets that are being joined to each other.
 
-#### TargetJoin.NewTargetId
+#### -field TargetJoin.NewTargetId
 
 The target ID for which the change is being reported. This target ID must have been reported to the OS before and must be in a state which supports the given change.
 
@@ -113,4 +110,8 @@ The target ID for which the change is being reported. This target ID must have b
 
 [**D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology.md)
 
+[**DXGK_SET_TIMING_PATH_INFO**](ns-d3dkmddi-_dxgk_set_timing_path_info.md)
+
 [**DXGKARG_QUERYCONNECTIONCHANGE**](ns-d3dkmddi-_dxgkarg_queryconnectionchange.md)
+
+[**DXGKDDI_QUERYCONNECTIONCHANGE**](nc-d3dkmddi-dxgkddi_queryconnectionchange.md)
