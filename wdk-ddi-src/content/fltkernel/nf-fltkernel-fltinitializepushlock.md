@@ -1,17 +1,14 @@
 ---
 UID: NF:fltkernel.FltInitializePushLock
 title: FltInitializePushLock function (fltkernel.h)
-description: The FltInitializePushLock routine initializes a push lock variable.
-old-location: ifsk\fltinitializepushlock.htm
+description: Learn more about the FltInitializePushLock function.
 tech.root: ifsk
-ms.date: 11/29/2021
-keywords: ["FltInitializePushLock function"]
-ms.keywords: FltApiRef_e_to_o_348be4fc-280f-4dc3-b5fb-ada1aa037d09.xml, FltInitializePushLock, FltInitializePushLock routine [Installable File System Drivers], fltkernel/FltInitializePushLock, ifsk.fltinitializepushlock
+ms.date: 10/03/2024
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
-req.target-min-winverclnt: This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows XP SP2 Microsoft
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -42,17 +39,15 @@ api_name:
 
 # FltInitializePushLock function
 
-
 ## -description
 
-The <b>FltInitializePushLock</b> routine initializes a push lock variable.
+The **FltInitializePushLock** routine initializes a push lock variable.
 
 ## -parameters
 
 ### -param PushLock [out]
 
-
-Pointer to the caller-supplied storage, which must be at least the value of <b>sizeof(</b>EX_PUSH_LOCK<b>)</b>, for the push lock variable to be initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
+Pointer to the caller-supplied storage, which must be at least the value of **sizeof(**EX_PUSH_LOCK**)**, for the push lock variable to be initialized. The storage must be 4-byte aligned on 32-bit platforms, and 8-byte aligned on 64-bit platforms.
 
 ## -returns
 
@@ -60,87 +55,54 @@ None
 
 ## -remarks
 
-Push locks are rarely a good choice for file system minifilters.  As described below, some of their characteristics can be incompatible with the inherently re-entrant nature of file systems.  
+A push lock is a synchronization primitive used to manage access to shared resources by multiple threads. Push locks are similar to [**ERESOURCE** structures](/windows-hardware/drivers/kernel/eresource-structures) (also called "resources") in the following ways:
 
-Push locks are similar to <a href="/windows-hardware/drivers/kernel/eresource-structures">ERESOURCE structures</a> (also called "resources") in the following ways: 
+* Push locks can be used for synchronization by a set of threads.
 
-<ul>
-<li>
-Push locks can be used for synchronization by a set of threads. 
+* Push locks can be acquired for shared or exclusive access.
 
-</li>
-<li>
-Push locks can be acquired for shared or exclusive access. 
+* Although the caller provides the storage for the push lock variable, the EX_PUSH_LOCK structure is opaque: that is, its members are reserved for system use.
 
-</li>
-<li>
-Although the caller provides the storage for the push lock variable, the EX_PUSH_LOCK structure is opaque: that is, its members are reserved for system use. 
+Push locks might not be the right choice for file system minifilters, because some of their characteristics can be incompatible with the inherently re-entrant nature of file systems.  
 
-</li>
-</ul>
-Push locks have the following disadvantages when compared with ERESOURCE structures: 
+Push locks have the following *disadvantages* when compared with ERESOURCE structures:
 
-<ul>
-<li>
-The algorithm for granting exclusive access is not fair to all threads. If there is a high level of exclusive-lock contention, there is no guarantee about the order in which threads will be granted exclusive access. 
+* The algorithm for granting exclusive access isn't fair to all threads. If there is a high level of exclusive-lock contention, there's no guarantee about the order in which threads will be granted exclusive access.
 
-</li>
-<li>
-There are no support routines for determining the current owner of a push lock at run time. (Users of ERESOURCE structures can call routines such as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a> to determine whether the current thread has exclusive access to the resource.) 
+* There are no support routines for determining the current owner of a push lock at run time. Users of ERESOURCE structures can call routines such as [**ExIsResourceAcquiredExclusiveLite**](../wdm/nf-wdm-exisresourceacquiredexclusivelite.md) to determine whether the current thread has exclusive access to the resource.
 
-</li>
-<li>
-For the same reason there are no support extensions for determining the current owner of a push lock at debug time, and thus diagnosing deadlocks.  (Users of ERESOURCE structures can use the <code>!locks</code> extension in kd or windbg to find this out.)
-</li>
-<li>
-There is no driver verifier support to help early diagnosis of deadlocks through push locks.
-</li>
-<li>
-Exclusive push locks cannot be acquired recursively.
-</li>
-</ul>
-Push locks offer the following advantages over ERESOURCE structures: 
+* There are no support extensions for determining the current owner of a push lock at debug time in order to diagnose deadlocks. Users of ERESOURCE structures can use the ```!locks``` extension in kd or windbg to determine the current owner.
 
-<ul>
-<li>
-When push locks are mostly acquired for shared access, they are more efficient than ERESOURCE structures. 
+* There is no driver verifier support to help early diagnosis of deadlocks through push locks.
 
-</li>
-<li>
-The storage for push locks can be allocated from paged or nonpaged pool. ERESOURCE structures must be allocated only from nonpaged pool. 
+* Exclusive push locks can't be acquired recursively.
 
-</li>
-<li>
-EX_PUSH_LOCK structures are much smaller than ERESOURCE structures. 
+Push locks offer the following *advantages* over ERESOURCE structures:
 
-</li>
-</ul>
-Unless any of these advantages are compelling an ERESOURCE is usually the more robust and maintainable solution to the Read/Write synchronization problem.
+* When push locks are mostly acquired for shared access, they are more efficient than ERESOURCE structures.
 
-To acquire a push lock for exclusive access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>. 
+* The storage for push locks can be allocated from paged or nonpaged pool. ERESOURCE structures must be allocated only from nonpaged pool.
 
-To acquire a push lock for shared access, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>. 
+* EX_PUSH_LOCK structures are much smaller than ERESOURCE structures.
 
-To release a push lock, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>. 
+Unless any of these advantages are compelling, an ERESOURCE is usually the more robust and maintainable solution to the Read/Write synchronization problem.
 
-To delete a push lock, call <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>.
+To acquire a push lock for exclusive access, call[**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
+
+To acquire a push lock for shared access, call [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
+
+To release a push lock, call [**FltReleasePushLock**](nf-fltkernel-fltreleasepushlock.md).
+
+To delete a push lock, call [**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exisresourceacquiredexclusivelite">ExIsResourceAcquiredExclusiveLite</a>
+[**ExIsResourceAcquiredExclusiveLite**](../wdm/nf-wdm-exisresourceacquiredexclusivelite.md)
 
+[**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md)
 
+[**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md)
 
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockexclusive">FltAcquirePushLockExclusive</a>
+[**FltDeletePushLock**](nf-fltkernel-fltdeletepushlock.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltacquirepushlockshared">FltAcquirePushLockShared</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltdeletepushlock">FltDeletePushLock</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltreleasepushlock">FltReleasePushLock</a>
+[**FltReleasePushLock**](nf-fltkernel-fltreleasepushlock.md)
