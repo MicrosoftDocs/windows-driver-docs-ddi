@@ -1,8 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ENUMADAPTERS3
-title: _D3DKMT_ENUMADAPTERS3 (d3dkmthk.h)
-description: The D3DKMTEnumAdapters3 structure contains information used by the D3DKMTEnumAdapters3 function to enumerate all graphics adapters on the system.
-ms.date: 03/24/2020
+title: D3DKMT_ENUMADAPTERS3 (d3dkmthk.h)
+description: Learn more about the D3DKMT_ENUMADAPTERS3 structure.
+ms.date: 10/04/2024
 keywords: ["D3DKMT_ENUMADAPTERS3 structure"]
 ms.keywords: _D3DKMT_ENUMADAPTERS3, D3DKMT_ENUMADAPTERS3,
 req.header: d3dkmthk.h
@@ -41,10 +41,9 @@ dev_langs:
 
 # D3DKMT_ENUMADAPTERS3 structure
 
-
 ## -description
 
-Supplies information about adapters on the system.
+The **D3DKMT_ENUMADAPTERS3** structure supplies information about adapters on the system.
 
 ## -struct-fields
 
@@ -54,9 +53,10 @@ A **D3DKMT_ENUMADAPTERS_FILTER** union containing filter flags for the enumerati
 
 | Value | Meaning |
 | ----- | ------- |
-| IncludeComputeOnly | When set, enumerate ComputeOnly adapters. |
-| IncludeDisplayOnly | When set, enumerate DisplayOnly adapters. |
-| Reserved           | Reserved; do not use.                     |
+| IncludeComputeOnly    | When set, enumerate ComputeOnly adapters. |
+| IncludeDisplayOnly    | When set, enumerate DisplayOnly adapters. |
+| IncludeVirtualGpuOnly | When set, enumerate GPU-P adapters. These adapters are meant to be used only inside virtual machines. A driver sets the [**DXGK_DRIVERCAPS**](..//d3dkmddi/ns-d3dkmddi-_dxgk_drivercaps.md)**::MiscCaps.VirtualGpuOnly** cap for such adapters to avoid their enumeration in the host OS. Available starting in Windows 11, version 24H2 (WDDM 3.2). |
+| Reserved              | Reserved; do not use.                     |
 
 ### -field NumAdapters [in/out]
 
@@ -86,4 +86,3 @@ Adapters will still be enumerated if no flags are set in **Filter**, but [**D3DK
 [**D3DKMTEnumAdapters3**](nf-d3dkmthk-d3dkmtenumadapters3.md)
 
 [**PFND3DKMT_ENUMADAPTERS3**](nc-d3dkmthk-pfnd3dkmt_enumadapters3.md)
-
