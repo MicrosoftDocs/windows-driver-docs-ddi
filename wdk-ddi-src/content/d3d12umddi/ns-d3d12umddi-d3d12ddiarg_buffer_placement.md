@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDIARG_BUFFER_PLACEMENT
 tech.root: display
 title: D3D12DDIARG_BUFFER_PLACEMENT
-ms.date: 09/29/2022
+ms.date: 10/04/2024
 targetos: Windows
 description: Learn more about the D3D12DDIARG_BUFFER_PLACEMENT structure.
 prerelease: false
@@ -46,7 +46,11 @@ The **D3D12DDIARG_BUFFER_PLACEMENT** structure specifies the GPU-side virtual ad
 
 ### -field BaseAddress
 
+Union whose members are ways to describe the base address for a region of memory.
+
 ### -field BaseAddress.UMD
+
+A **D3D12DDIARG_HRESOURCE_PLACEMENT** structure that describes a base address with a UMD handle to an existing resource, and a byte offset within that resource.
 
 ## -see-also
 
