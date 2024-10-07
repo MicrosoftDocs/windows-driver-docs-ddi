@@ -2,7 +2,7 @@
 UID: NI:ntifs.FSCTL_SET_PURGE_FAILURE_MODE
 tech.root: ifsk
 title: FSCTL_SET_PURGE_FAILURE_MODE
-ms.date: 08/10/2022
+ms.date: 10/07/2024
 targetos: Windows
 description: Learn more about the FSCTL_SET_PURGE_FAILURE_MODE IOCTL.
 prerelease: false
@@ -80,8 +80,8 @@ Filter Manager uses this control code with IRP_MJ_FILE_SYSTEM_CONTROL calls to b
 
 For every FSCTL_SET_PURGE_FAILURE_MODE issued with SET_PURGE_FAILURE_MODE_ENABLED set, a FSCTL_SET_PURGE_FAILURE_MODE will be issued with the SET_PURGE_FAILURE_MODE_DISABLED set. While there is an outstanding SET_PURGE_FAILURE_MODE_ENABLED, Filter Manager responds as follows to certain failure statuses for certain types of operations (see below table):
 
-• Pends the operation, expediting the close of the section (where possible)
-• Requeues the operation to the minifilter or file system that issued the failure
+* Pends the operation, expediting the close of the section (where possible).
+* Requeues the operation to the minifilter or file system that issued the failure.
 
 To trigger the Filter Manager to respond accordingly, the file system (or filter) responds to a failure to purge a section in the following ways:
 
