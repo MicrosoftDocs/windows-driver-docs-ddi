@@ -66,19 +66,22 @@ The number of AUDIO_SIGNALPROCESSINGMODEs listed in InModes. These are the signa
 
 This field can be zero only if the InModes field is set to NULL.
 
+TBD - Can iInModesCount also be zero if InModes is set to the `NULL_GUID`? 
+
+
 ### -field InModes
 
 A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREAMBRIDGE.
-This field can be NULL. 
 
-- A NULL GUID is a wild card value and it matches any AUDIO_SIGNALPROCESSINGMODE(s).
-- If the input signal processing modes are not defined, the ACXSTREAMBRIDGE does not automatically match any mode. In this case, it is up to the driver to manually add the input stream to the stream bridge.
+- A `NULL_GUID` is a wild card value and it matches any AUDIO_SIGNALPROCESSINGMODE(s).
+- If this field is NULL, TBD. 
+- If the input signal processing modes are not defined at all, the ACXSTREAMBRIDGE does not automatically match any mode. In this case, it is up to the driver to manually add the input stream to the stream bridge, after the stream bridge is created.
 
 ### -field OutMode
 
 A pointer to an AUDIO_SIGNALPROCESSINGMODE that defines the audio signal processing mode of the output stream. 
 
-- If this field is set to a NULL GUID, the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, else the AUDIO_SIGNALPROCESSINGMODE_RAW is used. 
+- If this field is set to a `NULL_GUID`, the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, else the AUDIO_SIGNALPROCESSINGMODE_RAW is used. 
 - If AUDIO_SIGNALPROCESSINGMODE_RAW is also not supported, the output stream is created without specifying an audio signal processing mode.
 - See the remarks section for additional information on the behavior of audio signal processing modes.
 
@@ -145,7 +148,7 @@ This example shows not setting the InModes for a capture circuit, as they will b
 
 ### InModes and OutModes being set to NULL_GUID
 
-TBD - Please confirm that the define show is appropriate.
+TBD - Please confirm that the InModes and OutModes being set to NULL_GUID #define shown is appropriate.
 
 This example shows InModes and OutModes being set to the NULL_GUID.
 
