@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACX_STREAM_BRIDGE_CONFIG
 tech.root: audio
 title: ACX_STREAM_BRIDGE_CONFIG
-ms.date: 10/10/2024
+ms.date: 10/11/2024
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_CONFIG structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge.
 prerelease: false
@@ -108,6 +108,8 @@ If the stream bridge does not specify a mode, ACX will attempt to use AUDIO_SIGN
 
 The stream bridge only allows one stream out, and the first stream configuration is is used. Thus, adding a COMMUNICATION and RAW, you will have a COMMUNICATION mode out. If you add RAW and the COMMUNICATION, you will have RAW out.
 
+### InModes and OutModes being set to NULL
+
 Example usage is shown below. This first example shows the InModes and OutModes being set to NULL. In this case, ACX will use whatever the incoming mode is.
 
 
@@ -127,7 +129,9 @@ Example usage is shown below. This first example shows the InModes and OutModes 
         status = AcxStreamBridgeCreate(Circuit, &attributes, &bridgeCfg, &bridge);
 ```
 
-This example shows not setting the InModes for a capture circuit, as they will be added manually.
+### InModes and OutModes not being set
+
+This example shows not setting the InModes for a capture circuit, as they will be later added manually.
 
 ```cpp
     // Do not specify InModes for capture - this will prevent the ACX framework from adding created streams to this stream
@@ -138,6 +142,37 @@ This example shows not setting the InModes for a capture circuit, as they will b
      ACXSTREAMBRIDGE streamBridge = NULL;
     RETURN_NTSTATUS_IF_FAILED(AcxStreamBridgeCreate(Circuit, &attributes, &StreamCfg, &streamBridge));
 ```
+
+### InModes and OutModes being set to NULL_GUID
+
+TBD - Please confirm that the define show is appropriate.
+
+This example shows InModes and OutModes being set to the NULL_GUID.
+
+```cpp
+        #define GUID_NULL { 0x00000000, 0x0000, 0x0000, {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00} }
+
+
+                PCGUID  inModes[] =
+        {
+            &NULL_GUID, // Match every mode.
+        };
+
+        WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
+        attributes.ParentObject = pin;
+
+        ACX_STREAM_BRIDGE_CONFIG streamBridgeConfig;
+        ACX_STREAM_BRIDGE_CONFIG_INIT(&streamBridgeConfig);
+        ACX_STREAM_BRIDGE_CONFIG streamBridgeConfig;
+        ACX_STREAM_BRIDGE_CONFIG_INIT(&streamBridgeConfig);
+
+        streamBridgeConfig.Flags |= AcxStreamBridgeForwardInStreamVarArguments;
+        streamBridgeConfig.InModesCount = ARRAYSIZE(inModes);
+        streamBridgeConfig.InModes = inModes;
+        streamBridgeConfig.OutMode = &NULL_GUID; // Use the MODE associated the in-stream.
+```
+
+### InModes and OutModes being set for AUDIO_SIGNALPROCESSINGMODE_DEFAULT and AUDIO_SIGNALPROCESSINGMODE_RAW
 
 This example shows how to set a stream BRIDGE for DEFAULT and RAW modes.
 
