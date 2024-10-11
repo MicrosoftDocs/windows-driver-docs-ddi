@@ -44,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The **ACX_STREAM_BRIDGE_CONFIG** structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge. The AcxStreamBridge is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. For information about ACX streaming, see [ACX streaming](/windows-hardware/drivers/audio/acx-streaming)
+The **ACX_STREAM_BRIDGE_CONFIG** structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge. The AcxStreamBridge is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. For information about ACX streaming, see [ACX streaming](/windows-hardware/drivers/audio/acx-streaming).
 
 ## -struct-fields
 
@@ -84,8 +84,7 @@ A pointer to an AUDIO_SIGNALPROCESSINGMODE that defines the audio signal process
 
 ### -field OutStreamVarArguments
 
-An ACXOBJECTBAG object that is used to provide variable arguments for the output stream. This is an optional settings and can be NULL.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
-
+An ACXOBJECTBAG object that is used to provide variable arguments for the output stream. This is an optional setting and can be NULL.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).
 
 ### -field TargetStreamAttributes
 
