@@ -73,9 +73,11 @@ TBD - Can iInModesCount also be zero if InModes is set to the `NULL_GUID`?
 
 A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREAMBRIDGE.
 
+- This field can be set to a specific mode, such as AUDIO_SIGNALPROCESSINGMODE_DEFAULT or AUDIO_SIGNALPROCESSINGMODE_RAW.
 - A `NULL_GUID` is a wild card value and it matches any AUDIO_SIGNALPROCESSINGMODE(s).
 - If this field is NULL, TBD. 
 - If the input signal processing modes are not defined at all, the ACXSTREAMBRIDGE does not automatically match any mode. In this case, it is up to the driver to manually add the input stream to the stream bridge, after the stream bridge is created.
+
 
 ### -field OutMode
 
@@ -148,7 +150,7 @@ This example shows not setting the InModes for a capture circuit, as they will b
 
 ### InModes and OutModes being set to NULL_GUID
 
-TBD - Please confirm that the InModes and OutModes being set to NULL_GUID #define shown is appropriate.
+TBD - Please confirm that the InModes and OutModes being set to NULL_GUID, and the #define shown is appropriate.
 
 This example shows InModes and OutModes being set to the NULL_GUID.
 
