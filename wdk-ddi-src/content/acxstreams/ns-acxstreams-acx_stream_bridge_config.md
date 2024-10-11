@@ -134,7 +134,7 @@ Example usage is shown below. This first example shows the InModes and OutModes 
         status = AcxStreamBridgeCreate(Circuit, &attributes, &bridgeCfg, &bridge);
 ```
 
-### InModes and OutModes not being set
+### InModes and OutModes not being set at bridge creation
 
 This example shows not setting the InModes for a capture circuit, as they will be later added manually.
 
@@ -155,7 +155,7 @@ TBD - Please confirm that the InModes and OutModes being set to NULL_GUID, and t
 This example shows InModes and OutModes being set to the NULL_GUID.
 
 ```cpp
-        #define GUID_NULL { 0x00000000, 0x0000, 0x0000, {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00} }
+        #define NULL_GUID { 0x00000000, 0x0000, 0x0000, {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00} }
 
 
                 PCGUID  inModes[] =
@@ -166,15 +166,13 @@ This example shows InModes and OutModes being set to the NULL_GUID.
         WDF_OBJECT_ATTRIBUTES_INIT(&attributes);
         attributes.ParentObject = pin;
 
-        ACX_STREAM_BRIDGE_CONFIG streamBridgeConfig;
-        ACX_STREAM_BRIDGE_CONFIG_INIT(&streamBridgeConfig);
-        ACX_STREAM_BRIDGE_CONFIG streamBridgeConfig;
-        ACX_STREAM_BRIDGE_CONFIG_INIT(&streamBridgeConfig);
+        ACX_STREAM_BRIDGE_CONFIG bridgeCfg;
+        ACX_STREAM_BRIDGE_CONFIG_INIT(&bridgeCfg);
 
-        streamBridgeConfig.Flags |= AcxStreamBridgeForwardInStreamVarArguments;
-        streamBridgeConfig.InModesCount = ARRAYSIZE(inModes);
-        streamBridgeConfig.InModes = inModes;
-        streamBridgeConfig.OutMode = &NULL_GUID; // Use the MODE associated the in-stream.
+        bridgeCfg.Flags |= AcxStreamBridgeForwardInStreamVarArguments;
+        bridgeCfg.InModesCount = ARRAYSIZE(inModes);
+        bridgeCfg.InModes = inModes;
+        bridgeCfg.OutMode = &NULL_GUID; // Use the MODE associated the in-stream.
 ```
 
 ### InModes and OutModes being set for AUDIO_SIGNALPROCESSINGMODE_DEFAULT and AUDIO_SIGNALPROCESSINGMODE_RAW
