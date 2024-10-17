@@ -188,6 +188,26 @@ A list of hardware resources that a physical device is using, detected and writt
 
 </td>
 </tr>
+<tr>
+<td>
+REG_QWORD
+
+</td>
+<td>
+An 8-byte numerical value
+
+</td>
+</tr>
+<tr>
+<td>
+REG_QWORD_LITTLE_ENDIAN
+
+</td>
+<td>
+An 8-byte numerical value whose least significant byte is at the lowest address
+
+</td>
+</tr>
 </table>
 
 ### -field NameLength
