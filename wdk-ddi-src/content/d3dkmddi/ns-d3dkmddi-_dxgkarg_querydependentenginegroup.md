@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_QUERYDEPENDENTENGINEGROUP
-title: _DXGKARG_QUERYDEPENDENTENGINEGROUP (d3dkmddi.h)
-description: Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the DxgkDdiQueryDependentEngineGroup function to query node dependencies.
-old-location: display\dxgkarg_querydependentenginegroup.htm
-ms.date: 05/10/2018
+title: DXGKARG_QUERYDEPENDENTENGINEGROUP (d3dkmddi.h)
+description: Learn more about the _DXGKARG_QUERYDEPENDENTENGINEGROUP structure.
+ms.date: 10/17/2024
 keywords: ["DXGKARG_QUERYDEPENDENTENGINEGROUP structure"]
-ms.keywords: "*INOUT_DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP, DXGKARG_QUERYDEPENDENTENGINEGROUP structure [Display Devices], _DXGKARG_QUERYDEPENDENTENGINEGROUP, d3dkmddi/DXGKARG_QUERYDEPENDENTENGINEGROUP, display.dxgkarg_querydependentenginegroup"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -43,22 +41,21 @@ api_name:
  - DXGKARG_QUERYDEPENDENTENGINEGROUP
 ---
 
-# _DXGKARG_QUERYDEPENDENTENGINEGROUP structure
-
+# DXGKARG_QUERYDEPENDENTENGINEGROUP structure
 
 ## -description
 
-Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a> function to query node dependencies.
+Describes all nodes on the physical display adapter (engine) that are to be queried when the display port driver's GPU scheduler calls the [**DxgkDdiQueryDependentEngineGroup**](nc-d3dkmddi-dxgkddi_querydependentenginegroup.md) function to query node dependencies.
 
 ## -struct-fields
 
 ### -field NodeOrdinal [in]
 
-An index of a node within the physical adapter defined by   the <b>EngineOrdinal</b> member that is being queried in a call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a>.
+An index of a node within the physical adapter defined by   the **EngineOrdinal** member that is being queried in a call to [**DxgkDdiQueryDependentEngineGroup**](nc-d3dkmddi-dxgkddi_querydependentenginegroup.md).
 
 ### -field EngineOrdinal [in]
 
-An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by <b>NodeOrdinal</b> belongs to.
+An index that defines the physical adapter in a linked display adapter (LDA) configuration that the node defined by **NodeOrdinal** belongs to.
 
 ### -field DependentNodeOrdinalMask [out]
 
@@ -66,17 +63,14 @@ The bitmask that describes all dependent nodes that will be affected by a reset 
 
 ## -remarks
 
-The index value <b>EngineOrdinal</b> is assumed to be identical for all dependent nodes.
+The index value **EngineOrdinal** is assumed to be identical for all dependent nodes.
 
-See Remarks of  <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a> for a discussion of how to compute the bitmask in the <b>DependentNodeOrdinalMask</b> member.
+See Remarks of  [**DxgkDdiQueryDependentEngineGroup**](nc-d3dkmddi-dxgkddi_querydependentenginegroup.md) for a discussion of how to compute the bitmask in the **DependentNodeOrdinalMask** member.
 
-For more information, see <a href="/windows-hardware/drivers/display/tdr-changes-in-windows-8">TDR changes in Windows 8</a>.
+For more information, see [TDR changes in Windows 8](/windows-hardware/drivers/display/tdr-changes-in-windows-8).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_querydependentenginegroup">DxgkDdiQueryDependentEngineGroup</a>
+[**DxgkDdiQueryDependentEngineGroup**](nc-d3dkmddi-dxgkddi_querydependentenginegroup.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_resetengine">DxgkDdiResetEngine</a>
-
+[**DxgkDdiResetEngine**](nc-d3dkmddi-dxgkddi_resetengine.md)
