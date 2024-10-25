@@ -62,7 +62,7 @@ The [ACX_FACTORY_CIRCUIT_DELETE_CIRCUITDEVICE callback](nc-acxcircuit-evt_acx_fa
 
 ### -field EvtAcxFactoryCircuitCreateCircuit
 
-The [EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE callback](nc-acxcircuit-evt_acx_factory_circuit_create_circuitdevice.md).
+The [EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT callback](nc-acxcircuit-evt_acx_factory_circuit_create_circuit.md).
 
 ## -remarks
 
