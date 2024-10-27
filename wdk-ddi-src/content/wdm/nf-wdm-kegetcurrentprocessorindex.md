@@ -56,10 +56,10 @@ KeGetCurrentProcessorIndex is similar to KeGetCurrentProcessorNumber but rather 
 
 ## -see-also
 
-[KeGetCurrentProcessorNumber](windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumber)
+[KeGetCurrentProcessorNumber](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumber)
 
-[KeGetCurrentProcessorNumberEx](windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex)
+[KeGetCurrentProcessorNumberEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kegetcurrentprocessornumberex)
 
-[KeQueryActiveProcessorCount](windows-hardware/drivers/ddi/wdm/nf-wdm-kequeryactiveprocessorcount)
+[KeQueryActiveProcessorCount](nf-wdm-kequeryactiveprocessorcount.md)
 
-[KeQueryActiveProcessorCountEx](windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex)
+[KeQueryActiveProcessorCountEx](/windows-hardware/drivers/ddi/ntddk/nf-ntddk-kequeryactiveprocessorcountex)
