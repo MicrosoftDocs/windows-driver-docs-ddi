@@ -35,7 +35,6 @@ api_name:
 
 # IDebugHostModule2 interface
 
-
 ## -description
 
 An ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular module.

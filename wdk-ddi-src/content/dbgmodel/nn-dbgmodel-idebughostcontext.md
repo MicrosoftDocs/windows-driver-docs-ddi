@@ -1,7 +1,7 @@
 ---
 UID: NN:dbgmodel.IDebugHostContext
 title: IDebugHostContext (dbgmodel.h)
-description: Represents a context of the debugger answers questions about (what session, process, thread).
+description: Represents a context of the debugger answers questions about (what session, process, thread). (dbgmodel.h)
 ms.date: 07/13/2018
 keywords: ["IDebugHostContext interface"]
 req.header: dbgmodel.h
@@ -34,7 +34,6 @@ api_name:
 ---
 
 # IDebugHostContext interface
-
 
 ## -description
 
