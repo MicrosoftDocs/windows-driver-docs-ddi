@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-*Dxgkrnl* calls **D3DKMTCreateNativeFence** to create a native GPU fence object on a particular device.
+The D3D runtime calls **D3DKMTCreateNativeFence** to create a native GPU fence object on a particular device.
 
 ## -parameters
 

@@ -1,11 +1,9 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_OPENRESOURCEFROMNTHANDLE
-title: _D3DKMT_OPENRESOURCEFROMNTHANDLE (d3dkmthk.h)
-description: Describes information that is required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
-old-location: display\d3dkmt_openresourcefromnthandle.htm
-ms.date: 05/10/2018
+title: D3DKMT_OPENRESOURCEFROMNTHANDLE (d3dkmthk.h)
+description: Learn more about the D3DKMT_OPENRESOURCEFROMNTHANDLE structure.
+ms.date: 11/08/2024
 keywords: ["D3DKMT_OPENRESOURCEFROMNTHANDLE structure"]
-ms.keywords: D3DKMT_OPENRESOURCEFROMNTHANDLE, D3DKMT_OPENRESOURCEFROMNTHANDLE structure [Display Devices], _D3DKMT_OPENRESOURCEFROMNTHANDLE, d3dkmthk/D3DKMT_OPENRESOURCEFROMNTHANDLE, display.d3dkmt_openresourcefromnthandle
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -43,12 +41,11 @@ api_name:
  - D3DKMT_OPENRESOURCEFROMNTHANDLE
 ---
 
-# _D3DKMT_OPENRESOURCEFROMNTHANDLE structure
-
+# D3DKMT_OPENRESOURCEFROMNTHANDLE structure
 
 ## -description
 
-Describes information that is required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
+The **D3DKMT_OPENRESOURCEFROMNTHANDLE** structure contains information required to open a shared resource from an NT handle to the process. The shared resource can be a set of allocations, a keyed mutex, or a synchronization object.
 
 ## -struct-fields
 
@@ -70,7 +67,7 @@ This member is reserved and should be set to zero.
 
 ### -field PrivateRuntimeDataSize [in]
 
-The size, in bytes, of the buffer pointed to by the <b>pPrivateRuntimeData</b> member.
+The size, in bytes, of the buffer pointed to by the **pPrivateRuntimeData** member.
 
 ### -field pPrivateRuntimeData [in]
 
@@ -78,7 +75,7 @@ A caller-supplied buffer where the runtime private data associated with this res
 
 ### -field ResourcePrivateDriverDataSize [in]
 
-The size, in bytes, of the  buffer pointed to by the <b>pResourcePrivateDriverData</b> member.
+The size, in bytes, of the  buffer pointed to by the **pResourcePrivateDriverData** member.
 
 ### -field pResourcePrivateDriverData [in]
 
@@ -86,9 +83,9 @@ A caller-supplied buffer where the driver private data associated with the resou
 
 ### -field TotalPrivateDriverDataBufferSize [in]
 
-The size, in bytes, of the buffer pointed to by the <b>pTotalPrivateDriverDataBuffer</b> member.
+The size, in bytes, of the buffer pointed to by the **pTotalPrivateDriverDataBuffer** member.
 
-[out] The size, in bytes, of  the data written to <b>pTotalPrivateDriverDataBuffer</b>.
+[out] The size, in bytes, of  the data written to **pTotalPrivateDriverDataBuffer**.
 
 ### -field pTotalPrivateDriverDataBuffer [in]
 
@@ -102,17 +99,17 @@ A handle to the resource in this process.
 
 A handle to the keyed mutex in this process.
 
-### -field pKeyedMutexPrivateRuntimeData [in]
+### -field pKeyedMutexPrivateRuntimeDat [in]
 
 A buffer that contains initial private data.
 
 The data in this buffer will be copied only if the keyed mutex does not already have private data.
 
-If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivateRuntimeDataSize</b> member must be zero.
+If this member has a value of NULL, the value of the **KeyedMutexPrivateRuntimeDataSize** member must be zero.
 
 ### -field KeyedMutexPrivateRuntimeDataSize [in]
 
-The size, in bytes, of the buffer pointed to by the <b>pKeyedMutexPrivateRuntimeData</b> member.
+The size, in bytes, of the buffer pointed to by the **pKeyedMutexPrivateRuntimeData** member.
 
 ### -field hSyncObject [out]
 
@@ -120,13 +117,8 @@ A handle to the synchronization object in this process.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/display/d3dddi-openallocationinfo2">D3DDDI_OPENALLOCATIONINFO2</a>
+[**D3DDDI_OPENALLOCATIONINFO2**](../d3dukmdt/ns-d3dukmdt-_d3dddi_openallocationinfo2.md)
 
+[**D3DKMTOpenNtHandleFromName**](nf-d3dkmthk-d3dkmtopennthandlefromname.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtopennthandlefromname">D3DKMTOpenNtHandleFromName</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtshareobjects">D3DKMTShareObjects</a>
-
+[**D3DKMTShareObjects**](nf-d3dkmthk-d3dkmtshareobjects.md)

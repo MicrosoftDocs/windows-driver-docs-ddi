@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_NOTIFY_INTERRUPT_DATA
 title: DXGKARGCB_NOTIFY_INTERRUPT_DATA (d3dkmddi.h)
 description: Learn more about the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure.
-ms.date: 04/08/2024
+ms.date: 11/08/2024
 keywords: ["DXGKARGCB_NOTIFY_INTERRUPT_DATA structure"]
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
@@ -428,7 +428,7 @@ The GPU clock counter at the time of the VSYNC interrupt. Combined with GpuFrequ
 
 ### -field NativeFenceSignaled
 
-[in] Structure used when **InterruptType** is **DXGK_INTERRUPT_NATIVE_FENCE_SIGNALED**. For more information about native fences, see [Native GPU fence objects](/windows-hardware/drivers/display/native-gpu-fence-objects). Supported starting with Windows 11, version 24H2 (WDDM 3.2).
+[in] Structure used when [**InterruptType**](ne-d3dkmddi-_dxgk_interrupt_type.md) is **DXGK_INTERRUPT_NATIVE_FENCE_SIGNALED**. For more information about native fences, see [Native GPU fence objects](/windows-hardware/drivers/display/native-gpu-fence-objects). Supported starting with Windows 11, version 24H2 (WDDM 3.2).
 
 ### -field NativeFenceSignaled.NodeOrdinal
 
