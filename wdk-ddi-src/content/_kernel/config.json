@@ -4,6 +4,7 @@
     "aux_klib.h",
     "ioaccess.h",
     "iointex.h",
+    "lkmdtel.h",
     "miniport.h",
     "ntddk.h",
     "ntddsfio.h",
