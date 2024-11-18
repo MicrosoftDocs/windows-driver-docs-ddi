@@ -46,7 +46,6 @@ Such a data model *MUST* support IDataModelConcept and *MUST* be registered unde
 
 IConstructableConcept inherits from IUnknown.
 
-## -remarks
 
 ## -see-also
 
