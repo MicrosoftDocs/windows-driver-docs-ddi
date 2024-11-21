@@ -2,7 +2,7 @@
 UID: NF:lkmdtel.LkmdTelSetSecondaryData
 tech.root: 
 title: LkmdTelSetSecondaryData
-ms.date: 
+ms.date: 11/21/2024
 targetos: Windows
 description: 
 prerelease: false
@@ -13,7 +13,7 @@ req.dll:
 req.header: lkmdtel.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

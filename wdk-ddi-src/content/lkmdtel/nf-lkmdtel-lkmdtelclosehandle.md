@@ -1,8 +1,8 @@
 ---
 UID: NF:lkmdtel.LkmdTelCloseHandle
-tech.root: 
+tech.root: kernel
 title: LkmdTelCloseHandle
-ms.date: 
+ms.date: 11/21/2024
 targetos: Windows
 description: 
 prerelease: false
