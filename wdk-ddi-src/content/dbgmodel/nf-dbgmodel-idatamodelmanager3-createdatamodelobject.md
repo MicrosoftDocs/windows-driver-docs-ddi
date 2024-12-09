@@ -20,7 +20,6 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.namespace: 
-req.redist: 
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
