@@ -2,9 +2,9 @@
 UID: NF:lkmdtel.LkmdTelCloseHandle
 tech.root: kernel
 title: LkmdTelCloseHandle
-ms.date: 11/21/2024
+ms.date: 12/11/2024
 targetos: Windows
-description: 
+description: The LkmdTelCloseHandle function frees any resources that were allocated during creation of the telemetry data report. 
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -13,9 +13,9 @@ req.dll:
 req.header: lkmdtel.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: lkmdtel.lib, \werkernelapi.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -44,11 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+This function frees any resources that were allocated during creation of the telemetry data report. 
+
 ## -parameters
 
 ### -param TelemetryHandle
 
+Supplies a previously acquired telemetry handle.
+
 ## -remarks
 
+This function must be called or else system memory is leaked. 
+
 ## -see-also
+
 

@@ -2,7 +2,7 @@
 UID: NF:lkmdtel.LkmdTelCreateReport
 tech.root: kernel
 title: LkmdTelCreateReport
-ms.date: 11/21/2024
+ms.date: 12/11/2024
 targetos: Windows
 description: The LkmdTelCreateReport function creates a telemetry data handle.
 prerelease: false
