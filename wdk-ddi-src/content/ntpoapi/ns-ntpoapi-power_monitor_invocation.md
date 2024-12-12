@@ -2,7 +2,7 @@
 UID: NS:ntpoapi._POWER_MONITOR_INVOCATION
 tech.root: kernel
 title: POWER_MONITOR_INVOCATION
-ms.date: 
+ms.date: 12/12/2024
 targetos: Windows
 description: 
 prerelease: false
