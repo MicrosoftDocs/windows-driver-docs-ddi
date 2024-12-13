@@ -82,7 +82,8 @@ In the case of failure, the handle returns *NULL*.
 
 ## -remarks
 
-This function must be called first, since it allocates the data structure used to store the telemetry data. It returns the telemetry handle. 
+- This function must be called first, since it allocates the data structure used to store the telemetry data. It returns the telemetry handle. 
+- The telemetry handle is closed using [LkmdTelCloseHandle](./nf-lkmdtel-lkmdtelclosehandle.md).
 
 
 ## -see-also

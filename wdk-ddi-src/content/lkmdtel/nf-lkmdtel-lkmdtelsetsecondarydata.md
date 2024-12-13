@@ -50,7 +50,7 @@ This function sets the secondary data in the telemetry data structure. It is not
 
 ### -param TelemetryHandle
 
-Supplies a previously acquired telemetry handle. 
+Supplies a telemetry handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
 
 ### -param SecondaryDataGuid
 
@@ -70,7 +70,8 @@ STATUS_SUCCESS if successful.
 
 ## -remarks
 
-This function can only be called one time per dump file.  The buffer passed to this API must remain valid until after a call and return from [LkmdTelSubmitReport](./nf-lkmdtel-lkmdtelsubmitreport.md). 
+- This function can only be called one time per dump file.  The buffer passed to this API must remain valid until after a call and return from [LkmdTelSubmitReport](./nf-lkmdtel-lkmdtelsubmitreport.md). 
+- The size of the data should be less than 24 MB, although the actual size may vary based on the Windows version or system configuration. Data that exceeds the limit will be truncated.
 
 ## -see-also
 

@@ -50,7 +50,7 @@ This function adds a region of kernel memory to the kernel minidump.
 
 ### -param TelemetryHandle
 
-Supplies a previously acquired telemetry handle. 
+Supplies a telemetry handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
 
 ### -param TriageData
 
