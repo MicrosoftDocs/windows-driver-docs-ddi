@@ -107,7 +107,7 @@ For more information, see [Native GPU fence objects](/windows-hardware/drivers/d
 
 [**D3DKMDT_STANDARDALLOCATION_TYPE**](../d3dkmdt/ne-d3dkmdt-_d3dkmdt_standardallocation_type.md)
 
-[**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-dxgk_allocationinfo.md)
+[**DXGK_ALLOCATIONINFO**](ns-d3dkmddi-_dxgk_allocationinfo.md)
 
 [**DXGKARG_FENCESTORAGEFLAGS**](ns-d3dkmddi-dxgkarg_fencestorageflags.md)
 
