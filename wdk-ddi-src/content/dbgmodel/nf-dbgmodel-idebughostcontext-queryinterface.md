@@ -65,5 +65,7 @@ This method returns HRESULT which indicates success or failure.
 
 Standard COM method.
 
-## -see-also[IDebugHostContext interface](nn-dbgmodel-idebughostcontext.md)
+## -see-also
+
+[IDebugHostContext interface](nn-dbgmodel-idebughostcontext.md)
 
