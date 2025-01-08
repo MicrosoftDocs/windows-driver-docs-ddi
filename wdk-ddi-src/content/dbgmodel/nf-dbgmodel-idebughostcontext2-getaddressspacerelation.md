@@ -70,4 +70,4 @@ The possible return values are:
 
 ## -see-also
 
-[IDebugHostConstant2 interface](nn-dbgmodel-idebughostconstant2.md)
+[IDebugHostContext2 interface](nn-dbgmodel-idebughostcontext2.md)
