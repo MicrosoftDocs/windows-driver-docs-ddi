@@ -3,9 +3,7 @@ UID: NF:ntifs.NtFsControlFile
 title: NtFsControlFile function (ntifs.h)
 description: Learn more about the NtFsControlFile routine.
 tech.root: kernel
-ms.date: 07/06/2023
-keywords: ["NtFsControlFile function"]
-ms.keywords: NtFsControlFile, ZwFsControlFile, ZwFsControlFile routine [Kernel-Mode Driver Architecture], k111_5da20655-11b0-4366-bca2-8cee3aadbeab.xml, kernel.zwfscontrolfile, ntifs/NtFsControlFile, ntifs/ZwFsControlFile
+ms.date: 01/07/2025
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -75,7 +73,7 @@ FSCTL_*XXX* code that indicates which file system control operation is to be car
 
 ### -param InputBuffer [in, optional]
 
-Pointer to a caller-allocated input buffer that contains device-specific information to be given to the target driver. If **FsControlCode** specifies an operation that does not require input data, this pointer is optional and can be NULL.
+Pointer to a caller-allocated input buffer that contains device-specific information to be given to the target driver. If **FsControlCode** specifies an operation that doesn't require input data, this pointer is optional and can be NULL.
 
 ### -param InputBufferLength [in]
 
@@ -83,7 +81,7 @@ Size, in bytes, of the buffer at **InputBuffer**. This value is ignored if **Inp
 
 ### -param OutputBuffer [out, optional]
 
-Pointer to a caller-allocated output buffer in which information is returned from the target driver. If **FsControlCode** specifies an operation that does not produce output data, this pointer is optional and can be NULL.
+Pointer to a caller-allocated output buffer in which information is returned from the target driver. If **FsControlCode** specifies an operation that doesn't produce output data, this pointer is optional and can be NULL.
 
 ### -param OutputBufferLength [in]
 
@@ -113,13 +111,13 @@ The following are some of the FSCTL codes documented for kernel-mode drivers:
 * [**FSCTL_REQUEST_OPLOCK_LEVEL_2**](/windows-hardware/drivers/ifs/fsctl-request-oplock-level-2)
 * [**FSCTL_SET_REPARSE_POINT**](/windows-hardware/drivers/ifs/fsctl-set-reparse-point)
 
-For more information about system-defined FSCTL_*XXX* codes, see the "Remarks" section of the reference entry for [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol).
+For more information about system-defined FSCTL_*XXX* codes, see the "Remarks" section of [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), which is typically used by user-mode applications.
 
 For more information about system-defined IOCTL_*XXX* codes, and about defining driver-specific IOCTL_*XXX* or FSCTL_*XXX* values, see [Using I/O Control Codes](/windows-hardware/drivers/kernel/using-i-o-control-codes) and [Device Input and Output Control Codes](/windows/win32/devio/device-input-and-output-control-ioctl-).
 
 Minifilters should use [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) instead of **NtFsControlFile**.
 
-Callers of **NtFsControlFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled**](/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **NtFsControlFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
 If the call to the **NtFsControlFile** function occurs in user mode, you should use the name "**NtFsControlFile**" instead of "**ZwFsControlFile**".
 
