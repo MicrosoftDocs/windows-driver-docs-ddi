@@ -1,16 +1,13 @@
 ---
 UID: NC:dispmprt.DXGKDDI_SYSTEM_DISPLAY_ENABLE
 title: DXGKDDI_SYSTEM_DISPLAY_ENABLE (dispmprt.h)
-description: Called by the operating system to request the display miniport driver to reset the current display device to a specified state.
-old-location: display\dxgkddisystemdisplayenable.htm
+description: Learn more about the DXGKDDI_SYSTEM_DISPLAY_ENABLE callback function.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["DXGKDDI_SYSTEM_DISPLAY_ENABLE callback function"]
-ms.keywords: DXGKDDI_SYSTEM_DISPLAY_ENABLE, DXGKDDI_SYSTEM_DISPLAY_ENABLE callback, DxgkDdiSystemDisplayEnable, DxgkDdiSystemDisplayEnable callback function [Display Devices], display.dxgkddisystemdisplayenable, dispmprt/DxgkDdiSystemDisplayEnable
+ms.date: 01/13/2025
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows 8
+req.target-min-winverclnt: Windows 8 (WDDM 1.2)
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,105 +39,89 @@ api_name:
 
 # DXGKDDI_SYSTEM_DISPLAY_ENABLE callback function
 
-
 ## -description
 
-Called by the operating system to request the display miniport driver to reset the current  display device to a specified state.
-
-Starting with Windows 8, the operating system calls this function during a bugcheck operation following a system stop error.
+The OS calls the kernel-mode display driver's (KMD) **DxgkddiSystemDisplayEnable** function to request that KMD reset the current display device to a specified state.
 
 ## -parameters
 
 ### -param MiniportDeviceContext [in]
 
-
-A handle to a context block that is associated with a display adapter. The display miniport driver's <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a> function previously provided this handle to the Microsoft DirectX graphics kernel subsystem.
+Handle to a context block associated with a display adapter. KMD's [**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md) function previously provided this handle to *Dxgkrnl*.
 
 ### -param TargetId [in]
 
-
-A D3DDDI_VIDEO_PRESENT_TARGET_ID value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPn) state during the previous call to <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn">DxgkDdiCommitVidPn</a>.
-
-For more details about the use of the <i>TargetId</i> parameter, see the following "Video present target initialization" section.
+A [**D3DDDI_VIDEO_PRESENT_TARGET_ID**](../d3dkmdt/ns-d3dkmdt-_d3dkmdt_video_present_target.md) value that specifies the identifier of the video present target on the display adapter that the display device is connected to. This identifier could be for the target that was left in the current video present network (VidPn) state during the previous call to [**DxgkDdiCommitVidPn**](../d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn.md).
 
 ### -param Flags [in]
 
-
-A pointer to a value that contains a bitwise OR of flags. This member is reserved by the operating system.
+Pointer to a [**DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS**](ns-dispmprt-dxgkarg_system_display_enable_flags.md) value that contains a bitwise OR of flags. This member is reserved by the OS.
 
 ### -param Width [out]
 
-
-A UINT value that specifies the width of the display mode of the specified device in units of pixels.
+Width of the display mode of the specified device, in pixels.
 
 ### -param Height [out]
 
-
-A UINT value that specifies the height of the display mode  of the specified device in units of pixels.
+Height of the display mode of the specified device, in pixels.
 
 ### -param ColorFormat [out]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> value that specifies the color format of the display device.
+Pointer to a [**D3DDDIFORMAT**](../d3dukmdt/ne-d3dukmdt-_d3dddiformat.md) value that specifies the color format of the display device.
 
 ## -returns
 
-<i>DxgkDdiSystemDisplayEnable</i> returns STATUS_SUCCESS if it succeeds. If the target specified by the TargetId parameter is not connected to a display device, the function returns STATUS_NOT_SUPPORTED. Otherwise, it returns one of the error codes defined in Ntstatus.h.
+**DxgkDdiSystemDisplayEnable** returns STATUS_SUCCESS if it succeeds. If the target specified by the **TargetId** parameter isn't connected to a display device, the function returns STATUS_NOT_SUPPORTED. Otherwise, it returns one of the error codes defined in *Ntstatus.h*.
 
 ## -remarks
 
-<h3><a id="Required_steps_by_display_miniport_driver"></a><a id="required_steps_by_display_miniport_driver"></a><a id="REQUIRED_STEPS_BY_DISPLAY_MINIPORT_DRIVER"></a>Required steps by display miniport driver</h3>
-The display miniport driver must follow these steps when its <i>DxgkDdiSystemDisplayEnable</i> function is called:
+The OS calls **DxgkddiSystemDisplayEnable** during a bugcheck operation following a system stop error.
 
-<ol>
-<li>The driver must cancel all graphics processing unit (GPU) operations or reset the GPU to the idle state.</li>
-<li>The operating system indicates the video present target through the <i>TargetId</i> parameter. The driver  must keep the display associated with this target powered on and visible. If the driver cannot power on the display, it must fail the call to this function. In such a failure case, the operating system might call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a> function and cause a system bugcheck to occur.</li>
-<li>The driver must check the connectivity of the display associated with this target. If the target does not have a display connected, the driver must complete the call to this function and return the <b>STATUS_NOT_SUPPORTED</b> error code.</li>
-<li>The driver must disable the signal to all other displays that are connected to the display adapter. If this is not possible, the driver should attempt to place a blank image on all other displays. If this is not possible, the driver must leave the last image on the screen unchanged.</li>
-<li>The driver must keep the current display mode on the indicated target and provide this mode back to the operating system as part of this function call.</li>
-<li>
-If the driver cannot maintain the current display mode, or if the target is not part of the active topology, the driver should attempt to set a frame buffer on another target that is capable of a display resolution of at least 640 x 480 pixels in a format of 24 bits per pixel. If that is not possible, the driver can fail this function call, which will result in a system bugcheck and the display of a black screen.
+### Required steps by KMD
 
-It is not required that the driver use a linear frame buffer mode. However, the driver should support write operations to this frame buffer from sources that have the  <b>D3DDDIFMT_A8R8G8B8</b> format of the <a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a> enumeration.
+The KMD must follow these steps when its **DxgkDdiSystemDisplayEnable** function is called:
 
-</li>
-</ol>
-<h3><a id="Source_image_restrictions"></a><a id="source_image_restrictions"></a><a id="SOURCE_IMAGE_RESTRICTIONS"></a>Source image restrictions</h3>
-After the driver gives the operating system control over display  functionality, the operating system can call the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function to update the screen image and to write a block of images from specified sources to the screen that was reset by the <i>DxgkDdiSystemDisplayEnable</i> function.
+1. Cancel all GPU operations or reset the GPU to the idle state.
+1. The OS indicates the video present target through the **TargetId** parameter. The driver must keep the display associated with this target powered on and visible. If the driver can't power on the display, it must fail the call to this function. In such a failure case, the OS might call [**DxgkDdiResetDevice**](nc-dispmprt-dxgkddi_reset_device.md) and cause a system bugcheck to occur.
+1. Check the connectivity of the display associated with this target. If the target doesn't have a display connected, the driver must complete the call to this function and return the STATUS_NOT_SUPPORTED error code.
+1. Disable the signal to all other displays that are connected to the display adapter. If this isn't possible, the driver should attempt to place a blank image on all other displays. If this isn't possible, the driver must leave the last image on the screen unchanged.
+1. Keep the current display mode on the indicated target and provide this mode back to the OS as part of this function call.
+1. If the driver can't maintain the current display mode, or if the target is not part of the active topology, the driver should attempt to set a frame buffer on another target that is capable of a display resolution of at least 640 x 480 pixels in a format of 24 bits per pixel. If this isn't possible, the driver can fail this function call, which will result in a system bugcheck and the display of a black screen.
 
+KMD doesn't have to use a linear frame buffer mode. However, KMD should support write operations to this frame buffer from sources that have the **D3DDDIFMT_A8R8G8B8** format of the [**D3DDDIFORMAT**](../d3dukmdt/ne-d3dukmdt-_d3dddiformat.md) enumeration.
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> provides the driver with the starting address of the source image as well as the stride, width, and height. The color format of the source image is always <b>D3DDDIFMT_X8R8G8B8</b>. The operating system guarantees that the source image is in non-paged memory.
+### Source image restrictions
 
-The  driver must write this source image to the current screen starting at the positions specified by the <i>PositionX</i> and <i>PositionY</i> parameters of the <a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a> function.
+After KMD gives the OS control over display functionality, the OS can call the [**DxgkDdiSystemDisplayWrite**](nc-dispmprt-dxgkddi_system_display_write.md) function to update the screen image and to write a block of images from specified sources to the screen that was reset by the **DxgkDdiSystemDisplayEnable** function.
 
-It is recommended that the driver use the CPU to write the image from the source to the frame buffer because a system bugcheck might be caused by repeated <a href="/windows-hardware/drivers/display/timeout-detection-and-recovery">Timeout Detection and Recovery (TDR)</a> instances that result in the GPU being in an unknown condition.
+[**DxgkDdiSystemDisplayWrite**](nc-dispmprt-dxgkddi_system_display_write.md) provides the driver with the starting address of the source image as well as the stride, width, and height. The color format of the source image is always **D3DDDIFMT_X8R8G8B8**. The OS guarantees that the source image is in non-paged memory.
 
-<h3><a id="Use_non-paged_memory"></a><a id="use_non-paged_memory"></a><a id="USE_NON-PAGED_MEMORY"></a>Use non-paged memory</h3>
+KMD must write this source image to the current screen starting at the positions specified by the **PositionX** and **PositionY** parameters of the [**DxgkDdiSystemDisplayWrite**](nc-dispmprt-dxgkddi_system_display_write.md) function.
+
+It's recommended that the driver use the CPU to write the image from the source to the frame buffer because a system bugcheck might be caused by repeated [Timeout Detection and Recovery (TDR)](/windows-hardware/drivers/display/timeout-detection-and-recovery) instances that result in the GPU being in an unknown condition.
+
+### Use non-paged memory
+
 Windows kernel-mode functions might not be available while this function is being called.
 
-<i>DxgkDdiSystemDisplayEnable</i> can be called at any IRQL, so it must be in nonpageable memory. <i>DxgkDdiSystemDisplayEnable</i> must not call any code that is in pageable memory and must not manipulate any data that is in pageable memory.
+**DxgkDdiSystemDisplayEnable** can be called at any IRQL, so it must be in nonpageable memory. **DxgkDdiSystemDisplayEnable** must not call any code that is in pageable memory and must not manipulate any data that is in pageable memory.
+
+### Automatic display switching
+
+An automatic display switch driver's **DxgkDdiSystemDisplayEnable** DDI must ensure that panel self refresh (PSR) is disabled at the end of the call to it. For more information, see [Automatic Display Switch](/windows-hardware/drivers/display/automatic-display-switch).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dukmdt/ne-d3dukmdt-_d3dddiformat">D3DDDIFORMAT</a>
+[**D3DDDIFORMAT**](../d3dukmdt/ne-d3dukmdt-_d3dddiformat.md)
 
+[**DxgkCbAcquirePostDisplayOwnership**](nc-dispmprt-dxgkcb_acquire_post_display_ownership.md)
 
+[**DxgkDdiAddDevice**](nc-dispmprt-dxgkddi_add_device.md)
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkcb_acquire_post_display_ownership">DxgkCbAcquirePostDisplayOwnership</a>
+[**DxgkDdiCommitVidPn**](../d3dkmddi/nc-d3dkmddi-dxgkddi_commitvidpn.md)
 
+[**DxgkDdiResetDevice**](nc-dispmprt-dxgkddi_reset_device.md)
 
+[**DxgkDdiStopDeviceAndReleasePostDisplayOwnership**](nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership.md)
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_add_device">DxgkDdiAddDevice</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_reset_device">DxgkDdiResetDevice</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_stop_device_and_release_post_display_ownership">DxgkDdiStopDeviceAndReleasePostDisplayOwnership</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/dispmprt/nc-dispmprt-dxgkddi_system_display_write">DxgkDdiSystemDisplayWrite</a>
-
+[**DxgkDdiSystemDisplayWrite**](nc-dispmprt-dxgkddi_system_display_write.md)

@@ -1,12 +1,9 @@
 ---
 UID: NS:dispmprt._DXGK_INTEGRATED_DISPLAY_CHILD
-title: _DXGK_INTEGRATED_DISPLAY_CHILD (dispmprt.h)
-description: Gives information about the connected integrated display.
-old-location: display\dxgk_integrated_display_child.htm
+title: DXGK_INTEGRATED_DISPLAY_CHILD (dispmprt.h)
+description: Learn more about the _DXGK_INTEGRATED_DISPLAY_CHILD structure.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["DXGK_INTEGRATED_DISPLAY_CHILD structure"]
-ms.keywords: "*PDXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD, DXGK_INTEGRATED_DISPLAY_CHILD structure [Display Devices], PDXGK_INTEGRATED_DISPLAY_CHILD, PDXGK_INTEGRATED_DISPLAY_CHILD structure pointer [Display Devices], _DXGK_INTEGRATED_DISPLAY_CHILD, display.dxgk_integrated_display_child, dispmprt/DXGK_INTEGRATED_DISPLAY_CHILD, dispmprt/PDXGK_INTEGRATED_DISPLAY_CHILD"
+ms.date: 01/13/2025
 req.header: dispmprt.h
 req.include-header: 
 req.target-type: Windows
@@ -46,37 +43,38 @@ api_name:
  - DXGK_INTEGRATED_DISPLAY_CHILD
 ---
 
-# _DXGK_INTEGRATED_DISPLAY_CHILD structure
-
+# DXGK_INTEGRATED_DISPLAY_CHILD structure
 
 ## -description
 
-Gives information about the connected integrated display.
+The **DXGK_INTEGRATED_DISPLAY_CHILD** structure provides information about the connected integrated display.
 
 ## -struct-fields
 
 ### -field InterfaceTechnology
 
-Provides the type of connection used for the integrated display.  Typically, this would be one of the inherently internal display types:
+Provides the type of connection used for the integrated display.  Typically, **InterfaceTechnology** would be one of the inherently internal display types:
 
-<ul>
-<li>D3DKMDT_VOT_INTERNAL</li>
-<li>D3DKMDT_VOT_LVDS</li>
-<li>D3DKMDT_VOT_DISPLAYPORT_EMBEDDED</li>
-<li>D3DKMDT_VOT_UDI_EMBEDDED</li>
-</ul>
-However, since it has become common to use external connector types to connect integrated displays in larger form factor systems with a built-in display such as all-in-one systems, the following digital connection types are also allowed:
+* D3DKMDT_VOT_INTERNAL
+* D3DKMDT_VOT_LVDS
+* D3DKMDT_VOT_DISPLAYPORT_EMBEDDED
+* D3DKMDT_VOT_UDI_EMBEDDED
 
-<ul>
-<li>D3DKMDT_VOT_DVI</li>
-<li>D3DKMDT_VOT_HDMI</li>
-<li>D3DKMDT_VOT_D_JPN</li>
-<li>D3DKMDT_VOT_SDI</li>
-<li>D3DKMDT_VOT_DISPLAYPORT_EXTERNAL</li>
-<li>D3DKMDT_VOT_UDI_EXTERNAL</li>
-</ul>
+However, since it's common to use external connector types to connect integrated displays in larger form factor systems with a built-in display such as all-in-one systems, the following digital connection types are also allowed:
+
+* D3DKMDT_VOT_DVI
+* D3DKMDT_VOT_HDMI
+* D3DKMDT_VOT_D_JPN
+* D3DKMDT_VOT_SDI
+* D3DKMDT_VOT_DISPLAYPORT_EXTERNAL
+* D3DKMDT_VOT_UDI_EXTERNAL
 
 ### -field DescriptorLength
 
-The size in bytes of the descriptor which will be in the Descriptor field of the DXGK_QUERYINTEGRATEDDISPLAYOUT structure.
+The size in bytes of the descriptor in the **Descriptor** field of the [**DXGK_QUERYINTEGRATEDDISPLAYOUT**](../d3dkmddi/ns-d3dkmddi-dxgk_queryintegrateddisplayout.md) structure.
 
+## -see-also
+
+[**DXGK_CHILD_CAPABILITIES**](ns-dispmprt-_dxgk_child_capabilities.md)
+
+[**DXGK_QUERYINTEGRATEDDISPLAYOUT**](../d3dkmddi/ns-d3dkmddi-dxgk_queryintegrateddisplayout.md)
