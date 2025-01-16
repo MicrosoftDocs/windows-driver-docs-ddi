@@ -1,13 +1,12 @@
 ### YamlMime:Landing
 
 title: API reference docs for Windows Driver Kit (WDK)
-summary: The Windows driver API reference documentation is presented in two different views. In the table of contents, select a technology to see the subset of APIs and headers pertaining to that driver technology. Or, select a header to see all APIs in that header. When you select an API, the table of contents switches to the technology-scoped view for that API. 
-
+summary: The Windows driver API reference documentation provides detailed information about the Windows Driver Kit, driver frameworks, and driver development tools. Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
 metadata: 
   description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
   author: SoniaLopezBravo
   ms.author: sonialopez
-  ms.date: 02/27/2023
+  ms.date: 01/16/2025
   ms.topic: landing-page
   ms.service: windows-hardware-driver-quality
   ms.subservice: wdk-api-reference
@@ -59,10 +58,17 @@ landingContent:
     linkLists:
       - linkListType: reference
         links:
+          - text: Debugger
+            url: ./_debugger/index.md
+          - text: Driver installation
+            url: ./_devinst/index.md
+          - text: Driver test tools
+            url: ./_devtest/index.md
           - text: Kernel
             url: ./_kernel/index.md
           - text: WDF
             url: ./_wdf/index.md
+
 
 
   - title: Streaming
@@ -80,7 +86,9 @@ landingContent:
         links:
           - text: Advanced Configuration and Power Interface (ACPI)
             url: ./_acpi/index.md
-          - text: Display
+          - text: Battery
+            url: ./_battery/index.md
+          - text: Display and Graphics
             url: ./_display/index.md
           - text: File system
             url: ./_ifsk/index.md
