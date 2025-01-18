@@ -70,9 +70,9 @@ for (ptr = RtlEnumerateGenericTableWithoutSplayingAvl(Table, &RestartKey);
 
 ## -remarks
 
-The **RtlEnumerateGenericTableWithoutSplayingAvl** routine does not actually work with a splay tree but provides an analogous named routine to **RtlEnumerateGenericTableWithoutSplayingAvl**.
-
 **RtlEnumerateGenericTableWithoutSplayingAvl** can be called repeatedly to process the caller's data in each element of a generic table.
+
+Elements are return in the order returned is as defined by the *PRTL_AVL_COMPARE_ROUTINE* parameter supplied to [RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md).
 
 By default, the operating system uses splay trees to implement generic tables, but the [RtlLookupElementGenericTableFullAvl](./nf-ntddk-rtllookupelementgenerictablefullavl.md) routine only works with Adelson-Velsky/Landis (AVL) trees. To configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *Ntddk.h*:
 
