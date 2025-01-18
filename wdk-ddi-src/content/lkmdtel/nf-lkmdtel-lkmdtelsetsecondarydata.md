@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-This function sets the secondary data in the telemetry data structure. It is not required prior to submitting a report. Providing secondary data allows a component to supply extra data within the minidump to assist in debugging.  
+This function sets the secondary data in the telemetry data structure. It is not required prior to submitting a report. Providing secondary data allows a component to supply extra data within the minidump to assist in debugging. 
 
 ## -parameters
 
@@ -72,6 +72,7 @@ STATUS_SUCCESS if successful.
 
 - This function can only be called one time per dump file.  The buffer passed to this API must remain valid until after a call and return from [LkmdTelSubmitReport](./nf-lkmdtel-lkmdtelsubmitreport.md). 
 - The size of the data should be less than 24 MB, although the actual size may vary based on the Windows version or system configuration. Data that exceeds the limit will be truncated.
+- For more information, see [Secondary callback data](/windows-hardware/drivers/debugger/reading-bug-check-callback-data).
 
 ## -see-also
 

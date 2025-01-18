@@ -2,9 +2,9 @@
 UID: NF:lkmdtel.LkmdTelCreateReport
 tech.root: kernel
 title: LkmdTelCreateReport
-ms.date: 12/11/2024
+ms.date: 01/17/2025
 targetos: Windows
-description: The LkmdTelCreateReport function creates a telemetry data handle.
+description: The LkmdTelCreateReport function creates a Telemetry Report data handle.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-This function creates a telemetry data handle, which represents the captured telemetry data but is opaque to the calling component. The current thread information is captured within the telemetry data in the *DumpData* and *DumpSize* fields of the telemetry data structure.  
+This function initializes a new live kernel dump telemetry report, and returns an opaque handle of the report to the caller for use with subsequent LkmdTel functions. 
 
 ## -parameters
 
@@ -56,34 +56,34 @@ The maximum report type name length is 16 Unicode characters, including the term
 
 ### -param BugCheckCode
 
-This value is the bugcheck code. For example, SoC subsystem restart would use SOC_SUBSYSTEM_FAILURE_LIVEDUMP (0x15d) 
+This value is the kernel live dump code. For example, SoC subsystem restart would use SOC_SUBSYSTEM_FAILURE_LIVEDUMP (0x15d) 
 
 ### -param BugCheckParam1
 
-Defined per component, this supplies the first bugcheck parameter to set in the dump.
+Defined per component, this supplies the first parameter to set in the dump.
 
 ### -param BugCheckParam2
 
-Defined per component, this supplies the second bugcheck parameter to set in the dump.
+Defined per component, this supplies the second parameter to set in the dump.
 
 ### -param BugCheckParam3
 
-Defined per component, this supplies the third bugcheck parameter to set in the dump.
+Defined per component, this supplies the third parameter to set in the dump.
 
 ### -param BugCheckParam4
 
-Defined per component, this supplies the fourth bugcheck parameter to set in the dump.
+Defined per component, this supplies the fourth parameter to set in the dump.
 
 ## -returns
 
-This function returns an opaque handle to the telemetry data which can be used with the [LkmdTelSubmitReport](./nf-lkmdtel-lkmdtelsubmitreport.md), [LkmdTelSetSecondaryData](./nf-lkmdtel-lkmdtelsetsecondarydata.md), and [LkmdTelInsertTriageDataBlock](./nf-lkmdtel-lkmdtelinserttriagedatablock.md) functions.   
+This function returns an opaque handle to the telemetry data which can be used with the [LkmdTelSubmitReport](./nf-lkmdtel-lkmdtelsubmitreport.md), [LkmdTelSetSecondaryData](./nf-lkmdtel-lkmdtelsetsecondarydata.md), and [LkmdTelInsertTriageDataBlock](./nf-lkmdtel-lkmdtelinserttriagedatablock.md) functions. This handle is closed using [LkmdTelCloseHandle](./nf-lkmdtel-lkmdtelclosehandle.md).
 
 In the case of failure, the handle returns *NULL*.
 
 ## -remarks
 
 - This function must be called first, since it allocates the data structure used to store the telemetry data. It returns the telemetry handle. 
-- The telemetry handle is closed using [LkmdTelCloseHandle](./nf-lkmdtel-lkmdtelclosehandle.md).
+- The Telemery Report handle is closed using [LkmdTelCloseHandle](./nf-lkmdtel-lkmdtelclosehandle.md).
 
 
 ## -see-also
@@ -91,3 +91,4 @@ In the case of failure, the handle returns *NULL*.
 - [LkmdTelSubmitReport](./nf-lkmdtel-lkmdtelsubmitreport.md) 
 - [LkmdTelSetSecondaryData](./nf-lkmdtel-lkmdtelsetsecondarydata.md)
 - [LkmdTelInsertTriageDataBlock](./nf-lkmdtel-lkmdtelinserttriagedatablock.md)
+- [LkmdTelCloseHandle](./nf-lkmdtel-lkmdtelclosehandle.md)

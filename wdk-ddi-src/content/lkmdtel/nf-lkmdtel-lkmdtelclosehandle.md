@@ -50,7 +50,7 @@ This function frees any resources that were allocated during creation of the tel
 
 ### -param TelemetryHandle
 
-Supplies a telemetry handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
+Supplies a Telemetry Report handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
 
 ## -remarks
 

@@ -50,7 +50,7 @@ This function creates the minidump file and notifies WER (Windows Error Reportin
 
 ### -param TelemetryHandle
 
-Supplies a telemetry handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
+Supplies a Telemetry Report handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
 
 ## -returns
 

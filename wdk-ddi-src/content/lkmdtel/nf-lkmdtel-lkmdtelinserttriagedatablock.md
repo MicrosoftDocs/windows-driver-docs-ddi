@@ -50,7 +50,7 @@ This function adds a region of kernel memory to the kernel minidump.
 
 ### -param TelemetryHandle
 
-Supplies a telemetry handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
+Supplies a Telemetry Report handle created by [LkmdTelCreateReport](./nf-lkmdtel-lkmdtelcreatereport.md). 
 
 ### -param TriageData
 
@@ -71,7 +71,9 @@ STATUS_BUFFER_TOO_SMALL if there is insufficient space in the triage dump buffer
 
 ## -remarks
 
-The buffers passed to this function must remain valid until the function returns.  The function will copy the memory to new buffers. 
+- The buffers passed to this function must remain valid until the function returns.  The function will copy the memory to new buffers. 
+- The maximum amount of memory that can be added via calls to `LkmdTelInsertTriageDataBlock` is dependent on the OS architecture. On a 64-bit OS, the maximum is approximately 180 KB. On a 32-bit OS, it is approximately 90 KB.
+
 
 ## -see-also
 

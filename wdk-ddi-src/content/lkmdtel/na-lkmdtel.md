@@ -15,7 +15,7 @@ req.idl:
 req.include-header: 
 req.irql: 
 req.kmdf-ver: 
-req.lib: 
+req.lib: lkmdtel.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -41,6 +41,14 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - lkmdtel
+ - livedump
+ - live kernel 
+ - memory dump
+ - LKD
+ - telemetry library ddi
+ - windows error reporting
+ - wer
+ - minidumps
 ---
 
 ## -description
