@@ -2,7 +2,7 @@
 description: "Learn more about: LkmdTel.h header"
 UID: NA:lkmdtel
 title: LkmdTel.h header
-ms.date: 11/11/2024
+ms.date: 12/11/2024
 keywords: ["LkmdTel.h header"]
 ms.keywords: 
 ms.topic: reference
@@ -18,7 +18,7 @@ api_name:
 
 ## -description
 
-This header is used by xx.
+This header is used by kernel.
 
 For more information, see:
 
