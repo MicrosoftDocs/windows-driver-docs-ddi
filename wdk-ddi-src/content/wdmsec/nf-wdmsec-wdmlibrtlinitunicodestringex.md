@@ -4,7 +4,7 @@ title: WdmlibRtlInitUnicodeStringEx function (wdmsec.h)
 description: The WdmlibRtlInitUnicodeStringEx function initializes a counted string of Unicode characters.
 old-location: kernel\wdmlibrtlinitunicodestringex.htm
 tech.root: kernel
-ms.date: 08/11/2022
+ms.date: 01/24/2025
 keywords: ["WdmlibRtlInitUnicodeStringEx function"]
 ms.keywords: RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.wdmlibrtlinitunicodestringex, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx
 req.header: wdmsec.h
@@ -67,7 +67,7 @@ The routine copies the *SourceString* pointer value to the **Buffer** member of 
 **WdmlibRtlInitUnicodeStringEx** does not alter the source string pointed to by *SourceString*.
 
 > [!NOTE]
-> If the source string is longer than MAX_USTRING - 1 bytes, **WdmlibRtlInitUnicodeStringEx** sets the **Length** member of the **UNICODE_STRING** structure pointed to by *DestinationString* to MAX_USTRING - 2, and sets the **MaximumLength** member of this structure to MAX_USTRING.  In this case, the **Length** and **MaximumLength** values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.
+> If the source string is longer than MAX_USTRING - 1 bytes (where MAX_USTRING = 0xfffe), **WdmlibRtlInitUnicodeStringEx** sets the **Length** member of the **UNICODE_STRING** structure pointed to by *DestinationString* to MAX_USTRING - 2, and sets the **MaximumLength** member of this structure to MAX_USTRING.  In this case, the **Length** and **MaximumLength** values misrepresent the length of the null-terminated source string, and relying on the accuracy of these values is potentially dangerous.
 
 Callers of **WdmlibRtlInitUnicodeStringEx** can be running at IRQL <= DISPATCH_LEVEL if the *DestinationString* buffer is nonpageable. Usually, callers run at IRQL = PASSIVE_LEVEL because most other **Rtl*Xxx*String** routines cannot be called at IRQL > PASSIVE_LEVEL.
 
