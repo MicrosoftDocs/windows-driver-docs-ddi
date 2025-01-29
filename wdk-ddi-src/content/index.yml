@@ -1,13 +1,13 @@
 ### YamlMime:Hub
 
 title: API reference documentation for Windows Driver Kit (WDK)
-summary: The Windows driver API reference documentation provides detailed information about the Windows Driver Kit. When you select a driver technology, the table of contents in that API reference page shows the subset of APIs and headers pertaining to that driver technology. To see all APIs in a header, navigate to `https://learn.microsoft.com/windows-hardware/drivers/ddi/<header_name>`. 
+summary: The Windows driver API reference documentation provides detailed information about the Windows Driver Kit. 
 brand: windows
 metadata: 
   description: Windows Driver Kit (WDK) 10 is integrated with Microsoft Visual Studio and Debugging Tools for Windows. This integrated environment gives you the tools you need to develop, build, package, deploy, test, and debug Windows drivers. WDK includes templates for several technologies and driver models, including Windows Driver Frameworks (WDF), Universal Serial Bus (USB), print, networking, and file system filters.
   author: SoniaLopezBravo
   ms.author: sonialopez
-  ms.date: 01/16/2025
+  ms.date: 01/29/2025
   ms.topic: hub-page
   ms.localizationpriority: medium
   uhfHeaderId: "MSDocsHeader-WinHWAPIRef"
@@ -99,3 +99,30 @@ conceptualContent:
           itemType: reference 
 
 
+tools:
+  title: Driver platforms and frameworks
+  items:
+    - title: Kernel/Windows Driver Model
+      imageSrc: /media/logos/logo_windows.svg
+      url: ./kernel/index.md
+    - title: Windows Driver Frameworks
+      imageSrc: /media/logos/logo_windows.svg
+      url: ./wdf/index.md
+
+additionalContent:
+  sections:
+    # Section
+    - title: Get started with Windows drivers
+      items:
+        - title: Windows hardware developer documentation
+          summary: Learn how to design, develop, and deploy hardware and device drivers for Windows PCs and other devices.
+          url: /windows-hardware/drivers/
+        - title: Write a Hello World Windows Driver
+          summary: Learn how to write a very small Windows Driver using KMDF.
+          url: /windows-hardware/drivers/gettingstarted/writing-a-very-small-kmdf--driver.md
+        - title: Get started developing Windows drivers
+          summary: Write a single driver package that runs across multiple device types.
+          url: /windows-hardware/drivers/develop/get-started-developing-windows-drivers.md
+
+    # Section
+  footer: "[@WindowsDocs on Twitter](https://twitter.com/WindowsDocs) - [OneDevMinute on YouTube](/shows/One-Dev-Minute/?WT.mc_id=odm-c9-niner) - [Windows developer support](https://developer.microsoft.com/windows/support) - [Stack Overflow](https://stackoverflow.com/questions/tagged/windows)"
