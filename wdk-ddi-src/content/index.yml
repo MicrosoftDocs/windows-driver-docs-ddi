@@ -104,10 +104,10 @@ tools:
   items:
     - title: Kernel/Windows Driver Model
       imageSrc: /media/logos/logo_windows.svg
-      url: ./kernel/index.md
+      url: /windows-hardware/drivers/kernel/
     - title: Windows Driver Frameworks
       imageSrc: /media/logos/logo_windows.svg
-      url: ./wdf/index.md
+      url: /windows-hardware/drivers/wdf/
 
 additionalContent:
   sections:
@@ -119,10 +119,10 @@ additionalContent:
           url: /windows-hardware/drivers/
         - title: Write a Hello World Windows Driver
           summary: Learn how to write a very small Windows Driver using KMDF.
-          url: /windows-hardware/drivers/gettingstarted/writing-a-very-small-kmdf--driver.md
+          url: /windows-hardware/drivers/gettingstarted/writing-a-very-small-kmdf--driver
         - title: Get started developing Windows drivers
           summary: Write a single driver package that runs across multiple device types.
-          url: /windows-hardware/drivers/develop/get-started-developing-windows-drivers.md
+          url: /windows-hardware/drivers/develop/get-started-developing-windows-drivers
 
     # Section
   footer: "[@WindowsDocs on Twitter](https://twitter.com/WindowsDocs) - [OneDevMinute on YouTube](/shows/One-Dev-Minute/?WT.mc_id=odm-c9-niner) - [Windows developer support](https://developer.microsoft.com/windows/support) - [Stack Overflow](https://stackoverflow.com/questions/tagged/windows)"
