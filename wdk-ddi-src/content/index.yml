@@ -98,17 +98,6 @@ conceptualContent:
           url: ./_storage/index.md
           itemType: reference 
 
-
-tools:
-  title: Driver platforms and frameworks
-  items:
-    - title: Kernel/Windows Driver Model
-      imageSrc: /media/logos/logo_windows.svg
-      url: /windows-hardware/drivers/kernel/
-    - title: Windows Driver Frameworks
-      imageSrc: /media/logos/logo_windows.svg
-      url: /windows-hardware/drivers/wdf/
-
 additionalContent:
   sections:
     # Section
@@ -123,6 +112,11 @@ additionalContent:
         - title: Get started developing Windows drivers
           summary: Write a single driver package that runs across multiple device types.
           url: /windows-hardware/drivers/develop/get-started-developing-windows-drivers
+    - title: Driver platforms and frameworks
+      items:
+        - title: Kernel/Windows Driver Model
+          url: /windows-hardware/drivers/kernel/
+        - title: Windows Driver Frameworks
+          url: /windows-hardware/drivers/wdf/
 
-    # Section
-  footer: "[@WindowsDocs on Twitter](https://twitter.com/WindowsDocs) - [OneDevMinute on YouTube](/shows/One-Dev-Minute/?WT.mc_id=odm-c9-niner) - [Windows developer support](https://developer.microsoft.com/windows/support) - [Stack Overflow](https://stackoverflow.com/questions/tagged/windows)"
+  footer: "[@WindowsDocs on X](https://x.com/WindowsDocs) - [OneDevMinute on YouTube](/shows/One-Dev-Minute/?WT.mc_id=odm-c9-niner) - [Windows developer support](https://developer.microsoft.com/windows/support) - [Stack Overflow](https://stackoverflow.com/questions/tagged/windows)"
