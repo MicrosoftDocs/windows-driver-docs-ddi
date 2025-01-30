@@ -1,0 +1,154 @@
+---
+UID: NF:dbgmodel.IDebugHostExtensibility3.CreateFunctionAlias
+tech.root: debugger
+title: IDebugHostExtensibility3::CreateFunctionAlias
+ms.date: 01/20/2025
+targetos: Windows
+description: The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific.
+prerelease: false
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: dbgmodel.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - COM
+api_location:
+ - dbgmodel.h
+api_name:
+ - IDebugHostExtensibility3::CreateFunctionAlias
+f1_keywords:
+ - IDebugHostExtensibility3::CreateFunctionAlias
+ - dbgmodel/IDebugHostExtensibility3::CreateFunctionAlias
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - CreateFunctionAlias
+---
+
+## -description
+
+The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific. It may extend the host's expression evaluator with the function or it may do something entirely different. 
+
+For Debugging Tools for Windows, a function alias: 
+
+- Is accessible in the expression evaluator through the @$ symbol. A function alias registered under someName is callable in the evaluator via @$someName(...).
+
+- Can be invoked via the older bang syntax. The invocation "!someName arg1, arg2, ..." is semantically equivalent to running the (dx) expression evaluator with "@$someName(arg1, arg2, ...)" and displaying the result.
+
+## -parameters
+
+### -param aliasName
+
+The (quick) name of the alias being created/registered.
+
+### -param functionObject
+
+A data model method (an [IModelMethod](nn-dbgmodel-imodelmethod.md) boxed into an [IModelObject](nn-dbgmodel-imodelobject.md)) which implements the functionality of the function alias.
+
+## -returns
+
+This method returns HRESULT which indicates success or failure.
+
+## -remarks
+
+**Sample Code**
+
+```cpp
+class MySumFunction:
+    public Microsoft::WRL::RuntimeClass<
+        Microsoft::WRL::RuntimeClassFlags<
+            Microsoft::WRL::RuntimeClassType::ClassicCom
+            >,
+        IModelMethod
+        >
+{
+public:
+
+    IFACEMETHOD(Call)(_In_ IModelObject * /*pContextObject*/, 
+                      _In_ ULONG64 argCount, 
+                      _In_reads_(argCount) IModelObject **ppArguments, 
+                      _COM_Errorptr_ **ppResult)
+    {
+        HRESULT hr = S_OK;
+        *ppResult = nullptr;
+
+        if (argCount == 0)
+        {
+            return E_INVALIDARG;
+        }
+
+        int sum = 0;
+        for (ULONG64 i = 0; i < argCount; ++i)
+        {
+            VARIANT vtValue;
+            if (FAILED(ppArguments[i]->GetIntrinsicValueAs(&vtValue)))
+            {
+                return E_INVALIDARG;
+            }
+            sum += vtValue.lVal;
+        }
+
+        VARIANT vtSum;
+        vtSum.vt = VT_I4;
+        vtSum.lVal = sum;
+
+        ComPtr<IModelObject> spSum;
+        hr = GetManager()->CreateIntrinsicObject(ObjectIntrinsic, &vtSum, &spSum);
+        if (SUCCEEDED(hr))
+        {
+            *ppResult = spSum.Detach();
+        }
+
+        return hr;
+    }
+};
+
+// Create a method object and register it as a function alias.
+ComPtr<MySumFunction> spSumFunc = Microsoft::WRL::Make<MySumFunction>();
+if (spSumFunc != nullptr)
+{
+    VARIANT vtMethod;
+    vtMethod.vt = VT_UNKNOWN;
+    vtMethod.punkVal = static_cast<IModelMethod *>(spSumFunc.Get());
+    
+    ComPtr<IModelObject> spMethodObject;
+    if (SUCCEEDED(GetManager()->CreateIntrinsicObject(ObjectMethod, 
+                                                      &vtMethod, 
+                                                      &spMethodObject)))
+    {
+        ComPtr<IDebugHostExtensibility> spHostExtensibility;
+        if (SUCCEEDED(GetHost()->QueryInterface(IID_PPV_ARGS(&spHostExtensibility)))
+        {
+            if (SUCCEEDED(spHostExtensibility->CreateFunctionAlias(
+                L"sumit",
+                spMethodObject.Get())))
+            {
+                // sumit is now an alias for our function.  The meaning here 
+                // is host specific.  For DbgEng, it means you can do things
+                // like "dx @$sumit(5, 7, 8)" or "!sumit 5, 7, 8"
+            }
+        }
+    }
+}
+```
+
+## -see-also
+
+[IDebugHostExtensibility3 interface](nn-dbgmodel-idebughostextensibility3.md)
