@@ -44,9 +44,9 @@ helpviewer_keywords:
 
 ## -description
 
-## -parameters
-
 The FinalizeContext method finalizes modifications of the host context, makes it immutable, and returns an interface to the context.
+
+## -parameters
 
 ### -param immutableContext
 

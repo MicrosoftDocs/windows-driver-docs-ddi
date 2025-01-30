@@ -1,10 +1,10 @@
 ---
 UID: NF:dbgmodel.IDebugHostExtensibility3.DestroyFunctionAlias
-tech.root: 
+tech.root: debugger
 title: IDebugHostExtensibility3::DestroyFunctionAlias
-ms.date: 
+ms.date: 01/29/2025
 targetos: Windows
-description: 
+description: The DestroyFunctionAlias method undoes a prior call to the CreateFunctionAlias method. The function will no longer be available under the quick alias name.
 prerelease: false
 req.assembly: 
 req.construct-type: function
