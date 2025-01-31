@@ -222,7 +222,7 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 [FltOplockFsctrl](nf-fltkernel-fltoplockfsctrl.md)
 
-[FsRtlCheckOplockEx](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplockex.md)
+[FsRtlCheckOplock](../ntifs/nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcheckoplock.md)
 
 [IO_STATUS_BLOCK](../wdm/ns-wdm-_io_status_block.md)
 
