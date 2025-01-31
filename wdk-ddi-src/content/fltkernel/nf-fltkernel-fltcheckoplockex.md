@@ -1,7 +1,7 @@
 ---
 UID: NF:fltkernel.FltCheckOplockEx
 title: FltCheckOplockEx function (fltkernel.h)
-description: A minifilter driver calls the FltCheckOplockEx routine to synchronize the callback data structure for an IRP-based file I/O operation that has the current opportunistic lock (oplock) state of the file.
+description: A minifilter driver calls the FltCheckOplockEx routine to synchronize the callback data structure for an IRP-based file I/O operation (and certain others, see below) that has the current opportunistic lock (oplock) state of the file.
 old-location: ifsk\fltcheckoplockex.htm
 tech.root: ifsk
 ms.date: 04/16/2018
@@ -205,6 +205,8 @@ A minifilter driver calls **FltCheckOplockEx** to synchronize an IRP-based I/O o
   * IRP_MJ_SET_INFORMATION
 
   * IRP_MJ_WRITE
+
+  * IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION
 
 The I/O operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [FLT_IS_IRP_OPERATION](/previous-versions/ff544654(v=vs.85)) macro.
 
