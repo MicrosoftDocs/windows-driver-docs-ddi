@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_SCAN_TRIGGER
 tech.root: netvista
 title: WDI_SCAN_TRIGGER (dot11wificxtypes.h)
 ms.date: 03/07/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_SCAN_TRIGGER enum defines scan trigger values.
 req.construct-type: enumeration

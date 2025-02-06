@@ -6,7 +6,6 @@ ms.assetid: 90917BC6-1C76-4230-848B-AC19532413EE
 ms.date: 10/08/2020
 keywords: ["Netadapteroffload.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - netadapteroffload

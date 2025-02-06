@@ -6,7 +6,6 @@ ms.assetid: 6241ba6a-2367-3ead-8146-3f3598ed3ab0
 ms.date: 05/09/2018
 keywords: ["Vhf.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: hid
 f1_keywords:
  - vhf

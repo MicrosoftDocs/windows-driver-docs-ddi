@@ -6,7 +6,6 @@ ms.assetid: 4b4f1110-fd98-3433-b533-f460e5c4a0ec
 ms.date: 05/09/2018
 keywords: ["Netadaptercxtypes.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - netadaptercxtypes

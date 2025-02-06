@@ -5,7 +5,6 @@ title: Usbscan.h header
 ms.date: 03/02/2023
 keywords: ["Usbscan.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: image
 f1_keywords:
  - usbscan

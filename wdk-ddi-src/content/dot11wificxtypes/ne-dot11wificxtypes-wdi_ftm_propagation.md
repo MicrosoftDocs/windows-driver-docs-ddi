@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_FTM_PROPAGATION
 tech.root: netvista
 title: WDI_FTM_PROPAGATION (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_FTM_PROPAGATION enum defines the propagation properties of a signal tat are estimated by the LE's logic.
 req.construct-type: enumeration

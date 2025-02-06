@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_P2P_GO_INTERNAL_RESET_POLICY
 tech.root: netvista
 title: WDI_P2P_GO_INTERNAL_RESET_POLICY (dot11wificxtypes.h)
 ms.date: 07/28/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_GO_INTERNAL_RESET_POLICY enum defines the Wi-Fi Direct Group Owner internal reset policies.
 req.construct-type: enumeration

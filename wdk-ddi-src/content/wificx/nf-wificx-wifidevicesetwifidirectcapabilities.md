@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceSetWiFiDirectCapabilities
 tech.root: netvista
 title: WifiDeviceSetWiFiDirectCapabilities (wificx.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceSetWiFiDirectCapabilities function sets the Wi-Fi Direct capabilities for a WiFiCx device.
 req.assembly: 

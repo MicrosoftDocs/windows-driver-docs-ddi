@@ -5,7 +5,6 @@ title: LkmdTel.h header
 ms.date: 12/11/2024
 keywords: ["LkmdTel.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - lkmdtel

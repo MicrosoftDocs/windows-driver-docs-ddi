@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_BAND_INFO
 tech.root: netvista
 title: WIFI_BAND_INFO (wificx.h)
 ms.date: 12/28/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_BAND_INFO structure contains band information. 
 req.construct-type: structure

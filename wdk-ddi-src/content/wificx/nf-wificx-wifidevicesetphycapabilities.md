@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceSetPhyCapabilities
 tech.root: netvista
 title: WifiDeviceSetPhyCapabilities (wificx.h)
 ms.date: 03/06/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceSetPhyCapabilities function sets the PHY capabilities for a WiFiCx device.
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._WDI_MESSAGE_HEADER
 tech.root: netvista
 title: WDI_MESSAGE_HEADER (dot11wificxintf.h)
 ms.date: 10/02/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_MESSAGE_HEADER structure defines the WiFi message header. All WiFi command messages must start with this header.
 req.construct-type: structure

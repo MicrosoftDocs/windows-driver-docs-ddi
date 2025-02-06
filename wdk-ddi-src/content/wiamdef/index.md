@@ -5,7 +5,6 @@ title: wiamdef.h header
 ms.date: 03/02/2023
 keywords: ["Wiamdef.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: image
 f1_keywords:
  - wiamdef

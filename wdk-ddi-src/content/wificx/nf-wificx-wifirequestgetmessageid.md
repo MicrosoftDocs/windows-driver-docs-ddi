@@ -3,7 +3,6 @@ UID: NF:wificx.WifiRequestGetMessageId
 tech.root: netvista
 title: WifiRequestGetMessageId
 ms.date: 08/24/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiRequestGetMessageId function returns the ID of a WiFiCx command message. 
 req.assembly: 

@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_PHY_INFO
 tech.root: netvista
 title: WIFI_PHY_INFO (wificx.h)
 ms.date: 08/27/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_PHY_INFO structure contains PHY information. 
 req.construct-type: structure

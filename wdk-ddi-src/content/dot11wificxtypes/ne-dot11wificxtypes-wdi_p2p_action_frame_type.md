@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_P2P_ACTION_FRAME_TYPE
 tech.root: netvista
 title: WDI_P2P_ACTION_FRAME_TYPE (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_ACTION_FRAME_TYPE enum defines the Wi-Fi Direct action frame types.
 req.construct-type: enumeration

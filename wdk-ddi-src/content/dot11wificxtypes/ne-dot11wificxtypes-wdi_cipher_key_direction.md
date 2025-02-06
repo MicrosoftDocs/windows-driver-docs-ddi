@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_CIPHER_KEY_DIRECTION
 tech.root: netvista
 title: WDI_CIPHER_KEY_DIRECTION (dot11wificxtypes.h)
 ms.date: 07/22/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_CIPHER_KEY_DIRECTION enum defines the traffic directions decrypted by a cipher key.
 req.construct-type: enumeration

@@ -5,7 +5,6 @@ title: Poscxfuncenum.h header
 ms.date: 03/02/2023
 keywords: ["Poscxfuncenum.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: pos
 f1_keywords:
  - poscxfuncenum

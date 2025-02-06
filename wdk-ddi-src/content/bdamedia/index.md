@@ -5,7 +5,6 @@ description: "Learn more about: Bdamedia.h header"
 ms.date: 03/02/2023
 keywords: ["Bdamedia.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: stream
 f1_keywords:
  - bdamedia

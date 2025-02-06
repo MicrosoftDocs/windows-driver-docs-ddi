@@ -6,7 +6,6 @@ ms.assetid: 8753468e-1676-47c6-ba70-36c57057f832
 ms.date: 11/08/2018
 keywords: ["Windows Portable Devices"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # Windows Portable Devices

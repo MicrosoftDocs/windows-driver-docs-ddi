@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_DEVICE_CAPABILITIES
 tech.root: netvista
 title: WIFI_DEVICE_CAPABILITIES (wificx.h)
 ms.date: 03/06/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_DEVICE_CAPABILITIES structure describes a WiFiCx device's capabilities.
 req.construct-type: structure

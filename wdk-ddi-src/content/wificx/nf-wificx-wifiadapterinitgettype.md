@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterInitGetType
 tech.root: netvista
 title: WifiAdapterInitGetType (wificx.h)
 ms.date: 08/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiAdapterInitGetType function gets the adapter type from the NETADAPTER_INIT object.
 req.assembly: 

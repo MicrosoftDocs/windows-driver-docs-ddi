@@ -6,7 +6,6 @@ title: wificxpoweroffload
 ms.date: 04/30/2021
 keywords: ["Wificxpoweroffload.h header"]
 ms.keywords: 
-ms.topic: reference
 f1_keywords:
  - wificxpoweroffload
  - wificxpoweroffload/wificxpoweroffload

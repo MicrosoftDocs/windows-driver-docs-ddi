@@ -3,7 +3,6 @@ UID: NC:wificx.EVT_WIFI_DEVICE_CREATE_ADAPTER
 tech.root: netvista
 title: EVT_WIFI_DEVICE_CREATE_ADAPTER (wificx.h)
 ms.date: 08/23/2021
-ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers implement EvtWifiDeviceCreateAdapter to create a NETADAPTER object.
 req.assembly: 

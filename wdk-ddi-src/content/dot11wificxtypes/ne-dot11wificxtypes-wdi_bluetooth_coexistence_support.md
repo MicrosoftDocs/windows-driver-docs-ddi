@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_BLUETOOTH_COEXISTENCE_SUPPORT
 tech.root: netvista
 title: WDI_BLUETOOTH_COEXISTENCE_SUPPORT (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_BLUETOOTH_COEXISTENCE_SUPPORT enum defines Bluetooth coexistence support values.
 req.construct-type: enumeration

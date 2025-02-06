@@ -6,7 +6,6 @@ ms.assetid: 05AA5A28-0140-4E61-8999-30134D153C5B
 ms.date: 06/26/2018
 keywords: ["Mbbcxtypes.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: netvista
 ms.custom: RS5
 f1_keywords:

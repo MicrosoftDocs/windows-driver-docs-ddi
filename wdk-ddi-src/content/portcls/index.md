@@ -6,7 +6,6 @@ ms.assetid: 6e1a2bb6-6b07-3266-83bb-aa08030d97d6
 ms.date: 05/09/2018
 keywords: ["Portcls.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: audio
 f1_keywords:
  - portcls
