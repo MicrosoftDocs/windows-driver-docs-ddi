@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDirectDeviceInitialize
 tech.root: netvista
 title: WifiDirectDeviceInitialize (wificx.h)
 ms.date: 08/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDirectDeviceInitialize function initializes a newly created WIFIDIRECTDEVICE object.
 req.assembly: 

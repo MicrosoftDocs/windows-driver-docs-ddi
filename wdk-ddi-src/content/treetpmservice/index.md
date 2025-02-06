@@ -5,7 +5,6 @@ title: Treetpmservice.h header
 ms.date: 03/02/2023
 keywords: ["Treetpmservice.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: treedrv
 ms.custom: RS5
 f1_keywords:

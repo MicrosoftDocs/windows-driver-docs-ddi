@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_CHANNEL_MAPPING_ENTRY
 tech.root: netvista
 title: WDI_CHANNEL_MAPPING_ENTRY (dot11wificxtypes.h)
 ms.date: 07/27/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_CHANNEL_MAPPING_ENTRY struct defines a channel mapping entry.
 req.construct-type: structure

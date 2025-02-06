@@ -6,7 +6,6 @@ ms.assetid: e172752b-c698-3669-8615-778188cafdb6
 ms.date: 05/09/2018
 keywords: ["Wdtfinterfaces.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: dtf
 f1_keywords:
  - wdtfinterfaces

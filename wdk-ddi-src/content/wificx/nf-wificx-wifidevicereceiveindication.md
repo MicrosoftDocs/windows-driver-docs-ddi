@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceReceiveIndication
 tech.root: netvista
 title: WifiDeviceReceiveIndication (wificx.h)
 ms.date: 05/10/2022
-ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers call WifiDeviceReceiveIndication to send a status indication to the WiFiCx framework. 
 req.assembly: 

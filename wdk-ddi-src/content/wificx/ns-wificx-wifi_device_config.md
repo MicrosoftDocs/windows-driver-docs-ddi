@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_DEVICE_CONFIG
 tech.root: netvista
 title: WIFI_DEVICE_CONFIG (wificx.h)
 ms.date: 08/18/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_DEVICE_CONFIG structure contains pointers to a client driver's WiFiCx-specific callback functions.
 req.construct-type: structure

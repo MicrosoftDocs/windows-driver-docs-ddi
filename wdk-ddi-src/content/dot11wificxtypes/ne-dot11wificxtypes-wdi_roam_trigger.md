@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_ROAM_TRIGGER
 tech.root: netvista
 title: WDI_ROAM_TRIGGER (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_ROAM_TRIGGER enum defines roam triggers.
 req.construct-type: enumeration

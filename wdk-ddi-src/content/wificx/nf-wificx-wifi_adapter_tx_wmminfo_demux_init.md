@@ -3,7 +3,6 @@ UID: NF:wificx.WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT
 tech.root: netvista
 title: WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT (wificx.h)
 ms.date: 08/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT function initializes a WIFI_ADAPTER_TX_DEMUX structure when the Tx DEMUX type is WMMINFO.
 req.assembly: 

@@ -6,7 +6,6 @@ ms.assetid: 02841f37-13ac-3add-ad38-3b3bca3407aa
 ms.date: 05/09/2018
 keywords: ["Ndkpi.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - ndkpi

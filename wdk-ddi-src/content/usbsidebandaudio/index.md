@@ -6,7 +6,6 @@ ms.assetid: a245e760-fd7d-3efa-9b5f-09303bd40240
 ms.date: 06/30/2023
 keywords: ["Usbsidebandaudio.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: audio
 f1_keywords:
  - usbsidebandaudio

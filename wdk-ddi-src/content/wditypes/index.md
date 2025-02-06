@@ -7,7 +7,6 @@ ms.date: 05/09/2018
 tech.root: netvista
 keywords: ["Wditypes.h header"]
 ms.keywords: 
-ms.topic: reference
 f1_keywords:
  - wditypes
  - wditypes/wditypes

@@ -5,7 +5,6 @@ title: ACPI overview
 ms.date: 03/02/2023
 keywords: ["ACPI"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # ACPI

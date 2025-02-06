@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterRemovePeer
 tech.root: netvista
 title: WifiAdapterRemovePeer (wificx.h)
 ms.date: 09/07/2021
-ms.topic: language-reference
 targetos: Windows
 description: Client drivers call WifiAdapterRemovePeer to tell the WiFiCx framework that a peer has been disconnected.
 req.assembly: 

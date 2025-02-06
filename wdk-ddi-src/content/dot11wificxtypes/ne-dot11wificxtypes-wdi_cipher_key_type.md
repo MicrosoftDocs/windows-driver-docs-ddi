@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_CIPHER_KEY_TYPE
 tech.root: netvista
 title: WDI_CIPHER_KEY_TYPE
 ms.date: 03/07/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_CIPHER_KEY_TYPE enum defines the cipher key types.
 req.construct-type: enumeration

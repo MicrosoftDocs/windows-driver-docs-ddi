@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_TYPE_PMK_NAME
 tech.root: netvista
 title: WDI_TYPE_PMK_NAME (dot11wificxtypes.h)
 ms.date: 06/18/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_TYPE_PMK_NAME struct defines the PMKR0Name or PMKR1Name (802.11r).
 req.construct-type: structure

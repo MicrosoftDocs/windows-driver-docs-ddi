@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterAddPeer
 tech.root: netvista
 title: WifiAdapterAddPeer (wificx.h)
 ms.date: 09/07/2021
-ms.topic: language-reference
 targetos: Windows
 description: Client drivers call WifiAdapterAddPeer to tell the WiFiCx framework that a peer has connected with the given address.
 req.assembly: 

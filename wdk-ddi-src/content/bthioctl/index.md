@@ -6,7 +6,6 @@ ms.assetid: dbb85592-b165-3196-b65b-0910ea02316f
 ms.date: 05/09/2018
 keywords: ["Bthioctl.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: bltooth
 f1_keywords:
  - bthioctl

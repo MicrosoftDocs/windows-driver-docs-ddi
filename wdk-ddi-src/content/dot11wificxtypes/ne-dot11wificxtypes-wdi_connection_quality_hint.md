@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_CONNECTION_QUALITY_HINT
 tech.root: netvista
 title: WDI_CONNECTION_QUALITY_HINT (dot11wificxtypes.h)
 ms.date: 07/23/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_CONNECTION_QUALITY_HINT enum defines the Wi-Fi connection quality hints.
 req.construct-type: enumeration
