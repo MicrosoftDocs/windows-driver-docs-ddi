@@ -47,7 +47,7 @@ The *InterruptService* routine (ISR) quickly services a device interrupt and sch
 
 ### -param Interrupt [in]
 
-Caller-supplied pointer to the [KINTERRUPT](/windows-hardware/drivers/kernel/eprocess) structure for the interrupt.
+Caller-supplied pointer to the [KINTERRUPT](/windows-hardware/drivers/kernel/eprocess#kinterrupt) structure for the interrupt.
 
 ### -param ServiceContext [in]
 
@@ -61,7 +61,7 @@ If the routine determines that the interrupt did not come from one of the driver
 
 To register an ISR for a specific interrupt vector and processor affinity, a driver must call [IoConnectInterrupt](./nf-wdm-ioconnectinterrupt.md) or [IoConnectInterruptEx](./nf-wdm-ioconnectinterruptex.md).
 
-A driver's *InterruptService* routine (ISR) executes in an interrupt context, at some system-assigned [DIRQL](/windows-hardware/drivers/), as specified by the *SynchronizeIrql* parameter to **IoConnectInterrupt**. (Other devices, with higher DIRQL values, can interrupt the ISR.)
+A driver's *InterruptService* routine (ISR) executes in an interrupt context, at some system-assigned DIRQL, as specified by the *SynchronizeIrql* parameter to **IoConnectInterrupt**. (Other devices, with higher DIRQL values, can interrupt the ISR.)
 
 Before the system calls an ISR, it acquires the interrupt's spin lock (the *SpinLock* parameter to **IoConnectInterrupt**), so the ISR cannot simultaneously execute on another processor. After the ISR returns, the system releases the spin lock.
 
