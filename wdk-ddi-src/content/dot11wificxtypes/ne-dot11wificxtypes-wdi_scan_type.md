@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_SCAN_TYPE
 tech.root: netvista
 title: WDI_SCAN_TYPE (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_SCAN_TYPE enum defines scan types.
 req.construct-type: enumeration

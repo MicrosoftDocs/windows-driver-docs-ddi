@@ -6,7 +6,6 @@ title: wificx overview
 ms.date: 04/30/2021
 keywords: ["Wificx.h header"]
 ms.keywords: 
-ms.topic: reference
 f1_keywords:
  - wificx
  - wificx/wificx

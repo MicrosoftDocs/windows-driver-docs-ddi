@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_WIFIDIRECT_CAPABILITIES
 tech.root: netvista
 title: WIFI_WIFIDIRECT_CAPABILITIES (wificx.h)
 ms.date: 02/12/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_WIFIDIRECT_CAPABILITIES structure describes the Wi-Fi Direct capabilities for a WiFiCx device.
 req.construct-type: structure

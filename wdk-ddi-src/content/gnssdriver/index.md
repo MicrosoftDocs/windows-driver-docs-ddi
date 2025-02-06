@@ -5,7 +5,6 @@ title: Gnssdriver.h header
 ms.date: 03/02/2023
 keywords: ["Gnssdriver.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: gnss
 f1_keywords:
  - gnssdriver

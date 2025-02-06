@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_DATA_RATE_FLAGS
 tech.root: netvista
 title: WDI_DATA_RATE_FLAGS (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_DATA_RATE_FLAGS enum defines the data rate flags.
 req.construct-type: enumeration

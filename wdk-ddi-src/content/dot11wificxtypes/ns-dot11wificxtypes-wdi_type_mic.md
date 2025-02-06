@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_TYPE_MIC
 tech.root: netvista
 title: WDI_TYPE_MIC (dot11wificxtypes.h)
 ms.date: 10/02/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_TYPE_MIC struct defines the MIC (802.11r).
 req.construct-type: structure

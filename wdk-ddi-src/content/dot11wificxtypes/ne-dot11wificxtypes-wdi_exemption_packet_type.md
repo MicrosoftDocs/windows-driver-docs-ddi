@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_EXEMPTION_PACKET_TYPE
 tech.root: netvista
 title: WDI_EXEMPTION_PACKET_TYPE (dot11wificxtypes.h)
 ms.date: 07/22/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_EXEMPTION_PACKET_TYPE enum defines the types of packet exemptions.
 req.construct-type: enumeration

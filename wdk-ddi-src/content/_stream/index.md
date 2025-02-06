@@ -5,7 +5,6 @@ title: Streaming media devices
 ms.date: 03/02/2023
 keywords: ["Streaming media devices"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # Streaming media devices

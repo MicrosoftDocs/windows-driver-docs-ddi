@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_AUTH_ALGORITHM
 tech.root: netvista
 title: WDI_AUTH_ALGORITHM (dot11wificxtypes.h)
 ms.date: 03/07/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_AUTH_ALGORITHM enumeration defines authentication algorithm values.
 req.construct-type: enumeration

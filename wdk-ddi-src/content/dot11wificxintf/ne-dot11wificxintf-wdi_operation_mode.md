@@ -3,7 +3,6 @@ UID: NE:dot11wificxintf._WDI_OPERATION_MODE
 tech.root: netvista
 title: WDI_OPERATION_MODE (dot11wificxintf.h)
 ms.date: 07/09/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_OPERATION_MODE enum defines operation modes.
 req.construct-type: enumeration

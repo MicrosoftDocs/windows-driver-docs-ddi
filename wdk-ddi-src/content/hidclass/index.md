@@ -6,7 +6,6 @@ ms.assetid: de170db5-5638-39ba-ba11-68718e93aef6
 ms.date: 05/09/2018
 keywords: ["Hidclass.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: hid
 f1_keywords:
  - hidclass

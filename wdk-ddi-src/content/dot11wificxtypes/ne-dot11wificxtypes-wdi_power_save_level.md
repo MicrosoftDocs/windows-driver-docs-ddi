@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_POWER_SAVE_LEVEL
 tech.root: netvista
 title: WDI_POWER_SAVE_LEVEL (dot11wificxtypes.h)
 ms.date: 07/23/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_POWER_SAVE_LEVEL enum defines the power save levels.
 req.construct-type: enumeration

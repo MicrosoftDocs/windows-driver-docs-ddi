@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_PHY_TYPE
 tech.root: netvista
 title: WDI_PHY_TYPE (dot11wificxtypes.h)
 ms.date: 03/23/2022
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_PHY_TYPE enumeration defines PHY types.
 req.construct-type: enumeration

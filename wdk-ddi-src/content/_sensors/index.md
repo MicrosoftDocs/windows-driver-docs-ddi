@@ -6,7 +6,6 @@ ms.assetid: 8a7a095d-53d4-30a8-a1d2-4ef29c8a344d
 ms.date: 08/01/2018
 keywords: ["Sensors"]
 ms.keywords: sensors driver development
-ms.topic: reference
 ---
 
 # Sensors

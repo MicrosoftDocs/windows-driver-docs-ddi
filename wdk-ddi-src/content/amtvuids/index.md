@@ -5,7 +5,6 @@ title: Amtvuids.h header
 ms.date: 03/02/2023
 keywords: ["Amtvuids.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: stream
 f1_keywords:
  - amtvuids

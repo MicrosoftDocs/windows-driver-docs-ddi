@@ -3,7 +3,6 @@ UID: NF:wificx.WifiRequestGetInOutBuffer
 tech.root: netvista
 title: WifiRequestGetInOutBuffer (wificx.h)
 ms.date: 08/24/2021
-ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers call WifiRequestGetInOutBuffer to get the input/output buffer for a command message.
 req.assembly: 

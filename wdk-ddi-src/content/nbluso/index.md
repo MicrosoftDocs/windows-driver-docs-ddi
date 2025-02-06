@@ -5,7 +5,6 @@ title: Nbluso.h header
 ms.date: 11/30/2020
 keywords: ["Nbluso.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: netvista
 f1_keywords:
  - nbluso

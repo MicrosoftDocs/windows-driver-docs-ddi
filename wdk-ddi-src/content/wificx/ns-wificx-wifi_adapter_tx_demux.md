@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_ADAPTER_TX_DEMUX
 tech.root: netvista
 title: WIFI_ADAPTER_TX_DEMUX (wificx.h)
 ms.date: 08/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_ADAPTER_TX_DEMUX structure specifies Tx DEMUX information. 
 req.construct-type: structure

@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceInitConfig
 tech.root: netvista
 title: WifiDeviceInitConfig (wificx.h)
 ms.date: 08/12/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceInitConfig function initializes WiFiCx device initialization operations.
 req.assembly: 

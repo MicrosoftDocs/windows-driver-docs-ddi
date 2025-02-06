@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterGetPortId
 tech.root: netvista
 title: WifiAdapterGetPortId (wificx.h)
 ms.date: 08/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiAdapterGetPortId function gets the Wi-Fi adapter port ID.
 req.assembly: 

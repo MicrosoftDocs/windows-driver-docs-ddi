@@ -6,7 +6,6 @@ ms.assetid: bf22e8cc-5ff8-3f48-8afe-2cba51a6d8a9
 ms.date: 05/09/2018
 keywords: ["Keyworddetectoroemadapter.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: audio
 f1_keywords:
  - keyworddetectoroemadapter
