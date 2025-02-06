@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterInitAddTxDemux
 tech.root: netvista
 title: WifiAdapterInitAddTxDemux (wificx.h)
 ms.date: 08/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiAdapterInitAddTxDemux function adds DEMUX properties for multiple Tx queue support.
 req.assembly: 

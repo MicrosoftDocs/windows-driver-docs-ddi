@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_P2P_LISTEN_STATE
 tech.root: netvista
 title: WDI_P2P_LISTEN_STATE (dot11wificxtypes.h)
 ms.date: 03/23/2022
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_LISTEN_STATE enum defines the Wi-Fi Direct listen states.
 req.construct-type: enumeration

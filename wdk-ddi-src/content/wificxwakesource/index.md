@@ -6,7 +6,6 @@ title: wificxwakesource
 ms.date: 04/30/2021
 keywords: ["Wificxwakesource.h header"]
 ms.keywords: 
-ms.topic: reference
 f1_keywords:
  - wificxwakesource
  - wificxwakesource/wificxwakesource

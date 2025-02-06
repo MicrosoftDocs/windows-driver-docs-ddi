@@ -3,7 +3,6 @@ UID: NF:wificx.WifiAdapterInitialize
 tech.root: netvista
 title: WifiAdapterInitialize (wificx.h)
 ms.date: 08/23/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiAdapterInitialize function initializes a newly created NETADAPTER object for WiFiCx.
 req.assembly: 

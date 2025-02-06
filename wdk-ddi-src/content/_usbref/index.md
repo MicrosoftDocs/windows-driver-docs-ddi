@@ -6,7 +6,6 @@ ms.assetid: 3ef75da3-dd0a-3f40-b741-d6c381f1ed78
 ms.date: 06/26/2024
 keywords: ["Universal Serial Bus (USB)"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # Universal Serial Bus (USB)

@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_DS_INFO
 tech.root: netvista
 title: WDI_DS_INFO (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_DS_INFO enum defines values that specify whether the port is connected to the same DS that it was previously associated to.
 req.construct-type: enumeration

@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_BSS_SELECTION_FLAGS
 tech.root: netvista
 title: WDI_BSS_SELECTION_FLAGS (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_BSS_SELECTION_FLAGS enum defines flags for BSS selection.
 req.construct-type: enumeration

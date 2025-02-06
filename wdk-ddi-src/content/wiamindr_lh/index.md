@@ -5,7 +5,6 @@ title: Wiamindr_Lh.h header
 ms.date: 03/02/2023
 keywords: ["Wiamindr_Lh.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: image
 f1_keywords:
  - wiamindr_lh

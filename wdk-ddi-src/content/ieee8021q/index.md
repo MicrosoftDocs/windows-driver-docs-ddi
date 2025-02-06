@@ -6,7 +6,6 @@ description: "Learn more about: ieee8021q.h header"
 ms.date: 04/15/2021
 keywords: ["ieee8021q.h header"]
 ms.keywords: 
-ms.topic: reference
 f1_keywords:
  - ieee8021q
  - ieee8021q/ieee8021q

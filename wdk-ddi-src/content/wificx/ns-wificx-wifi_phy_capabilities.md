@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_PHY_CAPABILITIES
 tech.root: netvista
 title: WIFI_PHY_CAPABILITIES (wificx.h)
 ms.date: 03/06/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_PHY_CAPABILITIES structure describes the PHY capabilities for a WiFiCx device.
 req.construct-type: structure

@@ -6,7 +6,6 @@ ms.assetid: ef670235-d405-36a8-9c8a-e30620411b6d
 ms.date: 12/20/2023
 keywords: ["Taef"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # TAEF

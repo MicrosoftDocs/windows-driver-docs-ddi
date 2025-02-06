@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_CIPHER_ALGORITHM
 tech.root: netvista
 title: WDI_CIPHER_ALGORITHM (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_CIPHER_ALGORITHM enum defines the cipher algorithm values.
 req.construct-type: enumeration

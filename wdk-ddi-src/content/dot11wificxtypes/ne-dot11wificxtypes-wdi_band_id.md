@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_BAND_ID
 tech.root: netvista
 title: WDI_BAND_ID (dot11wificxtypes.h)
 ms.date: 06/22/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_BAND_ID enumeration is a UINT32 value that defines a band ID.
 req.construct-type: enumeration

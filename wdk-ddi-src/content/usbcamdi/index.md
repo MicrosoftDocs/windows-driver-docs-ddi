@@ -5,7 +5,6 @@ title: Usbcamdi.h header
 ms.date: 03/02/2023
 keywords: ["Usbcamdi.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: stream
 f1_keywords:
  - usbcamdi

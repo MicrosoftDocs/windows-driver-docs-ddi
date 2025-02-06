@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceSetStationCapabilities
 tech.root: netvista
 title: WifiDeviceSetStationCapabilities (wificx.h)
 ms.date: 03/06/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceSetStationCapabilities function sets the station capabilities for a WiFiCx device.
 req.assembly: 

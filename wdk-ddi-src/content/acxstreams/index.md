@@ -7,7 +7,6 @@ keywords: ["acxstreams.h header"]
 ms.keywords: 
 ms.service: windows-hardware-driver-quality
 ms.subservice: wdk-api-reference
-ms.topic: reference
 tech.root: audio
 f1_keywords:
  - acxstreams

@@ -3,7 +3,6 @@ UID: NF:wificx.WifiRequestComplete
 tech.root: netvista
 title: WifiRequestComplete (wificx.h)
 ms.date: 08/25/2021
-ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers call WifiRequestComplete to complete a request to send a command message to the device.
 req.assembly: 

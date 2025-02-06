@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._WDI_MAC_ADDRESS
 tech.root: netvista
 title: WDI_MAC_ADDRESS (dot11wificxintf.h)
 ms.date: 06/17/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_MAC_ADDRESS struct defines an IEEE media access control (MAC) address.
 req.construct-type: structure

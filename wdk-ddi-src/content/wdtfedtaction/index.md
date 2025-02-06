@@ -6,7 +6,6 @@ ms.assetid: 1a37109c-3189-3716-8828-d932cb790efb
 ms.date: 05/09/2018
 keywords: ["Wdtfedtaction.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: dtf
 f1_keywords:
  - wdtfedtaction

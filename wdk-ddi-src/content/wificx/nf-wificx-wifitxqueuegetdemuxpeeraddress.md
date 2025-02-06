@@ -3,7 +3,6 @@ UID: NF:wificx.WifiTxQueueGetDemuxPeerAddress
 tech.root: netvista
 title: WifiTxQueueGetDemuxPeerAddress (wificx.h)
 ms.date: 09/08/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiTxQueueGetDemuxPeerAddress function gets the peer address that the WiFiCx framework will use for this queue.
 req.assembly: 

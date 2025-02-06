@@ -3,7 +3,6 @@ UID: NC:wificx.EVT_WIFI_DEVICE_SEND_COMMAND
 tech.root: netvista
 title: EVT_WIFI_DEVICE_SEND_COMMAND
 ms.date: 08/23/2021
-ms.topic: language-reference
 targetos: Windows
 description: A WiFiCx driver's EvtWifiDeviceSendCommand callback function retrieves and processes the command message sent by the WiFiCx framework. 
 req.assembly: 

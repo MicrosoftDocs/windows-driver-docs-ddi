@@ -3,7 +3,6 @@ UID: NC:wificx.EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE
 tech.root: netvista
 title: EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE (wificx.h)
 ms.date: 08/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: WiFiCx client drivers implement EvtWifiDeviceCreateWifiDirectDevice to create a WIFIDIRECTDEVICE object.
 req.assembly: 
