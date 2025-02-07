@@ -64,4 +64,4 @@ A convenient way to access the flags.
 
 [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
 
-[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-_dxgkddiqueryadapterinfo.md)
+[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)

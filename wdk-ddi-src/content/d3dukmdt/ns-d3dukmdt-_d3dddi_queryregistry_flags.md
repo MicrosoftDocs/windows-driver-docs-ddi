@@ -38,17 +38,17 @@ api_name:
 
 ## -description
 
-These flags control how strings are being retrieved through [**pfnQueryAdapterInfoCb2**](/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3ddi_queryadapterinfocb2) for **D3DDDI_QUERYADAPTERTYPE_QUERYREGISTRY**.
+These flags control how strings are being retrieved through [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md) for **D3DDDI_QUERYADAPTERTYPE_QUERYREGISTRY**.
 
 ## -struct-fields
 
 ### -field TranslatePath
 
-**TranslatePath** is meant for use by the caller from a virtual machine. This flag is ignored if a call is made from a non-virtualized environment. For more information, see [GPU para-virtualization](//windows-hardware/drivers/display/gpu-paravirtualization).
+**TranslatePath** is meant for use by the caller from a virtual machine. This flag is ignored if a call is made from a non-virtualized environment. For more information, see [GPU para-virtualization](/windows-hardware/drivers/display/gpu-paravirtualization).
 
-When a particular registry key stores a path to another driver file, the caller of [**pfnQueryAdapterInfoCb2**](/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3ddi_queryadapterinfocb2) might have that path translated into the path that an isolated processes can access. Setting **TranslatePath** to 1 indicates the registry key is a string that should be translated, when appropriate.
+When a particular registry key stores a path to another driver file, the caller of [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md) might have that path translated into the path that an isolated processes can access. Setting **TranslatePath** to 1 indicates the registry key is a string that should be translated, when appropriate.
 
-When this flag is set, [**D3DDDI_QUERYREGISTRY_INFO::ValueType**](../d3dumddi/ns-d3dumddi-_d3dddi_queryregistry_info.md) must be `REG_SZ`, `REG_MULTI_SZ`, or `REG_EXPAND_SZ` and the value string is processed to translate the path to the virtual machine space. The translation only happens when the **OutputString** is an absolute path to a file in the DriverStore folder. The path is translated to `<SystemDrive>:\windows\system32\HostDriverStore\...`.
+When this flag is set, [**D3DDDI_QUERYREGISTRY_INFO::ValueType**](ns-d3dukmdt-_d3dddi_queryregistry_info.md) must be `REG_SZ`, `REG_MULTI_SZ`, or `REG_EXPAND_SZ` and the value string is processed to translate the path to the virtual machine space. The translation only happens when the **OutputString** is an absolute path to a file in the DriverStore folder. The path is translated to `<SystemDrive>:\windows\system32\HostDriverStore\...`.
 
 Set the flag only when **D3DDDI_QUERYREGISTRY_INFO::QueryType** is **D3DDDI_QUERYREGISTRY_SERVICEKEY** or **D3DDDI_QUERYREGISTRY_ADAPTERKEY**.
 

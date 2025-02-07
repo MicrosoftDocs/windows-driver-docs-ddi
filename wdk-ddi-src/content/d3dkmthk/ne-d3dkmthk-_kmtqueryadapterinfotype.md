@@ -183,7 +183,7 @@ Supported starting with Windows 8.1.
 
 ### -field KMTQAITYPE_PHYSICALADAPTERDEVICEIDS
 
-**pPrivateDriverData** points to a [**D3DKMT_QUERY_DEVICE_IDS**](ns-d3dkmthk-_d3dkmt_physical_adapter_device_ids.md) structure that specifies the device ID(s) of the physical adapters. Supported starting with Windows 10 (WDDM 2.0).
+**pPrivateDriverData** points to a [**D3DKMT_QUERY_DEVICE_IDS**](ns-d3dkmthk-_d3dkmt_query_device_ids.md) structure that specifies the device ID(s) of the physical adapters. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_DRIVERCAPS_EXT
 

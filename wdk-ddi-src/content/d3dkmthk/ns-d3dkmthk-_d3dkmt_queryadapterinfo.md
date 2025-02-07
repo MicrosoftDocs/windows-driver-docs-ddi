@@ -2,7 +2,7 @@
 UID: NS:d3dkmthk._D3DKMT_QUERYADAPTERINFO
 title: D3DKMT_QUERYADAPTERINFO (d3dkmthk.h)
 description: Learn more about the D3DKMT_QUERYADAPTERINFO structure.
-ms.date: 02/06/202502/03/2025
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows

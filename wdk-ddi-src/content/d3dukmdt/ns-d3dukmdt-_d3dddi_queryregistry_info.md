@@ -82,13 +82,13 @@ See [Registry Value Types](/windows/win32/sysinfo/registry-value-types) for more
 
 ### -field OutputValueSize
 
-[out] Size in bytes of the written output if [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3ddi_queryadapterinfocb2.md) succeeds (**Status** is D3DDDI_QUERYREGISTRY_STATUS_SUCCESS). When **Status** is D3DDDI_QUERYREGISTRY_STATUS_BUFFER_OVERFLOW, **OutputValueSize** is the number of bytes required to hold the output value.
+[out] Size in bytes of the written output if [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md) succeeds (**Status** is D3DDDI_QUERYREGISTRY_STATUS_SUCCESS). When **Status** is D3DDDI_QUERYREGISTRY_STATUS_BUFFER_OVERFLOW, **OutputValueSize** is the number of bytes required to hold the output value.
 
 ### -field Status
 
 [out] A [**D3DDDI_QUERYREGISTRY_STATUS**](ne-d3dukmdt-_d3dddi_queryregistry_status.md) value that indicates the status of the query.
 
-When a user-mode display driver calls the runtime's [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3ddi_queryadapterinfocb2.md) function, a call to the [**DxgkDdiQueryAdapterInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is initiated.
+When a user-mode display driver calls the runtime's [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md) function, a call to the [**DxgkDdiQueryAdapterInfo**](../d3dkmddi/nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is initiated.
 
 The status of the query is returned separately from the return value in order to indicate that varying amounts of data have been retrieved. The following three return states are the most important to understand:
 
@@ -131,4 +131,4 @@ Instead of using raw OS methods, user-mode drivers and other components must ubi
 
 [**D3DKMT_QUERYADAPTERINFO**](../d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
 
-[**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3ddi_queryadapterinfocb2.md)
+[**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md)

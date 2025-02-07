@@ -68,4 +68,4 @@ When [**CREATEPROCESSFLAGS::VirtualMachineWorkerProcess**](ns-d3dkmddi-_dxgk_cre
 
 ## -see-also
 
-[**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess)
+[**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess.md)

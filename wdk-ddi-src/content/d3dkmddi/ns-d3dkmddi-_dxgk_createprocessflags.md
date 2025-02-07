@@ -78,6 +78,6 @@ The consolidated value of the bitfield members of the structure.
 
 ## -see-also
 
-[**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess)
+[**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess.md)
 
 [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)

@@ -51,7 +51,7 @@ The **D3DKMT_QUERY_GPUMMU_CAPS** structure describes the capabilities of the GPU
 
 ### -field Caps
 
-[out] A [**D3DKMT_GPUMMU_CAPS**](ns-d3dkmthk-_d3dkmt_gpummucaps.md) structure that describes the capabilities of the GPU MMU.
+[out] A [**D3DKMT_GPUMMU_CAPS**](ns-d3dkmthk-_d3dkmt_gpummu_caps.md) structure that describes the capabilities of the GPU MMU.
 
 ## -see-also
 
