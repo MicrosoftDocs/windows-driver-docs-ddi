@@ -1,15 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MPO3DDI_SUPPORT
-title: _D3DKMT_MPO3DDI_SUPPORT (d3dkmthk.h)
-description: A structure that holds the support status.
-old-location: display\d3dkmt_mpo3ddi_support.htm
-ms.date: 05/10/2018
-keywords: ["D3DKMT_MPO3DDI_SUPPORT structure"]
-ms.keywords: D3DKMT_MPO3DDI_SUPPORT, D3DKMT_MPO3DDI_SUPPORT structure [Display Devices], _D3DKMT_MPO3DDI_SUPPORT, d3dkmthk/D3DKMT_MPO3DDI_SUPPORT, display.d3dkmt_mpo3ddi_support
+title: D3DKMT_MPO3DDI_SUPPORT (d3dkmthk.h)
+description: Learn more about the D3DKMT_MPO3DDI_SUPPORT structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,16 +40,18 @@ api_name:
  - D3DKMT_MPO3DDI_SUPPORT
 ---
 
-# _D3DKMT_MPO3DDI_SUPPORT structure
-
+# D3DKMT_MPO3DDI_SUPPORT structure
 
 ## -description
 
-A structure that holds the support status.
+The **D3DKMT_MPO3DDI_SUPPORT** structure holds the support status for multi-plane overlay (MPO) version 3 Direct3D features.
 
 ## -struct-fields
 
 ### -field Supported
 
-Indicates whether support exists.
+Boolean value that indicates whether the MPO version 3 Direct3D features are supported.
 
+## -see-also
+
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

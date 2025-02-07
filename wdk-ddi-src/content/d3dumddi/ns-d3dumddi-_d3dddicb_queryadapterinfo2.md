@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dumddi._D3DDDICB_QUERYADAPTERINFO2
-title: _D3DDDICB_QUERYADAPTERINFO2 (d3dumddi.h)
-description: Contains information that describes the graphics adapter.
-ms.date: 10/19/2018
-keywords: ["D3DDDICB_QUERYADAPTERINFO2 structure"]
-ms.keywords: _D3DDDICB_QUERYADAPTERINFO2, D3DDDICB_QUERYADAPTERINFO2,
+title: D3DDDICB_QUERYADAPTERINFO2 (d3dumddi.h)
+description: Learn more about the D3DDDICB_QUERYADAPTERINFO2 structure.
+ms.date: 02/06/2025
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -36,24 +34,28 @@ api_name:
  - D3DDDICB_QUERYADAPTERINFO2
 ---
 
-# _D3DDDICB_QUERYADAPTERINFO2 structure
-
+# D3DDDICB_QUERYADAPTERINFO2 structure
 
 ## -description
 
-Contains information that describes the graphics adapter.
+The **D3DDDICB_QUERYADAPTERINFO2** structure describes the graphics adapter.
 
 ## -struct-fields
 
-### -field QueryType
+### -field QueryType [in]
 
-The type of query.
+A [**D3DDDI_QUERYADAPTERTYPE**](ne-d3dumddi-_d3dddi_queryadaptertype.md) enumeration value that specifies the type of query.
 
 ### -field pPrivateDriverData [out]
 
-A pointer to a buffer that the display miniport driver can fill with information about the graphics adapter.
+A pointer to a buffer that receives the requested information. The format of the information is defined by **QueryType**.
 
 ### -field PrivateDriverDataSize [in/out]
 
-The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
+The size, in bytes, of the buffer that **pPrivateDriverData** points to.
 
+## -see-also
+
+[**D3DDDI_QUERYADAPTERTYPE**](ne-d3dumddi-_d3dddi_queryadaptertype.md)
+
+[**pfnQueryAdapterInfoCb2**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md)

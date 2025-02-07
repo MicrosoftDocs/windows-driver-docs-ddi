@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_INDEPENDENTFLIP_SUPPORT
-title: _D3DKMT_INDEPENDENTFLIP_SUPPORT (d3dkmthk.h)
-description: Used to indicate whether independent flip is supported.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_INDEPENDENTFLIP_SUPPORT structure"]
-ms.keywords: _D3DKMT_INDEPENDENTFLIP_SUPPORT, D3DKMT_INDEPENDENTFLIP_SUPPORT,
+title: D3DKMT_INDEPENDENTFLIP_SUPPORT (d3dkmthk.h)
+description: Learn more about the D3DKMT_INDEPENDENTFLIP_SUPPORT structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,8 +37,7 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_INDEPENDENTFLIP_SUPPORT structure
-
+# D3DKMT_INDEPENDENTFLIP_SUPPORT structure
 
 ## -description
 
@@ -50,10 +47,10 @@ Used to indicate whether independent flip is supported.
 
 ### -field Supported
 
- 
-Independent flip is supported.
+Boolean that indicates whether independent flip is supported.
 
 ## -remarks
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

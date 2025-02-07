@@ -1,15 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERYADAPTERINFO
-title: _D3DKMT_QUERYADAPTERINFO (d3dkmthk.h)
-description: The D3DKMT_QUERYADAPTERINFO structure contains information that describes the graphics adapter.
-old-location: display\d3dkmt_queryadapterinfo.htm
-ms.date: 11/21/2018
-keywords: ["D3DKMT_QUERYADAPTERINFO structure"]
-ms.keywords: D3DKMT_QUERYADAPTERINFO, D3DKMT_QUERYADAPTERINFO structure [Display Devices], OpenGL_Structs_10a338e9-c5a8-44e0-9ad7-87d5a3ab742e.xml, _D3DKMT_QUERYADAPTERINFO, d3dkmthk/D3DKMT_QUERYADAPTERINFO, display.d3dkmt_queryadapterinfo
+title: D3DKMT_QUERYADAPTERINFO (d3dkmthk.h)
+description: Learn more about the D3DKMT_QUERYADAPTERINFO structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
-req.target-min-winverclnt: Supported  starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,42 +40,34 @@ api_name:
  - D3DKMT_QUERYADAPTERINFO
 ---
 
-# _D3DKMT_QUERYADAPTERINFO structure
-
+# D3DKMT_QUERYADAPTERINFO structure
 
 ## -description
 
-The D3DKMT_QUERYADAPTERINFO structure retrieves various information that describes the adapter.
+The **D3DKMT_QUERYADAPTERINFO** structure retrieves various information that describes the adapter.
 
 ## -struct-fields
 
 ### -field hAdapter
 
-*D3DKMT\_HANDLE* *hAdapter*
-
-A handle to the adapter that information is retrieved about.
+[in] A handle to the adapter that information is retrieved about.
 
 ### -field Type
 
-*[KMTQUERYADAPTERINFOTYPE](ne-d3dkmthk-_kmtqueryadapterinfotype.md) Type*
-
-Indicates the type of information to retrieve.
+[in] A [**KMTQUERYADAPTERINFOTYPE**](ne-d3dkmthk-_kmtqueryadapterinfotype.md) enumeration value that indicates the type of information to retrieve.
 
 ### -field pPrivateDriverData
 
-*\_Inout\_bytecount\_(PrivateDriverDataSize)* *void * pPrivateDriverData*
-
-A pointer to a memory region, which is interpreted based on the value of **Type**.
+[in/out] Pointer to a memory region that is interpreted based on the value of **Type**.
 
 ### -field PrivateDriverDataSize
 
-*UINT PrivateDriverDataSize*
-
-The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to.
+[in/out] The size, in bytes, of the buffer that **pPrivateDriverData** points to.
 
 ## -see-also
 
-- [KMTQUERYADAPTERINFOTYPE](ne-d3dkmthk-_kmtqueryadapterinfotype.md)
-- [D3DKMTQueryAdapterInfo](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)
-- [PFND3DKMT_QUERYADAPTERINFO](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)
+[**KMTQUERYADAPTERINFOTYPE**](ne-d3dkmthk-_kmtqueryadapterinfotype.md)
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)
+
+[**PFND3DKMT_QUERYADAPTERINFO**](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)

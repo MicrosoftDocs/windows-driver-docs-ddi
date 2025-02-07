@@ -1,15 +1,12 @@
 ---
 UID: NS:d3dkmddi._DXGK_VIDMMCAPS
 title: DXGK_VIDMMCAPS (d3dkmddi.h)
-description: The DXGK_VIDMMCAPS structure identifies the video memory management capabilities that a display miniport driver can support.
-old-location: display\dxgk_vidmmcaps.htm
-ms.date: 06/24/2022
-keywords: ["DXGK_VIDMMCAPS structure"]
-ms.keywords: DXGK_VIDMMCAPS, DXGK_VIDMMCAPS structure [Display Devices], DmStructs_0ec3e7bb-c14e-41b8-a148-7f77153972e8.xml, _DXGK_VIDMMCAPS, d3dkmddi/DXGK_VIDMMCAPS, display.dxgk_vidmmcaps
+description: Learn more about the DXGK_VIDMMCAPS structure.
+ms.date: 02/06/2025
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -47,13 +44,13 @@ api_name:
 
 ## -description
 
-The **DXGK_VIDMMCAPS** structure identifies the video memory management capabilities that a display miniport driver supports.
+The **DXGK_VIDMMCAPS** structure identifies the video memory management capabilities that a kernel-mode display miniport driver (KMD) supports.
 
 ## -struct-fields
 
 ### -field OutOfOrderLock
 
-Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded. Setting this member is equivalent to setting the first bit of the 32-bit **Value** member (0x00000001).
+Specifies whether the driver can lock allocation instances other than the latest instance. The driver typically sets this value for DDI threading and load balancing if a DDI thread must lock a vertex buffer that an application thread had previously locked and discarded.
 
 ### -field DedicatedPagingEngine
 
@@ -69,7 +66,7 @@ Specifies whether the driver supports section-backed primary allocations. Suppor
 
 ### -field CrossAdapterResource
 
-Specifies whether the driver provides tier 1 support of copying to and from cross-adapter resources in a [hybrid system<](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system). Supported starting with Windows 8.1.
+Specifies whether the driver provides tier 1 support of copying to and from cross-adapter resources in a [hybrid system](/windows-hardware/drivers/display/using-cross-adapter-resources-in-a-hybrid-system). Supported starting with Windows 8.1.
 
 Starting in WDDM 2.4, DXGI enables the current hybrid presentation optimizations for the broader scenario wherever rendering is on one GPU and presenting on another GPU’s monitor. This is only possible if both GPUs support cross-adapter resources.
 
@@ -98,11 +95,11 @@ The cross adapter allocation could be used as a primary, but the driver will not
 ### -field VirtualAddressingSupported
 
 Specifies whether the driver supports virtual memory addressing. To express support for GPU virtual memory addressing, the driver should set the **VirtualAddressingSupported** cap and **GpuMmuSupported** or **IoMmuSupported** caps.
-**GpuMmuSupported** and **IoMmuSupported** cannot be set at the same time. Supported starting with Windows 10.
+**GpuMmuSupported** and **IoMmuSupported** cannot be set at the same time. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field GpuMmuSupported
 
-Specifies whether the adapter supports the *GpuMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [GpuMmu model](/windows-hardware/drivers/display/gpummu-model) for more information. Supported starting with Windows 10.
+Specifies whether the adapter supports the *GpuMmu* model. An adapter cannot support the *GpuMmu* and the *IoMmu* models on different engines at the same time. See [GpuMmu model](/windows-hardware/drivers/display/gpummu-model) for more information. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field IoMmuSupported
 
@@ -110,15 +107,15 @@ Specifies whether the adapter supports the *IoMmu* model. An adapter cannot supp
 
 ### -field ReplicateGdiContent
 
-Specifies whether the adapter supports the replication of GDI content. Supported starting with Windows 10.
+Specifies whether the adapter supports the replication of GDI content. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field NonCpuVisiblePrimary
 
-Indicates that GDI allocations are not required to be CPU visible. Supported starting with Windows 10.
+Indicates that GDI allocations are not required to be CPU visible. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field ParavirtualizationSupported
 
-The host KMD needs to set the cap if all DDIs are implemented. Supported starting with Windows 10 version 1703 (WDDM 2.2).
+Indicates that the KMD supports [GPU paravirtualization](/windows-hardware/drivers/display/gpu-paravirtualization). The host KMD needs to set the cap if all DDIs are implemented. Introduced in Windows 10 version 1703 (WDDM 2.2).
 
 ### -field IoMmuSecureModeSupported
 
