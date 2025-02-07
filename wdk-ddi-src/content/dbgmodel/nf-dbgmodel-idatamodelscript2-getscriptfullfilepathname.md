@@ -1,8 +1,8 @@
 ---
 UID: NF:dbgmodel.IDataModelScript2.GetScriptFullFilePathName
-tech.root: 
+tech.root: debugger
 title: IDataModelScript2::GetScriptFullFilePathName
-ms.date: 
+ms.date: 02/01/2025
 targetos: Windows
 description: The GetScriptFullFilePathName method retrieves the full path name of the script file.
 prerelease: false
