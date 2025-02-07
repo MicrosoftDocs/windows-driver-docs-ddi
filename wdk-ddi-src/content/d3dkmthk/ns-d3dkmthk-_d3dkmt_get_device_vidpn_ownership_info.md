@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO
-title: _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO (d3dkmthk.h)
-description: Used to get device VidPn ownership info.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO structure"]
-ms.keywords: _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO, D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO,
+title: D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO (d3dkmthk.h)
+description: Learn more about the D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO structure
-
+# D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO structure
 
 ## -description
 
-Used to get device VidPn ownership info.
+The **D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_INFO** structure is used to get device VidPn ownership information.
 
 ## -struct-fields
 
@@ -54,10 +51,8 @@ A handle to the device.
 
 ### -field bFailedDwmAcquireVidPn
 
- 
-Indicates whether the desktop windows manager failed to acquire the VidPn.
-
-## -remarks
+Boolean value that indicates whether the Desktop Windows Manager (DWM) failed to acquire the VidPn. This is set TRUE if DWM failed to acquire the VidPn due to another DWM device already owning the VidPn.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

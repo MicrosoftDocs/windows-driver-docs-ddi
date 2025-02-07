@@ -1,10 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MPOKERNELCAPS_SUPPORT
-title: _D3DKMT_MPOKERNELCAPS_SUPPORT (d3dkmthk.h)
-description: Structure used to indicate whether MPO kernel capabilities are supported.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_MPOKERNELCAPS_SUPPORT structure"]
-ms.keywords: _D3DKMT_MPOKERNELCAPS_SUPPORT, D3DKMT_MPOKERNELCAPS_SUPPORT,
+title: D3DKMT_MPOKERNELCAPS_SUPPORT (d3dkmthk.h)
+description: Learn more about the D3DKMT_MPOKERNELCAPS_SUPPORT structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
@@ -39,21 +37,18 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_MPOKERNELCAPS_SUPPORT structure
-
+# D3DKMT_MPOKERNELCAPS_SUPPORT structure
 
 ## -description
 
-Structure used to indicate whether MPO (multiplane overlay) kernel capabilities are supported.
+The **D3DKMT_MPOKERNELCAPS_SUPPORT** structure is used to indicate whether MPO (multiplane overlay) kernel capabilities are supported.
 
 ## -struct-fields
 
 ### -field Supported
 
- 
-The MPO kernel capabilities are supported.
-
-## -remarks
+Boolean value that indicates whether MPO kernel capabilities are supported.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmddi._DXGKARG_SETVIRTUALMACHINEDATA
-title: _DXGKARG_SETVIRTUALMACHINEDATA (d3dkmddi.h)
+title: DXGKARG_SETVIRTUALMACHINEDATA (d3dkmddi.h)
 description: Arguments used to set virtual machine data.
-ms.date: 10/19/2018
-keywords: ["DXGKARG_SETVIRTUALMACHINEDATA structure"]
-ms.keywords: _DXGKARG_SETVIRTUALMACHINEDATA, DXGKARG_SETVIRTUALMACHINEDATA,
+ms.date: 02/06/2025
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,30 +37,35 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETVIRTUALMACHINEDATA structure
-
+# DXGKARG_SETVIRTUALMACHINEDATA structure
 
 ## -description
 
-Arguments used to set virtual machine data.
+The **DXGKARG_SETVIRTUALMACHINEDATA** structure contains arguments passed to [**DxgkddiSetVirtualMachineData**](nc-d3dkmddi-dxgkddi_setvirtualmachinedata.md).
 
 ## -struct-fields
 
 ### -field hKmdVmWorkerProcess
 
-A handle to the kernel mode virtual machine worker process.
+[in] Handle to the KMD process returned by [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)
+ with [**VirtualMachineWorkerProcess**](ns-d3dkmddi-_dxgk_createprocessflags.md) set.
 
 ### -field pVmGuid
 
-The virtual machine guid.
+[in] Pointer to a GUID that uniquely identifies the VM. This GUID is provided for debugging purposes, so developers can attribute rendering to a specific VM when multiple VMs are running.
 
 ### -field Flags
 
-Specifies the virtual machine flags.
+[in] A [**DXGK_VIRTUALMACHINEDATAFLAGS**](ns-d3dkmddi-_dxgk_virtualmachinedataflags.md) structure that specifies attributes of the VM.
 
 ## -remarks
 
+For more information, see [GPU paravitualization](/windows-hardware/drivers/display/gpu-paravirtualization).
+
 ## -see-also
 
-[DXGKDDI_SETVIRTUALMACHINEDATA](nc-d3dkmddi-dxgkddi_setvirtualmachinedata.md)
+[**DXGK_VIRTUALMACHINEDATAFLAGS**](ns-d3dkmddi-_dxgk_virtualmachinedataflags.md)
 
+[**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)
+
+[**DxgkddiSetVirtualMachineData**](nc-d3dkmddi-dxgkddi_setvirtualmachinedata.md)

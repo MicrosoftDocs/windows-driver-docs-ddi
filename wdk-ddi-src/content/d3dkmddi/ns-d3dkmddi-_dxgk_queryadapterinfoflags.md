@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmddi._DXGK_QUERYADAPTERINFOFLAGS
-title: _DXGK_QUERYADAPTERINFOFLAGS (d3dkmddi.h)
+title: DXGK_QUERYADAPTERINFOFLAGS (d3dkmddi.h)
 description: Used to query graphics adapter information.
-ms.date: 10/19/2018
-keywords: ["DXGK_QUERYADAPTERINFOFLAGS structure"]
-ms.keywords: _DXGK_QUERYADAPTERINFOFLAGS, DXGK_QUERYADAPTERINFOFLAGS,
+ms.date: 02/06/2025
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -36,12 +34,11 @@ api_name:
  - DXGK_QUERYADAPTERINFOFLAGS
 ---
 
-# _DXGK_QUERYADAPTERINFOFLAGS structure
-
+# DXGK_QUERYADAPTERINFOFLAGS structure
 
 ## -description
 
-Used to query graphics adapter information.
+The **DXGK_QUERYADAPTERINFOFLAGS** structure specifies flags to use when querying graphics adapter information.
 
 ## -struct-fields
 
@@ -59,9 +56,12 @@ This member is reserved and should be set to zero.
 
 ### -field Value
 
-A member in the union that _DXGK_QUERYADAPTERINFOFLAGS contains that can hold a 32-bit value that identifies information about the graphics adapter.
+A convenient way to access the flags.
 
 ## -remarks
 
 ## -see-also
 
+[**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md)
+
+[**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md)
