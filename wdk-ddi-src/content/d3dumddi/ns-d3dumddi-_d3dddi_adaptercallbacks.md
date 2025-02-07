@@ -1,16 +1,13 @@
 ---
 UID: NS:d3dumddi._D3DDDI_ADAPTERCALLBACKS
-title: _D3DDDI_ADAPTERCALLBACKS (d3dumddi.h)
-description: The D3DDDI_ADAPTERCALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
-old-location: display\d3dddi_adaptercallbacks.htm
+title: D3DDDI_ADAPTERCALLBACKS (d3dumddi.h)
+description: Learn more about the D3DDDI_ADAPTERCALLBACKS structure.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["D3DDDI_ADAPTERCALLBACKS structure"]
-ms.keywords: D3DDDI_ADAPTERCALLBACKS, D3DDDI_ADAPTERCALLBACKS structure [Display Devices], D3D_other_Structs_6919397d-68ab-4ada-9f39-bf08bc0ac9ae.xml, _D3DDDI_ADAPTERCALLBACKS, d3dumddi/D3DDDI_ADAPTERCALLBACKS, display.d3dddi_adaptercallbacks
+ms.date: 02/06/2025
 req.header: d3dumddi.h
 req.include-header: D3dumddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,47 +40,38 @@ api_name:
  - D3DDDI_ADAPTERCALLBACKS
 ---
 
-# _D3DDDI_ADAPTERCALLBACKS structure
-
+# D3DDDI_ADAPTERCALLBACKS structure
 
 ## -description
 
-The D3DDDI_ADAPTERCALLBACKS structure contains Microsoft Direct3D runtime callback functions that the user-mode display driver can use.
+The **D3DDDI_ADAPTERCALLBACKS** structure contains pointers to Direct3D runtime callback functions that the user-mode display driver (UMD) can use.
 
 ## -struct-fields
 
 ### -field pfnQueryAdapterInfoCb
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb">pfnQueryAdapterInfoCb</a> function, which the user-mode display driver uses to query the display miniport driver for adapter configuration information.
+Pointer to the [**pfnQueryAdapterInfoCb**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md) function, which UMD uses to query the display miniport driver (KMD) for adapter configuration information.
 
 ### -field pfnGetMultisampleMethodListCb
 
-A pointer to the <a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb">pfnGetMultisampleMethodListCb</a> function, which the user-mode display driver uses to retrieve the list of multiple-sampling methods that are used for an allocation.
+Pointer to the [**pfnGetMultisampleMethodListCb**](nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb.md) function, which UMD uses to retrieve the list of multiple-sampling methods that are used for an allocation.
 
 ### -field pfnQueryAdapterInfoCb2
 
+Pointer to the runtime's [**pfnQueryAdapterInfoCb2**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md) function, which UMD uses to query the display miniport driver (KMD) for adapter information.
+
 ## -remarks
 
-The following code example demonstrates the function declarations for the functions that the members of D3DDDI_ADAPTERCALLBACKS point to.
-
-```cpp
-typedef HRESULT (APIENTRY CALLBACK *PFND3DDDI_QUERYADAPTERINFOCB)(HANDLE hAdapter, CONST D3DDDICB_QUERYADAPTERINFO*);
-typedef HRESULT (APIENTRY CALLBACK *PFND3DDDI_GETMULTISAMPLEMETHODLISTCB)(HANDLE hAdapter, D3DDDICB_GETMULTISAMPLEMETHODLIST*);
-```
+The Direct3D runtime passes **D3DDDI_ADAPTERCALLBACKS** to UMD when it calls UMD's [**OpenAdapter**](nc-d3dumddi-pfnd3dddi_openadapter.md) function.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/ns-d3dumddi-_d3dddiarg_openadapter">D3DDDIARG_OPENADAPTER</a>
+[**D3DDDIARG_OPENADAPTER**](ns-d3dumddi-_d3dddiarg_openadapter.md)
 
+[**Openadapter**](nc-d3dumddi-pfnd3dddi_openadapter.md)
 
+[**pfnGetMultisampleMethodListCb**](nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_openadapter">OpenAdapter</a>
+[**pfnQueryAdapterInfoCb**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_getmultisamplemethodlistcb">pfnGetMultisampleMethodListCb</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb">pfnQueryAdapterInfoCb</a>
-
+[**pfnQueryAdapterInfoCb2**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md)

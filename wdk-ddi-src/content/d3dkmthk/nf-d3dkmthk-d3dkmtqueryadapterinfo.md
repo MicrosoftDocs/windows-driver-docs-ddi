@@ -1,15 +1,12 @@
 ---
 UID: NF:d3dkmthk.D3DKMTQueryAdapterInfo
 title: D3DKMTQueryAdapterInfo function (d3dkmthk.h)
-description: The D3DKMTQueryAdapterInfo function retrieves graphics adapter information.
-old-location: display\d3dkmtqueryadapterinfo.htm
-ms.date: 02/28/2022
-keywords: ["D3DKMTQueryAdapterInfo function"]
-ms.keywords: D3DKMTQueryAdapterInfo, D3DKMTQueryAdapterInfo function [Display Devices], OpenGL_Functions_124c9878-58d2-414b-8b3c-392748ca5361.xml, d3dkmthk/D3DKMTQueryAdapterInfo, display.d3dkmtqueryadapterinfo
+description: Learn more about the D3DKMTQueryAdapterInfo function.
+ms.date: 02/03/2025
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
-req.target-min-winverclnt: Windows Vista
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -47,30 +44,27 @@ api_name:
 
 ## -description
 
-The **D3DKMTQueryAdapterInfo** function retrieves various adapter information from an adapter handle.
+The **D3DKMTQueryAdapterInfo** function retrieves adapter information from an adapter handle.
 
 ## -parameters
 
-### -param unnamedParam1 [in]
+### -param unnamedParam1 [in/out]
 
-See documentation of [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md) structure type for more details.
+Pointer to a [**D3DKMT_QUERYADAPTERINFO**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md) structure that describes the adapter information to retrieve.
 
 ## -returns
 
-Returns **NTSTATUS**.
-
-**D3DKMTQueryAdapterInfo** returns one of the following values:
+**D3DKMTQueryAdapterInfo** returns an NTSTATUS code such as one of the following:
 
 | Return code | Description |
 |--|--|
 | STATUS_SUCCESS | Adapter information was successfully retrieved. |
 | STATUS_DEVICE_REMOVED | The adapter was stopped. |
 | STATUS_INVALID_PARAMETER | Parameters were validated and determined to be incorrect. |
-| STATUS_NO_MEMORY | **D3DKMTQueryAdapterInfo** could not complete because of insufficient memory. |
-
-This function might also return other **NTSTATUS** values.
+| STATUS_NO_MEMORY | **D3DKMTQueryAdapterInfo** couldn't complete because of insufficient memory. |
 
 ## -see-also
 
-- [D3DKMT_QUERYADAPTERINFO](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
-- [PFND3DKMT_QUERYADAPTERINFO](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)
+[**D3DKMT_QUERYADAPTERINFO**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
+
+[**PFND3DKMT_QUERYADAPTERINFO**](nc-d3dkmthk-pfnd3dkmt_queryadapterinfo.md)

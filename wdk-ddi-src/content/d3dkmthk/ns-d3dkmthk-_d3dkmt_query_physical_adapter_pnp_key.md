@@ -1,15 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
-title: _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY (d3dkmthk.h)
-description: A structure that holds information to query the physical adapter PNP key.
-old-location: display\d3dkmt_query_physical_adapter_pnp_key.htm
-ms.date: 05/10/2018
-keywords: ["D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure"]
-ms.keywords: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure [Display Devices], _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, d3dkmthk/D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY, display.d3dkmt_query_physical_adapter_pnp_key
+title: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY (d3dkmthk.h)
+description: Learn more about the D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,12 +40,11 @@ api_name:
  - D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 ---
 
-# _D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure
-
+# D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure
 
 ## -description
 
-A structure that holds information to query the physical adapter PNP key.
+The **D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY** structure holds information to query the physical adapter PNP key.
 
 ## -struct-fields
 
@@ -58,13 +54,19 @@ The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field PnPKeyType
 
-The type of the PNP key being queried.
+A [**D3DKMT_PNP_KEY_TYPE**](ne-d3dkmthk-_d3dkmt_pnp_key_type.md) enumeration value that specifies the type of the PNP key being queried.
 
 ### -field pDest
 
-A WCHAR value representing the pDest.
+Pointer to a buffer that receives the requested PnP key as a wide-character string.
 
 ### -field pCchDest
 
-A UINT value representing the pCchDest.
+Pointer to a variable that specifies the size of the **pDest** buffer, in characters. On input, it should contain the maximum number of characters that can be stored in the buffer. On output, it is updated to reflect the actual number of characters written to **pDest**, including the null terminator.
+
+## -see-also
+
+[**D3DKMT_PNP_KEY_TYPE**](ne-d3dkmthk-_d3dkmt_pnp_key_type.md)
+
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)
 

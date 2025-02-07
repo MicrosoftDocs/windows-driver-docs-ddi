@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_QUERY_GPUMMU_CAPS
-title: _D3DKMT_QUERY_GPUMMU_CAPS (d3dkmthk.h)
-description: Used to query for GPU memory management capabilities.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_QUERY_GPUMMU_CAPS structure"]
-ms.keywords: _D3DKMT_QUERY_GPUMMU_CAPS, D3DKMT_QUERY_GPUMMU_CAPS,
+title: D3DKMT_QUERY_GPUMMU_CAPS (d3dkmthk.h)
+description: Learn more about the D3DKMT_QUERY_GPUMMU_CAPS structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,25 +37,22 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_QUERY_GPUMMU_CAPS structure
-
+# D3DKMT_QUERY_GPUMMU_CAPS structure
 
 ## -description
 
-Used to query for GPU memory management capabilities.
+The **D3DKMT_QUERY_GPUMMU_CAPS** structure describes the capabilities of the GPU MMU (memory management unit).
 
 ## -struct-fields
 
 ### -field PhysicalAdapterIndex
 
-The physical adapter index in the LDA (linked display adapter) chain.
+[in] The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field Caps
 
- 
-The capabilities returned.
-
-## -remarks
+[out] A [**D3DKMT_GPUMMU_CAPS**](ns-d3dkmthk-_d3dkmt_gpummucaps.md) structure that describes the capabilities of the GPU MMU.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

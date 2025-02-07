@@ -1,14 +1,12 @@
 ---
 UID: NE:d3dukmdt._D3DDDI_QUERYREGISTRY_TYPE
-title: _D3DDDI_QUERYREGISTRY_TYPE (d3dukmdt.h)
+title: D3DDDI_QUERYREGISTRY_TYPE (d3dukmdt.h)
 description: Used to query the registry type.
-ms.date: 11/21/2018
-keywords: ["D3DDDI_QUERYREGISTRY_TYPE enumeration"]
-ms.keywords: _D3DDDI_QUERYREGISTRY_TYPE, D3DDDI_QUERYREGISTRY_TYPE,
+ms.date: 02/06/2025
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -33,38 +31,42 @@ api_name:
  - D3DDDI_QUERYREGISTRY_TYPE
 ---
 
-# _D3DDDI_QUERYREGISTRY_TYPE enumeration
-
+# D3DDDI_QUERYREGISTRY_TYPE enumeration
 
 ## -description
 
-These enumeration values indicate which data to retrieve through QueryAdapterInfo for **KMTQAITYPE_QUERYREGISTRY**.
+**D3DDDI_QUERYREGISTRY_TYPE** enumeration values indicate which data to retrieve through [**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md) for [**D3DDDI_QUERYADAPTERTYPE_QUERYREGISTRY**](../d3dumddi/ne-d3dumddi-_d3dddi_queryadaptertype.md).
 
 ## -enum-fields
 
 ### -field D3DDDI_QUERYREGISTRY_SERVICEKEY
 
-This enumeration value indicates to retrieve registry data from the service hive.
+Indicates to retrieve registry data from the service hive. The registry path is `\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Services\<ServiceName>`.
+
 See [Introduction to Registry Keys for Drivers](/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers) for more details, where it is referred to as the driver's Parameters key.
 
 ### -field D3DDDI_QUERYREGISTRY_ADAPTERKEY
 
-This enumeration value indicates to retrieve registry data from the adapter hive.
+Indicates to retrieve registry data from the adapter hive. The registry path is `\REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\<Number>`.
+
 See [Introduction to Registry Keys for Drivers](/windows-hardware/drivers/wdf/introduction-to-registry-keys-for-drivers) for more details, where it is referred to as the driver's Software key.
 
 ### -field D3DDDI_QUERYREGISTRY_DRIVERSTOREPATH
 
-This enumeration value retrieves the driver store path for the adapter.
+Indicates to retrieve the driver store path for the adapter. The full driver store path is returned in [**D3DDDI_QUERYREGISTRY_INFO::OutputString**](ns-d3dukmdt-_d3dddi_queryregistry_info.md). The path is returned in the form of `<SystemDrive>:\system32\DriverStore\FileRepository\<DriverString>`.
 
 ### -field D3DDDI_QUERYREGISTRY_DRIVERIMAGEPATH
 
-This enumeration value retrieves the driver image path, which includes the driver name associated with [DriverEntry](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver).
+Indicates to retrieve the driver image path, which includes the driver name associated with [**DriverEntry**](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver).
 
 ### -field D3DDDI_QUERYREGISTRY_MAX
 
-This enum value is invalid to use, and merely exists to simplify maintaining the implementation.
+Max value for this enum; don't use.
 
 ## -see-also
 
-- [D3DDDI_QUERYREGISTRY_INFO](ns-d3dukmdt-_d3dddi_queryregistry_info.md)
+[**D3DDDI_QUERYADAPTERTYPE**](../d3dumddi/ne-d3dumddi-_d3dddi_queryadaptertype.md)
 
+[**D3DDDI_QUERYREGISTRY_INFO**](ns-d3dukmdt-_d3dddi_queryregistry_info.md)
+
+[**pfnQueryAdapterInfoCb2**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md)

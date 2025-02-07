@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_GPUMMU_CAPS
-title: _D3DKMT_GPUMMU_CAPS (d3dkmthk.h)
-description: Used to get GPU memory management unit capabilities.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_GPUMMU_CAPS structure"]
-ms.keywords: _D3DKMT_GPUMMU_CAPS, D3DKMT_GPUMMU_CAPS,
+title: D3DKMT_GPUMMU_CAPS (d3dkmthk.h)
+description: Learn more about the D3DKMT_GPUMMU_CAPS structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,12 +37,11 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_GPUMMU_CAPS structure
-
+# D3DKMT_GPUMMU_CAPS structure
 
 ## -description
 
-Used to get GPU memory management unit capabilities.
+The **D3DKMT_GPUMMU_CAPS** structure describes the capabilities of the GPU MMU (memory management unit).
 
 ## -struct-fields
 
@@ -54,15 +51,15 @@ Flags to indicate the type of capabilities.
 
 ### -field Flags.ReadOnlyMemorySupported
 
-Read-only memory is supported.
+Indicates whether the GPU MMU supports read-only memory.
 
 ### -field Flags.NoExecuteMemorySupported
 
-No execute memory is supported.
+Indicates whether the GPU MMU supports marking memory as non-executable.
 
 ### -field Flags.CacheCoherentMemorySupported
 
-Cache coherent memory is supported.
+Indicates whether the GPU MMU supports cache-coherent memory access.
 
 ### -field Flags.Reserved
 
@@ -70,12 +67,12 @@ Reserved for system use.
 
 ### -field Flags.Value
 
+An alternative way to access the flags.
+
 ### -field VirtualAddressBitCount
 
- 
-The virtual address bit count.
-
-## -remarks
+The number of bits used for virtual addresses by the GPU MMU.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

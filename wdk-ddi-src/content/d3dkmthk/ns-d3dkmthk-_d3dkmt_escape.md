@@ -1,11 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ESCAPE
-title: _D3DKMT_ESCAPE (d3dkmthk.h)
-description: The D3DKMT_ESCAPE structure describes information that is exchanged with the display miniport driver.
-old-location: display\d3dkmt_escape.htm
-ms.date: 05/10/2018
-keywords: ["D3DKMT_ESCAPE structure"]
-ms.keywords: D3DKMT_ESCAPE, D3DKMT_ESCAPE structure [Display Devices], OpenGL_Structs_b17fc4f1-d9cc-4ebe-a29a-66f9a93b9462.xml, _D3DKMT_ESCAPE, d3dkmthk/D3DKMT_ESCAPE, display.d3dkmt_escape
+title: D3DKMT_ESCAPE (d3dkmthk.h)
+description: The D3DKMT_ESCAPE structure describes information that is exchanged with the KMD.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -43,12 +40,11 @@ api_name:
  - D3DKMT_ESCAPE
 ---
 
-# _D3DKMT_ESCAPE structure
-
+# D3DKMT_ESCAPE structure
 
 ## -description
 
-The D3DKMT_ESCAPE structure describes information that is exchanged with the display miniport driver.
+The **D3DKMT_ESCAPE** structure describes information that is exchanged between a user-mode display driver (UMD) (or client driver) and the kernel-mode display miniport driver (KMD).
 
 ## -struct-fields
 
@@ -62,95 +58,80 @@ A handle to a display device that is optionally specified if the information to 
 
 ### -field Type [in]
 
-A value of type D3DKMT_ESCAPETYPE that indicates either to exchange information with the display miniport driver or to control kernel-mode components. The following table shows the possible values.
+A [**D3DKMT_ESCAPETYPE**](ne-d3dkmthk-_d3dkmt_escapetype.md) enumeration value that indicates either to exchange information with the KMD or to control kernel-mode components. The following table shows the possible values.
 
-| **Value** | **Meaning** | 
+| **Value** | **Meaning** |
 |:--|:--|
-| D3DKMT_ESCAPE_DRIVERPRIVATE (0) | The pPrivateDriverData member is targeted at the display miniport driver. The hardware vendor defines the format of the escape data. | 
-| D3DKMT_ESCAPE_VIDMM (1) | **Do not use. For testing purposes only.** The OpenGL ICD controls the video memory manager (which is part of Dxgkrnl.sys). The buffer that pPrivateDriverData points to contains a [D3DKMT_VIDMM_ESCAPE](./ns-d3dkmthk-_d3dkmt_vidmm_escape.md)  structure that supports various types of control of the video memory manager. | 
-| D3DKMT_ESCAPE_TDRDBGCTRL (2) | **Do not use. For testing purposes only.** The escape operation lets the user control the behavior of the operating system's Timeout Detection and Recovery (TDR) process.<br/>This functionality is disabled by default. To enable this functionality, the TdrTestMode = TdrTestMode DWORD registry value, which is stored in the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers key, must be set to 1.<br/>The PrivateDriverDataSize member is set to sizeof(int). The pPrivateDriverData member is set to an integer with a value from the [D3DKMT_TDRDBGCTRLTYPE](./ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md)  enumeration type. |
-| D3DKMT_ESCAPE_VIDSCH (3) | **Do not use. For testing purposes only.** The OpenGL ICD controls the graphics processing unit (GPU) scheduler (which is part of Dxgkrnl.sys). The buffer that pPrivateDriverData points to contains a [D3DKMT_VIDSCH_ESCAPE](./ns-d3dkmthk-_d3dkmt_vidsch_escape.md) structure that supports preemption control and suspending or resuming the scheduler. |
-| D3DKMT_ESCAPE_DEVICE (4) | **Do not use. For testing purposes only.** The OpenGL ICD controls the display device. The buffer that pPrivateDriverData points to contains a [D3DKMT_DEVICE_ESCAPE](./ns-d3dkmthk-_d3dkmt_device_escape.md) structure that supports obtaining the video present source from the primary allocation. | 
-| D3DKMT_ESCAPE_DMM (5) | **Do not use. For testing purposes only.** The OpenGL ICD controls the display mode manager. The buffer that pPrivateDriverData points to contains a [D3DKMT_DMM_ESCAPE](./ns-d3dkmthk-_d3dkmt_dmm_escape.md)  structure. | 
-| D3DKMT_ESCAPE_DEBUG_SNAPSHOT (6) | **Do not use. For testing purposes only.** The OpenGL ICD retrieves a debug snapshot buffer. The buffer that pPrivateDriverData points to contains a [D3DKMT_DEBUG_SNAPSHOT_ESCAPE](./ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md)  structure. | 
-| D3DKMT_ESCAPE_SETDRIVERUPDATESTATUS (7) | **Do not use. For testing purposes only.** The OpenGL ICD sets the display miniport driver update status. |
-| D3DKMT_ESCAPE_DRT_TEST (8) | **Do not use. For testing purposes only.** |
-| D3DKMT_ESCAPE_DIAGNOSTICS (9) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_OUTPUTDUPL_SNAPSHOT (10) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_OUTPUTDUPL_DIAGNOSTICS (11) | **Do not use. For testing purposes only.** Supported starting with Windows 8. |
-| D3DKMT_ESCAPE_BDD_PNP (12) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_BDD_FALLBACK (13) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_ACTIVATE_SPECIFIC_DIAG(14) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_MODES_PRUNED_OUT(15) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_WQHL_INFO(16) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_BRIGHTNESS(17) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_EDID_CACHE(18) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_GENERIC_ADAPTER_DIAG_INFO(19) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_MIRACAST_DISPLAY_REQUEST (20) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-| D3DKMT_ESCAPE_HISTORY_BUFFER_STATUS (21) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-| D3DKMT_ESCAPE_MIRACAST_ADAPTER_DIAG_INFO (23) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-| D3DKMT_ESCAPE_WIN32K_START(1024) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_WIN32K_HIP_DEVICE_INFO(1024) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_WIN32K_QUERY_CD_ROTATION_BLOCK (1025) | **Do not use. For testing purposes only.** Supported starting with Windows 8. | 
-| D3DKMT_ESCAPE_WIN32K_DPI_INFO (1026) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-| D3DKMT_ESCAPE_WIN32K_PRESENTER_VIEW_INFO (1027) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. | 
-| D3DKMT_ESCAPE_WIN32K_SYSTEM_DPI (1028) | **Do not use. For testing purposes only.** Supported starting with Windows 8.1. |
+| D3DKMT_ESCAPE_DRIVERPRIVATE (0) | The **pPrivateDriverData** member is targeted at the KMD. The hardware vendor defines the format of the escape data. |
+| D3DKMT_ESCAPE_VIDMM (1) | Don't use; for testing purposes only. The UMD/client driver controls the video memory manager (*VidMm*). The buffer that **pPrivateDriverData** points to contains a [D3DKMT_VIDMM_ESCAPE](ns-d3dkmthk-_d3dkmt_vidmm_escape.md)  structure that supports various types of control of *VidMm*. |
+| D3DKMT_ESCAPE_TDRDBGCTRL (2) | Don't use; for testing purposes only. The escape operation lets the user control the behavior of the operating system's Timeout Detection and Recovery (TDR) process. This functionality is disabled by default. To enable this functionality, the TdrTestMode = TdrTestMode DWORD registry value, which is stored in the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers key, must be set to 1. The **PrivateDriverDataSize** member is set to sizeof(int). The **pPrivateDriverData** member is set to an integer with a value from the [D3DKMT_TDRDBGCTRLTYPE](ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md)  enumeration type. |
+| D3DKMT_ESCAPE_VIDSCH (3) | Don't use; for testing purposes only. The UMD/client driver controls the GPU scheduler (which is part of *Dxgkrnl*). The buffer that **pPrivateDriverData** points to contains a [D3DKMT_VIDSCH_ESCAPE](ns-d3dkmthk-_d3dkmt_vidsch_escape.md) structure that supports preemption control and suspending or resuming the scheduler. |
+| D3DKMT_ESCAPE_DEVICE (4) | Don't use; for testing purposes only. The UMD/client driver controls the display device. The buffer that **pPrivateDriverData** points to contains a [D3DKMT_DEVICE_ESCAPE](ns-d3dkmthk-_d3dkmt_device_escape.md) structure that supports obtaining the video present source from the primary allocation. |
+| D3DKMT_ESCAPE_DMM (5) | Don't use; for testing purposes only. The UMD/client driver controls the display mode manager. The buffer that **pPrivateDriverData** points to contains a [D3DKMT_DMM_ESCAPE](ns-d3dkmthk-_d3dkmt_dmm_escape.md)  structure. |
+| D3DKMT_ESCAPE_DEBUG_SNAPSHOT (6) | Don't use; for testing purposes only. The UMD/client driver retrieves a debug snapshot buffer. The buffer that **pPrivateDriverData** points to contains a [D3DKMT_DEBUG_SNAPSHOT_ESCAPE](ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md)  structure. |
+| D3DKMT_ESCAPE_SETDRIVERUPDATESTATUS (7) | Don't use; for testing purposes only. The UMD/client driver sets the KMD update status. |
+| D3DKMT_ESCAPE_DRT_TEST (8) | Don't use; for testing purposes only. |
+| D3DKMT_ESCAPE_DIAGNOSTICS (9) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_OUTPUTDUPL_SNAPSHOT (10) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_OUTPUTDUPL_DIAGNOSTICS (11) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_BDD_PNP (12) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_BDD_FALLBACK (13) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_ACTIVATE_SPECIFIC_DIAG(14) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_MODES_PRUNED_OUT(15) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_WQHL_INFO(16) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_BRIGHTNESS(17) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_EDID_CACHE(18) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_GENERIC_ADAPTER_DIAG_INFO(19) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_MIRACAST_DISPLAY_REQUEST (20) | Don't use; for testing purposes only. Supported starting with Windows 8.1. |
+| D3DKMT_ESCAPE_HISTORY_BUFFER_STATUS (21) | Don't use; for testing purposes only. Supported starting with Windows 8.1. |
+| D3DKMT_ESCAPE_MIRACAST_ADAPTER_DIAG_INFO (23) | Don't use; for testing purposes only. Supported starting with Windows 8.1. |
+| D3DKMT_ESCAPE_WIN32K_START(1024) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_WIN32K_HIP_DEVICE_INFO(1024) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_WIN32K_QUERY_CD_ROTATION_BLOCK (1025) | Don't use; for testing purposes only. Supported starting with Windows 8. |
+| D3DKMT_ESCAPE_WIN32K_DPI_INFO (1026) | Don't use; for testing purposes only. Supported starting with Windows 8.1. |
+| D3DKMT_ESCAPE_WIN32K_PRESENTER_VIEW_INFO (1027) | Don't use; for testing purposes only. Supported starting with Windows 8.1. |
+| D3DKMT_ESCAPE_WIN32K_SYSTEM_DPI (1028) | Don't use; for testing purposes only. Supported starting with Windows 8.1. |
 
 ### -field Flags [in]
 
-A <a href="/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags">D3DDDI_ESCAPEFLAGS</a> structure that indicates, in bit-field flags, how to share information. The OpenGL ICD should specify the <b>HardwareAccess</b> bit-field flag to indicate that the display miniport driver must access graphics hardware in such a way that the operating system must perform the <a href="/windows-hardware/drivers/display/threading-and-synchronization-second-level">second level of synchronization</a> into the display miniport driver for the <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_escape">DxgkDdiEscape</a> call.
+A [**D3DDDI_ESCAPEFLAGS**](../d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags.md) structure that indicates, in bit-field flags, how to share information. The UMD/client driver should specify the **HardwareAccess** bit-field flag to indicate that the KMD must access graphics hardware in such a way that the OS must perform the [second level of synchronization](/windows-hardware/drivers/display/threading-and-synchronization-second-level) into the KMD for the [**DxgkDdiEscape**](../d3dkmddi/nc-d3dkmddi-dxgkddi_escape.md) call.
+
+**HardwareAccess** should be set to zero when virtualization is being used. For more information, see [GPU paravirtualization](/windows-hardware/drivers/display/gpu-paravirtualization).
 
 ### -field pPrivateDriverData [in/out]
 
-A pointer to a buffer that the OpenGL ICD allocates that contains information that the OpenGL ICD either exchanges with the display miniport driver or uses to control kernel-mode components. The following table describes the content of the buffer that <b>pPrivateDriverData</b> points to, depending on the value of <b>Type</b>.
+A pointer to a buffer that the UMD or client driver allocates that contains a known driver escape structure. This structure contains information that the driver either exchanges with the KMD or uses to control kernel-mode components. The following table describes the content of the buffer that **pPrivateDriverData** points to, depending on the value of **Type**.
 
-| **Value of the Type member** | **Content of the pPrivateDriverData buffer** | 
+| Value of Type | Content of the pPrivateDriverData buffer |
 |:--|:--|
-| D3DKMT_ESCAPE_DRIVERPRIVATE | Driver-specific. The buffer is not usable unless a tight coupling exists between the OpenGL ICD and the display miniport driver. | 
-| D3DKMT_ESCAPE_VIDMM | **Do not use. For testing purposes only.** A [D3DKMT_VIDMM_ESCAPE](./ns-d3dkmthk-_d3dkmt_vidmm_escape.md) structure. | 
-| D3DKMT_ESCAPE_TDRDBGCTRL | **Do not use. For testing purposes only.** A [D3DKMT_TDRDBGCTRLTYPE](./ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md) enumeration type. | 
-| D3DKMT_ESCAPE_VIDSCH | **Do not use. For testing purposes only.** A [D3DKMT_VIDSCH_ESCAPE](./ns-d3dkmthk-_d3dkmt_vidsch_escape.md) structure. | 
-| D3DKMT_ESCAPE_DEVICE | **Do not use. For testing purposes only.** A [D3DKMT_DEVICE_ESCAPE](./ns-d3dkmthk-_d3dkmt_device_escape.md) structure. | 
-| D3DKMT_ESCAPE_DMM | **Do not use. For testing purposes only.** A [D3DKMT_DMM_ESCAPE](./ns-d3dkmthk-_d3dkmt_dmm_escape.md)  structure. | 
-| D3DKMT_ESCAPE_DEBUG_SNAPSHOT | **Do not use. For testing purposes only.** A [D3DKMT_DEBUG_SNAPSHOT_ESCAPE](./ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md) structure. |
+| D3DKMT_ESCAPE_DRIVERPRIVATE | Driver-specific. The buffer isn't usable unless a tight coupling exists between the UMD/client driver and the KMD. |
+| D3DKMT_ESCAPE_VIDMM | Don't use; for testing purposes only. A [D3DKMT_VIDMM_ESCAPE](ns-d3dkmthk-_d3dkmt_vidmm_escape.md) structure. |
+| D3DKMT_ESCAPE_TDRDBGCTRL | Don't use; for testing purposes only. A [D3DKMT_TDRDBGCTRLTYPE](ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md) enumeration type. |
+| D3DKMT_ESCAPE_VIDSCH | Don't use; for testing purposes only. A [D3DKMT_VIDSCH_ESCAPE](ns-d3dkmthk-_d3dkmt_vidsch_escape.md) structure. |
+| D3DKMT_ESCAPE_DEVICE | Don't use; for testing purposes only. A [D3DKMT_DEVICE_ESCAPE](ns-d3dkmthk-_d3dkmt_device_escape.md) structure. |
+| D3DKMT_ESCAPE_DMM | Don't use; for testing purposes only. A [D3DKMT_DMM_ESCAPE](ns-d3dkmthk-_d3dkmt_dmm_escape.md)  structure. |
+| D3DKMT_ESCAPE_DEBUG_SNAPSHOT | Don't use; for testing purposes only. A [**D3DKMT_DEBUG_SNAPSHOT_ESCAPE**](ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md) structure. |
 
 ### -field PrivateDriverDataSize [in]
 
-The size, in bytes, of the buffer that <b>pPrivateDriverData</b> points to. The OpenGL ICD must specify the size of the buffer when it calls the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function.
+The size, in bytes, of the buffer that **pPrivateDriverData** points to. The UMD/client driver must specify the size of the buffer when it calls the [**D3DKMTEscape**](nf-d3dkmthk-d3dkmtescape.md) function.
 
 ### -field hContext [in]
 
-A handle to a context that is optionally specified if the information to be exchanged is specific to a particular device context. If the OpenGL ICD sets <b>hContext</b> to a non-NULL value, the ICD must have also set <b>hDevice</b> to a non-NULL value, and <b>hDevice</b> must correspond to the device that owns the context.
-
-## -remarks
-
-For testing purposes, the OpenGL ICD can pass a pointer to a D3DKMT_ESCAPE structure in a call to the <a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a> function to control the video memory manager and GPU scheduler (which are part of <i>Dxgkrnl.sys</i>) and the behavior of the operating system's TDR process.
+A handle to a context that is optionally specified if the information to be exchanged is specific to a particular device context. If the UMD/client driver sets **hContext** to a non-NULL value, the driver must have also set **hDevice** to a non-NULL value, and **hDevice** must correspond to the device that owns the context.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtescape">D3DKMTEscape</a>
+[**D3DKMTEscape**](nf-d3dkmthk-d3dkmtescape.md)
 
+[**D3DKMT_DEBUG_SNAPSHOT_ESCAPE**](ns-d3dkmthk-_d3dkmt_debug_snapshot_escape.md)
 
+[**D3DKMT_DEVICE_ESCAPE**](ns-d3dkmthk-_d3dkmt_device_escape.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_debug_snapshot_escape">D3DKMT_DEBUG_SNAPSHOT_ESCAPE</a>
+[**D3DKMT_DMM_ESCAPE**](ns-d3dkmthk-_d3dkmt_dmm_escape.md)
 
+[**D3DKMT_TDRDBGCTRLTYPE**](ne-d3dkmthk-_d3dkmt_tdrdbgctrltype.md)
 
+[**D3DKMT_VIDMM_ESCAPE**](ns-d3dkmthk-_d3dkmt_vidmm_escape.md)
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_device_escape">D3DKMT_DEVICE_ESCAPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_dmm_escape">D3DKMT_DMM_ESCAPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ne-d3dkmthk-_d3dkmt_tdrdbgctrltype">D3DKMT_TDRDBGCTRLTYPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidmm_escape">D3DKMT_VIDMM_ESCAPE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_vidsch_escape">D3DKMT_VIDSCH_ESCAPE</a>
-
+[**D3DKMT_VIDSCH_ESCAPE**](ns-d3dkmthk-_d3dkmt_vidsch_escape.md)

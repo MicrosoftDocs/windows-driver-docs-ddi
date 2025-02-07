@@ -2,9 +2,7 @@
 UID: NS:d3dkmddi._DXGKARGCB_SIGNALEVENT
 title: DXGKARGCB_SIGNALEVENT (d3dkmddi.h)
 description: Learn more about the DXGKARGCB_SIGNALEVENT structure.
-ms.date: 09/12/2022
-keywords: ["DXGKARGCB_SIGNALEVENT structure"]
-ms.keywords: _DXGKARGCB_SIGNALEVENT, DXGKARGCB_SIGNALEVENT,
+ms.date: 02/06/2025
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: 
@@ -43,23 +41,23 @@ dev_langs:
 
 ## -description
 
-**DXGKARGCB_SIGNALEVENT** contains the arguments used by the [**DXGKCB_SIGNALEVENT**](nc-d3dkmddi-dxgkcb_signalevent.md) callback function, to signal an event.
+**DXGKARGCB_SIGNALEVENT** contains the arguments used by the [**DxgkCbSignalEvent**](nc-d3dkmddi-dxgkcb_signalevent.md) callback function to signal an event.
 
 ## -struct-fields
 
 ### -field hDxgkProcess
 
-[in] Handle to the DXGK process object that is passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md). The process must be created for a virtual machine, where DXGK_CREATEPROCESSFLAGS::VirtualMachineProcess is set in **DxgkDdiCreateProcess**.
+[in] Handle to the *Dxgkrnl* process object that was passed to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md). The process must be created for a virtual machine; that is, [**DXGK_CREATEPROCESSFLAGS::VirtualMachineProcess**](/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgk_createprocessflags) must be set in the call to **DxgkDdiCreateProcess**.
 
 When **CpuEventObject** is set, **hDxgkProcess** must be zero.
 
-The driver must synchronize the callback with [**DxgkDdiDestroyProcess**](nc-d3dkmddi-dxgkddi_destroyprocess.md) to ensure that the process is not destroyed during the callback.
+The driver must synchronize the callback with [**DxgkDdiDestroyProcess**](nc-d3dkmddi-dxgkddi_destroyprocess.md) to ensure that the process isn't destroyed during the callback.
 
 ### -field hEvent
 
-[in] The user-mode event handle that needs to be signaled. The handle is valid in the context of the DXGK process, identified by **hDxgkProcess**. The user-mode driver on the guest can send the user-mode event handle to the kernel-mode driver via [**DXGKDDI_ESCAPE**](nc-d3dkmddi-dxgkddi_escape.md) or other APIs that allow private driver data.
+[in] The user-mode event handle that needs to be signaled. The handle is valid in the context of the *Dxgkrnl* process identified by **hDxgkProcess**. The user-mode driver on the guest can send the user-mode event handle to the kernel-mode driver via [**DxgkddiEscape**](nc-d3dkmddi-dxgkddi_escape.md) or other APIs that allow private driver data.
 
-When **CpuEventObject** is set, **hEvent** is equal to the *Dxgkrnl* CPU event object handle, passed in [**DXGKDDI_CREATECPUEVENT**](nc-d3dkmddi-dxgkddi_createcpuevent.md).
+When **CpuEventObject** is set, **hEvent** is equal to the *Dxgkrnl* CPU event object handle, passed in [**DxgkddiCreatecpuevent**](nc-d3dkmddi-dxgkddi_createcpuevent.md).
 
 ### -field CpuEventObject
 
@@ -75,10 +73,12 @@ When **CpuEventObject** is set, **hEvent** is equal to the *Dxgkrnl* CPU event o
 
 ## -see-also
 
-[**DXGKCB_SIGNALEVENT**](nc-d3dkmddi-dxgkcb_signalevent.md)
+[**DxgkCbSignalEvent**](nc-d3dkmddi-dxgkcb_signalevent.md)
 
-[**DXGKDDI_ESCAPE**](nc-d3dkmddi-dxgkddi_escape.md)
+[**DxgkddiCreatecpuevent**](nc-d3dkmddi-dxgkddi_createcpuevent.md)
 
 [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)
 
 [**DxgkDdiDestroyProcess**](nc-d3dkmddi-dxgkddi_destroyprocess.md)
+
+[**DxgkddiEscape**](nc-d3dkmddi-dxgkddi_escape.md)

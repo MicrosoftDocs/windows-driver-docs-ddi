@@ -2,10 +2,7 @@
 UID: NC:d3dkmddi.DXGKDDI_CREATEPROCESS
 title: DXGKDDI_CREATEPROCESS (d3dkmddi.h)
 description: DxgkDdiCreateProcess creates a graphics kernel process object.
-old-location: display\dxgkddicreateprocess.htm
-ms.date: 05/10/2018
-keywords: ["DXGKDDI_CREATEPROCESS callback function"]
-ms.keywords: DXGKDDI_CREATEPROCESS, DXGKDDI_CREATEPROCESS callback, DxgkDdiCreateProcess, DxgkDdiCreateProcess callback function [Display Devices], d3dkmddi/DxgkDdiCreateProcess, display.dxgkddicreateprocess, dispmprt/DxgkDdiCreateProcess
+ms.date: 02/03/2025
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -43,30 +40,32 @@ api_name:
 
 # DXGKDDI_CREATEPROCESS callback function
 
-
 ## -description
 
-<b>DxgkDdiCreateProcess</b> creates a graphics kernel process object.
+*Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkDdiCreateProcess** function to create a kernel-mode driver (KMD) process object for a *Dxgkrnl* process object.
 
 ## -parameters
 
 ### -param hAdapter
 
-A handle to the display adapter.
+[in] A handle to the display adapter.
 
 ### -param pArgs
 
-The <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a> structure that describes the operation.
+[in/out] Pointer to a [**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess.md) structure that describes the operation.
 
 ## -returns
 
-      Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+**DxgkDdiCreateProcess** returns STATUS_SUCCESS if it succeeds. Otherwise, it returns an appropriate NTSTATUS error code.
 
 ## -remarks
 
-During process creation the kernel mode driver is allowed to call the <b>DxgkCbReserveVirtualAddressRange</b> callback. At this point the graphics processing unit (GPU) virtual address space for the process is free and the driver has the opportunity to reserve virtual address space for its needs.
+**DxgkDdiCreateProcess** allows the KMD to create a process context that allows the KMD to manage resources and permissions for processes, including those running in specialized environments like virtual machines and containers, ensuring proper graphics operations across different system contexts.
+
+During process creation, the kernel-mode driver is allowed to call the [**DxgkCbReserveVirtualAddressRange**](nc-d3dkmddi-dxgkcb_reservegpuvirtualaddressrange.md) callback. At this point the GPU virtual address space for the process is free and the driver has the opportunity to reserve virtual address space for its needs.
+
+When [**CREATEPROCESSFLAGS::VirtualMachineWorkerProcess**](ns-d3dkmddi-_dxgk_createprocessflags.md) is set, the process belongs to the worker process of a virtual machine.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>
-
+[**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess)

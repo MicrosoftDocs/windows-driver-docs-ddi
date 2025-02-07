@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT
-title: _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT (d3dkmthk.h)
-description: Used to indicate whether multiplane overly decode is supported.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT structure"]
-ms.keywords: _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT, D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT,
+title: D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT (d3dkmthk.h)
+description: Learn more about the D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,21 +37,18 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT structure
-
+# D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT structure
 
 ## -description
 
-Used to indicate whether multiplane overly decode is supported.
+The **D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT** structure is used to indicate whether multiplane overlay decode is supported.
 
 ## -struct-fields
 
 ### -field Supported
 
- 
-Decode is supported.
-
-## -remarks
+Boolean value that indicates whether multiplane overlay decode is supported.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

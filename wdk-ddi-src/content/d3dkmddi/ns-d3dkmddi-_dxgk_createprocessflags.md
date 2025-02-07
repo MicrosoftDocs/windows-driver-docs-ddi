@@ -1,11 +1,8 @@
 ---
 UID: NS:d3dkmddi._DXGK_CREATEPROCESSFLAGS
-title: _DXGK_CREATEPROCESSFLAGS (d3dkmddi.h)
+title: DXGK_CREATEPROCESSFLAGS (d3dkmddi.h)
 description: DXGK_CREATEPROCESSFLAGS is used with DXGKARG_CREATEPROCESS and DxgkDdiCreateProcess to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
-old-location: display\dxgk_createprocessflags.htm
-ms.date: 05/10/2018
-keywords: ["DXGK_CREATEPROCESSFLAGS structure"]
-ms.keywords: DXGK_CREATEPROCESSFLAGS, DXGK_CREATEPROCESSFLAGS structure [Display Devices], _DXGK_CREATEPROCESSFLAGS, d3dkmddi/DXGK_CREATEPROCESSFLAGS, display.dxgk_createprocessflags
+ms.date: 02/03/2025
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -22,7 +19,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL
+req.irql:
 targetos: Windows
 tech.root: display
 req.typenames: DXGK_CREATEPROCESSFLAGS
@@ -43,34 +40,33 @@ api_name:
  - DXGK_CREATEPROCESSFLAGS
 ---
 
-# _DXGK_CREATEPROCESSFLAGS structure
-
+# DXGK_CREATEPROCESSFLAGS structure
 
 ## -description
 
-<b>DXGK_CREATEPROCESSFLAGS</b> is used with <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a> and <a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a> to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
+**DXGK_CREATEPROCESSFLAGS** are *Dxgkrnl*-provided flags that describe the characteristics of *Dxgkrnl*'s process that [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md) is to create a kernel-mode driver (KMD) process object for.
 
 ## -struct-fields
 
 ### -field SystemProcess
 
-Indicates that a system process is being created.
+Indicates that the process referenced by [**hDxgkProcess**](ns-d3dkmddi-_dxgkarg_createprocess.md) is a system process.
 
 ### -field GdiProcess
 
-Indicates that a GDI process is being created.
+Indicates that the process referenced by [**hDxgkProcess**](ns-d3dkmddi-_dxgkarg_createprocess.md) is a GDI process.
 
 ### -field VirtualMachineProcess
 
-The virtual machine DXG process created during a call to DxgkDdiCreateProcess. Note that each virtual machine DXG process will belong to the same EPROCESS as the same virtual machine worker process.
+Indicates that the *Dxgkrnl* process being created during a call to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md) is associated with a virtual machine. Each virtual machine *Dxgkrnl* process will belong to the same EPROCESS as the same virtual machine worker process. Introduced in WDDM 2.2.
 
 ### -field VirtualMachineWorkerProcess
 
-The virtual machine worker process created during a call to DxgkDdiCreateProcess. Note that because no rendering or driver resource is created in this process context, the driver might skip allocating certain resources.
+Indicates that the process being created during a call to [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md) is the worker process for a virtual machine. Because no rendering or driver resource is created in this process context, the driver might skip allocating certain resources. Introduced in WDDM 2.4.
 
 ### -field SessionIsolatedContainer
 
-The session isolated container.
+Indicates whether the process is running within a session-isolated container. Introduced in WDDM 2.5.
 
 ### -field Reserved
 
@@ -82,9 +78,6 @@ The consolidated value of the bitfield members of the structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_createprocess">DXGKARG_CREATEPROCESS</a>
+[**DXGKARG_CREATEPROCESS**](ns-d3dkmddi-_dxgkarg_createprocess)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_createprocess">DxgkDdiCreateProcess</a>
-
+[**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md)

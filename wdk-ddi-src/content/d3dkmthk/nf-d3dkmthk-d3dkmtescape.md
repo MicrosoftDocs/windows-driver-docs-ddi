@@ -2,10 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTEscape
 title: D3DKMTEscape function (d3dkmthk.h)
 description: The D3DKMTEscape function exchanges information with the display miniport driver.
-old-location: display\d3dkmtescape.htm
-ms.date: 02/25/2022
-keywords: ["D3DKMTEscape function"]
-ms.keywords: D3DKMTEscape, D3DKMTEscape function [Display Devices], OpenGL_Functions_ad391641-4fb5-425a-839f-7b257f26849a.xml, d3dkmthk/D3DKMTEscape, display.d3dkmtescape
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Universal
@@ -47,13 +44,13 @@ api_name:
 
 ## -description
 
-The **D3DKMTEscape** function exchanges information with the display miniport driver.
+The **D3DKMTEscape** function exchanges information between the user-mode display driver (UMD) (or client driver) and the kernel-mode display miniport driver (KMD).
 
 ## -parameters
 
 ### -param unnamedParam1 [in]
 
-A pointer to a structure that describes the exchanged information.
+Pointer to a [**D3DKMT_ESCAPE**](ns-d3dkmthk-_d3dkmt_escape.md) structure that describes the exchanged information.
 
 ## -returns
 
@@ -72,10 +69,10 @@ This function might also return other **NTSTATUS** values.
 
 ## -remarks
 
-The OpenGL ICD calls **D3DKMTEscape** to exchange data directly with the display miniport driver. For testing purposes, the OpenGL ICD can also call **D3DKMTEscape** to control the video memory manager and graphics processing unit (GPU) scheduler (which are part of *Dxgkrnl.sys*) and the behavior of the operating system's Timeout Detection and Recovery (TDR) process.
+The UMD or client driver calls **D3DKMTEscape** to exchange data directly with the KMD. For testing purposes, **D3DKMTEscape** can be called to control the video memory manager (*VidMm*) and GPU scheduler (which are part of *Dxgkrnl.sys*) and the behavior of the operating system's Timeout Detection and Recovery (TDR) process.
 
-Hardware vendors can use **D3DKMTEscape** in their OpenGL ICDs as an extension mechanism. However, vendors should report necessary extensions to Microsoft so the extensions can be natively supported by the operating system.
+Hardware vendors can use **D3DKMTEscape** in their drivers as an extension mechanism. However, vendors should report necessary extensions to Microsoft so the extensions can be natively supported by the operating system.
 
 ## -see-also
 
-[D3DKMT_ESCAPE](ns-d3dkmthk-_d3dkmt_escape.md)
+[**D3DKMT_ESCAPE**](ns-d3dkmthk-_d3dkmt_escape.md)

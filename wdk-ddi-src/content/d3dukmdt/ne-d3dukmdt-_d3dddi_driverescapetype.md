@@ -40,17 +40,17 @@ dev_langs:
 
 ## -description
 
-**D3DDDI_DRIVERESCAPETYPE** defines the known driver escape types.
+**D3DDDI_DRIVERESCAPETYPE** defines the known driver escape types ([**D3DDDI_ESCAPEFLAGS::DriverKnownEscape**](/windows-hardware/drivers/ddi/d3dukmdt/ns-d3dukmdt-_d3dddi_escapeflags)).
 
 ## -enum-fields
 
 ### -field D3DDDI_DRIVERESCAPETYPE_TRANSLATEALLOCATIONHANDLE:0
 
-Driver escape type to translate allocation handle; used to translate the guest allocation to the corresponding host handle.
+Driver escape type to translate allocation handle; used to translate the guest allocation to the corresponding host handle. For more information, see [GPU paravirtualization](/windows-hardware/drivers/display/gpu-paravirtualization).
 
 ### -field D3DDDI_DRIVERESCAPETYPE_TRANSLATERESOURCEHANDLE:1
 
-Driver escape type to translate resource handle; used to translate the resource handle to the corresponding host handle.
+Driver escape type to translate resource handle; used to translate the resource handle to the corresponding host handle. For more information, see [GPU paravirtualization](/windows-hardware/drivers/display/gpu-paravirtualization).
 
 ### -field D3DDDI_DRIVERESCAPETYPE_CPUEVENTUSAGE:2
 
