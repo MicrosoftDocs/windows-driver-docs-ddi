@@ -41,13 +41,13 @@ api_name:
 
 ## -description
 
-**DriverEntry** is the first routine called after a driver is loaded, and is responsible for initializing the driver.
+**DRIVER_INITIALIZE** is the type definition of the driver initialization entry point, which is conventionally named **DriverEntry**. This is the first routine called after a driver is loaded.
 
 ## -parameters
 
 ### -param DriverObject [in]
 
-A pointer to a [**DRIVER_OBJECT**](./ns-wdm-_driver_object.md) structure. This is the driver's driver object.
+A pointer to the driver's [**DRIVER_OBJECT**](./ns-wdm-_driver_object.md) structure.
 
 ### -param RegistryPath [in]
 
@@ -71,7 +71,7 @@ While it is possible to name this routine something other than **DriverEntry**, 
 
 ### Examples
 
-To define a **DriverEntry** callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors, and it's a requirement for writing drivers for the Windows operating system.
+To define a **DriverEntry** callback routine, you must first provide a function declaration that identifies the type of callback routine you're defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps [Code Analysis for Drivers](/windows-hardware/drivers/devtest/code-analysis-for-drivers), [Static Driver Verifier](/windows-hardware/drivers/devtest/static-driver-verifier) (SDV), and other verification tools find errors.
 
 To define a **DriverEntry** callback routine, use the DRIVER_INITIALIZE type as shown in this code example:
 
