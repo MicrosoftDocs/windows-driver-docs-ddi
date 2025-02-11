@@ -254,7 +254,7 @@ Supported starting with Windows 8.1.
 **pPrivateDriverData** points to a [**D3DKMT_ADAPTERREGISTRYINFO**](ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md) structure, where the last field is actually variable-sized by the caller.
 
 This type queries the registry for information that is commonly cached during driver installation.
-User-mode components must use this technique to support paravirtualized adapters, instead of relying on native OS methods. For more information, see [GPU virtualization](/windows-hardware/drivers/display/gpu-virtualization).
+User-mode components must use this technique to support paravirtualized adapters, instead of relying on native OS methods. For more information, see [GPU virtualization](/windows-hardware/drivers/display/gpu-paravirtualization).
 
 Support for this type started with Windows 10, version 1803 WDDM 2.4.
 
