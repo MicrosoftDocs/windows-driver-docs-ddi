@@ -43,13 +43,13 @@ api_name:
 
 ## -description
 
-Gets the kind of symbol that this is (e.g.: a field, a base class, a type, etc...).
+Gets the kind of symbol that this is (e.g.: a field, a base class, a type, etc.).
 
 ## -parameters
 
 ### -param kind
 
-The kind of symbol (e.g.: a type, field, base class, etc…) will be returned here.
+The kind of symbol (e.g.: a type, field, base class, etc.) will be returned here.
 
 ## -returns
 

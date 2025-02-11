@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The IsTypedef method is the only method capable of seeing whether a type is a typedef. The GetTypeKind method will behave as if called on the underlying type.
+The IsTypedef method is the only method capable of seeing whether a type is a typedef. The [GetTypeKind method](nf-dbgmodel-idebughosttype2-gettypekind.md)  will behave as if called on the underlying type.
 
 ## -parameters
 
@@ -76,7 +76,7 @@ if (SUCCEEDED(spType.As(&spType2)))
 ```
 
 
-Any type which is a typedef will behave as if the type is the final type underlying the typedef. This means that methods such as GetTypeKind will not indicate that the type is a typedef. Likewise, GetBaseType will not return the type the definition refers to. They will instead indicate behave as if they were called on the final definition underlying the typedef. As an example: 
+Any type which is a typedef will behave as if the type is the final type underlying the typedef. This means that methods such as GetTypeKind will not indicate that the type is a typedef. Likewise, the [GetBaseType method](nf-dbgmodel-idebughosttype2-getbasetype.md) will not return the type the definition refers to. They will instead indicate behave as if they were called on the final definition underlying the typedef. As an example: 
 
 ```cpp
 typedef MYSTRUCT *PMYSTRUCT;
@@ -87,7 +87,7 @@ An [IDebugHostType](nn-dbgmodel-idebughosttype.md) for 'either PMYSTRUCT or PTRM
 
 - The GetTypeKind method will return TypePointer. The final underlying type MYSTRUCT * is indeed a pointer.
 
-- The 'GetBaseType method will return a type for MYSTRUCT. The underlying type of MYSTRUCT * is MYSTRUCT.
+- The GetBaseType method will return a type for MYSTRUCT. The underlying type of MYSTRUCT * is MYSTRUCT.
 
 The only difference here is how the typedef specific methods on [IDebugHostType2](nn-dbgmodel-idebughosttype2.md) behave. Those methods are: 
 
@@ -98,6 +98,7 @@ STDMETHOD(GetTypedefBaseType)(_Out_ IDebugHostType2** baseType) PURE;
 
 STDMETHOD(GetTypedefFinalBaseType)(_Out_ IDebugHostType2** finalBaseType) PURE;
 ```
+
 In this example: 
 
 - The IsTypedef method will return true for both PMYSTRUCT and PTRMYSTRUCT
