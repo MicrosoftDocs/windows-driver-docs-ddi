@@ -50,7 +50,7 @@ The GetStorageKind method retrieves the storage kind of the local data.
 
 ### -param kind
 
-An output pointer to a StorageKind type that receives the kind of local storage.
+An output pointer to a [StorageKind type](ne-dbgmodel-storagekind.md) that receives the kind of local storage.
 
 ## -returns
 

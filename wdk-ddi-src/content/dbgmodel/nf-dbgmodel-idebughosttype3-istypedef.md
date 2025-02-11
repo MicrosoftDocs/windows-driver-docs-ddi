@@ -65,11 +65,11 @@ ComPtr<IDebugHostType> spType; /* get a type for a typedef (only FindTypeByName
                                   since the compiler usually only emits base types 
                                   in the symbols for data) */
 
-ComPtr<IDebugHostType2> spType2;
-if (SUCCEEDED(spType.As(&spType2)))
+ComPtr<IDebugHostType3> spType3;
+if (SUCCEEDED(spType.As(&spType3)))
 {
     bool isTypeDef;
-    if (SUCCEEDED(spType2->IsTypedef(&isTypeDef)))
+    if (SUCCEEDED(spType3->IsTypedef(&isTypeDef)))
     {
         // isTypeDef indicates whether the type is a typedef.
     }

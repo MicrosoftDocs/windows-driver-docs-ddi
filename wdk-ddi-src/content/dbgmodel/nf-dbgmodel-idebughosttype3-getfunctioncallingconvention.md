@@ -50,7 +50,7 @@ The GetFunctionCallingConvention method returns the calling convention of the fu
 
 ### -param conventionKind
 
-The calling convention of the function is returned here as a member of the CallingConventionKind enumeration.
+The calling convention of the function is returned here as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind).
 
 ## -returns
 

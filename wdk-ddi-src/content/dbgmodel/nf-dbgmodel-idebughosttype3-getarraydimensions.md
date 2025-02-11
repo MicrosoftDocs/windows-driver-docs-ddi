@@ -57,7 +57,7 @@ For C-style arrays, a single array dimension is returned here with values which 
 ### -param dimensions
 
 Indicates the number of dimension descriptors to fetch. This must be the value acquired from a call to GetArrayDimensionality.
-A buffer of dimensions ArrayDimension structures which will be filled in to fully describe the layout of the array in memory.
+A buffer of dimensions [ArrayDimension structures](ns-dbgmodel-arraydimension.md) which will be filled in to fully describe the layout of the array in memory.
 
 ### -param pDimensions
 

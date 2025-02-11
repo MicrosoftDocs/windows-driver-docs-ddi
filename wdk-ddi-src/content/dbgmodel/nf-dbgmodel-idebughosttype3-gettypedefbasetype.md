@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The GetTypedefBaseType method will return what the immediate definition of the typedef. In this examples: 
+The GetTypedefBaseType method will return what the immediate definition of the typedef. In this example: 
 
 ```cpp
 typedef MYSTRUCT *PMYSTRUCT;
@@ -71,11 +71,11 @@ This method returns HRESULT that indicates success or failure.
 ComPtr<IDebugHostType> spType; /* get a typedef type (only FindTypeByName since 
                                   the compiler usually emits base types for data) */
 
-ComPtr<IDebugHostType2> spType2;
-if (SUCCEEDED(spType.As(&spType2)))
+ComPtr<IDebugHostType3> spType3;
+if (SUCCEEDED(spType.As(&spType3)))
 {
     ComPtr<IDebugHostType> spBaseType;
-    if (SUCCEEDED(spType2->GetTypedefBaseType(&spBaseType)))
+    if (SUCCEEDED(spType3->GetTypedefBaseType(&spBaseType)))
     {
         // Returns the immediate base type of the typedef.  This may 
         // be another typedef.

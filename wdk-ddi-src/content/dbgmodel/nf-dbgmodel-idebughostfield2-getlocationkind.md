@@ -57,7 +57,7 @@ The GetLocationKind method returns what kind of location the symbol is at accord
 
 ### -param locationKind
 
-The kind of location for this field will be returned here as a value of the LocationKind enumeration.
+The kind of location for this field will be returned here as a value of the [LocationKind enumeration](ne-dbgmodel-locationkind).
 
 ## -returns
 
