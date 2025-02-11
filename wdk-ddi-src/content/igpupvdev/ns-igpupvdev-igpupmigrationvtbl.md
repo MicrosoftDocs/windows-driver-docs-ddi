@@ -1,10 +1,10 @@
 ---
 UID: NS:igpupvdev.IGPUPMigrationVtbl
-tech.root: 
+tech.root: display
 title: IGPUPMigrationVtbl
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
-description: 
+description: Learn more about the IGPUPMigrationVtbl structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -41,21 +41,40 @@ helpviewer_keywords:
 
 ## -description
 
+The **IGPUPMigrationVtbl** structure defines the virtual table for the [**IGPUPMigration**](nn-igpupvdev-igpupmigration.md) interface.
+
 ## -struct-fields
 
 ### -field b
 
 ### -field QueryInterface
 
+Retrieves pointers to supported interfaces.
+
 ### -field AddRef
+
+Increments the reference count for an interface on an object.
 
 ### -field Release
 
+Decrements the reference count for an interface on an object.
+
 ### -field SaveImmutableGpup
+
+Method to save the immutable GPU partition.
 
 ### -field RestoreImmutableGpup
 
+Method to restore the immutable GPU partition.
+
 ## -remarks
+
+For more information see [Live migration on GPU-P machines](/windows-hardware/drivers/display/live-migration-on-gpup-devices).
 
 ## -see-also
 
+[**RestoreImmutableGpup**](nf-igpupvdev-igpupmigration-restoreimmutablegpup.md)
+
+[**SaveImmutableGpup**](nf-igpupvdev-igpupmigration-saveimmutablegpup.md)
+
+[**IGPUPMigration**](nn-igpupvdev-igpupmigration.md)
