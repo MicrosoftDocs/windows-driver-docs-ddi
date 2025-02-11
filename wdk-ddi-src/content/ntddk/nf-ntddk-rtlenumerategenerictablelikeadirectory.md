@@ -59,11 +59,11 @@ The data to pass to the match function.
 
 ### -param NextFlag [in]
 
-If *RestartKey* is not **NULL**, a value of **TRUE** indicates that the enumeration will skip an element. If **FALSE** the enumeration resumes where it left off in the previous call to **RtlEnumerateGenericTableLikeADirectory**. If *RestartKey* is **NULL**, a value of **TRUE** instructs **RtlEnumerateGenericTableLikeADirectory** to return the next entry in the tree after the entry that matches the data in *Buffer*. A value of **FALSE** instructs **RtlEnumerateGenericTableLikeADirectory** to return the entry in the tree that matches the data in *Buffer*.
+If *\*RestartKey* is not **NULL**, a value of **TRUE** indicates that the enumeration will skip an element. If **FALSE** the enumeration resumes where it left off in the previous call to **RtlEnumerateGenericTableLikeADirectory**. If *\*RestartKey* is **NULL**, a value of **TRUE** instructs **RtlEnumerateGenericTableLikeADirectory** to return the next entry in the tree after the entry that matches the data in *Buffer*. A value of **FALSE** instructs **RtlEnumerateGenericTableLikeADirectory** to return the entry in the tree that matches the data in *Buffer*.
 
 ### -param RestartKey [in, out]
 
-A value that determines where to begin or resume the enumeration of generic table elements. If *RestartKey* is **NULL**, the enumeration begins or resumes from the position that is described in *Buffer*. If not **NULL**, the enumeration resumes from the point that *RestartKey* indicates. On return, the *RestartKey* holds a value that indicates the place in the tree where the enumeration left off. On the next call to **RtlEnumerateGenericTableLikeADirectory** caller should pass the same value back in to inform **RtlEnumerateGenericTableLikeADirectory** where to resume the enumeration. The following code example illustrates how to do this:
+A value that determines where to begin or resume the enumeration of generic table elements. If *\*RestartKey* is **NULL**, the enumeration begins or resumes from the position that is described in *Buffer*. If not **NULL**, the enumeration resumes from the point that *RestartKey* indicates. On return, the *RestartKey* holds a value that indicates the place in the tree where the enumeration left off. On the next call to **RtlEnumerateGenericTableLikeADirectory** caller should pass the same value back in to inform **RtlEnumerateGenericTableLikeADirectory** where to resume the enumeration. The following code example illustrates how to do this:
 
 ```cpp
 NextFlag = FALSE;
@@ -87,15 +87,15 @@ for (ptr = NULL; ptr != NULL;  ) {
 }
 ```
 
-If a node is deleted from the tree between calls to **RtlEnumerateGenericTableLikeADirectory**, enumeration resumes from the position in the tree that is described in *Buffer*, no matter what the value of *RestartKey*.
+If a node is deleted from the tree between calls to **RtlEnumerateGenericTableLikeADirectory**, enumeration resumes from the position in the tree that is described in *Buffer*, no matter what the value of *\*RestartKey*.
 
 ### -param DeleteCount [in, out]
 
-On output, a value that indicates the current count of entries deleted from the table. Caller must pass this value back in on the next call to **RtlEnumerateGenericTableLikeADirectory**. This value helps the **RtlEnumerateGenericTableLikeADirectory** routine determine if deletions from the table have occurred between calls to **RtlEnumerateGenericTableLikeADirectory**. If deletions have occurred, the enumeration resumes with the table entry that matches the data in *Buffer*, and not with the table entry indicated by *RestartKey*. If *RestartKey* is **NULL**, this parameter has no effect on the enumeration..
+On output, a value that indicates the current count of entries deleted from the table. Caller must pass this value back in on the next call to **RtlEnumerateGenericTableLikeADirectory**. This value helps the **RtlEnumerateGenericTableLikeADirectory** routine determine if deletions from the table have occurred between calls to **RtlEnumerateGenericTableLikeADirectory**. If deletions have occurred, the enumeration resumes with the table entry that matches the data in *Buffer*, and not with the table entry indicated by *RestartKey*. If *\*RestartKey* is **NULL**, this parameter has no effect on the enumeration..
 
 ### -param Buffer [in]
 
-A key expression that determines where to begin the enumeration, when *RestartKey* is **NULL**. Caller can pass in a saved key that matches a particular entry in the table and the enumeration will begin at the entry specified by the saved key, provided *RestartKey* is **NULL** and *NextFlag* is **FALSE**. To return the key that immediately follows a saved key, pass in the key here, set *RestartKey* to **NULL** and *NextFlag* to **TRUE**. If the saved key has been deleted, enumeration will begin with the next matched key.
+A key expression that determines where to begin the enumeration, when *\*RestartKey* is **NULL**. Caller can pass in a saved key that matches a particular entry in the table and the enumeration will begin at the entry specified by the saved key, provided *\*RestartKey* is **NULL** and *NextFlag* is **FALSE**. To return the key that immediately follows a saved key, pass in the key here, set *\*RestartKey* to **NULL** and *NextFlag* to **TRUE**. If the saved key has been deleted, enumeration will begin with the next matched key.
 
 ## -returns
 
