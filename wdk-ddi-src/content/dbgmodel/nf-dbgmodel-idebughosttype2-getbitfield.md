@@ -45,7 +45,7 @@ api_name:
 
 If a given member of a data structure is a bitfield (e.g.: ULONG MyBits:8), the type information for the field carries with it information about the bitfield placement. The GetBitField method can be used to retrieve that information. This method will fail on any type which is not a bitfield. This is the only reason the method will fail. Simply calling this method and looking at success/failure is sufficient to distinguish a bit field from a non-bit field.
 
-If a given type does happen to be a bitfield, the field positions are defined by the half open set (lsbOfField + lengthOfField : lsbOfField]
+If a given type does happen to be a bitfield, the field positions are defined by the half open set (lsbOfField + lengthOfField : lsbOfField].
 
 ## -parameters
 
