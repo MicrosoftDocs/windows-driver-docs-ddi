@@ -1,14 +1,12 @@
 ---
 UID: NE:d3dumddi._D3DDDI_QUERYADAPTERTYPE
-title: _D3DDDI_QUERYADAPTERTYPE (d3dumddi.h)
-description: Query for the display adapter type.
-ms.date: 10/19/2018
-keywords: ["D3DDDI_QUERYADAPTERTYPE enumeration"]
-ms.keywords: _D3DDDI_QUERYADAPTERTYPE, D3DDDI_QUERYADAPTERTYPE,
+title: D3DDDI_QUERYADAPTERTYPE (d3dumddi.h)
+description: Learn more about the D3DDDI_QUERYADAPTERTYPE enumeration.
+ms.date: 02/06/2025
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -33,20 +31,28 @@ api_name:
  - D3DDDI_QUERYADAPTERTYPE
 ---
 
-# _D3DDDI_QUERYADAPTERTYPE enumeration
-
+# D3DDDI_QUERYADAPTERTYPE enumeration
 
 ## -description
 
-Query for the display adapter type.
+The **D3DDDI_QUERYADAPTERTYPE** enumeration specifies the type of query for [**pfnQueryAdapterInfoCb2**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md).
 
 ## -enum-fields
 
 ### -field D3DDDI_QUERYADAPTERTYPE_DRIVERPRIVATE
 
-Private.
+Query the driver's private data.
 
 ### -field D3DDDI_QUERYADAPTERTYPE_QUERYREGISTRY
 
-Query registry.
+Query for information stored in the registry.
 
+### -field D3DDDI_QUERYADAPTERTYPE_APPLICATIONSPECIFICDRIVERBLOB
+
+Query for an application-specific driver blob.
+
+## -see-also
+
+[**D3DDDICB_QUERYADAPTERINFO2**](ns-d3dumddi-_d3dddicb_queryadapterinfo2.md)
+
+[**pfnQueryAdapterInfoCb2**](nc-d3dumddi-pfnd3dddi_queryadapterinfocb2.md)

@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_HWDRM_SUPPORT
-title: _D3DKMT_HWDRM_SUPPORT (d3dkmthk.h)
-description: Hardware DRM support.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_HWDRM_SUPPORT structure"]
-ms.keywords: _D3DKMT_HWDRM_SUPPORT, D3DKMT_HWDRM_SUPPORT,
+title: D3DKMT_HWDRM_SUPPORT (d3dkmthk.h)
+description: Learn more about the D3DKMT_HWDRM_SUPPORT structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,21 +37,18 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_HWDRM_SUPPORT structure
-
+# D3DKMT_HWDRM_SUPPORT structure
 
 ## -description
 
-Hardware DRM support.
+The **D3DKMT_HWDRM_SUPPORT** structure indicates whether hardware digital rights management (DRM) is supported.
 
 ## -struct-fields
 
 ### -field Supported
 
- 
-DRM is supported.
-
-## -remarks
+Boolean value that indicates whether hardware DRM is supported.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

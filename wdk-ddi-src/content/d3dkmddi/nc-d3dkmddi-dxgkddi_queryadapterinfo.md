@@ -2,12 +2,11 @@
 UID: NC:d3dkmddi.DXGKDDI_QUERYADAPTERINFO
 title: DXGKDDI_QUERYADAPTERINFO (d3dkmddi.h)
 description: Learn more about the DXGKDDI_QUERYADAPTERINFO callback function.
-ms.date: 03/28/2024
-keywords: ["DXGKDDI_QUERYADAPTERINFO callback function"]
+ms.date: 02/03/2025
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows Vista
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,7 +44,7 @@ dev_langs:
 
 ## -description
 
-The display miniport's (KMD's) **DxgkDdiQueryAdapterInfo** function retrieves configuration information from the graphics adapter.
+*Dxgkrnl* calls the display miniport driver's (KMD's) **DxgkDdiQueryAdapterInfo** function to retrieve configuration information from the graphics adapter.
 
 ## -parameters
 
@@ -59,24 +58,23 @@ A pointer to a [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapteri
 
 ## -returns
 
-**DxgkDdiQueryAdapterInfo** returns one of the following values:
+**DxgkDdiQueryAdapterInfo** returns STATUS_SUCCESS when it successfully retrieves the configuration information. Otherwise, it returns an NTSTATUS code such as one of the following values:
 
-|Return code|Description|
-|--- |--- |
-|STATUS_SUCCESS|DxgkDdiQueryAdapterInfo successfully retrieved the configuration information.|
-|STATUS_INVALID_PARAMETER|Parameters that were passed to DxgkDdiQueryAdapterInfo contained errors that prevented it from completing.|
-|STATUS_NO_MEMORY|DxgkDdiQueryAdapterInfo could not allocate memory that was required for it to complete.|
-|STATUS_GRAPHICS_DRIVER_MISMATCH|The display miniport driver is not compatible with the user-mode display driver that initiated the call to DxgkDdiQueryAdapterInfo (that is, supplied private data for a query to the display miniport driver).|
+| Return code | Description |
+| ----------- | ----------- |
+| STATUS_INVALID_PARAMETER        | One or more passed parameter contained errors that prevented it from completing.|
+| STATUS_NO_MEMORY                | **DxgkDdiQueryAdapterInfo** couldn't allocate memory that was required for it to complete.|
+| STATUS_GRAPHICS_DRIVER_MISMATCH | The KMD isn't compatible with the user-mode display driver (UMD) that initiated the call to **DxgkDdiQueryAdapterInfo** (that is, supplied private data for a query to the KMD). |
 
 ## -remarks
 
-When the user-mode display driver calls the [**pfnQueryAdapterInfoCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md) function, a call to the **DxgkDdiQueryAdapterInfo** function is initiated. 
+When the UMD calls the Direct3D runtime's [**pfnQueryAdapterInfoCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_queryadapterinfocb.md) callback, a call to the **DxgkDdiQueryAdapterInfo** function is initiated.
 
-If **DxgkDdiQueryAdapterInfo** receives the DXGKQAITYPE_UMDRIVERPRIVATE value in the **Type** member of the [**DXGKARG_QUERYADAPTERINFO**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md) structure that the **pQueryAdapterInfo** parameter points to, **pOutputData** points to a proprietary structure that KMD fills with the configuration information that is necessary for the user-mode display driver to identify the adapter.
+* If *Dxgkrnl* specifies DXGKQAITYPE_UMDRIVERPRIVATE in [**DXGKARG_QUERYADAPTERINFO::Type**](ns-d3dkmddi-_dxgkarg_queryadapterinfo.md), **pOutputData** points to a proprietary structure that KMD fills with the configuration information that is necessary for the UMD to identify the adapter.
 
-If *Dxgkrnl* specifies the DXGKQAITYPE_DRIVERCAPS value in the **Type** member of DXGKARG_QUERYADAPTERINFO when the subsystem calls **DxgkDdiQueryAdapterInfo**, the display miniport driver should populate the provided [**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md) structure with information that the subsystem can use.
+* If *Dxgkrnl* specifies DXGKQAITYPE_DRIVERCAPS in **DXGKARG_QUERYADAPTERINFO::Type**, the KMD should populate the provided [**DXGK_DRIVERCAPS**](ns-d3dkmddi-_dxgk_drivercaps.md) structure with information that the subsystem can use.
 
-If the DirectX graphics kernel subsystem supplies the DXGKQAITYPE_QUERYSEGMENT value in the **Type** member of DXGKARG_QUERYADAPTERINFO, the display miniport driver should provide information about the memory segments that it supports. For more information about memory segments, see [Initializing Use of Memory Segments](/windows-hardware/drivers/display/initializing-use-of-memory-segments).
+* If *Dxgkrnl* specifies DXGKQAITYPE_QUERYSEGMENT in **DXGKARG_QUERYADAPTERINFO::Type**, the KMD should provide information about the memory segments that it supports. For more information about memory segments, see [Initializing Use of Memory Segments](/windows-hardware/drivers/display/initializing-use-of-memory-segments).
 
 **DxgkDdiQueryAdapterInfo** should be made pageable.
 

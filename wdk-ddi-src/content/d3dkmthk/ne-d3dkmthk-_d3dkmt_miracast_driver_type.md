@@ -1,14 +1,12 @@
 ---
 UID: NE:d3dkmthk._D3DKMT_MIRACAST_DRIVER_TYPE
-title: _D3DKMT_MIRACAST_DRIVER_TYPE (d3dkmthk.h)
-description: Miracast (wireless display) driver types.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_MIRACAST_DRIVER_TYPE enumeration"]
-ms.keywords: _D3DKMT_MIRACAST_DRIVER_TYPE, D3DKMT_MIRACAST_DRIVER_TYPE,
+title: D3DKMT_MIRACAST_DRIVER_TYPE (d3dkmthk.h)
+description: Learn more about the D3DKMT_MIRACAST_DRIVER_TYPE enumeration.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -36,28 +34,26 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_MIRACAST_DRIVER_TYPE enumeration
-
+# D3DKMT_MIRACAST_DRIVER_TYPE enumeration
 
 ## -description
 
-Miracast (wireless display) driver types.
+The **D3DKMT_MIRACAST_DRIVER_TYPE** enumeration specifies the Miracast (wireless display) driver types.
 
 ## -enum-fields
 
-### -field D3DKMT_MIRACAST_DRIVER_NOT_SUPPORTED 
+### -field D3DKMT_MIRACAST_DRIVER_NOT_SUPPORTED
 
-Not supported.
+The driver doesn't support Miracast.
 
-### -field D3DKMT_MIRACAST_DRIVER_IHV 
+### -field D3DKMT_MIRACAST_DRIVER_IHV
 
-IHV.
+Miracast support is provided by an IHV driver.
 
-### -field D3DKMT_MIRACAST_DRIVER_MS 
+### -field D3DKMT_MIRACAST_DRIVER_MS
 
-Microsoft.
-
-## -remarks
+Miracast support is provided by a Microsoft driver.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)
