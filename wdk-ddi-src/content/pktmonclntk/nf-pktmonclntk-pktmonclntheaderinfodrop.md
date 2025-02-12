@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntHeaderInfoDrop
 tech.root: 
 title: PktMonClntHeaderInfoDrop
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,23 +44,48 @@ helpviewer_keywords:
 
 ## -description
 
+This function is used to log that a network packet was dropped.
+
 ## -parameters
 
 ### -param CompContext
 
+Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
+
 ### -param PacketType
+
+The type of packet being logged. This must be one of the values defined in the PKTMON_PACKET_TYPE enumeration.
 
 ### -param PacketHeaderInformation
 
+Pointer to structure PKTMON_PACKET_HEADER_INFORMATION containing the packet header information.
+
 ### -param Direction
+
+Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from PKTMON_DIRECTION enumeration.
 
 ### -param DropReason
 
+Integer that indicates the reason for the packet to be dropped.
+
 ### -param LocationCode
 
+Integer that indicates the location where the packet got dropped.
+
 ### -param Context
+
+Pointer to structure PKTMON_PACKET_CONTEXT_IN containing the packet context. Can be NULL.
 
 ## -remarks
 
 ## -see-also
 
+- [PktMonClntInitialize]()
+- [PktMonClntUninitialize]()
+- [PktMonClntComponentRegister]()
+- [PktMonClntComponentUnregister]()
+- [PktMonClntSetComponentProperty]()
+- [PktMonClntAddEdge]()
+- [PktMonClntNblLog]()
+- [PktMonClntNblDrop]()
+- [PktMonClntHeaderInfoLog]()

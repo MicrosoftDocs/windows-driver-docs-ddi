@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_EVT_STREAM_METADATA
 tech.root: 
 title: PKTMON_EVT_STREAM_METADATA
-ms.date: 
+ms.date: 02/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_EVT_STREAM_METADATA structure contains metadata information used for event streaming.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+The **PKTMON_EVT_STREAM_METADATA** structure contains metadata information used for event streaming.
 
 ## -struct-fields
 

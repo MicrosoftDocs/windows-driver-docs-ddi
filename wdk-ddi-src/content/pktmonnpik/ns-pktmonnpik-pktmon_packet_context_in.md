@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_PACKET_CONTEXT_IN
 tech.root: 
 title: PKTMON_PACKET_CONTEXT_IN
-ms.date: 
+ms.date: 02/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_PACKET_CONTEXT_IN struct is used to contain the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,17 +44,31 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_PACKET_CONTEXT_IN** struct is used to contain the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID.
+
 ## -struct-fields
 
 ### -field Header
 
+Common header for version control.
+
 ### -field Id
+
+Integer that is meaningful to the component, representing the type of data stored by fields *Value* and *Size*.
 
 ### -field Value
 
+Pointer to the value stored in the packet context.
+
 ### -field Size
+
+Size of the data pointed to by Value.
 
 ## -remarks
 
-## -see-also
+Currently only size 8 (sizeof(UINT64)) is supported. This implies that Value should point to a UINT64.
 
+### -see-also
+
+- [PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)
+- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)

@@ -2,9 +2,9 @@
 UID: NE:pktmonnpik._PKTMON_PACKET_CONTEXT_ID
 tech.root: 
 title: PKTMON_PACKET_CONTEXT_ID
-ms.date: 
+ms.date: 02/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_PACKET_CONTEXT_ID enum defines the various packet context identifiers that can be registered with Packet Monitor.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,13 +40,18 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_PACKET_CONTEXT_ID** enum defines the various packet context identifiers that can be registered with Packet Monitor.
+
 ## -enum-fields
 
 ### -field PktMonPacketContext_Unspecified
 
+The packet context is not defined.
+
 ### -field PktMonPacketContext_HttpRequestId
+
+The packet context is an HTTP request ID.
 
 ## -remarks
 
 ## -see-also
-

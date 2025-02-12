@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_COMPONENT_UNREGISTER
 tech.root: 
 title: PKTMON_CLNT_COMPONENT_UNREGISTER
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,11 +44,24 @@ helpviewer_keywords:
 
 ## -description
 
+This callback function is invoked when a component is unregistered with Packet Monitor.
+
 ## -parameters
 
 ### -param CompContext
+
+Pointer to **PKTMON_COMPONENT_CONTEXT** which holds the context for the component. This is the same context used with **PktMonClntComponentRegister**.
 
 ## -remarks
 
 ## -see-also
 
+- [PktMonClntInitialize]()
+- [PktMonClntUninitialize]()
+- [PktMonClntComponentRegister]()
+- [PktMonClntSetComponentProperty]()
+- [PktMonClntAddEdge]()
+- [PktMonClntNblLog]()
+- [PktMonClntNblDrop]()
+- [PktMonClntHeaderInfoLog]()
+- [PktMonClntHeaderInfoDrop]()

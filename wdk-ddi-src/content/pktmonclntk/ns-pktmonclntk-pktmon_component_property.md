@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_COMPONENT_PROPERTY
 tech.root: 
 title: PKTMON_COMPONENT_PROPERTY
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,45 +44,84 @@ helpviewer_keywords:
 
 ## -description
 
+This struct is used to describe a property of a component in the Packet Monitor.
+
 ## -struct-fields
 
 ### -field Id
 
+The ID of the property.
+
 ### -field IfIndex
+
+Corresponds to PktMonCompProp_IfIndex.
 
 ### -field MiniportIfIndex
 
+Corresponds to PktMonCompProp_MiniportIfIndex.
+
 ### -field LowerIfIndex
+
+Corresponds to PktMonCompProp_LowerIfIndex.
 
 ### -field VmsExtIfIndex
 
+Corresponds to PktMonCompProp_VmsExtIfIndex.
+
 ### -field LowestIfIndex
+
+Corresponds to PktMonCompProp_LowestIfIndex.
 
 ### -field NdisMedium
 
+Corresponds to PktMonCompProp_NdisMedium.
+
 ### -field IpIfIndex
+
+Corresponds to PktMonCompProp_IpIfIndex.
 
 ### -field Vsid
 
+Corresponds to PktMonCompProp_Vsid.
+
 ### -field Vlan
+
+Corresponds to PktMonCompProp_Vlan.
 
 ### -field CompartmentId
 
+Corresponds to PktMonCompProp_CompartmentId.
+
 ### -field OptDataPath
+
+Corresponds to PktMonCompProp_OptDataPath.
 
 ### -field NdisObject
 
+Corresponds to PktMonCompProp_NdisObject.
+
 ### -field EtherType
+
+Corresponds to PktMonCompProp_EtherType.
 
 ### -field IfGuid
 
+Corresponds to PktMonCompProp_IfGuid.
+
 ### -field MacAddress
+
+Corresponds to PktMonCompProp_PhysAddress.
 
 ### -field VMSwitchName[PKTMON_MAX_PROPERTY_LENGTH_BYTES]
 
+Corresponds to PktMonCompProp_VMSwitchName.
+
 ### -field SockAddr
+
+Corresponds to PktMonCompProp_IpAddress.
 
 ## -remarks
 
-## -see-also
+### -see-also
 
+- [PktMonClntSetComponentProperty]()

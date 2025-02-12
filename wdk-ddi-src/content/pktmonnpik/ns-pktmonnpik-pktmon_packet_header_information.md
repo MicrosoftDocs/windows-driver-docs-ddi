@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_PACKET_HEADER_INFORMATION
 tech.root: 
 title: PKTMON_PACKET_HEADER_INFORMATION
-ms.date: 
+ms.date: 02/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_PACKET_HEADER_INFORMATION struct contains the packet header information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,15 +44,25 @@ helpviewer_keywords:
 
 ## -description
 
+The PKTMON_PACKET_HEADER_INFORMATION struct contains the packet header information.
+
 ## -struct-fields
 
 ### -field SockAddrLocal
 
+The local socket address.
+
 ### -field SockAddrRemote
+
+The remote socket address.
 
 ### -field IpProtocol
 
+The IP protocol.
+
 ### -field Transport
+
+The transport protocol.
 
 ### -field Transport.Udp
 
@@ -80,3 +90,7 @@ helpviewer_keywords:
 
 ## -see-also
 
+- [PktMonClntNblLog](../pktmonclntk/nf-pktmonclntk-pktmonclntnbllog.md)
+- [PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)
+- [PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)
+- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)

@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLIENT_COMP_NOTIFY
 tech.root: 
 title: PKTMON_CLIENT_COMP_NOTIFY
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,9 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
+The callback function is invoked by Packet Monitor to notify a component.
+
 ## -parameters
 
 ### -param CompContext
+
+Pointer to **PKTMON_COMPONENT_CONTEXT** which holds the context for the component. This is the same context used with **PktMonClntComponentRegister**.
 
 ## -remarks
 

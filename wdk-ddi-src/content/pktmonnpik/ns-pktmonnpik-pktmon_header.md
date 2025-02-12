@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_HEADER
 tech.root: 
 title: PKTMON_HEADER
-ms.date: 
+ms.date: 02/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_HEADER struct is a common header for version control.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,23 @@ helpviewer_keywords:
 
 ## -description
 
+The PKTMON_HEADER struct is a common header for version control.
+
 ## -struct-fields
 
 ### -field Size
 
+Should contain the size of structure PKTMON_PACKET_CONTEXT_IN.
+
 ### -field Version
+
+Contains the version being used.
 
 ## -remarks
 
-## -see-also
+Currently only version 0 is supported.
 
+### -see-also
+
+- [PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)
+- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)

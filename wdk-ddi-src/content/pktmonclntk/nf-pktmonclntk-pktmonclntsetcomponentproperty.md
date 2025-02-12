@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntSetComponentProperty
 tech.root: 
 title: PktMonClntSetComponentProperty
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,15 +44,32 @@ helpviewer_keywords:
 
 ## -description
 
+This function is used to set properties that are meaningful to the component. A component can have multiple properties, and PktMonClntSetComponentProperty should be called once for each one of them. These properties can be used to describe the component in more detail.
+
 ## -parameters
 
 ### -param CompContext
 
+Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
+
 ### -param CompProperty
 
+Pointer to structure PKTMON_COMPONENT_PROPERTY which describes the property to be set.
+
 ## -returns
+
+If the function succeeds, it returns STATUS_SUCCESS. Otherwise, it returns a NTSTATUS error code.
 
 ## -remarks
 
 ## -see-also
 
+- [PktMonClntInitialize]()
+- [PktMonClntUninitialize]()
+- [PktMonClntComponentRegister]()
+- [PktMonClntComponentUnregister]()
+- [PktMonClntAddEdge]()
+- [PktMonClntNblLog]()
+- [PktMonClntNblDrop]()
+- [PktMonClntHeaderInfoLog]()
+- [PktMonClntHeaderInfoDrop]()

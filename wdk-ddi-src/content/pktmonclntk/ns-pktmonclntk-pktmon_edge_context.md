@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_EDGE_CONTEXT
 tech.root: 
 title: PKTMON_EDGE_CONTEXT
-ms.date: 
+ms.date: 02/10/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,17 +44,32 @@ helpviewer_keywords:
 
 ## -description
 
+This struct is used to store the context information for an edge in a Packet Monitor component.
+
 ## -struct-fields
 
 ### -field ListLink
 
+Used to track all the edge contexts belonging to a component. ListLink can be used to access these edge contexts.
+
 ### -field EdgeHandle
+
+Handle for the edge.
 
 ### -field CompContext
 
+Pointer to the component context.
+
 ### -field PacketType
+
+The type of packet being handled by the edge.
 
 ## -remarks
 
-## -see-also
+A component can have multiple edges, and *ListLink* is used to track all the edge contexts belonging to a component.
 
+### -see-also
+
+- [PktMonClntAddEdge]()
+- [PktMonClntNblLog]()
+- [PktMonClntHeaderInfoLog]()
