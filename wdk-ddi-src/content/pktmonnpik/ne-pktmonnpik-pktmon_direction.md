@@ -4,7 +4,7 @@ tech.root:
 title: PKTMON_DIRECTION
 ms.date: 02/12/2025
 targetos: Windows
-description: The PKTMON_DIRECTION enum defines the two possible directions that each component reports packets in: IN or OUT.
+description: The PKTMON_DIRECTION enum defines the two possible directions in which each component reports packets, IN or OUT.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_DIRECTION** enum defines the two possible directions that each component reports packets in: IN or OUT.
+The **PKTMON_DIRECTION** enum defines the two possible directions in which each component reports packets, IN or OUT.
 
 ## -enum-fields
 
