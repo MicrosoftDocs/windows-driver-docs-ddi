@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._LCN_WEAK_REFERENCE_VCN_MAPPING
-tech.root: 
+tech.root: ifsk
 title: LCN_WEAK_REFERENCE_VCN_MAPPING
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: LCN_WEAK_REFERENCE_VCN_MAPPING, *PLCN_WEAK_REFERENCE_VCN_MAPPING
@@ -47,6 +47,8 @@ helpviewer_keywords:
 
 ## -description
 
+**LCN_WEAK_REFERENCE_VCN_MAPPING** is reserved for system use.
+
 ## -struct-fields
 
 ### -field Vcn
@@ -54,8 +56,3 @@ helpviewer_keywords:
 ### -field Lcn
 
 ### -field CountOfRange
-
-## -remarks
-
-## -see-also
-

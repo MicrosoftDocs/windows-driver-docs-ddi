@@ -1,10 +1,10 @@
 ---
 UID: NF:ntifs.FsRtlCheckFileSystemFilterCallbacksRegistered
-tech.root: 
+tech.root: ifsk
 title: FsRtlCheckFileSystemFilterCallbacksRegistered
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the FsRtlCheckFileSystemFilterCallbacksRegistered function.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, version 24H2
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,13 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+The **FsRtlCheckFileSystemFilterCallbacksRegistered** routine checks whether the driver object has already registered file system filter callbacks under its driver extension field.
+
 ## -parameters
 
 ### -param FilterDriverObject
 
+[in] Pointer to the driver object for the filter driver or filesystem that might have registered file system filter callbacks.
+
 ## -returns
 
-## -remarks
-
-## -see-also
-
+**FsRtlCheckFileSystemFilterCallbacksRegistered** returns TRUE if the driver object has already registered file system filter callbacks; otherwise, it returns FALSE.

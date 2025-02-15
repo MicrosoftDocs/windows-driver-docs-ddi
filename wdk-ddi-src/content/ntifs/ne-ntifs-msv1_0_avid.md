@@ -1,10 +1,10 @@
 ---
 UID: NE:ntifs.MSV1_0_AVID
-tech.root: 
+tech.root: ifsk
 title: MSV1_0_AVID
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -37,6 +37,8 @@ helpviewer_keywords:
 
 ## -description
 
+Reserved for system use.
+
 ## -enum-fields
 
 ### -field MsvAvEOL
@@ -60,8 +62,3 @@ helpviewer_keywords:
 ### -field MsvAvTargetName
 
 ### -field MsvAvChannelBindings
-
-## -remarks
-
-## -see-also
-

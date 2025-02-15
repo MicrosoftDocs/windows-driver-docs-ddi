@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER
-tech.root: 
+tech.root: ifsk
 title: LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER, *PLCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER
@@ -47,13 +47,10 @@ helpviewer_keywords:
 
 ## -description
 
+**LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER** is reserved for system use.
+
 ## -struct-fields
 
 ### -field RangeCount
 
 ### -field Ranges[ANYSIZE_ARRAY]
-
-## -remarks
-
-## -see-also
-

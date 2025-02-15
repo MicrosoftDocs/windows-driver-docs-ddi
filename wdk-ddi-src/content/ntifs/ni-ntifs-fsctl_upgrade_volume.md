@@ -1,10 +1,10 @@
 ---
 UID: NI:ntifs.FSCTL_UPGRADE_VOLUME
-tech.root: 
+tech.root: ifsk
 title: FSCTL_UPGRADE_VOLUME
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the FSCTL_UPGRADE_VOLUME control code.
 prerelease: false
 req.construct-type: ioctl
 req.ddi-compliance: 
@@ -16,7 +16,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, version 24H2
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -40,6 +40,8 @@ helpviewer_keywords:
 
 ## -description
 
+**FSCTL_UPGRADE_VOLUME** triggers a volume upgrade.
+
 ## -ioctlparameters
 
 ### -ioctl-major-code
@@ -57,8 +59,3 @@ helpviewer_keywords:
 ### -inout-buffer-length
 
 ### -status-block
-
-## -remarks
-
-## -see-also
-

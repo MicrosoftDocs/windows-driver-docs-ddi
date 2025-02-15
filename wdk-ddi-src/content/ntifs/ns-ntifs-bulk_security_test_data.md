@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.BULK_SECURITY_TEST_DATA
-tech.root: 
+tech.root: ifsk
 title: BULK_SECURITY_TEST_DATA
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the BULK_SECURITY_TEST_DATA structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: BULK_SECURITY_TEST_DATA, *PBULK_SECURITY_TEST_DATA
@@ -44,13 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+The **BULK_SECURITY_TEST_DATA** structure is used with the [**FSCTL_SECURITY_ID_CHECK**](ni-ntifs-fsctl_security_id_check.md) control code to verify security identifiers (SIDs) against specified access rights in bulk.
+
 ## -struct-fields
 
 ### -field DesiredAccess
 
+An [**ACCESS_MASK**](/windows/win32/secauthz/access-mask) value that specifies the access rights to be checked against the provided security identifiers. This mask defines the permissions required for the operation.
+
 ### -field SecurityIds[1]
 
-## -remarks
+An array of security identifiers (SIDs) to be tested.
 
 ## -see-also
 
+[**FSCTL_SECURITY_ID_CHECK**](ni-ntifs-fsctl_security_id_check.md)
+
+[**ACCESS_MASK**](/windows/win32/secauthz/access-mask)

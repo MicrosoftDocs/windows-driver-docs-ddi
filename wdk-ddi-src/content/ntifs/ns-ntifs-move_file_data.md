@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.MOVE_FILE_DATA
-tech.root: 
+tech.root: ifsk
 title: MOVE_FILE_DATA
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the MOVE_FILE_DATA structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: MOVE_FILE_DATA, *PMOVE_FILE_DATA
@@ -44,17 +44,26 @@ helpviewer_keywords:
 
 ## -description
 
+The **MOVE_FILE_DATA** structure contains input data for the [**FSCTL_MOVE_FILE**](ni-ntifs-fsctl_move_file.md) control code.
+
 ## -struct-fields
 
 ### -field FileHandle
 
+Handle to the file to be moved.
+
 ### -field StartingVcn
+
+A VCN (cluster number relative to the beginning of a file) of the first cluster to be moved.
 
 ### -field StartingLcn
 
+An LCN (cluster number on a volume) to which the VCN is to be moved.
+
 ### -field ClusterCount
 
-## -remarks
+The count of clusters to be moved.
 
 ## -see-also
 
+[**FSCTL_MOVE_FILE**](ni-ntifs-fsctl_move_file.md)

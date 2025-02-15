@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.STARTING_LCN_INPUT_BUFFER
-tech.root: 
+tech.root: ifsk
 title: STARTING_LCN_INPUT_BUFFER
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the STARTING_LCN_INPUT_BUFFER structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: STARTING_LCN_INPUT_BUFFER, *PSTARTING_LCN_INPUT_BUFFER
@@ -44,11 +44,15 @@ helpviewer_keywords:
 
 ## -description
 
+The **STARTING_LCN_INPUT_BUFFER** structure contains the starting logical cluster number (LCN) for the [**FSCTL_GET_VOLUME_BITMAP**](ni-ntifs-fsctl_get_volume_bitmap.md).
+ control code.
+
 ## -struct-fields
 
 ### -field StartingLcn
 
-## -remarks
+The LCN from which the operation should start when describing a bitmap. This member will be rounded down to a file-system-dependent rounding boundary, and that value will be returned. Its value should be an integral multiple of eight.
 
 ## -see-also
 
+[**FSCTL_GET_VOLUME_BITMAP**](ni-ntifs-fsctl_get_volume_bitmap.md)

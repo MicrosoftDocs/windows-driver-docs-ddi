@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._ATTRIBUTES_AND_SID
-tech.root: 
+tech.root: ifsk
 title: ATTRIBUTES_AND_SID
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the ATTRIBUTES_AND_SID structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: ATTRIBUTES_AND_SID, *PATTRIBUTES_AND_SID
@@ -47,13 +47,14 @@ helpviewer_keywords:
 
 ## -description
 
+The **ATTRIBUTES_AND_SID** structure associates a set of attributes with a security identifier (SID).
+
 ## -struct-fields
 
 ### -field Attributes
 
+Value that represents the attributes associated with the SID.
+
 ### -field SidStart
 
-## -remarks
-
-## -see-also
-
+Starting point of the SID.

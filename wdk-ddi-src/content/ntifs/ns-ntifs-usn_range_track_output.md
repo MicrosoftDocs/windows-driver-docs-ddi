@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.USN_RANGE_TRACK_OUTPUT
-tech.root: 
+tech.root: ifsk
 title: USN_RANGE_TRACK_OUTPUT
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the USN_RANGE_TRACK_OUTPUT structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: USN_RANGE_TRACK_OUTPUT, *PUSN_RANGE_TRACK_OUTPUT
@@ -44,11 +44,14 @@ helpviewer_keywords:
 
 ## -description
 
+The **USN_RANGE_TRACK_OUTPUT** structure contains returned update sequence number (USN) from the [**FSCTL_USN_TRACK_MODIFIED_RANGES**](ni-ntifs-fsctl_usn_track_modified_ranges.md) control code.
+
 ## -struct-fields
 
 ### -field Usn
 
-## -remarks
+Returned update sequence number (USN) that identifies at what point in the USN Journal that range tracking was enabled.
 
 ## -see-also
 
+[**FSCTL_USN_TRACK_MODIFIED_RANGES**](ni-ntifs-fsctl_usn_track_modified_ranges.md)

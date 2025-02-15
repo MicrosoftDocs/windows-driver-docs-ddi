@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.NTFS_FILE_RECORD_OUTPUT_BUFFER
-tech.root: 
+tech.root: ifsk
 title: NTFS_FILE_RECORD_OUTPUT_BUFFER
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the NTFS_FILE_RECORD_OUTPUT_BUFFER structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: NTFS_FILE_RECORD_OUTPUT_BUFFER, *PNTFS_FILE_RECORD_OUTPUT_BUFFER
@@ -44,15 +44,24 @@ helpviewer_keywords:
 
 ## -description
 
+The **NTFS_FILE_RECORD_OUTPUT_BUFFER** structure receives the output data from the [**FSCTL_GET_NTFS_FILE_RECORD**](ni-ntifs-fsctl_get_ntfs_file_record.md) control code.
+
 ## -struct-fields
 
 ### -field FileReferenceNumber
 
+The file identifier of the returned file record. This is not necessarily the file identifier specified in the FileReferenceNumber member of the [**NTFS_FILE_RECORD_INPUT_BUFFER**](ns-ntifs-ntfs_file_record_input_buffer.md) structure.
+
 ### -field FileRecordLength
+
+Length of the file record, in bytes.
 
 ### -field FileRecordBuffer[1]
 
-## -remarks
+The starting location of the buffer for the returned file record.
 
 ## -see-also
 
+[**FSCTL_GET_NTFS_FILE_RECORD**](ni-ntifs-fsctl_get_ntfs_file_record.md)
+
+[**NTFS_FILE_RECORD_INPUT_BUFFER**](ns-ntifs-ntfs_file_record_input_buffer.md)

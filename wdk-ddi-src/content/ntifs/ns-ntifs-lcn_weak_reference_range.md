@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._LCN_WEAK_REFERENCE_RANGE
-tech.root: 
+tech.root: ifsk
 title: LCN_WEAK_REFERENCE_RANGE
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: LCN_WEAK_REFERENCE_RANGE, *PLCN_WEAK_REFERENCE_RANGE
@@ -47,13 +47,10 @@ helpviewer_keywords:
 
 ## -description
 
+**LCN_WEAK_REFERENCE_RANGE** is reserved for system use.
+
 ## -struct-fields
 
 ### -field StartOfRange
 
 ### -field CountOfRange
-
-## -remarks
-
-## -see-also
-

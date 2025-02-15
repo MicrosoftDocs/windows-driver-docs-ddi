@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._MUP_PROVIDER_INFORMATION
-tech.root: 
+tech.root: ifsk
 title: MUP_PROVIDER_INFORMATION
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserve for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -47,6 +47,8 @@ helpviewer_keywords:
 
 ## -description
 
+**MUP_PROVIDER_INFORMATION** is reserved for system use.
+
 ## -struct-fields
 
 ### -field Level
@@ -54,8 +56,3 @@ helpviewer_keywords:
 ### -field Buffer
 
 ### -field BufferSize
-
-## -remarks
-
-## -see-also
-

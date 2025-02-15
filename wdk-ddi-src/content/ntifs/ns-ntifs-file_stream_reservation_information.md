@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._FILE_STREAM_RESERVATION_INFORMATION
-tech.root: 
+tech.root: ifsk
 title: FILE_STREAM_RESERVATION_INFORMATION
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the FILE_STREAM_RESERVATION_INFORMATION structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, version 24H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: FILE_STREAM_RESERVATION_INFORMATION, *PFILE_STREAM_RESERVATION_INFORMATION
@@ -47,13 +47,22 @@ helpviewer_keywords:
 
 ## -description
 
+The **FILE_STREAM_RESERVATION_INFORMATION** structure contains information about the reservation of space for a file stream.
+
 ## -struct-fields
 
 ### -field TrackedReservation
 
+Amount of storage space that is currently tracked as reserved for the file stream.
+
 ### -field EnforcedReservation
+
+Amount of storage space that is currently enforced as reserved for the file stream.
 
 ## -remarks
 
 ## -see-also
 
+[**FILE_INFORMATION_CLASS**](../wdm/ne-wdm-_file_information_class.md)
+
+[**NtQueryInformationFile**](nf-ntifs-ntqueryinformationfile.md)

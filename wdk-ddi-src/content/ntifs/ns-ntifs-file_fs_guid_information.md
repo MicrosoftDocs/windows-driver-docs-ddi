@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._FILE_FS_GUID_INFORMATION
-tech.root: 
+tech.root: ifsk
 title: FILE_FS_GUID_INFORMATION
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the FILE_FS_GUID_INFORMATION structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -47,11 +47,20 @@ helpviewer_keywords:
 
 ## -description
 
+The **FILE_FS_GUID_INFORMATION** structure contains GUID infomation.
+
 ## -struct-fields
 
 ### -field FsGuid
+
+GUID that uniquely identifies the file system. This identifier can be used to distinguish between different file systems, even if they are of the same type, across various volumes or storage devices.
 
 ## -remarks
 
 ## -see-also
 
+[**FS_INFORMATION_CLASS**](../wdm/ne-wdm-_fsinfoclass.md)
+
+[**NtQueryVolumeInformationFile**](nf-ntifs-ntqueryvolumeinformationfile.md)
+
+[**NtSetVolumeInformationFile**](nf-ntifs-ntsetvolumeinformationfile.md)

@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.MOVE_FILE_RECORD_DATA
-tech.root: 
+tech.root: ifsk
 title: MOVE_FILE_RECORD_DATA
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: MOVE_FILE_RECORD_DATA, *PMOVE_FILE_RECORD_DATA
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **MOVE_FILE_RECORD_DATA** structure is reserved for system use.
+
 ## -struct-fields
 
 ### -field FileHandle
@@ -51,8 +53,3 @@ helpviewer_keywords:
 ### -field SourceFileRecord
 
 ### -field TargetFileRecord
-
-## -remarks
-
-## -see-also
-

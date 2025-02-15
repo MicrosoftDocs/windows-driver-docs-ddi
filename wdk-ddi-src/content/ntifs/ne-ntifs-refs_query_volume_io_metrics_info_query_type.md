@@ -1,10 +1,10 @@
 ---
 UID: NE:ntifs._REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE
-tech.root: 
+tech.root: ifsk
 title: REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -43,13 +43,10 @@ helpviewer_keywords:
 
 ## -description
 
+Reserved for system use.
+
 ## -enum-fields
 
 ### -field REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE_PARAMETERS
 
 ### -field REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE_METRICS_DATA
-
-## -remarks
-
-## -see-also
-

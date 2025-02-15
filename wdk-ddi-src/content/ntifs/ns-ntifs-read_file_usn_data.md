@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.READ_FILE_USN_DATA
-tech.root: 
+tech.root: ifsk
 title: READ_FILE_USN_DATA
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the READ_FILE_USN_DATA structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: READ_FILE_USN_DATA, *PREAD_FILE_USN_DATA
@@ -44,13 +44,18 @@ helpviewer_keywords:
 
 ## -description
 
+The **READ_FILE_USN_DATA** structure specifies the versions of the update sequence number (USN) change journal supported by the caller. This structure is the input structure to the [**FSCTL_READ_FILE_USN_DATA**](ni-ntifs-fsctl_read_file_usn_data.md) control code.
+
 ## -struct-fields
 
 ### -field MinMajorVersion
 
+The lowest version of the USN change journal accepted by the application. If the input buffer is not specified this defaults to 2.
+
 ### -field MaxMajorVersion
 
-## -remarks
+The highest version of the USN change journal accepted by the application. If the input buffer is not specified this defaults to 2. To support 128-bit file identifiers used by ReFS this must be 3 or higher.
 
 ## -see-also
 
+[**FSCTL_READ_FILE_USN_DATA**](ni-ntifs-fsctl_read_file_usn_data.md)

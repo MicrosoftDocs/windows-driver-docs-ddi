@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._SOV_RANGE_CHECK_DATA
-tech.root: 
+tech.root: ifsk
 title: SOV_RANGE_CHECK_DATA
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, version 24H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: SOV_RANGE_CHECK_DATA, *PSOV_RANGE_CHECK_DATA
@@ -62,4 +62,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-

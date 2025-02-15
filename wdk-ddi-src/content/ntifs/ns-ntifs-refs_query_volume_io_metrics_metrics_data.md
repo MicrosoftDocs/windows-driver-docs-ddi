@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs._REFS_QUERY_VOLUME_IO_METRICS_METRICS_DATA
-tech.root: 
+tech.root: ifsk
 title: REFS_QUERY_VOLUME_IO_METRICS_METRICS_DATA
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Reserved for system use.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, version 24H2
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: REFS_QUERY_VOLUME_IO_METRICS_METRICS_DATA, *PREFS_QUERY_VOLUME_IO_METRICS_METRICS_DATA
@@ -47,6 +47,8 @@ helpviewer_keywords:
 
 ## -description
 
+Reserved for system use.
+
 ## -struct-fields
 
 ### -field PlaceHolder
@@ -54,4 +56,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-

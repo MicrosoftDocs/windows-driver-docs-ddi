@@ -1,10 +1,10 @@
 ---
 UID: NS:ntifs.USN_RECORD_V4
-tech.root: 
+tech.root: ifsk
 title: USN_RECORD_V4
-ms.date: 
+ms.date: 02/14/2025
 targetos: Windows
-description: 
+description: Learn more about the USN_RECORD_V4 structure.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 8.1
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: USN_RECORD_V4, *PUSN_RECORD_V4
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **USN_RECORD_V4** structure contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 record is defined by the [**USN_RECORD_V2**](ns-ntifs-usn_record_v2.md) structure (also called **USN_RECORD** structure). See [USN_RECORD_V4 structure (winioctl.h)](/windows/win32/api/winioctl/ns-winioctl-usn_record_v4) for details.
+
 ## -struct-fields
 
 ### -field Header
@@ -70,3 +72,4 @@ helpviewer_keywords:
 
 ## -see-also
 
+[**FSCTL_READ_USN_JOURNAL**](ni-ntifs-fsctl_read_usn_journal.md)
