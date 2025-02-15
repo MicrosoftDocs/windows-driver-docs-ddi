@@ -62,5 +62,3 @@ GUID that uniquely identifies the file system. This identifier can be used to di
 [**FS_INFORMATION_CLASS**](../wdm/ne-wdm-_fsinfoclass.md)
 
 [**NtQueryVolumeInformationFile**](nf-ntifs-ntqueryvolumeinformationfile.md)
-
-[**NtSetVolumeInformationFile**](nf-ntifs-ntsetvolumeinformationfile.md)
