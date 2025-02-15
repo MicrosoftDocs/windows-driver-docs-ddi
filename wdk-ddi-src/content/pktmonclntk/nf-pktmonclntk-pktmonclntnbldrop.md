@@ -1,8 +1,8 @@
 ---
 UID: NF:pktmonclntk.PktMonClntNblDrop
-tech.root: 
+tech.root: netvista
 title: PktMonClntNblDrop
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false

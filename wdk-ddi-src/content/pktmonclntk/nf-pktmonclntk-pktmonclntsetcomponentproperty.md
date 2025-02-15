@@ -1,8 +1,8 @@
 ---
 UID: NF:pktmonclntk.PktMonClntSetComponentProperty
-tech.root: 
+tech.root: netvista
 title: PktMonClntSetComponentProperty
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false

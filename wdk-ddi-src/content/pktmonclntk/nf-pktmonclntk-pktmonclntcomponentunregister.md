@@ -1,10 +1,10 @@
 ---
 UID: NF:pktmonclntk.PktMonClntComponentUnregister
-tech.root: 
+tech.root: netvista
 title: PktMonClntComponentUnregister
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
-description: 
+description: The PktMonClntComponentUnregister function unregisters a component with Packet Monitor.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,24 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
-This function is used to unregister a component with Packet Monitor.
+The **PktMonClntComponentUnregister** function unregisters a component with Packet Monitor.
 
 ## -parameters
 
 ### -param CompContext
 
-Pointer to **PKTMON_COMPONENT_CONTEXT** which holds the context for the component. This is the same context used with **PktMonClntComponentRegister**.
+Pointer to **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** which holds the context for the component. This is the same context used with **PktMonClntComponentRegister**.
 
 ## -remarks
 
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntSetComponentProperty]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()
+- **[PktMonClntComponentRegister](nf-pktmonclntk-pktmonclntcomponentregister.md)**
+- **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**

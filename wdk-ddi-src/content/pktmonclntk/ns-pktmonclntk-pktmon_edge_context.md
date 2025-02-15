@@ -1,8 +1,8 @@
 ---
 UID: NS:pktmonclntk._PKTMON_EDGE_CONTEXT
-tech.root: 
+tech.root: netvista
 title: PKTMON_EDGE_CONTEXT
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -70,6 +70,6 @@ A component can have multiple edges, and *ListLink* is used to track all the edg
 
 ### -see-also
 
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntHeaderInfoLog]()
+- [PktMonClntAddEdge](nf-pktmonclntk-pktmonclntaddedge.md)
+- [PktMonClntNblLog](nc-pktmonclntk-pktmon_clnt_nbl_log.md)
+- [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md)

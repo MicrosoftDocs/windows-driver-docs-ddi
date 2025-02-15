@@ -1,8 +1,8 @@
 ---
 UID: NA:pktmonclntk
-tech.root: 
+tech.root: netvista
 title: pktmonclntk
-ms.date: 
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false

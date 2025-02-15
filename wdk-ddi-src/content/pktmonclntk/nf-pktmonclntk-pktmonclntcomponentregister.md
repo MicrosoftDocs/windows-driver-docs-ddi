@@ -1,10 +1,10 @@
 ---
 UID: NF:pktmonclntk.PktMonClntComponentRegister
-tech.root: 
+tech.root: netvista
 title: PktMonClntComponentRegister
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
-description: The PktMonClntComponentRegister function is used to register a component with Packet Monitor.
+description: The PktMonClntComponentRegister function registers a component with Packet Monitor, allowing it to monitor and report packet activities.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PktMonClntComponentRegister** function is used to register a component with Packet Monitor. Such registrations create a context used to report packet drops. This context helps to identify its relative position on the networking stack, as well as a packet type.
+The **PktMonClntComponentRegister** function registers a component with Packet Monitor, allowing it to monitor and report packet activities.
 
 ## -parameters
 
@@ -62,7 +62,7 @@ A description for the Packet Monitor client.
 
 ### -param Type
 
-The type associated with this component. This must be one of the values defined in the PKTMON_COMPONENT_TYPE enumeration.
+The type associated with this component. This must be one of the values defined in the **[PKTMON_COMPONENT_TYPE](../pktmondefk/ne-pktmondefk-pktmon_component_type.md)** enumeration.
 
 ### -param PacketType
 
@@ -74,8 +74,39 @@ If the function succeeds, it returns STATUS_SUCCESS. Otherwise, it returns a NTS
 
 ## -remarks
 
-After the component is done and will not be used anymore the Packet Monitor client should call PktMonClntComponentUnregister to let Packet Monitor know about that.
+When the component is no longer needed, the Packet Monitor client should call **[PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md)** to unregister it from Packet Monitor and free any associated resources.
 
 ## -see-also
 
-- [PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md)
+- **[PKTMON_COMPONENT_CONTEXT](../pktmonclntk/ns-pktmonclntk-pktmon_component_context.md)**
+- **[PKTMON_COMPONENT_TYPE](../pktmondefk/ne-pktmondefk-pktmon_component_type.md)**
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
+- **[PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md)**
+
+### Example
+
+```cpp
+PKTMON_COMPONENT_CONTEXT PktMonComp = { 0 };
+
+NTSTATUS
+PktMonApiTstRegisterComponent(VOID)
+{
+    NTSTATUS status = STATUS_SUCCESS;
+
+    DECLARE_CONST_UNICODE_STRING(DriverName, L"pktmonapitst.sys");
+    DECLARE_CONST_UNICODE_STRING(Description, L"Sample driver to report packet drops to pktmon.sys");
+
+    status = PktMonClntComponentRegister(
+        &PktMonComp,
+        &DriverName,
+        &Description,
+        PktMonComp_IpInterface,
+        PktMonPayload_IP);
+
+if (!NT_SUCCESS(status)) {
+        // Log error
+    }
+
+    return status;
+}
+```

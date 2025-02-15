@@ -1,8 +1,8 @@
 ---
 UID: NF:pktmonclntk.PktMonClntAddEdge
-tech.root: 
+tech.root: netvista
 title: PktMonClntAddEdge
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -44,42 +44,63 @@ helpviewer_keywords:
 
 ## -description
 
-This function is used to add an edge to a Packet Monitor component. An edge represents a pair of entry/exit points for a component. It can be referred to as a boundary for a component. Each component registers its lower or/and upper edge.
+The **PktMonClntAddEdge** function adds an edge to a Packet Monitor component. An edge represents a pair of entry/exit points for a component. It can be referred to as a boundary for a component. Each component registers its lower or/and upper edge.
 
 ## -parameters
 
 ### -param CompContext
 
-Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
+Pointer to **PKTMON_COMPONENT_CONTEXT** which holds the context for the component.
 
 ### -param Name
 
-Name to be used to represent the edge being added.
+The name of the edge being added.
 
 ### -param PacketType
 
-Packet type to be handled by this edge. Must be a valid value defined in PKTMON_PACKET_TYPE.
+Packet type to be handled by this edge. Must be a valid value defined in **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**.
 
 ### -param EdgeContext
 
-Pointer to a PKTMON_EDGE_CONTEXT which will store the context information for this edge.
+Pointer to a **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)** which will store the context information for this edge.
 
 ## -returns
 
-If the function succeeds, it returns STATUS_SUCCESS. Otherwise, it returns a NTSTATUS error code.
+If the function succeeds, it returns **STATUS_SUCCESS**. Otherwise, it returns a **NTSTATUS** error code.
 
 ## -remarks
 
-A component can have multiple edges. One call to PktMonClntAddEdge should be made for each of these edges.
+A component can have multiple edges. One call to **PktMonClntAddEdge** should be made for each of these edges. The **ListLink** member of **PKTMON_EDGE_CONTEXT** is used to track all the edge contexts belonging to a component. **ListLink** can be used to access these edge contexts.
 
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntSetComponentProperty]()
-- [PktMonClntNblLog]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
+- **[PKTMON_EDGE_CONTEXT](../pktmonclntk//ns-pktmonclntk-pktmon_edge_context.md)**
+
+### Example
+
+```cpp
+PKTMON_EDGE_CONTEXT EdgeContext = { 0 };
+
+NTSTATUS
+NTAPI
+PktMonApiTstAddEdge()
+{
+    NTSTATUS status = STATUS_SUCCESS;
+
+    DECLARE_CONST_UNICODE_STRING(EdgeName, L"LowerEdge");
+
+    status = PktMonClntAddEdge(
+        &PktMonComp,
+        &EdgeName,
+        PktMonPayload_IP,
+        &EdgeContext
+    );
+    if (STATUS_SUCCESS != status)
+    {
+        return status;
+    }
+
+    return status;
+}
+```

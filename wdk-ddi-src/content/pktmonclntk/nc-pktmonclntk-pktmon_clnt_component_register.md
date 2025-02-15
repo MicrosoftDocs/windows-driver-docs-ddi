@@ -1,8 +1,8 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_COMPONENT_REGISTER
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_COMPONENT_REGISTER
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false

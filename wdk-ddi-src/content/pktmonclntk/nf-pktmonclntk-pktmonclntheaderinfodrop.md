@@ -1,10 +1,10 @@
 ---
 UID: NF:pktmonclntk.PktMonClntHeaderInfoDrop
-tech.root: 
+tech.root: netvista
 title: PktMonClntHeaderInfoDrop
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
-description: 
+description: The PktMonClntHeaderInfoDrop function logs that a network packet was dropped.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,25 +44,25 @@ helpviewer_keywords:
 
 ## -description
 
-This function is used to log that a network packet was dropped.
+The **PktMonClntHeaderInfoDrop** function logs that a network packet was dropped.
 
 ## -parameters
 
 ### -param CompContext
 
-Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
+Pointer to **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** which holds the context for the component.
 
 ### -param PacketType
 
-The type of packet being logged. This must be one of the values defined in the PKTMON_PACKET_TYPE enumeration.
+The type of packet being logged. This must be one of the values defined in the **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)** enumeration.
 
 ### -param PacketHeaderInformation
 
-Pointer to structure PKTMON_PACKET_HEADER_INFORMATION containing the packet header information.
+Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information.
 
 ### -param Direction
 
-Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from PKTMON_DIRECTION enumeration.
+Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
 
 ### -param DropReason
 
@@ -70,22 +70,18 @@ Integer that indicates the reason for the packet to be dropped.
 
 ### -param LocationCode
 
-Integer that indicates the location where the packet got dropped.
+Integer that indicates the location where the packet was dropped.
 
 ### -param Context
 
-Pointer to structure PKTMON_PACKET_CONTEXT_IN containing the packet context. Can be NULL.
+Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_packet_context_in.md)** structure containing the packet context. Can be NULL.
 
 ## -remarks
 
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntSetComponentProperty]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
+- **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
+- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)**
+- **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)**
+- **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_packet_context_in.md)**

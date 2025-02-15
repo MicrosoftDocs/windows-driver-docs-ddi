@@ -1,8 +1,8 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_UNINITIALIZE
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_UNINITIALIZE
-ms.date: 02/10/2025
+ms.date: 02/13/2025
 targetos: Windows
 description: 
 prerelease: false
