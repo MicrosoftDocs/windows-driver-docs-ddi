@@ -58,7 +58,7 @@ The band ID is unknown.
 
 ### -field WDI_BAND_ID_900:4
 
-900 GHz.
+900 MHz.
 
 ### -field WDI_BAND_ID_6000:6
 
