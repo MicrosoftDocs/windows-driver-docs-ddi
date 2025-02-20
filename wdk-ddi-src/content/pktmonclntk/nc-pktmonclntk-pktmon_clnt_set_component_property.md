@@ -1,8 +1,8 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_SET_COMPONENT_PROPERTY
-tech.root: netvista
+tech.root: 
 title: PKTMON_CLNT_SET_COMPONENT_PROPERTY
-ms.date: 02/13/2025
+ms.date: 
 targetos: Windows
 description: 
 prerelease: false
@@ -44,32 +44,15 @@ helpviewer_keywords:
 
 ## -description
 
-This callback function is invoked when properties that are meaningful to the component are set. A component can have multiple properties, and PktMonClntSetComponentProperty should be called once for each one of them. These properties can be used to describe the component in more detail.
-
 ## -parameters
 
 ### -param CompContext
 
-Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
-
 ### -param CompProperty
 
-Pointer to structure PKTMON_COMPONENT_PROPERTY which describes the property to be set.
-
 ## -returns
-
-If the function succeeds, it returns STATUS_SUCCESS. Otherwise, it returns a NTSTATUS error code.
 
 ## -remarks
 
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()

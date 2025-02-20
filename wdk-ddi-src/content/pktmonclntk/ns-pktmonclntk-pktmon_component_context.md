@@ -2,9 +2,9 @@
 UID: NS:pktmonclntk._PKTMON_COMPONENT_CONTEXT
 tech.root: netvista
 title: PKTMON_COMPONENT_CONTEXT
-ms.date: 02/13/2025
+ms.date: 02/19/2025
 targetos: Windows
-description: 
+description: The PKTMON_COMPONENT_CONTEXT structure holds the context for the component.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,17 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
-This struct is used to hold the context for a component in the Packet Monitor.
+The **PKTMON_COMPONENT_CONTEXT** structure holds the context for the component.
 
 ## -struct-fields
 
 ### -field ListLink
 
-Used to track all the edge contexts belonging to a component. ListLink can be used to access these edge contexts.
+A **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)** structure that links to the next component in the list.
 
 ### -field EdgeList
 
-The list of edges added to the component. An edge represents a pair of entry/exit points for a component.
+The list of edges for this component. An edge represents a pair of entry/exit points for a component.
 
 ### -field EdgeCount
 
@@ -62,7 +62,7 @@ The number of entries in *EdgeList*.
 
 ### -field CompHandle
 
-Handle for the component.
+The handle for the component.
 
 ### -field CompType
 
@@ -82,4 +82,9 @@ Indicates if dropped packet logging is enabled.
 
 ## -remarks
 
+This structure should be zero-initialized before **[PktMonClntComponentRegister](nf-pktmonclntk-pktmonclntcomponentregister.md)** is called and **PktMonClntComponentRegister** will fill in the structure as needed.
+
 ## -see-also
+
+- **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)**
+- **[PktMonClntComponentRegister](nf-pktmonclntk-pktmonclntcomponentregister.md)**

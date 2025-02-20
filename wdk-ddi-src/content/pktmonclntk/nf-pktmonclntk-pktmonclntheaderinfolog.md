@@ -58,7 +58,7 @@ Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pk
 
 ### -param Direction
 
-Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
+Indicates the packet direction. Each component reports packets in two directions only, IN or OUT. Must be one of the values from **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
 
 ### -param Context
 
@@ -69,5 +69,4 @@ Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_pac
 Like **[PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md)**, **PktMonClntHeaderInfoLog** is also used for packet logging but does not require NBLs. **PktMonClntHeaderInfoLog** is useful when packet metadata needs to be logged.
 
 ## -see-also
-
 

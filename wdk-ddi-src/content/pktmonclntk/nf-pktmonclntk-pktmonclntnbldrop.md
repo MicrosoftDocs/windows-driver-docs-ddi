@@ -2,9 +2,9 @@
 UID: NF:pktmonclntk.PktMonClntNblDrop
 tech.root: netvista
 title: PktMonClntNblDrop
-ms.date: 02/13/2025
+ms.date: 02/19/2025
 targetos: Windows
-description: 
+description: The PktMonClntNblDrop function logs that a network packet was dropped.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,33 +44,33 @@ helpviewer_keywords:
 
 ## -description
 
-This function is used to log that a network packet was dropped. Additional information can be provided about why and where it got dropped.
+The **PktMonClntNblDrop** function logs that a network packet was dropped. Additional information can be provided about why and where it got dropped.
 
 ## -parameters
 
 ### -param CompContext
 
-Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
+Pointer to **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** which holds the context for the component.
 
 ### -param NetBufferList
 
-Pointer to the NET_BUFFER_LIST structure.
+Pointer to the **[NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md)** structure.
 
 ### -param PacketType
 
-The type of packet being logged. This must be one of the values defined in the PKTMON_PACKET_TYPE enumeration.
+The type of packet being logged. This must be one of the values defined in the **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)** enumeration.
 
 ### -param PacketHeaderInformation
 
-Pointer to structure PKTMON_PACKET_HEADER_INFORMATION containing the packet header information. Can be NULL.
+Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information. Can be NULL.
 
 ### -param UseOnlyFirstNbl
 
-When TRUE indicates that only the first NBL in NetBufferList should be used. Otherwise all NBLs are used.
+When TRUE, indicates that only the first NBL in NetBufferList should be used. Otherwise, all NBLs are used.
 
 ### -param Direction
 
-Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from PKTMON_DIRECTION enumeration.
+Indicates the packet direction. Each component reports packets in two directions only, IN or OUT. Must be one of the values from the **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
 
 ### -param DropReason
 
@@ -84,12 +84,8 @@ Integer that indicates the location where the packet got dropped.
 
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntSetComponentProperty]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()
+- **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**
+- **[NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md)**
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
+- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)**
+- **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)**

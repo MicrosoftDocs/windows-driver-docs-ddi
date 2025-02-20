@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_EDGE_CONTEXT
 ms.date: 02/13/2025
 targetos: Windows
-description: 
+description: The PKTMON_EDGE_CONTEXT structure holds the context for an edge.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,32 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
-This struct is used to store the context information for an edge in a Packet Monitor component.
+The **PKTMON_EDGE_CONTEXT** structure holds the context for an edge.
 
 ## -struct-fields
 
 ### -field ListLink
 
-Used to track all the edge contexts belonging to a component. ListLink can be used to access these edge contexts.
+A **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)** structure that is used to link the edge context to the list of edge contexts that belong to a component. Use *ListLink* to track all the edge contexts that belong to a component and to access these edge contexts.
 
 ### -field EdgeHandle
 
-Handle for the edge.
+A handle to the edge.
 
 ### -field CompContext
 
-Pointer to the component context.
+A pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** structure that holds the context for the component.
 
 ### -field PacketType
 
-The type of packet being handled by the edge.
+The **[PKTMON_PACKET_TYPE](ns-pktmonclntk-pktmon_packet_type.md)**.
 
 ## -remarks
 
-A component can have multiple edges, and *ListLink* is used to track all the edge contexts belonging to a component.
+## -see-also
 
-### -see-also
-
-- [PktMonClntAddEdge](nf-pktmonclntk-pktmonclntaddedge.md)
-- [PktMonClntNblLog](nc-pktmonclntk-pktmon_clnt_nbl_log.md)
-- [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md)
+- **[PKTMON_PACKET_TYPE](ns-pktmonclntk-pktmon_packet_type.md)**
+- **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**

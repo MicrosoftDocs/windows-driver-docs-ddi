@@ -1,8 +1,8 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_UNINITIALIZE
-tech.root: netvista
+tech.root: 
 title: PKTMON_CLNT_UNINITIALIZE
-ms.date: 02/13/2025
+ms.date: 
 targetos: Windows
 description: 
 prerelease: false
@@ -44,20 +44,11 @@ helpviewer_keywords:
 
 ## -description
 
-This callback function is invoked when the kernel driver that is acting as a Packet Monitor client is uninitialized.
+## -parameters
+
+### -param unnamedParam1
 
 ## -remarks
 
-This function will unregister components that were previously registered by the client and have not been unregistered up to that point. This allows Packet Monitor to free resources that will not be used anymore.
-
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntSetComponentProperty]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()

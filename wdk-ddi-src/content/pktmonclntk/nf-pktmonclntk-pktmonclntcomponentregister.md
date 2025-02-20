@@ -66,11 +66,11 @@ The type associated with this component. This must be one of the values defined 
 
 ### -param PacketType
 
-The payload type this client deals with. This must be one of the values defined in the PKTMON_PACKET_TYPE enumeration.
+The payload type this client deals with. This must be one of the values defined in the **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)** enumeration.
 
 ## -returns
 
-If the function succeeds, it returns STATUS_SUCCESS. Otherwise, it returns a NTSTATUS error code.
+If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns a `NTSTATUS` error code.
 
 ## -remarks
 

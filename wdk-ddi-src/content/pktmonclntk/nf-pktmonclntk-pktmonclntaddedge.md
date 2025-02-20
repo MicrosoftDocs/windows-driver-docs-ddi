@@ -50,7 +50,7 @@ The **PktMonClntAddEdge** function adds an edge to a Packet Monitor component. A
 
 ### -param CompContext
 
-Pointer to **PKTMON_COMPONENT_CONTEXT** which holds the context for the component.
+Pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** structure that holds the context for the component.
 
 ### -param Name
 
@@ -66,11 +66,13 @@ Pointer to a **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)** wh
 
 ## -returns
 
-If the function succeeds, it returns **STATUS_SUCCESS**. Otherwise, it returns a **NTSTATUS** error code.
+If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns a `NTSTATUS` error code.
 
 ## -remarks
 
-A component can have multiple edges. One call to **PktMonClntAddEdge** should be made for each of these edges. The **ListLink** member of **PKTMON_EDGE_CONTEXT** is used to track all the edge contexts belonging to a component. **ListLink** can be used to access these edge contexts.
+An edge represents a pair of entry and exit points for a component. It can be referred to as a boundary for a component. Each component registers its lower and/or upper edge. A component can have multiple edges. One call to **PktMonClntAddEdge** should be made for each of these edges.
+
+The *ListLink* member of **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)** is used to track all the edge contexts belonging to a component. *ListLink* can be used to access these edge contexts.
 
 ## -see-also
 

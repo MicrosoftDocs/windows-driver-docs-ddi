@@ -2,9 +2,9 @@
 UID: NF:pktmonclntk.PktMonClntSetComponentProperty
 tech.root: netvista
 title: PktMonClntSetComponentProperty
-ms.date: 02/13/2025
+ms.date: 02/19/2025
 targetos: Windows
-description: 
+description: The PktMonClntSetComponentProperty function sets a property for a specific component.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,32 +44,54 @@ helpviewer_keywords:
 
 ## -description
 
-This function is used to set properties that are meaningful to the component. A component can have multiple properties, and PktMonClntSetComponentProperty should be called once for each one of them. These properties can be used to describe the component in more detail.
+The **PktMonClntSetComponentProperty** function sets a property for a specific component.
 
 ## -parameters
 
 ### -param CompContext
 
-Pointer to PKTMON_COMPONENT_CONTEXT which holds the context for the component.
+Pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** structure that holds the context for the component.
 
 ### -param CompProperty
 
-Pointer to structure PKTMON_COMPONENT_PROPERTY which describes the property to be set.
+Pointer to the **[PKTMON_COMPONENT_PROPERTY](ns-pktmonclntk-pktmon_component_property.md)** structure that describes the property to be set.
 
 ## -returns
 
-If the function succeeds, it returns STATUS_SUCCESS. Otherwise, it returns a NTSTATUS error code.
+If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns a `NTSTATUS` error code.
 
 ## -remarks
 
+Use the **PktMonClntSetComponentProperty** function to set various properties for a component. Call this function once for each property. These properties provide detailed information about the component, such as its interface ID, name, etc. You can display the properties of the components using the `pktmon` command:
+
+```cmd
+Pktmon.exe list -a
+```
+
+The properties are defined in the **PKTMON_COMPONENT_PROPERTY** structure and can include interface indices, GUIDs, MAC addresses, and other relevant information. Each property is identified by an **Id** from the **PKTMON_COMPONENT_PROPERTY_ID** enumeration.
+
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblLog]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()
+- **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**
+- **[PKTMON_COMPONENT_PROPERTY](ns-pktmonclntk-pktmon_component_property.md)**
+
+### Example
+
+```cpp
+NTSTATUS PktMonApiTstSetComponentProperties()
+{
+    NTSTATUS status = STATUS_SUCCESS;
+    PKTMON_COMPONENT_PROPERTY compProp = {0};
+
+    compProp.Id = PktMonCompProp_IfIndex;
+    compProp.IfIndex = 100;
+    status = PktMonClntSetComponentProperty(&PktMonComp, &compProp);
+    if (STATUS_SUCCESS != status)
+    {
+        // Log error
+        return status;
+    }
+
+    return status;
+}
+```

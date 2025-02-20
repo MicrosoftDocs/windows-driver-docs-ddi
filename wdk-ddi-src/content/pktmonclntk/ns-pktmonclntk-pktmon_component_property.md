@@ -2,9 +2,9 @@
 UID: NS:pktmonclntk._PKTMON_COMPONENT_PROPERTY
 tech.root: netvista
 title: PKTMON_COMPONENT_PROPERTY
-ms.date: 02/13/2025
+ms.date: 02/19/2025
 targetos: Windows
-description: 
+description: The PKTMON_COMPONENT_PROPERTY structure defines various properties for a Packet Monitor component.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,84 +44,86 @@ helpviewer_keywords:
 
 ## -description
 
-This struct is used to describe a property of a component in the Packet Monitor.
+The **PKTMON_COMPONENT_PROPERTY** structure defines various properties for a Packet Monitor component.
 
 ## -struct-fields
 
 ### -field Id
 
-The ID of the property.
+Specifies the identifier for the component property. This field is of type **[PKTMON_COMPONENT_PROPERTY_ID](pktmondefk/ne-pktmondefk-pktmon_co../mponent_property_id.md)**.
 
 ### -field IfIndex
 
-Corresponds to PktMonCompProp_IfIndex.
+Specifies the interface index. Use this field when the property ID is **PktMonCompProp_IfIndex**.
 
 ### -field MiniportIfIndex
 
-Corresponds to PktMonCompProp_MiniportIfIndex.
+Specifies the miniport interface index. Use this field when the property ID is **PktMonCompProp_MiniportIfIndex**.
 
 ### -field LowerIfIndex
 
-Corresponds to PktMonCompProp_LowerIfIndex.
+Specifies the lower interface index. Use this field when the property ID is **PktMonCompProp_LowerIfIndex**.
 
 ### -field VmsExtIfIndex
 
-Corresponds to PktMonCompProp_VmsExtIfIndex.
+Specifies the VMS extension interface index. Use this field when the property ID is **PktMonCompProp_VmsExtIfIndex**.
 
 ### -field LowestIfIndex
 
-Corresponds to PktMonCompProp_LowestIfIndex.
+Specifies the lowest interface index. Use this field when the property ID is **PktMonCompProp_LowestIfIndex**.
 
 ### -field NdisMedium
 
-Corresponds to PktMonCompProp_NdisMedium.
+Specifies the NDIS medium type. Use this field when the property ID is **PktMonCompProp_NdisMedium**.
 
 ### -field IpIfIndex
 
-Corresponds to PktMonCompProp_IpIfIndex.
+Specifies the IP interface index. Use this field when the property ID is **PktMonCompProp_IpIfIndex**.
 
 ### -field Vsid
 
-Corresponds to PktMonCompProp_Vsid.
+Specifies the virtual subnet ID. Use this field when the property ID is **PktMonCompProp_Vsid**.
 
 ### -field Vlan
 
-Corresponds to PktMonCompProp_Vlan.
+Specifies the VLAN ID. Use this field when the property ID is **PktMonCompProp_Vlan**.
 
 ### -field CompartmentId
 
-Corresponds to PktMonCompProp_CompartmentId.
+Specifies the compartment ID. Use this field when the property ID is **PktMonCompProp_CompartmentId**.
 
 ### -field OptDataPath
 
-Corresponds to PktMonCompProp_OptDataPath.
+Specifies the optional data path. Use this field when the property ID is **PktMonCompProp_OptDataPath**.
 
 ### -field NdisObject
 
-Corresponds to PktMonCompProp_NdisObject.
+Specifies the NDIS object type. Use this field when the property ID is **PktMonCompProp_NdisObject**.
 
 ### -field EtherType
 
-Corresponds to PktMonCompProp_EtherType.
+Specifies the EtherType. Use this field when the property ID is **PktMonCompProp_EtherType**.
 
 ### -field IfGuid
 
-Corresponds to PktMonCompProp_IfGuid.
+Specifies the interface GUID. Use this field when the property ID is **PktMonCompProp_IfGuid**.
 
 ### -field MacAddress
 
-Corresponds to PktMonCompProp_PhysAddress.
+Specifies the MAC address. Use this field when the property ID is **PktMonCompProp_PhysAddress**.
 
 ### -field VMSwitchName[PKTMON_MAX_PROPERTY_LENGTH_BYTES]
 
-Corresponds to PktMonCompProp_VMSwitchName.
+Specifies the name of the VM switch. Use this field when the property ID is **PktMonCompProp_VMSwitchName**.
 
 ### -field SockAddr
 
-Corresponds to PktMonCompProp_IpAddress.
+Specifies the socket address. Use this field when the property ID is **PktMonCompProp_IpAddress**.
 
 ## -remarks
 
-### -see-also
+## -see-also
 
-- [PktMonClntSetComponentProperty]()
+- **[PktMon**ClntSetComponentProperty](nf-pktmonclntk-pktmonclntsetcomponentproperty.md)**
+- **[PKTMON_COMPONENT_PROPERTY_ID](../pktmondefk/ne-pktmondefk-pktmon_co../mponent_property_id.md)**
+

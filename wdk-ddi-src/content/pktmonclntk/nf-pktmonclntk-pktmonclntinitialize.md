@@ -50,7 +50,7 @@ The **PktMonClntInitialize** function initializes the Packet Monitor client, inf
 
 ### -param ModuleId
 
-An **NPI_MODULEID** used to identify the Packet Monitor client.
+A network module identifier used to identify the Packet Monitor client.
 
 ### -param EnumComponents
 

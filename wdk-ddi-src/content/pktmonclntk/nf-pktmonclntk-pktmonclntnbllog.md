@@ -2,9 +2,9 @@
 UID: NF:pktmonclntk.PktMonClntNblLog
 tech.root: netvista
 title: PktMonClntNblLog
-ms.date: 02/13/2025
+ms.date: 02/19/2025
 targetos: Windows
-description: 
+description: The PktMonClntNblLog function logs that a network packet has flowed through an edge, as opposed to being dropped.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,44 +44,40 @@ helpviewer_keywords:
 
 ## -description
 
-This function is used to log that a network packet has flowed through an edge (as opposed to being dropped). EdgeContext identifies the edge at which the action was taken.
+The **PktMonClntNblLog** function logs that a network packet has flowed through an edge, as opposed to being dropped.
 
 ## -parameters
 
 ### -param EdgeContext
 
-Pointer to structure PKTMON_EDGE_CONTEXT which holds the edge context.
+Pointer to the **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)** structure that holds the edge context. The *EdgeContext* parameter identifies the edge at which the action was taken.
 
 ### -param NetBufferList
 
-Pointer to the NET_BUFFER_LIST structure.
+Pointer to the **[NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md)** structure.
 
 ### -param PacketType
 
-The type of packet being logged. This must be one of the values defined in the PKTMON_PACKET_TYPE enumeration.
+The type of packet being logged. This must be one of the values defined in the **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)** enumeration.
 
 ### -param PacketHeaderInformation
 
-Pointer to structure PKTMON_PACKET_HEADER_INFORMATION containing the packet header information. Can be NULL.
+Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information. Can be NULL.
 
 ### -param UseOnlyFirstNbl
 
-When TRUE indicates that only the first NBL in NetBufferList should be used. Otherwise all NBLs are used.
+When TRUE, indicates that only the first NBL in NetBufferList should be used. Otherwise, all NBLs are used.
 
 ### -param Direction
 
-Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from PKTMON_DIRECTION enumeration.
+Indicates the packet direction. Each component reports packets in two directions only, IN or OUT. Must be one of the values from the **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
 
 ## -remarks
 
 ## -see-also
 
-- [PktMonClntInitialize]()
-- [PktMonClntUninitialize]()
-- [PktMonClntComponentRegister]()
-- [PktMonClntComponentUnregister]()
-- [PktMonClntSetComponentProperty]()
-- [PktMonClntAddEdge]()
-- [PktMonClntNblDrop]()
-- [PktMonClntHeaderInfoLog]()
-- [PktMonClntHeaderInfoDrop]()
+- **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)**
+- **[NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md)**
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
+- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)**
+- **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)**

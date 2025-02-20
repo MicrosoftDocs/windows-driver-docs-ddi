@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntUninitialize
 tech.root: netvista
 title: PktMonClntUninitialize
-ms.date: 02/13/2025
+ms.date: 02/19/2025
 targetos: Windows
 description: The PktMonClntUninitialize function uninitializes the kernel driver that is acting as a Packet Monitor client.
 prerelease: false
@@ -44,12 +44,26 @@ helpviewer_keywords:
 
 ## -description
 
-The **PktMonClntUninitialize** function uninitializes the kernel driver that is acting as a Packet Monitor client and was previously initialized through [PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md).
+The **PktMonClntUninitialize** function uninitializes the kernel driver that is acting as a Packet Monitor client and was previously initialized through **[PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md)**.
 
 ## -remarks
 
-This function will unregister components that were previously registered by the client and have not been unregistered up to that point. This allows Packet Monitor to free resources that will not be used anymore.
+This function unregisters components that were previously registered by the client and have not been unregistered up to that point. This allows Packet Monitor to free resources that will not be used anymore.
 
 ## -see-also
 
-- [PktMonClntUninitialize](nf-pktmonclntk-pktmonclntuninitialize.md)
+- **[PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md)**
+
+### Example
+  
+```cpp
+VOID
+PktMonApiTstUnload(
+    _In_ PDRIVER_OBJECT DriverObject
+    )
+{    
+    ...
+    PktMonClntUninitialize();
+    ...
+}
+```

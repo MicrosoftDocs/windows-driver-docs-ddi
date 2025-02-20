@@ -50,7 +50,7 @@ The **PktMonClntHeaderInfoDrop** function logs that a network packet was dropped
 
 ### -param CompContext
 
-Pointer to **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** which holds the context for the component.
+Pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** structure that holds the context for the component.
 
 ### -param PacketType
 
@@ -62,7 +62,7 @@ Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pk
 
 ### -param Direction
 
-Indicates the packet direction. Each component reports packets in two directions only (IN or OUT). Must be one of the values from **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
+Indicates the packet direction. Each component reports packets in two directions only, IN or OUT. Must be one of the values from **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)** enumeration.
 
 ### -param DropReason
 

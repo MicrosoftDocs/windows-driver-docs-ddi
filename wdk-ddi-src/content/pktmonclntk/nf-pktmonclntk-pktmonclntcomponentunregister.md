@@ -50,7 +50,7 @@ The **PktMonClntComponentUnregister** function unregisters a component with Pack
 
 ### -param CompContext
 
-Pointer to **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** which holds the context for the component. This is the same context used with **PktMonClntComponentRegister**.
+Pointer to **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)** which holds the context for the component. This is the same context used with **[PktMonClntComponentRegister](nf-pktmonclntk-pktmonclntcomponentregister.md)**.
 
 ## -remarks
 
