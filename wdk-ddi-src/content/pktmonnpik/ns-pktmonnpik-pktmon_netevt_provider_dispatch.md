@@ -1,8 +1,8 @@
 ---
 UID: NS:pktmonnpik._PKTMON_NETEVT_PROVIDER_DISPATCH
-tech.root: 
+tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_DISPATCH
-ms.date: 
+ms.date: 02/19/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -55,4 +55,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-

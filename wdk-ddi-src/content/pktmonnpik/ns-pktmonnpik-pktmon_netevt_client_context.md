@@ -1,8 +1,8 @@
 ---
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_CONTEXT
-tech.root: 
+tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_CONTEXT
-ms.date: 
+ms.date: 02/19/2025
 targetos: Windows
 description: 
 prerelease: false

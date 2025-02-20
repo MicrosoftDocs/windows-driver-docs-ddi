@@ -1,8 +1,8 @@
 ---
 UID: NE:pktmonnpik._PKTMON_PACKET_TYPE
-tech.root: 
+tech.root: netvista
 title: PKTMON_PACKET_TYPE
-ms.date: 02/12/2025
+ms.date: 02/19/2025
 targetos: Windows
 description: The PKTMON_PACKET_TYPE enum defines the various packet types that can be processed by Packet Monitor.
 prerelease: false
@@ -40,7 +40,7 @@ helpviewer_keywords:
 
 ## -description
 
-The PKTMON_PACKET_TYPE enum defines the various packet types that can be processed by Packet Monitor.
+The **PKTMON_PACKET_TYPE** enum defines the various packet types that can be processed by Packet Monitor.
 
 ## -enum-fields
 
@@ -97,4 +97,3 @@ Corresponds to the L4Payload payload type.
 ## -see-also
 
 - [PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentregister.md)
-

@@ -1,8 +1,8 @@
 ---
 UID: NS:pktmonnpik._PKTMON_HEADER
-tech.root: 
+tech.root: netvista
 title: PKTMON_HEADER
-ms.date: 02/12/2025
+ms.date: 02/19/2025
 targetos: Windows
 description: The PKTMON_HEADER struct is a common header for version control.
 prerelease: false
@@ -44,13 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
-The PKTMON_HEADER struct is a common header for version control.
+The **PKTMON_HEADER** struct is a common header for version control.
 
 ## -struct-fields
 
 ### -field Size
 
-Should contain the size of structure PKTMON_PACKET_CONTEXT_IN.
+Should contain the size of structure **[PKTMON_PACKET_CONTEXT_IN](ns-pktmonnpik-pktmon_packet_context_in.md)**.
 
 ### -field Version
 
@@ -62,5 +62,6 @@ Currently only version 0 is supported.
 
 ### -see-also
 
-- [PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)
-- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)
+- **[PKTMON_PACKET_CONTEXT_IN](ns-pktmonnpik-pktmon_packet_context_in.md)**
+- **[PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)**
+- **[PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)**

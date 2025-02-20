@@ -1,8 +1,8 @@
 ---
 UID: NE:pktmonnpik._PKTMON_DIRECTION
-tech.root: 
+tech.root: netvista
 title: PKTMON_DIRECTION
-ms.date: 02/12/2025
+ms.date: 02/19/2025
 targetos: Windows
 description: The PKTMON_DIRECTION enum defines the two possible directions in which each component reports packets, IN or OUT.
 prerelease: false

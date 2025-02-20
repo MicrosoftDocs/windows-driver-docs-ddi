@@ -1,6 +1,6 @@
 ---
 UID: NA:pktmonnpik
-tech.root: 
+tech.root: netvista
 title: pktmonnpik
 ms.date: 
 targetos: Windows

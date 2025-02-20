@@ -1,8 +1,8 @@
 ---
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
-tech.root: 
+tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
-ms.date: 
+ms.date: 02/19/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -53,4 +53,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-
