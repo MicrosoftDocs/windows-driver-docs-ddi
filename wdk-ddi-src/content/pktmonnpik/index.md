@@ -1,10 +1,10 @@
 ---
 UID: NA:pktmonnpik
 tech.root: netvista
-title: pktmonnpik
-ms.date: 
+title: Pktmonnpik.h header
+ms.date: 02/20/2025
 targetos: Windows
-description: 
+description: Defines the public NPI (NMR) interface for network packet monitoring.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
@@ -45,9 +45,14 @@ helpviewer_keywords:
 
 ## -description
 
+The pktmonnpik.h header file defines the public NPI (NMR) interface for network packet monitoring.
+
 ## -remarks
 
 ## -see-also
+
+- [Pktmonclntk.h header](../pktmonclntk/index.md)
+- [Pktmondefk.h header](../pktmondefk/index.md)
 
 ## -examples
 

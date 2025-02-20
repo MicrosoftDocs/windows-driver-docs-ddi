@@ -1,10 +1,10 @@
 ---
 UID: NA:pktmondefk
 tech.root: netvista
-title: pktmondefk
-ms.date: 02/05/2025
+title: Pktmondefk.h header
+ms.date: 02/20/2025
 targetos: Windows
-description: Public core data types shared by the pktmon stack.
+description: Defines the public core data types shared by the pktmon stack.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
@@ -45,11 +45,13 @@ helpviewer_keywords:
 
 ## -description
 
-Public core data types shared by the pktmon stack.
+The pktmondefk.h header file defines the public core data types shared by the pktmon stack.
 
 ## -remarks
 
 ## -see-also
 
-## -examples
+- [Pktmonclntk.h header](../pktmonclntk/index.md)
+- [Pktmonnpik.h header](../pktmonnpik/index.md)
 
+## -examples

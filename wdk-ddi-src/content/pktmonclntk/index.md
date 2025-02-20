@@ -1,10 +1,10 @@
 ---
 UID: NA:pktmonclntk
 tech.root: netvista
-title: pktmonclntk
-ms.date: 02/13/2025
+title: Pktmonclntk.h header
+ms.date: 02/20/2025
 targetos: Windows
-description: 
+description: Defines public data types and functions used by drivers to publish network packets into the pktmon diagnostics framework.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
@@ -45,9 +45,15 @@ helpviewer_keywords:
 
 ## -description
 
+The pktmonclntk.h header file defines public data types and functions used by drivers to publish network packets into the pktmon diagnostics framework.
+
 ## -remarks
+
+Kernel-mode Pktmon DDIs allow drivers to report network packet flow and drop information for packets traversing non-Microsoft drivers. Pktmon DDIs are especially useful for diagnosing issues like network connectivity and performance.
 
 ## -see-also
 
-## -examples
+- [Pktmonnpik.h header](../pktmonnpik/index.md)
+- [Pktmondefk.h header](../pktmondefk/index.md)
 
+## -examples
