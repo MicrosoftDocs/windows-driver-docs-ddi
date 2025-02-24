@@ -50,7 +50,7 @@ The GetLocalKind method retrieves the kind of local variable that has been enume
 
 ### -param kind
 
-A pointer to a [LocalKind variable](ne-dbgmodel-localkind). This parameter receives the kind of the local variable.
+A pointer to a [LocalKind variable](ne-dbgmodel-localkind.md). This parameter receives the kind of the local variable.
 
 ## -returns
 

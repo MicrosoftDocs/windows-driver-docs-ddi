@@ -54,7 +54,7 @@ A boolean value. If true, the method will enumerate locals and arguments of inli
 
 ### -param localsEnum
 
-A pointer to a pointer variable that receives the [IDebugHostFunctionLocalDetailsEnumerator interface](dbgmodel-idebughostfunctionlocaldetailsenumerator.md) of the enumerated locals details.
+A pointer to a pointer variable that receives the [IDebugHostFunctionLocalDetailsEnumerator interface](nn-dbgmodel-idebughostfunctionlocaldetailsenumerator.md) of the enumerated locals details.
 
 ## -returns
 
