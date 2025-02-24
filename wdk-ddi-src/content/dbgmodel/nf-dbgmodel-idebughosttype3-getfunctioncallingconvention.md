@@ -44,13 +44,13 @@ helpviewer_keywords:
 
 ## -description
 
-The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind).
+The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind.md).
 
 ## -parameters
 
 ### -param conventionKind
 
-The calling convention of the function is returned here as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind).
+The calling convention of the function is returned here as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind.md).
 
 ## -returns
 

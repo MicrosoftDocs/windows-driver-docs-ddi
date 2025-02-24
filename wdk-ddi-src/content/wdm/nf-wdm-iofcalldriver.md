@@ -41,7 +41,7 @@ api_name:
 ## -description
 
 > [!CAUTION]
-> Call [IoCallDriver](./nf-wdm-iocalldriver.md) instead.
+> Call the macro [IoCallDriver](./nf-wdm-iocalldriver.md) instead, that macro is a passthrough call to this function.
 
 Sends an IRP to the driver associated with a specified device object.
 
@@ -49,7 +49,7 @@ Sends an IRP to the driver associated with a specified device object.
 
 ### -param DeviceObject
 
-Pointer to a device object, representing the target device for the requested I/O operation.
+Pointer to a [**DEVICE_OBJECT**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_device_object), representing the target device for the requested I/O operation.
 
 ### -param Irp
 
@@ -60,6 +60,8 @@ Pointer to the [**IRP**](ns-wdm-_irp.md).
 Returns an appropriate [NTSTATUS value](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
+
+The following remarks refer to the wrapper IoCallDriver macro but apply to this function as well, since that macro is a simple passthrough to here.
 
 Before calling IoCallDriver, the calling driver must set up the I/O stack location in the IRP for the target driver. For more information, see [Passing IRPs Down the Driver Stack](/windows-hardware/drivers/kernel/passing-irps-down-the-driver-stack).
 
