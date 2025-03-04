@@ -77,3 +77,4 @@ This method returns HRESULT.
 
 ## -see-also
 
+[IDebugHostMemory2 interface](nn-dbgmodel-idebughostmemory2.md)
