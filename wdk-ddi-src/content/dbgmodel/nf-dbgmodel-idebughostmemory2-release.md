@@ -55,3 +55,4 @@ This method returns ULONG.
 
 ## -see-also
 
+[IDebugHostMemory2 interface](nn-dbgmodel-idebughostmemory2.md)
