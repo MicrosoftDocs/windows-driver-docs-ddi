@@ -50,7 +50,7 @@ The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc
 
 ### -param kind
 
-The kind of type the symbol refers to will be returned here (as a member of the [TypeKind enumeration](ne-dbgmodel-typekind)).
+The kind of type the symbol refers to will be returned here (as a member of the [TypeKind enumeration](ne-dbgmodel-typekind.md)).
 
 ## -returns
 

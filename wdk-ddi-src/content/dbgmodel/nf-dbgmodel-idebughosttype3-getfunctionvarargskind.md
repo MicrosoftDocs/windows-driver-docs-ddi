@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. Such is defined by a member of the [VarArgsKind enumeration](ne-dbgmodel-varargskind) defined as follows:
+The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. Such is defined by a member of the [VarArgsKind enumeration](ne-dbgmodel-varargskind.md) defined as follows:
 
 |Enumerant |	Meaning|
 |---------|---------|

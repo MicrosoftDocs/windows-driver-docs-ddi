@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind).
+The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind.md).
 
 ## -parameters
 
