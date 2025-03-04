@@ -65,7 +65,7 @@ This method returns HRESULT which indicates success or failure.
 **Sample Code**
 
 ```cpp
-ComPtr<IDebugHostModule> spModule; /* get a module (see FindModuleByName) */
+ComPtr<IDebugHostModule5> spModule; /* get a module (see FindModuleByName) */
 
 // Find the symbol for g_someGlobal;
 ComPtr<IDebugHostSymbol> spSymbol;

@@ -48,7 +48,7 @@ CanonicalizeLocation is a method that transforms a given location to its "canoni
 
 A classic example where this function might be helpful involve the Debugging Tools for Windows (dbgeng) that historically sign extends 32-bit addresses to 64-bits, creating difficulties in representing and distinguishing certain address regions in high address aware 32-bit processes.
 
-Please note that comparing locations or addresses gotten from components which report sign extended addresses against zero extended ones could result in unforeseen failures. You can evade such mishaps by calling CanonicalizeLocation() beforehand. Keep in mind that this method doesn't transform the type of a location. To transform the type, you should call LinearizeLocation().
+Note that comparing locations or addresses gotten from components which report sign extended addresses against zero extended ones could result in unforeseen failures. You can evade such mishaps by calling CanonicalizeLocation() beforehand. Keep in mind that this method doesn't transform the type of a location. To transform the type, you should call LinearizeLocation().
 
 ## -parameters
 
@@ -70,7 +70,7 @@ This method returns HRESULT which indicates success or failure.
 
 ## -remarks
 
-Although this method changes a location's representation to its canonical form, it doesN't alter the actual type of the location. Use the [LinearizeLocation() method](nf-dbgmodel-idebughostmemory3-linearizelocation.md) to perform such type transformation.
+Although this method changes a location's representation to its canonical form, it doesn't alter the actual type of the location. Use the [LinearizeLocation() method](nf-dbgmodel-idebughostmemory3-linearizelocation.md) to perform such type transformation.
 
 ## -see-also
 
