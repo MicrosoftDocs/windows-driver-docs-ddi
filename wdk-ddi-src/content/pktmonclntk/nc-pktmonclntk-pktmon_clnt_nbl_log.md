@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_NBL_LOG
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_NBL_LOG
-ms.date: 
+ms.date: 03/05/2025
 targetos: Windows
-description: 
+description: Function pointer to PktMonClntNblLog.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Function pointer to [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md).
 
 ## -parameters
 

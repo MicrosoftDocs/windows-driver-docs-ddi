@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_SET_COMPONENT_PROPERTY
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_SET_COMPONENT_PROPERTY
-ms.date: 
+ms.date: 03/05/2025
 targetos: Windows
-description: 
+description: Function pointer to PktMonClntSetComponentProperty.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Function pointer to [PktMonClntSetComponentProperty](nf-pktmonclntk-pktmonclntsetcomponentproperty.md).
 
 ## -parameters
 

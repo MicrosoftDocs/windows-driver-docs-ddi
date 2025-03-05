@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_COMPONENT_UNREGISTER
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_COMPONENT_UNREGISTER
-ms.date: 
+ms.date: 03/05/2025
 targetos: Windows
-description: 
+description: Function pointer to PktMonClntComponentUnregister.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Function pointer to [PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md).
 
 ## -parameters
 

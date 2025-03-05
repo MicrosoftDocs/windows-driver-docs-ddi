@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_ADD_EDGE
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_ADD_EDGE
-ms.date: 
+ms.date: 03/05/2025
 targetos: Windows
-description: 
+description: Function pointer to PktMonClntAddEdge.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Function pointer to [PktMonClntAddEdge](nf-pktmonclntk-pktmonclntaddedge.md).
 
 ## -parameters
 

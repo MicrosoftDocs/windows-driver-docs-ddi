@@ -1,8 +1,8 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLIENT_COMP_NOTIFY
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLIENT_COMP_NOTIFY
-ms.date: 
+ms.date: 03/05/2025
 targetos: Windows
 description: 
 prerelease: false

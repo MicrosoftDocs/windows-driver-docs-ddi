@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntk.PKTMON_CLNT_HEADER_INFO_LOG
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLNT_HEADER_INFO_LOG
-ms.date: 
+ms.date: 03/05/2025
 targetos: Windows
-description: 
+description: Function pointer to PktMonClntHeaderInfoLog.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+Function pointer to [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md).
 
 ## -parameters
 
