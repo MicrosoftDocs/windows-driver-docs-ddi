@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_DISPATCH
 ms.date: 02/19/2025
 targetos: Windows
-description: 
+description: The PKTMON_NETEVT_PROVIDER_DISPATCH structure contains a Packet Monitor NMR provider dispatch table.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_NETEVT_PROVIDER_DISPATCH** structure contains a Packet Monitor NMR provider dispatch table.
+
 ## -struct-fields
 
 ### -field Header
@@ -55,3 +57,5 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
+
+- [PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md)

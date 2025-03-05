@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_DISPATCH_HEADER
 tech.root: netvista
 title: PKTMON_NETEVT_DISPATCH_HEADER
-ms.date: 02/19/2025
+ms.date: 03/04/2025
 targetos: Windows
-description: 
+description: The PKTMON_NETEVT_DISPATCH_HEADER structure contains the header for a PKTMON_NETEVT_PROVIDER_DISPATCH structure
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_NETEVT_DISPATCH_HEADER** structure contains the header for a [PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnpik-pktmon_netevt_provider_dispatch.md) structure.
+
 ## -struct-fields
 
 ### -field Version
@@ -53,3 +55,5 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
+
+- [PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnpik-pktmon_netevt_provider_dispatch.md)

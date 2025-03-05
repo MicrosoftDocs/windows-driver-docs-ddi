@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_CONTEXT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_CONTEXT
-ms.date: 02/19/2025
+ms.date: 03/04/2025
 targetos: Windows
-description: 
+description: The PKTMON_NETEVT_CLIENT_CONTEXT structure contains the client context for a net event.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+The **PKTMON_NETEVT_CLIENT_CONTEXT** structure contains the client context for a net event.
 
 ## -struct-fields
 

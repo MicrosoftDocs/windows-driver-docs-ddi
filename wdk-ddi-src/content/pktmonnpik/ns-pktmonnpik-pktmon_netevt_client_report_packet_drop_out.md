@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
-ms.date: 02/19/2025
+ms.date: 03/04/2025
 targetos: Windows
-description: 
+description: The PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT structure contains the start and end pointer of the buffer containing the dropped packet information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,12 +44,20 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT** structure contains the start and end pointer of the buffer containing the dropped packet information.
+
 ## -struct-fields
 
 ### -field BufferStart
 
+Pointer to the start of the buffer containing the dropped packet information.
+
 ### -field BufferEnd
+
+Pointer to the end of the buffer containing the dropped packet information.
 
 ## -remarks
 
 ## -see-also
+
+- [PKTMON_EVT_STREAM_PACKET_HEADER](ns-pktmonnpik-pktmon_evt_stream_packet_header.md)

@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_EVT_STREAM_PACKET_HEADER
 tech.root: netvista
 title: PKTMON_EVT_STREAM_PACKET_HEADER
-ms.date: 02/19/2025
+ms.date: 03/04/2025
 targetos: Windows
-description: 
+description: The PKTMON_EVT_STREAM_PACKET_HEADER structure contains a packet header used for event streaming.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -43,6 +43,8 @@ helpviewer_keywords:
 ---
 
 ## -description
+
+The **PKTMON_EVT_STREAM_PACKET_HEADER** structure contains a packet header used for event streaming.
 
 ## -struct-fields
 
