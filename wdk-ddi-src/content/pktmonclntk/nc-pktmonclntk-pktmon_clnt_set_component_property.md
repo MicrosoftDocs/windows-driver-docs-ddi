@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_SET_COMPONENT_PROPERTY
 tech.root: netvista
 title: PKTMON_CLNT_SET_COMPONENT_PROPERTY
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntSetComponentProperty.
 prerelease: false
@@ -56,5 +56,8 @@ Function pointer to [PktMonClntSetComponentProperty](nf-pktmonclntk-pktmonclntse
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntSetComponentProperty](nf-pktmonclntk-pktmonclntsetcomponentproperty.md) function instead.
+
 ## -see-also
 
+- [PktMonClntSetComponentProperty](nf-pktmonclntk-pktmonclntsetcomponentproperty.md)

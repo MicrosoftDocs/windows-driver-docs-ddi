@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_HEADER_INFO_DROP
 tech.root: netvista
 title: PKTMON_CLNT_HEADER_INFO_DROP
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntHeaderInfoDrop.
 prerelease: false
@@ -64,5 +64,8 @@ Function pointer to [PktMonClntHeaderInfoDrop](nf-pktmonclntk-pktmonclntheaderin
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntHeaderInfoDrop](nf-pktmonclntk-pktmonclntheaderinfodrop.md) function instead.
+
 ## -see-also
 
+- [PktMonClntHeaderInfoDrop](nf-pktmonclntk-pktmonclntheaderinfodrop.md)

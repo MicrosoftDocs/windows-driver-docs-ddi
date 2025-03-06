@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_NBL_DROP
 tech.root: netvista
 title: PKTMON_CLNT_NBL_DROP
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntNblDrop.
 prerelease: false
@@ -66,5 +66,8 @@ Function pointer to [PktMonClntNblDrop](nf-pktmonclntk-pktmonclntnbldrop.md).
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntNblDrop](nf-pktmonclntk-pktmonclntnbldrop.md) function instead.
+
 ## -see-also
 
+- [PktMonClntNblDrop](nf-pktmonclntk-pktmonclntnbldrop.md)

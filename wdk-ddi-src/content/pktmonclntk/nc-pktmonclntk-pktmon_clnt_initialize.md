@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_INITIALIZE
 tech.root: netvista
 title: PKTMON_CLNT_INITIALIZE
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntInitialize.
 prerelease: false
@@ -60,5 +60,8 @@ Function pointer to [PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.m
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md) function instead.
+
 ## -see-also
 
+- [PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md)

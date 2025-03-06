@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_ADD_EDGE
 tech.root: netvista
 title: PKTMON_CLNT_ADD_EDGE
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntAddEdge.
 prerelease: false
@@ -60,5 +60,8 @@ Function pointer to [PktMonClntAddEdge](nf-pktmonclntk-pktmonclntaddedge.md).
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntAddEdge](nf-pktmonclntk-pktmonclntaddedge.md) function instead.
+
 ## -see-also
 
+- [PktMonClntAddEdge](nf-pktmonclntk-pktmonclntaddedge.md)

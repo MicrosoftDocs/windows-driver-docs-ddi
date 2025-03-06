@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_HEADER_INFO_LOG
 tech.root: netvista
 title: PKTMON_CLNT_HEADER_INFO_LOG
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntHeaderInfoLog.
 prerelease: false
@@ -58,5 +58,8 @@ Function pointer to [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinf
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md) function instead.
+
 ## -see-also
 
+- [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md)

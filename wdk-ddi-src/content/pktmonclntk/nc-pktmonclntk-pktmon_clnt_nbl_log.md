@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_NBL_LOG
 tech.root: netvista
 title: PKTMON_CLNT_NBL_LOG
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntNblLog.
 prerelease: false
@@ -62,5 +62,8 @@ Function pointer to [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md).
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md) function instead.
+
 ## -see-also
 
+- [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md)

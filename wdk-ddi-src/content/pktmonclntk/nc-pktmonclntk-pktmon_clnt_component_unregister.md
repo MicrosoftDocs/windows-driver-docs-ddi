@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_COMPONENT_UNREGISTER
 tech.root: netvista
 title: PKTMON_CLNT_COMPONENT_UNREGISTER
-ms.date: 03/05/2025
+ms.date: 03/06/2025
 targetos: Windows
 description: Function pointer to PktMonClntComponentUnregister.
 prerelease: false
@@ -52,5 +52,8 @@ Function pointer to [PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcom
 
 ## -remarks
 
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md) function instead.
+
 ## -see-also
 
+- [PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md)
