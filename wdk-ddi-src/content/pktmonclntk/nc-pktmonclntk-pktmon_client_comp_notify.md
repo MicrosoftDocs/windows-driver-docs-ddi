@@ -44,11 +44,19 @@ helpviewer_keywords:
 
 ## -description
 
+Callback function that Packet Monitor calls to notify a component.
+
 ## -parameters
 
 ### -param CompContext
 
+A pointer to a [PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md) structure containing to context for the component.
+
 ## -remarks
+
+Pass a function pointer of this type in the fourth argument of the [PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md) function. Packet Monitor calls this callback to notify the component.
 
 ## -see-also
 
+- [PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)
+- [PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md)
