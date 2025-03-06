@@ -78,6 +78,8 @@ A bug check occurs if the driver supplies an invalid object handle.
 
 If your driver forwards I/O requests, but if you want your driver to be notified when a lower-level driver completes the request, your driver can provide a <a href="/windows-hardware/drivers/ddi/wdfrequest/nc-wdfrequest-evt_wdf_request_completion_routine">CompletionRoutine</a> callback function and call <b>WdfRequestSetCompletionRoutine</b> to register the function. The framework calls the callback function after a lower-level driver completes the I/O request. 
 
+If the driver sets an I/O completion callback, the driver must format the request before sending it to the default I/O target even if the driver does not change any of the parameters in the request. Formatting can be done using <a href="/windows-hardware/drivers/ddi/wdfrequest/nf-wdfrequest-wdfrequestformatrequestusingcurrenttype">WdfRequestFormatRequestUsingCurrentType</a>.
+
 For more information about <b>WdfRequestSetCompletionRoutine</b>, see <a href="/windows-hardware/drivers/wdf/completing-i-o-requests">Completing I/O Requests</a>.
 
 
