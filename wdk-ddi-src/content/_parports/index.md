@@ -3,7 +3,7 @@ description: "Learn more about: Parallel Ports"
 UID: TP:parports
 title: Parallel Ports
 ms.assetid: 38f4cf0c-2fc1-3909-83b7-bf354cf904c1
-ms.date: 05/09/2018
+ms.date: 03/06/2018
 keywords: ["Parallel Ports"]
 ms.keywords: 
 ---
@@ -14,15 +14,13 @@ ms.keywords:
 
 Overview of the Parallel Ports technology.
 
-To develop Parallel Ports, you need these headers:
+To develop drivers for Parallel Ports, you need these headers:
 
-* [gpio.h](../gpio/index.md)
-* [gpioclx.h](../gpioclx/index.md)
 * [ntddpar.h](../ntddpar/index.md)
-* [ntddser.h](../ntddser/index.md)
 * [parallel.h](../parallel/index.md)
 
 For the programming guide, see [Parallel Ports](/windows-hardware/drivers/parports).
+
 
 ## I/O control codes
 
