@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_ENABLE_NEW_DATA_NOTIFICATION**
+The **EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_ENABLE_NEW_DATA_NOTIFICATION** event callback function is called by version 2 of the serial framework extension (SerCx2) to enable new data notification.
 
 ## -parameters
 

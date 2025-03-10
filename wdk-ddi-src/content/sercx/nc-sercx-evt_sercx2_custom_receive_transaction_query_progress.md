@@ -2,7 +2,7 @@
 UID: NC:sercx.EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_QUERY_PROGRESS
 tech.root: serports
 title: EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_QUERY_PROGRESS
-ms.date: 03/06/2025 
+ms.date: 03/10/2025 
 targetos: Windows
 description: The EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_QUERY_PROGRESS
 prerelease: false
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-he SerCx2CustomReceiveTransactionReportProgress method reports whether progress is being made toward completing the current custom-receive transaction.
+The **EVT_SERCX2_CUSTOM_RECEIVE_TRANSACTION_QUERY_PROGRESS** event callback function  is called by version 2 of the serial framework extension (SerCx2) to query the progress of the a receive custom transaction.
 
 ## -parameters
 
@@ -56,13 +56,10 @@ A <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTO
 
 ## -see-also
 
-
 <a href="/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2CUSTOMRECEIVETRANSACTION</a>
 
 
-
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncleanupcomplete">SerCx2CustomReceiveTransactionCleanupComplete</a>
-
 
 
 <a href="/windows-hardware/drivers/ddi/sercx/nf-sercx-sercx2customreceivetransactioncreate">SerCx2CustomReceiveTransactionCreate</a>
