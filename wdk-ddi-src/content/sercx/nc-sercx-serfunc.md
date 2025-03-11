@@ -2,7 +2,7 @@
 UID: NC:sercx.SERFUNC
 tech.root: serports
 title: SERFUNC
-ms.date: 03/06/2025 
+ms.date: 03/10/2025 
 targetos: Windows
 description: SERFUNC is used to create the SERCX function interfaces.
 prerelease: false

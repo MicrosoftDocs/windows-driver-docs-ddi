@@ -2,9 +2,9 @@
 UID: NC:sercx.SERCXFUNC
 tech.root: serports
 title: SERCXFUNC
-ms.date: 03/06/2025 
+ms.date: 03/10/2025 
 targetos: Windows
-description: The SERCXFUNC
+description: SERCXFUNC is used to create the external SERCX function interfaces.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,8 +44,10 @@ helpviewer_keywords:
 
 ## -description
 
-The SERCXFUNC
+SERCXFUNC is used to create the SERCX function interfaces.
 
 ## -remarks
 
 ## -see-also
+
+[Serial port](../_serports/index.md)
