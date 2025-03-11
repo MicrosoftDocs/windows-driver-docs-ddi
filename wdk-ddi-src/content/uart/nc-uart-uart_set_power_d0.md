@@ -1,6 +1,6 @@
 ---
 UID: NC:uart.UART_SET_POWER_D0
-tech.root: serports
+tech.root: uart
 title: UART_SET_POWER_D0
 ms.date: 03/06/2025
 targetos: Windows

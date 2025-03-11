@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_WRITE_ULONG
 title: UART_HARDWARE_WRITE_ULONG (uart.h)
 description: Writes a ULONG value to the specified port or register.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_ULONG callback function"]
 req.header: uart.h

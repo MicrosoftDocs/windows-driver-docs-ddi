@@ -2,7 +2,7 @@
 UID: NS:uart._UART_HARDWARE_ACCESS
 title: _UART_HARDWARE_ACCESS (uart.h)
 description: Contains I/O functions and the function pointers used by the serial drivers to access the device hardware.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_ACCESS structure"]
 ms.keywords: _UART_HARDWARE_ACCESS, UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS,

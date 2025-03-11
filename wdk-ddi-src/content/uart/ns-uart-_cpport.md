@@ -2,7 +2,7 @@
 UID: NS:uart._CPPORT
 title: _CPPORT (uart.h)
 description: Contains the mutable runtime state of a specific instance of a UART device.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["CPPORT structure"]
 ms.keywords: _CPPORT, CPPORT, *PCPPORT,
