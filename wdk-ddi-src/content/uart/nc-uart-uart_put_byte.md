@@ -2,7 +2,7 @@
 UID: NC:uart.UART_PUT_BYTE
 title: UART_PUT_BYTE (uart.h)
 description: Writes a data byte to the UART device.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_PUT_BYTE callback function"]
 req.header: uart.h
