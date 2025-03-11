@@ -2,8 +2,7 @@
   "tech": "serports",
   "headers": [
     "ntddser.h",
-    "sercx.h",
-    "uart.h"
+    "sercx.h"
   ],
   "displayName": "Serial port"
 }
