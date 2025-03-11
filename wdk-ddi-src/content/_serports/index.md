@@ -3,7 +3,7 @@ description: "Learn more about: Serial port"
 UID: TP:serports
 title: Serial port
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
-ms.date: 03/06/2025
+ms.date: 03/11/2025
 keywords: ["Serial port"]
 ms.keywords: 
 ---
@@ -22,8 +22,7 @@ For the programming guide, see [Serial port](/windows-hardware/drivers/serports)
 
 These headers were used with previous versions of Windows.
 
- * [uart.h](../uart/index.md)
- * [ntddser.h](../ntddser/index.md)
+* [ntddser.h](../ntddser/index.md)
 
 
 ## Callback functions

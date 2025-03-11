@@ -1,0 +1,7 @@
+{
+  "tech": "uart",
+  "headers": [
+    "uart.h"
+  ],
+  "displayName": "UART"
+}
