@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_CONTEXT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_CONTEXT
-ms.date: 03/04/2025
+ms.date: 03/11/2025
 targetos: Windows
 description: The PKTMON_NETEVT_CLIENT_CONTEXT structure contains the client context for a net event.
 prerelease: false
@@ -44,13 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_NETEVT_CLIENT_CONTEXT** structure contains the client context for a net event.
+The **PKTMON_NETEVT_CLIENT_CONTEXT** structure contains the NMR client context for a net event.
 
 ## -struct-fields
 
 ### -field NmrClientHandle
 
+A handle used by the NMR to represent the registration of the client module.
+
 ### -field RundownRef
+
+Pointer to an opaque **EX_RUNDOWN_REF_CACHE_AWARE** structure.
 
 ### -field Enabled
 

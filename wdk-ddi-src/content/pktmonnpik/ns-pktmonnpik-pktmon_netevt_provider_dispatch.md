@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_PROVIDER_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_DISPATCH
-ms.date: 02/19/2025
+ms.date: 03/11/2025
 targetos: Windows
 description: The PKTMON_NETEVT_PROVIDER_DISPATCH structure contains a Packet Monitor NMR provider dispatch table.
 prerelease: false
@@ -50,9 +50,15 @@ The **PKTMON_NETEVT_PROVIDER_DISPATCH** structure contains a Packet Monitor NMR 
 
 ### -field Header
 
+The [PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md) structure for this dispatch table.
+
 ### -field HandlerCount
 
+The number of event handlers.
+
 ### -field Handlers
+
+Pointer to the event handlers.
 
 ## -remarks
 

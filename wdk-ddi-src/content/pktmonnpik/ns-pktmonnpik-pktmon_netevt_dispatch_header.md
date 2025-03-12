@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_DISPATCH_HEADER
 tech.root: netvista
 title: PKTMON_NETEVT_DISPATCH_HEADER
-ms.date: 03/04/2025
+ms.date: 03/11/2025
 targetos: Windows
 description: The PKTMON_NETEVT_DISPATCH_HEADER structure contains the header for a PKTMON_NETEVT_PROVIDER_DISPATCH structure
 prerelease: false
@@ -50,7 +50,11 @@ The **PKTMON_NETEVT_DISPATCH_HEADER** structure contains the header for a [PKTMO
 
 ### -field Version
 
+The version of the PktMon programming interface that the application would like to use.
+
 ### -field Size
+
+The size of this header structure.
 
 ## -remarks
 

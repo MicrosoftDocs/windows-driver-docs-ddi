@@ -62,29 +62,47 @@ The IP protocol.
 
 ### -field Transport
 
-The transport protocol.
+A union that defines the transport protocol.
 
 ### -field Transport.Udp
 
+The UDP protocol.
+
 ### -field Transport.Udp.PortLocal
+
+The local port for the UDP protocol.
 
 ### -field Transport.Udp.PortRemote
 
+The renmote port for the UDP protocol.
+
 ### -field Transport.Tcp
+
+The TCP protocol.
 
 ### -field Transport.Tcp.PortLocal
 
+The local port for the TCP protocol.
+
 ### -field Transport.Tcp.PortRemote
+
+The remote port for the TCP protocol.
 
 ### -field Transport.Tcp.Flags
 
+Flags for the TCP protocol.
+
 ### -field Transport.Icmp
+
+The ICMP protocol.
 
 ### -field Transport.Icmp.Type
 
+The type for the ICMP protocol.
+
 ### -field Transport.Icmp.Code
 
-### -field _PKTMON_TRANSPORT_PROTOCOL
+The code for the ICMP protocol.
 
 ## -remarks
 

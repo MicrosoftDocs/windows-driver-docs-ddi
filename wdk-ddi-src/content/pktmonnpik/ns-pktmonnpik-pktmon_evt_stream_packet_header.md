@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_EVT_STREAM_PACKET_HEADER
 tech.root: netvista
 title: PKTMON_EVT_STREAM_PACKET_HEADER
-ms.date: 03/04/2025
+ms.date: 03/11/2025
 targetos: Windows
 description: The PKTMON_EVT_STREAM_PACKET_HEADER structure contains a packet header used for event streaming.
 prerelease: false
@@ -50,10 +50,19 @@ The **PKTMON_EVT_STREAM_PACKET_HEADER** structure contains a packet header used 
 
 ### -field EventId
 
+The streaming event ID.
+
 ### -field PacketDescriptor
 
+The [PKTMON_EVT_STREAM_PACKET_DESCRIPTOR](ns-pktmonnpik-pktmon_evt_stream_packet_descriptor.md) portion of the header.
+
 ### -field Metadata
+
+The [PKTMON_EVT_STREAM_METADATA](ns-pktmonnpik-pktmon_evt_stream_metadata.md) portion of the header.
 
 ## -remarks
 
 ## -see-also
+
+- [PKTMON_EVT_STREAM_PACKET_DESCRIPTOR](ns-pktmonnpik-pktmon_evt_stream_packet_descriptor.md)
+- [PKTMON_EVT_STREAM_METADATA](ns-pktmonnpik-pktmon_evt_stream_metadata.md)
