@@ -2,7 +2,7 @@
 description: "Learn more about: UART"
 UID: TP:uart
 title: UART
-ms.date: 03/11/2025
+ms.date: 03/12/2025
 keywords: ["UART"]
 ms.keywords: 
 ---
@@ -11,6 +11,6 @@ ms.keywords:
 
 ## -description
 
-To develop a UART driver the this header is used.
+To develop a UART driver this header is used.
 
  * [uart.h](../uart/index.md)
