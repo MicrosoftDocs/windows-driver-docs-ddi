@@ -31,7 +31,7 @@ conceptualContent:
           url: ./_usbref/index.md
           itemType: reference 
         - text: Serial Port
-          url: ./_serport/index.md
+          url: ./_serports/index.md
           itemType: reference 
     - title: Connectivity
       links:
