@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_DISPATCH
-ms.date: 03/04/2025
+ms.date: 03/13/2025
 targetos: Windows
 description: The PKTMON_NETEVT_CLIENT_DISPATCH structure contains a Packet Monitor NetEvt NMR client dispatch table.
 prerelease: false
@@ -46,14 +46,28 @@ helpviewer_keywords:
 
 The **PKTMON_NETEVT_CLIENT_DISPATCH** structure contains a Packet Monitor NetEvt NMR client dispatch table.
 
+The **PKTMON_NETEVT_CLIENT_DISPATCH** structure contains the Packet Monitor NetEvt NMR client dispatch table of [NPI](/windows-hardware/drivers/network/network-programming-interface) callback functions for the client module. A pointer to this structure is passed through the *ClientDispatch* parameter when calling **[NmrClientAttachProvider](../netioddk/nf-netioddk-nmrclientattachprovider.md)**.
+
 ## -struct-fields
 
 ### -field Header
 
+Represents header information as described in **[PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md)**.
+
 ### -field HandlerCount
+
+The number of handler functions.
 
 ### -field Handlers
 
+Pointer to the list of hanlder functions.
+
 ## -remarks
 
+The client module must make sure that this structure remains valid and resident in memory as long as the provider module is attached to the client module. The contents of the structure are NPI-specific.
+
 ## -see-also
+
+- [NPI](/windows-hardware/drivers/network/network-programming-interface)
+- **[NmrClientAttachProvider](../netioddk/nf-netioddk-nmrclientattachprovider.md)**
+- **[PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md)**

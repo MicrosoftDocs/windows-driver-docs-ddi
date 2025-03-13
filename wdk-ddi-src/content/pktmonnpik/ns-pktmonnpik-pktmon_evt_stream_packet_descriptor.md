@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_EVT_STREAM_PACKET_DESCRIPTOR
 tech.root: netvista
 title: PKTMON_EVT_STREAM_PACKET_DESCRIPTOR
-ms.date: 03/04/2025
+ms.date: 03/13/2025
 targetos: Windows
 description: The PKTMON_EVT_STREAM_PACKET_DESCRIPTOR structure contains a packet descriptor used for event streaming.
 prerelease: false
@@ -50,10 +50,21 @@ The **PKTMON_EVT_STREAM_PACKET_DESCRIPTOR** structure contains a packet descript
 
 ### -field PacketOriginalLength
 
+The original packet length.
+
 ### -field PacketLoggedLength
 
+Represents the length of the part of the packet that was logged. This will be same as *PacketOriginalLength* if the packet was not truncated when logged, otherwise it will be shorter.
+
 ### -field PacketMetaDataLength
+
+Length of the metadata.
+
+> [!NOTE]
+> It's important to rely on *PacketMetaDataLength* instead of the size of structure **[PKTMON_EVT_STREAM_METADATA](ns-pktmonnpik-pktmon_evt_stream_metadata.md)** as this structure might increase in size in future releases.
 
 ## -remarks
 
 ## -see-also
+
+- **[PKTMON_EVT_STREAM_METADATA](ns-pktmonnpik-pktmon_evt_stream_metadata.md)**

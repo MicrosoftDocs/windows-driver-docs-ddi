@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_CONTEXT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_CONTEXT
-ms.date: 03/11/2025
+ms.date: 03/13/2025
 targetos: Windows
 description: The PKTMON_NETEVT_CLIENT_CONTEXT structure contains the client context for a net event.
 prerelease: false
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_NETEVT_CLIENT_CONTEXT** structure contains the NMR client context for a net event.
+The **PKTMON_NETEVT_CLIENT_CONTEXT** structure represents the *ClientContext* to be passed to **[NmrRegisterClient](../netioddk/nf-netioddk-nmrregisterclient.md)** to register a network event client module using NMR.
 
 ## -struct-fields
 
@@ -60,9 +60,18 @@ Pointer to an opaque **EX_RUNDOWN_REF_CACHE_AWARE** structure.
 
 ### -field ProviderContext
 
+Pointer to the provider context.
+
 ### -field ProviderDispatch
+
+Pointer to a **[PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnpik-pktmon_netevt_provider_dispatch.md)** provider dispatch structure.
 
 ## -remarks
 
+The client module uses this context to keep track of the state of the client registration. The contents of the client module's registration context are opaque to the NMR. The NMR passes this pointer to the client module whenever it calls the client module's **[NPI_CLIENT_ATTACH_PROVIDER_FN](../netioddk/nc-netioddk-npi_client_attach_provider_fn.md)** callback function. The client module must make sure that its registration context remains valid and resident in memory as long as the client module is registered with the NMR.
+
 ## -see-also
 
+- **[NmrRegisterClient](../netioddk/nf-netioddk-nmrregisterclient.md)**
+- **[PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnpik-pktmon_netevt_provider_dispatch.md)**
+- **[NPI_CLIENT_ATTACH_PROVIDER_FN](../netioddk/nc-netioddk-npi_client_attach_provider_fn.md)**
