@@ -2,7 +2,7 @@
 UID: NA:pktmonclntk
 tech.root: netvista
 title: Pktmonclntk.h header
-ms.date: 02/20/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: Defines public data types and functions used by drivers to publish network packets into the pktmon diagnostics framework.
 prerelease: false
@@ -38,6 +38,7 @@ f1_keywords:
  - pktmonclntk
  - pktmonclntk/pktmonclntk
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - pktmonclntk
