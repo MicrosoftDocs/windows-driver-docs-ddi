@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_DISPATCH
-ms.date: 03/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_NETEVT_CLIENT_DISPATCH structure contains a Packet Monitor NetEvt NMR client dispatch table.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_NETEVT_CLIENT_DISPATCH
  - pktmonnpik/PKTMON_NETEVT_CLIENT_DISPATCH
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_NETEVT_CLIENT_DISPATCH

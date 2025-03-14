@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntHeaderInfoLog
 tech.root: netvista
 title: PktMonClntHeaderInfoLog
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntHeaderInfoLog function logs that a network packet has flowed through, as opposed to being dropped.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntHeaderInfoLog
  - pktmonclntk/PktMonClntHeaderInfoLog
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntHeaderInfoLog

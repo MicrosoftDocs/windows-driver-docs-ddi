@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntComponentUnregister
 tech.root: netvista
 title: PktMonClntComponentUnregister
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntComponentUnregister function unregisters a component with Packet Monitor.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntComponentUnregister
  - pktmonclntk/PktMonClntComponentUnregister
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntComponentUnregister

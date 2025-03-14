@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_NBL_DROP
 tech.root: netvista
 title: PKTMON_CLNT_NBL_DROP
-ms.date: 03/06/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: Function pointer to PktMonClntNblDrop.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_CLNT_NBL_DROP
  - pktmonclntk/PKTMON_CLNT_NBL_DROP
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PKTMON_CLNT_NBL_DROP

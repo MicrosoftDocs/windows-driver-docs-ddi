@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
-ms.date: 03/04/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT structure contains the start and end pointer of the buffer containing the dropped packet information.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
  - pktmonnpik/PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT

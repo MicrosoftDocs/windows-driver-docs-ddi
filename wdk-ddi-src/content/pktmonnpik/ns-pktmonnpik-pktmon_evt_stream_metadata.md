@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_EVT_STREAM_METADATA
 tech.root: netvista
 title: PKTMON_EVT_STREAM_METADATA
-ms.date: 03/11/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_EVT_STREAM_METADATA structure contains metadata information used for event streaming.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_EVT_STREAM_METADATA
  - pktmonnpik/PKTMON_EVT_STREAM_METADATA
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_EVT_STREAM_METADATA

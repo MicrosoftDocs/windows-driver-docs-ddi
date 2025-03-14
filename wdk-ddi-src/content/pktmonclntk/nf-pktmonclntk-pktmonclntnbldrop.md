@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntNblDrop
 tech.root: netvista
 title: PktMonClntNblDrop
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntNblDrop function logs that a network packet was dropped.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntNblDrop
  - pktmonclntk/PktMonClntNblDrop
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntNblDrop

@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntUninitialize
 tech.root: netvista
 title: PktMonClntUninitialize
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntUninitialize function uninitializes the kernel driver that is acting as a Packet Monitor client.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntUninitialize
  - pktmonclntk/PktMonClntUninitialize
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntUninitialize

@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_PACKET_CONTEXT_IN
 tech.root: netvista
 title: PKTMON_PACKET_CONTEXT_IN
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_PACKET_CONTEXT_IN struct is used to contain the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_PACKET_CONTEXT_IN
  - pktmonnpik/PKTMON_PACKET_CONTEXT_IN
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_PACKET_CONTEXT_IN

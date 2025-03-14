@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntComponentRegister
 tech.root: netvista
 title: PktMonClntComponentRegister
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntComponentRegister function registers a component with Packet Monitor, allowing it to monitor and report packet activities.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntComponentRegister
  - pktmonclntk/PktMonClntComponentRegister
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntComponentRegister

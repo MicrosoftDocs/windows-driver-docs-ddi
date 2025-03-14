@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_PACKET_HEADER_INFORMATION
 tech.root: netvista
 title: PKTMON_PACKET_HEADER_INFORMATION
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_PACKET_HEADER_INFORMATION struct contains the packet header information.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_PACKET_HEADER_INFORMATION
  - pktmonnpik/PKTMON_PACKET_HEADER_INFORMATION
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_PACKET_HEADER_INFORMATION

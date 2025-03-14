@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLNT_UNINITIALIZE
 tech.root: netvista
 title: PKTMON_CLNT_UNINITIALIZE
-ms.date: 03/06/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: Function pointer to PktMonClntUninitialize.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_CLNT_UNINITIALIZE
  - pktmonclntk/PKTMON_CLNT_UNINITIALIZE
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PKTMON_CLNT_UNINITIALIZE

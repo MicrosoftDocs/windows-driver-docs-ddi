@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntHeaderInfoDrop
 tech.root: netvista
 title: PktMonClntHeaderInfoDrop
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntHeaderInfoDrop function logs that a network packet was dropped.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntHeaderInfoDrop
  - pktmonclntk/PktMonClntHeaderInfoDrop
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntHeaderInfoDrop

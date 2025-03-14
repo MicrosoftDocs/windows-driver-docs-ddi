@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_EDGE_CONTEXT
 tech.root: netvista
 title: PKTMON_EDGE_CONTEXT
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_EDGE_CONTEXT structure holds the context for an edge.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_EDGE_CONTEXT
  - pktmonclntk/PKTMON_EDGE_CONTEXT
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_EDGE_CONTEXT

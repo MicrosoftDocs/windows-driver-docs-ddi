@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntInitialize
 tech.root: netvista
 title: PktMonClntInitialize
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntInitialize function initializes the Packet Monitor client, informing Packet Monitor about the module ID that identifies the client.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntInitialize
  - pktmonclntk/PktMonClntInitialize
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntInitialize

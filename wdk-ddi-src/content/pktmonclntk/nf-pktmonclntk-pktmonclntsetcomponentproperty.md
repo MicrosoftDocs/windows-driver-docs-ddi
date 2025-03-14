@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntSetComponentProperty
 tech.root: netvista
 title: PktMonClntSetComponentProperty
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntSetComponentProperty function sets a property for a specific component.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntSetComponentProperty
  - pktmonclntk/PktMonClntSetComponentProperty
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntSetComponentProperty

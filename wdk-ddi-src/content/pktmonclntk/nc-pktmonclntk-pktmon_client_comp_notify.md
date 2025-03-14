@@ -2,7 +2,7 @@
 UID: NC:pktmonclntk.PKTMON_CLIENT_COMP_NOTIFY
 tech.root: netvista
 title: PKTMON_CLIENT_COMP_NOTIFY
-ms.date: 03/05/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -37,6 +37,8 @@ f1_keywords:
  - PKTMON_CLIENT_COMP_NOTIFY
  - pktmonclntk/PKTMON_CLIENT_COMP_NOTIFY
 dev_langs:
+ - c
+ - c++
  - c++
 helpviewer_keywords:
  - PKTMON_CLIENT_COMP_NOTIFY

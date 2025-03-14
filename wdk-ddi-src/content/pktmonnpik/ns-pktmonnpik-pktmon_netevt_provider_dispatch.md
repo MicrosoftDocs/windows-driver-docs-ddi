@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_PROVIDER_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_DISPATCH
-ms.date: 03/11/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_NETEVT_PROVIDER_DISPATCH structure contains a Packet Monitor NMR provider dispatch table.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_NETEVT_PROVIDER_DISPATCH
  - pktmonnpik/PKTMON_NETEVT_PROVIDER_DISPATCH
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_NETEVT_PROVIDER_DISPATCH

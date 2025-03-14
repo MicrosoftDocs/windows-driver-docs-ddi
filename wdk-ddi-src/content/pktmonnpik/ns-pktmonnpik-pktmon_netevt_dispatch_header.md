@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_DISPATCH_HEADER
 tech.root: netvista
 title: PKTMON_NETEVT_DISPATCH_HEADER
-ms.date: 03/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_NETEVT_DISPATCH_HEADER structure contains the header for a PKTMON_NETEVT_PROVIDER_DISPATCH structure
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_NETEVT_DISPATCH_HEADER
  - pktmonnpik/PKTMON_NETEVT_DISPATCH_HEADER
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_NETEVT_DISPATCH_HEADER

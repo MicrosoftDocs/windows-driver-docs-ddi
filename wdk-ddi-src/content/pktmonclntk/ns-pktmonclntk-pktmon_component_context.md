@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_COMPONENT_CONTEXT
 tech.root: netvista
 title: PKTMON_COMPONENT_CONTEXT
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_CONTEXT structure holds the context for the component.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_COMPONENT_CONTEXT
  - pktmonclntk/PKTMON_COMPONENT_CONTEXT
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_COMPONENT_CONTEXT

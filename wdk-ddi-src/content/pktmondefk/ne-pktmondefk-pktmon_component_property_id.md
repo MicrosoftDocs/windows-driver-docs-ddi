@@ -2,7 +2,7 @@
 UID: NE:pktmondefk._PKTMON_COMPONENT_PROPERTY_ID
 tech.root: 
 title: PKTMON_COMPONENT_PROPERTY_ID
-ms.date: 02/12/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_PROPERTY_ID enum defines the various properties that can be set for a component in Packet Monitor.
 prerelease: false
@@ -33,6 +33,7 @@ f1_keywords:
  - PKTMON_COMPONENT_PROPERTY_ID
  - pktmondefk/PKTMON_COMPONENT_PROPERTY_ID
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_COMPONENT_PROPERTY_ID

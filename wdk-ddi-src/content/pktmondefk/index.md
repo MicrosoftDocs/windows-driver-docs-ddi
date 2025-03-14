@@ -2,7 +2,7 @@
 UID: NA:pktmondefk
 tech.root: netvista
 title: Pktmondefk.h header
-ms.date: 02/20/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: Defines the public core data types shared by the pktmon stack.
 prerelease: false
@@ -38,6 +38,7 @@ f1_keywords:
  - pktmondefk
  - pktmondefk/pktmondefk
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - pktmondefk

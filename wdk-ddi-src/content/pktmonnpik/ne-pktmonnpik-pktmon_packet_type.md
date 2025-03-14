@@ -2,7 +2,7 @@
 UID: NE:pktmonnpik._PKTMON_PACKET_TYPE
 tech.root: netvista
 title: PKTMON_PACKET_TYPE
-ms.date: 02/19/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_PACKET_TYPE enum defines the various packet types that can be processed by Packet Monitor.
 prerelease: false
@@ -33,6 +33,7 @@ f1_keywords:
  - PKTMON_PACKET_TYPE
  - pktmonnpik/PKTMON_PACKET_TYPE
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_PACKET_TYPE

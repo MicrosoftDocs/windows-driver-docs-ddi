@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntAddEdge
 tech.root: netvista
 title: PktMonClntAddEdge
-ms.date: 02/13/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PktMonClntAddEdge
  - pktmonclntk/PktMonClntAddEdge
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - PktMonClntAddEdge

@@ -2,7 +2,7 @@
 UID: NE:pktmondefk._PKTMON_COMPONENT_TYPE
 tech.root: 
 title: PKTMON_COMPONENT_TYPE
-ms.date: 02/12/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_TYPE enum defines the various component types that can be registered with Packet Monitor.
 prerelease: false
@@ -33,6 +33,7 @@ f1_keywords:
  - PKTMON_COMPONENT_TYPE
  - pktmondefk/PKTMON_COMPONENT_TYPE
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_COMPONENT_TYPE

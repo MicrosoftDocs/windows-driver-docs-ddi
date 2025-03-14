@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_HEADER
 tech.root: netvista
 title: PKTMON_HEADER
-ms.date: 03/12/2025
+ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_HEADER struct is a common header for version control.
 prerelease: false
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_HEADER
  - pktmonnpik/PKTMON_HEADER
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_HEADER
