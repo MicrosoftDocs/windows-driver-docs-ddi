@@ -3,7 +3,6 @@ UID: NF:wificx.WIFI_DEVICE_CONFIG_INIT
 tech.root: netvista
 title: WIFI_DEVICE_CONFIG_INIT (wificx.h)
 ms.date: 12/28/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_DEVICE_CONFIG_INIT function initializes the WIFI_DEVICE_CONFIG structure.
 req.assembly: 

@@ -45,13 +45,13 @@ api_name:
 
 The GetFunctionParameterTypeCount method returns the number of arguments that the function takes. 
 
-Note that the C/C++ ellipsis based variable argument marker is not considered in this count. The presence of such must be detected via the GetFunctionVarArgsKind method. This will only include arguments before the ellipsis.
+Note that the C/C++ ellipsis based variable argument marker is not considered in this count. The presence of such must be detected via the [GetFunctionVarArgsKind method](nf-dbgmodel-idebughosttype2-getfunctionvarargskind.md). This will only include arguments before the ellipsis.
 
 ## -parameters
 
 ### -param count
 
-The number of arguments to the function (ignoring the variable argument ellipsis) will be returned here. The types of each individual argument may be acquired via the GetFunctionParameterTypeAt method.
+The number of arguments to the function (ignoring the variable argument ellipsis) will be returned here. The types of each individual argument may be acquired via the [GetFunctionParameterTypeAt method](nf-dbgmodel-idebughosttype2-getfunctionparametertypeat.md).
 
 ## -returns
 

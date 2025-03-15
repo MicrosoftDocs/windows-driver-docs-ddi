@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceInitialize
 tech.root: netvista
 title: WifiDeviceInitialize (wificx.h)
 ms.date: 08/18/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceInitialize function registers the client driver's WiFiCx-specific callback functions.
 req.assembly: 

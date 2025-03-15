@@ -3,7 +3,6 @@ UID: NF:wificx.WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT
 tech.root: netvista
 title: WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT (wificx.h)
 ms.date: 09/08/2021
-ms.topic: language-reference
 targetos: Windows
 description: WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT initializes a WIFI_ADAPTER_TX_DEMUX structure when the Tx DEMUX type is PEER_ADDRESS.
 req.assembly: 

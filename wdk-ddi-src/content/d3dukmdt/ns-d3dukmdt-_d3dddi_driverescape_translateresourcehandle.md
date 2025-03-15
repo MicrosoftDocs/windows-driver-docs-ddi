@@ -2,9 +2,7 @@
 UID: NS:d3dukmdt._D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE
 title: D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE (d3dukmdt.h)
 description: Used to translate the resource handle to the corresponding host handle.
-ms.date: 09/12/2022
-keywords: ["D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE structure"]
-ms.keywords: _D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE, D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE,
+ms.date: 02/06/2025
 req.header: d3dukmdt.h
 req.include-header: 
 req.target-type: 
@@ -53,9 +51,9 @@ A [**D3DDDI_DRIVERESCAPETYPE**](ne-d3dukmdt-_d3dddi_driverescapetype.md). Must b
 
 ### -field hResource
 
-[in/out] On entry, a handle to a DirectX graphics resource that was returned from [**DXGKDDI_CREATEALLOCATION**](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
+[in/out] On entry, a handle to a DirectX graphics resource that was returned from [**DxgkddiCreateAllocation**](../d3dkmddi/nc-d3dkmddi-dxgkddi_createallocation.md).
 
-On return, a handle  that can be sent to the kernel-mode driver and used in functions such as [**DXGKCB_ACQUIREHANDLEDATA**](../d3dkmddi/nc-d3dkmddi-dxgkcb_acquirehandledata.md), [**DXGKCB_RELEASEHANDLEDATA**](../d3dkmddi/nc-d3dkmddi-dxgkcb_releasehandledata.md), [**DXGKCB_GETHANDLEDATA**](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata.md), and [**DXGKCB_GETHANDLEPARENT**](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandleparent.md).
+On return, a handle  that can be sent to the kernel-mode driver and used in functions such as [**DxgkcbAcquirehandledata**](../d3dkmddi/nc-d3dkmddi-dxgkcb_acquirehandledata.md), [**DxgkcbReleasehandledata**](../d3dkmddi/nc-d3dkmddi-dxgkcb_releasehandledata.md), [**DxcbGethandledata**](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandledata.md), and [**DxgkcbGethandleparent**](../d3dkmddi/nc-d3dkmddi-dxgkcb_gethandleparent.md).
 
 ## -remarks
 
@@ -67,4 +65,6 @@ The **D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE** structure is used with the *
 
 [**DXGKARG_ESCAPE**](../d3dkmddi/ns-d3dkmddi-_dxgkarg_escape.md)
 
-[**DXGKDDI_ESCAPE**](../d3dkmddi/nc-d3dkmddi-dxgkddi_escape.md)
+[**DxgkddiEscape**](../d3dkmddi/nc-d3dkmddi-dxgkddi_escape.md)
+
+[**D3DKMTEscape**](../d3dkmthk/nf-d3dkmthk-d3dkmtescape.md)

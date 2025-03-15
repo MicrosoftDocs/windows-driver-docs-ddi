@@ -1,11 +1,9 @@
 ---
 UID: NS:storport._HW_INITIALIZATION_DATA~r1
 title: HW_INITIALIZATION_DATA (storport.h)
-description: The HW_INITIALIZATION_DATA (Storport) structure contains information particular to each miniport driver and the hardware that the miniport driver manages.
+description: Learn more about the HW_INITIALIZATION_DATA structure.
 tech.root: storage
-ms.date: 10/22/2021
-keywords: ["HW_INITIALIZATION_DATA structure"]
-ms.keywords: _HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, ADDRESS_TYPE_FLAG_BTL8, HW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_DUMP_RESUME_CAPABLE, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_FEATURE_VIRTUAL_MINIPORT, STOR_MAP_ALL_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_MAP_NO_BUFFERS, _HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA structure [Storage Devices], storage.hw_initialization_data__storport_, storport/HW_INITIALIZATION_DATA, storport/PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml
+ms.date: 12/19/2024
 req.header: storport.h
 req.include-header: Storport.h
 req.target-type: Windows
@@ -116,10 +114,10 @@ Indicates whether the Storport driver maps SRB data buffer addresses to system v
 
 | Value | Meaning |
 | ----- | ------- |
-| **STOR_MAP_NO_BUFFERS**                       | Do not map for any SRB except SRB_FUNCTION_IO_CONTROL and SRB_FUNCTION_WMI. |
-| **STOR_MAP_ALL_BUFFERS**                      | Obsolete. This value has the same effect as STOR_MAP_NON_READ_WRITE_BUFFERS. |
-| **STOR_MAP_NON_READ_WRITE_BUFFERS**           | Map the buffer for all I/O except for read or write requests. |
-| **STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE** | Map the buffer for all I/O including read and write requests. This value is valid starting with Windows 8. |
+| **STOR_MAP_NO_BUFFERS**                       (0) | Do not map for any SRB except SRB_FUNCTION_IO_CONTROL and SRB_FUNCTION_WMI. |
+| **STOR_MAP_ALL_BUFFERS**                      (1) | Obsolete. This value has the same effect as STOR_MAP_NON_READ_WRITE_BUFFERS. |
+| **STOR_MAP_NON_READ_WRITE_BUFFERS**           (2) | Map the buffer for all I/O except for read or write requests. |
+| **STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE** (3) | Map the buffer for all I/O including read and write requests. This value is valid starting with Windows 8. |
 
 ### -field NeedPhysicalAddresses
 
@@ -211,14 +209,24 @@ Flags indicating features that are supported by the miniport. **FeatureSupport**
 
 | Value | Meaning |
 | ----- | ------- |
-| **STOR_FEATURE_VIRTUAL_MINIPORT**                    | This is a virtual miniport driver. |
-| **STOR_FEATURE_ATA_PASS_THROUGH**                    | The miniport supports ATA pass through. |
-| **STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES**        | The miniport provides complete settings in its **STOR_DEVICE_CAPABILITIES_EX** structure. |
-| **STOR_FEATURE_DUMP_POINTERS**                       | The miniport supports the dump pointer SRBs. |
-| **STOR_FEATURE_DEVICE_NAME_NO_SUFFIX**               | The miniport driver does not want the suffix "SCSI *type* Device" as part of the device friendly name. |
-| **STOR_FEATURE_DUMP_RESUME_CAPABLE**                 | The miniport's dump capability is functional for resume from hibernation. |
-| **STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD** | The Storport driver initializes the [**STORAGE_DEVICE_DESCRIPTOR**](../ntddstor/ns-ntddstor-_storage_device_descriptor.md) from the  ATA Information VPD page instead of from  INQUIRY data. |
-| **STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE**          | The Storport driver sets the adapter interface type. |
+| **STOR_FEATURE_VIRTUAL_MINIPORT** (0x00000001)                   | This is a virtual miniport driver. |
+| **STOR_FEATURE_ATA_PASS_THROUGH** (0x00000002)                   | The miniport supports ATA pass through. |
+| **STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES** (0x00000004)       | The miniport provides complete settings in its **STOR_DEVICE_CAPABILITIES_EX** structure. |
+| **STOR_FEATURE_DUMP_POINTERS**  (0x00000008)                     | The miniport supports the dump pointer SRBs. |
+| **STOR_FEATURE_DEVICE_NAME_NO_SUFFIX**  (0x00000010)             | The miniport driver does not want the suffix "SCSI *type* Device" as part of the device friendly name. |
+| **STOR_FEATURE_DUMP_RESUME_CAPABLE** (0x00000020)                | The miniport's dump capability is functional for resume from hibernation. |
+| **STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD** (0x00000040) | The Storport driver initializes the [**STORAGE_DEVICE_DESCRIPTOR**](../ntddstor/ns-ntddstor-_storage_device_descriptor.md) from the  ATA Information VPD page instead of from  INQUIRY data. |
+| **STOR_FEATURE_EXTRA_IO_INFORMATION** (0x00000080)                 | The miniport driver wants SRBEX_DATA_IO_INFO in a SRBEX if available. |
+| **STOR_FEATURE_ADAPTER_CONTROL_PRE_FINDADAPTER** (0x00000100)        | The miniport driver can safely process AdapterControl call from Storport before receiving HwFindAdapter. |
+| **STOR_FEATURE_ADAPTER_NOT_REQUIRE_IO_PORT** (0x00000200)            | The miniport driver doesn't require IO Port resource for its adapter. |
+| **STOR_FEATURE_DUMP_16_BYTE_ALIGNMENT**    (0x00000400)              | The miniport driver wants its HwDeviceExtension to be 16 byte aligned in dump mode. |
+| **STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE** (0x00000800) | The miniport wants Storport to set the adapter interface type. |
+| **STOR_FEATURE_DUMP_INFO**                              (0x00001000) | The miniport driver supports the dump info SRBs. |
+| **STOR_FEATURE_DMA_ALLOCATION_NO_BOUNDARY**             (0x00002000) | The miniport driver supports to allocate DMA to physical memory without boundaries. |
+| **STOR_FEATURE_SUPPORTS_NVME_ADAPTER**                  (0x00004000) | The miniport driver supports NVMe based Storage Adapters. |
+| **STOR_FEATURE_REPORT_INTERNAL_DATA**                   (0x00008000) | The miniport driver supports reporting internal data. |
+| **STOR_FEATURE_EARLY_DUMP**                             (0x00010000) | The miniport driver supports early crash dump generation. |
+| **STOR_FEATURE_NVME_ICE**                               (0x00020000) | The miniport driver supports NVMe ICE. |
 
 ### -field SrbTypeFlags
 
@@ -226,8 +234,8 @@ Flags indicating the SRB types supported by the miniport. **SrbTypeFlags** is se
 
 | Value | Meaning |
 | ----- | ------- |
-| **SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK**    | The miniport uses standard SRBs. |
-| **SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK** | The miniport supports extended SRBs.
+| **SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK** (0x1)   | The miniport uses standard SRBs. |
+| **SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK** (0x2) | The miniport supports extended SRBs. |
 
 ### -field AddressTypeFlags
 
@@ -235,7 +243,7 @@ The address schemes supported by the miniport. Currently, the only one address s
 
 | Value | Meaning |
 | ----- | ------- |
-| **ADDRESS_TYPE_FLAG_BTL8** | Bus, Target, and LUN (BTL) 8-bit addressing. |
+| **ADDRESS_TYPE_FLAG_BTL8** (0x1) | Bus, Target, and LUN (BTL) 8-bit addressing. |
 
 ### -field Reserved1
 

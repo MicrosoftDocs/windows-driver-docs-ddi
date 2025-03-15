@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDirectDeviceCreate
 tech.root: netvista
 title: WifiDirectDeviceCreate (wificx.h)
 ms.date: 08/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDirectDeviceCreate function creates a WIFIDIRECTDEVICE object.
 req.assembly: 

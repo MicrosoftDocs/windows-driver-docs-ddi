@@ -1,0 +1,24 @@
+---
+description: "Learn more about: LkmdTel.h header"
+UID: NA:lkmdtel
+title: LkmdTel.h header
+ms.date: 12/11/2024
+keywords: ["LkmdTel.h header"]
+ms.keywords: 
+tech.root: kernel
+f1_keywords:
+ - lkmdtel
+ - lkmdtel/lkmdtel
+api_name:
+ - lkmdtel
+---
+
+# LkmdTel.h header
+
+## -description
+
+This header is used by kernel.
+
+For more information, see:
+
+- [Kernel](../_kernel/index.md)

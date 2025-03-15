@@ -5,7 +5,6 @@ title: Prntfont.h header
 ms.date: 03/02/2023
 keywords: ["Prntfont.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: print
 f1_keywords:
  - prntfont

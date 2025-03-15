@@ -1,16 +1,13 @@
 ---
 UID: NS:igpupvdev._LUID
-title: _LUID (igpupvdev.h)
+title: LUID (igpupvdev.h)
 description: The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on which it was generated.
-old-location: netvista\luid.htm
-tech.root: netvista
-ms.date: 02/27/2018
-keywords: ["LUID structure"]
-ms.keywords: "*PLUID, LUID, LUID structure [Network Drivers Starting with Windows Vista], PLUID, PLUID structure pointer [Network Drivers Starting with Windows Vista], _LUID, igpupvdev/LUID, igpupvdev/PLUID, netvista.luid, wfp_ref_3_struct_3_fwps_P-Z_5bb7e42d-6db8-4454-a629-b65042c4c051.xml"
+tech.root: display
+ms.date: 02/10/2025
 req.header: igpupvdev.h
 req.include-header: Fwptypes.h, Fwpsk.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows Vista.
+req.target-min-winverclnt: Windows Vista
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,17 +40,13 @@ api_name:
  - LUID
 ---
 
-# _LUID structure
-
+# LUID structure
 
 ## -description
 
-The locally unique identifier (LUID) is a 64-bit value guaranteed to be unique only on the system on
-  which it was generated. The uniqueness of an LUID is guaranteed only until the system is restarted.
+A LUID (locally unique identifier) is a 64-bit value guaranteed to be unique only on the system on which it was generated. The uniqueness of a LUID is guaranteed only until the system is restarted.
 
-
-An LUID is not for direct manipulation. Drivers must use support routines and structures to manipulate
-  LUID values.
+A LUID is not for direct manipulation. Drivers must use support routines and structures to manipulate LUID values.
 
 ## -struct-fields
 
@@ -73,4 +66,3 @@ typedef struct _LUID {
   LONG  HighPart;
 } LUID, *PLUID;
 ```
-

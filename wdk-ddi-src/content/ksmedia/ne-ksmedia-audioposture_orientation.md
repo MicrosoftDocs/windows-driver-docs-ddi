@@ -2,7 +2,6 @@
 UID: NE:ksmedia.AUDIOPOSTURE_ORIENTATION
 title: AUDIOPOSTURE_ORIENTATION
 ms.date: 08/11/2021
-ms.topic: language-reference
 targetos: Windows
 description: The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor.
 req.construct-type: enumeration

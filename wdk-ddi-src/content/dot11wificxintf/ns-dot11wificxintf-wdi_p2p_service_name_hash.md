@@ -3,7 +3,6 @@ UID: NS:dot11wificxintf._WDI_P2P_SERVICE_NAME_HASH
 tech.root: netvista
 title: WDI_P2P_SERVICE_NAME_HASH (dot11wificxintf.h)
 ms.date: 06/24/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_SERVICE_NAME_HASH struct defines a hash of a WFDS Service Name.
 req.construct-type: structure

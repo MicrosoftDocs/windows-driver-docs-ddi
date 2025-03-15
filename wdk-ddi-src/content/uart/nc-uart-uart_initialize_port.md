@@ -2,7 +2,7 @@
 UID: NC:uart.UART_INITIALIZE_PORT
 title: UART_INITIALIZE_PORT (uart.h)
 description: Initializes or resets the UART hardware.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_INITIALIZE_PORT callback function"]
 req.header: uart.h

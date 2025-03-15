@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_XBOX
-title: _D3DKMT_XBOX (d3dkmthk.h)
-description: Contains Xbox info.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_XBOX structure"]
-ms.keywords: _D3DKMT_XBOX, D3DKMT_XBOX,
+title: D3DKMT_XBOX (d3dkmthk.h)
+description: Learn more about the D3DKMT_XBOX structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,21 +37,18 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_XBOX structure
-
+# D3DKMT_XBOX structure
 
 ## -description
 
-Contains Xbox info.
+The **D3DKMT_XBOX** structure contain Xbox info.
 
 ## -struct-fields
 
 ### -field IsXBOX
 
- 
-Indicates whether Xbox or not.
-
-## -remarks
+Boolean that indicates whether the adapter is an Xbox adapter.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](../d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

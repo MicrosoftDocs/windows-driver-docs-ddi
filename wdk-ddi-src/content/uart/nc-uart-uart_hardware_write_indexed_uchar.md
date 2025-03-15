@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_WRITE_INDEXED_UCHAR
 title: UART_HARDWARE_WRITE_INDEXED_UCHAR (uart.h)
 description: Writes a byte to the specified port address.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_INDEXED_UCHAR callback function"]
 req.header: uart.h

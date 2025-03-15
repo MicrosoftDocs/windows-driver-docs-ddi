@@ -1,13 +1,13 @@
 ---
 UID: NC:d3dumddi.PFND3DDDI_CREATECONTEXTCB
 title: PFND3DDDI_CREATECONTEXTCB (d3dumddi.h)
-description: The PFND3DDDI_CREATECONTEXTCB callback function creates a context.
-ms.date: 10/19/2018
+description: Learn more about the PFND3DDDI_CREATECONTEXTCB callback function.
+ms.date: 12/19/2024
 keywords: ["PFND3DDDI_CREATECONTEXTCB callback function"]
 req.header: d3dumddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,44 +41,40 @@ dev_langs:
 
 # PFND3DDDI_CREATECONTEXTCB callback function
 
-
 ## -description
 
-The PFND3DDDI_CREATECONTEXTCB callback function creates a context.
+The Direct3D runtime's **pfnCreateContextCb** callback function creates a context.
 
 ## -parameters
 
 ### -param hDevice
 
-A handle to the graphics context device.
+[in]  Handle to the device for which the context is to be created.
 
 ### -param unnamedParam2
 
+[in/out] Pointer to a [**D3DDDICB_CREATECONTEXT**](ns-d3dumddi-_d3dddicb_createcontext.md) structure that the driver fills with the necessary information for creating the context. This structure includes details such as node ordinal, engine affinity, and flags that specify the behavior and capabilities of the context to be created. Upon successful completion, the runtime updates this structure with information about the newly created context.
+
 ## -returns
 
-Returns HRESULT that ...
+**pfnCreateContextCb** returns an HRESULT to indicate the success or failure of the context creation request. Common return values include:
 
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3DDDI_CREATECONTEXTCB Pfnd3dddiCreatecontextcb; 
-
-// Definition
-
-HRESULT Pfnd3dddiCreatecontextcb 
-(
-	HANDLE hDevice
-	D3DDDICB_CREATECONTEXT *
-)
-{...}
-
-```
+| Return code | Meaning |
+| ----------- | ------- |
+| S_OK          |  The context was successfully created. |
+| E_OUTOFMEMORY | There is insufficient memory to create the context. |
+| E_INVALIDARG  | One or more of the provided arguments are invalid. |
 
 ## -remarks
 
-Register your implementation of this callback function by setting the appropriate member of <!-- REPLACE ME --> and then calling <!-- REPLACE ME -->.
+The user-mode display driver (UMD) must explicitly call **pfnCreateContextCb** from its [**CreateDevice**](nc-d3dumddi-pfnd3dddi_createdevice.md) implementation to create a GPU context associated with the device. GPU contexts are GPU threads of execution on a newly created device.
+
+The context encapsulates state and command buffers that the GPU uses to perform rendering operations. UMD is responsible for managing the lifecycle of contexts it creates, including their eventual destruction to free up resources.
+
+For more information about the creation of a rendering device, see [Windows Display Driver Model (WDDM) operation flow](/windows-hardware/drivers/display/windows-vista-and-later-display-driver-model-operation-flow).
 
 ## -see-also
 
+[**D3DDDICB_CREATECONTEXT**](ns-d3dumddi-_d3dddicb_createcontext.md)
+
+[**pfnDestroyContextCb**](nc-d3dumddi-pfnd3dddi_destroycontextcb.md)

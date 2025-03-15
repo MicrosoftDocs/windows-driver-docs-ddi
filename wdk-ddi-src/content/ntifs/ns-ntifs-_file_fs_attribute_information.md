@@ -1,12 +1,9 @@
 ---
 UID: NS:ntifs._FILE_FS_ATTRIBUTE_INFORMATION
-title: _FILE_FS_ATTRIBUTE_INFORMATION (ntifs.h)
-description: The FILE_FS_ATTRIBUTE_INFORMATION structure is used to query attribute information for a file system.
-old-location: ifsk\file_fs_attribute_information.htm
+title: FILE_FS_ATTRIBUTE_INFORMATION (ntifs.h)
+description: Learn more about the FILE_FS_ATTRIBUTE_INFORMATION structure.
 tech.root: ifsk
-ms.date: 06/06/2019
-keywords: ["FILE_FS_ATTRIBUTE_INFORMATION structure"]
-ms.keywords: "*PFILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION, FILE_FS_ATTRIBUTE_INFORMATION structure [Installable File System Drivers], PFILE_FS_ATTRIBUTE_INFORMATION, PFILE_FS_ATTRIBUTE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_ATTRIBUTE_INFORMATION, fileinformationstructures_d3a65f15-7f98-492d-a65e-65db56c4c58d.xml, ifsk.file_fs_attribute_information, ntifs/FILE_FS_ATTRIBUTE_INFORMATION, ntifs/PFILE_FS_ATTRIBUTE_INFORMATION"
+ms.date: 12/20/2024
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -46,8 +43,7 @@ api_name:
  - FILE_FS_ATTRIBUTE_INFORMATION
 ---
 
-# _FILE_FS_ATTRIBUTE_INFORMATION structure
-
+# FILE_FS_ATTRIBUTE_INFORMATION structure
 
 ## -description
 
@@ -91,7 +87,7 @@ Bitmask of flags specifying attributes of the specified file system, as a compat
 
 ### -field MaximumComponentNameLength
 
-Maximum file name component length, in bytes, supported by the specified file system. A file name component is that portion of a file name between path separator characters (such as backslashes).
+Maximum file name component length supported by the specified file system, in characters. A file name component is that portion of a file name between path separator characters (such as backslashes).
 
 ### -field FileSystemNameLength
 
@@ -121,9 +117,8 @@ This structure must be aligned on a **LONG** (4-byte) boundary.
 
 [ACL](../wdm/ns-wdm-_acl.md)
 
-[FltQueryVolumeInformation](../fltkernel/nf-fltkernel-fltqueryvolumeinformation.md)
+[**FltQueryVolumeInformation**](../fltkernel/nf-fltkernel-fltqueryvolumeinformation.md)
 
-[IRP_MJ_QUERY_VOLUME_INFORMATION](/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
+[**IRP_MJ_QUERY_VOLUME_INFORMATION**](/windows-hardware/drivers/ifs/irp-mj-query-volume-information)
 
-[ZwQueryVolumeInformationFile](../ntddk/nf-ntddk-zwqueryvolumeinformationfile.md)
-
+[**ZwQueryVolumeInformationFile**](../ntddk/nf-ntddk-zwqueryvolumeinformationfile.md)

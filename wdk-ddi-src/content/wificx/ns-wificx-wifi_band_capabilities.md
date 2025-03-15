@@ -3,7 +3,6 @@ UID: NS:wificx._WIFI_BAND_CAPABILITIES
 tech.root: netvista
 title: WIFI_BAND_CAPABILITIES (wificx.h)
 ms.date: 03/06/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WIFI_BAND_CAPABILITIES structure describes the band capabilities for a WiFiCx device.
 req.construct-type: structure

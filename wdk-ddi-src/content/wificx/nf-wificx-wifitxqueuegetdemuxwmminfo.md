@@ -3,7 +3,6 @@ UID: NF:wificx.WifiTxQueueGetDemuxWmmInfo
 tech.root: netvista
 title: WifiTxQueueGetDemuxWmmInfo (wificx.h)
 ms.date: 08/31/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiTxQueueGetDemuxWmmInfo function gets the priority that the WiFiCx framework will use for this queue.
 req.assembly: 

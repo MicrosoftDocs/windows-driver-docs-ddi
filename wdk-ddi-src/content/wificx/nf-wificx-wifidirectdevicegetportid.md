@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDirectDeviceGetPortId
 tech.root: netvista
 title: WifiDirectDeviceGetPortId (wificx.h)
 ms.date: 08/30/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDirectDeviceGetPortId function gets the Wi-Fi Direct port ID.
 req.assembly: 

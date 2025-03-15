@@ -3,7 +3,7 @@ UID: NF:wdm.ExInitializeLookasideListEx
 title: ExInitializeLookasideListEx function (wdm.h)
 description: The ExInitializeLookasideListEx routine initializes a lookaside list.
 tech.root: kernel
-ms.date: 06/08/2023
+ms.date: 01/27/2025
 keywords: ["ExInitializeLookasideListEx function"]
 ms.keywords: ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, kernel.exinitializelookasidelistex, wdm/ExInitializeLookasideListEx
 req.header: wdm.h
@@ -88,7 +88,7 @@ Specifies the four-byte pool tag to use to mark the allocated storage for lookas
 
 ### -param Depth [in]
 
-Reserved. Always set this parameter to zero.
+Controls the maximum number of items the Lookaside may store. It is recommended that you pass 0 for this parameter, but it can validly take any value between EX_MAXIMUM_LOOKASIDE_DEPTH_BASE and EX_MAXIMUM_LOOKASIDE_DEPTH_LIMIT inclusive.
 
 ## -returns
 

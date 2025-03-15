@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_CONNECTION_MONITOR_CONNECT_FLAGS
 tech.root: display
 title: DXGK_CONNECTION_MONITOR_CONNECT_FLAGS
-ms.date: 08/24/2022
+ms.date: 01/13/2025
 targetos: Windows
 description: Learn more about the DXGK_CONNECTION_MONITOR_CONNECT_FLAGS structure.
 prerelease: false
@@ -51,18 +51,20 @@ The **DXGK_CONNECTION_MONITOR_CONNECT_FLAGS** structure specifies flags for the 
 
 The monitor is a USB4 connected monitor. See [Supporting DisplayPort monitors over USB4 in KMD](/windows-hardware/drivers/display/supporting-usb4) for more information.
 
+### -field DisplayMuxConnectionChange
+
+The **MonitorStatusConnected** or **MonitorStatusDisconnected** connection status is related to an automatic display switch. This flag should only be used during an automatic display switch sequence and not for any other purpose. For more information, see [Automatic Display Switch](/windows-hardware/drivers/display/automatic-display-switch).
+
 ### -field Reserved
 
 Reserved; do not use.
 
 ### -field Value
 
-Can be used to access the above bit fields.
-
-## -remarks
+An alternative way to access the flags.
 
 ## -see-also
 
 [**DXGK_CONNECTION_CHANGE**]( ns-d3dkmddi-_dxgk_connection_change.md)
 
-[**DXGKDDI_QUERYCONNECTIONCHANGE**](nc-d3dkmddi-dxgkddi_queryconnectionchange.md)
+[**DxgiddiQueryConnectionChange**](nc-d3dkmddi-dxgkddi_queryconnectionchange.md)

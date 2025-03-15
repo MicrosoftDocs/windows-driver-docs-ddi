@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_WPS_CONFIGURATION_METHOD
 tech.root: netvista
 title: WDI_WPS_CONFIGURATION_METHOD (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_WPS_CONFIGURATION_METHOD enum defines WPS configuration methods.
 req.construct-type: enumeration

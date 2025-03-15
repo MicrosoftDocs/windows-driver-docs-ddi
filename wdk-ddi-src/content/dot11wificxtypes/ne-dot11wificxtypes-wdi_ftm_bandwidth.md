@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_FTM_BANDWIDTH
 tech.root: netvista
 title: WDI_FTM_BANDWIDTH (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_FTM_BANDWIDTH enum defines the negotiated bandwidth between two STAs to exercise the FTM.
 req.construct-type: enumeration

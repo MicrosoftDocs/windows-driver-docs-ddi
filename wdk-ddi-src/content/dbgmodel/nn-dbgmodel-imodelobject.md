@@ -1,8 +1,8 @@
 ---
 UID: NN:dbgmodel.IModelObject
 title: IModelObject (dbgmodel.h)
-description: The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger.
-ms.date: 07/20/2018
+description: The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger. (dbgmodel.h)
+ms.date: 10/31/2024
 keywords: ["IModelObject interface"]
 req.header: dbgmodel.h
 req.include-header: 
@@ -35,8 +35,15 @@ api_name:
 
 # IModelObject interface
 
-
 ## -description
+
+The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger.
+
+## -inheritance
+
+IModelObject inherits from IUnknown.
+
+## -remarks
 
 One of the most basic yet powerful things about the data model is that it standardizes the definition of what an object is and how one interacts with an object. The IModelObject interface encapsulates the notion of an object -- whether that object is an integer, a floating point value, a string, some complex type in the target address space of the debugger, or some debugger concept like the notion of a process or a module. 
 
@@ -56,11 +63,6 @@ An IModelObject is not an object in isolation. In addition to representing one o
 
 Extensibility within this object model is very simple given this notion that every object is an aggregate of itself and the tree of parent models. An extension can come in and add itself into the list of parent models for another object. Doing this extends the object. In this manner, it is possible to add capabilities onto anything: a particular instance of an object or value, a native type, the debugger's concept of what a process or thread is, or even the notion of "all iterable objects".
 
-## -inheritance
-
-IModelObject inherits from IUnknown.
-
-## -remarks
-
 ## -see-also
 
+[Debugger Data Model C++ Interfaces Overview](/windows-hardware/drivers/debugger/data-model-cpp-overview)

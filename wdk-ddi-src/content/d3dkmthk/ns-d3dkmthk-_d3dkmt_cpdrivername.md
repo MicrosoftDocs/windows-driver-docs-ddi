@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_CPDRIVERNAME
-title: _D3DKMT_CPDRIVERNAME (d3dkmthk.h)
-description: The CPU driver name.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_CPDRIVERNAME structure"]
-ms.keywords: _D3DKMT_CPDRIVERNAME, D3DKMT_CPDRIVERNAME,
+title: D3DKMT_CPDRIVERNAME (d3dkmthk.h)
+description: Learn more about the D3DKMT_CPDRIVERNAME structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,21 +37,22 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_CPDRIVERNAME structure
-
+# D3DKMT_CPDRIVERNAME structure
 
 ## -description
 
-The CPU driver name.
+The **D3DKMT_CPDRIVERNAME** structure contains the file name of the content protection driver.
 
 ## -struct-fields
 
 ### -field ContentProtectionFileName
 
- 
-The content protection file name.
+File name of the content protection driver.
 
 ## -remarks
 
 ## -see-also
 
+[**KMTQUERYADAPTERINFOTYPE**](ne-d3dkmthk-_kmtqueryadapterinfotype.md)
+
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

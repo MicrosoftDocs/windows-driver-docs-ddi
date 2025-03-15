@@ -1,12 +1,10 @@
 ---
 UID: NF:rxlog._RxLog
 title: _RxLog function (rxlog.h)
-description: "_RxLog takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled."
-old-location: ifsk\_rxlog.htm
+description: Learn more about the _RxLog function.
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 10/30/2024
 keywords: ["RxLog function"]
-ms.keywords: "_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog, rxlog/_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 req.header: rxlog.h
 req.include-header: Rxlog.h
 req.target-type: Desktop
@@ -42,52 +40,40 @@ api_name:
 
 # _RxLog function
 
-
 ## -description
 
-<b>_RxLog</b> takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled.
+**_RxLog** is a part of the RDBSS (Redirected Drive Buffering SubSystem) debug logging facilities. It takes a format string and variable number of parameters and formats an output string for recording as an I/O error log entry if logging is enabled.
 
 ## -parameters
 
 ### -param format
 
-<p>The variable argument list that contains a format string and a variable number of parameters.</p>
+Pointer to a variable argument list that contains a format string and a variable number of format specifiers that are replaced by the values of subsequent arguments.
 
 ### -param ...
 
-TBD
+Variable number of arguments that correspond to the format specifies in the **format** string. These arguments provide the data to be logged, such as strings, integers, and so forth.
 
 ## -remarks
 
-It is recommended that the <b>RxLog</b> macro be used instead of calling the <b>_RxLog</b> routine directly.
+It is recommended that the **RxLog** macro be used instead of calling the **_RxLog** routine directly. On retail builds, the **RxLog** macro is defined to nothing.
 
-If logging is enabled, <b>_RxLog</b> will output a string for recording as an I/O error log entry based on the format string and number of variables passed.
+If logging is enabled, **_RxLog** will output a string for recording as an I/O error log entry based on the format string and number of variables passed.
 
-The <b>_RxLog</b> routine supports the following format string descriptors:
+The **_RxLog** routine supports the following format string descriptors:
 
-%lN, %wN, %lS, %wS, %ld, %wd--a number
+* %lN, %wN, %lS, %wS, %ld, %wd--a number
+* %x--a hexadecimal number
+* %c--a character
+* %s--an ASCII string
+* %Z--a Unicode string that contains ASCII characters
 
-%x--a hexadecimal number
-
-%c--a character
-
-%s--an ASCII string
-
-%Z--a Unicode string that contains ASCII characters
-
-The <b>_RxLog</b> routine is limited to an output string of, at most, 48 lines, so the <i>Format</i> string cannot contain more than 48 '\n' characters. 
-
-It is recommended that the <b>RxLog</b> macro be used to call this routine. On checked builds, the <b>RxLog</b> macro will call the <b>_RxLog</b> routine. On retail builds, the <b>RxLog</b> macro is defined to nothing.
+The **_RxLog** routine is limited to an output string of, at most, 48 lines, so the **format** string can't contain more than 48 '\n' characters.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxlogeventdirect">RxLogEventDirect</a>
+[**RxLogEventDirect**](../rxprocs/nf-rxprocs-rxlogeventdirect.md)
 
+[**RxLogEventWithAnnotation**](../rxprocs/nf-rxprocs-rxlogeventwithannotation.md)
 
-
-<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxlogeventwithannotation">RxLogEventWithAnnotation</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/rxprocs/nf-rxprocs-rxlogeventwithbufferdirect">RxLogEventWithBufferDirect</a>
-
+[**RxLogEventWithBufferDirect**](../rxprocs/nf-rxprocs-rxlogeventwithbufferdirect.md)

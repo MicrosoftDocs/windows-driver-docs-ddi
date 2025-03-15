@@ -3,24 +3,27 @@ description: "Learn more about: Serial port"
 UID: TP:serports
 title: Serial port
 ms.assetid: a99541fb-a2d1-3e81-9efd-97d9eecc1ed4
-ms.date: 09/18/2020
+ms.date: 03/11/2025
 keywords: ["Serial port"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # Serial port
 
 ## -description
 
-Overview of the Serial port technology.
-
-To develop Serial port, you need these headers:
+To develop a serial port driver the version 2.0 of this header is used.
 
  * [sercx.h](../sercx/index.md)
- * [uart.h](../uart/index.md)
 
 For the programming guide, see [Serial port](/windows-hardware/drivers/serports).
+
+### Previous versions of Windows 
+
+These headers were used with previous versions of Windows.
+
+* [ntddser.h](../ntddser/index.md)
+
 
 ## Callback functions
 

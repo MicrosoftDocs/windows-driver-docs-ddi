@@ -3,7 +3,6 @@ UID: NF:wificx.WifiRequestSetBytesNeeded
 tech.root: netvista
 title: WifiRequestSetBytesNeeded (wificx.h)
 ms.date: 08/24/2021
-ms.topic: language-reference
 targetos: Windows
 description: WiFiCx drivers call WifiRequestSetBytesNeeded to set a larger buffer size for a command message.
 req.assembly: 

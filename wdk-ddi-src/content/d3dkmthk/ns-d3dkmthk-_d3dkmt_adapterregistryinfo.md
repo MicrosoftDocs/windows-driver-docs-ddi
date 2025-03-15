@@ -1,11 +1,8 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_ADAPTERREGISTRYINFO
-title: _D3DKMT_ADAPTERREGISTRYINFO (d3dkmthk.h)
+title: D3DKMT_ADAPTERREGISTRYINFO (d3dkmthk.h)
 description: The D3DKMT_ADAPTERREGISTRYINFO structure contains registry information about the graphics adapter.
-old-location: display\d3dkmt_adapterregistryinfo.htm
-ms.date: 05/10/2018
-keywords: ["D3DKMT_ADAPTERREGISTRYINFO structure"]
-ms.keywords: D3DKMT_ADAPTERREGISTRYINFO, D3DKMT_ADAPTERREGISTRYINFO structure [Display Devices], OpenGL_Structs_0d97d602-7fc3-40a2-aa06-2966a6fc04f7.xml, _D3DKMT_ADAPTERREGISTRYINFO, d3dkmthk/D3DKMT_ADAPTERREGISTRYINFO, display.d3dkmt_adapterregistryinfo
+ms.date: 02/03/2025
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
 req.target-type: Windows
@@ -43,12 +40,11 @@ api_name:
  - D3DKMT_ADAPTERREGISTRYINFO
 ---
 
-# _D3DKMT_ADAPTERREGISTRYINFO structure
-
+# D3DKMT_ADAPTERREGISTRYINFO structure
 
 ## -description
 
-The D3DKMT_ADAPTERREGISTRYINFO structure contains registry information about the graphics adapter.
+The **D3DKMT_ADAPTERREGISTRYINFO** structure contains registry information about the graphics adapter.
 
 ## -struct-fields
 
@@ -70,9 +66,6 @@ A string that contains the chip type for the graphics adapter.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/nf-d3dkmthk-d3dkmtqueryadapterinfo">D3DKMTQueryAdapterInfo</a>
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)
 
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmthk/ns-d3dkmthk-_d3dkmt_queryadapterinfo">D3DKMT_QUERYADAPTERINFO</a>
-
+[**D3DKMT_QUERYADAPTERINFO**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)

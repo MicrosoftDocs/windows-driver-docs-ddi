@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_ETHERTYPE_ENCAPSULATION_ENTRY
 tech.root: netvista
 title: WDI_ETHERTYPE_ENCAPSULATION_ENTRY (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_ETHERTYPE_ENCAPSULATION_ENTRY struct defines an EtherType encapsulation entry.
 req.construct-type: structure

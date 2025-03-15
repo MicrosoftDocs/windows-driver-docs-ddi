@@ -1,12 +1,9 @@
 ---
 UID: NS:video._QUERY_INTERFACE
-title: _QUERY_INTERFACE (video.h)
-description: The QUERY_INTERFACE structure describes the interface being requested.
-old-location: display\query_interface.htm
+title: QUERY_INTERFACE (video.h)
+description: Learn more about the QUERY_INTERFACE structure.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["QUERY_INTERFACE structure"]
-ms.keywords: "*PQUERY_INTERFACE, PQUERY_INTERFACE, PQUERY_INTERFACE structure pointer [Display Devices], QUERY_INTERFACE, QUERY_INTERFACE structure [Display Devices], Video_Structs_facaef96-c0d9-4695-8541-65e5e430f182.xml, _QUERY_INTERFACE, display.query_interface, video/PQUERY_INTERFACE, video/QUERY_INTERFACE"
+ms.date: 01/13/2025
 req.header: video.h
 req.include-header: Video.h
 req.target-type: Windows
@@ -46,46 +43,48 @@ api_name:
  - QUERY_INTERFACE
 ---
 
-# _QUERY_INTERFACE structure
-
+# QUERY_INTERFACE structure
 
 ## -description
 
-The QUERY_INTERFACE structure describes the interface being requested.
+The **QUERY_INTERFACE** structure describes the interface being requested.
 
 ## -struct-fields
 
 ### -field InterfaceType
 
-Pointer to a GUID that identifies the interface being requested. If the miniport driver does not support the specified <b>InterfaceType</b>, it should fail the call and return immediately.
+Pointer to a GUID that identifies the interface being requested. If the kernel-mode display miniport driver (KMD) (or [legacy video miniport driver](/previous-versions/windows/drivers/display/video-miniport-driver-within-the-graphics-architecture--windows-2000-m)) doesn't support the specified **InterfaceType**, it should fail the call and return immediately.
 
-The parent generates this GUID with <i>uuidgen.exe</i>. See <a href="/windows-hardware/drivers/kernel/defining-and-exporting-new-guids">Defining and Exporting New GUIDs</a> for details.
+The parent generates this GUID with *uuidgen.exe*. See [Defining and Exporting New GUIDs](/windows-hardware/drivers/kernel/defining-and-exporting-new-guids) for details.
 
 ### -field Size
 
-Specifies the size in bytes of the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure to which <b>Interface</b> points. The miniport driver must not return an INTERFACE structure larger than <b>Size</b> bytes.
+Specifies the size in bytes of the [**INTERFACE**](../wdm/ns-wdm-_interface.md) structure to which **Interface** points. The driver must not return an **INTERFACE** structure larger than **Size** bytes.
 
 ### -field Version
 
 Specifies the version of the interface being requested.
 
-If a parent supports more than one version of an interface, its driver should return the specified version or, if possible, the closest supported version without exceeding the requested version. It is the querying driver's responsibility to examine the returned <b>Version</b> and determine what to do based on that value.
+If a parent supports more than one version of an interface, its driver should return the specified version or, if possible, the closest supported version without exceeding the requested version. The caller is responsible for examining the returned **Version** and determine what to do based on that value.
 
 ### -field Interface
 
-Pointer to an <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_interface">INTERFACE</a> structure in which the miniport driver returns the requested interface information. The querying driver is responsible for allocating this structure before calling <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_query_interface">HwVidQueryInterface</a>.
+Pointer to an [**INTERFACE**](../wdm/ns-wdm-_interface.md) structure in which the driver returns the requested interface information. The caller is responsible for allocating this structure before calling [**DxgkddiQueryInterface**](../dispmprt/nc-dispmprt-dxgkddi_query_interface.md) (or [**HwVidQueryInterface**](nc-video-pvideo_hw_query_interface.md)).
 
 ### -field InterfaceSpecificData
 
-Specifies additional information about the interface being requested. Typically, this member is <b>NULL</b>, and the <b>InterfaceType</b> and <b>Version</b> members are sufficient for the parent to identify the interface being requested.
+Specifies additional information about the interface being requested. Typically, this member is NULL, and the **InterfaceType** and **Version** members are sufficient for the parent to identify the interface being requested.
 
 ### -field DeviceUid
 
+A positive integer that identifies the device for which the interface is being queried. If **DeviceUid** is equal to DISPLAY_ADAPTER_HW_ID (defined in *Video.h*), the device is the display adapter itself. Otherwise, **DeviceUid** is the identifier of a child device of the display adapter. Child device identifiers were previously assigned by the [**DxgkDdiQueryChildRelations**](../dispmprt/nc-dispmprt-dxgkddi_query_child_relations.md) function. Available starting with Windows 8.1 (WDDM 1.3).
+
 ## -remarks
 
-The <i>QueryInterface</i> parameter of the video miniport driver's <a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_query_interface">HwVidQueryInterface</a> function is a pointer to a QUERY_INTERFACE structure.
+The **QueryInterface** parameter of the KMD's [**DxgkddiQueryInterface**](../dispmprt/nc-dispmprt-dxgkddi_query_interface.md) callback (or [legacy video miniport driver](/previous-versions/windows/drivers/display/video-miniport-driver-within-the-graphics-architecture--windows-2000-m)'s [**HwVidQueryInterface**](nc-video-pvideo_hw_query_interface.md) function) is a pointer to a **QUERY_INTERFACE** structure.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/video/nc-video-pvideo_hw_query_interface">HwVidQueryInterface</a>
+[**DxgkddiQueryInterface**](../dispmprt/nc-dispmprt-dxgkddi_query_interface.md)
 
+[**HwVidQueryInterface**](nc-video-pvideo_hw_query_interface.md)

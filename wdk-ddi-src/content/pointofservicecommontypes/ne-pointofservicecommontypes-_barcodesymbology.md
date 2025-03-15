@@ -2,9 +2,8 @@
 UID: NE:pointofservicecommontypes._BarcodeSymbology
 title: _BarcodeSymbology (pointofservicecommontypes.h)
 description: This enumeration defines the barcode symbologies.
-old-location: pos\barcodesymbology.htm
 tech.root: pos
-ms.date: 08/20/2020
+ms.date: 01/21/2025
 keywords: ["BarcodeSymbology enumeration"]
 ms.keywords: AusPost, Aztec, BarcodeSymbology, BarcodeSymbology enumeration, CanPost, Ccab, Ccc, ChinaPost, Codabar, Codablock128, CodablockA, CodablockF, Code11, Code128, Code16k, Code32, Code39, Code39Ex, Code49, Code93, Code93Ex, DataCode, DataMatrix, DutchKix, Ean13, Ean13Add2, Ean13Add5, Ean8, Ean8Add2, Ean8Add5, Ean99, Ean99Add2, Ean99Add5, Eanv, EanvAdd2, EanvAdd5, ExtendedBase, Gs1128, Gs1128Coupon, Gs1DWCode, Gs1DatabarType1, Gs1DatabarType2, Gs1DatabarType3, HanXin, InfoMail, Isbn, IsbnAdd5, Isbt, Ismn, IsmnAdd2, IsmnAdd5, Issn, IssnAdd2, IssnAdd5, ItalianPost25, ItalianPost39, JapanPost, KoreanPost, Maxicode, Micr, MicroPdf417, MicroQr, MsTag, Msi, OcrA, OcrB, Pdf417, Plessey, PosUnknown, Pzn, Qr, Sisac, SwedenPost, Telepen, TfDis, TfIata, TfInd, TfInt, TfMat, TfStd, Tlc39, Trioptic39, UccEan128, UkPost, UpcCoupon, Upca, UpcaAdd2, UpcaAdd5, Upce, UpceAdd2, UpceAdd5, Us4StateFics, UsIntelligent, UsIntelligentPkg, UsPlanet, UsPostNet, _BarcodeSymbology, pointofservicecommontypes/AusPost, pointofservicecommontypes/Aztec, pointofservicecommontypes/BarcodeSymbology, pointofservicecommontypes/CanPost, pointofservicecommontypes/Ccab, pointofservicecommontypes/Ccc, pointofservicecommontypes/ChinaPost, pointofservicecommontypes/Codabar, pointofservicecommontypes/Codablock128, pointofservicecommontypes/CodablockA, pointofservicecommontypes/CodablockF, pointofservicecommontypes/Code11, pointofservicecommontypes/Code128, pointofservicecommontypes/Code16k, pointofservicecommontypes/Code32, pointofservicecommontypes/Code39, pointofservicecommontypes/Code39Ex, pointofservicecommontypes/Code49, pointofservicecommontypes/Code93, pointofservicecommontypes/Code93Ex, pointofservicecommontypes/DataCode, pointofservicecommontypes/DataMatrix, pointofservicecommontypes/DutchKix, pointofservicecommontypes/Ean13, pointofservicecommontypes/Ean13Add2, pointofservicecommontypes/Ean13Add5, pointofservicecommontypes/Ean8, pointofservicecommontypes/Ean8Add2, pointofservicecommontypes/Ean8Add5, pointofservicecommontypes/Ean99, pointofservicecommontypes/Ean99Add2, pointofservicecommontypes/Ean99Add5, pointofservicecommontypes/Eanv, pointofservicecommontypes/EanvAdd2, pointofservicecommontypes/EanvAdd5, pointofservicecommontypes/ExtendedBase, pointofservicecommontypes/Gs1128, pointofservicecommontypes/Gs1128Coupon, pointofservicecommontypes/Gs1DWCode, pointofservicecommontypes/Gs1DatabarType1, pointofservicecommontypes/Gs1DatabarType2, pointofservicecommontypes/Gs1DatabarType3, pointofservicecommontypes/HanXin, pointofservicecommontypes/InfoMail, pointofservicecommontypes/Isbn, pointofservicecommontypes/IsbnAdd5, pointofservicecommontypes/Isbt, pointofservicecommontypes/Ismn, pointofservicecommontypes/IsmnAdd2, pointofservicecommontypes/IsmnAdd5, pointofservicecommontypes/Issn, pointofservicecommontypes/IssnAdd2, pointofservicecommontypes/IssnAdd5, pointofservicecommontypes/ItalianPost25, pointofservicecommontypes/ItalianPost39, pointofservicecommontypes/JapanPost, pointofservicecommontypes/KoreanPost, pointofservicecommontypes/Maxicode, pointofservicecommontypes/Micr, pointofservicecommontypes/MicroPdf417, pointofservicecommontypes/MicroQr, pointofservicecommontypes/MsTag, pointofservicecommontypes/Msi, pointofservicecommontypes/OcrA, pointofservicecommontypes/OcrB, pointofservicecommontypes/Pdf417, pointofservicecommontypes/Plessey, pointofservicecommontypes/PosUnknown, pointofservicecommontypes/Pzn, pointofservicecommontypes/Qr, pointofservicecommontypes/Sisac, pointofservicecommontypes/SwedenPost, pointofservicecommontypes/Telepen, pointofservicecommontypes/TfDis, pointofservicecommontypes/TfIata, pointofservicecommontypes/TfInd, pointofservicecommontypes/TfInt, pointofservicecommontypes/TfMat, pointofservicecommontypes/TfStd, pointofservicecommontypes/Tlc39, pointofservicecommontypes/Trioptic39, pointofservicecommontypes/UccEan128, pointofservicecommontypes/UkPost, pointofservicecommontypes/UpcCoupon, pointofservicecommontypes/Upca, pointofservicecommontypes/UpcaAdd2, pointofservicecommontypes/UpcaAdd5, pointofservicecommontypes/Upce, pointofservicecommontypes/UpceAdd2, pointofservicecommontypes/UpceAdd5, pointofservicecommontypes/Us4StateFics, pointofservicecommontypes/UsIntelligent, pointofservicecommontypes/UsIntelligentPkg, pointofservicecommontypes/UsPlanet, pointofservicecommontypes/UsPostNet, pos.barcodesymbology
 req.header: pointofservicecommontypes.h
@@ -42,9 +41,6 @@ api_name:
  - _BarcodeSymbology
  - BarcodeSymbology
 ---
-
-# _BarcodeSymbology enumeration
-
 
 ## -description
 
@@ -294,7 +290,7 @@ The Code49 symbology contains between 2 and 8 rows, each separated by a separato
 
 ### -field Aztec
 
-The Aztec symbology. For more information, see [ISO Spec 24778](https://www.iso.org/standard/41548.html).
+The Aztec symbology. For more information, see [ISO Spec 24778](https://www.iso.org/standard/82441.html).
 
 ### -field DataCode
 
@@ -302,7 +298,7 @@ The DataCode symbology.
 
 ### -field DataMatrix
 
-This symbology is good for small codes and will store large amounts of data. For more information, see [ISO Spec 16022](https://www.iso.org/standard/44230.html).
+This symbology is good for small codes and will store large amounts of data. For more information, see [ISO Spec 16022](https://www.iso.org/standard/80926.html).
 
 ### -field HanXin
 
@@ -318,7 +314,7 @@ The MicroPdf417 symbology. For more information, see [ISO Spec 24728](https://ww
 
 ### -field MicroQr
 
-The MicroQr symbology, a subset of the QR symbology. For more information, see [ISO Spec 18004](https://www.iso.org/standard/43655.html).
+The MicroQr symbology, a subset of the QR symbology. For more information, see [ISO Spec 18004](https://www.iso.org/standard/83389.html).
 
 ### -field Pdf417
 
@@ -326,7 +322,7 @@ The Pdf417 symbology. For more information, see [ISO Spec 24728](https://www.iso
 
 ### -field Qr
 
-The Qr symbology. For more information, see [ISO Spec 18004](https://www.iso.org/standard/43655.html).
+The Qr symbology. For more information, see [ISO Spec 18004](https://www.iso.org/standard/83389.html).
 
 ### -field MsTag
 
@@ -398,7 +394,7 @@ The United States Postal Service (USPS) Intelligent Package symbology.
 
 ### -field UsPlanet
 
-The US Postal Alpha Numeric Encoding Technique, used by the USPS).
+The US Postal Alpha Numeric Encoding Technique, used by the USPS.
 
 ### -field UsPostNet
 
@@ -427,4 +423,3 @@ The Gs1DWCode symbology, an invisible  digital watermark that  covers the entire
 ### -field ExtendedBase
 
 If greater than or equal to this type, the device has returned an OEM or undefined symbology.
-

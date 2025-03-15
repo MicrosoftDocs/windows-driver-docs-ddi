@@ -2,9 +2,8 @@
 UID: NS:d3dkmddi._DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA
 title: DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA (d3dkmddi.h)
 description: Learn more about the DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure.
-ms.date: 11/17/2023
+ms.date: 11/08/2024
 keywords: ["DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure"]
-ms.keywords: "*INOUT_PDXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure [Display Devices], DmStructs_2ef51052-bc21-4374-9471-c03b2a81b8b3.xml, _DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, d3dkmddi/DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, display.dxgkarg_getstandardallocationdriverdata"
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
@@ -46,7 +45,7 @@ api_name:
 
 ## -description
 
-The DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure describes a standard allocation type.
+The **DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA** structure describes a standard allocation type.
 
 ## -struct-fields
 
@@ -76,15 +75,19 @@ This member is available beginning with Windows 7.
 
 Pointer to a [**D3DKMDT_VIRTUALGPUSURFACEDATA**](../d3dkmdt/ns-d3dkmdt-d3dkmdt_virtualgpusurfacedata.md) structure if **StandardAllocationType** is **D3DKMDT_STANDARDALLOCATION_VIRTUALGPUSURFACE**. Available starting in WDDM 2.1.
 
+### -field pCreateFenceStorageData
+
+Pointer to a [**D3DKMDT_FENCESTORAGESURFACEDATA**](ns-d3dkmddi-d3dkmdt_fencestoragesurfacedata.md) structure if **StandardAllocationType** is **D3DKMDT_STANDARDALLOCATION_FENCESTORAGE**. Available starting in WDDM 3.2.
+
 ### -field pAllocationPrivateDriverData
 
-[in/out] A pointer to a block of allocation private data that describes the standard allocation type; otherwise, this member is NULL. The allocation private data that the display miniport driver's [**DxgkDdiGetStandardAllocationDriverData**](../d3dkmddi/nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md) function returns depends on the type that the driver requests in **StandardAllocationType**.
+[in/out] A pointer to a block of allocation private data that describes the standard allocation type; otherwise, this member is NULL. The allocation private data that the display miniport driver's (KMD's) [**DxgkDdiGetStandardAllocationDriverData**](../d3dkmddi/nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md) function returns depends on the type that the driver requests in **StandardAllocationType**.
 
 ### -field AllocationPrivateDriverDataSize
 
 [out] The size, in bytes, of the allocation private data that **pAllocationPrivateDriverData** points to. If the driver sets **pAllocationPrivateDriverData** to NULL, the driver should set **AllocationPrivateDriverDataSize** to the size of the buffer that the driver requires to describe the given standard allocation type.
 
-If the driver does not use private data for each allocation for standard allocations types, the driver can set **AllocationPrivateDriverDataSize** to zero.
+If the driver doesn't use private data for each allocation for standard allocations types, the driver can set **AllocationPrivateDriverDataSize** to zero.
 
 ### -field pResourcePrivateDriverData
 
@@ -98,11 +101,15 @@ If the driver does not use private data for each resource for standard allocatio
 
 ### -field PhysicalAdapterIndex
 
+[in] The physical adapter index in an LDA configuration where the storage will be resident.
+
 ## -remarks
 
-If the display miniport driver returns NULL in the **pAllocationPrivateDriverData** and **pResourcePrivateDriverData** members, the driver should return the sizes of the buffers that the driver requires in the **AllocationPrivateDriverDataSize** and **ResourcePrivateDriverDataSize** members. However, the driver should not change the contents of the standard allocation structure in the union that DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA contains to obtain the required sizes of the buffers.
+*Standard allocation types* are allocations that must be created in kernel mode without communication from the user-mode display driver.
 
-Although the driver can set **ResourcePrivateDriverDataSize** or **AllocationPrivateDriverDataSize** to zero, the driver cannot set both to zero.
+If the kernel-mode display miniport driver (KMD) returns NULL in the **pAllocationPrivateDriverData** and **pResourcePrivateDriverData** member, it should return the sizes of the buffers that it requires in the **AllocationPrivateDriverDataSize** and **ResourcePrivateDriverDataSize** members. However, the KMD shouldn't change the contents of the standard allocation structure in the union that **DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA** contains to obtain the required sizes of the buffers.
+
+Although KMD can set **ResourcePrivateDriverDataSize** or **AllocationPrivateDriverDataSize** to zero, it can't set both to zero.
 
 ## -see-also
 

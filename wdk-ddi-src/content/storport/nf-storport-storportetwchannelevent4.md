@@ -1,10 +1,10 @@
 ---
 UID: NF:storport.StorPortEtwChannelEvent4
-tech.root: 
+tech.root: storage
 title: StorPortEtwChannelEvent4
-ms.date: 
+ms.date: 07/25/2024
 targetos: Windows
-description: 
+description: Learn more about the StorPortEtwChannelEvent4 function.
 prerelease: false
 req.assembly: 
 req.construct-type: function

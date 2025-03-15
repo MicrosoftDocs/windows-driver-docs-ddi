@@ -132,7 +132,7 @@ You can make an initial call to <b>RtlUTF8ToUnicodeN</b> to obtain the required 
 
 The <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlunicodetoutf8n">RtlUnicodeToUTF8N</a> routine converts a Unicode string to a UTF-8 string.
 
-You can use the <b>RtlUTF8ToUnicode</b> and <b>RtlUnicodeToUTF8N</b> routines to perform a lossless conversion of valid text strings between the UTF-8 and Unicode formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string.
+You can use the <b>RtlUTF8ToUnicodeN</b> and <b>RtlUnicodeToUTF8N</b> routines to perform a lossless conversion of valid text strings between the UTF-8 and Unicode formats. However, strings that have arbitrary data values are likely to violate the Unicode rules for encoding surrogate pairs, and any information that is contained in the invalid values in an input string is lost and cannot be recovered from the resulting output string.
 
 ## -see-also
 

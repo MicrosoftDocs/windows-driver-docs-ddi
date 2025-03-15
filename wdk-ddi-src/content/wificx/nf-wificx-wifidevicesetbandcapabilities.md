@@ -3,7 +3,6 @@ UID: NF:wificx.WifiDeviceSetBandCapabilities
 tech.root: netvista
 title: WifiDeviceSetBandCapabilities (wificx.h)
 ms.date: 03/06/2024
-ms.topic: language-reference
 targetos: Windows
 description: The WifiDeviceSetBandCapabilities function sets the band capabilities for a WiFiCx device.
 req.assembly: 

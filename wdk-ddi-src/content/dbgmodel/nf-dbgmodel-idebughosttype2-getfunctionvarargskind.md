@@ -43,12 +43,12 @@ api_name:
 
 ## -description
 
-The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. Such is defined by a member of the VarArgsKind enumeration defined as follows:
+The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. Such is defined by a member of the [VarArgsKind enumeration](ne-dbgmodel-varargskind.md) defined as follows:
 
-Enumerant |	Meaning
+|Enumerant |	Meaning|
 |---------|---------|
-VarArgsNone |	The function does not take any variable arguments.
-VarArgsCStyle |	The function is a C-style varargs function (returnType(arg1, arg2, ...)). The number of arguments reported by the function does not include the ellipsis argument. Any variable argument passing occurs after the number of arguments returned by the GetFunctionParameterTypeCount method.
+|VarArgsNone |	The function does not take any variable arguments.|
+|VarArgsCStyle |	The function is a C-style varargs function (returnType(arg1, arg2, ...)). The number of arguments reported by the function does not include the ellipsis argument. Any variable argument passing occurs after the number of arguments returned by the [GetFunctionParameterTypeCount method](nf-dbgmodel-idebughosttype2-getfunctionparametertypecount.md).|
 
 ## -parameters
 

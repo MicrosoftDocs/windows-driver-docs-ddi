@@ -3,7 +3,6 @@ UID: NS:dot11wificxtypes._WDI_DATA_RATE_ENTRY
 tech.root: netvista
 title: WDI_DATA_RATE_ENTRY (dot11wificxtypes.h)
 ms.date: 06/22/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_DATA_RATE_ENTRY struct defines a data rate entry.
 req.construct-type: structure

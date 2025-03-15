@@ -2,13 +2,11 @@
 UID: NE:d3dkmthk._KMTQUERYADAPTERINFOTYPE
 title: KMTQUERYADAPTERINFOTYPE (d3dkmthk.h)
 description: Learn more about the KMTQUERYADAPTERINFOTYPE enumeration.
-ms.date: 03/21/2024
-keywords: ["KMTQUERYADAPTERINFOTYPE enumeration"]
-ms.keywords: _KMTQUERYADAPTERINFOTYPE, KMTQUERYADAPTERINFOTYPE,
+ms.date: 02/03/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -35,21 +33,21 @@ api_name:
 
 ## -description
 
-Each **KMTQUERYADAPTERINFOTYPE** value correlates to a specific piece of adapter information being retrieved by [**D3DKMQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md).
+A **KMTQUERYADAPTERINFOTYPE** value indicates the specific [**Type**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md) of adapter information being retrieved by [**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md).
 
 ## -enum-fields
 
 ### -field KMTQAITYPE_UMDRIVERPRIVATE
 
-The buffer that **pPrivateDriverData** points to is populated with private driver data in a vendor-specific format. To read and process the private data, a tight coupling between user mode driver and the display miniport driver must exist.
+The buffer that **pPrivateDriverData** points to is populated with private driver data in a vendor-specific format. To read and process the private data, a tight coupling between the user-mode driver (UMD) and the kernel-mode display miniport driver (KMD) must exist.
 
 ### -field KMTQAITYPE_UMDRIVERNAME
 
-The **pPrivateDriverData** member points to a [**D3DKMT_UMDFILENAMEINFO**](ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md) structure that is filled with the name of the OpenGL ICD that depends on the particular version of DirectX. Non-DirectX applications can use this name to call the OpenGL ICD directly, although such usage is not recommended.
+The **pPrivateDriverData** member points to a [**D3DKMT_UMDFILENAMEINFO**](ns-d3dkmthk-_d3dkmt_umdfilenameinfo.md) structure that is filled with the name of the UMD.
 
 ### -field KMTQAITYPE_UMOPENGLINFO
 
-**pPrivateDriverData** points to a [**D3DKMT_OPENGLINFO**](ns-d3dkmthk-_d3dkmt_openglinfo.md) structure that contains information about the OpenGL ICD.
+**pPrivateDriverData** points to a [**D3DKMT_OPENGLINFO**](ns-d3dkmthk-_d3dkmt_openglinfo.md) structure that contains information about the OpenGL ICD. Non-DirectX applications can use this name to call the OpenGL ICD directly, although such usage is not recommended.
 
 ### -field KMTQAITYPE_GETSEGMENTSIZE
 
@@ -93,118 +91,172 @@ The **pPrivateDriverData** member points to a [**D3DKMT_UMDFILENAMEINFO**](ns-d3
 
 Returns information about virtual addressing support.
 
-Supported starting with  Windows 7.
+Supported starting with Windows 7.
 
 ### -field KMTQAITYPE_DRIVERVERSION
 
-**pPrivateDriverData** points to a variable that contains a [**D3DKMT_DRIVERVERSION**](ne-d3dkmthk-_qai_driverversion.md)-typed value that indicates the version of the display driver model that the display miniport driver supports.
+**pPrivateDriverData** points to a variable that contains a [**D3DKMT_DRIVERVERSION**](ne-d3dkmthk-_qai_driverversion.md)-typed value that indicates the version of the display driver model that the KMD supports.
 
-Supported starting with  Windows 7.
+Supported starting with Windows 7.
 
 ### -field KMTQAITYPE_ADAPTERTYPE
 
 **pPrivateDriverData** points to a [**D3DKMT_ADAPTERTYPE**](ns-d3dkmthk-_d3dkmt_adaptertype.md) structure that specifies the  graphics adapter type.
 
-Supported starting with  Windows 8.
+Supported starting with Windows 8.
 
 ### -field KMTQAITYPE_OUTPUTDUPLCONTEXTSCOUNT
 
 **pPrivateDriverData** points to a [**D3DKMT_OUTPUTDUPLCONTEXTSCOUNT**](ns-d3dkmthk-_d3dkmt_outputduplcontextscount.md) structure that specifies the  number of current [Desktop Duplication API](/windows/desktop/direct3ddxgi/desktop-dup-api) (DDA) clients that are attached to a given video present network (VidPN).
 
-Supported starting with  Windows 8.
+Supported starting with Windows 8.
 
 ### -field KMTQAITYPE_WDDM_1_2_CAPS
 
-**pPrivateDriverData** points to a [**D3DKMT_WDDM_1_2_CAPS**](/windows-hardware/drivers/display/d3dkmt-wddm-1-2-caps) structure that specifies the  WDDM 1.2 and later capabilities of the graphics adapter and display miniport driver.
+**pPrivateDriverData** points to a [**D3DKMT_WDDM_1_2_CAPS**](/windows-hardware/drivers/display/d3dkmt-wddm-1-2-caps) structure that specifies the  WDDM 1.2 and later capabilities of the graphics adapter and KMD.
 
-Supported starting with  Windows 8.
+Supported starting with Windows 8.
 
 ### -field KMTQAITYPE_UMD_DRIVER_VERSION
 
-**pPrivateDriverData** points to a  [**D3DKMT_UMD_DRIVER_VERSION**](ns-d3dkmthk-_d3dkmt_umd_driver_version.md) structure that specifies the  user-mode driver version.
+**pPrivateDriverData** points to a  [**D3DKMT_UMD_DRIVER_VERSION**](ns-d3dkmthk-_d3dkmt_umd_driver_version.md) structure that specifies UMD's version.
 
-Supported starting with  Windows 8.
+Supported starting with Windows 8.
 
 ### -field KMTQAITYPE_DIRECTFLIP_SUPPORT
 
-**pPrivateDriverData** points to a [**D3DKMT_DIRECTFLIP_SUPPORT**](ns-d3dkmthk-_d3dkmt_directflip_support.md) structure that specifies whether the user-mode driver supports Direct Flip operations.
+**pPrivateDriverData** points to a [**D3DKMT_DIRECTFLIP_SUPPORT**](ns-d3dkmthk-_d3dkmt_directflip_support.md) structure that specifies whether the UMD supports Direct Flip operations.
 
-Supported starting with  Windows 8.
+Supported starting with Windows 8.
 
 ### -field KMTQAITYPE_MULTIPLANEOVERLAY_SUPPORT
 
-Reserved for future use.
+**pPrivateDriverData** points to a [**D3DKMT_MULTIPLANEOVERLAY_SUPPORT**](ns-d3dkmthk-_d3dkmt_multiplaneoverlay_support.md) structure that specifies whether the UMD supports multiplane overlay operations.
 
-Supported starting with  Windows 8.1.
+Supported starting with Windows 8.1.
 
 ### -field KMTQAITYPE_DLIST_DRIVER_NAME
 
-Supported starting with  Windows 8.1.
+**pPrivateDriverData** points to a [**D3DKMT_DLIST_DRIVER_NAME**](ns-d3dkmthk-_d3dkmt_dlist_driver_name.md) structure that specifies the name of the driver that supports the display list (DList) feature.
+
+Supported starting with Windows 8.1.
 
 ### -field KMTQAITYPE_WDDM_1_3_CAPS
 
 **pPrivateDriverData** points to a [**D3DKMT_WDDM_1_3_CAPS**](../d3dkmdt/ns-d3dkmdt-_d3dkmt_wddm_1_3_caps.md) structure with information about supported WDDM 1.3 caps.
 
-Supported starting with  Windows 8.1.
+Supported starting with Windows 8.1.
 
 ### -field KMTQAITYPE_MULTIPLANEOVERLAY_HUD_SUPPORT
 
+**pPrivateDriverData** points to a [**D3DKMT_MULTIPLANEOVERLAY_HUD_SUPPORT**](ns-d3dkmthk-_d3dkmt_multiplaneoverlay_hud_support.md) structure that specifies whether the UMD supports multiplane overlay heads-up display (HUD) operations.
+
+Supported starting with Windows 8.1.
+
 ### -field KMTQAITYPE_WDDM_2_0_CAPS
+
+**pPrivateDriverData** points to a [**D3DKMT_WDDM_2_0_CAPS**](../d3dkmdt/ns-d3dkmdt-_d3dkmt_wddm_2_0_caps.md) structure with information about supported WDDM 2.0 caps. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_NODEMETADATA
 
+**pPrivateDriverData** points to a [**D3DKMT_NODEMETADATA**](../d3dkmdt/ns-d3dkmdt-d3dkmt_nodemetadata.md) structure that contains metadata about the node. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_CPDRIVERNAME
+
+**pPrivateDriverData** points to a [**D3DKMT_CPDRIVERNAME**](ns-d3dkmthk-_d3dkmt_cpdrivername.md) structure that specifies the name of the driver that supports the content protection (CP) feature. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_XBOX
 
+**pPrivateDriverData** points to a [**D3DKMT_XBOX**](ns-d3dkmthk-_d3dkmt_xbox.md) structure that specifies information about the Xbox. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_INDEPENDENTFLIP_SUPPORT
+
+**pPrivateDriverData** points to a [**D3DKMT_INDEPENDENTFLIP_SUPPORT**](ns-d3dkmthk-_d3dkmt_independentflip_support.md) structure that specifies whether the UMD supports independent flip operations. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_MIRACASTCOMPANIONDRIVERNAME
 
+**pPrivateDriverData** points to a [**D3DKMT_MIRACASTCOMPANIONDRIVERNAME**](ns-d3dkmthk-_d3dkmt_miracastcompaniondrivername.md) structure that specifies the name of the driver that supports the Miracast companion feature. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_PHYSICALADAPTERCOUNT
+
+**pPrivateDriverData** points to a [**D3DKMT_PHYSICAL_ADAPTER_COUNT**](ns-d3dkmthk-_d3dkmt_physical_adapter_count.md) structure that specifies the number of physical adapters. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_PHYSICALADAPTERDEVICEIDS
 
+**pPrivateDriverData** points to a [**D3DKMT_QUERY_DEVICE_IDS**](ns-d3dkmthk-_d3dkmt_query_device_ids.md) structure that specifies the device ID(s) of the physical adapters. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_DRIVERCAPS_EXT
+
+**pPrivateDriverData** points to a [**D3DKMT_DRIVERCAPS_EXT**](../d3dkmdt/ns-d3dkmdt-d3dkmt_drivercaps_ext.md) structure that specifies extended driver capabilities. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_QUERY_MIRACAST_DRIVER_TYPE
 
+**pPrivateDriverData** points to a [**D3DKMT_MIRACAST_DRIVER_TYPE**](ne-d3dkmthk-_d3dkmt_miracast_driver_type.md) value that specifies the type of Miracast driver. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_QUERY_GPUMMU_CAPS
+
+**pPrivateDriverData** points to a [**D3DKMT_QUERY_GPUMMU_CAPS**](ns-d3dkmthk-_d3dkmt_query_gpummu_caps.md) structure that specifies GPU memory management unit (MMU) capabilities. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_QUERY_MULTIPLANEOVERLAY_DECODE_SUPPORT
 
+**pPrivateDriverData** points to a [**D3DKMT_MULTIPLANEOVERLAY_DECODE_SUPPORT**](ns-d3dkmthk-_d3dkmt_multiplaneoverlay_decode_support.md) structure that specifies whether the UMD supports multiplane overlay decode operations. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_QUERY_HW_PROTECTION_TEARDOWN_COUNT
+
+**pPrivateDriverData** points to a UNIT value that specifies the hardware protection teardown count. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_QUERY_ISBADDRIVERFORHWPROTECTIONDISABLED
 
+**pPrivateDriverData** points to a [**D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED**](ns-d3dkmthk-_d3dkmt_isbaddriverforhwprotectiondisabled.md) structure that specifies whether a bad driver for hardware protection is disabled. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_MULTIPLANEOVERLAY_SECONDARY_SUPPORT
+
+**pPrivateDriverData** points to a [**D3DKMT_MULTIPLANEOVERLAY_SECONDARY_SUPPORT**](ns-d3dkmthk-_d3dkmt_multiplaneoverlay_secondary_support.md) structure that specifies whether the UMD provides multiplane overlay support for secondary displays. Supported starting with Windows 10 (WDDM 2.0).
 
 ### -field KMTQAITYPE_INDEPENDENTFLIP_SECONDARY_SUPPORT
 
+**pPrivateDriverData** points to a [**D3DKMT_INDEPENDENTFLIP_SECONDARY_SUPPORT**](ns-d3dkmthk-_d3dkmt_independentflip_secondary_support.md) structure that specifies whether the UMD supports independent flip operations for secondary displays. Supported starting with Windows 10 (WDDM 2.0).
+
 ### -field KMTQAITYPE_PANELFITTER_SUPPORT
+
+**pPrivateDriverData** points to a [**D3DKMT_PANELFITTER_SUPPORT**](ns-d3dkmthk-_d3dkmt_panelfitter_support.md) structure that specifies whether the UMD supports panel fitter operations. Supported starting with Windows 10, version 1607 (WDDM 2.1).
 
 ### -field KMTQAITYPE_PHYSICALADAPTERPNPKEY
 
+**pPrivateDriverData** points to a [**D3DKMT_QUERY_PHYSICAL_ADAPTER_PNPKEY**](ns-d3dkmthk-_d3dkmt_query_physical_adapter_pnp_key.md) structure that specifies the physical adapter's plug-and-play (PNP) key. Supported starting with Windows 10, version 1703 (WDDM 2.2).
+
 ### -field KMTQAITYPE_GETSEGMENTGROUPSIZE
+
+**pPrivateDriverData** points to a [**D3DKMT_SEGMENTGROUPSIZEINFO**](ns-d3dkmthk-_d3dkmt_segmentgroupsizeinfo.md) structure that specifies the information about the segment group size. Supported starting with Windows 10, version 1703 (WDDM 2.2).
 
 ### -field KMTQAITYPE_MPO3DDI_SUPPORT
 
+**pPrivateDriverData** points to a [**D3DKMT_MPO3DDI_SUPPORT**](ns-d3dkmthk-_d3dkmt_mpo3ddi_support.md) structure that specifies whether the driver supports the [multiplane overlay version 3 interface](../d3dkmddi/nc-d3dkmddi-dxgkddi_checkmultiplaneoverlaysupport3.md) operations. Available starting with Windows 10, version 1703 (WDDM 2.2).
+
 ### -field KMTQAITYPE_HWDRM_SUPPORT
+
+**pPrivateDriverData** points to a [**D3DKMT_HWDRM_SUPPORT**](ns-d3dkmthk-_d3dkmt_hwdrm_support.md) structure that specifies whether the driver supports hardware digital rights management (DRM) operations. Available starting with Windows 10, version 1703 (WDDM 2.2).
 
 ### -field KMTQAITYPE_MPOKERNELCAPS_SUPPORT
 
+**pPrivateDriverData** points to a [**D3DKMT_MPOKERNELCAPS_SUPPORT**](ns-d3dkmthk-_d3dkmt_mpokernelcaps_support.md) structure that specifies  whether multiplane overlay kernel capabilities are supported. Available starting with Windows 10, version 1703 (WDDM 2.2).
+
 ### -field KMTQAITYPE_MULTIPLANEOVERLAY_STRETCH_SUPPORT
+
+**pPrivateDriverData** points to a [**D3DKMT_MULTIPLANEOVERLAY_STRETCH_SUPPORT**](ns-d3dkmthk-_d3dkmt_multiplaneoverlay_stretch_support.md) structure that specifies whether the driver supports multiplane overlay stretch operations. Available starting with Windows 10, version 1703 (WDDM 2.2).
 
 ### -field KMTQAITYPE_GET_DEVICE_VIDPN_OWNERSHIP_INFO
 
+**pPrivateDriverData** points to a [**D3DKMT_GET_DEVICE_VIDPN_OWNERSHIP_STATE**](ns-d3dkmthk-_d3dkmt_get_device_vidpn_ownership_info.md) structure that specifies the ownership state of the video present network (VidPN) for a given device. Available starting with Windows 10, version 1703 (WDDM 2.2).
+
 ### -field KMTQAITYPE_QUERYREGISTRY
 
-**pPrivateDriverData** points to a [**D3DDDI_QUERYREGISTRY_INFO**](../d3dukmdt/ns-d3dukmdt-_d3dddi_queryregistry_info.md) structure, where the last field is actually variable-sized by the caller.
+**pPrivateDriverData** points to a [**D3DKMT_ADAPTERREGISTRYINFO**](ns-d3dkmthk-_d3dkmt_adapterregistryinfo.md) structure, where the last field is actually variable-sized by the caller.
 
 This type queries the registry for information that is commonly cached during driver installation.
-User mode components must use this technique to support paravirtualized adapters, instead of relying on native OS methods.
+User-mode components must use this technique to support paravirtualized adapters, instead of relying on native OS methods. For more information, see [GPU virtualization](/windows-hardware/drivers/display/gpu-paravirtualization).
 
-Support for this type started with Windows 10 version 1803.
+Support for this type started with Windows 10, version 1803 WDDM 2.4.
 
 ### -field KMTQAITYPE_KMD_DRIVER_VERSION
 
@@ -256,7 +308,7 @@ Support for this type started with Windows 10 version 1803.
 
 ### -field KMTQAITYPE_HYBRID_DLIST_DLL_SUPPORT
 
-**pPrivateDriverData** points to a [**D3DKMT_HYBRID_DLIST_DLL_SUPPORT**](ns-d3dkmthk-d3dkmt_hybrid_dlist_dll_support.md) structure. Supported starting with Windows 10, version 2004.
+**pPrivateDriverData** points to a [**D3DKMT_HYBRID_DLIST_DLL_SUPPORT**](ns-d3dkmthk-d3dkmt_hybrid_dlist_dll_support.md) structure. Supported starting with Windows 10, version 2004 (WDDM 2.7).
 
 ### -field KMTQAITYPE_DISPLAY_CAPS
 
@@ -286,8 +338,6 @@ Each enum value denotes how to interpret the other fields of **D3DKMT_QUERYADAPT
 **pPrivateDriverData** is commonly reinterpreted as a unique structure, corresponding to each enum value. Exceptions do exist, as detailed above.
 
 ## -see-also
-
-[**KMTQUERYADAPTERINFOTYPE**](ne-d3dkmthk-_kmtqueryadapterinfotype.md)
 
 [**D3DKMT_QUERYADAPTERINFO**](ns-d3dkmthk-_d3dkmt_queryadapterinfo.md)
 

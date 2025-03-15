@@ -2,7 +2,7 @@
 UID: NS:d3dkmddi._DXGK_NATIVE_FENCE_CAPS
 tech.root: display
 title: DXGK_NATIVE_FENCE_CAPS
-ms.date: 03/28/2024
+ms.date: 11/08/2024
 targetos: Windows
 description: Learn more about the DXGK_NATIVE_FENCE_CAPS structure.
 prerelease: false
@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 24H2
+req.target-min-winverclnt: Windows 11, version 24H2 (WDDM 3.2)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: DXGK_NATIVE_FENCE_CAPS
@@ -50,7 +50,7 @@ A kernel-mode display miniport driver (KMD) returns the GPU's native fence capab
 
 ### -field MonitoredValueStride
 
-Stride in bytes for monitored values of native fences that are packed in the same page.
+To save memory, the OS packs non-shareable native GPU fence objects together into the same memory page. **MonitoredValueStride** specifies the stride in bytes between OS-managed storage for different fence objects sharing the same memory page.
 
 ### -field MapToGpuSystemProcess
 
@@ -70,13 +70,11 @@ Reserved for system use.
 
 ## -remarks
 
-To save memory, the OS packs non-shareable native GPU fence objects together into the same memory page.
-
 The **CurrentValueStride** and **MonitoredValueStride** values specify the stride in bytes between OS-managed storage for different fence objects sharing the same memory page.
 
-When set, **MapToGpuSystemProcess** instructs the OS to reserve a system process GPU virtual address space for the context management processor use, and to create GPU VA mappings into that address space for native fence **CurrentValue** and **MonitoredValue**. These GPU VAs are subsequently passed to the KMD fence creation callback as [**DXGKARG_CREATENATIVEFENCE's**](ns-d3dkmddi-dxgkarg_createnativefence.md) **CurrentValueSystemProcessGpuVa** and **MonitoredValueSystemProcessGpuVa**.
+When the driver sets **MapToGpuSystemProcess**, it's instructing the OS to reserve a system process GPU virtual address space for the context management processor to use, and to create GPU VA mappings into that address space for native fence **CurrentValue** and **MonitoredValue**. These GPU VAs are subsequently passed to the KMD fence creation callback as [**DXGKARG_CREATENATIVEFENCE's**](ns-d3dkmddi-dxgkarg_createnativefence.md) **CurrentValueSystemProcessGpuVa** and **MonitoredValueSystemProcessGpuVa**.
 
-The KMD can also specify an optional minimum and maximum address to restrict native fence GPU VA mappings within a chosen range for both process address space and system address space. This limit will apply to all native fences created on the system.
+The KMD can also specify an optional **MinimumAddress** and **MaximumAddress** to restrict native fence GPU VA mappings within a chosen range for both process address space and system address space. This limit will apply to all native fences created on the system.
 
 For more information about native GPU fences, see [Native GPU fence objects](/windows-hardware/drivers/display/native-gpu-fence-objects).
 

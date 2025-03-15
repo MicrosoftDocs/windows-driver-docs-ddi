@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_IHV_TASK_PRIORITY
 tech.root: netvista
 title: WDI_IHV_TASK_PRIORITY (dot11wificxtypes.h)
 ms.date: 09/15/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_IHV_TASK_PRIORITY enum defines IHV task priorities.
 req.construct-type: enumeration

@@ -12,7 +12,7 @@ req.target-min-winverclnt: Windows 10, version 2004
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
-req.lib: Gdi32.lib
+req.lib: onecoreuap.lib
 req.dll: Gdi32.dll
 req.irql: 
 req.ddi-compliance: 

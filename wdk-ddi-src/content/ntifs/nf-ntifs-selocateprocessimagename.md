@@ -2,7 +2,7 @@
 UID: NF:ntifs.SeLocateProcessImageName
 tech.root: ifsk
 title: SeLocateProcessImageName
-ms.date: 08/09/2023
+ms.date: 01/06/2025
 targetos: Windows
 description: Learn more about the SeLocateProcessImageName function.
 prerelease: false
@@ -67,4 +67,14 @@ The **SeLocateProcessImageName** routine returns the full process image name for
 
 ## -remarks
 
-The caller is responsible for freeing the buffer that **pImageFileName** points to.
+The caller is responsible for freeing the buffer that **pImageFileName** points to, using the **ExFree*Xxx*** routine that corresponds to the routine used to allocate the buffer.
+
+## -see-also
+
+[**ExAllocatePool2**](../wdm/nf-wdm-exallocatepool2.md)
+
+[**ExAllocatePoolWithTag**](../wdm/nf-wdm-exallocatepoolwithtag.md)
+
+[**ExFreePool2**](../wdm/nf-wdm-exfreepool2.md)
+
+[**ExFreePoolWithTag**](../wdm/nf-wdm-exfreepoolwithtag.md)

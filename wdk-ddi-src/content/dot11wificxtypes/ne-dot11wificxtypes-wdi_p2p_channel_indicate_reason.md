@@ -3,7 +3,6 @@ UID: NE:dot11wificxtypes._WDI_P2P_CHANNEL_INDICATE_REASON
 tech.root: netvista
 title: WDI_P2P_CHANNEL_INDICATE_REASON (dot11wificxtypes.h)
 ms.date: 08/04/2021
-ms.topic: language-reference
 targetos: Windows
 description: The WDI_P2P_CHANNEL_INDICATE_REASON enum defines Wi-Fi Direct channel indication reason values.
 req.construct-type: enumeration

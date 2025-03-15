@@ -50,19 +50,15 @@ Depending on whether the Execute operation succeeds or fails, one of two things 
 
 **For a successful return:** 
 
-o	The previously executed content of the script is flushed and forgotten
-
-o	Any object model manipulations or extensibility points changed as a result of the prior execution of the script are undone
-
-o	The object model manipulations and extensibility points of the new execution of the script are active
+- The previously executed content of the script is flushed and forgotten
+- Any object model manipulations or extensibility points changed as a result of the prior execution of the script are undone
+- The object model manipulations and extensibility points of the new execution of the script are active
 
 **For a failed return:** 
 
-o	Any manipulations or extensibility points of the new attempted execution of the script are undone
-
-o	The prior state of the script is restored. All its object model manipulations and extensibility points are restored.
-
-o	The state should be as it was after the successful Populate call but before any Execute call
+- Any manipulations or extensibility points of the new attempted execution of the script are undone
+- The prior state of the script is restored. All its object model manipulations and extensibility points are restored.
+- The state should be as it was after the successful Populate call but before any Execute call
 
 Note that for a properly written script provider and scripting environment, calling the Execute method multiple times without an intervening call to Populate or Unlink 'should be idempotent. That is, calling Execute N times in a row should appear to the user the same as calling Execute once. The execution should not produce side effecting results on the state of the debug target. Subsequently utilizing properties, methods, or events on the bridge produced via the Execute method may indeed produce side effecting results.
 

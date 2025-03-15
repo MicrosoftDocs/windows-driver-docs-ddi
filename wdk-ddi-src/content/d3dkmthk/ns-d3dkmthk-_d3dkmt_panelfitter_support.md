@@ -1,14 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_PANELFITTER_SUPPORT
-title: _D3DKMT_PANELFITTER_SUPPORT (d3dkmthk.h)
-description: Structure that contains panel fitter support info.
-ms.date: 10/19/2018
-keywords: ["D3DKMT_PANELFITTER_SUPPORT structure"]
-ms.keywords: _D3DKMT_PANELFITTER_SUPPORT, D3DKMT_PANELFITTER_SUPPORT,
+title: D3DKMT_PANELFITTER_SUPPORT (d3dkmthk.h)
+description: Learn more about the D3DKMT_PANELFITTER_SUPPORT structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1607 (WDDM 2.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -39,20 +37,18 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_PANELFITTER_SUPPORT structure
-
+# D3DKMT_PANELFITTER_SUPPORT structure
 
 ## -description
 
-Structure that contains panel fitter support info.
+The **D3DKMT_PANELFITTER_SUPPORT** structure provides information about panel fitter support.
 
 ## -struct-fields
 
 ### -field Supported
 
-Indicates whether the panel fitter is supported.
-
-## -remarks
+Indicates whether the driver provides panel fitter support.
 
 ## -see-also
 
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

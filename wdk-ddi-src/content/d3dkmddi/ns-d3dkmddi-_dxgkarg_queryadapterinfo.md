@@ -2,12 +2,11 @@
 UID: NS:d3dkmddi._DXGKARG_QUERYADAPTERINFO
 title: DXGKARG_QUERYADAPTERINFO (d3dkmddi.h)
 description: Learn more about the DXGKARG_QUERYADAPTERINFO structure.
-ms.date: 08/19/2024
-keywords: ["DXGKARG_QUERYADAPTERINFO structure"]
+ms.date: 02/06/2025
 req.header: d3dkmddi.h
 req.include-header: D3dkmddi.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows Vista
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -45,7 +44,7 @@ api_name:
 
 ## -description
 
-The **DXGKARG_QUERYADAPTERINFO** structure contains parameters for a [**DXGKDDI_QUERYADAPTERINFO**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) query.
+The **DXGKARG_QUERYADAPTERINFO** structure contains parameters for a [**DxgkDdiQueryadapterinfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) query.
 
 ## -struct-fields
 
@@ -80,11 +79,11 @@ The size, in bytes, of the output data that **pOutputData** points to.
 
 ### -field Flags [in]
 
-A set of [**DXGK_QUERYADAPTERINFOFLAGS**](ns-d3dkmddi-_dxgk_queryadapterinfoflags.md)-typed flags that indicates the query of graphics information.
+A set of [**DXGK_QUERYADAPTERINFOFLAGS**](ns-d3dkmddi-_dxgk_queryadapterinfoflags.md)-typed flags that indicates the query of graphics information. Supported starting with Windows 10, version 1803 (WDDM 2.4).
 
 ### -field hKmdProcessHandle [in]
 
-A handle, return by the KMD from DxgkDdiCreateProcess. The driver must check the value for NULL. Note that hKmdProcessHandle is created when the first DXG device is created for the adapter, and destroyed when the last adapter handle in the process is closed.
+A handle, return by the KMD from [**DxgkDdiCreateProcess**](nc-d3dkmddi-dxgkddi_createprocess.md). The driver must check the value for NULL. Note that **hKmdProcessHandle** is created when the first DXG device is created for the adapter, and destroyed when the last adapter handle in the process is closed.
 
 ## -see-also
 

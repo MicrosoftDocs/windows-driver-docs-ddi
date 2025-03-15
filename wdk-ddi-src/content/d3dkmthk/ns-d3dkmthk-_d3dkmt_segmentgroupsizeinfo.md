@@ -1,15 +1,12 @@
 ---
 UID: NS:d3dkmthk._D3DKMT_SEGMENTGROUPSIZEINFO
-title: _D3DKMT_SEGMENTGROUPSIZEINFO (d3dkmthk.h)
-description: A structure that holds information about the segment group size.
-old-location: display\d3dkmt_segmentgroupsizeinfo.htm
-ms.date: 05/10/2018
-keywords: ["D3DKMT_SEGMENTGROUPSIZEINFO structure"]
-ms.keywords: D3DKMT_SEGMENTGROUPSIZEINFO, D3DKMT_SEGMENTGROUPSIZEINFO structure [Display Devices], _D3DKMT_SEGMENTGROUPSIZEINFO, d3dkmthk/D3DKMT_SEGMENTGROUPSIZEINFO, display.d3dkmt_segmentgroupsizeinfo
+title: D3DKMT_SEGMENTGROUPSIZEINFO (d3dkmthk.h)
+description: Learn more about the D3DKMT_SEGMENTGROUPSIZEINFO structure.
+ms.date: 02/06/2025
 req.header: d3dkmthk.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -43,12 +40,11 @@ api_name:
  - D3DKMT_SEGMENTGROUPSIZEINFO
 ---
 
-# _D3DKMT_SEGMENTGROUPSIZEINFO structure
-
+# D3DKMT_SEGMENTGROUPSIZEINFO structure
 
 ## -description
 
-A structure that holds information about the segment group size.
+The **D3DKMT_SEGMENTGROUPSIZEINFO** structure holds information about the segment group size.
 
 ## -struct-fields
 
@@ -58,17 +54,22 @@ The physical adapter index in the LDA (linked display adapter) chain.
 
 ### -field LegacyInfo
 
-Legacy segment size info.
+A [**D3DKMT_SEGMENTSIZEINFO**](ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md) structure that holds legacy segment size info.
 
 ### -field LocalMemory
 
-The size of local memory.
+Size of the local memory, in bytes.
 
 ### -field NonLocalMemory
 
-The size of non-local memory.
+Size of non-local memory, in bytes.
 
 ### -field NonBudgetMemory
 
-The size of non-budget memory.
+Size of [non-budget memory](/windows-hardware/drivers/display/process-residency-budgets).
 
+## -see-also
+
+[**D3DKMT_SEGMENTSIZEINFO**](ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md)
+
+[**D3DKMTQueryAdapterInfo**](nf-d3dkmthk-d3dkmtqueryadapterinfo.md)

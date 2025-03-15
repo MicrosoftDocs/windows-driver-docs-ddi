@@ -5,7 +5,6 @@ title: Trusted Execution Environment (TrEE) drivers
 ms.date: 03/02/2023
 keywords: ["Trusted Execution Environment (TrEE) drivers"]
 ms.keywords: 
-ms.topic: reference
 ---
 
 # Trusted Execution Environment (TrEE) drivers

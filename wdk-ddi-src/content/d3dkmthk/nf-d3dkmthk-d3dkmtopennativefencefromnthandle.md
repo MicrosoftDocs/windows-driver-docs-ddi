@@ -2,7 +2,7 @@
 UID: NF:d3dkmthk.D3DKMTOpenNativeFenceFromNtHandle
 tech.root: display
 title: D3DKMTOpenNativeFenceFromNtHandle
-ms.date: 03/21/2024
+ms.date: 11/08/2024
 targetos: Windows
 description: Learn more about the D3DKMTOpenNativeFenceFromNtHandle function.
 prerelease: false
@@ -19,7 +19,7 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 24H2
+req.target-min-winverclnt: Windows 11, version 24H2 (WDDM 3.2)
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-*Dxgkrnl* calls ***D3DKMTOpenNativeFenceFromNTHandle** to open an existing shared native fence on a different device or process.
+The D3D runtime calls ***D3DKMTOpenNativeFenceFromNTHandle** to open an existing shared native fence on a different device or process.
 
 ## -parameters
 

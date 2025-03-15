@@ -5,7 +5,6 @@ title: Ntddk.h header
 ms.date: 03/02/2023
 keywords: ["Ntddk.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: kernel
 f1_keywords:
  - ntddk

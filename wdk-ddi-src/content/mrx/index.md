@@ -6,7 +6,6 @@ ms.assetid: 557bbb65-58fa-337b-b612-f931bb1252ff
 ms.date: 05/09/2018
 keywords: ["Mrx.h header"]
 ms.keywords: 
-ms.topic: reference
 tech.root: ifsk
 f1_keywords:
  - mrx

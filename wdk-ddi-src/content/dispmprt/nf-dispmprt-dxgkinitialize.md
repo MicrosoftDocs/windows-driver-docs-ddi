@@ -1,16 +1,13 @@
 ---
 UID: NF:dispmprt.DxgkInitialize
 title: DxgkInitialize function (dispmprt.h)
-description: The DxgkInitialize function loads and initializes the DirectX graphics kernel subsystem (Dxgkrnl.sys).
-old-location: display\dxgkinitialize.htm
+description: Learn more about the DxgkInitialize function.
 tech.root: display
-ms.date: 05/10/2018
-keywords: ["DxgkInitialize function"]
-ms.keywords: DpFunctions_a3ffc7d5-f2bc-42f0-97f3-411bfe7b95e7.xml, DxgkInitialize, DxgkInitialize function [Display Devices], display.dxgkinitialize, dispmprt/DxgkInitialize
+ms.date: 01/13/2025
 req.header: dispmprt.h
 req.include-header: Dispmprt.h
 req.target-type: Desktop
-req.target-min-winverclnt: Windows Vista
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,40 +39,31 @@ api_name:
 
 # DxgkInitialize function
 
-
 ## -description
 
-The <b>DxgkInitialize</b> function loads and initializes the DirectX graphics kernel subsystem (<i>Dxgkrnl.sys</i>).
+A kernel-mode display miniport driver's (KMD) [**DriverEntry**](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver) routine calls the system-supplied **DxgkInitialize** function to load and initialize the DirectX graphics kernel subsystem (*Dxgkrnl.sys*).
 
 ## -parameters
 
 ### -param DriverObject [in]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> structure. The display miniport driver previously obtained this pointer in its <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function.
+Pointer to a [**DRIVER_OBJECT**](../wdm/ns-wdm-_driver_object.md) structure. The OS passed **DriverObject** to the KMD when it calls KMD's [**DriverEntry**](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver) routine.
 
 ### -param RegistryPath [in]
 
-
-A pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that supplies the path to the driver's service registry key.  The display miniport driver previously obtained this pointer in its <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a> function.
+Pointer to a [**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) that supplies the path to the driver's service registry key. The OS passes **RegistryPath** to KMD when it calls KMD's [**DriverEntry**](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver) routine.
 
 ### -param DriverInitializationData [in]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data">DRIVER_INITIALIZATION_DATA</a> structure that supplies the DirectX graphics kernel subsystem with pointers to functions implemented by the display miniport driver.
+Pointer to a [**DRIVER_INITIALIZATION_DATA**](ns-dispmprt-_driver_initialization_data.md) structure that supplies *Dxgkrnl* with pointers to functions implemented by the KMD.
 
 ## -returns
 
-<b>DxgkInitialize</b>returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+**DxgkInitialize** returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in *Ntstatus.h*.
 
 ## -remarks
 
-The display miniport driver's <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> function calls <b>DxgkInitialize</b>.
-
-
-#### Examples
-
-The following code example shows an implementation of <a href="/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver">DriverEntry</a> in which <b>DxgkInitialize</b> is called.
+The following code example shows an implementation of [**DriverEntry**](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver) in which **DxgkInitialize** is called.
 
 ```cpp
 NTSTATUS
@@ -97,76 +85,76 @@ DriverEntry(
     // Fill in the DriverInitializationData structure and call DxgkInitialize()
     DriverInitializationData.Version  = DXGKDDI_INTERFACE_VERSION;
  
-    DriverInitializationData.DxgkDdiAddDevice  = AtiAddDevice;
-    DriverInitializationData.DxgkDdiStartDevice  = AtiStartDevice;
-    DriverInitializationData.DxgkDdiStopDevice  = AtiStopDevice;
-    DriverInitializationData.DxgkDdiRemoveDevice  = AtiRemoveDevice;
-    DriverInitializationData.DxgkDdiDispatchIoRequest  = AtiDispatchIoRequest;
-    DriverInitializationData.DxgkDdiInterruptRoutine  = AtiInterruptRoutine;
-    DriverInitializationData.DxgkDdiDpcRoutine  = AtiDpcRoutine;
-    DriverInitializationData.DxgkDdiQueryChildRelations  = AtiQueryChildRelations;
-    DriverInitializationData.DxgkDdiQueryChildStatus   = AtiQueryChildStatus;
-    DriverInitializationData.DxgkDdiQueryDeviceDescriptor  = AtiQueryDeviceDescriptor;
-    DriverInitializationData.DxgkDdiSetPowerState  = AtiSetPowerState;
-    DriverInitializationData.DxgkDdiNotifyAcpiEvent  = AtiNotifyAcpiEvent;
-    DriverInitializationData.DxgkDdiResetDevice  = AtiResetDevice;
-    DriverInitializationData.DxgkDdiUnload  = AtiUnload;
-    DriverInitializationData.DxgkDdiQueryInterface  = AtiQueryInterface;
-    DriverInitializationData.DxgkDdiControlEtwLogging  = D3DDDIControlEtwLogging;
+    DriverInitializationData.DxgkDdiAddDevice  = MyKMDAddDevice;
+    DriverInitializationData.DxgkDdiStartDevice  = MyKMDStartDevice;
+    DriverInitializationData.DxgkDdiStopDevice  = MyKMDStopDevice;
+    DriverInitializationData.DxgkDdiRemoveDevice  = MyKMDRemoveDevice;
+    DriverInitializationData.DxgkDdiDispatchIoRequest  = MyKMDDispatchIoRequest;
+    DriverInitializationData.DxgkDdiInterruptRoutine  = MyKMDInterruptRoutine;
+    DriverInitializationData.DxgkDdiDpcRoutine  = MyKMDDpcRoutine;
+    DriverInitializationData.DxgkDdiQueryChildRelations  = MyKMDQueryChildRelations;
+    DriverInitializationData.DxgkDdiQueryChildStatus   = MyKMDQueryChildStatus;
+    DriverInitializationData.DxgkDdiQueryDeviceDescriptor  = MyKMDQueryDeviceDescriptor;
+    DriverInitializationData.DxgkDdiSetPowerState  = MyKMDSetPowerState;
+    DriverInitializationData.DxgkDdiNotifyAcpiEvent  = MyKMDNotifyAcpiEvent;
+    DriverInitializationData.DxgkDdiResetDevice  = MyKMDResetDevice;
+    DriverInitializationData.DxgkDdiUnload  = MyKMDUnload;
+    DriverInitializationData.DxgkDdiQueryInterface  = MyKMDQueryInterface;
+    DriverInitializationData.DxgkDdiControlEtwLogging  = MyKMDControlEtwLogging;
 
-    DriverInitializationData.DxgkDdiQueryAdapterInfo  = D3DDDIQueryAdapterInfo;
-    DriverInitializationData.DxgkDdiCreateDevice  = D3DDDICreateDevice;
-    DriverInitializationData.DxgkDdiCreateAllocation  = D3DDDICreateAllocation;
-    DriverInitializationData.DxgkDdiDestroyAllocation  = D3DDDIDestroyAllocation;
+    DriverInitializationData.DxgkDdiQueryAdapterInfo  = MyKMDQueryAdapterInfo;
+    DriverInitializationData.DxgkDdiCreateDevice  = MyKMDCreateDevice;
+    DriverInitializationData.DxgkDdiCreateAllocation  = MyKMDCreateAllocation;
+    DriverInitializationData.DxgkDdiDestroyAllocation  = MyKMDDestroyAllocation;
 
-    DriverInitializationData.DxgkDdiCreateOverlay  = D3DDDICreateOverlay;
-    DriverInitializationData.DxgkDdiUpdateOverlay  = D3DDDIUpdateOverlay;
-    DriverInitializationData.DxgkDdiFlipOverlay  = D3DDDIFlipOverlay;
-    DriverInitializationData.DxgkDdiDestroyOverlay  = D3DDDIDestroyOverlay;
+    DriverInitializationData.DxgkDdiCreateOverlay  = MyKMDCreateOverlay;
+    DriverInitializationData.DxgkDdiUpdateOverlay  = MyKMDUpdateOverlay;
+    DriverInitializationData.DxgkDdiFlipOverlay  = MyKMDFlipOverlay;
+    DriverInitializationData.DxgkDdiDestroyOverlay  = MyKMDDestroyOverlay;
 
-    DriverInitializationData.DxgkDdiDescribeAllocation  = D3DDDIDescribeAllocation;
-    DriverInitializationData.DxgkDdiGetStandardAllocationDriverData = D3DDDIGetStandardAllocationDriverData;
+    DriverInitializationData.DxgkDdiDescribeAllocation  = MyKMDDescribeAllocation;
+    DriverInitializationData.DxgkDdiGetStandardAllocationDriverData = MyKMDGetStandardAllocationDriverData;
 
-    DriverInitializationData.DxgkDdiAcquireSwizzlingRange  = D3DDDIAcquireSwizzlingRange;
-    DriverInitializationData.DxgkDdiReleaseSwizzlingRange  = D3DDDIReleaseSwizzlingRange;
+    DriverInitializationData.DxgkDdiAcquireSwizzlingRange  = MyKMDAcquireSwizzlingRange;
+    DriverInitializationData.DxgkDdiReleaseSwizzlingRange  = MyKMDReleaseSwizzlingRange;
 
-    DriverInitializationData.DxgkDdiOpenAllocation  = D3DDDIOpenAllocation;
-    DriverInitializationData.DxgkDdiCloseAllocation  = D3DDDICloseAllocation;
+    DriverInitializationData.DxgkDdiOpenAllocation  = MyKMDOpenAllocation;
+    DriverInitializationData.DxgkDdiCloseAllocation  = MyKMDCloseAllocation;
 
-    DriverInitializationData.DxgkDdiPatch  = D3DDDIPatchDmaBuffer;
-    DriverInitializationData.DxgkDdiSubmitCommand  = D3DDDISubmitCommand;
-    DriverInitializationData.DxgkDdiBuildPagingBuffer  = D3DDDIBuildPagingBuffer;
-    DriverInitializationData.DxgkDdiSetPalette  = D3DDDISetPalette;
-    DriverInitializationData.DxgkDdiSetPointerShape  = D3DDDISetPointerShape;
-    DriverInitializationData.DxgkDdiSetPointerPosition  = D3DDDISetPointerPosition;
-    DriverInitializationData.DxgkDdiPreemptCommand  = D3DDDIPreemptCommand;
+    DriverInitializationData.DxgkDdiPatch  = MyKMDPatchDmaBuffer;
+    DriverInitializationData.DxgkDdiSubmitCommand  = MyKMDSubmitCommand;
+    DriverInitializationData.DxgkDdiBuildPagingBuffer  = MyKMDBuildPagingBuffer;
+    DriverInitializationData.DxgkDdiSetPalette  = MyKMDSetPalette;
+    DriverInitializationData.DxgkDdiSetPointerShape  = MyKMDSetPointerShape;
+    DriverInitializationData.DxgkDdiSetPointerPosition  = MyKMDSetPointerPosition;
+    DriverInitializationData.DxgkDdiPreemptCommand  = MyKMDPreemptCommand;
 
-    DriverInitializationData.DxgkDdiDestroyDevice  = D3DDDIDestroyDevice;
-    DriverInitializationData.DxgkDdiRender  = D3DDDIRender;
-    DriverInitializationData.DxgkDdiRenderKm  = D3DDDIRenderKm;    DriverInitializationData.DxgkDdiPresent  = D3DDDIPresent;
-    DriverInitializationData.DxgkDdiResetFromTimeout  = D3DDDIResetFromTimeout;
-    DriverInitializationData.DxgkDdiRestartFromTimeout  = D3DDDIRestartFromTimeout;
-    DriverInitializationData.DxgkDdiEscape  = D3DDDIEscape;
-    DriverInitializationData.DxgkDdiCollectDbgInfo  = D3DDDICollectDbgInfo;
-    DriverInitializationData.DxgkDdiQueryCurrentFence  = D3DDDIQueryCurrentFence;
-    DriverInitializationData.DxgkDdiControlInterrupt  = D3DDDIControlInterrupt;
-    DriverInitializationData.DxgkDdiGetScanLine  = D3DDDIGetScanLine;
-    DriverInitializationData.DxgkDdiStopCapture  = D3DDDI DxgkDdiStopCapture;    DriverInitializationData.DxgkDdiSetVidPnSourceAddress  = D3DDDISetVidPnSourceAddress;
-    DriverInitializationData.DxgkDdiSetVidPnSourceVisibility  = D3DDDISetVidPnSourceVisibility;
-    DriverInitializationData.DxgkDdiUpdateActiveVidPnPresentPath  = D3DDDIUpdateActiveVidPnPresentPath;
-    DriverInitializationData.DxgkDdiCommitVidPn  = D3DDDICommitVidPn;
-    DriverInitializationData.DxgkDdiRecommendMonitorModes  = D3DDDIRecommendMonitorModes;
-    DriverInitializationData.DxgkDdiRecommendVidPnTopology  = D3DDDIRecommendVidPnTopology;
+    DriverInitializationData.DxgkDdiDestroyDevice  = MyKMDDestroyDevice;
+    DriverInitializationData.DxgkDdiRender  = MyKMDRender;
+    DriverInitializationData.DxgkDdiRenderKm  = MyKMDRenderKm;    DriverInitializationData.DxgkDdiPresent  = MyKMDPresent;
+    DriverInitializationData.DxgkDdiResetFromTimeout  = MyKMDResetFromTimeout;
+    DriverInitializationData.DxgkDdiRestartFromTimeout  = MyKMDRestartFromTimeout;
+    DriverInitializationData.DxgkDdiEscape  = MyKMDEscape;
+    DriverInitializationData.DxgkDdiCollectDbgInfo  = MyKMDCollectDbgInfo;
+    DriverInitializationData.DxgkDdiQueryCurrentFence  = MyKMDQueryCurrentFence;
+    DriverInitializationData.DxgkDdiControlInterrupt  = MyKMDControlInterrupt;
+    DriverInitializationData.DxgkDdiGetScanLine  = MyKMDGetScanLine;
+    DriverInitializationData.DxgkDdiStopCapture  = MyKMD DxgkDdiStopCapture;    DriverInitializationData.DxgkDdiSetVidPnSourceAddress  = MyKMDSetVidPnSourceAddress;
+    DriverInitializationData.DxgkDdiSetVidPnSourceVisibility  = MyKMDSetVidPnSourceVisibility;
+    DriverInitializationData.DxgkDdiUpdateActiveVidPnPresentPath  = MyKMDUpdateActiveVidPnPresentPath;
+    DriverInitializationData.DxgkDdiCommitVidPn  = MyKMDCommitVidPn;
+    DriverInitializationData.DxgkDdiRecommendMonitorModes  = MyKMDRecommendMonitorModes;
+    DriverInitializationData.DxgkDdiRecommendVidPnTopology  = MyKMDRecommendVidPnTopology;
 
-    DriverInitializationData.DxgkDdiCreateContext  = D3DDDICreateContext;
-    DriverInitializationData.DxgkDdiDestroyContext  = D3DDDIDestroyContext;
+    DriverInitializationData.DxgkDdiCreateContext  = MyKMDCreateContext;
+    DriverInitializationData.DxgkDdiDestroyContext  = MyKMDDestroyContext;
 
-    DriverInitializationData.DxgkDdiLinkDevice  = D3DDDILinkDevice;
-    DriverInitializationData.DxgkDdiSetDisplayPrivateDriverFormat  = D3DDDISetDisplayPrivateDriverFormat;
-    DriverInitializationData.DxgkDdiRecommendFunctionalVidPn  = D3DDDIRecommendFunctionalVidPn_XddmParity;
-    DriverInitializationData.DxgkDdiEnumVidPnCofuncModality  = D3DDDIEnumVidPnCofuncModality_XddmParity;
-    DriverInitializationData.DxgkDdiIsSupportedVidPn  = D3DDDIIsSupportedVidPn_XddmParity;
-    DriverInitializationData.DxgkDdiQueryVidPnHWCapability  = D3DDDI DxgkDdiQueryVidPnHWCapability;
+    DriverInitializationData.DxgkDdiLinkDevice  = MyKMDLinkDevice;
+    DriverInitializationData.DxgkDdiSetDisplayPrivateDriverFormat  = MyKMDSetDisplayPrivateDriverFormat;
+    DriverInitializationData.DxgkDdiRecommendFunctionalVidPn  = MyKMDRecommendFunctionalVidPn_XddmParity;
+    DriverInitializationData.DxgkDdiEnumVidPnCofuncModality  = MyKMDEnumVidPnCofuncModality_XddmParity;
+    DriverInitializationData.DxgkDdiIsSupportedVidPn  = MyKMDIsSupportedVidPn_XddmParity;
+    DriverInitializationData.DxgkDdiQueryVidPnHWCapability  = MyKMD DxgkDdiQueryVidPnHWCapability;
 
     return DxgkInitialize(DriverObject,
                           RegistryPath,
@@ -176,16 +164,10 @@ DriverEntry(
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/dispmprt/ns-dispmprt-_driver_initialization_data">DRIVER_INITIALIZATION_DATA</a>
+[**DRIVER_INITIALIZATION_DATA**](ns-dispmprt-_driver_initialization_data.md)
 
+[**DRIVER_OBJECT**](../wdm/ns-wdm-_driver_object.md)
 
+[**DriverEntry of Display Miniport Driver**](/windows-hardware/drivers/display/driverentry-of-display-miniport-driver)
 
-<a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_driver_object">DRIVER_OBJECT</a>
-
-
-
-<a href="/windows-hardware/drivers/display/driverentry-of-display-miniport-driver">DriverEntry of Display Miniport Driver</a>
-
-
-
-<a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a>
+[**UNICODE_STRING**](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)

@@ -6,7 +6,6 @@ title: exemptionactiontypes overview
 ms.date: 05/26/2023
 keywords: ["Exemptionactiontypes.h header"]
 ms.keywords: 
-ms.topic: reference
 f1_keywords:
  - exemptionactiontypes
  - exemptionactiontypes/exemptionactiontypes
