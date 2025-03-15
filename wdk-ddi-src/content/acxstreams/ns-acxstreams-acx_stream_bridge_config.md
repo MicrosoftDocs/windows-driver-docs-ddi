@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACX_STREAM_BRIDGE_CONFIG
 tech.root: audio
 title: ACX_STREAM_BRIDGE_CONFIG
-ms.date: 10/11/2024
+ms.date: 03/14/2024
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_CONFIG structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge.
 prerelease: false
@@ -66,24 +66,20 @@ The number of AUDIO_SIGNALPROCESSINGMODEs listed in InModes. These are the signa
 
 This field can be zero only if the InModes field is set to NULL.
 
-TBD - Can iInModesCount also be zero if InModes is set to the `NULL_GUID`? 
-
-
 ### -field InModes
 
 A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREAMBRIDGE.
 
 - This field can be set to a specific mode, such as AUDIO_SIGNALPROCESSINGMODE_DEFAULT or AUDIO_SIGNALPROCESSINGMODE_RAW.
-- A `NULL_GUID` is a wild card value and it matches any AUDIO_SIGNALPROCESSINGMODE(s).
-- If this field is NULL, TBD. 
+- A `NULL_GUID` is a wild card value and it matches any AUDIO_SIGNALPROCESSINGMODE(s). 
 - If the input signal processing modes are not defined at all, the ACXSTREAMBRIDGE does not automatically match any mode. In this case, it is up to the driver to manually add the input stream to the stream bridge, after the stream bridge is created.
-
 
 ### -field OutMode
 
 A pointer to an AUDIO_SIGNALPROCESSINGMODE that defines the audio signal processing mode of the output stream. 
 
-- If this field is set to a `NULL_GUID`, the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, else the AUDIO_SIGNALPROCESSINGMODE_RAW is used. 
+- If this field is set to a `NULL_GUID`, the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, else the AUDIO_SIGNALPROCESSINGMODE_RAW is used.  When you set the out-mode to `NULL_GUID`, this will inform ACX that you want to use whatever mode is in use in the first stream associated with the bridge.
+- If this field is set to nothing (null ptr), you are telling ACX to use default mode if present, or raw mode if present or nothing (no mode specified) on the stream sent to the next circuit.
 - If AUDIO_SIGNALPROCESSINGMODE_RAW is also not supported, the output stream is created without specifying an audio signal processing mode.
 - See the remarks section for additional information on the behavior of audio signal processing modes.
 
@@ -149,8 +145,6 @@ This example shows not setting the InModes for a capture circuit, as they will b
 ```
 
 ### InModes and OutModes being set to NULL_GUID
-
-TBD - Please confirm that the InModes and OutModes being set to NULL_GUID, and the #define shown is appropriate.
 
 This example shows InModes and OutModes being set to the NULL_GUID.
 
