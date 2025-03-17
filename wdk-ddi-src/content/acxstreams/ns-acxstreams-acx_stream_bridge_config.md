@@ -78,7 +78,7 @@ A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREA
 
 A pointer to an AUDIO_SIGNALPROCESSINGMODE that defines the audio signal processing mode of the output stream. 
 
--	If this field is not specified (set to NULL), the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, if that mode is not supported the AUDIO_SIGNALPROCESSINGMODE_RAW is used. If AUDIO_SIGNALPROCESSINGMODE_RAW is also not supported, the output stream is created without specifying an audio signal processing mode.
+- If this field is not specified (set to NULL), the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, else the AUDIO_SIGNALPROCESSINGMODE_RAW is used. If AUDIO_SIGNALPROCESSINGMODE_RAW is also not supported, the output stream is created without specifying an audio signal processing mode.
 -	If this field is set to `NULL_GUID`, ACX uses the MODE associated with the input stream.
 -	See the remarks section for additional information on the behavior of audio signal processing modes.
 
@@ -111,7 +111,6 @@ The stream bridge only allows one stream out, and the first stream configuration
 ### InModes and OutModes being set to NULL
 
 Example usage is shown below. This first example shows the InModes and OutModes being set to NULL. In this case, ACX will use whatever the incoming mode is.
-
 
 ```cpp
         ACXSTREAMBRIDGE             bridge          = NULL;
@@ -149,7 +148,6 @@ This example shows InModes and OutModes being set to the NULL_GUID.
 
 ```cpp
         #define NULL_GUID { 0x00000000, 0x0000, 0x0000, {0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00} }
-
 
                 PCGUID  inModes[] =
         {
