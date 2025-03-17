@@ -2,7 +2,7 @@
 UID: NS:acxstreams._ACX_STREAM_BRIDGE_CONFIG
 tech.root: audio
 title: ACX_STREAM_BRIDGE_CONFIG
-ms.date: 03/14/2024
+ms.date: 03/17/2024
 targetos: Windows
 description: The ACX_STREAM_BRIDGE_CONFIG structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge.
 prerelease: false
@@ -78,10 +78,9 @@ A pointer to a list of AUDIO_SIGNALPROCESSINGMODE pointers supported by ACXSTREA
 
 A pointer to an AUDIO_SIGNALPROCESSINGMODE that defines the audio signal processing mode of the output stream. 
 
-- If this field is set to a `NULL_GUID`, the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, else the AUDIO_SIGNALPROCESSINGMODE_RAW is used.  When you set the out-mode to `NULL_GUID`, this will inform ACX that you want to use whatever mode is in use in the first stream associated with the bridge.
-- If this field is set to nothing (null ptr), you are telling ACX to use default mode if present, or raw mode if present or nothing (no mode specified) on the stream sent to the next circuit.
-- If AUDIO_SIGNALPROCESSINGMODE_RAW is also not supported, the output stream is created without specifying an audio signal processing mode.
-- See the remarks section for additional information on the behavior of audio signal processing modes.
+-	If this field is not specified (set to NULL), the AUDIO_SIGNALPROCESSINGMODE_DEFAULT is used if supported by the associated ACXPIN, if that mode is not supported the AUDIO_SIGNALPROCESSINGMODE_RAW is used. If AUDIO_SIGNALPROCESSINGMODE_RAW is also not supported, the output stream is created without specifying an audio signal processing mode.
+-	If this field is set to `NULL_GUID`, ACX uses the MODE associated with the input stream.
+-	See the remarks section for additional information on the behavior of audio signal processing modes.
 
 ### -field OutStreamVarArguments
 
