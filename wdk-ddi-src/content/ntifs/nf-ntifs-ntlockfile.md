@@ -108,4 +108,6 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 
 ## -see-also
 
-[**ZwUnlockFile**](nf-ntifs-ntunlockfile.md)
+[Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines)
+
+[**NtUnlockFile**](nf-ntifs-ntunlockfile.md)
