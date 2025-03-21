@@ -6,7 +6,7 @@ ms.date: 02/14/2025
 targetos: Windows
 description: Learn more about the USN_JOURNAL_DATA_V2 structure.
 prerelease: false
-req.construct-type: strsucture
+req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: ntifs.h
