@@ -4,6 +4,7 @@ title: NDIS_QOS_SQ_PARAMETERS
 ms.date: 10/30/2020
 targetos: Windows
 description: The NDIS_QOS_SQ_PARAMETERS structure contains the parameters of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).
+tech.root: netvista
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
