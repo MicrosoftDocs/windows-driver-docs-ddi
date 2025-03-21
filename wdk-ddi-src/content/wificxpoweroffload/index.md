@@ -9,6 +9,8 @@ ms.keywords:
 f1_keywords:
  - wificxpoweroffload
  - wificxpoweroffload/wificxpoweroffload
+api_location:
+ - wificxpoweroffload.h
 api_name:
  - wificxpoweroffload
 ---
