@@ -4,6 +4,7 @@ title: NDIS_QOS_SQ_ARRAY
 ms.date: 10/30/2020
 targetos: Windows
 description: The NDIS_QOS_SQ_ARRAY structure is used to enumerate NDIS Quality of Service (QoS) Scheduler Queues (SQs) for parameters and stats.
+tech.root: netvista
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
