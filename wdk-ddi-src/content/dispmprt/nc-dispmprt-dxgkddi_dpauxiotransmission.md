@@ -5,8 +5,9 @@ ms.date: 03/24/2020
 tech.root: display
 targetos: Windows
 description: The DXGKDDI_DPAUXIOTRANSMISSION callback reads or writes DisplayPort Configuration Data (DPCD) for devices directly attached on the GPU.
+req.header: dispmprt.h
 req.assembly: 
-eq.irql: 
+req.irql: 
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
