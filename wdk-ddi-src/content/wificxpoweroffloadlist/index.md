@@ -9,6 +9,8 @@ ms.keywords:
 f1_keywords:
  - wificxpoweroffloadlist
  - wificxpoweroffloadlist/wificxpoweroffloadlist
+api_location:
+ - wificxpoweroffloadlist.h
 api_name:
  - wificxpoweroffloadlist
 ---
