@@ -2,7 +2,7 @@
 UID: NC:uart.UART_GET_BYTE
 title: UART_GET_BYTE (uart.h)
 description: Reads a data byte from the UART device.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_GET_BYTE callback function"]
 req.header: uart.h

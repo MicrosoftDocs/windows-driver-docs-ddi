@@ -58,7 +58,7 @@ Additional Attributes defined using a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/
 
 ### -param Config
 
-An [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_config.md) structure that defines the configuration.
+An [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_config.md) structure that defines the configuration. This structure contains  AUDIO_SIGNALPROCESSINGMODEs, InModes and OutModes that are used to control audio signal processing mode of the output stream. 
 
 ### -param StreamBridge
 
@@ -78,7 +78,7 @@ Your driver can delete the ACXSTREAMBRIDGE object when it has finished using the
 
 A pin can be associated with zero, one or more ACXSTREAMBRIDGEs. ACX searches the associated ACXPIN's signal processing mode list for a stream signal processing mode match. The search stops at the first match.
 
-ACX creates a default ACXSTREAMBRIDGE for a ACXCIRCUIT to ACXCIRCUIT bridge if the driver doesn't create one, and the driver didn't disable the default stream bridge handling with the AcxCircuitInitDisableDefaultStreamBridgeHandling function.
+ACX creates a default ACXSTREAMBRIDGE for a ACXCIRCUIT to ACXCIRCUIT bridge if the driver doesn't create one, and the driver didn't disable the default stream bridge handling with the [AcxCircuitInitDisableDefaultStreamBridgeHandling function](../acxcircuit/nf-acxcircuit-acxcircuitinitdisabledefaultstreambridgehandling.md).
 
 ### Example
 

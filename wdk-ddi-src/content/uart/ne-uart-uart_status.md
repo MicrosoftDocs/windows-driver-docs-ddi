@@ -2,7 +2,7 @@
 UID: NE:uart.UART_STATUS
 title: UART_STATUS (uart.h)
 description: Defines values for the status of a UART operation.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_STATUS enumeration"]
 ms.keywords: UART_STATUS, UART_STATUS, *PUART_STATUS,

@@ -2,7 +2,7 @@
 UID: NC:uart.UART_HARDWARE_WRITE_USHORT
 title: UART_HARDWARE_WRITE_USHORT (uart.h)
 description: Writes a USHORT value to the specified port or register.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_WRITE_USHORT callback function"]
 req.header: uart.h

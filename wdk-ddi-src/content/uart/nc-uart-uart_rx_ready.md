@@ -2,7 +2,7 @@
 UID: NC:uart.UART_RX_READY
 title: UART_RX_READY (uart.h)
 description: Determines whether there is data pending in the UART hardware.
-tech.root: serports
+tech.root: uart
 ms.date: 10/19/2018
 keywords: ["UART_RX_READY callback function"]
 req.header: uart.h
