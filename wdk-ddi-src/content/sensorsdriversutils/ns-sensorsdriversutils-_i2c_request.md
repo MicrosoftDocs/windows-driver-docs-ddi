@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["I2C_REQUEST structure"]
 ms.keywords: _I2C_REQUEST, I2C_REQUEST, *PI2C_REQUEST,
 req.header: sensorsdriversutils.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - I2C_REQUEST
 ---
 
-# _I2C_REQUEST structure
+# I2C_REQUEST structure (sensorsdriversutils.h)
+
+
 
 
 ## -description

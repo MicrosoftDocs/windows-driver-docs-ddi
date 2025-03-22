@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure"]
 ms.keywords: DXVAHDDDI_STREAM_STATE_ROTATION_DATA, DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_ROTATION_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION_DATA, display.dxvahdddi_stream_state_rotation_data
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_STREAM_STATE_ROTATION_DATA
 ---
 
-# _DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure
+# DXVAHDDDI_STREAM_STATE_ROTATION_DATA structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_REGISTER_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES, PEP_REGISTER_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_COMPONENT_PERF_STATES, PPEP_REGISTER_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_COMPONENT_PERF_STATES, kernel.pep_register_component_perf_states, pepfx/PEP_REGISTER_COMPONENT_PERF_STATES, pepfx/PPEP_REGISTER_COMPONENT_PERF_STATES"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_REGISTER_COMPONENT_PERF_STATES
 ---
 
-# _PEP_REGISTER_COMPONENT_PERF_STATES structure (pep_x.h)
+# PEP_REGISTER_COMPONENT_PERF_STATES structure (pep_x.h)
+
+
 
 
 ## -description

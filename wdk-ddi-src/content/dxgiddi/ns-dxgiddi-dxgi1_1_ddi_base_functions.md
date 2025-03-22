@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI1_1_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_1_DDI_BASE_FUNCTIONS, DXGI1_1_DDI_BASE_FUNCTIONS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_92bae538-7b48-48d5-a26f-c593ff5875cf.xml, display.dxgi1_1_ddi_base_functions, dxgiddi/DXGI1_1_DDI_BASE_FUNCTIONS
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXGI1_1_DDI_BASE_FUNCTIONS is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - DXGI1_1_DDI_BASE_FUNCTIONS
 ---
 
-# DXGI1_1_DDI_BASE_FUNCTIONS structure
+# DXGI1_1_DDI_BASE_FUNCTIONS structure (dxgiddi.h)
+
+
 
 
 ## -description

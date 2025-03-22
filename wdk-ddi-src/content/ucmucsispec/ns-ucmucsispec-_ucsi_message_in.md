@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_MESSAGE_IN structure"]
 ms.keywords: _UCSI_MESSAGE_IN, UCSI_MESSAGE_IN, *PUCSI_MESSAGE_IN,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_MESSAGE_IN
 ---
 
-# _UCSI_MESSAGE_IN structure
+# UCSI_MESSAGE_IN structure (ucmucsispec.h)
+
+
 
 
 ## -description

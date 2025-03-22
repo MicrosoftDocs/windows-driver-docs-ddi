@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_VIDEOSAMPLE structure"]
 ms.keywords: DXVA2_Structs_c3a4d002-09dc-4653-a965-9c4f587529d4.xml, DXVADDI_VIDEOSAMPLE, DXVADDI_VIDEOSAMPLE structure [Display Devices], _DXVADDI_VIDEOSAMPLE, d3dumddi/DXVADDI_VIDEOSAMPLE, display.dxvaddi_videosample
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_VIDEOSAMPLE
 ---
 
-# _DXVADDI_VIDEOSAMPLE structure
+# DXVADDI_VIDEOSAMPLE structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CIP_LISTEN structure"]
 ms.keywords: "*PCIP_LISTEN, 61883/CIP_LISTEN, 61883/PCIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], IEEE.cip_listen, PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], _CIP_LISTEN"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_LISTEN
 ---
 
-# _CIP_LISTEN structure
+# CIP_LISTEN structure (61883.h)
+
+
 
 
 ## -description

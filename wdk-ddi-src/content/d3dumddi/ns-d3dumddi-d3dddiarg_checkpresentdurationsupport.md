@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure [Display Devices], d3dumddi/D3DDDIARG_CHECKPRESENTDURATIONSUPPORT, display.d3dddiarg_checkpresentdurationsupport
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
@@ -40,7 +41,9 @@ api_name:
  - D3DDDIARG_CHECKPRESENTDURATIONSUPPORT
 ---
 
-# D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure
+# D3DDDIARG_CHECKPRESENTDURATIONSUPPORT structure (d3dumddi.h)
+
+
 
 
 ## -description

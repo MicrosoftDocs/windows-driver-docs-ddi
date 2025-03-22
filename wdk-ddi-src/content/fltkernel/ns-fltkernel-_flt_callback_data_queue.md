@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["FLT_CALLBACK_DATA_QUEUE structure"]
 ms.keywords: "*PFLT_CALLBACK_DATA_QUEUE, FLT_CALLBACK_DATA_QUEUE, FLT_CALLBACK_DATA_QUEUE structure [Installable File System Drivers], FltSystemStructures_d43817d6-bc53-407d-8a3f-c6268112eb6e.xml, PFLT_CALLBACK_DATA_QUEUE, PFLT_CALLBACK_DATA_QUEUE structure pointer [Installable File System Drivers], _FLT_CALLBACK_DATA_QUEUE, fltkernel/FLT_CALLBACK_DATA_QUEUE, fltkernel/PFLT_CALLBACK_DATA_QUEUE, ifsk.flt_callback_data_queue"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FLT_CALLBACK_DATA_QUEUE
 ---
 
-# FLT_CALLBACK_DATA_QUEUE structure
+# FLT_CALLBACK_DATA_QUEUE structure (fltkernel.h)
+
+
 
 ## -description
 

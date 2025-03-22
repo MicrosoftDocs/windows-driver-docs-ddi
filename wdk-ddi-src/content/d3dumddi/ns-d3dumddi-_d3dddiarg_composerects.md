@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_COMPOSERECTS structure"]
 ms.keywords: D3DDDIARG_COMPOSERECTS, D3DDDIARG_COMPOSERECTS structure [Display Devices], UMDisplayDriver_param_Structs_2f10ffa4-f55f-490b-9aa4-08c0c3e3d924.xml, _D3DDDIARG_COMPOSERECTS, d3dumddi/D3DDDIARG_COMPOSERECTS, display.d3dddiarg_composerects
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_COMPOSERECTS
 ---
 
-# _D3DDDIARG_COMPOSERECTS structure
+# D3DDDIARG_COMPOSERECTS structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_NIT_RANGE structure"]
 ms.keywords: _DXGK_BRIGHTNESS_NIT_RANGE, DXGK_BRIGHTNESS_NIT_RANGE,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_BRIGHTNESS_NIT_RANGE
 ---
 
-# _DXGK_BRIGHTNESS_NIT_RANGE structure
+# DXGK_BRIGHTNESS_NIT_RANGE structure (d3dkmdt.h)
+
+
 
 
 ## -description

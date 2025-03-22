@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CREATEDEVICEFLAGS structure"]
 ms.keywords: DXGK_CREATEDEVICEFLAGS, DXGK_CREATEDEVICEFLAGS structure [Display Devices], DmStructs_f8513fe3-ce39-4555-a667-20ff383583fc.xml, _DXGK_CREATEDEVICEFLAGS, d3dkmddi/DXGK_CREATEDEVICEFLAGS, display.dxgk_createdeviceflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_CREATEDEVICEFLAGS
 ---
 
-# _DXGK_CREATEDEVICEFLAGS structure
+# DXGK_CREATEDEVICEFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

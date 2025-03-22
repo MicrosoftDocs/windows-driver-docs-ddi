@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSRESOLUTION structure"]
 ms.keywords: "*PKSRESOLUTION, KSRESOLUTION, KSRESOLUTION structure [Streaming Media Devices], PKSRESOLUTION, PKSRESOLUTION structure pointer [Streaming Media Devices], ks-struct_eb48cf83-0b80-4955-89a4-0b363497bef5.xml, ks/KSRESOLUTION, ks/PKSRESOLUTION, stream.ksresolution"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSRESOLUTION
 ---
 
-# KSRESOLUTION structure
+# KSRESOLUTION structure (ks.h)
+
+
 
 
 ## -description

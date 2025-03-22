@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSDATAFORMAT structure"]
 ms.keywords: "*PKSDATAFORMAT, *PKSDATARANGE, KSDATAFORMAT, KSDATAFORMAT structure [Streaming Media Devices], KSDATARANGE, KSDATARANGE structure [Streaming Media Devices], PKSDATAFORMAT, PKSDATAFORMAT structure pointer [Streaming Media Devices], PKSDATARANGE, PKSDATARANGE structure pointer [Streaming Media Devices], ks-struct_787a73ee-98dd-4e97-b7ea-2ed38ff564c7.xml, ks/KSDATAFORMAT, ks/KSDATARANGE, ks/PKSDATAFORMAT, ks/PKSDATARANGE, stream.ksdataformat"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSDATAFORMAT
 ---
 
-# KSDATAFORMAT structure
+# KSDATAFORMAT structure (ks.h)
+
+
 
 
 ## -description

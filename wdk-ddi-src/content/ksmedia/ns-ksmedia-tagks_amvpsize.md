@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_AMVPSIZE structure"]
 ms.keywords: "*PKS_AMVPSIZE, KS_AMVPSIZE, KS_AMVPSIZE structure [Streaming Media Devices], PKS_AMVPSIZE, PKS_AMVPSIZE structure pointer [Streaming Media Devices], dvdref_fa534150-3678-4def-945b-59d23ea84e83.xml, ksmedia/KS_AMVPSIZE, ksmedia/PKS_AMVPSIZE, stream.ks_amvpsize, tagKS_AMVPSIZE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_AMVPSIZE
 ---
 
-# tagKS_AMVPSIZE structure
+# tagKS_AMVPSIZE structure (ksmedia.h)
+
+
 
 
 ## -description

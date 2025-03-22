@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagTRANSPORTAUDIOPARMS structure"]
 ms.keywords: "*PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], TRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTAUDIOPARMS, ksmedia/TRANSPORTAUDIOPARMS, stream.transportaudioparms, tagTRANSPORTAUDIOPARMS, vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TRANSPORTAUDIOPARMS
 ---
 
-# tagTRANSPORTAUDIOPARMS structure
+# tagTRANSPORTAUDIOPARMS structure (ksmedia.h)
+
+
 
 
 ## -description

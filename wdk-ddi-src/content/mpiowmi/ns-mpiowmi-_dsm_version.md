@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DSM_VERSION structure"]
 ms.keywords: "*PDSM_VERSION, DSM_VERSION, DSM_VERSION structure [Storage Devices], PDSM_VERSION, PDSM_VERSION structure pointer [Storage Devices], _DSM_VERSION, mpiowmi/DSM_VERSION, mpiowmi/PDSM_VERSION, storage.dsm_version, structs-scsibus_3e00c2b2-0497-4aab-b2e0-a6a5d998e560.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DSM_VERSION
 ---
 
-# _DSM_VERSION structure
+# DSM_VERSION structure (mpiowmi.h)
+
+
 
 
 ## -description

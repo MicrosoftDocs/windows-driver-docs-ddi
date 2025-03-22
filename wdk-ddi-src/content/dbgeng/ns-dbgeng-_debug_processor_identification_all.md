@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_PROCESSOR_IDENTIFICATION_ALL structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL, DEBUG_PROCESSOR_IDENTIFICATION_ALL union [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALL, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALL, debugger.debug_processor_identification_all"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_PROCESSOR_IDENTIFICATION_ALL
 ---
 
-# _DEBUG_PROCESSOR_IDENTIFICATION_ALL structure
+# DEBUG_PROCESSOR_IDENTIFICATION_ALL structure (dbgeng.h)
+
+
 
 
 ## -description

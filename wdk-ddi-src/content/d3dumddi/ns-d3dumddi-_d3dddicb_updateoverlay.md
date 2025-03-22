@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_UPDATEOVERLAY structure"]
 ms.keywords: D3DDDICB_UPDATEOVERLAY, D3DDDICB_UPDATEOVERLAY structure [Display Devices], D3D_param_Structs_b9e39db9-44ba-45d5-9500-dd9d5d8cc4bb.xml, _D3DDDICB_UPDATEOVERLAY, d3dumddi/D3DDDICB_UPDATEOVERLAY, display.d3dddicb_updateoverlay
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_UPDATEOVERLAY
 ---
 
-# _D3DDDICB_UPDATEOVERLAY structure
+# D3DDDICB_UPDATEOVERLAY structure (d3dumddi.h)
+
+
 
 
 ## -description

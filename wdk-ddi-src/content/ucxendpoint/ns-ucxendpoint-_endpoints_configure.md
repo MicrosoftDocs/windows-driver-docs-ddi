@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ENDPOINTS_CONFIGURE structure"]
 ms.keywords: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], _ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE"
 req.header: ucxendpoint.h
+req.construct-type: structure
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ENDPOINTS_CONFIGURE
 ---
 
-# _ENDPOINTS_CONFIGURE structure
+# ENDPOINTS_CONFIGURE structure (ucxendpoint.h)
+
+
 
 
 ## -description

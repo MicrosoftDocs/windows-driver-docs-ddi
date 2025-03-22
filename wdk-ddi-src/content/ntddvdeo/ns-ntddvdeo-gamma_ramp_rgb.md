@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["GAMMA_RAMP_RGB structure"]
 ms.keywords: GAMMA_RAMP_RGB, GAMMA_RAMP_RGB,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# GAMMA_RAMP_RGB structure
+# GAMMA_RAMP_RGB structure (ntddvdeo.h)
+
+
 
 
 ## -description

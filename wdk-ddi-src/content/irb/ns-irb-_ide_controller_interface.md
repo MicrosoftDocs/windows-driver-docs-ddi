@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_CONTROLLER_INTERFACE structure"]
 ms.keywords: "*PIDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE, IDE_CONTROLLER_INTERFACE structure [Storage Devices], PIDE_CONTROLLER_INTERFACE, PIDE_CONTROLLER_INTERFACE structure pointer [Storage Devices], _IDE_CONTROLLER_INTERFACE, irb/IDE_CONTROLLER_INTERFACE, irb/PIDE_CONTROLLER_INTERFACE, storage.ide_controller_interface, structs-ATA_3b2abcb7-676c-44c9-a2a3-c4efb0f1e032.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_CONTROLLER_INTERFACE
 ---
 
-# _IDE_CONTROLLER_INTERFACE structure
+# IDE_CONTROLLER_INTERFACE structure (irb.h)
+
+
 
 
 ## -description

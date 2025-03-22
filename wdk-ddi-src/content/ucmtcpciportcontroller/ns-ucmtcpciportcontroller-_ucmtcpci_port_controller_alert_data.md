@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure"]
 ms.keywords: "*PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure pointer [Buses], UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure [Buses], _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA, buses.ucmtcpci_port_controller_alert_data, ucmtcpciportcontroller/PUCMTCPCI_PORT_CONTROLLER_ALERT_DATA, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_ALERT_DATA"
 req.header: ucmtcpciportcontroller.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UCMTCPCI_PORT_CONTROLLER_ALERT_DATA
 ---
 
-# _UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure
+# UCMTCPCI_PORT_CONTROLLER_ALERT_DATA structure (ucmtcpciportcontroller.h)
+
+
 
 ## -description
 

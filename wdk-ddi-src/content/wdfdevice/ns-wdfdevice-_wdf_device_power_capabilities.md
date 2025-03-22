@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_CAPABILITIES structure"]
 ms.keywords: "*PWDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, WDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES structure, _WDF_DEVICE_POWER_CAPABILITIES, kmdf.wdf_device_power_capabilities, wdf.wdf_device_power_capabilities, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES"
 req.header: wdfdevice.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_DEVICE_POWER_CAPABILITIES
 ---
 
-# _WDF_DEVICE_POWER_CAPABILITIES structure
+# WDF_DEVICE_POWER_CAPABILITIES structure (wdfdevice.h)
+
+
 
 
 ## -description

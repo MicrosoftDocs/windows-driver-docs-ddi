@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["IDARG_OUT_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_OUT_QUERY_HWCURSOR, IDARG_OUT_QUERY_HWCURSOR structure [Display Devices], display.idarg_out_query_hwcursor, iddcx/IDARG_OUT_QUERY_HWCURSOR
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IDARG_OUT_QUERY_HWCURSOR
 ---
 
-# IDARG_OUT_QUERY_HWCURSOR structure
+# IDARG_OUT_QUERY_HWCURSOR structure (iddcx.h)
+
+
 
 ## -description
 

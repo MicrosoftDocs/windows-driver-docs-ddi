@@ -8,6 +8,7 @@ ms.date: 02/28/2024
 keywords: ["STORAGE_PROTOCOL_COMMAND structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND, PSTORAGE_PROTOCOL_COMMAND structure pointer [Storage Devices], STORAGE_PROTOCOL_COMMAND, STORAGE_PROTOCOL_COMMAND structure [Storage Devices], _STORAGE_PROTOCOL_COMMAND, ntddstor/PSTORAGE_PROTOCOL_COMMAND, ntddstor/STORAGE_PROTOCOL_COMMAND, storage.storage_protocol_command"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_PROTOCOL_COMMAND
 ---
 
-# STORAGE_PROTOCOL_COMMAND structure
+# STORAGE_PROTOCOL_COMMAND structure (ntddstor.h)
+
+
 
 ## -description
 

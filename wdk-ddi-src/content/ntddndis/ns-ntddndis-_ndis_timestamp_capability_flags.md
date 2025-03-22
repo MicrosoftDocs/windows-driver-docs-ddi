@@ -7,6 +7,7 @@ ms.date: 01/31/2021
 keywords: ["NDIS_TIMESTAMP_CAPABILITY_FLAGS structure"]
 ms.keywords: _NDIS_TIMESTAMP_CAPABILITY_FLAGS, NDIS_TIMESTAMP_CAPABILITY_FLAGS, *PNDIS_TIMESTAMP_CAPABILITY_FLAGS,
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: ndis.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -40,7 +41,9 @@ api_name:
  - NDIS_TIMESTAMP_CAPABILITY_FLAGS
 ---
 
-# _NDIS_TIMESTAMP_CAPABILITY_FLAGS structure
+# NDIS_TIMESTAMP_CAPABILITY_FLAGS structure (ntddndis.h)
+
+
 
 ## -description
 

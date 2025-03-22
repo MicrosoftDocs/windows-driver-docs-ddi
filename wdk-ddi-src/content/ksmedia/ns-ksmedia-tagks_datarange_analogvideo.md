@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_ANALOGVIDEO structure"]
 ms.keywords: "*PKS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO, KS_DATARANGE_ANALOGVIDEO structure [Streaming Media Devices], PKS_DATARANGE_ANALOGVIDEO, PKS_DATARANGE_ANALOGVIDEO structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_ANALOGVIDEO, ksmedia/PKS_DATARANGE_ANALOGVIDEO, stream.ks_datarange_analogvideo, tagKS_DATARANGE_ANALOGVIDEO, vidcapstruct_43f72b11-2ac7-4b68-b595-c37022d956c7.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATARANGE_ANALOGVIDEO
 ---
 
-# tagKS_DATARANGE_ANALOGVIDEO structure
+# tagKS_DATARANGE_ANALOGVIDEO structure (ksmedia.h)
+
+
 
 
 ## -description

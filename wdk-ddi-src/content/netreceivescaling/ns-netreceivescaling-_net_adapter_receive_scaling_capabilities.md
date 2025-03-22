@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES, NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES,
 req.header: netreceivescaling.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES
 ---
 
-# _NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure
+# NET_ADAPTER_RECEIVE_SCALING_CAPABILITIES structure (netreceivescaling.h)
+
+
 
 
 ## -description

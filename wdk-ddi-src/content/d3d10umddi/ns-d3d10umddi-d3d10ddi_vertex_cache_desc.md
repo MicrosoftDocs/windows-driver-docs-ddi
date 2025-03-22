@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDI_VERTEX_CACHE_DESC structure"]
 ms.keywords: D3D10DDI_VERTEX_CACHE_DESC, D3D10DDI_VERTEX_CACHE_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_585c3ccc-83c7-4d3b-903d-7eac81a1c21c.xml, d3d10umddi/D3D10DDI_VERTEX_CACHE_DESC, display.d3d10ddi_vertex_cache_desc
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDI_VERTEX_CACHE_DESC
 ---
 
-# D3D10DDI_VERTEX_CACHE_DESC structure
+# D3D10DDI_VERTEX_CACHE_DESC structure (d3d10umddi.h)
+
+
 
 
 ## -description

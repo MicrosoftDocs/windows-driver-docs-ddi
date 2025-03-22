@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_PASS_THROUGH structure"]
 ms.keywords: "*PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH structure pointer [Storage Devices], SCSI_PASS_THROUGH, SCSI_PASS_THROUGH structure [Storage Devices], _SCSI_PASS_THROUGH, ntddscsi/PSCSI_PASS_THROUGH, ntddscsi/SCSI_PASS_THROUGH, storage.scsi_pass_through, structs-scsibus_6d017ae1-d61d-49b8-bfaf-b6b15341732b.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSI_PASS_THROUGH
 ---
 
-# _SCSI_PASS_THROUGH structure
+# SCSI_PASS_THROUGH structure (ntddscsi.h)
+
+
 
 
 ## -description

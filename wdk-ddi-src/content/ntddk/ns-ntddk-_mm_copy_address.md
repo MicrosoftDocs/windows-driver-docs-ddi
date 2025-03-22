@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MM_COPY_ADDRESS structure"]
 ms.keywords: "*PMMCOPY_ADDRESS, MM_COPY_ADDRESS, MM_COPY_ADDRESS structure [Kernel-Mode Driver Architecture], PMM_COPY_ADDRESS, PMM_COPY_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _MM_COPY_ADDRESS, kernel.mm_copy_address, ntddk/MM_COPY_ADDRESS, ntddk/PMM_COPY_ADDRESS"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.1.
@@ -46,7 +47,9 @@ api_name:
  - MM_COPY_ADDRESS
 ---
 
-# _MM_COPY_ADDRESS structure
+# MM_COPY_ADDRESS structure (ntddk.h)
+
+
 
 
 ## -description

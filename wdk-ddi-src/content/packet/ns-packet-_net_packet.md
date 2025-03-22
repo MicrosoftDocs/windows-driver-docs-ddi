@@ -7,6 +7,7 @@ ms.date: 01/30/2019
 keywords: ["NET_PACKET structure"]
 ms.keywords: _NET_PACKET, NET_PACKET, *PNET_PACKET,
 req.header: packet.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_PACKET
 ---
 
-# _NET_PACKET structure
+# NET_PACKET structure (packet.h)
+
+
 
 
 ## -description

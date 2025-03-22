@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DMA_TRANSFER_INFO structure"]
 ms.keywords: "*PDMA_TRANSFER_INFO, DMA_TRANSFER_INFO, DMA_TRANSFER_INFO structure [Kernel-Mode Driver Architecture], PDMA_TRANSFER_INFO, PDMA_TRANSFER_INFO structure pointer [Kernel-Mode Driver Architecture], _DMA_TRANSFER_INFO, kernel.dma_transfer_info, wdm/DMA_TRANSFER_INFO, wdm/PDMA_TRANSFER_INFO"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DMA_TRANSFER_INFO
 ---
 
-# _DMA_TRANSFER_INFO structure
+# DMA_TRANSFER_INFO structure (wdm.h)
+
+
 
 
 ## -description

@@ -4,6 +4,7 @@ title: DXGKARG_QUERYADAPTERINFO (d3dkmddi.h)
 description: Learn more about the DXGKARG_QUERYADAPTERINFO structure.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - DXGKARG_QUERYADAPTERINFO
 ---
 
-# DXGKARG_QUERYADAPTERINFO structure
+# DXGKARG_QUERYADAPTERINFO structure (d3dkmddi.h)
+
+
 
 ## -description
 

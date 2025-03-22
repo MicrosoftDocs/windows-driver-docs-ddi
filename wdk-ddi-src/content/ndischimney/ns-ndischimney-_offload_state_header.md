@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["OFFLOAD_STATE_HEADER structure"]
 ms.keywords: "*POFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER, OFFLOAD_STATE_HEADER structure [Network Drivers Starting with Windows Vista], POFFLOAD_STATE_HEADER, POFFLOAD_STATE_HEADER structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_STATE_HEADER, ndischimney/OFFLOAD_STATE_HEADER, ndischimney/POFFLOAD_STATE_HEADER, netvista.offload_state_header, tcp_chim_struct_83829bba-2901-4b98-ba4a-4ca2fe20fc25.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - OFFLOAD_STATE_HEADER
 ---
 
-# _OFFLOAD_STATE_HEADER structure
+# OFFLOAD_STATE_HEADER structure (ndischimney.h)
+
+
 
 
 ## -description

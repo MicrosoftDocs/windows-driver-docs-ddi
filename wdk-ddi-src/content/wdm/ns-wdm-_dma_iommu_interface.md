@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["DMA_IOMMU_INTERFACE structure"]
 ms.keywords: _DMA_IOMMU_INTERFACE, *PDMA_IOMMU_INTERFACE, DMA_IOMMU_INTERFACE,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -38,6 +39,8 @@ api_name:
  - PDMA_IOMMU_INTERFACE
  - DMA_IOMMU_INTERFACE
 ---
+
+# DMA_IOMMU_INTERFACE structure (wdm.h)
 
 ## -description
 

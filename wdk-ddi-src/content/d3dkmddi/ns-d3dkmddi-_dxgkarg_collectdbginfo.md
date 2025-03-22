@@ -5,6 +5,7 @@ description: Learn more about the DXGKARG_COLLECTDBGINFO structure.
 ms.date: 04/01/2024
 keywords: ["DXGKARG_COLLECTDBGINFO structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - DXGKARG_COLLECTDBGINFO
 ---
 
-# DXGKARG_COLLECTDBGINFO structure
+# DXGKARG_COLLECTDBGINFO structure (d3dkmddi.h)
+
+
 
 ## -description
 

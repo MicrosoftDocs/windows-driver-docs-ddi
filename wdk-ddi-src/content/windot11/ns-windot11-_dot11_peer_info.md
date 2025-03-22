@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_PEER_INFO structure"]
 ms.keywords: "*PDOT11_PEER_INFO, DOT11_PEER_INFO, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, PDOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_INFO, netvista.dot11_peer_info, windot11/DOT11_PEER_INFO, windot11/PDOT11_PEER_INFO"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_PEER_INFO
 ---
 
-# _DOT11_PEER_INFO structure
+# DOT11_PEER_INFO structure (windot11.h)
+
+
 
 
 ## -description

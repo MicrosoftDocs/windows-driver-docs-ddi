@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_AGNSS_INJECTTIME structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], PGNSS_AGNSS_INJECTTIME, PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices], gnss.gnss_agnss_injecttime, gnssdriver/GNSS_AGNSS_INJECTTIME, gnssdriver/PGNSS_AGNSS_INJECTTIME"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_AGNSS_INJECTTIME
 ---
 
-# GNSS_AGNSS_INJECTTIME structure
+# GNSS_AGNSS_INJECTTIME structure (gnssdriver.h)
+
+
 
 
 ## -description

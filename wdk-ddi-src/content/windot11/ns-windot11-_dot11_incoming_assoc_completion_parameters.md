@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure"]
 ms.keywords: "*PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, netvista.dot11_incoming_assoc_completion_parameters, windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 ---
 
-# _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure
+# DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_UPDATEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDICB_UPDATEGPUVIRTUALADDRESS, D3DDDICB_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_UPDATEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_UPDATEGPUVIRTUALADDRESS, display.d3dddicb_updategpuvirtualaddress
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_UPDATEGPUVIRTUALADDRESS
 ---
 
-# _D3DDDICB_UPDATEGPUVIRTUALADDRESS structure
+# D3DDDICB_UPDATEGPUVIRTUALADDRESS structure (d3dumddi.h)
+
+
 
 
 ## -description

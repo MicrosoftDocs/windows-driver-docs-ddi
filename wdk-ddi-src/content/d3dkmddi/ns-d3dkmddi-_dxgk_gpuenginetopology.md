@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_GPUENGINETOPOLOGY structure"]
 ms.keywords: DXGK_GPUENGINETOPOLOGY, DXGK_GPUENGINETOPOLOGY structure [Display Devices], DmStructs_21e5ab51-877b-4b52-9762-cbaf3e82d2f0.xml, _DXGK_GPUENGINETOPOLOGY, d3dkmddi/DXGK_GPUENGINETOPOLOGY, display.dxgk_gpuenginetopology
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_GPUENGINETOPOLOGY
 ---
 
-# _DXGK_GPUENGINETOPOLOGY structure
+# DXGK_GPUENGINETOPOLOGY structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB structure"]
 ms.keywords: "*PBRB, BRB, BRB structure [Bluetooth Devices], PBRB, PBRB structure pointer [Bluetooth Devices], _BRB, bltooth.brb, bth_structs_7ccc2ad1-dd10-4ae9-be41-fa79229b32aa.xml, bthddi/BRB, bthddi/PBRB"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - BRB
 ---
 
-# _BRB structure
+# BRB structure (bthddi.h)
+
+
 
 
 ## -description

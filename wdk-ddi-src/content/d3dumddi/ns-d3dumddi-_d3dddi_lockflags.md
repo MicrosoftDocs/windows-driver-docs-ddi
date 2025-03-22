@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_LOCKFLAGS structure"]
 ms.keywords: D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS structure [Display Devices], D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, display.d3dddi_lockflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_LOCKFLAGS
 ---
 
-# _D3DDDI_LOCKFLAGS structure
+# D3DDDI_LOCKFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis/NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis/PNDIS_MINIPORT_INTERRUPT_CHARACTERISTICS, ndis_interrupts_structures_ref_87c0c090-a28d-4195-b73d-52e3a188a80b.xml, netvista.ndis_miniport_interrupt_characteristics"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS
 ---
 
-# _NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure
+# NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS structure (ndis.h)
+
+
 
 
 ## -description

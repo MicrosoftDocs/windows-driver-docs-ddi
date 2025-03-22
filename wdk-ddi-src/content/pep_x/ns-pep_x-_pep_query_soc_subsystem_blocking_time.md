@@ -8,6 +8,7 @@ ms.date: 07/30/2021
 keywords: ["PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, kernel.pep_query_soc_subsystem_blocking_time, pepfx/PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure (pep_x.h)
+# PEP_QUERY_SOC_SUBSYSTEM_BLOCKING_TIME structure (pep_x.h)
+
+
 
 ## -description
 

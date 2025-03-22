@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["STOR_POFX_COMPONENT structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], _STOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_POFX_COMPONENT
 ---
 
-# STOR_POFX_COMPONENT structure
+# STOR_POFX_COMPONENT structure (storport.h)
+
+
 
 ## -description
 

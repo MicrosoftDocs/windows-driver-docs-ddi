@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDICB_SYNCTOKEN structure"]
 ms.keywords: _D3DDDICB_SYNCTOKEN, D3DDDICB_SYNCTOKEN, D3DDDICB_ACQUIRERESOURCE
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDICB_SYNCTOKEN structure
+# D3DDDICB_SYNCTOKEN structure (d3dumddi.h)
+
+
 
 
 ## -description

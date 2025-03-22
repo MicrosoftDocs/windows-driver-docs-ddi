@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["IMAGE_INFO structure"]
 ms.keywords: "*PIPAGE_INFO, IMAGE_INFO, IMAGE_INFO structure [Kernel-Mode Driver Architecture], PIMAGE_INFO, PIMAGE_INFO structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO, kernel.image_info, ntddk/IMAGE_INFO, ntddk/PIMAGE_INFO"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PIMAGE_INFO
  - IMAGE_INFO
 ---
+
+# IMAGE_INFO structure (ntddk.h)
 
 ## -description
 

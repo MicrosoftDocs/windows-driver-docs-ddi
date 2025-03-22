@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["FIELD_INFO structure"]
 ms.keywords: "*PFIELD_INFO, FIELD_INFO, FIELD_INFO structure [Windows Debugging], PFIELD_INFO, PFIELD_INFO structure pointer [Windows Debugging], WdbgExts_Ref_4c79e59a-cd12-4ad9-affb-b7f0bd7689fb.xml, _FIELD_INFO, debugger.field_info, wdbgexts/FIELD_INFO, wdbgexts/PFIELD_INFO"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FIELD_INFO
 ---
 
-# _FIELD_INFO structure
+# FIELD_INFO structure (wdbgexts.h)
+
+
 
 
 ## -description

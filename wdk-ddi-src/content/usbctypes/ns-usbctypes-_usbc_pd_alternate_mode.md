@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_PD_ALTERNATE_MODE structure"]
 ms.keywords: _USBC_PD_ALTERNATE_MODE, USBC_PD_ALTERNATE_MODE, *PUSBC_PD_ALTERNATE_MODE,
 req.header: usbctypes.h
+req.construct-type: structure
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - USBC_PD_ALTERNATE_MODE
 ---
 
-# _USBC_PD_ALTERNATE_MODE structure
+# USBC_PD_ALTERNATE_MODE structure (usbctypes.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/23/2018
 keywords: ["NDIS_WWAN_LTE_ATTACH_STATUS structure"]
 ms.keywords: _NDIS_WWAN_LTE_ATTACH_STATUS, NDIS_WWAN_LTE_ATTACH_STATUS, *PNDIS_WWAN_LTE_ATTACH_STATUS,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_LTE_ATTACH_STATUS
 ---
 
-# _NDIS_WWAN_LTE_ATTACH_STATUS structure
+# NDIS_WWAN_LTE_ATTACH_STATUS structure (ndiswwan.h)
+
+
 
 
 ## -description

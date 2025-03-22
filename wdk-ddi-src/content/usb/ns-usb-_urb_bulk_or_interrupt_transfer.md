@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_BULK_OR_INTERRUPT_TRANSFER structure"]
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_BULK_OR_INTERRUPT_TRANSFER, _URB_BULK_OR_INTERRUPT_TRANSFER structure [Buses], buses._urb_bulk_or_interrupt_transfer, usb/_URB_BULK_OR_INTERRUPT_TRANSFER, usbstrct_3d3da976-5136-4648-850e-c0e3fe0999d8.xml
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_BULK_OR_INTERRUPT_TRANSFER
 ---
 
-# _URB_BULK_OR_INTERRUPT_TRANSFER structure
+# _URB_BULK_OR_INTERRUPT_TRANSFER structure (usb.h)
+
+
 
 
 ## -description

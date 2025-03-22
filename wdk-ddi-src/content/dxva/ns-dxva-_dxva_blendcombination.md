@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_BlendCombination structure"]
 ms.keywords: "*LPDXVA_BlendCombination, DXVA_BlendCombination, DXVA_BlendCombination structure [Display Devices], LPDXVA_BlendCombination, LPDXVA_BlendCombination structure pointer [Display Devices], _DXVA_BlendCombination, display.dxva_blendcombination, dxva/DXVA_BlendCombination, dxva/LPDXVA_BlendCombination, dxvaref_a19d0818-7872-4d4d-a528-c81114fda7c7.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_BlendCombination
 ---
 
-# _DXVA_BlendCombination structure
+# DXVA_BlendCombination structure (dxva.h)
+
+
 
 
 ## -description

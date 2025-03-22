@@ -6,6 +6,7 @@ ms.date: 10/02/2018
 keywords: ["Location structure"]
 ms.keywords: Location, ,
 req.header: dbgmodel.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - Location
 ---
 
-# Location structure
+# Location structure (dbgmodel.h)
+
+
 
 
 ## -description

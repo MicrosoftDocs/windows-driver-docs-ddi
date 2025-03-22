@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["NDIS_WWAN_SET_SAR_CONFIG structure"]
 ms.keywords: _NDIS_WWAN_SET_SAR_CONFIG, NDIS_WWAN_SET_SAR_CONFIG, *PNDIS_WWAN_SET_SAR_CONFIG,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_SET_SAR_CONFIG
 ---
 
-# _NDIS_WWAN_SET_SAR_CONFIG structure
+# NDIS_WWAN_SET_SAR_CONFIG structure (ndiswwan.h)
+
+
 
 
 ## -description

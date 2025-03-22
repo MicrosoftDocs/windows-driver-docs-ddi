@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_SETSTREAMSOURCEFREQ structure"]
 ms.keywords: D3DDDIARG_SETSTREAMSOURCEFREQ, D3DDDIARG_SETSTREAMSOURCEFREQ structure [Display Devices], UMDisplayDriver_param_Structs_2f63624d-43d6-4b38-8f22-050dac4a4965.xml, _D3DDDIARG_SETSTREAMSOURCEFREQ, d3dumddi/D3DDDIARG_SETSTREAMSOURCEFREQ, display.d3dddiarg_setstreamsourcefreq
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_SETSTREAMSOURCEFREQ
 ---
 
-# _D3DDDIARG_SETSTREAMSOURCEFREQ structure
+# D3DDDIARG_SETSTREAMSOURCEFREQ structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["TOKEN_USER structure"]
 ms.keywords: "*PTOKEN_USER, PTOKEN_USER, PTOKEN_USER structure pointer [Installable File System Drivers], TOKEN_USER, TOKEN_USER structure [Installable File System Drivers], _TOKEN_USER, ifsk.token_user, ntifs/PTOKEN_USER, ntifs/TOKEN_USER, securitystructures_0e952505-1e51-463e-ba92-c6995e6f107a.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TOKEN_USER
 ---
 
-# TOKEN_USER structure
+# TOKEN_USER structure (ntifs.h)
+
+
 
 ## -description
 

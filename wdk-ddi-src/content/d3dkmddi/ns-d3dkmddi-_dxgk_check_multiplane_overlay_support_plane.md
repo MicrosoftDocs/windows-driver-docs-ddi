@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure"]
 ms.keywords: DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure [Display Devices], _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, d3dkmddi/DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE, display.dxgk_check_multiplane_overlay_support_plane
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE
 ---
 
-# _DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure
+# DXGK_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE structure (d3dkmddi.h)
+
+
 
 
 ## -description

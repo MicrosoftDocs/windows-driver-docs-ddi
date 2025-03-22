@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_BREADCRUMBING_PARAM structure"]
 ms.keywords: "*PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnss.gnss_breadcrumbing_param, gnssdriver/GNSS_BREADCRUMBING_PARAM, gnssdriver/PGNSS_BREADCRUMBING_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_BREADCRUMBING_PARAM
  - GNSS_BREADCRUMBING_PARAM
 ---
+
+# GNSS_BREADCRUMBING_PARAM structure (gnssdriver.h)
 
 ## -description
 

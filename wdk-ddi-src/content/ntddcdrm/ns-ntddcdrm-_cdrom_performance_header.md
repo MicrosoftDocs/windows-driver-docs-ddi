@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_PERFORMANCE_HEADER structure"]
 ms.keywords: "*PCDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER structure [Storage Devices], PCDROM_PERFORMANCE_HEADER, PCDROM_PERFORMANCE_HEADER structure pointer [Storage Devices], _CDROM_PERFORMANCE_HEADER, ntddcdrm/CDROM_PERFORMANCE_HEADER, ntddcdrm/PCDROM_PERFORMANCE_HEADER, storage.cdrom_performance_header"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_PERFORMANCE_HEADER
 ---
 
-# _CDROM_PERFORMANCE_HEADER structure
+# CDROM_PERFORMANCE_HEADER structure (ntddcdrm.h)
+
+
 
 
 ## -description

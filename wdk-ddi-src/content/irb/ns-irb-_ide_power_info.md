@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_POWER_INFO structure"]
 ms.keywords: "*PIDE_POWER_INFO, IDE_POWER_INFO, IDE_POWER_INFO structure [Storage Devices], PIDE_POWER_INFO, PIDE_POWER_INFO structure pointer [Storage Devices], POWER_CHANGE_INFO, POWER_CHANGE_INFO structure [Storage Devices], _IDE_POWER_INFO, irb/IDE_POWER_INFO, irb/PIDE_POWER_INFO, storage.power_change_info, structs-ATA_b4b67f22-359b-4c12-ad21-7de1c39a8259.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_POWER_INFO
 ---
 
-# _IDE_POWER_INFO structure
+# IDE_POWER_INFO structure (irb.h)
+
+
 
 
 ## -description

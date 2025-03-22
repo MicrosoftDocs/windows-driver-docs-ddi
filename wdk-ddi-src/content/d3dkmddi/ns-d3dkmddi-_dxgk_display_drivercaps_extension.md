@@ -6,6 +6,7 @@ ms.date: 08/25/2021
 keywords: ["DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure"]
 ms.keywords: _DXGK_DISPLAY_DRIVERCAPS_EXTENSION, DXGK_DISPLAY_DRIVERCAPS_EXTENSION,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure
+# DXGK_DISPLAY_DRIVERCAPS_EXTENSION structure (d3dkmddi.h)
+
+
 
 ## -description
 

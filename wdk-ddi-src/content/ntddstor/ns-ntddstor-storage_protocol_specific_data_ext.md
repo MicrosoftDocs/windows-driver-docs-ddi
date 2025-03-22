@@ -7,6 +7,7 @@ ms.date: 02/21/2024
 keywords: ["STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure"]
 ms.keywords: STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, STORAGE_PROTOCOL_SPECIFIC_DATA_EXT, *PSTORAGE_PROTOCOL_SPECIFIC_DATA_EXT,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STORAGE_PROTOCOL_SPECIFIC_DATA_EXT
 ---
 
-# STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure
+# STORAGE_PROTOCOL_SPECIFIC_DATA_EXT structure (ntddstor.h)
+
+
 
 ## -description
 

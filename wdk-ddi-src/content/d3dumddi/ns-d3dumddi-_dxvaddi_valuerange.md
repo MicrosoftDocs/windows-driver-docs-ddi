@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_VALUERANGE structure"]
 ms.keywords: DXVA2_Structs_37c2cd52-30c3-4e99-918f-6a538547bdd2.xml, DXVADDI_VALUERANGE, DXVADDI_VALUERANGE structure [Display Devices], _DXVADDI_VALUERANGE, d3dumddi/DXVADDI_VALUERANGE, display.dxvaddi_valuerange
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_VALUERANGE
 ---
 
-# _DXVADDI_VALUERANGE structure
+# DXVADDI_VALUERANGE structure (d3dumddi.h)
+
+
 
 
 ## -description

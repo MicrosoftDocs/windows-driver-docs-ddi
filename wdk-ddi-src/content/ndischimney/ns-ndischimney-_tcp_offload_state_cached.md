@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["TCP_OFFLOAD_STATE_CACHED structure"]
 ms.keywords: "*PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CACHED, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, ndischimney/TCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TCP_OFFLOAD_STATE_CACHED
 ---
 
-# _TCP_OFFLOAD_STATE_CACHED structure
+# TCP_OFFLOAD_STATE_CACHED structure (ndischimney.h)
+
+
 
 
 ## -description

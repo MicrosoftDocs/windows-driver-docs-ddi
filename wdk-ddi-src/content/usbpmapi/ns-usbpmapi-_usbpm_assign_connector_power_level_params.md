@@ -7,6 +7,7 @@ keywords: ["USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS structure"]
 tech.root: usbref
 ms.keywords: _USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS, USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS, *PUSBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS
 ---
 
-# _USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS structure
+# USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS structure (usbpmapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSNODEPROPERTY_AUDIO_CHANNEL structure"]
 ms.keywords: "*PKSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL, KSNODEPROPERTY_AUDIO_CHANNEL structure [Audio Devices], PKSNODEPROPERTY_AUDIO_CHANNEL, PKSNODEPROPERTY_AUDIO_CHANNEL structure pointer [Audio Devices], aud-prop_a804d95b-c793-43c0-9579-af759c3c007f.xml, audio.ksnodeproperty_audio_channel, ksmedia/KSNODEPROPERTY_AUDIO_CHANNEL, ksmedia/PKSNODEPROPERTY_AUDIO_CHANNEL"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSNODEPROPERTY_AUDIO_CHANNEL
 ---
 
-# KSNODEPROPERTY_AUDIO_CHANNEL structure
+# KSNODEPROPERTY_AUDIO_CHANNEL structure (ksmedia.h)
+
+
 
 
 ## -description

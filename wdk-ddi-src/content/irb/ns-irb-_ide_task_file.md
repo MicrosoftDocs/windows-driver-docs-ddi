@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_TASK_FILE structure"]
 ms.keywords: "*PIDE_TASK_FILE, IDE_TASK_FILE, IDE_TASK_FILE structure [Storage Devices], PIDE_TASK_FILE, PIDE_TASK_FILE structure pointer [Storage Devices], _IDE_TASK_FILE, irb/IDE_TASK_FILE, irb/PIDE_TASK_FILE, storage.ide_task_file, structs-ATA_0d96e047-8840-46cd-9df1-606ca70edb9e.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_TASK_FILE
 ---
 
-# _IDE_TASK_FILE structure
+# IDE_TASK_FILE structure (irb.h)
+
+
 
 
 ## -description

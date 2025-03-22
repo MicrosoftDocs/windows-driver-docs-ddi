@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
 ms.keywords: D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_setcontextinprocessschedulingpriority
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY
 ---
 
-# _D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure
+# D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY structure (d3dkmthk.h)
+
+
 
 
 ## -description

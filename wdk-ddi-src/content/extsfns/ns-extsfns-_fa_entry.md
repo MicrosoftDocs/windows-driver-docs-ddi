@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["FA_ENTRY structure"]
 ms.keywords: "*PFA_ENTRY, FA_ENTRY, FA_ENTRY structure [Windows Debugging], _FA_ENTRY, debugger.fa_entry, extsfns/FA_ENTRY"
 req.header: extsfns.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FA_ENTRY
 ---
 
-# _FA_ENTRY structure
+# FA_ENTRY structure (extsfns.h)
+
+
 
 
 ## -description

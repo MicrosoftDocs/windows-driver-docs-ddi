@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_RESTORE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, wdm/PREG_RESTORE_KEY_INFORMATION, wdm/REG_RESTORE_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Windows Vista SP2 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - REG_RESTORE_KEY_INFORMATION
 ---
 
-# _REG_RESTORE_KEY_INFORMATION structure
+# REG_RESTORE_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

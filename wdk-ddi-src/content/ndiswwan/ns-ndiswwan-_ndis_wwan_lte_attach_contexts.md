@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["NDIS_WWAN_LTE_ATTACH_CONTEXTS structure"]
 ms.keywords: _NDIS_WWAN_LTE_ATTACH_CONTEXTS, NDIS_WWAN_LTE_ATTACH_CONTEXTS, *PNDIS_WWAN_LTE_ATTACH_CONTEXTS,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_LTE_ATTACH_CONTEXTS
 ---
 
-# _NDIS_WWAN_LTE_ATTACH_CONTEXTS structure
+# NDIS_WWAN_LTE_ATTACH_CONTEXTS structure (ndiswwan.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/11/2019
 keywords: ["WWAN_NITZ_INFO structure"]
 ms.keywords: _WWAN_NITZ_INFO, WWAN_NITZ_INFO, *PWWAN_NITZ_INFO,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_NITZ_INFO
 ---
 
-# _WWAN_NITZ_INFO structure
+# WWAN_NITZ_INFO structure (wwan.h)
+
+
 
 
 ## -description

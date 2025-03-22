@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSDS3D_BUFFER_CONE_ANGLES structure"]
 ms.keywords: "*PKSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES, KSDS3D_BUFFER_CONE_ANGLES structure [Audio Devices], PKSDS3D_BUFFER_CONE_ANGLES, PKSDS3D_BUFFER_CONE_ANGLES structure pointer [Audio Devices], aud-prop_6b484499-7859-4c81-828d-35c2dc0dc070.xml, audio.ksds3d_buffer_cone_angles, ksmedia/KSDS3D_BUFFER_CONE_ANGLES, ksmedia/PKSDS3D_BUFFER_CONE_ANGLES"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDS3D_BUFFER_CONE_ANGLES
 ---
 
-# KSDS3D_BUFFER_CONE_ANGLES structure
+# KSDS3D_BUFFER_CONE_ANGLES structure (ksmedia.h)
+
+
 
 
 ## -description

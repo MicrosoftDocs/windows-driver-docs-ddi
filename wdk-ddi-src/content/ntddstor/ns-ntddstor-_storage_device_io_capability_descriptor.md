@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR, storage.storage_device_io_capability_descriptor
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR
 ---
 
-# _STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure
+# STORAGE_DEVICE_IO_CAPABILITY_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

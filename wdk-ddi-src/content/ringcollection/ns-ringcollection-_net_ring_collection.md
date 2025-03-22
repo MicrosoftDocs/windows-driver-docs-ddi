@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["NET_RING_COLLECTION structure"]
 ms.keywords: _NET_RING_COLLECTION, NET_RING_COLLECTION, *PNET_RING_COLLECTION,
 req.header: ringcollection.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_RING_COLLECTION
 ---
 
-# _NET_RING_COLLECTION structure
+# NET_RING_COLLECTION structure (ringcollection.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetInitiatorNodeName_OUT structure"]
 ms.keywords: "*PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT, PSetInitiatorNodeName_OUT structure pointer [Storage Devices], SetInitiatorNodeName_OUT, SetInitiatorNodeName_OUT structure [Storage Devices], _SetInitiatorNodeName_OUT, iscsiop/PSetInitiatorNodeName_OUT, iscsiop/SetInitiatorNodeName_OUT, storage.setinitiatornodename_out, structs-iSCSI_35ce4900-1703-4562-abe0-155215893c5f.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetInitiatorNodeName_OUT
 ---
 
-# _SetInitiatorNodeName_OUT structure
+# SetInitiatorNodeName_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

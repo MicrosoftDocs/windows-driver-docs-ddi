@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_SEL_BUGCHECK_PROGRESS structure"]
 ms.keywords: WHEA_SEL_BUGCHECK_PROGRESS, WHEA_SEL_BUGCHECK_PROGRESS, *PWHEA_SEL_BUGCHECK_PROGRESS,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_SEL_BUGCHECK_PROGRESS
 ---
 
-# WHEA_SEL_BUGCHECK_PROGRESS structure
+# WHEA_SEL_BUGCHECK_PROGRESS structure (ntddk.h)
+
+
 
 
 ## -description

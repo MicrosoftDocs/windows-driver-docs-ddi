@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["LAMP_INTENSITY_WHITE structure"]
 ms.keywords: LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], lamp/LAMP_INTENSITY_WHITE, stream.lamp_intensity_white
 req.header: lamp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - LAMP_INTENSITY_WHITE
 ---
 
-# LAMP_INTENSITY_WHITE structure
+# LAMP_INTENSITY_WHITE structure (lamp.h)
+
+
 
 
 ## -description

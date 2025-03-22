@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_FLIPOVERLAY structure"]
 ms.keywords: D3DDDIARG_FLIPOVERLAY, D3DDDIARG_FLIPOVERLAY structure [Display Devices], UMDisplayDriver_param_Structs_078e5dd1-bbd8-4067-85a7-2474d18b1d40.xml, _D3DDDIARG_FLIPOVERLAY, d3dumddi/D3DDDIARG_FLIPOVERLAY, display.d3dddiarg_flipoverlay
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_FLIPOVERLAY
 ---
 
-# _D3DDDIARG_FLIPOVERLAY structure
+# D3DDDIARG_FLIPOVERLAY structure (d3dumddi.h)
+
+
 
 
 ## -description

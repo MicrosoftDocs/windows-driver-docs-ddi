@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["KSPROPERTY_CAMERACONTROL_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_S, ksmedia/PKSPROPERTY_CAMERACONTROL_S, stream.ksproperty_cameracontrol_s, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSPROPERTY_CAMERACONTROL_S
  - KSPROPERTY_CAMERACONTROL_S
 ---
+
+# KSPROPERTY_CAMERACONTROL_S structure (ksmedia.h)
 
 ## -description
 

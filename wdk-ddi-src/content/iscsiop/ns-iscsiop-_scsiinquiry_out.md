@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiInquiry_OUT structure"]
 ms.keywords: "*PScsiInquiry_OUT, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices], _ScsiInquiry_OUT, iscsiop/PScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, storage.scsiinquiry_out, structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ScsiInquiry_OUT
 ---
 
-# _ScsiInquiry_OUT structure (iscsiop.h)
+# ScsiInquiry_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

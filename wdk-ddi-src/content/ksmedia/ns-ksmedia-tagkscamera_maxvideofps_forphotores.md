@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure"]
 ms.keywords: "*PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES, KSCAMERA_MAXVIDEOFPS_FORPHOTORES structure [Streaming Media Devices], PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, PKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_MAXVIDEOFPS_FORPHOTORES, ksmedia/PKSCAMERA_MAXVIDEOFPS_FORPHOTORES, stream.kscamera_maxvideofps_forphotores, tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_MAXVIDEOFPS_FORPHOTORES
 ---
 
-# tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure
+# tagKSCAMERA_MAXVIDEOFPS_FORPHOTORES structure (ksmedia.h)
+
+
 
 
 ## -description

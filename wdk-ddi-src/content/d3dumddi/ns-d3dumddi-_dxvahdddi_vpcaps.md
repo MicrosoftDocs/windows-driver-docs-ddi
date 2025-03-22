@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_VPCAPS structure"]
 ms.keywords: DXVA2_Structs_d3780f70-71f7-4105-a79e-df3abda62417.xml, DXVAHDDDI_VPCAPS, DXVAHDDDI_VPCAPS structure [Display Devices], _DXVAHDDDI_VPCAPS, d3dumddi/DXVAHDDDI_VPCAPS, display.dxvahdddi_vpcaps
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_VPCAPS is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_VPCAPS
 ---
 
-# _DXVAHDDDI_VPCAPS structure
+# DXVAHDDDI_VPCAPS structure (d3dumddi.h)
+
+
 
 
 ## -description

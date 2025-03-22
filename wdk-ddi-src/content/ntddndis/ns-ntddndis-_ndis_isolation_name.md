@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_ISOLATION_NAME structure"]
 ms.keywords: "*PNDIS_ISOLATION_ID_NAME, *PNDIS_ROUTING_DOMAIN_NAME, NDIS_ISOLATION_ID_NAME, NDIS_ISOLATION_NAME, NDIS_ISOLATION_NAME structure [Network Drivers Starting with Windows Vista], NDIS_ROUTING_DOMAIN_NAME, _NDIS_ISOLATION_NAME, netvista.ndis_isolation_name, ntddndis/NDIS_ISOLATION_NAME"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.40 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDIS_ISOLATION_NAME
 ---
 
-# _NDIS_ISOLATION_NAME structure
+# NDIS_ISOLATION_NAME structure (ntddndis.h)
+
+
 
 
 ## -description

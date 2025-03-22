@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_GETMMIORANGECOUNT structure"]
 ms.keywords: _DXGKARG_GETMMIORANGECOUNT, DXGKARG_GETMMIORANGECOUNT, *PDXGKARG_GETMMIORANGECOUNT,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETMMIORANGECOUNT structure
+# DXGKARG_GETMMIORANGECOUNT structure (dispmprt.h)
+
+
 
 
 ## -description

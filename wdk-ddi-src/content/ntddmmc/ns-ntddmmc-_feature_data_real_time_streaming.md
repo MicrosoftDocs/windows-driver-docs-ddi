@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_REAL_TIME_STREAMING structure"]
 ms.keywords: "*PFEATURE_DATA_REAL_TIME_STREAMING, FEATURE_DATA_REAL_TIME_STREAMING, FEATURE_DATA_REAL_TIME_STREAMING structure [Storage Devices], PFEATURE_DATA_REAL_TIME_STREAMING, PFEATURE_DATA_REAL_TIME_STREAMING structure pointer [Storage Devices], _FEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/FEATURE_DATA_REAL_TIME_STREAMING, ntddmmc/PFEATURE_DATA_REAL_TIME_STREAMING, storage.feature_data_real_time_streaming, structs-CD-ROM_2bd0a42c-a5b8-4a5b-958e-56e1a47a6499.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_REAL_TIME_STREAMING
 ---
 
-# _FEATURE_DATA_REAL_TIME_STREAMING structure
+# FEATURE_DATA_REAL_TIME_STREAMING structure (ntddmmc.h)
+
+
 
 
 ## -description

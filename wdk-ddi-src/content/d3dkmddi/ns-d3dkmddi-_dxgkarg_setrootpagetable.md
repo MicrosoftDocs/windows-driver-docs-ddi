@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_SETROOTPAGETABLE structure"]
 ms.keywords: DXGKARG_SETROOTPAGETABLE, DXGKARG_SETROOTPAGETABLE structure [Display Devices], _DXGKARG_SETROOTPAGETABLE, d3dkmddi/DXGKARG_SETROOTPAGETABLE, display.dxgkarg_setrootpagetable
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_SETROOTPAGETABLE
 ---
 
-# _DXGKARG_SETROOTPAGETABLE structure
+# DXGKARG_SETROOTPAGETABLE structure (d3dkmddi.h)
+
+
 
 
 ## -description

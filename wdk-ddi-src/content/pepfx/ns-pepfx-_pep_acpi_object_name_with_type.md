@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_ACPI_OBJECT_NAME_WITH_TYPE structure"]
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE, PEP_ACPI_OBJECT_NAME_WITH_TYPE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_OBJECT_NAME_WITH_TYPE, PPEP_ACPI_OBJECT_NAME_WITH_TYPE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME_WITH_TYPE, kernel.pep_acpi_object_name_with_type, pepfx/PEP_ACPI_OBJECT_NAME_WITH_TYPE, pepfx/PPEP_ACPI_OBJECT_NAME_WITH_TYPE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_ACPI_OBJECT_NAME_WITH_TYPE
 ---
 
-# _PEP_ACPI_OBJECT_NAME_WITH_TYPE structure (pepfx.h)
+# PEP_ACPI_OBJECT_NAME_WITH_TYPE structure (pepfx.h)
+
+
 
 
 ## -description

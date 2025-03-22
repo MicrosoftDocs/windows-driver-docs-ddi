@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PD_COUNTER_VALUE structure"]
 ms.keywords: "*PNDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE, NDIS_PD_COUNTER_VALUE union [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_VALUE, PNDIS_PD_COUNTER_VALUE union pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_VALUE, ndis/NDIS_PD_COUNTER_VALUE, ndis/PNDIS_PD_COUNTER_VALUE, netvista.ndis_pd_counter_value"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PD_COUNTER_VALUE
 ---
 
-# _NDIS_PD_COUNTER_VALUE structure
+# NDIS_PD_COUNTER_VALUE structure (ndis.h)
+
+
 
 
 ## -description

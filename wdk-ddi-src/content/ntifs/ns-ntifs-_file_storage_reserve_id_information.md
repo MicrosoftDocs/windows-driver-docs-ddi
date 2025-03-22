@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FILE_STORAGE_RESERVE_ID_INFORMATION structure"]
 ms.keywords: _FILE_STORAGE_RESERVE_ID_INFORMATION, FILE_STORAGE_RESERVE_ID_INFORMATION, *PFILE_STORAGE_RESERVE_ID_INFORMATION,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FILE_STORAGE_RESERVE_ID_INFORMATION structure
+# FILE_STORAGE_RESERVE_ID_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

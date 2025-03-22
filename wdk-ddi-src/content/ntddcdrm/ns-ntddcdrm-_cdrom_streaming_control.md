@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_STREAMING_CONTROL structure"]
 ms.keywords: "*PCDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL, CDROM_STREAMING_CONTROL structure [Storage Devices], PCDROM_STREAMING_CONTROL, PCDROM_STREAMING_CONTROL structure pointer [Storage Devices], _CDROM_STREAMING_CONTROL, ntddcdrm/CDROM_STREAMING_CONTROL, ntddcdrm/PCDROM_STREAMING_CONTROL, storage.cdrom_streaming_control"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_STREAMING_CONTROL
 ---
 
-# _CDROM_STREAMING_CONTROL structure
+# CDROM_STREAMING_CONTROL structure (ntddcdrm.h)
+
+
 
 
 ## -description

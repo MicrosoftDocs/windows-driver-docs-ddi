@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_PRESENTMULTIPLANEOVERLAY structure"]
 ms.keywords: D3DDDICB_PRESENTMULTIPLANEOVERLAY, D3DDDICB_PRESENTMULTIPLANEOVERLAY structure [Display Devices], d3dumddi/D3DDDICB_PRESENTMULTIPLANEOVERLAY, display.d3dddicb_presentmultiplaneoverlay
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDICB_PRESENTMULTIPLANEOVERLAY
 ---
 
-# D3DDDICB_PRESENTMULTIPLANEOVERLAY structure
+# D3DDDICB_PRESENTMULTIPLANEOVERLAY structure (d3dumddi.h)
+
+
 
 
 ## -description

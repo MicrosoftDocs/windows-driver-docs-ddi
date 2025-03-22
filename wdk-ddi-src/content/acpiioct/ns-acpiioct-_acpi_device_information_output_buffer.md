@@ -8,6 +8,7 @@ ms.date: 08/26/2020
 keywords: ["ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure"]
 ms.keywords: "*PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure [ACPI Devices], PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure pointer [ACPI Devices], _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpi.acpi_device_information_output_buffer, acpi.acpi_get_device_information_output_buffer, acpiioct/ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER, acpiioct/PACPI_DEVICE_INFORMATION_OUTPUT_BUFFER"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER
 ---
 
-# _ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure
+# ACPI_DEVICE_INFORMATION_OUTPUT_BUFFER structure (acpiioct.h)
+
+
 
 
 ## -description

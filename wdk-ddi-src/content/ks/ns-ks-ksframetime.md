@@ -8,6 +8,7 @@ ms.date: 06/25/2020
 keywords: ["KSFRAMETIME structure"]
 ms.keywords: "*PKSFRAMETIME, KSFRAMETIME, KSFRAMETIME structure [Streaming Media Devices], PKSFRAMETIME, PKSFRAMETIME structure pointer [Streaming Media Devices], ks-struct_3abc9b81-d7e7-455c-a577-2efa7c986cc5.xml, ks/KSFRAMETIME, ks/PKSFRAMETIME, stream.ksframetime"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSFRAMETIME
 ---
 
-# KSFRAMETIME structure
+# KSFRAMETIME structure (ks.h)
+
+
 
 
 ## -description

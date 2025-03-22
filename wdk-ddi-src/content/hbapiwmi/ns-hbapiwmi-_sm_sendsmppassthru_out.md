@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SendSMPPassThru_OUT structure"]
 ms.keywords: "*PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], _SM_SendSMPPassThru_OUT, hbapiwmi/PSM_SendSMPPassThru_OUT, hbapiwmi/SM_SendSMPPassThru_OUT, storage.sm_sendsmppassthru_out, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SendSMPPassThru_OUT
 ---
 
-# _SM_SendSMPPassThru_OUT structure
+# SM_SendSMPPassThru_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

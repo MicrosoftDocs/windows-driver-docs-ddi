@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_ProcAmpControlQueryRange structure"]
 ms.keywords: "*LPDXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange, DXVA_ProcAmpControlQueryRange structure [Display Devices], LPDXVA_ProcAmpControlQueryRange, LPDXVA_ProcAmpControlQueryRange structure pointer [Display Devices], _DXVA_ProcAmpControlQueryRange, display.dxva_procampcontrolqueryrange, dxva/DXVA_ProcAmpControlQueryRange, dxva/LPDXVA_ProcAmpControlQueryRange, dxvaref_5122c77d-0d7a-42a4-be26-f03993fb52db.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: DirectX 9.0 and later versions only.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_ProcAmpControlQueryRange
 ---
 
-# _DXVA_ProcAmpControlQueryRange structure
+# DXVA_ProcAmpControlQueryRange structure (dxva.h)
+
+
 
 
 ## -description

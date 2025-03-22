@@ -7,6 +7,7 @@ keywords: ["USBPM_HUB_CONNECTOR_HANDLES structure"]
 tech.root: usbref
 ms.keywords: _USBPM_HUB_CONNECTOR_HANDLES, USBPM_HUB_CONNECTOR_HANDLES, *PUSBPM_HUB_CONNECTOR_HANDLES,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_HUB_CONNECTOR_HANDLES
 ---
 
-# _USBPM_HUB_CONNECTOR_HANDLES structure
+# USBPM_HUB_CONNECTOR_HANDLES structure (usbpmapi.h)
+
+
 
 
 ## -description

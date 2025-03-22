@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_MULTI_READ structure"]
 ms.keywords: "*PFEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ, FEATURE_DATA_MULTI_READ structure [Storage Devices], PFEATURE_DATA_MULTI_READ, PFEATURE_DATA_MULTI_READ structure pointer [Storage Devices], _FEATURE_DATA_MULTI_READ, ntddmmc/FEATURE_DATA_MULTI_READ, ntddmmc/PFEATURE_DATA_MULTI_READ, storage.feature_data_multi_read, structs-CD-ROM_687fe1cb-1667-4650-97c5-d6e4af7df2af.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_MULTI_READ
 ---
 
-# _FEATURE_DATA_MULTI_READ structure
+# FEATURE_DATA_MULTI_READ structure (ntddmmc.h)
+
+
 
 
 ## -description

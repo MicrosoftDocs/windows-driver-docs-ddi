@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, netvista.ndis_sriov_set_vf_power_state_parameters, ntddndis/NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS, ntddndis/PNDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS
 ---
 
-# _NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure
+# NDIS_SRIOV_SET_VF_POWER_STATE_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

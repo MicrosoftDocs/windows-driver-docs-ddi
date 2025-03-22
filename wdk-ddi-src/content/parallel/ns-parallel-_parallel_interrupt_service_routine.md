@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["PARALLEL_INTERRUPT_SERVICE_ROUTINE structure"]
 ms.keywords: "*PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], _PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine"
 req.header: parallel.h
+req.construct-type: structure
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARALLEL_INTERRUPT_SERVICE_ROUTINE
 ---
 
-# _PARALLEL_INTERRUPT_SERVICE_ROUTINE structure
+# PARALLEL_INTERRUPT_SERVICE_ROUTINE structure (parallel.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE structure"]
 ms.keywords: _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE, DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE structure
+# DXGK_SCHEDULING_LOG_CONTEXT_STATE_CHANGE structure (d3dkmddi.h)
+
+
 
 
 ## -description

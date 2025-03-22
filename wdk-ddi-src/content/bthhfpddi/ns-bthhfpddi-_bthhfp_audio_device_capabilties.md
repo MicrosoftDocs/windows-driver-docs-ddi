@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["BTHHFP_AUDIO_DEVICE_CAPABILTIES structure"]
 ms.keywords: "*PBTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES structure [Audio Devices], _BTHHFP_AUDIO_DEVICE_CAPABILTIES, audio.bthhfp_audio_device_capabilties, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES"
 req.header: bthhfpddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BTHHFP_AUDIO_DEVICE_CAPABILTIES
 ---
 
-# _BTHHFP_AUDIO_DEVICE_CAPABILTIES structure
+# BTHHFP_AUDIO_DEVICE_CAPABILTIES structure (bthhfpddi.h)
+
+
 
 
 ## -description

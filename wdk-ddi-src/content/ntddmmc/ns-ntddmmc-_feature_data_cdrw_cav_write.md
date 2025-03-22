@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_CDRW_CAV_WRITE structure"]
 ms.keywords: "*PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], _FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_CDRW_CAV_WRITE
 ---
 
-# _FEATURE_DATA_CDRW_CAV_WRITE structure
+# FEATURE_DATA_CDRW_CAV_WRITE structure (ntddmmc.h)
+
+
 
 
 ## -description

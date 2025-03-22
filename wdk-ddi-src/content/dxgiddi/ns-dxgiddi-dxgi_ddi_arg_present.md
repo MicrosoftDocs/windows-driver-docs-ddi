@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_PRESENT structure"]
 ms.keywords: DXGI_DDI_ARG_PRESENT, DXGI_DDI_ARG_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5ad1821d-dfdb-4361-84dc-48a4a283d66a.xml, display.dxgi_ddi_arg_present, dxgiddi/DXGI_DDI_ARG_PRESENT
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_ARG_PRESENT
 ---
 
-# DXGI_DDI_ARG_PRESENT structure
+# DXGI_DDI_ARG_PRESENT structure (dxgiddi.h)
+
+
 
 
 ## -description

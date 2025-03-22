@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_BLT structure"]
 ms.keywords: D3DDDIARG_BLT, D3DDDIARG_BLT structure [Display Devices], UMDisplayDriver_param_Structs_1c7d23e1-c05e-42b6-802e-4a69a80006c8.xml, _D3DDDIARG_BLT, d3dumddi/D3DDDIARG_BLT, display.d3dddiarg_blt
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_BLT
 ---
 
-# _D3DDDIARG_BLT structure
+# D3DDDIARG_BLT structure (d3dumddi.h)
+
+
 
 
 ## -description

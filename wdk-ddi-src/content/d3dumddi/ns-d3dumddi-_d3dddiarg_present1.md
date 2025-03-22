@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_PRESENT1 structure"]
 ms.keywords: D3DDDIARG_PRESENT1, D3DDDIARG_PRESENT1 structure [Display Devices], _D3DDDIARG_PRESENT1, d3dumddi/D3DDDIARG_PRESENT1, display.d3dddiarg_present1
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_PRESENT1
 ---
 
-# _D3DDDIARG_PRESENT1 structure
+# D3DDDIARG_PRESENT1 structure (d3dumddi.h)
+
+
 
 
 ## -description

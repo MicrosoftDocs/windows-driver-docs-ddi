@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_DeinterlaceBlt structure"]
 ms.keywords: DXVA_DeinterlaceBlt, DXVA_DeinterlaceBlt structure [Display Devices], _DXVA_DeinterlaceBlt, display.dxva_deinterlaceblt, dxva/DXVA_DeinterlaceBlt, dxvaref_69a3b788-495c-42a0-acae-8d8242d963c6.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXVA_DeinterlaceBlt
 ---
 
-# _DXVA_DeinterlaceBlt structure
+# DXVA_DeinterlaceBlt structure (dxva.h)
+
+
 
 
 ## -description

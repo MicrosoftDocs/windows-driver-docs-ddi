@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["HUB_DEVICE_CONFIG_INFO_V1 structure"]
 ms.keywords: "*PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], _HUB_DEVICE_CONFIG_INFO_V1, buses.hub_device_config_info, usbioctl/HUB_DEVICE_CONFIG_INFO, usbioctl/PHUB_DEVICE_CONFIG_INFO"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows XP and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - HUB_DEVICE_CONFIG_INFO
 ---
 
-# _HUB_DEVICE_CONFIG_INFO_V1 structure
+# HUB_DEVICE_CONFIG_INFO structure (usbioctl.h)
+
+
 
 
 ## -description

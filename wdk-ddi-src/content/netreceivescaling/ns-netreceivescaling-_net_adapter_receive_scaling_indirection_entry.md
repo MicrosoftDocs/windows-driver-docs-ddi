@@ -7,6 +7,7 @@ ms.date: 03/07/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY structure"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY, NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY,
 req.header: netreceivescaling.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY
 ---
 
-# _NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY structure
+# NET_ADAPTER_RECEIVE_SCALING_INDIRECTION_ENTRY structure (netreceivescaling.h)
+
+
 
 
 ## -description

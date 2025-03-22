@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_POWER_RUNTIME_STATE structure"]
 ms.keywords: DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], _DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_POWER_RUNTIME_STATE
 ---
 
-# _DXGK_POWER_RUNTIME_STATE structure
+# DXGK_POWER_RUNTIME_STATE structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_REVISION structure"]
 ms.keywords: "*PWHEA_REVISION, PWHEA_REVISION, PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], _WHEA_REVISION, ntddk/PWHEA_REVISION, ntddk/WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_REVISION
 ---
 
-# _WHEA_REVISION structure
+# WHEA_REVISION structure (ntddk.h)
+
+
 
 
 ## -description

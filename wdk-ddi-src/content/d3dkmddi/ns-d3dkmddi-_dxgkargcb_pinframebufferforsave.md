@@ -6,6 +6,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_PINFRAMEBUFFERFORSAVE structure"]
 ms.keywords: _DXGKARGCB_PINFRAMEBUFFERFORSAVE, DXGKARGCB_PINFRAMEBUFFERFORSAVE, *INOUT_PDXGKARGCB_PINFRAMEBUFFERFORSAVE
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -36,7 +37,9 @@ api_name:
  - DXGKARGCB_PINFRAMEBUFFERFORSAVE
 ---
 
-# DXGKARGCB_PINFRAMEBUFFERFORSAVE structure
+# DXGKARGCB_PINFRAMEBUFFERFORSAVE structure (d3dkmddi.h)
+
+
 
 ## -description
 

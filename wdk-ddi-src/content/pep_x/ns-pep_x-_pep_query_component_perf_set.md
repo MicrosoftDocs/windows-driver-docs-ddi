@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["PEP_QUERY_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_QUERY_COMPONENT_PERF_SET
 ---
 
-# _PEP_QUERY_COMPONENT_PERF_SET structure (pep_x.h)
+# PEP_QUERY_COMPONENT_PERF_SET structure (pep_x.h)
+
+
 
 ## -description
 

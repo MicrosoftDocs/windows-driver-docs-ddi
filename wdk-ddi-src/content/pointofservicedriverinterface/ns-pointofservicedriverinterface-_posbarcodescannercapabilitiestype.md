@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosBarcodeScannerCapabilitiesType structure"]
 ms.keywords: PosBarcodeScannerCapabilitiesType, PosBarcodeScannerCapabilitiesType structure, _PosBarcodeScannerCapabilitiesType, pointofservicedriverinterface/PosBarcodeScannerCapabilitiesType, pos.posbarcodescannercapabilitiestype
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosBarcodeScannerCapabilitiesType
 ---
 
-# _PosBarcodeScannerCapabilitiesType structure
+# PosBarcodeScannerCapabilitiesType structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

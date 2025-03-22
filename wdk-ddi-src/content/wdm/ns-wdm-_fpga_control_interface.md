@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["FPGA_CONTROL_INTERFACE structure"]
 ms.keywords: _FPGA_CONTROL_INTERFACE, FPGA_CONTROL_INTERFACE, *PFPGA_CONTROL_INTERFACE,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - FPGA_CONTROL_INTERFACE
 ---
 
-# _FPGA_CONTROL_INTERFACE structure
+# FPGA_CONTROL_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

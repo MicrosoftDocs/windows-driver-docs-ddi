@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_OVERLAYCOLORCONTROLS structure"]
 ms.keywords: D3DDDI_OVERLAYCOLORCONTROLS, D3DDDI_OVERLAYCOLORCONTROLS structure [Display Devices], D3D_other_Structs_276dd56c-35ba-4ee4-97d7-adb8dfd59c7f.xml, _D3DDDI_OVERLAYCOLORCONTROLS, d3dumddi/D3DDDI_OVERLAYCOLORCONTROLS, display.d3dddi_overlaycolorcontrols
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_OVERLAYCOLORCONTROLS
 ---
 
-# _D3DDDI_OVERLAYCOLORCONTROLS structure
+# D3DDDI_OVERLAYCOLORCONTROLS structure (d3dumddi.h)
+
+
 
 
 ## -description

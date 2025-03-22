@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_1DDI_DEVICEFUNCS structure"]
 ms.keywords: D3D10_1DDI_DEVICEFUNCS, D3D10_1DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_5790b9b0-0f52-4018-bdf7-edd33f423364.xml, d3d10umddi/D3D10_1DDI_DEVICEFUNCS, display.d3d10_1ddi_devicefuncs
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D10_1DDI_DEVICEFUNCS is supported on Windows Vista with Service Pack 1 (SP1) and later versions and Windows Server 2008 and later versions.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_1DDI_DEVICEFUNCS
 ---
 
-# D3D10_1DDI_DEVICEFUNCS structure
+# D3D10_1DDI_DEVICEFUNCS structure (d3d10umddi.h)
+
+
 
 
 ## -description

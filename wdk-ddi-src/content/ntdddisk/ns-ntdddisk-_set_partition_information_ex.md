@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SET_PARTITION_INFORMATION_EX structure"]
 ms.keywords: "*PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX structure [Storage Devices], _SET_PARTITION_INFORMATION_EX, ntdddisk/PSET_PARTITION_INFORMATION_EX, ntdddisk/SET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SET_PARTITION_INFORMATION_EX
 ---
 
-# _SET_PARTITION_INFORMATION_EX structure
+# SET_PARTITION_INFORMATION_EX structure (ntdddisk.h)
+
+
 
 
 ## -description

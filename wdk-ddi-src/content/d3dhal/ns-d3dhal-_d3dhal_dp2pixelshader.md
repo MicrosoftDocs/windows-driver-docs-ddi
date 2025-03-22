@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2PIXELSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER, D3DHAL_DP2PIXELSHADER structure [Display Devices], LPD3DHAL_DP2PIXELSHADER, LPD3DHAL_DP2PIXELSHADER structure pointer [Display Devices], _D3DHAL_DP2PIXELSHADER, d3dhal/D3DHAL_DP2PIXELSHADER, d3dhal/LPD3DHAL_DP2PIXELSHADER, d3dstrct_f9a920b0-9018-4b87-ab28-d0b50753195b.xml, display.d3dhal_dp2pixelshader"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2PIXELSHADER
 ---
 
-# _D3DHAL_DP2PIXELSHADER structure
+# D3DHAL_DP2PIXELSHADER structure (d3dhal.h)
+
+
 
 
 ## -description

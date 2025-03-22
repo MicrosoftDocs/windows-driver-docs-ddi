@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["EFI_GET_NEXT_VARIABLE_NAME_OUT structure"]
 ms.keywords: _EFI_GET_NEXT_VARIABLE_NAME_OUT, EFI_GET_NEXT_VARIABLE_NAME_OUT, *PEFI_GET_NEXT_VARIABLE_NAME_OUT,
 req.header: treevariableservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - EFI_GET_NEXT_VARIABLE_NAME_OUT
 ---
 
-# _EFI_GET_NEXT_VARIABLE_NAME_OUT structure
+# EFI_GET_NEXT_VARIABLE_NAME_OUT structure (treevariableservice.h)
+
+
 
 
 ## -description

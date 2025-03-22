@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2SETCLIPPLANE structure"]
 ms.keywords: "*LPD3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE, D3DHAL_DP2SETCLIPPLANE structure [Display Devices], LPD3DHAL_DP2SETCLIPPLANE, LPD3DHAL_DP2SETCLIPPLANE structure pointer [Display Devices], _D3DHAL_DP2SETCLIPPLANE, d3dhal/D3DHAL_DP2SETCLIPPLANE, d3dhal/LPD3DHAL_DP2SETCLIPPLANE, d3dstrct_91eb9840-4f5f-42c2-84e7-d2461d484bbf.xml, display.d3dhal_dp2setclipplane"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2SETCLIPPLANE
 ---
 
-# _D3DHAL_DP2SETCLIPPLANE structure
+# D3DHAL_DP2SETCLIPPLANE structure (d3dhal.h)
+
+
 
 
 ## -description

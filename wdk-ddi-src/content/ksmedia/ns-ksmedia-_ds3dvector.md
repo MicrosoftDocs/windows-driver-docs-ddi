@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["DS3DVECTOR structure"]
 ms.keywords: "*PDS3DVECTOR, DS3DVECTOR, DS3DVECTOR structure [Audio Devices], PDS3DVECTOR, PDS3DVECTOR structure pointer [Audio Devices], _DS3DVECTOR, aud-prop_3e17b5ec-c2fc-4e6c-bff1-27be36e376c9.xml, audio.ds3dvector, ksmedia/DS3DVECTOR, ksmedia/PDS3DVECTOR"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DS3DVECTOR
 ---
 
-# _DS3DVECTOR structure
+# DS3DVECTOR structure (ksmedia.h)
+
+
 
 
 ## -description

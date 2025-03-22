@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_EventBuffer structure"]
 ms.keywords: "*PMSFC_EventBuffer, MSFC_EventBuffer, MSFC_EventBuffer structure [Storage Devices], PMSFC_EventBuffer, PMSFC_EventBuffer structure pointer [Storage Devices], _MSFC_EventBuffer, hbapiwmi/MSFC_EventBuffer, hbapiwmi/PMSFC_EventBuffer, storage.msfc_eventbuffer, structs-Fibre_d89430e7-c05b-4314-946e-fd8e70d938ac.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_EventBuffer
 ---
 
-# _MSFC_EventBuffer structure
+# MSFC_EventBuffer structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_MEMORY_POLICY structure"]
 ms.keywords: WHEAP_PFA_MEMORY_POLICY, WHEAP_PFA_MEMORY_POLICY, *PWHEAP_PFA_MEMORY_POLICY,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_PFA_MEMORY_POLICY
 ---
 
-# WHEAP_PFA_MEMORY_POLICY structure
+# WHEAP_PFA_MEMORY_POLICY structure (ntddk.h)
+
+
 
 
 ## -description

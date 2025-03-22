@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSSTREAM_METADATA_INFO structure"]
 ms.keywords: "*PKSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO, KSSTREAM_METADATA_INFO structure [Streaming Media Devices], PKSSTREAM_METADATA_INFO, PKSSTREAM_METADATA_INFO structure pointer [Streaming Media Devices], ks/KSSTREAM_METADATA_INFO, ks/PKSSTREAM_METADATA_INFO, stream.ksstream_metadata_info"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSSTREAM_METADATA_INFO
 ---
 
-# KSSTREAM_METADATA_INFO structure
+# KSSTREAM_METADATA_INFO structure (ks.h)
+
+
 
 
 ## -description

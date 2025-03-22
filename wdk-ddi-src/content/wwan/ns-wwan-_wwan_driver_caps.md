@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_DRIVER_CAPS structure"]
 ms.keywords: "*PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS, PWWAN_DRIVER_CAPS structure pointer [Network Drivers Starting with Windows Vista], WWAN_DRIVER_CAPS, WWAN_DRIVER_CAPS structure [Network Drivers Starting with Windows Vista], WwanRef_6770f91c-0fe7-49a9-97cb-6af43e5b5727.xml, _WWAN_DRIVER_CAPS, netvista.wwan_driver_caps, wwan/PWWAN_DRIVER_CAPS, wwan/WWAN_DRIVER_CAPS"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DRIVER_CAPS
 ---
 
-# _WWAN_DRIVER_CAPS structure
+# WWAN_DRIVER_CAPS structure (wwan.h)
+
+
 
 
 ## -description

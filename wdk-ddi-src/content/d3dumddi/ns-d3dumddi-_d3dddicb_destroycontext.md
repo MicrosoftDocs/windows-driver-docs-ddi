@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_DESTROYCONTEXT structure"]
 ms.keywords: D3DDDICB_DESTROYCONTEXT, D3DDDICB_DESTROYCONTEXT structure [Display Devices], D3D_param_Structs_40e3c0f9-b30b-4fab-8b4a-a1809f03d0ba.xml, _D3DDDICB_DESTROYCONTEXT, d3dumddi/D3DDDICB_DESTROYCONTEXT, display.d3dddicb_destroycontext
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_DESTROYCONTEXT
 ---
 
-# _D3DDDICB_DESTROYCONTEXT structure
+# D3DDDICB_DESTROYCONTEXT structure (d3dumddi.h)
+
+
 
 
 ## -description

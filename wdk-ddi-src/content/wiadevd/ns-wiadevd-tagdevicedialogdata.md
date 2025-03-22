@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["tagDEVICEDIALOGDATA structure"]
 ms.keywords: "*LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA, DEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, PDEVICEDIALOGDATA structure pointer [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, image.devicedialogdata, tagDEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA"
 req.header: wiadevd.h
+req.construct-type: structure
 req.include-header: Wiadevd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEVICEDIALOGDATA
 ---
 
-# tagDEVICEDIALOGDATA structure
+# tagDEVICEDIALOGDATA structure (wiadevd.h)
+
+
 
 
 ## -description

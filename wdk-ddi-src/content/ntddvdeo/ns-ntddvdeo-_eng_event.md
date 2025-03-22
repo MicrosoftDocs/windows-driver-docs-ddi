@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["ENG_EVENT structure"]
 ms.keywords: "*PENG_EVENT, *PEVENT, ENG_EVENT, ENG_EVENT structure [Display Devices], PENG_EVENT, PENG_EVENT structure pointer [Display Devices], Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, _ENG_EVENT, display.eng_event, ntddvdeo/ENG_EVENT, ntddvdeo/PENG_EVENT"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ENG_EVENT
 ---
 
-# _ENG_EVENT structure
+# ENG_EVENT structure (ntddvdeo.h)
+
+
 
 
 ## -description

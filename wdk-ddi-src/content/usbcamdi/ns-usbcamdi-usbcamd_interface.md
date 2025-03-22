@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["USBCAMD_INTERFACE structure"]
 ms.keywords: "*PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE, PUSBCAMD_INTERFACE structure pointer [Streaming Media Devices], USBCAMD_INTERFACE, USBCAMD_INTERFACE structure [Streaming Media Devices], stream.usbcamd_interface, usbcamdi/PUSBCAMD_INTERFACE, usbcamdi/USBCAMD_INTERFACE, usbcmdpr_113d60d6-c353-468a-9c3d-801c76caf7be.xml"
 req.header: usbcamdi.h
+req.construct-type: structure
 req.include-header: Usbcamdi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - USBCAMD_INTERFACE
 ---
 
-# USBCAMD_INTERFACE structure
+# USBCAMD_INTERFACE structure (usbcamdi.h)
+
+
 
 
 ## -description

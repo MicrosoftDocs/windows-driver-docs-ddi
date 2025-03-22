@@ -7,6 +7,7 @@ ms.date: 06/25/2018
 keywords: ["NDIS_WWAN_SET_MPDP_STATE structure"]
 ms.keywords: _NDIS_WWAN_SET_MPDP_STATE, NDIS_WWAN_SET_MPDP_STATE, *PNDIS_WWAN_SET_MPDP_STATE,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_SET_MPDP_STATE
 ---
 
-# _NDIS_WWAN_SET_MPDP_STATE structure
+# NDIS_WWAN_SET_MPDP_STATE structure (ndiswwan.h)
+
+
 
 
 ## -description

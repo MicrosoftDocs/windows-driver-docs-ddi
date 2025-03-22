@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSINTERVAL structure"]
 ms.keywords: "*PKSINTERVAL, KSINTERVAL, KSINTERVAL structure [Streaming Media Devices], PKSINTERVAL, PKSINTERVAL structure pointer [Streaming Media Devices], ks-struct_56fded71-9af4-46a7-b872-1660582179ad.xml, ks/KSINTERVAL, ks/PKSINTERVAL, stream.ksinterval"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSINTERVAL
 ---
 
-# KSINTERVAL structure
+# KSINTERVAL structure (ks.h)
+
+
 
 
 ## -description

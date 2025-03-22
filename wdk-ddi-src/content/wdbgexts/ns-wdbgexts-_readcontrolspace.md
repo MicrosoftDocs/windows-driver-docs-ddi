@@ -8,6 +8,7 @@ ms.date: 07/27/2023
 keywords: ["READCONTROLSPACE structure"]
 ms.keywords: "*PREADCONTROLSPACE, READCONTROLSPACE, ReadControlSpace, ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, _READCONTROLSPACE, debugger.readcontrolspace, wdbgexts/ReadControlSpace"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - READCONTROLSPACE
 ---
 
-# _READCONTROLSPACE structure
+# READCONTROLSPACE structure (wdbgexts.h)
+
+
 
 ## -description
 

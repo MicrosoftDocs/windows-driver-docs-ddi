@@ -7,6 +7,7 @@ ms.date: 10/03/2023
 keywords: ["DXGKARG_RESUMEHWENGINE structure"]
 ms.keywords: _DXGKARG_RESUMEHWENGINE, DXGKARG_RESUMEHWENGINE, *INOUT_PDXGKARG_RESUMEHWENGINE
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_RESUMEHWENGINE structure
+# DXGKARG_RESUMEHWENGINE structure (d3dkmddi.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_COMMITVIDPN_FLAGS structure"]
 ms.keywords: DXGKARG_COMMITVIDPN_FLAGS, DXGKARG_COMMITVIDPN_FLAGS structure [Display Devices], DmStructs_267e916a-7058-4ce7-892d-9ed9d6f74bce.xml, _DXGKARG_COMMITVIDPN_FLAGS, d3dkmddi/DXGKARG_COMMITVIDPN_FLAGS, display.dxgkarg_commitvidpn_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_COMMITVIDPN_FLAGS
 ---
 
-# _DXGKARG_COMMITVIDPN_FLAGS structure
+# DXGKARG_COMMITVIDPN_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

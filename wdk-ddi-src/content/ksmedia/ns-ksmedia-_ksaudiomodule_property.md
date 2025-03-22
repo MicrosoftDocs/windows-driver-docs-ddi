@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIOMODULE_PROPERTY structure"]
 ms.keywords: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], _KSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, ksmedia/KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - KSAUDIOMODULE_PROPERTY
 ---
 
-# _KSAUDIOMODULE_PROPERTY structure
+# KSAUDIOMODULE_PROPERTY structure (ksmedia.h)
+
+
 
 
 ## -description

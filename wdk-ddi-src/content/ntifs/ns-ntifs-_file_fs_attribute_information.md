@@ -5,6 +5,7 @@ description: Learn more about the FILE_FS_ATTRIBUTE_INFORMATION structure.
 tech.root: ifsk
 ms.date: 12/20/2024
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - FILE_FS_ATTRIBUTE_INFORMATION
 ---
 
-# FILE_FS_ATTRIBUTE_INFORMATION structure
+# FILE_FS_ATTRIBUTE_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

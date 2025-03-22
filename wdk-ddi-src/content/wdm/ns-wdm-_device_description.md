@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION_VERSION3, PDEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], _DEVICE_DESCRIPTION, kernel.device_description, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, wdm/DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 2000.
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_DESCRIPTION
 ---
 
-# _DEVICE_DESCRIPTION structure
+# DEVICE_DESCRIPTION structure (wdm.h)
+
+
 
 
 ## -description

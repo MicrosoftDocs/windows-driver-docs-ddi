@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["BUS_RESET_DATA structure"]
 ms.keywords: "*PBUS_RESET_DATA, 1394/BUS_RESET_DATA, 1394/PBUS_RESET_DATA, BUS_RESET_DATA, BUS_RESET_DATA structure [Buses], IEEE.bus_reset_data, PBUS_RESET_DATA, PBUS_RESET_DATA structure pointer [Buses], _BUS_RESET_DATA"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - BUS_RESET_DATA
 ---
 
-# _BUS_RESET_DATA structure
+# BUS_RESET_DATA structure (1394.h)
+
+
 
 
 ## -description

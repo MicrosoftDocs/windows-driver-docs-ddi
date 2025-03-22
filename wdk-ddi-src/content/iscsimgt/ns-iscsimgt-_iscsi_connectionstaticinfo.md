@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_ConnectionStaticInfo structure"]
 ms.keywords: "*PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], PISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], _ISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_ConnectionStaticInfo
 ---
 
-# _ISCSI_ConnectionStaticInfo structure
+# ISCSI_ConnectionStaticInfo structure (iscsimgt.h)
+
+
 
 
 ## -description

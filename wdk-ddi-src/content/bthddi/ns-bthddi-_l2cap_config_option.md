@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["L2CAP_CONFIG_OPTION structure"]
 ms.keywords: "*PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], PL2CAP_CONFIG_OPTION, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], _L2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bthddi/L2CAP_CONFIG_OPTION, bthddi/PL2CAP_CONFIG_OPTION"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - L2CAP_CONFIG_OPTION
 ---
 
-# _L2CAP_CONFIG_OPTION structure
+# L2CAP_CONFIG_OPTION structure (bthddi.h)
+
+
 
 
 ## -description

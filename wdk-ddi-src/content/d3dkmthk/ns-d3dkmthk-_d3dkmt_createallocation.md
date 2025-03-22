@@ -6,6 +6,7 @@ ms.date: 07/12/2023
 keywords: ["D3DKMT_CREATEALLOCATION structure"]
 ms.keywords: D3DKMT_CREATEALLOCATION, D3DKMT_CREATEALLOCATION structure [Display Devices], OpenGL_Structs_983d37f8-47ad-40ea-b3da-2a211e9f0967.xml, _D3DKMT_CREATEALLOCATION, d3dkmthk/D3DKMT_CREATEALLOCATION, display.d3dkmt_createallocation
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_CREATEALLOCATION
 ---
 
-# D3DKMT_CREATEALLOCATION structure
+# D3DKMT_CREATEALLOCATION structure (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_GENERIC_ERROR_BLOCKSTATUS structure"]
 ms.keywords: "*PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS, PWHEA_GENERIC_ERROR_BLOCKSTATUS union pointer [WHEA Drivers and Applications], WHEA_GENERIC_ERROR_BLOCKSTATUS, WHEA_GENERIC_ERROR_BLOCKSTATUS union [WHEA Drivers and Applications], _WHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/PWHEA_GENERIC_ERROR_BLOCKSTATUS, ntddk/WHEA_GENERIC_ERROR_BLOCKSTATUS, whea.whea_generic_error_blockstatus, whearef_2137a60a-daff-4a33-a516-c9ae87e2f11c.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_GENERIC_ERROR_BLOCKSTATUS
 ---
 
-# _WHEA_GENERIC_ERROR_BLOCKSTATUS structure
+# WHEA_GENERIC_ERROR_BLOCKSTATUS structure (ntddk.h)
+
+
 
 
 ## -description

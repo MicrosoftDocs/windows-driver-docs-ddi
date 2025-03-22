@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["PAYMENT_SERVICE_IN structure"]
 ms.keywords: _PAYMENT_SERVICE_IN, PAYMENT_SERVICE_IN, *PPAYMENT_SERVICE_IN,
 req.header: treepaymentservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PAYMENT_SERVICE_IN
 ---
 
-# _PAYMENT_SERVICE_IN structure
+# PAYMENT_SERVICE_IN structure (treepaymentservice.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_HDR_METADATA structure"]
 ms.keywords: DXGK_HDR_METADATA, DXGK_HDR_METADATA structure [Display Devices], _DXGK_HDR_METADATA, d3dkmddi/DXGK_HDR_METADATA, display.dxgk_hdr_metadata
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_HDR_METADATA
 ---
 
-# _DXGK_HDR_METADATA structure
+# DXGK_HDR_METADATA structure (d3dkmddi.h)
+
+
 
 
 ## -description

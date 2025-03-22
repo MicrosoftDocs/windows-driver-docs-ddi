@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CONTROLLER_ATTRIBUTE_FLAGS structure"]
 ms.keywords: "*PCONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS, CONTROLLER_ATTRIBUTE_FLAGS structure [Parallel Ports], GPIO.controller_attribute_flags, PCONTROLLER_ATTRIBUTE_FLAGS, PCONTROLLER_ATTRIBUTE_FLAGS structure pointer [Parallel Ports], _CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/CONTROLLER_ATTRIBUTE_FLAGS, gpioclx/PCONTROLLER_ATTRIBUTE_FLAGS"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - CONTROLLER_ATTRIBUTE_FLAGS
 ---
 
-# _CONTROLLER_ATTRIBUTE_FLAGS structure
+# CONTROLLER_ATTRIBUTE_FLAGS structure (gpioclx.h)
+
+
 
 
 ## -description

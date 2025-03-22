@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TR_SERVICE_REQUEST_RESPONSE_V1 structure"]
 ms.keywords: _TR_SERVICE_REQUEST_RESPONSE_V1, TR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE_V1, *PTR_SERVICE_REQUEST_RESPONSE, TR_SERVICE_REQUEST_RESPONSE
 req.header: trustedrt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TR_SERVICE_REQUEST_RESPONSE_V1
 ---
 
-# _TR_SERVICE_REQUEST_RESPONSE_V1 structure
+# TR_SERVICE_REQUEST_RESPONSE_V1 structure (trustedrt.h)
+
+
 
 
 ## -description

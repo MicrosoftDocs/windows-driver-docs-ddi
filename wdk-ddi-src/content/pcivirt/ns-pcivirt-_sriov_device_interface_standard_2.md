@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["SRIOV_DEVICE_INTERFACE_STANDARD_2 structure"]
 ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2"
 req.header: pcivirt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SRIOV_DEVICE_INTERFACE_STANDARD_2
 ---
 
-# _SRIOV_DEVICE_INTERFACE_STANDARD_2 structure
+# SRIOV_DEVICE_INTERFACE_STANDARD_2 structure (pcivirt.h)
+
+
 
 
 ## -description

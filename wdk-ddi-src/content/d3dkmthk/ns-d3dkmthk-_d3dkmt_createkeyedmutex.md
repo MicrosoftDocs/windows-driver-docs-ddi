@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_CREATEKEYEDMUTEX, D3DKMT_CREATEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6ab1fe5f-9963-46ab-946d-689d74c70d11.xml, _D3DKMT_CREATEKEYEDMUTEX, d3dkmthk/D3DKMT_CREATEKEYEDMUTEX, display.d3dkmt_createkeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_CREATEKEYEDMUTEX is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CREATEKEYEDMUTEX
 ---
 
-# _D3DKMT_CREATEKEYEDMUTEX structure
+# D3DKMT_CREATEKEYEDMUTEX structure (d3dkmthk.h)
+
+
 
 
 ## -description

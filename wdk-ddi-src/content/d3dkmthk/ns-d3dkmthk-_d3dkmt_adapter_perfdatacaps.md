@@ -4,6 +4,7 @@ title: D3DKMT_ADAPTER_PERFDATACAPS (d3dkmthk.h)
 description: Learn more about the D3DKMT_ADAPTER_PERFDATACAPS structure.
 ms.date: 09/10/2024
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1803 (WDDM 2.4)
@@ -34,7 +35,9 @@ api_name:
  - D3DKMT_ADAPTER_PERFDATACAPS
 ---
 
-# D3DKMT_ADAPTER_PERFDATACAPS structure
+# D3DKMT_ADAPTER_PERFDATACAPS structure (d3dkmthk.h)
+
+
 
 ## -description
 

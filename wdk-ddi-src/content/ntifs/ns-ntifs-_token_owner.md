@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["TOKEN_OWNER structure"]
 ms.keywords: "*PTOKEN_OWNER, PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], TOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], _TOKEN_OWNER, ifsk.token_owner, ntifs/PTOKEN_OWNER, ntifs/TOKEN_OWNER, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TOKEN_OWNER
 ---
 
-# TOKEN_OWNER structure
+# TOKEN_OWNER structure (ntifs.h)
+
+
 
 ## -description
 

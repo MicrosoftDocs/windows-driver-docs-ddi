@@ -6,6 +6,7 @@ ms.date: 07/02/2024
 keywords: ["D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure"]
 ms.keywords: _D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS, D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure
+# D3DKMT_ADAPTER_VERIFIER_VIDMM_FLAGS structure (d3dkmthk.h)
+
+
 
 ## -description
 

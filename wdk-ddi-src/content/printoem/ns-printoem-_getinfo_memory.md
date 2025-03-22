@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["GETINFO_MEMORY structure"]
 ms.keywords: GETINFO_MEMORY, GETINFO_MEMORY structure [Print Devices], PGETINFO_MEMORY, PGETINFO_MEMORY structure pointer [Print Devices], PGETINFO_MEMROY, _GETINFO_MEMORY, print.getinfo_memory, print_unidrv-pscript_rendering_d39a4f36-c521-4da4-8f63-5121b344d33a.xml, printoem/GETINFO_MEMORY, printoem/PGETINFO_MEMORY
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _GETINFO_MEMORY
  - GETINFO_MEMORY
 ---
+
+# GETINFO_MEMORY structure (printoem.h)
 
 ## -description
 

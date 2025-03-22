@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_RECLAIMRESOURCES structure"]
 ms.keywords: D3DDDIARG_RECLAIMRESOURCES, D3DDDIARG_RECLAIMRESOURCES structure [Display Devices], _D3DDDIARG_RECLAIMRESOURCES, d3dumddi/D3DDDIARG_RECLAIMRESOURCES, display.d3dddiarg_reclaimresources
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_RECLAIMRESOURCES
 ---
 
-# _D3DDDIARG_RECLAIMRESOURCES structure
+# D3DDDIARG_RECLAIMRESOURCES structure (d3dumddi.h)
+
+
 
 
 ## -description

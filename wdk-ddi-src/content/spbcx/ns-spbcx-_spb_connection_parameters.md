@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SPB_CONNECTION_PARAMETERS structure"]
 ms.keywords: "*PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS, PSPB_CONNECTION_PARAMETERS structure pointer [Buses], SPB.spb_connection_parameters, SPB_CONNECTION_PARAMETERS, SPB_CONNECTION_PARAMETERS structure [Buses], _SPB_CONNECTION_PARAMETERS, spbcx/PSPB_CONNECTION_PARAMETERS, spbcx/SPB_CONNECTION_PARAMETERS"
 req.header: spbcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SPB_CONNECTION_PARAMETERS
 ---
 
-# _SPB_CONNECTION_PARAMETERS structure
+# SPB_CONNECTION_PARAMETERS structure (spbcx.h)
+
+
 
 
 ## -description

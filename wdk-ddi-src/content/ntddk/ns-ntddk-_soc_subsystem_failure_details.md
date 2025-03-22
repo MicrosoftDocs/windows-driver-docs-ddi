@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["SOC_SUBSYSTEM_FAILURE_DETAILS structure"]
 ms.keywords: "*PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS, PSOC_SUBSYSTEM_FAILURE_DETAILS structure pointer [WHEA Drivers and Applications], SOC_SUBSYSTEM_FAILURE_DETAILS, SOC_SUBSYSTEM_FAILURE_DETAILS structure [WHEA Drivers and Applications], _SOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/PSOC_SUBSYSTEM_FAILURE_DETAILS, ntddk/SOC_SUBSYSTEM_FAILURE_DETAILS, whea.soc_subsystem_failure_details"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - SOC_SUBSYSTEM_FAILURE_DETAILS
 ---
 
-# _SOC_SUBSYSTEM_FAILURE_DETAILS structure
+# SOC_SUBSYSTEM_FAILURE_DETAILS structure (ntddk.h)
+
+
 
 
 ## -description

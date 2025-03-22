@@ -8,6 +8,7 @@ ms.date: 07/22/2022
 keywords: ["CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_input, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure pointer [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT
 ---
 
-# _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure
+# CLIENT_CONTROLLER_QUERY_SET_INFORMATION_INPUT structure (gpioclx.h)
+
+
 
 ## -description
 

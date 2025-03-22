@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure"]
 ms.keywords: D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure [Display Devices], _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, d3dukmdt/D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA, display.d3dddi_getresourcepresentprivatedriverdata
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA
 ---
 
-# _D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure
+# D3DDDI_GETRESOURCEPRESENTPRIVATEDRIVERDATA structure (d3dukmdt.h)
+
+
 
 
 ## -description

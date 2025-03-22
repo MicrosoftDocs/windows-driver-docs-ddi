@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERIAL_TIMEOUTS structure"]
 ms.keywords: "*PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, serports.serial_timeouts"
 req.header: ntddser.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 2000.
@@ -46,7 +47,9 @@ api_name:
  - SERIAL_TIMEOUTS
 ---
 
-# _SERIAL_TIMEOUTS structure
+# SERIAL_TIMEOUTS structure (ntddser.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 09/22/2023
 keywords: ["IDDCX_MONITOR_MODE structure"]
 ms.keywords: IDDCX_MONITOR_MODE, IDDCX_MONITOR_MODE structure [Display Devices], display.iddcx_monitor_mode, iddcx/IDDCX_MONITOR_MODE
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_MONITOR_MODE
 ---
 
-# IDDCX_MONITOR_MODE structure
+# IDDCX_MONITOR_MODE structure (iddcx.h)
+
+
 
 ## -description
 

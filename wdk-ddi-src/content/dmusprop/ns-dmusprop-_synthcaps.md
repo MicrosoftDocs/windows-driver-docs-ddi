@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["SYNTHCAPS structure"]
 ms.keywords: "*PSYNTHCAPS, PSYNTHCAPS, PSYNTHCAPS structure pointer [Audio Devices], SYNTHCAPS, SYNTHCAPS structure [Audio Devices], _SYNTHCAPS, aud-prop_609e484a-6bcb-4ea2-9ca5-fa640c4d9ba8.xml, audio.synthcaps, dmusprop/PSYNTHCAPS, dmusprop/SYNTHCAPS"
 req.header: dmusprop.h
+req.construct-type: structure
 req.include-header: Dmusprop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYNTHCAPS
 ---
 
-# _SYNTHCAPS structure
+# SYNTHCAPS structure (dmusprop.h)
+
+
 
 
 ## -description

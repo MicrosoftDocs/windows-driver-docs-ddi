@@ -8,6 +8,7 @@ ms.date: 02/28/2023
 keywords: ["D3DKMDT_GAMMA_RAMP structure"]
 ms.keywords: D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP structure [Display Devices], DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, _D3DKMDT_GAMMA_RAMP, d3dkmdt/D3DKMDT_GAMMA_RAMP, display.d3dkmdt_gamma_ramp
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_GAMMA_RAMP
 ---
 
-# D3DKMDT_GAMMA_RAMP structure
+# D3DKMDT_GAMMA_RAMP structure (d3dkmdt.h)
+
+
 
 ## -description
 

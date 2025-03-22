@@ -5,6 +5,7 @@ description: Learn more about the DXGK_ALLOCATIONINFO structure.
 ms.date: 11/08/2024
 keywords: ["DXGK_ALLOCATIONINFO structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - DXGK_ALLOCATIONINFO
 ---
 
-# DXGK_ALLOCATIONINFO structure
+# DXGK_ALLOCATIONINFO structure (d3dkmddi.h)
+
+
 
 ## -description
 

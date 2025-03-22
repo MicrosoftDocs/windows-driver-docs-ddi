@@ -4,6 +4,7 @@ title: D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA (d3dkmthk.h)
 description: Learn more about the D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure
+# D3DKMT_OUTPUTDUPL_GET_POINTER_SHAPE_DATA structure (d3dkmthk.h)
+
+
 
 ## -description
 

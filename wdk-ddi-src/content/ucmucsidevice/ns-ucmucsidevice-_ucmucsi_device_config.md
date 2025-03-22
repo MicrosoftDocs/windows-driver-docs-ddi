@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_DEVICE_CONFIG structure"]
 ms.keywords: _UCMUCSI_DEVICE_CONFIG, UCMUCSI_DEVICE_CONFIG, *PUCMUCSI_DEVICE_CONFIG,
 req.header: ucmucsidevice.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCMUCSI_DEVICE_CONFIG
 ---
 
-# _UCMUCSI_DEVICE_CONFIG structure
+# UCMUCSI_DEVICE_CONFIG structure (ucmucsidevice.h)
+
+
 
 
 ## -description

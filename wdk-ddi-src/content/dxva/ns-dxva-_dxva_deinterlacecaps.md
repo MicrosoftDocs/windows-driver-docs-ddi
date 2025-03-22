@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_DeinterlaceCaps structure"]
 ms.keywords: "*LPDXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps, DXVA_DeinterlaceCaps structure [Display Devices], LPDXVA_DeinterlaceCaps, LPDXVA_DeinterlaceCaps structure pointer [Display Devices], _DXVA_DeinterlaceCaps, display.dxva_deinterlacecaps, dxva/DXVA_DeinterlaceCaps, dxva/LPDXVA_DeinterlaceCaps, dxvaref_daa1a58d-aec2-4370-9baa-7a3b8cbcacf8.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_DeinterlaceCaps
 ---
 
-# _DXVA_DeinterlaceCaps structure
+# DXVA_DeinterlaceCaps structure (dxva.h)
+
+
 
 
 ## -description

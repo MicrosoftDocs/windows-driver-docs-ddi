@@ -7,6 +7,7 @@ ms.date: 06/25/2018
 keywords: ["NDIS_WWAN_MPDP_INFO structure"]
 ms.keywords: _NDIS_WWAN_MPDP_INFO, NDIS_WWAN_MPDP_INFO, *PNDIS_WWAN_MPDP_INFO,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_MPDP_INFO
 ---
 
-# _NDIS_WWAN_MPDP_INFO structure
+# NDIS_WWAN_MPDP_INFO structure (ndiswwan.h)
+
+
 
 
 ## -description

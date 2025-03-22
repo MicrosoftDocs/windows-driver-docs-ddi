@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_FREE_SPACE_OUTPUT structure"]
 ms.keywords: _DEVICE_DSM_FREE_SPACE_OUTPUT, DEVICE_DSM_FREE_SPACE_OUTPUT, *PDEVICE_DSM_FREE_SPACE_OUTPUT,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - DEVICE_DSM_FREE_SPACE_OUTPUT
 ---
 
-# _DEVICE_DSM_FREE_SPACE_OUTPUT structure
+# DEVICE_DSM_FREE_SPACE_OUTPUT structure (ntddstor.h)
+
+
 
 
 ## -description

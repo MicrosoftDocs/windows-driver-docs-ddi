@@ -4,6 +4,7 @@ title: DXGKARG_CREATEPROCESS (d3dkmddi.h)
 description: DXGKARG_CREATEPROCESS is used with DxgkDdiCreateProcess to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - DXGKARG_CREATEPROCESS
 ---
 
-# DXGKARG_CREATEPROCESS structure
+# DXGKARG_CREATEPROCESS structure (d3dkmddi.h)
+
+
 
 ## -description
 

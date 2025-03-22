@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure"]
 ms.keywords: "DEVICE_DSM_OUTPUT, PDEVICE_DSM_OUTPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT, storage.device_manage_data_set_attributes_output"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT
 ---
 
-# _DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure
+# DEVICE_MANAGE_DATA_SET_ATTRIBUTES_OUTPUT structure (ntddstor.h)
+
+
 
 
 ## -description

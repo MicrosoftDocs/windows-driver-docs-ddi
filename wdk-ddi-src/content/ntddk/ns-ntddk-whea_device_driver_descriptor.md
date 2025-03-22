@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_DEVICE_DRIVER_DESCRIPTOR structure"]
 ms.keywords: WHEA_DEVICE_DRIVER_DESCRIPTOR, WHEA_DEVICE_DRIVER_DESCRIPTOR, *PWHEA_DEVICE_DRIVER_DESCRIPTOR,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_DEVICE_DRIVER_DESCRIPTOR
 ---
 
-# WHEA_DEVICE_DRIVER_DESCRIPTOR structure
+# WHEA_DEVICE_DRIVER_DESCRIPTOR structure (ntddk.h)
+
+
 
 
 ## -description

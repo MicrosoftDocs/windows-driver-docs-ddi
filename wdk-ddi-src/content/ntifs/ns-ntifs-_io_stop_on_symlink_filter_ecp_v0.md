@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure"]
 ms.keywords: _IO_STOP_ON_SYMLINK_FILTER_ECP_v0, IO_STOP_ON_SYMLINK_FILTER_ECP_v0, *PIO_STOP_ON_SYMLINK_FILTER_ECP_v0,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - IO_STOP_ON_SYMLINK_FILTER_ECP_v0
 ---
 
-# IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure
+# IO_STOP_ON_SYMLINK_FILTER_ECP_v0 structure (ntifs.h)
+
+
 
 The **IO_STOP_ON_SYMLINK_FILTER_ECP_v0** structure contains the extra create parameter (ECP) context to restrict the behavior of IO_STOP_ON_SYMLINK to act on specified reparse tags only.
 

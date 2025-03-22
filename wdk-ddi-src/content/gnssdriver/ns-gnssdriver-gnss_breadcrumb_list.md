@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_BREADCRUMB_LIST structure"]
 ms.keywords: "*PGNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST, GNSS_BREADCRUMB_LIST structure [Sensor Devices], PGNSS_BREADCRUMB_LIST, PGNSS_BREADCRUMB_LIST structure pointer [Sensor Devices], gnss.gnss_breadcrumb_list, gnssdriver/GNSS_BREADCRUMB_LIST, gnssdriver/PGNSS_BREADCRUMB_LIST"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_BREADCRUMB_LIST
  - GNSS_BREADCRUMB_LIST
 ---
+
+# GNSS_BREADCRUMB_LIST structure (gnssdriver.h)
 
 ## -description
 

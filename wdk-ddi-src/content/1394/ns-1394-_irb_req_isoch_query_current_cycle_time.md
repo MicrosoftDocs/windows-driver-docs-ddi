@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IEEE.irb_req_isoch_query_current_cycle_time, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME, IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure [Buses], _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME
 ---
 
-# _IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure
+# IRB_REQ_ISOCH_QUERY_CURRENT_CYCLE_TIME structure (1394.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2CREATEPIXELSHADER structure"]
 ms.keywords: "*LPD3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER, D3DHAL_DP2CREATEPIXELSHADER structure [Display Devices], LPD3DHAL_DP2CREATEPIXELSHADER, LPD3DHAL_DP2CREATEPIXELSHADER structure pointer [Display Devices], _D3DHAL_DP2CREATEPIXELSHADER, d3dhal/D3DHAL_DP2CREATEPIXELSHADER, d3dhal/LPD3DHAL_DP2CREATEPIXELSHADER, d3dstrct_b17c15ca-697a-407b-b304-ac52ccf6ce6e.xml, display.d3dhal_dp2createpixelshader"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2CREATEPIXELSHADER
 ---
 
-# _D3DHAL_DP2CREATEPIXELSHADER structure
+# D3DHAL_DP2CREATEPIXELSHADER structure (d3dhal.h)
+
+
 
 
 ## -description

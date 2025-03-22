@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_AUTH_RESPONSE structure"]
 ms.keywords: "*PNDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE, NDIS_WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_AUTH_RESPONSE, PNDIS_WWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_AUTH_RESPONSE, ndiswwan/NDIS_WWAN_AUTH_RESPONSE, ndiswwan/PNDIS_WWAN_AUTH_RESPONSE, netvista.ndis_wwan_auth_response"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_AUTH_RESPONSE
 ---
 
-# _NDIS_WWAN_AUTH_RESPONSE structure
+# NDIS_WWAN_AUTH_RESPONSE structure (ndiswwan.h)
+
+
 
 
 ## -description

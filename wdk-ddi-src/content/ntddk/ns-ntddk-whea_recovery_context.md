@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT structure"]
 ms.keywords: WHEA_RECOVERY_CONTEXT, WHEA_RECOVERY_CONTEXT, *PWHEA_RECOVERY_CONTEXT,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_RECOVERY_CONTEXT
 ---
 
-# WHEA_RECOVERY_CONTEXT structure
+# WHEA_RECOVERY_CONTEXT structure (ntddk.h)
+
+
 
 
 ## -description

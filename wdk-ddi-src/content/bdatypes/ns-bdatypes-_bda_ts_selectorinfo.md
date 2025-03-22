@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_TS_SELECTORINFO structure"]
 ms.keywords: "*PBDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO, BDA_TS_SELECTORINFO structure [Streaming Media Devices], PBDA_TS_SELECTORINFO, PBDA_TS_SELECTORINFO structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO, bdatypes/BDA_TS_SELECTORINFO, bdatypes/PBDA_TS_SELECTORINFO, stream.bda_ts_selectorinfo"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_TS_SELECTORINFO
 ---
 
-# _BDA_TS_SELECTORINFO structure
+# BDA_TS_SELECTORINFO structure (bdatypes.h)
+
+
 
 
 ## -description

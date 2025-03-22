@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["KMUTANT structure"]
 ms.keywords: KMUTANT, KMUTANT, *PKMUTANT, *PRKMUTANT, KMUTEX, *PKMUTEX, *PRKMUTEX,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KMUTANT
 ---
 
-# KMUTANT structure
+# KMUTANT structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_DIAGNOSTICS structure"]
 ms.keywords: "*PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS, PWINBIO_DIAGNOSTICS structure pointer [Biometric Devices], WINBIO_DIAGNOSTICS, WINBIO_DIAGNOSTICS structure [Biometric Devices], _WINBIO_DIAGNOSTICS, biometric.winbio_diagnostics, biometric_ref_eca83e57-bec6-4d83-8596-978b73eed6de.xml, winbio_ioctl/PWINBIO_DIAGNOSTICS, winbio_ioctl/WINBIO_DIAGNOSTICS"
 req.header: winbio_ioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_DIAGNOSTICS
 ---
 
-# _WINBIO_DIAGNOSTICS structure
+# WINBIO_DIAGNOSTICS structure (winbio_ioctl.h)
+
+
 
 
 ## -description

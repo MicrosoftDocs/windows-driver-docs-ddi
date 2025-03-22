@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_VIDEOPROCESSBLT structure"]
 ms.keywords: D3DDDIARG_VIDEOPROCESSBLT, D3DDDIARG_VIDEOPROCESSBLT structure [Display Devices], UMDisplayDriver_param_Structs_feb8d240-92ee-45b9-a07e-50b89f906fbe.xml, _D3DDDIARG_VIDEOPROCESSBLT, d3dumddi/D3DDDIARG_VIDEOPROCESSBLT, display.d3dddiarg_videoprocessblt
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_VIDEOPROCESSBLT
 ---
 
-# _D3DDDIARG_VIDEOPROCESSBLT structure
+# D3DDDIARG_VIDEOPROCESSBLT structure (d3dumddi.h)
+
+
 
 
 ## -description

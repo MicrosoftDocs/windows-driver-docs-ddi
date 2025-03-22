@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2INDEXEDTRIANGLEFAN structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN, D3DHAL_DP2INDEXEDTRIANGLEFAN structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLEFAN, LPD3DHAL_DP2INDEXEDTRIANGLEFAN structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/D3DHAL_DP2INDEXEDTRIANGLEFAN, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLEFAN, d3dstrct_72b499fd-e571-4dbb-a9b8-c2debf754b41.xml, display.d3dhal_dp2indexedtrianglefan"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DHAL_DP2INDEXEDTRIANGLEFAN
 ---
 
-# _D3DHAL_DP2INDEXEDTRIANGLEFAN structure
+# D3DHAL_DP2INDEXEDTRIANGLEFAN structure (d3dhal.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure"]
 ms.keywords: "*PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, PUDECX_USB_DEVICE_PLUG_IN_OPTIONS structure pointer [Buses], UDECX_USB_DEVICE_PLUG_IN_OPTIONS, UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure [Buses], _UDECX_USB_DEVICE_PLUG_IN_OPTIONS, buses.udecx_usb_device_plug_in_options, udecxusbdevice/ PUDECX_USB_DEVICE_PLUG_IN_OPTIONS, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS"
 req.header: udecxusbdevice.h
+req.construct-type: structure
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UDECX_USB_DEVICE_PLUG_IN_OPTIONS
 ---
 
-# _UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure
+# UDECX_USB_DEVICE_PLUG_IN_OPTIONS structure (udecxusbdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_CONNECT_REQUEST0 structure"]
 ms.keywords: FWPS_CONNECT_REQUEST0, FWPS_CONNECT_REQUEST0 structure [Network Drivers Starting with Windows Vista], _FWPS_CONNECT_REQUEST0, fwpsk/FWPS_CONNECT_REQUEST0, netvista.fwps_connect_request0, wfp_ref_3_struct_3_fwps_A-E_af2ba16d-4454-4f69-9682-c9f759ef26e8.xml
 req.header: fwpsk.h
+req.construct-type: structure
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_CONNECT_REQUEST0
 ---
 
-# _FWPS_CONNECT_REQUEST0 structure
+# FWPS_CONNECT_REQUEST0 structure (fwpsk.h)
+
+
 
 
 ## -description

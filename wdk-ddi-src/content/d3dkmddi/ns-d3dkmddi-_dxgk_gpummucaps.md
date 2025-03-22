@@ -7,6 +7,7 @@ ms.date: 08/24/2022
 keywords: ["DXGK_GPUMMUCAPS structure"]
 ms.keywords: DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], _DXGK_GPUMMUCAPS, d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_GPUMMUCAPS structure
+# DXGK_GPUMMUCAPS structure (d3dkmddi.h)
+
+
 
 ## -description
 

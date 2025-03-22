@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_ACPI_RESOURCE_FLAGS structure"]
 ms.keywords: "*PPEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS, PEP_ACPI_RESOURCE_FLAGS union [Kernel-Mode Driver Architecture], PPEP_ACPI_RESOURCE_FLAGS, PPEP_ACPI_RESOURCE_FLAGS union pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_RESOURCE_FLAGS, kernel.pep_acpi_resource_flags, pepfx/PEP_ACPI_RESOURCE_FLAGS, pepfx/PPEP_ACPI_RESOURCE_FLAGS"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_ACPI_RESOURCE_FLAGS
 ---
 
-# _PEP_ACPI_RESOURCE_FLAGS structure (pep_x.h)
+# PEP_ACPI_RESOURCE_FLAGS structure (pep_x.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_USSD_EVENT structure"]
 ms.keywords: "*PNDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT, NDIS_WWAN_USSD_EVENT structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_USSD_EVENT, PNDIS_WWAN_USSD_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_USSD_EVENT, ndiswwan/NDIS_WWAN_USSD_EVENT, ndiswwan/PNDIS_WWAN_USSD_EVENT, netvista.ndis_wwan_ussd_event"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_USSD_EVENT
 ---
 
-# _NDIS_WWAN_USSD_EVENT structure
+# NDIS_WWAN_USSD_EVENT structure (ndiswwan.h)
+
+
 
 
 ## -description

@@ -4,6 +4,7 @@ title: D3DKMT_OUTDUPL_POINTER_SHAPE_INFO (d3dkmthk.h)
 description: Learn more about the _D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure
+# D3DKMT_OUTDUPL_POINTER_SHAPE_INFO structure (d3dkmthk.h)
+
+
 
 ## -description
 

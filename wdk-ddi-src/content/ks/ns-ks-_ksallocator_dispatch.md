@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSALLOCATOR_DISPATCH structure"]
 ms.keywords: "*PKSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH, KSALLOCATOR_DISPATCH structure [Streaming Media Devices], PKSALLOCATOR_DISPATCH, PKSALLOCATOR_DISPATCH structure pointer [Streaming Media Devices], _KSALLOCATOR_DISPATCH, avstruct_73d2c793-a55a-45f3-af31-fc18240ca1df.xml, ks/KSALLOCATOR_DISPATCH, ks/PKSALLOCATOR_DISPATCH, stream.ksallocator_dispatch"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSALLOCATOR_DISPATCH
 ---
 
-# _KSALLOCATOR_DISPATCH structure
+# KSALLOCATOR_DISPATCH structure (ks.h)
+
+
 
 
 ## -description

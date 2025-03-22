@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_MBctrl_P_OffHostIDCT_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1, DXVA_MBctrl_P_OffHostIDCT_1 structure [Display Devices], _DXVA_MBctrl_P_OffHostIDCT_1, display.dxva_mbctrl_p_offhostidct_1, dxva/DXVA_MBctrl_P_OffHostIDCT_1, dxvaref_5dae57d5-3e27-4928-8fd2-4c9cdad0285b.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXVA_MBctrl_P_OffHostIDCT_1
 ---
 
-# _DXVA_MBctrl_P_OffHostIDCT_1 structure
+# DXVA_MBctrl_P_OffHostIDCT_1 structure (dxva.h)
+
+
 
 
 ## -description

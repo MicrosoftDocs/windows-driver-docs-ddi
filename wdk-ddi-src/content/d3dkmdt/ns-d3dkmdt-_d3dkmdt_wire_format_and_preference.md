@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_WIRE_FORMAT_AND_PREFERENCE structure"]
 ms.keywords: "*PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, D3DKMDT_WIRE_FORMAT_AND_PREFERENCE union [Display Devices], PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE union pointer [Display Devices], _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/D3DKMDT_WIRE_FORMAT_AND_PREFERENCE, d3dkmdt/PD3DKMDT_WIRE_FORMAT_AND_PREFERENCE, display.d3dkmdt_wire_format_and_preference"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DKMDT_WIRE_FORMAT_AND_PREFERENCE
 ---
 
-# _D3DKMDT_WIRE_FORMAT_AND_PREFERENCE structure
+# D3DKMDT_WIRE_FORMAT_AND_PREFERENCE structure (d3dkmdt.h)
+
+
 
 
 ## -description

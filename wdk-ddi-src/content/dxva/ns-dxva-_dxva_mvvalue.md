@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_MVvalue structure"]
 ms.keywords: "*LPDXVA_MVvalue, DXVA_MVvalue, DXVA_MVvalue structure [Display Devices], LPDXVA_MVvalue, LPDXVA_MVvalue structure pointer [Display Devices], _DXVA_MVvalue, display.dxva_mvvalue, dxva/DXVA_MVvalue, dxva/LPDXVA_MVvalue, dxvaref_4eeb8072-1676-479e-b92c-05d8ba9c4586.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_MVvalue
 ---
 
-# _DXVA_MVvalue structure
+# DXVA_MVvalue structure (dxva.h)
+
+
 
 
 ## -description

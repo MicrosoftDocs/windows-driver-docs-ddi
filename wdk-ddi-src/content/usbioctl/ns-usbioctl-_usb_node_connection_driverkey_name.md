@@ -8,6 +8,7 @@ ms.date: 05/15/2024
 keywords: ["USB_NODE_CONNECTION_DRIVERKEY_NAME structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME, PUSB_NODE_CONNECTION_DRIVERKEY_NAME structure pointer [Buses], USB_NODE_CONNECTION_DRIVERKEY_NAME, USB_NODE_CONNECTION_DRIVERKEY_NAME structure [Buses], _USB_NODE_CONNECTION_DRIVERKEY_NAME, buses.usb_node_connection_driverkey_name, usbioctl/PUSB_NODE_CONNECTION_DRIVERKEY_NAME, usbioctl/USB_NODE_CONNECTION_DRIVERKEY_NAME, usbstrct_561b9eb1-d580-48c5-ac16-c87647f7a342.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_CONNECTION_DRIVERKEY_NAME
 ---
 
-# _USB_NODE_CONNECTION_DRIVERKEY_NAME structure
+# USB_NODE_CONNECTION_DRIVERKEY_NAME structure (usbioctl.h)
+
+
 
 ## -description
 

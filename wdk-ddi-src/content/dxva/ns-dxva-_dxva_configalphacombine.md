@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_ConfigAlphaCombine structure"]
 ms.keywords: "*LPDXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine, DXVA_ConfigAlphaCombine structure [Display Devices], LPDXVA_ConfigAlphaCombine, LPDXVA_ConfigAlphaCombine structure pointer [Display Devices], _DXVA_ConfigAlphaCombine, display.dxva_configalphacombine, dxva/DXVA_ConfigAlphaCombine, dxva/LPDXVA_ConfigAlphaCombine, dxvaref_3bd67a73-c786-412c-90ad-c546ae2e4645.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_ConfigAlphaCombine
 ---
 
-# _DXVA_ConfigAlphaCombine structure
+# DXVA_ConfigAlphaCombine structure (dxva.h)
+
+
 
 
 ## -description

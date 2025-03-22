@@ -7,6 +7,7 @@ ms.date: 05/20/2022
 keywords: ["NTSCSI_UNICODE_STRING structure"]
 ms.keywords: NTSCSI_UNICODE_STRING, NTSCSI_UNICODE_STRING, *PNTSCSI_UNICODE_STRING
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NTSCSI_UNICODE_STRING
 ---
 
-# NTSCSI_UNICODE_STRING structure
+# NTSCSI_UNICODE_STRING structure (ntddscsi.h)
+
+
 
 ## -description
 

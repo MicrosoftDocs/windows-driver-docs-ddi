@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_WRITE_CACHE_PROPERTY structure"]
 ms.keywords: PSTORAGE_WRITE_CACHE_PROPERTY, PSTORAGE_WRITE_CACHE_PROPERTY structure pointer [Storage Devices], STORAGE_WRITE_CACHE_PROPERTY, STORAGE_WRITE_CACHE_PROPERTY structure [Storage Devices], _STORAGE_WRITE_CACHE_PROPERTY, ntddstor/PSTORAGE_WRITE_CACHE_PROPERTY, ntddstor/STORAGE_WRITE_CACHE_PROPERTY, storage.storage_write_cache_property, structs-general_9c0929be-3c02-4f48-a6be-e24c42b0783c.xml
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_WRITE_CACHE_PROPERTY
 ---
 
-# _STORAGE_WRITE_CACHE_PROPERTY structure
+# STORAGE_WRITE_CACHE_PROPERTY structure (ntddstor.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure"]
 ms.keywords: DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure [Display Devices], _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY, display.dxgi_ddi_present_multiplane_overlay, dxgiddi/DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY
 ---
 
-# _DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure
+# DXGI_DDI_PRESENT_MULTIPLANE_OVERLAY structure (dxgiddi.h)
+
+
 
 
 ## -description

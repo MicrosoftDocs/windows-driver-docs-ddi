@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SETALLOCATIONPRIORITY structure"]
 ms.keywords: D3DKMT_SETALLOCATIONPRIORITY, D3DKMT_SETALLOCATIONPRIORITY structure [Display Devices], OpenGL_Structs_9afc3b7a-fcd5-4fb4-bfb9-5e752b225a4e.xml, _D3DKMT_SETALLOCATIONPRIORITY, d3dkmthk/D3DKMT_SETALLOCATIONPRIORITY, display.d3dkmt_setallocationpriority
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SETALLOCATIONPRIORITY
 ---
 
-# _D3DKMT_SETALLOCATIONPRIORITY structure
+# D3DKMT_SETALLOCATIONPRIORITY structure (d3dkmthk.h)
+
+
 
 
 ## -description

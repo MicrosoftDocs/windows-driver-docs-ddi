@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_CAN_SUSTAIN_AP_PARAMETERS structure"]
 ms.keywords: "*PDOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS, DOT11_CAN_SUSTAIN_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_4f647d9c-29f9-4b57-9906-e66d1a76272a.xml, PDOT11_CAN_SUSTAIN_AP_PARAMETERS, PDOT11_CAN_SUSTAIN_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_CAN_SUSTAIN_AP_PARAMETERS, netvista.dot11_can_sustain_ap_parameters, windot11/DOT11_CAN_SUSTAIN_AP_PARAMETERS, windot11/PDOT11_CAN_SUSTAIN_AP_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_CAN_SUSTAIN_AP_PARAMETERS
 ---
 
-# _DOT11_CAN_SUSTAIN_AP_PARAMETERS structure
+# DOT11_CAN_SUSTAIN_AP_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

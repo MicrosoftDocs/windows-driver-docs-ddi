@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_GENERIC_OBJECT structure"]
 ms.keywords: "*PNDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT, NDIS_GENERIC_OBJECT structure [Network Drivers Starting with Windows Vista], PNDIS_GENERIC_OBJECT, PNDIS_GENERIC_OBJECT structure pointer [Network Drivers Starting with Windows Vista], _NDIS_GENERIC_OBJECT, ndis/NDIS_GENERIC_OBJECT, ndis/PNDIS_GENERIC_OBJECT, ndis_object_ref_19f8706c-633c-4c32-9d86-17edc4e2ad12.xml, netvista.ndis_generic_object"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_GENERIC_OBJECT
 ---
 
-# _NDIS_GENERIC_OBJECT structure
+# NDIS_GENERIC_OBJECT structure (ndis.h)
+
+
 
 
 ## -description

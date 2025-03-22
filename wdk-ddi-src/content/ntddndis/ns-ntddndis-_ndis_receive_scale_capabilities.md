@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_SCALE_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RECEIVE_SCALE_CAPABILITIES, NDIS_RECEIVE_SCALE_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_RSS_CAPS_CLASSIFICATION_AT_DPC, NDIS_RSS_CAPS_CLASSIFICATION_AT_ISR, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6, NDIS_RSS_CAPS_HASH_TYPE_TCP_IPV6_EX, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV4, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6, NDIS_RSS_CAPS_HASH_TYPE_UDP_IPV6_EX, NDIS_RSS_CAPS_MESSAGE_SIGNALED_INTERRUPTS, NDIS_RSS_CAPS_SUPPORTS_MSI_X, NDIS_RSS_CAPS_RSS_AVAILABLE_ON_PORTS, NDIS_RSS_CAPS_USING_MSI_X, NdisHashFunctionReserved1, NdisHashFunctionReserved2, NdisHashFunctionReserved3, NdisHashFunctionToeplitz, PNDIS_RECEIVE_SCALE_CAPABILITIES, PNDIS_RECEIVE_SCALE_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_SCALE_CAPABILITIES, netvista.ndis_receive_scale_capabilities, ntddndis/NDIS_RECEIVE_SCALE_CAPABILITIES, ntddndis/PNDIS_RECEIVE_SCALE_CAPABILITIES, receive_scaling_structures_ref_b9df619b-57b8-4fa3-b292-bba02175a23a.xml"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RECEIVE_SCALE_CAPABILITIES
 ---
 
-# _NDIS_RECEIVE_SCALE_CAPABILITIES structure
+# NDIS_RECEIVE_SCALE_CAPABILITIES structure (ntddndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_CUSTOM_RATE_DATA structure"]
 ms.keywords: DXVA2_Structs_98dcb947-954a-4e8d-adea-3451814e89f9.xml, DXVAHDDDI_CUSTOM_RATE_DATA, DXVAHDDDI_CUSTOM_RATE_DATA structure [Display Devices], _DXVAHDDDI_CUSTOM_RATE_DATA, d3dumddi/DXVAHDDDI_CUSTOM_RATE_DATA, display.dxvahdddi_custom_rate_data
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_CUSTOM_RATE_DATA is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_CUSTOM_RATE_DATA
 ---
 
-# _DXVAHDDDI_CUSTOM_RATE_DATA structure
+# DXVAHDDDI_CUSTOM_RATE_DATA structure (d3dumddi.h)
+
+
 
 
 ## -description

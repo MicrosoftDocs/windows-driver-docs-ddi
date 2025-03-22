@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["LOOPEDSTREAMING_POSITION_EVENT_DATA structure"]
 ms.keywords: "*PLOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA, LOOPEDSTREAMING_POSITION_EVENT_DATA structure [Audio Devices], PLOOPEDSTREAMING_POSITION_EVENT_DATA, PLOOPEDSTREAMING_POSITION_EVENT_DATA structure pointer [Audio Devices], aud-prop_637593e4-087a-4856-95e2-cb99f9df3d0c.xml, audio.loopedstreaming_position_event_data, ksmedia/LOOPEDSTREAMING_POSITION_EVENT_DATA, ksmedia/PLOOPEDSTREAMING_POSITION_EVENT_DATA"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - LOOPEDSTREAMING_POSITION_EVENT_DATA
 ---
 
-# LOOPEDSTREAMING_POSITION_EVENT_DATA structure
+# LOOPEDSTREAMING_POSITION_EVENT_DATA structure (ksmedia.h)
+
+
 
 
 ## -description

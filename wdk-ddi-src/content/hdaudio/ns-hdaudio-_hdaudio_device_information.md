@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HDAUDIO_DEVICE_INFORMATION structure"]
 ms.keywords: "*PHDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION, HDAUDIO_DEVICE_INFORMATION structure [Audio Devices], PHDAUDIO_DEVICE_INFORMATION, PHDAUDIO_DEVICE_INFORMATION structure pointer [Audio Devices], _HDAUDIO_DEVICE_INFORMATION, aud-prop2_3350e3d4-dfbe-4002-b237-2395f4a07c7f.xml, audio.hdaudio_device_information, hdaudio/HDAUDIO_DEVICE_INFORMATION, hdaudio/PHDAUDIO_DEVICE_INFORMATION"
 req.header: hdaudio.h
+req.construct-type: structure
 req.include-header: Hdaudio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HDAUDIO_DEVICE_INFORMATION
 ---
 
-# _HDAUDIO_DEVICE_INFORMATION structure
+# HDAUDIO_DEVICE_INFORMATION structure (hdaudio.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_TXRX_TARGET_CAPABILITIES structure"]
 ms.keywords: "*PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES, PWDI_TXRX_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_CAPABILITIES, WDI_TXRX_CAPABILITIES structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_TARGET_CAPABILITIES, dot11wdi/PWDI_TXRX_CAPABILITIES, dot11wdi/WDI_TXRX_TARGET_CAPABILITIES, netvista.wdi_txrx_capabilities, netvista.wdi_txrx_target_capabilities, netvista.wifi_txrx_target_capabilities"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_TXRX_CAPABILITIES
 ---
 
-# _WDI_TXRX_TARGET_CAPABILITIES structure
+# WDI_TXRX_CAPABILITIES structure (dot11wdi.h)
+
+
 
 
 ## -description

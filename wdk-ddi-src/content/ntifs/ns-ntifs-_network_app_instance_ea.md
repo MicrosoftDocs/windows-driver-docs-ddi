@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["NETWORK_APP_INSTANCE_EA structure"]
 ms.keywords: _NETWORK_APP_INSTANCE_EA, NETWORK_APP_INSTANCE_EA, *PNETWORK_APP_INSTANCE_EA,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _NETWORK_APP_INSTANCE_EA structure
+# NETWORK_APP_INSTANCE_EA structure (ntifs.h)
+
+
 
 
 ## -description

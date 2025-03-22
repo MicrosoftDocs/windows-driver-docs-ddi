@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_SMS_CONFIGURATION structure"]
 ms.keywords: "*PNDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION, NDIS_WWAN_SET_SMS_CONFIGURATION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_SMS_CONFIGURATION, PNDIS_WWAN_SET_SMS_CONFIGURATION structure pointer [Network Drivers Starting with Windows Vista], WwanRef_f118e481-c8ed-4b8b-a6f9-ba1e26fc564f.xml, _NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/NDIS_WWAN_SET_SMS_CONFIGURATION, ndiswwan/PNDIS_WWAN_SET_SMS_CONFIGURATION, netvista.ndis_wwan_set_sms_configuration"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_SET_SMS_CONFIGURATION
 ---
 
-# _NDIS_WWAN_SET_SMS_CONFIGURATION structure
+# NDIS_WWAN_SET_SMS_CONFIGURATION structure (ndiswwan.h)
+
+
 
 
 ## -description

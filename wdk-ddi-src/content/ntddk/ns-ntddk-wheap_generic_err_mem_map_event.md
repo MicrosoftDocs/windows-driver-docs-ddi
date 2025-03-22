@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure"]
 ms.keywords: WHEAP_GENERIC_ERR_MEM_MAP_EVENT, WHEAP_GENERIC_ERR_MEM_MAP_EVENT, *PWHEAP_GENERIC_ERR_MEM_MAP_EVENT,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_GENERIC_ERR_MEM_MAP_EVENT
 ---
 
-# WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure
+# WHEAP_GENERIC_ERR_MEM_MAP_EVENT structure (ntddk.h)
+
+
 
 
 ## -description

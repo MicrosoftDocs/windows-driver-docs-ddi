@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetPresharedKeyForId_IN structure"]
 ms.keywords: "*PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], PGetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], _GetPresharedKeyForId_IN, iscsiop/GetPresharedKeyForId_IN, iscsiop/PGetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetPresharedKeyForId_IN
 ---
 
-# _GetPresharedKeyForId_IN structure
+# GetPresharedKeyForId_IN structure (iscsiop.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061 structure"]
 ms.keywords: D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061, D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061 structure
+# D3D12DDICAPS_QUERY_META_COMMAND_CAPS_0061 structure (d3d12umddi.h)
+
+
 
 
 ## -description

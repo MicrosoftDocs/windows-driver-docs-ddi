@@ -6,6 +6,7 @@ ms.date: 07/17/2024
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure
+# D3DKMT_MULTIPLANE_OVERLAY_ATTRIBUTES structure (d3dkmthk.h)
+
+
 
 ## -description
 

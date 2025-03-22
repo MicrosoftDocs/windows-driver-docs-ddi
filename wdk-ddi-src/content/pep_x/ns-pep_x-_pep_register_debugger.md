@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_REGISTER_DEBUGGER structure"]
 ms.keywords: "*PPEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER, PEP_REGISTER_DEBUGGER structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_DEBUGGER, PPEP_REGISTER_DEBUGGER structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_DEBUGGER, kernel.pep_register_debugger, pepfx/PEP_REGISTER_DEBUGGER, pepfx/PPEP_REGISTER_DEBUGGER"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_REGISTER_DEBUGGER
 ---
 
-# _PEP_REGISTER_DEBUGGER structure (pep_x.h)
+# PEP_REGISTER_DEBUGGER structure (pep_x.h)
+
+
 
 
 ## -description

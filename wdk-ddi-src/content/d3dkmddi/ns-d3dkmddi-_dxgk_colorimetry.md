@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_COLORIMETRY structure"]
 ms.keywords: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY, DXGK_COLORIMETRY structure [Display Devices], PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], _DXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, display.dxgk_colorimetry"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_COLORIMETRY
 ---
 
-# _DXGK_COLORIMETRY structure
+# DXGK_COLORIMETRY structure (d3dkmddi.h)
+
+
 
 
 ## -description

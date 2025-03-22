@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_CONTROL_GET_INTERFACE_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_GET_INTERFACE_REQUEST, _URB_CONTROL_GET_INTERFACE_REQUEST structure [Buses], buses._urb_control_get_interface_request, usb/_URB_CONTROL_GET_INTERFACE_REQUEST, usbstrct_b0ec613c-60c0-4043-9506-5c0ede728380.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_CONTROL_GET_INTERFACE_REQUEST
 ---
 
-# _URB_CONTROL_GET_INTERFACE_REQUEST structure
+# _URB_CONTROL_GET_INTERFACE_REQUEST structure (usb.h)
+
+
 
 
 ## -description

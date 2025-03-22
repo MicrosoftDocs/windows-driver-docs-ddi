@@ -5,6 +5,7 @@ description: Identifies a flip present-history token.
 ms.date: 04/10/2024
 keywords: ["D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -35,7 +36,9 @@ api_name:
  - D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN
 ---
 
-# D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure
+# D3DKMT_FLIPMANAGER_PRESENTHISTORYTOKEN structure (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_CLASS_INTERFACE structure"]
 ms.keywords: "*PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE structure [Buses], _USBFN_CLASS_INTERFACE, buses.usbfn_class_interface, usbfnbase/PUSBFN_CLASS_INTERFACE, usbfnbase/USBFN_CLASS_INTERFACE"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_CLASS_INTERFACE
 ---
 
-# _USBFN_CLASS_INTERFACE structure
+# USBFN_CLASS_INTERFACE structure (usbfnbase.h)
+
+
 
 
 ## -description

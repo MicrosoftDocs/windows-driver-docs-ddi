@@ -8,6 +8,7 @@ ms.date: 02/08/2022
 keywords: ["PARENT_HUB_FLAGS structure"]
 ms.keywords: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses], _PARENT_HUB_FLAGS, buses._parent_hub_flags, ucxroothub/_PARENT_HUB_FLAGS"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARENT_HUB_FLAGS
 ---
 
-# _PARENT_HUB_FLAGS structure
+# PARENT_HUB_FLAGS structure (ucxroothub.h)
+
+
 
 ## -description
 

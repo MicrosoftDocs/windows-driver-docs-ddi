@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 04/12/2024
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure"]
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -41,7 +42,9 @@ api_name:
  - D3DDDI_SYNCHRONIZATIONOBJECTINFO2
 ---
 
-# D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure
+# D3DDDI_SYNCHRONIZATIONOBJECTINFO2 structure (d3dukmdt.h)
+
+
 
 ## -description
 

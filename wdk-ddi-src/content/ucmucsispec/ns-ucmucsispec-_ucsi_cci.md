@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_CCI structure"]
 ms.keywords: _UCSI_CCI, UCSI_CCI, *PUCSI_CCI,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_CCI
 ---
 
-# _UCSI_CCI structure
+# UCSI_CCI structure (ucmucsispec.h)
+
+
 
 
 ## -description

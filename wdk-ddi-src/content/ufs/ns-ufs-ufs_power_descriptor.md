@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["UFS_POWER_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR, PUFS_POWER_DESCRIPTOR structure pointer [Storage Devices], UFS_POWER_DESCRIPTOR, UFS_POWER_DESCRIPTOR structure [Storage Devices], storage.ufs_power_descriptor, ufs/PUFS_POWER_DESCRIPTOR, ufs/UFS_POWER_DESCRIPTOR"
 req.header: ufs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -43,7 +44,9 @@ api_name:
  - UFS_POWER_DESCRIPTOR
 ---
 
-# UFS_POWER_DESCRIPTOR structure
+# UFS_POWER_DESCRIPTOR structure (ufs.h)
+
+
 
 
 ## -description

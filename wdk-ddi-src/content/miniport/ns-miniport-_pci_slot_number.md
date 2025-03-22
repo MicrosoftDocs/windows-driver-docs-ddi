@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PCI_SLOT_NUMBER structure"]
 ms.keywords: "*PPCI_SLOT_NUMBER, PCI_SLOT_NUMBER, PCI_SLOT_NUMBER structure [Kernel-Mode Driver Architecture], PPCI_SLOT_NUMBER, PPCI_SLOT_NUMBER structure pointer [Kernel-Mode Driver Architecture], _PCI_SLOT_NUMBER, kernel.pci_slot_number, kstruct_c_e9aa5e88-0c5d-4740-80f3-4b59da610598.xml, wdm/PCI_SLOT_NUMBER, wdm/PPCI_SLOT_NUMBER"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_SLOT_NUMBER
 ---
 
-# _PCI_SLOT_NUMBER structure (miniport.h)
+# PCI_SLOT_NUMBER structure (miniport.h)
+
+
 
 
 ## -description

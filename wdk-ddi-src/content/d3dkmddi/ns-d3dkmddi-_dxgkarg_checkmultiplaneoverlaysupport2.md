@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure [Display Devices], _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, d3dkmddi/DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2, display.dxgkarg_checkmultiplaneoverlaysupport2"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2
 ---
 
-# _DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure
+# DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT2 structure (d3dkmddi.h)
+
+
 
 > [!NOTE] This structure has been replaced by [DXGKARG_CHECKMULTIPLANEOVERLAYSUPPORT3](ns-d3dkmddi-_dxgkarg_checkmultiplaneoverlaysupport3.md)
 

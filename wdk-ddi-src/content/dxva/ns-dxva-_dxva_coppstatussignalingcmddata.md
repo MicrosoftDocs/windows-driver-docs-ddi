@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_COPPStatusSignalingCmdData structure"]
 ms.keywords: DXVA_COPPStatusSignalingCmdData, DXVA_COPPStatusSignalingCmdData structure [Display Devices], _DXVA_COPPStatusSignalingCmdData, display.dxva_coppstatussignalingcmddata, dxva/DXVA_COPPStatusSignalingCmdData, dxvaref_6a90a0a1-2173-4698-9e3d-83db1d5062f2.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_COPPStatusSignalingCmdData
 ---
 
-# _DXVA_COPPStatusSignalingCmdData structure
+# DXVA_COPPStatusSignalingCmdData structure (dxva.h)
+
+
 
 
 ## -description

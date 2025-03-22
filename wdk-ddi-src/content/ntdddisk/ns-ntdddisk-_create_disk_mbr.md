@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CREATE_DISK_MBR structure"]
 ms.keywords: "*PCREATE_DISK_MBR, CREATE_DISK_MBR, CREATE_DISK_MBR structure [Storage Devices], PCREATE_DISK_MBR, PCREATE_DISK_MBR structure pointer [Storage Devices], _CREATE_DISK_MBR, ntdddisk/CREATE_DISK_MBR, ntdddisk/PCREATE_DISK_MBR, storage.create_disk_mbr, structs-disk_680fcaf9-080c-4e38-be53-ed9899539d9b.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CREATE_DISK_MBR
 ---
 
-# _CREATE_DISK_MBR structure
+# CREATE_DISK_MBR structure (ntdddisk.h)
+
+
 
 
 ## -description

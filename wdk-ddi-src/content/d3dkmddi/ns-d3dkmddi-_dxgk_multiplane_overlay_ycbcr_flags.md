@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 
-# _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure
+# DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

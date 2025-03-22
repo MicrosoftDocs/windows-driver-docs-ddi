@@ -8,6 +8,7 @@ ms.date: 03/12/2021
 keywords: ["LAMP_CAPABILITIES_COLOR structure"]
 ms.keywords: LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_COLOR, stream.lamp_capabilities_color
 req.header: lamp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - LAMP_CAPABILITIES_COLOR
 ---
 
-# LAMP_CAPABILITIES_COLOR structure
+# LAMP_CAPABILITIES_COLOR structure (lamp.h)
+
+
 
 ## -description
 

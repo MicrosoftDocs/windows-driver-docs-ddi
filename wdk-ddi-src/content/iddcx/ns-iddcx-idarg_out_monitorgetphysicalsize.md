@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["IDARG_OUT_MONITORGETPHYSICALSIZE structure"]
 ms.keywords: IDARG_OUT_MONITORGETPHYSICALSIZE, ,
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# IDARG_OUT_MONITORGETPHYSICALSIZE structure
+# IDARG_OUT_MONITORGETPHYSICALSIZE structure (iddcx.h)
+
+
 
 
 ## -description

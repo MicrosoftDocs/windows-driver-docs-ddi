@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_FILTER_INTERFACE structure"]
 ms.keywords: "*PNDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE, NDIS_FILTER_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_INTERFACE, PNDIS_FILTER_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_INTERFACE, filter_structures_ref_ec1f81f5-4aac-4e69-a8e1-96bc0c5f9958.xml, ndis/NDIS_FILTER_INTERFACE, ndis/PNDIS_FILTER_INTERFACE, netvista.ndis_filter_interface"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_FILTER_INTERFACE
 ---
 
-# _NDIS_FILTER_INTERFACE structure
+# NDIS_FILTER_INTERFACE structure (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NEIGHBOR_OFFLOAD_STATE_DELEGATED structure"]
 ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_DELEGATED, PNEIGHBOR_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_DELEGATED, netvista.neighbor_offload_state_delegated, tcp_chim_struct_860c3a42-4276-4a6e-92c2-c32bc1afa9b2.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NEIGHBOR_OFFLOAD_STATE_DELEGATED
 ---
 
-# _NEIGHBOR_OFFLOAD_STATE_DELEGATED structure
+# NEIGHBOR_OFFLOAD_STATE_DELEGATED structure (ndischimney.h)
+
+
 
 
 ## -description

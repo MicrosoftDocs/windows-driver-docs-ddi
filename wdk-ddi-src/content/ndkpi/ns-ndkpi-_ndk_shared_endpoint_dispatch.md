@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_SHARED_ENDPOINT_DISPATCH structure"]
 ms.keywords: NDK_SHARED_ENDPOINT_DISPATCH, NDK_SHARED_ENDPOINT_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_SHARED_ENDPOINT_DISPATCH, ndkpi/NDK_SHARED_ENDPOINT_DISPATCH, netvista.ndk_shared_endpoint_dispatch
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_SHARED_ENDPOINT_DISPATCH
 ---
 
-# _NDK_SHARED_ENDPOINT_DISPATCH structure
+# NDK_SHARED_ENDPOINT_DISPATCH structure (ndkpi.h)
+
+
 
 
 ## -description

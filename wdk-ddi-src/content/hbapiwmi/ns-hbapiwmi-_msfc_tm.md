@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_TM structure"]
 ms.keywords: "*PMSFC_TM, MSFC_TM, MSFC_TM structure [Storage Devices], PMSFC_TM, PMSFC_TM structure pointer [Storage Devices], _MSFC_TM, hbapiwmi/MSFC_TM, hbapiwmi/PMSFC_TM, storage.msfc_tm, structs-Fibre_5cca5127-bbcc-4a2f-9ad2-2daeecac1448.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_TM
 ---
 
-# _MSFC_TM structure
+# MSFC_TM structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["PDEV_HOSTFONT_ENABLED structure"]
 ms.keywords: PDEV_HOSTFONT_ENABLED, PDEV_HOSTFONT_ENABLED structure [Print Devices], _PDEV_HOSTFONT_ENABLED, print.pdev_hostfont_enabled, print_unidrv-pscript_rendering_81f0441f-4e35-493b-92a9-1836977f9c55.xml, printoem/PDEV_HOSTFONT_ENABLED
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _PDEV_HOSTFONT_ENABLED
  - PDEV_HOSTFONT_ENABLED
 ---
+
+# PDEV_HOSTFONT_ENABLED structure (printoem.h)
 
 ## -description
 

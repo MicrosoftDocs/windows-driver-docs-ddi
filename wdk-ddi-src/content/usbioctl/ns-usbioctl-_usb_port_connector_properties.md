@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_PORT_CONNECTOR_PROPERTIES structure"]
 ms.keywords: "*PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES, PUSB_PORT_CONNECTOR_PROPERTIES structure pointer [Buses], USB_PORT_CONNECTOR_PROPERTIES, USB_PORT_CONNECTOR_PROPERTIES structure [Buses], _USB_PORT_CONNECTOR_PROPERTIES, buses.usb_port_connector_properties, usbioctl/PUSB_PORT_CONNECTOR_PROPERTIES, usbioctl/USB_PORT_CONNECTOR_PROPERTIES"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - USB_PORT_CONNECTOR_PROPERTIES
 ---
 
-# _USB_PORT_CONNECTOR_PROPERTIES structure
+# USB_PORT_CONNECTOR_PROPERTIES structure (usbioctl.h)
+
+
 
 
 ## -description

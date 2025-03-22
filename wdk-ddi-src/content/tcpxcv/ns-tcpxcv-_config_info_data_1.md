@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["CONFIG_INFO_DATA_1 structure"]
 ms.keywords: "*PCONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1, CONFIG_INFO_DATA_1 structure [Print Devices], PCONFIG_INFO_DATA_1, PCONFIG_INFO_DATA_1 structure pointer [Print Devices], _CONFIG_INFO_DATA_1, print.config_info_data_1, spoolfnc_b18027cc-7df5-452c-81cd-b62bfa5395f3.xml, tcpxcv/CONFIG_INFO_DATA_1, tcpxcv/PCONFIG_INFO_DATA_1"
 req.header: tcpxcv.h
+req.construct-type: structure
 req.include-header: Tcpxcv.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CONFIG_INFO_DATA_1
 ---
 
-# _CONFIG_INFO_DATA_1 structure
+# CONFIG_INFO_DATA_1 structure (tcpxcv.h)
+
+
 
 
 ## -description

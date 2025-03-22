@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_BDA_ANTENNA structure"]
 ms.keywords: "*PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], PKS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], bdamedia/KS_DATARANGE_BDA_ANTENNA, bdamedia/PKS_DATARANGE_BDA_ANTENNA, bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, stream.ks_datarange_bda_antenna, tagKS_DATARANGE_BDA_ANTENNA"
 req.header: bdamedia.h
+req.construct-type: structure
 req.include-header: Bdamedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATARANGE_BDA_ANTENNA
 ---
 
-# tagKS_DATARANGE_BDA_ANTENNA structure
+# tagKS_DATARANGE_BDA_ANTENNA structure (bdamedia.h)
+
+
 
 
 ## -description

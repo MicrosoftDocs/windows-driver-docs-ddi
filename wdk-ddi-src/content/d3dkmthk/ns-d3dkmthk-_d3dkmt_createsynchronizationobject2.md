@@ -5,6 +5,7 @@ description: Learn more about the D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure.
 ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -41,7 +42,9 @@ api_name:
  - D3DKMT_CREATESYNCHRONIZATIONOBJECT2
 ---
 
-# D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure
+# D3DKMT_CREATESYNCHRONIZATIONOBJECT2 structure (d3dkmthk.h)
+
+
 
 ## -description
 

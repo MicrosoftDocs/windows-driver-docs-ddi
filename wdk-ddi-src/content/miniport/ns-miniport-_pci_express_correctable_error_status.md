@@ -7,6 +7,7 @@ ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_CORRECTABLE_ERROR_STATUS structure"]
 ms.keywords: "*PPCI_CORRECTABLE_ERROR_STATUS, PCI.pci_express_correctable_error_status, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, PCI_EXPRESS_CORRECTABLE_ERROR_STATUS union [Buses], PPCI_CORRECTABLE_ERROR_STATUS, PPCI_CORRECTABLE_ERROR_STATUS union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, pci_struct_1366a090-7405-4cd8-b725-19753a248441.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_STATUS, wdm/PPCI_CORRECTABLE_ERROR_STATUS"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_CORRECTABLE_ERROR_STATUS
  - PCI_EXPRESS_CORRECTABLE_ERROR_STATUS
 ---
+
+# PPCI_CORRECTABLE_ERROR_STATUS structure (miniport.h)
 
 ## -description
 

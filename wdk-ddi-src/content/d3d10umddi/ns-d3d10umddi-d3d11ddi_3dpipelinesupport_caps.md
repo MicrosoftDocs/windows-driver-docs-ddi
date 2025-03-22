@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDI_3DPIPELINESUPPORT_CAPS structure"]
 ms.keywords: D3D11DDI_3DPIPELINESUPPORT_CAPS, D3D11DDI_3DPIPELINESUPPORT_CAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_dc9a2de4-8fcf-4cd4-9c59-cc57941cab00.xml, d3d10umddi/D3D11DDI_3DPIPELINESUPPORT_CAPS, display.d3d11ddi_3dpipelinesupport_caps
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDI_3DPIPELINESUPPORT_CAPS is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDI_3DPIPELINESUPPORT_CAPS
 ---
 
-# D3D11DDI_3DPIPELINESUPPORT_CAPS structure
+# D3D11DDI_3DPIPELINESUPPORT_CAPS structure (d3d10umddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/10/2023
 keywords: ["KS_DVDCOPY_TITLEKEY structure"]
 ms.keywords: "*PKS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY, KS_DVDCOPY_TITLEKEY structure [Streaming Media Devices], PKS_DVDCOPY_TITLEKEY, PKS_DVDCOPY_TITLEKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_TITLEKEY, dvdref_58692699-8652-436a-92d5-2284c4d30265.xml, ksmedia/KS_DVDCOPY_TITLEKEY, ksmedia/PKS_DVDCOPY_TITLEKEY, stream.ks_dvdcopy_titlekey"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PKS_DVDCOPY_TITLEKEY
  - KS_DVDCOPY_TITLEKEY
 ---
+
+# KS_DVDCOPY_TITLEKEY structure (ksmedia.h)
 
 ## -description
 

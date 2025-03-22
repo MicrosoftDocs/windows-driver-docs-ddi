@@ -6,6 +6,7 @@ ms.date: 07/26/2023
 keywords: ["SymbolSearchInfo structure"]
 ms.keywords: SymbolSearchInfo, ,
 req.header: dbgmodel.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - SymbolSearchInfo
 ---
 
-# SymbolSearchInfo structure
+# SymbolSearchInfo structure (dbgmodel.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["USBSCAN_PIPE_CONFIGURATION structure"]
 ms.keywords: "*PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION, PUSBSCAN_PIPE_CONFIGURATION structure pointer [Imaging Devices], USBSCAN_PIPE_CONFIGURATION, USBSCAN_PIPE_CONFIGURATION structure [Imaging Devices], _USBSCAN_PIPE_CONFIGURATION, image.usbscan_pipe_configuration, stifnc_b18d3edd-f392-4b68-82e4-10f870c18f6a.xml, usbscan/PUSBSCAN_PIPE_CONFIGURATION, usbscan/USBSCAN_PIPE_CONFIGURATION"
 req.header: usbscan.h
+req.construct-type: structure
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBSCAN_PIPE_CONFIGURATION
 ---
 
-# _USBSCAN_PIPE_CONFIGURATION structure
+# USBSCAN_PIPE_CONFIGURATION structure (usbscan.h)
+
+
 
 
 ## -description

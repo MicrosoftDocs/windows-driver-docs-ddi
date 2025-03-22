@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CIP_TALK structure"]
 ms.keywords: "*PCIP_TALK, 61883/CIP_TALK, 61883/PCIP_TALK, CIP_TALK, CIP_TALK structure [Buses], IEEE.cip_talk, PCIP_TALK, PCIP_TALK structure pointer [Buses], _CIP_TALK"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_TALK
 ---
 
-# _CIP_TALK structure
+# CIP_TALK structure (61883.h)
+
+
 
 
 ## -description

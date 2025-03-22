@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSRELATIVEEVENT structure"]
 ms.keywords: KSRELATIVEEVENT, KSRELATIVEEVENT , KSRELATIVEEVENT structure [Streaming Media Devices], ks-struct_d79f6a15-6e44-4d81-b4f1-c113cbc2ee79.xml, ks/KSRELATIVEEVENT, stream.ksrelativeevent
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSRELATIVEEVENT
 ---
 
-# KSRELATIVEEVENT structure
+# KSRELATIVEEVENT structure (ks.h)
+
+
 
 
 ## -description

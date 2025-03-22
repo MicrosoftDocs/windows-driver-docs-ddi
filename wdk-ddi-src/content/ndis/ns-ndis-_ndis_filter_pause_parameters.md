@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_FILTER_PAUSE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS, NDIS_FILTER_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_PAUSE_PARAMETERS, PNDIS_FILTER_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_PAUSE_PARAMETERS, filter_structures_ref_78bd5df6-c235-4af1-9b2f-1ddce38a0017.xml, ndis/NDIS_FILTER_PAUSE_PARAMETERS, ndis/PNDIS_FILTER_PAUSE_PARAMETERS, netvista.ndis_filter_pause_parameters"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_FILTER_PAUSE_PARAMETERS
 ---
 
-# _NDIS_FILTER_PAUSE_PARAMETERS structure
+# NDIS_FILTER_PAUSE_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

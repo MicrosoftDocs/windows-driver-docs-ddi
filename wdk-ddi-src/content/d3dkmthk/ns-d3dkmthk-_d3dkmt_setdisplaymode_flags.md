@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SETDISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMT_SETDISPLAYMODE_FLAGS, D3DKMT_SETDISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_28412793-06ae-4e0d-9461-8e7cbcea8779.xml, _D3DKMT_SETDISPLAYMODE_FLAGS, d3dkmthk/D3DKMT_SETDISPLAYMODE_FLAGS, display.d3dkmt_setdisplaymode_flags
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_SETDISPLAYMODE_FLAGS is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SETDISPLAYMODE_FLAGS
 ---
 
-# _D3DKMT_SETDISPLAYMODE_FLAGS structure
+# D3DKMT_SETDISPLAYMODE_FLAGS structure (d3dkmthk.h)
+
+
 
 
 ## -description

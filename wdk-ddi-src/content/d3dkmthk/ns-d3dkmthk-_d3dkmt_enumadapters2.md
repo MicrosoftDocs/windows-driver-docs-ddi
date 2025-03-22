@@ -6,6 +6,7 @@ ms.date: 08/30/2022
 keywords: ["D3DKMT_ENUMADAPTERS2 structure"]
 ms.keywords: _D3DKMT_ENUMADAPTERS2, D3DKMT_ENUMADAPTERS2,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_ENUMADAPTERS2 structure
+# D3DKMT_ENUMADAPTERS2 structure (d3dkmthk.h)
+
+
 
 ## -description
 

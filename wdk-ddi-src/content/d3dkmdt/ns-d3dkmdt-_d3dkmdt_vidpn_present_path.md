@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH, D3DKMDT_VIDPN_PRESENT_PATH structure [Display Devices], DmStructs_7cf350db-f1fa-492f-96d2-9ad806f2b75a.xml, _D3DKMDT_VIDPN_PRESENT_PATH, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH, display.d3dkmdt_vidpn_present_path
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_VIDPN_PRESENT_PATH
 ---
 
-# _D3DKMDT_VIDPN_PRESENT_PATH structure
+# D3DKMDT_VIDPN_PRESENT_PATH structure (d3dkmdt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_ISDBCAS_RESPONSEDATA structure"]
 ms.keywords: "*PBDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA structure [Streaming Media Devices], PBDA_ISDBCAS_RESPONSEDATA, PBDA_ISDBCAS_RESPONSEDATA structure pointer [Streaming Media Devices], _BDA_ISDBCAS_RESPONSEDATA, bdatypes/BDA_ISDBCAS_RESPONSEDATA, bdatypes/PBDA_ISDBCAS_RESPONSEDATA, stream.bda_isdbcas_responsedata"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_ISDBCAS_RESPONSEDATA
 ---
 
-# _BDA_ISDBCAS_RESPONSEDATA structure
+# BDA_ISDBCAS_RESPONSEDATA structure (bdatypes.h)
+
+
 
 
 ## -description

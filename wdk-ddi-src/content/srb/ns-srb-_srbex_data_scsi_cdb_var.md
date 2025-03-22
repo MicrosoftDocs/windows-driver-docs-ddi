@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SRBEX_DATA_SCSI_CDB_VAR structure"]
 ms.keywords: "*PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR, PSRBEX_DATA_SCSI_CDB_VAR structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB_VAR, SRBEX_DATA_SCSI_CDB_VAR structure [Storage Devices], _SRBEX_DATA_SCSI_CDB_VAR, storage.srbex_data_scsi_cdb_var, storport/PSRBEX_DATA_SCSI_CDB_VAR, storport/SRBEX_DATA_SCSI_CDB_VAR"
 req.header: srb.h
+req.construct-type: structure
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SRBEX_DATA_SCSI_CDB_VAR
 ---
 
-# _SRBEX_DATA_SCSI_CDB_VAR structure (srb.h)
+# SRBEX_DATA_SCSI_CDB_VAR structure (srb.h)
+
+
 
 
 ## -description

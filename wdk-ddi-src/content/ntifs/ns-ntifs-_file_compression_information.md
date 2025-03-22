@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_COMPRESSION_INFORMATION structure"]
 ms.keywords: "*PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, ifsk.file_compression_information, ntifs/FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_COMPRESSION_INFORMATION
 ---
 
-# _FILE_COMPRESSION_INFORMATION structure
+# FILE_COMPRESSION_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

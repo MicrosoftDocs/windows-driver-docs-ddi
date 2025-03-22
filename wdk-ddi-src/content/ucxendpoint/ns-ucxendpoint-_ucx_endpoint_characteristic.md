@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_ENDPOINT_CHARACTERISTIC structure"]
 ms.keywords: "*PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC, PUCX_ENDPOINT_CHARACTERISTIC structure pointer [Buses], UCX_ENDPOINT_CHARACTERISTIC, UCX_ENDPOINT_CHARACTERISTIC structure [Buses], _UCX_ENDPOINT_CHARACTERISTIC, buses.ucx_endpoint_characteristic, ucxendpoint/PUCX_ENDPOINT_CHARACTERISTIC, ucxendpoint/UCX_ENDPOINT_CHARACTERISTIC"
 req.header: ucxendpoint.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - UCX_ENDPOINT_CHARACTERISTIC
 ---
 
-# _UCX_ENDPOINT_CHARACTERISTIC structure
+# UCX_ENDPOINT_CHARACTERISTIC structure (ucxendpoint.h)
+
+
 
 
 ## -description

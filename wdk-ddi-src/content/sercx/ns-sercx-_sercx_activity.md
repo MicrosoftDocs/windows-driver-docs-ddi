@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX_ACTIVITY structure"]
 ms.keywords: "*PSERCX_ACTIVITY, 1/PSERCX_ACTIVITY, 1/SERCX_ACTIVITY, PSERCX_ACTIVITY, PSERCX_ACTIVITY structure pointer [Serial Ports], SERCX_ACTIVITY, SERCX_ACTIVITY structure [Serial Ports], _SERCX_ACTIVITY, serports.sercx_activity"
 req.header: sercx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SERCX_ACTIVITY
 ---
 
-# _SERCX_ACTIVITY structure
+# SERCX_ACTIVITY structure (sercx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_CAS_OPENMMIDATA structure"]
 ms.keywords: "*PBDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA, BDA_CAS_OPENMMIDATA structure [Streaming Media Devices], PBDA_CAS_OPENMMIDATA, PBDA_CAS_OPENMMIDATA structure pointer [Streaming Media Devices], _BDA_CAS_OPENMMIDATA, bdatypes/BDA_CAS_OPENMMIDATA, bdatypes/PBDA_CAS_OPENMMIDATA, stream.bda_cas_openmmidata"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_CAS_OPENMMIDATA
 ---
 
-# _BDA_CAS_OPENMMIDATA structure
+# BDA_CAS_OPENMMIDATA structure (bdatypes.h)
+
+
 
 
 ## -description

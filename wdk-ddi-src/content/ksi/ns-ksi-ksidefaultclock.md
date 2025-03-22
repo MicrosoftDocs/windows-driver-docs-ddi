@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSIDEFAULTCLOCK structure"]
 ms.keywords: "*PKSIDEFAULTCLOCK, KSIDEFAULTCLOCK, KSIDEFAULTCLOCK structure [Streaming Media Devices], PKSIDEFAULTCLOCK, PKSIDEFAULTCLOCK structure pointer [Streaming Media Devices], ksi/KSIDEFAULTCLOCK, ksi/PKSIDEFAULTCLOCK, stream.ksidefaultclock"
 req.header: ksi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSIDEFAULTCLOCK
 ---
 
-# KSIDEFAULTCLOCK structure
+# KSIDEFAULTCLOCK structure (ksi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DATA_SET_REPAIR_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS, DEVICE_DATA_SET_REPAIR_PARAMETERS structure [Storage Devices], PDEVICE_DATA_SET_REPAIR_PARAMETERS, PDEVICE_DATA_SET_REPAIR_PARAMETERS structure pointer [Storage Devices], _DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/DEVICE_DATA_SET_REPAIR_PARAMETERS, ntddstor/PDEVICE_DATA_SET_REPAIR_PARAMETERS, storage.device_data_set_repair_parameters"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_DATA_SET_REPAIR_PARAMETERS
 ---
 
-# _DEVICE_DATA_SET_REPAIR_PARAMETERS structure
+# DEVICE_DATA_SET_REPAIR_PARAMETERS structure (ntddstor.h)
+
+
 
 
 ## -description

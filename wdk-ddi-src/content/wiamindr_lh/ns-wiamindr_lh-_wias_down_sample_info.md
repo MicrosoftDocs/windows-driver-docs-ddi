@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_DOWN_SAMPLE_INFO structure"]
 ms.keywords: "*PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO, PWIAS_DOWN_SAMPLE_INFO structure pointer [Imaging Devices], WIAS_DOWN_SAMPLE_INFO, WIAS_DOWN_SAMPLE_INFO structure [Imaging Devices], _WIAS_DOWN_SAMPLE_INFO, image.wias_down_sample_info, wiamindr_lh/PWIAS_DOWN_SAMPLE_INFO, wiamindr_lh/WIAS_DOWN_SAMPLE_INFO, wiastrct_f7468047-47a4-4c3a-ada4-3bf329b32304.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WIAS_DOWN_SAMPLE_INFO
 ---
 
-# _WIAS_DOWN_SAMPLE_INFO structure
+# WIAS_DOWN_SAMPLE_INFO structure (wiamindr_lh.h)
+
+
 
 
 ## -description

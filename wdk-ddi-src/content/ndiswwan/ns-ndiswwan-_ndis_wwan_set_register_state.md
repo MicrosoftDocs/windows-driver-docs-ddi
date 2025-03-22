@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SET_REGISTER_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE, NDIS_WWAN_SET_REGISTER_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_REGISTER_STATE, PNDIS_WWAN_SET_REGISTER_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_272f8215-ddf9-45b0-b47c-13e12a5a22a8.xml, _NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/NDIS_WWAN_SET_REGISTER_STATE, ndiswwan/PNDIS_WWAN_SET_REGISTER_STATE, netvista.ndis_wwan_set_register_state"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_SET_REGISTER_STATE
 ---
 
-# _NDIS_WWAN_SET_REGISTER_STATE structure
+# NDIS_WWAN_SET_REGISTER_STATE structure (ndiswwan.h)
+
+
 
 
 ## -description

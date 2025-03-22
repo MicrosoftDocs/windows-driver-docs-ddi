@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2LINELIST structure"]
 ms.keywords: "*LPD3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST, D3DHAL_DP2LINELIST structure [Display Devices], LPD3DHAL_DP2LINELIST, LPD3DHAL_DP2LINELIST structure pointer [Display Devices], _D3DHAL_DP2LINELIST, d3dhal/D3DHAL_DP2LINELIST, d3dhal/LPD3DHAL_DP2LINELIST, d3dstrct_e2e04b99-c6fc-4ee3-bcaf-4794814848a0.xml, display.d3dhal_dp2linelist"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DHAL_DP2LINELIST
 ---
 
-# _D3DHAL_DP2LINELIST structure
+# D3DHAL_DP2LINELIST structure (d3dhal.h)
+
+
 
 
 ## -description

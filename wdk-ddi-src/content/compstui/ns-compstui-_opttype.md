@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["OPTTYPE structure"]
 ms.keywords: "*POPTTYPE, OPTTYPE, OPTTYPE structure [Print Devices], POPTTYPE, POPTTYPE structure pointer [Print Devices], _OPTTYPE, compstui/OPTTYPE, compstui/POPTTYPE, cpsuifnc_de1ff2db-9eea-4daf-bc9e-2e24a2dd5271.xml, print.opttype"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - POPTTYPE
  - OPTTYPE
 ---
+
+# OPTTYPE structure (compstui.h)
 
 ## -description
 

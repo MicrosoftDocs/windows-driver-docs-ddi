@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["AVC_PIN_ID structure"]
 ms.keywords: "*PAVC_PIN_ID, AVC_PIN_ID, AVC_PIN_ID structure [Streaming Media Devices], PAVC_PIN_ID, PAVC_PIN_ID structure pointer [Streaming Media Devices], _AVC_PIN_ID, avc/AVC_PIN_ID, avc/PAVC_PIN_ID, avcref_28e8a7a5-a90b-4e1b-ad4c-1a1ccbc405c5.xml, stream.avc_pin_id"
 req.header: avc.h
+req.construct-type: structure
 req.include-header: Avc.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AVC_PIN_ID
 ---
 
-# _AVC_PIN_ID structure
+# AVC_PIN_ID structure (avc.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["CUSTOMSIZEPARAM structure"]
 ms.keywords: "*PCUSTOMSIZEPARAM, CUSTOMSIZEPARAM, CUSTOMSIZEPARAM structure [Print Devices], PCUSTOMSIZEPARAM, PCUSTOMSIZEPARAM structure pointer [Print Devices], _CUSTOMSIZEPARAM, print.customsizeparam, print_unidrv-pscript_ui_ca016241-b74a-43d1-9b45-4deece484d10.xml, printoem/CUSTOMSIZEPARAM, printoem/PCUSTOMSIZEPARAM"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PCUSTOMSIZEPARAM
  - CUSTOMSIZEPARAM
 ---
+
+# CUSTOMSIZEPARAM structure (printoem.h)
 
 ## -description
 

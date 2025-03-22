@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PRE_START_INFO structure"]
 ms.keywords: "*PDXGK_PRE_START_INFO, DXGK_PRE_START_INFO, DXGK_PRE_START_INFO structure [Display Devices], PDXGK_PRE_START_INFO, PDXGK_PRE_START_INFO structure pointer [Display Devices], _DXGK_PRE_START_INFO, display.dxgk_pre_start_info, dispmprt/DXGK_PRE_START_INFO, dispmprt/PDXGK_PRE_START_INFO"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_PRE_START_INFO
 ---
 
-# _DXGK_PRE_START_INFO structure
+# DXGK_PRE_START_INFO structure (dispmprt.h)
+
+
 
 
 ## -description

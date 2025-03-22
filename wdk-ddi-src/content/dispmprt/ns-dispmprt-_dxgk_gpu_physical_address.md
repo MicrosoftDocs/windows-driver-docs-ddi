@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_GPU_PHYSICAL_ADDRESS structure"]
 ms.keywords: _DXGK_GPU_PHYSICAL_ADDRESS, DXGK_GPU_PHYSICAL_ADDRESS, *PDXGK_GPU_PHYSICAL_ADDRESS,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_GPU_PHYSICAL_ADDRESS structure
+# DXGK_GPU_PHYSICAL_ADDRESS structure (dispmprt.h)
+
+
 
 
 ## -description

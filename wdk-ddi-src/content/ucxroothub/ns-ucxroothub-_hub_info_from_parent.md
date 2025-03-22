@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["HUB_INFO_FROM_PARENT structure"]
 ms.keywords: "*PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, buses._hub_info_from_parent, ucxroothub/P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HUB_INFO_FROM_PARENT
 ---
 
-# _HUB_INFO_FROM_PARENT structure
+# HUB_INFO_FROM_PARENT structure (ucxroothub.h)
+
+
 
 
 ## -description

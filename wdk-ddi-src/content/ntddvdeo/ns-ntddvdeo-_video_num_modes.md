@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_NUM_MODES structure"]
 ms.keywords: "*PVIDEO_NUM_MODES, PVIDEO_NUM_MODES, PVIDEO_NUM_MODES structure pointer [Display Devices], VIDEO_NUM_MODES, VIDEO_NUM_MODES structure [Display Devices], Video_Structs_9e999162-309a-4902-8854-172c672bf1ea.xml, _VIDEO_NUM_MODES, display.video_num_modes, ntddvdeo/PVIDEO_NUM_MODES, ntddvdeo/VIDEO_NUM_MODES"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_NUM_MODES
 ---
 
-# _VIDEO_NUM_MODES structure
+# VIDEO_NUM_MODES structure (ntddvdeo.h)
+
+
 
 
 ## -description

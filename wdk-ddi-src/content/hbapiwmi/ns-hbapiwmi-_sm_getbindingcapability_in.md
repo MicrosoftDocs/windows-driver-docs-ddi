@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_GetBindingCapability_IN structure"]
 ms.keywords: "*PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN, PSM_GetBindingCapability_IN structure pointer [Storage Devices], SM_GetBindingCapability_IN, SM_GetBindingCapability_IN structure [Storage Devices], _SM_GetBindingCapability_IN, hbapiwmi/PSM_GetBindingCapability_IN, hbapiwmi/SM_GetBindingCapability_IN, storage.sm_getbindingcapability_in, structs-Fibre_0aed53e6-0683-4d6c-94c7-30ee531084ab.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_GetBindingCapability_IN
 ---
 
-# _SM_GetBindingCapability_IN structure
+# SM_GetBindingCapability_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

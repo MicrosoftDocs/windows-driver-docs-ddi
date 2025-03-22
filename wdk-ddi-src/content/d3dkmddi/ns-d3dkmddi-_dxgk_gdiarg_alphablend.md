@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_GDIARG_ALPHABLEND structure"]
 ms.keywords: DXGK_GDIARG_ALPHABLEND, DXGK_GDIARG_ALPHABLEND structure [Display Devices], DmStructs_8cbd2c26-3cda-445f-807d-e80038ccc8bd.xml, _DXGK_GDIARG_ALPHABLEND, d3dkmddi/DXGK_GDIARG_ALPHABLEND, display.dxgk_gdiarg_alphablend
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_GDIARG_ALPHABLEND
 ---
 
-# DXGK_GDIARG_ALPHABLEND structure
+# DXGK_GDIARG_ALPHABLEND structure (d3dkmddi.h)
+
+
 
 ## -description
 

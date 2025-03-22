@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DRIVERSTATUS structure"]
 ms.keywords: "*LPDRIVERSTATUS, *PDRIVERSTATUS, DRIVERSTATUS, DRIVERSTATUS structure [Storage Devices], LPDRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], PDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], _DRIVERSTATUS, ntdddisk/DRIVERSTATUS, ntdddisk/LPDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, storage.driverstatus, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DRIVERSTATUS
 ---
 
-# _DRIVERSTATUS structure
+# DRIVERSTATUS structure (ntdddisk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/13/2021
 keywords: ["STOR_CRYPTO_OPERATION structure"]
 ms.keywords: _STOR_CRYPTO_OPERATION, STOR_CRYPTO_OPERATION, *PSTOR_CRYPTO_OPERATION,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_name:
  - PSTOR_CRYPTO_OPERATION
  - STOR_CRYPTO_OPERATION
 ---
+
+# STOR_CRYPTO_OPERATION structure (storport.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ keywords: ["USBPM_CONNECTOR_PROPERTIES structure"]
 tech.root: usbref
 ms.keywords: _USBPM_CONNECTOR_PROPERTIES, USBPM_CONNECTOR_PROPERTIES, *PUSBPM_CONNECTOR_PROPERTIES,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_CONNECTOR_PROPERTIES
 ---
 
-# _USBPM_CONNECTOR_PROPERTIES structure
+# USBPM_CONNECTOR_PROPERTIES structure (usbpmapi.h)
+
+
 
 
 ## -description

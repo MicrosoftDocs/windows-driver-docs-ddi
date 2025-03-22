@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR, storage.ses_download_microcode_status_descriptor"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR
 ---
 
-# _SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure (minitape.h)
+# SES_DOWNLOAD_MICROCODE_STATUS_DESCRIPTOR structure (minitape.h)
+
+
 
 
 ## -description

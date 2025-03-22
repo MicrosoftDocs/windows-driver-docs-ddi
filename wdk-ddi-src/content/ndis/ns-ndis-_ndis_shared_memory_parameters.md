@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SHARED_MEMORY_PARAMETERS structure"]
 ms.keywords: "*PNDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS, NDIS_SHARED_MEMORY_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_PARAMETERS, PNDIS_SHARED_MEMORY_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SHARED_MEMORY_PARAMETERS, ndis/NDIS_SHARED_MEMORY_PARAMETERS, ndis/PNDIS_SHARED_MEMORY_PARAMETERS, ndis_shared_memory_ref_76b2c89f-c221-42de-ae92-ad10cf2297f2.xml, netvista.ndis_shared_memory_parameters"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SHARED_MEMORY_PARAMETERS
 ---
 
-# _NDIS_SHARED_MEMORY_PARAMETERS structure
+# NDIS_SHARED_MEMORY_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

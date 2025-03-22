@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_VIDEO_PALETTE structure"]
 ms.keywords: "*PKS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE, KS_DATARANGE_VIDEO_PALETTE structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_PALETTE, PKS_DATARANGE_VIDEO_PALETTE structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_PALETTE, ksmedia/PKS_DATARANGE_VIDEO_PALETTE, stream.ks_datarange_video_palette, tagKS_DATARANGE_VIDEO_PALETTE, vidcapstruct_8bba39d4-8ffb-41df-b314-f63fe26d66fa.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATARANGE_VIDEO_PALETTE
 ---
 
-# tagKS_DATARANGE_VIDEO_PALETTE structure
+# tagKS_DATARANGE_VIDEO_PALETTE structure (ksmedia.h)
+
+
 
 
 ## -description

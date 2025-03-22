@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_TEST_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_TEST_IDLE_STATE, kernel.pep_ppm_test_idle_state, pepfx/PEP_PPM_TEST_IDLE_STATE, pepfx/PPEP_PPM_TEST_IDLE_STATE"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_TEST_IDLE_STATE
 ---
 
-# _PEP_PPM_TEST_IDLE_STATE structure (pep_x.h)
+# PEP_PPM_TEST_IDLE_STATE structure (pep_x.h)
+
+
 
 
 ## -description

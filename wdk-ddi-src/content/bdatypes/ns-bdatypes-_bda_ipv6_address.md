@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_IPv6_ADDRESS structure"]
 ms.keywords: "*PBDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS, BDA_IPv6_ADDRESS structure [Streaming Media Devices], PBDA_IPv6_ADDRESS, PBDA_IPv6_ADDRESS structure pointer [Streaming Media Devices], _BDA_IPv6_ADDRESS, bdatypes/BDA_IPv6_ADDRESS, bdatypes/PBDA_IPv6_ADDRESS, stream.bda_ipv6_address"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_IPv6_ADDRESS
 ---
 
-# _BDA_IPv6_ADDRESS structure
+# BDA_IPv6_ADDRESS structure (bdatypes.h)
+
+
 
 
 ## -description

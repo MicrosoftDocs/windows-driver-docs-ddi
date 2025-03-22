@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure"]
 ms.keywords: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c097052f-b667-43a9-8133-172770d9ab70.xml, d3d10umddi/D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW, display.d3d11ddiarg_buffer_unorderedaccessview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW
 ---
 
-# D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure
+# D3D11DDIARG_BUFFER_UNORDEREDACCESSVIEW structure (d3d10umddi.h)
+
+
 
 
 ## -description

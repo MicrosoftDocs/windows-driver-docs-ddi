@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_ROOTHUB_CONFIG structure"]
 ms.keywords: "*PUCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], UCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG structure [Buses], _UCX_ROOTHUB_CONFIG, buses._ucx_roothub_config, ucxroothub/P_UCX_ROOTHUB_CONFIG, ucxroothub/_UCX_ROOTHUB_CONFIG"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UCX_ROOTHUB_CONFIG
 ---
 
-# _UCX_ROOTHUB_CONFIG structure
+# UCX_ROOTHUB_CONFIG structure (ucxroothub.h)
+
+
 
 
 ## -description

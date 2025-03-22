@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FILE_ALLOCATION_INFORMATION structure"]
 ms.keywords: "*PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers], PFILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ifsk.file_allocation_information, ntifs/FILE_ALLOCATION_INFORMATION, ntifs/PFILE_ALLOCATION_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - FILE_ALLOCATION_INFORMATION
 ---
 
-# FILE_ALLOCATION_INFORMATION structure
+# FILE_ALLOCATION_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

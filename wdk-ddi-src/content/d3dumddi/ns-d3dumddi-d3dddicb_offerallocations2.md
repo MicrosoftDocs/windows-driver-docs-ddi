@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDICB_OFFERALLOCATIONS2 structure"]
 ms.keywords: D3DDDICB_OFFERALLOCATIONS2, D3DDDICB_OFFERALLOCATIONS2,
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDICB_OFFERALLOCATIONS2 structure
+# D3DDDICB_OFFERALLOCATIONS2 structure (d3dumddi.h)
+
+
 
 
 ## -description

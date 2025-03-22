@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_PROCESSOR_IDENTIFICATION_ARM structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ARM, DEBUG_PROCESSOR_IDENTIFICATION_ARM, DEBUG_PROCESSOR_IDENTIFICATION_ARM structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ARM, PDEBUG_PROCESSOR_IDENTIFICATION_ARM structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ARM, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ARM, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ARM, debugger.debug_processor_identification_arm"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_PROCESSOR_IDENTIFICATION_ARM
 ---
 
-# _DEBUG_PROCESSOR_IDENTIFICATION_ARM structure
+# DEBUG_PROCESSOR_IDENTIFICATION_ARM structure (dbgeng.h)
+
+
 
 
 ## -description

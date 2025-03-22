@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["DXGKARG_DISPLAYDETECTCONTROL structure"]
 ms.keywords: DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], PDXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_DISPLAYDETECTCONTROL
 ---
 
-# _DXGKARG_DISPLAYDETECTCONTROL structure
+# DXGKARG_DISPLAYDETECTCONTROL structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetEventBuffer_OUT structure"]
 ms.keywords: "*PGetEventBuffer_OUT, GetEventBuffer_OUT, GetEventBuffer_OUT structure [Storage Devices], PGetEventBuffer_OUT, PGetEventBuffer_OUT structure pointer [Storage Devices], _GetEventBuffer_OUT, hbapiwmi/GetEventBuffer_OUT, hbapiwmi/PGetEventBuffer_OUT, storage.geteventbuffer_out, structs-Fibre_af1916c9-60f8-4601-b9dd-d4575a100d98.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetEventBuffer_OUT
 ---
 
-# _GetEventBuffer_OUT structure
+# GetEventBuffer_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

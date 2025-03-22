@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY structure"]
 ms.keywords: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY, PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY
 ---
 
-# _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY structure
+# PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_CAPABILITY structure (ntddk.h)
+
+
 
 
 ## -description

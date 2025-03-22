@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_STATE structure"]
 ms.keywords: DXGK_BRIGHTNESS_STATE, DXGK_BRIGHTNESS_STATE structure [Display Devices], _DXGK_BRIGHTNESS_STATE, d3dkmdt/DXGK_BRIGHTNESS_STATE, display.dxgk_brightness_state
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_BRIGHTNESS_STATE
 ---
 
-# _DXGK_BRIGHTNESS_STATE structure
+# DXGK_BRIGHTNESS_STATE structure (d3dkmdt.h)
+
+
 
 
 ## -description

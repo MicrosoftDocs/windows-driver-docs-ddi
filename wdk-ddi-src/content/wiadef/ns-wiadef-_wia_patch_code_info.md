@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["WIA_PATCH_CODE_INFO structure"]
 ms.keywords: WIA_PATCH_CODE_INFO, WIA_PATCH_CODE_INFO structure [Imaging Devices], _WIA_PATCH_CODE_INFO, image.wia_patch_code_info, wiadef/WIA_PATCH_CODE_INFO
 req.header: wiadef.h
+req.construct-type: structure
 req.include-header: Wiadef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _WIA_PATCH_CODE_INFO
  - WIA_PATCH_CODE_INFO
 ---
+
+# WIA_PATCH_CODE_INFO structure (wiadef.h)
 
 ## -description
 

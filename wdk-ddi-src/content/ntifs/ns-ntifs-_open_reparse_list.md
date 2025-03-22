@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["OPEN_REPARSE_LIST structure"]
 ms.keywords: "*POPEN_REPARSE_LIST, OPEN_REPARSE_LIST, OPEN_REPARSE_LIST structure [Installable File System Drivers], POPEN_REPARSE_LIST, POPEN_REPARSE_LIST structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST, ifsk.open_reparse_list, ntifs/OPEN_REPARSE_LIST, ntifs/POPEN_REPARSE_LIST"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -46,7 +47,9 @@ api_name:
  - OPEN_REPARSE_LIST
 ---
 
-# _OPEN_REPARSE_LIST structure
+# OPEN_REPARSE_LIST structure (ntifs.h)
+
+
 
 
 ## -description

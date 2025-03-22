@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure [Display Devices], _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES, display.d3dddi_multiplane_overlay_attributes
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES
 ---
 
-# _D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure
+# D3DDDI_MULTIPLANE_OVERLAY_ATTRIBUTES structure (d3dumddi.h)
+
+
 
 
 ## -description

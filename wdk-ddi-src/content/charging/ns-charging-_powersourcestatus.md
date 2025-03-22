@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["POWERSOURCESTATUS structure"]
 ms.keywords: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], _POWERSOURCESTATUS, battery.powersourcestatus, charging/BATTERY_INFORMATION"
 req.header: charging.h
+req.construct-type: structure
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - POWERSOURCESTATUS
 ---
 
-# _POWERSOURCESTATUS structure
+# POWERSOURCESTATUS structure (charging.h)
+
+
 
 ## -description
 

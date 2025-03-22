@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure"]
 ms.keywords: D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure [Display Devices], OpenGL_Structs_a6a0807b-454b-48a4-91d1-26d62e592280.xml, _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, d3dkmthk/D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME, display.d3dkmt_openadapterfromgdidisplayname
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME
 ---
 
-# _D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure
+# D3DKMT_OPENADAPTERFROMGDIDISPLAYNAME structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/15/2022
 keywords: ["WWAN_SET_CONTEXT_STATE structure"]
 ms.keywords: "*PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, _WWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, wwan/PWWAN_SET_CONTEXT_STATE, wwan/WWAN_SET_CONTEXT_STATE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SET_CONTEXT_STATE
 ---
 
-# _WWAN_SET_CONTEXT_STATE structure
+# WWAN_SET_CONTEXT_STATE structure (wwan.h)
+
+
 
 
 ## -description

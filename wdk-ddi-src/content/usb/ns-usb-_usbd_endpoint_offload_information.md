@@ -9,6 +9,7 @@ keywords: ["USBD_ENDPOINT_OFFLOAD_INFORMATION structure"]
 ms.keywords: "*PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION, PUSBD_ENDPOINT_OFFLOAD_INFORMATION structure pointer [Buses], USBD_ENDPOINT_OFFLOAD_INFORMATION, USBD_ENDPOINT_OFFLOAD_INFORMATION structure [Buses], _USBD_ENDPOINT_OFFLOAD_INFORMATION, buses.usbd_endpoint_offload_information, usb/PUSBD_ENDPOINT_OFFLOAD_INFORMATION, usb/USBD_ENDPOINT_OFFLOAD_INFORMATION"
 ai-usage: ai-assisted
 req.header: usb.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -47,7 +48,9 @@ api_name:
  - USBD_ENDPOINT_OFFLOAD_INFORMATION
 ---
 
-# _USBD_ENDPOINT_OFFLOAD_INFORMATION structure
+# USBD_ENDPOINT_OFFLOAD_INFORMATION structure (usb.h)
+
+
 
 ## -description
 

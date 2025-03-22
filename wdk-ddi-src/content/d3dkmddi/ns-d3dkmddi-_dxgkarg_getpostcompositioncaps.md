@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_GETPOSTCOMPOSITIONCAPS structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS, DXGKARG_GETPOSTCOMPOSITIONCAPS structure [Display Devices], _DXGKARG_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKARG_GETPOSTCOMPOSITIONCAPS, display.dxgkarg_getpostcompositioncaps"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_GETPOSTCOMPOSITIONCAPS
 ---
 
-# _DXGKARG_GETPOSTCOMPOSITIONCAPS structure
+# DXGKARG_GETPOSTCOMPOSITIONCAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

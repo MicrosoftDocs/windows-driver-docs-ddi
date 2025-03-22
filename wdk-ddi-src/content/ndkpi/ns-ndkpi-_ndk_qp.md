@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_QP structure"]
 ms.keywords: NDK_QP, NDK_QP structure [Network Drivers Starting with Windows Vista], _NDK_QP, ndkpi/NDK_QP, netvista.ndk_qp
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_QP
 ---
 
-# _NDK_QP structure
+# NDK_QP structure (ndkpi.h)
+
+
 
 
 ## -description

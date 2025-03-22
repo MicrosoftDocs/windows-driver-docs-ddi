@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSGATE structure"]
 ms.keywords: "*PKSGATE, KSGATE, KSGATE structure [Streaming Media Devices], PKSGATE, PKSGATE structure pointer [Streaming Media Devices], _KSGATE, avstruct_b232aae6-2b0a-44f9-beaf-29fe4b7f8b86.xml, ks/KSGATE, ks/PKSGATE, stream.ksgate"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSGATE
 ---
 
-# _KSGATE structure
+# KSGATE structure (ks.h)
+
+
 
 
 ## -description

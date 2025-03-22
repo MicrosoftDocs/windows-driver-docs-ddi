@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WSK_INSPECT_ID structure"]
 ms.keywords: "*PWSK_INSPECT_ID, PWSK_INSPECT_ID, PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], _WSK_INSPECT_ID, netvista.wsk_inspect_id, wsk/PWSK_INSPECT_ID, wsk/WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml"
 req.header: wsk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - WSK_INSPECT_ID
 ---
 
-# _WSK_INSPECT_ID structure
+# WSK_INSPECT_ID structure (wsk.h)
+
+
 
 
 ## -description

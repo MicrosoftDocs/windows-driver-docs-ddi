@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE, display.dxgk_multiplane_overlay_plane_with_source
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE
 ---
 
-# _DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure
+# DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE structure (d3dkmddi.h)
+
+
 
 > [!NOTE] This structure has been replaced by [DXGK_MULTIPLANE_OVERLAY_PLANE_WITH_SOURCE2](ns-d3dkmddi-_dxgk_multiplane_overlay_plane_with_source2.md).
 

@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["OUTPUT_WIRE_FORMAT structure"]
 ms.keywords: OUTPUT_WIRE_FORMAT, OUTPUT_WIRE_FORMAT,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# OUTPUT_WIRE_FORMAT structure
+# OUTPUT_WIRE_FORMAT structure (ntddvdeo.h)
+
+
 
 
 ## -description

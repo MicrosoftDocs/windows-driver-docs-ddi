@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TARGET_DEVICE_CUSTOM_NOTIFICATION structure"]
 ms.keywords: "*PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION, PTARGET_DEVICE_CUSTOM_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], TARGET_DEVICE_CUSTOM_NOTIFICATION, TARGET_DEVICE_CUSTOM_NOTIFICATION structure [Kernel-Mode Driver Architecture], _TARGET_DEVICE_CUSTOM_NOTIFICATION, kernel.target_device_custom_notification, kstruct_d_b83ddfbd-9448-4a91-8a64-ab060ba7614f.xml, wdm/PTARGET_DEVICE_CUSTOM_NOTIFICATION, wdm/TARGET_DEVICE_CUSTOM_NOTIFICATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TARGET_DEVICE_CUSTOM_NOTIFICATION
 ---
 
-# _TARGET_DEVICE_CUSTOM_NOTIFICATION structure
+# TARGET_DEVICE_CUSTOM_NOTIFICATION structure (wdm.h)
+
+
 
 
 ## -description

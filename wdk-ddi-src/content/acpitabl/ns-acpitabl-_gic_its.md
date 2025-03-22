@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GIC_ITS structure"]
 ms.keywords: "*PGIC_ITS, GIC_ITS, GIC_ITS structure [ACPI Devices], _GIC_ITS, acpi.gic_its, acpitabl/GIC_ITS"
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: Acpitabl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 and later versions.
@@ -43,7 +44,9 @@ api_name:
  - GIC_ITS
 ---
 
-# _GIC_ITS structure
+# GIC_ITS structure (acpitabl.h)
+
+
 
 
 ## -description

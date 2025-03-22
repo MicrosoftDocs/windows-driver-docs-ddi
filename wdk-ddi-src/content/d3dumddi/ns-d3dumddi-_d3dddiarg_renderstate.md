@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_RENDERSTATE structure"]
 ms.keywords: D3DDDIARG_RENDERSTATE, D3DDDIARG_RENDERSTATE structure [Display Devices], UMDisplayDriver_param_Structs_4d558ee2-a265-4973-90d4-917170d01ef3.xml, _D3DDDIARG_RENDERSTATE, d3dumddi/D3DDDIARG_RENDERSTATE, display.d3dddiarg_renderstate
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_RENDERSTATE
 ---
 
-# _D3DDDIARG_RENDERSTATE structure
+# D3DDDIARG_RENDERSTATE structure (d3dumddi.h)
+
+
 
 
 ## -description

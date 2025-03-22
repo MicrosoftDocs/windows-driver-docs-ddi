@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCMTCPCI_DEVICE_CONFIG structure"]
 ms.keywords: "*PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG, PUCMTCPCI_DEVICE_CONFIG structure pointer [Buses], UCMTCPCI_DEVICE_CONFIG, UCMTCPCI_DEVICE_CONFIG structure [Buses], _UCMTCPCI_DEVICE_CONFIG, buses.ucmtcpci_device_config, ucmtcpcidevice/PUCMTCPCI_DEVICE_CONFIG, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG"
 req.header: ucmtcpcidevice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UCMTCPCI_DEVICE_CONFIG
 ---
 
-# _UCMTCPCI_DEVICE_CONFIG structure
+# UCMTCPCI_DEVICE_CONFIG structure (ucmtcpcidevice.h)
+
+
 
 
 ## -description

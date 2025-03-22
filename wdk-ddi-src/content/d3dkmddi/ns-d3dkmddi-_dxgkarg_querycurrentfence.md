@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_QUERYCURRENTFENCE structure"]
 ms.keywords: "*INOUT_PDXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE, DXGKARG_QUERYCURRENTFENCE structure [Display Devices], DmStructs_799a15e5-b780-43c4-a0c2-d97e3c91caec.xml, _DXGKARG_QUERYCURRENTFENCE, d3dkmddi/DXGKARG_QUERYCURRENTFENCE, display.dxgkarg_querycurrentfence"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_QUERYCURRENTFENCE
 ---
 
-# _DXGKARG_QUERYCURRENTFENCE structure
+# DXGKARG_QUERYCURRENTFENCE structure (d3dkmddi.h)
+
+
 
 
 ## -description

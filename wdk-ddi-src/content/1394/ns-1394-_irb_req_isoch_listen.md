@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_LISTEN structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_LISTEN, IEEE.irb_req_isoch_listen, IRB_REQ_ISOCH_LISTEN, IRB_REQ_ISOCH_LISTEN structure [Buses], _IRB_REQ_ISOCH_LISTEN
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_LISTEN
 ---
 
-# _IRB_REQ_ISOCH_LISTEN structure
+# IRB_REQ_ISOCH_LISTEN structure (1394.h)
+
+
 
 
 ## -description

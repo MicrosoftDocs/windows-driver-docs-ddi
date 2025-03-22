@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["MOUNTDEV_UNIQUE_ID structure"]
 ms.keywords: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID structure [Storage Devices], PMOUNTDEV_UNIQUE_ID, PMOUNTDEV_UNIQUE_ID structure pointer [Storage Devices], _MOUNTDEV_UNIQUE_ID, mountdev/MOUNTDEV_UNIQUE_ID, mountdev/PMOUNTDEV_UNIQUE_ID, storage.mountdev_unique_id, structs-mntmgr_424fff73-7b72-4068-b25b-00225f69b159.xml"
 req.header: mountdev.h
+req.construct-type: structure
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMOUNTDEV_UNIQUE_ID
  - MOUNTDEV_UNIQUE_ID
 ---
+
+# MOUNTDEV_UNIQUE_ID structure (mountdev.h)
 
 ## -description
 

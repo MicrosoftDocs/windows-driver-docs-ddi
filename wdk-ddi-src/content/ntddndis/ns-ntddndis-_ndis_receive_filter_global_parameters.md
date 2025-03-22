@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, netvista.ndis_receive_filter_global_parameters, ntddndis/NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS, virtual_machine_queue_ref_b51ed6bf-8c3c-41f5-a9ef-a5ec3a720ef2.xml"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS
 ---
 
-# _NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure
+# NDIS_RECEIVE_FILTER_GLOBAL_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

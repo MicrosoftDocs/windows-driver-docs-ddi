@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["PSPINFO structure"]
 ms.keywords: "*PPSPINFO, PPSPINFO, PPSPINFO structure pointer [Print Devices], PSPINFO, PSPINFO structure [Print Devices], _PSPINFO, compstui/PPSPINFO, compstui/PSPINFO, cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, print.pspinfo"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPSPINFO
  - PSPINFO
 ---
+
+# PSPINFO structure (compstui.h)
 
 ## -description
 

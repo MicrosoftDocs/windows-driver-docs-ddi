@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure
+# D3D12DDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure (d3d12umddi.h)
+
+
 
 
 ## -description

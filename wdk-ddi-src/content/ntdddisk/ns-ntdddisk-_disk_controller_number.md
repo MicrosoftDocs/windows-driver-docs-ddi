@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DISK_CONTROLLER_NUMBER structure"]
 ms.keywords: "*PDISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER, DISK_CONTROLLER_NUMBER structure [Storage Devices], PDISK_CONTROLLER_NUMBER, PDISK_CONTROLLER_NUMBER structure pointer [Storage Devices], _DISK_CONTROLLER_NUMBER, ntdddisk/DISK_CONTROLLER_NUMBER, ntdddisk/PDISK_CONTROLLER_NUMBER, storage.disk_controller_number, structs-disk_5cf21b24-f10f-4484-bb76-22dff0b4e32c.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h, Ntddk.h, Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DISK_CONTROLLER_NUMBER
 ---
 
-# _DISK_CONTROLLER_NUMBER structure
+# DISK_CONTROLLER_NUMBER structure (ntdddisk.h)
+
+
 
 
 ## -description

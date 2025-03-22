@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HPMI_QUERY_CAPABILITIES_RESPONSE structure"]
 ms.keywords: "*PHPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE, HPMI_QUERY_CAPABILITIES_RESPONSE structure [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES_RESPONSE, PHPMI_QUERY_CAPABILITIES_RESPONSE structure pointer [Power Metering and Budgeting Devices], _HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/HPMI_QUERY_CAPABILITIES_RESPONSE, hpmi/PHPMI_QUERY_CAPABILITIES_RESPONSE, powermeter.hpmi_query_capabilities_response"
 req.header: hpmi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - HPMI_QUERY_CAPABILITIES_RESPONSE
 ---
 
-# _HPMI_QUERY_CAPABILITIES_RESPONSE structure
+# HPMI_QUERY_CAPABILITIES_RESPONSE structure (hpmi.h)
+
+
 
 
 ## -description

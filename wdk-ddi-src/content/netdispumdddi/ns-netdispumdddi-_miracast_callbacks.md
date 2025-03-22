@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["MIRACAST_CALLBACKS structure"]
 ms.keywords: "*PMIRACAST_CALLBACKS, MIRACAST_CALLBACKS, MIRACAST_CALLBACKS structure [Display Devices], PMIRACAST_CALLBACKS, PMIRACAST_CALLBACKS structure pointer [Display Devices], _MIRACAST_CALLBACKS, display.miracast_callbacks, netdispumdddi/MIRACAST_CALLBACKS, netdispumdddi/PMIRACAST_CALLBACKS"
 req.header: netdispumdddi.h
+req.construct-type: structure
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - MIRACAST_CALLBACKS
 ---
 
-# _MIRACAST_CALLBACKS structure
+# MIRACAST_CALLBACKS structure (netdispumdddi.h)
+
+
 
 
 ## -description

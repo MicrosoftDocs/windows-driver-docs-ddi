@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_COMMON_BUFFER_CONFIG structure"]
 ms.keywords: "*PWDF_COMMON_BUFFER_CONFIG, DFCommonBufferObjectRef_6b9d3f2e-8954-4777-b5e4-9828f73feec3.xml, PWDF_COMMON_BUFFER_CONFIG, PWDF_COMMON_BUFFER_CONFIG structure pointer, WDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG structure, _WDF_COMMON_BUFFER_CONFIG, kmdf.wdf_common_buffer_config, wdf.wdf_common_buffer_config, wdfcommonbuffer/PWDF_COMMON_BUFFER_CONFIG, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG"
 req.header: wdfcommonbuffer.h
+req.construct-type: structure
 req.include-header: WdfCommonBuffer.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_COMMON_BUFFER_CONFIG
 ---
 
-# _WDF_COMMON_BUFFER_CONFIG structure
+# WDF_COMMON_BUFFER_CONFIG structure (wdfcommonbuffer.h)
+
+
 
 
 ## -description

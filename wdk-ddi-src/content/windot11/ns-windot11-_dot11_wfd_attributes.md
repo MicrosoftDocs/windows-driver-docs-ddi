@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, windot11/DOT11_WFD_ATTRIBUTES, windot11/PDOT11_WFD_ATTRIBUTES"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_ATTRIBUTES
 ---
 
-# _DOT11_WFD_ATTRIBUTES structure
+# DOT11_WFD_ATTRIBUTES structure (windot11.h)
+
+
 
 
 ## -description

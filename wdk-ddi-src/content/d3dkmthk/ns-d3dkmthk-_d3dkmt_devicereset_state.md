@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DEVICERESET_STATE structure"]
 ms.keywords: D3DKMT_DEVICERESET_STATE, D3DKMT_DEVICERESET_STATE structure [Display Devices], OpenGL_Structs_03e42382-c472-4f0b-9183-a1b6630f64cf.xml, _D3DKMT_DEVICERESET_STATE, d3dkmthk/D3DKMT_DEVICERESET_STATE, display.d3dkmt_devicereset_state
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DEVICERESET_STATE
 ---
 
-# _D3DKMT_DEVICERESET_STATE structure
+# D3DKMT_DEVICERESET_STATE structure (d3dkmthk.h)
+
+
 
 
 ## -description

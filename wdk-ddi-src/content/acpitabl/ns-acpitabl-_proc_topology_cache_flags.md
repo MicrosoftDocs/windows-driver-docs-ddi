@@ -6,6 +6,7 @@ ms.date: 10/03/2022
 keywords: ["PROC_TOPOLOGY_CACHE_FLAGS structure"]
 ms.keywords: _PROC_TOPOLOGY_CACHE_FLAGS, PROC_TOPOLOGY_CACHE_FLAGS, *PPROC_TOPOLOGY_CACHE_FLAGS,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: Acpitabl.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_name:
  - PPROC_TOPOLOGY_CACHE_FLAGS
  - PROC_TOPOLOGY_CACHE_FLAGS
 ---
+
+# PROC_TOPOLOGY_CACHE_FLAGS structure (acpitabl.h)
 
 ## -description
 

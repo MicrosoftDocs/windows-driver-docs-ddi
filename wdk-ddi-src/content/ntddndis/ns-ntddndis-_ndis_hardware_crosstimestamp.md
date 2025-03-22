@@ -7,6 +7,7 @@ ms.date: 01/31/2021
 keywords: ["NDIS_HARDWARE_CROSSTIMESTAMP structure"]
 ms.keywords: _NDIS_HARDWARE_CROSSTIMESTAMP, NDIS_HARDWARE_CROSSTIMESTAMP, *PNDIS_HARDWARE_CROSSTIMESTAMP,
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: ndis.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -40,7 +41,9 @@ api_name:
  - NDIS_HARDWARE_CROSSTIMESTAMP
 ---
 
-# _NDIS_HARDWARE_CROSSTIMESTAMP structure
+# NDIS_HARDWARE_CROSSTIMESTAMP structure (ntddndis.h)
+
+
 
 ## -description
 

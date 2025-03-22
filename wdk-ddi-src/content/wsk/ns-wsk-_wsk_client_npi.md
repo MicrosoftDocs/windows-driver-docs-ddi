@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WSK_CLIENT_NPI structure"]
 ms.keywords: "*PWSK_CLIENT_NPI, PWSK_CLIENT_NPI, PWSK_CLIENT_NPI structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_NPI, WSK_CLIENT_NPI structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_NPI, netvista.wsk_client_npi, wsk/PWSK_CLIENT_NPI, wsk/WSK_CLIENT_NPI, wskref_e498e50c-695d-4f5c-a1db-0f87f4313d4a.xml"
 req.header: wsk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - WSK_CLIENT_NPI
 ---
 
-# _WSK_CLIENT_NPI structure
+# WSK_CLIENT_NPI structure (wsk.h)
+
+
 
 
 ## -description

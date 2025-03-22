@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2VOLUMEBLT structure"]
 ms.keywords: "*LPD3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT, D3DHAL_DP2VOLUMEBLT structure [Display Devices], LPD3DHAL_DP2VOLUMEBLT, LPD3DHAL_DP2VOLUMEBLT structure pointer [Display Devices], _D3DHAL_DP2VOLUMEBLT, d3dhal/D3DHAL_DP2VOLUMEBLT, d3dhal/LPD3DHAL_DP2VOLUMEBLT, d3dstrct_44b31cb6-2a36-4d2d-91a3-c59b07d8815b.xml, display.d3dhal_dp2volumeblt"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2VOLUMEBLT
 ---
 
-# _D3DHAL_DP2VOLUMEBLT structure
+# D3DHAL_DP2VOLUMEBLT structure (d3dhal.h)
+
+
 
 
 ## -description

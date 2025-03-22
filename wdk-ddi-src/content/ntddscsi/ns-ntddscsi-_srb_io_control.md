@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SRB_IO_CONTROL structure"]
 ms.keywords: "*PSRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], SRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], _SRB_IO_CONTROL, ntddscsi/PSRB_IO_CONTROL, ntddscsi/SRB_IO_CONTROL, storage.srb_io_control, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SRB_IO_CONTROL
 ---
 
-# _SRB_IO_CONTROL structure
+# SRB_IO_CONTROL structure (ntddscsi.h)
+
+
 
 
 ## -description

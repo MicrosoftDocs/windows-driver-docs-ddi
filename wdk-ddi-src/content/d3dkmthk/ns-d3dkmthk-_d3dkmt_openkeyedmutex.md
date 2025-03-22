@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_OPENKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_OPENKEYEDMUTEX, D3DKMT_OPENKEYEDMUTEX structure [Display Devices], OpenGL_Structs_78a96126-b992-431f-9e91-c08c61694732.xml, _D3DKMT_OPENKEYEDMUTEX, d3dkmthk/D3DKMT_OPENKEYEDMUTEX, display.d3dkmt_openkeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_OPENKEYEDMUTEX is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_OPENKEYEDMUTEX
 ---
 
-# _D3DKMT_OPENKEYEDMUTEX structure
+# D3DKMT_OPENKEYEDMUTEX structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_USBDEVICE_EVENT_CALLBACKS structure"]
 ms.keywords: "*PUCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS, P_UCX_USBDEVICE_EVENT_CALLBACKS structure pointer [Buses], UCX_USBDEVICE_EVENT_CALLBACKS, UCX_USBDEVICE_EVENT_CALLBACKS structure [Buses], _UCX_USBDEVICE_EVENT_CALLBACKS, buses._ucx_usbdevice_event_callbacks, ucxusbdevice/P_UCX_USBDEVICE_EVENT_CALLBACKS, ucxusbdevice/_UCX_USBDEVICE_EVENT_CALLBACKS"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UCX_USBDEVICE_EVENT_CALLBACKS
 ---
 
-# _UCX_USBDEVICE_EVENT_CALLBACKS structure
+# UCX_USBDEVICE_EVENT_CALLBACKS structure (ucxusbdevice.h)
+
+
 
 
 ## -description

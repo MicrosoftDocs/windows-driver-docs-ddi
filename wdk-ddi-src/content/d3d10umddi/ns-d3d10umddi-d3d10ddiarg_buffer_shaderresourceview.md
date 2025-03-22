@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_76ff32e8-1460-45a7-a63d-3c18b75a860e.xml, d3d10umddi/D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW, display.d3d10ddiarg_buffer_shaderresourceview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW
 ---
 
-# D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure
+# D3D10DDIARG_BUFFER_SHADERRESOURCEVIEW structure (d3d10umddi.h)
+
+
 
 
 ## -description

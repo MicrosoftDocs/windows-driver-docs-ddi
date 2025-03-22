@@ -7,6 +7,7 @@ ms.date: 03/26/2024
 keywords: ["NET_ADAPTER_RX_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_RX_CAPABILITIES, NET_ADAPTER_RX_CAPABILITIES, *PNET_ADAPTER_RX_CAPABILITIES,
 req.header: netadapter.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - NET_ADAPTER_RX_CAPABILITIES
 ---
 
-# _NET_ADAPTER_RX_CAPABILITIES structure
+# NET_ADAPTER_RX_CAPABILITIES structure (netadapter.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETDRIVERINFO2DATA structure"]
 ms.keywords: DD_GETDRIVERINFO2DATA, DD_GETDRIVERINFO2DATA structure [Display Devices], _DD_GETDRIVERINFO2DATA, d3dhal/DD_GETDRIVERINFO2DATA, d3dstrct_64ab01fc-414f-4367-8bb7-201c7e120275.xml, display.dd_getdriverinfo2data
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETDRIVERINFO2DATA
 ---
 
-# _DD_GETDRIVERINFO2DATA structure
+# DD_GETDRIVERINFO2DATA structure (d3dhal.h)
+
+
 
 
 ## -description

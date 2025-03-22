@@ -8,6 +8,7 @@ ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST structure"]
 ms.keywords: "*PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST, PSPB_TRANSFER_LIST structure pointer [Buses], SPB.spb_transfer_list, SPB_TRANSFER_LIST, SPB_TRANSFER_LIST structure [Buses], spb/PSPB_TRANSFER_LIST, spb/SPB_TRANSFER_LIST"
 req.header: spb.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - PSPB_TRANSFER_LIST
 ---
 
-# SPB_TRANSFER_LIST structure
+# SPB_TRANSFER_LIST structure (spb.h)
+
+
 
 ## -description
 

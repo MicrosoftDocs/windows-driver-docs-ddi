@@ -8,6 +8,7 @@ ms.date: 11/19/2021
 keywords: ["DXGK_MIRACAST_DISPLAY_CALLBACKS structure"]
 ms.keywords: "*PDXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS, DXGK_MIRACAST_DISPLAY_CALLBACKS structure [Display Devices], PDXGK_MIRACAST_DISPLAY_CALLBACKS, PDXGK_MIRACAST_DISPLAY_CALLBACKS structure pointer [Display Devices], _DXGK_MIRACAST_DISPLAY_CALLBACKS, display.dxgk_miracast_display_callbacks, dispmprt/DXGK_MIRACAST_DISPLAY_CALLBACKS, dispmprt/PDXGK_MIRACAST_DISPLAY_CALLBACKS"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - DXGK_MIRACAST_DISPLAY_CALLBACKS
 ---
 
-# DXGK_MIRACAST_DISPLAY_CALLBACKS structure
+# DXGK_MIRACAST_DISPLAY_CALLBACKS structure (dispmprt.h)
+
+
 
 ## -description
 

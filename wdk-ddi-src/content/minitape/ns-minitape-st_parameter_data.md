@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["ST_PARAMETER_DATA structure"]
 ms.keywords: "*PST_PARAMETER_DATA, PST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], ST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, storage.st_parameter_data"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
@@ -41,6 +42,8 @@ api_name:
  - PST_PARAMETER_DATA
  - ST_PARAMETER_DATA
 ---
+
+# ST_PARAMETER_DATA structure (minitape.h)
 
 ## -description
 

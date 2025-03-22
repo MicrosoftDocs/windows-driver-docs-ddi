@@ -8,6 +8,7 @@ ms.date: 08/02/2022
 keywords: ["CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure"]
 ms.keywords: "*PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure [Parallel Ports], GPIO.client_query_bank_power_information_output, PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure pointer [Parallel Ports], _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, gpioclx/CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT, gpioclx/PCLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT
 ---
 
-# _CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure
+# CLIENT_QUERY_BANK_POWER_INFORMATION_OUTPUT structure (gpioclx.h)
+
+
 
 ## -description
 

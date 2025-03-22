@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_GEOREGION structure"]
 ms.keywords: "*PGNSS_GEOREGION, GNSS_GEOREGION, GNSS_GEOREGION structure [Sensor Devices], PGNSS_GEOREGION, PGNSS_GEOREGION structure pointer [Sensor Devices], gnss.gnss_georegion, gnssdriver/GNSS_GEOREGION, gnssdriver/PGNSS_GEOREGION"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_GEOREGION
  - GNSS_GEOREGION
 ---
+
+# GNSS_GEOREGION structure (gnssdriver.h)
 
 ## -description
 

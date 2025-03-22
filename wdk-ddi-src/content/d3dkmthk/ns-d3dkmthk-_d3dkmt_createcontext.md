@@ -7,6 +7,7 @@ ms.date: 02/28/2023
 keywords: ["D3DKMT_CREATECONTEXT structure"]
 ms.keywords: D3DKMT_CREATECONTEXT, D3DKMT_CREATECONTEXT structure [Display Devices], OpenGL_Structs_5a3cc128-be06-4189-a389-95813c2d3e28.xml, _D3DKMT_CREATECONTEXT, d3dkmthk/D3DKMT_CREATECONTEXT, display.d3dkmt_createcontext
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CREATECONTEXT
 ---
 
-# D3DKMT_CREATECONTEXT structure
+# D3DKMT_CREATECONTEXT structure (d3dkmthk.h)
+
+
 
 ## -description
 

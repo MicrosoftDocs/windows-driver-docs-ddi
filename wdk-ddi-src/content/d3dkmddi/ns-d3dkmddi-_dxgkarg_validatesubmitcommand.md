@@ -6,6 +6,7 @@ ms.date: 03/23/2023
 keywords: ["DXGKARG_VALIDATESUBMITCOMMAND structure"]
 ms.keywords: _DXGKARG_VALIDATESUBMITCOMMAND, DXGKARG_VALIDATESUBMITCOMMAND, *INOUT_PDXGKARG_VALIDATESUBMITCOMMAND
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_VALIDATESUBMITCOMMAND structure
+# DXGKARG_VALIDATESUBMITCOMMAND structure (d3dkmddi.h)
+
+
 
 ## -description
 

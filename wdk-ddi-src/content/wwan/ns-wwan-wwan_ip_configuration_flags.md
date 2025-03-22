@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_IP_CONFIGURATION_FLAGS structure"]
 ms.keywords: WWAN_IP_CONFIGURATION_FLAGS, WWAN_IP_CONFIGURATION_FLAGS union [Network Drivers Starting with Windows Vista], netvista.wwan_ip_configuration_flags, wwan/WWAN_IP_CONFIGURATION_FLAGS
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - WWAN_IP_CONFIGURATION_FLAGS
 ---
 
-# WWAN_IP_CONFIGURATION_FLAGS structure
+# WWAN_IP_CONFIGURATION_FLAGS structure (wwan.h)
+
+
 
 
 ## -description

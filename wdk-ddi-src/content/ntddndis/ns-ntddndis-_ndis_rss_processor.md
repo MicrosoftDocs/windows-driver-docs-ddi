@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RSS_PROCESSOR structure"]
 ms.keywords: "*PNDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR, NDIS_RSS_PROCESSOR structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_PROCESSOR, PNDIS_RSS_PROCESSOR structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSS_PROCESSOR, ndis_processor_group_ref_cbab90a4-91cf-4df3-a9dc-94f3cacf2039.xml, netvista.ndis_rss_processor, ntddndis/NDIS_RSS_PROCESSOR, ntddndis/PNDIS_RSS_PROCESSOR"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RSS_PROCESSOR
 ---
 
-# _NDIS_RSS_PROCESSOR structure
+# NDIS_RSS_PROCESSOR structure (ntddndis.h)
+
+
 
 
 ## -description

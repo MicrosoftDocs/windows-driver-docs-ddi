@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WSK_TRANSPORT structure"]
 ms.keywords: "*PWSK_TRANSPORT, PWSK_TRANSPORT, PWSK_TRANSPORT structure pointer [Network Drivers Starting with Windows Vista], WSK_TRANSPORT, WSK_TRANSPORT structure [Network Drivers Starting with Windows Vista], _WSK_TRANSPORT, netvista.wsk_transport, wsk/PWSK_TRANSPORT, wsk/WSK_TRANSPORT, wskref_be7d6a6d-971e-49de-bc64-ebd1f1d04085.xml"
 req.header: wsk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - WSK_TRANSPORT
 ---
 
-# _WSK_TRANSPORT structure
+# WSK_TRANSPORT structure (wsk.h)
+
+
 
 
 ## -description

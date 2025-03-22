@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_DESCRIBEALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_DESCRIBEALLOCATIONFLAGS, DXGK_DESCRIBEALLOCATIONFLAGS structure [Display Devices], _DXGK_DESCRIBEALLOCATIONFLAGS, d3dkmddi/DXGK_DESCRIBEALLOCATIONFLAGS, display.dxgk_describeallocationflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_DESCRIBEALLOCATIONFLAGS
 ---
 
-# _DXGK_DESCRIBEALLOCATIONFLAGS structure
+# DXGK_DESCRIBEALLOCATIONFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

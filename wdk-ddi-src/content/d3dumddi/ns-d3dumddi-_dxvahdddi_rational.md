@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_RATIONAL structure"]
 ms.keywords: DXVA2_Structs_9e1313ee-e48b-4e3d-9f13-40af1babef82.xml, DXVAHDDDI_RATIONAL, DXVAHDDDI_RATIONAL structure [Display Devices], _DXVAHDDDI_RATIONAL, d3dumddi/DXVAHDDDI_RATIONAL, display.dxvahdddi_rational
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_RATIONAL is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_RATIONAL
 ---
 
-# _DXVAHDDDI_RATIONAL structure
+# DXVAHDDDI_RATIONAL structure (d3dumddi.h)
+
+
 
 
 ## -description

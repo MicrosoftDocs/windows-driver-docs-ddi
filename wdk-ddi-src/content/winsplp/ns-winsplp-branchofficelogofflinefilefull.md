@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BranchOfficeLogOfflineFileFull structure"]
 ms.keywords: "*PBranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull, BranchOfficeLogOfflineFileFull structure [Print Devices], PBranchOfficeLogOfflineFileFull, PBranchOfficeLogOfflineFileFull structure pointer [Print Devices], print.branchofficelogofflinefilefull, winsplp/BranchOfficeLogOfflineFileFull, winsplp/PBranchOfficeLogOfflineFileFull"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BranchOfficeLogOfflineFileFull
 ---
 
-# BranchOfficeLogOfflineFileFull structure
+# BranchOfficeLogOfflineFileFull structure (winsplp.h)
+
+
 
 
 ## -description

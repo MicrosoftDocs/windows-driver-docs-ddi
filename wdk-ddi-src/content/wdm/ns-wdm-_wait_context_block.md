@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["WAIT_CONTEXT_BLOCK structure"]
 ms.keywords: _WAIT_CONTEXT_BLOCK, WAIT_CONTEXT_BLOCK, *PWAIT_CONTEXT_BLOCK,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809.
@@ -40,7 +41,9 @@ api_name:
  - WAIT_CONTEXT_BLOCK
 ---
 
-# _WAIT_CONTEXT_BLOCK structure
+# WAIT_CONTEXT_BLOCK structure (wdm.h)
+
+
 
 
 ## -description

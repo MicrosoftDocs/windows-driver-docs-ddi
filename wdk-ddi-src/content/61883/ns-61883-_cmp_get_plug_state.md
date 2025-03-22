@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_GET_PLUG_STATE structure"]
 ms.keywords: "*PCMP_GET_PLUG_STATE, 61883/CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], IEEE.cmp_get_plug_state, PCMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], _CMP_GET_PLUG_STATE"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_GET_PLUG_STATE
 ---
 
-# _CMP_GET_PLUG_STATE structure
+# CMP_GET_PLUG_STATE structure (61883.h)
+
+
 
 
 ## -description

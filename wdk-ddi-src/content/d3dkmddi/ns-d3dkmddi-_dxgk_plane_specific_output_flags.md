@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS, display.dxgk_plane_specific_output_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS
 ---
 
-# _DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure
+# DXGK_PLANE_SPECIFIC_OUTPUT_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

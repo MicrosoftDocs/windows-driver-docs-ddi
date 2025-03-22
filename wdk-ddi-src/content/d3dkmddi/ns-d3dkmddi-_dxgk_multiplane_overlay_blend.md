@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_BLEND structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_BLEND, DXGK_MULTIPLANE_OVERLAY_BLEND structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_BLEND, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_BLEND, display.dxgk_multiplane_overlay_blend
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MULTIPLANE_OVERLAY_BLEND
 ---
 
-# _DXGK_MULTIPLANE_OVERLAY_BLEND structure
+# DXGK_MULTIPLANE_OVERLAY_BLEND structure (d3dkmddi.h)
+
+
 
 
 ## -description

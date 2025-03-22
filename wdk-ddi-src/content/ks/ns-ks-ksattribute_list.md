@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSATTRIBUTE_LIST structure"]
 ms.keywords: "*PKSATTRIBUTE_LIST, KSATTRIBUTE_LIST, KSATTRIBUTE_LIST structure [Streaming Media Devices], PKSATTRIBUTE_LIST, PKSATTRIBUTE_LIST structure pointer [Streaming Media Devices], ks/KSATTRIBUTE_LIST, ks/PKSATTRIBUTE_LIST, stream.ksattribute_list"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSATTRIBUTE_LIST
 ---
 
-# KSATTRIBUTE_LIST structure
+# KSATTRIBUTE_LIST structure (ks.h)
+
+
 
 
 ## -description

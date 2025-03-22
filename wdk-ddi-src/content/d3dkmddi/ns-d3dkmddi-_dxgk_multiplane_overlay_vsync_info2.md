@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2, display.dxgk_multiplane_overlay_vsync_info2
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 (WDDM 2.1)
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2
 ---
 
-# DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure
+# DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO2 structure (d3dkmddi.h)
+
+
 
 ## -description
 

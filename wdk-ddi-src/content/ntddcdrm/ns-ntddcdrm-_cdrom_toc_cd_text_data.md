@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_TOC_CD_TEXT_DATA structure"]
 ms.keywords: "*PCDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA, CDROM_TOC_CD_TEXT_DATA structure [Storage Devices], PCDROM_TOC_CD_TEXT_DATA, PCDROM_TOC_CD_TEXT_DATA structure pointer [Storage Devices], _CDROM_TOC_CD_TEXT_DATA, ntddcdrm/CDROM_TOC_CD_TEXT_DATA, ntddcdrm/PCDROM_TOC_CD_TEXT_DATA, storage.cdrom_toc_cd_text_data, structs-CD-ROM_7c78a819-dd2b-45bf-ba44-b8115fe1b998.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_TOC_CD_TEXT_DATA
 ---
 
-# _CDROM_TOC_CD_TEXT_DATA structure
+# CDROM_TOC_CD_TEXT_DATA structure (ntddcdrm.h)
+
+
 
 
 ## -description

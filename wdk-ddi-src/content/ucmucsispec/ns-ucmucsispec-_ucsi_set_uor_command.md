@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_SET_UOR_COMMAND structure"]
 ms.keywords: _UCSI_SET_UOR_COMMAND, UCSI_SET_UOR_COMMAND, *PUCSI_SET_UOR_COMMAND,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_SET_UOR_COMMAND
 ---
 
-# _UCSI_SET_UOR_COMMAND structure
+# UCSI_SET_UOR_COMMAND structure (ucmucsispec.h)
+
+
 
 
 ## -description

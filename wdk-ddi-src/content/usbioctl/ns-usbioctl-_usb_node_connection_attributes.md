@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_ATTRIBUTES structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], USB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], _USB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_CONNECTION_ATTRIBUTES
 ---
 
-# _USB_NODE_CONNECTION_ATTRIBUTES structure
+# USB_NODE_CONNECTION_ATTRIBUTES structure (usbioctl.h)
+
+
 
 
 ## -description

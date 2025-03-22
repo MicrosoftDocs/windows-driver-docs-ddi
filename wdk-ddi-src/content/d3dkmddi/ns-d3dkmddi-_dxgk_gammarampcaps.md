@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_GAMMARAMPCAPS structure"]
 ms.keywords: DXGK_GAMMARAMPCAPS, DXGK_GAMMARAMPCAPS structure [Display Devices], DmStructs_2f60099d-a359-41f4-b3d0-a7c0d0a6cca4.xml, _DXGK_GAMMARAMPCAPS, d3dkmddi/DXGK_GAMMARAMPCAPS, display.dxgk_gammarampcaps
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_GAMMARAMPCAPS
 ---
 
-# _DXGK_GAMMARAMPCAPS structure
+# DXGK_GAMMARAMPCAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

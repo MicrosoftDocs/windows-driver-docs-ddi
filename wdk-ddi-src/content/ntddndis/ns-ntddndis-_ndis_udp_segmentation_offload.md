@@ -6,6 +6,7 @@ tech.root: netvista
 ms.date: 02/27/2020
 ms.keywords: _NDIS_UDP_SEGMENTATION_OFFLOAD, NDIS_UDP_SEGMENTATION_OFFLOAD, *PNDIS_UDP_SEGMENTATION_OFFLOAD,
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1912
@@ -40,7 +41,9 @@ api_name:
  - NDIS_UDP_SEGMENTATION_OFFLOAD
 ---
 
-# _NDIS_UDP_SEGMENTATION_OFFLOAD structure
+# NDIS_UDP_SEGMENTATION_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

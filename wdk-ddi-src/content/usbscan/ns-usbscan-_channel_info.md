@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["CHANNEL_INFO structure"]
 ms.keywords: "*PCHANNEL_INFO, CHANNEL_INFO, CHANNEL_INFO structure [Imaging Devices], PCHANNEL_INFO, PCHANNEL_INFO structure pointer [Imaging Devices], _CHANNEL_INFO, image.channel_info, stifnc_f0aea91c-5d41-43e5-bb8b-139bfb7c3198.xml, usbscan/CHANNEL_INFO, usbscan/PCHANNEL_INFO"
 req.header: usbscan.h
+req.construct-type: structure
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CHANNEL_INFO
 ---
 
-# _CHANNEL_INFO structure
+# CHANNEL_INFO structure (usbscan.h)
+
+
 
 
 ## -description

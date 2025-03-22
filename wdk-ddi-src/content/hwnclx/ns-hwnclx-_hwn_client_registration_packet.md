@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["HWN_CLIENT_REGISTRATION_PACKET structure"]
 ms.keywords: "*PHWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET, HWN_CLIENT_REGISTRATION_PACKET structure, _HWN_CLIENT_REGISTRATION_PACKET, gpiobtn._hwn_client_registration_packet, hwnclx/HWN_CLIENT_REGISTRATION_PACKET"
 req.header: hwnclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - HWN_CLIENT_REGISTRATION_PACKET
 ---
 
-# _HWN_CLIENT_REGISTRATION_PACKET structure
+# HWN_CLIENT_REGISTRATION_PACKET structure (hwnclx.h)
+
+
 
 
 ## -description

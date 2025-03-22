@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_NAME structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], USB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME structure [Buses], _USB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, usbioctl/PUSB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_CONNECTION_NAME
 ---
 
-# _USB_NODE_CONNECTION_NAME structure
+# USB_NODE_CONNECTION_NAME structure (usbioctl.h)
+
+
 
 
 ## -description

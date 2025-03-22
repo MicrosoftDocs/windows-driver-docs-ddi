@@ -8,6 +8,7 @@ ms.date: 08/20/2020
 keywords: ["tagKSJACK_SINK_INFORMATION structure"]
 ms.keywords: "*PKSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION, KSJACK_SINK_INFORMATION structure [Audio Devices], PKSJACK_SINK_INFORMATION, PKSJACK_SINK_INFORMATION structure pointer [Audio Devices], _tagKSJACK_SINK_INFORMATION, aud-prop_e9bbfa8a-d002-400c-a35d-3da0a8026cd6.xml, audio.ksjack_sink_information, ksmedia/KSJACK_SINK_INFORMATION, ksmedia/PKSJACK_SINK_INFORMATION"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - KSJACK_SINK_INFORMATION
 ---
 
-# _tagKSJACK_SINK_INFORMATION structure
+# KSJACK_SINK_INFORMATION structure (ksmedia.h)
+
+
 
 
 ## -description

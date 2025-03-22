@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VP_SCATTER_GATHER_ELEMENT structure"]
 ms.keywords: "*PVP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT, PVP_SCATTER_GATHER_ELEMENT structure pointer [Display Devices], VP_SCATTER_GATHER_ELEMENT, VP_SCATTER_GATHER_ELEMENT structure [Display Devices], Video_Structs_eacc94d7-8de2-4847-b843-3ae56bbca6d5.xml, _VP_SCATTER_GATHER_ELEMENT, display.vp_scatter_gather_element, video/PVP_SCATTER_GATHER_ELEMENT, video/VP_SCATTER_GATHER_ELEMENT"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VP_SCATTER_GATHER_ELEMENT
 ---
 
-# _VP_SCATTER_GATHER_ELEMENT structure
+# VP_SCATTER_GATHER_ELEMENT structure (video.h)
+
+
 
 
 ## -description

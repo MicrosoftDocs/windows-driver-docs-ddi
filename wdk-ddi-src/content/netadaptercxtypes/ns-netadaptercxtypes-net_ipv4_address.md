@@ -7,6 +7,7 @@ ms.date: 04/15/2021
 keywords: ["NET_IPV4_ADDRESS structure"]
 ms.keywords: NET_IPV4_ADDRESS, NET_IPV4_ADDRESS,
 req.header: netadaptercxtypes.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_IPV4_ADDRESS
 ---
 
-# NET_IPV4_ADDRESS union
+# NET_IPV4_ADDRESS structure (netadaptercxtypes.h)
+
+
 
 
 ## -description

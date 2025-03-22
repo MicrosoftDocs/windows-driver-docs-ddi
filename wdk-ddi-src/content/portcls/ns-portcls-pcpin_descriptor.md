@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PCPIN_DESCRIPTOR structure"]
 ms.keywords: "*PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR structure [Audio Devices], PPCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], audio.pcpin_descriptor, audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, portcls/PCPIN_DESCRIPTOR, portcls/PPCPIN_DESCRIPTOR"
 req.header: portcls.h
+req.construct-type: structure
 req.include-header: Portcls.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PCPIN_DESCRIPTOR
 ---
 
-# PCPIN_DESCRIPTOR structure
+# PCPIN_DESCRIPTOR structure (portcls.h)
+
+
 
 
 ## -description

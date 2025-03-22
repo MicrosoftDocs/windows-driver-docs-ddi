@@ -7,6 +7,7 @@ ms.date: 11/26/2019
 keywords: ["DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure"]
 ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure
+# DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

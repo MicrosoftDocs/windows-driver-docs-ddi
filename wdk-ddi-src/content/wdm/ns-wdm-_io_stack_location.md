@@ -7,6 +7,7 @@ ms.date: 09/20/2023
 keywords: ["IO_STACK_LOCATION structure"]
 ms.keywords: "*PIO_STACK_LOCATION, IO_STACK_LOCATION, IO_STACK_LOCATION structure [Kernel-Mode Driver Architecture], PIO_STACK_LOCATION, PIO_STACK_LOCATION structure pointer [Kernel-Mode Driver Architecture], _IO_STACK_LOCATION, kernel.io_stack_location, kstruct_b_8fcba8ca-d004-4800-87d1-d5c7714a494b.xml, wdm/IO_STACK_LOCATION, wdm/PIO_STACK_LOCATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PIO_STACK_LOCATION
  - IO_STACK_LOCATION
 ---
+
+# IO_STACK_LOCATION structure (wdm.h)
 
 ## -description
 

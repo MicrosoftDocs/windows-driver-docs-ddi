@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_AGP_INTERFACE_2 structure"]
 ms.keywords: "*PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2, PVIDEO_PORT_AGP_INTERFACE_2 structure pointer [Display Devices], VIDEO_PORT_AGP_INTERFACE_2, VIDEO_PORT_AGP_INTERFACE_2 structure [Display Devices], Video_Structs_99a2957c-7304-4e59-9609-748a5d7b878b.xml, _VIDEO_PORT_AGP_INTERFACE_2, display.video_port_agp_interface_2, video/PVIDEO_PORT_AGP_INTERFACE_2, video/VIDEO_PORT_AGP_INTERFACE_2"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_PORT_AGP_INTERFACE_2
 ---
 
-# _VIDEO_PORT_AGP_INTERFACE_2 structure
+# VIDEO_PORT_AGP_INTERFACE_2 structure (video.h)
+
+
 
 
 ## -description

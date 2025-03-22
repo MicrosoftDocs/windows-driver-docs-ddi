@@ -7,6 +7,7 @@ ms.date: 04/17/2023
 keywords: ["KSPROPERTY_VIDEOPROCAMP_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S, KSPROPERTY_VIDEOPROCAMP_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOPROCAMP_S, PKSPROPERTY_VIDEOPROCAMP_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOPROCAMP_S, ksmedia/PKSPROPERTY_VIDEOPROCAMP_S, stream.ksproperty_videoprocamp_s, vidcapstruct_4ec1fd8e-6ea5-4560-a528-e6cd2023ec87.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - KSPROPERTY_VIDEOPROCAMP_S
 ---
 
-# KSPROPERTY_VIDEOPROCAMP_S structure
+# KSPROPERTY_VIDEOPROCAMP_S structure (ksmedia.h)
+
+
 
 ## -description
 

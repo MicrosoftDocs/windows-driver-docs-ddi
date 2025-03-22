@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["BAND_LOCATION_INFO structure"]
 ms.keywords: "*PBAND_LOCATION_INFO, BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_LOCATION_INFO, ehstorbandmgmt/BAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_location_info"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - BAND_LOCATION_INFO
 ---
 
-# _BAND_LOCATION_INFO structure
+# BAND_LOCATION_INFO structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

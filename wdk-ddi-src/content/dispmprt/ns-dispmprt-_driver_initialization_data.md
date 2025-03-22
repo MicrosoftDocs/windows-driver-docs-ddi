@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 04/01/2024
 keywords: ["DRIVER_INITIALIZATION_DATA structure"]
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -44,7 +45,9 @@ api_name:
  - DRIVER_INITIALIZATION_DATA
 ---
 
-# DRIVER_INITIALIZATION_DATA structure
+# DRIVER_INITIALIZATION_DATA structure (dispmprt.h)
+
+
 
 ## -description
 

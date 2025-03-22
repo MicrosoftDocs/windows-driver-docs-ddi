@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_DRIVER structure"]
 ms.keywords: _UART_HARDWARE_DRIVER, UART_HARDWARE_DRIVER, *PUART_HARDWARE_DRIVER,
 req.header: uart.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - UART_HARDWARE_DRIVER
 ---
 
-# _UART_HARDWARE_DRIVER structure
+# UART_HARDWARE_DRIVER structure (uart.h)
+
+
 
 ## -description
 

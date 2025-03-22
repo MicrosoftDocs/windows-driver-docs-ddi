@@ -7,6 +7,7 @@ keywords: ["VEC3D structure"]
 tech.root: sensors
 ms.keywords: VEC3D, VEC3D, *PVEC3D,
 req.header: sensorsstructures.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - VEC3D
 ---
 
-# VEC3D structure
+# VEC3D structure (sensorsstructures.h)
+
+
 
 
 ## -description

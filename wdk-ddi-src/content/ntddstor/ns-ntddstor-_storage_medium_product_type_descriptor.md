@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure pointer [Storage Devices], STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure [Storage Devices], _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/PSTORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, ntddstor/STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR, storage.storage_medium_product_type_descriptor
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR
 ---
 
-# _STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure
+# STORAGE_MEDIUM_PRODUCT_TYPE_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

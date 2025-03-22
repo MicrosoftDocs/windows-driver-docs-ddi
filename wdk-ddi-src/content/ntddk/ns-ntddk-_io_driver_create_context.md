@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["IO_DRIVER_CREATE_CONTEXT structure"]
 ms.keywords: "*PIO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT structure [Installable File System Drivers], PIO_DRIVER_CREATE_CONTEXT, PIO_DRIVER_CREATE_CONTEXT structure pointer [Installable File System Drivers], _IO_DRIVER_CREATE_CONTEXT, fileinformationstructures_d5939ca3-7c95-4788-bec9-b2d4cc7dd45b.xml, ifsk.io_driver_create_context, ntddk/IO_DRIVER_CREATE_CONTEXT, ntddk/PIO_DRIVER_CREATE_CONTEXT"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PIO_DRIVER_CREATE_CONTEXT
  - IO_DRIVER_CREATE_CONTEXT
 ---
+
+# IO_DRIVER_CREATE_CONTEXT structure (ntddk.h)
 
 ## -description
 

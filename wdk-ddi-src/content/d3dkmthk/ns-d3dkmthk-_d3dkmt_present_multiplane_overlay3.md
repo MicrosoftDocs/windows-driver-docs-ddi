@@ -6,6 +6,7 @@ ms.date: 04/10/2024
 keywords: ["D3DKMT_PRESENT_MULTIPLANE_OVERLAY3 structure"]
 ms.keywords: _D3DKMT_PRESENT_MULTIPLANE_OVERLAY3, D3DKMT_PRESENT_MULTIPLANE_OVERLAY3,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_PRESENT_MULTIPLANE_OVERLAY3 structure
+# D3DKMT_PRESENT_MULTIPLANE_OVERLAY3 structure (d3dkmthk.h)
+
+
 
 ## -description
 

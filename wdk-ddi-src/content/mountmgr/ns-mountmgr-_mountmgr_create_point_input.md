@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["MOUNTMGR_CREATE_POINT_INPUT structure"]
 ms.keywords: "*PMOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT, MOUNTMGR_CREATE_POINT_INPUT structure [Storage Devices], PMOUNTMGR_CREATE_POINT_INPUT, PMOUNTMGR_CREATE_POINT_INPUT structure pointer [Storage Devices], _MOUNTMGR_CREATE_POINT_INPUT, mountmgr/MOUNTMGR_CREATE_POINT_INPUT, mountmgr/PMOUNTMGR_CREATE_POINT_INPUT, storage.mountmgr_create_point_input, structs-mntmgr_24dea6c0-cfff-4f87-a8d3-c019aa5b46c3.xml"
 req.header: mountmgr.h
+req.construct-type: structure
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMOUNTMGR_CREATE_POINT_INPUT
  - MOUNTMGR_CREATE_POINT_INPUT
 ---
+
+# MOUNTMGR_CREATE_POINT_INPUT structure (mountmgr.h)
 
 ## -description
 

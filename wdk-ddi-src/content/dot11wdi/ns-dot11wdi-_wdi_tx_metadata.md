@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_TX_METADATA structure"]
 ms.keywords: "*PWDI_TX_METADATA, PWDI_TX_METADATA, PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_TX_METADATA, WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_TX_METADATA, dot11wdi/PWDI_TX_METADATA, dot11wdi/WDI_TX_METADATA, netvista.wdi_tx_metadata, netvista.wifi_tx_metadata"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_TX_METADATA
 ---
 
-# _WDI_TX_METADATA structure
+# WDI_TX_METADATA structure (dot11wdi.h)
+
+
 
 
 ## -description

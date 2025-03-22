@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PM_COUNTED_STRING structure"]
 ms.keywords: "*PNDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING, NDIS_PM_COUNTED_STRING structure [Network Drivers Starting with Windows Vista], PNDIS_PM_COUNTED_STRING, PNDIS_PM_COUNTED_STRING structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_COUNTED_STRING, miniport_power_management_ref_baaff596-1c2a-4cfc-865a-bb3f55988218.xml, netvista.ndis_pm_counted_string, ntddndis/NDIS_PM_COUNTED_STRING, ntddndis/PNDIS_PM_COUNTED_STRING"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ntddndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PM_COUNTED_STRING
 ---
 
-# _NDIS_PM_COUNTED_STRING structure
+# NDIS_PM_COUNTED_STRING structure (ntddndis.h)
+
+
 
 
 ## -description

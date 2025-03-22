@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["FAULT_INFORMATION_ARM64_FLAGS structure"]
 ms.keywords: _FAULT_INFORMATION_ARM64_FLAGS, FAULT_INFORMATION_ARM64_FLAGS, *PFAULT_INFORMATION_ARM64_FLAGS,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - FAULT_INFORMATION_ARM64_FLAGS
 ---
 
-# _FAULT_INFORMATION_ARM64_FLAGS structure
+# FAULT_INFORMATION_ARM64_FLAGS structure (wdm.h)
+
+
 
 
 ## -description

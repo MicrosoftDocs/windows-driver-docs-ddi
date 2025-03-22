@@ -6,6 +6,7 @@ ms.date: 10/14/2019
 keywords: ["DXGKARG_CONTROLMODEBEHAVIOR structure"]
 ms.keywords: _DXGKARG_CONTROLMODEBEHAVIOR, DXGKARG_CONTROLMODEBEHAVIOR, *INOUT_PDXGKARG_CONTROLMODEBEHAVIOR
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGKARG_CONTROLMODEBEHAVIOR
 ---
 
-# _DXGKARG_CONTROLMODEBEHAVIOR structure
+# DXGKARG_CONTROLMODEBEHAVIOR structure (d3dkmddi.h)
+
+
 
 
 ## -description

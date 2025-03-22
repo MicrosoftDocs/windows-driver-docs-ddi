@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure"]
 ms.keywords: D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1, display.d3dwddm1_3ddi_d3d11_options_data1
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1
 ---
 
-# D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure
+# D3DWDDM1_3DDI_D3D11_OPTIONS_DATA1 structure (d3d10umddi.h)
+
+
 
 
 ## -description

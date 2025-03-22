@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_VIDSCH_ESCAPE structure"]
 ms.keywords: D3DKMT_VIDSCH_ESCAPE, D3DKMT_VIDSCH_ESCAPE structure [Display Devices], OpenGL_Structs_d668addb-7c4a-4f07-bf9b-71ccd4a216fa.xml, _D3DKMT_VIDSCH_ESCAPE, d3dkmthk/D3DKMT_VIDSCH_ESCAPE, display.d3dkmt_vidsch_escape
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_VIDSCH_ESCAPE
 ---
 
-# _D3DKMT_VIDSCH_ESCAPE structure
+# D3DKMT_VIDSCH_ESCAPE structure (d3dkmthk.h)
+
+
 
 
 ## -description

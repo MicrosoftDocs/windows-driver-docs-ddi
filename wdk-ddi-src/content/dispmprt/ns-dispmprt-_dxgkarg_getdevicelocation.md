@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_GETDEVICELOCATION structure"]
 ms.keywords: _DXGKARG_GETDEVICELOCATION, DXGKARG_GETDEVICELOCATION, *PDXGKARG_GETDEVICELOCATION,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETDEVICELOCATION structure
+# DXGKARG_GETDEVICELOCATION structure (dispmprt.h)
+
+
 
 
 ## -description

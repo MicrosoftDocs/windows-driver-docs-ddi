@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure"]
 ms.keywords: "*PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure [Kernel-Mode Driver Architecture], PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure pointer [Kernel-Mode Driver Architecture], _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, kernel.pep_reset_soc_subsystem_accounting, pepfx/PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING, pepfx/PPEP_RESET_SOC_SUBSYSTEM_ACCOUNTING"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING
 ---
 
-# _PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure (pep_x.h)
+# PEP_RESET_SOC_SUBSYSTEM_ACCOUNTING structure (pep_x.h)
+
+
 
 
 ## -description

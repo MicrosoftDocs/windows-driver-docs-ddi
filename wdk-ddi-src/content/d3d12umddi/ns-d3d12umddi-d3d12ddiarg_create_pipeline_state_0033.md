@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure"]
 ms.keywords: D3D12DDIARG_CREATE_PIPELINE_STATE_0033, D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure [Display Devices], d3d12umddi/D3D12DDIARG_CREATE_PIPELINE_STATE_0033, display.d3d12ddiarg-create-pipeline-state-0033
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDIARG_CREATE_PIPELINE_STATE_0033
 ---
 
-# D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure
+# D3D12DDIARG_CREATE_PIPELINE_STATE_0033 structure (d3d12umddi.h)
+
+
 
 
 ## -description

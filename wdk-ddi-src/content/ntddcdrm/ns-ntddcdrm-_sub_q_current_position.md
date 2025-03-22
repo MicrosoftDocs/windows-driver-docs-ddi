@@ -8,6 +8,7 @@ ms.date: 01/08/2020
 keywords: ["SUB_Q_CURRENT_POSITION structure"]
 ms.keywords: "*PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], _SUB_Q_CURRENT_POSITION, ntddcdrm/PSUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SUB_Q_CURRENT_POSITION
 ---
 
-# _SUB_Q_CURRENT_POSITION structure
+# SUB_Q_CURRENT_POSITION structure (ntddcdrm.h)
+
+
 
 
 ## -description

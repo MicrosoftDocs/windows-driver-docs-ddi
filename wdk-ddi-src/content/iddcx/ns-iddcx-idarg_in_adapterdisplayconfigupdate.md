@@ -8,6 +8,7 @@ ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure"]
 ms.keywords: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure
+# IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure (iddcx.h)
+
+
 
 ## -description
 

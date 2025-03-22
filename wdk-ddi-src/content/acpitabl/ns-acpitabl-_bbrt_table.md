@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["BBRT_TABLE structure"]
 ms.keywords: "*PBBRT_TABLE, BBRT_TABLE, BBRT_TABLE structure [ACPI Devices], PBBRT_TABLE, PBBRT_TABLE structure pointer [ACPI Devices], _BBRT_TABLE, acpi.bbrt_table, acpitabl/BBRT_TABLE, acpitabl/PBBRT_TABLE"
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: Acpitabl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BBRT_TABLE
 ---
 
-# _BBRT_TABLE structure
+# BBRT_TABLE structure (acpitabl.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_LOCKFLAGS structure"]
 ms.keywords: D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS structure [Display Devices], D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, _D3DDDICB_LOCKFLAGS, d3dukmdt/D3DDDICB_LOCKFLAGS, display.d3dddicb_lockflags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_LOCKFLAGS
 ---
 
-# _D3DDDICB_LOCKFLAGS structure
+# D3DDDICB_LOCKFLAGS structure (d3dukmdt.h)
+
+
 
 
 ## -description

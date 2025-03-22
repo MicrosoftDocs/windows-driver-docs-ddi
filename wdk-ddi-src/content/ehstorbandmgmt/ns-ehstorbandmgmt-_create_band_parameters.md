@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CREATE_BAND_PARAMETERS structure"]
 ms.keywords: "*PCREATE_BAND_PARAMETERS, CREATEBAND_AUTHKEY_CACHING_ENABLED, CREATE_BAND_PARAMETERS, CREATE_BAND_PARAMETERS structure [Storage Devices], PCREATE_BAND_PARAMETERS, PCREATE_BAND_PARAMETERS structure pointer [Storage Devices], _CREATE_BAND_PARAMETERS, ehstorbandmgmt/CREATE_BAND_PARAMETERS, ehstorbandmgmt/PCREATE_BAND_PARAMETERS, storage.create_band_parameters"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - CREATE_BAND_PARAMETERS
 ---
 
-# _CREATE_BAND_PARAMETERS structure
+# CREATE_BAND_PARAMETERS structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

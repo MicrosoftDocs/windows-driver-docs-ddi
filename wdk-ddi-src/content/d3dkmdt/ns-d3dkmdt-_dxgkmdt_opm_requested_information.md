@@ -8,6 +8,7 @@ ms.date: 11/18/2021
 keywords: ["DXGKMDT_OPM_REQUESTED_INFORMATION structure"]
 ms.keywords: "*PDXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION, DXGKMDT_OPM_REQUESTED_INFORMATION structure [Display Devices], DmStructs_671b07eb-3d44-4c06-863a-8bd74f10ee4b.xml, PDXGKMDT_OPM_REQUESTED_INFORMATION, PDXGKMDT_OPM_REQUESTED_INFORMATION structure pointer [Display Devices], _DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/DXGKMDT_OPM_REQUESTED_INFORMATION, d3dkmdt/PDXGKMDT_OPM_REQUESTED_INFORMATION, display.dxgkmdt_opm_requested_information"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGKMDT_OPM_REQUESTED_INFORMATION
 ---
 
-# DXGKMDT_OPM_REQUESTED_INFORMATION structure
+# DXGKMDT_OPM_REQUESTED_INFORMATION structure (d3dkmdt.h)
+
+
 
 ## -description
 

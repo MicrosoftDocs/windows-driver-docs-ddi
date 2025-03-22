@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL, stream.kscamera_extendedprop_roi_ispcontrol, tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL
 ---
 
-# tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure
+# tagKSCAMERA_EXTENDEDPROP_ROI_ISPCONTROL structure (ksmedia.h)
+
+
 
 
 ## -description

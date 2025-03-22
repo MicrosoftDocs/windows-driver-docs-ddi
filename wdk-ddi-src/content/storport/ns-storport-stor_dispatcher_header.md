@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 03/24/2020
 ms.keywords: STOR_DISPATCHER_HEADER, STOR_DISPATCHER_HEADER, *PSTOR_DISPATCHER_HEADER,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - STOR_DISPATCHER_HEADER
 ---
 
-# STOR_DISPATCHER_HEADER structure
+# STOR_DISPATCHER_HEADER structure (storport.h)
+
+
 
 
 ## -description

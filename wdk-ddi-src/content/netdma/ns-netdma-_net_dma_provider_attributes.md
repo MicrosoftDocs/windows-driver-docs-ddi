@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NET_DMA_PROVIDER_ATTRIBUTES structure"]
 ms.keywords: "*PNET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES, NET_DMA_PROVIDER_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNET_DMA_PROVIDER_ATTRIBUTES, PNET_DMA_PROVIDER_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PROVIDER_ATTRIBUTES, netdma/NET_DMA_PROVIDER_ATTRIBUTES, netdma/PNET_DMA_PROVIDER_ATTRIBUTES, netdma_ref_a00d6e7c-6712-49c9-9c64-d200e96074c5.xml, netvista.net_dma_provider_attributes"
 req.header: netdma.h
+req.construct-type: structure
 req.include-header: Netdma.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NetDMA 2.0 drivers in Windows Server 2008. Supported for NetDMA 1.1   drivers in Windows Server 2008. Supported for NetDMA 1.0 drivers in Windows Server 2008 and Windows   Vista.
@@ -46,7 +47,9 @@ api_name:
  - NET_DMA_PROVIDER_ATTRIBUTES
 ---
 
-# _NET_DMA_PROVIDER_ATTRIBUTES structure
+# NET_DMA_PROVIDER_ATTRIBUTES structure (netdma.h)
+
+
 
 
 ## -description

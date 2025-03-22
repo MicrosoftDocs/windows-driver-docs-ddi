@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_FLIPOVERLAYFLAGS structure"]
 ms.keywords: D3DDDI_FLIPOVERLAYFLAGS, D3DDDI_FLIPOVERLAYFLAGS structure [Display Devices], D3D_other_Structs_a62b399d-d553-4325-9f5a-ceb08287d4f4.xml, _D3DDDI_FLIPOVERLAYFLAGS, d3dumddi/D3DDDI_FLIPOVERLAYFLAGS, display.d3dddi_flipoverlayflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_FLIPOVERLAYFLAGS
 ---
 
-# _D3DDDI_FLIPOVERLAYFLAGS structure
+# D3DDDI_FLIPOVERLAYFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

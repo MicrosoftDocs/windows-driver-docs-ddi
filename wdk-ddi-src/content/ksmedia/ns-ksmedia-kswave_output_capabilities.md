@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSWAVE_OUTPUT_CAPABILITIES structure"]
 ms.keywords: "*PKSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES, KSWAVE_OUTPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_OUTPUT_CAPABILITIES, PKSWAVE_OUTPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_7660f724-15c2-419f-a0d9-c432069547a3.xml, ksmedia/KSWAVE_OUTPUT_CAPABILITIES, ksmedia/PKSWAVE_OUTPUT_CAPABILITIES, stream.kswave_output_capabilities"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSWAVE_OUTPUT_CAPABILITIES
 ---
 
-# KSWAVE_OUTPUT_CAPABILITIES structure
+# KSWAVE_OUTPUT_CAPABILITIES structure (ksmedia.h)
+
+
 
 
 ## -description

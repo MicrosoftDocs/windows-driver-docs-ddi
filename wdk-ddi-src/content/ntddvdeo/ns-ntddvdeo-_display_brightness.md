@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DISPLAY_BRIGHTNESS structure"]
 ms.keywords: "*PDISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS, DISPLAY_BRIGHTNESS structure [Display Devices], PDISPLAY_BRIGHTNESS, PDISPLAY_BRIGHTNESS structure pointer [Display Devices], Video_Structs_9be4657c-394e-4286-8157-e95f3ada36c8.xml, _DISPLAY_BRIGHTNESS, display.display_brightness, ntddvdeo/DISPLAY_BRIGHTNESS, ntddvdeo/PDISPLAY_BRIGHTNESS"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DISPLAY_BRIGHTNESS
 ---
 
-# _DISPLAY_BRIGHTNESS structure
+# DISPLAY_BRIGHTNESS structure (ntddvdeo.h)
+
+
 
 
 ## -description

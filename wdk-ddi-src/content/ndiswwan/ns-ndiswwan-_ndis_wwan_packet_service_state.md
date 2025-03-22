@@ -8,6 +8,7 @@ ms.date: 04/04/2019
 keywords: ["NDIS_WWAN_PACKET_SERVICE_STATE structure"]
 ms.keywords: "*PNDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE, NDIS_WWAN_PACKET_SERVICE_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PACKET_SERVICE_STATE, PNDIS_WWAN_PACKET_SERVICE_STATE structure pointer [Network Drivers Starting with Windows Vista], WwanRef_b676b582-9e62-4e40-adbf-fe924103ebb6.xml, _NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/NDIS_WWAN_PACKET_SERVICE_STATE, ndiswwan/PNDIS_WWAN_PACKET_SERVICE_STATE, netvista.ndis_wwan_packet_service_state"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_PACKET_SERVICE_STATE
 ---
 
-# _NDIS_WWAN_PACKET_SERVICE_STATE structure
+# NDIS_WWAN_PACKET_SERVICE_STATE structure (ndiswwan.h)
+
+
 
 
 ## -description

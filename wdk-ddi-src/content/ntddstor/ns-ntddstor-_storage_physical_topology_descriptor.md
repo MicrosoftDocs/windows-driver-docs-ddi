@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure [Storage Devices], _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/PSTORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, ntddstor/STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR, storage.storage_physical_topology_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR
 ---
 
-# _STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure
+# STORAGE_PHYSICAL_TOPOLOGY_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

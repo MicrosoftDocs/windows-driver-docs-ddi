@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PROVIDER2 structure"]
 ms.keywords: "*PWWAN_PROVIDER2, PWWAN_PROVIDER2, PWWAN_PROVIDER2 structure pointer [Network Drivers Starting with Windows Vista], WWAN_PROVIDER2, WWAN_PROVIDER2 structure [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER2, netvista.wwan_provider2, wwan/PWWAN_PROVIDER2, wwan/WWAN_PROVIDER2"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PROVIDER2
 ---
 
-# _WWAN_PROVIDER2 structure
+# WWAN_PROVIDER2 structure (wwan.h)
+
+
 
 
 ## -description

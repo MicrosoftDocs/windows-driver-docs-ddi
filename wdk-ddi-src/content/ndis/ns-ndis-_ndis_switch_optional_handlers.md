@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_OPTIONAL_HANDLERS structure"]
 ms.keywords: "*PNDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_OPTIONAL_HANDLERS, PNDIS_SWITCH_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/PNDIS_SWITCH_OPTIONAL_HANDLERS, netvista.ndis_switch_optional_handlers"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SWITCH_OPTIONAL_HANDLERS
 ---
 
-# _NDIS_SWITCH_OPTIONAL_HANDLERS structure
+# NDIS_SWITCH_OPTIONAL_HANDLERS structure (ndis.h)
+
+
 
 
 ## -description

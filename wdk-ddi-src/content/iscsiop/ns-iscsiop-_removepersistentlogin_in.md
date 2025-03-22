@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemovePersistentLogin_IN structure"]
 ms.keywords: "*PRemovePersistentLogin_IN, PRemovePersistentLogin_IN, PRemovePersistentLogin_IN structure pointer [Storage Devices], RemovePersistentLogin_IN, RemovePersistentLogin_IN structure [Storage Devices], _RemovePersistentLogin_IN, iscsiop/PRemovePersistentLogin_IN, iscsiop/RemovePersistentLogin_IN, storage.removepersistentlogin_in, structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemovePersistentLogin_IN
 ---
 
-# _RemovePersistentLogin_IN structure
+# RemovePersistentLogin_IN structure (iscsiop.h)
+
+
 
 
 ## -description

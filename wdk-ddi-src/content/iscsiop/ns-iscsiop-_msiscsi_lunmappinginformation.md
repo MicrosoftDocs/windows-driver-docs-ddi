@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_LUNMappingInformation structure"]
 ms.keywords: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], _MSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation, iscsiop/PMSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_LUNMappingInformation
 ---
 
-# _MSiSCSI_LUNMappingInformation structure
+# MSiSCSI_LUNMappingInformation structure (iscsiop.h)
+
+
 
 
 ## -description

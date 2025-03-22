@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WMI_INSTANCE_CONFIG structure"]
 ms.keywords: "*PWDF_WMI_INSTANCE_CONFIG, DFWMIRef_20be4139-3dcc-425e-9aaf-2851ceb794fb.xml, PWDF_WMI_INSTANCE_CONFIG, PWDF_WMI_INSTANCE_CONFIG structure pointer, WDF_WMI_INSTANCE_CONFIG, WDF_WMI_INSTANCE_CONFIG structure, _WDF_WMI_INSTANCE_CONFIG, kmdf.wdf_wmi_instance_config, wdf.wdf_wmi_instance_config, wdfwmi/PWDF_WMI_INSTANCE_CONFIG, wdfwmi/WDF_WMI_INSTANCE_CONFIG"
 req.header: wdfwmi.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_WMI_INSTANCE_CONFIG
 ---
 
-# _WDF_WMI_INSTANCE_CONFIG structure
+# WDF_WMI_INSTANCE_CONFIG structure (wdfwmi.h)
+
+
 
 
 ## -description

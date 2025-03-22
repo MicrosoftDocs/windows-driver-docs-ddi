@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_TXRX_PEER_CFG structure"]
 ms.keywords: "*PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG, PWDI_TXRX_PEER_CFG structure pointer [Network Drivers Starting with Windows Vista], WDI_TXRX_PEER_CFG, WDI_TXRX_PEER_CFG structure [Network Drivers Starting with Windows Vista], _WDI_TXRX_PEER_CFG, dot11wdi/PWDI_TXRX_PEER_CFG, dot11wdi/WDI_TXRX_PEER_CFG, netvista.wdi_txrx_peer_cfg, netvista.wifi_txrx_peer_cfg"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_TXRX_PEER_CFG
 ---
 
-# _WDI_TXRX_PEER_CFG structure
+# WDI_TXRX_PEER_CFG structure (dot11wdi.h)
+
+
 
 
 ## -description

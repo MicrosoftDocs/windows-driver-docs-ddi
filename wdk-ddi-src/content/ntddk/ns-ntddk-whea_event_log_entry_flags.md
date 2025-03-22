@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_EVENT_LOG_ENTRY_FLAGS structure"]
 ms.keywords: WHEA_EVENT_LOG_ENTRY_FLAGS, WHEA_EVENT_LOG_ENTRY_FLAGS, *PWHEA_EVENT_LOG_ENTRY_FLAGS,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_EVENT_LOG_ENTRY_FLAGS
 ---
 
-# WHEA_EVENT_LOG_ENTRY_FLAGS structure
+# WHEA_EVENT_LOG_ENTRY_FLAGS structure (ntddk.h)
+
+
 
 
 ## -description

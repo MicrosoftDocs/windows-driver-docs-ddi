@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_PATCH structure"]
 ms.keywords: DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, _DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_PATCH
 ---
 
-# _DXGKARG_PATCH structure
+# DXGKARG_PATCH structure (d3dkmddi.h)
+
+
 
 
 ## -description

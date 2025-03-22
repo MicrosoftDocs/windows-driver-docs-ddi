@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure"]
 ms.keywords: "*PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, ndischimney/PNDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS, netvista.ndis_tcp_connection_offload_parameters, tcp_chim_struct_481b5b2a-f226-4306-a2a9-640f711fb75b.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS
 ---
 
-# _NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure
+# NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS structure (ndischimney.h)
+
+
 
 
 ## -description

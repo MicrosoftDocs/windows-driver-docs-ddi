@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - IPSEC_OFFLOAD_V2_ALGORITHM_INFO
 ---
 
-# _IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure
+# IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure (ndis.h)
+
+
 
 
 ## -description

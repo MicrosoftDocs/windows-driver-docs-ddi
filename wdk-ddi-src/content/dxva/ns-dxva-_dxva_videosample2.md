@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_VideoSample2 structure"]
 ms.keywords: "*LPDXVA_VideoSample2, DXVA_VideoSample2, DXVA_VideoSample2 structure [Display Devices], LPDXVA_VideoSample2, LPDXVA_VideoSample2 structure pointer [Display Devices], _DXVA_VideoSample2, display.dxva_videosample2, dxva/DXVA_VideoSample2, dxva/LPDXVA_VideoSample2, dxvaref_4329d0c7-5dc5-42fb-b3b8-f40dc004ac17.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_VideoSample2
 ---
 
-# _DXVA_VideoSample2 structure
+# DXVA_VideoSample2 structure (dxva.h)
+
+
 
 
 ## -description

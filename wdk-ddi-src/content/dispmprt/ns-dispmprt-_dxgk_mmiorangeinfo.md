@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_MMIORANGEINFO structure"]
 ms.keywords: _DXGK_MMIORANGEINFO, DXGK_MMIORANGEINFO, *PDXGK_MMIORANGEINFO,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_MMIORANGEINFO structure
+# DXGK_MMIORANGEINFO structure (dispmprt.h)
+
+
 
 
 ## -description

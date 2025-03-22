@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["STORAGE_PHYSICAL_NODE_DATA structure"]
 ms.keywords: "*PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA, PSTORAGE_PHYSICAL_NODE_DATA structure pointer [Storage Devices], STORAGE_PHYSICAL_NODE_DATA, STORAGE_PHYSICAL_NODE_DATA structure [Storage Devices], _STORAGE_PHYSICAL_NODE_DATA, ntddstor/PSTORAGE_PHYSICAL_NODE_DATA, ntddstor/STORAGE_PHYSICAL_NODE_DATA, storage.storage_physical_node_data"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_PHYSICAL_NODE_DATA
 ---
 
-# STORAGE_PHYSICAL_NODE_DATA structure
+# STORAGE_PHYSICAL_NODE_DATA structure (ntddstor.h)
+
+
 
 ## -description
 

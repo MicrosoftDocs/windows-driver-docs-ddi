@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure"]
 ms.keywords: "*PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, *PWHEA_FIRMWARE_RECORD, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure pointer [WHEA Drivers and Applications], WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure [WHEA Drivers and Applications], WHEA_FIRMWARE_RECORD, _WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE, ntddk/WHEA_FIRMWARE_ERROR_RECORD_REFERENCE, whea.whea_firmware_error_record_reference, whearef_b43d8c6f-f768-47a1-9494-4a4bfac7d586.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_FIRMWARE_ERROR_RECORD_REFERENCE
  - WHEA_FIRMWARE_ERROR_RECORD_REFERENCE
 ---
+
+# WHEA_FIRMWARE_ERROR_RECORD_REFERENCE structure (ntddk.h)
 
 ## -description
 

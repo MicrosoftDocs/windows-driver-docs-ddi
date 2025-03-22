@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["STREAM_INFO structure"]
 ms.keywords: "*PSTREAM_INFO, P_STREAM_INFO, P_STREAM_INFO structure pointer [Buses], STREAM_INFO, STREAM_INFO structure [Buses], _STREAM_INFO, buses._stream_info, ucxsstreams/P_STREAM_INFO, ucxsstreams/_STREAM_INFO"
 req.header: ucxsstreams.h
+req.construct-type: structure
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STREAM_INFO
 ---
 
-# _STREAM_INFO structure
+# STREAM_INFO structure (ucxsstreams.h)
+
+
 
 
 ## -description

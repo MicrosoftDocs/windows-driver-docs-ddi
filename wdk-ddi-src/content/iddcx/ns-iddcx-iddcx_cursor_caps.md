@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDDCX_CURSOR_CAPS structure"]
 ms.keywords: IDDCX_CURSOR_CAPS, IDDCX_CURSOR_CAPS structure [Display Devices], display.iddcx_cursor_caps, iddcx/IDDCX_CURSOR_CAPS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_CURSOR_CAPS
 ---
 
-# IDDCX_CURSOR_CAPS structure
+# IDDCX_CURSOR_CAPS structure (iddcx.h)
+
+
 
 
 ## -description

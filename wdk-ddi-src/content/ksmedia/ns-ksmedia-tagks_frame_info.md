@@ -7,6 +7,7 @@ ms.date: 03/11/2022
 keywords: ["tagKS_FRAME_INFO structure"]
 ms.keywords: "*PKS_FRAME_INFO, KS_FRAME_INFO, KS_FRAME_INFO structure [Streaming Media Devices], PKS_FRAME_INFO, PKS_FRAME_INFO structure pointer [Streaming Media Devices], ksmedia/KS_FRAME_INFO, ksmedia/PKS_FRAME_INFO, stream.ks_frame_info, tagKS_FRAME_INFO, vidcapstruct_1ce3f0b4-3032-4956-83a3-2a92039eb7a0.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PKS_FRAME_INFO
  - KS_FRAME_INFO
 ---
+
+# tagKS_FRAME_INFO structure (ksmedia.h)
 
 ## -description
 

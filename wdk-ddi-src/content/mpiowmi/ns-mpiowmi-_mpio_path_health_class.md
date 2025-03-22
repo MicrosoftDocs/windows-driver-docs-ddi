@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_PATH_HEALTH_CLASS structure"]
 ms.keywords: "*PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, mpiowmi/PMPIO_PATH_HEALTH_CLASS, storage.mpio_path_health_class, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIO_PATH_HEALTH_CLASS
 ---
 
-# _MPIO_PATH_HEALTH_CLASS structure
+# MPIO_PATH_HEALTH_CLASS structure (mpiowmi.h)
+
+
 
 
 ## -description

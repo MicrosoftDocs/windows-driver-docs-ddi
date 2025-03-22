@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_POWER_MANAGEMENT structure"]
 ms.keywords: "*PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT, PVIDEO_POWER_MANAGEMENT structure pointer [Display Devices], VIDEO_POWER_MANAGEMENT, VIDEO_POWER_MANAGEMENT structure [Display Devices], Video_Structs_d179543a-6712-4c33-a945-7bbf8a5bc1ed.xml, _VIDEO_POWER_MANAGEMENT, display.video_power_management, ntddvdeo/PVIDEO_POWER_MANAGEMENT, ntddvdeo/VIDEO_POWER_MANAGEMENT"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_POWER_MANAGEMENT
 ---
 
-# _VIDEO_POWER_MANAGEMENT structure
+# VIDEO_POWER_MANAGEMENT structure (ntddvdeo.h)
+
+
 
 
 ## -description

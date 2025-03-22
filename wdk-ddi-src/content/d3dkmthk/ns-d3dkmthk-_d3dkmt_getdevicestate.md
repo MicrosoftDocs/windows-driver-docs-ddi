@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_GETDEVICESTATE structure"]
 ms.keywords: D3DKMT_GETDEVICESTATE, D3DKMT_GETDEVICESTATE structure [Display Devices], OpenGL_Structs_39a99244-3951-4a2f-a92d-4aec50589cde.xml, _D3DKMT_GETDEVICESTATE, d3dkmthk/D3DKMT_GETDEVICESTATE, display.d3dkmt_getdevicestate
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_GETDEVICESTATE
 ---
 
-# _D3DKMT_GETDEVICESTATE structure
+# D3DKMT_GETDEVICESTATE structure (d3dkmthk.h)
+
+
 
 
 ## -description

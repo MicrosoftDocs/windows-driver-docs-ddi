@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_MI_PARENT_INFORMATION structure"]
 ms.keywords: "*PUSB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION, PUSB_MI_PARENT_INFORMATION structure pointer [Buses], USB_MI_PARENT_INFORMATION, USB_MI_PARENT_INFORMATION structure [Buses], _USB_MI_PARENT_INFORMATION, buses.usb_mi_parent_information, usbioctl/PUSB_MI_PARENT_INFORMATION, usbioctl/USB_MI_PARENT_INFORMATION, usbstrct_710c4241-48d7-4fe7-bd1b-268c7c0f2b41.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_MI_PARENT_INFORMATION
 ---
 
-# _USB_MI_PARENT_INFORMATION structure
+# USB_MI_PARENT_INFORMATION structure (usbioctl.h)
+
+
 
 
 ## -description

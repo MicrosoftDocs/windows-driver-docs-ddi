@@ -8,6 +8,7 @@ ms.date: 09/20/2020
 keywords: ["IDDCX_DISPLAYCONFIGPATH structure"]
 ms.keywords: IDDCX_DISPLAYCONFIGPATH, ,
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# IDDCX_DISPLAYCONFIGPATH structure
+# IDDCX_DISPLAYCONFIGPATH structure (iddcx.h)
+
+
 
 ## -description
 

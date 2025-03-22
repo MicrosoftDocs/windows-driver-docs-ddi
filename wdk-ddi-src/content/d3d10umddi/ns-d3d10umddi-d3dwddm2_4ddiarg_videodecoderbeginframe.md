@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure"]
 ms.keywords: D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME, D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME,
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME
 ---
 
-# D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure
+# D3DWDDM2_4DDIARG_VIDEODECODERBEGINFRAME structure (d3d10umddi.h)
+
+
 
 
 ## -description

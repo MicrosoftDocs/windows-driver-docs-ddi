@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["WWAN_SAR_CONFIG_INFO structure"]
 ms.keywords: _WWAN_SAR_CONFIG_INFO, WWAN_SAR_CONFIG_INFO, *PWWAN_SAR_CONFIG_INFO,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - WWAN_SAR_CONFIG_INFO
 ---
 
-# _WWAN_SAR_CONFIG_INFO structure
+# WWAN_SAR_CONFIG_INFO structure (wwan.h)
+
+
 
 
 ## -description

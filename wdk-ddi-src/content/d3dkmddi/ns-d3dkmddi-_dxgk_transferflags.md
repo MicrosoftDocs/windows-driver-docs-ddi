@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_TRANSFERFLAGS structure"]
 ms.keywords: DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS structure [Display Devices], DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, _DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS, display.dxgk_transferflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_TRANSFERFLAGS
 ---
 
-# _DXGK_TRANSFERFLAGS structure
+# DXGK_TRANSFERFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

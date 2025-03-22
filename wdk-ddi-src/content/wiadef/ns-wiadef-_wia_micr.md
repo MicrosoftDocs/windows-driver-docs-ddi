@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIA_MICR structure"]
 ms.keywords: WIA_MICR, WIA_MICR structure [Imaging Devices], _WIA_MICR, image.wia_micr, wiadef/WIA_MICR
 req.header: wiadef.h
+req.construct-type: structure
 req.include-header: Wiadef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WIA_MICR
 ---
 
-# _WIA_MICR structure
+# WIA_MICR structure (wiadef.h)
+
+
 
 
 ## -description

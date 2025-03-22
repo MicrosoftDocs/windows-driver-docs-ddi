@@ -8,6 +8,7 @@ ms.date: 08/14/2020
 keywords: ["SDEV_SECURE_ACPI_INFO_ENTRY structure"]
 ms.keywords: "*PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], _SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY"
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: Acpitabl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
@@ -46,7 +47,9 @@ api_name:
  - SDEV_SECURE_ACPI_INFO_ENTRY
 ---
 
-# _SDEV_SECURE_ACPI_INFO_ENTRY structure
+# SDEV_SECURE_ACPI_INFO_ENTRY structure (acpitabl.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 07/22/2021
 keywords: ["DXGKARGCB_UNPINFRAMEBUFFERFORSAVE structure"]
 ms.keywords: _DXGKARGCB_UNPINFRAMEBUFFERFORSAVE, DXGKARGCB_UNPINFRAMEBUFFERFORSAVE,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -36,7 +37,9 @@ api_name:
  - DXGKARGCB_UNPINFRAMEBUFFERFORSAVE
 ---
 
-# DXGKARGCB_UNPINFRAMEBUFFERFORSAVE structure
+# DXGKARGCB_UNPINFRAMEBUFFERFORSAVE structure (d3dkmddi.h)
+
+
 
 ## -description
 

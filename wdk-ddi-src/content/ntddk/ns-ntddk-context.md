@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["CONTEXT structure"]
 ms.keywords: CONTEXT, CONTEXT, *PCONTEXT, *PCONTEXT
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - CONTEXT
 ---
 
-# CONTEXT structure
+# CONTEXT structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SCANINFO structure"]
 ms.keywords: "*PSCANINFO, MicroDrv_42f31c58-206a-468e-98ff-794c69b82457.xml, PSCANINFO, PSCANINFO structure pointer [Imaging Devices], SCANINFO, SCANINFO structure [Imaging Devices], _SCANINFO, image.scaninfo, wiamicro/PSCANINFO, wiamicro/SCANINFO"
 req.header: wiamicro.h
+req.construct-type: structure
 req.include-header: Wiamicro.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCANINFO
 ---
 
-# _SCANINFO structure
+# SCANINFO structure (wiamicro.h)
+
+
 
 
 ## -description

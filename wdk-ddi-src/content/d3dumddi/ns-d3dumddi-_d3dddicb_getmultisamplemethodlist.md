@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_GETMULTISAMPLEMETHODLIST structure"]
 ms.keywords: D3DDDICB_GETMULTISAMPLEMETHODLIST, D3DDDICB_GETMULTISAMPLEMETHODLIST structure [Display Devices], D3D_param_Structs_11da91d5-a4e6-4d24-b2b1-3645003ff25e.xml, _D3DDDICB_GETMULTISAMPLEMETHODLIST, d3dumddi/D3DDDICB_GETMULTISAMPLEMETHODLIST, display.d3dddicb_getmultisamplemethodlist
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_GETMULTISAMPLEMETHODLIST
 ---
 
-# _D3DDDICB_GETMULTISAMPLEMETHODLIST structure
+# D3DDDICB_GETMULTISAMPLEMETHODLIST structure (d3dumddi.h)
+
+
 
 
 ## -description

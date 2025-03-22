@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_STRING_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR, PUSB_STRING_DESCRIPTOR structure pointer [Buses], USB_STRING_DESCRIPTOR, USB_STRING_DESCRIPTOR structure [Buses], _USB_STRING_DESCRIPTOR, buses.usb_string_descriptor, usbspec/PUSB_STRING_DESCRIPTOR, usbspec/USB_STRING_DESCRIPTOR, usbstrct_b0740c7e-9042-4426-be26-20b8620a0e7e.xml"
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_STRING_DESCRIPTOR
 ---
 
-# _USB_STRING_DESCRIPTOR structure
+# USB_STRING_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_QUERYADAPTERINFO structure"]
 ms.keywords: D3DDDICB_QUERYADAPTERINFO, D3DDDICB_QUERYADAPTERINFO structure [Display Devices], D3D_param_Structs_24ed4d09-d2ff-4b79-95fc-5a1c7d146faa.xml, _D3DDDICB_QUERYADAPTERINFO, d3dumddi/D3DDDICB_QUERYADAPTERINFO, display.d3dddicb_queryadapterinfo
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_QUERYADAPTERINFO
 ---
 
-# _D3DDDICB_QUERYADAPTERINFO structure
+# D3DDDICB_QUERYADAPTERINFO structure (d3dumddi.h)
+
+
 
 
 ## -description

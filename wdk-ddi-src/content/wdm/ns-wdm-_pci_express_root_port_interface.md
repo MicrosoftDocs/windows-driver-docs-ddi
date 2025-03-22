@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_ROOT_PORT_INTERFACE structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_PORT_INTERFACE, PCI.pci_express_root_port_interface, PCI_EXPRESS_ROOT_PORT_INTERFACE, PCI_EXPRESS_ROOT_PORT_INTERFACE structure [Buses], _PCI_EXPRESS_ROOT_PORT_INTERFACE, wdm/"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_EXPRESS_ROOT_PORT_INTERFACE
 ---
 
-# _PCI_EXPRESS_ROOT_PORT_INTERFACE structure
+# PCI_EXPRESS_ROOT_PORT_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

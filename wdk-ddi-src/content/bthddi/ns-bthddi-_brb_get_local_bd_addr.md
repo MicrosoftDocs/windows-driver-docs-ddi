@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_GET_LOCAL_BD_ADDR structure"]
 ms.keywords: "_BRB_GET_LOCAL_BD_ADDR, _BRB_GET_LOCAL_BD_ADDR structure [Bluetooth Devices], bltooth._brb_get_local_bd_addr, bth_structs_eede3474-96b3-4865-a700-70f7e444a4c3.xml, bthddi/_BRB_GET_LOCAL_BD_ADDR"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_GET_LOCAL_BD_ADDR
 ---
 
-# _BRB_GET_LOCAL_BD_ADDR structure
+# _BRB_GET_LOCAL_BD_ADDR structure (bthddi.h)
+
+
 
 
 ## -description

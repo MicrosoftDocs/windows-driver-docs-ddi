@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SE_SID structure"]
 ms.keywords: "*PSE_SID, PSE_SID, PSE_SID union pointer [Installable File System Drivers], SE_SID, SE_SID union [Installable File System Drivers], _SE_SID, ifsk.se_sid, ntifs/PSE_SID, ntifs/SE_SID"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SE_SID
 ---
 
-# _SE_SID structure
+# SE_SID structure (ntifs.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE structure"]
 ms.keywords: DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -33,7 +34,9 @@ api_name:
  - DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE
 ---
 
-# DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE structure
+# DXGIDDICB_SUBMITPRESENTBLTTOHWQUEUE structure (dxgiddi.h)
+
+
 
 
 ## -description

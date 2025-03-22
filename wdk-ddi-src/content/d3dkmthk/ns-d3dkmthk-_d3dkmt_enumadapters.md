@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_ENUMADAPTERS structure"]
 ms.keywords: D3DKMT_ENUMADAPTERS, D3DKMT_ENUMADAPTERS structure [Display Devices], _D3DKMT_ENUMADAPTERS, d3dkmthk/D3DKMT_ENUMADAPTERS, display.d3dkmt_enumadapters
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_ENUMADAPTERS
 ---
 
-# _D3DKMT_ENUMADAPTERS structure
+# D3DKMT_ENUMADAPTERS structure (d3dkmthk.h)
+
+
 
 
 ## -description

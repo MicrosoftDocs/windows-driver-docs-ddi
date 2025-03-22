@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_SIGNAL_TIMEOUTS structure"]
 ms.keywords: "*PBDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS structure [Streaming Media Devices], PBDA_SIGNAL_TIMEOUTS, PBDA_SIGNAL_TIMEOUTS structure pointer [Streaming Media Devices], _BDA_SIGNAL_TIMEOUTS, bdatypes/BDA_SIGNAL_TIMEOUTS, bdatypes/PBDA_SIGNAL_TIMEOUTS, stream.bda_signal_timeouts"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_SIGNAL_TIMEOUTS
 ---
 
-# _BDA_SIGNAL_TIMEOUTS structure
+# BDA_SIGNAL_TIMEOUTS structure (bdatypes.h)
+
+
 
 
 ## -description

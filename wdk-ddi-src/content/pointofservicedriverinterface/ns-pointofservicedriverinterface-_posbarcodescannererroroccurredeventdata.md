@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["PosBarcodeScannerErrorOccurredEventData structure"]
 ms.keywords: PosBarcodeScannerErrorOccurredEventData, PosBarcodeScannerErrorOccurredEventData structure, _PosBarcodeScannerErrorOccurredEventData, pointofservicedriverinterface/PosBarcodeScannerErrorOccurredEventData, pos.posbarcodescannererroroccurredeventdata
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosBarcodeScannerErrorOccurredEventData
 ---
 
-# _PosBarcodeScannerErrorOccurredEventData structure
+# PosBarcodeScannerErrorOccurredEventData structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

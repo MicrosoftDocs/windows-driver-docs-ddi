@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["DISK_DETECTION_INFO structure"]
 ms.keywords: "*PDISK_DETECTION_INFO, DISK_DETECTION_INFO, DISK_DETECTION_INFO structure [Storage Devices], PDISK_DETECTION_INFO, PDISK_DETECTION_INFO structure pointer [Storage Devices], _DISK_DETECTION_INFO, ntdddisk/DISK_DETECTION_INFO, ntdddisk/PDISK_DETECTION_INFO, storage.disk_detection_info, structs-disk_04ca1cb1-3995-47d9-9b5a-0e54ea98dbd6.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h, Ntddk.h, Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DISK_DETECTION_INFO
 ---
 
-# DISK_DETECTION_INFO structure
+# DISK_DETECTION_INFO structure (ntdddisk.h)
+
+
 
 ## -description
 

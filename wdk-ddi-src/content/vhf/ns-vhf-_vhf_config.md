@@ -8,6 +8,7 @@ ms.date: 10/26/2021
 keywords: ["VHF_CONFIG structure"]
 ms.keywords: "*PVHF_CONFIG, PVHF_CONFIG, PVHF_CONFIG structure pointer [Human Input Devices], VHF_CONFIG, VHF_CONFIG structure [Human Input Devices], _VHF_CONFIG, hid.vhf_config, vhf/PVHF_CONFIG, vhf/VHF_CONFIG"
 req.header: vhf.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - VHF_CONFIG
 ---
 
-# _VHF_CONFIG structure
+# VHF_CONFIG structure (vhf.h)
+
+
 
 
 ## -description

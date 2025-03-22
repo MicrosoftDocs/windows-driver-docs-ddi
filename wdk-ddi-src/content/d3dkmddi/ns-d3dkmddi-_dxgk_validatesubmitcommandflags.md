@@ -6,6 +6,7 @@ ms.date: 03/23/2023
 keywords: ["DXGK_VALIDATESUBMITCOMMANDFLAGS structure"]
 ms.keywords: _DXGK_VALIDATESUBMITCOMMANDFLAGS, DXGK_VALIDATESUBMITCOMMANDFLAGS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_VALIDATESUBMITCOMMANDFLAGS structure
+# DXGK_VALIDATESUBMITCOMMANDFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

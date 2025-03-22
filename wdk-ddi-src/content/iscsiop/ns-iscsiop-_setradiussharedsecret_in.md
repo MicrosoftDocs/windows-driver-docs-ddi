@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetRADIUSSharedSecret_IN structure"]
 ms.keywords: "*PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], _SetRADIUSSharedSecret_IN, iscsiop/PSetRADIUSSharedSecret_IN, iscsiop/SetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetRADIUSSharedSecret_IN
 ---
 
-# _SetRADIUSSharedSecret_IN structure
+# SetRADIUSSharedSecret_IN structure (iscsiop.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_PRESENT_DISPLAYONLY structure"]
 ms.keywords: DXGKARG_PRESENT_DISPLAYONLY, DXGKARG_PRESENT_DISPLAYONLY structure [Display Devices], _DXGKARG_PRESENT_DISPLAYONLY, d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY, display.dxgkarg_present_displayonly
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_PRESENT_DISPLAYONLY
 ---
 
-# _DXGKARG_PRESENT_DISPLAYONLY structure
+# DXGKARG_PRESENT_DISPLAYONLY structure (d3dkmddi.h)
+
+
 
 
 ## -description

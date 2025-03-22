@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_INVALIDATEACTIVEVIDPN structure"]
 ms.keywords: D3DKMT_INVALIDATEACTIVEVIDPN, D3DKMT_INVALIDATEACTIVEVIDPN structure [Display Devices], OpenGL_Structs_6610529b-39db-4fc4-981a-96a6b3bf7543.xml, _D3DKMT_INVALIDATEACTIVEVIDPN, d3dkmthk/D3DKMT_INVALIDATEACTIVEVIDPN, display.d3dkmt_invalidateactivevidpn
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_INVALIDATEACTIVEVIDPN
 ---
 
-# _D3DKMT_INVALIDATEACTIVEVIDPN structure
+# D3DKMT_INVALIDATEACTIVEVIDPN structure (d3dkmthk.h)
+
+
 
 
 ## -description

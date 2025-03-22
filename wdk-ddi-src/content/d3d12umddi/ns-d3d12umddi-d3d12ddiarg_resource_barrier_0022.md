@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["D3D12DDIARG_RESOURCE_BARRIER_0022 structure"]
 ms.keywords: D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, display.d3d12ddiarg_resource_barrier_0022
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDIARG_RESOURCE_BARRIER_0022
 ---
 
-# D3D12DDIARG_RESOURCE_BARRIER_0022 structure
+# D3D12DDIARG_RESOURCE_BARRIER_0022 structure (d3d12umddi.h)
+
+
 
 ## -description
 

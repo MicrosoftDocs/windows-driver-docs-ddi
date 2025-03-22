@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["I2C_CALLBACKS structure"]
 ms.keywords: "*PI2C_CALLBACKS, I2C_CALLBACKS, I2C_CALLBACKS structure [Display Devices], PI2C_CALLBACKS, PI2C_CALLBACKS structure pointer [Display Devices], Video_Structs_fc21393a-6df2-4b4f-89be-2d3ac46dfcd7.xml, _I2C_CALLBACKS, display.i2c_callbacks, video/I2C_CALLBACKS, video/PI2C_CALLBACKS"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - I2C_CALLBACKS
 ---
 
-# _I2C_CALLBACKS structure
+# I2C_CALLBACKS structure (video.h)
+
+
 
 
 ## -description

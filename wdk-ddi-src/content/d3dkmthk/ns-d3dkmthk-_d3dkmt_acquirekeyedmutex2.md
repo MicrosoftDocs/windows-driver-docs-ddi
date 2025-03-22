@@ -6,6 +6,7 @@ ms.date: 07/27/2023
 keywords: ["D3DKMT_ACQUIREKEYEDMUTEX2 structure"]
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX2, D3DKMT_ACQUIREKEYEDMUTEX2 structure [Display Devices], _D3DKMT_ACQUIREKEYEDMUTEX2, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX2, display.d3dkmt_acquirekeyedmutex2
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_ACQUIREKEYEDMUTEX2
 ---
 
-# D3DKMT_ACQUIREKEYEDMUTEX2 structure
+# D3DKMT_ACQUIREKEYEDMUTEX2 structure (d3dkmthk.h)
+
+
 
 ## -description
 

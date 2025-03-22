@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_EXCLUSIVE_LOCK_STATE structure"]
 ms.keywords: "*PCDROM_EXCLUSIVE_LOCK_STATE, CDROM_EXCLUSIVE_LOCK_STATE, CDROM_EXCLUSIVE_LOCK_STATE structure [Storage Devices], PCDROM_EXCLUSIVE_LOCK_STATE, PCDROM_EXCLUSIVE_LOCK_STATE structure pointer [Storage Devices], _CDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/CDROM_EXCLUSIVE_LOCK_STATE, ntddcdrm/PCDROM_EXCLUSIVE_LOCK_STATE, storage.cdrom_exclusive_lock_state, structs-CD-ROM_eeca8064-e141-4398-819e-451a80aca4c3.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_EXCLUSIVE_LOCK_STATE
 ---
 
-# _CDROM_EXCLUSIVE_LOCK_STATE structure
+# CDROM_EXCLUSIVE_LOCK_STATE structure (ntddcdrm.h)
+
+
 
 
 ## -description

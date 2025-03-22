@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DATA_SET_LB_PROVISIONING_STATE structure"]
 ms.keywords: "*PDEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE, DEVICE_DATA_SET_LB_PROVISIONING_STATE structure [Storage Devices], PDEVICE_DATA_SET_LB_PROVISIONING_STATE, PDEVICE_DATA_SET_LB_PROVISIONING_STATE structure pointer [Storage Devices], _DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/DEVICE_DATA_SET_LB_PROVISIONING_STATE, ntddstor/PDEVICE_DATA_SET_LB_PROVISIONING_STATE, storage.device_data_set_lb_provisioning_state"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_DATA_SET_LB_PROVISIONING_STATE
 ---
 
-# _DEVICE_DATA_SET_LB_PROVISIONING_STATE structure
+# DEVICE_DATA_SET_LB_PROVISIONING_STATE structure (ntddstor.h)
+
+
 
 
 ## -description

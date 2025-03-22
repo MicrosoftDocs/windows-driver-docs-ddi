@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FSCTL_OFFLOAD_WRITE_OUTPUT structure"]
 ms.keywords: "*PFSCTL_OFFLOAD_WRITE_OUTPUT, FSCTL_OFFLOAD_WRITE_OUTPUT, FSCTL_OFFLOAD_WRITE_OUTPUT structure [Installable File System Drivers], OFFLOAD_READ_FLAG_FILE_TOO_SMALL, PFSCTL_OFFLOAD_WRITE_OUTPUT, PFSCTL_OFFLOAD_WRITE_OUTPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_WRITE_OUTPUT, ifsk.fsctl_offload_write_output, ntifs/FSCTL_OFFLOAD_WRITE_OUTPUT, ntifs/PFSCTL_OFFLOAD_WRITE_OUTPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -45,7 +46,9 @@ api_name:
  - FSCTL_OFFLOAD_WRITE_OUTPUT
 ---
 
-# FSCTL_OFFLOAD_WRITE_OUTPUT structure
+# FSCTL_OFFLOAD_WRITE_OUTPUT structure (ntifs.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 12/12/2023
 keywords: ["D3D12DDIARG_META_COMMAND_DESC structure"]
 ms.keywords: D3D12DDIARG_META_COMMAND_DESC, D3D12DDIARG_META_COMMAND_DESC,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDIARG_META_COMMAND_DESC structure
+# D3D12DDIARG_META_COMMAND_DESC structure (d3d12umddi.h)
+
+
 
 ## -description
 

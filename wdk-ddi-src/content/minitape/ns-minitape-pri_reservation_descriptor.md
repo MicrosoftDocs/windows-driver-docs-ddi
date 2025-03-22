@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["PRI_RESERVATION_DESCRIPTOR structure"]
 ms.keywords: "*PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], PRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], storage.pri_reservation_descriptor, storport/PPRI_RESERVATION_DESCRIPTOR, storport/PRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PPRI_RESERVATION_DESCRIPTOR
  - PRI_RESERVATION_DESCRIPTOR
 ---
+
+# PRI_RESERVATION_DESCRIPTOR structure (minitape.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_DISCONNECT_IO_PINS_PARAMETERS structure"]
 ms.keywords: "*PGPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO.gpio_disconnect_io_pins_parameters, GPIO_DISCONNECT_IO_PINS_PARAMETERS, GPIO_DISCONNECT_IO_PINS_PARAMETERS structure [Parallel Ports], PGPIO_DISCONNECT_IO_PINS_PARAMETERS, PGPIO_DISCONNECT_IO_PINS_PARAMETERS structure pointer [Parallel Ports], _GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/GPIO_DISCONNECT_IO_PINS_PARAMETERS, gpioclx/PGPIO_DISCONNECT_IO_PINS_PARAMETERS"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_DISCONNECT_IO_PINS_PARAMETERS
 ---
 
-# _GPIO_DISCONNECT_IO_PINS_PARAMETERS structure
+# GPIO_DISCONNECT_IO_PINS_PARAMETERS structure (gpioclx.h)
+
+
 
 
 ## -description

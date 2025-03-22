@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_PIN_LIST structure"]
 ms.keywords: "*PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, _NDIS_WWAN_PIN_LIST, ndiswwan/NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, netvista.ndis_wwan_pin_list"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_PIN_LIST
 ---
 
-# _NDIS_WWAN_PIN_LIST structure
+# NDIS_WWAN_PIN_LIST structure (ndiswwan.h)
+
+
 
 
 ## -description

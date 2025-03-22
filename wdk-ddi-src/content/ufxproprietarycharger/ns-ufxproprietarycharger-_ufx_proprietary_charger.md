@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UFX_PROPRIETARY_CHARGER structure"]
 ms.keywords: "*PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER, PUFX_PROPRIETARY_CHARGER structure pointer [Buses], UFX_PROPRIETARY_CHARGER, UFX_PROPRIETARY_CHARGER structure [Buses], _UFX_PROPRIETARY_CHARGER, buses.ufx_proprietary_charger, ufxproprietarycharger/PUFX_PROPRIETARY_CHARGER, ufxproprietarycharger/UFX_PROPRIETARY_CHARGER"
 req.header: ufxproprietarycharger.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UFX_PROPRIETARY_CHARGER
 ---
 
-# _UFX_PROPRIETARY_CHARGER structure
+# UFX_PROPRIETARY_CHARGER structure (ufxproprietarycharger.h)
+
+
 
 
 ## -description

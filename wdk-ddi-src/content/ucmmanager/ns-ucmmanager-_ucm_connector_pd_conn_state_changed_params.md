@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure"]
 ms.keywords: "*PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure pointer [Buses], UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure [Buses], _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, buses.ucm_connector_pd_conn_state_changed_params, ucmmanager/PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS"
 req.header: ucmmanager.h
+req.construct-type: structure
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
 ---
 
-# _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure
+# UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure (ucmmanager.h)
+
+
 
 
 ## -description

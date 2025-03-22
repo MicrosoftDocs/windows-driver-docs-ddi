@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION structure"]
 ms.keywords: "*PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure [Network Drivers Starting with Windows Vista], PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION, ndis/NDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis/PNDIS_NBL_MEDIA_SPECIFIC_INFORMATION, ndis_netbuf_structures_ref_d272f589-0af5-458e-8238-5ba58858ccc0.xml, netvista.ndis_nbl_media_specific_information"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_NBL_MEDIA_SPECIFIC_INFORMATION
 ---
 
-# _NDIS_NBL_MEDIA_MEDIA_SPECIFIC_INFORMATION structure
+# NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structure (ndis.h)
+
+
 
 
 ## -description

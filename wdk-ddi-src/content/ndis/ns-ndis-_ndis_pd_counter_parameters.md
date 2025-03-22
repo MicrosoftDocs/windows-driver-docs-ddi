@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PD_COUNTER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_COUNTER_PARAMETERS, NDIS_PD_COUNTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_PARAMETERS, ndis/NDIS_PD_COUNTER_PARAMETERS, ndis/PNDIS_PD_COUNTER_PARAMETERS, netvista.ndis_pd_counter_parameters
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - NDIS_PD_COUNTER_PARAMETERS
 ---
 
-# _NDIS_PD_COUNTER_PARAMETERS structure
+# NDIS_PD_COUNTER_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

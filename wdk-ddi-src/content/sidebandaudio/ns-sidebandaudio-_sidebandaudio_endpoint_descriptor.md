@@ -6,6 +6,7 @@ ms.date: 06/26/2023
 keywords: ["SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR, *PSIDEBANDAUDIO_ENDPOINT_DESCRIPTOR,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR
 ---
 
-# _SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure
+# SIDEBANDAUDIO_ENDPOINT_DESCRIPTOR structure (sidebandaudio.h)
+
+
 
 ## -description
 

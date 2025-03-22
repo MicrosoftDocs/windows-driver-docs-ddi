@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_SPEC_VERSION structure"]
 ms.keywords: "*PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION, PSTORAGE_SPEC_VERSION union pointer [Storage Devices], STORAGE_SPEC_VERSION, STORAGE_SPEC_VERSION union [Storage Devices], _STORAGE_SPEC_VERSION, ntddstor/PSTORAGE_SPEC_VERSION, ntddstor/STORAGE_SPEC_VERSION, storage.storage_spec_version"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_SPEC_VERSION
 ---
 
-# _STORAGE_SPEC_VERSION structure
+# STORAGE_SPEC_VERSION structure (ntddstor.h)
+
+
 
 
 ## -description

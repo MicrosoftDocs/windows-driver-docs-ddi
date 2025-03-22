@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_DEVICE_STARTED structure"]
 ms.keywords: "*PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_STARTED, PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_STARTED, kernel.pep_device_started, pepfx/PEP_DEVICE_STARTED, pepfx/PPEP_DEVICE_STARTED"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_DEVICE_STARTED
 ---
 
-# _PEP_DEVICE_STARTED structure (pep_x.h)
+# PEP_DEVICE_STARTED structure (pep_x.h)
+
+
 
 
 ## -description

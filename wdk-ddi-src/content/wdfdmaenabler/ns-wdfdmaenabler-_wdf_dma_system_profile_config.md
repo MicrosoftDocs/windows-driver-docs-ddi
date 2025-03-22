@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DMA_SYSTEM_PROFILE_CONFIG structure"]
 ms.keywords: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG, PWDF_DMA_SYSTEM_PROFILE_CONFIG structure pointer, WDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG structure, _WDF_DMA_SYSTEM_PROFILE_CONFIG, kmdf.wdf_dma_system_profile_config, wdf.wdf_dma_system_profile_config, wdfdmaenabler/PWDF_DMA_SYSTEM_PROFILE_CONFIG, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG"
 req.header: wdfdmaenabler.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - WDF_DMA_SYSTEM_PROFILE_CONFIG
 ---
 
-# _WDF_DMA_SYSTEM_PROFILE_CONFIG structure
+# WDF_DMA_SYSTEM_PROFILE_CONFIG structure (wdfdmaenabler.h)
+
+
 
 
 ## -description

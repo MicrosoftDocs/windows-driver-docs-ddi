@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_CONNECTOR structure"]
 ms.keywords: NDK_CONNECTOR, NDK_CONNECTOR structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR, PNDK_CONNECTOR structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR, ndkpi/NDK_CONNECTOR, ndkpi/PNDK_CONNECTOR, netvista.ndk_connector
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_CONNECTOR
 ---
 
-# _NDK_CONNECTOR structure
+# NDK_CONNECTOR structure (ndkpi.h)
+
+
 
 
 ## -description

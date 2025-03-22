@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure"]
 ms.keywords: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c3324903-51b0-4679-ad77-b24cb5619bef.xml, d3d10umddi/D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY, display.d3d11ddiarg_stream_output_declaration_entry
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY
 ---
 
-# D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure
+# D3D11DDIARG_STREAM_OUTPUT_DECLARATION_ENTRY structure (d3d10umddi.h)
+
+
 
 
 ## -description

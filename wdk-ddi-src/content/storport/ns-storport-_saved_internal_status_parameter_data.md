@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["SAVED_INTERNAL_STATUS_PARAMETER_DATA structure"]
 ms.keywords: _SAVED_INTERNAL_STATUS_PARAMETER_DATA, SAVED_INTERNAL_STATUS_PARAMETER_DATA, *PSAVED_INTERNAL_STATUS_PARAMETER_DATA,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - SAVED_INTERNAL_STATUS_PARAMETER_DATA
 ---
 
-# _SAVED_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)
+# SAVED_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)
+
+
 
 
 ## -description

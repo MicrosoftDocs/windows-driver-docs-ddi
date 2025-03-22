@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR structure pointer [Storage Devices], STORAGE_TEMPERATURE_DATA_DESCRIPTOR, STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure [Storage Devices], _STORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/PSTORAGE_TEMPERATURE_DATA_DESCRIPTOR, ntddstor/STORAGE_TEMPERATURE_DATA_DESCRIPTOR, storage.storage_temperature_data_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_TEMPERATURE_DATA_DESCRIPTOR
 ---
 
-# STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure
+# STORAGE_TEMPERATURE_DATA_DESCRIPTOR structure (ntddstor.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_ADDR structure"]
 ms.keywords: "*PSCSI_ADDR, PSCSI_ADDR, PSCSI_ADDR structure pointer [Storage Devices], SCSI_ADDR, SCSI_ADDR structure [Storage Devices], _SCSI_ADDR, mpiowmi/PSCSI_ADDR, mpiowmi/SCSI_ADDR, storage.scsi_addr, structs-scsibus_32f6b726-53af-4ea4-94e2-f30d67811592.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSI_ADDR
 ---
 
-# _SCSI_ADDR structure
+# SCSI_ADDR structure (mpiowmi.h)
+
+
 
 
 ## -description

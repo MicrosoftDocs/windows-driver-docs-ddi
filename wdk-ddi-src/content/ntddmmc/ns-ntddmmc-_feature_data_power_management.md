@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_POWER_MANAGEMENT structure"]
 ms.keywords: "*PFEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT, FEATURE_DATA_POWER_MANAGEMENT structure [Storage Devices], PFEATURE_DATA_POWER_MANAGEMENT, PFEATURE_DATA_POWER_MANAGEMENT structure pointer [Storage Devices], _FEATURE_DATA_POWER_MANAGEMENT, ntddmmc/FEATURE_DATA_POWER_MANAGEMENT, ntddmmc/PFEATURE_DATA_POWER_MANAGEMENT, storage.feature_data_power_management, structs-CD-ROM_b2dfa21c-3dd3-40fd-9605-05c36c4b9fc8.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_POWER_MANAGEMENT
 ---
 
-# _FEATURE_DATA_POWER_MANAGEMENT structure
+# FEATURE_DATA_POWER_MANAGEMENT structure (ntddmmc.h)
+
+
 
 
 ## -description

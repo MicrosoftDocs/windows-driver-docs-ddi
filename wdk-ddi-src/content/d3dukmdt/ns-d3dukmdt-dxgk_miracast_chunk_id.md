@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["DXGK_MIRACAST_CHUNK_ID structure"]
 ms.keywords: DXGK_MIRACAST_CHUNK_ID, DXGK_MIRACAST_CHUNK_ID union [Display Devices], d3dukmdt/DXGK_MIRACAST_CHUNK_ID, display.dxgk_miracast_chunk_id
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DXGK_MIRACAST_CHUNK_ID
 ---
+
+# DXGK_MIRACAST_CHUNK_ID structure (d3dukmdt.h)
 
 ## -description
 

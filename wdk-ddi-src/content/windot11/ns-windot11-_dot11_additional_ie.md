@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_ADDITIONAL_IE structure"]
 ms.keywords: "*PDOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE, DOT11_ADDITIONAL_IE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_306f816b-e8fa-4f61-be10-5fd4d793f5a5.xml, PDOT11_ADDITIONAL_IE, PDOT11_ADDITIONAL_IE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_ADDITIONAL_IE, netvista.dot11_additional_ie, windot11/DOT11_ADDITIONAL_IE, windot11/PDOT11_ADDITIONAL_IE"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_ADDITIONAL_IE
 ---
 
-# _DOT11_ADDITIONAL_IE structure
+# DOT11_ADDITIONAL_IE structure (windot11.h)
+
+
 
 
 ## -description

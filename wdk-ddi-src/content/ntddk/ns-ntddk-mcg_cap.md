@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["MCG_CAP structure"]
 ms.keywords: MCG_CAP, MCG_CAP, *PMCG_CAP,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MCG_CAP
 ---
 
-# MCG_CAP structure
+# MCG_CAP structure (ntddk.h)
+
+
 
 
 ## -description

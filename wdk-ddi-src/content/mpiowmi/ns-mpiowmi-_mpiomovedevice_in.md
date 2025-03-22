@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIOMoveDevice_IN structure"]
 ms.keywords: "*PMPIOMoveDevice_IN, MPIOMoveDevice_IN, MPIOMoveDevice_IN structure [Storage Devices], PMPIOMoveDevice_IN, PMPIOMoveDevice_IN structure pointer [Storage Devices], _MPIOMoveDevice_IN, mpiowmi/MPIOMoveDevice_IN, mpiowmi/PMPIOMoveDevice_IN, storage.mpiomovedevice_in, structs-scsibus_d1c11b7d-5c45-441b-8362-642db610e19e.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIOMoveDevice_IN
 ---
 
-# _MPIOMoveDevice_IN structure
+# MPIOMoveDevice_IN structure (mpiowmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure [Storage Devices], PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure pointer [Storage Devices], _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, ntddmmc/PFEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE, storage.feature_data_dvd_rw_restricted_overwrite, structs-CD-ROM_b6d53c83-8d7d-4fc1-9e42-b173219961a4.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE
 ---
 
-# _FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure
+# FEATURE_DATA_DVD_RW_RESTRICTED_OVERWRITE structure (ntddmmc.h)
+
+
 
 
 ## -description

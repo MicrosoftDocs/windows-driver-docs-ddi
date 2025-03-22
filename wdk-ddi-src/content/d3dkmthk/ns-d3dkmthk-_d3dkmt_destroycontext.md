@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DESTROYCONTEXT structure"]
 ms.keywords: D3DKMT_DESTROYCONTEXT, D3DKMT_DESTROYCONTEXT structure [Display Devices], OpenGL_Structs_97f52665-09e6-4f11-b2cc-a7abcc61827c.xml, _D3DKMT_DESTROYCONTEXT, d3dkmthk/D3DKMT_DESTROYCONTEXT, display.d3dkmt_destroycontext
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DESTROYCONTEXT
 ---
 
-# _D3DKMT_DESTROYCONTEXT structure
+# D3DKMT_DESTROYCONTEXT structure (d3dkmthk.h)
+
+
 
 
 ## -description

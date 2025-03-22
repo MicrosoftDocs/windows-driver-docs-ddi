@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_CALLOUT0_ structure"]
 ms.keywords: FWPS_CALLOUT0, FWPS_CALLOUT0 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT0_, fwpsk/FWPS_CALLOUT0, netvista.fwps_callout0, wfp_ref_3_struct_3_fwps_A-E_5e9913c4-01d7-4b1c-b2d0-b4a7a28477e2.xml
 req.header: fwpsk.h
+req.construct-type: structure
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_CALLOUT0
 ---
 
-# FWPS_CALLOUT0_ structure
+# FWPS_CALLOUT0_ structure (fwpsk.h)
+
+
 
 
 ## -description

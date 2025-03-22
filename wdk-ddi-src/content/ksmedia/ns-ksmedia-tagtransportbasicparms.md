@@ -7,6 +7,7 @@ ms.date: 03/15/2023
 keywords: ["tagTRANSPORTBASICPARMS structure"]
 ms.keywords: "*PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS, PTRANSPORTBASICPARMS structure pointer [Streaming Media Devices], TRANSPORTBASICPARMS, TRANSPORTBASICPARMS structure [Streaming Media Devices], ksmedia/PTRANSPORTBASICPARMS, ksmedia/TRANSPORTBASICPARMS, stream.transportbasicparms, tagTRANSPORTBASICPARMS, vidcapstruct_5a5cdf6a-56f3-43ad-9bab-e5d406052707.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PTRANSPORTBASICPARMS
  - TRANSPORTBASICPARMS
 ---
+
+# tagTRANSPORTBASICPARMS structure (ksmedia.h)
 
 ## -description
 

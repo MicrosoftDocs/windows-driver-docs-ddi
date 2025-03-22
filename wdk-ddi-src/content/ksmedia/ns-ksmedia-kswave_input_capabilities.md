@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSWAVE_INPUT_CAPABILITIES structure"]
 ms.keywords: "*PKSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES, KSWAVE_INPUT_CAPABILITIES structure [Streaming Media Devices], PKSWAVE_INPUT_CAPABILITIES, PKSWAVE_INPUT_CAPABILITIES structure pointer [Streaming Media Devices], dvdref_cc35df03-82e2-4b12-a08f-26aa0fde1279.xml, ksmedia/KSWAVE_INPUT_CAPABILITIES, ksmedia/PKSWAVE_INPUT_CAPABILITIES, stream.kswave_input_capabilities"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSWAVE_INPUT_CAPABILITIES
 ---
 
-# KSWAVE_INPUT_CAPABILITIES structure
+# KSWAVE_INPUT_CAPABILITIES structure (ksmedia.h)
+
+
 
 
 ## -description

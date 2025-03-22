@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["STI_DEVICE_INFORMATIONW structure"]
 ms.keywords: "*PSTI_DEVICE_INFORMATIONW, PSTI_DEVICE_INFORMATION, PSTI_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_DEVICE_INFORMATION, STI_DEVICE_INFORMATION structure [Imaging Devices], STI_DEVICE_INFORMATIONW, _STI_DEVICE_INFORMATIONW, image.sti_device_information, sti/PSTI_DEVICE_INFORMATION, sti/STI_DEVICE_INFORMATIONW, stifnc_79a5d8d7-6b7a-4593-a8bf-05026d09e4a5.xml"
 req.header: sti.h
+req.construct-type: structure
 req.include-header: Sti.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STI_DEVICE_INFORMATIONW
 ---
 
-# _STI_DEVICE_INFORMATIONW structure
+# STI_DEVICE_INFORMATIONW structure (sti.h)
+
+
 
 
 ## -description

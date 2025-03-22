@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DRAWPRIMITIVE structure"]
 ms.keywords: D3DDDIARG_DRAWPRIMITIVE, D3DDDIARG_DRAWPRIMITIVE structure [Display Devices], UMDisplayDriver_param_Structs_19d7b078-8ea3-4b3a-982a-1163643df142.xml, _D3DDDIARG_DRAWPRIMITIVE, d3dumddi/D3DDDIARG_DRAWPRIMITIVE, display.d3dddiarg_drawprimitive
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DRAWPRIMITIVE
 ---
 
-# _D3DDDIARG_DRAWPRIMITIVE structure
+# D3DDDIARG_DRAWPRIMITIVE structure (d3dumddi.h)
+
+
 
 
 ## -description

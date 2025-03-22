@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["PARCLASS_NEGOTIATION_MASK structure"]
 ms.keywords: "*PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], _PARCLASS_NEGOTIATION_MASK, cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml, ntddpar/PARCLASS_NEGOTIATION_MASK, ntddpar/PPARCLASS_NEGOTIATION_MASK, parports.parclass_negotiation_mask"
 req.header: ntddpar.h
+req.construct-type: structure
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARCLASS_NEGOTIATION_MASK
 ---
 
-# _PARCLASS_NEGOTIATION_MASK structure
+# PARCLASS_NEGOTIATION_MASK structure (ntddpar.h)
+
+
 
 
 ## -description

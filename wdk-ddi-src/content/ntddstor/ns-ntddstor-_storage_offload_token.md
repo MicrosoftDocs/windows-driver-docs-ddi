@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_OFFLOAD_TOKEN structure"]
 ms.keywords: "*PSTORAGE_OFFLOAD_TOKEN, Any other value, PSTORAGE_OFFLOAD_TOKEN, PSTORAGE_OFFLOAD_TOKEN structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN, STORAGE_OFFLOAD_TOKEN structure [Storage Devices], STORAGE_OFFLOAD_TOKEN_TYPE_ZERO_DATA, _STORAGE_OFFLOAD_TOKEN, ntddstor/PSTORAGE_OFFLOAD_TOKEN, ntddstor/STORAGE_OFFLOAD_TOKEN, storage.storage_offload_token"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_OFFLOAD_TOKEN
 ---
 
-# _STORAGE_OFFLOAD_TOKEN structure
+# STORAGE_OFFLOAD_TOKEN structure (ntddstor.h)
+
+
 
 
 ## -description

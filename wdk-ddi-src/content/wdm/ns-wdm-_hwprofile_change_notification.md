@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HWPROFILE_CHANGE_NOTIFICATION structure"]
 ms.keywords: "*PHWPROFILE_CHANGE_NOTIFICATION, HWPROFILE_CHANGE_NOTIFICATION, HWPROFILE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], PHWPROFILE_CHANGE_NOTIFICATION, PHWPROFILE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _HWPROFILE_CHANGE_NOTIFICATION, kernel.hwprofile_change_notification, kstruct_b_2e8d0c69-abe9-49a9-96f6-fba3b0020ff8.xml, wdm/HWPROFILE_CHANGE_NOTIFICATION, wdm/PHWPROFILE_CHANGE_NOTIFICATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HWPROFILE_CHANGE_NOTIFICATION
 ---
 
-# _HWPROFILE_CHANGE_NOTIFICATION structure
+# HWPROFILE_CHANGE_NOTIFICATION structure (wdm.h)
+
+
 
 
 ## -description

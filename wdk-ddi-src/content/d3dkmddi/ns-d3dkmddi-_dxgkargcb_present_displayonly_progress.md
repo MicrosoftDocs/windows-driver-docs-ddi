@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure"]
 ms.keywords: DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure [Display Devices], _DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, d3dkmddi/DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS, display.dxgkargcb_present_displayonly_progress
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 (WDDM 1.2)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS
 ---
 
-# DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure
+# DXGKARGCB_PRESENT_DISPLAYONLY_PROGRESS structure (d3dkmddi.h)
+
+
 
 ## -description
 

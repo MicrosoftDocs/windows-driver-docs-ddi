@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure"]
 ms.keywords: D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_ae4aad64-f7e2-4c42-9abc-0f241842170a.xml, d3d10umddi/D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW, display.d3d10ddiarg_texcube_rendertargetview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW
 ---
 
-# D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure
+# D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW structure (d3d10umddi.h)
+
+
 
 
 ## -description

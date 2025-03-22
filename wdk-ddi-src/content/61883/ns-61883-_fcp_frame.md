@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["FCP_FRAME structure"]
 ms.keywords: "*PFCP_FRAME, 61883/FCP_FRAME, 61883/PFCP_FRAME, 61883_structures_760d5112-e681-4c00-b178-66aadbe95b62.xml, FCP_FRAME, FCP_FRAME structure [Buses], IEEE.fcp_frame, PFCP_FRAME, PFCP_FRAME structure pointer [Buses], _FCP_FRAME"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FCP_FRAME
 ---
 
-# _FCP_FRAME structure
+# FCP_FRAME structure (61883.h)
+
+
 
 
 ## -description

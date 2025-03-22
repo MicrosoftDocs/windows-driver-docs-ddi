@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_CREATEDEVICEFLAGS structure"]
 ms.keywords: D3DDDI_CREATEDEVICEFLAGS, D3DDDI_CREATEDEVICEFLAGS structure [Display Devices], D3D_other_Structs_45151acf-e91a-454b-be32-b7b7aaa619e9.xml, _D3DDDI_CREATEDEVICEFLAGS, d3dumddi/D3DDDI_CREATEDEVICEFLAGS, display.d3dddi_createdeviceflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_CREATEDEVICEFLAGS
 ---
 
-# _D3DDDI_CREATEDEVICEFLAGS structure
+# D3DDDI_CREATEDEVICEFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

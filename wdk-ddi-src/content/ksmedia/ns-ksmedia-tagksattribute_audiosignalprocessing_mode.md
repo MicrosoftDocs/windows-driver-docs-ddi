@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure"]
 ms.keywords: "*PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure [Audio Devices], PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure pointer [Audio Devices], audio.ksattribute_audiosignalprocessing_mode, ksmedia/KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, ksmedia/PKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE, tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE
 ---
 
-# tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure
+# tagKSATTRIBUTE_AUDIOSIGNALPROCESSING_MODE structure (ksmedia.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/22/2018
 keywords: ["NDIS_RFC6877_464XLAT_OFFLOAD structure"]
 ms.keywords: _NDIS_RFC6877_464XLAT_OFFLOAD, NDIS_RFC6877_464XLAT_OFFLOAD, *PNDIS_RFC6877_464XLAT_OFFLOAD,
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: ndis.h
 req.target-type: 
 req.target-min-winverclnt: NDIS 6.70
@@ -40,7 +41,9 @@ api_name:
  - NDIS_RFC6877_464XLAT_OFFLOAD
 ---
 
-# _NDIS_RFC6877_464XLAT_OFFLOAD structure
+# NDIS_RFC6877_464XLAT_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

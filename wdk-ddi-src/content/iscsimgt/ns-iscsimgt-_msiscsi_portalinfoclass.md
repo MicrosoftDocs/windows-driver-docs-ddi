@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_PortalInfoClass structure"]
 ms.keywords: "*PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass structure [Storage Devices], PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], _MSiSCSI_PortalInfoClass, iscsimgt/MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, storage.msiscsi_portalinfoclass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_PortalInfoClass
 ---
 
-# _MSiSCSI_PortalInfoClass structure
+# MSiSCSI_PortalInfoClass structure (iscsimgt.h)
+
+
 
 
 ## -description

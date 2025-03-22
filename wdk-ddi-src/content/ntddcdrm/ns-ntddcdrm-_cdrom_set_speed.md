@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_SET_SPEED structure"]
 ms.keywords: "*PCDROM_SET_SPEED, CDROM_SET_SPEED, CDROM_SET_SPEED structure [Storage Devices], PCDROM_SET_SPEED, PCDROM_SET_SPEED structure pointer [Storage Devices], _CDROM_SET_SPEED, ntddcdrm/CDROM_SET_SPEED, ntddcdrm/PCDROM_SET_SPEED, storage.cdrom_set_speed, structs-CD-ROM_e6e6b227-c3d9-4976-b1a5-a2100c49d266.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_SET_SPEED
 ---
 
-# _CDROM_SET_SPEED structure
+# CDROM_SET_SPEED structure (ntddcdrm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["MONITORREG structure"]
 ms.keywords: "*PMONITORREG, MONITORREG, MONITORREG structure [Print Devices], PMONITORREG, PMONITORREG structure pointer [Print Devices], _MONITORREG, print.monitorreg, spoolfnc_2d0db8db-eea5-461a-a257-1fb986001dac.xml, winsplp/MONITORREG, winsplp/PMONITORREG"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMONITORREG
  - MONITORREG
 ---
+
+# MONITORREG structure (winsplp.h)
 
 ## -description
 

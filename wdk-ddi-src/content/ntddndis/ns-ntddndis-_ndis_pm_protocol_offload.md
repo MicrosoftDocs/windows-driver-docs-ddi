@@ -8,6 +8,7 @@ ms.date: 06/03/2022
 keywords: ["NDIS_PM_PROTOCOL_OFFLOAD structure"]
 ms.keywords: "*PNDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD, NDIS_PM_PROTOCOL_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PROTOCOL_OFFLOAD, PNDIS_PM_PROTOCOL_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_PROTOCOL_OFFLOAD, miniport_power_management_ref_f8a5be81-c46e-41cd-ac96-9877e1f9ebec.xml, netvista.ndis_pm_protocol_offload, ntddndis/NDIS_PM_PROTOCOL_OFFLOAD, ntddndis/PNDIS_PM_PROTOCOL_OFFLOAD"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ntddndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PM_PROTOCOL_OFFLOAD
 ---
 
-# _NDIS_PM_PROTOCOL_OFFLOAD structure
+# NDIS_PM_PROTOCOL_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_DOMAIN_INFO structure"]
 ms.keywords: "*PPEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO, PEP_PPM_QUERY_DOMAIN_INFO structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_DOMAIN_INFO, kernel.pep_ppm_query_domain_info, pepfx/PEP_PPM_QUERY_DOMAIN_INFO"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_QUERY_DOMAIN_INFO
 ---
 
-# _PEP_PPM_QUERY_DOMAIN_INFO structure (pep_x.h)
+# PEP_PPM_QUERY_DOMAIN_INFO structure (pep_x.h)
+
+
 
 
 ## -description

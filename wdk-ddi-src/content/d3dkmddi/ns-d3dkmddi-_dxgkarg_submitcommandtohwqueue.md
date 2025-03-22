@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_SUBMITCOMMANDTOHWQUEUE structure"]
 ms.keywords: _DXGKARG_SUBMITCOMMANDTOHWQUEUE, DXGKARG_SUBMITCOMMANDTOHWQUEUE,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGKARG_SUBMITCOMMANDTOHWQUEUE
 ---
 
-# _DXGKARG_SUBMITCOMMANDTOHWQUEUE structure
+# DXGKARG_SUBMITCOMMANDTOHWQUEUE structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WSK_PROVIDER_NPI structure"]
 ms.keywords: "*PWSK_PROVIDER_NPI, PWSK_PROVIDER_NPI, PWSK_PROVIDER_NPI structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_NPI, WSK_PROVIDER_NPI structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_NPI, netvista.wsk_provider_npi, wsk/PWSK_PROVIDER_NPI, wsk/WSK_PROVIDER_NPI, wskref_cbed200a-9ed1-4cd6-b6be-220799cbae1c.xml"
 req.header: wsk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - WSK_PROVIDER_NPI
 ---
 
-# _WSK_PROVIDER_NPI structure
+# WSK_PROVIDER_NPI structure (wsk.h)
+
+
 
 
 ## -description

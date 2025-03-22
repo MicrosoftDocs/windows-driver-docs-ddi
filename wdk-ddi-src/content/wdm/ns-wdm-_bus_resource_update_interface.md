@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["BUS_RESOURCE_UPDATE_INTERFACE structure"]
 ms.keywords: _BUS_RESOURCE_UPDATE_INTERFACE, BUS_RESOURCE_UPDATE_INTERFACE, *PBUS_RESOURCE_UPDATE_INTERFACE,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - BUS_RESOURCE_UPDATE_INTERFACE
 ---
 
-# _BUS_RESOURCE_UPDATE_INTERFACE structure
+# BUS_RESOURCE_UPDATE_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

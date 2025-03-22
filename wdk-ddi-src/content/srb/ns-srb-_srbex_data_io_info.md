@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SRBEX_DATA_IO_INFO structure"]
 ms.keywords: "*PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO, PSRBEX_DATA_IO_INFO structure pointer [Storage Devices], REQUEST_INFO_HYBRID_WRITE_THROUGH_FLAG, REQUEST_INFO_NO_CACHE_FLAG, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, REQUEST_INFO_TEMPORARY_FLAG, REQUEST_INFO_VALID_CACHEPRIORITY_FLAG, REQUEST_INFO_WRITE_THROUGH_FLAG, SRBEX_DATA_IO_INFO, SRBEX_DATA_IO_INFO structure [Storage Devices], _SRBEX_DATA_IO_INFO, storage.srbex_data_io_info, storport/PSRBEX_DATA_IO_INFO, storport/SRBEX_DATA_IO_INFO"
 req.header: srb.h
+req.construct-type: structure
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SRBEX_DATA_IO_INFO
 ---
 
-# _SRBEX_DATA_IO_INFO structure (srb.h)
+# SRBEX_DATA_IO_INFO structure (srb.h)
+
+
 
 
 ## -description

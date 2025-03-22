@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_OUTPUTDUPLPRESENT structure"]
 ms.keywords: D3DKMT_OUTPUTDUPLPRESENT, D3DKMT_OUTPUTDUPLPRESENT structure [Display Devices], _D3DKMT_OUTPUTDUPLPRESENT, d3dkmthk/D3DKMT_OUTPUTDUPLPRESENT, display.d3dkmt_outputduplpresent
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_OUTPUTDUPLPRESENT
 ---
 
-# _D3DKMT_OUTPUTDUPLPRESENT structure
+# D3DKMT_OUTPUTDUPLPRESENT structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/18/2022
 keywords: ["DOT4_DC_OPEN_DATA structure"]
 ms.keywords: "*PDOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA, DOT4_DC_OPEN_DATA structure [Print Devices], PDOT4_DC_OPEN_DATA, PDOT4_DC_OPEN_DATA structure pointer [Print Devices], _DOT4_DC_OPEN_DATA, d4drvif/DOT4_DC_OPEN_DATA, d4drvif/PDOT4_DC_OPEN_DATA, print.dot4_dc_open_data"
 req.header: d4drvif.h
+req.construct-type: structure
 req.include-header: D4drvif.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PDOT4_DC_OPEN_DATA
  - DOT4_DC_OPEN_DATA
 ---
+
+# DOT4_DC_OPEN_DATA structure (d4drvif.h)
 
 ## -description
 

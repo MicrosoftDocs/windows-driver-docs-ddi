@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_WORK_ACPI_NOTIFY structure"]
 ms.keywords: "*PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, pepfx/PEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_WORK_ACPI_NOTIFY
 ---
 
-# _PEP_WORK_ACPI_NOTIFY structure (pep_x.h)
+# PEP_WORK_ACPI_NOTIFY structure (pep_x.h)
+
+
 
 
 ## -description

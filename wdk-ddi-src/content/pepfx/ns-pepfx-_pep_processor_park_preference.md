@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PROCESSOR_PARK_PREFERENCE structure"]
 ms.keywords: "*PPEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE, PEP_PROCESSOR_PARK_PREFERENCE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_PARK_PREFERENCE, PPEP_PROCESSOR_PARK_PREFERENCE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_PARK_PREFERENCE, kernel.pep_processor_park_preference, pepfx/PEP_PROCESSOR_PARK_PREFERENCE, pepfx/PPEP_PROCESSOR_PARK_PREFERENCE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PROCESSOR_PARK_PREFERENCE
 ---
 
-# _PEP_PROCESSOR_PARK_PREFERENCE structure (pepfx.h)
+# PEP_PROCESSOR_PARK_PREFERENCE structure (pepfx.h)
+
+
 
 
 ## -description

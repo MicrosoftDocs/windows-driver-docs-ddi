@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_MANAGER_CONFIG structure"]
 ms.keywords: "*PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG structure pointer [Buses], UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses], _UCM_MANAGER_CONFIG, buses.ucm_manager_config, ucmmanager/PUCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG"
 req.header: ucmmanager.h
+req.construct-type: structure
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - UCM_MANAGER_CONFIG
 ---
 
-# _UCM_MANAGER_CONFIG structure
+# UCM_MANAGER_CONFIG structure (ucmmanager.h)
+
+
 
 
 ## -description

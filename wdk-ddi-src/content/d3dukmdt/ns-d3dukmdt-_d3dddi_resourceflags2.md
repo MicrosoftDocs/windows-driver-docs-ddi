@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_RESOURCEFLAGS2 structure"]
 ms.keywords: D3DDDI_RESOURCEFLAGS2, D3DDDI_RESOURCEFLAGS2 structure [Display Devices], _D3DDDI_RESOURCEFLAGS2, d3dukmdt/D3DDDI_RESOURCEFLAGS2, display.d3dddi_resourceflags2
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_RESOURCEFLAGS2
 ---
 
-# _D3DDDI_RESOURCEFLAGS2 structure
+# D3DDDI_RESOURCEFLAGS2 structure (d3dukmdt.h)
+
+
 
 
 ## -description

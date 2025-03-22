@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["GROUP_AFFINITY structure"]
 ms.keywords: "*PGROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], _GROUP_AFFINITY, kernel.group_affinity, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, miniport/GROUP_AFFINITY, miniport/PGROUP_AFFINITY"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Winnt.h, Ntdef.h, Windef.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - GROUP_AFFINITY
 ---
 
-# _GROUP_AFFINITY structure (miniport.h)
+# GROUP_AFFINITY structure (miniport.h)
+
+
 
 
 ## -description

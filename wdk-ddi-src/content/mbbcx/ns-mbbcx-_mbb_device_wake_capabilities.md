@@ -7,6 +7,7 @@ ms.date: 11/07/2019
 keywords: ["MBB_DEVICE_WAKE_CAPABILITIES structure"]
 ms.keywords: MBB_DEVICE_WAKE_CAPABILITIES, MBB_DEVICE_WAKE_CAPABILITIES,
 req.header: mbbcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - MBB_DEVICE_WAKE_CAPABILITIES
 ---
 
-# MBB_DEVICE_WAKE_CAPABILITIES structure
+# MBB_DEVICE_WAKE_CAPABILITIES structure (mbbcx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_UPDATEOVERLAY structure"]
 ms.keywords: DXGKARG_UPDATEOVERLAY, DXGKARG_UPDATEOVERLAY structure [Display Devices], DmStructs_4832993a-6e58-4951-a4ea-a954b8008a6e.xml, _DXGKARG_UPDATEOVERLAY, d3dkmddi/DXGKARG_UPDATEOVERLAY, display.dxgkarg_updateoverlay
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_UPDATEOVERLAY
 ---
 
-# _DXGKARG_UPDATEOVERLAY structure
+# DXGKARG_UPDATEOVERLAY structure (d3dkmddi.h)
+
+
 
 
 ## -description

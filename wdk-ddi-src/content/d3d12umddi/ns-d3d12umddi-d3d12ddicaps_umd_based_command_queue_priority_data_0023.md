@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 structure"]
 ms.keywords: D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023, D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 structure [Display Devices], d3d12umddi/D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023, display.d3d12ddicaps_umd_based_command_queue_priority_data_0023
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023
 ---
 
-# D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 structure
+# D3D12DDICAPS_UMD_BASED_COMMAND_QUEUE_PRIORITY_DATA_0023 structure (d3d12umddi.h)
+
+
 
 
 ## -description

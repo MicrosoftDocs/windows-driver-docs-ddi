@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_X86_REGISTER_STATE structure"]
 ms.keywords: "*PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE, PWHEA_X86_REGISTER_STATE structure pointer [WHEA Drivers and Applications], WHEA_X86_REGISTER_STATE, WHEA_X86_REGISTER_STATE structure [WHEA Drivers and Applications], _WHEA_X86_REGISTER_STATE, ntddk/PWHEA_X86_REGISTER_STATE, ntddk/WHEA_X86_REGISTER_STATE, whea.whea_x86_register_state, whearef_330404b2-bd6e-4220-97c6-8bacc803eb78.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_X86_REGISTER_STATE
 ---
 
-# _WHEA_X86_REGISTER_STATE structure
+# WHEA_X86_REGISTER_STATE structure (ntddk.h)
+
+
 
 
 ## -description

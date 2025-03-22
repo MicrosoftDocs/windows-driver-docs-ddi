@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_DISC_CONTROL_BLOCKS structure"]
 ms.keywords: "*PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS structure [Storage Devices], PFEATURE_DATA_DISC_CONTROL_BLOCKS, PFEATURE_DATA_DISC_CONTROL_BLOCKS structure pointer [Storage Devices], _FEATURE_DATA_DISC_CONTROL_BLOCKS, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS, storage.feature_data_disc_control_blocks, structs-CD-ROM_313fa292-b1c4-408d-94e9-491cb3d0aa0f.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_DISC_CONTROL_BLOCKS
 ---
 
-# _FEATURE_DATA_DISC_CONTROL_BLOCKS structure
+# FEATURE_DATA_DISC_CONTROL_BLOCKS structure (ntddmmc.h)
+
+
 
 
 ## -description

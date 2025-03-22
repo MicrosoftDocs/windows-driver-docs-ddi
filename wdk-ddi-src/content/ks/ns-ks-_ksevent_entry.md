@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_ENTRY structure"]
 ms.keywords: "*PKSEVENT_ENTRY, KSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], _KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, ks/KSEVENT_ENTRY, stream.ksevent_entry"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSEVENT_ENTRY
 ---
 
-# _KSEVENT_ENTRY structure
+# KSEVENT_ENTRY structure (ks.h)
+
+
 
 
 ## -description

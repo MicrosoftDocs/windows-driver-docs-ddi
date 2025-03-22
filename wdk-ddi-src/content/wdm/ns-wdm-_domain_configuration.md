@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["DOMAIN_CONFIGURATION structure"]
 ms.keywords: _DOMAIN_CONFIGURATION, DOMAIN_CONFIGURATION, *PDOMAIN_CONFIGURATION,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - DOMAIN_CONFIGURATION
 ---
 
-# _DOMAIN_CONFIGURATION structure
+# DOMAIN_CONFIGURATION structure (wdm.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["BRIGHTNESS_NIT_RANGE structure"]
 ms.keywords: _BRIGHTNESS_NIT_RANGE, BRIGHTNESS_NIT_RANGE, *PBRIGHTNESS_NIT_RANGE,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - BRIGHTNESS_NIT_RANGE
 ---
 
-# _BRIGHTNESS_NIT_RANGE structure
+# BRIGHTNESS_NIT_RANGE structure (ntddvdeo.h)
+
+
 
 
 ## -description

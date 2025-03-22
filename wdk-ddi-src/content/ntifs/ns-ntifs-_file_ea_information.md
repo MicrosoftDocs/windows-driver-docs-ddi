@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_EA_INFORMATION structure"]
 ms.keywords: "*PFILE_EA_INFORMATION, FILE_EA_INFORMATION, FILE_EA_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_EA_INFORMATION, PFILE_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_EA_INFORMATION, kernel.file_ea_information, kstruct_b_f78f051a-aa8f-4611-a699-1f706ac74f1f.xml, ntifs/FILE_EA_INFORMATION, ntifs/PFILE_EA_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP
@@ -46,7 +47,9 @@ api_name:
  - FILE_EA_INFORMATION
 ---
 
-# _FILE_EA_INFORMATION structure
+# FILE_EA_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

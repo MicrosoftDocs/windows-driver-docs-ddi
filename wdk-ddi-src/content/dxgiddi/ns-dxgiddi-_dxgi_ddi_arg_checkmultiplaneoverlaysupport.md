@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure"]
 ms.keywords: DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.dxgi_ddi_arg_checkmultiplaneoverlaysupport, dxgiddi/DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: Dxgiddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---
 
-# _DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure
+# DXGI_DDI_ARG_CHECKMULTIPLANEOVERLAYSUPPORT structure (dxgiddi.h)
+
+
 
 
 ## -description

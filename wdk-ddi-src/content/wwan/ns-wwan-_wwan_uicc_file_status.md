@@ -7,6 +7,7 @@ ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_STATUS structure"]
 ms.keywords: _WWAN_UICC_FILE_STATUS, WWAN_UICC_FILE_STATUS, *PWWAN_UICC_FILE_STATUS,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_UICC_FILE_STATUS
 ---
 
-# _WWAN_UICC_FILE_STATUS structure
+# WWAN_UICC_FILE_STATUS structure (wwan.h)
+
+
 
 
 ## -description

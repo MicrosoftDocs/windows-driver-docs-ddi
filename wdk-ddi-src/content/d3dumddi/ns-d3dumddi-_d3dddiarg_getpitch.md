@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_GETPITCH structure"]
 ms.keywords: D3DDDIARG_GETPITCH, D3DDDIARG_GETPITCH structure [Display Devices], UMDisplayDriver_param_Structs_02e95329-8eba-41a3-ae4e-d8830b47ada6.xml, _D3DDDIARG_GETPITCH, d3dumddi/D3DDDIARG_GETPITCH, display.d3dddiarg_getpitch
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_GETPITCH is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_GETPITCH
 ---
 
-# _D3DDDIARG_GETPITCH structure
+# D3DDDIARG_GETPITCH structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_InitiatorInstanceFailureEvent structure"]
 ms.keywords: "*PMSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent, MSiSCSI_InitiatorInstanceFailureEvent structure [Storage Devices], PMSiSCSI_InitiatorInstanceFailureEvent, PMSiSCSI_InitiatorInstanceFailureEvent structure pointer [Storage Devices], _MSiSCSI_InitiatorInstanceFailureEvent, iscsimgt/MSiSCSI_InitiatorInstanceFailureEvent, iscsimgt/PMSiSCSI_InitiatorInstanceFailureEvent, storage.msiscsi_initiatorinstancefailureevent, structs-iSCSI_189ce06c-9fb3-49f5-9921-31c400c4ae23.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_InitiatorInstanceFailureEvent
 ---
 
-# _MSiSCSI_InitiatorInstanceFailureEvent structure
+# MSiSCSI_InitiatorInstanceFailureEvent structure (iscsimgt.h)
+
+
 
 
 ## -description

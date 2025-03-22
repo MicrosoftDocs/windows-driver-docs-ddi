@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS, NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, PNDIS_WWAN_SERVICE_ACTIVATION_STATUS structure pointer [Network Drivers Starting with Windows Vista], WwanRef_a1bda142-c89f-4323-a114-0c44948f61b5.xml, _NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/NDIS_WWAN_SERVICE_ACTIVATION_STATUS, ndiswwan/PNDIS_WWAN_SERVICE_ACTIVATION_STATUS, netvista.ndis_wwan_service_activation_status"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_SERVICE_ACTIVATION_STATUS
 ---
 
-# _NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure
+# NDIS_WWAN_SERVICE_ACTIVATION_STATUS structure (ndiswwan.h)
+
+
 
 
 ## -description

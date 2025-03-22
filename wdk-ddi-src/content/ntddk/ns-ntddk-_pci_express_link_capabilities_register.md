@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 ---
 
-# _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure (ntddk.h)
+# PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure (ntddk.h)
+
+
 
 
 

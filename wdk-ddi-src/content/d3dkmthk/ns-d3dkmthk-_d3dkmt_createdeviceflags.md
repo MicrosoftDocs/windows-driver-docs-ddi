@@ -5,6 +5,7 @@ description: Learn more about the D3DKMT_CREATEDEVICEFLAGS structure.
 ms.date: 04/10/2024
 keywords: ["D3DKMT_CREATEDEVICEFLAGS structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - D3DKMT_CREATEDEVICEFLAGS
 ---
 
-# D3DKMT_CREATEDEVICEFLAGS structure
+# D3DKMT_CREATEDEVICEFLAGS structure (d3dkmthk.h)
+
+
 
 ## -description
 

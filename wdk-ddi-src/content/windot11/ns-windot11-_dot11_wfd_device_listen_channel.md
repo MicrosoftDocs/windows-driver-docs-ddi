@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DEVICE_LISTEN_CHANNEL structure"]
 ms.keywords: "*PDOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL, DOT11_WFD_DEVICE_LISTEN_CHANNEL structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_LISTEN_CHANNEL, PDOT11_WFD_DEVICE_LISTEN_CHANNEL structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_LISTEN_CHANNEL, netvista.dot11_wfd_device_listen_channel, windot11/DOT11_WFD_DEVICE_LISTEN_CHANNEL, windot11/PDOT11_WFD_DEVICE_LISTEN_CHANNEL"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_DEVICE_LISTEN_CHANNEL
 ---
 
-# _DOT11_WFD_DEVICE_LISTEN_CHANNEL structure
+# DOT11_WFD_DEVICE_LISTEN_CHANNEL structure (windot11.h)
+
+
 
 
 ## -description

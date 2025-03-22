@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_NAME_INFORMATION structure"]
 ms.keywords: "*PFILE_NAME_INFORMATION, FILE_NAME_INFORMATION, FILE_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_NAME_INFORMATION, PFILE_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_NAME_INFORMATION, kernel.file_name_information, kstruct_b_075348cd-50d6-450f-9a9d-a5ad8fd985e3.xml, ntddk/FILE_NAME_INFORMATION, ntddk/PFILE_NAME_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_NAME_INFORMATION
 ---
 
-# _FILE_NAME_INFORMATION structure
+# FILE_NAME_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

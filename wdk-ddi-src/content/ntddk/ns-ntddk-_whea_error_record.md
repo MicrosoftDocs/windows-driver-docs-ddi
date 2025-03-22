@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["WHEA_ERROR_RECORD structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD, PWHEA_ERROR_RECORD structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD, WHEA_ERROR_RECORD structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD, ntddk/PWHEA_ERROR_RECORD, ntddk/WHEA_ERROR_RECORD, whea.whea_error_record, whearef_dc309156-feee-4cc2-ba75-d39f3f05fa5f.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_RECORD
  - WHEA_ERROR_RECORD
 ---
+
+# WHEA_ERROR_RECORD structure (ntddk.h)
 
 ## -description
 

@@ -4,6 +4,7 @@ title: DXGK_VIDMMCAPS (d3dkmddi.h)
 description: Learn more about the DXGK_VIDMMCAPS structure.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - DXGK_VIDMMCAPS
 ---
 
-# DXGK_VIDMMCAPS structure
+# DXGK_VIDMMCAPS structure (d3dkmddi.h)
+
+
 
 ## -description
 

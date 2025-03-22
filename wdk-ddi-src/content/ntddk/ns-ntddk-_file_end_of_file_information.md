@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_END_OF_FILE_INFORMATION structure"]
 ms.keywords: "*PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION, PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml, ntddk/FILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_END_OF_FILE_INFORMATION
 ---
 
-# _FILE_END_OF_FILE_INFORMATION structure
+# FILE_END_OF_FILE_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

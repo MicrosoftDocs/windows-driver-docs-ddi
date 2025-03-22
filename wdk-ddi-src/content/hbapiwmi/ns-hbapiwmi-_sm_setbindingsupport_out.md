@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SetBindingSupport_OUT structure"]
 ms.keywords: "*PSM_SetBindingSupport_OUT, PSM_SetBindingSupport_OUT, PSM_SetBindingSupport_OUT structure pointer [Storage Devices], SM_SetBindingSupport_OUT, SM_SetBindingSupport_OUT structure [Storage Devices], _SM_SetBindingSupport_OUT, hbapiwmi/PSM_SetBindingSupport_OUT, hbapiwmi/SM_SetBindingSupport_OUT, storage.sm_setbindingsupport_out, structs-Fibre_b14ee92a-9c2c-4f8a-be35-b189b0d5e97f.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SetBindingSupport_OUT
 ---
 
-# _SM_SetBindingSupport_OUT structure
+# SM_SetBindingSupport_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_PROFILE_CONCURRENCYINFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO, KSCAMERA_PROFILE_CONCURRENCYINFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_CONCURRENCYINFO, PKSCAMERA_PROFILE_CONCURRENCYINFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/KSCAMERA_PROFILE_CONCURRENCYINFO, ksmedia/PKSCAMERA_PROFILE_CONCURRENCYINFO, stream.kscamera_profile_concurrencyinfo"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_PROFILE_CONCURRENCYINFO
 ---
 
-# _KSCAMERA_PROFILE_CONCURRENCYINFO structure
+# KSCAMERA_PROFILE_CONCURRENCYINFO structure (ksmedia.h)
+
+
 
 
 ## -description

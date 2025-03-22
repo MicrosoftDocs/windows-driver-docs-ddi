@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_L2CA_UNREGISTER_SERVER structure"]
 ms.keywords: "_BRB_L2CA_UNREGISTER_SERVER, _BRB_L2CA_UNREGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_unregister_server, bth_structs_211f7f5f-0a2d-487e-9720-78076b36e012.xml, bthddi/_BRB_L2CA_UNREGISTER_SERVER"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_L2CA_UNREGISTER_SERVER
 ---
 
-# _BRB_L2CA_UNREGISTER_SERVER structure
+# _BRB_L2CA_UNREGISTER_SERVER structure (bthddi.h)
+
+
 
 
 ## -description

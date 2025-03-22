@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure"]
 ms.keywords: D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO, D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO,
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: 
 req.target-min-winverclnt: Windows 8.1
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure
+# D3DDDI_CHECK_MULTIPLANE_OVERLAY_SUPPORT_PLANE_INFO structure (d3dumddi.h)
+
+
 
 
 ## -description

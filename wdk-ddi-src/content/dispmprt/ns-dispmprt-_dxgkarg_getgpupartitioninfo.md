@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_GETGPUPARTITIONINFO structure"]
 ms.keywords: _DXGKARG_GETGPUPARTITIONINFO, DXGKARG_GETGPUPARTITIONINFO, *PDXGKARG_GETGPUPARTITIONINFO,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETGPUPARTITIONINFO structure
+# DXGKARG_GETGPUPARTITIONINFO structure (dispmprt.h)
+
+
 
 
 ## -description

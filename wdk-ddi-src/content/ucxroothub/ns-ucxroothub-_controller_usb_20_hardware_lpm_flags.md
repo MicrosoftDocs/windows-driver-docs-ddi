@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["CONTROLLER_USB_20_HARDWARE_LPM_FLAGS structure"]
 ms.keywords: "*PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 ---
 
-# _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS structure
+# CONTROLLER_USB_20_HARDWARE_LPM_FLAGS structure (ucxroothub.h)
+
+
 
 
 ## -description

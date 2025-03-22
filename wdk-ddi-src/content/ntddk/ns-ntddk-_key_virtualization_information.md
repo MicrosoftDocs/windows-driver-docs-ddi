@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KEY_VIRTUALIZATION_INFORMATION structure"]
 ms.keywords: "*PKEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION, KEY_VIRTUALIZATION_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VIRTUALIZATION_INFORMATION, PKEY_VIRTUALIZATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VIRTUALIZATION_INFORMATION, kernel.key_virtualization_information, kstruct_c_00c77a09-ed8d-4a66-9b18-b971c9eab5ce.xml, ntddk/KEY_VIRTUALIZATION_INFORMATION, ntddk/PKEY_VIRTUALIZATION_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Windows Vista and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - KEY_VIRTUALIZATION_INFORMATION
 ---
 
-# _KEY_VIRTUALIZATION_INFORMATION structure
+# KEY_VIRTUALIZATION_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

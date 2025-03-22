@@ -7,6 +7,7 @@ ms.date: 11/15/2022
 keywords: ["EXTPUSH structure"]
 ms.keywords: "*PEXTPUSH, EXTPUSH, EXTPUSH structure [Print Devices], PEXTPUSH, PEXTPUSH structure pointer [Print Devices], _EXTPUSH, compstui/EXTPUSH, compstui/PEXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, print.extpush"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PEXTPUSH
  - EXTPUSH
 ---
+
+# EXTPUSH structure (compstui.h)
 
 ## -description
 

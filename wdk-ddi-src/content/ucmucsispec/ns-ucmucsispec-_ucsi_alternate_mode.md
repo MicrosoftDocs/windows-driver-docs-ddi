@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_ALTERNATE_MODE structure"]
 ms.keywords: _UCSI_ALTERNATE_MODE, UCSI_ALTERNATE_MODE, *PUCSI_ALTERNATE_MODE,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_ALTERNATE_MODE
 ---
 
-# _UCSI_ALTERNATE_MODE structure
+# UCSI_ALTERNATE_MODE structure (ucmucsispec.h)
+
+
 
 
 ## -description

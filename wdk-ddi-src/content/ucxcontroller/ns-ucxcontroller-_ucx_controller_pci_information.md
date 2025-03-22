@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_CONTROLLER_PCI_INFORMATION structure"]
 ms.keywords: "*PUCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], _UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION"
 req.header: ucxcontroller.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UCX_CONTROLLER_PCI_INFORMATION
 ---
 
-# _UCX_CONTROLLER_PCI_INFORMATION structure
+# UCX_CONTROLLER_PCI_INFORMATION structure (ucxcontroller.h)
+
+
 
 
 ## -description

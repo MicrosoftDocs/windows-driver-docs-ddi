@@ -9,6 +9,7 @@ author: lorihollasch
 keywords: ["FILE_FS_DEVICE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION, FILE_FS_DEVICE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_FS_DEVICE_INFORMATION, PFILE_FS_DEVICE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_FS_DEVICE_INFORMATION, kernel.file_fs_device_information, kstruct_b_86acb464-7e57-467f-998e-896b0a7cebc4.xml, wdm/FILE_FS_DEVICE_INFORMATION, wdm/PFILE_FS_DEVICE_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -47,7 +48,9 @@ api_name:
  - FILE_FS_DEVICE_INFORMATION
 ---
 
-# _FILE_FS_DEVICE_INFORMATION structure
+# FILE_FS_DEVICE_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

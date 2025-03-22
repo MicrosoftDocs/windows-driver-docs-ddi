@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["FILE_DIRECTORY_INFORMATION structure"]
 ms.keywords: "*PFILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION, FILE_DIRECTORY_INFORMATION structure [Installable File System Drivers], PFILE_DIRECTORY_INFORMATION, PFILE_DIRECTORY_INFORMATION structure pointer [Installable File System Drivers], _FILE_DIRECTORY_INFORMATION, fileinformationstructures_4ff53e27-9b59-46f0-8ca8-b4e1fb3e3905.xml, ifsk.file_directory_information, ntifs/FILE_DIRECTORY_INFORMATION, ntifs/PFILE_DIRECTORY_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_DIRECTORY_INFORMATION
 ---
 
-# FILE_DIRECTORY_INFORMATION structure
+# FILE_DIRECTORY_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure"]
 ms.keywords: "*PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure [Bluetooth Devices], PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL, PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure pointer [Bluetooth Devices], _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bltooth.l2cap_retransmission_and_flow_control, bthddi/L2CAP_RETRANSMISSION_AND_FLOW_CONTROL, bthddi/PL2CAP_RETRANSMISSION_AND_FLOW_CONTROL"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
@@ -46,7 +47,9 @@ api_name:
  - L2CAP_RETRANSMISSION_AND_FLOW_CONTROL
 ---
 
-# _L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure
+# L2CAP_RETRANSMISSION_AND_FLOW_CONTROL structure (bthddi.h)
+
+
 
 
 ## -description

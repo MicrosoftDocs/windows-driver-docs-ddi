@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CREATERESOURCE structure"]
 ms.keywords: D3DDDIARG_CREATERESOURCE, D3DDDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_c8d46034-b0b8-4909-962d-683be7aa099d.xml, _D3DDDIARG_CREATERESOURCE, d3dukmdt/D3DDDIARG_CREATERESOURCE, display.d3dddiarg_createresource
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CREATERESOURCE
 ---
 
-# _D3DDDIARG_CREATERESOURCE structure
+# D3DDDIARG_CREATERESOURCE structure (d3dukmdt.h)
+
+
 
 
 ## -description

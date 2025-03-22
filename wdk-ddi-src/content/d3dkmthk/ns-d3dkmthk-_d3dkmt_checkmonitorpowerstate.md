@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_CHECKMONITORPOWERSTATE structure"]
 ms.keywords: D3DKMT_CHECKMONITORPOWERSTATE, D3DKMT_CHECKMONITORPOWERSTATE structure [Display Devices], OpenGL_Structs_2c4ec2cb-c35a-4447-8e35-dc8e4964e8b2.xml, _D3DKMT_CHECKMONITORPOWERSTATE, d3dkmthk/D3DKMT_CHECKMONITORPOWERSTATE, display.d3dkmt_checkmonitorpowerstate
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CHECKMONITORPOWERSTATE
 ---
 
-# _D3DKMT_CHECKMONITORPOWERSTATE structure
+# D3DKMT_CHECKMONITORPOWERSTATE structure (d3dkmthk.h)
+
+
 
 
 ## -description

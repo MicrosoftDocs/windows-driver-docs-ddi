@@ -5,6 +5,7 @@ description: Learn more about the DXGK_SEGMENTDESCRIPTOR3 structure.
 ms.date: 02/07/2024
 keywords: ["DXGK_SEGMENTDESCRIPTOR3 structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - DXGK_SEGMENTDESCRIPTOR3
 ---
 
-# DXGK_SEGMENTDESCRIPTOR3 structure
+# DXGK_SEGMENTDESCRIPTOR3 structure (d3dkmddi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["UMDETW_ALLOCATION_USAGE structure"]
 ms.keywords: UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], _UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, umdprovider/UMDETW_ALLOCATION_USAGE
 req.header: umdprovider.h
+req.construct-type: structure
 req.include-header: Umdprovider.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - UMDETW_ALLOCATION_USAGE
 ---
 
-# _UMDETW_ALLOCATION_USAGE structure
+# UMDETW_ALLOCATION_USAGE structure (umdprovider.h)
+
+
 
 
 ## -description

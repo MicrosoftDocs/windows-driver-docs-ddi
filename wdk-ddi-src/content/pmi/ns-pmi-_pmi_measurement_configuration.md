@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_MEASUREMENT_CONFIGURATION structure"]
 ms.keywords: "*PPMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION, PMI_MEASUREMENT_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_MEASUREMENT_CONFIGURATION, PPMI_MEASUREMENT_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_fe69d656-3aa9-4449-bd24-ceded8d7abd1.xml, _PMI_MEASUREMENT_CONFIGURATION, pmi/PMI_MEASUREMENT_CONFIGURATION, pmi/PPMI_MEASUREMENT_CONFIGURATION, powermeter.pmi_measurement_configuration"
 req.header: pmi.h
+req.construct-type: structure
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - PMI_MEASUREMENT_CONFIGURATION
 ---
 
-# _PMI_MEASUREMENT_CONFIGURATION structure
+# PMI_MEASUREMENT_CONFIGURATION structure (pmi.h)
+
+
 
 
 ## -description

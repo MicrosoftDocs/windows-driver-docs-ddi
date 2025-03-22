@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TR_SECURE_DEVICE_CALLBACKS_V1 structure"]
 ms.keywords: _TR_SECURE_DEVICE_CALLBACKS_V1, TR_SECURE_DEVICE_CALLBACKS_V1, *PTR_SECURE_DEVICE_CALLBACKS_V1, TR_SECURE_DEVICE_CALLBACKS, *PTR_SECURE_DEVICE_CALLBACKS
 req.header: trustedruntimeclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TR_SECURE_DEVICE_CALLBACKS_V1
 ---
 
-# _TR_SECURE_DEVICE_CALLBACKS_V1 structure
+# TR_SECURE_DEVICE_CALLBACKS_V1 structure (trustedruntimeclx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_DESTROYALLOCATION structure"]
 ms.keywords: DXGKARG_DESTROYALLOCATION, DXGKARG_DESTROYALLOCATION structure [Display Devices], DmStructs_94f4c3be-d0fc-4a34-8cf4-976b68f89899.xml, _DXGKARG_DESTROYALLOCATION, d3dkmddi/DXGKARG_DESTROYALLOCATION, display.dxgkarg_destroyallocation
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_DESTROYALLOCATION
 ---
 
-# _DXGKARG_DESTROYALLOCATION structure
+# DXGKARG_DESTROYALLOCATION structure (d3dkmddi.h)
+
+
 
 
 ## -description

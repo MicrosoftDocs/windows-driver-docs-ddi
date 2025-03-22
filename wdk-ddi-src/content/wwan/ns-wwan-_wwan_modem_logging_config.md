@@ -7,6 +7,7 @@ ms.date: 04/11/2019
 keywords: ["WWAN_MODEM_LOGGING_CONFIG structure"]
 ms.keywords: _WWAN_MODEM_LOGGING_CONFIG, WWAN_MODEM_LOGGING_CONFIG, *PWWAN_MODEM_LOGGING_CONFIG,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_MODEM_LOGGING_CONFIG
 ---
 
-# _WWAN_MODEM_LOGGING_CONFIG structure
+# WWAN_MODEM_LOGGING_CONFIG structure (wwan.h)
+
+
 
 
 ## -description

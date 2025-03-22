@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_SETPIXELSHADERCONST structure"]
 ms.keywords: D3DDDIARG_SETPIXELSHADERCONST, D3DDDIARG_SETPIXELSHADERCONST structure [Display Devices], D3DDDIARG_SETPIXELSHADERCONSTB, D3DDDIARG_SETPIXELSHADERCONSTI, UMDisplayDriver_param_Structs_b2bba0b4-f57a-48f6-a738-709fedfe678e.xml, _D3DDDIARG_SETPIXELSHADERCONST, d3dumddi/D3DDDIARG_SETPIXELSHADERCONST, display.d3dddiarg_setpixelshaderconst
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_SETPIXELSHADERCONST
 ---
 
-# _D3DDDIARG_SETPIXELSHADERCONST structure
+# D3DDDIARG_SETPIXELSHADERCONST structure (d3dumddi.h)
+
+
 
 
 ## -description

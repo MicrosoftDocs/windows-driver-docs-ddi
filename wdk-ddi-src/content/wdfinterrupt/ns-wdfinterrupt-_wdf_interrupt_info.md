@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_INTERRUPT_INFO structure"]
 ms.keywords: "*PWDF_INTERRUPT_INFO, DFInterruptObjectRef_3f4ade63-40f9-4d5a-96a0-e4f7013171d5.xml, PWDF_INTERRUPT_INFO, PWDF_INTERRUPT_INFO structure pointer, WDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO structure, _WDF_INTERRUPT_INFO, kmdf.wdf_interrupt_info, wdf.wdf_interrupt_info, wdfinterrupt/PWDF_INTERRUPT_INFO, wdfinterrupt/WDF_INTERRUPT_INFO"
 req.header: wdfinterrupt.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_INTERRUPT_INFO
 ---
 
-# _WDF_INTERRUPT_INFO structure (wdfinterrupt.h)
+# WDF_INTERRUPT_INFO structure (wdfinterrupt.h)
+
+
 
 
 ## -description

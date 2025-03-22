@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DOCUMENTPROPERTYHEADER structure"]
 ms.keywords: "*PDOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER, DOCUMENTPROPERTYHEADER structure [Print Devices], PDOCUMENTPROPERTYHEADER, PDOCUMENTPROPERTYHEADER structure pointer [Print Devices], _DOCUMENTPROPERTYHEADER, print.documentpropertyheader, print_interface-graphics_d12da62c-2384-4bc3-a83d-ed948460d718.xml, winddiui/DOCUMENTPROPERTYHEADER, winddiui/PDOCUMENTPROPERTYHEADER"
 req.header: winddiui.h
+req.construct-type: structure
 req.include-header: Winddiui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PDOCUMENTPROPERTYHEADER
  - DOCUMENTPROPERTYHEADER
 ---
+
+# DOCUMENTPROPERTYHEADER structure (winddiui.h)
 
 ## -description
 

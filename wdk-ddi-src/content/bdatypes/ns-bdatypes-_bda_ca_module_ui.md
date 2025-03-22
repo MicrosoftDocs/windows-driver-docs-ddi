@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_CA_MODULE_UI structure"]
 ms.keywords: "*PBDA_CA_MODULE_UI, BDA_CA_MODULE_UI, BDA_CA_MODULE_UI structure [Streaming Media Devices], PBDA_CA_MODULE_UI, PBDA_CA_MODULE_UI structure pointer [Streaming Media Devices], _BDA_CA_MODULE_UI, bdaref_470f210b-d1cb-4615-a7c5-a4d8e21833d1.xml, bdatypes/BDA_CA_MODULE_UI, bdatypes/PBDA_CA_MODULE_UI, stream.bda_ca_module_ui"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: Bdatypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_CA_MODULE_UI
 ---
 
-# _BDA_CA_MODULE_UI structure
+# BDA_CA_MODULE_UI structure (bdatypes.h)
+
+
 
 
 ## -description

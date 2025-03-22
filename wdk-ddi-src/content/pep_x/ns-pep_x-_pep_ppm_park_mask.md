@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_PARK_MASK structure"]
 ms.keywords: "*PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, pepfx/PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_PARK_MASK
 ---
 
-# _PEP_PPM_PARK_MASK structure (pep_x.h)
+# PEP_PPM_PARK_MASK structure (pep_x.h)
+
+
 
 
 ## -description

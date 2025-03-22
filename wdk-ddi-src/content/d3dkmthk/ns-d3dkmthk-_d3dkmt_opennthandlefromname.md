@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_OPENNTHANDLEFROMNAME structure"]
 ms.keywords: D3DKMT_OPENNTHANDLEFROMNAME, D3DKMT_OPENNTHANDLEFROMNAME structure [Display Devices], _D3DKMT_OPENNTHANDLEFROMNAME, d3dkmthk/D3DKMT_OPENNTHANDLEFROMNAME, display.d3dkmt_opennthandlefromname
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_OPENNTHANDLEFROMNAME
 ---
 
-# _D3DKMT_OPENNTHANDLEFROMNAME structure
+# D3DKMT_OPENNTHANDLEFROMNAME structure (d3dkmthk.h)
+
+
 
 
 ## -description

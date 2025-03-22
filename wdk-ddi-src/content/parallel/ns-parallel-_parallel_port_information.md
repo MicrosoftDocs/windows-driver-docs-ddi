@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["PARALLEL_PORT_INFORMATION structure"]
 ms.keywords: "*PPARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION structure [Parallel Ports], PPARALLEL_PORT_INFORMATION, PPARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], _PARALLEL_PORT_INFORMATION, cisspd_ca857237-0c57-46e9-aedf-f6d40a25dbf8.xml, parallel/PARALLEL_PORT_INFORMATION, parallel/PPARALLEL_PORT_INFORMATION, parports.parallel_port_information"
 req.header: parallel.h
+req.construct-type: structure
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARALLEL_PORT_INFORMATION
 ---
 
-# _PARALLEL_PORT_INFORMATION structure
+# PARALLEL_PORT_INFORMATION structure (parallel.h)
+
+
 
 
 ## -description

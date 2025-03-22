@@ -7,6 +7,7 @@ ms.date: 05/25/2022
 keywords: ["D3D11DDIARG_CREATEDEFERREDCONTEXT structure"]
 ms.keywords: D3D11DDIARG_CREATEDEFERREDCONTEXT, D3D11DDIARG_CREATEDEFERREDCONTEXT structure [Display Devices], UMDisplayDriver_Dx11param_Structs_c66ddced-4073-4400-8142-4464ceadad74.xml, d3d10umddi/D3D11DDIARG_CREATEDEFERREDCONTEXT, display.d3d11ddiarg_createdeferredcontext
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -41,7 +42,9 @@ api_name:
  - D3D11DDIARG_CREATEDEFERREDCONTEXT
 ---
 
-# D3D11DDIARG_CREATEDEFERREDCONTEXT structure
+# D3D11DDIARG_CREATEDEFERREDCONTEXT structure (d3d10umddi.h)
+
+
 
 ## -description
 

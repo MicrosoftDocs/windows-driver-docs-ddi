@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_ADDRESS structure"]
 ms.keywords: "*PSTOR_ADDRESS, PSTOR_ADDRESS, PSTOR_ADDRESS structure pointer [Storage Devices], STOR_ADDRESS, STOR_ADDRESS structure [Storage Devices], STOR_ADDRESS_TYPE_BTL8, STOR_ADDRESS_TYPE_UNKNOWN, _STOR_ADDRESS, storage.stor_address, storport/PSTOR_ADDRESS, storport/STOR_ADDRESS"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Storport.h, Scsi.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - STOR_ADDRESS
 ---
 
-# _STOR_ADDRESS structure (minitape.h)
+# STOR_ADDRESS structure (minitape.h)
+
+
 
 
 ## -description

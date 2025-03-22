@@ -8,6 +8,7 @@ ms.date: 05/08/2019
 keywords: ["KBUGCHECK_ADD_PAGES structure"]
 ms.keywords: "*PKBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES, KBUGCHECK_ADD_PAGES structure [Kernel-Mode Driver Architecture], PKBUGCHECK_ADD_PAGES, PKBUGCHECK_ADD_PAGES structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_ADD_PAGES, kernel.kbugcheck_add_pages, kstruct_c_4d14d1f9-fada-4eaa-afc7-88228745fcc1.xml, wdm/KBUGCHECK_ADD_PAGES, wdm/PKBUGCHECK_ADD_PAGES"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - KBUGCHECK_ADD_PAGES
 ---
 
-# _KBUGCHECK_ADD_PAGES structure
+# KBUGCHECK_ADD_PAGES structure (wdm.h)
+
+
 
 
 ## -description

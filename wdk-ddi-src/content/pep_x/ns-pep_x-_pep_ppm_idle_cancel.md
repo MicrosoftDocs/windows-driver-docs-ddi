@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_IDLE_CANCEL structure"]
 ms.keywords: "*PPEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL, PEP_PPM_IDLE_CANCEL structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_CANCEL, PPEP_PPM_IDLE_CANCEL structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_CANCEL, kernel.pep_ppm_idle_cancel, pep_x/PEP_PPM_IDLE_CANCEL, pep_x/PPEP_PPM_IDLE_CANCEL"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pepfx.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_IDLE_CANCEL
 ---
 
-# _PEP_PPM_IDLE_CANCEL structure
+# PEP_PPM_IDLE_CANCEL structure (pep_x.h)
+
+
 
 
 ## -description

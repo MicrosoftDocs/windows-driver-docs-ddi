@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["IVHD_ACPI_DEVICE_ENTRY structure"]
 ms.keywords: _IVHD_ACPI_DEVICE_ENTRY, IVHD_ACPI_DEVICE_ENTRY, *PIVHD_ACPI_DEVICE_ENTRY,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IVHD_ACPI_DEVICE_ENTRY
 ---
 
-# _IVHD_ACPI_DEVICE_ENTRY structure
+# IVHD_ACPI_DEVICE_ENTRY structure (acpitabl.h)
+
+
 
 
 ## -description

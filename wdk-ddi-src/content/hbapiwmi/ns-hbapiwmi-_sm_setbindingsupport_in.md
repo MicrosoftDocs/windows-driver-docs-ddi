@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SetBindingSupport_IN structure"]
 ms.keywords: "*PSM_SetBindingSupport_IN, PSM_SetBindingSupport_IN, PSM_SetBindingSupport_IN structure pointer [Storage Devices], SM_SetBindingSupport_IN, SM_SetBindingSupport_IN structure [Storage Devices], _SM_SetBindingSupport_IN, hbapiwmi/PSM_SetBindingSupport_IN, hbapiwmi/SM_SetBindingSupport_IN, storage.sm_setbindingsupport_in, structs-Fibre_9797bfcd-a063-47dd-8a98-0837b3fb7698.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SetBindingSupport_IN
 ---
 
-# _SM_SetBindingSupport_IN structure
+# SM_SetBindingSupport_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

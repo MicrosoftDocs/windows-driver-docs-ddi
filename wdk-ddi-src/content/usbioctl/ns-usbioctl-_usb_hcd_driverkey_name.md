@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_HCD_DRIVERKEY_NAME structure"]
 ms.keywords: "*PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], _USB_HCD_DRIVERKEY_NAME, buses.usb_hcd_driverkey_name, usbioctl/PUSB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME, usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_HCD_DRIVERKEY_NAME
 ---
 
-# _USB_HCD_DRIVERKEY_NAME structure
+# USB_HCD_DRIVERKEY_NAME structure (usbioctl.h)
+
+
 
 
 ## -description

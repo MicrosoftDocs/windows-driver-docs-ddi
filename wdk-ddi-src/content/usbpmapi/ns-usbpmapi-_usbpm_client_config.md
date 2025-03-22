@@ -7,6 +7,7 @@ keywords: ["USBPM_CLIENT_CONFIG structure"]
 tech.root: usbref
 ms.keywords: _USBPM_CLIENT_CONFIG, USBPM_CLIENT_CONFIG, *PUSBPM_CLIENT_CONFIG,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_CLIENT_CONFIG
 ---
 
-# _USBPM_CLIENT_CONFIG structure
+# USBPM_CLIENT_CONFIG structure (usbpmapi.h)
+
+
 
 
 ## -description

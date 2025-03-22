@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_EVENT structure"]
 ms.keywords: "*PPMI_EVENT, PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, _PMI_EVENT, pmi/PMI_EVENT, pmi/PPMI_EVENT, powermeter.pmi_event"
 req.header: pmi.h
+req.construct-type: structure
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - PMI_EVENT
 ---
 
-# _PMI_EVENT structure
+# PMI_EVENT structure (pmi.h)
+
+
 
 
 ## -description

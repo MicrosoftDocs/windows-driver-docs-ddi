@@ -7,6 +7,7 @@ ms.date: 08/26/2022
 keywords: ["DXGKARG_QUERYCONNECTIONCHANGE structure"]
 ms.keywords: "*IN_PDXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE, DXGKARG_QUERYCONNECTIONCHANGE structure [Display Devices], _DXGKARG_QUERYCONNECTIONCHANGE, d3dkmddi/DXGKARG_QUERYCONNECTIONCHANGE, display.dxgkarg_queryconnectionchange"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_QUERYCONNECTIONCHANGE
 ---
 
-# DXGKARG_QUERYCONNECTIONCHANGE structure
+# DXGKARG_QUERYCONNECTIONCHANGE structure (d3dkmddi.h)
+
+
 
 ## -description
 

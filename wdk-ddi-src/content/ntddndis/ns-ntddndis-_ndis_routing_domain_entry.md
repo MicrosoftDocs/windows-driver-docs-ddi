@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_ROUTING_DOMAIN_ENTRY structure"]
 ms.keywords: "*PNDIS_ROUTING_DOMAIN_ENTRY, NDIS_ROUTING_DOMAIN_ENTRY, NDIS_ROUTING_DOMAIN_ENTRY structure [Network Drivers Starting with Windows Vista], PNDIS_ROUTING_DOMAIN_ENTRY, PNDIS_ROUTING_DOMAIN_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ROUTING_DOMAIN_ENTRY, netvista.ndis_routing_domain_entry, ntddndis/NDIS_ROUTING_DOMAIN_ENTRY, ntddndis/PNDIS_ROUTING_DOMAIN_ENTRY"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.40 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_ROUTING_DOMAIN_ENTRY
 ---
 
-# _NDIS_ROUTING_DOMAIN_ENTRY structure
+# NDIS_ROUTING_DOMAIN_ENTRY structure (ntddndis.h)
+
+
 
 
 ## -description

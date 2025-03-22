@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["OPTCOMBO structure"]
 ms.keywords: "*POPTCOMBO, OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO, POPTCOMBO structure pointer [Print Devices], _OPTCOMBO, compstui/OPTCOMBO, compstui/POPTCOMBO, print.optcombo"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - POPTCOMBO
  - OPTCOMBO
 ---
+
+# OPTCOMBO structure (compstui.h)
 
 ## -description
 

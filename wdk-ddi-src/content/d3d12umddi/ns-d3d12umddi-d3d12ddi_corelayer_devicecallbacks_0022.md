@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure"]
 ms.keywords: D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure [Display Devices], d3d12umddi/D3D12DDI_CORELAYER_DEVICECALLBACKS_0022, display.d3d12ddi_corelayer_devicecallbacks_0022
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure
+# D3D12DDI_CORELAYER_DEVICECALLBACKS_0022 structure (d3d12umddi.h)
+
+
 
 
 ## -description

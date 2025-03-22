@@ -7,6 +7,7 @@ ms.date: 06/15/2023
 keywords: ["NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure"]
 ms.keywords: _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2, *PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2,
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: ndis.h
 req.target-type: 
 req.target-min-winverclnt: NDIS 6.50
@@ -40,7 +41,9 @@ api_name:
  - NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2
 ---
 
-# _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure
+# NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD_V2 structure (ntddndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDI_CORELAYER_DEVICECALLBACKS structure"]
 ms.keywords: D3D11DDI_CORELAYER_DEVICECALLBACKS, D3D11DDI_CORELAYER_DEVICECALLBACKS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_182fd279-98be-4418-b7ca-658d038cb39a.xml, d3d10umddi/D3D11DDI_CORELAYER_DEVICECALLBACKS, display.d3d11ddi_corelayer_devicecallbacks
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDI_CORELAYER_DEVICECALLBACKS is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDI_CORELAYER_DEVICECALLBACKS
 ---
 
-# D3D11DDI_CORELAYER_DEVICECALLBACKS structure
+# D3D11DDI_CORELAYER_DEVICECALLBACKS structure (d3d10umddi.h)
+
+
 
 
 ## -description

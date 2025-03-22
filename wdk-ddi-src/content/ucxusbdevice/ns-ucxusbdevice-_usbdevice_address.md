@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBDEVICE_ADDRESS structure"]
 ms.keywords: "*PUSBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], _USBDEVICE_ADDRESS, buses._usbdevice_address, ucxusbdevice/P_USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBDEVICE_ADDRESS
 ---
 
-# _USBDEVICE_ADDRESS structure
+# USBDEVICE_ADDRESS structure (ucxusbdevice.h)
+
+
 
 
 ## -description

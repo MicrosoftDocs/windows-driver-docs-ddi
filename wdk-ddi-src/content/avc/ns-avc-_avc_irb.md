@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["AVC_IRB structure"]
 ms.keywords: "*PAVC_IRB, AVC_IRB, AVC_IRB structure [Streaming Media Devices], PAVC_IRB, PAVC_IRB structure pointer [Streaming Media Devices], _AVC_IRB, avc/AVC_IRB, avc/PAVC_IRB, avcref_98d983db-d72a-4efd-9c8c-20dd17b674a0.xml, stream.avc_irb"
 req.header: avc.h
+req.construct-type: structure
 req.include-header: Avc.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AVC_IRB
 ---
 
-# _AVC_IRB structure
+# AVC_IRB structure (avc.h)
+
+
 
 
 ## -description

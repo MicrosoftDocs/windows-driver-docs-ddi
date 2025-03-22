@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["UNI_CODEPAGEINFO structure"]
 ms.keywords: "*PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO, PUNI_CODEPAGEINFO structure pointer [Print Devices], UNI_CODEPAGEINFO, UNI_CODEPAGEINFO structure [Print Devices], _UNI_CODEPAGEINFO, print.uni_codepageinfo, print_unidrv-pscript_fonts_63611a4f-c59c-4fee-a8f3-c1391ff02afd.xml, prntfont/PUNI_CODEPAGEINFO, prntfont/UNI_CODEPAGEINFO"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UNI_CODEPAGEINFO
 ---
 
-# _UNI_CODEPAGEINFO structure
+# UNI_CODEPAGEINFO structure (prntfont.h)
+
+
 
 
 ## -description

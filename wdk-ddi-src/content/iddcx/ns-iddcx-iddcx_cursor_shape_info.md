@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_CURSOR_SHAPE_INFO structure"]
 ms.keywords: IDDCX_CURSOR_SHAPE_INFO, IDDCX_CURSOR_SHAPE_INFO structure [Display Devices], display.iddcx_cursor_shape_info, iddcx/IDDCX_CURSOR_SHAPE_INFO
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_CURSOR_SHAPE_INFO
 ---
 
-# IDDCX_CURSOR_SHAPE_INFO structure
+# IDDCX_CURSOR_SHAPE_INFO structure (iddcx.h)
+
+
 
 ## -description
 

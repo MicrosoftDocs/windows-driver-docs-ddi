@@ -7,6 +7,7 @@ ms.date: 03/06/2023
 keywords: ["KSPROPERTY_ITEM structure"]
 ms.keywords: "*PKSPROPERTY_ITEM, KSPROPERTY_ITEM, KSPROPERTY_ITEM structure [Streaming Media Devices], PKSPROPERTY_ITEM, PKSPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_ae02482e-27d1-4485-8fe2-3b9a7393c683.xml, ks/KSPROPERTY_ITEM, ks/PKSPROPERTY_ITEM, stream.ksproperty_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSPROPERTY_ITEM
  - KSPROPERTY_ITEM
 ---
+
+# KSPROPERTY_ITEM structure (ks.h)
 
 ## -description
 

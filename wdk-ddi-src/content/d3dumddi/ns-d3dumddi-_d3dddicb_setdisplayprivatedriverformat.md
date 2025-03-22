@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure"]
 ms.keywords: D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure [Display Devices], D3D_param_Structs_e953e85b-93cb-46c0-bab8-6d414568b153.xml, _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, d3dumddi/D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT, display.d3dddicb_setdisplayprivatedriverformat
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT
 ---
 
-# _D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure
+# D3DDDICB_SETDISPLAYPRIVATEDRIVERFORMAT structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["TOKEN_CONTROL structure"]
 ms.keywords: "*PTOKEN_CONTROL, PTOKEN_CONTROL, PTOKEN_CONTROL structure pointer [Installable File System Drivers], TOKEN_CONTROL, TOKEN_CONTROL structure [Installable File System Drivers], _TOKEN_CONTROL, ifsk.token_control, ntifs/PTOKEN_CONTROL, ntifs/TOKEN_CONTROL, securitystructures_26958d39-4a12-4979-b0cc-7a880e3d2384.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TOKEN_CONTROL
 ---
 
-# _TOKEN_CONTROL structure
+# TOKEN_CONTROL structure (ntifs.h)
+
+
 
 
 ## -description

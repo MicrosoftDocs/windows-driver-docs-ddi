@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_PUBLIC_ACCESS_RANGES structure"]
 ms.keywords: "*PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES, PVIDEO_PUBLIC_ACCESS_RANGES structure pointer [Display Devices], VIDEO_PUBLIC_ACCESS_RANGES, VIDEO_PUBLIC_ACCESS_RANGES structure [Display Devices], Video_Structs_5f4cdfd0-c59a-4568-9524-3f72416f7daf.xml, _VIDEO_PUBLIC_ACCESS_RANGES, display.video_public_access_ranges, ntddvdeo/PVIDEO_PUBLIC_ACCESS_RANGES, ntddvdeo/VIDEO_PUBLIC_ACCESS_RANGES"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_PUBLIC_ACCESS_RANGES
 ---
 
-# _VIDEO_PUBLIC_ACCESS_RANGES structure
+# VIDEO_PUBLIC_ACCESS_RANGES structure (ntddvdeo.h)
+
+
 
 
 ## -description

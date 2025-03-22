@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE, NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, PNDIS_WWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_RESPONSE, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_RESPONSE, netvista.ndis_wwan_device_service_response"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_DEVICE_SERVICE_RESPONSE
 ---
 
-# _NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure
+# NDIS_WWAN_DEVICE_SERVICE_RESPONSE structure (ndiswwan.h)
+
+
 
 
 ## -description

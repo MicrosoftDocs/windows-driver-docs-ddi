@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTH_VENDOR_PATTERN structure"]
 ms.keywords: "*PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices], PBTH_VENDOR_PATTERN, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], _BTH_VENDOR_PATTERN, bltooth.bth_vendor_pattern, bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, bthioctl/BTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN"
 req.header: bthioctl.h
+req.construct-type: structure
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Available in Windows Vista, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - BTH_VENDOR_PATTERN
 ---
 
-# _BTH_VENDOR_PATTERN structure
+# BTH_VENDOR_PATTERN structure (bthioctl.h)
+
+
 
 
 ## -description

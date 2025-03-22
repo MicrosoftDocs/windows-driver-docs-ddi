@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIO_MIX_CAPS structure"]
 ms.keywords: "*PKSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS, KSAUDIO_MIX_CAPS structure [Audio Devices], PKSAUDIO_MIX_CAPS, PKSAUDIO_MIX_CAPS structure pointer [Audio Devices], aud-prop_5468df9e-d7f4-4449-a59f-694100f2f825.xml, audio.ksaudio_mix_caps, ksmedia/KSAUDIO_MIX_CAPS, ksmedia/PKSAUDIO_MIX_CAPS"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSAUDIO_MIX_CAPS
 ---
 
-# KSAUDIO_MIX_CAPS structure
+# KSAUDIO_MIX_CAPS structure (ksmedia.h)
+
+
 
 
 ## -description

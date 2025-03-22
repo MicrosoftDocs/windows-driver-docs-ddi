@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_2DDI_ADAPTERFUNCS structure"]
 ms.keywords: D3D10_2DDI_ADAPTERFUNCS, D3D10_2DDI_ADAPTERFUNCS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_6d47bf5d-d3ef-4187-83a0-95d5c3c62413.xml, d3d10umddi/D3D10_2DDI_ADAPTERFUNCS, display.d3d10_2ddi_adapterfuncs
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D10_2DDI_ADAPTERFUNCS is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_2DDI_ADAPTERFUNCS
 ---
 
-# D3D10_2DDI_ADAPTERFUNCS structure
+# D3D10_2DDI_ADAPTERFUNCS structure (d3d10umddi.h)
+
+
 
 
 ## -description

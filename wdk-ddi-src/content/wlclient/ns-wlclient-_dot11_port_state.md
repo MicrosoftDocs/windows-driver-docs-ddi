@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_PORT_STATE structure"]
 ms.keywords: "*PDOT11_PORT_STATE, DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, PDOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PORT_STATE, netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE"
 req.header: wlclient.h
+req.construct-type: structure
 req.include-header: Wlclient.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_PORT_STATE
 ---
 
-# _DOT11_PORT_STATE structure
+# DOT11_PORT_STATE structure (wlclient.h)
+
+
 
 
 ## -description

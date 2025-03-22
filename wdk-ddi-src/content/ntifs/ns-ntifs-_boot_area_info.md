@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["BOOT_AREA_INFO structure"]
 ms.keywords: "*PBOOT_AREA_INFO, BOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], _BOOT_AREA_INFO, ifsk.boot_area_info, ntifs/BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Server 2008 R2, Windows 7
@@ -46,7 +47,9 @@ api_name:
  - BOOT_AREA_INFO
 ---
 
-# _BOOT_AREA_INFO structure
+# BOOT_AREA_INFO structure (ntifs.h)
+
+
 
 
 ## -description

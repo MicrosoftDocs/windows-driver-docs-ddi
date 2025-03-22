@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["MITIGABLE_DEVICE_INTERFACE structure"]
 ms.keywords: "*PMITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE, MITIGABLE_DEVICE_INTERFACE structure [Buses], PCI.mitigable_device_interface, _MITIGABLE_DEVICE_INTERFACE, pcivirt/MITIGABLE_DEVICE_INTERFACE"
 req.header: pcivirt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MITIGABLE_DEVICE_INTERFACE
 ---
 
-# _MITIGABLE_DEVICE_INTERFACE structure
+# MITIGABLE_DEVICE_INTERFACE structure (pcivirt.h)
+
+
 
 
 ## -description

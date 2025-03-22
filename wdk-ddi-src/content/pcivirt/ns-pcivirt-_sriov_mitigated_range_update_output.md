@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure"]
 ms.keywords: "*PSRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, PCI.sriov_mitigated_range_update_output, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure [Buses], _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT, pcivirt/SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT"
 req.header: pcivirt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT
 ---
 
-# _SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure
+# SRIOV_MITIGATED_RANGE_UPDATE_OUTPUT structure (pcivirt.h)
+
+
 
 
 ## -description

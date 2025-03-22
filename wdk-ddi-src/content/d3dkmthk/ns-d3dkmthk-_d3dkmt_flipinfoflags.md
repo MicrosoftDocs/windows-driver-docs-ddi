@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_FLIPINFOFLAGS structure"]
 ms.keywords: D3DKMT_FLIPINFOFLAGS, D3DKMT_FLIPINFOFLAGS structure [Display Devices], OpenGL_Structs_2e8d2e1b-7ae8-4ac4-916d-5cace7ef043e.xml, _D3DKMT_FLIPINFOFLAGS, d3dkmthk/D3DKMT_FLIPINFOFLAGS, display.d3dkmt_flipinfoflags
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_FLIPINFOFLAGS
 ---
 
-# _D3DKMT_FLIPINFOFLAGS structure
+# D3DKMT_FLIPINFOFLAGS structure (d3dkmthk.h)
+
+
 
 
 ## -description

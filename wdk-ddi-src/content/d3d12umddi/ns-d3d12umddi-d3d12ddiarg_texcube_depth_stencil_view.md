@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW structure"]
 ms.keywords: D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW, D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW structure
+# D3D12DDIARG_TEXCUBE_DEPTH_STENCIL_VIEW structure (d3d12umddi.h)
+
+
 
 
 ## -description

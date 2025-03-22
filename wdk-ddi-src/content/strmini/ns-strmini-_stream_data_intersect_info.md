@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["STREAM_DATA_INTERSECT_INFO structure"]
 ms.keywords: "*PSTREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO, PSTREAM_DATA_INTERSECT_INFO structure pointer [Streaming Media Devices], STREAM_DATA_INTERSECT_INFO, STREAM_DATA_INTERSECT_INFO structure [Streaming Media Devices], _STREAM_DATA_INTERSECT_INFO, strclass-struct_28443f9e-3daf-4a83-be5e-de1868590510.xml, stream.stream_data_intersect_info, strmini/PSTREAM_DATA_INTERSECT_INFO, strmini/STREAM_DATA_INTERSECT_INFO"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STREAM_DATA_INTERSECT_INFO
 ---
 
-# _STREAM_DATA_INTERSECT_INFO structure
+# STREAM_DATA_INTERSECT_INFO structure (strmini.h)
+
+
 
 
 ## -description

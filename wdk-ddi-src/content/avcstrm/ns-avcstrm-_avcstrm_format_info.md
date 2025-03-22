@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["AVCSTRM_FORMAT_INFO structure"]
 ms.keywords: "*PAVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO, AVCSTRM_FORMAT_INFO structure [Streaming Media Devices], PAVCSTRM_FORMAT_INFO, PAVCSTRM_FORMAT_INFO structure pointer [Streaming Media Devices], _AVCSTRM_FORMAT_INFO, avcsref_e41f0bb0-8407-4338-9a68-46c00116ae92.xml, avcstrm/AVCSTRM_FORMAT_INFO, avcstrm/PAVCSTRM_FORMAT_INFO, stream.avcstrm_format_info"
 req.header: avcstrm.h
+req.construct-type: structure
 req.include-header: Avcstrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PAVCSTRM_FORMAT_INFO
  - AVCSTRM_FORMAT_INFO
 ---
+
+# AVCSTRM_FORMAT_INFO structure (avcstrm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_LISTENER structure"]
 ms.keywords: NDK_LISTENER, NDK_LISTENER structure [Network Drivers Starting with Windows Vista], PNDK_LISTENER, PNDK_LISTENER structure pointer [Network Drivers Starting with Windows Vista], _NDK_LISTENER, ndkpi/NDK_LISTENER, ndkpi/PNDK_LISTENER, netvista.ndk_listener
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_LISTENER
 ---
 
-# _NDK_LISTENER structure
+# NDK_LISTENER structure (ndkpi.h)
+
+
 
 
 ## -description

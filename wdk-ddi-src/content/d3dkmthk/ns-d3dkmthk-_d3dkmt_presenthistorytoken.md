@@ -7,6 +7,7 @@ ms.date: 03/04/2022
 keywords: ["D3DKMT_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_PRESENTHISTORYTOKEN, D3DKMT_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_6a454620-8217-4119-bbdd-4caa83169e27.xml, _D3DKMT_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_PRESENTHISTORYTOKEN, display.d3dkmt_presenthistorytoken
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_PRESENTHISTORYTOKEN is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_PRESENTHISTORYTOKEN
 ---
 
-# _D3DKMT_PRESENTHISTORYTOKEN structure
+# D3DKMT_PRESENTHISTORYTOKEN structure (d3dkmthk.h)
+
+
 
 ## -description
 

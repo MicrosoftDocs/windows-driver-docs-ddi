@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_QUERY_BRIGHTNESS_RANGES structure"]
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_RANGES, PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PANEL_QUERY_BRIGHTNESS_RANGES
 ---
 
-# _PANEL_QUERY_BRIGHTNESS_RANGES structure
+# PANEL_QUERY_BRIGHTNESS_RANGES structure (ntddvdeo.h)
+
+
 
 
 ## -description

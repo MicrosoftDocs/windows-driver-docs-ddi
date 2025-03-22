@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_POWER_POLICY_EVENT_CALLBACKS structure"]
 ms.keywords: "*PWDF_POWER_POLICY_EVENT_CALLBACKS, DFDeviceObjectGeneralRef_d4970639-86cb-4b83-8ac8-a7662ebca017.xml, PWDF_POWER_POLICY_EVENT_CALLBACKS, PWDF_POWER_POLICY_EVENT_CALLBACKS structure pointer, WDF_POWER_POLICY_EVENT_CALLBACKS, WDF_POWER_POLICY_EVENT_CALLBACKS structure, _WDF_POWER_POLICY_EVENT_CALLBACKS, kmdf.wdf_power_policy_event_callbacks, wdf.wdf_power_policy_event_callbacks, wdfdevice/PWDF_POWER_POLICY_EVENT_CALLBACKS, wdfdevice/WDF_POWER_POLICY_EVENT_CALLBACKS"
 req.header: wdfdevice.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_POWER_POLICY_EVENT_CALLBACKS
 ---
 
-# _WDF_POWER_POLICY_EVENT_CALLBACKS structure
+# WDF_POWER_POLICY_EVENT_CALLBACKS structure (wdfdevice.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_STUCK_ERROR_EVENT structure"]
 ms.keywords: WHEAP_STUCK_ERROR_EVENT, WHEAP_STUCK_ERROR_EVENT, *PWHEAP_STUCK_ERROR_EVENT,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_STUCK_ERROR_EVENT
 ---
 
-# WHEAP_STUCK_ERROR_EVENT structure
+# WHEAP_STUCK_ERROR_EVENT structure (ntddk.h)
+
+
 
 
 ## -description

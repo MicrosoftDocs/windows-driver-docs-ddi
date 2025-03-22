@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WUDF_INTERRUPT_CONFIG structure"]
 ms.keywords: "*PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, _WUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, wdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG"
 req.header: wudfinterrupt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WUDF_INTERRUPT_CONFIG
 ---
 
-# _WUDF_INTERRUPT_CONFIG structure
+# WUDF_INTERRUPT_CONFIG structure (wudfinterrupt.h)
+
+
 
 
 ## -description

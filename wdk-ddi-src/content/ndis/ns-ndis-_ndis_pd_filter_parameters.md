@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PD_FILTER_PARAMETERS structure"]
 ms.keywords: NDIS_PD_FILTER_PARAMETERS, NDIS_PD_FILTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_PARAMETERS, ndis/NDIS_PD_FILTER_PARAMETERS, netvista.ndis_pd_filter_parameters
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - NDIS_PD_FILTER_PARAMETERS
 ---
 
-# _NDIS_PD_FILTER_PARAMETERS structure
+# NDIS_PD_FILTER_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

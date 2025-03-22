@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["PEP_PROCESSOR_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE, PEP_PROCESSOR_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE, PPEP_PROCESSOR_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE, kernel.pep_processor_idle_state, pep_x/PEP_PROCESSOR_IDLE_STATE, pep_x/PPEP_PROCESSOR_IDLE_STATE"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pepfx.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PROCESSOR_IDLE_STATE
 ---
 
-# _PEP_PROCESSOR_IDLE_STATE structure
+# PEP_PROCESSOR_IDLE_STATE structure (pep_x.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 07/01/2024
 keywords: ["DXGKARGCB_INVALIDATEHWCONTEXT structure"]
 ms.keywords: _DXGKARGCB_INVALIDATEHWCONTEXT, DXGKARGCB_INVALIDATEHWCONTEXT,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
@@ -36,7 +37,9 @@ api_name:
  - DXGKARGCB_INVALIDATEHWCONTEXT
 ---
 
-# DXGKARGCB_INVALIDATEHWCONTEXT structure
+# DXGKARGCB_INVALIDATEHWCONTEXT structure (d3dkmddi.h)
+
+
 
 ## -description
 

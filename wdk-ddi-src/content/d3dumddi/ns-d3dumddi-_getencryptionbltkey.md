@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["GETENCRYPTIONBLTKEY structure"]
 ms.keywords: D3DDDIARG_GETENCRYPTIONBLTKEY, D3DDDIARG_GETENCRYPTIONBLTKEY structure [Display Devices], UMDisplayDriver_param_Structs_ecaf1a03-2c4a-450e-a17a-2cc309e7c2e4.xml, _GETENCRYPTIONBLTKEY, _GETENCRYPTIONBLTKEY structure [Display Devices], d3dumddi/_GETENCRYPTIONBLTKEY, display.d3dddiarg_getencryptionbltkey
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_GETENCRYPTIONBLTKEY is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_GETENCRYPTIONBLTKEY
 ---
 
-# _GETENCRYPTIONBLTKEY structure
+# D3DDDIARG_GETENCRYPTIONBLTKEY structure (d3dumddi.h)
+
+
 
 
 ## -description

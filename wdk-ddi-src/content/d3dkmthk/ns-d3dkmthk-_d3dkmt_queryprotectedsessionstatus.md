@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure"]
 ms.keywords: D3DKMT_QUERYPROTECTEDSESSIONSTATUS, D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure [Display Devices], _D3DKMT_QUERYPROTECTEDSESSIONSTATUS, d3dkmthk/D3DKMT_QUERYPROTECTEDSESSIONSTATUS, display.d3dkmt-queryprotectedsessionstatus
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_QUERYPROTECTEDSESSIONSTATUS
 ---
 
-# _D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure
+# D3DKMT_QUERYPROTECTEDSESSIONSTATUS structure (d3dkmthk.h)
+
+
 
 
 ## -description

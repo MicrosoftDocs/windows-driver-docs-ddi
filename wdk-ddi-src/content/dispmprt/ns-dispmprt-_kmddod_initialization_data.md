@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["KMDDOD_INITIALIZATION_DATA structure"]
 ms.keywords: "*PKMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA, KMDDOD_INITIALIZATION_DATA structure [Display Devices], PKMDDOD_INITIALIZATION_DATA, PKMDDOD_INITIALIZATION_DATA structure pointer [Display Devices], _KMDDOD_INITIALIZATION_DATA, display.kmddod_initialization_data, dispmprt/KMDDOD_INITIALIZATION_DATA, dispmprt/PKMDDOD_INITIALIZATION_DATA"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - KMDDOD_INITIALIZATION_DATA
 ---
 
-# _KMDDOD_INITIALIZATION_DATA structure
+# KMDDOD_INITIALIZATION_DATA structure (dispmprt.h)
+
+
 
 
 ## -description

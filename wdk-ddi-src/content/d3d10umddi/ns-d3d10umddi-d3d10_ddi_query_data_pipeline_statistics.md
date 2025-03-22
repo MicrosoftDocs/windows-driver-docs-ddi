@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure"]
 ms.keywords: D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_66e61d2d-0a0d-41aa-a25d-a7fa3ef08b4c.xml, d3d10umddi/D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS, display.d3d10_ddi_query_data_pipeline_statistics
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS
 ---
 
-# D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure
+# D3D10_DDI_QUERY_DATA_PIPELINE_STATISTICS structure (d3d10umddi.h)
+
+
 
 
 ## -description

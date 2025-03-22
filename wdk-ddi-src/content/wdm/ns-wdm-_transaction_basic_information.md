@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRANSACTION_BASIC_INFORMATION structure"]
 ms.keywords: "*PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION, PTRANSACTION_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_BASIC_INFORMATION, TRANSACTION_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_BASIC_INFORMATION, kernel.transaction_basic_information, ktm_ref_3246b7cb-244e-4772-b3ca-bfd69e973f12.xml, wdm/PTRANSACTION_BASIC_INFORMATION, wdm/TRANSACTION_BASIC_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -46,7 +47,9 @@ api_name:
  - TRANSACTION_BASIC_INFORMATION
 ---
 
-# _TRANSACTION_BASIC_INFORMATION structure
+# TRANSACTION_BASIC_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

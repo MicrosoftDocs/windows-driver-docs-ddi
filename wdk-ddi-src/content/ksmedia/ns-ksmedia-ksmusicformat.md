@@ -7,6 +7,7 @@ ms.date: 03/10/2023
 keywords: ["KSMUSICFORMAT structure"]
 ms.keywords: "*PKSMUSICFORMAT, KSMUSICFORMAT, KSMUSICFORMAT structure [Audio Devices], PKSMUSICFORMAT, PKSMUSICFORMAT structure pointer [Audio Devices], aud-prop_04d08180-a7b6-4b88-aa9d-972e5dc237dd.xml, audio.ksmusicformat, ksmedia/KSMUSICFORMAT, ksmedia/PKSMUSICFORMAT"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSMUSICFORMAT
  - KSMUSICFORMAT
 ---
+
+# KSMUSICFORMAT structure (ksmedia.h)
 
 ## -description
 

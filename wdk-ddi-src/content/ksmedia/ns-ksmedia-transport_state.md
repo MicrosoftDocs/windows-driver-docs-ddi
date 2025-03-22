@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["TRANSPORT_STATE structure"]
 ms.keywords: "*PTRANSPORT_STATE, PTRANSPORT_STATE, PTRANSPORT_STATE structure pointer [Streaming Media Devices], TRANSPORT_STATE, TRANSPORT_STATE structure [Streaming Media Devices], ksmedia/PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, stream.transport_state, vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - TRANSPORT_STATE
 ---
 
-# TRANSPORT_STATE structure
+# TRANSPORT_STATE structure (ksmedia.h)
+
+
 
 
 ## -description

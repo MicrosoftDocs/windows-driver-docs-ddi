@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_CLIENT_CONTEXT structure"]
 ms.keywords: "*PDEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT, DEBUG_CLIENT_CONTEXT structure [Windows Debugging], PDEBUG_CLIENT_CONTEXT, PDEBUG_CLIENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_CLIENT_CONTEXT, dbgeng/DEBUG_CLIENT_CONTEXT, dbgeng/PDEBUG_CLIENT_CONTEXT, debugger.debug_client_context"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_CLIENT_CONTEXT
 ---
 
-# _DEBUG_CLIENT_CONTEXT structure
+# DEBUG_CLIENT_CONTEXT structure (dbgeng.h)
+
+
 
 
 ## -description

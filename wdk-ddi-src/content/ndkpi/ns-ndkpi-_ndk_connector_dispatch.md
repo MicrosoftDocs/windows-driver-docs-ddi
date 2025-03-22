@@ -8,6 +8,7 @@ ms.date: 12/20/2020
 keywords: ["NDK_CONNECTOR_DISPATCH structure"]
 ms.keywords: NDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR_DISPATCH, ndkpi/NDK_CONNECTOR_DISPATCH, ndkpi/PNDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_CONNECTOR_DISPATCH
 ---
 
-# _NDK_CONNECTOR_DISPATCH structure
+# NDK_CONNECTOR_DISPATCH structure (ndkpi.h)
+
+
 
 
 ## -description

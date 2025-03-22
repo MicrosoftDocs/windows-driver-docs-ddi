@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_NOTIFICATION_DATA structure"]
 ms.keywords: DFDeviceObjectGeneralRef_afff2c28-e176-47c7-b1f2-8e8986b9f29d.xml, WDF_DEVICE_POWER_NOTIFICATION_DATA, WDF_DEVICE_POWER_NOTIFICATION_DATA structure, _WDF_DEVICE_POWER_NOTIFICATION_DATA, kmdf.wdf_device_power_notification_data, wdf.wdf_device_power_notification_data, wdfdevice/WDF_DEVICE_POWER_NOTIFICATION_DATA
 req.header: wdfdevice.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_DEVICE_POWER_NOTIFICATION_DATA
 ---
 
-# _WDF_DEVICE_POWER_NOTIFICATION_DATA structure
+# WDF_DEVICE_POWER_NOTIFICATION_DATA structure (wdfdevice.h)
+
+
 
 
 ## -description

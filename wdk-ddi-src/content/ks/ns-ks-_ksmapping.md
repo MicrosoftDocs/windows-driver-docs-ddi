@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSMAPPING structure"]
 ms.keywords: "*PKSMAPPING, KSMAPPING, KSMAPPING structure [Streaming Media Devices], PKSMAPPING, PKSMAPPING structure pointer [Streaming Media Devices], _KSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, ks/KSMAPPING, ks/PKSMAPPING, stream.ksmapping"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSMAPPING
 ---
 
-# _KSMAPPING structure
+# KSMAPPING structure (ks.h)
+
+
 
 
 ## -description

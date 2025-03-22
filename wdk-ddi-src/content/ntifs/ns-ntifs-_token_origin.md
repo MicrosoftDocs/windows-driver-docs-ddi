@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["TOKEN_ORIGIN structure"]
 ms.keywords: "*PTOKEN_ORIGIN, PTOKEN_ORIGIN, PTOKEN_ORIGIN structure pointer [Installable File System Drivers], TOKEN_ORIGIN, TOKEN_ORIGIN structure [Installable File System Drivers], _TOKEN_ORIGIN, ifsk.token_origin, ntifs/PTOKEN_ORIGIN, ntifs/TOKEN_ORIGIN, securitystructures_5cc2fc36-4e83-4544-8f24-dcbf768dbb9c.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Server 2003
@@ -46,7 +47,9 @@ api_name:
  - TOKEN_ORIGIN
 ---
 
-# TOKEN_ORIGIN structure
+# TOKEN_ORIGIN structure (ntifs.h)
+
+
 
 ## -description
 

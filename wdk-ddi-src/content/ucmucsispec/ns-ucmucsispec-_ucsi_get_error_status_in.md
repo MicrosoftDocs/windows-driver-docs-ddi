@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_GET_ERROR_STATUS_IN structure"]
 ms.keywords: _UCSI_GET_ERROR_STATUS_IN, UCSI_GET_ERROR_STATUS_IN, *PUCSI_GET_ERROR_STATUS_IN,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_GET_ERROR_STATUS_IN
 ---
 
-# _UCSI_GET_ERROR_STATUS_IN structure
+# UCSI_GET_ERROR_STATUS_IN structure (ucmucsispec.h)
+
+
 
 
 ## -description

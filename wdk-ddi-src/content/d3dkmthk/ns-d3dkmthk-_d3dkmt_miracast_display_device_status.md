@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS structure"]
 ms.keywords: _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS, D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS, *PD3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS structure
+# D3DKMT_MIRACAST_DISPLAY_DEVICE_STATUS structure (d3dkmthk.h)
+
+
 
 
 ## -description

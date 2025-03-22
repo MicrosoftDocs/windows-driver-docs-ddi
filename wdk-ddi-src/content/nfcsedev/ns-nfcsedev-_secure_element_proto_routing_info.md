@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_PROTO_ROUTING_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_PROTO_ROUTING_INFO, PSECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO, P_SECURE_ELEMENT_PROTO_ROUTING_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_PROTO_ROUTING_INFO, SECURE_ELEMENT_PROTO_ROUTING_INFO , SECURE_ELEMENT_PROTO_ROUTING_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/P_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfcsedev/_SECURE_ELEMENT_PROTO_ROUTING_INFO, nfpdrivers._secure_element_proto_routing_info"
 req.header: nfcsedev.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SECURE_ELEMENT_PROTO_ROUTING_INFO
 ---
 
-# _SECURE_ELEMENT_PROTO_ROUTING_INFO structure
+# SECURE_ELEMENT_PROTO_ROUTING_INFO structure (nfcsedev.h)
+
+
 
 
 ## -description

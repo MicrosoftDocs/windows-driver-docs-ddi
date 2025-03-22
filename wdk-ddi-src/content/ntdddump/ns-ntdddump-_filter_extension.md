@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FILTER_EXTENSION structure"]
 ms.keywords: "*PFILTER_EXTENSION, FILTER_EXTENSION, FILTER_EXTENSION structure [Storage Devices], PFILTER_EXTENSION, PFILTER_EXTENSION structure pointer [Storage Devices], _FILTER_EXTENSION, ntdddump/FILTER_EXTENSION, ntdddump/PFILTER_EXTENSION, storage.filter_extension, structs-filter_c9e640bb-9678-4e2f-9341-0d26b36e65e6.xml"
 req.header: ntdddump.h
+req.construct-type: structure
 req.include-header: Ntdddump.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista and Windows Server 2008.
@@ -46,7 +47,9 @@ api_name:
  - FILTER_EXTENSION
 ---
 
-# _FILTER_EXTENSION structure
+# FILTER_EXTENSION structure (ntdddump.h)
+
+
 
 
 ## -description

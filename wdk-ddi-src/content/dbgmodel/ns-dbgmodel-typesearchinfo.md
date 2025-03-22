@@ -6,6 +6,7 @@ ms.date: 08/15/2023
 keywords: ["TypeSearchInfo structure"]
 ms.keywords: TypeSearchInfo, ,
 req.header: dbgmodel.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - TypeSearchInfo
 ---
 
-# TypeSearchInfo structure
+# TypeSearchInfo structure (dbgmodel.h)
+
+
 
 ## -description
 

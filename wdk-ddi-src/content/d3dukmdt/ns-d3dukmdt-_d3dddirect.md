@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIRECT structure"]
 ms.keywords: D3DDDIRECT, D3DDDIRECT structure [Display Devices], D3D_other_Structs_0b4f8354-6a1e-49fa-85aa-681b20e7d072.xml, _D3DDDIRECT, d3dukmdt/D3DDDIRECT, display.d3dddirect
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIRECT
 ---
 
-# _D3DDDIRECT structure
+# D3DDDIRECT structure (d3dukmdt.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_GETSCANLINE structure"]
 ms.keywords: D3DKMT_GETSCANLINE, D3DKMT_GETSCANLINE structure [Display Devices], OpenGL_Structs_1e99e2c0-2215-43ed-9dc4-657f30903637.xml, _D3DKMT_GETSCANLINE, d3dkmthk/D3DKMT_GETSCANLINE, display.d3dkmt_getscanline
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_GETSCANLINE
 ---
 
-# _D3DKMT_GETSCANLINE structure
+# D3DKMT_GETSCANLINE structure (d3dkmthk.h)
+
+
 
 
 ## -description

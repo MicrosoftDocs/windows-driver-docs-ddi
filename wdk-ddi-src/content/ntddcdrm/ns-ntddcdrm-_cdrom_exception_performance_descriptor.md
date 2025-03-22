@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure"]
 ms.keywords: "*PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure [Storage Devices], PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], _CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR, storage.cdrom_exception_performance_descriptor"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR
 ---
 
-# CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure
+# CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR structure (ntddcdrm.h)
+
+
 
 ## -description
 

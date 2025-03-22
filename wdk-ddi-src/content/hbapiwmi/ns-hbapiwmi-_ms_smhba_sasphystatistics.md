@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MS_SMHBA_SASPHYSTATISTICS structure"]
 ms.keywords: "*PMS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS, MS_SMHBA_SASPHYSTATISTICS structure [Storage Devices], PMS_SMHBA_SASPHYSTATISTICS, PMS_SMHBA_SASPHYSTATISTICS structure pointer [Storage Devices], _MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/MS_SMHBA_SASPHYSTATISTICS, hbapiwmi/PMS_SMHBA_SASPHYSTATISTICS, storage.ms_smhba_sasphystatistics, structs-Fibre_7059d482-c967-4f18-8c03-b113573cff2f.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MS_SMHBA_SASPHYSTATISTICS
 ---
 
-# _MS_SMHBA_SASPHYSTATISTICS structure
+# MS_SMHBA_SASPHYSTATISTICS structure (hbapiwmi.h)
+
+
 
 
 ## -description

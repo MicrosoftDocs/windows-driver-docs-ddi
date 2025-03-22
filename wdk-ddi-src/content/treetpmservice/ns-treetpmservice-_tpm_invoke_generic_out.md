@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TPM_INVOKE_GENERIC_OUT structure"]
 ms.keywords: _TPM_INVOKE_GENERIC_OUT, TPM_INVOKE_GENERIC_OUT, *PTPM_INVOKE_GENERIC_OUT,
 req.header: treetpmservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TPM_INVOKE_GENERIC_OUT
 ---
 
-# _TPM_INVOKE_GENERIC_OUT structure
+# TPM_INVOKE_GENERIC_OUT structure (treetpmservice.h)
+
+
 
 
 ## -description

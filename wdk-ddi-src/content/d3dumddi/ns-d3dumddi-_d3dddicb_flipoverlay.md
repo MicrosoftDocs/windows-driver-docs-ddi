@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_FLIPOVERLAY structure"]
 ms.keywords: D3DDDICB_FLIPOVERLAY, D3DDDICB_FLIPOVERLAY structure [Display Devices], D3D_param_Structs_cb3914df-9c6b-43f0-a8fa-a2f06f5b2abd.xml, _D3DDDICB_FLIPOVERLAY, d3dumddi/D3DDDICB_FLIPOVERLAY, display.d3dddicb_flipoverlay
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_FLIPOVERLAY
 ---
 
-# _D3DDDICB_FLIPOVERLAY structure
+# D3DDDICB_FLIPOVERLAY structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN_PHYSICALCONNECTION structure"]
 ms.keywords: "*PKSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION, KSPIN_PHYSICALCONNECTION structure [Streaming Media Devices], PKSPIN_PHYSICALCONNECTION, PKSPIN_PHYSICALCONNECTION structure pointer [Streaming Media Devices], ks-struct_7b9a3e0f-2cd9-4822-8e8a-03355dc522ed.xml, ks/KSPIN_PHYSICALCONNECTION, ks/PKSPIN_PHYSICALCONNECTION, stream.kspin_physicalconnection"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPIN_PHYSICALCONNECTION
 ---
 
-# KSPIN_PHYSICALCONNECTION structure
+# KSPIN_PHYSICALCONNECTION structure (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_SYSTEM_LATENCY structure"]
 ms.keywords: "*PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, kernel.pep_system_latency, pepfx/PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_SYSTEM_LATENCY
 ---
 
-# _PEP_SYSTEM_LATENCY structure (pep_x.h)
+# PEP_SYSTEM_LATENCY structure (pep_x.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["LOCK_STATE structure"]
 ms.keywords: "*PLOCK_STATE, LOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista], PLOCK_STATE, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], _LOCK_STATE, ndis/LOCK_STATE, ndis/PLOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, netvista.lock_state"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use LOCK_STATE_EX instead.
@@ -46,7 +47,9 @@ api_name:
  - LOCK_STATE
 ---
 
-# _LOCK_STATE structure
+# LOCK_STATE structure (ndis.h)
+
+
 
 
 ## -description

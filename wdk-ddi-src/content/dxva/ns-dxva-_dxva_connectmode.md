@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["DXVA_ConnectMode structure"]
 ms.keywords: "*LPDXVA_ConnectMode, DXVA_ConnectMode, DXVA_ConnectMode structure [Display Devices], LPDXVA_ConnectMode, LPDXVA_ConnectMode structure pointer [Display Devices], _DXVA_ConnectMode, display.dxva_connectmode, dxva/DXVA_ConnectMode, dxva/LPDXVA_ConnectMode, dxvaref_24815d94-550d-4b5c-be95-2fb0882781c0.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - DXVA_ConnectMode
 ---
 
-# DXVA_ConnectMode structure
+# DXVA_ConnectMode structure (dxva.h)
+
+
 
 ## -description
 

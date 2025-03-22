@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_USB_STRING structure"]
 ms.keywords: "*PUSBFN_USB_STRING, PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], USBFN_USB_STRING, USBFN_USB_STRING structure [Buses], _USBFN_USB_STRING, buses.usbfn_usb_string, usbfnbase/PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_USB_STRING
 ---
 
-# _USBFN_USB_STRING structure
+# USBFN_USB_STRING structure (usbfnbase.h)
+
+
 
 
 ## -description

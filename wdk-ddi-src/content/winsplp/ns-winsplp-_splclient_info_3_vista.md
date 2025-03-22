@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["SPLCLIENT_INFO_3_VISTA structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3, SPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA structure [Print Devices], _SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, winsplp/SPLCLIENT_INFO_3_VISTA"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - SPLCLIENT_INFO_3_VISTA
 ---
 
-# _SPLCLIENT_INFO_3_VISTA structure
+# SPLCLIENT_INFO_3_VISTA structure (winsplp.h)
+
+
 
 
 ## -description

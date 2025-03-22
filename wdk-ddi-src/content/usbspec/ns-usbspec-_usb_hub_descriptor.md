@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_HUB_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR, PUSB_HUB_DESCRIPTOR structure pointer [Buses], USB_HUB_DESCRIPTOR, USB_HUB_DESCRIPTOR structure [Buses], _USB_HUB_DESCRIPTOR, buses.usb_hub_descriptor, usbspec/PUSB_HUB_DESCRIPTOR, usbspec/USB_HUB_DESCRIPTOR, usbstrct_b21769d6-aab1-43b9-8d48-bde249f5c325.xml"
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_HUB_DESCRIPTOR
 ---
 
-# _USB_HUB_DESCRIPTOR structure
+# USB_HUB_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["INLINE_FRAME_CONTEXT structure"]
 ms.keywords: INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], _INLINE_FRAME_CONTEXT, dbgeng/INLINE_FRAME_CONTEXT, debugger.inline_frame_context
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: Dbgeng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - INLINE_FRAME_CONTEXT
 ---
 
-# _INLINE_FRAME_CONTEXT structure
+# INLINE_FRAME_CONTEXT structure (dbgeng.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["FCP_GET_REQUEST structure"]
 ms.keywords: "*PFCP_GET_REQUEST, 61883/FCP_GET_REQUEST, 61883/PFCP_GET_REQUEST, FCP_GET_REQUEST, FCP_GET_REQUEST structure [Buses], IEEE.fcp_get_request, PFCP_GET_REQUEST, PFCP_GET_REQUEST structure pointer [Buses], _FCP_GET_REQUEST"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FCP_GET_REQUEST
 ---
 
-# _FCP_GET_REQUEST structure
+# FCP_GET_REQUEST structure (61883.h)
+
+
 
 
 ## -description

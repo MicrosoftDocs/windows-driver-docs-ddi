@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure"]
 ms.keywords: NDIS_NDK_LOCAL_ENDPOINT_ENTRY, NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure [Network Drivers Starting with Windows Vista], _NDIS_NDK_LOCAL_ENDPOINT_ENTRY, netvista.ndis_ndk_local_endpoint_entry, ntddndis/NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDIS_NDK_LOCAL_ENDPOINT_ENTRY
 ---
 
-# _NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure
+# NDIS_NDK_LOCAL_ENDPOINT_ENTRY structure (ntddndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 06/24/2021
 keywords: ["tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure"]
 ms.keywords: "*PKSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION, KSCAMERA_METADATA_PHOTOCONFIRMATION structure [Streaming Media Devices], PKSCAMERA_METADATA_PHOTOCONFIRMATION, PKSCAMERA_METADATA_PHOTOCONFIRMATION structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_METADATA_PHOTOCONFIRMATION, ksmedia/PKSCAMERA_METADATA_PHOTOCONFIRMATION, stream.kscamera_metadata_photoconfirmation, tagKSCAMERA_METADATA_PHOTOCONFIRMATION"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - KSCAMERA_METADATA_PHOTOCONFIRMATION
 ---
 
-# tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure
+# tagKSCAMERA_METADATA_PHOTOCONFIRMATION structure (ksmedia.h)
+
+
 
 ## -description
 

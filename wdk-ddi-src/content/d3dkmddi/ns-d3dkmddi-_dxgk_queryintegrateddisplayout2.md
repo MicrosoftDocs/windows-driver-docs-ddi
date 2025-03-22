@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure"]
 ms.keywords: _DXGK_QUERYINTEGRATEDDISPLAYOUT2, DXGK_QUERYINTEGRATEDDISPLAYOUT2, *PDXGK_QUERYINTEGRATEDDISPLAYOUT2,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure
+# DXGK_QUERYINTEGRATEDDISPLAYOUT2 structure (d3dkmddi.h)
+
+
 
 
 ## -description

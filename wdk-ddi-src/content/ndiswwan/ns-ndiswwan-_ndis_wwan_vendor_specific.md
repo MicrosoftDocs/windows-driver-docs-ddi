@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_VENDOR_SPECIFIC structure"]
 ms.keywords: "*PNDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC, NDIS_WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_VENDOR_SPECIFIC, PNDIS_WWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], WwanRef_01a97be2-1ce1-484b-b844-654b4171330f.xml, _NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/NDIS_WWAN_VENDOR_SPECIFIC, ndiswwan/PNDIS_WWAN_VENDOR_SPECIFIC, netvista.ndis_wwan_vendor_specific"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_VENDOR_SPECIFIC
 ---
 
-# _NDIS_WWAN_VENDOR_SPECIFIC structure
+# NDIS_WWAN_VENDOR_SPECIFIC structure (ndiswwan.h)
+
+
 
 
 ## -description

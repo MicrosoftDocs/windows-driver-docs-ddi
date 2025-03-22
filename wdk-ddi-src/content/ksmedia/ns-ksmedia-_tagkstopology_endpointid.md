@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSTOPOLOGY_ENDPOINTID structure"]
 ms.keywords: "*PKSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID, KSTOPOLOGY_ENDPOINTID structure [Audio Devices], PKSTOPOLOGY_ENDPOINTID, PKSTOPOLOGY_ENDPOINTID structure pointer [Audio Devices], _tagKSTOPOLOGY_ENDPOINTID, audio.kstopology_endpointid, ksmedia/KSTOPOLOGY_ENDPOINTID, ksmedia/PKSTOPOLOGY_ENDPOINTID"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10,Windows 10 Mobile
@@ -46,7 +47,9 @@ api_name:
  - KSTOPOLOGY_ENDPOINTID
 ---
 
-# _tagKSTOPOLOGY_ENDPOINTID structure
+# KSTOPOLOGY_ENDPOINTID structure (ksmedia.h)
+
+
 
 
 ## -description

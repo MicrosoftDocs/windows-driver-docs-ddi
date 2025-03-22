@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_CREATECONTEXTALLOCATION structure"]
 ms.keywords: "*INOUT_PDXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION, DXGKARGCB_CREATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_CREATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_CREATECONTEXTALLOCATION, display.dxgkargcb_createcontextallocation"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 (WDDM 1.2)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_CREATECONTEXTALLOCATION
 ---
 
-# DXGKARGCB_CREATECONTEXTALLOCATION structure
+# DXGKARGCB_CREATECONTEXTALLOCATION structure (d3dkmddi.h)
+
+
 
 ## -description
 

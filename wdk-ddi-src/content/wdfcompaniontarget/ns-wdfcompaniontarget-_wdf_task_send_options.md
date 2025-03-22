@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TASK_SEND_OPTIONS structure"]
 ms.keywords: "*PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS, PWDF_TASK_SEND_OPTIONS structure pointer, WDF_TASK_SEND_OPTIONS, WDF_TASK_SEND_OPTIONS structure, _WDF_TASK_SEND_OPTIONS, wdf.wdf_task_send_options, wdfcompaniontarget/PWDF_TASK_SEND_OPTIONS, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS"
 req.header: wdfcompaniontarget.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_TASK_SEND_OPTIONS
 ---
 
-# _WDF_TASK_SEND_OPTIONS structure
+# WDF_TASK_SEND_OPTIONS structure (wdfcompaniontarget.h)
+
+
 
 
 ## -description

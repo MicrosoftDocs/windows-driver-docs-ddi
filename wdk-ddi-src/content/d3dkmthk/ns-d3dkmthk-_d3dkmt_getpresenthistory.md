@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_GETPRESENTHISTORY structure"]
 ms.keywords: D3DKMT_GETPRESENTHISTORY, D3DKMT_GETPRESENTHISTORY structure [Display Devices], OpenGL_Structs_966946a8-3611-4c25-a57f-1fc99c2004d0.xml, _D3DKMT_GETPRESENTHISTORY, d3dkmthk/D3DKMT_GETPRESENTHISTORY, display.d3dkmt_getpresenthistory
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_GETPRESENTHISTORY
 ---
 
-# _D3DKMT_GETPRESENTHISTORY structure
+# D3DKMT_GETPRESENTHISTORY structure (d3dkmthk.h)
+
+
 
 
 ## -description

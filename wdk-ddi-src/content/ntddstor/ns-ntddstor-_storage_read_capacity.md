@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_READ_CAPACITY structure"]
 ms.keywords: PSTORAGE_READ_CAPACITY, PSTORAGE_READ_CAPACITY structure pointer [Storage Devices], STORAGE_READ_CAPACITY, STORAGE_READ_CAPACITY structure [Storage Devices], _STORAGE_READ_CAPACITY, ntddstor/PSTORAGE_READ_CAPACITY, ntddstor/STORAGE_READ_CAPACITY, storage.storage_read_capacity
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_READ_CAPACITY
 ---
 
-# _STORAGE_READ_CAPACITY structure
+# STORAGE_READ_CAPACITY structure (ntddstor.h)
+
+
 
 
 ## -description

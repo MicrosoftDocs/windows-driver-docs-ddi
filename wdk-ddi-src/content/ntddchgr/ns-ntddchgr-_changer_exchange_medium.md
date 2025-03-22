@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CHANGER_EXCHANGE_MEDIUM structure"]
 ms.keywords: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], PCHANGER_EXCHANGE_MEDIUM, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], _CHANGER_EXCHANGE_MEDIUM, ntddchgr/CHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, storage.changer_exchange_medium, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml"
 req.header: ntddchgr.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CHANGER_EXCHANGE_MEDIUM
 ---
 
-# _CHANGER_EXCHANGE_MEDIUM structure
+# CHANGER_EXCHANGE_MEDIUM structure (ntddchgr.h)
+
+
 
 
 ## -description

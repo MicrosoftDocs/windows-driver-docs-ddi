@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCLOCK_CREATE structure"]
 ms.keywords: "*PKSCLOCK_CREATE, KSCLOCK_CREATE, KSCLOCK_CREATE structure [Streaming Media Devices], PKSCLOCK_CREATE, PKSCLOCK_CREATE structure pointer [Streaming Media Devices], ks-struct_8202019a-97e5-4d76-9594-93189e3c1c30.xml, ks/KSCLOCK_CREATE, ks/PKSCLOCK_CREATE, stream.ksclock_create"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSCLOCK_CREATE
 ---
 
-# KSCLOCK_CREATE structure
+# KSCLOCK_CREATE structure (ks.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure"]
 ms.keywords: D3DKMT_OUTPUTDUPL_RELEASE_FRAME, D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure [Display Devices], _D3DKMT_OUTPUTDUPL_RELEASE_FRAME, d3dkmthk/D3DKMT_OUTPUTDUPL_RELEASE_FRAME, display.d3dkmt_outputdupl_release_frame
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_OUTPUTDUPL_RELEASE_FRAME
 ---
 
-# _D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure
+# D3DKMT_OUTPUTDUPL_RELEASE_FRAME structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_OFFERALLOCATIONS structure"]
 ms.keywords: D3DDDICB_OFFERALLOCATIONS, D3DDDICB_OFFERALLOCATIONS structure [Display Devices], _D3DDDICB_OFFERALLOCATIONS, d3dumddi/D3DDDICB_OFFERALLOCATIONS, display.d3dddicb_offerallocations
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_OFFERALLOCATIONS
 ---
 
-# _D3DDDICB_OFFERALLOCATIONS structure
+# D3DDDICB_OFFERALLOCATIONS structure (d3dumddi.h)
+
+
 
 
 ## -description

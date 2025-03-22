@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_GET_INDICATOR structure"]
 ms.keywords: "*PWINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR, PWINBIO_GET_INDICATOR structure pointer [Biometric Devices], WINBIO_GET_INDICATOR, WINBIO_GET_INDICATOR structure [Biometric Devices], _WINBIO_GET_INDICATOR, biometric.winbio_get_indicator, biometric_ref_2ff9c2b7-38fd-4419-aa90-a87cceef3cda.xml, winbio_ioctl/PWINBIO_GET_INDICATOR, winbio_ioctl/WINBIO_GET_INDICATOR"
 req.header: winbio_ioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_GET_INDICATOR
 ---
 
-# _WINBIO_GET_INDICATOR structure
+# WINBIO_GET_INDICATOR structure (winbio_ioctl.h)
+
+
 
 
 ## -description

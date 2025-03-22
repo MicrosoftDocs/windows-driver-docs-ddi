@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSDATARANGE_MUSIC structure"]
 ms.keywords: "*PKSDATARANGE_MUSIC, KSDATARANGE_MUSIC, KSDATARANGE_MUSIC structure [Audio Devices], PKSDATARANGE_MUSIC, PKSDATARANGE_MUSIC structure pointer [Audio Devices], aud-prop_5c82e83d-000e-440e-bfcb-8daef30f5056.xml, audio.ksdatarange_music, ksmedia/KSDATARANGE_MUSIC, ksmedia/PKSDATARANGE_MUSIC"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDATARANGE_MUSIC
 ---
 
-# KSDATARANGE_MUSIC structure
+# KSDATARANGE_MUSIC structure (ksmedia.h)
+
+
 
 
 ## -description

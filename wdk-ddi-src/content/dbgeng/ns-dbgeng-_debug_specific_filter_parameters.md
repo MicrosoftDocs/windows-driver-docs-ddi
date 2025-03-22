@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_SPECIFIC_FILTER_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS, DEBUG_SPECIFIC_FILTER_PARAMETERS structure [Windows Debugging], PDEBUG_SPECIFIC_FILTER_PARAMETERS, PDEBUG_SPECIFIC_FILTER_PARAMETERS structure pointer [Windows Debugging], Structures_b0152b9b-4809-46c8-81a7-5f571720eca1.xml, _DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/DEBUG_SPECIFIC_FILTER_PARAMETERS, dbgeng/PDEBUG_SPECIFIC_FILTER_PARAMETERS, debugger.debug_specific_filter_parameters"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_SPECIFIC_FILTER_PARAMETERS
 ---
 
-# _DEBUG_SPECIFIC_FILTER_PARAMETERS structure
+# DEBUG_SPECIFIC_FILTER_PARAMETERS structure (dbgeng.h)
+
+
 
 
 ## -description

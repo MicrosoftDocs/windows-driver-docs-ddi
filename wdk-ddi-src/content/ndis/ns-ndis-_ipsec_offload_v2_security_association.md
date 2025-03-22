@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, ndis/PIPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION, netvista.ipsec_offload_v2_security_association, task_offload_IPsecv2_ref_ccf0a55c-3609-4e15-928a-e46113b96df0.xml"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION
 ---
 
-# _IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure
+# IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION structure (ndis.h)
+
+
 
 
 ## -description

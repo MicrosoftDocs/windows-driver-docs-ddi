@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure [Display Devices], DmStructs_7ff19615-df83-4d5e-91c2-8a94a1cfeea3.xml, _DXGK_MONITORFREQUENCYRANGESET_INTERFACE, d3dkmddi/DXGK_MONITORFREQUENCYRANGESET_INTERFACE, display.dxgk_monitorfrequencyrangeset_interface
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 ---
 
-# _DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure
+# DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure (d3dkmddi.h)
+
+
 
 
 ## -description

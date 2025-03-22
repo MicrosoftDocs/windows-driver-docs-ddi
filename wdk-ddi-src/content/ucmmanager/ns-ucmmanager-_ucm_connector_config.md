@@ -8,6 +8,7 @@ ms.date: 01/05/2022
 keywords: ["UCM_CONNECTOR_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG, PUCM_CONNECTOR_CONFIG structure pointer [Buses], UCM_CONNECTOR_CONFIG, UCM_CONNECTOR_CONFIG structure [Buses], _UCM_CONNECTOR_CONFIG, buses.ucm_connector_config, ucmmanager/PUCM_CONNECTOR_CONFIG, ucmmanager/UCM_CONNECTOR_CONFIG"
 req.header: ucmmanager.h
+req.construct-type: structure
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - UCM_CONNECTOR_CONFIG
 ---
 
-# _UCM_CONNECTOR_CONFIG structure
+# UCM_CONNECTOR_CONFIG structure (ucmmanager.h)
+
+
 
 ## -description
 

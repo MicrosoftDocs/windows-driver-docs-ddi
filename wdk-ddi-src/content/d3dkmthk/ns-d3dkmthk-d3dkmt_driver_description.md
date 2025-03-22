@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMT_DRIVER_DESCRIPTION structure"]
 ms.keywords: D3DKMT_DRIVER_DESCRIPTION, D3DKMT_DRIVER_DESCRIPTION,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_DRIVER_DESCRIPTION structure
+# D3DKMT_DRIVER_DESCRIPTION structure (d3dkmthk.h)
+
+
 
 
 ## -description

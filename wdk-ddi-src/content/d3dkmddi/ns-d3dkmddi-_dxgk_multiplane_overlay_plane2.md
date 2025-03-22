@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_PLANE2 structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_PLANE2, DXGK_MULTIPLANE_OVERLAY_PLANE2 structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_PLANE2, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_PLANE2, display.dxgk_multiplane_overlay_plane2
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MULTIPLANE_OVERLAY_PLANE2
 ---
 
-# _DXGK_MULTIPLANE_OVERLAY_PLANE2 structure
+# DXGK_MULTIPLANE_OVERLAY_PLANE2 structure (d3dkmddi.h)
+
+
 
 > [!NOTE] This structure has been replaced by [DXGK_MULTIPLANE_OVERLAY_PLANE3](ns-d3dkmddi-_dxgk_multiplane_overlay_plane3.md).
 

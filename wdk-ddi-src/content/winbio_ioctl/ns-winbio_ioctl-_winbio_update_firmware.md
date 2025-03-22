@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_UPDATE_FIRMWARE structure"]
 ms.keywords: "*PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE, PWINBIO_UPDATE_FIRMWARE structure pointer [Biometric Devices], WINBIO_UPDATE_FIRMWARE, WINBIO_UPDATE_FIRMWARE structure [Biometric Devices], _WINBIO_UPDATE_FIRMWARE, biometric.winbio_update_firmware, biometric_ref_e4f6a748-a0a4-4dcd-883a-a00e568acf7f.xml, winbio_ioctl/PWINBIO_UPDATE_FIRMWARE, winbio_ioctl/WINBIO_UPDATE_FIRMWARE"
 req.header: winbio_ioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_UPDATE_FIRMWARE
 ---
 
-# _WINBIO_UPDATE_FIRMWARE structure
+# WINBIO_UPDATE_FIRMWARE structure (winbio_ioctl.h)
+
+
 
 
 ## -description

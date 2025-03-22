@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL structure"]
 ms.keywords: _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL, *INOUT_PDXGKARG_SETTRACKEDWORKLOADPOWERLEVEL
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL structure
+# DXGKARG_SETTRACKEDWORKLOADPOWERLEVEL structure (d3dkmddi.h)
+
+
 
 
 ## -description

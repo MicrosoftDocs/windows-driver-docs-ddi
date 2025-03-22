@@ -7,6 +7,7 @@ ms.date: 01/11/2023
 keywords: ["WHEA_X64_REGISTER_STATE structure"]
 ms.keywords: "*PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE, PWHEA_X64_REGISTER_STATE structure pointer [WHEA Drivers and Applications], WHEA_X64_REGISTER_STATE, WHEA_X64_REGISTER_STATE structure [WHEA Drivers and Applications], _WHEA_X64_REGISTER_STATE, ntddk/PWHEA_X64_REGISTER_STATE, ntddk/WHEA_X64_REGISTER_STATE, whea.whea_x64_register_state, whearef_2602d89a-de68-4dd9-ba4b-bb42fc0f258b.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_X64_REGISTER_STATE
  - WHEA_X64_REGISTER_STATE
 ---
+
+# WHEA_X64_REGISTER_STATE structure (ntddk.h)
 
 ## -description
 

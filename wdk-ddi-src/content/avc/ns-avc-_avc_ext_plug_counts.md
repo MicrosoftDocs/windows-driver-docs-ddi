@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["AVC_EXT_PLUG_COUNTS structure"]
 ms.keywords: "*PAVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS structure [Streaming Media Devices], PAVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS structure pointer [Streaming Media Devices], _AVC_EXT_PLUG_COUNTS, avc/AVC_EXT_PLUG_COUNTS, avc/PAVC_EXT_PLUG_COUNTS, avcref_171f4765-bb9f-4056-a238-d4822af50a3d.xml, stream.avc_ext_plug_counts"
 req.header: avc.h
+req.construct-type: structure
 req.include-header: Avc.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AVC_EXT_PLUG_COUNTS
 ---
 
-# _AVC_EXT_PLUG_COUNTS structure
+# AVC_EXT_PLUG_COUNTS structure (avc.h)
+
+
 
 
 ## -description

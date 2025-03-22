@@ -7,6 +7,7 @@ ms.date: 03/06/2023
 keywords: ["KSALLOCATOR_FRAMING structure"]
 ms.keywords: "*PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], PKSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, ks/KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, stream.ksallocator_framing"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSALLOCATOR_FRAMING
  - KSALLOCATOR_FRAMING
 ---
+
+# KSALLOCATOR_FRAMING structure (ks.h)
 
 ## -description
 

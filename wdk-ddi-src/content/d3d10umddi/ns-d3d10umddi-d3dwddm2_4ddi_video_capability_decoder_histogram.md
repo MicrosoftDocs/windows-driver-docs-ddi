@@ -6,6 +6,7 @@ ms.date: 12/09/2022
 keywords: ["D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM structure"]
 ms.keywords: D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM, D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM,
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1803 (WDDM 2.4)
@@ -33,7 +34,9 @@ api_name:
  - D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM
 ---
 
-# D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM structure
+# D3DWDDM2_4DDI_VIDEO_CAPABILITY_DECODER_HISTOGRAM structure (d3d10umddi.h)
+
+
 
 ## -description
 

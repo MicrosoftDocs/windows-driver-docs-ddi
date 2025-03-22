@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_FIXED32 structure"]
 ms.keywords: DXVA2_Structs_3d19835e-9a75-4d5a-bd6b-451a9978eadb.xml, DXVADDI_FIXED32, DXVADDI_FIXED32 structure [Display Devices], _DXVADDI_FIXED32, d3dumddi/DXVADDI_FIXED32, display.dxvaddi_fixed32
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_FIXED32
 ---
 
-# _DXVADDI_FIXED32 structure
+# DXVADDI_FIXED32 structure (d3dumddi.h)
+
+
 
 
 ## -description

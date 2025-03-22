@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["CAD_POWER_SOURCE_INFO_USB structure"]
 ms.keywords: "*PCAD_POWER_SOURCE_INFO_USB, CAD_POWER_SOURCE_INFO_USB, CAD_POWER_SOURCE_INFO_USB structure [Battery Devices], _CAD_POWER_SOURCE_INFO_USB, battery.cad_power_source_info_usb, charging/BATTERY_INFORMATION"
 req.header: charging.h
+req.construct-type: structure
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CAD_POWER_SOURCE_INFO_USB
 ---
 
-# _CAD_POWER_SOURCE_INFO_USB structure
+# CAD_POWER_SOURCE_INFO_USB structure (charging.h)
+
+
 
 ## -description
 

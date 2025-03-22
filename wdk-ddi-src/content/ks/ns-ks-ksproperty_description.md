@@ -8,6 +8,7 @@ ms.date: 07/15/2021
 keywords: ["KSPROPERTY_DESCRIPTION structure"]
 ms.keywords: "*PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, ks/KSPROPERTY_DESCRIPTION, ks/PKSPROPERTY_DESCRIPTION, stream.ksproperty_description"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_DESCRIPTION
 ---
 
-# KSPROPERTY_DESCRIPTION structure
+# KSPROPERTY_DESCRIPTION structure (ks.h)
+
+
 
 
 ## -description

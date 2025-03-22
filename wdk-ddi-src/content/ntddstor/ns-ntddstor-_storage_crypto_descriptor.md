@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_CRYPTO_DESCRIPTOR structure"]
 ms.keywords: "*PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR, PSTORAGE_CRYPTO_DESCRIPTOR structure pointer [Storage Devices], STORAGE_CRYPTO_DESCRIPTOR, STORAGE_CRYPTO_DESCRIPTOR structure [Storage Devices], _STORAGE_CRYPTO_DESCRIPTOR, ntddstor/PSTORAGE_CRYPTO_DESCRIPTOR, ntddstor/STORAGE_CRYPTO_DESCRIPTOR, storage.storage_crypto_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_CRYPTO_DESCRIPTOR
 ---
 
-# _STORAGE_CRYPTO_DESCRIPTOR structure
+# STORAGE_CRYPTO_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

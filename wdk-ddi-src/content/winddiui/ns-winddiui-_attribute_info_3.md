@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["ATTRIBUTE_INFO_3 structure"]
 ms.keywords: "*PATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3, ATTRIBUTE_INFO_3 structure [Print Devices], PATTRIBUTE_INFO_3, PATTRIBUTE_INFO_3 structure pointer [Print Devices], _ATTRIBUTE_INFO_3, print.attribute_info_3, print_interface-graphics_473dca69-31fc-410d-a9d6-cfa5241f2c5b.xml, winddiui/ATTRIBUTE_INFO_3, winddiui/PATTRIBUTE_INFO_3"
 req.header: winddiui.h
+req.construct-type: structure
 req.include-header: Winddiui.h, Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PATTRIBUTE_INFO_3
  - ATTRIBUTE_INFO_3
 ---
+
+# ATTRIBUTE_INFO_3 structure (winddiui.h)
 
 ## -description
 

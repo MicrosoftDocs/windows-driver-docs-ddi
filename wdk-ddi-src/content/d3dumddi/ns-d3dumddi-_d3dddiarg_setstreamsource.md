@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_SETSTREAMSOURCE structure"]
 ms.keywords: D3DDDIARG_SETSTREAMSOURCE, D3DDDIARG_SETSTREAMSOURCE structure [Display Devices], UMDisplayDriver_param_Structs_f90eed83-1d01-4502-84e4-22cff72016d6.xml, _D3DDDIARG_SETSTREAMSOURCE, d3dumddi/D3DDDIARG_SETSTREAMSOURCE, display.d3dddiarg_setstreamsource
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_SETSTREAMSOURCE
 ---
 
-# _D3DDDIARG_SETSTREAMSOURCE structure
+# D3DDDIARG_SETSTREAMSOURCE structure (d3dumddi.h)
+
+
 
 
 ## -description

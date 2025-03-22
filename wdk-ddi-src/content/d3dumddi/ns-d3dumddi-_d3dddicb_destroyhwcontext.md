@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_DESTROYHWCONTEXT structure"]
 ms.keywords: D3DDDICB_DESTROYHWCONTEXT, D3DDDICB_DESTROYHWCONTEXT structure [Display Devices], _D3DDDICB_DESTROYHWCONTEXT, d3dumddi/D3DDDICB_DESTROYHWCONTEXT, display.d3dddicb_destroyhwcontext
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_DESTROYHWCONTEXT
 ---
 
-# _D3DDDICB_DESTROYHWCONTEXT structure
+# D3DDDICB_DESTROYHWCONTEXT structure (d3dumddi.h)
+
+
 
 
 ## -description

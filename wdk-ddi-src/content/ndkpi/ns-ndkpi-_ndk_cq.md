@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_CQ structure"]
 ms.keywords: NDK_CQ, NDK_CQ structure [Network Drivers Starting with Windows Vista], PNDK_CQ, PNDK_CQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_CQ, ndkpi/NDK_CQ, ndkpi/PNDK_CQ, netvista.ndk_cq
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_CQ
 ---
 
-# _NDK_CQ structure
+# NDK_CQ structure (ndkpi.h)
+
+
 
 
 ## -description

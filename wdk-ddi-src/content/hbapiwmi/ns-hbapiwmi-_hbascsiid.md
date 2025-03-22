@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["HBAScsiID structure"]
 ms.keywords: "*PHBAScsiID, HBAScsiID, HBAScsiID structure [Storage Devices], PHBAScsiID, PHBAScsiID structure pointer [Storage Devices], _HBAScsiID, hbapiwmi/HBAScsiID, hbapiwmi/PHBAScsiID, storage.hbascsiid, structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HBAScsiID
 ---
 
-# _HBAScsiID structure
+# HBAScsiID structure (hbapiwmi.h)
+
+
 
 
 ## -description

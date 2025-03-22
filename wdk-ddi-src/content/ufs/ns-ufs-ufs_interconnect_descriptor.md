@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["UFS_INTERCONNECT_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR, PUFS_INTERCONNECT_DESCRIPTOR structure pointer [Storage Devices], UFS_INTERCONNECT_DESCRIPTOR, UFS_INTERCONNECT_DESCRIPTOR structure [Storage Devices], storage.ufs_interconnect_descriptor, ufs/PUFS_INTERCONNECT_DESCRIPTOR, ufs/UFS_INTERCONNECT_DESCRIPTOR"
 req.header: ufs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -43,7 +44,9 @@ api_name:
  - UFS_INTERCONNECT_DESCRIPTOR
 ---
 
-# UFS_INTERCONNECT_DESCRIPTOR structure
+# UFS_INTERCONNECT_DESCRIPTOR structure (ufs.h)
+
+
 
 
 ## -description

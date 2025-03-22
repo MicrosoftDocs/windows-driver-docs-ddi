@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure"]
 ms.keywords: "*PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure [Display Devices], PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure pointer [Display Devices], _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/DXGK_GRAPHICSPOWER_REGISTER_OUTPUT, d3dkmthk/PDXGK_GRAPHICSPOWER_REGISTER_OUTPUT, display.dxgk_graphicspower_register_output"
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_GRAPHICSPOWER_REGISTER_OUTPUT
 ---
 
-# _DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure
+# DXGK_GRAPHICSPOWER_REGISTER_OUTPUT structure (d3dkmthk.h)
+
+
 
 
 ## -description

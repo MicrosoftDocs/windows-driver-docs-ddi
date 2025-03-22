@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_BM_POWER_SOURCE structure"]
 ms.keywords: _UCSI_BM_POWER_SOURCE, UCSI_BM_POWER_SOURCE, *PUCSI_BM_POWER_SOURCE,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_BM_POWER_SOURCE
 ---
 
-# _UCSI_BM_POWER_SOURCE structure
+# UCSI_BM_POWER_SOURCE structure (ucmucsispec.h)
+
+
 
 
 ## -description

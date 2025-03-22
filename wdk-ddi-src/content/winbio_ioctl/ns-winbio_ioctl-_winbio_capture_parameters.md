@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_CAPTURE_PARAMETERS structure"]
 ms.keywords: "*PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], WINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], _WINBIO_CAPTURE_PARAMETERS, biometric.winbio_capture_parameters, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS"
 req.header: winbio_ioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_CAPTURE_PARAMETERS
 ---
 
-# _WINBIO_CAPTURE_PARAMETERS structure
+# WINBIO_CAPTURE_PARAMETERS structure (winbio_ioctl.h)
+
+
 
 
 ## -description

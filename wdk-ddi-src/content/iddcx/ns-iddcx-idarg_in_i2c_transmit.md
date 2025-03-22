@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_IN_I2C_TRANSMIT structure"]
 ms.keywords: IDARG_IN_I2C_TRANSMIT, IDARG_IN_I2C_TRANSMIT structure [Display Devices], display.idarg_in_i2c_transmit, iddcx/IDARG_IN_I2C_TRANSMIT
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_I2C_TRANSMIT
 ---
 
-# IDARG_IN_I2C_TRANSMIT structure
+# IDARG_IN_I2C_TRANSMIT structure (iddcx.h)
+
+
 
 
 ## -description

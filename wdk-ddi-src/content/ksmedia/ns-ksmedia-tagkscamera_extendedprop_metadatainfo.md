@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_METADATAINFO structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO, KSCAMERA_EXTENDEDPROP_METADATAINFO structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_METADATAINFO, PKSCAMERA_EXTENDEDPROP_METADATAINFO structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_METADATAINFO, ksmedia/PKSCAMERA_EXTENDEDPROP_METADATAINFO, stream.kscamera_extendedprop_metadatainfo, tagKSCAMERA_EXTENDEDPROP_METADATAINFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_METADATAINFO
 ---
 
-# tagKSCAMERA_EXTENDEDPROP_METADATAINFO structure
+# tagKSCAMERA_EXTENDEDPROP_METADATAINFO structure (ksmedia.h)
+
+
 
 
 ## -description

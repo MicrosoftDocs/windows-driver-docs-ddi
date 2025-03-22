@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_XPF_BUS_CHECK structure"]
 ms.keywords: "*PWHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK, PWHEA_XPF_BUS_CHECK union pointer [WHEA Drivers and Applications], WHEA_XPF_BUS_CHECK, WHEA_XPF_BUS_CHECK union [WHEA Drivers and Applications], _WHEA_XPF_BUS_CHECK, ntddk/PWHEA_XPF_BUS_CHECK, ntddk/WHEA_XPF_BUS_CHECK, whea.whea_xpf_bus_check, whearef_fff50a8d-8ab0-4f25-adb3-b33e1ea80aed.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_XPF_BUS_CHECK
 ---
 
-# _WHEA_XPF_BUS_CHECK structure
+# WHEA_XPF_BUS_CHECK structure (ntddk.h)
+
+
 
 
 ## -description

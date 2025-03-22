@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["REPORT_ZONES_DATA structure"]
 ms.keywords: "*PREPORT_ZONES_DATA, PREPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA, REPORT_ZONES_DATA structure [Storage Devices], _REPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, storage.report_zones_data"
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - REPORT_ZONES_DATA
 ---
 
-# _REPORT_ZONES_DATA structure (scsi.h)
+# REPORT_ZONES_DATA structure (scsi.h)
+
+
 
 
 ## -description

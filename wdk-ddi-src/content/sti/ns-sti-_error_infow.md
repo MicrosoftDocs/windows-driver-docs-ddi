@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ERROR_INFOW structure"]
 ms.keywords: "*PSTI_ERROR_INFO, *PSTI_ERROR_INFOW, PSTI_ERROR_INFO, PSTI_ERROR_INFO structure pointer [Imaging Devices], STI_ERROR_INFO, STI_ERROR_INFO structure [Imaging Devices], STI_ERROR_INFOW, _ERROR_INFOW, image.sti_error_info, sti/PSTI_ERROR_INFO, sti/STI_ERROR_INFO, stifnc_c4e51568-9e80-4866-9258-72a8fcbd242d.xml"
 req.header: sti.h
+req.construct-type: structure
 req.include-header: Sti.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STI_ERROR_INFOW
 ---
 
-# _ERROR_INFOW structure
+# STI_ERROR_INFOW structure (sti.h)
+
+
 
 
 ## -description

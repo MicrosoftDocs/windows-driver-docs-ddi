@@ -7,6 +7,7 @@ ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REMOVE_PAGES structure"]
 ms.keywords: KBUGCHECK_REMOVE_PAGES, KBUGCHECK_REMOVE_PAGES, *PKBUGCHECK_REMOVE_PAGES,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - KBUGCHECK_REMOVE_PAGES
 ---
 
-# KBUGCHECK_REMOVE_PAGES structure
+# KBUGCHECK_REMOVE_PAGES structure (wdm.h)
+
+
 
 
 ## -description

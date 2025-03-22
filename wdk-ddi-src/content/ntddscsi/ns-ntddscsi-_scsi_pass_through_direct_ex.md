@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_PASS_THROUGH_DIRECT_EX structure"]
 ms.keywords: "*PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX, PSCSI_PASS_THROUGH_DIRECT_EX structure pointer [Storage Devices], SCSI_PASS_THROUGH_DIRECT_EX, SCSI_PASS_THROUGH_DIRECT_EX structure [Storage Devices], _SCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/PSCSI_PASS_THROUGH_DIRECT_EX, ntddscsi/SCSI_PASS_THROUGH_DIRECT_EX, storage.scsi_pass_through_direct_ex"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SCSI_PASS_THROUGH_DIRECT_EX
 ---
 
-# _SCSI_PASS_THROUGH_DIRECT_EX structure
+# SCSI_PASS_THROUGH_DIRECT_EX structure (ntddscsi.h)
+
+
 
 
 ## -description

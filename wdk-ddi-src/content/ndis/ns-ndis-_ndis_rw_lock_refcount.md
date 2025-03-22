@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RW_LOCK_REFCOUNT structure"]
 ms.keywords: NDIS_RW_LOCK_REFCOUNT, NDIS_RW_LOCK_REFCOUNT union [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK_REFCOUNT, ndis/NDIS_RW_LOCK_REFCOUNT, ndis_processor_group_ref_55aa679b-460e-43a3-8ad2-678926bbf200.xml, netvista.ndis_rw_lock_refcount
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Obsolete in NDIS 6.20 and later. Supported for NDIS 6.0 and NDIS 5.1 in   Windows Vista and Windows 7. Supported for NDIS 5.1 drivers in Windows XP.
@@ -43,7 +44,9 @@ api_name:
  - NDIS_RW_LOCK_REFCOUNT
 ---
 
-# _NDIS_RW_LOCK_REFCOUNT structure
+# NDIS_RW_LOCK_REFCOUNT structure (ndis.h)
+
+
 
 
 ## -description

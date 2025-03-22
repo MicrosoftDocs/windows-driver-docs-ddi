@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure [Display Devices], LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure pointer [Display Devices], _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/D3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dhal/LPD3DHAL_DP2DRAWINDEXEDPRIMITIVE2, d3dstrct_43a90135-93f4-4304-9967-b4d7b6616198.xml, display.d3dhal_dp2drawindexedprimitive2"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2DRAWINDEXEDPRIMITIVE2
 ---
 
-# _D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure
+# D3DHAL_DP2DRAWINDEXEDPRIMITIVE2 structure (d3dhal.h)
+
+
 
 
 ## -description

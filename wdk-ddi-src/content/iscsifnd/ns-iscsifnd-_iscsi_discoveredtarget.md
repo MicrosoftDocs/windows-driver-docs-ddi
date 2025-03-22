@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_DiscoveredTarget structure"]
 ms.keywords: "*PISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget, ISCSI_DiscoveredTarget structure [Storage Devices], PISCSI_DiscoveredTarget, PISCSI_DiscoveredTarget structure pointer [Storage Devices], _ISCSI_DiscoveredTarget, iscsifnd/ISCSI_DiscoveredTarget, iscsifnd/PISCSI_DiscoveredTarget, storage.iscsi_discoveredtarget, structs-iSCSI_d53d59a0-bd96-4eb8-b874-5846302ddda2.xml"
 req.header: iscsifnd.h
+req.construct-type: structure
 req.include-header: Iscsifnd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_DiscoveredTarget
 ---
 
-# _ISCSI_DiscoveredTarget structure
+# ISCSI_DiscoveredTarget structure (iscsifnd.h)
+
+
 
 
 ## -description

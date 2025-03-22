@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_CREATECONTEXT structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT, DXGKARG_CREATECONTEXT structure [Display Devices], DmStructs_f88f9027-046c-482e-93c6-882c325d1a09.xml, _DXGKARG_CREATECONTEXT, d3dkmddi/DXGKARG_CREATECONTEXT, display.dxgkarg_createcontext"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_CREATECONTEXT
 ---
 
-# _DXGKARG_CREATECONTEXT structure
+# DXGKARG_CREATECONTEXT structure (d3dkmddi.h)
+
+
 
 
 ## -description

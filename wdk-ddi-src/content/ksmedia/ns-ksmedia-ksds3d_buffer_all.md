@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSDS3D_BUFFER_ALL structure"]
 ms.keywords: "*PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL structure [Audio Devices], PKSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL structure pointer [Audio Devices], aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml, audio.ksds3d_buffer_all, ksmedia/KSDS3D_BUFFER_ALL, ksmedia/PKSDS3D_BUFFER_ALL"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDS3D_BUFFER_ALL
 ---
 
-# KSDS3D_BUFFER_ALL structure
+# KSDS3D_BUFFER_ALL structure (ksmedia.h)
+
+
 
 
 ## -description

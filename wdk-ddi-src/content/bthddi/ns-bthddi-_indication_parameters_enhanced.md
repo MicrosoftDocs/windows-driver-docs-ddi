@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["INDICATION_PARAMETERS_ENHANCED structure"]
 ms.keywords: "*PINDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED, INDICATION_PARAMETERS_ENHANCED structure [Bluetooth Devices], PINDICATION_PARAMETERS_ENHANCED, PINDICATION_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], _INDICATION_PARAMETERS_ENHANCED, bltooth.indication_parameters_enhanced, bthddi/INDICATION_PARAMETERS_ENHANCED, bthddi/PINDICATION_PARAMETERS_ENHANCED"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
@@ -46,7 +47,9 @@ api_name:
  - INDICATION_PARAMETERS_ENHANCED
 ---
 
-# _INDICATION_PARAMETERS_ENHANCED structure
+# INDICATION_PARAMETERS_ENHANCED structure (bthddi.h)
+
+
 
 
 ## -description

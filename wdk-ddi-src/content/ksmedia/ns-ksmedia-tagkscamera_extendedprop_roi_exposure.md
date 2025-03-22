@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE, stream.kscamera_extendedprop_roi_exposure, tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_ROI_EXPOSURE
 ---
 
-# tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure
+# tagKSCAMERA_EXTENDEDPROP_ROI_EXPOSURE structure (ksmedia.h)
+
+
 
 
 ## -description

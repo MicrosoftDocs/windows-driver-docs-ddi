@@ -7,6 +7,7 @@ ms.date: 03/18/2019
 keywords: ["STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR structure"]
 ms.keywords: STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, *PSTORAGE_HW_ENDURANCE_DATA_DESCRIPTOR, IOCTL_MINIPORT_ENDURANCE_INFO, IOCTL_SCSI_MINIPORT, STORAGE_HW_ENDURANCE_INFO, STORAGE_ENDURANCE_DATA_DESCRIPTOR
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR
 ---
 
-# STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR structure
+# STORAGE_HW_ENDURANCE_DATA_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

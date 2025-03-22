@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DRV_VERSION structure"]
 ms.keywords: "*PDRV_VERSION, DRV_VERSION, DRV_VERSION structure [Imaging Devices], PDRV_VERSION, PDRV_VERSION structure pointer [Imaging Devices], _DRV_VERSION, image.drv_version, stifnc_99059efa-8e64-49f6-bebe-560d33fca145.xml, usbscan/DRV_VERSION, usbscan/PDRV_VERSION"
 req.header: usbscan.h
+req.construct-type: structure
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DRV_VERSION
 ---
 
-# _DRV_VERSION structure
+# DRV_VERSION structure (usbscan.h)
+
+
 
 
 ## -description

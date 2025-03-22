@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HIDP_UNKNOWN_TOKEN structure"]
 ms.keywords: "*PHIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN, HIDP_UNKNOWN_TOKEN structure [Human Input Devices], PHIDP_UNKNOWN_TOKEN, PHIDP_UNKNOWN_TOKEN structure pointer [Human Input Devices], _HIDP_UNKNOWN_TOKEN, hid.hidp_unknown_token, hidpi/HIDP_UNKNOWN_TOKEN, hidpi/PHIDP_UNKNOWN_TOKEN, hidstrct_646ea225-5fff-4430-9112-06bb4cf8c988.xml"
 req.header: hidpi.h
+req.construct-type: structure
 req.include-header: Hidpi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HIDP_UNKNOWN_TOKEN
 ---
 
-# _HIDP_UNKNOWN_TOKEN structure
+# HIDP_UNKNOWN_TOKEN structure (hidpi.h)
+
+
 
 
 ## -description

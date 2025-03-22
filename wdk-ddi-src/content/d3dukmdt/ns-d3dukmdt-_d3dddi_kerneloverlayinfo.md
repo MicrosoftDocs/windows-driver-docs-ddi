@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_KERNELOVERLAYINFO structure"]
 ms.keywords: D3DDDI_KERNELOVERLAYINFO, D3DDDI_KERNELOVERLAYINFO structure [Display Devices], D3D_other_Structs_ee8ebc87-60be-4b70-8428-4db20bcbdaa0.xml, _D3DDDI_KERNELOVERLAYINFO, d3dukmdt/D3DDDI_KERNELOVERLAYINFO, display.d3dddi_kerneloverlayinfo
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_KERNELOVERLAYINFO
 ---
 
-# _D3DDDI_KERNELOVERLAYINFO structure
+# D3DDDI_KERNELOVERLAYINFO structure (d3dukmdt.h)
+
+
 
 
 ## -description

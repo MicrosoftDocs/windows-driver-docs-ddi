@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["PrintNamedProperty structure"]
 ms.keywords: PrintNamedProperty, PrintNamedProperty structure [Print Devices], print.printnamedproperty, winspool/PrintNamedProperty
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PrintNamedProperty
 ---
 
-# PrintNamedProperty structure
+# PrintNamedProperty structure (winspool.h)
+
+
 
 
 ## -description

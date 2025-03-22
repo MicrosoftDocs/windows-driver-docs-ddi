@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["PEP_UNMASKED_INTERRUPT_FLAGS structure"]
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_UNMASKED_INTERRUPT_FLAGS
 ---
 
-# _PEP_UNMASKED_INTERRUPT_FLAGS union (pep_x.h)
+# PEP_UNMASKED_INTERRUPT_FLAGS structure (pep_x.h)
+
+
 
 ## -description
 

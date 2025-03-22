@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_CLIENT_REGISTRATION_PACKET structure"]
 ms.keywords: "*PGPIO_CLIENT_REGISTRATION_PACKET, GPIO.gpio_client_registration_packet, GPIO_CLIENT_REGISTRATION_PACKET, GPIO_CLIENT_REGISTRATION_PACKET structure [Parallel Ports], PGPIO_CLIENT_REGISTRATION_PACKET, PGPIO_CLIENT_REGISTRATION_PACKET structure pointer [Parallel Ports], _GPIO_CLIENT_REGISTRATION_PACKET, gpioclx/GPIO_CLIENT_REGISTRATION_PACKET, gpioclx/PGPIO_CLIENT_REGISTRATION_PACKET"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_CLIENT_REGISTRATION_PACKET
 ---
 
-# _GPIO_CLIENT_REGISTRATION_PACKET structure
+# GPIO_CLIENT_REGISTRATION_PACKET structure (gpioclx.h)
+
+
 
 
 ## -description

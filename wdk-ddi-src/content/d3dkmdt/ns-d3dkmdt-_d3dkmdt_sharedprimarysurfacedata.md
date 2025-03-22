@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_SHAREDPRIMARYSURFACEDATA structure"]
 ms.keywords: D3DKMDT_SHAREDPRIMARYSURFACEDATA, D3DKMDT_SHAREDPRIMARYSURFACEDATA structure [Display Devices], DmStructs_5296d822-1a79-459e-809c-2d7381a964b8.xml, _D3DKMDT_SHAREDPRIMARYSURFACEDATA, d3dkmdt/D3DKMDT_SHAREDPRIMARYSURFACEDATA, display.d3dkmdt_sharedprimarysurfacedata
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_SHAREDPRIMARYSURFACEDATA
 ---
 
-# _D3DKMDT_SHAREDPRIMARYSURFACEDATA structure
+# D3DKMDT_SHAREDPRIMARYSURFACEDATA structure (d3dkmdt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/08/2019
 keywords: ["NDIS_WWAN_DEVICE_CAPS_EX structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX, NDIS_WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_CAPS_EX, PNDIS_WWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/NDIS_WWAN_DEVICE_CAPS_EX, ndiswwan/PNDIS_WWAN_DEVICE_CAPS_EX, netvista.ndis_wwan_device_caps_ex"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_DEVICE_CAPS_EX
 ---
 
-# _NDIS_WWAN_DEVICE_CAPS_EX structure
+# NDIS_WWAN_DEVICE_CAPS_EX structure (ndiswwan.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UART_HARDWARE_ACCESS structure"]
 ms.keywords: _UART_HARDWARE_ACCESS, UART_HARDWARE_ACCESS, *PUART_HARDWARE_ACCESS,
 req.header: uart.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - UART_HARDWARE_ACCESS
 ---
 
-# _UART_HARDWARE_ACCESS structure
+# UART_HARDWARE_ACCESS structure (uart.h)
+
+
 
 
 ## -description

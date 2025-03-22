@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_HUB_CAPABILITIES structure"]
 ms.keywords: "*PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES structure pointer [Buses], USB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES structure [Buses], _USB_HUB_CAPABILITIES, buses.usb_hub_capabilities, usbioctl/PUSB_HUB_CAPABILITIES, usbioctl/USB_HUB_CAPABILITIES, usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_HUB_CAPABILITIES
 ---
 
-# _USB_HUB_CAPABILITIES structure
+# USB_HUB_CAPABILITIES structure (usbioctl.h)
+
+
 
 
 ## -description

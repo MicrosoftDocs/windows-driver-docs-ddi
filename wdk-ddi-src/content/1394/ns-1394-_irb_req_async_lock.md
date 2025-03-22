@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ASYNC_LOCK structure"]
 ms.keywords: 1394/IRB_REQ_ASYNC_LOCK, IEEE.irb_req_async_lock, IRB_REQ_ASYNC_LOCK, IRB_REQ_ASYNC_LOCK structure [Buses], _IRB_REQ_ASYNC_LOCK
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ASYNC_LOCK
 ---
 
-# _IRB_REQ_ASYNC_LOCK structure
+# IRB_REQ_ASYNC_LOCK structure (1394.h)
+
+
 
 
 ## -description

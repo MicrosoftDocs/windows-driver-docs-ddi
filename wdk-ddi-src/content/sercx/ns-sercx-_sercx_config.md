@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX_CONFIG structure"]
 ms.keywords: "*PSERCX_CONFIG, 1/PSERCX_CONFIG, 1/SERCX_CONFIG, PSERCX_CONFIG, PSERCX_CONFIG structure pointer [Serial Ports], SERCX_CONFIG, SERCX_CONFIG structure [Serial Ports], _SERCX_CONFIG, serports.sercx_config"
 req.header: sercx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SERCX_CONFIG
 ---
 
-# _SERCX_CONFIG structure
+# SERCX_CONFIG structure (sercx.h)
+
+
 
 
 ## -description

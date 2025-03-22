@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["PAR_SET_INFORMATION structure"]
 ms.keywords: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], _PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, ntddpar/PAR_SET_INFORMATION, ntddpar/PPAR_SET_INFORMATION, parports.par_set_information"
 req.header: ntddpar.h
+req.construct-type: structure
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PAR_SET_INFORMATION
 ---
 
-# _PAR_SET_INFORMATION structure
+# PAR_SET_INFORMATION structure (ntddpar.h)
+
+
 
 
 ## -description

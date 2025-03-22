@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE structure"]
 ms.keywords: _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE, D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE
 ---
 
-# _D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE structure
+# D3DDDICB_SUBMITPRESENTBLTTOHWQUEUE structure (d3dumddi.h)
+
+
 
 
 ## -description

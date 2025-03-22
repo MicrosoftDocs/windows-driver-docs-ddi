@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BUS_INTERFACE_REFERENCE structure"]
 ms.keywords: "*PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], PBUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, ks/BUS_INTERFACE_REFERENCE, ks/PBUS_INTERFACE_REFERENCE, stream.bus_interface_reference"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BUS_INTERFACE_REFERENCE
 ---
 
-# BUS_INTERFACE_REFERENCE structure
+# BUS_INTERFACE_REFERENCE structure (ks.h)
+
+
 
 
 ## -description

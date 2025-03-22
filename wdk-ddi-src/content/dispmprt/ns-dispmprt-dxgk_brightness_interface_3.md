@@ -6,6 +6,7 @@ ms.date: 09/23/2022
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_3 structure"]
 ms.keywords: DXGK_BRIGHTNESS_INTERFACE_3, *PDXGK_BRIGHTNESS_INTERFACE_3, DXGK_BRIGHTNESS_INTERFACE_3,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,6 +33,8 @@ api_location:
 api_name:
  - DXGK_BRIGHTNESS_INTERFACE_3
 ---
+
+# DXGK_BRIGHTNESS_INTERFACE_3 structure (dispmprt.h)
 
 ## -description
 

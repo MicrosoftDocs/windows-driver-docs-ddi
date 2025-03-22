@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["_MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001 structure"]
 ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001, audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
 req.header: keyworddetectoroemadapter.h
+req.construct-type: structure
 req.include-header: Keyworddetectoroemadapter.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - SOUNDDETECTOR_PATTERNHEADER
 ---
 
-# __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001 structure (keyworddetectoroemadapter.h)
+# SOUNDDETECTOR_PATTERNHEADER structure (keyworddetectoroemadapter.h)
+
+
 
 
 ## -description

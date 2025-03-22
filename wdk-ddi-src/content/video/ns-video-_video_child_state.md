@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_CHILD_STATE structure"]
 ms.keywords: "*PVIDEO_CHILD_STATE, PVIDEO_CHILD_STATE, PVIDEO_CHILD_STATE structure pointer [Display Devices], VIDEO_CHILD_STATE, VIDEO_CHILD_STATE structure [Display Devices], Video_Structs_330b2d6d-13da-4949-9827-73e7829931b6.xml, _VIDEO_CHILD_STATE, display.video_child_state, video/PVIDEO_CHILD_STATE, video/VIDEO_CHILD_STATE"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_CHILD_STATE
 ---
 
-# _VIDEO_CHILD_STATE structure
+# VIDEO_CHILD_STATE structure (video.h)
+
+
 
 
 ## -description

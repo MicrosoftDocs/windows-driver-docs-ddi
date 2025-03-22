@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_QOS_PARAMETERS structure"]
 ms.keywords: NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters, ntddndis/NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_QOS_PARAMETERS
 ---
 
-# _NDIS_QOS_PARAMETERS structure
+# NDIS_QOS_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

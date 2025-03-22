@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_ISDBCAS_REQUESTHEADER structure"]
 ms.keywords: "*PBDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER, BDA_ISDBCAS_REQUESTHEADER structure [Streaming Media Devices], PBDA_ISDBCAS_REQUESTHEADER, PBDA_ISDBCAS_REQUESTHEADER structure pointer [Streaming Media Devices], _BDA_ISDBCAS_REQUESTHEADER, bdatypes/BDA_ISDBCAS_REQUESTHEADER, bdatypes/PBDA_ISDBCAS_REQUESTHEADER, stream.bda_isdbcas_requestheader"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_ISDBCAS_REQUESTHEADER
 ---
 
-# _BDA_ISDBCAS_REQUESTHEADER structure
+# BDA_ISDBCAS_REQUESTHEADER structure (bdatypes.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure"]
 ms.keywords: DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure [Display Devices], DmStructs_381ec3d0-fcf3-4153-8cc3-f2dda3f9684f.xml, _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, d3dkmdt/DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR, display.dxgkmdt_opm_hdcp_key_selection_vector
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR
 ---
 
-# _DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure
+# DXGKMDT_OPM_HDCP_KEY_SELECTION_VECTOR structure (d3dkmdt.h)
+
+
 
 
 ## -description

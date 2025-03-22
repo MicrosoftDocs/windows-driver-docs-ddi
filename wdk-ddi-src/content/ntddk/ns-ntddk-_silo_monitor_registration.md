@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SILO_MONITOR_REGISTRATION structure"]
 ms.keywords: "*PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION, PSILO_MONITOR_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], SILO_MONITOR_REGISTRATION, SILO_MONITOR_REGISTRATION structure [Kernel-Mode Driver Architecture], _SILO_MONITOR_REGISTRATION, kernel.silo_monitor_registration, ntddk/PSILO_MONITOR_REGISTRATION, ntddk/SILO_MONITOR_REGISTRATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -46,7 +47,9 @@ api_name:
  - SILO_MONITOR_REGISTRATION
 ---
 
-# _SILO_MONITOR_REGISTRATION structure
+# SILO_MONITOR_REGISTRATION structure (ntddk.h)
+
+
 
 
 ## -description

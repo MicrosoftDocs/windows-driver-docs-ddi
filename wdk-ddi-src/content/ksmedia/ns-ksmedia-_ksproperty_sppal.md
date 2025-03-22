@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_SPPAL structure"]
 ms.keywords: "*PKSPROPERTY_SPPAL, KSPROPERTY_SPPAL, KSPROPERTY_SPPAL structure [Streaming Media Devices], PKSPROPERTY_SPPAL, PKSPROPERTY_SPPAL structure pointer [Streaming Media Devices], _KSPROPERTY_SPPAL, dvdref_002f96c4-a499-4f93-8c3a-b083ed7a3339.xml, ksmedia/KSPROPERTY_SPPAL, ksmedia/PKSPROPERTY_SPPAL, stream.ksproperty_sppal"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSPROPERTY_SPPAL
 ---
 
-# _KSPROPERTY_SPPAL structure
+# KSPROPERTY_SPPAL structure (ksmedia.h)
+
+
 
 
 ## -description

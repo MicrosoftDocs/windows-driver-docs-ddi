@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ADDRESS0_OWNERSHIP_ACQUIRE structure"]
 ms.keywords: "*PADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE, ADDRESS0_OWNERSHIP_ACQUIRE structure [Buses], P_ADDRESS0_OWNERSHIP_ACQUIRE, P_ADDRESS0_OWNERSHIP_ACQUIRE structure pointer [Buses], _ADDRESS0_OWNERSHIP_ACQUIRE, buses._address0_ownership_acquire, ucxusbdevice/P_ADDRESS0_OWNERSHIP_ACQUIRE, ucxusbdevice/_ADDRESS0_OWNERSHIP_ACQUIRE"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ADDRESS0_OWNERSHIP_ACQUIRE
 ---
 
-# _ADDRESS0_OWNERSHIP_ACQUIRE structure
+# ADDRESS0_OWNERSHIP_ACQUIRE structure (ucxusbdevice.h)
+
+
 
 
 ## -description

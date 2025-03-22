@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTH_COMMAND_HEADER structure"]
 ms.keywords: "*PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER, BTH_COMMAND_HEADER structure [Bluetooth Devices], PBTH_COMMAND_HEADER, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], _BTH_COMMAND_HEADER, bltooth.bth_command_header, bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, bthioctl/BTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER"
 req.header: bthioctl.h
+req.construct-type: structure
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Available in Windows Vista, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - BTH_COMMAND_HEADER
 ---
 
-# _BTH_COMMAND_HEADER structure
+# BTH_COMMAND_HEADER structure (bthioctl.h)
+
+
 
 
 ## -description

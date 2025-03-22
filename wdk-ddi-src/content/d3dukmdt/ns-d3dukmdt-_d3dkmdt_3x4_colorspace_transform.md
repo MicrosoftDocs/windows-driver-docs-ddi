@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMDT_3X4_COLORSPACE_TRANSFORM structure"]
 ms.keywords: _D3DKMDT_3X4_COLORSPACE_TRANSFORM, D3DKMDT_3x4_COLORSPACE_TRANSFORM, *PD3DDDI_3x4_COLORSPACE_TRANSFORM,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMDT_3X4_COLORSPACE_TRANSFORM structure
+# D3DKMDT_3x4_COLORSPACE_TRANSFORM structure (d3dukmdt.h)
+
+
 
 
 ## -description

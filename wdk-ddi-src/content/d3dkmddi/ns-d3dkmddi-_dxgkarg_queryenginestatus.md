@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_QUERYENGINESTATUS structure"]
 ms.keywords: "*INOUT_PDXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS, DXGKARG_QUERYENGINESTATUS structure [Display Devices], _DXGKARG_QUERYENGINESTATUS, d3dkmddi/DXGKARG_QUERYENGINESTATUS, display.dxgkarg_queryenginestatus"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_QUERYENGINESTATUS
 ---
 
-# _DXGKARG_QUERYENGINESTATUS structure
+# DXGKARG_QUERYENGINESTATUS structure (d3dkmddi.h)
+
+
 
 
 ## -description

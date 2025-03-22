@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_DRM_DRMSTATUS structure"]
 ms.keywords: "*PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], PBDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], _BDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, bdatypes/PBDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_DRM_DRMSTATUS
 ---
 
-# _BDA_DRM_DRMSTATUS structure
+# BDA_DRM_DRMSTATUS structure (bdatypes.h)
+
+
 
 
 ## -description

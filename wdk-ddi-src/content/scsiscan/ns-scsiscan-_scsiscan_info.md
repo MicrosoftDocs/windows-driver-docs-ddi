@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SCSISCAN_INFO structure"]
 ms.keywords: "*PSCSISCAN_INFO, PSCSISCAN_INFO, PSCSISCAN_INFO structure pointer [Imaging Devices], SCSISCAN_INFO, SCSISCAN_INFO structure [Imaging Devices], _SCSISCAN_INFO, image.scsiscan_info, scsiscan/PSCSISCAN_INFO, scsiscan/SCSISCAN_INFO, stifnc_157af712-4f72-49f3-9da6-b8f750826d3e.xml"
 req.header: scsiscan.h
+req.construct-type: structure
 req.include-header: Scsiscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSISCAN_INFO
 ---
 
-# _SCSISCAN_INFO structure
+# SCSISCAN_INFO structure (scsiscan.h)
+
+
 
 
 ## -description

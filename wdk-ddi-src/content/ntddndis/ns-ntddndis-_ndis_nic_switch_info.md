@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_NIC_SWITCH_INFO structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO, NDIS_NIC_SWITCH_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_INFO, PNDIS_NIC_SWITCH_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_INFO, netvista.ndis_nic_switch_info, ntddndis/NDIS_NIC_SWITCH_INFO, ntddndis/PNDIS_NIC_SWITCH_INFO"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_NIC_SWITCH_INFO
 ---
 
-# _NDIS_NIC_SWITCH_INFO structure
+# NDIS_NIC_SWITCH_INFO structure (ntddndis.h)
+
+
 
 
 ## -description

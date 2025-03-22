@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PORT_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_CHARACTERISTICS, ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, netvista.ndis_port_characteristics, ntddndis/NDIS_PORT_CHARACTERISTICS, ntddndis/PNDIS_PORT_CHARACTERISTICS"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PORT_CHARACTERISTICS
 ---
 
-# _NDIS_PORT_CHARACTERISTICS structure
+# NDIS_PORT_CHARACTERISTICS structure (ntddndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["PIPE_TERMINATION structure"]
 ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination
 req.header: ksproxy.h
+req.construct-type: structure
 req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PIPE_TERMINATION
 ---
 
-# _PIPE_TERMINATION structure
+# PIPE_TERMINATION structure (ksproxy.h)
+
+
 
 
 ## -description

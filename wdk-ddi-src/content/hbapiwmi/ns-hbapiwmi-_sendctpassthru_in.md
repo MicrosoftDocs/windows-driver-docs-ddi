@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SendCTPassThru_IN structure"]
 ms.keywords: "*PSendCTPassThru_IN, PSendCTPassThru_IN, PSendCTPassThru_IN structure pointer [Storage Devices], SendCTPassThru_IN, SendCTPassThru_IN structure [Storage Devices], _SendCTPassThru_IN, hbapiwmi/PSendCTPassThru_IN, hbapiwmi/SendCTPassThru_IN, storage.sendctpassthru_in, structs-Fibre_f95be355-7a10-483c-83cb-058812977a91.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SendCTPassThru_IN
 ---
 
-# _SendCTPassThru_IN structure
+# SendCTPassThru_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

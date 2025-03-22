@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_VirtualFibrePortAttributes structure"]
 ms.keywords: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes structure [Storage Devices], PMSFC_VirtualFibrePortAttributes, PMSFC_VirtualFibrePortAttributes structure pointer [Storage Devices], _MSFC_VirtualFibrePortAttributes, npivwmi/MSFC_VirtualFibrePortAttributes, npivwmi/PMSFC_VirtualFibrePortAttributes, storage.msfc_virtualfibreportattributes"
 req.header: npivwmi.h
+req.construct-type: structure
 req.include-header: Npivwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_VirtualFibrePortAttributes
 ---
 
-# _MSFC_VirtualFibrePortAttributes structure
+# MSFC_VirtualFibrePortAttributes structure (npivwmi.h)
+
+
 
 
 ## -description

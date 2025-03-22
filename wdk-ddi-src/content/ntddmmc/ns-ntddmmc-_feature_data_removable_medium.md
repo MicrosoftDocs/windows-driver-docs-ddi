@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["FEATURE_DATA_REMOVABLE_MEDIUM structure"]
 ms.keywords: "*PFEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM, FEATURE_DATA_REMOVABLE_MEDIUM structure [Storage Devices], PFEATURE_DATA_REMOVABLE_MEDIUM, PFEATURE_DATA_REMOVABLE_MEDIUM structure pointer [Storage Devices], _FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/FEATURE_DATA_REMOVABLE_MEDIUM, ntddmmc/PFEATURE_DATA_REMOVABLE_MEDIUM, storage.feature_data_removable_medium, structs-CD-ROM_f9ce701e-11b7-478e-969e-c2744477d348.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_REMOVABLE_MEDIUM
 ---
 
-# FEATURE_DATA_REMOVABLE_MEDIUM structure
+# FEATURE_DATA_REMOVABLE_MEDIUM structure (ntddmmc.h)
+
+
 
 ## -description
 

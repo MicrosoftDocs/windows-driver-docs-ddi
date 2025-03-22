@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetLoadBalancePolicy_IN structure"]
 ms.keywords: "*PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN, PSetLoadBalancePolicy_IN structure pointer [Storage Devices], SetLoadBalancePolicy_IN, SetLoadBalancePolicy_IN structure [Storage Devices], _SetLoadBalancePolicy_IN, iscsimgt/PSetLoadBalancePolicy_IN, iscsimgt/SetLoadBalancePolicy_IN, storage.setloadbalancepolicy_in, structs-iSCSI_d4d805d0-4c3c-4f5e-90ee-9c6bf881dfcf.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetLoadBalancePolicy_IN
 ---
 
-# _SetLoadBalancePolicy_IN structure
+# SetLoadBalancePolicy_IN structure (iscsimgt.h)
+
+
 
 
 ## -description

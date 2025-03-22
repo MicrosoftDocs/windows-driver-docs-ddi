@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["KERNEL_SOFT_RESTART_NOTIFICATION structure"]
 ms.keywords: KERNEL_SOFT_RESTART_NOTIFICATION, KERNEL_SOFT_RESTART_NOTIFICATION, *PKERNEL_SOFT_RESTART_NOTIFICATION,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - KERNEL_SOFT_RESTART_NOTIFICATION
 ---
 
-# KERNEL_SOFT_RESTART_NOTIFICATION structure
+# KERNEL_SOFT_RESTART_NOTIFICATION structure (wdm.h)
+
+
 
 
 ## -description

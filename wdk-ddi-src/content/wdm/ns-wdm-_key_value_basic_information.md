@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KEY_VALUE_BASIC_INFORMATION structure"]
 ms.keywords: "*PKEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION, KEY_VALUE_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_VALUE_BASIC_INFORMATION, PKEY_VALUE_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_VALUE_BASIC_INFORMATION, kernel.key_value_basic_information, kstruct_c_ba44285c-18a4-4a35-a31b-c2a6573d7023.xml, wdm/KEY_VALUE_BASIC_INFORMATION, wdm/PKEY_VALUE_BASIC_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KEY_VALUE_BASIC_INFORMATION
 ---
 
-# _KEY_VALUE_BASIC_INFORMATION structure
+# KEY_VALUE_BASIC_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

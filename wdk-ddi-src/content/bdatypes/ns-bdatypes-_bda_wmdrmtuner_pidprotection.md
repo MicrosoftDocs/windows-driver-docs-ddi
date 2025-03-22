@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_WMDRMTUNER_PIDPROTECTION structure"]
 ms.keywords: "*PBDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION, BDA_WMDRMTUNER_PIDPROTECTION structure [Streaming Media Devices], PBDA_WMDRMTUNER_PIDPROTECTION, PBDA_WMDRMTUNER_PIDPROTECTION structure pointer [Streaming Media Devices], _BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/BDA_WMDRMTUNER_PIDPROTECTION, bdatypes/PBDA_WMDRMTUNER_PIDPROTECTION, stream.bda_wmdrmtuner_pidprotection"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_WMDRMTUNER_PIDPROTECTION
 ---
 
-# _BDA_WMDRMTUNER_PIDPROTECTION structure
+# BDA_WMDRMTUNER_PIDPROTECTION structure (bdatypes.h)
+
+
 
 
 ## -description

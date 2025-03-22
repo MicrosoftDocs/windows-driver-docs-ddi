@@ -8,6 +8,7 @@ ms.date: 11/24/2020
 keywords: ["NETWORK_OPEN_ECP_CONTEXT structure"]
 ms.keywords: "*PNETWORK_OPEN_ECP_CONTEXT, ECP_Structures_9cdb7dab-17df-47f3-b994-fca989b3442e.xml, NETWORK_OPEN_ECP_CONTEXT, NETWORK_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNETWORK_OPEN_ECP_CONTEXT, PNETWORK_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], _NETWORK_OPEN_ECP_CONTEXT, ifsk.network_open_ecp_context, ntifs/NETWORK_OPEN_ECP_CONTEXT, ntifs/PNETWORK_OPEN_ECP_CONTEXT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - NETWORK_OPEN_ECP_CONTEXT
 ---
 
-# NETWORK_OPEN_ECP_CONTEXT structure
+# NETWORK_OPEN_ECP_CONTEXT structure (ntifs.h)
+
+
 
 
 ## -description

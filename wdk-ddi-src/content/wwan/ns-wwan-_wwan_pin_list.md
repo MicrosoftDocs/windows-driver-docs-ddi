@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PIN_LIST structure"]
 ms.keywords: "*PWWAN_PIN_LIST, PWWAN_PIN_LIST, PWWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_LIST, WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_b23c520d-20ea-4597-8dd2-2a1f9cd68938.xml, _WWAN_PIN_LIST, netvista.wwan_pin_list, wwan/PWWAN_PIN_LIST, wwan/WWAN_PIN_LIST"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PIN_LIST
 ---
 
-# _WWAN_PIN_LIST structure
+# WWAN_PIN_LIST structure (wwan.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_PLATFORM_CAPABILITY structure"]
 ms.keywords: "*PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], PGNSS_PLATFORM_CAPABILITY, PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], gnss.gnss_platform_capability, gnssdriver/GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_PLATFORM_CAPABILITY
  - GNSS_PLATFORM_CAPABILITY
 ---
+
+# GNSS_PLATFORM_CAPABILITY structure (gnssdriver.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DIAGNOSTIC_MP_REQUEST structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST, PSTORAGE_DIAGNOSTIC_MP_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/PSTORAGE_DIAGNOSTIC_MP_REQUEST, ntddscsi/STORAGE_DIAGNOSTIC_MP_REQUEST, storage.storage_diagnostic_mp_request"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10, version 1709.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DIAGNOSTIC_MP_REQUEST
 ---
 
-# _STORAGE_DIAGNOSTIC_MP_REQUEST structure
+# STORAGE_DIAGNOSTIC_MP_REQUEST structure (ntddscsi.h)
+
+
 
 
 ## -description

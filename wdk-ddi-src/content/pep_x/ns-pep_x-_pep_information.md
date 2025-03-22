@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_INFORMATION structure"]
 ms.keywords: "*PPEP_INFORMATION, PEP_INFORMATION, PEP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_INFORMATION, PPEP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_INFORMATION, kernel.pep_information, pepfx/PEP_INFORMATION, pepfx/PPEP_INFORMATION"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_INFORMATION
 ---
 
-# _PEP_INFORMATION structure (pep_x.h)
+# PEP_INFORMATION structure (pep_x.h)
+
+
 
 
 ## -description

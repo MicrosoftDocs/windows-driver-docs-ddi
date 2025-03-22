@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetPersistentBinding2_OUT structure"]
 ms.keywords: "*PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], PGetPersistentBinding2_OUT, PGetPersistentBinding2_OUT structure pointer [Storage Devices], _GetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT, hbapiwmi/PGetPersistentBinding2_OUT, storage.getpersistentbinding2_out, structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetPersistentBinding2_OUT
 ---
 
-# _GetPersistentBinding2_OUT structure
+# GetPersistentBinding2_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

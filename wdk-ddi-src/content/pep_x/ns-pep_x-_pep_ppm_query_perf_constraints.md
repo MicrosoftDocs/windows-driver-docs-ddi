@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_QUERY_PERF_CONSTRAINTS structure"]
 ms.keywords: "*PPEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS, PEP_PPM_PERF_CONSTRAINTS structure [Kernel-Mode Driver Architecture], PERFORMANCE_LIMIT_DOMAIN_DEPENDENCY, PERFORMANCE_LIMIT_POWER, PERFORMANCE_LIMIT_THERMAL, PPEP_PPM_PERF_CONSTRAINTS, PPEP_PPM_PERF_CONSTRAINTS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_PERF_CONSTRAINTS, kernel.pep_ppm_perf_constraints, pepfx/PEP_PPM_PERF_CONSTRAINTS, pepfx/PPEP_PPM_PERF_CONSTRAINTS"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_PERF_CONSTRAINTS
 ---
 
-# _PEP_PPM_QUERY_PERF_CONSTRAINTS structure (pep_x.h)
+# PEP_PPM_PERF_CONSTRAINTS structure (pep_x.h)
+
+
 
 
 ## -description

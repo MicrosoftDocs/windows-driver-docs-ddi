@@ -8,6 +8,7 @@ ms.date: 03/11/2022
 keywords: ["WWAN_AUTH_AKAP_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE, PWWAN_AUTH_AKAP_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKAP_CHALLENGE, WWAN_AUTH_AKAP_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKAP_CHALLENGE, netvista.wwan_auth_akap_challenge, wwan/PWWAN_AUTH_AKAP_CHALLENGE, wwan/WWAN_AUTH_AKAP_CHALLENGE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_AUTH_AKAP_CHALLENGE
 ---
 
-# _WWAN_AUTH_AKAP_CHALLENGE structure
+# WWAN_AUTH_AKAP_CHALLENGE structure (wwan.h)
+
+
 
 
 ## -description

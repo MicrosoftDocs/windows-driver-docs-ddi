@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_TIME_INTERVAL structure"]
 ms.keywords: "*PKSEVENT_TIME_INTERVAL, KSEVENT_TIME_INTERVAL, KSEVENT_TIME_INTERVAL structure [Streaming Media Devices], PKSEVENT_TIME_INTERVAL, PKSEVENT_TIME_INTERVAL structure pointer [Streaming Media Devices], ks-struct_690ec7fd-ea7c-4a47-8351-779aa2cf8e2c.xml, ks/KSEVENT_TIME_INTERVAL, ks/PKSEVENT_TIME_INTERVAL, stream.ksevent_time_interval"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSEVENT_TIME_INTERVAL
 ---
 
-# KSEVENT_TIME_INTERVAL structure
+# KSEVENT_TIME_INTERVAL structure (ks.h)
+
+
 
 
 ## -description

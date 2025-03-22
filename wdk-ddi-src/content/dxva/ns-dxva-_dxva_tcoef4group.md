@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_TCoef4Group structure"]
 ms.keywords: "*LPDXVA_TCoef4Group, DXVA_TCoef4Group, DXVA_TCoef4Group structure [Display Devices], LPDXVA_TCoef4Group, LPDXVA_TCoef4Group structure pointer [Display Devices], _DXVA_TCoef4Group, display.dxva_tcoef4group, dxva/DXVA_TCoef4Group, dxva/LPDXVA_TCoef4Group, dxvaref_40a4dc23-1488-41ad-ba76-296384236d78.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_TCoef4Group
 ---
 
-# _DXVA_TCoef4Group structure
+# DXVA_TCoef4Group structure (dxva.h)
+
+
 
 
 ## -description

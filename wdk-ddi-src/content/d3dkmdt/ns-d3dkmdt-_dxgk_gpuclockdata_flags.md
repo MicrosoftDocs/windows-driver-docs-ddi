@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_GPUCLOCKDATA_FLAGS structure"]
 ms.keywords: _DXGK_GPUCLOCKDATA_FLAGS, DXGK_GPUCLOCKDATA_FLAGS,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_GPUCLOCKDATA_FLAGS structure
+# DXGK_GPUCLOCKDATA_FLAGS structure (d3dkmdt.h)
+
+
 
 
 ## -description

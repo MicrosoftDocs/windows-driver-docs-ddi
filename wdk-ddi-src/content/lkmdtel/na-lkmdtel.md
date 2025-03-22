@@ -51,6 +51,8 @@ helpviewer_keywords:
  - minidumps
 ---
 
+# lkmdtel apiset (lkmdtel.h)
+
 ## -description
 
 na-lkmdtel.md 

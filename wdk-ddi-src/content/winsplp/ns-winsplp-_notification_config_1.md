@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["NOTIFICATION_CONFIG_1 structure"]
 ms.keywords: "*PNOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1, NOTIFICATION_CONFIG_1 structure [Print Devices], PNOTIFICATION_CONFIG_1, PNOTIFICATION_CONFIG_1 structure pointer [Print Devices], _NOTIFICATION_CONFIG_1, print.notification_config_1, winsplp/NOTIFICATION_CONFIG_1, winsplp/PNOTIFICATION_CONFIG_1"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NOTIFICATION_CONFIG_1
 ---
 
-# _NOTIFICATION_CONFIG_1 structure
+# NOTIFICATION_CONFIG_1 structure (winsplp.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["HW_STREAM_DESCRIPTOR structure"]
 ms.keywords: "*PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR structure [Streaming Media Devices], PHW_STREAM_DESCRIPTOR, PHW_STREAM_DESCRIPTOR structure pointer [Streaming Media Devices], _HW_STREAM_DESCRIPTOR, strclass-struct_57b4a9ea-44c1-4584-94f4-060a3fa58bf1.xml, stream.hw_stream_descriptor, strmini/HW_STREAM_DESCRIPTOR, strmini/PHW_STREAM_DESCRIPTOR"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HW_STREAM_DESCRIPTOR
 ---
 
-# _HW_STREAM_DESCRIPTOR structure
+# HW_STREAM_DESCRIPTOR structure (strmini.h)
+
+
 
 
 ## -description

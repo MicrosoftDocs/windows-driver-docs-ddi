@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure"]
 ms.keywords: D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure [Display Devices], OpenGL_Structs_1766625b-9d47-4e86-9f24-08706541c167.xml, _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, d3dkmthk/D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION, display.d3dkmt_sharedprimaryunlocknotification
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION
 ---
 
-# _D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure
+# D3DKMT_SHAREDPRIMARYUNLOCKNOTIFICATION structure (d3dkmthk.h)
+
+
 
 
 ## -description

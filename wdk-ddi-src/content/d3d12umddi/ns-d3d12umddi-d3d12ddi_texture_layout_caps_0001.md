@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure"]
 ms.keywords: D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure [Display Devices], d3d12umddi/D3D12DDI_TEXTURE_LAYOUT_CAPS_0001, display.d3d12ddi_texture_layout_caps_0001
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_TEXTURE_LAYOUT_CAPS_0001
 ---
 
-# D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure
+# D3D12DDI_TEXTURE_LAYOUT_CAPS_0001 structure (d3d12umddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/12/2023
 keywords: ["D3DDDI_DEVICECALLBACKS structure"]
 ms.keywords: D3DDDI_DEVICECALLBACKS, D3DDDI_DEVICECALLBACKS structure [Display Devices], D3D_other_Structs_a835da78-4f70-4fc5-9f0f-43cef61bd304.xml, _D3DDDI_DEVICECALLBACKS, d3dumddi/D3DDDI_DEVICECALLBACKS, display.d3dddi_devicecallbacks
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - D3DDDI_DEVICECALLBACKS
 ---
 
-# D3DDDI_DEVICECALLBACKS structure
+# D3DDDI_DEVICECALLBACKS structure (d3dumddi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 07/22/2022
 keywords: ["NOTIFICATION_INFO_W2K structure"]
 ms.keywords: "*PNOTIFICATION_INFO, *PNOTIFICATION_INFO_W2K, 1394/NOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, IEEE.notification_info, NOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO_W2K, NOTIFICATION_INFO_WXP, PNOTIFICATION_INFO, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_W2K"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NOTIFICATION_INFO_W2K
 ---
 
-# _NOTIFICATION_INFO_W2K structure
+# NOTIFICATION_INFO_W2K structure (1394.h)
+
+
 
 ## -description
 

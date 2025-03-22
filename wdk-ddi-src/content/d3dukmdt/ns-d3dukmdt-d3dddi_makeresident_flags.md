@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MAKERESIDENT_FLAGS structure"]
 ms.keywords: D3DDDI_MAKERESIDENT_FLAGS, D3DDDI_MAKERESIDENT_FLAGS structure [Display Devices], d3dukmdt/D3DDDI_MAKERESIDENT_FLAGS, display.d3dddi_makeresident_flags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_MAKERESIDENT_FLAGS
 ---
 
-# D3DDDI_MAKERESIDENT_FLAGS structure
+# D3DDDI_MAKERESIDENT_FLAGS structure (d3dukmdt.h)
+
+
 
 
 ## -description

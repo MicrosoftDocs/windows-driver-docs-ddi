@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_group_caps, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
 ---
 
-# DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure
+# DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure (dxgiddi.h)
+
+
 
 
 ## -description

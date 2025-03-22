@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["STREAM_METHOD_DESCRIPTOR structure"]
 ms.keywords: "*PSTREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR, PSTREAM_METHOD_DESCRIPTOR structure pointer [Streaming Media Devices], STREAM_METHOD_DESCRIPTOR, STREAM_METHOD_DESCRIPTOR structure [Streaming Media Devices], _STREAM_METHOD_DESCRIPTOR, stream.stream_method_descriptor, strmini/PSTREAM_METHOD_DESCRIPTOR, strmini/STREAM_METHOD_DESCRIPTOR"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STREAM_METHOD_DESCRIPTOR
 ---
 
-# _STREAM_METHOD_DESCRIPTOR structure
+# STREAM_METHOD_DESCRIPTOR structure (strmini.h)
+
+
 
 
 ## -description

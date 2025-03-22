@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["WWAN_NETWORK_BLACKLIST_PROVIDER structure"]
 ms.keywords: _WWAN_NETWORK_BLACKLIST_PROVIDER, WWAN_NETWORK_BLACKLIST_PROVIDER, *PWWAN_NETWORK_BLACKLIST_PROVIDER,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - WWAN_NETWORK_BLACKLIST_PROVIDER
 ---
 
-# _WWAN_NETWORK_BLACKLIST_PROVIDER structure
+# WWAN_NETWORK_BLACKLIST_PROVIDER structure (wwan.h)
+
+
 
 
 ## -description

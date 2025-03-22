@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_BASE_STATIONS_INFO_REQ structure"]
 ms.keywords: "*PWWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ, PWWAN_BASE_STATIONS_INFO_REQ structure pointer [Network Drivers Starting with Windows Vista], WWAN_BASE_STATIONS_INFO_REQ, WWAN_BASE_STATIONS_INFO_REQ structure [Network Drivers Starting with Windows Vista], _WWAN_BASE_STATIONS_INFO_REQ, netvista.wwan_base_stations_info_req, wwan/PWWAN_BASE_STATIONS_INFO_REQ, wwan/WWAN_BASE_STATIONS_INFO_REQ"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_BASE_STATIONS_INFO_REQ
 ---
 
-# _WWAN_BASE_STATIONS_INFO_REQ structure
+# WWAN_BASE_STATIONS_INFO_REQ structure (wwan.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 10/29/2024
 keywords: ["RX_CONTEXT structure"]
 req.header: rxcontx.h
+req.construct-type: structure
 req.include-header: Rx.h, Rxcontx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - RX_CONTEXT
 ---
 
-# RX_CONTEXT structure
+# RX_CONTEXT structure (rxcontx.h)
+
+
 
 ## -description
 

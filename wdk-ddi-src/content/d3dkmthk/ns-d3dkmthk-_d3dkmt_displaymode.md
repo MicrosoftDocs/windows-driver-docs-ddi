@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DISPLAYMODE structure"]
 ms.keywords: D3DKMT_DISPLAYMODE, D3DKMT_DISPLAYMODE structure [Display Devices], OpenGL_Structs_057de1d2-b55b-4ee8-ad2d-28eb01b3168c.xml, _D3DKMT_DISPLAYMODE, d3dkmthk/D3DKMT_DISPLAYMODE, display.d3dkmt_displaymode
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DISPLAYMODE
 ---
 
-# _D3DKMT_DISPLAYMODE structure
+# D3DKMT_DISPLAYMODE structure (d3dkmthk.h)
+
+
 
 
 ## -description

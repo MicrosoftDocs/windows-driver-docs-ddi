@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemoveRADIUSServer_OUT structure"]
 ms.keywords: "*PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT, PRemoveRADIUSServer_OUT structure pointer [Storage Devices], RemoveRADIUSServer_OUT, RemoveRADIUSServer_OUT structure [Storage Devices], _RemoveRADIUSServer_OUT, iscsiop/PRemoveRADIUSServer_OUT, iscsiop/RemoveRADIUSServer_OUT, storage.removeradiusserver_out, structs-iSCSI_dea5813a-b7e8-4702-af57-f7a40360efb9.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemoveRADIUSServer_OUT
 ---
 
-# _RemoveRADIUSServer_OUT structure
+# RemoveRADIUSServer_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

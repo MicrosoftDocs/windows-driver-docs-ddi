@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TRACK_INFORMATION2 structure"]
 ms.keywords: "*PTRACK_INFORMATION2, PTRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], _TRACK_INFORMATION2, scsi/PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, storage.track_information2, structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TRACK_INFORMATION2
 ---
 
-# _TRACK_INFORMATION2 structure (storport.h)
+# TRACK_INFORMATION2 structure (storport.h)
+
+
 
 
 ## -description

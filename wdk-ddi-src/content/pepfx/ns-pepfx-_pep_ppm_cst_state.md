@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_CST_STATE structure"]
 ms.keywords: "*PPEP_PPM_CST_STATE, PEP_PPM_CST_STATE, PEP_PPM_CST_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_CST_STATE, PPEP_PPM_CST_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_CST_STATE, kernel.pep_ppm_cst_state, pepfx/PEP_PPM_CST_STATE, pepfx/PPEP_PPM_CST_STATE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_CST_STATE
 ---
 
-# _PEP_PPM_CST_STATE structure (pepfx.h)
+# PEP_PPM_CST_STATE structure (pepfx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["RTL_SEGMENT_HEAP_MEMORY_SOURCE structure"]
 ms.keywords: _RTL_SEGMENT_HEAP_MEMORY_SOURCE, RTL_SEGMENT_HEAP_MEMORY_SOURCE, *PRTL_SEGMENT_HEAP_MEMORY_SOURCE,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - RTL_SEGMENT_HEAP_MEMORY_SOURCE
 ---
 
-# RTL_SEGMENT_HEAP_MEMORY_SOURCE structure
+# RTL_SEGMENT_HEAP_MEMORY_SOURCE structure (ntifs.h)
+
+
 
 The **RTL_SEGMENT_HEAP_MEMORY_SOURCE** structure specifies the segment heap memory source.
 

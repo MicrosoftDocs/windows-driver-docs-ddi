@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dkmthk/D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dkmt_submitsignalsyncobjectstohwqueue
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ---
 
-# _D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure
+# D3DKMT_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 06/27/2024
 keywords: ["D3D12DDI_SHADERCACHE_HASH structure"]
 ms.keywords: D3D12DDI_SHADERCACHE_HASH, D3D12DDI_SHADERCACHE_HASH structure [Display Devices], d3d12umddi/D3D12DDI_SHADERCACHE_HASH, display.d3d12ddi_shadercache_hash
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - D3D12DDI_SHADERCACHE_HASH
 ---
 
-# D3D12DDI_SHADERCACHE_HASH structure
+# D3D12DDI_SHADERCACHE_HASH structure (d3d12umddi.h)
+
+
 
 ## -description
 

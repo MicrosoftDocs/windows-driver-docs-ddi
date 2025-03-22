@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UFX_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES, PUFX_DEVICE_CAPABILITIES structure pointer [Buses], UFX_DEVICE_CAPABILITIES, UFX_DEVICE_CAPABILITIES structure [Buses], _UFX_DEVICE_CAPABILITIES, buses.ufx_device_capabilities, ufxbase/PUFX_DEVICE_CAPABILITIES, ufxbase/UFX_DEVICE_CAPABILITIES"
 req.header: ufxbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UFX_DEVICE_CAPABILITIES
 ---
 
-# _UFX_DEVICE_CAPABILITIES structure
+# UFX_DEVICE_CAPABILITIES structure (ufxbase.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_VWIFI_COMBINATION_V2 structure"]
 ms.keywords: "*PDOT11_VWIFI_COMBINATION_V2, DOT11_VWIFI_COMBINATION_V2, DOT11_VWIFI_COMBINATION_V2 structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_1210442c-19be-406c-bec5-12ad170fc90b.xml, PDOT11_VWIFI_COMBINATION_V2, PDOT11_VWIFI_COMBINATION_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_VWIFI_COMBINATION_V2, netvista.dot11_vwifi_combination_v2, windot11/DOT11_VWIFI_COMBINATION_V2, windot11/PDOT11_VWIFI_COMBINATION_V2"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_VWIFI_COMBINATION_V2
 ---
 
-# _DOT11_VWIFI_COMBINATION_V2 structure
+# DOT11_VWIFI_COMBINATION_V2 structure (windot11.h)
+
+
 
 
 ## -description

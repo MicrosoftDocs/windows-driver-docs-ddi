@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_OBJECT_CONTEXT_TYPE_INFO structure"]
 ms.keywords: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, DFGenObjectRef_8c3ba75b-eb62-455f-a905-61b715478b5b.xml, PWDF_OBJECT_CONTEXT_TYPE_INFO, PWDF_OBJECT_CONTEXT_TYPE_INFO structure pointer, WDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO structure, _WDF_OBJECT_CONTEXT_TYPE_INFO, kmdf.wdf_object_context_type_info, wdf.wdf_object_context_type_info, wdfobject/PWDF_OBJECT_CONTEXT_TYPE_INFO, wdfobject/WDF_OBJECT_CONTEXT_TYPE_INFO"
 req.header: wdfobject.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_OBJECT_CONTEXT_TYPE_INFO
 ---
 
-# _WDF_OBJECT_CONTEXT_TYPE_INFO structure
+# WDF_OBJECT_CONTEXT_TYPE_INFO structure (wdfobject.h)
+
+
 
 
 ## -description

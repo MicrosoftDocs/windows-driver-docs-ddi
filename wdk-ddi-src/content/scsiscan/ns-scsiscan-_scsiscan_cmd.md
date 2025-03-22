@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SCSISCAN_CMD structure"]
 ms.keywords: "*PSCSISCAN_CMD, PSCSISCAN_CMD, PSCSISCAN_CMD structure pointer [Imaging Devices], SCSISCAN_CMD, SCSISCAN_CMD structure [Imaging Devices], _SCSISCAN_CMD, image.scsiscan_cmd, scsiscan/PSCSISCAN_CMD, scsiscan/SCSISCAN_CMD, stifnc_2a67c5d9-7866-4dc5-8ce4-6bc832cbf7de.xml"
 req.header: scsiscan.h
+req.construct-type: structure
 req.include-header: Scsiscan.h, Srb.h, Scsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSISCAN_CMD
 ---
 
-# _SCSISCAN_CMD structure
+# SCSISCAN_CMD structure (scsiscan.h)
+
+
 
 
 ## -description

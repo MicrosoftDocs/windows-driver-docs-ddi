@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure"]
 ms.keywords: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, display.dxgkcb_notify_mpo_vsync_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607 (WDDM 2.1)
@@ -43,7 +44,9 @@ api_name:
  - DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
 ---
 
-# DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure
+# DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

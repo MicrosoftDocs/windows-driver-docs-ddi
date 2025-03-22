@@ -5,6 +5,7 @@ description: Learn more about the DXGK_SEGMENTDESCRIPTOR4 structure.
 ms.date: 02/07/2024
 keywords: ["DXGK_SEGMENTDESCRIPTOR4 structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 (WDDM 2.0)
@@ -41,7 +42,9 @@ api_name:
  - DXGK_SEGMENTDESCRIPTOR4
 ---
 
-# DXGK_SEGMENTDESCRIPTOR4 structure
+# DXGK_SEGMENTDESCRIPTOR4 structure (d3dkmddi.h)
+
+
 
 ## -description
 

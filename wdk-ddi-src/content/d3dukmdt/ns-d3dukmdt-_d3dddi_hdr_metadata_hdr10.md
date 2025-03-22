@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["D3DDDI_HDR_METADATA_HDR10 structure"]
 ms.keywords: D3DDDI_HDR_METADATA_HDR10, D3DDDI_HDR_METADATA_HDR10 structure [Display Devices], _D3DDDI_HDR_METADATA_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_HDR10, display.d3dddi_hdr_metadata_hdr10
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_HDR_METADATA_HDR10
 ---
 
-# _D3DDDI_HDR_METADATA_HDR10 structure
+# D3DDDI_HDR_METADATA_HDR10 structure (d3dukmdt.h)
+
+
 
 
 ## -description

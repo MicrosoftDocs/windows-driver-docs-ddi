@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_MITIGATEDRANGEINFO structure"]
 ms.keywords: _DXGK_MITIGATEDRANGEINFO, DXGK_MITIGATEDRANGEINFO, *PDXGK_MITIGATEDRANGEINFO,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_MITIGATEDRANGEINFO structure
+# DXGK_MITIGATEDRANGEINFO structure (dispmprt.h)
+
+
 
 
 ## -description

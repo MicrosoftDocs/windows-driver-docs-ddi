@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS structure"]
 ms.keywords: "*PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS union [WHEA Drivers and Applications], _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, ntddk/PWHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, ntddk/WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS, whea.whea_xpf_processor_error_section_validbits, whearef_cd965099-c110-4ff6-993e-c4ccab88cd80.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -47,7 +48,9 @@ api_name:
  - WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 ---
 
-# _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS structure
+# WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS structure (ntddk.h)
+
+
 
 
 ## -description

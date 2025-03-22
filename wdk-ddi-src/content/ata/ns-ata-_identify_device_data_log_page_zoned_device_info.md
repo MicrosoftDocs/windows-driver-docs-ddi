@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure"]
 ms.keywords: "*PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure [Storage Devices], PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure pointer [Storage Devices], _IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, ata/IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, ata/PIDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO, storage.identify_device_data_log_page_zoned_device_info"
 req.header: ata.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO
 ---
 
-# IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure
+# IDENTIFY_DEVICE_DATA_LOG_PAGE_ZONED_DEVICE_INFO structure (ata.h)
+
+
 
 ## -description
 

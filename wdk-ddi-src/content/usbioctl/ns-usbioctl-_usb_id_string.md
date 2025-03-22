@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_ID_STRING structure"]
 ms.keywords: "*PUSB_ID_STRING, PUSB_ID_STRING, PUSB_ID_STRING structure pointer [Buses], USB_ID_STRING, USB_ID_STRING structure [Buses], _USB_ID_STRING, buses.usb_id_string, usbioctl/PUSB_ID_STRING, usbioctl/USB_ID_STRING"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - USB_ID_STRING
 ---
 
-# _USB_ID_STRING structure
+# USB_ID_STRING structure (usbioctl.h)
+
+
 
 
 ## -description

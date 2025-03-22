@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_PIN_PAIRING structure"]
 ms.keywords: "*PBDA_PIN_PAIRING, BDA_PIN_PAIRING, BDA_PIN_PAIRING structure [Streaming Media Devices], PBDA_PIN_PAIRING, PBDA_PIN_PAIRING structure pointer [Streaming Media Devices], _BDA_PIN_PAIRING, bdaref_b007d58d-86c0-4653-867a-78ef5be2f260.xml, bdasup/BDA_PIN_PAIRING, bdasup/PBDA_PIN_PAIRING, stream.bda_pin_pairing"
 req.header: bdasup.h
+req.construct-type: structure
 req.include-header: Bdasup.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_PIN_PAIRING
 ---
 
-# _BDA_PIN_PAIRING structure
+# BDA_PIN_PAIRING structure (bdasup.h)
+
+
 
 
 ## -description

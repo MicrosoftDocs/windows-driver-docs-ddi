@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PAGE_TABLE_LEVEL_DESC structure"]
 ms.keywords: DXGK_PAGE_TABLE_LEVEL_DESC, DXGK_PAGE_TABLE_LEVEL_DESC structure [Display Devices], _DXGK_PAGE_TABLE_LEVEL_DESC, d3dkmddi/DXGK_PAGE_TABLE_LEVEL_DESC, display.dxgk_page_table_level_desc
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PAGE_TABLE_LEVEL_DESC
 ---
 
-# _DXGK_PAGE_TABLE_LEVEL_DESC structure
+# DXGK_PAGE_TABLE_LEVEL_DESC structure (d3dkmddi.h)
+
+
 
 
 ## -description

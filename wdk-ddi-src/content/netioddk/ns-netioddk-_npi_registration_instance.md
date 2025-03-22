@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NPI_REGISTRATION_INSTANCE structure"]
 ms.keywords: NPI_REGISTRATION_INSTANCE, NPI_REGISTRATION_INSTANCE structure [Network Drivers Starting with Windows Vista], PNPI_REGISTRATION_INSTANCE, PNPI_REGISTRATION_INSTANCE structure pointer [Network Drivers Starting with Windows Vista], _NPI_REGISTRATION_INSTANCE, netioddk/NPI_REGISTRATION_INSTANCE, netioddk/PNPI_REGISTRATION_INSTANCE, netvista.npi_registration_instance, nmrref_a31a8531-bab8-47d5-b79e-a239dcde475f.xml
 req.header: netioddk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - NPI_REGISTRATION_INSTANCE
 ---
 
-# _NPI_REGISTRATION_INSTANCE structure
+# NPI_REGISTRATION_INSTANCE structure (netioddk.h)
+
+
 
 
 ## -description

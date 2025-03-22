@@ -6,6 +6,7 @@ ms.date: 01/22/2024
 keywords: ["D3DDDI_SEGMENTPREFERENCE structure"]
 ms.keywords: _D3DDDI_SEGMENTPREFERENCE, D3DDDI_SEGMENTPREFERENCE,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_SEGMENTPREFERENCE structure
+# D3DDDI_SEGMENTPREFERENCE structure (d3dukmdt.h)
+
+
 
 ## -description
 

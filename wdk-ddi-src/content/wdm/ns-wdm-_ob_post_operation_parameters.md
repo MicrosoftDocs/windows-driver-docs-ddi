@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OB_POST_OPERATION_PARAMETERS structure"]
 ms.keywords: "*POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, wdm/OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2008 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - OB_POST_OPERATION_PARAMETERS
 ---
 
-# _OB_POST_OPERATION_PARAMETERS structure
+# OB_POST_OPERATION_PARAMETERS structure (wdm.h)
+
+
 
 
 ## -description

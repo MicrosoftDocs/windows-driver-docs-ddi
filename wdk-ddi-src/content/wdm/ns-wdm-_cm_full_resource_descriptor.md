@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CM_FULL_RESOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PCM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR, CM_FULL_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PCM_FULL_RESOURCE_DESCRIPTOR, PCM_FULL_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], _CM_FULL_RESOURCE_DESCRIPTOR, kernel.cm_full_resource_descriptor, kstruct_a_eb7de4ac-cd02-44cc-9e26-a9c2a99eb8e6.xml, wdm/CM_FULL_RESOURCE_DESCRIPTOR, wdm/PCM_FULL_RESOURCE_DESCRIPTOR"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CM_FULL_RESOURCE_DESCRIPTOR
 ---
 
-# _CM_FULL_RESOURCE_DESCRIPTOR structure
+# CM_FULL_RESOURCE_DESCRIPTOR structure (wdm.h)
+
+
 
 
 ## -description

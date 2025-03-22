@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PO_SPR_ACTIVE_SESSION_DATA structure"]
 ms.keywords: _PO_SPR_ACTIVE_SESSION_DATA, *PPO_SPR_ACTIVE_SESSION_DATA, PO_SPR_ACTIVE_SESSION_DATA,
 req.header: ntpoapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PO_SPR_ACTIVE_SESSION_DATA
 ---
 
-# _PO_SPR_ACTIVE_SESSION_DATA structure
+# PO_SPR_ACTIVE_SESSION_DATA structure (ntpoapi.h)
+
+
 
 
 ## -description

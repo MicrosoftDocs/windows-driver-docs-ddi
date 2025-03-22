@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_CALLOUT2_ structure"]
 ms.keywords: FWPS_CALLOUT2, FWPS_CALLOUT2 structure [Network Drivers Starting with Windows Vista], FWPS_CALLOUT2_, FWP_CALLOUT_FLAG_ALLOW_L2_BATCH_CLASSIFY, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWP_CALLOUT_FLAG_ALLOW_RSC, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_RESERVED1, fwpsk/FWPS_CALLOUT2, netvista.fwps_callout2, FWP_CALLOUT_FLAG_ALLOW_USO, FWP_CALLOUT_FLAG_ALLOW_URO
 req.header: fwpsk.h
+req.construct-type: structure
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_CALLOUT2
 ---
 
-# FWPS_CALLOUT2_ structure
+# FWPS_CALLOUT2_ structure (fwpsk.h)
+
+
 
 
 ## -description

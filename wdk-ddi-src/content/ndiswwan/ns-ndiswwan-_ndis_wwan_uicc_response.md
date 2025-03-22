@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_UICC_RESPONSE structure"]
 ms.keywords: _NDIS_WWAN_UICC_RESPONSE, NDIS_WWAN_UICC_RESPONSE, *PNDIS_WWAN_UICC_RESPONSE,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_UICC_RESPONSE
 ---
 
-# _NDIS_WWAN_UICC_RESPONSE structure
+# NDIS_WWAN_UICC_RESPONSE structure (ndiswwan.h)
+
+
 
 
 ## -description

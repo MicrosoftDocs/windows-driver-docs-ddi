@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2UPDATEPALETTE structure"]
 ms.keywords: "*LPD3DHAL_DP2UPDATEPALETTE, D3DHAL_DP2UPDATEPALETTE, D3DHAL_DP2UPDATEPALETTE structure [Display Devices], LPD3DHAL_DP2UPDATEPALETTE, LPD3DHAL_DP2UPDATEPALETTE structure pointer [Display Devices], _D3DHAL_DP2UPDATEPALETTE, d3dhal/D3DHAL_DP2UPDATEPALETTE, d3dhal/LPD3DHAL_DP2UPDATEPALETTE, d3dstrct_93a9e991-e818-4dd0-a101-779baa0a873d.xml, display.d3dhal_dp2updatepalette"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2UPDATEPALETTE
 ---
 
-# _D3DHAL_DP2UPDATEPALETTE structure
+# D3DHAL_DP2UPDATEPALETTE structure (d3dhal.h)
+
+
 
 
 ## -description

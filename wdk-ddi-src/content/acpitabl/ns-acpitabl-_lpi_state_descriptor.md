@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["LPI_STATE_DESCRIPTOR structure"]
 ms.keywords: "*PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR structure [ACPI Devices], PLPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices], _LPI_STATE_DESCRIPTOR, acpi.lpi_state_descriptor, acpitabl/LPI_STATE_DESCRIPTOR, acpitabl/PLPI_STATE_DESCRIPTOR"
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: Acpitabl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - LPI_STATE_DESCRIPTOR
 ---
 
-# _LPI_STATE_DESCRIPTOR structure
+# LPI_STATE_DESCRIPTOR structure (acpitabl.h)
+
+
 
 
 ## -description

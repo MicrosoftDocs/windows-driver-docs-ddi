@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SRBEX_DATA_POWER structure"]
 ms.keywords: "*PSRBEX_DATA_POWER, PSRBEX_DATA_POWER, PSRBEX_DATA_POWER structure pointer [Storage Devices], SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], _SRBEX_DATA_POWER, storage.srbex_data_power, storport/PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER"
 req.header: srb.h
+req.construct-type: structure
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SRBEX_DATA_POWER
 ---
 
-# _SRBEX_DATA_POWER structure (srb.h)
+# SRBEX_DATA_POWER structure (srb.h)
+
+
 
 
 ## -description

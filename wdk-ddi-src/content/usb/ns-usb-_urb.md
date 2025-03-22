@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB structure"]
 ms.keywords: PURB, PURB structure pointer [Buses], URB, URB structure [Buses], _URB, buses.urb, usb/PURB, usb/URB, usbstrct_20441a98-258d-44d2-b414-67b336a44fac.xml
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - URB
 ---
 
-# _URB structure
+# URB structure (usb.h)
+
+
 
 
 ## -description

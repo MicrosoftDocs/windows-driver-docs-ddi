@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure"]
 ms.keywords: DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure [Display Devices], _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKARG_POSTMULTIPLANEOVERLAYPRESENT, display.dxgkarg_postmultiplaneoverlaypresent
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_POSTMULTIPLANEOVERLAYPRESENT
 ---
 
-# _DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure
+# DXGKARG_POSTMULTIPLANEOVERLAYPRESENT structure (d3dkmddi.h)
+
+
 
 
 ## -description

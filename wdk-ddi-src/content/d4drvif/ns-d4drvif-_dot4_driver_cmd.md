@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DOT4_DRIVER_CMD structure"]
 ms.keywords: "*PDOT4_DRIVER_CMD, DOT4_DRIVER_CMD, DOT4_DRIVER_CMD structure [Print Devices], PDOT4_DRIVER_CMD, PDOT4_DRIVER_CMD structure pointer [Print Devices], _DOT4_DRIVER_CMD, d4drvif/DOT4_DRIVER_CMD, d4drvif/PDOT4_DRIVER_CMD, print.dot4_driver_cmd"
 req.header: d4drvif.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DOT4_DRIVER_CMD
 ---
 
-# _DOT4_DRIVER_CMD structure
+# DOT4_DRIVER_CMD structure (d4drvif.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_DELETE_PLUG structure"]
 ms.keywords: "*PCMP_DELETE_PLUG, 61883/CMP_DELETE_PLUG, 61883/PCMP_DELETE_PLUG, CMP_DELETE_PLUG, CMP_DELETE_PLUG structure [Buses], IEEE.cmp_delete_plug, PCMP_DELETE_PLUG, PCMP_DELETE_PLUG structure pointer [Buses], _CMP_DELETE_PLUG"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_DELETE_PLUG
 ---
 
-# _CMP_DELETE_PLUG structure
+# CMP_DELETE_PLUG structure (61883.h)
+
+
 
 
 ## -description

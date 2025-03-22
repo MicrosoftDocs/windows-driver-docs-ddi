@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["XVARIABLE_NAME structure"]
 ms.keywords: "*PSYSENV_VARIABLE_NAME, *PXVARIABLE_NAME, PXVARIABLE_NAME, PXVARIABLE_NAME structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_NAME, XVARIABLE_NAME, XVARIABLE_NAME structure [Kernel-Mode Driver Architecture], _XVARIABLE_NAME, kernel.xvariable_name, ntddsysenv/PXVARIABLE_NAME, ntddsysenv/XVARIABLE_NAME"
 req.header: ntddsysenv.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - XVARIABLE_NAME
 ---
 
-# _XVARIABLE_NAME structure
+# XVARIABLE_NAME structure (ntddsysenv.h)
+
+
 
 
 ## -description

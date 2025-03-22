@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_QUERY_COMPONENT_PERF_STATES structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES, PEP_QUERY_COMPONENT_PERF_STATES structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_STATES, PPEP_QUERY_COMPONENT_PERF_STATES structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_STATES, kernel.pep_query_component_perf_states, pepfx/PEP_QUERY_COMPONENT_PERF_STATES, pepfx/PPEP_QUERY_COMPONENT_PERF_STATES"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_QUERY_COMPONENT_PERF_STATES
 ---
 
-# _PEP_QUERY_COMPONENT_PERF_STATES structure (pep_x.h)
+# PEP_QUERY_COMPONENT_PERF_STATES structure (pep_x.h)
+
+
 
 
 ## -description

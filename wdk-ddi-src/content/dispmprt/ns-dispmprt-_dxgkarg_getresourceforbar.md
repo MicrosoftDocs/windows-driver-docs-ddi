@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_GETRESOURCEFORBAR structure"]
 ms.keywords: _DXGKARG_GETRESOURCEFORBAR, DXGKARG_GETRESOURCEFORBAR, *PDXGKARG_GETRESOURCEFORBAR,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETRESOURCEFORBAR structure
+# DXGKARG_GETRESOURCEFORBAR structure (dispmprt.h)
+
+
 
 
 ## -description

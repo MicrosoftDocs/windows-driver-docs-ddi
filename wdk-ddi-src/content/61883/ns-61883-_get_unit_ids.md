@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GET_UNIT_IDS structure"]
 ms.keywords: "*PGET_UNIT_IDS, 61883/GET_UNIT_IDS, 61883/PGET_UNIT_IDS, 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, GET_UNIT_IDS, GET_UNIT_IDS structure [Buses], IEEE.get_unit_ids, PGET_UNIT_IDS, PGET_UNIT_IDS structure pointer [Buses], _GET_UNIT_IDS"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GET_UNIT_IDS
 ---
 
-# _GET_UNIT_IDS structure
+# GET_UNIT_IDS structure (61883.h)
+
+
 
 
 ## -description

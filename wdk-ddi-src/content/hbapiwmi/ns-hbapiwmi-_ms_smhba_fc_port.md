@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MS_SMHBA_FC_Port structure"]
 ms.keywords: "*PMS_SMHBA_FC_Port, MS_SMHBA_FC_Port, MS_SMHBA_FC_Port structure [Storage Devices], PMS_SMHBA_FC_Port, PMS_SMHBA_FC_Port structure pointer [Storage Devices], _MS_SMHBA_FC_Port, hbapiwmi/MS_SMHBA_FC_Port, hbapiwmi/PMS_SMHBA_FC_Port, storage.ms_smhba_fc_port, structs-Fibre_74bec0b8-c7eb-4866-8fef-ab9a7c3d5950.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MS_SMHBA_FC_Port
 ---
 
-# _MS_SMHBA_FC_Port structure
+# MS_SMHBA_FC_Port structure (hbapiwmi.h)
+
+
 
 
 ## -description

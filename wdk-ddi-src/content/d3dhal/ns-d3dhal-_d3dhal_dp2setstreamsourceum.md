@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2SETSTREAMSOURCEUM structure"]
 ms.keywords: "*LPD3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], LPD3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices], _D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, display.d3dhal_dp2setstreamsourceum"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2SETSTREAMSOURCEUM
 ---
 
-# _D3DHAL_DP2SETSTREAMSOURCEUM structure
+# D3DHAL_DP2SETSTREAMSOURCEUM structure (d3dhal.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSMULTIPLE_ITEM structure"]
 ms.keywords: "*PKSMULTIPLE_ITEM, KSMULTIPLE_ITEM, KSMULTIPLE_ITEM structure [Streaming Media Devices], PKSMULTIPLE_ITEM, PKSMULTIPLE_ITEM structure pointer [Streaming Media Devices], ks-struct_65ad7181-a002-4f51-8215-c82e7a1ee07c.xml, ks/KSMULTIPLE_ITEM, ks/PKSMULTIPLE_ITEM, stream.ksmultiple_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSMULTIPLE_ITEM
 ---
 
-# KSMULTIPLE_ITEM structure
+# KSMULTIPLE_ITEM structure (ks.h)
+
+
 
 
 ## -description

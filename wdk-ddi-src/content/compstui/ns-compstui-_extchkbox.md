@@ -7,6 +7,7 @@ ms.date: 11/15/2022
 keywords: ["EXTCHKBOX structure"]
 ms.keywords: "*PEXTCHKBOX, EXTCHKBOX, EXTCHKBOX structure [Print Devices], PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], _EXTCHKBOX, compstui/EXTCHKBOX, compstui/PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml, print.extchkbox"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PEXTCHKBOX
  - EXTCHKBOX
 ---
+
+# EXTCHKBOX structure (compstui.h)
 
 ## -description
 

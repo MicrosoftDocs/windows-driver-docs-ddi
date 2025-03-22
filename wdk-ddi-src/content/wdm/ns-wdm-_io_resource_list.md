@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_RESOURCE_LIST structure"]
 ms.keywords: "*PIO_RESOURCE_LIST, IO_RESOURCE_LIST, IO_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_LIST, PIO_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _IO_RESOURCE_LIST, kernel.io_resource_list, kstruct_b_2e2d049f-a7c9-4051-8fa7-639bf03b5aae.xml, wdm/IO_RESOURCE_LIST, wdm/PIO_RESOURCE_LIST"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IO_RESOURCE_LIST
 ---
 
-# _IO_RESOURCE_LIST structure (wdm.h)
+# IO_RESOURCE_LIST structure (wdm.h)
+
+
 
 
 ## -description

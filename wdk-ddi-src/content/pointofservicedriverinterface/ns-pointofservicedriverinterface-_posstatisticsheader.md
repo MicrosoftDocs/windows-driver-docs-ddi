@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosStatisticsHeader structure"]
 ms.keywords: PosStatisticsHeader, PosStatisticsHeader structure, _PosStatisticsHeader, pointofservicedriverinterface/PosStatisticsHeader, pos.posstatisticsheader
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosStatisticsHeader
 ---
 
-# _PosStatisticsHeader structure
+# PosStatisticsHeader structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

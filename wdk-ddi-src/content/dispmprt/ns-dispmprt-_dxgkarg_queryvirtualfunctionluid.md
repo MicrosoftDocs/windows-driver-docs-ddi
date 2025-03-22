@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYVIRTUALFUNCTIONLUID structure"]
 ms.keywords: _DXGKARG_QUERYVIRTUALFUNCTIONLUID, DXGKARG_QUERYVIRTUALFUNCTIONLUID, *PDXGKARG_QUERYVIRTUALFUNCTIONLUID,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_QUERYVIRTUALFUNCTIONLUID structure
+# DXGKARG_QUERYVIRTUALFUNCTIONLUID structure (dispmprt.h)
+
+
 
 
 ## -description

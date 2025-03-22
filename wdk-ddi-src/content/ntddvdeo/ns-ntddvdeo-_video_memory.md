@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_MEMORY structure"]
 ms.keywords: "*PVIDEO_MEMORY, PVIDEO_MEMORY, PVIDEO_MEMORY structure pointer [Display Devices], VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, _VIDEO_MEMORY, display.video_memory, ntddvdeo/PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_MEMORY
 ---
 
-# _VIDEO_MEMORY structure
+# VIDEO_MEMORY structure (ntddvdeo.h)
+
+
 
 
 ## -description

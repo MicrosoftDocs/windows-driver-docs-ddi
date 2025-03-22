@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTISAMPLINGMETHOD structure"]
 ms.keywords: D3DDDI_MULTISAMPLINGMETHOD, D3DDDI_MULTISAMPLINGMETHOD structure [Display Devices], D3D_other_Structs_752f8e91-d298-437a-80c4-005e21ec0ddd.xml, _D3DDDI_MULTISAMPLINGMETHOD, d3dukmdt/D3DDDI_MULTISAMPLINGMETHOD, display.d3dddi_multisamplingmethod
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_MULTISAMPLINGMETHOD
 ---
 
-# _D3DDDI_MULTISAMPLINGMETHOD structure
+# D3DDDI_MULTISAMPLINGMETHOD structure (d3dukmdt.h)
+
+
 
 
 ## -description

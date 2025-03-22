@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIOMODULE_NOTIFICATION structure"]
 ms.keywords: "*PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], _KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification, ksmedia/KSAUDIOMODULE_NOTIFICATION, ksmedia/PKSAUDIOMODULE_NOTIFICATION"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - KSAUDIOMODULE_NOTIFICATION
 ---
 
-# _KSAUDIOMODULE_NOTIFICATION structure
+# KSAUDIOMODULE_NOTIFICATION structure (ksmedia.h)
+
+
 
 
 ## -description

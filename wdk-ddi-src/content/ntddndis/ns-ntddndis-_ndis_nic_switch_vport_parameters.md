@@ -8,6 +8,7 @@ ms.date: 10/30/2020
 keywords: ["NDIS_NIC_SWITCH_VPORT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS, NDIS_NIC_SWITCH_VPORT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_NIC_SWITCH_VPORT_PARAMETERS, PNDIS_NIC_SWITCH_VPORT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NIC_SWITCH_VPORT_PARAMETERS, netvista.ndis_nic_switch_vport_parameters, ntddndis/NDIS_NIC_SWITCH_VPORT_PARAMETERS, ntddndis/PNDIS_NIC_SWITCH_VPORT_PARAMETERS"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_NIC_SWITCH_VPORT_PARAMETERS
 ---
 
-# _NDIS_NIC_SWITCH_VPORT_PARAMETERS structure
+# NDIS_NIC_SWITCH_VPORT_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

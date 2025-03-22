@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_MORPHING structure"]
 ms.keywords: "*PFEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING, FEATURE_DATA_MORPHING structure [Storage Devices], PFEATURE_DATA_MORPHING, PFEATURE_DATA_MORPHING structure pointer [Storage Devices], _FEATURE_DATA_MORPHING, ntddmmc/FEATURE_DATA_MORPHING, ntddmmc/PFEATURE_DATA_MORPHING, storage.feature_data_morphing, structs-CD-ROM_f159fbd8-73db-440b-a4f3-2429181c6836.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_MORPHING
 ---
 
-# _FEATURE_DATA_MORPHING structure
+# FEATURE_DATA_MORPHING structure (ntddmmc.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure"]
 ms.keywords: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE, DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_16bbb236-75b5-4d2c-a6ca-b61010d5e08d.xml, display.dxgi_ddi_arg_resolvesharedresource, dxgiddi/DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXGI_DDI_ARG_RESOLVESHAREDRESOURCE is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_ARG_RESOLVESHAREDRESOURCE
 ---
 
-# DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure
+# DXGI_DDI_ARG_RESOLVESHAREDRESOURCE structure (dxgiddi.h)
+
+
 
 
 ## -description

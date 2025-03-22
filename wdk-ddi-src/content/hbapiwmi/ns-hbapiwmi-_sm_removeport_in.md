@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_RemovePort_IN structure"]
 ms.keywords: "*PSM_RemovePort_IN, PSM_RemovePort_IN, PSM_RemovePort_IN structure pointer [Storage Devices], SM_RemovePort_IN, SM_RemovePort_IN structure [Storage Devices], _SM_RemovePort_IN, hbapiwmi/PSM_RemovePort_IN, hbapiwmi/SM_RemovePort_IN, storage.sm_removeport_in, structs-Fibre_0290cc86-0661-47ae-89db-3a3756c5d681.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_RemovePort_IN
 ---
 
-# _SM_RemovePort_IN structure
+# SM_RemovePort_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

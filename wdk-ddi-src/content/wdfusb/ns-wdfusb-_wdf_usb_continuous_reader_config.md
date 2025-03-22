@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_CONTINUOUS_READER_CONFIG structure"]
 ms.keywords: "*PWDF_USB_CONTINUOUS_READER_CONFIG, DFUsbRef_f74973fe-cb6c-470f-acd8-805ff2ea3c19.xml, PWDF_USB_CONTINUOUS_READER_CONFIG, PWDF_USB_CONTINUOUS_READER_CONFIG structure pointer, WDF_USB_CONTINUOUS_READER_CONFIG, WDF_USB_CONTINUOUS_READER_CONFIG structure, _WDF_USB_CONTINUOUS_READER_CONFIG, kmdf.wdf_usb_continuous_reader_config, wdf.wdf_usb_continuous_reader_config, wdfusb/PWDF_USB_CONTINUOUS_READER_CONFIG, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG"
 req.header: wdfusb.h
+req.construct-type: structure
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_USB_CONTINUOUS_READER_CONFIG
 ---
 
-# _WDF_USB_CONTINUOUS_READER_CONFIG structure
+# WDF_USB_CONTINUOUS_READER_CONFIG structure (wdfusb.h)
+
+
 
 
 ## -description

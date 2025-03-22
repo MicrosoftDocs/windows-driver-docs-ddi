@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PORT_AUTHENTICATION_PARAMETERS structure"]
 ms.keywords: "*PNDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS, NDIS_PORT_AUTHENTICATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PORT_AUTHENTICATION_PARAMETERS, PNDIS_PORT_AUTHENTICATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_AUTHENTICATION_PARAMETERS, ndis_ports_ref_f78165f6-8166-4889-98e8-6c9f99fe0a0e.xml, netvista.ndis_port_authentication_parameters, ntddndis/NDIS_PORT_AUTHENTICATION_PARAMETERS, ntddndis/PNDIS_PORT_AUTHENTICATION_PARAMETERS"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PORT_AUTHENTICATION_PARAMETERS
 ---
 
-# _NDIS_PORT_AUTHENTICATION_PARAMETERS structure
+# NDIS_PORT_AUTHENTICATION_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

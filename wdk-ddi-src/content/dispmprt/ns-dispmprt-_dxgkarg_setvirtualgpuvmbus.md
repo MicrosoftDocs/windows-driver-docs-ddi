@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPUVMBUS structure"]
 ms.keywords: _DXGKARG_SETVIRTUALGPUVMBUS, DXGKARG_SETVIRTUALGPUVMBUS, *PDXGKARG_SETVIRTUALGPUVMBUS,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETVIRTUALGPUVMBUS structure
+# DXGKARG_SETVIRTUALGPUVMBUS structure (dispmprt.h)
+
+
 
 
 ## -description

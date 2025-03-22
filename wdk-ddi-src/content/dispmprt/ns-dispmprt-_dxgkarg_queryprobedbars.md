@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYPROBEDBARS structure"]
 ms.keywords: _DXGKARG_QUERYPROBEDBARS, DXGKARG_QUERYPROBEDBARS, *PDXGKARG_QUERYPROBEDBARS,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_QUERYPROBEDBARS structure
+# DXGKARG_QUERYPROBEDBARS structure (dispmprt.h)
+
+
 
 
 ## -description

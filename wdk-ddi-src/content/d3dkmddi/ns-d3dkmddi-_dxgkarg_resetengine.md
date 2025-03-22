@@ -6,6 +6,7 @@ ms.date: 03/14/2024
 keywords: ["DXGKARG_RESETENGINE structure"]
 ms.keywords: "*INOUT_PDXGKARG_RESETENGINE, DXGKARG_RESETENGINE, DXGKARG_RESETENGINE structure [Display Devices], _DXGKARG_RESETENGINE, d3dkmddi/DXGKARG_RESETENGINE, display.dxgkarg_resetengine"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -42,7 +43,9 @@ api_name:
  - DXGKARG_RESETENGINE
 ---
 
-# DXGKARG_RESETENGINE structure
+# DXGKARG_RESETENGINE structure (d3dkmddi.h)
+
+
 
 ## -description
 

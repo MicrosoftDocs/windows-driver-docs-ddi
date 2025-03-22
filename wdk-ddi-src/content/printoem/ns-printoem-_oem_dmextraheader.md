@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["OEM_DMEXTRAHEADER structure"]
 ms.keywords: "*POEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER, OEM_DMEXTRAHEADER structure [Print Devices], POEM_DMEXTRAHEADER, POEM_DMEXTRAHEADER structure pointer [Print Devices], _OEM_DMEXTRAHEADER, print.oem_dmextraheader, print_unidrv-pscript_ui_f356f9c1-f867-4c53-8b12-be48da73de4f.xml, printoem/OEM_DMEXTRAHEADER, printoem/POEM_DMEXTRAHEADER"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - POEM_DMEXTRAHEADER
  - OEM_DMEXTRAHEADER
 ---
+
+# OEM_DMEXTRAHEADER structure (printoem.h)
 
 ## -description
 

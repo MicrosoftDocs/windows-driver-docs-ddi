@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HARDWARE_COUNTER structure"]
 ms.keywords: "*PHARDWARE_COUNTER, HARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER, kernel.hardware_counter, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, ntddk/HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - HARDWARE_COUNTER
 ---
 
-# _HARDWARE_COUNTER structure
+# HARDWARE_COUNTER structure (ntddk.h)
+
+
 
 
 ## -description

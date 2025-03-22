@@ -8,6 +8,7 @@ ms.date: 08/10/2022
 keywords: ["PEP_PPM_PERF_SET_STATE structure"]
 ms.keywords: "*PPEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE, PEP_PPM_PERF_SET_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET_STATE, PPEP_PPM_PERF_SET_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET_STATE, kernel.pep_ppm_perf_set_state, pepfx/PEP_PPM_PERF_SET_STATE, pepfx/PPEP_PPM_PERF_SET_STATE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_PERF_SET_STATE
 ---
 
-# _PEP_PPM_PERF_SET_STATE structure (pepfx.h)
+# PEP_PPM_PERF_SET_STATE structure (pepfx.h)
+
+
 
 ## -description
 

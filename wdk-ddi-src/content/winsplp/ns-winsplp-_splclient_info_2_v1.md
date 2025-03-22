@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["SPLCLIENT_INFO_2_V1 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_W2K, SPLCLIENT_INFO_2_W2K structure [Print Devices], _SPLCLIENT_INFO_2_V1, print.splclient_info_2_w2k, winsplp/SPLCLIENT_INFO_2_W2K"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - SPLCLIENT_INFO_2_W2K
 ---
 
-# _SPLCLIENT_INFO_2_V1 structure
+# SPLCLIENT_INFO_2_W2K structure (winsplp.h)
+
+
 
 
 ## -description

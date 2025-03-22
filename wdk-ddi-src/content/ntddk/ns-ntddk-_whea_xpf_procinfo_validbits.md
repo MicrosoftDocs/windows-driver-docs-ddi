@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_XPF_PROCINFO_VALIDBITS structure"]
 ms.keywords: "*PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS, PWHEA_XPF_PROCINFO_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_XPF_PROCINFO_VALIDBITS, WHEA_XPF_PROCINFO_VALIDBITS union [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO_VALIDBITS, ntddk/PWHEA_XPF_PROCINFO_VALIDBITS, ntddk/WHEA_XPF_PROCINFO_VALIDBITS, whea.whea_xpf_procinfo_validbits, whearef_6ebbdab8-0590-4479-a8ab-ea9bacf69399.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_XPF_PROCINFO_VALIDBITS
 ---
 
-# _WHEA_XPF_PROCINFO_VALIDBITS structure
+# WHEA_XPF_PROCINFO_VALIDBITS structure (ntddk.h)
+
+
 
 
 ## -description

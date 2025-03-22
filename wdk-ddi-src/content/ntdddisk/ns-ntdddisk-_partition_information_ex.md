@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["PARTITION_INFORMATION_EX structure"]
 ms.keywords: "*PPARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX, PARTITION_INFORMATION_EX structure [Storage Devices], PPARTITION_INFORMATION_EX, PPARTITION_INFORMATION_EX structure pointer [Storage Devices], _PARTITION_INFORMATION_EX, ntdddisk/PARTITION_INFORMATION_EX, ntdddisk/PPARTITION_INFORMATION_EX, storage.partition_information_ex, structs-disk_459428ff-6869-41c6-b72f-94721018f66e.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARTITION_INFORMATION_EX
 ---
 
-# PARTITION_INFORMATION_EX structure
+# PARTITION_INFORMATION_EX structure (ntdddisk.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_SET_BACKLIGHT_OPTIMIZATION structure"]
 ms.keywords: _PANEL_SET_BACKLIGHT_OPTIMIZATION, *PPANEL_SET_BACKLIGHT_OPTIMIZATION, PANEL_SET_BACKLIGHT_OPTIMIZATION,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PANEL_SET_BACKLIGHT_OPTIMIZATION
 ---
 
-# _PANEL_SET_BACKLIGHT_OPTIMIZATION structure
+# PANEL_SET_BACKLIGHT_OPTIMIZATION structure (ntddvdeo.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDICERTIFICATEINFO structure"]
 ms.keywords: D3D_other_Structs_99ca6ef3-fba8-4f57-b0bf-16be3c4f8a77.xml, DDICERTIFICATEINFO, DDICERTIFICATEINFO structure [Display Devices], _DDICERTIFICATEINFO, d3dumddi/DDICERTIFICATEINFO, display.ddicertificateinfo
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DDICERTIFICATEINFO is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DDICERTIFICATEINFO
 ---
 
-# _DDICERTIFICATEINFO structure
+# DDICERTIFICATEINFO structure (d3dumddi.h)
+
+
 
 
 ## -description

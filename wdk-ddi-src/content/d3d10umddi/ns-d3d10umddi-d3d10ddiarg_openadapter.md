@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_OPENADAPTER structure"]
 ms.keywords: D3D10DDIARG_OPENADAPTER, D3D10DDIARG_OPENADAPTER structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3dd9df89-1d5e-4eab-bbe5-c6585543c093.xml, d3d10umddi/D3D10DDIARG_OPENADAPTER, display.d3d10ddiarg_openadapter
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDIARG_OPENADAPTER
 ---
 
-# D3D10DDIARG_OPENADAPTER structure
+# D3D10DDIARG_OPENADAPTER structure (d3d10umddi.h)
+
+
 
 
 ## -description

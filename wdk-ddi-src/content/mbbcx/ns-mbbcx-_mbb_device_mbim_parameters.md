@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["MBB_DEVICE_MBIM_PARAMETERS structure"]
 ms.keywords: _MBB_DEVICE_MBIM_PARAMETERS, MBB_DEVICE_MBIM_PARAMETERS, *PMBB_DEVICE_MBIM_PARAMETERS,
 req.header: mbbcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - MBB_DEVICE_MBIM_PARAMETERS
 ---
 
-# _MBB_DEVICE_MBIM_PARAMETERS structure
+# MBB_DEVICE_MBIM_PARAMETERS structure (mbbcx.h)
+
+
 
 
 ## -description

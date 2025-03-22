@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DRAWTRIPATCH structure"]
 ms.keywords: D3DDDIARG_DRAWTRIPATCH, D3DDDIARG_DRAWTRIPATCH structure [Display Devices], UMDisplayDriver_param_Structs_e4f18b26-f2ae-46e2-af49-6ae55f79b2be.xml, _D3DDDIARG_DRAWTRIPATCH, d3dumddi/D3DDDIARG_DRAWTRIPATCH, display.d3dddiarg_drawtripatch
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DRAWTRIPATCH
 ---
 
-# _D3DDDIARG_DRAWTRIPATCH structure
+# D3DDDIARG_DRAWTRIPATCH structure (d3dumddi.h)
+
+
 
 
 ## -description

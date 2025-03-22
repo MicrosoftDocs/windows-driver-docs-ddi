@@ -8,6 +8,7 @@ ms.date: 07/28/2020
 keywords: ["PCW_DATA structure"]
 ms.keywords: "*PPCW_DATA, PCW_DATA, PCW_DATA structure [Driver Development Tools], PPCW_DATA, PPCW_DATA structure pointer [Driver Development Tools], _PCW_DATA, devtest.pcw_data, km_pcw_69759b50-4312-4997-ba43-4ce30941d502.xml, wdm/PCW_DATA, wdm/PPCW_DATA"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 or later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - PCW_DATA
 ---
 
-# PCW_DATA structure
+# PCW_DATA structure (wdm.h)
+
+
 
 
 ## -description

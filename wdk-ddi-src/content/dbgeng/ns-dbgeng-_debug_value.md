@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_VALUE structure"]
 ms.keywords: "*PDEBUG_VALUE, DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging], PDEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/DEBUG_VALUE, dbgeng/PDEBUG_VALUE, debugger.debug_value"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_VALUE
 ---
 
-# _DEBUG_VALUE structure
+# DEBUG_VALUE structure (dbgeng.h)
+
+
 
 ## -description
 

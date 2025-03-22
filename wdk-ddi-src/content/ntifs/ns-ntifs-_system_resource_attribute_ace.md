@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SYSTEM_RESOURCE_ATTRIBUTE_ACE structure"]
 ms.keywords: "*PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE, PSYSTEM_RESOURCE_ATTRIBUTE_ACE structure pointer [Installable File System Drivers], SYSTEM_RESOURCE_ATTRIBUTE_ACE, SYSTEM_RESOURCE_ATTRIBUTE_ACE structure [Installable File System Drivers], _SYSTEM_RESOURCE_ATTRIBUTE_ACE, ifsk.system_resource_attribute_ace, ntifs/PSYSTEM_RESOURCE_ATTRIBUTE_ACE, ntifs/SYSTEM_RESOURCE_ATTRIBUTE_ACE"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYSTEM_RESOURCE_ATTRIBUTE_ACE
 ---
 
-# _SYSTEM_RESOURCE_ATTRIBUTE_ACE structure
+# SYSTEM_RESOURCE_ATTRIBUTE_ACE structure (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/11/2022
 keywords: ["WWAN_CDMA_MRL structure"]
 ms.keywords: "*PWWAN_CDMA_MRL, PWWAN_CDMA_MRL, PWWAN_CDMA_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_CDMA_MRL, WWAN_CDMA_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_CDMA_MRL, netvista.wwan_cdma_mrl, wwan/PWWAN_CDMA_MRL, wwan/WWAN_CDMA_MRL"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_CDMA_MRL
 ---
 
-# _WWAN_CDMA_MRL structure
+# WWAN_CDMA_MRL structure (wwan.h)
+
+
 
 
 ## -description

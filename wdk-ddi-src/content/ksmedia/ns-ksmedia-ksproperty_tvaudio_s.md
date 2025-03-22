@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["KSPROPERTY_TVAUDIO_S structure"]
 ms.keywords: "*PKSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S, KSPROPERTY_TVAUDIO_S structure [Streaming Media Devices], PKSPROPERTY_TVAUDIO_S, PKSPROPERTY_TVAUDIO_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TVAUDIO_S, ksmedia/PKSPROPERTY_TVAUDIO_S, stream.ksproperty_tvaudio_s, vidcapstruct_d9dd7c2c-ed79-4efa-ae11-07e069abda5c.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSPROPERTY_TVAUDIO_S
  - KSPROPERTY_TVAUDIO_S
 ---
+
+# KSPROPERTY_TVAUDIO_S structure (ksmedia.h)
 
 ## -description
 

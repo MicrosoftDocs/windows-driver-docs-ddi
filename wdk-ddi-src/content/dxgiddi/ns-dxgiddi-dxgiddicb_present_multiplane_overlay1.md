@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure"]
 ms.keywords: DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1, DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure [Display Devices], display.dxgiddicb_present_multiplane_overlay1, dxgiddi/DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1
 ---
 
-# DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure
+# DXGIDDICB_PRESENT_MULTIPLANE_OVERLAY1 structure (dxgiddi.h)
+
+
 
 
 ## -description

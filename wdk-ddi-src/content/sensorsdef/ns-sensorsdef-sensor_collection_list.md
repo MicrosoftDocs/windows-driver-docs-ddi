@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SENSOR_COLLECTION_LIST structure"]
 ms.keywords: "*PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], SENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, sensorsdef/SENSOR_COLLECTION_LIST"
 req.header: sensorsdef.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - PSENSOR_COLLECTION_LIST
 ---
 
-# SENSOR_COLLECTION_LIST structure
+# SENSOR_COLLECTION_LIST structure (sensorsdef.h)
+
+
 
 
 ## -description

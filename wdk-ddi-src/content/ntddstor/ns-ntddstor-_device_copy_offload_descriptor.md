@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DEVICE_COPY_OFFLOAD_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR, DEVICE_COPY_OFFLOAD_DESCRIPTOR structure [Storage Devices], PDEVICE_COPY_OFFLOAD_DESCRIPTOR, PDEVICE_COPY_OFFLOAD_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/DEVICE_COPY_OFFLOAD_DESCRIPTOR, ntddstor/PDEVICE_COPY_OFFLOAD_DESCRIPTOR, storage.device_copy_offload_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_COPY_OFFLOAD_DESCRIPTOR
 ---
 
-# _DEVICE_COPY_OFFLOAD_DESCRIPTOR structure
+# DEVICE_COPY_OFFLOAD_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

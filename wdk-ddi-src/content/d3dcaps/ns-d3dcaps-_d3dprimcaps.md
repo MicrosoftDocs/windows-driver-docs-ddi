@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DPrimCaps structure"]
 ms.keywords: "*LPD3DPRIMCAPS, D3DPRIMCAPS, D3DPRIMCAPS structure [Display Devices], LPD3DPRIMCAPS, LPD3DPRIMCAPS structure pointer [Display Devices], _D3DPrimCaps, d3dcaps/D3DPRIMCAPS, d3dcaps/LPD3DPRIMCAPS, d3dstrct_671f3c02-cad3-47bc-871e-df1388f8cf1a.xml, display.d3dprimcaps"
 req.header: d3dcaps.h
+req.construct-type: structure
 req.include-header: D3dcaps.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DPRIMCAPS
 ---
 
-# _D3DPrimCaps structure
+# D3DPRIMCAPS structure (d3dcaps.h)
+
+
 
 
 ## -description

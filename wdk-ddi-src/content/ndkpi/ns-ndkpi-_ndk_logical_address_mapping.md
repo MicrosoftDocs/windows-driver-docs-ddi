@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_LOGICAL_ADDRESS_MAPPING structure"]
 ms.keywords: NDK_LOGICAL_ADDRESS_MAPPING, NDK_LOGICAL_ADDRESS_MAPPING structure [Network Drivers Starting with Windows Vista], PNDK_LOGICAL_ADDRESS_MAPPING, PNDK_LOGICAL_ADDRESS_MAPPING structure pointer [Network Drivers Starting with Windows Vista], _NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/NDK_LOGICAL_ADDRESS_MAPPING, ndkpi/PNDK_LOGICAL_ADDRESS_MAPPING, netvista.ndk_logical_address_mapping
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_LOGICAL_ADDRESS_MAPPING
 ---
 
-# _NDK_LOGICAL_ADDRESS_MAPPING structure
+# NDK_LOGICAL_ADDRESS_MAPPING structure (ndkpi.h)
+
+
 
 
 ## -description

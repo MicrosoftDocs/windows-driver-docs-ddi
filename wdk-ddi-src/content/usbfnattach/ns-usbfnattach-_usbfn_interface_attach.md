@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_INTERFACE_ATTACH structure"]
 ms.keywords: "*PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH, PUSBFN_INTERFACE_ATTACH structure pointer [Buses], USBFN_INTERFACE_ATTACH, USBFN_INTERFACE_ATTACH structure [Buses], _USBFN_INTERFACE_ATTACH, buses.usbfn_interface_attach, usbfnattach/PUSBFN_INTERFACE_ATTACH, usbfnattach/USBFN_INTERFACE_ATTACH"
 req.header: usbfnattach.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_INTERFACE_ATTACH
 ---
 
-# _USBFN_INTERFACE_ATTACH structure
+# USBFN_INTERFACE_ATTACH structure (usbfnattach.h)
+
+
 
 
 ## -description

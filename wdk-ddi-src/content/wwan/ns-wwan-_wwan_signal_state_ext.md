@@ -7,6 +7,7 @@ ms.date: 04/05/2019
 keywords: ["WWAN_SIGNAL_STATE_EXT structure"]
 ms.keywords: "*PWWAN_SIGNAL_STATE_EXT, PWWAN_SIGNAL_STATE_EXT, PWWAN_SIGNAL_STATE_EXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE_EXT, WWAN_SIGNAL_STATE_EXT structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE_EXT, netvista.wwan_signal_state_EXT, wwan/PWWAN_SIGNAL_STATE_EXT, wwan/WWAN_SIGNAL_STATE_EXT"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1903
@@ -45,7 +46,9 @@ api_name:
  - WWAN_SIGNAL_STATE_EXT
 ---
 
-# _WWAN_SIGNAL_STATE_EXT structure
+# WWAN_SIGNAL_STATE_EXT structure (wwan.h)
+
+
 
 
 ## -description

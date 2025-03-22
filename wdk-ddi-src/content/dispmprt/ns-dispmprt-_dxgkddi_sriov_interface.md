@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_SRIOV_INTERFACE structure"]
 ms.keywords: _DXGKDDI_SRIOV_INTERFACE, DXGKDDI_SRIOV_INTERFACE, *PDXGKDDI_SRIOV_INTERFACE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKDDI_SRIOV_INTERFACE structure
+# DXGKDDI_SRIOV_INTERFACE structure (dispmprt.h)
+
+
 
 
 ## -description

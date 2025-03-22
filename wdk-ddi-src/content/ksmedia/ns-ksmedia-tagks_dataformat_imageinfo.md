@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATAFORMAT_IMAGEINFO structure"]
 ms.keywords: "*PKS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO, KS_DATAFORMAT_IMAGEINFO structure [Streaming Media Devices], PKS_DATAFORMAT_IMAGEINFO, PKS_DATAFORMAT_IMAGEINFO structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_IMAGEINFO, ksmedia/PKS_DATAFORMAT_IMAGEINFO, stream.ks_dataformat_imageinfo, tagKS_DATAFORMAT_IMAGEINFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - KS_DATAFORMAT_IMAGEINFO
 ---
 
-# tagKS_DATAFORMAT_IMAGEINFO structure
+# tagKS_DATAFORMAT_IMAGEINFO structure (ksmedia.h)
+
+
 
 
 ## -description

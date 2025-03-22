@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSDEVICE structure"]
 ms.keywords: "*PKSDEVICE, KSDEVICE, KSDEVICE structure [Streaming Media Devices], PKSDEVICE, PKSDEVICE structure pointer [Streaming Media Devices], _KSDEVICE, avstruct_0f140861-d58a-48cf-9bac-679acbd30d02.xml, ks/KSDEVICE, ks/PKSDEVICE, stream.ksdevice"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSDEVICE
 ---
 
-# _KSDEVICE structure
+# KSDEVICE structure (ks.h)
+
+
 
 
 ## -description

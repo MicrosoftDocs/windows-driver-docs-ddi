@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041, D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041
 ---
 
-# D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041 structure
+# D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS_0041 structure (d3d12umddi.h)
+
+
 
 
 ## -description

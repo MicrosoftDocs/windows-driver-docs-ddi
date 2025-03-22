@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_TYPEC_CONFIG structure"]
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG, PUCM_CONNECTOR_TYPEC_CONFIG structure pointer [Buses], UCM_CONNECTOR_TYPEC_CONFIG, UCM_CONNECTOR_TYPEC_CONFIG structure [Buses], _UCM_CONNECTOR_TYPEC_CONFIG, buses.ucm_connector_type_c_config, ucmmanager/PUCM_CONNECTOR_TYPEC_CONFIG, ucmmanager/UCM_CONNECTOR_TYPEC_CONFIG"
 req.header: ucmmanager.h
+req.construct-type: structure
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - UCM_CONNECTOR_TYPEC_CONFIG
 ---
 
-# _UCM_CONNECTOR_TYPEC_CONFIG structure
+# UCM_CONNECTOR_TYPEC_CONFIG structure (ucmmanager.h)
+
+
 
 
 ## -description

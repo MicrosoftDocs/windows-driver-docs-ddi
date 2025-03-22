@@ -7,6 +7,7 @@ ms.date: 04/11/2019
 keywords: ["NDIS_WWAN_MODEM_LOGGING_CONFIG structure"]
 ms.keywords: _NDIS_WWAN_MODEM_LOGGING_CONFIG, NDIS_WWAN_MODEM_LOGGING_CONFIG, *PNDIS_WWAN_MODEM_LOGGING_CONFIG,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_MODEM_LOGGING_CONFIG
 ---
 
-# _NDIS_WWAN_MODEM_LOGGING_CONFIG structure
+# NDIS_WWAN_MODEM_LOGGING_CONFIG structure (ndiswwan.h)
+
+
 
 
 ## -description

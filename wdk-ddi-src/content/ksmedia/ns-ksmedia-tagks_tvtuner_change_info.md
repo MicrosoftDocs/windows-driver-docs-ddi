@@ -7,6 +7,7 @@ ms.date: 03/15/2023
 keywords: ["tagKS_TVTUNER_CHANGE_INFO structure"]
 ms.keywords: "*PKS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO, KS_TVTUNER_CHANGE_INFO structure [Streaming Media Devices], PKS_TVTUNER_CHANGE_INFO, PKS_TVTUNER_CHANGE_INFO structure pointer [Streaming Media Devices], ksmedia/KS_TVTUNER_CHANGE_INFO, ksmedia/PKS_TVTUNER_CHANGE_INFO, stream.ks_tvtuner_change_info, tagKS_TVTUNER_CHANGE_INFO, vidcapstruct_225fdabf-bdaf-49df-a2e3-ace62a0a17e2.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PKS_TVTUNER_CHANGE_INFO
  - KS_TVTUNER_CHANGE_INFO
 ---
+
+# tagKS_TVTUNER_CHANGE_INFO structure (ksmedia.h)
 
 ## -description
 

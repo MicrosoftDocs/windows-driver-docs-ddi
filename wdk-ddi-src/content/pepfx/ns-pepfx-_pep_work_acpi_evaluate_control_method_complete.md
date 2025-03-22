@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure"]
 ms.keywords: "*PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, kernel.pep_work_acpi_evaluate_control_method_complete, pepfx/PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE, pepfx/PPEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
 ---
 
-# _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure (pepfx.h)
+# PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE structure (pepfx.h)
+
+
 
 ## -description
 

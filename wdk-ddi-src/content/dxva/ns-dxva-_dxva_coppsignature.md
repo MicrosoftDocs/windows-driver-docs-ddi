@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_COPPSignature structure"]
 ms.keywords: "*LPDXVA_COPPSignature, DXVA_COPPSignature, DXVA_COPPSignature structure [Display Devices], LPDXVA_COPPSignature, LPDXVA_COPPSignature structure pointer [Display Devices], _DXVA_COPPSignature, display.dxva_coppsignature, dxva/DXVA_COPPSignature, dxva/LPDXVA_COPPSignature, dxvaref_9194eb73-7b7e-4d28-b589-08ddd24eaf0c.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_COPPSignature
 ---
 
-# _DXVA_COPPSignature structure
+# DXVA_COPPSignature structure (dxva.h)
+
+
 
 
 ## -description

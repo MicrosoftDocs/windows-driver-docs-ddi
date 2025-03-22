@@ -5,6 +5,7 @@ description: The D3DDDI_ESCAPEFLAGS structure identifies how the user-mode displ
 tech.root: display
 ms.date: 02/06/2025
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_ESCAPEFLAGS
 ---
 
-# D3DDDI_ESCAPEFLAGS structure
+# D3DDDI_ESCAPEFLAGS structure (d3dukmdt.h)
+
+
 
 ## -description
 

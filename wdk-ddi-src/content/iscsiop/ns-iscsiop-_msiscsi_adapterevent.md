@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_AdapterEvent structure"]
 ms.keywords: "*PMSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent, MSiSCSI_AdapterEvent structure [Storage Devices], PMSiSCSI_AdapterEvent, PMSiSCSI_AdapterEvent structure pointer [Storage Devices], _MSiSCSI_AdapterEvent, iscsiop/MSiSCSI_AdapterEvent, iscsiop/PMSiSCSI_AdapterEvent, storage.msiscsi_adapterevent, structs-iSCSI_86ec7324-3d5c-44d2-8972-691504f1c5e1.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_AdapterEvent
 ---
 
-# _MSiSCSI_AdapterEvent structure
+# MSiSCSI_AdapterEvent structure (iscsiop.h)
+
+
 
 
 ## -description

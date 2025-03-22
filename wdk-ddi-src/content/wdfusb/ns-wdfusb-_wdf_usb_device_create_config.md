@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_DEVICE_CREATE_CONFIG structure"]
 ms.keywords: "*PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG structure pointer, WDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG structure, _WDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usb_device_create_config, kmdf.wdf_usbtarget_device_config, wdf.wdf_usb_device_create_config, wdfusb/PWDF_USB_DEVICE_CREATE_CONFIG, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG"
 req.header: wdfusb.h
+req.construct-type: structure
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - WDF_USB_DEVICE_CREATE_CONFIG
 ---
 
-# _WDF_USB_DEVICE_CREATE_CONFIG structure
+# WDF_USB_DEVICE_CREATE_CONFIG structure (wdfusb.h)
+
+
 
 
 ## -description

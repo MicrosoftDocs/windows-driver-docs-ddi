@@ -6,6 +6,7 @@ ms.date: 05/20/2024
 keywords: ["DXGK_SET_TIMING_PATH_INFO structure"]
 ms.keywords: DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, display.dxgk_set_timing_path_info
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_SET_TIMING_PATH_INFO structure
+# DXGK_SET_TIMING_PATH_INFO structure (d3dkmddi.h)
+
+
 
 ## -description
 

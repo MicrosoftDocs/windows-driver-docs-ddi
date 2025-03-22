@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PD_PROVIDER_DISPATCH structure"]
 ms.keywords: NDIS_PD_PROVIDER_DISPATCH, NDIS_PD_PROVIDER_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDIS_PD_PROVIDER_DISPATCH, PNDIS_PD_PROVIDER_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_PROVIDER_DISPATCH, ndis/NDIS_PD_PROVIDER_DISPATCH, ndis/PNDIS_PD_PROVIDER_DISPATCH, netvista.ndis_pd_provider_dispatch
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - NDIS_PD_PROVIDER_DISPATCH
 ---
 
-# _NDIS_PD_PROVIDER_DISPATCH structure
+# NDIS_PD_PROVIDER_DISPATCH structure (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/15/2022
 keywords: ["MDL structure"]
 ms.keywords: "*PMDLX, MDL, MDL structure [Kernel-Mode Driver Architecture], PMDL, _MDL, kernel.mdl, kstruct_c_2c589a9a-d775-4fa6-8a37-37212798a215.xml, wdm/MDL"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MDL
 ---
 
-# _MDL structure
+# MDL structure (wdm.h)
+
+
 
 ## -description
 

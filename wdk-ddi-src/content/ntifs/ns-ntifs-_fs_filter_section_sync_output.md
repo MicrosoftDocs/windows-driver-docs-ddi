@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FS_FILTER_SECTION_SYNC_OUTPUT structure"]
 ms.keywords: "*PFS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT, FS_FILTER_SECTION_SYNC_OUTPUT structure [Installable File System Drivers], PFS_FILTER_SECTION_SYNC_OUTPUT, PFS_FILTER_SECTION_SYNC_OUTPUT structure pointer [Installable File System Drivers], _FS_FILTER_SECTION_SYNC_OUTPUT, ifsk.fs_filter_section_sync_output_, ntifs/FS_FILTER_SECTION_SYNC_OUTPUT, ntifs/PFS_FILTER_SECTION_SYNC_OUTPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FS_FILTER_SECTION_SYNC_OUTPUT
 ---
 
-# _FS_FILTER_SECTION_SYNC_OUTPUT structure
+# FS_FILTER_SECTION_SYNC_OUTPUT structure (ntifs.h)
+
+
 
 
 ## -description

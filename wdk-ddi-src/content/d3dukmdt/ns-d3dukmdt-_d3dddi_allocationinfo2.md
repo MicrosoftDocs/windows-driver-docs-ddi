@@ -6,6 +6,7 @@ ms.date: 11/17/2023
 keywords: ["D3DDDI_ALLOCATIONINFO2 structure"]
 ms.keywords: _D3DDDI_ALLOCATIONINFO2, D3DDDI_ALLOCATIONINFO2,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 7
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_ALLOCATIONINFO2 structure
+# D3DDDI_ALLOCATIONINFO2 structure (d3dukmdt.h)
+
+
 
 ## -description
 

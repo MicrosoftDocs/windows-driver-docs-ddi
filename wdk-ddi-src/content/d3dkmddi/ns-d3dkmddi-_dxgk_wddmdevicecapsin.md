@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_WDDMDEVICECAPSIN structure"]
 ms.keywords: _DXGK_WDDMDEVICECAPSIN, DXGK_WDDMDEVICECAPSIN,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_WDDMDEVICECAPSIN structure
+# DXGK_WDDMDEVICECAPSIN structure (d3dkmddi.h)
+
+
 
 
 ## -description

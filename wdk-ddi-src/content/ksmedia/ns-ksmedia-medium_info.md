@@ -7,6 +7,7 @@ ms.date: 03/15/2023
 keywords: ["MEDIUM_INFO structure"]
 ms.keywords: "*PMEDIUM_INFO, MEDIUM_INFO, MEDIUM_INFO structure [Streaming Media Devices], PMEDIUM_INFO, PMEDIUM_INFO structure pointer [Streaming Media Devices], ksmedia/MEDIUM_INFO, ksmedia/PMEDIUM_INFO, stream.medium_info, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PMEDIUM_INFO
  - MEDIUM_INFO
 ---
+
+# MEDIUM_INFO structure (ksmedia.h)
 
 ## -description
 

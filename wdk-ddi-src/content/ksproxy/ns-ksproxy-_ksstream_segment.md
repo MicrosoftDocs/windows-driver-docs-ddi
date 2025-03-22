@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["KSSTREAM_SEGMENT structure"]
 ms.keywords: "*PKSSTREAM_SEGMENT, KSSTREAM_SEGMENT, KSSTREAM_SEGMENT structure [Streaming Media Devices], PKSSTREAM_SEGMENT, PKSSTREAM_SEGMENT structure pointer [Streaming Media Devices], _KSSTREAM_SEGMENT, ksproxy/KSSTREAM_SEGMENT, ksproxy/PKSSTREAM_SEGMENT, ksproxy_ce88ef52-d88e-4dc8-952d-53dce519518f.xml, stream.ksstream_segment"
 req.header: ksproxy.h
+req.construct-type: structure
 req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PKSSTREAM_SEGMENT
  - KSSTREAM_SEGMENT
 ---
+
+# KSSTREAM_SEGMENT structure (ksproxy.h)
 
 ## -description
 

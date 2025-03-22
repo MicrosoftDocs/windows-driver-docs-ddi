@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_DEVICE_CHARACTERISTICS structure"]
 ms.keywords: "*PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS, PUSB_DEVICE_CHARACTERISTICS structure pointer [Buses], USB_DEVICE_CHARACTERISTICS, USB_DEVICE_CHARACTERISTICS structure [Buses], _USB_DEVICE_CHARACTERISTICS, buses.usb_device_characteristics, usbioctl/PUSB_DEVICE_CHARACTERISTICS, usbioctl/USB_DEVICE_CHARACTERISTICS"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_DEVICE_CHARACTERISTICS
 ---
 
-# _USB_DEVICE_CHARACTERISTICS structure
+# USB_DEVICE_CHARACTERISTICS structure (usbioctl.h)
+
+
 
 
 ## -description

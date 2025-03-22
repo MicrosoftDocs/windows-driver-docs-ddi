@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure"]
 ms.keywords: D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure [Display Devices], PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure pointer [Display Devices], d3d10umddi/D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, d3d10umddi/PD3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW, display.d3d11_1ddiarg_createvideoprocessorinputview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW
 ---
 
-# D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure
+# D3D11_1DDIARG_CREATEVIDEOPROCESSORINPUTVIEW structure (d3d10umddi.h)
+
+
 
 
 ## -description

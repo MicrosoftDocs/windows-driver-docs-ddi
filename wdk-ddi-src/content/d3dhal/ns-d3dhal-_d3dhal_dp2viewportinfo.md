@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2VIEWPORTINFO structure"]
 ms.keywords: "*LPD3DHAL_DP2VIEWPORTINFO, D3DHAL_DP2VIEWPORTINFO, D3DHAL_DP2VIEWPORTINFO structure [Display Devices], LPD3DHAL_DP2VIEWPORTINFO, LPD3DHAL_DP2VIEWPORTINFO structure pointer [Display Devices], _D3DHAL_DP2VIEWPORTINFO, d3dhal/D3DHAL_DP2VIEWPORTINFO, d3dhal/LPD3DHAL_DP2VIEWPORTINFO, d3dstrct_7a7ca4d1-eb1a-4342-9ce9-f4b276191da5.xml, display.d3dhal_dp2viewportinfo"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2VIEWPORTINFO
 ---
 
-# _D3DHAL_DP2VIEWPORTINFO structure
+# D3DHAL_DP2VIEWPORTINFO structure (d3dhal.h)
+
+
 
 
 ## -description

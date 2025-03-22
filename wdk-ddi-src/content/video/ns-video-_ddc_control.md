@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDC_CONTROL structure"]
 ms.keywords: "*PDDC_CONTROL, DDC_CONTROL, DDC_CONTROL structure [Display Devices], PDDC_CONTROL, PDDC_CONTROL structure pointer [Display Devices], Video_Structs_d3006e08-ed2e-471d-b9c1-326a35aaf8bf.xml, _DDC_CONTROL, display.ddc_control, video/DDC_CONTROL, video/PDDC_CONTROL"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DDC_CONTROL
 ---
 
-# _DDC_CONTROL structure
+# DDC_CONTROL structure (video.h)
+
+
 
 
 ## -description

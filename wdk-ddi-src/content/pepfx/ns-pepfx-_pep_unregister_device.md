@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_UNREGISTER_DEVICE structure"]
 ms.keywords: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, pepfx/PEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_UNREGISTER_DEVICE
 ---
 
-# _PEP_UNREGISTER_DEVICE structure (pepfx.h)
+# PEP_UNREGISTER_DEVICE structure (pepfx.h)
+
+
 
 
 ## -description

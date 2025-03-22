@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WMIGUIDREGINFO structure"]
 ms.keywords: "*PWMIGUIDREGINFO, PWMIGUIDREGINFO, PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], WMIGUIDREGINFO, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], _WMIGUIDREGINFO, kernel.wmiguidreginfo, kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, wmilib/PWMIGUIDREGINFO, wmilib/WMIGUIDREGINFO"
 req.header: wmilib.h
+req.construct-type: structure
 req.include-header: Wmilib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WMIGUIDREGINFO
 ---
 
-# _WMIGUIDREGINFO structure
+# WMIGUIDREGINFO structure (wmilib.h)
+
+
 
 
 ## -description

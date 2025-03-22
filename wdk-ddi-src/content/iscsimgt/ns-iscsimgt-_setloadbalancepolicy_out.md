@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetLoadBalancePolicy_OUT structure"]
 ms.keywords: "*PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT, PSetLoadBalancePolicy_OUT structure pointer [Storage Devices], SetLoadBalancePolicy_OUT, SetLoadBalancePolicy_OUT structure [Storage Devices], _SetLoadBalancePolicy_OUT, iscsimgt/PSetLoadBalancePolicy_OUT, iscsimgt/SetLoadBalancePolicy_OUT, storage.setloadbalancepolicy_out, structs-iSCSI_32a19db4-8102-4e39-b9be-30a8a03d2732.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetLoadBalancePolicy_OUT
 ---
 
-# _SetLoadBalancePolicy_OUT structure
+# SetLoadBalancePolicy_OUT structure (iscsimgt.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_STARTED_REPORT_HW_ERROR structure"]
 ms.keywords: WHEAP_STARTED_REPORT_HW_ERROR, WHEAP_STARTED_REPORT_HW_ERROR, *PWHEAP_STARTED_REPORT_HW_ERROR,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_STARTED_REPORT_HW_ERROR
 ---
 
-# WHEAP_STARTED_REPORT_HW_ERROR structure
+# WHEAP_STARTED_REPORT_HW_ERROR structure (ntddk.h)
+
+
 
 
 ## -description

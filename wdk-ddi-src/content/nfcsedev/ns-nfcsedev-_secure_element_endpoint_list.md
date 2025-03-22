@@ -8,6 +8,7 @@ ms.date: 08/02/2022
 keywords: ["SECURE_ELEMENT_ENDPOINT_LIST structure"]
 ms.keywords: "*PSECURE_ELEMENT_ENDPOINT_LIST, PSECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST, P_SECURE_ELEMENT_ENDPOINT_LIST structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_ENDPOINT_LIST, SECURE_ELEMENT_ENDPOINT_LIST structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/P_SECURE_ELEMENT_ENDPOINT_LIST, nfcsedev/_SECURE_ELEMENT_ENDPOINT_LIST, nfpdrivers._secure_element_endpoint_list"
 req.header: nfcsedev.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SECURE_ELEMENT_ENDPOINT_LIST
 ---
 
-# _SECURE_ELEMENT_ENDPOINT_LIST structure
+# SECURE_ELEMENT_ENDPOINT_LIST structure (nfcsedev.h)
+
+
 
 ## -description
 

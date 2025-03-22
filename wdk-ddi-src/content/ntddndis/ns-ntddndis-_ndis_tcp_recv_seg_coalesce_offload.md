@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure"]
 ms.keywords: "*PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, netvista.ndis_tcp_recv_seg_coalesce_offload, ntddndis/NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD, ntddndis/PNDIS_TCP_RECV_SEG_COALESCE_OFFLOAD"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD
 ---
 
-# _NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure
+# NDIS_TCP_RECV_SEG_COALESCE_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

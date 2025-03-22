@@ -8,6 +8,7 @@ ms.date: 08/05/2022
 keywords: ["PEP_ACPI_OBJECT_NAME structure"]
 ms.keywords: "*PPEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture], _PEP_ACPI_OBJECT_NAME, kernel.pep_acpi_object_name, pepfx/PEP_ACPI_OBJECT_NAME"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_ACPI_OBJECT_NAME
 ---
 
-# _PEP_ACPI_OBJECT_NAME structure (pep_x.h)
+# PEP_ACPI_OBJECT_NAME structure (pep_x.h)
+
+
 
 ## -description
 

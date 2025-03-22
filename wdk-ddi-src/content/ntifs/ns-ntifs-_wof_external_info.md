@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["WOF_EXTERNAL_INFO structure"]
 ms.keywords: "*PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], _WOF_EXTERNAL_INFO, ifsk.wof_external_info, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update
@@ -45,7 +46,9 @@ api_name:
  - WOF_EXTERNAL_INFO
 ---
 
-# WOF_EXTERNAL_INFO structure
+# WOF_EXTERNAL_INFO structure (ntifs.h)
+
+
 
 ## -description
 

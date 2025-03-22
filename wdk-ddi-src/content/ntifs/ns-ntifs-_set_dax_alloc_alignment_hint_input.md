@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure"]
 ms.keywords: "PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ifsk.set_dax_alloc_alignment_hint_input, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -45,7 +46,9 @@ api_name:
  - SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 ---
 
-# SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure
+# SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure (ntifs.h)
+
+
 
 ## -description
 

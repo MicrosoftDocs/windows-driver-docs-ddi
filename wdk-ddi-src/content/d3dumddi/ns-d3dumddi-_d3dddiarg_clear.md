@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CLEAR structure"]
 ms.keywords: D3DDDIARG_CLEAR, D3DDDIARG_CLEAR structure [Display Devices], UMDisplayDriver_param_Structs_64efff84-8fe3-40d4-b823-27e4a235fd86.xml, _D3DDDIARG_CLEAR, d3dumddi/D3DDDIARG_CLEAR, display.d3dddiarg_clear
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CLEAR
 ---
 
-# _D3DDDIARG_CLEAR structure
+# D3DDDIARG_CLEAR structure (d3dumddi.h)
+
+
 
 
 ## -description

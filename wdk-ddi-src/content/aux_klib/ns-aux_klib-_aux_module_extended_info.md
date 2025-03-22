@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AUX_MODULE_EXTENDED_INFO structure"]
 ms.keywords: "*PAUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO, AUX_MODULE_EXTENDED_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_EXTENDED_INFO, PAUX_MODULE_EXTENDED_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_EXTENDED_INFO, aux_klib/AUX_MODULE_EXTENDED_INFO, aux_klib/PAUX_MODULE_EXTENDED_INFO, aux_klib_670e2af9-0080-49b9-85c4-06a6b1ae06c6.xml, kernel.aux_module_extended_info"
 req.header: aux_klib.h
+req.construct-type: structure
 req.include-header: Aux_klib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AUX_MODULE_EXTENDED_INFO
 ---
 
-# _AUX_MODULE_EXTENDED_INFO structure
+# AUX_MODULE_EXTENDED_INFO structure (aux_klib.h)
+
+
 
 
 ## -description

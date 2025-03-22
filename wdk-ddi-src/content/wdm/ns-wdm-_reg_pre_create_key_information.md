@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_PRE_CREATE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_PRE_CREATE_KEY_INFORMATION, *PREG_PRE_OPEN_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION, PREG_PRE_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_PRE_CREATE_KEY_INFORMATION, REG_PRE_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_PRE_OPEN_KEY_INFORMATION, REG_PRE_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_PRE_CREATE_KEY_INFORMATION, kernel.reg_pre_open_key_information, kstruct_d_dc0e8cf3-5084-4d54-8767-50b4ff043da8.xml, wdm/PREG_PRE_CREATE_KEY_INFORMATION, wdm/REG_PRE_CREATE_KEY_INFORMATION, wdm/REG_PRE_OPEN_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available only on Microsoft Windows XP.
@@ -46,7 +47,9 @@ api_name:
  - REG_PRE_CREATE_KEY_INFORMATION
 ---
 
-# _REG_PRE_CREATE_KEY_INFORMATION structure
+# REG_PRE_CREATE_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_ENDORSER_VALUE structure"]
 ms.keywords: "*PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE, PWIAS_ENDORSER_VALUE structure pointer [Imaging Devices], WIAS_ENDORSER_VALUE, WIAS_ENDORSER_VALUE structure [Imaging Devices], _WIAS_ENDORSER_VALUE, image.wias_endorser_value, wiamindr_lh/PWIAS_ENDORSER_VALUE, wiamindr_lh/WIAS_ENDORSER_VALUE, wiastrct_b6e376e1-ecfd-4988-b752-3d81755cf990.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WIAS_ENDORSER_VALUE
 ---
 
-# _WIAS_ENDORSER_VALUE structure
+# WIAS_ENDORSER_VALUE structure (wiamindr_lh.h)
+
+
 
 
 ## -description

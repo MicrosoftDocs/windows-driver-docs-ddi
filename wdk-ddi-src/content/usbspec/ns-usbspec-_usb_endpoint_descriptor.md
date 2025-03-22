@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR, PUSB_ENDPOINT_DESCRIPTOR structure pointer [Buses], USB_ENDPOINT_DESCRIPTOR, USB_ENDPOINT_DESCRIPTOR structure [Buses], _USB_ENDPOINT_DESCRIPTOR, buses.usb_endpoint_descriptor, usbspec/PUSB_ENDPOINT_DESCRIPTOR, usbspec/USB_ENDPOINT_DESCRIPTOR, usbstrct_3e135b0b-f2a1-4d7a-92b8-4a9e2724726c.xml"
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: Usb100.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_ENDPOINT_DESCRIPTOR
 ---
 
-# _USB_ENDPOINT_DESCRIPTOR structure
+# USB_ENDPOINT_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

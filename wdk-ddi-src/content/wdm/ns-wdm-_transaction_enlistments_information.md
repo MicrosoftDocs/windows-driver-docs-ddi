@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRANSACTION_ENLISTMENTS_INFORMATION structure"]
 ms.keywords: "*PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION, PTRANSACTION_ENLISTMENTS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENTS_INFORMATION, TRANSACTION_ENLISTMENTS_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_ENLISTMENTS_INFORMATION, kernel.transaction_enlistments_information, ktm_ref_d6790593-2057-4d78-82f2-9d4d64cd800c.xml, wdm/PTRANSACTION_ENLISTMENTS_INFORMATION, wdm/TRANSACTION_ENLISTMENTS_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -46,7 +47,9 @@ api_name:
  - TRANSACTION_ENLISTMENTS_INFORMATION
 ---
 
-# _TRANSACTION_ENLISTMENTS_INFORMATION structure
+# TRANSACTION_ENLISTMENTS_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

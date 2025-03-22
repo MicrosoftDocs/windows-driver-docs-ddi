@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_NFCC_CAPABILITIES structure"]
 ms.keywords: "*PSECURE_ELEMENT_NFCC_CAPABILITIES, PSECURE_ELEMENT_NFCC_CAPABILITIES, P_SECURE_ELEMENT_NFCC_CAPABILITIES, P_SECURE_ELEMENT_NFCC_CAPABILITIES structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_NFCC_CAPABILITIES, SECURE_ELEMENT_NFCC_CAPABILITIES structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_NFCC_CAPABILITIES, nfcsedev/P_SECURE_ELEMENT_NFCC_CAPABILITIES, nfcsedev/_SECURE_ELEMENT_NFCC_CAPABILITIES, nfpdrivers._secure_element_nfcc_capabilities"
 req.header: nfcsedev.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SECURE_ELEMENT_NFCC_CAPABILITIES
 ---
 
-# _SECURE_ELEMENT_NFCC_CAPABILITIES structure
+# SECURE_ELEMENT_NFCC_CAPABILITIES structure (nfcsedev.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["WHEA_ERROR_STATUS structure"]
 ms.keywords: "*PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS, PWHEA_ERROR_STATUS union pointer [WHEA Drivers and Applications], WHEA_ERROR_STATUS, WHEA_ERROR_STATUS union [WHEA Drivers and Applications], _WHEA_ERROR_STATUS, ntddk/PWHEA_ERROR_STATUS, ntddk/WHEA_ERROR_STATUS, whea.whea_error_status, whearef_3dc93951-2c79-4b1e-b5b0-53ede31c6f37.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_STATUS
  - WHEA_ERROR_STATUS
 ---
+
+# WHEA_ERROR_STATUS structure (ntddk.h)
 
 ## -description
 

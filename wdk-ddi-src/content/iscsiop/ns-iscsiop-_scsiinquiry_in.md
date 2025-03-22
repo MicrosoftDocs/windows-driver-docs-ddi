@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiInquiry_IN structure"]
 ms.keywords: "*PScsiInquiry_IN, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _ScsiInquiry_IN, iscsiop/PScsiInquiry_IN, iscsiop/ScsiInquiry_IN, storage.scsiinquiry_in, structs-iSCSI_2129d82b-f03d-49f2-bf1d-8716840d086c.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ScsiInquiry_IN
 ---
 
-# _ScsiInquiry_IN structure (iscsiop.h)
+# ScsiInquiry_IN structure (iscsiop.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_CONTROL_DESCRIPTOR_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_DESCRIPTOR_REQUEST, _URB_CONTROL_DESCRIPTOR_REQUEST structure [Buses], buses._urb_control_descriptor_request, usb/_URB_CONTROL_DESCRIPTOR_REQUEST, usbstrct_f28020e9-3fa4-466c-8cc5-5630d3b06d9c.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_CONTROL_DESCRIPTOR_REQUEST
 ---
 
-# _URB_CONTROL_DESCRIPTOR_REQUEST structure
+# _URB_CONTROL_DESCRIPTOR_REQUEST structure (usb.h)
+
+
 
 
 ## -description

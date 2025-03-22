@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ENLISTMENT_BASIC_INFORMATION structure"]
 ms.keywords: "*PENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION, ENLISTMENT_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], PENLISTMENT_BASIC_INFORMATION, PENLISTMENT_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _ENLISTMENT_BASIC_INFORMATION, kernel.enlistment_basic_information, ktm_ref_5748a3a5-6a2a-4cf1-a610-2a406161b689.xml, wdm/ENLISTMENT_BASIC_INFORMATION, wdm/PENLISTMENT_BASIC_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -46,7 +47,9 @@ api_name:
  - ENLISTMENT_BASIC_INFORMATION
 ---
 
-# _ENLISTMENT_BASIC_INFORMATION structure
+# ENLISTMENT_BASIC_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

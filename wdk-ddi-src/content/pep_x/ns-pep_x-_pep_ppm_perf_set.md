@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_PERF_SET structure"]
 ms.keywords: "*PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_PERF_SET, kernel.pep_ppm_perf_set, pepfx/PEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_PERF_SET
 ---
 
-# _PEP_PPM_PERF_SET structure (pep_x.h)
+# PEP_PPM_PERF_SET structure (pep_x.h)
+
+
 
 
 ## -description

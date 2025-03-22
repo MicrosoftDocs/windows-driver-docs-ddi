@@ -7,6 +7,7 @@ ms.date: 04/01/2020
 keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure"]
 ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER, *PWHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -39,7 +40,9 @@ api_name:
  - WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER
 ---
 
-# WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure
+# WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER structure (ntddk.h)
+
+
 
 
 ## -description

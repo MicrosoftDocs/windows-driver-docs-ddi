@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_ON_ATTACH structure"]
 ms.keywords: "*PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH, PUSBFN_ON_ATTACH structure pointer [Buses], USBFN_ON_ATTACH, USBFN_ON_ATTACH structure [Buses], _USBFN_ON_ATTACH, buses.usbfn_on_attach, usbfnattach/PUSBFN_ON_ATTACH, usbfnattach/USBFN_ON_ATTACH"
 req.header: usbfnattach.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_ON_ATTACH
 ---
 
-# _USBFN_ON_ATTACH structure
+# USBFN_ON_ATTACH structure (usbfnattach.h)
+
+
 
 
 ## -description

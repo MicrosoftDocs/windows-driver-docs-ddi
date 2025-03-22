@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure"]
 ms.keywords: _DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE, DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE, *PDXGKARG_SETVIRTUALFUNCTIONPOWERSTATE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure
+# DXGKARG_SETVIRTUALFUNCTIONPOWERSTATE structure (dispmprt.h)
+
+
 
 
 ## -description

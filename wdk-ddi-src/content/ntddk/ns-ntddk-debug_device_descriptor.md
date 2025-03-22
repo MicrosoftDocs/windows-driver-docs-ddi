@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["DEBUG_DEVICE_DESCRIPTOR structure"]
 ms.keywords: DEBUG_DEVICE_DESCRIPTOR, DEBUG_DEVICE_DESCRIPTOR, *PDEBUG_DEVICE_DESCRIPTOR,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DEBUG_DEVICE_DESCRIPTOR
 ---
 
-# DEBUG_DEVICE_DESCRIPTOR structure
+# DEBUG_DEVICE_DESCRIPTOR structure (ntddk.h)
+
+
 
 
 ## -description

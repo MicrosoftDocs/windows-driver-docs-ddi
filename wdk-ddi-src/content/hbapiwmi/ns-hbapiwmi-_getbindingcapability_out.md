@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetBindingCapability_OUT structure"]
 ms.keywords: "*PGetBindingCapability_OUT, GetBindingCapability_OUT, GetBindingCapability_OUT structure [Storage Devices], PGetBindingCapability_OUT, PGetBindingCapability_OUT structure pointer [Storage Devices], _GetBindingCapability_OUT, hbapiwmi/GetBindingCapability_OUT, hbapiwmi/PGetBindingCapability_OUT, storage.getbindingcapability_out, structs-Fibre_611bcad6-5d7f-43ea-8202-4c19bec45f88.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetBindingCapability_OUT
 ---
 
-# _GetBindingCapability_OUT structure
+# GetBindingCapability_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

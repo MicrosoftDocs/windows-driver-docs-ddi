@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["CDROM_PERFORMANCE_REQUEST structure"]
 ms.keywords: "*PCDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST, CDROM_PERFORMANCE_REQUEST structure [Storage Devices], PCDROM_PERFORMANCE_REQUEST, PCDROM_PERFORMANCE_REQUEST structure pointer [Storage Devices], _CDROM_PERFORMANCE_REQUEST, ntddcdrm/CDROM_PERFORMANCE_REQUEST, ntddcdrm/PCDROM_PERFORMANCE_REQUEST, storage.cdrom_performance_request"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_PERFORMANCE_REQUEST
 ---
 
-# CDROM_PERFORMANCE_REQUEST structure
+# CDROM_PERFORMANCE_REQUEST structure (ntddcdrm.h)
+
+
 
 ## -description
 

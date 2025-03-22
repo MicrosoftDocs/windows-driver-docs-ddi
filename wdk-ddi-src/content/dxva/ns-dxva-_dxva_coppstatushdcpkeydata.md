@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_COPPStatusHDCPKeyData structure"]
 ms.keywords: DXVA_COPPStatusHDCPKeyData, DXVA_COPPStatusHDCPKeyData structure [Display Devices], _DXVA_COPPStatusHDCPKeyData, display.dxva_coppstatushdcpkeydata, dxva/DXVA_COPPStatusHDCPKeyData, dxvaref_6aca4a16-16df-46ab-be65-b6033258f781.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_COPPStatusHDCPKeyData
 ---
 
-# _DXVA_COPPStatusHDCPKeyData structure
+# DXVA_COPPStatusHDCPKeyData structure (dxva.h)
+
+
 
 
 ## -description

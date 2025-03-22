@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_GET_DESCRIPTOR structure"]
 ms.keywords: "*PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], PMPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], _MPIO_GET_DESCRIPTOR, mpiodisk/MPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml"
 req.header: mpiodisk.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIO_GET_DESCRIPTOR
 ---
 
-# _MPIO_GET_DESCRIPTOR structure
+# MPIO_GET_DESCRIPTOR structure (mpiodisk.h)
+
+
 
 
 ## -description

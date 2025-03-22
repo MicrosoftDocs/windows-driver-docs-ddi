@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure"]
 ms.keywords: IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS, IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure [Display Devices], display.iddcx_opm_encrypted_initialization_parameters, iddcx/IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS
 ---
 
-# IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure
+# IDDCX_OPM_ENCRYPTED_INITIALIZATION_PARAMETERS structure (iddcx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/28/2023
 keywords: ["D3DDDICB_SIGNALFLAGS structure"]
 ms.keywords: D3DDDICB_SIGNALFLAGS, D3DDDICB_SIGNALFLAGS structure [Display Devices], D3D_other_Structs_3165168a-bcae-409c-8ca2-741675016ba8.xml, _D3DDDICB_SIGNALFLAGS, d3dukmdt/D3DDDICB_SIGNALFLAGS, display.d3dddicb_signalflags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - D3DDDICB_SIGNALFLAGS
 ---
 
-# D3DDDICB_SIGNALFLAGS structure
+# D3DDDICB_SIGNALFLAGS structure (d3dukmdt.h)
+
+
 
 ## -description
 

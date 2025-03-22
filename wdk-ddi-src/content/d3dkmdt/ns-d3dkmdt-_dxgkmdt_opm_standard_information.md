@@ -8,6 +8,7 @@ ms.date: 07/29/2022
 keywords: ["DXGKMDT_OPM_STANDARD_INFORMATION structure"]
 ms.keywords: DXGKMDT_OPM_STANDARD_INFORMATION, DXGKMDT_OPM_STANDARD_INFORMATION structure [Display Devices], DmStructs_95069fc9-f530-4764-900b-0fa6dee51656.xml, _DXGKMDT_OPM_STANDARD_INFORMATION, d3dkmdt/DXGKMDT_OPM_STANDARD_INFORMATION, display.dxgkmdt_opm_standard_information
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKMDT_OPM_STANDARD_INFORMATION
 ---
 
-# DXGKMDT_OPM_STANDARD_INFORMATION structure
+# DXGKMDT_OPM_STANDARD_INFORMATION structure (d3dkmdt.h)
+
+
 
 ## -description
 

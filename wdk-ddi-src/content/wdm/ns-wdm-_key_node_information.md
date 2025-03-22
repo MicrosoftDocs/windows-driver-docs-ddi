@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KEY_NODE_INFORMATION structure"]
 ms.keywords: "*PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION, KEY_NODE_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_NODE_INFORMATION, PKEY_NODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NODE_INFORMATION, kernel.key_node_information, kstruct_c_a41bb6c8-4e12-4aac-94cf-a24d32727c5e.xml, wdm/KEY_NODE_INFORMATION, wdm/PKEY_NODE_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KEY_NODE_INFORMATION
 ---
 
-# _KEY_NODE_INFORMATION structure
+# KEY_NODE_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

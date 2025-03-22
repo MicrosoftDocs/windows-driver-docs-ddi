@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CLIENT_CONTROLLER_BASIC_INFORMATION structure"]
 ms.keywords: "*PCLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION, CLIENT_CONTROLLER_BASIC_INFORMATION structure [Parallel Ports], GPIO.client_controller_basic_information, PCLIENT_CONTROLLER_BASIC_INFORMATION, PCLIENT_CONTROLLER_BASIC_INFORMATION structure pointer [Parallel Ports], _CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/CLIENT_CONTROLLER_BASIC_INFORMATION, gpioclx/PCLIENT_CONTROLLER_BASIC_INFORMATION"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - CLIENT_CONTROLLER_BASIC_INFORMATION
 ---
 
-# _CLIENT_CONTROLLER_BASIC_INFORMATION structure
+# CLIENT_CONTROLLER_BASIC_INFORMATION structure (gpioclx.h)
+
+
 
 
 ## -description

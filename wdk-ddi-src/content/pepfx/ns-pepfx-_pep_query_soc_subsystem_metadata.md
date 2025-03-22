@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_QUERY_SOC_SUBSYSTEM_METADATA structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA, PEP_QUERY_SOC_SUBSYSTEM_METADATA structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_METADATA, PPEP_QUERY_SOC_SUBSYSTEM_METADATA structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_METADATA, kernel.pep_query_soc_subsystem_metadata, pepfx/PEP_QUERY_SOC_SUBSYSTEM_METADATA, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_METADATA"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM_METADATA
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM_METADATA structure (pepfx.h)
+# PEP_QUERY_SOC_SUBSYSTEM_METADATA structure (pepfx.h)
+
+
 
 
 ## -description

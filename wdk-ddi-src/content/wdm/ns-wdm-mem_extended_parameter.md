@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["MEM_EXTENDED_PARAMETER structure"]
 ms.keywords: MEM_EXTENDED_PARAMETER, MEM_EXTENDED_PARAMETER, *PMEM_EXTENDED_PARAMETER,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ api_name:
  - PMEM_EXTENDED_PARAMETER
 ---
 
-# MEM_EXTENDED_PARAMETER structure
+# MEM_EXTENDED_PARAMETER structure (wdm.h)
+
+
 
 
 ## -description

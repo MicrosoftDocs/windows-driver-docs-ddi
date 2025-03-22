@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["ArrayDimension structure"]
 ms.keywords: ArrayDimension, ,
 req.header: dbgmodel.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - ArrayDimension
 ---
 
-# ArrayDimension structure
+# ArrayDimension structure (dbgmodel.h)
+
+
 
 
 ## -description

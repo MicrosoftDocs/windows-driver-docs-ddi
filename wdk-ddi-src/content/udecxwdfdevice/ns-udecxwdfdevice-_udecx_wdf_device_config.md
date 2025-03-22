@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_WDF_DEVICE_CONFIG structure"]
 ms.keywords: "*PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG, PUDECX_WDF_DEVICE_CONFIG structure pointer [Buses], UDECX_WDF_DEVICE_CONFIG, UDECX_WDF_DEVICE_CONFIG structure [Buses], _UDECX_WDF_DEVICE_CONFIG, buses.udecx_wdf_device_config, udecxwdfdevice/PUDECX_WDF_DEVICE_CONFIG, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG"
 req.header: udecxwdfdevice.h
+req.construct-type: structure
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UDECX_WDF_DEVICE_CONFIG
 ---
 
-# _UDECX_WDF_DEVICE_CONFIG structure
+# UDECX_WDF_DEVICE_CONFIG structure (udecxwdfdevice.h)
+
+
 
 
 ## -description

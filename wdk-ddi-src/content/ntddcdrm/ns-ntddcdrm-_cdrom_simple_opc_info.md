@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_SIMPLE_OPC_INFO structure"]
 ms.keywords: "*PCDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO, CDROM_SIMPLE_OPC_INFO structure [Storage Devices], PCDROM_SIMPLE_OPC_INFO, PCDROM_SIMPLE_OPC_INFO structure pointer [Storage Devices], _CDROM_SIMPLE_OPC_INFO, ntddcdrm/CDROM_SIMPLE_OPC_INFO, ntddcdrm/PCDROM_SIMPLE_OPC_INFO, storage.cdrom_simple_opc_info"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_SIMPLE_OPC_INFO
 ---
 
-# _CDROM_SIMPLE_OPC_INFO structure
+# CDROM_SIMPLE_OPC_INFO structure (ntddcdrm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_REGION structure"]
 ms.keywords: "*PDVD_REGION, DVD_REGION, DVD_REGION structure [Storage Devices], PDVD_REGION, PDVD_REGION structure pointer [Storage Devices], _DVD_REGION, ntddcdvd/DVD_REGION, ntddcdvd/PDVD_REGION, storage.dvd_region, structs-DVD_b1569a34-c55e-482b-b87e-30becd20e2c1.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DVD_REGION
 ---
 
-# _DVD_REGION structure
+# DVD_REGION structure (ntddcdvd.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 07/26/2019
 keywords: ["NDIS_TCP_CONNECTION_OFFLOAD structure"]
 ms.keywords: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_TCP_CONNECTION_OFFLOAD
 ---
 
-# _NDIS_TCP_CONNECTION_OFFLOAD structure
+# NDIS_TCP_CONNECTION_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

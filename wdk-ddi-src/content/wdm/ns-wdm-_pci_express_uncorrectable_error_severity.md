@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure"]
 ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 ---
 
-# _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure (wdm.h)
+# PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure (wdm.h)
+
+
 
 
 ## -description

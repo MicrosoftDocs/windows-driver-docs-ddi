@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS structure"]
 ms.keywords: _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS, D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS,
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS structure
+# D3DDDICB_SUBMITCOMMANDTOHWQUEUEFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

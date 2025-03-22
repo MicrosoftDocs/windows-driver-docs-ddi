@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERIAL_CHARS structure"]
 ms.keywords: "*PSERIAL_CHARS, PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports], SERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], _SERIAL_CHARS, ntddser/PSERIAL_CHARS, ntddser/SERIAL_CHARS, serports.serial_chars"
 req.header: ntddser.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SERIAL_CHARS
 ---
 
-# _SERIAL_CHARS structure
+# SERIAL_CHARS structure (ntddser.h)
+
+
 
 
 ## -description

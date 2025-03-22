@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DRIVER_UPGRADE_INFO_1 structure"]
 ms.keywords: "*PDRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1, DRIVER_UPGRADE_INFO_1 structure [Print Devices], PDRIVER_UPGRADE_INFO_1, PDRIVER_UPGRADE_INFO_1 structure pointer [Print Devices], _DRIVER_UPGRADE_INFO_1, print.driver_upgrade_info_1, print_interface-graphics_eb7333cb-f073-4c0b-ade4-20a477d28f67.xml, winddiui/DRIVER_UPGRADE_INFO_1, winddiui/PDRIVER_UPGRADE_INFO_1"
 req.header: winddiui.h
+req.construct-type: structure
 req.include-header: Winddiui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DRIVER_UPGRADE_INFO_1
 ---
 
-# _DRIVER_UPGRADE_INFO_1 structure
+# DRIVER_UPGRADE_INFO_1 structure (winddiui.h)
+
+
 
 
 ## -description

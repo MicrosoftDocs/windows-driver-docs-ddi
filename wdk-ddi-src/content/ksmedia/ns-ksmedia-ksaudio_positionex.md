@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSAUDIO_POSITIONEX structure"]
 ms.keywords: "*PKSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX, KSAUDIO_POSITIONEX structure [Audio Devices], PKSAUDIO_POSITIONEX, PKSAUDIO_POSITIONEX structure pointer [Audio Devices], aud-prop_9a418d76-9a4f-4626-b6db-64ed4fcedb18.xml, audio.ksaudio_positionex, ksmedia/KSAUDIO_POSITIONEX, ksmedia/PKSAUDIO_POSITIONEX"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -43,7 +44,9 @@ api_name:
  - KSAUDIO_POSITIONEX
 ---
 
-# KSAUDIO_POSITIONEX structure
+# KSAUDIO_POSITIONEX structure (ksmedia.h)
+
+
 
 
 ## -description

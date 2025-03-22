@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_RedirectSessionInfo structure"]
 ms.keywords: "*PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices], PISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], _ISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, iscsimgt/PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_RedirectSessionInfo
 ---
 
-# _ISCSI_RedirectSessionInfo structure
+# ISCSI_RedirectSessionInfo structure (iscsimgt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_OPENALLOCATIONINFO structure"]
 ms.keywords: D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO structure [Display Devices], D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, _D3DDDI_OPENALLOCATIONINFO, d3dukmdt/D3DDDI_OPENALLOCATIONINFO, display.d3dddi_openallocationinfo
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_OPENALLOCATIONINFO
 ---
 
-# _D3DDDI_OPENALLOCATIONINFO structure
+# D3DDDI_OPENALLOCATIONINFO structure (d3dukmdt.h)
+
+
 
 
 ## -description

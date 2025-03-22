@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure"]
 ms.keywords: D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure [Display Devices], _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, d3dukmdt/D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION, display.d3dddi_updategpuvirtualaddress_operation
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION
 ---
 
-# _D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure
+# D3DDDI_UPDATEGPUVIRTUALADDRESS_OPERATION structure (d3dukmdt.h)
+
+
 
 
 ## -description

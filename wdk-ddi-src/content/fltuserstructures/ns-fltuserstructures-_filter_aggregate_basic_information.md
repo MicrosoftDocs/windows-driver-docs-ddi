@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILTER_AGGREGATE_BASIC_INFORMATION structure"]
 ms.keywords: "*PFILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION, FILTER_AGGREGATE_BASIC_INFORMATION structure [Installable File System Drivers], FltSystemStructures_b8f9faf4-0b81-4536-8f86-1e3f7938c3a4.xml, PFILTER_AGGREGATE_BASIC_INFORMATION, PFILTER_AGGREGATE_BASIC_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/FILTER_AGGREGATE_BASIC_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_BASIC_INFORMATION, ifsk.filter_aggregate_basic_information"
 req.header: fltuserstructures.h
+req.construct-type: structure
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Microsoft Windows Server 2003 SP1 and Windows XP SP2 with filter manager rollup.  For more information on the filter manager rollup package for Windows XP SP2, see article 914882, "The filter manager rollup package for Windows XP SP2," in the Microsoft Knowledge Base.
@@ -46,7 +47,9 @@ api_name:
  - FILTER_AGGREGATE_BASIC_INFORMATION
 ---
 
-# _FILTER_AGGREGATE_BASIC_INFORMATION structure
+# FILTER_AGGREGATE_BASIC_INFORMATION structure (fltuserstructures.h)
+
+
 
 
 ## -description

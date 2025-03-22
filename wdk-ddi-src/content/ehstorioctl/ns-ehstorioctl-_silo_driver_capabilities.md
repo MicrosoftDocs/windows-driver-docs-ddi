@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SILO_DRIVER_CAPABILITIES structure"]
 ms.keywords: "*PSILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, CAP_ON_DEMAND_AUTHENTICATION, PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities"
 req.header: ehstorioctl.h
+req.construct-type: structure
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - SILO_DRIVER_CAPABILITIES
 ---
 
-# _SILO_DRIVER_CAPABILITIES structure
+# SILO_DRIVER_CAPABILITIES structure (ehstorioctl.h)
+
+
 
 
 ## -description

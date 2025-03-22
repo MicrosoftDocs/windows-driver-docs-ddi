@@ -8,6 +8,7 @@ ms.date: 02/22/2018
 keywords: ["SMARTCARD_REQUEST structure"]
 ms.keywords: "*PSMARTCARD_REQUEST, PSMARTCARD_REQUEST, PSMARTCARD_REQUEST structure pointer [Smart Card Reader Devices], SMARTCARD_REQUEST, SMARTCARD_REQUEST structure [Smart Card Reader Devices], _SMARTCARD_REQUEST, smartcrd.smartcard_request, smclib/PSMARTCARD_REQUEST, smclib/SMARTCARD_REQUEST"
 req.header: smclib.h
+req.construct-type: structure
 req.include-header: Smclib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SMARTCARD_REQUEST
 ---
 
-# _SMARTCARD_REQUEST structure
+# SMARTCARD_REQUEST structure (smclib.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 07/26/2022
 keywords: ["FILE_ID_EXTD_BOTH_DIR_INFORMATION structure"]
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update
@@ -44,7 +45,9 @@ api_name:
  - FILE_ID_EXTD_BOTH_DIR_INFORMATION
 ---
 
-# FILE_ID_EXTD_BOTH_DIR_INFORMATION structure
+# FILE_ID_EXTD_BOTH_DIR_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

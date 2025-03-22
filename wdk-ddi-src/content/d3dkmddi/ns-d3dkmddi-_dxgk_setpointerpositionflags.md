@@ -7,6 +7,7 @@ ms.date: 12/09/2021
 keywords: ["DXGK_SETPOINTERPOSITIONFLAGS structure"]
 ms.keywords: DXGK_SETPOINTERPOSITIONFLAGS, DXGK_SETPOINTERPOSITIONFLAGS structure [Display Devices], DmStructs_57c5d8e6-b270-4423-8d85-5db8103e2492.xml, _DXGK_SETPOINTERPOSITIONFLAGS, d3dkmddi/DXGK_SETPOINTERPOSITIONFLAGS, display.dxgk_setpointerpositionflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_SETPOINTERPOSITIONFLAGS
 ---
 
-# DXGK_SETPOINTERPOSITIONFLAGS structure
+# DXGK_SETPOINTERPOSITIONFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

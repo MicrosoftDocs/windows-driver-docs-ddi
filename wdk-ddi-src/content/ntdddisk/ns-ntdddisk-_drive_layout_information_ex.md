@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DRIVE_LAYOUT_INFORMATION_EX structure"]
 ms.keywords: "*PDRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX, DRIVE_LAYOUT_INFORMATION_EX structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION_EX, PDRIVE_LAYOUT_INFORMATION_EX structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_EX, ntdddisk/DRIVE_LAYOUT_INFORMATION_EX, ntdddisk/PDRIVE_LAYOUT_INFORMATION_EX, storage.drive_layout_information_ex, structs-disk_e6755f07-50a7-48db-a39c-4485f3fb7b93.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DRIVE_LAYOUT_INFORMATION_EX
 ---
 
-# _DRIVE_LAYOUT_INFORMATION_EX structure
+# DRIVE_LAYOUT_INFORMATION_EX structure (ntdddisk.h)
+
+
 
 
 ## -description

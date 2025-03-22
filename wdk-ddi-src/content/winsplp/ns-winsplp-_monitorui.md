@@ -8,6 +8,7 @@ ms.date: 03/29/2021
 keywords: ["MONITORUI structure"]
 ms.keywords: "*PMONITORUI, MONITORUI, MONITORUI structure [Print Devices], PMONITORUI, PMONITORUI structure pointer [Print Devices], _MONITORUI, print.monitorui, spoolfnc_bcf5298e-b0b6-41c1-9152-9a804234fba9.xml, winsplp/MONITORUI, winsplp/PMONITORUI"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MONITORUI
 ---
 
-# _MONITORUI structure
+# MONITORUI structure (winsplp.h)
+
+
 
 ## -description
 

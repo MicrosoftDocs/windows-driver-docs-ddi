@@ -7,6 +7,7 @@ tech.root: display
 keywords: ["D3DCOLORVALUE structure"]
 ms.keywords: _D3DCOLORVALUE, D3DCOLORVALUE,
 req.header: d3d9types.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DCOLORVALUE structure
+# D3DCOLORVALUE structure (d3d9types.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ALTERNATE_INTERFACE structure"]
 ms.keywords: "*PALTERNATE_INTERFACE, ALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], _ALTERNATE_INTERFACE, buses.alternate_interface, usbfnbase/ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: Usbfnbase.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ALTERNATE_INTERFACE
 ---
 
-# _ALTERNATE_INTERFACE structure
+# ALTERNATE_INTERFACE structure (usbfnbase.h)
+
+
 
 
 ## -description

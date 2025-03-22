@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_SUBMITCOMMANDVIRTUAL structure"]
 ms.keywords: DXGKARG_SUBMITCOMMANDVIRTUAL, DXGKARG_SUBMITCOMMANDVIRTUAL structure [Display Devices], _DXGKARG_SUBMITCOMMANDVIRTUAL, d3dkmddi/DXGKARG_SUBMITCOMMANDVIRTUAL, display.dxgkarg_submitcommandvirtual
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_SUBMITCOMMANDVIRTUAL
 ---
 
-# _DXGKARG_SUBMITCOMMANDVIRTUAL structure
+# DXGKARG_SUBMITCOMMANDVIRTUAL structure (d3dkmddi.h)
+
+
 
 
 ## -description

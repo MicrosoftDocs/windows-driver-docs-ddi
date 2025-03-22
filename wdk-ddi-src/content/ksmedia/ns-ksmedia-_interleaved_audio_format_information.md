@@ -7,6 +7,7 @@ ms.date: 08/14/2020
 keywords: ["INTERLEAVED_AUDIO_FORMAT_INFORMATION structure"]
 ms.keywords: INTERLEAVED_AUDIO_FORMAT_INFORMATION, INTERLEAVED_AUDIO_FORMAT_INFORMATION,
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - INTERLEAVED_AUDIO_FORMAT_INFORMATION
 ---
 
-# INTERLEAVED_AUDIO_FORMAT_INFORMATION structure
+# INTERLEAVED_AUDIO_FORMAT_INFORMATION structure (ksmedia.h)
+
+
 
 
 ## -description

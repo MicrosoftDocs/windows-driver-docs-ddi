@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_SET_PIN_EX2 structure"]
 ms.keywords: _NDIS_WWAN_SET_PIN_EX2, NDIS_WWAN_SET_PIN_EX2, *PNDIS_WWAN_SET_PIN_EX2,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_SET_PIN_EX2
 ---
 
-# _NDIS_WWAN_SET_PIN_EX2 structure
+# NDIS_WWAN_SET_PIN_EX2 structure (ndiswwan.h)
+
+
 
 
 ## -description

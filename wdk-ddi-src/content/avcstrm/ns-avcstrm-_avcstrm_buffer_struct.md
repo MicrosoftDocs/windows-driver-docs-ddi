@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["AVCSTRM_BUFFER_STRUCT structure"]
 ms.keywords: "*PAVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT, AVCSTRM_BUFFER_STRUCT structure [Streaming Media Devices], PAVCSTRM_BUFFER_STRUCT, PAVCSTRM_BUFFER_STRUCT structure pointer [Streaming Media Devices], _AVCSTRM_BUFFER_STRUCT, avcsref_9cec2cfb-d187-4349-b443-894f881f5108.xml, avcstrm/AVCSTRM_BUFFER_STRUCT, avcstrm/PAVCSTRM_BUFFER_STRUCT, stream.avcstrm_buffer_struct"
 req.header: avcstrm.h
+req.construct-type: structure
 req.include-header: Avcstrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AVCSTRM_BUFFER_STRUCT
 ---
 
-# _AVCSTRM_BUFFER_STRUCT structure
+# AVCSTRM_BUFFER_STRUCT structure (avcstrm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_STRING structure"]
 ms.keywords: "*PBDA_STRING, BDA_STRING, BDA_STRING structure [Streaming Media Devices], PBDA_STRING, PBDA_STRING structure pointer [Streaming Media Devices], _BDA_STRING, bdatypes/BDA_STRING, bdatypes/PBDA_STRING, stream.bda_string"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_STRING
 ---
 
-# _BDA_STRING structure
+# BDA_STRING structure (bdatypes.h)
+
+
 
 
 ## -description

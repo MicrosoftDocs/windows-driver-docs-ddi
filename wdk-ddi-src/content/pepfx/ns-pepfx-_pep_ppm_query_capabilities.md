@@ -8,6 +8,7 @@ ms.date: 08/10/2022
 keywords: ["PEP_PPM_QUERY_CAPABILITIES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_QUERY_CAPABILITIES
 ---
 
-# _PEP_PPM_QUERY_CAPABILITIES structure (pepfx.h)
+# PEP_PPM_QUERY_CAPABILITIES structure (pepfx.h)
+
+
 
 ## -description
 

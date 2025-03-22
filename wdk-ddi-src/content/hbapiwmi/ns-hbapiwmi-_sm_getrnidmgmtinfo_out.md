@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_GetRNIDMgmtInfo_OUT structure"]
 ms.keywords: "*PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT, PSM_GetRNIDMgmtInfo_OUT structure pointer [Storage Devices], SM_GetRNIDMgmtInfo_OUT, SM_GetRNIDMgmtInfo_OUT structure [Storage Devices], _SM_GetRNIDMgmtInfo_OUT, hbapiwmi/PSM_GetRNIDMgmtInfo_OUT, hbapiwmi/SM_GetRNIDMgmtInfo_OUT, storage.sm_getrnidmgmtinfo_out, structs-Fibre_c5f33dc4-bde0-43bb-8528-9cb2e0d2ee3f.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_GetRNIDMgmtInfo_OUT
 ---
 
-# _SM_GetRNIDMgmtInfo_OUT structure
+# SM_GetRNIDMgmtInfo_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

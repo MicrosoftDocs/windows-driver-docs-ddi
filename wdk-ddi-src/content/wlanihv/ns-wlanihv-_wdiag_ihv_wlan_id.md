@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["WDIAG_IHV_WLAN_ID structure"]
 ms.keywords: "*PWDIAG_IHV_WLAN_ID, Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml, PWDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], WDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], _WDIAG_IHV_WLAN_ID, netvista.wdiag_ihv_wlan_id, wlanihv/PWDIAG_IHV_WLAN_ID, wlanihv/WDIAG_IHV_WLAN_ID"
 req.header: wlanihv.h
+req.construct-type: structure
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - WDIAG_IHV_WLAN_ID
 ---
 
-# _WDIAG_IHV_WLAN_ID structure
+# WDIAG_IHV_WLAN_ID structure (wlanihv.h)
+
+
 
 
 ## -description

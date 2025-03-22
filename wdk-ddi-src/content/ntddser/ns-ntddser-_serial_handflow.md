@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERIAL_HANDFLOW structure"]
 ms.keywords: "*PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], _SERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, ntddser/SERIAL_HANDFLOW, serports.serial_handflow"
 req.header: ntddser.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SERIAL_HANDFLOW
 ---
 
-# _SERIAL_HANDFLOW structure
+# SERIAL_HANDFLOW structure (ntddser.h)
+
+
 
 
 ## -description

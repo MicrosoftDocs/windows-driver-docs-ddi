@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETFORMATCOUNTDATA structure"]
 ms.keywords: DD_GETFORMATCOUNTDATA, DD_GETFORMATCOUNTDATA structure [Display Devices], _DD_GETFORMATCOUNTDATA, d3dhal/DD_GETFORMATCOUNTDATA, d3dstrct_610983cc-4f8a-4c16-b60b-960dbf0c58e9.xml, display.dd_getformatcountdata
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETFORMATCOUNTDATA
 ---
 
-# _DD_GETFORMATCOUNTDATA structure
+# DD_GETFORMATCOUNTDATA structure (d3dhal.h)
+
+
 
 
 ## -description

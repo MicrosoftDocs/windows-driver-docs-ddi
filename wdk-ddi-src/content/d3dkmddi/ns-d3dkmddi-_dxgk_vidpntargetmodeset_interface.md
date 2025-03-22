@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_VIDPNTARGETMODESET_INTERFACE structure"]
 ms.keywords: DXGK_VIDPNTARGETMODESET_INTERFACE, DXGK_VIDPNTARGETMODESET_INTERFACE structure [Display Devices], DmStructs_f73ff16c-04e3-491b-9f0a-de50563abea4.xml, _DXGK_VIDPNTARGETMODESET_INTERFACE, d3dkmddi/DXGK_VIDPNTARGETMODESET_INTERFACE, display.dxgk_vidpntargetmodeset_interface
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_VIDPNTARGETMODESET_INTERFACE
 ---
 
-# _DXGK_VIDPNTARGETMODESET_INTERFACE structure
+# DXGK_VIDPNTARGETMODESET_INTERFACE structure (d3dkmddi.h)
+
+
 
 
 ## -description

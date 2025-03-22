@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_PLAY_AUDIO_MSF structure"]
 ms.keywords: "*PCDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF, CDROM_PLAY_AUDIO_MSF structure [Storage Devices], PCDROM_PLAY_AUDIO_MSF, PCDROM_PLAY_AUDIO_MSF structure pointer [Storage Devices], _CDROM_PLAY_AUDIO_MSF, ntddcdrm/CDROM_PLAY_AUDIO_MSF, ntddcdrm/PCDROM_PLAY_AUDIO_MSF, storage.cdrom_play_audio_msf, structs-CD-ROM_27bfe732-1972-4101-baa1-e9d520c3dfcf.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_PLAY_AUDIO_MSF
 ---
 
-# _CDROM_PLAY_AUDIO_MSF structure
+# CDROM_PLAY_AUDIO_MSF structure (ntddcdrm.h)
+
+
 
 
 ## -description

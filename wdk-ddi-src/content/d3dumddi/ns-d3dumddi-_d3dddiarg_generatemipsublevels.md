@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_GENERATEMIPSUBLEVELS structure"]
 ms.keywords: D3DDDIARG_GENERATEMIPSUBLEVELS, D3DDDIARG_GENERATEMIPSUBLEVELS structure [Display Devices], UMDisplayDriver_param_Structs_4000d18b-18c0-4499-bfbe-a3f5e866553b.xml, _D3DDDIARG_GENERATEMIPSUBLEVELS, d3dumddi/D3DDDIARG_GENERATEMIPSUBLEVELS, display.d3dddiarg_generatemipsublevels
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_GENERATEMIPSUBLEVELS
 ---
 
-# _D3DDDIARG_GENERATEMIPSUBLEVELS structure
+# D3DDDIARG_GENERATEMIPSUBLEVELS structure (d3dumddi.h)
+
+
 
 
 ## -description

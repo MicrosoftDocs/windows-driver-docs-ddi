@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_GRAPHMANAGER_INTERFACE structure"]
 ms.keywords: "*PKSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE, KSPROPERTY_GRAPHMANAGER_INTERFACE structure [Streaming Media Devices], PKSPROPERTY_GRAPHMANAGER_INTERFACE, PKSPROPERTY_GRAPHMANAGER_INTERFACE structure pointer [Streaming Media Devices], _KSPROPERTY_GRAPHMANAGER_INTERFACE, ks/KSPROPERTY_GRAPHMANAGER_INTERFACE, ks/PKSPROPERTY_GRAPHMANAGER_INTERFACE, stream.ksproperty_graphmanager_interface"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSPROPERTY_GRAPHMANAGER_INTERFACE
 ---
 
-# _KSPROPERTY_GRAPHMANAGER_INTERFACE structure
+# KSPROPERTY_GRAPHMANAGER_INTERFACE structure (ks.h)
+
+
 
 
 ## -description

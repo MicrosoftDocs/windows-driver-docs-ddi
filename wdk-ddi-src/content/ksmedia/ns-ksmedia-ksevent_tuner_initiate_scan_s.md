@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSEVENT_TUNER_INITIATE_SCAN_S structure"]
 ms.keywords: "*PKSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S, KSEVENT_TUNER_INITIATE_SCAN_S structure [Streaming Media Devices], PKSEVENT_TUNER_INITIATE_SCAN_S, PKSEVENT_TUNER_INITIATE_SCAN_S structure pointer [Streaming Media Devices], ksmedia/KSEVENT_TUNER_INITIATE_SCAN_S, ksmedia/PKSEVENT_TUNER_INITIATE_SCAN_S, stream.ksevent_tuner_initiate_scan_s, vidcapstruct_569c5d77-3ec5-48ed-bf87-0c41297d8f9b.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the operating system.
@@ -43,7 +44,9 @@ api_name:
  - KSEVENT_TUNER_INITIATE_SCAN_S
 ---
 
-# KSEVENT_TUNER_INITIATE_SCAN_S structure
+# KSEVENT_TUNER_INITIATE_SCAN_S structure (ksmedia.h)
+
+
 
 
 ## -description

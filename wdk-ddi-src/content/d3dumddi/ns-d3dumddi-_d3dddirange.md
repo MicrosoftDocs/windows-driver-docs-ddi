@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIRANGE structure"]
 ms.keywords: D3DDDIRANGE, D3DDDIRANGE structure [Display Devices], _D3DDDIRANGE, d3dumddi/D3DDDIRANGE, display.d3dddirange
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIRANGE
 ---
 
-# _D3DDDIRANGE structure
+# D3DDDIRANGE structure (d3dumddi.h)
+
+
 
 
 ## -description

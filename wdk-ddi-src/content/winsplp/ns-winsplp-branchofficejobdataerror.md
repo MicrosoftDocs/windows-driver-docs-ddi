@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BranchOfficeJobDataError structure"]
 ms.keywords: "*PBranchOfficeJobDataError, BranchOfficeJobDataError, BranchOfficeJobDataError structure [Print Devices], PBranchOfficeJobDataError, PBranchOfficeJobDataError structure pointer [Print Devices], print.branchofficejobdataerror, winsplp/BranchOfficeJobDataError, winsplp/PBranchOfficeJobDataError"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BranchOfficeJobDataError
 ---
 
-# BranchOfficeJobDataError structure
+# BranchOfficeJobDataError structure (winsplp.h)
+
+
 
 
 ## -description

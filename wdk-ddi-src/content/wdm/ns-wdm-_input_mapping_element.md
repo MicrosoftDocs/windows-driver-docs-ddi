@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["INPUT_MAPPING_ELEMENT structure"]
 ms.keywords: _INPUT_MAPPING_ELEMENT, INPUT_MAPPING_ELEMENT, *PINPUT_MAPPING_ELEMENT,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - INPUT_MAPPING_ELEMENT
 ---
 
-# _INPUT_MAPPING_ELEMENT structure
+# INPUT_MAPPING_ELEMENT structure (wdm.h)
+
+
 
 
 ## -description

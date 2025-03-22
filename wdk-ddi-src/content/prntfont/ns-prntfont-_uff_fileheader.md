@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["UFF_FILEHEADER structure"]
 ms.keywords: "*PUFF_FILEHEADER, PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], _UFF_FILEHEADER, print.uff_fileheader, print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, prntfont/PUFF_FILEHEADER, prntfont/UFF_FILEHEADER"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PUFF_FILEHEADER
  - UFF_FILEHEADER
 ---
+
+# UFF_FILEHEADER structure (prntfont.h)
 
 ## -description
 

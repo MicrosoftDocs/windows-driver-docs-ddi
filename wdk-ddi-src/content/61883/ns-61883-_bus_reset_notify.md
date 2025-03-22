@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["BUS_RESET_NOTIFY structure"]
 ms.keywords: "*PBUS_RESET_NOTIFY, 61883/BUS_RESET_NOTIFY, 61883/PBUS_RESET_NOTIFY, BUS_RESET_NOTIFY, BUS_RESET_NOTIFY structure [Buses], IEEE.bus_reset_notify, PBUS_RESET_NOTIFY, PBUS_RESET_NOTIFY structure pointer [Buses], _BUS_RESET_NOTIFY"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BUS_RESET_NOTIFY
 ---
 
-# _BUS_RESET_NOTIFY structure
+# BUS_RESET_NOTIFY structure (61883.h)
+
+
 
 
 ## -description

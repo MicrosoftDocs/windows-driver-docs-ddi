@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UFX_HARDWARE_FAILURE_CONTEXT structure"]
 ms.keywords: "*PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT, PUFX_HARDWARE_FAILURE_CONTEXT structure pointer [Buses], UFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT structure [Buses], _UFX_HARDWARE_FAILURE_CONTEXT, buses.ufx_hardware_failure_context, ufxbase/PUFX_HARDWARE_FAILURE_CONTEXT, ufxbase/UFX_HARDWARE_FAILURE_CONTEXT"
 req.header: ufxbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UFX_HARDWARE_FAILURE_CONTEXT
 ---
 
-# _UFX_HARDWARE_FAILURE_CONTEXT structure
+# UFX_HARDWARE_FAILURE_CONTEXT structure (ufxbase.h)
+
+
 
 
 ## -description

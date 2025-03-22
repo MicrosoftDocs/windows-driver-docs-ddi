@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_ITEM structure"]
 ms.keywords: "*PKSEVENT_ITEM, KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/KSEVENT_ITEM, ks/PKSEVENT_ITEM, stream.ksevent_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSEVENT_ITEM
 ---
 
-# KSEVENT_ITEM structure
+# KSEVENT_ITEM structure (ks.h)
+
+
 
 
 ## -description

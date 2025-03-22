@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_TEMPERATURE_THRESHOLD structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD, PSTORAGE_TEMPERATURE_THRESHOLD structure pointer [Storage Devices], STORAGE_TEMPERATURE_THRESHOLD, STORAGE_TEMPERATURE_THRESHOLD structure [Storage Devices], _STORAGE_TEMPERATURE_THRESHOLD, ntddstor/PSTORAGE_TEMPERATURE_THRESHOLD, ntddstor/STORAGE_TEMPERATURE_THRESHOLD, storage.storage_temperature_threshold"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_TEMPERATURE_THRESHOLD
 ---
 
-# _STORAGE_TEMPERATURE_THRESHOLD structure
+# STORAGE_TEMPERATURE_THRESHOLD structure (ntddstor.h)
+
+
 
 
 ## -description

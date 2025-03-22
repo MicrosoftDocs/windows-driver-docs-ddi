@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_DISTANCETRACKING_PARAM structure"]
 ms.keywords: "*PGNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM, GNSS_DISTANCETRACKING_PARAM structure [Sensor Devices], PGNSS_DISTANCETRACKING_PARAM, PGNSS_DISTANCETRACKING_PARAM structure pointer [Sensor Devices], gnss.gnss_distancetracking_param, gnssdriver/GNSS_DISTANCETRACKING_PARAM, gnssdriver/PGNSS_DISTANCETRACKING_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_DISTANCETRACKING_PARAM
 ---
 
-# GNSS_DISTANCETRACKING_PARAM structure
+# GNSS_DISTANCETRACKING_PARAM structure (gnssdriver.h)
+
+
 
 
 ## -description

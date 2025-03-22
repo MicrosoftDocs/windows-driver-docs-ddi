@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IEEE.irb_req_isoch_allocate_resources_w2k, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K
 ---
 
-# _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure
+# IRB_REQ_ISOCH_ALLOCATE_RESOURCES_W2K structure (1394.h)
+
+
 
 
 ## -description

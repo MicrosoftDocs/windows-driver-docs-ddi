@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PROTOCOL_PAUSE_PARAMETERS structure"]
 ms.keywords: "*PNDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS, NDIS_PROTOCOL_PAUSE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_PAUSE_PARAMETERS, PNDIS_PROTOCOL_PAUSE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/NDIS_PROTOCOL_PAUSE_PARAMETERS, ndis/PNDIS_PROTOCOL_PAUSE_PARAMETERS, netvista.ndis_protocol_pause_parameters, protocol_structures_ref_0b5004b2-d77f-427a-8473-f0ffb13a09f4.xml"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PROTOCOL_PAUSE_PARAMETERS
 ---
 
-# _NDIS_PROTOCOL_PAUSE_PARAMETERS structure
+# NDIS_PROTOCOL_PAUSE_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

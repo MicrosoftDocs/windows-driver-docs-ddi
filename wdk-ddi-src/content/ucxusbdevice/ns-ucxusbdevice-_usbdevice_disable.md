@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBDEVICE_DISABLE structure"]
 ms.keywords: "*PUSBDEVICE_DISABLE, P_USBDEVICE_DISABLE, P_USBDEVICE_DISABLE structure pointer [Buses], USBDEVICE_DISABLE, USBDEVICE_DISABLE structure [Buses], _USBDEVICE_DISABLE, buses._usbdevice_disable, ucxusbdevice/P_USBDEVICE_DISABLE, ucxusbdevice/_USBDEVICE_DISABLE"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBDEVICE_DISABLE
 ---
 
-# _USBDEVICE_DISABLE structure
+# USBDEVICE_DISABLE structure (ucxusbdevice.h)
+
+
 
 
 ## -description

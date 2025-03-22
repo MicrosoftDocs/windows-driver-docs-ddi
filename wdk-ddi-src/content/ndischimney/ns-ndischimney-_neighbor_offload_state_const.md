@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NEIGHBOR_OFFLOAD_STATE_CONST structure"]
 ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST, NEIGHBOR_OFFLOAD_STATE_CONST structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_CONST, PNEIGHBOR_OFFLOAD_STATE_CONST structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/NEIGHBOR_OFFLOAD_STATE_CONST, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CONST, netvista.neighbor_offload_state_const, tcp_chim_struct_3e21fef6-9a3c-4eba-b6fb-31af70a3eaaa.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NEIGHBOR_OFFLOAD_STATE_CONST
 ---
 
-# _NEIGHBOR_OFFLOAD_STATE_CONST structure
+# NEIGHBOR_OFFLOAD_STATE_CONST structure (ndischimney.h)
+
+
 
 
 ## -description

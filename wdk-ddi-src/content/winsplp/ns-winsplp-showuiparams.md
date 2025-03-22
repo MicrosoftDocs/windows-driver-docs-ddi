@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["SHOWUIPARAMS structure"]
 ms.keywords: "*PSHOWUIPARAMS, PSHOWUIPARAMS, PSHOWUIPARAMS structure pointer [Print Devices], SHOWUIPARAMS, SHOWUIPARAMS structure [Print Devices], print.showuiparams, spoolfnc_bf6ce7c8-8b86-40c9-9b03-64c3e3366a04.xml, winsplp/PSHOWUIPARAMS, winsplp/SHOWUIPARAMS"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: This function is available in Windows XP and later operating systems.
@@ -43,7 +44,9 @@ api_name:
  - SHOWUIPARAMS
 ---
 
-# SHOWUIPARAMS structure
+# SHOWUIPARAMS structure (winsplp.h)
+
+
 
 
 ## -description

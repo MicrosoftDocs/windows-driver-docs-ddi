@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["UNIDRVINFO structure"]
 ms.keywords: "*PUNIDRVINFO, PUNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, prntfont/PUNIDRVINFO, prntfont/UNIDRVINFO"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PUNIDRVINFO
  - UNIDRVINFO
 ---
+
+# UNIDRVINFO structure (prntfont.h)
 
 ## -description
 

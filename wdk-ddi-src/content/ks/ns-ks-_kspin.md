@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN structure"]
 ms.keywords: "*PKSPIN, KSPIN, KSPIN structure [Streaming Media Devices], PKSPIN, PKSPIN structure pointer [Streaming Media Devices], _KSPIN, avstruct_9453feff-ba40-4f54-bdb6-07f4f31548aa.xml, ks/KSPIN, ks/PKSPIN, stream.kspin"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSPIN
 ---
 
-# _KSPIN structure
+# KSPIN structure (ks.h)
+
+
 
 
 ## -description

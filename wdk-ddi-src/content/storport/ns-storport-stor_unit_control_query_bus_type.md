@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 05/13/2021
 ms.keywords: STOR_UNIT_CONTROL_QUERY_BUS_TYPE, STOR_UNIT_CONTROL_QUERY_BUS_TYPE, *PSTOR_UNIT_CONTROL_QUERY_BUS_TYPE,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ f1_keywords:
  - storport/STOR_UNIT_CONTROL_QUERY_BUS_TYPE
 ---
 
-# STOR_UNIT_CONTROL_QUERY_BUS_TYPE structure
+# STOR_UNIT_CONTROL_QUERY_BUS_TYPE structure (storport.h)
+
+
 
 ## -description
 

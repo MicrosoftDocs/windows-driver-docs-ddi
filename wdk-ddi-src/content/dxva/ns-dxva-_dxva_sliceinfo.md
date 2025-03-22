@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_SliceInfo structure"]
 ms.keywords: "*LPDXVA_SliceInfo, DXVA_SliceInfo, DXVA_SliceInfo structure [Display Devices], LPDXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], _DXVA_SliceInfo, display.dxva_sliceinfo, dxva/DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_SliceInfo
 ---
 
-# _DXVA_SliceInfo structure
+# DXVA_SliceInfo structure (dxva.h)
+
+
 
 
 ## -description

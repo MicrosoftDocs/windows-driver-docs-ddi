@@ -8,6 +8,7 @@ ms.date: 06/15/2023
 keywords: ["NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure"]
 ms.keywords: "*PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, netvista.ndis_encapsulated_packet_task_offload, ntddndis/NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD, ntddndis/PNDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8,Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD
 ---
 
-# _NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure
+# NDIS_ENCAPSULATED_PACKET_TASK_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

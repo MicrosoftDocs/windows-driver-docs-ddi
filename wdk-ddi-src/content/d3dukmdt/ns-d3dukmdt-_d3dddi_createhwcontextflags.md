@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_CREATEHWCONTEXTFLAGS structure"]
 ms.keywords: D3DDDI_CREATEHWCONTEXTFLAGS, D3DDDI_CREATEHWCONTEXTFLAGS structure [Display Devices], _D3DDDI_CREATEHWCONTEXTFLAGS, d3dukmdt/D3DDDI_CREATEHWCONTEXTFLAGS, display.d3dddi_createhwcontextflags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_CREATEHWCONTEXTFLAGS
 ---
 
-# _D3DDDI_CREATEHWCONTEXTFLAGS structure
+# D3DDDI_CREATEHWCONTEXTFLAGS structure (d3dukmdt.h)
+
+
 
 
 ## -description

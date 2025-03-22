@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_NOTIFICATION structure"]
 ms.keywords: "*PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION, PUSBFN_NOTIFICATION structure pointer [Buses], USBFN_NOTIFICATION, USBFN_NOTIFICATION structure [Buses], _USBFN_NOTIFICATION, buses.usbfn_notification, usbfnbase/PUSBFN_NOTIFICATION, usbfnbase/USBFN_NOTIFICATION"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_NOTIFICATION
 ---
 
-# _USBFN_NOTIFICATION structure
+# USBFN_NOTIFICATION structure (usbfnbase.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 09/24/2020
 keywords: ["IDARG_IN_SETSWAPCHAIN structure"]
 ms.keywords: IDARG_IN_SETSWAPCHAIN, IDARG_IN_SETSWAPCHAIN structure [Display Devices], display.idarg_in_setswapchain, iddcx/IDARG_IN_SETSWAPCHAIN
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_SETSWAPCHAIN
 ---
 
-# IDARG_IN_SETSWAPCHAIN structure
+# IDARG_IN_SETSWAPCHAIN structure (iddcx.h)
+
+
 
 ## -description
 

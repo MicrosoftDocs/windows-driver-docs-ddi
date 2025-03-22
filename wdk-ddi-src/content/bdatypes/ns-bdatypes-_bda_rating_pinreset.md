@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_RATING_PINRESET structure"]
 ms.keywords: "*PBDA_RATING_PINRESET, BDA_RATING_PINRESET, BDA_RATING_PINRESET structure [Streaming Media Devices], PBDA_RATING_PINRESET, PBDA_RATING_PINRESET structure pointer [Streaming Media Devices], _BDA_RATING_PINRESET, bdatypes/BDA_RATING_PINRESET, bdatypes/PBDA_RATING_PINRESET, stream.bda_rating_pinreset"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_RATING_PINRESET
 ---
 
-# _BDA_RATING_PINRESET structure
+# BDA_RATING_PINRESET structure (bdatypes.h)
+
+
 
 
 ## -description

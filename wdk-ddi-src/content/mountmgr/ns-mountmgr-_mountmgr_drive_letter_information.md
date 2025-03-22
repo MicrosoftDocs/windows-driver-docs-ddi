@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["MOUNTMGR_DRIVE_LETTER_INFORMATION structure"]
 ms.keywords: "*PMOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION, MOUNTMGR_DRIVE_LETTER_INFORMATION structure [Storage Devices], PMOUNTMGR_DRIVE_LETTER_INFORMATION, PMOUNTMGR_DRIVE_LETTER_INFORMATION structure pointer [Storage Devices], _MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/MOUNTMGR_DRIVE_LETTER_INFORMATION, mountmgr/PMOUNTMGR_DRIVE_LETTER_INFORMATION, storage.mountmgr_drive_letter_information, structs-mntmgr_19ece61a-9dda-466c-a414-047d71beeb2c.xml"
 req.header: mountmgr.h
+req.construct-type: structure
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMOUNTMGR_DRIVE_LETTER_INFORMATION
  - MOUNTMGR_DRIVE_LETTER_INFORMATION
 ---
+
+# MOUNTMGR_DRIVE_LETTER_INFORMATION structure (mountmgr.h)
 
 ## -description
 

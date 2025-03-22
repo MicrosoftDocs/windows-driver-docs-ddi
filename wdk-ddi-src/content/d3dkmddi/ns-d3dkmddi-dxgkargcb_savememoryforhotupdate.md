@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure"]
 ms.keywords: DXGKARGCB_SAVEMEMORYFORHOTUPDATE, DXGKARGCB_SAVEMEMORYFORHOTUPDATE,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903 (WDDM 2.6)
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure
+# DXGKARGCB_SAVEMEMORYFORHOTUPDATE structure (d3dkmddi.h)
+
+
 
 ## -description
 

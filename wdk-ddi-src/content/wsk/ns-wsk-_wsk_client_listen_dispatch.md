@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WSK_CLIENT_LISTEN_DISPATCH structure"]
 ms.keywords: "*PWSK_CLIENT_LISTEN_DISPATCH, PWSK_CLIENT_LISTEN_DISPATCH, PWSK_CLIENT_LISTEN_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_CLIENT_LISTEN_DISPATCH, WSK_CLIENT_LISTEN_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_CLIENT_LISTEN_DISPATCH, netvista.wsk_client_listen_dispatch, wsk/PWSK_CLIENT_LISTEN_DISPATCH, wsk/WSK_CLIENT_LISTEN_DISPATCH, wskref_38021620-217a-4a26-b461-f59f87c9579d.xml"
 req.header: wsk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - WSK_CLIENT_LISTEN_DISPATCH
 ---
 
-# _WSK_CLIENT_LISTEN_DISPATCH structure
+# WSK_CLIENT_LISTEN_DISPATCH structure (wsk.h)
+
+
 
 
 ## -description

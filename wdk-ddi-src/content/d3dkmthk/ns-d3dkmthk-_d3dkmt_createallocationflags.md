@@ -5,6 +5,7 @@ description: Learn more about the D3DKMT_CREATEALLOCATIONFLAGS structure.
 ms.date: 04/10/2024
 keywords: ["D3DKMT_CREATEALLOCATIONFLAGS structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -40,6 +41,8 @@ api_name:
  - _D3DKMT_CREATEALLOCATIONFLAGS
  - D3DKMT_CREATEALLOCATIONFLAGS
 ---
+
+# D3DKMT_CREATEALLOCATIONFLAGS structure (d3dkmthk.h)
 
 ## -description
 

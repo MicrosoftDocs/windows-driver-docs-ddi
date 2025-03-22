@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["SE_TOKEN_USER structure"]
 ms.keywords: PSE_TOKEN_USER, PSE_TOKEN_USER structure pointer [Installable File System Drivers], SE_TOKEN_USER, SE_TOKEN_USER structure [Installable File System Drivers], _SE_TOKEN_USER, ifsk.se_token_user, ntifs/PSE_TOKEN_USER, ntifs/SE_TOKEN_USER
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - SE_TOKEN_USER
 ---
 
-# SE_TOKEN_USER structure
+# SE_TOKEN_USER structure (ntifs.h)
+
+
 
 ## -description
 

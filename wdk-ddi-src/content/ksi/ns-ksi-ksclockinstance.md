@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCLOCKINSTANCE structure"]
 ms.keywords: "*PKSCLOCKINSTANCE, KSCLOCKINSTANCE, KSCLOCKINSTANCE structure [Streaming Media Devices], PKSCLOCKINSTANCE, PKSCLOCKINSTANCE structure pointer [Streaming Media Devices], ksi/KSCLOCKINSTANCE, ksi/PKSCLOCKINSTANCE, stream.ksclockinstance"
 req.header: ksi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSCLOCKINSTANCE
 ---
 
-# KSCLOCKINSTANCE structure
+# KSCLOCKINSTANCE structure (ksi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_ETHERNET_ADDRESS structure"]
 ms.keywords: "*PBDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS, BDA_ETHERNET_ADDRESS structure [Streaming Media Devices], PBDA_ETHERNET_ADDRESS, PBDA_ETHERNET_ADDRESS structure pointer [Streaming Media Devices], _BDA_ETHERNET_ADDRESS, bdatypes/BDA_ETHERNET_ADDRESS, bdatypes/PBDA_ETHERNET_ADDRESS, stream.bda_ethernet_address"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_ETHERNET_ADDRESS
 ---
 
-# _BDA_ETHERNET_ADDRESS structure
+# BDA_ETHERNET_ADDRESS structure (bdatypes.h)
+
+
 
 
 ## -description

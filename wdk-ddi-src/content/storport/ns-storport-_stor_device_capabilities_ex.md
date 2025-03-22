@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_DEVICE_CAPABILITIES_EX structure"]
 ms.keywords: "*PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX, PSTOR_DEVICE_CAPABILITIES_EX structure pointer [Storage Devices], STOR_DEVICE_CAPABILITIES_EX, STOR_DEVICE_CAPABILITIES_EX structure [Storage Devices], _STOR_DEVICE_CAPABILITIES_EX, storage.stor_device_capabilities_ex, storport/PSTOR_DEVICE_CAPABILITIES_EX, storport/STOR_DEVICE_CAPABILITIES_EX"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_DEVICE_CAPABILITIES_EX
 ---
 
-# _STOR_DEVICE_CAPABILITIES_EX structure (storport.h)
+# STOR_DEVICE_CAPABILITIES_EX structure (storport.h)
+
+
 
 
 ## -description

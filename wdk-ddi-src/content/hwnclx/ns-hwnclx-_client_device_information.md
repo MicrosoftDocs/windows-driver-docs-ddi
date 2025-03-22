@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CLIENT_DEVICE_INFORMATION structure"]
 ms.keywords: "*PCLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION, CLIENT_DEVICE_INFORMATION structure, _CLIENT_DEVICE_INFORMATION, gpiobtn._client_device_information, hwnclx/CLIENT_DEVICE_INFORMATION"
 req.header: hwnclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - CLIENT_DEVICE_INFORMATION
 ---
 
-# _CLIENT_DEVICE_INFORMATION structure
+# CLIENT_DEVICE_INFORMATION structure (hwnclx.h)
+
+
 
 
 ## -description

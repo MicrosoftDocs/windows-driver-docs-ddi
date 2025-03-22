@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_RESET_STATUS structure"]
 ms.keywords: "*PNDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS, NDIS_WWAN_DEVICE_RESET_STATUS structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_RESET_STATUS, PNDIS_WWAN_DEVICE_RESET_STATUS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/NDIS_WWAN_DEVICE_RESET_STATUS, ndiswwan/PNDIS_WWAN_DEVICE_RESET_STATUS, netvista.ndis_wwan_device_reset_status"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_DEVICE_RESET_STATUS
 ---
 
-# _NDIS_WWAN_DEVICE_RESET_STATUS structure
+# NDIS_WWAN_DEVICE_RESET_STATUS structure (ndiswwan.h)
+
+
 
 
 ## -description

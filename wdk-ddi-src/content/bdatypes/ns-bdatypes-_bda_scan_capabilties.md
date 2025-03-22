@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_SCAN_CAPABILTIES structure"]
 ms.keywords: "*PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], PBDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], _BDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, bdatypes/PBDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_SCAN_CAPABILTIES
 ---
 
-# _BDA_SCAN_CAPABILTIES structure
+# BDA_SCAN_CAPABILTIES structure (bdatypes.h)
+
+
 
 
 ## -description

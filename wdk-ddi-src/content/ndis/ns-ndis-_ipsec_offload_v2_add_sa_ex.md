@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["IPSEC_OFFLOAD_V2_ADD_SA_EX structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX, IPSEC_OFFLOAD_V2_ADD_SA_EX structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_ADD_SA_EX, PIPSEC_OFFLOAD_V2_ADD_SA_EX structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/IPSEC_OFFLOAD_V2_ADD_SA_EX, ndis/PIPSEC_OFFLOAD_V2_ADD_SA_EX, netvista.ipsec_offload_v2_add_sa_ex"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - IPSEC_OFFLOAD_V2_ADD_SA_EX
 ---
 
-# _IPSEC_OFFLOAD_V2_ADD_SA_EX structure
+# IPSEC_OFFLOAD_V2_ADD_SA_EX structure (ndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IDARG_IN_COMMITMODES structure"]
 ms.keywords: IDARG_IN_COMMITMODES, IDARG_IN_COMMITMODES structure [Display Devices], display.idarg_in_commitmodes, iddcx/IDARG_IN_COMMITMODES
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IDARG_IN_COMMITMODES
 ---
 
-# IDARG_IN_COMMITMODES structure
+# IDARG_IN_COMMITMODES structure (iddcx.h)
+
+
 
 ## -description
 

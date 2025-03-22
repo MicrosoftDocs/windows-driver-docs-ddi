@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_MAKERESIDENT_0001 structure"]
 ms.keywords: D3D12DDIARG_MAKERESIDENT_0001, D3D12DDIARG_MAKERESIDENT_0001,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDIARG_MAKERESIDENT_0001 structure
+# D3D12DDIARG_MAKERESIDENT_0001 structure (d3d12umddi.h)
+
+
 
 
 ## -description

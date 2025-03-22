@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FSRTL_PER_FILE_CONTEXT structure"]
 ms.keywords: "*PFSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], _FSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, ifsk.fsrtl_per_file_context, ntifs/FSRTL_PER_FILE_CONTEXT, ntifs/PFSRTL_PER_FILE_CONTEXT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting withWindows Vista.
@@ -46,7 +47,9 @@ api_name:
  - FSRTL_PER_FILE_CONTEXT
 ---
 
-# _FSRTL_PER_FILE_CONTEXT structure
+# FSRTL_PER_FILE_CONTEXT structure (ntifs.h)
+
+
 
 
 ## -description

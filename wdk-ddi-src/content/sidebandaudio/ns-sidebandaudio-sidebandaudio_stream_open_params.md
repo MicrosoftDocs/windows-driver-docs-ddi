@@ -6,6 +6,7 @@ ms.date: 07/21/2023
 keywords: ["SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure"]
 ms.keywords: SIDEBANDAUDIO_STREAM_OPEN_PARAMS, SIDEBANDAUDIO_STREAM_OPEN_PARAMS, *PSIDEBANDAUDIO_STREAM_OPEN_PARAMS,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - SIDEBANDAUDIO_STREAM_OPEN_PARAMS
 ---
 
-# SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure
+# SIDEBANDAUDIO_STREAM_OPEN_PARAMS structure (sidebandaudio.h)
+
+
 
 ## -description
 

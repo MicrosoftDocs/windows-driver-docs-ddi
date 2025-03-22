@@ -7,6 +7,7 @@ ms.date: 01/11/2023
 keywords: ["WHEA_NOTIFICATION_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_NOTIFICATION_DESCRIPTOR, AsUSHORT, ErrorThresholdRW, ErrorThresholdWindowRW, PollIntervalRW, Reserved, SwitchToPollingThresholdRW, SwitchToPollingWindowRW, WHEA_NOTIFICATION_DESCRIPTOR, WHEA_NOTIFICATION_DESCRIPTOR structure [WHEA Drivers and Applications], WHEA_NOTIFICATION_TYPE_EXTERNALINTERRUPT, WHEA_NOTIFICATION_TYPE_LOCALINTERRUPT, WHEA_NOTIFICATION_TYPE_NMI, WHEA_NOTIFICATION_TYPE_POLLED, WHEA_NOTIFICATION_TYPE_SCI, _WHEA_NOTIFICATION_DESCRIPTOR, ntddk/WHEA_NOTIFICATION_DESCRIPTOR, whea.whea_notification_descriptor, whearef_c2a5ab66-2598-447b-8f5b-d6398c55ff1a.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_NOTIFICATION_DESCRIPTOR
  - WHEA_NOTIFICATION_DESCRIPTOR
 ---
+
+# WHEA_NOTIFICATION_DESCRIPTOR structure (ntddk.h)
 
 ## -description
 

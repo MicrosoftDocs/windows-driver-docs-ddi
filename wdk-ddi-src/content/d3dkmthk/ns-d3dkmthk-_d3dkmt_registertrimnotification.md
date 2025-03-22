@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_REGISTERTRIMNOTIFICATION structure"]
 ms.keywords: D3DKMT_REGISTERTRIMNOTIFICATION, D3DKMT_REGISTERTRIMNOTIFICATION structure [Display Devices], _D3DKMT_REGISTERTRIMNOTIFICATION, d3dkmthk/D3DKMT_REGISTERTRIMNOTIFICATION, display.d3dkmt_registertrimnotification
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_REGISTERTRIMNOTIFICATION
 ---
 
-# _D3DKMT_REGISTERTRIMNOTIFICATION structure
+# D3DKMT_REGISTERTRIMNOTIFICATION structure (d3dkmthk.h)
+
+
 
 
 ## -description

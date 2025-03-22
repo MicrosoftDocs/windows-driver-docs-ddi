@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SendRLS_OUT structure"]
 ms.keywords: "*PSM_SendRLS_OUT, PSM_SendRLS_OUT, PSM_SendRLS_OUT structure pointer [Storage Devices], SM_SendRLS_OUT, SM_SendRLS_OUT structure [Storage Devices], _SM_SendRLS_OUT, hbapiwmi/PSM_SendRLS_OUT, hbapiwmi/SM_SendRLS_OUT, storage.sm_sendrls_out, structs-Fibre_8244cf34-aaf9-4c88-aeb7-4adf77d40269.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SendRLS_OUT
 ---
 
-# _SM_SendRLS_OUT structure
+# SM_SendRLS_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

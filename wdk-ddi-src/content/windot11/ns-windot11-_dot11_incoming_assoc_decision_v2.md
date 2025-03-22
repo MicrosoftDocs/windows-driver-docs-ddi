@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_INCOMING_ASSOC_DECISION_V2 structure"]
 ms.keywords: "*PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], PDOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, windot11/DOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_INCOMING_ASSOC_DECISION_V2
 ---
 
-# _DOT11_INCOMING_ASSOC_DECISION_V2 structure
+# DOT11_INCOMING_ASSOC_DECISION_V2 structure (windot11.h)
+
+
 
 
 ## -description

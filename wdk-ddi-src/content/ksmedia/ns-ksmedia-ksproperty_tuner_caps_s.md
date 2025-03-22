@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["KSPROPERTY_TUNER_CAPS_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S, KSPROPERTY_TUNER_CAPS_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_CAPS_S, PKSPROPERTY_TUNER_CAPS_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_CAPS_S, ksmedia/PKSPROPERTY_TUNER_CAPS_S, stream.ksproperty_tuner_caps_s, vidcapstruct_28e3b0b2-5b4e-404a-8ade-d5d9c1870ae5.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSPROPERTY_TUNER_CAPS_S
  - KSPROPERTY_TUNER_CAPS_S
 ---
+
+# KSPROPERTY_TUNER_CAPS_S structure (ksmedia.h)
 
 ## -description
 

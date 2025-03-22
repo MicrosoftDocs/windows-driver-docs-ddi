@@ -8,6 +8,7 @@ ms.date: 02/08/2022
 keywords: ["USBFN_CLASS_INFORMATION_PACKET_EX structure"]
 ms.keywords: "*PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX, PUSBFN_CLASS_INFORMATION_PACKET_EX structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET_EX, USBFN_CLASS_INFORMATION_PACKET_EX structure [Buses], _USBFN_CLASS_INFORMATION_PACKET_EX, buses.usbfn_class_information_packet_ex, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET_EX, usbfnbase/USBFN_CLASS_INFORMATION_PACKET_EX"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_CLASS_INFORMATION_PACKET_EX
 ---
 
-# _USBFN_CLASS_INFORMATION_PACKET_EX structure
+# USBFN_CLASS_INFORMATION_PACKET_EX structure (usbfnbase.h)
+
+
 
 ## -description
 

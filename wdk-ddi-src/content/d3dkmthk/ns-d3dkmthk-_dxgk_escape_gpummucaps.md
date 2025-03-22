@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_ESCAPE_GPUMMUCAPS structure"]
 ms.keywords: _DXGK_ESCAPE_GPUMMUCAPS, DXGK_ESCAPE_GPUMMUCAPS,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_ESCAPE_GPUMMUCAPS structure
+# DXGK_ESCAPE_GPUMMUCAPS structure (d3dkmthk.h)
+
+
 
 
 ## -description

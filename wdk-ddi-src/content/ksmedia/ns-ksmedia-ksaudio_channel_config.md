@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["KSAUDIO_CHANNEL_CONFIG structure"]
 ms.keywords: "*PKSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG, KSAUDIO_CHANNEL_CONFIG structure [Audio Devices], PKSAUDIO_CHANNEL_CONFIG, PKSAUDIO_CHANNEL_CONFIG structure pointer [Audio Devices], aud-prop_e81a721c-474b-4b51-8bed-df294a477050.xml, audio.ksaudio_channel_config, ksmedia/KSAUDIO_CHANNEL_CONFIG, ksmedia/PKSAUDIO_CHANNEL_CONFIG"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSAUDIO_CHANNEL_CONFIG
  - KSAUDIO_CHANNEL_CONFIG
 ---
+
+# KSAUDIO_CHANNEL_CONFIG structure (ksmedia.h)
 
 ## -description
 

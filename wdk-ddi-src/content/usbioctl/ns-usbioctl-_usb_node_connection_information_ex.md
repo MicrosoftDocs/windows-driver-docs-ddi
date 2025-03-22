@@ -8,6 +8,7 @@ ms.date: 12/15/2023
 keywords: ["USB_NODE_CONNECTION_INFORMATION_EX structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX, PUSB_NODE_CONNECTION_INFORMATION_EX structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX, USB_NODE_CONNECTION_INFORMATION_EX structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX, buses.usb_node_connection_information_ex, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX, usbstrct_2ee693b4-4279-4f3a-bbfb-1855f9b917d6.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_CONNECTION_INFORMATION_EX
 ---
 
-# _USB_NODE_CONNECTION_INFORMATION_EX structure
+# USB_NODE_CONNECTION_INFORMATION_EX structure (usbioctl.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 11/17/2023
 keywords: ["D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure"]
 ms.keywords: D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure [Display Devices], _D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, d3dkmthk/D3DKMT_STANDARDALLOCATION_EXISTINGHEAP, display.d3dkmt-standardallocation-existingheap
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_STANDARDALLOCATION_EXISTINGHEAP
 ---
 
-# D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure
+# D3DKMT_STANDARDALLOCATION_EXISTINGHEAP structure (d3dkmthk.h)
+
+
 
 ## -description
 

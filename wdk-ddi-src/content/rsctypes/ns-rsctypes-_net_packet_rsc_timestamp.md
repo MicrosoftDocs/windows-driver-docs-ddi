@@ -7,6 +7,7 @@ ms.date: 09/24/2019
 keywords: ["NET_PACKET_RSC_TIMESTAMP structure"]
 ms.keywords: NET_PACKET_RSC_TIMESTAMP, NET_PACKET_RSC_TIMESTAMP,
 req.header: rsctypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_PACKET_RSC_TIMESTAMP
 ---
 
-# NET_PACKET_RSC_TIMESTAMP structure
+# NET_PACKET_RSC_TIMESTAMP structure (rsctypes.h)
+
+
 
 
 ## -description

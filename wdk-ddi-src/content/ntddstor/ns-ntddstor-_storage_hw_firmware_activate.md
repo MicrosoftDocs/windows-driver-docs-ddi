@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 03/29/2024
 keywords: ["STORAGE_HW_FIRMWARE_ACTIVATE structure"]
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -44,7 +45,9 @@ api_name:
  - STORAGE_HW_FIRMWARE_ACTIVATE
 ---
 
-# STORAGE_HW_FIRMWARE_ACTIVATE structure
+# STORAGE_HW_FIRMWARE_ACTIVATE structure (ntddstor.h)
+
+
 
 ## -description
 

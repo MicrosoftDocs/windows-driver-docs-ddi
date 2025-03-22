@@ -7,6 +7,7 @@ ms.date: 03/29/2023
 keywords: ["DXGKARGCB_ISFEATUREENABLED structure"]
 ms.keywords: _DXGKARGCB_ISFEATUREENABLED, DXGKARGCB_ISFEATUREENABLED, *INOUT_PDXGKARGCB_ISFEATUREENABLED
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903 (WDDM 2.6)
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARGCB_ISFEATUREENABLED structure
+# DXGKARGCB_ISFEATUREENABLED structure (d3dkmddi.h)
+
+
 
 ## -description
 

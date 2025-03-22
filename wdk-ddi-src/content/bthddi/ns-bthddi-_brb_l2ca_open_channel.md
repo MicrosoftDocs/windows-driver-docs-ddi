@@ -8,6 +8,7 @@ ms.date: 11/30/2021
 keywords: ["BRB_L2CA_OPEN_CHANNEL structure"]
 ms.keywords: "_BRB_L2CA_OPEN_CHANNEL, _BRB_L2CA_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_channel, bth_structs_342ad84f-74fb-481f-b549-8f87c375c4d1.xml, bthddi/_BRB_L2CA_OPEN_CHANNEL"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_L2CA_OPEN_CHANNEL
 ---
 
-# _BRB_L2CA_OPEN_CHANNEL structure
+# _BRB_L2CA_OPEN_CHANNEL structure (bthddi.h)
+
+
 
 ## -description
 

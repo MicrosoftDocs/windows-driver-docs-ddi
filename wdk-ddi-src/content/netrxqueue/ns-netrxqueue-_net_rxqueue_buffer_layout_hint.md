@@ -7,6 +7,7 @@ ms.date: 02/09/2018
 keywords: ["NET_RXQUEUE_BUFFER_LAYOUT_HINT structure"]
 ms.keywords: _NET_RXQUEUE_BUFFER_LAYOUT_HINT, *PNET_RXQUEUE_BUFFER_LAYOUT_HINT, NET_RXQUEUE_BUFFER_LAYOUT_HINT,
 req.header: netrxqueue.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_RXQUEUE_BUFFER_LAYOUT_HINT
 ---
 
-# _NET_RXQUEUE_BUFFER_LAYOUT_HINT structure
+# NET_RXQUEUE_BUFFER_LAYOUT_HINT structure (netrxqueue.h)
+
+
 
 
 ## -description

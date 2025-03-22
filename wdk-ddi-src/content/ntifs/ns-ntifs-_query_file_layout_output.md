@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["QUERY_FILE_LAYOUT_OUTPUT structure"]
 ms.keywords: "*PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, _QUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, ntifs/QUERY_FILE_LAYOUT_OUTPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting in Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - QUERY_FILE_LAYOUT_OUTPUT
 ---
 
-# _QUERY_FILE_LAYOUT_OUTPUT structure
+# QUERY_FILE_LAYOUT_OUTPUT structure (ntifs.h)
+
+
 
 
 ## -description

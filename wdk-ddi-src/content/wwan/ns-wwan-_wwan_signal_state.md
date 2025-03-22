@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_SIGNAL_STATE structure"]
 ms.keywords: "*PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SIGNAL_STATE
 ---
 
-# _WWAN_SIGNAL_STATE structure
+# WWAN_SIGNAL_STATE structure (wwan.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosValueStatisticsEntry structure"]
 ms.keywords: PosValueStatisticsEntry, PosValueStatisticsEntry structure, _PosValueStatisticsEntry, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosValueStatisticsEntry
 ---
 
-# _PosValueStatisticsEntry structure
+# PosValueStatisticsEntry structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

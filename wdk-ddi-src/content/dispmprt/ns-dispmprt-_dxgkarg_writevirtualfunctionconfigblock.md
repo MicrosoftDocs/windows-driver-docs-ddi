@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure"]
 ms.keywords: _DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK, DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK, *PDXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure
+# DXGKARG_WRITEVIRTUALFUNCTIONCONFIGBLOCK structure (dispmprt.h)
+
+
 
 
 ## -description

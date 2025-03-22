@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD structure"]
 ms.keywords: IPMI_OS_SEL_RECORD, IPMI_OS_SEL_RECORD, *PIPMI_OS_SEL_RECORD,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IPMI_OS_SEL_RECORD
 ---
 
-# IPMI_OS_SEL_RECORD structure
+# IPMI_OS_SEL_RECORD structure (ntddk.h)
+
+
 
 
 ## -description

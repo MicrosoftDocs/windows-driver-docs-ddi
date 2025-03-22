@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CYCLE_TIME structure"]
 ms.keywords: "*PCYCLE_TIME, 1394/CYCLE_TIME, 1394/PCYCLE_TIME, 1394stct_c6b1a6fa-b259-488d-a4a9-e4dace0fcf3d.xml, CYCLE_TIME, CYCLE_TIME structure [Buses], IEEE.cycle_time, PCYCLE_TIME, PCYCLE_TIME structure pointer [Buses], _CYCLE_TIME"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CYCLE_TIME
 ---
 
-# _CYCLE_TIME structure
+# CYCLE_TIME structure (1394.h)
+
+
 
 
 ## -description

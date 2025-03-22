@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_COLORFILLFLAGS structure"]
 ms.keywords: D3DDDI_COLORFILLFLAGS, D3DDDI_COLORFILLFLAGS structure [Display Devices], D3D_other_Structs_555ecebb-bdd8-4c7f-97cd-801216506b9e.xml, _D3DDDI_COLORFILLFLAGS, d3dumddi/D3DDDI_COLORFILLFLAGS, display.d3dddi_colorfillflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_COLORFILLFLAGS
 ---
 
-# _D3DDDI_COLORFILLFLAGS structure
+# D3DDDI_COLORFILLFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

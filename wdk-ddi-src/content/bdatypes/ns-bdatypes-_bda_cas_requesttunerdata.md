@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_CAS_REQUESTTUNERDATA structure"]
 ms.keywords: "*PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], _BDA_CAS_REQUESTTUNERDATA, bdatypes/BDA_CAS_REQUESTTUNERDATA, bdatypes/PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_CAS_REQUESTTUNERDATA
 ---
 
-# _BDA_CAS_REQUESTTUNERDATA structure
+# BDA_CAS_REQUESTTUNERDATA structure (bdatypes.h)
+
+
 
 
 ## -description

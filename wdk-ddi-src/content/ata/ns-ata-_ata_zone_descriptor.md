@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["ATA_ZONE_DESCRIPTOR structure"]
 ms.keywords: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], _ATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor"
 req.header: ata.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ATA_ZONE_DESCRIPTOR
 ---
 
-# ATA_ZONE_DESCRIPTOR structure
+# ATA_ZONE_DESCRIPTOR structure (ata.h)
+
+
 
 ## -description
 

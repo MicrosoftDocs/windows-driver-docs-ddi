@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["MSiSCSI_Eventlog structure"]
 ms.keywords: "*PMSiSCSI_Eventlog, MSiSCSI_EventLog, MSiSCSI_EventLog structure [Storage Devices], MSiSCSI_Eventlog, PMSiSCSI_EventLog, PMSiSCSI_EventLog structure pointer [Storage Devices], _MSiSCSI_Eventlog, iscsimgt/MSiSCSI_EventLog, iscsimgt/PMSiSCSI_EventLog, storage.msiscsi_eventlog, structs-iSCSI_d2419ba1-4f36-42c6-8a21-164dadb50263.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_Eventlog
 ---
 
-# MSiSCSI_Eventlog structure
+# MSiSCSI_Eventlog structure (iscsimgt.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["LINKED_DEVICE structure"]
 ms.keywords: "*PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], PLINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices], _LINKED_DEVICE, display.linked_device, dispmprt/LINKED_DEVICE, dispmprt/PLINKED_DEVICE"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - LINKED_DEVICE
 ---
 
-# _LINKED_DEVICE structure
+# LINKED_DEVICE structure (dispmprt.h)
+
+
 
 
 ## -description

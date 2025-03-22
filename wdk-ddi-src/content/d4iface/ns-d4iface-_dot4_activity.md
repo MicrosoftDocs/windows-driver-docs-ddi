@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DOT4_ACTIVITY structure"]
 ms.keywords: "*PDOT4_ACTIVITY, DOT4_ACTIVITY, DOT4_ACTIVITY structure [Print Devices], PDOT4_ACTIVITY, PDOT4_ACTIVITY structure pointer [Print Devices], _DOT4_ACTIVITY, d4iface/DOT4_ACTIVITY, d4iface/PDOT4_ACTIVITY, print.dot4_activity"
 req.header: d4iface.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DOT4_ACTIVITY
 ---
 
-# _DOT4_ACTIVITY structure
+# DOT4_ACTIVITY structure (d4iface.h)
+
+
 
 
 ## -description

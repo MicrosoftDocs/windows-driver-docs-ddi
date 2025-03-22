@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_PIN_APP structure"]
 ms.keywords: _NDIS_WWAN_PIN_APP, NDIS_WWAN_PIN_APP, *PNDIS_WWAN_PIN_APP,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_PIN_APP
 ---
 
-# _NDIS_WWAN_PIN_APP structure
+# NDIS_WWAN_PIN_APP structure (ndiswwan.h)
+
+
 
 
 ## -description

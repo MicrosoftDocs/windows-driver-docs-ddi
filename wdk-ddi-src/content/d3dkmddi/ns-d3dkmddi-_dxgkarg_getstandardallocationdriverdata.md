@@ -5,6 +5,7 @@ description: Learn more about the DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA struct
 ms.date: 11/08/2024
 keywords: ["DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA
 ---
 
-# DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure
+# DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure (d3dkmddi.h)
+
+
 
 ## -description
 

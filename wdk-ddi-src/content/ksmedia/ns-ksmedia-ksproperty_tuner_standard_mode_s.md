@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TUNER_STANDARD_MODE_S structure"]
 ms.keywords: "*PKSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S, KSPROPERTY_TUNER_STANDARD_MODE_S structure [Streaming Media Devices], PKSPROPERTY_TUNER_STANDARD_MODE_S, PKSPROPERTY_TUNER_STANDARD_MODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TUNER_STANDARD_MODE_S, ksmedia/PKSPROPERTY_TUNER_STANDARD_MODE_S, stream.ksproperty_tuner_standard_mode_s, vidcapstruct_5b923a0a-26a2-4ef4-82d7-de7b3c3b67d0.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the operating system.
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_TUNER_STANDARD_MODE_S
 ---
 
-# KSPROPERTY_TUNER_STANDARD_MODE_S structure
+# KSPROPERTY_TUNER_STANDARD_MODE_S structure (ksmedia.h)
+
+
 
 
 ## -description

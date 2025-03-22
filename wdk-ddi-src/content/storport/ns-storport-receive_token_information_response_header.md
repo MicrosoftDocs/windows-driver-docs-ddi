@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure"]
 ms.keywords: "*PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices], RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, storage.receive_token_information_response_header"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -41,6 +42,8 @@ api_name:
  - PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
  - RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 ---
+
+# RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure (storport.h)
 
 ## -description
 

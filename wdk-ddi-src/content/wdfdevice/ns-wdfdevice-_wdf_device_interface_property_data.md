@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_INTERFACE_PROPERTY_DATA structure"]
 ms.keywords: "*PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA, PWDF_DEVICE_INTERFACE_PROPERTY_DATA structure pointer, WDF_DEVICE_INTERFACE_PROPERTY_DATA, WDF_DEVICE_INTERFACE_PROPERTY_DATA structure, _WDF_DEVICE_INTERFACE_PROPERTY_DATA, wdf.wdf_device_interface_property_data, wdfdevice/PWDF_DEVICE_INTERFACE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_INTERFACE_PROPERTY_DATA"
 req.header: wdfdevice.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - WDF_DEVICE_INTERFACE_PROPERTY_DATA
 ---
 
-# _WDF_DEVICE_INTERFACE_PROPERTY_DATA structure
+# WDF_DEVICE_INTERFACE_PROPERTY_DATA structure (wdfdevice.h)
+
+
 
 
 ## -description

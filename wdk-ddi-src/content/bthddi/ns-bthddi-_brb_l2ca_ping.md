@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_L2CA_PING structure"]
 ms.keywords: "_BRB_L2CA_PING, _BRB_L2CA_PING structure [Bluetooth Devices], bltooth._brb_l2ca_ping, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_L2CA_PING
 ---
 
-# _BRB_L2CA_PING structure
+# _BRB_L2CA_PING structure (bthddi.h)
+
+
 
 
 ## -description

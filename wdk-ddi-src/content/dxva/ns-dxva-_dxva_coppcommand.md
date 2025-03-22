@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_COPPCommand structure"]
 ms.keywords: "*LPDXVA_COPPCommand, DXVA_COPPCommand, DXVA_COPPCommand structure [Display Devices], LPDXVA_COPPCommand, LPDXVA_COPPCommand structure pointer [Display Devices], _DXVA_COPPCommand, display.dxva_coppcommand, dxva/DXVA_COPPCommand, dxva/LPDXVA_COPPCommand, dxvaref_e27ea691-6ae9-41fc-9649-670231cb5ce8.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_COPPCommand
 ---
 
-# _DXVA_COPPCommand structure
+# DXVA_COPPCommand structure (dxva.h)
+
+
 
 
 ## -description

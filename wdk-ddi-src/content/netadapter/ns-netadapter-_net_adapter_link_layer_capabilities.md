@@ -7,6 +7,7 @@ ms.date: 09/27/2019
 keywords: ["NET_ADAPTER_LINK_LAYER_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_LINK_LAYER_CAPABILITIES, *PNET_ADAPTER_LINK_LAYER_CAPABILITIES, NET_ADAPTER_LINK_LAYER_CAPABILITIES,
 req.header: netadapter.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_ADAPTER_LINK_LAYER_CAPABILITIES
 ---
 
-# _NET_ADAPTER_LINK_LAYER_CAPABILITIES structure
+# NET_ADAPTER_LINK_LAYER_CAPABILITIES structure (netadapter.h)
+
+
 
 
 ## -description

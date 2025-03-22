@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_POWER_COMPONENT_MAPPING structure"]
 ms.keywords: DXGK_POWER_COMPONENT_MAPPING, DXGK_POWER_COMPONENT_MAPPING structure [Display Devices], _DXGK_POWER_COMPONENT_MAPPING, d3dkmddi/DXGK_POWER_COMPONENT_MAPPING, display.dxgk_power_component_mapping
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_POWER_COMPONENT_MAPPING
 ---
 
-# _DXGK_POWER_COMPONENT_MAPPING structure
+# DXGK_POWER_COMPONENT_MAPPING structure (d3dkmddi.h)
+
+
 
 
 ## -description

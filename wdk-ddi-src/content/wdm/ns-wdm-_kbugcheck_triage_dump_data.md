@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["KBUGCHECK_TRIAGE_DUMP_DATA structure"]
 ms.keywords: _KBUGCHECK_TRIAGE_DUMP_DATA, KBUGCHECK_TRIAGE_DUMP_DATA, *PKBUGCHECK_TRIAGE_DUMP_DATA,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - KBUGCHECK_TRIAGE_DUMP_DATA
 ---
 
-# _KBUGCHECK_TRIAGE_DUMP_DATA structure
+# KBUGCHECK_TRIAGE_DUMP_DATA structure (wdm.h)
+
+
 
 
 ## -description

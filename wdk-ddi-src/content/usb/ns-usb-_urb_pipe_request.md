@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_PIPE_REQUEST structure"]
 ms.keywords: "_URB_PIPE_REQUEST, _URB_PIPE_REQUEST structure [Buses], buses._urb_pipe_request, usb/_URB_PIPE_REQUEST, usbstrct_dfcdbce6-e230-46a8-88df-59a253e6bfa0.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_PIPE_REQUEST
 ---
 
-# _URB_PIPE_REQUEST structure
+# _URB_PIPE_REQUEST structure (usb.h)
+
+
 
 
 ## -description

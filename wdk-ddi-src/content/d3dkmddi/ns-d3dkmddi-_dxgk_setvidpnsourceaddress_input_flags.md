@@ -6,6 +6,7 @@ ms.date: 02/03/2023
 keywords: ["DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure [Display Devices], _DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS, display.dxgk_setvidpnsourceaddress_input_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS
 ---
 
-# DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure
+# DXGK_SETVIDPNSOURCEADDRESS_INPUT_FLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

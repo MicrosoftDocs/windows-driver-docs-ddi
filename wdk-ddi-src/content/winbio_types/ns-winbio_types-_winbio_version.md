@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_VERSION structure"]
 ms.keywords: "*PWINBIO_VERSION, PWINBIO_VERSION, PWINBIO_VERSION structure pointer [Biometric Devices], WINBIO_VERSION, WINBIO_VERSION structure [Biometric Devices], _WINBIO_VERSION, biometric.winbio_version, biometric_ref_2f55229e-601f-422c-b35c-0fb58605b273.xml, winbio_types/PWINBIO_VERSION, winbio_types/WINBIO_VERSION"
 req.header: winbio_types.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_VERSION
 ---
 
-# _WINBIO_VERSION structure
+# WINBIO_VERSION structure (winbio_types.h)
+
+
 
 
 ## -description

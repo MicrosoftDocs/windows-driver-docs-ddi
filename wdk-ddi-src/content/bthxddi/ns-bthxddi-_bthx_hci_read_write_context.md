@@ -8,6 +8,7 @@ ms.date: 12/01/2021
 keywords: ["BTHX_HCI_READ_WRITE_CONTEXT structure"]
 ms.keywords: "*PBTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT, BTHX_HCI_READ_WRITE_CONTEXT structure [Bluetooth Devices], PBTHX_HCI_READ_WRITE_CONTEXT, PBTHX_HCI_READ_WRITE_CONTEXT structure pointer [Bluetooth Devices], _BTHX_HCI_READ_WRITE_CONTEXT, bltooth.bthx_hci_read_write_context, bthxddi/BTHX_HCI_READ_WRITE_CONTEXT, bthxddi/PBTHX_HCI_READ_WRITE_CONTEXT"
 req.header: bthxddi.h
+req.construct-type: structure
 req.include-header: BthXDDI.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BTHX_HCI_READ_WRITE_CONTEXT
 ---
 
-# _BTHX_HCI_READ_WRITE_CONTEXT structure
+# BTHX_HCI_READ_WRITE_CONTEXT structure (bthxddi.h)
+
+
 
 ## -description
 

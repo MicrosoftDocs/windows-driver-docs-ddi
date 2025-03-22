@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure"]
 ms.keywords: "*PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure [Kernel-Mode Driver Architecture], PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, kernel.ke_processor_change_notify_context, kstruct_c_dcd6ab01-880a-4a63-bd74-acff53b786d1.xml, wdm/KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT, wdm/PKE_PROCESSOR_CHANGE_NOTIFY_CONTEXT"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows Server 2008.
@@ -46,7 +47,9 @@ api_name:
  - KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT
 ---
 
-# _KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure
+# KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT structure (wdm.h)
+
+
 
 
 ## -description

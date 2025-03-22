@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["D3DKMDT_VIDPN_SOURCE_MODE structure"]
 ms.keywords: D3DKMDT_VIDPN_SOURCE_MODE, D3DKMDT_VIDPN_SOURCE_MODE structure [Display Devices], DmStructs_0e8655c2-a85f-411d-a791-4c85e5c7d52c.xml, _D3DKMDT_VIDPN_SOURCE_MODE, d3dkmdt/D3DKMDT_VIDPN_SOURCE_MODE, display.d3dkmdt_vidpn_source_mode
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_VIDPN_SOURCE_MODE
 ---
 
-# D3DKMDT_VIDPN_SOURCE_MODE structure
+# D3DKMDT_VIDPN_SOURCE_MODE structure (d3dkmdt.h)
+
+
 
 ## -description
 

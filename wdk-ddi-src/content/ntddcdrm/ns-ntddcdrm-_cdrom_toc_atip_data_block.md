@@ -8,6 +8,7 @@ ms.date: 01/08/2020
 keywords: ["CDROM_TOC_ATIP_DATA_BLOCK structure"]
 ms.keywords: "*PCDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK, CDROM_TOC_ATIP_DATA_BLOCK structure [Storage Devices], PCDROM_TOC_ATIP_DATA_BLOCK, PCDROM_TOC_ATIP_DATA_BLOCK structure pointer [Storage Devices], _CDROM_TOC_ATIP_DATA_BLOCK, ntddcdrm/CDROM_TOC_ATIP_DATA_BLOCK, ntddcdrm/PCDROM_TOC_ATIP_DATA_BLOCK, storage.cdrom_toc_atip_data_block, structs-CD-ROM_8c2f3446-c864-450a-a873-9e1d29b1e052.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_TOC_ATIP_DATA_BLOCK
 ---
 
-# _CDROM_TOC_ATIP_DATA_BLOCK structure
+# CDROM_TOC_ATIP_DATA_BLOCK structure (ntddcdrm.h)
+
+
 
 
 ## -description

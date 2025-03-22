@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_VIDEOINFO structure"]
 ms.keywords: "*PKS_VIDEOINFO, KS_VIDEOINFO, KS_VIDEOINFO structure [Streaming Media Devices], PKS_VIDEOINFO, PKS_VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_VIDEOINFO, ksmedia/PKS_VIDEOINFO, stream.ks_videoinfo, tagKS_VIDEOINFO, vidcapstruct_66265491-9578-4165-941b-432184388ea2.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_VIDEOINFO
 ---
 
-# tagKS_VIDEOINFO structure
+# tagKS_VIDEOINFO structure (ksmedia.h)
+
+
 
 
 ## -description

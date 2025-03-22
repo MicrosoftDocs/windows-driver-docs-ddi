@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_XPF_CMC_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR, PWHEA_XPF_CMC_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_XPF_CMC_DESCRIPTOR, WHEA_XPF_CMC_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_XPF_CMC_DESCRIPTOR, ntddk/PWHEA_XPF_CMC_DESCRIPTOR, ntddk/WHEA_XPF_CMC_DESCRIPTOR, whea.whea_xpf_cmc_descriptor, whearef_a14dc817-f689-492c-8993-1a5c9869a6c6.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_XPF_CMC_DESCRIPTOR
 ---
 
-# _WHEA_XPF_CMC_DESCRIPTOR structure
+# WHEA_XPF_CMC_DESCRIPTOR structure (ntddk.h)
+
+
 
 
 ## -description

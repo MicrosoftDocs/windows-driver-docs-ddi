@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_DEVINSTANCE_HEALTH_CLASS structure"]
 ms.keywords: "*PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], PMPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], _MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, storage.mpio_devinstance_health_class, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml"
 req.header: mpiodisk.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIO_DEVINSTANCE_HEALTH_CLASS
 ---
 
-# _MPIO_DEVINSTANCE_HEALTH_CLASS structure
+# MPIO_DEVINSTANCE_HEALTH_CLASS structure (mpiodisk.h)
+
+
 
 
 ## -description

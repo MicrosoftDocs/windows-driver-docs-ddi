@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetBindingSupport_OUT structure"]
 ms.keywords: "*PGetBindingSupport_OUT, GetBindingSupport_OUT, GetBindingSupport_OUT structure [Storage Devices], PGetBindingSupport_OUT, PGetBindingSupport_OUT structure pointer [Storage Devices], _GetBindingSupport_OUT, hbapiwmi/GetBindingSupport_OUT, hbapiwmi/PGetBindingSupport_OUT, storage.getbindingsupport_out, structs-Fibre_1db0b747-ead3-461f-a7ab-c8150f92623a.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetBindingSupport_OUT
 ---
 
-# _GetBindingSupport_OUT structure
+# GetBindingSupport_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

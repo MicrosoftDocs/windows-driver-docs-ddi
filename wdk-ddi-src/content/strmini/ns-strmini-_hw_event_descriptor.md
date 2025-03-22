@@ -7,6 +7,7 @@ ms.date: 10/04/2022
 keywords: ["HW_EVENT_DESCRIPTOR structure"]
 ms.keywords: "*PHW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR, HW_EVENT_DESCRIPTOR structure [Streaming Media Devices], PHW_EVENT_DESCRIPTOR, PHW_EVENT_DESCRIPTOR structure pointer [Streaming Media Devices], _HW_EVENT_DESCRIPTOR, strclass-struct_ca0c15b2-17d1-4114-9765-5638dd81ca24.xml, stream.hw_event_descriptor, strmini/HW_EVENT_DESCRIPTOR, strmini/PHW_EVENT_DESCRIPTOR"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PHW_EVENT_DESCRIPTOR
  - HW_EVENT_DESCRIPTOR
 ---
+
+# HW_EVENT_DESCRIPTOR structure (strmini.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_FIXDATA structure"]
 ms.keywords: "*PGNSS_FIXDATA, GNSS_FIXDATA, GNSS_FIXDATA structure [Sensor Devices], PGNSS_FIXDATA, PGNSS_FIXDATA structure pointer [Sensor Devices], gnss.gnss_fixdata, gnssdriver/GNSS_FIXDATA, gnssdriver/PGNSS_FIXDATA"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_FIXDATA
 ---
 
-# GNSS_FIXDATA structure
+# GNSS_FIXDATA structure (gnssdriver.h)
+
+
 
 
 ## -description

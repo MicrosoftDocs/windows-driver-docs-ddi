@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_TOC_ATIP_DATA structure"]
 ms.keywords: "*PCDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA, CDROM_TOC_ATIP_DATA structure [Storage Devices], PCDROM_TOC_ATIP_DATA, PCDROM_TOC_ATIP_DATA structure pointer [Storage Devices], _CDROM_TOC_ATIP_DATA, ntddcdrm/CDROM_TOC_ATIP_DATA, ntddcdrm/PCDROM_TOC_ATIP_DATA, storage.cdrom_toc_atip_data, structs-CD-ROM_57534148-0c2f-4182-8b0e-3fe4ed10505e.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_TOC_ATIP_DATA
 ---
 
-# _CDROM_TOC_ATIP_DATA structure
+# CDROM_TOC_ATIP_DATA structure (ntddcdrm.h)
+
+
 
 
 ## -description

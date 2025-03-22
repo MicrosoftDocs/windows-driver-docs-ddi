@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DESTROYDCFROMMEMORY structure"]
 ms.keywords: D3DKMT_DESTROYDCFROMMEMORY, D3DKMT_DESTROYDCFROMMEMORY structure [Display Devices], OpenGL_Structs_1d3adbd5-a0cf-4650-b293-148ca3b093fb.xml, _D3DKMT_DESTROYDCFROMMEMORY, d3dkmthk/D3DKMT_DESTROYDCFROMMEMORY, display.d3dkmt_destroydcfrommemory
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DESTROYDCFROMMEMORY
 ---
 
-# _D3DKMT_DESTROYDCFROMMEMORY structure
+# D3DKMT_DESTROYDCFROMMEMORY structure (d3dkmthk.h)
+
+
 
 
 ## -description

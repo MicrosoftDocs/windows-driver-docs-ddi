@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_CONTROLLER_CONFIGURATION structure"]
 ms.keywords: "*PIDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION, IDE_CONTROLLER_CONFIGURATION structure [Storage Devices], PIDE_CONTROLLER_CONFIGURATION, PIDE_CONTROLLER_CONFIGURATION structure pointer [Storage Devices], _IDE_CONTROLLER_CONFIGURATION, irb/IDE_CONTROLLER_CONFIGURATION, irb/PIDE_CONTROLLER_CONFIGURATION, storage.ide_controller_configuration, structs-ATA_c72d9d21-e06b-43e0-8854-8b682e2e0778.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_CONTROLLER_CONFIGURATION
 ---
 
-# _IDE_CONTROLLER_CONFIGURATION structure
+# IDE_CONTROLLER_CONFIGURATION structure (irb.h)
+
+
 
 
 ## -description

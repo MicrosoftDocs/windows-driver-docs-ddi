@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["RT_PARAMETER_DATA structure"]
 ms.keywords: "*PRT_PARAMETER_DATA, PRT_PARAMETER_DATA, PRT_PARAMETER_DATA structure pointer [Storage Devices], RT_PARAMETER_DATA, RT_PARAMETER_DATA structure [Storage Devices], scsi/PRT_PARAMETER_DATA, scsi/RT_PARAMETER_DATA, storage.rt_parameter_data"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
@@ -41,6 +42,8 @@ api_name:
  - PRT_PARAMETER_DATA
  - RT_PARAMETER_DATA
 ---
+
+# RT_PARAMETER_DATA structure (minitape.h)
 
 ## -description
 

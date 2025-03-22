@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSTELEPHONY_CALLINFO structure"]
 ms.keywords: "*PKSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO, KSTELEPHONY_CALLINFO structure [Audio Devices], PKSTELEPHONY_CALLINFO, PKSTELEPHONY_CALLINFO structure pointer [Audio Devices], _tagKSTELEPHONY_CALLINFO, audio.kstelephony_callinfo, ksmedia/KSTELEPHONY_CALLINFO, ksmedia/PKSTELEPHONY_CALLINFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10,Windows 10 Mobile
@@ -46,7 +47,9 @@ api_name:
  - KSTELEPHONY_CALLINFO
 ---
 
-# _tagKSTELEPHONY_CALLINFO structure
+# KSTELEPHONY_CALLINFO structure (ksmedia.h)
+
+
 
 
 ## -description

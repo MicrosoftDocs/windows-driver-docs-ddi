@@ -6,6 +6,7 @@ ms.date: 12/08/2023
 keywords: ["DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure"]
 ms.keywords: _DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2, *PDXGK_GRAPHICSPOWER_REGISTER_INPUT, DXGK_GRAPHICSPOWER_REGISTER_INPUT
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -39,7 +40,9 @@ api_name:
  - DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2
 ---
 
-# DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure
+# DXGK_GRAPHICSPOWER_REGISTER_INPUT_V_1_2 structure (d3dkmthk.h)
+
+
 
 ## -description
 

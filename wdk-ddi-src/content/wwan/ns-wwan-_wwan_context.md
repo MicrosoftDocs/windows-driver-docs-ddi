@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_CONTEXT structure"]
 ms.keywords: "*PWWAN_CONTEXT, PWWAN_CONTEXT, PWWAN_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT, WWAN_CONTEXT structure [Network Drivers Starting with Windows Vista], WwanRef_6700da85-2a7a-4712-86e8-fb40e11e42a1.xml, _WWAN_CONTEXT, netvista.wwan_context, wwan/PWWAN_CONTEXT, wwan/WWAN_CONTEXT"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_CONTEXT
 ---
 
-# _WWAN_CONTEXT structure
+# WWAN_CONTEXT structure (wwan.h)
+
+
 
 
 ## -description

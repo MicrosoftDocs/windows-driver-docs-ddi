@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_COMPLETION_INFORMATION structure"]
 ms.keywords: "*PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPLETION_INFORMATION, ifsk.file_completion_information, ntifs/FILE_COMPLETION_INFORMATION, ntifs/PFILE_COMPLETION_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Windows 8.1.
@@ -46,7 +47,9 @@ api_name:
  - FILE_COMPLETION_INFORMATION
 ---
 
-# _FILE_COMPLETION_INFORMATION structure
+# FILE_COMPLETION_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

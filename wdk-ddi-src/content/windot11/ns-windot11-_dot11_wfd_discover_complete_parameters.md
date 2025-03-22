@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure"]
 ms.keywords: "*PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, netvista._dot11_wfd_discover_complete_parameters, windot11/ DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS, windot11/PDOT11_WFD_DISCOVER_COMPLETE_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS
 ---
 
-# _DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure
+# DOT11_WFD_DISCOVER_COMPLETE_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_COMPANION_EVENT_CALLBACKS structure"]
 ms.keywords: "*PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS, PWDF_COMPANION_EVENT_CALLBACKS structure pointer, WDF_COMPANION_EVENT_CALLBACKS, WDF_COMPANION_EVENT_CALLBACKS structure, _WDF_COMPANION_EVENT_CALLBACKS, wdf.wdf_companion_event_callbacks, wdfcompanion/PWDF_COMPANION_EVENT_CALLBACKS, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS"
 req.header: wdfcompanion.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_COMPANION_EVENT_CALLBACKS
 ---
 
-# _WDF_COMPANION_EVENT_CALLBACKS structure
+# WDF_COMPANION_EVENT_CALLBACKS structure (wdfcompanion.h)
+
+
 
 
 ## -description

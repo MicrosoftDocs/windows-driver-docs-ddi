@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_EXTENSION_INTERFACE structure"]
 ms.keywords: NDK_EXTENSION_INTERFACE, NDK_EXTENSION_INTERFACE structure [Network Drivers Starting with Windows Vista], PNDK_EXTENSION_INTERFACE, PNDK_EXTENSION_INTERFACE structure pointer [Network Drivers Starting with Windows Vista], _NDK_EXTENSION_INTERFACE, ndkpi/NDK_EXTENSION_INTERFACE, ndkpi/PNDK_EXTENSION_INTERFACE, netvista.ndk_extension_interface
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_EXTENSION_INTERFACE
 ---
 
-# _NDK_EXTENSION_INTERFACE structure
+# NDK_EXTENSION_INTERFACE structure (ndkpi.h)
+
+
 
 
 ## -description

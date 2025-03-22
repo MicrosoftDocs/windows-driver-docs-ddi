@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure"]
 ms.keywords: D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure [Display Devices], UMDisplayDriver_param_Structs_fd02ddf9-535d-4c4b-a6fe-6c765170e6f9.xml, _D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, d3dumddi/D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE, display.d3dddiarg_dxvahd_setvideoprocessbltstate
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE
 ---
 
-# _D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure
+# D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/10/2023
 keywords: ["DDVIDEOPORTCONNECT structure"]
 ms.keywords: "*LPDDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT, DDVIDEOPORTCONNECT structure [Display Devices], _DDVIDEOPORTCONNECT, ddstrcts_38f986ec-9ee1-438c-8b1f-2d07ebb06e87.xml, display.ddvideoportconnect, ksmedia/DDVIDEOPORTCONNECT"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Dvp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - LPDDVIDEOPORTCONNECT
  - DDVIDEOPORTCONNECT
 ---
+
+# DDVIDEOPORTCONNECT structure (ksmedia.h)
 
 ## -description
 

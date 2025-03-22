@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure"]
 ms.keywords: "*PWIM_PROVIDER_UPDATE_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT, PWIM_PROVIDER_ADD_OVERLAY_INPUT structure pointer [Installable File System Drivers], WIM_PROVIDER_ADD_OVERLAY_INPUT, WIM_PROVIDER_ADD_OVERLAY_INPUT structure [Installable File System Drivers], WIM_PROVIDER_UPDATE_OVERLAY_INPUT, WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure [Installable File System Drivers], _WIM_PROVIDER_UPDATE_OVERLAY_INPUT, ifsk.wim_provider_update_overlay_input, ntifs/PWIM_PROVIDER_ADD_OVERLAY_INPUT, ntifs/WIM_PROVIDER_ADD_OVERLAY_INPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update
@@ -45,7 +46,9 @@ api_name:
  - WIM_PROVIDER_UPDATE_OVERLAY_INPUT
 ---
 
-# WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure
+# WIM_PROVIDER_UPDATE_OVERLAY_INPUT structure (ntifs.h)
+
+
 
 ## -description
 

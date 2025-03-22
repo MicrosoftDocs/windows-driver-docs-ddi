@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_SCHEDULING_LOG_ENTRY structure"]
 ms.keywords: _DXGK_SCHEDULING_LOG_ENTRY, DXGK_SCHEDULING_LOG_ENTRY,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_SCHEDULING_LOG_ENTRY structure
+# DXGK_SCHEDULING_LOG_ENTRY structure (d3dkmddi.h)
+
+
 
 
 ## -description

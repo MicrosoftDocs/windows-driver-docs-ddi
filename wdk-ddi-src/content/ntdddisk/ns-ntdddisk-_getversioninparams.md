@@ -8,6 +8,7 @@ ms.date: 07/14/2022
 keywords: ["GETVERSIONINPARAMS structure"]
 ms.keywords: "*LPGETVERSIONINPARAMS, *PGETVERSIONINPARAMS, GETVERSIONINPARAMS, GETVERSIONINPARAMS structure [Storage Devices], LPGETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], PGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], _GETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, ntdddisk/LPGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, storage.getversioninparams, structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000
@@ -46,7 +47,9 @@ api_name:
  - GETVERSIONINPARAMS
 ---
 
-# GETVERSIONINPARAMS structure
+# GETVERSIONINPARAMS structure (ntdddisk.h)
+
+
 
 ## -description
 

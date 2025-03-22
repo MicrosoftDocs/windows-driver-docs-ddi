@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetFcpTargetMapping_OUT structure"]
 ms.keywords: "*PGetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT, GetFcpTargetMapping_OUT structure [Storage Devices], PGetFcpTargetMapping_OUT, PGetFcpTargetMapping_OUT structure pointer [Storage Devices], _GetFcpTargetMapping_OUT, hbapiwmi/GetFcpTargetMapping_OUT, hbapiwmi/PGetFcpTargetMapping_OUT, storage.getfcptargetmapping_out, structs-Fibre_ab6aca55-bb7c-4983-863c-de94e835a600.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetFcpTargetMapping_OUT
 ---
 
-# _GetFcpTargetMapping_OUT structure
+# GetFcpTargetMapping_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

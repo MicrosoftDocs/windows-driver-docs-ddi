@@ -7,6 +7,7 @@ ms.date: 11/06/2019
 keywords: ["MAILSLOT_CREATE_PARAMETERS structure"]
 ms.keywords: "*PMAILSLOT_CREATE_PARAMETERS, MAILSLOT_CREATE_PARAMETERS, MAILSLOT_CREATE_PARAMETERS structure"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - MAILSLOT_CREATE_PARAMETERS
 ---
 
-# _MAILSLOT_CREATE_PARAMETERS structure
+# MAILSLOT_CREATE_PARAMETERS structure (wdm.h)
+
+
 
 
 ## -description

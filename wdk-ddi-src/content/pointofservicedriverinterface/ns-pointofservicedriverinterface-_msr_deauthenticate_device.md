@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MSR_DEAUTHENTICATE_DEVICE structure"]
 ms.keywords: "*PMSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE structure, PMSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE structure pointer, _MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_DEAUTHENTICATE_DEVICE, pos.msr_deauthenticate_device"
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSR_DEAUTHENTICATE_DEVICE
 ---
 
-# _MSR_DEAUTHENTICATE_DEVICE structure
+# MSR_DEAUTHENTICATE_DEVICE structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

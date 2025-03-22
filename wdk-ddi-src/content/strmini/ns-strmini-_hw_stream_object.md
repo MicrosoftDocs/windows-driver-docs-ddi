@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["HW_STREAM_OBJECT structure"]
 ms.keywords: "*PHW_STREAM_OBJECT, HW_STREAM_OBJECT, HW_STREAM_OBJECT structure [Streaming Media Devices], PHW_STREAM_OBJECT, PHW_STREAM_OBJECT structure pointer [Streaming Media Devices], _HW_STREAM_OBJECT, strclass-struct_c409633a-dccd-4f70-a412-0da08feeae43.xml, stream.hw_stream_object, strmini/HW_STREAM_OBJECT, strmini/PHW_STREAM_OBJECT"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HW_STREAM_OBJECT
 ---
 
-# _HW_STREAM_OBJECT structure
+# HW_STREAM_OBJECT structure (strmini.h)
+
+
 
 
 ## -description

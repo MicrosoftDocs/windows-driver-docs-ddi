@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PCI_MSIX_TABLE_CONFIG_INTERFACE structure"]
 ms.keywords: "*PPCI_MSIX_TABLE_CONFIG_INTERFACE, PCI_MSIX_TABLE_CONFIG_INTERFACE, PCI_MSIX_TABLE_CONFIG_INTERFACE structure [Kernel-Mode Driver Architecture], PPCI_MSIX_TABLE_CONFIG_INTERFACE, PPCI_MSIX_TABLE_CONFIG_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _PCI_MSIX_TABLE_CONFIG_INTERFACE, drvr_interface_86de1cfb-1eac-442b-a154-6f23fcab87cd.xml, kernel.pci_msix_table_config_interface, wdm/PCI_MSIX_TABLE_CONFIG_INTERFACE, wdm/PPCI_MSIX_TABLE_CONFIG_INTERFACE"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista with Service Pack 1 (SP1), Windows Server 2008, and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - PCI_MSIX_TABLE_CONFIG_INTERFACE
 ---
 
-# _PCI_MSIX_TABLE_CONFIG_INTERFACE structure
+# PCI_MSIX_TABLE_CONFIG_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

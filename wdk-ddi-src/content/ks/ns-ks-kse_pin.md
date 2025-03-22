@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSE_PIN structure"]
 ms.keywords: "*PKSE_PIN, KSE_PIN, KSE_PIN structure [Streaming Media Devices], PKSE_PIN, PKSE_PIN structure pointer [Streaming Media Devices], ks/KSE_PIN, ks/PKSE_PIN, stream.kse_pin"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSE_PIN
 ---
 
-# KSE_PIN structure
+# KSE_PIN structure (ks.h)
+
+
 
 
 ## -description

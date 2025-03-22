@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATARANGE_VIDEO_VBI structure"]
 ms.keywords: "*PKS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI, KS_DATARANGE_VIDEO_VBI structure [Streaming Media Devices], PKS_DATARANGE_VIDEO_VBI, PKS_DATARANGE_VIDEO_VBI structure pointer [Streaming Media Devices], ksmedia/KS_DATARANGE_VIDEO_VBI, ksmedia/PKS_DATARANGE_VIDEO_VBI, stream.ks_datarange_video_vbi, tagKS_DATARANGE_VIDEO_VBI, vidcapstruct_79d2aa9b-f3b9-4faf-b06e-6048686602a5.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATARANGE_VIDEO_VBI
 ---
 
-# tagKS_DATARANGE_VIDEO_VBI structure
+# tagKS_DATARANGE_VIDEO_VBI structure (ksmedia.h)
+
+
 
 
 ## -description

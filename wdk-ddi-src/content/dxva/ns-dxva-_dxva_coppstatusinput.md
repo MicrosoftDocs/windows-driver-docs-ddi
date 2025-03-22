@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_COPPStatusInput structure"]
 ms.keywords: "*LPDXVA_COPPStatusInput, DXVA_COPPStatusInput, DXVA_COPPStatusInput structure [Display Devices], LPDXVA_COPPStatusInput, LPDXVA_COPPStatusInput structure pointer [Display Devices], _DXVA_COPPStatusInput, display.dxva_coppstatusinput, dxva/DXVA_COPPStatusInput, dxva/LPDXVA_COPPStatusInput, dxvaref_d6441478-0fb0-4643-97ec-dbd1ecd90e92.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_COPPStatusInput
 ---
 
-# _DXVA_COPPStatusInput structure
+# DXVA_COPPStatusInput structure (dxva.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILTER_REPLY_HEADER structure"]
 ms.keywords: "*PFILTER_REPLY_HEADER, FILTER_REPLY_HEADER, FILTER_REPLY_HEADER structure [Installable File System Drivers], FltSystemStructures_93e9fad2-e89d-40af-8614-c09a51f07e7b.xml, PFILTER_REPLY_HEADER, PFILTER_REPLY_HEADER structure pointer [Installable File System Drivers], _FILTER_REPLY_HEADER, fltuserstructures/FILTER_REPLY_HEADER, fltuserstructures/PFILTER_REPLY_HEADER, ifsk.filter_reply_header"
 req.header: fltuserstructures.h
+req.construct-type: structure
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILTER_REPLY_HEADER
 ---
 
-# _FILTER_REPLY_HEADER structure
+# FILTER_REPLY_HEADER structure (fltuserstructures.h)
+
+
 
 
 ## -description

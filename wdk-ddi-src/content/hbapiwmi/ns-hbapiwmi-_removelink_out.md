@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemoveLink_OUT structure"]
 ms.keywords: "*PRemoveLink_OUT, PRemoveLink_OUT, PRemoveLink_OUT structure pointer [Storage Devices], RemoveLink_OUT, RemoveLink_OUT structure [Storage Devices], _RemoveLink_OUT, hbapiwmi/PRemoveLink_OUT, hbapiwmi/RemoveLink_OUT, storage.removelink_out, structs-Fibre_0210455d-c6c4-4548-ae14-63aa2e7b9a5d.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemoveLink_OUT
 ---
 
-# _RemoveLink_OUT structure
+# RemoveLink_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

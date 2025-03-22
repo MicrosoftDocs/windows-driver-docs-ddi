@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure"]
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE
 ---
 
-# _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure (pepfx.h)
+# PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure (pepfx.h)
+
+
 
 
 ## -description

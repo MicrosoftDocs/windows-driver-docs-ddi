@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_WRITE_SPEED_REQUEST structure"]
 ms.keywords: "*PCDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST, CDROM_WRITE_SPEED_REQUEST structure [Storage Devices], PCDROM_WRITE_SPEED_REQUEST, PCDROM_WRITE_SPEED_REQUEST structure pointer [Storage Devices], _CDROM_WRITE_SPEED_REQUEST, ntddcdrm/CDROM_WRITE_SPEED_REQUEST, ntddcdrm/PCDROM_WRITE_SPEED_REQUEST, storage.cdrom_write_speed_request"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_WRITE_SPEED_REQUEST
 ---
 
-# _CDROM_WRITE_SPEED_REQUEST structure
+# CDROM_WRITE_SPEED_REQUEST structure (ntddcdrm.h)
+
+
 
 
 ## -description

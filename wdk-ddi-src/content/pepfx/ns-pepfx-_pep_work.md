@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_WORK structure"]
 ms.keywords: "*PPEP_WORK, PEP_WORK, PEP_WORK structure [Kernel-Mode Driver Architecture], PPEP_WORK, PPEP_WORK structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK, kernel.pep_work, pepfx/PEP_WORK, pepfx/PPEP_WORK"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_WORK
 ---
 
-# _PEP_WORK structure (pepfx.h)
+# PEP_WORK structure (pepfx.h)
+
+
 
 
 ## -description

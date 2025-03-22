@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO structure"]
 ms.keywords: _NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO, NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO, *PNDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO
 ---
 
-# _NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO structure
+# NDIS_WWAN_SAR_TRANSMISSION_STATUS_INFO structure (ndiswwan.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_BRIGHTNESS_SENSOR_DATA structure"]
 ms.keywords: _DXGK_BRIGHTNESS_SENSOR_DATA, DXGK_BRIGHTNESS_SENSOR_DATA,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_BRIGHTNESS_SENSOR_DATA
 ---
 
-# _DXGK_BRIGHTNESS_SENSOR_DATA structure
+# DXGK_BRIGHTNESS_SENSOR_DATA structure (d3dkmdt.h)
+
+
 
 
 ## -description

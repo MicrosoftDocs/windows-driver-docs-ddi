@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_GDIARG_CLEARTYPEBLEND structure"]
 ms.keywords: DXGK_GDIARG_CLEARTYPEBLEND, DXGK_GDIARG_CLEARTYPEBLEND structure [Display Devices], DmStructs_b59789df-1494-45ea-b89a-4403e6c82dfd.xml, _DXGK_GDIARG_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIARG_CLEARTYPEBLEND, display.dxgk_gdiarg_cleartypeblend
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_GDIARG_CLEARTYPEBLEND
 ---
 
-# DXGK_GDIARG_CLEARTYPEBLEND structure
+# DXGK_GDIARG_CLEARTYPEBLEND structure (d3dkmddi.h)
+
+
 
 ## -description
 

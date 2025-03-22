@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["IVRS_IVINFO structure"]
 ms.keywords: _IVRS_IVINFO, IVRS_IVINFO, *PIVRS_IVINFO,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IVRS_IVINFO
 ---
 
-# _IVRS_IVINFO structure
+# IVRS_IVINFO structure (acpitabl.h)
+
+
 
 
 ## -description

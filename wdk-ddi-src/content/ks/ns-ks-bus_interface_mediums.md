@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BUS_INTERFACE_MEDIUMS structure"]
 ms.keywords: "*PBUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS, BUS_INTERFACE_MEDIUMS structure [Streaming Media Devices], PBUS_INTERFACE_MEDIUMS, PBUS_INTERFACE_MEDIUMS structure pointer [Streaming Media Devices], ks/BUS_INTERFACE_MEDIUMS, ks/PBUS_INTERFACE_MEDIUMS, stream.bus_interface_mediums"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BUS_INTERFACE_MEDIUMS
 ---
 
-# BUS_INTERFACE_MEDIUMS structure
+# BUS_INTERFACE_MEDIUMS structure (ks.h)
+
+
 
 
 ## -description

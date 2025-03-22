@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_AGP_SERVICES structure"]
 ms.keywords: "*PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES, PVIDEO_PORT_AGP_SERVICES structure pointer [Display Devices], VIDEO_PORT_AGP_SERVICES, VIDEO_PORT_AGP_SERVICES structure [Display Devices], Video_Structs_a667f879-7c09-4f48-9b23-920bb68a08cb.xml, _VIDEO_PORT_AGP_SERVICES, display.video_port_agp_services, videoagp/PVIDEO_PORT_AGP_SERVICES, videoagp/VIDEO_PORT_AGP_SERVICES"
 req.header: videoagp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_PORT_AGP_SERVICES
 ---
 
-# _VIDEO_PORT_AGP_SERVICES structure
+# VIDEO_PORT_AGP_SERVICES structure (videoagp.h)
+
+
 
 
 ## -description

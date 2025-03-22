@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_COMPLETION_PARAMS structure"]
 ms.keywords: "*PWDF_REQUEST_COMPLETION_PARAMS, DFRequestObjectRef_e8277b90-7e1e-4d00-9f6b-012b189c153f.xml, PWDF_REQUEST_COMPLETION_PARAMS, PWDF_REQUEST_COMPLETION_PARAMS structure pointer, WDF_REQUEST_COMPLETION_PARAMS, WDF_REQUEST_COMPLETION_PARAMS structure, _WDF_REQUEST_COMPLETION_PARAMS, kmdf.wdf_request_completion_params, wdf.wdf_request_completion_params, wdfrequest/PWDF_REQUEST_COMPLETION_PARAMS, wdfrequest/WDF_REQUEST_COMPLETION_PARAMS"
 req.header: wdfrequest.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_REQUEST_COMPLETION_PARAMS
 ---
 
-# _WDF_REQUEST_COMPLETION_PARAMS structure
+# WDF_REQUEST_COMPLETION_PARAMS structure (wdfrequest.h)
+
+
 
 
 ## -description

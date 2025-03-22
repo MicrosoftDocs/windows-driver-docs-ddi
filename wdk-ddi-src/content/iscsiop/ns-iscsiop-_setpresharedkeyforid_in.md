@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetPresharedKeyForId_IN structure"]
 ms.keywords: "*PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN, PSetPresharedKeyForId_IN structure pointer [Storage Devices], SetPresharedKeyForId_IN, SetPresharedKeyForId_IN structure [Storage Devices], _SetPresharedKeyForId_IN, iscsiop/PSetPresharedKeyForId_IN, iscsiop/SetPresharedKeyForId_IN, storage.setpresharedkeyforid_in, structs-iSCSI_610ad061-d9c5-4557-88c0-e7d9a20236a2.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetPresharedKeyForId_IN
 ---
 
-# _SetPresharedKeyForId_IN structure
+# SetPresharedKeyForId_IN structure (iscsiop.h)
+
+
 
 
 ## -description

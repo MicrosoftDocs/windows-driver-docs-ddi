@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["WWAN_UICC_RESPONSE structure"]
 ms.keywords: _WWAN_UICC_RESPONSE, WWAN_UICC_RESPONSE, *PWWAN_UICC_RESPONSE,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_UICC_RESPONSE
 ---
 
-# _WWAN_UICC_RESPONSE structure
+# WWAN_UICC_RESPONSE structure (wwan.h)
+
+
 
 
 ## -description

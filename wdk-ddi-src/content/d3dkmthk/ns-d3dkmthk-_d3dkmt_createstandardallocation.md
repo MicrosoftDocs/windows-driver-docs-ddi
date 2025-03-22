@@ -6,6 +6,7 @@ ms.date: 07/12/2023
 keywords: ["D3DKMT_CREATESTANDARDALLOCATION structure"]
 ms.keywords: D3DKMT_CREATESTANDARDALLOCATION, D3DKMT_CREATESTANDARDALLOCATION structure [Display Devices], _D3DKMT_CREATESTANDARDALLOCATION, d3dkmthk/D3DKMT_CREATESTANDARDALLOCATION, display.d3dkmt-createstandardallocation
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_CREATESTANDARDALLOCATION
 ---
 
-# D3DKMT_CREATESTANDARDALLOCATION structure
+# D3DKMT_CREATESTANDARDALLOCATION structure (d3dkmthk.h)
+
+
 
 ## -description
 

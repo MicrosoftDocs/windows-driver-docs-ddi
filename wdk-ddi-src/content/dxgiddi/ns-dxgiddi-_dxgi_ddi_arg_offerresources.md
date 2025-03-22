@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_OFFERRESOURCES structure"]
 ms.keywords: DXGI_DDI_ARG_OFFERRESOURCES, DXGI_DDI_ARG_OFFERRESOURCES structure [Display Devices], _DXGI_DDI_ARG_OFFERRESOURCES, display.dxgi_ddi_arg_offerresources, dxgiddi/DXGI_DDI_ARG_OFFERRESOURCES
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8,WDDM 1.2 and later
@@ -43,7 +44,9 @@ api_name:
  - DXGI_DDI_ARG_OFFERRESOURCES
 ---
 
-# _DXGI_DDI_ARG_OFFERRESOURCES structure
+# DXGI_DDI_ARG_OFFERRESOURCES structure (dxgiddi.h)
+
+
 
 
 ## -description

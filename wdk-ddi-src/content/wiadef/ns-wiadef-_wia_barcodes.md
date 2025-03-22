@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIA_BARCODES structure"]
 ms.keywords: WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], _WIA_BARCODES, image.wia_barcodes, wiadef/WIA_BARCODES
 req.header: wiadef.h
+req.construct-type: structure
 req.include-header: Wiadef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WIA_BARCODES
 ---
 
-# _WIA_BARCODES structure
+# WIA_BARCODES structure (wiadef.h)
+
+
 
 
 ## -description

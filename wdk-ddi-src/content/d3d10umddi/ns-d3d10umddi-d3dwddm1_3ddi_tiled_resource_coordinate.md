@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure"]
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure [Display Devices], d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE, display.d3dwddm1_3ddi_tiled_resource_coordinate
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE
 ---
 
-# D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure
+# D3DWDDM1_3DDI_TILED_RESOURCE_COORDINATE structure (d3d10umddi.h)
+
+
 
 
 ## -description

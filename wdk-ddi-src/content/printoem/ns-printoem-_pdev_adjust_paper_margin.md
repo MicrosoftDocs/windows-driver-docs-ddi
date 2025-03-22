@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["PDEV_ADJUST_PAPER_MARGIN structure"]
 ms.keywords: PDEV_ADJUST_PAPER_MARGIN, PDEV_ADJUST_PAPER_MARGIN structure [Print Devices], _PDEV_ADJUST_PAPER_MARGIN, print.pdev_adjust_paper_margin, print_unidrv-pscript_rendering_09d49312-b306-40c0-ad25-bc3669e8eedd.xml, printoem/PDEV_ADJUST_PAPER_MARGIN
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _PDEV_ADJUST_PAPER_MARGIN
  - PDEV_ADJUST_PAPER_MARGIN
 ---
+
+# PDEV_ADJUST_PAPER_MARGIN structure (printoem.h)
 
 ## -description
 

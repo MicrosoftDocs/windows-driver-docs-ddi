@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure"]
 ms.keywords: "*PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S, KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure [Streaming Media Devices], PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, PKSPROPERTY_DROPPEDFRAMES_CURRENT_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_DROPPEDFRAMES_CURRENT_S, ksmedia/PKSPROPERTY_DROPPEDFRAMES_CURRENT_S, stream.ksproperty_droppedframes_current_s, vidcapstruct_ee78d2f2-c142-4d17-855d-7dc35589f271.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_DROPPEDFRAMES_CURRENT_S
 ---
 
-# KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure
+# KSPROPERTY_DROPPEDFRAMES_CURRENT_S structure (ksmedia.h)
+
+
 
 
 ## -description

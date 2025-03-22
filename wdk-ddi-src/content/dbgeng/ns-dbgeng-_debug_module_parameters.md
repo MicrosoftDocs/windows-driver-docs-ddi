@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_MODULE_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS, DEBUG_MODULE_PARAMETERS structure [Windows Debugging], PDEBUG_MODULE_PARAMETERS, PDEBUG_MODULE_PARAMETERS structure pointer [Windows Debugging], Structures_6e7366d2-9f49-4b7e-a277-d788808e4c40.xml, _DEBUG_MODULE_PARAMETERS, dbgeng/DEBUG_MODULE_PARAMETERS, dbgeng/PDEBUG_MODULE_PARAMETERS, debugger.debug_module_parameters"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_MODULE_PARAMETERS
 ---
 
-# _DEBUG_MODULE_PARAMETERS structure
+# DEBUG_MODULE_PARAMETERS structure (dbgeng.h)
+
+
 
 
 ## -description

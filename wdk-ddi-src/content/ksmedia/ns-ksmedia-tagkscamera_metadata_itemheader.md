@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_METADATA_ITEMHEADER structure"]
 ms.keywords: "*PKSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER structure [Streaming Media Devices], PKSCAMERA_METADATA_ITEMHEADER, PKSCAMERA_METADATA_ITEMHEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_METADATA_ITEMHEADER, ksmedia/PKSCAMERA_METADATA_ITEMHEADER, stream.kscamera_metadata_itemheader, tagKSCAMERA_METADATA_ITEMHEADER"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_METADATA_ITEMHEADER
 ---
 
-# tagKSCAMERA_METADATA_ITEMHEADER structure
+# tagKSCAMERA_METADATA_ITEMHEADER structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSPROPERTY_TIMECODE_NODE_S structure"]
 ms.keywords: "*PKSPROPERTY_TIMECODE_NODE_S, KSPROPERTY_TIMECODE_NODE_S, KSPROPERTY_TIMECODE_NODE_S structure [Streaming Media Devices], PKSPROPERTY_TIMECODE_NODE_S, PKSPROPERTY_TIMECODE_NODE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_TIMECODE_NODE_S, ksmedia/PKSPROPERTY_TIMECODE_NODE_S, stream.ksproperty_timecode_node_s, vidcapstruct_3c1b784a-1cd7-40b8-a0af-35c60b02cc50.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_TIMECODE_NODE_S
 ---
 
-# KSPROPERTY_TIMECODE_NODE_S structure
+# KSPROPERTY_TIMECODE_NODE_S structure (ksmedia.h)
+
+
 
 
 ## -description

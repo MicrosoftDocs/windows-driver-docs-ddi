@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["DEBUG_TRANSPORT_DATA structure"]
 ms.keywords: _DEBUG_TRANSPORT_DATA, DEBUG_TRANSPORT_DATA, *PDEBUG_TRANSPORT_DATA,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DEBUG_TRANSPORT_DATA
 ---
 
-# _DEBUG_TRANSPORT_DATA structure
+# DEBUG_TRANSPORT_DATA structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.custom: content-health
 keywords: ["D3D10DDIARG_CREATERESOURCE structure"]
 ms.keywords: D3D10DDIARG_CREATERESOURCE, D3D10DDIARG_CREATERESOURCE structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3f91ee50-2bdd-4206-afe6-d8b79d3b7d80.xml, d3d10umddi/D3D10DDIARG_CREATERESOURCE, display.d3d10ddiarg_createresource
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - D3D10DDIARG_CREATERESOURCE
 ---
 
-# D3D10DDIARG_CREATERESOURCE structure
+# D3D10DDIARG_CREATERESOURCE structure (d3d10umddi.h)
+
+
 
 ## -description
 

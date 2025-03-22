@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2INDEXEDTRIANGLELIST2 structure"]
 ms.keywords: "*LPD3DHAL_DP2INDEXEDTRIANGLELIST2, D3DHAL_DP2INDEXEDTRIANGLELIST2, D3DHAL_DP2INDEXEDTRIANGLELIST2 structure [Display Devices], LPD3DHAL_DP2INDEXEDTRIANGLELIST2, LPD3DHAL_DP2INDEXEDTRIANGLELIST2 structure pointer [Display Devices], _D3DHAL_DP2INDEXEDTRIANGLELIST2, d3dhal/D3DHAL_DP2INDEXEDTRIANGLELIST2, d3dhal/LPD3DHAL_DP2INDEXEDTRIANGLELIST2, d3dstrct_7f47a0e0-7be5-46bf-89c3-fa69ee6e6230.xml, display.d3dhal_dp2indexedtrianglelist2"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DHAL_DP2INDEXEDTRIANGLELIST2
 ---
 
-# _D3DHAL_DP2INDEXEDTRIANGLELIST2 structure
+# D3DHAL_DP2INDEXEDTRIANGLELIST2 structure (d3dhal.h)
+
+
 
 
 ## -description

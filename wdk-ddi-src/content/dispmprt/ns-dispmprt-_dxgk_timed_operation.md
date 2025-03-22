@@ -8,6 +8,7 @@ ms.date: 11/19/2021
 keywords: ["DXGK_TIMED_OPERATION structure"]
 ms.keywords: "*PDXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION, DXGK_TIMED_OPERATION structure [Display Devices], DmStructs_1d58055e-2e81-4a42-b596-390752f0db84.xml, PDXGK_TIMED_OPERATION, PDXGK_TIMED_OPERATION structure pointer [Display Devices], _DXGK_TIMED_OPERATION, display.dxgk_timed_operation, dispmprt/DXGK_TIMED_OPERATION, dispmprt/PDXGK_TIMED_OPERATION"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGK_TIMED_OPERATION
 ---
 
-# DXGK_TIMED_OPERATION structure
+# DXGK_TIMED_OPERATION structure (dispmprt.h)
+
+
 
 ## -description
 

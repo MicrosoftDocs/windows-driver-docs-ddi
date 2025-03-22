@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["BAND_MANAGEMENT_CAPABILITIES structure"]
 ms.keywords: "*PBAND_MANAGEMENT_CAPABILITIES, 0, BAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], CAPS_ACTIVATED, CAPS_BANDCROSSING_SUPPORTED, CAPS_SID_SECURED, MEDIAKEY_PROTECTEDBY_AUTHKEY, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, PBAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], _BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, storage.band_management_capabilities"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - BAND_MANAGEMENT_CAPABILITIES
 ---
 
-# _BAND_MANAGEMENT_CAPABILITIES structure
+# BAND_MANAGEMENT_CAPABILITIES structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

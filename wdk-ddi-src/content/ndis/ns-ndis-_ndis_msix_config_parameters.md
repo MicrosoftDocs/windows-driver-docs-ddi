@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_MSIX_CONFIG_PARAMETERS structure"]
 ms.keywords: "*PNDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS, NDIS_MSIX_CONFIG_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_MSIX_CONFIG_PARAMETERS, PNDIS_MSIX_CONFIG_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_MSIX_CONFIG_PARAMETERS, ndis/NDIS_MSIX_CONFIG_PARAMETERS, ndis/PNDIS_MSIX_CONFIG_PARAMETERS, ndis_msix_ref_01a237b1-bb32-4aad-8552-b36b66141061.xml, netvista.ndis_msix_config_parameters"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_MSIX_CONFIG_PARAMETERS
 ---
 
-# _NDIS_MSIX_CONFIG_PARAMETERS structure
+# NDIS_MSIX_CONFIG_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

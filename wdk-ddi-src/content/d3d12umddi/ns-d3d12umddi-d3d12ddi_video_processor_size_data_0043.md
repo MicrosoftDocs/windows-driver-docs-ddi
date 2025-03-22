@@ -6,6 +6,7 @@ ms.date: 05/24/2022
 keywords: ["D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043, D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043
 ---
 
-# D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure
+# D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0043 structure (d3d12umddi.h)
+
+
 
 
 ## -description

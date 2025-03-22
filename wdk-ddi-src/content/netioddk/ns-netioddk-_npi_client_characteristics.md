@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NPI_CLIENT_CHARACTERISTICS structure"]
 ms.keywords: NPI_CLIENT_CHARACTERISTICS, NPI_CLIENT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNPI_CLIENT_CHARACTERISTICS, PNPI_CLIENT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NPI_CLIENT_CHARACTERISTICS, netioddk/NPI_CLIENT_CHARACTERISTICS, netioddk/PNPI_CLIENT_CHARACTERISTICS, netvista.npi_client_characteristics, nmrref_01bb300c-5e76-40e3-9358-a01e991ceecf.xml
 req.header: netioddk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - NPI_CLIENT_CHARACTERISTICS
 ---
 
-# _NPI_CLIENT_CHARACTERISTICS structure
+# NPI_CLIENT_CHARACTERISTICS structure (netioddk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["MOUNTMGR_VOLUME_MOUNT_POINT structure"]
 ms.keywords: "*PMOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT, MOUNTMGR_VOLUME_MOUNT_POINT structure [Storage Devices], PMOUNTMGR_VOLUME_MOUNT_POINT, PMOUNTMGR_VOLUME_MOUNT_POINT structure pointer [Storage Devices], _MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/MOUNTMGR_VOLUME_MOUNT_POINT, mountmgr/PMOUNTMGR_VOLUME_MOUNT_POINT, storage.mountmgr_volume_mount_point, structs-mntmgr_afa5831e-a33d-4fb6-a67b-b0b4f459e19b.xml"
 req.header: mountmgr.h
+req.construct-type: structure
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMOUNTMGR_VOLUME_MOUNT_POINT
  - MOUNTMGR_VOLUME_MOUNT_POINT
 ---
+
+# MOUNTMGR_VOLUME_MOUNT_POINT structure (mountmgr.h)
 
 ## -description
 

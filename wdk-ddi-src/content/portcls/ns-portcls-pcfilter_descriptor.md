@@ -8,6 +8,7 @@ ms.date: 10/01/2020
 keywords: ["PCFILTER_DESCRIPTOR structure"]
 ms.keywords: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], PPCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], audio.pcfilter_descriptor, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, portcls/PCFILTER_DESCRIPTOR, portcls/PPCFILTER_DESCRIPTOR"
 req.header: portcls.h
+req.construct-type: structure
 req.include-header: Portcls.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PCFILTER_DESCRIPTOR
 ---
 
-# PCFILTER_DESCRIPTOR structure
+# PCFILTER_DESCRIPTOR structure (portcls.h)
+
+
 
 
 ## -description

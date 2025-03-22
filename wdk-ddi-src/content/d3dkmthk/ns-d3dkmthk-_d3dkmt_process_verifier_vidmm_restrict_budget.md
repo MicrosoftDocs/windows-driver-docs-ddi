@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET structure"]
 ms.keywords: _D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET, D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET structure
+# D3DKMT_PROCESS_VERIFIER_VIDMM_RESTRICT_BUDGET structure (d3dkmthk.h)
+
+
 
 
 ## -description

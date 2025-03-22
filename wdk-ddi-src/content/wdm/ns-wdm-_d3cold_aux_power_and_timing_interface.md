@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["D3COLD_AUX_POWER_AND_TIMING_INTERFACE structure"]
 ms.keywords: _D3COLD_AUX_POWER_AND_TIMING_INTERFACE, *PD3COLD_AUX_POWER_AND_TIMING_INTERFACE, D3COLD_AUX_POWER_AND_TIMING_INTERFACE,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - D3COLD_AUX_POWER_AND_TIMING_INTERFACE
 ---
 
-# _D3COLD_AUX_POWER_AND_TIMING_INTERFACE structure
+# D3COLD_AUX_POWER_AND_TIMING_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

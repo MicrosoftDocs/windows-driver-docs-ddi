@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure [Display Devices], display.dxgiddi_multiplane_overlay_allocation_info, dxgiddi/DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO
 ---
 
-# DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure
+# DXGIDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure (dxgiddi.h)
+
+
 
 
 ## -description

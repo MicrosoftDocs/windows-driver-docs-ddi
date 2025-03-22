@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_GetPersistentBinding_OUT structure"]
 ms.keywords: "*PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices], SM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT structure [Storage Devices], _SM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, hbapiwmi/SM_GetPersistentBinding_OUT, storage.sm_getpersistentbinding_out, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_GetPersistentBinding_OUT
 ---
 
-# _SM_GetPersistentBinding_OUT structure
+# SM_GetPersistentBinding_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

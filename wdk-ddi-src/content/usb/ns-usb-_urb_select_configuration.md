@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_SELECT_CONFIGURATION structure"]
 ms.keywords: "_URB_SELECT_CONFIGURATION, _URB_SELECT_CONFIGURATION structure [Buses], buses._urb_select_configuration, usb/_URB_SELECT_CONFIGURATION, usbstrct_cfe530e7-f16f-4d45-96e9-e1603bde77b9.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_SELECT_CONFIGURATION
 ---
 
-# _URB_SELECT_CONFIGURATION structure
+# _URB_SELECT_CONFIGURATION structure (usb.h)
+
+
 
 
 ## -description

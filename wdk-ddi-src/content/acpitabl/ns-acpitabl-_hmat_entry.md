@@ -6,6 +6,7 @@ ms.date: 09/27/2022
 keywords: ["HMAT_ENTRY structure"]
 ms.keywords: _HMAT_ENTRY, HMAT_ENTRY, *PHMAT_ENTRY,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_name:
  - PHMAT_ENTRY
  - HMAT_ENTRY
 ---
+
+# HMAT_ENTRY structure (acpitabl.h)
 
 ## -description
 

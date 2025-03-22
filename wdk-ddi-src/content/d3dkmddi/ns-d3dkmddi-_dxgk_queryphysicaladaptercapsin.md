@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_QUERYPHYSICALADAPTERCAPSIN structure"]
 ms.keywords: DXGK_QUERYPHYSICALADAPTERCAPSIN, DXGK_QUERYPHYSICALADAPTERCAPSIN structure [Display Devices], _DXGK_QUERYPHYSICALADAPTERCAPSIN, d3dkmddi/DXGK_QUERYPHYSICALADAPTERCAPSIN, display.dxgk_queryphysicaladaptercapsin
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_QUERYPHYSICALADAPTERCAPSIN
 ---
 
-# _DXGK_QUERYPHYSICALADAPTERCAPSIN structure
+# DXGK_QUERYPHYSICALADAPTERCAPSIN structure (d3dkmddi.h)
+
+
 
 
 ## -description

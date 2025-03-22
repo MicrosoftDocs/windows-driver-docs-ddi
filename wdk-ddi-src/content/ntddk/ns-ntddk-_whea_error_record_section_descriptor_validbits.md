@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS union [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, ntddk/WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS, whea.whea_error_record_section_descriptor_validbits, whearef_0e13e9d6-57cb-44bd-825e-d9cab5c138c8.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
  - WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
 ---
+
+# WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS structure (ntddk.h)
 
 ## -description
 

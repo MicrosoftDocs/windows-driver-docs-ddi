@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_GET_CONFIG_ROM structure"]
 ms.keywords: 1394/IRB_REQ_GET_CONFIG_ROM, IEEE.irb_req_get_config_rom, IRB_REQ_GET_CONFIG_ROM, IRB_REQ_GET_CONFIG_ROM structure [Buses], _IRB_REQ_GET_CONFIG_ROM
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_GET_CONFIG_ROM
 ---
 
-# _IRB_REQ_GET_CONFIG_ROM structure
+# IRB_REQ_GET_CONFIG_ROM structure (1394.h)
+
+
 
 
 ## -description

@@ -4,6 +4,7 @@ title: DXGK_CREATEPROCESSFLAGS (d3dkmddi.h)
 description: DXGK_CREATEPROCESSFLAGS is used with DXGKARG_CREATEPROCESS and DxgkDdiCreateProcess to create a kernel mode driver object for a Microsoft DirectX graphics kernel process object.
 ms.date: 02/03/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - DXGK_CREATEPROCESSFLAGS
 ---
 
-# DXGK_CREATEPROCESSFLAGS structure
+# DXGK_CREATEPROCESSFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

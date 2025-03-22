@@ -7,6 +7,7 @@ ms.date: 11/15/2022
 keywords: ["CPSUICBPARAM structure"]
 ms.keywords: "*PCPSUICBPARAM, CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], _CPSUICBPARAM, compstui/CPSUICBPARAM, compstui/PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PCPSUICBPARAM
  - CPSUICBPARAM
 ---
+
+# CPSUICBPARAM structure (compstui.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure [Display Devices], PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure pointer [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, d3dumddi/PD3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT, display.d3dddi_multiplane_overlay_group_caps_input
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT
 ---
 
-# D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure
+# D3DDDI_MULTIPLANE_OVERLAY_GROUP_CAPS_INPUT structure (d3dumddi.h)
+
+
 
 
 ## -description

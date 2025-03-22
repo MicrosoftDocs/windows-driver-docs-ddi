@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_EVICT structure"]
 ms.keywords: D3DKMT_EVICT, D3DKMT_EVICT structure [Display Devices], _D3DKMT_EVICT, d3dkmthk/D3DKMT_EVICT, display.d3dkmt_evict
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_EVICT
 ---
 
-# _D3DKMT_EVICT structure
+# D3DKMT_EVICT structure (d3dkmthk.h)
+
+
 
 
 ## -description

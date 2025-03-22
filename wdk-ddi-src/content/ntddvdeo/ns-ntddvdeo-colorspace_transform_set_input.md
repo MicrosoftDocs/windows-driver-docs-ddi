@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_SET_INPUT structure"]
 ms.keywords: COLORSPACE_TRANSFORM_SET_INPUT, COLORSPACE_TRANSFORM_SET_INPUT, *PCOLORSPACE_TRANSFORM_SET_INPUT,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# COLORSPACE_TRANSFORM_SET_INPUT structure
+# COLORSPACE_TRANSFORM_SET_INPUT structure (ntddvdeo.h)
+
+
 
 
 ## -description

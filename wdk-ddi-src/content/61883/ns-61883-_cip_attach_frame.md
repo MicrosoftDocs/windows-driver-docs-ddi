@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CIP_ATTACH_FRAME structure"]
 ms.keywords: "*PCIP_ATTACH_FRAME, 61883/CIP_ATTACH_FRAME, 61883/PCIP_ATTACH_FRAME, CIP_ATTACH_FRAME, CIP_ATTACH_FRAME structure [Buses], IEEE.cip_attach_frame, PCIP_ATTACH_FRAME, PCIP_ATTACH_FRAME structure pointer [Buses], _CIP_ATTACH_FRAME"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_ATTACH_FRAME
 ---
 
-# _CIP_ATTACH_FRAME structure
+# CIP_ATTACH_FRAME structure (61883.h)
+
+
 
 
 ## -description

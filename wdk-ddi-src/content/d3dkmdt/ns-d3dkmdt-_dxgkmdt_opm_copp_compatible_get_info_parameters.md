@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure"]
 ms.keywords: "*PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_2e356de0-a1ca-4f75-a3f2-c72be3bdf87f.xml, PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS, display.dxgkmdt_opm_copp_compatible_get_info_parameters"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS
 ---
 
-# _DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure
+# DXGKMDT_OPM_COPP_COMPATIBLE_GET_INFO_PARAMETERS structure (d3dkmdt.h)
+
+
 
 
 ## -description

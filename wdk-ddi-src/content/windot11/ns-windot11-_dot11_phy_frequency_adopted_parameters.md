@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure"]
 ms.keywords: "*PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7043b8b8-3b99-4350-bcb5-4ea194c7fd9d.xml, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, netvista.dot11_phy_frequency_adopted_parameters, windot11/DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS, windot11/PDOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS
 ---
 
-# _DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure
+# DOT11_PHY_FREQUENCY_ADOPTED_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

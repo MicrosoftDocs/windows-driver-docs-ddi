@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure"]
 ms.keywords: "*PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, kernel.reg_callback_context_cleanup_information, kstruct_d_949535da-0c9e-474c-9d68-1e8795c7203a.xml, wdm/PREG_CALLBACK_CONTEXT_CLEANUP_INFORMATION, wdm/REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION
 ---
 
-# _REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure
+# REG_CALLBACK_CONTEXT_CLEANUP_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

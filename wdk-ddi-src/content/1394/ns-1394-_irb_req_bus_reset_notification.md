@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_BUS_RESET_NOTIFICATION structure"]
 ms.keywords: 1394/IRB_REQ_BUS_RESET_NOTIFICATION, IEEE.irb_req_bus_reset_notification, IRB_REQ_BUS_RESET_NOTIFICATION, IRB_REQ_BUS_RESET_NOTIFICATION structure [Buses], _IRB_REQ_BUS_RESET_NOTIFICATION
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_BUS_RESET_NOTIFICATION
 ---
 
-# _IRB_REQ_BUS_RESET_NOTIFICATION structure
+# IRB_REQ_BUS_RESET_NOTIFICATION structure (1394.h)
+
+
 
 
 ## -description

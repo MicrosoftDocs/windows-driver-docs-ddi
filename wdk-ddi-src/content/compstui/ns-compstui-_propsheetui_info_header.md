@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["PROPSHEETUI_INFO_HEADER structure"]
 ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER, compstui/PROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, print.propsheetui_info_header"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPROPSHEETUI_INFO_HEADER
  - PROPSHEETUI_INFO_HEADER
 ---
+
+# PROPSHEETUI_INFO_HEADER structure (compstui.h)
 
 ## -description
 

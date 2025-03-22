@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure"]
 ms.keywords: "*PFILE_NETWORK_PHYSICAL_NAME_INFORMATION, FILE_NETWORK_PHYSICAL_NAME_INFORMATION, FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure [Installable File System Drivers], PFILE_NETWORK_PHYSICAL_NAME_INFORMATION, PFILE_NETWORK_PHYSICAL_NAME_INFORMATION structure pointer [Installable File System Drivers], _FILE_NETWORK_PHYSICAL_NAME_INFORMATION, ifsk.file_network_physical_name_information, ntifs/FILE_NETWORK_PHYSICAL_NAME_INFORMATION, ntifs/PFILE_NETWORK_PHYSICAL_NAME_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - FILE_NETWORK_PHYSICAL_NAME_INFORMATION
 ---
 
-# FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure
+# FILE_NETWORK_PHYSICAL_NAME_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

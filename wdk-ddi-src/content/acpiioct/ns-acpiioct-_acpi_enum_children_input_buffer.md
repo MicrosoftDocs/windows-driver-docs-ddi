@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["ACPI_ENUM_CHILDREN_INPUT_BUFFER structure"]
 ms.keywords: "*PACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER, ACPI_ENUM_CHILDREN_INPUT_BUFFER structure [ACPI Devices], PACPI_ENUM_CHILDREN_INPUT_BUFFER, PACPI_ENUM_CHILDREN_INPUT_BUFFER structure pointer [ACPI Devices], _ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpi-meth-eval-ref_3d8ce8a3-94f9-4ea0-9a16-f76c08928fc4.xml, acpi.acpi_enum_children_input_buffer, acpiioct/ACPI_ENUM_CHILDREN_INPUT_BUFFER, acpiioct/PACPI_ENUM_CHILDREN_INPUT_BUFFER"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - ACPI_ENUM_CHILDREN_INPUT_BUFFER
 ---
 
-# _ACPI_ENUM_CHILDREN_INPUT_BUFFER structure
+# ACPI_ENUM_CHILDREN_INPUT_BUFFER structure (acpiioct.h)
+
+
 
 
 ## -description

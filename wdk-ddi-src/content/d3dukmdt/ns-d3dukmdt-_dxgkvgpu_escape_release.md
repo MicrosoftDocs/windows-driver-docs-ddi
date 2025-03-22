@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_RELEASE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_RELEASE, DXGKVGPU_ESCAPE_RELEASE structure [Display Devices], _DXGKVGPU_ESCAPE_RELEASE, d3dukmdt/DXGKVGPU_ESCAPE_RELEASE, display.dxgkvgpu_escape_release
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKVGPU_ESCAPE_RELEASE
 ---
 
-# _DXGKVGPU_ESCAPE_RELEASE structure
+# DXGKVGPU_ESCAPE_RELEASE structure (d3dukmdt.h)
+
+
 
 
 ## -description

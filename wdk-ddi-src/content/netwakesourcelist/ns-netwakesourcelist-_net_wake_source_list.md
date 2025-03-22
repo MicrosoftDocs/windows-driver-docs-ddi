@@ -7,6 +7,7 @@ ms.date: 10/07/2019
 keywords: ["NET_WAKE_SOURCE_LIST structure"]
 ms.keywords: NET_WAKE_SOURCE_LIST, NET_WAKE_SOURCE_LIST,
 req.header: netwakesourcelist.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - NET_WAKE_SOURCE_LIST
 ---
 
-# NET_WAKE_SOURCE_LIST structure
+# NET_WAKE_SOURCE_LIST structure (netwakesourcelist.h)
+
+
 
 
 ## -description

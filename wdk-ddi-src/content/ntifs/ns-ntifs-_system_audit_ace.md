@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SYSTEM_AUDIT_ACE structure"]
 ms.keywords: "*PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], _SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, ntifs/PSYSTEM_AUDIT_ACE, ntifs/SYSTEM_AUDIT_ACE, securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - SYSTEM_AUDIT_ACE
 ---
 
-# _SYSTEM_AUDIT_ACE structure
+# SYSTEM_AUDIT_ACE structure (ntifs.h)
+
+
 
 
 ## -description

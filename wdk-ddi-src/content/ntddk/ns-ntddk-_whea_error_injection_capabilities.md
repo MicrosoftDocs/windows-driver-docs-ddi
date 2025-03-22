@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_ERROR_INJECTION_CAPABILITIES structure"]
 ms.keywords: "*PWHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES, PWHEA_ERROR_INJECTION_CAPABILITIES union pointer [WHEA Drivers and Applications], WHEA_ERROR_INJECTION_CAPABILITIES, WHEA_ERROR_INJECTION_CAPABILITIES union [WHEA Drivers and Applications], _WHEA_ERROR_INJECTION_CAPABILITIES, ntddk/PWHEA_ERROR_INJECTION_CAPABILITIES, ntddk/WHEA_ERROR_INJECTION_CAPABILITIES, whea.whea_error_injection_capabilities, whearef_f040c2a7-cded-4903-a19c-c1163870c010.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_ERROR_INJECTION_CAPABILITIES
 ---
 
-# _WHEA_ERROR_INJECTION_CAPABILITIES structure
+# WHEA_ERROR_INJECTION_CAPABILITIES structure (ntddk.h)
+
+
 
 
 ## -description

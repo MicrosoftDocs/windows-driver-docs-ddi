@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_READ_PINS_MASK_PARAMETERS structure"]
 ms.keywords: "*PGPIO_READ_PINS_MASK_PARAMETERS, GPIO.gpio_read_pins_mask_parameters, GPIO_READ_PINS_MASK_PARAMETERS, GPIO_READ_PINS_MASK_PARAMETERS structure [Parallel Ports], PGPIO_READ_PINS_MASK_PARAMETERS, PGPIO_READ_PINS_MASK_PARAMETERS structure pointer [Parallel Ports], _GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/GPIO_READ_PINS_MASK_PARAMETERS, gpioclx/PGPIO_READ_PINS_MASK_PARAMETERS"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_READ_PINS_MASK_PARAMETERS
 ---
 
-# _GPIO_READ_PINS_MASK_PARAMETERS structure
+# GPIO_READ_PINS_MASK_PARAMETERS structure (gpioclx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIBOX structure"]
 ms.keywords: D3DDDIBOX, D3DDDIBOX structure [Display Devices], _D3DDDIBOX, d3dumddi/D3DDDIBOX, display.d3dddibox
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIBOX
 ---
 
-# _D3DDDIBOX structure
+# D3DDDIBOX structure (d3dumddi.h)
+
+
 
 
 ## -description

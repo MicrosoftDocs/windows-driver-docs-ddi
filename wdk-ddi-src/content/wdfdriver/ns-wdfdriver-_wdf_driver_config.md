@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DRIVER_CONFIG structure"]
 ms.keywords: "*PWDF_DRIVER_CONFIG, DFDriverObjectRef_89306ddc-557c-4142-a26b-a120acdffed6.xml, PWDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG structure pointer, WDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG structure, _WDF_DRIVER_CONFIG, kmdf.wdf_driver_config, wdf.wdf_driver_config, wdfdriver/PWDF_DRIVER_CONFIG, wdfdriver/WDF_DRIVER_CONFIG"
 req.header: wdfdriver.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_DRIVER_CONFIG
 ---
 
-# _WDF_DRIVER_CONFIG structure
+# WDF_DRIVER_CONFIG structure (wdfdriver.h)
+
+
 
 
 ## -description

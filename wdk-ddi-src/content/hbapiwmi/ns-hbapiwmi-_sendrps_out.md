@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SendRPS_OUT structure"]
 ms.keywords: "*PSendRPS_OUT, SendRPS_OUT, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, hbapiwmi/SendRPS_OUT, storage.sendrps_out, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SendRPS_OUT
 ---
 
-# _SendRPS_OUT structure
+# SendRPS_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

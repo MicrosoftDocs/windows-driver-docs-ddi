@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure"]
 ms.keywords: _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, *PDXGKARG_QUERYDIAGNOSTICTYPESSUPPORT, DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT
 ---
 
-# _DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure
+# DXGKARG_QUERYDIAGNOSTICTYPESSUPPORT structure (dispmprt.h)
+
+
 
 
 ## -description

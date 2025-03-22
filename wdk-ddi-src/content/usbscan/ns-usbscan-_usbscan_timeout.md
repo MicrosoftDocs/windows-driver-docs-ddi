@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["USBSCAN_TIMEOUT structure"]
 ms.keywords: "*PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], _USBSCAN_TIMEOUT, image.usbscan_timeout, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml, usbscan/PUSBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT"
 req.header: usbscan.h
+req.construct-type: structure
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBSCAN_TIMEOUT
 ---
 
-# _USBSCAN_TIMEOUT structure
+# USBSCAN_TIMEOUT structure (usbscan.h)
+
+
 
 
 ## -description

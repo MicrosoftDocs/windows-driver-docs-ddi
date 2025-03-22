@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CLS_LSN structure"]
 ms.keywords: "*PCLFS_LSN, *PCLS_LSN, CLFS_LSN, CLS_LSN, CLS_LSN structure [Kernel-Mode Driver Architecture], PCLFS_LSN, PCLFS_LSN structure [Kernel-Mode Driver Architecture], PCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], PCLS_LSN, PCLS_LSN structure pointer [Kernel-Mode Driver Architecture], PPCLFS_LSN, PPCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], PPCLS_LSN, PPCLS_LSN structure pointer [Kernel-Mode Driver Architecture], _CLS_LSN, kernel.clfs_lsn, kstruct_a_25e68bfe-85ad-4716-a47f-7f248ca068e4.xml, wdm/CLS_LSN, wdm/PCLFS_LSN, wdm/PCLS_LSN, wdm/PPCLFS_LSN, wdm/PPCLS_LSN"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CLS_LSN
 ---
 
-# _CLS_LSN structure
+# CLS_LSN structure (wdm.h)
+
+
 
 
 ## -description

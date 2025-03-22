@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_SRQ structure"]
 ms.keywords: NDK_SRQ, NDK_SRQ structure [Network Drivers Starting with Windows Vista], PNDK_SRQ, PNDK_SRQ structure pointer [Network Drivers Starting with Windows Vista], _NDK_SRQ, ndkpi/NDK_SRQ, ndkpi/PNDK_SRQ, netvista.ndk_srq
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_SRQ
 ---
 
-# _NDK_SRQ structure
+# NDK_SRQ structure (ndkpi.h)
+
+
 
 
 ## -description

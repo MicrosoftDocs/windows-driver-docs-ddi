@@ -7,6 +7,7 @@ ms.date: 02/22/2023
 keywords: ["WHEAP_PFA_MEMORY_OFFLINED structure"]
 ms.keywords: WHEAP_PFA_MEMORY_OFFLINED, WHEAP_PFA_MEMORY_OFFLINED, *PWHEAP_PFA_MEMORY_OFFLINED,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_name:
  - PWHEAP_PFA_MEMORY_OFFLINED
  - WHEAP_PFA_MEMORY_OFFLINED
 ---
+
+# WHEAP_PFA_MEMORY_OFFLINED structure (ntddk.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 01/24/2024
 keywords: ["NET_FRAGMENT_LOGICAL_ADDRESS structure"]
 ms.keywords: NET_FRAGMENT_LOGICAL_ADDRESS, NET_FRAGMENT_LOGICAL_ADDRESS,
 req.header: logicaladdresstypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_FRAGMENT_LOGICAL_ADDRESS
 ---
 
-# NET_FRAGMENT_LOGICAL_ADDRESS structure
+# NET_FRAGMENT_LOGICAL_ADDRESS structure (logicaladdresstypes.h)
+
+
 
 
 ## -description

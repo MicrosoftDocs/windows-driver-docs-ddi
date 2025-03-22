@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_FRAME_STATISTICS_STEP structure"]
 ms.keywords: IDDCX_FRAME_STATISTICS_STEP, IDDCX_FRAME_STATISTICS_STEP structure, IDDCX_FRAME_STATISTICS_STEP structure [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure pointer [Display Devices], IDDCX_FRAME_STATISTICS_STEP structure structure [Display Devices], display.iddcx_frame_statistics_step, iddcx/IDDCX_FRAME_STATISTICS_STEP
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_FRAME_STATISTICS_STEP
 ---
 
-# IDDCX_FRAME_STATISTICS_STEP structure
+# IDDCX_FRAME_STATISTICS_STEP structure (iddcx.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2 structure"]
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2, *PD3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2 structure
+# D3DKMDT_COLORSPACE_TRANSFORM_MATRIX_V2 structure (d3dukmdt.h)
+
+
 
 
 ## -description

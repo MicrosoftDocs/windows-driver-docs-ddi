@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure"]
 ms.keywords: _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE, D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure
+# D3DKMT_MULTIPLANE_OVERLAY_POST_COMPOSITION_WITH_SOURCE structure (d3dkmthk.h)
+
+
 
 
 ## -description

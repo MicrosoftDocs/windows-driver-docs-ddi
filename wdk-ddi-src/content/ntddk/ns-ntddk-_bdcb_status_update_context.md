@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["BDCB_STATUS_UPDATE_CONTEXT structure"]
 ms.keywords: "*PBDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT, BDCB_STATUS_UPDATE_CONTEXT structure [Kernel-Mode Driver Architecture], PBDCB_STATUS_UPDATE_CONTEXT, PBDCB_STATUS_UPDATE_CONTEXT structure pointer [Kernel-Mode Driver Architecture], _BDCB_STATUS_UPDATE_CONTEXT, kernel.bdcb_status_update_context, ntddk/BDCB_STATUS_UPDATE_CONTEXT, ntddk/PBDCB_STATUS_UPDATE_CONTEXT"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BDCB_STATUS_UPDATE_CONTEXT
 ---
 
-# _BDCB_STATUS_UPDATE_CONTEXT structure
+# BDCB_STATUS_UPDATE_CONTEXT structure (ntddk.h)
+
+
 
 
 ## -description

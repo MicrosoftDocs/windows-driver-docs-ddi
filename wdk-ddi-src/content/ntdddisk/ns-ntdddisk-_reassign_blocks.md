@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["REASSIGN_BLOCKS structure"]
 ms.keywords: "*PREASSIGN_BLOCKS, PREASSIGN_BLOCKS, PREASSIGN_BLOCKS structure pointer [Storage Devices], REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Storage Devices], _REASSIGN_BLOCKS, ntdddisk/PREASSIGN_BLOCKS, ntdddisk/REASSIGN_BLOCKS, storage.reassign_blocks, structs-disk_dbe1fcc8-083e-41c4-8620-b216cdbecd34.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - REASSIGN_BLOCKS
 ---
 
-# _REASSIGN_BLOCKS structure
+# REASSIGN_BLOCKS structure (ntdddisk.h)
+
+
 
 
 ## -description

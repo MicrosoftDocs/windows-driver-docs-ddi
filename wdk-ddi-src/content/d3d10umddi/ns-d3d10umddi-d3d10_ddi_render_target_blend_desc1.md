@@ -7,6 +7,7 @@ ms.date: 04/01/2021
 keywords: ["D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure"]
 ms.keywords: D3D10_DDI_RENDER_TARGET_BLEND_DESC1, D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure [Display Devices], UMDisplayDriver_Dx10param_Structs_cc133adc-9ca8-4596-b3b8-9c3b352cd696.xml, d3d10umddi/D3D10_DDI_RENDER_TARGET_BLEND_DESC1, display.d3d10_ddi_render_target_blend_desc1
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D10_DDI_RENDER_TARGET_BLEND_DESC1 is supported on Windows Vista with Service Pack 1 (SP1) and later versions and Windows Server 2008 and later versions.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_RENDER_TARGET_BLEND_DESC1
 ---
 
-# D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure
+# D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structure (d3d10umddi.h)
+
+
 
 ## -description
 

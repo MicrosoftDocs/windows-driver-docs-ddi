@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DELETE_PORT_DATA_1 structure"]
 ms.keywords: "*PDELETE_PORT_DATA_1, DELETE_PORT_DATA_1, DELETE_PORT_DATA_1 structure [Print Devices], PDELETE_PORT_DATA_1, PDELETE_PORT_DATA_1 structure pointer [Print Devices], _DELETE_PORT_DATA_1, print.delete_port_data_1, spoolfnc_238080f3-e916-4a7f-9531-361659c21a3d.xml, tcpxcv/DELETE_PORT_DATA_1, tcpxcv/PDELETE_PORT_DATA_1"
 req.header: tcpxcv.h
+req.construct-type: structure
 req.include-header: Tcpxcv.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DELETE_PORT_DATA_1
 ---
 
-# _DELETE_PORT_DATA_1 structure
+# DELETE_PORT_DATA_1 structure (tcpxcv.h)
+
+
 
 
 ## -description

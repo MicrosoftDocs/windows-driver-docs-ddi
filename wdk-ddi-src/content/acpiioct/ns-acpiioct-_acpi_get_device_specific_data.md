@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["ACPI_GET_DEVICE_SPECIFIC_DATA structure"]
 ms.keywords: "*PACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA, ACPI_GET_DEVICE_SPECIFIC_DATA structure [ACPI Devices], PACPI_GET_DEVICE_SPECIFIC_DATA, PACPI_GET_DEVICE_SPECIFIC_DATA structure pointer [ACPI Devices], _ACPI_GET_DEVICE_SPECIFIC_DATA, acpi.acpi_get_device_specific_data, acpiioct/ACPI_GET_DEVICE_SPECIFIC_DATA, acpiioct/PACPI_GET_DEVICE_SPECIFIC_DATA"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ACPI_GET_DEVICE_SPECIFIC_DATA
 ---
 
-# _ACPI_GET_DEVICE_SPECIFIC_DATA structure
+# ACPI_GET_DEVICE_SPECIFIC_DATA structure (acpiioct.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["KSRTAUDIO_PACKETVREGISTER structure"]
 ms.keywords: KSRTAUDIO_PACKETVREGISTER, KSRTAUDIO_PACKETVREGISTER, *PKSRTAUDIO_PACKETVREGISTER,
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - KSRTAUDIO_PACKETVREGISTER
 ---
 
-# KSRTAUDIO_PACKETVREGISTER structure
+# KSRTAUDIO_PACKETVREGISTER structure (ksmedia.h)
+
+
 
 
 ## -description

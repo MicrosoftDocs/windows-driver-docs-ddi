@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, debugger.debug_last_event_info_system_error"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
 ---
 
-# _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure
+# DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure (dbgeng.h)
+
+
 
 
 ## -description

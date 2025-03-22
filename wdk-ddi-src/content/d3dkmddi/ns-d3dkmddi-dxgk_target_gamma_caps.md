@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_TARGET_GAMMA_CAPS structure"]
 ms.keywords: DXGK_TARGET_GAMMA_CAPS, DXGK_TARGET_GAMMA_CAPS, *PDXGK_TARGET_GAMMA_CAPS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_TARGET_GAMMA_CAPS structure
+# DXGK_TARGET_GAMMA_CAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

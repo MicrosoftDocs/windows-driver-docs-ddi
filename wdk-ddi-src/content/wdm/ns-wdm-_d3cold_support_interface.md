@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["D3COLD_SUPPORT_INTERFACE structure"]
 ms.keywords: "*PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - D3COLD_SUPPORT_INTERFACE
 ---
 
-# _D3COLD_SUPPORT_INTERFACE structure
+# D3COLD_SUPPORT_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

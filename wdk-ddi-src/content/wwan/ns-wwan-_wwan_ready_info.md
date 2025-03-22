@@ -8,6 +8,7 @@ ms.date: 02/22/2022
 keywords: ["WWAN_READY_INFO structure"]
 ms.keywords: "*PWWAN_READY_INFO, PWWAN_READY_INFO, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_READY_INFO, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, _WWAN_READY_INFO, netvista.wwan_ready_info, wwan/PWWAN_READY_INFO, wwan/WWAN_READY_INFO"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_READY_INFO
 ---
 
-# _WWAN_READY_INFO structure
+# WWAN_READY_INFO structure (wwan.h)
+
+
 
 
 ## -description

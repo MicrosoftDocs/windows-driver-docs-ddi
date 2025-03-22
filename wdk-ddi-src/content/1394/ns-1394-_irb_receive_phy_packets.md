@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_RECEIVE_PHY_PACKETS structure"]
 ms.keywords: 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], _IRB_RECEIVE_PHY_PACKETS
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_RECEIVE_PHY_PACKETS
 ---
 
-# _IRB_RECEIVE_PHY_PACKETS structure
+# IRB_REQ_RECEIVE_PHY_PACKETS structure (1394.h)
+
+
 
 
 ## -description

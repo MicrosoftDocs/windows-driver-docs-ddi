@@ -8,6 +8,7 @@ ms.date: 04/18/2019
 keywords: ["FLT_TAG_DATA_BUFFER structure"]
 ms.keywords: "*PFLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER, FLT_TAG_DATA_BUFFER structure [Installable File System Drivers], FltSystemStructures_47092b0b-5a4b-40eb-8b5f-f0a182d5e509.xml, PFLT_TAG_DATA_BUFFER, PFLT_TAG_DATA_BUFFER structure pointer [Installable File System Drivers], _FLT_TAG_DATA_BUFFER, fltkernel/FLT_TAG_DATA_BUFFER, fltkernel/PFLT_TAG_DATA_BUFFER, ifsk.flt_tag_data_buffer"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FLT_TAG_DATA_BUFFER
 ---
 
-# _FLT_TAG_DATA_BUFFER structure
+# FLT_TAG_DATA_BUFFER structure (fltkernel.h)
+
+
 
 
 ## -description

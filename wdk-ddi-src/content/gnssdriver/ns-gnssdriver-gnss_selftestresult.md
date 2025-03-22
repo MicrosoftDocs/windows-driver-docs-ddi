@@ -7,6 +7,7 @@ ms.date: 06/16/2022
 keywords: ["GNSS_SELFTESTRESULT structure"]
 ms.keywords: "*PGNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT, GNSS_SELFTESTRESULT structure [Sensor Devices], PGNSS_SELFTESTRESULT, PGNSS_SELFTESTRESULT structure pointer [Sensor Devices], gnss.gnss_selftestresult, gnssdriver/GNSS_SELFTESTRESULT, gnssdriver/PGNSS_SELFTESTRESULT"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_SELFTESTRESULT
  - GNSS_SELFTESTRESULT
 ---
+
+# GNSS_SELFTESTRESULT structure (gnssdriver.h)
 
 ## -description
 

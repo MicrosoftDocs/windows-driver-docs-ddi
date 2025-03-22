@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PD_FILTER_COUNTER structure"]
 ms.keywords: NDIS_PD_FILTER_COUNTER, NDIS_PD_FILTER_COUNTER structure [Network Drivers Starting with Windows Vista], PNDIS_PD_FILTER_COUNTER, PNDIS_PD_FILTER_COUNTER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_FILTER_COUNTER, ndis/NDIS_PD_FILTER_COUNTER, ndis/PNDIS_PD_FILTER_COUNTER, netvista.ndis_pd_filter_counter
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - NDIS_PD_FILTER_COUNTER
 ---
 
-# _NDIS_PD_FILTER_COUNTER structure
+# NDIS_PD_FILTER_COUNTER structure (ndis.h)
+
+
 
 
 ## -description

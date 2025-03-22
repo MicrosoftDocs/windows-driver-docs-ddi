@@ -7,6 +7,7 @@ ms.date: 03/06/2023
 keywords: ["KSDEVICE_DESCRIPTOR structure"]
 ms.keywords: "*PKSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR, KSDEVICE_DESCRIPTOR structure [Streaming Media Devices], PKSDEVICE_DESCRIPTOR, PKSDEVICE_DESCRIPTOR structure pointer [Streaming Media Devices], _KSDEVICE_DESCRIPTOR, avstruct_b51d9c2c-278f-4357-b84a-da6959ea9959.xml, ks/KSDEVICE_DESCRIPTOR, ks/PKSDEVICE_DESCRIPTOR, stream.ksdevice_descriptor"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PKSDEVICE_DESCRIPTOR
  - KSDEVICE_DESCRIPTOR
 ---
+
+# KSDEVICE_DESCRIPTOR structure (ks.h)
 
 ## -description
 

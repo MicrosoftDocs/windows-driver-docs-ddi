@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["POWERSOURCEUPDATEEX structure"]
 ms.keywords: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX structure [Battery Devices], _POWERSOURCEUPDATEEX, battery.powersourceupdateex, charging/BATTERY_INFORMATION"
 req.header: charging.h
+req.construct-type: structure
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - POWERSOURCEUPDATEEX
 ---
 
-# _POWERSOURCEUPDATEEX structure
+# POWERSOURCEUPDATEEX structure (charging.h)
+
+
 
 ## -description
 

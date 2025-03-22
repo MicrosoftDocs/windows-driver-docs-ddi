@@ -7,6 +7,7 @@ ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_ROOT_STATUS_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_ROOT_STATUS_REGISTER, PCI.pci_express_root_status_register, PCI_EXPRESS_ROOT_STATUS_REGISTER, PCI_EXPRESS_ROOT_STATUS_REGISTER union [Buses], PPCI_EXPRESS_ROOT_STATUS_REGISTER, PPCI_EXPRESS_ROOT_STATUS_REGISTER union pointer [Buses], _PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PCI_EXPRESS_ROOT_STATUS_REGISTER, ntddk/PPCI_EXPRESS_ROOT_STATUS_REGISTER, pci_struct_ff3a211f-421b-41f3-9250-d658636bfe49.xml"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_EXPRESS_ROOT_STATUS_REGISTER
  - PCI_EXPRESS_ROOT_STATUS_REGISTER
 ---
+
+# PCI_EXPRESS_ROOT_STATUS_REGISTER structure (miniport.h)
 
 ## -description
 

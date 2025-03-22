@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["T1_DATA structure"]
 ms.keywords: "*PT1_DATA, T1_DATA, T1_DATA structure [Smart Card Reader Devices], T1_DATA,*PT1_DATA, T1_DATA,*PT1_DATA structure [Smart Card Reader Devices], _T1_DATA, scstruct_d4b3fe1d-28d8-45dc-86f1-2cb75a5bec85.xml, smartcrd.t1_data, smclib/T1_DATA"
 req.header: smclib.h
+req.construct-type: structure
 req.include-header: Smclib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - T1_DATA
 ---
 
-# _T1_DATA structure
+# T1_DATA structure (smclib.h)
+
+
 
 ## -description
 

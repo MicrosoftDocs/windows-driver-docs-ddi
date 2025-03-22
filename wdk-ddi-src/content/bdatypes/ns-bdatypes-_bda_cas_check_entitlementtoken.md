@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_CAS_CHECK_ENTITLEMENTTOKEN structure"]
 ms.keywords: "*PBDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN, BDA_CAS_CHECK_ENTITLEMENTTOKEN structure [Streaming Media Devices], PBDA_CAS_CHECK_ENTITLEMENTTOKEN, PBDA_CAS_CHECK_ENTITLEMENTTOKEN structure pointer [Streaming Media Devices], _BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/BDA_CAS_CHECK_ENTITLEMENTTOKEN, bdatypes/PBDA_CAS_CHECK_ENTITLEMENTTOKEN, stream.bda_cas_check_entitlementtoken"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_CAS_CHECK_ENTITLEMENTTOKEN
 ---
 
-# _BDA_CAS_CHECK_ENTITLEMENTTOKEN structure
+# BDA_CAS_CHECK_ENTITLEMENTTOKEN structure (bdatypes.h)
+
+
 
 
 ## -description

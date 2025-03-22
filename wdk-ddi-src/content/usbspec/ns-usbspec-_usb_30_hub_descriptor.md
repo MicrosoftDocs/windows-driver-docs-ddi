@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_30_HUB_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR, PUSB_30_HUB_DESCRIPTOR structure pointer [Buses], USB_30_HUB_DESCRIPTOR, USB_30_HUB_DESCRIPTOR structure [Buses], _USB_30_HUB_DESCRIPTOR, buses.usb_30_hub_descriptor, usbspec/PUSB_30_HUB_DESCRIPTOR, usbspec/USB_30_HUB_DESCRIPTOR"
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - USB_30_HUB_DESCRIPTOR
 ---
 
-# _USB_30_HUB_DESCRIPTOR structure
+# USB_30_HUB_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

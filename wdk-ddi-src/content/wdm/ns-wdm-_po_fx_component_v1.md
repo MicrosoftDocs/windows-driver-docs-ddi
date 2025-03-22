@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PO_FX_COMPONENT_V1 structure"]
 ms.keywords: "*PPO_FX_COMPONENT, *PPO_FX_COMPONENT_V1, PO_FX_COMPONENT, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT_V1, PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2, PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_COMPONENT_V1, kernel.po_fx_component, wdm/PO_FX_COMPONENT, wdm/PO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - PO_FX_COMPONENT_V1
 ---
 
-# _PO_FX_COMPONENT_V1 structure
+# PO_FX_COMPONENT_V1 structure (wdm.h)
+
+
 
 
 ## -description

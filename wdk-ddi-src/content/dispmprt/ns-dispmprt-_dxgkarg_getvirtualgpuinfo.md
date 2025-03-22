@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_GETVIRTUALGPUINFO structure"]
 ms.keywords: _DXGKARG_GETVIRTUALGPUINFO, DXGKARG_GETVIRTUALGPUINFO, *PDXGKARG_GETVIRTUALGPUINFO,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETVIRTUALGPUINFO structure
+# DXGKARG_GETVIRTUALGPUINFO structure (dispmprt.h)
+
+
 
 
 ## -description

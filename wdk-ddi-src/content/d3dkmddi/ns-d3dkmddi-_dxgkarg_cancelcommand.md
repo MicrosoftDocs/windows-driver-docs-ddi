@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_CANCELCOMMAND structure"]
 ms.keywords: DXGKARG_CANCELCOMMAND, DXGKARG_CANCELCOMMAND structure [Display Devices], _DXGKARG_CANCELCOMMAND, d3dkmddi/DXGKARG_CANCELCOMMAND, display.dxgkarg_cancelcommand
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_CANCELCOMMAND
 ---
 
-# _DXGKARG_CANCELCOMMAND structure
+# DXGKARG_CANCELCOMMAND structure (d3dkmddi.h)
+
+
 
 
 ## -description

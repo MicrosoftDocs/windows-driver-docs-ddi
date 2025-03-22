@@ -7,6 +7,7 @@ ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT_VIRTUAL_ADDRESS structure"]
 ms.keywords: NET_FRAGMENT_VIRTUAL_ADDRESS, NET_FRAGMENT_VIRTUAL_ADDRESS,
 req.header: virtualaddresstypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_FRAGMENT_VIRTUAL_ADDRESS
 ---
 
-# NET_FRAGMENT_VIRTUAL_ADDRESS structure
+# NET_FRAGMENT_VIRTUAL_ADDRESS structure (virtualaddresstypes.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_ALPHA, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_ALPHA, debugger.debug_processor_identification_alpha"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_PROCESSOR_IDENTIFICATION_ALPHA
 ---
 
-# _DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure
+# DEBUG_PROCESSOR_IDENTIFICATION_ALPHA structure (dbgeng.h)
+
+
 
 
 ## -description

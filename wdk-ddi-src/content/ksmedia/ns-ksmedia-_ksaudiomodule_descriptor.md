@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIOMODULE_DESCRIPTOR structure"]
 ms.keywords: "*PKSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR, KSAUDIOMODULE_DESCRIPTOR structure [Audio Devices], PKSAUDIOMODULE_DESCRIPTOR, PKSAUDIOMODULE_DESCRIPTOR structure pointer [Audio Devices], _KSAUDIOMODULE_DESCRIPTOR, audio.ksaudiomodule_descriptor, ksmedia/KSAUDIOMODULE_DESCRIPTOR, ksmedia/PKSAUDIOMODULE_DESCRIPTOR"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - KSAUDIOMODULE_DESCRIPTOR
 ---
 
-# _KSAUDIOMODULE_DESCRIPTOR structure
+# KSAUDIOMODULE_DESCRIPTOR structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure"]
 ms.keywords: "*PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure [Buses], _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, buses.ucx_usbdevice_characteristic_path_delay, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY
 ---
 
-# _UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure
+# UCX_USBDEVICE_CHARACTERISTIC_PATH_DELAY structure (ucxusbdevice.h)
+
+
 
 
 ## -description

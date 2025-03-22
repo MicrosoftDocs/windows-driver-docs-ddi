@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_ERROR_SECTION structure"]
 ms.keywords: WHEA_PMEM_ERROR_SECTION, WHEA_PMEM_ERROR_SECTION, *PWHEA_PMEM_ERROR_SECTION,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_PMEM_ERROR_SECTION
 ---
 
-# WHEA_PMEM_ERROR_SECTION structure
+# WHEA_PMEM_ERROR_SECTION structure (ntddk.h)
+
+
 
 
 ## -description

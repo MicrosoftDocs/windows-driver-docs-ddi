@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["DEVOBJ structure"]
 ms.keywords: "*PDEVOBJ, DEVOBJ, DEVOBJ structure [Print Devices], _DEVOBJ, print.devobj, print_unidrv-pscript_rendering_defda1bb-3862-4b55-a7bf-38b040667c97.xml, printoem/DEVOBJ"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PDEVOBJ
  - DEVOBJ
 ---
+
+# DEVOBJ structure (printoem.h)
 
 ## -description
 

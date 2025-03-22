@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["IPSEC_OFFLOAD_V2_UPDATE_SA structure"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA, IPSEC_OFFLOAD_V2_UPDATE_SA structure [Network Drivers Starting with Windows Vista], PIPSEC_OFFLOAD_V2_UPDATE_SA, PIPSEC_OFFLOAD_V2_UPDATE_SA structure pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_UPDATE_SA, ndis/IPSEC_OFFLOAD_V2_UPDATE_SA, ndis/PIPSEC_OFFLOAD_V2_UPDATE_SA, netvista.ipsec_offload_v2_update_sa, task_offload_IPsecv2_ref_2a34fbb7-fa5d-49f3-844c-c5e8df229a54.xml"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - IPSEC_OFFLOAD_V2_UPDATE_SA
 ---
 
-# _IPSEC_OFFLOAD_V2_UPDATE_SA structure
+# IPSEC_OFFLOAD_V2_UPDATE_SA structure (ndis.h)
+
+
 
 
 ## -description

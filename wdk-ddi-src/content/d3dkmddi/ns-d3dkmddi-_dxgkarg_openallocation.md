@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_OPENALLOCATION structure"]
 ms.keywords: DXGKARG_OPENALLOCATION, DXGKARG_OPENALLOCATION structure [Display Devices], DmStructs_442924a2-c130-487c-acdb-62a2b6e9f219.xml, _DXGKARG_OPENALLOCATION, d3dkmddi/DXGKARG_OPENALLOCATION, display.dxgkarg_openallocation
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available beginning with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_OPENALLOCATION
 ---
 
-# _DXGKARG_OPENALLOCATION structure
+# DXGKARG_OPENALLOCATION structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_TRANSFER_MODE_PARAMETERS structure"]
 ms.keywords: "*PIDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS, IDE_TRANSFER_MODE_PARAMETERS structure [Storage Devices], PIDE_TRANSFER_MODE_PARAMETERS, PIDE_TRANSFER_MODE_PARAMETERS structure pointer [Storage Devices], _IDE_TRANSFER_MODE_PARAMETERS, irb/IDE_TRANSFER_MODE_PARAMETERS, irb/PIDE_TRANSFER_MODE_PARAMETERS, storage.ide_transfer_mode_parameters, structs-ATA_41b44f2c-8685-45fe-8c56-2a9a648782b4.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_TRANSFER_MODE_PARAMETERS
 ---
 
-# _IDE_TRANSFER_MODE_PARAMETERS structure
+# IDE_TRANSFER_MODE_PARAMETERS structure (irb.h)
+
+
 
 
 ## -description

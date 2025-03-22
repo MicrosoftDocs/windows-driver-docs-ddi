@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["HMAT_TABLE structure"]
 ms.keywords: _HMAT_TABLE, HMAT_TABLE, *PHMAT_TABLE,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - HMAT_TABLE
 ---
 
-# _HMAT_TABLE structure
+# HMAT_TABLE structure (acpitabl.h)
+
+
 
 
 ## -description

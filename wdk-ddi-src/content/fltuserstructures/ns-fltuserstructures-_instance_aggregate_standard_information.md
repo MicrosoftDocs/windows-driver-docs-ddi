@@ -8,6 +8,7 @@ ms.date: 02/23/2022
 keywords: ["INSTANCE_AGGREGATE_STANDARD_INFORMATION structure"]
 ms.keywords: "*PINSTANCE_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_b1c8bf6f-d693-4f15-ad58-9e31d593464b.xml, INSTANCE_AGGREGATE_STANDARD_INFORMATION, INSTANCE_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], PINSTANCE_AGGREGATE_STANDARD_INFORMATION, PINSTANCE_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, _INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/INSTANCE_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PINSTANCE_AGGREGATE_STANDARD_INFORMATION, ifsk.instance_aggregate_standard_information"
 req.header: fltuserstructures.h
+req.construct-type: structure
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - INSTANCE_AGGREGATE_STANDARD_INFORMATION
 ---
 
-# INSTANCE_AGGREGATE_STANDARD_INFORMATION structure
+# INSTANCE_AGGREGATE_STANDARD_INFORMATION structure (fltuserstructures.h)
+
+
 
 ## -description
 

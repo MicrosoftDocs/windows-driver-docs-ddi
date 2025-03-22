@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATAFORMAT_VIDEOINFO_PALETTE structure"]
 ms.keywords: "*PKS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE, KS_DATAFORMAT_VIDEOINFO_PALETTE structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFO_PALETTE, PKS_DATAFORMAT_VIDEOINFO_PALETTE structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VIDEOINFO_PALETTE, ksmedia/PKS_DATAFORMAT_VIDEOINFO_PALETTE, stream.ks_dataformat_videoinfo_palette, tagKS_DATAFORMAT_VIDEOINFO_PALETTE, vidcapstruct_1c005432-ed48-43fb-b866-387903e45b93.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATAFORMAT_VIDEOINFO_PALETTE
 ---
 
-# tagKS_DATAFORMAT_VIDEOINFO_PALETTE structure
+# tagKS_DATAFORMAT_VIDEOINFO_PALETTE structure (ksmedia.h)
+
+
 
 
 ## -description

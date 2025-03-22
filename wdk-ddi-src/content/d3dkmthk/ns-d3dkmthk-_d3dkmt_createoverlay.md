@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATEOVERLAY structure"]
 ms.keywords: D3DKMT_CREATEOVERLAY, D3DKMT_CREATEOVERLAY structure [Display Devices], OpenGL_Structs_0e2cd78f-0999-48a3-8a7d-329ddb46b46f.xml, _D3DKMT_CREATEOVERLAY, d3dkmthk/D3DKMT_CREATEOVERLAY, display.d3dkmt_createoverlay
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CREATEOVERLAY
 ---
 
-# _D3DKMT_CREATEOVERLAY structure
+# D3DKMT_CREATEOVERLAY structure (d3dkmthk.h)
+
+
 
 
 ## -description

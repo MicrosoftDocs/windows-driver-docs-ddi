@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_JOINT_BUFFER structure"]
 ms.keywords: _ACPI_PLD_JOINT_BUFFER, ACPI_PLD_JOINT_BUFFER, *PACPI_PLD_JOINT_BUFFER,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - ACPI_PLD_JOINT_BUFFER
 ---
 
-# _ACPI_PLD_JOINT_BUFFER structure
+# ACPI_PLD_JOINT_BUFFER structure (acpitabl.h)
+
+
 
 
 ## -description

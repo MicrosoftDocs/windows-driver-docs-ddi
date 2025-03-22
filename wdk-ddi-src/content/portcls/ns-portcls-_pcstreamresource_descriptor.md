@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PCSTREAMRESOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PPCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR, PCSTREAMRESOURCE_DESCRIPTOR structure [Audio Devices], PPCSTREAMRESOURCE_DESCRIPTOR, PPCSTREAMRESOURCE_DESCRIPTOR structure pointer [Audio Devices], _PCSTREAMRESOURCE_DESCRIPTOR, audio.pcstreamresource_descriptor, portcls/PCSTREAMRESOURCE_DESCRIPTOR, portcls/PPCSTREAMRESOURCE_DESCRIPTOR"
 req.header: portcls.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - PCSTREAMRESOURCE_DESCRIPTOR
 ---
 
-# _PCSTREAMRESOURCE_DESCRIPTOR structure
+# PCSTREAMRESOURCE_DESCRIPTOR structure (portcls.h)
+
+
 
 
 ## -description

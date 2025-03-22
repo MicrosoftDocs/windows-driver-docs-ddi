@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_CRYPTO_CAPABILITIES_DATA structure"]
 ms.keywords: "*PSTOR_CRYPTO_CAPABILITIES_DATA, PSTOR_CRYPTO_CAPABILITIES_DATA, PSTOR_CRYPTO_CAPABILITIES_DATA structure pointer [Storage Devices], STOR_CRYPTO_CAPABILITIES_DATA, STOR_CRYPTO_CAPABILITIES_DATA structure [Storage Devices], _STOR_CRYPTO_CAPABILITIES_DATA, storage.stor_crypto_capabilities_data, storport/PSTOR_CRYPTO_CAPABILITIES_DATA, storport/STOR_CRYPTO_CAPABILITIES_DATA"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_CRYPTO_CAPABILITIES_DATA
 ---
 
-# STOR_CRYPTO_CAPABILITIES_DATA structure
+# STOR_CRYPTO_CAPABILITIES_DATA structure (storport.h)
+
+
 
 ## -description
 

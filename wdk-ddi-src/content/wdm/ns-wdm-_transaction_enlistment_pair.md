@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRANSACTION_ENLISTMENT_PAIR structure"]
 ms.keywords: "*PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], _TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, wdm/PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -46,7 +47,9 @@ api_name:
  - TRANSACTION_ENLISTMENT_PAIR
 ---
 
-# _TRANSACTION_ENLISTMENT_PAIR structure
+# TRANSACTION_ENLISTMENT_PAIR structure (wdm.h)
+
+
 
 
 ## -description

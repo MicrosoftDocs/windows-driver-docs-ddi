@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure pointer [Storage Devices], STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure [Storage Devices], _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/PSTORAGE_DEVICE_RESILIENCY_DESCRIPTOR, ntddstor/STORAGE_DEVICE_RESILIENCY_DESCRIPTOR, storage.storage_device_resiliency_descriptor
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DEVICE_RESILIENCY_DESCRIPTOR
 ---
 
-# _STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure
+# STORAGE_DEVICE_RESILIENCY_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

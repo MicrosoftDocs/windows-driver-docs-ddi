@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HDAUDIO_STREAM_FORMAT structure"]
 ms.keywords: "*PHDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT, HDAUDIO_STREAM_FORMAT structure [Audio Devices], PHDAUDIO_STREAM_FORMAT, PHDAUDIO_STREAM_FORMAT structure pointer [Audio Devices], _HDAUDIO_STREAM_FORMAT, aud-prop2_80d1ef47-903a-4f6e-95c7-e30f07b105fe.xml, audio.hdaudio_stream_format, hdaudio/HDAUDIO_STREAM_FORMAT, hdaudio/PHDAUDIO_STREAM_FORMAT"
 req.header: hdaudio.h
+req.construct-type: structure
 req.include-header: Hdaudio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HDAUDIO_STREAM_FORMAT
 ---
 
-# _HDAUDIO_STREAM_FORMAT structure
+# HDAUDIO_STREAM_FORMAT structure (hdaudio.h)
+
+
 
 
 ## -description

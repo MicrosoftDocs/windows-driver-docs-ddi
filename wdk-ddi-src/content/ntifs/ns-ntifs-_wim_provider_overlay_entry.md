@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["WIM_PROVIDER_OVERLAY_ENTRY structure"]
 ms.keywords: "*PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY, PWIM_PROVIDER_OVERLAY_ENTRY structure pointer [Installable File System Drivers], WIM_BOOT_NOT_OS_WIM, WIM_BOOT_OS_WIM, WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_OVERLAY_ENTRY, WIM_PROVIDER_OVERLAY_ENTRY structure [Installable File System Drivers], _WIM_PROVIDER_OVERLAY_ENTRY, ifsk.wim_provider_overlay_entry, ntifs/PWIM_PROVIDER_OVERLAY_ENTRY, ntifs/WIM_PROVIDER_OVERLAY_ENTRY"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update
@@ -45,7 +46,9 @@ api_name:
  - WIM_PROVIDER_OVERLAY_ENTRY
 ---
 
-# WIM_PROVIDER_OVERLAY_ENTRY structure
+# WIM_PROVIDER_OVERLAY_ENTRY structure (ntifs.h)
+
+
 
 ## -description
 

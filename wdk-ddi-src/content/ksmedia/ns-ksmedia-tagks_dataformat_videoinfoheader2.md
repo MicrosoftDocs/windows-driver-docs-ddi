@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATAFORMAT_VIDEOINFOHEADER2 structure"]
 ms.keywords: "*PKS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2, KS_DATAFORMAT_VIDEOINFOHEADER2 structure [Streaming Media Devices], PKS_DATAFORMAT_VIDEOINFOHEADER2, PKS_DATAFORMAT_VIDEOINFOHEADER2 structure pointer [Streaming Media Devices], ksmedia/KS_DATAFORMAT_VIDEOINFOHEADER2, ksmedia/PKS_DATAFORMAT_VIDEOINFOHEADER2, stream.ks_dataformat_videoinfoheader2, tagKS_DATAFORMAT_VIDEOINFOHEADER2, vidcapstruct_cadaf63f-50d5-41c5-926b-81724dddb890.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATAFORMAT_VIDEOINFOHEADER2
 ---
 
-# tagKS_DATAFORMAT_VIDEOINFOHEADER2 structure
+# tagKS_DATAFORMAT_VIDEOINFOHEADER2 structure (ksmedia.h)
+
+
 
 
 ## -description

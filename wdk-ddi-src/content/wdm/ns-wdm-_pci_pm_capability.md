@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_PM_CAPABILITY structure"]
 ms.keywords: "*PPCI_PM_CAPABILITY, PCI.pci_pm_capability, PCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses], PPCI_PM_CAPABILITY, PPCI_PM_CAPABILITY structure pointer [Buses], _PCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, wdm/PCI_PM_CAPABILITY, wdm/PPCI_PM_CAPABILITY"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_PM_CAPABILITY
 ---
 
-# _PCI_PM_CAPABILITY structure (wdm.h)
+# PCI_PM_CAPABILITY structure (wdm.h)
+
+
 
 
 ## -description

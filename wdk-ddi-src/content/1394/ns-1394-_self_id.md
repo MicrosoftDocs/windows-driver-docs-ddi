@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SELF_ID structure"]
 ms.keywords: "*PSELF_ID, 1394/PSELF_ID, 1394/SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, IEEE.self_id, PSELF_ID, PSELF_ID structure pointer [Buses], SELF_ID, SELF_ID structure [Buses], _SELF_ID"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SELF_ID
 ---
 
-# _SELF_ID structure
+# SELF_ID structure (1394.h)
+
+
 
 
 ## -description

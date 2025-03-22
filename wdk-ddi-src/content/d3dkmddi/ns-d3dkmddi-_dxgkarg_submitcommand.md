@@ -6,6 +6,7 @@ ms.date: 03/23/2023
 keywords: ["DXGKARG_SUBMITCOMMAND structure"]
 ms.keywords: DXGKARG_SUBMITCOMMAND, DXGKARG_SUBMITCOMMAND structure [Display Devices], DmStructs_04cbfdbf-3b43-4b70-8964-75eb9f9c4128.xml, _DXGKARG_SUBMITCOMMAND, d3dkmddi/DXGKARG_SUBMITCOMMAND, display.dxgkarg_submitcommand
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -42,7 +43,9 @@ api_name:
  - DXGKARG_SUBMITCOMMAND
 ---
 
-# DXGKARG_SUBMITCOMMAND structure
+# DXGKARG_SUBMITCOMMAND structure (d3dkmddi.h)
+
+
 
 ## -description
 

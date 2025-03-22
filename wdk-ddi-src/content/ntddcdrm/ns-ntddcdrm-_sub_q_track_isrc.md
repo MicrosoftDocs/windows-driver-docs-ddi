@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SUB_Q_TRACK_ISRC structure"]
 ms.keywords: "*PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], SUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC structure [Storage Devices], _SUB_Q_TRACK_ISRC, ntddcdrm/PSUB_Q_TRACK_ISRC, ntddcdrm/SUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SUB_Q_TRACK_ISRC
 ---
 
-# _SUB_Q_TRACK_ISRC structure
+# SUB_Q_TRACK_ISRC structure (ntddcdrm.h)
+
+
 
 
 ## -description

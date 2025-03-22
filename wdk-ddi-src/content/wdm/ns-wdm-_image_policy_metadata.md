@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IMAGE_POLICY_METADATA structure"]
 ms.keywords: IMAGE_POLICY_METADATA, IMAGE_POLICY_METADATA structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_METADATA, kernel._image_policy_metadata, wdm/IMAGE_POLICY_METADATA
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IMAGE_POLICY_METADATA
 ---
 
-# _IMAGE_POLICY_METADATA structure
+# IMAGE_POLICY_METADATA structure (wdm.h)
+
+
 
 
 ## -description

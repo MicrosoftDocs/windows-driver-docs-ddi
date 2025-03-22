@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["XSAVE_CET_U_FORMAT structure"]
 ms.keywords: _XSAVE_CET_U_FORMAT, XSAVE_CET_U_FORMAT, *PXSAVE_CET_U_FORMAT,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - XSAVE_CET_U_FORMAT
 ---
 
-# _XSAVE_CET_U_FORMAT structure
+# XSAVE_CET_U_FORMAT structure (wdm.h)
+
+
 
 
 ## -description

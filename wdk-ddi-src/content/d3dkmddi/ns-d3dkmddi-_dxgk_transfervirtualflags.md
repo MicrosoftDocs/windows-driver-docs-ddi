@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_TRANSFERVIRTUALFLAGS structure"]
 ms.keywords: DXGK_TRANSFERVIRTUALFLAGS, DXGK_TRANSFERVIRTUALFLAGS structure [Display Devices], _DXGK_TRANSFERVIRTUALFLAGS, d3dkmddi/DXGK_TRANSFERVIRTUALFLAGS, display.dxgk_transfervirtualflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_TRANSFERVIRTUALFLAGS
 ---
 
-# _DXGK_TRANSFERVIRTUALFLAGS structure
+# DXGK_TRANSFERVIRTUALFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

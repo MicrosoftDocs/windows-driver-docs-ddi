@@ -7,6 +7,7 @@ ms.date: 01/18/2023
 keywords: ["DRIVER_OBJECT structure"]
 ms.keywords: "*PDRIVER_OBJECT, DRIVER_OBJECT, DRIVER_OBJECT structure [Kernel-Mode Driver Architecture], PDRIVER_OBJECT, PDRIVER_OBJECT structure pointer [Kernel-Mode Driver Architecture], _DRIVER_OBJECT, kernel.driver_object, kstruct_a_dfe1b66c-d3bf-43ff-b3ee-b6edfd4f1616.xml, wdm/DRIVER_OBJECT, wdm/PDRIVER_OBJECT"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PDRIVER_OBJECT
  - DRIVER_OBJECT
 ---
+
+# DRIVER_OBJECT structure (wdm.h)
 
 ## -description
 

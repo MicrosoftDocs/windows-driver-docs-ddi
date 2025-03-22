@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CONTROLLER_OBJECT structure"]
 ms.keywords: "*PCONTROLLER_OBJECT, CONTROLLER_OBJECT, CONTROLLER_OBJECT structure [Kernel-Mode Driver Architecture], PCONTROLLER_OBJECT, PCONTROLLER_OBJECT structure pointer [Kernel-Mode Driver Architecture], _CONTROLLER_OBJECT, kernel.controller_object, kstruct_a_391d0fc2-3a61-4b2b-b571-143d2af7ef9b.xml, ntddk/CONTROLLER_OBJECT, ntddk/PCONTROLLER_OBJECT"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CONTROLLER_OBJECT
 ---
 
-# _CONTROLLER_OBJECT structure
+# CONTROLLER_OBJECT structure (ntddk.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/14/2019
 keywords: ["DXGK_MODE_BEHAVIOR_FLAGS structure"]
 ms.keywords: _DXGK_MODE_BEHAVIOR_FLAGS, DXGK_MODE_BEHAVIOR_FLAGS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_MODE_BEHAVIOR_FLAGS
 ---
 
-# DXGK_MODE_BEHAVIOR_FLAGS structure
+# DXGK_MODE_BEHAVIOR_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

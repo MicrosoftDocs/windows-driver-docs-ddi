@@ -6,6 +6,7 @@ ms.date: 10/04/2023
 keywords: ["D3DGPU_PHYSICAL_ADDRESS structure"]
 ms.keywords: _D3DGPU_PHYSICAL_ADDRESS, D3DGPU_PHYSICAL_ADDRESS,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DGPU_PHYSICAL_ADDRESS structure
+# D3DGPU_PHYSICAL_ADDRESS structure (d3dukmdt.h)
+
+
 
 ## -description
 

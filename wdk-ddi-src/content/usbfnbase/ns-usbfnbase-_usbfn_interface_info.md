@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_INTERFACE_INFO structure"]
 ms.keywords: "*PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], _USBFN_INTERFACE_INFO, buses.usbfn_interface_info, usbfnbase/PUSBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_INTERFACE_INFO
 ---
 
-# _USBFN_INTERFACE_INFO structure
+# USBFN_INTERFACE_INFO structure (usbfnbase.h)
+
+
 
 
 ## -description

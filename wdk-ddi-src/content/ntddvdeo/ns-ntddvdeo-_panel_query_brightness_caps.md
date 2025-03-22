@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_QUERY_BRIGHTNESS_CAPS structure"]
 ms.keywords: _PANEL_QUERY_BRIGHTNESS_CAPS, *PPANEL_QUERY_BRIGHTNESS_CAPS, PANEL_QUERY_BRIGHTNESS_CAPS
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PANEL_QUERY_BRIGHTNESS_CAPS
 ---
 
-# _PANEL_QUERY_BRIGHTNESS_CAPS structure
+# PANEL_QUERY_BRIGHTNESS_CAPS structure (ntddvdeo.h)
+
+
 
 
 ## -description

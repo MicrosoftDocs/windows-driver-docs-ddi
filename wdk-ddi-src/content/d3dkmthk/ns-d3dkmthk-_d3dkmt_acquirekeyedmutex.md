@@ -6,6 +6,7 @@ ms.date: 07/27/2023
 keywords: ["D3DKMT_ACQUIREKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_ACQUIREKEYEDMUTEX, D3DKMT_ACQUIREKEYEDMUTEX structure [Display Devices], OpenGL_Structs_114ed313-61ac-4c09-97fa-8b47a0aa40d1.xml, _D3DKMT_ACQUIREKEYEDMUTEX, d3dkmthk/D3DKMT_ACQUIREKEYEDMUTEX, display.d3dkmt_acquirekeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_ACQUIREKEYEDMUTEX
 ---
 
-# D3DKMT_ACQUIREKEYEDMUTEX structure
+# D3DKMT_ACQUIREKEYEDMUTEX structure (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["KSWAVE_BUFFER structure"]
 ms.keywords: "*PKSWAVE_BUFFER, KSWAVE_BUFFER, KSWAVE_BUFFER structure [Streaming Media Devices], PKSWAVE_BUFFER, PKSWAVE_BUFFER structure pointer [Streaming Media Devices], dvdref_8b774201-3725-497e-8545-10c5cad2ef1f.xml, ksmedia/KSWAVE_BUFFER, ksmedia/PKSWAVE_BUFFER, stream.kswave_buffer"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSWAVE_BUFFER
  - KSWAVE_BUFFER
 ---
+
+# KSWAVE_BUFFER structure (ksmedia.h)
 
 ## -description
 

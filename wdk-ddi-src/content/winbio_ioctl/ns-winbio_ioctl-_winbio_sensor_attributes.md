@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_SENSOR_ATTRIBUTES structure"]
 ms.keywords: "*PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES, PWINBIO_SENSOR_ATTRIBUTES structure pointer [Biometric Devices], WINBIO_SENSOR_ATTRIBUTES, WINBIO_SENSOR_ATTRIBUTES structure [Biometric Devices], _WINBIO_SENSOR_ATTRIBUTES, biometric.winbio_sensor_attributes, biometric_ref_958b511b-a855-4897-87d8-f0d7bb4970ce.xml, winbio_ioctl/PWINBIO_SENSOR_ATTRIBUTES, winbio_ioctl/WINBIO_SENSOR_ATTRIBUTES"
 req.header: winbio_ioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_SENSOR_ATTRIBUTES
 ---
 
-# _WINBIO_SENSOR_ATTRIBUTES structure
+# WINBIO_SENSOR_ATTRIBUTES structure (winbio_ioctl.h)
+
+
 
 
 ## -description

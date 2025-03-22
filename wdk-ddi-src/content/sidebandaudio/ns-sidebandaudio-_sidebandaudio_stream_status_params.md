@@ -6,6 +6,7 @@ ms.date: 09/07/2018
 keywords: ["SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_STREAM_STATUS_PARAMS, SIDEBANDAUDIO_STREAM_STATUS_PARAMS, *PSIDEBANDAUDIO_STREAM_STATUS_PARAMS,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SIDEBANDAUDIO_STREAM_STATUS_PARAMS
 ---
 
-# SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure
+# SIDEBANDAUDIO_STREAM_STATUS_PARAMS structure (sidebandaudio.h)
+
+
 
 ## -description
 

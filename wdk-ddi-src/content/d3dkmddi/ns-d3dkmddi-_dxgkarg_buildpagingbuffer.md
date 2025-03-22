@@ -7,6 +7,7 @@ ms.date: 08/23/2022
 keywords: ["DXGKARG_BUILDPAGINGBUFFER structure"]
 ms.keywords: "*IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DXGKARG_BUILDPAGINGBUFFER_OPERATION, DXGK_BUILDPAGINGBUFFER_OPERATION, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, display.dxgkarg_buildpagingbuffer"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_BUILDPAGINGBUFFER
 ---
 
-# DXGKARG_BUILDPAGINGBUFFER structure
+# DXGKARG_BUILDPAGINGBUFFER structure (d3dkmddi.h)
+
+
 
 ## -description
 

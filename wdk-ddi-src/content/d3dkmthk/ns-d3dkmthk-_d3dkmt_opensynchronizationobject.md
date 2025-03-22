@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_OPENSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_OPENSYNCHRONIZATIONOBJECT, D3DKMT_OPENSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_61f9f676-2b21-4cb3-8c6a-9f25ce3ac2bc.xml, _D3DKMT_OPENSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_OPENSYNCHRONIZATIONOBJECT, display.d3dkmt_opensynchronizationobject
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_OPENSYNCHRONIZATIONOBJECT is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_OPENSYNCHRONIZATIONOBJECT
 ---
 
-# _D3DKMT_OPENSYNCHRONIZATIONOBJECT structure
+# D3DKMT_OPENSYNCHRONIZATIONOBJECT structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SDEV_IDENTIFIER_INTERFACE structure"]
 ms.keywords: "*PSDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE, SDEV_IDENTIFIER_INTERFACE structure [Kernel-Mode Driver Architecture], _SDEV_IDENTIFIER_INTERFACE, kernel._sdev_identifier_interface, wdm/SDEV_IDENTIFIER_INTERFACE"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SDEV_IDENTIFIER_INTERFACE
 ---
 
-# _SDEV_IDENTIFIER_INTERFACE structure
+# SDEV_IDENTIFIER_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

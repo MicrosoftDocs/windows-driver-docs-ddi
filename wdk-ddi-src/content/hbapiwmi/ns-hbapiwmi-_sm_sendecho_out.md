@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SendECHO_OUT structure"]
 ms.keywords: "*PSM_SendECHO_OUT, PSM_SendECHO_OUT, PSM_SendECHO_OUT structure pointer [Storage Devices], SM_SendECHO_OUT, SM_SendECHO_OUT structure [Storage Devices], _SM_SendECHO_OUT, hbapiwmi/PSM_SendECHO_OUT, hbapiwmi/SM_SendECHO_OUT, storage.sm_sendecho_out, structs-Fibre_54c4b9c6-e7c1-4125-9e76-0c3e271f5dea.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SendECHO_OUT
 ---
 
-# _SM_SendECHO_OUT structure
+# SM_SendECHO_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

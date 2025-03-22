@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB structure"]
 ms.keywords: "*PIRB, 1394/IRB, 1394/PIRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IEEE.irb, IRB, IRB structure [Buses], PIRB, PIRB structure pointer [Buses], _IRB"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IRB
 ---
 
-# _IRB structure
+# IRB structure (1394.h)
+
+
 
 
 ## -description

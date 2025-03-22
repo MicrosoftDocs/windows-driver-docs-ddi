@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GET_MEDIA_TYPES structure"]
 ms.keywords: "*PGET_MEDIA_TYPES, GET_MEDIA_TYPES, GET_MEDIA_TYPES structure [Storage Devices], PGET_MEDIA_TYPES, PGET_MEDIA_TYPES structure pointer [Storage Devices], _GET_MEDIA_TYPES, ntddstor/GET_MEDIA_TYPES, ntddstor/PGET_MEDIA_TYPES, storage.get_media_types, structs-general_68f75a58-b2a5-4d6a-b9ba-0019e36034ef.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GET_MEDIA_TYPES
 ---
 
-# _GET_MEDIA_TYPES structure (minitape.h)
+# GET_MEDIA_TYPES structure (minitape.h)
+
+
 
 
 ## -description

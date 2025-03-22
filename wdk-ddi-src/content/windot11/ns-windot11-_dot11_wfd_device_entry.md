@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DEVICE_ENTRY structure"]
 ms.keywords: "*PDOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY, DOT11_WFD_DEVICE_ENTRY structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_DEVICE_ENTRY, PDOT11_WFD_DEVICE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_DEVICE_ENTRY, netvista._dot11_wfd_device_entry, windot11/ DOT11_WFD_DEVICE_ENTRY, windot11/PDOT11_WFD_DEVICE_ENTRY"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_DEVICE_ENTRY
 ---
 
-# _DOT11_WFD_DEVICE_ENTRY structure
+# DOT11_WFD_DEVICE_ENTRY structure (windot11.h)
+
+
 
 
 ## -description

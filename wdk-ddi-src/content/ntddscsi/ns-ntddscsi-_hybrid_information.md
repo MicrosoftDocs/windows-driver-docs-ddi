@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["HYBRID_INFORMATION structure"]
 ms.keywords: "*PHYBRID_INFORMATION, HYBRID_INFORMATION, HYBRID_INFORMATION structure [Storage Devices], NvCacheNone, NvCacheStatusDisabled, NvCacheStatusDisabling, NvCacheStatusEnabled, NvCacheStatusUnknown, NvCacheTypeUnknown, NvCacheTypeWriteBack, NvCacheTypeWriteThrough, PHYBRID_INFORMATION, PHYBRID_INFORMATION structure pointer [Storage Devices], _HYBRID_INFORMATION, ntddscsi/HYBRID_INFORMATION, ntddscsi/PHYBRID_INFORMATION, storage.hybrid_information"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -46,7 +47,9 @@ api_name:
  - HYBRID_INFORMATION
 ---
 
-# _HYBRID_INFORMATION structure
+# HYBRID_INFORMATION structure (ntddscsi.h)
+
+
 
 
 ## -description

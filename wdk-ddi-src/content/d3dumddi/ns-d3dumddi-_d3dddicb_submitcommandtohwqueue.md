@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMANDTOHWQUEUE, D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITCOMMANDTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITCOMMANDTOHWQUEUE, display.d3dddicb_submitcommandtohwqueue
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_SUBMITCOMMANDTOHWQUEUE
 ---
 
-# _D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure
+# D3DDDICB_SUBMITCOMMANDTOHWQUEUE structure (d3dumddi.h)
+
+
 
 
 ## -description

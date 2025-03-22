@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_UNIQUE_IDENTIFIER structure"]
 ms.keywords: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, PSTORAGE_DEVICE_UNIQUE_IDENTIFIER structure pointer [Storage Devices], STORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER structure [Storage Devices], _STORAGE_DEVICE_UNIQUE_IDENTIFIER, storage.storage_device_unique_identifier, storduid/PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, storduid/STORAGE_DEVICE_UNIQUE_IDENTIFIER, structs-general_ed4e22dc-a5cb-4746-a846-cbae5e8d7ce8.xml"
 req.header: storduid.h
+req.construct-type: structure
 req.include-header: Storduid.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DEVICE_UNIQUE_IDENTIFIER
 ---
 
-# _STORAGE_DEVICE_UNIQUE_IDENTIFIER structure
+# STORAGE_DEVICE_UNIQUE_IDENTIFIER structure (storduid.h)
+
+
 
 
 ## -description

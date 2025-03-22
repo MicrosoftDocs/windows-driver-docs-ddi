@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_DESCRIPTOR_REQUEST structure"]
 ms.keywords: "*PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], USB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST structure [Buses], _USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, usbioctl/PUSB_DESCRIPTOR_REQUEST, usbioctl/USB_DESCRIPTOR_REQUEST, usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_DESCRIPTOR_REQUEST
 ---
 
-# _USB_DESCRIPTOR_REQUEST structure
+# USB_DESCRIPTOR_REQUEST structure (usbioctl.h)
+
+
 
 
 ## -description

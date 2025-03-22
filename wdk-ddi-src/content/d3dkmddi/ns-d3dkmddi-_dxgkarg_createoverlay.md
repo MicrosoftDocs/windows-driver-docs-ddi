@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_CREATEOVERLAY structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY, DXGKARG_CREATEOVERLAY structure [Display Devices], DmStructs_935ab2cb-070a-4700-8ace-62c4c44c42b5.xml, _DXGKARG_CREATEOVERLAY, d3dkmddi/DXGKARG_CREATEOVERLAY, display.dxgkarg_createoverlay"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_CREATEOVERLAY
 ---
 
-# _DXGKARG_CREATEOVERLAY structure
+# DXGKARG_CREATEOVERLAY structure (d3dkmddi.h)
+
+
 
 
 ## -description

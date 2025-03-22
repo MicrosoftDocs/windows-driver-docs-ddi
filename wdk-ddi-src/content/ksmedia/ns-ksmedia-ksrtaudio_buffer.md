@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_BUFFER structure"]
 ms.keywords: "*PKSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER, KSRTAUDIO_BUFFER structure [Audio Devices], PKSRTAUDIO_BUFFER, PKSRTAUDIO_BUFFER structure pointer [Audio Devices], aud-prop_50b4ab60-2e9a-444b-98d3-984d9084ab0b.xml, audio.ksrtaudio_buffer, ksmedia/KSRTAUDIO_BUFFER, ksmedia/PKSRTAUDIO_BUFFER"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_BUFFER
 ---
 
-# KSRTAUDIO_BUFFER structure
+# KSRTAUDIO_BUFFER structure (ksmedia.h)
+
+
 
 
 ## -description

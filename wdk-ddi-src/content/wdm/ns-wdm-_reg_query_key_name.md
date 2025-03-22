@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_QUERY_KEY_NAME structure"]
 ms.keywords: "*PREG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME, PREG_QUERY_KEY_NAME structure pointer [Kernel-Mode Driver Architecture], REG_QUERY_KEY_NAME, REG_QUERY_KEY_NAME structure [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_NAME, kernel.reg_query_key_name, wdm/PREG_QUERY_KEY_NAME, wdm/REG_QUERY_KEY_NAME"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows 10 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - REG_QUERY_KEY_NAME
 ---
 
-# _REG_QUERY_KEY_NAME structure
+# REG_QUERY_KEY_NAME structure (wdm.h)
+
+
 
 
 ## -description

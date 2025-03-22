@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDIARG_CREATEELEMENTLAYOUT structure"]
 ms.keywords: D3D10DDIARG_CREATEELEMENTLAYOUT, D3D10DDIARG_CREATEELEMENTLAYOUT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8c912e61-9cff-46ad-963f-16d3b9a13b10.xml, d3d10umddi/D3D10DDIARG_CREATEELEMENTLAYOUT, display.d3d10ddiarg_createelementlayout
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDIARG_CREATEELEMENTLAYOUT
 ---
 
-# D3D10DDIARG_CREATEELEMENTLAYOUT structure
+# D3D10DDIARG_CREATEELEMENTLAYOUT structure (d3d10umddi.h)
+
+
 
 
 ## -description

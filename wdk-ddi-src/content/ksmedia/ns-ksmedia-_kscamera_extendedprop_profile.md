@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_EXTENDEDPROP_PROFILE structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_PROFILE
 ---
 
-# _KSCAMERA_EXTENDEDPROP_PROFILE structure
+# KSCAMERA_EXTENDEDPROP_PROFILE structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_BUDGETING_CONFIGURATION structure"]
 ms.keywords: "*PPMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION, PMI_BUDGETING_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_BUDGETING_CONFIGURATION, PPMI_BUDGETING_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_4f031bae-843f-473d-9f3c-d7caf7a9ef1a.xml, _PMI_BUDGETING_CONFIGURATION, pmi/PMI_BUDGETING_CONFIGURATION, pmi/PPMI_BUDGETING_CONFIGURATION, powermeter.pmi_budgeting_configuration"
 req.header: pmi.h
+req.construct-type: structure
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - PMI_BUDGETING_CONFIGURATION
 ---
 
-# _PMI_BUDGETING_CONFIGURATION structure
+# PMI_BUDGETING_CONFIGURATION structure (pmi.h)
+
+
 
 
 ## -description

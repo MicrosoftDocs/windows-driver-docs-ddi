@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_RATIONAL structure"]
 ms.keywords: D3DDDI_RATIONAL, D3DDDI_RATIONAL structure [Display Devices], DmStructs_68540737-a888-46aa-99d7-83a071f3f604.xml, _D3DDDI_RATIONAL, d3dukmdt/D3DDDI_RATIONAL, display.d3dddi_rational
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_RATIONAL
 ---
 
-# _D3DDDI_RATIONAL structure
+# D3DDDI_RATIONAL structure (d3dukmdt.h)
+
+
 
 
 ## -description

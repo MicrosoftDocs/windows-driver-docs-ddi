@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_OVERLAYINFOFLAGS structure"]
 ms.keywords: D3DDDI_OVERLAYINFOFLAGS, D3DDDI_OVERLAYINFOFLAGS structure [Display Devices], D3D_other_Structs_3c20db45-e3b5-4e0e-96a6-d2171dbf309a.xml, _D3DDDI_OVERLAYINFOFLAGS, d3dumddi/D3DDDI_OVERLAYINFOFLAGS, display.d3dddi_overlayinfoflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_OVERLAYINFOFLAGS
 ---
 
-# _D3DDDI_OVERLAYINFOFLAGS structure
+# D3DDDI_OVERLAYINFOFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

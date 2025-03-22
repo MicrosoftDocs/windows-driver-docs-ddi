@@ -7,6 +7,7 @@ ms.date: 03/13/2019
 keywords: ["STORAGE_HW_ENDURANCE_INFO structure"]
 ms.keywords: STORAGE_HW_ENDURANCE_INFO, STORAGE_HW_ENDURANCE_INFO, *PSTORAGE_HW_ENDURANCE_INFO,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STORAGE_HW_ENDURANCE_INFO
 ---
 
-# STORAGE_HW_ENDURANCE_INFO structure
+# STORAGE_HW_ENDURANCE_INFO structure (ntddstor.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure"]
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], WaitAny, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU, display.d3dkmt_waitforsynchronizationobjectfromcpu
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
-# _D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure
+# D3DKMT_WAITFORSYNCHRONIZATIONOBJECTFROMCPU structure (d3dkmthk.h)
+
+
 
 
 ## -description

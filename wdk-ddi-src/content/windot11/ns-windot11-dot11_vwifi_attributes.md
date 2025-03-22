@@ -8,6 +8,7 @@ ms.date: 03/07/2024
 keywords: ["DOT11_VWIFI_ATTRIBUTES structure"]
 ms.keywords: "*PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, PDOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_vwifi_attributes, windot11/DOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_VWIFI_ATTRIBUTES
 ---
 
-# DOT11_VWIFI_ATTRIBUTES structure
+# DOT11_VWIFI_ATTRIBUTES structure (windot11.h)
+
+
 
 
 ## -description

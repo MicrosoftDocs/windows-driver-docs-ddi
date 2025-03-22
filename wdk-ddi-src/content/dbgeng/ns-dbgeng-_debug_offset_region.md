@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_OFFSET_REGION structure"]
 ms.keywords: "*PDEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION, DEBUG_OFFSET_REGION structure [Windows Debugging], PDEBUG_OFFSET_REGION, PDEBUG_OFFSET_REGION structure pointer [Windows Debugging], _DEBUG_OFFSET_REGION, dbgeng/DEBUG_OFFSET_REGION, dbgeng/PDEBUG_OFFSET_REGION, debugger.debug_offset_region"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_OFFSET_REGION
 ---
 
-# _DEBUG_OFFSET_REGION structure
+# DEBUG_OFFSET_REGION structure (dbgeng.h)
+
+
 
 
 ## -description

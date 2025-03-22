@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MS_SMHBA_SCSIENTRY structure"]
 ms.keywords: "*PMS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY, MS_SMHBA_SCSIENTRY structure [Storage Devices], PMS_SMHBA_SCSIENTRY, PMS_SMHBA_SCSIENTRY structure pointer [Storage Devices], _MS_SMHBA_SCSIENTRY, hbapiwmi/MS_SMHBA_SCSIENTRY, hbapiwmi/PMS_SMHBA_SCSIENTRY, storage.ms_smhba_scsientry, structs-Fibre_95d0f020-6910-4764-9234-181b525abf5b.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MS_SMHBA_SCSIENTRY
 ---
 
-# _MS_SMHBA_SCSIENTRY structure
+# MS_SMHBA_SCSIENTRY structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_CONNECT_VER3 structure"]
 ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER3, 61883/CMP_CONNECT_VER3, 61883/PCMP_CONNECT_VER3, CMP_CONNECT, CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], IEEE.cmp_connect_ver3, PCMP_CONNECT_VER3, PCMP_CONNECT_VER3 structure pointer [Buses], _CMP_CONNECT_VER3"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_CONNECT_VER3
 ---
 
-# _CMP_CONNECT_VER3 structure
+# CMP_CONNECT_VER3 structure (61883.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["STOR_POFX_COMPONENT_V2 structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2, PSTOR_POFX_COMPONENT_V2 structure pointer [Storage Devices], STOR_POFX_COMPONENT_V2, STOR_POFX_COMPONENT_V2 structure [Storage Devices], _STOR_POFX_COMPONENT_V2, storage.stor_pofx_component_v2, storport/PSTOR_POFX_COMPONENT_V2, storport/STOR_POFX_COMPONENT"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STOR_POFX_COMPONENT_V2
 ---
 
-# STOR_POFX_COMPONENT_V2 structure
+# STOR_POFX_COMPONENT_V2 structure (storport.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_SUPPORTED_ALGORITHMS structure"]
 ms.keywords: "*PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS, PWINBIO_SUPPORTED_ALGORITHMS structure pointer [Biometric Devices], WINBIO_SUPPORTED_ALGORITHMS, WINBIO_SUPPORTED_ALGORITHMS structure [Biometric Devices], _WINBIO_SUPPORTED_ALGORITHMS, biometric.winbio_supported_algorithms, biometric_ref_44bbda1a-1b9b-42d3-9034-9d0c3c4bac88.xml, winbio_ioctl/PWINBIO_SUPPORTED_ALGORITHMS, winbio_ioctl/WINBIO_SUPPORTED_ALGORITHMS"
 req.header: winbio_ioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WINBIO_SUPPORTED_ALGORITHMS
 ---
 
-# _WINBIO_SUPPORTED_ALGORITHMS structure
+# WINBIO_SUPPORTED_ALGORITHMS structure (winbio_ioctl.h)
+
+
 
 
 ## -description

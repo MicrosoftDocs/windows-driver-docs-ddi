@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure"]
 ms.keywords: "*PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, ndischimney/PNDIS_PROTOCOL_OFFLOAD_BLOCK_LIST, netvista.ndis_protocol_offload_block_list, tcp_chim_struct_77380eae-055d-471e-a94a-67575124981b.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST
 ---
 
-# _NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure
+# NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure (ndischimney.h)
+
+
 
 
 ## -description

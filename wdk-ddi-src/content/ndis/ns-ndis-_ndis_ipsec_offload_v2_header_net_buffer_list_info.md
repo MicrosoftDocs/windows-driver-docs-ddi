@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure"]
 ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, ndis/NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, ndis/PNDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO, netvista.ndis_ipsec_offload_v2_header_net_buffer_list_info, task_offload_IPsecv2_ref_696f856b-fb77-437d-ba9d-0b00b71d1cab.xml"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO
 ---
 
-# _NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure
+# NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO structure (ndis.h)
+
+
 
 
 ## -description

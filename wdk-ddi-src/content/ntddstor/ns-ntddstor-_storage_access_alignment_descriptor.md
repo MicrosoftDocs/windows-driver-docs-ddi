@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure"]
 ms.keywords: PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure pointer [Storage Devices], STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure [Storage Devices], _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/PSTORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, ntddstor/STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR, storage.storage_access_alignment_descriptor, structs-general_191220fa-6df5-478b-b60e-af8e3f62d441.xml
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR
 ---
 
-# _STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure
+# STORAGE_ACCESS_ALIGNMENT_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

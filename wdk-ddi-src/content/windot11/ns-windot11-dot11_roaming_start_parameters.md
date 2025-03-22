@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_ROAMING_START_PARAMETERS structure"]
 ms.keywords: "*PDOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7635397d-74dc-44d0-af58-47048361367d.xml, PDOT11_ROAMING_START_PARAMETERS, PDOT11_ROAMING_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_roaming_start_parameters, windot11/DOT11_ROAMING_START_PARAMETERS, windot11/PDOT11_ROAMING_START_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_ROAMING_START_PARAMETERS
 ---
 
-# DOT11_ROAMING_START_PARAMETERS structure
+# DOT11_ROAMING_START_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

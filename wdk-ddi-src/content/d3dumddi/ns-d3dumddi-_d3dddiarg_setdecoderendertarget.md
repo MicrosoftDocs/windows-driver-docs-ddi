@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_SETDECODERENDERTARGET structure"]
 ms.keywords: D3DDDIARG_SETDECODERENDERTARGET, D3DDDIARG_SETDECODERENDERTARGET structure [Display Devices], UMDisplayDriver_param_Structs_1638f20c-2243-4b24-8373-d5e310aa10a0.xml, _D3DDDIARG_SETDECODERENDERTARGET, d3dumddi/D3DDDIARG_SETDECODERENDERTARGET, display.d3dddiarg_setdecoderendertarget
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_SETDECODERENDERTARGET
 ---
 
-# _D3DDDIARG_SETDECODERENDERTARGET structure
+# D3DDDIARG_SETDECODERENDERTARGET structure (d3dumddi.h)
+
+
 
 
 ## -description

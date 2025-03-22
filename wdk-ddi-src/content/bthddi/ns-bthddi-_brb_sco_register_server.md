@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_SCO_REGISTER_SERVER structure"]
 ms.keywords: "_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_register_server, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bthddi/_BRB_SCO_REGISTER_SERVER"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_SCO_REGISTER_SERVER
 ---
 
-# _BRB_SCO_REGISTER_SERVER structure
+# _BRB_SCO_REGISTER_SERVER structure (bthddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_INT10_INTERFACE structure"]
 ms.keywords: "*PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE structure [Display Devices], Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, _VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, video/PVIDEO_PORT_INT10_INTERFACE, video/VIDEO_PORT_INT10_INTERFACE"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_PORT_INT10_INTERFACE
 ---
 
-# _VIDEO_PORT_INT10_INTERFACE structure
+# VIDEO_PORT_INT10_INTERFACE structure (video.h)
+
+
 
 
 ## -description

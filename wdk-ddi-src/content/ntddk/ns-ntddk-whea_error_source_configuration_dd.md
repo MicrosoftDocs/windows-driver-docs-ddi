@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_SOURCE_CONFIGURATION_DD structure"]
 ms.keywords: WHEA_ERROR_SOURCE_CONFIGURATION_DD, WHEA_ERROR_SOURCE_CONFIGURATION_DD, *PWHEA_ERROR_SOURCE_CONFIGURATION_DD,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_ERROR_SOURCE_CONFIGURATION_DD
 ---
 
-# WHEA_ERROR_SOURCE_CONFIGURATION_DD structure
+# WHEA_ERROR_SOURCE_CONFIGURATION_DD structure (ntddk.h)
+
+
 
 
 ## -description

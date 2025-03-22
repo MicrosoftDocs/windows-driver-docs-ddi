@@ -5,6 +5,7 @@ description: Learn more about the _DXGK_INTEGRATED_DISPLAY_CHILD structure.
 tech.root: display
 ms.date: 01/13/2025
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_INTEGRATED_DISPLAY_CHILD
 ---
 
-# DXGK_INTEGRATED_DISPLAY_CHILD structure
+# DXGK_INTEGRATED_DISPLAY_CHILD structure (dispmprt.h)
+
+
 
 ## -description
 

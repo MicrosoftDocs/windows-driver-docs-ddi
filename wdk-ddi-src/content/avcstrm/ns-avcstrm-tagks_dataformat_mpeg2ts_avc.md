@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_DATAFORMAT_MPEG2TS_AVC structure"]
 ms.keywords: "*PKS_DATAFORMAT_MPEG2TS_AVC, KS_DATAFORMAT_MPEG2TS_AVC, KS_DATAFORMAT_MPEG2TS_AVC structure [Streaming Media Devices], PKS_DATAFORMAT_MPEG2TS_AVC, PKS_DATAFORMAT_MPEG2TS_AVC structure pointer [Streaming Media Devices], avcsref_1c04182d-3d89-4db1-9b5f-7fdbc3e62c47.xml, avcstrm/KS_DATAFORMAT_MPEG2TS_AVC, avcstrm/PKS_DATAFORMAT_MPEG2TS_AVC, stream.ks_dataformat_mpeg2ts_avc, tagKS_DATAFORMAT_MPEG2TS_AVC"
 req.header: avcstrm.h
+req.construct-type: structure
 req.include-header: Avcstrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DATAFORMAT_MPEG2TS_AVC
 ---
 
-# tagKS_DATAFORMAT_MPEG2TS_AVC structure
+# tagKS_DATAFORMAT_MPEG2TS_AVC structure (avcstrm.h)
+
+
 
 
 ## -description

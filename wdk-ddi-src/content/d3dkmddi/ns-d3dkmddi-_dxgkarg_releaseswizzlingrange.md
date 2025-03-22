@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_RELEASESWIZZLINGRANGE structure"]
 ms.keywords: DXGKARG_RELEASESWIZZLINGRANGE, DXGKARG_RELEASESWIZZLINGRANGE structure [Display Devices], DmStructs_7ed7a86e-7376-47a8-8198-9c991005fd0a.xml, _DXGKARG_RELEASESWIZZLINGRANGE, d3dkmddi/DXGKARG_RELEASESWIZZLINGRANGE, display.dxgkarg_releaseswizzlingrange
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_RELEASESWIZZLINGRANGE
 ---
 
-# _DXGKARG_RELEASESWIZZLINGRANGE structure
+# DXGKARG_RELEASESWIZZLINGRANGE structure (d3dkmddi.h)
+
+
 
 
 ## -description

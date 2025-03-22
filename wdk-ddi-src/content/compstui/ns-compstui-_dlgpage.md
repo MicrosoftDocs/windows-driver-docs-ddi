@@ -7,6 +7,7 @@ ms.date: 01/19/2023
 keywords: ["DLGPAGE structure"]
 ms.keywords: "*PDLGPAGE, DLGPAGE, DLGPAGE structure [Print Devices], PDLGPAGE, PDLGPAGE structure pointer [Print Devices], _DLGPAGE, compstui/DLGPAGE, compstui/PDLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, print.dlgpage"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PDLGPAGE
  - DLGPAGE
 ---
+
+# DLGPAGE structure (compstui.h)
 
 ## -description
 

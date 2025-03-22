@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["DEVICE_FAULT_CONFIGURATION structure"]
 ms.keywords: _DEVICE_FAULT_CONFIGURATION, DEVICE_FAULT_CONFIGURATION, *PDEVICE_FAULT_CONFIGURATION,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809.
@@ -40,7 +41,9 @@ api_name:
  - DEVICE_FAULT_CONFIGURATION
 ---
 
-# _DEVICE_FAULT_CONFIGURATION structure
+# DEVICE_FAULT_CONFIGURATION structure (wdm.h)
+
+
 
 
 ## -description

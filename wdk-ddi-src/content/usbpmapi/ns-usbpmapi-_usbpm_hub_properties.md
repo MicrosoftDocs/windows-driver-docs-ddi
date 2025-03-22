@@ -7,6 +7,7 @@ keywords: ["USBPM_HUB_PROPERTIES structure"]
 tech.root: usbref
 ms.keywords: _USBPM_HUB_PROPERTIES, USBPM_HUB_PROPERTIES, *PUSBPM_HUB_PROPERTIES,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_HUB_PROPERTIES
 ---
 
-# _USBPM_HUB_PROPERTIES structure
+# USBPM_HUB_PROPERTIES structure (usbpmapi.h)
+
+
 
 
 ## -description

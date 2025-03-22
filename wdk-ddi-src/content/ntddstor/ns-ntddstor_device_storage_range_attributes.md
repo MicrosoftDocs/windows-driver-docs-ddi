@@ -7,6 +7,7 @@ ms.date: 08/18/2022
 keywords: ["DEVICE_STORAGE_RANGE_ATTRIBUTES structure"]
 ms.keywords: DEVICE_STORAGE_RANGE_ATTRIBUTES, DEVICE_STORAGE_RANGE_ATTRIBUTES, *PDEVICE_STORAGE_RANGE_ATTRIBUTES,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ f1_keywords:
  - ntddstor/DEVICE_STORAGE_RANGE_ATTRIBUTES
 ---
 
-# DEVICE_STORAGE_RANGE_ATTRIBUTES structure
+# DEVICE_STORAGE_RANGE_ATTRIBUTES structure (ntddstor.h)
+
+
 
 ## -description
 

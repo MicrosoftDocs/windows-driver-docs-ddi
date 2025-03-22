@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["STACK_SRC_INFO structure"]
 ms.keywords: "*PSTACK_SRC_INFO, PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], STACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], _STACK_SRC_INFO, dbgeng/PSTACK_SRC_INFO, dbgeng/STACK_SRC_INFO, debugger.stack_src_info"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: Dbgeng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STACK_SRC_INFO
 ---
 
-# _STACK_SRC_INFO structure
+# STACK_SRC_INFO structure (dbgeng.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SetRNIDMgmtInfo_IN structure"]
 ms.keywords: "*PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN, PSM_SetRNIDMgmtInfo_IN structure pointer [Storage Devices], SM_SetRNIDMgmtInfo_IN, SM_SetRNIDMgmtInfo_IN structure [Storage Devices], _SM_SetRNIDMgmtInfo_IN, hbapiwmi/PSM_SetRNIDMgmtInfo_IN, hbapiwmi/SM_SetRNIDMgmtInfo_IN, storage.sm_setrnidmgmtinfo_in, structs-Fibre_1da5987a-4759-4d2a-9e33-5c33123314fc.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SetRNIDMgmtInfo_IN
 ---
 
-# _SM_SetRNIDMgmtInfo_IN structure
+# SM_SetRNIDMgmtInfo_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

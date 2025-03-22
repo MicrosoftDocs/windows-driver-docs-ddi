@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_IP_ADDRESS_STATE structure"]
 ms.keywords: "*PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_IP_ADDRESS_STATE, netvista.wwan_ip_address_state, wwan/PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_IP_ADDRESS_STATE
 ---
 
-# _WWAN_IP_ADDRESS_STATE structure
+# WWAN_IP_ADDRESS_STATE structure (wwan.h)
+
+
 
 
 ## -description

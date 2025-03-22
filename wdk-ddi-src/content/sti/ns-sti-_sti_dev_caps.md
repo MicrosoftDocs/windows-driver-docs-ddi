@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["STI_DEV_CAPS structure"]
 ms.keywords: "*PSTI_DEV_CAPS, PSTI_DEV_CAPS, PSTI_DEV_CAPS structure pointer [Imaging Devices], STI_DEV_CAPS, STI_DEV_CAPS structure [Imaging Devices], _STI_DEV_CAPS, image.sti_dev_caps, sti/PSTI_DEV_CAPS, sti/STI_DEV_CAPS, stifnc_34efd7cf-944e-474e-8ed5-5ba24be9bf2e.xml"
 req.header: sti.h
+req.construct-type: structure
 req.include-header: Sti.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STI_DEV_CAPS
 ---
 
-# _STI_DEV_CAPS structure
+# STI_DEV_CAPS structure (sti.h)
+
+
 
 
 ## -description

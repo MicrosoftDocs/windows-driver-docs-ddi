@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure"]
 ms.keywords: DXGIDDICB_SUBMITPRESENTTOHWQUEUE, DXGIDDICB_SUBMITPRESENTTOHWQUEUE,
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure
+# DXGIDDICB_SUBMITPRESENTTOHWQUEUE structure (dxgiddi.h)
+
+
 
 
 ## -description

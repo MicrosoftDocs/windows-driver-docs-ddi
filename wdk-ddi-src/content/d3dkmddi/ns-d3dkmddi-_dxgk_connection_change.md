@@ -4,6 +4,7 @@ title: DXGK_CONNECTION_CHANGE (d3dkmddi.h)
 description: Learn more about the DXGK_CONNECTION_CHANGE structure.
 ms.date: 10/03/2024
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_CONNECTION_CHANGE
 ---
 
-# DXGK_CONNECTION_CHANGE structure
+# DXGK_CONNECTION_CHANGE structure (d3dkmddi.h)
+
+
 
 ## -description
 

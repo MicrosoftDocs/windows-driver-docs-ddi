@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_BUS_INFORMATION_LEVEL_0 structure"]
 ms.keywords: "*PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0, PUSB_BUS_INFORMATION_LEVEL_0 structure pointer [Buses], USB_BUS_INFORMATION_LEVEL_0, USB_BUS_INFORMATION_LEVEL_0 structure [Buses], _USB_BUS_INFORMATION_LEVEL_0, buses.usb_bus_information_level_0, usbbusif/PUSB_BUS_INFORMATION_LEVEL_0, usbbusif/USB_BUS_INFORMATION_LEVEL_0, usbstrct_19a2e4ab-663a-4cb9-b21c-182d1de11b68.xml"
 req.header: usbbusif.h
+req.construct-type: structure
 req.include-header: Usbbusif.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - USB_BUS_INFORMATION_LEVEL_0
 ---
 
-# _USB_BUS_INFORMATION_LEVEL_0 structure
+# USB_BUS_INFORMATION_LEVEL_0 structure (usbbusif.h)
+
+
 
 
 ## -description

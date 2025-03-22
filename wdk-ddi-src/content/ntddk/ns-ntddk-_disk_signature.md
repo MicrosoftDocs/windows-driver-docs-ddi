@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DISK_SIGNATURE structure"]
 ms.keywords: "*PDISK_SIGNATURE, DISK_SIGNATURE, DISK_SIGNATURE structure [Storage Devices], PDISK_SIGNATURE, PDISK_SIGNATURE structure pointer [Storage Devices], _DISK_SIGNATURE, ntddk/DISK_SIGNATURE, ntddk/PDISK_SIGNATURE, storage.disk_signature, structs-disk_6ea56db7-c886-43f2-b9ed-24b0f7e1cb6e.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is only available on Windows XP and later.
@@ -46,7 +47,9 @@ api_name:
  - DISK_SIGNATURE
 ---
 
-# _DISK_SIGNATURE structure
+# DISK_SIGNATURE structure (ntddk.h)
+
+
 
 
 ## -description

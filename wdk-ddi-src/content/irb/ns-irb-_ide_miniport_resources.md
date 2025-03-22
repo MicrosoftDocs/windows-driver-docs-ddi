@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_MINIPORT_RESOURCES structure"]
 ms.keywords: "*PIDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES, IDE_MINIPORT_RESOURCES structure [Storage Devices], PIDE_MINIPORT_RESOURCES, PIDE_MINIPORT_RESOURCES structure pointer [Storage Devices], _IDE_MINIPORT_RESOURCES, irb/IDE_MINIPORT_RESOURCES, irb/PIDE_MINIPORT_RESOURCES, storage.ide_miniport_resources, structs-ATA_28df7197-d4b0-4279-a4db-e9b1269f6ba7.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_MINIPORT_RESOURCES
 ---
 
-# _IDE_MINIPORT_RESOURCES structure
+# IDE_MINIPORT_RESOURCES structure (irb.h)
+
+
 
 
 ## -description

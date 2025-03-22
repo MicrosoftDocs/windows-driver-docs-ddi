@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure"]
 ms.keywords: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure pointer [Buses], RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure [Buses], SPB.rh_query_connection_properties_output_buffer, _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, reshub/RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.header: reshub.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 ---
 
-# _RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure
+# RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER structure (reshub.h)
+
+
 
 
 ## -description

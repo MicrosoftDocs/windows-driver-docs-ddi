@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure"]
 ms.keywords: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure [Display Devices], UMDisplayDriver_param_Structs_8a72018a-706f-4c26-adca-109365e03ff1.xml, _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, d3dumddi/D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD, display.d3dddiarg_dxvahd_videoprocessblthd
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD
 ---
 
-# _D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure
+# D3DDDIARG_DXVAHD_VIDEOPROCESSBLTHD structure (d3dumddi.h)
+
+
 
 
 ## -description

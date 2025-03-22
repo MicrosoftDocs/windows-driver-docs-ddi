@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2DRAWTRIPATCH structure"]
 ms.keywords: "*LPD3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], LPD3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices], _D3DHAL_DP2DRAWTRIPATCH, d3dhal/D3DHAL_DP2DRAWTRIPATCH, d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, display.d3dhal_dp2drawtripatch"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2DRAWTRIPATCH
 ---
 
-# _D3DHAL_DP2DRAWTRIPATCH structure
+# D3DHAL_DP2DRAWTRIPATCH structure (d3dhal.h)
+
+
 
 
 ## -description

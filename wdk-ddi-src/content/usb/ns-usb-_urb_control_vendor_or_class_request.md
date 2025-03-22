@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure"]
 ms.keywords: USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST, _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure [Buses], buses._urb_control_vendor_or_class_request, usb/_URB_CONTROL_VENDOR_OR_CLASS_REQUEST, usbstrct_d0af3922-2ab9-480d-b508-d7b3ce850f53.xml
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_CONTROL_VENDOR_OR_CLASS_REQUEST
 ---
 
-# _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure
+# _URB_CONTROL_VENDOR_OR_CLASS_REQUEST structure (usb.h)
+
+
 
 
 ## -description

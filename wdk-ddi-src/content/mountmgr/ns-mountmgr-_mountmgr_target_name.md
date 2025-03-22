@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["MOUNTMGR_TARGET_NAME structure"]
 ms.keywords: "*PMOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME structure [Storage Devices], PMOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME structure pointer [Storage Devices], _MOUNTMGR_TARGET_NAME, mountmgr/MOUNTMGR_TARGET_NAME, mountmgr/PMOUNTMGR_TARGET_NAME, storage.mountmgr_target_name, structs-mntmgr_abcf0a10-ecbb-433e-9848-c2d5065ca1ac.xml"
 req.header: mountmgr.h
+req.construct-type: structure
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMOUNTMGR_TARGET_NAME
  - MOUNTMGR_TARGET_NAME
 ---
+
+# MOUNTMGR_TARGET_NAME structure (mountmgr.h)
 
 ## -description
 

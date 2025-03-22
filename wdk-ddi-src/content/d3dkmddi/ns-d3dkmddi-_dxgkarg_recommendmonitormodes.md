@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_RECOMMENDMONITORMODES structure"]
 ms.keywords: DXGKARG_RECOMMENDMONITORMODES, DXGKARG_RECOMMENDMONITORMODES structure [Display Devices], DmStructs_151c48fa-735a-4962-9fe7-446830441f1c.xml, _DXGKARG_RECOMMENDMONITORMODES, d3dkmddi/DXGKARG_RECOMMENDMONITORMODES, display.dxgkarg_recommendmonitormodes
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_RECOMMENDMONITORMODES
 ---
 
-# _DXGKARG_RECOMMENDMONITORMODES structure
+# DXGKARG_RECOMMENDMONITORMODES structure (d3dkmddi.h)
+
+
 
 
 ## -description

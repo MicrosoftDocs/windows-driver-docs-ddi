@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SELF_ID_MORE structure"]
 ms.keywords: "*PSELF_ID_MORE, 1394/PSELF_ID_MORE, 1394/SELF_ID_MORE, 1394stct_cbfa017d-065b-45ce-ae08-6a6589c6b477.xml, IEEE.self_id_more, PSELF_ID_MORE, PSELF_ID_MORE structure pointer [Buses], SELF_ID_MORE, SELF_ID_MORE structure [Buses], _SELF_ID_MORE"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SELF_ID_MORE
 ---
 
-# _SELF_ID_MORE structure
+# SELF_ID_MORE structure (1394.h)
+
+
 
 
 ## -description

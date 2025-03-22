@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure"]
 ms.keywords: "*PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure [Streaming Media Devices], PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, ksmedia/PKSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S, stream.ksproperty_allocator_control_surface_size_s, vidcapstruct_3ad4116b-8e7c-4249-ba27-78a387706d5b.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S
 ---
 
-# KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure
+# KSPROPERTY_ALLOCATOR_CONTROL_SURFACE_SIZE_S structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_HD_SPLIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, netvista.ndis_hd_split_parameters, ntddndis/NDIS_HD_SPLIT_PARAMETERS, ntddndis/PNDIS_HD_SPLIT_PARAMETERS"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_HD_SPLIT_PARAMETERS
 ---
 
-# _NDIS_HD_SPLIT_PARAMETERS structure
+# NDIS_HD_SPLIT_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

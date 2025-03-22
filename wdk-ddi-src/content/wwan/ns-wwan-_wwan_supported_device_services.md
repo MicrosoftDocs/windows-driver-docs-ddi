@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_SUPPORTED_DEVICE_SERVICES structure"]
 ms.keywords: "*PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES, PWWAN_SUPPORTED_DEVICE_SERVICES structure pointer [Network Drivers Starting with Windows Vista], WWAN_SUPPORTED_DEVICE_SERVICES, WWAN_SUPPORTED_DEVICE_SERVICES structure [Network Drivers Starting with Windows Vista], _WWAN_SUPPORTED_DEVICE_SERVICES, netvista.wwan_supported_device_services, wwan/PWWAN_SUPPORTED_DEVICE_SERVICES, wwan/WWAN_SUPPORTED_DEVICE_SERVICES"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SUPPORTED_DEVICE_SERVICES
 ---
 
-# _WWAN_SUPPORTED_DEVICE_SERVICES structure
+# WWAN_SUPPORTED_DEVICE_SERVICES structure (wwan.h)
+
+
 
 
 ## -description

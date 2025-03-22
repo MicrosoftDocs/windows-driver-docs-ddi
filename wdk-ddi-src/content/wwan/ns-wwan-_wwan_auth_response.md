@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_RESPONSE structure"]
 ms.keywords: "*PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE, PWWAN_AUTH_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_RESPONSE, WWAN_AUTH_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_RESPONSE, netvista.wwan_auth_response, wwan/PWWAN_AUTH_RESPONSE, wwan/WWAN_AUTH_RESPONSE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_AUTH_RESPONSE
 ---
 
-# _WWAN_AUTH_RESPONSE structure
+# WWAN_AUTH_RESPONSE structure (wwan.h)
+
+
 
 
 ## -description

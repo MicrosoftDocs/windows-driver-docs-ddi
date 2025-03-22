@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_CONTROL structure"]
 ms.keywords: _UCSI_CONTROL, UCSI_CONTROL, *PUCSI_CONTROL,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_CONTROL
 ---
 
-# _UCSI_CONTROL structure
+# UCSI_CONTROL structure (ucmucsispec.h)
+
+
 
 
 ## -description

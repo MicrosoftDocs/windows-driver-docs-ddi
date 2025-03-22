@@ -7,6 +7,7 @@ ms.date: 10/05/2023
 keywords: ["D3DDDICB_SUBMITCOMMAND structure"]
 ms.keywords: D3DDDICB_SUBMITCOMMAND, D3DDDICB_SUBMITCOMMAND structure [Display Devices], _D3DDDICB_SUBMITCOMMAND, d3dumddi/D3DDDICB_SUBMITCOMMAND, display.d3dddicb_submitcommand
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DDDICB_SUBMITCOMMAND
 ---
 
-# D3DDDICB_SUBMITCOMMAND structure
+# D3DDDICB_SUBMITCOMMAND structure (d3dumddi.h)
+
+
 
 ## -description
 

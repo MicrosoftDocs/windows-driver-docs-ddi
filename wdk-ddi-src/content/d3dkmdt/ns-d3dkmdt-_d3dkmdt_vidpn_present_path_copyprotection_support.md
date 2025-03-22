@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure"]
 ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure [Display Devices], DmStructs_01eb8f42-1ba1-46e3-9b56-99952e5fedbe.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT, display.d3dkmdt_vidpn_present_path_copyprotection_support
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
 ---
 
-# _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure
+# D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT structure (d3dkmdt.h)
+
+
 
 
 ## -description

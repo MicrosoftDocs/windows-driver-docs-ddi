@@ -5,6 +5,7 @@ description: Learn more about the DXGKARG_COMMITVIDPN structure.
 ms.date: 03/15/2024
 keywords: ["DXGKARG_COMMITVIDPN structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - DXGKARG_COMMITVIDPN
 ---
 
-# DXGKARG_COMMITVIDPN structure
+# DXGKARG_COMMITVIDPN structure (d3dkmddi.h)
+
+
 
 ## -description
 

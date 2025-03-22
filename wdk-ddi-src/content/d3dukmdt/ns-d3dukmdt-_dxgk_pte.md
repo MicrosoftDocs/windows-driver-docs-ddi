@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PTE structure"]
 ms.keywords: DXGK_PTE, DXGK_PTE structure [Display Devices], DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, _DXGK_PTE, d3dukmdt/DXGK_PTE, display.dxgk_pte
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PTE
 ---
 
-# _DXGK_PTE structure
+# DXGK_PTE structure (d3dukmdt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_PIPE_LOCAL_INFORMATION structure"]
 ms.keywords: "*PFILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION, FILE_PIPE_LOCAL_INFORMATION structure [Installable File System Drivers], PFILE_PIPE_LOCAL_INFORMATION, PFILE_PIPE_LOCAL_INFORMATION structure pointer [Installable File System Drivers], _FILE_PIPE_LOCAL_INFORMATION, ifsk.file_pipe_local_information, ntifs/FILE_PIPE_LOCAL_INFORMATION, ntifs/PFILE_PIPE_LOCAL_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000
@@ -46,7 +47,9 @@ api_name:
  - FILE_PIPE_LOCAL_INFORMATION
 ---
 
-# _FILE_PIPE_LOCAL_INFORMATION structure
+# FILE_PIPE_LOCAL_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

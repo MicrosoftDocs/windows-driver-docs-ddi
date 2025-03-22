@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PM_WOL_PATTERN structure"]
 ms.keywords: "*PNDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN, NDIS_PM_WOL_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WOL_PATTERN, PNDIS_PM_WOL_PATTERN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PATTERN, miniport_power_management_ref_ce048c91-111a-406d-8dc9-958394bc78cd.xml, netvista.ndis_pm_wol_pattern, ntddndis/NDIS_PM_WOL_PATTERN, ntddndis/PNDIS_PM_WOL_PATTERN"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ntddndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PM_WOL_PATTERN
 ---
 
-# _NDIS_PM_WOL_PATTERN structure
+# NDIS_PM_WOL_PATTERN structure (ntddndis.h)
+
+
 
 
 ## -description

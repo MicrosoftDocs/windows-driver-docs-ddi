@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSRATE_CAPABILITY structure"]
 ms.keywords: "*PKSRATE_CAPABILITY, KSRATE_CAPABILITY, KSRATE_CAPABILITY structure [Streaming Media Devices], PKSRATE_CAPABILITY, PKSRATE_CAPABILITY structure pointer [Streaming Media Devices], ks-struct_4697e3ed-7ef5-4278-be5f-96083d755ab0.xml, ks/KSRATE_CAPABILITY, ks/PKSRATE_CAPABILITY, stream.ksrate_capability"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSRATE_CAPABILITY
 ---
 
-# KSRATE_CAPABILITY structure
+# KSRATE_CAPABILITY structure (ks.h)
+
+
 
 
 ## -description

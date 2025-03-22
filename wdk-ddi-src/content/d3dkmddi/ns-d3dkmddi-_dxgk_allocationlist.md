@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["DXGK_ALLOCATIONLIST structure"]
 ms.keywords: DXGK_ALLOCATIONLIST, DXGK_ALLOCATIONLIST structure [Display Devices], DmStructs_ed92f9cf-ad3f-4566-89ff-31d6b162f755.xml, _DXGK_ALLOCATIONLIST, d3dkmddi/DXGK_ALLOCATIONLIST, display.dxgk_allocationlist
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_ALLOCATIONLIST
 ---
 
-# DXGK_ALLOCATIONLIST structure
+# DXGK_ALLOCATIONLIST structure (d3dkmddi.h)
+
+
 
 ## -description
 

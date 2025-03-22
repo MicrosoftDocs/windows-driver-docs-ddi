@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["_MIDL_IKeywordDetectorOemAdapter_0003 structure"]
 ms.keywords: KEYWORDSELECTOR, KEYWORDSELECTOR structure [Audio Devices], __MIDL_IKeywordDetectorOemAdapter_0003, audio.keywordselector, keyworddetectoroemadapter/KEYWORDSELECTOR
 req.header: keyworddetectoroemadapter.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - KEYWORDSELECTOR
 ---
 
-# __MIDL_IKeywordDetectorOemAdapter_0003 structure
+# KEYWORDSELECTOR structure (keyworddetectoroemadapter.h)
+
+
 
 
 ## -description

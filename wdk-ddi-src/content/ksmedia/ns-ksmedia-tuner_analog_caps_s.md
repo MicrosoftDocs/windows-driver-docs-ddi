@@ -7,6 +7,7 @@ ms.date: 03/15/2023
 keywords: ["TUNER_ANALOG_CAPS_S structure"]
 ms.keywords: "*PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], TUNER_ANALOG_CAPS_S, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], ksmedia/PTUNER_ANALOG_CAPS_S, ksmedia/TUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the operating system.
@@ -41,6 +42,8 @@ api_name:
  - PTUNER_ANALOG_CAPS_S
  - TUNER_ANALOG_CAPS_S
 ---
+
+# TUNER_ANALOG_CAPS_S structure (ksmedia.h)
 
 ## -description
 

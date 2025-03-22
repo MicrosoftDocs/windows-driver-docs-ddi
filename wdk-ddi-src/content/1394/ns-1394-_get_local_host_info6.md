@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GET_LOCAL_HOST_INFO6 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO6, 1394/GET_LOCAL_HOST_INFO6, 1394/PGET_LOCAL_HOST_INFO6, 1394stct_90799b58-816d-4624-a194-6b42d64b903c.xml, GET_LOCAL_HOST_INFO6, GET_LOCAL_HOST_INFO6 structure [Buses], IEEE.get_local_host_info6, PGET_LOCAL_HOST_INFO6, PGET_LOCAL_HOST_INFO6 structure pointer [Buses], _GET_LOCAL_HOST_INFO6"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GET_LOCAL_HOST_INFO6
 ---
 
-# _GET_LOCAL_HOST_INFO6 structure
+# GET_LOCAL_HOST_INFO6 structure (1394.h)
+
+
 
 
 ## -description

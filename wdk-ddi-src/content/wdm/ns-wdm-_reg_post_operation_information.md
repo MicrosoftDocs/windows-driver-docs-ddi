@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_POST_OPERATION_INFORMATION structure"]
 ms.keywords: "*PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION, PREG_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_POST_OPERATION_INFORMATION, REG_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_POST_OPERATION_INFORMATION, kernel.reg_post_operation_information, kstruct_d_70ca0f06-65d5-4b1b-ab66-cc44361d4e5a.xml, wdm/PREG_POST_OPERATION_INFORMATION, wdm/REG_POST_OPERATION_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows Server 2003 and later versions of the Windows operating system, but some structure members are available only for Windows Vista and later versions.
@@ -46,7 +47,9 @@ api_name:
  - REG_POST_OPERATION_INFORMATION
 ---
 
-# _REG_POST_OPERATION_INFORMATION structure
+# REG_POST_OPERATION_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

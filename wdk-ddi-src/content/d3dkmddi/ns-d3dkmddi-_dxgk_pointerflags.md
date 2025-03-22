@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_POINTERFLAGS structure"]
 ms.keywords: DXGK_POINTERFLAGS, DXGK_POINTERFLAGS structure [Display Devices], DmStructs_e2e2d800-cf64-44f9-95a2-a5eca8b8c303.xml, _DXGK_POINTERFLAGS, d3dkmddi/DXGK_POINTERFLAGS, display.dxgk_pointerflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_POINTERFLAGS
 ---
 
-# _DXGK_POINTERFLAGS structure
+# DXGK_POINTERFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

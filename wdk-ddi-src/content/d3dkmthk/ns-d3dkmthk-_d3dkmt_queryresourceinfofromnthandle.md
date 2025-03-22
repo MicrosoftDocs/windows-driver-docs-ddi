@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure"]
 ms.keywords: D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure [Display Devices], _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, d3dkmthk/D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE, display.d3dkmt_queryresourceinfofromnthandle
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE
 ---
 
-# _D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure
+# D3DKMT_QUERYRESOURCEINFOFROMNTHANDLE structure (d3dkmthk.h)
+
+
 
 
 ## -description

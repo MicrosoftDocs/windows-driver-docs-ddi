@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetDiscoveredPortAttributes_OUT structure"]
 ms.keywords: "*PGetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT, GetDiscoveredPortAttributes_OUT structure [Storage Devices], PGetDiscoveredPortAttributes_OUT, PGetDiscoveredPortAttributes_OUT structure pointer [Storage Devices], _GetDiscoveredPortAttributes_OUT, hbapiwmi/GetDiscoveredPortAttributes_OUT, hbapiwmi/PGetDiscoveredPortAttributes_OUT, storage.getdiscoveredportattributes_out, structs-Fibre_611d9a0e-b0dc-472e-9bec-3902412e8ec4.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetDiscoveredPortAttributes_OUT
 ---
 
-# _GetDiscoveredPortAttributes_OUT structure
+# GetDiscoveredPortAttributes_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

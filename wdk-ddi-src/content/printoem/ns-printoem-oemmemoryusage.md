@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["OEMMEMORYUSAGE structure"]
 ms.keywords: "*POEMMEMORYUSAGE, OEMMEMORYUSAGE, OEMMEMORYUSAGE structure [Print Devices], POEMMEMORYUSAGE, POEMMEMORYUSAGE structure pointer [Print Devices], print.oemmemoryusage, print_unidrv-pscript_rendering_c6746c1c-f6c5-4acf-bcd3-bc1f69382dae.xml, printoem/OEMMEMORYUSAGE, printoem/POEMMEMORYUSAGE"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - POEMMEMORYUSAGE
  - OEMMEMORYUSAGE
 ---
+
+# OEMMEMORYUSAGE structure (printoem.h)
 
 ## -description
 

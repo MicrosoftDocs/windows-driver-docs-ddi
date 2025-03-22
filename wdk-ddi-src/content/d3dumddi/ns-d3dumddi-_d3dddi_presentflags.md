@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_PRESENTFLAGS structure"]
 ms.keywords: D3DDDI_PRESENTFLAGS, D3DDDI_PRESENTFLAGS structure [Display Devices], D3D_other_Structs_4650db5e-637b-4032-a5d2-ded887a883dc.xml, _D3DDDI_PRESENTFLAGS, d3dumddi/D3DDDI_PRESENTFLAGS, display.d3dddi_presentflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_PRESENTFLAGS
 ---
 
-# _D3DDDI_PRESENTFLAGS structure
+# D3DDDI_PRESENTFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

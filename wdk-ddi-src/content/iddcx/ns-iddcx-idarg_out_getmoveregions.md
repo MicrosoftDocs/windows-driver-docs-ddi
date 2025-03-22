@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_OUT_GETMOVEREGIONS structure"]
 ms.keywords: IDARG_OUT_GETMOVEREGIONS, IDARG_OUT_GETMOVEREGIONS structure [Display Devices], display.idarg_out_getmoveregions, iddcx/IDARG_OUT_GETMOVEREGIONS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_OUT_GETMOVEREGIONS
 ---
 
-# IDARG_OUT_GETMOVEREGIONS structure
+# IDARG_OUT_GETMOVEREGIONS structure (iddcx.h)
+
+
 
 
 ## -description

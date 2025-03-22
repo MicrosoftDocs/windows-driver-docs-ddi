@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_PID_UNMAP structure"]
 ms.keywords: "*PBDA_PID_UNMAP, BDA_PID_UNMAP, BDA_PID_UNMAP structure [Streaming Media Devices], PBDA_PID_UNMAP, PBDA_PID_UNMAP structure pointer [Streaming Media Devices], _BDA_PID_UNMAP, bdaref_2ce4a3ed-4ca0-421f-9de6-6a07dffe0cbe.xml, bdatypes/BDA_PID_UNMAP, bdatypes/PBDA_PID_UNMAP, stream.bda_pid_unmap"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: Bdatypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_PID_UNMAP
 ---
 
-# _BDA_PID_UNMAP structure
+# BDA_PID_UNMAP structure (bdatypes.h)
+
+
 
 
 ## -description

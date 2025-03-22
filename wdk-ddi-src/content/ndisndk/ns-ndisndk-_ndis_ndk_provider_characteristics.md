@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_NDK_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: "*PNDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS, NDIS_NDK_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_NDK_PROVIDER_CHARACTERISTICS, PNDIS_NDK_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/NDIS_NDK_PROVIDER_CHARACTERISTICS, ndisndk/PNDIS_NDK_PROVIDER_CHARACTERISTICS, netvista.ndis_ndk_provider_characteristics"
 req.header: ndisndk.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_NDK_PROVIDER_CHARACTERISTICS
 ---
 
-# _NDIS_NDK_PROVIDER_CHARACTERISTICS structure
+# NDIS_NDK_PROVIDER_CHARACTERISTICS structure (ndisndk.h)
+
+
 
 
 ## -description

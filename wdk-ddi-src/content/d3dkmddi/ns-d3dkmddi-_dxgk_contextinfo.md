@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CONTEXTINFO structure"]
 ms.keywords: DXGK_CONTEXTINFO, DXGK_CONTEXTINFO structure [Display Devices], DmStructs_e95e533c-2156-4384-9e7e-718e7d61c458.xml, _DXGK_CONTEXTINFO, d3dkmddi/DXGK_CONTEXTINFO, display.dxgk_contextinfo
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_CONTEXTINFO
 ---
 
-# _DXGK_CONTEXTINFO structure
+# DXGK_CONTEXTINFO structure (d3dkmddi.h)
+
+
 
 
 ## -description

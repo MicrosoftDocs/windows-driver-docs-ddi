@@ -7,6 +7,7 @@ ms.date: 04/11/2019
 keywords: ["NDIS_WWAN_NITZ_INFO structure"]
 ms.keywords: _NDIS_WWAN_NITZ_INFO, NDIS_WWAN_NITZ_INFO, *PNDIS_WWAN_NITZ_INFO,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_NITZ_INFO
 ---
 
-# _NDIS_WWAN_NITZ_INFO structure
+# NDIS_WWAN_NITZ_INFO structure (ndiswwan.h)
+
+
 
 
 ## -description

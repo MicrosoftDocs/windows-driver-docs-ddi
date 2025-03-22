@@ -5,6 +5,7 @@ description: Learn more about the D3DDDIARG_CREATEEXTENSIONDEVICE structure.
 tech.root: display
 ms.date: 09/10/2024
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DDDIARG_CREATEEXTENSIONDEVICE
 ---
 
-# D3DDDIARG_CREATEEXTENSIONDEVICE structure
+# D3DDDIARG_CREATEEXTENSIONDEVICE structure (d3dumddi.h)
+
+
 
 ## -description
 

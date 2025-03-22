@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_SMART structure"]
 ms.keywords: "*PFEATURE_DATA_SMART, FEATURE_DATA_SMART, FEATURE_DATA_SMART structure [Storage Devices], PFEATURE_DATA_SMART, PFEATURE_DATA_SMART structure pointer [Storage Devices], _FEATURE_DATA_SMART, ntddmmc/FEATURE_DATA_SMART, ntddmmc/PFEATURE_DATA_SMART, storage.feature_data_smart, structs-CD-ROM_3d912360-2734-4d01-b7ef-298d90be28b7.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_SMART
 ---
 
-# _FEATURE_DATA_SMART structure
+# FEATURE_DATA_SMART structure (ntddmmc.h)
+
+
 
 
 ## -description

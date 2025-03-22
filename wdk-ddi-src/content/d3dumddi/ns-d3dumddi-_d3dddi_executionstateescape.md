@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_EXECUTIONSTATEESCAPE structure"]
 ms.keywords: D3DDDI_EXECUTIONSTATEESCAPE, D3DDDI_EXECUTIONSTATEESCAPE structure [Display Devices], _D3DDDI_EXECUTIONSTATEESCAPE, d3dumddi/D3DDDI_EXECUTIONSTATEESCAPE, display.d3dddi_executionstateescape
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_EXECUTIONSTATEESCAPE
 ---
 
-# _D3DDDI_EXECUTIONSTATEESCAPE structure
+# D3DDDI_EXECUTIONSTATEESCAPE structure (d3dumddi.h)
+
+
 
 
 ## -description

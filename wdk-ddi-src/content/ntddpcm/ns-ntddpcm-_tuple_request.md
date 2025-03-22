@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["TUPLE_REQUEST structure"]
 ms.keywords: "*PTUPLE_REQUEST, PCMCIA.tuple_request, PTUPLE_REQUEST, PTUPLE_REQUEST structure pointer [Buses], TUPLE_REQUEST, TUPLE_REQUEST structure [Buses], _TUPLE_REQUEST, memcdref_9d88760a-943f-4537-ad46-738d5f41421e.xml, ntddpcm/PTUPLE_REQUEST, ntddpcm/TUPLE_REQUEST"
 req.header: ntddpcm.h
+req.construct-type: structure
 req.include-header: Ntddpcm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TUPLE_REQUEST
 ---
 
-# _TUPLE_REQUEST structure
+# TUPLE_REQUEST structure (ntddpcm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_ADDRESS structure"]
 ms.keywords: "*PSCSI_ADDRESS, PSCSI_ADDRESS, PSCSI_ADDRESS structure pointer [Storage Devices], SCSI_ADDRESS, SCSI_ADDRESS structure [Storage Devices], _SCSI_ADDRESS, ntddscsi/PSCSI_ADDRESS, ntddscsi/SCSI_ADDRESS, storage.scsi_address, structs-scsibus_6b7a15bf-09f3-4fe2-bbef-77e1fd6e1744.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSI_ADDRESS
 ---
 
-# _SCSI_ADDRESS structure
+# SCSI_ADDRESS structure (ntddscsi.h)
+
+
 
 
 ## -description

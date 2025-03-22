@@ -7,6 +7,7 @@ ms.date: 10/06/2023
 keywords: ["ENCRYPTION_KEY_CTRL_INPUT structure"]
 ms.keywords: _ENCRYPTION_KEY_CTRL_INPUT, ENCRYPTION_KEY_CTRL_INPUT, *PENCRYPTION_KEY_CTRL_INPUT,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - ENCRYPTION_KEY_CTRL_INPUT
 ---
 
-# ENCRYPTION_KEY_CTRL_INPUT structure
+# ENCRYPTION_KEY_CTRL_INPUT structure (ntifs.h)
+
+
 
 ## -description
 

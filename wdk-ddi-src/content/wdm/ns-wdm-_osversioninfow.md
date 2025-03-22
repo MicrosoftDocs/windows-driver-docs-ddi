@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OSVERSIONINFOW structure"]
 ms.keywords: "*LPOSVERSIONINFOW, *POSVERSIONINFOW, *PRTL_OSVERSIONINFOW, OSVERSIONINFO, OSVERSIONINFOW, PRTL_OSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], RTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], _OSVERSIONINFOW, kernel.rtl_osversioninfow, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, wdm/PRTL_OSVERSIONINFOW, wdm/RTL_OSVERSIONINFOW"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - OSVERSIONINFOW
 ---
 
-# _OSVERSIONINFOW structure
+# OSVERSIONINFOW structure (wdm.h)
+
+
 
 
 ## -description

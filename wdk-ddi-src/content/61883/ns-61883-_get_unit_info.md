@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GET_UNIT_INFO structure"]
 ms.keywords: "*PGET_UNIT_INFO, 61883/GET_UNIT_INFO, 61883/PGET_UNIT_INFO, GET_UNIT_INFO, GET_UNIT_INFO structure [Buses], IEEE.get_unit_info, PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], _GET_UNIT_INFO"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GET_UNIT_INFO
 ---
 
-# _GET_UNIT_INFO structure
+# GET_UNIT_INFO structure (61883.h)
+
+
 
 
 ## -description

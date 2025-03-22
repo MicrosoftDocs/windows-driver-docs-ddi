@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_STATUS_BLOCK structure"]
 ms.keywords: "*PIO_STATUS_BLOCK, IO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], PIO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK, kernel.io_status_block, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/IO_STATUS_BLOCK, wdm/PIO_STATUS_BLOCK"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IO_STATUS_BLOCK
 ---
 
-# _IO_STATUS_BLOCK structure
+# IO_STATUS_BLOCK structure (wdm.h)
+
+
 
 
 ## -description

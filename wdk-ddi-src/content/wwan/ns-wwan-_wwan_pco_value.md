@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PCO_VALUE structure"]
 ms.keywords: "*PWWAN_PCO_VALUE, PWWAN_PCO_VALUE, PWWAN_PCO_VALUE structure pointer [Network Drivers Starting with Windows Vista], WWAN_PCO_VALUE, WWAN_PCO_VALUE structure [Network Drivers Starting with Windows Vista], _WWAN_PCO_VALUE, netvista.wwan_pco_value, wwan/PWWAN_PCO_VALUE, wwan/WWAN_PCO_VALUE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PCO_VALUE
 ---
 
-# _WWAN_PCO_VALUE structure
+# WWAN_PCO_VALUE structure (wwan.h)
+
+
 
 
 ## -description

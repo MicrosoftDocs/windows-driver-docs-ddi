@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CREATECRYPTOSESSION structure"]
 ms.keywords: D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, _D3DDDIARG_CREATECRYPTOSESSION, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_CREATECRYPTOSESSION is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CREATECRYPTOSESSION
 ---
 
-# _D3DDDIARG_CREATECRYPTOSESSION structure
+# D3DDDIARG_CREATECRYPTOSESSION structure (d3dumddi.h)
+
+
 
 
 ## -description

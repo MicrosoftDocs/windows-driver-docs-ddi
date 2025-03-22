@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_ProcAmpControlCaps structure"]
 ms.keywords: "*LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], LPDXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], _DXVA_ProcAmpControlCaps, display.dxva_procampcontrolcaps, dxva/DXVA_ProcAmpControlCaps, dxva/LPDXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: DirectX 9.0 and later versions only.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_ProcAmpControlCaps
 ---
 
-# _DXVA_ProcAmpControlCaps structure
+# DXVA_ProcAmpControlCaps structure (dxva.h)
+
+
 
 
 ## -description

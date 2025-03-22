@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIO_MIXCAP_TABLE structure"]
 ms.keywords: "*PKSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE, KSAUDIO_MIXCAP_TABLE structure [Audio Devices], PKSAUDIO_MIXCAP_TABLE, PKSAUDIO_MIXCAP_TABLE structure pointer [Audio Devices], aud-prop_42fdfffa-fb37-4a29-8015-065cec552815.xml, audio.ksaudio_mixcap_table, ksmedia/KSAUDIO_MIXCAP_TABLE, ksmedia/PKSAUDIO_MIXCAP_TABLE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSAUDIO_MIXCAP_TABLE
 ---
 
-# KSAUDIO_MIXCAP_TABLE structure
+# KSAUDIO_MIXCAP_TABLE structure (ksmedia.h)
+
+
 
 
 ## -description

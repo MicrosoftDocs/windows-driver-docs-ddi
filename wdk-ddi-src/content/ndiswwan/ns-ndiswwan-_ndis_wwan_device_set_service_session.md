@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_DEVICE_SET_SERVICE_SESSION structure"]
 ms.keywords: "*PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION, ndiswwan/NDIS_WWAN_SET_DEVICE_SERVICE_SESSION, ndiswwan/PNDIS_WWAN_SET_DEVICE_SERVICE_SESSION, netvista.ndis_wwan_set_device_service_session"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_SET_DEVICE_SERVICE_SESSION
 ---
 
-# _NDIS_WWAN_DEVICE_SET_SERVICE_SESSION structure
+# NDIS_WWAN_SET_DEVICE_SERVICE_SESSION structure (ndiswwan.h)
+
+
 
 
 ## -description

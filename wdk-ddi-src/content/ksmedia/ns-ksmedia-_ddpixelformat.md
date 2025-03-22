@@ -7,6 +7,7 @@ ms.date: 03/08/2022
 keywords: ["DDPIXELFORMAT structure"]
 ms.keywords: "*LPDDPIXELFORMAT, DDPIXELFORMAT, DDPIXELFORMAT structure [Display Devices], LPDDPIXELFORMAT, LPDDPIXELFORMAT structure pointer [Display Devices], _DDPIXELFORMAT, ddstrcts_861a4798-418e-492a-b4cb-c4f1ce794a71.xml, display.ddpixelformat, ksmedia/DDPIXELFORMAT, ksmedia/LPDDPIXELFORMAT"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ddraw.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - LPDDPIXELFORMAT
  - DDPIXELFORMAT
 ---
+
+# DDPIXELFORMAT structure (ksmedia.h)
 
 ## -description
 

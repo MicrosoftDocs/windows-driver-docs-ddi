@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OB_PRE_OPERATION_PARAMETERS structure"]
 ms.keywords: "*POB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS, OB_PRE_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_PARAMETERS, POB_PRE_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_PARAMETERS, kernel.ob_pre_operation_parameters, kstruct_c_328dfe5b-e8ed-4277-9003-e194abbf81ba.xml, wdm/OB_PRE_OPERATION_PARAMETERS, wdm/POB_PRE_OPERATION_PARAMETERS"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2008 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - OB_PRE_OPERATION_PARAMETERS
 ---
 
-# _OB_PRE_OPERATION_PARAMETERS structure
+# OB_PRE_OPERATION_PARAMETERS structure (wdm.h)
+
+
 
 
 ## -description

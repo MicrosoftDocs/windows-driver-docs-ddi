@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UFX_DEVICE_CALLBACKS structure"]
 ms.keywords: "*PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS, PUFX_DEVICE_CALLBACKS structure pointer [Buses], UFX_DEVICE_CALLBACKS, UFX_DEVICE_CALLBACKS structure [Buses], _UFX_DEVICE_CALLBACKS, buses.ufx_device_callbacks, ufxclient/PUFX_DEVICE_CALLBACKS, ufxclient/UFX_DEVICE_CALLBACKS"
 req.header: ufxclient.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UFX_DEVICE_CALLBACKS
 ---
 
-# _UFX_DEVICE_CALLBACKS structure
+# UFX_DEVICE_CALLBACKS structure (ufxclient.h)
+
+
 
 
 ## -description

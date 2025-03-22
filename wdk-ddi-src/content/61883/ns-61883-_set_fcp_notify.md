@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SET_FCP_NOTIFY structure"]
 ms.keywords: "*PSET_FCP_NOTIFY, 61883/PSET_FCP_NOTIFY, 61883/SET_FCP_NOTIFY, IEEE.set_fcp_notify, PSET_FCP_NOTIFY, PSET_FCP_NOTIFY structure pointer [Buses], SET_FCP_NOTIFY, SET_FCP_NOTIFY structure [Buses], _SET_FCP_NOTIFY"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SET_FCP_NOTIFY
 ---
 
-# _SET_FCP_NOTIFY structure
+# SET_FCP_NOTIFY structure (61883.h)
+
+
 
 
 ## -description

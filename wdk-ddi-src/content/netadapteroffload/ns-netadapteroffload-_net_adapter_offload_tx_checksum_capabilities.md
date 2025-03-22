@@ -7,6 +7,7 @@ ms.date: 10/06/2020
 keywords: ["_NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure"]
 ms.keywords: _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES, *PNET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES,
 req.header: netadapteroffload.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -37,7 +38,9 @@ api_name:
  - NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES
 ---
 
-# _NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure
+# NET_ADAPTER_OFFLOAD_TX_CHECKSUM_CAPABILITIES structure (netadapteroffload.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: print
 keywords: ["PORT_DATA_LIST_1 structure"]
 ms.keywords: _PORT_DATA_LIST_1, PORT_DATA_LIST_1, *PPORT_DATA_LIST_1,
 req.header: tcpxcv.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PORT_DATA_LIST_1
 ---
 
-# _PORT_DATA_LIST_1 structure
+# PORT_DATA_LIST_1 structure (tcpxcv.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_DDI_DEPTH_STENCIL_DESC structure"]
 ms.keywords: D3D10_DDI_DEPTH_STENCIL_DESC, D3D10_DDI_DEPTH_STENCIL_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4e9cbeba-8eb3-43ea-891a-1b57c82cd3ef.xml, d3d10umddi/D3D10_DDI_DEPTH_STENCIL_DESC, display.d3d10_ddi_depth_stencil_desc
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_DEPTH_STENCIL_DESC
 ---
 
-# D3D10_DDI_DEPTH_STENCIL_DESC structure
+# D3D10_DDI_DEPTH_STENCIL_DESC structure (d3d10umddi.h)
+
+
 
 
 ## -description

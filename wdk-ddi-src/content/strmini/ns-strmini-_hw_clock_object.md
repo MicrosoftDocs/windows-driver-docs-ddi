@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["HW_CLOCK_OBJECT structure"]
 ms.keywords: "*PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT, HW_CLOCK_OBJECT structure [Streaming Media Devices], PHW_CLOCK_OBJECT, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], _HW_CLOCK_OBJECT, strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml, stream.hw_clock_object, strmini/HW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HW_CLOCK_OBJECT
 ---
 
-# _HW_CLOCK_OBJECT structure
+# HW_CLOCK_OBJECT structure (strmini.h)
+
+
 
 
 ## -description

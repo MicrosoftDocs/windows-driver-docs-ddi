@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["DXGK_OPM_INTERFACE_3 structure"]
 ms.keywords: "*PDXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3, DXGK_OPM_INTERFACE_3 structure [Display Devices], PDXGK_OPM_INTERFACE_3, PDXGK_OPM_INTERFACE_3 structure pointer [Display Devices], _DXGK_OPM_INTERFACE_3, display.dxgk_opm_interface_3, dispmprt/DXGK_OPM_INTERFACE_3, dispmprt/PDXGK_OPM_INTERFACE_3"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_OPM_INTERFACE_3
 ---
 
-# DXGK_OPM_INTERFACE_3 structure
+# DXGK_OPM_INTERFACE_3 structure (dispmprt.h)
+
+
 
 
 ## -description

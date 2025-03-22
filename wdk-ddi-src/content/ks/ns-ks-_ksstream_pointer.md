@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSSTREAM_POINTER structure"]
 ms.keywords: "*PKSSTREAM_POINTER, KSSTREAM_POINTER, KSSTREAM_POINTER structure [Streaming Media Devices], PKSSTREAM_POINTER, PKSSTREAM_POINTER structure pointer [Streaming Media Devices], _KSSTREAM_POINTER, avstruct_1856dc7a-3351-4a87-97a5-85b06d12ab30.xml, ks/KSSTREAM_POINTER, ks/PKSSTREAM_POINTER, stream.ksstream_pointer"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSSTREAM_POINTER
 ---
 
-# _KSSTREAM_POINTER structure
+# KSSTREAM_POINTER structure (ks.h)
+
+
 
 
 ## -description

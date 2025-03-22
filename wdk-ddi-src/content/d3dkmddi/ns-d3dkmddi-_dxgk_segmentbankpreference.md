@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_SEGMENTBANKPREFERENCE structure"]
 ms.keywords: DXGK_SEGMENTBANKPREFERENCE, DXGK_SEGMENTBANKPREFERENCE structure [Display Devices], DmStructs_58615e96-0b7c-49a9-8966-0f627d7078f7.xml, _DXGK_SEGMENTBANKPREFERENCE, d3dkmddi/DXGK_SEGMENTBANKPREFERENCE, display.dxgk_segmentbankpreference
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_SEGMENTBANKPREFERENCE
 ---
 
-# _DXGK_SEGMENTBANKPREFERENCE structure
+# DXGK_SEGMENTBANKPREFERENCE structure (d3dkmddi.h)
+
+
 
 
 ## -description

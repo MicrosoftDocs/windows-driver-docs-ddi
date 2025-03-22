@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["PingIPAddress_IN structure"]
 ms.keywords: "*PPingIPAddress_IN, PPingIPAddress_IN, PPingIPAddress_IN structure pointer [Storage Devices], PingIPAddress_IN, PingIPAddress_IN structure [Storage Devices], _PingIPAddress_IN, iscsimgt/PPingIPAddress_IN, iscsimgt/PingIPAddress_IN, storage.pingipaddress_in, structs-iSCSI_4b2a763e-bb28-4132-9f29-08377e81dd82.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PingIPAddress_IN
 ---
 
-# _PingIPAddress_IN structure
+# PingIPAddress_IN structure (iscsimgt.h)
+
+
 
 
 ## -description

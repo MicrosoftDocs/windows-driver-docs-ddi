@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure"]
 ms.keywords: DXVA2_Structs_4b156a58-d13f-4ffc-8ad0-3bdbb5dc7386.xml, DXVAHDDDI_STREAM_STATE_PALETTE_DATA, DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_PALETTE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE_DATA, display.dxvahdddi_stream_state_palette_data
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_STREAM_STATE_PALETTE_DATA is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_STREAM_STATE_PALETTE_DATA
 ---
 
-# _DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure
+# DXVAHDDDI_STREAM_STATE_PALETTE_DATA structure (d3dumddi.h)
+
+
 
 
 ## -description

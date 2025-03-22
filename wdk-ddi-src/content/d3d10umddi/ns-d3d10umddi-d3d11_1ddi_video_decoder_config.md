@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_DECODER_CONFIG structure"]
 ms.keywords: ContentKeySize, D3D11_1DDI_VIDEO_DECODER_CONFIG, D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, display.d3d11_1ddi_video_decoder_config, pContentKey
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDI_VIDEO_DECODER_CONFIG
 ---
 
-# D3D11_1DDI_VIDEO_DECODER_CONFIG structure
+# D3D11_1DDI_VIDEO_DECODER_CONFIG structure (d3d10umddi.h)
+
+
 
 
 ## -description

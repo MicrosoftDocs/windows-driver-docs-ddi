@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CHILD_CONTAINER_ID structure"]
 ms.keywords: "*PDXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID, DXGK_CHILD_CONTAINER_ID structure [Display Devices], PDXGK_CHILD_CONTAINER_ID, PDXGK_CHILD_CONTAINER_ID structure pointer [Display Devices], _DXGK_CHILD_CONTAINER_ID, display.dxgk_child_container_id, dispmprt/DXGK_CHILD_CONTAINER_ID, dispmprt/PDXGK_CHILD_CONTAINER_ID"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DXGK_CHILD_CONTAINER_ID
 ---
 
-# _DXGK_CHILD_CONTAINER_ID structure
+# DXGK_CHILD_CONTAINER_ID structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_TRIMRESIDENCYSET structure"]
 ms.keywords: D3DDDIARG_TRIMRESIDENCYSET, D3DDDIARG_TRIMRESIDENCYSET structure [Display Devices], d3dumddi/D3DDDIARG_TRIMRESIDENCYSET, display.d3dddiarg_trimresidencyset
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DDDIARG_TRIMRESIDENCYSET
 ---
 
-# D3DDDIARG_TRIMRESIDENCYSET structure
+# D3DDDIARG_TRIMRESIDENCYSET structure (d3dumddi.h)
+
+
 
 
 ## -description

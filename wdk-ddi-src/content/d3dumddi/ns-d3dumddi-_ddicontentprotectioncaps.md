@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDICONTENTPROTECTIONCAPS structure"]
 ms.keywords: D3D_other_Structs_15111323-4ebe-49be-8ce6-d43a896533ee.xml, DDICONTENTPROTECTIONCAPS, DDICONTENTPROTECTIONCAPS structure [Display Devices], _DDICONTENTPROTECTIONCAPS, d3dumddi/DDICONTENTPROTECTIONCAPS, display.ddicontentprotectioncaps
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DDICONTENTPROTECTIONCAPS is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DDICONTENTPROTECTIONCAPS
 ---
 
-# _DDICONTENTPROTECTIONCAPS structure
+# DDICONTENTPROTECTIONCAPS structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2CREATEVERTEXSHADERDECL structure"]
 ms.keywords: "*LPD3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL, D3DHAL_DP2CREATEVERTEXSHADERDECL structure [Display Devices], LPD3DHAL_DP2CREATEVERTEXSHADERDECL, LPD3DHAL_DP2CREATEVERTEXSHADERDECL structure pointer [Display Devices], _D3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/D3DHAL_DP2CREATEVERTEXSHADERDECL, d3dhal/LPD3DHAL_DP2CREATEVERTEXSHADERDECL, d3dstrct_ae2ef7ce-67b3-4c91-b4d8-e3ff8b82734b.xml, display.d3dhal_dp2createvertexshaderdecl"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2CREATEVERTEXSHADERDECL
 ---
 
-# _D3DHAL_DP2CREATEVERTEXSHADERDECL structure
+# D3DHAL_DP2CREATEVERTEXSHADERDECL structure (d3dhal.h)
+
+
 
 
 ## -description

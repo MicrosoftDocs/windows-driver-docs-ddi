@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure"]
 ms.keywords: "*PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS, DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_SEND_INVITATION_REQUEST_PARAMETERS, PDOT11_SEND_INVITATION_REQUEST_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SEND_INVITATION_REQUEST_PARAMETERS, netvista.dot11_send_invitation_request_parameters, windot11/DOT11_SEND_INVITATION_REQUEST_PARAMETERS, windot11/PDOT11_SEND_INVITATION_REQUEST_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with   Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_SEND_INVITATION_REQUEST_PARAMETERS
 ---
 
-# _DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure
+# DOT11_SEND_INVITATION_REQUEST_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

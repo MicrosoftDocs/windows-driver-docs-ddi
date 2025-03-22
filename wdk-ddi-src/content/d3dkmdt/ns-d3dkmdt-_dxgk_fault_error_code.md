@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_FAULT_ERROR_CODE structure"]
 ms.keywords: DXGK_FAULT_ERROR_CODE, DXGK_FAULT_ERROR_CODE structure [Display Devices], _DXGK_FAULT_ERROR_CODE, d3dkmdt/DXGK_FAULT_ERROR_CODE, display.dxgk_fault_error_code
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_FAULT_ERROR_CODE
 ---
 
-# _DXGK_FAULT_ERROR_CODE structure
+# DXGK_FAULT_ERROR_CODE structure (d3dkmdt.h)
+
+
 
 
 ## -description

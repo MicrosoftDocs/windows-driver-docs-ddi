@@ -7,6 +7,7 @@ keywords: ["MATRIX3X3 structure"]
 tech.root: sensors
 ms.keywords: MATRIX3X3, MATRIX3X3, *PMATRIX3X3,
 req.header: sensorsstructures.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - MATRIX3X3
 ---
 
-# MATRIX3X3 structure
+# MATRIX3X3 structure (sensorsstructures.h)
+
+
 
 
 ## -description

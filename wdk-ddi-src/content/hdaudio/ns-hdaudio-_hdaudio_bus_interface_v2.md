@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HDAUDIO_BUS_INTERFACE_V2 structure"]
 ms.keywords: "*PHDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2, HDAUDIO_BUS_INTERFACE_V2 structure [Audio Devices], PHDAUDIO_BUS_INTERFACE_V2, PHDAUDIO_BUS_INTERFACE_V2 structure pointer [Audio Devices], _HDAUDIO_BUS_INTERFACE_V2, aud-prop2_42a4681c-608a-479b-a33d-725f9625d64b.xml, audio.hdaudio_bus_interface_v2, hdaudio/HDAUDIO_BUS_INTERFACE_V2, hdaudio/PHDAUDIO_BUS_INTERFACE_V2"
 req.header: hdaudio.h
+req.construct-type: structure
 req.include-header: Hdaudio.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - HDAUDIO_BUS_INTERFACE_V2
 ---
 
-# _HDAUDIO_BUS_INTERFACE_V2 structure
+# HDAUDIO_BUS_INTERFACE_V2 structure (hdaudio.h)
+
+
 
 
 ## -description

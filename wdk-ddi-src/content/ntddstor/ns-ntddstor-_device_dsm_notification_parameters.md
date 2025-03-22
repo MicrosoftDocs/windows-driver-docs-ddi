@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_NOTIFICATION_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS, DEVICE_DSM_NOTIFICATION_PARAMETERS structure [Storage Devices], PDEVICE_DSM_NOTIFICATION_PARAMETERS, PDEVICE_DSM_NOTIFICATION_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/DEVICE_DSM_NOTIFICATION_PARAMETERS, ntddstor/PDEVICE_DSM_NOTIFICATION_PARAMETERS, storage.device_dsm_notification_parameters"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_DSM_NOTIFICATION_PARAMETERS
 ---
 
-# _DEVICE_DSM_NOTIFICATION_PARAMETERS structure
+# DEVICE_DSM_NOTIFICATION_PARAMETERS structure (ntddstor.h)
+
+
 
 
 ## -description

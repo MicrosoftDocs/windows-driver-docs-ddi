@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSSCATTER_GATHER structure"]
 ms.keywords: "*PKSSCATTER_GATHER, KSSCATTER_GATHER, KSSCATTER_GATHER structure [Streaming Media Devices], PKSSCATTER_GATHER, PKSSCATTER_GATHER structure pointer [Streaming Media Devices], stream.ksscatter_gather, strmini/KSSCATTER_GATHER, strmini/PKSSCATTER_GATHER"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSSCATTER_GATHER
 ---
 
-# KSSCATTER_GATHER structure
+# KSSCATTER_GATHER structure (strmini.h)
+
+
 
 
 ## -description

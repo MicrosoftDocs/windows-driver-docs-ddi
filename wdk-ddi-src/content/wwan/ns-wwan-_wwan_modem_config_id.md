@@ -7,6 +7,7 @@ ms.date: 03/23/2018
 keywords: ["WWAN_MODEM_CONFIG_ID structure"]
 ms.keywords: _WWAN_MODEM_CONFIG_ID, *PWWAN_MODEM_CONFIG_ID, WWAN_MODEM_CONFIG_ID,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: wwan.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - WWAN_MODEM_CONFIG_ID
 ---
 
-# _WWAN_MODEM_CONFIG_ID structure
+# WWAN_MODEM_CONFIG_ID structure (wwan.h)
+
+
 
 
 ## -description

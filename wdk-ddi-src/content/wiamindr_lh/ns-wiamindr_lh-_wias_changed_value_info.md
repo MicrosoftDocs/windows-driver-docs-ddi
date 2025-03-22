@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_CHANGED_VALUE_INFO structure"]
 ms.keywords: "*PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO, PWIAS_CHANGED_VALUE_INFO structure pointer [Imaging Devices], WIAS_CHANGED_VALUE_INFO, WIAS_CHANGED_VALUE_INFO structure [Imaging Devices], _WIAS_CHANGED_VALUE_INFO, image.wias_changed_value_info, wiamindr_lh/PWIAS_CHANGED_VALUE_INFO, wiamindr_lh/WIAS_CHANGED_VALUE_INFO, wiastrct_0c1c5e66-1f26-471f-9916-117460b6a373.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WIAS_CHANGED_VALUE_INFO
 ---
 
-# _WIAS_CHANGED_VALUE_INFO structure
+# WIAS_CHANGED_VALUE_INFO structure (wiamindr_lh.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBDEVICE_PURGEIO structure"]
 ms.keywords: "*PUSBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO, P_USBDEVICE_PURGEIO structure pointer [Buses], USBDEVICE_PURGEIO, USBDEVICE_PURGEIO structure [Buses], _USBDEVICE_PURGEIO, buses._usbdevice_purgeio, ucxusbdevice/P_USBDEVICE_PURGEIO, ucxusbdevice/_USBDEVICE_PURGEIO"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBDEVICE_PURGEIO
 ---
 
-# _USBDEVICE_PURGEIO structure
+# USBDEVICE_PURGEIO structure (ucxusbdevice.h)
+
+
 
 
 ## -description

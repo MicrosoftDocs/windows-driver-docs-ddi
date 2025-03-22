@@ -7,6 +7,7 @@ ms.date: 07/13/2018
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY structure"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY, *PNET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY, NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY,
 req.header: netreceivescaling.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY
 ---
 
-# _NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY structure
+# NET_ADAPTER_RECEIVE_SCALING_HASH_SECRET_KEY structure (netreceivescaling.h)
+
+
 
 
 ## -description

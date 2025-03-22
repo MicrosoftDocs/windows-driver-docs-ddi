@@ -8,6 +8,7 @@ ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTER_INIT structure"]
 ms.keywords: IDARG_IN_ADAPTER_INIT, IDARG_IN_ADAPTER_INIT structure [Display Devices], display.idarg_in_adapter_init, iddcx/IDARG_IN_ADAPTER_INIT
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_ADAPTER_INIT
 ---
 
-# IDARG_IN_ADAPTER_INIT structure
+# IDARG_IN_ADAPTER_INIT structure (iddcx.h)
+
+
 
 ## -description
 

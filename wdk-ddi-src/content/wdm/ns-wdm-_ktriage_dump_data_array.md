@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["KTRIAGE_DUMP_DATA_ARRAY structure"]
 ms.keywords: _KTRIAGE_DUMP_DATA_ARRAY, PKTRIAGE_DUMP_DATA_ARRAY, KTRIAGE_DUMP_DATA_ARRAY,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - KTRIAGE_DUMP_DATA_ARRAY
 ---
 
-# _KTRIAGE_DUMP_DATA_ARRAY structure
+# KTRIAGE_DUMP_DATA_ARRAY structure (wdm.h)
+
+
 
 
 ## -description

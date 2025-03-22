@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_STORAGE_ADDRESS_RANGE structure"]
 ms.keywords: DEVICE_STORAGE_ADDRESS_RANGE, DEVICE_STORAGE_ADDRESS_RANGE, *PDEVICE_STORAGE_ADDRESS_RANGE,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ f1_keywords:
  - ntddstor/DEVICE_STORAGE_ADDRESS_RANGE
 ---
 
-# DEVICE_STORAGE_ADDRESS_RANGE structure
+# DEVICE_STORAGE_ADDRESS_RANGE structure (ntddstor.h)
+
+
 
 
 ## -description

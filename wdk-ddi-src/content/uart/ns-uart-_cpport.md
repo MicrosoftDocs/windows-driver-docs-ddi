@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["CPPORT structure"]
 ms.keywords: _CPPORT, CPPORT, *PCPPORT,
 req.header: uart.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - CPPORT
 ---
 
-# _CPPORT structure
+# CPPORT structure (uart.h)
+
+
 
 
 ## -description

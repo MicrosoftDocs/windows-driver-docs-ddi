@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_PortalInfo structure"]
 ms.keywords: "*PISCSI_PortalInfo, ISCSI_PortalInfo, ISCSI_PortalInfo structure [Storage Devices], PISCSI_PortalInfo, PISCSI_PortalInfo structure pointer [Storage Devices], _ISCSI_PortalInfo, iscsimgt/ISCSI_PortalInfo, iscsimgt/PISCSI_PortalInfo, storage.iscsi_portalinfo, structs-iSCSI_40fc24e8-364d-4698-911c-4128f471cdcd.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_PortalInfo
 ---
 
-# _ISCSI_PortalInfo structure
+# ISCSI_PortalInfo structure (iscsimgt.h)
+
+
 
 
 ## -description

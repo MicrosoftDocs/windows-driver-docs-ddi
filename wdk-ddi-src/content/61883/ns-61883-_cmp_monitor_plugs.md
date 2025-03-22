@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_MONITOR_PLUGS structure"]
 ms.keywords: "*PCMP_MONITOR_PLUGS, 61883/CMP_MONITOR_PLUGS, 61883/PCMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS, CMP_MONITOR_PLUGS structure [Buses], IEEE.cmp_monitor_plugs, PCMP_MONITOR_PLUGS, PCMP_MONITOR_PLUGS structure pointer [Buses], _CMP_MONITOR_PLUGS"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_MONITOR_PLUGS
 ---
 
-# _CMP_MONITOR_PLUGS structure
+# CMP_MONITOR_PLUGS structure (61883.h)
+
+
 
 
 ## -description

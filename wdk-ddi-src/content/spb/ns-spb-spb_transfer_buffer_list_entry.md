@@ -8,6 +8,7 @@ ms.date: 09/13/2021
 keywords: ["SPB_TRANSFER_BUFFER_LIST_ENTRY structure"]
 ms.keywords: "*PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY, PSPB_TRANSFER_BUFFER_LIST_ENTRY structure pointer [Buses], SPB.spb_transfer_buffer_list_entry, SPB_TRANSFER_BUFFER_LIST_ENTRY, SPB_TRANSFER_BUFFER_LIST_ENTRY structure [Buses], spb/PSPB_TRANSFER_BUFFER_LIST_ENTRY, spb/SPB_TRANSFER_BUFFER_LIST_ENTRY"
 req.header: spb.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - PSPB_TRANSFER_BUFFER_LIST_ENTRY
 ---
 
-# SPB_TRANSFER_BUFFER_LIST_ENTRY structure
+# SPB_TRANSFER_BUFFER_LIST_ENTRY structure (spb.h)
+
+
 
 ## -description
 

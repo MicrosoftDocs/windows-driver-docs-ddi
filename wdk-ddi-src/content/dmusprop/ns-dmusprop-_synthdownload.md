@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["SYNTHDOWNLOAD structure"]
 ms.keywords: "*PSYNTHDOWNLOAD, PSYNTHDOWNLOAD, PSYNTHDOWNLOAD structure pointer [Audio Devices], SYNTHDOWNLOAD, SYNTHDOWNLOAD structure [Audio Devices], _SYNTHDOWNLOAD, aud-prop_dbafbabb-05b5-4bf4-9791-e7c2eb78ed4f.xml, audio.synthdownload, dmusprop/PSYNTHDOWNLOAD, dmusprop/SYNTHDOWNLOAD"
 req.header: dmusprop.h
+req.construct-type: structure
 req.include-header: Dmusprop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYNTHDOWNLOAD
 ---
 
-# _SYNTHDOWNLOAD structure
+# SYNTHDOWNLOAD structure (dmusprop.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["PTM_CONTROL_INTERFACE structure"]
 ms.keywords: _PTM_CONTROL_INTERFACE, PTM_CONTROL_INTERFACE, *PPTM_CONTROL_INTERFACE,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - PTM_CONTROL_INTERFACE
 ---
 
-# _PTM_CONTROL_INTERFACE structure
+# PTM_CONTROL_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BINARY_CONTAINER structure"]
 ms.keywords: "*PBINARY_CONTAINER, BINARY_CONTAINER, BINARY_CONTAINER structure [Print Devices], PBINARY_CONTAINER, PBINARY_CONTAINER structure pointer [Print Devices], _BINARY_CONTAINER, print.binary_container, spoolfnc_a034cd3e-8afb-4a15-9640-06d693fd150c.xml, winspool/BINARY_CONTAINER, winspool/PBINARY_CONTAINER"
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available in Windows XP and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - BINARY_CONTAINER
 ---
 
-# _BINARY_CONTAINER structure
+# BINARY_CONTAINER structure (winspool.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/06/2023
 keywords: ["KSEVENTDATA structure"]
 ms.keywords: "*PKSEVENTDATA, KSEVENTDATA, KSEVENTDATA structure [Streaming Media Devices], PKSEVENTDATA, PKSEVENTDATA structure pointer [Streaming Media Devices], ks-struct_e9669775-4fb9-465a-bd2b-fd02f718d7a3.xml, ks/KSEVENTDATA, ks/PKSEVENTDATA, stream.kseventdata"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSEVENTDATA
  - KSEVENTDATA
 ---
+
+# KSEVENTDATA structure (ks.h)
 
 ## -description
 

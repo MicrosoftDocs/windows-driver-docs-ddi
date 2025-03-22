@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_FS_VOLUME_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION, FILE_FS_VOLUME_INFORMATION structure [Installable File System Drivers], PFILE_FS_VOLUME_INFORMATION, PFILE_FS_VOLUME_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_VOLUME_INFORMATION, fileinformationstructures_97bfe785-4c25-4402-91be-0fd2bda36c5d.xml, ifsk.file_fs_volume_information, ntddk/FILE_FS_VOLUME_INFORMATION, ntddk/PFILE_FS_VOLUME_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_FS_VOLUME_INFORMATION
 ---
 
-# _FILE_FS_VOLUME_INFORMATION structure
+# FILE_FS_VOLUME_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

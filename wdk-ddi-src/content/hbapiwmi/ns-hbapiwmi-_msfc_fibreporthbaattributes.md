@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_FibrePortHBAAttributes structure"]
 ms.keywords: "*PMSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes structure [Storage Devices], PMSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], _MSFC_FibrePortHBAAttributes, hbapiwmi/MSFC_FibrePortHBAAttributes, hbapiwmi/PMSFC_FibrePortHBAAttributes, storage.msfc_fibreporthbaattributes, structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_FibrePortHBAAttributes
 ---
 
-# _MSFC_FibrePortHBAAttributes structure
+# MSFC_FibrePortHBAAttributes structure (hbapiwmi.h)
+
+
 
 
 ## -description

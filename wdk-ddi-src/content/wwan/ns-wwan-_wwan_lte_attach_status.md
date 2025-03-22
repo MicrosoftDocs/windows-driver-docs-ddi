@@ -7,6 +7,7 @@ ms.date: 12/30/2021
 keywords: ["WWAN_LTE_ATTACH_STATUS structure"]
 ms.keywords: _WWAN_LTE_ATTACH_STATUS, WWAN_LTE_ATTACH_STATUS, *PWWAN_LTE_ATTACH_STATUS,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - WWAN_LTE_ATTACH_STATUS
 ---
 
-# _WWAN_LTE_ATTACH_STATUS structure
+# WWAN_LTE_ATTACH_STATUS structure (wwan.h)
+
+
 
 
 ## -description

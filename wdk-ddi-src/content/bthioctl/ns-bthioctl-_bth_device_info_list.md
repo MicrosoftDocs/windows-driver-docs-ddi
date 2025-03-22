@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTH_DEVICE_INFO_LIST structure"]
 ms.keywords: "*PBTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST, BTH_DEVICE_INFO_LIST structure [Bluetooth Devices], PBTH_DEVICE_INFO_LIST, PBTH_DEVICE_INFO_LIST structure pointer [Bluetooth Devices], _BTH_DEVICE_INFO_LIST, bltooth.bth_device_info_list, bth_structs_230962ed-c458-4c9e-a317-e2508b07c059.xml, bthioctl/BTH_DEVICE_INFO_LIST, bthioctl/PBTH_DEVICE_INFO_LIST"
 req.header: bthioctl.h
+req.construct-type: structure
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - BTH_DEVICE_INFO_LIST
 ---
 
-# _BTH_DEVICE_INFO_LIST structure
+# BTH_DEVICE_INFO_LIST structure (bthioctl.h)
+
+
 
 
 ## -description

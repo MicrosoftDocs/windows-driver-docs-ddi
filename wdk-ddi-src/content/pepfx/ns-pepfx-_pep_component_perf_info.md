@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_COMPONENT_PERF_INFO structure"]
 ms.keywords: "*PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], _PEP_COMPONENT_PERF_INFO, kernel.pep_component_perf_info, pepfx/PEP_COMPONENT_PERF_INFO, pepfx/PPEP_COMPONENT_PERF_INFO"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_COMPONENT_PERF_INFO
 ---
 
-# _PEP_COMPONENT_PERF_INFO structure (pepfx.h)
+# PEP_COMPONENT_PERF_INFO structure (pepfx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["WHEA_ERROR_PACKET_V1 structure"]
 ms.keywords: "*PWHEA_ERROR_PACKET, *PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1, PWHEA_ERROR_PACKET_V1 structure pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET, WHEA_ERROR_PACKET_V1, WHEA_ERROR_PACKET_V1 structure [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_V1, ntddk/PWHEA_ERROR_PACKET_V1, ntddk/WHEA_ERROR_PACKET_V1, whea.whea_error_packet_v1, whearef_d65ca9a6-c7ff-42f0-b7d5-763b6a34b924.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008 and Windows Vista SP1.
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_PACKET_V1
  - WHEA_ERROR_PACKET_V1
 ---
+
+# WHEA_ERROR_PACKET_V1 structure (ntddk.h)
 
 ## -description
 

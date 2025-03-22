@@ -5,6 +5,7 @@ description: Learn more about the _DXGK_MEMORYRANGE structure.
 ms.date: 03/28/2024
 keywords: ["DXGK_MEMORYRANGE structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - DXGK_MEMORYRANGE
 ---
 
-# DXGK_MEMORYRANGE structure
+# DXGK_MEMORYRANGE structure (d3dkmddi.h)
+
+
 
 ## -description
 

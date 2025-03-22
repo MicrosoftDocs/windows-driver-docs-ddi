@@ -8,6 +8,7 @@ ms.date: 01/04/2023
 keywords: ["MONITOR2 structure"]
 ms.keywords: "*LPMONITOR2, *PMONITOR2, LPMONITOR2, LPMONITOR2 structure pointer [Print Devices], MONITOR2, MONITOR2 structure [Print Devices], PMONITOR2, PMONITOR2 structure pointer [Print Devices], _MONITOR2, print.monitor2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, winsplp/LPMONITOR2, winsplp/MONITOR2, winsplp/PMONITOR2"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,6 +46,8 @@ api_name:
  - PMONITOR2
  - MONITOR2
 ---
+
+# MONITOR2 structure (winsplp.h)
 
 ## -description
 

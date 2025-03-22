@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECTINFO structure"]
 ms.keywords: D3DDDI_SYNCHRONIZATIONOBJECTINFO, D3DDDI_SYNCHRONIZATIONOBJECTINFO structure [Display Devices], D3D_other_Structs_86538364-14f8-4e40-bf0e-2e9f836729b8.xml, _D3DDDI_SYNCHRONIZATIONOBJECTINFO, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECTINFO, display.d3dddi_synchronizationobjectinfo
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_SYNCHRONIZATIONOBJECTINFO
 ---
 
-# _D3DDDI_SYNCHRONIZATIONOBJECTINFO structure
+# D3DDDI_SYNCHRONIZATIONOBJECTINFO structure (d3dukmdt.h)
+
+
 
 
 ## -description

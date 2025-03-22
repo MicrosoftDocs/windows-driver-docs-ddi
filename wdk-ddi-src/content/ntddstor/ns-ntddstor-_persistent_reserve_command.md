@@ -7,6 +7,7 @@ tech.root: storage
 ms.date: 04/03/2023
 keywords: ["PERSISTENT_RESERVE_COMMAND structure"]
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - PERSISTENT_RESERVE_COMMAND
 ---
 
-# PERSISTENT_RESERVE_COMMAND structure
+# PERSISTENT_RESERVE_COMMAND structure (ntddstor.h)
+
+
 
 ## -description
 

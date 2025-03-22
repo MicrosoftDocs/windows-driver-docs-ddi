@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_PortEvent structure"]
 ms.keywords: "*PMSFC_PortEvent, MSFC_PortEvent, MSFC_PortEvent structure [Storage Devices], PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], _MSFC_PortEvent, hbapiwmi/MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, storage.msfc_portevent, structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_PortEvent
 ---
 
-# _MSFC_PortEvent structure
+# MSFC_PortEvent structure (hbapiwmi.h)
+
+
 
 
 ## -description

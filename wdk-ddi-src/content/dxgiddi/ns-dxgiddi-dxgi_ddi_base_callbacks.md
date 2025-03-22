@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["DXGI_DDI_BASE_CALLBACKS structure"]
 ms.keywords: DXGI_DDI_BASE_CALLBACKS, DXGI_DDI_BASE_CALLBACKS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_6622df62-429f-438b-aa1a-61fd7fb8df65.xml, display.dxgi_ddi_base_callbacks, dxgiddi/DXGI_DDI_BASE_CALLBACKS
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_BASE_CALLBACKS
 ---
 
-# DXGI_DDI_BASE_CALLBACKS structure
+# DXGI_DDI_BASE_CALLBACKS structure (dxgiddi.h)
+
+
 
 
 ## -description

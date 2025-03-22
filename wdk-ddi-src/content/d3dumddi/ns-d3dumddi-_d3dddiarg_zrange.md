@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_ZRANGE structure"]
 ms.keywords: D3DDDIARG_ZRANGE, D3DDDIARG_ZRANGE structure [Display Devices], UMDisplayDriver_param_Structs_e1184f4e-5bff-4bdc-bf7a-473039a66ff7.xml, _D3DDDIARG_ZRANGE, d3dumddi/D3DDDIARG_ZRANGE, display.d3dddiarg_zrange
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_ZRANGE
 ---
 
-# _D3DDDIARG_ZRANGE structure
+# D3DDDIARG_ZRANGE structure (d3dumddi.h)
+
+
 
 
 ## -description

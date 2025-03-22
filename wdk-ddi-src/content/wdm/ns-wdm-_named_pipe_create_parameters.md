@@ -7,6 +7,7 @@ ms.date: 11/06/2019
 keywords: ["NAMED_PIPE_CREATE_PARAMETERS structure"]
 ms.keywords: "*PNAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS, NAMED_PIPE_CREATE_PARAMETERS structure"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - NAMED_PIPE_CREATE_PARAMETERS
 ---
 
-# _NAMED_PIPE_CREATE_PARAMETERS structure
+# NAMED_PIPE_CREATE_PARAMETERS structure (wdm.h)
+
+
 
 
 ## -description

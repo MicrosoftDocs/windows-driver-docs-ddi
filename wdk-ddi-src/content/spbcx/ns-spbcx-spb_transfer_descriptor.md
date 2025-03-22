@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_DESCRIPTOR structure"]
 ms.keywords: "*PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR, PSPB_TRANSFER_DESCRIPTOR structure pointer [Buses], SPB.spb_transfer_descriptor, SPB_TRANSFER_DESCRIPTOR, SPB_TRANSFER_DESCRIPTOR structure [Buses], spbcx/PSPB_TRANSFER_DESCRIPTOR, spbcx/SPB_TRANSFER_DESCRIPTOR"
 req.header: spbcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - PSPB_TRANSFER_DESCRIPTOR
 ---
 
-# SPB_TRANSFER_DESCRIPTOR structure
+# SPB_TRANSFER_DESCRIPTOR structure (spbcx.h)
+
+
 
 
 ## -description

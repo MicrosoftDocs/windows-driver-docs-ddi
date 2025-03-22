@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WSK_PROVIDER_STREAM_DISPATCH structure"]
 ms.keywords: "*PWSK_PROVIDER_STREAM_DISPATCH, PWSK_PROVIDER_STREAM_DISPATCH, PWSK_PROVIDER_STREAM_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_STREAM_DISPATCH, WSK_PROVIDER_STREAM_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_STREAM_DISPATCH, netvista.wsk_provider_stream_dispatch, wsk/PWSK_PROVIDER_STREAM_DISPATCH, wsk/WSK_PROVIDER_STREAM_DISPATCH"
 req.header: wsk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - WSK_PROVIDER_STREAM_DISPATCH
 ---
 
-# _WSK_PROVIDER_STREAM_DISPATCH structure
+# WSK_PROVIDER_STREAM_DISPATCH structure (wsk.h)
+
+
 
 
 ## -description

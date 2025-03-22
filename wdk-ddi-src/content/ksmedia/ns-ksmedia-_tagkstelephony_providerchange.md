@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSTELEPHONY_PROVIDERCHANGE structure"]
 ms.keywords: "*PKSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE, KSTELEPHONY_PROVIDERCHANGE structure [Audio Devices], PKSTELEPHONY_PROVIDERCHANGE, PKSTELEPHONY_PROVIDERCHANGE structure pointer [Audio Devices], _tagKSTELEPHONY_PROVIDERCHANGE, audio.kstelephony_providerchange, ksmedia/KSTELEPHONY_PROVIDERCHANGE, ksmedia/PKSTELEPHONY_PROVIDERCHANGE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10,Windows 10 Mobile
@@ -46,7 +47,9 @@ api_name:
  - KSTELEPHONY_PROVIDERCHANGE
 ---
 
-# _tagKSTELEPHONY_PROVIDERCHANGE structure
+# KSTELEPHONY_PROVIDERCHANGE structure (ksmedia.h)
+
+
 
 
 ## -description

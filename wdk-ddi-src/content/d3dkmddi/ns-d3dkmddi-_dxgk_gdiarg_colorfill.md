@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_GDIARG_COLORFILL structure"]
 ms.keywords: DXGK_GDIARG_COLORFILL, DXGK_GDIARG_COLORFILL structure [Display Devices], DmStructs_d80a1a76-a7d1-4c7e-b9b1-3c6986124f77.xml, _DXGK_GDIARG_COLORFILL, d3dkmddi/DXGK_GDIARG_COLORFILL, display.dxgk_gdiarg_colorfill
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_GDIARG_COLORFILL
 ---
 
-# DXGK_GDIARG_COLORFILL structure
+# DXGK_GDIARG_COLORFILL structure (d3dkmddi.h)
+
+
 
 ## -description
 

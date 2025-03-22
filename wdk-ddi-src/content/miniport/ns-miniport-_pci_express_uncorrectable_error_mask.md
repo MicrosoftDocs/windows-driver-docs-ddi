@@ -7,6 +7,7 @@ ms.date: 07/19/2022
 keywords: ["PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure"]
 ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_uncorrectable_error_mask, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
  - PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 ---
+
+# PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure (miniport.h)
 
 ## -description
 

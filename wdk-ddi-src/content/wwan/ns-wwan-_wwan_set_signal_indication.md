@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_SET_SIGNAL_INDICATION structure"]
 ms.keywords: "*PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION, PWWAN_SET_SIGNAL_INDICATION structure pointer [Network Drivers Starting with Windows Vista], WWAN_SET_SIGNAL_INDICATION, WWAN_SET_SIGNAL_INDICATION structure [Network Drivers Starting with Windows Vista], WwanRef_fa4b9dee-5b46-47f2-8674-d8fa78351d86.xml, _WWAN_SET_SIGNAL_INDICATION, netvista.wwan_set_signal_indication, wwan/PWWAN_SET_SIGNAL_INDICATION, wwan/WWAN_SET_SIGNAL_INDICATION"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SET_SIGNAL_INDICATION
 ---
 
-# _WWAN_SET_SIGNAL_INDICATION structure
+# WWAN_SET_SIGNAL_INDICATION structure (wwan.h)
+
+
 
 
 ## -description

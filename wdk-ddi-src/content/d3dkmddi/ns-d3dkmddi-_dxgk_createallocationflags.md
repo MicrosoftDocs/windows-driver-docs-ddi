@@ -5,6 +5,7 @@ description: Learn more about the DXGK_CREATEALLOCATIONFLAGS structure.
 ms.date: 11/08/2024
 keywords: ["DXGK_CREATEALLOCATIONFLAGS structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - DXGK_CREATEALLOCATIONFLAGS
 ---
 
-# DXGK_CREATEALLOCATIONFLAGS structure
+# DXGK_CREATEALLOCATIONFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

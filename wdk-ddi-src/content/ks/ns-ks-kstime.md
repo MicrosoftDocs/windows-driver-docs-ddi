@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSTIME structure"]
 ms.keywords: "*PKSTIME, KSTIME, KSTIME structure [Streaming Media Devices], PKSTIME, PKSTIME structure pointer [Streaming Media Devices], ks-struct_9db70ddb-ae2c-464b-a481-6927adef449c.xml, ks/KSTIME, ks/PKSTIME, stream.kstime"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSTIME
 ---
 
-# KSTIME structure
+# KSTIME structure (ks.h)
+
+
 
 
 ## -description

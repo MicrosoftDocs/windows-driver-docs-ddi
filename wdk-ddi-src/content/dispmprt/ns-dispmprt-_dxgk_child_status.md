@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CHILD_STATUS structure"]
 ms.keywords: "*PDXGK_CHILD_STATUS, DXGK_CHILD_STATUS, DXGK_CHILD_STATUS structure [Display Devices], DmStructs_9a370d5a-9ca8-4c4f-a5cf-3361847d65e7.xml, PDXGK_CHILD_STATUS, PDXGK_CHILD_STATUS structure pointer [Display Devices], _DXGK_CHILD_STATUS, display.dxgk_child_status, dispmprt/DXGK_CHILD_STATUS, dispmprt/PDXGK_CHILD_STATUS"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGK_CHILD_STATUS
 ---
 
-# _DXGK_CHILD_STATUS structure
+# DXGK_CHILD_STATUS structure (dispmprt.h)
+
+
 
 
 ## -description

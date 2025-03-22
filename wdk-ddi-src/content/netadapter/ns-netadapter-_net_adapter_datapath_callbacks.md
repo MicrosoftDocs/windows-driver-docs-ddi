@@ -7,6 +7,7 @@ ms.date: 07/27/2018
 keywords: ["NET_ADAPTER_DATAPATH_CALLBACKS structure"]
 ms.keywords: _NET_ADAPTER_DATAPATH_CALLBACKS, NET_ADAPTER_DATAPATH_CALLBACKS, *PNET_ADAPTER_DATAPATH_CALLBACKS,
 req.header: netadapter.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_ADAPTER_DATAPATH_CALLBACKS
 ---
 
-# _NET_ADAPTER_DATAPATH_CALLBACKS structure
+# NET_ADAPTER_DATAPATH_CALLBACKS structure (netadapter.h)
+
+
 
 
 ## -description

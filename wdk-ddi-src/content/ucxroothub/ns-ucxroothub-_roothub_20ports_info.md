@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ROOTHUB_20PORTS_INFO structure"]
 ms.keywords: "*PROOTHUB_20PORTS_INFO, P_ROOTHUB_20PORTS_INFO, P_ROOTHUB_20PORTS_INFO structure pointer [Buses], ROOTHUB_20PORTS_INFO, ROOTHUB_20PORTS_INFO structure [Buses], _ROOTHUB_20PORTS_INFO, buses._roothub_20ports_info, ucxroothub/P_ROOTHUB_20PORTS_INFO, ucxroothub/_ROOTHUB_20PORTS_INFO"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ROOTHUB_20PORTS_INFO
 ---
 
-# _ROOTHUB_20PORTS_INFO structure
+# ROOTHUB_20PORTS_INFO structure (ucxroothub.h)
+
+
 
 
 ## -description

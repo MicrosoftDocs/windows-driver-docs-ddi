@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["BDCB_IMAGE_INFORMATION structure"]
 ms.keywords: "*PBDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION, BDCB_IMAGE_INFORMATION structure [Kernel-Mode Driver Architecture], PBDCB_IMAGE_INFORMATION, PBDCB_IMAGE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BDCB_IMAGE_INFORMATION, kernel.bdcb_image_information, ntddk/BDCB_IMAGE_INFORMATION, ntddk/PBDCB_IMAGE_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BDCB_IMAGE_INFORMATION
 ---
 
-# _BDCB_IMAGE_INFORMATION structure
+# BDCB_IMAGE_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

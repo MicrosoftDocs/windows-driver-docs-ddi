@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["MIRACAST_CHUNK_DATA structure"]
 ms.keywords: MIRACAST_CHUNK_DATA, MIRACAST_CHUNK_DATA structure [Display Devices], display.miracast_chunk_data, netdispumdddi/MIRACAST_CHUNK_DATA
 req.header: netdispumdddi.h
+req.construct-type: structure
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - MIRACAST_CHUNK_DATA
 ---
 
-# MIRACAST_CHUNK_DATA structure
+# MIRACAST_CHUNK_DATA structure (netdispumdddi.h)
+
+
 
 
 ## -description

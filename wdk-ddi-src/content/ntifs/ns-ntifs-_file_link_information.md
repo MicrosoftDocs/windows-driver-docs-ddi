@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["FILE_LINK_INFORMATION structure"]
 ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -49,7 +50,9 @@ dev_langs:
  - c++
 ---
 
-# FILE_LINK_INFORMATION structure
+# FILE_LINK_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

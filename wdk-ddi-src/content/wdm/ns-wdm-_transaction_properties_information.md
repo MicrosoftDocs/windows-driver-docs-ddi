@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRANSACTION_PROPERTIES_INFORMATION structure"]
 ms.keywords: "*PTRANSACTION_PROPERTIES_INFORMATION, PTRANSACTION_PROPERTIES_INFORMATION, PTRANSACTION_PROPERTIES_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_PROPERTIES_INFORMATION, TRANSACTION_PROPERTIES_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_PROPERTIES_INFORMATION, kernel.transaction_properties_information, ktm_ref_bc17351c-f0ea-457e-968c-19785c0afd8d.xml, wdm/PTRANSACTION_PROPERTIES_INFORMATION, wdm/TRANSACTION_PROPERTIES_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - TRANSACTION_PROPERTIES_INFORMATION
 ---
 
-# _TRANSACTION_PROPERTIES_INFORMATION structure
+# TRANSACTION_PROPERTIES_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

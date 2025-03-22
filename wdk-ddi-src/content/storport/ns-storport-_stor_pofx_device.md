@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_POFX_DEVICE structure"]
 ms.keywords: "*PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, _STOR_POFX_DEVICE, storage.stor_pofx_device, storport/PSTOR_POFX_DEVICE, storport/STOR_POFX_DEVICE"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - STOR_POFX_DEVICE
 ---
 
-# _STOR_POFX_DEVICE structure
+# STOR_POFX_DEVICE structure (storport.h)
+
+
 
 
 ## -description

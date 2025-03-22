@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_DIAGTYPE_NOTIFICATIONS structure"]
 ms.keywords: _DXGK_DIAGTYPE_NOTIFICATIONS, DXGK_DIAGTYPE_NOTIFICATIONS,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_DIAGTYPE_NOTIFICATIONS
 ---
 
-# _DXGK_DIAGTYPE_NOTIFICATIONS structure
+# DXGK_DIAGTYPE_NOTIFICATIONS structure (dispmprt.h)
+
+
 
 
 ## -description

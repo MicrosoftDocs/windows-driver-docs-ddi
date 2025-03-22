@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_GETBACKINGRESOURCE structure"]
 ms.keywords: _DXGKARG_GETBACKINGRESOURCE, DXGKARG_GETBACKINGRESOURCE, *PDXGKARG_GETBACKINGRESOURCE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETBACKINGRESOURCE structure
+# DXGKARG_GETBACKINGRESOURCE structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_DISPOSITION_INFORMATION structure"]
 ms.keywords: "*PFILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION, FILE_DISPOSITION_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_DISPOSITION_INFORMATION, PFILE_DISPOSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_DISPOSITION_INFORMATION, kernel.file_disposition_information, kstruct_b_3796aa61-042a-435d-bfa9-c77c6a0dff98.xml, ntddk/FILE_DISPOSITION_INFORMATION, ntddk/PFILE_DISPOSITION_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_DISPOSITION_INFORMATION
 ---
 
-# _FILE_DISPOSITION_INFORMATION structure
+# FILE_DISPOSITION_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

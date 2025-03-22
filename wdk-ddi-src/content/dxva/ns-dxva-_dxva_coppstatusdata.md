@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_COPPStatusData structure"]
 ms.keywords: DXVA_COPPStatusData, DXVA_COPPStatusData structure [Display Devices], _DXVA_COPPStatusData, display.dxva_coppstatusdata, dxva/DXVA_COPPStatusData, dxvaref_76d7144b-c4a7-4530-bf35-be9b9955c9d6.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_COPPStatusData
 ---
 
-# _DXVA_COPPStatusData structure
+# DXVA_COPPStatusData structure (dxva.h)
+
+
 
 
 ## -description

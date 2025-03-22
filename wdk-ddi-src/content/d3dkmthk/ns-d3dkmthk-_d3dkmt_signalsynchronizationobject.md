@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure"]
 ms.keywords: D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure [Display Devices], OpenGL_Structs_8a7c1832-e93f-47d3-b5ec-b5bea7f3321a.xml, _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, d3dkmthk/D3DKMT_SIGNALSYNCHRONIZATIONOBJECT, display.d3dkmt_signalsynchronizationobject
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SIGNALSYNCHRONIZATIONOBJECT
 ---
 
-# _D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure
+# D3DKMT_SIGNALSYNCHRONIZATIONOBJECT structure (d3dkmthk.h)
+
+
 
 
 ## -description

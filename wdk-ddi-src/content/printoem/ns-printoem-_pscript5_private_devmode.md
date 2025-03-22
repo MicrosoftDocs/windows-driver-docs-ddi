@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["PSCRIPT5_PRIVATE_DEVMODE structure"]
 ms.keywords: "*PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE, PPSCRIPT5_PRIVATE_DEVMODE structure pointer [Print Devices], PSCRIPT5_PRIVATE_DEVMODE, PSCRIPT5_PRIVATE_DEVMODE structure [Print Devices], _PSCRIPT5_PRIVATE_DEVMODE, print.pscript5_private_devmode, print_unidrv-pscript_ui_4dd76ed6-3e60-43dd-a50b-05561574602a.xml, printoem/PPSCRIPT5_PRIVATE_DEVMODE, printoem/PSCRIPT5_PRIVATE_DEVMODE"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPSCRIPT5_PRIVATE_DEVMODE
  - PSCRIPT5_PRIVATE_DEVMODE
 ---
+
+# PSCRIPT5_PRIVATE_DEVMODE structure (printoem.h)
 
 ## -description
 

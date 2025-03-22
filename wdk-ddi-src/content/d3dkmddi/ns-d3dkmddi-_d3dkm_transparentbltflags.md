@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["D3DKM_TRANSPARENTBLTFLAGS structure"]
 ms.keywords: D3DKM_TRANSPARENTBLTFLAGS, D3DKM_TRANSPARENTBLTFLAGS structure [Display Devices], DmStructs_7190815e-5610-4c97-823f-8bdaae16c005.xml, _D3DKM_TRANSPARENTBLTFLAGS, d3dkmddi/D3DKM_TRANSPARENTBLTFLAGS, display.d3dkm_transparentbltflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - D3DKM_TRANSPARENTBLTFLAGS
 ---
 
-# D3DKM_TRANSPARENTBLTFLAGS structure
+# D3DKM_TRANSPARENTBLTFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

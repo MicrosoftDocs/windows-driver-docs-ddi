@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_RELEASEKEYEDMUTEX structure"]
 ms.keywords: D3DKMT_RELEASEKEYEDMUTEX, D3DKMT_RELEASEKEYEDMUTEX structure [Display Devices], OpenGL_Structs_6f167c25-afb8-4ddc-9441-be713bba78f4.xml, _D3DKMT_RELEASEKEYEDMUTEX, d3dkmthk/D3DKMT_RELEASEKEYEDMUTEX, display.d3dkmt_releasekeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_RELEASEKEYEDMUTEX is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_RELEASEKEYEDMUTEX
 ---
 
-# _D3DKMT_RELEASEKEYEDMUTEX structure
+# D3DKMT_RELEASEKEYEDMUTEX structure (d3dkmthk.h)
+
+
 
 
 ## -description

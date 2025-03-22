@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_QUERYRESOURCERESIDENCY structure"]
 ms.keywords: D3DDDIARG_QUERYRESOURCERESIDENCY, D3DDDIARG_QUERYRESOURCERESIDENCY structure [Display Devices], UMDisplayDriver_param_Structs_46a460d2-e511-43fd-9906-b9a47762f9a7.xml, _D3DDDIARG_QUERYRESOURCERESIDENCY, d3dumddi/D3DDDIARG_QUERYRESOURCERESIDENCY, display.d3dddiarg_queryresourceresidency
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_QUERYRESOURCERESIDENCY
 ---
 
-# _D3DDDIARG_QUERYRESOURCERESIDENCY structure
+# D3DDDIARG_QUERYRESOURCERESIDENCY structure (d3dumddi.h)
+
+
 
 
 ## -description

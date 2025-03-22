@@ -8,6 +8,7 @@ ms.date: 03/11/2022
 keywords: ["WWAN_AUTH_AKA_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE, PWWAN_AUTH_AKA_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_AKA_CHALLENGE, WWAN_AUTH_AKA_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_AKA_CHALLENGE, netvista.wwan_auth_aka_challenge, wwan/PWWAN_AUTH_AKA_CHALLENGE, wwan/WWAN_AUTH_AKA_CHALLENGE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_AUTH_AKA_CHALLENGE
 ---
 
-# _WWAN_AUTH_AKA_CHALLENGE structure
+# WWAN_AUTH_AKA_CHALLENGE structure (wwan.h)
+
+
 
 
 ## -description

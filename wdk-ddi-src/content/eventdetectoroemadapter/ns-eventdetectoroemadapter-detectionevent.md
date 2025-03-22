@@ -7,6 +7,7 @@ ms.date: 04/11/2019
 keywords: ["DETECTIONEVENT structure"]
 ms.keywords: DETECTIONEVENT, DETECTIONEVENT,
 req.header: eventdetectoroemadapter.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - DETECTIONEVENT
 ---
 
-# DETECTIONEVENT structure
+# DETECTIONEVENT structure (eventdetectoroemadapter.h)
+
+
 
 
 ## -description

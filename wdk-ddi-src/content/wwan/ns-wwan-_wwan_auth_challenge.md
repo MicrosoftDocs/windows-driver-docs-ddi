@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_CHALLENGE structure"]
 ms.keywords: "*PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE, PWWAN_AUTH_CHALLENGE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_CHALLENGE, WWAN_AUTH_CHALLENGE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_CHALLENGE, netvista.wwan_auth_challenge, wwan/PWWAN_AUTH_CHALLENGE, wwan/WWAN_AUTH_CHALLENGE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_AUTH_CHALLENGE
 ---
 
-# _WWAN_AUTH_CHALLENGE structure
+# WWAN_AUTH_CHALLENGE structure (wwan.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_PROCESSOR_IDENTIFICATION_IA64 structure"]
 ms.keywords: "*PDEBUG_PROCESSOR_IDENTIFICATION_IA64, DEBUG_PROCESSOR_IDENTIFICATION_IA64, DEBUG_PROCESSOR_IDENTIFICATION_IA64 structure [Windows Debugging], PDEBUG_PROCESSOR_IDENTIFICATION_IA64, PDEBUG_PROCESSOR_IDENTIFICATION_IA64 structure pointer [Windows Debugging], _DEBUG_PROCESSOR_IDENTIFICATION_IA64, dbgeng/DEBUG_PROCESSOR_IDENTIFICATION_IA64, dbgeng/PDEBUG_PROCESSOR_IDENTIFICATION_IA64, debugger.debug_processor_identification_ia64"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_PROCESSOR_IDENTIFICATION_IA64
 ---
 
-# _DEBUG_PROCESSOR_IDENTIFICATION_IA64 structure
+# DEBUG_PROCESSOR_IDENTIFICATION_IA64 structure (dbgeng.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["BUS_GENERATION_NODE structure"]
 ms.keywords: "*PBUS_GENERATION_NODE, 61883/BUS_GENERATION_NODE, 61883/PBUS_GENERATION_NODE, 61883_structures_41921b5c-98f0-4df8-9770-335cc579eb38.xml, BUS_GENERATION_NODE, BUS_GENERATION_NODE structure [Buses], IEEE.bus_generation_node, PBUS_GENERATION_NODE, PBUS_GENERATION_NODE structure pointer [Buses], _BUS_GENERATION_NODE"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BUS_GENERATION_NODE
 ---
 
-# _BUS_GENERATION_NODE structure
+# BUS_GENERATION_NODE structure (61883.h)
+
+
 
 
 ## -description

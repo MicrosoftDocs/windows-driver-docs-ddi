@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["BAND_TABLE structure"]
 ms.keywords: "*PBAND_TABLE, BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], _BAND_TABLE, ehstorbandmgmt/BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, storage.band_table"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - BAND_TABLE
 ---
 
-# _BAND_TABLE structure
+# BAND_TABLE structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

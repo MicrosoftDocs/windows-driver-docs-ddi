@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_PORT_CONFIG_INFO structure"]
 ms.keywords: "*PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO, PVIDEO_PORT_CONFIG_INFO structure pointer [Display Devices], VIDEO_PORT_CONFIG_INFO, VIDEO_PORT_CONFIG_INFO structure [Display Devices], Video_Structs_5566366c-4ec3-4983-873f-28af2fe51bd6.xml, _VIDEO_PORT_CONFIG_INFO, display.video_port_config_info, video/PVIDEO_PORT_CONFIG_INFO, video/VIDEO_PORT_CONFIG_INFO"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_PORT_CONFIG_INFO
 ---
 
-# _VIDEO_PORT_CONFIG_INFO structure
+# VIDEO_PORT_CONFIG_INFO structure (video.h)
+
+
 
 
 ## -description

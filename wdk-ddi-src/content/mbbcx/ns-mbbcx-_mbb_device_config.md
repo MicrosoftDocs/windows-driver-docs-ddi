@@ -7,6 +7,7 @@ ms.date: 07/02/2018
 keywords: ["MBB_DEVICE_CONFIG structure"]
 ms.keywords: _MBB_DEVICE_CONFIG, MBB_DEVICE_CONFIG, *PMBB_DEVICE_CONFIG,
 req.header: mbbcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - MBB_DEVICE_CONFIG
 ---
 
-# _MBB_DEVICE_CONFIG structure
+# MBB_DEVICE_CONFIG structure (mbbcx.h)
+
+
 
 
 ## -description

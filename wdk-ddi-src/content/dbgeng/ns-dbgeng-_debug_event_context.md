@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_EVENT_CONTEXT structure"]
 ms.keywords: "*PDEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT, DEBUG_EVENT_CONTEXT structure [Windows Debugging], PDEBUG_EVENT_CONTEXT, PDEBUG_EVENT_CONTEXT structure pointer [Windows Debugging], _DEBUG_EVENT_CONTEXT, dbgeng/DEBUG_EVENT_CONTEXT, dbgeng/PDEBUG_EVENT_CONTEXT, debugger.debug_event_context"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_EVENT_CONTEXT
 ---
 
-# _DEBUG_EVENT_CONTEXT structure
+# DEBUG_EVENT_CONTEXT structure (dbgeng.h)
+
+
 
 
 ## -description

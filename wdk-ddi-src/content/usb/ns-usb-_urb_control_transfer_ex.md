@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_CONTROL_TRANSFER_EX structure"]
 ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER_EX, _URB_CONTROL_TRANSFER_EX structure [Buses], buses._urb_control_transfer_ex, usb/_URB_CONTROL_TRANSFER_EX, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - _URB_CONTROL_TRANSFER_EX
 ---
 
-# _URB_CONTROL_TRANSFER_EX structure
+# _URB_CONTROL_TRANSFER_EX structure (usb.h)
+
+
 
 
 ## -description

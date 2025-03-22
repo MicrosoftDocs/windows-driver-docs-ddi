@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_PASS_THROUGH_PATH_DIRECT_EX structure"]
 ms.keywords: "*PMPIO_PASS_THROUGH_PATH_DIRECT_EX, MPIO_PASS_THROUGH_PATH_DIRECT_EX, MPIO_PASS_THROUGH_PATH_DIRECT_EX structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_DIRECT_EX, PMPIO_PASS_THROUGH_PATH_DIRECT_EX structure pointer [Storage Devices], _MPIO_PASS_THROUGH_PATH_DIRECT_EX, ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT_EX, ntddscsi/PMPIO_PASS_THROUGH_PATH_DIRECT_EX, storage.mpio_pass_through_path_direct_ex"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - MPIO_PASS_THROUGH_PATH_DIRECT_EX
 ---
 
-# MPIO_PASS_THROUGH_PATH_DIRECT_EX structure
+# MPIO_PASS_THROUGH_PATH_DIRECT_EX structure (ntddscsi.h)
+
+
 
 ## -description
 

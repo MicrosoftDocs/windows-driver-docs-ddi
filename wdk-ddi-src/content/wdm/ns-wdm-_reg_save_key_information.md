@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_SAVE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION, PREG_SAVE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SAVE_KEY_INFORMATION, REG_SAVE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SAVE_KEY_INFORMATION, kernel.reg_save_key_information, kstruct_d_7da1ebfa-ae75-4b84-8941-87004f965404.xml, wdm/PREG_SAVE_KEY_INFORMATION, wdm/REG_SAVE_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista SP2.
@@ -46,7 +47,9 @@ api_name:
  - REG_SAVE_KEY_INFORMATION
 ---
 
-# _REG_SAVE_KEY_INFORMATION structure
+# REG_SAVE_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

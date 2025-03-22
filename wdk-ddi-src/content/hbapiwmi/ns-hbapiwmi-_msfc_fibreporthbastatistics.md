@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_FibrePortHBAStatistics structure"]
 ms.keywords: "*PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices], PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], _MSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_FibrePortHBAStatistics
 ---
 
-# _MSFC_FibrePortHBAStatistics structure
+# MSFC_FibrePortHBAStatistics structure (hbapiwmi.h)
+
+
 
 
 ## -description

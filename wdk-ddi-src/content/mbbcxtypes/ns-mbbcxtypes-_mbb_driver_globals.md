@@ -7,6 +7,7 @@ ms.date: 07/02/2018
 keywords: ["MBB_DRIVER_GLOBALS structure"]
 ms.keywords: _MBB_DRIVER_GLOBALS, MBB_DRIVER_GLOBALS, *PMBB_DRIVER_GLOBALS,
 req.header: mbbcxtypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MBB_DRIVER_GLOBALS
 ---
 
-# _MBB_DRIVER_GLOBALS structure
+# MBB_DRIVER_GLOBALS structure (mbbcxtypes.h)
+
+
 
 
 ## -description

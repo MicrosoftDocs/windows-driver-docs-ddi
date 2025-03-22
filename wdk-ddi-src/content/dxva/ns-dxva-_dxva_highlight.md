@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_Highlight structure"]
 ms.keywords: "*LPDXVA_Highlight, DXVA_Highlight, DXVA_Highlight structure [Display Devices], LPDXVA_Highlight, LPDXVA_Highlight structure pointer [Display Devices], _DXVA_Highlight, display.dxva_highlight, dxva/DXVA_Highlight, dxva/LPDXVA_Highlight, dxvaref_509ed85b-59ad-44d2-a686-2b2077542c6d.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_Highlight
 ---
 
-# _DXVA_Highlight structure
+# DXVA_Highlight structure (dxva.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_DDI_SAMPLER_DESC structure"]
 ms.keywords: D3D10_DDI_SAMPLER_DESC, D3D10_DDI_SAMPLER_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_3bd0d5fd-417c-43ef-9bdf-0073d8651ced.xml, d3d10umddi/D3D10_DDI_SAMPLER_DESC, display.d3d10_ddi_sampler_desc
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_SAMPLER_DESC
 ---
 
-# D3D10_DDI_SAMPLER_DESC structure
+# D3D10_DDI_SAMPLER_DESC structure (d3d10umddi.h)
+
+
 
 
 ## -description

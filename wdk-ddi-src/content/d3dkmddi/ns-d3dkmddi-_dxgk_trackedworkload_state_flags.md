@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure"]
 ms.keywords: _DXGK_TRACKEDWORKLOAD_STATE_FLAGS, DXGK_TRACKEDWORKLOAD_STATE_FLAGS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure
+# DXGK_TRACKEDWORKLOAD_STATE_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

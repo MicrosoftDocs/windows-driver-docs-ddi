@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_STOP structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, IRB_REQ_ISOCH_STOP, IRB_REQ_ISOCH_STOP structure [Buses], _IRB_REQ_ISOCH_STOP
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_STOP
 ---
 
-# _IRB_REQ_ISOCH_STOP structure
+# IRB_REQ_ISOCH_STOP structure (1394.h)
+
+
 
 
 ## -description
