@@ -7,6 +7,7 @@ keywords: ["USBPM_HUB_CONNECTOR_HANDLES_INIT function"]
 ms.keywords: USBPM_HUB_CONNECTOR_HANDLES_INIT
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - USBPM_HUB_CONNECTOR_HANDLES_INIT
 ---
 
-# USBPM_HUB_CONNECTOR_HANDLES_INIT function
+# USBPM_HUB_CONNECTOR_HANDLES_INIT function (usbpmapi.h)
+
+
 
 
 ## -description

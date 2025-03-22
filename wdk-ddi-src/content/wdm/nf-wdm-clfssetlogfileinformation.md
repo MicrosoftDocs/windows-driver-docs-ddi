@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsSetLogFileInformation function"]
 ms.keywords: ClfsSetLogFileInformation, ClfsSetLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_15ad655b-ee70-4ee8-9868-4e7ab96dfb3a.xml, kernel.clfssetlogfileinformation, wdm/ClfsSetLogFileInformation
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsSetLogFileInformation
 ---
 
-# ClfsSetLogFileInformation function
+# ClfsSetLogFileInformation function (wdm.h)
+
+
 
 
 ## -description

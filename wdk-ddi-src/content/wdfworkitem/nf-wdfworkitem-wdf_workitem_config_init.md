@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WORKITEM_CONFIG_INIT function"]
 ms.keywords: DFWorkItemObjectRef_fa6a881e-6591-448a-9fc3-81ab60ff370c.xml, WDF_WORKITEM_CONFIG_INIT, WDF_WORKITEM_CONFIG_INIT function, kmdf.wdf_workitem_config_init, wdf.wdf_workitem_config_init, wdfworkitem/WDF_WORKITEM_CONFIG_INIT
 req.header: wdfworkitem.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_WORKITEM_CONFIG_INIT
 ---
 
-# WDF_WORKITEM_CONFIG_INIT function
+# WDF_WORKITEM_CONFIG_INIT function (wdfworkitem.h)
+
+
 
 
 ## -description

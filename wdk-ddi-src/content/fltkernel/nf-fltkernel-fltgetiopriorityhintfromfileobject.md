@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetIoPriorityHintFromFileObject function"]
 ms.keywords: FltApiRef_e_to_o_0a239f34-f16d-4386-a171-66c537e3f241.xml, FltGetIoPriorityHintFromFileObject, FltGetIoPriorityHintFromFileObject routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromFileObject, ifsk.fltgetiopriorityhintfromfileobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltGetIoPriorityHintFromFileObject
 ---
 
-# FltGetIoPriorityHintFromFileObject function
+# FltGetIoPriorityHintFromFileObject function (fltkernel.h)
+
+
 
 
 ## -description

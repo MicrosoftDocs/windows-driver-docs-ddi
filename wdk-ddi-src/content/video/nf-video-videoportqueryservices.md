@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortQueryServices function"]
 ms.keywords: VideoPortQueryServices, VideoPortQueryServices function [Display Devices], VideoPort_Functions_4f9cc677-4c65-4577-a289-92b8fb01c787.xml, display.videoportqueryservices, video/VideoPortQueryServices
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortQueryServices
 ---
 
-# VideoPortQueryServices function
+# VideoPortQueryServices function (video.h)
+
+
 
 
 ## -description

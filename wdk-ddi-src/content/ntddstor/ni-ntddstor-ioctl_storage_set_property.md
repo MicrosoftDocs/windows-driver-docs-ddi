@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 08/18/2022
 keywords: ["IOCTL_STORAGE_SET_PROPERTY IOCTL"]
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_STORAGE_SET_PROPERTY
 ---
 
-# IOCTL_STORAGE_SET_PROPERTY IOCTL
+# IOCTL_STORAGE_SET_PROPERTY IOCTL (ntddstor.h)
+
+
+
+
 
 ## Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

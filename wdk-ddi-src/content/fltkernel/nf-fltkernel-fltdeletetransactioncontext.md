@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltDeleteTransactionContext function"]
 ms.keywords: FltApiRef_a_to_d_785d668e-0232-4937-996e-846e459db2c5.xml, FltDeleteTransactionContext, FltDeleteTransactionContext routine [Installable File System Drivers], fltkernel/FltDeleteTransactionContext, ifsk.fltdeletetransactioncontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista and later
@@ -41,7 +42,9 @@ api_name:
  - FltDeleteTransactionContext
 ---
 
-# FltDeleteTransactionContext function
+# FltDeleteTransactionContext function (fltkernel.h)
+
+
 
 ## -description
 

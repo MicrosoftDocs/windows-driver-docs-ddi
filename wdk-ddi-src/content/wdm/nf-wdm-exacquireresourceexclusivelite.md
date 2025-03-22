@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["ExAcquireResourceExclusiveLite function"]
 ms.keywords: ExAcquireResourceExclusiveLite, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], k102_894dbc3c-af92-4916-8205-539062946dbe.xml, kernel.exacquireresourceexclusivelite, wdm/ExAcquireResourceExclusiveLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExAcquireResourceExclusiveLite
 ---
+
+# ExAcquireResourceExclusiveLite function (wdm.h)
 
 ## -description
 

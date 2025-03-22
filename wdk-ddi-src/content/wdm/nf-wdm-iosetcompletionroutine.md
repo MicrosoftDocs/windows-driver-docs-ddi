@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoSetCompletionRoutine function"]
 ms.keywords: IoSetCompletionRoutine, IoSetCompletionRoutine routine [Kernel-Mode Driver Architecture], k104_cbc51352-796e-4b64-9725-7d8a08c4aea9.xml, kernel.iosetcompletionroutine, wdm/IoSetCompletionRoutine
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoSetCompletionRoutine
 ---
+
+# IoSetCompletionRoutine function (wdm.h)
 
 ## -description
 

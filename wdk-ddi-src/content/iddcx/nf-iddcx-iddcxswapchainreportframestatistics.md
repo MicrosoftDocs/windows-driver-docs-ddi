@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IddCxSwapChainReportFrameStatistics function"]
 ms.keywords: IddCxSwapChainReportFrameStatistics, IddCxSwapChainReportFrameStatistics method [Display Devices], display.iddcxswapchainreportframestatistics, iddcx/IddCxSwapChainReportFrameStatistics
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxSwapChainReportFrameStatistics
 ---
 
-# IddCxSwapChainReportFrameStatistics function
+# IddCxSwapChainReportFrameStatistics function (iddcx.h)
+
+
 
 
 ## -description

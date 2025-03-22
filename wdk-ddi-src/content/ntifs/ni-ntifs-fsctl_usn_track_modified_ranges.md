@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_USN_TRACK_MODIFIED_RANGES
 ---
 
-# FSCTL_USN_TRACK_MODIFIED_RANGES ioctl (ntifs.h)
+# FSCTL_USN_TRACK_MODIFIED_RANGES IOCTL (ntifs.h)
+
+
 
 ## -description
 

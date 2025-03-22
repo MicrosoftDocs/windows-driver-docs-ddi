@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltOpenVolume function"]
 ms.keywords: FltApiRef_e_to_o_fa9d628c-94e6-46f5-9f8f-9923c554a15f.xml, FltOpenVolume, FltOpenVolume routine [Installable File System Drivers], fltkernel/FltOpenVolume, ifsk.fltopenvolume
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP3, Windows Server 2003 SP1, and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - FltOpenVolume
 ---
 
-# FltOpenVolume function
+# FltOpenVolume function (fltkernel.h)
+
+
 
 
 ## -description

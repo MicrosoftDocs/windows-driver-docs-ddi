@@ -6,6 +6,7 @@ ms.date: 05/03/2024
 keywords: ["D3D12DDI_STATE_SUBOBJECT_TYPE enumeration"]
 ms.keywords: D3D12DDI_STATE_SUBOBJECT_TYPE, D3D12DDI_STATE_SUBOBJECT_TYPE, ray tracing
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_STATE_SUBOBJECT_TYPE enumeration
+# D3D12DDI_STATE_SUBOBJECT_TYPE enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

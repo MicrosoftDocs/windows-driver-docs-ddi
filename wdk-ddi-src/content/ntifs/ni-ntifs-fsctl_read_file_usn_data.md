@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_READ_FILE_USN_DATA
 ---
 
-# FSCTL_READ_FILE_USN_DATA ioctl (ntifs.h)
+# FSCTL_READ_FILE_USN_DATA IOCTL (ntifs.h)
+
+
 
 ## -description
 

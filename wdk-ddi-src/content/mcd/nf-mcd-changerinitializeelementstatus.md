@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerInitializeElementStatus function"]
 ms.keywords: ChangerInitializeElementStatus, ChangerInitializeElementStatus function [Storage Devices], chgrmini_2aa82220-731a-49b0-b3e5-1db93f8e6dc0.xml, mcd/ChangerInitializeElementStatus, storage.changerinitializeelementstatus
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerInitializeElementStatus
 ---
 
-# ChangerInitializeElementStatus function
+# ChangerInitializeElementStatus function (mcd.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortEnableInterrupt function"]
 ms.keywords: VideoPortEnableInterrupt, VideoPortEnableInterrupt function [Display Devices], VideoPort_Functions_63966cab-5451-4fa0-ae8f-635fae20aabd.xml, display.videoportenableinterrupt, video/VideoPortEnableInterrupt
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortEnableInterrupt
 ---
 
-# VideoPortEnableInterrupt function
+# VideoPortEnableInterrupt function (video.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/04/2023
 keywords: ["IS_OFFICIAL_DDI_INTERFACE_VERSION macro"]
 ms.keywords: IS_OFFICIAL_DDI_INTERFACE_VERSION
 req.header: d3dukmdt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# IS_OFFICIAL_DDI_INTERFACE_VERSION macro
+# IS_OFFICIAL_DDI_INTERFACE_VERSION function (d3dukmdt.h)
+
+
 
 ## -description
 

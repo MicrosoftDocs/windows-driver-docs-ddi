@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_ZONE_CONDITION enumeration"]
 ms.keywords: "*PSTORAGE_ZONE_CONDITION, PSTORAGE_ZONE_CONDITION, PSTORAGE_ZONE_CONDITION enumeration pointer [Storage Devices], STORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION enumeration [Storage Devices], ZoneConditionClosed, ZoneConditionConventional, ZoneConditionEmpty, ZoneConditionExplicitlyOpened, ZoneConditionFull, ZoneConditionImplicitlyOpened, ZoneConditionOffline, ZoneConditionReadOnly, _STORAGE_ZONE_CONDITION, ntddstor/PSTORAGE_ZONE_CONDITION, ntddstor/STORAGE_ZONE_CONDITION, ntddstor/ZoneConditionClosed, ntddstor/ZoneConditionConventional, ntddstor/ZoneConditionEmpty, ntddstor/ZoneConditionExplicitlyOpened, ntddstor/ZoneConditionFull, ntddstor/ZoneConditionImplicitlyOpened, ntddstor/ZoneConditionOffline, ntddstor/ZoneConditionReadOnly, storage.storage_zone_condition"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_ZONE_CONDITION
 ---
 
-# _STORAGE_ZONE_CONDITION enumeration
+# STORAGE_ZONE_CONDITION enumeration (ntddstor.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceSetPowerCapabilities function"]
 ms.keywords: DFDeviceObjectGeneralRef_d3d51bfe-62da-4146-b4c1-152cac9f0e82.xml, WdfDeviceSetPowerCapabilities, WdfDeviceSetPowerCapabilities method, kmdf.wdfdevicesetpowercapabilities, wdf.wdfdevicesetpowercapabilities, wdfdevice/WdfDeviceSetPowerCapabilities
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceSetPowerCapabilities
 ---
 
-# WdfDeviceSetPowerCapabilities function
+# WdfDeviceSetPowerCapabilities function (wdfdevice.h)
+
+
 
 
 ## -description

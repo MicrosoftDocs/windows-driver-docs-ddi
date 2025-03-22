@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintJob::RequestCancel"]
 ms.keywords: IPrintJob interface [Print Devices],RequestCancel method, IPrintJob.RequestCancel, IPrintJob::RequestCancel, RequestCancel, RequestCancel method [Print Devices], RequestCancel method [Print Devices],IPrintJob interface, print.iprintjob_requestcancel, printerextension/IPrintJob::RequestCancel
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintJob::RequestCancel
 ---
+
+# IPrintJob::RequestCancel function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 keywords: ["WdfDeviceGetSystemPowerAction function"]
 ms.keywords: DFDeviceObjectGeneralRef_605cddb8-470b-4d71-8a6e-295e060ea3e3.xml, WdfDeviceGetSystemPowerAction, WdfDeviceGetSystemPowerAction method, kmdf.wdfdevicegetsystempoweraction, wdf.wdfdevicegetsystempoweraction, wdfdevice/WdfDeviceGetSystemPowerAction
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceGetSystemPowerAction
 ---
 
-# WdfDeviceGetSystemPowerAction function
+# WdfDeviceGetSystemPowerAction function (wdfdevice.h)
+
+
 
 
 ## -description

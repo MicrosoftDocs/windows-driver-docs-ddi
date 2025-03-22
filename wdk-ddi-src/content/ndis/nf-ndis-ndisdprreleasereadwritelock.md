@@ -8,6 +8,7 @@ ms.date: 03/26/2018
 keywords: ["NdisDprReleaseReadWriteLock function"]
 ms.keywords: NdisDprReleaseReadWriteLock, NdisDprReleaseReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprReleaseReadWriteLock, netvista.ndisdprreleasereadwritelock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and 6.1.
@@ -41,7 +42,9 @@ api_name:
  - NdisDprReleaseReadWriteLock
 ---
 
-# NdisDprReleaseReadWriteLock function
+# NdisDprReleaseReadWriteLock function (ndis.h)
+
+
 
 
 ## -description

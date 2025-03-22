@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQueryTickCount macro"]
 ms.keywords: KeQueryTickCount, KeQueryTickCount routine [Kernel-Mode Driver Architecture], k105_a6a22896-6f3e-4e58-b443-4a06ff67b0ce.xml, kernel.kequerytickcount, wdm/KeQueryTickCount
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryTickCount
 ---
 
-# KeQueryTickCount macro (ntddk.h)
+# KeQueryTickCount function (ntddk.h)
+
+
 
 
 ## -description

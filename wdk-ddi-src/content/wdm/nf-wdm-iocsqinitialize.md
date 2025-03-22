@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCsqInitialize function"]
 ms.keywords: IoCsqInitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture], k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, kernel.iocsqinitialize, wdm/IoCsqInitialize
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system. Drivers that must also work for Windows 2000 and Windows 98/Me can instead link to Csq.lib to use the routine.
@@ -40,7 +41,9 @@ api_name:
  - IoCsqInitialize
 ---
 
-# IoCsqInitialize function
+# IoCsqInitialize function (wdm.h)
+
+
 
 
 ## -description

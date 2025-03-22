@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WUDF_INTERRUPT_CONFIG_INIT function"]
 ms.keywords: WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT function, umdf.wudf_interrupt_config_init, wdf.wudf_interrupt_config_init, wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT
 req.header: wudfinterrupt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WUDF_INTERRUPT_CONFIG_INIT
 ---
 
-# WUDF_INTERRUPT_CONFIG_INIT function
+# WUDF_INTERRUPT_CONFIG_INIT function (wudfinterrupt.h)
+
+
 
 
 ## -description

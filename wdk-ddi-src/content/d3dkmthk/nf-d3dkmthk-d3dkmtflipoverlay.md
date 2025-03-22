@@ -7,6 +7,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTFlipOverlay function"]
 ms.keywords: D3DKMTFlipOverlay, D3DKMTFlipOverlay function [Display Devices], OpenGL_Functions_37a9811c-26a3-46f3-aba1-39dc9526f282.xml, d3dkmthk/D3DKMTFlipOverlay, display.d3dkmtflipoverlay
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTFlipOverlay
 ---
 
-# D3DKMTFlipOverlay function
+# D3DKMTFlipOverlay function (d3dkmthk.h)
+
+
 
 ## -description
 

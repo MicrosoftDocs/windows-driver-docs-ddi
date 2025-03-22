@@ -8,6 +8,7 @@ ms.date: 12/15/2021
 keywords: ["KeQuerySystemTime function"]
 ms.keywords: KeQuerySystemTime, KeQuerySystemTime routine [Kernel-Mode Driver Architecture], k105_0eaf1b30-c365-45ac-828c-fbcc7cd71ff3.xml, kernel.kequerysystemtime, wdm/KeQuerySystemTime
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - KeQuerySystemTime
 ---
 
-# KeQuerySystemTime function
+# KeQuerySystemTime function (wdm.h)
+
+
 
 
 ## -description

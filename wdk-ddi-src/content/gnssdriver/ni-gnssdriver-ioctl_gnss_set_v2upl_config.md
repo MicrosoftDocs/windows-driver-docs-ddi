@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_SET_V2UPL_CONFIG IOCTL"]
 ms.keywords: IOCTL_GNSS_SET_V2UPL_CONFIG, IOCTL_GNSS_SET_V2UPL_CONFIG control, IOCTL_GNSS_SET_V2UPL_CONFIG control code [Sensor Devices], gnss.ioctl_gnss_set_v2upl_config, gnssdriver/IOCTL_GNSS_SET_V2UPL_CONFIG
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_SET_V2UPL_CONFIG
 ---
 
-# IOCTL_GNSS_SET_V2UPL_CONFIG IOCTL
+# IOCTL_GNSS_SET_V2UPL_CONFIG IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

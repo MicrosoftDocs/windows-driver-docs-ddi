@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetBusEnumPnpDeviceObject function"]
 ms.keywords: KsGetBusEnumPnpDeviceObject, KsGetBusEnumPnpDeviceObject function [Streaming Media Devices], ksfunc_246a7c6e-ef5a-4cf4-a05a-70a499a487cb.xml, stream.ksgetbusenumpnpdeviceobject, swenum/KsGetBusEnumPnpDeviceObject
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetBusEnumPnpDeviceObject
 ---
 
-# KsGetBusEnumPnpDeviceObject function
+# KsGetBusEnumPnpDeviceObject function (swenum.h)
+
+
 
 
 ## -description

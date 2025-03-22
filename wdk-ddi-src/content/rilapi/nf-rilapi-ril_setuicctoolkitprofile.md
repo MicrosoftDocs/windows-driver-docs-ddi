@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetUiccToolkitProfile function"]
 ms.keywords: RIL_SetUiccToolkitProfile, RIL_SetUiccToolkitProfile method [Network Drivers Starting with Windows Vista], netvista.ril_setuicctoolkitprofile, rilapi/RIL_SetUiccToolkitProfile
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetUiccToolkitProfile
 ---
 
-# RIL_SetUiccToolkitProfile function
+# RIL_SetUiccToolkitProfile function (rilapi.h)
+
+
 
 
 ## -description

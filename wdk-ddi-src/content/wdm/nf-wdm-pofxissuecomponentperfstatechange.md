@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxIssueComponentPerfStateChange function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxIssueComponentPerfStateChange, PoFxIssueComponentPerfStateChange routine [Kernel-Mode Driver Architecture], kernel.pofxissuecomponentperfstatechange, wdm/PoFxIssueComponentPerfStateChange
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - PoFxIssueComponentPerfStateChange
 ---
 
-# PoFxIssueComponentPerfStateChange function
+# PoFxIssueComponentPerfStateChange function (wdm.h)
+
+
 
 
 ## -description

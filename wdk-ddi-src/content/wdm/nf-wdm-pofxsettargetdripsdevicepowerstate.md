@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxSetTargetDripsDevicePowerState function"]
 ms.keywords: PoFxSetTargetDripsDevicePowerState, PoFxSetTargetDripsDevicePowerState function [Kernel-Mode Driver Architecture], kernel.pofxsettargetdripsdevicepowerstate, wdm/PoFxSetTargetDripsDevicePowerState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - PoFxSetTargetDripsDevicePowerState
 ---
 
-# PoFxSetTargetDripsDevicePowerState function
+# PoFxSetTargetDripsDevicePowerState function (wdm.h)
+
+
 
 
 ## -description

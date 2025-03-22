@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRestoreExtendedProcessorState function"]
 ms.keywords: KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, wdm/KeRestoreExtendedProcessorState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeRestoreExtendedProcessorState
 ---
 
-# KeRestoreExtendedProcessorState function
+# KeRestoreExtendedProcessorState function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetPhysicalAddress function"]
 ms.keywords: StorPortGetPhysicalAddress, StorPortGetPhysicalAddress routine [Storage Devices], storage.storportgetphysicaladdress, storport/StorPortGetPhysicalAddress, storprt_fea6d754-844c-4ee9-8153-97f2f0e9ee80.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetPhysicalAddress
 ---
 
-# StorPortGetPhysicalAddress function
+# StorPortGetPhysicalAddress function (storport.h)
+
+
 
 
 ## -description

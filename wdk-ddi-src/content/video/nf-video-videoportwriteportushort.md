@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortWritePortUshort function"]
 ms.keywords: VideoPortWritePortUshort, VideoPortWritePortUshort function [Display Devices], VideoPort_Functions_919dd8ab-f319-4071-b375-b269823adb31.xml, display.videoportwriteportushort, video/VideoPortWritePortUshort
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortWritePortUshort
 ---
 
-# VideoPortWritePortUshort function
+# VideoPortWritePortUshort function (video.h)
+
+
 
 
 ## -description

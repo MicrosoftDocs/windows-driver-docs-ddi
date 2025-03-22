@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFCancelDirectOidRequest function"]
 ms.keywords: NdisFCancelDirectOidRequest, NdisFCancelDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelDirectOidRequest, ndis_request_direct_ref_48dc16f9-1c11-41de-9c37-91abed86b06c.xml, netvista.ndisfcanceldirectoidrequest
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFCancelDirectOidRequest
 ---
 
-# NdisFCancelDirectOidRequest function
+# NdisFCancelDirectOidRequest function (ndis.h)
+
+
 
 
 ## -description

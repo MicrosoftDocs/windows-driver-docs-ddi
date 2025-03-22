@@ -8,6 +8,7 @@ ms.date: 11/18/2019
 keywords: ["wiasPrintDebugHResult function"]
 ms.keywords: image.wiasprintdebughresult, wiamdef/wiasPrintDebugHResult, wiasFncs_932e688a-da37-4a53-91ff-f0c0abca4f98.xml, wiasPrintDebugHResult, wiasPrintDebugHResult function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasPrintDebugHResult
 ---
 
-# wiasPrintDebugHResult function
+# wiasPrintDebugHResult function (wiamdef.h)
+
+
 
 
 ## -description

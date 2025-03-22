@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["IoRegisterPlugPlayNotification function"]
 ms.keywords: IoRegisterPlugPlayNotification, IoRegisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_2210e60c-f9ca-4848-8aab-7b01d2d2ffd7.xml, kernel.ioregisterplugplaynotification, wdm/IoRegisterPlugPlayNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoRegisterPlugPlayNotification
 ---
+
+# IoRegisterPlugPlayNotification function (wdm.h)
 
 ## -description
 

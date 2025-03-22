@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["RtlStringCchCopyNExA function"]
 ms.keywords: RtlStringCchCopyNEx, RtlStringCchCopyNExA, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchcopynex, ntstrsafe/RtlStringCchCopyNExA, ntstrsafe/RtlStringCchCopyNExW, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCchCopyNExA
 ---
 
-# RtlStringCchCopyNExA function
+# RtlStringCchCopyNExA function (ntstrsafe.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FsRtlCheckLockForOplockRequest function"]
 ms.keywords: FsRtlCheckLockForOplockRequest, ifsk.fsrtlchecklockforoplockrequest, ntifs/FsRtlCheckLockForOplockRequest
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlCheckLockForOplockRequest function
+# FsRtlCheckLockForOplockRequest function (ntifs.h)
+
+
 
 ## -description
 

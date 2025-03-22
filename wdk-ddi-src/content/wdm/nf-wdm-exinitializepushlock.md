@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExInitializePushLock function"]
 ms.keywords: ExInitializePushLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - ExInitializePushLock
 ---
 
-# ExInitializePushLock function
+# ExInitializePushLock function (wdm.h)
+
+
 
 
 ## -description

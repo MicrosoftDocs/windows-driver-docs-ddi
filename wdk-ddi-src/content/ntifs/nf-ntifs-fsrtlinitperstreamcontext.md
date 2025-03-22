@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlInitPerStreamContext macro"]
 ms.keywords: FsRtlInitPerStreamContext, FsRtlInitPerStreamContext function [Installable File System Drivers], fsrtlref_13a48f5e-d3e7-49fa-8c4c-bb2d061f2b2a.xml, ifsk.fsrtlinitperstreamcontext, ntifs/FsRtlInitPerStreamContext
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP; Update Rollup for Windows 2000 Service Pack 4 (SP4)
@@ -40,7 +41,9 @@ api_name:
  - FsRtlInitPerStreamContext
 ---
 
-# FsRtlInitPerStreamContext macro
+# FsRtlInitPerStreamContext function (ntifs.h)
+
+
 
 
 ## -description

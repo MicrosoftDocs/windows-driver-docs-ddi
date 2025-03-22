@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_LISTEN_AGNSS IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_AGNSS, IOCTL_GNSS_LISTEN_AGNSS control, IOCTL_GNSS_LISTEN_AGNSS control code [Sensor Devices], gnss.ioctl_gnss_listen_agnss, gnssdriver/IOCTL_GNSS_LISTEN_AGNSS
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_LISTEN_AGNSS
 ---
 
-# IOCTL_GNSS_LISTEN_AGNSS IOCTL
+# IOCTL_GNSS_LISTEN_AGNSS IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

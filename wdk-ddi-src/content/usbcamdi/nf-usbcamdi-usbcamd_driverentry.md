@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["USBCAMD_DriverEntry function"]
 ms.keywords: USBCAMD_DriverEntry, USBCAMD_DriverEntry function [Streaming Media Devices], stream.usbcamd_driverentry, usbcamdi/USBCAMD_DriverEntry, usbcmdpr_3aeb66f4-1729-400c-af6d-6e1290c9fe3b.xml
 req.header: usbcamdi.h
+req.construct-type: function
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - USBCAMD_DriverEntry
 ---
+
+# USBCAMD_DriverEntry function (usbcamdi.h)
 
 ## -description
 

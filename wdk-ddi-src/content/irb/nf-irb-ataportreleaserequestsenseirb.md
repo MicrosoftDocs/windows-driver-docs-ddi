@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortReleaseRequestSenseIrb function"]
 ms.keywords: AtaPortReleaseRequestSenseIrb, AtaPortReleaseRequestSenseIrb routine [Storage Devices], atartns_b46ae59d-b5b8-49fb-9458-742eefacd197.xml, irb/AtaPortReleaseRequestSenseIrb, storage.ataportreleaserequestsenseirb
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortReleaseRequestSenseIrb
 ---
 
-# AtaPortReleaseRequestSenseIrb function
+# AtaPortReleaseRequestSenseIrb function (irb.h)
+
+
 
 
 ## -description

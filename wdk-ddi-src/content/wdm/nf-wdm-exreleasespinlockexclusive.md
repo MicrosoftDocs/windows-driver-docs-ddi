@@ -8,6 +8,7 @@ ms.date: 03/28/2018
 keywords: ["ExReleaseSpinLockExclusive function"]
 ms.keywords: ExReleaseSpinLockExclusive, ExReleaseSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockexclusive_, wdm/ExReleaseSpinLockExclusive
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista with SP1.
@@ -40,7 +41,9 @@ api_name:
  - ExReleaseSpinLockExclusive
 ---
 
-# ExReleaseSpinLockExclusive function
+# ExReleaseSpinLockExclusive function (wdm.h)
+
+
 
 
 ## -description

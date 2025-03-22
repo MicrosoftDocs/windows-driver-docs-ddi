@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE control code [Parallel Ports], cisspd_f9ea9799-8d87-44e2-89d6-ae1fc0a4f673.xml, parallel/IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE, parports.ioctl_internal_parallel_set_chip_mode
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE
 ---
 
-# IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE IOCTL
+# IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

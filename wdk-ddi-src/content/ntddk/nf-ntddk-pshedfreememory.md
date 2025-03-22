@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["PshedFreeMemory function"]
 ms.keywords: PshedFreeMemory, PshedFreeMemory function [WHEA Drivers and Applications], ntddk/PshedFreeMemory, whea.pshedfreememory, whearef_e17812c6-f817-490d-b1f7-bf5fa16d769b.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - PshedFreeMemory
 ---
 
-# PshedFreeMemory function
+# PshedFreeMemory function (ntddk.h)
+
+
 
 
 ## -description

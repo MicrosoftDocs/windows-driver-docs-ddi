@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetDmaAdapter function"]
 ms.keywords: VideoPortGetDmaAdapter, VideoPortGetDmaAdapter function [Display Devices], VideoPort_Functions_a45601ab-cd5a-4aed-95ec-731f09b175a4.xml, display.videoportgetdmaadapter, video/VideoPortGetDmaAdapter
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetDmaAdapter
 ---
 
-# VideoPortGetDmaAdapter function
+# VideoPortGetDmaAdapter function (video.h)
+
+
 
 
 ## -description

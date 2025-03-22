@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUrbSetBytesCompleted function"]
 ms.keywords: UdecxUrbSetBytesCompleted, UdecxUrbSetBytesCompleted function [Buses], buses.udecxurbsetbytescompleted, udecxurb/UdecxUrbSetBytesCompleted
 req.header: udecxurb.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUrbSetBytesCompleted
 ---
 
-# UdecxUrbSetBytesCompleted function
+# UdecxUrbSetBytesCompleted function (udecxurb.h)
+
+
 
 
 ## -description

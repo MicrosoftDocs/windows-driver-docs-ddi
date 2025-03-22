@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGenerateEvent function"]
 ms.keywords: KsGenerateEvent, KsGenerateEvent function [Streaming Media Devices], ks/KsGenerateEvent, ksfunc_929fd3d4-2f02-4106-b8cd-25c3fb13ba05.xml, stream.ksgenerateevent
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGenerateEvent
 ---
 
-# KsGenerateEvent function
+# KsGenerateEvent function (ks.h)
+
+
 
 
 ## -description

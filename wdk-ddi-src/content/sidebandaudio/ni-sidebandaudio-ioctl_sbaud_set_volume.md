@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_SET_VOLUME IOCTL is used to set the volume on a sp
 ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_SET_VOLUME IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_SET_VOLUME
 ---
 
-# IOCTL_SBAUD_SET_VOLUME IOCTL
+# IOCTL_SBAUD_SET_VOLUME IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

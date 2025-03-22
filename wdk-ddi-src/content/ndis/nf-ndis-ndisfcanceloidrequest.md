@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFCancelOidRequest function"]
 ms.keywords: NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, netvista.ndisfcanceloidrequest
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFCancelOidRequest
 ---
 
-# NdisFCancelOidRequest function
+# NdisFCancelOidRequest function (ndis.h)
+
+
 
 
 ## -description

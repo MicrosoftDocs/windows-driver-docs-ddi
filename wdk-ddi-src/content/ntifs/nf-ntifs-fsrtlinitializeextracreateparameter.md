@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlInitializeExtraCreateParameter function"]
 ms.keywords: FsRtlInitializeExtraCreateParameter, FsRtlInitializeExtraCreateParameter routine [Installable File System Drivers], fsrtlref_266d4d18-e024-42e8-8ca1-fa8b6fabef9b.xml, ifsk.fsrtlinitializeextracreateparameter, ntifs/FsRtlInitializeExtraCreateParameter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlInitializeExtraCreateParameter routine is available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlInitializeExtraCreateParameter
 ---
 
-# FsRtlInitializeExtraCreateParameter function
+# FsRtlInitializeExtraCreateParameter function (ntifs.h)
+
+
 
 
 ## -description

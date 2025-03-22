@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIncrementCcFastReadNotPossible function"]
 ms.keywords: FsRtlIncrementCcFastReadNotPossible, FsRtlIncrementCcFastReadNotPossible routine [Installable File System Drivers], fsrtlref_7789e1c4-9ac3-48c7-9191-f5eba5f4e5e0.xml, ifsk.fsrtlincrementccfastreadnotpossible, ntifs/FsRtlIncrementCcFastReadNotPossible
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIncrementCcFastReadNotPossible
 ---
 
-# FsRtlIncrementCcFastReadNotPossible function
+# FsRtlIncrementCcFastReadNotPossible function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerAdvanceOffsets function"]
 ms.keywords: KsStreamPointerAdvanceOffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, ks/KsStreamPointerAdvanceOffsets, stream.ksstreampointeradvanceoffsets
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerAdvanceOffsets
 ---
 
-# KsStreamPointerAdvanceOffsets function
+# KsStreamPointerAdvanceOffsets function (ks.h)
+
+
 
 
 ## -description

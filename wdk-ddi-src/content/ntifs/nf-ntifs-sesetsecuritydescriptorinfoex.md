@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["SeSetSecurityDescriptorInfoEx function"]
 ms.keywords: SeSetSecurityDescriptorInfoEx, SeSetSecurityDescriptorInfoEx routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfoex, ntifs/SeSetSecurityDescriptorInfoEx, seref_d3965072-a36e-478c-9c57-5614920d69c8.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - SeSetSecurityDescriptorInfoEx
 ---
 
-# SeSetSecurityDescriptorInfoEx function
+# SeSetSecurityDescriptorInfoEx function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 11/17/2022
 keywords: ["IKsPropertySet::QuerySupported"]
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],QuerySupported method, IKsPropertySet.QuerySupported, IKsPropertySet::QuerySupported, QuerySupported, QuerySupported method [Streaming Media Devices], QuerySupported method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::QuerySupported, ksproxy_d89c460f-dbd5-452e-ab26-44a88dc1fc59.xml, stream.ikspropertyset_querysupported
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h, Dsound.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsPropertySet::QuerySupported
 ---
+
+# IKsPropertySet::QuerySupported function (ksproxy.h)
 
 ## -description
 

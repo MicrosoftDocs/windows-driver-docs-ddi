@@ -8,6 +8,7 @@ ms.date: 11/18/2020
 keywords: ["NdisInitializeString function"]
 ms.keywords: NdisInitializeString, NdisInitializeString function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeString, ndis_string_ref_886eff5e-5f5a-49f2-91d3-e87128cf0542.xml, netvista.ndisinitializestring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlInitUnicodeString  or RTL_CONSTANT_STRING or   DECLARE_CONST_UNICODE_STRING (see ntdef.h) instead.
@@ -41,7 +42,9 @@ api_name:
  - NdisInitializeString
 ---
 
-# NdisInitializeString function
+# NdisInitializeString function (ndis.h)
+
+
 
 
 ## -description

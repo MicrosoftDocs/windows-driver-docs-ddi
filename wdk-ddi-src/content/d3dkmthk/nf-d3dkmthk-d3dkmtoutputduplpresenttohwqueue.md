@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMTOutputDuplPresentToHwQueue function"]
 ms.keywords: D3DKMTOutputDuplPresentToHwQueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTOutputDuplPresentToHwQueue function
+# D3DKMTOutputDuplPresentToHwQueue function (d3dkmthk.h)
+
+
 
 
 ## -description

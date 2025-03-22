@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxGetRDBSSProcess function"]
 ms.keywords: RxGetRDBSSProcess, RxGetRDBSSProcess function [Installable File System Drivers], ifsk.rxgetrdbssprocess, rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, rxstruc/RxGetRDBSSProcess
 req.header: rxstruc.h
+req.construct-type: function
 req.include-header: Rxstruc.h, Ntddk.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxGetRDBSSProcess
 ---
 
-# RxGetRDBSSProcess function
+# RxGetRDBSSProcess function (rxstruc.h)
+
+
 
 
 ## -description

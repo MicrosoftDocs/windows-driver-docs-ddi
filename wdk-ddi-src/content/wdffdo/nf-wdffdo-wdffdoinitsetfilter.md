@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoInitSetFilter function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d1040c41-d94a-489d-ab74-9b3ae1e900bb.xml, WdfFdoInitSetFilter, WdfFdoInitSetFilter method, kmdf.wdffdoinitsetfilter, wdf.wdffdoinitsetfilter, wdffdo/WdfFdoInitSetFilter
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfFdoInitSetFilter
 ---
 
-# WdfFdoInitSetFilter function
+# WdfFdoInitSetFilter function (wdffdo.h)
+
+
 
 
 ## -description

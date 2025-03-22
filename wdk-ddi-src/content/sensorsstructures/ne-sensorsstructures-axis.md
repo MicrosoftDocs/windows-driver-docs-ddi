@@ -7,6 +7,7 @@ keywords: ["AXIS enumeration"]
 ms.keywords: AXIS, AXIS, *PAXIS,
 tech.root: sensors
 req.header: sensorsstructures.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - AXIS
 ---
 
-# AXIS enumeration
+# AXIS enumeration (sensorsstructures.h)
+
+
 
 
 ## -description

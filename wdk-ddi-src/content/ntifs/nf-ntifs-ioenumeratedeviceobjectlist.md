@@ -8,6 +8,7 @@ ms.date: 01/25/2023
 keywords: ["IoEnumerateDeviceObjectList function"]
 ms.keywords: IoEnumerateDeviceObjectList, IoEnumerateDeviceObjectList routine [Installable File System Drivers], ifsk.ioenumeratedeviceobjectlist, ioref_5bfd9f2c-73c0-4f69-8a5e-4cc105c2f92a.xml, ntifs/IoEnumerateDeviceObjectList
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -40,7 +41,9 @@ api_name:
  - IoEnumerateDeviceObjectList
 ---
 
-# IoEnumerateDeviceObjectList function
+# IoEnumerateDeviceObjectList function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration"]
 ms.keywords: D3DDDI_CPU_NOTIFICATION, D3DDDI_FENCE, D3DDDI_MONITORED_FENCE, D3DDDI_SEMAPHORE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration [Display Devices], D3DDDI_SYNCHRONIZATION_MUTEX, DmEnums_b63edb60-f53f-4779-ad85-b9ad8a889508.xml, _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/, d3dukmdt/D3DDDI_CPU_NOTIFICATION, d3dukmdt/D3DDDI_FENCE, d3dukmdt/D3DDDI_MONITORED_FENCE, d3dukmdt/D3DDDI_SEMAPHORE, d3dukmdt/D3DDDI_SYNCHRONIZATIONOBJECT_TYPE, d3dukmdt/D3DDDI_SYNCHRONIZATION_MUTEX, display.d3dddi_synchronizationobject_type
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_SYNCHRONIZATIONOBJECT_TYPE
 ---
 
-# _D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration
+# D3DDDI_SYNCHRONIZATIONOBJECT_TYPE enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

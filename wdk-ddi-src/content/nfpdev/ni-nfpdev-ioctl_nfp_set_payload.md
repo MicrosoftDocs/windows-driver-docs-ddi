@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_SET_PAYLOAD IOCTL"]
 ms.keywords: IOCTL_NFP_SET_PAYLOAD, IOCTL_NFP_SET_PAYLOAD control, IOCTL_NFP_SET_PAYLOAD control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_SET_PAYLOAD, nfpdrivers.ioctl_nfp_set_payload
 req.header: nfpdev.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_NFP_SET_PAYLOAD
 ---
 
-# IOCTL_NFP_SET_PAYLOAD IOCTL
+# IOCTL_NFP_SET_PAYLOAD IOCTL (nfpdev.h)
+
+
+
+
 
 
 ## -description

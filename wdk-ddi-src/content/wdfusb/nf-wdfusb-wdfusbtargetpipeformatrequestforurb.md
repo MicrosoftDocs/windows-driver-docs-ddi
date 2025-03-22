@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForUrb function"]
 ms.keywords: DFUsbRef_243c98bc-1bef-4da4-8f04-aa9055fb6351.xml, WdfUsbTargetPipeFormatRequestForUrb, WdfUsbTargetPipeFormatRequestForUrb method, kmdf.wdfusbtargetpipeformatrequestforurb, wdf.wdfusbtargetpipeformatrequestforurb, wdfusb/WdfUsbTargetPipeFormatRequestForUrb
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetPipeFormatRequestForUrb
 ---
 
-# WdfUsbTargetPipeFormatRequestForUrb function
+# WdfUsbTargetPipeFormatRequestForUrb function (wdfusb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInitializeCorrelationVector function"]
 ms.keywords: RtlInitializeCorrelationVector, RtlInitializeCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlinitializecorrelationvector, ntddk/RtlInitializeCorrelationVector
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - RtlInitializeCorrelationVector
 ---
 
-# RtlInitializeCorrelationVector function
+# RtlInitializeCorrelationVector function (ntddk.h)
+
+
 
 
 ## -description

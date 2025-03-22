@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInterlockedRemoveHeadList function"]
 ms.keywords: StorPortInterlockedRemoveHeadList, StorPortInterlockedRemoveHeadList routine [Storage Devices], storage.storportinterlockedremoveheadlist, storport/StorPortInterlockedRemoveHeadList
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortInterlockedRemoveHeadList
 ---
 
-# StorPortInterlockedRemoveHeadList function
+# StorPortInterlockedRemoveHeadList function (storport.h)
+
+
 
 ## -description
 

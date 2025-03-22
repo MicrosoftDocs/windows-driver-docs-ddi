@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionWdmGetTransferContext function"]
 ms.keywords: WdfDmaTransactionWdmGetTransferContext, WdfDmaTransactionWdmGetTransferContext method, kmdf.wdfdmatransactionwdmgettransfercontext, wdf.wdfdmatransactionwdmgettransfercontext, wdfdmatransaction/WdfDmaTransactionWdmGetTransferContext
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionWdmGetTransferContext
 ---
 
-# WdfDmaTransactionWdmGetTransferContext function
+# WdfDmaTransactionWdmGetTransferContext function (wdfdmatransaction.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlFindLongestRunClear function"]
 ms.keywords: RtlFindLongestRunClear, RtlFindLongestRunClear routine [Kernel-Mode Driver Architecture], k109_a6295996-9e2c-4d19-9ee9-1dc7802bd145.xml, kernel.rtlfindlongestrunclear, wdm/RtlFindLongestRunClear
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlFindLongestRunClear
 ---
 
-# RtlFindLongestRunClear function
+# RtlFindLongestRunClear function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration"]
 ms.keywords: "*PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, SystemManagedIdleTimeout, SystemManagedIdleTimeoutWithHint, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, kmdf.wdf_power_policy_idle_timeout_type, wdf.wdf_power_policy_idle_timeout_type, wdfdevice/DriverManagedIdleTimeout, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeoutWithHint, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
 req.header: wdfdevice.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 ---
 
-# _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration
+# WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration (wdfdevice.h)
+
+
 
 
 ## -description

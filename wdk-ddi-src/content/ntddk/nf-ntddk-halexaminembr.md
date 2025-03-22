@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HalExamineMBR function"]
 ms.keywords: HalExamineMBR, HalExamineMBR callback function [Kernel-Mode Driver Architecture], k103_86ff3079-34b8-4200-a0e9-88c921579b3f.xml, kernel.halexaminembr, ntddk/HalExamineMBR, pHalExamineMBR, pHalExamineMBR callback
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - HalExamineMBR
 ---
 
-# HalExamineMBR function
+# HalExamineMBR function (ntddk.h)
+
+
 
 
 ## -description

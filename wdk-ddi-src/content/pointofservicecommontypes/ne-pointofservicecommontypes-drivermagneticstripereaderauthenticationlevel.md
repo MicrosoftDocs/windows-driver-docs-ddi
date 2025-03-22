@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DriverMagneticStripeReaderAuthenticationLevel enumeration"]
 ms.keywords: DriverMagneticStripeReaderAuthenticationLevel, DriverMagneticStripeReaderAuthenticationLevel enumeration, NotSupported, Optional, Required, pointofservicecommontypes/DriverMagneticStripeReaderAuthenticationLevel, pointofservicecommontypes/NotSupported, pointofservicecommontypes/Optional, pointofservicecommontypes/Required, pos.magneticstripereaderauthenticationlevel_handheld_blue_autogen
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverMagneticStripeReaderAuthenticationLevel
 ---
 
-# DriverMagneticStripeReaderAuthenticationLevel enumeration
+# DriverMagneticStripeReaderAuthenticationLevel enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwPrepareComplete function"]
 ms.keywords: NtPrepareComplete, ZwPrepareComplete, ZwPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.zwpreparecomplete, ktm_ref_2690208e-0252-4e3f-84c6-29750139da00.xml, wdm/NtPrepareComplete, wdm/ZwPrepareComplete
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwPrepareComplete
 ---
 
-# ZwPrepareComplete function
+# ZwPrepareComplete function (wdm.h)
+
+
 
 
 ## -description

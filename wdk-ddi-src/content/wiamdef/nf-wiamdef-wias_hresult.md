@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_HRESULT macro"]
 ms.keywords: IWiaLog_3b27b46f-be2e-4fdb-ba65-32fe41c71142.xml, WIAS_HRESULT, WIAS_HRESULT macro [Imaging Devices], image.wias_hresult, wiamdef/WIAS_HRESULT
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WIAS_HRESULT
 ---
 
-# WIAS_HRESULT macro (wiamdef.h)
+# WIAS_HRESULT function (wiamdef.h)
+
+
 
 
 ## -description

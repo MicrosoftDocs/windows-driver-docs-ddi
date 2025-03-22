@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxLogEventWithAnnotation function"]
 ms.keywords: RxLogEventWithAnnotation, RxLogEventWithAnnotation function [Installable File System Drivers], ifsk.rxlogeventwithannotation, rxprocs/RxLogEventWithAnnotation, rxref_9c7d3613-cf3b-4de9-bfcb-a1dbe9213834.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Rxstruc.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxLogEventWithAnnotation
 ---
 
-# RxLogEventWithAnnotation function
+# RxLogEventWithAnnotation function (rxprocs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfSpinLockCreate function"]
 ms.keywords: DFSynchroRef_6e5f9884-82a8-4c1e-a039-9e01f4f3d0f1.xml, WdfSpinLockCreate, WdfSpinLockCreate method, kmdf.wdfspinlockcreate, wdf.wdfspinlockcreate, wdfsync/WdfSpinLockCreate
 req.header: wdfsync.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfSpinLockCreate
 ---
 
-# WdfSpinLockCreate function
+# WdfSpinLockCreate function (wdfsync.h)
+
+
 
 
 ## -description

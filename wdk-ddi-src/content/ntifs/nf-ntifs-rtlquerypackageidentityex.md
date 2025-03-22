@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 10/30/2019
 ms.keywords: RtlQueryPackageIdentityEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8.1
@@ -36,7 +37,9 @@ api_name:
  - RtlQueryPackageIdentityEx
 ---
 
-# RtlQueryPackageIdentityEx function
+# RtlQueryPackageIdentityEx function (ntifs.h)
+
+
 
 
 ## -description

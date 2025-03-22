@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetNumberOfModems function"]
 ms.keywords: RIL_GetNumberOfModems, RIL_GetNumberOfModems method [Network Drivers Starting with Windows Vista], netvista.ril_getnumberofmodems, rilapi/RIL_GetNumberOfModems
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetNumberOfModems
 ---
 
-# RIL_GetNumberOfModems function
+# RIL_GetNumberOfModems function (rilapi.h)
+
+
 
 
 ## -description

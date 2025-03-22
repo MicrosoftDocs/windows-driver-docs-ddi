@@ -7,6 +7,7 @@ ms.date: 01/18/2023
 keywords: ["RtlFillMemory macro"]
 ms.keywords: RtlFillMemory, RtlFillMemory routine [Kernel-Mode Driver Architecture], k109_db7a2a9f-c7b5-40c3-9755-e386bbaf5353.xml, kernel.rtlfillmemory, wdm/RtlFillMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -41,6 +42,8 @@ api_location:
 api_name:
  - RtlFillMemory
 ---
+
+# RtlFillMemory function (wdm.h)
 
 ## -description
 

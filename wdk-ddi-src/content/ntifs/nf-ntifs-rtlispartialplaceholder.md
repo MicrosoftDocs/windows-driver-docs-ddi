@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlIsPartialPlaceholder function"]
 ms.keywords: RtlIsPartialPlaceholder, RtlIsPartialPlaceholder routine [Installable File System Drivers], ifsk.rtlispartialplaceholder, ntifs/RtlIsPartialPlaceholder
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709.
@@ -40,7 +41,9 @@ api_name:
  - RtlIsPartialPlaceholder
 ---
 
-# RtlIsPartialPlaceholder function
+# RtlIsPartialPlaceholder function (ntifs.h)
+
+
 
 
 ## -description

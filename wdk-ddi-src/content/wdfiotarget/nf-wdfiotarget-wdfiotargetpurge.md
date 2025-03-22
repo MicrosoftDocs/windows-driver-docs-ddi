@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetPurge function"]
 ms.keywords: WdfIoTargetPurge, WdfIoTargetPurge method, kmdf.wdfiotargetpurge, wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetPurge
 ---
 
-# WdfIoTargetPurge function
+# WdfIoTargetPurge function (wdfiotarget.h)
+
+
 
 
 ## -description

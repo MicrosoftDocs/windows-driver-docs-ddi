@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_EVAL_METHOD_EX IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD_EX, IOCTL_ACPI_EVAL_METHOD_EX control, IOCTL_ACPI_EVAL_METHOD_EX control code [ACPI Devices], acpi-meth-eval-ref_b4baf4b9-b239-4b7e-b171-775b6b59a929.xml, acpi.ioctl_acpi_eval_method_ex, acpiioct/IOCTL_ACPI_EVAL_METHOD_EX
 req.header: acpiioct.h
+req.construct-type: ioctl
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_ACPI_EVAL_METHOD_EX
 ---
 
-# IOCTL_ACPI_EVAL_METHOD_EX IOCTL
+# IOCTL_ACPI_EVAL_METHOD_EX IOCTL (acpiioct.h)
+
+
+
+
 
 
 ## -description

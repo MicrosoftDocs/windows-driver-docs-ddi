@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WskDeregister function"]
 ms.keywords: WskDeregister, WskDeregister function [Network Drivers Starting with Windows Vista], netvista.wskderegister, wsk/WskDeregister, wskref_45c2ad8f-a969-4a82-ac5e-67e4d3c96ffb.xml
 req.header: wsk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - WskDeregister
 ---
 
-# WskDeregister function
+# WskDeregister function (wsk.h)
+
+
 
 
 ## -description

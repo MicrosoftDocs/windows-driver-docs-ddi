@@ -7,6 +7,7 @@ tech.root: display
 keywords: ["D3DZBUFFERTYPE enumeration"]
 ms.keywords: _D3DZBUFFERTYPE, D3DZBUFFERTYPE,
 req.header: d3d9types.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DZBUFFERTYPE enumeration
+# D3DZBUFFERTYPE enumeration (d3d9types.h)
+
+
 
 
 ## -description

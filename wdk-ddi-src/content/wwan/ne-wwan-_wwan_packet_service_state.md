@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PACKET_SERVICE_STATE enumeration"]
 ms.keywords: "*PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE, PWWAN_PACKET_SERVICE_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PACKET_SERVICE_STATE, WWAN_PACKET_SERVICE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPacketServiceStateAttached, WwanPacketServiceStateAttaching, WwanPacketServiceStateDetached, WwanPacketServiceStateDetaching, WwanPacketServiceStateUnknown, WwanRef_c342b0ee-c3da-4199-9172-4e2fb538f64b.xml, _WWAN_PACKET_SERVICE_STATE, netvista.wwan_packet_service_state, wwan/PWWAN_PACKET_SERVICE_STATE, wwan/WWAN_PACKET_SERVICE_STATE, wwan/WwanPacketServiceStateAttached, wwan/WwanPacketServiceStateAttaching, wwan/WwanPacketServiceStateDetached, wwan/WwanPacketServiceStateDetaching, wwan/WwanPacketServiceStateUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PACKET_SERVICE_STATE
 ---
 
-# _WWAN_PACKET_SERVICE_STATE enumeration
+# WWAN_PACKET_SERVICE_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

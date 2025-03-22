@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_BSS_TYPE enumeration"]
 ms.keywords: "*PDOT11_BSS_TYPE, DOT11_BSS_TYPE, DOT11_BSS_TYPE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_ac59d6f5-1095-4953-8079-7f616769a3fa.xml, PDOT11_BSS_TYPE, PDOT11_BSS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_BSS_TYPE, dot11_BSS_type_any, dot11_BSS_type_independent, dot11_BSS_type_infrastructure, netvista.dot11_bss_type, wlantypes/DOT11_BSS_TYPE, wlantypes/PDOT11_BSS_TYPE, wlantypes/dot11_BSS_type_any, wlantypes/dot11_BSS_type_independent, wlantypes/dot11_BSS_type_infrastructure"
 req.header: wlantypes.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_BSS_TYPE
 ---
 
-# _DOT11_BSS_TYPE enumeration
+# DOT11_BSS_TYPE enumeration (wlantypes.h)
+
+
 
 
 ## -description

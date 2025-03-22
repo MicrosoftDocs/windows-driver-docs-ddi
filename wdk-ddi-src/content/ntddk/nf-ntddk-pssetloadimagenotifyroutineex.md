@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsSetLoadImageNotifyRoutineEx function"]
 ms.keywords: PsSetLoadImageNotifyRoutineEx, PsSetLoadImageNotifyRoutineEx function [Kernel-Mode Driver Architecture], kernel.pssetloadimagenotifyroutineex, ntddk/PsSetLoadImageNotifyRoutineEx
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - PsSetLoadImageNotifyRoutineEx
 ---
 
-# PsSetLoadImageNotifyRoutineEx function
+# PsSetLoadImageNotifyRoutineEx function (ntddk.h)
+
+
 
 
 ## -description

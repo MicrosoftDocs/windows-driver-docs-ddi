@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 keywords: ["D3DDDI_MARKERLOGTYPE enumeration"]
 ms.keywords: D3DDDIMLT_FT_PROFILE, D3DDDIMLT_NONE, D3DDDIMLT_PROFILE, D3DDDI_MARKERLOGTYPE, D3DDDI_MARKERLOGTYPE enumeration [Display Devices], d3dumddi/D3DDDIMLT_FT_PROFILE, d3dumddi/D3DDDIMLT_NONE, d3dumddi/D3DDDIMLT_PROFILE, d3dumddi/D3DDDI_MARKERLOGTYPE, display.d3dddi_markerlogtype
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_MARKERLOGTYPE
 ---
 
-# D3DDDI_MARKERLOGTYPE enumeration
+# D3DDDI_MARKERLOGTYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_DIRECTION enumeration"]
 ms.keywords: "*PSPB_TRANSFER_DIRECTION, SPB.spb_transfer_direction, SPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionFromDevice, SpbTransferDirectionMax, SpbTransferDirectionNone, SpbTransferDirectionToDevice, spb/SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionFromDevice, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionNone, spb/SpbTransferDirectionToDevice"
 req.header: spb.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - PSPB_TRANSFER_DIRECTION
 ---
 
-# SPB_TRANSFER_DIRECTION enumeration
+# SPB_TRANSFER_DIRECTION enumeration (spb.h)
+
+
 
 ## -description
 

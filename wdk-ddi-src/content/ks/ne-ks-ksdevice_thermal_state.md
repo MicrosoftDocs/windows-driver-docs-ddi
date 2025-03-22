@@ -7,6 +7,7 @@ ms.date: 11/11/2022
 keywords: ["KSDEVICE_THERMAL_STATE enumeration"]
 ms.keywords: KSDEVICE_THERMAL_STATE, KSDEVICE_THERMAL_STATE enumeration [Streaming Media Devices], KSDEVICE_THERMAL_STATE_HIGH, KSDEVICE_THERMAL_STATE_LOW, ks/KSDEVICE_THERMAL_STATE, ks/KSDEVICE_THERMAL_STATE_HIGH, ks/KSDEVICE_THERMAL_STATE_LOW, stream.ksdevice_thermal_state
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KSDEVICE_THERMAL_STATE
 ---
+
+# KSDEVICE_THERMAL_STATE enumeration (ks.h)
 
 ## -description
 

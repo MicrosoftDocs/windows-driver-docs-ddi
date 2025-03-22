@@ -5,6 +5,7 @@ description: IOCTL_MIPI_DSI_RESET requests the reset of a device under graphics 
 tech.root: display
 ms.date: 03/24/2020
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -30,7 +31,11 @@ f1_keywords:
  - ntddvdeo/IOCTL_MIPI_DSI_RESET
 ---
 
-# IOCTL_MIPI_DSI_RESET IOCTL
+# IOCTL_MIPI_DSI_RESET IOCTL (ntddvdeo.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

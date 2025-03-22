@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInsertElementGenericTable function"]
 ms.keywords: RtlInsertElementGenericTable, RtlInsertElementGenericTable routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictable, ntddk/RtlInsertElementGenericTable, rtlref_62ab1129-906f-4ef7-b0d1-bec4bf6fce62.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInsertElementGenericTable
 ---
 
-# RtlInsertElementGenericTable function
+# RtlInsertElementGenericTable function (ntddk.h)
+
+
 
 
 ## -description

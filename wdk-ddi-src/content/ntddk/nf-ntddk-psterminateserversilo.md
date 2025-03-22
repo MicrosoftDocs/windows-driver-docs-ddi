@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsTerminateServerSilo function"]
 ms.keywords: PsTerminateServerSilo, PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], kernel.psterminateserversilo, ntddk/PsTerminateServerSilo
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - PsTerminateServerSilo
 ---
 
-# PsTerminateServerSilo function
+# PsTerminateServerSilo function (ntddk.h)
+
+
 
 
 ## -description

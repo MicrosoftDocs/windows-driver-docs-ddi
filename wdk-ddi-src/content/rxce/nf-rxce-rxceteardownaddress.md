@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeTearDownAddress function"]
 ms.keywords: RxCeTearDownAddress, RxCeTearDownAddress function [Installable File System Drivers], ifsk.rxceteardownaddress, rxce/RxCeTearDownAddress, rxref_99fcdd00-8c1a-4a0b-8007-5b7f01a725bb.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeTearDownAddress
 ---
 
-# RxCeTearDownAddress function
+# RxCeTearDownAddress function (rxce.h)
+
+
 
 
 ## -description

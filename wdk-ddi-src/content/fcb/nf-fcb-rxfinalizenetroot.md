@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxFinalizeNetRoot function"]
 ms.keywords: RxFinalizeNetRoot, RxFinalizeNetRoot function [Installable File System Drivers], fcb/RxFinalizeNetRoot, ifsk.rxfinalizenetroot, rxref_66fb454b-96a0-401b-b184-0c24510bfaf6.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Fcb.h, Mrxfcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxFinalizeNetRoot
 ---
 
-# RxFinalizeNetRoot function
+# RxFinalizeNetRoot function (fcb.h)
+
+
 
 
 ## -description

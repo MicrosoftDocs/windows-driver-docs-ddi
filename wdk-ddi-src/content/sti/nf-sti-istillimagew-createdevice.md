@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["IStillImageW::CreateDevice"]
 ms.keywords: CreateDevice, CreateDevice method [Imaging Devices], CreateDevice method [Imaging Devices],IStillImageW interface, IStillImageW interface [Imaging Devices],CreateDevice method, IStillImageW.CreateDevice, IStillImageW::CreateDevice, image.istillimage_createdevice, sti/IStillImageW::CreateDevice, stifnc_07253e3c-b24e-4557-885f-3e17fb5dc293.xml
 req.header: sti.h
+req.construct-type: function
 req.include-header: Sti.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStillImageW::CreateDevice
 ---
+
+# IStillImageW::CreateDevice function (sti.h)
 
 ## -description
 

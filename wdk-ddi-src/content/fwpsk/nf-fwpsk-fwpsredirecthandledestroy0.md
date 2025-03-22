@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsRedirectHandleDestroy0 function"]
 ms.keywords: FwpsRedirectHandleDestroy0, FwpsRedirectHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleDestroy0, netvista.fwpsredirecthandledestroy0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FwpsRedirectHandleDestroy0
 ---
 
-# FwpsRedirectHandleDestroy0 function
+# FwpsRedirectHandleDestroy0 function (fwpsk.h)
+
+
 
 
 ## -description

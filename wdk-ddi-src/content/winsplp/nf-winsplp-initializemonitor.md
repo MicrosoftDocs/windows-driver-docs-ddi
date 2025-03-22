@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["InitializeMonitor function"]
 ms.keywords: InitializeMonitor, InitializeMonitor function [Print Devices], print.initializemonitor, spoolfnc_21afb8f9-70e1-478e-9ad0-cec810216b50.xml, winsplp/InitializeMonitor
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - InitializeMonitor
 ---
+
+# InitializeMonitor function (winsplp.h)
 
 ## -description
 

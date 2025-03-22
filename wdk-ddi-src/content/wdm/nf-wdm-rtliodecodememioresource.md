@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlIoDecodeMemIoResource function"]
 ms.keywords: RtlIoDecodeMemIoResource, RtlIoDecodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_27e29ad7-3e41-44ad-b3da-027180f51d2a.xml, kernel.rtliodecodememioresource, wdm/RtlIoDecodeMemIoResource
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlIoDecodeMemIoResource
 ---
 
-# RtlIoDecodeMemIoResource function
+# RtlIoDecodeMemIoResource function (wdm.h)
+
+
 
 
 ## -description

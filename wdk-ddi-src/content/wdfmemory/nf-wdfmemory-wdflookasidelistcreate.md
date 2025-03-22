@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfLookasideListCreate function"]
 ms.keywords: DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, WdfLookasideListCreate, WdfLookasideListCreate method, kmdf.wdflookasidelistcreate, wdf.wdflookasidelistcreate, wdfmemory/WdfLookasideListCreate
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfLookasideListCreate
 ---
 
-# WdfLookasideListCreate function
+# WdfLookasideListCreate function (wdfmemory.h)
+
+
 
 
 ## -description

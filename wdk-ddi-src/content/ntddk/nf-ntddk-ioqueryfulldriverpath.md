@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["IoQueryFullDriverPath function"]
 ms.keywords: IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], kernel.ioqueryfulldriverpath, wdm/IoQueryFullDriverPath
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoQueryFullDriverPath
 ---
+
+# IoQueryFullDriverPath function (ntddk.h)
 
 ## -description
 

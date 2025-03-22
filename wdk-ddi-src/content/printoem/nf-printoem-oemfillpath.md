@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMFillPath function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], OEMFillPath, print.oemfillpath, print_unidrv-pscript_rendering_0c8783bf-0e73-4b66-98a2-b71ee177549b.xml, printoem/OEMEscape
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMFillPath
 ---
+
+# OEMFillPath function (printoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasUpdateScanRect function"]
 ms.keywords: image.wiasupdatescanrect, wiamdef/wiasUpdateScanRect, wiasFncs_ef2b5686-5026-469b-8133-d2c37fddb732.xml, wiasUpdateScanRect, wiasUpdateScanRect function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasUpdateScanRect
 ---
 
-# wiasUpdateScanRect function
+# wiasUpdateScanRect function (wiamdef.h)
+
+
 
 
 ## -description

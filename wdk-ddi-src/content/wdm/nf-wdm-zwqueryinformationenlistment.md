@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwQueryInformationEnlistment function"]
 ms.keywords: NtQueryInformationEnlistment, ZwQueryInformationEnlistment, ZwQueryInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationenlistment, ktm_ref_f9039d82-41a8-4696-9393-cb9ea0d8d279.xml, wdm/NtQueryInformationEnlistment, wdm/ZwQueryInformationEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwQueryInformationEnlistment
 ---
 
-# ZwQueryInformationEnlistment function
+# ZwQueryInformationEnlistment function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortWritePortBufferUchar function"]
 ms.keywords: VideoPortWritePortBufferUchar, VideoPortWritePortBufferUchar function [Display Devices], VideoPort_Functions_c7f29624-d08d-437f-8b03-6f6f3b1f27b9.xml, display.videoportwriteportbufferuchar, video/VideoPortWritePortBufferUchar
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortWritePortBufferUchar
 ---
 
-# VideoPortWritePortBufferUchar function
+# VideoPortWritePortBufferUchar function (video.h)
+
+
 
 
 ## -description

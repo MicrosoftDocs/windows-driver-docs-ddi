@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetAssociatedDeviceExtension function"]
 ms.keywords: VideoPortGetAssociatedDeviceExtension, VideoPortGetAssociatedDeviceExtension function [Display Devices], VideoPort_Functions_7116b537-1296-4136-b62c-ce5918eea10d.xml, display.videoportgetassociateddeviceextension, video/VideoPortGetAssociatedDeviceExtension
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetAssociatedDeviceExtension
 ---
 
-# VideoPortGetAssociatedDeviceExtension function
+# VideoPortGetAssociatedDeviceExtension function (video.h)
+
+
 
 
 ## -description

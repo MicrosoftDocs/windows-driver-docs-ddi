@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTLock function"]
 ms.keywords: D3DKMTLock, D3DKMTLock function [Display Devices], OpenGL_Functions_ca085861-b8a0-434a-843d-9b8052376df5.xml, d3dkmthk/D3DKMTLock, display.d3dkmtlock
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTLock
 ---
 
-# D3DKMTLock function
+# D3DKMTLock function (d3dkmthk.h)
+
+
 
 
 ## -description

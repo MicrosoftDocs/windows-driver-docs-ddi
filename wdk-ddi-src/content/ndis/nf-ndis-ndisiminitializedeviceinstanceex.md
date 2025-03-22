@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIMInitializeDeviceInstanceEx function"]
 ms.keywords: NdisIMInitializeDeviceInstanceEx, NdisIMInitializeDeviceInstanceEx function [Network Drivers Starting with Windows Vista], intermediate_ref_37fbd7e8-287e-49dc-8de5-6b438a305804.xml, ndis/NdisIMInitializeDeviceInstanceEx, netvista.ndisiminitializedeviceinstanceex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisIMInitializeDeviceInstanceEx (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisIMInitializeDeviceInstanceEx (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisIMInitializeDeviceInstanceEx
 ---
 
-# NdisIMInitializeDeviceInstanceEx function
+# NdisIMInitializeDeviceInstanceEx function (ndis.h)
+
+
 
 
 ## -description

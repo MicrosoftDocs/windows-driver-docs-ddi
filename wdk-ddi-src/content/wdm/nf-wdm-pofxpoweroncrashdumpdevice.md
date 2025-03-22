@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxPowerOnCrashdumpDevice function"]
 ms.keywords: PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Pepfx.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -41,7 +42,9 @@ api_name:
  - PoFxPowerOnCrashdumpDevice
 ---
 
-# PoFxPowerOnCrashdumpDevice function
+# PoFxPowerOnCrashdumpDevice function (wdm.h)
+
+
 
 
 ## -description

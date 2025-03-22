@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::SetString"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetString method, IPrinterPropertyBag.SetString, IPrinterPropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setstring, printerextension/IPrinterPropertyBag::SetString
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::SetString
 ---
+
+# IPrinterPropertyBag::SetString function (printerextension.h)
 
 ## -description
 

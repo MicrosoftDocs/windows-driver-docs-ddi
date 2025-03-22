@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetNumConfiguredPipes function"]
 ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes method, kmdf.wdfusbinterfacegetnumconfiguredpipes, wdf.wdfusbinterfacegetnumconfiguredpipes, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetNumConfiguredPipes
 ---
 
-# WdfUsbInterfaceGetNumConfiguredPipes function
+# WdfUsbInterfaceGetNumConfiguredPipes function (wdfusb.h)
+
+
 
 
 ## -description

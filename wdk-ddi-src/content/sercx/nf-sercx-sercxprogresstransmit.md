@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxProgressTransmit function"]
 ms.keywords: 1/SerCxProgressTransmit, SerCxProgressTransmit, SerCxProgressTransmit method [Serial Ports], serports.sercxprogresstransmit
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxProgressTransmit
 ---
 
-# SerCxProgressTransmit function
+# SerCxProgressTransmit function (sercx.h)
+
+
 
 
 ## -description

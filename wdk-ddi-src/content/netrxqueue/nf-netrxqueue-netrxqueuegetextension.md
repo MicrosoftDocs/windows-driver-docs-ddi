@@ -7,6 +7,7 @@ ms.date: 01/31/2019
 keywords: ["NetRxQueueGetExtension function"]
 ms.keywords: NetRxQueueGetExtension
 req.header: netrxqueue.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetRxQueueGetExtension
 ---
 
-# NetRxQueueGetExtension function
+# NetRxQueueGetExtension function (netrxqueue.h)
+
+
 
 
 ## -description

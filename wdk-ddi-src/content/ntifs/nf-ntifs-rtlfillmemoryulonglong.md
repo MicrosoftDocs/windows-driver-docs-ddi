@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlFillMemoryUlonglong macro"]
 ms.keywords: RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers], ifsk.rtlfillmemoryulonglong, ntifs/RtlFillMemoryUlonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: For AMD64 systems, Windows 2000. For non-AMD64 systems, Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - RtlFillMemoryUlonglong
 ---
 
-# RtlFillMemoryUlonglong macro
+# RtlFillMemoryUlonglong function (ntifs.h)
+
+
 
 
 ## -description

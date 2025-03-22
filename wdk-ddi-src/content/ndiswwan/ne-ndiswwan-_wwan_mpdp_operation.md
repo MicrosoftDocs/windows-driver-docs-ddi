@@ -7,6 +7,7 @@ ms.date: 06/25/2018
 keywords: ["WWAN_MPDP_OPERATION enumeration"]
 ms.keywords: _WWAN_MPDP_OPERATION, WWAN_MPDP_OPERATION, *PWWAN_MPDP_OPERATION,
 req.header: ndiswwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ api_name:
  - WWAN_MPDP_OPERATION
 ---
 
-# _WWAN_MPDP_OPERATION enumeration
+# WWAN_MPDP_OPERATION enumeration (ndiswwan.h)
+
+
 
 
 ## -description

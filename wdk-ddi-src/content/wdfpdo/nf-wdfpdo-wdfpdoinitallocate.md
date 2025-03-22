@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitAllocate function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, WdfPdoInitAllocate, WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, wdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitAllocate
 ---
 
-# WdfPdoInitAllocate function
+# WdfPdoInitAllocate function (wdfpdo.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["WWAN_CONTEXT_ROAMING_CONTROL enumeration"]
 ms.keywords: _WWAN_CONTEXT_ROAMING_CONTROL, WWAN_CONTEXT_ROAMING_CONTROL, *PWWAN_CONTEXT_ROAMING_CONTROL,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_CONTEXT_ROAMING_CONTROL
 ---
 
-# _WWAN_CONTEXT_ROAMING_CONTROL enumeration
+# WWAN_CONTEXT_ROAMING_CONTROL enumeration (wwan.h)
+
+
 
 
 ## -description

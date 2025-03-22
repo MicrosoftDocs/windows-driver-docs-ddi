@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ENTROPY_SOURCE_TYPE enumeration"]
 ms.keywords: ENTROPY_SOURCE_TYPE, ENTROPY_SOURCE_TYPE,
 req.header: systemrng.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - ENTROPY_SOURCE_TYPE
 ---
 
-# ENTROPY_SOURCE_TYPE enumeration
+# ENTROPY_SOURCE_TYPE enumeration (systemrng.h)
+
+
 
 
 ## -description

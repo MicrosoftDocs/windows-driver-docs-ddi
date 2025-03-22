@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetRootItem function"]
 ms.keywords: image.wiasgetrootitem, wiamdef/wiasGetRootItem, wiasFncs_4e991723-5462-456e-b56f-82a38e5cf556.xml, wiasGetRootItem, wiasGetRootItem function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetRootItem
 ---
 
-# wiasGetRootItem function
+# wiasGetRootItem function (wiamdef.h)
+
+
 
 
 ## -description

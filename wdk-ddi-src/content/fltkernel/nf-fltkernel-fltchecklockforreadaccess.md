@@ -7,6 +7,7 @@ ms.date: 03/20/2023
 keywords: ["FltCheckLockForReadAccess function"]
 ms.keywords: FltApiRef_a_to_d_24bd7e02-fdc4-44a3-8d1a-1bb164d26769.xml, FltCheckLockForReadAccess, FltCheckLockForReadAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForReadAccess, ifsk.fltchecklockforreadaccess
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP SP2 
@@ -40,7 +41,9 @@ api_name:
  - FltCheckLockForReadAccess
 ---
 
-# FltCheckLockForReadAccess function
+# FltCheckLockForReadAccess function (fltkernel.h)
+
+
 
 ## -description
 

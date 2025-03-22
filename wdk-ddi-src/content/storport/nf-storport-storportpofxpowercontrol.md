@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortPoFxPowerControl function"]
 ms.keywords: StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - StorPortPoFxPowerControl
 ---
 
-# StorPortPoFxPowerControl function
+# StorPortPoFxPowerControl function (storport.h)
+
+
 
 
 ## -description

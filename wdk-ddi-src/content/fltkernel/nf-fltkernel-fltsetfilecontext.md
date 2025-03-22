@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltSetFileContext function"]
 ms.keywords: FltApiRef_p_to_z_ef77cece-4fd9-4453-9594-b027037d3ca9.xml, FltSetFileContext, FltSetFileContext routine [Installable File System Drivers], fltkernel/FltSetFileContext, ifsk.fltsetfilecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available and supported starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltSetFileContext
 ---
 
-# FltSetFileContext function
+# FltSetFileContext function (fltkernel.h)
+
+
 
 ## -description
 

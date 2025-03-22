@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContext::get_PrinterQueue"]
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrinterQueue property, IPrinterExtensionContext.PrinterQueue, IPrinterExtensionContext.get_PrinterQueue, IPrinterExtensionContext::PrinterQueue, IPrinterExtensionContext::get_PrinterQueue, PrinterQueue property [Print Devices], PrinterQueue property [Print Devices],IPrinterExtensionContext interface, get_PrinterQueue, print.iprinterextensioncontext_printerqueue, printerextension/IPrinterExtensionContext::PrinterQueue, printerextension/IPrinterExtensionContext::get_PrinterQueue
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionContext::get_PrinterQueue
 ---
+
+# IPrinterExtensionContext::get_PrinterQueue function (printerextension.h)
 
 ## -description
 

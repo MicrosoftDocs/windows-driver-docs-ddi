@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["PFN_WDFINTERRUPTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfinterruptacquirelock, PFN_WDFINTERRUPTACQUIRELOCK, WdfInterruptAcquireLock callback function, WdfInterruptAcquireLock, wdfinterrupt/WdfInterruptAcquireLock, DFInterruptObjectRef_9d3cd9a1-801c-437a-b1df-7e2819d1465a.xml, kmdf.wdfinterruptacquirelock
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PFN_WDFINTERRUPTACQUIRELOCK
 ---
 
-# PFN_WDFINTERRUPTACQUIRELOCK function
+# PFN_WDFINTERRUPTACQUIRELOCK function (wdfinterrupt.h)
+
+
 
 ## -description
 

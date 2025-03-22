@@ -8,6 +8,7 @@ ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_BUFFER_FORMAT enumeration"]
 ms.keywords: "*PSPB_TRANSFER_BUFFER_FORMAT, SPB.spb_transfer_buffer_format, SPB_TRANSFER_BUFFER_FORMAT, SPB_TRANSFER_BUFFER_FORMAT enumeration [Buses], SpbTransferBufferFormatInvalid, SpbTransferBufferFormatList, SpbTransferBufferFormatMax, SpbTransferBufferFormatMdl, SpbTransferBufferFormatSimple, SpbTransferBufferFormatSimpleNonPaged, spb/SPB_TRANSFER_BUFFER_FORMAT, spb/SpbTransferBufferFormatInvalid, spb/SpbTransferBufferFormatList, spb/SpbTransferBufferFormatMax, spb/SpbTransferBufferFormatMdl, spb/SpbTransferBufferFormatSimple, spb/SpbTransferBufferFormatSimpleNonPaged"
 req.header: spb.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - PSPB_TRANSFER_BUFFER_FORMAT
 ---
 
-# SPB_TRANSFER_BUFFER_FORMAT enumeration
+# SPB_TRANSFER_BUFFER_FORMAT enumeration (spb.h)
+
+
 
 ## -description
 

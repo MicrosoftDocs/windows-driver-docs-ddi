@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListGetDevice function"]
 ms.keywords: DFDeviceObjectChildListRef_3126e6d6-e0d4-4ad1-865e-e7ec36e3c593.xml, WdfChildListGetDevice, WdfChildListGetDevice method, kmdf.wdfchildlistgetdevice, wdf.wdfchildlistgetdevice, wdfchildlist/WdfChildListGetDevice
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListGetDevice
 ---
 
-# WdfChildListGetDevice function
+# WdfChildListGetDevice function (wdfchildlist.h)
+
+
 
 
 ## -description

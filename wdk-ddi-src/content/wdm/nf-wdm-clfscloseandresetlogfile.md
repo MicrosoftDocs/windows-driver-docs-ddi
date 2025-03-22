@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsCloseAndResetLogFile function"]
 ms.keywords: ClfsCloseAndResetLogFile, ClfsCloseAndResetLogFile routine [Kernel-Mode Driver Architecture], Clfs_79ba6a07-3da2-40e8-9e7c-6b299ef55d63.xml, kernel.clfscloseandresetlogfile, wdm/ClfsCloseAndResetLogFile
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsCloseAndResetLogFile
 ---
 
-# ClfsCloseAndResetLogFile function
+# ClfsCloseAndResetLogFile function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreateSynchronizationObject function"]
 ms.keywords: D3DKMTCreateSynchronizationObject, D3DKMTCreateSynchronizationObject function [Display Devices], OpenGL_Functions_505065c6-f259-4518-adb8-f7d0fa6b56a5.xml, d3dkmthk/D3DKMTCreateSynchronizationObject, display.d3dkmtcreatesynchronizationobject
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTCreateSynchronizationObject
 ---
 
-# D3DKMTCreateSynchronizationObject function
+# D3DKMTCreateSynchronizationObject function (d3dkmthk.h)
+
+
 
 
 ## -description

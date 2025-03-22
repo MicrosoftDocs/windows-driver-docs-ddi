@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["PsSetCreateThreadNotifyRoutine function"]
 ms.keywords: PsSetCreateThreadNotifyRoutine, PsSetCreateThreadNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_1fe3d941-1e48-4f07-bf57-ad7b2855947f.xml, kernel.pssetcreatethreadnotifyroutine, ntddk/PsSetCreateThreadNotifyRoutine
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PsSetCreateThreadNotifyRoutine
 ---
+
+# PsSetCreateThreadNotifyRoutine function (ntddk.h)
 
 ## -description
 

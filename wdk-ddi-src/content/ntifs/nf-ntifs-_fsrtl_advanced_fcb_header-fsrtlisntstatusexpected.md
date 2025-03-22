@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsNtstatusExpected function"]
 ms.keywords: FsRtlIsNtstatusExpected, FsRtlIsNtstatusExpected routine [Installable File System Drivers], fsrtlref_c480df4e-1601-4df7-809f-b1dec9549412.xml, ifsk.fsrtlisntstatusexpected, ntifs/FsRtlIsNtstatusExpected
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIsNtstatusExpected
 ---
 
-# FsRtlIsNtstatusExpected function
+# FsRtlIsNtstatusExpected function (ntifs.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwOpenEvent function"]
 ms.keywords: NtOpenEvent, ZwOpenEvent, ZwOpenEvent routine [Kernel-Mode Driver Architecture], k111_b2349294-0e16-43ef-95cb-eecd213374b6.xml, kernel.zwopenevent, wdm/NtOpenEvent, wdm/ZwOpenEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwOpenEvent
 ---
+
+# ZwOpenEvent function (wdm.h)
 
 ## -description
 

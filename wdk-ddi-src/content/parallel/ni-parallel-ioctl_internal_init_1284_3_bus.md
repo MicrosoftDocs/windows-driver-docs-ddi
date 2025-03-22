@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_INIT_1284_3_BUS IOCTL"]
 ms.keywords: IOCTL_INTERNAL_INIT_1284_3_BUS, IOCTL_INTERNAL_INIT_1284_3_BUS control code [Parallel Ports], cisspd_bbc4a115-34b5-4f7b-9fd4-bbf4d4293e81.xml, parallel/IOCTL_INTERNAL_INIT_1284_3_BUS, parports.ioctl_internal_init_1284_3_bus
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_INIT_1284_3_BUS
 ---
 
-# IOCTL_INTERNAL_INIT_1284_3_BUS IOCTL
+# IOCTL_INTERNAL_INIT_1284_3_BUS IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

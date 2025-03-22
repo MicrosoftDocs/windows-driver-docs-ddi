@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration"]
 ms.keywords: COLORSPACE_TRANSFORM_STAGE_CONTROL, COLORSPACE_TRANSFORM_STAGE_CONTROL, *PCOLORSPACE_TRANSFORM_STAGE_CONTROL,
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration
+# COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration (ntddvdeo.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetRadioStateGroups function"]
 ms.keywords: RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetRadioStateGroups
 ---
 
-# RIL_GetRadioStateGroups function
+# RIL_GetRadioStateGroups function (rilapi.h)
+
+
 
 
 ## -description

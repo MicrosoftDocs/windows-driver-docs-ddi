@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["IoCheckQuotaBufferValidity function"]
 ms.keywords: IoCheckQuotaBufferValidity, IoCheckQuotaBufferValidity routine [Installable File System Drivers], ifsk.iocheckquotabuffervalidity, ioref_b4dc2b93-aaf1-450b-8240-b92792182057.xml, ntifs/IoCheckQuotaBufferValidity
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - IoCheckQuotaBufferValidity
 ---
 
-# IoCheckQuotaBufferValidity function
+# IoCheckQuotaBufferValidity function (ntifs.h)
+
+
 
 ## -description
 

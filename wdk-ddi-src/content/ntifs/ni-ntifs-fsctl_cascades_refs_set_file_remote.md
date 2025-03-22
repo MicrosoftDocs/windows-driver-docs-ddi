@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_CASCADES_REFS_SET_FILE_REMOTE
 ---
 
-# FSCTL_CASCADES_REFS_SET_FILE_REMOTE ioctl (ntifs.h)
+# FSCTL_CASCADES_REFS_SET_FILE_REMOTE IOCTL (ntifs.h)
+
+
 
 ## -description
 

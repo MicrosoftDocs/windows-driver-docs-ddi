@@ -6,6 +6,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTGetPresentQueueEvent function"]
 ms.keywords: D3DKMTGetPresentQueueEvent
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTGetPresentQueueEvent function
+# D3DKMTGetPresentQueueEvent function (d3dkmthk.h)
+
+
 
 ## -description
 

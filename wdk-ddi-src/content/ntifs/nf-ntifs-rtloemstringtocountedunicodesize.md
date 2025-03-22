@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlOemStringToCountedUnicodeSize macro"]
 ms.keywords: RtlOemStringToCountedUnicodeSize, RtlOemStringToCountedUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtocountedunicodesize, ntifs/RtlOemStringToCountedUnicodeSize, rtlref_dc10fcb6-356a-4c09-aea6-c386030039f0.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlOemStringToCountedUnicodeSize
 ---
 
-# RtlOemStringToCountedUnicodeSize macro
+# RtlOemStringToCountedUnicodeSize function (ntifs.h)
+
+
 
 
 ## -description

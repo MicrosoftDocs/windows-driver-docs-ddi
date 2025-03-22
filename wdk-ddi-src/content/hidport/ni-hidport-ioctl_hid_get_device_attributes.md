@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL"]
 ms.keywords: IOCTL_HID_GET_DEVICE_ATTRIBUTES, IOCTL_HID_GET_DEVICE_ATTRIBUTES control, IOCTL_HID_GET_DEVICE_ATTRIBUTES control code [Human Input Devices], hid.ioctl_hid_get_device_attributes, hidioreq_417c2e10-9ca8-4a9f-8a30-1ff401b65b13.xml, hidport/IOCTL_HID_GET_DEVICE_ATTRIBUTES
 req.header: hidport.h
+req.construct-type: ioctl
 req.include-header: Hidport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_GET_DEVICE_ATTRIBUTES
 ---
 
-# IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL
+# IOCTL_HID_GET_DEVICE_ATTRIBUTES IOCTL (hidport.h)
+
+
+
+
 
 
 ## -description

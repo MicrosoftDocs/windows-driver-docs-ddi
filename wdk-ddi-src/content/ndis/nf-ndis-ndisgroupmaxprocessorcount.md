@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGroupMaxProcessorCount function"]
 ms.keywords: NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisGroupMaxProcessorCount, ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml, netvista.ndisgroupmaxprocessorcount
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisGroupMaxProcessorCount
 ---
 
-# NdisGroupMaxProcessorCount function
+# NdisGroupMaxProcessorCount function (ndis.h)
+
+
 
 
 ## -description

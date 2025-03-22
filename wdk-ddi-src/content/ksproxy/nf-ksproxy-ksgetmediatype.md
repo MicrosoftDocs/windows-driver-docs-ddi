@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetMediaType function"]
 ms.keywords: KsGetMediaType, KsGetMediaType function [Streaming Media Devices], ksproxy/KsGetMediaType, ksproxy_6472bffc-0280-4954-80f5-7e2ae2b2f49b.xml, stream.ksgetmediatype
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetMediaType
 ---
 
-# KsGetMediaType function
+# KsGetMediaType function (ksproxy.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwCreateKeyTransacted function"]
 ms.keywords: ZwCreateKeyTransacted, ZwCreateKeyTransacted routine [Kernel-Mode Driver Architecture], k111_7063495c-2357-4c51-b708-f72ed52bc166.xml, kernel.zwcreatekeytransacted, wdm/ZwCreateKeyTransacted
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ZwCreateKeyTransacted
 ---
 
-# ZwCreateKeyTransacted function
+# ZwCreateKeyTransacted function (wdm.h)
+
+
 
 
 ## -description

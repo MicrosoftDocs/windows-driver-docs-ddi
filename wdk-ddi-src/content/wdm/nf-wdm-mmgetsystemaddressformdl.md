@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["MmGetSystemAddressForMdl macro"]
 ms.keywords: MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl, wdm/MmGetSystemAddressForMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Obsolete. Use MmGetSystemAddressForMdlSafe instead.
@@ -39,7 +40,9 @@ api_name:
  - MmGetSystemAddressForMdl
 ---
 
-# MmGetSystemAddressForMdl macro
+# MmGetSystemAddressForMdl function (wdm.h)
+
+
 
 ## -description
 

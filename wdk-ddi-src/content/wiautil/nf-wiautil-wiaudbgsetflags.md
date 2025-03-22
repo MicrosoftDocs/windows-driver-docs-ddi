@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgSetFlags macro"]
 ms.keywords: image.wiaudbgsetflags, wiauDbgSetFlags, wiauDbgSetFlags function [Imaging Devices], wiauFncs_d0f9a6a3-6958-44cb-9467-7f6413f95ca7.xml, wiautil/wiauDbgSetFlags
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgSetFlags
 ---
 
-# wiauDbgSetFlags macro
+# wiauDbgSetFlags function (wiautil.h)
+
+
 
 
 ## -description

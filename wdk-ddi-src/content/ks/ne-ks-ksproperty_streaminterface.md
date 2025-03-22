@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_STREAMINTERFACE enumeration"]
 ms.keywords: KSPROPERTY_STREAMINTERFACE, KSPROPERTY_STREAMINTERFACE enumeration [Streaming Media Devices], KSPROPERTY_STREAMINTERFACE_HEADERSIZE, ks/KSPROPERTY_STREAMINTERFACE, ks/KSPROPERTY_STREAMINTERFACE_HEADERSIZE, stream.ksproperty_streaminterface
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_STREAMINTERFACE
 ---
 
-# KSPROPERTY_STREAMINTERFACE enumeration
+# KSPROPERTY_STREAMINTERFACE enumeration (ks.h)
+
+
 
 
 ## -description

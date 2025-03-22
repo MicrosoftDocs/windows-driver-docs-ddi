@@ -10,6 +10,7 @@ f1_keywords:
  - "DSI_CONTROL_TRANSMISSION_MODE"
 ms.keywords: DSI_CONTROL_TRANSMISSION_MODE, DSI_CONTROL_TRANSMISSION_MODE, 
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 1903
@@ -33,7 +34,9 @@ dev_langs:
 ms.custom: 19H1
 ---
 
-# DSI_CONTROL_TRANSMISSION_MODE enumeration
+# DSI_CONTROL_TRANSMISSION_MODE enumeration (ntddvdeo.h)
+
+
 
 ## -description
 

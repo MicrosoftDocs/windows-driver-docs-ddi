@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["StreamClassGetPhysicalAddress function"]
 ms.keywords: StreamClassGetPhysicalAddress, StreamClassGetPhysicalAddress routine [Streaming Media Devices], strclass-routines_e8d5c2ab-3cfa-4bb7-b4f7-e57908c2c6f8.xml, stream.streamclassgetphysicaladdress, strmini/StreamClassGetPhysicalAddress
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - StreamClassGetPhysicalAddress
 ---
+
+# StreamClassGetPhysicalAddress function (strmini.h)
 
 ## -description
 

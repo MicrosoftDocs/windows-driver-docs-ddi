@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaValidateNodeProperty function"]
 ms.keywords: BdaValidateNodeProperty, BdaValidateNodeProperty function [Streaming Media Devices], bdaref_a6f1ec2f-9e23-4cbb-a3dc-fab0d2c5ca1c.xml, bdasup/BdaValidateNodeProperty, stream.bdavalidatenodeproperty
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaValidateNodeProperty
 ---
+
+# BdaValidateNodeProperty function (bdasup.h)
 
 ## -description
 

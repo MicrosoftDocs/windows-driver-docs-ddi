@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_ACE_STATE enumeration"]
 ms.keywords: "*PWWAN_ACE_STATE, WWAN_ACE_STATE, WWAN_ACE_STATE enumeration [Network Drivers Starting with Windows Vista], WwanAutoOff, WwanAutoOn, WwanManualOff, WwanManualOn, _WWAN_ACE_STATE, netvista.wwan_ace_state, wwan/WWAN_ACE_STATE, wwan/WwanAutoOff, wwan/WwanAutoOn, wwan/WwanManualOff, wwan/WwanManualOn"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_ACE_STATE
 ---
 
-# _WWAN_ACE_STATE enumeration
+# WWAN_ACE_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

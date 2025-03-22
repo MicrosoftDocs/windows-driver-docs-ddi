@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WheaGetErrPacketFromErrRecord function"]
 ms.keywords: WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications], ntddk/WheaGetErrPacketFromErrRecord, whea.wheageterrpacketfromerrrecord, whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - WheaGetErrPacketFromErrRecord
 ---
 
-# WheaGetErrPacketFromErrRecord function
+# WheaGetErrPacketFromErrRecord function (ntddk.h)
+
+
 
 
 ## -description

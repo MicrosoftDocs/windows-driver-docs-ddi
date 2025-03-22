@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTWaitForIdle function"]
 ms.keywords: D3DKMTWaitForIdle, D3DKMTWaitForIdle function [Display Devices], OpenGL_Functions_80855290-d991-4e03-aa64-f0fb486c57b0.xml, d3dkmthk/D3DKMTWaitForIdle, display.d3dkmtwaitforidle
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTWaitForIdle
 ---
 
-# D3DKMTWaitForIdle function
+# D3DKMTWaitForIdle function (d3dkmthk.h)
+
+
 
 
 ## -description

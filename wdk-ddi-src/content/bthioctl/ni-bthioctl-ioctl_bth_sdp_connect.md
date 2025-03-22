@@ -8,6 +8,7 @@ ms.date: 06/15/2023
 keywords: ["IOCTL_BTH_SDP_CONNECT IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_CONNECT, IOCTL_BTH_SDP_CONNECT control, IOCTL_BTH_SDP_CONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_connect, bth_ioctls_e03c93b3-b2af-40d0-a296-bb76f33c38a2.xml, bthioctl/IOCTL_BTH_SDP_CONNECT
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_SDP_CONNECT
 ---
 
-# IOCTL_BTH_SDP_CONNECT IOCTL
+# IOCTL_BTH_SDP_CONNECT IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

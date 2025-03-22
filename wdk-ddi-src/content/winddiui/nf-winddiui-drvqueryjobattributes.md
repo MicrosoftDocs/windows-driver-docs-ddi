@@ -8,6 +8,7 @@ ms.date: 06/25/2020
 keywords: ["DrvQueryJobAttributes function"]
 ms.keywords: DrvQueryJobAttributes, DrvQueryJobAttributes function [Print Devices], print.drvqueryjobattributes, print_interface-graphics_3fc2f9a4-bfe5-4323-a73e-6ac3ca9cf217.xml, winddiui/DrvQueryJobAttributes
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DrvQueryJobAttributes
 ---
 
-# DrvQueryJobAttributes function
+# DrvQueryJobAttributes function (winddiui.h)
+
+
 
 
 ## -description

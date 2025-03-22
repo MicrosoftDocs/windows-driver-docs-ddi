@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisDeregisterDeviceEx function"]
 ms.keywords: NdisDeregisterDeviceEx, NdisDeregisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterDeviceEx, ndis_devices_ref_40ed1b6b-39ce-43fc-ae0d-8371eab300d7.xml, netvista.ndisderegisterdeviceex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisDeregisterDeviceEx
 ---
 
-# NdisDeregisterDeviceEx function
+# NdisDeregisterDeviceEx function (ndis.h)
+
+
 
 
 ## -description

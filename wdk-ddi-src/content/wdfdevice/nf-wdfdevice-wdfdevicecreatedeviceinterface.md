@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 keywords: ["WdfDeviceCreateDeviceInterface function"]
 ms.keywords: DFDeviceObjectGeneralRef_467c4866-4ba7-4450-9aec-e63c3172d604.xml, WdfDeviceCreateDeviceInterface, WdfDeviceCreateDeviceInterface method, kmdf.wdfdevicecreatedeviceinterface, wdf.wdfdevicecreatedeviceinterface, wdfdevice/WdfDeviceCreateDeviceInterface
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceCreateDeviceInterface
 ---
 
-# WdfDeviceCreateDeviceInterface function
+# WdfDeviceCreateDeviceInterface function (wdfdevice.h)
+
+
 
 
 ## -description

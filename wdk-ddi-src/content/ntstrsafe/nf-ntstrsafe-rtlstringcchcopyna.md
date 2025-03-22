@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCchCopyNA function"]
 ms.keywords: RtlStringCchCopyN, RtlStringCchCopyNA, RtlStringCchCopyNW, RtlStringCchCopyNW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcopyn, ntstrsafe/RtlStringCchCopyNW, safestrings_6ecbc673-80c3-4568-a6e3-96865035bfed.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCchCopyNA
 ---
 
-# RtlStringCchCopyNA function
+# RtlStringCchCopyNA function (ntstrsafe.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/18/2022
 keywords: ["FltQueueDeferredIoWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_df42429d-485c-4c28-a9e7-b334d7ad52d7.xml, FltQueueDeferredIoWorkItem, FltQueueDeferredIoWorkItem routine [Installable File System Drivers], fltkernel/FltQueueDeferredIoWorkItem, ifsk.fltqueuedeferredioworkitem
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - FltQueueDeferredIoWorkItem
 ---
 
-# FltQueueDeferredIoWorkItem function
+# FltQueueDeferredIoWorkItem function (fltkernel.h)
+
+
 
 ## -description
 

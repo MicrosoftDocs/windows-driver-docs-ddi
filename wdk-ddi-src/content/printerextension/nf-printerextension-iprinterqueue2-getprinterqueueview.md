@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IPrinterQueue2::GetPrinterQueueView"]
 ms.keywords: GetPrinterQueueView, GetPrinterQueueView method [Print Devices], GetPrinterQueueView method [Print Devices],IPrinterQueue2 interface, IPrinterQueue2 interface [Print Devices],GetPrinterQueueView method, IPrinterQueue2.GetPrinterQueueView, IPrinterQueue2::GetPrinterQueueView, print.iprinterqueue2_getprinterqueueview, printerextension/IPrinterQueue2::GetPrinterQueueView
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterQueue2::GetPrinterQueueView
 ---
+
+# IPrinterQueue2::GetPrinterQueueView function (printerextension.h)
 
 ## -description
 

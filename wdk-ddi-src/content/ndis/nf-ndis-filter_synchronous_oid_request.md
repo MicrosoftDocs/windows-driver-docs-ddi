@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FILTER_SYNCHRONOUS_OID_REQUEST function"]
 ms.keywords: FILTER_SYNCHRONOUS_OID_REQUEST, FilterSynchronousOidRequest, FilterSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/FilterSynchronousOidRequest, netvista.filter_synchronous_oid_request
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - FILTER_SYNCHRONOUS_OID_REQUEST
 ---
 
-# FILTER_SYNCHRONOUS_OID_REQUEST function
+# FILTER_SYNCHRONOUS_OID_REQUEST function (ndis.h)
+
+
 
 
 ## -description

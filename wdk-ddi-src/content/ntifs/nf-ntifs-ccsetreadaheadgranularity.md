@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcSetReadAheadGranularity function"]
 ms.keywords: CcSetReadAheadGranularity, CcSetReadAheadGranularity routine [Installable File System Drivers], ccref_9b995224-0e59-43c6-b827-c15d9ae6e86c.xml, ifsk.ccsetreadaheadgranularity, ntifs/CcSetReadAheadGranularity
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcSetReadAheadGranularity
 ---
 
-# CcSetReadAheadGranularity function
+# CcSetReadAheadGranularity function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceAssignSxWakeSettings function"]
 ms.keywords: DFDeviceObjectGeneralRef_1a9b9467-862d-422a-9cf6-501d1ddefe5e.xml, WdfDeviceAssignSxWakeSettings, WdfDeviceAssignSxWakeSettings method, kmdf.wdfdeviceassignsxwakesettings, wdf.wdfdeviceassignsxwakesettings, wdfdevice/WdfDeviceAssignSxWakeSettings
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceAssignSxWakeSettings
 ---
 
-# WdfDeviceAssignSxWakeSettings function
+# WdfDeviceAssignSxWakeSettings function (wdfdevice.h)
+
+
 
 
 ## -description

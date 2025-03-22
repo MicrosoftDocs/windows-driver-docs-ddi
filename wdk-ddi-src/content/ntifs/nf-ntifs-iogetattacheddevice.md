@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["IoGetAttachedDevice function"]
 ms.keywords: IoGetAttachedDevice, IoGetAttachedDevice routine [Installable File System Drivers], ifsk.iogetattacheddevice, ioref_5a77f51f-2bea-4991-bf10-965e6b72e9ab.xml, ntifs/IoGetAttachedDevice
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - IoGetAttachedDevice
 ---
 
-# IoGetAttachedDevice function
+# IoGetAttachedDevice function (ntifs.h)
+
+
 
 ## -description
 

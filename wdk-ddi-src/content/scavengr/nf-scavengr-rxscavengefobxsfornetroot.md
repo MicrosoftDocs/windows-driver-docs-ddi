@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxScavengeFobxsForNetRoot function"]
 ms.keywords: RxScavengeFobxsForNetRoot, RxScavengeFobxsForNetRoot function [Installable File System Drivers], ifsk.rxscavengefobxsfornetroot, rxref_9fac9a87-f068-4ee4-909c-85a41c9884d6.xml, scavengr/RxScavengeFobxsForNetRoot
 req.header: scavengr.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxScavengeFobxsForNetRoot
 ---
 
-# RxScavengeFobxsForNetRoot function
+# RxScavengeFobxsForNetRoot function (scavengr.h)
+
+
 
 
 ## -description

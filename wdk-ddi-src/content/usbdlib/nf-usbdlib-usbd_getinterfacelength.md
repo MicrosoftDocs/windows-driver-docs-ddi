@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_GetInterfaceLength function"]
 ms.keywords: USBD_GetInterfaceLength, USBD_GetInterfaceLength routine [Buses], buses.usbd_getinterfacelength, usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - USBD_GetInterfaceLength
 ---
 
-# USBD_GetInterfaceLength function
+# USBD_GetInterfaceLength function (usbdlib.h)
+
+
 
 
 ## -description

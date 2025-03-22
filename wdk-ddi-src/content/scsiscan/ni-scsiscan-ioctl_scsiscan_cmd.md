@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_SCSISCAN_CMD IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_CMD, IOCTL_SCSISCAN_CMD control, IOCTL_SCSISCAN_CMD control code [Imaging Devices], image.ioctl_scsiscan_cmd, scsiscan/IOCTL_SCSISCAN_CMD, stifnc_da087c9b-101a-47c9-b546-ba887b05dca0.xml
 req.header: scsiscan.h
+req.construct-type: ioctl
 req.include-header: Scsiscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSISCAN_CMD
 ---
 
-# IOCTL_SCSISCAN_CMD IOCTL
+# IOCTL_SCSISCAN_CMD IOCTL (scsiscan.h)
+
+
+
+
 
 
 ## -description

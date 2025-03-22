@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE enumeration"]
 ms.keywords: _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE, D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE,
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE enumeration
+# D3DDDIGPUVIRTUALADDRESS_RESERVATION_TYPE enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

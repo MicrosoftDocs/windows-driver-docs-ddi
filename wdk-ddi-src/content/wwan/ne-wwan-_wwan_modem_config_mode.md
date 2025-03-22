@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_MODEM_CONFIG_MODE enumeration"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE, PWWAN_MODEM_CONFIG_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_MODE, WWAN_MODEM_CONFIG_MODE enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigModeHostCentric, WwanModemConfigModeMax, WwanModemConfigModeModemCentric, WwanModemConfigModeUnknown, _WWAN_MODEM_CONFIG_MODE, netvista.wwan_modem_config_mode, wwan/PWWAN_MODEM_CONFIG_MODE, wwan/WWAN_MODEM_CONFIG_MODE, wwan/WwanModemConfigModeHostCentric, wwan/WwanModemConfigModeMax, wwan/WwanModemConfigModeModemCentric, wwan/WwanModemConfigModeUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_MODEM_CONFIG_MODE
 ---
 
-# _WWAN_MODEM_CONFIG_MODE enumeration
+# WWAN_MODEM_CONFIG_MODE enumeration (wwan.h)
+
+
 
 
 ## -description

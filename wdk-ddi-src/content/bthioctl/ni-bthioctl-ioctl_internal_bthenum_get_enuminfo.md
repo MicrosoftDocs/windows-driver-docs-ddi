@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO, IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control, IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_enuminfo, bth_ioctls_110043d4-a637-4e7a-91d4-fd15a4c39a05.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO
 ---
 
-# IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO IOCTL
+# IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

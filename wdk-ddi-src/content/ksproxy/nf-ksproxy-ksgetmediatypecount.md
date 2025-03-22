@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetMediaTypeCount function"]
 ms.keywords: KsGetMediaTypeCount, KsGetMediaTypeCount function [Streaming Media Devices], ksproxy/KsGetMediaTypeCount, ksproxy_77c6249c-2b35-4d9e-afff-b01cf5518a73.xml, stream.ksgetmediatypecount
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetMediaTypeCount
 ---
 
-# KsGetMediaTypeCount function
+# KsGetMediaTypeCount function (ksproxy.h)
+
+
 
 
 ## -description

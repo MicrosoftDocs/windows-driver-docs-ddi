@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInitializeDpc function"]
 ms.keywords: StorPortInitializeDpc, StorPortInitializeDpc routine [Storage Devices], storage.storportinitializedpc, storport/StorPortInitializeDpc, storprt_984c8e07-f6c8-452f-a333-dd23a0fdf9f7.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortInitializeDpc
 ---
 
-# StorPortInitializeDpc function
+# StorPortInitializeDpc function (storport.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMImageProcessing function"]
 ms.keywords: OEMImageProcessing, OEMImageProcessing function [Print Devices], print.oemimageprocessing, print_obsoletefunctions_c65011ae-a69c-4cbe-88a8-13847401c7df.xml, printoem/OEMImageProcessing
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMImageProcessing
 ---
+
+# OEMImageProcessing function (printoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SES_DOWNLOAD_MICROCODE_STATE enumeration"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATE, PSES_DOWNLOAD_MICROCODE_STATE, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], SesDownloadMcStateCompletedPendingActivation, SesDownloadMcStateCompletedPendingPowerOn, SesDownloadMcStateCompletedPendingReset, SesDownloadMcStateInProgress, SesDownloadMcStateNoneInProgress, _SES_DOWNLOAD_MICROCODE_STATE, scsi/PSES_DOWNLOAD_MICROCODE_STATE, scsi/SES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingActivation, scsi/SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateCompletedPendingReset, scsi/SesDownloadMcStateInProgress, scsi/SesDownloadMcStateNoneInProgress, storage.ses_download_microcode_state"
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - SES_DOWNLOAD_MICROCODE_STATE
 ---
 
-# _SES_DOWNLOAD_MICROCODE_STATE enumeration (storport.h)
+# SES_DOWNLOAD_MICROCODE_STATE enumeration (storport.h)
+
+
 
 
 ## -description

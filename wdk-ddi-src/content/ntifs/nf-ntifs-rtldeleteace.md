@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlDeleteAce function"]
 ms.keywords: RtlDeleteAce, RtlDeleteAce routine [Installable File System Drivers], ifsk.rtldeleteace, ntifs/RtlDeleteAce, rtlref_68fe46f1-318a-48c6-9004-c338f52f41a5.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003 SP1
@@ -39,7 +40,9 @@ api_name:
  - RtlDeleteAce
 ---
 
-# RtlDeleteAce function
+# RtlDeleteAce function (ntifs.h)
+
+
 
 ## -description
 

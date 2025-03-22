@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRegisterDriverReinitialization function"]
 ms.keywords: IoRegisterDriverReinitialization, IoRegisterDriverReinitialization routine [Kernel-Mode Driver Architecture], k104_998f1835-132c-49f3-886d-6d78dee35b9d.xml, kernel.ioregisterdriverreinitialization, ntddk/IoRegisterDriverReinitialization
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterDriverReinitialization
 ---
 
-# IoRegisterDriverReinitialization function
+# IoRegisterDriverReinitialization function (ntddk.h)
+
+
 
 
 ## -description

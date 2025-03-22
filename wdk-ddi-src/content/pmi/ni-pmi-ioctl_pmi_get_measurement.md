@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_GET_MEASUREMENT IOCTL"]
 ms.keywords: IOCTL_PMI_GET_MEASUREMENT, IOCTL_PMI_GET_MEASUREMENT control, IOCTL_PMI_GET_MEASUREMENT control code [Power Metering and Budgeting Devices], PowerMeterRef_2317a4b3-7909-4c52-a012-39c892a39154.xml, pmi/IOCTL_PMI_GET_MEASUREMENT, powermeter.ioctl_pmi_get_measurement
 req.header: pmi.h
+req.construct-type: ioctl
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PMI_GET_MEASUREMENT
 ---
 
-# IOCTL_PMI_GET_MEASUREMENT IOCTL
+# IOCTL_PMI_GET_MEASUREMENT IOCTL (pmi.h)
+
+
+
+
 
 
 ## -description

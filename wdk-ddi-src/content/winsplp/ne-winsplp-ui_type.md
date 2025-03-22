@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["UI_TYPE enumeration"]
 ms.keywords: UI_TYPE, UI_TYPE enumeration [Print Devices], kMessageBox, print.ui_type, winsplp/UI_TYPE, winsplp/kMessageBox
 req.header: winsplp.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UI_TYPE
 ---
 
-# UI_TYPE enumeration
+# UI_TYPE enumeration (winsplp.h)
+
+
 
 
 ## -description

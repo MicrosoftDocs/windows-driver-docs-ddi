@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSubmitWaitForSyncObjectsToHwQueue function"]
 ms.keywords: D3DKMTSubmitWaitForSyncObjectsToHwQueue, D3DKMTSubmitWaitForSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitWaitForSyncObjectsToHwQueue, display.d3dkmtsubmitwaitforsyncobjectstohwqueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSubmitWaitForSyncObjectsToHwQueue
 ---
 
-# D3DKMTSubmitWaitForSyncObjectsToHwQueue function
+# D3DKMTSubmitWaitForSyncObjectsToHwQueue function (d3dkmthk.h)
+
+
 
 ## -description
 

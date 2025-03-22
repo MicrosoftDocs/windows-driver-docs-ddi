@@ -8,6 +8,7 @@ ms.date: 04/28/2022
 keywords: ["HidD_SetFeature function"]
 ms.keywords: HidD_SetFeature, HidD_SetFeature routine [Human Input Devices], hid.hidd_setfeature, hidfunc_f34ed05a-c8c1-44e3-ab94-a8df000aac7d.xml, hidsdi/HidD_SetFeature
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_SetFeature
 ---
 
-# HidD_SetFeature function
+# HidD_SetFeature function (hidsdi.h)
+
+
 
 ## -description
 

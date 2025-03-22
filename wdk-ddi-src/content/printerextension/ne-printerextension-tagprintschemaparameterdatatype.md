@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["tagPrintSchemaParameterDataType enumeration"]
 ms.keywords: PrintSchemaParameterDataType, PrintSchemaParameterDataType enumeration [Print Devices], PrintSchemaParameterDataType_Integer, PrintSchemaParameterDataType_NumericString, PrintSchemaParameterDataType_String, print.tagprintschemaparameterdatatype, printerextension/PrintSchemaParameterDataType, printerextension/PrintSchemaParameterDataType_Integer, printerextension/PrintSchemaParameterDataType_NumericString, printerextension/PrintSchemaParameterDataType_String, tagPrintSchemaParameterDataType
 req.header: printerextension.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -41,6 +42,8 @@ api_name:
  - tagPrintSchemaParameterDataType
  - PrintSchemaParameterDataType
 ---
+
+# tagPrintSchemaParameterDataType enumeration (printerextension.h)
 
 ## -description
 

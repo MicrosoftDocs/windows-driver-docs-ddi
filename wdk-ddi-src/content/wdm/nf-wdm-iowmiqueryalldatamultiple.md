@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIQueryAllDataMultiple function"]
 ms.keywords: IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, kernel.iowmiqueryalldatamultiple, wdm/IoWMIQueryAllDataMultiple
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIQueryAllDataMultiple
 ---
 
-# IoWMIQueryAllDataMultiple function
+# IoWMIQueryAllDataMultiple function (wdm.h)
+
+
 
 
 ## -description

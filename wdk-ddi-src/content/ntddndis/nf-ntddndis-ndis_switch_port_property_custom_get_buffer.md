@@ -7,6 +7,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER macro"]
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER
 req.header: ntddndis.h
+req.construct-type: function
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -38,7 +39,9 @@ api_name:
  - NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER
 ---
 
-# NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER macro
+# NDIS_SWITCH_PORT_PROPERTY_CUSTOM_GET_BUFFER function (ntddndis.h)
+
+
 
 
 ## -description

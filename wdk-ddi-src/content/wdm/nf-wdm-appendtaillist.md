@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["AppendTailList function"]
 ms.keywords: AppendTailList, AppendTailList routine [Kernel-Mode Driver Architecture], kernel.appendtaillist, wdm/AppendTailList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - AppendTailList
 ---
+
+# AppendTailList function (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function"]
 ms.keywords: UdecxUsbDeviceSetFunctionSuspendAndWakeComplete, UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function [Buses], buses.udecxusbdevicesetfunctionsuspendandwakecomplete, udecxusbdevice/UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceSetFunctionSuspendAndWakeComplete
 ---
 
-# UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function
+# UdecxUsbDeviceSetFunctionSuspendAndWakeComplete function (udecxusbdevice.h)
+
+
 
 
 ## -description

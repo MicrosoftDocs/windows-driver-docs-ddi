@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlPrepareMdlWriteEx function"]
 ms.keywords: FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwriteex, ntifs/FsRtlPrepareMdlWriteEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlPrepareMdlWriteEx function
+# FsRtlPrepareMdlWriteEx function (ntifs.h)
+
+
 
 
 ## -description

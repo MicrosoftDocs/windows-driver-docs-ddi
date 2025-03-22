@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["NOTIFICATION_CONFIG_FLAGS enumeration"]
 ms.keywords: NOTIFICATION_CONFIG_ASYNC_CHANNEL, NOTIFICATION_CONFIG_CREATE_EVENT, NOTIFICATION_CONFIG_EVENT_TRIGGER, NOTIFICATION_CONFIG_FLAGS, NOTIFICATION_CONFIG_FLAGS enumeration [Print Devices], NOTIFICATION_CONFIG_REGISTER_CALLBACK, _NOTIFICATION_CONFIG_FLAGS, print.notification_config_flags, winsplp/NOTIFICATION_CONFIG_ASYNC_CHANNEL, winsplp/NOTIFICATION_CONFIG_CREATE_EVENT, winsplp/NOTIFICATION_CONFIG_EVENT_TRIGGER, winsplp/NOTIFICATION_CONFIG_FLAGS, winsplp/NOTIFICATION_CONFIG_REGISTER_CALLBACK
 req.header: winsplp.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - NOTIFICATION_CONFIG_FLAGS
 ---
 
-# _NOTIFICATION_CONFIG_FLAGS enumeration
+# NOTIFICATION_CONFIG_FLAGS enumeration (winsplp.h)
+
+
 
 
 ## -description

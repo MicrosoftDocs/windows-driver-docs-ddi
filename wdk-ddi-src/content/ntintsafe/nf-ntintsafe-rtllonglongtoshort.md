@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlLongLongToShort function"]
 ms.keywords: RtlLongLongToShort, RtlLongLongToShort function [Kernel-Mode Driver Architecture], kernel.rtllonglongtoshort, ntintsafe/RtlLongLongToShort
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlLongLongToShort
 ---
 
-# RtlLongLongToShort function
+# RtlLongLongToShort function (ntintsafe.h)
+
+
 
 
 ## -description

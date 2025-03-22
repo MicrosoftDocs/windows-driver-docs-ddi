@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetSendInternalIoctlOthersSynchronously function"]
 ms.keywords: DFIOTargetRef_78072360-08c2-4a51-be52-8e00425c5ba2.xml, WdfIoTargetSendInternalIoctlOthersSynchronously, WdfIoTargetSendInternalIoctlOthersSynchronously method, kmdf.wdfiotargetsendinternalioctlotherssynchronously, wdf.wdfiotargetsendinternalioctlotherssynchronously, wdfiotarget/WdfIoTargetSendInternalIoctlOthersSynchronously
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoTargetSendInternalIoctlOthersSynchronously
 ---
 
-# WdfIoTargetSendInternalIoctlOthersSynchronously function
+# WdfIoTargetSendInternalIoctlOthersSynchronously function (wdfiotarget.h)
+
+
 
 
 ## -description

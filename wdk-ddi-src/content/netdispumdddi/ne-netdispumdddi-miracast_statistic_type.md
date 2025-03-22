@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["MIRACAST_STATISTIC_TYPE enumeration"]
 ms.keywords: MIRACAST_STATISTIC_TYPE, MIRACAST_STATISTIC_TYPE enumeration [Display Devices], MIRACAST_STATISTIC_TYPE_CHUNK_PROCESSING_COMPLETE, MIRACAST_STATISTIC_TYPE_CHUNK_SENT, MIRACAST_STATISTIC_TYPE_EVENT, MIRACAST_STATISTIC_TYPE_FORCE_UINT32, display.miracast_statistic_type, netdispumdddi/MIRACAST_STATISTIC_TYPE, netdispumdddi/MIRACAST_STATISTIC_TYPE_CHUNK_PROCESSING_COMPLETE, netdispumdddi/MIRACAST_STATISTIC_TYPE_CHUNK_SENT, netdispumdddi/MIRACAST_STATISTIC_TYPE_EVENT, netdispumdddi/MIRACAST_STATISTIC_TYPE_FORCE_UINT32
 req.header: netdispumdddi.h
+req.construct-type: enumeration
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - MIRACAST_STATISTIC_TYPE
 ---
 
-# MIRACAST_STATISTIC_TYPE enumeration
+# MIRACAST_STATISTIC_TYPE enumeration (netdispumdddi.h)
+
+
 
 
 ## -description

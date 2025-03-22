@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortEnumerateChildren function"]
 ms.keywords: VideoPortEnumerateChildren, VideoPortEnumerateChildren function [Display Devices], VideoPort_Functions_8bc790f2-319f-41a6-9bf7-02a8605d2cc1.xml, display.videoportenumeratechildren, video/VideoPortEnumerateChildren
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortEnumerateChildren
 ---
 
-# VideoPortEnumerateChildren function
+# VideoPortEnumerateChildren function (video.h)
+
+
 
 
 ## -description

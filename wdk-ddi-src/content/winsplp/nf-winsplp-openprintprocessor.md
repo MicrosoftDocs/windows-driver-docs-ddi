@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["OpenPrintProcessor function"]
 ms.keywords: OpenPrintProcessor, OpenPrintProcessor function [Print Devices], print.openprintprocessor, spoolfnc_b8a185f0-4289-49bb-bb98-b6f54b66fa70.xml, winsplp/OpenPrintProcessor
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - OpenPrintProcessor
 ---
 
-# OpenPrintProcessor function
+# OpenPrintProcessor function (winsplp.h)
+
+
 
 
 ## -description

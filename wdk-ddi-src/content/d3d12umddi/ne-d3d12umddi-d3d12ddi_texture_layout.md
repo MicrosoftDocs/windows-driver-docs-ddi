@@ -7,6 +7,7 @@ ms.date: 09/22/2022
 keywords: ["D3D12DDI_TEXTURE_LAYOUT enumeration"]
 ms.keywords: D3D12DDI_TEXTURE_LAYOUT, D3D12DDI_TEXTURE_LAYOUT enumeration [Display Devices], D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, D3D12DDI_TL_ROW_MAJOR, D3D12DDI_TL_UNDEFINED, d3d12umddi/D3D12DDI_TEXTURE_LAYOUT, d3d12umddi/D3D12DDI_TL_64KB_TILE_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_TL_64KB_TILE_UNDEFINED_SWIZZLE, d3d12umddi/D3D12DDI_TL_DEVICE_DEPENDENT_SWIZZLE_0, d3d12umddi/D3D12DDI_TL_ROW_MAJOR, d3d12umddi/D3D12DDI_TL_UNDEFINED, display.d3d12ddi_texture_layout
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_TEXTURE_LAYOUT
 ---
 
-# D3D12DDI_TEXTURE_LAYOUT enumeration
+# D3D12DDI_TEXTURE_LAYOUT enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

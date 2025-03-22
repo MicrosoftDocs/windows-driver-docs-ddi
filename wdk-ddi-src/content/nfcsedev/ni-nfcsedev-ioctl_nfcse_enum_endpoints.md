@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL"]
 ms.keywords: IOCTL_NFCSE_ENUM_ENDPOINTS, IOCTL_NFCSE_ENUM_ENDPOINTS control, IOCTL_NFCSE_ENUM_ENDPOINTS control code [Near-Field Proximity Drivers], _IOCTL_NFCSE_ENUM_ENDPOINTS, nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS, nfpdrivers.ioctl_nfcse_enum_endpoints
 req.header: nfcsedev.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_NFCSE_ENUM_ENDPOINTS
 ---
 
-# IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL
+# IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL (nfcsedev.h)
+
+
+
+
 
 
 ## -description

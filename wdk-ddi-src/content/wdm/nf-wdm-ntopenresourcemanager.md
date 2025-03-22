@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtOpenResourceManager function"]
 ms.keywords: NtOpenResourceManager, ZwOpenResourceManager, ZwOpenResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwopenresourcemanager, ktm_ref_f873ba66-20d0-4498-a8b6-d62bf8593d05.xml, wdm/NtOpenResourceManager, wdm/ZwOpenResourceManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - NtOpenResourceManager
 ---
 
-# NtOpenResourceManager function
+# NtOpenResourceManager function (wdm.h)
+
+
 
 
 ## -description

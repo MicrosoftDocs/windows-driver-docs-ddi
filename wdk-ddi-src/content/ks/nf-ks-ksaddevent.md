@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAddEvent function"]
 ms.keywords: KsAddEvent, KsAddEvent function [Streaming Media Devices], avfunc_20b264e1-c7ad-4b24-bff3-996b9d478a44.xml, ks/KsAddEvent, stream.ksaddevent
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsAddEvent
 ---
 
-# KsAddEvent function
+# KsAddEvent function (ks.h)
+
+
 
 
 ## -description

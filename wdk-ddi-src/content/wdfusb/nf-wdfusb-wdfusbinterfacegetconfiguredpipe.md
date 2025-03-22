@@ -8,6 +8,7 @@ ms.date: 01/26/2022
 keywords: ["WdfUsbInterfaceGetConfiguredPipe function"]
 ms.keywords: DFUsbRef_65a97d99-39c5-4750-95e1-6c9c20c169bb.xml, WdfUsbInterfaceGetConfiguredPipe, WdfUsbInterfaceGetConfiguredPipe method, kmdf.wdfusbinterfacegetconfiguredpipe, wdf.wdfusbinterfacegetconfiguredpipe, wdfusb/WdfUsbInterfaceGetConfiguredPipe
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetConfiguredPipe
 ---
 
-# WdfUsbInterfaceGetConfiguredPipe function
+# WdfUsbInterfaceGetConfiguredPipe function (wdfusb.h)
+
+
 
 
 ## -description

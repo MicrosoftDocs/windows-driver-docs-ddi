@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestMarkCancelable function"]
 ms.keywords: DFRequestObjectRef_29a4ad0c-ce28-4f4b-b015-90b067feaeec.xml, WdfRequestMarkCancelable, WdfRequestMarkCancelable method, kmdf.wdfrequestmarkcancelable, wdf.wdfrequestmarkcancelable, wdfrequest/WdfRequestMarkCancelable
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestMarkCancelable
 ---
 
-# WdfRequestMarkCancelable function
+# WdfRequestMarkCancelable function (wdfrequest.h)
+
+
 
 
 ## -description

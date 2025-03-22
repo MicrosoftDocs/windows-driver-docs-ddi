@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MsrErrorReportingType enumeration"]
 ms.keywords: MsrErrorReportingType, MsrErrorReportingType enumeration, MsrErrorReportingType_CardLevel, MsrErrorReportingType_TrackLevel, _MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, pos.msrerrorreportingtype
 req.header: pointofservicedriverinterface.h
+req.construct-type: enumeration
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - MsrErrorReportingType
 ---
 
-# _MsrErrorReportingType enumeration
+# MsrErrorReportingType enumeration (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

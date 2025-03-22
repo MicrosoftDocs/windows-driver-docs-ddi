@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlUpcaseUnicodeStringToCountedOemString function"]
 ms.keywords: RtlUpcaseUnicodeStringToCountedOemString, RtlUpcaseUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlupcaseunicodestringtocountedoemstring, ntifs/RtlUpcaseUnicodeStringToCountedOemString, rtlref_54925045-9df1-41ef-9878-030f30e2a0f1.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RtlUpcaseUnicodeStringToCountedOemString
 ---
 
-# RtlUpcaseUnicodeStringToCountedOemString function
+# RtlUpcaseUnicodeStringToCountedOemString function (ntifs.h)
+
+
 
 ## -description
 

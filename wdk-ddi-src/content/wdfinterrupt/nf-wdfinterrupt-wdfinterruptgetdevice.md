@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptGetDevice function"]
 ms.keywords: DFInterruptObjectRef_9c646459-e17b-434f-b313-d22f3a211c4e.xml, WdfInterruptGetDevice, WdfInterruptGetDevice method, kmdf.wdfinterruptgetdevice, wdf.wdfinterruptgetdevice, wdfinterrupt/WdfInterruptGetDevice
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptGetDevice
 ---
 
-# WdfInterruptGetDevice function
+# WdfInterruptGetDevice function (wdfinterrupt.h)
+
+
 
 
 ## -description

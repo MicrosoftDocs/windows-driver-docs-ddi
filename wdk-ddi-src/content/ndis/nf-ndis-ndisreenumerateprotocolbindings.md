@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisReEnumerateProtocolBindings function"]
 ms.keywords: NdisReEnumerateProtocolBindings, NdisReEnumerateProtocolBindings function [Network Drivers Starting with Windows Vista], ndis/NdisReEnumerateProtocolBindings, netvista.ndisreenumerateprotocolbindings, protocol_ndis_functions_ref_097465b9-b6e9-435a-8ac4-6d302363e946.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisReEnumerateProtocolBindings (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisReEnumerateProtocolBindings (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisReEnumerateProtocolBindings
 ---
 
-# NdisReEnumerateProtocolBindings function
+# NdisReEnumerateProtocolBindings function (ndis.h)
+
+
 
 
 ## -description

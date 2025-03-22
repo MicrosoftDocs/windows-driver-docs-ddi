@@ -6,6 +6,7 @@ tech.root: kernel
 ms.date: 03/24/2020
 ms.keywords: RtlFreeUTF8String
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -36,7 +37,9 @@ f1_keywords:
  - wdm/RtlFreeUTF8String
 ---
 
-# RtlFreeUTF8String function
+# RtlFreeUTF8String function (wdm.h)
+
+
 
 ## -description
 

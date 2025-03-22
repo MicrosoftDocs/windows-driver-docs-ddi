@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NmrRegisterClient function"]
 ms.keywords: NmrRegisterClient, NmrRegisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterClient, netvista.nmrregisterclient, nmrref_245036b1-3c92-46e6-bc7d-763e91e8b9f3.xml
 req.header: netioddk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - NmrRegisterClient
 ---
 
-# NmrRegisterClient function
+# NmrRegisterClient function (netioddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_CHECK_VERIFY IOCTL"]
 ms.keywords: IOCTL_DISK_CHECK_VERIFY, IOCTL_DISK_CHECK_VERIFY control, IOCTL_DISK_CHECK_VERIFY control code [Storage Devices], k307_6a32996e-8526-466a-bcbe-b79b8bacadc6.xml, ntdddisk/IOCTL_DISK_CHECK_VERIFY, storage.ioctl_disk_check_verify
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_CHECK_VERIFY
 ---
 
-# IOCTL_DISK_CHECK_VERIFY IOCTL
+# IOCTL_DISK_CHECK_VERIFY IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

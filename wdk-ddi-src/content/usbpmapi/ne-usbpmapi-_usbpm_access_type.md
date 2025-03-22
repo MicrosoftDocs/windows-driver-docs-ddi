@@ -7,6 +7,7 @@ keywords: ["USBPM_ACCESS_TYPE enumeration"]
 ms.keywords: _USBPM_ACCESS_TYPE, USBPM_ACCESS_TYPE, *PUSBPM_ACCESS_TYPE,
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ api_name:
  - USBPM_ACCESS_TYPE
 ---
 
-# _USBPM_ACCESS_TYPE enumeration
+# USBPM_ACCESS_TYPE enumeration (usbpmapi.h)
+
+
 
 
 ## -description

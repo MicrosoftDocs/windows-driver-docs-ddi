@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_SHARE_VIDEO_MEMORY IOCTL"]
 ms.keywords: IOCTL_VIDEO_SHARE_VIDEO_MEMORY, IOCTL_VIDEO_SHARE_VIDEO_MEMORY control, IOCTL_VIDEO_SHARE_VIDEO_MEMORY control code [Display Devices], Video_IOCTLs_90056f20-b995-4709-9923-1f7385ebfdce.xml, display.ioctl_video_share_video_memory, ntddvdeo/IOCTL_VIDEO_SHARE_VIDEO_MEMORY
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_SHARE_VIDEO_MEMORY
 ---
 
-# IOCTL_VIDEO_SHARE_VIDEO_MEMORY IOCTL
+# IOCTL_VIDEO_SHARE_VIDEO_MEMORY IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["ARM64_SYSREG_CRN macro"]
 ms.keywords: ARM64_SYSREG_CRN
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - ARM64_SYSREG_CRN
 ---
 
-# ARM64_SYSREG_CRN macro (wdm.h)
+# ARM64_SYSREG_CRN function (wdm.h)
+
+
 
 
 ## -description

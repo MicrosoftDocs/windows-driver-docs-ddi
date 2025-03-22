@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaInterruptDpc function"]
 ms.keywords: NetDmaInterruptDpc, NetDmaInterruptDpc function [Network Drivers Starting with Windows Vista], netdma/NetDmaInterruptDpc, netdma_ref_112a0d48-213e-4b5c-a776-11d5dcb83e1b.xml, netvista.netdmainterruptdpc
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaInterruptDpc
 ---
 
-# NetDmaInterruptDpc function
+# NetDmaInterruptDpc function (netdma.h)
+
+
 
 
 ## -description

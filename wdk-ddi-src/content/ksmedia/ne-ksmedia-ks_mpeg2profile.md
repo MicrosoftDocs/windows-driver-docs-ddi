@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KS_MPEG2Profile enumeration"]
 ms.keywords: KS_MPEG2Profile, KS_MPEG2Profile enumeration [Streaming Media Devices], KS_MPEG2Profile_High, KS_MPEG2Profile_Main, KS_MPEG2Profile_SNRScalable, KS_MPEG2Profile_Simple, KS_MPEG2Profile_SpatiallyScalable, ksmedia/KS_MPEG2Profile, ksmedia/KS_MPEG2Profile_High, ksmedia/KS_MPEG2Profile_Main, ksmedia/KS_MPEG2Profile_SNRScalable, ksmedia/KS_MPEG2Profile_Simple, ksmedia/KS_MPEG2Profile_SpatiallyScalable, stream.ks_mpeg2profile, vidcapstruct_25932d29-3acc-415e-a13f-f02298c12c1d.xml
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_MPEG2Profile
 ---
 
-# KS_MPEG2Profile enumeration
+# KS_MPEG2Profile enumeration (ksmedia.h)
+
+
 
 
 ## -description

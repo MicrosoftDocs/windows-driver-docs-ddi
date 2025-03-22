@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration"]
 ms.keywords: _DXGK_SCHEDULING_LOG_CONTEXT_STATE, DXGK_SCHEDULING_LOG_CONTEXT_STATE,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration
+# DXGK_SCHEDULING_LOG_CONTEXT_STATE enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

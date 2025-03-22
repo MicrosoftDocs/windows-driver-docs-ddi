@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["ExAllocatePoolWithTag function"]
 ms.keywords: ExAllocatePoolWithTag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, kernel.exallocatepoolwithtag, wdm/ExAllocatePoolWithTag
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExAllocatePoolWithTag
 ---
+
+# ExAllocatePoolWithTag function (wdm.h)
 
 ## -description
 

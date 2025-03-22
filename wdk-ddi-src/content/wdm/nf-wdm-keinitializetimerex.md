@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeInitializeTimerEx function"]
 ms.keywords: KeInitializeTimerEx, KeInitializeTimerEx routine [Kernel-Mode Driver Architecture], k105_62ca8d08-a87a-4cbd-80fa-18b646b8500d.xml, kernel.keinitializetimerex, wdm/KeInitializeTimerEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeTimerEx
 ---
 
-# KeInitializeTimerEx function
+# KeInitializeTimerEx function (wdm.h)
+
+
 
 
 ## -description

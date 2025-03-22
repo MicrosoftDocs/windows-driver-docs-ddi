@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitAssignRawDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_afe4967c-d7ea-4c78-98ff-9bcfb98f6b80.xml, WdfPdoInitAssignRawDevice, WdfPdoInitAssignRawDevice method, kmdf.wdfpdoinitassignrawdevice, wdf.wdfpdoinitassignrawdevice, wdfpdo/WdfPdoInitAssignRawDevice
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitAssignRawDevice
 ---
 
-# WdfPdoInitAssignRawDevice function
+# WdfPdoInitAssignRawDevice function (wdfpdo.h)
+
+
 
 
 ## -description

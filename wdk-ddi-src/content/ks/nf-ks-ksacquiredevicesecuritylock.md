@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAcquireDeviceSecurityLock function"]
 ms.keywords: KsAcquireDeviceSecurityLock, KsAcquireDeviceSecurityLock function [Streaming Media Devices], ks/KsAcquireDeviceSecurityLock, ksfunc_dd097c63-acd6-4de2-b3c9-a50e55e3f3f1.xml, stream.ksacquiredevicesecuritylock
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAcquireDeviceSecurityLock
 ---
 
-# KsAcquireDeviceSecurityLock function
+# KsAcquireDeviceSecurityLock function (ks.h)
+
+
 
 
 ## -description

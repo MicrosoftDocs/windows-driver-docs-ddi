@@ -8,6 +8,7 @@ ms.date: 02/21/2023
 keywords: ["SeAuditingFileOrGlobalEvents function"]
 ms.keywords: SeAuditingFileOrGlobalEvents, SeAuditingFileOrGlobalEvents routine [Installable File System Drivers], ifsk.seauditingfileorglobalevents, ntifs/SeAuditingFileOrGlobalEvents, seref_06c1ee74-261c-4a57-b009-f76420e14055.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeAuditingFileOrGlobalEvents
 ---
 
-# SeAuditingFileOrGlobalEvents function
+# SeAuditingFileOrGlobalEvents function (ntifs.h)
+
+
 
 ## -description
 

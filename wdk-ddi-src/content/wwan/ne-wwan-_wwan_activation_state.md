@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_ACTIVATION_STATE enumeration"]
 ms.keywords: "*PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE, PWWAN_ACTIVATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_ACTIVATION_STATE, WWAN_ACTIVATION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanActivationStateActivated, WwanActivationStateActivating, WwanActivationStateDeactivated, WwanActivationStateDeactivating, WwanActivationStateMax, WwanActivationStateUnknown, WwanRef_d1e0cf59-316c-45a2-8ae3-231c30cae091.xml, _WWAN_ACTIVATION_STATE, netvista.wwan_activation_state, wwan/PWWAN_ACTIVATION_STATE, wwan/WWAN_ACTIVATION_STATE, wwan/WwanActivationStateActivated, wwan/WwanActivationStateActivating, wwan/WwanActivationStateDeactivated, wwan/WwanActivationStateDeactivating, wwan/WwanActivationStateMax, wwan/WwanActivationStateUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_ACTIVATION_STATE
 ---
 
-# _WWAN_ACTIVATION_STATE enumeration
+# WWAN_ACTIVATION_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

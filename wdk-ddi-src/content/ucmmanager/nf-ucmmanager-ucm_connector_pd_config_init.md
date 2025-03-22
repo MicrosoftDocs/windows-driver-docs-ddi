@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_PD_CONFIG_INIT function"]
 ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses], buses.ucm_connector_pd_config_init, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCM_CONNECTOR_PD_CONFIG_INIT
 ---
 
-# UCM_CONNECTOR_PD_CONFIG_INIT function
+# UCM_CONNECTOR_PD_CONFIG_INIT function (ucmmanager.h)
+
+
 
 
 ## -description

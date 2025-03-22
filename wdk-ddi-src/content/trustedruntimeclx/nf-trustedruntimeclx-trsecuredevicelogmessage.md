@@ -6,6 +6,7 @@ ms.date: 04/18/2022
 keywords: ["TrSecureDeviceLogMessage function"]
 ms.keywords: TrSecureDeviceLogMessage
 req.header: trustedruntimeclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,6 +37,8 @@ api_location:
 api_name:
  - TrSecureDeviceLogMessage
 ---
+
+# TrSecureDeviceLogMessage function (trustedruntimeclx.h)
 
 ## -description
 

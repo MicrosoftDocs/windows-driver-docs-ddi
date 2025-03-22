@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltReleaseContextsEx function"]
 ms.keywords: FltReleaseContextsEx, FltReleaseContextsEx routine [Installable File System Drivers], fltkernel/FltReleaseContextsEx, ifsk.fltreleasecontextsex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltReleaseContextsEx
 ---
 
-# FltReleaseContextsEx function
+# FltReleaseContextsEx function (fltkernel.h)
+
+
 
 ## -description
 

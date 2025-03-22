@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestComplete function"]
 ms.keywords: DFRequestObjectRef_e723fb4c-f8f2-4eb9-9152-7f7ac74329df.xml, WdfRequestComplete, WdfRequestComplete method, kmdf.wdfrequestcomplete, wdf.wdfrequestcomplete, wdfrequest/WdfRequestComplete
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestComplete
 ---
 
-# WdfRequestComplete function
+# WdfRequestComplete function (wdfrequest.h)
+
+
 
 
 ## -description

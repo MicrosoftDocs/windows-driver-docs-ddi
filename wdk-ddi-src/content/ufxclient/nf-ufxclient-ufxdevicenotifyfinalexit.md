@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UfxDeviceNotifyFinalExit function"]
 ms.keywords: UfxDeviceNotifyFinalExit
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -38,7 +39,9 @@ api_name:
  - UfxDeviceNotifyFinalExit
 ---
 
-# UfxDeviceNotifyFinalExit function
+# UfxDeviceNotifyFinalExit function (ufxclient.h)
+
+
 
 
 ## -description

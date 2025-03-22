@@ -7,6 +7,7 @@ ms.date: 04/06/2022
 keywords: ["RtlCompareMemory function"]
 ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -43,7 +44,9 @@ api_name:
  - RtlCompareMemory
 ---
 
-# RtlCompareMemory function
+# RtlCompareMemory function (wdm.h)
+
+
 
 ## -description
 

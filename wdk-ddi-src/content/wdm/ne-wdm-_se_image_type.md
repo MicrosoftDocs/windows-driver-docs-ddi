@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["SE_IMAGE_TYPE enumeration"]
 ms.keywords: _SE_IMAGE_TYPE, SE_IMAGE_TYPE, *PSE_IMAGE_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - SE_IMAGE_TYPE
 ---
 
-# _SE_IMAGE_TYPE enumeration
+# SE_IMAGE_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

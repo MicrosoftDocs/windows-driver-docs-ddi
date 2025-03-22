@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlValidSecurityDescriptor function"]
 ms.keywords: RtlValidSecurityDescriptor, RtlValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_59b52650-028b-4e7a-8a00-234f40e354f2.xml, kernel.rtlvalidsecuritydescriptor, wdm/RtlValidSecurityDescriptor
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlValidSecurityDescriptor
 ---
 
-# RtlValidSecurityDescriptor function
+# RtlValidSecurityDescriptor function (wdm.h)
+
+
 
 
 ## -description

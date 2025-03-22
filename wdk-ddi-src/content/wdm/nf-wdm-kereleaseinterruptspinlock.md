@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReleaseInterruptSpinLock function"]
 ms.keywords: KeReleaseInterruptSpinLock, KeReleaseInterruptSpinLock routine [Kernel-Mode Driver Architecture], k105_673f3ed1-bb95-413b-b56b-e9fdea636e8f.xml, kernel.kereleaseinterruptspinlock, wdm/KeReleaseInterruptSpinLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeReleaseInterruptSpinLock
 ---
 
-# KeReleaseInterruptSpinLock function
+# KeReleaseInterruptSpinLock function (wdm.h)
+
+
 
 
 ## -description

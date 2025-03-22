@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeAbortSynchronously function"]
 ms.keywords: DFUsbRef_faea6716-3bb7-4f1f-93ce-36fe26bc7875.xml, WdfUsbTargetPipeAbortSynchronously, WdfUsbTargetPipeAbortSynchronously method, kmdf.wdfusbtargetpipeabortsynchronously, wdf.wdfusbtargetpipeabortsynchronously, wdfusb/WdfUsbTargetPipeAbortSynchronously
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeAbortSynchronously
 ---
 
-# WdfUsbTargetPipeAbortSynchronously function
+# WdfUsbTargetPipeAbortSynchronously function (wdfusb.h)
+
+
 
 
 ## -description

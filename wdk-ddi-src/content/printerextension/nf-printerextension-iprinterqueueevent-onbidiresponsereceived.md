@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterQueueEvent::OnBidiResponseReceived"]
 ms.keywords: IPrinterQueueEvent interface [Print Devices],OnBidiResponseReceived method, IPrinterQueueEvent.OnBidiResponseReceived, IPrinterQueueEvent::OnBidiResponseReceived, OnBidiResponseReceived, OnBidiResponseReceived method [Print Devices], OnBidiResponseReceived method [Print Devices],IPrinterQueueEvent interface, print.iprinterqueueevent_onbidiresponsereceived, printerextension/IPrinterQueueEvent::OnBidiResponseReceived
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterQueueEvent::OnBidiResponseReceived
 ---
+
+# IPrinterQueueEvent::OnBidiResponseReceived function (printerextension.h)
 
 ## -description
 

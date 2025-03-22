@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_ONLINE IOCTL"]
 ms.keywords: IOCTL_VOLUME_ONLINE, IOCTL_VOLUME_ONLINE control, IOCTL_VOLUME_ONLINE control code [Storage Devices], k307_236159f9-4ec2-4dec-9d34-5b4ecb8a2147.xml, ntddvol/IOCTL_VOLUME_ONLINE, storage.ioctl_volume_online
 req.header: ntddvol.h
+req.construct-type: ioctl
 req.include-header: Ntddvol.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VOLUME_ONLINE
 ---
 
-# IOCTL_VOLUME_ONLINE IOCTL
+# IOCTL_VOLUME_ONLINE IOCTL (ntddvol.h)
+
+
+
+
 
 
 ## -description

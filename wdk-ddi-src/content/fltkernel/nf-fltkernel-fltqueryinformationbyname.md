@@ -7,6 +7,7 @@ ms.date: 03/11/2021
 keywords: ["FltQueryInformationByName function"]
 ms.keywords: FltQueryInformationByName
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1706
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# FltQueryInformationByName function
+# FltQueryInformationByName function (fltkernel.h)
+
+
 
 ## -description
 

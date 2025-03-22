@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_CreateConfigurationRequest function"]
 ms.keywords: USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest routine [Buses], buses.usbd_createconfigurationrequest, usbdlib/USBD_CreateConfigurationRequest, usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated. Use USBD_CreateConfigurationRequestEx instead.
@@ -41,7 +42,9 @@ api_name:
  - USBD_CreateConfigurationRequest
 ---
 
-# USBD_CreateConfigurationRequest function
+# USBD_CreateConfigurationRequest function (usbdlib.h)
+
+
 
 
 ## -description

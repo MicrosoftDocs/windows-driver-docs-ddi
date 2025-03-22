@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinDataIntersection function"]
 ms.keywords: KsPinDataIntersection, KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, stream.kspindataintersection
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsPinDataIntersection
 ---
 
-# KsPinDataIntersection function
+# KsPinDataIntersection function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCancelTimerObject function"]
 ms.keywords: NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisCancelTimerObject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, netvista.ndiscanceltimerobject
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisCancelTimerObject
 ---
 
-# NdisCancelTimerObject function
+# NdisCancelTimerObject function (ndis.h)
+
+
 
 
 ## -description

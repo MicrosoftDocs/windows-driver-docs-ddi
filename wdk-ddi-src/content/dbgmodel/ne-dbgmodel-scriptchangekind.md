@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptChangeKind enumeration"]
 ms.keywords: ScriptChangeKind, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - ScriptChangeKind
 ---
 
-# ScriptChangeKind enumeration
+# ScriptChangeKind enumeration (dbgmodel.h)
+
+
 
 
 ## -description

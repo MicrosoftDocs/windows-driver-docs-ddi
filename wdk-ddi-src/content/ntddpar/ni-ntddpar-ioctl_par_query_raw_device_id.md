@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_QUERY_RAW_DEVICE_ID IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_RAW_DEVICE_ID, IOCTL_PAR_QUERY_RAW_DEVICE_ID control code [Parallel Ports], cisspd_422dd85c-1d22-4968-9b4c-fd1ef03432e5.xml, ntddpar/IOCTL_PAR_QUERY_RAW_DEVICE_ID, parports.ioctl_par_query_raw_device_id
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PAR_QUERY_RAW_DEVICE_ID
 ---
 
-# IOCTL_PAR_QUERY_RAW_DEVICE_ID IOCTL
+# IOCTL_PAR_QUERY_RAW_DEVICE_ID IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

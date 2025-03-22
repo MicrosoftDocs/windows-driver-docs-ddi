@@ -8,6 +8,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_FlushQueue function"]
 ms.keywords: HidD_FlushQueue, HidD_FlushQueue routine [Human Input Devices], hid.hidd_flushqueue, hidfunc_3709367d-c7ad-4754-a4bc-c8ccf2752188.xml, hidsdi/HidD_FlushQueue
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_FlushQueue
 ---
 
-# HidD_FlushQueue function
+# HidD_FlushQueue function (hidsdi.h)
+
+
 
 
 ## -description

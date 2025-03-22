@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnGreater function"]
 ms.keywords: ClfsLsnGreater, ClfsLsnGreater routine [Kernel-Mode Driver Architecture], Clfs_e258803f-9e95-4601-9b4e-2d775836864b.xml, kernel.clfslsngreater, wdm/ClfsLsnGreater
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnGreater
 ---
 
-# ClfsLsnGreater function
+# ClfsLsnGreater function (wdm.h)
+
+
 
 
 ## -description

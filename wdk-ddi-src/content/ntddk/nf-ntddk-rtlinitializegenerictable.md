@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlInitializeGenericTable function"]
 ms.keywords: RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlInitializeGenericTable
 ---
+
+# RtlInitializeGenericTable function (ntddk.h)
 
 ## -description
 

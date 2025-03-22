@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["ClosePrintProcessor function"]
 ms.keywords: ClosePrintProcessor, ClosePrintProcessor function [Print Devices], print.closeprintprocessor, spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, winsplp/ClosePrintProcessor
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ClosePrintProcessor
 ---
 
-# ClosePrintProcessor function
+# ClosePrintProcessor function (winsplp.h)
+
+
 
 
 ## -description

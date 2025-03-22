@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["ObMakeTemporaryObject function"]
 ms.keywords: ObMakeTemporaryObject, ObMakeTemporaryObject function [Installable File System Drivers], ifsk.obmaketemporaryobject, ntifs/ObMakeTemporaryObject, obref_788c8be6-d015-4a3d-b79c-725808c3677d.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ObMakeTemporaryObject
 ---
 
-# ObMakeTemporaryObject function
+# ObMakeTemporaryObject function (ntifs.h)
+
+
 
 
 ## -description

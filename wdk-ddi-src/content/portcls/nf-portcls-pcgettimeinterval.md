@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcGetTimeInterval function"]
 ms.keywords: PcGetTimeInterval, PcGetTimeInterval function [Audio Devices], audio.pcgettimeinterval, audpc-routines_a68c0cf5-01b7-4e01-a719-f0bdea2d367f.xml, portcls/PcGetTimeInterval
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcGetTimeInterval function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcGetTimeInterval
 ---
 
-# PcGetTimeInterval function
+# PcGetTimeInterval function (portcls.h)
+
+
 
 
 ## -description

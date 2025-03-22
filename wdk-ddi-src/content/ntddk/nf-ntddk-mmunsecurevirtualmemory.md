@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmUnsecureVirtualMemory function"]
 ms.keywords: MmUnsecureVirtualMemory, MmUnsecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_0bfc6e9e-a4e9-4868-b1fb-da6714146dbf.xml, kernel.mmunsecurevirtualmemory, ntddk/MmUnsecureVirtualMemory
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows. This routine is not available in Windows 98/Me.
@@ -40,7 +41,9 @@ api_name:
  - MmUnsecureVirtualMemory
 ---
 
-# MmUnsecureVirtualMemory function
+# MmUnsecureVirtualMemory function (ntddk.h)
+
+
 
 
 ## -description

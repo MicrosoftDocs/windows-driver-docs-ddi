@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TASK_QUEUE_DISPATCH_TYPE enumeration"]
 ms.keywords: WDF_TASK_QUEUE_DISPATCH_TYPE, WDF_TASK_QUEUE_DISPATCH_TYPE enumeration, WdfTaskQueueDispatchInvalid, WdfTaskQueueDispatchMax, WdfTaskQueueDispatchParallel, WdfTaskQueueDispatchSequential, _WDF_TASK_QUEUE_DISPATCH_TYPE, wdf.wdf_task_queue_dispatch_type, wdfcompanion/WDF_TASK_QUEUE_DISPATCH_TYPE, wdfcompanion/WdfTaskQueueDispatchInvalid, wdfcompanion/WdfTaskQueueDispatchMax, wdfcompanion/WdfTaskQueueDispatchParallel, wdfcompanion/WdfTaskQueueDispatchSequential
 req.header: wdfcompanion.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_TASK_QUEUE_DISPATCH_TYPE
 ---
 
-# _WDF_TASK_QUEUE_DISPATCH_TYPE enumeration
+# WDF_TASK_QUEUE_DISPATCH_TYPE enumeration (wdfcompanion.h)
+
+
 
 
 ## -description

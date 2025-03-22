@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlValidateCorrelationVector function"]
 ms.keywords: RtlValidateCorrelationVector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - RtlValidateCorrelationVector
 ---
 
-# RtlValidateCorrelationVector function
+# RtlValidateCorrelationVector function (ntddk.h)
+
+
 
 
 ## -description

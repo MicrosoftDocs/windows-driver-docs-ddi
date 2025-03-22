@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SeValidSecurityDescriptor function"]
 ms.keywords: SeValidSecurityDescriptor, SeValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], k110_f193d746-c75f-4003-a2b3-a6b752652f9b.xml, kernel.sevalidsecuritydescriptor, wdm/SeValidSecurityDescriptor
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - SeValidSecurityDescriptor
 ---
 
-# SeValidSecurityDescriptor function
+# SeValidSecurityDescriptor function (wdm.h)
+
+
 
 
 ## -description

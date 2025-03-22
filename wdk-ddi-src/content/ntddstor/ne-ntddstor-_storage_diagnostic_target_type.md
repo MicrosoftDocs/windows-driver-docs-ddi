@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_TARGET_TYPE, PSTORAGE_DIAGNOSTIC_TARGET_TYPE, PSTORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_TARGET_TYPE, STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, StorageDiagnosticTargetTypeMiniport, StorageDiagnosticTargetTypePort, StorageDiagnosticTargetTypeUndefined, _STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/PSTORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddstor/StorageDiagnosticTargetTypeHbaFirmware, ntddstor/StorageDiagnosticTargetTypeMax, ntddstor/StorageDiagnosticTargetTypeMiniport, ntddstor/StorageDiagnosticTargetTypePort, ntddstor/StorageDiagnosticTargetTypeUndefined, storage.storage_diagnostic_target_type"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10, version 1709.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
-# _STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration
+# STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration (ntddstor.h)
+
+
 
 
 ## -description

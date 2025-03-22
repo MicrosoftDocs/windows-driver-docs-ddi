@@ -6,6 +6,7 @@ ms.date: 02/28/2023
 keywords: ["D3DKMT_CLIENTHINT enumeration"]
 ms.keywords: _D3DKMT_CLIENTHINT, D3DKMT_CLIENTHINT,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_CLIENTHINT enumeration
+# D3DKMT_CLIENTHINT enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

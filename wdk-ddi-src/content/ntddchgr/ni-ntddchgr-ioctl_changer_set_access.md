@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_SET_ACCESS IOCTL"]
 ms.keywords: IOCTL_CHANGER_SET_ACCESS, IOCTL_CHANGER_SET_ACCESS control, IOCTL_CHANGER_SET_ACCESS control code [Storage Devices], k307_08d52a8e-d7a0-42c6-92f9-c5099670473c.xml, ntddchgr/IOCTL_CHANGER_SET_ACCESS, storage.ioctl_changer_set_access
 req.header: ntddchgr.h
+req.construct-type: ioctl
 req.include-header: Ntddchgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CHANGER_SET_ACCESS
 ---
 
-# IOCTL_CHANGER_SET_ACCESS IOCTL
+# IOCTL_CHANGER_SET_ACCESS IOCTL (ntddchgr.h)
+
+
+
+
 
 
 ## -description

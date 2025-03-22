@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAllocateCallbackData function"]
 ms.keywords: FltAllocateCallbackData, FltAllocateCallbackData routine [Installable File System Drivers], FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, fltkernel/FltAllocateCallbackData, ifsk.fltallocatecallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAllocateCallbackData
 ---
 
-# FltAllocateCallbackData function
+# FltAllocateCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

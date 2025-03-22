@@ -7,6 +7,7 @@ ms.date: 03/20/2023
 keywords: ["FsRtlAreThereCurrentFileLocks macro"]
 ms.keywords: FsRtlAreThereCurrentFileLocks, FsRtlAreThereCurrentFileLocks function [Installable File System Drivers], fsrtlref_c3102eee-b523-418a-8977-a875e0eb76b7.xml, ifsk.fsrtlaretherecurrentfilelocks, ntifs/FsRtlAreThereCurrentFileLocks
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - FsRtlAreThereCurrentFileLocks
 ---
 
-# FsRtlAreThereCurrentFileLocks macro
+# FsRtlAreThereCurrentFileLocks function (ntifs.h)
+
+
 
 ## -description
 

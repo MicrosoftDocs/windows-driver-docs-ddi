@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SeDeleteClientSecurity macro"]
 ms.keywords: SeDeleteClientSecurity, SeDeleteClientSecurity routine [Installable File System Drivers], ifsk.sedeleteclientsecurity, ntifs/SeDeleteClientSecurity, seref_bab4478e-d302-478b-8819-79c9b2f79aa7.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeDeleteClientSecurity
 ---
 
-# SeDeleteClientSecurity macro
+# SeDeleteClientSecurity function (ntifs.h)
+
+
 
 ## -description
 

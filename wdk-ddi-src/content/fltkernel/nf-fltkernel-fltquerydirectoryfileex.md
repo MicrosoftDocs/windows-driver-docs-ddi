@@ -7,6 +7,7 @@ ms.date: 12/01/2021
 keywords: ["FltQueryDirectoryFileEx function"]
 ms.keywords: FltQueryDirectoryFileEx, FltQueryDirectoryFile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -37,7 +38,9 @@ api_name:
  - FltQueryDirectoryFileEx
 ---
 
-# FltQueryDirectoryFileEx function
+# FltQueryDirectoryFileEx function (fltkernel.h)
+
+
 
 ## -description
 

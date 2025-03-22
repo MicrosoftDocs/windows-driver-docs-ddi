@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortFreeWorker function"]
 ms.keywords: StorPortFreeWorker, StorPortFreeWorker routine [Storage Devices], storage.storportfreeworker, storport/StorPortFreeWorker
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - StorPortFreeWorker
 ---
 
-# StorPortFreeWorker function
+# StorPortFreeWorker function (storport.h)
+
+
 
 
 ## -description

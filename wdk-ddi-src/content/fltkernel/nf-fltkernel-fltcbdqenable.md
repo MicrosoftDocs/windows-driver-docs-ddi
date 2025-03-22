@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCbdqEnable function"]
 ms.keywords: FltApiRef_a_to_d_518b7b11-d2cd-4d69-9191-da63831da3bd.xml, FltCbdqEnable, FltCbdqEnable function [Installable File System Drivers], fltkernel/FltCbdqEnable, ifsk.fltcbdqenable
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltCbdqEnable
 ---
 
-# FltCbdqEnable function
+# FltCbdqEnable function (fltkernel.h)
+
+
 
 
 ## -description

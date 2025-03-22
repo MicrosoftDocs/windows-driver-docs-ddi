@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsReadRestartArea function"]
 ms.keywords: ClfsReadRestartArea, ClfsReadRestartArea routine [Kernel-Mode Driver Architecture], Clfs_bce9c012-cc19-472e-a1b3-c2d83435c6c0.xml, kernel.clfsreadrestartarea, wdm/ClfsReadRestartArea
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsReadRestartArea
 ---
 
-# ClfsReadRestartArea function
+# ClfsReadRestartArea function (wdm.h)
+
+
 
 
 ## -description

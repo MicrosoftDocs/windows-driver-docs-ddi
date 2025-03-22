@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DevQueryPrintEx function"]
 ms.keywords: DevQueryPrintEx, DevQueryPrintEx function [Print Devices], print.devqueryprintex, print_interface-graphics_37504c69-c747-4758-928c-1ebd60e64c94.xml, winddiui/DevQueryPrintEx
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DevQueryPrintEx
 ---
 
-# DevQueryPrintEx function
+# DevQueryPrintEx function (winddiui.h)
+
+
 
 
 ## -description

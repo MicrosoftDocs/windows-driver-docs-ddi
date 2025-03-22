@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_SWITCH_DUALVIEW IOCTL"]
 ms.keywords: IOCTL_VIDEO_SWITCH_DUALVIEW, IOCTL_VIDEO_SWITCH_DUALVIEW control, IOCTL_VIDEO_SWITCH_DUALVIEW control code [Display Devices], Video_IOCTLs_424b313b-2f68-4284-97d6-596f1407ee96.xml, display.ioctl_video_switch_dualview, ntddvdeo/IOCTL_VIDEO_SWITCH_DUALVIEW
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_SWITCH_DUALVIEW
 ---
 
-# IOCTL_VIDEO_SWITCH_DUALVIEW IOCTL
+# IOCTL_VIDEO_SWITCH_DUALVIEW IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

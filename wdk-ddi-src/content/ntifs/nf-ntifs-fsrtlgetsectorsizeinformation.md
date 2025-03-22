@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlGetSectorSizeInformation function"]
 ms.keywords: FsRtlGetSectorSizeInformation, FsRtlGetSectorSizeInformation routine [Installable File System Drivers], ifsk.fsrtlgetsectorsizeinformation, ntifs/FsRtlGetSectorSizeInformation
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlGetSectorSizeInformation
 ---
 
-# FsRtlGetSectorSizeInformation function
+# FsRtlGetSectorSizeInformation function (ntifs.h)
+
+
 
 
 ## -description

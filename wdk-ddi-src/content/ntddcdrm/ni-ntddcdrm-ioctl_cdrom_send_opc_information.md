@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_SEND_OPC_INFORMATION IOCTL"]
 ms.keywords: IOCTL_CDROM_SEND_OPC_INFORMATION, IOCTL_CDROM_SEND_OPC_INFORMATION control, IOCTL_CDROM_SEND_OPC_INFORMATION control code [Storage Devices], ntddcdrm/IOCTL_CDROM_SEND_OPC_INFORMATION, storage.ioctl_cdrom_send_opc_information
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Winioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_SEND_OPC_INFORMATION
 ---
 
-# IOCTL_CDROM_SEND_OPC_INFORMATION IOCTL
+# IOCTL_CDROM_SEND_OPC_INFORMATION IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

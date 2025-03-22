@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL gets the s
 ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES
 ---
 
-# IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL
+# IOCTL_SBAUD_GET_SIDETONE_VOLUMEPROPERTYVALUES IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

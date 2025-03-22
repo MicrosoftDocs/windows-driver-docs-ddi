@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KS_DVDCOPYSTATE enumeration"]
 ms.keywords: KS_DVDCOPYSTATE, KS_DVDCOPYSTATE enumeration [Streaming Media Devices], KS_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, KS_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, KS_DVDCOPYSTATE_DONE, KS_DVDCOPYSTATE_INITIALIZE, KS_DVDCOPYSTATE_INITIALIZE_TITLE, dvdref_f91c9ef4-f31c-4065-8017-26ef6ef76708.xml, ksmedia/KS_DVDCOPYSTATE, ksmedia/KS_DVDCOPYSTATE_AUTHENTICATION_NOT_REQUIRED, ksmedia/KS_DVDCOPYSTATE_AUTHENTICATION_REQUIRED, ksmedia/KS_DVDCOPYSTATE_DONE, ksmedia/KS_DVDCOPYSTATE_INITIALIZE, ksmedia/KS_DVDCOPYSTATE_INITIALIZE_TITLE, stream.ks_dvdcopystate
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_DVDCOPYSTATE
 ---
 
-# KS_DVDCOPYSTATE enumeration
+# KS_DVDCOPYSTATE enumeration (ksmedia.h)
+
+
 
 
 ## -description

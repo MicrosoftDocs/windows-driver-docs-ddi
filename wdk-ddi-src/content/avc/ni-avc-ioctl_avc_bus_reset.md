@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_AVC_BUS_RESET IOCTL"]
 ms.keywords: IOCTL_AVC_BUS_RESET, IOCTL_AVC_BUS_RESET control, IOCTL_AVC_BUS_RESET control code [Streaming Media Devices], avc/IOCTL_AVC_BUS_RESET, avcref_4be76d4b-17fe-4ae6-a078-ebb079499d55.xml, stream.ioctl_avc_bus_reset
 req.header: avc.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AVC_BUS_RESET
 ---
 
-# IOCTL_AVC_BUS_RESET IOCTL
+# IOCTL_AVC_BUS_RESET IOCTL (avc.h)
+
+
+
+
 
 
 ## -description

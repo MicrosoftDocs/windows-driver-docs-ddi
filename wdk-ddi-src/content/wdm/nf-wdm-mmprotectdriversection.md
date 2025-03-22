@@ -8,6 +8,7 @@ ms.date: 12/17/2018
 keywords: ["MmProtectDriverSection function"]
 ms.keywords: MmProtectDriverSection, MmProtectDriverSection routine [Kernel-Mode Driver Architecture], kernel.mmprotectdriversection , wdm/MmProtectDriverSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Insider 19548.
@@ -40,7 +41,9 @@ api_name:
  - MmProtectDriverSection
 ---
 
-# MmProtectDriverSection function
+# MmProtectDriverSection function (wdm.h)
+
+
 
 
 ## -description

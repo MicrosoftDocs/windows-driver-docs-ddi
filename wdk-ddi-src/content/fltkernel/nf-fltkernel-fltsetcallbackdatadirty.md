@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltSetCallbackDataDirty function"]
 ms.keywords: FltApiRef_p_to_z_6442dbc2-9375-4dc9-bf38-8c7d1005ec74.xml, FltSetCallbackDataDirty, FltSetCallbackDataDirty routine [Installable File System Drivers], fltkernel/FltSetCallbackDataDirty, ifsk.fltsetcallbackdatadirty
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltSetCallbackDataDirty
 ---
 
-# FltSetCallbackDataDirty function
+# FltSetCallbackDataDirty function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_2608d30e-282b-4a19-acb7-ced01cb6bc1a.xml, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function, kmdf.wdf_device_power_policy_wake_settings_init, wdf.wdf_device_power_policy_wake_settings_init, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT
 ---
 
-# WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function
+# WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function (wdfdevice.h)
+
+
 
 
 ## -description

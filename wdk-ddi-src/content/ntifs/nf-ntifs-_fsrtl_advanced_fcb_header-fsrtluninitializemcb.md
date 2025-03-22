@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlUninitializeMcb function"]
 ms.keywords: FsRtlUninitializeMcb, FsRtlUninitializeMcb function [Installable File System Drivers], fsrtlref_e445c399-76e6-4bfd-9260-1fcbe0d33b50.xml, ifsk.fsrtluninitializemcb, ntifs/FsRtlUninitializeMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlUninitializeMcb
 ---
 
-# FsRtlUninitializeMcb function
+# FsRtlUninitializeMcb function (ntifs.h)
+
+
 
 
 ## -description

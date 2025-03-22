@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoAllocateErrorLogEntry function"]
 ms.keywords: IoAllocateErrorLogEntry, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoAllocateErrorLogEntry
 ---
+
+# IoAllocateErrorLogEntry function (wdm.h)
 
 ## -description
 

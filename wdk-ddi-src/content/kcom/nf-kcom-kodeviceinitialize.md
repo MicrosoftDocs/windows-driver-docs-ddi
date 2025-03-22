@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KoDeviceInitialize function"]
 ms.keywords: KoDeviceInitialize, KoDeviceInitialize function [Streaming Media Devices], kcom/KoDeviceInitialize, ksfunc_1d3ad49e-d34c-4341-ab30-45c8e96e8b3e.xml, stream.kodeviceinitialize
 req.header: kcom.h
+req.construct-type: function
 req.include-header: Kcom.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KoDeviceInitialize
 ---
 
-# KoDeviceInitialize function
+# KoDeviceInitialize function (kcom.h)
+
+
 
 
 ## -description

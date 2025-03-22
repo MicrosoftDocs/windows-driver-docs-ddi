@@ -5,6 +5,7 @@ description: The user mode emulation DLL calls this IOCTL to exchange informatio
 ms.date: 10/19/2018
 keywords: ["IOCTL_GPUP_DRIVER_ESCAPE IOCTL"]
 req.header: d3dukmdt.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,11 @@ dev_langs:
  - c++
 ---
 
-# IOCTL_GPUP_DRIVER_ESCAPE IOCTL
+# IOCTL_GPUP_DRIVER_ESCAPE IOCTL (d3dukmdt.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

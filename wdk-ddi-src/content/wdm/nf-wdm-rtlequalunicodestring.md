@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlEqualUnicodeString function"]
 ms.keywords: RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, wdm/RtlEqualUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlEqualUnicodeString
 ---
 
-# RtlEqualUnicodeString function
+# RtlEqualUnicodeString function (wdm.h)
+
+
 
 
 ## -description

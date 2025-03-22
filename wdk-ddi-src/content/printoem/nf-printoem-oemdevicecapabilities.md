@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDeviceCapabilities function"]
 ms.keywords: OEMDeviceCapabilities, OEMDeviceCapabilities function [Print Devices], print.oemdevicecapabilities, print_obsoletefunctions_7ab2cfd8-e7cd-4f7c-be2d-a53dbb3651c9.xml, printoem/OEMDeviceCapabilities
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDeviceCapabilities
 ---
+
+# OEMDeviceCapabilities function (printoem.h)
 
 ## -description
 

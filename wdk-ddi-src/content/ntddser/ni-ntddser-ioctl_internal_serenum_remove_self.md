@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL"]
 ms.keywords: IOCTL_INTERNAL_SERENUM_REMOVE_SELF, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control, IOCTL_INTERNAL_SERENUM_REMOVE_SELF control code [Serial Ports], ntddser/IOCTL_INTERNAL_SERENUM_REMOVE_SELF, senumref_e7d31955-3eb4-4769-a7fa-84b55272f47a.xml, serports.ioctl_internal_serenum_remove_self
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_SERENUM_REMOVE_SELF
 ---
 
-# IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL
+# IOCTL_INTERNAL_SERENUM_REMOVE_SELF IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

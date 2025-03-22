@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSetSystemPartition function"]
 ms.keywords: IoSetSystemPartition, IoSetSystemPartition routine [Kernel-Mode Driver Architecture], k104_b0beef8e-9d45-4125-a722-0a7189876308.xml, kernel.iosetsystempartition, ntddk/IoSetSystemPartition
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoSetSystemPartition
 ---
 
-# IoSetSystemPartition function
+# IoSetSystemPartition function (ntddk.h)
+
+
 
 
 ## -description

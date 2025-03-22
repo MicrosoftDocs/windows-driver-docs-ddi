@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsInitializeDeviceProfile function"]
 ms.keywords: KsInitializeDeviceProfile, KsInitializeDeviceProfile function [Streaming Media Devices], ks/KsInitializeDeviceProfile, stream.ksinitializedeviceprofile
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ksmedia.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsInitializeDeviceProfile
 ---
 
-# KsInitializeDeviceProfile function
+# KsInitializeDeviceProfile function (ks.h)
+
+
 
 
 ## -description

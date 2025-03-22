@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2CustomReceiveTransactionInitializeComplete function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete, SerCx2CustomReceiveTransactionInitializeComplete method [Serial Ports], serports.sercx2customreceivetransactioninitializecomplete
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2CustomReceiveTransactionInitializeComplete
 ---
 
-# SerCx2CustomReceiveTransactionInitializeComplete function
+# SerCx2CustomReceiveTransactionInitializeComplete function (sercx.h)
+
+
 
 
 ## -description

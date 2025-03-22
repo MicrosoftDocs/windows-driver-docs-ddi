@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsReserveAndAppendLogAligned function"]
 ms.keywords: ClfsReserveAndAppendLogAligned, ClfsReserveAndAppendLogAligned routine [Kernel-Mode Driver Architecture], Clfs_aef34ba7-9276-41a4-8136-b20ae8e8531d.xml, kernel.clfsreserveandappendlogaligned, wdm/ClfsReserveAndAppendLogAligned
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsReserveAndAppendLogAligned
 ---
 
-# ClfsReserveAndAppendLogAligned function
+# ClfsReserveAndAppendLogAligned function (wdm.h)
+
+
 
 
 ## -description

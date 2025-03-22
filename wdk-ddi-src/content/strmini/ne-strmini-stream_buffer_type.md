@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["STREAM_BUFFER_TYPE enumeration"]
 ms.keywords: DmaBuffer, PerRequestExtension, SRBDataBuffer, STREAM_BUFFER_TYPE, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], stream.stream_buffer_type, strmini/DmaBuffer, strmini/PerRequestExtension, strmini/SRBDataBuffer, strmini/STREAM_BUFFER_TYPE
 req.header: strmini.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STREAM_BUFFER_TYPE
 ---
 
-# STREAM_BUFFER_TYPE enumeration
+# STREAM_BUFFER_TYPE enumeration (strmini.h)
+
+
 
 
 ## -description

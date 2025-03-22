@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["CmGetCallbackVersion function"]
 ms.keywords: CmGetCallbackVersion, CmGetCallbackVersion routine [Kernel-Mode Driver Architecture], ConfigMgrRef_f15e2e9c-8b84-40b2-abb4-b37a6d38f920.xml, kernel.cmgetcallbackversion, wdm/CmGetCallbackVersion
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - CmGetCallbackVersion
 ---
 
-# CmGetCallbackVersion function
+# CmGetCallbackVersion function (wdm.h)
+
+
 
 ## -description
 

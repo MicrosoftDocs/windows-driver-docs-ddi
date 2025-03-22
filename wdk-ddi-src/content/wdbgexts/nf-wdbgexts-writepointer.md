@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WritePointer function"]
 ms.keywords: WdbgExts_Ref_ab18dbae-3a69-43a1-97dd-d0711e4db54e.xml, WritePointer, WritePointer function [Windows Debugging], debugger.writepointer, wdbgexts/WritePointer
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WritePointer
 ---
 
-# WritePointer function
+# WritePointer function (wdbgexts.h)
+
+
 
 
 ## -description

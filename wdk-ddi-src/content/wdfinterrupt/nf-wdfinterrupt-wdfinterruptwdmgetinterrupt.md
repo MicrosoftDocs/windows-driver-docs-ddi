@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptWdmGetInterrupt function"]
 ms.keywords: DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt method, kmdf.wdfinterruptwdmgetinterrupt, wdf.wdfinterruptwdmgetinterrupt, wdfinterrupt/WdfInterruptWdmGetInterrupt
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfInterruptWdmGetInterrupt
 ---
 
-# WdfInterruptWdmGetInterrupt function
+# WdfInterruptWdmGetInterrupt function (wdfinterrupt.h)
+
+
 
 
 ## -description

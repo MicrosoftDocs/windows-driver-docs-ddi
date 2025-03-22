@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcPurgeCacheSection function"]
 ms.keywords: CcPurgeCacheSection, CcPurgeCacheSection routine [Installable File System Drivers], ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ifsk.ccpurgecachesection, ntifs/CcPurgeCacheSection
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcPurgeCacheSection
 ---
 
-# CcPurgeCacheSection function
+# CcPurgeCacheSection function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetExtendedAttributes function"]
 ms.keywords: HidP_GetExtendedAttributes, HidP_GetExtendedAttributes routine [Human Input Devices], hid.hidp_getextendedattributes, hidfunc_2870ef44-8659-4c02-9fc6-659581684253.xml, hidpi/HidP_GetExtendedAttributes
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_GetExtendedAttributes
 ---
 
-# HidP_GetExtendedAttributes function
+# HidP_GetExtendedAttributes function (hidpi.h)
+
+
 
 
 ## -description

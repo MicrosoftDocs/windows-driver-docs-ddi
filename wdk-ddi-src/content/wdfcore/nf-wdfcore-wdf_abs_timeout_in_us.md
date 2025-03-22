@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_ABS_TIMEOUT_IN_US function"]
 ms.keywords: DFTimerObjectRef_0e51f320-984a-4fe2-a077-09aec8b3b011.xml, WDF_ABS_TIMEOUT_IN_US, WDF_ABS_TIMEOUT_IN_US function, kmdf.wdf_abs_timeout_in_us, wdf.wdf_abs_timeout_in_us, wdfcore/WDF_ABS_TIMEOUT_IN_US
 req.header: wdfcore.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_ABS_TIMEOUT_IN_US
 ---
 
-# WDF_ABS_TIMEOUT_IN_US function
+# WDF_ABS_TIMEOUT_IN_US function (wdfcore.h)
+
+
 
 
 ## -description

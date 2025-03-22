@@ -7,6 +7,7 @@ ms.date: 08/22/2022
 keywords: ["IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode"]
 ms.keywords: ConvertPrintTicketToDevMode, ConvertPrintTicketToDevMode method [Print Devices], ConvertPrintTicketToDevMode method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ConvertPrintTicketToDevMode method, IPrintOemPrintTicketProvider.ConvertPrintTicketToDevMode, IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, prcomoem/IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode, print.iprintoemprintticketprovider_convertprinttickettodevmode, print_ticket-package_f7867f97-7002-4cdf-8624-97ba240e2743.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode
 ---
+
+# IPrintOemPrintTicketProvider::ConvertPrintTicketToDevMode function (prcomoem.h)
 
 ## -description
 

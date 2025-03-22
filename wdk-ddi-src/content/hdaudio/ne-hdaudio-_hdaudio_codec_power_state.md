@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HDAUDIO_CODEC_POWER_STATE enumeration"]
 ms.keywords: "*PHDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE, HDAUDIO_CODEC_POWER_STATE enumeration [Audio Devices], PHDAUDIO_CODEC_POWER_STATE, PHDAUDIO_CODEC_POWER_STATE enumeration pointer [Audio Devices], PowerCodecD0, PowerCodecD1, PowerCodecD2, PowerCodecD3, PowerCodecD3Cold, PowerCodecMaximum, PowerCodecUnspecified, _HDAUDIO_CODEC_POWER_STATE, audio.hdaudio_codec_power_state, hdaudio/HDAUDIO_CODEC_POWER_STATE, hdaudio/PHDAUDIO_CODEC_POWER_STATE, hdaudio/PowerCodecD0, hdaudio/PowerCodecD1, hdaudio/PowerCodecD2, hdaudio/PowerCodecD3, hdaudio/PowerCodecD3Cold, hdaudio/PowerCodecMaximum, hdaudio/PowerCodecUnspecified"
 req.header: hdaudio.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HDAUDIO_CODEC_POWER_STATE
 ---
 
-# _HDAUDIO_CODEC_POWER_STATE enumeration
+# HDAUDIO_CODEC_POWER_STATE enumeration (hdaudio.h)
+
+
 
 
 ## -description

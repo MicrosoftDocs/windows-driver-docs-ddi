@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetQueryTargetProperty function"]
 ms.keywords: DFIOTargetRef_33739a99-4af2-4e90-92e5-b75e785f1c2c.xml, WdfIoTargetQueryTargetProperty, WdfIoTargetQueryTargetProperty method, kmdf.wdfiotargetquerytargetproperty, wdf.wdfiotargetquerytargetproperty, wdfiotarget/WdfIoTargetQueryTargetProperty
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoTargetQueryTargetProperty
 ---
 
-# WdfIoTargetQueryTargetProperty function
+# WdfIoTargetQueryTargetProperty function (wdfiotarget.h)
+
+
 
 
 ## -description

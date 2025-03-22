@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCchVPrintfW function"]
 ms.keywords: RtlStringCchVPrintf, RtlStringCchVPrintfA, RtlStringCchVPrintfW, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchvprintf, ntstrsafe/RtlStringCchVPrintfA, ntstrsafe/RtlStringCchVPrintfW, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCchVPrintfW
 ---
 
-# RtlStringCchVPrintfW function
+# RtlStringCchVPrintfW function (ntstrsafe.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_OpenUiccLogicalChannel function"]
 ms.keywords: RIL_OpenUiccLogicalChannel, RIL_OpenUiccLogicalChannel method [Network Drivers Starting with Windows Vista], netvista.ril_openuicclogicalchannel, rilapi/RIL_OpenUiccLogicalChannel
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_OpenUiccLogicalChannel
 ---
 
-# RIL_OpenUiccLogicalChannel function
+# RIL_OpenUiccLogicalChannel function (rilapi.h)
+
+
 
 
 ## -description

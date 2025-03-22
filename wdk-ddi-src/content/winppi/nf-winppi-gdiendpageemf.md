@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiEndPageEMF function"]
 ms.keywords: GdiEndPageEMF, GdiEndPageEMF function [Print Devices], gdifnc_867f18b8-1764-41a4-a7c1-e43fa72a3d27.xml, print.gdiendpageemf, winppi/GdiEndPageEMF
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiEndPageEMF
 ---
 
-# GdiEndPageEMF function
+# GdiEndPageEMF function (winppi.h)
+
+
 
 
 ## -description

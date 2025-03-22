@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauSetImageItemSize function"]
 ms.keywords: image.wiausetimageitemsize, wiauFncs_9def0e29-20fe-4e9b-b473-a2dbca9088da.xml, wiauSetImageItemSize, wiauSetImageItemSize function [Imaging Devices], wiautil/wiauSetImageItemSize
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauSetImageItemSize
 ---
 
-# wiauSetImageItemSize function
+# wiauSetImageItemSize function (wiautil.h)
+
+
 
 
 ## -description

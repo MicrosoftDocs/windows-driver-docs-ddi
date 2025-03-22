@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadPhysicalWithFlags function"]
 ms.keywords: ReadPhysicalWithFlags, ReadPhysicalWithFlags function [Windows Debugging], WdbgExts_Ref_cf166083-f21a-4cfd-8daa-90c3f6bbcdcb.xml, debugger.readphysicalwithflags, wdbgexts/ReadPhysicalWithFlags
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadPhysicalWithFlags
 ---
 
-# ReadPhysicalWithFlags function
+# ReadPhysicalWithFlags function (wdbgexts.h)
+
+
 
 
 ## -description

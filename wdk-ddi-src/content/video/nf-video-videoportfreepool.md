@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortFreePool function"]
 ms.keywords: VideoPortFreePool, VideoPortFreePool function [Display Devices], VideoPort_Functions_a2b1e2c4-9f8d-455b-8484-c51e0669d526.xml, display.videoportfreepool, video/VideoPortFreePool
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortFreePool
 ---
 
-# VideoPortFreePool function
+# VideoPortFreePool function (video.h)
+
+
 
 
 ## -description

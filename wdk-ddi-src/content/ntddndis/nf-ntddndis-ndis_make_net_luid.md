@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_MAKE_NET_LUID macro"]
 ms.keywords: NDIS_MAKE_NET_LUID
 req.header: ntddndis.h
+req.construct-type: function
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -37,7 +38,9 @@ api_name:
  - NDIS_MAKE_NET_LUID
 ---
 
-# NDIS_MAKE_NET_LUID macro
+# NDIS_MAKE_NET_LUID function (ntddndis.h)
+
+
 
 
 ## -description

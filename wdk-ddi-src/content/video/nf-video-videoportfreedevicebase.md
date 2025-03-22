@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortFreeDeviceBase function"]
 ms.keywords: VideoPortFreeDeviceBase, VideoPortFreeDeviceBase function [Display Devices], VideoPort_Functions_cdbada9a-c5be-48e3-90e7-9414a055350c.xml, display.videoportfreedevicebase, video/VideoPortFreeDeviceBase
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortFreeDeviceBase
 ---
 
-# VideoPortFreeDeviceBase function
+# VideoPortFreeDeviceBase function (video.h)
+
+
 
 
 ## -description

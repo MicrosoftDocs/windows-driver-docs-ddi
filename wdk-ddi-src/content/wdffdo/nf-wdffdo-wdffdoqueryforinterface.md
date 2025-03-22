@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoQueryForInterface function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_949fcc50-3604-4970-9516-666da06e3c9e.xml, WdfFdoQueryForInterface, WdfFdoQueryForInterface method, kmdf.wdffdoqueryforinterface, wdf.wdffdoqueryforinterface, wdffdo/WdfFdoQueryForInterface
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfFdoQueryForInterface
 ---
 
-# WdfFdoQueryForInterface function
+# WdfFdoQueryForInterface function (wdffdo.h)
+
+
 
 
 ## -description

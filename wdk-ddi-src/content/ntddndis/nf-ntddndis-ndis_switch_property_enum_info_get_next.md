@@ -7,6 +7,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro"]
 ms.keywords: NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
 req.header: ntddndis.h
+req.construct-type: function
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -38,7 +39,9 @@ api_name:
  - NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
 ---
 
-# NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro
+# NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT function (ntddndis.h)
+
+
 
 
 ## -description

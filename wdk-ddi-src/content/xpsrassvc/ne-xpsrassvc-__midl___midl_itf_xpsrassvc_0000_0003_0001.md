@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["_MIDL___MIDL_itf_xpsrassvc_0000_0003_0001 enumeration"]
 ms.keywords: XPSRAS_PIXEL_FORMAT, XPSRAS_PIXEL_FORMAT enumeration [Print Devices], XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB, __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001, print.xpsras_pixel_format, xpsrassvc/XPSRAS_PIXEL_FORMAT, xpsrassvc/XPSRAS_PIXEL_FORMAT_128BPP_PRGBA_FLOAT_SCRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_32BPP_PBGRA_UINT_SRGB, xpsrassvc/XPSRAS_PIXEL_FORMAT_64BPP_PRGBA_HALF_SCRGB
 req.header: xpsrassvc.h
+req.construct-type: enumeration
 req.include-header: Xpsrassvc.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - XPSRAS_PIXEL_FORMAT
 ---
 
-# __MIDL___MIDL_itf_xpsrassvc_0000_0003_0001 enumeration
+# XPSRAS_PIXEL_FORMAT enumeration (xpsrassvc.h)
+
+
 
 
 ## -description

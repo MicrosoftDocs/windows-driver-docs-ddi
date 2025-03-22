@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsMgmtTailAdvanceFailure function"]
 ms.keywords: ClfsMgmtTailAdvanceFailure, ClfsMgmtTailAdvanceFailure routine [Kernel-Mode Driver Architecture], Clfs_management_6512b59a-78e2-4b01-ba4f-00b099c2c53f.xml, kernel.clfsmgmttailadvancefailure, wdm/ClfsMgmtTailAdvanceFailure
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsMgmtTailAdvanceFailure
 ---
 
-# ClfsMgmtTailAdvanceFailure function
+# ClfsMgmtTailAdvanceFailure function (wdm.h)
+
+
 
 
 ## -description

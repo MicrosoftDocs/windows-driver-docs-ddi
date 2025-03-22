@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsForwardIrp function"]
 ms.keywords: KsForwardIrp, KsForwardIrp function [Streaming Media Devices], ks/KsForwardIrp, ksfunc_cc7908b4-a6f2-40b1-990f-22c7b5e2bda2.xml, stream.ksforwardirp
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsForwardIrp
 ---
 
-# KsForwardIrp function
+# KsForwardIrp function (ks.h)
+
+
 
 
 ## -description

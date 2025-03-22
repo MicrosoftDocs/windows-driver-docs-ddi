@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTUpdateGpuVirtualAddress function"]
 ms.keywords: D3DKMTUpdateGpuVirtualAddress, D3DKMTUpdateGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTUpdateGpuVirtualAddress, display.d3dkmtupdategpuvirtualaddress
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTUpdateGpuVirtualAddress
 ---
 
-# D3DKMTUpdateGpuVirtualAddress function
+# D3DKMTUpdateGpuVirtualAddress function (d3dkmthk.h)
+
+
 
 ## -description
 

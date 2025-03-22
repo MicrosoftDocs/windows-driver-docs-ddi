@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortDebugPrint function"]
 ms.keywords: VideoPortDebugPrint, VideoPortDebugPrint function [Display Devices], VideoPort_Functions_a98adb70-bb89-4d0d-8922-836056896a61.xml, display.videoportdebugprint, video/VideoPortDebugPrint
 req.header: video.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortDebugPrint
 ---
 
-# VideoPortDebugPrint function
+# VideoPortDebugPrint function (video.h)
+
+
 
 
 ## -description

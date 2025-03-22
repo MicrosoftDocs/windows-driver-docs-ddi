@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmCloseCallComplete macro"]
 ms.keywords: NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, ndis/NdisMCmCloseCallComplete, netvista.ndismcmclosecallcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmCloseCallComplete (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmCloseCallComplete (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisMCmCloseCallComplete
 ---
 
-# NdisMCmCloseCallComplete macro
+# NdisMCmCloseCallComplete function (ndis.h)
+
+
 
 
 ## -description

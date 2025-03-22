@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMQueryAdvanceWidths function"]
 ms.keywords: OEMQueryAdvanceWidths, OEMQueryAdvanceWidths function [Print Devices], print.oemqueryadvancewidths, print_unidrv-pscript_rendering_14849fac-0d28-4961-b37b-ee14cd285018.xml, printoem/OEMQueryAdvanceWidths
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMQueryAdvanceWidths
 ---
+
+# OEMQueryAdvanceWidths function (printoem.h)
 
 ## -description
 

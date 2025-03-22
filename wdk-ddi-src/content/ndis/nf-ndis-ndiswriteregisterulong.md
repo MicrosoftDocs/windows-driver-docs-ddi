@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisWriteRegisterUlong macro"]
 ms.keywords: NdisWriteRegisterUlong, NdisWriteRegisterUlong macro [Network Drivers Starting with Windows Vista], miniport_register_ref_2f7b1091-df45-47d7-9dd7-9a6f39e0b19d.xml, ndis/NdisWriteRegisterUlong, netvista.ndiswriteregisterulong
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisWriteRegisterUlong (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisWriteRegisterUlong (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisWriteRegisterUlong
 ---
 
-# NdisWriteRegisterUlong macro
+# NdisWriteRegisterUlong function (ndis.h)
+
+
 
 
 ## -description

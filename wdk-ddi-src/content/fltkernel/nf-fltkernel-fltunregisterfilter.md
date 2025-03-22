@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltUnregisterFilter function"]
 ms.keywords: FltApiRef_p_to_z_cedf94f0-1f4a-46cf-aa81-914ab30d2a98.xml, FltUnregisterFilter, FltUnregisterFilter function [Installable File System Drivers], fltkernel/FltUnregisterFilter, ifsk.fltunregisterfilter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltUnregisterFilter
 ---
 
-# FltUnregisterFilter function
+# FltUnregisterFilter function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetDeviceObjects function"]
 ms.keywords: StorPortGetDeviceObjects, StorPortGetDeviceObjects routine [Storage Devices], storage.storportgetdeviceobjects, storport/StorPortGetDeviceObjects, storprt_219d8794-88c3-49c6-82ea-a19f75c3ad1f.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetDeviceObjects
 ---
 
-# StorPortGetDeviceObjects function
+# StorPortGetDeviceObjects function (storport.h)
+
+
 
 
 ## -description

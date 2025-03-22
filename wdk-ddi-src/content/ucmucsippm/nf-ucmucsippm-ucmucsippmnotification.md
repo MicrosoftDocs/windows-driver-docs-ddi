@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmNotification function"]
 ms.keywords: UcmUcsiPpmNotification
 req.header: ucmucsippm.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UcmUcsiPpmNotification
 ---
 
-# UcmUcsiPpmNotification function
+# UcmUcsiPpmNotification function (ucmucsippm.h)
+
+
 
 
 ## -description

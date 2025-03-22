@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlCheckLockForWriteAccess function"]
 ms.keywords: FsRtlCheckLockForWriteAccess, FsRtlCheckLockForWriteAccess routine [Installable File System Drivers], fsrtlref_460451fb-37b9-4c7e-bf53-8d72c7e73a55.xml, ifsk.fsrtlchecklockforwriteaccess, ntifs/FsRtlCheckLockForWriteAccess
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlCheckLockForWriteAccess function
+# FsRtlCheckLockForWriteAccess function (ntifs.h)
+
+
 
 
 ## -description

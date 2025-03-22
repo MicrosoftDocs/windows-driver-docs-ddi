@@ -7,6 +7,7 @@ keywords: ["InitPropVariantFromCLSIDArray function"]
 tech.root: sensors
 ms.keywords: InitPropVariantFromCLSIDArray
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - InitPropVariantFromCLSIDArray
 ---
 
-# InitPropVariantFromCLSIDArray function
+# InitPropVariantFromCLSIDArray function (sensorsutils.h)
+
+
 
 
 ## -description

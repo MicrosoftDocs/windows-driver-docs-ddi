@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control, IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME control code [Storage Devices], k307_90b74e7c-57f6-4738-8a5e-d947c29c5aab.xml, mountdev/IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME, storage.ioctl_mountdev_query_suggested_link_name
 req.header: mountdev.h
+req.construct-type: ioctl
 req.include-header: Mountdev.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME
 ---
+
+# IOCTL_MOUNTDEV_QUERY_SUGGESTED_LINK_NAME IOCTL (mountdev.h)
+
+
 
 ## -description
 

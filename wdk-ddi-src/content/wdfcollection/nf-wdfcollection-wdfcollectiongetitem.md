@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionGetItem function"]
 ms.keywords: DFCollectionObjectRef_8476d0ef-d5e3-4dbc-95de-bbabd04c22bc.xml, WdfCollectionGetItem, WdfCollectionGetItem method, kmdf.wdfcollectiongetitem, wdf.wdfcollectiongetitem, wdfcollection/WdfCollectionGetItem
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionGetItem
 ---
 
-# WdfCollectionGetItem function
+# WdfCollectionGetItem function (wdfcollection.h)
+
+
 
 
 ## -description

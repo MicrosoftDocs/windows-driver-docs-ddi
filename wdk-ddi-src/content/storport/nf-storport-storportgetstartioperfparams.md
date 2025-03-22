@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetStartIoPerfParams function"]
 ms.keywords: StorPortGetStartIoPerfParams, StorPortGetStartIoPerfParams routine [Storage Devices], storage.storportgetstartioperfparams, storport/StorPortGetStartIoPerfParams, storprt_ad7184c9-2f69-4571-ba56-28b5a3b353d7.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetStartIoPerfParams
 ---
 
-# StorPortGetStartIoPerfParams function
+# StorPortGetStartIoPerfParams function (storport.h)
+
+
 
 
 ## -description

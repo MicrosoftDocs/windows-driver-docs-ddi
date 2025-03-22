@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration"]
 ms.keywords: DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration [Display Devices], DXGK_RFVR_FIRMWARE, DXGK_RFVR_HOTKEY, DXGK_RFVR_UNINITIALIZED, DXGK_RFVR_USERMODE, DmEnums_bb915c39-0ecd-4b15-8030-6a144173dc90.xml, _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RECOMMENDFUNCTIONALVIDPN_REASON, d3dkmddi/DXGK_RFVR_FIRMWARE, d3dkmddi/DXGK_RFVR_HOTKEY, d3dkmddi/DXGK_RFVR_UNINITIALIZED, d3dkmddi/DXGK_RFVR_USERMODE, display.dxgk_recommendfunctionalvidpn_reason
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
 ---
 
-# _DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration
+# DXGK_RECOMMENDFUNCTIONALVIDPN_REASON enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

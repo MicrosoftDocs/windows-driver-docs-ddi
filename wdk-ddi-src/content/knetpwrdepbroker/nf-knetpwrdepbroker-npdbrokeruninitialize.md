@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NpdBrokerUninitialize function"]
 ms.keywords: NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerUninitialize, netvista.npdbrokeruninitialize
 req.header: knetpwrdepbroker.h
+req.construct-type: function
 req.include-header: KNetPwrDepBroker.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - NpdBrokerUninitialize
 ---
 
-# NpdBrokerUninitialize function
+# NpdBrokerUninitialize function (knetpwrdepbroker.h)
+
+
 
 
 ## -description

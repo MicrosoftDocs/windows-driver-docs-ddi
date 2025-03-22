@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["InsertTailList function"]
 ms.keywords: InsertTailList, InsertTailList routine [Kernel-Mode Driver Architecture], k109_8f31d6a6-89a0-440c-9397-2bef61a5878f.xml, kernel.inserttaillist, wdm/InsertTailList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - InsertTailList
 ---
 
-# InsertTailList function
+# InsertTailList function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_connect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT
 req.header: bthhfpddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT
 ---
 
-# IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT IOCTL
+# IOCTL_BTHHFP_DEVICE_REQUEST_CONNECT IOCTL (bthhfpddi.h)
+
+
+
+
 
 
 ## -description

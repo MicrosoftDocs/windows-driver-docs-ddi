@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsUnregisterWorker function"]
 ms.keywords: KsUnregisterWorker, KsUnregisterWorker function [Streaming Media Devices], ks/KsUnregisterWorker, ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, stream.ksunregisterworker
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsUnregisterWorker
 ---
 
-# KsUnregisterWorker function
+# KsUnregisterWorker function (ks.h)
+
+
 
 
 ## -description

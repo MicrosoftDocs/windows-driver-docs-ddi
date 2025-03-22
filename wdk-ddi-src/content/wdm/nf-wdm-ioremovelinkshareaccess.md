@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRemoveLinkShareAccess function"]
 ms.keywords: IoRemoveLinkShareAccess, IoRemoveLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioremovelinkshareaccess, wdm/IoRemoveLinkShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - IoRemoveLinkShareAccess
 ---
 
-# IoRemoveLinkShareAccess function
+# IoRemoveLinkShareAccess function (wdm.h)
+
+
 
 
 ## -description

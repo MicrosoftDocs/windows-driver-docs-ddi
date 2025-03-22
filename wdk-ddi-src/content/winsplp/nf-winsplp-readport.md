@@ -8,6 +8,7 @@ ms.date: 02/02/2018
 keywords: ["ReadPort function"]
 ms.keywords: ReadPort, spoolfnc_f4b817ce-afeb-4d3f-b8ce-e060b8de8143.xml, ReadPort function [Print Devices], print.readport, winsplp/ReadPort
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadPort
 ---
 
-# ReadPort function
+# ReadPort function (winsplp.h)
+
+
 
 
 ## -description

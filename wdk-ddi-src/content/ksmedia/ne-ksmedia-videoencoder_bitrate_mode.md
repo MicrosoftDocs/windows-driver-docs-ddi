@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["VIDEOENCODER_BITRATE_MODE enumeration"]
 ms.keywords: ConstantBitRate, VIDEOENCODER_BITRATE_MODE, VIDEOENCODER_BITRATE_MODE enumeration [Streaming Media Devices], VariableBitRateAverage, VariableBitRatePeak, encoderef_9d060a81-91a8-4e1a-9043-17cbb179b386.xml, ksmedia/ConstantBitRate, ksmedia/VIDEOENCODER_BITRATE_MODE, ksmedia/VariableBitRateAverage, ksmedia/VariableBitRatePeak, stream.videoencoder_bitrate_mode
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - VIDEOENCODER_BITRATE_MODE
 ---
 
-# VIDEOENCODER_BITRATE_MODE enumeration
+# VIDEOENCODER_BITRATE_MODE enumeration (ksmedia.h)
+
+
 
 
 ## -description

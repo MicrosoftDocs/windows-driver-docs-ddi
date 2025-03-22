@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["NtLockFile function"]
 ms.keywords: NtLockFile, ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml, kernel.zwlockfile, ntifs/NtLockFile, ntifs/ZwLockFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - NtLockFile
 ---
 
-# NtLockFile function
+# NtLockFile function (ntifs.h)
+
+
 
 ## -description
 

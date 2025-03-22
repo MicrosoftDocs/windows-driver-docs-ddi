@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["NetRingCollectionGetPacketRing function"]
 ms.keywords: NetRingCollectionGetPacketRing
 req.header: ringcollection.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetRingCollectionGetPacketRing
 ---
 
-# NetRingCollectionGetPacketRing function
+# NetRingCollectionGetPacketRing function (ringcollection.h)
+
+
 
 
 ## -description

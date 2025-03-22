@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS IOCTL"]
 ms.keywords: IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS, IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS control, IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS control code [Buses], buses.ioctl_usb_get_transport_characteristics, usbioctl/IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS
 ---
 
-# IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS IOCTL
+# IOCTL_USB_GET_TRANSPORT_CHARACTERISTICS IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

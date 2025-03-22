@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeSendDatagram function"]
 ms.keywords: RxCeSendDatagram, RxCeSendDatagram function [Installable File System Drivers], ifsk.rxcesenddatagram, rxce/RxCeSendDatagram, rxref_dc97dbe7-c676-4b1f-8aee-7dbc7cfbc5e3.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h, Tdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeSendDatagram
 ---
 
-# RxCeSendDatagram function
+# RxCeSendDatagram function (rxce.h)
+
+
 
 
 ## -description

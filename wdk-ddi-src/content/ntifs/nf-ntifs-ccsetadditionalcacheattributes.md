@@ -8,6 +8,7 @@ ms.date: 01/15/2021
 keywords: ["CcSetAdditionalCacheAttributes function"]
 ms.keywords: CcSetAdditionalCacheAttributes, CcSetAdditionalCacheAttributes routine [Installable File System Drivers], ccref_a9722d17-3140-4bcd-abd9-46d31fa13174.xml, ifsk.ccsetadditionalcacheattributes, ntifs/CcSetAdditionalCacheAttributes
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcSetAdditionalCacheAttributes
 ---
 
-# CcSetAdditionalCacheAttributes function
+# CcSetAdditionalCacheAttributes function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NET_POWER_OFFLOAD_LIST_INIT function"]
 ms.keywords: NET_POWER_OFFLOAD_LIST_INIT
 req.header: netpoweroffloadlist.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NET_POWER_OFFLOAD_LIST_INIT
 ---
 
-# NET_POWER_OFFLOAD_LIST_INIT function
+# NET_POWER_OFFLOAD_LIST_INIT function (netpoweroffloadlist.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAllocateExtraCreateParameterFromLookasideList function"]
 ms.keywords: FltAllocateExtraCreateParameterFromLookasideList, FltAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], FltApiRef_a_to_d_27580c4f-61c2-46b1-be1c-8895c918a05e.xml, fltkernel/FltAllocateExtraCreateParameterFromLookasideList, ifsk.fltallocateextracreateparameterfromlookasidelist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAllocateExtraCreateParameterFromLookasideList
 ---
 
-# FltAllocateExtraCreateParameterFromLookasideList function
+# FltAllocateExtraCreateParameterFromLookasideList function (fltkernel.h)
+
+
 
 
 ## -description

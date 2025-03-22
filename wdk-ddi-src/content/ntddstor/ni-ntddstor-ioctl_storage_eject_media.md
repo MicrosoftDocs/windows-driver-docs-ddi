@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_EJECT_MEDIA IOCTL"]
 ms.keywords: IOCTL_STORAGE_EJECT_MEDIA, IOCTL_STORAGE_EJECT_MEDIA control, IOCTL_STORAGE_EJECT_MEDIA control code [Storage Devices], k307_19063683-2dc1-4ce2-ac53-7754eee2562b.xml, ntddstor/IOCTL_STORAGE_EJECT_MEDIA, storage.ioctl_storage_eject_media
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_EJECT_MEDIA
 ---
 
-# IOCTL_STORAGE_EJECT_MEDIA IOCTL
+# IOCTL_STORAGE_EJECT_MEDIA IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

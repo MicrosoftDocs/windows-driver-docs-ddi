@@ -7,6 +7,7 @@ ms.date: 08/16/2023
 keywords: ["MmGetMdlByteCount macro"]
 ms.keywords: MmGetMdlByteCount, MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, kernel.mmgetmdlbytecount, wdm/MmGetMdlByteCount
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_name:
  - MmGetMdlByteCount
 returns-override: true
 ---
+
+# MmGetMdlByteCount function (wdm.h)
 
 ## -description
 

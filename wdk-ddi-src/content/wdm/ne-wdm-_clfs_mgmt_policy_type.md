@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CLFS_MGMT_POLICY_TYPE enumeration"]
 ms.keywords: "*PCLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE, CLFS_MGMT_POLICY_TYPE enumeration [Kernel-Mode Driver Architecture], ClfsMgmtPolicyAutoGrow, ClfsMgmtPolicyAutoShrink, ClfsMgmtPolicyGrowthRate, ClfsMgmtPolicyInvalid, ClfsMgmtPolicyLogTail, ClfsMgmtPolicyMaximumSize, ClfsMgmtPolicyMinimumSize, ClfsMgmtPolicyNewContainerExtension, ClfsMgmtPolicyNewContainerPrefix, ClfsMgmtPolicyNewContainerSize, ClfsMgmtPolicyNewContainerSuffix, PCLFS_MGMT_POLICY_TYPE, PCLFS_MGMT_POLICY_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_POLICY_TYPE, kernel.clfs_mgmt_policy_type, sysenum_bae8275b-5f70-40fb-ae14-f803eaeb0a42.xml, wdm/CLFS_MGMT_POLICY_TYPE, wdm/ClfsMgmtPolicyAutoGrow, wdm/ClfsMgmtPolicyAutoShrink, wdm/ClfsMgmtPolicyGrowthRate, wdm/ClfsMgmtPolicyInvalid, wdm/ClfsMgmtPolicyLogTail, wdm/ClfsMgmtPolicyMaximumSize, wdm/ClfsMgmtPolicyMinimumSize, wdm/ClfsMgmtPolicyNewContainerExtension, wdm/ClfsMgmtPolicyNewContainerPrefix, wdm/ClfsMgmtPolicyNewContainerSize, wdm/ClfsMgmtPolicyNewContainerSuffix, wdm/PCLFS_MGMT_POLICY_TYPE"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CLFS_MGMT_POLICY_TYPE
 ---
 
-# _CLFS_MGMT_POLICY_TYPE enumeration
+# CLFS_MGMT_POLICY_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

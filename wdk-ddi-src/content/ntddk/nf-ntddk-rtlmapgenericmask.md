@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlMapGenericMask function"]
 ms.keywords: RtlMapGenericMask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, kernel.rtlmapgenericmask, ntddk/RtlMapGenericMask
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlMapGenericMask
 ---
 
-# RtlMapGenericMask function
+# RtlMapGenericMask function (ntddk.h)
+
+
 
 
 ## -description

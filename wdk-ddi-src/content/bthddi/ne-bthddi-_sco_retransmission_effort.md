@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SCO_RETRANSMISSION_EFFORT enumeration"]
 ms.keywords: "*PSCO_RETRANSMISSION_EFFORT, PSCO_RETRANSMISSION_EFFORT, PSCO_RETRANSMISSION_EFFORT enumeration pointer [Bluetooth Devices], SCO_RETRANSMISSION_DONT_CARE, SCO_RETRANSMISSION_EFFORT, SCO_RETRANSMISSION_EFFORT enumeration [Bluetooth Devices], SCO_RETRANSMISSION_MIN1_POWER, SCO_RETRANSMISSION_MIN1_QUALITY, SCO_RETRANSMISSION_NONE, _SCO_RETRANSMISSION_EFFORT, bltooth.sco_retransmission_effort, bth_enums_00709c56-9596-40d6-a789-840c5c1c7d33.xml, bthddi/PSCO_RETRANSMISSION_EFFORT, bthddi/SCO_RETRANSMISSION_DONT_CARE, bthddi/SCO_RETRANSMISSION_EFFORT, bthddi/SCO_RETRANSMISSION_MIN1_POWER, bthddi/SCO_RETRANSMISSION_MIN1_QUALITY, bthddi/SCO_RETRANSMISSION_NONE"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - SCO_RETRANSMISSION_EFFORT
 ---
 
-# _SCO_RETRANSMISSION_EFFORT enumeration
+# SCO_RETRANSMISSION_EFFORT enumeration (bthddi.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_KERNEL_SUBMISSION_TYPE enumeration"]
 ms.keywords: _DXGK_KERNEL_SUBMISSION_TYPE, DXGK_KERNEL_SUBMISSION_TYPE,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_KERNEL_SUBMISSION_TYPE enumeration
+# DXGK_KERNEL_SUBMISSION_TYPE enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

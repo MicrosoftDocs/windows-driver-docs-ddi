@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForSynchronizationObject2 function"]
 ms.keywords: D3DKMTWaitForSynchronizationObject2, D3DKMTWaitForSynchronizationObject2 function [Display Devices], OpenGL_Functions_4453dc1e-8824-494e-9a74-2d3628f1ff81.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject2, display.d3dkmtwaitforsynchronizationobject2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTWaitForSynchronizationObject2 is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTWaitForSynchronizationObject2
 ---
 
-# D3DKMTWaitForSynchronizationObject2 function
+# D3DKMTWaitForSynchronizationObject2 function (d3dkmthk.h)
+
+
 
 ## -description
 

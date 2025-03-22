@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWpdAttributeForm enumeration"]
 ms.keywords: WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION, WPD_PROPERTY_ATTRIBUTE_FORM_OBJECT_IDENTIFIER, WPD_PROPERTY_ATTRIBUTE_FORM_RANGE, WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION, WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED, WpdAttributeForm, WpdAttributeForm enumeration, enumeration, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_ENUMERATION, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_OBJECT_IDENTIFIER, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_RANGE, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_REGULAR_EXPRESSION, portabledevice/WPD_PROPERTY_ATTRIBUTE_FORM_UNSPECIFIED, portabledevice/WpdAttributeForm, tagWpdAttributeForm, wpddk.wpdattributeform
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WpdAttributeForm
 ---
 
-# tagWpdAttributeForm enumeration
+# tagWpdAttributeForm enumeration (portabledevice.h)
+
+
 
 
 ## -description

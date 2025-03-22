@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeAppendPrivileges function"]
 ms.keywords: SeAppendPrivileges, SeAppendPrivileges routine [Installable File System Drivers], ifsk.seappendprivileges, ntifs/SeAppendPrivileges, seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeAppendPrivileges
 ---
 
-# SeAppendPrivileges function
+# SeAppendPrivileges function (ntifs.h)
+
+
 
 
 ## -description

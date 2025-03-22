@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxIdleComponent function"]
 ms.keywords: PoFxIdleComponent, PoFxIdleComponent routine [Kernel-Mode Driver Architecture], kernel.pofxidlecomponent, wdm/PoFxIdleComponent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxIdleComponent
 ---
 
-# PoFxIdleComponent function
+# PoFxIdleComponent function (wdm.h)
+
+
 
 
 ## -description

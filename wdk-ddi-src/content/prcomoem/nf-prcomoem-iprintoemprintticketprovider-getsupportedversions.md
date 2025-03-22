@@ -7,6 +7,7 @@ ms.date: 08/22/2022
 keywords: ["IPrintOemPrintTicketProvider::GetSupportedVersions"]
 ms.keywords: GetSupportedVersions, GetSupportedVersions method [Print Devices], GetSupportedVersions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],GetSupportedVersions method, IPrintOemPrintTicketProvider.GetSupportedVersions, IPrintOemPrintTicketProvider::GetSupportedVersions, prcomoem/IPrintOemPrintTicketProvider::GetSupportedVersions, print.iprintoemprintticketprovider_getsupportedversions, print_ticket-package_f20858fb-a11d-45b4-a8db-6a492b761cfc.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::GetSupportedVersions
 ---
+
+# IPrintOemPrintTicketProvider::GetSupportedVersions function (prcomoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsMethodHandler function"]
 ms.keywords: KsMethodHandler, KsMethodHandler function [Streaming Media Devices], ks/KsMethodHandler, ksfunc_1f1959ed-e370-4ebb-9932-435c448a944b.xml, stream.ksmethodhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsMethodHandler
 ---
 
-# KsMethodHandler function
+# KsMethodHandler function (ks.h)
+
+
 
 
 ## -description

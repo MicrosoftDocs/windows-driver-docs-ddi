@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsAcquireClassifyHandle0 function"]
 ms.keywords: FwpsAcquireClassifyHandle0, FwpsAcquireClassifyHandle0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAcquireClassifyHandle0, netvista.fwpsacquireclassifyhandle0, wfp_ref_2_funct_3_fwps_A-B_c0b568dd-f546-4bab-a012-14f4d2a8d846.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FwpsAcquireClassifyHandle0
 ---
 
-# FwpsAcquireClassifyHandle0 function
+# FwpsAcquireClassifyHandle0 function (fwpsk.h)
+
+
 
 
 ## -description

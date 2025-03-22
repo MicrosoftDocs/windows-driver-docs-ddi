@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTOpenAdapterFromLuid function"]
 ms.keywords: D3DKMTOpenAdapterFromLuid, D3DKMTOpenAdapterFromLuid function [Display Devices], d3dkmthk/D3DKMTOpenAdapterFromLuid, display.d3dkmtopenadapterfromluid
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTOpenAdapterFromLuid
 ---
 
-# D3DKMTOpenAdapterFromLuid function
+# D3DKMTOpenAdapterFromLuid function (d3dkmthk.h)
+
+
 
 ## -description
 

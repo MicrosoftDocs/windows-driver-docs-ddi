@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoInitializeIrp function"]
 ms.keywords: IoInitializeIrp, IoInitializeIrp routine [Kernel-Mode Driver Architecture], k104_5c9dc7a8-747c-4832-a31b-5936e2d3361d.xml, kernel.ioinitializeirp, wdm/IoInitializeIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoInitializeIrp
 ---
 
-# IoInitializeIrp function
+# IoInitializeIrp function (wdm.h)
+
+
 
 
 ## -description

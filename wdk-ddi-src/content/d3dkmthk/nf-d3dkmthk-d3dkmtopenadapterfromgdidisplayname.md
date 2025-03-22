@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenAdapterFromGdiDisplayName function"]
 ms.keywords: D3DKMTOpenAdapterFromGdiDisplayName, D3DKMTOpenAdapterFromGdiDisplayName function [Display Devices], OpenGL_Functions_74419d9d-cd33-4fed-8103-3be487c3c7a1.xml, d3dkmthk/D3DKMTOpenAdapterFromGdiDisplayName, display.d3dkmtopenadapterfromgdidisplayname
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTOpenAdapterFromGdiDisplayName
 ---
 
-# D3DKMTOpenAdapterFromGdiDisplayName function
+# D3DKMTOpenAdapterFromGdiDisplayName function (d3dkmthk.h)
+
+
 
 
 ## -description

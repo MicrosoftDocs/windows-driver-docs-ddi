@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortPause function"]
 ms.keywords: StorPortPause, StorPortPause routine [Storage Devices], storage.storportpause, storport/StorPortPause, storprt_0d8b3555-f061-4320-948e-f8db6a204d0e.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortPause
 ---
 
-# StorPortPause function
+# StorPortPause function (storport.h)
+
+
 
 
 ## -description

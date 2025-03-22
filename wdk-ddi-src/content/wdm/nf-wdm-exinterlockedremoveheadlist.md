@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedRemoveHeadList function"]
 ms.keywords: ExInterlockedRemoveHeadList, ExInterlockedRemoveHeadList routine [Kernel-Mode Driver Architecture], k102_6ab2420a-7522-4445-9a6e-c8a603f5cff8.xml, kernel.exinterlockedremoveheadlist, wdm/ExInterlockedRemoveHeadList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedRemoveHeadList
 ---
 
-# ExInterlockedRemoveHeadList function
+# ExInterlockedRemoveHeadList function (wdm.h)
+
+
 
 
 ## -description

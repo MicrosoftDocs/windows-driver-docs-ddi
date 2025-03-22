@@ -8,6 +8,7 @@ ms.date: 11/26/2019
 keywords: ["RtlAllocateHeap function"]
 ms.keywords: RtlAllocateHeap, RtlAllocateHeap routine [Installable File System Drivers], ifsk.rtlallocateheap, ntifs/RtlAllocateHeap, rtlref_fa360ead-62c7-46c3-8d66-a73ee9e1a0bb.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -41,7 +42,9 @@ api_name:
  - RtlAllocateHeap
 ---
 
-# RtlAllocateHeap function
+# RtlAllocateHeap function (ntifs.h)
+
+
 
 
 ## -description

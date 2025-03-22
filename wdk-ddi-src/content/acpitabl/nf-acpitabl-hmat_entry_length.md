@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["HMAT_ENTRY_LENGTH macro"]
 ms.keywords: HMAT_ENTRY_LENGTH
 req.header: acpitabl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - HMAT_ENTRY_LENGTH
 ---
 
-# HMAT_ENTRY_LENGTH macro
+# HMAT_ENTRY_LENGTH function (acpitabl.h)
+
+
 
 ## -description
 

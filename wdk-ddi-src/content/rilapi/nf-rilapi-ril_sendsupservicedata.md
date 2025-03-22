@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SendSupServiceData function"]
 ms.keywords: RIL_SendSupServiceData, RIL_SendSupServiceData method [Network Drivers Starting with Windows Vista], netvista.ril_sendsupservicedata, rilapi/RIL_SendSupServiceData
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SendSupServiceData
 ---
 
-# RIL_SendSupServiceData function
+# RIL_SendSupServiceData function (rilapi.h)
+
+
 
 
 ## -description

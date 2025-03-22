@@ -7,6 +7,7 @@ ms.date: 08/23/2018
 keywords: ["WWAN_CONTEXT_LTE_ATTACH_STATE enumeration"]
 ms.keywords: _WWAN_CONTEXT_LTE_ATTACH_STATE, WWAN_CONTEXT_LTE_ATTACH_STATE, *PWWAN_CONTEXT_LTE_ATTACH_STATE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_CONTEXT_LTE_ATTACH_STATE
 ---
 
-# _WWAN_CONTEXT_LTE_ATTACH_STATE enumeration
+# WWAN_CONTEXT_LTE_ATTACH_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

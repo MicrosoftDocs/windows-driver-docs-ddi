@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["_RxSynchronizeBlockingOperations function"]
 ms.keywords: "__RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations function [Installable File System Drivers], ifsk.__rxsynchronizeblockingoperations, rxcontx/__RxSynchronizeBlockingOperations, rxref_d35d9118-8942-402e-8c78-3168a2d9ad73.xml"
 req.header: rxcontx.h
+req.construct-type: function
 req.include-header: Rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: The __RxSynchronizeBlockingOperations routine is only available on Windows Server 2003.
@@ -40,7 +41,9 @@ api_name:
  - __RxSynchronizeBlockingOperations
 ---
 
-# __RxSynchronizeBlockingOperations function
+# __RxSynchronizeBlockingOperations function (rxcontx.h)
+
+
 
 
 ## -description

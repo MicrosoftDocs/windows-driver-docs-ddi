@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortDeviceBusy function"]
 ms.keywords: StorPortDeviceBusy, StorPortDeviceBusy routine [Storage Devices], storage.storportdevicebusy, storport/StorPortDeviceBusy, storprt_c1496cbe-e4b0-4b2b-8947-587b2467c57f.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortDeviceBusy
 ---
 
-# StorPortDeviceBusy function
+# StorPortDeviceBusy function (storport.h)
+
+
 
 
 ## -description

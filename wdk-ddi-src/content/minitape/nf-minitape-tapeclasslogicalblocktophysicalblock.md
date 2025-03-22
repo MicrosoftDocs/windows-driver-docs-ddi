@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TapeClassLogicalBlockToPhysicalBlock function"]
 ms.keywords: TapeClassLogicalBlockToPhysicalBlock, TapeClassLogicalBlockToPhysicalBlock routine [Storage Devices], minitape/TapeClassLogicalBlockToPhysicalBlock, storage.tapeclasslogicalblocktophysicalblock, tapeclas_6d45358d-68a6-4f00-991e-714a489fd78d.xml
 req.header: minitape.h
+req.construct-type: function
 req.include-header: Minitape.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - TapeClassLogicalBlockToPhysicalBlock
 ---
 
-# TapeClassLogicalBlockToPhysicalBlock function
+# TapeClassLogicalBlockToPhysicalBlock function (minitape.h)
+
+
 
 
 ## -description

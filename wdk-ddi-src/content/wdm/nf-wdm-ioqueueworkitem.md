@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoQueueWorkItem function"]
 ms.keywords: IoQueueWorkItem, IoQueueWorkItem routine [Kernel-Mode Driver Architecture], k104_6f5cb4e5-75d1-433a-864e-19de914aa2e7.xml, kernel.ioqueueworkitem, wdm/IoQueueWorkItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoQueueWorkItem
 ---
 
-# IoQueueWorkItem function
+# IoQueueWorkItem function (wdm.h)
+
+
 
 
 ## -description

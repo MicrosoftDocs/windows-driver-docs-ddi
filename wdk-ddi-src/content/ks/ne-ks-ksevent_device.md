@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_DEVICE enumeration"]
 ms.keywords: KSEVENT_DEVICE, KSEVENT_DEVICE enumeration [Streaming Media Devices], KSEVENT_DEVICE_LOST, KSEVENT_DEVICE_PREEMPTED, ks/KSEVENT_DEVICE, ks/KSEVENT_DEVICE_LOST, ks/KSEVENT_DEVICE_PREEMPTED, stream.ksevent_device
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KSEVENT_DEVICE
 ---
 
-# KSEVENT_DEVICE enumeration
+# KSEVENT_DEVICE enumeration (ks.h)
+
+
 
 
 ## -description

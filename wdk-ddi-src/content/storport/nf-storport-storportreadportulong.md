@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["StorPortReadPortUlong macro"]
 ms.keywords: StorPortReadPortUlong, StorPortReadPortUlong routine [Storage Devices], storage.storportreadportulong, storport/StorPortReadPortUlong, storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortReadPortUlong
 ---
 
-# StorPortReadPortUlong macro
+# StorPortReadPortUlong function (storport.h)
+
+
 
 ## -description
 

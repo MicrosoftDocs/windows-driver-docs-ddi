@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMResetComplete macro"]
 ms.keywords: NdisMResetComplete, NdisMResetComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_cea3e0dd-c6cb-49a7-86e3-68b779a355d2.xml, ndis/NdisMResetComplete, netvista.ndismresetcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For NDIS 5.1 drivers, see    NdisMResetComplete (NDIS 5.1).
@@ -41,7 +42,9 @@ api_name:
  - NdisMResetComplete
 ---
 
-# NdisMResetComplete macro (NDIS 5.x)
+# NdisMResetComplete function (ndis.h)
+
+ (NDIS 5.x)
 
 
 ## -description

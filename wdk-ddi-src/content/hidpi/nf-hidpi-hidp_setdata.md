@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_SetData function"]
 ms.keywords: HidP_SetData, HidP_SetData routine [Human Input Devices], hid.hidp_setdata, hidfunc_4b2f18db-e7a2-432d-abd6-51240a0ffc91.xml, hidpi/HidP_SetData
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_SetData
 ---
 
-# HidP_SetData function
+# HidP_SetData function (hidpi.h)
+
+
 
 
 ## -description

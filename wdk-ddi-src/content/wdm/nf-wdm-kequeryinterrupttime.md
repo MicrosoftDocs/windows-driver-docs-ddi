@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQueryInterruptTime function"]
 ms.keywords: KeQueryInterruptTime, KeQueryInterruptTime routine [Kernel-Mode Driver Architecture], k105_a87c40d1-b9be-42f1-ada4-6e0fb3d33220.xml, kernel.kequeryinterrupttime, wdm/KeQueryInterruptTime
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryInterruptTime
 ---
 
-# KeQueryInterruptTime function
+# KeQueryInterruptTime function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/20/2022
 keywords: ["IWiaDrvItem::AddItemToFolder"]
 ms.keywords: AddItemToFolder, AddItemToFolder method [Imaging Devices], AddItemToFolder method [Imaging Devices],IWiaDrvItem interface, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, IWiaDrvItem interface [Imaging Devices],AddItemToFolder method, IWiaDrvItem.AddItemToFolder, IWiaDrvItem::AddItemToFolder, image.iwiadrvitem_additemtofolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaDrvItem::AddItemToFolder
 ---
+
+# IWiaDrvItem::AddItemToFolder function (wiamindr_lh.h)
 
 ## -description
 

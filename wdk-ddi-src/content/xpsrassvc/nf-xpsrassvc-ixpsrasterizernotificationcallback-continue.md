@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IXpsRasterizerNotificationCallback::Continue"]
 ms.keywords: Continue, Continue method [Print Devices], Continue method [Print Devices],IXpsRasterizerNotificationCallback interface, IXpsRasterizerNotificationCallback interface [Print Devices],Continue method, IXpsRasterizerNotificationCallback.Continue, IXpsRasterizerNotificationCallback::Continue, print.ixpsrasterizernotificationcallback_continue, print_xpsrast_f107f6a3-c35f-4ec1-b50f-062852852af6.xml, xpsrassvc/IXpsRasterizerNotificationCallback::Continue
 req.header: xpsrassvc.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows 7 and later versions of the Windows operating system.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IXpsRasterizerNotificationCallback::Continue
 ---
+
+# IXpsRasterizerNotificationCallback::Continue function (xpsrassvc.h)
 
 ## -description
 

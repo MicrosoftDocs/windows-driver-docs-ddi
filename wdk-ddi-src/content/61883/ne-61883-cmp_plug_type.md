@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_PLUG_TYPE enumeration"]
 ms.keywords: 61883/CMP_PLUG_TYPE, 61883/CMP_PlugIn, 61883/CMP_PlugOut, CMP_PLUG_TYPE, CMP_PLUG_TYPE enumeration [Buses], CMP_PlugIn, CMP_PlugOut, IEEE.cmp_plug_type
 req.header: 61883.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CMP_PLUG_TYPE
 ---
 
-# CMP_PLUG_TYPE enumeration
+# CMP_PLUG_TYPE enumeration (61883.h)
+
+
 
 
 ## -description

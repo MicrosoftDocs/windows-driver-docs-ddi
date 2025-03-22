@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_GET_SIOP IOCTL is used to get the SIOP."
 ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_GET_SIOP IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_GET_SIOP
 ---
 
-# IOCTL_SBAUD_GET_SIOP IOCTL
+# IOCTL_SBAUD_GET_SIOP IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

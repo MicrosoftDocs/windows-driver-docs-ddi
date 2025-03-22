@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetDeviceAddressOffset function"]
 ms.keywords: WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionSetDeviceAddressOffset
 ---
 
-# WdfDmaTransactionSetDeviceAddressOffset function
+# WdfDmaTransactionSetDeviceAddressOffset function (wdfdmatransaction.h)
+
+
 
 
 ## -description

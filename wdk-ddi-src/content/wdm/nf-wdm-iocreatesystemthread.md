@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoCreateSystemThread function"]
 ms.keywords: IoCreateSystemThread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], kernel.iocreatesystemthread, wdm/IoCreateSystemThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoCreateSystemThread
 ---
+
+# IoCreateSystemThread function (wdm.h)
 
 ## -description
 

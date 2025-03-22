@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTRender function"]
 ms.keywords: D3DKMTRender, D3DKMTRender function [Display Devices], OpenGL_Functions_d24fbe14-3271-47f8-9268-8946b599b32a.xml, d3dkmthk/D3DKMTRender, display.d3dkmtrender
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTRender
 ---
 
-# D3DKMTRender function
+# D3DKMTRender function (d3dkmthk.h)
+
+
 
 
 ## -description

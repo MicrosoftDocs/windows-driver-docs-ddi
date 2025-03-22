@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNotifyVolumeEvent function"]
 ms.keywords: FsRtlNotifyVolumeEvent, FsRtlNotifyVolumeEvent routine [Installable File System Drivers], fsrtlref_a242139a-dc66-4522-85a2-4f910d999d4d.xml, ifsk.fsrtlnotifyvolumeevent, ntifs/FsRtlNotifyVolumeEvent
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlNotifyVolumeEvent function
+# FsRtlNotifyVolumeEvent function (ntifs.h)
+
+
 
 
 ## -description

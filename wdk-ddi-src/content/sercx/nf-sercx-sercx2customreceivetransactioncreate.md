@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2CustomReceiveTransactionCreate function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate, SerCx2CustomReceiveTransactionCreate method [Serial Ports], serports.sercx2customreceivetransactioncreate
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2CustomReceiveTransactionCreate
 ---
 
-# SerCx2CustomReceiveTransactionCreate function
+# SerCx2CustomReceiveTransactionCreate function (sercx.h)
+
+
 
 
 ## -description

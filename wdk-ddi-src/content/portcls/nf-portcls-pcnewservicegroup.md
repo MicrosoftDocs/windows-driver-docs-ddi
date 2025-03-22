@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewServiceGroup function"]
 ms.keywords: PcNewServiceGroup, PcNewServiceGroup function [Audio Devices], audio.pcnewservicegroup, audpc-routines_2164b9cd-1bb5-4e51-aa07-6ed9cb40e3fb.xml, portcls/PcNewServiceGroup
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcNewServiceGroup function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewServiceGroup
 ---
 
-# PcNewServiceGroup function
+# PcNewServiceGroup function (portcls.h)
+
+
 
 
 ## -description

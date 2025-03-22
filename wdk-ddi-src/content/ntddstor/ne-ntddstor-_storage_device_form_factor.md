@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_FORM_FACTOR enumeration"]
 ms.keywords: "*PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, FormFactor1_8Less, FormFactor2_5, FormFactor3_5, FormFactorDimm, FormFactorEmbedded, FormFactorM_2, FormFactorMemoryCard, FormFactorPCIeBoard, FormFactorUnknown, FormFactormSata, PSTORAGE_DEVICE_FORM_FACTOR, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], STORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], _STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor1_8, ntddstor/FormFactor1_8Less, ntddstor/FormFactor2_5, ntddstor/FormFactor3_5, ntddstor/FormFactorDimm, ntddstor/FormFactorEmbedded, ntddstor/FormFactorM_2, ntddstor/FormFactorMemoryCard, ntddstor/FormFactorPCIeBoard, ntddstor/FormFactorUnknown, ntddstor/FormFactormSata, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/STORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DEVICE_FORM_FACTOR
 ---
 
-# _STORAGE_DEVICE_FORM_FACTOR enumeration
+# STORAGE_DEVICE_FORM_FACTOR enumeration (ntddstor.h)
+
+
 
 
 ## -description

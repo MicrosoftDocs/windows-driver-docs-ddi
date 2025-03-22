@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxOpen function"]
 ms.keywords: PosCxOpen, PosCxOpen function, pos.poscxopen, poscx/PosCxOpen
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxOpen
 ---
 
-# PosCxOpen function
+# PosCxOpen function (poscx.h)
+
+
 
 
 ## -description

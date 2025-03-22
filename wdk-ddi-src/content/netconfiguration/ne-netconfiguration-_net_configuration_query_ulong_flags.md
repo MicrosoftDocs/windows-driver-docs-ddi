@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration"]
 ms.keywords: _NET_CONFIGURATION_QUERY_ULONG_FLAGS, NET_CONFIGURATION_QUERY_ULONG_FLAGS,
 req.header: netconfiguration.h
+req.construct-type: enumeration
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -35,7 +36,9 @@ api_name:
  - NET_CONFIGURATION_QUERY_ULONG_FLAGS
 ---
 
-# _NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration
+# NET_CONFIGURATION_QUERY_ULONG_FLAGS enumeration (netconfiguration.h)
+
+
 
 
 ## -description

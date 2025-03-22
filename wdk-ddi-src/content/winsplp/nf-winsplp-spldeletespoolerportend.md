@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["SplDeleteSpoolerPortEnd function"]
 ms.keywords: SplDeleteSpoolerPortEnd, SplDeleteSpoolerPortEnd function [Print Devices], print.spldeletespoolerportend, winsplp/SplDeleteSpoolerPortEnd
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SplDeleteSpoolerPortEnd
 ---
+
+# SplDeleteSpoolerPortEnd function (winsplp.h)
 
 ## -description
 

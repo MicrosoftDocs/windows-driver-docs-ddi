@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCoSendNetBufferListsComplete function"]
 ms.keywords: NdisMCoSendNetBufferListsComplete, NdisMCoSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], condis_sendrcv_ref_49470611-47cb-4778-8723-4acc2ebbfb81.xml, ndis/NdisMCoSendNetBufferListsComplete, netvista.ndismcosendnetbufferlistscomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMCoSendNetBufferListsComplete
 ---
 
-# NdisMCoSendNetBufferListsComplete function
+# NdisMCoSendNetBufferListsComplete function (ndis.h)
+
+
 
 
 ## -description

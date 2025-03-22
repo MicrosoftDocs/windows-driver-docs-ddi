@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlLookupPerFileContext function"]
 ms.keywords: FsRtlLookupPerFileContext, FsRtlLookupPerFileContext routine [Installable File System Drivers], fsrtlref_ab859bb7-ea43-4d55-ab37-feebddd270ff.xml, ifsk.fsrtllookupperfilecontext, ntifs/FsRtlLookupPerFileContext
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlLookupPerFileContext
 ---
 
-# FsRtlLookupPerFileContext function
+# FsRtlLookupPerFileContext function (ntifs.h)
+
+
 
 
 ## -description

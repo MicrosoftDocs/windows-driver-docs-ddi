@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::CreateNotificationChannel"]
 ms.keywords: CreateNotificationChannel, CreateNotificationChannel method [Print Devices], CreateNotificationChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],CreateNotificationChannel method, IBidiAsyncNotifyChannel.CreateNotificationChannel, IBidiAsyncNotifyChannel::CreateNotificationChannel, print.ibidiasyncnotifychannel_createnotificationchannel, prnasntp/IBidiAsyncNotifyChannel::CreateNotificationChannel
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiAsyncNotifyChannel::CreateNotificationChannel
 ---
+
+# IBidiAsyncNotifyChannel::CreateNotificationChannel function (prnasntp.h)
 
 ## -description
 

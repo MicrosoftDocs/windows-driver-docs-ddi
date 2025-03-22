@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetImageNameAndResourceId function"]
 ms.keywords: KsGetImageNameAndResourceId, KsGetImageNameAndResourceId function [Streaming Media Devices], ks/KsGetImageNameAndResourceId, ksfunc_b4a55bde-4bbb-494e-969c-924547251e1d.xml, stream.ksgetimagenameandresourceid
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetImageNameAndResourceId
 ---
 
-# KsGetImageNameAndResourceId function
+# KsGetImageNameAndResourceId function (ks.h)
+
+
 
 
 ## -description

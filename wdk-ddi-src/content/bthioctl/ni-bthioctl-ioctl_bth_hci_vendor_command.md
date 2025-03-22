@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL"]
 ms.keywords: IOCTL_BTH_HCI_VENDOR_COMMAND, IOCTL_BTH_HCI_VENDOR_COMMAND control, IOCTL_BTH_HCI_VENDOR_COMMAND control code [Bluetooth Devices], bltooth.ioctl_bth_hci_vendor_command, bth_ref_f907562d-11ca-4ec2-ace5-97042364bb01.xml, bthioctl/IOCTL_BTH_HCI_VENDOR_COMMAND
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Available on Microsoft Windows Vista SP2 and later operating system   versions.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_HCI_VENDOR_COMMAND
 ---
 
-# IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL
+# IOCTL_BTH_HCI_VENDOR_COMMAND IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

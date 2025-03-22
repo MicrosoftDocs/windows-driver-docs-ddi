@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL"]
 ms.keywords: IOCTL_NFCSE_SET_ROUTING_TABLE, IOCTL_NFCSE_SET_ROUTING_TABLE control, IOCTL_NFCSE_SET_ROUTING_TABLE control code [Near-Field Proximity Drivers], nfcsedev/IOCTL_NFCSE_SET_ROUTING_TABLE, nfpdrivers.ioctl_nfcse_set_routing_table
 req.header: nfcsedev.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_NFCSE_SET_ROUTING_TABLE
 ---
 
-# IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL
+# IOCTL_NFCSE_SET_ROUTING_TABLE IOCTL (nfcsedev.h)
+
+
+
+
 
 
 ## -description

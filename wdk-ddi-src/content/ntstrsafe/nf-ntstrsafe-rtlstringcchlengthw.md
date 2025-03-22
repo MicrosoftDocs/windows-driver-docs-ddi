@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCchLengthW function"]
 ms.keywords: RtlStringCchLength, RtlStringCchLengthA, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchlength, ntstrsafe/RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthW, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCchLengthW
 ---
 
-# RtlStringCchLengthW function
+# RtlStringCchLengthW function (ntstrsafe.h)
+
+
 
 
 ## -description

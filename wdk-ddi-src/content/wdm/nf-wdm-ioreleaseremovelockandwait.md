@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoReleaseRemoveLockAndWait macro"]
 ms.keywords: IoReleaseRemoveLockAndWait, IoReleaseRemoveLockAndWait routine [Kernel-Mode Driver Architecture], k104_bcbaa84f-6216-4ea4-9527-fb7e62d323a3.xml, kernel.ioreleaseremovelockandwait, wdm/IoReleaseRemoveLockAndWait
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoReleaseRemoveLockAndWait
 ---
 
-# IoReleaseRemoveLockAndWait macro
+# IoReleaseRemoveLockAndWait function (wdm.h)
+
+
 
 
 ## -description

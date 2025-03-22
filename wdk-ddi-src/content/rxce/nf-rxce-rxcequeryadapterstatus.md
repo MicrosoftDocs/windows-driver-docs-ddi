@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeQueryAdapterStatus function"]
 ms.keywords: RxCeQueryAdapterStatus, RxCeQueryAdapterStatus function [Installable File System Drivers], ifsk.rxcequeryadapterstatus, rxce/RxCeQueryAdapterStatus, rxref_0813f428-95ae-47df-969c-c00563f3b3c8.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeQueryAdapterStatus
 ---
 
-# RxCeQueryAdapterStatus function
+# RxCeQueryAdapterStatus function (rxce.h)
+
+
 
 
 ## -description

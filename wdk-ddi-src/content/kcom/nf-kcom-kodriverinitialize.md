@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KoDriverInitialize function"]
 ms.keywords: KoDriverInitialize, KoDriverInitialize function [Streaming Media Devices], kcom/KoDriverInitialize, ksfunc_117817ed-5a64-48c4-8b90-1ca6435c75b6.xml, stream.kodriverinitialize
 req.header: kcom.h
+req.construct-type: function
 req.include-header: Kcom.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KoDriverInitialize
 ---
 
-# KoDriverInitialize function
+# KoDriverInitialize function (kcom.h)
+
+
 
 
 ## -description

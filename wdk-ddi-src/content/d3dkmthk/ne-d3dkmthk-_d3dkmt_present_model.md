@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_MODEL enumeration"]
 ms.keywords: D3DKMT_PM_REDIRECTED_BLT, D3DKMT_PM_REDIRECTED_COMPOSITION, D3DKMT_PM_REDIRECTED_FLIP, D3DKMT_PM_REDIRECTED_GDI, D3DKMT_PM_REDIRECTED_GDI_SYSMEM, D3DKMT_PM_REDIRECTED_VISTABLT, D3DKMT_PM_SCREENCAPTUREFENCE, D3DKMT_PM_UNINITIALIZED, D3DKMT_PRESENT_MODEL, D3DKMT_PRESENT_MODEL enumeration [Display Devices], OpenGL_Structs_b2e4c00b-9072-449d-84c0-7958200e7d9a.xml, _D3DKMT_PRESENT_MODEL, d3dkmthk/D3DKMT_PM_REDIRECTED_BLT, d3dkmthk/D3DKMT_PM_REDIRECTED_COMPOSITION, d3dkmthk/D3DKMT_PM_REDIRECTED_FLIP, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI, d3dkmthk/D3DKMT_PM_REDIRECTED_GDI_SYSMEM, d3dkmthk/D3DKMT_PM_REDIRECTED_VISTABLT, d3dkmthk/D3DKMT_PM_SCREENCAPTUREFENCE, d3dkmthk/D3DKMT_PM_UNINITIALIZED, d3dkmthk/D3DKMT_PRESENT_MODEL, display.d3dkmt_present_model
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_PRESENT_MODEL is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_PRESENT_MODEL
 ---
 
-# _D3DKMT_PRESENT_MODEL enumeration
+# D3DKMT_PRESENT_MODEL enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

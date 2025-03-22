@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_MaxDataListLength function"]
 ms.keywords: HidP_MaxDataListLength, HidP_MaxDataListLength routine [Human Input Devices], hid.hidp_maxdatalistlength, hidfunc_2c103c6f-6177-47b3-9d52-9e15c97d758d.xml, hidpi/HidP_MaxDataListLength
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_MaxDataListLength
 ---
 
-# HidP_MaxDataListLength function
+# HidP_MaxDataListLength function (hidpi.h)
+
+
 
 
 ## -description

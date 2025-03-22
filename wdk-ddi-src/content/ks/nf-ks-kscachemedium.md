@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCacheMedium function"]
 ms.keywords: KsCacheMedium, KsCacheMedium function [Streaming Media Devices], ks/KsCacheMedium, ksfunc_19ac113f-3eb8-4073-90b0-786cc82cdf37.xml, stream.kscachemedium
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCacheMedium
 ---
 
-# KsCacheMedium function
+# KsCacheMedium function (ks.h)
+
+
 
 
 ## -description

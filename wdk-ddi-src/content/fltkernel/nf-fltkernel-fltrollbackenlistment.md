@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltRollbackEnlistment function"]
 ms.keywords: FltApiRef_p_to_z_f59e0c07-d415-440b-aec8-89c330679e0d.xml, FltRollbackEnlistment, FltRollbackEnlistment routine [Installable File System Drivers], fltkernel/FltRollbackEnlistment, ifsk.fltrollbackenlistment
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Windows Vista and later.
@@ -40,7 +41,9 @@ api_name:
  - FltRollbackEnlistment
 ---
 
-# FltRollbackEnlistment function
+# FltRollbackEnlistment function (fltkernel.h)
+
+
 
 
 ## -description

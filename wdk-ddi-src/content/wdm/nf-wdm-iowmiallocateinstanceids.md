@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIAllocateInstanceIds function"]
 ms.keywords: IoWMIAllocateInstanceIds, IoWMIAllocateInstanceIds routine [Kernel-Mode Driver Architecture], k104_52b2c9a6-e9c2-4c9f-b6f1-43ec8c72056a.xml, kernel.iowmiallocateinstanceids, wdm/IoWMIAllocateInstanceIds
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIAllocateInstanceIds
 ---
 
-# IoWMIAllocateInstanceIds function
+# IoWMIAllocateInstanceIds function (wdm.h)
+
+
 
 
 ## -description

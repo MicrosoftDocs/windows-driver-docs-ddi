@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGetVersion function"]
 ms.keywords: NdisGetVersion, NdisGetVersion function [Network Drivers Starting with Windows Vista], ndis/NdisGetVersion, ndis_configuration_ref_fcdf5ece-888e-4f1a-b855-367cbe4c68fe.xml, netvista.ndisgetversion
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisGetVersion (NDIS 5.1)) in   Windows Vista. Supported for NDIS 5.1 drivers (see    NdisGetVersion (NDIS 5.1)) in   Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisGetVersion
 ---
 
-# NdisGetVersion function
+# NdisGetVersion function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcSetLogHandleForFile function"]
 ms.keywords: CcSetLogHandleForFile, CcSetLogHandleForFile routine [Installable File System Drivers], LogHandle, Lsn, ccref_e4928c2e-41c5-4744-83c6-9c22766e9cfa.xml, ifsk.ccsetloghandleforfile, ntifs/CcSetLogHandleForFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - CcSetLogHandleForFile
 ---
 
-# CcSetLogHandleForFile function
+# CcSetLogHandleForFile function (ntifs.h)
+
+
 
 
 ## -description

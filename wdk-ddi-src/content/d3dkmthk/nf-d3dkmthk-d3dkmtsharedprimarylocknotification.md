@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSharedPrimaryLockNotification function"]
 ms.keywords: D3DKMTSharedPrimaryLockNotification, D3DKMTSharedPrimaryLockNotification function [Display Devices], OpenGL_Functions_a6696797-0a53-4687-8a70-4878b550fa03.xml, d3dkmthk/D3DKMTSharedPrimaryLockNotification, display.d3dkmtsharedprimarylocknotification
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSharedPrimaryLockNotification
 ---
 
-# D3DKMTSharedPrimaryLockNotification function
+# D3DKMTSharedPrimaryLockNotification function (d3dkmthk.h)
+
+
 
 ## -description
 

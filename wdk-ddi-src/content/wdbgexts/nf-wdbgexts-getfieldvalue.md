@@ -8,6 +8,7 @@ ms.date: 11/13/2018
 keywords: ["GetFieldValue macro"]
 ms.keywords: GetFieldValue, GetFieldValue function [Windows Debugging], WdbgExts_Ref_68aca028-5d92-48a3-845d-f9eb480a2c40.xml, debugger.getfieldvalue, wdbgexts/GetFieldValue
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetFieldValue
 ---
 
-# GetFieldValue macro
+# GetFieldValue function (wdbgexts.h)
+
+
 
 
 ## -description

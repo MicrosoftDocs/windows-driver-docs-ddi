@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetNextExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_c458316b-2dd7-4ff2-a59f-a6dfbd659f47.xml, FltGetNextExtraCreateParameter, FltGetNextExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltGetNextExtraCreateParameter, ifsk.fltgetnextextracreateparameter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltGetNextExtraCreateParameter
 ---
 
-# FltGetNextExtraCreateParameter function
+# FltGetNextExtraCreateParameter function (fltkernel.h)
+
+
 
 
 ## -description

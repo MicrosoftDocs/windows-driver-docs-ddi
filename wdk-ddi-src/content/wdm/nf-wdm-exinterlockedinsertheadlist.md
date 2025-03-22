@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedInsertHeadList function"]
 ms.keywords: ExInterlockedInsertHeadList, ExInterlockedInsertHeadList routine [Kernel-Mode Driver Architecture], k102_35e48cb9-2d0b-42df-aee0-b391b0ade424.xml, kernel.exinterlockedinsertheadlist, wdm/ExInterlockedInsertHeadList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedInsertHeadList
 ---
 
-# ExInterlockedInsertHeadList function
+# ExInterlockedInsertHeadList function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WMI_BUFFER_APPEND_STRING function"]
 ms.keywords: DFWMIRef_db6f29cb-fcdc-4948-9ea3-9b36e9f969e8.xml, WDF_WMI_BUFFER_APPEND_STRING, WDF_WMI_BUFFER_APPEND_STRING function, kmdf.wdf_wmi_buffer_append_string, wdf.wdf_wmi_buffer_append_string, wdfwmi/WDF_WMI_BUFFER_APPEND_STRING
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_WMI_BUFFER_APPEND_STRING
 ---
 
-# WDF_WMI_BUFFER_APPEND_STRING function
+# WDF_WMI_BUFFER_APPEND_STRING function (wdfwmi.h)
+
+
 
 
 ## -description

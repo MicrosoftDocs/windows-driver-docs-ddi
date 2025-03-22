@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxGetDeviceInterfaceTag function"]
 ms.keywords: PosCxGetDeviceInterfaceTag, PosCxGetDeviceInterfaceTag function, pos.poscxgetdeviceinterfacetag, poscx/PosCxGetDeviceInterfaceTag
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxGetDeviceInterfaceTag
 ---
 
-# PosCxGetDeviceInterfaceTag function
+# PosCxGetDeviceInterfaceTag function (poscx.h)
+
+
 
 
 ## -description

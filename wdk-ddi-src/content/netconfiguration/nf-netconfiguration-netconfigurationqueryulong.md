@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetConfigurationQueryUlong function"]
 ms.keywords: NetConfigurationQueryUlong
 req.header: netconfiguration.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetConfigurationQueryUlong
 ---
 
-# NetConfigurationQueryUlong function
+# NetConfigurationQueryUlong function (netconfiguration.h)
+
+
 
 
 ## -description

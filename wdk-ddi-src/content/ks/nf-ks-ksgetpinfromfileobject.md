@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetPinFromFileObject function"]
 ms.keywords: KsGetPinFromFileObject, KsGetPinFromFileObject function [Streaming Media Devices], avfunc_18bdc4eb-2823-481e-ba51-e4103ff10d8c.xml, ks/KsGetPinFromFileObject, stream.ksgetpinfromfileobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGetPinFromFileObject
 ---
 
-# KsGetPinFromFileObject function
+# KsGetPinFromFileObject function (ks.h)
+
+
 
 
 ## -description

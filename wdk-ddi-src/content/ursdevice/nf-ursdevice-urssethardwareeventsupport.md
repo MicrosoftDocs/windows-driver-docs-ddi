@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UrsSetHardwareEventSupport function"]
 ms.keywords: UrsSetHardwareEventSupport, UrsSetHardwareEventSupport function [Buses], buses.urssethardwareeventsupport, ursdevice/UrsSetHardwareEventSupport
 req.header: ursdevice.h
+req.construct-type: function
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UrsSetHardwareEventSupport
 ---
 
-# UrsSetHardwareEventSupport function
+# UrsSetHardwareEventSupport function (ursdevice.h)
+
+
 
 
 ## -description

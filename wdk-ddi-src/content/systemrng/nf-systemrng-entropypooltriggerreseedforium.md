@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["EntropyPoolTriggerReseedForIum function"]
 ms.keywords: EntropyPoolTriggerReseedForIum
 req.header: systemrng.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - EntropyPoolTriggerReseedForIum
 ---
 
-# EntropyPoolTriggerReseedForIum function
+# EntropyPoolTriggerReseedForIum function (systemrng.h)
+
+
 
 ## -description
 

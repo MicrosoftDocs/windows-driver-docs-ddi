@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_PAUSE_FUNCTION_TYPE enumeration"]
 ms.keywords: NET_ADAPTER_PAUSE_FUNCTION_TYPE, NET_ADAPTER_PAUSE_FUNCTION_TYPE,
 req.header: netadapter.h
+req.construct-type: enumeration
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -34,7 +35,9 @@ api_name:
  - NET_ADAPTER_PAUSE_FUNCTION_TYPE
 ---
 
-# NET_ADAPTER_PAUSE_FUNCTION_TYPE enumeration
+# NET_ADAPTER_PAUSE_FUNCTION_TYPE enumeration (netadapter.h)
+
+
 
 
 ## -description

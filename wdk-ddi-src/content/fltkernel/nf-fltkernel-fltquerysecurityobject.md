@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltQuerySecurityObject function"]
 ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltQuerySecurityObject
 ---
 
-# FltQuerySecurityObject function
+# FltQuerySecurityObject function (fltkernel.h)
+
+
 
 
 ## -description

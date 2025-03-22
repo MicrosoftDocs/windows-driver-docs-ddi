@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListRetrievePdo function"]
 ms.keywords: DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, WdfChildListRetrievePdo method, kmdf.wdfchildlistretrievepdo, wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListRetrievePdo
 ---
 
-# WdfChildListRetrievePdo function
+# WdfChildListRetrievePdo function (wdfchildlist.h)
+
+
 
 
 ## -description

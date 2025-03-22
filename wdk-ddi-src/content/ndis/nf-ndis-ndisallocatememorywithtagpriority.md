@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAllocateMemoryWithTagPriority function"]
 ms.keywords: NdisAllocateMemoryWithTagPriority, NdisAllocateMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateMemoryWithTagPriority, ndis_memory_ref_1b725109-fc0d-4f5f-8c88-d7a21a1f4c01.xml, netvista.ndisallocatememorywithtagpriority
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisAllocateMemoryWithTagPriority
 ---
 
-# NdisAllocateMemoryWithTagPriority function
+# NdisAllocateMemoryWithTagPriority function (ndis.h)
+
+
 
 
 ## -description

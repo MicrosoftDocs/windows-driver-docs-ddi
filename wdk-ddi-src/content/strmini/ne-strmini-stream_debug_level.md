@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["STREAM_DEBUG_LEVEL enumeration"]
 ms.keywords: DebugLevelError, DebugLevelFatal, DebugLevelInfo, DebugLevelMaximum, DebugLevelTrace, DebugLevelVerbose, DebugLevelWarning, STREAM_DEBUG_LEVEL, STREAM_DEBUG_LEVEL enumeration [Streaming Media Devices], ks-struct_9820cc1d-0d8b-43a8-b1a2-bca3f8a23d22.xml, stream.stream_debug_level, strmini/DebugLevelError, strmini/DebugLevelFatal, strmini/DebugLevelInfo, strmini/DebugLevelMaximum, strmini/DebugLevelTrace, strmini/DebugLevelVerbose, strmini/DebugLevelWarning, strmini/STREAM_DEBUG_LEVEL
 req.header: strmini.h
+req.construct-type: enumeration
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STREAM_DEBUG_LEVEL
 ---
 
-# STREAM_DEBUG_LEVEL enumeration
+# STREAM_DEBUG_LEVEL enumeration (strmini.h)
+
+
 
 
 ## -description

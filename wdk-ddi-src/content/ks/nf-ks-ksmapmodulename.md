@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsMapModuleName function"]
 ms.keywords: KsMapModuleName, KsMapModuleName function [Streaming Media Devices], ks/KsMapModuleName, ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, stream.ksmapmodulename
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsMapModuleName
 ---
 
-# KsMapModuleName function
+# KsMapModuleName function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["KeInitializeQueue function"]
 ms.keywords: KeInitializeQueue, KeInitializeQueue routine [Installable File System Drivers], ifsk.keinitializequeue, keref_85ea0829-c42c-4411-8ad9-a32d8eb0a40f.xml, ntifs/KeInitializeQueue
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeQueue
 ---
 
-# KeInitializeQueue function
+# KeInitializeQueue function (ntifs.h)
+
+
 
 
 ## -description

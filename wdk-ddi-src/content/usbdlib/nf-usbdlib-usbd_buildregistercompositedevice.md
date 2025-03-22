@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_BuildRegisterCompositeDevice function"]
 ms.keywords: USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses], buses.usbd_buildregistercompositedriver, usbdlib/ USBD_BuildRegisterCompositeDevice
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_BuildRegisterCompositeDevice
 ---
 
-# USBD_BuildRegisterCompositeDevice function
+# USBD_BuildRegisterCompositeDevice function (usbdlib.h)
+
+
 
 
 ## -description

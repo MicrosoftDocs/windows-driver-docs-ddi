@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlTimeToSecondsSince1970 function"]
 ms.keywords: RtlTimeToSecondsSince1970, RtlTimeToSecondsSince1970 routine [Installable File System Drivers], ifsk.rtltimetosecondssince1970, ntifs/RtlTimeToSecondsSince1970, rtlref_62b40f46-c3ee-480d-b671-0c107866f4e7.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlTimeToSecondsSince1970
 ---
 
-# RtlTimeToSecondsSince1970 function
+# RtlTimeToSecondsSince1970 function (ntifs.h)
+
+
 
 
 ## -description

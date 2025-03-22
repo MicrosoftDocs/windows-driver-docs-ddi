@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMPaint function"]
 ms.keywords: OEMPaint, OEMPaint function [Print Devices], print.oempaint, print_unidrv-pscript_rendering_c9624a47-02fd-4eba-80d9-4035713ac594.xml, printoem/OEMPaint
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMPaint
 ---
+
+# OEMPaint function (printoem.h)
 
 ## -description
 

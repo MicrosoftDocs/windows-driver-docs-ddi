@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoUnregisterShutdownNotification function"]
 ms.keywords: IoUnregisterShutdownNotification, IoUnregisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_f242a3dc-8338-4d64-bad7-0cca78c30a45.xml, kernel.iounregistershutdownnotification, wdm/IoUnregisterShutdownNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoUnregisterShutdownNotification
 ---
 
-# IoUnregisterShutdownNotification function
+# IoUnregisterShutdownNotification function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_DEVICE_CALLBACKS_INIT, UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], buses.udecx_usb_device_callbacks_init, udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UDECX_USB_DEVICE_CALLBACKS_INIT
 ---
 
-# UDECX_USB_DEVICE_CALLBACKS_INIT function
+# UDECX_USB_DEVICE_CALLBACKS_INIT function (udecxusbdevice.h)
+
+
 
 
 ## -description

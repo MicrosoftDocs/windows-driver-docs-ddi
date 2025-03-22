@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetPowerOffloadListGetCount function"]
 ms.keywords: NetPowerOffloadListGetCount
 req.header: netpoweroffloadlist.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetPowerOffloadListGetCount
 ---
 
-# NetPowerOffloadListGetCount function
+# NetPowerOffloadListGetCount function (netpoweroffloadlist.h)
+
+
 
 
 ## -description

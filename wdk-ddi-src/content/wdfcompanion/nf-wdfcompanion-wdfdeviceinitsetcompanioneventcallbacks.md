@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetCompanionEventCallbacks function"]
 ms.keywords: WdfDeviceInitSetCompanionEventCallbacks, WdfDeviceInitSetCompanionEventCallbacks method, wdf.wdfdeviceinitsetcompanioneventcallbacks, wdfcompanion/WdfDeviceInitSetCompanionEventCallbacks
 req.header: wdfcompanion.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfDeviceInitSetCompanionEventCallbacks
 ---
 
-# WdfDeviceInitSetCompanionEventCallbacks function
+# WdfDeviceInitSetCompanionEventCallbacks function (wdfcompanion.h)
+
+
 
 
 ## -description

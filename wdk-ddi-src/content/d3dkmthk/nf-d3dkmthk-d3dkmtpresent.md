@@ -7,6 +7,7 @@ ms.date: 06/10/2021
 keywords: ["D3DKMTPresent function"]
 ms.keywords: D3DKMTPresent, D3DKMTPresent function [Display Devices], OpenGL_Functions_2a9f80c6-84c7-41bb-be78-02640430226d.xml, d3dkmthk/D3DKMTPresent, display.d3dkmtpresent
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTPresent
 ---
 
-# D3DKMTPresent function
+# D3DKMTPresent function (d3dkmthk.h)
+
+
 
 ## -description
 

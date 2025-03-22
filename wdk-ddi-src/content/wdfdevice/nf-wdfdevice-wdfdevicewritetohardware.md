@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceWriteToHardware function"]
 ms.keywords: PFN_WDFDEVICEWRITETOHARDWARE, WdfDeviceWriteToHardware, WdfDeviceWriteToHardware method, wdf.wdfdevicewritetohardware, wdfdevice/WdfDeviceWriteToHardware, wdfhwaccess/WdfDeviceWriteToHardware
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceWriteToHardware
 ---
 
-# WdfDeviceWriteToHardware function
+# WdfDeviceWriteToHardware function (wdfdevice.h)
+
+
 
 
 ## -description

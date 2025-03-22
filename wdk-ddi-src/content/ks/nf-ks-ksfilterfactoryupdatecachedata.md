@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["KsFilterFactoryUpdateCacheData function"]
 ms.keywords: KsFilterFactoryUpdateCacheData, KsFilterFactoryUpdateCacheData function [Streaming Media Devices], avfunc_2fdbd12c-b074-415e-8de3-bfbe61ef198a.xml, ks/KsFilterFactoryUpdateCacheData, stream.ksfilterfactoryupdatecachedata
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsFilterFactoryUpdateCacheData
 ---
+
+# KsFilterFactoryUpdateCacheData function (ks.h)
 
 ## -description
 

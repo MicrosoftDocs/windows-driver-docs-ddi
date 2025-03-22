@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["FRAMING_PROP enumeration"]
 ms.keywords: "*PFRAMING_PROP, FRAMING_PROP, FRAMING_PROP enumeration [Streaming Media Devices], FramingProp_Ex, FramingProp_None, FramingProp_Old, FramingProp_Uninitialized, ksproxy/FRAMING_PROP, ksproxy/FramingProp_Ex, ksproxy/FramingProp_None, ksproxy/FramingProp_Old, ksproxy/FramingProp_Uninitialized, stream.framing_prop"
 req.header: ksproxy.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FRAMING_PROP
 ---
 
-# FRAMING_PROP enumeration
+# FRAMING_PROP enumeration (ksproxy.h)
+
+
 
 
 ## -description

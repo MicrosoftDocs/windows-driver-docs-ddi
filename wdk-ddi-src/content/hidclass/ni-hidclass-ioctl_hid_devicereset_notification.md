@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_DEVICERESET_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_HID_DEVICERESET_NOTIFICATION, IOCTL_HID_DEVICERESET_NOTIFICATION control, IOCTL_HID_DEVICERESET_NOTIFICATION control code [Human Input Devices], hid.ioctl_hid_devicereset_notification, hidclass/IOCTL_HID_DEVICERESET_NOTIFICATION
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_DEVICERESET_NOTIFICATION
 ---
 
-# IOCTL_HID_DEVICERESET_NOTIFICATION IOCTL
+# IOCTL_HID_DEVICERESET_NOTIFICATION IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

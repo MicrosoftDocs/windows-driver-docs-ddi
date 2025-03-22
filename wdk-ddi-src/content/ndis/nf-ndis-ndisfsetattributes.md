@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFSetAttributes function"]
 ms.keywords: NdisFSetAttributes, NdisFSetAttributes function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_67ad6b8c-e7ae-45d7-9213-48e8a2b6c2ff.xml, ndis/NdisFSetAttributes, netvista.ndisfsetattributes
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFSetAttributes
 ---
 
-# NdisFSetAttributes function
+# NdisFSetAttributes function (ndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiRequest::SetInputData"]
 ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, IBidiRequest interface [Print Devices],SetInputData method, IBidiRequest.SetInputData, IBidiRequest::SetInputData, SetInputData, SetInputData method [Print Devices], SetInputData method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetInputData, bidispl/IBidiRequest::SetInputData, gdi.ibidirequest_ibidirequest__setinputdata, print.ibidirequest_ibidirequest__setinputdata
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiRequest::SetInputData
 ---
+
+# IBidiRequest::SetInputData function (bidispl.h)
 
 ## -description
 

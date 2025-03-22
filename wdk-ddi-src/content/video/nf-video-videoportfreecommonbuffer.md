@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortFreeCommonBuffer function"]
 ms.keywords: VideoPortFreeCommonBuffer, VideoPortFreeCommonBuffer function [Display Devices], VideoPort_Functions_0f1acebf-0fdf-4152-ad91-2cafed40296c.xml, display.videoportfreecommonbuffer, video/VideoPortFreeCommonBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortFreeCommonBuffer
 ---
 
-# VideoPortFreeCommonBuffer function
+# VideoPortFreeCommonBuffer function (video.h)
+
+
 
 
 ## -description

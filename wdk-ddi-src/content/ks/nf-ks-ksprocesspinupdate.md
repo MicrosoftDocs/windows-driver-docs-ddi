@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsProcessPinUpdate function"]
 ms.keywords: KsProcessPinUpdate, KsProcessPinUpdate function [Streaming Media Devices], avfunc_8f096e7d-7eb1-40c7-bcc9-762e671bb3d4.xml, ks/KsProcessPinUpdate, stream.ksprocesspinupdate
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsProcessPinUpdate
 ---
 
-# KsProcessPinUpdate function
+# KsProcessPinUpdate function (ks.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiSpl::UnbindDevice"]
 ms.keywords: IBidiSpl interface [Print Devices],UnbindDevice method, IBidiSpl.UnbindDevice, IBidiSpl::UnbindDevice, UnbindDevice, UnbindDevice method [Print Devices], UnbindDevice method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_UnbindDevice, bidispl/IBidiSpl::UnbindDevice, gdi.ibidispl_ibidispl__unbinddevice, print.ibidispl_ibidispl__unbinddevice
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiSpl::UnbindDevice
 ---
+
+# IBidiSpl::UnbindDevice function (bidispl.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_ProcAmpControlProp enumeration"]
 ms.keywords: DXVA_ProcAmpControlProp, DXVA_ProcAmpControlProp enumeration [Display Devices], DXVA_ProcAmp_Brightness, DXVA_ProcAmp_Contrast, DXVA_ProcAmp_Hue, DXVA_ProcAmp_None, DXVA_ProcAmp_Saturation, _DXVA_ProcAmpControlProp, display.dxva_procampcontrolprop, dxva/DXVA_ProcAmpControlProp, dxva/DXVA_ProcAmp_Brightness, dxva/DXVA_ProcAmp_Contrast, dxva/DXVA_ProcAmp_Hue, dxva/DXVA_ProcAmp_None, dxva/DXVA_ProcAmp_Saturation, dxvaref_0bce43bc-3bb3-4c7a-8d83-16db2a513905.xml
 req.header: dxva.h
+req.construct-type: enumeration
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: DirectX 9.0 and later versions only.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_ProcAmpControlProp
 ---
 
-# _DXVA_ProcAmpControlProp enumeration
+# DXVA_ProcAmpControlProp enumeration (dxva.h)
+
+
 
 
 ## -description

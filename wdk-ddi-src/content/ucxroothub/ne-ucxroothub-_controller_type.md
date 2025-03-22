@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["CONTROLLER_TYPE enumeration"]
 ms.keywords: CONTROLLER_TYPE, ControllerTypeSoftXhci, ControllerTypeXhci, _CONTROLLER_TYPE, _CONTROLLER_TYPE enumeration [Buses], buses._controller_type, ucxroothub/ControllerTypeSoftXhci, ucxroothub/ControllerTypeXhci, ucxroothub/_CONTROLLER_TYPE
 req.header: ucxroothub.h
+req.construct-type: enumeration
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - CONTROLLER_TYPE
 ---
 
-# _CONTROLLER_TYPE enumeration
+# CONTROLLER_TYPE enumeration (ucxroothub.h)
+
+
 
 
 ## -description

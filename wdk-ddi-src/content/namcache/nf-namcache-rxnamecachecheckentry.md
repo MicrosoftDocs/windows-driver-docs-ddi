@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxNameCacheCheckEntry function"]
 ms.keywords: RxNameCacheCheckEntry, RxNameCacheCheckEntry function [Installable File System Drivers], ifsk.rxnamecachecheckentry, namcache/RxNameCacheCheckEntry, rxref_703b5e6a-4904-4402-8905-bc1dd2ed1c9e.xml
 req.header: namcache.h
+req.construct-type: function
 req.include-header: Namcache.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxNameCacheCheckEntry
 ---
 
-# RxNameCacheCheckEntry function
+# RxNameCacheCheckEntry function (namcache.h)
+
+
 
 
 ## -description

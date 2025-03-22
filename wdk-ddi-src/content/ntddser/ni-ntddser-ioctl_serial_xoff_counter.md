@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_XOFF_COUNTER IOCTL"]
 ms.keywords: IOCTL_SERIAL_XOFF_COUNTER, IOCTL_SERIAL_XOFF_COUNTER control, IOCTL_SERIAL_XOFF_COUNTER control code [Serial Ports], ntddser/IOCTL_SERIAL_XOFF_COUNTER, serports.ioctl_serial_xoff_counter, serref_ef42292d-d9d2-47be-b368-a696af5d0eea.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_XOFF_COUNTER
 ---
 
-# IOCTL_SERIAL_XOFF_COUNTER IOCTL
+# IOCTL_SERIAL_XOFF_COUNTER IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_FreePreparsedData function"]
 ms.keywords: HidD_FreePreparsedData, HidD_FreePreparsedData routine [Human Input Devices], hid.hidd_freepreparseddata, hidfunc_2ca8b6ee-b391-40ac-bd0e-491089d7ed06.xml, hidsdi/HidD_FreePreparsedData
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_FreePreparsedData
 ---
 
-# HidD_FreePreparsedData function
+# HidD_FreePreparsedData function (hidsdi.h)
+
+
 
 
 ## -description

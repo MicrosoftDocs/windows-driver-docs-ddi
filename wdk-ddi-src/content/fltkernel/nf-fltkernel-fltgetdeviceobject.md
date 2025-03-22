@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_0ef7e26f-6eb6-42e3-a469-4d4fa0c8e659.xml, FltGetDeviceObject, FltGetDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDeviceObject, ifsk.fltgetdeviceobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetDeviceObject
 ---
 
-# FltGetDeviceObject function
+# FltGetDeviceObject function (fltkernel.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisEqualMemory macro"]
 ms.keywords: NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, netvista.ndisequalmemory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlEqualMemory instead.
@@ -40,7 +41,9 @@ api_name:
  - NdisEqualMemory
 ---
 
-# NdisEqualMemory macro
+# NdisEqualMemory function (ndis.h)
+
+
 
 
 ## -description

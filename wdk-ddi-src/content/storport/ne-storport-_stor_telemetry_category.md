@@ -7,6 +7,7 @@ ms.date: 03/06/2019
 keywords: ["STOR_TELEMETRY_CATEGORY enumeration"]
 ms.keywords: STOR_TELEMETRY_CATEGORY, STOR_TELEMETRY_CATEGORY, *PSTOR_TELEMETRY_CATEGORY, StorPortLogTelemetryEx, STORPORT_TELEMETRY_EVENT
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# STOR_TELEMETRY_CATEGORY enumeration
+# STOR_TELEMETRY_CATEGORY enumeration (storport.h)
+
+
 
 
 ## -description

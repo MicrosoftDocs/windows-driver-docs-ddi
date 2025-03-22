@@ -8,6 +8,7 @@ ms.date: 12/09/2021
 keywords: ["FltCancellableWaitForSingleObject function"]
 ms.keywords: FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - FltCancellableWaitForSingleObject
 ---
 
-# FltCancellableWaitForSingleObject function
+# FltCancellableWaitForSingleObject function (fltkernel.h)
+
+
 
 ## -description
 

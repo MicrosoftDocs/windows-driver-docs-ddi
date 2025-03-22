@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSetThreadHardErrorMode function"]
 ms.keywords: IoSetThreadHardErrorMode, IoSetThreadHardErrorMode routine [Kernel-Mode Driver Architecture], k104_6e0a2c29-8edf-4d7e-b672-11309231c45e.xml, kernel.iosetthreadharderrormode, ntddk/IoSetThreadHardErrorMode
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoSetThreadHardErrorMode
 ---
 
-# IoSetThreadHardErrorMode function
+# IoSetThreadHardErrorMode function (ntddk.h)
+
+
 
 
 ## -description

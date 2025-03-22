@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmRegisterSapComplete macro"]
 ms.keywords: NdisMCmRegisterSapComplete, NdisMCmRegisterSapComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b7dfebf-1828-41cd-9645-0fc6774cc9a8.xml, ndis/NdisMCmRegisterSapComplete, netvista.ndismcmregistersapcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmRegisterSapComplete   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmRegisterSapComplete   (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisMCmRegisterSapComplete
 ---
 
-# NdisMCmRegisterSapComplete macro
+# NdisMCmRegisterSapComplete function (ndis.h)
+
+
 
 
 ## -description

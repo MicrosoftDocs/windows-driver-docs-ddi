@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExNotifyCallback function"]
 ms.keywords: ExNotifyCallback, ExNotifyCallback routine [Kernel-Mode Driver Architecture], k102_befd9baa-99b3-427b-a0c3-4287e5563482.xml, kernel.exnotifycallback, wdm/ExNotifyCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExNotifyCallback
 ---
 
-# ExNotifyCallback function
+# ExNotifyCallback function (wdm.h)
+
+
 
 
 ## -description

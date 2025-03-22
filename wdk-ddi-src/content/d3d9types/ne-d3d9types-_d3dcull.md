@@ -7,6 +7,7 @@ tech.root: display
 keywords: ["D3DCULL enumeration"]
 ms.keywords: _D3DCULL, D3DCULL,
 req.header: d3d9types.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DCULL enumeration
+# D3DCULL enumeration (d3d9types.h)
+
+
 
 
 ## -description

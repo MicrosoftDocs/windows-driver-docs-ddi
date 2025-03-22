@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["DeletePrinterIC function"]
 ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], print.deleteprinteric, winsplp/DeletePrinterIC
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DeletePrinterIC
 ---
+
+# DeletePrinterIC function (winsplp.h)
 
 ## -description
 

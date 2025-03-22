@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_ISOLATION_MODE enumeration"]
 ms.keywords: "*PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNone, NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, ntddndis/NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.40 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_ISOLATION_MODE
 ---
 
-# _NDIS_ISOLATION_MODE enumeration
+# NDIS_ISOLATION_MODE enumeration (ntddndis.h)
+
+
 
 
 ## -description

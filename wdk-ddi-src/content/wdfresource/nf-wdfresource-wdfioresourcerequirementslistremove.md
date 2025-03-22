@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoResourceRequirementsListRemove function"]
 ms.keywords: DFResourceObjectRef_7f7c29e8-231a-48ec-b4e3-01989ad994b0.xml, WdfIoResourceRequirementsListRemove, WdfIoResourceRequirementsListRemove method, kmdf.wdfioresourcerequirementslistremove, wdf.wdfioresourcerequirementslistremove, wdfresource/WdfIoResourceRequirementsListRemove
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoResourceRequirementsListRemove
 ---
 
-# WdfIoResourceRequirementsListRemove function
+# WdfIoResourceRequirementsListRemove function (wdfresource.h)
+
+
 
 
 ## -description

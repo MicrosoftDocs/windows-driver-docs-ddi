@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_POWER_ROLE enumeration"]
 ms.keywords: UCM_POWER_ROLE, UCM_POWER_ROLE enumeration [Buses], UcmPowerRoleInvalid, UcmPowerRoleSink, UcmPowerRoleSource, _UCM_POWER_ROLE, buses.ucm_power_role, ucmtypes/UCM_POWER_ROLE, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleSource
 req.header: ucmtypes.h
+req.construct-type: enumeration
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - UCM_POWER_ROLE
 ---
 
-# _UCM_POWER_ROLE enumeration
+# UCM_POWER_ROLE enumeration (ucmtypes.h)
+
+
 
 
 ## -description

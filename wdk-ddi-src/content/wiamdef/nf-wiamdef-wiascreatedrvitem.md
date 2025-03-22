@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasCreateDrvItem function"]
 ms.keywords: image.wiascreatedrvitem, wiamdef/wiasCreateDrvItem, wiasCreateDrvItem, wiasCreateDrvItem function [Imaging Devices], wiasFncs_9bede31d-0ac0-4cc7-bdd5-7734e5f82dfc.xml
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasCreateDrvItem
 ---
 
-# wiasCreateDrvItem function
+# wiasCreateDrvItem function (wiamdef.h)
+
+
 
 
 ## -description

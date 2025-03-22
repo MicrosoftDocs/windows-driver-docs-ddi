@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtSetInformationEnlistment function"]
 ms.keywords: NtSetInformationEnlistment, ZwSetInformationEnlistment, ZwSetInformationEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationenlistment, ktm_ref_3e37f795-0826-43df-bb96-14f1031437da.xml, wdm/NtSetInformationEnlistment, wdm/ZwSetInformationEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - NtSetInformationEnlistment
 ---
 
-# NtSetInformationEnlistment function
+# NtSetInformationEnlistment function (wdm.h)
+
+
 
 
 ## -description

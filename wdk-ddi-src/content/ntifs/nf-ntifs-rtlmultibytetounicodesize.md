@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlMultiByteToUnicodeSize function"]
 ms.keywords: RtlMultiByteToUnicodeSize, RtlMultiByteToUnicodeSize routine [Installable File System Drivers], ifsk.rtlmultibytetounicodesize, ntifs/RtlMultiByteToUnicodeSize, rtlref_f2e77505-7c59-4bb2-993f-622ea16a83c6.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlMultiByteToUnicodeSize
 ---
 
-# RtlMultiByteToUnicodeSize function
+# RtlMultiByteToUnicodeSize function (ntifs.h)
+
+
 
 
 ## -description

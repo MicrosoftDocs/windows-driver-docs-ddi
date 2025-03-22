@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SENSOR_PROPERTY_LIST_INIT function"]
 ms.keywords: SENSOR_PROPERTY_LIST_INIT, SENSOR_PROPERTY_LIST_INIT function [Sensor Devices], sensors.sensor_property_list_init, sensorsdef/SENSOR_PROPERTY_LIST_INIT
 req.header: sensorsdef.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SENSOR_PROPERTY_LIST_INIT
 ---
 
-# SENSOR_PROPERTY_LIST_INIT function
+# SENSOR_PROPERTY_LIST_INIT function (sensorsdef.h)
+
+
 
 
 ## -description

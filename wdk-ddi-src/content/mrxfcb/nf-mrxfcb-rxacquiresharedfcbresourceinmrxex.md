@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxAcquireSharedFcbResourceInMRxEx function"]
 ms.keywords: RxAcquireSharedFcbResourceInMRxEx, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrxex, mrxfcb/RxAcquireSharedFcbResourceInMRxEx, rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml
 req.header: mrxfcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: The RxAcquireSharedFcbResourceInMRxEx routine is only available on Windows Server 2003 Service Pack 1 and later.
@@ -40,7 +41,9 @@ api_name:
  - RxAcquireSharedFcbResourceInMRxEx
 ---
 
-# RxAcquireSharedFcbResourceInMRxEx function
+# RxAcquireSharedFcbResourceInMRxEx function (mrxfcb.h)
+
+
 
 
 ## -description

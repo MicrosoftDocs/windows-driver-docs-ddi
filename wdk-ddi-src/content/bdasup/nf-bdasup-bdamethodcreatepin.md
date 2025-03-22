@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaMethodCreatePin function"]
 ms.keywords: BdaMethodCreatePin, BdaMethodCreatePin function [Streaming Media Devices], bdaref_492b1847-e4b7-4dfd-a8b1-c6c17fc6aff8.xml, bdasup/BdaMethodCreatePin, stream.bdamethodcreatepin
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaMethodCreatePin
 ---
+
+# BdaMethodCreatePin function (bdasup.h)
 
 ## -description
 

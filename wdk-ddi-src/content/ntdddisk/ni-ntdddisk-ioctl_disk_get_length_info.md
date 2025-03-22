@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_GET_LENGTH_INFO IOCTL"]
 ms.keywords: IOCTL_DISK_GET_LENGTH_INFO, IOCTL_DISK_GET_LENGTH_INFO control, IOCTL_DISK_GET_LENGTH_INFO control code [Storage Devices], k307_50fea771-4937-481d-9a1b-f4d69bb939bb.xml, ntdddisk/IOCTL_DISK_GET_LENGTH_INFO, storage.ioctl_disk_get_length_info
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows XP and later operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_GET_LENGTH_INFO
 ---
 
-# IOCTL_DISK_GET_LENGTH_INFO IOCTL
+# IOCTL_DISK_GET_LENGTH_INFO IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/13/2018
 keywords: ["NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO macro"]
 ms.keywords: NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO_EX.
@@ -37,7 +38,9 @@ api_name:
  - NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO
 ---
 
-# NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO macro
+# NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoLockStaticChildListForIteration function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_d20e71b2-fc76-4eb5-9911-bb7014467b4e.xml, WdfFdoLockStaticChildListForIteration, WdfFdoLockStaticChildListForIteration method, kmdf.wdffdolockstaticchildlistforiteration, wdf.wdffdolockstaticchildlistforiteration, wdffdo/WdfFdoLockStaticChildListForIteration
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfFdoLockStaticChildListForIteration
 ---
 
-# WdfFdoLockStaticChildListForIteration function
+# WdfFdoLockStaticChildListForIteration function (wdffdo.h)
+
+
 
 
 ## -description

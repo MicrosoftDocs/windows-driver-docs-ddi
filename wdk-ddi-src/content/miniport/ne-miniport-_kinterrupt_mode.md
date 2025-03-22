@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KINTERRUPT_MODE enumeration"]
 ms.keywords: KINTERRUPT_MODE, KINTERRUPT_MODE enumeration [Kernel-Mode Driver Architecture], Latched, LevelSensitive, _KINTERRUPT_MODE, kernel.kinterrupt_mode, sysenum_35275927-b863-496a-8193-579f9d1d3a22.xml, wdm/KINTERRUPT_MODE, wdm/Latched, wdm/LevelSensitive
 req.header: miniport.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KINTERRUPT_MODE
 ---
 
-# _KINTERRUPT_MODE enumeration (miniport.h)
+# KINTERRUPT_MODE enumeration (miniport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function"]
 ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT, BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT method [Audio Devices], audio.bthhfp_audio_device_capabilties_init, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 req.header: bthhfpddi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT
 ---
 
-# BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function
+# BTHHFP_AUDIO_DEVICE_CAPABILTIES_INIT function (bthhfpddi.h)
+
+
 
 
 ## -description

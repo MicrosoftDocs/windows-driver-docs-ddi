@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMGetDmaAlignment function"]
 ms.keywords: NdisMGetDmaAlignment, NdisMGetDmaAlignment function [Network Drivers Starting with Windows Vista], dma_ref_75f5af9e-a351-428c-a465-ccd747fcdd37.xml, ndis/NdisMGetDmaAlignment, netvista.ndismgetdmaalignment
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMGetDmaAlignment
 ---
 
-# NdisMGetDmaAlignment function
+# NdisMGetDmaAlignment function (ndis.h)
+
+
 
 
 ## -description

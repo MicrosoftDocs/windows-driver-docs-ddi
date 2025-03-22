@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["WWAN_PIN_TYPE enumeration"]
 ms.keywords: _WWAN_PIN_TYPE WWAN_PIN_TYPE *PWWAN_PIN_TYPE
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1903
@@ -37,7 +38,9 @@ api_name:
  - WWAN_PIN_TYPE
 ---
 
-# _WWAN_PIN_TYPE enumeration
+# WWAN_PIN_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

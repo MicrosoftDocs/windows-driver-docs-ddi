@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMQueueDpc function"]
 ms.keywords: NdisMQueueDpc, NdisMQueueDpc function [Network Drivers Starting with Windows Vista], ndis/NdisMQueueDpc, ndis_interrupts_functions_ref_a4b04210-b671-4ab3-8b5b-989bed907aed.xml, netvista.ndismqueuedpc
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NdisMQueueDpcEx.
@@ -41,7 +42,9 @@ api_name:
  - NdisMQueueDpc
 ---
 
-# NdisMQueueDpc function
+# NdisMQueueDpc function (ndis.h)
+
+
 
 
 ## -description

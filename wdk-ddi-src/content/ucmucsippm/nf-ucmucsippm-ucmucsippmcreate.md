@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmCreate function"]
 ms.keywords: UcmUcsiPpmCreate
 req.header: Ucmucsippm.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UcmUcsiPpmCreate
 ---
 
-# UcmUcsiPpmCreate function
+# UcmUcsiPpmCreate function (Ucmucsippm.h)
+
+
 
 
 ## -description

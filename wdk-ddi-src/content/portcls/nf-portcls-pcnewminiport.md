@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewMiniport function"]
 ms.keywords: PcNewMiniport, PcNewMiniport function [Audio Devices], audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcNewMiniport function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewMiniport
 ---
 
-# PcNewMiniport function
+# PcNewMiniport function (portcls.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortWriteRegisterBufferUchar function"]
 ms.keywords: ScsiPortWriteRegisterBufferUchar, ScsiPortWriteRegisterBufferUchar routine [Storage Devices], scsiprt_260290c1-818a-49dd-9705-ea79984fa0af.xml, srb/ScsiPortWriteRegisterBufferUchar, storage.scsiportwriteregisterbufferuchar
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortWriteRegisterBufferUchar
 ---
 
-# ScsiPortWriteRegisterBufferUchar function
+# ScsiPortWriteRegisterBufferUchar function (srb.h)
+
+
 
 
 ## -description

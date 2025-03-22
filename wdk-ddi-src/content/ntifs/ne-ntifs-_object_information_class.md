@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["OBJECT_INFORMATION_CLASS enumeration"]
 ms.keywords: OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], ObjectBasicInformation, ObjectTypeInformation, _OBJECT_INFORMATION_CLASS, ifsk.object_information_class, ntifs/OBJECT_INFORMATION_CLASS, ntifs/ObjectBasicInformation, ntifs/ObjectTypeInformation, objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ api_name:
  - OBJECT_INFORMATION_CLASS
 ---
 
-# OBJECT_INFORMATION_CLASS enumeration
+# OBJECT_INFORMATION_CLASS enumeration (ntifs.h)
+
+
 
 ## -description
 

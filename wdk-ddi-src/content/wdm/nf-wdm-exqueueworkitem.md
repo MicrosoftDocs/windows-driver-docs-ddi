@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["ExQueueWorkItem function"]
 ms.keywords: ExQueueWorkItem, ExQueueWorkItem routine [Installable File System Drivers], exref_67f4ac82-4b9b-4545-8641-2d1f8b0eb9ab.xml, ifsk.exqueueworkitem, wdm/ExQueueWorkItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExQueueWorkItem
 ---
+
+# ExQueueWorkItem function (wdm.h)
 
 ## -description
 

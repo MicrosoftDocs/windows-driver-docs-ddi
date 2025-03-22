@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetAdapterInitFree function"]
 ms.keywords: NetAdapterInitFree
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterInitFree
 ---
 
-# NetAdapterInitFree function
+# NetAdapterInitFree function (netadapter.h)
+
+
 
 
 ## -description

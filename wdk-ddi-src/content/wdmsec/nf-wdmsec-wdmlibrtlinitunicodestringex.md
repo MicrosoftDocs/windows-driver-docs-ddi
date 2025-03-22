@@ -8,6 +8,7 @@ ms.date: 01/24/2025
 keywords: ["WdmlibRtlInitUnicodeStringEx function"]
 ms.keywords: RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], kernel.wdmlibrtlinitunicodestringex, wdmsec/RtlInitUnicodeString, wdmsec/WdmlibRtlInitUnicodeStringEx
 req.header: wdmsec.h
+req.construct-type: function
 req.include-header: Wdmsec.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - WdmlibRtlInitUnicodeStringEx
 ---
 
-# WdmlibRtlInitUnicodeStringEx function
+# WdmlibRtlInitUnicodeStringEx function (wdmsec.h)
+
+
 
 ## -description
 

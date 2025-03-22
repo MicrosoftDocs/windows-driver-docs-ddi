@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCheckRegistryKey function"]
 ms.keywords: RtlCheckRegistryKey, RtlCheckRegistryKey routine [Kernel-Mode Driver Architecture], k109_d4610b64-e689-4734-aca9-4536889ae2b9.xml, kernel.rtlcheckregistrykey, wdm/RtlCheckRegistryKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlCheckRegistryKey
 ---
 
-# RtlCheckRegistryKey function
+# RtlCheckRegistryKey function (wdm.h)
+
+
 
 
 ## -description

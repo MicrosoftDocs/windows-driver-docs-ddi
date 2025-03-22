@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["D3COLD_LAST_TRANSITION_STATUS enumeration"]
 ms.keywords: "*PD3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS, D3COLD_LAST_TRANSITION_STATUS enumeration [Kernel-Mode Driver Architecture], LastDStateTransitionD3cold, LastDStateTransitionD3hot, LastDStateTransitionStatusUnknown, _D3COLD_LAST_TRANSITION_STATUS, kernel.d3cold_last_transition_status, wdm/D3COLD_LAST_TRANSITION_STATUS, wdm/LastDStateTransitionD3cold, wdm/LastDStateTransitionD3hot, wdm/LastDStateTransitionStatusUnknown"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3COLD_LAST_TRANSITION_STATUS
 ---
 
-# _D3COLD_LAST_TRANSITION_STATUS enumeration
+# D3COLD_LAST_TRANSITION_STATUS enumeration (wdm.h)
+
+
 
 
 ## -description

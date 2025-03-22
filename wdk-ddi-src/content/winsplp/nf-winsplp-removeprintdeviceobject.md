@@ -7,6 +7,7 @@ ms.date: 11/30/2022
 keywords: ["RemovePrintDeviceObject function"]
 ms.keywords: RemovePrintDeviceObject, RemovePrintDeviceObject function [Print Devices], print.removeprintdeviceobject, winsplp/RemovePrintDeviceObject
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RemovePrintDeviceObject
 ---
+
+# RemovePrintDeviceObject function (winsplp.h)
 
 ## -description
 

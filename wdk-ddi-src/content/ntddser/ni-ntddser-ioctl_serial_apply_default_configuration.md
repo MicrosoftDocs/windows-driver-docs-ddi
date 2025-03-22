@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, serports.ioctl_serial_apply_default_configuration
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
 ---
 
-# IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION IOCTL
+# IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

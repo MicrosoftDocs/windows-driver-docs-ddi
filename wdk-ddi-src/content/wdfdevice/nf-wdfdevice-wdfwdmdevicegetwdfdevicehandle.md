@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWdmDeviceGetWdfDeviceHandle function"]
 ms.keywords: DFDeviceObjectGeneralRef_0b05680a-5252-4932-802d-ee24a0092116.xml, WdfWdmDeviceGetWdfDeviceHandle, WdfWdmDeviceGetWdfDeviceHandle method, kmdf.wdfwdmdevicegetwdfdevicehandle, wdf.wdfwdmdevicegetwdfdevicehandle, wdfdevice/WdfWdmDeviceGetWdfDeviceHandle
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfWdmDeviceGetWdfDeviceHandle
 ---
 
-# WdfWdmDeviceGetWdfDeviceHandle function
+# WdfWdmDeviceGetWdfDeviceHandle function (wdfdevice.h)
+
+
 
 
 ## -description

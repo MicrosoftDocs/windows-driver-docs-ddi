@@ -8,6 +8,7 @@ ms.date: 02/22/2022
 keywords: ["FsRtlGetSupportedFeatures function"]
 ms.keywords: FsRtlGetSupportedFeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, ifsk.fsrtlgetsupportedfeatures, ntifs/FsRtlGetSupportedFeatures
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FsRtlGetSupportedFeatures
 ---
 
-# FsRtlGetSupportedFeatures function
+# FsRtlGetSupportedFeatures function (ntifs.h)
+
+
 
 ## -description
 

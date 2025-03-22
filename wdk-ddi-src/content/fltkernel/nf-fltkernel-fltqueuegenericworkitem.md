@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltQueueGenericWorkItem function"]
 ms.keywords: FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, FltQueueGenericWorkItem, FltQueueGenericWorkItem function [Installable File System Drivers], fltkernel/FltQueueGenericWorkItem, ifsk.fltqueuegenericworkitem
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltQueueGenericWorkItem
 ---
 
-# FltQueueGenericWorkItem function
+# FltQueueGenericWorkItem function (fltkernel.h)
+
+
 
 
 ## -description

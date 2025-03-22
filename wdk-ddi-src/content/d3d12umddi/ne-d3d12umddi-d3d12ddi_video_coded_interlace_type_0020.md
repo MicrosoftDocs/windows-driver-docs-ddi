@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 enumeration [Display Devices], D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED, D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_FIELD_BASED, d3d12umddi/D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020_NONE, display.d3d12ddi_video_coded_interlace_type
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020
 ---
 
-# D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 enumeration
+# D3D12DDI_VIDEO_CODED_INTERLACE_TYPE_0020 enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

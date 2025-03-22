@@ -8,6 +8,7 @@ ms.date: 04/29/2023
 keywords: ["PFN_WDFOBJECTACQUIRELOCK callback"]
 ms.keywords: wdf.wdfobjectacquirelock, PFN_WDFOBJECTACQUIRELOCK, WdfObjectAcquireLock callback function, WdfObjectAcquireLock, wdfsync/WdfObjectAcquireLock, DFSynchroRef_d6a841c3-cbcb-4072-861a-5666dc2b4b02.xml, kmdf.wdfobjectacquirelock
 req.header: wdfsync.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PFN_WDFOBJECTACQUIRELOCK
 ---
 
-# WdfObjectAcquireLock function
+# PFN_WDFOBJECTACQUIRELOCK function (wdfsync.h)
+
+
 
 
 ## -description

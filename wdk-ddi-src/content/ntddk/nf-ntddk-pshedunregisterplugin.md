@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["PshedUnregisterPlugin function"]
 ms.keywords: PshedUnregisterPlugin
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PshedUnregisterPlugin
 ---
 
-# PshedUnregisterPlugin function
+# PshedUnregisterPlugin function (ntddk.h)
+
+
 
 
 ## -description

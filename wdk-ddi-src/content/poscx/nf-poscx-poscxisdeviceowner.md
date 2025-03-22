@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxIsDeviceOwner function"]
 ms.keywords: PosCxIsDeviceOwner, PosCxIsDeviceOwner function, pos.poscxisdeviceowner, poscx/PosCxIsDeviceOwner
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxIsDeviceOwner
 ---
 
-# PosCxIsDeviceOwner function
+# PosCxIsDeviceOwner function (poscx.h)
+
+
 
 
 ## -description

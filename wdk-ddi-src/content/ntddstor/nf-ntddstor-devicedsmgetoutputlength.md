@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmGetOutputLength function"]
 ms.keywords: DeviceDsmGetOutputLength
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - DeviceDsmGetOutputLength
 ---
 
-# DeviceDsmGetOutputLength function
+# DeviceDsmGetOutputLength function (ntddstor.h)
+
+
 
 
 ## -description

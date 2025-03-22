@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestWdmFormatUsingStackLocation function"]
 ms.keywords: DFRequestObjectRef_a210a31a-e3a5-4bbd-af19-5be5f7651757.xml, WdfRequestWdmFormatUsingStackLocation, WdfRequestWdmFormatUsingStackLocation method, kmdf.wdfrequestwdmformatusingstacklocation, wdf.wdfrequestwdmformatusingstacklocation, wdfrequest/WdfRequestWdmFormatUsingStackLocation
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestWdmFormatUsingStackLocation
 ---
 
-# WdfRequestWdmFormatUsingStackLocation function
+# WdfRequestWdmFormatUsingStackLocation function (wdfrequest.h)
+
+
 
 
 ## -description

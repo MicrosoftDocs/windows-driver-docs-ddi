@@ -7,6 +7,7 @@ ms.date: 03/06/2019
 keywords: ["WheaReportHwError function"]
 ms.keywords: WheaReportHwError
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -38,7 +39,9 @@ api_name:
  - WheaReportHwError
 ---
 
-# WheaReportHwError function
+# WheaReportHwError function (ntddk.h)
+
+
 
 
 ## -description

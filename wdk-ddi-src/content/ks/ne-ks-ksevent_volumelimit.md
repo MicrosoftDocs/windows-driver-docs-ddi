@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_VOLUMELIMIT enumeration"]
 ms.keywords: KSEVENT_VOLUMELIMIT, KSEVENT_VOLUMELIMIT enumeration [Streaming Media Devices], KSEVENT_VOLUMELIMIT_CHANGED, ks/KSEVENT_VOLUMELIMIT, ks/KSEVENT_VOLUMELIMIT_CHANGED, stream.ksevent_volumelimit
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSEVENT_VOLUMELIMIT
 ---
 
-# KSEVENT_VOLUMELIMIT enumeration
+# KSEVENT_VOLUMELIMIT enumeration (ks.h)
+
+
 
 
 ## -description

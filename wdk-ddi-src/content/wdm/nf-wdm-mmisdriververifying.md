@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmIsDriverVerifying function"]
 ms.keywords: MmIsDriverVerifying, MmIsDriverVerifying routine [Kernel-Mode Driver Architecture], k106_50d610e1-b3ae-41c5-a696-13ab0cf314b6.xml, kernel.mmisdriververifying, wdm/MmIsDriverVerifying
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmIsDriverVerifying
 ---
 
-# MmIsDriverVerifying function
+# MmIsDriverVerifying function (wdm.h)
+
+
 
 
 ## -description

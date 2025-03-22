@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoConnectInterrupt function"]
 ms.keywords: IoConnectInterrupt, IoConnectInterrupt routine [Kernel-Mode Driver Architecture], k104_efa094e0-ac29-491b-803a-8470ed39c915.xml, kernel.ioconnectinterrupt, wdm/IoConnectInterrupt
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoConnectInterrupt
 ---
 
-# IoConnectInterrupt function
+# IoConnectInterrupt function (wdm.h)
+
+
 
 
 ## -description

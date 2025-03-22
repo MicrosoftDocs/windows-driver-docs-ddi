@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetCurrentIrql function"]
 ms.keywords: VideoPortGetCurrentIrql, VideoPortGetCurrentIrql function [Display Devices], VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, display.videoportgetcurrentirql, video/VideoPortGetCurrentIrql
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetCurrentIrql
 ---
 
-# VideoPortGetCurrentIrql function
+# VideoPortGetCurrentIrql function (video.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["USBCAMD_InitializeNewInterface function"]
 ms.keywords: USBCAMD_InitializeNewInterface, USBCAMD_InitializeNewInterface function [Streaming Media Devices], stream.usbcamd_initializenewinterface, usbcamdi/USBCAMD_InitializeNewInterface, usbcmdpr_4b43d8ab-fd5f-4199-afbc-b21801c4fab3.xml
 req.header: usbcamdi.h
+req.construct-type: function
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - USBCAMD_InitializeNewInterface
 ---
+
+# USBCAMD_InitializeNewInterface function (usbcamdi.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFReturnNetBufferLists function"]
 ms.keywords: NdisFReturnNetBufferLists, NdisFReturnNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3473c0c3-077c-4df7-b9d4-8392cf1ed918.xml, ndis/NdisFReturnNetBufferLists, netvista.ndisfreturnnetbufferlists
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFReturnNetBufferLists
 ---
 
-# NdisFReturnNetBufferLists function
+# NdisFReturnNetBufferLists function (ndis.h)
+
+
 
 
 ## -description

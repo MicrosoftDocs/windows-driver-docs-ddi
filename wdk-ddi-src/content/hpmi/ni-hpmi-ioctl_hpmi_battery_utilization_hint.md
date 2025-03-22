@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL"]
 ms.keywords: IOCTL_HPMI_BATTERY_UTILIZATION_HINT, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control, IOCTL_HPMI_BATTERY_UTILIZATION_HINT control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_BATTERY_UTILIZATION_HINT, powermeter.ioctl_hpmi_battery_utilization_hint
 req.header: hpmi.h
+req.construct-type: ioctl
 req.include-header: Hpmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of the Windows operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HPMI_BATTERY_UTILIZATION_HINT
 ---
 
-# IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL
+# IOCTL_HPMI_BATTERY_UTILIZATION_HINT IOCTL (hpmi.h)
+
+
+
+
 
 
 ## -description

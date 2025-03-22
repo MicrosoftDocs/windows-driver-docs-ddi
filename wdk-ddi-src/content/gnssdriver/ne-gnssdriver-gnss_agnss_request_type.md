@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_AGNSS_REQUEST_TYPE enumeration"]
 ms.keywords: GNSS_AGNSS_BlobInjection, GNSS_AGNSS_PositionInjection, GNSS_AGNSS_REQUEST_TYPE, GNSS_AGNSS_REQUEST_TYPE enumeration [Sensor Devices], GNSS_AGNSS_TimeInjection, gnss.gnss_agnss_request_type, gnssdriver/GNSS_AGNSS_BlobInjection, gnssdriver/GNSS_AGNSS_PositionInjection, gnssdriver/GNSS_AGNSS_REQUEST_TYPE, gnssdriver/GNSS_AGNSS_TimeInjection
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_AGNSS_REQUEST_TYPE
 ---
 
-# GNSS_AGNSS_REQUEST_TYPE enumeration
+# GNSS_AGNSS_REQUEST_TYPE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

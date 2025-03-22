@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_NOMINAL_RANGE enumeration"]
 ms.keywords: DXVAHDDDI_NOMINAL_RANGE, DXVAHDDDI_NOMINAL_RANGE enumeration [Display Devices], DXVAHDDDI_NOMINAL_RANGE_0_255, DXVAHDDDI_NOMINAL_RANGE_16_235, DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, _DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_0_255, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_16_235, d3dumddi/DXVAHDDDI_NOMINAL_RANGE_UNDEFINED, display.dxvahdddi_nominal_range
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_NOMINAL_RANGE
 ---
 
-# _DXVAHDDDI_NOMINAL_RANGE enumeration
+# DXVAHDDDI_NOMINAL_RANGE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

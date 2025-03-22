@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortCompleteServiceIrp function"]
 ms.keywords: StorPortCompleteServiceIrp, StorPortCompleteServiceIrp routine [Storage Devices], storage.storportcompleteserviceirp, storport/StorPortCompleteServiceIrp, storprt_439990ea-8133-4114-b417-1c88e53cce14.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortCompleteServiceIrp
 ---
 
-# StorPortCompleteServiceIrp function
+# StorPortCompleteServiceIrp function (storport.h)
+
+
 
 
 ## -description

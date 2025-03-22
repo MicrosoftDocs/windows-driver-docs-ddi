@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoQueueWorkItemEx function"]
 ms.keywords: IoQueueWorkItemEx, IoQueueWorkItemEx routine [Kernel-Mode Driver Architecture], k104_e14fae9d-5b8c-4683-8226-8694de253b64.xml, kernel.ioqueueworkitemex, wdm/IoQueueWorkItemEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoQueueWorkItemEx
 ---
 
-# IoQueueWorkItemEx function
+# IoQueueWorkItemEx function (wdm.h)
+
+
 
 
 ## -description

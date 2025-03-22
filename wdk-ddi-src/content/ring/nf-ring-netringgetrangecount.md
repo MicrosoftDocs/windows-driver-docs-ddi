@@ -7,6 +7,7 @@ ms.date: 01/31/2019
 keywords: ["NetRingGetRangeCount function"]
 ms.keywords: NetRingGetRangeCount
 req.header: ring.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetRingGetRangeCount
 ---
 
-# NetRingGetRangeCount function
+# NetRingGetRangeCount function (ring.h)
+
+
 
 
 ## -description

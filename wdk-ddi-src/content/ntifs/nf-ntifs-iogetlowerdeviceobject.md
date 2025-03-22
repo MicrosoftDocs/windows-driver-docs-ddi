@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 03/15/2024
 keywords: ["IoGetLowerDeviceObject function"]
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -38,7 +39,9 @@ api_name:
  - IoGetLowerDeviceObject
 ---
 
-# IoGetLowerDeviceObject function
+# IoGetLowerDeviceObject function (ntifs.h)
+
+
 
 ## -description
 

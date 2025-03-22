@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlSetThreadPlaceholderCompatibilityMode function"]
 ms.keywords: RtlSetThreadPlaceholderCompatibilityMode, RtlSetThreadPlaceholderCompatibilityMode routine [Installable File System Drivers], ifsk.rtlsetthreadplaceholdercompatibilitymode, ntifs/RtlSetThreadPlaceholderCompatibilityMode
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709.
@@ -40,7 +41,9 @@ api_name:
  - RtlSetThreadPlaceholderCompatibilityMode
 ---
 
-# RtlSetThreadPlaceholderCompatibilityMode function
+# RtlSetThreadPlaceholderCompatibilityMode function (ntifs.h)
+
+
 
 
 ## -description

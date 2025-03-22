@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT control code [Parallel Ports], cisspd_b43103ce-7b3e-413b-914c-fbaf1d7789ee.xml, parallel/IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT, parports.ioctl_internal_parallel_connect_interrupt
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT
 ---
 
-# IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL
+# IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

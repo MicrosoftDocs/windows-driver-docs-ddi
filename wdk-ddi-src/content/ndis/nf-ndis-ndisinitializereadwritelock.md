@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInitializeReadWriteLock function"]
 ms.keywords: NdisInitializeReadWriteLock, NdisInitializeReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeReadWriteLock, ndis_read_write_lock_ref_a74c25e4-58af-4fb0-9c5a-0fc29bad9aa7.xml, netvista.ndisinitializereadwritelock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated for NDIS 6.20 and later drivers, which should use NdisAllocateRWLock instead of NdisInitializeReadWriteLock. Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisInitializeReadWriteLock   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisInitializeReadWriteLock   (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisInitializeReadWriteLock
 ---
 
-# NdisInitializeReadWriteLock function
+# NdisInitializeReadWriteLock function (ndis.h)
+
+
 
 
 ## -description

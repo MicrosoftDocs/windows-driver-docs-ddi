@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWmiProviderIsEnabled function"]
 ms.keywords: DFWMIRef_3231e5bd-aa1c-4bf8-92ef-4b6c29308d95.xml, WdfWmiProviderIsEnabled, WdfWmiProviderIsEnabled method, kmdf.wdfwmiproviderisenabled, wdf.wdfwmiproviderisenabled, wdfwmi/WdfWmiProviderIsEnabled
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfWmiProviderIsEnabled
 ---
 
-# WdfWmiProviderIsEnabled function
+# WdfWmiProviderIsEnabled function (wdfwmi.h)
+
+
 
 
 ## -description

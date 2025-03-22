@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_RECORD_FAILURE, IOCTL_INTERNAL_USB_RECORD_FAILURE control, IOCTL_INTERNAL_USB_RECORD_FAILURE control code [Buses], buses.ioctl_internal_usb_record_failure, usbioctl/IOCTL_INTERNAL_USB_RECORD_FAILURE
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_RECORD_FAILURE
 ---
 
-# IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL
+# IOCTL_INTERNAL_USB_RECORD_FAILURE IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

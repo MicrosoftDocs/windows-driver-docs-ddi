@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX_BUFFER_DESCRIPTOR_INIT function"]
 ms.keywords: 1/SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT, SERCX_BUFFER_DESCRIPTOR_INIT function [Serial Ports], serports.sercx_buffer_descriptor_init
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SERCX_BUFFER_DESCRIPTOR_INIT
 ---
 
-# SERCX_BUFFER_DESCRIPTOR_INIT function
+# SERCX_BUFFER_DESCRIPTOR_INIT function (sercx.h)
+
+
 
 
 ## -description

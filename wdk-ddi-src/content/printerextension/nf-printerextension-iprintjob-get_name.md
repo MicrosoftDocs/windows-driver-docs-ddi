@@ -7,6 +7,7 @@ ms.date: 07/29/2022
 keywords: ["IPrintJob::get_Name"]
 ms.keywords: IPrintJob interface [Print Devices],Name property, IPrintJob.Name, IPrintJob.get_Name, IPrintJob::Name, IPrintJob::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintJob interface, get_Name, print.iprintjob_name, printerextension/IPrintJob::Name, printerextension/IPrintJob::get_Name
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintJob::get_Name
 ---
+
+# IPrintJob::get_Name function (printerextension.h)
 
 ## -description
 

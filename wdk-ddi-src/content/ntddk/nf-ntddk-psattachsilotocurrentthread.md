@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsAttachSiloToCurrentThread function"]
 ms.keywords: PsAttachSiloToCurrentThread, PsAttachSiloToCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psattachsilotocurrentthread, ntddk/PsAttachSiloToCurrentThread
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - PsAttachSiloToCurrentThread
 ---
 
-# PsAttachSiloToCurrentThread function
+# PsAttachSiloToCurrentThread function (ntddk.h)
+
+
 
 
 ## -description

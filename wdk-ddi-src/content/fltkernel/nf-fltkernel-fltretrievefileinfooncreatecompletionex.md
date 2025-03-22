@@ -7,6 +7,7 @@ ms.date: 03/11/2021
 keywords: ["FltRetrieveFileInfoOnCreateCompletionEx function"]
 ms.keywords: FltRetrieveFileInfoOnCreateCompletionEx, FltRetrieveFileInfoOnCreateCompletion
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# FltRetrieveFileInfoOnCreateCompletionEx function
+# FltRetrieveFileInfoOnCreateCompletionEx function (fltkernel.h)
+
+
 
 ## -description
 

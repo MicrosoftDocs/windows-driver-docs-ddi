@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRegistryControllerKeyWrite function"]
 ms.keywords: AtaPortRegistryControllerKeyWrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices], atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, irb/AtaPortRegistryControllerKeyWrite, storage.ataportregistrycontrollerkeywrite
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortRegistryControllerKeyWrite
 ---
 
-# AtaPortRegistryControllerKeyWrite function
+# AtaPortRegistryControllerKeyWrite function (irb.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the StorPortEtwEvent4 function.
 tech.root: storage
 ms.date: 07/25/2024
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -37,7 +38,9 @@ api_name:
  - StorPortEtwEvent4
 ---
 
-# StorPortEtwEvent4 function
+# StorPortEtwEvent4 function (storport.h)
+
+
 
 ## -description
 

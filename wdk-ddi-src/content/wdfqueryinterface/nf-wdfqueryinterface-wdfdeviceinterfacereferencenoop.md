@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInterfaceReferenceNoOp function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_8acb0e5a-ff60-4779-ae97-c6a3c0214365.xml, WdfDeviceInterfaceReferenceNoOp, WdfDeviceInterfaceReferenceNoOp method, kmdf.wdfdeviceinterfacereferencenoop, wdf.wdfdeviceinterfacereferencenoop, wdfqueryinterface/WdfDeviceInterfaceReferenceNoOp
 req.header: wdfqueryinterface.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceInterfaceReferenceNoOp
 ---
 
-# WdfDeviceInterfaceReferenceNoOp function
+# WdfDeviceInterfaceReferenceNoOp function (wdfqueryinterface.h)
+
+
 
 
 ## -description

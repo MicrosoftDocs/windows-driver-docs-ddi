@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS IOCTL"]
 ms.keywords: IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control, IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS control code [Storage Devices], k307_c36a7809-093c-4172-8443-58d178e9dd87.xml, ntddchgr/IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS, storage.ioctl_changer_initialize_element_status
 req.header: ntddchgr.h
+req.construct-type: ioctl
 req.include-header: Ntddchgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS
 ---
 
-# IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS IOCTL
+# IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS IOCTL (ntddchgr.h)
+
+
+
+
 
 
 ## -description

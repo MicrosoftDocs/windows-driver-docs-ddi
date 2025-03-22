@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlQueryKernelEaFile function"]
 ms.keywords: FsRtlQueryKernelEaFile, FsRtlQueryKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlquerykerneleafile, ntifs/FsRtlQueryKernelEaFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FsRtlQueryKernelEaFile
 ---
 
-# FsRtlQueryKernelEaFile function
+# FsRtlQueryKernelEaFile function (ntifs.h)
+
+
 
 
 ## -description

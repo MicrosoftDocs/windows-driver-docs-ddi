@@ -7,6 +7,7 @@ ms.date: 03/05/2019
 keywords: ["WheaReportHwErrorDeviceDriver function"]
 ms.keywords: WheaReportHwErrorDeviceDriver
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -38,7 +39,9 @@ api_name:
  - WheaReportHwErrorDeviceDriver
 ---
 
-# WheaReportHwErrorDeviceDriver function
+# WheaReportHwErrorDeviceDriver function (ntddk.h)
+
+
 
 
 ## -description

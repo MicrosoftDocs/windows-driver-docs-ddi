@@ -8,6 +8,7 @@ ms.date: 07/27/2022
 keywords: ["KeInvalidateAllCaches function"]
 ms.keywords: KeInvalidateAllCaches, KeInvalidateAllCaches routine [Kernel-Mode Driver Architecture], k105_4b59c5bd-70e3-48e1-aa6c-abf4e02925e8.xml, kernel.keinvalidateallcaches, ntddk/KeInvalidateAllCaches
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeInvalidateAllCaches
 ---
 
-# KeInvalidateAllCaches function
+# KeInvalidateAllCaches function (ntddk.h)
+
+
 
 
 ## -description

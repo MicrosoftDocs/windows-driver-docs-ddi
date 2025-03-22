@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["KeStackAttachProcess function"]
 ms.keywords: KeStackAttachProcess, KeStackAttachProcess routine [Installable File System Drivers], ifsk.kestackattachprocess, keref_de4fc228-753f-4077-8372-e5330c96d317.xml, ntifs/KeStackAttachProcess
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - KeStackAttachProcess
 ---
 
-# KeStackAttachProcess function
+# KeStackAttachProcess function (ntifs.h)
+
+
 
 
 ## -description

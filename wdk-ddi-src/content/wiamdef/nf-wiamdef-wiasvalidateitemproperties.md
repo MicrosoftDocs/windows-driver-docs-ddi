@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["wiasValidateItemProperties function"]
 ms.keywords: image.wiasvalidateitemproperties, wiamdef/wiasValidateItemProperties, wiasFncs_98dc1f86-1cba-43c0-9f2a-3598701439bc.xml, wiasValidateItemProperties, wiasValidateItemProperties function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasValidateItemProperties
 ---
+
+# wiasValidateItemProperties function (wiamdef.h)
 
 ## -description
 

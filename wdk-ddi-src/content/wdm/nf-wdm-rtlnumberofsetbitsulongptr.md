@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlNumberOfSetBitsUlongPtr function"]
 ms.keywords: RtlNumberOfSetBitsUlongPtr, RtlNumberOfSetBitsUlongPtr routine [Kernel-Mode Driver Architecture], kernel.rtlnumberofsetbitsulongptr, wdm/RtlNumberOfSetBitsUlongPtr
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - RtlNumberOfSetBitsUlongPtr
 ---
 
-# RtlNumberOfSetBitsUlongPtr function
+# RtlNumberOfSetBitsUlongPtr function (wdm.h)
+
+
 
 
 ## -description

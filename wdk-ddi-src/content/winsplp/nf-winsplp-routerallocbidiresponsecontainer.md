@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["RouterAllocBidiResponseContainer function"]
 ms.keywords: RouterAllocBidiResponseContainer, RouterAllocBidiResponseContainer function [Print Devices], print.routerallocbidiresponsecontainer, spoolfnc_05ba5d83-8913-4591-9ada-2e57440354b9.xml, winsplp/RouterAllocBidiResponseContainer
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: This function is available in Windows XP and later operating systems.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RouterAllocBidiResponseContainer
 ---
+
+# RouterAllocBidiResponseContainer function (winsplp.h)
 
 ## -description
 

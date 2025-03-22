@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_SET_OUTPUT_REPORT, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control, IOCTL_UMDF_HID_SET_OUTPUT_REPORT control code, hid.ioctl_umdf_hid_set_output_report, hidport/IOCTL_UMDF_HID_SET_OUTPUT_REPORT, umdf.ioctl_umdf_hid_set_output_report
 req.header: hidport.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_UMDF_HID_SET_OUTPUT_REPORT
 ---
 
-# IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL
+# IOCTL_UMDF_HID_SET_OUTPUT_REPORT IOCTL (hidport.h)
+
+
+
+
 
 
 ## -description

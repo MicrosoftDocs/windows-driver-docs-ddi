@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_RTS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_RTS, IOCTL_SERIAL_SET_RTS control, IOCTL_SERIAL_SET_RTS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_RTS, serports.ioctl_serial_set_rts, serref_bda4eddb-8ddc-4fd6-83ac-c4b6516fe949.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_RTS
 ---
 
-# IOCTL_SERIAL_SET_RTS IOCTL
+# IOCTL_SERIAL_SET_RTS IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/11/2019
 keywords: ["FltRequestSecurityInfoOnCreateCompletion function"]
 ms.keywords: FltRequestSecurityInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletion, FltRetrieveFileInfoOnCreateCompletionEx
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11, version 24H2
@@ -37,7 +38,9 @@ api_name:
  - FltRequestSecurityInfoOnCreateCompletion
 ---
 
-# FltRequestSecurityInfoOnCreateCompletion function
+# FltRequestSecurityInfoOnCreateCompletion function (fltkernel.h)
+
+
 
 
 ## -description

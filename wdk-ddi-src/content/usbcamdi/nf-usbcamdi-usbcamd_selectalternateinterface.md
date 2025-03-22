@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["USBCAMD_SelectAlternateInterface function"]
 ms.keywords: USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], stream.usbcamd_selectalternateinterface, usbcamdi/USBCAMD_SelectAlternateInterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml
 req.header: usbcamdi.h
+req.construct-type: function
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - USBCAMD_SelectAlternateInterface
 ---
+
+# USBCAMD_SelectAlternateInterface function (usbcamdi.h)
 
 ## -description
 

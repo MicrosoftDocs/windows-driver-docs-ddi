@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreatePagingQueue function"]
 ms.keywords: D3DKMTCreatePagingQueue, D3DKMTCreatePagingQueue function [Display Devices], d3dkmthk/D3DKMTCreatePagingQueue, display.d3dkmtcreatepagingqueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTCreatePagingQueue
 ---
 
-# D3DKMTCreatePagingQueue function
+# D3DKMTCreatePagingQueue function (d3dkmthk.h)
+
+
 
 
 ## -description

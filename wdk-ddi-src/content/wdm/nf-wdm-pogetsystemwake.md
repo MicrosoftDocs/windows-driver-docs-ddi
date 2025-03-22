@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoGetSystemWake function"]
 ms.keywords: PoGetSystemWake, PoGetSystemWake routine [Kernel-Mode Driver Architecture], kernel.pogetsystemwake, portn_0762df5c-0956-4561-9984-83c680bdd764.xml, wdm/PoGetSystemWake
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - PoGetSystemWake
 ---
 
-# PoGetSystemWake function
+# PoGetSystemWake function (wdm.h)
+
+
 
 
 ## -description

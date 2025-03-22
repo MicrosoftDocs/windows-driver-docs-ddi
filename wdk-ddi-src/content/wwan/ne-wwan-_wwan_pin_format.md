@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PIN_FORMAT enumeration"]
 ms.keywords: "*PWWAN_PIN_FORMAT, PWWAN_PIN_FORMAT, PWWAN_PIN_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_FORMAT, WWAN_PIN_FORMAT enumeration [Network Drivers Starting with Windows Vista], WwanPinFormatAlphaNumeric, WwanPinFormatMax, WwanPinFormatNumeric, WwanPinFormatUnknown, WwanRef_f3030aa5-70d9-46d6-85e1-dc112a5889ce.xml, _WWAN_PIN_FORMAT, netvista.wwan_pin_format, wwan/PWWAN_PIN_FORMAT, wwan/WWAN_PIN_FORMAT, wwan/WwanPinFormatAlphaNumeric, wwan/WwanPinFormatMax, wwan/WwanPinFormatNumeric, wwan/WwanPinFormatUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PIN_FORMAT
 ---
 
-# _WWAN_PIN_FORMAT enumeration
+# WWAN_PIN_FORMAT enumeration (wwan.h)
+
+
 
 
 ## -description

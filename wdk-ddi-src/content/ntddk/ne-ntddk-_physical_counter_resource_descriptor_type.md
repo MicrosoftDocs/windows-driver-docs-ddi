@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration"]
 ms.keywords: PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration [Kernel-Mode Driver Architecture], ResourceTypeExtendedCounterConfiguration, ResourceTypeMax, ResourceTypeOverflow, ResourceTypeRange, ResourceTypeSingle, _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, kernel.physical_counter_resource_descriptor_type, ntddk/PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE, ntddk/ResourceTypeExtendedCounterConfiguration, ntddk/ResourceTypeMax, ntddk/ResourceTypeOverflow, ntddk/ResourceTypeRange, ntddk/ResourceTypeSingle, sysenum_cb8d2405-4299-4e91-9f55-dc9c84587148.xml
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -44,7 +45,9 @@ api_name:
  - PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE
 ---
 
-# _PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration
+# PHYSICAL_COUNTER_RESOURCE_DESCRIPTOR_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

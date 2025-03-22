@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortLogSystemEvent function"]
 ms.keywords: StorPortLogSystemEvent, StorPortLogSystemEvent routine [Storage Devices], storage.storportlogsystemevent, storport/StorPortLogSystemEvent, storprt_15a23037-a0e9-4768-ab20-80d6fe7d8a56.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortLogSystemEvent
 ---
 
-# StorPortLogSystemEvent function
+# StorPortLogSystemEvent function (storport.h)
+
+
 
 
 ## -description

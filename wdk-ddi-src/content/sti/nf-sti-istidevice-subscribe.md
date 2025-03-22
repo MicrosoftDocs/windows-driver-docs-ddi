@@ -7,6 +7,7 @@ ms.date: 04/18/2022
 keywords: ["IStiDevice::Subscribe"]
 ms.keywords: IStiDevice interface [Imaging Devices],Subscribe method, IStiDevice.Subscribe, IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], Subscribe method [Imaging Devices],IStiDevice interface, image.istidevice_subscribe, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml
 req.header: sti.h
+req.construct-type: function
 req.include-header: Sti.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiDevice::Subscribe
 ---
+
+# IStiDevice::Subscribe function (sti.h)
 
 ## -description
 

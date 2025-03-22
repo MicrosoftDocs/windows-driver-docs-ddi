@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortWriteRegisterUchar function"]
 ms.keywords: VideoPortWriteRegisterUchar, VideoPortWriteRegisterUchar function [Display Devices], VideoPort_Functions_b06fef25-2c8e-457f-9f6a-0f58573ac860.xml, display.videoportwriteregisteruchar, video/VideoPortWriteRegisterUchar
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortWriteRegisterUchar
 ---
 
-# VideoPortWriteRegisterUchar function
+# VideoPortWriteRegisterUchar function (video.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_GDIROP_COLORFILL enumeration"]
 ms.keywords: DXGK_GDIROPCF_DSTINVERT, DXGK_GDIROPCF_INVALID, DXGK_GDIROPCF_PATAND, DXGK_GDIROPCF_PATCOPY, DXGK_GDIROPCF_PATINVERT, DXGK_GDIROPCF_PATOR, DXGK_GDIROPCF_PDXN, DXGK_GDIROPCF_ROP3, DXGK_GDIROP_COLORFILL, DXGK_GDIROP_COLORFILL enumeration [Display Devices], DmEnums_eaf6bb81-110e-428b-9dc8-22d152bce5b9.xml, _DXGK_GDIROP_COLORFILL, d3dkmddi/DXGK_GDIROPCF_DSTINVERT, d3dkmddi/DXGK_GDIROPCF_INVALID, d3dkmddi/DXGK_GDIROPCF_PATAND, d3dkmddi/DXGK_GDIROPCF_PATCOPY, d3dkmddi/DXGK_GDIROPCF_PATINVERT, d3dkmddi/DXGK_GDIROPCF_PATOR, d3dkmddi/DXGK_GDIROPCF_PDXN, d3dkmddi/DXGK_GDIROPCF_ROP3, d3dkmddi/DXGK_GDIROP_COLORFILL, display.dxgk_gdirop_colorfill
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_GDIROP_COLORFILL
 ---
 
-# DXGK_GDIROP_COLORFILL enumeration
+# DXGK_GDIROP_COLORFILL enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

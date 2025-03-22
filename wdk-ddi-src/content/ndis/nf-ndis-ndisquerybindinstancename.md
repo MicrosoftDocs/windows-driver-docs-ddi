@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisQueryBindInstanceName function"]
 ms.keywords: NdisQueryBindInstanceName, NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisQueryBindInstanceName (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisQueryBindInstanceName (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisQueryBindInstanceName
 ---
 
-# NdisQueryBindInstanceName function
+# NdisQueryBindInstanceName function (ndis.h)
+
+
 
 
 ## -description

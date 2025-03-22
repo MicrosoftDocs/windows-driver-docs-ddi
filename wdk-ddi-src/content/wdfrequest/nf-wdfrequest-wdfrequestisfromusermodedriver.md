@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestIsFromUserModeDriver function"]
 ms.keywords: WdfRequestIsFromUserModeDriver, WdfRequestIsFromUserModeDriver method, wdf.wdfrequestisfromusermodedriver, wdfrequest/WdfRequestIsFromUserModeDriver
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WdfRequestIsFromUserModeDriver
 ---
 
-# WdfRequestIsFromUserModeDriver function
+# WdfRequestIsFromUserModeDriver function (wdfrequest.h)
+
+
 
 
 ## -description

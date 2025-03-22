@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_HPMI_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_HPMI_QUERY_CAPABILITIES, IOCTL_HPMI_QUERY_CAPABILITIES control, IOCTL_HPMI_QUERY_CAPABILITIES control code [Power Metering and Budgeting Devices], hpmi/IOCTL_HPMI_QUERY_CAPABILITIES, powermeter.ioctl_hpmi_query_capabilities
 req.header: hpmi.h
+req.construct-type: ioctl
 req.include-header: Hpmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of the Windows operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HPMI_QUERY_CAPABILITIES
 ---
 
-# IOCTL_HPMI_QUERY_CAPABILITIES IOCTL
+# IOCTL_HPMI_QUERY_CAPABILITIES IOCTL (hpmi.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMEndDoc function"]
 ms.keywords: OEMEndDoc, OEMEndDoc function [Print Devices], print.oemenddoc, print_unidrv-pscript_rendering_1b17db2b-0ea4-4acb-9130-bbc7fe3a0b4a.xml, printoem/OEMEndDoc
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMEndDoc
 ---
+
+# OEMEndDoc function (printoem.h)
 
 ## -description
 

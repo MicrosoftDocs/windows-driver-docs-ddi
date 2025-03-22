@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["IoIsOperationSynchronous function"]
 ms.keywords: IoIsOperationSynchronous, IoIsOperationSynchronous routine [Installable File System Drivers], ifsk.ioisoperationsynchronous, ioref_259181c2-f6d9-4fe6-8d4b-594e7cf8db09.xml, ntifs/IoIsOperationSynchronous
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - IoIsOperationSynchronous
 ---
 
-# IoIsOperationSynchronous function
+# IoIsOperationSynchronous function (ntifs.h)
+
+
 
 ## -description
 

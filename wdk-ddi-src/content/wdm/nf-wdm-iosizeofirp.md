@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSizeOfIrp macro"]
 ms.keywords: IoSizeOfIrp, IoSizeOfIrp routine [Kernel-Mode Driver Architecture], k104_7c08c9ff-7731-462e-acb8-3793f85a84c2.xml, kernel.iosizeofirp, wdm/IoSizeOfIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoSizeOfIrp
 ---
 
-# IoSizeOfIrp macro (wdm.h)
+# IoSizeOfIrp function (wdm.h)
+
+
 
 
 ## -description

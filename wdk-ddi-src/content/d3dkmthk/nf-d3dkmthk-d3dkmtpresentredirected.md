@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTPresentRedirected function"]
 ms.keywords: D3DKMTPresentRedirected
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - D3DKMTPresentRedirected
 ---
 
-# D3DKMTPresentRedirected function
+# D3DKMTPresentRedirected function (d3dkmthk.h)
+
+
 
 
 ## -description

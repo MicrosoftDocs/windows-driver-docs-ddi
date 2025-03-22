@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_DISABLE IOCTL"]
 ms.keywords: IOCTL_NFP_DISABLE, IOCTL_NFP_DISABLE control, IOCTL_NFP_DISABLE control code [Near-Field Proximity Drivers], nfpdev/IOCTL_NFP_DISABLE, nfpdrivers.ioctl_nfp_disable
 req.header: nfpdev.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_NFP_DISABLE
 ---
 
-# IOCTL_NFP_DISABLE IOCTL
+# IOCTL_NFP_DISABLE IOCTL (nfpdev.h)
+
+
+
+
 
 
 ## -description

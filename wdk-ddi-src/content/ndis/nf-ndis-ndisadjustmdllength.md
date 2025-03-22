@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAdjustMdlLength macro"]
 ms.keywords: NdisAdjustMdlLength, NdisAdjustMdlLength macro [Network Drivers Starting with Windows Vista], ndis/NdisAdjustMdlLength, ndis_netbuf_functions_ref_babeb674-269d-4efc-add1-635666fd7863.xml, netvista.ndisadjustmdllength
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -40,7 +41,9 @@ api_name:
  - NdisAdjustMdlLength
 ---
 
-# NdisAdjustMdlLength macro
+# NdisAdjustMdlLength function (ndis.h)
+
+
 
 
 ## -description

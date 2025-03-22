@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlAcquireFileExclusive function"]
 ms.keywords: FsRtlAcquireFileExclusive, FsRtlAcquireFileExclusive function [Installable File System Drivers], fsrtlref_740f5dc5-adba-4b85-83eb-42877fb154d6.xml, ifsk.fsrtlacquirefileexclusive, ntifs/FsRtlAcquireFileExclusive
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAcquireFileExclusive
 ---
 
-# FsRtlAcquireFileExclusive function
+# FsRtlAcquireFileExclusive function (ntifs.h)
+
+
 
 
 ## -description

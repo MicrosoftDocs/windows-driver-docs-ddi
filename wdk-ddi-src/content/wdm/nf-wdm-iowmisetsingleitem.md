@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMISetSingleItem function"]
 ms.keywords: IoWMISetSingleItem, IoWMISetSingleItem routine [Kernel-Mode Driver Architecture], k104_cc50cf7d-a35a-42d6-86e2-4fb6a6183323.xml, kernel.iowmisetsingleitem, wdm/IoWMISetSingleItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMISetSingleItem
 ---
 
-# IoWMISetSingleItem function
+# IoWMISetSingleItem function (wdm.h)
+
+
 
 
 ## -description

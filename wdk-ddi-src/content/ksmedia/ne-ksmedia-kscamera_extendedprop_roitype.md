@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_EXTENDEDPROP_ROITYPE enumeration"]
 ms.keywords: KSCAMERA_EXTENDEDPROP_ROITYPE, KSCAMERA_EXTENDEDPROP_ROITYPE enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_FACE, ksmedia/KSCAMERA_EXTENDEDPROP_ROITYPE_UNKNOWN, stream.kscamera_extendedprop_roitype
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_ROITYPE
 ---
 
-# KSCAMERA_EXTENDEDPROP_ROITYPE enumeration
+# KSCAMERA_EXTENDEDPROP_ROITYPE enumeration (ksmedia.h)
+
+
 
 
 ## -description

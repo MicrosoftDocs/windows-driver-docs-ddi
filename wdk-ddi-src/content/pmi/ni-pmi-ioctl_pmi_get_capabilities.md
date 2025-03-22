@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_GET_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_PMI_GET_CAPABILITIES, IOCTL_PMI_GET_CAPABILITIES control, IOCTL_PMI_GET_CAPABILITIES control code [Power Metering and Budgeting Devices], PowerMeterRef_4328d6ef-f85e-4375-9505-ff9134969d60.xml, pmi/IOCTL_PMI_GET_CAPABILITIES, powermeter.ioctl_pmi_get_capabilities
 req.header: pmi.h
+req.construct-type: ioctl
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PMI_GET_CAPABILITIES
 ---
 
-# IOCTL_PMI_GET_CAPABILITIES IOCTL
+# IOCTL_PMI_GET_CAPABILITIES IOCTL (pmi.h)
+
+
+
+
 
 
 ## -description

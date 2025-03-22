@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceSetCharacteristics function"]
 ms.keywords: DFDeviceObjectGeneralRef_a5d23cdb-a42e-48ef-9158-174354e13ca6.xml, WdfDeviceSetCharacteristics, WdfDeviceSetCharacteristics method, kmdf.wdfdevicesetcharacteristics, wdf.wdfdevicesetcharacteristics, wdfdevice/WdfDeviceSetCharacteristics
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceSetCharacteristics
 ---
 
-# WdfDeviceSetCharacteristics function
+# WdfDeviceSetCharacteristics function (wdfdevice.h)
+
+
 
 
 ## -description

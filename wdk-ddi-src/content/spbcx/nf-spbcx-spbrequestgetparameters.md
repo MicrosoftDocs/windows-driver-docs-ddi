@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbRequestGetParameters function"]
 ms.keywords: SPB.spbrequestgetparameters, SpbRequestGetParameters, SpbRequestGetParameters method [Buses], spbcx/SpbRequestGetParameters
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbRequestGetParameters
 ---
 
-# SpbRequestGetParameters function
+# SpbRequestGetParameters function (spbcx.h)
+
+
 
 
 ## -description

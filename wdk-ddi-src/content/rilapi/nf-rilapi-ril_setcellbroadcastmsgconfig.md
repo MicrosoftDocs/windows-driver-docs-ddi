@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetCellBroadcastMsgConfig function"]
 ms.keywords: RIL_SetCellBroadcastMsgConfig, RIL_SetCellBroadcastMsgConfig method [Network Drivers Starting with Windows Vista], netvista.ril_setcellbroadcastmsgconfig, rilapi/RIL_SetCellBroadcastMsgConfig
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetCellBroadcastMsgConfig
 ---
 
-# RIL_SetCellBroadcastMsgConfig function
+# RIL_SetCellBroadcastMsgConfig function (rilapi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["NtWriteFile function"]
 ms.keywords: NtWriteFile, ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, wdm/NtWriteFile, wdm/ZwWriteFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - NtWriteFile
 ---
 
-# NtWriteFile function
+# NtWriteFile function (ntifs.h)
+
+
 
 ## -description
 

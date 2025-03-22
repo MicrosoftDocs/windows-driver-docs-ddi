@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateInstances function"]
 ms.keywords: FltApiRef_e_to_o_3875fd52-c8b1-4d79-9f90-83297dbbb44c.xml, FltEnumerateInstances, FltEnumerateInstances routine [Installable File System Drivers], fltkernel/FltEnumerateInstances, ifsk.fltenumerateinstances
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateInstances
 ---
 
-# FltEnumerateInstances function
+# FltEnumerateInstances function (fltkernel.h)
+
+
 
 
 ## -description

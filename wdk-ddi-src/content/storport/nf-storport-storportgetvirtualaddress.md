@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetVirtualAddress function"]
 ms.keywords: StorPortGetVirtualAddress, StorPortGetVirtualAddress routine [Storage Devices], storage.storportgetvirtualaddress, storport/StorPortGetVirtualAddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetVirtualAddress
 ---
 
-# StorPortGetVirtualAddress function
+# StorPortGetVirtualAddress function (storport.h)
+
+
 
 
 ## -description

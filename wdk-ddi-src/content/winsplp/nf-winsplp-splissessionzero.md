@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["SplIsSessionZero function"]
 ms.keywords: SplIsSessionZero, SplIsSessionZero function [Print Devices], print.splissessionzero, spoolfnc_8fd112f0-f2bf-4a33-8411-c1ce7c620390.xml, winsplp/SplIsSessionZero
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: This function is available in Windows XP and later.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SplIsSessionZero
 ---
+
+# SplIsSessionZero function (winsplp.h)
 
 ## -description
 

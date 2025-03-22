@@ -36,7 +36,9 @@ dev_langs:
  - c++
 ---
 
-# FSCTL_MANAGE_BYPASS_IO ioctl (ntifs.h)
+# FSCTL_MANAGE_BYPASS_IO IOCTL (ntifs.h)
+
+
 
 ## -description
 

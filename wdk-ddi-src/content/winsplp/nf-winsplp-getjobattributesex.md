@@ -7,6 +7,7 @@ ms.date: 11/30/2022
 keywords: ["GetJobAttributesEx function"]
 ms.keywords: GetJobAttributesEx, GetJobAttributesEx function [Print Devices], print.getjobattributesex, spoolfnc_45659d86-d97e-47c5-bbf7-49c990880b52.xml, winsplp/GetJobAttributesEx
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - GetJobAttributesEx
 ---
+
+# GetJobAttributesEx function (winsplp.h)
 
 ## -description
 

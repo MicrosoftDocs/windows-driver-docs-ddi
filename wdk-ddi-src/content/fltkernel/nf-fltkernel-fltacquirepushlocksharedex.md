@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FltAcquirePushLockSharedEx function"]
 ms.keywords: FltAcquirePushLockSharedEx
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# FltAcquirePushLockSharedEx function
+# FltAcquirePushLockSharedEx function (fltkernel.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_FRAME_STATISTICS_FLAGS enumeration"]
 ms.keywords: IDDCX_FRAME_STATISTICS_FLAGS, IDDCX_FRAME_STATISTICS_FLAGS enumeration [Display Devices], IDDCX_FRAME_STATISTICS_FLAGS_NONE, IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY, display.iddcx_frame_statistics_flags, iddcx/IDDCX_FRAME_STATISTICS_FLAGS, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_NONE, iddcx/IDDCX_FRAME_STATISTICS_FLAGS_REDUCED_COLOR_FIDELITY
 req.header: iddcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_FRAME_STATISTICS_FLAGS
 ---
 
-# IDDCX_FRAME_STATISTICS_FLAGS enumeration
+# IDDCX_FRAME_STATISTICS_FLAGS enumeration (iddcx.h)
+
+
 
 ## -description
 

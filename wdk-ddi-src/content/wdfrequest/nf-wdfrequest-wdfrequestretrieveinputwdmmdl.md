@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveInputWdmMdl function"]
 ms.keywords: DFRequestObjectRef_d65a1869-de52-4284-818f-a3f0837d0374.xml, WdfRequestRetrieveInputWdmMdl, WdfRequestRetrieveInputWdmMdl method, kmdf.wdfrequestretrieveinputwdmmdl, wdf.wdfrequestretrieveinputwdmmdl, wdfrequest/WdfRequestRetrieveInputWdmMdl
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestRetrieveInputWdmMdl
 ---
 
-# WdfRequestRetrieveInputWdmMdl function
+# WdfRequestRetrieveInputWdmMdl function (wdfrequest.h)
+
+
 
 
 ## -description

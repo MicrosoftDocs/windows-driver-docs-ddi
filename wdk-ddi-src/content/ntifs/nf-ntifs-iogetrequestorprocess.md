@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoGetRequestorProcess function"]
 ms.keywords: IoGetRequestorProcess, IoGetRequestorProcess routine [Installable File System Drivers], ifsk.iogetrequestorprocess, ioref_5c1e0075-08db-4db9-aa0c-fa28dced1202.xml, ntifs/IoGetRequestorProcess
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoGetRequestorProcess
 ---
 
-# IoGetRequestorProcess function
+# IoGetRequestorProcess function (ntifs.h)
+
+
 
 
 ## -description

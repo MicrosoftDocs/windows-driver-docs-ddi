@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["KeWaitForSingleObject function"]
 ms.keywords: KeWaitForMutexObject, KeWaitForSingleObject, KeWaitForSingleObject routine [Kernel-Mode Driver Architecture], k105_de338bec-f7ef-4780-85e6-592a24314145.xml, kernel.kewaitforsingleobject, wdm/KeWaitForSingleObject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeWaitForSingleObject
 ---
+
+# KeWaitForSingleObject function (wdm.h)
 
 ## -description
 

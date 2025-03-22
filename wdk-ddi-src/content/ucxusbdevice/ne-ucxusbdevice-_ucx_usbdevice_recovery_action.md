@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCX_USBDEVICE_RECOVERY_ACTION enumeration"]
 ms.keywords: _UCX_USBDEVICE_RECOVERY_ACTION, UCX_USBDEVICE_RECOVERY_ACTION,
 req.header: ucxusbdevice.h
+req.construct-type: enumeration
 req.include-header: Ucxclass.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCX_USBDEVICE_RECOVERY_ACTION
 ---
 
-# _UCX_USBDEVICE_RECOVERY_ACTION enumeration
+# UCX_USBDEVICE_RECOVERY_ACTION enumeration (ucxusbdevice.h)
+
+
 
 
 ## -description

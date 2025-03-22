@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcPrepareMdlWrite function"]
 ms.keywords: CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers], ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ifsk.ccpreparemdlwrite, ntifs/CcPrepareMdlWrite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcPrepareMdlWrite
 ---
 
-# CcPrepareMdlWrite function
+# CcPrepareMdlWrite function (ntifs.h)
+
+
 
 
 ## -description

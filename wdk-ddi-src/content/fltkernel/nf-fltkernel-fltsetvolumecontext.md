@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltSetVolumeContext function"]
 ms.keywords: FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, FltSetVolumeContext, FltSetVolumeContext function [Installable File System Drivers], fltkernel/FltSetVolumeContext, ifsk.fltsetvolumecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltSetVolumeContext
 ---
 
-# FltSetVolumeContext function
+# FltSetVolumeContext function (fltkernel.h)
+
+
 
 ## -description
 

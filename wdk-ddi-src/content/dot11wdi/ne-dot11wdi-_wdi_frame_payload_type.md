@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_FRAME_PAYLOAD_TYPE enumeration"]
 ms.keywords: WDI_FRAME_MSDU, WDI_FRAME_MSDU_FRAGMENT, WDI_FRAME_PAYLOAD_TYPE, WDI_FRAME_PAYLOAD_TYPE enumeration [Network Drivers Starting with Windows Vista], _WDI_FRAME_PAYLOAD_TYPE, dot11wdi/WDI_FRAME_MSDU, dot11wdi/WDI_FRAME_MSDU_FRAGMENT, dot11wdi/WDI_FRAME_PAYLOAD_TYPE, netvista.wdi_frame_payload_type, netvista.wifi_frame_payload_type
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - WDI_FRAME_PAYLOAD_TYPE
 ---
 
-# _WDI_FRAME_PAYLOAD_TYPE enumeration
+# WDI_FRAME_PAYLOAD_TYPE enumeration (dot11wdi.h)
+
+
 
 
 ## -description

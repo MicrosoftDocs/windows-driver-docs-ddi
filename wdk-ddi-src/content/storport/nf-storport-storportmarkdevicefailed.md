@@ -7,6 +7,7 @@ ms.date: 03/19/2019
 keywords: ["StorPortMarkDeviceFailed function"]
 ms.keywords: StorPortMarkDeviceFailed
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# StorPortMarkDeviceFailed function
+# StorPortMarkDeviceFailed function (storport.h)
+
+
 
 
 ## -description

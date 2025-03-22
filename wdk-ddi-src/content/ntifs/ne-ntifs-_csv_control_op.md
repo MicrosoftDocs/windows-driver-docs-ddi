@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["CSV_CONTROL_OP enumeration"]
 ms.keywords: _CSV_CONTROL_OP, CSV_CONTROL_OP, *PCSV_CONTROL_OP,
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - CSV_CONTROL_OP
 ---
 
-# CSV_CONTROL_OP enumeration
+# CSV_CONTROL_OP enumeration (ntifs.h)
+
+
 
 ## -description
 

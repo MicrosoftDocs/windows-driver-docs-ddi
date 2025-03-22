@@ -6,6 +6,7 @@ tech.root: print
 ms.date: 04/19/2022
 keywords: ["IOCTL_USBPRINT_SET_PROTOCOL IOCTL"]
 req.header: usbprint.h
+req.construct-type: ioctl
 req.include-header: Usbprint.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,6 +31,10 @@ api_location:
 api_name:
  - IOCTL_USBPRINT_SET_PROTOCOL
 ---
+
+# IOCTL_USBPRINT_SET_PROTOCOL IOCTL (usbprint.h)
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

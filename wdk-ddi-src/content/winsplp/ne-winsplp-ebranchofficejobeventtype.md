@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["EBranchOfficeJobEventType enumeration"]
 ms.keywords: EBranchOfficeJobEventType, EBranchOfficeJobEventType,
 req.header: winsplp.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - EBranchOfficeJobEventType
 ---
 
-# EBranchOfficeJobEventType enumeration
+# EBranchOfficeJobEventType enumeration (winsplp.h)
+
+
 
 
 ## -description

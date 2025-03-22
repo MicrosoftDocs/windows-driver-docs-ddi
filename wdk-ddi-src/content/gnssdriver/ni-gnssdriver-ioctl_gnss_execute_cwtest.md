@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_EXECUTE_CWTEST IOCTL"]
 ms.keywords: IOCTL_GNSS_EXECUTE_CWTEST, IOCTL_GNSS_EXECUTE_CWTEST control, IOCTL_GNSS_EXECUTE_CWTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_cwtest, gnssdriver/IOCTL_GNSS_EXECUTE_CWTEST
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_EXECUTE_CWTEST
 ---
 
-# IOCTL_GNSS_EXECUTE_CWTEST IOCTL
+# IOCTL_GNSS_EXECUTE_CWTEST IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

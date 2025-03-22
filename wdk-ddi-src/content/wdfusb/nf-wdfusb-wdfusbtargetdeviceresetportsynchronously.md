@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceResetPortSynchronously function"]
 ms.keywords: DFUsbRef_423196d9-8f58-462a-91b3-9d747a12d6df.xml, WdfUsbTargetDeviceResetPortSynchronously, WdfUsbTargetDeviceResetPortSynchronously method, kmdf.wdfusbtargetdeviceresetportsynchronously, wdf.wdfusbtargetdeviceresetportsynchronously, wdfusb/WdfUsbTargetDeviceResetPortSynchronously
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceResetPortSynchronously
 ---
 
-# WdfUsbTargetDeviceResetPortSynchronously function
+# WdfUsbTargetDeviceResetPortSynchronously function (wdfusb.h)
+
+
 
 
 ## -description

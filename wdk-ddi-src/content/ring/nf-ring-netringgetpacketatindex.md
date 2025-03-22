@@ -7,6 +7,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingGetPacketAtIndex function"]
 ms.keywords: NetRingGetPacketAtIndex
 req.header: ring.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetRingGetPacketAtIndex
 ---
 
-# NetRingGetPacketAtIndex function
+# NetRingGetPacketAtIndex function (ring.h)
+
+
 
 
 ## -description

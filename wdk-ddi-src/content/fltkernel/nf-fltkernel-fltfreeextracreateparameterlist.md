@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFreeExtraCreateParameterList function"]
 ms.keywords: FltApiRef_e_to_o_a0e2c974-153f-4566-996c-5e291229cbf0.xml, FltFreeExtraCreateParameterList, FltFreeExtraCreateParameterList routine [Installable File System Drivers], fltkernel/FltFreeExtraCreateParameterList, ifsk.fltfreeextracreateparameterlist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FltFreeExtraCreateParameterList
 ---
 
-# FltFreeExtraCreateParameterList function
+# FltFreeExtraCreateParameterList function (fltkernel.h)
+
+
 
 
 ## -description

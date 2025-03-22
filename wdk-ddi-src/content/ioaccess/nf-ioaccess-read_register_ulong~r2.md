@@ -8,6 +8,7 @@ ms.date: 03/01/2018
 keywords: ["READ_REGISTER_ULONG function"]
 ms.keywords: READ_REGISTER_ULONG, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, kernel.read_register_ulong, wdm/READ_REGISTER_ULONG
 req.header: ioaccess.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - READ_REGISTER_ULONG
 ---
 
-# READ_REGISTER_ULONG function
+# READ_REGISTER_ULONG function (ioaccess.h)
+
+
 
 
 ## -description

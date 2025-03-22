@@ -8,6 +8,7 @@ ms.date: 12/09/2021
 keywords: ["ExReleaseResourceForThreadLite function"]
 ms.keywords: ExReleaseResourceForThreadLite, ExReleaseResourceForThreadLite routine [Kernel-Mode Driver Architecture], k102_799a8ff7-3996-470d-97b2-e1c18bbcb486.xml, kernel.exreleaseresourceforthreadlite, wdm/ExReleaseResourceForThreadLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExReleaseResourceForThreadLite
 ---
 
-# ExReleaseResourceForThreadLite function
+# ExReleaseResourceForThreadLite function (wdm.h)
+
+
 
 ## -description
 

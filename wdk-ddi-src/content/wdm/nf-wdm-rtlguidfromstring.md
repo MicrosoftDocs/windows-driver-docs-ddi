@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlGUIDFromString function"]
 ms.keywords: RtlGUIDFromString, RtlGUIDFromString routine [Kernel-Mode Driver Architecture], k109_d6fe22b7-9d81-4024-819c-03bce65d3d14.xml, kernel.rtlguidfromstring, wdm/RtlGUIDFromString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlGUIDFromString
 ---
 
-# RtlGUIDFromString function
+# RtlGUIDFromString function (wdm.h)
+
+
 
 
 ## -description

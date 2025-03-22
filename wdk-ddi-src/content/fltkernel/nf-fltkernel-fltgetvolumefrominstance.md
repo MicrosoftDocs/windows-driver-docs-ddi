@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetVolumeFromInstance function"]
 ms.keywords: FltApiRef_e_to_o_4e727c23-1258-41cd-a8eb-befec90c7ea9.xml, FltGetVolumeFromInstance, FltGetVolumeFromInstance routine [Installable File System Drivers], fltkernel/FltGetVolumeFromInstance, ifsk.fltgetvolumefrominstance
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetVolumeFromInstance
 ---
 
-# FltGetVolumeFromInstance function
+# FltGetVolumeFromInstance function (fltkernel.h)
+
+
 
 
 ## -description

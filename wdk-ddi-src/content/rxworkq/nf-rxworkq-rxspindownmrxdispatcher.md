@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxSpinDownMRxDispatcher function"]
 ms.keywords: RxSpinDownMRxDispatcher, RxSpinDownMRxDispatcher function [Installable File System Drivers], ifsk.rxspindownmrxdispatcher, rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, rxworkq/RxSpinDownMRxDispatcher
 req.header: rxworkq.h
+req.construct-type: function
 req.include-header: Rxworkq.h, Rxstruc.h
 req.target-type: Desktop
 req.target-min-winverclnt: The RxSpinDownMRxDispatcher routine is only available on Windows XP and later.
@@ -40,7 +41,9 @@ api_name:
  - RxSpinDownMRxDispatcher
 ---
 
-# RxSpinDownMRxDispatcher function
+# RxSpinDownMRxDispatcher function (rxworkq.h)
+
+
 
 
 ## -description

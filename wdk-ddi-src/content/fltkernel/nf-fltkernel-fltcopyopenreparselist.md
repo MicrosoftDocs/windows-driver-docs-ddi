@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCopyOpenReparseList function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltCopyOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltcopyopenreparselist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - FltCopyOpenReparseList
 ---
 
-# FltCopyOpenReparseList function
+# FltCopyOpenReparseList function (fltkernel.h)
+
+
 
 
 ## -description

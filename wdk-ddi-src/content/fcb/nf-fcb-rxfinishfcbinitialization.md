@@ -7,6 +7,7 @@ ms.date: 10/05/2023
 keywords: ["RxFinishFcbInitialization function"]
 ms.keywords: RDBSS_NTC_MAILSLOT, RDBSS_NTC_SPOOLFILE, RDBSS_NTC_STORAGE_TYPE_DIRECTORY, RDBSS_NTC_STORAGE_TYPE_FILE, RDBSS_NTC_STORAGE_TYPE_UNKNOWN, RxFinishFcbInitialization, RxFinishFcbInitialization function [Installable File System Drivers], fcb/RxFinishFcbInitialization, ifsk.rxfinishfcbinitialization, rxref_436f96f7-35ed-484b-8963-4afa559d3cfb.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h, Nodetype.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RxFinishFcbInitialization
 ---
 
-# RxFinishFcbInitialization function
+# RxFinishFcbInitialization function (fcb.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WritePhysical function"]
 ms.keywords: WdbgExts_Ref_4c6663a7-4fbf-4d4a-9c86-cfa51218a470.xml, WritePhysical, WritePhysical function [Windows Debugging], dbgeng/WritePhysical, debugger.writephysical
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WritePhysical
 ---
 
-# WritePhysical function
+# WritePhysical function (wdbgexts.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExFlushLookasideListEx function"]
 ms.keywords: ExFlushLookasideListEx, ExFlushLookasideListEx routine [Kernel-Mode Driver Architecture], k102_bb02a725-bc22-4c22-91f2-0232c1cb0f1f.xml, kernel.exflushlookasidelistex, wdm/ExFlushLookasideListEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ExFlushLookasideListEx
 ---
 
-# ExFlushLookasideListEx function
+# ExFlushLookasideListEx function (wdm.h)
+
+
 
 
 ## -description

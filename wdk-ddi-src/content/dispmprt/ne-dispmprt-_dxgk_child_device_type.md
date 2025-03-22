@@ -7,6 +7,7 @@ ms.date: 05/20/2024
 keywords: ["DXGK_CHILD_DEVICE_TYPE enumeration"]
 ms.keywords: "*PDXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE, DXGK_CHILD_DEVICE_TYPE enumeration [Display Devices], DmEnums_afd3654c-ffb4-49d6-ba59-235148e59d2c.xml, PDXGK_CHILD_DEVICE_TYPE, PDXGK_CHILD_DEVICE_TYPE enumeration pointer [Display Devices], TypeIntegratedDisplay, TypeOther, TypeUninitialized, TypeVideoOutput, _DXGK_CHILD_DEVICE_TYPE, display.dxgk_child_device_type, dispmprt/DXGK_CHILD_DEVICE_TYPE, dispmprt/PDXGK_CHILD_DEVICE_TYPE, dispmprt/TypeIntegratedDisplay, dispmprt/TypeOther, dispmprt/TypeUninitialized, dispmprt/TypeVideoOutput"
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -45,7 +46,9 @@ api_name:
  - DXGK_CHILD_DEVICE_TYPE
 ---
 
-# DXGK_CHILD_DEVICE_TYPE enumeration
+# DXGK_CHILD_DEVICE_TYPE enumeration (dispmprt.h)
+
+
 
 ## -description
 

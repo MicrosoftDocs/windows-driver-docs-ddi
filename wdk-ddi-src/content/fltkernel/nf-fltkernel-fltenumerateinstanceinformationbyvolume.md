@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateInstanceInformationByVolume function"]
 ms.keywords: FltApiRef_e_to_o_682cf119-8631-4725-b2cc-eb0218acb4d7.xml, FltEnumerateInstanceInformationByVolume, FltEnumerateInstanceInformationByVolume routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByVolume, ifsk.fltenumerateinstanceinformationbyvolume
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateInstanceInformationByVolume
 ---
 
-# FltEnumerateInstanceInformationByVolume function
+# FltEnumerateInstanceInformationByVolume function (fltkernel.h)
+
+
 
 
 ## -description

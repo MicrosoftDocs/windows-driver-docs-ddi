@@ -36,7 +36,9 @@ dev_langs:
 ms.custom: engagement-fy23 
 ---
 
-# IOCTL_STORAGE_DIAGNOSTIC ioctl (ntddstor.h)
+# IOCTL_STORAGE_DIAGNOSTIC IOCTL (ntddstor.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_OPC_INFO_TYPE enumeration"]
 ms.keywords: "*PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], PCDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], SimpleOpcInfo, _CDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, storage.cdrom_opc_info_type"
 req.header: ntddcdrm.h
+req.construct-type: enumeration
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_OPC_INFO_TYPE
 ---
 
-# _CDROM_OPC_INFO_TYPE enumeration
+# CDROM_OPC_INFO_TYPE enumeration (ntddcdrm.h)
+
+
 
 
 ## -description

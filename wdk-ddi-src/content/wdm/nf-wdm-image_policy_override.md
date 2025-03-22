@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["IMAGE_POLICY_OVERRIDE macro"]
 ms.keywords: IMAGE_POLICY_OVERRIDE
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - IMAGE_POLICY_OVERRIDE
 ---
 
-# IMAGE_POLICY_OVERRIDE macro
+# IMAGE_POLICY_OVERRIDE function (wdm.h)
+
+
 
 
 ## -description

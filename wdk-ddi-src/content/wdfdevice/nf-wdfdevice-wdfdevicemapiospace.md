@@ -8,6 +8,7 @@ ms.date: 08/20/2024
 keywords: ["WdfDeviceMapIoSpace function"]
 ms.keywords: WdfDeviceMapIoSpace, WdfDeviceMapIoSpace function, wdf.wdfdevicemapiospace, wdfdevice/WdfDeviceMapIoSpace
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WdfDeviceMapIoSpace
 ---
 
-# WdfDeviceMapIoSpace function
+# WdfDeviceMapIoSpace function (wdfdevice.h)
+
+
 
 
 ## -description

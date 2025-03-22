@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["VarArgsKind enumeration"]
 ms.keywords: VarArgsKind, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - VarArgsKind
 ---
 
-# VarArgsKind enumeration
+# VarArgsKind enumeration (dbgmodel.h)
+
+
 
 
 ## -description

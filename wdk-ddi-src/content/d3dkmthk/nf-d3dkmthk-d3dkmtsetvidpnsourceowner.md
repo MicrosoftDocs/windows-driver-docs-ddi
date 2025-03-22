@@ -7,6 +7,7 @@ ms.date: 03/01/2022
 keywords: ["D3DKMTSetVidPnSourceOwner function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner, D3DKMTSetVidPnSourceOwner function [Display Devices], OpenGL_Functions_3c0b89d9-b3d6-4668-a227-3bc7d0ed2f2f.xml, d3dkmthk/D3DKMTSetVidPnSourceOwner, display.d3dkmtsetvidpnsourceowner
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSetVidPnSourceOwner
 ---
 
-# D3DKMTSetVidPnSourceOwner function
+# D3DKMTSetVidPnSourceOwner function (d3dkmthk.h)
+
+
 
 ## -description
 

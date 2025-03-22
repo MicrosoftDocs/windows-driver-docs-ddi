@@ -6,6 +6,7 @@ ms.date: 09/28/2018
 keywords: ["CreateDataModelManager function"]
 ms.keywords: CreateDataModelManager
 req.header: dbgmodel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CreateDataModelManager
 ---
 
-# CreateDataModelManager function
+# CreateDataModelManager function (dbgmodel.h)
+
+
 
 
 ## -description

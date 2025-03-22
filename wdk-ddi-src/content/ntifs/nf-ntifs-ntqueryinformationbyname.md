@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 02/02/2024
 ms.keywords: NtQueryInformationByName
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
 ms.custom: engagement-fy23
 ---
 
-# NtQueryInformationByName function
+# NtQueryInformationByName function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/01/2018
 keywords: ["READ_REGISTER_UCHAR function"]
 ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], k103_b7970afc-0b18-49c4-b873-a9fd689c0c97.xml, kernel.read_register_uchar, wdm/READ_REGISTER_UCHAR
 req.header: ioaccess.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - READ_REGISTER_UCHAR
 ---
 
-# READ_REGISTER_UCHAR function
+# READ_REGISTER_UCHAR function (ioaccess.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortIsNoVesa function"]
 ms.keywords: VideoPortIsNoVesa, VideoPortIsNoVesa function [Display Devices], VideoPort_Functions_b3e65276-fa78-4599-a3e1-fa097cd86e70.xml, display.videoportisnovesa, video/VideoPortIsNoVesa
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortIsNoVesa
 ---
 
-# VideoPortIsNoVesa function
+# VideoPortIsNoVesa function (video.h)
+
+
 
 
 ## -description

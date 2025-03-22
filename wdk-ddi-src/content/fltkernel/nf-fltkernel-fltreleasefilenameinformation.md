@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltReleaseFileNameInformation function"]
 ms.keywords: FltApiRef_p_to_z_c5266e1d-ab6a-406d-a319-2e9cc2f1acb4.xml, FltReleaseFileNameInformation, FltReleaseFileNameInformation function [Installable File System Drivers], fltkernel/FltReleaseFileNameInformation, ifsk.fltreleasefilenameinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltReleaseFileNameInformation
 ---
 
-# FltReleaseFileNameInformation function
+# FltReleaseFileNameInformation function (fltkernel.h)
+
+
 
 
 ## -description

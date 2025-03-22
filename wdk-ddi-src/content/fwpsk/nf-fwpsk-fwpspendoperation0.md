@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsPendOperation0 function"]
 ms.keywords: FwpsPendOperation0, FwpsPendOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsPendOperation0, netvista.fwpspendoperation0, wfp_ref_2_funct_3_fwps_J-Q_4e19462a-e31a-4d06-af83-68b11a00dd7a.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsPendOperation0
 ---
 
-# FwpsPendOperation0 function
+# FwpsPendOperation0 function (fwpsk.h)
+
+
 
 
 ## -description

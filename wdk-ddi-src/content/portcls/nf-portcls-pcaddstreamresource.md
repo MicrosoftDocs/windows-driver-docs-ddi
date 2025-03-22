@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcAddStreamResource function"]
 ms.keywords: PcAddStreamResource, PcAddStreamResource function [Audio Devices], audio.pcaddstreamresource, portcls/PcAddStreamResource
 req.header: portcls.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - PcAddStreamResource
 ---
 
-# PcAddStreamResource function
+# PcAddStreamResource function (portcls.h)
+
+
 
 
 ## -description

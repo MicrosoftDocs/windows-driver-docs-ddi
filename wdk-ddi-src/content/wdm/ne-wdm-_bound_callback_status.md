@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["BOUND_CALLBACK_STATUS enumeration"]
 ms.keywords: "*PBOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS, BOUND_CALLBACK_STATUS enumeration [Kernel-Mode Driver Architecture], BoundExceptionContinueSearch, BoundExceptionError, BoundExceptionHandled, BoundExceptionMaximum, _BOUND_CALLBACK_STATUS, kernel.bound_callback_status, wdm/BOUND_CALLBACK_STATUS, wdm/BoundExceptionContinueSearch, wdm/BoundExceptionError, wdm/BoundExceptionHandled, wdm/BoundExceptionMaximum"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - BOUND_CALLBACK_STATUS
 ---
 
-# _BOUND_CALLBACK_STATUS enumeration
+# BOUND_CALLBACK_STATUS enumeration (wdm.h)
+
+
 
 
 ## -description

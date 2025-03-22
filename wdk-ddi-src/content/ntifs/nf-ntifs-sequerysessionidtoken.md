@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SeQuerySessionIdToken function"]
 ms.keywords: SeQuerySessionIdToken, SeQuerySessionIdToken function [Installable File System Drivers], ifsk.sequerysessionidtoken, ntifs/SeQuerySessionIdToken, seref_9b30e13e-4132-4bc1-a2e1-7ccfb07b808e.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeQuerySessionIdToken
 ---
 
-# SeQuerySessionIdToken function
+# SeQuerySessionIdToken function (ntifs.h)
+
+
 
 ## -description
 

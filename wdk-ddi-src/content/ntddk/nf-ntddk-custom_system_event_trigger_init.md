@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["CUSTOM_SYSTEM_EVENT_TRIGGER_INIT function"]
 ms.keywords: CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - CUSTOM_SYSTEM_EVENT_TRIGGER_INIT
 ---
 
-# CUSTOM_SYSTEM_EVENT_TRIGGER_INIT function
+# CUSTOM_SYSTEM_EVENT_TRIGGER_INIT function (ntddk.h)
+
+
 
 
 ## -description

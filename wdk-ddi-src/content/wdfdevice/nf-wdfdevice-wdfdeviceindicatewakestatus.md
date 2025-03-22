@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceIndicateWakeStatus function"]
 ms.keywords: DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml, WdfDeviceIndicateWakeStatus, WdfDeviceIndicateWakeStatus method, kmdf.wdfdeviceindicatewakestatus, wdf.wdfdeviceindicatewakestatus, wdfdevice/WdfDeviceIndicateWakeStatus
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceIndicateWakeStatus
 ---
 
-# WdfDeviceIndicateWakeStatus function
+# WdfDeviceIndicateWakeStatus function (wdfdevice.h)
+
+
 
 
 ## -description

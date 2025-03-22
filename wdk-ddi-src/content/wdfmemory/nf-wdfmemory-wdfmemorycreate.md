@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfMemoryCreate function"]
 ms.keywords: DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method, kmdf.wdfmemorycreate, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfMemoryCreate
 ---
 
-# WdfMemoryCreate function
+# WdfMemoryCreate function (wdfmemory.h)
+
+
 
 
 ## -description

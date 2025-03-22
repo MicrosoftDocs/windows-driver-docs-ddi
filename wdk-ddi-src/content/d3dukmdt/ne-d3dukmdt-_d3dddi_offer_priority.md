@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_OFFER_PRIORITY enumeration"]
 ms.keywords: D3DDDI_OFFER_PRIORITY, D3DDDI_OFFER_PRIORITY enumeration [Display Devices], D3DDDI_OFFER_PRIORITY_AUTO, D3DDDI_OFFER_PRIORITY_HIGH, D3DDDI_OFFER_PRIORITY_LOW, D3DDDI_OFFER_PRIORITY_NONE, D3DDDI_OFFER_PRIORITY_NORMAL, _D3DDDI_OFFER_PRIORITY, d3dukmdt/D3DDDI_OFFER_PRIORITY, d3dukmdt/D3DDDI_OFFER_PRIORITY_AUTO, d3dukmdt/D3DDDI_OFFER_PRIORITY_HIGH, d3dukmdt/D3DDDI_OFFER_PRIORITY_LOW, d3dukmdt/D3DDDI_OFFER_PRIORITY_NONE, d3dukmdt/D3DDDI_OFFER_PRIORITY_NORMAL, display.d3dddi_offer_priority
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_OFFER_PRIORITY
 ---
 
-# _D3DDDI_OFFER_PRIORITY enumeration
+# D3DDDI_OFFER_PRIORITY enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

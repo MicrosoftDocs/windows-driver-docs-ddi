@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_LMR_QUERY_INFO
 ---
 
-# FSCTL_LMR_QUERY_INFO ioctl (ntifs.h)
+# FSCTL_LMR_QUERY_INFO IOCTL (ntifs.h)
+
+
 
 ## -description
 

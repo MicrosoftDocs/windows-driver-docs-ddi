@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration"]
 ms.keywords: D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL, *PD3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL,
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration
+# D3DKMDT_COLORSPACE_TRANSFORM_STAGE_CONTROL enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

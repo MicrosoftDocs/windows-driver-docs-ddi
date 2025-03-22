@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetRequestCryptoInfo function"]
 ms.keywords: StorPortGetRequestCryptoInfo, StorPortGetRequestCryptoInfo routine [Storage Devices], storage.storportgetrequestcryptoinfo, storport/StorPortGetRequestCryptoInfo
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetRequestCryptoInfo
 ---
 
-# StorPortGetRequestCryptoInfo function
+# StorPortGetRequestCryptoInfo function (storport.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDispatchFastReadFailure function"]
 ms.keywords: KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], KsDispatchFastWriteFailure, ks/KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, stream.ksdispatchfastreadfailure
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDispatchFastReadFailure
 ---
 
-# KsDispatchFastReadFailure function
+# KsDispatchFastReadFailure function (ks.h)
+
+
 
 
 ## -description

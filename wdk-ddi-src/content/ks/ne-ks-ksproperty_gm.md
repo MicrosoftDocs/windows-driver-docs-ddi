@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_GM enumeration"]
 ms.keywords: KSPROPERTY_GM, KSPROPERTY_GM enumeration [Streaming Media Devices], KSPROPERTY_GM_GRAPHMANAGER, KSPROPERTY_GM_RATEMATCH, KSPROPERTY_GM_RENDER_CLOCK, KSPROPERTY_GM_TIMESTAMP_CLOCK, ks/KSPROPERTY_GM, ks/KSPROPERTY_GM_GRAPHMANAGER, ks/KSPROPERTY_GM_RATEMATCH, ks/KSPROPERTY_GM_RENDER_CLOCK, ks/KSPROPERTY_GM_TIMESTAMP_CLOCK, stream.ksproperty_gm
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_GM
 ---
 
-# KSPROPERTY_GM enumeration
+# KSPROPERTY_GM enumeration (ks.h)
+
+
 
 
 ## -description

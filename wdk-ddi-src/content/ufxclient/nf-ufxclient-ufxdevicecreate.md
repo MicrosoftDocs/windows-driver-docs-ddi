@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDeviceCreate function"]
 ms.keywords: UfxDeviceCreate, UfxDeviceCreate method [Buses], buses.ufxdevicecreate, ufxclient/UfxDeviceCreate
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceCreate
 ---
 
-# UfxDeviceCreate function
+# UfxDeviceCreate function (ufxclient.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_RESOURCE_BARRIER_TYPE enumeration"]
 ms.keywords: D3D12DDI_RESOURCE_BARRIER_TYPE, D3D12DDI_RESOURCE_BARRIER_TYPE enumeration [Display Devices], D3D12DDI_RESOURCE_BARRIER_TYPE_0022_RANGED, D3D12DDI_RESOURCE_BARRIER_TYPE_TRANSITION, D3D12DDI_RESOURCE_BARRIER_TYPE_UAV, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_0022_RANGED, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_TRANSITION, d3d12umddi/D3D12DDI_RESOURCE_BARRIER_TYPE_UAV, display.d3d12ddi_resource_barrier_type
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_RESOURCE_BARRIER_TYPE
 ---
 
-# D3D12DDI_RESOURCE_BARRIER_TYPE enumeration
+# D3D12DDI_RESOURCE_BARRIER_TYPE enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlPostPagingFileStackOverflow function"]
 ms.keywords: FsRtlPostPagingFileStackOverflow, FsRtlPostPagingFileStackOverflow routine [Installable File System Drivers], fsrtlref_167dd1d3-f49d-4393-9003-af16aa144e0b.xml, ifsk.fsrtlpostpagingfilestackoverflow, ntifs/FsRtlPostPagingFileStackOverflow
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlPostPagingFileStackOverflow function
+# FsRtlPostPagingFileStackOverflow function (ntifs.h)
+
+
 
 
 ## -description

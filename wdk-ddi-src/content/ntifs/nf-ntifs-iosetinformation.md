@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["IoSetInformation function"]
 ms.keywords: IoSetInformation, IoSetInformation function [Installable File System Drivers], ifsk.iosetinformation, ioref_3c058acd-e360-4923-a9be-b17d3882727f.xml, ntifs/IoSetInformation
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoSetInformation
 ---
 
-# IoSetInformation function
+# IoSetInformation function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["DrvSplStartPage function"]
 ms.keywords: DrvSplStartPage, DrvSplStartPage function [Print Devices], print.drvsplstartpage, print_interface-graphics_4f9a41e8-8706-428e-8f58-945485151f62.xml, winddiui/DrvSplStartPage
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvSplStartPage
 ---
+
+# DrvSplStartPage function (winddiui.h)
 
 ## -description
 

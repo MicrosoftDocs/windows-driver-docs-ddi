@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function"]
 ms.keywords: UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT, UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function [Buses], buses.udecx_usb_device_plug_in_options_init, udecxusbdevice/UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT
 ---
 
-# UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function
+# UDECX_USB_DEVICE_PLUG_IN_OPTIONS_INIT function (udecxusbdevice.h)
+
+
 
 
 ## -description

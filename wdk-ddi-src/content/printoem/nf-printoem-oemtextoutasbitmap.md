@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMTextOutAsBitmap function"]
 ms.keywords: OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], print.oemtextoutasbitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, printoem/OEMTextOutAsBitmap
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMTextOutAsBitmap
 ---
+
+# OEMTextOutAsBitmap function (printoem.h)
 
 ## -description
 

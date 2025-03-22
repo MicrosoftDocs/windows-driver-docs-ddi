@@ -7,6 +7,7 @@ ms.date: 08/21/2020
 keywords: ["KeSetKernelStackSwapEnable function"]
 ms.keywords: KeSetKernelStackSwapEnable, kernel.kesetkernelstackswapenable, ntifs/KeSetKernelStackSwapEnable
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - KeSetKernelStackSwapEnable
 ---
 
-# KeSetKernelStackSwapEnable function
+# KeSetKernelStackSwapEnable function (ntifs.h)
+
+
 
 ## -description
 

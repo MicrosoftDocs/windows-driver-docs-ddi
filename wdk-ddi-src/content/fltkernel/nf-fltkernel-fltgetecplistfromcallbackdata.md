@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetEcpListFromCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_781f52ec-4262-4205-81bb-2a0e824f50af.xml, FltGetEcpListFromCallbackData, FltGetEcpListFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetEcpListFromCallbackData, ifsk.fltgetecplistfromcallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltGetEcpListFromCallbackData
 ---
 
-# FltGetEcpListFromCallbackData function
+# FltGetEcpListFromCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

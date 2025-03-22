@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_READ IOCTL"]
 ms.keywords: IOCTL_DOT4_READ, IOCTL_DOT4_READ control, IOCTL_DOT4_READ control code [Print Devices], d4drvif/IOCTL_DOT4_READ, print.ioctl_ioctl_dot4_read
 req.header: d4drvif.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DOT4_READ
 ---
 
-# IOCTL_DOT4_READ IOCTL
+# IOCTL_DOT4_READ IOCTL (d4drvif.h)
+
+
+
+
 
 
 ## -description

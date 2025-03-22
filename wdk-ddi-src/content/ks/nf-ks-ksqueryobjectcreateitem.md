@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsQueryObjectCreateItem function"]
 ms.keywords: KsQueryObjectCreateItem, KsQueryObjectCreateItem function [Streaming Media Devices], ks/KsQueryObjectCreateItem, ksfunc_57cde673-cd08-4018-b01e-45214058b435.xml, stream.ksqueryobjectcreateitem
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsQueryObjectCreateItem
 ---
 
-# KsQueryObjectCreateItem function
+# KsQueryObjectCreateItem function (ks.h)
+
+
 
 
 ## -description

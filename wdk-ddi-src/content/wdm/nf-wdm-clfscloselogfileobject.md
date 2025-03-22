@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsCloseLogFileObject function"]
 ms.keywords: ClfsCloseLogFileObject, ClfsCloseLogFileObject routine [Kernel-Mode Driver Architecture], Clfs_836288b2-fd9b-4855-acfd-ad12d7e25b19.xml, kernel.clfscloselogfileobject, wdm/ClfsCloseLogFileObject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsCloseLogFileObject
 ---
 
-# ClfsCloseLogFileObject function
+# ClfsCloseLogFileObject function (wdm.h)
+
+
 
 
 ## -description

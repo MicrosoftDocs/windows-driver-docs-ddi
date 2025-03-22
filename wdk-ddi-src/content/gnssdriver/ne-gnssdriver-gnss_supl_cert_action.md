@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_SUPL_CERT_ACTION enumeration"]
 ms.keywords: GNSS_SUPL_CERT_ACTION, GNSS_SUPL_CERT_ACTION enumeration [Sensor Devices], GNSS_Supl_Cert_Delete, GNSS_Supl_Cert_Inject, GNSS_Supl_Cert_Purge, gnss.gnss_supl_cert_action, gnssdriver/GNSS_SUPL_CERT_ACTION, gnssdriver/GNSS_Supl_Cert_Delete, gnssdriver/GNSS_Supl_Cert_Inject, gnssdriver/GNSS_Supl_Cert_Purge
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_SUPL_CERT_ACTION
 ---
 
-# GNSS_SUPL_CERT_ACTION enumeration
+# GNSS_SUPL_CERT_ACTION enumeration (gnssdriver.h)
+
+
 
 
 ## -description

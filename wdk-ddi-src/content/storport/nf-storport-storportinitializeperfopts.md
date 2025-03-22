@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInitializePerfOpts function"]
 ms.keywords: StorPortInitializePerfOpts, StorPortInitializePerfOpts function [Storage Devices], storage.storportinitializeperfopts, storport/StorPortInitializePerfOpts, storprt_84998f54-51fe-40fd-a8cc-ba0367a592ce.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortInitializePerfOpts
 ---
 
-# StorPortInitializePerfOpts function
+# StorPortInitializePerfOpts function (storport.h)
+
+
 
 
 ## -description

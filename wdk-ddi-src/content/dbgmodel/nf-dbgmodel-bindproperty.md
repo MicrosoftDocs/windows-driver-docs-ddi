@@ -6,6 +6,7 @@ ms.date: 06/11/2019
 keywords: ["BindProperty function"]
 ms.keywords: BindProperty
 req.header: dbgmodel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - BindProperty
 ---
 
-# BindProperty function(this, &MyClass::GetMyProperty, &MyClass::SetMyProperty) (dbgmodel.h)
+# BindProperty function (dbgmodel.h)
+
+(this, &MyClass::GetMyProperty, &MyClass::SetMyProperty) (dbgmodel.h)
 
 
 ## -description

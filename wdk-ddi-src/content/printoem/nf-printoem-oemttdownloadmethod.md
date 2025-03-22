@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMTTDownloadMethod function"]
 ms.keywords: OEMTTDownloadMethod, OEMTTDownloadMethod function [Print Devices], print.oemttdownloadmethod, print_obsoletefunctions_cae8b020-17a2-4345-8d48-3138eeba2a1d.xml, printoem/OEMTTDownloadMethod
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMTTDownloadMethod
 ---
+
+# OEMTTDownloadMethod function (printoem.h)
 
 ## -description
 

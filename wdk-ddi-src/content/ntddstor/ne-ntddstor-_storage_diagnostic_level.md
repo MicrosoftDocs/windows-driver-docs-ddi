@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DIAGNOSTIC_LEVEL enumeration"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], STORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelDefault, StorageDiagnosticLevelMax, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, ntddstor/StorageDiagnosticLevelMax, storage.storage_diagnostic_level"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10, version 1709.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DIAGNOSTIC_LEVEL
 ---
 
-# _STORAGE_DIAGNOSTIC_LEVEL enumeration
+# STORAGE_DIAGNOSTIC_LEVEL enumeration (ntddstor.h)
+
+
 
 
 ## -description

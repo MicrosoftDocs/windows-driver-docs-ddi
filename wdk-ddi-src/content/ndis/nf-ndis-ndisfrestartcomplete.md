@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFRestartComplete function"]
 ms.keywords: NdisFRestartComplete, NdisFRestartComplete function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_592af2b7-2172-4a8d-aa7b-315f7c321705.xml, ndis/NdisFRestartComplete, netvista.ndisfrestartcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFRestartComplete
 ---
 
-# NdisFRestartComplete function
+# NdisFRestartComplete function (ndis.h)
+
+
 
 
 ## -description

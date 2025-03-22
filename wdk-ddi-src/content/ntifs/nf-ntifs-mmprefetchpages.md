@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["MmPrefetchPages function"]
 ms.keywords: MmPrefetchPages, MmPrefetchPages routine [Installable File System Drivers], ifsk.mmprefetchpages, mmref_6e555336-a134-409a-9c8a-a4a217e38599.xml, ntifs/MmPrefetchPages
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - MmPrefetchPages
 ---
 
-# MmPrefetchPages function
+# MmPrefetchPages function (ntifs.h)
+
+
 
 
 ## -description

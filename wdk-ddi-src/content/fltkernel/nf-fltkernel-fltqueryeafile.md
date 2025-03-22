@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltQueryEaFile function"]
 ms.keywords: FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers], fltkernel/FltQueryEaFile, ifsk.fltqueryeafile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP3, Windows Server 2003 SP1, and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - FltQueryEaFile
 ---
 
-# FltQueryEaFile function
+# FltQueryEaFile function (fltkernel.h)
+
+
 
 
 ## -description

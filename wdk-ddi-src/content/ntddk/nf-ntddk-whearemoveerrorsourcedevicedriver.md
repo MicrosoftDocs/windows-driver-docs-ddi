@@ -7,6 +7,7 @@ ms.date: 04/28/2020
 keywords: ["WheaRemoveErrorSourceDeviceDriver function"]
 ms.keywords: WheaRemoveErrorSourceDeviceDriver
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - WheaRemoveErrorSourceDeviceDriver
 ---
 
-# WheaRemoveErrorSourceDeviceDriver function
+# WheaRemoveErrorSourceDeviceDriver function (ntddk.h)
+
+
 
 
 ## -description

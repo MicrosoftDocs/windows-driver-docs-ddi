@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["RtlZeroMemory macro"]
 ms.keywords: RtlZeroMemory
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory macro (ntddstor.h)
+# RtlZeroMemory function (ntddstor.h)
+
+
 
 
 ## -description

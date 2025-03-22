@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmBuildMdlForNonPagedPool function"]
 ms.keywords: MmBuildMdlForNonPagedPool, MmBuildMdlForNonPagedPool routine [Kernel-Mode Driver Architecture], k106_58d8437c-b6da-4b88-85a4-300392fb58f9.xml, kernel.mmbuildmdlfornonpagedpool, wdm/MmBuildMdlForNonPagedPool
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmBuildMdlForNonPagedPool
 ---
 
-# MmBuildMdlForNonPagedPool function
+# MmBuildMdlForNonPagedPool function (wdm.h)
+
+
 
 
 ## -description

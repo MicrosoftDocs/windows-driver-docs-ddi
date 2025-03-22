@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_QUERY_AVAIL_MODES IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_AVAIL_MODES, IOCTL_VIDEO_QUERY_AVAIL_MODES control, IOCTL_VIDEO_QUERY_AVAIL_MODES control code [Display Devices], Video_IOCTLs_a846ef88-234e-4867-a3fe-4d8c9b43e00e.xml, display.ioctl_video_query_avail_modes, ntddvdeo/IOCTL_VIDEO_QUERY_AVAIL_MODES
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_QUERY_AVAIL_MODES
 ---
 
-# IOCTL_VIDEO_QUERY_AVAIL_MODES IOCTL
+# IOCTL_VIDEO_QUERY_AVAIL_MODES IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

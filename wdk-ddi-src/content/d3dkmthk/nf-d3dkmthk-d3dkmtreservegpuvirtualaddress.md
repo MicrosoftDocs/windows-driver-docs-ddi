@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTReserveGpuVirtualAddress function"]
 ms.keywords: D3DKMTReserveGpuVirtualAddress, D3DKMTReserveGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTReserveGpuVirtualAddress, display.d3dkmtreservegpuvirtualaddress
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTReserveGpuVirtualAddress
 ---
 
-# D3DKMTReserveGpuVirtualAddress function
+# D3DKMTReserveGpuVirtualAddress function (d3dkmthk.h)
+
+
 
 
 ## -description

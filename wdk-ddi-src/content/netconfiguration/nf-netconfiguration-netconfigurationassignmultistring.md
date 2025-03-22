@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetConfigurationAssignMultiString function"]
 ms.keywords: NetConfigurationAssignMultiString
 req.header: netconfiguration.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetConfigurationAssignMultiString
 ---
 
-# NetConfigurationAssignMultiString function
+# NetConfigurationAssignMultiString function (netconfiguration.h)
+
+
 
 
 ## -description

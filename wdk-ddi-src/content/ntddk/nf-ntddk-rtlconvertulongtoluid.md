@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlConvertUlongToLuid function"]
 ms.keywords: RtlConvertUlongToLuid, RtlConvertUlongToLuid routine [Kernel-Mode Driver Architecture], k109_25b3458f-dc47-436f-af5b-7d6a9d8eeb2a.xml, kernel.rtlconvertulongtoluid, ntddk/RtlConvertUlongToLuid
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlConvertUlongToLuid
 ---
 
-# RtlConvertUlongToLuid function
+# RtlConvertUlongToLuid function (ntddk.h)
+
+
 
 
 ## -description

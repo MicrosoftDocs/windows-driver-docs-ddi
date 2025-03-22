@@ -7,6 +7,7 @@ ms.date: 05/21/2024
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS enumeration"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS, DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, DXGI_MULTIPLANE_OVERLAY_FLAG_FULLSCREEN_POST_COMPOSITION, display.dxgi_ddi_multiplane_overlay_flags, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, dxgiddi/DXGI_MULTIPLANE_OVERLAY_FLAG_FULLSCREEN_POST_COMPOSITION
 req.header: dxgiddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS enumeration
+# DXGI_DDI_MULTIPLANE_OVERLAY_FLAGS enumeration (dxgiddi.h)
+
+
 
 
 ## -description

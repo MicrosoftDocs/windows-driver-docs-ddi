@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["GetPrintProcessorCapabilities function"]
 ms.keywords: GetPrintProcessorCapabilities, GetPrintProcessorCapabilities function [Print Devices], print.getprintprocessorcapabilities, spoolfnc_4ca0ae34-060f-4144-91de-a2556d1b5261.xml, winsplp/GetPrintProcessorCapabilities
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - GetPrintProcessorCapabilities
 ---
+
+# GetPrintProcessorCapabilities function (winsplp.h)
 
 ## -description
 

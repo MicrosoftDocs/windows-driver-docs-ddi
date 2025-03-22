@@ -38,7 +38,9 @@ helpviewer_keywords:
  - IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS
 ---
 
-# IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS ioctl (ehstorbandmgmt.h)
+# IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS IOCTL (ehstorbandmgmt.h)
+
+
 
 ## -description
 

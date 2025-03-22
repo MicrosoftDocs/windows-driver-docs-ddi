@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["IoPageRead function"]
 ms.keywords: IoPageRead, IoPageRead function [Installable File System Drivers], ifsk.iopageread, ioref_2c5776f2-eef8-49e5-ade1-3ed0edcd6102.xml, ntifs/IoPageRead
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoPageRead
 ---
 
-# IoPageRead function
+# IoPageRead function (ntifs.h)
+
+
 
 ## -description
 

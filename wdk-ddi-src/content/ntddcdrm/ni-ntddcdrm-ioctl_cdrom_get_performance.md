@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_GET_PERFORMANCE IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_PERFORMANCE, IOCTL_CDROM_GET_PERFORMANCE control, IOCTL_CDROM_GET_PERFORMANCE control code [Storage Devices], ntddcdrm/IOCTL_CDROM_GET_PERFORMANCE, storage.ioctl_cdrom_get_performance
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Winioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_GET_PERFORMANCE
 ---
 
-# IOCTL_CDROM_GET_PERFORMANCE IOCTL
+# IOCTL_CDROM_GET_PERFORMANCE IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

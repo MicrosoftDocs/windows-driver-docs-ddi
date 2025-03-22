@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAcquireControl function"]
 ms.keywords: KsAcquireControl, KsAcquireControl function [Streaming Media Devices], avfunc_a3c1eb2c-db95-463f-98f5-a158dd1e14f5.xml, ks/KsAcquireControl, stream.ksacquirecontrol
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsAcquireControl
 ---
 
-# KsAcquireControl function
+# KsAcquireControl function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSaveExtendedProcessorState function"]
 ms.keywords: KeSaveExtendedProcessorState, KeSaveExtendedProcessorState routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k105_e03ec6f9-5b9b-48dc-ae77-3c27e6edc910.xml, kernel.kesaveextendedprocessorstate, wdm/KeSaveExtendedProcessorState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeSaveExtendedProcessorState
 ---
 
-# KeSaveExtendedProcessorState function
+# KeSaveExtendedProcessorState function (wdm.h)
+
+
 
 
 ## -description

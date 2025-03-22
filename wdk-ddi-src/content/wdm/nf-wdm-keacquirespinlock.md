@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeAcquireSpinLock macro"]
 ms.keywords: KeAcquireSpinLock, KeAcquireSpinLock routine [Kernel-Mode Driver Architecture], k105_387b61b6-b20f-4f17-be47-74c9ed3ac8a1.xml, kernel.keacquirespinlock, wdm/KeAcquireSpinLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - KeAcquireSpinLock
 ---
 
-# KeAcquireSpinLock macro
+# KeAcquireSpinLock function (wdm.h)
+
+
 
 
 ## -description

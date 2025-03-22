@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_HCD_ENABLE_PORT IOCTL"]
 ms.keywords: IOCTL_USB_HCD_ENABLE_PORT, IOCTL_USB_HCD_ENABLE_PORT control, IOCTL_USB_HCD_ENABLE_PORT control code [Buses], buses.ioctl_usb_hcd_enable_port, usbioctl/IOCTL_USB_HCD_ENABLE_PORT, usbirp_fc5909f4-17b5-455c-b635-5c53b9de816e.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows Server 2003, Windows XP, and Windows 2000, but it is not available on Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_HCD_ENABLE_PORT
 ---
 
-# IOCTL_USB_HCD_ENABLE_PORT IOCTL
+# IOCTL_USB_HCD_ENABLE_PORT IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

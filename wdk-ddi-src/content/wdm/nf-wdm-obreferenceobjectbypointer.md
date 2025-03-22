@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["ObReferenceObjectByPointer function"]
 ms.keywords: ObReferenceObjectByPointer, ObReferenceObjectByPointer routine [Kernel-Mode Driver Architecture], k107_2846f148-4ad5-472a-aa74-4f03c5251aee.xml, kernel.obreferenceobjectbypointer, wdm/ObReferenceObjectByPointer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ObReferenceObjectByPointer
 ---
+
+# ObReferenceObjectByPointer function (wdm.h)
 
 ## -description
 

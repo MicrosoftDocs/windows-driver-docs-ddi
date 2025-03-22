@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_START_BREADCRUMBING IOCTL"]
 ms.keywords: IOCTL_GNSS_START_BREADCRUMBING, IOCTL_GNSS_START_BREADCRUMBING control, IOCTL_GNSS_START_BREADCRUMBING control code [Sensor Devices], gnss.ioctl_gnss_start_breadcrumbing, gnssdriver/IOCTL_GNSS_START_BREADCRUMBING
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_START_BREADCRUMBING
 ---
 
-# IOCTL_GNSS_START_BREADCRUMBING IOCTL
+# IOCTL_GNSS_START_BREADCRUMBING IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

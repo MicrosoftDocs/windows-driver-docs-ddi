@@ -7,6 +7,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTFreeGpuVirtualAddress function"]
 ms.keywords: D3DKMTFreeGpuVirtualAddress, D3DKMTFreeGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTFreeGpuVirtualAddress, display.d3dkmtfreegpuvirtualaddress
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTFreeGpuVirtualAddress
 ---
 
-# D3DKMTFreeGpuVirtualAddress function
+# D3DKMTFreeGpuVirtualAddress function (d3dkmthk.h)
+
+
 
 ## -description
 

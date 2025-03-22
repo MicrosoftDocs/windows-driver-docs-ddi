@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxMapMidToContext function"]
 ms.keywords: RxMapMidToContext, RxMapMidToContext function [Installable File System Drivers], ifsk.rxmapmidtocontext, midatlax/RxMapMidToContext, rxref_e7a11999-7ace-4154-91aa-28dc99a83790.xml
 req.header: midatlax.h
+req.construct-type: function
 req.include-header: Midatlax.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxMapMidToContext
 ---
 
-# RxMapMidToContext function
+# RxMapMidToContext function (midatlax.h)
+
+
 
 
 ## -description

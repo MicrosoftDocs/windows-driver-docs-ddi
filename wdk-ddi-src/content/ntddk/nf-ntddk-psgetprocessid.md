@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsGetProcessId function"]
 ms.keywords: PsGetProcessId, PsGetProcessId routine [Kernel-Mode Driver Architecture], k108_b0733011-4102-4e10-83e3-e7e9d7172d08.xml, kernel.psgetprocessid, ntddk/PsGetProcessId
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - PsGetProcessId
 ---
 
-# PsGetProcessId function
+# PsGetProcessId function (ntddk.h)
+
+
 
 
 ## -description

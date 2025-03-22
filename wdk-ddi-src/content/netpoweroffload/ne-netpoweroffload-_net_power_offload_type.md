@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NET_POWER_OFFLOAD_TYPE enumeration"]
 ms.keywords: NET_POWER_OFFLOAD_TYPE, NET_POWER_OFFLOAD_TYPE,
 req.header: netpoweroffload.h
+req.construct-type: enumeration
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -34,7 +35,9 @@ api_name:
  - NET_POWER_OFFLOAD_TYPE
 ---
 
-# NET_POWER_OFFLOAD_TYPE enumeration
+# NET_POWER_OFFLOAD_TYPE enumeration (netpoweroffload.h)
+
+
 
 
 ## -description

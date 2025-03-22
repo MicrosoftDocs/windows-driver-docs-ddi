@@ -5,6 +5,7 @@ description: "On transition up to KSSTATE_RUN, send IOCTL_SBAUD_STREAM_START."
 ms.date: 07/12/2023
 keywords: ["IOCTL_SBAUD_STREAM_START IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_STREAM_START
 ---
 
-# IOCTL_SBAUD_STREAM_START IOCTL
+# IOCTL_SBAUD_STREAM_START IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

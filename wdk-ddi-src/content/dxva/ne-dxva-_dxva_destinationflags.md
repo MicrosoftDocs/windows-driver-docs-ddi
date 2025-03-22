@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_DestinationFlags enumeration"]
 ms.keywords: DXVA_DestinationFlagMask, DXVA_DestinationFlag_Alpha_Changed, DXVA_DestinationFlag_Background_Changed, DXVA_DestinationFlag_ColorData_Changed, DXVA_DestinationFlag_TargetRect_Changed, DXVA_DestinationFlags, DXVA_DestinationFlags enumeration [Display Devices], _DXVA_DestinationFlags, display.dxva_destinationflags, dxva/DXVA_DestinationFlagMask, dxva/DXVA_DestinationFlag_Alpha_Changed, dxva/DXVA_DestinationFlag_Background_Changed, dxva/DXVA_DestinationFlag_ColorData_Changed, dxva/DXVA_DestinationFlag_TargetRect_Changed, dxva/DXVA_DestinationFlags, dxvaref_f18a38b4-531e-4c7c-bd77-e4c0d581f86d.xml
 req.header: dxva.h
+req.construct-type: enumeration
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This enumeration type applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_DestinationFlags
 ---
 
-# _DXVA_DestinationFlags enumeration
+# DXVA_DestinationFlags enumeration (dxva.h)
+
+
 
 
 ## -description

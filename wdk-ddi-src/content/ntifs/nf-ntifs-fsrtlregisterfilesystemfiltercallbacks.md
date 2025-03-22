@@ -8,6 +8,7 @@ ms.date: 11/23/2020
 keywords: ["FsRtlRegisterFileSystemFilterCallbacks function"]
 ms.keywords: FsRtlRegisterFileSystemFilterCallbacks, FsRtlRegisterFileSystemFilterCallbacks routine [Installable File System Drivers], fsrtlref_a831a0f3-f819-45e3-9121-ae50ef1b95bf.xml, ifsk.fsrtlregisterfilesystemfiltercallbacks, ntifs/FsRtlRegisterFileSystemFilterCallbacks
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - FsRtlRegisterFileSystemFilterCallbacks
 ---
 
-# FsRtlRegisterFileSystemFilterCallbacks function
+# FsRtlRegisterFileSystemFilterCallbacks function (ntifs.h)
+
+
 
 ## -description
 

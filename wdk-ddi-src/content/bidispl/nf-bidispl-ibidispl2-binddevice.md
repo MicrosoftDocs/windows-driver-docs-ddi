@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiSpl2::BindDevice"]
 ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BIDI_ACCESS_USER, BindDevice, BindDevice method [Print Devices], BindDevice method [Print Devices],IBidiSpl2 interface, IBidiSpl2 interface [Print Devices],BindDevice method, IBidiSpl2.BindDevice, IBidiSpl2::BindDevice, _win32_IBidiSpl2_BindDevice, bidispl/IBidiSpl2::BindDevice, gdi.ibidispl2_ibidispl2__binddevice, print.ibidispl2_ibidispl2__binddevice
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows Vista
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiSpl2::BindDevice
 ---
+
+# IBidiSpl2::BindDevice function (bidispl.h)
 
 ## -description
 

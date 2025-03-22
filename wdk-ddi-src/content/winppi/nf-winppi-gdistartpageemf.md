@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiStartPageEMF function"]
 ms.keywords: GdiStartPageEMF, GdiStartPageEMF function [Print Devices], gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, print.gdistartpageemf, winppi/GdiStartPageEMF
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiStartPageEMF
 ---
 
-# GdiStartPageEMF function
+# GdiStartPageEMF function (winppi.h)
+
+
 
 
 ## -description

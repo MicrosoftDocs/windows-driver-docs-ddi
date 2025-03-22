@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_KEYBOARD_CONNECT, IOCTL_INTERNAL_KEYBOARD_CONNECT control, IOCTL_INTERNAL_KEYBOARD_CONNECT control code [Human Input Devices], hid.ioctl_internal_keyboard_connect, kbdmou/IOCTL_INTERNAL_KEYBOARD_CONNECT, kfilref_b9a87851-bbc4-4567-a459-9e647d6d3315.xml
 req.header: kbdmou.h
+req.construct-type: ioctl
 req.include-header: Kbdmou.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_KEYBOARD_CONNECT
 ---
 
-# IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL
+# IOCTL_INTERNAL_KEYBOARD_CONNECT IOCTL (kbdmou.h)
+
+
+
+
 
 
 ## -description

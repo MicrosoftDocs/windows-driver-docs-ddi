@@ -7,6 +7,7 @@ keywords: ["PropKeyFindKeySetPropVariant function"]
 tech.root: sensors
 ms.keywords: PropKeyFindKeySetPropVariant
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropKeyFindKeySetPropVariant
 ---
 
-# PropKeyFindKeySetPropVariant function
+# PropKeyFindKeySetPropVariant function (sensorsutils.h)
+
+
 
 
 ## -description

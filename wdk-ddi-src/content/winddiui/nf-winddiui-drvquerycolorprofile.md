@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DrvQueryColorProfile function"]
 ms.keywords: DrvQueryColorProfile, DrvQueryColorProfile function [Print Devices], print.drvquerycolorprofile, print_interface-graphics_fce84759-2add-41bc-b4e5-c2b66e3abf04.xml, winddiui/DrvQueryColorProfile
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvQueryColorProfile
 ---
+
+# DrvQueryColorProfile function (winddiui.h)
 
 ## -description
 

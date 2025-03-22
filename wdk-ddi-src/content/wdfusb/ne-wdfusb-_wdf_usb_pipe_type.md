@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_PIPE_TYPE enumeration"]
 ms.keywords: DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, WDF_USB_PIPE_TYPE, WDF_USB_PIPE_TYPE enumeration, WdfUsbPipeTypeBulk, WdfUsbPipeTypeControl, WdfUsbPipeTypeInterrupt, WdfUsbPipeTypeInvalid, WdfUsbPipeTypeIsochronous, _WDF_USB_PIPE_TYPE, kmdf.wdf_usb_pipe_type, wdf.wdf_usb_pipe_type, wdfusb/WDF_USB_PIPE_TYPE, wdfusb/WdfUsbPipeTypeBulk, wdfusb/WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeInterrupt, wdfusb/WdfUsbPipeTypeInvalid, wdfusb/WdfUsbPipeTypeIsochronous
 req.header: wdfusb.h
+req.construct-type: enumeration
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_USB_PIPE_TYPE
 ---
 
-# _WDF_USB_PIPE_TYPE enumeration
+# WDF_USB_PIPE_TYPE enumeration (wdfusb.h)
+
+
 
 
 ## -description

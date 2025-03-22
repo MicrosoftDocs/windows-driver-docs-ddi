@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterCreateNode function"]
 ms.keywords: KsFilterCreateNode, KsFilterCreateNode function [Streaming Media Devices], avfunc_9adc2406-964c-4f26-a155-67f37cceb0b4.xml, ks/KsFilterCreateNode, stream.ksfiltercreatenode
 req.header: ks.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFilterCreateNode
 ---
 
-# KsFilterCreateNode function
+# KsFilterCreateNode function (ks.h)
+
+
 
 
 ## -description

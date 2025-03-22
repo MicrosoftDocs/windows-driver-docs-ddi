@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["FindFirstPrinterChangeNotification function"]
 ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices]
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - FindFirstPrinterChangeNotification
 ---
+
+# FindFirstPrinterChangeNotification function (winspool.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 12/16/2021
 keywords: ["MagnetometerAccuracy enumeration"]
 ms.keywords: Approximate, High, MagnetometerAccuracy, MagnetometerAccuracy enumeration [Sensor Devices], Unknown, Unreliable, sensors.magnetometeraccuracy, sensorsclassextension/Approximate, sensorsclassextension/High, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/Unknown, sensorsclassextension/Unreliable
 req.header: sensorsclassextension.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,Available in Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - MagnetometerAccuracy
 ---
 
-# MagnetometerAccuracy enumeration
+# MagnetometerAccuracy enumeration (sensorsclassextension.h)
+
+
 
 ## -description
 

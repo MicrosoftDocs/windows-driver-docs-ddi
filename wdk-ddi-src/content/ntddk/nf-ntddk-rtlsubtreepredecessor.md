@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlSubtreePredecessor function"]
 ms.keywords: RtlSubtreePredecessor, RtlSubtreePredecessor routine [Installable File System Drivers], ifsk.rtlsubtreepredecessor, ntddk/RtlSubtreePredecessor, rtlref_0d0ea0f4-2b16-4d9c-8747-78d6ddcc90d6.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
@@ -40,7 +41,9 @@ api_name:
  - RtlSubtreePredecessor
 ---
 
-# RtlSubtreePredecessor function
+# RtlSubtreePredecessor function (ntddk.h)
+
+
 
 
 ## -description

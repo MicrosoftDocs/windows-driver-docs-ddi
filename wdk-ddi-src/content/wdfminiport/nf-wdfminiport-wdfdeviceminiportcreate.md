@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceMiniportCreate function"]
 ms.keywords: DFDeviceObjectGeneralRef_18104589-c58d-4e8b-af91-c6620b3772e9.xml, WdfDeviceMiniportCreate, WdfDeviceMiniportCreate method, kmdf.wdfdeviceminiportcreate, wdf.wdfdeviceminiportcreate, wdfminiport/WdfDeviceMiniportCreate
 req.header: wdfminiport.h
+req.construct-type: function
 req.include-header: Wdfminiport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceMiniportCreate
 ---
 
-# WdfDeviceMiniportCreate function
+# WdfDeviceMiniportCreate function (wdfminiport.h)
+
+
 
 
 ## -description

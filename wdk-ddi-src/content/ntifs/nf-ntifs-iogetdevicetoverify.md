@@ -8,6 +8,7 @@ ms.date: 01/18/2023
 keywords: ["IoGetDeviceToVerify function"]
 ms.keywords: IoGetDeviceToVerify, IoGetDeviceToVerify routine [Installable File System Drivers], ifsk.iogetdevicetoverify, k104_47163b80-0b35-40e0-9a30-3f5e2fe51bba.xml, ntifs/IoGetDeviceToVerify
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - IoGetDeviceToVerify
 ---
 
-# IoGetDeviceToVerify function
+# IoGetDeviceToVerify function (ntifs.h)
+
+
 
 ## -description
 

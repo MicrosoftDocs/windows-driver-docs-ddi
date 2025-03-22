@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortDoDma function"]
 ms.keywords: VideoPortDoDma, VideoPortDoDma function [Display Devices], VideoPort_Functions_febc78ee-355f-4689-9da9-f67f829d8a32.xml, display.videoportdodma, video/VideoPortDoDma
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortDoDma
 ---
 
-# VideoPortDoDma function
+# VideoPortDoDma function (video.h)
+
+
 
 
 ## -description

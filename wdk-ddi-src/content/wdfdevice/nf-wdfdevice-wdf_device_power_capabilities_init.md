@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_CAPABILITIES_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_888be612-b20f-427f-a098-e6b0f73f8704.xml, WDF_DEVICE_POWER_CAPABILITIES_INIT, WDF_DEVICE_POWER_CAPABILITIES_INIT function, kmdf.wdf_device_power_capabilities_init, wdf.wdf_device_power_capabilities_init, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES_INIT
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_DEVICE_POWER_CAPABILITIES_INIT
 ---
 
-# WDF_DEVICE_POWER_CAPABILITIES_INIT function
+# WDF_DEVICE_POWER_CAPABILITIES_INIT function (wdfdevice.h)
+
+
 
 
 ## -description

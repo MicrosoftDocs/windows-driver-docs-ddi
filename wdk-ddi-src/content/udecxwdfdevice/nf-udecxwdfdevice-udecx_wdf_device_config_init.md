@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_WDF_DEVICE_CONFIG_INIT function"]
 ms.keywords: UDECX_WDF_DEVICE_CONFIG_INIT, UDECX_WDF_DEVICE_CONFIG_INIT function [Buses], buses.udecx_wdf_device_config_init, udecxwdfdevice/UDECX_WDF_DEVICE_CONFIG_INIT
 req.header: udecxwdfdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UDECX_WDF_DEVICE_CONFIG_INIT
 ---
 
-# UDECX_WDF_DEVICE_CONFIG_INIT function
+# UDECX_WDF_DEVICE_CONFIG_INIT function (udecxwdfdevice.h)
+
+
 
 
 ## -description

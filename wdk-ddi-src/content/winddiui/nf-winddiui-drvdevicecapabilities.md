@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DrvDeviceCapabilities function"]
 ms.keywords: DrvDeviceCapabilities, DrvDeviceCapabilities function [Print Devices], print.drvdevicecapabilities, print_interface-graphics_cbe99c7b-a94f-47b2-8c51-d99bdcdec7d3.xml, winddiui/DrvDeviceCapabilities
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvDeviceCapabilities
 ---
+
+# DrvDeviceCapabilities function (winddiui.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["IsDsmActionNonDestructive macro"]
 ms.keywords: IsDsmActionNonDestructive
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - IsDsmActionNonDestructive
 ---
 
-# IsDsmActionNonDestructive macro
+# IsDsmActionNonDestructive function (ntddstor.h)
+
+
 
 
 ## -description

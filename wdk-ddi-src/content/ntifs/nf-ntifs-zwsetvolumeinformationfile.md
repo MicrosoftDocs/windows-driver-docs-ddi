@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwSetVolumeInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetVolumeInformationFile, ZwSetVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_580470b4-9769-4fec-9811-04f703473131.xml, kernel.zwsetvolumeinformationfile, ntifs/NtSetInformationFile, ntifs/ZwSetVolumeInformationFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003
@@ -40,7 +41,9 @@ api_name:
  - ZwSetVolumeInformationFile
 ---
 
-# ZwSetVolumeInformationFile function
+# ZwSetVolumeInformationFile function (ntifs.h)
+
+
 
 
 ## -description

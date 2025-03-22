@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcCompleteIrp function"]
 ms.keywords: PcCompleteIrp, PcCompleteIrp function [Audio Devices], audio.pccompleteirp, audpc-routines_f61145f8-9e55-4b2a-a3aa-37f7be4f4df3.xml, portcls/PcCompleteIrp
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcCompleteIrp function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcCompleteIrp
 ---
 
-# PcCompleteIrp function
+# PcCompleteIrp function (portcls.h)
+
+
 
 
 ## -description

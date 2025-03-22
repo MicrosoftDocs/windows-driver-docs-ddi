@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MsrStatusUpdateType enumeration"]
 ms.keywords: MsrStatusUpdateType, MsrStatusUpdateType enumeration, MsrStatusUpdateType_Authenticated, MsrStatusUpdateType_Extended, MsrStatusUpdateType_Off, MsrStatusUpdateType_OffOrOffline, MsrStatusUpdateType_Offline, MsrStatusUpdateType_Online, MsrStatusUpdateType_Unauthenticated, _MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType, pointofservicedriverinterface/MsrStatusUpdateType_Authenticated, pointofservicedriverinterface/MsrStatusUpdateType_Extended, pointofservicedriverinterface/MsrStatusUpdateType_Off, pointofservicedriverinterface/MsrStatusUpdateType_OffOrOffline, pointofservicedriverinterface/MsrStatusUpdateType_Offline, pointofservicedriverinterface/MsrStatusUpdateType_Online, pointofservicedriverinterface/MsrStatusUpdateType_Unauthenticated, pos.msrstatusupdatetype
 req.header: pointofservicedriverinterface.h
+req.construct-type: enumeration
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - MsrStatusUpdateType
 ---
 
-# _MsrStatusUpdateType enumeration
+# MsrStatusUpdateType enumeration (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

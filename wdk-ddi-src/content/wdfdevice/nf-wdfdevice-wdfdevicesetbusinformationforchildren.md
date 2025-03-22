@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceSetBusInformationForChildren function"]
 ms.keywords: DFDeviceObjectGeneralRef_76b69a67-0e1e-41d6-be98-3d5f76433d97.xml, WdfDeviceSetBusInformationForChildren, WdfDeviceSetBusInformationForChildren method, kmdf.wdfdevicesetbusinformationforchildren, wdf.wdfdevicesetbusinformationforchildren, wdfdevice/WdfDeviceSetBusInformationForChildren
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceSetBusInformationForChildren
 ---
 
-# WdfDeviceSetBusInformationForChildren function
+# WdfDeviceSetBusInformationForChildren function (wdfdevice.h)
+
+
 
 
 ## -description

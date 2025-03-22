@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration"]
 ms.keywords: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT, WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE, enumeration, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_OBJECT, portabledevice/WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPE_RESOURCE, tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES, wpddk.wpd_rendering_information_profile_entry_types
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
 ---
 
-# tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration
+# tagWPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES enumeration (portabledevice.h)
+
+
 
 
 ## -description

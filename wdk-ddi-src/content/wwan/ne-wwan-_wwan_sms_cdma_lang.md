@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_SMS_CDMA_LANG enumeration"]
 ms.keywords: "*PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_CDMA_LANG, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, WwanSmsCdmaLangChinese, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangFrench, WwanSmsCdmaLangHebrew, WwanSmsCdmaLangJapanese, WwanSmsCdmaLangKorean, WwanSmsCdmaLangMax, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangUnknown, _WWAN_SMS_CDMA_LANG, netvista.wwan_sms_cdma_lang, wwan/PWWAN_SMS_CDMA_LANG, wwan/WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangEnglish, wwan/WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangSpanish, wwan/WwanSmsCdmaLangUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SMS_CDMA_LANG
 ---
 
-# _WWAN_SMS_CDMA_LANG enumeration
+# WWAN_SMS_CDMA_LANG enumeration (wwan.h)
+
+
 
 
 ## -description

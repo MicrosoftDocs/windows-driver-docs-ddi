@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceFireEvent function"]
 ms.keywords: DFWMIRef_1062330c-9a9b-4bd3-a039-e1373c07ceee.xml, WdfWmiInstanceFireEvent, WdfWmiInstanceFireEvent method, kmdf.wdfwmiinstancefireevent, wdf.wdfwmiinstancefireevent, wdfwmi/WdfWmiInstanceFireEvent
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfWmiInstanceFireEvent
 ---
 
-# WdfWmiInstanceFireEvent function
+# WdfWmiInstanceFireEvent function (wdfwmi.h)
+
+
 
 
 ## -description

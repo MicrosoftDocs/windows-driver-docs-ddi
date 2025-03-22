@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UFX_CLASS_FUNCTIONS enumeration"]
 ms.keywords: _UFX_CLASS_FUNCTIONS, UFX_CLASS_FUNCTIONS,
 req.header: ufxbase.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows
@@ -33,7 +34,9 @@ api_name:
  - UFX_CLASS_FUNCTIONS
 ---
 
-# _UFX_CLASS_FUNCTIONS enumeration
+# UFX_CLASS_FUNCTIONS enumeration (ufxbase.h)
+
+
 
 
 ## -description

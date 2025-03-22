@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_DEVICE_TRANSPORTS enumeration"]
 ms.keywords: WPD_DEVICE_TRANSPORTS, WPD_DEVICE_TRANSPORTS enumeration, WPD_DEVICE_TRANSPORT_BLUETOOTH, WPD_DEVICE_TRANSPORT_IP, WPD_DEVICE_TRANSPORT_UNSPECIFIED, WPD_DEVICE_TRANSPORT_USB, portabledevice/WPD_DEVICE_TRANSPORTS, portabledevice/WPD_DEVICE_TRANSPORT_BLUETOOTH, portabledevice/WPD_DEVICE_TRANSPORT_IP, portabledevice/WPD_DEVICE_TRANSPORT_UNSPECIFIED, portabledevice/WPD_DEVICE_TRANSPORT_USB, tagWPD_DEVICE_TRANSPORTS, wpddk.wpd_device_transports
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_DEVICE_TRANSPORTS
 ---
 
-# tagWPD_DEVICE_TRANSPORTS enumeration
+# tagWPD_DEVICE_TRANSPORTS enumeration (portabledevice.h)
+
+
 
 
 ## -description

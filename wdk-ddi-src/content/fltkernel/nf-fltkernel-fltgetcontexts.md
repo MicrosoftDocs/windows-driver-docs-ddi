@@ -8,6 +8,7 @@ ms.date: 04/25/2023
 keywords: ["FltGetContexts function"]
 ms.keywords: FltApiRef_e_to_o_80c262c0-2587-4ca5-b397-674c0ba5f316.xml, FltGetContexts, FltGetContexts routine [Installable File System Drivers], fltkernel/FltGetContexts, ifsk.fltgetcontexts
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetContexts
 ---
 
-# FltGetContexts function
+# FltGetContexts function (fltkernel.h)
+
+
 
 ## -description
 

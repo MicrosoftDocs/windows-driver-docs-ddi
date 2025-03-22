@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlEnumerateGenericTableAvl function"]
 ms.keywords: RtlEnumerateGenericTableAvl, RtlEnumerateGenericTableAvl routine [Installable File System Drivers], ifsk.rtlenumerategenerictableavl, ntddk/RtlEnumerateGenericTableAvl
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlEnumerateGenericTableAvl
 ---
+
+# RtlEnumerateGenericTableAvl function (ntddk.h)
 
 ## -description
 

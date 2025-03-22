@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaOptionCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintSchemaOptionCollection interface, IPrintSchemaOptionCollection interface [Print Devices],Count property, IPrintSchemaOptionCollection.Count, IPrintSchemaOptionCollection.get_Count, IPrintSchemaOptionCollection::Count, IPrintSchemaOptionCollection::get_Count, get_Count, print.iprintschemaoptioncollection_count, printerextension/IPrintSchemaOptionCollection::Count, printerextension/IPrintSchemaOptionCollection::get_Count
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaOptionCollection::get_Count
 ---
+
+# IPrintSchemaOptionCollection::get_Count function (printerextension.h)
 
 ## -description
 

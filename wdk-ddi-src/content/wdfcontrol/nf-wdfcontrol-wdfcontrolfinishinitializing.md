@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfControlFinishInitializing function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_af1b91cc-0f6c-4b03-b168-5ac1357f2dc3.xml, WdfControlFinishInitializing, WdfControlFinishInitializing method, kmdf.wdfcontrolfinishinitializing, wdf.wdfcontrolfinishinitializing, wdfcontrol/WdfControlFinishInitializing
 req.header: wdfcontrol.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfControlFinishInitializing
 ---
 
-# WdfControlFinishInitializing function
+# WdfControlFinishInitializing function (wdfcontrol.h)
+
+
 
 
 ## -description

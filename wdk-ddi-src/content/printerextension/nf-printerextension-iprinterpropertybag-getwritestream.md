@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetWriteStream"]
 ms.keywords: GetWriteStream, GetWriteStream method [Print Devices], GetWriteStream method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetWriteStream method, IPrinterPropertyBag.GetWriteStream, IPrinterPropertyBag::GetWriteStream, print.iprinterpropertybag_getwritestream, printerextension/IPrinterPropertyBag::GetWriteStream
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::GetWriteStream
 ---
+
+# IPrinterPropertyBag::GetWriteStream function (printerextension.h)
 
 ## -description
 

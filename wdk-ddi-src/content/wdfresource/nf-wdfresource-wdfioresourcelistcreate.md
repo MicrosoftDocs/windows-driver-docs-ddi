@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoResourceListCreate function"]
 ms.keywords: DFResourceObjectRef_7130ba6a-fc24-4785-9fa3-c8fd159f63fb.xml, WdfIoResourceListCreate, WdfIoResourceListCreate method, kmdf.wdfioresourcelistcreate, wdf.wdfioresourcelistcreate, wdfresource/WdfIoResourceListCreate
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoResourceListCreate
 ---
 
-# WdfIoResourceListCreate function
+# WdfIoResourceListCreate function (wdfresource.h)
+
+
 
 
 ## -description

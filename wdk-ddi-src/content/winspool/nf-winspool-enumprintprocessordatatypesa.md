@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["EnumPrintProcessorDatatypesA function"]
 ms.keywords: EnumPrintProcessorDatatypes, EnumPrintProcessorDatatypes function [Print Devices], EnumPrintProcessorDatatypesA, print.enumprintprocessordatatypes, spoolfnc_f0686e8e-e1bc-448a-8dd1-eeccfb66dd9e.xml, winspool/EnumPrintProcessorDatatypes
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - EnumPrintProcessorDatatypes
 ---
 
-# EnumPrintProcessorDatatypesA function
+# EnumPrintProcessorDatatypesA function (winspool.h)
+
+
 
 
 ## -description

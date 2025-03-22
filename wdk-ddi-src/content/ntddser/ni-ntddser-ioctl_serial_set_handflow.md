@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_HANDFLOW IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_HANDFLOW, IOCTL_SERIAL_SET_HANDFLOW control, IOCTL_SERIAL_SET_HANDFLOW control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_HANDFLOW, serports.ioctl_serial_set_handflow, serref_732613c0-4ff9-46a8-929d-e5d02be9a57c.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_HANDFLOW
 ---
 
-# IOCTL_SERIAL_SET_HANDFLOW IOCTL
+# IOCTL_SERIAL_SET_HANDFLOW IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

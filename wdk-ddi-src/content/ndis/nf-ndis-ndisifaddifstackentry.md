@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfAddIfStackEntry function"]
 ms.keywords: NdisIfAddIfStackEntry, NdisIfAddIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfAddIfStackEntry, net_if_functions_ref_3e652431-fb28-4382-957a-3c532951e847.xml, netvista.ndisifaddifstackentry
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfAddIfStackEntry
 ---
 
-# NdisIfAddIfStackEntry function
+# NdisIfAddIfStackEntry function (ndis.h)
+
+
 
 
 ## -description

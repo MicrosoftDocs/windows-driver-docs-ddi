@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAllocateRWLock function"]
 ms.keywords: NdisAllocateRWLock, NdisAllocateRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateRWLock, ndis_processor_group_ref_7df54f29-88d4-4596-9649-8af7b84f6d7e.xml, netvista.ndisallocaterwlock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisAllocateRWLock
 ---
 
-# NdisAllocateRWLock function
+# NdisAllocateRWLock function (ndis.h)
+
+
 
 
 ## -description

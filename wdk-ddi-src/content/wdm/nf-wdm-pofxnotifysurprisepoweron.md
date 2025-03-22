@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxNotifySurprisePowerOn function"]
 ms.keywords: PoFxNotifySurprisePowerOn, PoFxNotifySurprisePowerOn routine [Kernel-Mode Driver Architecture], kernel.pofxnotifysurprisepoweron, wdm/PoFxNotifySurprisePowerOn
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxNotifySurprisePowerOn
 ---
 
-# PoFxNotifySurprisePowerOn function
+# PoFxNotifySurprisePowerOn function (wdm.h)
+
+
 
 
 ## -description

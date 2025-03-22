@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["ObDereferenceObjectDeferDeleteWithTag function"]
 ms.keywords: ObDereferenceObjectDeferDeleteWithTag, ObDereferenceObjectDeferDeleteWithTag routine [Kernel-Mode Driver Architecture], k107_c6da92e4-6a70-4f19-bd09-4308964b1e14.xml, kernel.obdereferenceobjectdeferdeletewithtag, wdm/ObDereferenceObjectDeferDeleteWithTag
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ObDereferenceObjectDeferDeleteWithTag
 ---
+
+# ObDereferenceObjectDeferDeleteWithTag function (wdm.h)
 
 ## -description
 

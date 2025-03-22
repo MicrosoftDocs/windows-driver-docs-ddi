@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_GET_VERSION IOCTL"]
 ms.keywords: IOCTL_GET_VERSION, IOCTL_GET_VERSION control, IOCTL_GET_VERSION control code [Imaging Devices], image.ioctl_get_version, stifnc_9ed7f2fc-763d-4090-8f25-e9a154055169.xml, usbscan/IOCTL_GET_VERSION
 req.header: usbscan.h
+req.construct-type: ioctl
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GET_VERSION
 ---
 
-# IOCTL_GET_VERSION IOCTL
+# IOCTL_GET_VERSION IOCTL (usbscan.h)
+
+
+
+
 
 
 ## -description

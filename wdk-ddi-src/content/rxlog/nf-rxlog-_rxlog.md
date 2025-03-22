@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 10/30/2024
 keywords: ["RxLog function"]
 req.header: rxlog.h
+req.construct-type: function
 req.include-header: Rxlog.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - _RxLog
 ---
 
-# _RxLog function
+# _RxLog function (rxlog.h)
+
+
 
 ## -description
 

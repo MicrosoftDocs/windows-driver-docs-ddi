@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlDecompressBufferEx2 function"]
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx2, RtlDecompressBufferEx2 function [Installable File System Drivers], ifsk.rtldecompressbufferex2, ntifs/RtlDecompressBufferEx2
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - RtlDecompressBufferEx2
 ---
 
-# RtlDecompressBufferEx2 function
+# RtlDecompressBufferEx2 function (ntifs.h)
+
+
 
 ## -description
 

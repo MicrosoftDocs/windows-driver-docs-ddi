@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlFreeOemString function"]
 ms.keywords: RtlFreeOemString, RtlFreeOemString routine [Installable File System Drivers], ifsk.rtlfreeoemstring, ntifs/RtlFreeOemString, rtlref_ffc98e3c-a96f-4250-a527-bcd1ba2ce506.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlFreeOemString
 ---
 
-# RtlFreeOemString function
+# RtlFreeOemString function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeInsertDeviceQueue function"]
 ms.keywords: KeInsertDeviceQueue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml, kernel.keinsertdevicequeue, wdm/KeInsertDeviceQueue
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeInsertDeviceQueue
 ---
 
-# KeInsertDeviceQueue function
+# KeInsertDeviceQueue function (wdm.h)
+
+
 
 
 ## -description

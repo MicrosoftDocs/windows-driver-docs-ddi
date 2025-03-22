@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMQueryFont function"]
 ms.keywords: OEMQueryFont, OEMQueryFont function [Print Devices], print.oemqueryfont, print_unidrv-pscript_rendering_52b50b2d-ab61-420f-be04-7285a5504be6.xml, printoem/OEMQueryFont
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMQueryFont
 ---
+
+# OEMQueryFont function (printoem.h)
 
 ## -description
 

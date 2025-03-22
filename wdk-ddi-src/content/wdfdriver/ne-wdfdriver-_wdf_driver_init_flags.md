@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DRIVER_INIT_FLAGS enumeration"]
 ms.keywords: DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WDF_DRIVER_INIT_FLAGS, WDF_DRIVER_INIT_FLAGS enumeration, WdfDriverInitNoDispatchOverride, WdfDriverInitNonPnpDriver, WdfVerifierOn, WdfVerifyOn, _WDF_DRIVER_INIT_FLAGS, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, wdfdriver/WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, wdfdriver/WdfDriverInitNonPnpDriver, wdfdriver/WdfVerifierOn, wdfdriver/WdfVerifyOn
 req.header: wdfdriver.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_DRIVER_INIT_FLAGS
 ---
 
-# _WDF_DRIVER_INIT_FLAGS enumeration
+# WDF_DRIVER_INIT_FLAGS enumeration (wdfdriver.h)
+
+
 
 
 ## -description

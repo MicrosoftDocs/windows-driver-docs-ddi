@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInterlockedPopEntrySList function"]
 ms.keywords: StorPortInterlockedPopEntrySList, StorPortInterlockedPopEntrySList routine [Storage Devices], storage.storportinterlockedpopentryslist, storport/StorPortInterlockedPopEntrySList
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - StorPortInterlockedPopEntrySList
 ---
 
-# StorPortInterlockedPopEntrySList function
+# StorPortInterlockedPopEntrySList function (storport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryAssignMultiString function"]
 ms.keywords: DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, WdfRegistryAssignMultiString method, kmdf.wdfregistryassignmultistring, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryAssignMultiString
 ---
 
-# WdfRegistryAssignMultiString function
+# WdfRegistryAssignMultiString function (wdfregistry.h)
+
+
 
 
 ## -description

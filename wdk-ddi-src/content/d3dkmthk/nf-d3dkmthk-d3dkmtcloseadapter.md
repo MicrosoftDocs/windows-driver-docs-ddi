@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTCloseAdapter function"]
 ms.keywords: D3DKMTCloseAdapter, D3DKMTCloseAdapter callback function [Display Devices], OpenGL_Functions_531edcbd-0ec0-4ae7-8a1a-31ed47084bba.xml, PFND3DKMT_CLOSEADAPTER, PFND3DKMT_CLOSEADAPTER callback, d3dkmthk/D3DKMTCloseAdapter, display.d3dkmtcloseadapter
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCloseAdapter
 ---
 
-# D3DKMTCloseAdapter function
+# D3DKMTCloseAdapter function (d3dkmthk.h)
+
+
 
 ## -description
 

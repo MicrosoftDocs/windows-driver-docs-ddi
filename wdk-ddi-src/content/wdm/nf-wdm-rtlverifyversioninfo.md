@@ -7,6 +7,7 @@ ms.date: 01/18/2023
 keywords: ["RtlVerifyVersionInfo function"]
 ms.keywords: RtlVerifyVersionInfo, RtlVerifyVersionInfo routine [Kernel-Mode Driver Architecture], k109_c0301686-a323-499f-ac04-3bc414b016cd.xml, kernel.rtlverifyversioninfo, wdm/RtlVerifyVersionInfo
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - RtlVerifyVersionInfo
 ---
+
+# RtlVerifyVersionInfo function (wdm.h)
 
 ## -description
 

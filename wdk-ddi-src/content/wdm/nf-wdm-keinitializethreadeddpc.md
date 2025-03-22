@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["KeInitializeThreadedDpc function"]
 ms.keywords: KeInitializeThreadedDpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeThreadedDpc
 ---
 
-# KeInitializeThreadedDpc function
+# KeInitializeThreadedDpc function (wdm.h)
+
+
 
 ## -description
 

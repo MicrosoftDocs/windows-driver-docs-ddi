@@ -7,6 +7,7 @@ ms.date: 04/22/2022
 keywords: ["StreamClassReenumerateStreams function"]
 ms.keywords: StreamClassReenumerateStreams, StreamClassReenumerateStreams function [Streaming Media Devices], strclass-routines_cacff7f7-e8f3-4794-ae99-eab536cf83d2.xml, stream.streamclassreenumeratestreams, strmini/StreamClassReenumerateStreams
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - StreamClassReenumerateStreams
 ---
+
+# StreamClassReenumerateStreams function (strmini.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DriverUnifiedPosPowerReportingType enumeration"]
 ms.keywords: Advanced, DriverUnifiedPosPowerReportingType, DriverUnifiedPosPowerReportingType enumeration, Standard, UnknownPowerReportingType, pointofservicecommontypes/Advanced, pointofservicecommontypes/DriverUnifiedPosPowerReportingType, pointofservicecommontypes/Standard, pointofservicecommontypes/UnknownPowerReportingType, pos.unifiedpospowerreportingtype
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverUnifiedPosPowerReportingType
 ---
 
-# DriverUnifiedPosPowerReportingType enumeration
+# DriverUnifiedPosPowerReportingType enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

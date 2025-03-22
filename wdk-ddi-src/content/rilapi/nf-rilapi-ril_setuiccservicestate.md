@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetUiccServiceState function"]
 ms.keywords: RIL_SetUiccServiceState, RIL_SetUiccServiceState method [Network Drivers Starting with Windows Vista], netvista.ril_setuiccservicestate, rilapi/RIL_SetUiccServiceState
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetUiccServiceState
 ---
 
-# RIL_SetUiccServiceState function
+# RIL_SetUiccServiceState function (rilapi.h)
+
+
 
 
 ## -description

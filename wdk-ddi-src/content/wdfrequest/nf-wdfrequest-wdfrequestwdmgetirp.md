@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestWdmGetIrp function"]
 ms.keywords: DFRequestObjectRef_2f8bba17-817e-4edb-98f2-bd56eb3e34ac.xml, WdfRequestWdmGetIrp, WdfRequestWdmGetIrp method, kmdf.wdfrequestwdmgetirp, wdf.wdfrequestwdmgetirp, wdfrequest/WdfRequestWdmGetIrp
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestWdmGetIrp
 ---
 
-# WdfRequestWdmGetIrp function
+# WdfRequestWdmGetIrp function (wdfrequest.h)
+
+
 
 
 ## -description

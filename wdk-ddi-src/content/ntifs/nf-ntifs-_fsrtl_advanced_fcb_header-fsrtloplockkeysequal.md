@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlOplockKeysEqual function"]
 ms.keywords: FsRtlOplockKeysEqual, FsRtlOplockKeysEqual routine [Installable File System Drivers], fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, ifsk.fsrtloplockkeysequal, ntifs/FsRtlOplockKeysEqual
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlOplockKeysEqual routine is available starting with Windows 7.
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlOplockKeysEqual function
+# FsRtlOplockKeysEqual function (ntifs.h)
+
+
 
 
 ## -description

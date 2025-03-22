@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortStateChangeDetected function"]
 ms.keywords: ATTRIBUTE_VM_PASSTHROUGH_LUN, STATE_CHANGE_BUS, STATE_CHANGE_LUN, STATE_CHANGE_TARGET, StorPortStateChangeDetected, StorPortStateChangeDetected routine [Storage Devices], storage.storportstatechangedetected, storport/StorPortStateChangeDetected
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - StorPortStateChangeDetected
 ---
 
-# StorPortStateChangeDetected function
+# StorPortStateChangeDetected function (storport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterRegisterForPrintAsyncNotifications function"]
 ms.keywords: RouterRegisterForPrintAsyncNotifications, RouterRegisterForPrintAsyncNotifications function [Print Devices], print.routerregisterforprintasyncnotifications, prnasntp/RouterRegisterForPrintAsyncNotifications, spoolfnc_c39b58f9-b714-437d-86c0-89f2d922c920.xml
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RouterRegisterForPrintAsyncNotifications
 ---
 
-# RouterRegisterForPrintAsyncNotifications function
+# RouterRegisterForPrintAsyncNotifications function (prnasntp.h)
+
+
 
 
 ## -description

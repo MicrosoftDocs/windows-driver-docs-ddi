@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GetExpressionEx function"]
 ms.keywords: GetExpressionEx, GetExpressionEx function [Windows Debugging], WdbgExts_Ref_74af8a17-694a-46ec-827c-fdd2aecbf15c.xml, debugger.getexpressionex, wdbgexts/GetExpressionEx
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetExpressionEx
 ---
 
-# GetExpressionEx function
+# GetExpressionEx function (wdbgexts.h)
+
+
 
 
 ## -description

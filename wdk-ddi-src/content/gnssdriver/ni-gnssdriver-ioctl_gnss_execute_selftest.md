@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_EXECUTE_SELFTEST IOCTL"]
 ms.keywords: IOCTL_GNSS_EXECUTE_SELFTEST, IOCTL_GNSS_EXECUTE_SELFTEST control, IOCTL_GNSS_EXECUTE_SELFTEST control code [Sensor Devices], gnss.ioctl_gnss_execute_selftest, gnssdriver/IOCTL_GNSS_EXECUTE_SELFTEST
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_EXECUTE_SELFTEST
 ---
 
-# IOCTL_GNSS_EXECUTE_SELFTEST IOCTL
+# IOCTL_GNSS_EXECUTE_SELFTEST IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryAssignUnicodeString function"]
 ms.keywords: DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, WdfRegistryAssignUnicodeString, WdfRegistryAssignUnicodeString method, kmdf.wdfregistryassignunicodestring, wdf.wdfregistryassignunicodestring, wdfregistry/WdfRegistryAssignUnicodeString
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryAssignUnicodeString
 ---
 
-# WdfRegistryAssignUnicodeString function
+# WdfRegistryAssignUnicodeString function (wdfregistry.h)
+
+
 
 
 ## -description

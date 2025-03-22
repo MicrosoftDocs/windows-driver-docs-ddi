@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortIsCurrentOsInstallationUpgrade function"]
 ms.keywords: StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storage.storportiscurrentosinstallationupgrade, storport/StorPortIsCurrentOsInstallationUpgrade
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - StorPortIsCurrentOsInstallationUpgrade
 ---
 
-# StorPortIsCurrentOsInstallationUpgrade function
+# StorPortIsCurrentOsInstallationUpgrade function (storport.h)
+
+
 
 
 ## -description

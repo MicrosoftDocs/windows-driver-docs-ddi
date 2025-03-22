@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["IKsDataTypeHandler::KsCompleteIoOperation"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsCompleteIoOperation method, IKsDataTypeHandler.KsCompleteIoOperation, IKsDataTypeHandler::KsCompleteIoOperation, KsCompleteIoOperation, KsCompleteIoOperation method [Streaming Media Devices], KsCompleteIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsCompleteIoOperation, ksproxy_04136093-03d0-4490-bf5c-5e83bddc23c7.xml, stream.iksdatatypehandler_kscompleteiooperation
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsDataTypeHandler::KsCompleteIoOperation
 ---
+
+# IKsDataTypeHandler::KsCompleteIoOperation function (ksproxy.h)
 
 ## -description
 

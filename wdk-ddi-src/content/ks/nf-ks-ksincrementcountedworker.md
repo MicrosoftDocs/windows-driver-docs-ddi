@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsIncrementCountedWorker function"]
 ms.keywords: KsIncrementCountedWorker, KsIncrementCountedWorker function [Streaming Media Devices], ks/KsIncrementCountedWorker, ksfunc_14b63f3e-f634-4147-891b-111179462966.xml, stream.ksincrementcountedworker
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsIncrementCountedWorker
 ---
 
-# KsIncrementCountedWorker function
+# KsIncrementCountedWorker function (ks.h)
+
+
 
 
 ## -description

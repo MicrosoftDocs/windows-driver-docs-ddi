@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_UnitType"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UnitType property, IPrintSchemaParameterDefinition.UnitType, IPrintSchemaParameterDefinition.get_UnitType, IPrintSchemaParameterDefinition::UnitType, IPrintSchemaParameterDefinition::get_UnitType, UnitType property [Print Devices], UnitType property [Print Devices],IPrintSchemaParameterDefinition interface, get_UnitType, print._iprintschemaparameterdefinition_unittype, printerextension/IPrintSchemaParameterDefinition::UnitType, printerextension/IPrintSchemaParameterDefinition::get_UnitType
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaParameterDefinition::get_UnitType
 ---
+
+# IPrintSchemaParameterDefinition::get_UnitType function (printerextension.h)
 
 ## -description
 

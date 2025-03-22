@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenKeyedMutex function"]
 ms.keywords: D3DKMTOpenKeyedMutex, D3DKMTOpenKeyedMutex function [Display Devices], OpenGL_Functions_6e2179a9-932f-4bd3-b222-4d5f1471636c.xml, d3dkmthk/D3DKMTOpenKeyedMutex, display.d3dkmtopenkeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTOpenKeyedMutex is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTOpenKeyedMutex
 ---
 
-# D3DKMTOpenKeyedMutex function
+# D3DKMTOpenKeyedMutex function (d3dkmthk.h)
+
+
 
 
 ## -description

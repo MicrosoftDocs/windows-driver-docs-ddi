@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration"]
 ms.keywords: KSCAMERA_EXTENDEDPROP_MetadataAlignment, KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_1024, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_128, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_16, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_2048, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_256, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_32, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_4096, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_512, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_64, ksmedia/KSCAMERA_EXTENDEDPROP_MetadataAlignment_8192, stream.kscamera_extendedprop_metadataalignment
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_MetadataAlignment
 ---
 
-# KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration
+# KSCAMERA_EXTENDEDPROP_MetadataAlignment enumeration (ksmedia.h)
+
+
 
 
 ## -description

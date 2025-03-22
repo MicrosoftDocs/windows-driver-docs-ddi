@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["PO_INTERNAL_WAKE_SOURCE_TYPE enumeration"]
 ms.keywords: PO_INTERNAL_WAKE_SOURCE_TYPE, PO_INTERNAL_WAKE_SOURCE_TYPE, *PPO_INTERNAL_WAKE_SOURCE_TYPE,
 req.header: ntpoapi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - PO_INTERNAL_WAKE_SOURCE_TYPE
 ---
 
-# PO_INTERNAL_WAKE_SOURCE_TYPE enumeration
+# PO_INTERNAL_WAKE_SOURCE_TYPE enumeration (ntpoapi.h)
+
+
 
 
 ## -description

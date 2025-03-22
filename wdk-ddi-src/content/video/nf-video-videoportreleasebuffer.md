@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortReleaseBuffer function"]
 ms.keywords: VideoPortReleaseBuffer, VideoPortReleaseBuffer function [Display Devices], VideoPort_Functions_908af223-2ee5-4e86-b5ab-47f7f3cc459b.xml, display.videoportreleasebuffer, video/VideoPortReleaseBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReleaseBuffer
 ---
 
-# VideoPortReleaseBuffer function
+# VideoPortReleaseBuffer function (video.h)
+
+
 
 
 ## -description

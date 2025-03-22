@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_QueryBusTime function"]
 ms.keywords: USBD_QueryBusTime, USBD_QueryBusTime routine [Buses], buses.usbd_querybustime, usbdlib/USBD_QueryBusTime, usbfunc_2911ce15-3106-4c66-95c8-52ff57318131.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated.
@@ -41,7 +42,9 @@ api_name:
  - USBD_QueryBusTime
 ---
 
-# USBD_QueryBusTime function
+# USBD_QueryBusTime function (usbdlib.h)
+
+
 
 
 ## -description

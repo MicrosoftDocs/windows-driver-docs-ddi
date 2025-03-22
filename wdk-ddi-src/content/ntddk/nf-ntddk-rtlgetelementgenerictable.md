@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlGetElementGenericTable function"]
 ms.keywords: RtlGetElementGenericTable, RtlGetElementGenericTable routine [Installable File System Drivers], ifsk.rtlgetelementgenerictable, ntddk/RtlGetElementGenericTable, rtlref_5127995d-65ea-4a8b-8b5b-ad64c7cc4c0d.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlGetElementGenericTable
 ---
 
-# RtlGetElementGenericTable function
+# RtlGetElementGenericTable function (ntddk.h)
+
+
 
 
 ## -description

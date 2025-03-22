@@ -7,6 +7,7 @@ ms.date: 05/01/2024
 keywords: ["UCSI_USB_OPERATION_ROLE enumeration"]
 ms.keywords: _UCSI_USB_OPERATION_ROLE, UCSI_USB_OPERATION_ROLE,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -28,7 +29,9 @@ api_name:
  - UCSI_USB_OPERATION_ROLE
 ---
 
-# _UCSI_USB_OPERATION_ROLE enumeration
+# UCSI_USB_OPERATION_ROLE enumeration (ucmucsispec.h)
+
+
 
 ## -description
 

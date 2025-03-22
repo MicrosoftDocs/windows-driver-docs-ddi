@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 05/20/2022
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE, *PDEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE,
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -35,7 +36,9 @@ api_name:
  - DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE
 ---
 
-# DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE enumeration
+# DEVICE_INTERNAL_STATUS_DATA_REQUEST_TYPE enumeration (ntddstor.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_MODEM_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_MODEM_CONTROL, IOCTL_SERIAL_SET_MODEM_CONTROL control, IOCTL_SERIAL_SET_MODEM_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_MODEM_CONTROL, serports.ioctl_serial_set_modem_control, serref_a7d7db4d-c889-4a99-b21b-9efb533901a9.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_MODEM_CONTROL
 ---
 
-# IOCTL_SERIAL_SET_MODEM_CONTROL IOCTL
+# IOCTL_SERIAL_SET_MODEM_CONTROL IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

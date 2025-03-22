@@ -7,6 +7,7 @@ ms.date: 06/28/2018
 keywords: ["MbbDeviceInitConfig function"]
 ms.keywords: MbbDeviceInitConfig
 req.header: mbbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - MbbDeviceInitConfig
 ---
 
-# MbbDeviceInitConfig function
+# MbbDeviceInitConfig function (mbbcx.h)
+
+
 
 
 ## -description

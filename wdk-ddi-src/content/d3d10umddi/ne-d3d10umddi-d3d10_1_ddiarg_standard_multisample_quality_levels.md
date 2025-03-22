@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration"]
 ms.keywords: D3D10_1_DDIARG_CENTER_MULTISAMPLE_PATTERN, D3D10_1_DDIARG_STANDARD_MULTISAMPLE_PATTERN, D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS, D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration [Display Devices], UMDisplayDriver_Dx10param_Structs_b617a227-3358-4b23-918f-9603c8fed13e.xml, d3d10umddi/D3D10_1_DDIARG_CENTER_MULTISAMPLE_PATTERN, d3d10umddi/D3D10_1_DDIARG_STANDARD_MULTISAMPLE_PATTERN, d3d10umddi/D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS, display.d3d10_1_ddiarg_standard_multisample_quality_levels
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS is supported on Windows Vista with Service Pack 1 (SP1) and later versions and Windows Server 2008 and later versions.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS
 ---
 
-# D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration
+# D3D10_1_DDIARG_STANDARD_MULTISAMPLE_QUALITY_LEVELS enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

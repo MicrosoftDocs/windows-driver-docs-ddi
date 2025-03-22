@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL"]
 ms.keywords: IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], battery.ioctl_cad_get_battery_provisioning_status, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 req.header: charging.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 ---
 
-# IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL
+# IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL (charging.h)
+
+
+
+
 
 ## -description
 

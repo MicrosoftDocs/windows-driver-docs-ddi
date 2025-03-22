@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["NtFreeVirtualMemory function"]
 ms.keywords: NtFreeVirtualMemory, ZwFreeVirtualMemory, ZwFreeVirtualMemory routine [Kernel-Mode Driver Architecture], k111_c7ea9516-a020-4840-aa18-7f98470cc142.xml, kernel.zwfreevirtualmemory, ntifs/NtFreeVirtualMemory, ntifs/ZwFreeVirtualMemory
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - NtFreeVirtualMemory
 ---
 
-# NtFreeVirtualMemory function
+# NtFreeVirtualMemory function (ntifs.h)
+
+
 
 ## -description
 

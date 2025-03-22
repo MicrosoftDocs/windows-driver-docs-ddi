@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlDowncaseUnicodeChar function"]
 ms.keywords: RtlDowncaseUnicodeChar, RtlDowncaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_e9ba1cee-5de9-4f8f-b964-6668ddef36b7.xml, kernel.rtldowncaseunicodechar, wdm/RtlDowncaseUnicodeChar
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlDowncaseUnicodeChar
 ---
 
-# RtlDowncaseUnicodeChar function
+# RtlDowncaseUnicodeChar function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCsqInsertIrp function"]
 ms.keywords: IoCsqInsertIrp, IoCsqInsertIrp routine [Kernel-Mode Driver Architecture], k104_cecd79a7-3c42-45a2-99f7-54ca2a3e0358.xml, kernel.iocsqinsertirp, wdm/IoCsqInsertIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows. Drivers that must also work in Windows 2000 and Windows 98/Me can instead link to Csq.lib to use the routine.
@@ -40,7 +41,9 @@ api_name:
  - IoCsqInsertIrp
 ---
 
-# IoCsqInsertIrp function
+# IoCsqInsertIrp function (wdm.h)
+
+
 
 
 ## -description

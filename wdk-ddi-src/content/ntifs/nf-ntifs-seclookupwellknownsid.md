@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SecLookupWellKnownSid function"]
 ms.keywords: SecLookupWellKnownSid, SecLookupWellKnownSid function [Installable File System Drivers], ifsk.seclookupwellknownsid, ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ntifs/SecLookupWellKnownSid
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This SecLookupWellKnownSid function is only available starting with Windows Server 2003.
@@ -41,7 +42,9 @@ api_name:
  - SecLookupWellKnownSid
 ---
 
-# SecLookupWellKnownSid function
+# SecLookupWellKnownSid function (ntifs.h)
+
+
 
 ## -description
 

@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_FILE_SOV_CHECK_RANGE
 ---
 
-# FSCTL_FILE_SOV_CHECK_RANGE ioctl (ntifs.h)
+# FSCTL_FILE_SOV_CHECK_RANGE IOCTL (ntifs.h)
+
+
 
 ## -description
 

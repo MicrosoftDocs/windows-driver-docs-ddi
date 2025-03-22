@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlAreBitsSet function"]
 ms.keywords: RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, kernel.rtlarebitsset, wdm/RtlAreBitsSet
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlAreBitsSet
 ---
 
-# RtlAreBitsSet function
+# RtlAreBitsSet function (wdm.h)
+
+
 
 
 ## -description

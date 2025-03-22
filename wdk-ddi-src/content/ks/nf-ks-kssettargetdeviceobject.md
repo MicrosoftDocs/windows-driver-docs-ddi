@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSetTargetDeviceObject function"]
 ms.keywords: KsSetTargetDeviceObject, KsSetTargetDeviceObject function [Streaming Media Devices], ks/KsSetTargetDeviceObject, ksfunc_f5e0140d-a6f3-49a1-a319-f55bdd5f0734.xml, stream.kssettargetdeviceobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSetTargetDeviceObject
 ---
 
-# KsSetTargetDeviceObject function
+# KsSetTargetDeviceObject function (ks.h)
+
+
 
 
 ## -description

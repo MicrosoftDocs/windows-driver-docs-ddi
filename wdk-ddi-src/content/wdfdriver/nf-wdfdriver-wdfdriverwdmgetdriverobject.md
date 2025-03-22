@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDriverWdmGetDriverObject function"]
 ms.keywords: DFDriverObjectRef_f196dc43-394e-4839-a64d-8af756f5a374.xml, WdfDriverWdmGetDriverObject, WdfDriverWdmGetDriverObject method, kmdf.wdfdriverwdmgetdriverobject, wdf.wdfdriverwdmgetdriverobject, wdfdriver/WdfDriverWdmGetDriverObject
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDriverWdmGetDriverObject
 ---
 
-# WdfDriverWdmGetDriverObject function
+# WdfDriverWdmGetDriverObject function (wdfdriver.h)
+
+
 
 
 ## -description

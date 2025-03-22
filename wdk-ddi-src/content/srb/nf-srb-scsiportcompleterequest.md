@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortCompleteRequest function"]
 ms.keywords: ScsiPortCompleteRequest, ScsiPortCompleteRequest routine [Storage Devices], scsiprt_be6690c0-6cfa-4a71-9877-176ed2c742e8.xml, srb/ScsiPortCompleteRequest, storage.scsiportcompleterequest
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortCompleteRequest
 ---
 
-# ScsiPortCompleteRequest function
+# ScsiPortCompleteRequest function (srb.h)
+
+
 
 
 ## -description

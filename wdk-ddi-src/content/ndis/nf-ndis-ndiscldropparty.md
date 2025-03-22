@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisClDropParty function"]
 ms.keywords: NdisClDropParty, NdisClDropParty function [Network Drivers Starting with Windows Vista], condis_client_ref_a86ff56b-e523-4d1b-a3ef-60ec953514c6.xml, ndis/NdisClDropParty, netvista.ndiscldropparty
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisClDropParty (NDIS 5.1)) in   Windows Vista. Supported for NDIS 5.1 drivers (see    NdisClDropParty (NDIS 5.1)) in   Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisClDropParty
 ---
 
-# NdisClDropParty function
+# NdisClDropParty function (ndis.h)
+
+
 
 
 ## -description

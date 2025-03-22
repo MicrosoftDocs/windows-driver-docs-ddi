@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["PsReferencePrimaryToken function"]
 ms.keywords: PsReferencePrimaryToken, PsReferencePrimaryToken routine [Installable File System Drivers], ifsk.psreferenceprimarytoken, ntifs/PsReferencePrimaryToken, psref_021aea60-1707-4817-9169-95a3dc79adb6.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - PsReferencePrimaryToken
 ---
 
-# PsReferencePrimaryToken function
+# PsReferencePrimaryToken function (ntifs.h)
+
+
 
 ## -description
 

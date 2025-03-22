@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMQueryFontTree function"]
 ms.keywords: OEMQueryFontTree, OEMQueryFontTree function [Print Devices], print.oemqueryfonttree, print_unidrv-pscript_rendering_f069b851-3104-4cca-8902-d844350a719e.xml, printoem/OEMQueryFontTree
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMQueryFontTree
 ---
+
+# OEMQueryFontTree function (printoem.h)
 
 ## -description
 

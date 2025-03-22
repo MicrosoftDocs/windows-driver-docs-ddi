@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["KdDisableDebugger function"]
 ms.keywords: DebugFns_e280d38c-6f87-4540-a782-d7669815a0f5.xml, KdDisableDebugger, KdDisableDebugger routine [Driver Development Tools], devtest.kddisabledebugger, wdm/KdDisableDebugger
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KdDisableDebugger
 ---
 
-# KdDisableDebugger function
+# KdDisableDebugger function (wdm.h)
+
+
 
 
 ## -description

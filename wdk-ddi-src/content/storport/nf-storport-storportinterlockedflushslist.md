@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInterlockedFlushSList function"]
 ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storage.storportinterlockedflushslist, storport/StorPortInterlockedFlushSList
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - StorPortInterlockedFlushSList
 ---
 
-# StorPortInterlockedFlushSList function
+# StorPortInterlockedFlushSList function (storport.h)
+
+
 
 
 ## -description

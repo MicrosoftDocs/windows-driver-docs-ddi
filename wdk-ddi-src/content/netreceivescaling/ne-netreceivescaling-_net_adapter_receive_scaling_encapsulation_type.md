@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration"]
 ms.keywords: _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE, NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE,
 req.header: netreceivescaling.h
+req.construct-type: enumeration
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE
 ---
 
-# _NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration
+# NET_ADAPTER_RECEIVE_SCALING_ENCAPSULATION_TYPE enumeration (netreceivescaling.h)
+
+
 
 
 ## -description

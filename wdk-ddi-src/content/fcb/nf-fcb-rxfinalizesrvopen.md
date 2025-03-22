@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxFinalizeSrvOpen function"]
 ms.keywords: RxFinalizeSrvOpen, RxFinalizeSrvOpen function [Installable File System Drivers], fcb/RxFinalizeSrvOpen, ifsk.rxfinalizesrvopen, rxref_0665a600-9a4c-4674-87bd-f9758b579cee.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxFinalizeSrvOpen
 ---
 
-# RxFinalizeSrvOpen function
+# RxFinalizeSrvOpen function (fcb.h)
+
+
 
 
 ## -description

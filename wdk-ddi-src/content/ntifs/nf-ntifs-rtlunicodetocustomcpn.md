@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlUnicodeToCustomCPN function"]
 ms.keywords: RtlUnicodeToCustomCPN, RtlUnicodeToCustomCPN function [Installable File System Drivers], ifsk.rtlunicodetocustomcpn, ntifs/RtlUnicodeToCustomCPN, rtlref_0c9942bd-a950-4d59-8fc7-58c41cfe78d4.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUnicodeToCustomCPN
 ---
 
-# RtlUnicodeToCustomCPN function
+# RtlUnicodeToCustomCPN function (ntifs.h)
+
+
 
 ## -description
 

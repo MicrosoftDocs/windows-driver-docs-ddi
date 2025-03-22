@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmCreateEnlistment function"]
 ms.keywords: TmCreateEnlistment, TmCreateEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcreateenlistment, ktm_ref_79bc27ad-3c37-4396-9c9d-5bc429299db4.xml, wdm/TmCreateEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmCreateEnlistment
 ---
 
-# TmCreateEnlistment function
+# TmCreateEnlistment function (wdm.h)
+
+
 
 
 ## -description

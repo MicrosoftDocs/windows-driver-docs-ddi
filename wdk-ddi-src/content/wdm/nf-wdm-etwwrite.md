@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["EtwWrite function"]
 ms.keywords: EtwWrite, EtwWrite function [Driver Development Tools], devtest.etwwrite, etw_km_af581b5c-6124-4bb0-8756-c4a0009e7a00.xml, wdm/EtwWrite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - EtwWrite
 ---
+
+# EtwWrite function (wdm.h)
 
 ## -description
 

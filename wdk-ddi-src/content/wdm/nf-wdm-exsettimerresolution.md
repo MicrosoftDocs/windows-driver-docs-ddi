@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["ExSetTimerResolution function"]
 ms.keywords: ExSetTimerResolution, ExSetTimerResolution routine [Kernel-Mode Driver Architecture], k102_09179649-af93-434f-92e0-844a2bdf34dc.xml, kernel.exsettimerresolution, wdm/ExSetTimerResolution
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExSetTimerResolution
 ---
+
+# ExSetTimerResolution function (wdm.h)
 
 ## -description
 

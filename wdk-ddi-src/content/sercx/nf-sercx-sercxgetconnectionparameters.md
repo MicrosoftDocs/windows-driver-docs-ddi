@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxGetConnectionParameters function"]
 ms.keywords: 1/SerCxGetConnectionParameters, SerCxGetConnectionParameters, SerCxGetConnectionParameters method [Serial Ports], serports.sercxgetconnectionparameters
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxGetConnectionParameters
 ---
 
-# SerCxGetConnectionParameters function
+# SerCxGetConnectionParameters function (sercx.h)
+
+
 
 
 ## -description

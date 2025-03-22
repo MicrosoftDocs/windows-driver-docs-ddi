@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueStart function"]
 ms.keywords: DFQueueObjectRef_15829d65-ee6a-455d-a0c6-cf21f5426e31.xml, WdfIoQueueStart, WdfIoQueueStart method, kmdf.wdfioqueuestart, wdf.wdfioqueuestart, wdfio/WdfIoQueueStart
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueStart
 ---
 
-# WdfIoQueueStart function
+# WdfIoQueueStart function (wdfio.h)
+
+
 
 
 ## -description

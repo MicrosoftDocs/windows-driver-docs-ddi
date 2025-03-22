@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DlUnmapMemory function"]
 ms.keywords: DlUnmapMemory
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# DlUnmapMemory function
+# DlUnmapMemory function (dispmprt.h)
+
+
 
 
 ## -description

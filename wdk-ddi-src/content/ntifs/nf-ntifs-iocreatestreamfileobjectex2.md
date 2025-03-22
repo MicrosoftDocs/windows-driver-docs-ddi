@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["IoCreateStreamFileObjectEx2 function"]
 ms.keywords: IoCreateStreamFileObjectEx, ifsk.iocreatestreamfileobjectex2, ntifs/IoCreateStreamFileObjectEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - IoCreateStreamFileObjectEx2
 ---
 
-# IoCreateStreamFileObjectEx2 function
+# IoCreateStreamFileObjectEx2 function (ntifs.h)
+
+
 
 ## -description
 

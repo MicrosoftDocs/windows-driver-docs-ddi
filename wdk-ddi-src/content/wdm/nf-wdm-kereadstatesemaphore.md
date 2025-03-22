@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReadStateSemaphore function"]
 ms.keywords: KeReadStateSemaphore, KeReadStateSemaphore routine [Kernel-Mode Driver Architecture], k105_cc608a62-f747-4d8c-a4f8-b6df51a4d5dd.xml, kernel.kereadstatesemaphore, wdm/KeReadStateSemaphore
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeReadStateSemaphore
 ---
 
-# KeReadStateSemaphore function
+# KeReadStateSemaphore function (wdm.h)
+
+
 
 
 ## -description

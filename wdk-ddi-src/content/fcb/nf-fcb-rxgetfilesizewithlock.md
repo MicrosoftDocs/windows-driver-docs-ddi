@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxGetFileSizeWithLock function"]
 ms.keywords: RxGetFileSizeWithLock, RxGetFileSizeWithLock function [Installable File System Drivers], fcb/RxGetFileSizeWithLock, ifsk.rxgetfilesizewithlock, rxref_15aee1e0-d82a-45ea-ad0b-e610347c62fe.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxGetFileSizeWithLock
 ---
 
-# RxGetFileSizeWithLock function
+# RxGetFileSizeWithLock function (fcb.h)
+
+
 
 
 ## -description

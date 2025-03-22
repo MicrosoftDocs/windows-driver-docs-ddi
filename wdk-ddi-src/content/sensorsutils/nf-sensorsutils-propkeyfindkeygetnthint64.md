@@ -7,6 +7,7 @@ keywords: ["PropKeyFindKeyGetNthInt64 function"]
 tech.root: sensors
 ms.keywords: PropKeyFindKeyGetNthInt64
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropKeyFindKeyGetNthInt64
 ---
 
-# PropKeyFindKeyGetNthInt64 function
+# PropKeyFindKeyGetNthInt64 function (sensorsutils.h)
+
+
 
 
 ## -description

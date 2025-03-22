@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration"]
 ms.keywords: _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE, SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE,
 req.header: usbsidebandaudio.h
+req.construct-type: enumeration
 req.include-header: usbsidebandaudio.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE
 ---
 
-# _SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration
+# SIDEBANDAUDIO_EP_USB_TRANSPORT_RESOURCE_TYPE enumeration (usbsidebandaudio.h)
+
+
 
 ## -description
 

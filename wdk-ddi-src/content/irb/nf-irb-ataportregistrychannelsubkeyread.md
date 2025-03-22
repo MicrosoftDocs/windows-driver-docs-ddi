@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRegistryChannelSubkeyRead function"]
 ms.keywords: AtaPortRegistryChannelSubKeyRead, AtaPortRegistryChannelSubkeyRead, AtaPortRegistryChannelSubkeyRead routine [Storage Devices], atartns_35b220a8-6f27-43c3-90b7-fc0ef628b270.xml, irb/AtaPortRegistryChannelSubkeyRead, storage.ataportregistrychannelsubkeyread
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortRegistryChannelSubkeyRead
 ---
 
-# AtaPortRegistryChannelSubkeyRead function
+# AtaPortRegistryChannelSubkeyRead function (irb.h)
+
+
 
 
 ## -description

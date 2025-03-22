@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetAllocAndQueryTargetProperty function"]
 ms.keywords: DFIOTargetRef_f92747ac-d6f3-444f-a76b-91503a0db3a3.xml, WdfIoTargetAllocAndQueryTargetProperty, WdfIoTargetAllocAndQueryTargetProperty method, kmdf.wdfiotargetallocandquerytargetproperty, wdf.wdfiotargetallocandquerytargetproperty, wdfiotarget/WdfIoTargetAllocAndQueryTargetProperty
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoTargetAllocAndQueryTargetProperty
 ---
 
-# WdfIoTargetAllocAndQueryTargetProperty function
+# WdfIoTargetAllocAndQueryTargetProperty function (wdfiotarget.h)
+
+
 
 
 ## -description

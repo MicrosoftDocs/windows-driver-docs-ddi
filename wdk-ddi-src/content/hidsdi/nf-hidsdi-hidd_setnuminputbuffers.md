@@ -8,6 +8,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_SetNumInputBuffers function"]
 ms.keywords: HidD_SetNumInputBuffers, HidD_SetNumInputBuffers routine [Human Input Devices], hid.hidd_setnuminputbuffers, hidfunc_d091d988-7b9d-44ef-ae48-e00af69c12f5.xml, hidsdi/HidD_SetNumInputBuffers
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_SetNumInputBuffers
 ---
 
-# HidD_SetNumInputBuffers function
+# HidD_SetNumInputBuffers function (hidsdi.h)
+
+
 
 
 ## -description

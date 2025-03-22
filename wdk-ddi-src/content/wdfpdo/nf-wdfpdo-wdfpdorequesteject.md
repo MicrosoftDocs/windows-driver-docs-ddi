@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoRequestEject function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f57ccd07-8cb3-4972-bddb-aa704d9422b0.xml, WdfPdoRequestEject, WdfPdoRequestEject method, kmdf.wdfpdorequesteject, wdf.wdfpdorequesteject, wdfpdo/WdfPdoRequestEject
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoRequestEject
 ---
 
-# WdfPdoRequestEject function
+# WdfPdoRequestEject function (wdfpdo.h)
+
+
 
 
 ## -description

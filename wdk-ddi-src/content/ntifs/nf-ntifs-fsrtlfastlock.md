@@ -8,6 +8,7 @@ ms.date: 03/20/2023
 keywords: ["FsRtlFastLock macro"]
 ms.keywords: FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers], fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlFastLock
 ---
 
-# FsRtlFastLock macro
+# FsRtlFastLock function (ntifs.h)
+
+
 
 ## -description
 

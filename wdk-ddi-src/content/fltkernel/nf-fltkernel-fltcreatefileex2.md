@@ -8,6 +8,7 @@ ms.date: 11/11/2020
 keywords: ["FltCreateFileEx2 function"]
 ms.keywords: FltApiRef_a_to_d_21436e16-822a-4250-abac-10346593435f.xml, FltCreateFileEx2, FltCreateFileEx2 routine [Installable File System Drivers], fltkernel/FltCreateFileEx2, ifsk.fltcreatefileex2
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FltCreateFileEx2
 ---
 
-# FltCreateFileEx2 function
+# FltCreateFileEx2 function (fltkernel.h)
+
+
 
 ## -description
 

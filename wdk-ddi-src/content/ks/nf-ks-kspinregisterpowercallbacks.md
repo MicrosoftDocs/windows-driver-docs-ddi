@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["KsPinRegisterPowerCallbacks function"]
 ms.keywords: KsPinRegisterPowerCallbacks, KsPinRegisterPowerCallbacks function [Streaming Media Devices], avfunc_2e133cdb-6afa-47a7-8d3b-8293b63428b5.xml, ks/KsPinRegisterPowerCallbacks, stream.kspinregisterpowercallbacks
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsPinRegisterPowerCallbacks
 ---
+
+# KsPinRegisterPowerCallbacks function (ks.h)
 
 ## -description
 

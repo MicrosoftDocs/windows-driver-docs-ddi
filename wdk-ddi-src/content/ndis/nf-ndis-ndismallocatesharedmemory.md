@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMAllocateSharedMemory function"]
 ms.keywords: NdisMAllocateSharedMemory, NdisMAllocateSharedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_c2bf3765-9335-488e-a320-7e955f95eed8.xml, ndis/NdisMAllocateSharedMemory, netvista.ndismallocatesharedmemory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMAllocateSharedMemory
 ---
 
-# NdisMAllocateSharedMemory function
+# NdisMAllocateSharedMemory function (ndis.h)
+
+
 
 
 ## -description

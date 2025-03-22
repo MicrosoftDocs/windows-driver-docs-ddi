@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_SESSION_EVENT enumeration"]
 ms.keywords: "*PIO_SESSION_EVENT, IO_SESSION_EVENT, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], IoSessionEventConnected, IoSessionEventCreated, IoSessionEventDisconnected, IoSessionEventLogoff, IoSessionEventLogon, IoSessionEventMax, IoSessionEventTerminated, PIO_SESSION_EVENT, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], _IO_SESSION_EVENT, kernel.io_session_event, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IO_SESSION_EVENT, wdm/IoSessionEventConnected, wdm/IoSessionEventCreated, wdm/IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IoSessionEventLogon, wdm/IoSessionEventMax, wdm/IoSessionEventTerminated, wdm/PIO_SESSION_EVENT"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - IO_SESSION_EVENT
 ---
 
-# _IO_SESSION_EVENT enumeration
+# IO_SESSION_EVENT enumeration (wdm.h)
+
+
 
 
 ## -description

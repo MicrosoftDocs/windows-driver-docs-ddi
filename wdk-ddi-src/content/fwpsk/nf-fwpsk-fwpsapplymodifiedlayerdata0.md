@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsApplyModifiedLayerData0 function"]
 ms.keywords: FWPS_CLASSIFY_FLAG_REAUTHORIZE_IF_MODIFIED_BY_OTHERS, FwpsApplyModifiedLayerData0, FwpsApplyModifiedLayerData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsApplyModifiedLayerData0, netvista.fwpsapplymodifiedlayerdata0, wfp_ref_2_funct_3_fwps_A-B_a7adbeec-b234-451e-9da0-d5e5b7cefc90.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FwpsApplyModifiedLayerData0
 ---
 
-# FwpsApplyModifiedLayerData0 function
+# FwpsApplyModifiedLayerData0 function (fwpsk.h)
+
+
 
 
 ## -description

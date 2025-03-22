@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPostDeviceInstall function"]
 ms.keywords: DFCoinstallerRef_6a05795f-99bb-4f4d-975f-8d2de85adff0.xml, WdfPostDeviceInstall, WdfPostDeviceInstall function, kmdf.wdfpostdeviceinstall, wdf.wdfpostdeviceinstall, wdfinstaller/WdfPostDeviceInstall
 req.header: wdfinstaller.h
+req.construct-type: function
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPostDeviceInstall
 ---
 
-# WdfPostDeviceInstall function
+# WdfPostDeviceInstall function (wdfinstaller.h)
+
+
 
 
 ## -description

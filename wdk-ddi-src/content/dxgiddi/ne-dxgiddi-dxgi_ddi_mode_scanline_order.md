@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MODE_SCANLINE_ORDER enumeration"]
 ms.keywords: DXGI_DDI_MODE_SCANLINE_ORDER, DXGI_DDI_MODE_SCANLINE_ORDER enumeration [Display Devices], DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST, UMDisplayDriver_Dx10param_Structs_fe7ff8f4-48e3-4ec5-a401-35d729a17440.xml, display.dxgi_ddi_mode_scanline_order, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_LOWER_FIELD_FIRST, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_PROGRESSIVE, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UNSPECIFIED, dxgiddi/DXGI_DDI_MODE_SCANLINE_ORDER_UPPER_FIELD_FIRST
 req.header: dxgiddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_MODE_SCANLINE_ORDER
 ---
 
-# DXGI_DDI_MODE_SCANLINE_ORDER enumeration
+# DXGI_DDI_MODE_SCANLINE_ORDER enumeration (dxgiddi.h)
+
+
 
 
 ## -description

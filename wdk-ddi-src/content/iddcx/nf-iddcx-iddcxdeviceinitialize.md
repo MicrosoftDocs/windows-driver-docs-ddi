@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IddCxDeviceInitialize function"]
 ms.keywords: IddCxDeviceInitialize, IddCxDeviceInitialize method [Display Devices], display.iddcxdeviceinitialize, iddcx/IddCxDeviceInitialize
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxDeviceInitialize
 ---
 
-# IddCxDeviceInitialize function
+# IddCxDeviceInitialize function (iddcx.h)
+
+
 
 
 ## -description

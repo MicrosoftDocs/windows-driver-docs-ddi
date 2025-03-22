@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyOverlay function"]
 ms.keywords: D3DKMTDestroyOverlay, D3DKMTDestroyOverlay function [Display Devices], OpenGL_Functions_57efc2f4-dbbe-4f91-b724-036b5231c058.xml, d3dkmthk/D3DKMTDestroyOverlay, display.d3dkmtdestroyoverlay
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTDestroyOverlay
 ---
 
-# D3DKMTDestroyOverlay function
+# D3DKMTDestroyOverlay function (d3dkmthk.h)
+
+
 
 ## -description
 

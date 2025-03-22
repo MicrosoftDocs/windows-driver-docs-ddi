@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_HUB_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_USB_GET_HUB_CAPABILITIES, IOCTL_USB_GET_HUB_CAPABILITIES control, IOCTL_USB_GET_HUB_CAPABILITIES control code [Buses], buses.ioctl_usb_get_hub_capabilities, usbioctl/IOCTL_USB_GET_HUB_CAPABILITIES, usbirp_0db4e801-763f-4d2f-aedf-2e3798fb191c.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_GET_HUB_CAPABILITIES
 ---
 
-# IOCTL_USB_GET_HUB_CAPABILITIES IOCTL
+# IOCTL_USB_GET_HUB_CAPABILITIES IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/16/2024
 keywords: ["RtlCaptureStackBackTrace function"]
 ms.keywords: RtlCaptureStackBackTrace, RtlCaptureStackBackTrace routine [Installable File System Drivers], ifsk.rtlcapturestackbacktrace, ntifs/RtlCaptureStackBackTrace, rtlref_c329ad74-ebb1-478d-a0d2-fd2ae2c8da2a.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -42,7 +43,9 @@ api_name:
  - RtlCaptureStackBackTrace
 ---
 
-# RtlCaptureStackBackTrace function
+# RtlCaptureStackBackTrace function (ntifs.h)
+
+
 
 ## -description
 

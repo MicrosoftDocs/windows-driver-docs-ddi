@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxpTrackDereference function"]
 ms.keywords: RxpTrackDereference, RxpTrackDereference function [Installable File System Drivers], fcb/RxpTrackDereference, ifsk.rxptrackdereference, rxref_60f3cce5-bd6b-47b9-a6cc-85b5ee027934.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxpTrackDereference
 ---
 
-# RxpTrackDereference function
+# RxpTrackDereference function (fcb.h)
+
+
 
 
 ## -description

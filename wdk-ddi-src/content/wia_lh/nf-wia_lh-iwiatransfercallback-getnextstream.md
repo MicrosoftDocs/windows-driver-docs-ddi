@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IWiaTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaTransferCallback interface, IWiaTransferCallback interface [Imaging Devices],GetNextStream method, IWiaTransferCallback.GetNextStream, IWiaTransferCallback::GetNextStream, IWiaTransfercallback_155c3198-1ed9-46a9-b6d8-0d6029bf0803.xml, image.iwiatransfercallback_getnextstream, wia_lh/IWiaTransferCallback::GetNextStream
 req.header: wia_lh.h
+req.construct-type: function
 req.include-header: Wia_lh.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaTransferCallback::GetNextStream
 ---
+
+# IWiaTransferCallback::GetNextStream function (wia_lh.h)
 
 ## -description
 

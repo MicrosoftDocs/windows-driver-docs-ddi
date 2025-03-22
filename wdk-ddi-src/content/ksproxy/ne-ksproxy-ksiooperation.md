@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSIOOPERATION enumeration"]
 ms.keywords: KSIOOPERATION, KSIOOPERATION enumeration [Streaming Media Devices], KsIoOperation_Read, KsIoOperation_Write, ksproxy/KSIOOPERATION, ksproxy/KsIoOperation_Read, ksproxy/KsIoOperation_Write, stream.ksiooperation
 req.header: ksproxy.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSIOOPERATION
 ---
 
-# KSIOOPERATION enumeration
+# KSIOOPERATION enumeration (ksproxy.h)
+
+
 
 
 ## -description

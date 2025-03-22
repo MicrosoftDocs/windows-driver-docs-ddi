@@ -8,6 +8,7 @@ ms.date: 04/25/2023
 keywords: ["FltGetContextsEx function"]
 ms.keywords: FltGetContextsEx, FltGetContextsEx routine [Installable File System Drivers], fltkernel/FltGetContextsEx, ifsk.fltgetcontextsex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FltGetContextsEx
 ---
 
-# FltGetContextsEx function
+# FltGetContextsEx function (fltkernel.h)
+
+
 
 ## -description
 

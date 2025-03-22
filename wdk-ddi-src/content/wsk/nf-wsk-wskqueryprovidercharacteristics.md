@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WskQueryProviderCharacteristics function"]
 ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml
 req.header: wsk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - WskQueryProviderCharacteristics
 ---
 
-# WskQueryProviderCharacteristics function
+# WskQueryProviderCharacteristics function (wsk.h)
+
+
 
 
 ## -description

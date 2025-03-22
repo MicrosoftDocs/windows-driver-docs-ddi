@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["ObInsertObject function"]
 ms.keywords: ObInsertObject, ObInsertObject function [Installable File System Drivers], ifsk.obinsertobject, ntifs/ObInsertObject, obref_9ecb8aa6-496e-4daf-96cf-d68ec5863e94.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ObInsertObject
 ---
 
-# ObInsertObject function
+# ObInsertObject function (ntifs.h)
+
+
 
 ## -description
 

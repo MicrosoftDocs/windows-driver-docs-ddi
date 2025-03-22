@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaPnPEventNotify function"]
 ms.keywords: NetDmaPnPEventNotify, NetDmaPnPEventNotify function [Network Drivers Starting with Windows Vista], netdma/NetDmaPnPEventNotify, netdma_ref_406452bc-e56a-47da-9e7a-09fb4aebe1eb.xml, netvista.netdmapnpeventnotify
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 2.0 and NetDMA 1.1 drivers in Windows Server 2008.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaPnPEventNotify
 ---
 
-# NetDmaPnPEventNotify function
+# NetDmaPnPEventNotify function (netdma.h)
+
+
 
 
 ## -description

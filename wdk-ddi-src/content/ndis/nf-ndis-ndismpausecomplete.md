@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMPauseComplete function"]
 ms.keywords: NdisMPauseComplete, NdisMPauseComplete function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_1e76f7bc-a042-4a7a-8dc6-0f4cc6f7617f.xml, ndis/NdisMPauseComplete, netvista.ndismpausecomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMPauseComplete
 ---
 
-# NdisMPauseComplete function
+# NdisMPauseComplete function (ndis.h)
+
+
 
 
 ## -description

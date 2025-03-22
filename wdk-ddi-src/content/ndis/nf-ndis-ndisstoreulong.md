@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisStoreUlong macro"]
 ms.keywords: NdisStoreUlong, NdisStoreUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisStoreUlong, ndis_memory_ref_99349378-c2ab-4f96-82a3-7d76b15aaca3.xml, netvista.ndisstoreulong
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlStoreUlong instead.
@@ -40,7 +41,9 @@ api_name:
  - NdisStoreUlong
 ---
 
-# NdisStoreUlong macro
+# NdisStoreUlong function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["MicroEntry function"]
 ms.keywords: MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry, MicroEntry function [Imaging Devices], image.microentry, wiamicro/MicroEntry
 req.header: wiamicro.h
+req.construct-type: function
 req.include-header: Wiamicro.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MicroEntry
 ---
 
-# MicroEntry function
+# MicroEntry function (wiamicro.h)
+
+
 
 
 ## -description

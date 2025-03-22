@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetReleaseHardwareOrderOnFailure function"]
 ms.keywords: WdfDeviceInitSetReleaseHardwareOrderOnFailure, WdfDeviceInitSetReleaseHardwareOrderOnFailure method, kmdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdf.wdfdeviceinitsetreleasehardwareorderonfailure, wdfdevice/WdfDeviceInitSetReleaseHardwareOrderOnFailure
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceInitSetReleaseHardwareOrderOnFailure
 ---
 
-# WdfDeviceInitSetReleaseHardwareOrderOnFailure function
+# WdfDeviceInitSetReleaseHardwareOrderOnFailure function (wdfdevice.h)
+
+
 
 
 ## -description

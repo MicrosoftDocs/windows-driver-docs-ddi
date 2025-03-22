@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_AVCSTRM_CLASS IOCTL"]
 ms.keywords: IOCTL_AVCSTRM_CLASS, IOCTL_AVCSTRM_CLASS control, IOCTL_AVCSTRM_CLASS control code [Streaming Media Devices], avcsref_0e06e31a-7520-4162-8441-210cc367f65f.xml, avcstrm/IOCTL_AVCSTRM_CLASS, stream.ioctl_avcstrm_class
 req.header: avcstrm.h
+req.construct-type: ioctl
 req.include-header: Avcstrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AVCSTRM_CLASS
 ---
 
-# IOCTL_AVCSTRM_CLASS IOCTL
+# IOCTL_AVCSTRM_CLASS IOCTL (avcstrm.h)
+
+
+
+
 
 
 ## -description

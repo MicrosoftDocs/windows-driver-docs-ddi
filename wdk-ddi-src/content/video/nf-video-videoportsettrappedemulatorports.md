@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSetTrappedEmulatorPorts function"]
 ms.keywords: VideoPortSetTrappedEmulatorPorts, VideoPortSetTrappedEmulatorPorts function [Display Devices], VideoPort_Functions_2283311e-a325-433b-9fff-be20e9c0e092.xml, display.videoportsettrappedemulatorports, video/VideoPortSetTrappedEmulatorPorts
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# VideoPortSetTrappedEmulatorPorts function
+# VideoPortSetTrappedEmulatorPorts function (video.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTLock2 function"]
 ms.keywords: D3DKMTLock2, D3DKMTLock2 function [Display Devices], d3dkmthk/D3DKMTLock2, display.d3dkmtlock2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTLock2
 ---
 
-# D3DKMTLock2 function
+# D3DKMTLock2 function (d3dkmthk.h)
+
+
 
 
 ## -description

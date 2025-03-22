@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function"]
 ms.keywords: DFUsbRef_bb81c111-ac7f-4f37-bda6-c09ebc32e5fd.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function, kmdf.wdf_usb_device_select_config_params_init_urb, wdf.wdf_usb_device_select_config_params_init_urb, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB
 ---
 
-# WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function
+# WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB function (wdfusb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_READ_CAPACITY IOCTL"]
 ms.keywords: IOCTL_STORAGE_READ_CAPACITY, IOCTL_STORAGE_READ_CAPACITY control, IOCTL_STORAGE_READ_CAPACITY control code [Storage Devices], ntddstor/IOCTL_STORAGE_READ_CAPACITY, storage.ioctl_storage_read_capacity
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_READ_CAPACITY
 ---
 
-# IOCTL_STORAGE_READ_CAPACITY IOCTL
+# IOCTL_STORAGE_READ_CAPACITY IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

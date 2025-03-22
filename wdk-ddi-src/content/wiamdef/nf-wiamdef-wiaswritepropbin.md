@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasWritePropBin function"]
 ms.keywords: image.wiaswritepropbin, wiamdef/wiasWritePropBin, wiasFncs_fa38d5cc-94dd-4a1f-9e24-e12c42ce0429.xml, wiasWritePropBin, wiasWritePropBin function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasWritePropBin
 ---
 
-# wiasWritePropBin function
+# wiasWritePropBin function (wiamdef.h)
+
+
 
 
 ## -description

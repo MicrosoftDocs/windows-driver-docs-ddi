@@ -8,6 +8,7 @@ ms.date: 12/07/2021
 keywords: ["ExInterlockedFlushSList macro"]
 ms.keywords: ExInterlockedFlushSList, ExInterlockedFlushSList routine [Kernel-Mode Driver Architecture], k102_493935e2-44c7-471b-807f-ca6f110d8155.xml, kernel.exinterlockedflushslist, wdm/ExInterlockedFlushSList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedFlushSList
 ---
 
-# ExInterlockedFlushSList macro
+# ExInterlockedFlushSList function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_INIT_MUTEX macro"]
 ms.keywords: NDIS_INIT_MUTEX
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -37,7 +38,9 @@ api_name:
  - NDIS_INIT_MUTEX
 ---
 
-# NDIS_INIT_MUTEX macro
+# NDIS_INIT_MUTEX function (ndis.h)
+
+
 
 
 ## -description

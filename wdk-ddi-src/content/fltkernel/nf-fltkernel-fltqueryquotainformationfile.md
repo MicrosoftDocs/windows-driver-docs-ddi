@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltQueryQuotaInformationFile function"]
 ms.keywords: FltQueryQuotaInformationFile, FltQueryQuotaInformationFile function [Installable File System Drivers], fltkernel/FltQueryQuotaInformationFile, ifsk.fltqueryquotainformationfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltQueryQuotaInformationFile
 ---
 
-# FltQueryQuotaInformationFile function
+# FltQueryQuotaInformationFile function (fltkernel.h)
+
+
 
 
 ## -description

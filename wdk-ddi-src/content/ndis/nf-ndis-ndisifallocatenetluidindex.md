@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfAllocateNetLuidIndex function"]
 ms.keywords: NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfAllocateNetLuidIndex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, netvista.ndisifallocatenetluidindex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfAllocateNetLuidIndex
 ---
 
-# NdisIfAllocateNetLuidIndex function
+# NdisIfAllocateNetLuidIndex function (ndis.h)
+
+
 
 
 ## -description

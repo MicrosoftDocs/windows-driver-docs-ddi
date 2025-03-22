@@ -7,6 +7,7 @@ ms.date: 07/26/2022
 keywords: ["IPrintAsyncCookie::CancelAsyncCall"]
 ms.keywords: CancelAsyncCall, CancelAsyncCall method [Print Devices], CancelAsyncCall method [Print Devices],IPrintAsyncCookie interface, IPrintAsyncCookie interface [Print Devices],CancelAsyncCall method, IPrintAsyncCookie.CancelAsyncCall, IPrintAsyncCookie::CancelAsyncCall, print.iprintasyncnotify_cancelasynccall, prnasntp/IPrintAsyncCookie::CancelAsyncCall
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintAsyncCookie::CancelAsyncCall
 ---
+
+# IPrintAsyncCookie::CancelAsyncCall function (prnasntp.h)
 
 ## -description
 

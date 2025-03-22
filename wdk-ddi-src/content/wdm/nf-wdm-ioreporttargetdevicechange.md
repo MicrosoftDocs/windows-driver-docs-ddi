@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoReportTargetDeviceChange function"]
 ms.keywords: IoReportTargetDeviceChange, IoReportTargetDeviceChange routine [Kernel-Mode Driver Architecture], k104_489fe1b0-1d73-4ed6-99ab-ae8f4bee52d1.xml, kernel.ioreporttargetdevicechange, wdm/IoReportTargetDeviceChange
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoReportTargetDeviceChange
 ---
 
-# IoReportTargetDeviceChange function
+# IoReportTargetDeviceChange function (wdm.h)
+
+
 
 
 ## -description

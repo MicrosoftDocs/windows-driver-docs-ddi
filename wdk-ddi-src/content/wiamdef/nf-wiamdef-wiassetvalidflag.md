@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasSetValidFlag function"]
 ms.keywords: image.wiassetvalidflag, wiamdef/wiasSetValidFlag, wiasFncs_4c84b6c9-20fe-4894-b3fc-f7d84742827a.xml, wiasSetValidFlag, wiasSetValidFlag function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasSetValidFlag
 ---
 
-# wiasSetValidFlag function
+# wiasSetValidFlag function (wiamdef.h)
+
+
 
 
 ## -description

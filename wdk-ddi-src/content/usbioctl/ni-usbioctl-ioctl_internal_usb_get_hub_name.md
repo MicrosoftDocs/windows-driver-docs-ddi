@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_HUB_NAME IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_NAME, IOCTL_INTERNAL_USB_GET_HUB_NAME control, IOCTL_INTERNAL_USB_GET_HUB_NAME control code [Buses], buses.ioctl_internal_usb_get_hub_name, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_NAME, usbirp_54327688-c86b-4d05-b81d-5368f694f9ca.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_GET_HUB_NAME
 ---
 
-# IOCTL_INTERNAL_USB_GET_HUB_NAME IOCTL
+# IOCTL_INTERNAL_USB_GET_HUB_NAME IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

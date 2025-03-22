@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlAddToTunnelCache function"]
 ms.keywords: FsRtlAddToTunnelCache, FsRtlAddToTunnelCache routine [Installable File System Drivers], fsrtlref_85021948-2f5a-4462-8222-ddc25ed86f97.xml, ifsk.fsrtladdtotunnelcache, ntifs/FsRtlAddToTunnelCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlAddToTunnelCache function
+# FsRtlAddToTunnelCache function (ntifs.h)
+
+
 
 
 ## -description

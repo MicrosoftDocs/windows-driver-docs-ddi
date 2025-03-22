@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInitializeSpinlock function"]
 ms.keywords: StorPortInitializeSpinlock, StorPortInitializeSpinlock routine [Storage Devices], storage.storportinitializespinlock, storport/StorPortInitializeSpinlock
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortInitializeSpinlock
 ---
 
-# StorPortInitializeSpinlock function
+# StorPortInitializeSpinlock function (storport.h)
+
+
 
 ## -description
 

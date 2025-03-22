@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["SpoolerFreePrinterNotifyInfo function"]
 ms.keywords: SpoolerFreePrinterNotifyInfo, SpoolerFreePrinterNotifyInfo function [Print Devices], print.spoolerfreeprinternotifyinfo, winsplp/SpoolerFreePrinterNotifyInfo
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SpoolerFreePrinterNotifyInfo
 ---
 
-# SpoolerFreePrinterNotifyInfo function
+# SpoolerFreePrinterNotifyInfo function (winsplp.h)
+
+
 
 
 ## -description

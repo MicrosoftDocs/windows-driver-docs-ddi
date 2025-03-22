@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_BUSGUID_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_BUSGUID_INFO, IOCTL_INTERNAL_USB_GET_BUSGUID_INFO control, IOCTL_INTERNAL_USB_GET_BUSGUID_INFO control code [Buses], buses.ioctl_internal_usb_get_busguid_info, usbioctl/IOCTL_INTERNAL_USB_GET_BUSGUID_INFO
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: UsbIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_GET_BUSGUID_INFO
 ---
 
-# IOCTL_INTERNAL_USB_GET_BUSGUID_INFO IOCTL
+# IOCTL_INTERNAL_USB_GET_BUSGUID_INFO IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

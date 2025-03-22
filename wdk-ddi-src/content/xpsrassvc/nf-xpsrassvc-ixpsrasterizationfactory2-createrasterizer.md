@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IXpsRasterizationFactory2::CreateRasterizer"]
 ms.keywords: CreateRasterizer, CreateRasterizer method [Print Devices], CreateRasterizer method [Print Devices],IXpsRasterizationFactory2 interface, IXpsRasterizationFactory2 interface [Print Devices],CreateRasterizer method, IXpsRasterizationFactory2.CreateRasterizer, IXpsRasterizationFactory2::CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer
 req.header: xpsrassvc.h
+req.construct-type: function
 req.include-header: Xpsrassvc.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 10
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IXpsRasterizationFactory2::CreateRasterizer
 ---
+
+# IXpsRasterizationFactory2::CreateRasterizer function (xpsrassvc.h)
 
 ## -description
 

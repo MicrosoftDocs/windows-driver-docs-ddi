@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlInitializeLargeMcb function"]
 ms.keywords: FsRtlInitializeLargeMcb, FsRtlInitializeLargeMcb routine [Installable File System Drivers], fsrtlref_298126ca-6c2b-4662-a7ef-2dbc5d1ba361.xml, ifsk.fsrtlinitializelargemcb, ntifs/FsRtlInitializeLargeMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlInitializeLargeMcb function
+# FsRtlInitializeLargeMcb function (ntifs.h)
+
+
 
 ## -description
 

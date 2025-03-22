@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoDetachDevice function"]
 ms.keywords: IoDetachDevice, IoDetachDevice routine [Kernel-Mode Driver Architecture], k104_e928372b-1222-4421-bea7-c2457c38a09f.xml, kernel.iodetachdevice, wdm/IoDetachDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoDetachDevice
 ---
 
-# IoDetachDevice function
+# IoDetachDevice function (wdm.h)
+
+
 
 
 ## -description

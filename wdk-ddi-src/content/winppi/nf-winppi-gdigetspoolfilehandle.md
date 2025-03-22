@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["GdiGetSpoolFileHandle function"]
 ms.keywords: GdiGetSpoolFileHandle, GdiGetSpoolFileHandle function [Print Devices], gdifnc_f7231fd8-33b0-4047-90ba-e5e2c9c37814.xml, print.gdigetspoolfilehandle, winppi/GdiGetSpoolFileHandle
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,6 +41,8 @@ api_location:
 api_name:
  - GdiGetSpoolFileHandle
 ---
+
+# GdiGetSpoolFileHandle function (winppi.h)
 
 ## -description
 

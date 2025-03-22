@@ -8,6 +8,7 @@ ms.date: 08/05/2022
 keywords: ["IddCxMonitorQueryHardwareCursor function"]
 ms.keywords: IddCxMonitorQueryHardwareCursor, IddCxMonitorQueryHardwareCursor method [Display Devices], display.iddcxmonitorqueryhardwarecursor, iddcx/IddCxMonitorQueryHardwareCursor
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxMonitorQueryHardwareCursor
 ---
 
-# IddCxMonitorQueryHardwareCursor function
+# IddCxMonitorQueryHardwareCursor function (iddcx.h)
+
+
 
 ## -description
 

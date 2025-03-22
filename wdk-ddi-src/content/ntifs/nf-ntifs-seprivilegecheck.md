@@ -8,6 +8,7 @@ ms.date: 06/21/2021
 keywords: ["SePrivilegeCheck function"]
 ms.keywords: SePrivilegeCheck, SePrivilegeCheck routine [Installable File System Drivers], ifsk.seprivilegecheck, ntifs/SePrivilegeCheck, seref_45aa3a8c-26b9-4bb9-968a-5f7d4a12ca3a.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SePrivilegeCheck
 ---
 
-# SePrivilegeCheck function
+# SePrivilegeCheck function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11EXT_IHV_INDICATION_TYPE enumeration"]
 ms.keywords: "*PDOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], IndicationTypeLinkQuality, IndicationTypeNicSpecificNotification, IndicationTypePhyStateChange, IndicationTypePmkidCandidateList, IndicationTypeTkipMicFailure, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, PDOT11EXT_IHV_INDICATION_TYPE, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_INDICATION_TYPE, netvista.dot11ext_ihv_indication_type, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeLinkQuality, wlanihv/IndicationTypeNicSpecificNotification, wlanihv/IndicationTypePhyStateChange, wlanihv/IndicationTypePmkidCandidateList, wlanihv/IndicationTypeTkipMicFailure, wlanihv/PDOT11EXT_IHV_INDICATION_TYPE"
 req.header: wlanihv.h
+req.construct-type: enumeration
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11EXT_IHV_INDICATION_TYPE
 ---
 
-# _DOT11EXT_IHV_INDICATION_TYPE enumeration
+# DOT11EXT_IHV_INDICATION_TYPE enumeration (wlanihv.h)
+
+
 
 
 ## -description

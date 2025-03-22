@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceCreate function"]
 ms.keywords: DFUsbRef_be9c210e-6cf0-4e0b-a5d5-f0b02d7a2141.xml, WdfUsbTargetDeviceCreate, WdfUsbTargetDeviceCreate method, kmdf.wdfusbtargetdevicecreate, wdf.wdfusbtargetdevicecreate, wdfusb/WdfUsbTargetDeviceCreate
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceCreate
 ---
 
-# WdfUsbTargetDeviceCreate function
+# WdfUsbTargetDeviceCreate function (wdfusb.h)
+
+
 
 
 ## -description

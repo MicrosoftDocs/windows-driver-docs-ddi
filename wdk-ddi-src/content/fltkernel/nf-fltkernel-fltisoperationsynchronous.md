@@ -8,6 +8,7 @@ ms.date: 11/29/2021
 keywords: ["FltIsOperationSynchronous function"]
 ms.keywords: FltApiRef_e_to_o_f80a8dfd-53b1-42cf-9d7c-18fc4af6ff4e.xml, FltIsOperationSynchronous, FltIsOperationSynchronous routine [Installable File System Drivers], fltkernel/FltIsOperationSynchronous, ifsk.fltisoperationsynchronous
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltIsOperationSynchronous
 ---
 
-# FltIsOperationSynchronous function
+# FltIsOperationSynchronous function (fltkernel.h)
+
+
 
 ## -description
 

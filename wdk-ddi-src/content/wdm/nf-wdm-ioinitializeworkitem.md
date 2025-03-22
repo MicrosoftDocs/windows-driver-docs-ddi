@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoInitializeWorkItem function"]
 ms.keywords: IoInitializeWorkItem, IoInitializeWorkItem routine [Kernel-Mode Driver Architecture], k104_06024bfe-5558-4039-a9b1-327895ba9b74.xml, kernel.ioinitializeworkitem, wdm/IoInitializeWorkItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoInitializeWorkItem
 ---
 
-# IoInitializeWorkItem function
+# IoInitializeWorkItem function (wdm.h)
+
+
 
 
 ## -description

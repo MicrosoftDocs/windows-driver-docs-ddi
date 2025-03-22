@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAllocatePool function"]
 ms.keywords: VideoPortAllocatePool, VideoPortAllocatePool function [Display Devices], VideoPort_Functions_a9163e5b-6519-4427-a748-066ad120022a.xml, display.videoportallocatepool, video/VideoPortAllocatePool
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAllocatePool
 ---
 
-# VideoPortAllocatePool function
+# VideoPortAllocatePool function (video.h)
+
+
 
 
 ## -description

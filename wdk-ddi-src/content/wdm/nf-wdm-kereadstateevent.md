@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReadStateEvent function"]
 ms.keywords: KeReadStateEvent, KeReadStateEvent routine [Kernel-Mode Driver Architecture], k105_f0b95771-5c9f-4573-8dc0-44b8f673b6d7.xml, kernel.kereadstateevent, wdm/KeReadStateEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeReadStateEvent
 ---
 
-# KeReadStateEvent function
+# KeReadStateEvent function (wdm.h)
+
+
 
 
 ## -description

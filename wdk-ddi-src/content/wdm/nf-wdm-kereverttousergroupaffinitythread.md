@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRevertToUserGroupAffinityThread function"]
 ms.keywords: KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeRevertToUserGroupAffinityThread
 ---
 
-# KeRevertToUserGroupAffinityThread function
+# KeRevertToUserGroupAffinityThread function (wdm.h)
+
+
 
 
 ## -description

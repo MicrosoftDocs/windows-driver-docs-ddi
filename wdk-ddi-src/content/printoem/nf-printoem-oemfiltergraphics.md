@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMFilterGraphics function"]
 ms.keywords: OEMFilterGraphics, OEMFilterGraphics function [Print Devices], print.oemfiltergraphics, print_obsoletefunctions_fa20bac8-85b3-4ddb-8bf6-1a659f30b3ad.xml, printoem/OEMFilterGraphics
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMFilterGraphics
 ---
+
+# OEMFilterGraphics function (printoem.h)
 
 ## -description
 

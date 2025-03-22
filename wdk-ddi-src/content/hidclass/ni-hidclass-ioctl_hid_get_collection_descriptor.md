@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_COLLECTION_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_HID_GET_COLLECTION_DESCRIPTOR, IOCTL_HID_GET_COLLECTION_DESCRIPTOR control, IOCTL_HID_GET_COLLECTION_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_collection_descriptor, hidclass/IOCTL_HID_GET_COLLECTION_DESCRIPTOR, hidioreq_3b297887-5287-463a-9a31-46b8bd7761b3.xml
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_GET_COLLECTION_DESCRIPTOR
 ---
 
-# IOCTL_HID_GET_COLLECTION_DESCRIPTOR IOCTL
+# IOCTL_HID_GET_COLLECTION_DESCRIPTOR IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

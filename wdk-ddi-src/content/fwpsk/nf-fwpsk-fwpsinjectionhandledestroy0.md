@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsInjectionHandleDestroy0 function"]
 ms.keywords: FwpsInjectionHandleDestroy0, FwpsInjectionHandleDestroy0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleDestroy0, netvista.fwpsinjectionhandledestroy0, wfp_ref_2_funct_3_fwps_I_3ec9dea7-1b95-4265-b030-b88f67d21882.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsInjectionHandleDestroy0
 ---
 
-# FwpsInjectionHandleDestroy0 function
+# FwpsInjectionHandleDestroy0 function (fwpsk.h)
+
+
 
 
 ## -description

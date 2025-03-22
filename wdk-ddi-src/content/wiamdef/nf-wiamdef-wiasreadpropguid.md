@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["wiasReadPropGuid function"]
 ms.keywords: image.wiasreadpropguid, wiamdef/wiasReadPropGuid, wiasFncs_80e78a38-5f47-4bd3-b071-62eebc65fd6f.xml, wiasReadPropGuid, wiasReadPropGuid function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasReadPropGuid
 ---
+
+# wiasReadPropGuid function (wiamdef.h)
 
 ## -description
 

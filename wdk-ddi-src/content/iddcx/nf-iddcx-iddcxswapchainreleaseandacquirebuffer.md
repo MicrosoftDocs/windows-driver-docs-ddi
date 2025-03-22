@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IddCxSwapChainReleaseAndAcquireBuffer function"]
 ms.keywords: IddCxSwapChainReleaseAndAcquireBuffer, IddCxSwapChainReleaseAndAcquireBuffer method [Display Devices], display.iddcxswapchainreleaseandacquirebuffer, iddcx/IddCxSwapChainReleaseAndAcquireBuffer
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IddCxSwapChainReleaseAndAcquireBuffer
 ---
 
-# IddCxSwapChainReleaseAndAcquireBuffer function
+# IddCxSwapChainReleaseAndAcquireBuffer function (iddcx.h)
+
+
 
 ## -description
 

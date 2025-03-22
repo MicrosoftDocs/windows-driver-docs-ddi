@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeLengthSid macro"]
 ms.keywords: SeLengthSid, SeLengthSid function [Installable File System Drivers], ifsk.selengthsid, ntifs/SeLengthSid, seref_d26b3191-e19a-4f62-b388-91d68976410f.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeLengthSid
 ---
 
-# SeLengthSid macro
+# SeLengthSid function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_EVAL_METHOD IOCTL"]
 ms.keywords: IOCTL_ACPI_EVAL_METHOD, IOCTL_ACPI_EVAL_METHOD control, IOCTL_ACPI_EVAL_METHOD control code [ACPI Devices], acpi-meth-eval-ref_6908d1cb-5ac2-4251-8363-25530ebd542a.xml, acpi.ioctl_acpi_eval_method, acpiioct/IOCTL_ACPI_EVAL_METHOD
 req.header: acpiioct.h
+req.construct-type: ioctl
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_ACPI_EVAL_METHOD
 ---
 
-# IOCTL_ACPI_EVAL_METHOD IOCTL
+# IOCTL_ACPI_EVAL_METHOD IOCTL (acpiioct.h)
+
+
+
+
 
 
 ## -description

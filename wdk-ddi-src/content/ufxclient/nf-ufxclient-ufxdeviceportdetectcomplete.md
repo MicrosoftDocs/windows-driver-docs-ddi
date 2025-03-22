@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDevicePortDetectComplete function"]
 ms.keywords: UfxDevicePortDetectComplete, UfxDevicePortDetectComplete method [Buses], buses.ufxdeviceportdetectcomplete, ufxclient/UfxDevicePortDetectComplete
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDevicePortDetectComplete
 ---
 
-# UfxDevicePortDetectComplete function
+# UfxDevicePortDetectComplete function (ufxclient.h)
+
+
 
 
 ## -description

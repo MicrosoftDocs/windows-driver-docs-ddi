@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterAcquireProcessingMutex function"]
 ms.keywords: KsFilterAcquireProcessingMutex, KsFilterAcquireProcessingMutex function [Streaming Media Devices], avfunc_9c0c5db4-4bac-45a6-a61f-94bdcce07fd8.xml, ks/KsFilterAcquireProcessingMutex, stream.ksfilteracquireprocessingmutex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterAcquireProcessingMutex
 ---
 
-# KsFilterAcquireProcessingMutex function
+# KsFilterAcquireProcessingMutex function (ks.h)
+
+
 
 
 ## -description

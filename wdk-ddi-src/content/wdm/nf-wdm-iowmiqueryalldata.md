@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIQueryAllData function"]
 ms.keywords: IoWMIQueryAllData, IoWMIQueryAllData routine [Kernel-Mode Driver Architecture], k104_120c73d7-392a-4604-8f6b-11c4e717fcac.xml, kernel.iowmiqueryalldata, wdm/IoWMIQueryAllData
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIQueryAllData
 ---
 
-# IoWMIQueryAllData function
+# IoWMIQueryAllData function (wdm.h)
+
+
 
 
 ## -description

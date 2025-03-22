@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltUntagFile function"]
 ms.keywords: FltApiRef_p_to_z_c1e51b69-c780-46bd-b3f0-b78cdc9c3b3f.xml, FltUntagFile, FltUntagFile function [Installable File System Drivers], fltkernel/FltUntagFile, ifsk.fltuntagfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltUntagFile
 ---
 
-# FltUntagFile function
+# FltUntagFile function (fltkernel.h)
+
+
 
 
 ## -description

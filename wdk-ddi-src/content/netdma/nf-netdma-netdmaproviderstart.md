@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaProviderStart function"]
 ms.keywords: NetDmaProviderStart, NetDmaProviderStart function [Network Drivers Starting with Windows Vista], netdma/NetDmaProviderStart, netdma_ref_bdb7c400-1c73-4dcb-8eb2-4121172302ad.xml, netvista.netdmaproviderstart
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaProviderStart
 ---
 
-# NetDmaProviderStart function
+# NetDmaProviderStart function (netdma.h)
+
+
 
 
 ## -description

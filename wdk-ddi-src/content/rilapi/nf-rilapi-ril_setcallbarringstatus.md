@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetCallBarringStatus function"]
 ms.keywords: RIL_SetCallBarringStatus, RIL_SetCallBarringStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setcallbarringstatus, rilapi/RIL_SetCallBarringStatus
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetCallBarringStatus
 ---
 
-# RIL_SetCallBarringStatus function
+# RIL_SetCallBarringStatus function (rilapi.h)
+
+
 
 
 ## -description

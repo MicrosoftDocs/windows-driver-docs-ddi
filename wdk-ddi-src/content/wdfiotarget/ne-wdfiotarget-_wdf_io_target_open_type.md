@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_OPEN_TYPE enumeration"]
 ms.keywords: DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, WDF_IO_TARGET_OPEN_TYPE, WDF_IO_TARGET_OPEN_TYPE enumeration, WdfIoTargetOpenByName, WdfIoTargetOpenLocalTargetByFile, WdfIoTargetOpenReopen, WdfIoTargetOpenUndefined, WdfIoTargetOpenUseExistingDevice, _WDF_IO_TARGET_OPEN_TYPE, kmdf.wdf_io_target_open_type, wdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenByName, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdfiotarget/WdfIoTargetOpenReopen, wdfiotarget/WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenUseExistingDevice
 req.header: wdfiotarget.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_IO_TARGET_OPEN_TYPE
 ---
 
-# _WDF_IO_TARGET_OPEN_TYPE enumeration
+# WDF_IO_TARGET_OPEN_TYPE enumeration (wdfiotarget.h)
+
+
 
 
 ## -description

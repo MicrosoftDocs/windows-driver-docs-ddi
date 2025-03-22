@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING, IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING control, IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING control code [Buses], buses.ioctl_internal_usbfn_register_usb_string, usbfnioctl/IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
 req.header: usbfnioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING
 ---
 
-# IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING IOCTL
+# IOCTL_INTERNAL_USBFN_REGISTER_USB_STRING IOCTL (usbfnioctl.h)
+
+
+
+
 
 
 ## -description

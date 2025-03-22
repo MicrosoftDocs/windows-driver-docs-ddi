@@ -7,6 +7,7 @@ ms.date: 01/30/2019
 keywords: ["NetExtensionGetPacketChecksum function"]
 ms.keywords: NetExtensionGetPacketChecksum
 req.header: checksum.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetExtensionGetPacketChecksum
 ---
 
-# NetExtensionGetPacketChecksum function
+# NetExtensionGetPacketChecksum function (checksum.h)
+
+
 
 
 ## -description

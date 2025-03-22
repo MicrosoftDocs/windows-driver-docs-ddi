@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSignalSynchronizationObjectFromGpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromGpu, D3DKMTSignalSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromGpu, display.d3dkmtsignalsynchronizationobjectfromgpu
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTSignalSynchronizationObjectFromGpu
 ---
 
-# D3DKMTSignalSynchronizationObjectFromGpu function
+# D3DKMTSignalSynchronizationObjectFromGpu function (d3dkmthk.h)
+
+
 
 ## -description
 

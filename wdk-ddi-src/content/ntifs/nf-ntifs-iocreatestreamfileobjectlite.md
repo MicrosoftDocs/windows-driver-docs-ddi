@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoCreateStreamFileObjectLite function"]
 ms.keywords: IoCreateStreamFileObjectLite, IoCreateStreamFileObjectLite routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectlite, ioref_0e35141f-7028-47b0-8dc1-0bd9d1c4e0be.xml, ntifs/IoCreateStreamFileObjectLite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - IoCreateStreamFileObjectLite
 ---
 
-# IoCreateStreamFileObjectLite function
+# IoCreateStreamFileObjectLite function (ntifs.h)
+
+
 
 
 ## -description

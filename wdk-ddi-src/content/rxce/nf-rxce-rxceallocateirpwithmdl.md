@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeAllocateIrpWithMDL function"]
 ms.keywords: RxCeAllocateIrpWithMDL, RxCeAllocateIrpWithMDL function [Installable File System Drivers], ifsk.rxceallocateirpwithmdl, rxce/RxCeAllocateIrpWithMDL, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: The RxCeAllocateIrpWithMDL routine is only available on Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - RxCeAllocateIrpWithMDL
 ---
 
-# RxCeAllocateIrpWithMDL function
+# RxCeAllocateIrpWithMDL function (rxce.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WskCaptureProviderNPI function"]
 ms.keywords: WskCaptureProviderNPI, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskcaptureprovidernpi, wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml
 req.header: wsk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - WskCaptureProviderNPI
 ---
 
-# WskCaptureProviderNPI function
+# WskCaptureProviderNPI function (wsk.h)
+
+
 
 
 ## -description

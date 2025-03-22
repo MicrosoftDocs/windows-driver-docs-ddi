@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTCheckMonitorPowerState function"]
 ms.keywords: D3DKMTCheckMonitorPowerState, D3DKMTCheckMonitorPowerState callback function [Display Devices], OpenGL_Functions_d05a2b63-fe81-45f0-908d-94043416b1d0.xml, PFND3DKMT_CHECKMONITORPOWERSTATE, PFND3DKMT_CHECKMONITORPOWERSTATE callback, d3dkmthk/D3DKMTCheckMonitorPowerState, display.d3dkmtcheckmonitorpowerstate
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCheckMonitorPowerState
 ---
 
-# D3DKMTCheckMonitorPowerState function
+# D3DKMTCheckMonitorPowerState function (d3dkmthk.h)
+
+
 
 ## -description
 

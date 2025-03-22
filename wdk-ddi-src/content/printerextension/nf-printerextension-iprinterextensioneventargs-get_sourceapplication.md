@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrinterExtensionEventArgs::get_SourceApplication"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],SourceApplication property, IPrinterExtensionEventArgs.SourceApplication, IPrinterExtensionEventArgs.get_SourceApplication, IPrinterExtensionEventArgs::SourceApplication, IPrinterExtensionEventArgs::get_SourceApplication, SourceApplication property [Print Devices], SourceApplication property [Print Devices],IPrinterExtensionEventArgs interface, get_SourceApplication, print.iprinterextensioneventargs_sourceapplication, printerextension/IPrinterExtensionEventArgs::SourceApplication, printerextension/IPrinterExtensionEventArgs::get_SourceApplication
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEventArgs::get_SourceApplication
 ---
+
+# IPrinterExtensionEventArgs::get_SourceApplication function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgInit macro"]
 ms.keywords: image.wiaudbginit, wiauDbgInit, wiauDbgInit function [Imaging Devices], wiauFncs_0f18edab-cbf7-4012-85ea-93f101343ecb.xml, wiautil/wiauDbgInit
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgInit
 ---
 
-# wiauDbgInit macro
+# wiauDbgInit function (wiautil.h)
+
+
 
 
 ## -description

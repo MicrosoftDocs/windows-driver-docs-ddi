@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["ExUuidCreate function"]
 ms.keywords: ExUuidCreate, ExUuidCreate routine [Kernel-Mode Driver Architecture], k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, kernel.exuuidcreate, ntddk/ExUuidCreate
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,7 +40,9 @@ api_name:
  - ExUuidCreate
 ---
 
-# ExUuidCreate function
+# ExUuidCreate function (ntddk.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 07/02/2024
 keywords: ["NtCreateSection function"]
 ms.keywords: NtCreateSection, ZwCreateSection, ZwCreateSection routine [Kernel-Mode Driver Architecture], k111_8e0d13e2-4cd7-4b39-b1ce-41b193c495be.xml, kernel.zwcreatesection, wdm/NtCreateSection, wdm/ZwCreateSection
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
 ms.custom: engagement-fy23
 ---
 
-# NtCreateSection function
+# NtCreateSection function (ntifs.h)
+
+
 
 ## -description
 

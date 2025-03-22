@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["ZwQueryVirtualMemory function"]
 ms.keywords: NtQueryVirtualMemory, ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwqueryvirtualmemory, ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - ZwQueryVirtualMemory
 ---
 
-# ZwQueryVirtualMemory function
+# ZwQueryVirtualMemory function (ntifs.h)
+
+
 
 ## -description
 

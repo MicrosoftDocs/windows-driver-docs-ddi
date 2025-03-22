@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCompleteRequest function"]
 ms.keywords: RxCompleteRequest, RxCompleteRequest function [Installable File System Drivers], ifsk.rxcompleterequest, rxprocs/RxCompleteRequest, rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCompleteRequest
 ---
 
-# RxCompleteRequest function
+# RxCompleteRequest function (rxprocs.h)
+
+
 
 
 ## -description

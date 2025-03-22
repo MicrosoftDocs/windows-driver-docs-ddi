@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration"]
 ms.keywords: PUCX_USBDEVICE_CHARACTERISTIC_TYPE, PUCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE, UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration [Buses], UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY, _UCX_USBDEVICE_CHARACTERISTIC_TYPE, buses.ucx_usbdevice_characteristic_type, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC_TYPE_PATH_DELAY
 req.header: ucxusbdevice.h
+req.construct-type: enumeration
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -43,7 +44,9 @@ api_name:
  - UCX_USBDEVICE_CHARACTERISTIC_TYPE
 ---
 
-# _UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration
+# UCX_USBDEVICE_CHARACTERISTIC_TYPE enumeration (ucxusbdevice.h)
+
+
 
 
 ## -description

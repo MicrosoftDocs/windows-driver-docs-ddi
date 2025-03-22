@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmModifyCallQoSComplete macro"]
 ms.keywords: NdisMCmModifyCallQoSComplete, NdisMCmModifyCallQoSComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_4b742f65-7e96-4e8b-aa3d-64f9c90aa4be.xml, ndis/NdisMCmModifyCallQoSComplete, netvista.ndismcmmodifycallqoscomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmModifyCallQoSComplete   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmModifyCallQoSComplete   (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisMCmModifyCallQoSComplete
 ---
 
-# NdisMCmModifyCallQoSComplete macro
+# NdisMCmModifyCallQoSComplete function (ndis.h)
+
+
 
 
 ## -description

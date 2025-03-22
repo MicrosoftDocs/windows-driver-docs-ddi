@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbDeviceInitialize function"]
 ms.keywords: SPB.spbdeviceinitialize, SpbDeviceInitialize, SpbDeviceInitialize method [Buses], spbcx/SpbDeviceInitialize
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbDeviceInitialize
 ---
 
-# SpbDeviceInitialize function
+# SpbDeviceInitialize function (spbcx.h)
+
+
 
 
 ## -description

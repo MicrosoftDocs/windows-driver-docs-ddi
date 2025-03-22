@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCmResourceListGetCount function"]
 ms.keywords: DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, WdfCmResourceListGetCount, WdfCmResourceListGetCount method, kmdf.wdfcmresourcelistgetcount, wdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCmResourceListGetCount
 ---
 
-# WdfCmResourceListGetCount function
+# WdfCmResourceListGetCount function (wdfresource.h)
+
+
 
 
 ## -description

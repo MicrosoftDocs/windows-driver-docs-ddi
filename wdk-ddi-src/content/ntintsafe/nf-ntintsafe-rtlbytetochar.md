@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlByteToChar function"]
 ms.keywords: RtlByteToChar, RtlByteToChar function [Kernel-Mode Driver Architecture], kernel.rtlbytetochar, ntintsafe/RtlByteToChar
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlByteToChar
 ---
 
-# RtlByteToChar function
+# RtlByteToChar function (ntintsafe.h)
+
+
 
 
 ## -description

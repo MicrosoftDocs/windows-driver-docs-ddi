@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["NFIT_STRUCTURE_TYPE enumeration"]
 ms.keywords: _NFIT_STRUCTURE_TYPE, NFIT_STRUCTURE_TYPE, *PNFIT_STRUCTURE_TYPE,
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - NFIT_STRUCTURE_TYPE
 ---
 
-# _NFIT_STRUCTURE_TYPE enumeration
+# NFIT_STRUCTURE_TYPE enumeration (acpitabl.h)
+
+
 
 
 ## -description

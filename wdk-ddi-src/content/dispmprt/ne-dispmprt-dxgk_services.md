@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 04/05/2024
 keywords: ["DXGK_SERVICES enumeration"]
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -38,7 +39,9 @@ api_name:
  - DXGK_SERVICES
 ---
 
-# DXGK_SERVICES enumeration
+# DXGK_SERVICES enumeration (dispmprt.h)
+
+
 
 ## -description
 

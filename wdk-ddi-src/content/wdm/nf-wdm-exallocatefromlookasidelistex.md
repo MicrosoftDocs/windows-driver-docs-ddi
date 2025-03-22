@@ -8,6 +8,7 @@ ms.date: 03/24/2023
 keywords: ["ExAllocateFromLookasideListEx function"]
 ms.keywords: ExAllocateFromLookasideListEx, ExAllocateFromLookasideListEx routine [Kernel-Mode Driver Architecture], k102_d3c72529-8c0d-48bf-8b5f-dc19d801bf8f.xml, kernel.exallocatefromlookasidelistex, wdm/ExAllocateFromLookasideListEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ExAllocateFromLookasideListEx
 ---
 
-# ExAllocateFromLookasideListEx function
+# ExAllocateFromLookasideListEx function (wdm.h)
+
+
 
 
 ## -description

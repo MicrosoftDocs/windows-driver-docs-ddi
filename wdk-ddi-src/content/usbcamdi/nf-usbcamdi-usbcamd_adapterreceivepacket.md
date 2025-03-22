@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["USBCAMD_AdapterReceivePacket function"]
 ms.keywords: USBCAMD_AdapterReceivePacket, USBCAMD_AdapterReceivePacket function [Streaming Media Devices], stream.usbcamd_adapterreceivepacket, usbcamdi/USBCAMD_AdapterReceivePacket, usbcmdpr_ad9c24d0-76a2-43a4-9634-a70e9260d907.xml
 req.header: usbcamdi.h
+req.construct-type: function
 req.include-header: Usbcamdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - USBCAMD_AdapterReceivePacket
 ---
 
-# USBCAMD_AdapterReceivePacket function
+# USBCAMD_AdapterReceivePacket function (usbcamdi.h)
+
+
 
 
 ## -description

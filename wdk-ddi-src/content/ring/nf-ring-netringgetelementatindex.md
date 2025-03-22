@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetRingGetElementAtIndex function"]
 ms.keywords: NetRingGetElementAtIndex
 req.header: ring.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetRingGetElementAtIndex
 ---
 
-# NetRingGetElementAtIndex function
+# NetRingGetElementAtIndex function (ring.h)
+
+
 
 
 ## -description

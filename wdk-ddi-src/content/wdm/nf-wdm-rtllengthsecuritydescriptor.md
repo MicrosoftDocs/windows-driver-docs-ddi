@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlLengthSecurityDescriptor function"]
 ms.keywords: RtlLengthSecurityDescriptor, RtlLengthSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_ea245194-f36b-4b47-9d81-2d72fc19d5bc.xml, kernel.rtllengthsecuritydescriptor, wdm/RtlLengthSecurityDescriptor
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlLengthSecurityDescriptor
 ---
 
-# RtlLengthSecurityDescriptor function
+# RtlLengthSecurityDescriptor function (wdm.h)
+
+
 
 
 ## -description

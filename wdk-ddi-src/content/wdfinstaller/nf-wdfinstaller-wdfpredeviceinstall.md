@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPreDeviceInstall function"]
 ms.keywords: DFCoinstallerRef_0d1aca8b-f318-42c4-a74d-bd69d272ceec.xml, WdfPreDeviceInstall, WdfPreDeviceInstall function, kmdf.wdfpredeviceinstall, wdf.wdfpredeviceinstall, wdfinstaller/WdfPreDeviceInstall
 req.header: wdfinstaller.h
+req.construct-type: function
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPreDeviceInstall
 ---
 
-# WdfPreDeviceInstall function
+# WdfPreDeviceInstall function (wdfinstaller.h)
+
+
 
 
 ## -description

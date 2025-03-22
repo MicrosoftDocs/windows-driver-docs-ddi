@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvGetWiaFormatInfo"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvGetWiaFormatInfo method, IWiaMiniDrv.drvGetWiaFormatInfo, IWiaMiniDrv::drvGetWiaFormatInfo, MiniDrv_6c0cb527-6884-4b7d-a7cc-0e09c1774b7f.xml, drvGetWiaFormatInfo, drvGetWiaFormatInfo method [Imaging Devices], drvGetWiaFormatInfo method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvgetwiaformatinfo, wiamindr_lh/IWiaMiniDrv::drvGetWiaFormatInfo
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvGetWiaFormatInfo
 ---
+
+# IWiaMiniDrv::drvGetWiaFormatInfo function (wiamindr_lh.h)
 
 ## -description
 

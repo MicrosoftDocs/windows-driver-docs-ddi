@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMDeregisterScatterGatherDma function"]
 ms.keywords: NdisMDeregisterScatterGatherDma, NdisMDeregisterScatterGatherDma function [Network Drivers Starting with Windows Vista], ndis/NdisMDeregisterScatterGatherDma, ndis_sgdma_ref_93a42580-1486-4ec8-90e6-ca6219c54884.xml, netvista.ndismderegisterscattergatherdma
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMDeregisterScatterGatherDma
 ---
 
-# NdisMDeregisterScatterGatherDma function
+# NdisMDeregisterScatterGatherDma function (ndis.h)
+
+
 
 
 ## -description

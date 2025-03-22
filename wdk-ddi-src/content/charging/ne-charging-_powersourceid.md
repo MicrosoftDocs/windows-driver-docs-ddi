@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["POWERSOURCEID enumeration"]
 ms.keywords: "*PPOWERSOURCEID, POWERSOURCEID, _POWERSOURCEID, battery.powersourceid, charging/, enumeration [Battery Devices]"
 req.header: charging.h
+req.construct-type: enumeration
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - POWERSOURCEID
 ---
 
-# _POWERSOURCEID enumeration
+# POWERSOURCEID enumeration (charging.h)
+
+
 
 ## -description
 

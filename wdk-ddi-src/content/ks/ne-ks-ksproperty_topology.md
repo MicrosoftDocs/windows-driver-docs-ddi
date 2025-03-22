@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_TOPOLOGY enumeration"]
 ms.keywords: KSPROPERTY_TOPOLOGY, KSPROPERTY_TOPOLOGY enumeration [Streaming Media Devices], KSPROPERTY_TOPOLOGY_CATEGORIES, KSPROPERTY_TOPOLOGY_CONNECTIONS, KSPROPERTY_TOPOLOGY_NAME, KSPROPERTY_TOPOLOGY_NODES, ks/KSPROPERTY_TOPOLOGY, ks/KSPROPERTY_TOPOLOGY_CATEGORIES, ks/KSPROPERTY_TOPOLOGY_CONNECTIONS, ks/KSPROPERTY_TOPOLOGY_NAME, ks/KSPROPERTY_TOPOLOGY_NODES, stream.ksproperty_topology
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_TOPOLOGY
 ---
 
-# KSPROPERTY_TOPOLOGY enumeration
+# KSPROPERTY_TOPOLOGY enumeration (ks.h)
+
+
 
 
 ## -description

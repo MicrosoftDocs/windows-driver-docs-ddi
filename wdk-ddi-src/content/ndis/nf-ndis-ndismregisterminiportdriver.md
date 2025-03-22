@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMRegisterMiniportDriver function"]
 ms.keywords: NdisMRegisterMiniportDriver, NdisMRegisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_d6406d6d-f738-4f65-90af-38038b188cc7.xml, ndis/NdisMRegisterMiniportDriver, netvista.ndismregisterminiportdriver
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMRegisterMiniportDriver
 ---
 
-# NdisMRegisterMiniportDriver function
+# NdisMRegisterMiniportDriver function (ndis.h)
+
+
 
 
 ## -description

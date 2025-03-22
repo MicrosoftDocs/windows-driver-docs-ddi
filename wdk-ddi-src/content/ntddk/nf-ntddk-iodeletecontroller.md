@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoDeleteController function"]
 ms.keywords: IoDeleteController, IoDeleteController routine [Kernel-Mode Driver Architecture], k104_c4d57e2c-d596-4c3d-a912-48792010837e.xml, kernel.iodeletecontroller, ntddk/IoDeleteController
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoDeleteController
 ---
 
-# IoDeleteController function
+# IoDeleteController function (ntddk.h)
+
+
 
 
 ## -description

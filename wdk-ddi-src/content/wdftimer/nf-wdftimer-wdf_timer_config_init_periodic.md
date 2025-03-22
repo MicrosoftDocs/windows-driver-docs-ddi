@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TIMER_CONFIG_INIT_PERIODIC function"]
 ms.keywords: DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC, WDF_TIMER_CONFIG_INIT_PERIODIC function, kmdf.wdf_timer_config_init_periodic, wdf.wdf_timer_config_init_periodic, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC
 req.header: wdftimer.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_TIMER_CONFIG_INIT_PERIODIC
 ---
 
-# WDF_TIMER_CONFIG_INIT_PERIODIC function
+# WDF_TIMER_CONFIG_INIT_PERIODIC function (wdftimer.h)
+
+
 
 
 ## -description

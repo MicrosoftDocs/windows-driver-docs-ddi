@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["IOCTL_USBPRINT_SOFT_RESET IOCTL"]
 ms.keywords: IOCTL_USBPRINT_SOFT_RESET, IOCTL_USBPRINT_SOFT_RESET control, IOCTL_USBPRINT_SOFT_RESET control code [Print Devices], print.ioctl_usbprint_soft_reset, usbioctl_282627ce-49eb-4d8c-88a6-8d211cb91830.xml, usbprint/IOCTL_USBPRINT_SOFT_RESET
 req.header: usbprint.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USBPRINT_SOFT_RESET
 ---
 
-# IOCTL_USBPRINT_SOFT_RESET IOCTL
+# IOCTL_USBPRINT_SOFT_RESET IOCTL (usbprint.h)
+
+
+
+
 
 
 ## -description

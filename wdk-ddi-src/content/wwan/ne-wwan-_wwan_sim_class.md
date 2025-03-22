@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_SIM_CLASS enumeration"]
 ms.keywords: "*PWWAN_SIM_CLASS, PWWAN_SIM_CLASS, PWWAN_SIM_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_SIM_CLASS, WWAN_SIM_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanRef_8c5184eb-4ac5-40a7-bb52-875554517f70.xml, WwanSimClassMax, WwanSimClassSimLogical, WwanSimClassSimRemote, WwanSimClassSimRemovable, WwanSimClassUnknown, _WWAN_SIM_CLASS, netvista.wwan_sim_class, wwan/PWWAN_SIM_CLASS, wwan/WWAN_SIM_CLASS, wwan/WwanSimClassMax, wwan/WwanSimClassSimLogical, wwan/WwanSimClassSimRemote, wwan/WwanSimClassSimRemovable, wwan/WwanSimClassUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SIM_CLASS
 ---
 
-# _WWAN_SIM_CLASS enumeration
+# WWAN_SIM_CLASS enumeration (wwan.h)
+
+
 
 
 ## -description

@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_CLEAR_ALL_LCN_WEAK_REFERENCES
 ---
 
-# FSCTL_CLEAR_ALL_LCN_WEAK_REFERENCES ioctl (ntifs.h)
+# FSCTL_CLEAR_ALL_LCN_WEAK_REFERENCES IOCTL (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewResourceList function"]
 ms.keywords: PcNewResourceList, PcNewResourceList function [Audio Devices], audio.pcnewresourcelist, audpc-routines_b9e7a222-20ac-482b-ae30-083765ecf5b7.xml, portcls/PcNewResourceList
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcNewResourceList function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewResourceList
 ---
 
-# PcNewResourceList function
+# PcNewResourceList function (portcls.h)
+
+
 
 
 ## -description

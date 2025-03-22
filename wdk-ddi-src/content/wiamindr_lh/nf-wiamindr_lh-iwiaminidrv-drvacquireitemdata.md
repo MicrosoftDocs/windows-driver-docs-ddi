@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvAcquireItemData"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAcquireItemData method, IWiaMiniDrv.drvAcquireItemData, IWiaMiniDrv::drvAcquireItemData, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData, drvAcquireItemData method [Imaging Devices], drvAcquireItemData method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvacquireitemdata, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvAcquireItemData
 ---
+
+# IWiaMiniDrv::drvAcquireItemData function (wiamindr_lh.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NmrDeregisterClient function"]
 ms.keywords: NmrDeregisterClient, NmrDeregisterClient function [Network Drivers Starting with Windows Vista], netioddk/NmrDeregisterClient, netvista.nmrderegisterclient, nmrref_db73a389-7569-4d1d-9f96-01d4a28cf73e.xml
 req.header: netioddk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - NmrDeregisterClient
 ---
 
-# NmrDeregisterClient function
+# NmrDeregisterClient function (netioddk.h)
+
+
 
 
 ## -description

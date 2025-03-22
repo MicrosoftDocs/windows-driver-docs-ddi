@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["IPSEC_OFFLOAD_V2_OPERATION enumeration"]
 ms.keywords: "*PIPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION, IPSEC_OFFLOAD_V2_OPERATION enumeration [Network Drivers Starting with Windows Vista], IPsecOffloadV2Ah, IPsecOffloadV2Esp, IPsecOffloadV2Max, PIPSEC_OFFLOAD_V2_OPERATION, PIPSEC_OFFLOAD_V2_OPERATION enumeration pointer [Network Drivers Starting with Windows Vista], _IPSEC_OFFLOAD_V2_OPERATION, ndis/IPSEC_OFFLOAD_V2_OPERATION, ndis/IPsecOffloadV2Ah, ndis/IPsecOffloadV2Esp, ndis/IPsecOffloadV2Max, ndis/PIPSEC_OFFLOAD_V2_OPERATION, netvista.ipsec_offload_v2_operation, task_offload_IPsecv2_ref_37a1424a-fe40-440d-a071-9483c5bcb516.xml"
 req.header: ndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -46,7 +47,9 @@ api_name:
  - IPSEC_OFFLOAD_V2_OPERATION
 ---
 
-# _IPSEC_OFFLOAD_V2_OPERATION enumeration
+# IPSEC_OFFLOAD_V2_OPERATION enumeration (ndis.h)
+
+
 
 
 ## -description

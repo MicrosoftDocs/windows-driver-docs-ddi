@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration"]
 ms.keywords: D3D12DDI_CRYPTO_SESSION_FLAGS_0030, D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration [Display Devices], D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAGS_0030, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_HARDWARE, d3d12umddi/D3D12DDI_CRYPTO_SESSION_FLAG_0030_NONE, display.d3d12ddi-crypto-session-flags-0030
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_CRYPTO_SESSION_FLAGS_0030
 ---
 
-# D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration
+# D3D12DDI_CRYPTO_SESSION_FLAGS_0030 enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

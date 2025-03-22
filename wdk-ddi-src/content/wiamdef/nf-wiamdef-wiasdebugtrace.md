@@ -8,6 +8,7 @@ ms.date: 11/18/2019
 keywords: ["wiasDebugTrace function"]
 ms.keywords: image.wiasdebugtrace, wiamdef/wiasDebugTrace, wiasDebugTrace, wiasDebugTrace function [Imaging Devices], wiasFncs_b6582555-3674-4261-a542-9a6388649bb0.xml
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasDebugTrace
 ---
 
-# wiasDebugTrace function
+# wiasDebugTrace function (wiamdef.h)
+
+
 
 
 ## -description

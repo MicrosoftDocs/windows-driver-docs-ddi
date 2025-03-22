@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceUnmapIoSpace function"]
 ms.keywords: WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace, wdfdevice/WdfDeviceUnmapIoSpace
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WdfDeviceUnmapIoSpace
 ---
 
-# WdfDeviceUnmapIoSpace function
+# WdfDeviceUnmapIoSpace function (wdfdevice.h)
+
+
 
 
 ## -description

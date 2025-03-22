@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["XcvOpenPort function"]
 ms.keywords: print.xcvopenport, spoolfnc_d2e14d20-1b34-49f5-a627-7b08ccc79ccf.xml, winsplp/XcvOpenPort, XcvOpenPort function [Print Devices], XcvOpenPort
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - XcvOpenPort
 ---
+
+# XcvOpenPort function (winsplp.h)
 
 ## -description
 

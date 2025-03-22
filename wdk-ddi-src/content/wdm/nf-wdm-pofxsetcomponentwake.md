@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxSetComponentWake function"]
 ms.keywords: PoFxSetComponentWake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentwake, wdm/PoFxSetComponentWake
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxSetComponentWake
 ---
 
-# PoFxSetComponentWake function
+# PoFxSetComponentWake function (wdm.h)
+
+
 
 
 ## -description

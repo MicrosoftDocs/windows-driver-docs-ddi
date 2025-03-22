@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["IVRS_BLOCK_TYPE enumeration"]
 ms.keywords: _IVRS_BLOCK_TYPE, IVRS_BLOCK_TYPE,
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - IVRS_BLOCK_TYPE
 ---
 
-# _IVRS_BLOCK_TYPE enumeration
+# IVRS_BLOCK_TYPE enumeration (acpitabl.h)
+
+
 
 
 ## -description

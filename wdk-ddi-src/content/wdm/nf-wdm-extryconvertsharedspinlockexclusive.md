@@ -7,6 +7,7 @@ ms.date: 10/18/2022
 keywords: ["ExTryConvertSharedSpinLockExclusive function"]
 ms.keywords: ExTryConvertSharedSpinLockExclusive, ExTryConvertSharedSpinLockExclusive routine [Kernel-Mode Driver Architecture], kernel.extryconvertsharedspinlockexclusive_, wdm/ExTryConvertSharedSpinLockExclusive
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ExTryConvertSharedSpinLockExclusive
 ---
+
+# ExTryConvertSharedSpinLockExclusive function (wdm.h)
 
 ## -description
 

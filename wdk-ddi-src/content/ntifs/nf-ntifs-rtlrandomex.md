@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlRandomEx function"]
 ms.keywords: RtlRandomEx, RtlRandomEx routine [Installable File System Drivers], ifsk.rtlrandomex, ntifs/RtlRandomEx, rtlref_29425246-066b-4f0f-ba4b-419db1de119d.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlRandomEx
 ---
 
-# RtlRandomEx function
+# RtlRandomEx function (ntifs.h)
+
+
 
 
 ## -description

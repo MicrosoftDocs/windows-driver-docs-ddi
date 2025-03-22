@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlIdentifierAuthoritySid function"]
 ms.keywords: RtlIdentifierAuthoritySid, RtlIdentifierAuthoritySid function [Installable File System Drivers], ifsk.rtlidentifierauthoritysid, ntifs/RtlIdentifierAuthoritySid, rtlref_e4f051a9-6a6d-4008-b134-9a255b6764c0.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlIdentifierAuthoritySid
 ---
 
-# RtlIdentifierAuthoritySid function
+# RtlIdentifierAuthoritySid function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 07/30/2021
 keywords: ["KePulseEvent function"]
 ms.keywords: KePulseEvent, KePulseEvent routine [Kernel-Mode Driver Architecture], k105_86079f76-4593-4ef2-ab1b-6f4c3ba17142.xml, kernel.kepulseevent, ntddk/KePulseEvent
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KePulseEvent
 ---
 
-# KePulseEvent function
+# KePulseEvent function (ntddk.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NET_RING_TYPE enumeration"]
 ms.keywords: _NET_RING_TYPE, NET_RING_TYPE,
 req.header: ringcollection.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - NET_RING_TYPE
 ---
 
-# _NET_RING_TYPE enumeration
+# NET_RING_TYPE enumeration (ringcollection.h)
+
+
 
 
 ## -description

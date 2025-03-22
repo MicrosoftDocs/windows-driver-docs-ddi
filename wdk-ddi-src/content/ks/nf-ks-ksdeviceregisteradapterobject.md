@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["KsDeviceRegisterAdapterObject function"]
 ms.keywords: KsDeviceRegisterAdapterObject, KsDeviceRegisterAdapterObject function [Streaming Media Devices], avfunc_59ad20f2-ca31-4fbb-808e-48df3a0c87a8.xml, ks/KsDeviceRegisterAdapterObject, stream.ksdeviceregisteradapterobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsDeviceRegisterAdapterObject
 ---
+
+# KsDeviceRegisterAdapterObject function (ks.h)
 
 ## -description
 

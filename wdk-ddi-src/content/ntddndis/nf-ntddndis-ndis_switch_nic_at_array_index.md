@@ -7,6 +7,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_NIC_AT_ARRAY_INDEX macro"]
 ms.keywords: NDIS_SWITCH_NIC_AT_ARRAY_INDEX
 req.header: ntddndis.h
+req.construct-type: function
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -38,7 +39,9 @@ api_name:
  - NDIS_SWITCH_NIC_AT_ARRAY_INDEX
 ---
 
-# NDIS_SWITCH_NIC_AT_ARRAY_INDEX macro
+# NDIS_SWITCH_NIC_AT_ARRAY_INDEX function (ntddndis.h)
+
+
 
 
 ## -description

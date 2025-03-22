@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaTicket::ValidateAsync"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],ValidateAsync method, IPrintSchemaTicket.ValidateAsync, IPrintSchemaTicket::ValidateAsync, ValidateAsync, ValidateAsync method [Print Devices], ValidateAsync method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_validateasync, printerextension/IPrintSchemaTicket::ValidateAsync
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaTicket::ValidateAsync
 ---
+
+# IPrintSchemaTicket::ValidateAsync function (printerextension.h)
 
 ## -description
 

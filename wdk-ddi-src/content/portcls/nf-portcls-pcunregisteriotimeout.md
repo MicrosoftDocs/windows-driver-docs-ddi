@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcUnregisterIoTimeout function"]
 ms.keywords: PcUnregisterIoTimeout, PcUnregisterIoTimeout function [Audio Devices], audio.pcunregisteriotimeout, audpc-routines_cb67c1bb-c5ad-4118-bdff-906735214653.xml, portcls/PcUnregisterIoTimeout
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcUnregisterIoTimeout function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcUnregisterIoTimeout
 ---
 
-# PcUnregisterIoTimeout function
+# PcUnregisterIoTimeout function (portcls.h)
+
+
 
 
 ## -description

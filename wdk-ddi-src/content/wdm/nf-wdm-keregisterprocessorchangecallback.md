@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["KeRegisterProcessorChangeCallback function"]
 ms.keywords: KeRegisterProcessorChangeCallback, KeRegisterProcessorChangeCallback routine [Kernel-Mode Driver Architecture], k105_794d8039-ab35-46e9-8a0d-a38c034f0263.xml, kernel.keregisterprocessorchangecallback, wdm/KeRegisterProcessorChangeCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeRegisterProcessorChangeCallback
 ---
+
+# KeRegisterProcessorChangeCallback function (wdm.h)
 
 ## -description
 

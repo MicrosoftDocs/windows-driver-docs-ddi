@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlRemoveLargeMcbEntry function"]
 ms.keywords: FsRtlRemoveLargeMcbEntry, FsRtlRemoveLargeMcbEntry routine [Installable File System Drivers], fsrtlref_d80cc918-81da-4aae-b8ba-b2aea9519af3.xml, ifsk.fsrtlremovelargemcbentry, ntifs/FsRtlRemoveLargeMcbEntry
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlRemoveLargeMcbEntry function
+# FsRtlRemoveLargeMcbEntry function (ntifs.h)
+
+
 
 
 ## -description

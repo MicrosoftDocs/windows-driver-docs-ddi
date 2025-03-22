@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["BIDI_TYPE enumeration"]
 ms.keywords: BIDI_BLOB, BIDI_BOOL, BIDI_ENUM, BIDI_FLOAT, BIDI_INT, BIDI_NULL, BIDI_STRING, BIDI_TEXT, BIDI_TYPE, BIDI_TYPE enumeration [Print Devices], print.bidi_type, spoolfnc_35a684ef-3bbf-4f33-86e9-b4a3bddbbb51.xml, winspool/BIDI_BLOB, winspool/BIDI_BOOL, winspool/BIDI_ENUM, winspool/BIDI_FLOAT, winspool/BIDI_INT, winspool/BIDI_NULL, winspool/BIDI_STRING, winspool/BIDI_TEXT, winspool/BIDI_TYPE
 req.header: winspool.h
+req.construct-type: enumeration
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: This enumeration is available in Windows XP and later operating systems.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - BIDI_TYPE
 ---
+
+# BIDI_TYPE enumeration (winspool.h)
 
 ## -description
 

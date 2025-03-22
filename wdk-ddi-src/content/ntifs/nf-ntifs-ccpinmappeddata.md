@@ -8,6 +8,7 @@ ms.date: 04/18/2018
 keywords: ["CcPinMappedData function"]
 ms.keywords: CcPinMappedData, CcPinMappedData routine [Installable File System Drivers], ccref_3935eee3-9906-4110-812f-ca186953cfbf.xml, ifsk.ccpinmappeddata, ntifs/CcPinMappedData
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcPinMappedData
 ---
 
-# CcPinMappedData function
+# CcPinMappedData function (ntifs.h)
+
+
 
 
 ## -description

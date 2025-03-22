@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmFreePagesFromMdl function"]
 ms.keywords: MmFreePagesFromMdl, MmFreePagesFromMdl routine [Kernel-Mode Driver Architecture], k106_4263f517-edab-4378-b316-ce344676d7e6.xml, kernel.mmfreepagesfrommdl, wdm/MmFreePagesFromMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmFreePagesFromMdl
 ---
 
-# MmFreePagesFromMdl function
+# MmFreePagesFromMdl function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcAddAdapterDevice function"]
 ms.keywords: PcAddAdapterDevice, PcAddAdapterDevice function [Audio Devices], audio.pcaddadapterdevice, audpc-routines_5b2b0ba0-67b7-4c8d-bd47-b7e664500637.xml, portcls/PcAddAdapterDevice
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting in Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - PcAddAdapterDevice
 ---
 
-# PcAddAdapterDevice function
+# PcAddAdapterDevice function (portcls.h)
+
+
 
 
 ## -description

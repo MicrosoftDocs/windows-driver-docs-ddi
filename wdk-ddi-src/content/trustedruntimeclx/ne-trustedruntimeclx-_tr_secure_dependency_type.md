@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TR_SECURE_DEPENDENCY_TYPE enumeration"]
 ms.keywords: _TR_SECURE_DEPENDENCY_TYPE, TR_SECURE_DEPENDENCY_TYPE,
 req.header: trustedruntimeclx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - TR_SECURE_DEPENDENCY_TYPE
 ---
 
-# _TR_SECURE_DEPENDENCY_TYPE enumeration
+# TR_SECURE_DEPENDENCY_TYPE enumeration (trustedruntimeclx.h)
+
+
 
 
 ## -description

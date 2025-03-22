@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsInsertPermanentSiloContext function"]
 ms.keywords: PsInsertPermanentSiloContext, PsInsertPermanentSiloContext routine [Kernel-Mode Driver Architecture], kernel.psinsertpermanentsilocontext, ntddk/PsInsertPermanentSiloContext
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - PsInsertPermanentSiloContext
 ---
 
-# PsInsertPermanentSiloContext function
+# PsInsertPermanentSiloContext function (ntddk.h)
+
+
 
 
 ## -description

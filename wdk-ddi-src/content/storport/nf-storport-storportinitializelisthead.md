@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInitializeListHead function"]
 ms.keywords: StorPortInitializeListHead, StorPortInitializeListHead routine [Storage Devices], storage.storportinitializelisthead, storport/StorPortInitializeListHead
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortInitializeListHead
 ---
 
-# StorPortInitializeListHead function
+# StorPortInitializeListHead function (storport.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsTopologyPropertyHandler function"]
 ms.keywords: KsTopologyPropertyHandler, KsTopologyPropertyHandler function [Streaming Media Devices], ks/KsTopologyPropertyHandler, ksfunc_d007eab3-23b3-42ea-a1d9-b2be806cb4ea.xml, stream.kstopologypropertyhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsTopologyPropertyHandler
 ---
 
-# KsTopologyPropertyHandler function
+# KsTopologyPropertyHandler function (ks.h)
+
+
 
 
 ## -description

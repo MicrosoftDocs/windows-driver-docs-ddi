@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["imp_WppRecorderLogGetDefault function"]
 ms.keywords: WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, imp_WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], wpprecorder/imp_WppRecorderLogGetDefault
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - imp_WppRecorderLogGetDefault
 ---
 
-# WppRecorderLogGetDefault function
+# imp_WppRecorderLogGetDefault function (wpprecorder.h)
+
+
 
 
 ## -description

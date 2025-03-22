@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["_MIDL___MIDL_itf_xpsrassvc_0000_0004_0001 enumeration"]
 ms.keywords: XPSRAS_BACKGROUND_COLOR, XPSRAS_BACKGROUND_COLOR enumeration [Print Devices], XPSRAS_BACKGROUND_COLOR_OPAQUE, XPSRAS_BACKGROUND_COLOR_TRANSPARENT, __MIDL___MIDL_itf_xpsrassvc_0000_0004_0001, print.xpsras_background_color, xpsrassvc/XPSRAS_BACKGROUND_COLOR, xpsrassvc/XPSRAS_BACKGROUND_COLOR_OPAQUE, xpsrassvc/XPSRAS_BACKGROUND_COLOR_TRANSPARENT
 req.header: xpsrassvc.h
+req.construct-type: enumeration
 req.include-header: Xpsrassvc.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - XPSRAS_BACKGROUND_COLOR
 ---
 
-# __MIDL___MIDL_itf_xpsrassvc_0000_0004_0001 enumeration
+# XPSRAS_BACKGROUND_COLOR enumeration (xpsrassvc.h)
+
+
 
 
 ## -description

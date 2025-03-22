@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmCommitEnlistment function"]
 ms.keywords: TmCommitEnlistment, TmCommitEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmcommitenlistment, ktm_ref_c34bfdb9-5d62-448c-a82f-a8df21f05371.xml, wdm/TmCommitEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmCommitEnlistment
 ---
 
-# TmCommitEnlistment function
+# TmCommitEnlistment function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["AddPrintDeviceObject function"]
 ms.keywords: AddPrintDeviceObject, AddPrintDeviceObject function [Print Devices], print.addprintdeviceobject, winsplp/AddPrintDeviceObject
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - AddPrintDeviceObject
 ---
+
+# AddPrintDeviceObject function (winsplp.h)
 
 ## -description
 

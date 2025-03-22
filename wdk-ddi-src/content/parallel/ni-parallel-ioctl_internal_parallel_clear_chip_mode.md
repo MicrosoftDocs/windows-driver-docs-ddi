@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE control code [Parallel Ports], cisspd_912d58fe-f6f8-40c5-b4fe-e8237ea64c04.xml, parallel/IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE, parports.ioctl_internal_parallel_clear_chip_mode
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE
 ---
 
-# IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL
+# IOCTL_INTERNAL_PARALLEL_CLEAR_CHIP_MODE IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsMgmtQueryPolicy function"]
 ms.keywords: ClfsMgmtQueryPolicy, ClfsMgmtQueryPolicy routine [Kernel-Mode Driver Architecture], Clfs_management_6f3ccba5-05e5-4022-9849-220aeefbde77.xml, kernel.clfsmgmtquerypolicy, wdm/ClfsMgmtQueryPolicy
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsMgmtQueryPolicy
 ---
 
-# ClfsMgmtQueryPolicy function
+# ClfsMgmtQueryPolicy function (wdm.h)
+
+
 
 
 ## -description

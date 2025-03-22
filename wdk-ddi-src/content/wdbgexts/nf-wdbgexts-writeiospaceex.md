@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WriteIoSpaceEx function"]
 ms.keywords: WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx, WriteIoSpaceEx function [Windows Debugging], debugger.writeiospaceex, wdbgexts/WriteIoSpaceEx
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WriteIoSpaceEx
 ---
 
-# WriteIoSpaceEx function
+# WriteIoSpaceEx function (wdbgexts.h)
+
+
 
 
 ## -description

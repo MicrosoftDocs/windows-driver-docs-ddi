@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["IoGetConfigurationInformation function"]
 ms.keywords: IoGetConfigurationInformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, ntddk/IoGetConfigurationInformation
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoGetConfigurationInformation
 ---
+
+# IoGetConfigurationInformation function (ntddk.h)
 
 ## -description
 

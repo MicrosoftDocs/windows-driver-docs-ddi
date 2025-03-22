@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoUpdateShareAccess function"]
 ms.keywords: IoUpdateShareAccess, IoUpdateShareAccess routine [Kernel-Mode Driver Architecture], k104_24b78a73-20f1-4d8b-be0e-67964e8dbc31.xml, kernel.ioupdateshareaccess, wdm/IoUpdateShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoUpdateShareAccess
 ---
 
-# IoUpdateShareAccess function
+# IoUpdateShareAccess function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES, IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES control, IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES control code [Buses], buses.ioctl_usb_get_node_connection_attributes, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES, usbirp_7240de27-e12b-4c72-94c3-5913a217c0c3.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP, Windows Server 2003, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES
 ---
 
-# IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES IOCTL
+# IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

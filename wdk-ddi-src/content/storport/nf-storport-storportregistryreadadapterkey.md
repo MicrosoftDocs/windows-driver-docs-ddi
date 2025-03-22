@@ -8,6 +8,7 @@ ms.date: 08/12/2021
 keywords: ["StorPortRegistryReadAdapterKey function"]
 ms.keywords: StorPortRegistryReadAdapterKey, StorPortRegistryWriteAdapterKey, StorPortRegistryWriteAdapterKey routine [Storage Devices], storage.storportregistryreadadapterkey, storport/StorPortRegistryWriteAdapterKey
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortRegistryReadAdapterKey
 ---
 
-# StorPortRegistryReadAdapterKey function
+# StorPortRegistryReadAdapterKey function (storport.h)
+
+
 
 ## -description
 

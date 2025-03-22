@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PCO_TYPE enumeration"]
 ms.keywords: "*PWWAN_PCO_TYPE, WWAN_PCO_TYPE, WWAN_PCO_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanPcoTypeComplete, WwanPcoTypePartial, _WWAN_PCO_TYPE, netvista.wwan_pco_type, wwan/WWAN_PCO_TYPE, wwan/WwanPcoTypeComplete, wwan/WwanPcoTypePartial"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PCO_TYPE
 ---
 
-# _WWAN_PCO_TYPE enumeration
+# WWAN_PCO_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ keywords: ["IsKeyPresentInCollectionList function"]
 tech.root: sensors
 ms.keywords: IsKeyPresentInCollectionList
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - IsKeyPresentInCollectionList
 ---
 
-# IsKeyPresentInCollectionList function
+# IsKeyPresentInCollectionList function (sensorsutils.h)
+
+
 
 
 ## -description

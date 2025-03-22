@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlIsServicePackVersionInstalled function"]
 ms.keywords: RtlIsServicePackVersionInstalled, RtlIsServicePackVersionInstalled routine [Kernel-Mode Driver Architecture], k109_1552acd9-7036-45d2-bd1c-57b7a2154ecb.xml, kernel.rtlisservicepackversioninstalled, wdm/RtlIsServicePackVersionInstalled
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows. A compatibility library supports this routine in earlier versions of Windows (see Remarks section).
@@ -41,7 +42,9 @@ api_name:
  - RtlIsServicePackVersionInstalled
 ---
 
-# RtlIsServicePackVersionInstalled function
+# RtlIsServicePackVersionInstalled function (wdm.h)
+
+
 
 
 ## -description

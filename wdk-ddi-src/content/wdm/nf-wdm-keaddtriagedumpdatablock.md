@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["KeAddTriageDumpDataBlock function"]
 ms.keywords: KeAddTriageDumpDataBlock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -38,7 +39,9 @@ api_name:
  - KeAddTriageDumpDataBlock
 ---
 
-# KeAddTriageDumpDataBlock function
+# KeAddTriageDumpDataBlock function (wdm.h)
+
+
 
 
 ## -description

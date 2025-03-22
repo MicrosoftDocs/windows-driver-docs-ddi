@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetLowerInstance function"]
 ms.keywords: FltApiRef_e_to_o_6040eade-f27b-4fe5-999e-830065cafb71.xml, FltGetLowerInstance, FltGetLowerInstance routine [Installable File System Drivers], fltkernel/FltGetLowerInstance, ifsk.fltgetlowerinstance
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetLowerInstance
 ---
 
-# FltGetLowerInstance function
+# FltGetLowerInstance function (fltkernel.h)
+
+
 
 
 ## -description

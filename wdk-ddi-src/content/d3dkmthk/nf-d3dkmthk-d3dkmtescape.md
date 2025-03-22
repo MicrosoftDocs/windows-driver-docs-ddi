@@ -4,6 +4,7 @@ title: D3DKMTEscape function (d3dkmthk.h)
 description: The D3DKMTEscape function exchanges information with the display miniport driver.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTEscape
 ---
 
-# D3DKMTEscape function
+# D3DKMTEscape function (d3dkmthk.h)
+
+
 
 ## -description
 

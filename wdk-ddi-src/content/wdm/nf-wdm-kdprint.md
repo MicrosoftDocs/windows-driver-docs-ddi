@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["KdPrint macro"]
 ms.keywords: DebugFns_630aea64-3f51-4c73-8575-00a507846ab9.xml, KdPrint, KdPrint function [Driver Development Tools], devtest.kdprint, wdm/KdPrint
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KdPrint
 ---
+
+# KdPrint function (wdm.h)
 
 ## -description
 

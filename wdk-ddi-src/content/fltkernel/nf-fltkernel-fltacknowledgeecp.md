@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAcknowledgeEcp function"]
 ms.keywords: FltAcknowledgeEcp, FltAcknowledgeEcp routine [Installable File System Drivers], FltApiRef_a_to_d_17c8b1d4-47d1-4871-be9d-57986967a083.xml, fltkernel/FltAcknowledgeEcp, ifsk.fltacknowledgeecp
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAcknowledgeEcp
 ---
 
-# FltAcknowledgeEcp function
+# FltAcknowledgeEcp function (fltkernel.h)
+
+
 
 
 ## -description

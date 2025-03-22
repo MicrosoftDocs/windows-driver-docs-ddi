@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsImpersonateClient function"]
 ms.keywords: PsImpersonateClient, PsImpersonateClient routine [Installable File System Drivers], ifsk.psimpersonateclient, ntifs/PsImpersonateClient, psref_57279501-1e5a-4113-93ea-a04825989e73.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - PsImpersonateClient
 ---
 
-# PsImpersonateClient function
+# PsImpersonateClient function (ntifs.h)
+
+
 
 
 ## -description

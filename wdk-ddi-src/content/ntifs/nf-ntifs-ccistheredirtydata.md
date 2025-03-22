@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcIsThereDirtyData function"]
 ms.keywords: CcIsThereDirtyData, CcIsThereDirtyData routine [Installable File System Drivers], ccref_86c4a327-a13e-49b3-89d1-abf976973000.xml, ifsk.ccistheredirtydata, ntifs/CcIsThereDirtyData
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcIsThereDirtyData
 ---
 
-# CcIsThereDirtyData function
+# CcIsThereDirtyData function (ntifs.h)
+
+
 
 
 ## -description

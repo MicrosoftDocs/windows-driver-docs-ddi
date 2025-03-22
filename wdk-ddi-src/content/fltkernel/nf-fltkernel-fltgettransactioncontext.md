@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltGetTransactionContext function"]
 ms.keywords: FltApiRef_e_to_o_11458006-a870-473b-9d1b-ab7a97af09b3.xml, FltGetTransactionContext, FltGetTransactionContext routine [Installable File System Drivers], fltkernel/FltGetTransactionContext, ifsk.fltgettransactioncontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetTransactionContext
 ---
 
-# FltGetTransactionContext function
+# FltGetTransactionContext function (fltkernel.h)
+
+
 
 ## -description
 

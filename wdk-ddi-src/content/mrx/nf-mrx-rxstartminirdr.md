@@ -7,6 +7,7 @@ ms.date: 10/11/2023
 keywords: ["RxStartMinirdr function"]
 ms.keywords: RxStartMinirdr, RxStartMinirdr function [Installable File System Drivers], ifsk.rxstartminirdr, mrx/RxStartMinirdr, rxref_0ecf01ed-771f-44e8-a107-6d3a0d2beb02.xml
 req.header: mrx.h
+req.construct-type: function
 req.include-header: Mrx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RxStartMinirdr
 ---
 
-# RxStartMinirdr function
+# RxStartMinirdr function (mrx.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRegisterBootDriverCallback function"]
 ms.keywords: IoRegisterBootDriverCallback, IoRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], kernel.ioregisterbootdrivercallback, ntddk/IoRegisterBootDriverCallback
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterBootDriverCallback
 ---
 
-# IoRegisterBootDriverCallback function
+# IoRegisterBootDriverCallback function (ntddk.h)
+
+
 
 
 ## -description

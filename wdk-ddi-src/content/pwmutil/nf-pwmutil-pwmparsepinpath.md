@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PwmParsePinPath function"]
 ms.keywords: PwmParsePinPath, PwmParsePinPath function [Kernel-Mode Driver Architecture], kernel.pwmparsepinpath, pwmutil/PwmParsePinPath
 req.header: pwmutil.h
+req.construct-type: function
 req.include-header: Pwm.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - PwmParsePinPath
 ---
 
-# PwmParsePinPath function
+# PwmParsePinPath function (pwmutil.h)
+
+
 
 
 ## -description

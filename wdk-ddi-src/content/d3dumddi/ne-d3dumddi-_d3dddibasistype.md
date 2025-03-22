@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDIBASISTYPE enumeration"]
 ms.keywords: _D3DDDIBASISTYPE, D3DDDIBASISTYPE,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDIBASISTYPE enumeration
+# D3DDDIBASISTYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

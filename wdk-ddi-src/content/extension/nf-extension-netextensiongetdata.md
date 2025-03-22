@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["NetExtensionGetData function"]
 ms.keywords: NetExtensionGetData
 req.header: extension.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetExtensionGetData
 ---
 
-# NetExtensionGetData function
+# NetExtensionGetData function (extension.h)
+
+
 
 
 ## -description

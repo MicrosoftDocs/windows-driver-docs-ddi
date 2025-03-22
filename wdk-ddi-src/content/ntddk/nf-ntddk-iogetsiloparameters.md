@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoGetSiloParameters function"]
 ms.keywords: IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - IoGetSiloParameters
 ---
 
-# IoGetSiloParameters function
+# IoGetSiloParameters function (ntddk.h)
+
+
 
 
 ## -description

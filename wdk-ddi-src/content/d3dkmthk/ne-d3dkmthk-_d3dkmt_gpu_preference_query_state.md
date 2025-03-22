@@ -6,6 +6,7 @@ ms.date: 04/10/2024
 keywords: ["D3DKMT_GPU_PREFERENCE_QUERY_STATE enumeration"]
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_STATE, D3DKMT_GPU_PREFERENCE_QUERY_STATE,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_GPU_PREFERENCE_QUERY_STATE enumeration
+# D3DKMT_GPU_PREFERENCE_QUERY_STATE enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

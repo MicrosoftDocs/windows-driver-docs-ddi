@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_DISCONNECT, IOCTL_BTH_SDP_DISCONNECT control, IOCTL_BTH_SDP_DISCONNECT control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_disconnect, bth_ioctls_6cff5fc3-aff6-4e9b-8192-c6cd7c8f5fea.xml, bthioctl/IOCTL_BTH_SDP_DISCONNECT
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_SDP_DISCONNECT
 ---
 
-# IOCTL_BTH_SDP_DISCONNECT IOCTL
+# IOCTL_BTH_SDP_DISCONNECT IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

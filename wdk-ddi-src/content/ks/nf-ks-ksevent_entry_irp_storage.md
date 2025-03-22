@@ -7,6 +7,7 @@ ms.date: 03/11/2022
 keywords: ["KSEVENT_ENTRY_IRP_STORAGE macro"]
 ms.keywords: KSEVENT_ENTRY_IRP_STORAGE, KSEVENT_ENTRY_IRP_STORAGE macro [Streaming Media Devices], ks/KSEVENT_ENTRY_IRP_STORAGE, ksfunc_174dded2-4521-4d4a-b7ab-13401da80e5b.xml, stream.ksevent_entry_irp_storage
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KSEVENT_ENTRY_IRP_STORAGE
 ---
+
+# KSEVENT_ENTRY_IRP_STORAGE function (ks.h)
 
 ## -description
 

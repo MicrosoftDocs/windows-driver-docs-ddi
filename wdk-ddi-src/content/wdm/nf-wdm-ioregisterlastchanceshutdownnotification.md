@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRegisterLastChanceShutdownNotification function"]
 ms.keywords: IoRegisterLastChanceShutdownNotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, kernel.ioregisterlastchanceshutdownnotification, wdm/IoRegisterLastChanceShutdownNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows. Not available in Microsoft Windows 98/Me.
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterLastChanceShutdownNotification
 ---
 
-# IoRegisterLastChanceShutdownNotification function
+# IoRegisterLastChanceShutdownNotification function (wdm.h)
+
+
 
 
 ## -description

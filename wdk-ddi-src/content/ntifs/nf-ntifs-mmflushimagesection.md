@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["MmFlushImageSection function"]
 ms.keywords: MmFlushImageSection, MmFlushImageSection routine [Installable File System Drivers], ifsk.mmflushimagesection, mmref_d6a37cf0-a204-4070-80f6-bd407f671ee8.xml, ntifs/MmFlushImageSection
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MmFlushImageSection
 ---
 
-# MmFlushImageSection function
+# MmFlushImageSection function (ntifs.h)
+
+
 
 
 ## -description

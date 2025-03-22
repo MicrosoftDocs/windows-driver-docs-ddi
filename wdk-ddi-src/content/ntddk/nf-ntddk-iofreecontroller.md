@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoFreeController function"]
 ms.keywords: IoFreeController, IoFreeController routine [Kernel-Mode Driver Architecture], k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, kernel.iofreecontroller, ntddk/IoFreeController
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoFreeController
 ---
 
-# IoFreeController function
+# IoFreeController function (ntddk.h)
+
+
 
 
 ## -description

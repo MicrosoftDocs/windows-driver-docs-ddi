@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsLoadResource function"]
 ms.keywords: KsLoadResource, KsLoadResource function [Streaming Media Devices], ks/KsLoadResource, ksfunc_d966a58a-b0f0-411f-a19c-1db726efc56e.xml, stream.ksloadresource
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsLoadResource
 ---
 
-# KsLoadResource function
+# KsLoadResource function (ks.h)
+
+
 
 
 ## -description

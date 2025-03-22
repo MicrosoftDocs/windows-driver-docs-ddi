@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCmEncodeMemIoResource function"]
 ms.keywords: RtlCmEncodeMemIoResource, RtlCmEncodeMemIoResource routine [Kernel-Mode Driver Architecture], k109_62e5d339-a7ba-43ff-9886-bbae38b4957a.xml, kernel.rtlcmencodememioresource, wdm/RtlCmEncodeMemIoResource
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlCmEncodeMemIoResource
 ---
 
-# RtlCmEncodeMemIoResource function
+# RtlCmEncodeMemIoResource function (wdm.h)
+
+
 
 
 ## -description

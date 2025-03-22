@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["KeQueryNodeActiveAffinity function"]
 ms.keywords: KeQueryNodeActiveAffinity, KeQueryNodeActiveAffinity routine [Kernel-Mode Driver Architecture], k105_05e2547a-e13e-4ade-9139-29690a72e9ed.xml, kernel.kequerynodeactiveaffinity, wdm/KeQueryNodeActiveAffinity
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeQueryNodeActiveAffinity
 ---
+
+# KeQueryNodeActiveAffinity function (wdm.h)
 
 ## -description
 

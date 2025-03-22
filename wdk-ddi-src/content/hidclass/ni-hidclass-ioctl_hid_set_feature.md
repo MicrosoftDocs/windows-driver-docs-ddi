@@ -8,6 +8,7 @@ ms.date: 04/28/2022
 keywords: ["IOCTL_HID_SET_FEATURE IOCTL"]
 ms.keywords: IOCTL_HID_SET_FEATURE, IOCTL_HID_SET_FEATURE control, IOCTL_HID_SET_FEATURE control code [Human Input Devices], hid.ioctl_hid_set_feature2, hidclass/IOCTL_HID_SET_FEATURE, hidioreq_def58360-8e73-49dd-ab90-33cf3b6a92de.xml
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_SET_FEATURE
 ---
 
-# IOCTL_HID_SET_FEATURE IOCTL
+# IOCTL_HID_SET_FEATURE IOCTL (hidclass.h)
+
+
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_WDF_DEVICE_RESET_ACTION enumeration"]
 ms.keywords: "*PUDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION, UDECX_WDF_DEVICE_RESET_ACTION enumeration [Buses], UdecxWdfDeviceResetActionResetEachUsbDevice, UdecxWdfDeviceResetActionResetWdfDevice, _UDECX_WDF_DEVICE_RESET_ACTION, buses.udecx_wdf_device_reset_action, udecxwdfdevice/UDECX_WDF_DEVICE_RESET_ACTION, udecxwdfdevice/UdecxWdfDeviceResetActionResetEachUsbDevice, udecxwdfdevice/UdecxWdfDeviceResetActionResetWdfDevice"
 req.header: udecxwdfdevice.h
+req.construct-type: enumeration
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UDECX_WDF_DEVICE_RESET_ACTION
 ---
 
-# _UDECX_WDF_DEVICE_RESET_ACTION enumeration
+# UDECX_WDF_DEVICE_RESET_ACTION enumeration (udecxwdfdevice.h)
+
+
 
 
 ## -description

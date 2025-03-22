@@ -8,6 +8,7 @@ ms.date: 11/09/2021
 keywords: ["RtlUnicodeStringToInteger function"]
 ms.keywords: RtlUnicodeStringToInteger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, kernel.rtlunicodestringtointeger, wdm/RtlUnicodeStringToInteger
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringToInteger
 ---
 
-# RtlUnicodeStringToInteger function
+# RtlUnicodeStringToInteger function (wdm.h)
+
+
 
 ## -description
 

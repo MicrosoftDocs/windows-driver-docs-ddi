@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["DOMAIN_CONFIGURATION_ARCH enumeration"]
 ms.keywords: _DOMAIN_CONFIGURATION_ARCH, *PDOMAIN_CONFIGURATION_ARCH, DOMAIN_CONFIGURATION_ARCH,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -36,7 +37,9 @@ api_name:
  - DOMAIN_CONFIGURATION_ARCH
 ---
 
-# _DOMAIN_CONFIGURATION_ARCH enumeration
+# DOMAIN_CONFIGURATION_ARCH enumeration (wdm.h)
+
+
 
 ## -description
 

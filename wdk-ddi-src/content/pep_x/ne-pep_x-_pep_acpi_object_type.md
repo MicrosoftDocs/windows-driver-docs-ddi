@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_ACPI_OBJECT_TYPE enumeration"]
 ms.keywords: "*PPEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE, PEP_ACPI_OBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiObjectTypeMaximum, PepAcpiObjectTypeMethod, _PEP_ACPI_OBJECT_TYPE, kernel.pep_acpi_object_type, pepfx/PEP_ACPI_OBJECT_TYPE, pepfx/PepAcpiObjectTypeMaximum, pepfx/PepAcpiObjectTypeMethod"
 req.header: pep_x.h
+req.construct-type: enumeration
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_ACPI_OBJECT_TYPE
 ---
 
-# _PEP_ACPI_OBJECT_TYPE enumeration (pep_x.h)
+# PEP_ACPI_OBJECT_TYPE enumeration (pep_x.h)
+
+
 
 
 ## -description

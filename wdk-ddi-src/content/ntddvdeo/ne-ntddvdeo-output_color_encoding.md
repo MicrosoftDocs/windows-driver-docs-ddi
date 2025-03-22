@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["OUTPUT_COLOR_ENCODING enumeration"]
 ms.keywords: OUTPUT_COLOR_ENCODING, OUTPUT_COLOR_ENCODING,
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# OUTPUT_COLOR_ENCODING enumeration
+# OUTPUT_COLOR_ENCODING enumeration (ntddvdeo.h)
+
+
 
 
 ## -description

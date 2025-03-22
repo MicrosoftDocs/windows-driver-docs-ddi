@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortInt10 function"]
 ms.keywords: VideoPortInt10, VideoPortInt10 function [Display Devices], VideoPort_Functions_681fc4cc-f8f5-4d26-b3eb-8f4098339470.xml, display.videoportint10, video/VideoPortInt10
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortInt10
 ---
 
-# VideoPortInt10 function
+# VideoPortInt10 function (video.h)
+
+
 
 
 ## -description

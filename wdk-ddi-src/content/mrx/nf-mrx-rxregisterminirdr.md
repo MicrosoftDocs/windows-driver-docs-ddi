@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxRegisterMinirdr function"]
 ms.keywords: RxRegisterMinirdr, RxRegisterMinirdr function [Installable File System Drivers], ifsk.rxregisterminirdr, mrx/RxRegisterMinirdr, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml
 req.header: mrx.h
+req.construct-type: function
 req.include-header: Mrx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxRegisterMinirdr
 ---
 
-# RxRegisterMinirdr function
+# RxRegisterMinirdr function (mrx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["MmCopyMemory function"]
 ms.keywords: MmCopyMemory, MmCopyMemory routine [Kernel-Mode Driver Architecture], kernel.mmcopymemory, ntddk/MmCopyMemory
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - MmCopyMemory
 ---
+
+# MmCopyMemory function (ntddk.h)
 
 ## -description
 

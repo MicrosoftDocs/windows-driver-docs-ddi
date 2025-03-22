@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewResourceSublist function"]
 ms.keywords: PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], audio.pcnewresourcesublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, portcls/PcNewResourceSublist
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcNewResourceSublist function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewResourceSublist
 ---
 
-# PcNewResourceSublist function
+# PcNewResourceSublist function (portcls.h)
+
+
 
 
 ## -description

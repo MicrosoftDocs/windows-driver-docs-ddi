@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaEnablerSetMaximumScatterGatherElements function"]
 ms.keywords: DFDmaObjectRef_d9f2c46d-5981-4997-96b6-5a9db0dbfd8d.xml, WdfDmaEnablerSetMaximumScatterGatherElements, WdfDmaEnablerSetMaximumScatterGatherElements method, kmdf.wdfdmaenablersetmaximumscattergatherelements, wdf.wdfdmaenablersetmaximumscattergatherelements, wdfdmaenabler/WdfDmaEnablerSetMaximumScatterGatherElements
 req.header: wdfdmaenabler.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaEnablerSetMaximumScatterGatherElements
 ---
 
-# WdfDmaEnablerSetMaximumScatterGatherElements function
+# WdfDmaEnablerSetMaximumScatterGatherElements function (wdfdmaenabler.h)
+
+
 
 
 ## -description

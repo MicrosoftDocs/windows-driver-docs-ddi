@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrinterExtensionEventArgs::get_Request"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],Request property, IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs.get_Request, IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs::get_Request, Request property [Print Devices], Request property [Print Devices],IPrinterExtensionEventArgs interface, get_Request, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, printerextension/IPrinterExtensionEventArgs::get_Request
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEventArgs::get_Request
 ---
+
+# IPrinterExtensionEventArgs::get_Request function (printerextension.h)
 
 ## -description
 

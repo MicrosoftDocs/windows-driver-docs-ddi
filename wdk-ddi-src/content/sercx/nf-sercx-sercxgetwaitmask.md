@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxGetWaitMask function"]
 ms.keywords: 1/SerCxGetWaitMask, SerCxGetWaitMask, SerCxGetWaitMask method [Serial Ports], serports.sercxgetwaitmask
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxGetWaitMask
 ---
 
-# SerCxGetWaitMask function
+# SerCxGetWaitMask function (sercx.h)
+
+
 
 
 ## -description

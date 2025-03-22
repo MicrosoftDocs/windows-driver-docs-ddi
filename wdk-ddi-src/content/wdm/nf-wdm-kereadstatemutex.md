@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReadStateMutex function"]
 ms.keywords: KeReadStateMutex, KeReadStateMutex routine [Kernel-Mode Driver Architecture], k105_37175048-e4ee-4b79-93f3-013195192b4c.xml, kernel.kereadstatemutex, wdm/KeReadStateMutex
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeReadStateMutex
 ---
 
-# KeReadStateMutex function
+# KeReadStateMutex function (wdm.h)
+
+
 
 
 ## -description

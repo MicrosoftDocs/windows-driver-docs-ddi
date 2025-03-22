@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmMapIoSpaceEx function"]
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], MmMapIoSpaceEx, kernel.mmmapiospaceex, wdm/MmMapIoSpace
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - MmMapIoSpaceEx
 ---
 
-# MmMapIoSpaceEx function
+# MmMapIoSpaceEx function (wdm.h)
+
+
 
 
 ## -description

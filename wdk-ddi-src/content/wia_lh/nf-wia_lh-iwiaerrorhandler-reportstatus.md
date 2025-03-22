@@ -7,6 +7,7 @@ ms.date: 11/10/2022
 keywords: ["IWiaErrorHandler::ReportStatus"]
 ms.keywords: IWiaErrorHandler interface [Imaging Devices],ReportStatus method, IWiaErrorHandler.ReportStatus, IWiaErrorHandler::ReportStatus, IWiaErrorHandler_39808ebb-728b-40de-bdc0-48dd6614e59b.xml, ReportStatus, ReportStatus method [Imaging Devices], ReportStatus method [Imaging Devices],IWiaErrorHandler interface, image.iwiaerrorhandler_reportstatus, wia_lh/IWiaErrorHandler::ReportStatus
 req.header: wia_lh.h
+req.construct-type: function
 req.include-header: Wia_lh.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaErrorHandler::ReportStatus
 ---
+
+# IWiaErrorHandler::ReportStatus function (wia_lh.h)
 
 ## -description
 

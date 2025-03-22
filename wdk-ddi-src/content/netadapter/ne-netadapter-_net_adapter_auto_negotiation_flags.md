@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration"]
 ms.keywords: _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS, NET_ADAPTER_AUTO_NEGOTIATION_FLAGS,
 req.header: netadapter.h
+req.construct-type: enumeration
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -35,7 +36,9 @@ api_name:
  - NET_ADAPTER_AUTO_NEGOTIATION_FLAGS
 ---
 
-# _NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration
+# NET_ADAPTER_AUTO_NEGOTIATION_FLAGS enumeration (netadapter.h)
+
+
 
 
 ## -description

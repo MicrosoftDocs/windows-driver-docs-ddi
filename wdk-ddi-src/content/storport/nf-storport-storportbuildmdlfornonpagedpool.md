@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortBuildMdlForNonPagedPool function"]
 ms.keywords: StorPortBuildMdlForNonPagedPool, StorPortBuildMdlForNonPagedPool routine [Storage Devices], storage.storportbuildmdlfornonpagedpool, storport/StorPortBuildMdlForNonPagedPool, storprt_98151881-8a9f-4bf9-8365-ec50aecced4f.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortBuildMdlForNonPagedPool
 ---
 
-# StorPortBuildMdlForNonPagedPool function
+# StorPortBuildMdlForNonPagedPool function (storport.h)
+
+
 
 
 ## -description

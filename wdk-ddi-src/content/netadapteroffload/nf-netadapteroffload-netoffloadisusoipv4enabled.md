@@ -9,6 +9,7 @@ ms.date: 10/09/2020
 keywords: ["NetOffloadIsUsoIPv4Enabled function"]
 ms.keywords: NetOffloadIsUsoIPv4Enabled
 req.header: netadapteroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -39,7 +40,9 @@ api_name:
  - NetOffloadIsUsoIPv4Enabled
 ---
 
-# NetOffloadIsUsoIPv4Enabled function
+# NetOffloadIsUsoIPv4Enabled function (netadapteroffload.h)
+
+
 
 
 ## -description

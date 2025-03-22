@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_GENERAL_ERROR_CODE enumeration"]
 ms.keywords: DXGK_GENERAL_ERROR_CODE, DXGK_GENERAL_ERROR_CODE enumeration [Display Devices], DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, DXGK_GENERAL_ERROR_PAGE_FAULT, _DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_CODE, d3dkmdt/DXGK_GENERAL_ERROR_INVALID_INSTRUCTION, d3dkmdt/DXGK_GENERAL_ERROR_PAGE_FAULT, display.dxgk_general_error_code
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_GENERAL_ERROR_CODE
 ---
 
-# _DXGK_GENERAL_ERROR_CODE enumeration
+# DXGK_GENERAL_ERROR_CODE enumeration (d3dkmdt.h)
+
+
 
 
 ## -description

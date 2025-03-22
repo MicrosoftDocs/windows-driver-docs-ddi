@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2CompleteWait function"]
 ms.keywords: 2/SerCx2CompleteWait, SerCx2CompleteWait, SerCx2CompleteWait method [Serial Ports], serports.sercx2completewait
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2CompleteWait
 ---
 
-# SerCx2CompleteWait function
+# SerCx2CompleteWait function (sercx.h)
+
+
 
 
 ## -description

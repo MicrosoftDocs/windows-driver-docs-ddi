@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDevStateNormalize function"]
 ms.keywords: DFDeviceObjectGeneralRef_24d4e166-f4b0-4696-b775-62d0df565a8a.xml, WdfDevStateNormalize, WdfDevStateNormalize method, kmdf.wdfdevstatenormalize, wdf.wdfdevstatenormalize, wdfdevice/WdfDevStateNormalize
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDevStateNormalize
 ---
 
-# WdfDevStateNormalize function
+# WdfDevStateNormalize function (wdfdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisSystemProcessorCount function"]
 ms.keywords: NdisSystemProcessorCount, NdisSystemProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemProcessorCount, ndis_sysinfo_ref_2bec0b11-bc24-4c8d-9e78-ff94c7f1645f.xml, netvista.ndissystemprocessorcount
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NdisGroupMaxProcessorCount.
@@ -41,7 +42,9 @@ api_name:
  - NdisSystemProcessorCount
 ---
 
-# NdisSystemProcessorCount function
+# NdisSystemProcessorCount function (ndis.h)
+
+
 
 
 ## -description

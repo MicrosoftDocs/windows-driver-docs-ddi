@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WriteIoSpace64 function"]
 ms.keywords: WdbgExts_Ref_81d45454-9dd4-46f1-823b-1a2345890106.xml, WriteIoSpace64, WriteIoSpace64 function [Windows Debugging], debugger.writeiospace64, wdbgexts/WriteIoSpace64
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WriteIoSpace64
 ---
 
-# WriteIoSpace64 function
+# WriteIoSpace64 function (wdbgexts.h)
+
+
 
 
 ## -description

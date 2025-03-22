@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortCheckForDeviceExistence function"]
 ms.keywords: VideoPortCheckForDeviceExistence, VideoPortCheckForDeviceExistence function [Display Devices], VideoPort_Functions_3cb7198b-a2fe-423c-b0f3-11a154d087af.xml, display.videoportcheckfordeviceexistence, video/VideoPortCheckForDeviceExistence
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortCheckForDeviceExistence
 ---
 
-# VideoPortCheckForDeviceExistence function
+# VideoPortCheckForDeviceExistence function (video.h)
+
+
 
 
 ## -description

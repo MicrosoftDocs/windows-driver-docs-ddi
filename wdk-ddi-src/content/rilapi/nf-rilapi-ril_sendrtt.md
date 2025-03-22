@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SendRTT function"]
 ms.keywords: RIL_SendRTT, RIL_SendRTT method [Network Drivers Starting with Windows Vista], netvista.ril_sendrtt, rilapi/RIL_SendRTT
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SendRTT
 ---
 
-# RIL_SendRTT function
+# RIL_SendRTT function (rilapi.h)
+
+
 
 
 ## -description

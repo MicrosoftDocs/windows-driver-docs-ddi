@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortConvertUlongToPhysicalAddress function"]
 ms.keywords: AtaPortConvertUlongToPhysicalAddress, AtaPortConvertUlongToPhysicalAddress routine [Storage Devices], atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml, irb/AtaPortConvertUlongToPhysicalAddress, storage.ataportconvertulongtophysicaladdress
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortConvertUlongToPhysicalAddress
 ---
 
-# AtaPortConvertUlongToPhysicalAddress function
+# AtaPortConvertUlongToPhysicalAddress function (irb.h)
+
+
 
 
 ## -description

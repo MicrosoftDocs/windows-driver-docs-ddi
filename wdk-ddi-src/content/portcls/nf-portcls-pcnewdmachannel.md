@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewDmaChannel function"]
 ms.keywords: PcNewDmaChannel, PcNewDmaChannel function [Audio Devices], audio.pcnewdmachannel, audpc-routines_51deae73-e4dd-4b39-ae73-77cf31f8ec06.xml, portcls/PcNewDmaChannel
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete. For all new audio drivers, use a IPortWaveXxx::NewXxxDmaChannel method instead. The PortCls system driver implements the PcNewDmaChannel function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewDmaChannel
 ---
 
-# PcNewDmaChannel function
+# PcNewDmaChannel function (portcls.h)
+
+
 
 
 ## -description

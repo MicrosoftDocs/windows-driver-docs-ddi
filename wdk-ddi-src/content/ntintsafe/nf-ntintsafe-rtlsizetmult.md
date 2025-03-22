@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSizeTMult function"]
 ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], kernel.rtlsizetmult, ntintsafe/RtlSizeTMult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSizeTMult
 ---
 
-# RtlSizeTMult function
+# RtlSizeTMult function (ntintsafe.h)
+
+
 
 
 ## -description

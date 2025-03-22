@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsAnsiCharacterLegal macro"]
 ms.keywords: FsRtlIsAnsiCharacterLegal, FsRtlIsAnsiCharacterLegal function [Installable File System Drivers], fsrtlref_dad0349c-b705-4a0a-a1ea-359517e65eae.xml, ifsk.fsrtlisansicharacterlegal, ntifs/FsRtlIsAnsiCharacterLegal
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIsAnsiCharacterLegal
 ---
 
-# FsRtlIsAnsiCharacterLegal macro
+# FsRtlIsAnsiCharacterLegal function (ntifs.h)
+
+
 
 
 ## -description

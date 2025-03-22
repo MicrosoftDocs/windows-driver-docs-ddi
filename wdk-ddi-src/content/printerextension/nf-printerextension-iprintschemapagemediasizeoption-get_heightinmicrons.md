@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageMediaSizeOption::get_HeightInMicrons"]
 ms.keywords: HeightInMicrons property [Print Devices], HeightInMicrons property [Print Devices],IPrintSchemaPageMediaSizeOption interface, IPrintSchemaPageMediaSizeOption interface [Print Devices],HeightInMicrons property, IPrintSchemaPageMediaSizeOption.HeightInMicrons, IPrintSchemaPageMediaSizeOption.get_HeightInMicrons, IPrintSchemaPageMediaSizeOption::HeightInMicrons, IPrintSchemaPageMediaSizeOption::get_HeightInMicrons, get_HeightInMicrons, print.iprintschemapagemediasizeoption_heightinmicrons, printerextension/IPrintSchemaPageMediaSizeOption::HeightInMicrons, printerextension/IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaPageMediaSizeOption::get_HeightInMicrons
 ---
+
+# IPrintSchemaPageMediaSizeOption::get_HeightInMicrons function (printerextension.h)
 
 ## -description
 

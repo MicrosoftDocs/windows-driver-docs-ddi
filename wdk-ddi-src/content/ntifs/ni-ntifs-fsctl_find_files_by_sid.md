@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_FIND_FILES_BY_SID
 ---
 
-# FSCTL_FIND_FILES_BY_SID ioctl (ntifs.h)
+# FSCTL_FIND_FILES_BY_SID IOCTL (ntifs.h)
+
+
 
 ## -description
 

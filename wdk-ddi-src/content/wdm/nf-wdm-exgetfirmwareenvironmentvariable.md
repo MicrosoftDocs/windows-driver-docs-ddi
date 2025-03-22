@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["ExGetFirmwareEnvironmentVariable function"]
 ms.keywords: ExGetFirmwareEnvironmentVariable, ExGetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exgetfirmwareenvironmentvariable, wdm/ExGetFirmwareEnvironmentVariable
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExGetFirmwareEnvironmentVariable
 ---
+
+# ExGetFirmwareEnvironmentVariable function (wdm.h)
 
 ## -description
 

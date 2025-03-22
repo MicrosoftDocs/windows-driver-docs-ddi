@@ -7,6 +7,7 @@ ms.date: 04/21/2022
 keywords: ["CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG)"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetValidValues method, CWiauPropertyList.SetValidValues, CWiauPropertyList.SetValidValues(INT,LONG,LONG,LONG), CWiauPropertyList::SetValidValues, CWiauPropertyList::SetValidValues(INT  ,LONG  ,LONG  ,LONG  ), CWiauPropertyList::SetValidValues(INT,LONG,LONG,LONG), SetValidValues, SetValidValues method [Imaging Devices], SetValidValues method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setvalidvalues_flag_, wiauFncs_11c27970-2fa2-480d-9f60-b12202b9b03c.xml, wiautil/CWiauPropertyList::SetValidValues
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CWiauPropertyList::SetValidValues
 ---
+
+# CWiauPropertyList::SetValidValues function (wiautil.h)
 
 ## -description
 

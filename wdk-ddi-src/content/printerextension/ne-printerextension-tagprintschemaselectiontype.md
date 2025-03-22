@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["tagPrintSchemaSelectionType enumeration"]
 ms.keywords: PrintSchemaSelectionType, PrintSchemaSelectionType enumeration [Print Devices], PrintSchemaSelectionType_PickMany, PrintSchemaSelectionType_PickOne, print.printschemaselectiontype, printerextension/PrintSchemaSelectionType, printerextension/PrintSchemaSelectionType_PickMany, printerextension/PrintSchemaSelectionType_PickOne, tagPrintSchemaSelectionType
 req.header: printerextension.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - tagPrintSchemaSelectionType
  - PrintSchemaSelectionType
 ---
+
+# tagPrintSchemaSelectionType enumeration (printerextension.h)
 
 ## -description
 

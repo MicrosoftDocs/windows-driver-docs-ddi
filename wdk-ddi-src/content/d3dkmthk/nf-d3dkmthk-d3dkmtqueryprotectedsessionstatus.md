@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTQueryProtectedSessionStatus function"]
 ms.keywords: D3DKMTQueryProtectedSessionStatus, D3DKMTQueryProtectedSessionStatus method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionStatus, display.d3dkmtqueryprotectedsessionstatus
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTQueryProtectedSessionStatus
 ---
 
-# D3DKMTQueryProtectedSessionStatus function
+# D3DKMTQueryProtectedSessionStatus function (d3dkmthk.h)
+
+
 
 
 ## -description

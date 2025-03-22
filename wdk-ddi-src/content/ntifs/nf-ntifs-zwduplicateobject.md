@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwDuplicateObject function"]
 ms.keywords: NtDuplicateObject, ZwDuplicateObject, ZwDuplicateObject routine [Kernel-Mode Driver Architecture], kernel.zwduplicateobject, ntifs/NtDuplicateObject, ntifs/ZwDuplicateObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntdef.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - ZwDuplicateObject
 ---
 
-# ZwDuplicateObject function
+# ZwDuplicateObject function (ntifs.h)
+
+
 
 
 ## -description

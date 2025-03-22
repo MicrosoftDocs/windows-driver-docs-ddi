@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeGetRecommendedSharedDataAlignment function"]
 ms.keywords: KeGetRecommendedSharedDataAlignment, KeGetRecommendedSharedDataAlignment routine [Kernel-Mode Driver Architecture], k105_537a55c5-9c7e-49cb-8a27-de61e92b78e2.xml, kernel.kegetrecommendedshareddataalignment, wdm/KeGetRecommendedSharedDataAlignment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeGetRecommendedSharedDataAlignment
 ---
 
-# KeGetRecommendedSharedDataAlignment function
+# KeGetRecommendedSharedDataAlignment function (wdm.h)
+
+
 
 
 ## -description

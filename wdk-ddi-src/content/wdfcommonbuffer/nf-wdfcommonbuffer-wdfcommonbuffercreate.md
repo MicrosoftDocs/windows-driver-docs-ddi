@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCommonBufferCreate function"]
 ms.keywords: DFCommonBufferObjectRef_2ef72eb3-fa4c-40f8-aa73-54bb5dcb9e0c.xml, WdfCommonBufferCreate, WdfCommonBufferCreate method, kmdf.wdfcommonbuffercreate, wdf.wdfcommonbuffercreate, wdfcommonbuffer/WdfCommonBufferCreate
 req.header: wdfcommonbuffer.h
+req.construct-type: function
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfCommonBufferCreate
 ---
 
-# WdfCommonBufferCreate function
+# WdfCommonBufferCreate function (wdfcommonbuffer.h)
+
+
 
 
 ## -description

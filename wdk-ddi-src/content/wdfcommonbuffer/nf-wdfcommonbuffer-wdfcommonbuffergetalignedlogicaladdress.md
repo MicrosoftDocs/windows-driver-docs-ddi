@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCommonBufferGetAlignedLogicalAddress function"]
 ms.keywords: DFCommonBufferObjectRef_8381c500-1cd1-4271-9679-33a213a2307f.xml, WdfCommonBufferGetAlignedLogicalAddress, WdfCommonBufferGetAlignedLogicalAddress method, kmdf.wdfcommonbuffergetalignedlogicaladdress, wdf.wdfcommonbuffergetalignedlogicaladdress, wdfcommonbuffer/WdfCommonBufferGetAlignedLogicalAddress
 req.header: wdfcommonbuffer.h
+req.construct-type: function
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfCommonBufferGetAlignedLogicalAddress
 ---
 
-# WdfCommonBufferGetAlignedLogicalAddress function
+# WdfCommonBufferGetAlignedLogicalAddress function (wdfcommonbuffer.h)
+
+
 
 
 ## -description

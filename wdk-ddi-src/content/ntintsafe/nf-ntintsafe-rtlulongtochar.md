@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlULongToChar function"]
 ms.keywords: RtlULongToChar, RtlULongToChar function [Kernel-Mode Driver Architecture], kernel.rtlulongtochar, ntintsafe/RtlULongToChar
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlULongToChar
 ---
 
-# RtlULongToChar function
+# RtlULongToChar function (ntintsafe.h)
+
+
 
 
 ## -description

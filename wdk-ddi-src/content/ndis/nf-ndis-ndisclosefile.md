@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCloseFile function"]
 ms.keywords: NdisCloseFile, NdisCloseFile function [Network Drivers Starting with Windows Vista], ndis/NdisCloseFile, ndis_file_ref_17933dee-e6d5-4b5d-a078-84617c38c46c.xml, netvista.ndisclosefile
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCloseFile (NDIS 5.1)) in Windows   Vista. Supported for NDIS 5.1 drivers (see    NdisCloseFile (NDIS 5.1)) in Windows   XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCloseFile
 ---
 
-# NdisCloseFile function
+# NdisCloseFile function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_SetUsageValue function"]
 ms.keywords: HidP_SetUsageValue, HidP_SetUsageValue routine [Human Input Devices], hid.hidp_setusagevalue, hidfunc_8e494117-11e2-42b8-96b0-6aaa2cb35d44.xml, hidpi/HidP_SetUsageValue
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_SetUsageValue
 ---
 
-# HidP_SetUsageValue function
+# HidP_SetUsageValue function (hidpi.h)
+
+
 
 
 ## -description

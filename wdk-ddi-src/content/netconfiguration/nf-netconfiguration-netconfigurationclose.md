@@ -7,6 +7,7 @@ ms.date: 02/07/2018
 keywords: ["NetConfigurationClose function"]
 ms.keywords: NetConfigurationClose
 req.header: netconfiguration.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetConfigurationClose
 ---
 
-# NetConfigurationClose function
+# NetConfigurationClose function (netconfiguration.h)
+
+
 
 
 ## -description

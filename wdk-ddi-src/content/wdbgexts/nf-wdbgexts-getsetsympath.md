@@ -8,6 +8,7 @@ ms.date: 07/27/2023
 keywords: ["GetSetSympath function"]
 ms.keywords: GetSetSympath, GetSetSympath function [Windows Debugging], WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, debugger.getsetsympath, wdbgexts/GetSetSympath
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetSetSympath
 ---
 
-# GetSetSympath function
+# GetSetSympath function (wdbgexts.h)
+
+
 
 ## -description
 

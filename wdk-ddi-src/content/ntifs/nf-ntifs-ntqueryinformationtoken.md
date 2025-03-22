@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["NtQueryInformationToken function"]
 ms.keywords: NtQueryInformationToken, ZwQueryInformationToken, ZwQueryInformationToken routine [Kernel-Mode Driver Architecture], k111_2f945a17-f3b4-423a-90fa-6f02d240d42d.xml, kernel.zwqueryinformationtoken, ntifs/NtQueryInformationToken, ntifs/ZwQueryInformationToken
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - NtQueryInformationToken
 ---
 
-# NtQueryInformationToken function
+# NtQueryInformationToken function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 10/20/2021
 keywords: ["StorPortGetBusData function"]
 ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetBusData
 ---
 
-# StorPortGetBusData function
+# StorPortGetBusData function (storport.h)
+
+
 
 ## -description
 

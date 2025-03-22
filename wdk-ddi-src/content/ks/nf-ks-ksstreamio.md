@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsStreamIo function"]
 ms.keywords: KsStreamIo, KsStreamIo function [Streaming Media Devices], ks/KsStreamIo, ksfunc_c2f256a3-f01a-45e1-b7de-1eed5bacde7a.xml, stream.ksstreamio
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsStreamIo
 ---
+
+# KsStreamIo function (ks.h)
 
 ## -description
 

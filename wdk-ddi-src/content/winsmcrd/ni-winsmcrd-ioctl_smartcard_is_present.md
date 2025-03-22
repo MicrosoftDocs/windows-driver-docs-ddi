@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_IS_PRESENT IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_IS_PRESENT, IOCTL_SMARTCARD_IS_PRESENT control, IOCTL_SMARTCARD_IS_PRESENT control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_is_present, winsmcrd/IOCTL_SMARTCARD_IS_PRESENT
 req.header: winsmcrd.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SMARTCARD_IS_PRESENT
 ---
 
-# IOCTL_SMARTCARD_IS_PRESENT IOCTL
+# IOCTL_SMARTCARD_IS_PRESENT IOCTL (winsmcrd.h)
+
+
+
+
 
 
 ## -description

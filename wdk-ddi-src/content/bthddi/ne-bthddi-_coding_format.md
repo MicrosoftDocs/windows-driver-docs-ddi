@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["CODING_FORMAT enumeration"]
 ms.keywords: "*PCODING_FORMAT, CODING_FORMAT, CODING_FORMAT enumeration [Bluetooth Devices], PCODING_FORMAT, PCODING_FORMAT enumeration pointer [Bluetooth Devices], _CODING_FORMAT, bltooth.coding_format, bthddi/, bthddi/CODING_FORMAT, bthddi/PCODING_FORMAT"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CODING_FORMAT
 ---
 
-# _CODING_FORMAT enumeration
+# CODING_FORMAT enumeration (bthddi.h)
+
+
 
 
 ## -description

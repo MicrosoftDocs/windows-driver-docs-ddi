@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMISetSingleInstance function"]
 ms.keywords: IoWMISetSingleInstance, IoWMISetSingleInstance routine [Kernel-Mode Driver Architecture], k104_35479ad6-0f12-4d8b-b375-faa271cf65fd.xml, kernel.iowmisetsingleinstance, wdm/IoWMISetSingleInstance
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMISetSingleInstance
 ---
 
-# IoWMISetSingleInstance function
+# IoWMISetSingleInstance function (wdm.h)
+
+
 
 
 ## -description

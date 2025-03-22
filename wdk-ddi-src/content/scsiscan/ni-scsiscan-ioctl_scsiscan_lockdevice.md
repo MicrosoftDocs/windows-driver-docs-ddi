@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_SCSISCAN_LOCKDEVICE IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_LOCKDEVICE, IOCTL_SCSISCAN_LOCKDEVICE control, IOCTL_SCSISCAN_LOCKDEVICE control code [Imaging Devices], image.ioctl_scsiscan_lockdevice, scsiscan/IOCTL_SCSISCAN_LOCKDEVICE, stifnc_9a61e56c-42e9-4b97-89cb-8cf983582168.xml
 req.header: scsiscan.h
+req.construct-type: ioctl
 req.include-header: Scsiscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSISCAN_LOCKDEVICE
 ---
 
-# IOCTL_SCSISCAN_LOCKDEVICE IOCTL
+# IOCTL_SCSISCAN_LOCKDEVICE IOCTL (scsiscan.h)
+
+
+
+
 
 
 ## -description

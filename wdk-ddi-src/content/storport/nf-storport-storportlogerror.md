@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortLogError function"]
 ms.keywords: StorPortLogError, StorPortLogError routine [Storage Devices], storage.storportlogerror, storport/StorPortLogError, storprt_0eb9851c-bfce-49aa-a22b-3d16a72b3dde.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortLogError
 ---
 
-# StorPortLogError function
+# StorPortLogError function (storport.h)
+
+
 
 
 ## -description

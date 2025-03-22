@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["IStiDevice::Initialize"]
 ms.keywords: IStiDevice interface [Imaging Devices],Initialize method, IStiDevice.Initialize, IStiDevice::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiDevice interface, image.istidevice_initialize, sti/IStiDevice::Initialize, stifnc_abeacac4-60ef-41f0-b70e-bf7da7fa110b.xml
 req.header: sti.h
+req.construct-type: function
 req.include-header: Sti.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiDevice::Initialize
 ---
+
+# IStiDevice::Initialize function (sti.h)
 
 ## -description
 

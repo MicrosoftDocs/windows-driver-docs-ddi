@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsDeleteLogByPointer function"]
 ms.keywords: ClfsDeleteLogByPointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, kernel.clfsdeletelogbypointer, wdm/ClfsDeleteLogByPointer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsDeleteLogByPointer
 ---
 
-# ClfsDeleteLogByPointer function
+# ClfsDeleteLogByPointer function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFSendNetBufferLists function"]
 ms.keywords: NdisFSendNetBufferLists, NdisFSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_333e9ef3-6858-4b5b-bca1-4f06da775906.xml, ndis/NdisFSendNetBufferLists, netvista.ndisfsendnetbufferlists
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFSendNetBufferLists
 ---
 
-# NdisFSendNetBufferLists function
+# NdisFSendNetBufferLists function (ndis.h)
+
+
 
 
 ## -description

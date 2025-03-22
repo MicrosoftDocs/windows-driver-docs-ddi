@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["INDICATION_CODE enumeration"]
 ms.keywords: "*PINDICATION_CODE, INDICATION_CODE, INDICATION_CODE enumeration [Bluetooth Devices], IndicationAddReference, IndicationFreeExtraOptions, IndicationPairDevice, IndicationRecvPacket, IndicationReleaseReference, IndicationRemoteConfigRequest, IndicationRemoteConfigResponse, IndicationRemoteConnect, IndicationRemoteConnectLE, IndicationRemoteDisconnect, IndicationUnpairDevice, IndicationUnpersonalizeDevice, PINDICATION_CODE, PINDICATION_CODE enumeration pointer [Bluetooth Devices], _INDICATION_CODE, bltooth.indication_code, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/INDICATION_CODE, bthddi/IndicationAddReference, bthddi/IndicationFreeExtraOptions, bthddi/IndicationPairDevice, bthddi/IndicationRecvPacket, bthddi/IndicationReleaseReference, bthddi/IndicationRemoteConfigRequest, bthddi/IndicationRemoteConfigResponse, bthddi/IndicationRemoteConnect, bthddi/IndicationRemoteConnectLE, bthddi/IndicationRemoteDisconnect, bthddi/IndicationUnpairDevice, bthddi/IndicationUnpersonalizeDevice, bthddi/PINDICATION_CODE"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - INDICATION_CODE
 ---
 
-# _INDICATION_CODE enumeration
+# INDICATION_CODE enumeration (bthddi.h)
+
+
 
 
 ## -description

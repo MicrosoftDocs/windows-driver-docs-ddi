@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlxAnsiStringToUnicodeSize function"]
 ms.keywords: RtlxAnsiStringToUnicodeSize, RtlxAnsiStringToUnicodeSize routine [Kernel-Mode Driver Architecture], k109_9343d498-bc89-428c-8e68-53c205c58bae.xml, kernel.rtlxansistringtounicodesize, wdm/RtlxAnsiStringToUnicodeSize
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlxAnsiStringToUnicodeSize
 ---
 
-# RtlxAnsiStringToUnicodeSize function
+# RtlxAnsiStringToUnicodeSize function (wdm.h)
+
+
 
 
 ## -description

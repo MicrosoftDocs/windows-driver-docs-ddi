@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["KeQueryLogicalProcessorRelationship function"]
 ms.keywords: KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeQueryLogicalProcessorRelationship
 ---
+
+# KeQueryLogicalProcessorRelationship function (wdm.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaDrvItem::GetFullItemName"]
 ms.keywords: DrvItem_1b166476-d17a-4953-9c73-6e3d7c9cd0f9.xml, GetFullItemName, GetFullItemName method [Imaging Devices], GetFullItemName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetFullItemName method, IWiaDrvItem.GetFullItemName, IWiaDrvItem::GetFullItemName, image.iwiadrvitem_getfullitemname, wiamindr_lh/IWiaDrvItem::GetFullItemName
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaDrvItem::GetFullItemName
 ---
+
+# IWiaDrvItem::GetFullItemName function (wiamindr_lh.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 11/10/2022
 keywords: ["IWiaImageFilter::InitializeFilter"]
 ms.keywords: IWiaErrorHandler_f9d42d0d-1768-4868-bd41-b20297008312.xml, IWiaImageFilter interface [Imaging Devices],InitializeFilter method, IWiaImageFilter.InitializeFilter, IWiaImageFilter::InitializeFilter, InitializeFilter, InitializeFilter method [Imaging Devices], InitializeFilter method [Imaging Devices],IWiaImageFilter interface, image.iwiaimagefilter_initializefilter, wia_lh/IWiaImageFilter::InitializeFilter
 req.header: wia_lh.h
+req.construct-type: function
 req.include-header: Wia_lh.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaImageFilter::InitializeFilter
 ---
+
+# IWiaImageFilter::InitializeFilter function (wia_lh.h)
 
 ## -description
 

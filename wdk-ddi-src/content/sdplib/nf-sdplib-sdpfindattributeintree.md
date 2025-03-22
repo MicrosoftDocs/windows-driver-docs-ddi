@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpFindAttributeInTree function"]
 ms.keywords: SdpFindAttributeInTree, SdpFindAttributeInTree function [Bluetooth Devices], bltooth.sdpfindattributeintree, bth_funcs_8daefa96-6201-462a-9c91-485c5f9eaa98.xml, sdplib/SdpFindAttributeInTree
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpFindAttributeInTree
 ---
 
-# SdpFindAttributeInTree function
+# SdpFindAttributeInTree function (sdplib.h)
+
+
 
 
 ## -description

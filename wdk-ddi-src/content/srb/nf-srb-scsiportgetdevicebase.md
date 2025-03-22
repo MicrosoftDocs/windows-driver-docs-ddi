@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortGetDeviceBase function"]
 ms.keywords: ScsiPortGetDeviceBase, ScsiPortGetDeviceBase routine [Storage Devices], scsiprt_2924bfb1-e5a0-4533-afd7-65d2d7962b46.xml, srb/ScsiPortGetDeviceBase, storage.scsiportgetdevicebase
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortGetDeviceBase
 ---
 
-# ScsiPortGetDeviceBase function
+# ScsiPortGetDeviceBase function (srb.h)
+
+
 
 
 ## -description

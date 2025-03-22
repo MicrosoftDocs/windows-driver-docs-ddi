@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["KeMemoryBarrier function"]
 ms.keywords: KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, kernel.kememorybarrier, wdm/KeMemoryBarrier
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeMemoryBarrier
 ---
+
+# KeMemoryBarrier function (wdm.h)
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_PANEL enumeration"]
 ms.keywords: _ACPI_PLD_PANEL, ACPI_PLD_PANEL, *PACPI_PLD_PANEL, AcpiPldPanel
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - ACPI_PLD_PANEL
 ---
 
-# _ACPI_PLD_PANEL enumeration
+# ACPI_PLD_PANEL enumeration (acpitabl.h)
+
+
 
 
 ## -description

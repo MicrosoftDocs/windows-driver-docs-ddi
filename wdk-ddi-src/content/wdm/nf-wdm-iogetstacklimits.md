@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetStackLimits function"]
 ms.keywords: IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, wdm/IoGetStackLimits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetStackLimits
 ---
 
-# IoGetStackLimits function
+# IoGetStackLimits function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmCommitTransaction function"]
 ms.keywords: TmCommitTransaction, TmCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.tmcommittransaction, ktm_ref_e5e36a40-1ee7-469c-acd9-8e7a44017853.xml, wdm/TmCommitTransaction
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmCommitTransaction
 ---
 
-# TmCommitTransaction function
+# TmCommitTransaction function (wdm.h)
+
+
 
 
 ## -description

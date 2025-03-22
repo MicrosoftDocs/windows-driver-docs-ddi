@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIDeviceObjectToProviderId function"]
 ms.keywords: IoWMIDeviceObjectToProviderId, IoWMIDeviceObjectToProviderId routine [Kernel-Mode Driver Architecture], k104_e24ce1c2-9f90-49b5-88be-1bbf40074aee.xml, kernel.iowmideviceobjecttoproviderid, wdm/IoWMIDeviceObjectToProviderId
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIDeviceObjectToProviderId
 ---
 
-# IoWMIDeviceObjectToProviderId function
+# IoWMIDeviceObjectToProviderId function (wdm.h)
+
+
 
 
 ## -description

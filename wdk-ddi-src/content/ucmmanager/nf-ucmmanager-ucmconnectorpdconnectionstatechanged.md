@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmConnectorPdConnectionStateChanged function"]
 ms.keywords: UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorPdConnectionStateChanged
 ---
 
-# UcmConnectorPdConnectionStateChanged function
+# UcmConnectorPdConnectionStateChanged function (ucmmanager.h)
+
+
 
 
 ## -description

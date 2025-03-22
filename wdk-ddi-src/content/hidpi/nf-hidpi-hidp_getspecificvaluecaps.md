@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetSpecificValueCaps function"]
 ms.keywords: HidP_GetSpecificValueCaps, HidP_GetSpecificValueCaps routine [Human Input Devices], hid.hidp_getspecificvaluecaps, hidfunc_627cf175-fa12-4082-9d13-8ec454be4a74.xml, hidpi/HidP_GetSpecificValueCaps
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_GetSpecificValueCaps
 ---
 
-# HidP_GetSpecificValueCaps function
+# HidP_GetSpecificValueCaps function (hidpi.h)
+
+
 
 
 ## -description

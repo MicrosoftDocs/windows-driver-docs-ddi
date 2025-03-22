@@ -8,6 +8,7 @@ ms.date: 04/25/2023
 keywords: ["FltGetVolumeContext function"]
 ms.keywords: FltApiRef_e_to_o_8cec5d5c-18c3-4ffe-be18-fffcfc8d0c14.xml, FltGetVolumeContext, FltGetVolumeContext routine [Installable File System Drivers], fltkernel/FltGetVolumeContext, ifsk.fltgetvolumecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetVolumeContext
 ---
 
-# FltGetVolumeContext function
+# FltGetVolumeContext function (fltkernel.h)
+
+
 
 ## -description
 

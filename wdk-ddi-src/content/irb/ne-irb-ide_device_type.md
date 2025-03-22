@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_DEVICE_TYPE enumeration"]
 ms.keywords: DeviceIsAta, DeviceIsAtapi, DeviceNotExist, DeviceUnknown, IDE_DEVICE_TYPE, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/DeviceIsAta, irb/DeviceIsAtapi, irb/DeviceNotExist, irb/DeviceUnknown, irb/IDE_DEVICE_TYPE, storage.ide_device_type, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml
 req.header: irb.h
+req.construct-type: enumeration
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDE_DEVICE_TYPE
 ---
 
-# IDE_DEVICE_TYPE enumeration
+# IDE_DEVICE_TYPE enumeration (irb.h)
+
+
 
 
 ## -description

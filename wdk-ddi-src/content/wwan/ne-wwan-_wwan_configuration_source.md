@@ -7,6 +7,7 @@ ms.date: 12/29/2021
 keywords: ["WWAN_CONFIGURATION_SOURCE enumeration"]
 ms.keywords: _WWAN_CONFIGURATION_SOURCE, WWAN_CONFIGURATION_SOURCE, *PWWAN_CONFIGURATION_SOURCE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_CONFIGURATION_SOURCE
 ---
 
-# _WWAN_CONFIGURATION_SOURCE enumeration
+# WWAN_CONFIGURATION_SOURCE enumeration (wwan.h)
+
+
 
 
 ## -description

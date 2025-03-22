@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["PcwUnregister function"]
 ms.keywords: PcwUnregister, PcwUnregister function [Driver Development Tools], devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, wdm/PcwUnregister
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PcwUnregister
 ---
+
+# PcwUnregister function (wdm.h)
 
 ## -description
 

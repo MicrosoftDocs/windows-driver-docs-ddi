@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWaitLockRelease function"]
 ms.keywords: DFSynchroRef_f64028b9-9f56-4d2a-8341-1b305ab02eff.xml, WdfWaitLockRelease, WdfWaitLockRelease method, kmdf.wdfwaitlockrelease, wdf.wdfwaitlockrelease, wdfsync/WdfWaitLockRelease
 req.header: wdfsync.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WdfWaitLockRelease
 ---
 
-# WdfWaitLockRelease function
+# WdfWaitLockRelease function (wdfsync.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlOemStringToUnicodeString function"]
 ms.keywords: RtlOemStringToUnicodeString, RtlOemStringToUnicodeString routine [Installable File System Drivers], ifsk.rtloemstringtounicodestring, ntifs/RtlOemStringToUnicodeString, rtlref_6b1f3210-6b02-4f20-9887-b7efd0090b7f.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlOemStringToUnicodeString
 ---
 
-# RtlOemStringToUnicodeString function
+# RtlOemStringToUnicodeString function (ntifs.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["IPMI_OS_SEL_RECORD_TYPE enumeration"]
 ms.keywords: IPMI_OS_SEL_RECORD_TYPE, IPMI_OS_SEL_RECORD_TYPE, *PIPMI_OS_SEL_RECORD_TYPE,
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - IPMI_OS_SEL_RECORD_TYPE
 ---
 
-# IPMI_OS_SEL_RECORD_TYPE enumeration
+# IPMI_OS_SEL_RECORD_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

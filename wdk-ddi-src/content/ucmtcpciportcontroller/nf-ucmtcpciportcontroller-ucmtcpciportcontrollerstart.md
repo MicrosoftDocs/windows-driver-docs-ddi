@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmTcpciPortControllerStart function"]
 ms.keywords: UcmTcpciPortControllerStart, UcmTcpciPortControllerStart method [Buses], buses.ucmtcpciportcontrollerstart, ucmtcpciportcontroller/UcmTcpciPortControllerStart
 req.header: ucmtcpciportcontroller.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmTcpciPortControllerStart
 ---
 
-# UcmTcpciPortControllerStart function
+# UcmTcpciPortControllerStart function (ucmtcpciportcontroller.h)
+
+
 
 
 ## -description

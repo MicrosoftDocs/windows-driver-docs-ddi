@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsCreateLogFile function"]
 ms.keywords: ClfsCreateLogFile, ClfsCreateLogFile routine [Kernel-Mode Driver Architecture], Clfs_79aa05cc-fff5-404a-93c6-89c9d938f104.xml, kernel.clfscreatelogfile, wdm/ClfsCreateLogFile
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsCreateLogFile
 ---
 
-# ClfsCreateLogFile function
+# ClfsCreateLogFile function (wdm.h)
+
+
 
 
 ## -description

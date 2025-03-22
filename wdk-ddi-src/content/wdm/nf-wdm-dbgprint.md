@@ -7,6 +7,7 @@ ms.date: 01/19/2023
 keywords: ["DbgPrint function"]
 ms.keywords: DbgPrint, DbgPrint routine [Driver Development Tools], DebugFns_5e11bbcc-adc2-46c0-b371-0e54c50bb2dc.xml, ULONG, devtest.dbgprint, wdm/DbgPrint
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - DbgPrint
 ---
+
+# DbgPrint function (wdm.h)
 
 ## -description
 

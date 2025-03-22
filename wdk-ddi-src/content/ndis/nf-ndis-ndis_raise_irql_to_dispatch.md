@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_RAISE_IRQL_TO_DISPATCH macro"]
 ms.keywords: NDIS_RAISE_IRQL_TO_DISPATCH
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -37,7 +38,9 @@ api_name:
  - NDIS_RAISE_IRQL_TO_DISPATCH
 ---
 
-# NDIS_RAISE_IRQL_TO_DISPATCH macro
+# NDIS_RAISE_IRQL_TO_DISPATCH function (ndis.h)
+
+
 
 
 ## -description

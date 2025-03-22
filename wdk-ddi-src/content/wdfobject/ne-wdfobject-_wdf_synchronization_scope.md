@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_SYNCHRONIZATION_SCOPE enumeration"]
 ms.keywords: DFGenObjectRef_62dd47ff-1d2a-454e-9083-cbf68f1679d2.xml, WDF_SYNCHRONIZATION_SCOPE, WDF_SYNCHRONIZATION_SCOPE enumeration, WdfSynchronizationScopeDevice, WdfSynchronizationScopeInheritFromParent, WdfSynchronizationScopeInvalid, WdfSynchronizationScopeNone, WdfSynchronizationScopeQueue, _WDF_SYNCHRONIZATION_SCOPE, kmdf.wdf_synchronization_scope, wdf.wdf_synchronization_scope, wdfobject/WDF_SYNCHRONIZATION_SCOPE, wdfobject/WdfSynchronizationScopeDevice, wdfobject/WdfSynchronizationScopeInheritFromParent, wdfobject/WdfSynchronizationScopeInvalid, wdfobject/WdfSynchronizationScopeNone, wdfobject/WdfSynchronizationScopeQueue
 req.header: wdfobject.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_SYNCHRONIZATION_SCOPE
 ---
 
-# _WDF_SYNCHRONIZATION_SCOPE enumeration
+# WDF_SYNCHRONIZATION_SCOPE enumeration (wdfobject.h)
+
+
 
 
 ## -description

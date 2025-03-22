@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRegistryChannelSubkeyWriteDeferred function"]
 ms.keywords: AtaPortRegistryChannelSubKeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, irb/AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortRegistryChannelSubkeyWriteDeferred
 ---
 
-# AtaPortRegistryChannelSubkeyWriteDeferred function
+# AtaPortRegistryChannelSubkeyWriteDeferred function (irb.h)
+
+
 
 
 ## -description

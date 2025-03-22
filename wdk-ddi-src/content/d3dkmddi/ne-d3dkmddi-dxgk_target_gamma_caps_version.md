@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_TARGET_GAMMA_CAPS_VERSION enumeration"]
 ms.keywords: DXGK_TARGET_GAMMA_CAPS_VERSION, DXGK_TARGET_GAMMA_CAPS_VERSION,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_TARGET_GAMMA_CAPS_VERSION enumeration
+# DXGK_TARGET_GAMMA_CAPS_VERSION enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

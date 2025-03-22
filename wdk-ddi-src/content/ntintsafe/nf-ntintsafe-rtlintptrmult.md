@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlIntPtrMult function"]
 ms.keywords: RtlIntPtrMult, RtlIntPtrMult function [Kernel-Mode Driver Architecture], kernel.rtlintptrmult, ntintsafe/RtlIntPtrMult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlIntPtrMult
 ---
 
-# RtlIntPtrMult function
+# RtlIntPtrMult function (ntintsafe.h)
+
+
 
 
 ## -description

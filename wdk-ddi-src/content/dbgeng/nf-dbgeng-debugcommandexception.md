@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DebugCommandException function"]
 ms.keywords: DebugCommandException, DebugCommandException function [Windows Debugging], dbgeng/DebugCommandException, debugger.debugcommandexception
 req.header: dbgeng.h
+req.construct-type: function
 req.include-header: Dbgeng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DebugCommandException
 ---
 
-# DebugCommandException function
+# DebugCommandException function (dbgeng.h)
+
+
 
 
 ## -description

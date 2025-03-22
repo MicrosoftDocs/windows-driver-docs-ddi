@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisSystemActiveProcessorCount function"]
 ms.keywords: NdisSystemActiveProcessorCount, NdisSystemActiveProcessorCount function [Network Drivers Starting with Windows Vista], ndis/NdisSystemActiveProcessorCount, ndis_sysinfo_ref_f69290a6-03f9-4fe8-bc02-6f58a650fa00.xml, netvista.ndissystemactiveprocessorcount
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.1. For NDIS 6.20 and later, use NdisGroupActiveProcessorCount instead.
@@ -41,7 +42,9 @@ api_name:
  - NdisSystemActiveProcessorCount
 ---
 
-# NdisSystemActiveProcessorCount function
+# NdisSystemActiveProcessorCount function (ndis.h)
+
+
 
 
 ## -description

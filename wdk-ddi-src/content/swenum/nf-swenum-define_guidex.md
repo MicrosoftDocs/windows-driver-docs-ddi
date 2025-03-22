@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["DEFINE_GUIDEX function"]
 ms.keywords: DEFINE_GUIDEX
 req.header: swenum.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - DEFINE_GUIDEX
 ---
 
-# DEFINE_GUIDEX function
+# DEFINE_GUIDEX function (swenum.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SUBSYSTEM_INFORMATION_TYPE enumeration"]
 ms.keywords: "*PSUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, _SUBSYSTEM_INFORMATION_TYPE, kernel.subsystem_information_type, ntddk/MaxSubsystemInformationType, ntddk/SUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWSL, ntddk/SubsystemInformationTypeWin32"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SUBSYSTEM_INFORMATION_TYPE
 ---
 
-# _SUBSYSTEM_INFORMATION_TYPE enumeration
+# SUBSYSTEM_INFORMATION_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

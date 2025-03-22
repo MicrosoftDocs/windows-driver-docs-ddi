@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["ObIsKernelHandle function"]
 ms.keywords: ObIsKernelHandle, ObIsKernelHandle routine [Installable File System Drivers], ifsk.obiskernelhandle, ntifs/ObIsKernelHandle, obref_e80e117f-6001-4c6d-980c-413e538f3bb2.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ObIsKernelHandle
 ---
 
-# ObIsKernelHandle function
+# ObIsKernelHandle function (ntifs.h)
+
+
 
 
 ## -description

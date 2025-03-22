@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration"]
 ms.keywords: D3D12DDI_SWIZZLE_PATTERN_FLAGS, D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration [Display Devices], D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE, D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS_NONE, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN_FLAGS_STACK_DEPTH_SLICES, display.d3d12ddi_swizzle_pattern_flags
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_SWIZZLE_PATTERN_FLAGS
 ---
 
-# D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration
+# D3D12DDI_SWIZZLE_PATTERN_FLAGS enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

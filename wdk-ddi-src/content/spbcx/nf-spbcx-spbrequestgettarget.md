@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbRequestGetTarget function"]
 ms.keywords: SPB.spbrequestgettarget, SpbRequestGetTarget, SpbRequestGetTarget method [Buses], spbcx/SpbRequestGetTarget
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbRequestGetTarget
 ---
 
-# SpbRequestGetTarget function
+# SpbRequestGetTarget function (spbcx.h)
+
+
 
 
 ## -description

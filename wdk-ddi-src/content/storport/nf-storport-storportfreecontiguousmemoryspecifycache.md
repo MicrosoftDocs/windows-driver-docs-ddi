@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortFreeContiguousMemorySpecifyCache function"]
 ms.keywords: StorPortFreeContiguousMemorySpecifyCache, StorPortFreeContiguousMemorySpecifyCache routine [Storage Devices], storage.storportfreecontiguousmemoryspecifycache, storport/StorPortFreeContiguousMemorySpecifyCache, storprt_4ad11a47-ebb2-4eb9-a7cb-ce0b47d2ab3a.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - StorPortFreeContiguousMemorySpecifyCache
 ---
 
-# StorPortFreeContiguousMemorySpecifyCache function
+# StorPortFreeContiguousMemorySpecifyCache function (storport.h)
+
+
 
 
 ## -description

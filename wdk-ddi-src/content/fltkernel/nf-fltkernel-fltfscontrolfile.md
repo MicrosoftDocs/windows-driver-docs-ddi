@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFsControlFile function"]
 ms.keywords: FltApiRef_e_to_o_3cad833f-9ece-410a-896d-1b3fe897c251.xml, FltFsControlFile, FltFsControlFile routine [Installable File System Drivers], fltkernel/FltFsControlFile, ifsk.fltfscontrolfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltFsControlFile
 ---
 
-# FltFsControlFile function
+# FltFsControlFile function (fltkernel.h)
+
+
 
 
 ## -description

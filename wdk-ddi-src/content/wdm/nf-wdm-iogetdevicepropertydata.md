@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetDevicePropertyData function"]
 ms.keywords: IoGetDevicePropertyData, IoGetDevicePropertyData routine [Kernel-Mode Driver Architecture], k104_85cb50ca-43cc-401a-8ed1-32ff0c381ed8.xml, kernel.iogetdevicepropertydata, wdm/IoGetDevicePropertyData
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - IoGetDevicePropertyData
 ---
 
-# IoGetDevicePropertyData function
+# IoGetDevicePropertyData function (wdm.h)
+
+
 
 
 ## -description

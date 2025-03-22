@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["PrintDocumentOnPrintProcessor function"]
 ms.keywords: PrintDocumentOnPrintProcessor, PrintDocumentOnPrintProcessor function [Print Devices], print.printdocumentonprintprocessor, spoolfnc_38f81d3c-62d9-4804-ad89-120c9a333a09.xml, winsplp/PrintDocumentOnPrintProcessor
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - PrintDocumentOnPrintProcessor
 ---
 
-# PrintDocumentOnPrintProcessor function
+# PrintDocumentOnPrintProcessor function (winsplp.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcCopyRead function"]
 ms.keywords: CcCopyRead, CcCopyRead routine [Installable File System Drivers], ccref_76dde6ff-ccd7-4d90-a744-9d2c05624b00.xml, ifsk.cccopyread, ntifs/CcCopyRead
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - CcCopyRead
 ---
 
-# CcCopyRead function
+# CcCopyRead function (ntifs.h)
+
+
 
 
 ## -description

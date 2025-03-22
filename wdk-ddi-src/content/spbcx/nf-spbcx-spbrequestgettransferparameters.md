@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbRequestGetTransferParameters function"]
 ms.keywords: SPB.spbrequestgettransferparameters, SpbRequestGetTransferParameters, SpbRequestGetTransferParameters method [Buses], spbcx/SpbRequestGetTransferParameters
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbRequestGetTransferParameters
 ---
 
-# SpbRequestGetTransferParameters function
+# SpbRequestGetTransferParameters function (spbcx.h)
+
+
 
 ## -description
 

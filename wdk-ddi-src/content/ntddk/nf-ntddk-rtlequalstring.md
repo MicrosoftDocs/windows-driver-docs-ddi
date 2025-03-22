@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlEqualString function"]
 ms.keywords: RtlEqualString, RtlEqualString routine [Kernel-Mode Driver Architecture], k109_67ef861f-4f4b-4e98-be53-8962b02df08e.xml, kernel.rtlequalstring, ntddk/RtlEqualString
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlEqualString
 ---
 
-# RtlEqualString function
+# RtlEqualString function (ntddk.h)
+
+
 
 
 ## -description

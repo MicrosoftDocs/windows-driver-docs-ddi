@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSizeofWorkItem function"]
 ms.keywords: IoSizeofWorkItem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, kernel.iosizeofworkitem, wdm/IoSizeofWorkItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoSizeofWorkItem
 ---
 
-# IoSizeofWorkItem function
+# IoSizeofWorkItem function (wdm.h)
+
+
 
 
 ## -description

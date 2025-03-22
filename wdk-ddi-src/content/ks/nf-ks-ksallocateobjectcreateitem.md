@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAllocateObjectCreateItem function"]
 ms.keywords: KsAllocateObjectCreateItem, KsAllocateObjectCreateItem function [Streaming Media Devices], ks/KsAllocateObjectCreateItem, ksfunc_57773cdc-d649-4381-9841-deba5beddf73.xml, stream.ksallocateobjectcreateitem
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAllocateObjectCreateItem
 ---
 
-# KsAllocateObjectCreateItem function
+# KsAllocateObjectCreateItem function (ks.h)
+
+
 
 
 ## -description

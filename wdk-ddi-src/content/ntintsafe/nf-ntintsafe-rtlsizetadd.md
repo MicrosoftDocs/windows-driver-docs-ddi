@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSizeTAdd function"]
 ms.keywords: RtlSizeTAdd, RtlSizeTAdd function [Kernel-Mode Driver Architecture], kernel.rtlsizetadd, ntintsafe/RtlSizeTAdd
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSizeTAdd
 ---
 
-# RtlSizeTAdd function
+# RtlSizeTAdd function (ntintsafe.h)
+
+
 
 
 ## -description

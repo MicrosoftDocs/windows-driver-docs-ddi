@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxIoDeviceControl function"]
 ms.keywords: UcxIoDeviceControl, UcxIoDeviceControl method [Buses], buses._ucxiodevicecontrol, ucxcontroller/UcxIoDeviceControl
 req.header: ucxcontroller.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxIoDeviceControl
 ---
 
-# UcxIoDeviceControl function
+# UcxIoDeviceControl function (ucxcontroller.h)
+
+
 
 
 ## -description

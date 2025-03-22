@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRevertToUserAffinityThreadEx function"]
 ms.keywords: KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, kernel.kereverttouseraffinitythreadex, wdm/KeRevertToUserAffinityThreadEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeRevertToUserAffinityThreadEx
 ---
 
-# KeRevertToUserAffinityThreadEx function
+# KeRevertToUserAffinityThreadEx function (wdm.h)
+
+
 
 
 ## -description

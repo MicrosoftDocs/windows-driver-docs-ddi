@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["HwNProcessAddDevicePostDeviceCreate function"]
 ms.keywords: HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, hwnclx/HwNProcessAddDevicePostDeviceCreate
 req.header: hwnclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - HwNProcessAddDevicePostDeviceCreate
 ---
 
-# HwNProcessAddDevicePostDeviceCreate function
+# HwNProcessAddDevicePostDeviceCreate function (hwnclx.h)
+
+
 
 
 ## -description

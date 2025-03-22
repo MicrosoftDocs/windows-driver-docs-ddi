@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetConfigurationQueryBinary function"]
 ms.keywords: NetConfigurationQueryBinary
 req.header: netconfiguration.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetConfigurationQueryBinary
 ---
 
-# NetConfigurationQueryBinary function
+# NetConfigurationQueryBinary function (netconfiguration.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitSetCallbacks function"]
 ms.keywords: UdecxUsbEndpointInitSetCallbacks, UdecxUsbEndpointInitSetCallbacks function [Buses], buses.udecxusbendpointinitsetcallbacks, udecxusbendpoint/UdecxUsbEndpointInitSetCallbacks
 req.header: udecxusbendpoint.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbEndpointInitSetCallbacks
 ---
 
-# UdecxUsbEndpointInitSetCallbacks function
+# UdecxUsbEndpointInitSetCallbacks function (udecxusbendpoint.h)
+
+
 
 
 ## -description

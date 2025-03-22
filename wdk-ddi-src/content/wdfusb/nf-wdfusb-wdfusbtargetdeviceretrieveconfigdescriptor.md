@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceRetrieveConfigDescriptor function"]
 ms.keywords: DFUsbRef_6c3748fe-16c0-4151-8cbd-42c5882475eb.xml, WdfUsbTargetDeviceRetrieveConfigDescriptor, WdfUsbTargetDeviceRetrieveConfigDescriptor method, kmdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdf.wdfusbtargetdeviceretrieveconfigdescriptor, wdfusb/WdfUsbTargetDeviceRetrieveConfigDescriptor
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceRetrieveConfigDescriptor
 ---
 
-# WdfUsbTargetDeviceRetrieveConfigDescriptor function
+# WdfUsbTargetDeviceRetrieveConfigDescriptor function (wdfusb.h)
+
+
 
 
 ## -description

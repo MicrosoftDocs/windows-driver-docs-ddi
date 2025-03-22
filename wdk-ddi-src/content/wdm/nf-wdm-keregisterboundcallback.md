@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRegisterBoundCallback function"]
 ms.keywords: KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture], kernel.keregisterboundcallback, wdm/KeRegisterBoundCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - KeRegisterBoundCallback
 ---
 
-# KeRegisterBoundCallback function
+# KeRegisterBoundCallback function (wdm.h)
+
+
 
 
 ## -description

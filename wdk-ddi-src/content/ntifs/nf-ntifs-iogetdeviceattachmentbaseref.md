@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoGetDeviceAttachmentBaseRef function"]
 ms.keywords: IoGetDeviceAttachmentBaseRef, IoGetDeviceAttachmentBaseRef routine [Installable File System Drivers], ifsk.iogetdeviceattachmentbaseref, ioref_ab9c898e-74be-48aa-9462-d78d0e34c435.xml, ntifs/IoGetDeviceAttachmentBaseRef
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -40,7 +41,9 @@ api_name:
  - IoGetDeviceAttachmentBaseRef
 ---
 
-# IoGetDeviceAttachmentBaseRef function
+# IoGetDeviceAttachmentBaseRef function (ntifs.h)
+
+
 
 
 ## -description

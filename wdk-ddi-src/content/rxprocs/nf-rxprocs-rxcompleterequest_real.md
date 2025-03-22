@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCompleteRequest_Real function"]
 ms.keywords: RxCompleteRequest_Real, RxCompleteRequest_Real function [Installable File System Drivers], ifsk.rxcompleterequest_real, rxprocs/RxCompleteRequest_Real, rxref_9d779281-7e95-45b7-a633-62a4280a6bea.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCompleteRequest_Real
 ---
 
-# RxCompleteRequest_Real function
+# RxCompleteRequest_Real function (rxprocs.h)
+
+
 
 
 ## -description

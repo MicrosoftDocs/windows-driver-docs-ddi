@@ -8,6 +8,7 @@ ms.date: 02/06/2022
 keywords: ["DebugConnectWide function"]
 ms.keywords: DebugConnectWide, DebugConnectWide function [Windows Debugging], dbgeng/DebugConnectWide, debugger.debugconnectwide
 req.header: dbgeng.h
+req.construct-type: function
 req.include-header: Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DebugConnectWide
 ---
 
-# DebugConnectWide function
+# DebugConnectWide function (dbgeng.h)
+
+
 
 
 ## -description

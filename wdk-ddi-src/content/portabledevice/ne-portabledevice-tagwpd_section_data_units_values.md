@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_SECTION_DATA_UNITS_VALUES enumeration"]
 ms.keywords: WPD_SECTION_DATA_UNITS_BYTES, WPD_SECTION_DATA_UNITS_MILLISECONDS, WPD_SECTION_DATA_UNITS_VALUES, WPD_SECTION_DATA_UNITS_VALUES enumeration, enumeration, portabledevice/WPD_SECTION_DATA_UNITS_BYTES, portabledevice/WPD_SECTION_DATA_UNITS_MILLISECONDS, portabledevice/WPD_SECTION_DATA_UNITS_VALUES, tagWPD_SECTION_DATA_UNITS_VALUES, wpddk.wpd_section_data_units_values
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_SECTION_DATA_UNITS_VALUES
 ---
 
-# tagWPD_SECTION_DATA_UNITS_VALUES enumeration
+# tagWPD_SECTION_DATA_UNITS_VALUES enumeration (portabledevice.h)
+
+
 
 
 ## -description

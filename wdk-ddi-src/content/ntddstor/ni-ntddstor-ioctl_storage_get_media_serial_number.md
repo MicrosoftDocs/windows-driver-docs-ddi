@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control, IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER control code [Storage Devices], k307_dd8dcdec-9756-435c-abbb-14dd1a64ee11.xml, ntddstor/IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER, storage.ioctl_storage_get_media_serial_number
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER
 ---
 
-# IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER IOCTL
+# IOCTL_STORAGE_GET_MEDIA_SERIAL_NUMBER IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

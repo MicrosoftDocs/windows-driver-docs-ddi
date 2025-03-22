@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WmiCompleteRequest function"]
 ms.keywords: WmiCompleteRequest, WmiCompleteRequest routine [Kernel-Mode Driver Architecture], k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, kernel.wmicompleterequest, wmilib/WmiCompleteRequest
 req.header: wmilib.h
+req.construct-type: function
 req.include-header: Wmilib.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - WmiCompleteRequest
 ---
 
-# WmiCompleteRequest function
+# WmiCompleteRequest function (wmilib.h)
+
+
 
 
 ## -description

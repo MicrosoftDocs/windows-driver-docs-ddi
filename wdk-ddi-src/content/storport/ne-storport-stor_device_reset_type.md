@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 05/24/2022
 ms.keywords: STOR_DEVICE_RESET_TYPE, STOR_DEVICE_RESET_TYPE,
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -32,7 +33,9 @@ api_name:
  - STOR_DEVICE_RESET_TYPE
 ---
 
-# STOR_DEVICE_RESET_TYPE enumeration
+# STOR_DEVICE_RESET_TYPE enumeration (storport.h)
+
+
 
 ## -description
 

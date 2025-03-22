@@ -5,6 +5,7 @@ description: "On first transition above KSSTATE_STOP (normally to KSSTATE_ACQUIR
 ms.date: 06/28/2023
 keywords: ["IOCTL_SBAUD_STREAM_OPEN IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_STREAM_OPEN
 ---
 
-# IOCTL_SBAUD_STREAM_OPEN IOCTL
+# IOCTL_SBAUD_STREAM_OPEN IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

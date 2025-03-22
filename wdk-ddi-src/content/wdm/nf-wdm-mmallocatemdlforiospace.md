@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["MmAllocateMdlForIoSpace function"]
 ms.keywords: MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], kernel.mmallocatemdlforiospace, wdm/MmAllocateMdlForIoSpace
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocateMdlForIoSpace
 ---
+
+# MmAllocateMdlForIoSpace function (wdm.h)
 
 ## -description
 

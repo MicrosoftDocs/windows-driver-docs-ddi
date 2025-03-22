@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_DEVICE_TRAITS enumeration"]
 ms.keywords: DFUsbRef_504c0bd9-3ba7-47cc-a99d-ab54d46cbdc4.xml, WDF_USB_DEVICE_TRAITS, WDF_USB_DEVICE_TRAITS enumeration, WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, WDF_USB_DEVICE_TRAIT_SELF_POWERED, _WDF_USB_DEVICE_TRAITS, kmdf.wdf_usb_device_traits, wdf.wdf_usb_device_traits, wdfusb/WDF_USB_DEVICE_TRAITS, wdfusb/WDF_USB_DEVICE_TRAIT_AT_HIGH_SPEED, wdfusb/WDF_USB_DEVICE_TRAIT_REMOTE_WAKE_CAPABLE, wdfusb/WDF_USB_DEVICE_TRAIT_SELF_POWERED
 req.header: wdfusb.h
+req.construct-type: enumeration
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_USB_DEVICE_TRAITS
 ---
 
-# _WDF_USB_DEVICE_TRAITS enumeration
+# WDF_USB_DEVICE_TRAITS enumeration (wdfusb.h)
+
+
 
 
 ## -description

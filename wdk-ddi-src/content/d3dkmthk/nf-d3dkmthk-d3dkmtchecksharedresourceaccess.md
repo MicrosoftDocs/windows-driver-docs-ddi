@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTCheckSharedResourceAccess function"]
 ms.keywords: D3DKMTCheckSharedResourceAccess, D3DKMTCheckSharedResourceAccess callback function [Display Devices], OpenGL_Functions_b9ffd997-0bfe-47ad-a769-c2ed8148fe4b.xml, PFND3DKMT_CHECKSHAREDRESOURCEACCESS, PFND3DKMT_CHECKSHAREDRESOURCEACCESS callback, d3dkmthk/D3DKMTCheckSharedResourceAccess, display.d3dkmtchecksharedresourceaccess
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTCheckSharedResourceAccess is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCheckSharedResourceAccess
 ---
 
-# D3DKMTCheckSharedResourceAccess function
+# D3DKMTCheckSharedResourceAccess function (d3dkmthk.h)
+
+
 
 ## -description
 

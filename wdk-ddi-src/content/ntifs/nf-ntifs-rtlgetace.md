@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlGetAce function"]
 ms.keywords: RtlGetAce, RtlGetAce routine [Installable File System Drivers], ifsk.rtlgetace, ntifs/RtlGetAce, rtlref_e018acc3-f776-4d15-9e0b-9e34d286a746.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -41,7 +42,9 @@ api_name:
  - RtlGetAce
 ---
 
-# RtlGetAce function
+# RtlGetAce function (ntifs.h)
+
+
 
 
 ## -description

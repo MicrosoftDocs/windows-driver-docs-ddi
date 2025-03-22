@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlGetPerStreamContextPointer macro"]
 ms.keywords: FsRtlGetPerStreamContextPointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP; Windows 2000 SP4 Update Rollup
@@ -40,7 +41,9 @@ api_name:
  - FsRtlGetPerStreamContextPointer
 ---
 
-# FsRtlGetPerStreamContextPointer macro
+# FsRtlGetPerStreamContextPointer function (ntifs.h)
+
+
 
 
 ## -description

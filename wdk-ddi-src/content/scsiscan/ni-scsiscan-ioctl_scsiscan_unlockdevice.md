@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_SCSISCAN_UNLOCKDEVICE IOCTL"]
 ms.keywords: IOCTL_SCSISCAN_UNLOCKDEVICE, IOCTL_SCSISCAN_UNLOCKDEVICE control, IOCTL_SCSISCAN_UNLOCKDEVICE control code [Imaging Devices], image.ioctl_scsiscan_unlockdevice, scsiscan/IOCTL_SCSISCAN_UNLOCKDEVICE, stifnc_b3d77638-dbcf-41ae-90f9-50611e562590.xml
 req.header: scsiscan.h
+req.construct-type: ioctl
 req.include-header: Scsiscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSISCAN_UNLOCKDEVICE
 ---
 
-# IOCTL_SCSISCAN_UNLOCKDEVICE IOCTL
+# IOCTL_SCSISCAN_UNLOCKDEVICE IOCTL (scsiscan.h)
+
+
+
+
 
 
 ## -description

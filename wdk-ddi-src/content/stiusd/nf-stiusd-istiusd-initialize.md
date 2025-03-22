@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IStiUSD::Initialize"]
 ms.keywords: IStiUSD interface [Imaging Devices],Initialize method, IStiUSD.Initialize, IStiUSD::Initialize, Initialize, Initialize method [Imaging Devices], Initialize method [Imaging Devices],IStiUSD interface, image.istiusd_initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize
 req.header: stiusd.h
+req.construct-type: function
 req.include-header: Stiusd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiUSD::Initialize
 ---
+
+# IStiUSD::Initialize function (stiusd.h)
 
 ## -description
 

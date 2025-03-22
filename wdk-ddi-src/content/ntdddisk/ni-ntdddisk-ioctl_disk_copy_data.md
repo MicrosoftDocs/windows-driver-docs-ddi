@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_COPY_DATA IOCTL"]
 ms.keywords: IOCTL_DISK_COPY_DATA, IOCTL_DISK_COPY_DATA control, IOCTL_DISK_COPY_DATA control code [Storage Devices], k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml, ntdddisk/IOCTL_DISK_COPY_DATA, storage.ioctl_disk_copy_data
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_COPY_DATA
 ---
 
-# IOCTL_DISK_COPY_DATA IOCTL
+# IOCTL_DISK_COPY_DATA IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

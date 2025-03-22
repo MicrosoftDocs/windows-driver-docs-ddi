@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_DrainModemLogs function"]
 ms.keywords: RIL_DrainModemLogs, RIL_DrainModemLogs method [Network Drivers Starting with Windows Vista], netvista.ril_drainmodemlogs, rilapi/RIL_DrainModemLogs
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_DrainModemLogs
 ---
 
-# RIL_DrainModemLogs function
+# RIL_DrainModemLogs function (rilapi.h)
+
+
 
 
 ## -description

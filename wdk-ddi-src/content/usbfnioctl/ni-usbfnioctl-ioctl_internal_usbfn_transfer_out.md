@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_TRANSFER_OUT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_TRANSFER_OUT, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control, IOCTL_INTERNAL_USBFN_TRANSFER_OUT control code [Buses], buses.ioctl_internal_usbfn_transfer_out, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 req.header: usbfnioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USBFN_TRANSFER_OUT
 ---
 
-# IOCTL_INTERNAL_USBFN_TRANSFER_OUT IOCTL
+# IOCTL_INTERNAL_USBFN_TRANSFER_OUT IOCTL (usbfnioctl.h)
+
+
+
+
 
 
 ## -description

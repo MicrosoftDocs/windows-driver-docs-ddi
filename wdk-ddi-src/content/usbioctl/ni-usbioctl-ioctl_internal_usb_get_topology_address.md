@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code [Buses], buses.ioctl_internal_usb_get_topology_address, usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and later operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 ---
 
-# IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS IOCTL
+# IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

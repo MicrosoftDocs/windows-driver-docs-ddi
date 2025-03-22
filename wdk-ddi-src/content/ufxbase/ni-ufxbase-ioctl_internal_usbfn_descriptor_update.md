@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control, IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE control code [Buses], buses.ioctl_internal_usbfn_descriptor_update, ufxbase/IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 req.header: ufxbase.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE
 ---
 
-# IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL
+# IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL (ufxbase.h)
+
+
+
+
 
 
 ## -description

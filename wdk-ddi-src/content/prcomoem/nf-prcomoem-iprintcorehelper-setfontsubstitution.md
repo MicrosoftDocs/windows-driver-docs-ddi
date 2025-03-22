@@ -7,6 +7,7 @@ ms.date: 11/28/2022
 keywords: ["IPrintCoreHelper::SetFontSubstitution"]
 ms.keywords: IPrintCoreHelper interface [Print Devices],SetFontSubstitution method, IPrintCoreHelper.SetFontSubstitution, IPrintCoreHelper::SetFontSubstitution, SetFontSubstitution, SetFontSubstitution method [Print Devices], SetFontSubstitution method [Print Devices],IPrintCoreHelper interface, prcomoem/IPrintCoreHelper::SetFontSubstitution, print.iprintcorehelper_setfontsubstitution, print_unidrv-pscript_allplugins_4ac54a23-3b42-4bb7-a078-a53774a537b2.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintCoreHelper::SetFontSubstitution
 ---
+
+# IPrintCoreHelper::SetFontSubstitution function (prcomoem.h)
 
 ## -description
 

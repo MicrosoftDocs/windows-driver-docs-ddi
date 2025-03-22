@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["KeInsertQueueDpc function"]
 ms.keywords: KeInsertQueueDpc, KeInsertQueueDpc routine [Kernel-Mode Driver Architecture], k105_7f821e29-508f-4216-92db-a2e18c21d17c.xml, kernel.keinsertqueuedpc, wdm/KeInsertQueueDpc
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeInsertQueueDpc
 ---
 
-# KeInsertQueueDpc function
+# KeInsertQueueDpc function (wdm.h)
+
+
 
 ## -description
 

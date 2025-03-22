@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestGetStatus function"]
 ms.keywords: DFRequestObjectRef_60149f5d-5523-4b88-9bba-464be280b2b7.xml, WdfRequestGetStatus, WdfRequestGetStatus method, kmdf.wdfrequestgetstatus, wdf.wdfrequestgetstatus, wdfrequest/WdfRequestGetStatus
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestGetStatus
 ---
 
-# WdfRequestGetStatus function
+# WdfRequestGetStatus function (wdfrequest.h)
+
+
 
 
 ## -description

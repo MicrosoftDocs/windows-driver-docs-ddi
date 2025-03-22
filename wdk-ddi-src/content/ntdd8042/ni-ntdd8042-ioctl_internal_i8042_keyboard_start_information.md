@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION IOCTL"]
 ms.keywords: IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION, IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION control, IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION control code [Human Input Devices], hid.ioctl_internal_i8042_keyboard_start_information, i8042ref_d5599642-48b8-4b77-b4bb-6e0d7596045d.xml, ntdd8042/IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
 req.header: ntdd8042.h
+req.construct-type: ioctl
 req.include-header: Ntdd8042.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION
 ---
 
-# IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION IOCTL
+# IOCTL_INTERNAL_I8042_KEYBOARD_START_INFORMATION IOCTL (ntdd8042.h)
+
+
+
+
 
 
 ## -description

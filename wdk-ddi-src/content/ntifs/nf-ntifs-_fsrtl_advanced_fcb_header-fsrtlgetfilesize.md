@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlGetFileSize function"]
 ms.keywords: FsRtlGetFileSize, FsRtlGetFileSize routine [Installable File System Drivers], fsrtlref_d1056cd3-20f5-436c-9bac-0f1c217bb569.xml, ifsk.fsrtlgetfilesize, ntifs/FsRtlGetFileSize
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlGetFileSize function
+# FsRtlGetFileSize function (ntifs.h)
+
+
 
 
 ## -description

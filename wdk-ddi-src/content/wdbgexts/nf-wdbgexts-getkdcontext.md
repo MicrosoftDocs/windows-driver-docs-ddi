@@ -8,6 +8,7 @@ ms.date: 07/27/2023
 keywords: ["GetKdContext macro"]
 ms.keywords: GetKdContext, GetKdContext function [Windows Debugging], WdbgExts_Ref_951ca10a-3a73-433c-bd95-f054967f0df6.xml, debugger.getkdcontext, wdbgexts/GetKdContext
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetKdContext
 ---
 
-# GetKdContext macro
+# GetKdContext function (wdbgexts.h)
+
+
 
 ## -description
 

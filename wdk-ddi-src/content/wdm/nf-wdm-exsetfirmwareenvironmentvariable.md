@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExSetFirmwareEnvironmentVariable function"]
 ms.keywords: ExSetFirmwareEnvironmentVariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], kernel.exsetfirmwareenvironmentvariable, wdm/ExSetFirmwareEnvironmentVariable
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - ExSetFirmwareEnvironmentVariable
 ---
 
-# ExSetFirmwareEnvironmentVariable function
+# ExSetFirmwareEnvironmentVariable function (wdm.h)
+
+
 
 
 ## -description

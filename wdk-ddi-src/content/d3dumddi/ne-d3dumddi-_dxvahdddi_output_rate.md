@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_OUTPUT_RATE enumeration"]
 ms.keywords: DXVA2_Structs_34010924-8e9c-440c-a972-e2ae58124666.xml, DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE enumeration [Display Devices], DXVAHDDDI_OUTPUT_RATE_CUSTOM, DXVAHDDDI_OUTPUT_RATE_HALF, DXVAHDDDI_OUTPUT_RATE_NORMAL, _DXVAHDDDI_OUTPUT_RATE, d3dumddi/DXVAHDDDI_OUTPUT_RATE, d3dumddi/DXVAHDDDI_OUTPUT_RATE_CUSTOM, d3dumddi/DXVAHDDDI_OUTPUT_RATE_HALF, d3dumddi/DXVAHDDDI_OUTPUT_RATE_NORMAL, display.dxvahdddi_output_rate
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_OUTPUT_RATE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_OUTPUT_RATE
 ---
 
-# _DXVAHDDDI_OUTPUT_RATE enumeration
+# DXVAHDDDI_OUTPUT_RATE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

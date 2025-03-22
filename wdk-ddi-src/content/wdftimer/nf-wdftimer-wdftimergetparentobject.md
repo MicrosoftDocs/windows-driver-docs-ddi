@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfTimerGetParentObject function"]
 ms.keywords: DFTimerObjectRef_b081e639-a1d6-4119-b47c-b95b772630bc.xml, WdfTimerGetParentObject, WdfTimerGetParentObject method, kmdf.wdftimergetparentobject, wdf.wdftimergetparentobject, wdftimer/WdfTimerGetParentObject
 req.header: wdftimer.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfTimerGetParentObject
 ---
 
-# WdfTimerGetParentObject function
+# WdfTimerGetParentObject function (wdftimer.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IddCxMonitorArrival function"]
 ms.keywords: IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxMonitorArrival
 ---
 
-# IddCxMonitorArrival function
+# IddCxMonitorArrival function (iddcx.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptReportActive function"]
 ms.keywords: WdfInterruptReportActive, WdfInterruptReportActive method, kmdf._wdfinterruptreportactive, kmdf.wdfinterruptreportactive, wdf.wdfinterruptreportactive, wdfinterrupt/WdfInterruptReportActive
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfInterruptReportActive
 ---
 
-# WdfInterruptReportActive function
+# WdfInterruptReportActive function (wdfinterrupt.h)
+
+
 
 
 ## -description

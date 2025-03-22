@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_RELEASE_MUTEX macro"]
 ms.keywords: NDIS_RELEASE_MUTEX
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -38,7 +39,9 @@ api_name:
  - NDIS_RELEASE_MUTEX
 ---
 
-# NDIS_RELEASE_MUTEX macro
+# NDIS_RELEASE_MUTEX function (ndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 02/28/2024
 keywords: ["STORPORT_QUERY_CONFIGURATION_TYPE enumeration"]
 ms.keywords: STORPORT_QUERY_CONFIGURATION_TYPE, STORPORT_QUERY_CONFIGURATION_TYPE, *PSTORPORT_QUERY_CONFIGURATION_TYPE,
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# STORPORT_QUERY_CONFIGURATION_TYPE enumeration
+# STORPORT_QUERY_CONFIGURATION_TYPE enumeration (storport.h)
+
+
 
 ## -description
 

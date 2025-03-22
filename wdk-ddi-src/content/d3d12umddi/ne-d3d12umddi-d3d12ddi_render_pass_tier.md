@@ -6,6 +6,7 @@ ms.date: 09/22/2022
 keywords: ["D3D12DDI_RENDER_PASS_TIER enumeration"]
 ms.keywords: D3D12DDI_RENDER_PASS_TIER, D3D12DDI_RENDER_PASS_TIER,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_RENDER_PASS_TIER enumeration
+# D3D12DDI_RENDER_PASS_TIER enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

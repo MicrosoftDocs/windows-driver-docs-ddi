@@ -8,6 +8,7 @@ ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST_INIT function"]
 ms.keywords: SPB.spb_transfer_list_init, SPB_TRANSFER_LIST_INIT, SPB_TRANSFER_LIST_INIT function [Buses], spb/SPB_TRANSFER_LIST_INIT
 req.header: spb.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SPB_TRANSFER_LIST_INIT
 ---
 
-# SPB_TRANSFER_LIST_INIT function
+# SPB_TRANSFER_LIST_INIT function (spb.h)
+
+
 
 ## -description
 

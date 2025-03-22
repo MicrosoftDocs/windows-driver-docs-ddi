@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetOriginalMdl function"]
 ms.keywords: StorPortGetOriginalMdl, StorPortGetOriginalMdl routine [Storage Devices], storage.storportgetoriginalmdl, storport/StorPortGetOriginalMdl, storprt_4617200d-18b4-4ee2-aa43-92fc5f3a7b66.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetOriginalMdl
 ---
 
-# StorPortGetOriginalMdl function
+# StorPortGetOriginalMdl function (storport.h)
+
+
 
 
 ## -description

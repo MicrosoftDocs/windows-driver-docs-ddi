@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetActivityIdCallbackData function"]
 ms.keywords: FltGetActivityIdCallbackData, FltGetActivityIdCallbackData routine [Installable File System Drivers], fltkernel/FltGetActivityIdCallbackData, ifsk.fltgetactivityidcallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltGetActivityIdCallbackData
 ---
 
-# FltGetActivityIdCallbackData function
+# FltGetActivityIdCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

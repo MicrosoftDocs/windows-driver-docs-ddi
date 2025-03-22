@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmTcpciPortControllerSetHardwareRequestQueue function"]
 ms.keywords: UcmTcpciPortControllerSetHardwareRequestQueue, UcmTcpciPortControllerSetHardwareRequestQueue method [Buses], buses.ucmtcpciportcontrollersethardwarerequestqueue, ucmtcpciportcontroller/UcmTcpciPortControllerSetHardwareRequestQueue
 req.header: ucmtcpciportcontroller.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcmTcpciPortControllerSetHardwareRequestQueue
 ---
 
-# UcmTcpciPortControllerSetHardwareRequestQueue function
+# UcmTcpciPortControllerSetHardwareRequestQueue function (ucmtcpciportcontroller.h)
+
+
 
 
 ## -description

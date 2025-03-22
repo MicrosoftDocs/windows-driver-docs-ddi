@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterGetPrintClassObject function"]
 ms.keywords: RouterGetPrintClassObject, RouterGetPrintClassObject function [Print Devices], print.routergetprintclassobject, prnasntp/RouterGetPrintClassObject, spoolfnc_ffe877d1-cb3e-49f5-a5b5-5da7c5cb9148.xml
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RouterGetPrintClassObject
 ---
 
-# RouterGetPrintClassObject function
+# RouterGetPrintClassObject function (prnasntp.h)
+
+
 
 
 ## -description

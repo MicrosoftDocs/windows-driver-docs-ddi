@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["ILOGENTRY macro"]
 ms.keywords: ILOGENTRY
 req.header: usbcamdi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - ILOGENTRY
 ---
 
-# ILOGENTRY macro
+# ILOGENTRY function (usbcamdi.h)
+
+
 
 ## -description
 

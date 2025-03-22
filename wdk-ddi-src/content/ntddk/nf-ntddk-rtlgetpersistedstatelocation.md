@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["RtlGetPersistedStateLocation function"]
 ms.keywords: RtlGetPersistedStateLocation
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - RtlGetPersistedStateLocation
 ---
 
-# RtlGetPersistedStateLocation function
+# RtlGetPersistedStateLocation function (ntddk.h)
+
+
 
 
 ## -description

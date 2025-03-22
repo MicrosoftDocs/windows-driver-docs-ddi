@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_PD_POWER_DATA_OBJECT_GET_TYPE function"]
 ms.keywords: USBC_PD_POWER_DATA_OBJECT_GET_TYPE
 req.header: usbctypes.h
+req.construct-type: function
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - USBC_PD_POWER_DATA_OBJECT_GET_TYPE
 ---
 
-# USBC_PD_POWER_DATA_OBJECT_GET_TYPE function
+# USBC_PD_POWER_DATA_OBJECT_GET_TYPE function (usbctypes.h)
+
+
 
 
 ## -description

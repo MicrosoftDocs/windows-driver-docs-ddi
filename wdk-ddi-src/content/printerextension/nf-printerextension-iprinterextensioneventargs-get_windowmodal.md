@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionEventArgs::get_WindowModal"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowModal property, IPrinterExtensionEventArgs.WindowModal, IPrinterExtensionEventArgs.get_WindowModal, IPrinterExtensionEventArgs::WindowModal, IPrinterExtensionEventArgs::get_WindowModal, WindowModal property [Print Devices], WindowModal property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowModal, print.iprinterextensioneventargs_windowmodal, printerextension/IPrinterExtensionEventArgs::WindowModal, printerextension/IPrinterExtensionEventArgs::get_WindowModal
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEventArgs::get_WindowModal
 ---
+
+# IPrinterExtensionEventArgs::get_WindowModal function (printerextension.h)
 
 ## -description
 

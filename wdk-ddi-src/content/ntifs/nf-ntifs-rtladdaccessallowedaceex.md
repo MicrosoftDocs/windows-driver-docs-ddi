@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlAddAccessAllowedAceEx function"]
 ms.keywords: RtlAddAccessAllowedAceEx, RtlAddAccessAllowedAceEx routine [Installable File System Drivers], ifsk.rtladdaccessallowedaceex, ntifs/RtlAddAccessAllowedAceEx, rtlref_c28640a5-62e2-462a-9c30-b59faedc8386.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - RtlAddAccessAllowedAceEx
 ---
 
-# RtlAddAccessAllowedAceEx function
+# RtlAddAccessAllowedAceEx function (ntifs.h)
+
+
 
 ## -description
 

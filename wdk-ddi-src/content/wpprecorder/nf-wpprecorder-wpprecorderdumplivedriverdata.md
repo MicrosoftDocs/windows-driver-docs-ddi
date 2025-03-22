@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderDumpLiveDriverData macro"]
 ms.keywords: WppRecorderDumpLiveDriverData, devtest.wpprecorderdumplivedriverdata, imp_WppRecorderDumpLiveDriverData, imp_WppRecorderDumpLiveDriverData function [Driver Development Tools], wpprecorder/imp_WppRecorderDumpLiveDriverData
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WppRecorderDumpLiveDriverData
 ---
 
-# WppRecorderDumpLiveDriverData macro
+# WppRecorderDumpLiveDriverData function (wpprecorder.h)
+
+
 
 
 ## -description

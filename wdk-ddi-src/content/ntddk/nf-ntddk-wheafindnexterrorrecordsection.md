@@ -7,6 +7,7 @@ ms.date: 12/07/2022
 keywords: ["WheaFindNextErrorRecordSection function"]
 ms.keywords: WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindNextErrorRecordSection, whea.wheafindnexterrorrecordsection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - WheaFindNextErrorRecordSection
 ---
+
+# WheaFindNextErrorRecordSection function (ntddk.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeQueryInformation function"]
 ms.keywords: RxCeQueryInformation, RxCeQueryInformation function [Installable File System Drivers], ifsk.rxcequeryinformation, rxce/RxCeQueryInformation, rxref_b7508a13-8eb0-42d0-917c-300a5eb4c0e9.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeQueryInformation
 ---
 
-# RxCeQueryInformation function
+# RxCeQueryInformation function (rxce.h)
+
+
 
 
 ## -description

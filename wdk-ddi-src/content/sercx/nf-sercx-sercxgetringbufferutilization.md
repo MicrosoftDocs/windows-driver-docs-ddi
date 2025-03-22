@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxGetRingBufferUtilization function"]
 ms.keywords: 1/SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization, SerCxGetRingBufferUtilization method [Serial Ports], serports.sercxgetringbufferutilization
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxGetRingBufferUtilization
 ---
 
-# SerCxGetRingBufferUtilization function
+# SerCxGetRingBufferUtilization function (sercx.h)
+
+
 
 
 ## -description

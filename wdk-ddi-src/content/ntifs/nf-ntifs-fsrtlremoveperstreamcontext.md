@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlRemovePerStreamContext function"]
 ms.keywords: FsRtlRemovePerStreamContext, FsRtlRemovePerStreamContext function [Installable File System Drivers], fsrtlref_904bd4dd-c254-4762-8af6-dcc49aaa5c92.xml, ifsk.fsrtlremoveperstreamcontext, ntifs/FsRtlRemovePerStreamContext
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -39,7 +40,9 @@ api_name:
  - FsRtlRemovePerStreamContext
 ---
 
-# FsRtlRemovePerStreamContext function
+# FsRtlRemovePerStreamContext function (ntifs.h)
+
+
 
 ## -description
 

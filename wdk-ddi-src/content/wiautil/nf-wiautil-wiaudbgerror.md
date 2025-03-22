@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgError function"]
 ms.keywords: image.wiaudbgerror, wiauDbgError, wiauDbgError function [Imaging Devices], wiauFncs_73184286-df53-4272-9fa8-aae1d1fb3dbc.xml, wiautil/wiauDbgError
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgError
 ---
 
-# wiauDbgError function
+# wiauDbgError function (wiautil.h)
+
+
 
 
 ## -description

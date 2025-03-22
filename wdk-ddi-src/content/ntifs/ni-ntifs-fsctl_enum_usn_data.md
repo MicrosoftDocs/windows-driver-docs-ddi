@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_ENUM_USN_DATA
 ---
 
-# FSCTL_ENUM_USN_DATA ioctl (ntifs.h)
+# FSCTL_ENUM_USN_DATA IOCTL (ntifs.h)
+
+
 
 ## -description
 

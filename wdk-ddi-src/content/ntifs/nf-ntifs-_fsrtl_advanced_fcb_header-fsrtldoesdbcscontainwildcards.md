@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDoesDbcsContainWildCards function"]
 ms.keywords: FsRtlDoesDbcsContainWildCards, FsRtlDoesDbcsContainWildCards routine [Installable File System Drivers], fsrtlref_07aa2ec1-8e37-4ffb-bd22-a3877ae8f7ee.xml, ifsk.fsrtldoesdbcscontainwildcards, ntifs/FsRtlDoesDbcsContainWildCards
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - FsRtlDoesDbcsContainWildCards
 ---
 
-# FsRtlDoesDbcsContainWildCards function
+# FsRtlDoesDbcsContainWildCards function (ntifs.h)
+
+
 
 
 ## -description

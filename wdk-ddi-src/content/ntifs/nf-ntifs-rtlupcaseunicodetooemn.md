@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlUpcaseUnicodeToOemN function"]
 ms.keywords: RtlUpcaseUnicodeToOemN, RtlUpcaseUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetooemn, ntifs/RtlUpcaseUnicodeToOemN, rtlref_b1fcf08b-c13f-4b60-a570-f4bffe730ba4.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUpcaseUnicodeToOemN
 ---
 
-# RtlUpcaseUnicodeToOemN function
+# RtlUpcaseUnicodeToOemN function (ntifs.h)
+
+
 
 
 ## -description

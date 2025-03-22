@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_EVENT_ASSOCIATION_ENUM enumeration"]
 ms.keywords: STOR_EVENT_ASSOCIATION_ENUM, STOR_EVENT_ASSOCIATION_ENUM enumeration [Storage Devices], StorEventAdapterAssociation, StorEventInvalidAssociation, StorEventLunAssociation, StorEventTargetAssociation, _STOR_EVENT_ASSOCIATION_ENUM, storage.stor_event_association_enum, storport/STOR_EVENT_ASSOCIATION_ENUM, storport/StorEventAdapterAssociation, storport/StorEventInvalidAssociation, storport/StorEventLunAssociation, storport/StorEventTargetAssociation, structs-storport_2aea4a7c-1734-45e0-9aeb-09ffa8923641.xml
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - STOR_EVENT_ASSOCIATION_ENUM
 ---
 
-# _STOR_EVENT_ASSOCIATION_ENUM enumeration
+# STOR_EVENT_ASSOCIATION_ENUM enumeration (storport.h)
+
+
 
 
 ## -description

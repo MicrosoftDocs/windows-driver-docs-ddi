@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoUnlockStaticChildListFromIteration function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_5d630e1f-4c2d-4fce-92d8-c59cc472ceb5.xml, WdfFdoUnlockStaticChildListFromIteration, WdfFdoUnlockStaticChildListFromIteration method, kmdf.wdffdounlockstaticchildlistfromiteration, wdf.wdffdounlockstaticchildlistfromiteration, wdffdo/WdfFdoUnlockStaticChildListFromIteration
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfFdoUnlockStaticChildListFromIteration
 ---
 
-# WdfFdoUnlockStaticChildListFromIteration function
+# WdfFdoUnlockStaticChildListFromIteration function (wdffdo.h)
+
+
 
 
 ## -description

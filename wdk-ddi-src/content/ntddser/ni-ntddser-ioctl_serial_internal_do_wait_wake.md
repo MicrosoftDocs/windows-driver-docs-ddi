@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE IOCTL"]
 ms.keywords: IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE, IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE control, IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE, serports.ioctl_serial_internal_do_wait_wake, serref_732ef87d-9bb2-4566-a70a-0e22d0afe19f.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE
 ---
 
-# IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE IOCTL
+# IOCTL_SERIAL_INTERNAL_DO_WAIT_WAKE IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

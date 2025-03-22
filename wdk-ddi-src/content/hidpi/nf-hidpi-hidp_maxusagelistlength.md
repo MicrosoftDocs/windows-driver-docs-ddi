@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_MaxUsageListLength function"]
 ms.keywords: HidP_MaxUsageListLength, HidP_MaxUsageListLength routine [Human Input Devices], hid.hidp_maxusagelistlength, hidfunc_a038fac0-7532-40e4-b083-e0dbe046ad85.xml, hidpi/HidP_MaxUsageListLength
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_MaxUsageListLength
 ---
 
-# HidP_MaxUsageListLength function
+# HidP_MaxUsageListLength function (hidpi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsInjectMacReceiveAsync0 function"]
 ms.keywords: FwpsInjectMacReceiveAsync0, FwpsInjectMacReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectMacReceiveAsync0, netvista.fwpsinjectmacreceiveasync0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FwpsInjectMacReceiveAsync0
 ---
 
-# FwpsInjectMacReceiveAsync0 function
+# FwpsInjectMacReceiveAsync0 function (fwpsk.h)
+
+
 
 
 ## -description

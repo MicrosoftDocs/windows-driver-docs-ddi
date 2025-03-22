@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauRegOpenDataW function"]
 ms.keywords: image.wiauregopendata, wiauFncs_1718e270-b13c-4325-bb4a-a872becaa8bb.xml, wiauRegOpenData, wiauRegOpenData function [Imaging Devices], wiauRegOpenDataA, wiauRegOpenDataW, wiautil/wiauRegOpenData
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - wiauRegOpenData
 ---
 
-# wiauRegOpenDataW function
+# wiauRegOpenDataW function (wiautil.h)
+
+
 
 
 ## -description

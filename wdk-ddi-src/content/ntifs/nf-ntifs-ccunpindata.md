@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcUnpinData function"]
 ms.keywords: CcUnpinData, CcUnpinData routine [Installable File System Drivers], ccref_ba560a38-4d3b-409f-b1ea-19c3a117615e.xml, ifsk.ccunpindata, ntifs/CcUnpinData
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcUnpinData
 ---
 
-# CcUnpinData function
+# CcUnpinData function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_SEND_CHALLENGE_KEY IOCTL"]
 ms.keywords: IOCTL_AACS_SEND_CHALLENGE_KEY, IOCTL_AACS_SEND_CHALLENGE_KEY control, IOCTL_AACS_SEND_CHALLENGE_KEY control code [Storage Devices], k307_064ac0c8-c4f9-4232-a41a-72159ff13fd2.xml, ntddcdvd/IOCTL_AACS_SEND_CHALLENGE_KEY, storage.ioctl_aacs_send_challenge_key
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_SEND_CHALLENGE_KEY
 ---
 
-# IOCTL_AACS_SEND_CHALLENGE_KEY IOCTL
+# IOCTL_AACS_SEND_CHALLENGE_KEY IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

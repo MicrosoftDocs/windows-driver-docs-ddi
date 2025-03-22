@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetCurrentIrpStackLocation function"]
 ms.keywords: IoGetCurrentIrpStackLocation, IoGetCurrentIrpStackLocation routine [Kernel-Mode Driver Architecture], k104_f92e53c7-8a26-4cb0-859b-b0a7be4dce6a.xml, kernel.iogetcurrentirpstacklocation, wdm/IoGetCurrentIrpStackLocation
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetCurrentIrpStackLocation
 ---
 
-# IoGetCurrentIrpStackLocation function
+# IoGetCurrentIrpStackLocation function (wdm.h)
+
+
 
 
 ## -description

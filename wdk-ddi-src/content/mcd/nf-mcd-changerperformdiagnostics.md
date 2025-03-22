@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerPerformDiagnostics function"]
 ms.keywords: ChangerPerformDiagnostics, ChangerPerformDiagnostics function [Storage Devices], chgrmini_dd38573a-a1cc-4b7b-abdf-0a200ba11d88.xml, mcd/ChangerPerformDiagnostics, storage.changerperformdiagnostics
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerPerformDiagnostics
 ---
 
-# ChangerPerformDiagnostics function
+# ChangerPerformDiagnostics function (mcd.h)
+
+
 
 
 ## -description

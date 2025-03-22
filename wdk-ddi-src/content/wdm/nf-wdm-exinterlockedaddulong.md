@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedAddUlong function"]
 ms.keywords: ExInterlockedAddUlong, ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, kernel.exinterlockedaddulong, wdm/ExInterlockedAddUlong
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedAddUlong
 ---
 
-# ExInterlockedAddUlong function
+# ExInterlockedAddUlong function (wdm.h)
+
+
 
 
 ## -description

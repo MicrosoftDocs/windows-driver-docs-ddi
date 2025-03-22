@@ -6,6 +6,7 @@ tech.root: kernel
 ms.date: 06/13/2021
 ms.keywords: RtlIsZeroMemory
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -36,7 +37,9 @@ f1_keywords:
  - ntddk/RtlIsZeroMemory
 ---
 
-# RtlIsZeroMemory function
+# RtlIsZeroMemory function (ntddk.h)
+
+
 
 ## -description
 

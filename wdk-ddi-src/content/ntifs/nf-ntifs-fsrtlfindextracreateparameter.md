@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlFindExtraCreateParameter function"]
 ms.keywords: FsRtlFindExtraCreateParameter, FsRtlFindExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3536c7a7-2d3c-4aa5-9a91-5579a8108655.xml, ifsk.fsrtlfindextracreateparameter, ntifs/FsRtlFindExtraCreateParameter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlFindExtraCreateParameter routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlFindExtraCreateParameter
 ---
 
-# FsRtlFindExtraCreateParameter function
+# FsRtlFindExtraCreateParameter function (ntifs.h)
+
+
 
 
 ## -description

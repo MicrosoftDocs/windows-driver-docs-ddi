@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GetCurrentThreadAddr function"]
 ms.keywords: GetCurrentThreadAddr, GetCurrentThreadAddr function [Windows Debugging], WdbgExts_Ref_03db8f68-2e64-4530-bf35-df2a6f0d7736.xml, debugger.getcurrentthreadaddr, wdbgexts/GetCurrentThreadAddr
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetCurrentThreadAddr
 ---
 
-# GetCurrentThreadAddr function
+# GetCurrentThreadAddr function (wdbgexts.h)
+
+
 
 
 ## -description

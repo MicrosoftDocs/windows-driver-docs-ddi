@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortRegistryWrite function"]
 ms.keywords: StorPortRegistryWrite, StorPortRegistryWrite routine [Storage Devices], storage.storportregistrywrite, storport/StorPortRegistryWrite, storprt_dda4d4a4-d312-4076-8b72-842517a701c5.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortRegistryWrite
 ---
 
-# StorPortRegistryWrite function
+# StorPortRegistryWrite function (storport.h)
+
+
 
 
 ## -description

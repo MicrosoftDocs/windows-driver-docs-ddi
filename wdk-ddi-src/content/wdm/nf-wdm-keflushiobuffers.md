@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeFlushIoBuffers function"]
 ms.keywords: KeFlushIoBuffers, KeFlushIoBuffers routine [Kernel-Mode Driver Architecture], k105_265e110c-5dad-444c-a97d-6693d7996c51.xml, kernel.keflushiobuffers, wdm/KeFlushIoBuffers
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeFlushIoBuffers
 ---
 
-# KeFlushIoBuffers function
+# KeFlushIoBuffers function (wdm.h)
+
+
 
 
 ## -description

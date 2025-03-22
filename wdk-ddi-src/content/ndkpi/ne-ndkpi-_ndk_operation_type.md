@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_OPERATION_TYPE enumeration"]
 ms.keywords: NDK_OPERATION_TYPE, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeBind, NdkOperationTypeFastRegister, NdkOperationTypeInvalidate, NdkOperationTypeRead, NdkOperationTypeReceive, NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeSend, NdkOperationTypeWrite, _NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeBind, ndkpi/NdkOperationTypeFastRegister, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeWrite, netvista.ndk_operation_type
 req.header: ndkpi.h
+req.construct-type: enumeration
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.40 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_OPERATION_TYPE
 ---
 
-# _NDK_OPERATION_TYPE enumeration
+# NDK_OPERATION_TYPE enumeration (ndkpi.h)
+
+
 
 
 ## -description

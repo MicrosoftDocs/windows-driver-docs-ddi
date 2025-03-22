@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_DDI_STENCIL_OP enumeration"]
 ms.keywords: D3D10_DDI_STENCIL_OP, D3D10_DDI_STENCIL_OP enumeration [Display Devices], D3D10_DDI_STENCIL_OP_DECR, D3D10_DDI_STENCIL_OP_DECR_SAT, D3D10_DDI_STENCIL_OP_INCR, D3D10_DDI_STENCIL_OP_INCR_SAT, D3D10_DDI_STENCIL_OP_INVERT, D3D10_DDI_STENCIL_OP_KEEP, D3D10_DDI_STENCIL_OP_REPLACE, D3D10_DDI_STENCIL_OP_ZERO, UMDisplayDriver_Dx10param_Structs_0d70cbc2-b62c-4dce-b1f4-65b4c99ed5d7.xml, d3d10umddi/D3D10_DDI_STENCIL_OP, d3d10umddi/D3D10_DDI_STENCIL_OP_DECR, d3d10umddi/D3D10_DDI_STENCIL_OP_DECR_SAT, d3d10umddi/D3D10_DDI_STENCIL_OP_INCR, d3d10umddi/D3D10_DDI_STENCIL_OP_INCR_SAT, d3d10umddi/D3D10_DDI_STENCIL_OP_INVERT, d3d10umddi/D3D10_DDI_STENCIL_OP_KEEP, d3d10umddi/D3D10_DDI_STENCIL_OP_REPLACE, d3d10umddi/D3D10_DDI_STENCIL_OP_ZERO, display.d3d10_ddi_stencil_op
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_STENCIL_OP
 ---
 
-# D3D10_DDI_STENCIL_OP enumeration
+# D3D10_DDI_STENCIL_OP enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

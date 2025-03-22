@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_DEVICE_CONFIG_INIT function"]
 ms.keywords: UCMUCSI_DEVICE_CONFIG_INIT
 req.header: ucmucsidevice.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UCMUCSI_DEVICE_CONFIG_INIT
 ---
 
-# UCMUCSI_DEVICE_CONFIG_INIT function
+# UCMUCSI_DEVICE_CONFIG_INIT function (ucmucsidevice.h)
+
+
 
 
 ## -description

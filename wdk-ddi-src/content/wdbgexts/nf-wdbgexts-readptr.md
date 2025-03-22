@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadPtr function"]
 ms.keywords: ReadPtr, ReadPtr function [Windows Debugging], WdbgExts_Ref_4eaec659-6522-4d7f-b64a-ad771f93eb56.xml, debugger.readptr, wdbgexts/ReadPtr
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadPtr
 ---
 
-# ReadPtr function
+# ReadPtr function (wdbgexts.h)
+
+
 
 
 ## -description

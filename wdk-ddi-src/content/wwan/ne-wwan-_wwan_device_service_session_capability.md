@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionNotSupported, WwanDeviceServiceSessionReadSupported, WwanDeviceServiceSessionWriteSupported, _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, netvista.wwan_device_service_session_capability, wwan/WWAN_DEVICE_SERVICE_SESSION_CAPABILITY, wwan/WwanDeviceServiceSessionNotSupported, wwan/WwanDeviceServiceSessionReadSupported, wwan/WwanDeviceServiceSessionWriteSupported"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DEVICE_SERVICE_SESSION_CAPABILITY
 ---
 
-# _WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration
+# WWAN_DEVICE_SERVICE_SESSION_CAPABILITY enumeration (wwan.h)
+
+
 
 
 ## -description

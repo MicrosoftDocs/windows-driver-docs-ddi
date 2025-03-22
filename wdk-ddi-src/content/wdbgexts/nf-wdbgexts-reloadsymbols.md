@@ -8,6 +8,7 @@ ms.date: 07/27/2023
 keywords: ["ReloadSymbols function"]
 ms.keywords: ReloadSymbols, ReloadSymbols function [Windows Debugging], WdbgExts_Ref_c48c63b8-6c59-42f7-8a44-78462cbf653f.xml, debugger.reloadsymbols, wdbgexts/ReloadSymbols
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReloadSymbols
 ---
 
-# ReloadSymbols function
+# ReloadSymbols function (wdbgexts.h)
+
+
 
 ## -description
 

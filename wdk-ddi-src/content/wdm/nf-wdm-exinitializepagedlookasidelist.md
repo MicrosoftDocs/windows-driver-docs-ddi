@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["ExInitializePagedLookasideList function"]
 ms.keywords: ExInitializePagedLookasideList, ExInitializePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_7044b56d-db76-4021-8d76-b4f157e2d783.xml, kernel.exinitializepagedlookasidelist, wdm/ExInitializePagedLookasideList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExInitializePagedLookasideList
 ---
+
+# ExInitializePagedLookasideList function (wdm.h)
 
 ## -description
 

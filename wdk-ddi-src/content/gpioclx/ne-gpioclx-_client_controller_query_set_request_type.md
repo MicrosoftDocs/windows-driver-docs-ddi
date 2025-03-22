@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration [Parallel Ports], GPIO.client_controller_query_set_request_type, QueryBankInterruptBindingInformation, QueryBankPowerInformation, QueryControllerFunctionBankMappingInformation, QuerySetRequestMaximumType, _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE, gpioclx/QueryBankInterruptBindingInformation, gpioclx/QueryBankPowerInformation, gpioclx/QueryControllerFunctionBankMappingInformation, gpioclx/QuerySetRequestMaximumType"
 req.header: gpioclx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE
 ---
 
-# _CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration
+# CLIENT_CONTROLLER_QUERY_SET_REQUEST_TYPE enumeration (gpioclx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 02/06/2024
 author: lorihollasch
 keywords: ["FILE_INFORMATION_CLASS enumeration"]
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -45,6 +46,8 @@ api_name:
  - PFILE_INFORMATION_CLASS
  - FILE_INFORMATION_CLASS
 ---
+
+# FILE_INFORMATION_CLASS enumeration (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 07/30/2021
 keywords: ["IoAllocateController function"]
 ms.keywords: IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture], k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, kernel.ioallocatecontroller, ntddk/IoAllocateController
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoAllocateController
 ---
 
-# IoAllocateController function
+# IoAllocateController function (ntddk.h)
+
+
 
 ## -description
 

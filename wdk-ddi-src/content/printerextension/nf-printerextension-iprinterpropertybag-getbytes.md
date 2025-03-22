@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::GetBytes"]
 ms.keywords: GetBytes, GetBytes method [Print Devices], GetBytes method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBytes method, IPrinterPropertyBag.GetBytes, IPrinterPropertyBag::GetBytes, print.iprinterpropertybag_getbytes, printerextension/IPrinterPropertyBag::GetBytes
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::GetBytes
 ---
+
+# IPrinterPropertyBag::GetBytes function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/27/2024
 keywords: ["RtlCaptureContext function"]
 ms.keywords: RtlCaptureContext, RtlCaptureContext function [Installable File System Drivers], ifsk.rtlcapturecontext, ntifs/RtlCaptureContext, rtlref_efe764ec-89fb-43bc-945d-7fee4594c284.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -43,7 +44,9 @@ api_name:
  - RtlCaptureContext
 ---
 
-# RtlCaptureContext function
+# RtlCaptureContext function (ntifs.h)
+
+
 
 
 ## -description

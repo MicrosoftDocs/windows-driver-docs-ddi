@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_VGPU_CAPABILITY_TYPE enumeration"]
 ms.keywords: _DXGK_VGPU_CAPABILITY_TYPE, DXGK_VGPU_CAPABILITY_TYPE,
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VGPU_CAPABILITY_TYPE enumeration
+# DXGK_VGPU_CAPABILITY_TYPE enumeration (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInitUnicodeString function"]
 ms.keywords: RtlInitUnicodeString, RtlInitUnicodeString routine [Kernel-Mode Driver Architecture], k109_10e59fa9-6f57-45db-bc11-520660f43b13.xml, kernel.rtlinitunicodestring, wdm/RtlInitUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlInitUnicodeString
 ---
 
-# RtlInitUnicodeString function
+# RtlInitUnicodeString function (wdm.h)
+
+
 
 
 ## -description

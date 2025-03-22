@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMFreeNetBufferSGList function"]
 ms.keywords: NdisMFreeNetBufferSGList, NdisMFreeNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMFreeNetBufferSGList, ndis_sgdma_ref_e2f486cf-eba4-410d-ac18-724efb32fd59.xml, netvista.ndismfreenetbuffersglist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMFreeNetBufferSGList
 ---
 
-# NdisMFreeNetBufferSGList function
+# NdisMFreeNetBufferSGList function (ndis.h)
+
+
 
 
 ## -description

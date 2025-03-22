@@ -7,6 +7,7 @@ ms.date: 03/05/2019
 keywords: ["StorPortLogTelemetryEx function"]
 ms.keywords: StorPortLogTelemetryEx, STOR_TELEMETRY_CATEGORY, STORPORT_TELEMETRY_EVENT, StorPortLogTelemetry
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# StorPortLogTelemetryEx function
+# StorPortLogTelemetryEx function (storport.h)
+
+
 
 
 ## -description

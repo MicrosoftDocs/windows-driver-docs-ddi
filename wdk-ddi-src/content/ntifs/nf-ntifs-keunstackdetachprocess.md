@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["KeUnstackDetachProcess function"]
 ms.keywords: KeUnstackDetachProcess, KeUnstackDetachProcess routine [Installable File System Drivers], ifsk.keunstackdetachprocess, keref_47d45f58-d264-4633-8808-2172646df566.xml, ntifs/KeUnstackDetachProcess
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - KeUnstackDetachProcess
 ---
 
-# KeUnstackDetachProcess function
+# KeUnstackDetachProcess function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_TYPE enumeration"]
 ms.keywords: DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, _DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, display.dxgkvgpu_escape_type
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKVGPU_ESCAPE_TYPE
 ---
 
-# _DXGKVGPU_ESCAPE_TYPE enumeration
+# DXGKVGPU_ESCAPE_TYPE enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

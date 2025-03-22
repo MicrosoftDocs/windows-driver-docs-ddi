@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_CHECK_VERIFY IOCTL"]
 ms.keywords: IOCTL_CDROM_CHECK_VERIFY, IOCTL_CDROM_CHECK_VERIFY control, IOCTL_CDROM_CHECK_VERIFY control code [Storage Devices], k307_ecbed4e9-b4e2-4b49-90e4-652011983e48.xml, ntddcdrm/IOCTL_CDROM_CHECK_VERIFY, storage.ioctl_cdrom_check_verify
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_CHECK_VERIFY
 ---
 
-# IOCTL_CDROM_CHECK_VERIFY IOCTL
+# IOCTL_CDROM_CHECK_VERIFY IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortPoFxIdleComponent function"]
 ms.keywords: StorPortPoFxIdleComponent, StorPortPoFxIdleComponent routine [Storage Devices], storage.storportpofxidlecomponent, storport/StorPortPoFxIdleComponent
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - StorPortPoFxIdleComponent
 ---
 
-# StorPortPoFxIdleComponent function
+# StorPortPoFxIdleComponent function (storport.h)
+
+
 
 
 ## -description

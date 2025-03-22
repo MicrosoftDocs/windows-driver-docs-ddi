@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxPurgeAllFobxs function"]
 ms.keywords: RxPurgeAllFobxs, RxPurgeAllFobxs function [Installable File System Drivers], ifsk.rxpurgeallfobxs, rxprocs/RxPurgeAllFobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxPurgeAllFobxs
 ---
 
-# RxPurgeAllFobxs function
+# RxPurgeAllFobxs function (rxprocs.h)
+
+
 
 
 ## -description

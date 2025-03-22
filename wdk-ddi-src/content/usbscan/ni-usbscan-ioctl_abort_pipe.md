@@ -5,6 +5,7 @@ description: "Learn more about: IOCTL_ABORT_PIPE IOCTL"
 ms.date: 11/18/2020
 keywords: ["IOCTL_ABORT_PIPE IOCTL"]
 req.header: usbscan.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_ABORT_PIPE
 ---
 
-# IOCTL_ABORT_PIPE IOCTL
+# IOCTL_ABORT_PIPE IOCTL (usbscan.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

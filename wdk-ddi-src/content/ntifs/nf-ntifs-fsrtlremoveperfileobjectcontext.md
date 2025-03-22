@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlRemovePerFileObjectContext function"]
 ms.keywords: FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlRemovePerFileObjectContext
 ---
 
-# FsRtlRemovePerFileObjectContext function
+# FsRtlRemovePerFileObjectContext function (ntifs.h)
+
+
 
 
 ## -description

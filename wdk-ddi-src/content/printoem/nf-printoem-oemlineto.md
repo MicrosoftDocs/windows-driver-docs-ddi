@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMLineTo function"]
 ms.keywords: OEMLineTo, OEMLineTo function [Print Devices], print.oemlineto, print_unidrv-pscript_rendering_45398181-47db-43c2-8c68-000dbf9cce8d.xml, printoem/OEMLineTo
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMLineTo
 ---
+
+# OEMLineTo function (printoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_BMREQUEST_DIRECTION enumeration"]
 ms.keywords: BmRequestDeviceToHost, BmRequestHostToDevice, DFUsbRef_c758891d-14e3-4034-8e95-b896470437fd.xml, WDF_USB_BMREQUEST_DIRECTION, WDF_USB_BMREQUEST_DIRECTION enumeration, _WDF_USB_BMREQUEST_DIRECTION, kmdf.wdf_usb_bmrequest_direction, wdf.wdf_usb_bmrequest_direction, wdfusb/BmRequestDeviceToHost, wdfusb/BmRequestHostToDevice, wdfusb/WDF_USB_BMREQUEST_DIRECTION
 req.header: wdfusb.h
+req.construct-type: enumeration
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_USB_BMREQUEST_DIRECTION
 ---
 
-# _WDF_USB_BMREQUEST_DIRECTION enumeration
+# WDF_USB_BMREQUEST_DIRECTION enumeration (wdfusb.h)
+
+
 
 
 ## -description

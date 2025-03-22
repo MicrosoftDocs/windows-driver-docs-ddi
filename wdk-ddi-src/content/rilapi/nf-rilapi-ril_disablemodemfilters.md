@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_DisableModemFilters function"]
 ms.keywords: RIL_DisableModemFilters, RIL_DisableModemFilters method [Network Drivers Starting with Windows Vista], netvista.ril_disablemodemfilters, rilapi/RIL_DisableModemFilters
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_DisableModemFilters
 ---
 
-# RIL_DisableModemFilters function
+# RIL_DisableModemFilters function (rilapi.h)
+
+
 
 
 ## -description

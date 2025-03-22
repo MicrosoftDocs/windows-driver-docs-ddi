@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAllocateDefaultClockEx function"]
 ms.keywords: KsAllocateDefaultClockEx, KsAllocateDefaultClockEx function [Streaming Media Devices], ks/KsAllocateDefaultClockEx, ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, stream.ksallocatedefaultclockex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAllocateDefaultClockEx
 ---
 
-# KsAllocateDefaultClockEx function
+# KsAllocateDefaultClockEx function (ks.h)
+
+
 
 
 ## -description

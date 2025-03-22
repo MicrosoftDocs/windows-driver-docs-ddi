@@ -8,6 +8,7 @@ ms.date: 09/07/2022
 keywords: ["RIL_ManageCalls function"]
 ms.keywords: RIL_ManageCalls, RIL_ManageCalls method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls, rilapi/RIL_ManageCalls
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_ManageCalls
 ---
 
-# RIL_ManageCalls function
+# RIL_ManageCalls function (rilapi.h)
+
+
 
 
 ## -description

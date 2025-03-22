@@ -8,6 +8,7 @@ ms.date: 01/25/2023
 keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER_EX, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control, IOCTL_STORAGE_GET_DEVICE_NUMBER_EX control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER_EX
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_GET_DEVICE_NUMBER_EX
 ---
 
-# IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL
+# IOCTL_STORAGE_GET_DEVICE_NUMBER_EX IOCTL (ntddstor.h)
+
+
+
+
 
 ## -description
 

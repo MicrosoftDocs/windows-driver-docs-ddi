@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_ROOT_HUB_NAME IOCTL"]
 ms.keywords: IOCTL_USB_GET_ROOT_HUB_NAME, IOCTL_USB_GET_ROOT_HUB_NAME control, IOCTL_USB_GET_ROOT_HUB_NAME control code [Buses], buses.ioctl_usb_get_root_hub_name, usbioctl/IOCTL_USB_GET_ROOT_HUB_NAME, usbirp_cf8d4d13-20cc-4134-8050-e3cd376a632e.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_GET_ROOT_HUB_NAME
 ---
 
-# IOCTL_USB_GET_ROOT_HUB_NAME IOCTL
+# IOCTL_USB_GET_ROOT_HUB_NAME IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

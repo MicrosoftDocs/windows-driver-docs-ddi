@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["IKsPin::KsPeekAllocator"]
 ms.keywords: IKsPin interface [Streaming Media Devices],KsPeekAllocator method, IKsPin.KsPeekAllocator, IKsPin::KsPeekAllocator, KsPeekAllocator, KsPeekAllocator method [Streaming Media Devices], KsPeekAllocator method [Streaming Media Devices],IKsPin interface, ksproxy/IKsPin::KsPeekAllocator, ksproxy_46ab9e52-a477-4fca-bddc-af1848484f84.xml, stream.ikspin_kspeekallocator
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsPin::KsPeekAllocator
 ---
+
+# IKsPin::KsPeekAllocator function (ksproxy.h)
 
 ## -description
 

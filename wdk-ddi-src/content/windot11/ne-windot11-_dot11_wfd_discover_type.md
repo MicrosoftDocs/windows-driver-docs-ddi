@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_DISCOVER_TYPE enumeration"]
 ms.keywords: "*PDOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE, DOT11_WFD_DISCOVER_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_DISCOVER_TYPE, dot11_wfd_discover_type_auto, dot11_wfd_discover_type_find_only, dot11_wfd_discover_type_forced, dot11_wfd_discover_type_scan_only, dot11_wfd_discover_type_scan_social_channels, netvista.dot11_wfd_discover_type, windot11/DOT11_WFD_DISCOVER_TYPE, windot11/dot11_wfd_discover_type_auto, windot11/dot11_wfd_discover_type_find_only, windot11/dot11_wfd_discover_type_forced, windot11/dot11_wfd_discover_type_scan_only, windot11/dot11_wfd_discover_type_scan_social_channels"
 req.header: windot11.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_DISCOVER_TYPE
 ---
 
-# _DOT11_WFD_DISCOVER_TYPE enumeration
+# DOT11_WFD_DISCOVER_TYPE enumeration (windot11.h)
+
+
 
 
 ## -description

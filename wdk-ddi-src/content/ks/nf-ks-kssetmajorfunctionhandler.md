@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSetMajorFunctionHandler function"]
 ms.keywords: KsSetMajorFunctionHandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ks/KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, stream.kssetmajorfunctionhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSetMajorFunctionHandler
 ---
 
-# KsSetMajorFunctionHandler function
+# KsSetMajorFunctionHandler function (ks.h)
+
+
 
 
 ## -description

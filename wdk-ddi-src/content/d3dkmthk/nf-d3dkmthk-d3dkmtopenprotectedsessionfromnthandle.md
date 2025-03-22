@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenProtectedSessionFromNtHandle function"]
 ms.keywords: D3DKMTOpenProtectedSessionFromNtHandle, D3DKMTOpenProtectedSessionFromNtHandle method [Display Devices], d3dkmthk/D3DKMTOpenProtectedSessionFromNtHandle, display.d3dkmtopenprotectedsessionfromnthandle
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTOpenProtectedSessionFromNtHandle
 ---
 
-# D3DKMTOpenProtectedSessionFromNtHandle function
+# D3DKMTOpenProtectedSessionFromNtHandle function (d3dkmthk.h)
+
+
 
 
 ## -description

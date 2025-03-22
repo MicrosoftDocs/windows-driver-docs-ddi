@@ -8,6 +8,7 @@ ms.date: 09/29/2021
 keywords: ["FsRtlSetupAdvancedHeaderEx macro"]
 ms.keywords: FsRtlSetupAdvancedHeaderEx, FsRtlSetupAdvancedHeaderEx function [Installable File System Drivers], fsrtlref_9214990b-2568-43d9-801a-c43514a6448f.xml, ifsk.fsrtlsetupadvancedheaderex, ntifs/FsRtlSetupAdvancedHeaderEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Desktop
 req.target-min-winverclnt: Update Rollup for Microsoft Windows 2000 Service Pack 4 (SP4); Windows XP
@@ -40,7 +41,9 @@ api_name:
  - FsRtlSetupAdvancedHeaderEx
 ---
 
-# FsRtlSetupAdvancedHeaderEx macro
+# FsRtlSetupAdvancedHeaderEx function (ntifs.h)
+
+
 
 ## -description
 

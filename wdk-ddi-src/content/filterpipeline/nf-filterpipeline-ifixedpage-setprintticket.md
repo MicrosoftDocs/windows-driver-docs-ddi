@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IFixedPage::SetPrintTicket"]
 ms.keywords: IFixedPage interface [Print Devices],SetPrintTicket method, IFixedPage.SetPrintTicket, IFixedPage::SetPrintTicket, SetPrintTicket, SetPrintTicket method [Print Devices], SetPrintTicket method [Print Devices],IFixedPage interface, filterpipeline/IFixedPage::SetPrintTicket, filterpipeline_9cc3fcaf-d066-4468-b181-6d509fce403c.xml, print.ifixedpage_setprintticket
 req.header: filterpipeline.h
+req.construct-type: function
 req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IFixedPage::SetPrintTicket
 ---
+
+# IFixedPage::SetPrintTicket function (filterpipeline.h)
 
 ## -description
 

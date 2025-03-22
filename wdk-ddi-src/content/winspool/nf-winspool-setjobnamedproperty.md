@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["SetJobNamedProperty function"]
 ms.keywords: SetJobNamedProperty, SetJobNamedProperty function [Print Devices], print.setjobnamedproperty, winspool/SetJobNamedProperty
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SetJobNamedProperty
 ---
+
+# SetJobNamedProperty function (winspool.h)
 
 ## -description
 

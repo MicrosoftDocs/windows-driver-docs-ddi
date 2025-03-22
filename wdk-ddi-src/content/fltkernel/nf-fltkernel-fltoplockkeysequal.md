@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltOplockKeysEqual function"]
 ms.keywords: FltApiRef_e_to_o_66634abf-9f0a-44b1-a4e4-85ef958b05f5.xml, FltOplockKeysEqual, FltOplockKeysEqual routine [Installable File System Drivers], fltkernel/FltOplockKeysEqual, ifsk.fltoplockkeysequal
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltOplockKeysEqual routine is available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltOplockKeysEqual
 ---
 
-# FltOplockKeysEqual function
+# FltOplockKeysEqual function (fltkernel.h)
+
+
 
 
 ## -description

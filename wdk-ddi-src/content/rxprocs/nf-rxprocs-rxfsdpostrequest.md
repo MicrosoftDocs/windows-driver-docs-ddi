@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxFsdPostRequest function"]
 ms.keywords: RxFsdPostRequest, RxFsdPostRequest function [Installable File System Drivers], ifsk.rxfsdpostrequest, rxprocs/RxFsdPostRequest, rxref_ceb83e58-1e5a-49d0-b281-50cd5067e09f.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxFsdPostRequest
 ---
 
-# RxFsdPostRequest function
+# RxFsdPostRequest function (rxprocs.h)
+
+
 
 
 ## -description

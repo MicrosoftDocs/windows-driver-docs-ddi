@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DEBUG_LEVEL enumeration"]
 ms.keywords: _DEBUG_LEVEL, DEBUG_LEVEL,
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DEBUG_LEVEL enumeration
+# DEBUG_LEVEL enumeration (dispmprt.h)
+
+
 
 
 ## -description

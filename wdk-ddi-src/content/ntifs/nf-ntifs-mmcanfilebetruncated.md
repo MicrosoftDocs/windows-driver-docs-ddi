@@ -7,6 +7,7 @@ ms.date: 03/28/2024
 keywords: ["MmCanFileBeTruncated function"]
 ms.keywords: MmCanFileBeTruncated, MmCanFileBeTruncated routine [Installable File System Drivers], ifsk.mmcanfilebetruncated, mmref_7d6c86f9-4a26-4d2c-bf55-9352044e9339.xml, ntifs/MmCanFileBeTruncated
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - MmCanFileBeTruncated
 ---
 
-# MmCanFileBeTruncated function
+# MmCanFileBeTruncated function (ntifs.h)
+
+
 
 ## -description
 

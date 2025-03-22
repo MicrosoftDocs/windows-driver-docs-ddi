@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoAllocateDriverObjectExtension function"]
 ms.keywords: IoAllocateDriverObjectExtension, IoAllocateDriverObjectExtension routine [Kernel-Mode Driver Architecture], k104_f7b420f3-bcd3-4be4-8f0d-e8d61314e880.xml, kernel.ioallocatedriverobjectextension, wdm/IoAllocateDriverObjectExtension
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoAllocateDriverObjectExtension
 ---
 
-# IoAllocateDriverObjectExtension function
+# IoAllocateDriverObjectExtension function (wdm.h)
+
+
 
 
 ## -description

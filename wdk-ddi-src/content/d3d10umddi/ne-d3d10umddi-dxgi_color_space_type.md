@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGI_COLOR_SPACE_TYPE enumeration"]
 ms.keywords: DXGI_COLOR_SPACE_TYPE, ,
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -31,7 +32,9 @@ api_name:
  - DXGI_COLOR_SPACE_TYPE
 ---
 
-# DXGI_COLOR_SPACE_TYPE enumeration
+# DXGI_COLOR_SPACE_TYPE enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

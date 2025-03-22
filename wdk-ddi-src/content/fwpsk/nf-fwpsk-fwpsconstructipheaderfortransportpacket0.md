@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsConstructIpHeaderForTransportPacket0 function"]
 ms.keywords: FwpsConstructIpHeaderForTransportPacket0, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Server 2008.
@@ -41,7 +42,9 @@ api_name:
  - FwpsConstructIpHeaderForTransportPacket0
 ---
 
-# FwpsConstructIpHeaderForTransportPacket0 function
+# FwpsConstructIpHeaderForTransportPacket0 function (fwpsk.h)
+
+
 
 
 ## -description

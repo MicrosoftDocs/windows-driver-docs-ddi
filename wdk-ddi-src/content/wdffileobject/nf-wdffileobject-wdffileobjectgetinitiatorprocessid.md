@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFileObjectGetInitiatorProcessId function"]
 ms.keywords: WdfFileObjectGetInitiatorProcessId, WdfFileObjectGetInitiatorProcessId function, wdf.wdffileobjectgetinitiatorprocessid, wdffileobject/WdfFileObjectGetInitiatorProcessId
 req.header: wdffileobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfFileObjectGetInitiatorProcessId
 ---
 
-# WdfFileObjectGetInitiatorProcessId function
+# WdfFileObjectGetInitiatorProcessId function (wdffileobject.h)
+
+
 
 
 ## -description

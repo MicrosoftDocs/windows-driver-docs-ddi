@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_EnumerateSlots function"]
 ms.keywords: RIL_EnumerateSlots, RIL_EnumerateSlots method [Network Drivers Starting with Windows Vista], netvista.ril_enumerateslots, rilapi/RIL_EnumerateSlots
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_EnumerateSlots
 ---
 
-# RIL_EnumerateSlots function
+# RIL_EnumerateSlots function (rilapi.h)
+
+
 
 
 ## -description

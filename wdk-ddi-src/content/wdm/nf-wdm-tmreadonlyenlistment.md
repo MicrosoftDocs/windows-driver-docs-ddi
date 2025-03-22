@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmReadOnlyEnlistment function"]
 ms.keywords: TmReadOnlyEnlistment, TmReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmreadonlyenlistment, ktm_ref_fbd80117-d891-4e06-b271-5d838e7ecab0.xml, wdm/TmReadOnlyEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmReadOnlyEnlistment
 ---
 
-# TmReadOnlyEnlistment function
+# TmReadOnlyEnlistment function (wdm.h)
+
+
 
 
 ## -description

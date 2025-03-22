@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinAcquireControl function"]
 ms.keywords: KsPinAcquireControl, KsPinAcquireControl function [Streaming Media Devices], avfunc_fd5d1466-6403-42cf-aab7-d044014c4abf.xml, ks/KsPinAcquireControl, stream.kspinacquirecontrol
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsPinAcquireControl
 ---
 
-# KsPinAcquireControl function
+# KsPinAcquireControl function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/06/2022
 keywords: ["DebugCreateEx function"]
 ms.keywords: DebugCreateEx, DebugCreateEx function [Windows Debugging], dbgeng/DebugCreateEx, debugger.debugcreateex
 req.header: dbgeng.h
+req.construct-type: function
 req.include-header: Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DebugCreateEx
 ---
 
-# DebugCreateEx function
+# DebugCreateEx function (dbgeng.h)
+
+
 
 
 ## -description

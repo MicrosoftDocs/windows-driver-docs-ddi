@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDpcEnqueue function"]
 ms.keywords: DFDpcObjectRef_76e257ac-ac8b-4724-8a24-6828bfe93e74.xml, WdfDpcEnqueue, WdfDpcEnqueue method, kmdf.wdfdpcenqueue, wdf.wdfdpcenqueue, wdfdpc/WdfDpcEnqueue
 req.header: wdfdpc.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDpcEnqueue
 ---
 
-# WdfDpcEnqueue function
+# WdfDpcEnqueue function (wdfdpc.h)
+
+
 
 
 ## -description

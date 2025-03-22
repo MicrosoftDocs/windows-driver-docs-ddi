@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMinValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue, JobCopiesAllDocumentsMinValue property [Print Devices], JobCopiesAllDocumentsMinValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMinValue, print.iprintschemacapabilities_jobcopiesalldocumentsminvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMinValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue
 ---
+
+# IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMinValue function (printerextension.h)
 
 ## -description
 

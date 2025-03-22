@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSetDaclSecurityDescriptor function"]
 ms.keywords: RtlSetDaclSecurityDescriptor, RtlSetDaclSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_b2723172-ac75-4ada-b421-ae144d10d560.xml, kernel.rtlsetdaclsecuritydescriptor, wdm/RtlSetDaclSecurityDescriptor
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlSetDaclSecurityDescriptor
 ---
 
-# RtlSetDaclSecurityDescriptor function
+# RtlSetDaclSecurityDescriptor function (wdm.h)
+
+
 
 
 ## -description

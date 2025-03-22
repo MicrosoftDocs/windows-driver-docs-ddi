@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltSetStreamContext function"]
 ms.keywords: FltApiRef_p_to_z_b304d975-533c-4794-aabc-e706fed09893.xml, FltSetStreamContext, FltSetStreamContext routine [Installable File System Drivers], fltkernel/FltSetStreamContext, ifsk.fltsetstreamcontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltSetStreamContext
 ---
 
-# FltSetStreamContext function
+# FltSetStreamContext function (fltkernel.h)
+
+
 
 ## -description
 

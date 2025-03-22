@@ -7,6 +7,7 @@ keywords: ["PropertiesListGetFillableCount function"]
 tech.root: sensors
 ms.keywords: PropertiesListGetFillableCount
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropertiesListGetFillableCount
 ---
 
-# PropertiesListGetFillableCount function
+# PropertiesListGetFillableCount function (sensorsutils.h)
+
+
 
 
 ## -description

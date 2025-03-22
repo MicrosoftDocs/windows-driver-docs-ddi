@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestCancelSentRequest function"]
 ms.keywords: DFRequestObjectRef_203c9cb4-5e9d-4a6b-b30d-b60b8eadf6db.xml, WdfRequestCancelSentRequest, WdfRequestCancelSentRequest method, kmdf.wdfrequestcancelsentrequest, wdf.wdfrequestcancelsentrequest, wdfrequest/WdfRequestCancelSentRequest
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestCancelSentRequest
 ---
 
-# WdfRequestCancelSentRequest function
+# WdfRequestCancelSentRequest function (wdfrequest.h)
+
+
 
 
 ## -description

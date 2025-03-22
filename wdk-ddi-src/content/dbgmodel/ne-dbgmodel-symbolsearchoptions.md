@@ -6,6 +6,7 @@ ms.date: 08/10/2023
 keywords: ["SymbolSearchOptions enumeration"]
 ms.keywords: SymbolSearchOptions, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - SymbolSearchOptions
 ---
 
-# SymbolSearchOptions enumeration
+# SymbolSearchOptions enumeration (dbgmodel.h)
+
+
 
 ## -description
 

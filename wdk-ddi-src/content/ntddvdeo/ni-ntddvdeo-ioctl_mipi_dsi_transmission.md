@@ -5,6 +5,7 @@ description: Mipi (mobile industry processor interface) DCS IOCLTs must be handl
 tech.root: display
 ms.date: 03/24/2020
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -32,7 +33,11 @@ dev_langs:
  - c++
 ---
 
-# IOCTL_MIPI_DSI_TRANSMISSION IOCTL
+# IOCTL_MIPI_DSI_TRANSMISSION IOCTL (ntddvdeo.h)
+
+
+
+
 
 ## -description
 

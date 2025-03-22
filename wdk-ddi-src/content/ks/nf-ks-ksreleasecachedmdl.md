@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsReleaseCachedMdl function"]
 ms.keywords: KsReleaseCachedMdl, KsReleaseCachedMdl function [Streaming Media Devices], ks/KsReleaseCachedMdl, stream.ksreleasecachedmdl
 req.header: ks.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsReleaseCachedMdl
 ---
 
-# KsReleaseCachedMdl function
+# KsReleaseCachedMdl function (ks.h)
+
+
 
 
 ## -description

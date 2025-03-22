@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwOpenKey function"]
 ms.keywords: ZwOpenKey, ZwOpenKey routine [Kernel-Mode Driver Architecture], k111_8583b145-a6be-4e4f-8e46-ca7d48b8a07f.xml, kernel.zwopenkey, wdm/ZwOpenKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwOpenKey
 ---
+
+# ZwOpenKey function (wdm.h)
 
 ## -description
 

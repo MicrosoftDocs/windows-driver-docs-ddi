@@ -8,6 +8,7 @@ ms.date: 02/22/2018
 keywords: ["IOCTL_SMARTCARD_GET_LAST_ERROR IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_GET_LAST_ERROR, IOCTL_SMARTCARD_GET_LAST_ERROR control, IOCTL_SMARTCARD_GET_LAST_ERROR control code [Smart Card Reader Devices], scioctls_f53172a6-95cb-4d50-9a2b-bccc623bf85b.xml, smartcrd.ioctl_smartcard_get_last_error, winsmcrd/IOCTL_SMARTCARD_GET_LAST_ERROR
 req.header: winsmcrd.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SMARTCARD_GET_LAST_ERROR
 ---
 
-# IOCTL_SMARTCARD_GET_LAST_ERROR IOCTL
+# IOCTL_SMARTCARD_GET_LAST_ERROR IOCTL (winsmcrd.h)
+
+
+
+
 
 
 ## -description

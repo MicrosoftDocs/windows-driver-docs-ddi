@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeSetAccessStateGenericMapping function"]
 ms.keywords: SeSetAccessStateGenericMapping, SeSetAccessStateGenericMapping routine [Installable File System Drivers], ifsk.sesetaccessstategenericmapping, ntifs/SeSetAccessStateGenericMapping, seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeSetAccessStateGenericMapping
 ---
 
-# SeSetAccessStateGenericMapping function
+# SeSetAccessStateGenericMapping function (ntifs.h)
+
+
 
 
 ## -description

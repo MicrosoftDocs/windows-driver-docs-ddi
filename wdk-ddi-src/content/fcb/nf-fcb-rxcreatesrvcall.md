@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["RxCreateSrvCall function"]
 ms.keywords: RxCreateSrvCall, RxCreateSrvCall function [Installable File System Drivers], fcb/RxCreateSrvCall, ifsk.rxcreatesrvcall, rxref_ff4d3641-1ae5-43f1-9c49-0456d11f69b2.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Rxcontx.h, Mrxfcb.h, Prefix.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RxCreateSrvCall
 ---
 
-# RxCreateSrvCall function
+# RxCreateSrvCall function (fcb.h)
+
+
 
 ## -description
 

@@ -5,6 +5,7 @@ description: For internal use only. Do not use.
 ms.date: 10/19/2018
 keywords: ["IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL"]
 req.header: d3dkmthk.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,11 @@ dev_langs:
  - c++
 ---
 
-# IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL
+# IOCTL_INTERNAL_GRAPHICSPOWER_REGISTER IOCTL (d3dkmthk.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_PURGE_IO_ACTION enumeration"]
 ms.keywords: WDF_IO_TARGET_PURGE_IO_ACTION, WDF_IO_TARGET_PURGE_IO_ACTION enumeration, WdfIoTargetPurgeIo, WdfIoTargetPurgeIoAndWait, WdfIoTargetPurgeIoUndefined, _WDF_IO_TARGET_PURGE_IO_ACTION, kmdf.wdf_io_target_purge_io_action, wdf.wdf_io_target_purge_io_action, wdfiotarget/WDF_IO_TARGET_PURGE_IO_ACTION, wdfiotarget/WdfIoTargetPurgeIo, wdfiotarget/WdfIoTargetPurgeIoAndWait, wdfiotarget/WdfIoTargetPurgeIoUndefined
 req.header: wdfiotarget.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_IO_TARGET_PURGE_IO_ACTION
 ---
 
-# _WDF_IO_TARGET_PURGE_IO_ACTION enumeration
+# WDF_IO_TARGET_PURGE_IO_ACTION enumeration (wdfiotarget.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateTerminateAnd function"]
 ms.keywords: KsGateTerminateAnd, KsGateTerminateAnd function [Streaming Media Devices], avfunc_e8c3af46-fdb4-4e95-8473-12e1fadff072.xml, ks/KsGateTerminateAnd, stream.ksgateterminateand
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateTerminateAnd
 ---
 
-# KsGateTerminateAnd function
+# KsGateTerminateAnd function (ks.h)
+
+
 
 
 ## -description

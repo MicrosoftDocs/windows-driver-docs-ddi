@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_SET_POINTER_POSITION IOCTL"]
 ms.keywords: IOCTL_VIDEO_SET_POINTER_POSITION, IOCTL_VIDEO_SET_POINTER_POSITION control, IOCTL_VIDEO_SET_POINTER_POSITION control code [Display Devices], Video_IOCTLs_cc9ab1b6-f2be-4dab-b657-f686bc0af329.xml, display.ioctl_video_set_pointer_position, ntddvdeo/IOCTL_VIDEO_SET_POINTER_POSITION
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_SET_POINTER_POSITION
 ---
 
-# IOCTL_VIDEO_SET_POINTER_POSITION IOCTL
+# IOCTL_VIDEO_SET_POINTER_POSITION IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

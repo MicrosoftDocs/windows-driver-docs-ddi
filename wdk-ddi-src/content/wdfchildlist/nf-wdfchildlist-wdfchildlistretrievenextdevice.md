@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListRetrieveNextDevice function"]
 ms.keywords: DFDeviceObjectChildListRef_c7ac1028-c3a3-4189-ae63-510bd199fcb2.xml, WdfChildListRetrieveNextDevice, WdfChildListRetrieveNextDevice method, kmdf.wdfchildlistretrievenextdevice, wdf.wdfchildlistretrievenextdevice, wdfchildlist/WdfChildListRetrieveNextDevice
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListRetrieveNextDevice
 ---
 
-# WdfChildListRetrieveNextDevice function
+# WdfChildListRetrieveNextDevice function (wdfchildlist.h)
+
+
 
 
 ## -description

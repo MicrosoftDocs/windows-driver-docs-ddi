@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxRegisterSequenceHandler function"]
 ms.keywords: NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxRegisterSequenceHandler, nfpdrivers._nfccxregistersequencehandler
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxRegisterSequenceHandler
 ---
 
-# NfcCxRegisterSequenceHandler function
+# NfcCxRegisterSequenceHandler function (nfccx.h)
+
+
 
 
 ## -description

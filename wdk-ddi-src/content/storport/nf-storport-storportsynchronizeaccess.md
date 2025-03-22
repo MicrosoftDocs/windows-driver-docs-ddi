@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortSynchronizeAccess function"]
 ms.keywords: StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortSynchronizeAccess
 ---
 
-# StorPortSynchronizeAccess function
+# StorPortSynchronizeAccess function (storport.h)
+
+
 
 
 ## -description

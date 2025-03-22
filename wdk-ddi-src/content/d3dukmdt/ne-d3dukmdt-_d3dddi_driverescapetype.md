@@ -6,6 +6,7 @@ ms.date: 09/12/2022
 keywords: ["D3DDDI_DRIVERESCAPETYPE enumeration"]
 ms.keywords: _D3DDDI_DRIVERESCAPETYPE, D3DDDI_DRIVERESCAPETYPE,
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_DRIVERESCAPETYPE enumeration
+# D3DDDI_DRIVERESCAPETYPE enumeration (d3dukmdt.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWmiProviderGetDevice function"]
 ms.keywords: DFWMIRef_697647f5-0ece-46e4-8973-07088c8c3739.xml, WdfWmiProviderGetDevice, WdfWmiProviderGetDevice method, kmdf.wdfwmiprovidergetdevice, wdf.wdfwmiprovidergetdevice, wdfwmi/WdfWmiProviderGetDevice
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfWmiProviderGetDevice
 ---
 
-# WdfWmiProviderGetDevice function
+# WdfWmiProviderGetDevice function (wdfwmi.h)
+
+
 
 
 ## -description

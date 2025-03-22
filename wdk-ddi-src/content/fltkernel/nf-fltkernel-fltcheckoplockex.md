@@ -5,6 +5,7 @@ description: A minifilter driver calls the FltCheckOplockEx routine to synchroni
 tech.root: ifsk
 ms.date: 02/18/2025
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -38,7 +39,9 @@ api_name:
  - FltCheckOplockEx
 ---
 
-# FltCheckOplockEx function
+# FltCheckOplockEx function (fltkernel.h)
+
+
 
 ## -description
 

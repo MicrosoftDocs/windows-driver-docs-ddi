@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_DISCONNECT_IDLE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_DISCONNECT_IDLE, IOCTL_INTERNAL_DISCONNECT_IDLE control code [Parallel Ports], cisspd_ff4b2feb-d3b4-4b80-9f6f-f4fd16bab4c1.xml, parallel/IOCTL_INTERNAL_DISCONNECT_IDLE, parports.ioctl_internal_disconnect_idle
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_DISCONNECT_IDLE
 ---
 
-# IOCTL_INTERNAL_DISCONNECT_IDLE IOCTL
+# IOCTL_INTERNAL_DISCONNECT_IDLE IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

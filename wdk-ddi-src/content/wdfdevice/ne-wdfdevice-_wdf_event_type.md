@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_EVENT_TYPE enumeration"]
 ms.keywords: WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration, WdfEventBroadcast, WdfEventMaximum, WdfEventReserved, _WDF_EVENT_TYPE, wdf.wdf_event_type, wdfdevice/WDF_EVENT_TYPE, wdfdevice/WdfEventBroadcast, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, wudfddi_types/WDF_EVENT_TYPE, wudfddi_types/WdfEventBroadcast, wudfddi_types/WdfEventMaximum, wudfddi_types/WdfEventReserved
 req.header: wdfdevice.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -44,7 +45,9 @@ api_name:
  - WDF_EVENT_TYPE
 ---
 
-# _WDF_EVENT_TYPE enumeration (wdfdevice.h)
+# WDF_EVENT_TYPE enumeration (wdfdevice.h)
+
+
 
 
 ## -description

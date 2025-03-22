@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlGetEcpListFromIrp function"]
 ms.keywords: FsRtlGetEcpListFromIrp, FsRtlGetEcpListFromIrp routine [Installable File System Drivers], fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml, ifsk.fsrtlgetecplistfromirp, ntifs/FsRtlGetEcpListFromIrp
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlGetEcpListFromIrp
 ---
 
-# FsRtlGetEcpListFromIrp function
+# FsRtlGetEcpListFromIrp function (ntifs.h)
+
+
 
 
 ## -description

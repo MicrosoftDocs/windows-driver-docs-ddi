@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetInterfaceNumber function"]
 ms.keywords: DFUsbRef_035fbae3-67d4-4df6-8718-30851a0d60ca.xml, WdfUsbInterfaceGetInterfaceNumber, WdfUsbInterfaceGetInterfaceNumber method, kmdf.wdfusbinterfacegetinterfacenumber, wdf.wdfusbinterfacegetinterfacenumber, wdfusb/WdfUsbInterfaceGetInterfaceNumber
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetInterfaceNumber
 ---
 
-# WdfUsbInterfaceGetInterfaceNumber function
+# WdfUsbInterfaceGetInterfaceNumber function (wdfusb.h)
+
+
 
 
 ## -description

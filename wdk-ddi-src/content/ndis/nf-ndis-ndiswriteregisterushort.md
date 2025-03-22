@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisWriteRegisterUshort macro"]
 ms.keywords: NdisWriteRegisterUshort, NdisWriteRegisterUshort macro [Network Drivers Starting with Windows Vista], miniport_register_ref_a2e4ab78-aab2-4076-8f66-4e48a60b5beb.xml, ndis/NdisWriteRegisterUshort, netvista.ndiswriteregisterushort
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisWriteRegisterUshort (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisWriteRegisterUshort (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisWriteRegisterUshort
 ---
 
-# NdisWriteRegisterUshort macro
+# NdisWriteRegisterUshort function (ndis.h)
+
+
 
 
 ## -description

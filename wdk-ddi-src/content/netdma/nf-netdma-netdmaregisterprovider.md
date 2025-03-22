@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaRegisterProvider function"]
 ms.keywords: NetDmaRegisterProvider, NetDmaRegisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaRegisterProvider, netdma_ref_5267288c-9502-40f7-9af1-557babf3f840.xml, netvista.netdmaregisterprovider
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaRegisterProvider
 ---
 
-# NetDmaRegisterProvider function
+# NetDmaRegisterProvider function (netdma.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedPushEntryList function"]
 ms.keywords: ExInterlockedPushEntryList, ExInterlockedPushEntryList routine [Kernel-Mode Driver Architecture], k102_dbf9c23d-8c9a-47e6-a923-cdb4d247148c.xml, kernel.exinterlockedpushentrylist, wdm/ExInterlockedPushEntryList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedPushEntryList
 ---
 
-# ExInterlockedPushEntryList function
+# ExInterlockedPushEntryList function (wdm.h)
+
+
 
 
 ## -description

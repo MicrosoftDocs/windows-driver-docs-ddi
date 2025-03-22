@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterFactoryGetParentDevice function"]
 ms.keywords: KsFilterFactoryGetParentDevice, KsFilterFactoryGetParentDevice function [Streaming Media Devices], avfunc_35d9d582-f7d6-4c1f-8998-a6664527db2c.xml, ks/KsFilterFactoryGetParentDevice, stream.ksfilterfactorygetparentdevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsFilterFactoryGetParentDevice
 ---
 
-# KsFilterFactoryGetParentDevice function
+# KsFilterFactoryGetParentDevice function (ks.h)
+
+
 
 
 ## -description

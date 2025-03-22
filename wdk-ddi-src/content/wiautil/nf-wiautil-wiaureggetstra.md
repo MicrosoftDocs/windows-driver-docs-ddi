@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["wiauRegGetStrA function"]
 ms.keywords: image.wiaureggetstr, wiauFncs_b9145502-734d-40de-8086-c1f193966269.xml, wiauRegGetStr, wiauRegGetStr function [Imaging Devices], wiauRegGetStrA, wiauRegGetStrW, wiautil/wiauRegGetStr
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - wiauRegGetStrA
  - wiauRegGetStr
 ---
+
+# wiauRegGetStrA function (wiautil.h)
 
 ## -description
 

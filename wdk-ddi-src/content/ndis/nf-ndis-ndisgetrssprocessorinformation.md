@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGetRssProcessorInformation function"]
 ms.keywords: NdisGetRssProcessorInformation, NdisGetRssProcessorInformation function [Network Drivers Starting with Windows Vista], ndis/NdisGetRssProcessorInformation, ndis_processor_group_ref_167a091b-01dd-4e5d-bee8-01f5aa9f56fd.xml, netvista.ndisgetrssprocessorinformation
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisGetRssProcessorInformation
 ---
 
-# NdisGetRssProcessorInformation function
+# NdisGetRssProcessorInformation function (ndis.h)
+
+
 
 
 ## -description

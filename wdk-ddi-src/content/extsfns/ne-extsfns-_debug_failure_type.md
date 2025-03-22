@@ -8,6 +8,7 @@ ms.date: 08/15/2023
 keywords: ["DEBUG_FAILURE_TYPE enumeration"]
 ms.keywords: DEBUG_FAILURE_TYPE, DEBUG_FAILURE_TYPE enumeration [Windows Debugging], DEBUG_FLR_IE_CRASH, DEBUG_FLR_KERNEL, DEBUG_FLR_UNKNOWN, DEBUG_FLR_USER_CRASH, _DEBUG_FAILURE_TYPE, debugger.debug_failure_type, extsfns/DEBUG_FAILURE_TYPE, extsfns/DEBUG_FLR_IE_CRASH, extsfns/DEBUG_FLR_KERNEL, extsfns/DEBUG_FLR_UNKNOWN, extsfns/DEBUG_FLR_USER_CRASH
 req.header: extsfns.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DEBUG_FAILURE_TYPE
 ---
 
-# _DEBUG_FAILURE_TYPE enumeration
+# DEBUG_FAILURE_TYPE enumeration (extsfns.h)
+
+
 
 ## -description
 

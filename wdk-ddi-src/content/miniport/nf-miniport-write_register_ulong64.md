@@ -7,6 +7,7 @@ ms.date: 07/14/2022
 keywords: ["WRITE_REGISTER_ULONG64 function"]
 ms.keywords: WRITE_REGISTER_ULONG64, WRITE_REGISTER_ULONG64 function, umdf.write_register_ulong64, wdf.write_register_ulong64, wudfddi_hwaccess/WRITE_REGISTER_ULONG64
 req.header: miniport.h
+req.construct-type: function
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - WRITE_REGISTER_ULONG64
 ---
+
+# WRITE_REGISTER_ULONG64 function (miniport.h)
 
 ## -description
 

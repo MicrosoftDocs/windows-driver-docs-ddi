@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlWriteRegistryValue function"]
 ms.keywords: RtlWriteRegistryValue, RtlWriteRegistryValue routine [Kernel-Mode Driver Architecture], k109_e0c16f81-5256-472b-9270-fe48d6a49893.xml, kernel.rtlwriteregistryvalue, wdm/RtlWriteRegistryValue
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlWriteRegistryValue
 ---
 
-# RtlWriteRegistryValue function
+# RtlWriteRegistryValue function (wdm.h)
+
+
 
 
 ## -description

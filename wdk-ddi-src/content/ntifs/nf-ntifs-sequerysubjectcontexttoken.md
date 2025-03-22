@@ -7,6 +7,7 @@ ms.date: 02/21/2023
 keywords: ["SeQuerySubjectContextToken macro"]
 ms.keywords: SeQuerySubjectContextToken, SeQuerySubjectContextToken function [Installable File System Drivers], ifsk.sequerysubjectcontexttoken, ntifs/SeQuerySubjectContextToken, seref_5b274dd0-4f8e-4f4c-b7ff-9de9b3da9213.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - SeQuerySubjectContextToken
 ---
 
-# SeQuerySubjectContextToken macro
+# SeQuerySubjectContextToken function (ntifs.h)
+
+
 
 ## -description
 

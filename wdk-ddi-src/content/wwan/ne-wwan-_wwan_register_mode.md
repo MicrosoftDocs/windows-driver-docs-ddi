@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_REGISTER_MODE enumeration"]
 ms.keywords: "*PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, WwanRegisterModeAutomatic, WwanRegisterModeManual, WwanRegisterModeMax, WwanRegisterModeUnknown, _WWAN_REGISTER_MODE, netvista.wwan_register_mode, wwan/PWWAN_REGISTER_MODE, wwan/WWAN_REGISTER_MODE, wwan/WwanRegisterModeAutomatic, wwan/WwanRegisterModeManual, wwan/WwanRegisterModeMax, wwan/WwanRegisterModeUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_REGISTER_MODE
 ---
 
-# _WWAN_REGISTER_MODE enumeration
+# WWAN_REGISTER_MODE enumeration (wwan.h)
+
+
 
 
 ## -description

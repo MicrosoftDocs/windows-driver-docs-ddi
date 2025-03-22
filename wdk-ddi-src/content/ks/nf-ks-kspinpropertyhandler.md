@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinPropertyHandler function"]
 ms.keywords: KsPinPropertyHandler, KsPinPropertyHandler function [Streaming Media Devices], ks/KsPinPropertyHandler, ksfunc_4ebda111-4b9a-4e8e-b050-af336121bcf0.xml, stream.kspinpropertyhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsPinPropertyHandler
 ---
 
-# KsPinPropertyHandler function
+# KsPinPropertyHandler function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 IOCTL"]
 ms.keywords: IOCTL_ACPI_ASYNC_EVAL_METHOD_V1, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 control, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 control code [ACPI Devices], acpi.ioctl_acpi_async_eval_method_v1, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V1
 req.header: acpiioct.h
+req.construct-type: ioctl
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 and later versions.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_ACPI_ASYNC_EVAL_METHOD_V1
 ---
 
-# IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 IOCTL
+# IOCTL_ACPI_ASYNC_EVAL_METHOD_V1 IOCTL (acpiioct.h)
+
+
+
+
 
 
 ## -description

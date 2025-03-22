@@ -7,6 +7,7 @@ ms.date: 02/05/2019
 keywords: ["HidNotifyPresence function"]
 ms.keywords: HidNotifyPresence
 req.header: hidport.h
+req.construct-type: function
 req.include-header: hidport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP SP1 and later versions of Windows.
@@ -32,7 +33,9 @@ api_name:
  - HidNotifyPresence
 ---
 
-# HidNotifyPresence function
+# HidNotifyPresence function (hidport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeRWLock function"]
 ms.keywords: NdisFreeRWLock, NdisFreeRWLock function [Network Drivers Starting with Windows Vista], ndis/NdisFreeRWLock, ndis_processor_group_ref_f711221a-f265-446e-86bc-7b5b4d17f7d9.xml, netvista.ndisfreerwlock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeRWLock
 ---
 
-# NdisFreeRWLock function
+# NdisFreeRWLock function (ndis.h)
+
+
 
 
 ## -description

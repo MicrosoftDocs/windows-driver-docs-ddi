@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFastIoPrepareMdlWrite function"]
 ms.keywords: FltFastIoPrepareMdlWrite, FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, ifsk.fltfastiopreparemdlwrite
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltFastIoPrepareMdlWrite
 ---
 
-# FltFastIoPrepareMdlWrite function
+# FltFastIoPrepareMdlWrite function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnContainer function"]
 ms.keywords: ClfsLsnContainer, ClfsLsnContainer routine [Kernel-Mode Driver Architecture], Clfs_87c1e289-57b7-414d-a78e-8074a75d1262.xml, kernel.clfslsncontainer, wdm/ClfsLsnContainer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnContainer
 ---
 
-# ClfsLsnContainer function
+# ClfsLsnContainer function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 01/04/2021
 keywords: ["FltCbdqInsertIo function"]
 ms.keywords: FltApiRef_a_to_d_d2635baa-958a-437b-88ca-9ee84df26d64.xml, FltCbdqInsertIo, FltCbdqInsertIo function [Installable File System Drivers], fltkernel/FltCbdqInsertIo, ifsk.fltcbdqinsertio
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltCbdqInsertIo
 ---
 
-# FltCbdqInsertIo function
+# FltCbdqInsertIo function (fltkernel.h)
+
+
 
 ## -description
 

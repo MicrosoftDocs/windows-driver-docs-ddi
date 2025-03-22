@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GetInputLine function"]
 ms.keywords: GetInputLine, GetInputLine function [Windows Debugging], WdbgExts_Ref_ed42718c-5e3e-4fe6-a2d6-f553b6c58800.xml, debugger.getinputline, wdbgexts/GetInputLine
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetInputLine
 ---
 
-# GetInputLine function
+# GetInputLine function (wdbgexts.h)
+
+
 
 
 ## -description

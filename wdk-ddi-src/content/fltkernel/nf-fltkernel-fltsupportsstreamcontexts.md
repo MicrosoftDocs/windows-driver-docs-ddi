@@ -8,6 +8,7 @@ ms.date: 1/22/2021
 keywords: ["FltSupportsStreamContexts function"]
 ms.keywords: FltApiRef_p_to_z_a2e2c9ac-1dc0-44cf-b8f0-172ca931a450.xml, FltSupportsStreamContexts, FltSupportsStreamContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamContexts, ifsk.fltsupportsstreamcontexts
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltSupportsStreamContexts
 ---
 
-# FltSupportsStreamContexts function
+# FltSupportsStreamContexts function (fltkernel.h)
+
+
 
 ## -description
 

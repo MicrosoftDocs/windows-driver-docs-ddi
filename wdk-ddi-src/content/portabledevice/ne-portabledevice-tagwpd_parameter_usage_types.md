@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_PARAMETER_USAGE_TYPES enumeration"]
 ms.keywords: WPD_PARAMETER_USAGE_IN, WPD_PARAMETER_USAGE_INOUT, WPD_PARAMETER_USAGE_OUT, WPD_PARAMETER_USAGE_RETURN, WPD_PARAMETER_USAGE_TYPES, WPD_PARAMETER_USAGE_TYPES enumeration, portabledevice/WPD_PARAMETER_USAGE_IN, portabledevice/WPD_PARAMETER_USAGE_INOUT, portabledevice/WPD_PARAMETER_USAGE_OUT, portabledevice/WPD_PARAMETER_USAGE_RETURN, portabledevice/WPD_PARAMETER_USAGE_TYPES, tagWPD_PARAMETER_USAGE_TYPES, wpddk.wpd_parameter_usage_types
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_PARAMETER_USAGE_TYPES
 ---
 
-# tagWPD_PARAMETER_USAGE_TYPES enumeration
+# tagWPD_PARAMETER_USAGE_TYPES enumeration (portabledevice.h)
+
+
 
 
 ## -description

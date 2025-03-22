@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltSetInstanceContext function"]
 ms.keywords: FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, FltSetInstanceContext, FltSetInstanceContext function [Installable File System Drivers], fltkernel/FltSetInstanceContext, ifsk.fltsetinstancecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later versions of the operating system.
@@ -40,7 +41,9 @@ api_name:
  - FltSetInstanceContext
 ---
 
-# FltSetInstanceContext function
+# FltSetInstanceContext function (fltkernel.h)
+
+
 
 ## -description
 

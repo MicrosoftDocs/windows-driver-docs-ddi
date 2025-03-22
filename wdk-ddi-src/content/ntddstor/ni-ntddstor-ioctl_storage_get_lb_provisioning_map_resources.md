@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control, IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES control code [Storage Devices], ntddstor/IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES, storage.ioctl_storage_get_lb_provisioning_map_resources
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES
 ---
 
-# IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES IOCTL
+# IOCTL_STORAGE_GET_LB_PROVISIONING_MAP_RESOURCES IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

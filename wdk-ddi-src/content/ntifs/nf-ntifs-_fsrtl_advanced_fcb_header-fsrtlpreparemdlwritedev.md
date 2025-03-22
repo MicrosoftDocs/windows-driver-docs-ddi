@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlPrepareMdlWriteDev function"]
 ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlPrepareMdlWriteDev function
+# FsRtlPrepareMdlWriteDev function (ntifs.h)
+
+
 
 
 ## -description

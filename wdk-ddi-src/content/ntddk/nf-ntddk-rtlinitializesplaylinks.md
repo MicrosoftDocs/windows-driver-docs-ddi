@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInitializeSplayLinks function"]
 ms.keywords: RtlInitializeSplayLinks, RtlInitializeSplayLinks routine [Installable File System Drivers], ifsk.rtlinitializesplaylinks, ntddk/RtlInitializeSplayLinks, rtlref_20e818cf-6afb-4699-b760-bbd7964b576c.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInitializeSplayLinks
 ---
 
-# RtlInitializeSplayLinks function
+# RtlInitializeSplayLinks function (ntddk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function"]
 ms.keywords: NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA
 ---
 
-# NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function
+# NET_ADAPTER_TX_CAPABILITIES_INIT_FOR_DMA function (netadapter.h)
+
+
 
 
 ## -description

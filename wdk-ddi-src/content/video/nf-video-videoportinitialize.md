@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortInitialize function"]
 ms.keywords: VideoPortInitialize, VideoPortInitialize function [Display Devices], VideoPort_Functions_215d2fe2-98a9-4504-96cb-492370e349c8.xml, display.videoportinitialize, video/VideoPortInitialize
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortInitialize
 ---
 
-# VideoPortInitialize function
+# VideoPortInitialize function (video.h)
+
+
 
 
 ## -description

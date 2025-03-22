@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInitializeSid function"]
 ms.keywords: RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], ifsk.rtlinitializesid, ntifs/RtlInitializeSid, rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -41,7 +42,9 @@ api_name:
  - RtlInitializeSid
 ---
 
-# RtlInitializeSid function
+# RtlInitializeSid function (ntifs.h)
+
+
 
 
 ## -description

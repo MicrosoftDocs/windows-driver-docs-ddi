@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDD_CX_CLIENT_CONFIG_INIT function"]
 ms.keywords: IDD_CX_CLIENT_CONFIG_INIT, IDD_CX_CLIENT_CONFIG_INIT method [Display Devices], display.idd_cx_client_config_init, iddcx/IDD_CX_CLIENT_CONFIG_INIT
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IDD_CX_CLIENT_CONFIG_INIT
 ---
 
-# IDD_CX_CLIENT_CONFIG_INIT function
+# IDD_CX_CLIENT_CONFIG_INIT function (iddcx.h)
+
+
 
 
 ## -description

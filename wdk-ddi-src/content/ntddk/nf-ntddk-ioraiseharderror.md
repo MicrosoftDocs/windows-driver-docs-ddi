@@ -7,6 +7,7 @@ ms.date: 12/06/2022
 keywords: ["IoRaiseHardError function"]
 ms.keywords: IoRaiseHardError, IoRaiseHardError routine [Kernel-Mode Driver Architecture], k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, kernel.ioraiseharderror, ntddk/IoRaiseHardError
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoRaiseHardError
 ---
+
+# IoRaiseHardError function (ntddk.h)
 
 ## -description
 

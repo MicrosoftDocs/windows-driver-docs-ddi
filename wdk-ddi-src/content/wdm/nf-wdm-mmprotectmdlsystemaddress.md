@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmProtectMdlSystemAddress function"]
 ms.keywords: MmProtectMdlSystemAddress, MmProtectMdlSystemAddress routine [Kernel-Mode Driver Architecture], k106_b2a56ec8-cfee-4547-b1c2-6f817ecbfaad.xml, kernel.mmprotectmdlsystemaddress, wdm/MmProtectMdlSystemAddress
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - MmProtectMdlSystemAddress
 ---
 
-# MmProtectMdlSystemAddress function
+# MmProtectMdlSystemAddress function (wdm.h)
+
+
 
 
 ## -description

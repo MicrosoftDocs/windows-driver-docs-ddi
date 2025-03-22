@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSetSystemAffinityThreadEx function"]
 ms.keywords: KeSetSystemAffinityThreadEx, KeSetSystemAffinityThreadEx routine [Kernel-Mode Driver Architecture], k105_7718d4aa-a4f5-44ff-9663-c5f91810644f.xml, kernel.kesetsystemaffinitythreadex, wdm/KeSetSystemAffinityThreadEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeSetSystemAffinityThreadEx
 ---
 
-# KeSetSystemAffinityThreadEx function
+# KeSetSystemAffinityThreadEx function (wdm.h)
+
+
 
 
 ## -description

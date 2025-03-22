@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMConfigMSIXTableEntry function"]
 ms.keywords: NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], ndis/NdisMConfigMSIXTableEntry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, netvista.ndismconfigmsixtableentry
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMConfigMSIXTableEntry
 ---
 
-# NdisMConfigMSIXTableEntry function
+# NdisMConfigMSIXTableEntry function (ndis.h)
+
+
 
 
 ## -description

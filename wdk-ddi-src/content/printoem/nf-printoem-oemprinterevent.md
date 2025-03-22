@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMPrinterEvent function"]
 ms.keywords: OEMPrinterEvent, OEMPrinterEvent function [Print Devices], print.oemprinterevent, print_obsoletefunctions_0eaf5d52-f558-401d-a06f-80925e997e3a.xml, printoem/OEMPrinterEvent
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMPrinterEvent
 ---
+
+# OEMPrinterEvent function (printoem.h)
 
 ## -description
 

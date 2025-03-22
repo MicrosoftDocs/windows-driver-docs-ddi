@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDispatchInvalidDeviceRequest function"]
 ms.keywords: KsDispatchInvalidDeviceRequest, KsDispatchInvalidDeviceRequest function [Streaming Media Devices], ks/KsDispatchInvalidDeviceRequest, ksfunc_9be97c86-7505-4192-8a61-8280fca7ba0c.xml, stream.ksdispatchinvaliddevicerequest
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDispatchInvalidDeviceRequest
 ---
 
-# KsDispatchInvalidDeviceRequest function
+# KsDispatchInvalidDeviceRequest function (ks.h)
+
+
 
 
 ## -description

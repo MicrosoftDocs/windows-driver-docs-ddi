@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["SeFilterToken function"]
 ms.keywords: SeFilterToken, SeFilterToken routine [Installable File System Drivers], ifsk.sefiltertoken, ntifs/SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -39,7 +40,9 @@ api_name:
  - SeFilterToken
 ---
 
-# SeFilterToken function
+# SeFilterToken function (ntifs.h)
+
+
 
 ## -description
 

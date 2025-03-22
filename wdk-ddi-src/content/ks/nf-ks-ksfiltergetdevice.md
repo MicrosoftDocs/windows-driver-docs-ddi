@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterGetDevice function"]
 ms.keywords: KsFilterGetDevice, KsFilterGetDevice function [Streaming Media Devices], avfunc_279c1429-d19f-426c-a1e3-8507f97092ae.xml, ks/KsFilterGetDevice, stream.ksfiltergetdevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsFilterGetDevice
 ---
 
-# KsFilterGetDevice function
+# KsFilterGetDevice function (ks.h)
+
+
 
 
 ## -description

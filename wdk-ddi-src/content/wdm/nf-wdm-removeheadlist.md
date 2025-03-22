@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RemoveHeadList function"]
 ms.keywords: RemoveHeadList, RemoveHeadList routine [Kernel-Mode Driver Architecture], k109_f16481a9-4fd3-4b81-9fd3-aa77b20f9873.xml, kernel.removeheadlist, wdm/RemoveHeadList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RemoveHeadList
 ---
 
-# RemoveHeadList function
+# RemoveHeadList function (wdm.h)
+
+
 
 
 ## -description

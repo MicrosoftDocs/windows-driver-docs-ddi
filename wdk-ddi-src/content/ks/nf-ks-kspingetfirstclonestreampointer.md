@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetFirstCloneStreamPointer function"]
 ms.keywords: KsPinGetFirstCloneStreamPointer, KsPinGetFirstCloneStreamPointer function [Streaming Media Devices], avfunc_2a3d17ef-c1b8-4b22-af1e-7f9bb01c1183.xml, ks/KsPinGetFirstCloneStreamPointer, stream.kspingetfirstclonestreampointer
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetFirstCloneStreamPointer
 ---
 
-# KsPinGetFirstCloneStreamPointer function
+# KsPinGetFirstCloneStreamPointer function (ks.h)
+
+
 
 
 ## -description

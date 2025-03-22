@@ -8,6 +8,7 @@ ms.date: 07/19/2019
 keywords: ["StorPortAllocatePool function"]
 ms.keywords: StorPortAllocatePool, StorPortAllocatePool routine [Storage Devices], storage.storportallocatepool, storport/StorPortAllocatePool, storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortAllocatePool
 ---
 
-# StorPortAllocatePool function
+# StorPortAllocatePool function (storport.h)
+
+
 
 
 ## -description

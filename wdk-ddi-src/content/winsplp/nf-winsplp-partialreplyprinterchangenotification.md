@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["PartialReplyPrinterChangeNotification function"]
 ms.keywords: PartialReplyPrinterChangeNotification, PartialReplyPrinterChangeNotification function [Print Devices], print.partialreplyprinterchangenotification, spoolfnc_95f9f0ac-2340-463b-9c8d-6c27130020d9.xml, winsplp/PartialReplyPrinterChangeNotification
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PartialReplyPrinterChangeNotification
 ---
+
+# PartialReplyPrinterChangeNotification function (winsplp.h)
 
 ## -description
 

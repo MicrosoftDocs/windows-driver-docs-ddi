@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlTestAnsiCharacter macro"]
 ms.keywords: FsRtlTestAnsiCharacter, FsRtlTestAnsiCharacter function [Installable File System Drivers], fsrtlref_7ef89c09-f42e-433a-90bf-59452fd1b7c4.xml, ifsk.fsrtltestansicharacter, ntifs/FsRtlTestAnsiCharacter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlTestAnsiCharacter
 ---
 
-# FsRtlTestAnsiCharacter macro
+# FsRtlTestAnsiCharacter function (ntifs.h)
+
+
 
 
 ## -description

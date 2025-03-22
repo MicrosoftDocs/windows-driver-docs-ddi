@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcRemapBcb function"]
 ms.keywords: CcRemapBcb, CcRemapBcb routine [Installable File System Drivers], ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, ifsk.ccremapbcb, ntifs/CcRemapBcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - CcRemapBcb
 ---
 
-# CcRemapBcb function
+# CcRemapBcb function (ntifs.h)
+
+
 
 
 ## -description

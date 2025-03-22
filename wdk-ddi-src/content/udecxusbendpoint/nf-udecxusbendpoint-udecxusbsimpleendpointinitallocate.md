@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbSimpleEndpointInitAllocate function"]
 ms.keywords: UdecxUsbSimpleEndpointInitAllocate, UdecxUsbSimpleEndpointInitAllocate function [Buses], buses.udecxusbsimpleendpointinitallocate, udecxusbendpoint/UdecxUsbSimpleEndpointInitAllocate
 req.header: udecxusbendpoint.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbSimpleEndpointInitAllocate
 ---
 
-# UdecxUsbSimpleEndpointInitAllocate function
+# UdecxUsbSimpleEndpointInitAllocate function (udecxusbendpoint.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltOplockBreakToNone function"]
 ms.keywords: FltApiRef_e_to_o_7d787a5c-c78b-43d2-aa48-412010c97630.xml, FltOplockBreakToNone, FltOplockBreakToNone routine [Installable File System Drivers], fltkernel/FltOplockBreakToNone, ifsk.fltoplockbreaktonone
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltOplockBreakToNone routine is available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - FltOplockBreakToNone
 ---
 
-# FltOplockBreakToNone function
+# FltOplockBreakToNone function (fltkernel.h)
+
+
 
 
 ## -description

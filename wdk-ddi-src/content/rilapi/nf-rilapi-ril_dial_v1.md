@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_Dial_V1 function"]
 ms.keywords: RIL_Dial_V1, RIL_Dial_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_dial_v1, rilapi/RIL_Dial_V1
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_Dial_V1
 ---
 
-# RIL_Dial_V1 function
+# RIL_Dial_V1 function (rilapi.h)
+
+
 
 
 ## -description

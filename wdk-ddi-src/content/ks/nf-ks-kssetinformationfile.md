@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSetInformationFile function"]
 ms.keywords: KsSetInformationFile, KsSetInformationFile function [Streaming Media Devices], ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSetInformationFile
 ---
 
-# KsSetInformationFile function
+# KsSetInformationFile function (ks.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 03/24/2020
 ms.keywords: StorPortSetEvent
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - StorPortSetEvent
 ---
 
-# StorPortSetEvent function
+# StorPortSetEvent function (storport.h)
+
+
 
 ## -description
 

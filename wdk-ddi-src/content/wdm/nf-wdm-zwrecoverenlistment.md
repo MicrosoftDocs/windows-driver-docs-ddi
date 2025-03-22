@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwRecoverEnlistment function"]
 ms.keywords: NtRecoverEnlistment, ZwRecoverEnlistment, ZwRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrecoverenlistment, ktm_ref_0a6564fb-c6d1-4b4b-a278-a1d78395c1b4.xml, wdm/NtRecoverEnlistment, wdm/ZwRecoverEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwRecoverEnlistment
 ---
 
-# ZwRecoverEnlistment function
+# ZwRecoverEnlistment function (wdm.h)
+
+
 
 
 ## -description

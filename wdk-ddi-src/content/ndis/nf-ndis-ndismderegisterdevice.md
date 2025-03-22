@@ -42,6 +42,7 @@ dev_langs:
 helpviewer_keywords:
  - NdisMDeregisterDevice
 ---
+
 # NdisMDeregisterDevice function
 
 ## -description

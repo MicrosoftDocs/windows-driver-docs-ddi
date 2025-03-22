@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoAllocateIrp function"]
 ms.keywords: IoAllocateIrp, IoAllocateIrp routine [Kernel-Mode Driver Architecture], k104_326eb80d-9bc3-4a91-9f33-710f7975808a.xml, kernel.ioallocateirp, wdm/IoAllocateIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoAllocateIrp
 ---
 
-# IoAllocateIrp function
+# IoAllocateIrp function (wdm.h)
+
+
 
 
 ## -description

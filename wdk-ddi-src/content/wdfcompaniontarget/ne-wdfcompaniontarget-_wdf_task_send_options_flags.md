@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TASK_SEND_OPTIONS_FLAGS enumeration"]
 ms.keywords: WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, WDF_TASK_SEND_OPTION_SYNCHRONOUS, WDF_TASK_SEND_OPTION_TIMEOUT, _WDF_TASK_SEND_OPTIONS_FLAGS, wdf.wdf_task_send_options_flags, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT
 req.header: wdfcompaniontarget.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_TASK_SEND_OPTIONS_FLAGS
 ---
 
-# _WDF_TASK_SEND_OPTIONS_FLAGS enumeration
+# WDF_TASK_SEND_OPTIONS_FLAGS enumeration (wdfcompaniontarget.h)
+
+
 
 
 ## -description

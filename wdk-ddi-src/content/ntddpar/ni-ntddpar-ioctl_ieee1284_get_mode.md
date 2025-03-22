@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_IEEE1284_GET_MODE IOCTL"]
 ms.keywords: IOCTL_IEEE1284_GET_MODE, IOCTL_IEEE1284_GET_MODE control code [Parallel Ports], cisspd_e421ca10-5fc6-444c-bb92-09f680fca56a.xml, ntddpar/IOCTL_IEEE1284_GET_MODE, parports.ioctl_ieee1284_get_mode
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_IEEE1284_GET_MODE
 ---
 
-# IOCTL_IEEE1284_GET_MODE IOCTL
+# IOCTL_IEEE1284_GET_MODE IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

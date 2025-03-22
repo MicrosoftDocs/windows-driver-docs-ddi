@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["KeGetProcessorNumberFromIndex function"]
 ms.keywords: KeGetProcessorNumberFromIndex, KeGetProcessorNumberFromIndex routine [Kernel-Mode Driver Architecture], k105_c0b567bd-4436-4f6a-87a2-86d8b165e2dc.xml, kernel.kegetprocessornumberfromindex, wdm/KeGetProcessorNumberFromIndex
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeGetProcessorNumberFromIndex
 ---
+
+# KeGetProcessorNumberFromIndex function (wdm.h)
 
 ## -description
 

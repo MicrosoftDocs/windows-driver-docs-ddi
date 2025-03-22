@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeIsInEndpoint function"]
 ms.keywords: DFUsbRef_55ca68a2-c334-47b9-9716-68a492987897.xml, WdfUsbTargetPipeIsInEndpoint, WdfUsbTargetPipeIsInEndpoint method, kmdf.wdfusbtargetpipeisinendpoint, wdf.wdfusbtargetpipeisinendpoint, wdfusb/WdfUsbTargetPipeIsInEndpoint
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeIsInEndpoint
 ---
 
-# WdfUsbTargetPipeIsInEndpoint function
+# WdfUsbTargetPipeIsInEndpoint function (wdfusb.h)
+
+
 
 
 ## -description

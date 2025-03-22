@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::GetString"]
 ms.keywords: GetString, GetString method [Print Devices], GetString method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetString method, IPrinterPropertyBag.GetString, IPrinterPropertyBag::GetString, print.iprinterpropertybag_getstring, printerextension/IPrinterPropertyBag::GetString
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::GetString
 ---
+
+# IPrinterPropertyBag::GetString function (printerextension.h)
 
 ## -description
 

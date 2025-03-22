@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["WIA_PROP_LIST_COUNT macro"]
 ms.keywords: WIA_PROP_LIST_COUNT
 req.header: wiadef.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - WIA_PROP_LIST_COUNT
 ---
 
-# WIA_PROP_LIST_COUNT macro
+# WIA_PROP_LIST_COUNT function (wiadef.h)
+
+
 
 ## -description
 

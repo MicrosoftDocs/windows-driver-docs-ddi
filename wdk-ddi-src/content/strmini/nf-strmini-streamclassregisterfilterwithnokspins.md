@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassRegisterFilterWithNoKSPins function"]
 ms.keywords: StreamClassRegisterFilterWithNoKSPins, StreamClassRegisterFilterWithNoKSPins routine [Streaming Media Devices], strclass-routines_d338a3be-7760-46b6-aeba-e9cbac45afe3.xml, stream.streamclassregisterfilterwithnokspins, strmini/StreamClassRegisterFilterWithNoKSPins
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StreamClassRegisterFilterWithNoKSPins
 ---
 
-# StreamClassRegisterFilterWithNoKSPins function
+# StreamClassRegisterFilterWithNoKSPins function (strmini.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/01/2020
 keywords: ["WheaAddErrorSourceDeviceDriver function"]
 ms.keywords: WheaAddErrorSourceDeviceDriver
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - WheaAddErrorSourceDeviceDriver
 ---
 
-# WheaAddErrorSourceDeviceDriver function
+# WheaAddErrorSourceDeviceDriver function (ntddk.h)
+
+
 
 
 ## -description

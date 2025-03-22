@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetSendIoctlSynchronously function"]
 ms.keywords: DFIOTargetRef_522ce9d9-948a-4a19-a590-ab01d6ca8969.xml, WdfIoTargetSendIoctlSynchronously, WdfIoTargetSendIoctlSynchronously method, kmdf.wdfiotargetsendioctlsynchronously, wdf.wdfiotargetsendioctlsynchronously, wdfiotarget/WdfIoTargetSendIoctlSynchronously
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetSendIoctlSynchronously
 ---
 
-# WdfIoTargetSendIoctlSynchronously function
+# WdfIoTargetSendIoctlSynchronously function (wdfiotarget.h)
+
+
 
 
 ## -description

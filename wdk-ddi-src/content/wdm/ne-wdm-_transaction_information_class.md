@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRANSACTION_INFORMATION_CLASS enumeration"]
 ms.keywords: TRANSACTION_INFORMATION_CLASS, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, TransactionEnlistmentInformation, TransactionPropertiesInformation, TransactionSuperiorEnlistmentInformation, _TRANSACTION_INFORMATION_CLASS, kernel.transaction_information_class, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionBasicInformation, wdm/TransactionEnlistmentInformation, wdm/TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - TRANSACTION_INFORMATION_CLASS
 ---
 
-# _TRANSACTION_INFORMATION_CLASS enumeration
+# TRANSACTION_INFORMATION_CLASS enumeration (wdm.h)
+
+
 
 
 ## -description

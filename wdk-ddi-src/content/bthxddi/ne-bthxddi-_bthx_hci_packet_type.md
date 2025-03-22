@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTHX_HCI_PACKET_TYPE enumeration"]
 ms.keywords: BTHX_HCI_PACKET_TYPE, BTHX_HCI_PACKET_TYPE enumeration [Bluetooth Devices], HciPacketAclData, HciPacketCommand, HciPacketEvent, _BTHX_HCI_PACKET_TYPE, bltooth.bthx_hci_packet_type, bthxddi/BTHX_HCI_PACKET_TYPE, bthxddi/HciPacketAclData, bthxddi/HciPacketCommand, bthxddi/HciPacketEvent
 req.header: bthxddi.h
+req.construct-type: enumeration
 req.include-header: BthXDDI.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported starting with  Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - BTHX_HCI_PACKET_TYPE
 ---
 
-# _BTHX_HCI_PACKET_TYPE enumeration
+# BTHX_HCI_PACKET_TYPE enumeration (bthxddi.h)
+
+
 
 
 ## -description

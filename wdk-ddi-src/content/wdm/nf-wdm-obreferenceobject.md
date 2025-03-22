@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObReferenceObject macro"]
 ms.keywords: ObReferenceObject, ObReferenceObject routine [Kernel-Mode Driver Architecture], ObfReferenceObject, k107_97bb0a8c-e445-484c-959a-03f1c41ab3fe.xml, kernel.obreferenceobject, wdm/ObReferenceObject, wdm/ObfReferenceObject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ObReferenceObject
 ---
 
-# ObReferenceObject macro
+# ObReferenceObject function (wdm.h)
+
+
 
 
 ## -description

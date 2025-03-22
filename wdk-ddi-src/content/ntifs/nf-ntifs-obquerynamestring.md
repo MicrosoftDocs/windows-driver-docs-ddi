@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["ObQueryNameString function"]
 ms.keywords: ObQueryNameString, ObQueryNameString routine [Installable File System Drivers], ifsk.obquerynamestring, ntifs/ObQueryNameString, obref_3d52f727-edc5-4bea-b7c1-24a3aced1079.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - ObQueryNameString
 ---
 
-# ObQueryNameString function
+# ObQueryNameString function (ntifs.h)
+
+
 
 
 ## -description

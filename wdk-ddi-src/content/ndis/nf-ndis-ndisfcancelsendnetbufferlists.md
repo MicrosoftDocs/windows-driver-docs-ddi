@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFCancelSendNetBufferLists function"]
 ms.keywords: NdisFCancelSendNetBufferLists, NdisFCancelSendNetBufferLists function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_272bc8c3-bf88-42d8-b415-429100169d47.xml, ndis/NdisFCancelSendNetBufferLists, netvista.ndisfcancelsendnetbufferlists
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFCancelSendNetBufferLists
 ---
 
-# NdisFCancelSendNetBufferLists function
+# NdisFCancelSendNetBufferLists function (ndis.h)
+
+
 
 
 ## -description

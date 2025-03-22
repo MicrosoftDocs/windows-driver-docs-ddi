@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExGetSharedWaiterCount function"]
 ms.keywords: ExGetSharedWaiterCount, ExGetSharedWaiterCount routine [Kernel-Mode Driver Architecture], k102_af7dac19-3c9f-43d9-bcd3-c4a5e05ca8e5.xml, kernel.exgetsharedwaitercount, wdm/ExGetSharedWaiterCount
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExGetSharedWaiterCount
 ---
 
-# ExGetSharedWaiterCount function
+# ExGetSharedWaiterCount function (wdm.h)
+
+
 
 
 ## -description

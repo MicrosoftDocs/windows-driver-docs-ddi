@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIEW_INSTANCING_FLAGS enumeration"]
 ms.keywords: D3D12DDI_VIEW_INSTANCING_FLAGS, D3D12DDI_VIEW_INSTANCING_FLAGS enumeration [Display Devices], D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, D3D12DDI_VIEW_INSTANCING_FLAG_NONE, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAGS, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_ENABLE_VIEW_INSTANCE_MASKING, d3d12umddi/D3D12DDI_VIEW_INSTANCING_FLAG_NONE, display.d3d12ddi-view-instancing-flags
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIEW_INSTANCING_FLAGS
 ---
 
-# D3D12DDI_VIEW_INSTANCING_FLAGS enumeration
+# D3D12DDI_VIEW_INSTANCING_FLAGS enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

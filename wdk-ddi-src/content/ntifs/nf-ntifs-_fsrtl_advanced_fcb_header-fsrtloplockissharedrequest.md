@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlOplockIsSharedRequest function"]
 ms.keywords: FsRtlOplockIsSharedRequest, FsRtlOplockIsSharedRequest routine [Installable File System Drivers], fsrtlref_e79317ec-0086-4387-8f80-a7a1e44aba1c.xml, ifsk.fsrtloplockissharedrequest, ntifs/FsRtlOplockIsSharedRequest
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlOplockIsSharedRequest routine is available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlOplockIsSharedRequest
 ---
 
-# FsRtlOplockIsSharedRequest function
+# FsRtlOplockIsSharedRequest function (ntifs.h)
+
+
 
 
 ## -description

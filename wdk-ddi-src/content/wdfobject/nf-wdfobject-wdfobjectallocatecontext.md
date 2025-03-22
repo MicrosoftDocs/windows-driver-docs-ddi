@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfObjectAllocateContext function"]
 ms.keywords: DFGenObjectRef_9b172283-f4b6-4ade-9cd2-38f10c0ff9bd.xml, WdfObjectAllocateContext, WdfObjectAllocateContext method, kmdf.wdfobjectallocatecontext, wdf.wdfobjectallocatecontext, wdfobject/WdfObjectAllocateContext
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfObjectAllocateContext
 ---
 
-# WdfObjectAllocateContext function
+# WdfObjectAllocateContext function (wdfobject.h)
+
+
 
 
 ## -description

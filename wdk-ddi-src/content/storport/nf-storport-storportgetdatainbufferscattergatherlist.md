@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetDataInBufferScatterGatherList function"]
 ms.keywords: StorPortGetDataInBufferScatterGatherList, StorPortGetDataInBufferScatterGatherList routine [Storage Devices], storage.storportgetdatainbufferscattergatherlist, storport/StorPortGetDataInBufferScatterGatherList
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetDataInBufferScatterGatherList
 ---
 
-# StorPortGetDataInBufferScatterGatherList function
+# StorPortGetDataInBufferScatterGatherList function (storport.h)
+
+
 
 
 ## -description

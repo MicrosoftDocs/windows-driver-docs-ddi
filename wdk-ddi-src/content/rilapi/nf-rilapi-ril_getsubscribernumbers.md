@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetSubscriberNumbers function"]
 ms.keywords: RIL_GetSubscriberNumbers, RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getsubscribernumbers, rilapi/RIL_GetSubscriberNumbers
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetSubscriberNumbers
 ---
 
-# RIL_GetSubscriberNumbers function
+# RIL_GetSubscriberNumbers function (rilapi.h)
+
+
 
 
 ## -description

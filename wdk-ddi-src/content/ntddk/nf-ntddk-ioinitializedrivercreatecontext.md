@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoInitializeDriverCreateContext function"]
 ms.keywords: IoInitializeDriverCreateContext, IoInitializeDriverCreateContext routine [Installable File System Drivers], ifsk.ioinitializedrivercreatecontext, ioref_d9c833b9-0246-49b7-83c5-ef02ef562e17.xml, ntddk/IoInitializeDriverCreateContext
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoInitializeDriverCreateContext
 ---
 
-# IoInitializeDriverCreateContext function
+# IoInitializeDriverCreateContext function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExRundownCompleted function"]
 ms.keywords: ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], kernel.exrundowncompleted, wdm/ExRundownCompleted
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - ExRundownCompleted
 ---
 
-# ExRundownCompleted function
+# ExRundownCompleted function (wdm.h)
+
+
 
 
 ## -description

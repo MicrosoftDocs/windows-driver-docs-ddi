@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDownloadCharGlyph function"]
 ms.keywords: OEMDownloadCharGlyph, OEMDownloadCharGlyph function [Print Devices], print.oemdownloadcharglyph, print_obsoletefunctions_fb2af04d-799c-419c-b675-3444fd7d3143.xml, printoem/OEMDownloadCharGlyph
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDownloadCharGlyph
 ---
+
+# OEMDownloadCharGlyph function (printoem.h)
 
 ## -description
 

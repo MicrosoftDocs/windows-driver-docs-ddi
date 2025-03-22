@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRequestNewPowerState function"]
 ms.keywords: PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audio.pcrequestnewpowerstate, audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, portcls/PcRequestNewPowerState
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcRequestNewPowerState function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcRequestNewPowerState
 ---
 
-# PcRequestNewPowerState function
+# PcRequestNewPowerState function (portcls.h)
+
+
 
 
 ## -description

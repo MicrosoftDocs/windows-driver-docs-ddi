@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObReferenceObjectByHandleWithTag function"]
 ms.keywords: ObReferenceObjectByHandleWithTag, ObReferenceObjectByHandleWithTag routine [Kernel-Mode Driver Architecture], k107_431c6c60-e2bd-4d90-9054-b950195bbec3.xml, kernel.obreferenceobjectbyhandlewithtag, wdm/ObReferenceObjectByHandleWithTag
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - ObReferenceObjectByHandleWithTag
 ---
 
-# ObReferenceObjectByHandleWithTag function
+# ObReferenceObjectByHandleWithTag function (wdm.h)
+
+
 
 
 ## -description

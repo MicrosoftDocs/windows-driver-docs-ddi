@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["PcwCloseInstance function"]
 ms.keywords: PcwCloseInstance, PcwCloseInstance function [Driver Development Tools], devtest.pcwcloseinstance, km_pcw_f30288bf-ff25-46fd-b058-74294fc03278.xml, wdm/PcwCloseInstance
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PcwCloseInstance
 ---
+
+# PcwCloseInstance function (wdm.h)
 
 ## -description
 

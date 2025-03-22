@@ -8,6 +8,7 @@ ms.date: 01/20/2022
 keywords: ["UfxDeviceIoControl function"]
 ms.keywords: UfxDeviceIoControl, UfxDeviceIoControl method [Buses], buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceIoControl
 ---
 
-# UfxDeviceIoControl function
+# UfxDeviceIoControl function (ufxclient.h)
+
+
 
 ## -description
 

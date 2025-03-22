@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RSS_PROFILE enumeration"]
 ms.keywords: "*PNDIS_RSS_PROFILE, NDIS_RSS_PROFILE, NDIS_RSS_PROFILE enumeration [Network Drivers Starting with Windows Vista], NdisRssProfileClosest, NdisRssProfileClosestStatic, NdisRssProfileConservative, NdisRssProfileMaximum, NdisRssProfileNuma, NdisRssProfileNumaStatic, _NDIS_RSS_PROFILE, netvista.ndis_rss_profile, ntddndis/NDIS_RSS_PROFILE, ntddndis/NdisRssProfileClosest, ntddndis/NdisRssProfileClosestStatic, ntddndis/NdisRssProfileConservative, ntddndis/NdisRssProfileMaximum, ntddndis/NdisRssProfileNuma, ntddndis/NdisRssProfileNumaStatic"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ntddndis.h, Ntddndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RSS_PROFILE
 ---
 
-# _NDIS_RSS_PROFILE enumeration
+# NDIS_RSS_PROFILE enumeration (ntddndis.h)
+
+
 
 
 ## -description

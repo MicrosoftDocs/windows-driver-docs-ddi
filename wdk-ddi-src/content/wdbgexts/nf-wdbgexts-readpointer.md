@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadPointer function"]
 ms.keywords: ReadPointer, ReadPointer function [Windows Debugging], WdbgExts_Ref_3d78e28a-910f-4b82-a262-28d83d87c6f1.xml, debugger.readpointer, wdbgexts/ReadPointer
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadPointer
 ---
 
-# ReadPointer function
+# ReadPointer function (wdbgexts.h)
+
+
 
 
 ## -description

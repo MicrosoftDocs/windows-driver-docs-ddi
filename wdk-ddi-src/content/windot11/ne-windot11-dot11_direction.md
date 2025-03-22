@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_DIRECTION enumeration"]
 ms.keywords: "*PDOT11_DIRECTION, DOT11_DIRECTION, DOT11_DIRECTION enumeration [Network Drivers Starting with Windows Vista], DOT11_DIR_BOTH, DOT11_DIR_INBOUND, DOT11_DIR_OUTBOUND, Native_802.11_data_types_aef66faf-de2c-42f1-a213-ed12ea7ef583.xml, PDOT11_DIRECTION, PDOT11_DIRECTION enumeration pointer [Network Drivers Starting with Windows Vista], netvista.dot11_direction, windot11/DOT11_DIRECTION, windot11/DOT11_DIR_BOTH, windot11/DOT11_DIR_INBOUND, windot11/DOT11_DIR_OUTBOUND, windot11/PDOT11_DIRECTION"
 req.header: windot11.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_DIRECTION
 ---
 
-# DOT11_DIRECTION enumeration
+# DOT11_DIRECTION enumeration (windot11.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["PDO_STATE enumeration"]
 ms.keywords: PDO_STATE, PDO_STATE enumeration [Storage Devices], PDO_STATE_NOT_STARTED, PDO_STATE_STARTED, PDO_STATE_UNDEFINED, _PDO_STATE, ehstorioctl/PDO_STATE, ehstorioctl/PDO_STATE_NOT_STARTED, ehstorioctl/PDO_STATE_STARTED, ehstorioctl/PDO_STATE_UNDEFINED, storage.pdo_state, structs-silo_257b3a10-590b-4e1e-a66a-c84b4ea3b125.xml
 req.header: ehstorioctl.h
+req.construct-type: enumeration
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PDO_STATE
 ---
 
-# _PDO_STATE enumeration
+# PDO_STATE enumeration (ehstorioctl.h)
+
+
 
 
 ## -description

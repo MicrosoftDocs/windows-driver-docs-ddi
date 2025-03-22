@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetDeviceType function"]
 ms.keywords: DFDeviceObjectGeneralRef_872eb4dd-0d40-46ed-a7ed-4eae8ec67240.xml, WdfDeviceInitSetDeviceType, WdfDeviceInitSetDeviceType method, kmdf.wdfdeviceinitsetdevicetype, wdf.wdfdeviceinitsetdevicetype, wdfdevice/WdfDeviceInitSetDeviceType
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceInitSetDeviceType
 ---
 
-# WdfDeviceInitSetDeviceType function
+# WdfDeviceInitSetDeviceType function (wdfdevice.h)
+
+
 
 
 ## -description

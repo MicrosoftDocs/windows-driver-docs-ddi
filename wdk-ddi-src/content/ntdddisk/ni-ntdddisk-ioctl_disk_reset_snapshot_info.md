@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL"]
 ms.keywords: IOCTL_DISK_RESET_SNAPSHOT_INFO, IOCTL_DISK_RESET_SNAPSHOT_INFO control, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, storage.ioctl_disk_reset_snapshot_info
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_RESET_SNAPSHOT_INFO
 ---
 
-# IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL
+# IOCTL_DISK_RESET_SNAPSHOT_INFO IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

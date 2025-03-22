@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSignalSynchronizationObject2 function"]
 ms.keywords: D3DKMTSignalSynchronizationObject2, D3DKMTSignalSynchronizationObject2 function [Display Devices], OpenGL_Functions_ffc87bcb-e2ab-48ea-8a90-c0b4cf7c8b33.xml, d3dkmthk/D3DKMTSignalSynchronizationObject2, display.d3dkmtsignalsynchronizationobject2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTSignalSynchronizationObject2 is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSignalSynchronizationObject2
 ---
 
-# D3DKMTSignalSynchronizationObject2 function
+# D3DKMTSignalSynchronizationObject2 function (d3dkmthk.h)
+
+
 
 ## -description
 

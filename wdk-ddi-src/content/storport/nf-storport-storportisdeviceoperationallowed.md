@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortIsDeviceOperationAllowed function"]
 ms.keywords: STORPORT_DEVICEOPERATION_SECURE_REPROVISION_GUID, StorPortIsDeviceOperationAllowed, StorPortIsDeviceOperationAllowed routine [Storage Devices], storage.storportisdeviceoperationallowed, storport/StorPortIsDeviceOperationAllowed
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - StorPortIsDeviceOperationAllowed
 ---
 
-# StorPortIsDeviceOperationAllowed function
+# StorPortIsDeviceOperationAllowed function (storport.h)
+
+
 
 
 ## -description

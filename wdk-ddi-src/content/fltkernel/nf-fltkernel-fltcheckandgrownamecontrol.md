@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCheckAndGrowNameControl function"]
 ms.keywords: FltApiRef_a_to_d_5ab0b3b3-adeb-4752-9cb5-1d7521b84607.xml, FltCheckAndGrowNameControl, FltCheckAndGrowNameControl routine [Installable File System Drivers], fltkernel/FltCheckAndGrowNameControl, ifsk.fltcheckandgrownamecontrol
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltCheckAndGrowNameControl
 ---
 
-# FltCheckAndGrowNameControl function
+# FltCheckAndGrowNameControl function (fltkernel.h)
+
+
 
 
 ## -description

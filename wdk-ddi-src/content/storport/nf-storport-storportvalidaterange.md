@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortValidateRange function"]
 ms.keywords: StorPortValidateRange, StorPortValidateRange routine [Storage Devices], storage.storportvalidaterange, storport/StorPortValidateRange, storprt_7d3583a5-211d-414e-880d-31c04145d3ab.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortValidateRange
 ---
 
-# StorPortValidateRange function
+# StorPortValidateRange function (storport.h)
+
+
 
 
 ## -description

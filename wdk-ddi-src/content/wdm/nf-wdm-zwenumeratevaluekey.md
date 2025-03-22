@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwEnumerateValueKey function"]
 ms.keywords: NtEnumerateValueKey, ZwEnumerateValueKey, ZwEnumerateValueKey routine [Kernel-Mode Driver Architecture], k111_bea1b1ab-2cfe-4d17-abd3-1a45652c70a5.xml, kernel.zwenumeratevaluekey, wdm/NtEnumerateValueKey, wdm/ZwEnumerateValueKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwEnumerateValueKey
 ---
+
+# ZwEnumerateValueKey function (wdm.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTGetRuntimeData function"]
 ms.keywords: D3DKMTGetRuntimeData, D3DKMTGetRuntimeData callback function [Display Devices], OpenGL_Functions_c2273a4f-9a28-41b5-97c2-daa8eaa9f128.xml, PFND3DKMT_GETRUNTIMEDATA, PFND3DKMT_GETRUNTIMEDATA callback, d3dkmthk/D3DKMTGetRuntimeData, display.d3dkmtgetruntimedata
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTGetRuntimeData
 ---
 
-# D3DKMTGetRuntimeData function
+# D3DKMTGetRuntimeData function (d3dkmthk.h)
+
+
 
 ## -description
 

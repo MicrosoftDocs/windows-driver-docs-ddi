@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreatePin2 function"]
 ms.keywords: KsCreatePin2, KsCreatePin2 function [Streaming Media Devices], ks/KsCreatePin2, stream.kscreatepin2
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KsCreatePin2
 ---
 
-# KsCreatePin2 function
+# KsCreatePin2 function (ks.h)
+
+
 
 
 ## -description

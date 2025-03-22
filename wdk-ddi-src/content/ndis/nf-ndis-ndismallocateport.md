@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMAllocatePort function"]
 ms.keywords: NdisMAllocatePort, NdisMAllocatePort function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMAllocatePort
 ---
 
-# NdisMAllocatePort function
+# NdisMAllocatePort function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterGetAndGate function"]
 ms.keywords: KsFilterGetAndGate, KsFilterGetAndGate function [Streaming Media Devices], avfunc_58886874-f3f3-4e2d-a69c-e85260dcc702.xml, ks/KsFilterGetAndGate, stream.ksfiltergetandgate
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterGetAndGate
 ---
 
-# KsFilterGetAndGate function
+# KsFilterGetAndGate function (ks.h)
+
+
 
 
 ## -description

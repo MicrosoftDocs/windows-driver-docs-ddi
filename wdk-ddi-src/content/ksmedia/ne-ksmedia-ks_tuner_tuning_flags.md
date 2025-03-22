@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_TUNER_TUNING_FLAGS enumeration"]
 ms.keywords: KS_TUNER_TUNING_COARSE, KS_TUNER_TUNING_EXACT, KS_TUNER_TUNING_FINE, KS_TUNER_TUNING_FLAGS, KS_TUNER_TUNING_FLAGS enumeration [Streaming Media Devices], ksmedia/KS_TUNER_TUNING_COARSE, ksmedia/KS_TUNER_TUNING_EXACT, ksmedia/KS_TUNER_TUNING_FINE, ksmedia/KS_TUNER_TUNING_FLAGS, stream.ks_tuner_tuning_flags, vidcapstruct_af322917-69e6-4688-885d-45422c594348.xml
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_TUNER_TUNING_FLAGS
 ---
 
-# KS_TUNER_TUNING_FLAGS enumeration
+# KS_TUNER_TUNING_FLAGS enumeration (ksmedia.h)
+
+
 
 
 ## -description

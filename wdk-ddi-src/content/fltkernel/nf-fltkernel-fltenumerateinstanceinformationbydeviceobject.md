@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateInstanceInformationByDeviceObject function"]
 ms.keywords: FltEnumerateInstanceInformationByDeviceObject, FltEnumerateInstanceInformationByDeviceObject routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByDeviceObject, ifsk.fltenumerateinstanceinformationbydeviceobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateInstanceInformationByDeviceObject
 ---
 
-# FltEnumerateInstanceInformationByDeviceObject function
+# FltEnumerateInstanceInformationByDeviceObject function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 06/21/2024
 keywords: ["FwpmCalloutAdd0 function"]
 ms.keywords: FwpmCalloutAdd0, FwpmCalloutAdd0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmCalloutAdd0, netvista.fwpmcalloutadd0, wfp_ref_2_funct_2_fwpm_b1548682-4f29-467f-916d-fa434260b0ae.xml
 req.header: fwpmk.h
+req.construct-type: function
 req.include-header: Fwpmk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpmCalloutAdd0
 ---
 
-# FwpmCalloutAdd0 function
+# FwpmCalloutAdd0 function (fwpmk.h)
+
+
 
 ## -description
 

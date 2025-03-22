@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortStallExecution function"]
 ms.keywords: AtaPortStallExecution, AtaPortStallExecution function [Storage Devices], atartns_3a78519d-4ee5-4a4a-9564-1d2bbd256300.xml, irb/AtaPortStallExecution, storage.ataportstallexecution
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortStallExecution
 ---
 
-# AtaPortStallExecution function
+# AtaPortStallExecution function (irb.h)
+
+
 
 
 ## -description

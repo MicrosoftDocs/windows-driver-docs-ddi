@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveUnsafeUserOutputBuffer function"]
 ms.keywords: DFRequestObjectRef_3f483887-e2fa-413d-b147-9f18fc092800.xml, WdfRequestRetrieveUnsafeUserOutputBuffer, WdfRequestRetrieveUnsafeUserOutputBuffer method, kmdf.wdfrequestretrieveunsafeuseroutputbuffer, wdf.wdfrequestretrieveunsafeuseroutputbuffer, wdfrequest/WdfRequestRetrieveUnsafeUserOutputBuffer
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestRetrieveUnsafeUserOutputBuffer
 ---
 
-# WdfRequestRetrieveUnsafeUserOutputBuffer function
+# WdfRequestRetrieveUnsafeUserOutputBuffer function (wdfrequest.h)
+
+
 
 
 ## -description

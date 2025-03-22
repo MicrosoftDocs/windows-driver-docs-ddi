@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcGetContentRights function"]
 ms.keywords: PcGetContentRights, PcGetContentRights function [Audio Devices], audio.pcgetcontentrights, audpc-routines_0f94b5f4-2667-488d-a191-4cf13a1f3a27.xml, portcls/PcGetContentRights
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcGetContentRights function in Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcGetContentRights
 ---
 
-# PcGetContentRights function
+# PcGetContentRights function (portcls.h)
+
+
 
 
 ## -description

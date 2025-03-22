@@ -8,6 +8,7 @@ ms.date: 06/24/2019
 keywords: ["USBD_UrbFree function"]
 ms.keywords: USBD_UrbFree, USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_UrbFree
 ---
 
-# USBD_UrbFree function
+# USBD_UrbFree function (usbdlib.h)
+
+
 
 
 ## -description

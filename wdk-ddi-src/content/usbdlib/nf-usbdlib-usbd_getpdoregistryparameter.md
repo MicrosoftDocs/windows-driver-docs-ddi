@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_GetPdoRegistryParameter function"]
 ms.keywords: USBD_GetPdoRegistryParameter, USBD_GetPdoRegistryParameter routine [Buses], buses.usbd_getpdoregistryparameter, usbdlib/USBD_GetPdoRegistryParameter, usbfunc_b85b350e-68ad-4256-b4df-f61ea0367b62.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - USBD_GetPdoRegistryParameter
 ---
 
-# USBD_GetPdoRegistryParameter function
+# USBD_GetPdoRegistryParameter function (usbdlib.h)
+
+
 
 
 ## -description

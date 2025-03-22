@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["IVHD_ENTRY_TYPE enumeration"]
 ms.keywords: _IVHD_ENTRY_TYPE, IVRS_TABLE_TYPE,
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - IVRS_TABLE_TYPE
 ---
 
-# _IVHD_ENTRY_TYPE enumeration
+# IVRS_TABLE_TYPE enumeration (acpitabl.h)
+
+
 
 
 ## -description

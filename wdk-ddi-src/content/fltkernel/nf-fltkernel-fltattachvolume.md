@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAttachVolume function"]
 ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, FltAttachVolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, ifsk.fltattachvolume
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAttachVolume
 ---
 
-# FltAttachVolume function
+# FltAttachVolume function (fltkernel.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 05/24/2022
 ms.keywords: StorPortMarkDeviceFailedEx
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - StorPortMarkDeviceFailedEx
 ---
 
-# StorPortMarkDeviceFailedEx function
+# StorPortMarkDeviceFailedEx function (storport.h)
+
+
 
 ## -description
 

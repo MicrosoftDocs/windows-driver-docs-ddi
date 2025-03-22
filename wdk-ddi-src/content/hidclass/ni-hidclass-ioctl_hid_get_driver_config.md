@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_DRIVER_CONFIG IOCTL"]
 ms.keywords: IOCTL_HID_GET_DRIVER_CONFIG, IOCTL_HID_GET_DRIVER_CONFIG control, IOCTL_HID_GET_DRIVER_CONFIG control code [Human Input Devices], hid.ioctl_hid_get_driver_config, hidclass/IOCTL_HID_GET_DRIVER_CONFIG
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_GET_DRIVER_CONFIG
 ---
 
-# IOCTL_HID_GET_DRIVER_CONFIG IOCTL
+# IOCTL_HID_GET_DRIVER_CONFIG IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

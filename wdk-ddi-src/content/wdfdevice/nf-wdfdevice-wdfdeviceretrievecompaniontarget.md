@@ -8,6 +8,7 @@ ms.date: 11/01/2021
 keywords: ["WdfDeviceRetrieveCompanionTarget function"]
 ms.keywords: WdfDeviceRetrieveCompanionTarget, WdfDeviceRetrieveCompanionTarget method, wdf.wdfdeviceretrievecompaniontarget, wdfdevice/WdfDeviceRetrieveCompanionTarget
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfDeviceRetrieveCompanionTarget
 ---
 
-# WdfDeviceRetrieveCompanionTarget function
+# WdfDeviceRetrieveCompanionTarget function (wdfdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsLeadDbcsCharacter macro"]
 ms.keywords: FsRtlIsLeadDbcsCharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIsLeadDbcsCharacter
 ---
 
-# FsRtlIsLeadDbcsCharacter macro
+# FsRtlIsLeadDbcsCharacter function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoUnregisterContainerNotification function"]
 ms.keywords: IoUnregisterContainerNotification, IoUnregisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_92c44631-4032-4538-bc1b-6463c3ae3c76.xml, kernel.iounregistercontainernotification, wdm/IoUnregisterContainerNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoUnregisterContainerNotification
 ---
 
-# IoUnregisterContainerNotification function
+# IoUnregisterContainerNotification function (wdm.h)
+
+
 
 
 ## -description

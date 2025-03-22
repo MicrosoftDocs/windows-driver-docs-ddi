@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["RtlSanitizeUnicodeStringPadding function"]
 ms.keywords: RtlSanitizeUnicodeStringPadding
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - RtlSanitizeUnicodeStringPadding
 ---
 
-# RtlSanitizeUnicodeStringPadding function
+# RtlSanitizeUnicodeStringPadding function (wdm.h)
+
+
 
 
 ## -description

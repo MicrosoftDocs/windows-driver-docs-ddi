@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInt8Add function"]
 ms.keywords: RtlInt8Add, RtlInt8Add function [Kernel-Mode Driver Architecture], kernel.rtlint8add, ntintsafe/RtlInt8Add
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInt8Add
 ---
 
-# RtlInt8Add function
+# RtlInt8Add function (ntintsafe.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerGetProductData function"]
 ms.keywords: ChangerGetProductData, ChangerGetProductData function [Storage Devices], chgrmini_05ad3aaa-8975-44ee-ad09-149f288d8eef.xml, mcd/ChangerGetProductData, storage.changergetproductdata
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerGetProductData
 ---
 
-# ChangerGetProductData function
+# ChangerGetProductData function (mcd.h)
+
+
 
 
 ## -description

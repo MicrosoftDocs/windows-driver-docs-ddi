@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsEcpAcknowledged function"]
 ms.keywords: FsRtlIsEcpAcknowledged, FsRtlIsEcpAcknowledged routine [Installable File System Drivers], fsrtlref_5e05018f-5f4a-41e1-a05a-93ab636012e1.xml, ifsk.fsrtlisecpacknowledged, ntifs/FsRtlIsEcpAcknowledged
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlIsEcpAcknowledged routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIsEcpAcknowledged
 ---
 
-# FsRtlIsEcpAcknowledged function
+# FsRtlIsEcpAcknowledged function (ntifs.h)
+
+
 
 
 ## -description

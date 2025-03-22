@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmValidateOutput function"]
 ms.keywords: DeviceDsmValidateOutput
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - DeviceDsmValidateOutput
 ---
 
-# DeviceDsmValidateOutput function
+# DeviceDsmValidateOutput function (ntddstor.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARCLASS_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARCLASS_CONNECT, IOCTL_INTERNAL_PARCLASS_CONNECT control code [Parallel Ports], cisspd_03b94b78-be74-4421-bb08-0860d6d8dca5.xml, parallel/IOCTL_INTERNAL_PARCLASS_CONNECT, parports.ioctl_internal_parclass_connect
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_PARCLASS_CONNECT
 ---
 
-# IOCTL_INTERNAL_PARCLASS_CONNECT IOCTL
+# IOCTL_INTERNAL_PARCLASS_CONNECT IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

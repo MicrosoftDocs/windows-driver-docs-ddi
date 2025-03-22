@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltQueryVolumeInformationFile function"]
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FltQueryVolumeInformationFile, FltQueryVolumeInformationFile function [Installable File System Drivers], fltkernel/FltQueryVolumeInformationFile, ifsk.fltqueryvolumeinformationfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltQueryVolumeInformationFile
 ---
 
-# FltQueryVolumeInformationFile function
+# FltQueryVolumeInformationFile function (fltkernel.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/03/2023
 keywords: ["MxdcGetPDEVAdjustment function"]
 ms.keywords: MxdcGetPDEVAdjustment, MxdcGetPDEVAdjustment function [Print Devices], mxdc/MxdcGetPDEVAdjustment, print.mxdcgetpdevadjustment, print_xpsdrv_7e324989-1809-44e8-8b5b-c64f83740cd5.xml
 req.header: mxdc.h
+req.construct-type: function
 req.include-header: Mxdc.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MxdcGetPDEVAdjustment
 ---
+
+# MxdcGetPDEVAdjustment function (mxdc.h)
 
 ## -description
 

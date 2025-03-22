@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsIsSystemThread function"]
 ms.keywords: PsIsSystemThread, PsIsSystemThread routine [Kernel-Mode Driver Architecture], k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, kernel.psissystemthread, ntifs/PsIsSystemThread
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - PsIsSystemThread
 ---
 
-# PsIsSystemThread function
+# PsIsSystemThread function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_GET_MEDIA_TYPES IOCTL"]
 ms.keywords: IOCTL_DISK_GET_MEDIA_TYPES, IOCTL_DISK_GET_MEDIA_TYPES control, IOCTL_DISK_GET_MEDIA_TYPES control code [Storage Devices], k307_692b21f7-7d14-4ba9-9d56-381606f5f5b1.xml, ntdddisk/IOCTL_DISK_GET_MEDIA_TYPES, storage.ioctl_disk_get_media_types
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_GET_MEDIA_TYPES
 ---
 
-# IOCTL_DISK_GET_MEDIA_TYPES IOCTL
+# IOCTL_DISK_GET_MEDIA_TYPES IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

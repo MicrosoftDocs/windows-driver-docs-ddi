@@ -8,6 +8,7 @@ ms.date: 10/28/2021
 keywords: ["WdfDeviceConfigureWdmIrpDispatchCallback function"]
 ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, WdfDeviceConfigureWdmIrpDispatchCallback method, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceConfigureWdmIrpDispatchCallback
 ---
 
-# WdfDeviceConfigureWdmIrpDispatchCallback function
+# WdfDeviceConfigureWdmIrpDispatchCallback function (wdfdevice.h)
+
+
 
 
 ## -description

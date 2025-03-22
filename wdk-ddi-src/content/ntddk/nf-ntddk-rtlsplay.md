@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlSplay function"]
 ms.keywords: RtlSplay, RtlSplay routine [Installable File System Drivers], ifsk.rtlsplay, ntddk/RtlSplay, rtlref_e44a955e-57eb-46f9-be07-9f658b8fd6db.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSplay
 ---
 
-# RtlSplay function
+# RtlSplay function (ntddk.h)
+
+
 
 
 ## -description

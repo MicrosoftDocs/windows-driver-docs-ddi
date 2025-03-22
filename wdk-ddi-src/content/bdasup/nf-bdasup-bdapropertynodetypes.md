@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaPropertyNodeTypes function"]
 ms.keywords: BdaPropertyNodeTypes, BdaPropertyNodeTypes function [Streaming Media Devices], bdaref_cec37979-eb0c-4914-86fe-6dc613c61ae8.xml, bdasup/BdaPropertyNodeTypes, stream.bdapropertynodetypes
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaPropertyNodeTypes
 ---
+
+# BdaPropertyNodeTypes function (bdasup.h)
 
 ## -description
 

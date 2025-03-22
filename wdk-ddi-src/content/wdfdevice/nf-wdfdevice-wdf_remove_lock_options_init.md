@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REMOVE_LOCK_OPTIONS_INIT function"]
 ms.keywords: WDF_REMOVE_LOCK_OPTIONS_INIT, WDF_REMOVE_LOCK_OPTIONS_INIT function, kmdf.wdf_remove_lock_options_init, wdf.wdf_remove_lock_options_init, wdfdevice/WDF_REMOVE_LOCK_OPTIONS_INIT
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_REMOVE_LOCK_OPTIONS_INIT
 ---
 
-# WDF_REMOVE_LOCK_OPTIONS_INIT function
+# WDF_REMOVE_LOCK_OPTIONS_INIT function (wdfdevice.h)
+
+
 
 
 ## -description

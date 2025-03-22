@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTSetFSEBlock function"]
 ms.keywords: D3DKMTSetFSEBlock
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - D3DKMTSetFSEBlock
 ---
 
-# D3DKMTSetFSEBlock function
+# D3DKMTSetFSEBlock function (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsEdit function"]
 ms.keywords: "_KsEdit, _KsEdit function [Streaming Media Devices], avfunc_1e902412-8322-4155-9fdb-dfc0fa1b6b37.xml, ks/_KsEdit, stream._ksedit"
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - _KsEdit
 ---
 
-# _KsEdit function
+# _KsEdit function (ks.h)
+
+
 
 
 ## -description

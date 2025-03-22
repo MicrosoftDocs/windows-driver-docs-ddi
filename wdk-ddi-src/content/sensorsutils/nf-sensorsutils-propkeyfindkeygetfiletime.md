@@ -7,6 +7,7 @@ keywords: ["PropKeyFindKeyGetFileTime function"]
 tech.root: sensors
 ms.keywords: PropKeyFindKeyGetFileTime
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropKeyFindKeyGetFileTime
 ---
 
-# PropKeyFindKeyGetFileTime function
+# PropKeyFindKeyGetFileTime function (sensorsutils.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["PoRegisterPowerSettingCallback function"]
 ms.keywords: PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], kernel.poregisterpowersettingcallback, portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml, wdm/PoRegisterPowerSettingCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PoRegisterPowerSettingCallback
 ---
+
+# PoRegisterPowerSettingCallback function (wdm.h)
 
 ## -description
 

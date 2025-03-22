@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IsReparseTagValid macro"]
 ms.keywords: IsReparseTagValid, IsReparseTagValid macro [Installable File System Drivers], ifsk.isreparsetagvalid, ioref_72128993-53a1-4e3e-a0e2-12378862ff25.xml, ntifs/IsReparseTagValid
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IsReparseTagValid
 ---
 
-# IsReparseTagValid macro
+# IsReparseTagValid function (ntifs.h)
+
+
 
 
 ## -description

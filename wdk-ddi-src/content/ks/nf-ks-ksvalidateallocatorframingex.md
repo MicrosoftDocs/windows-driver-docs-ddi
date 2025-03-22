@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsValidateAllocatorFramingEx function"]
 ms.keywords: KsValidateAllocatorFramingEx, KsValidateAllocatorFramingEx function [Streaming Media Devices], ks/KsValidateAllocatorFramingEx, ksfunc_11744207-4d37-4b6c-a0bf-c454d7502b38.xml, stream.ksvalidateallocatorframingex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KsValidateAllocatorFramingEx
 ---
+
+# KsValidateAllocatorFramingEx function (ks.h)
 
 ## -description
 

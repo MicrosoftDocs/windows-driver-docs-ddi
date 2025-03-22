@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMCommonUIProp function"]
 ms.keywords: OEMCommonUIProp, OEMCommonUIProp function [Print Devices], print.oemcommonuiprop, print_obsoletefunctions_ef86ce33-1102-4045-b3ad-bba26bafd3de.xml, printoem/OEMCommonUIProp
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMCommonUIProp
 ---
+
+# OEMCommonUIProp function (printoem.h)
 
 ## -description
 

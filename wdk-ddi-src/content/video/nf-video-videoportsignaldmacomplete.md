@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSignalDmaComplete function"]
 ms.keywords: VideoPortSignalDmaComplete, VideoPortSignalDmaComplete function [Display Devices], VideoPort_Functions_2246061c-11be-4eca-94bf-3b788dddd420.xml, display.videoportsignaldmacomplete, video/VideoPortSignalDmaComplete
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortSignalDmaComplete
 ---
 
-# VideoPortSignalDmaComplete function
+# VideoPortSignalDmaComplete function (video.h)
+
+
 
 
 ## -description

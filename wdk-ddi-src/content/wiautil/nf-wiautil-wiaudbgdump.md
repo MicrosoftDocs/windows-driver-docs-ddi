@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["wiauDbgDump function"]
 ms.keywords: image.wiaudbgdump, wiauDbgDump, wiauDbgDump function [Imaging Devices], wiauFncs_dbe56add-64ef-442d-9824-ed0b26aba9ac.xml, wiautil/wiauDbgDump
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiauDbgDump
 ---
+
+# wiauDbgDump function (wiautil.h)
 
 ## -description
 

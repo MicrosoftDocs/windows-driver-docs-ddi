@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceCreateUrb function"]
 ms.keywords: WdfUsbTargetDeviceCreateUrb, WdfUsbTargetDeviceCreateUrb method, kmdf.wdfusbtargetdevicecreateurb, wdf.wdfusbtargetdevicecreateurb, wdfusb/WdfUsbTargetDeviceCreateUrb
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetDeviceCreateUrb
 ---
 
-# WdfUsbTargetDeviceCreateUrb function
+# WdfUsbTargetDeviceCreateUrb function (wdfusb.h)
+
+
 
 
 ## -description

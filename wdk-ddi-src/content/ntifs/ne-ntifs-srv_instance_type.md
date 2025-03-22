@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["SRV_INSTANCE_TYPE enumeration"]
 ms.keywords: "SRV_INSTANCE_TYPE, SRV_INSTANCE_TYPE enumeration [Installable File System Drivers], *PSRV_INSTANCE_TYPE"
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -47,7 +48,9 @@ api_name:
  - SRV_INSTANCE_TYPE
 ---
 
-# SRV_INSTANCE_TYPE enumeration
+# SRV_INSTANCE_TYPE enumeration (ntifs.h)
+
+
 
 ## -description
 

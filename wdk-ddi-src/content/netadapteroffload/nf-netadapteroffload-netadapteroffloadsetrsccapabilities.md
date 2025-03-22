@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetAdapterOffloadSetRscCapabilities function"]
 ms.keywords: NetAdapterOffloadSetRscCapabilities
 req.header: netadapteroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterOffloadSetRscCapabilities
 ---
 
-# NetAdapterOffloadSetRscCapabilities function
+# NetAdapterOffloadSetRscCapabilities function (netadapteroffload.h)
+
+
 
 
 ## -description

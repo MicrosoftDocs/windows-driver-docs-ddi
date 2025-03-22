@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateFilters function"]
 ms.keywords: FltApiRef_e_to_o_04dcdecd-0910-42be-ae92-93bce56216d7.xml, FltEnumerateFilters, FltEnumerateFilters routine [Installable File System Drivers], fltkernel/FltEnumerateFilters, ifsk.fltenumeratefilters
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateFilters
 ---
 
-# FltEnumerateFilters function
+# FltEnumerateFilters function (fltkernel.h)
+
+
 
 
 ## -description

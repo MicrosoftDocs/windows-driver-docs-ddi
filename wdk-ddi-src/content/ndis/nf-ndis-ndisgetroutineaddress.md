@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGetRoutineAddress function"]
 ms.keywords: NdisGetRoutineAddress, NdisGetRoutineAddress function [Network Drivers Starting with Windows Vista], ndis/NdisGetRoutineAddress, ndis_sysinfo_ref_d2259157-f4fd-4fd8-b86e-f685ab4213d5.xml, netvista.ndisgetroutineaddress
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisGetRoutineAddress (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisGetRoutineAddress (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisGetRoutineAddress
 ---
 
-# NdisGetRoutineAddress function
+# NdisGetRoutineAddress function (ndis.h)
+
+
 
 
 ## -description

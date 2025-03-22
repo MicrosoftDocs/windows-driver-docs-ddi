@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListRequestChildEject function"]
 ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject, WdfChildListRequestChildEject method, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListRequestChildEject
 ---
 
-# WdfChildListRequestChildEject function
+# WdfChildListRequestChildEject function (wdfchildlist.h)
+
+
 
 
 ## -description

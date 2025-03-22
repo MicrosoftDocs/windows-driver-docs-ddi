@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiDeviceInitialize function"]
 ms.keywords: UcmUcsiDeviceInitialize
 req.header: ucmucsidevice.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UcmUcsiDeviceInitialize
 ---
 
-# UcmUcsiDeviceInitialize function
+# UcmUcsiDeviceInitialize function (ucmucsidevice.h)
+
+
 
 
 ## -description

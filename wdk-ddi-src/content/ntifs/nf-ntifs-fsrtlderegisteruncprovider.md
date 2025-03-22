@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDeregisterUncProvider function"]
 ms.keywords: FsRtlDeregisterUncProvider, FsRtlDeregisterUncProvider routine [Installable File System Drivers], fsrtlref_d1eb1778-7643-44df-8f68-edc995b22246.xml, ifsk.fsrtlderegisteruncprovider, ntifs/FsRtlDeregisterUncProvider
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlDeregisterUncProvider
 ---
 
-# FsRtlDeregisterUncProvider function
+# FsRtlDeregisterUncProvider function (ntifs.h)
+
+
 
 
 ## -description

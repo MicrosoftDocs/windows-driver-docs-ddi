@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxAssociateContextWithMid function"]
 ms.keywords: RxAssociateContextWithMid, RxAssociateContextWithMid function [Installable File System Drivers], ifsk.rxassociatecontextwithmid, midatlax/RxAssociateContextWithMid, rxref_fdf65b83-9924-4463-bf63-ca28d11f3090.xml
 req.header: midatlax.h
+req.construct-type: function
 req.include-header: Midatlax.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxAssociateContextWithMid
 ---
 
-# RxAssociateContextWithMid function
+# RxAssociateContextWithMid function (midatlax.h)
+
+
 
 
 ## -description

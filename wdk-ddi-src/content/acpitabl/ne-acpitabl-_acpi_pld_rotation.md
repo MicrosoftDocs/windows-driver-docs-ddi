@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_ROTATION enumeration"]
 ms.keywords: _ACPI_PLD_ROTATION, ACPI_PLD_ROTATION, *PACPI_PLD_ROTATION, AcpiPldRotation
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - ACPI_PLD_ROTATION
 ---
 
-# _ACPI_PLD_ROTATION enumeration
+# ACPI_PLD_ROTATION enumeration (acpitabl.h)
+
+
 
 
 ## -description

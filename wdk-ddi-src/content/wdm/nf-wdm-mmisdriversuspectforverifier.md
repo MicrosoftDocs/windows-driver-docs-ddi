@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmIsDriverSuspectForVerifier function"]
 ms.keywords: MmIsDriverSuspectForVerifier, MmIsDriverSuspectForVerifier routine [Kernel-Mode Driver Architecture], kernel.mmisdriversuspectforverifier, wdm/MmIsDriverSuspectForVerifier
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - MmIsDriverSuspectForVerifier
 ---
 
-# MmIsDriverSuspectForVerifier function
+# MmIsDriverSuspectForVerifier function (wdm.h)
+
+
 
 
 ## -description

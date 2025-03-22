@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortAcquireMSISpinLock function"]
 ms.keywords: StorPortAcquireMSISpinLock, StorPortAcquireMSISpinLock routine [Storage Devices], storage.storportacquiremsispinlock, storport/StorPortAcquireMSISpinLock, storprt_0db1ab5c-a2a5-4362-84e0-493a5cebc2d3.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - StorPortAcquireMSISpinLock
 ---
 
-# StorPortAcquireMSISpinLock function
+# StorPortAcquireMSISpinLock function (storport.h)
+
+
 
 
 ## -description

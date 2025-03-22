@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCbVPrintfA function"]
 ms.keywords: RtlStringCbVPrintf, RtlStringCbVPrintfA, RtlStringCbVPrintfW, RtlStringCbVPrintfW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbvprintf, ntstrsafe/RtlStringCbVPrintfA, ntstrsafe/RtlStringCbVPrintfW, safestrings_8b0897a4-24fb-4375-80aa-4148ca6815ce.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCbVPrintfA
 ---
 
-# RtlStringCbVPrintfA function
+# RtlStringCbVPrintfA function (ntstrsafe.h)
+
+
 
 
 ## -description

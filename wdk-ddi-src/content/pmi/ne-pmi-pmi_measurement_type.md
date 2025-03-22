@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_MEASUREMENT_TYPE enumeration"]
 ms.keywords: PMI_MEASUREMENT_TYPE, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeInput, PmiMeasurementTypeMax, PmiMeasurementTypeOutput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, powermeter.pmi_measurement_type
 req.header: pmi.h
+req.construct-type: enumeration
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems
@@ -40,7 +41,9 @@ api_name:
  - PMI_MEASUREMENT_TYPE
 ---
 
-# PMI_MEASUREMENT_TYPE enumeration
+# PMI_MEASUREMENT_TYPE enumeration (pmi.h)
+
+
 
 
 ## -description

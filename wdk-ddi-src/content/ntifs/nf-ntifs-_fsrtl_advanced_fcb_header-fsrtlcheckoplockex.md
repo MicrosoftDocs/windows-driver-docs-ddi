@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlCheckOplockEx function"]
 ms.keywords: FsRtlCheckOplockEx, FsRtlCheckOplockEx routine [Installable File System Drivers], fsrtlref_8c9699aa-3c4e-4095-9eee-4caef21f4709.xml, ifsk.fsrtlcheckoplockex, ntifs/FsRtlCheckOplockEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlCheckOplockEx function
+# FsRtlCheckOplockEx function (ntifs.h)
+
+
 
 ## -description
 

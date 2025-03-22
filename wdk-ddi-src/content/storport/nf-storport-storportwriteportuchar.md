@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortWritePortUchar macro"]
 ms.keywords: StorPortWritePortUchar, StorPortWritePortUchar routine [Storage Devices], storage.storportwriteportuchar, storport/StorPortWritePortUchar, storprt_602c6d78-179c-4eaa-8131-ec2be13b2050.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortWritePortUchar
 ---
 
-# StorPortWritePortUchar macro
+# StorPortWritePortUchar function (storport.h)
+
+
 
 
 ## -description

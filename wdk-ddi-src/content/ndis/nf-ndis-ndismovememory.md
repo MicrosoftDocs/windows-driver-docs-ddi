@@ -8,6 +8,7 @@ ms.date: 11/24/2022
 keywords: ["NdisMoveMemory macro"]
 ms.keywords: NdisMoveMemory, NdisMoveMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisMoveMemory, ndis_memory_ref_19f420d5-3747-48fa-a6c6-d1088449075b.xml, netvista.ndismovememory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlCopyMemory (not RtlMoveMemory) instead.
@@ -40,7 +41,9 @@ api_name:
  - NdisMoveMemory
 ---
 
-# NdisMoveMemory macro
+# NdisMoveMemory function (ndis.h)
+
+
 
 
 ## -description

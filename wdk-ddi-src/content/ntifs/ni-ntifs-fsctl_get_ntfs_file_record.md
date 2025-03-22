@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_GET_NTFS_FILE_RECORD
 ---
 
-# FSCTL_GET_NTFS_FILE_RECORD ioctl (ntifs.h)
+# FSCTL_GET_NTFS_FILE_RECORD IOCTL (ntifs.h)
+
+
 
 ## -description
 

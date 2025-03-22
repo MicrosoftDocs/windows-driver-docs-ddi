@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function"]
 ms.keywords: DFQueueObjectRef_bc87904f-0d02-4369-ae30-734766e7335b.xml, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT, WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function, kmdf.wdf_io_queue_forward_progress_policy_default_init, wdf.wdf_io_queue_forward_progress_policy_default_init, wdfio/WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT
 ---
 
-# WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function
+# WDF_IO_QUEUE_FORWARD_PROGRESS_POLICY_DEFAULT_INIT function (wdfio.h)
+
+
 
 
 ## -description

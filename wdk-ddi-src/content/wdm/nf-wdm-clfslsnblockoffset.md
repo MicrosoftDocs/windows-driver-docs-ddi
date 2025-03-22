@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnBlockOffset function"]
 ms.keywords: ClfsLsnBlockOffset, ClfsLsnBlockOffset routine [Kernel-Mode Driver Architecture], Clfs_700ff9e8-40ea-4659-b4a5-99432fb1577c.xml, kernel.clfslsnblockoffset, wdm/ClfsLsnBlockOffset
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnBlockOffset
 ---
 
-# ClfsLsnBlockOffset function
+# ClfsLsnBlockOffset function (wdm.h)
+
+
 
 
 ## -description

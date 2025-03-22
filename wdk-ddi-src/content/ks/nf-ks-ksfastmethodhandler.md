@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFastMethodHandler function"]
 ms.keywords: KsFastMethodHandler, KsFastMethodHandler function [Streaming Media Devices], ks/KsFastMethodHandler, ksfunc_4c9fb7a6-5297-4b74-a865-14a774f728a5.xml, stream.ksfastmethodhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFastMethodHandler
 ---
 
-# KsFastMethodHandler function
+# KsFastMethodHandler function (ks.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/06/2020
 keywords: ["NetOffloadIsTxChecksumUdpEnabled function"]
 ms.keywords: NetOffloadIsTxChecksumUdpEnabled
 req.header: netadapteroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -37,7 +38,9 @@ api_name:
  - NetOffloadIsTxChecksumUdpEnabled
 ---
 
-# NetOffloadIsTxChecksumUdpEnabled function
+# NetOffloadIsTxChecksumUdpEnabled function (netadapteroffload.h)
+
+
 
 
 ## -description

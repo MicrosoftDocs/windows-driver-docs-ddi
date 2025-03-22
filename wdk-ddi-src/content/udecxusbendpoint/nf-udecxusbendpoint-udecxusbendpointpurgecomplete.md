@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointPurgeComplete function"]
 ms.keywords: UdecxUsbEndpointPurgeComplete, UdecxUsbEndpointPurgeComplete function [Buses], buses.udecxusbendpointpurgecomplete, udecxusbendpoint/UdecxUsbEndpointPurgeComplete
 req.header: udecxusbendpoint.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbEndpointPurgeComplete
 ---
 
-# UdecxUsbEndpointPurgeComplete function
+# UdecxUsbEndpointPurgeComplete function (udecxusbendpoint.h)
+
+
 
 
 ## -description

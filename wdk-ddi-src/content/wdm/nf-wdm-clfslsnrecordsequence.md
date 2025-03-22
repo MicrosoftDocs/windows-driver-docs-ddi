@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnRecordSequence function"]
 ms.keywords: ClfsLsnRecordSequence, ClfsLsnRecordSequence routine [Kernel-Mode Driver Architecture], Clfs_a78f7923-d295-408c-9a52-16e5cc38ca31.xml, kernel.clfslsnrecordsequence, wdm/ClfsLsnRecordSequence
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnRecordSequence
 ---
 
-# ClfsLsnRecordSequence function
+# ClfsLsnRecordSequence function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReleaseMSISpinLock function"]
 ms.keywords: StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock routine [Storage Devices], storage.storportreleasemsispinlock, storport/StorPortReleaseMSISpinLock, storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - StorPortReleaseMSISpinLock
 ---
 
-# StorPortReleaseMSISpinLock function
+# StorPortReleaseMSISpinLock function (storport.h)
+
+
 
 
 ## -description

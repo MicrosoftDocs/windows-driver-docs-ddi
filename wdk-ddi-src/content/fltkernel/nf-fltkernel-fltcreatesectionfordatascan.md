@@ -8,6 +8,7 @@ ms.date: 12/07/2021
 keywords: ["FltCreateSectionForDataScan function"]
 ms.keywords: FltCreateSectionForDataScan, FltCreateSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCreateSectionForDataScan, ifsk.fltcreatesectionfordatascan
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - FltCreateSectionForDataScan
 ---
 
-# FltCreateSectionForDataScan function
+# FltCreateSectionForDataScan function (fltkernel.h)
+
+
 
 ## -description
 

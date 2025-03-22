@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TapeClassLiDiv function"]
 ms.keywords: TapeClassLiDiv, TapeClassLiDiv routine [Storage Devices], minitape/TapeClassLiDiv, storage.tapeclasslidiv, tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml
 req.header: minitape.h
+req.construct-type: function
 req.include-header: Minitape.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - TapeClassLiDiv
 ---
 
-# TapeClassLiDiv function
+# TapeClassLiDiv function (minitape.h)
+
+
 
 
 ## -description

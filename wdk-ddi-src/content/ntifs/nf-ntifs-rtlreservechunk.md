@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlReserveChunk function"]
 ms.keywords: RtlReserveChunk, RtlReserveChunk function [Installable File System Drivers], ifsk.rtlreservechunk, ntifs/RtlReserveChunk, rtlref_cfca6b3d-c505-464e-83fc-8bbff476e93d.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlReserveChunk
 ---
 
-# RtlReserveChunk function
+# RtlReserveChunk function (ntifs.h)
+
+
 
 ## -description
 

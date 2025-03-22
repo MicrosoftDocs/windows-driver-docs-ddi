@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlRemoveDotsFromPath function"]
 ms.keywords: FsRtlRemoveDotsFromPath, FsRtlRemoveDotsFromPath routine [Installable File System Drivers], fsrtlref_93b15313-3292-4122-9852-731b995e9d20.xml, ifsk.fsrtlremovedotsfrompath, ntifs/FsRtlRemoveDotsFromPath
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlRemoveDotsFromPath
 ---
 
-# FsRtlRemoveDotsFromPath function
+# FsRtlRemoveDotsFromPath function (ntifs.h)
+
+
 
 
 ## -description

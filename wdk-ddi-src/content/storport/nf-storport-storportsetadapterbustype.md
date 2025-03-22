@@ -8,6 +8,7 @@ ms.date: 04/21/2021
 keywords: ["StorPortSetAdapterBusType function"]
 ms.keywords: StorPortSetAdapterBusType, StorPortSetAdapterBusType routine [Storage Devices], storage.storportsetadapterbustype, storport/StorPortSetAdapterBusType
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - StorPortSetAdapterBusType
 ---
 
-# StorPortSetAdapterBusType function
+# StorPortSetAdapterBusType function (storport.h)
+
+
 
 ## -description
 

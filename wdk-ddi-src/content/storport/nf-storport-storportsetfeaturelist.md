@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 05/13/2021
 ms.keywords: StorPortSetFeatureList
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - StorPortSetFeatureList
 ---
 
-# StorPortSetFeatureList function
+# StorPortSetFeatureList function (storport.h)
+
+
 
 ## -description
 

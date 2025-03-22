@@ -8,6 +8,7 @@ ms.date: 02/13/2023
 keywords: ["SeAccessCheck function"]
 ms.keywords: SeAccessCheck, SeAccessCheck routine [Kernel-Mode Driver Architecture], k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, kernel.seaccesscheck, wdm/SeAccessCheck
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - SeAccessCheck
 ---
 
-# SeAccessCheck function
+# SeAccessCheck function (wdm.h)
+
+
 
 ## -description
 

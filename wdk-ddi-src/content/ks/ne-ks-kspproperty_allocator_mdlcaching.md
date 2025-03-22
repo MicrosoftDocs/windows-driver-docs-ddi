@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration"]
 ms.keywords: KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, stream.kspproperty_allocator_mdlcaching
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPPROPERTY_ALLOCATOR_MDLCACHING
 ---
 
-# KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration
+# KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 11/18/2019
 keywords: ["FreePrintPropertyValue function"]
 ms.keywords: FreePrintPropertyValue, FreePrintPropertyValue function [Print Devices], print.freeprintpropertyvalue, winspool/FreePrintPropertyValue
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FreePrintPropertyValue
 ---
 
-# FreePrintPropertyValue function
+# FreePrintPropertyValue function (winspool.h)
+
+
 
 
 ## -description

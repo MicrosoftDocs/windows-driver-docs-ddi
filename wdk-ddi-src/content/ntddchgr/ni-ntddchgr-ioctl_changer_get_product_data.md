@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_GET_PRODUCT_DATA IOCTL"]
 ms.keywords: IOCTL_CHANGER_GET_PRODUCT_DATA, IOCTL_CHANGER_GET_PRODUCT_DATA control, IOCTL_CHANGER_GET_PRODUCT_DATA control code [Storage Devices], k307_a03cd330-a457-4f88-b1e7-2a03ff7651e8.xml, ntddchgr/IOCTL_CHANGER_GET_PRODUCT_DATA, storage.ioctl_changer_get_product_data
 req.header: ntddchgr.h
+req.construct-type: ioctl
 req.include-header: Ntddchgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CHANGER_GET_PRODUCT_DATA
 ---
 
-# IOCTL_CHANGER_GET_PRODUCT_DATA IOCTL
+# IOCTL_CHANGER_GET_PRODUCT_DATA IOCTL (ntddchgr.h)
+
+
+
+
 
 
 ## -description

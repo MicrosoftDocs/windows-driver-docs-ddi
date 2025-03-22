@@ -7,6 +7,7 @@ ms.date: 04/25/2024
 keywords: ["ZwSetEaFile function"]
 ms.keywords: ZwSetEaFile, ZwSetEaFile routine [Kernel-Mode Driver Architecture], kernel.zwseteafile, ntifs/ZwSetEaFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - ZwSetEaFile
 ---
 
-# ZwSetEaFile function
+# ZwSetEaFile function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetConnectedFilterInterface function"]
 ms.keywords: KsPinGetConnectedFilterInterface, KsPinGetConnectedFilterInterface function [Streaming Media Devices], avfunc_d6f6f675-4d44-47c8-aa37-9ad533966603.xml, ks/KsPinGetConnectedFilterInterface, stream.kspingetconnectedfilterinterface
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetConnectedFilterInterface
 ---
 
-# KsPinGetConnectedFilterInterface function
+# KsPinGetConnectedFilterInterface function (ks.h)
+
+
 
 
 ## -description

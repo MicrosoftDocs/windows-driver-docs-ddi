@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGenerateEvents function"]
 ms.keywords: KsPinGenerateEvents, KsPinGenerateEvents function [Streaming Media Devices], avfunc_4bc7a2d8-139f-4f6e-b69c-46e05d8302e3.xml, ks/KsPinGenerateEvents, stream.kspingenerateevents
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGenerateEvents
 ---
 
-# KsPinGenerateEvents function
+# KsPinGenerateEvents function (ks.h)
+
+
 
 
 ## -description

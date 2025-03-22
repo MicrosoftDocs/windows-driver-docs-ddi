@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasFormatArgs function"]
 ms.keywords: image.wiasformatargs, wiamdef/wiasFormatArgs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiasFormatArgs, wiasFormatArgs function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasFormatArgs
 ---
 
-# wiasFormatArgs function
+# wiasFormatArgs function (wiamdef.h)
+
+
 
 
 ## -description

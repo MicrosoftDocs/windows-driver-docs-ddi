@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IsListEmpty function"]
 ms.keywords: IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture], k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, kernel.islistempty, wdm/IsListEmpty
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IsListEmpty
 ---
 
-# IsListEmpty function
+# IsListEmpty function (wdm.h)
+
+
 
 
 ## -description

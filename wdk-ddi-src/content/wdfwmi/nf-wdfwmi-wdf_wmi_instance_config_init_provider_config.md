@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function"]
 ms.keywords: DFWMIRef_6aec4b1b-494c-4f9f-89c3-a8e79fa552da.xml, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function, kmdf.wdf_wmi_instance_config_init_provider_config, wdf.wdf_wmi_instance_config_init_provider_config, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG
 ---
 
-# WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function
+# WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER_CONFIG function (wdfwmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortReadPortUchar function"]
 ms.keywords: VideoPortReadPortUchar, VideoPortReadPortUchar function [Display Devices], VideoPort_Functions_128aedd7-fb7b-4e0e-8447-12733a245bc0.xml, display.videoportreadportuchar, video/VideoPortReadPortUchar
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReadPortUchar
 ---
 
-# VideoPortReadPortUchar function
+# VideoPortReadPortUchar function (video.h)
+
+
 
 
 ## -description

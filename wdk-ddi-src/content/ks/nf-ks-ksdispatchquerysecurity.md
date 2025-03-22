@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDispatchQuerySecurity function"]
 ms.keywords: KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices], ks/KsDispatchQuerySecurity, ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, stream.ksdispatchquerysecurity
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDispatchQuerySecurity
 ---
 
-# KsDispatchQuerySecurity function
+# KsDispatchQuerySecurity function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_FIND_NEW_DEVICES IOCTL"]
 ms.keywords: IOCTL_DISK_FIND_NEW_DEVICES, IOCTL_DISK_FIND_NEW_DEVICES control, IOCTL_DISK_FIND_NEW_DEVICES control code [Storage Devices], k307_369ae687-ba0c-4626-bd33-eb299ab4c2cd.xml, ntdddisk/IOCTL_DISK_FIND_NEW_DEVICES, storage.ioctl_disk_find_new_devices
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_FIND_NEW_DEVICES
 ---
 
-# IOCTL_DISK_FIND_NEW_DEVICES IOCTL
+# IOCTL_DISK_FIND_NEW_DEVICES IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

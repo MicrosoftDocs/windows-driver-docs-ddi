@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUpcaseUnicodeString function"]
 ms.keywords: RtlUpcaseUnicodeString, RtlUpcaseUnicodeString routine [Kernel-Mode Driver Architecture], k109_617db3d7-18d8-46eb-a555-59f99d9cae78.xml, kernel.rtlupcaseunicodestring, ntddk/RtlUpcaseUnicodeString
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlUpcaseUnicodeString
 ---
 
-# RtlUpcaseUnicodeString function
+# RtlUpcaseUnicodeString function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 11/06/2019
 keywords: ["FltPerformAsynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml, FltPerformAsynchronousIo, FltPerformAsynchronousIo function [Installable File System Drivers], fltkernel/FltPerformAsynchronousIo, ifsk.fltperformasynchronousio
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltPerformAsynchronousIo
 ---
 
-# FltPerformAsynchronousIo function
+# FltPerformAsynchronousIo function (fltkernel.h)
+
+
 
 
 ## -description

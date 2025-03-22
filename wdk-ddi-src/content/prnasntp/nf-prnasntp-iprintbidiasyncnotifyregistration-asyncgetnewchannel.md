@@ -7,6 +7,7 @@ ms.date: 07/26/2022
 keywords: ["IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel"]
 ms.keywords: AsyncGetNewChannel, AsyncGetNewChannel method [Print Devices], AsyncGetNewChannel method [Print Devices],IPrintBidiAsyncNotifyRegistration interface, IPrintBidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNewChannel method, IPrintBidiAsyncNotifyRegistration.AsyncGetNewChannel, IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel, print.iprintbidiasyncnotifyregistration_asyncgetnewchannel, prnasntp/IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel
 ---
+
+# IPrintBidiAsyncNotifyRegistration::AsyncGetNewChannel function (prnasntp.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetDeviceBase function"]
 ms.keywords: StorPortGetDeviceBase, StorPortGetDeviceBase routine [Storage Devices], storage.storportgetdevicebase, storport/StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetDeviceBase
 ---
 
-# StorPortGetDeviceBase function
+# StorPortGetDeviceBase function (storport.h)
+
+
 
 
 ## -description

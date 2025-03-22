@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlSupportsPerFileContexts macro"]
 ms.keywords: FsRtlSupportsPerFileContexts, FsRtlSupportsPerFileContexts , FsRtlSupportsPerFileContexts function [Installable File System Drivers], fsrtlref_98e99a7a-c80d-43d5-a0f6-3eea35a8d20a.xml, ifsk.fsrtlsupportsperfilecontexts, ntifs/FsRtlSupportsPerFileContexts
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlSupportsPerFileContexts
 ---
 
-# FsRtlSupportsPerFileContexts macro
+# FsRtlSupportsPerFileContexts function (ntifs.h)
+
+
 
 
 ## -description

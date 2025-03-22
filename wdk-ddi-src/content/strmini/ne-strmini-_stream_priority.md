@@ -8,6 +8,7 @@ ms.date: 07/11/2018
 keywords: ["STREAM_PRIORITY enumeration"]
 ms.keywords: "*PSTREAM_PRIORITY, Dispatch, High, Low, LowToHigh, PSTREAM_PRIORITY, PSTREAM_PRIORITY enumeration pointer [Streaming Media Devices], STREAM_PRIORITY, STREAM_PRIORITY enumeration [Streaming Media Devices], _STREAM_PRIORITY, stream.stream_priority, strmini/Dispatch, strmini/High, strmini/Low, strmini/LowToHigh, strmini/PSTREAM_PRIORITY, strmini/STREAM_PRIORITY"
 req.header: strmini.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STREAM_PRIORITY
 ---
 
-# _STREAM_PRIORITY enumeration
+# STREAM_PRIORITY enumeration (strmini.h)
+
+
 
 
 ## -description

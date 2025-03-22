@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceQueryUsbCapability function"]
 ms.keywords: WdfUsbTargetDeviceQueryUsbCapability, WdfUsbTargetDeviceQueryUsbCapability method, kmdf.wdfusbtargetdevicequeryusbcapability, wdf.wdfusbtargetdevicequeryusbcapability, wdfusb/WdfUsbTargetDeviceQueryUsbCapability
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceQueryUsbCapability
 ---
 
-# WdfUsbTargetDeviceQueryUsbCapability function
+# WdfUsbTargetDeviceQueryUsbCapability function (wdfusb.h)
+
+
 
 
 ## -description

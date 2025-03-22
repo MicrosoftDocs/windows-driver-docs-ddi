@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_Initialize function"]
 ms.keywords: RIL_Initialize, RIL_Initialize method [Network Drivers Starting with Windows Vista], netvista.ril_initialize, rilapi/RIL_Initialize
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_Initialize
 ---
 
-# RIL_Initialize function
+# RIL_Initialize function (rilapi.h)
+
+
 
 
 ## -description

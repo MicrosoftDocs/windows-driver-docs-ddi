@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFreeEventList function"]
 ms.keywords: KsFreeEventList, KsFreeEventList function [Streaming Media Devices], ks/KsFreeEventList, ksfunc_b9315995-1d55-4edc-97b4-4fb6ad5631a2.xml, stream.ksfreeeventlist
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFreeEventList
 ---
 
-# KsFreeEventList function
+# KsFreeEventList function (ks.h)
+
+
 
 
 ## -description

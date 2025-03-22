@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["InitTransformationMatrix function"]
 ms.keywords: InitTransformationMatrix
 req.header: sensorsdriversutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - InitTransformationMatrix
 ---
 
-# InitTransformationMatrix function
+# InitTransformationMatrix function (sensorsdriversutils.h)
+
+
 
 
 ## -description

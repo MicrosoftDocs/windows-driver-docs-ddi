@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["DEVICE_DIRECTORY_TYPE enumeration"]
 ms.keywords: _DEVICE_DIRECTORY_TYPE, DEVICE_DIRECTORY_TYPE, *PDEVICE_DIRECTORY_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -36,7 +37,9 @@ api_name:
  - DEVICE_DIRECTORY_TYPE
 ---
 
-# _DEVICE_DIRECTORY_TYPE enumeration
+# DEVICE_DIRECTORY_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

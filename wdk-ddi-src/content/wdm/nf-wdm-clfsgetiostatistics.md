@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsGetIoStatistics function"]
 ms.keywords: ClfsGetIoStatistics, ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml, kernel.clfsgetiostatistics, wdm/ClfsGetIoStatistics
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsGetIoStatistics
 ---
 
-# ClfsGetIoStatistics function
+# ClfsGetIoStatistics function (wdm.h)
+
+
 
 
 ## -description

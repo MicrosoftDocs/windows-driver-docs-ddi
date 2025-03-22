@@ -6,6 +6,7 @@ ms.date: 05/24/2022
 keywords: ["D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration"]
 ms.keywords: D3D12DDI_ROOT_SIGNATURE_FLAGS, D3D12DDI_ROOT_SIGNATURE_FLAGS,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration
+# D3D12DDI_ROOT_SIGNATURE_FLAGS enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

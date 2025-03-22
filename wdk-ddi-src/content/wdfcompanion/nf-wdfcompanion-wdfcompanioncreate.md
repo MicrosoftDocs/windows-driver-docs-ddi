@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCompanionCreate function"]
 ms.keywords: WdfCompanionCreate, WdfCompanionCreate method, wdf.wdfcompanioncreate, wdfcompanion/WdfCompanionCreate
 req.header: wdfcompanion.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfCompanionCreate
 ---
 
-# WdfCompanionCreate function
+# WdfCompanionCreate function (wdfcompanion.h)
+
+
 
 
 ## -description

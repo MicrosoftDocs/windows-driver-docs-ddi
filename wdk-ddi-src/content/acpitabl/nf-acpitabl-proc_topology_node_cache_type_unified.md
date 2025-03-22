@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro"]
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 req.header: acpitabl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 ---
 
-# PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro
+# PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED function (acpitabl.h)
+
+
 
 ## -description
 

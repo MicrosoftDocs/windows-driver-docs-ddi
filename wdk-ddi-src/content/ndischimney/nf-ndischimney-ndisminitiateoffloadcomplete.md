@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMInitiateOffloadComplete function"]
 ms.keywords: NdisMInitiateOffloadComplete, NdisMInitiateOffloadComplete function [Network Drivers Starting with Windows Vista], ndischimney/NdisMInitiateOffloadComplete, netvista.ndisminitiateoffloadcomplete, tcp_chim_ndis_func_e5917638-7b7e-49e6-afad-63bbb3490cd9.xml
 req.header: ndischimney.h
+req.construct-type: function
 req.include-header: Ndischimney.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - NdisMInitiateOffloadComplete
 ---
 
-# NdisMInitiateOffloadComplete function
+# NdisMInitiateOffloadComplete function (ndischimney.h)
+
+
 
 
 ## -description

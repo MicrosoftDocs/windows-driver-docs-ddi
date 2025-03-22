@@ -7,6 +7,7 @@ ms.date: 08/25/2022
 keywords: ["DXGK_GLITCH_DURATION enumeration"]
 ms.keywords: DXGK_GLITCH_DURATION, DXGK_GLITCH_DURATION enumeration [Display Devices], DXGK_GLITCH_DURATION_INDEFINITE, DXGK_GLITCH_DURATION_MULTI_FRAME, DXGK_GLITCH_DURATION_MULTI_LINE, DXGK_GLITCH_DURATION_NONE, DXGK_GLITCH_DURATION_SINGLE_FRAME, DXGK_GLITCH_DURATION_SINGLE_LINE, _DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION, d3dkmddi/DXGK_GLITCH_DURATION_INDEFINITE, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_FRAME, d3dkmddi/DXGK_GLITCH_DURATION_MULTI_LINE, d3dkmddi/DXGK_GLITCH_DURATION_NONE, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_FRAME, d3dkmddi/DXGK_GLITCH_DURATION_SINGLE_LINE, display.dxgk_glitch_duration
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_GLITCH_DURATION
 ---
 
-# DXGK_GLITCH_DURATION enumeration
+# DXGK_GLITCH_DURATION enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

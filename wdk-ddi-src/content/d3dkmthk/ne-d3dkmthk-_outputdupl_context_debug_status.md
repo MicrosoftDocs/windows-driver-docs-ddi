@@ -4,6 +4,7 @@ title: OUTPUTDUPL_CONTEXT_DEBUG_STATUS (d3dkmthk.h)
 description: Learn more about the OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -34,7 +35,9 @@ dev_langs:
  - c++
 ---
 
-# OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration
+# OUTPUTDUPL_CONTEXT_DEBUG_STATUS enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

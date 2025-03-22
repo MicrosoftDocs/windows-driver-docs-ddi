@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmDeleteVc function"]
 ms.keywords: NdisMCmDeleteVc, NdisMCmDeleteVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_a6a2bb4d-a82e-422f-b9f0-821519513cb4.xml, ndis/NdisMCmDeleteVc, netvista.ndismcmdeletevc
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmDeleteVc (NDIS 5.1)) in   Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmDeleteVc (NDIS 5.1)) in   Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisMCmDeleteVc
 ---
 
-# NdisMCmDeleteVc function
+# NdisMCmDeleteVc function (ndis.h)
+
+
 
 
 ## -description

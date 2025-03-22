@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetConnectedPinFileObject function"]
 ms.keywords: KsPinGetConnectedPinFileObject, KsPinGetConnectedPinFileObject function [Streaming Media Devices], avfunc_af97a9b7-4bf9-4faa-a728-099daf7d4c96.xml, ks/KsPinGetConnectedPinFileObject, stream.kspingetconnectedpinfileobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetConnectedPinFileObject
 ---
 
-# KsPinGetConnectedPinFileObject function
+# KsPinGetConnectedPinFileObject function (ks.h)
+
+
 
 
 ## -description

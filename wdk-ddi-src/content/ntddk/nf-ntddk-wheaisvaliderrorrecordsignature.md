@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WheaIsValidErrorRecordSignature function"]
 ms.keywords: WheaIsValidErrorRecordSignature, WheaIsValidErrorRecordSignature function [WHEA Drivers and Applications], ntddk/WheaIsValidErrorRecordSignature, whea.wheaisvaliderrorrecordsignature, whearef2_6ba74e00-cc1f-49e9-b6ee-b300571eb412.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - WheaIsValidErrorRecordSignature
 ---
 
-# WheaIsValidErrorRecordSignature function
+# WheaIsValidErrorRecordSignature function (ntddk.h)
+
+
 
 
 ## -description

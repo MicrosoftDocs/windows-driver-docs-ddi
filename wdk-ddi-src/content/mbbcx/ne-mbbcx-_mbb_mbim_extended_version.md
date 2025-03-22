@@ -7,6 +7,7 @@ ms.date: 03/24/2022
 keywords: ["MBB_MBIM_EXTENDED_VERSION enumeration"]
 ms.keywords: _MBB_MBIM_EXTENDED_VERSION, MBB_MBIM_EXTENDED_VERSION,
 req.header: mbbcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -34,7 +35,9 @@ api_name:
  - MBB_MBIM_EXTENDED_VERSION
 ---
 
-# _MBB_MBIM_EXTENDED_VERSION enumeration
+# MBB_MBIM_EXTENDED_VERSION enumeration (mbbcx.h)
+
+
 
 
 ## -description

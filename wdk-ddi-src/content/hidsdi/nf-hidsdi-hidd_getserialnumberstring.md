@@ -9,6 +9,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_GetSerialNumberString function"]
 ms.keywords: HidD_GetSerialNumberString, HidD_GetSerialNumberString routine [Human Input Devices], hid.hidd_getserialnumberstring, hidfunc_b01ce302-052c-43f1-9b8f-6421ebb66954.xml, hidsdi/HidD_GetSerialNumberString
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidD_GetSerialNumberString
 ---
 
-# HidD_GetSerialNumberString function
+# HidD_GetSerialNumberString function (hidsdi.h)
+
+
 
 ## -description
 

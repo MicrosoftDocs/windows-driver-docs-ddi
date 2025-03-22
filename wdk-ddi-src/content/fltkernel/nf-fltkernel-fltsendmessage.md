@@ -8,6 +8,7 @@ ms.date: 06/01/2022
 keywords: ["FltSendMessage function"]
 ms.keywords: FltApiRef_p_to_z_17d1087d-2a25-4c72-aed4-9246b4610b8b.xml, FltSendMessage, FltSendMessage function [Installable File System Drivers], fltkernel/FltSendMessage, ifsk.fltsendmessage
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltSendMessage
 ---
 
-# FltSendMessage function
+# FltSendMessage function (fltkernel.h)
+
+
 
 ## -description
 

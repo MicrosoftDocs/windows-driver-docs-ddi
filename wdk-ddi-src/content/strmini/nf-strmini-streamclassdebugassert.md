@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["StreamClassDebugAssert function"]
 ms.keywords: StreamClassDebugAssert, StreamClassDebugAssert routine [Streaming Media Devices], strclass-routines_6f9302e6-592f-4097-830c-83b05a54d335.xml, stream.streamclassdebugassert, strmini/StreamClassDebugAssert
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - StreamClassDebugAssert
 ---
+
+# StreamClassDebugAssert function (strmini.h)
 
 ## -description
 

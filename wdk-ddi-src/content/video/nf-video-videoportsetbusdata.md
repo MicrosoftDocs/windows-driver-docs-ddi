@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSetBusData function"]
 ms.keywords: VideoPortSetBusData, VideoPortSetBusData function [Display Devices], VideoPort_Functions_e7db4c76-eae1-4e06-9969-1e2b8fc71faf.xml, display.videoportsetbusdata, video/VideoPortSetBusData
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortSetBusData
 ---
 
-# VideoPortSetBusData function
+# VideoPortSetBusData function (video.h)
+
+
 
 
 ## -description

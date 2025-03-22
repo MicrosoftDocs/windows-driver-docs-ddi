@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaGetVersion function"]
 ms.keywords: NetDmaGetVersion, NetDmaGetVersion function [Network Drivers Starting with Windows Vista], netdma/NetDmaGetVersion, netdma_ref_bb1adf18-d43d-4dc2-b780-1a1322014581.xml, netvista.netdmagetversion
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 2.0 and NetDMA 1.1 drivers in Windows Server 2008.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaGetVersion
 ---
 
-# NetDmaGetVersion function
+# NetDmaGetVersion function (netdma.h)
+
+
 
 
 ## -description

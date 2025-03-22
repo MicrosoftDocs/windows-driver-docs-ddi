@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltObjectDereference function"]
 ms.keywords: FltApiRef_e_to_o_4fbb4535-c814-4af7-b68d-f0d66da9bae2.xml, FltObjectDereference, FltObjectDereference routine [Installable File System Drivers], fltkernel/FltObjectDereference, ifsk.fltobjectdereference
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltObjectDereference
 ---
 
-# FltObjectDereference function
+# FltObjectDereference function (fltkernel.h)
+
+
 
 
 ## -description

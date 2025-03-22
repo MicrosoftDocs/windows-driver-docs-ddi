@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function"]
 ms.keywords: DFRequestObjectRef_1c9cbd6c-35a3-4de2-84f9-9d9788002d31.xml, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP, WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function, kmdf.wdf_request_reuse_params_set_new_irp, wdf.wdf_request_reuse_params_set_new_irp, wdfrequest/WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP
 ---
 
-# WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function
+# WDF_REQUEST_REUSE_PARAMS_SET_NEW_IRP function (wdfrequest.h)
+
+
 
 
 ## -description

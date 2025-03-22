@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsRemoveLogContainer function"]
 ms.keywords: ClfsRemoveLogContainer, ClfsRemoveLogContainer routine [Kernel-Mode Driver Architecture], Clfs_f797d534-9c7e-4871-81d1-aff9ccedccf5.xml, kernel.clfsremovelogcontainer, wdm/ClfsRemoveLogContainer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsRemoveLogContainer
 ---
 
-# ClfsRemoveLogContainer function
+# ClfsRemoveLogContainer function (wdm.h)
+
+
 
 
 ## -description

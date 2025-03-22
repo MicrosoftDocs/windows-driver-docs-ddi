@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKMT_POWER_SHARED_TYPE enumeration"]
 ms.keywords: _DXGKMT_POWER_SHARED_TYPE, DXGKMT_POWER_SHARED_TYPE,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - DXGKMT_POWER_SHARED_TYPE
 ---
 
-# _DXGKMT_POWER_SHARED_TYPE enumeration
+# DXGKMT_POWER_SHARED_TYPE enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

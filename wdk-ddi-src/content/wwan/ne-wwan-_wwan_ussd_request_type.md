@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_USSD_REQUEST_TYPE enumeration"]
 ms.keywords: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdRequestCancel, WwanUssdRequestContinue, WwanUssdRequestInitiate, _WWAN_USSD_REQUEST_TYPE, netvista.wwan_ussd_request_type, wwan/WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, wwan/WwanUssdRequestInitiate"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_USSD_REQUEST_TYPE
 ---
 
-# _WWAN_USSD_REQUEST_TYPE enumeration
+# WWAN_USSD_REQUEST_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

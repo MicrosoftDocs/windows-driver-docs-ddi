@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_GET_CHILD_STATE IOCTL"]
 ms.keywords: IOCTL_VIDEO_GET_CHILD_STATE, IOCTL_VIDEO_GET_CHILD_STATE control, IOCTL_VIDEO_GET_CHILD_STATE control code [Display Devices], Video_IOCTLs_5f13cbad-a5b4-41cb-8d93-dce6badfc8ce.xml, display.ioctl_video_get_child_state, ntddvdeo/IOCTL_VIDEO_GET_CHILD_STATE
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_GET_CHILD_STATE
 ---
 
-# IOCTL_VIDEO_GET_CHILD_STATE IOCTL
+# IOCTL_VIDEO_GET_CHILD_STATE IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

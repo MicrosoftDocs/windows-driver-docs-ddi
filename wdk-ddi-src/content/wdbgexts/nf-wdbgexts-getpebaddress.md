@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GetPebAddress function"]
 ms.keywords: GetPebAddress, GetPebAddress function [Windows Debugging], WdbgExts_Ref_a51cb865-4701-4fbc-a075-7bcadd8ee8be.xml, debugger.getpebaddress, wdbgexts/GetPebAddress
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetPebAddress
 ---
 
-# GetPebAddress function
+# GetPebAddress function (wdbgexts.h)
+
+
 
 
 ## -description

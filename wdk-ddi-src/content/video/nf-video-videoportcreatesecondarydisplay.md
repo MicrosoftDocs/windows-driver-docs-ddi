@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortCreateSecondaryDisplay function"]
 ms.keywords: VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, display.videoportcreatesecondarydisplay, video/VideoPortCreateSecondaryDisplay
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortCreateSecondaryDisplay
 ---
 
-# VideoPortCreateSecondaryDisplay function
+# VideoPortCreateSecondaryDisplay function (video.h)
+
+
 
 
 ## -description

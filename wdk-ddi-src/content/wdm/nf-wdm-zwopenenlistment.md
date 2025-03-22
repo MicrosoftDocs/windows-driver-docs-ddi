@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwOpenEnlistment function"]
 ms.keywords: NtOpenEnlistment, ZwOpenEnlistment, ZwOpenEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwopenenlistment, ktm_ref_cc7719f5-a9a2-42be-9961-01f910f864bc.xml, wdm/NtOpenEnlistment, wdm/ZwOpenEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwOpenEnlistment
 ---
 
-# ZwOpenEnlistment function
+# ZwOpenEnlistment function (wdm.h)
+
+
 
 
 ## -description

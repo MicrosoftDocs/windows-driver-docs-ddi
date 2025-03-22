@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateInitializeOr function"]
 ms.keywords: KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices], avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, stream.ksgateinitializeor
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateInitializeOr
 ---
 
-# KsGateInitializeOr function
+# KsGateInitializeOr function (ks.h)
+
+
 
 
 ## -description

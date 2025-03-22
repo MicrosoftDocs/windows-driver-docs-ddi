@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterExtensionRequest::Complete"]
 ms.keywords: Complete, Complete method [Print Devices], Complete method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Complete method, IPrinterExtensionRequest.Complete, IPrinterExtensionRequest::Complete, print.iprinterextensionrequest_complete, printerextension/IPrinterExtensionRequest::Complete
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows�8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionRequest::Complete
 ---
+
+# IPrinterExtensionRequest::Complete function (printerextension.h)
 
 ## -description
 

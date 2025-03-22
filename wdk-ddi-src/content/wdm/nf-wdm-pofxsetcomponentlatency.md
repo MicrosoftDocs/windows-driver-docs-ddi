@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxSetComponentLatency function"]
 ms.keywords: PoFxSetComponentLatency, PoFxSetComponentLatency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentlatency, wdm/PoFxSetComponentLatency
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxSetComponentLatency
 ---
 
-# PoFxSetComponentLatency function
+# PoFxSetComponentLatency function (wdm.h)
+
+
 
 
 ## -description

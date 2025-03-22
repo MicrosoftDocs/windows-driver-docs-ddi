@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDriverDMS function"]
 ms.keywords: OEMDriverDMS, OEMDriverDMS function [Print Devices], print.oemdriverdms, print_obsoletefunctions_2ae5b734-4f6d-4d91-baba-b594a3388d08.xml, printoem/OEMDriverDMS
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDriverDMS
 ---
+
+# OEMDriverDMS function (printoem.h)
 
 ## -description
 

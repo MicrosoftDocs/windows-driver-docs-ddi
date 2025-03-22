@@ -8,6 +8,7 @@ ms.date: 02/08/2022
 keywords: ["GET_ISO_URB_SIZE macro"]
 ms.keywords: GET_ISO_URB_SIZE, GET_ISO_URB_SIZE macro [Buses], buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GET_ISO_URB_SIZE
 ---
 
-# GET_ISO_URB_SIZE macro
+# GET_ISO_URB_SIZE function (usbdlib.h)
+
+
 
 ## -description
 

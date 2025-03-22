@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["ClfsCreateMarshallingArea function"]
 ms.keywords: ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ClfsCreateMarshallingArea
 ---
+
+# ClfsCreateMarshallingArea function (wdm.h)
 
 ## -description
 

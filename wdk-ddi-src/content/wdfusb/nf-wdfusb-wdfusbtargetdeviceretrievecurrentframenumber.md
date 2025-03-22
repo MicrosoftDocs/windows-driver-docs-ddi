@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceRetrieveCurrentFrameNumber function"]
 ms.keywords: DFUsbRef_9dd2f1ce-06f7-43a2-8e65-931c03f69c6e.xml, WdfUsbTargetDeviceRetrieveCurrentFrameNumber, WdfUsbTargetDeviceRetrieveCurrentFrameNumber method, kmdf.wdfusbtargetdeviceretrievecurrentframenumber, wdf.wdfusbtargetdeviceretrievecurrentframenumber, wdfusb/WdfUsbTargetDeviceRetrieveCurrentFrameNumber
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetDeviceRetrieveCurrentFrameNumber
 ---
 
-# WdfUsbTargetDeviceRetrieveCurrentFrameNumber function
+# WdfUsbTargetDeviceRetrieveCurrentFrameNumber function (wdfusb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsNetBufferListAssociateContext1 function"]
 ms.keywords: FwpsNetBufferListAssociateContext1, FwpsNetBufferListAssociateContext1 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsNetBufferListAssociateContext1, netvista.fwpsnetbufferlistassociatecontext1
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FwpsNetBufferListAssociateContext1
 ---
 
-# FwpsNetBufferListAssociateContext1 function
+# FwpsNetBufferListAssociateContext1 function (fwpsk.h)
+
+
 
 
 ## -description

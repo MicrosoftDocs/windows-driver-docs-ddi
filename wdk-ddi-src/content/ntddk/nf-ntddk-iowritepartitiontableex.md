@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["IoWritePartitionTableEx function"]
 ms.keywords: IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], ntddk/IoWritePartitionTableEx, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, storage.iowritepartitiontableex
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoWritePartitionTableEx
 ---
+
+# IoWritePartitionTableEx function (ntddk.h)
 
 ## -description
 

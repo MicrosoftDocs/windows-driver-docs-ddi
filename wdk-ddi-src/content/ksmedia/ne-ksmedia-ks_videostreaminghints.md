@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_VideoStreamingHints enumeration"]
 ms.keywords: KS_StreamingHint_CompQuality, KS_StreamingHint_CompWindowSize, KS_StreamingHint_FrameInterval, KS_StreamingHint_KeyFrameRate, KS_StreamingHint_PFrameRate, KS_VideoStreamingHints, KS_VideoStreamingHints enumeration [Streaming Media Devices], ksmedia/KS_StreamingHint_CompQuality, ksmedia/KS_StreamingHint_CompWindowSize, ksmedia/KS_StreamingHint_FrameInterval, ksmedia/KS_StreamingHint_KeyFrameRate, ksmedia/KS_StreamingHint_PFrameRate, ksmedia/KS_VideoStreamingHints, stream.ks_videostreaminghints, vidcapstruct_d26d7d11-bfb8-4773-8ace-05793a7a7084.xml
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_VideoStreamingHints
 ---
 
-# KS_VideoStreamingHints enumeration
+# KS_VideoStreamingHints enumeration (ksmedia.h)
+
+
 
 
 ## -description

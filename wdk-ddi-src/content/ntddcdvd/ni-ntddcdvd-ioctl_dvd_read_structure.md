@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_READ_STRUCTURE IOCTL"]
 ms.keywords: IOCTL_DVD_READ_STRUCTURE, IOCTL_DVD_READ_STRUCTURE control, IOCTL_DVD_READ_STRUCTURE control code [Storage Devices], k307_eafb209e-3aed-4471-a4e0-a0e52ce4c462.xml, ntddcdvd/IOCTL_DVD_READ_STRUCTURE, storage.ioctl_dvd_read_structure
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DVD_READ_STRUCTURE
 ---
 
-# IOCTL_DVD_READ_STRUCTURE IOCTL
+# IOCTL_DVD_READ_STRUCTURE IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

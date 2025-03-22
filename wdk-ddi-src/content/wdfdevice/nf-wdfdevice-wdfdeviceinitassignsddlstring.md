@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitAssignSDDLString function"]
 ms.keywords: DFDeviceObjectGeneralRef_36d9ccc6-bc81-4605-a14a-1192734d66cb.xml, WdfDeviceInitAssignSDDLString, WdfDeviceInitAssignSDDLString method, kmdf.wdfdeviceinitassignsddlstring, wdf.wdfdeviceinitassignsddlstring, wdfdevice/WdfDeviceInitAssignSDDLString
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceInitAssignSDDLString
 ---
 
-# WdfDeviceInitAssignSDDLString function
+# WdfDeviceInitAssignSDDLString function (wdfdevice.h)
+
+
 
 
 ## -description

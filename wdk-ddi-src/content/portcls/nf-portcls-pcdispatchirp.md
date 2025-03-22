@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcDispatchIrp function"]
 ms.keywords: PcDispatchIrp, PcDispatchIrp function [Audio Devices], audio.pcdispatchirp, audpc-routines_c87193c2-a8f8-4ba1-bf47-422fb5ff452d.xml, portcls/PcDispatchIrp
 req.header: portcls.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcDispatchIrp function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcDispatchIrp
 ---
 
-# PcDispatchIrp function
+# PcDispatchIrp function (portcls.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCreateUnprotectedSymbolicLink function"]
 ms.keywords: IoCreateUnprotectedSymbolicLink, IoCreateUnprotectedSymbolicLink routine [Kernel-Mode Driver Architecture], k104_72bb6571-da2d-4027-bfcd-24438e3bd08a.xml, kernel.iocreateunprotectedsymboliclink, wdm/IoCreateUnprotectedSymbolicLink
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoCreateUnprotectedSymbolicLink
 ---
 
-# IoCreateUnprotectedSymbolicLink function
+# IoCreateUnprotectedSymbolicLink function (wdm.h)
+
+
 
 
 ## -description

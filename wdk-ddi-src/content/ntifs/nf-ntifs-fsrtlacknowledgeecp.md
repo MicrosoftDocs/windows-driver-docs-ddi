@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FsRtlAcknowledgeEcp function"]
 ms.keywords: FsRtlAcknowledgeEcp, ifsk.fsrtlacknowledgeecp, ntifs/FsRtlAcknowledgeEcp
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -39,7 +40,9 @@ api_name:
  - FsRtlAcknowledgeEcp
 ---
 
-# FsRtlAcknowledgeEcp function
+# FsRtlAcknowledgeEcp function (ntifs.h)
+
+
 
 ## -description
 

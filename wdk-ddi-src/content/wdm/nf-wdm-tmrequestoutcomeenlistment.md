@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmRequestOutcomeEnlistment function"]
 ms.keywords: TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrequestoutcomeenlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, wdm/TmRequestOutcomeEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmRequestOutcomeEnlistment
 ---
 
-# TmRequestOutcomeEnlistment function
+# TmRequestOutcomeEnlistment function (wdm.h)
+
+
 
 
 ## -description

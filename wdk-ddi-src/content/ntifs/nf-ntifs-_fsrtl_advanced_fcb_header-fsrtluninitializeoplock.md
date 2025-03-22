@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlUninitializeOplock function"]
 ms.keywords: FsRtlUninitializeOplock, FsRtlUninitializeOplock function [Installable File System Drivers], fsrtlref_b7e633fd-d91a-4db6-a1b6-2c695579a903.xml, ifsk.fsrtluninitializeoplock, ntifs/FsRtlUninitializeOplock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlUninitializeOplock
 ---
 
-# FsRtlUninitializeOplock function
+# FsRtlUninitializeOplock function (ntifs.h)
+
+
 
 
 ## -description

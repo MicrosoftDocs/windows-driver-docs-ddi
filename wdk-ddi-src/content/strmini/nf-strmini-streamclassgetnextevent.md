@@ -7,6 +7,7 @@ ms.date: 04/22/2022
 keywords: ["StreamClassGetNextEvent function"]
 ms.keywords: StreamClassGetNextEvent, StreamClassGetNextEvent routine [Streaming Media Devices], strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - StreamClassGetNextEvent
 ---
+
+# StreamClassGetNextEvent function (strmini.h)
 
 ## -description
 

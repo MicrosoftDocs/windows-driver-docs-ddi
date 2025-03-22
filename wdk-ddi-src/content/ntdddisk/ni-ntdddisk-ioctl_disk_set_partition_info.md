@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_SET_PARTITION_INFO IOCTL"]
 ms.keywords: IOCTL_DISK_SET_PARTITION_INFO, IOCTL_DISK_SET_PARTITION_INFO control, IOCTL_DISK_SET_PARTITION_INFO control code [Storage Devices], k307_9035067b-43ed-4b4f-9516-23fd7448d5e6.xml, ntdddisk/IOCTL_DISK_SET_PARTITION_INFO, storage.ioctl_disk_set_partition_info
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_SET_PARTITION_INFO
 ---
 
-# IOCTL_DISK_SET_PARTITION_INFO IOCTL
+# IOCTL_DISK_SET_PARTITION_INFO IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

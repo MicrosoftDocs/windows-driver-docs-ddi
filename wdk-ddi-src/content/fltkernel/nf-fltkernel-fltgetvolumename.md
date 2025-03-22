@@ -8,6 +8,7 @@ ms.date: 08/10/2022
 keywords: ["FltGetVolumeName function"]
 ms.keywords: FltApiRef_e_to_o_8d8cee36-2d14-4d5e-b95a-065a50d83f15.xml, FltGetVolumeName, FltGetVolumeName routine [Installable File System Drivers], fltkernel/FltGetVolumeName, ifsk.fltgetvolumename
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetVolumeName
 ---
 
-# FltGetVolumeName function
+# FltGetVolumeName function (fltkernel.h)
+
+
 
 ## -description
 

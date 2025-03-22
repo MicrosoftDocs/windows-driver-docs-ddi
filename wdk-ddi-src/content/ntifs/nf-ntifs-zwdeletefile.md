@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["ZwDeleteFile function"]
 ms.keywords: NtDeleteFile, ZwDeleteFile, ZwDeleteFile routine [Kernel-Mode Driver Architecture], k111_4f0117b0-323a-46b6-a1c0-74de4db2ca4d.xml, kernel.zwdeletefile, ntifs/NtDeleteFile, ntifs/ZwDeleteFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -39,7 +40,9 @@ api_name:
  - ZwDeleteFile
 ---
 
-# ZwDeleteFile function
+# ZwDeleteFile function (ntifs.h)
+
+
 
 ## -description
 

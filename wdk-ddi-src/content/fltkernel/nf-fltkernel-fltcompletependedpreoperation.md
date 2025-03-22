@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["FltCompletePendedPreOperation function"]
 ms.keywords: FLT_PREOP_COMPLETE, FLT_PREOP_SUCCESS_NO_CALLBACK, FLT_PREOP_SUCCESS_WITH_CALLBACK, FltApiRef_a_to_d_170adc13-ea3d-4346-99b2-85d5c1c464b8.xml, FltCompletePendedPreOperation, FltCompletePendedPreOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPreOperation, ifsk.fltcompletependedpreoperation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltCompletePendedPreOperation
 ---
 
-# FltCompletePendedPreOperation function
+# FltCompletePendedPreOperation function (fltkernel.h)
+
+
 
 ## -description
 

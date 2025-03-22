@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMIcmCreateColorTransform function"]
 ms.keywords: OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], print.oemicmcreatecolortransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, printoem/OEMIcmCreateColorTransform
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMIcmCreateColorTransform
 ---
+
+# OEMIcmCreateColorTransform function (printoem.h)
 
 ## -description
 

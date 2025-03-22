@@ -7,6 +7,7 @@ ms.date: 01/13/2021
 keywords: ["NtFlushBuffersFileEx function"]
 ms.keywords: FLUSH_FLAGS_FILE_DATA_ONLY, FLUSH_FLAGS_NO_SYNC, NtFlushBuffersFileEx, ZwFlushBuffersFileEx, ZwFlushBuffersFileEx routine [Kernel-Mode Driver Architecture], kernel.zwflushbuffersfileex, ntifs/NtFlushBuffersFileEx, ntifs/ZwFlushBuffersFileEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - NtFlushBuffersFileEx
 ---
 
-# NtFlushBuffersFileEx function
+# NtFlushBuffersFileEx function (ntifs.h)
+
+
 
 ## -description
 

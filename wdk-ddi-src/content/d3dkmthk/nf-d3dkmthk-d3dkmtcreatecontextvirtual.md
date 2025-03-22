@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreateContextVirtual function"]
 ms.keywords: D3DKMTCreateContextVirtual, D3DKMTCreateContextVirtual function [Display Devices], d3dkmthk/D3DKMTCreateContextVirtual, display.d3dkmtcreatecontextvirtual
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - D3DKMTCreateContextVirtual
 ---
 
-# D3DKMTCreateContextVirtual function
+# D3DKMTCreateContextVirtual function (d3dkmthk.h)
+
+
 
 
 ## -description

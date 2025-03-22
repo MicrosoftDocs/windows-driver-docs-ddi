@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["PosCxMarkPosApp function"]
 ms.keywords: PosCxMarkPosApp, PosCxMarkPosApp function, pos.poscxmarkposapp, poscx/PosCxMarkPosApp
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PosCxMarkPosApp
 ---
+
+# PosCxMarkPosApp function (poscx.h)
 
 ## -description
 

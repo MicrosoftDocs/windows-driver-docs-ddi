@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderGetCounterHandle function"]
 ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, WppRecorderGetCounterHandle, WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/WppRecorderGetCounterHandle
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WppRecorderGetCounterHandle
 ---
 
-# WppRecorderGetCounterHandle function
+# WppRecorderGetCounterHandle function (wpprecorder.h)
+
+
 
 
 ## -description

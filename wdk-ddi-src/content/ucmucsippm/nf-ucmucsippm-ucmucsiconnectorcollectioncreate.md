@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiConnectorCollectionCreate function"]
 ms.keywords: UcmUcsiConnectorCollectionCreate
 req.header: ucmucsippm.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UcmUcsiConnectorCollectionCreate
 ---
 
-# UcmUcsiConnectorCollectionCreate function
+# UcmUcsiConnectorCollectionCreate function (ucmucsippm.h)
+
+
 
 
 ## -description

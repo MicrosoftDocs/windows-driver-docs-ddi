@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUrbRetrieveControlSetupPacket function"]
 ms.keywords: UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket
 req.header: udecxurb.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUrbRetrieveControlSetupPacket
 ---
 
-# UdecxUrbRetrieveControlSetupPacket function
+# UdecxUrbRetrieveControlSetupPacket function (udecxurb.h)
+
+
 
 
 ## -description

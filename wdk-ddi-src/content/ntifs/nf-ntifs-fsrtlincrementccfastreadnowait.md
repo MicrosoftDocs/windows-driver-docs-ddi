@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIncrementCcFastReadNoWait function"]
 ms.keywords: FsRtlIncrementCcFastReadNoWait, FsRtlIncrementCcFastReadNoWait routine [Installable File System Drivers], fsrtlref_f72704ce-84b6-4201-a727-b97fd70accfd.xml, ifsk.fsrtlincrementccfastreadnowait, ntifs/FsRtlIncrementCcFastReadNoWait
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIncrementCcFastReadNoWait
 ---
 
-# FsRtlIncrementCcFastReadNoWait function
+# FsRtlIncrementCcFastReadNoWait function (ntifs.h)
+
+
 
 
 ## -description

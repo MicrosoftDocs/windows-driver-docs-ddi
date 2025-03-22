@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlCreateSectionForDataScan function"]
 ms.keywords: FsRtlCreateSectionForDataScan, FsRtlCreateSectionForDataScan routine [Installable File System Drivers], fsrtlref_5117d865-19da-4ec5-8b20-cccab94eb013.xml, ifsk.fsrtlcreatesectionfordatascan, ntifs/FsRtlCreateSectionForDataScan
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Update Rollup for Windows 2000 Service Pack 4 (SP4); Filter Manager Rollup for Windows XP Service Pack 2 (SP2).
@@ -40,7 +41,9 @@ api_name:
  - FsRtlCreateSectionForDataScan
 ---
 
-# FsRtlCreateSectionForDataScan function
+# FsRtlCreateSectionForDataScan function (ntifs.h)
+
+
 
 
 ## -description

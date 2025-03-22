@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_FIXSESSIONTYPE enumeration"]
 ms.keywords: GNSS_FIXSESSIONTYPE, GNSS_FIXSESSIONTYPE enumeration [Sensor Devices], GNSS_FixSession_ContinuousTracking, GNSS_FixSession_DistanceTracking, GNSS_FixSession_LKG, GNSS_FixSession_SingleShot, gnss.gnss_fixsessiontype, gnssdriver/GNSS_FIXSESSIONTYPE, gnssdriver/GNSS_FixSession_ContinuousTracking, gnssdriver/GNSS_FixSession_DistanceTracking, gnssdriver/GNSS_FixSession_LKG, gnssdriver/GNSS_FixSession_SingleShot
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_FIXSESSIONTYPE
 ---
 
-# GNSS_FIXSESSIONTYPE enumeration
+# GNSS_FIXSESSIONTYPE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

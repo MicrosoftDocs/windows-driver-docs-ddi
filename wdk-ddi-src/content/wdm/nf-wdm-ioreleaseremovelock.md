@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoReleaseRemoveLock macro"]
 ms.keywords: IoReleaseRemoveLock, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, wdm/IoReleaseRemoveLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoReleaseRemoveLock
 ---
 
-# IoReleaseRemoveLock macro
+# IoReleaseRemoveLock function (wdm.h)
+
+
 
 
 ## -description

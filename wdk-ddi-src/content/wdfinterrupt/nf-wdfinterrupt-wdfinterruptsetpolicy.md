@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptSetPolicy function"]
 ms.keywords: DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy, WdfInterruptSetPolicy method, kmdf.wdfinterruptsetpolicy, wdf.wdfinterruptsetpolicy, wdfinterrupt/WdfInterruptSetPolicy
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptSetPolicy
 ---
 
-# WdfInterruptSetPolicy function
+# WdfInterruptSetPolicy function (wdfinterrupt.h)
+
+
 
 
 ## -description

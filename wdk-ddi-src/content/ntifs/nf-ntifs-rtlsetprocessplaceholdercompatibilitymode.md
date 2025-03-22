@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["RtlSetProcessPlaceholderCompatibilityMode function"]
 ms.keywords: RtlSetProcessPlaceholderCompatibilityMode
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
@@ -37,7 +38,9 @@ api_name:
  - RtlSetProcessPlaceholderCompatibilityMode
 ---
 
-# RtlSetProcessPlaceholderCompatibilityMode function
+# RtlSetProcessPlaceholderCompatibilityMode function (ntifs.h)
+
+
 
 
 ## -description

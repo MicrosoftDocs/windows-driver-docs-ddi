@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfFreeNetLuidIndex function"]
 ms.keywords: NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfFreeNetLuidIndex, net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfFreeNetLuidIndex
 ---
 
-# NdisIfFreeNetLuidIndex function
+# NdisIfFreeNetLuidIndex function (ndis.h)
+
+
 
 
 ## -description

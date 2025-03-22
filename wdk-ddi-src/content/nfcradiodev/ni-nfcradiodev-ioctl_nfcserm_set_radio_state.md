@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_NFCSERM_SET_RADIO_STATE IOCTL"]
 ms.keywords: IOCTL_NFCSERM_SET_RADIO_STATE, IOCTL_NFCSERM_SET_RADIO_STATE control, IOCTL_NFCSERM_SET_RADIO_STATE control code [Near-Field Proximity Drivers], nfcradiodev/IOCTL_NFCSERM_SET_RADIO_STATE, nfpdrivers.ioctl_nfcserm_set_radio_state
 req.header: nfcradiodev.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_NFCSERM_SET_RADIO_STATE
 ---
 
-# IOCTL_NFCSERM_SET_RADIO_STATE IOCTL
+# IOCTL_NFCSERM_SET_RADIO_STATE IOCTL (nfcradiodev.h)
+
+
+
+
 
 
 ## -description

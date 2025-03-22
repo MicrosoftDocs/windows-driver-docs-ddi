@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeInitializeTimer function"]
 ms.keywords: KeInitializeTimer, KeInitializeTimer routine [Kernel-Mode Driver Architecture], k105_ce90de5c-7259-4863-adf1-fe90f288e791.xml, kernel.keinitializetimer, wdm/KeInitializeTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeTimer
 ---
 
-# KeInitializeTimer function
+# KeInitializeTimer function (wdm.h)
+
+
 
 
 ## -description

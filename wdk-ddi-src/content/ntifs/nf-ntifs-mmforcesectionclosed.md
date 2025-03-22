@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["MmForceSectionClosed function"]
 ms.keywords: MmForceSectionClosed, MmForceSectionClosed routine [Installable File System Drivers], ifsk.mmforcesectionclosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml, ntifs/MmForceSectionClosed
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MmForceSectionClosed
 ---
 
-# MmForceSectionClosed function
+# MmForceSectionClosed function (ntifs.h)
+
+
 
 
 ## -description

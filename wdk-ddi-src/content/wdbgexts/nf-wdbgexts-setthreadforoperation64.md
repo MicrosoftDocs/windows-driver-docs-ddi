@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SetThreadForOperation64 function"]
 ms.keywords: SetThreadForOperation64, SetThreadForOperation64 function [Windows Debugging], WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml, debugger.setthreadforoperation64, wdbgexts/SetThreadForOperation64
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SetThreadForOperation64
 ---
 
-# SetThreadForOperation64 function
+# SetThreadForOperation64 function (wdbgexts.h)
+
+
 
 
 ## -description

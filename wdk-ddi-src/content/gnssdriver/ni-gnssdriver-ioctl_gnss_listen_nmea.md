@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_LISTEN_NMEA IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_NMEA, IOCTL_GNSS_LISTEN_NMEA control, IOCTL_GNSS_LISTEN_NMEA control code [Sensor Devices], gnss.ioctl_gnss_listen_nmea, gnssdriver/IOCTL_GNSS_LISTEN_NMEA
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_LISTEN_NMEA
 ---
 
-# IOCTL_GNSS_LISTEN_NMEA IOCTL
+# IOCTL_GNSS_LISTEN_NMEA IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

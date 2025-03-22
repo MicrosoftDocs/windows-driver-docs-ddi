@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlCopyWrite function"]
 ms.keywords: FsRtlCopyWrite, FsRtlCopyWrite routine [Installable File System Drivers], fsrtlref_4c9bfba8-1946-430f-b242-7228394923de.xml, ifsk.fsrtlcopywrite, ntifs/FsRtlCopyWrite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlCopyWrite function
+# FsRtlCopyWrite function (ntifs.h)
+
+
 
 ## -description
 

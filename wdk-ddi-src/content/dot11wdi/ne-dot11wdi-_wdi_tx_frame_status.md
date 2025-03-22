@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_TX_FRAME_STATUS enumeration"]
 ms.keywords: WDI_TX_FRAME_STATUS, WDI_TX_FRAME_STATUS enumeration [Network Drivers Starting with Windows Vista], WDI_TxFrameStatus_Discard, WDI_TxFrameStatus_NoAck, WDI_TxFrameStatus_Ok, WDI_TxFrameStatus_SendCancelled, WDI_TxFrameStatus_SendPostponed, WDI_TxFrameStatus_TransferCancelled, WDI_TxFrameStatus_TransferFailed, _WDI_TX_FRAME_STATUS, dot11wdi/WDI_TX_FRAME_STATUS, dot11wdi/WDI_TxFrameStatus_Discard, dot11wdi/WDI_TxFrameStatus_NoAck, dot11wdi/WDI_TxFrameStatus_Ok, dot11wdi/WDI_TxFrameStatus_SendCancelled, dot11wdi/WDI_TxFrameStatus_SendPostponed, dot11wdi/WDI_TxFrameStatus_TransferCancelled, dot11wdi/WDI_TxFrameStatus_TransferFailed, netvista.wdi_tx_frame_status, netvista.wifi_tx_frame_status
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - WDI_TX_FRAME_STATUS
 ---
 
-# _WDI_TX_FRAME_STATUS enumeration
+# WDI_TX_FRAME_STATUS enumeration (dot11wdi.h)
+
+
 
 
 ## -description

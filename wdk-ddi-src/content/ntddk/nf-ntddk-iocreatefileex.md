@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IoCreateFileEx function"]
 ms.keywords: IoCreateFileEx, IoCreateFileEx routine [Installable File System Drivers], ifsk.iocreatefileex, ioref_7e2e6fcc-6ec5-4329-a855-c9f4a06b5434.xml, ntddk/IoCreateFileEx
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoCreateFileEx
 ---
+
+# IoCreateFileEx function (ntddk.h)
 
 ## -description
 

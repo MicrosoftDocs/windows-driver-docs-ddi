@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwMapViewOfSection function"]
 ms.keywords: NtMapViewOfSection, ZwMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, kernel.zwmapviewofsection, wdm/NtMapViewOfSection, wdm/ZwMapViewOfSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwMapViewOfSection
 ---
+
+# ZwMapViewOfSection function (wdm.h)
 
 ## -description
 

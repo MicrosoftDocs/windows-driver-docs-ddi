@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["PosCxPutPendingEvent function"]
 ms.keywords: PosCxPutPendingEvent, PosCxPutPendingEvent function, pos.poscxputpendingevent, poscx/PosCxPutPendingEvent
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PosCxPutPendingEvent
 ---
+
+# PosCxPutPendingEvent function (poscx.h)
 
 ## -description
 

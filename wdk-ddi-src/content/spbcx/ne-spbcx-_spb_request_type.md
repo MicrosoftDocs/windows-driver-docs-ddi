@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["SPB_REQUEST_TYPE enumeration"]
 ms.keywords: "*PSPB_REQUEST_TYPE, SPB.spb_request_type, SPB_REQUEST_TYPE, SPB_REQUEST_TYPE enumeration [Buses], SpbRequestTypeLockConnection, SpbRequestTypeLockController, SpbRequestTypeMax, SpbRequestTypeOther, SpbRequestTypeRead, SpbRequestTypeSequence, SpbRequestTypeUndefined, SpbRequestTypeUnlockConnection, SpbRequestTypeUnlockController, SpbRequestTypeWrite, _SPB_REQUEST_TYPE, spbcx/SPB_REQUEST_TYPE, spbcx/SpbRequestTypeLockConnection, spbcx/SpbRequestTypeLockController, spbcx/SpbRequestTypeMax, spbcx/SpbRequestTypeOther, spbcx/SpbRequestTypeRead, spbcx/SpbRequestTypeSequence, spbcx/SpbRequestTypeUndefined, spbcx/SpbRequestTypeUnlockConnection, spbcx/SpbRequestTypeUnlockController, spbcx/SpbRequestTypeWrite"
 req.header: spbcx.h
+req.construct-type: enumeration
 req.include-header: Spb.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SPB_REQUEST_TYPE
 ---
 
-# _SPB_REQUEST_TYPE enumeration
+# SPB_REQUEST_TYPE enumeration (spbcx.h)
+
+
 
 ## -description
 

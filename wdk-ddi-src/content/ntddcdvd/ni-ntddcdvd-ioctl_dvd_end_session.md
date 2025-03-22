@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_END_SESSION IOCTL"]
 ms.keywords: IOCTL_DVD_END_SESSION, IOCTL_DVD_END_SESSION control, IOCTL_DVD_END_SESSION control code [Storage Devices], k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml, ntddcdvd/IOCTL_DVD_END_SESSION, storage.ioctl_dvd_end_session
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DVD_END_SESSION
 ---
 
-# IOCTL_DVD_END_SESSION IOCTL
+# IOCTL_DVD_END_SESSION IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

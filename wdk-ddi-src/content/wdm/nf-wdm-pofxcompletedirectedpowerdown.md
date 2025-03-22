@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["PoFxCompleteDirectedPowerDown function"]
 ms.keywords: PoFxCompleteDirectedPowerDown
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -38,7 +39,9 @@ api_name:
  - PoFxCompleteDirectedPowerDown
 ---
 
-# PoFxCompleteDirectedPowerDown function
+# PoFxCompleteDirectedPowerDown function (wdm.h)
+
+
 
 
 ## -description

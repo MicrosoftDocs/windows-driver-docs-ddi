@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_REVISION16_FROM_VERSION32 macro"]
 ms.keywords: D3DDDI_REVISION16_FROM_VERSION32
 req.header: d3dumddi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_REVISION16_FROM_VERSION32 macro
+# D3DDDI_REVISION16_FROM_VERSION32 function (d3dumddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTQueryAllocationResidency function"]
 ms.keywords: D3DKMTQueryAllocationResidency, D3DKMTQueryAllocationResidency function [Display Devices], OpenGL_Functions_4efd6e87-91b6-4cf2-8691-0463a9ab218a.xml, d3dkmthk/D3DKMTQueryAllocationResidency, display.d3dkmtqueryallocationresidency
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTQueryAllocationResidency
 ---
 
-# D3DKMTQueryAllocationResidency function
+# D3DKMTQueryAllocationResidency function (d3dkmthk.h)
+
+
 
 ## -description
 

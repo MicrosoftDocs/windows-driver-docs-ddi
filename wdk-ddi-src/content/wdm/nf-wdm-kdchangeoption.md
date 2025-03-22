@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["KdChangeOption function"]
 ms.keywords: DebugFns_7d909b99-2ffb-4c60-9738-cb35c9a0c4fa.xml, KdChangeOption, KdChangeOption routine [Driver Development Tools], devtest.kdchangeoption, wdm/KdChangeOption
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Server 2003 with Service Pack 1 (SP1) and later versions of Windows and Windows Server.
@@ -40,7 +41,9 @@ api_name:
  - KdChangeOption
 ---
 
-# KdChangeOption function
+# KdChangeOption function (wdm.h)
+
+
 
 
 ## -description

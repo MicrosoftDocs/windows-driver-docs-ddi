@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsUnserializeObjectPropertiesFromRegistry function"]
 ms.keywords: KsUnserializeObjectPropertiesFromRegistry, KsUnserializeObjectPropertiesFromRegistry function [Streaming Media Devices], ks/KsUnserializeObjectPropertiesFromRegistry, ksfunc_09710ce5-9236-47cc-84b2-4ced36aa654b.xml, stream.ksunserializeobjectpropertiesfromregistry
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsUnserializeObjectPropertiesFromRegistry
 ---
 
-# KsUnserializeObjectPropertiesFromRegistry function
+# KsUnserializeObjectPropertiesFromRegistry function (ks.h)
+
+
 
 
 ## -description

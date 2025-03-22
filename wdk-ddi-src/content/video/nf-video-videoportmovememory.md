@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortMoveMemory function"]
 ms.keywords: VideoPortMoveMemory, VideoPortMoveMemory function [Display Devices], VideoPort_Functions_ab574585-85be-48ea-9713-25867812699a.xml, display.videoportmovememory, video/VideoPortMoveMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortMoveMemory
 ---
 
-# VideoPortMoveMemory function
+# VideoPortMoveMemory function (video.h)
+
+
 
 
 ## -description

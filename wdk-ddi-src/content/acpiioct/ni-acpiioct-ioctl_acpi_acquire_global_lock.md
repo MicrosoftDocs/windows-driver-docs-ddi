@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL"]
 ms.keywords: IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control, IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK control code [ACPI Devices], acpi-meth-eval-ref_e6fd9b97-db9e-4a08-88bb-e6e84f08359b.xml, acpi.ioctl_acpi_acquire_global_lock, acpiioct/IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 req.header: acpiioct.h
+req.construct-type: ioctl
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK
 ---
 
-# IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL
+# IOCTL_ACPI_ACQUIRE_GLOBAL_LOCK IOCTL (acpiioct.h)
+
+
+
+
 
 
 ## -description

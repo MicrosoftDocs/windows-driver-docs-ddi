@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTPresentMultiPlaneOverlay function"]
 ms.keywords: D3DKMTPresentMultiPlaneOverlay
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTPresentMultiPlaneOverlay function
+# D3DKMTPresentMultiPlaneOverlay function (d3dkmthk.h)
+
+
 
 
 ## -description

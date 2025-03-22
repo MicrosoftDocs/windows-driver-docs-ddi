@@ -8,6 +8,7 @@ ms.date: 07/24/2020
 keywords: ["FsRtlAreVolumeStartupApplicationsComplete function"]
 ms.keywords: FsRtlAreVolumeStartupApplicationsComplete, FsRtlAreVolumeStartupApplicationsComplete function [Installable File System Drivers], fsrtlref_c0858a3d-5e61-4ba3-bbaf-9ec881042d6a.xml, ifsk.fsrtlarevolumestartupapplicationscomplete, ntifs/FsRtlAreVolumeStartupApplicationsComplete
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAreVolumeStartupApplicationsComplete
 ---
 
-# FsRtlAreVolumeStartupApplicationsComplete function
+# FsRtlAreVolumeStartupApplicationsComplete function (ntifs.h)
+
+
 
 ## -description
 

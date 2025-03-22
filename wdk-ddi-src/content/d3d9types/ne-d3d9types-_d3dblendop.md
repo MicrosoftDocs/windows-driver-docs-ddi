@@ -7,6 +7,7 @@ tech.root: display
 keywords: ["D3DBLENDOP enumeration"]
 ms.keywords: _D3DBLENDOP, D3DBLENDOP,
 req.header: d3d9types.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DBLENDOP enumeration
+# D3DBLENDOP enumeration (d3d9types.h)
+
+
 
 
 ## -description

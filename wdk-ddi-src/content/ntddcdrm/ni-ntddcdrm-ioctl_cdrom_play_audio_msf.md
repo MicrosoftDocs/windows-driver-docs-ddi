@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_PLAY_AUDIO_MSF IOCTL"]
 ms.keywords: IOCTL_CDROM_PLAY_AUDIO_MSF, IOCTL_CDROM_PLAY_AUDIO_MSF control, IOCTL_CDROM_PLAY_AUDIO_MSF control code [Storage Devices], k307_dce77286-4efa-4b8b-bb78-2c771bd75727.xml, ntddcdrm/IOCTL_CDROM_PLAY_AUDIO_MSF, storage.ioctl_cdrom_play_audio_msf
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: Obsolete, beginning with Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_PLAY_AUDIO_MSF
 ---
 
-# IOCTL_CDROM_PLAY_AUDIO_MSF IOCTL
+# IOCTL_CDROM_PLAY_AUDIO_MSF IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

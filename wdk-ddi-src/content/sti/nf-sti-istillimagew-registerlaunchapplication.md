@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["IStillImageW::RegisterLaunchApplication"]
 ms.keywords: IStillImageW interface [Imaging Devices],RegisterLaunchApplication method, IStillImageW.RegisterLaunchApplication, IStillImageW::RegisterLaunchApplication, RegisterLaunchApplication, RegisterLaunchApplication method [Imaging Devices], RegisterLaunchApplication method [Imaging Devices],IStillImageW interface, image.istillimage_registerlaunchapplication, sti/IStillImageW::RegisterLaunchApplication, stifnc_606c7e24-38e2-450e-a9d5-3d7018ccf9b9.xml
 req.header: sti.h
+req.construct-type: function
 req.include-header: Sti.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStillImageW::RegisterLaunchApplication
 ---
+
+# IStillImageW::RegisterLaunchApplication function (sti.h)
 
 ## -description
 

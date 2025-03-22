@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUrbCompleteWithNtStatus function"]
 ms.keywords: UdecxUrbCompleteWithNtStatus, UdecxUrbCompleteWithNtStatus function [Buses], buses.udecxurbcompletewithntstatus, udecxurb/UdecxUrbCompleteWithNtStatus
 req.header: udecxurb.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUrbCompleteWithNtStatus
 ---
 
-# UdecxUrbCompleteWithNtStatus function
+# UdecxUrbCompleteWithNtStatus function (udecxurb.h)
+
+
 
 
 ## -description

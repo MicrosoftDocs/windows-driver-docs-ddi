@@ -7,6 +7,7 @@ keywords: ["CollectionsListGetFillableCount function"]
 tech.root: sensors
 ms.keywords: CollectionsListGetFillableCount
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListGetFillableCount
 ---
 
-# CollectionsListGetFillableCount function
+# CollectionsListGetFillableCount function (sensorsutils.h)
+
+
 
 
 ## -description

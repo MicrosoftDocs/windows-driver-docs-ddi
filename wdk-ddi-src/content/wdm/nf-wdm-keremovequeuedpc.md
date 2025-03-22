@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRemoveQueueDpc function"]
 ms.keywords: KeRemoveQueueDpc, KeRemoveQueueDpc routine [Kernel-Mode Driver Architecture], k105_b07492b0-b6b2-4d15-b62c-437a4b33c0b6.xml, kernel.keremovequeuedpc, wdm/KeRemoveQueueDpc
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeRemoveQueueDpc
 ---
 
-# KeRemoveQueueDpc function
+# KeRemoveQueueDpc function (wdm.h)
+
+
 
 
 ## -description

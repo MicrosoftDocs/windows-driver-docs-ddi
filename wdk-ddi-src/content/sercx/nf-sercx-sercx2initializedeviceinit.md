@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2InitializeDeviceInit function"]
 ms.keywords: 2/SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit, SerCx2InitializeDeviceInit method [Serial Ports], serports.sercx2initializedeviceinit
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2InitializeDeviceInit
 ---
 
-# SerCx2InitializeDeviceInit function
+# SerCx2InitializeDeviceInit function (sercx.h)
+
+
 
 
 ## -description

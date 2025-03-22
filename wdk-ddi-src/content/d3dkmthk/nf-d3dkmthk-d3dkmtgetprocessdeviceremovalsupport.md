@@ -6,6 +6,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTGetProcessDeviceRemovalSupport function"]
 ms.keywords: D3DKMTGetProcessDeviceRemovalSupport
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - D3DKMTGetProcessDeviceRemovalSupport
 ---
 
-# D3DKMTGetProcessDeviceRemovalSupport function
+# D3DKMTGetProcessDeviceRemovalSupport function (d3dkmthk.h)
+
+
 
 ## -description
 

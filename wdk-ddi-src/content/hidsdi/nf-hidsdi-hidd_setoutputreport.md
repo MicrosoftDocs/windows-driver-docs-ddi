@@ -8,6 +8,7 @@ ms.date: 04/28/2022
 keywords: ["HidD_SetOutputReport function"]
 ms.keywords: HidD_SetOutputReport, HidD_SetOutputReport routine [Human Input Devices], hid.hidd_setoutputreport, hidfunc_eb711fe9-fdf1-4757-90c1-6c4e115f3805.xml, hidsdi/HidD_SetOutputReport
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_SetOutputReport
 ---
 
-# HidD_SetOutputReport function
+# HidD_SetOutputReport function (hidsdi.h)
+
+
 
 ## -description
 

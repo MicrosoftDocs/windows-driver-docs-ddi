@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoDeassignArcName macro"]
 ms.keywords: IoDeassignArcName, IoDeassignArcName routine [Kernel-Mode Driver Architecture], k104_859767ed-5969-41db-a454-b7808a1ef131.xml, kernel.iodeassignarcname, ntddk/IoDeassignArcName
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoDeassignArcName
 ---
 
-# IoDeassignArcName macro
+# IoDeassignArcName function (ntddk.h)
+
+
 
 
 ## -description

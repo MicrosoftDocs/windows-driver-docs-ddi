@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadControlSpace function"]
 ms.keywords: ReadControlSpace, ReadControlSpace function [Windows Debugging], WdbgExts_Ref_8337344a-4a97-4f74-9be4-8fdd771d8bbf.xml, debugger.readcontrolspace, wdbgexts/ReadControlSpace
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadControlSpace
 ---
 
-# ReadControlSpace function
+# ReadControlSpace function (wdbgexts.h)
+
+
 
 
 ## -description

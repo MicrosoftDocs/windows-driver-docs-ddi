@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxDeviceDeinitialize function"]
 ms.keywords: NfcCxDeviceDeinitialize, NfcCxDeviceDeinitialize method [Near-Field Proximity Drivers], nfccx/NfcCxDeviceDeinitialize, nfpdrivers._nfccxdevicedeinitialize
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxDeviceDeinitialize
 ---
 
-# NfcCxDeviceDeinitialize function
+# NfcCxDeviceDeinitialize function (nfccx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExIsProcessorFeaturePresent function"]
 ms.keywords: ExIsProcessorFeaturePresent, ExIsProcessorFeaturePresent routine [Kernel-Mode Driver Architecture], k102_4dccea04-24a3-4465-97bc-67bb58cee3b1.xml, kernel.exisprocessorfeaturepresent, wdm/ExIsProcessorFeaturePresent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExIsProcessorFeaturePresent
 ---
 
-# ExIsProcessorFeaturePresent function
+# ExIsProcessorFeaturePresent function (wdm.h)
+
+
 
 
 ## -description

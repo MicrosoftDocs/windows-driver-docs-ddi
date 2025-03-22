@@ -8,6 +8,7 @@ ms.date: 04/12/2021
 keywords: ["KsGetObjectTypeFromIrp function"]
 ms.keywords: KsGetObjectTypeFromIrp, KsGetObjectTypeFromIrp function [Streaming Media Devices], avfunc_4021d1e6-6dcd-4c59-8863-0d0b5a8e922f.xml, ks/KsGetObjectTypeFromIrp, stream.ksgetobjecttypefromirp
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetObjectTypeFromIrp
 ---
 
-# KsGetObjectTypeFromIrp function
+# KsGetObjectTypeFromIrp function (ks.h)
+
+
 
 ## -description
 

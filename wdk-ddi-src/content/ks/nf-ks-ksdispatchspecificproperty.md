@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDispatchSpecificProperty function"]
 ms.keywords: KsDispatchSpecificProperty, KsDispatchSpecificProperty function [Streaming Media Devices], ks/KsDispatchSpecificProperty, ksfunc_b12751b9-b486-4b57-809b-1f3daa8a1c30.xml, stream.ksdispatchspecificproperty
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDispatchSpecificProperty
 ---
 
-# KsDispatchSpecificProperty function
+# KsDispatchSpecificProperty function (ks.h)
+
+
 
 
 ## -description

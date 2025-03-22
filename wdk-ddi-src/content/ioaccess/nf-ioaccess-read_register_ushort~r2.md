@@ -8,6 +8,7 @@ ms.date: 03/01/2018
 keywords: ["READ_REGISTER_USHORT function"]
 ms.keywords: READ_REGISTER_USHORT, READ_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_c2fa06bd-05b9-4fbd-b47c-f264d3ed0bd7.xml, kernel.read_register_ushort, wdm/READ_REGISTER_USHORT
 req.header: ioaccess.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - READ_REGISTER_USHORT
 ---
 
-# READ_REGISTER_USHORT function
+# READ_REGISTER_USHORT function (ioaccess.h)
+
+
 
 
 ## -description

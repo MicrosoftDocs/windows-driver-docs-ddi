@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcCreateContentMixed function"]
 ms.keywords: PcCreateContentMixed, PcCreateContentMixed function [Audio Devices], audio.pccreatecontentmixed, audpc-routines_40c3dd23-60cb-48dc-a570-1ba007a27bb2.xml, portcls/PcCreateContentMixed
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcCreateContentMixed function in Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcCreateContentMixed
 ---
 
-# PcCreateContentMixed function
+# PcCreateContentMixed function (portcls.h)
+
+
 
 
 ## -description

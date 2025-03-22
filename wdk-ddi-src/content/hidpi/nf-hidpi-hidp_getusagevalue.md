@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetUsageValue function"]
 ms.keywords: HidP_GetUsageValue, HidP_GetUsageValue routine [Human Input Devices], hid.hidp_getusagevalue, hidfunc_d046d7e6-bd4c-4d80-80a8-f8e2d000eeee.xml, hidpi/HidP_GetUsageValue
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_GetUsageValue
 ---
 
-# HidP_GetUsageValue function
+# HidP_GetUsageValue function (hidpi.h)
+
+
 
 
 ## -description

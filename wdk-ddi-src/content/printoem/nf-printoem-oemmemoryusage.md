@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["OEMMemoryUsage function"]
 ms.keywords: OEMMemoryUsage, OEMMemoryUsage function [Print Devices], print.oemmemoryusage__function_, print_obsoletefunctions_35165216-4a29-4096-95b6-5f5b00418193.xml, printoem/OEMMemoryUsage
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMMemoryUsage
 ---
+
+# OEMMemoryUsage function (printoem.h)
 
 ## -description
 

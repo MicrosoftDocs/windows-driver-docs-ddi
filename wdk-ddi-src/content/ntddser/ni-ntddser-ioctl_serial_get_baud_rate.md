@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_BAUD_RATE IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_BAUD_RATE, IOCTL_SERIAL_GET_BAUD_RATE control, IOCTL_SERIAL_GET_BAUD_RATE control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_BAUD_RATE, serports.ioctl_serial_get_baud_rate, serref_d3a435b0-2934-465a-9c60-91210895755e.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_GET_BAUD_RATE
 ---
 
-# IOCTL_SERIAL_GET_BAUD_RATE IOCTL
+# IOCTL_SERIAL_GET_BAUD_RATE IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

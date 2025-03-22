@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["KeIsExecutingDpc function"]
 ms.keywords: KeIsExecutingDpc
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - KeIsExecutingDpc
 ---
 
-# KeIsExecutingDpc function
+# KeIsExecutingDpc function (wdm.h)
+
+
 
 
 ## -description

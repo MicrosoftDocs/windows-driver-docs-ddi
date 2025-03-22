@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlGetEnabledExtendedFeatures function"]
 ms.keywords: RtlGetEnabledExtendedFeatures, RtlGetEnabledExtendedFeatures routine [Kernel-Mode Driver Architecture], XSTATE_MASK_GSSE, XSTATE_MASK_LEGACY, XSTATE_MASK_LEGACY_FLOATING_POINT, XSTATE_MASK_LEGACY_SSE, k109_94843b2d-9abe-4b82-a781-dd2863ddc9c1.xml, kernel.rtlgetenabledextendedfeatures, wdm/RtlGetEnabledExtendedFeatures
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -44,7 +45,9 @@ api_name:
  - RtlGetEnabledExtendedFeatures
 ---
 
-# RtlGetEnabledExtendedFeatures function
+# RtlGetEnabledExtendedFeatures function (ntddk.h)
+
+
 
 
 ## -description

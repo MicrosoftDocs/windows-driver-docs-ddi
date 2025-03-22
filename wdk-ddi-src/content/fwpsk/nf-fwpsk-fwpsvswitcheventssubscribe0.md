@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsvSwitchEventsSubscribe0 function"]
 ms.keywords: FwpsvSwitchEventsSubscribe0, FwpsvSwitchEventsSubscribe0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsvSwitchEventsSubscribe0, netvista.fwpsvswitcheventssubscribe0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FwpsvSwitchEventsSubscribe0
 ---
 
-# FwpsvSwitchEventsSubscribe0 function
+# FwpsvSwitchEventsSubscribe0 function (fwpsk.h)
+
+
 
 
 ## -description

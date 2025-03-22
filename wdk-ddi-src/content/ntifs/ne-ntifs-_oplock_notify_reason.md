@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 03/24/2020
 ms.keywords: _OPLOCK_NOTIFY_REASON, OPLOCK_NOTIFY_REASON,
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -32,7 +33,9 @@ dev_langs:
  - c++
 ---
 
-# _OPLOCK_NOTIFY_REASON enumeration
+# OPLOCK_NOTIFY_REASON enumeration (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_BTHX_QUERY_CAPABILITIES, IOCTL_BTHX_QUERY_CAPABILITIES control, IOCTL_BTHX_QUERY_CAPABILITIES control code [Bluetooth Devices], bltooth.ioctl_bthx_query_capabilities, bthxddi/IOCTL_BTHX_QUERY_CAPABILITIES
 req.header: bthxddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHX_QUERY_CAPABILITIES
 ---
 
-# IOCTL_BTHX_QUERY_CAPABILITIES IOCTL
+# IOCTL_BTHX_QUERY_CAPABILITIES IOCTL (bthxddi.h)
+
+
+
+
 
 
 ## -description

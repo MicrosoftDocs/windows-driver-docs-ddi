@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlGetElementGenericTableAvl function"]
 ms.keywords: RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtlgetelementgenerictableavl, ntddk/RtlGetElementGenericTableAvl, rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - RtlGetElementGenericTableAvl
 ---
 
-# RtlGetElementGenericTableAvl function
+# RtlGetElementGenericTableAvl function (ntddk.h)
+
+
 
 
 ## -description

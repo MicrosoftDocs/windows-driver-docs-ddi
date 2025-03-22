@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmPageEntireDriver function"]
 ms.keywords: MmPageEntireDriver, MmPageEntireDriver routine [Kernel-Mode Driver Architecture], k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, kernel.mmpageentiredriver, wdm/MmPageEntireDriver
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmPageEntireDriver
 ---
 
-# MmPageEntireDriver function
+# MmPageEntireDriver function (wdm.h)
+
+
 
 
 ## -description

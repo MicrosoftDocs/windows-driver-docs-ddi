@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_ChangeUiccLockPassword function"]
 ms.keywords: RIL_ChangeUiccLockPassword, RIL_ChangeUiccLockPassword method [Network Drivers Starting with Windows Vista], netvista.ril_changeuicclockpassword, rilapi/RIL_ChangeUiccLockPassword
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_ChangeUiccLockPassword
 ---
 
-# RIL_ChangeUiccLockPassword function
+# RIL_ChangeUiccLockPassword function (rilapi.h)
+
+
 
 
 ## -description

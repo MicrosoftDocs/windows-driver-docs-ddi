@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceWdmDispatchIrp function"]
 ms.keywords: WdfDeviceWdmDispatchIrp, WdfDeviceWdmDispatchIrp method, kmdf.wdfdevicewdmdispatchirp, wdf.wdfdevicewdmdispatchirp, wdfdevice/WdfDeviceWdmDispatchIrp
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceWdmDispatchIrp
 ---
 
-# WdfDeviceWdmDispatchIrp function
+# WdfDeviceWdmDispatchIrp function (wdfdevice.h)
+
+
 
 
 ## -description

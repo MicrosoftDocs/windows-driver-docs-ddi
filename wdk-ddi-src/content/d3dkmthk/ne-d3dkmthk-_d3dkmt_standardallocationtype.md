@@ -6,6 +6,7 @@ ms.date: 04/10/2024
 keywords: ["D3DKMT_STANDARDALLOCATIONTYPE enumeration"]
 ms.keywords: D3DKMT_STANDARDALLOCATIONTYPE, D3DKMT_STANDARDALLOCATIONTYPE enumeration [Display Devices], D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, _D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE, d3dkmthk/D3DKMT_STANDARDALLOCATIONTYPE_EXISTINGHEAP, display.d3dkmt-standardallocationtype
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_STANDARDALLOCATIONTYPE
 ---
 
-# D3DKMT_STANDARDALLOCATIONTYPE enumeration
+# D3DKMT_STANDARDALLOCATIONTYPE enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

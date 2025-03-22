@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlRightChild macro"]
 ms.keywords: RtlRightChild, RtlRightChild routine [Installable File System Drivers], ifsk.rtlrightchild, ntddk/RtlRightChild, rtlref_be516cb5-c4a7-4eb7-8faa-eac591b0902d.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlRightChild
 ---
 
-# RtlRightChild macro
+# RtlRightChild function (ntddk.h)
+
+
 
 
 ## -description

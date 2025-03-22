@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxEndpointNeedToCancelTransfers function"]
 ms.keywords: UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers method [Buses], buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
 req.header: ucxendpoint.h
+req.construct-type: function
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxEndpointNeedToCancelTransfers
 ---
 
-# UcxEndpointNeedToCancelTransfers function
+# UcxEndpointNeedToCancelTransfers function (ucxendpoint.h)
+
+
 
 
 ## -description

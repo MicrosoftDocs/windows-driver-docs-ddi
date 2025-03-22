@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsAdvanceLogBase function"]
 ms.keywords: ClfsAdvanceLogBase, ClfsAdvanceLogBase routine [Kernel-Mode Driver Architecture], Clfs_d8f1a522-ef50-47fe-bd39-f18f2f176a3b.xml, kernel.clfsadvancelogbase, wdm/ClfsAdvanceLogBase
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsAdvanceLogBase
 ---
 
-# ClfsAdvanceLogBase function
+# ClfsAdvanceLogBase function (wdm.h)
+
+
 
 
 ## -description

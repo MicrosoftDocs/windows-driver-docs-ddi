@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListEndIteration function"]
 ms.keywords: DFDeviceObjectChildListRef_24a52e50-851e-456f-b111-0b794e76acfb.xml, WdfChildListEndIteration, WdfChildListEndIteration method, kmdf.wdfchildlistenditeration, wdf.wdfchildlistenditeration, wdfchildlist/WdfChildListEndIteration
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListEndIteration
 ---
 
-# WdfChildListEndIteration function
+# WdfChildListEndIteration function (wdfchildlist.h)
+
+
 
 
 ## -description

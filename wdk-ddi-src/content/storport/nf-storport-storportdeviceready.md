@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortDeviceReady function"]
 ms.keywords: StorPortDeviceReady, StorPortDeviceReady routine [Storage Devices], storage.storportdeviceready, storport/StorPortDeviceReady, storprt_18a6f185-17dd-446c-9bbe-3937e1003a6b.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortDeviceReady
 ---
 
-# StorPortDeviceReady function
+# StorPortDeviceReady function (storport.h)
+
+
 
 
 ## -description

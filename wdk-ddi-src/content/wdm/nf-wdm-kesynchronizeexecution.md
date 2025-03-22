@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSynchronizeExecution function"]
 ms.keywords: KeSynchronizeExecution, KeSynchronizeExecution routine [Kernel-Mode Driver Architecture], k105_2abf2438-6849-4069-8571-7d24d348056f.xml, kernel.kesynchronizeexecution, wdm/KeSynchronizeExecution
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeSynchronizeExecution
 ---
 
-# KeSynchronizeExecution function
+# KeSynchronizeExecution function (wdm.h)
+
+
 
 
 ## -description

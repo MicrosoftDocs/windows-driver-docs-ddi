@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFreeDeviceHeader function"]
 ms.keywords: KsFreeDeviceHeader, KsFreeDeviceHeader function [Streaming Media Devices], ks/KsFreeDeviceHeader, ksfunc_25c133a5-3c21-476f-84f5-b208284d9234.xml, stream.ksfreedeviceheader
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFreeDeviceHeader
 ---
 
-# KsFreeDeviceHeader function
+# KsFreeDeviceHeader function (ks.h)
+
+
 
 
 ## -description

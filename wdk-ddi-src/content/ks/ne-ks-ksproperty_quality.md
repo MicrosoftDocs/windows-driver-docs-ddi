@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_QUALITY enumeration"]
 ms.keywords: KSPROPERTY_QUALITY, KSPROPERTY_QUALITY enumeration [Streaming Media Devices], KSPROPERTY_QUALITY_ERROR, KSPROPERTY_QUALITY_REPORT, ks/KSPROPERTY_QUALITY, ks/KSPROPERTY_QUALITY_ERROR, ks/KSPROPERTY_QUALITY_REPORT, stream.ksproperty_quality
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_QUALITY
 ---
 
-# KSPROPERTY_QUALITY enumeration
+# KSPROPERTY_QUALITY enumeration (ks.h)
+
+
 
 
 ## -description

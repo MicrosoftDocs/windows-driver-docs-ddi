@@ -5,6 +5,7 @@ description: "Audio driver can call IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES to quer
 ms.date: 07/14/2023
 keywords: ["IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES
 ---
 
-# IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL
+# IOCTL_SBAUD_GET_VOLUMEPROPERTYVALUES IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

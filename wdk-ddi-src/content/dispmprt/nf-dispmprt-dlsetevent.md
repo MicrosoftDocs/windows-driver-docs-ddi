@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DlSetEvent function"]
 ms.keywords: DlSetEvent
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# DlSetEvent function
+# DlSetEvent function (dispmprt.h)
+
+
 
 
 ## -description

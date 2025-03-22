@@ -8,6 +8,7 @@ ms.date: 12/15/2021
 keywords: ["IoReuseIrp function"]
 ms.keywords: IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, kernel.ioreuseirp, wdm/IoReuseIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoReuseIrp
 ---
 
-# IoReuseIrp function
+# IoReuseIrp function (wdm.h)
+
+
 
 
 ## -description

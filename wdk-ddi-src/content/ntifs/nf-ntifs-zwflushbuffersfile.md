@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwFlushBuffersFile function"]
 ms.keywords: NtFlushBuffersFile, ZwFlushBuffersFile, ZwFlushBuffersFile routine [Kernel-Mode Driver Architecture], k111_4d1d812f-cead-4300-96cb-c2e8a916ac8a.xml, kernel.zwflushbuffersfile, ntifs/NtFlushBuffersFile, ntifs/ZwFlushBuffersFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - ZwFlushBuffersFile
 ---
 
-# ZwFlushBuffersFile function
+# ZwFlushBuffersFile function (ntifs.h)
+
+
 
 
 ## -description

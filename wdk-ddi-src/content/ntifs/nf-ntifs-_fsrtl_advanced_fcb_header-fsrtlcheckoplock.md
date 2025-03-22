@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlCheckOplock function"]
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlCheckOplock function
+# FsRtlCheckOplock function (ntifs.h)
+
+
 
 ## -description
 

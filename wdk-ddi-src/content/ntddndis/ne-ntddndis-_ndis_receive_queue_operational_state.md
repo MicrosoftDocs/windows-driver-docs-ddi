@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration"]
 ms.keywords: "*PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveQueueOperationalStateDmaStopped, NdisReceiveQueueOperationalStateMaximum, NdisReceiveQueueOperationalStatePaused, NdisReceiveQueueOperationalStateRunning, NdisReceiveQueueOperationalStateUndefined, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, netvista.ndis_receive_queue_operational_state, ntddndis/NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, ntddndis/NdisReceiveQueueOperationalStateDmaStopped, ntddndis/NdisReceiveQueueOperationalStateMaximum, ntddndis/NdisReceiveQueueOperationalStatePaused, ntddndis/NdisReceiveQueueOperationalStateRunning, ntddndis/NdisReceiveQueueOperationalStateUndefined, ntddndis/PNDIS_RECEIVE_QUEUE_OPERATIONAL_STATE, virtual_machine_queue_ref_db0b16e1-5367-4a29-8a24-474aa09c07f5.xml"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE
 ---
 
-# _NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration
+# NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE enumeration (ntddndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["FA_ENTRY_TYPE enumeration"]
 ms.keywords: DEBUG_FA_ENTRY_ANSI_STRING, DEBUG_FA_ENTRY_ARRAY, DEBUG_FA_ENTRY_EXTENSION_CMD, DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, DEBUG_FA_ENTRY_NO_TYPE, DEBUG_FA_ENTRY_POINTER, DEBUG_FA_ENTRY_STRUCTURED_DATA, DEBUG_FA_ENTRY_ULONG, DEBUG_FA_ENTRY_ULONG64, DEBUG_FA_ENTRY_UNICODE_STRING, FA_ENTRY_TYPE, FA_ENTRY_TYPE enumeration [Windows Debugging], _FA_ENTRY_TYPE, debugger.fa_entry_type, extsfns/DEBUG_FA_ENTRY_ANSI_STRING, extsfns/DEBUG_FA_ENTRY_ARRAY, extsfns/DEBUG_FA_ENTRY_EXTENSION_CMD, extsfns/DEBUG_FA_ENTRY_INSTRUCTION_OFFSET, extsfns/DEBUG_FA_ENTRY_NO_TYPE, extsfns/DEBUG_FA_ENTRY_POINTER, extsfns/DEBUG_FA_ENTRY_STRUCTURED_DATA, extsfns/DEBUG_FA_ENTRY_ULONG, extsfns/DEBUG_FA_ENTRY_ULONG64, extsfns/DEBUG_FA_ENTRY_UNICODE_STRING, extsfns/FA_ENTRY_TYPE
 req.header: extsfns.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - FA_ENTRY_TYPE
 ---
 
-# _FA_ENTRY_TYPE enumeration
+# FA_ENTRY_TYPE enumeration (extsfns.h)
+
+
 
 
 ## -description

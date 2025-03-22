@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceSelectConfig function"]
 ms.keywords: DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, WdfUsbTargetDeviceSelectConfig, WdfUsbTargetDeviceSelectConfig method, kmdf.wdfusbtargetdeviceselectconfig, wdf.wdfusbtargetdeviceselectconfig, wdfusb/WdfUsbTargetDeviceSelectConfig
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceSelectConfig
 ---
 
-# WdfUsbTargetDeviceSelectConfig function
+# WdfUsbTargetDeviceSelectConfig function (wdfusb.h)
+
+
 
 
 ## -description

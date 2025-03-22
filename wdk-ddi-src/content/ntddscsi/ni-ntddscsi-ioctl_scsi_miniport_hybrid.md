@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_MINIPORT_HYBRID IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_HYBRID, IOCTL_SCSI_MINIPORT_HYBRID control, IOCTL_SCSI_MINIPORT_HYBRID control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_HYBRID, storage.ioctl_scsi_miniport_hybrid
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSI_MINIPORT_HYBRID
 ---
 
-# IOCTL_SCSI_MINIPORT_HYBRID IOCTL
+# IOCTL_SCSI_MINIPORT_HYBRID IOCTL (ntddscsi.h)
+
+
+
+
 
 
 ## -description

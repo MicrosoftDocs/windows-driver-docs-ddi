@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_INTERRUPT_STATE enumeration"]
 ms.keywords: DXGK_INTERRUPT_DISABLE, DXGK_INTERRUPT_ENABLE, DXGK_INTERRUPT_STATE, DXGK_INTERRUPT_STATE enumeration [Display Devices], _DXGK_INTERRUPT_STATE, d3dkmddi/DXGK_INTERRUPT_DISABLE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_INTERRUPT_STATE, display.dxgk_interrupt_state
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - DXGK_INTERRUPT_STATE
 ---
 
-# DXGK_INTERRUPT_STATE enumeration
+# DXGK_INTERRUPT_STATE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

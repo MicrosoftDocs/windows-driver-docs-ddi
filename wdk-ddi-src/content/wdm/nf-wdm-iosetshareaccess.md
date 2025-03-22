@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSetShareAccess function"]
 ms.keywords: IoSetShareAccess, IoSetShareAccess routine [Kernel-Mode Driver Architecture], k104_c7e9d7db-409a-4385-963b-61b5c96c1ffa.xml, kernel.iosetshareaccess, wdm/IoSetShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoSetShareAccess
 ---
 
-# IoSetShareAccess function
+# IoSetShareAccess function (wdm.h)
+
+
 
 
 ## -description

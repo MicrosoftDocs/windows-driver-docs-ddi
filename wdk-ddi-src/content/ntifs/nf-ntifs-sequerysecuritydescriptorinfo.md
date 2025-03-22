@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeQuerySecurityDescriptorInfo function"]
 ms.keywords: SeQuerySecurityDescriptorInfo, SeQuerySecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sequerysecuritydescriptorinfo, ntifs/SeQuerySecurityDescriptorInfo, seref_c8ecba25-bc67-4314-a262-3dbae1407205.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeQuerySecurityDescriptorInfo
 ---
 
-# SeQuerySecurityDescriptorInfo function
+# SeQuerySecurityDescriptorInfo function (ntifs.h)
+
+
 
 
 ## -description

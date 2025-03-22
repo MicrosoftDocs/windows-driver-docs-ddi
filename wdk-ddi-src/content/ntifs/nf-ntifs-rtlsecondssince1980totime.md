@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlSecondsSince1980ToTime function"]
 ms.keywords: RtlSecondsSince1980ToTime, RtlSecondsSince1980ToTime routine [Installable File System Drivers], ifsk.rtlsecondssince1980totime, ntifs/RtlSecondsSince1980ToTime, rtlref_1896255f-11a2-445f-999a-95da533908d8.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSecondsSince1980ToTime
 ---
 
-# RtlSecondsSince1980ToTime function
+# RtlSecondsSince1980ToTime function (ntifs.h)
+
+
 
 
 ## -description

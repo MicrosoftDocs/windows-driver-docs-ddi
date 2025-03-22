@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsIsDiskCountersEnabled function"]
 ms.keywords: PsIsDiskCountersEnabled, PsIsDiskCountersEnabled routine [Installable File System Drivers], ifsk.psisdiskcountersenabled, ntifs/PsIsDiskCountersEnabled
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PsIsDiskCountersEnabled
 ---
 
-# PsIsDiskCountersEnabled function
+# PsIsDiskCountersEnabled function (ntifs.h)
+
+
 
 
 ## -description

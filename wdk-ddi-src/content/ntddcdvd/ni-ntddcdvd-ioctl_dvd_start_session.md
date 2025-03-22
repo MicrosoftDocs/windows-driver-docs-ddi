@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_START_SESSION IOCTL"]
 ms.keywords: IOCTL_DVD_START_SESSION, IOCTL_DVD_START_SESSION control, IOCTL_DVD_START_SESSION control code [Storage Devices], k307_e26336f9-b482-4340-8315-cd8771c5bb81.xml, ntddcdvd/IOCTL_DVD_START_SESSION, storage.ioctl_dvd_start_session
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DVD_START_SESSION
 ---
 
-# IOCTL_DVD_START_SESSION IOCTL
+# IOCTL_DVD_START_SESSION IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

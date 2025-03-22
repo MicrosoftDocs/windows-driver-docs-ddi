@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSetTargetState function"]
 ms.keywords: KsSetTargetState, KsSetTargetState function [Streaming Media Devices], ks/KsSetTargetState, ksfunc_7e05a5c0-2c82-4b20-a199-3955c61c6e40.xml, stream.kssettargetstate
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSetTargetState
 ---
 
-# KsSetTargetState function
+# KsSetTargetState function (ks.h)
+
+
 
 
 ## -description

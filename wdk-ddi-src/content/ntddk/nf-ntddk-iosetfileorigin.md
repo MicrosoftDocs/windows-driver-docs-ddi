@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoSetFileOrigin function"]
 ms.keywords: IoSetFileOrigin, IoSetFileOrigin routine [Installable File System Drivers], ifsk.iosetfileorigin, ioref_782eeed5-9c44-4572-b929-4e1fb82d8e03.xml, ntddk/IoSetFileOrigin
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows XP and later.
@@ -40,7 +41,9 @@ api_name:
  - IoSetFileOrigin
 ---
 
-# IoSetFileOrigin function
+# IoSetFileOrigin function (ntddk.h)
+
+
 
 
 ## -description

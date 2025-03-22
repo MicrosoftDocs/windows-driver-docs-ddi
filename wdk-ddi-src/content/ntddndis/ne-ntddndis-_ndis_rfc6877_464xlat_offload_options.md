@@ -7,6 +7,7 @@ ms.date: 05/22/2018
 keywords: ["NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS enumeration"]
 ms.keywords: _NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS, NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS,
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: ndis.h
 req.target-type: 
 req.target-min-winverclnt: NDIS 6.70
@@ -34,7 +35,9 @@ api_name:
  - NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS
 ---
 
-# _NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS enumeration
+# NDIS_RFC6877_464XLAT_OFFLOAD_OPTIONS enumeration (ntddndis.h)
+
+
 
 
 ## -description

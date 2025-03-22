@@ -8,6 +8,7 @@ ms.date: 08/12/2021
 keywords: ["FltGetIrpName function"]
 ms.keywords: FltApiRef_e_to_o_35d2b6e8-d233-4c6e-a27a-6a5770f5f5d0.xml, FltGetIrpName, FltGetIrpName routine [Installable File System Drivers], fltkernel/FltGetIrpName, ifsk.fltgetirpname
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetIrpName
 ---
 
-# FltGetIrpName function
+# FltGetIrpName function (fltkernel.h)
+
+
 
 ## -description
 

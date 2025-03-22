@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasWritePropStr function"]
 ms.keywords: image.wiaswritepropstr, wiamdef/wiasWritePropStr, wiasFncs_f1b2ee2f-f9a1-4d10-9ffa-47a6c10c4a92.xml, wiasWritePropStr, wiasWritePropStr function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasWritePropStr
 ---
 
-# wiasWritePropStr function
+# wiasWritePropStr function (wiamdef.h)
+
+
 
 
 ## -description

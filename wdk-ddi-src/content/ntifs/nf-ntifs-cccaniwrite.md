@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["CcCanIWrite function"]
 ms.keywords: CcCanIWrite, CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ifsk.cccaniwrite, ntifs/CcCanIWrite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - CcCanIWrite
 ---
 
-# CcCanIWrite function
+# CcCanIWrite function (ntifs.h)
+
+
 
 ## -description
 

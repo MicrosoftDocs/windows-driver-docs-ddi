@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMQueryColorProfile function"]
 ms.keywords: OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, printoem/OEMQueryColorProfile
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMQueryColorProfile
 ---
+
+# OEMQueryColorProfile function (printoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRemoveStreamResource function"]
 ms.keywords: PcRemoveStreamResource, PcRemoveStreamResource function [Audio Devices], audio.pcremovestreamresource, portcls/PcRemoveStreamResource
 req.header: portcls.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - PcRemoveStreamResource
 ---
 
-# PcRemoveStreamResource function
+# PcRemoveStreamResource function (portcls.h)
+
+
 
 
 ## -description

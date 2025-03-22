@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltRegisterFilter function"]
 ms.keywords: FltApiRef_p_to_z_41e3002c-d720-4e0f-81cb-36cbc215cdba.xml, FltRegisterFilter, FltRegisterFilter function [Installable File System Drivers], fltkernel/FltRegisterFilter, ifsk.fltregisterfilter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltRegisterFilter
 ---
 
-# FltRegisterFilter function
+# FltRegisterFilter function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL"]
 ms.keywords: IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control, IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD control code [Storage Devices], ntddstor/IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD, storage.ioctl_storage_set_temperature_threshold
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD
 ---
 
-# IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL
+# IOCTL_STORAGE_SET_TEMPERATURE_THRESHOLD IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

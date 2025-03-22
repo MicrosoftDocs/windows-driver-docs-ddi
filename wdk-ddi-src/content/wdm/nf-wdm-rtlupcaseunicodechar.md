@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUpcaseUnicodeChar function"]
 ms.keywords: RtlUpcaseUnicodeChar, RtlUpcaseUnicodeChar routine [Kernel-Mode Driver Architecture], k109_81806669-d742-4cb9-b4dd-d7e40fef171a.xml, kernel.rtlupcaseunicodechar, wdm/RtlUpcaseUnicodeChar
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlUpcaseUnicodeChar
 ---
 
-# RtlUpcaseUnicodeChar function
+# RtlUpcaseUnicodeChar function (wdm.h)
+
+
 
 
 ## -description

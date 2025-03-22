@@ -7,6 +7,7 @@ ms.date: 12/07/2022
 keywords: ["ZwQueryVolumeInformationFile function"]
 ms.keywords: NtQueryVolumeInformationFile, ZwQueryVolumeInformationFile, ZwQueryVolumeInformationFile routine [Kernel-Mode Driver Architecture], k111_1ca2c72d-6eb1-4bfa-a1f9-06cc26643662.xml, kernel.zwqueryvolumeinformationfile, ntifs/NtQueryVolumeInformationFile, ntifs/ZwQueryVolumeInformationFile
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntifs.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwQueryVolumeInformationFile
 ---
+
+# ZwQueryVolumeInformationFile function (ntddk.h)
 
 ## -description
 

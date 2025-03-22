@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_START_SESSION IOCTL"]
 ms.keywords: IOCTL_AACS_START_SESSION, IOCTL_AACS_START_SESSION control, IOCTL_AACS_START_SESSION control code [Storage Devices], k307_a9378e49-2d39-4532-bac7-5fe9612ea5d0.xml, ntddcdvd/IOCTL_AACS_START_SESSION, storage.ioctl_aacs_start_session
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_START_SESSION
 ---
 
-# IOCTL_AACS_START_SESSION IOCTL
+# IOCTL_AACS_START_SESSION IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

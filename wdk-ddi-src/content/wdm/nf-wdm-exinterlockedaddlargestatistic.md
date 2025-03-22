@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedAddLargeStatistic macro"]
 ms.keywords: ExInterlockedAddLargeStatistic, ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture], k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, kernel.exinterlockedaddlargestatistic, wdm/ExInterlockedAddLargeStatistic
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedAddLargeStatistic
 ---
 
-# ExInterlockedAddLargeStatistic macro
+# ExInterlockedAddLargeStatistic function (wdm.h)
+
+
 
 
 ## -description

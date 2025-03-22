@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_MONITOR_ORIENTATION enumeration"]
 ms.keywords: D3DKMDT_MONITOR_ORIENTATION, D3DKMDT_MONITOR_ORIENTATION enumeration [Display Devices], D3DKMDT_MO_0DEG, D3DKMDT_MO_180DEG, D3DKMDT_MO_270DEG, D3DKMDT_MO_90DEG, D3DKMDT_MO_UNINITIALIZED, DmEnums_d8dfc33b-5b13-4fb0-8ef4-091c5b018424.xml, _D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MONITOR_ORIENTATION, d3dkmdt/D3DKMDT_MO_0DEG, d3dkmdt/D3DKMDT_MO_180DEG, d3dkmdt/D3DKMDT_MO_270DEG, d3dkmdt/D3DKMDT_MO_90DEG, d3dkmdt/D3DKMDT_MO_UNINITIALIZED, display.d3dkmdt_monitor_orientation
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_MONITOR_ORIENTATION
 ---
 
-# _D3DKMDT_MONITOR_ORIENTATION enumeration
+# D3DKMDT_MONITOR_ORIENTATION enumeration (d3dkmdt.h)
+
+
 
 
 ## -description

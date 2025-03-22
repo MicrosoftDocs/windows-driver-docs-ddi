@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestSetInformation function"]
 ms.keywords: DFRequestObjectRef_76b63618-935e-44b2-ac3d-591c5e11ea74.xml, WdfRequestSetInformation, WdfRequestSetInformation method, kmdf.wdfrequestsetinformation, wdf.wdfrequestsetinformation, wdfrequest/WdfRequestSetInformation
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestSetInformation
 ---
 
-# WdfRequestSetInformation function
+# WdfRequestSetInformation function (wdfrequest.h)
+
+
 
 
 ## -description

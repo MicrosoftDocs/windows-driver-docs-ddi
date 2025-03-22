@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_CLOCK_POSITION enumeration"]
 ms.keywords: KSEVENT_CLOCK_INTERVAL_MARK, KSEVENT_CLOCK_POSITION, KSEVENT_CLOCK_POSITION enumeration [Streaming Media Devices], KSEVENT_CLOCK_POSITION_MARK, ks/KSEVENT_CLOCK_INTERVAL_MARK, ks/KSEVENT_CLOCK_POSITION, ks/KSEVENT_CLOCK_POSITION_MARK, stream.ksevent_clock_position
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSEVENT_CLOCK_POSITION
 ---
 
-# KSEVENT_CLOCK_POSITION enumeration
+# KSEVENT_CLOCK_POSITION enumeration (ks.h)
+
+
 
 
 ## -description

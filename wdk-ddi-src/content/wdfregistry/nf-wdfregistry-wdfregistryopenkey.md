@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryOpenKey function"]
 ms.keywords: DFRegKeyObjectRef_a53062c9-844d-4a0f-bfea-738b0adba93c.xml, WdfRegistryOpenKey, WdfRegistryOpenKey method, kmdf.wdfregistryopenkey, wdf.wdfregistryopenkey, wdfregistry/WdfRegistryOpenKey
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryOpenKey
 ---
 
-# WdfRegistryOpenKey function
+# WdfRegistryOpenKey function (wdfregistry.h)
+
+
 
 
 ## -description

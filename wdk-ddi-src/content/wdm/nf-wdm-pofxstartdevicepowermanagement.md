@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxStartDevicePowerManagement function"]
 ms.keywords: PoFxStartDevicePowerManagement, PoFxStartDevicePowerManagement routine [Kernel-Mode Driver Architecture], kernel.pofxstartdevicepowermanagement, wdm/PoFxStartDevicePowerManagement
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxStartDevicePowerManagement
 ---
 
-# PoFxStartDevicePowerManagement function
+# PoFxStartDevicePowerManagement function (wdm.h)
+
+
 
 
 ## -description

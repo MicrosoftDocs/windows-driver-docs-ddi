@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_SENT_IO_ACTION enumeration"]
 ms.keywords: DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, WdfIoTargetCancelSentIo, WdfIoTargetLeaveSentIoPending, WdfIoTargetSentIoUndefined, WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, kmdf.wdf_io_target_sent_io_action, wdf.wdf_io_target_sent_io_action, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetWaitForSentIoToComplete
 req.header: wdfiotarget.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_IO_TARGET_SENT_IO_ACTION
 ---
 
-# _WDF_IO_TARGET_SENT_IO_ACTION enumeration (wdfiotarget.h)
+# WDF_IO_TARGET_SENT_IO_ACTION enumeration (wdfiotarget.h)
+
+
 
 
 ## -description

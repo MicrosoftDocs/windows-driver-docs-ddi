@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_ASSOCIATION_STATE enumeration"]
 ms.keywords: "*PDOT11_ASSOCIATION_STATE, DOT11_ASSOCIATION_STATE, DOT11_ASSOCIATION_STATE enumeration [Network Drivers Starting with Windows Vista], Native_802.11_data_types_6ec71b29-ea13-4ff5-af6c-b8f088c2671c.xml, PDOT11_ASSOCIATION_STATE, PDOT11_ASSOCIATION_STATE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_ASSOCIATION_STATE, dot11_assoc_state_auth_assoc, dot11_assoc_state_auth_unassoc, dot11_assoc_state_unauth_unassoc, dot11_assoc_state_zero, netvista.dot11_association_state, windot11/DOT11_ASSOCIATION_STATE, windot11/PDOT11_ASSOCIATION_STATE, windot11/dot11_assoc_state_auth_assoc, windot11/dot11_assoc_state_auth_unassoc, windot11/dot11_assoc_state_unauth_unassoc, windot11/dot11_assoc_state_zero"
 req.header: windot11.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_ASSOCIATION_STATE
 ---
 
-# _DOT11_ASSOCIATION_STATE enumeration
+# DOT11_ASSOCIATION_STATE enumeration (windot11.h)
+
+
 
 
 ## -description

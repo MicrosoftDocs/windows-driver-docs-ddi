@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetDefaultClockTime function"]
 ms.keywords: KsGetDefaultClockTime, KsGetDefaultClockTime function [Streaming Media Devices], ks/KsGetDefaultClockTime, ksfunc_16bfafe4-e317-48e9-841f-f642eb1fb8d3.xml, stream.ksgetdefaultclocktime
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetDefaultClockTime
 ---
 
-# KsGetDefaultClockTime function
+# KsGetDefaultClockTime function (ks.h)
+
+
 
 
 ## -description

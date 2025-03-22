@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIExecuteMethod function"]
 ms.keywords: IoWMIExecuteMethod, IoWMIExecuteMethod routine [Kernel-Mode Driver Architecture], k104_9625e06a-3c5a-4950-80be-cc3fb536453c.xml, kernel.iowmiexecutemethod, wdm/IoWMIExecuteMethod
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIExecuteMethod
 ---
 
-# IoWMIExecuteMethod function
+# IoWMIExecuteMethod function (wdm.h)
+
+
 
 
 ## -description

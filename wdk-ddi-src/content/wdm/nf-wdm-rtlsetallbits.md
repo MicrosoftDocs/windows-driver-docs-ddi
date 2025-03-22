@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSetAllBits function"]
 ms.keywords: RtlSetAllBits, RtlSetAllBits routine [Kernel-Mode Driver Architecture], k109_e7f7eecf-e845-455b-a94d-eccad1ce448a.xml, kernel.rtlsetallbits, wdm/RtlSetAllBits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlSetAllBits
 ---
 
-# RtlSetAllBits function
+# RtlSetAllBits function (wdm.h)
+
+
 
 
 ## -description

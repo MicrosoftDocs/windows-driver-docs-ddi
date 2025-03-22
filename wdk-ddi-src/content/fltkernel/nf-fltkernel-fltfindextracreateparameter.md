@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFindExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_6f7f8d49-a0b3-4a32-9a51-d31ab84baf8a.xml, FltFindExtraCreateParameter, FltFindExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltFindExtraCreateParameter, ifsk.fltfindextracreateparameter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltFindExtraCreateParameter
 ---
 
-# FltFindExtraCreateParameter function
+# FltFindExtraCreateParameter function (fltkernel.h)
+
+
 
 
 ## -description

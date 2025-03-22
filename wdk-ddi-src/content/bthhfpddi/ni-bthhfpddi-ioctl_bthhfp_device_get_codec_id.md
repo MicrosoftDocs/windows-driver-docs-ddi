@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_DEVICE_GET_CODEC_ID IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_GET_CODEC_ID, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control, IOCTL_BTHHFP_DEVICE_GET_CODEC_ID control code [Audio Devices], audio.ioctl_bthhfp_device_get_codec_id, bthhfpddi/IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
 req.header: bthhfpddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHHFP_DEVICE_GET_CODEC_ID
 ---
 
-# IOCTL_BTHHFP_DEVICE_GET_CODEC_ID IOCTL
+# IOCTL_BTHHFP_DEVICE_GET_CODEC_ID IOCTL (bthhfpddi.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SeAuditingHardLinkEvents function"]
 ms.keywords: SeAuditingHardLinkEvents, SeAuditingHardLinkEvents function [Installable File System Drivers], ifsk.seauditinghardlinkevents, ntifs/SeAuditingHardLinkEvents, seref_b63ee159-df1c-405e-9ac2-44e56b2bd51c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeAuditingHardLinkEvents
 ---
 
-# SeAuditingHardLinkEvents function
+# SeAuditingHardLinkEvents function (ntifs.h)
+
+
 
 ## -description
 

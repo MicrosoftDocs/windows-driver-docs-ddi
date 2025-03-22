@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["PCM_DATA_FORMAT enumeration"]
 ms.keywords: "*PPCM_DATA_FORMAT, PCM_DATA_FORMAT, PCM_DATA_FORMAT enumeration [Bluetooth Devices], PPCM_DATA_FORMAT, PPCM_DATA_FORMAT enumeration pointer [Bluetooth Devices], _PCM_DATA_FORMAT, bltooth.pcm_data_format, bthddi/, bthddi/PCM_DATA_FORMAT, bthddi/PPCM_DATA_FORMAT"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCM_DATA_FORMAT
 ---
 
-# _PCM_DATA_FORMAT enumeration
+# PCM_DATA_FORMAT enumeration (bthddi.h)
+
+
 
 
 ## -description

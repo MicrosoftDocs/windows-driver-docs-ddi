@@ -8,6 +8,7 @@ ms.date: 02/02/2018
 keywords: ["XcvClosePort function"]
 ms.keywords: XcvClosePort, winsplp/XcvClosePort, print.xcvcloseport, spoolfnc_5d0750d1-1f50-4e09-8c91-1362b2037265.xml, XcvClosePort function [Print Devices]
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - XcvClosePort
 ---
 
-# XcvClosePort function
+# XcvClosePort function (winsplp.h)
+
+
 
 
 ## -description

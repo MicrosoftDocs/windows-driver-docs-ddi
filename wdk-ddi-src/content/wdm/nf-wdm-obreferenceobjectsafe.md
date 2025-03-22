@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ObReferenceObjectSafe function"]
 ms.keywords: ObReferenceObjectSafe
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - ObReferenceObjectSafe
 ---
 
-# ObReferenceObjectSafe function
+# ObReferenceObjectSafe function (wdm.h)
+
+
 
 
 ## -description

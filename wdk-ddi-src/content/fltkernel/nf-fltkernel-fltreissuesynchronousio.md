@@ -8,6 +8,7 @@ ms.date: 11/29/2021
 keywords: ["FltReissueSynchronousIo function"]
 ms.keywords: FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml, FltReissueSynchronousIo, FltReissueSynchronousIo function [Installable File System Drivers], fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 Update Rollup 1 for SP4; Windows XP SP2 
@@ -40,7 +41,9 @@ api_name:
  - FltReissueSynchronousIo
 ---
 
-# FltReissueSynchronousIo function
+# FltReissueSynchronousIo function (fltkernel.h)
+
+
 
 ## -description
 

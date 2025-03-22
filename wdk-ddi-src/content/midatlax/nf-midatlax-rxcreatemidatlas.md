@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCreateMidAtlas function"]
 ms.keywords: RxCreateMidAtlas, RxCreateMidAtlas function [Installable File System Drivers], ifsk.rxcreatemidatlas, midatlax/RxCreateMidAtlas, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml
 req.header: midatlax.h
+req.construct-type: function
 req.include-header: Midatlax.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCreateMidAtlas
 ---
 
-# RxCreateMidAtlas function
+# RxCreateMidAtlas function (midatlax.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueRetrieveNextRequest function"]
 ms.keywords: DFQueueObjectRef_93fbecf2-1bfa-426c-9739-153d79d0ac27.xml, WdfIoQueueRetrieveNextRequest, WdfIoQueueRetrieveNextRequest method, kmdf.wdfioqueueretrievenextrequest, wdf.wdfioqueueretrievenextrequest, wdfio/WdfIoQueueRetrieveNextRequest
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueRetrieveNextRequest
 ---
 
-# WdfIoQueueRetrieveNextRequest function
+# WdfIoQueueRetrieveNextRequest function (wdfio.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlIsLeftChild macro"]
 ms.keywords: RtlIsLeftChild, RtlIsLeftChild routine [Installable File System Drivers], ifsk.rtlisleftchild, ntddk/RtlIsLeftChild, rtlref_2692597e-5133-48f2-b978-c8ac5f2280fe.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlIsLeftChild
 ---
 
-# RtlIsLeftChild macro
+# RtlIsLeftChild function (ntddk.h)
+
+
 
 
 ## -description

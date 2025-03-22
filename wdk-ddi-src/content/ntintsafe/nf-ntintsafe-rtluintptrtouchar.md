@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUIntPtrToUChar function"]
 ms.keywords: RtlUIntPtrToUChar, RtlUIntPtrToUChar function [Kernel-Mode Driver Architecture], kernel.rtluintptrtouchar, ntintsafe/RtlUIntPtrToUChar
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUIntPtrToUChar
 ---
 
-# RtlUIntPtrToUChar function
+# RtlUIntPtrToUChar function (ntintsafe.h)
+
+
 
 
 ## -description

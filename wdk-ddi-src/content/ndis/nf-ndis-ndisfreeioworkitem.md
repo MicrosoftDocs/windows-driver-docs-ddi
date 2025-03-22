@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeIoWorkItem function"]
 ms.keywords: NdisFreeIoWorkItem, NdisFreeIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisFreeIoWorkItem, ndis_work_items_ref_50b3859f-f34b-4cae-b7ef-935f1aae82cb.xml, netvista.ndisfreeioworkitem
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeIoWorkItem
 ---
 
-# NdisFreeIoWorkItem function
+# NdisFreeIoWorkItem function (ndis.h)
+
+
 
 
 ## -description

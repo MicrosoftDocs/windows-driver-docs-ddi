@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAllocateContiguousMemory function"]
 ms.keywords: VideoPortAllocateContiguousMemory, VideoPortAllocateContiguousMemory function [Display Devices], VideoPort_Functions_5aed176c-b0d1-4b0d-8d0d-7689bc31d661.xml, display.videoportallocatecontiguousmemory, video/VideoPortAllocateContiguousMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAllocateContiguousMemory
 ---
 
-# VideoPortAllocateContiguousMemory function
+# VideoPortAllocateContiguousMemory function (video.h)
+
+
 
 
 ## -description

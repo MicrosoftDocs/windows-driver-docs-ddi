@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetWakeSourceGetAdapter function"]
 ms.keywords: NetWakeSourceGetAdapter
 req.header: netwakesource.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetWakeSourceGetAdapter
 ---
 
-# NetWakeSourceGetAdapter function
+# NetWakeSourceGetAdapter function (netwakesource.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_COMMAND enumeration"]
 ms.keywords: _UCSI_COMMAND, UCSI_COMMAND,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_COMMAND
 ---
 
-# _UCSI_COMMAND enumeration
+# UCSI_COMMAND enumeration (ucmucsispec.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["RTL_MEMORY_TYPE enumeration"]
 ms.keywords: _RTL_MEMORY_TYPE, RTL_MEMORY_TYPE, *PRTL_MEMORY_TYPE,
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -35,7 +36,9 @@ api_name:
  - RTL_MEMORY_TYPE
 ---
 
-# RTL_MEMORY_TYPE enumeration
+# RTL_MEMORY_TYPE enumeration (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetUiccLockEnabled function"]
 ms.keywords: RIL_SetUiccLockEnabled, RIL_SetUiccLockEnabled method [Network Drivers Starting with Windows Vista], netvista.ril_setuicclockenabled, rilapi/RIL_SetUiccLockEnabled
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetUiccLockEnabled
 ---
 
-# RIL_SetUiccLockEnabled function
+# RIL_SetUiccLockEnabled function (rilapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnlistInTransaction function"]
 ms.keywords: FltApiRef_e_to_o_85856df2-46c0-457b-bc10-2e6a8d32f5bb.xml, FltEnlistInTransaction, FltEnlistInTransaction routine [Installable File System Drivers], fltkernel/FltEnlistInTransaction, ifsk.fltenlistintransaction
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - FltEnlistInTransaction
 ---
 
-# FltEnlistInTransaction function
+# FltEnlistInTransaction function (fltkernel.h)
+
+
 
 
 ## -description

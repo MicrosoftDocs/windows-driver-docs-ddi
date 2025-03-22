@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlClearBits function"]
 ms.keywords: RtlClearBits, RtlClearBits routine [Kernel-Mode Driver Architecture], k109_ee20da99-4d30-46dc-99c1-d3d8dfa92d08.xml, kernel.rtlclearbits, wdm/RtlClearBits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlClearBits
 ---
 
-# RtlClearBits function
+# RtlClearBits function (wdm.h)
+
+
 
 
 ## -description

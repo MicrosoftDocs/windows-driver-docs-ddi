@@ -8,6 +8,7 @@ ms.date: 12/16/2021
 keywords: ["FsRtlCancellableWaitForSingleObject function"]
 ms.keywords: FsRtlCancellableWaitForSingleObject, FsRtlCancellableWaitForSingleObject routine [Installable File System Drivers], fsrtlref_5515496d-6e38-488c-8fbf-439aa4ac555a.xml, ifsk.fsrtlcancellablewaitforsingleobject, ntifs/FsRtlCancellableWaitForSingleObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlCancellableWaitForSingleObject
 ---
 
-# FsRtlCancellableWaitForSingleObject function
+# FsRtlCancellableWaitForSingleObject function (ntifs.h)
+
+
 
 ## -description
 

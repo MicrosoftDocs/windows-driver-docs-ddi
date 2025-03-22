@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfMemoryCreateFromLookaside function"]
 ms.keywords: DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml, WdfMemoryCreateFromLookaside, WdfMemoryCreateFromLookaside method, kmdf.wdfmemorycreatefromlookaside, wdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfMemoryCreateFromLookaside
 ---
 
-# WdfMemoryCreateFromLookaside function
+# WdfMemoryCreateFromLookaside function (wdfmemory.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterUshort macro"]
 ms.keywords: StorPortReadRegisterUshort, StorPortReadRegisterUshort routine [Storage Devices], storage.storportreadregisterushort, storport/StorPortReadRegisterUshort, storprt_f477688d-54cb-4cb6-b713-0e70cfbf2139.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortReadRegisterUshort
 ---
 
-# StorPortReadRegisterUshort macro
+# StorPortReadRegisterUshort function (storport.h)
+
+
 
 
 ## -description

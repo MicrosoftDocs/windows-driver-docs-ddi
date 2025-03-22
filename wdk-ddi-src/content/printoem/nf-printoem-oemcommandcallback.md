@@ -7,6 +7,7 @@ ms.date: 08/05/2022
 keywords: ["OEMCommandCallback function"]
 ms.keywords: OEMCommandCallback, OEMCommandCallback function [Print Devices], print.oemcommandcallback, print_obsoletefunctions_e59bdbd7-9100-40b3-9e89-6d41cbc85f44.xml, printoem/OEMCommandCallback
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMCommandCallback
 ---
+
+# OEMCommandCallback function (printoem.h)
 
 ## -description
 

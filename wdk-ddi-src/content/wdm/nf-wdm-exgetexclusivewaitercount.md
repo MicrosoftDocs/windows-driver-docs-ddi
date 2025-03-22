@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExGetExclusiveWaiterCount function"]
 ms.keywords: ExGetExclusiveWaiterCount, ExGetExclusiveWaiterCount routine [Kernel-Mode Driver Architecture], k102_bd65d9e8-06bf-4492-88f1-bfd4e46fb29e.xml, kernel.exgetexclusivewaitercount, wdm/ExGetExclusiveWaiterCount
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExGetExclusiveWaiterCount
 ---
 
-# ExGetExclusiveWaiterCount function
+# ExGetExclusiveWaiterCount function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoRequestPowerIrp function"]
 ms.keywords: PoRequestPowerIrp, PoRequestPowerIrp routine [Kernel-Mode Driver Architecture], kernel.porequestpowerirp, portn_d417d88c-2f6d-4af9-b7de-455dfcc1b9df.xml, wdm/PoRequestPowerIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PoRequestPowerIrp
 ---
 
-# PoRequestPowerIrp function
+# PoRequestPowerIrp function (wdm.h)
+
+
 
 
 ## -description

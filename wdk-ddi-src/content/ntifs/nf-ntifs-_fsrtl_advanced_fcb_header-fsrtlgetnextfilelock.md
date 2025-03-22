@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlGetNextFileLock function"]
 ms.keywords: FsRtlGetNextFileLock, FsRtlGetNextFileLock routine [Installable File System Drivers], fsrtlref_d34dc7b6-7bdd-47a8-a35e-302c621bf93d.xml, ifsk.fsrtlgetnextfilelock, ntifs/FsRtlGetNextFileLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlGetNextFileLock function
+# FsRtlGetNextFileLock function (ntifs.h)
+
+
 
 
 ## -description

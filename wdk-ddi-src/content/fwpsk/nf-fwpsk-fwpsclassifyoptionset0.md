@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsClassifyOptionSet0 function"]
 ms.keywords: FwpsClassifyOptionSet0, FwpsClassifyOptionSet0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsClassifyOptionSet0, netvista.fwpsclassifyoptionset0, wfp_ref_2_funct_3_fwps_C_a482e4f1-dc60-450e-8e3f-6ba7da1a4528.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsClassifyOptionSet0
 ---
 
-# FwpsClassifyOptionSet0 function
+# FwpsClassifyOptionSet0 function (fwpsk.h)
+
+
 
 
 ## -description

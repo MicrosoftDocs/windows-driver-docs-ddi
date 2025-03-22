@@ -7,6 +7,7 @@ ms.date: 01/18/2023
 keywords: ["RtlCopyMemory macro"]
 ms.keywords: RtlCopyBytes, RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture], k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, kernel.rtlcopymemory, wdm/RtlCopyMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -40,6 +41,8 @@ api_location:
 api_name:
  - RtlCopyMemory
 ---
+
+# RtlCopyMemory function (wdm.h)
 
 ## -description
 

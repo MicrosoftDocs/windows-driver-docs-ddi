@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsCalloutUnregisterByKey0 function"]
 ms.keywords: FwpsCalloutUnregisterByKey0, FwpsCalloutUnregisterByKey0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutUnregisterByKey0, netvista.fwpscalloutunregisterbykey0, wfp_ref_2_funct_3_fwps_C_e5a98dbf-23ee-4383-96d5-d8ce8a85614e.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsCalloutUnregisterByKey0
 ---
 
-# FwpsCalloutUnregisterByKey0 function
+# FwpsCalloutUnregisterByKey0 function (fwpsk.h)
+
+
 
 
 ## -description

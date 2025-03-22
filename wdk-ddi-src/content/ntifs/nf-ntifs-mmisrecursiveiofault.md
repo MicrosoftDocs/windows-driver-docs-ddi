@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["MmIsRecursiveIoFault function"]
 ms.keywords: MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], ifsk.mmisrecursiveiofault, mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, ntifs/MmIsRecursiveIoFault
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MmIsRecursiveIoFault
 ---
 
-# MmIsRecursiveIoFault function
+# MmIsRecursiveIoFault function (ntifs.h)
+
+
 
 
 ## -description

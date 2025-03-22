@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeBuildVC function"]
 ms.keywords: RxCeBuildVC, RxCeBuildVC function [Installable File System Drivers], ifsk.rxcebuildvc, rxce/RxCeBuildVC, rxref_4f4f58c7-5970-4a86-883e-359e92bddaa3.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeBuildVC
 ---
 
-# RxCeBuildVC function
+# RxCeBuildVC function (rxce.h)
+
+
 
 
 ## -description

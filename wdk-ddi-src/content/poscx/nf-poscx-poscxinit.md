@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxInit function"]
 ms.keywords: PosCxInit, PosCxInit function, pos.poscxinit, poscx/PosCxInit
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxInit
 ---
 
-# PosCxInit function
+# PosCxInit function (poscx.h)
+
+
 
 
 ## -description

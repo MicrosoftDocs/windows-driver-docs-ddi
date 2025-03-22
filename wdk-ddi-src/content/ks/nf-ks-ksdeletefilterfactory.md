@@ -7,6 +7,7 @@ ms.date: 03/11/2022
 keywords: ["KsDeleteFilterFactory macro"]
 ms.keywords: KsDeleteFilterFactory, KsDeleteFilterFactory function [Streaming Media Devices], avfunc_60aeaa09-5563-47ea-a117-4b65a468b058.xml, ks/KsDeleteFilterFactory, stream.ksdeletefilterfactory
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KsDeleteFilterFactory
 ---
+
+# KsDeleteFilterFactory function (ks.h)
 
 ## -description
 

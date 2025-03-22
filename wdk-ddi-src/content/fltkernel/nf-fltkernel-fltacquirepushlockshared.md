@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["FltAcquirePushLockShared macro"]
 ms.keywords: FltAcquirePushLockShared, FltAcquirePushLockShared routine [Installable File System Drivers], FltApiRef_a_to_d_329cb1e6-2fb5-45fa-a533-71a60ce341cf.xml, fltkernel/FltAcquirePushLockShared, ifsk.fltacquirepushlockshared
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAcquirePushLockShared
 ---
 
-# FltAcquirePushLockShared macro
+# FltAcquirePushLockShared function (fltkernel.h)
+
+
 
 ## -description
 

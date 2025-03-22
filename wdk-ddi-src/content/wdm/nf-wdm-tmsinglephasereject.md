@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmSinglePhaseReject function"]
 ms.keywords: TmSinglePhaseReject, TmSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.tmsinglephasereject, ktm_ref_16802b39-057c-4d45-9da0-3f63f4589a44.xml, wdm/TmSinglePhaseReject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmSinglePhaseReject
 ---
 
-# TmSinglePhaseReject function
+# TmSinglePhaseReject function (wdm.h)
+
+
 
 
 ## -description

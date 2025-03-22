@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration"]
 ms.keywords: _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE, D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE,
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE
 ---
 
-# _D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration
+# D3DDDI_OUTPUT_WIRE_COLOR_SPACE_TYPE enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

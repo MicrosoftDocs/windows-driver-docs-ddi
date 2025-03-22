@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["MmAllocateContiguousNodeMemory function"]
 ms.keywords: MmAllocateContiguousNodeMemory, MmAllocateContiguousNodeMemory routine [Kernel-Mode Driver Architecture], kernel.mmallocatecontiguousnodememory, wdm/MmAllocateContiguousNodeMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocateContiguousNodeMemory
 ---
+
+# MmAllocateContiguousNodeMemory function (wdm.h)
 
 ## -description
 

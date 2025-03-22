@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_PD_POWER_DATA_OBJECT_GET_TYPE function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 req.header: ucmtypes.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 ---
 
-# UCM_PD_POWER_DATA_OBJECT_GET_TYPE function
+# UCM_PD_POWER_DATA_OBJECT_GET_TYPE function (ucmtypes.h)
+
+
 
 
 ## -description

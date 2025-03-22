@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["CmCallbackGetKeyObjectIDEx function"]
 ms.keywords: CmCallbackGetKeyObjectIDEx, CmCallbackGetKeyObjectIDEx routine [Kernel-Mode Driver Architecture], kernel.cmcallbackgetkeyobjectidex, wdm/CmCallbackGetKeyObjectIDEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CmCallbackGetKeyObjectIDEx
 ---
+
+# CmCallbackGetKeyObjectIDEx function (wdm.h)
 
 ## -description
 

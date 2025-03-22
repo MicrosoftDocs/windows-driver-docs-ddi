@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxEndpointGetCommandQueue function"]
 ms.keywords: UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, ufxclient/UfxEndpointGetCommandQueue
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxEndpointGetCommandQueue
 ---
 
-# UfxEndpointGetCommandQueue function
+# UfxEndpointGetCommandQueue function (ufxclient.h)
+
+
 
 
 ## -description

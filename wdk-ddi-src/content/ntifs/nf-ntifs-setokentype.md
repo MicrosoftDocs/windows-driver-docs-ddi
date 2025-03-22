@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SeTokenType function"]
 ms.keywords: SeTokenType, SeTokenType function [Installable File System Drivers], ifsk.setokentype, ntifs/SeTokenType, seref_a5e04a8d-d2e6-412e-af9c-45c4caac311a.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeTokenType
 ---
 
-# SeTokenType function
+# SeTokenType function (ntifs.h)
+
+
 
 ## -description
 

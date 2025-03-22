@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortCreateEvent function"]
 ms.keywords: VideoPortCreateEvent, VideoPortCreateEvent function [Display Devices], VideoPort_Functions_29412925-5117-4759-b4ea-b4adb4358a8c.xml, display.videoportcreateevent, video/VideoPortCreateEvent
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortCreateEvent
 ---
 
-# VideoPortCreateEvent function
+# VideoPortCreateEvent function (video.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DriverUnifiedPosErrorReason enumeration"]
 ms.keywords: Busy, Closed, Disabled, DriverUnifiedPosErrorReason, DriverUnifiedPosErrorReason enumeration, Extended, Failure, Illegal, NoHardware, NoService, Offline, Timeout, UnknownErrorReason, pointofservicecommontypes/ NoHardware, pointofservicecommontypes/Busy, pointofservicecommontypes/Closed, pointofservicecommontypes/Disabled, pointofservicecommontypes/DriverUnifiedPosErrorReason, pointofservicecommontypes/Extended, pointofservicecommontypes/Failure, pointofservicecommontypes/Illegal, pointofservicecommontypes/NoService, pointofservicecommontypes/Offline, pointofservicecommontypes/Timeout, pointofservicecommontypes/UnknownErrorReason, pos.unifiedposerrorreason
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverUnifiedPosErrorReason
 ---
 
-# DriverUnifiedPosErrorReason enumeration
+# DriverUnifiedPosErrorReason enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

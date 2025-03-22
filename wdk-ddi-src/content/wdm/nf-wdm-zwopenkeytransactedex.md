@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwOpenKeyTransactedEx function"]
 ms.keywords: ZwOpenKeyTransactedEx, ZwOpenKeyTransactedEx routine [Kernel-Mode Driver Architecture], k111_765ab476-0a2a-4eb4-ba87-387fa49ae118.xml, kernel.zwopenkeytransactedex, wdm/ZwOpenKeyTransactedEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - ZwOpenKeyTransactedEx
 ---
 
-# ZwOpenKeyTransactedEx function
+# ZwOpenKeyTransactedEx function (wdm.h)
+
+
 
 
 ## -description

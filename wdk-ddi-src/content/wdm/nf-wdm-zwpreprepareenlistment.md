@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwPrePrepareEnlistment function"]
 ms.keywords: NtPrePrepareEnlistment, ZwPrePrepareEnlistment, ZwPrePrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwpreprepareenlistment, ktm_ref_42a63780-131c-4b65-ad22-ec32b713c0fe.xml, wdm/NtPrePrepareEnlistment, wdm/ZwPrePrepareEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwPrePrepareEnlistment
 ---
 
-# ZwPrePrepareEnlistment function
+# ZwPrePrepareEnlistment function (wdm.h)
+
+
 
 
 ## -description

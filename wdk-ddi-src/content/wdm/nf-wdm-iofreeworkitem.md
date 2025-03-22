@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoFreeWorkItem function"]
 ms.keywords: IoFreeWorkItem, IoFreeWorkItem routine [Kernel-Mode Driver Architecture], k104_7db57e08-0786-4f20-96d8-ecb7980a479c.xml, kernel.iofreeworkitem, wdm/IoFreeWorkItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoFreeWorkItem
 ---
 
-# IoFreeWorkItem function
+# IoFreeWorkItem function (wdm.h)
+
+
 
 
 ## -description

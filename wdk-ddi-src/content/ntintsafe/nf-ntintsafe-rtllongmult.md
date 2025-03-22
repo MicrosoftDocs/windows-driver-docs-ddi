@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlLongMult function"]
 ms.keywords: RtlLongMult, RtlLongMult function [Kernel-Mode Driver Architecture], kernel.rtllongmult, ntintsafe/RtlLongMult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlLongMult
 ---
 
-# RtlLongMult function
+# RtlLongMult function (ntintsafe.h)
+
+
 
 
 ## -description

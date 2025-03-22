@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE, ksmedia/KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE_PROPERTY_ID, stream.ksproperty_cameracontrol_video_stabilization_mode
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE
 ---
 
-# KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration
+# KSPROPERTY_CAMERACONTROL_VIDEO_STABILIZATION_MODE enumeration (ksmedia.h)
+
+
 
 
 ## -description

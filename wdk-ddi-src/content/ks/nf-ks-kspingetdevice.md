@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetDevice function"]
 ms.keywords: KsPinGetDevice, KsPinGetDevice function [Streaming Media Devices], avfunc_09495aa3-2bed-4093-a989-2ae444f1c372.xml, ks/KsPinGetDevice, stream.kspingetdevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsPinGetDevice
 ---
 
-# KsPinGetDevice function
+# KsPinGetDevice function (ks.h)
+
+
 
 
 ## -description

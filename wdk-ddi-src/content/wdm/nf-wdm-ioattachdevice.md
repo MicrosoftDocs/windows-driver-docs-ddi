@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoAttachDevice function"]
 ms.keywords: IoAttachDevice, IoAttachDevice routine [Kernel-Mode Driver Architecture], k104_a4f21237-9d2c-4336-9956-5e24da79f4b2.xml, kernel.ioattachdevice, wdm/IoAttachDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoAttachDevice
 ---
+
+# IoAttachDevice function (wdm.h)
 
 ## -description
 

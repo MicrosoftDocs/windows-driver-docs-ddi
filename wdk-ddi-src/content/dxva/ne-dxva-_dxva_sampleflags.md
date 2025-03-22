@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_SampleFlags enumeration"]
 ms.keywords: DXVA_SampleFlag_ColorData_Changed, DXVA_SampleFlag_DstRect_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlags, DXVA_SampleFlags enumeration [Display Devices], DXVA_SampleFlagsMask, _DXVA_SampleFlags, display.dxva_sampleflags, dxva/DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, dxva/DXVA_SampleFlag_Palette_Changed, dxva/DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlags, dxva/DXVA_SampleFlagsMask, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml
 req.header: dxva.h
+req.construct-type: enumeration
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This enumeration type applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_SampleFlags
 ---
 
-# _DXVA_SampleFlags enumeration
+# DXVA_SampleFlags enumeration (dxva.h)
+
+
 
 
 ## -description

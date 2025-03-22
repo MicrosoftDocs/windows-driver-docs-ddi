@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlCreateUnicodeString function"]
 ms.keywords: RtlCreateUnicodeString, RtlCreateUnicodeString routine [Installable File System Drivers], ifsk.rtlcreateunicodestring, ntifs/RtlCreateUnicodeString, rtlref_8d7cd5ce-a1c9-48a0-86a9-86120954d328.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -41,7 +42,9 @@ api_name:
  - RtlCreateUnicodeString
 ---
 
-# RtlCreateUnicodeString function
+# RtlCreateUnicodeString function (ntifs.h)
+
+
 
 
 ## -description

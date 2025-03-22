@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["DXGK_DISPLAYDETECTCONTROLTYPE enumeration"]
 ms.keywords: DXGK_DDCT_DISABLEHPD, DXGK_DDCT_ENABLEHPD, DXGK_DDCT_POLLALL, DXGK_DDCT_POLLONE, DXGK_DDCT_UNINITIALIZED, DXGK_DISPLAYDETECTCONTROLTYPE, DXGK_DISPLAYDETECTCONTROLTYPE enumeration [Display Devices], _DXGK_DISPLAYDETECTCONTROLTYPE, d3dkmddi/DXGK_DDCT_DISABLEHPD, d3dkmddi/DXGK_DDCT_ENABLEHPD, d3dkmddi/DXGK_DDCT_POLLALL, d3dkmddi/DXGK_DDCT_POLLONE, d3dkmddi/DXGK_DDCT_UNINITIALIZED, d3dkmddi/DXGK_DISPLAYDETECTCONTROLTYPE, display.dxgk_displaydetectcontroltype
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_DISPLAYDETECTCONTROLTYPE
 ---
 
-# DXGK_DISPLAYDETECTCONTROLTYPE enumeration
+# DXGK_DISPLAYDETECTCONTROLTYPE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

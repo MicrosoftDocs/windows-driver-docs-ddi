@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ENLISTMENT_INFORMATION_CLASS enumeration"]
 ms.keywords: ENLISTMENT_INFORMATION_CLASS, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], EnlistmentBasicInformation, EnlistmentCrmInformation, EnlistmentRecoveryInformation, _ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, wdm/ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentBasicInformation, wdm/EnlistmentCrmInformation, wdm/EnlistmentRecoveryInformation
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - ENLISTMENT_INFORMATION_CLASS
 ---
 
-# _ENLISTMENT_INFORMATION_CLASS enumeration
+# ENLISTMENT_INFORMATION_CLASS enumeration (wdm.h)
+
+
 
 
 ## -description

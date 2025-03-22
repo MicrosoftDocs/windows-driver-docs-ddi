@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["_MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 enumeration"]
 ms.keywords: SENSOR_CONNECTION_TYPE_PC_ATTACHED, SENSOR_CONNECTION_TYPE_PC_EXTERNAL, SENSOR_CONNECTION_TYPE_PC_INTEGRATED, SensorConnectionType, SensorConnectionType enumeration [Sensor Devices], Sensor_Enums_bca4556b-94f3-4213-9daa-3571f403d556.xml, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002, sensors.sensorconnectiontype, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_ATTACHED, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_EXTERNAL, sensorsclassextension/SENSOR_CONNECTION_TYPE_PC_INTEGRATED, sensorsclassextension/SensorConnectionType
 req.header: sensorsclassextension.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7,Available in Windows 7.
@@ -43,7 +44,9 @@ api_name:
  - SensorConnectionType
 ---
 
-# __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0002 enumeration
+# SensorConnectionType enumeration (sensorsclassextension.h)
+
+
 
 
 ## -description

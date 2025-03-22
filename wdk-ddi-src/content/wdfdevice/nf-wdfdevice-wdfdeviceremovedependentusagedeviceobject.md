@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceRemoveDependentUsageDeviceObject function"]
 ms.keywords: DFDeviceObjectGeneralRef_22cf19f5-c56f-430f-a6a1-d15af92eb41b.xml, WdfDeviceRemoveDependentUsageDeviceObject, WdfDeviceRemoveDependentUsageDeviceObject method, kmdf.wdfdeviceremovedependentusagedeviceobject, wdf.wdfdeviceremovedependentusagedeviceobject, wdfdevice/WdfDeviceRemoveDependentUsageDeviceObject
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceRemoveDependentUsageDeviceObject
 ---
 
-# WdfDeviceRemoveDependentUsageDeviceObject function
+# WdfDeviceRemoveDependentUsageDeviceObject function (wdfdevice.h)
+
+
 
 
 ## -description

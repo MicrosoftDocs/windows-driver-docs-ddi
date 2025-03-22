@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_SHUFFLE_FILE
 ---
 
-# FSCTL_SHUFFLE_FILE ioctl (ntifs.h)
+# FSCTL_SHUFFLE_FILE IOCTL (ntifs.h)
+
+
 
 ## -description
 

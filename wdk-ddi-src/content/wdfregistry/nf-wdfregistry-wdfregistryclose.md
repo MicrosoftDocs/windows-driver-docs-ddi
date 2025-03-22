@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryClose function"]
 ms.keywords: DFRegKeyObjectRef_31a198b2-e149-4fd4-951a-5fd03cf06555.xml, WdfRegistryClose, WdfRegistryClose method, kmdf.wdfregistryclose, wdf.wdfregistryclose, wdfregistry/WdfRegistryClose
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryClose
 ---
 
-# WdfRegistryClose function
+# WdfRegistryClose function (wdfregistry.h)
+
+
 
 
 ## -description

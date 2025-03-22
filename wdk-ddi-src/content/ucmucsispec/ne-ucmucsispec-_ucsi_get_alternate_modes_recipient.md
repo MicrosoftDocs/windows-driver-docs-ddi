@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_GET_ALTERNATE_MODES_RECIPIENT enumeration"]
 ms.keywords: _UCSI_GET_ALTERNATE_MODES_RECIPIENT, UCSI_GET_ALTERNATE_MODES_RECIPIENT,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_GET_ALTERNATE_MODES_RECIPIENT
 ---
 
-# _UCSI_GET_ALTERNATE_MODES_RECIPIENT enumeration
+# UCSI_GET_ALTERNATE_MODES_RECIPIENT enumeration (ucmucsispec.h)
+
+
 
 
 ## -description

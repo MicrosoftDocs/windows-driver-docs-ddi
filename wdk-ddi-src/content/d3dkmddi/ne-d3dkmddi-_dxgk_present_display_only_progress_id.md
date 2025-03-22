@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration"]
 ms.keywords: DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration [Display Devices], _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_COMPLETE, d3dkmddi/DXGK_PRESENT_DISPLAYONLY_PROGRESS_ID_FAILED, d3dkmddi/DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID, display.dxgk_present_display_only_progress_id
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID
 ---
 
-# _DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration
+# DXGK_PRESENT_DISPLAY_ONLY_PROGRESS_ID enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

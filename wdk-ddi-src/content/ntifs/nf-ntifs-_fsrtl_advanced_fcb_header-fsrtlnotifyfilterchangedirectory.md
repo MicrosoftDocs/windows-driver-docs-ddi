@@ -8,6 +8,7 @@ ms.date: 02/21/2023
 keywords: ["FsRtlNotifyFilterChangeDirectory function"]
 ms.keywords: FsRtlNotifyFilterChangeDirectory, FsRtlNotifyFilterChangeDirectory routine [Installable File System Drivers], fsrtlref_ef37396f-2844-4b1e-a474-16788aa1de75.xml, ifsk.fsrtlnotifyfilterchangedirectory, ntifs/FsRtlNotifyFilterChangeDirectory
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlNotifyFilterChangeDirectory function
+# FsRtlNotifyFilterChangeDirectory function (ntifs.h)
+
+
 
 ## -description
 

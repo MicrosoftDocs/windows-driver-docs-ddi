@@ -7,6 +7,7 @@ keywords: ["CollectionsListUpdateMarshalledPointer function"]
 tech.root: sensors
 ms.keywords: CollectionsListUpdateMarshalledPointer
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListUpdateMarshalledPointer
 ---
 
-# CollectionsListUpdateMarshalledPointer function
+# CollectionsListUpdateMarshalledPointer function (sensorsutils.h)
+
+
 
 
 ## -description

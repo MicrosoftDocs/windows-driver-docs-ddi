@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortGetPhysicalAddress function"]
 ms.keywords: AtaPortGetPhysicalAddress, AtaPortGetPhysicalAddress routine [Storage Devices], atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, irb/AtaPortGetPhysicalAddress, storage.ataportgetphysicaladdress
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortGetPhysicalAddress
 ---
 
-# AtaPortGetPhysicalAddress function
+# AtaPortGetPhysicalAddress function (irb.h)
+
+
 
 
 ## -description

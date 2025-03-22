@@ -6,6 +6,7 @@ ms.date: 05/25/2022
 keywords: ["SymbolSearchInfo function"]
 ms.keywords: SymbolSearchInfo
 req.header: dbgmodel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - SymbolSearchInfo::SymbolSearchInfo
 ---
 
-# SymbolSearchInfo ULONG function (dbgmodel.h)
+# SymbolSearchInfo::SymbolSearchInfo function (dbgmodel.h)
+
+ function (dbgmodel.h)
 
 ## -description
 

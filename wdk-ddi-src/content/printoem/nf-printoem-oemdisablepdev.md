@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["OEMDisablePDEV function"]
 ms.keywords: OEMDisablePDEV, OEMDisablePDEV function [Print Devices], print.oemdisablepdev, print_obsoletefunctions_d0b9c4d2-19f5-4702-a99d-5549ae1b5b3d.xml, printoem/OEMDisablePDEV
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDisablePDEV
 ---
+
+# OEMDisablePDEV function (printoem.h)
 
 ## -description
 

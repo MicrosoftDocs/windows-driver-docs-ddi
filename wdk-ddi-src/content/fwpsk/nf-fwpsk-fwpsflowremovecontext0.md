@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsFlowRemoveContext0 function"]
 ms.keywords: FwpsFlowRemoveContext0, FwpsFlowRemoveContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowRemoveContext0, netvista.fwpsflowremovecontext0, wfp_ref_2_funct_3_fwps_D-H_97a48a00-87f5-414f-9a6c-fb15873454e1.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsFlowRemoveContext0
 ---
 
-# FwpsFlowRemoveContext0 function
+# FwpsFlowRemoveContext0 function (fwpsk.h)
+
+
 
 
 ## -description

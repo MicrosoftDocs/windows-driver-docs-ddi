@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceResumeIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle, WdfDeviceResumeIdle method, kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, wdfdevice/WdfDeviceResumeIdle
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceResumeIdle
 ---
 
-# WdfDeviceResumeIdle macro
+# WdfDeviceResumeIdle function (wdfdevice.h)
+
+
 
 
 ## -description

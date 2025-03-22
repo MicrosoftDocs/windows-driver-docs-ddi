@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoReportDetectedDevice function"]
 ms.keywords: IoReportDetectedDevice, IoReportDetectedDevice routine [Kernel-Mode Driver Architecture], k104_b906486e-318a-49b5-aa6a-683c1889c10b.xml, kernel.ioreportdetecteddevice, ntddk/IoReportDetectedDevice
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoReportDetectedDevice
 ---
 
-# IoReportDetectedDevice function
+# IoReportDetectedDevice function (ntddk.h)
+
+
 
 
 ## -description

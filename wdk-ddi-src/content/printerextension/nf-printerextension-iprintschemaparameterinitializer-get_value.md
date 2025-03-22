@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterInitializer::get_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,get_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.get_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::get_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, get_Value, print.iprintschemaparameterinitializer_getvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::get_Value
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaParameterInitializer::get_Value
 ---
+
+# IPrintSchemaParameterInitializer::get_Value function (printerextension.h)
 
 ## -description
 

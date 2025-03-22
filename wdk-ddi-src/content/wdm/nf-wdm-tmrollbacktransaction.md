@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmRollbackTransaction function"]
 ms.keywords: TmRollbackTransaction, TmRollbackTransaction routine [Kernel-Mode Driver Architecture], kernel.tmrollbacktransaction, ktm_ref_5ea93853-7ca0-4db2-b5ca-3329b5c7f0f0.xml, wdm/TmRollbackTransaction
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmRollbackTransaction
 ---
 
-# TmRollbackTransaction function
+# TmRollbackTransaction function (wdm.h)
+
+
 
 
 ## -description

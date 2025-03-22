@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSINTERFACE_FILEIO enumeration"]
 ms.keywords: KSINTERFACE_FILEIO, KSINTERFACE_FILEIO enumeration [Streaming Media Devices], KSINTERFACE_FILEIO_STREAMING, ks/KSINTERFACE_FILEIO, ks/KSINTERFACE_FILEIO_STREAMING, stream.ksinterface_fileio
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSINTERFACE_FILEIO
 ---
 
-# KSINTERFACE_FILEIO enumeration
+# KSINTERFACE_FILEIO enumeration (ks.h)
+
+
 
 
 ## -description

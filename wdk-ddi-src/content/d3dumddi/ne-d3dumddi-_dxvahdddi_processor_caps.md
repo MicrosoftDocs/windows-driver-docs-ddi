@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXVAHDDDI_PROCESSOR_CAPS enumeration"]
 ms.keywords: _DXVAHDDDI_PROCESSOR_CAPS, DXVAHDDDI_PROCESSOR_CAPS,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DXVAHDDDI_PROCESSOR_CAPS enumeration
+# DXVAHDDDI_PROCESSOR_CAPS enumeration (d3dumddi.h)
+
+
 
 
 ## -description

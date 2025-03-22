@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeBuildTransport function"]
 ms.keywords: RxCeBuildTransport, RxCeBuildTransport function [Installable File System Drivers], ifsk.rxcebuildtransport, rxce/RxCeBuildTransport, rxref_8251916d-7a85-4e6d-8ca1-2deacf4a389a.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeBuildTransport
 ---
 
-# RxCeBuildTransport function
+# RxCeBuildTransport function (rxce.h)
+
+
 
 
 ## -description

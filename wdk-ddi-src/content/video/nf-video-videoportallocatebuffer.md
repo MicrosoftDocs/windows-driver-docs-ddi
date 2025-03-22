@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAllocateBuffer function"]
 ms.keywords: VideoPortAllocateBuffer, VideoPortAllocateBuffer function [Display Devices], VideoPort_Functions_6e90fb68-96c2-4163-87dd-0891d2e25254.xml, display.videoportallocatebuffer, video/VideoPortAllocateBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAllocateBuffer
 ---
 
-# VideoPortAllocateBuffer function
+# VideoPortAllocateBuffer function (video.h)
+
+
 
 
 ## -description

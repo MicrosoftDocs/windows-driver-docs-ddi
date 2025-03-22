@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL"]
 ms.keywords: IOCTL_SRIOV_INVALIDATE_BLOCK, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], PCI.ioctl-sriov-invalidate-block, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
 req.header: pcivirt.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SRIOV_INVALIDATE_BLOCK
 ---
 
-# IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL
+# IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL (pcivirt.h)
+
+
+
+
 
 
 ##  Major Code:

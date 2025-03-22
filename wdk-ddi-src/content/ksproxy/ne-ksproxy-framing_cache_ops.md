@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["FRAMING_CACHE_OPS enumeration"]
 ms.keywords: FRAMING_CACHE_OPS, FRAMING_CACHE_OPS enumeration [Streaming Media Devices], Framing_Cache_ReadLast, Framing_Cache_ReadOrig, Framing_Cache_Update, Framing_Cache_Write, ksproxy/FRAMING_CACHE_OPS, ksproxy/Framing_Cache_ReadLast, ksproxy/Framing_Cache_ReadOrig, ksproxy/Framing_Cache_Update, ksproxy/Framing_Cache_Write, stream.framing_cache_ops
 req.header: ksproxy.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FRAMING_CACHE_OPS
 ---
 
-# FRAMING_CACHE_OPS enumeration
+# FRAMING_CACHE_OPS enumeration (ksproxy.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL is used to set the sid
 ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_SET_SIDETONE_PROPERTY
 ---
 
-# IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL
+# IOCTL_SBAUD_SET_SIDETONE_PROPERTY IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

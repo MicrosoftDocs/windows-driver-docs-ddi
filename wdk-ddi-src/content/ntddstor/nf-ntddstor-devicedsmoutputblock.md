@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmOutputBlock function"]
 ms.keywords: DeviceDsmOutputBlock
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - DeviceDsmOutputBlock
 ---
 
-# DeviceDsmOutputBlock function
+# DeviceDsmOutputBlock function (ntddstor.h)
+
+
 
 
 ## -description

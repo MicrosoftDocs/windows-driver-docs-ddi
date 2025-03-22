@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER IOCTL"]
 ms.keywords: IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER, IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER control, IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER control code [Human Input Devices], hid.ioctl_internal_i8042_controller_write_buffer, i8042ref_5dabcff0-3af4-48ec-9987-36b7bdb736f2.xml, ntdd8042/IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
 req.header: ntdd8042.h
+req.construct-type: ioctl
 req.include-header: Ntdd8042.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER
 ---
 
-# IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER IOCTL
+# IOCTL_INTERNAL_I8042_CONTROLLER_WRITE_BUFFER IOCTL (ntdd8042.h)
+
+
+
+
 
 
 ## -description

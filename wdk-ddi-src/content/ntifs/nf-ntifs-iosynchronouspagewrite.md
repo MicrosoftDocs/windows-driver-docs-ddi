@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["IoSynchronousPageWrite function"]
 ms.keywords: IoSynchronousPageWrite, IoSynchronousPageWrite function [Installable File System Drivers], ifsk.iosynchronouspagewrite, ioref_9ed81b03-18f6-4641-8f4e-b12c4afcfc5d.xml, ntifs/IoSynchronousPageWrite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoSynchronousPageWrite
 ---
 
-# IoSynchronousPageWrite function
+# IoSynchronousPageWrite function (ntifs.h)
+
+
 
 ## -description
 

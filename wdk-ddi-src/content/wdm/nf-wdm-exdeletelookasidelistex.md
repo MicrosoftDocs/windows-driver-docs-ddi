@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExDeleteLookasideListEx function"]
 ms.keywords: ExDeleteLookasideListEx, ExDeleteLookasideListEx routine [Kernel-Mode Driver Architecture], k102_35b6c2b4-58a3-4900-b8dc-63ed0a53b80f.xml, kernel.exdeletelookasidelistex, wdm/ExDeleteLookasideListEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ExDeleteLookasideListEx
 ---
 
-# ExDeleteLookasideListEx function
+# ExDeleteLookasideListEx function (wdm.h)
+
+
 
 
 ## -description

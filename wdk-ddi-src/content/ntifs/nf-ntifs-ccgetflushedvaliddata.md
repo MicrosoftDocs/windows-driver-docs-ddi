@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcGetFlushedValidData function"]
 ms.keywords: CcGetFlushedValidData, CcGetFlushedValidData routine [Installable File System Drivers], ccref_021f04d4-537c-49a3-bfac-8eeea908c100.xml, ifsk.ccgetflushedvaliddata, ntifs/CcGetFlushedValidData
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - CcGetFlushedValidData
 ---
 
-# CcGetFlushedValidData function
+# CcGetFlushedValidData function (ntifs.h)
+
+
 
 
 ## -description

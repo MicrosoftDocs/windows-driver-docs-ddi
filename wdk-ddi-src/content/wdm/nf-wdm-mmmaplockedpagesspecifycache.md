@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["MmMapLockedPagesSpecifyCache function"]
 ms.keywords: MmMapLockedPagesSpecifyCache, MmMapLockedPagesSpecifyCache routine [Kernel-Mode Driver Architecture], k106_337c0e8a-c098-46a8-b820-db78be002148.xml, kernel.mmmaplockedpagesspecifycache, wdm/MmMapLockedPagesSpecifyCache
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmMapLockedPagesSpecifyCache
 ---
+
+# MmMapLockedPagesSpecifyCache function (wdm.h)
 
 ## -description
 

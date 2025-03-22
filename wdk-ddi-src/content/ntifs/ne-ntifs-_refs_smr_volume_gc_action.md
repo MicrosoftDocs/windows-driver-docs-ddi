@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["REFS_SMR_VOLUME_GC_ACTION enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_ACTION, PREFS_SMR_VOLUME_GC_ACTION, REFS_SMR_VOLUME_GC_ACTION, SmrGcActionPause, SmrGcActionStart, SmrGcActionStartFullSpeed, SmrGcActionStop, _REFS_SMR_VOLUME_GC_ACTION, ifsk.refs_smr_volume_gc_action, ntifs/PREFS_SMR_VOLUME_GC_ACTION, ntifs/REFS_SMR_VOLUME_GC_ACTION, ntifs/SmrGcActionPause, ntifs/SmrGcActionStart, ntifs/SmrGcActionStartFullSpeed, ntifs/SmrGcActionStop"
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -45,7 +46,9 @@ api_name:
  - REFS_SMR_VOLUME_GC_ACTION
 ---
 
-# REFS_SMR_VOLUME_GC_ACTION enumeration
+# REFS_SMR_VOLUME_GC_ACTION enumeration (ntifs.h)
+
+
 
 ## -description
 

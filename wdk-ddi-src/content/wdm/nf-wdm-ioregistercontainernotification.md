@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoRegisterContainerNotification function"]
 ms.keywords: IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, kernel.ioregistercontainernotification, wdm/IoRegisterContainerNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoRegisterContainerNotification
 ---
+
+# IoRegisterContainerNotification function (wdm.h)
 
 ## -description
 

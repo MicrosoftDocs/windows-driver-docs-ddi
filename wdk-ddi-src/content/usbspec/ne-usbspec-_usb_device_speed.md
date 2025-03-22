@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_DEVICE_SPEED enumeration"]
 ms.keywords: USB_DEVICE_SPEED, USB_DEVICE_SPEED enumeration [Buses], UsbFullSpeed, UsbHighSpeed, UsbLowSpeed, UsbSuperSpeed, _USB_DEVICE_SPEED, buses.usb_device_speed, usbspec/USB_DEVICE_SPEED, usbspec/UsbFullSpeed, usbspec/UsbHighSpeed, usbspec/UsbLowSpeed, usbspec/UsbSuperSpeed, usbstrct_c458b58d-fcfa-4082-bbcf-34e22d504ab9.xml
 req.header: usbspec.h
+req.construct-type: enumeration
 req.include-header: Usbspec.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - USB_DEVICE_SPEED
 ---
 
-# _USB_DEVICE_SPEED enumeration
+# USB_DEVICE_SPEED enumeration (usbspec.h)
+
+
 
 
 ## -description

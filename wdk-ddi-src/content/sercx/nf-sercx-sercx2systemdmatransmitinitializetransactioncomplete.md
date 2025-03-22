@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2SystemDmaTransmitInitializeTransactionComplete function"]
 ms.keywords: 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, SerCx2SystemDmaTransmitInitializeTransactionComplete, SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports], serports.sercx2systemdmatransmitinitializetransactioncomplete
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2SystemDmaTransmitInitializeTransactionComplete
 ---
 
-# SerCx2SystemDmaTransmitInitializeTransactionComplete function
+# SerCx2SystemDmaTransmitInitializeTransactionComplete function (sercx.h)
+
+
 
 
 ## -description

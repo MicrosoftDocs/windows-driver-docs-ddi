@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortLogTelemetry function"]
 ms.keywords: StorPortLogTelemetry, StorPortLogTelemetry routine [Storage Devices], storage.storportlogtelemetry, storport/StorPortLogTelemetry
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# StorPortLogTelemetry function
+# StorPortLogTelemetry function (storport.h)
+
+
 
 
 ## -description

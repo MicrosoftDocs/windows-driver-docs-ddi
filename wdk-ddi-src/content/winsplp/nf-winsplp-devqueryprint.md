@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["DevQueryPrint function"]
 ms.keywords: DevQueryPrint, DevQueryPrint function [Print Devices], print.devqueryprint, winsplp/DevQueryPrint
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DevQueryPrint
 ---
+
+# DevQueryPrint function (winsplp.h)
 
 ## -description
 

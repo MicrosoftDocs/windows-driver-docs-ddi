@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasSendEndOfPage function"]
 ms.keywords: image.wiassendendofpage, wiamdef/wiasSendEndOfPage, wiasFncs_c8a81130-c832-40d8-8a62-619d04d8d3dc.xml, wiasSendEndOfPage, wiasSendEndOfPage function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasSendEndOfPage
 ---
 
-# wiasSendEndOfPage function
+# wiasSendEndOfPage function (wiamdef.h)
+
+
 
 
 ## -description

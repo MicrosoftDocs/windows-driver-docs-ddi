@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTCheckVidPnExclusiveOwnership function"]
 ms.keywords: D3DKMTCheckVidPnExclusiveOwnership, D3DKMTCheckVidPnExclusiveOwnership callback function [Display Devices], OpenGL_Functions_edc90d51-f7e4-4bb5-be24-1a32b9fb4461.xml, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKVIDPNEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckVidPnExclusiveOwnership, display.d3dkmtcheckvidpnexclusiveownership
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTCheckVidPnExclusiveOwnership is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCheckVidPnExclusiveOwnership
 ---
 
-# D3DKMTCheckVidPnExclusiveOwnership function
+# D3DKMTCheckVidPnExclusiveOwnership function (d3dkmthk.h)
+
+
 
 ## -description
 

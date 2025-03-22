@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_PDO_EVENT_CALLBACKS_INIT function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_22fa36a8-bdfa-4aac-88aa-3fb50a4c1c42.xml, WDF_PDO_EVENT_CALLBACKS_INIT, WDF_PDO_EVENT_CALLBACKS_INIT function, kmdf.wdf_pdo_event_callbacks_init, wdf.wdf_pdo_event_callbacks_init, wdfpdo/WDF_PDO_EVENT_CALLBACKS_INIT
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_PDO_EVENT_CALLBACKS_INIT
 ---
 
-# WDF_PDO_EVENT_CALLBACKS_INIT function
+# WDF_PDO_EVENT_CALLBACKS_INIT function (wdfpdo.h)
+
+
 
 
 ## -description

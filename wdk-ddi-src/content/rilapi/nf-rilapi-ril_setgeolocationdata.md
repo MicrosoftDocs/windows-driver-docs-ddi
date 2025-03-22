@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetGeolocationData function"]
 ms.keywords: RIL_SetGeolocationData, RIL_SetGeolocationData method [Network Drivers Starting with Windows Vista], netvista.ril_setgeolocationdata, rilapi/RIL_SetGeolocationData
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetGeolocationData
 ---
 
-# RIL_SetGeolocationData function
+# RIL_SetGeolocationData function (rilapi.h)
+
+
 
 
 ## -description

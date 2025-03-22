@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcIsThereDirtyDataEx function"]
 ms.keywords: CcIsThereDirtyDataEx, CcIsThereDirtyDataEx routine [Installable File System Drivers], ccref_13ae1f3e-b2ea-4bc6-a1cb-0101afd58d04.xml, ifsk.ccistheredirtydataex, ntifs/CcIsThereDirtyDataEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - CcIsThereDirtyDataEx
 ---
 
-# CcIsThereDirtyDataEx function
+# CcIsThereDirtyDataEx function (ntifs.h)
+
+
 
 
 ## -description

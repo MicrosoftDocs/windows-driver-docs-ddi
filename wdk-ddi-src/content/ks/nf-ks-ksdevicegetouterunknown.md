@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDeviceGetOuterUnknown function"]
 ms.keywords: KsDeviceGetOuterUnknown, KsDeviceGetOuterUnknown function [Streaming Media Devices], avfunc_c1b85ab7-92b9-4c7c-a9c8-0cf1f9e93458.xml, ks/KsDeviceGetOuterUnknown, stream.ksdevicegetouterunknown
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsDeviceGetOuterUnknown
 ---
 
-# KsDeviceGetOuterUnknown function
+# KsDeviceGetOuterUnknown function (ks.h)
+
+
 
 
 ## -description

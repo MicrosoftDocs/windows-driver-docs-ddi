@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTAcquireKeyedMutex function"]
 ms.keywords: D3DKMTAcquireKeyedMutex, D3DKMTAcquireKeyedMutex callback function [Display Devices], OpenGL_Functions_547da245-f41b-4e73-bf9c-7a72f6104def.xml, PFND3DKMT_ACQUIREKEYEDMUTEX, PFND3DKMT_ACQUIREKEYEDMUTEX callback, d3dkmthk/D3DKMTAcquireKeyedMutex, display.d3dkmtacquirekeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTAcquireKeyedMutex is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTAcquireKeyedMutex
 ---
 
-# D3DKMTAcquireKeyedMutex function
+# D3DKMTAcquireKeyedMutex function (d3dkmthk.h)
+
+
 
 
 ## -description

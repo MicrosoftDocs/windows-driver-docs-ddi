@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration"]
 ms.keywords: DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration [Display Devices], DXGK_AVIR_HOTKEY, DXGK_AVIR_UNINITIALIZED, DXGK_AVIR_USERMODE, DmEnums_9a263431-3cae-4e33-a2f0-310ec88c1343.xml, _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, d3dkmddi/DXGK_ACTIVE_VIDPN_INVALIDATION_REASON, d3dkmddi/DXGK_AVIR_HOTKEY, d3dkmddi/DXGK_AVIR_UNINITIALIZED, d3dkmddi/DXGK_AVIR_USERMODE, display.dxgk_active_vidpn_invalidation_reason
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_ACTIVE_VIDPN_INVALIDATION_REASON
 ---
 
-# _DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration
+# DXGK_ACTIVE_VIDPN_INVALIDATION_REASON enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

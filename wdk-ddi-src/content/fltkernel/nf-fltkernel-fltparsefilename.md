@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltParseFileName function"]
 ms.keywords: FltApiRef_p_to_z_57a4d7c0-f653-4c91-a16b-1de79ef56342.xml, FltParseFileName, FltParseFileName function [Installable File System Drivers], fltkernel/FltParseFileName, ifsk.fltparsefilename
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP with Service Pack 2 (SP2) and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - FltParseFileName
 ---
 
-# FltParseFileName function
+# FltParseFileName function (fltkernel.h)
+
+
 
 
 ## -description

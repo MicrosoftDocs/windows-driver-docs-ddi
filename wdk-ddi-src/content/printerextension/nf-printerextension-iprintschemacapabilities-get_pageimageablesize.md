@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaCapabilities::get_PageImageableSize"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],PageImageableSize property, IPrintSchemaCapabilities.PageImageableSize, IPrintSchemaCapabilities.get_PageImageableSize, IPrintSchemaCapabilities::PageImageableSize, IPrintSchemaCapabilities::get_PageImageableSize, PageImageableSize property [Print Devices], PageImageableSize property [Print Devices],IPrintSchemaCapabilities interface, get_PageImageableSize, print.iprintschemacapabilities_pageimageablesize, printerextension/IPrintSchemaCapabilities::PageImageableSize, printerextension/IPrintSchemaCapabilities::get_PageImageableSize
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaCapabilities::get_PageImageableSize
 ---
+
+# IPrintSchemaCapabilities::get_PageImageableSize function (printerextension.h)
 
 ## -description
 

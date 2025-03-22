@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_LINE_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_LINE_CONTROL, IOCTL_SERIAL_GET_LINE_CONTROL control, IOCTL_SERIAL_GET_LINE_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_LINE_CONTROL, serports.ioctl_serial_get_line_control, serref_46b42112-a960-44dc-8ce7-3c8d68746fe9.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_GET_LINE_CONTROL
 ---
 
-# IOCTL_SERIAL_GET_LINE_CONTROL IOCTL
+# IOCTL_SERIAL_GET_LINE_CONTROL IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

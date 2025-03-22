@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMNextBand function"]
 ms.keywords: OEMNextBand, OEMNextBand function [Print Devices], print.oemnextband, print_unidrv-pscript_rendering_db168f2e-09ab-4c1d-9a68-970af445e128.xml, printoem/OEMNextBand
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMNextBand
 ---
+
+# OEMNextBand function (printoem.h)
 
 ## -description
 

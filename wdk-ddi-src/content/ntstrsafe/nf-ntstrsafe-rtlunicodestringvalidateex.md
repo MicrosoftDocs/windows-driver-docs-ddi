@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringValidateEx function"]
 ms.keywords: RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringValidateEx
 ---
 
-# RtlUnicodeStringValidateEx function
+# RtlUnicodeStringValidateEx function (ntstrsafe.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfRegisterProvider function"]
 ms.keywords: NdisIfRegisterProvider, NdisIfRegisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterProvider, net_if_functions_ref_a2d7c012-0ca6-4512-88dd-a51a85edae0a.xml, netvista.ndisifregisterprovider
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfRegisterProvider
 ---
 
-# NdisIfRegisterProvider function
+# NdisIfRegisterProvider function (ndis.h)
+
+
 
 
 ## -description

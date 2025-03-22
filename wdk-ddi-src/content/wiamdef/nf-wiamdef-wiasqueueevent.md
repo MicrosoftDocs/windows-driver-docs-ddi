@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasQueueEvent function"]
 ms.keywords: image.wiasqueueevent, wiamdef/wiasQueueEvent, wiasFncs_a853cdf1-8d80-4bb6-9c41-c7190e9e9202.xml, wiasQueueEvent, wiasQueueEvent function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasQueueEvent
 ---
 
-# wiasQueueEvent function
+# wiasQueueEvent function (wiamdef.h)
+
+
 
 
 ## -description

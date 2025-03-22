@@ -8,6 +8,7 @@ ms.date: 01/03/2022
 keywords: ["TapeDebugPrint function"]
 ms.keywords: TapeDebugPrint, TapeDebugPrint routine [Storage Devices], minitape/TapeDebugPrint, storage.tapedebugprint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml
 req.header: minitape.h
+req.construct-type: function
 req.include-header: Minitape.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - TapeDebugPrint
 ---
 
-# TapeDebugPrint function
+# TapeDebugPrint function (minitape.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UrsSetPoHandle function"]
 ms.keywords: UrsSetPoHandle, UrsSetPoHandle function [Buses], buses.urssetpohandle, ursdevice/UrsSetPoHandle
 req.header: ursdevice.h
+req.construct-type: function
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UrsSetPoHandle
 ---
 
-# UrsSetPoHandle function
+# UrsSetPoHandle function (ursdevice.h)
+
+
 
 
 ## -description

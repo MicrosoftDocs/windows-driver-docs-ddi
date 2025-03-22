@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["PsReturnPoolQuota function"]
 ms.keywords: PsReturnPoolQuota, PsReturnPoolQuota routine [Installable File System Drivers], ifsk.psreturnpoolquota, ntifs/PsReturnPoolQuota, psref_7dc67879-8f0e-41a1-96cf-018dcf60afcd.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PsReturnPoolQuota
 ---
 
-# PsReturnPoolQuota function
+# PsReturnPoolQuota function (ntifs.h)
+
+
 
 ## -description
 

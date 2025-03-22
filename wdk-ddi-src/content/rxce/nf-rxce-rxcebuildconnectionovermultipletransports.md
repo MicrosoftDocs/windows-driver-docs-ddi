@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeBuildConnectionOverMultipleTransports function"]
 ms.keywords: RxCeBuildConnectionOverMultipleTransports, RxCeBuildConnectionOverMultipleTransports routine [Installable File System Drivers], ifsk.rxcebuildconnectionovermultipletransports, rxce/RxCeBuildConnectionOverMultipleTransports, rxref_813ee01b-f378-4598-813a-4f2f3c47189f.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeBuildConnectionOverMultipleTransports
 ---
 
-# RxCeBuildConnectionOverMultipleTransports function
+# RxCeBuildConnectionOverMultipleTransports function (rxce.h)
+
+
 
 
 ## -description

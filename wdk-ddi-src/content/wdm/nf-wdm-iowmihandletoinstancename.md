@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIHandleToInstanceName function"]
 ms.keywords: IoWMIHandleToInstanceName, IoWMIHandleToInstanceName routine [Kernel-Mode Driver Architecture], k104_7d97f756-2f7f-4788-bcbc-368e08b6b86f.xml, kernel.iowmihandletoinstancename, wdm/IoWMIHandleToInstanceName
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIHandleToInstanceName
 ---
 
-# IoWMIHandleToInstanceName function
+# IoWMIHandleToInstanceName function (wdm.h)
+
+
 
 
 ## -description

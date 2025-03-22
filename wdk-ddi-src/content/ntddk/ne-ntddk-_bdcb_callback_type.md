@@ -7,6 +7,7 @@ ms.date: 04/17/2023
 keywords: ["BDCB_CALLBACK_TYPE enumeration"]
 ms.keywords: "*PBDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE, BDCB_CALLBACK_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbInitializeImage, BdCbStatusUpdate, _BDCB_CALLBACK_TYPE, kernel.bdcb_callback_type, ntddk/BDCB_CALLBACK_TYPE, ntddk/BdCbInitializeImage, ntddk/BdCbStatusUpdate"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -44,6 +45,8 @@ api_name:
  - PBDCB_CALLBACK_TYPE
  - BDCB_CALLBACK_TYPE
 ---
+
+# BDCB_CALLBACK_TYPE enumeration (ntddk.h)
 
 ## -description
 

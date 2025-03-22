@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_QueryUsbCapability function"]
 ms.keywords: USBD_QueryUsbCapability, USBD_QueryUsbCapability routine [Buses], buses.usbd_getcapability, usbdlib/USBD_QueryUsbCapability
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_QueryUsbCapability
 ---
 
-# USBD_QueryUsbCapability function
+# USBD_QueryUsbCapability function (usbdlib.h)
+
+
 
 
 ## -description

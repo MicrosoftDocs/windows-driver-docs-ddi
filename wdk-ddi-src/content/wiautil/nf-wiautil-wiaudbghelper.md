@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgHelper macro"]
 ms.keywords: image.wiaudbghelper, wiauDbgHelper, wiauDbgHelper function [Imaging Devices], wiauFncs_be2f3b11-e1a0-4728-856e-ce686344f166.xml, wiautil/wiauDbgHelper
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgHelper
 ---
 
-# wiauDbgHelper macro
+# wiauDbgHelper function (wiautil.h)
+
+
 
 
 ## -description

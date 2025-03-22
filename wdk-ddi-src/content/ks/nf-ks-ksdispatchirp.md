@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDispatchIrp function"]
 ms.keywords: KsDispatchIrp, KsDispatchIrp routine [Streaming Media Devices], ks/KsDispatchIrp, ksfunc_ed03b195-fcb3-41ca-9794-c9b9f04ce8c9.xml, stream.ksdispatchirp
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDispatchIrp
 ---
 
-# KsDispatchIrp function
+# KsDispatchIrp function (ks.h)
+
+
 
 
 ## -description

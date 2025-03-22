@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeGetType function"]
 ms.keywords: DFUsbRef_de8bc76f-0be3-46bb-a959-b3115e91b472.xml, WdfUsbTargetPipeGetType, WdfUsbTargetPipeGetType method, kmdf.wdfusbtargetpipegettype, wdf.wdfusbtargetpipegettype, wdfusb/WdfUsbTargetPipeGetType
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeGetType
 ---
 
-# WdfUsbTargetPipeGetType function
+# WdfUsbTargetPipeGetType function (wdfusb.h)
+
+
 
 
 ## -description

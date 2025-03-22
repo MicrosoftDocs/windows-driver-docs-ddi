@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTReleaseKeyedMutex2 function"]
 ms.keywords: D3DKMTReleaseKeyedMutex2, D3DKMTReleaseKeyedMutex2 callback function [Display Devices], PFND3DKMT_RELEASEKEYEDMUTEX2, PFND3DKMT_RELEASEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTReleaseKeyedMutex2, display.d3dkmtreleasekeyedmutex2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTReleaseKeyedMutex2
 ---
 
-# D3DKMTReleaseKeyedMutex2 function
+# D3DKMTReleaseKeyedMutex2 function (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFIndicateStatus function"]
 ms.keywords: NdisFIndicateStatus, NdisFIndicateStatus function [Network Drivers Starting with Windows Vista], ndis/NdisFIndicateStatus, ndis_status_ref_e649b130-878b-4019-b377-dd099de6eb8e.xml, netvista.ndisfindicatestatus
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFIndicateStatus
 ---
 
-# NdisFIndicateStatus function
+# NdisFIndicateStatus function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["MIRACAST_PROTOCOL_EVENT enumeration"]
 ms.keywords: MIRACAST_PROTOCOL_EVENT, MIRACAST_PROTOCOL_EVENT enumeration [Display Devices], MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE, display.miracast_protocol_event, netdispumdddi/MIRACAST_PROTOCOL_EVENT, netdispumdddi/MIRACAST_PROTOCOL_EVENT_FORCE_UINT32, netdispumdddi/MIRACAST_PROTOCOL_EVENT_IFRAME_RQ, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_ARRIVE, netdispumdddi/MIRACAST_PROTOCOL_EVENT_MONITOR_DEPART, netdispumdddi/MIRACAST_PROTOCOL_EVENT_SINK_FAILED_PREFERRED_MODE_CHANGE
 req.header: netdispumdddi.h
+req.construct-type: enumeration
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - MIRACAST_PROTOCOL_EVENT
 ---
 
-# MIRACAST_PROTOCOL_EVENT enumeration
+# MIRACAST_PROTOCOL_EVENT enumeration (netdispumdddi.h)
+
+
 
 
 ## -description

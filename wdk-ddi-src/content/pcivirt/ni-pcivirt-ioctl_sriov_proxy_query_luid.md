@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL"]
 ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
 req.header: pcivirt.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SRIOV_PROXY_QUERY_LUID
 ---
 
-# IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL
+# IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL (pcivirt.h)
+
+
+
+
 
 
 ##  Major Code:

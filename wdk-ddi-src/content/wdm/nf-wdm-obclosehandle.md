@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["ObCloseHandle function"]
 ms.keywords: ObCloseHandle, ObCloseHandle routine [Kernel-Mode Driver Architecture], kernel.obclosehandle, wdm/ObCloseHandle
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ObCloseHandle
 ---
+
+# ObCloseHandle function (wdm.h)
 
 ## -description
 

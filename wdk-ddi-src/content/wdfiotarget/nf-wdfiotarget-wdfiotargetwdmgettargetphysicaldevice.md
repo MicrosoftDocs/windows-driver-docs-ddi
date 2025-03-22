@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetWdmGetTargetPhysicalDevice function"]
 ms.keywords: DFIOTargetRef_43beb595-b555-4253-8a54-495e9e14f071.xml, WdfIoTargetWdmGetTargetPhysicalDevice, WdfIoTargetWdmGetTargetPhysicalDevice method, kmdf.wdfiotargetwdmgettargetphysicaldevice, wdf.wdfiotargetwdmgettargetphysicaldevice, wdfiotarget/WdfIoTargetWdmGetTargetPhysicalDevice
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoTargetWdmGetTargetPhysicalDevice
 ---
 
-# WdfIoTargetWdmGetTargetPhysicalDevice function
+# WdfIoTargetWdmGetTargetPhysicalDevice function (wdfiotarget.h)
+
+
 
 
 ## -description

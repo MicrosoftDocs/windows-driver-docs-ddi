@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUpperString function"]
 ms.keywords: RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture], k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, kernel.rtlupperstring, ntddk/RtlUpperString
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlUpperString
 ---
 
-# RtlUpperString function
+# RtlUpperString function (ntddk.h)
+
+
 
 
 ## -description

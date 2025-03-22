@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BdaCreateFilterFactoryEx function"]
 ms.keywords: BdaCreateFilterFactoryEx, BdaCreateFilterFactoryEx function [Streaming Media Devices], bdaref_9a145859-e899-4180-ac91-63479e4e04c0.xml, bdasup/BdaCreateFilterFactoryEx, stream.bdacreatefilterfactoryex
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - BdaCreateFilterFactoryEx
 ---
 
-# BdaCreateFilterFactoryEx function
+# BdaCreateFilterFactoryEx function (bdasup.h)
+
+
 
 
 ## -description

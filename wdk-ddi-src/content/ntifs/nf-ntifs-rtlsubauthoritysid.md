@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlSubAuthoritySid function"]
 ms.keywords: RtlSubAuthoritySid, RtlSubAuthoritySid routine [Installable File System Drivers], ifsk.rtlsubauthoritysid, ntifs/RtlSubAuthoritySid, rtlref_d901f9ac-d7c4-49e1-871e-75aee9fa8c2b.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -41,7 +42,9 @@ api_name:
  - RtlSubAuthoritySid
 ---
 
-# RtlSubAuthoritySid function
+# RtlSubAuthoritySid function (ntifs.h)
+
+
 
 
 ## -description

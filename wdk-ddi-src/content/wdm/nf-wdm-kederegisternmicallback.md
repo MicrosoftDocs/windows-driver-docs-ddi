@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeDeregisterNmiCallback function"]
 ms.keywords: KeDeregisterNmiCallback, KeDeregisterNmiCallback routine [Kernel-Mode Driver Architecture], k105_407e4af5-fb93-4a7e-bacd-cc1d08935815.xml, kernel.kederegisternmicallback, wdm/KeDeregisterNmiCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeDeregisterNmiCallback
 ---
 
-# KeDeregisterNmiCallback function
+# KeDeregisterNmiCallback function (wdm.h)
+
+
 
 
 ## -description

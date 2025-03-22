@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxCompleteIdleState function"]
 ms.keywords: PoFxCompleteIdleState, PoFxCompleteIdleState routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlestate, wdm/PoFxCompleteIdleState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxCompleteIdleState
 ---
 
-# PoFxCompleteIdleState function
+# PoFxCompleteIdleState function (wdm.h)
+
+
 
 
 ## -description

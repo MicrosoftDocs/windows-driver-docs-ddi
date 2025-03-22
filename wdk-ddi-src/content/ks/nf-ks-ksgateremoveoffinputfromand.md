@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateRemoveOffInputFromAnd function"]
 ms.keywords: KsGateRemoveOffInputFromAnd, KsGateRemoveOffInputFromAnd function [Streaming Media Devices], avfunc_604705b6-08f8-4048-8b29-f89b645f971a.xml, ks/KsGateRemoveOffInputFromAnd, stream.ksgateremoveoffinputfromand
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateRemoveOffInputFromAnd
 ---
 
-# KsGateRemoveOffInputFromAnd function
+# KsGateRemoveOffInputFromAnd function (ks.h)
+
+
 
 
 ## -description

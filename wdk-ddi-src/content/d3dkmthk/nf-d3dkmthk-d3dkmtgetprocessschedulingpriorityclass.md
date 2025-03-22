@@ -7,6 +7,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTGetProcessSchedulingPriorityClass function"]
 ms.keywords: D3DKMTGetProcessSchedulingPriorityClass, D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTGetProcessSchedulingPriorityClass
 ---
 
-# D3DKMTGetProcessSchedulingPriorityClass function
+# D3DKMTGetProcessSchedulingPriorityClass function (d3dkmthk.h)
+
+
 
 ## -description
 

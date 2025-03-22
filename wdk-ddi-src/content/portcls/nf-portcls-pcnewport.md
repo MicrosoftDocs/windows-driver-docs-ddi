@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewPort function"]
 ms.keywords: PcNewPort, PcNewPort function [Audio Devices], audio.pcnewport, audpc-routines_799c0416-dde0-4818-8da7-a38e4e6d4541.xml, portcls/PcNewPort
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcNewPort function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewPort
 ---
 
-# PcNewPort function
+# PcNewPort function (portcls.h)
+
+
 
 
 ## -description

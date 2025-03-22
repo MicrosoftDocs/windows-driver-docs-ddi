@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSetBasePriorityThread function"]
 ms.keywords: KeSetBasePriorityThread, KeSetBasePriorityThread routine [Kernel-Mode Driver Architecture], k105_6c558266-e459-447c-9586-4b327e24d7dd.xml, kernel.kesetbaseprioritythread, ntddk/KeSetBasePriorityThread
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeSetBasePriorityThread
 ---
 
-# KeSetBasePriorityThread function
+# KeSetBasePriorityThread function (ntddk.h)
+
+
 
 
 ## -description

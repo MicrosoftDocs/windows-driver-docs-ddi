@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlOemStringToUnicodeSize macro"]
 ms.keywords: RtlOemStringToUnicodeSize, RtlOemStringToUnicodeSize routine [Installable File System Drivers], ifsk.rtloemstringtounicodesize, ntifs/RtlOemStringToUnicodeSize, rtlref_5f048569-d84e-43ee-8d51-1281f18c7ddf.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlOemStringToUnicodeSize
 ---
 
-# RtlOemStringToUnicodeSize macro
+# RtlOemStringToUnicodeSize function (ntifs.h)
+
+
 
 
 ## -description

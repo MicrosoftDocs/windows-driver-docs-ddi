@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfTimerStart function"]
 ms.keywords: DFTimerObjectRef_42b50b58-85f6-4f1b-9824-f1c9ed675371.xml, WdfTimerStart, WdfTimerStart method, kmdf.wdftimerstart, wdf.wdftimerstart, wdftimer/WdfTimerStart
 req.header: wdftimer.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfTimerStart
 ---
 
-# WdfTimerStart function
+# WdfTimerStart function (wdftimer.h)
+
+
 
 
 ## -description

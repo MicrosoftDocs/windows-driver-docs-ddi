@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxFinalizeSrvCall function"]
 ms.keywords: RxFinalizeSrvCall, RxFinalizeSrvCall function [Installable File System Drivers], fcb/RxFinalizeSrvCall, ifsk.rxfinalizesrvcall, rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxFinalizeSrvCall
 ---
 
-# RxFinalizeSrvCall function
+# RxFinalizeSrvCall function (fcb.h)
+
+
 
 
 ## -description

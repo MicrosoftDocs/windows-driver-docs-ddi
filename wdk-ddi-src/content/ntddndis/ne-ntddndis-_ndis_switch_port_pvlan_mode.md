@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PVLAN_MODE enumeration"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPvlanModeCommunity, NdisSwitchPortPvlanModeIsolated, NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeUndefined, PNDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PVLAN_MODE, netvista.ndis_switch_port_pvlan_mode, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModeIsolated, ntddndis/NdisSwitchPortPvlanModePromiscuous, ntddndis/NdisSwitchPortPvlanModeUndefined, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SWITCH_PORT_PVLAN_MODE
 ---
 
-# _NDIS_SWITCH_PORT_PVLAN_MODE enumeration
+# NDIS_SWITCH_PORT_PVLAN_MODE enumeration (ntddndis.h)
+
+
 
 
 ## -description

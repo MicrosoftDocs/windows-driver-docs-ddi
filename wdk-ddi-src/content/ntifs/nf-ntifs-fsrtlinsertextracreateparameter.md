@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlInsertExtraCreateParameter function"]
 ms.keywords: FsRtlInsertExtraCreateParameter, FsRtlInsertExtraCreateParameter routine [Installable File System Drivers], fsrtlref_25aa9ff1-4921-4f96-98dc-04230d450e98.xml, ifsk.fsrtlinsertextracreateparameter, ntifs/FsRtlInsertExtraCreateParameter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltInsertExtraCreateParameter routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlInsertExtraCreateParameter
 ---
 
-# FsRtlInsertExtraCreateParameter function
+# FsRtlInsertExtraCreateParameter function (ntifs.h)
+
+
 
 
 ## -description

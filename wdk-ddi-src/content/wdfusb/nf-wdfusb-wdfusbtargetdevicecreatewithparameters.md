@@ -8,6 +8,7 @@ ms.date: 06/24/2019
 keywords: ["WdfUsbTargetDeviceCreateWithParameters function"]
 ms.keywords: WdfUsbTargetDeviceCreateWithParameters, WdfUsbTargetDeviceCreateWithParameters method, kmdf.wdfusbtargetdevicecreatewithconfig, kmdf.wdfusbtargetdevicecreatewithparameters, wdf.wdfusbtargetdevicecreatewithparameters, wdfusb/WdfUsbTargetDeviceCreateWithParameters
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceCreateWithParameters
 ---
 
-# WdfUsbTargetDeviceCreateWithParameters function
+# WdfUsbTargetDeviceCreateWithParameters function (wdfusb.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMPlgBlt function"]
 ms.keywords: OEMPlgBlt, OEMPlgBlt function [Print Devices], print.oemplgblt, print_unidrv-pscript_rendering_b0052697-f944-4969-94c3-efc74838d571.xml, printoem/OEMPlgBlt
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMPlgBlt
 ---
+
+# OEMPlgBlt function (printoem.h)
 
 ## -description
 

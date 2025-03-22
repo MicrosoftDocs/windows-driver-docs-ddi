@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUShortToInt8 function"]
 ms.keywords: RtlUShortToInt8, RtlUShortToInt8 function [Kernel-Mode Driver Architecture], kernel.rtlushorttoint8, ntintsafe/RtlUShortToInt8
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUShortToInt8
 ---
 
-# RtlUShortToInt8 function
+# RtlUShortToInt8 function (ntintsafe.h)
+
+
 
 
 ## -description

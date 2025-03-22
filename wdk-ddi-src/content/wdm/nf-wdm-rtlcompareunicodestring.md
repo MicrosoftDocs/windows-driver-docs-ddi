@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCompareUnicodeString function"]
 ms.keywords: RtlCompareUnicodeString, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, wdm/RtlCompareUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlCompareUnicodeString
 ---
 
-# RtlCompareUnicodeString function
+# RtlCompareUnicodeString function (wdm.h)
+
+
 
 
 ## -description

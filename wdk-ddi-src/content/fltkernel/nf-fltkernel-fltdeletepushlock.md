@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltDeletePushLock function"]
 ms.keywords: FltApiRef_a_to_d_876710d9-ee11-413f-8889-f9a34cb423fd.xml, FltDeletePushLock, FltDeletePushLock routine [Installable File System Drivers], fltkernel/FltDeletePushLock, ifsk.fltdeletepushlock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltDeletePushLock
 ---
 
-# FltDeletePushLock function
+# FltDeletePushLock function (fltkernel.h)
+
+
 
 
 ## -description

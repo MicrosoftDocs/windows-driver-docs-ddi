@@ -8,6 +8,7 @@ ms.date: 08/12/2021
 keywords: ["StorPortRegistryRead function"]
 ms.keywords: StorPortRegistryRead, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, storport/StorPortRegistryRead, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortRegistryRead
 ---
 
-# StorPortRegistryRead function
+# StorPortRegistryRead function (storport.h)
+
+
 
 ## -description
 

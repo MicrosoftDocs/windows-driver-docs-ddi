@@ -8,6 +8,7 @@ ms.date: 09/27/2021
 keywords: ["NtQueryInformationFile function"]
 ms.keywords: NtQueryInformationFile, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, kernel.zwqueryinformationfile, wdm/NtQueryInformationFile, wdm/ZwQueryInformationFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - NtQueryInformationFile
 ---
 
-# NtQueryInformationFile function
+# NtQueryInformationFile function (ntifs.h)
+
+
 
 ## -description
 

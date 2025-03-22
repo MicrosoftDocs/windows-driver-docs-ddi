@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfTimerCreate function"]
 ms.keywords: DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, WdfTimerCreate, WdfTimerCreate method, kmdf.wdftimercreate, wdf.wdftimercreate, wdftimer/WdfTimerCreate
 req.header: wdftimer.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfTimerCreate
 ---
 
-# WdfTimerCreate function
+# WdfTimerCreate function (wdftimer.h)
+
+
 
 
 ## -description

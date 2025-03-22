@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TapeClassAllocateSrbBuffer function"]
 ms.keywords: TapeClassAllocateSrbBuffer, TapeClassAllocateSrbBuffer routine [Storage Devices], minitape/TapeClassAllocateSrbBuffer, storage.tapeclassallocatesrbbuffer, tapeclas_77717175-fd25-4cbe-8baf-8c326a5ec152.xml
 req.header: minitape.h
+req.construct-type: function
 req.include-header: Minitape.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - TapeClassAllocateSrbBuffer
 ---
 
-# TapeClassAllocateSrbBuffer function
+# TapeClassAllocateSrbBuffer function (minitape.h)
+
+
 
 
 ## -description

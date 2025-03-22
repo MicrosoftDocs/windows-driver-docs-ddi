@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeTokenIsRestricted function"]
 ms.keywords: SeTokenIsRestricted, SeTokenIsRestricted routine [Installable File System Drivers], ifsk.setokenisrestricted, ntifs/SeTokenIsRestricted, seref_f16e3f4e-1fcb-4232-8fe2-e46ef238b7e4.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - SeTokenIsRestricted
 ---
 
-# SeTokenIsRestricted function
+# SeTokenIsRestricted function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlNumberOfClearBits function"]
 ms.keywords: RtlNumberOfClearBits, RtlNumberOfClearBits routine [Kernel-Mode Driver Architecture], k109_1b655b45-806c-4199-91e6-2ed2f4d4e570.xml, kernel.rtlnumberofclearbits, wdm/RtlNumberOfClearBits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlNumberOfClearBits
 ---
 
-# RtlNumberOfClearBits function
+# RtlNumberOfClearBits function (wdm.h)
+
+
 
 
 ## -description

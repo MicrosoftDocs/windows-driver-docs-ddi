@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["MmMapIoSpace function"]
 ms.keywords: MmMapIoSpace, MmMapIoSpace routine [Kernel-Mode Driver Architecture], k106_65fbb44b-6b8a-408d-8945-8d2eba25ca7c.xml, kernel.mmmapiospace, wdm/MmMapIoSpace
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmMapIoSpace
 ---
+
+# MmMapIoSpace function (wdm.h)
 
 ## -description
 

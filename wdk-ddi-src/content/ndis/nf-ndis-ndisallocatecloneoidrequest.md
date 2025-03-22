@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAllocateCloneOidRequest function"]
 ms.keywords: NdisAllocateCloneOidRequest, NdisAllocateCloneOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateCloneOidRequest, ndis_request_ref_323c05f2-8b33-40c1-a4d8-385a8b0d0015.xml, netvista.ndisallocatecloneoidrequest
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisAllocateCloneOidRequest
 ---
 
-# NdisAllocateCloneOidRequest function
+# NdisAllocateCloneOidRequest function (ndis.h)
+
+
 
 
 ## -description

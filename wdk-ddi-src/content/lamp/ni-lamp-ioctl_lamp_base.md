@@ -5,6 +5,7 @@ description: "Learn more about: IOCTL_LAMP_BASE IOCTL"
 ms.date: 11/17/2020
 keywords: ["IOCTL_LAMP_BASE IOCTL"]
 req.header: lamp.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_LAMP_BASE
 ---
 
-# IOCTL_LAMP_BASE IOCTL
+# IOCTL_LAMP_BASE IOCTL (lamp.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

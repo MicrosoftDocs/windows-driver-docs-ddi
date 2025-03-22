@@ -8,6 +8,7 @@ ms.date: 01/25/2019
 keywords: ["IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL"]
 ms.keywords: IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control, IOCTL_USB_GET_NODE_CONNECTION_INFORMATION control code [Buses], buses.ioctl_usb_get_node_connection_information, usbioctl/IOCTL_USB_GET_NODE_CONNECTION_INFORMATION, usbirp_b71c24bb-6e3b-468f-851d-a934a764fbe1.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_GET_NODE_CONNECTION_INFORMATION
 ---
 
-# IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL
+# IOCTL_USB_GET_NODE_CONNECTION_INFORMATION IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

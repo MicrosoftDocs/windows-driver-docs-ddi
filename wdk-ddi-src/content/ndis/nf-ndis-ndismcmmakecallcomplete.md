@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmMakeCallComplete macro"]
 ms.keywords: NdisMCmMakeCallComplete, NdisMCmMakeCallComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_685b4f14-92ef-4c46-a11f-19b34d59734c.xml, ndis/NdisMCmMakeCallComplete, netvista.ndismcmmakecallcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmMakeCallComplete (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmMakeCallComplete (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisMCmMakeCallComplete
 ---
 
-# NdisMCmMakeCallComplete macro
+# NdisMCmMakeCallComplete function (ndis.h)
+
+
 
 
 ## -description

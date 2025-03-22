@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["PEDOMETER_STEP_TYPE_COUNT enumeration"]
 ms.keywords: PEDOMETER_STEP_TYPE_COUNT, PEDOMETER_STEP_TYPE_COUNT enumeration [Sensor Devices], PedometerStepTypeCount, sensors.pedometer_step_type_count, sensorsdef/PEDOMETER_STEP_TYPE_COUNT, sensorsdef/PedometerStepTypeCount
 req.header: sensorsdef.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PEDOMETER_STEP_TYPE_COUNT
 ---
 
-# PEDOMETER_STEP_TYPE_COUNT enumeration
+# PEDOMETER_STEP_TYPE_COUNT enumeration (sensorsdef.h)
+
+
 
 
 ## -description

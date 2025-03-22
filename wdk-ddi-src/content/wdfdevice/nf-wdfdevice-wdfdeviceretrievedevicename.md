@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceRetrieveDeviceName function"]
 ms.keywords: DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method, kmdf.wdfdeviceretrievedevicename, wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceRetrieveDeviceName
 ---
 
-# WdfDeviceRetrieveDeviceName function
+# WdfDeviceRetrieveDeviceName function (wdfdevice.h)
+
+
 
 
 ## -description

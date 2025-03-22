@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortMoveMemory function"]
 ms.keywords: AtaPortMoveMemory, AtaPortMoveMemory routine [Storage Devices], atartns_9ecea2c5-892f-4d04-9865-30598ac4e5d6.xml, irb/AtaPortMoveMemory, storage.ataportmovememory
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortMoveMemory
 ---
 
-# AtaPortMoveMemory function
+# AtaPortMoveMemory function (irb.h)
+
+
 
 
 ## -description

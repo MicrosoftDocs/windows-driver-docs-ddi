@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2CustomReceiveTransactionReportProgress function"]
 ms.keywords: 2/SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress, SerCx2CustomReceiveTransactionReportProgress method [Serial Ports], serports.sercx2customreceivetransactionreportprogress
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2CustomReceiveTransactionReportProgress
 ---
 
-# SerCx2CustomReceiveTransactionReportProgress function
+# SerCx2CustomReceiveTransactionReportProgress function (sercx.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FltAcquirePushLockExclusiveEx function"]
 ms.keywords: FltAcquirePushLockExclusiveEx
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# FltAcquirePushLockExclusiveEx function
+# FltAcquirePushLockExclusiveEx function (fltkernel.h)
+
+
 
 ## -description
 

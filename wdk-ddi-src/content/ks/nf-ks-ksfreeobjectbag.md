@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFreeObjectBag function"]
 ms.keywords: KsFreeObjectBag, KsFreeObjectBag function [Streaming Media Devices], avfunc_f91aca67-5d6c-42f7-9e24-3b15b54c2b69.xml, ks/KsFreeObjectBag, stream.ksfreeobjectbag
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFreeObjectBag
 ---
 
-# KsFreeObjectBag function
+# KsFreeObjectBag function (ks.h)
+
+
 
 
 ## -description

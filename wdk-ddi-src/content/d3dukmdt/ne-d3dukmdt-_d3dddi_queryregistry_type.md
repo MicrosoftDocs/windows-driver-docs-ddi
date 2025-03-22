@@ -4,6 +4,7 @@ title: D3DDDI_QUERYREGISTRY_TYPE (d3dukmdt.h)
 description: Used to query the registry type.
 ms.date: 02/06/2025
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -31,7 +32,9 @@ api_name:
  - D3DDDI_QUERYREGISTRY_TYPE
 ---
 
-# D3DDDI_QUERYREGISTRY_TYPE enumeration
+# D3DDDI_QUERYREGISTRY_TYPE enumeration (d3dukmdt.h)
+
+
 
 ## -description
 

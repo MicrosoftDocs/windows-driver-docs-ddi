@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxpReferenceNetFcb function"]
 ms.keywords: RxpReferenceNetFcb, RxpReferenceNetFcb function [Installable File System Drivers], fcb/RxpReferenceNetFcb, ifsk.rxpreferencenetfcb, rxref_48d7801e-1459-405e-a681-2aa13e9e31cd.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxpReferenceNetFcb
 ---
 
-# RxpReferenceNetFcb function
+# RxpReferenceNetFcb function (fcb.h)
+
+
 
 
 ## -description

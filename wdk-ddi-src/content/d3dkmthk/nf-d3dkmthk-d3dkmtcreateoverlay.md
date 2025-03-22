@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreateOverlay function"]
 ms.keywords: D3DKMTCreateOverlay, D3DKMTCreateOverlay function [Display Devices], OpenGL_Functions_3848b4de-9ed0-4e4f-87aa-677bdbbaa7e0.xml, d3dkmthk/D3DKMTCreateOverlay, display.d3dkmtcreateoverlay
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTCreateOverlay
 ---
 
-# D3DKMTCreateOverlay function
+# D3DKMTCreateOverlay function (d3dkmthk.h)
+
+
 
 
 ## -description

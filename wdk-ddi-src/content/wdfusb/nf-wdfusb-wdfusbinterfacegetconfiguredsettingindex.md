@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetConfiguredSettingIndex function"]
 ms.keywords: DFUsbRef_720a2078-a35c-491b-a8d1-7a2b3d5c88f1.xml, WdfUsbInterfaceGetConfiguredSettingIndex, WdfUsbInterfaceGetConfiguredSettingIndex method, kmdf.wdfusbinterfacegetconfiguredsettingindex, wdf.wdfusbinterfacegetconfiguredsettingindex, wdfusb/WdfUsbInterfaceGetConfiguredSettingIndex
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetConfiguredSettingIndex
 ---
 
-# WdfUsbInterfaceGetConfiguredSettingIndex function
+# WdfUsbInterfaceGetConfiguredSettingIndex function (wdfusb.h)
+
+
 
 
 ## -description

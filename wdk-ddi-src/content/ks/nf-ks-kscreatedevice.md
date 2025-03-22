@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreateDevice function"]
 ms.keywords: KsCreateDevice, KsCreateDevice function [Streaming Media Devices], avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, ks/KsCreateDevice, stream.kscreatedevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsCreateDevice
 ---
 
-# KsCreateDevice function
+# KsCreateDevice function (ks.h)
+
+
 
 
 ## -description

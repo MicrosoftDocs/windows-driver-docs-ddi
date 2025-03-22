@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRegisterShutdownNotification function"]
 ms.keywords: IoRegisterShutdownNotification, IoRegisterShutdownNotification routine [Kernel-Mode Driver Architecture], k104_dd357e39-68b4-4cc2-b7c7-34f16c74a4a0.xml, kernel.ioregistershutdownnotification, wdm/IoRegisterShutdownNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows. Not available in Microsoft Windows 98/Me.
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterShutdownNotification
 ---
 
-# IoRegisterShutdownNotification function
+# IoRegisterShutdownNotification function (wdm.h)
+
+
 
 
 ## -description

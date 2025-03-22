@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTReclaimAllocations function"]
 ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations callback function [Display Devices], PFND3DKMT_RECLAIMALLOCATIONS, PFND3DKMT_RECLAIMALLOCATIONS callback, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTReclaimAllocations
 ---
 
-# D3DKMTReclaimAllocations function
+# D3DKMTReclaimAllocations function (d3dkmthk.h)
+
+
 
 ## -description
 

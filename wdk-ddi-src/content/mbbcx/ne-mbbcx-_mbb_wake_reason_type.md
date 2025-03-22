@@ -7,6 +7,7 @@ ms.date: 11/07/2019
 keywords: ["MBB_WAKE_REASON_TYPE enumeration"]
 ms.keywords: MBB_WAKE_REASON_TYPE, MBB_WAKE_REASON_TYPE,
 req.header: mbbcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - MBB_WAKE_REASON_TYPE
 ---
 
-# MBB_WAKE_REASON_TYPE enumeration
+# MBB_WAKE_REASON_TYPE enumeration (mbbcx.h)
+
+
 
 
 ## -description

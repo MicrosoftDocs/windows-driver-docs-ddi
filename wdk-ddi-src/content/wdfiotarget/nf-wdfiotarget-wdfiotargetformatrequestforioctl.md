@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForIoctl function"]
 ms.keywords: DFIOTargetRef_065d8ea7-7be0-41c4-be6b-648606404139.xml, WdfIoTargetFormatRequestForIoctl, WdfIoTargetFormatRequestForIoctl method, kmdf.wdfiotargetformatrequestforioctl, wdf.wdfiotargetformatrequestforioctl, wdfiotarget/WdfIoTargetFormatRequestForIoctl
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetFormatRequestForIoctl
 ---
 
-# WdfIoTargetFormatRequestForIoctl function
+# WdfIoTargetFormatRequestForIoctl function (wdfiotarget.h)
+
+
 
 
 ## -description

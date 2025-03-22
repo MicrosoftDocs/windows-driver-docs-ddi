@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltOplockIsSharedRequest function"]
 ms.keywords: FltApiRef_e_to_o_93f74880-eb0d-4040-82a0-e0cb4bfb2cba.xml, FltOplockIsSharedRequest, FltOplockIsSharedRequest routine [Installable File System Drivers], fltkernel/FltOplockIsSharedRequest, ifsk.fltoplockissharedrequest
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltOplockIsSharedRequest routine is available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - FltOplockIsSharedRequest
 ---
 
-# FltOplockIsSharedRequest function
+# FltOplockIsSharedRequest function (fltkernel.h)
+
+
 
 
 ## -description

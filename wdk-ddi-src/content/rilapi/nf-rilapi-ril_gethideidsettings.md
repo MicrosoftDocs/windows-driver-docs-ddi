@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetHideIdSettings function"]
 ms.keywords: RIL_GetHideIdSettings, RIL_GetHideIdSettings method [Network Drivers Starting with Windows Vista], netvista.ril_gethideidsettings, rilapi/RIL_GetHideIdSettings
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetHideIdSettings
 ---
 
-# RIL_GetHideIdSettings function
+# RIL_GetHideIdSettings function (rilapi.h)
+
+
 
 
 ## -description

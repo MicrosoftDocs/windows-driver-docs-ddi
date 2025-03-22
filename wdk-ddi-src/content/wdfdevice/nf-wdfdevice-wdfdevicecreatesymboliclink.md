@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceCreateSymbolicLink function"]
 ms.keywords: DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink, WdfDeviceCreateSymbolicLink method, kmdf.wdfdevicecreatesymboliclink, wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceCreateSymbolicLink
 ---
 
-# WdfDeviceCreateSymbolicLink function
+# WdfDeviceCreateSymbolicLink function (wdfdevice.h)
+
+
 
 
 ## -description

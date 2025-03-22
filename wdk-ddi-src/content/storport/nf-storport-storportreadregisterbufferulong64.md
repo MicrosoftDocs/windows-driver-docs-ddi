@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterBufferUlong64 macro"]
 ms.keywords: StorPortReadRegisterBufferUlong64, StorPortReadRegisterBufferUlong64 routine [Storage Devices], storage.storportreadregisterbufferulong64, storport/StorPortReadRegisterBufferUlong64
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - StorPortReadRegisterBufferUlong64
 ---
 
-# StorPortReadRegisterBufferUlong64 macro
+# StorPortReadRegisterBufferUlong64 function (storport.h)
+
+
 
 
 ## -description

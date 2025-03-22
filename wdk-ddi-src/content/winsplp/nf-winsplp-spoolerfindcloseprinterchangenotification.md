@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["SpoolerFindClosePrinterChangeNotification function"]
 ms.keywords: SpoolerFindClosePrinterChangeNotification, SpoolerFindClosePrinterChangeNotification function [Print Devices], print.spoolerfindcloseprinterchangenotification, winsplp/SpoolerFindClosePrinterChangeNotification
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SpoolerFindClosePrinterChangeNotification
 ---
+
+# SpoolerFindClosePrinterChangeNotification function (winsplp.h)
 
 ## -description
 

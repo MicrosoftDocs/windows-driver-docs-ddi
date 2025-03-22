@@ -7,6 +7,7 @@ ms.date: 10/18/2022
 keywords: ["KeReleaseInStackQueuedSpinLockFromDpcLevel function"]
 ms.keywords: KeReleaseInStackQueuedSpinLockFromDpcLevel, KeReleaseInStackQueuedSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], k105_76a65a2a-d5b2-4066-90e9-4539c5e39930.xml, kernel.kereleaseinstackqueuedspinlockfromdpclevel, wdm/KeReleaseInStackQueuedSpinLockFromDpcLevel
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeReleaseInStackQueuedSpinLockFromDpcLevel
 ---
+
+# KeReleaseInStackQueuedSpinLockFromDpcLevel function (wdm.h)
 
 ## -description
 

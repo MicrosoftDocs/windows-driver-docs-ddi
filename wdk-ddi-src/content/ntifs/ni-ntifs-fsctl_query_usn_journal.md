@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_QUERY_USN_JOURNAL
 ---
 
-# FSCTL_QUERY_USN_JOURNAL ioctl (ntifs.h)
+# FSCTL_QUERY_USN_JOURNAL IOCTL (ntifs.h)
+
+
 
 ## -description
 

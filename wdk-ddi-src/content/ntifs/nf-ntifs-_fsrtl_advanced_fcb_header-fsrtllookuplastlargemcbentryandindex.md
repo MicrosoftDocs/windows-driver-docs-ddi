@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlLookupLastLargeMcbEntryAndIndex function"]
 ms.keywords: FsRtlLookupLastLargeMcbEntryAndIndex, FsRtlLookupLastLargeMcbEntryAndIndex routine [Installable File System Drivers], fsrtlref_d7148458-8a3c-4633-8be3-578623ba4d01.xml, ifsk.fsrtllookuplastlargemcbentryandindex, ntifs/FsRtlLookupLastLargeMcbEntryAndIndex
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlLookupLastLargeMcbEntryAndIndex function
+# FsRtlLookupLastLargeMcbEntryAndIndex function (ntifs.h)
+
+
 
 ## -description
 

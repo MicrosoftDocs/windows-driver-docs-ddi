@@ -8,6 +8,7 @@ ms.date: 09/07/2022
 keywords: ["RIL_AvoidCDMASystem function"]
 ms.keywords: RIL_AvoidCDMASystem, RIL_AvoidCDMASystem method [Network Drivers Starting with Windows Vista], netvista.ril_avoidcdmasystem, rilapi/RIL_AvoidCDMASystem
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_AvoidCDMASystem
 ---
 
-# RIL_AvoidCDMASystem function
+# RIL_AvoidCDMASystem function (rilapi.h)
+
+
 
 
 ## -description

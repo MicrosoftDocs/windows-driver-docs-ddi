@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortSetDeviceQueueDepth function"]
 ms.keywords: StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth routine [Storage Devices], storage.storportsetdevicequeuedepth, storport/StorPortSetDeviceQueueDepth, storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortSetDeviceQueueDepth
 ---
 
-# StorPortSetDeviceQueueDepth function
+# StorPortSetDeviceQueueDepth function (storport.h)
+
+
 
 
 ## -description

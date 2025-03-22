@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsIsThreadTerminating function"]
 ms.keywords: PsIsThreadTerminating, PsIsThreadTerminating routine [Installable File System Drivers], ifsk.psisthreadterminating, ntifs/PsIsThreadTerminating, psref_55824a18-3df1-4d43-bc9c-77da8ee6cf6c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - PsIsThreadTerminating
 ---
 
-# PsIsThreadTerminating function
+# PsIsThreadTerminating function (ntifs.h)
+
+
 
 
 ## -description

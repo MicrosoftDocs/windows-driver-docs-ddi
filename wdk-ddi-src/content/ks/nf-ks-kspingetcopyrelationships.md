@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetCopyRelationships function"]
 ms.keywords: KsPinGetCopyRelationships, KsPinGetCopyRelationships function [Streaming Media Devices], avfunc_d44ce272-9171-4a32-89c6-023d9688fdfd.xml, ks/KsPinGetCopyRelationships, stream.kspingetcopyrelationships
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetCopyRelationships
 ---
 
-# KsPinGetCopyRelationships function
+# KsPinGetCopyRelationships function (ks.h)
+
+
 
 
 ## -description

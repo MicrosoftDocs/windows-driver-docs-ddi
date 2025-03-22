@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsMethodHandlerWithAllocator function"]
 ms.keywords: KsMethodHandlerWithAllocator, KsMethodHandlerWithAllocator function [Streaming Media Devices], ks/KsMethodHandlerWithAllocator, ksfunc_b8089a49-086b-4695-bebd-6fc3817ed7e0.xml, stream.ksmethodhandlerwithallocator
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsMethodHandlerWithAllocator
 ---
+
+# KsMethodHandlerWithAllocator function (ks.h)
 
 ## -description
 

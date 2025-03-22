@@ -8,6 +8,7 @@ ms.date: 06/25/2020
 keywords: ["KsCreateDefaultAllocatorEx function"]
 ms.keywords: KsCreateDefaultAllocatorEx, KsCreateDefaultAllocatorEx function [Streaming Media Devices], ks/KsCreateDefaultAllocatorEx, ksfunc_99b91933-c8d3-4580-bd51-a6620defcf30.xml, stream.kscreatedefaultallocatorex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCreateDefaultAllocatorEx
 ---
 
-# KsCreateDefaultAllocatorEx function
+# KsCreateDefaultAllocatorEx function (ks.h)
+
+
 
 
 ## -description

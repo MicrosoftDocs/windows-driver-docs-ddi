@@ -7,6 +7,7 @@ ms.date: 12/07/2022
 keywords: ["PsGetJobServerSilo function"]
 ms.keywords: PsGetJobServerSilo, PsGetJobServerSilo routine [Kernel-Mode Driver Architecture], kernel.psgetjobserversilo, ntddk/PsGetJobServerSilo
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PsGetJobServerSilo
 ---
+
+# PsGetJobServerSilo function (ntddk.h)
 
 ## -description
 

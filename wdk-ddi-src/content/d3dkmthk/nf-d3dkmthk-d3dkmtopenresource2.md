@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTOpenResource2 function"]
 ms.keywords: D3DKMTOpenResource2, D3DKMTOpenResource2 function [Display Devices], d3dkmthk/D3DKMTOpenResource2, display.d3dkmtopenresource2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTOpenResource2
 ---
 
-# D3DKMTOpenResource2 function
+# D3DKMTOpenResource2 function (d3dkmthk.h)
+
+
 
 ## -description
 

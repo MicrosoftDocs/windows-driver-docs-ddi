@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceQueryInterfaceProperty function"]
 ms.keywords: WdfDeviceQueryInterfaceProperty, WdfDeviceQueryInterfaceProperty method, wdf.wdfdevicequeryinterfaceproperty, wdfdevice/WdfDeviceQueryInterfaceProperty
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WdfDeviceQueryInterfaceProperty
 ---
 
-# WdfDeviceQueryInterfaceProperty function
+# WdfDeviceQueryInterfaceProperty function (wdfdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VslCreateSecureSection function"]
 ms.keywords: VslCreateSecureSection, VslCreateSecureSection function [Kernel-Mode Driver Architecture], kernel.vslcreatesecuresection, wdm/VslCreateSecureSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - VslCreateSecureSection
 ---
 
-# VslCreateSecureSection function
+# VslCreateSecureSection function (wdm.h)
+
+
 
 
 ## -description

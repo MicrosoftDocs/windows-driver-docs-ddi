@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSetSystemGroupAffinityThread function"]
 ms.keywords: KeSetSystemGroupAffinityThread, KeSetSystemGroupAffinityThread routine [Kernel-Mode Driver Architecture], k105_3930c7d1-9295-4f62-867e-5e68729c45f3.xml, kernel.kesetsystemgroupaffinitythread, wdm/KeSetSystemGroupAffinityThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - KeSetSystemGroupAffinityThread
 ---
 
-# KeSetSystemGroupAffinityThread function
+# KeSetSystemGroupAffinityThread function (wdm.h)
+
+
 
 
 ## -description

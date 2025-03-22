@@ -7,6 +7,7 @@ ms.date: 11/15/2023
 keywords: ["FltWriteFile function"]
 ms.keywords: FltApiRef_p_to_z_8d4d2b16-fa86-4084-8dad-879d4908f2fe.xml, FltWriteFile, FltWriteFile function [Installable File System Drivers], fltkernel/FltWriteFile, ifsk.fltwritefile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - FltWriteFile
 ---
 
-# FltWriteFile function
+# FltWriteFile function (fltkernel.h)
+
+
 
 ## -description
 

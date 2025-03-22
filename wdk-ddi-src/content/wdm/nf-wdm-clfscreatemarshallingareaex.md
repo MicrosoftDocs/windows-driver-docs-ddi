@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["ClfsCreateMarshallingAreaEx function"]
 ms.keywords: ClfsCreateMarshallingAreaEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - ClfsCreateMarshallingAreaEx
 ---
 
-# ClfsCreateMarshallingAreaEx function
+# ClfsCreateMarshallingAreaEx function (wdm.h)
+
+
 
 
 ## -description

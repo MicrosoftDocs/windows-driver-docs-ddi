@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoMakeAssociatedIrp function"]
 ms.keywords: IoMakeAssociatedIrp, IoMakeAssociatedIrp routine [Kernel-Mode Driver Architecture], k104_35615730-15a8-4959-8c4d-8e9b4a186e10.xml, kernel.iomakeassociatedirp, ntddk/IoMakeAssociatedIrp
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoMakeAssociatedIrp
 ---
 
-# IoMakeAssociatedIrp function
+# IoMakeAssociatedIrp function (ntddk.h)
+
+
 
 
 ## -description

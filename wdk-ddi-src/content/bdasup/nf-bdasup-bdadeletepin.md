@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BdaDeletePin function"]
 ms.keywords: BdaDeletePin, BdaDeletePin function [Streaming Media Devices], bdaref_36a08eca-6cfb-4647-8252-05b6c8e0b8e1.xml, bdasup/BdaDeletePin, stream.bdadeletepin
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - BdaDeletePin
 ---
 
-# BdaDeletePin function
+# BdaDeletePin function (bdasup.h)
+
+
 
 
 ## -description

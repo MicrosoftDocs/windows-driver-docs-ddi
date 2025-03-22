@@ -5,6 +5,7 @@ description: A driver can use IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG to get the i
 tech.root: storage
 ms.date: 08/18/2022
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -30,7 +31,11 @@ api_name:
  - IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG
 ---
 
-# IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG IOCTL
+# IOCTL_STORAGE_GET_DEVICE_INTERNAL_LOG IOCTL (ntddstor.h)
+
+
+
+
 
 ## Major Code
 

@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["RtlRaiseCustomSystemEventTrigger function"]
 ms.keywords: RtlRaiseCustomSystemEventTrigger
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - RtlRaiseCustomSystemEventTrigger
 ---
 
-# RtlRaiseCustomSystemEventTrigger function
+# RtlRaiseCustomSystemEventTrigger function (ntddk.h)
+
+
 
 
 ## -description

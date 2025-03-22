@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["KeDetachProcess function"]
 ms.keywords: KeDetachProcess, KeDetachProcess function [Installable File System Drivers], ifsk.kedetachprocess, keref_0038ac90-7d97-45db-9a0d-028238af943d.xml, ntifs/KeDetachProcess
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeDetachProcess
 ---
 
-# KeDetachProcess function
+# KeDetachProcess function (ntifs.h)
+
+
 
 ## -description
 

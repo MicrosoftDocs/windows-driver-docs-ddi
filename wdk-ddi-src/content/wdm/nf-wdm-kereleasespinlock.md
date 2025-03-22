@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReleaseSpinLock macro"]
 ms.keywords: KeReleaseSpinLock, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture], k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, kernel.kereleasespinlock, wdm/KeReleaseSpinLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - KeReleaseSpinLock
 ---
 
-# KeReleaseSpinLock macro
+# KeReleaseSpinLock function (wdm.h)
+
+
 
 
 ## -description

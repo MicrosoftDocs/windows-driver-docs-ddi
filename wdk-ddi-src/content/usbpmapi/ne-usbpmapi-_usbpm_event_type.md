@@ -7,6 +7,7 @@ keywords: ["USBPM_EVENT_TYPE enumeration"]
 ms.keywords: _USBPM_EVENT_TYPE, USBPM_EVENT_TYPE,
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -34,7 +35,9 @@ api_name:
  - USBPM_EVENT_TYPE
 ---
 
-# _USBPM_EVENT_TYPE enumeration
+# USBPM_EVENT_TYPE enumeration (usbpmapi.h)
+
+
 
 
 ## -description

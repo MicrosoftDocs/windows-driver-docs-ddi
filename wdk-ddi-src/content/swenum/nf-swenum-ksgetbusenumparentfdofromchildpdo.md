@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetBusEnumParentFDOFromChildPDO function"]
 ms.keywords: KsGetBusEnumParentFDOFromChildPDO, KsGetBusEnumParentFDOFromChildPDO function [Streaming Media Devices], ksfunc_592bfe23-7135-4118-9acf-6783691c55ea.xml, stream.ksgetbusenumparentfdofromchildpdo, swenum/KsGetBusEnumParentFDOFromChildPDO
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetBusEnumParentFDOFromChildPDO
 ---
 
-# KsGetBusEnumParentFDOFromChildPDO function
+# KsGetBusEnumParentFDOFromChildPDO function (swenum.h)
+
+
 
 
 ## -description

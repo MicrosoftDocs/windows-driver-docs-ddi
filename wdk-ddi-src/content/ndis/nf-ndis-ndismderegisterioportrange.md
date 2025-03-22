@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMDeregisterIoPortRange function"]
 ms.keywords: NdisMDeregisterIoPortRange, NdisMDeregisterIoPortRange function [Network Drivers Starting with Windows Vista], miniport_port_io_ref_3ec72b06-3f52-46b9-b699-774a7df4a658.xml, ndis/NdisMDeregisterIoPortRange, netvista.ndismderegisterioportrange
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMDeregisterIoPortRange   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMDeregisterIoPortRange   (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisMDeregisterIoPortRange
 ---
 
-# NdisMDeregisterIoPortRange function
+# NdisMDeregisterIoPortRange function (ndis.h)
+
+
 
 
 ## -description

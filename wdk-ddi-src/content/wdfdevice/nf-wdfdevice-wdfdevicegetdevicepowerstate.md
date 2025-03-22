@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceGetDevicePowerState function"]
 ms.keywords: DFDeviceObjectGeneralRef_40013978-2c8d-4776-b218-5f0c743e57e9.xml, WdfDeviceGetDevicePowerState, WdfDeviceGetDevicePowerState method, kmdf.wdfdevicegetdevicepowerstate, wdf.wdfdevicegetdevicepowerstate, wdfdevice/WdfDeviceGetDevicePowerState
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceGetDevicePowerState
 ---
 
-# WdfDeviceGetDevicePowerState function
+# WdfDeviceGetDevicePowerState function (wdfdevice.h)
+
+
 
 
 ## -description

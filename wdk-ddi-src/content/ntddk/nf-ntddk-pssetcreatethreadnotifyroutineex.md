@@ -8,6 +8,7 @@ ms.date: 02/08/2022
 keywords: ["PsSetCreateThreadNotifyRoutineEx function"]
 ms.keywords: PsSetCreateThreadNotifyRoutineEx, PsSetCreateThreadNotifyRoutineEx routine [Kernel-Mode Driver Architecture], kernel.pssetcreatethreadnotifyroutineex, ntddk/PsSetCreateThreadNotifyRoutineEx
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - PsSetCreateThreadNotifyRoutineEx
 ---
 
-# PsSetCreateThreadNotifyRoutineEx function
+# PsSetCreateThreadNotifyRoutineEx function (ntddk.h)
+
+
 
 
 ## -description

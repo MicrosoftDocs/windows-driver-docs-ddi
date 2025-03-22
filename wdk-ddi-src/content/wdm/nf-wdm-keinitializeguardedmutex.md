@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeInitializeGuardedMutex function"]
 ms.keywords: KeInitializeGuardedMutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, kernel.keinitializeguardedmutex, wdm/KeInitializeGuardedMutex
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 with Service Pack 1 (SP1) and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeGuardedMutex
 ---
 
-# KeInitializeGuardedMutex function
+# KeInitializeGuardedMutex function (wdm.h)
+
+
 
 
 ## -description

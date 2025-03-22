@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["MmSetAddressRangeModified function"]
 ms.keywords: MmSetAddressRangeModified, MmSetAddressRangeModified routine [Installable File System Drivers], ifsk.mmsetaddressrangemodified, mmref_4d6ef497-4a72-4fed-8422-365708740cc7.xml, ntifs/MmSetAddressRangeModified
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MmSetAddressRangeModified
 ---
 
-# MmSetAddressRangeModified function
+# MmSetAddressRangeModified function (ntifs.h)
+
+
 
 
 ## -description

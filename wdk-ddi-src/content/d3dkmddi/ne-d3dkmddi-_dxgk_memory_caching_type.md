@@ -6,6 +6,7 @@ ms.date: 07/22/2021
 keywords: ["DXGK_MEMORY_CACHING_TYPE enumeration"]
 ms.keywords: _DXGK_MEMORY_CACHING_TYPE, DXGK_MEMORY_CACHING_TYPE,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -33,7 +34,9 @@ api_name:
  - DXGK_MEMORY_CACHING_TYPE
 ---
 
-# DXGK_MEMORY_CACHING_TYPE enumeration
+# DXGK_MEMORY_CACHING_TYPE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

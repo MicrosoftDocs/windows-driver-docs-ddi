@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinSetPinClockTime function"]
 ms.keywords: KsPinSetPinClockTime, KsPinSetPinClockTime function [Streaming Media Devices], avfunc_8f1c1b04-c5eb-4aa1-9cdf-84b86da388e9.xml, ks/KsPinSetPinClockTime, stream.kspinsetpinclocktime
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinSetPinClockTime
 ---
 
-# KsPinSetPinClockTime function
+# KsPinSetPinClockTime function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsLookupProcessByProcessId function"]
 ms.keywords: PsLookupProcessByProcessId, PsLookupProcessByProcessId routine [Installable File System Drivers], ifsk.pslookupprocessbyprocessid, ntifs/PsLookupProcessByProcessId, psref_809b3ca8-eb8a-4ee0-9d74-b33b10664834.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PsLookupProcessByProcessId
 ---
 
-# PsLookupProcessByProcessId function
+# PsLookupProcessByProcessId function (ntifs.h)
+
+
 
 
 ## -description

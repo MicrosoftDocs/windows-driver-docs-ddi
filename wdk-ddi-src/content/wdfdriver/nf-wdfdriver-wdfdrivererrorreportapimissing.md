@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WdfDriverErrorReportApiMissing function"]
 ms.keywords: WdfDriverErrorReportApiMissing
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - WdfDriverErrorReportApiMissing
 ---
 
-# WdfDriverErrorReportApiMissing function
+# WdfDriverErrorReportApiMissing function (wdfdriver.h)
+
+
 
 
 ## -description

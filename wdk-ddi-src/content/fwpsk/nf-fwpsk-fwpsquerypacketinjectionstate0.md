@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsQueryPacketInjectionState0 function"]
 ms.keywords: FwpsQueryPacketInjectionState0, FwpsQueryPacketInjectionState0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryPacketInjectionState0, netvista.fwpsquerypacketinjectionstate0, wfp_ref_2_funct_3_fwps_J-Q_2eb3c709-15f8-46de-a55d-b4e99c085740.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsQueryPacketInjectionState0
 ---
 
-# FwpsQueryPacketInjectionState0 function
+# FwpsQueryPacketInjectionState0 function (fwpsk.h)
+
+
 
 
 ## -description

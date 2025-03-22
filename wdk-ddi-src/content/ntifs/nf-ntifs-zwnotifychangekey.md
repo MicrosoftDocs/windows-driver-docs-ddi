@@ -7,6 +7,7 @@ ms.date: 01/19/2024
 keywords: ["ZwNotifyChangeKey function"]
 ms.keywords: NtNotifyChangeKey, ZwNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - ZwNotifyChangeKey
 ---
 
-# ZwNotifyChangeKey function
+# ZwNotifyChangeKey function (ntifs.h)
+
+
 
 ## -description
 

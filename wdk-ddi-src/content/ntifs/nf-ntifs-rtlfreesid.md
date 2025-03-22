@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlFreeSid function"]
 ms.keywords: RtlFreeSid, RtlFreeSid function [Installable File System Drivers], ifsk.rtlfreesid, ntifs/RtlFreeSid, rtlref_4cdaafe3-70fa-4a22-be05-019e6b06cc15.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlFreeSid
 ---
 
-# RtlFreeSid function
+# RtlFreeSid function (ntifs.h)
+
+
 
 ## -description
 

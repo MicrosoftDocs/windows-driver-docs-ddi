@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX_STATUS enumeration"]
 ms.keywords: "*PSERCX_STATUS, 1/SERCX_STATUS, 1/SerCxStatusCancelled, 1/SerCxStatusSuccess, 1/SerCxStatusTimeout, SERCX_STATUS, SERCX_STATUS enumeration [Serial Ports], SerCxStatusCancelled, SerCxStatusSuccess, SerCxStatusTimeout, _SERCX_STATUS, serports.sercx_status"
 req.header: sercx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SERCX_STATUS
 ---
 
-# _SERCX_STATUS enumeration
+# SERCX_STATUS enumeration (sercx.h)
+
+
 
 
 ## -description

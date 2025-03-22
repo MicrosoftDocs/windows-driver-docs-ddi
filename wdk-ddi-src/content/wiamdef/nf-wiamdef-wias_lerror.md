@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_LERROR macro"]
 ms.keywords: IWiaLog_b765e146-4e57-447c-9e9d-0f3cdc784291.xml, WIAS_LERROR, WIAS_LERROR macro [Imaging Devices], image.wias_lerror, wiamdef/WIAS_LERROR
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: Obsolete, use WIAS_ERROR instead.
@@ -40,7 +41,9 @@ api_name:
  - WIAS_LERROR
 ---
 
-# WIAS_LERROR macro (wiamdef.h)
+# WIAS_LERROR function (wiamdef.h)
+
+
 
 
 ## -description

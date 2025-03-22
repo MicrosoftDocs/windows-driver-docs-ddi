@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinRegisterAggregatedClientUnknown function"]
 ms.keywords: KsPinRegisterAggregatedClientUnknown, KsPinRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_688a6c60-58c8-4e65-a3bc-d68e713ca3fc.xml, ks/KsPinRegisterAggregatedClientUnknown, stream.kspinregisteraggregatedclientunknown
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsPinRegisterAggregatedClientUnknown
 ---
 
-# KsPinRegisterAggregatedClientUnknown function
+# KsPinRegisterAggregatedClientUnknown function (ks.h)
+
+
 
 
 ## -description

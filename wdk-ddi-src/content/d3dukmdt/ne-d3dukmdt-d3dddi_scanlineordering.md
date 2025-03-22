@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_SCANLINEORDERING enumeration"]
 ms.keywords: D3DDDI_SCANLINEORDERING, D3DDDI_SCANLINEORDERING enumeration [Display Devices], D3DDDI_SCANLINEORDERING_INTERLACED, D3DDDI_SCANLINEORDERING_PROGRESSIVE, D3DDDI_SCANLINEORDERING_UNKNOWN, D3D_other_Structs_e1e24d3b-d40e-4f20-bd78-94ab7c2d0761.xml, d3dukmdt/D3DDDI_SCANLINEORDERING, d3dukmdt/D3DDDI_SCANLINEORDERING_INTERLACED, d3dukmdt/D3DDDI_SCANLINEORDERING_PROGRESSIVE, d3dukmdt/D3DDDI_SCANLINEORDERING_UNKNOWN, display.d3dddi_scanlineordering
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDI_SCANLINEORDERING is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_SCANLINEORDERING
 ---
 
-# D3DDDI_SCANLINEORDERING enumeration
+# D3DDDI_SCANLINEORDERING enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

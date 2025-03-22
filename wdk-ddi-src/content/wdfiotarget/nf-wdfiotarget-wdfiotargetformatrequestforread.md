@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForRead function"]
 ms.keywords: DFIOTargetRef_397cd31e-d4d8-40b5-ae7b-5f8e9ed62300.xml, WdfIoTargetFormatRequestForRead, WdfIoTargetFormatRequestForRead method, kmdf.wdfiotargetformatrequestforread, wdf.wdfiotargetformatrequestforread, wdfiotarget/WdfIoTargetFormatRequestForRead
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetFormatRequestForRead
 ---
 
-# WdfIoTargetFormatRequestForRead function
+# WdfIoTargetFormatRequestForRead function (wdfiotarget.h)
+
+
 
 
 ## -description

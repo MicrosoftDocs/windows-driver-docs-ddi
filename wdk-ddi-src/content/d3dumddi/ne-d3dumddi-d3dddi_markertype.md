@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MARKERTYPE enumeration"]
 ms.keywords: D3DDDIMT_NONE, D3DDDIMT_PROFILE, D3DDDI_MARKERTYPE, D3DDDI_MARKERTYPE enumeration [Display Devices], d3dumddi/D3DDDIMT_NONE, d3dumddi/D3DDDIMT_PROFILE, d3dumddi/D3DDDI_MARKERTYPE, display.d3dddi_markertype
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_MARKERTYPE
 ---
 
-# D3DDDI_MARKERTYPE enumeration
+# D3DDDI_MARKERTYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

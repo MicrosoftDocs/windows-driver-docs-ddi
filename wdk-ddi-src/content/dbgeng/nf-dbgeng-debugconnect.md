@@ -8,6 +8,7 @@ ms.date: 02/06/2022
 keywords: ["DebugConnect function"]
 ms.keywords: ClientFns_7beeb350-b8bd-44ea-b5c9-ca0da15146ae.xml, DebugConnect, DebugConnect function [Windows Debugging], dbgeng/DebugConnect, debugger.debugconnect
 req.header: dbgeng.h
+req.construct-type: function
 req.include-header: Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DebugConnect
 ---
 
-# DebugConnect function
+# DebugConnect function (dbgeng.h)
+
+
 
 
 ## -description

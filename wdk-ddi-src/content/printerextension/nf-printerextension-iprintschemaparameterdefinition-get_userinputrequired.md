@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_UserInputRequired"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],UserInputRequired property, IPrintSchemaParameterDefinition.UserInputRequired, IPrintSchemaParameterDefinition.get_UserInputRequired, IPrintSchemaParameterDefinition::UserInputRequired, IPrintSchemaParameterDefinition::get_UserInputRequired, UserInputRequired property [Print Devices], UserInputRequired property [Print Devices],IPrintSchemaParameterDefinition interface, get_UserInputRequired, print._iprintschemaparameterdefinition_userinputrequired, printerextension/IPrintSchemaParameterDefinition::UserInputRequired, printerextension/IPrintSchemaParameterDefinition::get_UserInputRequired
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaParameterDefinition::get_UserInputRequired
 ---
+
+# IPrintSchemaParameterDefinition::get_UserInputRequired function (printerextension.h)
 
 ## -description
 

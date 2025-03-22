@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsWriteFile function"]
 ms.keywords: KsWriteFile, KsWriteFile function [Streaming Media Devices], ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, stream.kswritefile
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsWriteFile
 ---
+
+# KsWriteFile function (ks.h)
 
 ## -description
 

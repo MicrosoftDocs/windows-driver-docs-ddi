@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN_COMMUNICATION enumeration"]
 ms.keywords: "*PKSPIN_COMMUNICATION, KSPIN_COMMUNICATION, KSPIN_COMMUNICATION enumeration [Streaming Media Devices], KSPIN_COMMUNICATION_BOTH, KSPIN_COMMUNICATION_BRIDGE, KSPIN_COMMUNICATION_NONE, KSPIN_COMMUNICATION_SINK, KSPIN_COMMUNICATION_SOURCE, PKSPIN_COMMUNICATION, PKSPIN_COMMUNICATION enumeration pointer [Streaming Media Devices], ks/KSPIN_COMMUNICATION, ks/KSPIN_COMMUNICATION_BOTH, ks/KSPIN_COMMUNICATION_BRIDGE, ks/KSPIN_COMMUNICATION_NONE, ks/KSPIN_COMMUNICATION_SINK, ks/KSPIN_COMMUNICATION_SOURCE, ks/PKSPIN_COMMUNICATION, stream.kspin_communication"
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPIN_COMMUNICATION
 ---
 
-# KSPIN_COMMUNICATION enumeration
+# KSPIN_COMMUNICATION enumeration (ks.h)
+
+
 
 
 ## -description

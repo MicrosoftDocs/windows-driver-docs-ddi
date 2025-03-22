@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["DOCUMENTEVENT_EVENT macro"]
 ms.keywords: DOCUMENTEVENT_EVENT
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - DOCUMENTEVENT_EVENT
 ---
 
-# DOCUMENTEVENT_EVENT macro
+# DOCUMENTEVENT_EVENT function (winddiui.h)
+
+
 
 ## -description
 

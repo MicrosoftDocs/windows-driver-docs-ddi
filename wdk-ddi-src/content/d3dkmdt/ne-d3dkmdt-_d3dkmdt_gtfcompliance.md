@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_GTFCOMPLIANCE enumeration"]
 ms.keywords: D3DKMDT_GTFCOMPLIANCE, D3DKMDT_GTFCOMPLIANCE enumeration [Display Devices], D3DKMDT_GTF_COMPLIANT, D3DKMDT_GTF_NOTCOMPLIANT, D3DKMDT_GTF_UNINITIALIZED, DmEnums_c8d6dc39-9079-444a-8441-49617eb1eede.xml, _D3DKMDT_GTFCOMPLIANCE, d3dkmdt/D3DKMDT_GTFCOMPLIANCE, d3dkmdt/D3DKMDT_GTF_COMPLIANT, d3dkmdt/D3DKMDT_GTF_NOTCOMPLIANT, d3dkmdt/D3DKMDT_GTF_UNINITIALIZED, display.d3dkmdt_gtfcompliance
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_GTFCOMPLIANCE
 ---
 
-# _D3DKMDT_GTFCOMPLIANCE enumeration
+# D3DKMDT_GTFCOMPLIANCE enumeration (d3dkmdt.h)
+
+
 
 
 ## -description

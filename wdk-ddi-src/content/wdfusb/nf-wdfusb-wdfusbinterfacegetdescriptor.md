@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetDescriptor function"]
 ms.keywords: DFUsbRef_eb98efa1-720d-408c-824f-59cfef80bbba.xml, WdfUsbInterfaceGetDescriptor, WdfUsbInterfaceGetDescriptor method, kmdf.wdfusbinterfacegetdescriptor, wdf.wdfusbinterfacegetdescriptor, wdfusb/WdfUsbInterfaceGetDescriptor
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetDescriptor
 ---
 
-# WdfUsbInterfaceGetDescriptor function
+# WdfUsbInterfaceGetDescriptor function (wdfusb.h)
+
+
 
 
 ## -description

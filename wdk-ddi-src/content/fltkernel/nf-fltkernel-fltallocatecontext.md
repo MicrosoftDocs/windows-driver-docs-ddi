@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 03/15/2024
 keywords: ["FltAllocateContext function"]
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - FltAllocateContext
 ---
 
-# FltAllocateContext function
+# FltAllocateContext function (fltkernel.h)
+
+
 
 ## -description
 

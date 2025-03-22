@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsCloneStreamData0 function"]
 ms.keywords: FwpsCloneStreamData0, FwpsCloneStreamData0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCloneStreamData0, netvista.fwpsclonestreamdata0, wfp_ref_2_funct_3_fwps_C_e155a116-043a-43e5-af71-db0552806978.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsCloneStreamData0
 ---
 
-# FwpsCloneStreamData0 function
+# FwpsCloneStreamData0 function (fwpsk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoRegisterFsRegistrationChangeEx function"]
 ms.keywords: IoRegisterFsRegistrationChangeEx, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangeex, ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ntifs/IoRegisterFsRegistrationChangeEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: This routine is only available on the Update Rollup for Windows 2000 Service Pack 4 (SP4) operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterFsRegistrationChangeEx
 ---
 
-# IoRegisterFsRegistrationChangeEx function
+# IoRegisterFsRegistrationChangeEx function (ntifs.h)
+
+
 
 
 ## -description

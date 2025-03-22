@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlLookupPerStreamContext macro"]
 ms.keywords: FsRtlLookupPerStreamContext, FsRtlLookupPerStreamContext function [Installable File System Drivers], fsrtlref_8284a485-5669-4a4f-a2cf-d566b82299fb.xml, ifsk.fsrtllookupperstreamcontext, ntifs/FsRtlLookupPerStreamContext
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -40,7 +41,9 @@ api_name:
  - FsRtlLookupPerStreamContext
 ---
 
-# FsRtlLookupPerStreamContext macro
+# FsRtlLookupPerStreamContext function (ntifs.h)
+
+
 
 
 ## -description

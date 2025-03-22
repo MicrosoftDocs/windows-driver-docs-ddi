@@ -7,6 +7,7 @@ keywords: ["USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT enumeration"]
 ms.keywords: _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT, *PUSBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT,
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ api_name:
  - USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT
 ---
 
-# _USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT enumeration
+# USBPM_ASSIGN_POWER_LEVEL_PARAMS_FORMAT enumeration (usbpmapi.h)
+
+
 
 
 ## -description

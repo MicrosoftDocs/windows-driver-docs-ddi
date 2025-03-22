@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxProgressReceive function"]
 ms.keywords: 1/SerCxProgressReceive, SerCxProgressReceive, SerCxProgressReceive method [Serial Ports], serports.sercxprogressreceive
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxProgressReceive
 ---
 
-# SerCxProgressReceive function
+# SerCxProgressReceive function (sercx.h)
+
+
 
 
 ## -description

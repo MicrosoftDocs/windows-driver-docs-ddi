@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetSignalQuality function"]
 ms.keywords: RIL_GetSignalQuality, RIL_GetSignalQuality method [Network Drivers Starting with Windows Vista], netvista.ril_getsignalquality, rilapi/RIL_GetSignalQuality
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetSignalQuality
 ---
 
-# RIL_GetSignalQuality function
+# RIL_GetSignalQuality function (rilapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["vDbgPrintExWithPrefix function"]
 ms.keywords: DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix, vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], wdm/vDbgPrintExWithPrefix
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Dpfilter.h, Wdm.h, Ntddk.h, Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating system versions.
@@ -41,7 +42,9 @@ api_name:
  - vDbgPrintExWithPrefix
 ---
 
-# vDbgPrintExWithPrefix function
+# vDbgPrintExWithPrefix function (wdm.h)
+
+
 
 
 ## -description

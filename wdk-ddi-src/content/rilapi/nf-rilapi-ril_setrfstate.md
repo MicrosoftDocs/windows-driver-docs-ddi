@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetRFState function"]
 ms.keywords: RIL_SetRFState, RIL_SetRFState method [Network Drivers Starting with Windows Vista], netvista.ril_setrfstate, rilapi/RIL_SetRFState
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetRFState
 ---
 
-# RIL_SetRFState function
+# RIL_SetRFState function (rilapi.h)
+
+
 
 
 ## -description

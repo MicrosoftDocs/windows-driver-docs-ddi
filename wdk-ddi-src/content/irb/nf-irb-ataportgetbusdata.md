@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortGetBusData function"]
 ms.keywords: AtaPortGetBusData, AtaPortGetBusData routine [Storage Devices], atartns_a137d697-85fa-4d99-964f-94e9bcbb6b7b.xml, irb/AtaPortGetBusData, storage.ataportgetbusdata
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - AtaPortGetBusData
 ---
 
-# AtaPortGetBusData function
+# AtaPortGetBusData function (irb.h)
+
+
 
 
 ## -description

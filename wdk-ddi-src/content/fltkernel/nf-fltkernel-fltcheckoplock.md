@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCheckOplock function"]
 ms.keywords: FltApiRef_a_to_d_a551884c-ffc1-4b00-9f22-4f0ab8af0aa1.xml, FltCheckOplock, FltCheckOplock function [Installable File System Drivers], fltkernel/FltCheckOplock, ifsk.fltcheckoplock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltCheckOplock
 ---
 
-# FltCheckOplock function
+# FltCheckOplock function (fltkernel.h)
+
+
 
 
 ## -description

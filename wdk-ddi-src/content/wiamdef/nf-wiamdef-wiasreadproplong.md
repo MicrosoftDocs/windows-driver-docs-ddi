@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasReadPropLong function"]
 ms.keywords: image.wiasreadproplong, wiamdef/wiasReadPropLong, wiasFncs_a60071a3-6ae9-431d-8d8b-a964547e9770.xml, wiasReadPropLong, wiasReadPropLong function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasReadPropLong
 ---
 
-# wiasReadPropLong function
+# wiasReadPropLong function (wiamdef.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltIsEcpAcknowledged function"]
 ms.keywords: FltApiRef_e_to_o_a5a70461-2108-4e8f-a01b-0fec773f6010.xml, FltIsEcpAcknowledged, FltIsEcpAcknowledged routine [Installable File System Drivers], fltkernel/FltIsEcpAcknowledged, ifsk.fltisecpacknowledged
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltIsEcpAcknowledged
 ---
 
-# FltIsEcpAcknowledged function
+# FltIsEcpAcknowledged function (fltkernel.h)
+
+
 
 
 ## -description

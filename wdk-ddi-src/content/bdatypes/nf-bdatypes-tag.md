@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["TAG function"]
 ms.keywords: TAG
 req.header: bdatypes.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - TAG
 ---
 
-# TAG function
+# TAG function (bdatypes.h)
+
+
 
 
 ## -description

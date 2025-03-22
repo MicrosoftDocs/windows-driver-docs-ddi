@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasSetValidRangeFloat function"]
 ms.keywords: image.wiassetvalidrangefloat, wiamdef/wiasSetValidRangeFloat, wiasFncs_d8eb35e4-e295-43cf-a457-5e6fac3f537d.xml, wiasSetValidRangeFloat, wiasSetValidRangeFloat function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasSetValidRangeFloat
 ---
 
-# wiasSetValidRangeFloat function
+# wiasSetValidRangeFloat function (wiamdef.h)
+
+
 
 
 ## -description

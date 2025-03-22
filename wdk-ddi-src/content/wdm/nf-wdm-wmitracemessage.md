@@ -8,6 +8,7 @@ ms.date: 09/10/2024
 keywords: ["WmiTraceMessage function"]
 ms.keywords: WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, kernel.wmitracemessage, wdm/WmiTraceMessage
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - WmiTraceMessage
 ---
 
-# WmiTraceMessage function
+# WmiTraceMessage function (wdm.h)
+
+
 
 
 ## -description

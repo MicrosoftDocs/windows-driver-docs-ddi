@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmResetDriverPaging function"]
 ms.keywords: MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, kernel.mmresetdriverpaging, wdm/MmResetDriverPaging
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmResetDriverPaging
 ---
 
-# MmResetDriverPaging function
+# MmResetDriverPaging function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["RtlUnicodeStringCbCatStringNEx function"]
 ms.keywords: RtlUnicodeStringCbCatStringNEx, RtlUnicodeStringCbCatStringNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcbcatstringnex, ntstrsafe/RtlUnicodeStringCbCatStringNEx, safestrings_e032e11b-4526-4f1f-9e1a-3ae387e8c49d.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringCbCatStringNEx
 ---
 
-# RtlUnicodeStringCbCatStringNEx function
+# RtlUnicodeStringCbCatStringNEx function (ntstrsafe.h)
+
+
 
 ## -description
 

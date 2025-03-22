@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["PshedIsSystemWheaEnabled function"]
 ms.keywords: PshedIsSystemWheaEnabled, PshedIsSystemWheaEnabled function [WHEA Drivers and Applications], ntddk/PshedIsSystemWheaEnabled, whea.pshedissystemwheaenabled, whearef_492a4370-81bf-411b-bd87-2408f4551b18.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - PshedIsSystemWheaEnabled
 ---
 
-# PshedIsSystemWheaEnabled function
+# PshedIsSystemWheaEnabled function (ntddk.h)
+
+
 
 
 ## -description

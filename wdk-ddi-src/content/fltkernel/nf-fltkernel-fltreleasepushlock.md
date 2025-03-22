@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["FltReleasePushLock macro"]
 ms.keywords: FltApiRef_p_to_z_31e736a4-7790-443f-a6bf-e43d3823ad27.xml, FltReleasePushLock, FltReleasePushLock routine [Installable File System Drivers], fltkernel/FltReleasePushLock, ifsk.fltreleasepushlock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows XP SP2, Microsoft Windows Server 2003 SP1, and later.
@@ -40,7 +41,9 @@ api_name:
  - FltReleasePushLock
 ---
 
-# FltReleasePushLock macro
+# FltReleasePushLock function (fltkernel.h)
+
+
 
 ## -description
 

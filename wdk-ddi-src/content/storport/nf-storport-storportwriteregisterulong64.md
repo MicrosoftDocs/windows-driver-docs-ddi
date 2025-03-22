@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterUlong64 macro"]
 ms.keywords: StorPortWriteRegisterUlong64, StorPortWriteRegisterUlong64 routine [Storage Devices], storage.storportwriteregisterulong64, storport/StorPortWriteRegisterUlong64
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - StorPortWriteRegisterUlong64
 ---
 
-# StorPortWriteRegisterUlong64 macro
+# StorPortWriteRegisterUlong64 function (storport.h)
+
+
 
 
 ## -description

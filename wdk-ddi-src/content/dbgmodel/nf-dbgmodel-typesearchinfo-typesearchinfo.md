@@ -6,6 +6,7 @@ ms.date: 10/02/2018
 keywords: ["TypeSearchInfo function"]
 ms.keywords: TypeSearchInfo
 req.header: dbgmodel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - TypeSearchInfo::TypeSearchInfo
 ---
 
-# TypeSearchInfo function (dbgmodel.h)
+# TypeSearchInfo::TypeSearchInfo function (dbgmodel.h)
+
+
 
 ## -description
 

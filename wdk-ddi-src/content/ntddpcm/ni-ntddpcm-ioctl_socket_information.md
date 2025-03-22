@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_SOCKET_INFORMATION IOCTL"]
 ms.keywords: IOCTL_SOCKET_INFORMATION, IOCTL_SOCKET_INFORMATION control, IOCTL_SOCKET_INFORMATION control code [Buses], PCMCIA.ioctl_socket_information, memcdref_8730c03b-fc86-4d43-8aa9-6d15abcfa2d0.xml, ntddpcm/IOCTL_SOCKET_INFORMATION
 req.header: ntddpcm.h
+req.construct-type: ioctl
 req.include-header: Ntddpcm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SOCKET_INFORMATION
 ---
 
-# IOCTL_SOCKET_INFORMATION IOCTL
+# IOCTL_SOCKET_INFORMATION IOCTL (ntddpcm.h)
+
+
+
+
 
 
 ## -description

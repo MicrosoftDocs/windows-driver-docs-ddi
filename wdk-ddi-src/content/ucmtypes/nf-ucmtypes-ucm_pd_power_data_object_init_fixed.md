@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_FIXED, UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function [Buses], buses.ucm_pd_power_data_object_init_fixed, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
 req.header: ucmtypes.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCM_PD_POWER_DATA_OBJECT_INIT_FIXED
 ---
 
-# UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function
+# UCM_PD_POWER_DATA_OBJECT_INIT_FIXED function (ucmtypes.h)
+
+
 
 
 ## -description

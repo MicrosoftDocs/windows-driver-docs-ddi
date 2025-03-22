@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function"]
 ms.keywords: SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT, SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function [Sensor Devices], sensors.sensor_property_list_calculate_max_count, sensorsdef/SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 req.header: sensorsdef.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT
 ---
 
-# SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function
+# SENSOR_PROPERTY_LIST_CALCULATE_MAX_COUNT function (sensorsdef.h)
+
+
 
 
 ## -description

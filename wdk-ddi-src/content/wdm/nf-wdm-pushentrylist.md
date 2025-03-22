@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PushEntryList function"]
 ms.keywords: PushEntryList, PushEntryList routine [Kernel-Mode Driver Architecture], k109_17626baa-0fb7-4492-9e9c-a25b78b808fb.xml, kernel.pushentrylist, wdm/PushEntryList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PushEntryList
 ---
 
-# PushEntryList function
+# PushEntryList function (wdm.h)
+
+
 
 
 ## -description

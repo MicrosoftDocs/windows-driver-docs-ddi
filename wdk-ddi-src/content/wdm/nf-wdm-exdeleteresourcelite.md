@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExDeleteResourceLite function"]
 ms.keywords: ExDeleteResourceLite, ExDeleteResourceLite routine [Kernel-Mode Driver Architecture], k102_92907ac3-1391-4ede-8ffa-71a211c7634e.xml, kernel.exdeleteresourcelite, wdm/ExDeleteResourceLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExDeleteResourceLite
 ---
 
-# ExDeleteResourceLite function
+# ExDeleteResourceLite function (wdm.h)
+
+
 
 ## -description
 

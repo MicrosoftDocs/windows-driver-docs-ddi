@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILE_RANGE_FLAG enumeration"]
 ms.keywords: D3DWDDM1_3DDI_TILE_RANGE_FLAG, D3DWDDM1_3DDI_TILE_RANGE_FLAG enumeration [Display Devices], D3DWDDM_1_3DDI_TILE_RANGE_NULL, D3DWDDM_1_3DDI_TILE_RANGE_REUSE_SINGLE_TILE, D3DWDDM_1_3DDI_TILE_RANGE_SKIP, d3d10umddi/D3DWDDM1_3DDI_TILE_RANGE_FLAG, d3d10umddi/D3DWDDM_1_3DDI_TILE_RANGE_NULL, d3d10umddi/D3DWDDM_1_3DDI_TILE_RANGE_REUSE_SINGLE_TILE, d3d10umddi/D3DWDDM_1_3DDI_TILE_RANGE_SKIP, display.d3dwddm1_3ddi_tile_range_flag
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM1_3DDI_TILE_RANGE_FLAG
 ---
 
-# D3DWDDM1_3DDI_TILE_RANGE_FLAG enumeration
+# D3DWDDM1_3DDI_TILE_RANGE_FLAG enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

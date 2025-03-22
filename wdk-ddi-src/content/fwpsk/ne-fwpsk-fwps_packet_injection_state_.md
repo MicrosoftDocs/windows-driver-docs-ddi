@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_PACKET_INJECTION_STATE_ enumeration"]
 ms.keywords: FWPS_PACKET_INJECTED_BY_OTHER, FWPS_PACKET_INJECTED_BY_SELF, FWPS_PACKET_INJECTION_STATE, FWPS_PACKET_INJECTION_STATE enumeration [Network Drivers Starting with Windows Vista], FWPS_PACKET_INJECTION_STATE_, FWPS_PACKET_INJECTION_STATE_MAX, FWPS_PACKET_NOT_INJECTED, FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, fwpsk/FWPS_PACKET_INJECTED_BY_OTHER, fwpsk/FWPS_PACKET_INJECTED_BY_SELF, fwpsk/FWPS_PACKET_INJECTION_STATE, fwpsk/FWPS_PACKET_INJECTION_STATE_MAX, fwpsk/FWPS_PACKET_NOT_INJECTED, fwpsk/FWPS_PACKET_PREVIOUSLY_INJECTED_BY_SELF, netvista.fwps_packet_injection_state, wfp_ref_4_enum_d8d574f4-6323-43e0-924f-09639f6aec10.xml
 req.header: fwpsk.h
+req.construct-type: enumeration
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_PACKET_INJECTION_STATE
 ---
 
-# FWPS_PACKET_INJECTION_STATE_ enumeration
+# FWPS_PACKET_INJECTION_STATE_ enumeration (fwpsk.h)
+
+
 
 
 ## -description

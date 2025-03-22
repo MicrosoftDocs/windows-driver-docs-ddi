@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration"]
 ms.keywords: _WWAN_SAR_WIFI_HARDWARE_INTEGRATION, WWAN_SAR_WIFI_HARDWARE_INTEGRATION, *PWWAN_SAR_WIFI_HARDWARE_INTEGRATION,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_SAR_WIFI_HARDWARE_INTEGRATION
 ---
 
-# _WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration
+# WWAN_SAR_WIFI_HARDWARE_INTEGRATION enumeration (wwan.h)
+
+
 
 
 ## -description

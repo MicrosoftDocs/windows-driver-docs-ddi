@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control, IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS, pos.ioctl_point_of_service_update_statistics
 req.header: pointofservicedriverinterface.h
+req.construct-type: ioctl
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS
 ---
 
-# IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL
+# IOCTL_POINT_OF_SERVICE_UPDATE_STATISTICS IOCTL (pointofservicedriverinterface.h)
+
+
+
+
 
 
 ## -description

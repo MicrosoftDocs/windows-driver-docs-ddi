@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMQueryDeviceSupport function"]
 ms.keywords: OEMQueryDeviceSupport, OEMQueryDeviceSupport function [Print Devices], print.oemquerydevicesupport, print_unidrv-pscript_rendering_9bfec781-8785-4ff6-8abf-6e14233827dc.xml, printoem/OEMQueryDeviceSupport
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMQueryDeviceSupport
 ---
+
+# OEMQueryDeviceSupport function (printoem.h)
 
 ## -description
 

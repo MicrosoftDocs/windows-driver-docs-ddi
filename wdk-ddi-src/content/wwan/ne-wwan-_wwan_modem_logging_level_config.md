@@ -7,6 +7,7 @@ ms.date: 04/11/2019
 keywords: ["WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration"]
 ms.keywords: _WWAN_MODEM_LOGGING_LEVEL_CONFIG WWAN_MODEM_LOGGING_LEVEL_CONFIG *PWWAN_MODEM_LOGGING_LEVEL_CONFIG
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1903
@@ -37,7 +38,9 @@ api_name:
  - WWAN_MODEM_LOGGING_LEVEL_CONFIG
 ---
 
-# _WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration
+# WWAN_MODEM_LOGGING_LEVEL_CONFIG enumeration (wwan.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_MSONEX_RESULT enumeration"]
 ms.keywords: "*PDOT11_MSONEX_RESULT, DOT11_MSONEX_FAILURE, DOT11_MSONEX_IN_PROGRESS, DOT11_MSONEX_RESULT, DOT11_MSONEX_RESULT enumeration [Network Drivers Starting with Windows Vista], DOT11_MSONEX_SUCCESS, Native_802.11_data_types_504c48c9-585e-408b-bb8f-6668cddd7eff.xml, PDOT11_MSONEX_RESULT, PDOT11_MSONEX_RESULT enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_MSONEX_RESULT, netvista.dot11_msonex_result, wlanihv/DOT11_MSONEX_FAILURE, wlanihv/DOT11_MSONEX_IN_PROGRESS, wlanihv/DOT11_MSONEX_RESULT, wlanihv/DOT11_MSONEX_SUCCESS, wlanihv/PDOT11_MSONEX_RESULT"
 req.header: wlanihv.h
+req.construct-type: enumeration
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_MSONEX_RESULT
 ---
 
-# _DOT11_MSONEX_RESULT enumeration
+# DOT11_MSONEX_RESULT enumeration (wlanihv.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 11/28/2022
 keywords: ["IPrintCoreHelper::GetFontSubstitution"]
 ms.keywords: GetFontSubstitution, GetFontSubstitution method [Print Devices], GetFontSubstitution method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],GetFontSubstitution method, IPrintCoreHelper.GetFontSubstitution, IPrintCoreHelper::GetFontSubstitution, prcomoem/IPrintCoreHelper::GetFontSubstitution, print.iprintcorehelper_getfontsubstitution, print_unidrv-pscript_allplugins_04228fad-ab7f-432f-b4b9-dafb18144503.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintCoreHelper::GetFontSubstitution
 ---
+
+# IPrintCoreHelper::GetFontSubstitution function (prcomoem.h)
 
 ## -description
 

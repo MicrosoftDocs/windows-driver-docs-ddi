@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltRemoveExtraCreateParameter function"]
 ms.keywords: FltApiRef_p_to_z_696787f2-1381-451f-aed4-bf307ee58291.xml, FltRemoveExtraCreateParameter, FltRemoveExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltRemoveExtraCreateParameter, ifsk.fltremoveextracreateparameter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltRemoveExtraCreateParameter
 ---
 
-# FltRemoveExtraCreateParameter function
+# FltRemoveExtraCreateParameter function (fltkernel.h)
+
+
 
 
 ## -description

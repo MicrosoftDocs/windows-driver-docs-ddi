@@ -7,6 +7,7 @@ ms.date: 03/01/2022
 keywords: ["D3DKMTSetDisplayPrivateDriverFormat function"]
 ms.keywords: D3DKMTSetDisplayPrivateDriverFormat, D3DKMTSetDisplayPrivateDriverFormat function [Display Devices], OpenGL_Functions_742fb584-0b9d-4650-a0a6-64f3e3f55dff.xml, d3dkmthk/D3DKMTSetDisplayPrivateDriverFormat, display.d3dkmtsetdisplayprivatedriverformat
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSetDisplayPrivateDriverFormat
 ---
 
-# D3DKMTSetDisplayPrivateDriverFormat function
+# D3DKMTSetDisplayPrivateDriverFormat function (d3dkmthk.h)
+
+
 
 ## -description
 

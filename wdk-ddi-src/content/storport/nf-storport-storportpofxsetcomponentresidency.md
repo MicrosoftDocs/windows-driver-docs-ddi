@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortPoFxSetComponentResidency function"]
 ms.keywords: StorPortPoFxSetComponentResidency, StorPortPoFxSetComponentResidency routine [Storage Devices], storage.storportpofxsetcomponentresidency, storport/StorPortPoFxSetComponentResidency
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - StorPortPoFxSetComponentResidency
 ---
 
-# StorPortPoFxSetComponentResidency function
+# StorPortPoFxSetComponentResidency function (storport.h)
+
+
 
 
 ## -description

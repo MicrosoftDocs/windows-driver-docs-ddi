@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_SERVICE_INHERITANCE_TYPES enumeration"]
 ms.keywords: WPD_SERVICE_INHERITANCE_IMPLEMENTATION, WPD_SERVICE_INHERITANCE_TYPES, WPD_SERVICE_INHERITANCE_TYPES enumeration, portabledevice/WPD_SERVICE_INHERITANCE_IMPLEMENTATION, portabledevice/WPD_SERVICE_INHERITANCE_TYPES, tagWPD_SERVICE_INHERITANCE_TYPES, wpddk.wpd_service_inheritance_types
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_SERVICE_INHERITANCE_TYPES
 ---
 
-# tagWPD_SERVICE_INHERITANCE_TYPES enumeration
+# tagWPD_SERVICE_INHERITANCE_TYPES enumeration (portabledevice.h)
+
+
 
 
 ## -description

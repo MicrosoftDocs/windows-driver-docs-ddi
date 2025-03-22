@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmRecoverResourceManager function"]
 ms.keywords: TmRecoverResourceManager, TmRecoverResourceManager routine [Kernel-Mode Driver Architecture], kernel.tmrecoverresourcemanager, ktm_ref_e3f0b5e1-18fc-4edf-9270-f6d01e458166.xml, wdm/TmRecoverResourceManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmRecoverResourceManager
 ---
 
-# TmRecoverResourceManager function
+# TmRecoverResourceManager function (wdm.h)
+
+
 
 
 ## -description

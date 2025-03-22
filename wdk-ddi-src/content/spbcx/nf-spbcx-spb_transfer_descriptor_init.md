@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SPB_TRANSFER_DESCRIPTOR_INIT function"]
 ms.keywords: SPB.spb_transfer_descriptor_init, SPB_TRANSFER_DESCRIPTOR_INIT, SPB_TRANSFER_DESCRIPTOR_INIT function [Buses], spbcx/SPB_TRANSFER_DESCRIPTOR_INIT
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SPB_TRANSFER_DESCRIPTOR_INIT
 ---
 
-# SPB_TRANSFER_DESCRIPTOR_INIT function
+# SPB_TRANSFER_DESCRIPTOR_INIT function (spbcx.h)
+
+
 
 
 ## -description

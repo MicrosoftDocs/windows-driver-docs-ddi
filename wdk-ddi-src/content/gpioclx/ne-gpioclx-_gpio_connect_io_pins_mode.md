@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_CONNECT_IO_PINS_MODE enumeration"]
 ms.keywords: "*PGPIO_CONNECT_IO_PINS_MODE, ConnectModeInput, ConnectModeInvalid, ConnectModeMaximum, ConnectModeOutput, GPIO.gpio_connect_io_pins_mode, GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, gpioclx/ConnectModeInvalid, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeOutput, gpioclx/GPIO_CONNECT_IO_PINS_MODE"
 req.header: gpioclx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_CONNECT_IO_PINS_MODE
 ---
 
-# _GPIO_CONNECT_IO_PINS_MODE enumeration
+# GPIO_CONNECT_IO_PINS_MODE enumeration (gpioclx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["TranslateVirtualToPhysical function"]
 ms.keywords: TranslateVirtualToPhysical, TranslateVirtualToPhysical function [Windows Debugging], WdbgExts_Ref_ec3ff314-8800-4f77-a40e-e127e6cf0133.xml, debugger.translatevirtualtophysical, wdbgexts/TranslateVirtualToPhysical
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TranslateVirtualToPhysical
 ---
 
-# TranslateVirtualToPhysical function
+# TranslateVirtualToPhysical function (wdbgexts.h)
+
+
 
 
 ## -description

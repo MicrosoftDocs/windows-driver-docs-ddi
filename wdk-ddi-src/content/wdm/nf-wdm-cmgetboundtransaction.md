@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CmGetBoundTransaction function"]
 ms.keywords: CmGetBoundTransaction, CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml, kernel.cmgetboundtransaction, wdm/CmGetBoundTransaction
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - CmGetBoundTransaction
 ---
 
-# CmGetBoundTransaction function
+# CmGetBoundTransaction function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwFlushKey function"]
 ms.keywords: NtFlushKey, ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, kernel.zwflushkey, wdm/NtFlushKey, wdm/ZwFlushKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwFlushKey
 ---
+
+# ZwFlushKey function (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SWENUM_INSTALL_INTERFACE IOCTL"]
 ms.keywords: IOCTL_SWENUM_INSTALL_INTERFACE, IOCTL_SWENUM_INSTALL_INTERFACE control, IOCTL_SWENUM_INSTALL_INTERFACE control code [Streaming Media Devices], stream.ioctl_swenum_install_interface, swenum/IOCTL_SWENUM_INSTALL_INTERFACE
 req.header: swenum.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SWENUM_INSTALL_INTERFACE
 ---
 
-# IOCTL_SWENUM_INSTALL_INTERFACE IOCTL
+# IOCTL_SWENUM_INSTALL_INTERFACE IOCTL (swenum.h)
+
+
+
+
 
 
 ## -description

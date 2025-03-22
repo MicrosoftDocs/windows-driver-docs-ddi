@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MsrDataEncryption enumeration"]
 ms.keywords: MsrDataEncryption, MsrDataEncryption enumeration, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption_ExtendedBase, MsrDataEncryption_None, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_None, pos.msrdataencryption
 req.header: pointofservicedriverinterface.h
+req.construct-type: enumeration
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - MsrDataEncryption
 ---
 
-# _MsrDataEncryption enumeration
+# MsrDataEncryption enumeration (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["ClfsTerminateReadLog function"]
 ms.keywords: ClfsTerminateReadLog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, kernel.clfsterminatereadlog, wdm/ClfsTerminateReadLog
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ClfsTerminateReadLog
 ---
+
+# ClfsTerminateReadLog function (wdm.h)
 
 ## -description
 

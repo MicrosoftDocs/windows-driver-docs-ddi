@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlGetVersion function"]
 ms.keywords: RtlGetVersion, RtlGetVersion routine [Kernel-Mode Driver Architecture], k109_7e44c42c-d5c6-4727-b529-7e55b308fddd.xml, kernel.rtlgetversion, wdm/RtlGetVersion
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlGetVersion
 ---
 
-# RtlGetVersion function
+# RtlGetVersion function (wdm.h)
+
+
 
 
 ## -description

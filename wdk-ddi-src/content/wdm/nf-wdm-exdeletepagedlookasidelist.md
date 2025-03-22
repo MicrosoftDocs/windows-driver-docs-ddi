@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExDeletePagedLookasideList function"]
 ms.keywords: ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist, wdm/ExDeletePagedLookasideList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExDeletePagedLookasideList
 ---
 
-# ExDeletePagedLookasideList function
+# ExDeletePagedLookasideList function (wdm.h)
+
+
 
 
 ## -description

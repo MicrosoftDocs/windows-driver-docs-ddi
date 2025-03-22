@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasReadPropStr function"]
 ms.keywords: image.wiasreadpropstr, wiamdef/wiasReadPropStr, wiasFncs_b0756dcf-44dd-4a9f-ad9a-1edff1b8e6f6.xml, wiasReadPropStr, wiasReadPropStr function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasReadPropStr
 ---
 
-# wiasReadPropStr function
+# wiasReadPropStr function (wiamdef.h)
+
+
 
 
 ## -description

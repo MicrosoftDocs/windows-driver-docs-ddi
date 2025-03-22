@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetMdl function"]
 ms.keywords: VideoPortGetMdl, VideoPortGetMdl function [Display Devices], VideoPort_Functions_570b04cd-9b69-4d1a-b953-7220d4fc7790.xml, display.videoportgetmdl, video/VideoPortGetMdl
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetMdl
 ---
 
-# VideoPortGetMdl function
+# VideoPortGetMdl function (video.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTInvalidateActiveVidPn function"]
 ms.keywords: D3DKMTInvalidateActiveVidPn, D3DKMTInvalidateActiveVidPn function [Display Devices], OpenGL_Functions_3c74c218-cf17-4a86-af8e-da565b3cffd4.xml, d3dkmthk/D3DKMTInvalidateActiveVidPn, display.d3dkmtinvalidateactivevidpn
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems for display miniport drivers with version < DXGKDDI_INTERFACE_VERSION_WIN7.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTInvalidateActiveVidPn
 ---
 
-# D3DKMTInvalidateActiveVidPn function
+# D3DKMTInvalidateActiveVidPn function (d3dkmthk.h)
+
+
 
 ## -description
 

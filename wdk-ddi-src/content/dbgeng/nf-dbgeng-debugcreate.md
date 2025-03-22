@@ -8,6 +8,7 @@ ms.date: 02/06/2022
 keywords: ["DebugCreate function"]
 ms.keywords: ClientFns_4a96fd16-32b9-40f5-bc7f-60ae6ecadb32.xml, DebugCreate, DebugCreate function [Windows Debugging], dbgeng/DebugCreate, debugger.debugcreate
 req.header: dbgeng.h
+req.construct-type: function
 req.include-header: Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DebugCreate
 ---
 
-# DebugCreate function
+# DebugCreate function (dbgeng.h)
+
+
 
 
 ## -description

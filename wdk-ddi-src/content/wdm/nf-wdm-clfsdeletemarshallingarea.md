@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsDeleteMarshallingArea function"]
 ms.keywords: ClfsDeleteMarshallingArea, ClfsDeleteMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_a015edd3-4625-4b24-995f-75217a711528.xml, kernel.clfsdeletemarshallingarea, wdm/ClfsDeleteMarshallingArea
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsDeleteMarshallingArea
 ---
 
-# ClfsDeleteMarshallingArea function
+# ClfsDeleteMarshallingArea function (wdm.h)
+
+
 
 
 ## -description

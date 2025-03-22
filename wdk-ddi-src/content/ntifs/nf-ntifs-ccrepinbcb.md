@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcRepinBcb function"]
 ms.keywords: CcRepinBcb, CcRepinBcb routine [Installable File System Drivers], ccref_5aacfd67-3d6c-4be6-9bfa-5b85772ce32f.xml, ifsk.ccrepinbcb, ntifs/CcRepinBcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcRepinBcb
 ---
 
-# CcRepinBcb function
+# CcRepinBcb function (ntifs.h)
+
+
 
 
 ## -description

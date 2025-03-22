@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_ADD_ACTIVITY_BROADCAST IOCTL"]
 ms.keywords: IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control, IOCTL_DOT4_ADD_ACTIVITY_BROADCAST control code [Print Devices], d4drvif/IOCTL_DOT4_ADD_ACTIVITY_BROADCAST, print.ioctl_ioctl_dot4_add_activity_broadcast
 req.header: d4drvif.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DOT4_ADD_ACTIVITY_BROADCAST
 ---
 
-# IOCTL_DOT4_ADD_ACTIVITY_BROADCAST IOCTL
+# IOCTL_DOT4_ADD_ACTIVITY_BROADCAST IOCTL (d4drvif.h)
+
+
+
+
 
 
 ## -description

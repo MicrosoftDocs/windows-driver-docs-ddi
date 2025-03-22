@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDeviceGetFirstChildFilterFactory function"]
 ms.keywords: KsDeviceGetFirstChildFilterFactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, ks/KsDeviceGetFirstChildFilterFactory, stream.ksdevicegetfirstchildfilterfactory
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsDeviceGetFirstChildFilterFactory
 ---
 
-# KsDeviceGetFirstChildFilterFactory function
+# KsDeviceGetFirstChildFilterFactory function (ks.h)
+
+
 
 
 ## -description

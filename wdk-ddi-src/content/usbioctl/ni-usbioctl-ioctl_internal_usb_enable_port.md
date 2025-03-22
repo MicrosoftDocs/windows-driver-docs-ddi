@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_ENABLE_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_ENABLE_PORT, IOCTL_INTERNAL_USB_ENABLE_PORT control, IOCTL_INTERNAL_USB_ENABLE_PORT control code [Buses], buses.ioctl_internal_usb_enable_port, usbioctl/IOCTL_INTERNAL_USB_ENABLE_PORT, usbirp_eee71b69-fc0a-446a-807b-6f776e634c9d.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Microsoft Windows 2000, Windows XP and Windows Server 2003. It is not supported in Windows Vista and later operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_ENABLE_PORT
 ---
 
-# IOCTL_INTERNAL_USB_ENABLE_PORT IOCTL
+# IOCTL_INTERNAL_USB_ENABLE_PORT IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

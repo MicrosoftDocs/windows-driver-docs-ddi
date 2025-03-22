@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetPowerOffloadGetType function"]
 ms.keywords: NetPowerOffloadGetType
 req.header: netpoweroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetPowerOffloadGetType
 ---
 
-# NetPowerOffloadGetType function
+# NetPowerOffloadGetType function (netpoweroffload.h)
+
+
 
 
 ## -description

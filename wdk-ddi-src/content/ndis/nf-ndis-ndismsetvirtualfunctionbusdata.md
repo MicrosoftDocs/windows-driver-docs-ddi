@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMSetVirtualFunctionBusData function"]
 ms.keywords: NdisMSetVirtualFunctionBusData, NdisMSetVirtualFunctionBusData function [Network Drivers Starting with Windows Vista], ndis/NdisMSetVirtualFunctionBusData, netvista.ndismsetvirtualfunctionbusdata
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMSetVirtualFunctionBusData
 ---
 
-# NdisMSetVirtualFunctionBusData function
+# NdisMSetVirtualFunctionBusData function (ndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTSetContextInProcessSchedulingPriority function"]
 ms.keywords: D3DKMTSetContextInProcessSchedulingPriority, D3DKMTSetContextInProcessSchedulingPriority function [Display Devices], d3dkmthk/D3DKMTSetContextInProcessSchedulingPriority, display.d3dkmtsetcontextinprocessschedulingpriority
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSetContextInProcessSchedulingPriority
 ---
 
-# D3DKMTSetContextInProcessSchedulingPriority function
+# D3DKMTSetContextInProcessSchedulingPriority function (d3dkmthk.h)
+
+
 
 ## -description
 

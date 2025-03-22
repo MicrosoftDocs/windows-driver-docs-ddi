@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["ObDereferenceObject macro"]
 ms.keywords: ObDereferenceObject, ObDereferenceObject routine [Kernel-Mode Driver Architecture], k107_bc67abd9-66b2-4cd7-81c0-48ad0fa6c87d.xml, kernel.obdereferenceobject, wdm/ObDereferenceObject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ObDereferenceObject
 ---
+
+# ObDereferenceObject function (wdm.h)
 
 ## -description
 

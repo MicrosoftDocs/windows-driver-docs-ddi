@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxPostOneShotTimerRequest function"]
 ms.keywords: RxPostOneShotTimerRequest, RxPostOneShotTimerRequest routine [Installable File System Drivers], ifsk.rxpostoneshottimerrequest, rxref_9fb32d67-ac0a-4f85-b999-5f5beaf6b26f.xml, rxtimer/RxPostOneShotTimerRequest
 req.header: rxtimer.h
+req.construct-type: function
 req.include-header: Rxtimer.h, Rxworkq.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxPostOneShotTimerRequest
 ---
 
-# RxPostOneShotTimerRequest function
+# RxPostOneShotTimerRequest function (rxtimer.h)
+
+
 
 
 ## -description

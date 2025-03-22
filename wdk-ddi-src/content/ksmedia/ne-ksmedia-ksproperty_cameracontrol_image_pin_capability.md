@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY, ksmedia/KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY_PROPERTY_ID, stream.ksproperty_cameracontrol_image_pin_capability
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY
 ---
 
-# KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration
+# KSPROPERTY_CAMERACONTROL_IMAGE_PIN_CAPABILITY enumeration (ksmedia.h)
+
+
 
 
 ## -description

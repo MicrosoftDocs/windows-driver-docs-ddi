@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetVersion function"]
 ms.keywords: VideoPortGetVersion, VideoPortGetVersion function [Display Devices], VideoPort_Functions_b616e0f2-430a-43ca-a43f-44cdcaec757f.xml, display.videoportgetversion, video/VideoPortGetVersion
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetVersion
 ---
 
-# VideoPortGetVersion function
+# VideoPortGetVersion function (video.h)
+
+
 
 
 ## -description

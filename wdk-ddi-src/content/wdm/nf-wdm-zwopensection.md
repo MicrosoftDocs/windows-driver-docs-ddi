@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwOpenSection function"]
 ms.keywords: NtOpenSection, ZwOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture], k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, kernel.zwopensection, wdm/NtOpenSection, wdm/ZwOpenSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwOpenSection
 ---
+
+# ZwOpenSection function (wdm.h)
 
 ## -description
 

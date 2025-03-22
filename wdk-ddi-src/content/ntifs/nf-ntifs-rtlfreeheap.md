@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlFreeHeap function"]
 ms.keywords: RtlFreeHeap, RtlFreeHeap routine [Installable File System Drivers], ifsk.rtlfreeheap, ntifs/RtlFreeHeap, rtlref_02e7cb93-ec45-41c9-8e58-72c221cece37.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - RtlFreeHeap
 ---
 
-# RtlFreeHeap function
+# RtlFreeHeap function (ntifs.h)
+
+
 
 
 ## -description

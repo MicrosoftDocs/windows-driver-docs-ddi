@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetPropertyAttributes function"]
 ms.keywords: image.wiasgetpropertyattributes, wiamdef/wiasGetPropertyAttributes, wiasFncs_d1a6ee77-54bc-400f-a670-e39889c71835.xml, wiasGetPropertyAttributes, wiasGetPropertyAttributes function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetPropertyAttributes
 ---
 
-# wiasGetPropertyAttributes function
+# wiasGetPropertyAttributes function (wiamdef.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX2_TRANSACTION_TYPE enumeration"]
 ms.keywords: 2/SERCX2_TRANSACTION_TYPE, 2/SerCx2TransactionTypeCustom, 2/SerCx2TransactionTypeDefault, 2/SerCx2TransactionTypePio, 2/SerCx2TransactionTypeSystemDma, SERCX2_TRANSACTION_TYPE, SERCX2_TRANSACTION_TYPE enumeration [Serial Ports], SerCx2TransactionTypeCustom, SerCx2TransactionTypeDefault, SerCx2TransactionTypePio, SerCx2TransactionTypeSystemDma, _SERCX2_TRANSACTION_TYPE, serports.sercx2_transaction_type
 req.header: sercx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - SERCX2_TRANSACTION_TYPE
 ---
 
-# _SERCX2_TRANSACTION_TYPE enumeration
+# SERCX2_TRANSACTION_TYPE enumeration (sercx.h)
+
+
 
 
 ## -description

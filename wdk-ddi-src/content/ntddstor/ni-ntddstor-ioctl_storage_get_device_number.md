@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL"]
 ms.keywords: IOCTL_STORAGE_GET_DEVICE_NUMBER, IOCTL_STORAGE_GET_DEVICE_NUMBER control, IOCTL_STORAGE_GET_DEVICE_NUMBER control code [Storage Devices], k307_d4d6bd65-7f75-4810-90ce-edd3dec950be.xml, ntddstor/IOCTL_STORAGE_GET_DEVICE_NUMBER, storage.ioctl_storage_get_device_number
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_GET_DEVICE_NUMBER
 ---
 
-# IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL
+# IOCTL_STORAGE_GET_DEVICE_NUMBER IOCTL (ntddstor.h)
+
+
+
+
 
 ## -description
 

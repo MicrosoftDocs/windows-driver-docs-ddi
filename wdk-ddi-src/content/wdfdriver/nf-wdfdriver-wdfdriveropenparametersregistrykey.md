@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDriverOpenParametersRegistryKey function"]
 ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, wdfdriver/WdfDriverOpenParametersRegistryKey
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDriverOpenParametersRegistryKey
 ---
 
-# WdfDriverOpenParametersRegistryKey function
+# WdfDriverOpenParametersRegistryKey function (wdfdriver.h)
+
+
 
 
 ## -description

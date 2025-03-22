@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerGetStatus function"]
 ms.keywords: ChangerGetStatus, ChangerGetStatus function [Storage Devices], chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, mcd/ChangerGetStatus, storage.changergetstatus
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerGetStatus
 ---
 
-# ChangerGetStatus function
+# ChangerGetStatus function (mcd.h)
+
+
 
 
 ## -description

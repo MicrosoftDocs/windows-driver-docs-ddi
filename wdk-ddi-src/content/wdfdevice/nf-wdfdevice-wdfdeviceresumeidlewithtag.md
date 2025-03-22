@@ -7,6 +7,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceResumeIdleWithTag macro"]
 ms.keywords: DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdleWithTag, WdfDeviceResumeIdleWithTag method, kmdf.WdfDeviceResumeIdleWithTag, wdf.WdfDeviceResumeIdleWithTag, wdfdevice/WdfDeviceResumeIdleWithTag
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - WdfDeviceResumeIdleWithTag
 ---
 
-# WdfDeviceResumeIdleWithTag macro
+# WdfDeviceResumeIdleWithTag function (wdfdevice.h)
+
+
 
 
 ## -description

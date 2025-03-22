@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_SUBMIT_RECORD, IOCTL_BTH_SDP_SUBMIT_RECORD control, IOCTL_BTH_SDP_SUBMIT_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_submit_record, bth_ioctls_e32ecb99-7a41-4405-844e-8c1038d3cb89.xml, bthioctl/IOCTL_BTH_SDP_SUBMIT_RECORD
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_SDP_SUBMIT_RECORD
 ---
 
-# IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL
+# IOCTL_BTH_SDP_SUBMIT_RECORD IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

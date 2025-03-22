@@ -7,6 +7,7 @@ ms.date: 12/06/2022
 keywords: ["IoReportRootDevice function"]
 ms.keywords: IoReportRootDevice, IoReportRootDevice routine [Kernel-Mode Driver Architecture], kernel.ioreportrootdevice, ntddk/IoReportRootDevice
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoReportRootDevice
 ---
+
+# IoReportRootDevice function (ntddk.h)
 
 ## -description
 

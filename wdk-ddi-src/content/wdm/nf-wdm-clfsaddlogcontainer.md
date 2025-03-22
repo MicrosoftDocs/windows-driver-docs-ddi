@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsAddLogContainer function"]
 ms.keywords: ClfsAddLogContainer, ClfsAddLogContainer routine [Kernel-Mode Driver Architecture], Clfs_30478f90-41d2-4a83-8291-83b90601dc11.xml, kernel.clfsaddlogcontainer, wdm/ClfsAddLogContainer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsAddLogContainer
 ---
 
-# ClfsAddLogContainer function
+# ClfsAddLogContainer function (wdm.h)
+
+
 
 
 ## -description

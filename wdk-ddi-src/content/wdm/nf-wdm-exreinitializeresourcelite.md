@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExReinitializeResourceLite function"]
 ms.keywords: ExReinitializeResourceLite, ExReinitializeResourceLite routine [Kernel-Mode Driver Architecture], k102_dc743b18-db19-4536-a862-e313e201d4d8.xml, kernel.exreinitializeresourcelite, wdm/ExReinitializeResourceLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExReinitializeResourceLite
 ---
 
-# ExReinitializeResourceLite function
+# ExReinitializeResourceLite function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SdBusSubmitRequestAsync function"]
 ms.keywords: SD.sdbussubmitrequestasync, SdBusSubmitRequestAsync, SdBusSubmitRequestAsync function [Buses], ntddsd/SdBusSubmitRequestAsync, sd-rtns_69f249eb-f2e8-48fa-8857-b47c732faea6.xml
 req.header: ntddsd.h
+req.construct-type: function
 req.include-header: Ntddsd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SdBusSubmitRequestAsync
 ---
 
-# SdBusSubmitRequestAsync function
+# SdBusSubmitRequestAsync function (ntddsd.h)
+
+
 
 
 ## -description

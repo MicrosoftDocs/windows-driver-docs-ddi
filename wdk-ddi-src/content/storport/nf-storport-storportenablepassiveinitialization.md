@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortEnablePassiveInitialization function"]
 ms.keywords: StorPortEnablePassiveInitialization, StorPortEnablePassiveInitialization routine [Storage Devices], storage.storportenablepassiveinitialization, storport/StorPortEnablePassiveInitialization, storprt_faea18e4-c684-4010-aca4-177132c011c5.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortEnablePassiveInitialization
 ---
 
-# StorPortEnablePassiveInitialization function
+# StorPortEnablePassiveInitialization function (storport.h)
+
+
 
 
 ## -description

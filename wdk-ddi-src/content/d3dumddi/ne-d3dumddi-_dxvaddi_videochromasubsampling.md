@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_VIDEOCHROMASUBSAMPLING enumeration"]
 ms.keywords: DXVA2_Structs_19b84102-b287-43e4-87e5-98bcc8b2bec8.xml, DXVADDI_VIDEOCHROMASUBSAMPLING, DXVADDI_VIDEOCHROMASUBSAMPLING enumeration [Display Devices], DXVADDI_VideoChromaSubsamplingMask, DXVADDI_VideoChromaSubsampling_Cosited, DXVADDI_VideoChromaSubsampling_DV_PAL, DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, DXVADDI_VideoChromaSubsampling_MPEG1, DXVADDI_VideoChromaSubsampling_MPEG2, DXVADDI_VideoChromaSubsampling_ProgressiveChroma, DXVADDI_VideoChromaSubsampling_Unknown, DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, DXVADDI_VideoChromaSubsampling_Vertically_Cosited, _DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VIDEOCHROMASUBSAMPLING, d3dumddi/DXVADDI_VideoChromaSubsamplingMask, d3dumddi/DXVADDI_VideoChromaSubsampling_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_DV_PAL, d3dumddi/DXVADDI_VideoChromaSubsampling_Horizontally_Cosited, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG1, d3dumddi/DXVADDI_VideoChromaSubsampling_MPEG2, d3dumddi/DXVADDI_VideoChromaSubsampling_ProgressiveChroma, d3dumddi/DXVADDI_VideoChromaSubsampling_Unknown, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_AlignedChromaPlanes, d3dumddi/DXVADDI_VideoChromaSubsampling_Vertically_Cosited, display.dxvaddi_videochromasubsampling
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_VIDEOCHROMASUBSAMPLING
 ---
 
-# _DXVADDI_VIDEOCHROMASUBSAMPLING enumeration
+# DXVADDI_VIDEOCHROMASUBSAMPLING enumeration (d3dumddi.h)
+
+
 
 
 ## -description

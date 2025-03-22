@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetDrvItem function"]
 ms.keywords: image.wiasgetdrvitem, wiamdef/wiasGetDrvItem, wiasFncs_47e70917-9675-4291-a76a-46aa734efef3.xml, wiasGetDrvItem, wiasGetDrvItem function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetDrvItem
 ---
 
-# wiasGetDrvItem function
+# wiasGetDrvItem function (wiamdef.h)
+
+
 
 
 ## -description

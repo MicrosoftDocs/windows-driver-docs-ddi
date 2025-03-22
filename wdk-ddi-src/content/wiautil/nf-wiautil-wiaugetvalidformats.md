@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauGetValidFormats function"]
 ms.keywords: image.wiaugetvalidformats, wiauFncs_f311862b-03fe-4fe6-8b30-46cd9a53513b.xml, wiauGetValidFormats, wiauGetValidFormats function [Imaging Devices], wiautil/wiauGetValidFormats
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauGetValidFormats
 ---
 
-# wiauGetValidFormats function
+# wiauGetValidFormats function (wiautil.h)
+
+
 
 
 ## -description

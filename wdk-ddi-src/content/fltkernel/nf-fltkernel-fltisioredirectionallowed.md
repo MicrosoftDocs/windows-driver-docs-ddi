@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltIsIoRedirectionAllowed function"]
 ms.keywords: FltIsIoRedirectionAllowed, FltIsIoRedirectionAllowed routine [Installable File System Drivers], fltkernel/FltIsIoRedirectionAllowed, ifsk.fltisioredirectionallowed
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - FltIsIoRedirectionAllowed
 ---
 
-# FltIsIoRedirectionAllowed function
+# FltIsIoRedirectionAllowed function (fltkernel.h)
+
+
 
 
 ## -description

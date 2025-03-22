@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListCreate function"]
 ms.keywords: DFDeviceObjectChildListRef_750e00c2-f0a0-4a3f-a357-09de7568e268.xml, WdfChildListCreate, WdfChildListCreate method, kmdf.wdfchildlistcreate, wdf.wdfchildlistcreate, wdfchildlist/WdfChildListCreate
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListCreate
 ---
 
-# WdfChildListCreate function
+# WdfChildListCreate function (wdfchildlist.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfQueryBindingIfIndex function"]
 ms.keywords: NdisIfQueryBindingIfIndex, NdisIfQueryBindingIfIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfQueryBindingIfIndex, net_if_functions_ref_eacdb959-2a12-4688-9e83-7454c579e2d3.xml, netvista.ndisifquerybindingifindex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfQueryBindingIfIndex
 ---
 
-# NdisIfQueryBindingIfIndex function
+# NdisIfQueryBindingIfIndex function (ndis.h)
+
+
 
 
 ## -description

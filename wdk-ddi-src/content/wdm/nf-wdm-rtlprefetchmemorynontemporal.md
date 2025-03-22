@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlPrefetchMemoryNonTemporal function"]
 ms.keywords: RtlPrefetchMemoryNonTemporal, RtlPrefetchMemoryNonTemporal routine [Kernel-Mode Driver Architecture], k109_795dffef-c947-4f0b-a8ab-fcc0cb6cc630.xml, kernel.rtlprefetchmemorynontemporal, wdm/RtlPrefetchMemoryNonTemporal
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h, Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlPrefetchMemoryNonTemporal
 ---
 
-# RtlPrefetchMemoryNonTemporal function
+# RtlPrefetchMemoryNonTemporal function (wdm.h)
+
+
 
 
 ## -description

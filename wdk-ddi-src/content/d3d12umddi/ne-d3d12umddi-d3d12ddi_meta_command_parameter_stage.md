@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_META_COMMAND_PARAMETER_STAGE enumeration"]
 ms.keywords: D3D12DDI_META_COMMAND_PARAMETER_STAGE, D3D12DDI_META_COMMAND_PARAMETER_STAGE,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_META_COMMAND_PARAMETER_STAGE enumeration
+# D3D12DDI_META_COMMAND_PARAMETER_STAGE enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

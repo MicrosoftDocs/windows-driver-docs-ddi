@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL control code co
 ms.date: 07/20/2023
 keywords: ["IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE
 ---
 
-# IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL
+# IOCTL_SBAUD_GET_CONNECTION_STATUS_UPDATE IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

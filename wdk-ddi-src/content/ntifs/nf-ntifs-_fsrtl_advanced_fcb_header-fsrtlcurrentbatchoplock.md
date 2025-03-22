@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlCurrentBatchOplock function"]
 ms.keywords: FsRtlCurrentBatchOplock, FsRtlCurrentBatchOplock function [Installable File System Drivers], fsrtlref_d5d16133-2531-4e50-85b7-381740d45d9a.xml, ifsk.fsrtlcurrentbatchoplock, ntifs/FsRtlCurrentBatchOplock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlCurrentBatchOplock
 ---
 
-# FsRtlCurrentBatchOplock function
+# FsRtlCurrentBatchOplock function (ntifs.h)
+
+
 
 
 ## -description

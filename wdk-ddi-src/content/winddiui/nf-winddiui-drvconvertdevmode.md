@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DrvConvertDevMode function"]
 ms.keywords: DrvConvertDevMode, DrvConvertDevMode function [Print Devices], print.drvconvertdevmode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, winddiui/DrvConvertDevMode
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DrvConvertDevMode
 ---
 
-# DrvConvertDevMode function
+# DrvConvertDevMode function (winddiui.h)
+
+
 
 
 ## -description

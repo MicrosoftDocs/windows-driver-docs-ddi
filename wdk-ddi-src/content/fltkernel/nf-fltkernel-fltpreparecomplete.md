@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltPrepareComplete function"]
 ms.keywords: FltApiRef_p_to_z_830f8ae7-b7b1-4c97-8415-9ba3f4f6c9ea.xml, FltPrepareComplete, FltPrepareComplete routine [Installable File System Drivers], fltkernel/FltPrepareComplete, ifsk.fltpreparecomplete
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltPrepareComplete routine is available on Windows Vista and later.
@@ -40,7 +41,9 @@ api_name:
  - FltPrepareComplete
 ---
 
-# FltPrepareComplete function
+# FltPrepareComplete function (fltkernel.h)
+
+
 
 
 ## -description

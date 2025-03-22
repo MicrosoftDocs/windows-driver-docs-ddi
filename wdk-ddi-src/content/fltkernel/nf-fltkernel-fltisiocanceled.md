@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltIsIoCanceled function"]
 ms.keywords: FltApiRef_e_to_o_00dccf3a-3f69-4c6c-b5c6-1d7371e4afbc.xml, FltIsIoCanceled, FltIsIoCanceled routine [Installable File System Drivers], fltkernel/FltIsIoCanceled, ifsk.fltisiocanceled
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltIsIoCanceled
 ---
 
-# FltIsIoCanceled function
+# FltIsIoCanceled function (fltkernel.h)
+
+
 
 
 ## -description

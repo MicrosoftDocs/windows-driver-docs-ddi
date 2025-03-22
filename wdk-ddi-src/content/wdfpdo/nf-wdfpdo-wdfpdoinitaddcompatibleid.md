@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitAddCompatibleID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, kmdf.wdfpdoinitaddcompatibleid, wdf.wdfpdoinitaddcompatibleid, wdfpdo/WdfPdoInitAddCompatibleID
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitAddCompatibleID
 ---
 
-# WdfPdoInitAddCompatibleID function
+# WdfPdoInitAddCompatibleID function (wdfpdo.h)
+
+
 
 
 ## -description

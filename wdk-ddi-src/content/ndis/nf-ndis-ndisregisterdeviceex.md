@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisRegisterDeviceEx function"]
 ms.keywords: NdisRegisterDeviceEx, NdisRegisterDeviceEx function [Network Drivers Starting with Windows Vista], ndis/NdisRegisterDeviceEx, ndis_devices_ref_57ed58e5-f149-4cbe-ad9d-667f433a7e77.xml, netvista.ndisregisterdeviceex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisRegisterDeviceEx
 ---
 
-# NdisRegisterDeviceEx function
+# NdisRegisterDeviceEx function (ndis.h)
+
+
 
 
 ## -description

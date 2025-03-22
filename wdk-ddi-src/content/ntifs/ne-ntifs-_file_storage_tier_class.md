@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["FILE_STORAGE_TIER_CLASS enumeration"]
 ms.keywords: _FILE_STORAGE_TIER_CLASS, FILE_STORAGE_TIER_CLASS, *PFILE_STORAGE_TIER_CLASS,
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _FILE_STORAGE_TIER_CLASS enumeration
+# FILE_STORAGE_TIER_CLASS enumeration (ntifs.h)
+
+
 
 
 ## -description

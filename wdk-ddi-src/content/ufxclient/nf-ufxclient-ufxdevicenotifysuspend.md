@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifySuspend function"]
 ms.keywords: UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend, ufxclient/UfxDeviceNotifySuspend
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceNotifySuspend
 ---
 
-# UfxDeviceNotifySuspend function
+# UfxDeviceNotifySuspend function (ufxclient.h)
+
+
 
 
 ## -description

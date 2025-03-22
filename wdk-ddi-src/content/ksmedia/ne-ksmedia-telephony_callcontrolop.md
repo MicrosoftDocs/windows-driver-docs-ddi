@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["TELEPHONY_CALLCONTROLOP enumeration"]
 ms.keywords: TELEPHONY_CALLCONTROLOP, TELEPHONY_CALLCONTROLOP enumeration [Audio Devices], TELEPHONY_CALLCONTROLOP_DISABLE, TELEPHONY_CALLCONTROLOP_ENABLE, audio.telephony_callcontrolop, ksmedia/TELEPHONY_CALLCONTROLOP, ksmedia/TELEPHONY_CALLCONTROLOP_DISABLE, ksmedia/TELEPHONY_CALLCONTROLOP_ENABLE
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 Mobile
@@ -40,7 +41,9 @@ api_name:
  - TELEPHONY_CALLCONTROLOP
 ---
 
-# TELEPHONY_CALLCONTROLOP enumeration
+# TELEPHONY_CALLCONTROLOP enumeration (ksmedia.h)
+
+
 
 
 ## -description

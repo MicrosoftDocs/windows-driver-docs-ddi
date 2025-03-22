@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_PMI_GET_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_PMI_GET_CONFIGURATION, IOCTL_PMI_GET_CONFIGURATION control, IOCTL_PMI_GET_CONFIGURATION control code [Power Metering and Budgeting Devices], PowerMeterRef_7d1f1fbc-cd7a-4885-8d41-8f42c4659de7.xml, pmi/IOCTL_PMI_GET_CONFIGURATION, powermeter.ioctl_pmi_get_configuration
 req.header: pmi.h
+req.construct-type: ioctl
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PMI_GET_CONFIGURATION
 ---
 
-# IOCTL_PMI_GET_CONFIGURATION IOCTL
+# IOCTL_PMI_GET_CONFIGURATION IOCTL (pmi.h)
+
+
+
+
 
 
 ## -description

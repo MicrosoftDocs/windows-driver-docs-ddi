@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsQueryTotalCycleTimeProcess function"]
 ms.keywords: PsQueryTotalCycleTimeProcess, PsQueryTotalCycleTimeProcess routine [Kernel-Mode Driver Architecture], kernel.psquerytotalcycletimeprocess, wdm/PsQueryTotalCycleTimeProcess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - PsQueryTotalCycleTimeProcess
 ---
 
-# PsQueryTotalCycleTimeProcess function
+# PsQueryTotalCycleTimeProcess function (wdm.h)
+
+
 
 
 ## -description

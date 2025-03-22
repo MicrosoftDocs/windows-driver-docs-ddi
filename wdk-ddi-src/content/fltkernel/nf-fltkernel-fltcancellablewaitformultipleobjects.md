@@ -8,6 +8,7 @@ ms.date: 12/09/2021
 keywords: ["FltCancellableWaitForMultipleObjects function"]
 ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ifsk.fltcancellablewaitformultipleobjects, ntifs/FltCancellableWaitForMultipleObjects
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - FltCancellableWaitForMultipleObjects
 ---
 
-# FltCancellableWaitForMultipleObjects function
+# FltCancellableWaitForMultipleObjects function (fltkernel.h)
+
+
 
 ## -description
 

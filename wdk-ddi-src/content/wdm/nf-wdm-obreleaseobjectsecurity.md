@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObReleaseObjectSecurity function"]
 ms.keywords: ObReleaseObjectSecurity, ObReleaseObjectSecurity routine [Kernel-Mode Driver Architecture], k107_b43166d5-3dac-420a-803e-053b272d3405.xml, kernel.obreleaseobjectsecurity, wdm/ObReleaseObjectSecurity
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ObReleaseObjectSecurity
 ---
 
-# ObReleaseObjectSecurity function
+# ObReleaseObjectSecurity function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltIsVolumeWritable function"]
 ms.keywords: FltApiRef_e_to_o_8b8316b0-5943-425e-a978-a2999629f93c.xml, FltIsVolumeWritable, FltIsVolumeWritable routine [Installable File System Drivers], fltkernel/FltIsVolumeWritable, ifsk.fltisvolumewritable
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltIsVolumeWritable routine is available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - FltIsVolumeWritable
 ---
 
-# FltIsVolumeWritable function
+# FltIsVolumeWritable function (fltkernel.h)
+
+
 
 
 ## -description

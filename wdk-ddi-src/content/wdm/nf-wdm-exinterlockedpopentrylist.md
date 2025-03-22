@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedPopEntryList function"]
 ms.keywords: ExInterlockedPopEntryList, ExInterlockedPopEntryList routine [Kernel-Mode Driver Architecture], k102_4673c5a1-a650-48c3-934f-c35c202277cc.xml, kernel.exinterlockedpopentrylist, wdm/ExInterlockedPopEntryList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedPopEntryList
 ---
 
-# ExInterlockedPopEntryList function
+# ExInterlockedPopEntryList function (wdm.h)
+
+
 
 
 ## -description

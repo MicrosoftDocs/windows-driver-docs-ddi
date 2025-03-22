@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltRetainSwappedBufferMdlAddress function"]
 ms.keywords: FltApiRef_p_to_z_3832baaa-37bc-47cc-9df4-12c92fd0ddd8.xml, FltRetainSwappedBufferMdlAddress, FltRetainSwappedBufferMdlAddress function [Installable File System Drivers], fltkernel/FltRetainSwappedBufferMdlAddress, ifsk.fltretainswappedbuffermdladdress
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltRetainSwappedBufferMdlAddress
 ---
 
-# FltRetainSwappedBufferMdlAddress function
+# FltRetainSwappedBufferMdlAddress function (fltkernel.h)
+
+
 
 
 ## -description

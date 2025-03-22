@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_UPGRADE_VOLUME
 ---
 
-# FSCTL_UPGRADE_VOLUME ioctl (ntifs.h)
+# FSCTL_UPGRADE_VOLUME IOCTL (ntifs.h)
+
+
 
 ## -description
 

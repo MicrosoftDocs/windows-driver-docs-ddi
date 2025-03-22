@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoInvalidateDeviceState function"]
 ms.keywords: IoInvalidateDeviceState, IoInvalidateDeviceState routine [Kernel-Mode Driver Architecture], k104_05ef79e6-a7d1-4de4-aefa-5aa7d9121f04.xml, kernel.ioinvalidatedevicestate, wdm/IoInvalidateDeviceState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoInvalidateDeviceState
 ---
 
-# IoInvalidateDeviceState function
+# IoInvalidateDeviceState function (wdm.h)
+
+
 
 
 ## -description

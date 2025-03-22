@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["ProvidorFindFirstPrinterChangeNotification function"]
 ms.keywords: ProvidorFindFirstPrinterChangeNotification, ProvidorFindFirstPrinterChangeNotification function [Print Devices], print.providorfindfirstprinterchangenotification, winsplp/ProvidorFindFirstPrinterChangeNotification
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ProvidorFindFirstPrinterChangeNotification
 ---
+
+# ProvidorFindFirstPrinterChangeNotification function (winsplp.h)
 
 ## -description
 

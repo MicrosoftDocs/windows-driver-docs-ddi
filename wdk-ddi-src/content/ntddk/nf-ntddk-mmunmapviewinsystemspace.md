@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["MmUnmapViewInSystemSpace function"]
 ms.keywords: MmUnmapViewInSystemSpace
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - MmUnmapViewInSystemSpace
 ---
 
-# MmUnmapViewInSystemSpace function
+# MmUnmapViewInSystemSpace function (ntddk.h)
+
+
 
 
 ## -description

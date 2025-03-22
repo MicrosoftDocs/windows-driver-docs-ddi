@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_GEOREGIONTYPE enumeration"]
 ms.keywords: GNSS_GEOREGIONTYPE, GNSS_GEOREGIONTYPE enumeration [Sensor Devices], GNSS_GeoRegion_Circle, gnss.gnss_georegiontype, gnssdriver/GNSS_GEOREGIONTYPE, gnssdriver/GNSS_GeoRegion_Circle
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_GEOREGIONTYPE
 ---
 
-# GNSS_GEOREGIONTYPE enumeration
+# GNSS_GEOREGIONTYPE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

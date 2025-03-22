@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlAllocateExtraCreateParameterFromLookasideList function"]
 ms.keywords: FsRtlAllocateExtraCreateParameterFromLookasideList, FsRtlAllocateExtraCreateParameterFromLookasideList routine [Installable File System Drivers], fsrtlref_c85ee3ff-e71f-4c6e-bc37-4187cad9855f.xml, ifsk.fsrtlallocateextracreateparameterfromlookasidelist, ntifs/FsRtlAllocateExtraCreateParameterFromLookasideList
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: FsRtlAllocateExtraCreateParameterFromLookasideList is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAllocateExtraCreateParameterFromLookasideList
 ---
 
-# FsRtlAllocateExtraCreateParameterFromLookasideList function
+# FsRtlAllocateExtraCreateParameterFromLookasideList function (ntifs.h)
+
+
 
 
 ## -description

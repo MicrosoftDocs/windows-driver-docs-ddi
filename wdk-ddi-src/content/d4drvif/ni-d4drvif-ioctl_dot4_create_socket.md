@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["IOCTL_DOT4_CREATE_SOCKET IOCTL"]
 ms.keywords: IOCTL_DOT4_CREATE_SOCKET, IOCTL_DOT4_CREATE_SOCKET control, IOCTL_DOT4_CREATE_SOCKET control code [Print Devices], d4drvif/IOCTL_DOT4_CREATE_SOCKET, print.ioctl_ioctl_dot4_create_socket
 req.header: d4drvif.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DOT4_CREATE_SOCKET
 ---
 
-# IOCTL_DOT4_CREATE_SOCKET IOCTL
+# IOCTL_DOT4_CREATE_SOCKET IOCTL (d4drvif.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PFA_OFFLINE_DECISION_TYPE enumeration"]
 ms.keywords: WHEAP_PFA_OFFLINE_DECISION_TYPE, WHEAP_PFA_OFFLINE_DECISION_TYPE, *PWHEAP_PFA_OFFLINE_DECISION_TYPE,
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - WHEAP_PFA_OFFLINE_DECISION_TYPE
 ---
 
-# WHEAP_PFA_OFFLINE_DECISION_TYPE enumeration
+# WHEAP_PFA_OFFLINE_DECISION_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

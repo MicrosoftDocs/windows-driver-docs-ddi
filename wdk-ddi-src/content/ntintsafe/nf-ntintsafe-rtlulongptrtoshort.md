@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlULongPtrToShort function"]
 ms.keywords: RtlULongPtrToShort, RtlULongPtrToShort function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtoshort, ntintsafe/RtlULongPtrToShort
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlULongPtrToShort
 ---
 
-# RtlULongPtrToShort function
+# RtlULongPtrToShort function (ntintsafe.h)
+
+
 
 
 ## -description

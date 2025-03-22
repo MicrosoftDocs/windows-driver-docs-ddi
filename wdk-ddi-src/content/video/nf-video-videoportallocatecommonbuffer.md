@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAllocateCommonBuffer function"]
 ms.keywords: VideoPortAllocateCommonBuffer, VideoPortAllocateCommonBuffer function [Display Devices], VideoPort_Functions_bd747ea0-7963-4008-a91c-eb5598fc6bdd.xml, display.videoportallocatecommonbuffer, video/VideoPortAllocateCommonBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAllocateCommonBuffer
 ---
 
-# VideoPortAllocateCommonBuffer function
+# VideoPortAllocateCommonBuffer function (video.h)
+
+
 
 
 ## -description

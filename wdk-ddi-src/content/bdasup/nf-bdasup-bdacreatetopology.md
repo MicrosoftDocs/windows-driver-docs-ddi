@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BdaCreateTopology function"]
 ms.keywords: BdaCreateTopology, BdaCreateTopology function [Streaming Media Devices], bdaref_bbf47d95-2b93-4e05-a5fa-aa5ed4968b0a.xml, bdasup/BdaCreateTopology, stream.bdacreatetopology
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - BdaCreateTopology
 ---
 
-# BdaCreateTopology function
+# BdaCreateTopology function (bdasup.h)
+
+
 
 
 ## -description

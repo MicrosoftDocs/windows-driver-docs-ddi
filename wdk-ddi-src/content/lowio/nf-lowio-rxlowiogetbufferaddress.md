@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxLowIoGetBufferAddress function"]
 ms.keywords: RxLowIoGetBufferAddress, RxLowIoGetBufferAddress function [Installable File System Drivers], ifsk.rxlowiogetbufferaddress, lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml
 req.header: lowio.h
+req.construct-type: function
 req.include-header: Rxcontx.h, Lowio.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxLowIoGetBufferAddress
 ---
 
-# RxLowIoGetBufferAddress function
+# RxLowIoGetBufferAddress function (lowio.h)
+
+
 
 
 ## -description

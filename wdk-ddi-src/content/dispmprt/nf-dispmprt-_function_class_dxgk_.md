@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["Function_class_DXGK_ macro"]
 ms.keywords: _Function_class_DXGK_
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# _Function_class_DXGK_ macro
+# _Function_class_DXGK_ function (dispmprt.h)
+
+
 
 
 ## -description

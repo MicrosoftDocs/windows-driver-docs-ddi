@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceGetIoTarget function"]
 ms.keywords: DFDeviceObjectGeneralRef_df48e631-f54d-4985-bc74-05c220b735f5.xml, WdfDeviceGetIoTarget, WdfDeviceGetIoTarget method, kmdf.wdfdevicegetiotarget, wdf.wdfdevicegetiotarget, wdfdevice/WdfDeviceGetIoTarget
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceGetIoTarget
 ---
 
-# WdfDeviceGetIoTarget function
+# WdfDeviceGetIoTarget function (wdfdevice.h)
+
+
 
 
 ## -description

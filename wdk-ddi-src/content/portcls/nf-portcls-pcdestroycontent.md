@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcDestroyContent function"]
 ms.keywords: PcDestroyContent, PcDestroyContent function [Audio Devices], audio.pcdestroycontent, audpc-routines_8f5adcf6-89a7-4918-ac2e-78afa45c38c5.xml, portcls/PcDestroyContent
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcDestroyContent function in Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcDestroyContent
 ---
 
-# PcDestroyContent function
+# PcDestroyContent function (portcls.h)
+
+
 
 
 ## -description

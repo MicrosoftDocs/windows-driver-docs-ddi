@@ -8,6 +8,7 @@ ms.date: 10/20/2020
 keywords: ["IoCreateNotificationEvent function"]
 ms.keywords: IoCreateNotificationEvent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, kernel.iocreatenotificationevent, wdm/IoCreateNotificationEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoCreateNotificationEvent
 ---
 
-# IoCreateNotificationEvent function
+# IoCreateNotificationEvent function (wdm.h)
+
+
 
 
 ## -description

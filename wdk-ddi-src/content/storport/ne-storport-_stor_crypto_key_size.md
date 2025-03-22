@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_CRYPTO_KEY_SIZE enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE, PSTOR_CRYPTO_KEY_SIZE enumeration pointer [Storage Devices], STOR_CRYPTO_KEY_SIZE, STOR_CRYPTO_KEY_SIZE enumeration [Storage Devices], _STOR_CRYPTO_KEY_SIZE, storage.stor_crypto_key_size, storport/, storport/PSTOR_CRYPTO_KEY_SIZE, storport/STOR_CRYPTO_KEY_SIZE"
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_CRYPTO_KEY_SIZE
 ---
 
-# STOR_CRYPTO_KEY_SIZE enumeration
+# STOR_CRYPTO_KEY_SIZE enumeration (storport.h)
+
+
 
 ## -description
 

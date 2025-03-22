@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltSetIoPriorityHintIntoThread function"]
 ms.keywords: FltApiRef_p_to_z_acdf2d2e-c98e-4e7d-8074-fb2b89594771.xml, FltSetIoPriorityHintIntoThread, FltSetIoPriorityHintIntoThread routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoThread, ifsk.fltsetiopriorityhintintothread
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltSetIoPriorityHintIntoThread
 ---
 
-# FltSetIoPriorityHintIntoThread function
+# FltSetIoPriorityHintIntoThread function (fltkernel.h)
+
+
 
 
 ## -description

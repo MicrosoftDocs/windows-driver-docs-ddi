@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingCallQoSChange function"]
 ms.keywords: NdisCmDispatchIncomingCallQoSChange, NdisCmDispatchIncomingCallQoSChange function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_01f18e60-ebc6-4192-9544-a57b07a4575e.xml, ndis/NdisCmDispatchIncomingCallQoSChange, netvista.ndiscmdispatchincomingcallqoschange
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisCmDispatchIncomingCallQoSChange (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers   (see       NdisCmDispatchIncomingCallQoSChange (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmDispatchIncomingCallQoSChange
 ---
 
-# NdisCmDispatchIncomingCallQoSChange function
+# NdisCmDispatchIncomingCallQoSChange function (ndis.h)
+
+
 
 
 ## -description

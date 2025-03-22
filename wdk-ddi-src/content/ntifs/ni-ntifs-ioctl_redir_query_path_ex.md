@@ -7,6 +7,7 @@ ms.date: 08/12/2021
 keywords: ["IOCTL_REDIR_QUERY_PATH_EX IOCTL"]
 ms.keywords: IOCTL_REDIR_QUERY_PATH_EX, IOCTL_REDIR_QUERY_PATH_EX control, IOCTL_REDIR_QUERY_PATH_EX control code [Installable File System Drivers], ifsk.ioctl_redir_query_path_ex, ioctl_ref_de59d691-17c8-4e21-8acc-61d2f27c2799.xml, ntifs/IOCTL_REDIR_QUERY_PATH_EX
 req.header: ntifs.h
+req.construct-type: ioctl
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -39,7 +40,11 @@ api_name:
  - IOCTL_REDIR_QUERY_PATH_EX
 ---
 
-# IOCTL_REDIR_QUERY_PATH_EX IOCTL
+# IOCTL_REDIR_QUERY_PATH_EX IOCTL (ntifs.h)
+
+
+
+
 
 ## -description
 

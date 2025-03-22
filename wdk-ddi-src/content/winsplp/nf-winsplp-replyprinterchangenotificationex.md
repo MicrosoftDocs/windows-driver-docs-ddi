@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["ReplyPrinterChangeNotificationEx function"]
 ms.keywords: ReplyPrinterChangeNotificationEx, ReplyPrinterChangeNotificationEx function [Print Devices], print.replyprinterchangenotificationex, winsplp/ReplyPrinterChangeNotificationEx
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ReplyPrinterChangeNotificationEx
 ---
+
+# ReplyPrinterChangeNotificationEx function (winsplp.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["HwNProcessAddDevicePreDeviceCreate function"]
 ms.keywords: HwNProcessAddDevicePreDeviceCreate, HwNProcessAddDevicePreDeviceCreate function, gpiobtn.hwnprocessadddevicepredevicecreate, hwnclx/HwNProcessAddDevicePreDeviceCreate
 req.header: hwnclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - HwNProcessAddDevicePreDeviceCreate
 ---
 
-# HwNProcessAddDevicePreDeviceCreate function
+# HwNProcessAddDevicePreDeviceCreate function (hwnclx.h)
+
+
 
 
 ## -description

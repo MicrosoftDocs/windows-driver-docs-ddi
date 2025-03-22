@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoGetParent function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_19cc338e-2040-4e60-8e6f-7be6dbb33c13.xml, WdfPdoGetParent, WdfPdoGetParent method, kmdf.wdfpdogetparent, wdf.wdfpdogetparent, wdfpdo/WdfPdoGetParent
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoGetParent
 ---
 
-# WdfPdoGetParent function
+# WdfPdoGetParent function (wdfpdo.h)
+
+
 
 
 ## -description

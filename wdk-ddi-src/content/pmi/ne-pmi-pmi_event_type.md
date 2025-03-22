@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_EVENT_TYPE enumeration"]
 ms.keywords: PMI_EVENT_TYPE, PMI_EVENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiAveragingIntervalChangedEvent, PmiBudgetEvent, PmiCapabilitiesChangedEvent, PmiConfigurationChangedEvent, PmiEventMax, PmiThresholdEvent, PowerMeterRef_86ff4160-2977-4b72-a37f-72779df2d5dc.xml, pmi/PMI_EVENT_TYPE, pmi/PmiAveragingIntervalChangedEvent, pmi/PmiBudgetEvent, pmi/PmiCapabilitiesChangedEvent, pmi/PmiConfigurationChangedEvent, pmi/PmiEventMax, pmi/PmiThresholdEvent, powermeter.pmi_event_type
 req.header: pmi.h
+req.construct-type: enumeration
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - PMI_EVENT_TYPE
 ---
 
-# PMI_EVENT_TYPE enumeration
+# PMI_EVENT_TYPE enumeration (pmi.h)
+
+
 
 
 ## -description

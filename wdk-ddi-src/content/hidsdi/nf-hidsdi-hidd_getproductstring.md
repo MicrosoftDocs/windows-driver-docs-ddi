@@ -9,6 +9,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_GetProductString function"]
 ms.keywords: HidD_GetProductString, HidD_GetProductString routine [Human Input Devices], hid.hidd_getproductstring, hidfunc_4909c6a7-11b7-489c-915c-889ad3124231.xml, hidsdi/HidD_GetProductString
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidD_GetProductString
 ---
 
-# HidD_GetProductString function
+# HidD_GetProductString function (hidsdi.h)
+
+
 
 ## -description
 

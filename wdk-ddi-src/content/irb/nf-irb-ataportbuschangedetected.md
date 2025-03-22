@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortBusChangeDetected function"]
 ms.keywords: AtaPortBusChangeDetected, AtaPortBusChangeDetected routine [Storage Devices], irb/AtaPortBusChangeDetected, storage.ataportbuschangedetected
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortBusChangeDetected
 ---
 
-# AtaPortBusChangeDetected function
+# AtaPortBusChangeDetected function (irb.h)
+
+
 
 
 ## -description

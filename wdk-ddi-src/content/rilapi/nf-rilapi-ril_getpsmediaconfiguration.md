@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetPSMediaConfiguration function"]
 ms.keywords: RIL_GetPSMediaConfiguration, RIL_GetPSMediaConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_getpsmediaconfiguration, rilapi/RIL_GetPSMediaConfiguration
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetPSMediaConfiguration
 ---
 
-# RIL_GetPSMediaConfiguration function
+# RIL_GetPSMediaConfiguration function (rilapi.h)
+
+
 
 
 ## -description

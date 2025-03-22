@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["STATE_LOCATION_TYPE enumeration"]
 ms.keywords: _STATE_LOCATION_TYPE, STATE_LOCATION_TYPE,
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - STATE_LOCATION_TYPE
 ---
 
-# _STATE_LOCATION_TYPE enumeration
+# STATE_LOCATION_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

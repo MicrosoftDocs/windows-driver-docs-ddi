@@ -7,6 +7,7 @@ ms.date: 01/03/2023
 keywords: ["IOCTL_GNSS_CREATE_GEOFENCE IOCTL"]
 ms.keywords: IOCTL_GNSS_CREATE_GEOFENCE, IOCTL_GNSS_CREATE_GEOFENCE control, IOCTL_GNSS_CREATE_GEOFENCE control code [Sensor Devices], gnss.ioctl_gnss_create_geofence, gnssdriver/IOCTL_GNSS_CREATE_GEOFENCE
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_GNSS_CREATE_GEOFENCE
 ---
+
+# IOCTL_GNSS_CREATE_GEOFENCE IOCTL (gnssdriver.h)
+
+
 
 ## -description
 

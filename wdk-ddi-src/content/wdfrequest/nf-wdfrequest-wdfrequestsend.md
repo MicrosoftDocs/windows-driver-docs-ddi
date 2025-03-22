@@ -8,6 +8,7 @@ ms.date: 06/19/2023
 keywords: ["WdfRequestSend function"]
 ms.keywords: DFRequestObjectRef_3104cf0d-01d0-4299-a123-ba7a8cc0ada9.xml, WdfRequestSend, WdfRequestSend method, kmdf.wdfrequestsend, wdf.wdfrequestsend, wdfrequest/WdfRequestSend
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestSend
 ---
 
-# WdfRequestSend function
+# WdfRequestSend function (wdfrequest.h)
+
+
 
 
 ## -description

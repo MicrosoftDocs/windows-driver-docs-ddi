@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function"]
 ms.keywords: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], buses.ucm_connector_typec_attach_params_init, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 ---
 
-# UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function
+# UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function (ucmmanager.h)
+
+
 
 
 ## -description

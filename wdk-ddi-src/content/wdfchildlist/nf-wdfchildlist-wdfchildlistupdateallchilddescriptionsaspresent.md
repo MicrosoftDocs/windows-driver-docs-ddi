@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListUpdateAllChildDescriptionsAsPresent function"]
 ms.keywords: DFDeviceObjectChildListRef_55956590-2843-4486-acfb-0e85c01702a0.xml, WdfChildListUpdateAllChildDescriptionsAsPresent, WdfChildListUpdateAllChildDescriptionsAsPresent method, kmdf.wdfchildlistupdateallchilddescriptionsaspresent, wdf.wdfchildlistupdateallchilddescriptionsaspresent, wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListUpdateAllChildDescriptionsAsPresent
 ---
 
-# WdfChildListUpdateAllChildDescriptionsAsPresent function
+# WdfChildListUpdateAllChildDescriptionsAsPresent function (wdfchildlist.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_CONFIG_SIZE IOCTL"]
 ms.keywords: IOCTL_SERIAL_CONFIG_SIZE, IOCTL_SERIAL_CONFIG_SIZE control, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], ntddser/IOCTL_SERIAL_CONFIG_SIZE, serports.ioctl_serial_config_size, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_CONFIG_SIZE
 ---
 
-# IOCTL_SERIAL_CONFIG_SIZE IOCTL
+# IOCTL_SERIAL_CONFIG_SIZE IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

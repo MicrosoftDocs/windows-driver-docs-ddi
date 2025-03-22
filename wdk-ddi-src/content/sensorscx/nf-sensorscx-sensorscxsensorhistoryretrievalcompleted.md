@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["SensorsCxSensorHistoryRetrievalCompleted function"]
 ms.keywords: SensorsCxSensorHistoryRetrievalCompleted
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - SensorsCxSensorHistoryRetrievalCompleted
 ---
 
-# SensorsCxSensorHistoryRetrievalCompleted function
+# SensorsCxSensorHistoryRetrievalCompleted function (sensorscx.h)
+
+
 
 
 ## -description

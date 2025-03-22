@@ -7,6 +7,7 @@ ms.date: 11/11/2022
 keywords: ["KsGenerateThermalEvent function"]
 ms.keywords: KsGenerateThermalEvent, KsGenerateThermalEvent function [Streaming Media Devices], ks/KsGenerateThermalEvent, stream.ksgeneratethermalevent
 req.header: ks.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsGenerateThermalEvent
 ---
+
+# KsGenerateThermalEvent function (ks.h)
 
 ## -description
 

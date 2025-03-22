@@ -7,6 +7,7 @@ keywords: ["CollectionsListGetMarshalledSize function"]
 tech.root: sensors
 ms.keywords: CollectionsListGetMarshalledSize
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListGetMarshalledSize
 ---
 
-# CollectionsListGetMarshalledSize function
+# CollectionsListGetMarshalledSize function (sensorsutils.h)
+
+
 
 
 ## -description

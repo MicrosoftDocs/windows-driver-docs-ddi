@@ -8,6 +8,7 @@ ms.date: 04/22/2021
 keywords: ["WdfDeviceWdmAssignPowerFrameworkSettings function"]
 ms.keywords: WdfDeviceWdmAssignPowerFrameworkSettings, WdfDeviceWdmAssignPowerFrameworkSettings method, kmdf.wdfdevicewdmassignpowerframeworksettings, wdf.wdfdevicewdmassignpowerframeworksettings, wdfdevice/WdfDeviceWdmAssignPowerFrameworkSettings
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceWdmAssignPowerFrameworkSettings
 ---
 
-# WdfDeviceWdmAssignPowerFrameworkSettings function
+# WdfDeviceWdmAssignPowerFrameworkSettings function (wdfdevice.h)
+
+
 
 
 ## -description

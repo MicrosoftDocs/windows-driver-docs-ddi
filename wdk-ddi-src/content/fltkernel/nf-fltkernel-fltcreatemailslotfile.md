@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCreateMailslotFile function"]
 ms.keywords: FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers], fltkernel/FltCreateMailslotFile, ifsk.fltcreatemailslotfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FltCreateMailslotFile
 ---
 
-# FltCreateMailslotFile function
+# FltCreateMailslotFile function (fltkernel.h)
+
+
 
 ## -description
 

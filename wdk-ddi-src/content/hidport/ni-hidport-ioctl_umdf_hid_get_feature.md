@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_UMDF_HID_GET_FEATURE IOCTL"]
 ms.keywords: IOCTL_UMDF_HID_GET_FEATURE, IOCTL_UMDF_HID_GET_FEATURE control, IOCTL_UMDF_HID_GET_FEATURE control code, hid.ioctl_umdf_hid_get_feature, hidport/IOCTL_UMDF_HID_GET_FEATURE, umdf.ioctl_umdf_hid_get_feature
 req.header: hidport.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_UMDF_HID_GET_FEATURE
 ---
 
-# IOCTL_UMDF_HID_GET_FEATURE IOCTL
+# IOCTL_UMDF_HID_GET_FEATURE IOCTL (hidport.h)
+
+
+
+
 
 
 ## -description

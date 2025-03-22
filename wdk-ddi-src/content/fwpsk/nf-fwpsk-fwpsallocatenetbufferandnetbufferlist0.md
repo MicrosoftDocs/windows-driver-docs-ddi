@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsAllocateNetBufferAndNetBufferList0 function"]
 ms.keywords: FwpsAllocateNetBufferAndNetBufferList0, FwpsAllocateNetBufferAndNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateNetBufferAndNetBufferList0, netvista.fwpsallocatenetbufferandnetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_9a88a8c9-a5fb-48a9-bc42-ae30de234468.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsAllocateNetBufferAndNetBufferList0
 ---
 
-# FwpsAllocateNetBufferAndNetBufferList0 function
+# FwpsAllocateNetBufferAndNetBufferList0 function (fwpsk.h)
+
+
 
 
 ## -description

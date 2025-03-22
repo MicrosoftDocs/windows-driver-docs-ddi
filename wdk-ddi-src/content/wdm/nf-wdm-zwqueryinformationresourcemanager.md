@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwQueryInformationResourceManager function"]
 ms.keywords: NtQueryInformationResourceManager, ZwQueryInformationResourceManager, ZwQueryInformationResourceManager routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationresourcemanager, ktm_ref_2232fa2b-badb-4054-8a99-65f55ca1bff5.xml, wdm/NtQueryInformationResourceManager, wdm/ZwQueryInformationResourceManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwQueryInformationResourceManager
 ---
 
-# ZwQueryInformationResourceManager function
+# ZwQueryInformationResourceManager function (wdm.h)
+
+
 
 
 ## -description

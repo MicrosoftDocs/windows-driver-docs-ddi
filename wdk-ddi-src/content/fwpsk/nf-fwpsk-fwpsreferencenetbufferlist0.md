@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsReferenceNetBufferList0 function"]
 ms.keywords: FwpsReferenceNetBufferList0, FwpsReferenceNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferenceNetBufferList0, netvista.fwpsreferencenetbufferlist0, wfp_ref_2_funct_3_fwps_R-Z_87b01939-7e75-4049-ae3a-07db074a3e62.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsReferenceNetBufferList0
 ---
 
-# FwpsReferenceNetBufferList0 function
+# FwpsReferenceNetBufferList0 function (fwpsk.h)
+
+
 
 
 ## -description

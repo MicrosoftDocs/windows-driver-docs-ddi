@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["CWiaLogProcEx::CWiaLogProcEx"]
 ms.keywords: CWiaLogProcEx, CWiaLogProcEx interface [Imaging Devices],CWiaLogProcEx method, CWiaLogProcEx method [Imaging Devices], CWiaLogProcEx method [Imaging Devices],CWiaLogProcEx interface, CWiaLogProcEx.CWiaLogProcEx, CWiaLogProcEx::CWiaLogProcEx, image.cwialogprocex_cwialogprocex, wiamdef/CWiaLogProcEx::CWiaLogProcEx
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CWiaLogProcEx::CWiaLogProcEx
 ---
+
+# CWiaLogProcEx::CWiaLogProcEx function (wiamdef.h)
 
 ## -description
 

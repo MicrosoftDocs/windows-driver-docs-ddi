@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetCurrentProcess function"]
 ms.keywords: IoGetCurrentProcess, IoGetCurrentProcess routine [Kernel-Mode Driver Architecture], k104_f59c640e-e335-46e0-a6ca-2f672bb6fc35.xml, kernel.iogetcurrentprocess, wdm/IoGetCurrentProcess, PsGetCurrentProcess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoGetCurrentProcess
 ---
 
-# IoGetCurrentProcess function
+# IoGetCurrentProcess function (wdm.h)
+
+
 
 
 ## -description

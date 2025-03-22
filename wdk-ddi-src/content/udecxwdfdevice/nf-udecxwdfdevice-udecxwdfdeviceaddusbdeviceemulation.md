@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxWdfDeviceAddUsbDeviceEmulation function"]
 ms.keywords: UdecxWdfDeviceAddUsbDeviceEmulation, UdecxWdfDeviceAddUsbDeviceEmulation function [Buses], buses.udecxwdfdeviceaddusbdeviceemulation, udecxwdfdevice/UdecxWdfDeviceAddUsbDeviceEmulation
 req.header: udecxwdfdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxWdfDeviceAddUsbDeviceEmulation
 ---
 
-# UdecxWdfDeviceAddUsbDeviceEmulation function
+# UdecxWdfDeviceAddUsbDeviceEmulation function (udecxwdfdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_RegisterHcFilter function"]
 ms.keywords: USBD_RegisterHcFilter, USBD_RegisterHcFilter routine [Buses], buses.usbd_registerhcfilter, usbdlib/USBD_RegisterHcFilter, usbfunc_de494163-188c-4356-bd91-c6fa38693d55.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated.
@@ -41,7 +42,9 @@ api_name:
  - USBD_RegisterHcFilter
 ---
 
-# USBD_RegisterHcFilter function
+# USBD_RegisterHcFilter function (usbdlib.h)
+
+
 
 
 ## -description

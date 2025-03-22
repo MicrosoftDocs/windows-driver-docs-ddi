@@ -8,6 +8,7 @@ ms.date: 11/01/2021
 keywords: ["WdfCompanionCreateTaskQueue function"]
 ms.keywords: WdfCompanionCreateTaskQueue, WdfCompanionCreateTaskQueue method, wdf.wdfcompanioncreatetaskqueue, wdfcompanion/WdfCompanionCreateTaskQueue
 req.header: wdfcompanion.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfCompanionCreateTaskQueue
 ---
 
-# WdfCompanionCreateTaskQueue function
+# WdfCompanionCreateTaskQueue function (wdfcompanion.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/03/2023
 keywords: ["IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control, IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS control code [Sensor Devices], gnss.ioctl_gnss_listen_geofences_trackingstatus, gnssdriver/IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS
 ---
+
+# IOCTL_GNSS_LISTEN_GEOFENCES_TRACKINGSTATUS IOCTL (gnssdriver.h)
+
+
 
 ## -description
 

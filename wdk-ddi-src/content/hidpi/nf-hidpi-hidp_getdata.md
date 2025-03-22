@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetData function"]
 ms.keywords: HidP_GetData, HidP_GetData routine [Human Input Devices], hid.hidp_getdata, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hidpi/HidP_GetData
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_GetData
 ---
 
-# HidP_GetData function
+# HidP_GetData function (hidpi.h)
+
+
 
 
 ## -description

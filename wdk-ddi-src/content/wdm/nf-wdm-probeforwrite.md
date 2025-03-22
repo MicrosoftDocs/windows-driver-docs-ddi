@@ -8,6 +8,7 @@ ms.date: 05/22/2023
 keywords: ["ProbeForWrite function"]
 ms.keywords: ProbeForWrite, ProbeForWrite routine [Kernel-Mode Driver Architecture], k102_62889c29-62cb-43c2-ac19-e8b933783443.xml, kernel.probeforwrite, wdm/ProbeForWrite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ProbeForWrite
 ---
 
-# ProbeForWrite function
+# ProbeForWrite function (wdm.h)
+
+
 
 
 ## -description

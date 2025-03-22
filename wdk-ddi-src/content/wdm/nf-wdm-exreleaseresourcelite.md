@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExReleaseResourceLite function"]
 ms.keywords: ExReleaseResourceLite, ExReleaseResourceLite routine [Kernel-Mode Driver Architecture], k102_3846f443-1ef7-48f4-a5ce-2dd56f83b9be.xml, kernel.exreleaseresourcelite, wdm/ExReleaseResourceLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - ExReleaseResourceLite
 ---
 
-# ExReleaseResourceLite function
+# ExReleaseResourceLite function (wdm.h)
+
+
 
 ## -description
 

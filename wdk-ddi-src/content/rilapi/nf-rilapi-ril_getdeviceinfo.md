@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetDeviceInfo function"]
 ms.keywords: RIL_GetDeviceInfo, RIL_GetDeviceInfo method [Network Drivers Starting with Windows Vista], netvista.ril_getdeviceinfo, rilapi/RIL_GetDeviceInfo
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetDeviceInfo
 ---
 
-# RIL_GetDeviceInfo function
+# RIL_GetDeviceInfo function (rilapi.h)
+
+
 
 
 ## -description

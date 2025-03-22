@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["SeSetSecurityDescriptorInfo function"]
 ms.keywords: SeSetSecurityDescriptorInfo, SeSetSecurityDescriptorInfo routine [Installable File System Drivers], ifsk.sesetsecuritydescriptorinfo, ntifs/SeSetSecurityDescriptorInfo, seref_061b8609-a537-4ccb-aa60-50a46b08e97f.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - SeSetSecurityDescriptorInfo
 ---
 
-# SeSetSecurityDescriptorInfo function
+# SeSetSecurityDescriptorInfo function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_MEASUREMENT_UNIT enumeration"]
 ms.keywords: PMI_MEASUREMENT_UNIT, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], PmiMeasurementUnitMax, PmiMeasurementUnitMilliWatt, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, pmi/PMI_MEASUREMENT_UNIT, pmi/PmiMeasurementUnitMax, pmi/PmiMeasurementUnitMilliWatt, powermeter.pmi_measurement_unit
 req.header: pmi.h
+req.construct-type: enumeration
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - PMI_MEASUREMENT_UNIT
 ---
 
-# PMI_MEASUREMENT_UNIT enumeration
+# PMI_MEASUREMENT_UNIT enumeration (pmi.h)
+
+
 
 
 ## -description

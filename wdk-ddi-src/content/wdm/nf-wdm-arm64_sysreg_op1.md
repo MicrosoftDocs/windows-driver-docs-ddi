@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["ARM64_SYSREG_OP1 macro"]
 ms.keywords: ARM64_SYSREG_OP1
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - ARM64_SYSREG_OP1
 ---
 
-# ARM64_SYSREG_OP1 macro (wdm.h)
+# ARM64_SYSREG_OP1 function (wdm.h)
+
+
 
 
 ## -description

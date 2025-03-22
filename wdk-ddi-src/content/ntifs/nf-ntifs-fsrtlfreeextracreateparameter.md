@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlFreeExtraCreateParameter function"]
 ms.keywords: FsRtlFreeExtraCreateParameter, FsRtlFreeExtraCreateParameter routine [Installable File System Drivers], fsrtlref_bbee8298-87e1-4487-bf56-b2dd76913d47.xml, ifsk.fsrtlfreeextracreateparameter, ntifs/FsRtlFreeExtraCreateParameter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlFreeExtraCreateParameter routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlFreeExtraCreateParameter
 ---
 
-# FsRtlFreeExtraCreateParameter function
+# FsRtlFreeExtraCreateParameter function (ntifs.h)
+
+
 
 
 ## -description

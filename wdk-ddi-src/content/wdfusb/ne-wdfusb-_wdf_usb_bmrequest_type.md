@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_BMREQUEST_TYPE enumeration"]
 ms.keywords: BmRequestClass, BmRequestStandard, BmRequestVendor, DFUsbRef_01dc6407-8fa2-462a-848c-2a8fc53ef50b.xml, WDF_USB_BMREQUEST_TYPE, WDF_USB_BMREQUEST_TYPE enumeration, _WDF_USB_BMREQUEST_TYPE, kmdf.wdf_usb_bmrequest_type, wdf.wdf_usb_bmrequest_type, wdfusb/BmRequestClass, wdfusb/BmRequestStandard, wdfusb/BmRequestVendor, wdfusb/WDF_USB_BMREQUEST_TYPE
 req.header: wdfusb.h
+req.construct-type: enumeration
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_USB_BMREQUEST_TYPE
 ---
 
-# _WDF_USB_BMREQUEST_TYPE enumeration
+# WDF_USB_BMREQUEST_TYPE enumeration (wdfusb.h)
+
+
 
 
 ## -description

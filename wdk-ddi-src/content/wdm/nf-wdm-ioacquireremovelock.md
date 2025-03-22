@@ -7,6 +7,7 @@ ms.date: 02/25/2022
 keywords: ["IoAcquireRemoveLock macro"]
 ms.keywords: IoAcquireRemoveLock, IoAcquireRemoveLock routine [Kernel-Mode Driver Architecture], k104_3df0773a-09a7-40cd-8e32-58d89cf551b1.xml, kernel.ioacquireremovelock, wdm/IoAcquireRemoveLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,7 +40,9 @@ api_name:
  - IoAcquireRemoveLock
 ---
 
-# IoAcquireRemoveLock macro
+# IoAcquireRemoveLock function (wdm.h)
+
+
 
 ## -description
 

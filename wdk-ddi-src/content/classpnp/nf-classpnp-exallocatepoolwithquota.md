@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["ExAllocatePoolWithQuota macro"]
 ms.keywords: ExAllocatePoolWithQuota, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, kernel.exallocatepoolwithquota, wdm/ExAllocatePoolWithQuota
 req.header: classpnp.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete. This routine is exported only for existing driver binaries. Use ExAllocatePoolWithQuotaTag instead.
@@ -40,7 +41,9 @@ api_name:
  - ExAllocatePoolWithQuota
 ---
 
-# ExAllocatePoolWithQuota macro
+# ExAllocatePoolWithQuota function (classpnp.h)
+
+
 
 
 ## -description

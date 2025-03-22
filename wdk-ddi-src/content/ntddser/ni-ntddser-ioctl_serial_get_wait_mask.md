@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_WAIT_MASK IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_WAIT_MASK, IOCTL_SERIAL_GET_WAIT_MASK control, IOCTL_SERIAL_GET_WAIT_MASK control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_WAIT_MASK, serports.ioctl_serial_get_wait_mask, serref_d06a9ed8-0871-455b-8d91-8f530adfcfe9.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_GET_WAIT_MASK
 ---
 
-# IOCTL_SERIAL_GET_WAIT_MASK IOCTL
+# IOCTL_SERIAL_GET_WAIT_MASK IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

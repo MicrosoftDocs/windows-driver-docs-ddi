@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxWdfDeviceTryHandleUserIoctl function"]
 ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], buses.udecxwdfdevicetryhandleuserioctl, udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
 req.header: udecxwdfdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxWdfDeviceTryHandleUserIoctl
 ---
 
-# UdecxWdfDeviceTryHandleUserIoctl function
+# UdecxWdfDeviceTryHandleUserIoctl function (udecxwdfdevice.h)
+
+
 
 
 ## -description

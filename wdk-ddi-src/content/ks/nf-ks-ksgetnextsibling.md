@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetNextSibling function"]
 ms.keywords: KsGetNextSibling, KsGetNextSibling function [Streaming Media Devices], avfunc_0fedfc95-34c0-44d9-bed4-fff6bf6bd467.xml, ks/KsGetNextSibling, stream.ksgetnextsibling
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetNextSibling
 ---
 
-# KsGetNextSibling function
+# KsGetNextSibling function (ks.h)
+
+
 
 
 ## -description

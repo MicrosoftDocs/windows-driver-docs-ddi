@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDissectName function"]
 ms.keywords: FsRtlDissectName, FsRtlDissectName routine [Installable File System Drivers], fsrtlref_a74da803-0994-46e4-90f7-bc7728b59fe5.xml, ifsk.fsrtldissectname, ntifs/FsRtlDissectName
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlDissectName function
+# FsRtlDissectName function (ntifs.h)
+
+
 
 
 ## -description

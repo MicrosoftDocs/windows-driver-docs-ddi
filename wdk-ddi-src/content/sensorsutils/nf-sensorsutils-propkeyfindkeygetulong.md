@@ -7,6 +7,7 @@ keywords: ["PropKeyFindKeyGetUlong function"]
 tech.root: sensors
 ms.keywords: PropKeyFindKeyGetUlong
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropKeyFindKeyGetUlong
 ---
 
-# PropKeyFindKeyGetUlong function
+# PropKeyFindKeyGetUlong function (sensorsutils.h)
+
+
 
 
 ## -description

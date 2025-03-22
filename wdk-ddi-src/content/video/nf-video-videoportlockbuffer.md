@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortLockBuffer function"]
 ms.keywords: VideoPortLockBuffer, VideoPortLockBuffer function [Display Devices], VideoPort_Functions_8c96bd4d-b9fc-4ff7-9d81-1087d6527700.xml, display.videoportlockbuffer, video/VideoPortLockBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortLockBuffer
 ---
 
-# VideoPortLockBuffer function
+# VideoPortLockBuffer function (video.h)
+
+
 
 
 ## -description

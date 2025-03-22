@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SensorsCxDeviceGetSensorList function"]
 ms.keywords: SensorsCxDeviceGetSensorList, Syntax, Syntax function [Sensor Devices], sensors.sensorscxdevicegetsensorlist, sensorscx/Syntax
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SensorsCxDeviceGetSensorList
 ---
 
-# SensorsCxDeviceGetSensorList function
+# SensorsCxDeviceGetSensorList function (sensorscx.h)
+
+
 
 
 ## -description

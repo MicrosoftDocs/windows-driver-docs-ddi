@@ -8,6 +8,7 @@ ms.date: 04/25/2023
 keywords: ["FltGetSectionContext function"]
 ms.keywords: FltGetSectionContext, FltGetSectionContext routine [Installable File System Drivers], fltkernel/FltGetSectionContext, ifsk.fltgetsectioncontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FltGetSectionContext
 ---
 
-# FltGetSectionContext function
+# FltGetSectionContext function (fltkernel.h)
+
+
 
 ## -description
 

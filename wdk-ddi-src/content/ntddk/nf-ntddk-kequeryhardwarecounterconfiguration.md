@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["KeQueryHardwareCounterConfiguration function"]
 ms.keywords: KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeQueryHardwareCounterConfiguration
 ---
+
+# KeQueryHardwareCounterConfiguration function (ntddk.h)
 
 ## -description
 

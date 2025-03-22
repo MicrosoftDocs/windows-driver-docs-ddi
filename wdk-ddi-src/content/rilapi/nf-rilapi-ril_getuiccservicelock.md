@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetUiccServiceLock function"]
 ms.keywords: RIL_GetUiccServiceLock, RIL_GetUiccServiceLock method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccservicelock, rilapi/RIL_GetUiccServiceLock
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetUiccServiceLock
 ---
 
-# RIL_GetUiccServiceLock function
+# RIL_GetUiccServiceLock function (rilapi.h)
+
+
 
 
 ## -description

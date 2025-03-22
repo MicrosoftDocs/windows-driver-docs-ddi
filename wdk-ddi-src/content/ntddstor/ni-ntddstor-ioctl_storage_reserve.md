@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_RESERVE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RESERVE, IOCTL_STORAGE_RESERVE control, IOCTL_STORAGE_RESERVE control code [Storage Devices], k307_3cb0baa4-c551-44a1-8728-c0053ab04e79.xml, ntddstor/IOCTL_STORAGE_RESERVE, storage.ioctl_storage_reserve
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_RESERVE
 ---
 
-# IOCTL_STORAGE_RESERVE IOCTL
+# IOCTL_STORAGE_RESERVE IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

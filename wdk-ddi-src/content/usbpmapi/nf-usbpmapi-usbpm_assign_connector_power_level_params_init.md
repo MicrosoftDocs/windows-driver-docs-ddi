@@ -7,6 +7,7 @@ keywords: ["USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function"]
 ms.keywords: USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT
 ---
 
-# USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function
+# USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS_INIT function (usbpmapi.h)
+
+
 
 
 ## -description

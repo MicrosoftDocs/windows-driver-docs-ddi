@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCmResourceListGetDescriptor function"]
 ms.keywords: DFResourceObjectRef_bdc580d1-2283-4549-a26b-cbe0f2a84e19.xml, WdfCmResourceListGetDescriptor, WdfCmResourceListGetDescriptor method, kmdf.wdfcmresourcelistgetdescriptor, wdf.wdfcmresourcelistgetdescriptor, wdfresource/WdfCmResourceListGetDescriptor
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCmResourceListGetDescriptor
 ---
 
-# WdfCmResourceListGetDescriptor function
+# WdfCmResourceListGetDescriptor function (wdfresource.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortFreeRegistryBuffer function"]
 ms.keywords: StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer routine [Storage Devices], storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortFreeRegistryBuffer
 ---
 
-# StorPortFreeRegistryBuffer function
+# StorPortFreeRegistryBuffer function (storport.h)
+
+
 
 
 ## -description

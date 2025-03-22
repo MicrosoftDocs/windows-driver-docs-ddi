@@ -7,6 +7,7 @@ ms.date: 09/20/2018
 keywords: ["RtlCopyMemory macro"]
 ms.keywords: RtlCopyMemory
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - RtlCopyMemory
 ---
 
-# RtlCopyMemory macro (ntddstor.h)
+# RtlCopyMemory function (ntddstor.h)
+
+
 
 
 ## -description

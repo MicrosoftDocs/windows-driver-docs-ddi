@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["SeEtwWriteKMCveEvent function"]
 ms.keywords: SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices], devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10 and later versions of Windows
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SeEtwWriteKMCveEvent
 ---
+
+# SeEtwWriteKMCveEvent function (wdm.h)
 
 ## -description
 

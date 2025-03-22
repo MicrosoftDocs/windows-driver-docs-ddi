@@ -8,6 +8,7 @@ ms.date: 03/01/2018
 keywords: ["WRITE_REGISTER_USHORT function"]
 ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, wdm/WRITE_REGISTER_USHORT
 req.header: ioaccess.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - WRITE_REGISTER_USHORT
 ---
 
-# WRITE_REGISTER_USHORT function
+# WRITE_REGISTER_USHORT function (ioaccess.h)
+
+
 
 
 ## -description

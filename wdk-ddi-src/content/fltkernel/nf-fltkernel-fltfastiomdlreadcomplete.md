@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFastIoMdlReadComplete function"]
 ms.keywords: FltFastIoMdlReadComplete, FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadCompleteDev, ifsk.fltfastiomdlreadcomplete
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltFastIoMdlReadComplete
 ---
 
-# FltFastIoMdlReadComplete function
+# FltFastIoMdlReadComplete function (fltkernel.h)
+
+
 
 
 ## -description

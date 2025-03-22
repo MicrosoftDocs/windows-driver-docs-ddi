@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control, IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE control code [Buses], buses.ioctl_internal_usb_register_composite_driver, usbioctl/IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE
 ---
 
-# IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE IOCTL
+# IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE IOCTL (usbioctl.h)
+
+
+
+
 
 ## -description
 

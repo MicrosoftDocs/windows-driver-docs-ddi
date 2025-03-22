@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UsbBuildGetStatusRequest macro"]
 ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest, usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UsbBuildGetStatusRequest
 ---
 
-# UsbBuildGetStatusRequest macro
+# UsbBuildGetStatusRequest function (usbdlib.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlDecompressFragment function"]
 ms.keywords: RtlDecompressFragment, RtlDecompressFragment function [Installable File System Drivers], ifsk.rtldecompressfragment, ntifs/RtlDecompressFragment, rtlref_40a25add-c5bc-40f5-bb79-d5dcd6c11d69.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -39,7 +40,9 @@ api_name:
  - RtlDecompressFragment
 ---
 
-# RtlDecompressFragment function
+# RtlDecompressFragment function (ntifs.h)
+
+
 
 ## -description
 

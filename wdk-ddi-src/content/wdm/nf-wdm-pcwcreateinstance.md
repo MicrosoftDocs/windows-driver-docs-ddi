@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["PcwCreateInstance function"]
 ms.keywords: PcwCreateInstance, PcwCreateInstance function [Driver Development Tools], devtest.pcwcreateinstance, km_pcw_32dba149-fed7-4e86-b68c-1f3a6348cb7a.xml, wdm/PcwCreateInstance
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PcwCreateInstance
 ---
+
+# PcwCreateInstance function (wdm.h)
 
 ## -description
 

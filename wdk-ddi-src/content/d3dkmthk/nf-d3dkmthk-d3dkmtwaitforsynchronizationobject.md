@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForSynchronizationObject function"]
 ms.keywords: D3DKMTWaitForSynchronizationObject, D3DKMTWaitForSynchronizationObject function [Display Devices], OpenGL_Functions_bdec46cd-1e3b-427f-8c65-df2d31171bc5.xml, d3dkmthk/D3DKMTWaitForSynchronizationObject, display.d3dkmtwaitforsynchronizationobject
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTWaitForSynchronizationObject
 ---
 
-# D3DKMTWaitForSynchronizationObject function
+# D3DKMTWaitForSynchronizationObject function (d3dkmthk.h)
+
+
 
 ## -description
 

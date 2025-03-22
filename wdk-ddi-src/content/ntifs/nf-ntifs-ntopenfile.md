@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["NtOpenFile function"]
 ms.keywords: NtOpenFile, ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, kernel.zwopenfile, wdm/NtOpenFile, wdm/ZwOpenFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - NtOpenFile
 ---
 
-# NtOpenFile function
+# NtOpenFile function (ntifs.h)
+
+
 
 ## -description
 

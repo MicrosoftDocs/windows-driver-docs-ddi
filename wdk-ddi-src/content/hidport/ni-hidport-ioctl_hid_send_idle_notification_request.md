@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST IOCTL"]
 ms.keywords: IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST, IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control, IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST control code [Human Input Devices], hid.ioctl_hid_send_idle_notification_request, hidport/IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
 req.header: hidport.h
+req.construct-type: ioctl
 req.include-header: Hidport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST
 ---
 
-# IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST IOCTL
+# IOCTL_HID_SEND_IDLE_NOTIFICATION_REQUEST IOCTL (hidport.h)
+
+
+
+
 
 
 ## -description

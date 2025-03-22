@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTUnlock function"]
 ms.keywords: D3DKMTUnlock, D3DKMTUnlock function [Display Devices], OpenGL_Functions_6741960d-1f19-4000-948c-aeb71330eb1e.xml, d3dkmthk/D3DKMTUnlock, display.d3dkmtunlock
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTUnlock
 ---
 
-# D3DKMTUnlock function
+# D3DKMTUnlock function (d3dkmthk.h)
+
+
 
 ## -description
 

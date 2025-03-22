@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetRemainingStackSize function"]
 ms.keywords: IoGetRemainingStackSize, IoGetRemainingStackSize routine [Kernel-Mode Driver Architecture], k104_bc84d6dd-0874-440d-8f73-b403d18aa660.xml, kernel.iogetremainingstacksize, wdm/IoGetRemainingStackSize
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetRemainingStackSize
 ---
 
-# IoGetRemainingStackSize function
+# IoGetRemainingStackSize function (wdm.h)
+
+
 
 
 ## -description

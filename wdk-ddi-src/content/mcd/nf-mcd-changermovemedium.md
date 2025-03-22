@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerMoveMedium function"]
 ms.keywords: ChangerMoveMedium, ChangerMoveMedium function [Storage Devices], chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, mcd/ChangerMoveMedium, storage.changermovemedium
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerMoveMedium
 ---
 
-# ChangerMoveMedium function
+# ChangerMoveMedium function (mcd.h)
+
+
 
 
 ## -description

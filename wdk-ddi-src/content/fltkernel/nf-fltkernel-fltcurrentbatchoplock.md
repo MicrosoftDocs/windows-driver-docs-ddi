@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCurrentBatchOplock function"]
 ms.keywords: FltApiRef_a_to_d_7835829e-3397-47c3-bc12-c77f8d844927.xml, FltCurrentBatchOplock, FltCurrentBatchOplock function [Installable File System Drivers], fltkernel/FltCurrentBatchOplock, ifsk.fltcurrentbatchoplock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltCurrentBatchOplock
 ---
 
-# FltCurrentBatchOplock function
+# FltCurrentBatchOplock function (fltkernel.h)
+
+
 
 
 ## -description

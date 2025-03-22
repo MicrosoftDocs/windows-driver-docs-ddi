@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_STATE enumeration"]
 ms.keywords: "*PWDF_IO_TARGET_STATE, DFIOTargetRef_0dbd75b8-eb70-4996-8a13-80fb90f86dca.xml, PWDF_IO_TARGET_STATE, PWDF_IO_TARGET_STATE enumeration pointer, WDF_IO_TARGET_STATE, WDF_IO_TARGET_STATE enumeration, WdfIoTargetClosed, WdfIoTargetClosedForQueryRemove, WdfIoTargetDeleted, WdfIoTargetPurged, WdfIoTargetStarted, WdfIoTargetStateUndefined, WdfIoTargetStopped, _WDF_IO_TARGET_STATE, kmdf.wdf_io_target_state, wdf.wdf_io_target_state, wdfiotarget/PWDF_IO_TARGET_STATE, wdfiotarget/WDF_IO_TARGET_STATE, wdfiotarget/WdfIoTargetClosed, wdfiotarget/WdfIoTargetClosedForQueryRemove, wdfiotarget/WdfIoTargetDeleted, wdfiotarget/WdfIoTargetPurged, wdfiotarget/WdfIoTargetStarted, wdfiotarget/WdfIoTargetStateUndefined, wdfiotarget/WdfIoTargetStopped, wudfddi_types/PWDF_IO_TARGET_STATE, wudfddi_types/WDF_IO_TARGET_STATE, wudfddi_types/WdfIoTargetClosed, wudfddi_types/WdfIoTargetClosedForQueryRemove, wudfddi_types/WdfIoTargetDeleted, wudfddi_types/WdfIoTargetPurged, wudfddi_types/WdfIoTargetStarted, wudfddi_types/WdfIoTargetStateUndefined, wudfddi_types/WdfIoTargetStopped"
 req.header: wdfiotarget.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -47,7 +48,9 @@ api_name:
  - WDF_IO_TARGET_STATE
 ---
 
-# _WDF_IO_TARGET_STATE enumeration (wdfiotarget.h)
+# WDF_IO_TARGET_STATE enumeration (wdfiotarget.h)
+
+
 
 
 ## -description

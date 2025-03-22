@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_CHARS IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_CHARS, IOCTL_SERIAL_SET_CHARS control, IOCTL_SERIAL_SET_CHARS control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_CHARS, serports.ioctl_serial_set_chars, serref_57af2187-3244-4b5d-a096-684050127a24.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_CHARS
 ---
 
-# IOCTL_SERIAL_SET_CHARS IOCTL
+# IOCTL_SERIAL_SET_CHARS IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

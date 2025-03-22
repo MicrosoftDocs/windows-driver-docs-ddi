@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["WaitForPrinterChange function"]
 ms.keywords: WaitForPrinterChange, WaitForPrinterChange function [Print Devices], print.waitforprinterchange, winspool/WaitForPrinterChange
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - WaitForPrinterChange
 ---
+
+# WaitForPrinterChange function (winspool.h)
 
 ## -description
 

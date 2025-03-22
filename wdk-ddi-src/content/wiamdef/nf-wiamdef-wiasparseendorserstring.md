@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasParseEndorserString function"]
 ms.keywords: image.wiasparseendorserstring, wiamdef/wiasParseEndorserString, wiasFncs_09a845d0-52f1-4985-baf6-2cb2676fad3e.xml, wiasParseEndorserString, wiasParseEndorserString function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasParseEndorserString
 ---
 
-# wiasParseEndorserString function
+# wiasParseEndorserString function (wiamdef.h)
+
+
 
 
 ## -description

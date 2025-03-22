@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortMapMemory function"]
 ms.keywords: VideoPortMapMemory, VideoPortMapMemory function [Display Devices], VideoPort_Functions_53fef559-5fbb-4e9a-9152-b44be67bd63c.xml, display.videoportmapmemory, video/VideoPortMapMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortMapMemory
 ---
 
-# VideoPortMapMemory function
+# VideoPortMapMemory function (video.h)
+
+
 
 
 ## -description

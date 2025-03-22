@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMRegisterInterruptEx function"]
 ms.keywords: NdisMRegisterInterruptEx, NdisMRegisterInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMRegisterInterruptEx, ndis_interrupts_functions_ref_9a28602d-5a32-459c-92da-9d97b93f5fde.xml, netvista.ndismregisterinterruptex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMRegisterInterruptEx
 ---
 
-# NdisMRegisterInterruptEx function
+# NdisMRegisterInterruptEx function (ndis.h)
+
+
 
 
 ## -description

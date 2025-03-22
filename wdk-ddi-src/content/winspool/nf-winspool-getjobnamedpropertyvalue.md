@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GetJobNamedPropertyValue function"]
 ms.keywords: GetJobNamedPropertyValue, GetJobNamedPropertyValue function [Print Devices], print.getjobnamedpropertyvalue, winspool/GetJobNamedPropertyValue
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - GetJobNamedPropertyValue
 ---
 
-# GetJobNamedPropertyValue function
+# GetJobNamedPropertyValue function (winspool.h)
+
+
 
 
 ## -description

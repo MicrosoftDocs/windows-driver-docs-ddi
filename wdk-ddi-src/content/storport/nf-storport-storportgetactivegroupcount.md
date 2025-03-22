@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetActiveGroupCount function"]
 ms.keywords: StorPortGetActiveGroupCount, StorPortGetActiveGroupCount routine [Storage Devices], storage.storportgetactivegroupcount, storport/StorPortGetActiveGroupCount, storprt_d26e001f-a43e-4d7e-9278-9ba48a74574a.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetActiveGroupCount
 ---
 
-# StorPortGetActiveGroupCount function
+# StorPortGetActiveGroupCount function (storport.h)
+
+
 
 
 ## -description

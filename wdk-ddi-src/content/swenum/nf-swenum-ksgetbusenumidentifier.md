@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["KsGetBusEnumIdentifier function"]
 ms.keywords: KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, stream.ksgetbusenumidentifier, swenum/KsGetBusEnumIdentifier
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsGetBusEnumIdentifier
 ---
+
+# KsGetBusEnumIdentifier function (swenum.h)
 
 ## -description
 

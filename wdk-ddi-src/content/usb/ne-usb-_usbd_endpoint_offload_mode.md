@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_ENDPOINT_OFFLOAD_MODE enumeration"]
 ms.keywords: USBD_ENDPOINT_OFFLOAD_MODE, USBD_ENDPOINT_OFFLOAD_MODE enumeration [Buses], UsbdEndpointOffloadHardwareAssisted, UsbdEndpointOffloadModeNotSupported, UsbdEndpointOffloadSoftwareAssisted, _USBD_ENDPOINT_OFFLOAD_MODE, buses.usbd_endpoint_offload_mode, usb/USBD_ENDPOINT_OFFLOAD_MODE, usb/UsbdEndpointOffloadHardwareAssisted, usb/UsbdEndpointOffloadModeNotSupported, usb/UsbdEndpointOffloadSoftwareAssisted
 req.header: usb.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -43,7 +44,9 @@ api_name:
  - USBD_ENDPOINT_OFFLOAD_MODE
 ---
 
-# _USBD_ENDPOINT_OFFLOAD_MODE enumeration
+# USBD_ENDPOINT_OFFLOAD_MODE enumeration (usb.h)
+
+
 
 
 ## -description

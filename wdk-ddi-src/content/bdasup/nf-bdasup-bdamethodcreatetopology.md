@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaMethodCreateTopology function"]
 ms.keywords: BdaMethodCreateTopology, BdaMethodCreateTopology function [Streaming Media Devices], bdaref_3e082bad-4178-430a-aca0-3af6324a0aa2.xml, bdasup/BdaMethodCreateTopology, stream.bdamethodcreatetopology
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaMethodCreateTopology
 ---
+
+# BdaMethodCreateTopology function (bdasup.h)
 
 ## -description
 

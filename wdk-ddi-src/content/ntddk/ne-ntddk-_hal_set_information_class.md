@@ -7,6 +7,7 @@ ms.date: 03/07/2022
 keywords: ["HAL_SET_INFORMATION_CLASS enumeration"]
 ms.keywords: _HAL_SET_INFORMATION_CLASS, *PHAL_SET_INFORMATION_CLASS, HAL_SET_INFORMATION_CLASS,
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - HAL_SET_INFORMATION_CLASS
 ---
 
-# _HAL_SET_INFORMATION_CLASS enumeration
+# HAL_SET_INFORMATION_CLASS enumeration (ntddk.h)
+
+
 
 ## -description
 

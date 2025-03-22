@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfVerifierDbgBreakPoint function"]
 ms.keywords: DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, wdf.wdfverifierdbgbreakpoint, wdfverifier/WdfVerifierDbgBreakPoint
 req.header: wdfverifier.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfVerifierDbgBreakPoint
 ---
 
-# WdfVerifierDbgBreakPoint function
+# WdfVerifierDbgBreakPoint function (wdfverifier.h)
+
+
 
 
 ## -description

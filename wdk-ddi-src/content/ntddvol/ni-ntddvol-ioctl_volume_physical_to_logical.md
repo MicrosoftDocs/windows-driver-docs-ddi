@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_PHYSICAL_TO_LOGICAL IOCTL"]
 ms.keywords: IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control, IOCTL_VOLUME_PHYSICAL_TO_LOGICAL control code [Storage Devices], k307_7f4b8e45-1569-4d69-a33b-856b8587fe7b.xml, ntddvol/IOCTL_VOLUME_PHYSICAL_TO_LOGICAL, storage.ioctl_volume_physical_to_logical
 req.header: ntddvol.h
+req.construct-type: ioctl
 req.include-header: Ntddvol.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VOLUME_PHYSICAL_TO_LOGICAL
 ---
 
-# IOCTL_VOLUME_PHYSICAL_TO_LOGICAL IOCTL
+# IOCTL_VOLUME_PHYSICAL_TO_LOGICAL IOCTL (ntddvol.h)
+
+
+
+
 
 
 ## -description

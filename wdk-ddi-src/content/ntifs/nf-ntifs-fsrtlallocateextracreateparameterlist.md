@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlAllocateExtraCreateParameterList function"]
 ms.keywords: FsRtlAllocateExtraCreateParameterList, FsRtlAllocateExtraCreateParameterList routine [Installable File System Drivers], fsrtlref_2d552d23-4312-4203-91fb-c6cf6fb39681.xml, ifsk.fsrtlallocateextracreateparameterlist, ntifs/FsRtlAllocateExtraCreateParameterList
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -39,7 +40,9 @@ api_name:
  - FsRtlAllocateExtraCreateParameterList
 ---
 
-# FsRtlAllocateExtraCreateParameterList function
+# FsRtlAllocateExtraCreateParameterList function (ntifs.h)
+
+
 
 ## -description
 

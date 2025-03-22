@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration"]
 ms.keywords: D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration [Display Devices], d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_HARDWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_DRIVER_SOFTWARE, d3d10umddi/D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE, display.d3d11_1ddi_authenticated_channel_type
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE
 ---
 
-# D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration
+# D3D11_1DDI_AUTHENTICATED_CHANNEL_TYPE enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

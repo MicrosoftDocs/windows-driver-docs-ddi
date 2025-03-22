@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WUDF_WORKITEM_CONFIG_INIT function"]
 ms.keywords: WUDF_WORKITEM_CONFIG_INIT, WUDF_WORKITEM_CONFIG_INIT function, umdf.wudf_workitem_config_init, wdf.wudf_workitem_config_init, wudfworkitem/WUDF_WORKITEM_CONFIG_INIT
 req.header: wudfworkitem.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WUDF_WORKITEM_CONFIG_INIT
 ---
 
-# WUDF_WORKITEM_CONFIG_INIT function
+# WUDF_WORKITEM_CONFIG_INIT function (wudfworkitem.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["IOCTL_EHSTOR_BANDMGMT_ERASE_BAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control, IOCTL_EHSTOR_BANDMGMT_ERASE_BAND control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ERASE_BAND, storage.ioctl_ehstor_bandmgmt_erase_band
 req.header: ehstorbandmgmt.h
+req.construct-type: ioctl
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_BANDMGMT_ERASE_BAND
 ---
 
-# IOCTL_EHSTOR_BANDMGMT_ERASE_BAND IOCTL
+# IOCTL_EHSTOR_BANDMGMT_ERASE_BAND IOCTL (ehstorbandmgmt.h)
+
+
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 01/30/2019
 keywords: ["NetPacketIsIpv6 function"]
 ms.keywords: NetPacketIsIpv6
 req.header: packet.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetPacketIsIpv6
 ---
 
-# NetPacketIsIpv6 function
+# NetPacketIsIpv6 function (packet.h)
+
+
 
 
 ## -description

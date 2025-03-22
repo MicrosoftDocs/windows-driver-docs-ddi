@@ -8,6 +8,7 @@ ms.date: 12/16/2021
 keywords: ["RxDriverEntry function"]
 ms.keywords: RxDriverEntry, RxDriverEntry routine [Installable File System Drivers], ifsk.rxdriverentry, rxprocs/RxDriverEntry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxDriverEntry
 ---
 
-# RxDriverEntry function
+# RxDriverEntry function (rxprocs.h)
+
+
 
 ## -description
 

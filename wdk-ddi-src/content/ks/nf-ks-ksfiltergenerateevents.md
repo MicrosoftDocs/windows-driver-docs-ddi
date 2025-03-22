@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterGenerateEvents function"]
 ms.keywords: KsFilterGenerateEvents, KsFilterGenerateEvents function [Streaming Media Devices], avfunc_bf12d7bb-6ebf-460b-a2c2-24632c89b083.xml, ks/KsFilterGenerateEvents, stream.ksfiltergenerateevents
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterGenerateEvents
 ---
 
-# KsFilterGenerateEvents function
+# KsFilterGenerateEvents function (ks.h)
+
+
 
 
 ## -description

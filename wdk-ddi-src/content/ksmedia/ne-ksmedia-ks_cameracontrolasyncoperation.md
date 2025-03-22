@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_CameraControlAsyncOperation enumeration"]
 ms.keywords: KS_CAMERACONTROL_ASYNC_RESET, KS_CAMERACONTROL_ASYNC_START, KS_CAMERACONTROL_ASYNC_STOP, KS_CameraControlAsyncOperation, KS_CameraControlAsyncOperation enumeration [Streaming Media Devices], ksmedia/KS_CAMERACONTROL_ASYNC_RESET, ksmedia/KS_CAMERACONTROL_ASYNC_START, ksmedia/KS_CAMERACONTROL_ASYNC_STOP, ksmedia/KS_CameraControlAsyncOperation, stream.ks_cameracontrolasyncoperation
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KS_CameraControlAsyncOperation
 ---
 
-# KS_CameraControlAsyncOperation enumeration
+# KS_CameraControlAsyncOperation enumeration (ksmedia.h)
+
+
 
 
 ## -description

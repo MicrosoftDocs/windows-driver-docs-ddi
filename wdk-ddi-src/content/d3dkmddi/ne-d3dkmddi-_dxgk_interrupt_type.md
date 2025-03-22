@@ -4,6 +4,7 @@ title: DXGK_INTERRUPT_TYPE (d3dkmddi.h)
 description: Learn more about the DXGK_INTERRUPT_TYPE enumeration.
 ms.date: 04/08/2024
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - DXGK_INTERRUPT_TYPE
 ---
 
-# DXGK_INTERRUPT_TYPE enumeration
+# DXGK_INTERRUPT_TYPE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

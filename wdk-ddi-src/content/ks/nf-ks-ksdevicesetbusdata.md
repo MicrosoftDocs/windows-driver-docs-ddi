@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDeviceSetBusData function"]
 ms.keywords: KsDeviceSetBusData, KsDeviceSetBusData function [Streaming Media Devices], avfunc_5b7ad4e8-d651-4b80-99db-260fba83ce15.xml, ks/KsDeviceSetBusData, stream.ksdevicesetbusdata
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsDeviceSetBusData
 ---
 
-# KsDeviceSetBusData function
+# KsDeviceSetBusData function (ks.h)
+
+
 
 
 ## -description

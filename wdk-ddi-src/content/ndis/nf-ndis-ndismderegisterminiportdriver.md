@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMDeregisterMiniportDriver function"]
 ms.keywords: NdisMDeregisterMiniportDriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, ndis/NdisMDeregisterMiniportDriver, netvista.ndismderegisterminiportdriver
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMDeregisterMiniportDriver
 ---
 
-# NdisMDeregisterMiniportDriver function
+# NdisMDeregisterMiniportDriver function (ndis.h)
+
+
 
 
 ## -description

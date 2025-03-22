@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExAcquireSharedWaitForExclusive function"]
 ms.keywords: ExAcquireSharedWaitForExclusive, ExAcquireSharedWaitForExclusive routine [Kernel-Mode Driver Architecture], k102_505fe2a0-5751-4481-a545-2091828463ce.xml, kernel.exacquiresharedwaitforexclusive, wdm/ExAcquireSharedWaitForExclusive
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExAcquireSharedWaitForExclusive
 ---
 
-# ExAcquireSharedWaitForExclusive function
+# ExAcquireSharedWaitForExclusive function (wdm.h)
+
+
 
 
 ## -description

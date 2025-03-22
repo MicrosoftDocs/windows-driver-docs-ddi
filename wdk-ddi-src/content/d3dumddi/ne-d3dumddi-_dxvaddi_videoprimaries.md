@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_VIDEOPRIMARIES enumeration"]
 ms.keywords: DXVA2_Structs_f49dc977-3cb9-41b6-bb0c-a2de5e6a60c3.xml, DXVADDI_VIDEOPRIMARIES, DXVADDI_VIDEOPRIMARIES enumeration [Display Devices], DXVADDI_VideoPrimariesMask, DXVADDI_VideoPrimaries_BT470_2_SysBG, DXVADDI_VideoPrimaries_BT470_2_SysM, DXVADDI_VideoPrimaries_BT709, DXVADDI_VideoPrimaries_EBU3213, DXVADDI_VideoPrimaries_SMPTE170M, DXVADDI_VideoPrimaries_SMPTE240M, DXVADDI_VideoPrimaries_SMPTE_C, DXVADDI_VideoPrimaries_Unknown, DXVADDI_VideoPrimaries_reserved, _DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VIDEOPRIMARIES, d3dumddi/DXVADDI_VideoPrimariesMask, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysBG, d3dumddi/DXVADDI_VideoPrimaries_BT470_2_SysM, d3dumddi/DXVADDI_VideoPrimaries_BT709, d3dumddi/DXVADDI_VideoPrimaries_EBU3213, d3dumddi/DXVADDI_VideoPrimaries_SMPTE170M, d3dumddi/DXVADDI_VideoPrimaries_SMPTE240M, d3dumddi/DXVADDI_VideoPrimaries_SMPTE_C, d3dumddi/DXVADDI_VideoPrimaries_Unknown, d3dumddi/DXVADDI_VideoPrimaries_reserved, display.dxvaddi_videoprimaries
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_VIDEOPRIMARIES
 ---
 
-# _DXVADDI_VIDEOPRIMARIES enumeration
+# DXVADDI_VIDEOPRIMARIES enumeration (d3dumddi.h)
+
+
 
 
 ## -description

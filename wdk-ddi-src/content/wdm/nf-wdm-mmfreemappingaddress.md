@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmFreeMappingAddress function"]
 ms.keywords: MmFreeMappingAddress, MmFreeMappingAddress routine [Kernel-Mode Driver Architecture], k106_fa09359d-0552-429a-b3af-048f03ea7a15.xml, kernel.mmfreemappingaddress, wdm/MmFreeMappingAddress
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - MmFreeMappingAddress
 ---
 
-# MmFreeMappingAddress function
+# MmFreeMappingAddress function (wdm.h)
+
+
 
 
 ## -description

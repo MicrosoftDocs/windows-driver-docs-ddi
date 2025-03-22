@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RevertToPrinterSelf function"]
 ms.keywords: RevertToPrinterSelf, RevertToPrinterSelf function [Print Devices], print.reverttoprinterself, spoolfnc_4cf3c4c1-39bf-4ef6-b578-b9ff0955cbe5.xml, winsplp/RevertToPrinterSelf
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RevertToPrinterSelf
 ---
 
-# RevertToPrinterSelf function
+# RevertToPrinterSelf function (winsplp.h)
+
+
 
 
 ## -description

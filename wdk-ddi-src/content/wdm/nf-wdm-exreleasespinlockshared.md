@@ -8,6 +8,7 @@ ms.date: 08/15/2022
 keywords: ["ExReleaseSpinLockShared function"]
 ms.keywords: ExReleaseSpinLockShared, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, wdm/ExReleaseSpinLockShared
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista with SP1.
@@ -40,7 +41,9 @@ api_name:
  - ExReleaseSpinLockShared
 ---
 
-# ExReleaseSpinLockShared function
+# ExReleaseSpinLockShared function (wdm.h)
+
+
 
 ## -description
 

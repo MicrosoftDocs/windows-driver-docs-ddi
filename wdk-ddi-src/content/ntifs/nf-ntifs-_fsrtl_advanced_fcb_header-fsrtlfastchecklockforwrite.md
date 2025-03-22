@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlFastCheckLockForWrite function"]
 ms.keywords: FsRtlFastCheckLockForWrite, FsRtlFastCheckLockForWrite routine [Installable File System Drivers], fsrtlref_1f8feaa8-cc2d-47fb-af4a-00ef0efb4190.xml, ifsk.fsrtlfastchecklockforwrite, ntifs/FsRtlFastCheckLockForWrite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlFastCheckLockForWrite function
+# FsRtlFastCheckLockForWrite function (ntifs.h)
+
+
 
 
 ## -description

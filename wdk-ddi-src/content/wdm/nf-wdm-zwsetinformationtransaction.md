@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwSetInformationTransaction function"]
 ms.keywords: NtSetInformationTransaction, ZwSetInformationTransaction, ZwSetInformationTransaction routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationtransaction, ktm_ref_575490bd-1003-43b3-8e41-676c4b0e4f25.xml, wdm/NtSetInformationTransaction, wdm/ZwSetInformationTransaction
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwSetInformationTransaction
 ---
 
-# ZwSetInformationTransaction function
+# ZwSetInformationTransaction function (wdm.h)
+
+
 
 
 ## -description

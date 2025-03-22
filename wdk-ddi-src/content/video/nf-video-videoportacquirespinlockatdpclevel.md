@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAcquireSpinLockAtDpcLevel function"]
 ms.keywords: VideoPortAcquireSpinLockAtDpcLevel, VideoPortAcquireSpinLockAtDpcLevel function [Display Devices], VideoPort_Functions_fc52bdfd-6f1a-4f5c-93e6-321d2488bcd5.xml, display.videoportacquirespinlockatdpclevel, video/VideoPortAcquireSpinLockAtDpcLevel
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAcquireSpinLockAtDpcLevel
 ---
 
-# VideoPortAcquireSpinLockAtDpcLevel function
+# VideoPortAcquireSpinLockAtDpcLevel function (video.h)
+
+
 
 
 ## -description

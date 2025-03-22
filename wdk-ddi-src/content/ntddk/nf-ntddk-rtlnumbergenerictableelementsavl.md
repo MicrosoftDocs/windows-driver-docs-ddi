@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlNumberGenericTableElementsAvl function"]
 ms.keywords: RtlNumberGenericTableElementsAvl, RtlNumberGenericTableElementsAvl routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelementsavl, ntddk/RtlNumberGenericTableElementsAvl
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - RtlNumberGenericTableElementsAvl
 ---
 
-# RtlNumberGenericTableElementsAvl function
+# RtlNumberGenericTableElementsAvl function (ntddk.h)
+
+
 
 
 ## -description

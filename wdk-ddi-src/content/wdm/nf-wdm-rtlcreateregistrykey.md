@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCreateRegistryKey function"]
 ms.keywords: RtlCreateRegistryKey, RtlCreateRegistryKey routine [Kernel-Mode Driver Architecture], k109_9a163bcc-501d-453b-b426-a4267d04135c.xml, kernel.rtlcreateregistrykey, wdm/RtlCreateRegistryKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlCreateRegistryKey
 ---
 
-# RtlCreateRegistryKey function
+# RtlCreateRegistryKey function (wdm.h)
+
+
 
 
 ## -description

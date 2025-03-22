@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewInterruptSync function"]
 ms.keywords: PcNewInterruptSync, PcNewInterruptSync function [Audio Devices], audio.pcnewinterruptsync, audpc-routines_97a60c6f-2dc1-48db-982a-996b5ab8d741.xml, portcls/PcNewInterruptSync
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting in  Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - PcNewInterruptSync
 ---
 
-# PcNewInterruptSync function
+# PcNewInterruptSync function (portcls.h)
+
+
 
 
 ## -description

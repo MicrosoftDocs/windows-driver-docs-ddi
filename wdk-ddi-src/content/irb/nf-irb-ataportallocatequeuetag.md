@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortAllocateQueueTag function"]
 ms.keywords: AtaPortAllocateQueueTag, AtaPortAllocateQueueTag routine [Storage Devices], atartns_bae1e6d8-6ae5-4428-88a6-334a63fcefae.xml, irb/AtaPortAllocateQueueTag, storage.ataportallocatequeuetag
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortAllocateQueueTag
 ---
 
-# AtaPortAllocateQueueTag function
+# AtaPortAllocateQueueTag function (irb.h)
+
+
 
 
 ## -description

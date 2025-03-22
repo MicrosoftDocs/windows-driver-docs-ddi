@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL"]
 ms.keywords: IOCTL_DISK_REASSIGN_BLOCKS_EX, IOCTL_DISK_REASSIGN_BLOCKS_EX control, IOCTL_DISK_REASSIGN_BLOCKS_EX control code [Storage Devices], ntdddisk/IOCTL_DISK_REASSIGN_BLOCKS_EX, storage.ioctl_disk_reassign_blocks_ex
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_REASSIGN_BLOCKS_EX
 ---
 
-# IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL
+# IOCTL_DISK_REASSIGN_BLOCKS_EX IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

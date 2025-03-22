@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortInitializeEx function"]
 ms.keywords: AtaPortInitializeEx, AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, storage.ataportinitializeex
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - AtaPortInitializeEx
 ---
 
-# AtaPortInitializeEx function
+# AtaPortInitializeEx function (irb.h)
+
+
 
 
 ## -description

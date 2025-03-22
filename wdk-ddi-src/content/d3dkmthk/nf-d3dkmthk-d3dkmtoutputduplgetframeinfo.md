@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTOutputDuplGetFrameInfo function"]
 ms.keywords: D3DKMTOutputDuplGetFrameInfo
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTOutputDuplGetFrameInfo function
+# D3DKMTOutputDuplGetFrameInfo function (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["PosCxClaimDevice function"]
 ms.keywords: PosCxClaimDevice, PosCxClaimDevice function, pos.poscxclaimdevice, poscx/PosCxClaimDevice
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PosCxClaimDevice
 ---
+
+# PosCxClaimDevice function (poscx.h)
 
 ## -description
 

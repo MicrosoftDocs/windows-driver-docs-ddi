@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortWaitForSingleObject function"]
 ms.keywords: VideoPortWaitForSingleObject, VideoPortWaitForSingleObject function [Display Devices], VideoPort_Functions_a1678f59-0c1c-4b0a-b1e6-2dbb71c8a7c2.xml, display.videoportwaitforsingleobject, video/VideoPortWaitForSingleObject
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortWaitForSingleObject
 ---
 
-# VideoPortWaitForSingleObject function
+# VideoPortWaitForSingleObject function (video.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionInitialize function"]
 ms.keywords: DFDmaObjectRef_d7f9d480-a08b-4d5e-a4a2-bfc2de6b4d34.xml, WdfDmaTransactionInitialize, WdfDmaTransactionInitialize method, kmdf.wdfdmatransactioninitialize, wdf.wdfdmatransactioninitialize, wdfdmatransaction/WdfDmaTransactionInitialize
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionInitialize
 ---
 
-# WdfDmaTransactionInitialize function
+# WdfDmaTransactionInitialize function (wdfdmatransaction.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["MmAllocateContiguousMemory function"]
 ms.keywords: MmAllocateContiguousMemory, MmAllocateContiguousMemory routine [Kernel-Mode Driver Architecture], k106_33fb6610-08f3-4605-9511-72a2ec6fa442.xml, kernel.mmallocatecontiguousmemory, wdm/MmAllocateContiguousMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocateContiguousMemory
 ---
+
+# MmAllocateContiguousMemory function (wdm.h)
 
 ## -description
 

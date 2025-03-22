@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_POWER_MODE_REASON enumeration"]
 ms.keywords: DOT11_POWER_MODE_REASON, DOT11_POWER_MODE_REASON enumeration [Network Drivers Starting with Windows Vista], _DOT11_POWER_MODE_REASON, dot11_power_mode_reason_compliant_AP, dot11_power_mode_reason_compliant_WFD_device, dot11_power_mode_reason_legacy_WFD_device, dot11_power_mode_reason_no_change, dot11_power_mode_reason_noncompliant_AP, dot11_power_mode_reason_others, netvista.dot11_power_mode_reason, windot11/DOT11_POWER_MODE_REASON, windot11/dot11_power_mode_reason_compliant_AP, windot11/dot11_power_mode_reason_compliant_WFD_device, windot11/dot11_power_mode_reason_legacy_WFD_device, windot11/dot11_power_mode_reason_no_change, windot11/dot11_power_mode_reason_noncompliant_AP, windot11/dot11_power_mode_reason_others
 req.header: windot11.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - DOT11_POWER_MODE_REASON
 ---
 
-# _DOT11_POWER_MODE_REASON enumeration
+# DOT11_POWER_MODE_REASON enumeration (windot11.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitAssignInstanceID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, WdfPdoInitAssignInstanceID, WdfPdoInitAssignInstanceID method, kmdf.wdfpdoinitassigninstanceid, wdf.wdfpdoinitassigninstanceid, wdfpdo/WdfPdoInitAssignInstanceID
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitAssignInstanceID
 ---
 
-# WdfPdoInitAssignInstanceID function
+# WdfPdoInitAssignInstanceID function (wdfpdo.h)
+
+
 
 
 ## -description

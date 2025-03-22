@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration"]
 ms.keywords: _D3DKMT_GPU_PREFERENCE_QUERY_TYPE, D3DKMT_GPU_PREFERENCE_QUERY_TYPE,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration
+# D3DKMT_GPU_PREFERENCE_QUERY_TYPE enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

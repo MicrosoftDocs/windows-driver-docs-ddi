@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["IOCTL_SRIOV_EVENT_COMPLETE IOCTL"]
 ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 req.header: pcivirt.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SRIOV_EVENT_COMPLETE
 ---
 
-# IOCTL_SRIOV_EVENT_COMPLETE IOCTL
+# IOCTL_SRIOV_EVENT_COMPLETE IOCTL (pcivirt.h)
+
+
+
+
 
 
 ##  Major Code:

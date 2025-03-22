@@ -8,6 +8,7 @@ ms.date: 10/11/2022
 keywords: ["IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL"]
 ms.keywords: IOCTL_STORAGE_DEVICE_POWER_CAP, IOCTL_STORAGE_DEVICE_POWER_CAP control, IOCTL_STORAGE_DEVICE_POWER_CAP control code [Storage Devices], ntddstor/IOCTL_STORAGE_DEVICE_POWER_CAP, storage.ioctl_storage_device_power_cap
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,11 @@ api_name:
 ms.custom: engagement-fy23 
 ---
 
-# IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL
+# IOCTL_STORAGE_DEVICE_POWER_CAP IOCTL (ntddstor.h)
+
+
+
+
 
 ## -description
 

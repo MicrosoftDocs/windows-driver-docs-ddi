@@ -8,6 +8,7 @@ ms.date: 09/27/2021
 keywords: ["NtSetInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, wdm/NtSetInformationFile, wdm/ZwSetInformationFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - NtSetInformationFile
 ---
 
-# NtSetInformationFile function
+# NtSetInformationFile function (ntifs.h)
+
+
 
 ## -description
 

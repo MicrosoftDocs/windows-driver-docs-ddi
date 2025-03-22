@@ -7,6 +7,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentMdl function"]
 ms.keywords: NetExtensionGetFragmentMdl
 req.header: mdl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetExtensionGetFragmentMdl
 ---
 
-# NetExtensionGetFragmentMdl function
+# NetExtensionGetFragmentMdl function (mdl.h)
+
+
 
 
 ## -description

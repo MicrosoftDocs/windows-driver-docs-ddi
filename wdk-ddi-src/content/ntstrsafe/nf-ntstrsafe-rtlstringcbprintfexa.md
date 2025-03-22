@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCbPrintfExA function"]
 ms.keywords: RtlStringCbPrintfEx, RtlStringCbPrintfExA, RtlStringCbPrintfExW, RtlStringCbPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, STRSAFE_IGNORE_NULLS, STRSAFE_NO_TRUNCATION, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcbprintfex, ntstrsafe/RtlStringCbPrintfExA, ntstrsafe/RtlStringCbPrintfExW, safestrings_44a6ae33-3b6e-4de4-893c-4a198dfa75da.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCbPrintfExA
 ---
 
-# RtlStringCbPrintfExA function
+# RtlStringCbPrintfExA function (ntstrsafe.h)
+
+
 
 
 ## -description

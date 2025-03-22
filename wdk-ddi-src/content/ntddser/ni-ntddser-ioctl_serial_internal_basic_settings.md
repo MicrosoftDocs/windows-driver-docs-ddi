@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS IOCTL"]
 ms.keywords: IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control, IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS, serports.ioctl_serial_internal_basic_settings, serref_86bdc0cd-4cfc-40de-82ac-81a088620e4c.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS
 ---
 
-# IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS IOCTL
+# IOCTL_SERIAL_INTERNAL_BASIC_SETTINGS IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

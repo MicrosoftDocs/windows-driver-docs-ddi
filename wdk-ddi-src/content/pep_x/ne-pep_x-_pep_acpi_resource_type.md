@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_ACPI_RESOURCE_TYPE enumeration"]
 ms.keywords: PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiExtendedIo, PepAcpiExtendedMemory, PepAcpiGpioInt, PepAcpiGpioIo, PepAcpiInterrupt, PepAcpiIoPort, PepAcpiMemory, PepAcpiSpbI2c, PepAcpiSpbSpi, PepAcpiSpbUart, _PEP_ACPI_RESOURCE_TYPE, kernel.pep_acpi_resource_type, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiExtendedIo, pepfx/PepAcpiExtendedMemory, pepfx/PepAcpiGpioInt, pepfx/PepAcpiGpioIo, pepfx/PepAcpiInterrupt, pepfx/PepAcpiIoPort, pepfx/PepAcpiMemory, pepfx/PepAcpiSpbI2c, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiSpbUart
 req.header: pep_x.h
+req.construct-type: enumeration
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -43,7 +44,9 @@ api_name:
  - PEP_ACPI_RESOURCE_TYPE
 ---
 
-# _PEP_ACPI_RESOURCE_TYPE enumeration (pep_x.h)
+# PEP_ACPI_RESOURCE_TYPE enumeration (pep_x.h)
+
+
 
 
 ## -description

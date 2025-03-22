@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceFormatRequestForString function"]
 ms.keywords: DFUsbRef_ff5bebaa-3db1-4f9a-bac4-2e5e5c297d03.xml, WdfUsbTargetDeviceFormatRequestForString, WdfUsbTargetDeviceFormatRequestForString method, kmdf.wdfusbtargetdeviceformatrequestforstring, wdf.wdfusbtargetdeviceformatrequestforstring, wdfusb/WdfUsbTargetDeviceFormatRequestForString
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceFormatRequestForString
 ---
 
-# WdfUsbTargetDeviceFormatRequestForString function
+# WdfUsbTargetDeviceFormatRequestForString function (wdfusb.h)
+
+
 
 
 ## -description

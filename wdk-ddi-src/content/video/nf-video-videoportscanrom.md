@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortScanRom function"]
 ms.keywords: VideoPortScanRom, VideoPortScanRom function [Display Devices], VideoPort_Functions_7bcf750d-48d5-4b3b-911f-90efd1f0eed1.xml, display.videoportscanrom, video/VideoPortScanRom
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortScanRom
 ---
 
-# VideoPortScanRom function
+# VideoPortScanRom function (video.h)
+
+
 
 
 ## -description

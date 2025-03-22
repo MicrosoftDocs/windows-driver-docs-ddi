@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQueryTimeIncrement function"]
 ms.keywords: KeQueryTimeIncrement, KeQueryTimeIncrement routine [Kernel-Mode Driver Architecture], k105_dc7a4658-7d4b-4b60-a8c8-693c36d68b27.xml, kernel.kequerytimeincrement, wdm/KeQueryTimeIncrement
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryTimeIncrement
 ---
 
-# KeQueryTimeIncrement function
+# KeQueryTimeIncrement function (wdm.h)
+
+
 
 
 ## -description

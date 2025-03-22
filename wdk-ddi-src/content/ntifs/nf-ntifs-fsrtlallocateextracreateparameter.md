@@ -8,6 +8,7 @@ ms.date: 09/10/2021
 keywords: ["FsRtlAllocateExtraCreateParameter function"]
 ms.keywords: FsRtlAllocateExtraCreateParameter, FsRtlAllocateExtraCreateParameter routine [Installable File System Drivers], fsrtlref_97f1c552-b822-4fda-9327-8d127f42080b.xml, ifsk.fsrtlallocateextracreateparameter, ntifs/FsRtlAllocateExtraCreateParameter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlAllocateExtraCreateParameter routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAllocateExtraCreateParameter
 ---
 
-# FsRtlAllocateExtraCreateParameter function
+# FsRtlAllocateExtraCreateParameter function (ntifs.h)
+
+
 
 ## -description
 

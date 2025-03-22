@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlBalanceReads function"]
 ms.keywords: FsRtlBalanceReads, FsRtlBalanceReads routine [Installable File System Drivers], fsrtlref_9785018d-4a2f-44e8-a533-85ab1878e855.xml, ifsk.fsrtlbalancereads, ntifs/FsRtlBalanceReads
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlBalanceReads
 ---
 
-# FsRtlBalanceReads function
+# FsRtlBalanceReads function (ntifs.h)
+
+
 
 
 ## -description

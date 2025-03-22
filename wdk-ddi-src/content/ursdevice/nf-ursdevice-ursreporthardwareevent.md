@@ -8,6 +8,7 @@ ms.date: 01/19/2022
 keywords: ["UrsReportHardwareEvent function"]
 ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], buses.ursreporthardwareevent, ursdevice/UrsReportHardwareEvent
 req.header: ursdevice.h
+req.construct-type: function
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UrsReportHardwareEvent
 ---
 
-# UrsReportHardwareEvent function
+# UrsReportHardwareEvent function (ursdevice.h)
+
+
 
 ## -description
 

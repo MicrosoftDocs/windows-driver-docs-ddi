@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoTransferActivityId function"]
 ms.keywords: IoTransferActivityId, IoTransferActivityId routine [Kernel-Mode Driver Architecture], kernel.iotransferactivityid, ntddk/IoTransferActivityId
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - IoTransferActivityId
 ---
 
-# IoTransferActivityId function
+# IoTransferActivityId function (ntddk.h)
+
+
 
 
 ## -description

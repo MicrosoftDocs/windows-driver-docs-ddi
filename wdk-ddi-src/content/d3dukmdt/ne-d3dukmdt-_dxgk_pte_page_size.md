@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PTE_PAGE_SIZE enumeration"]
 ms.keywords: DXGK_PTE_PAGE_SIZE, DXGK_PTE_PAGE_SIZE enumeration [Display Devices], DXGK_PTE_PAGE_TABLE_PAGE_4KB, DXGK_PTE_PAGE_TABLE_PAGE_64KB, _DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_SIZE, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_4KB, d3dukmdt/DXGK_PTE_PAGE_TABLE_PAGE_64KB, display.dxgk_pte_page_size
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PTE_PAGE_SIZE
 ---
 
-# _DXGK_PTE_PAGE_SIZE enumeration
+# DXGK_PTE_PAGE_SIZE enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

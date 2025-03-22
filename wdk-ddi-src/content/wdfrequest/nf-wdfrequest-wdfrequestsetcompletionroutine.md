@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestSetCompletionRoutine function"]
 ms.keywords: DFRequestObjectRef_4dea9104-1bfd-4add-b991-f02d57f840cb.xml, WdfRequestSetCompletionRoutine, WdfRequestSetCompletionRoutine method, kmdf.wdfrequestsetcompletionroutine, wdf.wdfrequestsetcompletionroutine, wdfrequest/WdfRequestSetCompletionRoutine
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestSetCompletionRoutine
 ---
 
-# WdfRequestSetCompletionRoutine function
+# WdfRequestSetCompletionRoutine function (wdfrequest.h)
+
+
 
 
 ## -description

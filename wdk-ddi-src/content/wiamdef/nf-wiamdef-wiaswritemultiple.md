@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasWriteMultiple function"]
 ms.keywords: image.wiaswritemultiple, wiamdef/wiasWriteMultiple, wiasFncs_e29533d3-4181-41f3-b49b-fb34a20950db.xml, wiasWriteMultiple, wiasWriteMultiple function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasWriteMultiple
 ---
 
-# wiasWriteMultiple function
+# wiasWriteMultiple function (wiamdef.h)
+
+
 
 
 ## -description

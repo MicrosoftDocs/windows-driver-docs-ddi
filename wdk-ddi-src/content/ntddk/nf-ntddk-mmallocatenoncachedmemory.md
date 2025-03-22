@@ -7,6 +7,7 @@ ms.date: 12/07/2022
 keywords: ["MmAllocateNonCachedMemory function"]
 ms.keywords: MmAllocateNonCachedMemory, MmAllocateNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_a52baa62-3e10-4158-98e5-5e4dce16ee6a.xml, kernel.mmallocatenoncachedmemory, ntddk/MmAllocateNonCachedMemory
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocateNonCachedMemory
 ---
+
+# MmAllocateNonCachedMemory function (ntddk.h)
 
 ## -description
 

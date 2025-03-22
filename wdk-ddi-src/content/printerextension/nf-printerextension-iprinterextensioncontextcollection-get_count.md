@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContextCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrinterExtensionContextCollection interface, IPrinterExtensionContextCollection interface [Print Devices],Count property, IPrinterExtensionContextCollection.Count, IPrinterExtensionContextCollection.get_Count, IPrinterExtensionContextCollection::Count, IPrinterExtensionContextCollection::get_Count, get_Count, print.iprinterextensioncontextcollection_count, printerextension/IPrinterExtensionContextCollection::Count, printerextension/IPrinterExtensionContextCollection::get_Count
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionContextCollection::get_Count
 ---
+
+# IPrinterExtensionContextCollection::get_Count function (printerextension.h)
 
 ## -description
 

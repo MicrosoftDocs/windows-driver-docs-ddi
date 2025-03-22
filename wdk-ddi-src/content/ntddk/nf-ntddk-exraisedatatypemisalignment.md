@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExRaiseDatatypeMisalignment function"]
 ms.keywords: ExRaiseDatatypeMisalignment, ExRaiseDatatypeMisalignment routine [Kernel-Mode Driver Architecture], k102_ff274a50-ae59-4591-9484-6bc068601ee8.xml, kernel.exraisedatatypemisalignment, ntddk/ExRaiseDatatypeMisalignment
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExRaiseDatatypeMisalignment
 ---
 
-# ExRaiseDatatypeMisalignment function
+# ExRaiseDatatypeMisalignment function (ntddk.h)
+
+
 
 
 ## -description

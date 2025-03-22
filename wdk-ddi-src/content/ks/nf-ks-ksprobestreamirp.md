@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsProbeStreamIrp function"]
 ms.keywords: KsProbeStreamIrp, KsProbeStreamIrp function [Streaming Media Devices], ks/KsProbeStreamIrp, ksfunc_0ed25e85-a785-4021-a7b7-59fa6230eff8.xml, stream.ksprobestreamirp
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsProbeStreamIrp
 ---
+
+# KsProbeStreamIrp function (ks.h)
 
 ## -description
 

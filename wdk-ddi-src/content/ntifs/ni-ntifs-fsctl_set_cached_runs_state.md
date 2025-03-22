@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_SET_CACHED_RUNS_STATE
 ---
 
-# FSCTL_SET_CACHED_RUNS_STATE ioctl (ntifs.h)
+# FSCTL_SET_CACHED_RUNS_STATE IOCTL (ntifs.h)
+
+
 
 ## -description
 

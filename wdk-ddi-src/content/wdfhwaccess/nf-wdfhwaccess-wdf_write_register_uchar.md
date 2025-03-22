@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WRITE_REGISTER_UCHAR function"]
 ms.keywords: WDF_WRITE_REGISTER_UCHAR, WDF_WRITE_REGISTER_UCHAR function, wdf.wdf_write_register_uchar, wdfhwaccess/WDF_WRITE_REGISTER_UCHAR
 req.header: wdfhwaccess.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WDF_WRITE_REGISTER_UCHAR
 ---
 
-# WDF_WRITE_REGISTER_UCHAR function
+# WDF_WRITE_REGISTER_UCHAR function (wdfhwaccess.h)
+
+
 
 
 ## -description

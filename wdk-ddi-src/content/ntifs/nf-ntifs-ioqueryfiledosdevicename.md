@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoQueryFileDosDeviceName function"]
 ms.keywords: IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ntifs/IoQueryFileDosDeviceName
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting withWindows XP.
@@ -40,7 +41,9 @@ api_name:
  - IoQueryFileDosDeviceName
 ---
 
-# IoQueryFileDosDeviceName function
+# IoQueryFileDosDeviceName function (ntifs.h)
+
+
 
 
 ## -description

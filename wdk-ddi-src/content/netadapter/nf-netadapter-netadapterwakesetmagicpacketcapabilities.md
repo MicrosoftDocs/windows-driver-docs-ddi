@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetAdapterWakeSetMagicPacketCapabilities function"]
 ms.keywords: NetAdapterWakeSetMagicPacketCapabilities
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterWakeSetMagicPacketCapabilities
 ---
 
-# NetAdapterWakeSetMagicPacketCapabilities function
+# NetAdapterWakeSetMagicPacketCapabilities function (netadapter.h)
+
+
 
 
 ## -description

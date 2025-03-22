@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauStrC2C function"]
 ms.keywords: image.wiaustrc2c, wiauFncs_2266a6c9-ed4b-4af8-947a-d634bd9e9912.xml, wiauStrC2C, wiauStrC2C function [Imaging Devices], wiautil/wiauStrC2C
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauStrC2C
 ---
 
-# wiauStrC2C function
+# wiauStrC2C function (wiautil.h)
+
+
 
 
 ## -description

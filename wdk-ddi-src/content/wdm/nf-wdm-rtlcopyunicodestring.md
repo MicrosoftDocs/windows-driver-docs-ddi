@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCopyUnicodeString function"]
 ms.keywords: RtlCopyUnicodeString, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, kernel.rtlcopyunicodestring, wdm/RtlCopyUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlCopyUnicodeString
 ---
 
-# RtlCopyUnicodeString function
+# RtlCopyUnicodeString function (wdm.h)
+
+
 
 
 ## -description

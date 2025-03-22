@@ -8,6 +8,7 @@ ms.date: 08/30/2021
 keywords: ["KeRundownQueue function"]
 ms.keywords: KeRundownQueue, KeRundownQueue routine [Installable File System Drivers], ifsk.kerundownqueue, keref_d1ad3c47-a2e8-40d9-b59d-bcedd6e4314a.xml, ntifs/KeRundownQueue
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeRundownQueue
 ---
 
-# KeRundownQueue function
+# KeRundownQueue function (ntifs.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041 enumeration"]
 ms.keywords: D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041, D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,7 +31,9 @@ api_name:
  - D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041
 ---
 
-# D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041 enumeration
+# D3D12DDI_RESOURCE_SERIALIZATION_TIER_0041 enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

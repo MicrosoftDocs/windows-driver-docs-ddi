@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DbgBreakPoint function"]
 ms.keywords: DbgBreakPoint, DbgBreakPoint routine [Driver Development Tools], DebugFns_f53df634-d9a5-4b98-ad10-560e6e4e5a66.xml, devtest.dbgbreakpoint, ntddk/DbgBreakPoint
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - DbgBreakPoint
 ---
 
-# DbgBreakPoint function
+# DbgBreakPoint function (wdm.h)
+
+
 
 
 ## -description

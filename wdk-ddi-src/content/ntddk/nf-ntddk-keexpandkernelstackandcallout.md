@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeExpandKernelStackAndCallout function"]
 ms.keywords: KeExpandKernelStackAndCallout, KeExpandKernelStackAndCallout routine [Kernel-Mode Driver Architecture], k105_37fc85c2-2317-41a2-9daa-766c3ccf343f.xml, kernel.keexpandkernelstackandcallout, ntddk/KeExpandKernelStackAndCallout
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Server 2003 on x64-based processors, and starting with Windows Vista on all processors.
@@ -40,7 +41,9 @@ api_name:
  - KeExpandKernelStackAndCallout
 ---
 
-# KeExpandKernelStackAndCallout function
+# KeExpandKernelStackAndCallout function (ntddk.h)
+
+
 
 
 ## -description

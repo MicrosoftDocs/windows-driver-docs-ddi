@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtReadOnlyEnlistment function"]
 ms.keywords: NtReadOnlyEnlistment, ZwReadOnlyEnlistment, ZwReadOnlyEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwreadonlyenlistment, ktm_ref_d6e64da8-cb5c-4564-be5d-65073fc17375.xml, wdm/NtReadOnlyEnlistment, wdm/ZwReadOnlyEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - NtReadOnlyEnlistment
 ---
 
-# NtReadOnlyEnlistment function
+# NtReadOnlyEnlistment function (wdm.h)
+
+
 
 
 ## -description

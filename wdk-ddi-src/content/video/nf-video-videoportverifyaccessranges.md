@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortVerifyAccessRanges function"]
 ms.keywords: VideoPortVerifyAccessRanges, VideoPortVerifyAccessRanges function [Display Devices], VideoPort_Functions_be1c2439-0fde-4d2e-a892-9a64e19f9970.xml, display.videoportverifyaccessranges, video/VideoPortVerifyAccessRanges
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortVerifyAccessRanges
 ---
 
-# VideoPortVerifyAccessRanges function
+# VideoPortVerifyAccessRanges function (video.h)
+
+
 
 
 ## -description

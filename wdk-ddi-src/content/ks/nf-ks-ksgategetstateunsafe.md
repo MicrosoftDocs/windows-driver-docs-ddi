@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateGetStateUnsafe function"]
 ms.keywords: KsGateGetStateUnsafe, KsGateGetStateUnsafe function [Streaming Media Devices], avfunc_1f18b601-daaf-4df2-98c2-a91646f84c0d.xml, ks/KsGateGetStateUnsafe, stream.ksgategetstateunsafe
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateGetStateUnsafe
 ---
 
-# KsGateGetStateUnsafe function
+# KsGateGetStateUnsafe function (ks.h)
+
+
 
 
 ## -description

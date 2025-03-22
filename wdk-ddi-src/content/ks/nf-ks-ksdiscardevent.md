@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDiscardEvent function"]
 ms.keywords: KsDiscardEvent, KsDiscardEvent function [Streaming Media Devices], ks/KsDiscardEvent, ksfunc_553391e5-343a-4cc7-9bc5-99971cff2fcd.xml, stream.ksdiscardevent
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDiscardEvent
 ---
 
-# KsDiscardEvent function
+# KsDiscardEvent function (ks.h)
+
+
 
 
 ## -description

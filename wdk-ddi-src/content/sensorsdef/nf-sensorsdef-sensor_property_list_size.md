@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SENSOR_PROPERTY_LIST_SIZE function"]
 ms.keywords: SENSOR_PROPERTY_LIST_SIZE, SENSOR_PROPERTY_LIST_SIZE function [Sensor Devices], sensors.sensor_property_list_size, sensorsdef/SENSOR_PROPERTY_LIST_SIZE
 req.header: sensorsdef.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SENSOR_PROPERTY_LIST_SIZE
 ---
 
-# SENSOR_PROPERTY_LIST_SIZE function
+# SENSOR_PROPERTY_LIST_SIZE function (sensorsdef.h)
+
+
 
 
 ## -description

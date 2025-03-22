@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxPrepareToReparseSymbolicLink function"]
 ms.keywords: RxPrepareToReparseSymbolicLink, RxPrepareToReparseSymbolicLink routine [Installable File System Drivers], ifsk.rxpreparetoreparsesymboliclink, rxprocs/RxPrepareToReparseSymbolicLink, rxref_6726dffd-ccae-43e0-98da-14dc0d11c7c2.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxPrepareToReparseSymbolicLink
 ---
 
-# RxPrepareToReparseSymbolicLink function
+# RxPrepareToReparseSymbolicLink function (rxprocs.h)
+
+
 
 
 ## -description

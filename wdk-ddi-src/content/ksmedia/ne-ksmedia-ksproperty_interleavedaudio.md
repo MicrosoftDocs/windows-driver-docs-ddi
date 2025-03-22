@@ -7,6 +7,7 @@ ms.date: 08/14/2020
 keywords: ["KSPROPERTY_INTERLEAVEDAUDIO enumeration"]
 ms.keywords: KSPROPERTY_INTERLEAVEDAUDIO, KSPROPERTY_INTERLEAVEDAUDIO,
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,7 +31,9 @@ api_name:
  - KSPROPERTY_INTERLEAVEDAUDIO
 ---
 
-# KSPROPERTY_INTERLEAVEDAUDIO enumeration
+# KSPROPERTY_INTERLEAVEDAUDIO enumeration (ksmedia.h)
+
+
 
 
 ## -description

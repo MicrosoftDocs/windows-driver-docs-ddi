@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortSetBusDataByOffset function"]
 ms.keywords: StorPortSetBusDataByOffset, StorPortSetBusDataByOffset routine [Storage Devices], storage.storportsetbusdatabyoffset, storport/StorPortSetBusDataByOffset, storprt_ebb2afc1-b190-4674-8ee7-bd61953565ab.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortSetBusDataByOffset
 ---
 
-# StorPortSetBusDataByOffset function
+# StorPortSetBusDataByOffset function (storport.h)
+
+
 
 
 ## -description

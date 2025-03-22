@@ -8,6 +8,7 @@ ms.date: 01/18/2023
 keywords: ["IoVerifyVolume function"]
 ms.keywords: IoVerifyVolume, IoVerifyVolume routine [Installable File System Drivers], ifsk.ioverifyvolume, ioref_b55e7a87-a18d-4ccd-ab32-061676c9dde4.xml, ntifs/IoVerifyVolume
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoVerifyVolume
 ---
 
-# IoVerifyVolume function
+# IoVerifyVolume function (ntifs.h)
+
+
 
 ## -description
 

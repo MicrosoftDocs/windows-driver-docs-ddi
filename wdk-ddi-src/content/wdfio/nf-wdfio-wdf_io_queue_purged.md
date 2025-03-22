@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_PURGED function"]
 ms.keywords: DFQueueObjectRef_2d745708-c310-494a-aedc-362bdc930650.xml, WDF_IO_QUEUE_PURGED, WDF_IO_QUEUE_PURGED function, kmdf.wdf_io_queue_purged, wdf.wdf_io_queue_purged, wdfio/WDF_IO_QUEUE_PURGED
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_IO_QUEUE_PURGED
 ---
 
-# WDF_IO_QUEUE_PURGED function
+# WDF_IO_QUEUE_PURGED function (wdfio.h)
+
+
 
 
 ## -description

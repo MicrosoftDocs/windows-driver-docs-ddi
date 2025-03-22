@@ -8,6 +8,7 @@ ms.date: 01/26/2022
 keywords: ["WdfDeviceGetDeviceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, WdfDeviceGetDeviceState, WdfDeviceGetDeviceState method, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceGetDeviceState
 ---
 
-# WdfDeviceGetDeviceState function
+# WdfDeviceGetDeviceState function (wdfdevice.h)
+
+
 
 
 ## -description

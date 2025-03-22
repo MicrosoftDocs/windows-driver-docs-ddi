@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterRegisterPowerCallbacks function"]
 ms.keywords: KsFilterRegisterPowerCallbacks, KsFilterRegisterPowerCallbacks function [Streaming Media Devices], avfunc_7c5322b7-f7e2-4641-b466-06f5d9ebfc34.xml, ks/KsFilterRegisterPowerCallbacks, stream.ksfilterregisterpowercallbacks
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterRegisterPowerCallbacks
 ---
 
-# KsFilterRegisterPowerCallbacks function
+# KsFilterRegisterPowerCallbacks function (ks.h)
+
+
 
 
 ## -description

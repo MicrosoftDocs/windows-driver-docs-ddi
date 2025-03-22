@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcForwardContentToDeviceObject function"]
 ms.keywords: PcForwardContentToDeviceObject, PcForwardContentToDeviceObject function [Audio Devices], audio.pcforwardcontenttodeviceobject, audpc-routines_1dec7e58-07b2-41ce-82d3-5f0670bbc273.xml, portcls/PcForwardContentToDeviceObject
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcForwardContentToDeviceObject function in Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcForwardContentToDeviceObject
 ---
 
-# PcForwardContentToDeviceObject function
+# PcForwardContentToDeviceObject function (portcls.h)
+
+
 
 
 ## -description

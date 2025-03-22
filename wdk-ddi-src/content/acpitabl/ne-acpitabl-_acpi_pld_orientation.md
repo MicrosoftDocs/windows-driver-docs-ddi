@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_ORIENTATION enumeration"]
 ms.keywords: _ACPI_PLD_ORIENTATION, ACPI_PLD_ORIENTATION, *PACPI_PLD_ORIENTATION,
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - ACPI_PLD_ORIENTATION
 ---
 
-# _ACPI_PLD_ORIENTATION enumeration
+# ACPI_PLD_ORIENTATION enumeration (acpitabl.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: "Learn more about: IOCTL_TR_SERVICE_QUERY IOCTL"
 ms.date: 11/20/2020
 keywords: ["IOCTL_TR_SERVICE_QUERY IOCTL"]
 req.header: trustedrt.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_TR_SERVICE_QUERY
 ---
 
-# IOCTL_TR_SERVICE_QUERY IOCTL
+# IOCTL_TR_SERVICE_QUERY IOCTL (trustedrt.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

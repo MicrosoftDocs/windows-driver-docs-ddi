@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_KS_READ_STREAM IOCTL"]
 ms.keywords: IOCTL_KS_READ_STREAM, IOCTL_KS_READ_STREAM control, IOCTL_KS_READ_STREAM control code [Streaming Media Devices], ks-ioctl_677f9dd3-bd4b-4c15-8ee1-67ede429c958.xml, ks/IOCTL_KS_READ_STREAM, stream.ioctl_ks_read_stream
 req.header: ks.h
+req.construct-type: ioctl
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_KS_READ_STREAM
 ---
 
-# IOCTL_KS_READ_STREAM IOCTL
+# IOCTL_KS_READ_STREAM IOCTL (ks.h)
+
+
+
+
 
 
 ## -description

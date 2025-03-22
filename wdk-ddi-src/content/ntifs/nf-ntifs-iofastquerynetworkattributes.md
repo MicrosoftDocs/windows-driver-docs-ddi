@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["IoFastQueryNetworkAttributes function"]
 ms.keywords: IoFastQueryNetworkAttributes, IoFastQueryNetworkAttributes function [Installable File System Drivers], ifsk.iofastquerynetworkattributes, ioref_c2d35e20-00b0-48e3-9c0e-d13f5dd9b7f7.xml, ntifs/IoFastQueryNetworkAttributes
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoFastQueryNetworkAttributes
 ---
 
-# IoFastQueryNetworkAttributes function
+# IoFastQueryNetworkAttributes function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitSetStateChangeCallbacks function"]
 ms.keywords: UdecxUsbDeviceInitSetStateChangeCallbacks, UdecxUsbDeviceInitSetStateChangeCallbacks function [Buses], buses.udecxusbdeviceinitsetstatechangecallbacks, udecxusbdevice/UdecxUsbDeviceInitSetStateChangeCallbacks
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceInitSetStateChangeCallbacks
 ---
 
-# UdecxUsbDeviceInitSetStateChangeCallbacks function
+# UdecxUsbDeviceInitSetStateChangeCallbacks function (udecxusbdevice.h)
+
+
 
 
 ## -description

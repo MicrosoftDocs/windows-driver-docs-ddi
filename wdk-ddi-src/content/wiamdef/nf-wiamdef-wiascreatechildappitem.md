@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasCreateChildAppItem function"]
 ms.keywords: image.wiascreatechildappitem, wiamdef/wiasCreateChildAppItem, wiasCreateChildAppItem, wiasCreateChildAppItem function [Imaging Devices], wiasFncs_63e9cbb1-6435-433b-a27f-36b66042be8a.xml
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasCreateChildAppItem
 ---
 
-# wiasCreateChildAppItem function
+# wiasCreateChildAppItem function (wiamdef.h)
+
+
 
 
 ## -description

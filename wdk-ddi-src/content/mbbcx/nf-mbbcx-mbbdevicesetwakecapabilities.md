@@ -7,6 +7,7 @@ ms.date: 11/07/2019
 keywords: ["MbbDeviceSetWakeCapabilities function"]
 ms.keywords: MbbDeviceSetWakeCapabilities
 req.header: mbbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - MbbDeviceSetWakeCapabilities
 ---
 
-# MbbDeviceSetWakeCapabilities function
+# MbbDeviceSetWakeCapabilities function (mbbcx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 06/21/2024
 keywords: ["FwpmBfeStateSubscribeChanges0 function"]
 ms.keywords: FwpmBfeStateSubscribeChanges0, FwpmBfeStateSubscribeChanges0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateSubscribeChanges0, netvista.fwpmbfestatesubscribechanges0, wfp_ref_2_funct_2_fwpm_79b78030-bb8c-462d-98fc-6f3818dead3d.xml
 req.header: fwpmk.h
+req.construct-type: function
 req.include-header: Fwpmk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpmBfeStateSubscribeChanges0
 ---
 
-# FwpmBfeStateSubscribeChanges0 function
+# FwpmBfeStateSubscribeChanges0 function (fwpmk.h)
+
+
 
 ## -description
 

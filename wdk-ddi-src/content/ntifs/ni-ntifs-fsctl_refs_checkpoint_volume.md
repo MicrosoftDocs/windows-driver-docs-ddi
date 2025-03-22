@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_REFS_CHECKPOINT_VOLUME
 ---
 
-# FSCTL_REFS_CHECKPOINT_VOLUME ioctl (ntifs.h)
+# FSCTL_REFS_CHECKPOINT_VOLUME IOCTL (ntifs.h)
+
+
 
 ## -description
 

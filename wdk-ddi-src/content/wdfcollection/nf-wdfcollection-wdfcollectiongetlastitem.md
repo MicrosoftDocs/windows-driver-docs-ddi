@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionGetLastItem function"]
 ms.keywords: DFCollectionObjectRef_1c6d4bbf-6d37-4b27-8421-df1ce61888ef.xml, WdfCollectionGetLastItem, WdfCollectionGetLastItem method, kmdf.wdfcollectiongetlastitem, wdf.wdfcollectiongetlastitem, wdfcollection/WdfCollectionGetLastItem
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionGetLastItem
 ---
 
-# WdfCollectionGetLastItem function
+# WdfCollectionGetLastItem function (wdfcollection.h)
+
+
 
 
 ## -description

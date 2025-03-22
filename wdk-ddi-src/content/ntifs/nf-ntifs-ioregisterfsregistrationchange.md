@@ -7,6 +7,7 @@ ms.date: 06/05/2023
 keywords: ["IoRegisterFsRegistrationChange function"]
 ms.keywords: IoRegisterFsRegistrationChange, ifsk.ioregisterfsregistrationchange, ntifs/IoRegisterFsRegistrationChange
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - IoRegisterFsRegistrationChange
 ---
 
-# IoRegisterFsRegistrationChange function
+# IoRegisterFsRegistrationChange function (ntifs.h)
+
+
 
 ## -description
 

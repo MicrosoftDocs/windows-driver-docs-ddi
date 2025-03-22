@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxIsPosApp function"]
 ms.keywords: PosCxIsPosApp, PosCxIsPosApp function, pos.poscxisposapp, poscx/PosCxIsPosApp
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxIsPosApp
 ---
 
-# PosCxIsPosApp function
+# PosCxIsPosApp function (poscx.h)
+
+
 
 
 ## -description

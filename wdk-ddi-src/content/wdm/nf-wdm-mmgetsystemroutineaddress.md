@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmGetSystemRoutineAddress function"]
 ms.keywords: MmGetSystemRoutineAddress, MmGetSystemRoutineAddress routine [Kernel-Mode Driver Architecture], k106_4cd56243-e8f4-428a-95f2-4e7a1d2a7396.xml, kernel.mmgetsystemroutineaddress, wdm/MmGetSystemRoutineAddress
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmGetSystemRoutineAddress
 ---
 
-# MmGetSystemRoutineAddress function
+# MmGetSystemRoutineAddress function (wdm.h)
+
+
 
 
 ## -description

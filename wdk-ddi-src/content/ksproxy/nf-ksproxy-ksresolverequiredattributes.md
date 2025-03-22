@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsResolveRequiredAttributes function"]
 ms.keywords: KsResolveRequiredAttributes, KsResolveRequiredAttributes function [Streaming Media Devices], ksproxy/KsResolveRequiredAttributes, ksproxy_fb22470c-5445-4005-b1c3-4f708cc0a47f.xml, stream.ksresolverequiredattributes
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsResolveRequiredAttributes
 ---
 
-# KsResolveRequiredAttributes function
+# KsResolveRequiredAttributes function (ksproxy.h)
+
+
 
 
 ## -description

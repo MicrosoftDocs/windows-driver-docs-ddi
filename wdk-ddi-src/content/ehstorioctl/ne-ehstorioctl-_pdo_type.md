@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["PDO_TYPE enumeration"]
 ms.keywords: PDO_TYPE, PDO_TYPE enumeration [Storage Devices], PDO_TYPE_CONTROL, PDO_TYPE_DISK, PDO_TYPE_SILO, PDO_TYPE_THIS, PDO_TYPE_UNDEFINED, _PDO_TYPE, ehstorioctl/PDO_TYPE, ehstorioctl/PDO_TYPE_CONTROL, ehstorioctl/PDO_TYPE_DISK, ehstorioctl/PDO_TYPE_SILO, ehstorioctl/PDO_TYPE_THIS, ehstorioctl/PDO_TYPE_UNDEFINED, storage.pdo_type, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml
 req.header: ehstorioctl.h
+req.construct-type: enumeration
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PDO_TYPE
 ---
 
-# _PDO_TYPE enumeration
+# PDO_TYPE enumeration (ehstorioctl.h)
+
+
 
 
 ## -description

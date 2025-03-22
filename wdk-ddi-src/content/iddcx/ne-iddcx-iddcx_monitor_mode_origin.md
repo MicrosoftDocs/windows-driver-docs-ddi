@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IDDCX_MONITOR_MODE_ORIGIN enumeration"]
 ms.keywords: IDDCX_MONITOR_MODE_ORIGIN, IDDCX_MONITOR_MODE_ORIGIN enumeration [Display Devices], IDDCX_MONITOR_MODE_ORIGIN_DRIVER, IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED, display.iddcx_monitor_mode_origin, iddcx/IDDCX_MONITOR_MODE_ORIGIN, iddcx/IDDCX_MONITOR_MODE_ORIGIN_DRIVER, iddcx/IDDCX_MONITOR_MODE_ORIGIN_MONITORDESCRIPTOR, iddcx/IDDCX_MONITOR_MODE_ORIGIN_UNINITIALIZED
 req.header: iddcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IDDCX_MONITOR_MODE_ORIGIN
 ---
 
-# IDDCX_MONITOR_MODE_ORIGIN enumeration
+# IDDCX_MONITOR_MODE_ORIGIN enumeration (iddcx.h)
+
+
 
 ## -description
 

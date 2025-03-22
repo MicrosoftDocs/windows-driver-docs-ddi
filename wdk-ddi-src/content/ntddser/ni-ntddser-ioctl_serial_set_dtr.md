@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_DTR IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_DTR, IOCTL_SERIAL_SET_DTR control, IOCTL_SERIAL_SET_DTR control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_DTR, serports.ioctl_serial_set_dtr, serref_6af1af3b-1345-41df-8dcf-66ec296c27f8.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_DTR
 ---
 
-# IOCTL_SERIAL_SET_DTR IOCTL
+# IOCTL_SERIAL_SET_DTR IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxRegisterDevice function"]
 ms.keywords: PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, wdm/PoFxRegisterDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxRegisterDevice
 ---
 
-# PoFxRegisterDevice function
+# PoFxRegisterDevice function (wdm.h)
+
+
 
 
 ## -description

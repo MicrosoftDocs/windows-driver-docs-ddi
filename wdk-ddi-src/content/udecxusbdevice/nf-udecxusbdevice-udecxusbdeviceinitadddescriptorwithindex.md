@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitAddDescriptorWithIndex function"]
 ms.keywords: UdecxUsbDeviceInitAddDescriptorWithIndex, UdecxUsbDeviceInitAddDescriptorWithIndex function [Buses], buses.udecxusbdeviceinitadddescriptorwithindex, udecxusbdevice/UdecxUsbDeviceInitAddDescriptorWithIndex
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceInitAddDescriptorWithIndex
 ---
 
-# UdecxUsbDeviceInitAddDescriptorWithIndex function
+# UdecxUsbDeviceInitAddDescriptorWithIndex function (udecxusbdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetBytesUsed function"]
 ms.keywords: VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, display.videoportgetbytesused, video/VideoPortGetBytesUsed
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetBytesUsed
 ---
 
-# VideoPortGetBytesUsed function
+# VideoPortGetBytesUsed function (video.h)
+
+
 
 
 ## -description

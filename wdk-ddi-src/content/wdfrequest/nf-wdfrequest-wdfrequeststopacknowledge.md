@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestStopAcknowledge function"]
 ms.keywords: DFRequestObjectRef_14594eba-ca7f-433b-9fd4-717053a09158.xml, WdfRequestStopAcknowledge, WdfRequestStopAcknowledge method, kmdf.wdfrequeststopacknowledge, wdf.wdfrequeststopacknowledge, wdfrequest/WdfRequestStopAcknowledge
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestStopAcknowledge
 ---
 
-# WdfRequestStopAcknowledge function
+# WdfRequestStopAcknowledge function (wdfrequest.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["PshedAllocateMemory function"]
 ms.keywords: PshedAllocateMemory, PshedAllocateMemory function [WHEA Drivers and Applications], ntddk/PshedAllocateMemory, whea.pshedallocatememory, whearef_e18a3aba-ca99-4b65-92de-1c6b8c740e31.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PshedAllocateMemory
 ---
+
+# PshedAllocateMemory function (ntddk.h)
 
 ## -description
 

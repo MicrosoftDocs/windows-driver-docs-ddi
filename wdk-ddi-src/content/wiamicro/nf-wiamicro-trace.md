@@ -6,6 +6,7 @@ ms.date: 04/19/2022
 keywords: ["Trace function"]
 ms.keywords: Trace
 req.header: wiamicro.h
+req.construct-type: function
 req.include-header: Wiamicro.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,6 +37,8 @@ api_location:
 api_name:
  - Trace
 ---
+
+# Trace function (wiamicro.h)
 
 ## -description
 

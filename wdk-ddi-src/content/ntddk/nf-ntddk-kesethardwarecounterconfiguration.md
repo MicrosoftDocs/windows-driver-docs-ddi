@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["KeSetHardwareCounterConfiguration function"]
 ms.keywords: KeSetHardwareCounterConfiguration, KeSetHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], k105_2cf79626-ed0d-4a15-bd9f-22b669ffde98.xml, kernel.kesethardwarecounterconfiguration, ntddk/KeSetHardwareCounterConfiguration
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeSetHardwareCounterConfiguration
 ---
+
+# KeSetHardwareCounterConfiguration function (ntddk.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL"]
 ms.keywords: IOCTL_ACPI_GET_DEVICE_INFORMATION, IOCTL_ACPI_GET_DEVICE_INFORMATION control, IOCTL_ACPI_GET_DEVICE_INFORMATION control code [ACPI Devices], acpi.ioctl_acpi_get_device_information, acpiioct/IOCTL_ACPI_GET_DEVICE_INFORMATION
 req.header: acpiioct.h
+req.construct-type: ioctl
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_ACPI_GET_DEVICE_INFORMATION
 ---
 
-# IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL
+# IOCTL_ACPI_GET_DEVICE_INFORMATION IOCTL (acpiioct.h)
+
+
+
+
 
 
 ## -description

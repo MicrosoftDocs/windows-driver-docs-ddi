@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortSetPowerSettingNotificationGuids function"]
 ms.keywords: Adaptive Setting, HIPM/DIPM Setting, StorPortSetPowerSettingNotificationGuids, StorPortSetPowerSettingNotificationGuids routine [Storage Devices], storage.storportsetpowersettingnotificationguids, storport/StorPortSetPowerSettingNotificationGuids
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - StorPortSetPowerSettingNotificationGuids
 ---
 
-# StorPortSetPowerSettingNotificationGuids function
+# StorPortSetPowerSettingNotificationGuids function (storport.h)
+
+
 
 
 ## -description

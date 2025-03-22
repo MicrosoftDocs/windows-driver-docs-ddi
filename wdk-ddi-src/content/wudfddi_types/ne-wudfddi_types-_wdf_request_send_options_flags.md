@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration"]
 ms.keywords: WDF_REQUEST_SEND_OPTIONS_FLAGS, WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration, WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, WDF_REQUEST_SEND_OPTION_TIMEOUT, _WDF_REQUEST_SEND_OPTIONS_FLAGS, umdf.wdf_request_send_options_flags__umdf_, umdfstructs_a99bff2d-2fa0-4267-b3be-aa9fd01a0778.xml, wdf.wdf_request_send_options_flags__umdf_, wudfddi_types/WDF_REQUEST_SEND_OPTIONS_FLAGS, wudfddi_types/WDF_REQUEST_SEND_OPTION_IGNORE_TARGET_STATE, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATE_CLIENT, wudfddi_types/WDF_REQUEST_SEND_OPTION_IMPERSONATION_IGNORE_FAILURE, wudfddi_types/WDF_REQUEST_SEND_OPTION_SEND_AND_FORGET, wudfddi_types/WDF_REQUEST_SEND_OPTION_SYNCHRONOUS, wudfddi_types/WDF_REQUEST_SEND_OPTION_TIMEOUT
 req.header: wudfddi_types.h
+req.construct-type: enumeration
 req.include-header: Wudfddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_REQUEST_SEND_OPTIONS_FLAGS
 ---
 
-# _WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration (wudfddi_types.h)
+# WDF_REQUEST_SEND_OPTIONS_FLAGS enumeration (wudfddi_types.h)
+
+
 
 
 ## -description

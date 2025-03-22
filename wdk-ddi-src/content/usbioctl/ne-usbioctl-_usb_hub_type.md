@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_HUB_TYPE enumeration"]
 ms.keywords: USB_HUB_TYPE, USB_HUB_TYPE enumeration [Buses], Usb20Hub, Usb30Hub, UsbRootHub, _USB_HUB_TYPE, buses.usb_hub_type, usbioctl/USB_HUB_TYPE, usbioctl/Usb20Hub, usbioctl/Usb30Hub, usbioctl/UsbRootHub
 req.header: usbioctl.h
+req.construct-type: enumeration
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - USB_HUB_TYPE
 ---
 
-# _USB_HUB_TYPE enumeration
+# USB_HUB_TYPE enumeration (usbioctl.h)
+
+
 
 ## -description
 

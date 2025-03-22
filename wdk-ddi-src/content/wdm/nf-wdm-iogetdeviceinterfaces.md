@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetDeviceInterfaces function"]
 ms.keywords: IoGetDeviceInterfaces, IoGetDeviceInterfaces routine [Kernel-Mode Driver Architecture], k104_c4286fdb-9b4e-42e4-a1f6-fb3a79d556a7.xml, kernel.iogetdeviceinterfaces, wdm/IoGetDeviceInterfaces
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetDeviceInterfaces
 ---
 
-# IoGetDeviceInterfaces function
+# IoGetDeviceInterfaces function (wdm.h)
+
+
 
 
 ## -description

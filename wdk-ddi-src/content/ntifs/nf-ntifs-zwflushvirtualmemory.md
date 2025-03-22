@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["ZwFlushVirtualMemory function"]
 ms.keywords: NtFlushVirtualMemory, ZwFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, ntifs/NtFlushVirtualMemory, ntifs/ZwFlushVirtualMemory
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - ZwFlushVirtualMemory
 ---
 
-# ZwFlushVirtualMemory function
+# ZwFlushVirtualMemory function (ntifs.h)
+
+
 
 ## -description
 

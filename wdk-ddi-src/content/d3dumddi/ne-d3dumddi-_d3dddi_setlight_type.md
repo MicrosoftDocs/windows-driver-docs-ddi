@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_SETLIGHT_TYPE enumeration"]
 ms.keywords: _D3DDDI_SETLIGHT_TYPE, D3DDDI_SETLIGHT_TYPE,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDI_SETLIGHT_TYPE enumeration
+# D3DDDI_SETLIGHT_TYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

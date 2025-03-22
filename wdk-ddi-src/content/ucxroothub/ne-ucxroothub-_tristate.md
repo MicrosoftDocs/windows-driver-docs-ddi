@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["TRISTATE enumeration"]
 ms.keywords: TRISTATE, TRISTATE enumeration [Buses], TriStateFalse, TriStateTrue, TriStateUnknown, _TRISTATE, buses.tristate, ucxroothub/TRISTATE, ucxroothub/TriStateFalse, ucxroothub/TriStateTrue, ucxroothub/TriStateUnknown
 req.header: ucxroothub.h
+req.construct-type: enumeration
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - TRISTATE
 ---
 
-# _TRISTATE enumeration
+# TRISTATE enumeration (ucxroothub.h)
+
+
 
 
 ## -description

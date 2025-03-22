@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRemoveDeviceQueue function"]
 ms.keywords: KeRemoveDeviceQueue, KeRemoveDeviceQueue routine [Kernel-Mode Driver Architecture], k105_3e26b41e-7e9c-4fc9-8496-f107f3450dd7.xml, kernel.keremovedevicequeue, wdm/KeRemoveDeviceQueue
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeRemoveDeviceQueue
 ---
 
-# KeRemoveDeviceQueue function
+# KeRemoveDeviceQueue function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCheckExclusiveOwnership function"]
 ms.keywords: D3DKMTCheckExclusiveOwnership, D3DKMTCheckExclusiveOwnership callback function [Display Devices], OpenGL_Functions_f5c7a3e5-651c-48f0-b58c-4a6571c10a61.xml, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP, PFND3DKMT_CHECKEXCLUSIVEOWNERSHIP callback, d3dkmthk/D3DKMTCheckExclusiveOwnership, display.d3dkmtcheckexclusiveownership
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCheckExclusiveOwnership
 ---
 
-# D3DKMTCheckExclusiveOwnership function
+# D3DKMTCheckExclusiveOwnership function (d3dkmthk.h)
+
+
 
 
 ## -description

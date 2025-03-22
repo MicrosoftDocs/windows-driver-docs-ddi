@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDpcCreate function"]
 ms.keywords: DFDpcObjectRef_865403a4-b5c1-4113-b3b1-1929285bb82d.xml, WdfDpcCreate, WdfDpcCreate method, kmdf.wdfdpccreate, wdf.wdfdpccreate, wdfdpc/WdfDpcCreate
 req.header: wdfdpc.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDpcCreate
 ---
 
-# WdfDpcCreate function
+# WdfDpcCreate function (wdfdpc.h)
+
+
 
 
 ## -description

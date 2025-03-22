@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_SET_S0_IDLE_TIMEOUT IOCTL"]
 ms.keywords: IOCTL_HID_SET_S0_IDLE_TIMEOUT, IOCTL_HID_SET_S0_IDLE_TIMEOUT control, IOCTL_HID_SET_S0_IDLE_TIMEOUT control code [Human Input Devices], hid.ioctl_hid_set_s0_idle_timeout, hidclass/IOCTL_HID_SET_S0_IDLE_TIMEOUT
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_SET_S0_IDLE_TIMEOUT
 ---
 
-# IOCTL_HID_SET_S0_IDLE_TIMEOUT IOCTL
+# IOCTL_HID_SET_S0_IDLE_TIMEOUT IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

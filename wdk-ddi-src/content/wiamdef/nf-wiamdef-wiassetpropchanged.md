@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasSetPropChanged function"]
 ms.keywords: image.wiassetpropchanged, wiamdef/wiasSetPropChanged, wiasFncs_8ad54c6e-3a20-4099-a139-1a05f6ee1e5e.xml, wiasSetPropChanged, wiasSetPropChanged function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasSetPropChanged
 ---
 
-# wiasSetPropChanged function
+# wiasSetPropChanged function (wiamdef.h)
+
+
 
 
 ## -description

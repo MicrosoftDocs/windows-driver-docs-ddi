@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfControlDeviceInitSetShutdownNotification function"]
 ms.keywords: DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, WdfControlDeviceInitSetShutdownNotification, WdfControlDeviceInitSetShutdownNotification method, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdf.wdfcontroldeviceinitsetshutdownnotification, wdfcontrol/WdfControlDeviceInitSetShutdownNotification
 req.header: wdfcontrol.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfControlDeviceInitSetShutdownNotification
 ---
 
-# WdfControlDeviceInitSetShutdownNotification function
+# WdfControlDeviceInitSetShutdownNotification function (wdfcontrol.h)
+
+
 
 
 ## -description

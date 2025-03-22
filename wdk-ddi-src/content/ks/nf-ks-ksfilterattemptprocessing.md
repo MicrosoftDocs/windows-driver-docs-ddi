@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterAttemptProcessing function"]
 ms.keywords: KsFilterAttemptProcessing, KsFilterAttemptProcessing function [Streaming Media Devices], avfunc_ee888474-cf0c-4b23-b8a2-f1e7491db8fd.xml, ks/KsFilterAttemptProcessing, stream.ksfilterattemptprocessing
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterAttemptProcessing
 ---
 
-# KsFilterAttemptProcessing function
+# KsFilterAttemptProcessing function (ks.h)
+
+
 
 
 ## -description

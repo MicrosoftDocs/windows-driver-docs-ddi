@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlInitializeGenericTableAvl function"]
 ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlInitializeGenericTableAvl
 ---
+
+# RtlInitializeGenericTableAvl function (ntddk.h)
 
 ## -description
 

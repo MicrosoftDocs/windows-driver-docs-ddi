@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsGetVersion function"]
 ms.keywords: PsGetVersion, PsGetVersion function [Kernel-Mode Driver Architecture], k108_3c73c1e7-3f02-4598-adae-43c378dcfb08.xml, kernel.psgetversion, wdm/PsGetVersion
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PsGetVersion
 ---
 
-# PsGetVersion function
+# PsGetVersion function (wdm.h)
+
+
 
 
 ## -description

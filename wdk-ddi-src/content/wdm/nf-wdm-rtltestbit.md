@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlTestBit function"]
 ms.keywords: RtlTestBit, RtlTestBit routine [Kernel-Mode Driver Architecture], k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, kernel.rtltestbit, wdm/RtlTestBit
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlTestBit
 ---
 
-# RtlTestBit function
+# RtlTestBit function (wdm.h)
+
+
 
 
 ## -description

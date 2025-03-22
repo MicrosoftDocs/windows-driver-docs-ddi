@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["SplPromptUIInUsersSession function"]
 ms.keywords: SplPromptUIInUsersSession, SplPromptUIInUsersSession function [Print Devices], print.splpromptuiinuserssession, spoolfnc_5b2379b2-c34b-4a98-b148-25a09f55be2b.xml, winsplp/SplPromptUIInUsersSession
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: The SplPromptUIInUsersSession function is available in Windows XP and later
@@ -40,7 +41,9 @@ api_name:
  - SplPromptUIInUsersSession
 ---
 
-# SplPromptUIInUsersSession function
+# SplPromptUIInUsersSession function (winsplp.h)
+
+
 
 
 ## -description

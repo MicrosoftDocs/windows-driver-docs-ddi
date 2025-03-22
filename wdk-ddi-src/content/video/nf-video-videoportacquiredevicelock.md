@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAcquireDeviceLock function"]
 ms.keywords: VideoPortAcquireDeviceLock, VideoPortAcquireDeviceLock function [Display Devices], VideoPort_Functions_4c588378-53be-496c-93f0-0d285b8a1a05.xml, display.videoportacquiredevicelock, video/VideoPortAcquireDeviceLock
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAcquireDeviceLock
 ---
 
-# VideoPortAcquireDeviceLock function
+# VideoPortAcquireDeviceLock function (video.h)
+
+
 
 
 ## -description

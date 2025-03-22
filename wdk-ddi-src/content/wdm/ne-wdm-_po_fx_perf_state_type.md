@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PO_FX_PERF_STATE_TYPE enumeration"]
 ms.keywords: "*PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PoFxPerfStateTypeDiscrete, PoFxPerfStateTypeMaximum, PoFxPerfStateTypeRange, _PO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type, wdm/PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeDiscrete, wdm/PoFxPerfStateTypeMaximum, wdm/PoFxPerfStateTypeRange"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PO_FX_PERF_STATE_TYPE
 ---
 
-# _PO_FX_PERF_STATE_TYPE enumeration
+# PO_FX_PERF_STATE_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

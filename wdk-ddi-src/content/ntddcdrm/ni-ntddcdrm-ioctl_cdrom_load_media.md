@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_LOAD_MEDIA IOCTL"]
 ms.keywords: IOCTL_CDROM_LOAD_MEDIA, IOCTL_CDROM_LOAD_MEDIA control, IOCTL_CDROM_LOAD_MEDIA control code [Storage Devices], k307_f623cca5-938f-483e-a133-e24c763ec189.xml, ntddcdrm/IOCTL_CDROM_LOAD_MEDIA, storage.ioctl_cdrom_load_media
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_LOAD_MEDIA
 ---
 
-# IOCTL_CDROM_LOAD_MEDIA IOCTL
+# IOCTL_CDROM_LOAD_MEDIA IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

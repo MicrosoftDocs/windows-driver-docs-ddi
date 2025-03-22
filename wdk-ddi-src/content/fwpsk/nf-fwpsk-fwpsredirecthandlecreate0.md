@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsRedirectHandleCreate0 function"]
 ms.keywords: FwpsRedirectHandleCreate0, FwpsRedirectHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsRedirectHandleCreate0, netvista.fwpsredirecthandlecreate0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - FwpsRedirectHandleCreate0
 ---
 
-# FwpsRedirectHandleCreate0 function
+# FwpsRedirectHandleCreate0 function (fwpsk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNumberOfRunsInLargeMcb function"]
 ms.keywords: FsRtlNumberOfRunsInLargeMcb, FsRtlNumberOfRunsInLargeMcb routine [Installable File System Drivers], fsrtlref_26b0787d-7f2e-4bfa-a36f-505836d50d2c.xml, ifsk.fsrtlnumberofrunsinlargemcb, ntifs/FsRtlNumberOfRunsInLargeMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlNumberOfRunsInLargeMcb
 ---
 
-# FsRtlNumberOfRunsInLargeMcb function
+# FsRtlNumberOfRunsInLargeMcb function (ntifs.h)
+
+
 
 
 ## -description

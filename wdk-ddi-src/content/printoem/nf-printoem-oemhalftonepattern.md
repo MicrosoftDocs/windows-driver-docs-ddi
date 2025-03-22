@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMHalftonePattern function"]
 ms.keywords: OEMHalftonePattern, OEMHalftonePattern function [Print Devices], print.oemhalftonepattern, print_obsoletefunctions_5b15743c-f7ce-4107-a263-5cf28ead726d.xml, printoem/OEMHalftonePattern
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMHalftonePattern
 ---
+
+# OEMHalftonePattern function (printoem.h)
 
 ## -description
 

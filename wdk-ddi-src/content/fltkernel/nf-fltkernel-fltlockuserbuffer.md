@@ -7,6 +7,7 @@ ms.date: 09/29/2023
 keywords: ["FltLockUserBuffer function"]
 ms.keywords: FltApiRef_e_to_o_7d39ba00-c97d-4adb-a0e1-a019ca4056b0.xml, FltLockUserBuffer, FltLockUserBuffer routine [Installable File System Drivers], fltkernel/FltLockUserBuffer, ifsk.fltlockuserbuffer
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - FltLockUserBuffer
 ---
 
-# FltLockUserBuffer function
+# FltLockUserBuffer function (fltkernel.h)
+
+
 
 ## -description
 

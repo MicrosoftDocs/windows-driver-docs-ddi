@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DrvUpgradePrinter function"]
 ms.keywords: DrvUpgradePrinter, DrvUpgradePrinter function [Print Devices], print.drvupgradeprinter, print_interface-graphics_ab060948-18bc-4b0f-a504-320083fcb173.xml, winddiui/DrvUpgradePrinter
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvUpgradePrinter
 ---
+
+# DrvUpgradePrinter function (winddiui.h)
 
 ## -description
 

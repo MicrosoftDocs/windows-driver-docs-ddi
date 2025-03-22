@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceAllocAndQueryProperty function"]
 ms.keywords: DFDeviceObjectGeneralRef_d093b9da-de6b-467d-a6bd-c25d7a4145f8.xml, WdfDeviceAllocAndQueryProperty, WdfDeviceAllocAndQueryProperty method, kmdf.wdfdeviceallocandqueryproperty, wdf.wdfdeviceallocandqueryproperty, wdfdevice/WdfDeviceAllocAndQueryProperty
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceAllocAndQueryProperty
 ---
 
-# WdfDeviceAllocAndQueryProperty function
+# WdfDeviceAllocAndQueryProperty function (wdfdevice.h)
+
+
 
 
 ## -description
