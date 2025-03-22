@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_CREATEVIRTUALGPU structure"]
 ms.keywords: _DXGKARG_CREATEVIRTUALGPU, DXGKARG_CREATEVIRTUALGPU, *PDXGKARG_CREATEVIRTUALGPU,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_CREATEVIRTUALGPU structure
+# DXGKARG_CREATEVIRTUALGPU structure (dispmprt.h)
+
+
 
 
 ## -description

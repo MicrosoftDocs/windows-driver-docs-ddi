@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCORRELATED_TIME structure"]
 ms.keywords: "*PKSCORRELATED_TIME, KSCORRELATED_TIME, KSCORRELATED_TIME structure [Streaming Media Devices], PKSCORRELATED_TIME, PKSCORRELATED_TIME structure pointer [Streaming Media Devices], ks-struct_4bc7b067-fc0e-4343-9ae9-4bfe5aec90e3.xml, ks/KSCORRELATED_TIME, ks/PKSCORRELATED_TIME, stream.kscorrelated_time"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSCORRELATED_TIME
 ---
 
-# KSCORRELATED_TIME structure
+# KSCORRELATED_TIME structure (ks.h)
+
+
 
 
 ## -description

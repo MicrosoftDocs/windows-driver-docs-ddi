@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["tagWNODE_ALL_DATA structure"]
 ms.keywords: "*PWNODE_ALL_DATA, PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], WNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], kernel.wnode_all_data, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, tagWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA"
 req.header: wmistr.h
+req.construct-type: structure
 req.include-header: Wmistr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WNODE_ALL_DATA
 ---
 
-# tagWNODE_ALL_DATA structure
+# tagWNODE_ALL_DATA structure (wmistr.h)
+
+
 
 
 ## -description

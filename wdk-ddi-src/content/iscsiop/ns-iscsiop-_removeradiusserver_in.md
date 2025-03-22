@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemoveRADIUSServer_IN structure"]
 ms.keywords: "*PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN, PRemoveRADIUSServer_IN structure pointer [Storage Devices], RemoveRADIUSServer_IN, RemoveRADIUSServer_IN structure [Storage Devices], _RemoveRADIUSServer_IN, iscsiop/PRemoveRADIUSServer_IN, iscsiop/RemoveRADIUSServer_IN, storage.removeradiusserver_in, structs-iSCSI_e85b2fed-4691-43c4-b71a-a81905c79564.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemoveRADIUSServer_IN
 ---
 
-# _RemoveRADIUSServer_IN structure
+# RemoveRADIUSServer_IN structure (iscsiop.h)
+
+
 
 
 ## -description

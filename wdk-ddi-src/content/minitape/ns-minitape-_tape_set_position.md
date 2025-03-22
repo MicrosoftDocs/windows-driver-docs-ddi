@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TAPE_SET_POSITION structure"]
 ms.keywords: "*PTAPE_SET_POSITION, PTAPE_SET_POSITION, PTAPE_SET_POSITION structure pointer [Storage Devices], TAPE_SET_POSITION, TAPE_SET_POSITION structure [Storage Devices], _TAPE_SET_POSITION, ntddtape/PTAPE_SET_POSITION, ntddtape/TAPE_SET_POSITION, storage.tape_set_position, structs-tape_412b4b85-a0b5-4372-a32c-fa7ac5a6f33a.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TAPE_SET_POSITION
 ---
 
-# _TAPE_SET_POSITION structure (minitape.h)
+# TAPE_SET_POSITION structure (minitape.h)
+
+
 
 
 ## -description

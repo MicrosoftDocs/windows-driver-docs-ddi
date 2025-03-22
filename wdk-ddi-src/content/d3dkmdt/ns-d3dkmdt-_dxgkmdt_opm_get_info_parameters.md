@@ -8,6 +8,7 @@ ms.date: 11/18/2021
 keywords: ["DXGKMDT_OPM_GET_INFO_PARAMETERS structure"]
 ms.keywords: "*PDXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS, DXGKMDT_OPM_GET_INFO_PARAMETERS structure [Display Devices], DmStructs_e6abe7a0-8285-4f66-97a3-d2c04c70bcd3.xml, PDXGKMDT_OPM_GET_INFO_PARAMETERS, PDXGKMDT_OPM_GET_INFO_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/DXGKMDT_OPM_GET_INFO_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_GET_INFO_PARAMETERS, display.dxgkmdt_opm_get_info_parameters"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGKMDT_OPM_GET_INFO_PARAMETERS
 ---
 
-# DXGKMDT_OPM_GET_INFO_PARAMETERS structure
+# DXGKMDT_OPM_GET_INFO_PARAMETERS structure (d3dkmdt.h)
+
+
 
 ## -description
 

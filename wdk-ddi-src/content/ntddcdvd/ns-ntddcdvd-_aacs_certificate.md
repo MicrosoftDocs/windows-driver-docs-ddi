@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AACS_CERTIFICATE structure"]
 ms.keywords: "*PAACS_CERTIFICATE, AACS_CERTIFICATE, AACS_CERTIFICATE structure [Storage Devices], PAACS_CERTIFICATE, PAACS_CERTIFICATE structure pointer [Storage Devices], _AACS_CERTIFICATE, ntddcdvd/AACS_CERTIFICATE, ntddcdvd/PAACS_CERTIFICATE, storage.aacs_certificate, structs-DVD_0eedee44-0be8-462e-84ac-e5efbc37fc82.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AACS_CERTIFICATE
 ---
 
-# _AACS_CERTIFICATE structure
+# AACS_CERTIFICATE structure (ntddcdvd.h)
+
+
 
 
 ## -description

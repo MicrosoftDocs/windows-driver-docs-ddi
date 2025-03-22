@@ -7,6 +7,7 @@ tech.root: storage
 keywords: ["VPD_EXTENDED_INQUIRY_DATA_PAGE structure"]
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE,
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - VPD_EXTENDED_INQUIRY_DATA_PAGE
 ---
 
-# _VPD_EXTENDED_INQUIRY_DATA_PAGE structure (scsi.h)
+# VPD_EXTENDED_INQUIRY_DATA_PAGE structure (scsi.h)
+
+
 
 
 ## -description

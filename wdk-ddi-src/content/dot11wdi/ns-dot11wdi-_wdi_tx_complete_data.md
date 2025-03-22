@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_TX_COMPLETE_DATA structure"]
 ms.keywords: "*PWDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA, PWDI_TX_COMPLETE_DATA structure pointer [Network Drivers Starting with Windows Vista], WDI_TX_COMPLETE_DATA, WDI_TX_COMPLETE_DATA structure [Network Drivers Starting with Windows Vista], _WDI_TX_COMPLETE_DATA, dot11wdi/PWDI_TX_COMPLETE_DATA, dot11wdi/WDI_TX_COMPLETE_DATA, netvista.wdi_tx_complete_data, netvista.wifi_tx_complete_data"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_TX_COMPLETE_DATA
 ---
 
-# _WDI_TX_COMPLETE_DATA structure
+# WDI_TX_COMPLETE_DATA structure (dot11wdi.h)
+
+
 
 
 ## -description

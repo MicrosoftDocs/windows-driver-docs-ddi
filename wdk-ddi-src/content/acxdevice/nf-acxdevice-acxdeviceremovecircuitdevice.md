@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceRemoveCircuitDevice function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceRemoveCircuitDevice** function removes an ACX circuit device from a specified parent device.

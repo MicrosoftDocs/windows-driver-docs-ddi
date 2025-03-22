@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_LOW_POWER_EPOCH structure"]
 ms.keywords: "*PPEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH, PEP_LOW_POWER_EPOCH structure [Kernel-Mode Driver Architecture], PPEP_LOW_POWER_EPOCH, PPEP_LOW_POWER_EPOCH structure pointer [Kernel-Mode Driver Architecture], _PEP_LOW_POWER_EPOCH, kernel.pep_low_power_epoch, pepfx/PEP_LOW_POWER_EPOCH, pepfx/PPEP_LOW_POWER_EPOCH"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_LOW_POWER_EPOCH
 ---
 
-# _PEP_LOW_POWER_EPOCH structure (pepfx.h)
+# PEP_LOW_POWER_EPOCH structure (pepfx.h)
+
+
 
 
 ## -description

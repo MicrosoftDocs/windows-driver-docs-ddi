@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTH_VENDOR_SPECIFIC_COMMAND structure"]
 ms.keywords: "*PBTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND, BTH_VENDOR_SPECIFIC_COMMAND structure [Bluetooth Devices], PBTH_VENDOR_SPECIFIC_COMMAND, PBTH_VENDOR_SPECIFIC_COMMAND structure pointer [Bluetooth Devices], _BTH_VENDOR_SPECIFIC_COMMAND, bltooth.bth_vendor_specific_command, bth_ref_568c918a-282f-48e0-994a-c49289976bb6.xml, bthioctl/BTH_VENDOR_SPECIFIC_COMMAND, bthioctl/PBTH_VENDOR_SPECIFIC_COMMAND"
 req.header: bthioctl.h
+req.construct-type: structure
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Available in Windows Vista, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - BTH_VENDOR_SPECIFIC_COMMAND
 ---
 
-# _BTH_VENDOR_SPECIFIC_COMMAND structure
+# BTH_VENDOR_SPECIFIC_COMMAND structure (bthioctl.h)
+
+
 
 
 ## -description

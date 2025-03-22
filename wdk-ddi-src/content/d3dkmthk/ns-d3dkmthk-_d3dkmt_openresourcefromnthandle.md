@@ -5,6 +5,7 @@ description: Learn more about the D3DKMT_OPENRESOURCEFROMNTHANDLE structure.
 ms.date: 11/08/2024
 keywords: ["D3DKMT_OPENRESOURCEFROMNTHANDLE structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - D3DKMT_OPENRESOURCEFROMNTHANDLE
 ---
 
-# D3DKMT_OPENRESOURCEFROMNTHANDLE structure
+# D3DKMT_OPENRESOURCEFROMNTHANDLE structure (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TREE_RPMB_COMMAND_INPUT structure"]
 ms.keywords: _TREE_RPMB_COMMAND_INPUT, TREE_RPMB_COMMAND_INPUT, *PTREE_RPMB_COMMAND_INPUT,
 req.header: treerpmbservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TREE_RPMB_COMMAND_INPUT
 ---
 
-# _TREE_RPMB_COMMAND_INPUT structure
+# TREE_RPMB_COMMAND_INPUT structure (treerpmbservice.h)
+
+
 
 
 ## -description

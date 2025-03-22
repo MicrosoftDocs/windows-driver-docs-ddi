@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxStreamGetNotificationId
 ---
 
+# AcxStreamGetNotificationId function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamGetNotificationId** function retrieves the Plug and Play notification ID for the specified audio stream.

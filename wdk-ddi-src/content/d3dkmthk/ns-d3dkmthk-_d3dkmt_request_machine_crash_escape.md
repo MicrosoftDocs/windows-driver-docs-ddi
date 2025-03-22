@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE structure"]
 ms.keywords: _D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE, D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE structure
+# D3DKMT_REQUEST_MACHINE_CRASH_ESCAPE structure (d3dkmthk.h)
+
+
 
 
 ## -description

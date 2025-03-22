@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_SCAN_STATE structure"]
 ms.keywords: "*PBDA_SCAN_STATE, BDA_SCAN_STATE, BDA_SCAN_STATE structure [Streaming Media Devices], PBDA_SCAN_STATE, PBDA_SCAN_STATE structure pointer [Streaming Media Devices], _BDA_SCAN_STATE, bdatypes/BDA_SCAN_STATE, bdatypes/PBDA_SCAN_STATE, stream.bda_scan_state"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_SCAN_STATE
 ---
 
-# _BDA_SCAN_STATE structure
+# BDA_SCAN_STATE structure (bdatypes.h)
+
+
 
 
 ## -description

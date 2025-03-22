@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_RENAME_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION, PREG_RENAME_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RENAME_KEY_INFORMATION, REG_RENAME_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_RENAME_KEY_INFORMATION, kernel.reg_rename_key_information, kstruct_d_f6416cfd-5ace-4366-81a5-87b233551c7a.xml, wdm/PREG_RENAME_KEY_INFORMATION, wdm/REG_RENAME_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows XP and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - REG_RENAME_KEY_INFORMATION
 ---
 
-# _REG_RENAME_KEY_INFORMATION structure
+# REG_RENAME_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 12/02/2021
 keywords: ["NDIS_RW_LOCK structure"]
 ms.keywords: "*PNDIS_RW_LOCK, NDIS_RW_LOCK, NDIS_RW_LOCK structure [Network Drivers Starting with Windows Vista], PNDIS_RW_LOCK, PNDIS_RW_LOCK structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RW_LOCK, ndis/NDIS_RW_LOCK, ndis/PNDIS_RW_LOCK, ndis_processor_group_ref_4680aefb-5db5-4e48-aec2-a7c6769892aa.xml, netvista.ndis_rw_lock"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_RW_LOCK_EX instead.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RW_LOCK
 ---
 
-# _NDIS_RW_LOCK structure
+# NDIS_RW_LOCK structure (ndis.h)
+
+
 
 
 ## -description

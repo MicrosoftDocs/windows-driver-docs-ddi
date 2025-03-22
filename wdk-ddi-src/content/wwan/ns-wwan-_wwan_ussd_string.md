@@ -8,6 +8,7 @@ ms.date: 03/11/2022
 keywords: ["WWAN_USSD_STRING structure"]
 ms.keywords: "*PWWAN_USSD_STRING, PWWAN_USSD_STRING, PWWAN_USSD_STRING structure pointer [Network Drivers Starting with Windows Vista], WWAN_USSD_STRING, WWAN_USSD_STRING structure [Network Drivers Starting with Windows Vista], _WWAN_USSD_STRING, netvista.wwan_ussd_string, wwan/PWWAN_USSD_STRING, wwan/WWAN_USSD_STRING"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_USSD_STRING
 ---
 
-# _WWAN_USSD_STRING structure
+# WWAN_USSD_STRING structure (wwan.h)
+
+
 
 
 ## -description

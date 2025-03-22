@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_BRIGHTNESS_SENSOR_DATA structure"]
 ms.keywords: _PANEL_BRIGHTNESS_SENSOR_DATA, PANEL_BRIGHTNESS_SENSOR_DATA,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - PANEL_BRIGHTNESS_SENSOR_DATA
 ---
 
-# _PANEL_BRIGHTNESS_SENSOR_DATA structure
+# PANEL_BRIGHTNESS_SENSOR_DATA structure (ntddvdeo.h)
+
+
 
 
 ## -description

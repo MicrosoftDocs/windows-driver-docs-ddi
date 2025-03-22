@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_UNLOCK structure"]
 ms.keywords: D3DKMT_UNLOCK, D3DKMT_UNLOCK structure [Display Devices], OpenGL_Structs_d4f3b3e8-fddd-41d2-8a7e-ee43f25a1f2d.xml, _D3DKMT_UNLOCK, d3dkmthk/D3DKMT_UNLOCK, display.d3dkmt_unlock
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_UNLOCK
 ---
 
-# _D3DKMT_UNLOCK structure
+# D3DKMT_UNLOCK structure (d3dkmthk.h)
+
+
 
 
 ## -description

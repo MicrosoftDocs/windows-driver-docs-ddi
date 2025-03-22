@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FAST_IO_DISPATCH structure"]
 ms.keywords: "*PFAST_IO_DISPATCH, FAST_IO_DISPATCH, FAST_IO_DISPATCH structure [Installable File System Drivers], PFAST_IO_DISPATCH, PFAST_IO_DISPATCH structure pointer [Installable File System Drivers], _FAST_IO_DISPATCH, ifsk.fast_io_dispatch, wdm/FAST_IO_DISPATCH, wdm/PFAST_IO_DISPATCH"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FAST_IO_DISPATCH
 ---
 
-# _FAST_IO_DISPATCH structure
+# FAST_IO_DISPATCH structure (wdm.h)
+
+
 
 
 ## -description

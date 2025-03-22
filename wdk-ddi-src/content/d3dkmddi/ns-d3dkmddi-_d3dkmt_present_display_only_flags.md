@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure"]
 ms.keywords: D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure [Display Devices], _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, d3dkmddi/D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS, display.d3dkmt_present_display_only_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS
 ---
 
-# _D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure
+# D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure"]
 ms.keywords: "*PPCI_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], PPCI_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, wdm/PPCI_CORRECTABLE_ERROR_MASK"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_CORRECTABLE_ERROR_MASK
  - PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 ---
+
+# PPCI_CORRECTABLE_ERROR_MASK structure (miniport.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["PRO_PARAMETER_LIST structure"]
 ms.keywords: "*PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], PRO_PARAMETER_LIST, PRO_PARAMETER_LIST structure [Storage Devices], storage.pro_parameter_list, storport/PPRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PPRO_PARAMETER_LIST
  - PRO_PARAMETER_LIST
 ---
+
+# PRO_PARAMETER_LIST structure (minitape.h)
 
 ## -description
 

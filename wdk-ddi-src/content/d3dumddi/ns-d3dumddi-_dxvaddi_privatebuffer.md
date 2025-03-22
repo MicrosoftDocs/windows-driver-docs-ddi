@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_PRIVATEBUFFER structure"]
 ms.keywords: DXVA2_Structs_90012dba-8a0c-4685-a528-1a57265e5688.xml, DXVADDI_PRIVATEBUFFER, DXVADDI_PRIVATEBUFFER structure [Display Devices], _DXVADDI_PRIVATEBUFFER, d3dumddi/DXVADDI_PRIVATEBUFFER, display.dxvaddi_privatebuffer
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_PRIVATEBUFFER
 ---
 
-# _DXVADDI_PRIVATEBUFFER structure
+# DXVADDI_PRIVATEBUFFER structure (d3dumddi.h)
+
+
 
 
 ## -description

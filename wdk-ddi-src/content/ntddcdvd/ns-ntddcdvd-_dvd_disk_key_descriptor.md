@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_DISK_KEY_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR structure [Storage Devices], PDVD_DISK_KEY_DESCRIPTOR, PDVD_DISK_KEY_DESCRIPTOR structure pointer [Storage Devices], _DVD_DISK_KEY_DESCRIPTOR, ntddcdvd/DVD_DISK_KEY_DESCRIPTOR, ntddcdvd/PDVD_DISK_KEY_DESCRIPTOR, storage.dvd_disk_key_descriptor, structs-DVD_b5c88389-0128-4069-b460-d9fa81a2150e.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DVD_DISK_KEY_DESCRIPTOR
 ---
 
-# _DVD_DISK_KEY_DESCRIPTOR structure
+# DVD_DISK_KEY_DESCRIPTOR structure (ntddcdvd.h)
+
+
 
 
 ## -description

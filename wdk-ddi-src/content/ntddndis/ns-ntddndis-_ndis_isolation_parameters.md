@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_ISOLATION_PARAMETERS structure"]
 ms.keywords: "*PNDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS, NDIS_ISOLATION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_ISOLATION_PARAMETERS, PNDIS_ISOLATION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_ISOLATION_PARAMETERS, netvista.ndis_isolation_parameters, ntddndis/NDIS_ISOLATION_PARAMETERS, ntddndis/PNDIS_ISOLATION_PARAMETERS"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.40 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_ISOLATION_PARAMETERS
 ---
 
-# _NDIS_ISOLATION_PARAMETERS structure
+# NDIS_ISOLATION_PARAMETERS structure (ntddndis.h)
+
+
 
 
 ## -description

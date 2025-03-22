@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDDCX_MOVEREGION structure"]
 ms.keywords: IDDCX_MOVEREGION, IDDCX_MOVEREGION structure [Display Devices], display.iddcx_moveregion, iddcx/IDDCX_MOVEREGION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_MOVEREGION
 ---
 
-# IDDCX_MOVEREGION structure
+# IDDCX_MOVEREGION structure (iddcx.h)
+
+
 
 
 ## -description

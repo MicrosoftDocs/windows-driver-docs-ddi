@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure"]
 ms.keywords: DXGK_SETVIDPNSOURCEADDRESS_FLAGS, DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure [Display Devices], DmStructs_45e34e9d-e410-44f4-a41a-aad748f01688.xml, _DXGK_SETVIDPNSOURCEADDRESS_FLAGS, d3dkmddi/DXGK_SETVIDPNSOURCEADDRESS_FLAGS, display.dxgk_setvidpnsourceaddress_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - DXGK_SETVIDPNSOURCEADDRESS_FLAGS
 ---
 
-# _DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure
+# DXGK_SETVIDPNSOURCEADDRESS_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure"]
 ms.keywords: DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure [Display Devices], _DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, *INOUT_PDXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, d3dkmddi/DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE, display.dxgkargcb_reservegpuvirtualaddressrange
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 (WDDM 2.0)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE
 ---
 
-# DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure
+# DXGKARGCB_RESERVEGPUVIRTUALADDRESSRANGE structure (d3dkmddi.h)
+
+
 
 ## -description
 

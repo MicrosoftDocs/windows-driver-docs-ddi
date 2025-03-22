@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_DEVICE_TYPE_CAPS structure"]
 ms.keywords: _DXGK_DEVICE_TYPE_CAPS, DXGK_DEVICE_TYPE_CAPS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_DEVICE_TYPE_CAPS structure
+# DXGK_DEVICE_TYPE_CAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

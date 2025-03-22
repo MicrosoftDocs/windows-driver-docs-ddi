@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DESTROYAUTHENICATEDCHANNEL structure"]
 ms.keywords: D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_be6187b3-2d01-450e-90a7-d01a97aba764.xml, _D3DDDIARG_DESTROYAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL, display.d3dddiarg_destroyauthenticatedchannel
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL
 ---
 
-# _D3DDDIARG_DESTROYAUTHENICATEDCHANNEL structure
+# D3DDDIARG_DESTROYAUTHENTICATEDCHANNEL structure (d3dumddi.h)
+
+
 
 
 ## -description

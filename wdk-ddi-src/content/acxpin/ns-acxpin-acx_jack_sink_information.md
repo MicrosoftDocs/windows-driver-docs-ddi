@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_SINK_INFORMATION structure (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_SINK_INFORMATION** structure specifies information about a display-related digital audio device, such as an HDMI device or a display port.

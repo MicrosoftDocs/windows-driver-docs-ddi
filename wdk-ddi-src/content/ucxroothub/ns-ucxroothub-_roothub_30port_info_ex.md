@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ROOTHUB_30PORT_INFO_EX structure"]
 ms.keywords: "*PROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX, P_ROOTHUB_30PORT_INFO_EX structure pointer [Buses], ROOTHUB_30PORT_INFO_EX, ROOTHUB_30PORT_INFO_EX structure [Buses], _ROOTHUB_30PORT_INFO_EX, buses._roothub_30port_info_ex, ucxroothub/P_ROOTHUB_30PORT_INFO_EX, ucxroothub/_ROOTHUB_30PORT_INFO_EX"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ROOTHUB_30PORT_INFO_EX
 ---
 
-# _ROOTHUB_30PORT_INFO_EX structure
+# ROOTHUB_30PORT_INFO_EX structure (ucxroothub.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["BOOTDISK_INFORMATION structure"]
 ms.keywords: "*PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION, kernel.bootdisk_information, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, wdm/BOOTDISK_INFORMATION, wdm/PBOOTDISK_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Drivers on Microsoft Windows XP and later versions of the Windows operating system should use the BOOTDISK_INFORMATION_EX structure instead.
@@ -46,7 +47,9 @@ api_name:
  - BOOTDISK_INFORMATION
 ---
 
-# _BOOTDISK_INFORMATION structure
+# BOOTDISK_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_TRANSPORT_CHARACTERISTICS structure"]
 ms.keywords: "*PUSB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS, PUSB_TRANSPORT_CHARACTERISTICS structure pointer [Buses], USB_TRANSPORT_CHARACTERISTICS, USB_TRANSPORT_CHARACTERISTICS structure [Buses], _USB_TRANSPORT_CHARACTERISTICS, buses.usb_transport_characteristics, usbioctl/PUSB_TRANSPORT_CHARACTERISTICS, usbioctl/USB_TRANSPORT_CHARACTERISTICS"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - USB_TRANSPORT_CHARACTERISTICS
 ---
 
-# _USB_TRANSPORT_CHARACTERISTICS structure
+# USB_TRANSPORT_CHARACTERISTICS structure (usbioctl.h)
+
+
 
 
 ## -description

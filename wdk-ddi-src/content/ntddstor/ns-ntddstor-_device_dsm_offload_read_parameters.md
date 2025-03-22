@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure"]
 ms.keywords: "*PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS, DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure [Storage Devices], PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, PDEVICE_DSM_OFFLOAD_READ_PARAMETERS structure pointer [Storage Devices], _DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/DEVICE_DSM_OFFLOAD_READ_PARAMETERS, ntddstor/PDEVICE_DSM_OFFLOAD_READ_PARAMETERS, storage.device_dsm_offload_read_parameters"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_DSM_OFFLOAD_READ_PARAMETERS
 ---
 
-# _DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure
+# DEVICE_DSM_OFFLOAD_READ_PARAMETERS structure (ntddstor.h)
+
+
 
 ## -description
 

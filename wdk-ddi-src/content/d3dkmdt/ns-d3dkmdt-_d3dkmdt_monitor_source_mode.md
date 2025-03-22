@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_MONITOR_SOURCE_MODE structure"]
 ms.keywords: D3DKMDT_MONITOR_SOURCE_MODE, D3DKMDT_MONITOR_SOURCE_MODE structure [Display Devices], DmStructs_165795ef-f70e-4f50-a35f-c6009c547be2.xml, _D3DKMDT_MONITOR_SOURCE_MODE, d3dkmdt/D3DKMDT_MONITOR_SOURCE_MODE, display.d3dkmdt_monitor_source_mode
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_MONITOR_SOURCE_MODE
 ---
 
-# _D3DKMDT_MONITOR_SOURCE_MODE structure
+# D3DKMDT_MONITOR_SOURCE_MODE structure (d3dkmdt.h)
+
+
 
 
 ## -description

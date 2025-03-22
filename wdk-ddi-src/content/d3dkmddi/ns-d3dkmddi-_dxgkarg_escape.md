@@ -4,6 +4,7 @@ title: DXGKARG_ESCAPE (d3dkmddi.h)
 description: The DXGKARG_ESCAPE structure describes information that the user-mode display driver shares with the display miniport driver.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - DXGKARG_ESCAPE
 ---
 
-# DXGKARG_ESCAPE structure
+# DXGKARG_ESCAPE structure (d3dkmddi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_GET_GENERATION_COUNT structure"]
 ms.keywords: 1394/IRB_REQ_GET_GENERATION_COUNT, IEEE.irb_req_get_generation_count, IRB_REQ_GET_GENERATION_COUNT, IRB_REQ_GET_GENERATION_COUNT structure [Buses], _IRB_REQ_GET_GENERATION_COUNT
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_GET_GENERATION_COUNT
 ---
 
-# _IRB_REQ_GET_GENERATION_COUNT structure
+# IRB_REQ_GET_GENERATION_COUNT structure (1394.h)
+
+
 
 
 ## -description

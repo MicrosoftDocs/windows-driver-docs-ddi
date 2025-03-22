@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_CONNECT_VER2 structure"]
 ms.keywords: "*PCMP_CONNECT, *PCMP_CONNECT_VER2, 61883/CMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, CMP_CONNECT, CMP_CONNECT_VER2, CMP_CONNECT_VER2 structure, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_CONNECT_VER2
 ---
 
-# _CMP_CONNECT_VER2 structure
+# CMP_CONNECT_VER2 structure (61883.h)
+
+
 
 
 ## -description

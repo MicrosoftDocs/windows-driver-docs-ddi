@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_PHYSICAL_MEMORY_RANGE structure"]
 ms.keywords: _DXGK_PHYSICAL_MEMORY_RANGE, DXGK_PHYSICAL_MEMORY_RANGE,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_PHYSICAL_MEMORY_RANGE
 ---
 
-# _DXGK_PHYSICAL_MEMORY_RANGE structure
+# DXGK_PHYSICAL_MEMORY_RANGE structure (d3dkmddi.h)
+
+
 
 
 ## -description

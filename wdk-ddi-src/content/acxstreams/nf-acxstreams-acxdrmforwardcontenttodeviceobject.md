@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDrmForwardContentToDeviceObject function (acxstreams.h)
+
 ## -description
 
 The **AcxDrmForwardContentToDeviceObject** function accepts a device object representing a device to which the caller intends to forward protected content. The function authenticates the device and sends it the content ID and DRM rights that the system has assigned to the protected content.

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PLATFORM_IDLE_STATE structure"]
 ms.keywords: "*PPEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE, PEP_PLATFORM_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PLATFORM_IDLE_STATE, PPEP_PLATFORM_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_PLATFORM_IDLE_STATE, kernel.pep_platform_idle_state, pepfx/PEP_PLATFORM_IDLE_STATE, pepfx/PPEP_PLATFORM_IDLE_STATE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PLATFORM_IDLE_STATE
 ---
 
-# _PEP_PLATFORM_IDLE_STATE structure (pepfx.h)
+# PEP_PLATFORM_IDLE_STATE structure (pepfx.h)
+
+
 
 
 ## -description

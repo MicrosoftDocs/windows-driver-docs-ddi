@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DTRANSFORMCAPS structure"]
 ms.keywords: "*LPD3DTRANSFORMCAPS, D3DTRANSFORMCAPS, D3DTRANSFORMCAPS structure [Display Devices], LPD3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], _D3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, d3dcaps/LPD3DTRANSFORMCAPS, d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, display.d3dtransformcaps"
 req.header: d3dcaps.h
+req.construct-type: structure
 req.include-header: D3dcaps.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DTRANSFORMCAPS
 ---
 
-# _D3DTRANSFORMCAPS structure
+# D3DTRANSFORMCAPS structure (d3dcaps.h)
+
+
 
 
 ## -description

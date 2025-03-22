@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_OPENRESOURCEFLAGS structure"]
 ms.keywords: D3DDDI_OPENRESOURCEFLAGS, D3DDDI_OPENRESOURCEFLAGS structure [Display Devices], D3D_other_Structs_918a41c9-09de-4916-a0d6-fd69f7c431c2.xml, _D3DDDI_OPENRESOURCEFLAGS, d3dumddi/D3DDDI_OPENRESOURCEFLAGS, display.d3dddi_openresourceflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_OPENRESOURCEFLAGS
 ---
 
-# _D3DDDI_OPENRESOURCEFLAGS structure
+# D3DDDI_OPENRESOURCEFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

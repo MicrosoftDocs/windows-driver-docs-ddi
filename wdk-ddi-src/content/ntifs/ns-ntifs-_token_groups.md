@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["TOKEN_GROUPS structure"]
 ms.keywords: "*PTOKEN_GROUPS, PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], TOKEN_GROUPS, TOKEN_GROUPS structure [Installable File System Drivers], _TOKEN_GROUPS, ifsk.token_groups, ntifs/PTOKEN_GROUPS, ntifs/TOKEN_GROUPS, securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TOKEN_GROUPS
 ---
 
-# TOKEN_GROUPS structure
+# TOKEN_GROUPS structure (ntifs.h)
+
+
 
 ## -description
 

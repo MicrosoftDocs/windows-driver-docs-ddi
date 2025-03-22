@@ -7,6 +7,7 @@ ms.date: 05/21/2024
 keywords: ["D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure"]
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices], PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, display.d3dddi_updateallocproperty_flags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - D3DDDI_UPDATEALLOCPROPERTY_FLAGS
 ---
 
-# D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure
+# D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure (d3dukmdt.h)
+
+
 
 ## -description
 

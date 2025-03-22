@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_GEOFENCE_CREATE_PARAM structure"]
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM, GNSS_GEOFENCE_CREATE_PARAM structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_PARAM, PGNSS_GEOFENCE_CREATE_PARAM structure pointer [Sensor Devices], gnss.gnss_geofence_create_param, gnssdriver/GNSS_GEOFENCE_CREATE_PARAM, gnssdriver/PGNSS_GEOFENCE_CREATE_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_GEOFENCE_CREATE_PARAM
  - GNSS_GEOFENCE_CREATE_PARAM
 ---
+
+# GNSS_GEOFENCE_CREATE_PARAM structure (gnssdriver.h)
 
 ## -description
 

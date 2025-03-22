@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_COMMAND structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND, PWWAN_DEVICE_SERVICE_COMMAND structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_COMMAND, WWAN_DEVICE_SERVICE_COMMAND structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_COMMAND, netvista.wwan_device_service_command, wwan/PWWAN_DEVICE_SERVICE_COMMAND, wwan/WWAN_DEVICE_SERVICE_COMMAND"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DEVICE_SERVICE_COMMAND
 ---
 
-# _WWAN_DEVICE_SERVICE_COMMAND structure
+# WWAN_DEVICE_SERVICE_COMMAND structure (wwan.h)
+
+
 
 
 ## -description

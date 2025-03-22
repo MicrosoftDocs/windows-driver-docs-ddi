@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["PDEV_USE_TRUE_COLOR structure"]
 ms.keywords: PDEV_USE_TRUE_COLOR, PDEV_USE_TRUE_COLOR structure [Print Devices], _PDEV_USE_TRUE_COLOR, print.pdev_use_true_color, print_unidrv-pscript_rendering_bac188d1-ddd5-44e6-b2f1-7c617d6c4b6f.xml, printoem/PDEV_USE_TRUE_COLOR
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _PDEV_USE_TRUE_COLOR
  - PDEV_USE_TRUE_COLOR
 ---
+
+# PDEV_USE_TRUE_COLOR structure (printoem.h)
 
 ## -description
 

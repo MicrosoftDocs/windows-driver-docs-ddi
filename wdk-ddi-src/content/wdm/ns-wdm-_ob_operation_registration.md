@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OB_OPERATION_REGISTRATION structure"]
 ms.keywords: "*POB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION, OB_OPERATION_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_OPERATION_REGISTRATION, POB_OPERATION_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PsProcessType, PsThreadType, _OB_OPERATION_REGISTRATION, kernel.ob_operation_registration, kstruct_c_257b9aaa-a8cc-49b2-b51e-16fcf5eb8084.xml, wdm/OB_OPERATION_REGISTRATION, wdm/POB_OPERATION_REGISTRATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Server 2008.
@@ -46,7 +47,9 @@ api_name:
  - OB_OPERATION_REGISTRATION
 ---
 
-# _OB_OPERATION_REGISTRATION structure
+# OB_OPERATION_REGISTRATION structure (wdm.h)
+
+
 
 
 ## -description

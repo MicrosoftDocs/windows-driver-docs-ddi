@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URS_CONFIG structure"]
 ms.keywords: "*PURS_CONFIG, PURS_CONFIG, PURS_CONFIG structure pointer [Buses], URS_CONFIG, URS_CONFIG structure [Buses], _URS_CONFIG, buses.urs_config, ursdevice/PURS_CONFIG, ursdevice/URS_CONFIG"
 req.header: ursdevice.h
+req.construct-type: structure
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - URS_CONFIG
 ---
 
-# _URS_CONFIG structure
+# URS_CONFIG structure (ursdevice.h)
+
+
 
 
 ## -description

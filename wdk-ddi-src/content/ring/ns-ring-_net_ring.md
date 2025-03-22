@@ -7,6 +7,7 @@ ms.date: 09/25/2019
 keywords: ["NET_RING structure"]
 ms.keywords: _NET_RING, NET_RING, *PNET_RING,
 req.header: ring.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_RING
 ---
 
-# _NET_RING structure
+# NET_RING structure (ring.h)
+
+
 
 
 ## -description

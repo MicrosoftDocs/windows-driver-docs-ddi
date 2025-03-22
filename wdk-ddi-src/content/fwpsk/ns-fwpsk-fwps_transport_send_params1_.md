@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_TRANSPORT_SEND_PARAMS1_ structure"]
 ms.keywords: FWPS_TRANSPORT_SEND_PARAMS1, FWPS_TRANSPORT_SEND_PARAMS1 structure [Network Drivers Starting with Windows Vista], FWPS_TRANSPORT_SEND_PARAMS1_, fwpsk/FWPS_TRANSPORT_SEND_PARAMS1, netvista.fwps_transport_send_params1, wfp_ref_3_struct_3_fwps_P-Z_55024e38-5ae1-4a2c-8595-2722e481a947.xml
 req.header: fwpsk.h
+req.construct-type: structure
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_TRANSPORT_SEND_PARAMS1
 ---
 
-# FWPS_TRANSPORT_SEND_PARAMS1_ structure
+# FWPS_TRANSPORT_SEND_PARAMS1_ structure (fwpsk.h)
+
+
 
 
 ## -description

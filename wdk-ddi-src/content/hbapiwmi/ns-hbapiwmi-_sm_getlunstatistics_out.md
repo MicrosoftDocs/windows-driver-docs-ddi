@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_GetLUNStatistics_OUT structure"]
 ms.keywords: "*PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT, PSM_GetLUNStatistics_OUT structure pointer [Storage Devices], SM_GetLUNStatistics_OUT, SM_GetLUNStatistics_OUT structure [Storage Devices], _SM_GetLUNStatistics_OUT, hbapiwmi/PSM_GetLUNStatistics_OUT, hbapiwmi/SM_GetLUNStatistics_OUT, storage.sm_getlunstatistics_out, structs-Fibre_3f322627-9c44-4675-9166-32860aa954a3.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_GetLUNStatistics_OUT
 ---
 
-# _SM_GetLUNStatistics_OUT structure
+# SM_GetLUNStatistics_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MS_SMHBA_FC_PHY structure"]
 ms.keywords: "*PMS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY, MS_SMHBA_FC_PHY structure [Storage Devices], PMS_SMHBA_FC_PHY, PMS_SMHBA_FC_PHY structure pointer [Storage Devices], _MS_SMHBA_FC_PHY, hbapiwmi/MS_SMHBA_FC_PHY, hbapiwmi/PMS_SMHBA_FC_PHY, storage.ms_smhba_fc_phy, structs-Fibre_64c8e970-8d72-4651-bcb8-8363b424cd04.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MS_SMHBA_FC_PHY
 ---
 
-# _MS_SMHBA_FC_PHY structure
+# MS_SMHBA_FC_PHY structure (hbapiwmi.h)
+
+
 
 
 ## -description

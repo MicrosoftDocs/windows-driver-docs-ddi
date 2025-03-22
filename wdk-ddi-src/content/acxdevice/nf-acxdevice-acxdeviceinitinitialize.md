@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceInitInitialize function (acxdevice.h)
+
 ## -description
 
 The client driver must call **AcxDeviceInitInitialize** in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, before calling [WdfDeviceCreate](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).

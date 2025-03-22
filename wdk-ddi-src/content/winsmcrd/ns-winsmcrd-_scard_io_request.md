@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SCARD_IO_REQUEST structure"]
 ms.keywords: "*LPSCARD_IO_REQUEST, *PSCARD_IO_REQUEST, PSCARD_IO_REQUEST,*LPSCARD_IO_REQUEST, PSCARD_IO_REQUEST,*LPSCARD_IO_REQUEST structure pointer [Near-Field Proximity Drivers], SCARD_IO_REQUEST, SCARD_IO_REQUEST , SCARD_IO_REQUEST structure [Near-Field Proximity Drivers], _SCARD_IO_REQUEST, nfpdrivers.scard_io_request_structure, winsmcrd/PSCARD_IO_REQUEST,*LPSCARD_IO_REQUEST, winsmcrd/SCARD_IO_REQUEST"
 req.header: winsmcrd.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCARD_IO_REQUEST
 ---
 
-# _SCARD_IO_REQUEST structure
+# SCARD_IO_REQUEST structure (winsmcrd.h)
+
+
 
 
 ## -description

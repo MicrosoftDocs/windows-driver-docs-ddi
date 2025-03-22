@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KS_AM_ExactRateChange structure"]
 ms.keywords: "*PKS_AM_ExactRateChange, KS_AM_ExactRateChange, KS_AM_ExactRateChange structure [Streaming Media Devices], PKS_AM_ExactRateChange, PKS_AM_ExactRateChange structure pointer [Streaming Media Devices], dvdref_bbe80dae-5cb8-45f8-a283-c0a2af794525.xml, ksmedia/KS_AM_ExactRateChange, ksmedia/PKS_AM_ExactRateChange, stream.ks_am_exactratechange"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KS_AM_ExactRateChange
 ---
 
-# KS_AM_ExactRateChange structure
+# KS_AM_ExactRateChange structure (ksmedia.h)
+
+
 
 
 ## -description

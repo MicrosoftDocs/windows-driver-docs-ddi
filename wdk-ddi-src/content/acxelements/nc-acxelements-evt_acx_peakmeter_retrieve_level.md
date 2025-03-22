@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_PEAKMETER_RETRIEVE_LEVEL function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_PEAKMETER_RETRIEVE_LEVEL** callback function is implemented by the driver and is called when the level of a specified channel on a peakmeter node is requested.

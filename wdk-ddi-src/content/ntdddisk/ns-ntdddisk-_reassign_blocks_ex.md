@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["REASSIGN_BLOCKS_EX structure"]
 ms.keywords: "*PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX, PREASSIGN_BLOCKS_EX structure pointer [Storage Devices], REASSIGN_BLOCKS_EX, REASSIGN_BLOCKS_EX structure [Storage Devices], _REASSIGN_BLOCKS_EX, ntdddisk/PREASSIGN_BLOCKS_EX, ntdddisk/REASSIGN_BLOCKS_EX, storage.reassign_blocks_ex"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - REASSIGN_BLOCKS_EX
 ---
 
-# _REASSIGN_BLOCKS_EX structure
+# REASSIGN_BLOCKS_EX structure (ntdddisk.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_VOLUME_RETRIEVE_LEVEL function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_VOLUME_RETRIEVE_LEVEL** callback function is implemented by the driver and is called when the volume level of a specified channel on a volume node is requested.

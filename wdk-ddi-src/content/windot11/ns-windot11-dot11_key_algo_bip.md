@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_KEY_ALGO_BIP structure"]
 ms.keywords: "*PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista], PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_bip, windot11/DOT11_KEY_ALGO_BIP, windot11/PDOT11_KEY_ALGO_BIP"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_KEY_ALGO_BIP
 ---
 
-# DOT11_KEY_ALGO_BIP structure
+# DOT11_KEY_ALGO_BIP structure (windot11.h)
+
+
 
 
 ## -description

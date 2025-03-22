@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CHANGER_SEND_VOLUME_TAG_INFORMATION structure"]
 ms.keywords: "*PCHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION, CHANGER_SEND_VOLUME_TAG_INFORMATION structure [Storage Devices], PCHANGER_SEND_VOLUME_TAG_INFORMATION, PCHANGER_SEND_VOLUME_TAG_INFORMATION structure pointer [Storage Devices], _CHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/CHANGER_SEND_VOLUME_TAG_INFORMATION, ntddchgr/PCHANGER_SEND_VOLUME_TAG_INFORMATION, storage.changer_send_volume_tag_information, structs-changer_3f8d7f13-bf38-41fe-aa74-bbd9083bbbb6.xml"
 req.header: ntddchgr.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CHANGER_SEND_VOLUME_TAG_INFORMATION
 ---
 
-# _CHANGER_SEND_VOLUME_TAG_INFORMATION structure
+# CHANGER_SEND_VOLUME_TAG_INFORMATION structure (ntddchgr.h)
+
+
 
 
 ## -description

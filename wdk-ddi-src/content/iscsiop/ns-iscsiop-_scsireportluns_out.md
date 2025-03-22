@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiReportLuns_OUT structure"]
 ms.keywords: "*PScsiReportLuns_OUT, PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], _ScsiReportLuns_OUT, iscsiop/PScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, storage.scsireportluns_out, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ScsiReportLuns_OUT
 ---
 
-# _ScsiReportLuns_OUT structure (iscsiop.h)
+# ScsiReportLuns_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

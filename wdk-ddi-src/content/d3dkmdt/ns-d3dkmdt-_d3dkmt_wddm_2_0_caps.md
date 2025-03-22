@@ -6,6 +6,7 @@ ms.date: 07/28/2021
 keywords: ["D3DKMT_WDDM_2_0_CAPS structure"]
 ms.keywords: _D3DKMT_WDDM_2_0_CAPS, D3DKMT_WDDM_2_0_CAPS,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10
@@ -36,7 +37,9 @@ api_name:
  - D3DKMT_WDDM_2_0_CAPS
 ---
 
-# D3DKMT_WDDM_2_0_CAPS structure
+# D3DKMT_WDDM_2_0_CAPS structure (d3dkmdt.h)
+
+
 
 ## -description
 

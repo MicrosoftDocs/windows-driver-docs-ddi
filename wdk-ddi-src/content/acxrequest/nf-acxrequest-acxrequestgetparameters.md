@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxRequestGetParameters function (acxrequest.h)
+
 ## -description
 
 The **AcxRequestGetParameters** function gets ACX request parameters from a WDFREQUEST.

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure"]
 ms.keywords: "*PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO.gpio_query_enabled_interrupts_parameters, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.1.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS
 ---
 
-# _GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure
+# GPIO_QUERY_ENABLED_INTERRUPTS_PARAMETERS structure (gpioclx.h)
+
+
 
 
 ## -description

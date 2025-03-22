@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["FAULT_INFORMATION structure"]
 ms.keywords: _FAULT_INFORMATION, *PFAULT_INFORMATION, FAULT_INFORMATION,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - FAULT_INFORMATION
 ---
 
-# _FAULT_INFORMATION structure
+# FAULT_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

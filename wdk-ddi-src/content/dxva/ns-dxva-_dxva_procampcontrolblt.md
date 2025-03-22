@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_ProcAmpControlBlt structure"]
 ms.keywords: DXVA_ProcAmpControlBlt, DXVA_ProcAmpControlBlt structure [Display Devices], _DXVA_ProcAmpControlBlt, display.dxva_procampcontrolblt, dxva/DXVA_ProcAmpControlBlt, dxvaref_aaac59e6-334e-49a3-a599-facef11960e3.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: DirectX 9.0 and later versions only.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_ProcAmpControlBlt
 ---
 
-# _DXVA_ProcAmpControlBlt structure
+# DXVA_ProcAmpControlBlt structure (dxva.h)
+
+
 
 
 ## -description

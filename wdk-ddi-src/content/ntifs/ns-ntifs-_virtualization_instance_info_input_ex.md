@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["VIRTUALIZATION_INSTANCE_INFO_INPUT_EX structure"]
 ms.keywords: _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, VIRTUALIZATION_INSTANCE_INFO_INPUT_EX, *PVIRTUALIZATION_INSTANCE_INFO_INPUT_EX,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - VIRTUALIZATION_INSTANCE_INFO_INPUT_EX
 ---
 
-# _VIRTUALIZATION_INSTANCE_INFO_INPUT_EX structure
+# VIRTUALIZATION_INSTANCE_INFO_INPUT_EX structure (ntifs.h)
+
+
 
 
 ## -description

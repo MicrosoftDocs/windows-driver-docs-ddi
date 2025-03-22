@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HID_DESCRIPTOR structure"]
 ms.keywords: "*PHID_DESCRIPTOR, HID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices], PHID_DESCRIPTOR, PHID_DESCRIPTOR structure pointer [Human Input Devices], _HID_DESCRIPTOR, hid.hid_descriptor, hidport/HID_DEVICE_ATTRIBUTES, hidport/PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml"
 req.header: hidport.h
+req.construct-type: structure
 req.include-header: Hidport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HID_DESCRIPTOR
 ---
 
-# _HID_DESCRIPTOR structure
+# HID_DESCRIPTOR structure (hidport.h)
+
+
 
 
 ## -description

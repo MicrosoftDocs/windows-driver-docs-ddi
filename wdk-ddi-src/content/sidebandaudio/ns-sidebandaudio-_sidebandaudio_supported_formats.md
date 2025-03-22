@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_SUPPORTED_FORMATS structure"]
 ms.keywords: _SIDEBANDAUDIO_SUPPORTED_FORMATS, SIDEBANDAUDIO_SUPPORTED_FORMATS, *PSIDEBANDAUDIO_SUPPORTED_FORMATS,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SIDEBANDAUDIO_SUPPORTED_FORMATS
 ---
 
-# SIDEBANDAUDIO_SUPPORTED_FORMATS structure
+# SIDEBANDAUDIO_SUPPORTED_FORMATS structure (sidebandaudio.h)
+
+
 
 ## -description
 

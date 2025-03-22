@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS structure"]
 ms.keywords: MCI_STATUS, MCI_STATUS, *PMCI_STATUS,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MCI_STATUS
 ---
 
-# MCI_STATUS structure
+# MCI_STATUS structure (ntddk.h)
+
+
 
 
 ## -description

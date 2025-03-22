@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure"]
 ms.keywords: D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure [Display Devices], _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, d3dkmthk/D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY, display.d3dkmt_getcontextinprocessschedulingpriority
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY
 ---
 
-# _D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure
+# D3DKMT_GETCONTEXTINPROCESSSCHEDULINGPRIORITY structure (d3dkmthk.h)
+
+
 
 
 ## -description

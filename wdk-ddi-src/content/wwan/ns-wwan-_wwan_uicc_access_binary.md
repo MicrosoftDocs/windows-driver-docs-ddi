@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["WWAN_UICC_ACCESS_BINARY structure"]
 ms.keywords: _WWAN_UICC_ACCESS_BINARY, WWAN_UICC_ACCESS_BINARY, *PWWAN_UICC_ACCESS_BINARY,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_UICC_ACCESS_BINARY
 ---
 
-# _WWAN_UICC_ACCESS_BINARY structure
+# WWAN_UICC_ACCESS_BINARY structure (wwan.h)
+
+
 
 
 ## -description

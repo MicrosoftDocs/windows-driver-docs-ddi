@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetElementGetNameTag function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetElementGetNameTag** function given an existing ACXTARGETELEMENT object returns, returns its name-tag in the form of a GUID.

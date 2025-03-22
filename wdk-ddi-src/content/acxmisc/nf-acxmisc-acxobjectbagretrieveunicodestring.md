@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveUnicodeString function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveUnicodeString function retrieves a unicode string value from an existing, initialized AcxObjectBag that contains values.

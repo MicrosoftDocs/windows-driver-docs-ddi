@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PROCESSOR_NUMBER structure"]
 ms.keywords: "*PPROCESSOR_NUMBER, PPROCESSOR_NUMBER, PPROCESSOR_NUMBER structure pointer [Kernel-Mode Driver Architecture], PROCESSOR_NUMBER, PROCESSOR_NUMBER structure [Kernel-Mode Driver Architecture], _PROCESSOR_NUMBER, kernel.processor_number, kstruct_c_d3a9199a-f6d3-4d2d-877a-6e856e80ebb9.xml, miniport/PPROCESSOR_NUMBER, miniport/PROCESSOR_NUMBER"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Windows.h, Ntdef.h, Wdm.h, Ntddk.h, Winnt.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - PROCESSOR_NUMBER
 ---
 
-# _PROCESSOR_NUMBER structure (minitape.h)
+# PROCESSOR_NUMBER structure (minitape.h)
+
+
 
 
 ## -description

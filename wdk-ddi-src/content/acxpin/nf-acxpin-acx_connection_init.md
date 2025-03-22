@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CONNECTION_INIT function (acxpin.h)
+
 ## -description
 
 Initializes an [ACX_CONNECTION](ns-acxpin-acx_connection.md) structure for use in configuring a connection.

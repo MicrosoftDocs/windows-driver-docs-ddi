@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_EVENT structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT, PWWAN_DEVICE_SERVICE_EVENT structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_EVENT, WWAN_DEVICE_SERVICE_EVENT structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_EVENT, netvista.wwan_device_service_event, wwan/PWWAN_DEVICE_SERVICE_EVENT, wwan/WWAN_DEVICE_SERVICE_EVENT"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DEVICE_SERVICE_EVENT
 ---
 
-# _WWAN_DEVICE_SERVICE_EVENT structure
+# WWAN_DEVICE_SERVICE_EVENT structure (wwan.h)
+
+
 
 
 ## -description

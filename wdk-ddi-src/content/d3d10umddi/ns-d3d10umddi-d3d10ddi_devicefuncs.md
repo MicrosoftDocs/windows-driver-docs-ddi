@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDI_DEVICEFUNCS structure"]
 ms.keywords: D3D10DDI_DEVICEFUNCS, D3D10DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4d7e9e93-233d-4726-af26-bcaf0cbf149a.xml, d3d10umddi/D3D10DDI_DEVICEFUNCS, display.d3d10ddi_devicefuncs
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDI_DEVICEFUNCS
 ---
 
-# D3D10DDI_DEVICEFUNCS structure
+# D3D10DDI_DEVICEFUNCS structure (d3d10umddi.h)
+
+
 
 
 ## -description

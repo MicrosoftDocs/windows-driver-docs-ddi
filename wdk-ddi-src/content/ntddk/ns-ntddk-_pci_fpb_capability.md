@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PCI_FPB_CAPABILITY structure"]
 ms.keywords: _PCI_FPB_CAPABILITY, PCI_FPB_CAPABILITY, *PPCI_FPB_CAPABILITY,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - PCI_FPB_CAPABILITY
 ---
 
-# _PCI_FPB_CAPABILITY structure
+# PCI_FPB_CAPABILITY structure (ntddk.h)
+
+
 
 
 ## -description

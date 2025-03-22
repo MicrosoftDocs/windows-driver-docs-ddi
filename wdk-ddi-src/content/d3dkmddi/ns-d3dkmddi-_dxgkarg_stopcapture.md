@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_STOPCAPTURE structure"]
 ms.keywords: DXGKARG_STOPCAPTURE, DXGKARG_STOPCAPTURE structure [Display Devices], DmStructs_52028d90-8c11-425c-80ca-533664035fa5.xml, _DXGKARG_STOPCAPTURE, d3dkmddi/DXGKARG_STOPCAPTURE, display.dxgkarg_stopcapture
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_STOPCAPTURE
 ---
 
-# _DXGKARG_STOPCAPTURE structure
+# DXGKARG_STOPCAPTURE structure (d3dkmddi.h)
+
+
 
 
 ## -description

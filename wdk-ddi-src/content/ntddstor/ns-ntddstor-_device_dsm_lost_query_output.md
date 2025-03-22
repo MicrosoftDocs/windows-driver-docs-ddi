@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_LOST_QUERY_OUTPUT structure"]
 ms.keywords: _DEVICE_DSM_LOST_QUERY_OUTPUT, DEVICE_DSM_LOST_QUERY_OUTPUT, *PDEVICE_DSM_LOST_QUERY_OUTPUT,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - DEVICE_DSM_LOST_QUERY_OUTPUT
 ---
 
-# _DEVICE_DSM_LOST_QUERY_OUTPUT structure
+# DEVICE_DSM_LOST_QUERY_OUTPUT structure (ntddstor.h)
+
+
 
 
 ## -description

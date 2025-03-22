@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_LID_STATE enumeration
+# DXGK_DIAG_DISPLAY_LID_STATE enumeration (dispmprt.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2 structure"]
 ms.keywords: WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2, WHEA_PSHED_PLUGIN_REGISTRATION_PACKET, *PWHEA_PSHED_PLUGIN_REGISTRATION_PACKET
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2
 ---
 
-# WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2 structure
+# WHEA_PSHED_PLUGIN_REGISTRATION_PACKET_V2 structure (ntddk.h)
+
+
 
 
 ## -description

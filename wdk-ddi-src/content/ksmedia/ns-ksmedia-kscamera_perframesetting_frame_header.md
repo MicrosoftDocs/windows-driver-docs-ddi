@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure"]
 ms.keywords: "*PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER, KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, PKSCAMERA_PERFRAMESETTING_FRAME_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_PERFRAMESETTING_FRAME_HEADER, ksmedia/PKSCAMERA_PERFRAMESETTING_FRAME_HEADER, stream.kscamera_perframesetting_frame_header"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSCAMERA_PERFRAMESETTING_FRAME_HEADER
 ---
 
-# KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure
+# KSCAMERA_PERFRAMESETTING_FRAME_HEADER structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AACS_SERIAL_NUMBER structure"]
 ms.keywords: "*PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER structure [Storage Devices], PAACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], _AACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER, ntddcdvd/PAACS_SERIAL_NUMBER, storage.aacs_serial_number, structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AACS_SERIAL_NUMBER
 ---
 
-# _AACS_SERIAL_NUMBER structure
+# AACS_SERIAL_NUMBER structure (ntddcdvd.h)
+
+
 
 
 ## -description

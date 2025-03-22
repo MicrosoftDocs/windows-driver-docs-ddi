@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_GAMMA_1DLUT_CAP structure"]
 ms.keywords: DXGK_GAMMA_1DLUT_CAP, DXGK_GAMMA_1DLUT_CAP, *PDXGK_GAMMA_1DLUT_CAP,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_GAMMA_1DLUT_CAP structure
+# DXGK_GAMMA_1DLUT_CAP structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/03/2018
 keywords: ["BRIGHTNESS_LEVEL structure"]
 ms.keywords: _BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL, BRIGHTNESS_LEVEL,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - BRIGHTNESS_LEVEL
 ---
 
-# _BRIGHTNESS_LEVEL structure
+# BRIGHTNESS_LEVEL structure (ntddvdeo.h)
+
+
 
 
 ## -description

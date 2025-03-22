@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["ACPI_METHOD_ARGUMENT_V1 structure"]
 ms.keywords: "*PACPI_METHOD_ARGUMENT, *PACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT, ACPI_METHOD_ARGUMENT_V1, ACPI_METHOD_ARGUMENT_V1 structure [ACPI Devices], _ACPI_METHOD_ARGUMENT_V1, acpi-meth-eval-ref_a8988425-e05b-4e85-a345-31a367dec427.xml, acpi.acpi_method_argument, acpiioct/ACPI_METHOD_ARGUMENT_V1"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 and later versions of Windows.
@@ -43,7 +44,9 @@ api_name:
  - ACPI_METHOD_ARGUMENT_V1
 ---
 
-# _ACPI_METHOD_ARGUMENT_V1 structure
+# ACPI_METHOD_ARGUMENT_V1 structure (acpiioct.h)
+
+
 
 
 ## -description

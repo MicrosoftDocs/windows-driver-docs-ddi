@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGIDDICB_PRESENT structure"]
 ms.keywords: DXGIDDICB_PRESENT, DXGIDDICB_PRESENT structure [Display Devices], UMDisplayDriver_Dx10param_Structs_932d6171-c487-44f6-834e-5d57b3e14515.xml, display.dxgiddicb_present, dxgiddi/DXGIDDICB_PRESENT
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - DXGIDDICB_PRESENT
 ---
 
-# DXGIDDICB_PRESENT structure
+# DXGIDDICB_PRESENT structure (dxgiddi.h)
+
+
 
 
 ## -description

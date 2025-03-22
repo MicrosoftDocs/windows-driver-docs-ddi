@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT structure"]
 ms.keywords: KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT, KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure [Audio Devices], _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT, audio.ksaudio_packetsize_processingmode_constraint, ksmedia/KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT
 ---
 
-# _KSAUDIO_PACKETSIZE_SIGNALPROCESSINGMODE_CONSTRAINT structure
+# KSAUDIO_PACKETSIZE_PROCESSINGMODE_CONSTRAINT structure (ksmedia.h)
+
+
 
 
 ## -description

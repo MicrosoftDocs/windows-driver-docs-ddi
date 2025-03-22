@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# NET_DEVICE_RESET_CAPABILITIES_INIT function
+# NET_DEVICE_RESET_CAPABILITIES_INIT function (netadaptercx.h)
+
+
 
 ## -description
 

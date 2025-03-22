@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["WWAN_SAR_CONFIG_INDICES structure"]
 ms.keywords: _WWAN_SAR_CONFIG_INDICES, WWAN_SAR_CONFIG_INDICES, *PWWAN_SAR_CONFIG_INDICES,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - WWAN_SAR_CONFIG_INDICES
 ---
 
-# _WWAN_SAR_CONFIG_INDICES structure
+# WWAN_SAR_CONFIG_INDICES structure (wwan.h)
+
+
 
 
 ## -description

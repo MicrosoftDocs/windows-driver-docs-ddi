@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_ISO_PACKET_DESCRIPTOR structure"]
 ms.keywords: "*PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR, PUSBD_ISO_PACKET_DESCRIPTOR structure pointer [Buses], USBD_ISO_PACKET_DESCRIPTOR, USBD_ISO_PACKET_DESCRIPTOR structure [Buses], _USBD_ISO_PACKET_DESCRIPTOR, buses.usbd_iso_packet_descriptor, usb/PUSBD_ISO_PACKET_DESCRIPTOR, usb/USBD_ISO_PACKET_DESCRIPTOR, usbstrct_142becb1-b374-467e-9a11-2cda26e69ff4.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBD_ISO_PACKET_DESCRIPTOR
 ---
 
-# _USBD_ISO_PACKET_DESCRIPTOR structure
+# USBD_ISO_PACKET_DESCRIPTOR structure (usb.h)
+
+
 
 
 ## -description

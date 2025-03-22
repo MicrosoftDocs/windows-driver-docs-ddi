@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SendECHO_IN structure"]
 ms.keywords: "*PSM_SendECHO_IN, PSM_SendECHO_IN, PSM_SendECHO_IN structure pointer [Storage Devices], SM_SendECHO_IN, SM_SendECHO_IN structure [Storage Devices], _SM_SendECHO_IN, hbapiwmi/PSM_SendECHO_IN, hbapiwmi/SM_SendECHO_IN, storage.sm_sendecho_in, structs-Fibre_b5bcd1e0-9847-4425-8091-6b6dcf7581a0.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SendECHO_IN
 ---
 
-# _SM_SendECHO_IN structure
+# SM_SendECHO_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

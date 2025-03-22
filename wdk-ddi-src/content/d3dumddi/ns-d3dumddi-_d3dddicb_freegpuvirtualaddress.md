@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_FREEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDICB_FREEGPUVIRTUALADDRESS, D3DDDICB_FREEGPUVIRTUALADDRESS structure [Display Devices], _D3DDDICB_FREEGPUVIRTUALADDRESS, d3dumddi/D3DDDICB_FREEGPUVIRTUALADDRESS, display.d3dddicb_freegpuvirtualaddress
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_FREEGPUVIRTUALADDRESS
 ---
 
-# _D3DDDICB_FREEGPUVIRTUALADDRESS structure
+# D3DDDICB_FREEGPUVIRTUALADDRESS structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_MR_DISPATCH structure"]
 ms.keywords: NDK_MR_DISPATCH, NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_MR_DISPATCH, PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR_DISPATCH, ndkpi/NDK_MR_DISPATCH, ndkpi/PNDK_MR_DISPATCH, netvista.ndk_mr_dispatch
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_MR_DISPATCH
 ---
 
-# _NDK_MR_DISPATCH structure
+# NDK_MR_DISPATCH structure (ndkpi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DSM_COUNTERS structure"]
 ms.keywords: "*PDSM_COUNTERS, DSM_COUNTERS, DSM_COUNTERS structure [Storage Devices], PDSM_COUNTERS, PDSM_COUNTERS structure pointer [Storage Devices], _DSM_COUNTERS, mpiowmi/DSM_COUNTERS, mpiowmi/PDSM_COUNTERS, storage.dsm_counters, structs-scsibus_bfb9b1ff-6274-47b9-b817-254428b02f17.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DSM_COUNTERS
 ---
 
-# _DSM_COUNTERS structure
+# DSM_COUNTERS structure (mpiowmi.h)
+
+
 
 
 ## -description

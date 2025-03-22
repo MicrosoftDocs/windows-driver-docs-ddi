@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDI_COUNTER_INFO structure"]
 ms.keywords: D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml, d3d10umddi/D3D10DDI_COUNTER_INFO, display.d3d10ddi_counter_info
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDI_COUNTER_INFO
 ---
 
-# D3D10DDI_COUNTER_INFO structure
+# D3D10DDI_COUNTER_INFO structure (d3d10umddi.h)
+
+
 
 
 ## -description

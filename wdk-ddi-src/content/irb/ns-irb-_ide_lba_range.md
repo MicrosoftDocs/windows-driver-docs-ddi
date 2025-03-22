@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDE_LBA_RANGE structure"]
 ms.keywords: "*PIDE_LBA_RANGE, IDE_LBA_RANGE, IDE_LBA_RANGE structure [Storage Devices], PIDE_LBA_RANGE, PIDE_LBA_RANGE structure pointer [Storage Devices], _IDE_LBA_RANGE, irb/IDE_LBA_RANGE, irb/PIDE_LBA_RANGE, storage.ide_lba_range, structs-ATA_0abd91d5-18f0-49c9-b5de-ac442718da3f.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDE_LBA_RANGE
 ---
 
-# _IDE_LBA_RANGE structure
+# IDE_LBA_RANGE structure (irb.h)
+
+
 
 
 ## -description

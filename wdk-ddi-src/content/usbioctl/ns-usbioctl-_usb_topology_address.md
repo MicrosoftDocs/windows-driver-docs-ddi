@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_TOPOLOGY_ADDRESS structure"]
 ms.keywords: "*PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS, PUSB_TOPOLOGY_ADDRESS structure pointer [Buses], USB_TOPOLOGY_ADDRESS, USB_TOPOLOGY_ADDRESS structure [Buses], _USB_TOPOLOGY_ADDRESS, buses.usb_topology_address, usbioctl/PUSB_TOPOLOGY_ADDRESS, usbioctl/USB_TOPOLOGY_ADDRESS"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - USB_TOPOLOGY_ADDRESS
 ---
 
-# _USB_TOPOLOGY_ADDRESS structure
+# USB_TOPOLOGY_ADDRESS structure (usbioctl.h)
+
+
 
 
 ## -description

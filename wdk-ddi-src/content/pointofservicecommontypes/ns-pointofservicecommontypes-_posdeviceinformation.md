@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosDeviceInformation structure"]
 ms.keywords: PosDeviceInformation, PosDeviceInformation structure, _PosDeviceInformation, pointofservicecommontypes/PosDeviceInformation, pos.posdeviceinformation
 req.header: pointofservicecommontypes.h
+req.construct-type: structure
 req.include-header: PointOfServiceCommonTypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosDeviceInformation
 ---
 
-# _PosDeviceInformation structure
+# PosDeviceInformation structure (pointofservicecommontypes.h)
+
+
 
 
 ## -description

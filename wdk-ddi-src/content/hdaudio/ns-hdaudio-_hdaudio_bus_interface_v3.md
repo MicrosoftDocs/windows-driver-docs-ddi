@@ -7,6 +7,7 @@ ms.date: 12/19/2018
 keywords: ["HDAUDIO_BUS_INTERFACE_V3 structure"]
 ms.keywords: _HDAUDIO_BUS_INTERFACE_V3, HDAUDIO_BUS_INTERFACE_V3, *PHDAUDIO_BUS_INTERFACE_V3,
 req.header: hdaudio.h
+req.construct-type: structure
 req.include-header: hdaudio.h
 req.target-type: 
 req.target-min-winverclnt: 19H1
@@ -40,7 +41,9 @@ api_name:
  - HDAUDIO_BUS_INTERFACE_V3
 ---
 
-# _HDAUDIO_BUS_INTERFACE_V3 structure
+# HDAUDIO_BUS_INTERFACE_V3 structure (hdaudio.h)
+
+
 
 
 ## -description

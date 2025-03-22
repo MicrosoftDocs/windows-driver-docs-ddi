@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["UNIDRV_PRIVATE_DEVMODE structure"]
 ms.keywords: "*PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE, PUNIDRV_PRIVATE_DEVMODE structure pointer [Print Devices], UNIDRV_PRIVATE_DEVMODE, UNIDRV_PRIVATE_DEVMODE structure [Print Devices], _UNIDRV_PRIVATE_DEVMODE, print.unidrv_private_devmode, print_unidrv-pscript_ui_accecb33-b4e7-4e2d-a2f2-d792456eb9db.xml, printoem/PUNIDRV_PRIVATE_DEVMODE, printoem/UNIDRV_PRIVATE_DEVMODE"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - UNIDRV_PRIVATE_DEVMODE
 ---
 
-# _UNIDRV_PRIVATE_DEVMODE structure
+# UNIDRV_PRIVATE_DEVMODE structure (printoem.h)
+
+
 
 ## -description
 

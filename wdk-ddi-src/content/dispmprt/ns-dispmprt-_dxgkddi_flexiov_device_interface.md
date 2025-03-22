@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure"]
 ms.keywords: _DXGKDDI_FLEXIOV_DEVICE_INTERFACE, DXGKDDI_FLEXIOV_DEVICE_INTERFACE, *PDXGKDDI_FLEXIOV_DEVICE_INTERFACE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure
+# DXGKDDI_FLEXIOV_DEVICE_INTERFACE structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BranchOfficeJobDataRendered structure"]
 ms.keywords: "*PBranchOfficeJobDataRendered, BranchOfficeJobDataRendered, BranchOfficeJobDataRendered structure [Print Devices], PBranchOfficeJobDataRendered, PBranchOfficeJobDataRendered structure pointer [Print Devices], print.branchofficejobdatarendered, winsplp/BranchOfficeJobDataRendered, winsplp/PBranchOfficeJobDataRendered"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BranchOfficeJobDataRendered
 ---
 
-# BranchOfficeJobDataRendered structure
+# BranchOfficeJobDataRendered structure (winsplp.h)
+
+
 
 
 ## -description

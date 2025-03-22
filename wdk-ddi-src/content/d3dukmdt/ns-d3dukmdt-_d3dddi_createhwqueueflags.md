@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 06/17/2024
 keywords: ["D3DDDI_CREATEHWQUEUEFLAGS structure"]
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
@@ -41,7 +42,9 @@ api_name:
  - D3DDDI_CREATEHWQUEUEFLAGS
 ---
 
-# D3DDDI_CREATEHWQUEUEFLAGS structure
+# D3DDDI_CREATEHWQUEUEFLAGS structure (d3dukmdt.h)
+
+
 
 ## -description
 

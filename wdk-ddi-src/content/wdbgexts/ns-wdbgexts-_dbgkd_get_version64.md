@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DBGKD_GET_VERSION64 structure"]
 ms.keywords: "*PDBGKD_GET_VERSION64, DBGKD_GET_VERSION64, DBGKD_GET_VERSION64 structure [Windows Debugging], PDBGKD_GET_VERSION64, PDBGKD_GET_VERSION64 structure pointer [Windows Debugging], WdbgExts_Ref_33e7f185-3831-439b-9e92-8d942627f66b.xml, _DBGKD_GET_VERSION64, debugger.ig_get_kernel_version, wdbgexts/DBGKD_GET_VERSION64, wdbgexts/PDBGKD_GET_VERSION64"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DBGKD_GET_VERSION64
 ---
 
-# _DBGKD_GET_VERSION64 structure
+# DBGKD_GET_VERSION64 structure (wdbgexts.h)
+
+
 
 
 ## -description

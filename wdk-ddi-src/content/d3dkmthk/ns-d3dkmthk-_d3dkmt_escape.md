@@ -4,6 +4,7 @@ title: D3DKMT_ESCAPE (d3dkmthk.h)
 description: The D3DKMT_ESCAPE structure describes information that is exchanged with the KMD.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMT_ESCAPE
 ---
 
-# D3DKMT_ESCAPE structure
+# D3DKMT_ESCAPE structure (d3dkmthk.h)
+
+
 
 ## -description
 

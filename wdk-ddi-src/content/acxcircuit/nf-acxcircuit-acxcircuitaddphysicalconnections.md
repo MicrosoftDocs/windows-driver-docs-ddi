@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitAddPhysicalConnections function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitAddPhysicalConnections** function adds physical connections to an ACXCIRCUIT.

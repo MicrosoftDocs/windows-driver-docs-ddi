@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0 function (d3d12umddi.h)
+
 ## -description
 
 The **PFND3D12DDI_VIDEO_ENCODE_RESOLVE_OUTPUT_METADATA_0082_0** callback function records a command to resolve the output metadata of an [encoding operation](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md) into a readable format.

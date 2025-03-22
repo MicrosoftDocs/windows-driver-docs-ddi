@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_CHILD_RETRIEVE_INFO structure"]
 ms.keywords: "*PWDF_CHILD_RETRIEVE_INFO, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, PWDF_CHILD_RETRIEVE_INFO, PWDF_CHILD_RETRIEVE_INFO structure pointer, WDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO structure, _WDF_CHILD_RETRIEVE_INFO, kmdf.wdf_child_retrieve_info, wdf.wdf_child_retrieve_info, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, wdfchildlist/WDF_CHILD_RETRIEVE_INFO"
 req.header: wdfchildlist.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_CHILD_RETRIEVE_INFO
 ---
 
-# _WDF_CHILD_RETRIEVE_INFO structure
+# WDF_CHILD_RETRIEVE_INFO structure (wdfchildlist.h)
+
+
 
 
 ## -description

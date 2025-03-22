@@ -7,6 +7,7 @@ ms.date: 07/20/2022
 keywords: ["PCI_X_CAPABILITY structure"]
 ms.keywords: "*PPCI_X_CAPABILITY, PCI.pci_x_capability, PCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses], pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, wdm/PCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PPCI_X_CAPABILITY
  - PCI_X_CAPABILITY
 ---
+
+# PCI_X_CAPABILITY structure (miniport.h)
 
 ## -description
 

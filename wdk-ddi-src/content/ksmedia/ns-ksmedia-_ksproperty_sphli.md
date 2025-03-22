@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_SPHLI structure"]
 ms.keywords: "*PKSPROPERTY_SPHLI, KSPROPERTY_SPHLI, KSPROPERTY_SPHLI structure [Streaming Media Devices], PKSPROPERTY_SPHLI, PKSPROPERTY_SPHLI structure pointer [Streaming Media Devices], _KSPROPERTY_SPHLI, dvdref_f6cc5797-e4f6-4973-abff-6b1bb9c0c637.xml, ksmedia/KSPROPERTY_SPHLI, ksmedia/PKSPROPERTY_SPHLI, stream.ksproperty_sphli"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSPROPERTY_SPHLI
 ---
 
-# _KSPROPERTY_SPHLI structure
+# KSPROPERTY_SPHLI structure (ksmedia.h)
+
+
 
 
 ## -description

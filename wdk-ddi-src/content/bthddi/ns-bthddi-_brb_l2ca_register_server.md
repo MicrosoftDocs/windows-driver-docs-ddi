@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_L2CA_REGISTER_SERVER structure"]
 ms.keywords: "_BRB_L2CA_REGISTER_SERVER, _BRB_L2CA_REGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_l2ca_register_server, bth_structs_c803cec6-8a80-4d75-9c81-fd479ee37a97.xml, bthddi/_BRB_L2CA_REGISTER_SERVER"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_L2CA_REGISTER_SERVER
 ---
 
-# _BRB_L2CA_REGISTER_SERVER structure
+# _BRB_L2CA_REGISTER_SERVER structure (bthddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GET_BAND_METADATA_PARAMETERS structure"]
 ms.keywords: "*PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], PGET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], _GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - GET_BAND_METADATA_PARAMETERS
 ---
 
-# _GET_BAND_METADATA_PARAMETERS structure
+# GET_BAND_METADATA_PARAMETERS structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

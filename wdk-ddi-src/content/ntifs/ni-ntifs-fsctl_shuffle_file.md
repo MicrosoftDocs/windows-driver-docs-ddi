@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_SHUFFLE_FILE
 ---
 
+# FSCTL_SHUFFLE_FILE ioctl (ntifs.h)
+
 ## -description
 
 **FSCTL_SHUFFLE_FILE** adds or removes allocation from within the specified file.

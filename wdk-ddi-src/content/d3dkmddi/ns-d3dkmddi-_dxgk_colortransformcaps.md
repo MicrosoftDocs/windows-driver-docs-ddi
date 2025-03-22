@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["DXGK_COLORTRANSFORMCAPS structure"]
 ms.keywords: DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS , DXGK_COLORTRANSFORMCAPS structure [Display Devices], PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], _DXGK_COLORTRANSFORMCAPS, d3dkmddi/DXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_COLORTRANSFORMCAPS
 ---
 
-# DXGK_COLORTRANSFORMCAPS structure
+# DXGK_COLORTRANSFORMCAPS structure (d3dkmddi.h)
+
+
 
 ## -description
 

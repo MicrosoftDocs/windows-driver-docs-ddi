@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_MAPCONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_MAPCONTEXTALLOCATION, DXGKARGCB_MAPCONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_MAPCONTEXTALLOCATION, d3dkmddi/DXGKARGCB_MAPCONTEXTALLOCATION, display.dxgkargcb_mapcontextallocation
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 (WDDM 2.0)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_MAPCONTEXTALLOCATION
 ---
 
-# DXGKARGCB_MAPCONTEXTALLOCATION structure
+# DXGKARGCB_MAPCONTEXTALLOCATION structure (d3dkmddi.h)
+
+
 
 ## -description
 

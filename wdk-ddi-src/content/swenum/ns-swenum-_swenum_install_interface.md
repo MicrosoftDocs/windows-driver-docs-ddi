@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SWENUM_INSTALL_INTERFACE structure"]
 ms.keywords: "*PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE, PSWENUM_INSTALL_INTERFACE structure pointer [Streaming Media Devices], SWENUM_INSTALL_INTERFACE, SWENUM_INSTALL_INTERFACE structure [Streaming Media Devices], _SWENUM_INSTALL_INTERFACE, ks-struct_64848a64-102a-44ec-b5d1-331526828c60.xml, stream.swenum_install_interface, swenum/PSWENUM_INSTALL_INTERFACE, swenum/SWENUM_INSTALL_INTERFACE"
 req.header: swenum.h
+req.construct-type: structure
 req.include-header: Swenum.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SWENUM_INSTALL_INTERFACE
 ---
 
-# _SWENUM_INSTALL_INTERFACE structure
+# SWENUM_INSTALL_INTERFACE structure (swenum.h)
+
+
 
 
 ## -description

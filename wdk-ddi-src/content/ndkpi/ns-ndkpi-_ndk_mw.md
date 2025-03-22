@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_MW structure"]
 ms.keywords: NDK_MW, NDK_MW structure [Network Drivers Starting with Windows Vista], PNDK_MW, PNDK_MW structure pointer [Network Drivers Starting with Windows Vista], _NDK_MW, ndkpi/NDK_MW, ndkpi/PNDK_MW, netvista.ndk_mw
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_MW
 ---
 
-# _NDK_MW structure
+# NDK_MW structure (ndkpi.h)
+
+
 
 
 ## -description

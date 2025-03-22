@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["SRIOV_INVALIDATE_BLOCK structure"]
 ms.keywords: "*PSRIOV_INVALIDATE_BLOCK, PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], _SRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK"
 req.header: pcivirt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SRIOV_INVALIDATE_BLOCK
 ---
 
-# _SRIOV_INVALIDATE_BLOCK structure
+# SRIOV_INVALIDATE_BLOCK structure (pcivirt.h)
+
+
 
 
 ## -description

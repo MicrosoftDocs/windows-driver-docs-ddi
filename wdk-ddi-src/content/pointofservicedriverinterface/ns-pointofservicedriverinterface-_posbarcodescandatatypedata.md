@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosBarcodeScanDataTypeData structure"]
 ms.keywords: PosBarcodeScanDataTypeData, PosBarcodeScanDataTypeData structure, _PosBarcodeScanDataTypeData, pointofservicedriverinterface/PosBarcodeScanDataTypeData, pos.posbarcodescandatatypedata
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosBarcodeScanDataTypeData
 ---
 
-# _PosBarcodeScanDataTypeData structure
+# PosBarcodeScanDataTypeData structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

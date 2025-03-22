@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["STI_DIAG structure"]
 ms.keywords: "*LPSTI_DIAG, DIAG, LPSTI_DIAG, LPSTI_DIAG structure pointer [Imaging Devices], STI_DIAG, STI_DIAG structure [Imaging Devices], _STI_DIAG, image.sti_diag, sti/LPSTI_DIAG, sti/STI_DIAG, stifnc_793c0930-51bf-46b5-89c9-9ddaf91a1fee.xml"
 req.header: sti.h
+req.construct-type: structure
 req.include-header: Sti.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STI_DIAG
 ---
 
-# _STI_DIAG structure
+# STI_DIAG structure (sti.h)
+
+
 
 
 ## -description

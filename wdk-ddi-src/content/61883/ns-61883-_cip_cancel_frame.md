@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CIP_CANCEL_FRAME structure"]
 ms.keywords: "*PCIP_CANCEL_FRAME, 61883/CIP_CANCEL_FRAME, 61883/PCIP_CANCEL_FRAME, CIP_CANCEL_FRAME, CIP_CANCEL_FRAME structure [Buses], IEEE.cip_cancel_frame, PCIP_CANCEL_FRAME, PCIP_CANCEL_FRAME structure pointer [Buses], _CIP_CANCEL_FRAME"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_CANCEL_FRAME
 ---
 
-# _CIP_CANCEL_FRAME structure
+# CIP_CANCEL_FRAME structure (61883.h)
+
+
 
 
 ## -description

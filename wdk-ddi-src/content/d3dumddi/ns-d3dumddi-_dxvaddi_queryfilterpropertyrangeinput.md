@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure"]
 ms.keywords: DXVA2_Structs_28a2aed9-57a1-4bd6-b8dc-c09bb9e821b0.xml, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure [Display Devices], _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, d3dumddi/DXVADDI_QUERYFILTERPROPERTYRANGEINPUT, display.dxvaddi_queryfilterpropertyrangeinput
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_QUERYFILTERPROPERTYRANGEINPUT
 ---
 
-# _DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure
+# DXVADDI_QUERYFILTERPROPERTYRANGEINPUT structure (d3dumddi.h)
+
+
 
 
 ## -description

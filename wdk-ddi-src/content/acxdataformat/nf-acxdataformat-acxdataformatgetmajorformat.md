@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetMajorFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetMajorFormat** function gets the major format for the specified data format.

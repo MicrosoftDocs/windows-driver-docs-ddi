@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_WORK_COMPLETE_IDLE_STATE structure"]
 ms.keywords: "*PPEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE, PEP_WORK_COMPLETE_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_COMPLETE_IDLE_STATE, PPEP_WORK_COMPLETE_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_COMPLETE_IDLE_STATE, kernel.pep_work_complete_idle_state, pepfx/PEP_WORK_COMPLETE_IDLE_STATE, pepfx/PPEP_WORK_COMPLETE_IDLE_STATE"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_WORK_COMPLETE_IDLE_STATE
 ---
 
-# _PEP_WORK_COMPLETE_IDLE_STATE structure (pep_x.h)
+# PEP_WORK_COMPLETE_IDLE_STATE structure (pep_x.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HPMI_BATTERY_UTILIZATION_HINT structure"]
 ms.keywords: "*PHPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT, HPMI_BATTERY_UTILIZATION_HINT structure [Power Metering and Budgeting Devices], PHPMI_BATTERY_UTILIZATION_HINT, PHPMI_BATTERY_UTILIZATION_HINT structure pointer [Power Metering and Budgeting Devices], _HPMI_BATTERY_UTILIZATION_HINT, hpmi/HPMI_BATTERY_UTILIZATION_HINT, hpmi/PHPMI_BATTERY_UTILIZATION_HINT, powermeter.hpmi_battery_utilization_hint"
 req.header: hpmi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - HPMI_BATTERY_UTILIZATION_HINT
 ---
 
-# _HPMI_BATTERY_UTILIZATION_HINT structure
+# HPMI_BATTERY_UTILIZATION_HINT structure (hpmi.h)
+
+
 
 
 ## -description

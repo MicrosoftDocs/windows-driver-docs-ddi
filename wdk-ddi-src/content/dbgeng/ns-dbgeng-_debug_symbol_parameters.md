@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_SYMBOL_PARAMETERS structure"]
 ms.keywords: "*PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], PDEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, _DEBUG_SYMBOL_PARAMETERS, dbgeng/DEBUG_SYMBOL_PARAMETERS, dbgeng/PDEBUG_SYMBOL_PARAMETERS, debugger.debug_symbol_parameters"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_SYMBOL_PARAMETERS
 ---
 
-# _DEBUG_SYMBOL_PARAMETERS structure
+# DEBUG_SYMBOL_PARAMETERS structure (dbgeng.h)
+
+
 
 
 ## -description

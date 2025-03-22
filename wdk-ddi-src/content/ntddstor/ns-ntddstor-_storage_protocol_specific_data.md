@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["STORAGE_PROTOCOL_SPECIFIC_DATA structure"]
 ms.keywords: "*PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA, PSTORAGE_PROTOCOL_SPECIFIC_DATA structure pointer [Storage Devices], STORAGE_PROTOCOL_SPECIFIC_DATA, STORAGE_PROTOCOL_SPECIFIC_DATA structure [Storage Devices], _STORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/PSTORAGE_PROTOCOL_SPECIFIC_DATA, ntddstor/STORAGE_PROTOCOL_SPECIFIC_DATA, storage.storage_protocol_specific_data"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -47,7 +48,9 @@ api_name:
  - STORAGE_PROTOCOL_SPECIFIC_DATA
 ---
 
-# STORAGE_PROTOCOL_SPECIFIC_DATA structure
+# STORAGE_PROTOCOL_SPECIFIC_DATA structure (ntddstor.h)
+
+
 
 ## -description
 

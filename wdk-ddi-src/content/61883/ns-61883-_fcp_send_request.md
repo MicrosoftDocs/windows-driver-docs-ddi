@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["FCP_SEND_REQUEST structure"]
 ms.keywords: "*PFCP_REQUEST, *PFCP_SEND_REQUEST, 61883/FCP_SEND_REQUEST, 61883/PFCP_SEND_REQUEST, FCP_REQUEST, FCP_SEND_REQUEST, FCP_SEND_REQUEST structure [Buses], IEEE.fcp_send_request, PFCP_SEND_REQUEST, PFCP_SEND_REQUEST structure pointer [Buses], _FCP_SEND_REQUEST"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FCP_SEND_REQUEST
 ---
 
-# _FCP_SEND_REQUEST structure
+# FCP_SEND_REQUEST structure (61883.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_QUERYPAGETABLELEVELDESCIN structure"]
 ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], _DXGK_QUERYPAGETABLELEVELDESCIN, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_QUERYPAGETABLELEVELDESCIN
 ---
 
-# _DXGK_QUERYPAGETABLELEVELDESCIN structure
+# DXGK_QUERYPAGETABLELEVELDESCIN structure (d3dkmddi.h)
+
+
 
 
 ## -description

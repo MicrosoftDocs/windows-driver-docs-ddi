@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDIGAMMACAPS structure"]
 ms.keywords: D3D_other_Structs_7aa0b131-f7e5-4208-b3bb-7a35fa0d5ef1.xml, DDIGAMMACAPS, DDIGAMMACAPS structure [Display Devices], _DDIGAMMACAPS, d3dumddi/DDIGAMMACAPS, display.ddigammacaps
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DDIGAMMACAPS
 ---
 
-# _DDIGAMMACAPS structure
+# DDIGAMMACAPS structure (d3dumddi.h)
+
+
 
 
 ## -description

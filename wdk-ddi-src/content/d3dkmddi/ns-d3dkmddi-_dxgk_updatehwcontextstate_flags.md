@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure"]
 ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_UPDATEHWCONTEXTSTATE_FLAGS
 ---
 
-# _DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure
+# DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["VRAM_SURFACE_INFO_PROPERTY_S structure"]
 ms.keywords: "*PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S, PVRAM_SURFACE_INFO_PROPERTY_S structure pointer [Streaming Media Devices], VRAM_SURFACE_INFO_PROPERTY_S, VRAM_SURFACE_INFO_PROPERTY_S structure [Streaming Media Devices], avstruct_f0149912-f7c6-4cf5-bc5e-107c03c7823f.xml, ksmedia/PVRAM_SURFACE_INFO_PROPERTY_S, ksmedia/VRAM_SURFACE_INFO_PROPERTY_S, stream.vram_surface_info_property_s"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - VRAM_SURFACE_INFO_PROPERTY_S
 ---
 
-# VRAM_SURFACE_INFO_PROPERTY_S structure
+# VRAM_SURFACE_INFO_PROPERTY_S structure (ksmedia.h)
+
+
 
 
 ## -description

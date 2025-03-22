@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NPI_PROVIDER_CHARACTERISTICS structure"]
 ms.keywords: NPI_PROVIDER_CHARACTERISTICS, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NPI_PROVIDER_CHARACTERISTICS, netioddk/NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS, netvista.npi_provider_characteristics, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml
 req.header: netioddk.h
+req.construct-type: structure
 req.include-header: Wsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - NPI_PROVIDER_CHARACTERISTICS
 ---
 
-# _NPI_PROVIDER_CHARACTERISTICS structure
+# NPI_PROVIDER_CHARACTERISTICS structure (netioddk.h)
+
+
 
 
 ## -description

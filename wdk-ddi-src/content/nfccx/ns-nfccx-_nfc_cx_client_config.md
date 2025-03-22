@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_CLIENT_CONFIG structure"]
 ms.keywords: "*PNFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG, NFC_CX_CLIENT_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_CLIENT_CONFIG, PNFC_CX_CLIENT_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_CLIENT_CONFIG, nfccx/PNFC_CX_CLIENT_CONFIG, nfccx/_NFC_CX_CLIENT_CONFIG, nfpdrivers.nfc_cx_client_config"
 req.header: nfccx.h
+req.construct-type: structure
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_CLIENT_CONFIG
 ---
 
-# _NFC_CX_CLIENT_CONFIG structure
+# NFC_CX_CLIENT_CONFIG structure (nfccx.h)
+
+
 
 
 ## -description

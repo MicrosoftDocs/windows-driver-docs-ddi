@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ERASE_BAND_PARAMETERS structure"]
 ms.keywords: "*PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS structure [Storage Devices], PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], _ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, storage.erase_band_parameters"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - ERASE_BAND_PARAMETERS
 ---
 
-# _ERASE_BAND_PARAMETERS structure
+# ERASE_BAND_PARAMETERS structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

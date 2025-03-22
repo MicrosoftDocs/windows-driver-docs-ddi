@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_MAC_INFO structure"]
 ms.keywords: "*PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_MAC_INFO, ndiswwan/NDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_MAC_INFO
 ---
 
-# _NDIS_WWAN_MAC_INFO structure
+# NDIS_WWAN_MAC_INFO structure (ndiswwan.h)
+
+
 
 
 ## -description

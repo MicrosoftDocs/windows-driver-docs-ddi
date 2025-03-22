@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_AMVPDATAINFO structure"]
 ms.keywords: "*PKS_AMVPDATAINFO, KS_AMVPDATAINFO, KS_AMVPDATAINFO structure [Streaming Media Devices], PKS_AMVPDATAINFO, PKS_AMVPDATAINFO structure pointer [Streaming Media Devices], dvdref_e3126cb7-47dc-469b-b2ef-caefc04966cc.xml, ksmedia/KS_AMVPDATAINFO, ksmedia/PKS_AMVPDATAINFO, stream.ks_amvpdatainfo, tagKS_AMVPDATAINFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_AMVPDATAINFO
 ---
 
-# tagKS_AMVPDATAINFO structure
+# tagKS_AMVPDATAINFO structure (ksmedia.h)
+
+
 
 
 ## -description

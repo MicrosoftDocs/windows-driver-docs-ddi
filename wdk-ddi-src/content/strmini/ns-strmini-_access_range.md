@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["ACCESS_RANGE structure"]
 ms.keywords: "*PACCESS_RANGE, ACCESS_RANGE, ACCESS_RANGE structure [Storage Devices], PACCESS_RANGE, PACCESS_RANGE structure pointer [Storage Devices], _ACCESS_RANGE, srb/ACCESS_RANGE, srb/PACCESS_RANGE, storage.access_range, structs-scsiport_353ffdeb-4d30-4df8-9422-ea3a9e662104.xml"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Srb.h, Storport.h, Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PACCESS_RANGE
  - ACCESS_RANGE
 ---
+
+# ACCESS_RANGE structure (strmini.h)
 
 ## -description
 

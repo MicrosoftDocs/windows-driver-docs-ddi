@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBDEVICE_TREE_PURGEIO structure"]
 ms.keywords: "*PUSBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], _USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, ucxusbdevice/_USBDEVICE_TREE_PURGEIO"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBDEVICE_TREE_PURGEIO
 ---
 
-# _USBDEVICE_TREE_PURGEIO structure
+# USBDEVICE_TREE_PURGEIO structure (ucxusbdevice.h)
+
+
 
 
 ## -description

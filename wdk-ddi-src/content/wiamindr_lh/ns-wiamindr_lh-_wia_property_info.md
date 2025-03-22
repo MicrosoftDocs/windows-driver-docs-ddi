@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["WIA_PROPERTY_INFO structure"]
 ms.keywords: "*PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], _WIA_PROPERTY_INFO, image.wia_property_info, wiamindr_lh/PWIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PWIA_PROPERTY_INFO
  - WIA_PROPERTY_INFO
 ---
+
+# WIA_PROPERTY_INFO structure (wiamindr_lh.h)
 
 ## -description
 

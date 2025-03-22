@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WUDF_WORKITEM_CONFIG structure"]
 ms.keywords: "*PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, _WUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, wdf.wudf_workitem_config, wudfworkitem/PWUDF_WORKITEM_CONFIG, wudfworkitem/WUDF_WORKITEM_CONFIG"
 req.header: wudfworkitem.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WUDF_WORKITEM_CONFIG
 ---
 
-# _WUDF_WORKITEM_CONFIG structure
+# WUDF_WORKITEM_CONFIG structure (wudfworkitem.h)
+
+
 
 
 ## -description

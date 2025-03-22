@@ -8,6 +8,7 @@ ms.date: 07/25/2019
 keywords: ["FLT_OPERATION_REGISTRATION structure"]
 ms.keywords: "*PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION structure [Installable File System Drivers], FltSystemStructures_35ea4d15-ff73-4562-b150-d7c3e3d0823c.xml, PFLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION structure pointer [Installable File System Drivers], _FLT_OPERATION_REGISTRATION, fltkernel/FLT_OPERATION_REGISTRATION, fltkernel/PFLT_OPERATION_REGISTRATION, ifsk.flt_operation_registration"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FLT_OPERATION_REGISTRATION
 ---
 
-# _FLT_OPERATION_REGISTRATION structure
+# FLT_OPERATION_REGISTRATION structure (fltkernel.h)
+
+
 
 
 ## -description

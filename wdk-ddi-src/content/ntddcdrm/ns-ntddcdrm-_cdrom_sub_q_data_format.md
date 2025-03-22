@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_SUB_Q_DATA_FORMAT structure"]
 ms.keywords: "*PCDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT, CDROM_SUB_Q_DATA_FORMAT structure [Storage Devices], PCDROM_SUB_Q_DATA_FORMAT, PCDROM_SUB_Q_DATA_FORMAT structure pointer [Storage Devices], _CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/CDROM_SUB_Q_DATA_FORMAT, ntddcdrm/PCDROM_SUB_Q_DATA_FORMAT, storage.cdrom_sub_q_data_format, structs-CD-ROM_1448747c-8b9c-4ccb-8c91-0f8f567f0373.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_SUB_Q_DATA_FORMAT
 ---
 
-# _CDROM_SUB_Q_DATA_FORMAT structure
+# CDROM_SUB_Q_DATA_FORMAT structure (ntddcdrm.h)
+
+
 
 
 ## -description

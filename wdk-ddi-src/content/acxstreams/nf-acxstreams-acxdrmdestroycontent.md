@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDrmDestroyContent function (acxstreams.h)
+
 ## -description
 
 The **AcxDrmDestroyContent** function deletes a DRM content ID that was created by [AcxDrmCreateContentMixed](nf-acxstreams-acxdrmcreatecontentmixed.md).

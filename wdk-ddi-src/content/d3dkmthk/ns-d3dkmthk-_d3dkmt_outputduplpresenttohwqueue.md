@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure"]
 ms.keywords: _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE, D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure
+# D3DKMT_OUTPUTDUPLPRESENTTOHWQUEUE structure (d3dkmthk.h)
+
+
 
 
 ## -description

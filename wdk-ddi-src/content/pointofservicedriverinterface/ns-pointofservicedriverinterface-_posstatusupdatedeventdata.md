@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosStatusUpdatedEventData structure"]
 ms.keywords: PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData, pointofservicedriverinterface/PosStatusUpdatedEventData, pos.posstatusupdatedeventdata
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosStatusUpdatedEventData
 ---
 
-# _PosStatusUpdatedEventData structure
+# PosStatusUpdatedEventData structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

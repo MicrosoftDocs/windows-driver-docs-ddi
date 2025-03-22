@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function (acxmisc.h)
+
 ## -description
 
 The DECLARE_CONST_ACXOBJECTBAG_SOUNDWIRE_PROPERTY_NAME function declares an ACX object bag property name. Soundwire defined properties start with `sdca_`.

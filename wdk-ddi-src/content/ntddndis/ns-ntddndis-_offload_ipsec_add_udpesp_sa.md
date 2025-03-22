@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["OFFLOAD_IPSEC_ADD_UDPESP_SA structure"]
 ms.keywords: "*POFFLOAD_IPSEC_ADD_UDPESP_SA, 216offload_081b17de-1f16-44c7-9888-5d0388c081d9.xml, OFFLOAD_IPSEC_ADD_UDPESP_SA, OFFLOAD_IPSEC_ADD_UDPESP_SA structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_UDPESP_SA, POFFLOAD_IPSEC_ADD_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_UDPESP_SA, netvista.offload_ipsec_add_udpesp_sa, ntddndis/OFFLOAD_IPSEC_ADD_UDPESP_SA, ntddndis/POFFLOAD_IPSEC_ADD_UDPESP_SA"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - OFFLOAD_IPSEC_ADD_UDPESP_SA
 ---
 
-# _OFFLOAD_IPSEC_ADD_UDPESP_SA structure
+# OFFLOAD_IPSEC_ADD_UDPESP_SA structure (ntddndis.h)
+
+
 
 
 ## -description

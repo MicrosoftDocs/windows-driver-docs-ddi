@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MESSAGE_INTERRUPT_INFORMATION structure"]
 ms.keywords: "*PMESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION, MESSAGE_INTERRUPT_INFORMATION structure [Storage Devices], PMESSAGE_INTERRUPT_INFORMATION, PMESSAGE_INTERRUPT_INFORMATION structure pointer [Storage Devices], _MESSAGE_INTERRUPT_INFORMATION, storage.message_interrupt_information, storport/MESSAGE_INTERRUPT_INFORMATION, storport/PMESSAGE_INTERRUPT_INFORMATION, structs-storport_a918acbf-24eb-4112-8bab-bb2ee441064e.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MESSAGE_INTERRUPT_INFORMATION
 ---
 
-# _MESSAGE_INTERRUPT_INFORMATION structure
+# MESSAGE_INTERRUPT_INFORMATION structure (storport.h)
+
+
 
 
 ## -description

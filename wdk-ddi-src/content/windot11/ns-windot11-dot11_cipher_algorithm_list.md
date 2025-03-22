@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_CIPHER_ALGORITHM_LIST structure"]
 ms.keywords: "*PDOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST, DOT11_CIPHER_ALGORITHM_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_704d7a5a-0cf5-459f-af0c-06dfdc936a9e.xml, PDOT11_CIPHER_ALGORITHM_LIST, PDOT11_CIPHER_ALGORITHM_LIST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_cipher_algorithm_list, windot11/DOT11_CIPHER_ALGORITHM_LIST, windot11/PDOT11_CIPHER_ALGORITHM_LIST"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_CIPHER_ALGORITHM_LIST
 ---
 
-# DOT11_CIPHER_ALGORITHM_LIST structure
+# DOT11_CIPHER_ALGORITHM_LIST structure (windot11.h)
+
+
 
 
 ## -description

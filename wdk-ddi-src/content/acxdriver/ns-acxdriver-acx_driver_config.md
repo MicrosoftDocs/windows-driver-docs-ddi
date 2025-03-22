@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DRIVER_CONFIG structure (acxdriver.h)
+
 ## -description
 
 The **ACX_DRIVER_CONFIG** structure provides configuration information to the class extension.

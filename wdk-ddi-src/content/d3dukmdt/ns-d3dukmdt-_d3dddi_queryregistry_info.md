@@ -4,6 +4,7 @@ title: D3DDDI_QUERYREGISTRY_INFO (d3dukmdt.h)
 description: Learn more about the D3DDDI_QUERYREGISTRY_INFO structure.
 ms.date: 02/06/2025
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -34,7 +35,9 @@ api_name:
  - D3DDDI_QUERYREGISTRY_INFO
 ---
 
-# D3DDDI_QUERYREGISTRY_INFO structure
+# D3DDDI_QUERYREGISTRY_INFO structure (d3dukmdt.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_VIDEO_OUTPUT_CAPABILITIES structure"]
 ms.keywords: "*PDXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES, DXGK_VIDEO_OUTPUT_CAPABILITIES structure [Display Devices], DmStructs_018a3f8f-c9bd-4000-b27d-b3dc3e46f14a.xml, PDXGK_VIDEO_OUTPUT_CAPABILITIES, PDXGK_VIDEO_OUTPUT_CAPABILITIES structure pointer [Display Devices], _DXGK_VIDEO_OUTPUT_CAPABILITIES, display.dxgk_video_output_capabilities, dispmprt/DXGK_VIDEO_OUTPUT_CAPABILITIES, dispmprt/PDXGK_VIDEO_OUTPUT_CAPABILITIES"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGK_VIDEO_OUTPUT_CAPABILITIES
 ---
 
-# _DXGK_VIDEO_OUTPUT_CAPABILITIES structure
+# DXGK_VIDEO_OUTPUT_CAPABILITIES structure (dispmprt.h)
+
+
 
 
 ## -description

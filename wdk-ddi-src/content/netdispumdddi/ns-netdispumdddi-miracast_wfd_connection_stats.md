@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["MIRACAST_WFD_CONNECTION_STATS structure"]
 ms.keywords: MIRACAST_WFD_CONNECTION_STATS, MIRACAST_WFD_CONNECTION_STATS structure [Display Devices], display.miracast_wfd_connection_stats, netdispumdddi/MIRACAST_WFD_CONNECTION_STATS
 req.header: netdispumdddi.h
+req.construct-type: structure
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - MIRACAST_WFD_CONNECTION_STATS
 ---
 
-# MIRACAST_WFD_CONNECTION_STATS structure
+# MIRACAST_WFD_CONNECTION_STATS structure (netdispumdddi.h)
+
+
 
 
 ## -description

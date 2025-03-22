@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_GET_EA_INFORMATION structure"]
 ms.keywords: "*PFILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION, FILE_GET_EA_INFORMATION structure [Installable File System Drivers], PFILE_GET_EA_INFORMATION, PFILE_GET_EA_INFORMATION structure pointer [Installable File System Drivers], _FILE_GET_EA_INFORMATION, fileinformationstructures_42834ee3-151e-4844-bd66-a20775e364b4.xml, ifsk.file_get_ea_information, ntifs/FILE_GET_EA_INFORMATION, ntifs/PFILE_GET_EA_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_GET_EA_INFORMATION
 ---
 
-# _FILE_GET_EA_INFORMATION structure
+# FILE_GET_EA_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

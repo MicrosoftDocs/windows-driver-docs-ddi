@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_INFORMATION_EX_V2 structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2, PUSB_NODE_CONNECTION_INFORMATION_EX_V2 structure pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2, USB_NODE_CONNECTION_INFORMATION_EX_V2 structure [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2, buses._usb_node_connection_information_ex_v2, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_CONNECTION_INFORMATION_EX_V2
 ---
 
-# _USB_NODE_CONNECTION_INFORMATION_EX_V2 structure
+# USB_NODE_CONNECTION_INFORMATION_EX_V2 structure (usbioctl.h)
+
+
 
 
 ## -description

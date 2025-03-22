@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_4988e1af-5552-4f7c-be15-5c54f88b9975.xml, d3d10umddi/D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW, display.d3d10_1ddiarg_texcube_shaderresourceview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW is supported on Windows Vista with Service Pack 1 (SP1) and later versions and Windows Server 2008 and later versions.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW
 ---
 
-# D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure
+# D3D10_1DDIARG_TEXCUBE_SHADERRESOURCEVIEW structure (d3d10umddi.h)
+
+
 
 
 ## -description

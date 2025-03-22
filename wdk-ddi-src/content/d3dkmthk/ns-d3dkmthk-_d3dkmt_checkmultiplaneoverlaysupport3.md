@@ -6,6 +6,7 @@ ms.date: 10/05/2023
 keywords: ["D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure"]
 ms.keywords: _D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3, D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure
+# D3DKMT_CHECKMULTIPLANEOVERLAYSUPPORT3 structure (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_GPUVERSION structure"]
 ms.keywords: _D3DKMT_GPUVERSION, D3DKMT_GPUVERSION,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - D3DKMT_GPUVERSION
 ---
 
-# _D3DKMT_GPUVERSION structure
+# D3DKMT_GPUVERSION structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_MODE structure"]
 ms.keywords: "*PVIDEO_MODE, PVIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], VIDEO_MODE, VIDEO_MODE structure [Display Devices], Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, _VIDEO_MODE, display.video_mode, ntddvdeo/PVIDEO_MODE, ntddvdeo/VIDEO_MODE"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_MODE
 ---
 
-# _VIDEO_MODE structure
+# VIDEO_MODE structure (ntddvdeo.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 09/13/2018
 keywords: ["KMCL_SERVER_ONLY_METHODS structure"]
 ms.keywords: _KMCL_SERVER_ONLY_METHODS, KMCL_SERVER_ONLY_METHODS,
 req.header: vmbuskernelmodeclientlibapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ api_name:
  - KMCL_SERVER_ONLY_METHODS
 ---
 
-# _KMCL_SERVER_ONLY_METHODS structure
+# KMCL_SERVER_ONLY_METHODS structure (vmbuskernelmodeclientlibapi.h)
+
+
 
 
 ## -description

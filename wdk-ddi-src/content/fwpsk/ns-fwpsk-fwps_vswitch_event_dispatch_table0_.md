@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_ structure"]
 ms.keywords: FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, FWPS_VSWITCH_EVENT_DISPATCH_TABLE0 structure [Network Drivers Starting with Windows Vista], FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_, fwpsk/FWPS_VSWITCH_EVENT_DISPATCH_TABLE0, netvista.fwps_vswitch_event_dispatch_table0
 req.header: fwpsk.h
+req.construct-type: structure
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_VSWITCH_EVENT_DISPATCH_TABLE0
 ---
 
-# FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_ structure
+# FWPS_VSWITCH_EVENT_DISPATCH_TABLE0_ structure (fwpsk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_DEVICE_PRESENT_INTERFACE structure"]
 ms.keywords: "*PPCI_DEVICE_PRESENT_INTERFACE, PCI.pci_device_present_interface, PCI_DEVICE_PRESENT_INTERFACE, PCI_DEVICE_PRESENT_INTERFACE structure [Buses], _PCI_DEVICE_PRESENT_INTERFACE, wdm/"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_DEVICE_PRESENT_INTERFACE
 ---
 
-# _PCI_DEVICE_PRESENT_INTERFACE structure
+# PCI_DEVICE_PRESENT_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

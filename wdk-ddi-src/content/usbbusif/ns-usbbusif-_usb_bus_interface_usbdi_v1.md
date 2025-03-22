@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_BUS_INTERFACE_USBDI_V1 structure"]
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1, PUSB_BUS_INTERFACE_USBDI_V1 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V1, USB_BUS_INTERFACE_USBDI_V1 structure [Buses], _USB_BUS_INTERFACE_USBDI_V1, buses.usb_bus_interface_usbdi_v1, usbbusif/PUSB_BUS_INTERFACE_USBDI_V1, usbbusif/USB_BUS_INTERFACE_USBDI_V1, usbinterKR_baeecc46-78ee-409a-9017-b6e74b3340e0.xml"
 req.header: usbbusif.h
+req.construct-type: structure
 req.include-header: Usbbusif.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - USB_BUS_INTERFACE_USBDI_V1
 ---
 
-# _USB_BUS_INTERFACE_USBDI_V1 structure
+# USB_BUS_INTERFACE_USBDI_V1 structure (usbbusif.h)
+
+
 
 
 ## -description

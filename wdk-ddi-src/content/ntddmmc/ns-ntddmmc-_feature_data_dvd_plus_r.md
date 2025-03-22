@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FEATURE_DATA_DVD_PLUS_R structure"]
 ms.keywords: "*PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], PFEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], _FEATURE_DATA_DVD_PLUS_R, ntddmmc/FEATURE_DATA_DVD_PLUS_R, ntddmmc/PFEATURE_DATA_DVD_PLUS_R, storage.feature_data_dvd_plus_r, structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FEATURE_DATA_DVD_PLUS_R
 ---
 
-# _FEATURE_DATA_DVD_PLUS_R structure
+# FEATURE_DATA_DVD_PLUS_R structure (ntddmmc.h)
+
+
 
 
 ## -description

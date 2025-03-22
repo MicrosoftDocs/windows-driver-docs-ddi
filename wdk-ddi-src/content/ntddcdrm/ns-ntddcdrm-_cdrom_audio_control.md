@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_AUDIO_CONTROL structure"]
 ms.keywords: "*PCDROM_AUDIO_CONTROL, CDROM_AUDIO_CONTROL, CDROM_AUDIO_CONTROL structure [Storage Devices], PCDROM_AUDIO_CONTROL, PCDROM_AUDIO_CONTROL structure pointer [Storage Devices], _CDROM_AUDIO_CONTROL, ntddcdrm/CDROM_AUDIO_CONTROL, ntddcdrm/PCDROM_AUDIO_CONTROL, storage.cdrom_audio_control, structs-CD-ROM_aac7f375-669d-4188-94bf-0f61c0fbf376.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_AUDIO_CONTROL
 ---
 
-# _CDROM_AUDIO_CONTROL structure
+# CDROM_AUDIO_CONTROL structure (ntddcdrm.h)
+
+
 
 
 ## -description

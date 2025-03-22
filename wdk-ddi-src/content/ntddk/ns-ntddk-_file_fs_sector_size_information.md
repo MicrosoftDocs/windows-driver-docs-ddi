@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_FS_SECTOR_SIZE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION, FILE_FS_SECTOR_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SECTOR_SIZE_INFORMATION, PFILE_FS_SECTOR_SIZE_INFORMATION structure pointer [Installable File System Drivers], SSINFO_FLAGS_ALIGNED_DEVICE, SSINFO_FLAGS_NO_SEEK_PENALTY, SSINFO_FLAGS_PARTITION_ALIGNED_ON_DEVICE, _FILE_FS_SECTOR_SIZE_INFORMATION, ifsk.file_fs_sector_size_information, ntddk/FILE_FS_SECTOR_SIZE_INFORMATION, ntddk/PFILE_FS_SECTOR_SIZE_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Windows 7.
@@ -46,7 +47,9 @@ api_name:
  - FILE_FS_SECTOR_SIZE_INFORMATION
 ---
 
-# _FILE_FS_SECTOR_SIZE_INFORMATION structure
+# FILE_FS_SECTOR_SIZE_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

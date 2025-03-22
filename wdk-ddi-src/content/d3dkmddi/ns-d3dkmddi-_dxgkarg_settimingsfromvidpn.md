@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_SETTIMINGSFROMVIDPN structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN, DXGKARG_SETTIMINGSFROMVIDPN structure [Display Devices], PDXGKARG_SETTIMINGSFROMVIDPN, PDXGKARG_SETTIMINGSFROMVIDPN structure pointer [Display Devices], _DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/DXGKARG_SETTIMINGSFROMVIDPN, d3dkmddi/PDXGKARG_SETTIMINGSFROMVIDPN, display.dxgkarg_settimingsfromvidpn"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_SETTIMINGSFROMVIDPN
 ---
 
-# _DXGKARG_SETTIMINGSFROMVIDPN structure
+# DXGKARG_SETTIMINGSFROMVIDPN structure (d3dkmddi.h)
+
+
 
 
 ## -description

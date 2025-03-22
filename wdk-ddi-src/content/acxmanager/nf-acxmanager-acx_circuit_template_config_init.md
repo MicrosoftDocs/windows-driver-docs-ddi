@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CIRCUIT_TEMPLATE_CONFIG_INIT function (acxmanager.h)
+
 ## -description
 
 The **ACX_CIRCUIT_TEMPLATE_CONFIG_INIT** function initializes an [ACX_CIRCUIT_TEMPLATE_CONFIG](ns-acxmanager-acx_circuit_template_config.md) structure.

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_ERROR_SOURCE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_ERROR_SOURCE_DESCRIPTOR, PWHEA_ERROR_SOURCE_DESCRIPTOR, PWHEA_ERROR_SOURCE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_DESCRIPTOR, WHEA_ERROR_SOURCE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_ERROR_SOURCE_DESCRIPTOR, ntddk/PWHEA_ERROR_SOURCE_DESCRIPTOR, ntddk/WHEA_ERROR_SOURCE_DESCRIPTOR, whea.whea_error_source_descriptor, whearef_eb6a1167-cf15-4a53-b885-c3d5c4353510.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -47,7 +48,9 @@ api_name:
  - WHEA_ERROR_SOURCE_DESCRIPTOR
 ---
 
-# _WHEA_ERROR_SOURCE_DESCRIPTOR structure
+# WHEA_ERROR_SOURCE_DESCRIPTOR structure (ntddk.h)
+
+
 
 
 ## -description

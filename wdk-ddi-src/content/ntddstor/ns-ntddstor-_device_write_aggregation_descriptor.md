@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR, DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure [Storage Devices], PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, PDEVICE_WRITE_AGGREGATION_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/DEVICE_WRITE_AGGREGATION_DESCRIPTOR, ntddstor/PDEVICE_WRITE_AGGREGATION_DESCRIPTOR, storage.device_write_aggregation_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_WRITE_AGGREGATION_DESCRIPTOR
 ---
 
-# _DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure
+# DEVICE_WRITE_AGGREGATION_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

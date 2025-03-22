@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_AVAILABLE_FREQUENCY_LIST structure"]
 ms.keywords: "*PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, PDOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_AVAILABLE_FREQUENCY_LIST, netvista.dot11_available_frequency_list, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_AVAILABLE_FREQUENCY_LIST
 ---
 
-# _DOT11_AVAILABLE_FREQUENCY_LIST structure
+# DOT11_AVAILABLE_FREQUENCY_LIST structure (windot11.h)
+
+
 
 
 ## -description

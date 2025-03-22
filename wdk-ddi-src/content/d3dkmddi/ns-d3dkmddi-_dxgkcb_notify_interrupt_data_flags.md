@@ -5,6 +5,7 @@ description: Learn more about the DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure.
 ms.date: 03/28/2024
 keywords: ["DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -41,7 +42,9 @@ api_name:
  - DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS
 ---
 
-# DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure
+# DXGKCB_NOTIFY_INTERRUPT_DATA_FLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_SETPOINTERPOSITION structure"]
 ms.keywords: DXGKARG_SETPOINTERPOSITION, DXGKARG_SETPOINTERPOSITION structure [Display Devices], DmStructs_2a671f7f-7750-4edb-bf07-7e823ddd309f.xml, _DXGKARG_SETPOINTERPOSITION, d3dkmddi/DXGKARG_SETPOINTERPOSITION, display.dxgkarg_setpointerposition
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_SETPOINTERPOSITION
 ---
 
-# _DXGKARG_SETPOINTERPOSITION structure
+# DXGKARG_SETPOINTERPOSITION structure (d3dkmddi.h)
+
+
 
 
 ## -description

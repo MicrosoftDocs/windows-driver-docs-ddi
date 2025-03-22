@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_TEMPERATURE_INFO structure"]
 ms.keywords: "*PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO, PSTORAGE_TEMPERATURE_INFO structure pointer [Storage Devices], STORAGE_TEMPERATURE_INFO, STORAGE_TEMPERATURE_INFO structure [Storage Devices], _STORAGE_TEMPERATURE_INFO, ntddstor/PSTORAGE_TEMPERATURE_INFO, ntddstor/STORAGE_TEMPERATURE_INFO, storage.storage_temperature_info"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_TEMPERATURE_INFO
 ---
 
-# _STORAGE_TEMPERATURE_INFO structure
+# STORAGE_TEMPERATURE_INFO structure (ntddstor.h)
+
+
 
 
 ## -description

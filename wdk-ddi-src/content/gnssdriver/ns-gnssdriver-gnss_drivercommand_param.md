@@ -7,6 +7,7 @@ ms.date: 06/20/2022
 keywords: ["GNSS_DRIVERCOMMAND_PARAM structure"]
 ms.keywords: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], PGNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnss.gnss_drivercommand_param, gnssdriver/GNSS_DRIVERCOMMAND_PARAM, gnssdriver/PGNSS_DRIVERCOMMAND_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_DRIVERCOMMAND_PARAM
  - GNSS_DRIVERCOMMAND_PARAM
 ---
+
+# GNSS_DRIVERCOMMAND_PARAM structure (gnssdriver.h)
 
 ## -description
 

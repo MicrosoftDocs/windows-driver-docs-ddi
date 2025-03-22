@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_PREEMPTCOMMAND structure"]
 ms.keywords: DXGKARG_PREEMPTCOMMAND, DXGKARG_PREEMPTCOMMAND structure [Display Devices], DmStructs_2564ca47-8304-4a95-a408-2e5ccca7353d.xml, _DXGKARG_PREEMPTCOMMAND, d3dkmddi/DXGKARG_PREEMPTCOMMAND, display.dxgkarg_preemptcommand
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_PREEMPTCOMMAND
 ---
 
-# _DXGKARG_PREEMPTCOMMAND structure
+# DXGKARG_PREEMPTCOMMAND structure (d3dkmddi.h)
+
+
 
 
 ## -description

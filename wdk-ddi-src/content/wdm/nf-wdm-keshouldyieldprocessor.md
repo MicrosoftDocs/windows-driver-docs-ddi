@@ -40,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# KeShouldYieldProcessor function
+# KeShouldYieldProcessor function (wdm.h)
+
+
 
 
 ## -description

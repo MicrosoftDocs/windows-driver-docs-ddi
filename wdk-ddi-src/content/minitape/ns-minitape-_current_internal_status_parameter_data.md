@@ -7,6 +7,7 @@ tech.root: storage
 keywords: ["CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]
 ms.keywords: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA, CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA,
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 ---
 
-# _CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure (minitape.h)
+# CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure (minitape.h)
+
+
 
 
 ## -description

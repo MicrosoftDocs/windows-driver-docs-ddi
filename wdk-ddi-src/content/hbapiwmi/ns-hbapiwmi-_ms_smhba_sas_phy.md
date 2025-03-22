@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MS_SMHBA_SAS_PHY structure"]
 ms.keywords: "*PMS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY, MS_SMHBA_SAS_PHY structure [Storage Devices], PMS_SMHBA_SAS_PHY, PMS_SMHBA_SAS_PHY structure pointer [Storage Devices], _MS_SMHBA_SAS_PHY, hbapiwmi/MS_SMHBA_SAS_PHY, hbapiwmi/PMS_SMHBA_SAS_PHY, storage.ms_smhba_sas_phy, structs-Fibre_2ff7917d-a369-4cc9-ab8e-c774f63761a7.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MS_SMHBA_SAS_PHY
 ---
 
-# _MS_SMHBA_SAS_PHY structure
+# MS_SMHBA_SAS_PHY structure (hbapiwmi.h)
+
+
 
 
 ## -description

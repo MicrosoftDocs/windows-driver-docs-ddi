@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSHANDSHAKE structure"]
 ms.keywords: "*PKSHANDSHAKE, KSHANDSHAKE, KSHANDSHAKE structure [Streaming Media Devices], PKSHANDSHAKE, PKSHANDSHAKE structure pointer [Streaming Media Devices], avstruct_65ba3a40-5560-4acb-bf85-90fa9ad46fc1.xml, ks/KSHANDSHAKE, ks/PKSHANDSHAKE, stream.kshandshake"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -43,7 +44,9 @@ api_name:
  - KSHANDSHAKE
 ---
 
-# KSHANDSHAKE structure
+# KSHANDSHAKE structure (ks.h)
+
+
 
 
 ## -description

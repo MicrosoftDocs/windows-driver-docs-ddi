@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSATTRIBUTE structure"]
 ms.keywords: "*PKSATTRIBUTE, KSATTRIBUTE, KSATTRIBUTE structure [Streaming Media Devices], PKSATTRIBUTE, PKSATTRIBUTE structure pointer [Streaming Media Devices], ks-struct_02cb064e-813f-4d67-8cf3-a33e05af7421.xml, ks/KSATTRIBUTE, ks/PKSATTRIBUTE, stream.ksattribute"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSATTRIBUTE
 ---
 
-# KSATTRIBUTE structure
+# KSATTRIBUTE structure (ks.h)
+
+
 
 
 ## -description

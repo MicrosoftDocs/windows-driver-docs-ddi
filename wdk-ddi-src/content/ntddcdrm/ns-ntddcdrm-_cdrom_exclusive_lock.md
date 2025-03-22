@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_EXCLUSIVE_LOCK structure"]
 ms.keywords: "*PCDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK, CDROM_EXCLUSIVE_LOCK structure [Storage Devices], PCDROM_EXCLUSIVE_LOCK, PCDROM_EXCLUSIVE_LOCK structure pointer [Storage Devices], _CDROM_EXCLUSIVE_LOCK, ntddcdrm/CDROM_EXCLUSIVE_LOCK, ntddcdrm/PCDROM_EXCLUSIVE_LOCK, storage.cdrom_exclusive_lock, structs-CD-ROM_98cdead9-8c28-497a-9ba3-f686e87554ea.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_EXCLUSIVE_LOCK
 ---
 
-# _CDROM_EXCLUSIVE_LOCK structure
+# CDROM_EXCLUSIVE_LOCK structure (ntddcdrm.h)
+
+
 
 
 ## -description

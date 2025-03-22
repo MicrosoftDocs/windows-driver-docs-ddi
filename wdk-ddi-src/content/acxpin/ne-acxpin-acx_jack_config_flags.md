@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CONFIG_FLAGS enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CONFIG_FLAGS** enumeration is used to describe the properties of a physical jack to an audio class extension (ACX).

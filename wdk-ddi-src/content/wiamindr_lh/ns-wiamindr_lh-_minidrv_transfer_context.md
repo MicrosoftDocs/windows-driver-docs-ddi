@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["MINIDRV_TRANSFER_CONTEXT structure"]
 ms.keywords: "*PMINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT, MINIDRV_TRANSFER_CONTEXT structure [Imaging Devices], PMINIDRV_TRANSFER_CONTEXT, PMINIDRV_TRANSFER_CONTEXT structure pointer [Imaging Devices], _MINIDRV_TRANSFER_CONTEXT, image.minidrv_transfer_context, wiamindr_lh/MINIDRV_TRANSFER_CONTEXT, wiamindr_lh/PMINIDRV_TRANSFER_CONTEXT, wiastrct_36e477d2-73a8-41b7-af46-82fb7c6f0bca.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MINIDRV_TRANSFER_CONTEXT
 ---
 
-# _MINIDRV_TRANSFER_CONTEXT structure
+# MINIDRV_TRANSFER_CONTEXT structure (wiamindr_lh.h)
+
+
 
 
 ## -description

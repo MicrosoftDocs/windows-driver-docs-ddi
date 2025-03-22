@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIEW_INSTANCE_LOCATION structure"]
 ms.keywords: D3D12DDI_VIEW_INSTANCE_LOCATION, D3D12DDI_VIEW_INSTANCE_LOCATION structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCE_LOCATION, display.d3d12ddi-view-instance-location
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIEW_INSTANCE_LOCATION
 ---
 
-# D3D12DDI_VIEW_INSTANCE_LOCATION structure
+# D3D12DDI_VIEW_INSTANCE_LOCATION structure (d3d12umddi.h)
+
+
 
 
 ## -description

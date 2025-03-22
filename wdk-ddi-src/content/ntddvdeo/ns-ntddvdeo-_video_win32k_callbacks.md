@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_WIN32K_CALLBACKS structure"]
 ms.keywords: "*PVIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS structure pointer [Display Devices], VIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS structure [Display Devices], Video_Structs_3c169102-2431-4217-b9e2-80ef23ee8096.xml, _VIDEO_WIN32K_CALLBACKS, display.video_win32k_callbacks, ntddvdeo/PVIDEO_WIN32K_CALLBACKS, ntddvdeo/VIDEO_WIN32K_CALLBACKS"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_WIN32K_CALLBACKS
 ---
 
-# _VIDEO_WIN32K_CALLBACKS structure
+# VIDEO_WIN32K_CALLBACKS structure (ntddvdeo.h)
+
+
 
 
 ## -description

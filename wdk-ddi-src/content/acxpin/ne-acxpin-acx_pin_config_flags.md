@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PIN_CONFIG_FLAGS enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_CONFIG_FLAGS** enumeration specifies pin configuration settings used in the ACX_PIN_CONFIG structure.

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WINBIO_BIR_HEADER structure"]
 ms.keywords: "*PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], WINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], _WINBIO_BIR_HEADER, biometric.winbio_bir_header, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, winbio_types/PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER"
 req.header: winbio_types.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -43,7 +44,9 @@ api_name:
  - WINBIO_BIR_HEADER
 ---
 
-# _WINBIO_BIR_HEADER structure
+# WINBIO_BIR_HEADER structure (winbio_types.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure"]
 ms.keywords: "*PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure [Streaming Media Devices], PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, ksmedia/PKSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S, stream.ksproperty_videocontrol_actual_frame_rate_s, vidcapstruct_7ae44134-3ba1-4419-9290-c305f345e29c.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S
 ---
 
-# KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure
+# KSPROPERTY_VIDEOCONTROL_ACTUAL_FRAME_RATE_S structure (ksmedia.h)
+
+
 
 
 ## -description

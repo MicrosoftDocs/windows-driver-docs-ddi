@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_PATCHLOCATIONLIST structure"]
 ms.keywords: D3DDDI_PATCHLOCATIONLIST, D3DDDI_PATCHLOCATIONLIST structure [Display Devices], D3D_other_Structs_30473342-0122-445f-81c0-9cf5c62c771e.xml, _D3DDDI_PATCHLOCATIONLIST, d3dukmdt/D3DDDI_PATCHLOCATIONLIST, display.d3dddi_patchlocationlist
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_PATCHLOCATIONLIST
 ---
 
-# _D3DDDI_PATCHLOCATIONLIST structure
+# D3DDDI_PATCHLOCATIONLIST structure (d3dukmdt.h)
+
+
 
 
 ## -description

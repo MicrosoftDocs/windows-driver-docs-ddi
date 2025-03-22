@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_ADAPTER_INFORMATION structure"]
 ms.keywords: "*PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION structure [Storage Devices], PMPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], _MPIO_ADAPTER_INFORMATION, mpiowmi/MPIO_ADAPTER_INFORMATION, mpiowmi/PMPIO_ADAPTER_INFORMATION, storage.mpio_adapter_information, structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIO_ADAPTER_INFORMATION
 ---
 
-# _MPIO_ADAPTER_INFORMATION structure
+# MPIO_ADAPTER_INFORMATION structure (mpiowmi.h)
+
+
 
 
 ## -description

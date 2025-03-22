@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_SET_TIMING_FLAGS structure"]
 ms.keywords: DXGK_SET_TIMING_FLAGS, DXGK_SET_TIMING_FLAGS structure [Display Devices], PDXGK_SET_TIMING_FLAGS, PDXGK_SET_TIMING_FLAGS structure pointer [Display Devices], _DXGK_SET_TIMING_FLAGS, d3dkmddi/DXGK_SET_TIMING_FLAGS, d3dkmddi/PDXGK_SET_TIMING_FLAGS, display.dxgk_set_timing_flags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_SET_TIMING_FLAGS
 ---
 
-# _DXGK_SET_TIMING_FLAGS structure
+# DXGK_SET_TIMING_FLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

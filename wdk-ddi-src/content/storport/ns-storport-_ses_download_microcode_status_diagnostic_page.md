@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE, storage.ses_download_microcode_status_diagnostic_page"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE
 ---
 
-# _SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure (storport.h)
+# SES_DOWNLOAD_MICROCODE_STATUS_DIAGNOSTIC_PAGE structure (storport.h)
+
+
 
 
 ## -description

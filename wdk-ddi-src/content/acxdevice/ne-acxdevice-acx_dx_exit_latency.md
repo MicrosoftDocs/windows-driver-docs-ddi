@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DX_EXIT_LATENCY enumeration (acxdevice.h)
+
 ## -description
 
 The **ACX_DX_EXIT_LATENCY** enum defines values that specify an ACX device's sleep state exit latency.

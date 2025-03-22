@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetFcpPersistentBinding_IN structure"]
 ms.keywords: "*PGetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN, GetFcpPersistentBinding_IN structure [Storage Devices], PGetFcpPersistentBinding_IN, PGetFcpPersistentBinding_IN structure pointer [Storage Devices], _GetFcpPersistentBinding_IN, hbapiwmi/GetFcpPersistentBinding_IN, hbapiwmi/PGetFcpPersistentBinding_IN, storage.getfcppersistentbinding_in, structs-Fibre_34b0e554-331b-4f99-ae8e-5c2e9855b641.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetFcpPersistentBinding_IN
 ---
 
-# _GetFcpPersistentBinding_IN structure
+# GetFcpPersistentBinding_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

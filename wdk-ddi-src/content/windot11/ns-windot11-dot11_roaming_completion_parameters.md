@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_ROAMING_COMPLETION_PARAMETERS structure"]
 ms.keywords: "*PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_roaming_completion_parameters, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_ROAMING_COMPLETION_PARAMETERS
 ---
 
-# DOT11_ROAMING_COMPLETION_PARAMETERS structure
+# DOT11_ROAMING_COMPLETION_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

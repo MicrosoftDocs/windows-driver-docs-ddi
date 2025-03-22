@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PPM_RESUME_FROM_SYSTEM_STATE structure"]
 ms.keywords: "*PPEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE, PEP_PPM_RESUME_FROM_SYSTEM_STATE structure [Kernel-Mode Driver Architecture], _PEP_PPM_RESUME_FROM_SYSTEM_STATE, kernel.pep_ppm_resume_from_system_state, pepfx/PEP_PPM_RESUME_FROM_SYSTEM_STATE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - PEP_PPM_RESUME_FROM_SYSTEM_STATE
 ---
 
-# _PEP_PPM_RESUME_FROM_SYSTEM_STATE structure (pepfx.h)
+# PEP_PPM_RESUME_FROM_SYSTEM_STATE structure (pepfx.h)
+
+
 
 
 ## -description

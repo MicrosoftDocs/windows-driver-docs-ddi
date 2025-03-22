@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAM_BRIDGE_CONFIG_INIT function (acxstreams.h)
+
 ## -description
 
 The **ACX_STREAM_BRIDGE_CONFIG_INIT** function initializes an [ACX_STREAM_BRIDGE_CONFIG](ns-acxstreams-acx_stream_bridge_config.md) structure.

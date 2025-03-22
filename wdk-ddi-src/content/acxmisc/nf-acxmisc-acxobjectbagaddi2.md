@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddI2 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddI2 function adds an int two byte I2 (SHORT) value to an existing, initialized AcxObjectBag.

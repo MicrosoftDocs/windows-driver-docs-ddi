@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["MSR_UPDATE_KEY structure"]
 ms.keywords: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY, MSR_UPDATE_KEY structure, PMSR_UPDATE_KEY, PMSR_UPDATE_KEY structure pointer, _MSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, pointofservicedriverinterface/PMSR_UPDATE_KEY, pos.msr_update_key"
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PMSR_UPDATE_KEY
  - MSR_UPDATE_KEY
 ---
+
+# MSR_UPDATE_KEY structure (pointofservicedriverinterface.h)
 
 ## -description
 

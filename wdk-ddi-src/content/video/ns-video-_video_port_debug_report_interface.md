@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["VIDEO_PORT_DEBUG_REPORT_INTERFACE structure"]
 ms.keywords: PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure, Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP SP2
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_PORT_DEBUG_REPORT_INTERFACE
 ---
 
-# VIDEO_PORT_DEBUG_REPORT_INTERFACE structure
+# VIDEO_PORT_DEBUG_REPORT_INTERFACE structure (video.h)
+
+
 
 ## -description
 

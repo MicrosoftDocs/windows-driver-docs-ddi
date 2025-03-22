@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure"]
 ms.keywords: "*PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure pointer [Near-Field Proximity Drivers], SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, nfcsedev/PSECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, nfcsedev/SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO, nfpdrivers.secure_element_set_card_emulation_mode_info"
 req.header: nfcsedev.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO
 ---
 
-# _SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure
+# SECURE_ELEMENT_SET_CARD_EMULATION_MODE_INFO structure (nfcsedev.h)
+
+
 
 
 ## -description

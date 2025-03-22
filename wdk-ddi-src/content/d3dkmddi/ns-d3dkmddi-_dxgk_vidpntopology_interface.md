@@ -7,6 +7,7 @@ ms.date: 10/30/2018
 keywords: ["DXGK_VIDPNTOPOLOGY_INTERFACE structure"]
 ms.keywords: DXGK_VIDPNTOPOLOGY_INTERFACE, DXGK_VIDPNTOPOLOGY_INTERFACE structure [Display Devices], DmStructs_6e2f92a1-beaa-4485-bb27-aff719a693b4.xml, _DXGK_VIDPNTOPOLOGY_INTERFACE, d3dkmddi/DXGK_VIDPNTOPOLOGY_INTERFACE, display.dxgk_vidpntopology_interface
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_VIDPNTOPOLOGY_INTERFACE
 ---
 
-# _DXGK_VIDPNTOPOLOGY_INTERFACE structure
+# DXGK_VIDPNTOPOLOGY_INTERFACE structure (d3dkmddi.h)
+
+
 
 
 ## -description

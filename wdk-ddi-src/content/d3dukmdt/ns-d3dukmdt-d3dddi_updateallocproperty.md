@@ -7,6 +7,7 @@ ms.date: 10/04/2023
 keywords: ["D3DDDI_UPDATEALLOCPROPERTY structure"]
 ms.keywords: D3DDDI_UPDATEALLOCPROPERTY, D3DDDI_UPDATEALLOCPROPERTY structure [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY, display.d3dddi_updateallocproperty
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - D3DDDI_UPDATEALLOCPROPERTY
 ---
 
-# D3DDDI_UPDATEALLOCPROPERTY structure
+# D3DDDI_UPDATEALLOCPROPERTY structure (d3dukmdt.h)
+
+
 
 ## -description
 

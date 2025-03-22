@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CALLBACKS structure (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CALLBACKS** structure specifies audio jack event callback functions.

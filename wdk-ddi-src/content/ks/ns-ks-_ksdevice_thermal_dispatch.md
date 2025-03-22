@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSDEVICE_THERMAL_DISPATCH structure"]
 ms.keywords: "*PKSDEVICE_THERMAL_DISPATCH, DeviceThermalState, Engaged, KSDEVICE_THERMAL_DISPATCH, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], KsDevice, PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], Percentage, _KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, ks/PKSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSDEVICE_THERMAL_DISPATCH
 ---
 
-# _KSDEVICE_THERMAL_DISPATCH structure
+# KSDEVICE_THERMAL_DISPATCH structure (ks.h)
+
+
 
 
 ## -description

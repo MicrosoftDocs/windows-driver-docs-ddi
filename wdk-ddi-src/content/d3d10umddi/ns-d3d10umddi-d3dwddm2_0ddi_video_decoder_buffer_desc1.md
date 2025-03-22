@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1, display.d3dwddm2_0ddi_video_decoder_buffer_desc1
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1
 ---
 
-# D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure
+# D3DWDDM2_0DDI_VIDEO_DECODER_BUFFER_DESC1 structure (d3d10umddi.h)
+
+
 
 
 ## -description

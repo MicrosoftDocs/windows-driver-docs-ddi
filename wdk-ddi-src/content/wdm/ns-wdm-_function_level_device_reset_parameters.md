@@ -7,6 +7,7 @@ ms.date: 06/06/2022
 keywords: ["FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure"]
 ms.keywords: "*PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure [Kernel-Mode Driver Architecture], PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, kernel.function_level_device_reset_parameters, wdm/FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS, wdm/PFUNCTION_LEVEL_DEVICE_RESET_PARAMETERS"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS
 ---
 
-# _FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure
+# FUNCTION_LEVEL_DEVICE_RESET_PARAMETERS structure (wdm.h)
+
+
 
 ## -description
 

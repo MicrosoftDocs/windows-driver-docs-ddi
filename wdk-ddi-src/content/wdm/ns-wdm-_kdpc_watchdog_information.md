@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KDPC_WATCHDOG_INFORMATION structure"]
 ms.keywords: "*PKDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture], PKDPC_WATCHDOG_INFORMATION, PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KDPC_WATCHDOG_INFORMATION, kernel.dpc_watchdog_information, kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, wdm/KDPC_WATCHDOG_INFORMATION, wdm/PKDPC_WATCHDOG_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - KDPC_WATCHDOG_INFORMATION
 ---
 
-# _KDPC_WATCHDOG_INFORMATION structure
+# KDPC_WATCHDOG_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

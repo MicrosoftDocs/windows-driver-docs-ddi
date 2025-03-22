@@ -8,6 +8,7 @@ ms.date: 05/14/2020
 keywords: ["tagKSCAMERA_EXTENDEDPROP_HEADER structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_CAPS_ASYNCCONTROL, KSCAMERA_EXTENDEDPROP_CAPS_CANCELLABLE, KSCAMERA_EXTENDEDPROP_HEADER, KSCAMERA_EXTENDEDPROP_HEADER structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_HEADER, PKSCAMERA_EXTENDEDPROP_HEADER structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_HEADER, ksmedia/PKSCAMERA_EXTENDEDPROP_HEADER, stream.kscamera_extendedprop_header, tagKSCAMERA_EXTENDEDPROP_HEADER"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_HEADER
 ---
 
-# tagKSCAMERA_EXTENDEDPROP_HEADER structure
+# tagKSCAMERA_EXTENDEDPROP_HEADER structure (ksmedia.h)
+
+
 
 
 ## -description

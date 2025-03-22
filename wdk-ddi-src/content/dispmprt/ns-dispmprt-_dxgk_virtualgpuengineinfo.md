@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUENGINEINFO structure"]
 ms.keywords: _DXGK_VIRTUALGPUENGINEINFO, DXGK_VIRTUALGPUENGINEINFO, *PDXGK_VIRTUALGPUENGINEINFO,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VIRTUALGPUENGINEINFO structure
+# DXGK_VIRTUALGPUENGINEINFO structure (dispmprt.h)
+
+
 
 
 ## -description

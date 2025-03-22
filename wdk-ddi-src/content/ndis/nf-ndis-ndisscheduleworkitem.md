@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisScheduleWorkItem
 ---
 
-# NdisScheduleWorkItem callback function
+# NdisScheduleWorkItem function (ndis.h)
+
+ function
 
 ## -description
 

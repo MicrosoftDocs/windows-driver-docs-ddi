@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamCreate function (acxstreams.h)
+
 ## -description
 
 **AcxStreamCreate** creates an ACX Stream that can be used to control streaming behavior.

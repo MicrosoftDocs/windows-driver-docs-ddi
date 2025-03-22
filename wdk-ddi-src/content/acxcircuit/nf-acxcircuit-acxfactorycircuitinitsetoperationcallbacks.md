@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitSetOperationCallbacks function (acxcircuit.h)
+
 ## -description
 
 The **AcxFactoryCircuitInitSetOperationCallbacks** sets the driver factory operation callbacks for the ACXFACTORYCIRCUIT.

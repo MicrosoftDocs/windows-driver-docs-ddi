@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["IPPARAMS structure"]
 ms.keywords: "*PIPPARAMS, IPPARAMS, IPPARAMS structure [Print Devices], PIPPARAMS, PIPPARAMS structure pointer [Print Devices], print.ipparams, print_unidrv-pscript_rendering_a002bc49-f3de-4147-bb33-8766672c8d0c.xml, printoem/IPPARAMS, printoem/PIPPARAMS"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PIPPARAMS
  - IPPARAMS
 ---
+
+# IPPARAMS structure (printoem.h)
 
 ## -description
 

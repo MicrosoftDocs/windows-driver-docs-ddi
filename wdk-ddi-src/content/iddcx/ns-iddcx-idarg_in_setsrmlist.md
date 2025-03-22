@@ -35,7 +35,9 @@ dev_langs:
  - c++
 ---
 
-# IDARG_IN_SETSRMLIST structure
+# IDARG_IN_SETSRMLIST structure (iddcx.h)
+
+
 
 
 ## -description

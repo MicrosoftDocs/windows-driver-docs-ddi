@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["PDOSCSI_ADDR structure"]
 ms.keywords: "*PPDOSCSI_ADDR, PDOSCSI_ADDR, PDOSCSI_ADDR structure [Storage Devices], PPDOSCSI_ADDR, PPDOSCSI_ADDR structure pointer [Storage Devices], _PDOSCSI_ADDR, mpiodisk/PDOSCSI_ADDR, mpiodisk/PPDOSCSI_ADDR, storage.pdoscsi_addr, structs-scsibus_4875cdbd-eeff-447f-b682-a2ab41196146.xml"
 req.header: mpiodisk.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PDOSCSI_ADDR
 ---
 
-# _PDOSCSI_ADDR structure
+# PDOSCSI_ADDR structure (mpiodisk.h)
+
+
 
 
 ## -description

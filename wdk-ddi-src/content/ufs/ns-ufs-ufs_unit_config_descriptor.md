@@ -8,6 +8,7 @@ ms.date: 03/07/2024
 keywords: ["UFS_UNIT_CONFIG_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR"
 req.header: ufs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -43,7 +44,9 @@ api_name:
  - UFS_UNIT_CONFIG_DESCRIPTOR
 ---
 
-# UFS_UNIT_CONFIG_DESCRIPTOR structure
+# UFS_UNIT_CONFIG_DESCRIPTOR structure (ufs.h)
+
+
 
 ## -description
 

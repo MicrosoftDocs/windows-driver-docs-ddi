@@ -6,6 +6,7 @@ ms.date: 07/02/2024
 keywords: ["D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 structure"]
 ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 structure
+# D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 structure (d3d12umddi.h)
+
+
 
 ## -description
 

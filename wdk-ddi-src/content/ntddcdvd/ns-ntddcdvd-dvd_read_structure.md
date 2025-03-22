@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_READ_STRUCTURE structure"]
 ms.keywords: "*PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], ntddcdvd/DVD_READ_STRUCTURE, ntddcdvd/PDVD_READ_STRUCTURE, storage.dvd_read_structure, structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PDVD_READ_STRUCTURE
 ---
 
-# DVD_READ_STRUCTURE structure
+# DVD_READ_STRUCTURE structure (ntddcdvd.h)
+
+
 
 
 ## -description

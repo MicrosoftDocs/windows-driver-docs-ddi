@@ -8,6 +8,7 @@ ms.date: 09/24/2020
 keywords: ["GPIO_ENABLE_INTERRUPT_PARAMETERS structure"]
 ms.keywords: "*PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters, GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], PGPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], _GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_ENABLE_INTERRUPT_PARAMETERS
 ---
 
-# _GPIO_ENABLE_INTERRUPT_PARAMETERS structure
+# GPIO_ENABLE_INTERRUPT_PARAMETERS structure (gpioclx.h)
+
+
 
 
 ## -description

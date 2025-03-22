@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_SELECT_INTERFACE structure"]
 ms.keywords: "_URB_SELECT_INTERFACE, _URB_SELECT_INTERFACE structure [Buses], buses._urb_select_interface, usb/_URB_SELECT_INTERFACE, usbstrct_c23c108d-422b-4dee-a1de-a5e341fc1800.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_SELECT_INTERFACE
 ---
 
-# _URB_SELECT_INTERFACE structure
+# _URB_SELECT_INTERFACE structure (usb.h)
+
+
 
 
 ## -description

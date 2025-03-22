@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_UMTS_MRL structure"]
 ms.keywords: "*PWWAN_UMTS_MRL, PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_MRL, netvista.wwan_umts_mrl, wwan/PWWAN_UMTS_MRL, wwan/WWAN_UMTS_MRL"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_UMTS_MRL
 ---
 
-# _WWAN_UMTS_MRL structure
+# WWAN_UMTS_MRL structure (wwan.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2019
 keywords: ["KBUGCHECK_SECONDARY_DUMP_DATA structure"]
 ms.keywords: "*PKBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA, KBUGCHECK_SECONDARY_DUMP_DATA structure [Kernel-Mode Driver Architecture], PKBUGCHECK_SECONDARY_DUMP_DATA, PKBUGCHECK_SECONDARY_DUMP_DATA structure pointer [Kernel-Mode Driver Architecture], _KBUGCHECK_SECONDARY_DUMP_DATA, kernel.kbugcheck_secondary_dump_data, kstruct_c_a9e0d726-41eb-4cf2-b2d4-c977be8750bb.xml, wdm/KBUGCHECK_SECONDARY_DUMP_DATA, wdm/PKBUGCHECK_SECONDARY_DUMP_DATA"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows XP with Service Pack 1 (SP1), Windows Server 2003, and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - KBUGCHECK_SECONDARY_DUMP_DATA
 ---
 
-# _KBUGCHECK_SECONDARY_DUMP_DATA structure
+# KBUGCHECK_SECONDARY_DUMP_DATA structure (wdm.h)
+
+
 
 
 ## -description

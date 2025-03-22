@@ -7,6 +7,7 @@ ms.date: 11/21/2018
 keywords: ["D3DKMT_CLOSEADAPTER structure"]
 ms.keywords: D3DKMT_CLOSEADAPTER, D3DKMT_CLOSEADAPTER structure [Display Devices], OpenGL_Structs_578046d6-1625-4485-b43c-16ce2b7e812c.xml, _D3DKMT_CLOSEADAPTER, d3dkmthk/D3DKMT_CLOSEADAPTER, display.d3dkmt_closeadapter
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CLOSEADAPTER
 ---
 
-# _D3DKMT_CLOSEADAPTER structure
+# D3DKMT_CLOSEADAPTER structure (d3dkmthk.h)
+
+
 
 
 ## -description

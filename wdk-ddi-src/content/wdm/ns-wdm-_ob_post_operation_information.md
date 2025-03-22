@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OB_POST_OPERATION_INFORMATION structure"]
 ms.keywords: "*POB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION, OB_POST_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_POST_OPERATION_INFORMATION, POB_POST_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_INFORMATION, kernel.ob_post_operation_information, kstruct_c_6ef8c6e1-d537-47e0-875f-08f884362459.xml, wdm/OB_POST_OPERATION_INFORMATION, wdm/POB_POST_OPERATION_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2008 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - OB_POST_OPERATION_INFORMATION
 ---
 
-# _OB_POST_OPERATION_INFORMATION structure
+# OB_POST_OPERATION_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

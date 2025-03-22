@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["GAMMA_RAMP_DXGI_1 structure"]
 ms.keywords: GAMMA_RAMP_DXGI_1, GAMMA_RAMP_DXGI_1,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# GAMMA_RAMP_DXGI_1 structure
+# GAMMA_RAMP_DXGI_1 structure (ntddvdeo.h)
+
+
 
 
 ## -description

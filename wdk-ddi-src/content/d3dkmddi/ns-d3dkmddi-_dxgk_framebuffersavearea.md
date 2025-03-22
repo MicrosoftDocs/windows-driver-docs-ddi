@@ -6,6 +6,7 @@ ms.date: 07/22/2021
 keywords: ["DXGK_FRAMEBUFFERSAVEAREA structure"]
 ms.keywords: _DXGK_FRAMEBUFFERSAVEAREA, DXGK_FRAMEBUFFERSAVEAREA,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -36,7 +37,9 @@ api_name:
  - DXGK_FRAMEBUFFERSAVEAREA
 ---
 
-# DXGK_FRAMEBUFFERSAVEAREA structure
+# DXGK_FRAMEBUFFERSAVEAREA structure (d3dkmddi.h)
+
+
 
 ## -description
 

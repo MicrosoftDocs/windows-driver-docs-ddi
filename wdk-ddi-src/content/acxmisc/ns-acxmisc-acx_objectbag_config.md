@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_OBJECTBAG_CONFIG structure (acxmisc.h)
+
 ## -description
 
 The ACX_OBJECTBAG_CONFIG structure defines the configuration for an AcxObjectBag.

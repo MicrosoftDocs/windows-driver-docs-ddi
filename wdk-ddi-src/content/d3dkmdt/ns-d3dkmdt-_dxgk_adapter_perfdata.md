@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_ADAPTER_PERFDATA structure"]
 ms.keywords: _DXGK_ADAPTER_PERFDATA, DXGK_ADAPTER_PERFDATA,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_ADAPTER_PERFDATA
 ---
 
-# _DXGK_ADAPTER_PERFDATA structure
+# DXGK_ADAPTER_PERFDATA structure (d3dkmdt.h)
+
+
 
 
 ## -description

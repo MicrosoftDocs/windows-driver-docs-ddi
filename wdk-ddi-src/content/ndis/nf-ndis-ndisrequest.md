@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisRequest
 ---
 
-# NdisRequest function
+# NdisRequest function (ndis.h)
+
+
 
 ## -description
 

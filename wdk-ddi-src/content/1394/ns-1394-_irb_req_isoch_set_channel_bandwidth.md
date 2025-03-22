@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IEEE.irb_req_isoch_set_channel_bandwidth, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH, IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure [Buses], _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH
 ---
 
-# _IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure
+# IRB_REQ_ISOCH_SET_CHANNEL_BANDWIDTH structure (1394.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRANSACTIONMANAGER_LOGPATH_INFORMATION structure"]
 ms.keywords: "*PTRANSACTIONMANAGER_LOGPATH_INFORMATION, PTRANSACTIONMANAGER_LOGPATH_INFORMATION, PTRANSACTIONMANAGER_LOGPATH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_LOGPATH_INFORMATION, TRANSACTIONMANAGER_LOGPATH_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_LOGPATH_INFORMATION, kernel.transactionmanager_logpath_information, ktm_ref_2e3d26b5-525c-4953-a871-7eb6535d926e.xml, wdm/PTRANSACTIONMANAGER_LOGPATH_INFORMATION, wdm/TRANSACTIONMANAGER_LOGPATH_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -46,7 +47,9 @@ api_name:
  - TRANSACTIONMANAGER_LOGPATH_INFORMATION
 ---
 
-# _TRANSACTIONMANAGER_LOGPATH_INFORMATION structure
+# TRANSACTIONMANAGER_LOGPATH_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

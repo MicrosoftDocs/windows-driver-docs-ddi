@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSDRMAUDIOSTREAM_CONTENTID structure"]
 ms.keywords: "*PKSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID, KSDRMAUDIOSTREAM_CONTENTID structure [Audio Devices], PKSDRMAUDIOSTREAM_CONTENTID, PKSDRMAUDIOSTREAM_CONTENTID structure pointer [Audio Devices], aud-prop_451e4ef3-53c7-4be2-a59c-efd34633c007.xml, audio.ksdrmaudiostream_contentid, drmk/KSDRMAUDIOSTREAM_CONTENTID, drmk/PKSDRMAUDIOSTREAM_CONTENTID"
 req.header: drmk.h
+req.construct-type: structure
 req.include-header: Drmk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDRMAUDIOSTREAM_CONTENTID
 ---
 
-# KSDRMAUDIOSTREAM_CONTENTID structure
+# KSDRMAUDIOSTREAM_CONTENTID structure (drmk.h)
+
+
 
 
 ## -description

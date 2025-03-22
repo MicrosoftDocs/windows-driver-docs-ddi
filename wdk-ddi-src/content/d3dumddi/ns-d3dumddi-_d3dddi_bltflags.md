@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_BLTFLAGS structure"]
 ms.keywords: D3DDDI_BLTFLAGS, D3DDDI_BLTFLAGS structure [Display Devices], D3D_other_Structs_8d70fa64-3813-4165-a64d-4e91287e05d5.xml, _D3DDDI_BLTFLAGS, d3dumddi/D3DDDI_BLTFLAGS, display.d3dddi_bltflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_BLTFLAGS
 ---
 
-# _D3DDDI_BLTFLAGS structure
+# D3DDDI_BLTFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

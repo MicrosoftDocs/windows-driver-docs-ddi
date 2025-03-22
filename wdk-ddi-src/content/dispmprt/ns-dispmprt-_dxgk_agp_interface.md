@@ -8,6 +8,7 @@ ms.date: 11/19/2021
 keywords: ["DXGK_AGP_INTERFACE structure"]
 ms.keywords: "*PDXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE, DXGK_AGP_INTERFACE structure [Display Devices], DmStructs_787b846e-2c2b-4fba-aa99-979a195c4305.xml, PDXGK_AGP_INTERFACE, PDXGK_AGP_INTERFACE structure pointer [Display Devices], _DXGK_AGP_INTERFACE, display.dxgk_agp_interface, dispmprt/DXGK_AGP_INTERFACE, dispmprt/PDXGK_AGP_INTERFACE"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGK_AGP_INTERFACE
 ---
 
-# DXGK_AGP_INTERFACE structure
+# DXGK_AGP_INTERFACE structure (dispmprt.h)
+
+
 
 ## -description
 

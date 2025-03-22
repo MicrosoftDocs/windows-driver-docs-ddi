@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SRBEX_DATA_WMI structure"]
 ms.keywords: "*PSRBEX_DATA_WMI, PSRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], SRBEX_DATA_WMI, SRBEX_DATA_WMI structure [Storage Devices], _SRBEX_DATA_WMI, storage.srbex_data_wmi, storport/PSRBEX_DATA_WMI, storport/SRBEX_DATA_WMI"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available  starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SRBEX_DATA_WMI
 ---
 
-# _SRBEX_DATA_WMI structure (storport.h)
+# SRBEX_DATA_WMI structure (storport.h)
+
+
 
 
 ## -description

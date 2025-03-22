@@ -4,6 +4,7 @@ title: D3DKMT_ADAPTERREGISTRYINFO (d3dkmthk.h)
 description: The D3DKMT_ADAPTERREGISTRYINFO structure contains registry information about the graphics adapter.
 ms.date: 02/03/2025
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMT_ADAPTERREGISTRYINFO
 ---
 
-# D3DKMT_ADAPTERREGISTRYINFO structure
+# D3DKMT_ADAPTERREGISTRYINFO structure (d3dkmthk.h)
+
+
 
 ## -description
 

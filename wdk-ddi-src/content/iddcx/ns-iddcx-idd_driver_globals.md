@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDD_DRIVER_GLOBALS structure"]
 ms.keywords: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], display.idd_driver_globals, iddcx/IDD_DRIVER_GLOBALS"
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PIDD_DRIVER_GLOBALS
 ---
 
-# IDD_DRIVER_GLOBALS structure
+# IDD_DRIVER_GLOBALS structure (iddcx.h)
+
+
 
 
 ## -description

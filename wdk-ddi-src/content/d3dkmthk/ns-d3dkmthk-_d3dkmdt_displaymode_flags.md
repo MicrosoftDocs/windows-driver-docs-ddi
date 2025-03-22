@@ -7,6 +7,7 @@ ms.date: 03/04/2022
 keywords: ["D3DKMDT_DISPLAYMODE_FLAGS structure"]
 ms.keywords: D3DKMDT_DISPLAYMODE_FLAGS, D3DKMDT_DISPLAYMODE_FLAGS structure [Display Devices], OpenGL_Structs_64aa66c8-8323-4cee-b437-16b8f3c361c8.xml, _D3DKMDT_DISPLAYMODE_FLAGS, d3dkmthk/D3DKMDT_DISPLAYMODE_FLAGS, display.d3dkmdt_displaymode_flags
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_DISPLAYMODE_FLAGS
 ---
 
-# _D3DKMDT_DISPLAYMODE_FLAGS structure
+# D3DKMDT_DISPLAYMODE_FLAGS structure (d3dkmthk.h)
+
+
 
 ## -description
 

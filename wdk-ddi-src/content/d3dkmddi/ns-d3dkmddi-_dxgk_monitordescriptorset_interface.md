@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MONITORDESCRIPTORSET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORDESCRIPTORSET_INTERFACE, DXGK_MONITORDESCRIPTORSET_INTERFACE structure [Display Devices], DmStructs_da0cca60-6df0-480b-8e02-0affe5eb5cfd.xml, _DXGK_MONITORDESCRIPTORSET_INTERFACE, d3dkmddi/DXGK_MONITORDESCRIPTORSET_INTERFACE, display.dxgk_monitordescriptorset_interface
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MONITORDESCRIPTORSET_INTERFACE
 ---
 
-# _DXGK_MONITORDESCRIPTORSET_INTERFACE structure
+# DXGK_MONITORDESCRIPTORSET_INTERFACE structure (d3dkmddi.h)
+
+
 
 
 ## -description

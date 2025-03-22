@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["FLT_PARAMETERS union"]
 ms.keywords: "*PFLT_PARAMETERS, FLT_PARAMETERS, FLT_PARAMETERS union [Installable File System Drivers], FltSystemStructures_2ebb0ec7-76cc-49a3-b2ec-186f67369bbb.xml, PFLT_PARAMETERS, PFLT_PARAMETERS union pointer [Installable File System Drivers], _FLT_PARAMETERS, fltkernel/FLT_PARAMETERS, fltkernel/PFLT_PARAMETERS, ifsk.flt_parameters"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FLT_PARAMETERS
 ---
 
-# FLT_PARAMETERS union
+# FLT_PARAMETERS structure (fltkernel.h)
+
+
 
 ## -description
 

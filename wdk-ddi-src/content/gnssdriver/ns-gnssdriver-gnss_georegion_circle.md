@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_GEOREGION_CIRCLE structure"]
 ms.keywords: "*PGNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE, GNSS_GEOREGION_CIRCLE structure [Sensor Devices], PGNSS_GEOREGION_CIRCLE, PGNSS_GEOREGION_CIRCLE structure pointer [Sensor Devices], gnss.gnss_georegion_circle, gnssdriver/GNSS_GEOREGION_CIRCLE, gnssdriver/PGNSS_GEOREGION_CIRCLE"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_GEOREGION_CIRCLE
 ---
 
-# GNSS_GEOREGION_CIRCLE structure
+# GNSS_GEOREGION_CIRCLE structure (gnssdriver.h)
+
+
 
 
 ## -description

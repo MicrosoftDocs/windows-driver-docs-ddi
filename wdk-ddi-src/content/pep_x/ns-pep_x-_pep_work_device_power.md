@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_WORK_DEVICE_POWER structure"]
 ms.keywords: "*PPEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER, PEP_WORK_DEVICE_POWER structure [Kernel-Mode Driver Architecture], PPEP_WORK_DEVICE_POWER, PPEP_WORK_DEVICE_POWER structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_POWER, kernel.pep_work_device_power, pep_x/PEP_WORK_DEVICE_POWER, pep_x/PPEP_WORK_DEVICE_POWER"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pepfx.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_WORK_DEVICE_POWER
 ---
 
-# _PEP_WORK_DEVICE_POWER structure
+# PEP_WORK_DEVICE_POWER structure (pep_x.h)
+
+
 
 
 ## -description

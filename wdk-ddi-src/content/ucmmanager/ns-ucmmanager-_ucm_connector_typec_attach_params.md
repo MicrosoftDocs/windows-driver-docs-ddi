@@ -8,6 +8,7 @@ ms.date: 01/05/2022
 keywords: ["UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure"]
 ms.keywords: "*PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure pointer [Buses], UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure [Buses], _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS, buses.ucm_connector_typec_attach_params, ucmmanager/PUCM_CONNECTOR_TYPEC_ATTACH_PARAMS, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS"
 req.header: ucmmanager.h
+req.construct-type: structure
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - UCM_CONNECTOR_TYPEC_ATTACH_PARAMS
 ---
 
-# _UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure
+# UCM_CONNECTOR_TYPEC_ATTACH_PARAMS structure (ucmmanager.h)
+
+
 
 ## -description
 

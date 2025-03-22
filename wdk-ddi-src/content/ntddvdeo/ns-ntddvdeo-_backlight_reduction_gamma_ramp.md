@@ -7,6 +7,7 @@ ms.date: 08/03/2018
 keywords: ["BACKLIGHT_REDUCTION_GAMMA_RAMP structure"]
 ms.keywords: _BACKLIGHT_REDUCTION_GAMMA_RAMP, BACKLIGHT_REDUCTION_GAMMA_RAMP,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - BACKLIGHT_REDUCTION_GAMMA_RAMP
 ---
 
-# _BACKLIGHT_REDUCTION_GAMMA_RAMP structure
+# BACKLIGHT_REDUCTION_GAMMA_RAMP structure (ntddvdeo.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetGroupPresharedKey_IN structure"]
 ms.keywords: "*PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], SetGroupPresharedKey_IN, SetGroupPresharedKey_IN structure [Storage Devices], _SetGroupPresharedKey_IN, iscsiop/PSetGroupPresharedKey_IN, iscsiop/SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetGroupPresharedKey_IN
 ---
 
-# _SetGroupPresharedKey_IN structure
+# SetGroupPresharedKey_IN structure (iscsiop.h)
+
+
 
 
 ## -description

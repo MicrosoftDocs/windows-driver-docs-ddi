@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_SET_STREAMING structure"]
 ms.keywords: "*PCDROM_SET_STREAMING, CDROM_SET_STREAMING, CDROM_SET_STREAMING structure [Storage Devices], PCDROM_SET_STREAMING, PCDROM_SET_STREAMING structure pointer [Storage Devices], _CDROM_SET_STREAMING, ntddcdrm/CDROM_SET_STREAMING, ntddcdrm/PCDROM_SET_STREAMING, storage.cdrom_set_streaming, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_SET_STREAMING
 ---
 
-# _CDROM_SET_STREAMING structure
+# CDROM_SET_STREAMING structure (ntddcdrm.h)
+
+
 
 
 ## -description

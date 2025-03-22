@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure"]
 ms.keywords: _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2, *PDXGKARG_SETTARGETADJUSTEDCOLORIMETRY2,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure
+# DXGKARG_SETTARGETADJUSTEDCOLORIMETRY2 structure (dispmprt.h)
+
+
 
 
 ## -description

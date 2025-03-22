@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DSI_RESET structure
+# DXGK_DSI_RESET structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagOpen function (acxmisc.h)
+
 ## -description
 
 The function AcxObjectBagOpen opens an existing, initialized AcxObjectBag.

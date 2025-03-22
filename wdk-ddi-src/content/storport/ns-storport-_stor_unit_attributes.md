@@ -7,6 +7,7 @@ ms.date: 06/13/2023
 keywords: ["STOR_UNIT_ATTRIBUTES structure"]
 ms.keywords: "*PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES, PSTOR_UNIT_ATTRIBUTES structure pointer [Storage Devices], STOR_UNIT_ATTRIBUTES, STOR_UNIT_ATTRIBUTES structure [Storage Devices], _STOR_UNIT_ATTRIBUTES, storage.stor_unit_attributes, storport/PSTOR_UNIT_ATTRIBUTES, storport/STOR_UNIT_ATTRIBUTES"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -45,7 +46,9 @@ api_name:
  - STOR_UNIT_ATTRIBUTES
 ---
 
-# STOR_UNIT_ATTRIBUTES structure
+# STOR_UNIT_ATTRIBUTES structure (storport.h)
+
+
 
 ## -description
 

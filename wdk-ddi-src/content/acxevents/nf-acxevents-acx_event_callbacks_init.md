@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_CALLBACKS_INIT function (acxevents.h)
+
 ## -description
 
 The **ACX_EVENT_CALLBACKS_INIT** function initializes a [ACX_EVENTS_CALLBACKS structure](ns-acxevents-acx_event_callbacks.md). No inputs are used with this function.

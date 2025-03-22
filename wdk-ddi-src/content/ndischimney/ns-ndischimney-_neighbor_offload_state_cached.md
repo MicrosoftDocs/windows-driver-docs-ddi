@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NEIGHBOR_OFFLOAD_STATE_CACHED structure"]
 ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED, NEIGHBOR_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_CACHED, PNEIGHBOR_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], _NEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/NEIGHBOR_OFFLOAD_STATE_CACHED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_CACHED, netvista.neighbor_offload_state_cached, tcp_chim_struct_053f9a79-057c-4d4b-8ad1-2910f0ad4a9a.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NEIGHBOR_OFFLOAD_STATE_CACHED
 ---
 
-# _NEIGHBOR_OFFLOAD_STATE_CACHED structure
+# NEIGHBOR_OFFLOAD_STATE_CACHED structure (ndischimney.h)
+
+
 
 
 ## -description

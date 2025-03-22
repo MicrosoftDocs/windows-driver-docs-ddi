@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KSWAVE_VOLUME structure"]
 ms.keywords: "*PKSWAVE_VOLUME, KSWAVE_VOLUME, KSWAVE_VOLUME structure [Streaming Media Devices], PKSWAVE_VOLUME, PKSWAVE_VOLUME structure pointer [Streaming Media Devices], dvdref_602cb4a7-2e70-43a1-8e1a-7604d5b48bc1.xml, ksmedia/KSWAVE_VOLUME, ksmedia/PKSWAVE_VOLUME, stream.kswave_volume"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSWAVE_VOLUME
 ---
 
-# KSWAVE_VOLUME structure
+# KSWAVE_VOLUME structure (ksmedia.h)
+
+
 
 
 ## -description

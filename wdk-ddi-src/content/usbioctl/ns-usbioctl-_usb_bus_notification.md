@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["USB_BUS_NOTIFICATION structure"]
 ms.keywords: _USB_BUS_NOTIFICATION, USB_BUS_NOTIFICATION, *PUSB_BUS_NOTIFICATION,
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - USB_BUS_NOTIFICATION
 ---
 
-# _USB_BUS_NOTIFICATION structure
+# USB_BUS_NOTIFICATION structure (usbioctl.h)
+
+
 
 
 ## -description

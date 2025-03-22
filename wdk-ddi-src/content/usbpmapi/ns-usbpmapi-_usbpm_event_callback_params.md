@@ -7,6 +7,7 @@ keywords: ["USBPM_EVENT_CALLBACK_PARAMS structure"]
 tech.root: usbref
 ms.keywords: _USBPM_EVENT_CALLBACK_PARAMS, USBPM_EVENT_CALLBACK_PARAMS, *PUSBPM_EVENT_CALLBACK_PARAMS,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_EVENT_CALLBACK_PARAMS
 ---
 
-# _USBPM_EVENT_CALLBACK_PARAMS structure
+# USBPM_EVENT_CALLBACK_PARAMS structure (usbpmapi.h)
+
+
 
 
 ## -description

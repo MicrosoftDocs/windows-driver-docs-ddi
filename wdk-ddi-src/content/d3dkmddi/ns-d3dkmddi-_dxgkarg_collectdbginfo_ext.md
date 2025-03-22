@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_COLLECTDBGINFO_EXT structure"]
 ms.keywords: DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, _DXGKARG_COLLECTDBGINFO_EXT, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, display.dxgkarg_collectdbginfo_ext
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_COLLECTDBGINFO_EXT
 ---
 
-# _DXGKARG_COLLECTDBGINFO_EXT structure
+# DXGKARG_COLLECTDBGINFO_EXT structure (d3dkmddi.h)
+
+
 
 
 ## -description

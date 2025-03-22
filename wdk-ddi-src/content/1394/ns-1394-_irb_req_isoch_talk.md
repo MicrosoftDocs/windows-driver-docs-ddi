@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_TALK structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_TALK, IEEE.irb_req_isoch_talk, IRB_REQ_ISOCH_TALK, IRB_REQ_ISOCH_TALK structure [Buses], _IRB_REQ_ISOCH_TALK
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_TALK
 ---
 
-# _IRB_REQ_ISOCH_TALK structure
+# IRB_REQ_ISOCH_TALK structure (1394.h)
+
+
 
 
 ## -description

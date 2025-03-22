@@ -7,6 +7,7 @@ ms.date: 09/25/2019
 keywords: ["NET_PACKET_CHECKSUM structure"]
 ms.keywords: _NET_PACKET_CHECKSUM, NET_PACKET_CHECKSUM, *PNET_PACKET_CHECKSUM
 req.header: checksumtypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_PACKET_CHECKSUM
 ---
 
-# _NET_PACKET_CHECKSUM structure
+# NET_PACKET_CHECKSUM structure (checksumtypes.h)
+
+
 
 
 ## -description

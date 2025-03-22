@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_DELETE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_DELETE_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_DELETE_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_FLUSH_KEY_INFORMATION, _REG_DELETE_KEY_INFORMATION, kernel.reg_delete_key_information, kstruct_d_9069d571-f056-490e-b263-7849fd26b041.xml, wdm/PREG_DELETE_KEY_INFORMATION, wdm/REG_DELETE_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available for Microsoft Windows XP and later versions of the Windows operating system, but some structure members are available only for Windows Vista and later versions.
@@ -46,7 +47,9 @@ api_name:
  - REG_DELETE_KEY_INFORMATION
 ---
 
-# _REG_DELETE_KEY_INFORMATION structure
+# REG_DELETE_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

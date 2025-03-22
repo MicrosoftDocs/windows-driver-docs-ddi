@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["FCP_GET_RESPONSE structure"]
 ms.keywords: "*PFCP_GET_RESPONSE, *PFCP_RESPONSE, 61883/FCP_GET_RESPONSE, 61883/PFCP_GET_RESPONSE, FCP_GET_RESPONSE, FCP_GET_RESPONSE structure [Buses], FCP_RESPONSE, IEEE.fcp_get_response, PFCP_GET_RESPONSE, PFCP_GET_RESPONSE structure pointer [Buses], _FCP_GET_RESPONSE"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FCP_GET_RESPONSE
 ---
 
-# _FCP_GET_RESPONSE structure
+# FCP_GET_RESPONSE structure (61883.h)
+
+
 
 
 ## -description

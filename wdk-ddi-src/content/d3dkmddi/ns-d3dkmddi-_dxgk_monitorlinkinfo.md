@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["DXGK_MONITORLINKINFO structure"]
 ms.keywords: DXGK_MONITORLINKINFO, DXGK_MONITORLINKINFO structure [Display Devices], PDXGK_MONITORLINKINFO, PDXGK_MONITORLINKINFO structure pointer [Display Devices], _DXGK_MONITORLINKINFO, d3dkmddi/DXGK_MONITORLINKINFO, d3dkmddi/PDXGK_MONITORLINKINFO, display.dxgk_monitorlinkinfo
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MONITORLINKINFO
 ---
 
-# _DXGK_MONITORLINKINFO structure
+# DXGK_MONITORLINKINFO structure (d3dkmddi.h)
+
+
 
 
 ## -description

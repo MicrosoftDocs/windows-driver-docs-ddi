@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure"]
 ms.keywords: "*PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
 ---
 
-# _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure
+# PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ATA_PASS_THROUGH_EX structure"]
 ms.keywords: "*PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX structure [Storage Devices], PATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], _ATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ATA_PASS_THROUGH_EX
 ---
 
-# _ATA_PASS_THROUGH_EX structure
+# ATA_PASS_THROUGH_EX structure (ntddscsi.h)
+
+
 
 
 ## -description

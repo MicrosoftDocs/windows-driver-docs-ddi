@@ -7,6 +7,7 @@ ms.date: 05/20/2020
 keywords: ["D3D12DDI_INDIRECT_ARGUMENT_DESC structure"]
 ms.keywords: D3D12DDI_INDIRECT_ARGUMENT_DESC, D3D12DDI_INDIRECT_ARGUMENT_DESC structure [Display Devices], d3d12umddi/D3D12DDI_INDIRECT_ARGUMENT_DESC, display.d3d12ddi_INDIRECT_ARGUMENT_DESC
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_INDIRECT_ARGUMENT_DESC
 ---
 
-# D3D12DDI_INDIRECT_ARGUMENT_DESC structure
+# D3D12DDI_INDIRECT_ARGUMENT_DESC structure (d3d12umddi.h)
+
+
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxJackChangeStateNotification function (acxpin.h)
+
 ## -description
 
 The **AcxJackChangeStateNotification** function is called to indicate that a change in the state of the specified jack has occurred.

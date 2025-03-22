@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveUI8 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveUI8 function retrieves an unsigned int eight byte UI8 (ULONG64) value from an existing, initialized AcxObjectBag that contains values.

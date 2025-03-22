@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_RESPONSE structure"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE, PWWAN_DEVICE_SERVICE_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_RESPONSE, WWAN_DEVICE_SERVICE_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_RESPONSE, netvista.wwan_device_service_response, wwan/PWWAN_DEVICE_SERVICE_RESPONSE, wwan/WWAN_DEVICE_SERVICE_RESPONSE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DEVICE_SERVICE_RESPONSE
 ---
 
-# _WWAN_DEVICE_SERVICE_RESPONSE structure
+# WWAN_DEVICE_SERVICE_RESPONSE structure (wwan.h)
+
+
 
 
 ## -description

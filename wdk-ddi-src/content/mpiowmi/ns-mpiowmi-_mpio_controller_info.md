@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_CONTROLLER_INFO structure"]
 ms.keywords: "*PMPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO, MPIO_CONTROLLER_INFO structure [Storage Devices], PMPIO_CONTROLLER_INFO, PMPIO_CONTROLLER_INFO structure pointer [Storage Devices], _MPIO_CONTROLLER_INFO, mpiowmi/MPIO_CONTROLLER_INFO, mpiowmi/PMPIO_CONTROLLER_INFO, storage.mpio_controller_info, structs-scsibus_6b7edecb-9938-49fb-8367-5d176f83c0a5.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIO_CONTROLLER_INFO
 ---
 
-# _MPIO_CONTROLLER_INFO structure
+# MPIO_CONTROLLER_INFO structure (mpiowmi.h)
+
+
 
 
 ## -description

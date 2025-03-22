@@ -7,6 +7,7 @@ ms.date: 02/08/2022
 keywords: ["USBC_PD_POWER_DATA_OBJECT structure"]
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT, USBC_PD_POWER_DATA_OBJECT, *PUSBC_PD_POWER_DATA_OBJECT,
 req.header: usbctypes.h
+req.construct-type: structure
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - USBC_PD_POWER_DATA_OBJECT
 ---
 
-# _USBC_PD_POWER_DATA_OBJECT structure
+# USBC_PD_POWER_DATA_OBJECT structure (usbctypes.h)
+
+
 
 
 ## -description

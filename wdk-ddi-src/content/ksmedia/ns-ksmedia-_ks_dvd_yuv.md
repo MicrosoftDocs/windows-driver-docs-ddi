@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_DVD_YUV structure"]
 ms.keywords: "*PKS_DVD_YUV, KS_DVD_YUV, KS_DVD_YUV structure [Streaming Media Devices], PKS_DVD_YUV, PKS_DVD_YUV structure pointer [Streaming Media Devices], _KS_DVD_YUV, dvdref_ea41e501-8a59-4d54-8dde-792ce2673b8c.xml, ksmedia/KS_DVD_YUV, ksmedia/PKS_DVD_YUV, stream.ks_dvd_yuv"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DVD_YUV
 ---
 
-# _KS_DVD_YUV structure
+# KS_DVD_YUV structure (ksmedia.h)
+
+
 
 
 ## -description

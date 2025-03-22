@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveSizeT function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveSizeT function retrieves a SIZE_T value from an existing, initialized AcxObjectBag.

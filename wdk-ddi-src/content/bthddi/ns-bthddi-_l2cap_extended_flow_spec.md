@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["L2CAP_EXTENDED_FLOW_SPEC structure"]
 ms.keywords: "*PL2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC, L2CAP_EXTENDED_FLOW_SPEC structure [Bluetooth Devices], PL2CAP_EXTENDED_FLOW_SPEC, PL2CAP_EXTENDED_FLOW_SPEC structure pointer [Bluetooth Devices], _L2CAP_EXTENDED_FLOW_SPEC, bltooth.l2cap_extended_flow_spec, bthddi/L2CAP_EXTENDED_FLOW_SPEC, bthddi/PL2CAP_EXTENDED_FLOW_SPEC"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
@@ -46,7 +47,9 @@ api_name:
  - L2CAP_EXTENDED_FLOW_SPEC
 ---
 
-# _L2CAP_EXTENDED_FLOW_SPEC structure
+# L2CAP_EXTENDED_FLOW_SPEC structure (bthddi.h)
+
+
 
 
 ## -description

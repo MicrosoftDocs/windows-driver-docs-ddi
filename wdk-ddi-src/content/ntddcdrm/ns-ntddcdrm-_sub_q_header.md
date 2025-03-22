@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SUB_Q_HEADER structure"]
 ms.keywords: "*PSUB_Q_HEADER, PSUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], _SUB_Q_HEADER, ntddcdrm/PSUB_Q_HEADER, ntddcdrm/SUB_Q_HEADER, storage.sub_q_header, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SUB_Q_HEADER
 ---
 
-# _SUB_Q_HEADER structure
+# SUB_Q_HEADER structure (ntddcdrm.h)
+
+
 
 
 ## -description

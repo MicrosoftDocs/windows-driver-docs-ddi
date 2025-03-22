@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure"]
 ms.keywords: "*PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, KSCAMERA_EXTENDEDPROP_ROI_FOCUS, KSCAMERA_EXTENDEDPROP_ROI_FOCUS structure [Streaming Media Devices], PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, PKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_ROI_FOCUS, ksmedia/PKSCAMERA_EXTENDEDPROP_ROI_FOCUS, stream.kscamera_extendedprop_roi_focus, tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_EXTENDEDPROP_ROI_FOCUS
 ---
 
-# tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure
+# tagKSCAMERA_EXTENDEDPROP_ROI_FOCUS structure (ksmedia.h)
+
+
 
 
 ## -description

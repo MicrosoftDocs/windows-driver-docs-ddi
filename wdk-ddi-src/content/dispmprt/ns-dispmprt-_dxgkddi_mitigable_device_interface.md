@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure"]
 ms.keywords: _DXGKDDI_MITIGABLE_DEVICE_INTERFACE, DXGKDDI_MITIGABLE_DEVICE_INTERFACE, *PDXGKDDI_MITIGABLE_DEVICE_INTERFACE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure
+# DXGKDDI_MITIGABLE_DEVICE_INTERFACE structure (dispmprt.h)
+
+
 
 
 ## -description

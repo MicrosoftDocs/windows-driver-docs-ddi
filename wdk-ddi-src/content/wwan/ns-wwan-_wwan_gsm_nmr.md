@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_GSM_NMR structure"]
 ms.keywords: "*PWWAN_GSM_NMR, PWWAN_GSM_NMR, PWWAN_GSM_NMR structure pointer [Network Drivers Starting with Windows Vista], WWAN_GSM_NMR, WWAN_GSM_NMR structure [Network Drivers Starting with Windows Vista], _WWAN_GSM_NMR, netvista.wwan_gsm_nmr, wwan/PWWAN_GSM_NMR, wwan/WWAN_GSM_NMR"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_GSM_NMR
 ---
 
-# _WWAN_GSM_NMR structure
+# WWAN_GSM_NMR structure (wwan.h)
+
+
 
 
 ## -description

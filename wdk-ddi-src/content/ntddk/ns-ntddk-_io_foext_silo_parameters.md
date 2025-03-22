@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IO_FOEXT_SILO_PARAMETERS structure"]
 ms.keywords: "*PIO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS, IO_FOEXT_SILO_PARAMETERS structure [Installable File System Drivers], PIO_FOEXT_SILO_PARAMETERS, PIO_FOEXT_SILO_PARAMETERS structure pointer [Installable File System Drivers], _IO_FOEXT_SILO_PARAMETERS, ifsk.io_foext_silo_parameters, ntddk/IO_FOEXT_SILO_PARAMETERS, ntddk/PIO_FOEXT_SILO_PARAMETERS"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -46,7 +47,9 @@ api_name:
  - IO_FOEXT_SILO_PARAMETERS
 ---
 
-# _IO_FOEXT_SILO_PARAMETERS structure
+# IO_FOEXT_SILO_PARAMETERS structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CORRELATION_VECTOR structure"]
 ms.keywords: "*PCORRELATION_VECTOR, CORRELATION_VECTOR, CORRELATION_VECTOR structure [Kernel-Mode Driver Architecture], kernel.correlation_vector, ntddk/CORRELATION_VECTOR"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - CORRELATION_VECTOR
 ---
 
-# CORRELATION_VECTOR structure
+# CORRELATION_VECTOR structure (ntddk.h)
+
+
 
 
 ## -description

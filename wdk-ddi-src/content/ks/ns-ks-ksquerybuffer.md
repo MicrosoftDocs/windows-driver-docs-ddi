@@ -7,6 +7,7 @@ ms.date: 03/06/2023
 keywords: ["KSQUERYBUFFER structure"]
 ms.keywords: "*PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, ks/KSQUERYBUFFER, ks/PKSQUERYBUFFER, stream.ksquerybuffer"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSQUERYBUFFER
  - KSQUERYBUFFER
 ---
+
+# KSQUERYBUFFER structure (ks.h)
 
 ## -description
 

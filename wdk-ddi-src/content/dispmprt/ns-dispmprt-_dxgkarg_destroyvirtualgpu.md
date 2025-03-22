@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_DESTROYVIRTUALGPU structure"]
 ms.keywords: _DXGKARG_DESTROYVIRTUALGPU, DXGKARG_DESTROYVIRTUALGPU, *PDXGKARG_DESTROYVIRTUALGPU,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_DESTROYVIRTUALGPU structure
+# DXGKARG_DESTROYVIRTUALGPU structure (dispmprt.h)
+
+
 
 
 ## -description

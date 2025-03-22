@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceAddFactoryCircuit function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceAddFactoryCircuit** function adds a factory circuit to a **WDFDEVICE** for creating audio circuits.

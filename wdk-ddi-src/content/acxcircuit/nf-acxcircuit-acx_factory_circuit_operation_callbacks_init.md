@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT function (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS_INIT** function initializes a 

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_FLIPQUEUEINFO structure"]
 ms.keywords: D3DKMT_FLIPQUEUEINFO, D3DKMT_FLIPQUEUEINFO structure [Display Devices], OpenGL_Structs_db4a7b98-df53-4e1e-a990-0a2f45d71525.xml, _D3DKMT_FLIPQUEUEINFO, d3dkmthk/D3DKMT_FLIPQUEUEINFO, display.d3dkmt_flipqueueinfo
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_FLIPQUEUEINFO
 ---
 
-# _D3DKMT_FLIPQUEUEINFO structure
+# D3DKMT_FLIPQUEUEINFO structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2STARTVERTEX structure"]
 ms.keywords: "*LPD3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX, D3DHAL_DP2STARTVERTEX structure [Display Devices], LPD3DHAL_DP2STARTVERTEX, LPD3DHAL_DP2STARTVERTEX structure pointer [Display Devices], _D3DHAL_DP2STARTVERTEX, d3dhal/D3DHAL_DP2STARTVERTEX, d3dhal/LPD3DHAL_DP2STARTVERTEX, d3dstrct_1dafced6-8893-45ac-b5a2-8735fe3dbd6a.xml, display.d3dhal_dp2startvertex"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DHAL_DP2STARTVERTEX
 ---
 
-# _D3DHAL_DP2STARTVERTEX structure
+# D3DHAL_DP2STARTVERTEX structure (d3dhal.h)
+
+
 
 
 ## -description

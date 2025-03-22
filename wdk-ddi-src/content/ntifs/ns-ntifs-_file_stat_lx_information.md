@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FILE_STAT_LX_INFORMATION structure"]
 ms.keywords: _FILE_STAT_LX_INFORMATION, FILE_STAT_LX_INFORMATION, *PFILE_STAT_LX_INFORMATION,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - FILE_STAT_LX_INFORMATION
 ---
 
-# FILE_STAT_LX_INFORMATION structure
+# FILE_STAT_LX_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

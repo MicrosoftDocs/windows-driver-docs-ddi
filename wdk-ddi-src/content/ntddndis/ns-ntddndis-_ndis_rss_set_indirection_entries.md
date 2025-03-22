@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RSS_SET_INDIRECTION_ENTRIES structure"]
 ms.keywords: "*PNDIS_RSS_SET_INDIRECTION_ENTRIES, NDIS_RSS_SET_INDIRECTION_ENTRIES, NDIS_RSS_SET_INDIRECTION_ENTRIES structure [Network Drivers Starting with Windows Vista], PNDIS_RSS_SET_INDIRECTION_ENTRIES, PNDIS_RSS_SET_INDIRECTION_ENTRIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RSS_SET_INDIRECTION_ENTRIES, netvista.ndis_rss_set_indirection_entries, ntddndis/NDIS_RSS_SET_INDIRECTION_ENTRIES, ntddndis/PNDIS_RSS_SET_INDIRECTION_ENTRIES"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.80 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RSS_SET_INDIRECTION_ENTRIES
 ---
 
-# _NDIS_RSS_SET_INDIRECTION_ENTRIES structure
+# NDIS_RSS_SET_INDIRECTION_ENTRIES structure (ntddndis.h)
+
+
 
 
 ## -description

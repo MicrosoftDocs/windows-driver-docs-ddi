@@ -7,6 +7,7 @@ tech.root: storage
 keywords: ["PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR structure"]
 ms.keywords: _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR, *PPHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR,
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: scsi.h, storport.h, minitape.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR structure
+# PHYSICAL_ELEMENT_STATUS_DATA_DESCRIPTOR structure (scsi.h)
+
+
 
 
 ## -description

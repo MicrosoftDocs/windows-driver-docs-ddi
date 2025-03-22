@@ -7,6 +7,7 @@ ms.date: 06/20/2022
 keywords: ["GNSS_AGNSS_INJECTBLOB structure"]
 ms.keywords: "*PGNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB, GNSS_AGNSS_INJECTBLOB structure [Sensor Devices], PGNSS_AGNSS_INJECTBLOB, PGNSS_AGNSS_INJECTBLOB structure pointer [Sensor Devices], gnss.gnss_agnss_injectblob, gnssdriver/GNSS_AGNSS_INJECTBLOB, gnssdriver/PGNSS_AGNSS_INJECTBLOB"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_AGNSS_INJECTBLOB
  - GNSS_AGNSS_INJECTBLOB
 ---
+
+# GNSS_AGNSS_INJECTBLOB structure (gnssdriver.h)
 
 ## -description
 

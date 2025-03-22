@@ -7,6 +7,7 @@ keywords: ["USBPM_CONNECTOR_STATE structure"]
 tech.root: usbref
 ms.keywords: _USBPM_CONNECTOR_STATE, USBPM_CONNECTOR_STATE, *PUSBPM_CONNECTOR_STATE,
 req.header: usbpmapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - USBPM_CONNECTOR_STATE
 ---
 
-# _USBPM_CONNECTOR_STATE structure
+# USBPM_CONNECTOR_STATE structure (usbpmapi.h)
+
+
 
 
 ## -description

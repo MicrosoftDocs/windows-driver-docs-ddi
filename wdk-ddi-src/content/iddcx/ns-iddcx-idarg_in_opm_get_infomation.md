@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_IN_OPM_GET_INFOMATION structure"]
 ms.keywords: IDARG_IN_OPM_GET_INFOMATION, IDARG_IN_OPM_GET_INFOMATION structure [Display Devices], display.idarg_in_opm_get_infomation, iddcx/IDARG_IN_OPM_GET_INFOMATION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_OPM_GET_INFOMATION
 ---
 
-# IDARG_IN_OPM_GET_INFOMATION structure
+# IDARG_IN_OPM_GET_INFOMATION structure (iddcx.h)
+
+
 
 
 ## -description

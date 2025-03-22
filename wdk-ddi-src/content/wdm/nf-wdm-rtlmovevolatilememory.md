@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlMoveVolatileMemory
 ---
 
+# RtlMoveVolatileMemory function (wdm.h)
+
 ## -description
 
 The **RtlMoveVolatileMemory** function exists to provide [**RtlMoveMemory**](nf-wdm-rtlmovememory.md) behavior (for example, copying memory from one location to another) in situations where the developer needs to be sure that the copy operation occurs (for example, isn't subject to compiler optimizations). Unlike [**RtlCopyVolatileMemory**](nf-wdm-rtlcopyvolatilememory.md), this function handles cases where the *Source* and *Destination* buffer overlap.

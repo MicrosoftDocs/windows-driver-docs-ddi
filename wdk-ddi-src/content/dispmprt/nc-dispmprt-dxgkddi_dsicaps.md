@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_DSICAPS callback function
+# DXGKDDI_DSICAPS function (dispmprt.h)
+
+ function
 
 
 ## -description

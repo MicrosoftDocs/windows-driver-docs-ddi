@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_GETREADPACKET_INFO structure"]
 ms.keywords: "*PKSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO, KSRTAUDIO_GETREADPACKET_INFO structure [Audio Devices], PKSRTAUDIO_GETREADPACKET_INFO, PKSRTAUDIO_GETREADPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_getreadpacket_info, ksmedia/KSRTAUDIO_GETREADPACKET_INFO, ksmedia/PKSRTAUDIO_GETREADPACKET_INFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10 and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_GETREADPACKET_INFO
 ---
 
-# KSRTAUDIO_GETREADPACKET_INFO structure
+# KSRTAUDIO_GETREADPACKET_INFO structure (ksmedia.h)
+
+
 
 
 ## -description

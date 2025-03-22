@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitAssignAcxCreateStreamCallback function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitAssignAcxCreateStreamCallback** function is used to assign an ACX create stream callback.

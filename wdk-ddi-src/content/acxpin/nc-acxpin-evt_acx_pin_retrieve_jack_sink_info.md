@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO** callback function is implemented by the driver and is called when sink information is requested for the specified pin.

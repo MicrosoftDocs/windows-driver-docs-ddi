@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_SUBMITPRESENTBLTTOHWQUEUE structure"]
 ms.keywords: _D3DKMT_SUBMITPRESENTBLTTOHWQUEUE, D3DKMT_SUBMITPRESENTBLTTOHWQUEUE,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - D3DKMT_SUBMITPRESENTBLTTOHWQUEUE
 ---
 
-# _D3DKMT_SUBMITPRESENTBLTTOHWQUEUE structure
+# D3DKMT_SUBMITPRESENTBLTTOHWQUEUE structure (d3dkmthk.h)
+
+
 
 
 ## -description

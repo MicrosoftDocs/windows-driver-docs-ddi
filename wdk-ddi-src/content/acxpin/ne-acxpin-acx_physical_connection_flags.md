@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PHYSICAL_CONNECTION_FLAGS enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_PHYSICAL_CONNECTION_FLAGS** enumeration is used by the [ACX_PHYSICAL_CONNECTION](ns-acxpin-acx_physical_connection.md) structure to initialize a physical connection.

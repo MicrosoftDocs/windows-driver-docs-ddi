@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_MBctrl_I_HostResidDiff_1 structure"]
 ms.keywords: "*LPDXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1, DXVA_MBctrl_I_HostResidDiff_1 structure [Display Devices], _DXVA_MBctrl_I_HostResidDiff_1, display.dxva_mbctrl_i_hostresiddiff_1, dxva/DXVA_MBctrl_I_HostResidDiff_1, dxvaref_9d7c8453-31ce-4788-908e-ac81c97d97f5.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXVA_MBctrl_I_HostResidDiff_1
 ---
 
-# _DXVA_MBctrl_I_HostResidDiff_1 structure
+# DXVA_MBctrl_I_HostResidDiff_1 structure (dxva.h)
+
+
 
 
 ## -description

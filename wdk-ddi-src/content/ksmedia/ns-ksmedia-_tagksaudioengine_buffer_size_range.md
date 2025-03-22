@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSAUDIOENGINE_BUFFER_SIZE_RANGE structure"]
 ms.keywords: "*PKSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE, KSAUDIOENGINE_BUFFER_SIZE_RANGE structure [Audio Devices], PKSAUDIOENGINE_BUFFER_SIZE_RANGE, PKSAUDIOENGINE_BUFFER_SIZE_RANGE structure pointer [Audio Devices], _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE, audio.ksaudio_buffer_limits, ksmedia/KSAUDIOENGINE_BUFFER_SIZE_RANGE, ksmedia/PKSAUDIOENGINE_BUFFER_SIZE_RANGE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - KSAUDIOENGINE_BUFFER_SIZE_RANGE
 ---
 
-# _tagKSAUDIOENGINE_BUFFER_SIZE_RANGE structure
+# KSAUDIOENGINE_BUFFER_SIZE_RANGE structure (ksmedia.h)
+
+
 
 
 ## -description

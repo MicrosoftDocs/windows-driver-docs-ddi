@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SETVIDPNSOURCEOWNER2 structure"]
 ms.keywords: D3DKMT_SETVIDPNSOURCEOWNER2, D3DKMT_SETVIDPNSOURCEOWNER2 structure [Display Devices], _D3DKMT_SETVIDPNSOURCEOWNER2, d3dkmthk/D3DKMT_SETVIDPNSOURCEOWNER2, display.d3dkmt-setvidpnsourceowner2
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SETVIDPNSOURCEOWNER2
 ---
 
-# _D3DKMT_SETVIDPNSOURCEOWNER2 structure
+# D3DKMT_SETVIDPNSOURCEOWNER2 structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/16/2020
 keywords: ["USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR structure"]
 ms.keywords: _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR, *PUSB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR,
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR
 ---
 
-# _USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR structure
+# USB_DEVICE_CAPABILITY_FIRMWARE_STATUS_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

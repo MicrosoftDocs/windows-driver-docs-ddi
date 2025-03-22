@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_MONITOR_DESCRIPTION structure"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION, IDDCX_MONITOR_DESCRIPTION structure [Display Devices], display.iddcx_monitor_description, iddcx/IDDCX_MONITOR_DESCRIPTION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_MONITOR_DESCRIPTION
 ---
 
-# IDDCX_MONITOR_DESCRIPTION structure
+# IDDCX_MONITOR_DESCRIPTION structure (iddcx.h)
+
+
 
 ## -description
 

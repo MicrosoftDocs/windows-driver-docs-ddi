@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_CONFIGURESHAREDRESOURCE structure"]
 ms.keywords: D3DKMT_CONFIGURESHAREDRESOURCE, D3DKMT_CONFIGURESHAREDRESOURCE structure [Display Devices], OpenGL_Structs_ae687fae-f425-4a9b-8426-ee3cc02c8170.xml, _D3DKMT_CONFIGURESHAREDRESOURCE, d3dkmthk/D3DKMT_CONFIGURESHAREDRESOURCE, display.d3dkmt_configuresharedresource
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_CONFIGURESHAREDRESOURCE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CONFIGURESHAREDRESOURCE
 ---
 
-# _D3DKMT_CONFIGURESHAREDRESOURCE structure
+# D3DKMT_CONFIGURESHAREDRESOURCE structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["WWAN_PIN_APP structure"]
 ms.keywords: _WWAN_PIN_APP, WWAN_PIN_APP, *PWWAN_PIN_APP,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_PIN_APP
 ---
 
-# _WWAN_PIN_APP structure
+# WWAN_PIN_APP structure (wwan.h)
+
+
 
 
 ## -description

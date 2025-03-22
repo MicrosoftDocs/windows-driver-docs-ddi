@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# acxmisc apiset (acxmisc.h)
+
 ## -description
 
 The acxmisc header is used by the ACX audio class extensions. It provides the ability to store and retrieve data in the AcxObjectBag.

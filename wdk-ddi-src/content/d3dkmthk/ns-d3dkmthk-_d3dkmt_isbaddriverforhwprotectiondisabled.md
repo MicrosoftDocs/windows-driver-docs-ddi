@@ -4,6 +4,7 @@ title: D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED (d3dkmthk.h)
 description: Learn more about the D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED structure.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 (WDDM 2.0)
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED structure
+# D3DKMT_ISBADDRIVERFORHWPROTECTIONDISABLED structure (d3dkmthk.h)
+
+
 
 ## -description
 

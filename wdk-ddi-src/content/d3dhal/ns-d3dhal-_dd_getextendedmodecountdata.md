@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETEXTENDEDMODECOUNTDATA structure"]
 ms.keywords: DD_GETEXTENDEDMODECOUNTDATA, DD_GETEXTENDEDMODECOUNTDATA structure [Display Devices], _DD_GETEXTENDEDMODECOUNTDATA, d3dhal/DD_GETEXTENDEDMODECOUNTDATA, d3dstrct_2139722c-6eff-4c77-b899-2085de6239fd.xml, display.dd_getextendedmodecountdata
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETEXTENDEDMODECOUNTDATA
 ---
 
-# _DD_GETEXTENDEDMODECOUNTDATA structure
+# DD_GETEXTENDEDMODECOUNTDATA structure (d3dhal.h)
+
+
 
 
 ## -description

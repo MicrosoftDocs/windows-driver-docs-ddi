@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_DEVICE_REGISTER_V2 structure"]
 ms.keywords: "*PPEP_DEVICE_REGISTER, *PPEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER, PEP_DEVICE_REGISTER_V2, PEP_DEVICE_REGISTER_V2 structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_REGISTER_V2, PPEP_DEVICE_REGISTER_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_REGISTER_V2, kernel.pep_device_register_v2, pepfx/PEP_DEVICE_REGISTER_V2, pepfx/PPEP_DEVICE_REGISTER_V2"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -45,7 +46,9 @@ api_name:
  - PEP_DEVICE_REGISTER_V2
 ---
 
-# _PEP_DEVICE_REGISTER_V2 structure (pepfx.h)
+# PEP_DEVICE_REGISTER_V2 structure (pepfx.h)
+
+
 
 
 ## -description

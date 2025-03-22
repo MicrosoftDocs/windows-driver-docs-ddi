@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_POFX_COMPONENT_IDLE_STATE structure"]
 ms.keywords: "*PSTOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE, PSTOR_POFX_COMPONENT_IDLE_STATE structure pointer [Storage Devices], STOR_POFX_COMPONENT_IDLE_STATE, STOR_POFX_COMPONENT_IDLE_STATE structure [Storage Devices], _STOR_POFX_COMPONENT_IDLE_STATE, storage.stor_pofx_component_idle_state, storport/PSTOR_POFX_COMPONENT_IDLE_STATE, storport/STOR_POFX_COMPONENT_IDLE_STATE"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - STOR_POFX_COMPONENT_IDLE_STATE
 ---
 
-# _STOR_POFX_COMPONENT_IDLE_STATE structure
+# STOR_POFX_COMPONENT_IDLE_STATE structure (storport.h)
+
+
 
 
 ## -description

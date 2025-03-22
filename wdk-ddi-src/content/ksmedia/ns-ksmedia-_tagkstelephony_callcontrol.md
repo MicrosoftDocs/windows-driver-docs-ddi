@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSTELEPHONY_CALLCONTROL structure"]
 ms.keywords: "*PKSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL, KSTELEPHONY_CALLCONTROL structure [Audio Devices], PKSTELEPHONY_CALLCONTROL, PKSTELEPHONY_CALLCONTROL structure pointer [Audio Devices], _tagKSTELEPHONY_CALLCONTROL, audio.kstelephony_callcontrol, ksmedia/KSTELEPHONY_CALLCONTROL, ksmedia/PKSTELEPHONY_CALLCONTROL"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10,Windows 10 Mobile
@@ -46,7 +47,9 @@ api_name:
  - KSTELEPHONY_CALLCONTROL
 ---
 
-# _tagKSTELEPHONY_CALLCONTROL structure
+# KSTELEPHONY_CALLCONTROL structure (ksmedia.h)
+
+
 
 
 ## -description

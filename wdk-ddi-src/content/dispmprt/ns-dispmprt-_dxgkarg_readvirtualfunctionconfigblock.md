@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK structure"]
 ms.keywords: _DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK, DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK, *PDXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK structure
+# DXGKARG_READVIRTUALFUNCTIONCONFIGBLOCK structure (dispmprt.h)
+
+
 
 
 ## -description

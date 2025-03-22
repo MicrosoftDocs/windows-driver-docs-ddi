@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitGetWdfDevice function (acxcircuit.h)
+
 ## -description
 
 Given an existing ACX Circuit object, the **AcxCircuitGetWdfDevice** function returns the associated WDFDEVICE object.

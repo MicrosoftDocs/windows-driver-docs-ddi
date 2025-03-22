@@ -5,6 +5,7 @@ description: Learn more about the D3DDDIARG_OPENADAPTER structure.
 tech.root: display
 ms.date: 02/06/2025
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - D3DDDIARG_OPENADAPTER
 ---
 
-# D3DDDIARG_OPENADAPTER structure
+# D3DDDIARG_OPENADAPTER structure (d3dumddi.h)
+
+
 
 ## -description
 

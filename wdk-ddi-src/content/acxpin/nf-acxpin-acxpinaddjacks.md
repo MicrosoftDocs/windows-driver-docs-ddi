@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinAddJacks function (acxpin.h)
+
 ## -description
 
 The **AcxPinAddJacks** function adds an array of jacks to the specified pin.

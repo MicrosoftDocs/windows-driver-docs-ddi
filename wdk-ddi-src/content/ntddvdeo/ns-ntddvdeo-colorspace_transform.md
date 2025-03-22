@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM structure"]
 ms.keywords: COLORSPACE_TRANSFORM, COLORSPACE_TRANSFORM, *PCOLORSPACE_TRANSFORM,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# COLORSPACE_TRANSFORM structure
+# COLORSPACE_TRANSFORM structure (ntddvdeo.h)
+
+
 
 
 ## -description

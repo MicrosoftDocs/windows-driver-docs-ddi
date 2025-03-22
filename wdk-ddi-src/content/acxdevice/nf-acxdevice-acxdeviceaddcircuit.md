@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceAddCircuit function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceAddCircuit** function adds an ACX circuit to a **WDFDEVICE** to create an audio endpoint.

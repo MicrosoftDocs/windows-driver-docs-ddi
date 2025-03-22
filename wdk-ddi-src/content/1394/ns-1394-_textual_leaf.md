@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["TEXTUAL_LEAF structure"]
 ms.keywords: "*PTEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, 1394/TEXTUAL_LEAF, 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, IEEE.textual_leaf, PTEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], TEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], _TEXTUAL_LEAF"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TEXTUAL_LEAF
 ---
 
-# _TEXTUAL_LEAF structure
+# TEXTUAL_LEAF structure (1394.h)
+
+
 
 
 ## -description

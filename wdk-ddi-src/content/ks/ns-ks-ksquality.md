@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSQUALITY structure"]
 ms.keywords: "*PKSQUALITY, KSQUALITY, KSQUALITY structure [Streaming Media Devices], PKSQUALITY, PKSQUALITY structure pointer [Streaming Media Devices], ks-struct_a2b63e1c-e5b4-437d-a5ba-0746f8388eef.xml, ks/KSQUALITY, ks/PKSQUALITY, stream.ksquality"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSQUALITY
 ---
 
-# KSQUALITY structure
+# KSQUALITY structure (ks.h)
+
+
 
 
 ## -description

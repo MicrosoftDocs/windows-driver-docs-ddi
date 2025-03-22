@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemovePort_IN structure"]
 ms.keywords: "*PRemovePort_IN, PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], RemovePort_IN, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, hbapiwmi/RemovePort_IN, storage.removeport_in, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemovePort_IN
 ---
 
-# _RemovePort_IN structure
+# RemovePort_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_SCO_UNREGISTER_SERVER structure"]
 ms.keywords: "_BRB_SCO_UNREGISTER_SERVER, _BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices], bltooth._brb_sco_unregister_server, bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, bthddi/_BRB_SCO_UNREGISTER_SERVER"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_SCO_UNREGISTER_SERVER
 ---
 
-# _BRB_SCO_UNREGISTER_SERVER structure
+# _BRB_SCO_UNREGISTER_SERVER structure (bthddi.h)
+
+
 
 
 ## -description

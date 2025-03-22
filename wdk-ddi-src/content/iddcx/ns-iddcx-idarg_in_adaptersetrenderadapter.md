@@ -7,6 +7,7 @@ ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERSETRENDERADAPTER structure"]
 ms.keywords: IDARG_IN_ADAPTERSETRENDERADAPTER, ,
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# IDARG_IN_ADAPTERSETRENDERADAPTER structure
+# IDARG_IN_ADAPTERSETRENDERADAPTER structure (iddcx.h)
+
+
 
 ## -description
 

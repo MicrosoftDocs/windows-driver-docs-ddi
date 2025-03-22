@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemovePort_OUT structure"]
 ms.keywords: "*PRemovePort_OUT, PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], RemovePort_OUT, RemovePort_OUT structure [Storage Devices], _RemovePort_OUT, hbapiwmi/PRemovePort_OUT, hbapiwmi/RemovePort_OUT, storage.removeport_out, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemovePort_OUT
 ---
 
-# _RemovePort_OUT structure
+# RemovePort_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

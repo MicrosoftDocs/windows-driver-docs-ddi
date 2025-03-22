@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_QUERYCLOCKCALIBRATION structure"]
 ms.keywords: _D3DKMT_QUERYCLOCKCALIBRATION, D3DKMT_QUERYCLOCKCALIBRATION,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_QUERYCLOCKCALIBRATION structure
+# D3DKMT_QUERYCLOCKCALIBRATION structure (d3dkmdt.h)
+
+
 
 
 ## -description

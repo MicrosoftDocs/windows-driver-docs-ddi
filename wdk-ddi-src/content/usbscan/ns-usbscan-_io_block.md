@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IO_BLOCK structure"]
 ms.keywords: "*PIO_BLOCK, IO_BLOCK, IO_BLOCK structure [Imaging Devices], PIO_BLOCK, PIO_BLOCK structure pointer [Imaging Devices], _IO_BLOCK, image.io_block, stifnc_94187a6f-5c01-4d4a-a852-469f93d891b9.xml, usbscan/IO_BLOCK, usbscan/PIO_BLOCK"
 req.header: usbscan.h
+req.construct-type: structure
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IO_BLOCK
 ---
 
-# _IO_BLOCK structure
+# IO_BLOCK structure (usbscan.h)
+
+
 
 
 ## -description

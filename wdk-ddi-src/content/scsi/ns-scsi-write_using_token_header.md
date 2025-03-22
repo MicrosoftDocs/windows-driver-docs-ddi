@@ -7,6 +7,7 @@ ms.date: 09/20/2022
 keywords: ["WRITE_USING_TOKEN_HEADER structure"]
 ms.keywords: "*PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER, PWRITE_USING_TOKEN_HEADER structure pointer [Storage Devices], WRITE_USING_TOKEN_HEADER, WRITE_USING_TOKEN_HEADER structure [Storage Devices], scsi/PWRITE_USING_TOKEN_HEADER, scsi/WRITE_USING_TOKEN_HEADER, storage.write_using_token_header"
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,6 +42,8 @@ api_name:
  - PWRITE_USING_TOKEN_HEADER
  - WRITE_USING_TOKEN_HEADER
 ---
+
+# WRITE_USING_TOKEN_HEADER structure (scsi.h)
 
 ## -description
 

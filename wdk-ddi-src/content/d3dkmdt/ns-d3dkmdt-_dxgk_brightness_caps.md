@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_CAPS structure"]
 ms.keywords: DXGK_BRIGHTNESS_CAPS, DXGK_BRIGHTNESS_CAPS structure [Display Devices], _DXGK_BRIGHTNESS_CAPS, d3dkmdt/DXGK_BRIGHTNESS_CAPS, display.dxgk_brightness_caps
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_BRIGHTNESS_CAPS
 ---
 
-# _DXGK_BRIGHTNESS_CAPS structure
+# DXGK_BRIGHTNESS_CAPS structure (d3dkmdt.h)
+
+
 
 
 ## -description

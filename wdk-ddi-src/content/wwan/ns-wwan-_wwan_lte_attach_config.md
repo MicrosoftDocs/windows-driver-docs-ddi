@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["WWAN_LTE_ATTACH_CONFIG structure"]
 ms.keywords: _WWAN_LTE_ATTACH_CONFIG, WWAN_LTE_ATTACH_CONFIG, *PWWAN_LTE_ATTACH_CONFIG,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - WWAN_LTE_ATTACH_CONFIG
 ---
 
-# _WWAN_LTE_ATTACH_CONFIG structure
+# WWAN_LTE_ATTACH_CONFIG structure (wwan.h)
+
+
 
 
 ## -description

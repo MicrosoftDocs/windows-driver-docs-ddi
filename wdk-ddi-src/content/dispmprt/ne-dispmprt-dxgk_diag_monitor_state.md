@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_MONITOR_STATE enumeration
+# DXGK_DIAG_MONITOR_STATE enumeration (dispmprt.h)
+
+
 
 ## -description
 

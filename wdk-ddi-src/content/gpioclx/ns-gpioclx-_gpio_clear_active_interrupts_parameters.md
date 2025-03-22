@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure"]
 ms.keywords: "*PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO.gpio_clear_active_interrupts_parameters, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure [Parallel Ports], PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS
 ---
 
-# _GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure
+# GPIO_CLEAR_ACTIVE_INTERRUPTS_PARAMETERS structure (gpioclx.h)
+
+
 
 
 ## -description

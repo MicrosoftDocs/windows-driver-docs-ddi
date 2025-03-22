@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIENCRYPTED_BLOCK_INFO structure"]
 ms.keywords: D3DDDIENCRYPTED_BLOCK_INFO, D3DDDIENCRYPTED_BLOCK_INFO structure [Display Devices], D3D_other_Structs_ca22516f-415c-47ff-9ba5-b837171cf77e.xml, _D3DDDIENCRYPTED_BLOCK_INFO, d3dumddi/D3DDDIENCRYPTED_BLOCK_INFO, display.d3dddiencrypted_block_info
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIENCRYPTED_BLOCK_INFO is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIENCRYPTED_BLOCK_INFO
 ---
 
-# _D3DDDIENCRYPTED_BLOCK_INFO structure
+# D3DDDIENCRYPTED_BLOCK_INFO structure (d3dumddi.h)
+
+
 
 
 ## -description

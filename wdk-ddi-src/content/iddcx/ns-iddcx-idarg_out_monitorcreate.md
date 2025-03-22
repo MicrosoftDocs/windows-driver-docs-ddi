@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_OUT_MONITORCREATE structure"]
 ms.keywords: IDARG_OUT_MONITORCREATE, IDARG_OUT_MONITORCREATE structure [Display Devices], display.idarg_out_monitorcreate, iddcx/IDARG_OUT_MONITORCREATE
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_OUT_MONITORCREATE
 ---
 
-# IDARG_OUT_MONITORCREATE structure
+# IDARG_OUT_MONITORCREATE structure (iddcx.h)
+
+
 
 
 ## -description

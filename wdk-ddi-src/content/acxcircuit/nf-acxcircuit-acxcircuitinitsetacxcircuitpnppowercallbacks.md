@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitSetAcxCircuitPnpPowerCallbacks function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitSetAcxCircuitPnpPowerCallbacks** function sets the driver's PNP callbacks for the ACXCIRCUIT.

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure"]
 ms.keywords: D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure [Display Devices], _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, d3dkmthk/D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE, display.d3dkmt_activate_specific_diag_escape
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE
 ---
 
-# _D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure
+# D3DKMT_ACTIVATE_SPECIFIC_DIAG_ESCAPE structure (d3dkmthk.h)
+
+
 
 
 ## -description

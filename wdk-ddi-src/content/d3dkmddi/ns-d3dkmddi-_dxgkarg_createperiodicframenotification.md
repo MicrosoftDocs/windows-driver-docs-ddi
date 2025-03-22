@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION, DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_CREATEPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_CREATEPERIODICFRAMENOTIFICATION, display.dxgkarg_createperiodicframenotification"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_CREATEPERIODICFRAMENOTIFICATION
 ---
 
-# _DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure
+# DXGKARG_CREATEPERIODICFRAMENOTIFICATION structure (d3dkmddi.h)
+
+
 
 
 ## -description

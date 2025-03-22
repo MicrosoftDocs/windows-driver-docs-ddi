@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["REGISTER_COMPOSITE_DEVICE structure"]
 ms.keywords: "*PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], REGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE structure [Buses], _REGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, usbdlib/PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE"
 req.header: usbdlib.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - REGISTER_COMPOSITE_DEVICE
 ---
 
-# _REGISTER_COMPOSITE_DEVICE structure
+# REGISTER_COMPOSITE_DEVICE structure (usbdlib.h)
+
+
 
 
 ## -description

@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH enumeration
+# DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH enumeration (dispmprt.h)
+
+
 
 The **DXGK_DIAG_DISPLAY_HARDWARE_BANDWIDTH** enum provides hardware bandwidth information during diagnostic data collection.
 

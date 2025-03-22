@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugPosition structure"]
 ms.keywords: ScriptDebugPosition, ,
 req.header: dbgmodel.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - ScriptDebugPosition
 ---
 
-# ScriptDebugPosition structure
+# ScriptDebugPosition structure (dbgmodel.h)
+
+
 
 
 ## -description

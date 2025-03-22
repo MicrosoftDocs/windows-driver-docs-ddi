@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_KSR_MEMORY_RANGE structure"]
 ms.keywords: DXGK_KSR_MEMORY_RANGE, DXGK_KSR_MEMORY_RANGE, *PDXGK_KSR_MEMORY_RANGE,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_KSR_MEMORY_RANGE structure
+# DXGK_KSR_MEMORY_RANGE structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 07/29/2022
 keywords: ["FLT_CALLBACK_DATA structure"]
 ms.keywords: "*PFLT_CALLBACK_DATA, FLT_CALLBACK_DATA, FLT_CALLBACK_DATA structure [Installable File System Drivers], FltSystemStructures_36133023-b06f-46c9-87fc-04543cade79a.xml, PFLT_CALLBACK_DATA, PFLT_CALLBACK_DATA structure pointer [Installable File System Drivers], _FLT_CALLBACK_DATA, fltkernel/FLT_CALLBACK_DATA, fltkernel/PFLT_CALLBACK_DATA, ifsk.flt_callback_data"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FLT_CALLBACK_DATA
 ---
 
-# FLT_CALLBACK_DATA structure
+# FLT_CALLBACK_DATA structure (fltkernel.h)
+
+
 
 ## -description
 

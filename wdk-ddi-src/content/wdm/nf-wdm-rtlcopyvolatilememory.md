@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlCopyVolatileMemory
 ---
 
+# RtlCopyVolatileMemory function (wdm.h)
+
 ## -description
 
 **RtlCopyVolatileMemory** function provides [**RtlCopyMemory**](nf-wdm-rtlcopymemory.md) behavior (for example, copying memory from one location to another) in situations where the developer needs to be sure that the copy operation occurs (for example, isn't subject to compiler optimizations).

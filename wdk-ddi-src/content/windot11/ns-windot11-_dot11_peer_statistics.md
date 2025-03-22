@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_PEER_STATISTICS structure"]
 ms.keywords: "*PDOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS, DOT11_PEER_STATISTICS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_5e07a8dd-79f1-4cba-89d3-f70e04caad12.xml, PDOT11_PEER_STATISTICS, PDOT11_PEER_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_STATISTICS, netvista.dot11_peer_statistics, windot11/DOT11_PEER_STATISTICS, windot11/PDOT11_PEER_STATISTICS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_PEER_STATISTICS
 ---
 
-# _DOT11_PEER_STATISTICS structure
+# DOT11_PEER_STATISTICS structure (windot11.h)
+
+
 
 
 ## -description

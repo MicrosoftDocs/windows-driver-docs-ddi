@@ -4,6 +4,7 @@ title: DXGK_VIRTUALMACHINEDATAFLAGS (d3dkmddi.h)
 description: The virtual machine data flags.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - DXGK_VIRTUALMACHINEDATAFLAGS
 ---
 
-# DXGK_VIRTUALMACHINEDATAFLAGS structure
+# DXGK_VIRTUALMACHINEDATAFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

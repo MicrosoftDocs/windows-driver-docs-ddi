@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MONITORSOURCEMODESET_INTERFACE structure"]
 ms.keywords: DXGK_MONITORSOURCEMODESET_INTERFACE, DXGK_MONITORSOURCEMODESET_INTERFACE structure [Display Devices], DmStructs_c4c7e928-09db-424f-8ac7-7efffc71d06e.xml, _DXGK_MONITORSOURCEMODESET_INTERFACE, d3dkmddi/DXGK_MONITORSOURCEMODESET_INTERFACE, display.dxgk_monitorsourcemodeset_interface
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MONITORSOURCEMODESET_INTERFACE
 ---
 
-# _DXGK_MONITORSOURCEMODESET_INTERFACE structure
+# DXGK_MONITORSOURCEMODESET_INTERFACE structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_DESTROYALLOCATIONFLAGS structure"]
 ms.keywords: DXGK_DESTROYALLOCATIONFLAGS, DXGK_DESTROYALLOCATIONFLAGS structure [Display Devices], DmStructs_acc32f8d-3d16-493e-be05-e739bc635bd0.xml, _DXGK_DESTROYALLOCATIONFLAGS, d3dkmddi/DXGK_DESTROYALLOCATIONFLAGS, display.dxgk_destroyallocationflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_DESTROYALLOCATIONFLAGS
 ---
 
-# _DXGK_DESTROYALLOCATIONFLAGS structure
+# DXGK_DESTROYALLOCATIONFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

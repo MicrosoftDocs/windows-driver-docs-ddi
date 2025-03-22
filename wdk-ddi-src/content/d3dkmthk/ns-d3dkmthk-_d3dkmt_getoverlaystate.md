@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_GETOVERLAYSTATE structure"]
 ms.keywords: D3DKMT_GETOVERLAYSTATE, D3DKMT_GETOVERLAYSTATE structure [Display Devices], OpenGL_Structs_c9bee52b-d6ba-45ee-9af6-b795685715bb.xml, _D3DKMT_GETOVERLAYSTATE, d3dkmthk/D3DKMT_GETOVERLAYSTATE, display.d3dkmt_getoverlaystate
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_GETOVERLAYSTATE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_GETOVERLAYSTATE
 ---
 
-# _D3DKMT_GETOVERLAYSTATE structure
+# D3DKMT_GETOVERLAYSTATE structure (d3dkmthk.h)
+
+
 
 
 ## -description

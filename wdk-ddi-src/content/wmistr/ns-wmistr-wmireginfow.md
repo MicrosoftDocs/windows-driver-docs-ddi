@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WMIREGINFOW structure"]
 ms.keywords: "*PWMIREGINFOW, PWMIREGINFOW, PWMIREGINFOW structure pointer [Kernel-Mode Driver Architecture], WMIREGINFO, WMIREGINFOW, WMIREGINFOW structure [Kernel-Mode Driver Architecture], kernel.wmireginfo, kstruct_d_2c5c2f97-d385-4cd6-8b0f-c27d4b21ea11.xml, wmistr/PWMIREGINFOW, wmistr/WMIREGINFOW"
 req.header: wmistr.h
+req.construct-type: structure
 req.include-header: Wmistr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WMIREGINFOW
 ---
 
-# WMIREGINFOW structure
+# WMIREGINFOW structure (wmistr.h)
+
+
 
 
 ## -description

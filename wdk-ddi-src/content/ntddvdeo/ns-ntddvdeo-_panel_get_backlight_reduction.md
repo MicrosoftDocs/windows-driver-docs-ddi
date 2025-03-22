@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_GET_BACKLIGHT_REDUCTION structure"]
 ms.keywords: _PANEL_GET_BACKLIGHT_REDUCTION, *PPANEL_GET_BACKLIGHT_REDUCTION, PANEL_GET_BACKLIGHT_REDUCTION,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PANEL_GET_BACKLIGHT_REDUCTION
 ---
 
-# _PANEL_GET_BACKLIGHT_REDUCTION structure
+# PANEL_GET_BACKLIGHT_REDUCTION structure (ntddvdeo.h)
+
+
 
 
 ## -description

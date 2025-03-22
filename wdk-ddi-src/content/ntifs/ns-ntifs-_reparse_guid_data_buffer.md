@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["REPARSE_GUID_DATA_BUFFER structure"]
 ms.keywords: "*PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER, PREPARSE_GUID_DATA_BUFFER structure pointer [Installable File System Drivers], REPARSE_GUID_DATA_BUFFER, REPARSE_GUID_DATA_BUFFER structure [Installable File System Drivers], _REPARSE_GUID_DATA_BUFFER, fileinformationstructures_d020fad8-2a4b-4fe6-a1ca-bbf7575418b5.xml, ifsk.reparse_guid_data_buffer, ntifs/PREPARSE_GUID_DATA_BUFFER, ntifs/REPARSE_GUID_DATA_BUFFER"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - REPARSE_GUID_DATA_BUFFER
 ---
 
-# REPARSE_GUID_DATA_BUFFER structure
+# REPARSE_GUID_DATA_BUFFER structure (ntifs.h)
+
+
 
 ## -description
 

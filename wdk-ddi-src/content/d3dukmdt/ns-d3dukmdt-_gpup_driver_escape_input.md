@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["GPUP_DRIVER_ESCAPE_INPUT structure"]
 ms.keywords: _GPUP_DRIVER_ESCAPE_INPUT, GPUP_DRIVER_ESCAPE_INPUT, *PGPUP_DRIVER_ESCAPE_INPUT,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _GPUP_DRIVER_ESCAPE_INPUT structure
+# GPUP_DRIVER_ESCAPE_INPUT structure (d3dukmdt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure"]
 ms.keywords: "*PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure pointer [Buses], USBC_DEVICE_CONFIGURATION_INTERFACE_V1, USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure [Buses], _USBC_DEVICE_CONFIGURATION_INTERFACE_V1, buses.usbc_device_configuration_interface_v1, usbbusif/PUSBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbbusif/USBC_DEVICE_CONFIGURATION_INTERFACE_V1, usbinterKR_f3f8ee06-a861-4787-a611-766308347395.xml"
 req.header: usbbusif.h
+req.construct-type: structure
 req.include-header: Usbbusif.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBC_DEVICE_CONFIGURATION_INTERFACE_V1
 ---
 
-# _USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure
+# USBC_DEVICE_CONFIGURATION_INTERFACE_V1 structure (usbbusif.h)
+
+
 
 
 ## -description

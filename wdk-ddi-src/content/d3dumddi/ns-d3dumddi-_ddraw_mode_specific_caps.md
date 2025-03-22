@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDRAW_MODE_SPECIFIC_CAPS structure"]
 ms.keywords: D3D_other_Structs_21634851-4693-46c9-b742-f2001e63f349.xml, DDRAW_MODE_SPECIFIC_CAPS, DDRAW_MODE_SPECIFIC_CAPS structure [Display Devices], _DDRAW_MODE_SPECIFIC_CAPS, d3dumddi/DDRAW_MODE_SPECIFIC_CAPS, display.ddraw_mode_specific_caps
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DDRAW_MODE_SPECIFIC_CAPS
 ---
 
-# _DDRAW_MODE_SPECIFIC_CAPS structure
+# DDRAW_MODE_SPECIFIC_CAPS structure (d3dumddi.h)
+
+
 
 
 ## -description

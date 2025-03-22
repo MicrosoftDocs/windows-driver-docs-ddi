@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["VPD_THIRD_PARTY_COPY_PAGE structure"]
 ms.keywords: "*PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE, PVPD_THIRD_PARTY_COPY_PAGE structure pointer [Storage Devices], VPD_THIRD_PARTY_COPY_PAGE, VPD_THIRD_PARTY_COPY_PAGE structure [Storage Devices], _VPD_THIRD_PARTY_COPY_PAGE, scsi/PVPD_THIRD_PARTY_COPY_PAGE, scsi/VPD_THIRD_PARTY_COPY_PAGE, storage.vpd_third_party_copy_page"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - VPD_THIRD_PARTY_COPY_PAGE
 ---
 
-# _VPD_THIRD_PARTY_COPY_PAGE structure (storport.h)
+# VPD_THIRD_PARTY_COPY_PAGE structure (storport.h)
+
+
 
 
 ## -description

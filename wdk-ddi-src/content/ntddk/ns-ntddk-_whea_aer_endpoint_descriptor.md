@@ -7,6 +7,7 @@ ms.date: 01/11/2023
 keywords: ["WHEA_AER_ENDPOINT_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR, PWHEA_AER_ENDPOINT_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_ENDPOINT_DESCRIPTOR, WHEA_AER_ENDPOINT_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/PWHEA_AER_ENDPOINT_DESCRIPTOR, ntddk/WHEA_AER_ENDPOINT_DESCRIPTOR, whea.whea_aer_endpoint_descriptor, whearef_06cb1486-51b0-457d-a0d0-b902c6c43cfc.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_AER_ENDPOINT_DESCRIPTOR
  - WHEA_AER_ENDPOINT_DESCRIPTOR
 ---
+
+# WHEA_AER_ENDPOINT_DESCRIPTOR structure (ntddk.h)
 
 ## -description
 

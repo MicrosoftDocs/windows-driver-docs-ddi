@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_GET_LOCAL_HOST_INFORMATION structure"]
 ms.keywords: 1394/IRB_REQ_GET_LOCAL_HOST_INFORMATION, IEEE.irb_req_get_local_host_information, IRB_REQ_GET_LOCAL_HOST_INFORMATION, IRB_REQ_GET_LOCAL_HOST_INFORMATION structure [Buses], _IRB_REQ_GET_LOCAL_HOST_INFORMATION
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_GET_LOCAL_HOST_INFORMATION
 ---
 
-# _IRB_REQ_GET_LOCAL_HOST_INFORMATION structure
+# IRB_REQ_GET_LOCAL_HOST_INFORMATION structure (1394.h)
+
+
 
 
 ## -description

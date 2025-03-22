@@ -6,6 +6,7 @@ ms.date: 01/17/2023
 keywords: ["D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_1DDI_VIDEODEVICEFUNCS, D3DWDDM2_1DDI_VIDEODEVICEFUNCS,
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure
+# D3DWDDM2_1DDI_VIDEODEVICEFUNCS structure (d3d10umddi.h)
+
+
 
 ## -description
 

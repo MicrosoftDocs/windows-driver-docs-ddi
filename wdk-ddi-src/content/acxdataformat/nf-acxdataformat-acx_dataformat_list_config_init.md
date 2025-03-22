@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_LIST_CONFIG_INIT function (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_LIST_CONFIG_INIT** function initializes an [ACX_DATAFORMAT_LIST_CONFIG](ns-acxdataformat-acx_dataformat_list_config.md) structure for use by an audio class extension (ACX) driver.

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_DIAGNOSTIC_CATEGORIES structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_CATEGORIES, DXGK_DIAGNOSTIC_CATEGORIES,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_DIAGNOSTIC_CATEGORIES
 ---
 
-# _DXGK_DIAGNOSTIC_CATEGORIES structure
+# DXGK_DIAGNOSTIC_CATEGORIES structure (dispmprt.h)
+
+
 
 
 ## -description

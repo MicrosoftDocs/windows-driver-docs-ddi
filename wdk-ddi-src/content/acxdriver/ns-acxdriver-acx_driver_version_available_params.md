@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DRIVER_VERSION_AVAILABLE_PARAMS structure (acxdriver.h)
+
 ## -description
 
 The **ACX_DRIVER_VERSION_AVAILABLE_PARAMS** structure is passed as a parameter to the [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md) function.

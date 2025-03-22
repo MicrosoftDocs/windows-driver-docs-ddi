@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_IPv4_ADDRESS_LIST structure"]
 ms.keywords: "*PBDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST, BDA_IPv4_ADDRESS_LIST structure [Streaming Media Devices], PBDA_IPv4_ADDRESS_LIST, PBDA_IPv4_ADDRESS_LIST structure pointer [Streaming Media Devices], _BDA_IPv4_ADDRESS_LIST, bdatypes/BDA_IPv4_ADDRESS_LIST, bdatypes/PBDA_IPv4_ADDRESS_LIST, stream.bda_ipv4_address_list"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_IPv4_ADDRESS_LIST
 ---
 
-# _BDA_IPv4_ADDRESS_LIST structure
+# BDA_IPv4_ADDRESS_LIST structure (bdatypes.h)
+
+
 
 
 ## -description

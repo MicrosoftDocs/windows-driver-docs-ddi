@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxManagerAddCompositeTemplate function (acxmanager.h)
+
 ## -description
 
 The **AcxManagerAddCompositeTemplate** function adds the specified composite template to the specified **ACXMANAGER**.

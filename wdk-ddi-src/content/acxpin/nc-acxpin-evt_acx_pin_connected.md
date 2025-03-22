@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_PIN_CONNECTED function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_PIN_CONNECTED** callback function is implemented by the driver and is called when the circuit bridge pin is connected to bridge pin of another circuit.

@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["WHEA_ERROR_RECORD_HEADER_VALIDBITS structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS union pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS union [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/WHEA_ERROR_RECORD_HEADER_VALIDBITS, whea.whea_error_record_header_validbits, whearef_66b0c2f7-6fad-4cdb-ac15-f4d942d208e1.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_RECORD_HEADER_VALIDBITS
  - WHEA_ERROR_RECORD_HEADER_VALIDBITS
 ---
+
+# WHEA_ERROR_RECORD_HEADER_VALIDBITS structure (ntddk.h)
 
 ## -description
 

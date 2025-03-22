@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamAddEvents function (acxstreams.h)
+
 ## -description
 
 **AcxStreamAddEvents** adds events to an existing stream using an ACXEVENT object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

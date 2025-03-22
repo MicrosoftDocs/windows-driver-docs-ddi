@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinNotifyDataFormatChange function (acxpin.h)
+
 ## -description
 
 The **AcxPinNotifyDataFormatChange** function is called to generate a data format change notification event for the specified pin.

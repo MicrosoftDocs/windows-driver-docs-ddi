@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FILE_PROVIDER_EXTERNAL_INFO_V1 structure"]
 ms.keywords: "*PFILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO, FILE_PROVIDER_EXTERNAL_INFO_V1, FILE_PROVIDER_EXTERNAL_INFO_V1 structure [Installable File System Drivers], PFILE_PROVIDER_EXTERNAL_INFO_V1, PFILE_PROVIDER_EXTERNAL_INFO_V1 structure pointer [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V1, ifsk.file_provider_external_info_v1, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V1, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V1"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Windows.h, WinIoCtl.h, Ntifs.h, Windows.h, WinIoCtl.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -45,7 +46,9 @@ api_name:
  - FILE_PROVIDER_EXTERNAL_INFO_V1
 ---
 
-# FILE_PROVIDER_EXTERNAL_INFO_V1 structure
+# FILE_PROVIDER_EXTERNAL_INFO_V1 structure (ntifs.h)
+
+
 
 ## -description
 

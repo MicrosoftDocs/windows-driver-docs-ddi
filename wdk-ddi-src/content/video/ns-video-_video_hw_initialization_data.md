@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_HW_INITIALIZATION_DATA structure"]
 ms.keywords: "*PVIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA, PVIDEO_HW_INITIALIZATION_DATA structure pointer [Display Devices], VIDEO_HW_INITIALIZATION_DATA, VIDEO_HW_INITIALIZATION_DATA structure [Display Devices], Video_Structs_1ab4d104-315b-4b04-b9dc-3088437cc6d3.xml, _VIDEO_HW_INITIALIZATION_DATA, display.video_hw_initialization_data, video/PVIDEO_HW_INITIALIZATION_DATA, video/VIDEO_HW_INITIALIZATION_DATA"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_HW_INITIALIZATION_DATA
 ---
 
-# _VIDEO_HW_INITIALIZATION_DATA structure
+# VIDEO_HW_INITIALIZATION_DATA structure (video.h)
+
+
 
 
 ## -description

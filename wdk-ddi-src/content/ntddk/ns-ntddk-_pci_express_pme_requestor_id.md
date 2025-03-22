@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_PME_REQUESTOR_ID structure"]
 ms.keywords: "*PPCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, PCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], _PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_EXPRESS_PME_REQUESTOR_ID
 ---
 
-# _PCI_EXPRESS_PME_REQUESTOR_ID structure (ntddk.h)
+# PCI_EXPRESS_PME_REQUESTOR_ID structure (ntddk.h)
+
+
 
 
 ## -description

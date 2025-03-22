@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_BUFFERBLT structure"]
 ms.keywords: D3DDDIARG_BUFFERBLT, D3DDDIARG_BUFFERBLT structure [Display Devices], UMDisplayDriver_param_Structs_08885ff3-963c-4067-bddc-696b9cc96e1b.xml, _D3DDDIARG_BUFFERBLT, d3dumddi/D3DDDIARG_BUFFERBLT, display.d3dddiarg_bufferblt
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_BUFFERBLT
 ---
 
-# _D3DDDIARG_BUFFERBLT structure
+# D3DDDIARG_BUFFERBLT structure (d3dumddi.h)
+
+
 
 
 ## -description

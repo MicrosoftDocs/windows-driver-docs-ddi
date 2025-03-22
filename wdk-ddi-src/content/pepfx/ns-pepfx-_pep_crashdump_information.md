@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_CRASHDUMP_INFORMATION structure"]
 ms.keywords: "*PPEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION, PEP_CRASHDUMP_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_CRASHDUMP_INFORMATION, PPEP_CRASHDUMP_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_CRASHDUMP_INFORMATION, kernel.pep_crashdump_information, pepfx/PEP_CRASHDUMP_INFORMATION, pepfx/PPEP_CRASHDUMP_INFORMATION"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_CRASHDUMP_INFORMATION
 ---
 
-# _PEP_CRASHDUMP_INFORMATION structure (pepfx.h)
+# PEP_CRASHDUMP_INFORMATION structure (pepfx.h)
+
+
 
 
 ## -description

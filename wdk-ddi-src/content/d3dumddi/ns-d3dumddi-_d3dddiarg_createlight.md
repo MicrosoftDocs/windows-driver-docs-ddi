@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CREATELIGHT structure"]
 ms.keywords: D3DDDIARG_CREATELIGHT, D3DDDIARG_CREATELIGHT structure [Display Devices], UMDisplayDriver_param_Structs_683ae423-2e77-49e2-8028-3980a2f1a32d.xml, _D3DDDIARG_CREATELIGHT, d3dumddi/D3DDDIARG_CREATELIGHT, display.d3dddiarg_createlight
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CREATELIGHT
 ---
 
-# _D3DDDIARG_CREATELIGHT structure
+# D3DDDIARG_CREATELIGHT structure (d3dumddi.h)
+
+
 
 
 ## -description

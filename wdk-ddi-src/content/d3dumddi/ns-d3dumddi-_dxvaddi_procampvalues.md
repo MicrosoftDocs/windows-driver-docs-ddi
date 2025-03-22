@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_PROCAMPVALUES structure"]
 ms.keywords: DXVA2_Structs_b731e88e-8f64-4199-9f75-9b5cba380aa8.xml, DXVADDI_PROCAMPVALUES, DXVADDI_PROCAMPVALUES structure [Display Devices], _DXVADDI_PROCAMPVALUES, d3dumddi/DXVADDI_PROCAMPVALUES, display.dxvaddi_procampvalues
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_PROCAMPVALUES
 ---
 
-# _DXVADDI_PROCAMPVALUES structure
+# DXVADDI_PROCAMPVALUES structure (d3dumddi.h)
+
+
 
 
 ## -description

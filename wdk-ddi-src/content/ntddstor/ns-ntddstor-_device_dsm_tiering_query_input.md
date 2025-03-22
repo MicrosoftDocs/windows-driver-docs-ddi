@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_TIERING_QUERY_INPUT structure"]
 ms.keywords: DEVICE_DSM_TIERING_QUERY_INPUT, DEVICE_DSM_TIERING_QUERY_INPUT, *PDEVICE_DSM_TIERING_QUERY_INPUT, DEVICE_DSM_TIERING_QUERY_PARAMETERS, *PDEVICE_DSM_TIERING_QUERY_PARAMETERS,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - DEVICE_DSM_TIERING_QUERY_INPUT
 ---
 
-# DEVICE_DSM_TIERING_QUERY_INPUT structure
+# DEVICE_DSM_TIERING_QUERY_INPUT structure (ntddstor.h)
+
+
 
 
 ## -description

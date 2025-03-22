@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIO_POSITION structure"]
 ms.keywords: "*PKSAUDIO_POSITION, KSAUDIO_POSITION, KSAUDIO_POSITION structure [Audio Devices], PKSAUDIO_POSITION, PKSAUDIO_POSITION structure pointer [Audio Devices], aud-prop_0518af7c-0c1d-4710-8879-43bb42e1ba2a.xml, audio.ksaudio_position, ksmedia/KSAUDIO_POSITION, ksmedia/PKSAUDIO_POSITION"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSAUDIO_POSITION
 ---
 
-# KSAUDIO_POSITION structure
+# KSAUDIO_POSITION structure (ksmedia.h)
+
+
 
 
 ## -description

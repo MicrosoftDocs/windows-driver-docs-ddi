@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["FILE_REMOTE_PROTOCOL_INFORMATION structure"]
 ms.keywords: FILE_REMOTE_PROTOCOL_INFORMATION, FILE_REMOTE_PROTOCOL_INFORMATION, *PFILE_REMOTE_PROTOCOL_INFORMATION,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - FILE_REMOTE_PROTOCOL_INFORMATION
 ---
 
-# FILE_REMOTE_PROTOCOL_INFORMATION structure
+# FILE_REMOTE_PROTOCOL_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

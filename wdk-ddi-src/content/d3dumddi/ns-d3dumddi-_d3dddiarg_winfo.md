@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_WINFO structure"]
 ms.keywords: D3DDDIARG_WINFO, D3DDDIARG_WINFO structure [Display Devices], UMDisplayDriver_param_Structs_6ab282fa-6a76-4712-83d5-77638adb2b7a.xml, _D3DDDIARG_WINFO, d3dumddi/D3DDDIARG_WINFO, display.d3dddiarg_winfo
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_WINFO
 ---
 
-# _D3DDDIARG_WINFO structure
+# D3DDDIARG_WINFO structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugEventInformation structure"]
 ms.keywords: ScriptDebugEventInformation, ,
 req.header: dbgmodel.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - ScriptDebugEventInformation
 ---
 
-# ScriptDebugEventInformation structure
+# ScriptDebugEventInformation structure (dbgmodel.h)
+
+
 
 
 ## -description

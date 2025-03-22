@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_CONFIG_INIT function (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_CONFIG_INIT** function initializes an [ACX_DATAFORMAT_CONFIG](ns-acxdataformat-acx_dataformat_config.md) structure.

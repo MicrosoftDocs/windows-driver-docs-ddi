@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILTER_AGGREGATE_STANDARD_INFORMATION structure"]
 ms.keywords: "*PFILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], FltSystemStructures_2b06b94c-69dc-4b0c-a9bc-56bba1592036.xml, PFILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION, ifsk.filter_aggregate_standard_information"
 req.header: fltuserstructures.h
+req.construct-type: structure
 req.include-header: FltUser.h, FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - FILTER_AGGREGATE_STANDARD_INFORMATION
 ---
 
-# _FILTER_AGGREGATE_STANDARD_INFORMATION structure
+# FILTER_AGGREGATE_STANDARD_INFORMATION structure (fltuserstructures.h)
+
+
 
 
 ## -description

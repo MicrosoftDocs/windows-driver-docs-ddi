@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["DMA_TRANSFER_INFO_V2 structure"]
 ms.keywords: _DMA_TRANSFER_INFO_V2, DMA_TRANSFER_INFO_V2, *PDMA_TRANSFER_INFO_V2,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809.
@@ -40,7 +41,9 @@ api_name:
  - DMA_TRANSFER_INFO_V2
 ---
 
-# _DMA_TRANSFER_INFO_V2 structure
+# DMA_TRANSFER_INFO_V2 structure (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/16/2023
 keywords: ["OPLOCK_KEY_CONTEXT structure"]
 ms.keywords: "*POPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT, OPLOCK_KEY_CONTEXT structure [Installable File System Drivers], OPLOCK_KEY_FLAG_PARENT_KEY, OPLOCK_KEY_FLAG_TARGET_KEY, OPLOCK_KEY_VERSION_WIN7, OPLOCK_KEY_VERSION_WIN8, POPLOCK_KEY_CONTEXT, POPLOCK_KEY_CONTEXT structure pointer [Installable File System Drivers], _OPLOCK_KEY_CONTEXT, ifsk.oplock_key_context, ntddk/OPLOCK_KEY_CONTEXT, ntddk/POPLOCK_KEY_CONTEXT"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting in Windows 8.
@@ -44,6 +45,8 @@ api_name:
  - POPLOCK_KEY_CONTEXT
  - OPLOCK_KEY_CONTEXT
 ---
+
+# OPLOCK_KEY_CONTEXT structure (ntddk.h)
 
 ## -description
 

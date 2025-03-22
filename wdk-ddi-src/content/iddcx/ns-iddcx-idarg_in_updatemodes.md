@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IDARG_IN_UPDATEMODES structure"]
 ms.keywords: IDARG_IN_UPDATEMODES, IDARG_IN_UPDATEMODES structure [Display Devices], display.idarg_in_updatemodes, iddcx/IDARG_IN_UPDATEMODES
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IDARG_IN_UPDATEMODES
 ---
 
-# IDARG_IN_UPDATEMODES structure
+# IDARG_IN_UPDATEMODES structure (iddcx.h)
+
+
 
 ## -description
 

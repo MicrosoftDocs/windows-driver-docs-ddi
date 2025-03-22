@@ -7,6 +7,7 @@ ms.date: 02/07/2018
 keywords: ["NET_DRIVER_GLOBALS structure"]
 ms.keywords: _NET_DRIVER_GLOBALS, *PNET_DRIVER_GLOBALS, NET_DRIVER_GLOBALS,
 req.header: netadaptercxtypes.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - NET_DRIVER_GLOBALS
 ---
 
-# _NET_DRIVER_GLOBALS structure
+# NET_DRIVER_GLOBALS structure (netadaptercxtypes.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 03/04/2022
 keywords: ["D3DKMT_NODE_PERFDATA structure"]
 ms.keywords: _D3DKMT_NODE_PERFDATA, D3DKMT_NODE_PERFDATA,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - D3DKMT_NODE_PERFDATA
 ---
 
-# _D3DKMT_NODE_PERFDATA structure
+# D3DKMT_NODE_PERFDATA structure (d3dkmthk.h)
+
+
 
 ## -description
 

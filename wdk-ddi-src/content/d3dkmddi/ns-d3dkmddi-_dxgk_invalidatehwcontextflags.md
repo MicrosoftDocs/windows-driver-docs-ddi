@@ -6,6 +6,7 @@ ms.date: 10/13/2021
 keywords: ["DXGK_INVALIDATEHWCONTEXTFLAGS structure"]
 ms.keywords: _DXGK_INVALIDATEHWCONTEXTFLAGS, DXGK_INVALIDATEHWCONTEXTFLAGS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_INVALIDATEHWCONTEXTFLAGS structure
+# DXGK_INVALIDATEHWCONTEXTFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

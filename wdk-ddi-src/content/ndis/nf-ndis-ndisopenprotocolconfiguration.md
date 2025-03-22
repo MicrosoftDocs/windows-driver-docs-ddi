@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisOpenProtocolConfiguration
 ---
 
-# NdisOpenProtocolConfiguration function
+# NdisOpenProtocolConfiguration function (ndis.h)
+
+
 
 ## -description
 

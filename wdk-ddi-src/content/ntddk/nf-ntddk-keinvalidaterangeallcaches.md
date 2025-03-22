@@ -42,7 +42,9 @@ helpviewer_keywords:
  - KeInvalidateRangeAllCaches
 ---
 
-# KeInvalidateRangeAllCaches function
+# KeInvalidateRangeAllCaches function (ntddk.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS stru
 ms.date: 04/10/2024
 keywords: ["D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -41,7 +42,9 @@ api_name:
  - D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS
 ---
 
-# D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure
+# D3DKMT_FLIPMODEL_PRESENTHISTORYTOKENFLAGS structure (d3dkmthk.h)
+
+
 
 ## -description
 

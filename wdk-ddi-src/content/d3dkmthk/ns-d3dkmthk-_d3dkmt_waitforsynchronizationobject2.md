@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], OpenGL_Structs_fb1ca5e1-799c-49c7-844d-25954fd0db64.xml, _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, d3dkmthk/D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dkmt_waitforsynchronizationobject2
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2
 ---
 
-# _D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure
+# D3DKMT_WAITFORSYNCHRONIZATIONOBJECT2 structure (d3dkmthk.h)
+
+
 
 
 ## -description

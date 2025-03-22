@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["RANGEVALUE structure"]
 ms.keywords: "*PRANGEVALUE, MicroDrv_8569166c-7a4e-47eb-beed-57c715102258.xml, PRANGEVALUE, PRANGEVALUE structure pointer [Imaging Devices], RANGEVALUE, RANGEVALUE structure [Imaging Devices], _RANGEVALUE, image.rangevalue, wiamicro/PRANGEVALUE, wiamicro/RANGEVALUE"
 req.header: wiamicro.h
+req.construct-type: structure
 req.include-header: Wiamicro.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RANGEVALUE
 ---
 
-# _RANGEVALUE structure
+# RANGEVALUE structure (wiamicro.h)
+
+
 
 
 ## -description

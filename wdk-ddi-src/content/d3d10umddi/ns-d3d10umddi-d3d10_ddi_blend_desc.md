@@ -7,6 +7,7 @@ ms.date: 04/01/2021
 keywords: ["D3D10_DDI_BLEND_DESC structure"]
 ms.keywords: D3D10_DDI_BLEND_DESC, D3D10_DDI_BLEND_DESC structure [Display Devices], UMDisplayDriver_Dx10param_Structs_8dd04d52-105b-4cc3-be87-5900625dcd6d.xml, d3d10umddi/D3D10_DDI_BLEND_DESC, display.d3d10_ddi_blend_desc
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_BLEND_DESC
 ---
 
-# D3D10_DDI_BLEND_DESC structure
+# D3D10_DDI_BLEND_DESC structure (d3d10umddi.h)
+
+
 
 ## -description
 

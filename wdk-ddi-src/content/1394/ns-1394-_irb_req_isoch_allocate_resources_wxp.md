@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, 1394/PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IEEE.irb_req_isoch_allocate_resources_wxp, IRB_REQ_ISOCH_ALLOCATE_RESOURCES, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure [Buses], PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP, PIRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure pointer [Buses], _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP
 ---
 
-# _IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure
+# IRB_REQ_ISOCH_ALLOCATE_RESOURCES_WXP structure (1394.h)
+
+
 
 
 ## -description

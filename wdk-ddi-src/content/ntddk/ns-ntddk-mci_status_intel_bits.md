@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS_INTEL_BITS structure"]
 ms.keywords: MCI_STATUS_INTEL_BITS, MCI_STATUS_INTEL_BITS, *PMCI_STATUS_INTEL_BITS,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MCI_STATUS_INTEL_BITS
 ---
 
-# MCI_STATUS_INTEL_BITS structure
+# MCI_STATUS_INTEL_BITS structure (ntddk.h)
+
+
 
 
 ## -description

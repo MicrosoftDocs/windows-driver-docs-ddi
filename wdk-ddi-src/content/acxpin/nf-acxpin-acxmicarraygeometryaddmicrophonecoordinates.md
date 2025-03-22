@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxMicArrayGeometryAddMicrophoneCoordinates function (acxpin.h)
+
 ## -description
 
 The **AcxMicArrayGeometryAddMicrophoneCoordinates** function adds physical coordinates to a microphone array geometry.

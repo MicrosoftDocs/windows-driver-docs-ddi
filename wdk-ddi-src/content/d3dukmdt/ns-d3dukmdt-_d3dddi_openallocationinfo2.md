@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_OPENALLOCATIONINFO2 structure"]
 ms.keywords: _D3DDDI_OPENALLOCATIONINFO2, D3DDDI_OPENALLOCATIONINFO2,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDI_OPENALLOCATIONINFO2 structure
+# D3DDDI_OPENALLOCATIONINFO2 structure (d3dukmdt.h)
+
+
 
 
 ## -description

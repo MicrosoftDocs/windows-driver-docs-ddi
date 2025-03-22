@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagTRANSPORTSTATUS structure"]
 ms.keywords: "*PTRANSPORTSTATUS, PTRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], TRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, stream.transportstatus, tagTRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TRANSPORTSTATUS
 ---
 
-# tagTRANSPORTSTATUS structure
+# tagTRANSPORTSTATUS structure (ksmedia.h)
+
+
 
 
 ## -description

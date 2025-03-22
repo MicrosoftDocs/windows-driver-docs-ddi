@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PCI_EXPRESS_PTM_CAPABILITY structure"]
 ms.keywords: _PCI_EXPRESS_PTM_CAPABILITY, PCI_EXPRESS_PTM_CAPABILITY, *PPCI_EXPRESS_PTM_CAPABILITY,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - PCI_EXPRESS_PTM_CAPABILITY
 ---
 
-# _PCI_EXPRESS_PTM_CAPABILITY structure
+# PCI_EXPRESS_PTM_CAPABILITY structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_ATTRIBUTE_TAG_INFORMATION structure"]
 ms.keywords: "*PFILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION, FILE_ATTRIBUTE_TAG_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ATTRIBUTE_TAG_INFORMATION, PFILE_ATTRIBUTE_TAG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ATTRIBUTE_TAG_INFORMATION, kernel.file_attribute_tag_information, kstruct_b_d990c73e-3b75-4c00-954d-a16cca892895.xml, ntddk/FILE_ATTRIBUTE_TAG_INFORMATION, ntddk/PFILE_ATTRIBUTE_TAG_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_ATTRIBUTE_TAG_INFORMATION
 ---
 
-# _FILE_ATTRIBUTE_TAG_INFORMATION structure
+# FILE_ATTRIBUTE_TAG_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

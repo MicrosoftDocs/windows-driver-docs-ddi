@@ -8,6 +8,7 @@ ms.date: 07/11/2018
 keywords: ["PrintPropertyValue structure"]
 ms.keywords: PrintPropertyValue, PrintPropertyValue structure [Print Devices], print.printpropertyvalue, winspool/PrintPropertyValue
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PrintPropertyValue
 ---
 
-# PrintPropertyValue structure
+# PrintPropertyValue structure (winspool.h)
+
+
 
 
 ## -description

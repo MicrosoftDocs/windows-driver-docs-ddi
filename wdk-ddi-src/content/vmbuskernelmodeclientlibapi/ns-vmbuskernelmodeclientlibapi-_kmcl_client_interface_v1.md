@@ -7,6 +7,7 @@ ms.date: 03/24/2022
 keywords: ["KMCL_CLIENT_INTERFACE_V1 structure"]
 ms.keywords: _KMCL_CLIENT_INTERFACE_V1, KMCL_CLIENT_INTERFACE_V1, *PKMCL_CLIENT_INTERFACE_V1,
 req.header: vmbuskernelmodeclientlibapi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -40,7 +41,9 @@ api_name:
  - KMCL_SERVER_ONLY_METHODS_V5
 ---
 
-# _KMCL_CLIENT_INTERFACE_V1 structure
+# KMCL_SERVER_ONLY_METHODS_V5 structure (vmbuskernelmodeclientlibapi.h)
+
+
 
 
 ## -description

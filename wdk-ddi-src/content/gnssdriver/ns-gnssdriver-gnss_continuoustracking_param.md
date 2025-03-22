@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_CONTINUOUSTRACKING_PARAM structure"]
 ms.keywords: "*PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices], PGNSS_CONTINUOUSTRACKING_PARAM, PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], gnss.gnss_continuoustracking_param, gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_CONTINUOUSTRACKING_PARAM
 ---
 
-# GNSS_CONTINUOUSTRACKING_PARAM structure
+# GNSS_CONTINUOUSTRACKING_PARAM structure (gnssdriver.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["D3D12DDI_D3D12_OPTIONS_DATA_0031 structure"]
 ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0031, D3D12DDI_D3D12_OPTIONS_DATA_0031 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0031, display.d3d12ddi-d3d12-options-data-0031
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_D3D12_OPTIONS_DATA_0031
 ---
 
-# D3D12DDI_D3D12_OPTIONS_DATA_0031 structure
+# D3D12DDI_D3D12_OPTIONS_DATA_0031 structure (d3d12umddi.h)
+
+
 
 ## -description
 

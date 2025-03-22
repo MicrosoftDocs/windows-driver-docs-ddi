@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_RENDERFLAGS structure"]
 ms.keywords: D3DKMT_RENDERFLAGS, D3DKMT_RENDERFLAGS structure [Display Devices], OpenGL_Structs_8a885a03-0eba-4119-973a-a1c1dafe3c10.xml, _D3DKMT_RENDERFLAGS, d3dkmthk/D3DKMT_RENDERFLAGS, display.d3dkmt_renderflags
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_RENDERFLAGS
 ---
 
-# _D3DKMT_RENDERFLAGS structure
+# D3DKMT_RENDERFLAGS structure (d3dkmthk.h)
+
+
 
 
 ## -description

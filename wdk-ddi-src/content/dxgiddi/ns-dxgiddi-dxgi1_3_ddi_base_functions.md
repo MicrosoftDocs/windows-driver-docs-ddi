@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI1_3_DDI_BASE_FUNCTIONS structure"]
 ms.keywords: DXGI1_3_DDI_BASE_FUNCTIONS, DXGI1_3_DDI_BASE_FUNCTIONS structure [Display Devices], display.dxgi1_3_ddi_base_functions, dxgiddi/DXGI1_3_DDI_BASE_FUNCTIONS
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
@@ -40,7 +41,9 @@ api_name:
  - DXGI1_3_DDI_BASE_FUNCTIONS
 ---
 
-# DXGI1_3_DDI_BASE_FUNCTIONS structure
+# DXGI1_3_DDI_BASE_FUNCTIONS structure (dxgiddi.h)
+
+
 
 
 ## -description

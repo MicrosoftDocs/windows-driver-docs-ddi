@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_UMTS_SERVING_CELL_INFO structure"]
 ms.keywords: "*PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_UMTS_SERVING_CELL_INFO, netvista.wwan_umts_serving_cell_info, wwan/PWWAN_UMTS_SERVING_CELL_INFO, wwan/WWAN_UMTS_SERVING_CELL_INFO"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_UMTS_SERVING_CELL_INFO
 ---
 
-# _WWAN_UMTS_SERVING_CELL_INFO structure
+# WWAN_UMTS_SERVING_CELL_INFO structure (wwan.h)
+
+
 
 
 ## -description

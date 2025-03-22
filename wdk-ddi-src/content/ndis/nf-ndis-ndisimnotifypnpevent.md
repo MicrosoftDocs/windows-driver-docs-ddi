@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisIMNotifyPnPEvent
 ---
 
-# NdisIMNotifyPnPEvent function
+# NdisIMNotifyPnPEvent function (ndis.h)
+
+
 
 ## -description
 

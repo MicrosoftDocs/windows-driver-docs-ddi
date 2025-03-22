@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamBridgeCreate function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamBridgeCreate** function uses a ACX_STREAM_BRIDGE_CONFIG to create a StreamBridge for a circuit.

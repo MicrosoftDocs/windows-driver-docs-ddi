@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitAssignProperties function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitAssignProperties** function assigns one or more ACX properties for the ACXCIRCUIT.

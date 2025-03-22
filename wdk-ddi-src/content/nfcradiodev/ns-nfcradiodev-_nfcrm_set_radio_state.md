@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFCRM_SET_RADIO_STATE structure"]
 ms.keywords: "*PNFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE, NFCRM_SET_RADIO_STATE , NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], P_NFCRM_SET_RADIO_STATE, P_NFCRM_SET_RADIO_STATE structure pointer [Near-Field Proximity Drivers], _NFCRM_SET_RADIO_STATE, _NFCRM_SET_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/NFCRM_SET_RADIO_STATE, nfcradiodev/P_NFCRM_SET_RADIO_STATE, nfpdrivers._nfcrm_set_radio_state_"
 req.header: nfcradiodev.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NFCRM_SET_RADIO_STATE
 ---
 
-# _NFCRM_SET_RADIO_STATE structure
+# NFCRM_SET_RADIO_STATE structure (nfcradiodev.h)
+
+
 
 
 ## -description

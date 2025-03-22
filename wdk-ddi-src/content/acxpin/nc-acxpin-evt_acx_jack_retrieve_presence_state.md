@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_JACK_RETRIEVE_PRESENCE_STATE** callback function is implemented by the driver and is called when the state is requested for the specified jack.

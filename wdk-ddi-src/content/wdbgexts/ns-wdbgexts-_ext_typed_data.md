@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["EXT_TYPED_DATA structure"]
 ms.keywords: "*PEXT_TYPED_DATA, EXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, _EXT_TYPED_DATA, debugger.ext_typed_data, wdbgexts/EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: WdbgExts.h, DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - EXT_TYPED_DATA
 ---
 
-# _EXT_TYPED_DATA structure
+# EXT_TYPED_DATA structure (wdbgexts.h)
+
+
 
 
 ## -description

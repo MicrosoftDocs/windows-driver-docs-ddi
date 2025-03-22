@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HID_DEVICE_EXTENSION structure"]
 ms.keywords: "*PHID_DEVICE_EXTENSION, HID_DEVICE_EXTENSION, HID_DEVICE_EXTENSION structure [Human Input Devices], PHID_DEVICE_EXTENSION, PHID_DEVICE_EXTENSION structure pointer [Human Input Devices], _HID_DEVICE_EXTENSION, hid.hid_device_extension, hidport/HID_DEVICE_EXTENSION, hidport/PHID_DEVICE_EXTENSION, hidstrct_faf2bb84-b1f7-4cfa-84b0-5328dfb521dc.xml"
 req.header: hidport.h
+req.construct-type: structure
 req.include-header: Hidport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HID_DEVICE_EXTENSION
 ---
 
-# _HID_DEVICE_EXTENSION structure
+# HID_DEVICE_EXTENSION structure (hidport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemovePersistentLogin_OUT structure"]
 ms.keywords: "*PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT, PRemovePersistentLogin_OUT structure pointer [Storage Devices], RemovePersistentLogin_OUT, RemovePersistentLogin_OUT structure [Storage Devices], _RemovePersistentLogin_OUT, iscsiop/PRemovePersistentLogin_OUT, iscsiop/RemovePersistentLogin_OUT, storage.removepersistentlogin_out, structs-iSCSI_59f0b686-33c3-47be-9bd7-89d14f3ffc7b.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemovePersistentLogin_OUT
 ---
 
-# _RemovePersistentLogin_OUT structure
+# RemovePersistentLogin_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

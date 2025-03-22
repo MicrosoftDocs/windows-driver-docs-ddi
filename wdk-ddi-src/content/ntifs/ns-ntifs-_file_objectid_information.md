@@ -7,6 +7,7 @@ ms.date: 06/13/2023
 keywords: ["FILE_OBJECTID_INFORMATION structure"]
 ms.keywords: "*PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], _FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ifsk.file_objectid_information, ntifs/FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000
@@ -45,7 +46,9 @@ api_name:
  - FILE_OBJECTID_INFORMATION
 ---
 
-# FILE_OBJECTID_INFORMATION structure
+# FILE_OBJECTID_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

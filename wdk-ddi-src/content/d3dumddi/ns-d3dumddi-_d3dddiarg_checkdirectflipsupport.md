@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKDIRECTFLIPSUPPORT, D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure [Display Devices], _D3DDDIARG_CHECKDIRECTFLIPSUPPORT, d3dumddi/D3DDDIARG_CHECKDIRECTFLIPSUPPORT, display.d3dddiarg_checkdirectflipsupport
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CHECKDIRECTFLIPSUPPORT
 ---
 
-# _D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure
+# D3DDDIARG_CHECKDIRECTFLIPSUPPORT structure (d3dumddi.h)
+
+
 
 
 ## -description

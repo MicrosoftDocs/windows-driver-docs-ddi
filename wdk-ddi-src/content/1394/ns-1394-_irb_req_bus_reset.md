@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_BUS_RESET structure"]
 ms.keywords: 1394/IRB_REQ_BUS_RESET, IEEE.irb_req_bus_reset, IRB_REQ_BUS_RESET, IRB_REQ_BUS_RESET structure [Buses], _IRB_REQ_BUS_RESET
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_BUS_RESET
 ---
 
-# _IRB_REQ_BUS_RESET structure
+# IRB_REQ_BUS_RESET structure (1394.h)
+
+
 
 
 ## -description

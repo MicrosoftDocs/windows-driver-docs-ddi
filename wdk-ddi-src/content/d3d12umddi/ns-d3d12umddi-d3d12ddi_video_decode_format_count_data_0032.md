@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032, display.d3d12ddi-video-decode-format-count-data-0032
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032
 ---
 
-# D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure
+# D3D12DDI_VIDEO_DECODE_FORMAT_COUNT_DATA_0032 structure (d3d12umddi.h)
+
+
 
 
 ## -description

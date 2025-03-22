@@ -6,6 +6,7 @@ ms.date: 05/21/2024
 keywords: ["DXGK_CREATECONTEXTFLAGS structure"]
 ms.keywords: DXGK_CREATECONTEXTFLAGS, DXGK_CREATECONTEXTFLAGS structure [Display Devices], DmStructs_19418464-77f9-407f-8b04-c6a35561069b.xml, _DXGK_CREATECONTEXTFLAGS, d3dkmddi/DXGK_CREATECONTEXTFLAGS, display.dxgk_createcontextflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - DXGK_CREATECONTEXTFLAGS
 ---
 
-# DXGK_CREATECONTEXTFLAGS structure
+# DXGK_CREATECONTEXTFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

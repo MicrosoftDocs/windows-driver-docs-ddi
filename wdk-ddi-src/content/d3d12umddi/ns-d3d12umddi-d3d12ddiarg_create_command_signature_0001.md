@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 05/24/2022
 ms.keywords: D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001, D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -32,7 +33,9 @@ f1_keywords:
  - d3d12umddi/D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001
 ---
 
-# D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure
+# D3D12DDIARG_CREATE_COMMAND_SIGNATURE_0001 structure (d3d12umddi.h)
+
+
 
 ## -description
 

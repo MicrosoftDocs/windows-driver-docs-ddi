@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SID_IDENTIFIER_AUTHORITY structure"]
 ms.keywords: "*PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY, PSID_IDENTIFIER_AUTHORITY structure pointer [Installable File System Drivers], SID_IDENTIFIER_AUTHORITY, SID_IDENTIFIER_AUTHORITY structure [Installable File System Drivers], _SID_IDENTIFIER_AUTHORITY, ifsk.sid_identifier_authority, ntifs/PSID_IDENTIFIER_AUTHORITY, ntifs/SID_IDENTIFIER_AUTHORITY, securitystructures_d1535875-a778-4b95-b736-e357e5379c19.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SID_IDENTIFIER_AUTHORITY
 ---
 
-# _SID_IDENTIFIER_AUTHORITY structure
+# SID_IDENTIFIER_AUTHORITY structure (ntifs.h)
+
+
 
 
 ## -description

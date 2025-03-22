@@ -7,6 +7,7 @@ ms.date: 03/08/2022
 keywords: ["D3DKMT_ADAPTERTYPE structure"]
 ms.keywords: D3DKMT_ADAPTERTYPE, D3DKMT_ADAPTERTYPE structure [Display Devices], _D3DKMT_ADAPTERTYPE, d3dkmthk/D3DKMT_ADAPTERTYPE, display.d3dkmt_adaptertype
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_ADAPTERTYPE
 ---
 
-# _D3DKMT_ADAPTERTYPE structure
+# D3DKMT_ADAPTERTYPE structure (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxGetManager function (acxmanager.h)
+
 ## -description
 
 The **AcxGetManager** function returns the underlying ACXMANAGER handle.

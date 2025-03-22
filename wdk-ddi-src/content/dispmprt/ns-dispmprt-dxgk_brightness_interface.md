@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_BRIGHTNESS_INTERFACE structure"]
 ms.keywords: "*PDXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE, DXGK_BRIGHTNESS_INTERFACE structure [Display Devices], DmStructs_f750f3c3-0754-49b9-8ad5-cd93f84697c4.xml, PDXGK_BRIGHTNESS_INTERFACE, PDXGK_BRIGHTNESS_INTERFACE structure pointer [Display Devices], display.dxgk_brightness_interface, dispmprt/DXGK_BRIGHTNESS_INTERFACE, dispmprt/PDXGK_BRIGHTNESS_INTERFACE"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_BRIGHTNESS_INTERFACE
 ---
 
-# DXGK_BRIGHTNESS_INTERFACE structure
+# DXGK_BRIGHTNESS_INTERFACE structure (dispmprt.h)
+
+
 
 
 ## -description

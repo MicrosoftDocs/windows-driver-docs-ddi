@@ -7,6 +7,7 @@ ms.date: 07/25/2023
 keywords: ["D3DDDI_MAPGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_MAPGPUVIRTUALADDRESS, D3DDDI_MAPGPUVIRTUALADDRESS structure [Display Devices], Execute, NoAccess, Write, Zero, d3dukmdt/D3DDDI_MAPGPUVIRTUALADDRESS, display.d3dddi_mapgpuvirtualaddress
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - D3DDDI_MAPGPUVIRTUALADDRESS
 ---
 
-# D3DDDI_MAPGPUVIRTUALADDRESS structure
+# D3DDDI_MAPGPUVIRTUALADDRESS structure (d3dukmdt.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/28/2022
 keywords: ["HIDP_CAPS structure"]
 ms.keywords: "*PHIDP_CAPS, HIDP_CAPS, HIDP_CAPS structure [Human Input Devices], PHIDP_CAPS, PHIDP_CAPS structure pointer [Human Input Devices], _HIDP_CAPS, hid.hidp_caps, hidpi/HIDP_CAPS, hidpi/PHIDP_CAPS, hidstrct_2ef93e42-2fd2-4dff-87fb-11f1d1342b07.xml"
 req.header: hidpi.h
+req.construct-type: structure
 req.include-header: Hidpi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HIDP_CAPS
 ---
 
-# _HIDP_CAPS structure
+# HIDP_CAPS structure (hidpi.h)
+
+
 
 ## -description
 

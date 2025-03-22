@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_COLOR_YCbCrA structure"]
 ms.keywords: D3D11_1DDI_VIDEO_COLOR_YCbCrA, D3D11_1DDI_VIDEO_COLOR_YCbCrA structure [Display Devices], d3d10umddi/D3D11_1DDI_VIDEO_COLOR_YCbCrA, display.d3d11_1ddi_video_color_ycbcra
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDI_VIDEO_COLOR_YCbCrA
 ---
 
-# D3D11_1DDI_VIDEO_COLOR_YCbCrA structure
+# D3D11_1DDI_VIDEO_COLOR_YCbCrA structure (d3d10umddi.h)
+
+
 
 
 ## -description

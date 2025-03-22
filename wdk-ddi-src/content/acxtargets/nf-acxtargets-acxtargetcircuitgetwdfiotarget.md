@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetCircuitGetWdfIoTarget function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetCircuitGetWdfIoTarget** function will return the associated WDFIOTARGET object.

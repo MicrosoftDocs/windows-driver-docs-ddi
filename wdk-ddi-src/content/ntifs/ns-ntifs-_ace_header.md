@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["ACE_HEADER structure"]
 ms.keywords: "*PACE_HEADER, ACE_HEADER, ACE_HEADER structure [Installable File System Drivers], PACE_HEADER, PACE_HEADER structure pointer [Installable File System Drivers], _ACE_HEADER, ifsk.ace_header, ntifs/ACE_HEADER, ntifs/PACE_HEADER, securitystructures_a5aba00b-54fc-4356-9dc8-bf3d5dbe7f78.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - ACE_HEADER
 ---
 
-# _ACE_HEADER structure
+# ACE_HEADER structure (ntifs.h)
+
+
 
 
 ## -description

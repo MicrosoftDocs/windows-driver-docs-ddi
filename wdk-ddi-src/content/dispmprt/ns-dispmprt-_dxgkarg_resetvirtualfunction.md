@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_RESETVIRTUALFUNCTION structure"]
 ms.keywords: _DXGKARG_RESETVIRTUALFUNCTION, DXGKARG_RESETVIRTUALFUNCTION, *PDXGKARG_RESETVIRTUALFUNCTION,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_RESETVIRTUALFUNCTION structure
+# DXGKARG_RESETVIRTUALFUNCTION structure (dispmprt.h)
+
+
 
 
 ## -description

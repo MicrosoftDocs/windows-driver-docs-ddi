@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_FC4STATISTICS structure"]
 ms.keywords: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, MSFC_FC4STATISTICS structure [Storage Devices], PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, hbapiwmi/PMSFC_FC4STATISTICS, storage.msfc_fc4statistics, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_FC4STATISTICS
 ---
 
-# _MSFC_FC4STATISTICS structure
+# MSFC_FC4STATISTICS structure (hbapiwmi.h)
+
+
 
 
 ## -description

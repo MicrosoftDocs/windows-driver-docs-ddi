@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxElementGetId function (acxelements.h)
+
 ## -description
 
 The **AcxElementGetId** function retrieves the number that represents the element ID for a given ACX element object.

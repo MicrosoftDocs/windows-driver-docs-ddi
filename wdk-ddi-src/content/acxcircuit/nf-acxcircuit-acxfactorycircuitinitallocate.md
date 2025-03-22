@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitAllocate function (acxcircuit.h)
+
 ## -description
 
 The **AcxFactoryCircuitInitAllocate** function is used to initialize the opaque ACXFACTORYCIRCUIT_INIT structure that is used by the [AcxFactoryCircuitCreate function](nf-acxcircuit-acxfactorycircuitcreate.md).

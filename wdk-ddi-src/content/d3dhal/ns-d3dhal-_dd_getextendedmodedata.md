@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETEXTENDEDMODEDATA structure"]
 ms.keywords: DD_GETEXTENDEDMODEDATA, DD_GETEXTENDEDMODEDATA structure [Display Devices], _DD_GETEXTENDEDMODEDATA, d3dhal/DD_GETEXTENDEDMODEDATA, d3dstrct_a39e1e5a-9b07-48eb-a7c6-40bcac8a21d6.xml, display.dd_getextendedmodedata
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETEXTENDEDMODEDATA
 ---
 
-# _DD_GETEXTENDEDMODEDATA structure
+# DD_GETEXTENDEDMODEDATA structure (d3dhal.h)
+
+
 
 
 ## -description

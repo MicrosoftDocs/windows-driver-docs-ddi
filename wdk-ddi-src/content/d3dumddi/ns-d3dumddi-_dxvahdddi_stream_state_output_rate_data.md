@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure"]
 ms.keywords: DXVA2_Structs_32dedbf1-1052-4765-a0dd-4f536389dbb6.xml, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure [Display Devices], _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, d3dumddi/DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA, display.dxvahdddi_stream_state_output_rate_data
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA
 ---
 
-# _DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure
+# DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA structure (d3dumddi.h)
+
+
 
 
 ## -description

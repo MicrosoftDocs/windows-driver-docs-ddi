@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisIMDeregisterLayeredMiniport
 ---
 
-# NdisIMDeregisterLayeredMiniport function
+# NdisIMDeregisterLayeredMiniport function (ndis.h)
+
+
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT function (acxdriver.h)
+
 ## -description
 
 The **ACX_DRIVER_VERSION_AVAILABLE_PARAMS_INIT** function initializes an [ACX_DRIVER_VERSION_AVAILABLE_PARAMS](ns-acxdriver-acx_driver_version_available_params.md) structure before calling the [AcxDriverIsVersionAvailable](nf-acxdriver-acxdriverisversionavailable.md) function.

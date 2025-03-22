@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["PATH_OFFLOAD_STATE_CACHED structure"]
 ms.keywords: "*PPATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_CACHED, PPATH_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], _PATH_OFFLOAD_STATE_CACHED, ndischimney/PATH_OFFLOAD_STATE_CACHED, ndischimney/PPATH_OFFLOAD_STATE_CACHED, netvista.path_offload_state_cached, tcp_chim_struct_768560e8-d67c-42f3-aa43-78c48e198eef.xml"
 req.header: ndischimney.h
+req.construct-type: structure
 req.include-header: Ndischimney.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PATH_OFFLOAD_STATE_CACHED
 ---
 
-# _PATH_OFFLOAD_STATE_CACHED structure
+# PATH_OFFLOAD_STATE_CACHED structure (ndischimney.h)
+
+
 
 
 ## -description

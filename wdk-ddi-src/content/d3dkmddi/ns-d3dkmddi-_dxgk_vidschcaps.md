@@ -5,6 +5,7 @@ description: Learn more about the DXGK_VIDSCHCAPS structure.
 ms.date: 03/28/2024
 keywords: ["DXGK_VIDSCHCAPS structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - DXGK_VIDSCHCAPS
 ---
 
-# DXGK_VIDSCHCAPS structure
+# DXGK_VIDSCHCAPS structure (d3dkmddi.h)
+
+
 
 ## -description
 

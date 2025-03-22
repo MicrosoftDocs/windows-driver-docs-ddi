@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_DiscoveredTargetPortalGroup2 structure"]
 ms.keywords: "*PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2 structure [Storage Devices], PISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2 structure pointer [Storage Devices], _ISCSI_DiscoveredTargetPortalGroup2, iscsifnd/ISCSI_DiscoveredTargetPortalGroup2, iscsifnd/PISCSI_DiscoveredTargetPortalGroup2, storage.iscsi_discoveredtargetportalgroup2, structs-iSCSI_2135fea1-a4b9-401e-a7b3-9a1b1896fe28.xml"
 req.header: iscsifnd.h
+req.construct-type: structure
 req.include-header: Iscsifnd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_DiscoveredTargetPortalGroup2
 ---
 
-# _ISCSI_DiscoveredTargetPortalGroup2 structure
+# ISCSI_DiscoveredTargetPortalGroup2 structure (iscsifnd.h)
+
+
 
 
 ## -description

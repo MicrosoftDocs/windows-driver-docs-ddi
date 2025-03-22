@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure"]
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_DESCRIPTOR, SIDEBANDAUDIO_SIDETONE_DESCRIPTOR, *PSIDEBANDAUDIO_SIDETONE_DESCRIPTOR,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SIDEBANDAUDIO_SIDETONE_DESCRIPTOR
 ---
 
-# SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure
+# SIDEBANDAUDIO_SIDETONE_DESCRIPTOR structure (sidebandaudio.h)
+
+
 
 ## -description
 

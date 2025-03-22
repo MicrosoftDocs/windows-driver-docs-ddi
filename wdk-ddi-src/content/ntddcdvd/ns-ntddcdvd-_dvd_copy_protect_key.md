@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_COPY_PROTECT_KEY structure"]
 ms.keywords: "*PDVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY, DVD_COPY_PROTECT_KEY structure [Storage Devices], PDVD_COPY_PROTECT_KEY, PDVD_COPY_PROTECT_KEY structure pointer [Storage Devices], _DVD_COPY_PROTECT_KEY, ntddcdvd/DVD_COPY_PROTECT_KEY, ntddcdvd/PDVD_COPY_PROTECT_KEY, storage.dvd_copy_protect_key, structs-DVD_3ea6aa08-28ce-42d0-855d-d2e83ce58f89.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DVD_COPY_PROTECT_KEY
 ---
 
-# _DVD_COPY_PROTECT_KEY structure
+# DVD_COPY_PROTECT_KEY structure (ntddcdvd.h)
+
+
 
 
 ## -description

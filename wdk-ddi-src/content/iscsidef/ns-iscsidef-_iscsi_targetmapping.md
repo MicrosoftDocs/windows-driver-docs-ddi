@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_TargetMapping structure"]
 ms.keywords: "*PISCSI_TargetMapping, ISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices], PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], _ISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, storage.iscsi_targetmapping, structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml"
 req.header: iscsidef.h
+req.construct-type: structure
 req.include-header: Iscsidef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_TargetMapping
 ---
 
-# _ISCSI_TargetMapping structure
+# ISCSI_TargetMapping structure (iscsidef.h)
+
+
 
 
 ## -description

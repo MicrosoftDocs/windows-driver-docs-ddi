@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_SETWRITEPACKET_INFO structure"]
 ms.keywords: "*PKSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO structure [Audio Devices], PKSRTAUDIO_SETWRITEPACKET_INFO, PKSRTAUDIO_SETWRITEPACKET_INFO structure pointer [Audio Devices], audio.ksrtaudio_setwritepacket_info, ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO, ksmedia/PKSRTAUDIO_SETWRITEPACKET_INFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10 and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_SETWRITEPACKET_INFO
 ---
 
-# KSRTAUDIO_SETWRITEPACKET_INFO structure
+# KSRTAUDIO_SETWRITEPACKET_INFO structure (ksmedia.h)
+
+
 
 
 ## -description

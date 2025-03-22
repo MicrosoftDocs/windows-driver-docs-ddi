@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_CLEARED_POISON_EVENT structure"]
 ms.keywords: WHEAP_CLEARED_POISON_EVENT, WHEAP_CLEARED_POISON_EVENT, *PWHEAP_CLEARED_POISON_EVENT,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_CLEARED_POISON_EVENT
 ---
 
-# WHEAP_CLEARED_POISON_EVENT structure
+# WHEAP_CLEARED_POISON_EVENT structure (ntddk.h)
+
+
 
 
 ## -description

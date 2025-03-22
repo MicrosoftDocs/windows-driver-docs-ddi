@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure"]
 ms.keywords: DXVA2_Structs_bb978cee-d80a-429b-ac2c-1704539c55f7.xml, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA, display.dxvahdddi_blt_state_target_rect_data
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA
 ---
 
-# _DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure
+# DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_DVD_YCrCb structure"]
 ms.keywords: "*PKS_DVD_YCrCb, KS_DVD_YCrCb, KS_DVD_YCrCb structure [Streaming Media Devices], PKS_DVD_YCrCb, PKS_DVD_YCrCb structure pointer [Streaming Media Devices], _KS_DVD_YCrCb, dvdref_559830d7-6f86-4a27-bc31-1e0e7928d7d4.xml, ksmedia/KS_DVD_YCrCb, ksmedia/PKS_DVD_YCrCb, stream.ks_dvd_ycrcb"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DVD_YCrCb
 ---
 
-# _KS_DVD_YCrCb structure
+# KS_DVD_YCrCb structure (ksmedia.h)
+
+
 
 
 ## -description

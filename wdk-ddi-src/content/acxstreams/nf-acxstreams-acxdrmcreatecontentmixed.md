@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDrmCreateContentMixed function (acxstreams.h)
+
 ## -description
 
 The **AcxCreateContentMixed** function creates a DRM content ID to identify an ACX audio stream containing mixed content from a number of streams

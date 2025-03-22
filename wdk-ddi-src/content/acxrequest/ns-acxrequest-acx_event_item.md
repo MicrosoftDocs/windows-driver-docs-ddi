@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_ITEM structure (acxrequest.h)
+
 ## -description
 
 The **ACX_EVENT_ITEM** structure describes an event item that is the target of an ACX request.

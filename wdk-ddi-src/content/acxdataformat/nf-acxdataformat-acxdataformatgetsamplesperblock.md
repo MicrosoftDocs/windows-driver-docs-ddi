@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetSamplesPerBlock function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetSamplesPerBlock** function gets the number of samples per block for the specified data format.

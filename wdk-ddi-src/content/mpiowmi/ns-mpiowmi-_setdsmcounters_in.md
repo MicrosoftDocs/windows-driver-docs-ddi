@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetDSMCounters_IN structure"]
 ms.keywords: "*PSetDSMCounters_IN, PSetDSMCounters_IN, PSetDSMCounters_IN structure pointer [Storage Devices], SetDSMCounters_IN, SetDSMCounters_IN structure [Storage Devices], _SetDSMCounters_IN, mpiowmi/PSetDSMCounters_IN, mpiowmi/SetDSMCounters_IN, storage.setdsmcounters_in, structs-scsibus_683362cd-cba9-41b8-9e46-9cf6a22fbbf5.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetDSMCounters_IN
 ---
 
-# _SetDSMCounters_IN structure
+# SetDSMCounters_IN structure (mpiowmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["BATTERYPROVISIONINGSTATUS structure"]
 ms.keywords: "*PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS structure [Battery Devices], _BATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus, charging/BATTERY_INFORMATION"
 req.header: charging.h
+req.construct-type: structure
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BATTERYPROVISIONINGSTATUS
 ---
 
-# _BATTERYPROVISIONINGSTATUS structure
+# BATTERYPROVISIONINGSTATUS structure (charging.h)
+
+
 
 
 ## -description

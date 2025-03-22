@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tag_video_stream_init_parms structure"]
 ms.keywords: "*LPVIDEO_STREAM_INIT_PARMS, LPVIDEO_STREAM_INIT_PARMS, LPVIDEO_STREAM_INIT_PARMS structure pointer [Streaming Media Devices], VIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS structure [Streaming Media Devices], msviddrv/LPVIDEO_STREAM_INIT_PARMS, msviddrv/VIDEO_STREAM_INIT_PARMS, stream.video_stream_init_parms, tag_video_stream_init_parms"
 req.header: msviddrv.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_STREAM_INIT_PARMS
 ---
 
-# tag_video_stream_init_parms structure
+# tag_video_stream_init_parms structure (msviddrv.h)
+
+
 
 
 ## -description

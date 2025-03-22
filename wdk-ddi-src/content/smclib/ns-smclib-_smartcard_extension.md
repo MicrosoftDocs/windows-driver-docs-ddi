@@ -8,6 +8,7 @@ ms.date: 02/22/2018
 keywords: ["SMARTCARD_EXTENSION structure"]
 ms.keywords: "*PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], SMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], _SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smartcrd.smartcard_extension, smclib/PSMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION"
 req.header: smclib.h
+req.construct-type: structure
 req.include-header: Smclib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SMARTCARD_EXTENSION
 ---
 
-# _SMARTCARD_EXTENSION structure
+# SMARTCARD_EXTENSION structure (smclib.h)
+
+
 
 
 ## -description

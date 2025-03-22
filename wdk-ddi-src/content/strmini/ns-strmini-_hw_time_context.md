@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["HW_TIME_CONTEXT structure"]
 ms.keywords: "*PHW_TIME_CONTEXT, HW_TIME_CONTEXT, HW_TIME_CONTEXT structure [Streaming Media Devices], PHW_TIME_CONTEXT, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], _HW_TIME_CONTEXT, strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml, stream.hw_time_context, strmini/HW_TIME_CONTEXT, strmini/PHW_TIME_CONTEXT"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HW_TIME_CONTEXT
 ---
 
-# _HW_TIME_CONTEXT structure
+# HW_TIME_CONTEXT structure (strmini.h)
+
+
 
 
 ## -description

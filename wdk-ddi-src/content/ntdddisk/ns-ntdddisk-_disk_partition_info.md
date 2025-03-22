@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DISK_PARTITION_INFO structure"]
 ms.keywords: "*PDISK_PARTITION_INFO, DISK_PARTITION_INFO, DISK_PARTITION_INFO structure [Storage Devices], PDISK_PARTITION_INFO, PDISK_PARTITION_INFO structure pointer [Storage Devices], _DISK_PARTITION_INFO, ntdddisk/DISK_PARTITION_INFO, ntdddisk/PDISK_PARTITION_INFO, storage.disk_partition_info, structs-disk_307cbbb9-2940-4a87-b6b7-04e588811b8e.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DISK_PARTITION_INFO
 ---
 
-# _DISK_PARTITION_INFO structure
+# DISK_PARTITION_INFO structure (ntdddisk.h)
+
+
 
 
 ## -description

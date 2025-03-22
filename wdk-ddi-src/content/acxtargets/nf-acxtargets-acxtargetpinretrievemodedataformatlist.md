@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetPinRetrieveModeDataFormatList function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetPinRetrieveModeDataFormatList** function given an existing ACXTARGETPIN object, returns the ACXDATAFORMATLIST associated to the specified signal-processing-mode data format list.

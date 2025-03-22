@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlZeroVolatileMemory
 ---
 
+# RtlZeroVolatileMemory function (wdm.h)
+
 ## -description
 
 The **RtlZeroVolatileMemory** function is a convenience wrapper around [**RtlFillVolatileMemory**](nf-wdm-rtlfillvolatilememory.md).

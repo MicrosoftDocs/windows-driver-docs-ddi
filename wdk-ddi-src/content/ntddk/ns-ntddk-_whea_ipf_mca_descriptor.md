@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_IPF_MCA_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR, PWHEA_IPF_MCA_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_IPF_MCA_DESCRIPTOR, WHEA_IPF_MCA_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_IPF_MCA_DESCRIPTOR, ntddk/PWHEA_IPF_MCA_DESCRIPTOR, ntddk/WHEA_IPF_MCA_DESCRIPTOR, whea.whea_ipf_mca_descriptor, whearef_855b78be-e404-4bc0-a9fa-a0f03e61151d.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_IPF_MCA_DESCRIPTOR
 ---
 
-# _WHEA_IPF_MCA_DESCRIPTOR structure
+# WHEA_IPF_MCA_DESCRIPTOR structure (ntddk.h)
+
+
 
 
 ## -description

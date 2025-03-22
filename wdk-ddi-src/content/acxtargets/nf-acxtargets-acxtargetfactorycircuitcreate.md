@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetFactoryCircuitCreate function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetFactoryCircuitCreate** function returns a handle to a new ACXTARGETFACTORYCIRCUIT ACX object.

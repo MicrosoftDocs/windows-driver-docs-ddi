@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinGetCircuit function (acxpin.h)
+
 ## -description
 
 The **AcxPinGetCircuit** function returns the circuit to which the specified pin is connected.

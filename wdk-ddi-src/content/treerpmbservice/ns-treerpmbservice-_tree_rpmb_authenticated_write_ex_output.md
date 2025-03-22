@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure"]
 ms.keywords: _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT, TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT, *PTREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT,
 req.header: treerpmbservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT
 ---
 
-# _TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure
+# TREE_RPMB_AUTHENTICATED_WRITE_EX_OUTPUT structure (treerpmbservice.h)
+
+
 
 
 ## -description

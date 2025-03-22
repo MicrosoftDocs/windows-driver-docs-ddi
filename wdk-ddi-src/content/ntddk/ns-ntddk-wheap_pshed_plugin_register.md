@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_PLUGIN_REGISTER structure"]
 ms.keywords: WHEAP_PSHED_PLUGIN_REGISTER, WHEAP_PSHED_PLUGIN_REGISTER, *PWHEAP_PSHED_PLUGIN_REGISTER,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_PSHED_PLUGIN_REGISTER
 ---
 
-# WHEAP_PSHED_PLUGIN_REGISTER structure
+# WHEAP_PSHED_PLUGIN_REGISTER structure (ntddk.h)
+
+
 
 
 ## -description

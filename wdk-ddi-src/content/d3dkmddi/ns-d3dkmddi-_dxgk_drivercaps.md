@@ -7,6 +7,7 @@ ms.date: 02/03/2023
 keywords: ["DXGK_DRIVERCAPS structure"]
 ms.keywords: DXGK_DRIVERCAPS, DXGK_DRIVERCAPS structure [Display Devices], DmStructs_4a8b7d02-5b36-4a4b-980f-edfc96b4efd3.xml, _DXGK_DRIVERCAPS, d3dkmddi/DXGK_DRIVERCAPS, display.dxgk_drivercaps
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DRIVERCAPS structure
+# DXGK_DRIVERCAPS structure (d3dkmddi.h)
+
+
 
 ## -description
 

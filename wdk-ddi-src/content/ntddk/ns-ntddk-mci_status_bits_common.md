@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["MCI_STATUS_BITS_COMMON structure"]
 ms.keywords: MCI_STATUS_BITS_COMMON, MCI_STATUS_BITS_COMMON, *PMCI_STATUS_BITS_COMMON,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MCI_STATUS_BITS_COMMON
 ---
 
-# MCI_STATUS_BITS_COMMON structure
+# MCI_STATUS_BITS_COMMON structure (ntddk.h)
+
+
 
 
 ## -description

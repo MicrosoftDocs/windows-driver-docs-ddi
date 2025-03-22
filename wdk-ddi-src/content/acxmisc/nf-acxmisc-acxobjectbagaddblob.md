@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddBlob function (acxmisc.h)
+
 ## -description
 
 The **AcxObjectBagAddBlob** function adds blob data to an existing, initialized AcxObjectBag.

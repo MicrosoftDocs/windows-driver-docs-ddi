@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NET_DMA_CHANNEL_CPU_AFFINITY structure"]
 ms.keywords: "*PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, netvista.net_dma_channel_cpu_affinity"
 req.header: netdma.h
+req.construct-type: structure
 req.include-header: Netdma.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - NET_DMA_CHANNEL_CPU_AFFINITY
 ---
 
-# _NET_DMA_CHANNEL_CPU_AFFINITY structure
+# NET_DMA_CHANNEL_CPU_AFFINITY structure (netdma.h)
+
+
 
 
 ## -description

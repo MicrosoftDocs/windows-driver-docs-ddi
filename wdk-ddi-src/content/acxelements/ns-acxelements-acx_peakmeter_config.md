@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PEAKMETER_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_PEAKMETER_CONFIG** structure is used to define the ACX peakmeter configuration.

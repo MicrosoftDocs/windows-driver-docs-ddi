@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["OPTPARAM structure"]
 ms.keywords: "*POPTPARAM, OPTPARAM, OPTPARAM structure [Print Devices], POPTPARAM, POPTPARAM structure pointer [Print Devices], _OPTPARAM, compstui/OPTPARAM, compstui/POPTPARAM, cpsuifnc_1c22c283-993e-45d7-b0c7-1148eafeb13c.xml, print.optparam"
 req.header: compstui.h
+req.construct-type: structure
 req.include-header: Compstui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - POPTPARAM
  - OPTPARAM
 ---
+
+# OPTPARAM structure (compstui.h)
 
 ## -description
 

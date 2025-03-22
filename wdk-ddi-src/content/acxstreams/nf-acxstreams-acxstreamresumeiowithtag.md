@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamResumeIoWithTag function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamResumeIoWithTag** function is used to resume IO for a stream after stream IO has been stopped. It is similar to [AcxStreamResumeIo](nf-acxstreams-acxstreamresumeio.md) function, but provides the ability to use a Tag that provides additional diagnostic information.

@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["NET_EXTENSION structure"]
 ms.keywords: _NET_EXTENSION, NET_EXTENSION, *PNET_EXTENSION,
 req.header: extension.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_EXTENSION
 ---
 
-# _NET_EXTENSION structure
+# NET_EXTENSION structure (extension.h)
+
+
 
 
 ## -description

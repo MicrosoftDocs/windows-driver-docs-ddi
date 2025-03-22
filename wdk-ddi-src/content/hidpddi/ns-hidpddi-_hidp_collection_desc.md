@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HIDP_COLLECTION_DESC structure"]
 ms.keywords: "*PHIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC, HIDP_COLLECTION_DESC structure [Human Input Devices], PHIDP_COLLECTION_DESC, PHIDP_COLLECTION_DESC structure pointer [Human Input Devices], _HIDP_COLLECTION_DESC, hid.hidp_collection_desc, hidpddi/HIDP_COLLECTION_DESC, hidpddi/PHIDP_COLLECTION_DESC"
 req.header: hidpddi.h
+req.construct-type: structure
 req.include-header: Hidpddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HIDP_COLLECTION_DESC
 ---
 
-# _HIDP_COLLECTION_DESC structure
+# HIDP_COLLECTION_DESC structure (hidpddi.h)
+
+
 
 
 ## -description

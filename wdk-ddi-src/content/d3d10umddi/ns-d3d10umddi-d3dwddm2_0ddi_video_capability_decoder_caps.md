@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure"]
 ms.keywords: D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS, D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS, display.d3dwddm2_0ddi_video_capability_decoder_caps
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS
 ---
 
-# D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure
+# D3DWDDM2_0DDI_VIDEO_CAPABILITY_DECODER_CAPS structure (d3d10umddi.h)
+
+
 
 ## -description
 

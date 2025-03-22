@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_RF_DISCOVERY_CONFIG structure"]
 ms.keywords: "*PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG structure [Near-Field Proximity Drivers], PNFC_CX_RF_DISCOVERY_CONFIG, PNFC_CX_RF_DISCOVERY_CONFIG structure pointer [Near-Field Proximity Drivers], _NFC_CX_RF_DISCOVERY_CONFIG, nfccx/NFC_CX_RF_DISCOVERY_CONFIG, nfccx/PNFC_CX_RF_DISCOVERY_CONFIG, nfpdrivers.nfc_cx_rf_discovery_config"
 req.header: nfccx.h
+req.construct-type: structure
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_RF_DISCOVERY_CONFIG
 ---
 
-# _NFC_CX_RF_DISCOVERY_CONFIG structure
+# NFC_CX_RF_DISCOVERY_CONFIG structure (nfccx.h)
+
+
 
 
 ## -description

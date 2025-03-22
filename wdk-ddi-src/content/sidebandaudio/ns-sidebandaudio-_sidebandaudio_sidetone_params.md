@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_SIDETONE_PARAMS structure"]
 ms.keywords: _SIDEBANDAUDIO_SIDETONE_PARAMS, SIDEBANDAUDIO_SIDETONE_PARAMS, *PSIDEBANDAUDIO_SIDETONE_PARAMS,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SIDEBANDAUDIO_SIDETONE_PARAMS
 ---
 
-# SIDEBANDAUDIO_SIDETONE_PARAMS structure
+# SIDEBANDAUDIO_SIDETONE_PARAMS structure (sidebandaudio.h)
+
+
 
 ## -description
 

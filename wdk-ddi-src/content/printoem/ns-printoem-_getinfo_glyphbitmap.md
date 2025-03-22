@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["GETINFO_GLYPHBITMAP structure"]
 ms.keywords: "*PGETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP, GETINFO_GLYPHBITMAP structure [Print Devices], PGETINFO_GLYPHBITMAP, PGETINFO_GLYPHBITMAP structure pointer [Print Devices], _GETINFO_GLYPHBITMAP, print.getinfo_glyphbitmap, print_unidrv-pscript_rendering_56355138-13b0-4e8b-8132-f7c017105ab3.xml, printoem/GETINFO_GLYPHBITMAP, printoem/PGETINFO_GLYPHBITMAP"
 req.header: printoem.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PGETINFO_GLYPHBITMAP
  - GETINFO_GLYPHBITMAP
 ---
+
+# GETINFO_GLYPHBITMAP structure (printoem.h)
 
 ## -description
 

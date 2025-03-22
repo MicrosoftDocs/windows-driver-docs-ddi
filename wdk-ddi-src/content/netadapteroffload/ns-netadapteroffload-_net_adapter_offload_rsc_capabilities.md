@@ -7,6 +7,7 @@ ms.date: 01/30/2024
 keywords: ["NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES, NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES,
 req.header: netadapteroffload.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES
 ---
 
-# NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure
+# NET_ADAPTER_OFFLOAD_RSC_CAPABILITIES structure (netadapteroffload.h)
+
+
 
 
 ## -description

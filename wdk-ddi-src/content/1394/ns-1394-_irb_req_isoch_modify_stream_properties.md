@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IEEE.irb_req_isoch_modify_stream_properties, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES, IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure [Buses], _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES
 ---
 
-# _IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure
+# IRB_REQ_ISOCH_MODIFY_STREAM_PROPERTIES structure (1394.h)
+
+
 
 
 ## -description

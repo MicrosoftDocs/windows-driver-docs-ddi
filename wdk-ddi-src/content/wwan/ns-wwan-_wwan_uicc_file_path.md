@@ -7,6 +7,7 @@ ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_PATH structure"]
 ms.keywords: _WWAN_UICC_FILE_PATH, WWAN_UICC_FILE_PATH, *PWWAN_UICC_FILE_PATH,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WWAN_UICC_FILE_PATH
 ---
 
-# _WWAN_UICC_FILE_PATH structure
+# WWAN_UICC_FILE_PATH structure (wwan.h)
+
+
 
 
 ## -description

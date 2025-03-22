@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["PIPE_DIMENSIONS structure"]
 ms.keywords: "*PPIPE_DIMENSIONS, PIPE_DIMENSIONS, PIPE_DIMENSIONS structure [Streaming Media Devices], PPIPE_DIMENSIONS, PPIPE_DIMENSIONS structure pointer [Streaming Media Devices], _PIPE_DIMENSIONS, ksproxy/PIPE_DIMENSIONS, ksproxy/PPIPE_DIMENSIONS, ksproxy_29ffc785-a205-468d-a604-ac4022bdf488.xml, stream.pipe_dimensions"
 req.header: ksproxy.h
+req.construct-type: structure
 req.include-header: Ksproxy.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PIPE_DIMENSIONS
 ---
 
-# _PIPE_DIMENSIONS structure
+# PIPE_DIMENSIONS structure (ksproxy.h)
+
+
 
 
 ## -description

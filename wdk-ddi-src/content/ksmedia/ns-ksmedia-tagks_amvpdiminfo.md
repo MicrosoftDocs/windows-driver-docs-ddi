@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagKS_AMVPDIMINFO structure"]
 ms.keywords: "*PKS_AMVPDIMINFO, KS_AMVPDIMINFO, KS_AMVPDIMINFO structure [Streaming Media Devices], PKS_AMVPDIMINFO, PKS_AMVPDIMINFO structure pointer [Streaming Media Devices], dvdref_4c6b6231-a3ef-49a5-8b27-c7ba0062c53a.xml, ksmedia/KS_AMVPDIMINFO, ksmedia/PKS_AMVPDIMINFO, stream.ks_amvpdiminfo, tagKS_AMVPDIMINFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_AMVPDIMINFO
 ---
 
-# tagKS_AMVPDIMINFO structure
+# tagKS_AMVPDIMINFO structure (ksmedia.h)
+
+
 
 
 ## -description

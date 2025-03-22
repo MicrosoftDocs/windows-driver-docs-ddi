@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_HISTORYBUFFERPRECISION structure"]
 ms.keywords: DXGKARG_HISTORYBUFFERPRECISION, DXGKARG_HISTORYBUFFERPRECISION structure [Display Devices], _DXGKARG_HISTORYBUFFERPRECISION, d3dkmddi/DXGKARG_HISTORYBUFFERPRECISION, display.dxgkarg_historybufferprecision
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3 and later
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_HISTORYBUFFERPRECISION
 ---
 
-# _DXGKARG_HISTORYBUFFERPRECISION structure
+# DXGKARG_HISTORYBUFFERPRECISION structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DISK_INT13_INFO structure"]
 ms.keywords: "*PDISK_INT13_INFO, DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], _DISK_INT13_INFO, ntdddisk/DISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, storage.disk_int13_info, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DISK_INT13_INFO
 ---
 
-# _DISK_INT13_INFO structure
+# DISK_INT13_INFO structure (ntdddisk.h)
+
+
 
 
 ## -description

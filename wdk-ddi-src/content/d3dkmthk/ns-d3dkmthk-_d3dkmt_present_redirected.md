@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENT_REDIRECTED structure"]
 ms.keywords: D3DKMT_PRESENT_REDIRECTED, D3DKMT_PRESENT_REDIRECTED structure [Display Devices], _D3DKMT_PRESENT_REDIRECTED, d3dkmthk/D3DKMT_PRESENT_REDIRECTED, display.d3dkmt-present-redirected
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_PRESENT_REDIRECTED
 ---
 
-# _D3DKMT_PRESENT_REDIRECTED structure
+# D3DKMT_PRESENT_REDIRECTED structure (d3dkmthk.h)
+
+
 
 
 ## -description

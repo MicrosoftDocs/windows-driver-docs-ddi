@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetElementFormatRequestForMethod function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetElementFormatRequestForMethod** function formats a WDFREQUEST as an ACX method request to be used on specified element target.

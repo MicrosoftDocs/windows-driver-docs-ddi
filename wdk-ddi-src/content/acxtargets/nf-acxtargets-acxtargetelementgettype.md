@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetElementGetType function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetElementGetType** function given an existing ACXTARGETELEMENT object, returns its corresponding element type  in the form of a GUID.

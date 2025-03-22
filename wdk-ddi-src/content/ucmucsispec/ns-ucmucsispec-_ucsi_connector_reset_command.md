@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_CONNECTOR_RESET_COMMAND structure"]
 ms.keywords: _UCSI_CONNECTOR_RESET_COMMAND, UCSI_CONNECTOR_RESET_COMMAND, *PUCSI_CONNECTOR_RESET_COMMAND,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_CONNECTOR_RESET_COMMAND
 ---
 
-# _UCSI_CONNECTOR_RESET_COMMAND structure
+# UCSI_CONNECTOR_RESET_COMMAND structure (ucmucsispec.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_MULTISAMPLEMETHOD structure"]
 ms.keywords: D3DKMT_MULTISAMPLEMETHOD, D3DKMT_MULTISAMPLEMETHOD structure [Display Devices], OpenGL_Structs_0617065f-aa53-4b1a-9a3f-e135972d4852.xml, _D3DKMT_MULTISAMPLEMETHOD, d3dkmthk/D3DKMT_MULTISAMPLEMETHOD, display.d3dkmt_multisamplemethod
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_MULTISAMPLEMETHOD
 ---
 
-# _D3DKMT_MULTISAMPLEMETHOD structure
+# D3DKMT_MULTISAMPLEMETHOD structure (d3dkmthk.h)
+
+
 
 
 ## -description

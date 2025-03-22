@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WDI_INIT_PARAMETERS structure"]
 ms.keywords: "*PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, dot11wdi/PNDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WDI_INIT_PARAMETERS
 ---
 
-# _NDIS_WDI_INIT_PARAMETERS structure
+# NDIS_WDI_INIT_PARAMETERS structure (dot11wdi.h)
+
+
 
 
 ## -description

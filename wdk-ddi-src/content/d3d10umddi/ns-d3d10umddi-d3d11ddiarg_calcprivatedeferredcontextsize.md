@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure"]
 ms.keywords: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_eca4d605-7188-46b1-b429-04094a9f7db6.xml, d3d10umddi/D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE, display.d3d11ddiarg_calcprivatedeferredcontextsize
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE
 ---
 
-# D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure
+# D3D11DDIARG_CALCPRIVATEDEFERREDCONTEXTSIZE structure (d3d10umddi.h)
+
+
 
 
 ## -description

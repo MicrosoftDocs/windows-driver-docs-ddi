@@ -8,6 +8,7 @@ ms.date: 06/07/2022
 keywords: ["USBDEVICE_UPDATE structure"]
 ms.keywords: "*PUSBDEVICE_UPDATE, P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], _USBDEVICE_UPDATE, buses._usbdevice_update, ucxusbdevice/P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBDEVICE_UPDATE
 ---
 
-# _USBDEVICE_UPDATE structure
+# USBDEVICE_UPDATE structure (ucxusbdevice.h)
+
+
 
 ## -description
 

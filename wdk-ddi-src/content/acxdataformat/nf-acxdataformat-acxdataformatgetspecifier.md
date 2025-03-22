@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetSpecifier function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetSpecifier** function gets the audio format specifier for the specified data format.

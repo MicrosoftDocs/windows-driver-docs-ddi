@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_ADD_CIRCUIT structure (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT** structure is used to add circuits by an ACX circuit factory.

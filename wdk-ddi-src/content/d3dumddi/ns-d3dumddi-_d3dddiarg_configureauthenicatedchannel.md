@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL structure"]
 ms.keywords: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure [Display Devices], UMDisplayDriver_param_Structs_ce65fb22-4c07-4b0f-b0cc-356f0010c88d.xml, _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL, d3dumddi/D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL, display.d3dddiarg_configureauthenticatedchannel
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL
 ---
 
-# _D3DDDIARG_CONFIGUREAUTHENICATEDCHANNEL structure
+# D3DDDIARG_CONFIGUREAUTHENTICATEDCHANNEL structure (d3dumddi.h)
+
+
 
 
 ## -description

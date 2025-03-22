@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetEncodedSamplesPerSec function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetEncodedSamplesPerSec** function gets the number of samples per second of audio for the specified encoded data format.

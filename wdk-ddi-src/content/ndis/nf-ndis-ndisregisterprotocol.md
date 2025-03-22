@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisRegisterProtocol
 ---
 
-# NdisRegisterProtocol function
+# NdisRegisterProtocol function (ndis.h)
+
+
 
 ## -description
 

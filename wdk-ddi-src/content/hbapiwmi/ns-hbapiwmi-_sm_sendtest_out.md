@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_SendTEST_OUT structure"]
 ms.keywords: "*PSM_SendTEST_OUT, PSM_SendTEST_OUT, PSM_SendTEST_OUT structure pointer [Storage Devices], SM_SendTEST_OUT, SM_SendTEST_OUT structure [Storage Devices], _SM_SendTEST_OUT, hbapiwmi/PSM_SendTEST_OUT, hbapiwmi/SM_SendTEST_OUT, storage.sm_sendtest_out, structs-Fibre_901c8256-fe8d-4194-aaec-8a0557287687.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_SendTEST_OUT
 ---
 
-# _SM_SendTEST_OUT structure
+# SM_SendTEST_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

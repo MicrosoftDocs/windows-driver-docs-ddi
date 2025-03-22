@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN_MDL_CACHING_NOTIFICATION structure"]
 ms.keywords: "*PKSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION, KSPIN_MDL_CACHING_NOTIFICATION structure [Streaming Media Devices], PKSPIN_MDL_CACHING_NOTIFICATION, PKSPIN_MDL_CACHING_NOTIFICATION structure pointer [Streaming Media Devices], ks/KSPIN_MDL_CACHING_NOTIFICATION, ks/PKSPIN_MDL_CACHING_NOTIFICATION, stream.kspin_mdl_caching_notification"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPIN_MDL_CACHING_NOTIFICATION
 ---
 
-# KSPIN_MDL_CACHING_NOTIFICATION structure
+# KSPIN_MDL_CACHING_NOTIFICATION structure (ks.h)
+
+
 
 
 ## -description

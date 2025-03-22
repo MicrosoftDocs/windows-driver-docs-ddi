@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure"]
 ms.keywords: "*PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS, DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure [Display Devices], DmStructs_760ebc6b-c03b-468d-b4b0-29faabd65cd1.xml, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, PDXGKMDT_OPM_ENCRYPTED_PARAMETERS structure pointer [Display Devices], _DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/DXGKMDT_OPM_ENCRYPTED_PARAMETERS, d3dkmdt/PDXGKMDT_OPM_ENCRYPTED_PARAMETERS, display.dxgkmdt_opm_encrypted_parameters"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGKMDT_OPM_ENCRYPTED_PARAMETERS
 ---
 
-# _DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure
+# DXGKMDT_OPM_ENCRYPTED_PARAMETERS structure (d3dkmdt.h)
+
+
 
 
 ## -description

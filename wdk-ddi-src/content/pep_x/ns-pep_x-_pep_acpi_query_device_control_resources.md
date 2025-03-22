@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_query_device_control_resources, pepfx/PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -45,7 +46,9 @@ api_name:
  - PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES
 ---
 
-# _PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure (pep_x.h)
+# PEP_ACPI_QUERY_DEVICE_CONTROL_RESOURCES structure (pep_x.h)
+
+
 
 
 ## -description

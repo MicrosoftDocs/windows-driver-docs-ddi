@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_FIXDATA_SATELLITE structure"]
 ms.keywords: "*PGNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE, GNSS_FIXDATA_SATELLITE structure [Sensor Devices], PGNSS_FIXDATA_SATELLITE, PGNSS_FIXDATA_SATELLITE structure pointer [Sensor Devices], gnss.gnss_fixdata_satellite, gnssdriver/GNSS_FIXDATA_SATELLITE, gnssdriver/PGNSS_FIXDATA_SATELLITE"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_FIXDATA_SATELLITE
  - GNSS_FIXDATA_SATELLITE
 ---
+
+# GNSS_FIXDATA_SATELLITE structure (gnssdriver.h)
 
 ## -description
 

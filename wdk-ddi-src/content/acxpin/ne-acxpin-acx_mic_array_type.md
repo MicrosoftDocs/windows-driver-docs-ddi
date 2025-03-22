@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MIC_ARRAY_TYPE enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_MIC_ARRAY_TYPE** enumeration is used to specify the type of a microphone array.

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSFILTERFACTORY structure"]
 ms.keywords: "*PKSFILTERFACTORY, KSFILTERFACTORY, KSFILTERFACTORY structure [Streaming Media Devices], PKSFILTERFACTORY, PKSFILTERFACTORY structure pointer [Streaming Media Devices], _KSFILTERFACTORY, avstruct_def7ad6b-4cda-4677-abbc-3f8a458fbc87.xml, ks/KSFILTERFACTORY, ks/PKSFILTERFACTORY, stream.ksfilterfactory"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSFILTERFACTORY
 ---
 
-# _KSFILTERFACTORY structure
+# KSFILTERFACTORY structure (ks.h)
+
+
 
 
 ## -description

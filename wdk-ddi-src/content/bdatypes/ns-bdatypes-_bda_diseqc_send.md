@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_DISEQC_SEND structure"]
 ms.keywords: "*PBDA_DISEQC_SEND, BDA_DISEQC_SEND, BDA_DISEQC_SEND structure [Streaming Media Devices], PBDA_DISEQC_SEND, PBDA_DISEQC_SEND structure pointer [Streaming Media Devices], _BDA_DISEQC_SEND, bdatypes/BDA_DISEQC_SEND, bdatypes/PBDA_DISEQC_SEND, stream.bda_diseqc_send"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_DISEQC_SEND
 ---
 
-# _BDA_DISEQC_SEND structure
+# BDA_DISEQC_SEND structure (bdatypes.h)
+
+
 
 
 ## -description

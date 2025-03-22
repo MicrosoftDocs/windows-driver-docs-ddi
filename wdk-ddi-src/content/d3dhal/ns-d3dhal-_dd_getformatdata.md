@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETFORMATDATA structure"]
 ms.keywords: DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], _DD_GETFORMATDATA, d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETFORMATDATA
 ---
 
-# _DD_GETFORMATDATA structure
+# DD_GETFORMATDATA structure (d3dhal.h)
+
+
 
 
 ## -description

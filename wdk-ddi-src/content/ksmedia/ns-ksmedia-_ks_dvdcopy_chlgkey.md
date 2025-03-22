@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_DVDCOPY_CHLGKEY structure"]
 ms.keywords: "*PKS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY, KS_DVDCOPY_CHLGKEY structure [Streaming Media Devices], PKS_DVDCOPY_CHLGKEY, PKS_DVDCOPY_CHLGKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_CHLGKEY, dvdref_af25bbe5-5caf-4cd7-be78-1d905a50ef82.xml, ksmedia/KS_DVDCOPY_CHLGKEY, ksmedia/PKS_DVDCOPY_CHLGKEY, stream.ks_dvdcopy_chlgkey"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DVDCOPY_CHLGKEY
 ---
 
-# _KS_DVDCOPY_CHLGKEY structure
+# KS_DVDCOPY_CHLGKEY structure (ksmedia.h)
+
+
 
 
 ## -description

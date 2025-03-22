@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_RequestTimeStatistics structure"]
 ms.keywords: "*PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], _MSiSCSI_RequestTimeStatistics, iscsiprf/MSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml"
 req.header: iscsiprf.h
+req.construct-type: structure
 req.include-header: Iscsiprf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_RequestTimeStatistics
 ---
 
-# _MSiSCSI_RequestTimeStatistics structure
+# MSiSCSI_RequestTimeStatistics structure (iscsiprf.h)
+
+
 
 
 ## -description

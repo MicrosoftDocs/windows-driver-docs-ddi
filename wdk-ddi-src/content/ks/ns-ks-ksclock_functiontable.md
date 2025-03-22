@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCLOCK_FUNCTIONTABLE structure"]
 ms.keywords: "*PKSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE, KSCLOCK_FUNCTIONTABLE structure [Streaming Media Devices], PKSCLOCK_FUNCTIONTABLE, PKSCLOCK_FUNCTIONTABLE structure pointer [Streaming Media Devices], ks-struct_b86dda38-016f-4116-9770-5b447c664b2e.xml, ks/KSCLOCK_FUNCTIONTABLE, ks/PKSCLOCK_FUNCTIONTABLE, stream.ksclock_functiontable"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSCLOCK_FUNCTIONTABLE
 ---
 
-# KSCLOCK_FUNCTIONTABLE structure
+# KSCLOCK_FUNCTIONTABLE structure (ks.h)
+
+
 
 
 ## -description

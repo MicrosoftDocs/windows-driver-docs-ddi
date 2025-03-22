@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PRESENTFLAGS structure"]
 ms.keywords: DXGK_PRESENTFLAGS, DXGK_PRESENTFLAGS structure [Display Devices], DmStructs_b8913202-bee3-4584-b323-6c6fb47a5c8d.xml, _DXGK_PRESENTFLAGS, d3dkmddi/DXGK_PRESENTFLAGS, display.dxgk_presentflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PRESENTFLAGS
 ---
 
-# _DXGK_PRESENTFLAGS structure
+# DXGK_PRESENTFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

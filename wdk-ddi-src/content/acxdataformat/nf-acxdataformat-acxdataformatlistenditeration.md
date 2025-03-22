@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListEndIteration function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListEndIteration** function ends the iteration process on an ACX data format list.

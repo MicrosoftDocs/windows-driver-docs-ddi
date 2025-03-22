@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlZeroDeviceMemory
 ---
 
+# RtlZeroDeviceMemory function (wdm.h)
+
 ## -description
 
 The **RtlZeroDeviceMemory** function is a convenience wrapper around [**RtlFillDeviceMemory**](nf-wdm-rtlfilldevicememory.md).

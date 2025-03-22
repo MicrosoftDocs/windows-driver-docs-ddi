@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VPCI_READ_BLOCK_INPUT structure"]
 ms.keywords: "*PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], _VPCI_READ_BLOCK_INPUT, kernel.vpci_read_block_input, vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT"
 req.header: vpci.h
+req.construct-type: structure
 req.include-header: Vpci.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VPCI_READ_BLOCK_INPUT
 ---
 
-# _VPCI_READ_BLOCK_INPUT structure
+# VPCI_READ_BLOCK_INPUT structure (vpci.h)
+
+
 
 
 ## -description

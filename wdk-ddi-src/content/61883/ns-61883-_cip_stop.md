@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CIP_STOP structure"]
 ms.keywords: "*PCIP_STOP, 61883/CIP_STOP, 61883/PCIP_STOP, CIP_STOP, CIP_STOP structure [Buses], IEEE.cip_stop, PCIP_STOP, PCIP_STOP structure pointer [Buses], _CIP_STOP"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_STOP
 ---
 
-# _CIP_STOP structure
+# CIP_STOP structure (61883.h)
+
+
 
 
 ## -description

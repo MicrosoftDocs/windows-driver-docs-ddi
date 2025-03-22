@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DSI_CAPS structure
+# DXGK_DSI_CAPS structure (dispmprt.h)
+
+
 
 
 ## -description

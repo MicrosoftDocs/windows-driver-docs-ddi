@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_DESCRIBEALLOCATION structure"]
 ms.keywords: "*INOUT_PDXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION, DXGKARG_DESCRIBEALLOCATION structure [Display Devices], DmStructs_73e3d53a-788b-4c88-980c-df0d2038694f.xml, _DXGKARG_DESCRIBEALLOCATION, d3dkmddi/DXGKARG_DESCRIBEALLOCATION, display.dxgkarg_describeallocation"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_DESCRIBEALLOCATION
 ---
 
-# _DXGKARG_DESCRIBEALLOCATION structure
+# DXGKARG_DESCRIBEALLOCATION structure (d3dkmddi.h)
+
+
 
 
 ## -description

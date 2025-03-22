@@ -5,6 +5,7 @@ description: The locally unique identifier (LUID) is a 64-bit value guaranteed t
 tech.root: display
 ms.date: 02/10/2025
 req.header: igpupvdev.h
+req.construct-type: structure
 req.include-header: Fwptypes.h, Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - LUID
 ---
 
-# LUID structure
+# LUID structure (igpupvdev.h)
+
+
 
 ## -description
 

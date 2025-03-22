@@ -8,6 +8,7 @@ ms.date: 12/30/2021
 keywords: ["WWAN_MODEM_CONFIG_INFO structure"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_INFO, PWWAN_MODEM_CONFIG_INFO, PWWAN_MODEM_CONFIG_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_INFO, WWAN_MODEM_CONFIG_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_MODEM_CONFIG_INFO, netvista.wwan_modem_config_info, wwan/PWWAN_MODEM_CONFIG_INFO, wwan/WWAN_MODEM_CONFIG_INFO"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_MODEM_CONFIG_INFO
 ---
 
-# _WWAN_MODEM_CONFIG_INFO structure
+# WWAN_MODEM_CONFIG_INFO structure (wwan.h)
+
+
 
 
 ## -description

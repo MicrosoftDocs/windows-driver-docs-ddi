@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddUI8 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddUI8 function adds an unsigned int eight byte I8 (ULONG64) value to an existing, initialized AcxObjectBag.

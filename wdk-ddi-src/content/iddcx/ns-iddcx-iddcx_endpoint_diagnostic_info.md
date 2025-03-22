@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure"]
 ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_ENDPOINT_DIAGNOSTIC_INFO
 ---
 
-# IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure
+# IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure (iddcx.h)
+
+
 
 ## -description
 

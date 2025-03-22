@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["PosProfileType structure"]
 ms.keywords: PosProfileType, PosProfileType structure, _PosProfileType, pointofservicedriverinterface/PosProfileType, pos.posprofiletype
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _PosProfileType
  - PosProfileType
 ---
+
+# PosProfileType structure (pointofservicedriverinterface.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_HEADER structure"]
 ms.keywords: BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], _BRB_HEADER, bltooth.brb_header, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, bthddi/BRB_HEADER
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -43,7 +44,9 @@ api_name:
  - BRB_HEADER
 ---
 
-# _BRB_HEADER structure
+# BRB_HEADER structure (bthddi.h)
+
+
 
 
 ## -description

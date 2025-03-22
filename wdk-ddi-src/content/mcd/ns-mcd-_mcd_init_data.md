@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MCD_INIT_DATA structure"]
 ms.keywords: "*PMCD_INIT_DATA, MCD_INIT_DATA, MCD_INIT_DATA structure [Storage Devices], PMCD_INIT_DATA, PMCD_INIT_DATA structure pointer [Storage Devices], _MCD_INIT_DATA, mcd/MCD_INIT_DATA, mcd/PMCD_INIT_DATA, storage.mcd_init_data, structs-changer_f8810f4b-8465-4751-a885-cc68a88e45fb.xml"
 req.header: mcd.h
+req.construct-type: structure
 req.include-header: Mcd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MCD_INIT_DATA
 ---
 
-# _MCD_INIT_DATA structure
+# MCD_INIT_DATA structure (mcd.h)
+
+
 
 
 ## -description

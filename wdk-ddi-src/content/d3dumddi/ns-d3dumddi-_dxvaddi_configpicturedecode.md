@@ -8,6 +8,7 @@ ms.date: 07/01/2022
 keywords: ["DXVADDI_CONFIGPICTUREDECODE structure"]
 ms.keywords: DXVA2_Structs_23ba33fb-2b89-48c1-9455-6edc3bb8b9d3.xml, DXVADDI_CONFIGPICTUREDECODE, DXVADDI_CONFIGPICTUREDECODE structure [Display Devices], _DXVADDI_CONFIGPICTUREDECODE, d3dumddi/DXVADDI_CONFIGPICTUREDECODE, display.dxvaddi_configpicturedecode
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_CONFIGPICTUREDECODE
 ---
 
-# DXVADDI_CONFIGPICTUREDECODE structure
+# DXVADDI_CONFIGPICTUREDECODE structure (d3dumddi.h)
+
+
 
 ## -description
 

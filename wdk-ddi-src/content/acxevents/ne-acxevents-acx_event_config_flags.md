@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_CONFIG_FLAGS enumeration (acxevents.h)
+
 ## -description
 
 The **ACX_EVENT_CONFIG_FLAGS** enumeration defines the EVENT config flags for an ACXEVENT type.

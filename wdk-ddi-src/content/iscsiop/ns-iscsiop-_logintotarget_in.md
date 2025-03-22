@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["LoginToTarget_IN structure"]
 ms.keywords: "*PLoginToTarget_IN, LoginToTarget_IN, LoginToTarget_IN structure [Storage Devices], PLoginToTarget_IN, PLoginToTarget_IN structure pointer [Storage Devices], _LoginToTarget_IN, iscsiop/LoginToTarget_IN, iscsiop/PLoginToTarget_IN, storage.logintotarget_in, structs-iSCSI_b6201f88-03aa-41bf-a92b-eb9e95103911.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - LoginToTarget_IN
 ---
 
-# _LoginToTarget_IN structure
+# LoginToTarget_IN structure (iscsiop.h)
+
+
 
 
 ## -description

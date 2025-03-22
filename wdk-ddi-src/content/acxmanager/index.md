@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# acxmanager apiset (acxmanager.h)
+
 ## -description
 
 The acxmanager header is used by the ACX audio class extensions.

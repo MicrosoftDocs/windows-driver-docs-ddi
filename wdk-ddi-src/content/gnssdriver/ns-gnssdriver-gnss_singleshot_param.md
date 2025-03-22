@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_SINGLESHOT_PARAM structure"]
 ms.keywords: "*PGNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM, GNSS_SINGLESHOT_PARAM structure [Sensor Devices], PGNSS_SINGLESHOT_PARAM, PGNSS_SINGLESHOT_PARAM structure pointer [Sensor Devices], gnss.gnss_singleshot_param, gnssdriver/GNSS_SINGLESHOT_PARAM, gnssdriver/PGNSS_SINGLESHOT_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_SINGLESHOT_PARAM
 ---
 
-# GNSS_SINGLESHOT_PARAM structure
+# GNSS_SINGLESHOT_PARAM structure (gnssdriver.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["KERNDATA structure"]
 ms.keywords: "*PKERNDATA, KERNDATA, KERNDATA structure [Print Devices], PKERNDATA, PKERNDATA structure pointer [Print Devices], _KERNDATA, print.kerndata, print_unidrv-pscript_fonts_9ddb2b69-839c-496a-b252-691570ee03cb.xml, prntfont/KERNDATA, prntfont/PKERNDATA"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KERNDATA
 ---
 
-# _KERNDATA structure
+# KERNDATA structure (prntfont.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_WMI_REQUEST_BLOCK structure"]
 ms.keywords: "*PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK, PSCSI_WMI_REQUEST_BLOCK structure pointer [Storage Devices], SCSI_WMI_REQUEST_BLOCK, SCSI_WMI_REQUEST_BLOCK structure [Storage Devices], _SCSI_WMI_REQUEST_BLOCK, srb/PSCSI_WMI_REQUEST_BLOCK, srb/SCSI_WMI_REQUEST_BLOCK, storage.scsi_wmi_request_block, structs-scsibus_6188bca6-990b-4471-b8ea-2cd5b2b27d51.xml"
 req.header: srb.h
+req.construct-type: structure
 req.include-header: Storport.h, Srb.h, Storport.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSI_WMI_REQUEST_BLOCK
 ---
 
-# _SCSI_WMI_REQUEST_BLOCK structure (srb.h)
+# SCSI_WMI_REQUEST_BLOCK structure (srb.h)
+
+
 
 
 ## -description

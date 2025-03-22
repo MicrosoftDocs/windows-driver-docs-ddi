@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxAudioEngineCreate function (acxelements.h)
+
 ## -description
 
 The **AcxAudioEngineCreate** function is used to create an audio engine that that will be associated with a circuit WDFDEVICE device object parent.

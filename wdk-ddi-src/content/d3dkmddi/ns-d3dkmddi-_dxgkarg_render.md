@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_RENDER structure"]
 ms.keywords: "*INOUT_PDXGKARG_RENDER, DXGKARG_RENDER, DXGKARG_RENDER structure [Display Devices], DmStructs_a297ffab-b45d-4c92-820c-0ef11849445e.xml, _DXGKARG_RENDER, d3dkmddi/DXGKARG_RENDER, display.dxgkarg_render"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_RENDER
 ---
 
-# _DXGKARG_RENDER structure
+# DXGKARG_RENDER structure (d3dkmddi.h)
+
+
 
 
 ## -description

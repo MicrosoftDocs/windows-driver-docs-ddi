@@ -6,6 +6,7 @@ ms.date: 04/08/2024
 keywords: ["DXGKARG_SUSPENDCONTEXT structure"]
 ms.keywords: _DXGKARG_SUSPENDCONTEXT, DXGKARG_SUSPENDCONTEXT,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_SUSPENDCONTEXT structure
+# DXGKARG_SUSPENDCONTEXT structure (d3dkmddi.h)
+
+
 
 ## -description
 

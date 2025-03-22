@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["REFS_SMR_VOLUME_GC_PARAMETERS structure"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS, PREFS_SMR_VOLUME_GC_PARAMETERS structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_GC_PARAMETERS, REFS_SMR_VOLUME_GC_PARAMETERS structure [Installable File System Drivers], _REFS_SMR_VOLUME_GC_PARAMETERS, ifsk.refs_smr_volume_gc_parameters, ntifs/PREFS_SMR_VOLUME_GC_PARAMETERS, ntifs/REFS_SMR_VOLUME_GC_PARAMETERS"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -45,7 +46,9 @@ api_name:
  - REFS_SMR_VOLUME_GC_PARAMETERS
 ---
 
-# REFS_SMR_VOLUME_GC_PARAMETERS structure
+# REFS_SMR_VOLUME_GC_PARAMETERS structure (ntifs.h)
+
+
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxAudioModuleCreate function (acxelements.h)
+
 ## -description
 
 The **AcxAudioModuleCreate** function is used to create an audio module that that will be associated with an ACX circuit object parent.

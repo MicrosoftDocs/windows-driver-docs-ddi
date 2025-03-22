@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PCNOTIFICATION_BUFFER structure"]
 ms.keywords: "*PPCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER, PCNOTIFICATION_BUFFER structure [Audio Devices], PPCNOTIFICATION_BUFFER, PPCNOTIFICATION_BUFFER structure pointer [Audio Devices], _PCNOTIFICATION_BUFFER, audio.pcnotification_buffer, portcls/PCNOTIFICATION_BUFFER, portcls/PPCNOTIFICATION_BUFFER"
 req.header: portcls.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - PCNOTIFICATION_BUFFER
 ---
 
-# _PCNOTIFICATION_BUFFER structure
+# PCNOTIFICATION_BUFFER structure (portcls.h)
+
+
 
 
 ## -description

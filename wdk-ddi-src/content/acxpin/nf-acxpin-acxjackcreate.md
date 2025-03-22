@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxJackCreate function (acxpin.h)
+
 ## -description
 
 The **AcxJackCreate** function creates and initializes a new audio jack object.

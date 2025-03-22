@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_LOST_QUERY_PARAMETERS structure"]
 ms.keywords: _DEVICE_DSM_LOST_QUERY_PARAMETERS, DEVICE_DSM_LOST_QUERY_PARAMETERS, *PDEVICE_DSM_LOST_QUERY_PARAMETERS,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - DEVICE_DSM_LOST_QUERY_PARAMETERS
 ---
 
-# _DEVICE_DSM_LOST_QUERY_PARAMETERS structure
+# DEVICE_DSM_LOST_QUERY_PARAMETERS structure (ntddstor.h)
+
+
 
 
 ## -description

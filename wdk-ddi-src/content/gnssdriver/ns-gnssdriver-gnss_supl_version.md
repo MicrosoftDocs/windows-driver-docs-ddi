@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_SUPL_VERSION structure"]
 ms.keywords: "*PGNSS_SUPL_VERSION, GNSS_SUPL_VERSION, GNSS_SUPL_VERSION structure [Sensor Devices], PGNSS_SUPL_VERSION, PGNSS_SUPL_VERSION structure pointer [Sensor Devices], gnss.gnss_supl_version, gnssdriver/GNSS_SUPL_VERSION, gnssdriver/PGNSS_SUPL_VERSION"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_SUPL_VERSION
 ---
 
-# GNSS_SUPL_VERSION structure
+# GNSS_SUPL_VERSION structure (gnssdriver.h)
+
+
 
 
 ## -description

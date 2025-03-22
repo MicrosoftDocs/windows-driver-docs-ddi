@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM** callback retrieves the current arm state of the keyword spotter.

@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["PDTT_PCC_SUBCHANNEL_INDENTIFIER structure"]
 ms.keywords: _PDTT_PCC_SUBCHANNEL_INDENTIFIER, PDTT_PCC_SUBCHANNEL_INDENTIFIER, *PPDTT_PCC_SUBCHANNEL_INDENTIFIER,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PDTT_PCC_SUBCHANNEL_INDENTIFIER
 ---
 
-# _PDTT_PCC_SUBCHANNEL_INDENTIFIER structure
+# PDTT_PCC_SUBCHANNEL_INDENTIFIER structure (acpitabl.h)
+
+
 
 
 ## -description

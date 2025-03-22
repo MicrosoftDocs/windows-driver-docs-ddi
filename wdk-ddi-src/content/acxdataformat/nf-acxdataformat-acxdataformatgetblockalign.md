@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetBlockAlign function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetBlockAlign** function gets the block alignment of the specified data format.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSDATAFORMAT
 ---
 
+# KSDATAFORMAT structure (ks.h)
+
 ## -description
 
 This topic describes the **KSDATAFORMAT** union.

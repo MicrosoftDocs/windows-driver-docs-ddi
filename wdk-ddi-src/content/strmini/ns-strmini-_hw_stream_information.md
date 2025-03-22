@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["HW_STREAM_INFORMATION structure"]
 ms.keywords: "*PHW_STREAM_INFORMATION, HW_STREAM_INFORMATION, HW_STREAM_INFORMATION structure [Streaming Media Devices], PHW_STREAM_INFORMATION, PHW_STREAM_INFORMATION structure pointer [Streaming Media Devices], _HW_STREAM_INFORMATION, strclass-struct_df196092-33e4-4b19-b45c-0986b262f2e9.xml, stream.hw_stream_information, strmini/HW_STREAM_INFORMATION, strmini/PHW_STREAM_INFORMATION"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HW_STREAM_INFORMATION
 ---
 
-# _HW_STREAM_INFORMATION structure
+# HW_STREAM_INFORMATION structure (strmini.h)
+
+
 
 
 ## -description

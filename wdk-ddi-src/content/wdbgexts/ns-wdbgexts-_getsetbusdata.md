@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GETSETBUSDATA structure"]
 ms.keywords: "*PBUSDATA, BUSDATA, BUSDATA structure [Windows Debugging], GETSETBUSDATA, GETSETBUSDATA structure [Windows Debugging], PBUSDATA, PBUSDATA structure pointer [Windows Debugging], WdbgExts_Ref_090ca26a-5955-40c6-82c3-310a02a9d64d.xml, _GETSETBUSDATA, debugger.ig_get_bus_data, wdbgexts/GETSETBUSDATA, wdbgexts/PBUSDATA"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BUSDATA
 ---
 
-# _GETSETBUSDATA structure
+# BUSDATA structure (wdbgexts.h)
+
+
 
 
 ## -description

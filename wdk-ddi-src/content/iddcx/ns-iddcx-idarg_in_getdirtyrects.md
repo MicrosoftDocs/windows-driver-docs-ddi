@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_IN_GETDIRTYRECTS structure"]
 ms.keywords: IDARG_IN_GETDIRTYRECTS, IDARG_IN_GETDIRTYRECTS structure [Display Devices], display.idarg_in_getdirtyrects, iddcx/IDARG_IN_GETDIRTYRECTS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_GETDIRTYRECTS
 ---
 
-# IDARG_IN_GETDIRTYRECTS structure
+# IDARG_IN_GETDIRTYRECTS structure (iddcx.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetBitsPerSample function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetBitsPerSample** function gets the bits per audio sample for the specified data format.

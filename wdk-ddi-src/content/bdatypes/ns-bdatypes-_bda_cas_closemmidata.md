@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_CAS_CLOSEMMIDATA structure"]
 ms.keywords: "*PBDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA structure [Streaming Media Devices], PBDA_CAS_CLOSEMMIDATA, PBDA_CAS_CLOSEMMIDATA structure pointer [Streaming Media Devices], _BDA_CAS_CLOSEMMIDATA, bdatypes/BDA_CAS_CLOSEMMIDATA, bdatypes/PBDA_CAS_CLOSEMMIDATA, stream.bda_cas_closemmidata"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_CAS_CLOSEMMIDATA
 ---
 
-# _BDA_CAS_CLOSEMMIDATA structure
+# BDA_CAS_CLOSEMMIDATA structure (bdatypes.h)
+
+
 
 
 ## -description

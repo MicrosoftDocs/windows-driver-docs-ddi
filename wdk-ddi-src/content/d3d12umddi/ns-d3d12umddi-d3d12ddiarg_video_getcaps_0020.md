@@ -7,6 +7,7 @@ ms.date: 02/16/2022
 keywords: ["D3D12DDIARG_VIDEO_GETCAPS_0020 structure"]
 ms.keywords: D3D12DDIARG_VIDEO_GETCAPS_0020, D3D12DDIARG_VIDEO_GETCAPS_0020 structure [Display Devices], d3d12umddi/D3D12DDIARG_VIDEO_GETCAPS_0020, display.d3d12ddiarg_video_getcaps
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDIARG_VIDEO_GETCAPS_0020
 ---
 
-# D3D12DDIARG_VIDEO_GETCAPS_0020 structure
+# D3D12DDIARG_VIDEO_GETCAPS_0020 structure (d3d12umddi.h)
+
+
 
 ## -description
 

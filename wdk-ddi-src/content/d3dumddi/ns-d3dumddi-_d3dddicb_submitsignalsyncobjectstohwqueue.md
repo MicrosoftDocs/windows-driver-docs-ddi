@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure"]
 ms.keywords: D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure [Display Devices], _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, d3dumddi/D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE, display.d3dddicb_submitsignalsyncobjectstohwqueue
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE
 ---
 
-# _D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure
+# D3DDDICB_SUBMITSIGNALSYNCOBJECTSTOHWQUEUE structure (d3dumddi.h)
+
+
 
 
 ## -description

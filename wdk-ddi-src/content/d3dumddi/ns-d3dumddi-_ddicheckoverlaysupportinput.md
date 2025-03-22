@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDICHECKOVERLAYSUPPORTINPUT structure"]
 ms.keywords: D3D_other_Structs_194edebf-9bbd-465b-a731-ad3e10f6e809.xml, DDICHECKOVERLAYSUPPORTINPUT, DDICHECKOVERLAYSUPPORTINPUT structure [Display Devices], _DDICHECKOVERLAYSUPPORTINPUT, d3dumddi/DDICHECKOVERLAYSUPPORTINPUT, display.ddicheckoverlaysupportinput
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DDICHECKOVERLAYSUPPORTINPUT is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DDICHECKOVERLAYSUPPORTINPUT
 ---
 
-# _DDICHECKOVERLAYSUPPORTINPUT structure
+# DDICHECKOVERLAYSUPPORTINPUT structure (d3dumddi.h)
+
+
 
 
 ## -description

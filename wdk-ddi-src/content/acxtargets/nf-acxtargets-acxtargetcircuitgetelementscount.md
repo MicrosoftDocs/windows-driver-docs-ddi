@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetCircuitGetElementsCount function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetCircuitGetElementsCount** function returns the count of ACX elements on the remote target.

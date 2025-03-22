@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_CREATE_PLUG structure"]
 ms.keywords: "*PCMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, CMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses], IEEE.cmp_create_plug, PCMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], _CMP_CREATE_PLUG"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_CREATE_PLUG
 ---
 
-# _CMP_CREATE_PLUG structure
+# CMP_CREATE_PLUG structure (61883.h)
+
+
 
 
 ## -description

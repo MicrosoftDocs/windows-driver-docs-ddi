@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["PRINTPROCESSOR_CAPS_1 structure"]
 ms.keywords: _PRINTPROCESSOR_CAPS_1, PRINTPROCESSOR_CAPS_1, *PPRINTPROCESSOR_CAPS_1,
 req.header: winddiui.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PRINTPROCESSOR_CAPS_1
 ---
 
-# _PRINTPROCESSOR_CAPS_1 structure
+# PRINTPROCESSOR_CAPS_1 structure (winddiui.h)
+
+
 
 
 ## -description

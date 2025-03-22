@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_PRESENTFLAGS structure"]
 ms.keywords: D3DKMT_PRESENTFLAGS, D3DKMT_PRESENTFLAGS structure [Display Devices], OpenGL_Structs_bd28ba63-6019-4cc5-b1d0-7275a5a575b3.xml, _D3DKMT_PRESENTFLAGS, d3dkmthk/D3DKMT_PRESENTFLAGS, display.d3dkmt_presentflags
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_PRESENTFLAGS
 ---
 
-# _D3DKMT_PRESENTFLAGS structure
+# D3DKMT_PRESENTFLAGS structure (d3dkmthk.h)
+
+
 
 
 ## -description

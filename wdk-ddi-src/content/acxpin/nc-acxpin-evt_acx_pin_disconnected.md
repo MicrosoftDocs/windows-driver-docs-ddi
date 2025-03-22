@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_PIN_DISCONNECTED function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_PIN_DISCONNECTED** callback function is implemented by the driver and is called when the circuit bridge pin is disconnected from the pin of another circuit.

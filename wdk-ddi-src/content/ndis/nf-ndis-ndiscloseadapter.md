@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisCloseAdapter
 ---
 
-# NdisCloseAdapter function
+# NdisCloseAdapter function (ndis.h)
+
+
 
 ## -description
 

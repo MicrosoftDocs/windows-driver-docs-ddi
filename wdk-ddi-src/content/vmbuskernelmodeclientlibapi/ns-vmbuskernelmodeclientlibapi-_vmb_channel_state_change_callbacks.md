@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure"]
 ms.keywords: "*PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, PVMB_CHANNEL_STATE_CHANGE_CALLBACKS structure pointer [Network Drivers Starting with Windows Vista], VMB_CHANNEL_STATE_CHANGE_CALLBACKS, VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure [Network Drivers Starting with Windows Vista], _VMB_CHANNEL_STATE_CHANGE_CALLBACKS, netvista.vmb_channel_state_change_callbacks, vmbuskernelmodeclientlibapi/PVMB_CHANNEL_STATE_CHANGE_CALLBACKS, vmbuskernelmodeclientlibapi/VMB_CHANNEL_STATE_CHANGE_CALLBACKS"
 req.header: vmbuskernelmodeclientlibapi.h
+req.construct-type: structure
 req.include-header: VmbusKernelModeClientLibApi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VMB_CHANNEL_STATE_CHANGE_CALLBACKS
 ---
 
-# _VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure
+# VMB_CHANNEL_STATE_CHANGE_CALLBACKS structure (vmbuskernelmodeclientlibapi.h)
+
+
 
 
 ## -description

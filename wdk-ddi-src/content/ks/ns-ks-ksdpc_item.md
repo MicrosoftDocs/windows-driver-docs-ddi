@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSDPC_ITEM structure"]
 ms.keywords: "*PKSDPC_ITEM, KSDPC_ITEM, KSDPC_ITEM structure [Streaming Media Devices], PKSDPC_ITEM, PKSDPC_ITEM structure pointer [Streaming Media Devices], ks-struct_c40f10e3-5732-4020-a22f-4695eaaa471a.xml, ks/KSDPC_ITEM, ks/PKSDPC_ITEM, stream.ksdpc_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDPC_ITEM
 ---
 
-# KSDPC_ITEM structure
+# KSDPC_ITEM structure (ks.h)
+
+
 
 
 ## -description

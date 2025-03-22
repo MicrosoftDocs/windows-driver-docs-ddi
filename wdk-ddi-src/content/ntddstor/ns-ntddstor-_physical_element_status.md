@@ -7,6 +7,7 @@ ms.date: 09/10/2018
 keywords: ["PHYSICAL_ELEMENT_STATUS structure"]
 ms.keywords: _PHYSICAL_ELEMENT_STATUS, PHYSICAL_ELEMENT_STATUS, *PPHYSICAL_ELEMENT_STATUS,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _PHYSICAL_ELEMENT_STATUS structure
+# PHYSICAL_ELEMENT_STATUS structure (ntddstor.h)
+
+
 
 
 ## -description

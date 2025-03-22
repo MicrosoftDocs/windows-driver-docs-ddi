@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_FRAMELATENCYESCAPE structure"]
 ms.keywords: D3DDDI_FRAMELATENCYESCAPE, D3DDDI_FRAMELATENCYESCAPE structure [Display Devices], _D3DDDI_FRAMELATENCYESCAPE, d3dumddi/D3DDDI_FRAMELATENCYESCAPE, display.d3dddi_framelatencyescape
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_FRAMELATENCYESCAPE
 ---
 
-# _D3DDDI_FRAMELATENCYESCAPE structure
+# D3DDDI_FRAMELATENCYESCAPE structure (d3dumddi.h)
+
+
 
 
 ## -description

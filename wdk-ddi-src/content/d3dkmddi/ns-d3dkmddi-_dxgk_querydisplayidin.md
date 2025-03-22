@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_QUERYDISPLAYIDIN structure"]
 ms.keywords: DXGK_QUERYDISPLAYIDIN, DXGK_QUERYDISPLAYIDIN structure [Display Devices], _DXGK_QUERYDISPLAYIDIN, d3dkmddi/DXGK_QUERYDISPLAYIDIN, display.dxgk_querydisplayidin
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_QUERYDISPLAYIDIN
 ---
 
-# _DXGK_QUERYDISPLAYIDIN structure
+# DXGK_QUERYDISPLAYIDIN structure (d3dkmddi.h)
+
+
 
 
 ## -description

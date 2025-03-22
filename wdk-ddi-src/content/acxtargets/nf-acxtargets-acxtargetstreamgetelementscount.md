@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamGetElementsCount function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamGetElementsCount** function given an ACXTARGETSTREAM object, returns its number of ACX elements.

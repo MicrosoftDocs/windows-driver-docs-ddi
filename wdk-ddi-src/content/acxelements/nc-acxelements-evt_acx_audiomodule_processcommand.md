@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_AUDIOMODULE_PROCESSCOMMAND function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_AUDIOMODULE_PROCESSCOMMAND** callback tells the driver to process a command for an audio module element.

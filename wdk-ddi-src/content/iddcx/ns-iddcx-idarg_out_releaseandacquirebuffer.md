@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_OUT_RELEASEANDACQUIREBUFFER structure"]
 ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], display.idarg_out_releaseandacquirebuffer, iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_OUT_RELEASEANDACQUIREBUFFER
 ---
 
-# IDARG_OUT_RELEASEANDACQUIREBUFFER structure
+# IDARG_OUT_RELEASEANDACQUIREBUFFER structure (iddcx.h)
+
+
 
 
 ## -description

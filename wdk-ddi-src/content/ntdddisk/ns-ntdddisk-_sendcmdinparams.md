@@ -8,6 +8,7 @@ ms.date: 07/14/2022
 keywords: ["SENDCMDINPARAMS structure"]
 ms.keywords: "*LPSENDCMDINPARAMS, *PSENDCMDINPARAMS, LPSENDCMDINPARAMS, LPSENDCMDINPARAMS structure pointer [Storage Devices], PSENDCMDINPARAMS, PSENDCMDINPARAMS structure pointer [Storage Devices], SENDCMDINPARAMS, SENDCMDINPARAMS structure [Storage Devices], _SENDCMDINPARAMS, ntdddisk/LPSENDCMDINPARAMS, ntdddisk/PSENDCMDINPARAMS, ntdddisk/SENDCMDINPARAMS, storage.sendcmdinparams, structs-IDE_b80faf9d-dfcf-4eac-b0be-fb18964c4c2b.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000
@@ -46,7 +47,9 @@ api_name:
  - SENDCMDINPARAMS
 ---
 
-# SENDCMDINPARAMS structure
+# SENDCMDINPARAMS structure (ntdddisk.h)
+
+
 
 ## -description
 

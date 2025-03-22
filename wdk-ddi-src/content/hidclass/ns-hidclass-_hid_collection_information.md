@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HID_COLLECTION_INFORMATION structure"]
 ms.keywords: "*PHID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], PHID_COLLECTION_INFORMATION, PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], _HID_COLLECTION_INFORMATION, hid.hid_collection_information, hidclass/HID_COLLECTION_INFORMATION, hidclass/PHID_COLLECTION_INFORMATION, hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml"
 req.header: hidclass.h
+req.construct-type: structure
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HID_COLLECTION_INFORMATION
 ---
 
-# _HID_COLLECTION_INFORMATION structure
+# HID_COLLECTION_INFORMATION structure (hidclass.h)
+
+
 
 
 ## -description

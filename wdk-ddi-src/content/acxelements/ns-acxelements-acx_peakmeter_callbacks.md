@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PEAKMETER_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The **ACX_PEAKMETER_CALLBACKS** structure identifies the driver callbacks for ACX peakmeter operations.

@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_MODE_SET enumeration
+# DXGK_DIAG_DISPLAY_MODE_SET enumeration (dispmprt.h)
+
+
 
 
 ## -description

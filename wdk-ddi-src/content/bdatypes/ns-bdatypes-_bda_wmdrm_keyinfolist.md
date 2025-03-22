@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_WMDRM_KEYINFOLIST structure"]
 ms.keywords: "*PBDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST, BDA_WMDRM_KEYINFOLIST structure [Streaming Media Devices], PBDA_WMDRM_KEYINFOLIST, PBDA_WMDRM_KEYINFOLIST structure pointer [Streaming Media Devices], _BDA_WMDRM_KEYINFOLIST, bdatypes/BDA_WMDRM_KEYINFOLIST, bdatypes/PBDA_WMDRM_KEYINFOLIST, stream.bda_wmdrm_keyinfolist"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_WMDRM_KEYINFOLIST
 ---
 
-# _BDA_WMDRM_KEYINFOLIST structure
+# BDA_WMDRM_KEYINFOLIST structure (bdatypes.h)
+
+
 
 
 ## -description

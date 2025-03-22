@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["INSTANCE_FULL_INFORMATION structure"]
 ms.keywords: FltSystemStructures_db070365-3d91-4bbc-9c53-44c4b2974de0.xml, INSTANCE_FULL_INFORMATION, INSTANCE_FULL_INFORMATION structure [Installable File System Drivers], PINSTANCE_FULL_INFORMATION, PINSTANCE_FULL_INFORMATION structure pointer [Installable File System Drivers], _INSTANCE_FULL_INFORMATION, fltuserstructures/INSTANCE_FULL_INFORMATION, fltuserstructures/PINSTANCE_FULL_INFORMATION, ifsk.instance_full_information
 req.header: fltuserstructures.h
+req.construct-type: structure
 req.include-header: FltUserStructures.h, FltUser.h, FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Microsoft Windows 2000 SP4 with Update Rollup, Windows XP SP2,  Microsoft Windows Server 2003 SP1, and Windows Vista or later versions of Windows operating systems,
@@ -46,7 +47,9 @@ api_name:
  - INSTANCE_FULL_INFORMATION
 ---
 
-# _INSTANCE_FULL_INFORMATION structure
+# INSTANCE_FULL_INFORMATION structure (fltuserstructures.h)
+
+
 
 
 ## -description

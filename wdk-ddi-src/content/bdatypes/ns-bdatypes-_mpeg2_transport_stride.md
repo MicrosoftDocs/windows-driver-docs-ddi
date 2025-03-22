@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["MPEG2_TRANSPORT_STRIDE structure"]
 ms.keywords: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE structure [Streaming Media Devices], PMPEG2_TRANSPORT_STRIDE, PMPEG2_TRANSPORT_STRIDE structure pointer [Streaming Media Devices], _MPEG2_TRANSPORT_STRIDE, bdaref_66678748-2c73-4bb6-b4ba-fc1c28fe567b.xml, bdatypes/MPEG2_TRANSPORT_STRIDE, bdatypes/PMPEG2_TRANSPORT_STRIDE, stream.mpeg2_transport_stride"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: Bdatypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPEG2_TRANSPORT_STRIDE
 ---
 
-# _MPEG2_TRANSPORT_STRIDE structure
+# MPEG2_TRANSPORT_STRIDE structure (bdatypes.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_SET_RENDER_PACKET function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamSetRenderPacket** event tells the driver which packet was just released by the client.

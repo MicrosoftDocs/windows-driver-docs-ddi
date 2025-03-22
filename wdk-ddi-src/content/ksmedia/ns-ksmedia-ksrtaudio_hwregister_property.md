@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_HWREGISTER_PROPERTY structure"]
 ms.keywords: "*PKSRTAUDIO_HWREGISTER_PROPERTY, KSRTAUDIO_HWREGISTER_PROPERTY, KSRTAUDIO_HWREGISTER_PROPERTY structure [Audio Devices], PKSRTAUDIO_HWREGISTER_PROPERTY, PKSRTAUDIO_HWREGISTER_PROPERTY structure pointer [Audio Devices], aud-prop_d554442a-4677-4fc6-a305-ef02d5caffef.xml, audio.ksrtaudio_hwregister_property, ksmedia/KSRTAUDIO_HWREGISTER_PROPERTY, ksmedia/PKSRTAUDIO_HWREGISTER_PROPERTY"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_HWREGISTER_PROPERTY
 ---
 
-# KSRTAUDIO_HWREGISTER_PROPERTY structure
+# KSRTAUDIO_HWREGISTER_PROPERTY structure (ksmedia.h)
+
+
 
 
 ## -description

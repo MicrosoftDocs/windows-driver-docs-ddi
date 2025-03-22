@@ -7,6 +7,7 @@ ms.date: 06/20/2022
 keywords: ["GNSS_EVENT structure"]
 ms.keywords: "*PGNSS_EVENT, GNSS_EVENT, GNSS_EVENT structure [Sensor Devices], PGNSS_EVENT, PGNSS_EVENT structure pointer [Sensor Devices], gnss.gnss_event, gnssdriver/GNSS_EVENT, gnssdriver/PGNSS_EVENT"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_EVENT
  - GNSS_EVENT
 ---
+
+# GNSS_EVENT structure (gnssdriver.h)
 
 ## -description
 

@@ -4,6 +4,7 @@ title: DXGKARGCB_SIGNALEVENT (d3dkmddi.h)
 description: Learn more about the DXGKARGCB_SIGNALEVENT structure.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809 (WDDM 2.5)
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARGCB_SIGNALEVENT structure
+# DXGKARGCB_SIGNALEVENT structure (d3dkmddi.h)
+
+
 
 ## -description
 

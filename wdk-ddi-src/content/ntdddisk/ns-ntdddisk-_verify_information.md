@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["VERIFY_INFORMATION structure"]
 ms.keywords: "*PVERIFY_INFORMATION, PVERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], VERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], _VERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, ntdddisk/VERIFY_INFORMATION, storage.verify_information, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VERIFY_INFORMATION
 ---
 
-# _VERIFY_INFORMATION structure
+# VERIFY_INFORMATION structure (ntdddisk.h)
+
+
 
 
 ## -description

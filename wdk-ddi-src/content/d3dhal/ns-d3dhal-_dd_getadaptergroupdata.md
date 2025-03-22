@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETADAPTERGROUPDATA structure"]
 ms.keywords: DD_GETADAPTERGROUPDATA, DD_GETADAPTERGROUPDATA structure [Display Devices], _DD_GETADAPTERGROUPDATA, d3dhal/DD_GETADAPTERGROUPDATA, d3dstrct_6bd570c2-bccf-4c1c-8bfb-ff20d77b7201.xml, display.dd_getadaptergroupdata
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETADAPTERGROUPDATA
 ---
 
-# _DD_GETADAPTERGROUPDATA structure
+# DD_GETADAPTERGROUPDATA structure (d3dhal.h)
+
+
 
 
 ## -description

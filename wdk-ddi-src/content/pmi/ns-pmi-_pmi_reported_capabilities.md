@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_REPORTED_CAPABILITIES structure"]
 ms.keywords: "*PPMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES, PMI_REPORTED_CAPABILITIES structure [Power Metering and Budgeting Devices], PPMI_REPORTED_CAPABILITIES, PPMI_REPORTED_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PowerMeterRef_9c4ec041-69a6-4397-8620-93b17615f084.xml, _PMI_REPORTED_CAPABILITIES, pmi/PMI_REPORTED_CAPABILITIES, pmi/PPMI_REPORTED_CAPABILITIES, powermeter.pmi_reported_capabilities"
 req.header: pmi.h
+req.construct-type: structure
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - PMI_REPORTED_CAPABILITIES
 ---
 
-# _PMI_REPORTED_CAPABILITIES structure
+# PMI_REPORTED_CAPABILITIES structure (pmi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 01/04/2023
 keywords: ["MONITOREX structure"]
 ms.keywords: "*LPMONITOREX, LPMONITOREX, LPMONITOREX structure pointer [Print Devices], MONITOREX, MONITOREX structure [Print Devices], _MONITOREX, print.monitorex, spoolfnc_4910913b-826e-4947-8186-7737d7b3c3fa.xml, winsplp/LPMONITOREX, winsplp/MONITOREX"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,6 +46,8 @@ api_name:
  - LPMONITOREX
  - MONITOREX
 ---
+
+# MONITOREX structure (winsplp.h)
 
 ## -description
 

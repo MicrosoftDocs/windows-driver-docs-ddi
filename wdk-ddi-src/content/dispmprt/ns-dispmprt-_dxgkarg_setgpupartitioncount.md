@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_SETGPUPARTITIONCOUNT structure"]
 ms.keywords: _DXGKARG_SETGPUPARTITIONCOUNT, DXGKARG_SETGPUPARTITIONCOUNT, *PDXGKARG_SETGPUPARTITIONCOUNT,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETGPUPARTITIONCOUNT structure
+# DXGKARG_SETGPUPARTITIONCOUNT structure (dispmprt.h)
+
+
 
 
 ## -description

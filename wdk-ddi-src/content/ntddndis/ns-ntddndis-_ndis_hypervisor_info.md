@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_HYPERVISOR_INFO structure"]
 ms.keywords: "*PNDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO, NDIS_HYPERVISOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_HYPERVISOR_INFO, PNDIS_HYPERVISOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_INFO, netvista.ndis_hypervisor_info, ntddndis/NDIS_HYPERVISOR_INFO, ntddndis/PNDIS_HYPERVISOR_INFO, virtual_machine_queue_ref_c0f9611a-2d20-4757-ba59-16bf6a83549c.xml"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_HYPERVISOR_INFO
 ---
 
-# _NDIS_HYPERVISOR_INFO structure
+# NDIS_HYPERVISOR_INFO structure (ntddndis.h)
+
+
 
 
 ## -description

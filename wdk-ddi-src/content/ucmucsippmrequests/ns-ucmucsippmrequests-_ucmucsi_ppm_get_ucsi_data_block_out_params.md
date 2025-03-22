@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS structure"]
 ms.keywords: _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS, *PUCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS,
 req.header: ucmucsippmrequests.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS
 ---
 
-# _UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS structure
+# UCMUCSI_PPM_GET_UCSI_DATA_BLOCK_OUT_PARAMS structure (ucmucsippmrequests.h)
+
+
 
 
 ## -description

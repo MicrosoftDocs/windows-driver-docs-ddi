@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GLYPHRUN structure"]
 ms.keywords: "*PGLYPHRUN, GLYPHRUN, GLYPHRUN structure [Print Devices], PGLYPHRUN, PGLYPHRUN structure pointer [Print Devices], _GLYPHRUN, print.glyphrun, print_unidrv-pscript_fonts_591184a3-96f1-4b27-bf6a-d1c512a2bf7e.xml, prntfont/GLYPHRUN, prntfont/PGLYPHRUN"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GLYPHRUN
 ---
 
-# _GLYPHRUN structure
+# GLYPHRUN structure (prntfont.h)
+
+
 
 
 ## -description

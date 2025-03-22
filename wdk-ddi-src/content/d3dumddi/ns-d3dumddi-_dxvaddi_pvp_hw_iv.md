@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_PVP_HW_IV structure"]
 ms.keywords: DXVA2_Structs_c4bb4df0-ed9d-494e-84ff-fcd8e68aac36.xml, DXVADDI_PVP_HW_IV, DXVADDI_PVP_HW_IV structure [Display Devices], _DXVADDI_PVP_HW_IV, d3dumddi/DXVADDI_PVP_HW_IV, display.dxvaddi_pvp_hw_iv
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_PVP_HW_IV
 ---
 
-# _DXVADDI_PVP_HW_IV structure
+# DXVADDI_PVP_HW_IV structure (d3dumddi.h)
+
+
 
 
 ## -description

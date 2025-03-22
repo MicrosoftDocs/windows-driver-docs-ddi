@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_QP_DISPATCH structure"]
 ms.keywords: NDK_QP_DISPATCH, NDK_QP_DISPATCH structure [Network Drivers Starting with Windows Vista], _NDK_QP_DISPATCH, ndkpi/NDK_QP_DISPATCH, netvista.ndk_qp_dispatch
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_QP_DISPATCH
 ---
 
-# _NDK_QP_DISPATCH structure
+# NDK_QP_DISPATCH structure (ndkpi.h)
+
+
 
 
 ## -description

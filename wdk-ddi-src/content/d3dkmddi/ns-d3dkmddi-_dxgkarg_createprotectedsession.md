@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_CREATEPROTECTEDSESSION structure"]
 ms.keywords: "*INOUT_PDXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION, DXGKARG_CREATEPROTECTEDSESSION structure [Display Devices], _DXGKARG_CREATEPROTECTEDSESSION, d3dkmddi/DXGKARG_CREATEPROTECTEDSESSION, display.dxgkarg_createprotectedsession"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_CREATEPROTECTEDSESSION
 ---
 
-# _DXGKARG_CREATEPROTECTEDSESSION structure
+# DXGKARG_CREATEPROTECTEDSESSION structure (d3dkmddi.h)
+
+
 
 
 ## -description

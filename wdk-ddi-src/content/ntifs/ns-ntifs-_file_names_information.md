@@ -8,6 +8,7 @@ ms.date: 11/28/2022
 keywords: ["FILE_NAMES_INFORMATION structure"]
 ms.keywords: "*PFILE_NAMES_INFORMATION, FILE_NAMES_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_NAMES_INFORMATION
 ---
 
-# FILE_NAMES_INFORMATION structure
+# FILE_NAMES_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

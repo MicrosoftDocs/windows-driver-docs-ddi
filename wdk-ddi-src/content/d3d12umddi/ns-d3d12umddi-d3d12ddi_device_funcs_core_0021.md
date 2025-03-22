@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0021 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0021, D3D12DDI_DEVICE_FUNCS_CORE_0021 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0021, display.d3d12ddi_device_funcs_core_0021
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_DEVICE_FUNCS_CORE_0021
 ---
 
-# D3D12DDI_DEVICE_FUNCS_CORE_0021 structure
+# D3D12DDI_DEVICE_FUNCS_CORE_0021 structure (d3d12umddi.h)
+
+
 
 
 ## -description

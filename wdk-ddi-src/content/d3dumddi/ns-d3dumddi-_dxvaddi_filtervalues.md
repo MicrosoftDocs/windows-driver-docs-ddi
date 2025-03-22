@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_FILTERVALUES structure"]
 ms.keywords: DXVA2_Structs_1425eb3e-586d-4777-be61-8a73148286d4.xml, DXVADDI_FILTERVALUES, DXVADDI_FILTERVALUES structure [Display Devices], _DXVADDI_FILTERVALUES, d3dumddi/DXVADDI_FILTERVALUES, display.dxvaddi_filtervalues
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_FILTERVALUES
 ---
 
-# _DXVADDI_FILTERVALUES structure
+# DXVADDI_FILTERVALUES structure (d3dumddi.h)
+
+
 
 
 ## -description

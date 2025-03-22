@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveI2 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveI2 function retrieves an int two byte I2 (SHORT) value from an existing, initialized AcxObjectBag that contains values.

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_LOGUMDMARKER structure"]
 ms.keywords: D3DDDICB_LOGUMDMARKER, D3DDDICB_LOGUMDMARKER structure [Display Devices], d3dumddi/D3DDDICB_LOGUMDMARKER, display.d3dddicb_logumdmarker
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDICB_LOGUMDMARKER
 ---
 
-# D3DDDICB_LOGUMDMARKER structure
+# D3DDDICB_LOGUMDMARKER structure (d3dumddi.h)
+
+
 
 
 ## -description

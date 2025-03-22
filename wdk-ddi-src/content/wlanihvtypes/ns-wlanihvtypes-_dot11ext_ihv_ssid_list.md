@@ -8,6 +8,7 @@ ms.date: 03/07/2024
 keywords: ["DOT11EXT_IHV_SSID_LIST structure"]
 ms.keywords: "*PDOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST, DOT11EXT_IHV_SSID_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c4e6c252-de57-4173-b6e1-df48dca0404f.xml, PDOT11EXT_IHV_SSID_LIST, PDOT11EXT_IHV_SSID_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_SSID_LIST, netvista.dot11ext_ihv_ssid_list, wlanihvtypes/DOT11EXT_IHV_SSID_LIST, wlanihvtypes/PDOT11EXT_IHV_SSID_LIST"
 req.header: wlanihvtypes.h
+req.construct-type: structure
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11EXT_IHV_SSID_LIST
 ---
 
-# _DOT11EXT_IHV_SSID_LIST structure
+# DOT11EXT_IHV_SSID_LIST structure (wlanihvtypes.h)
+
+
 
 
 ## -description

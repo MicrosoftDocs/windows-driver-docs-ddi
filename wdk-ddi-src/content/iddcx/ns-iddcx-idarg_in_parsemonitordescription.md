@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_IN_PARSEMONITORDESCRIPTION structure"]
 ms.keywords: IDARG_IN_PARSEMONITORDESCRIPTION, IDARG_IN_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_in_parsemonitordescription, iddcx/IDARG_IN_PARSEMONITORDESCRIPTION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_PARSEMONITORDESCRIPTION
 ---
 
-# IDARG_IN_PARSEMONITORDESCRIPTION structure
+# IDARG_IN_PARSEMONITORDESCRIPTION structure (iddcx.h)
+
+
 
 
 ## -description

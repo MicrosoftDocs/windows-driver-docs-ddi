@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_GAMMA_RAMP_RGB256x3x16 structure"]
 ms.keywords: D3DDDI_GAMMA_RAMP_RGB256x3x16, D3DDDI_GAMMA_RAMP_RGB256x3x16 structure [Display Devices], DmStructs_803b0bbe-a2a2-4e61-82da-11db95413949.xml, _D3DDDI_GAMMA_RAMP_RGB256x3x16, d3dukmdt/D3DDDI_GAMMA_RAMP_RGB256x3x16, display.d3dddi_gamma_ramp_rgb256x3x16
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_GAMMA_RAMP_RGB256x3x16
 ---
 
-# _D3DDDI_GAMMA_RAMP_RGB256x3x16 structure
+# D3DDDI_GAMMA_RAMP_RGB256x3x16 structure (d3dukmdt.h)
+
+
 
 
 ## -description

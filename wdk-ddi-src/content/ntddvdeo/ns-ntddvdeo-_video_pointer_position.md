@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_POINTER_POSITION structure"]
 ms.keywords: "*PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION, PVIDEO_POINTER_POSITION structure pointer [Display Devices], VIDEO_POINTER_POSITION, VIDEO_POINTER_POSITION structure [Display Devices], Video_Structs_72aeeda6-58eb-419e-95d2-35c1b66adf36.xml, _VIDEO_POINTER_POSITION, display.video_pointer_position, ntddvdeo/PVIDEO_POINTER_POSITION, ntddvdeo/VIDEO_POINTER_POSITION"
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: Ntddvdeo.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_POINTER_POSITION
 ---
 
-# _VIDEO_POINTER_POSITION structure
+# VIDEO_POINTER_POSITION structure (ntddvdeo.h)
+
+
 
 
 ## -description

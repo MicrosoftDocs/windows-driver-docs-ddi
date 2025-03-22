@@ -6,6 +6,7 @@ ms.date: 10/04/2023
 keywords: ["D3DKMT_OUTPUTDUPL_SNAPSHOT structure"]
 ms.keywords: D3DKMT_OUTPUTDUPL_SNAPSHOT, D3DKMT_OUTPUTDUPL_SNAPSHOT structure [Display Devices], _D3DKMT_OUTPUTDUPL_SNAPSHOT, d3dkmthk/D3DKMT_OUTPUTDUPL_SNAPSHOT, display.d3dkmt_outputdupl_snapshot
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -42,7 +43,9 @@ api_name:
  - D3DKMT_OUTPUTDUPL_SNAPSHOT
 ---
 
-# D3DKMT_OUTPUTDUPL_SNAPSHOT structure
+# D3DKMT_OUTPUTDUPL_SNAPSHOT structure (d3dkmthk.h)
+
+
 
 ## -description
 

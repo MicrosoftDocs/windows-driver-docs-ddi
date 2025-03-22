@@ -6,6 +6,7 @@ ms.date: 05/31/2022
 keywords: ["DXGK_DIAGNOSTIC_PSR structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_PSR, DXGK_DIAGNOSTIC_PSR,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_DIAGNOSTIC_PSR
 ---
 
-# DXGK_DIAGNOSTIC_PSR structure
+# DXGK_DIAGNOSTIC_PSR structure (dispmprt.h)
+
+
 
 ## -description
 

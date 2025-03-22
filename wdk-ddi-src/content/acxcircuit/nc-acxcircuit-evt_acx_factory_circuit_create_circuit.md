@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUIT** callback is invoked by ACX when the driver must create an ACXCIRCUIT object with the specified configuration.

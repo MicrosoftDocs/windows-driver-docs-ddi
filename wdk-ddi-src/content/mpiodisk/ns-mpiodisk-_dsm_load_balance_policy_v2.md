@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DSM_Load_Balance_Policy_V2 structure"]
 ms.keywords: "*PDSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2, DSM_Load_Balance_Policy_V2 structure [Storage Devices], PDSM_Load_Balance_Policy_V2, PDSM_Load_Balance_Policy_V2 structure pointer [Storage Devices], _DSM_Load_Balance_Policy_V2, mpiodisk/DSM_Load_Balance_Policy_V2, mpiodisk/PDSM_Load_Balance_Policy_V2, storage.dsm_load_balance_policy_v2, structs-scsibus_f53c7618-49ab-452b-97e7-402d9392a419.xml"
 req.header: mpiodisk.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DSM_Load_Balance_Policy_V2
 ---
 
-# _DSM_Load_Balance_Policy_V2 structure
+# DSM_Load_Balance_Policy_V2 structure (mpiodisk.h)
+
+
 
 
 ## -description

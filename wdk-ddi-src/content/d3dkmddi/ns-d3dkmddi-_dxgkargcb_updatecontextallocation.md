@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_UPDATECONTEXTALLOCATION structure"]
 ms.keywords: DXGKARGCB_UPDATECONTEXTALLOCATION, DXGKARGCB_UPDATECONTEXTALLOCATION structure [Display Devices], _DXGKARGCB_UPDATECONTEXTALLOCATION, d3dkmddi/DXGKARGCB_UPDATECONTEXTALLOCATION, display.dxgkargcb_updatecontextallocation
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 (WDDM 2.0)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_UPDATECONTEXTALLOCATION
 ---
 
-# DXGKARGCB_UPDATECONTEXTALLOCATION structure
+# DXGKARGCB_UPDATECONTEXTALLOCATION structure (d3dkmddi.h)
+
+
 
 ## -description
 

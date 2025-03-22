@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["UNIFM_HDR structure"]
 ms.keywords: "*PUNIFM_HDR, PUNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices], UNIFM_HDR, UNIFM_HDR structure [Print Devices], _UNIFM_HDR, print.unifm_hdr, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, prntfont/PUNIFM_HDR, prntfont/UNIFM_HDR"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UNIFM_HDR
 ---
 
-# _UNIFM_HDR structure
+# UNIFM_HDR structure (prntfont.h)
+
+
 
 
 ## -description

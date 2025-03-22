@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ACX_IS_FIELD_AVAILABLE
 ---
 
+# ACX_IS_FIELD_AVAILABLE function (acxfuncenum.h)
+
 ## -description
 
 The **ACX_IS_FIELD_AVAILABLE** function enables you to query if the specified field is available in the specified ACX structure on the system.

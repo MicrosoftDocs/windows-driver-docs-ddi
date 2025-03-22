@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceInitialize function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceInitialize** function initializes an audio class extension (ACX) device.

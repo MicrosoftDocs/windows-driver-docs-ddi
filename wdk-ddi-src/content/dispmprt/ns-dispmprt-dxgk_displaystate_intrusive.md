@@ -38,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DISPLAYSTATE_INTRUSIVE structure
+# DXGK_DISPLAYSTATE_INTRUSIVE structure (dispmprt.h)
+
+
 
 ## -description
 

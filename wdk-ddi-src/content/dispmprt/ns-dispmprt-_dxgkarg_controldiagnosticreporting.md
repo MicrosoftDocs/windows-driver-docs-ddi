@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_CONTROLDIAGNOSTICREPORTING structure"]
 ms.keywords: _DXGKARG_CONTROLDIAGNOSTICREPORTING, *PDXGKARG_CONTROLDIAGNOSTICREPORTING, DXGKARG_CONTROLDIAGNOSTICREPORTING,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - DXGKARG_CONTROLDIAGNOSTICREPORTING
 ---
 
-# _DXGKARG_CONTROLDIAGNOSTICREPORTING structure
+# DXGKARG_CONTROLDIAGNOSTICREPORTING structure (dispmprt.h)
+
+
 
 
 ## -description

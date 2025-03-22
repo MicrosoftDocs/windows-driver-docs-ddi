@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSAUDIOENGINE_DESCRIPTOR structure"]
 ms.keywords: "*PKSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR, KSAUDIOENGINE_DESCRIPTOR structure [Audio Devices], PKSAUDIOENGINE_DESCRIPTOR, PKSAUDIOENGINE_DESCRIPTOR structure pointer [Audio Devices], _tagKSAUDIOENGINE_DESCRIPTOR, audio.ksaudioengine_descriptor, ksmedia/KSAUDIOENGINE_DESCRIPTOR, ksmedia/PKSAUDIOENGINE_DESCRIPTOR"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - KSAUDIOENGINE_DESCRIPTOR
 ---
 
-# _tagKSAUDIOENGINE_DESCRIPTOR structure
+# KSAUDIOENGINE_DESCRIPTOR structure (ksmedia.h)
+
+
 
 
 ## -description

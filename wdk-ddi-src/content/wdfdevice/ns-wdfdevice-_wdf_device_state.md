@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_STATE structure"]
 ms.keywords: "*PWDF_DEVICE_STATE, DFDeviceObjectGeneralRef_a5705164-b38f-4307-8b7d-5b3156aadf62.xml, PWDF_DEVICE_STATE, PWDF_DEVICE_STATE structure pointer, WDF_DEVICE_STATE, WDF_DEVICE_STATE structure, _WDF_DEVICE_STATE, kmdf.wdf_device_state, wdf.wdf_device_state, wdfdevice/PWDF_DEVICE_STATE, wdfdevice/WDF_DEVICE_STATE"
 req.header: wdfdevice.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_DEVICE_STATE
 ---
 
-# _WDF_DEVICE_STATE structure
+# WDF_DEVICE_STATE structure (wdfdevice.h)
+
+
 
 
 ## -description

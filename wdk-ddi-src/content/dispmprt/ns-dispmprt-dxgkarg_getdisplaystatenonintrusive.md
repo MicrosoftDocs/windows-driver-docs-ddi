@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_GETDISPLAYSTATENONINTRUSIVE structure
+# DXGKARG_GETDISPLAYSTATENONINTRUSIVE structure (dispmprt.h)
+
+
 
 
 ## -description

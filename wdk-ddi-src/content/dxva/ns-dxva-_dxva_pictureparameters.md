@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_PictureParameters structure"]
 ms.keywords: "*LPDXVA_PictureParameters, DXVA_PictureParameters, DXVA_PictureParameters structure [Display Devices], LPDXVA_PictureParameters, LPDXVA_PictureParameters structure pointer [Display Devices], _DXVA_PictureParameters, display.dxva_pictureparameters, dxva/DXVA_PictureParameters, dxva/LPDXVA_PictureParameters, dxvaref_10ab1c20-a070-42ad-95da-0d8a20d19228.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_PictureParameters
 ---
 
-# _DXVA_PictureParameters structure
+# DXVA_PictureParameters structure (dxva.h)
+
+
 
 
 ## -description

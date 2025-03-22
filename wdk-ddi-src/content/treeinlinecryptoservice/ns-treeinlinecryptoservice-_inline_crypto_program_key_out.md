@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_PROGRAM_KEY_OUT structure"]
 ms.keywords: _INLINE_CRYPTO_PROGRAM_KEY_OUT, INLINE_CRYPTO_PROGRAM_KEY_OUT, *PINLINE_CRYPTO_PROGRAM_KEY_OUT,
 req.header: treeinlinecryptoservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - INLINE_CRYPTO_PROGRAM_KEY_OUT
 ---
 
-# _INLINE_CRYPTO_PROGRAM_KEY_OUT structure
+# INLINE_CRYPTO_PROGRAM_KEY_OUT structure (treeinlinecryptoservice.h)
+
+
 
 
 ## -description

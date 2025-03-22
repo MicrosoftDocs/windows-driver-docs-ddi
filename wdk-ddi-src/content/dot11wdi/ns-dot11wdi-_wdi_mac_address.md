@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_MAC_ADDRESS structure"]
 ms.keywords: "*PWDI_MAC_ADDRESS, PWDI_MAC_ADDRESS, PWDI_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WDI_MAC_ADDRESS, WDI_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], _WDI_MAC_ADDRESS, dot11wdi/PWDI_MAC_ADDRESS, dot11wdi/WDI_MAC_ADDRESS, netvista.wdi_mac_address, netvista.wifi_mac_address"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_MAC_ADDRESS
 ---
 
-# _WDI_MAC_ADDRESS structure
+# WDI_MAC_ADDRESS structure (dot11wdi.h)
+
+
 
 
 ## -description

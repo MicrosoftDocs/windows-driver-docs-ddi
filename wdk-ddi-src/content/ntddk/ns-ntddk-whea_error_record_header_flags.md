@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_ERROR_RECORD_HEADER_FLAGS structure"]
 ms.keywords: WHEA_ERROR_RECORD_HEADER_FLAGS, WHEA_ERROR_RECORD_HEADER_FLAGS, *PWHEA_ERROR_RECORD_HEADER_FLAGS,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - WHEA_ERROR_RECORD_HEADER_FLAGS
 ---
 
-# WHEA_ERROR_RECORD_HEADER_FLAGS structure
+# WHEA_ERROR_RECORD_HEADER_FLAGS structure (ntddk.h)
+
+
 
 
 ## -description

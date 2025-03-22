@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_RESULT structure"]
 ms.keywords: NDK_RESULT, NDK_RESULT structure [Network Drivers Starting with Windows Vista], _NDK_RESULT, ndkpi/NDK_RESULT, netvista.ndk_result
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_RESULT
 ---
 
-# _NDK_RESULT structure
+# NDK_RESULT structure (ndkpi.h)
+
+
 
 
 ## -description

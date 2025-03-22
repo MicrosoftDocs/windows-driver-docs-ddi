@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# FILE_ID_EXTD_DIR_INFORMATION structure
+# FILE_ID_EXTD_DIR_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

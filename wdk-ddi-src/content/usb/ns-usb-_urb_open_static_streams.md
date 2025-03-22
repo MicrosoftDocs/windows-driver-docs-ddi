@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_OPEN_STATIC_STREAMS structure"]
 ms.keywords: "_URB_OPEN_STATIC_STREAMS, _URB_OPEN_STATIC_STREAMS structure [Buses], buses._urb_open_basic_streams, usb/_URB_OPEN_STATIC_STREAMS"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - _URB_OPEN_STATIC_STREAMS
 ---
 
-# _URB_OPEN_STATIC_STREAMS structure
+# _URB_OPEN_STATIC_STREAMS structure (usb.h)
+
+
 
 
 ## -description

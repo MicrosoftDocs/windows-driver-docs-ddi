@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosMagneticStripeReaderCapabilitiesType structure"]
 ms.keywords: PosMagneticStripeReaderCapabilitiesType, PosMagneticStripeReaderCapabilitiesType structure, _PosMagneticStripeReaderCapabilitiesType, pointofservicedriverinterface/PosMagneticStripeReaderCapabilitiesType, pos.posmagneticstripereadercapabilitiestype
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosMagneticStripeReaderCapabilitiesType
 ---
 
-# _PosMagneticStripeReaderCapabilitiesType structure
+# PosMagneticStripeReaderCapabilitiesType structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

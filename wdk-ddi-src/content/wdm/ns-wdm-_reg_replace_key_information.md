@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_REPLACE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION, PREG_REPLACE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_REPLACE_KEY_INFORMATION, REG_REPLACE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_REPLACE_KEY_INFORMATION, kernel.reg_replace_key_information, kstruct_d_29e33c32-67fc-48e0-a976-9830278009bc.xml, wdm/PREG_REPLACE_KEY_INFORMATION, wdm/REG_REPLACE_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Windows Vista SP2 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - REG_REPLACE_KEY_INFORMATION
 ---
 
-# _REG_REPLACE_KEY_INFORMATION structure
+# REG_REPLACE_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

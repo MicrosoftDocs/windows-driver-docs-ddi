@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_GETCAPTUREADDRESS structure"]
 ms.keywords: "*INOUT_PDXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS, DXGKARGCB_GETCAPTUREADDRESS structure [Display Devices], DmStructs_24ed27a0-7ad3-44d1-aa93-c22733ebfb34.xml, _DXGKARGCB_GETCAPTUREADDRESS, d3dkmddi/DXGKARGCB_GETCAPTUREADDRESS, display.dxgkargcb_getcaptureaddress"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_GETCAPTUREADDRESS
 ---
 
-# DXGKARGCB_GETCAPTUREADDRESS structure
+# DXGKARGCB_GETCAPTUREADDRESS structure (d3dkmddi.h)
+
+
 
 ## -description
 

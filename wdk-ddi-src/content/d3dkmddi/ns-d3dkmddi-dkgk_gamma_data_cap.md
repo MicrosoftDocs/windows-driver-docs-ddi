@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DKGK_GAMMA_DATA_CAP structure"]
 ms.keywords: DKGK_GAMMA_DATA_CAP, DKGK_GAMMA_DATA_CAP,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DKGK_GAMMA_DATA_CAP structure
+# DKGK_GAMMA_DATA_CAP structure (d3dkmddi.h)
+
+
 
 
 ## -description

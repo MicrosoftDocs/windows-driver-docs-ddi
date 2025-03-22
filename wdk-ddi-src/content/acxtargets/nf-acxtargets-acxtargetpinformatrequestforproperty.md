@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetPinFormatRequestForProperty function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetPinFormatRequestForProperty** formats a WDFREQUEST as an ACX property request to be used on specified pin target.

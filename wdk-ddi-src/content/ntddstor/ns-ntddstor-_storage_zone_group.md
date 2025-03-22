@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_ZONE_GROUP structure"]
 ms.keywords: "*PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP, PSTORAGE_ZONE_GROUP structure pointer [Storage Devices], STORAGE_ZONE_GROUP, STORAGE_ZONE_GROUP structure [Storage Devices], _STORAGE_ZONE_GROUP, ntddstor/ STORAGE_ZONE_GROUP, ntddstor/PSTORAGE_ZONE_GROUP, storage.storage_zone_group"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_ZONE_GROUP
 ---
 
-# _STORAGE_ZONE_GROUP structure
+# STORAGE_ZONE_GROUP structure (ntddstor.h)
+
+
 
 
 ## -description

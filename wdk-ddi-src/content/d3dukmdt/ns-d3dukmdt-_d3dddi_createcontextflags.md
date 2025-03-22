@@ -7,6 +7,7 @@ ms.date: 05/21/2024
 keywords: ["D3DDDI_CREATECONTEXTFLAGS structure"]
 ms.keywords: D3DDDI_CREATECONTEXTFLAGS, D3DDDI_CREATECONTEXTFLAGS structure [Display Devices], D3D_other_Structs_e20f9457-1008-4c63-a924-d5fa75929be5.xml, _D3DDDI_CREATECONTEXTFLAGS, d3dukmdt/D3DDDI_CREATECONTEXTFLAGS, display.d3dddi_createcontextflags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -42,7 +43,9 @@ api_name:
  - D3DDDI_CREATECONTEXTFLAGS
 ---
 
-# D3DDDI_CREATECONTEXTFLAGS structure
+# D3DDDI_CREATECONTEXTFLAGS structure (d3dukmdt.h)
+
+
 
 ## -description
 

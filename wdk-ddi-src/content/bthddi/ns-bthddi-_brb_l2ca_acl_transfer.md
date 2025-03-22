@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_L2CA_ACL_TRANSFER structure"]
 ms.keywords: "_BRB_L2CA_ACL_TRANSFER, _BRB_L2CA_ACL_TRANSFER structure [Bluetooth Devices], bltooth._brb_l2ca_acl_transfer, bth_structs_5dfd1186-d8a1-4ec5-9ce8-028d462fcb21.xml, bthddi/_BRB_L2CA_ACL_TRANSFER"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_L2CA_ACL_TRANSFER
 ---
 
-# _BRB_L2CA_ACL_TRANSFER structure
+# _BRB_L2CA_ACL_TRANSFER structure (bthddi.h)
+
+
 
 
 ## -description

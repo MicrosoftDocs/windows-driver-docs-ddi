@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamAddElements function (acxstreams.h)
+
 ## -description
 
 **AcxStreamAddElements** is used to add stream elements to an AcxStream.

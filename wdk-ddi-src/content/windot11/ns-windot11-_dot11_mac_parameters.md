@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_MAC_PARAMETERS structure"]
 ms.keywords: "*PDOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS, DOT11_MAC_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_MAC_PARAMETERS, PDOT11_MAC_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], Revision, Size, Type, _DOT11_MAC_PARAMETERS, netvista.dot11_mac_parameters, windot11/DOT11_MAC_PARAMETERS, windot11/PDOT11_MAC_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DOT11_MAC_PARAMETERS
 ---
 
-# _DOT11_MAC_PARAMETERS structure
+# DOT11_MAC_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

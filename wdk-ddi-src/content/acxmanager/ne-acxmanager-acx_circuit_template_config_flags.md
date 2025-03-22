@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS enumeration (acxmanager.h)
+
 ## -description
 
 The **ACX_CIRCUIT_TEMPLATE_CONFIG_FLAGS** enumeration is used to configure the properties of a circuit template used by the audio class extension (ACX) manager.

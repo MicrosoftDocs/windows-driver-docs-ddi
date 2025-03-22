@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamResumeIoActual function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamResumeIoActual** function is used to resume IO for a stream.

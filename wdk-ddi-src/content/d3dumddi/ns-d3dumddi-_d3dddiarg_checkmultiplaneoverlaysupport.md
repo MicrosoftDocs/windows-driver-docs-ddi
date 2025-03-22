@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure"]
 ms.keywords: D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure [Display Devices], _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, d3dumddi/D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT, display.d3dddiarg_checkmultiplaneoverlaysupport
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT
 ---
 
-# _D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure
+# D3DDDIARG_CHECKMULTIPLANEOVERLAYSUPPORT structure (d3dumddi.h)
+
+
 
 
 ## -description

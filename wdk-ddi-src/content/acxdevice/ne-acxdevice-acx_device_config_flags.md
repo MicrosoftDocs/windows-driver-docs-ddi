@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DEVICE_CONFIG_FLAGS enumeration (acxdevice.h)
+
 ## -description
 
 The **ACX_DEVICE_CONFIG_FLAGS** enum defines values used to configure the audio class extension.

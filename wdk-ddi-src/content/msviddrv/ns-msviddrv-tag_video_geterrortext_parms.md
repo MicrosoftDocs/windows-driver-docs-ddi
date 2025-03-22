@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tag_video_geterrortext_parms structure"]
 ms.keywords: "*LPVIDEO_GETERRORTEXT_PARMS, LPVIDEO_GETERRORTEXT_PARMS, LPVIDEO_GETERRORTEXT_PARMS structure pointer [Streaming Media Devices], VIDEO_GETERRORTEXT_PARMS, VIDEO_GETERRORTEXT_PARMS structure [Streaming Media Devices], msviddrv/LPVIDEO_GETERRORTEXT_PARMS, msviddrv/VIDEO_GETERRORTEXT_PARMS, stream.video_geterrortext_parms, tag_video_geterrortext_parms"
 req.header: msviddrv.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_GETERRORTEXT_PARMS
 ---
 
-# tag_video_geterrortext_parms structure
+# tag_video_geterrortext_parms structure (msviddrv.h)
+
+
 
 
 ## -description

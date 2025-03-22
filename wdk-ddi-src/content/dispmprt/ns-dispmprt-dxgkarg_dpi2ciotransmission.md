@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_DPI2CIOTRANSMISSION structure
+# DXGKARG_DPI2CIOTRANSMISSION structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSP_TIMEFORMAT structure"]
 ms.keywords: "*PKSP_TIMEFORMAT, KSP_TIMEFORMAT, KSP_TIMEFORMAT structure [Streaming Media Devices], PKSP_TIMEFORMAT, PKSP_TIMEFORMAT structure pointer [Streaming Media Devices], ks-struct_086a975b-f249-44e9-b1fa-4a945509722e.xml, ks/KSP_TIMEFORMAT, ks/PKSP_TIMEFORMAT, stream.ksp_timeformat"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSP_TIMEFORMAT
 ---
 
-# KSP_TIMEFORMAT structure
+# KSP_TIMEFORMAT structure (ks.h)
+
+
 
 
 ## -description

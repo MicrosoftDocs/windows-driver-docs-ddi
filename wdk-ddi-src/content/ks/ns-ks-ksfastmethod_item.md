@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSFASTMETHOD_ITEM structure"]
 ms.keywords: "*PKSFASTMETHOD_ITEM, KSFASTMETHOD_ITEM, KSFASTMETHOD_ITEM structure [Streaming Media Devices], PKSFASTMETHOD_ITEM, PKSFASTMETHOD_ITEM structure pointer [Streaming Media Devices], ks-struct_1280212d-776c-4f9d-a00b-d880785c4cdf.xml, ks/KSFASTMETHOD_ITEM, ks/PKSFASTMETHOD_ITEM, stream.ksfastmethod_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSFASTMETHOD_ITEM
 ---
 
-# KSFASTMETHOD_ITEM structure
+# KSFASTMETHOD_ITEM structure (ks.h)
+
+
 
 
 ## -description

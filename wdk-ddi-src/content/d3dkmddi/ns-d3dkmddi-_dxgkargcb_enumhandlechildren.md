@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_ENUMHANDLECHILDREN structure"]
 ms.keywords: DXGKARGCB_ENUMHANDLECHILDREN, DXGKARGCB_ENUMHANDLECHILDREN structure [Display Devices], DmStructs_b02ec187-32ca-41ff-bfc3-03d058872b5d.xml, _DXGKARGCB_ENUMHANDLECHILDREN, d3dkmddi/DXGKARGCB_ENUMHANDLECHILDREN, display.dxgkargcb_enumhandlechildren
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_ENUMHANDLECHILDREN
 ---
 
-# DXGKARGCB_ENUMHANDLECHILDREN structure
+# DXGKARGCB_ENUMHANDLECHILDREN structure (d3dkmddi.h)
+
+
 
 ## -description
 

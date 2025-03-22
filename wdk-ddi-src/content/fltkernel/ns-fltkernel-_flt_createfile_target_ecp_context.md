@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FLT_CREATEFILE_TARGET_ECP_CONTEXT structure"]
 ms.keywords: "*PFLT_CREATEFILE_TARGET_ECP_CONTEXT, FLTTCFL_AUTO_REPARSE, FLT_CREATEFILE_TARGET_ECP_CONTEXT, FLT_CREATEFILE_TARGET_ECP_CONTEXT structure [Installable File System Drivers], PFLT_CREATEFILE_TARGET_ECP_CONTEXT, PFLT_CREATEFILE_TARGET_ECP_CONTEXT structure pointer [Installable File System Drivers], _FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/FLT_CREATEFILE_TARGET_ECP_CONTEXT, fltkernel/PFLT_CREATEFILE_TARGET_ECP_CONTEXT, ifsk.flt_createfile_target_ecp_context"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: FltKernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - FLT_CREATEFILE_TARGET_ECP_CONTEXT
 ---
 
-# _FLT_CREATEFILE_TARGET_ECP_CONTEXT structure
+# FLT_CREATEFILE_TARGET_ECP_CONTEXT structure (fltkernel.h)
+
+
 
 
 ## -description

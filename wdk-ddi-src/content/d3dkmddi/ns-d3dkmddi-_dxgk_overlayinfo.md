@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_OVERLAYINFO structure"]
 ms.keywords: DXGK_OVERLAYINFO, DXGK_OVERLAYINFO structure [Display Devices], DmStructs_232178f2-9a25-40aa-8604-0414128c1a91.xml, _DXGK_OVERLAYINFO, d3dkmddi/DXGK_OVERLAYINFO, display.dxgk_overlayinfo
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_OVERLAYINFO
 ---
 
-# _DXGK_OVERLAYINFO structure
+# DXGK_OVERLAYINFO structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_DVDCOPY_DISCKEY structure"]
 ms.keywords: "*PKS_DVDCOPY_DISCKEY, KS_DVDCOPY_DISCKEY, KS_DVDCOPY_DISCKEY structure [Streaming Media Devices], PKS_DVDCOPY_DISCKEY, PKS_DVDCOPY_DISCKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_DISCKEY, dvdref_125d99fe-df42-4e9a-b21c-198c968ff88b.xml, ksmedia/KS_DVDCOPY_DISCKEY, ksmedia/PKS_DVDCOPY_DISCKEY, stream.ks_dvdcopy_disckey"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DVDCOPY_DISCKEY
 ---
 
-# _KS_DVDCOPY_DISCKEY structure
+# KS_DVDCOPY_DISCKEY structure (ksmedia.h)
+
+
 
 
 ## -description

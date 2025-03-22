@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FSCTL_OFFLOAD_WRITE_INPUT structure"]
 ms.keywords: "*PFSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT, FSCTL_OFFLOAD_WRITE_INPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_WRITE_INPUT, PFSCTL_OFFLOAD_WRITE_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_WRITE_INPUT, ifsk.fsctl_offload_write_input, ntifs/FSCTL_OFFLOAD_WRITE_INPUT, ntifs/PFSCTL_OFFLOAD_WRITE_INPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -45,7 +46,9 @@ api_name:
  - FSCTL_OFFLOAD_WRITE_INPUT
 ---
 
-# FSCTL_OFFLOAD_WRITE_INPUT structure
+# FSCTL_OFFLOAD_WRITE_INPUT structure (ntifs.h)
+
+
 
 ## -description
 

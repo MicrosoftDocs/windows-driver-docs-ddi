@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACXDRMRIGHTS structure (acxstreams.h)
+
 ## -description
 
 The **ACXDRMRIGHTS** structure specifies the DRM content rights assigned to an ACX audio pin or to a driver's stream object.

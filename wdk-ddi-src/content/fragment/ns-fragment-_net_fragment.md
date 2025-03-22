@@ -7,6 +7,7 @@ ms.date: 09/26/2019
 keywords: ["NET_FRAGMENT structure"]
 ms.keywords: _NET_FRAGMENT, NET_FRAGMENT,
 req.header: fragment.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_FRAGMENT
 ---
 
-# _NET_FRAGMENT structure
+# NET_FRAGMENT structure (fragment.h)
+
+
 
 
 ## -description

@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS enumeration
+# DXGK_DIAG_GETDISPLAYSTATE_SUBSTATUS_FLAGS enumeration (dispmprt.h)
+
+
 
 
 ## -description

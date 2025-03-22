@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SECURITY_DESCRIPTOR structure"]
 ms.keywords: "*PISECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR, SECURITY_DESCRIPTOR structure [Installable File System Drivers], _SECURITY_DESCRIPTOR, ifsk.security_descriptor, ntifs/SECURITY_DESCRIPTOR, securitystructures_b3cd4d20-6abc-49e7-92dd-8dd707e973fa.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Microsoft Windows 2000.
@@ -46,7 +47,9 @@ api_name:
  - SECURITY_DESCRIPTOR
 ---
 
-# _SECURITY_DESCRIPTOR structure
+# SECURITY_DESCRIPTOR structure (ntifs.h)
+
+
 
 
 ## -description

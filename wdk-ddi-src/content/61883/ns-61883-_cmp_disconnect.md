@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_DISCONNECT structure"]
 ms.keywords: "*PCMP_DISCONNECT, 61883/CMP_DISCONNECT, 61883/PCMP_DISCONNECT, CMP_DISCONNECT, CMP_DISCONNECT structure [Buses], IEEE.cmp_disconnect, PCMP_DISCONNECT, PCMP_DISCONNECT structure pointer [Buses], _CMP_DISCONNECT"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_DISCONNECT
 ---
 
-# _CMP_DISCONNECT structure
+# CMP_DISCONNECT structure (61883.h)
+
+
 
 
 ## -description

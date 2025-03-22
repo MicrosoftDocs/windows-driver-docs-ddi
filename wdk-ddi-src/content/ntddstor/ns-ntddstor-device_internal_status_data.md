@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 11/30/2019
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA, DEVICE_INTERNAL_STATUS_DATA, *PDEVICE_INTERNAL_STATUS_DATA,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - DEVICE_INTERNAL_STATUS_DATA
 ---
 
-# DEVICE_INTERNAL_STATUS_DATA structure
+# DEVICE_INTERNAL_STATUS_DATA structure (ntddstor.h)
+
+
 
 
 ## -description

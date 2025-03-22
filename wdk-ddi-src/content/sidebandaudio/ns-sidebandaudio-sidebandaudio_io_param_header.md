@@ -6,6 +6,7 @@ ms.date: 07/21/2023
 keywords: ["SIDEBANDAUDIO_IO_PARAM_HEADER structure"]
 ms.keywords: SIDEBANDAUDIO_IO_PARAM_HEADER, SIDEBANDAUDIO_IO_PARAM_HEADER, *PSIDEBANDAUDIO_IO_PARAM_HEADER,
 req.header: sidebandaudio.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - SIDEBANDAUDIO_IO_PARAM_HEADER
 ---
 
-# SIDEBANDAUDIO_IO_PARAM_HEADER structure
+# SIDEBANDAUDIO_IO_PARAM_HEADER structure (sidebandaudio.h)
+
+
 
 ## -description
 

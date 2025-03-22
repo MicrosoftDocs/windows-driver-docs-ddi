@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DEVICEINIT_CONFIG structure (acxdevice.h)
+
 ## -description
 
 The **ACX_DEVICEINIT_CONFIG** structure provides configuration information to the class extension.

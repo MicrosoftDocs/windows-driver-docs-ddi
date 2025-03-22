@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERIAL_COMMPROP structure"]
 ms.keywords: "*PSERIAL_COMMPROP, PSERIAL_COMMPROP, PSERIAL_COMMPROP structure pointer [Serial Ports], SERIAL_COMMPROP, SERIAL_COMMPROP structure [Serial Ports], _SERIAL_COMMPROP, ntddser/PSERIAL_COMMPROP, ntddser/SERIAL_COMMPROP, serports.serial_commprop"
 req.header: ntddser.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SERIAL_COMMPROP
 ---
 
-# _SERIAL_COMMPROP structure
+# SERIAL_COMMPROP structure (ntddser.h)
+
+
 
 
 ## -description

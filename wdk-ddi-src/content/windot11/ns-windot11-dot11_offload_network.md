@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_OFFLOAD_NETWORK structure"]
 ms.keywords: "*PDOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK, DOT11_OFFLOAD_NETWORK structure [Network Drivers Starting with Windows Vista], PDOT11_OFFLOAD_NETWORK, PDOT11_OFFLOAD_NETWORK structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_offload_network, windot11/DOT11_OFFLOAD_NETWORK, windot11/PDOT11_OFFLOAD_NETWORK"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_OFFLOAD_NETWORK
 ---
 
-# DOT11_OFFLOAD_NETWORK structure
+# DOT11_OFFLOAD_NETWORK structure (windot11.h)
+
+
 
 
 ## -description

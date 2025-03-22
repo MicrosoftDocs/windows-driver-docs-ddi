@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["POWER_PLATFORM_INFORMATION structure"]
 ms.keywords: "*PPOWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION, POWER_PLATFORM_INFORMATION structure [Kernel-Mode Driver Architecture], PPOWER_PLATFORM_INFORMATION, PPOWER_PLATFORM_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _POWER_PLATFORM_INFORMATION, kernel.power_platform_information, wdm/POWER_PLATFORM_INFORMATION, wdm/PPOWER_PLATFORM_INFORMATION"
 req.header: ntpoapi.h
+req.construct-type: structure
 req.include-header: Ntpoapi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - POWER_PLATFORM_INFORMATION
 ---
 
-# _POWER_PLATFORM_INFORMATION structure (ntpoapi.h)
+# POWER_PLATFORM_INFORMATION structure (ntpoapi.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAMAUDIOENGINE_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_STREAMAUDIOENGINE_CONFIG_INIT** function initializes an [ACX_STREAMAUDIOENGINE_CONFIG](ns-acxelements-acx_streamaudioengine_config.md) structure.

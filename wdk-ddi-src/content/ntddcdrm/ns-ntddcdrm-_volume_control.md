@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["VOLUME_CONTROL structure"]
 ms.keywords: "*PVOLUME_CONTROL, PVOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], VOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices], _VOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, storage.volume_control, structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VOLUME_CONTROL
 ---
 
-# _VOLUME_CONTROL structure
+# VOLUME_CONTROL structure (ntddcdrm.h)
+
+
 
 
 ## -description

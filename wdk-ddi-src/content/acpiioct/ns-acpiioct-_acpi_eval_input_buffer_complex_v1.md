@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_COMPLEX, *PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, acpi-meth-eval-ref_e853be71-ec5f-41d6-82fc-6351a0847be8.xml, acpi.acpi_eval_input_buffer_complex, acpiioct/ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1, acpiioct/PACPI_EVAL_INPUT_BUFFER_COMPLEX_V1"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1
 ---
 
-# _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure
+# ACPI_EVAL_INPUT_BUFFER_COMPLEX_V1 structure (acpiioct.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["PRI_RESERVATION_LIST structure"]
 ms.keywords: "*PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST, PPRI_RESERVATION_LIST structure pointer [Storage Devices], PRI_RESERVATION_LIST, PRI_RESERVATION_LIST structure [Storage Devices], storage.pri_reservation_list, storport/PPRI_RESERVATION_LIST, storport/PRI_RESERVATION_LIST, structs-general_10a53f53-2aed-4be1-bf2b-d61efa2c846f.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PPRI_RESERVATION_LIST
  - PRI_RESERVATION_LIST
 ---
+
+# PRI_RESERVATION_LIST structure (storport.h)
 
 ## -description
 

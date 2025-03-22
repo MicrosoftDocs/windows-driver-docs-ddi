@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_PCI_SLOT_NUMBER structure"]
 ms.keywords: "*PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER, PWHEA_PCI_SLOT_NUMBER structure pointer [WHEA Drivers and Applications], WHEA_PCI_SLOT_NUMBER, WHEA_PCI_SLOT_NUMBER structure [WHEA Drivers and Applications], _WHEA_PCI_SLOT_NUMBER, ntddk/PWHEA_PCI_SLOT_NUMBER, ntddk/WHEA_PCI_SLOT_NUMBER, whea.whea_pci_slot_number, whearef_6999e061-3501-48fe-bd6c-383493056665.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WHEA_PCI_SLOT_NUMBER
 ---
 
-# _WHEA_PCI_SLOT_NUMBER structure
+# WHEA_PCI_SLOT_NUMBER structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosStringType structure"]
 ms.keywords: PosStringType, PosStringType structure, _PosStringType, pointofservicedriverinterface/PosStringType, pos.posstringtype
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosStringType
 ---
 
-# _PosStringType structure
+# PosStringType structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

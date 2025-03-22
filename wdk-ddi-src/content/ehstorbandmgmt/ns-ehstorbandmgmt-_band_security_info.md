@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["BAND_SECURITY_INFO structure"]
 ms.keywords: "*PBAND_SECURITY_INFO, BAND_LOCATION_INFO, BAND_LOCATION_INFO structure [Storage Devices], BAND_SECURITY_INFO, BAND_SECURITY_INFO structure [Storage Devices], PBAND_LOCATION_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], _BAND_SECURITY_INFO, ehstorbandmgmt/BAND_SECURITY_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_security_info"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - BAND_SECURITY_INFO
 ---
 
-# _BAND_SECURITY_INFO structure
+# BAND_SECURITY_INFO structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

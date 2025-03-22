@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_ADAPTER structure"]
 ms.keywords: NDK_ADAPTER, NDK_ADAPTER structure [Network Drivers Starting with Windows Vista], PNDK_ADAPTER, PNDK_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], _NDK_ADAPTER, ndkpi/NDK_ADAPTER, ndkpi/PNDK_ADAPTER, netvista.ndk_adapter
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_ADAPTER
 ---
 
-# _NDK_ADAPTER structure
+# NDK_ADAPTER structure (ndkpi.h)
+
+
 
 
 ## -description

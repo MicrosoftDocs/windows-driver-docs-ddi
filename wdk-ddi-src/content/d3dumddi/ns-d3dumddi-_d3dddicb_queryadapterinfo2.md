@@ -4,6 +4,7 @@ title: D3DDDICB_QUERYADAPTERINFO2 (d3dumddi.h)
 description: Learn more about the D3DDDICB_QUERYADAPTERINFO2 structure.
 ms.date: 02/06/2025
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -34,7 +35,9 @@ api_name:
  - D3DDDICB_QUERYADAPTERINFO2
 ---
 
-# D3DDDICB_QUERYADAPTERINFO2 structure
+# D3DDDICB_QUERYADAPTERINFO2 structure (d3dumddi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["TOKEN_STATISTICS structure"]
 ms.keywords: "*PTOKEN_STATISTICS, PTOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], _TOKEN_STATISTICS, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TOKEN_STATISTICS
 ---
 
-# TOKEN_STATISTICS structure
+# TOKEN_STATISTICS structure (ntifs.h)
+
+
 
 ## -description
 

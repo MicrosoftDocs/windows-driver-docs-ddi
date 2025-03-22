@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BIDI_DATA structure"]
 ms.keywords: "*LPBIDI_DATA, *PBIDI_DATA, BIDI_DATA, BIDI_DATA structure [Print Devices], LPBIDI_DATA, LPBIDI_DATA structure pointer [Print Devices], PBIDI_DATA, PBIDI_DATA structure pointer [Print Devices], _BIDI_DATA, print.bidi_data, spoolfnc_6e6c0bc2-88f6-43ab-8183-42ee1a91e593.xml, winspool/BIDI_DATA, winspool/LPBIDI_DATA, winspool/PBIDI_DATA"
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available in Windows XP and later.
@@ -46,7 +47,9 @@ api_name:
  - BIDI_DATA
 ---
 
-# _BIDI_DATA structure
+# BIDI_DATA structure (winspool.h)
+
+
 
 
 ## -description

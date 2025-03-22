@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_INTEGRATEDDISPLAYFLAGS structure"]
 ms.keywords: "*PDXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS, DXGK_INTEGRATEDDISPLAYFLAGS union [Display Devices], _DXGK_INTEGRATEDDISPLAYFLAGS, d3dkmddi/DXGK_INTEGRATEDDISPLAYFLAGS, display.dxgk_integrateddisplayflags"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_INTEGRATEDDISPLAYFLAGS
 ---
 
-# _DXGK_INTEGRATEDDISPLAYFLAGS structure
+# DXGK_INTEGRATEDDISPLAYFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

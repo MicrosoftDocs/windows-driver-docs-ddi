@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_SET_BRIGHTNESS_STATE structure"]
 ms.keywords: _PANEL_SET_BRIGHTNESS_STATE, *PPANEL_SET_BRIGHTNESS_STATE, PANEL_SET_BRIGHTNESS_STATE,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PANEL_SET_BRIGHTNESS_STATE
 ---
 
-# _PANEL_SET_BRIGHTNESS_STATE structure
+# PANEL_SET_BRIGHTNESS_STATE structure (ntddvdeo.h)
+
+
 
 
 ## -description

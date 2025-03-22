@@ -7,6 +7,7 @@ ms.date: 05/22/2023
 keywords: ["DXGK_NODEMETADATA structure"]
 ms.keywords: _DXGK_NODEMETADATA, DXGK_NODEMETADATA, DXGKARG_GETNODEMETADATA
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8.1
@@ -36,7 +37,9 @@ api_name:
  - DXGK_NODEMETADATA
 ---
 
-# DXGK_NODEMETADATA structure
+# DXGK_NODEMETADATA structure (d3dkmdt.h)
+
+
 
 ## -description
 

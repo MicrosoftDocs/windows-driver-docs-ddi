@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_DVDCOPY_BUSKEY structure"]
 ms.keywords: "*PKS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY, KS_DVDCOPY_BUSKEY structure [Streaming Media Devices], PKS_DVDCOPY_BUSKEY, PKS_DVDCOPY_BUSKEY structure pointer [Streaming Media Devices], _KS_DVDCOPY_BUSKEY, dvdref_e3933026-ef22-42c4-8977-2c648421ccb2.xml, ksmedia/KS_DVDCOPY_BUSKEY, ksmedia/PKS_DVDCOPY_BUSKEY, stream.ks_dvdcopy_buskey"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_DVDCOPY_BUSKEY
 ---
 
-# _KS_DVDCOPY_BUSKEY structure
+# KS_DVDCOPY_BUSKEY structure (ksmedia.h)
+
+
 
 
 ## -description

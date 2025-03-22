@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_GPUENGINE structure"]
 ms.keywords: _DXGK_GPUENGINE, DXGK_GPUENGINE, *PDXGK_GPUENGINE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_GPUENGINE structure
+# DXGK_GPUENGINE structure (dispmprt.h)
+
+
 
 
 ## -description

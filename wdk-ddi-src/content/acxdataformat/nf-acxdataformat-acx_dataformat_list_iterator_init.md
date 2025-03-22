@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_LIST_ITERATOR_INIT function (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_LIST_ITERATOR_INIT** function initializes an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) structure for use by an audio class extension (ACX) driver.

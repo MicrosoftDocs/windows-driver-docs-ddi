@@ -9,6 +9,7 @@ author: lorihollasch
 keywords: ["FILE_POSITION_INFORMATION structure"]
 ms.keywords: "*PFILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION, FILE_POSITION_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_POSITION_INFORMATION, PFILE_POSITION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_POSITION_INFORMATION, kernel.file_position_information, kstruct_b_5edd5ea9-9229-4764-86aa-24054a1ec9b9.xml, wdm/FILE_POSITION_INFORMATION, wdm/PFILE_POSITION_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -47,7 +48,9 @@ api_name:
  - FILE_POSITION_INFORMATION
 ---
 
-# _FILE_POSITION_INFORMATION structure
+# FILE_POSITION_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_GET_ERROR_STATUS_COMMAND structure"]
 ms.keywords: _UCSI_GET_ERROR_STATUS_COMMAND, UCSI_GET_ERROR_STATUS_COMMAND, *PUCSI_GET_ERROR_STATUS_COMMAND,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_GET_ERROR_STATUS_COMMAND
 ---
 
-# _UCSI_GET_ERROR_STATUS_COMMAND structure
+# UCSI_GET_ERROR_STATUS_COMMAND structure (ucmucsispec.h)
+
+
 
 
 ## -description

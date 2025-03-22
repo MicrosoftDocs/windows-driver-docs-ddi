@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PRESENTMULTIPLANEOVERLAYLIST structure"]
 ms.keywords: DXGK_PRESENTMULTIPLANEOVERLAYLIST, DXGK_PRESENTMULTIPLANEOVERLAYLIST structure [Display Devices], _DXGK_PRESENTMULTIPLANEOVERLAYLIST, d3dkmddi/DXGK_PRESENTMULTIPLANEOVERLAYLIST, display.dxgk_presentmultiplaneoverlaylist
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PRESENTMULTIPLANEOVERLAYLIST
 ---
 
-# _DXGK_PRESENTMULTIPLANEOVERLAYLIST structure
+# DXGK_PRESENTMULTIPLANEOVERLAYLIST structure (d3dkmddi.h)
+
+
 
 
 ## -description

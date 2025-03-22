@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DeleteInitiatorNodeName_IN structure"]
 ms.keywords: "*PDeleteInitiatorNodeName_IN, DeleteInitiatorNodeName_IN, DeleteInitiatorNodeName_IN structure [Storage Devices], PDeleteInitiatorNodeName_IN, PDeleteInitiatorNodeName_IN structure pointer [Storage Devices], _DeleteInitiatorNodeName_IN, iscsiop/DeleteInitiatorNodeName_IN, iscsiop/PDeleteInitiatorNodeName_IN, storage.deleteinitiatornodename_in, structs-iSCSI_2b687a5a-17af-4eda-b48f-8e7ca06024f2.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DeleteInitiatorNodeName_IN
 ---
 
-# _DeleteInitiatorNodeName_IN structure
+# DeleteInitiatorNodeName_IN structure (iscsiop.h)
+
+
 
 
 ## -description

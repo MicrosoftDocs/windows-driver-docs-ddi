@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["PEP_WORK_INFORMATION structure"]
 ms.keywords: "*PPEP_WORK_INFORMATION, PEP_WORK_INFORMATION, PEP_WORK_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_WORK_INFORMATION, PPEP_WORK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_WORK_INFORMATION, kernel.pep_work_information, pepfx/PEP_WORK_INFORMATION, pepfx/PPEP_WORK_INFORMATION"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_WORK_INFORMATION
 ---
 
-# _PEP_WORK_INFORMATION structure (pep_x.h)
+# PEP_WORK_INFORMATION structure (pep_x.h)
+
+
 
 ## -description
 

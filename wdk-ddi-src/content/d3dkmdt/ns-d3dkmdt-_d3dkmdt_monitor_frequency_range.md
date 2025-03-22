@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["D3DKMDT_MONITOR_FREQUENCY_RANGE structure"]
 ms.keywords: D3DKMDT_MONITOR_FREQUENCY_RANGE, D3DKMDT_MONITOR_FREQUENCY_RANGE structure [Display Devices], DmStructs_ba8a984e-da56-4f63-a0b8-d94d426df563.xml, _D3DKMDT_MONITOR_FREQUENCY_RANGE, d3dkmdt/D3DKMDT_MONITOR_FREQUENCY_RANGE, display.d3dkmdt_monitor_frequency_range
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_MONITOR_FREQUENCY_RANGE
 ---
 
-# D3DKMDT_MONITOR_FREQUENCY_RANGE structure
+# D3DKMDT_MONITOR_FREQUENCY_RANGE structure (d3dkmdt.h)
+
+
 
 ## -description
 

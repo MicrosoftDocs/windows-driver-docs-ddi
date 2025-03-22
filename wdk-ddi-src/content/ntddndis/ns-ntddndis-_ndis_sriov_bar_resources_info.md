@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SRIOV_BAR_RESOURCES_INFO structure"]
 ms.keywords: "*PNDIS_SRIOV_BAR_RESOURCES_INFO, NDIS_SRIOV_BAR_RESOURCES_INFO, NDIS_SRIOV_BAR_RESOURCES_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_BAR_RESOURCES_INFO, PNDIS_SRIOV_BAR_RESOURCES_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SRIOV_BAR_RESOURCES_INFO, netvista.ndis_sriov_bar_resources_info, ntddndis/NDIS_SRIOV_BAR_RESOURCES_INFO, ntddndis/PNDIS_SRIOV_BAR_RESOURCES_INFO"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SRIOV_BAR_RESOURCES_INFO
 ---
 
-# _NDIS_SRIOV_BAR_RESOURCES_INFO structure
+# NDIS_SRIOV_BAR_RESOURCES_INFO structure (ntddndis.h)
+
+
 
 
 ## -description

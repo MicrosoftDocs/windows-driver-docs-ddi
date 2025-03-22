@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAM_BRIDGE_CONFIG_FLAGS enumeration (acxstreams.h)
+
 ## -description
 
 The **ACX_STREAM_BRIDGE_CONFIG_FLAGS** enumeration describes the Acx Stream Bridge config flags.

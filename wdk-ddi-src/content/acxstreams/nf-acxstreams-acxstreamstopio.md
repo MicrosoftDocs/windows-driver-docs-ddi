@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamStopIo function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamStopIo** function is used to stop the IO for a stream.

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_PREDICT_FAILURE structure"]
 ms.keywords: "*PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE, PSTORAGE_PREDICT_FAILURE structure pointer [Storage Devices], STORAGE_PREDICT_FAILURE, STORAGE_PREDICT_FAILURE structure [Storage Devices], _STORAGE_PREDICT_FAILURE, ntddstor/PSTORAGE_PREDICT_FAILURE, ntddstor/STORAGE_PREDICT_FAILURE, storage.storage_predict_failure, structs-general_b1bed4c9-33a9-4adf-a456-e420d1e2f317.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_PREDICT_FAILURE
 ---
 
-# _STORAGE_PREDICT_FAILURE structure (minitape.h)
+# STORAGE_PREDICT_FAILURE structure (minitape.h)
+
+
 
 
 ## -description

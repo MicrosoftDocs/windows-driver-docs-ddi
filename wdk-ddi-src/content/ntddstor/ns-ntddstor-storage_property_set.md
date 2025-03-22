@@ -7,6 +7,7 @@ ms.date: 03/07/2019
 keywords: ["STORAGE_PROPERTY_SET structure"]
 ms.keywords: STORAGE_PROPERTY_SET, STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STORAGE_PROPERTY_SET
 ---
 
-# STORAGE_PROPERTY_SET structure
+# STORAGE_PROPERTY_SET structure (ntddstor.h)
+
+
 
 
 ## -description

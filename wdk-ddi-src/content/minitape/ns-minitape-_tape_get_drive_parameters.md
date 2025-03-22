@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TAPE_GET_DRIVE_PARAMETERS structure"]
 ms.keywords: "*PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], _TAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS, ntddtape/TAPE_GET_DRIVE_PARAMETERS, storage.tape_get_drive_parameters, structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TAPE_GET_DRIVE_PARAMETERS
 ---
 
-# _TAPE_GET_DRIVE_PARAMETERS structure (minitape.h)
+# TAPE_GET_DRIVE_PARAMETERS structure (minitape.h)
+
+
 
 
 ## -description

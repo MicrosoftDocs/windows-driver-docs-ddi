@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_TCPIPConfig structure"]
 ms.keywords: "*PMSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig, MSiSCSI_TCPIPConfig structure [Storage Devices], PMSiSCSI_TCPIPConfig, PMSiSCSI_TCPIPConfig structure pointer [Storage Devices], _MSiSCSI_TCPIPConfig, iscsicfg/MSiSCSI_TCPIPConfig, iscsicfg/PMSiSCSI_TCPIPConfig, storage.msiscsi_tcpipconfig, structs-iSCSI_4ca5e222-7926-4646-a915-014cf20caed1.xml"
 req.header: iscsicfg.h
+req.construct-type: structure
 req.include-header: Iscsicfg.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_TCPIPConfig
 ---
 
-# _MSiSCSI_TCPIPConfig structure
+# MSiSCSI_TCPIPConfig structure (iscsicfg.h)
+
+
 
 
 ## -description

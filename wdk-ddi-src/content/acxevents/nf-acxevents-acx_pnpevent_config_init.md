@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PNPEVENT_CONFIG_INIT function (acxevents.h)
+
 ## -description
 
 The **ACX_PNPEVENT_CONFIG_INIT** function initializes an [ACX_PNPEVENT_CONFIG](ns-acxevents-acx_pnpevent_config.md) structure. No inputs are used with this function.

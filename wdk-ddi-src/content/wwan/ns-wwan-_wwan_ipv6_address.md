@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_IPV6_ADDRESS structure"]
 ms.keywords: "*PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS, PWWAN_IPV6_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPV6_ADDRESS, WWAN_IPV6_ADDRESS structure [Network Drivers Starting with Windows Vista], _WWAN_IPV6_ADDRESS, netvista.wwan_ipv6_address, wwan/PWWAN_IPV6_ADDRESS, wwan/WWAN_IPV6_ADDRESS"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_IPV6_ADDRESS
 ---
 
-# _WWAN_IPV6_ADDRESS structure
+# WWAN_IPV6_ADDRESS structure (wwan.h)
+
+
 
 
 ## -description

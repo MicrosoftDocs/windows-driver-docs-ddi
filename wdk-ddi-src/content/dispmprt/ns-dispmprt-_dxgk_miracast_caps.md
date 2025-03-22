@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MIRACAST_CAPS structure"]
 ms.keywords: "*PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], _DXGK_MIRACAST_CAPS, display.dxgk_miracast_caps, dispmprt/DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -46,7 +47,9 @@ api_name:
  - DXGK_MIRACAST_CAPS
 ---
 
-# _DXGK_MIRACAST_CAPS structure
+# DXGK_MIRACAST_CAPS structure (dispmprt.h)
+
+
 
 
 ## -description

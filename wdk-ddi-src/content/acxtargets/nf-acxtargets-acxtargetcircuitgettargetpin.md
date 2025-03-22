@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetCircuitGetTargetPin function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetCircuitGetTargetPin** function, given a valid pin index value, will return the associated *ACXTARGETPIN* object.

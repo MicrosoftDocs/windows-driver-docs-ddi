@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_MONITOR_INTERFACE_V2 structure"]
 ms.keywords: DXGK_MONITOR_INTERFACE_V2, DXGK_MONITOR_INTERFACE_V2 structure [Display Devices], DmStructs_8af61532-16df-472d-abb7-c8f9a677e968.xml, _DXGK_MONITOR_INTERFACE_V2, d3dkmddi/DXGK_MONITOR_INTERFACE_V2, display.dxgk_monitor_interface_v2
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_MONITOR_INTERFACE_V2
 ---
 
-# DXGK_MONITOR_INTERFACE_V2 structure
+# DXGK_MONITOR_INTERFACE_V2 structure (d3dkmddi.h)
+
+
 
 ## -description
 

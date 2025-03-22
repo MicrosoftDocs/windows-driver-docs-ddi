@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["FSCTL_OFFLOAD_READ_INPUT structure"]
 ms.keywords: "*PFSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT, FSCTL_OFFLOAD_READ_INPUT structure [Installable File System Drivers], PFSCTL_OFFLOAD_READ_INPUT, PFSCTL_OFFLOAD_READ_INPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_READ_INPUT, ifsk.fsctl_offload_read_input, ntifs/FSCTL_OFFLOAD_READ_INPUT, ntifs/PFSCTL_OFFLOAD_READ_INPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -45,7 +46,9 @@ api_name:
  - FSCTL_OFFLOAD_READ_INPUT
 ---
 
-# FSCTL_OFFLOAD_READ_INPUT structure
+# FSCTL_OFFLOAD_READ_INPUT structure (ntifs.h)
+
+
 
 ## -description
 

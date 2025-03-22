@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DEVICE_POWER_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR, DEVICE_POWER_DESCRIPTOR structure [Storage Devices], PDEVICE_POWER_DESCRIPTOR, PDEVICE_POWER_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_POWER_DESCRIPTOR, ntddstor/DEVICE_POWER_DESCRIPTOR, ntddstor/PDEVICE_POWER_DESCRIPTOR, storage.device_power_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_POWER_DESCRIPTOR
 ---
 
-# _DEVICE_POWER_DESCRIPTOR structure
+# DEVICE_POWER_DESCRIPTOR structure (ntddstor.h)
+
+
 
 
 ## -description

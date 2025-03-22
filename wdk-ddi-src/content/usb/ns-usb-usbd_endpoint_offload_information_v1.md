@@ -46,6 +46,8 @@ helpviewer_keywords:
  - _USBD_ENDPOINT_OFFLOAD_INFORMATION_V1
 ---
 
+# USBD_ENDPOINT_OFFLOAD_INFORMATION_V1 structure (usb.h)
+
 ## -description
 
 Stores xHCI-specific V1 information that is used by client drivers to transfer data to and from the offloaded endpoints.

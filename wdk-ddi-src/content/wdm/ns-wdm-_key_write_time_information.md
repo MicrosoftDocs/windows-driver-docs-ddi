@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KEY_WRITE_TIME_INFORMATION structure"]
 ms.keywords: "*PKEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION, KEY_WRITE_TIME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_WRITE_TIME_INFORMATION, PKEY_WRITE_TIME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_WRITE_TIME_INFORMATION, kernel.key_write_time_information, kstruct_c_373f0047-919b-44c4-8831-181027ba5f2e.xml, wdm/KEY_WRITE_TIME_INFORMATION, wdm/PKEY_WRITE_TIME_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows XP and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - KEY_WRITE_TIME_INFORMATION
 ---
 
-# _KEY_WRITE_TIME_INFORMATION structure
+# KEY_WRITE_TIME_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamInitSetAcxRtStreamSupportsNotifications function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamInitSetAcxRtStreamSupportsNotifications** function is used to indicate that buffer notifications are supported.

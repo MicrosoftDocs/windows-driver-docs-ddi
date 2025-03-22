@@ -42,6 +42,9 @@ dev_langs:
  - c++
 ---
 
+
+# ACX_PIN_CONFIG structure (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_CONFIG** structure is used to configure a pin.

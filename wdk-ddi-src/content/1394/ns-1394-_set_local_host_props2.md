@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SET_LOCAL_HOST_PROPS2 structure"]
 ms.keywords: "*PSET_LOCAL_HOST_PROPS2, 1394/PSET_LOCAL_HOST_PROPS2, 1394/SET_LOCAL_HOST_PROPS2, 1394stct_e2833905-04e9-4824-a437-4b9f724aaaa4.xml, IEEE.set_local_host_props2, PSET_LOCAL_HOST_PROPS2, PSET_LOCAL_HOST_PROPS2 structure pointer [Buses], SET_LOCAL_HOST_PROPS2, SET_LOCAL_HOST_PROPS2 structure [Buses], _SET_LOCAL_HOST_PROPS2"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SET_LOCAL_HOST_PROPS2
 ---
 
-# _SET_LOCAL_HOST_PROPS2 structure
+# SET_LOCAL_HOST_PROPS2 structure (1394.h)
+
+
 
 
 ## -description

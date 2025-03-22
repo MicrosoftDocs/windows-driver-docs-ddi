@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1 structure"]
 ms.keywords: _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1, PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1, *PPCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1
 ---
 
-# _PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1 structure
+# PCI_EXPRESS_DESIGNATED_VENDOR_SPECIFIC_HEADER_1 structure (ntddk.h)
+
+
 
 
 ## -description

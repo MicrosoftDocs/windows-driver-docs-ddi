@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxCircuitGetElementsCount
 ---
 
+# AcxCircuitGetElementsCount function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitGetElementsCount** function retrieves the number of elements attached to the specified ACX circuit.

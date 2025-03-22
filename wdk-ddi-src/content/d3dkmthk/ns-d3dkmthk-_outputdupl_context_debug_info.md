@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["OUTPUTDUPL_CONTEXT_DEBUG_INFO structure"]
 ms.keywords: _OUTPUTDUPL_CONTEXT_DEBUG_INFO, OUTPUTDUPL_CONTEXT_DEBUG_INFO,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _OUTPUTDUPL_CONTEXT_DEBUG_INFO structure
+# OUTPUTDUPL_CONTEXT_DEBUG_INFO structure (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_OBJECT_PROCESS_REQUEST function (acxrequest.h)
+
 ## -description
 
 The **EVT_ACX_OBJECT_PROCESS_REQUEST** callback is used by the driver to handle a WDFREQUEST.

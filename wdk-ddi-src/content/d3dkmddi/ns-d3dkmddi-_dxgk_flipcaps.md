@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_FLIPCAPS structure"]
 ms.keywords: DXGK_FLIPCAPS, DXGK_FLIPCAPS structure [Display Devices], DmStructs_11bba63e-8001-41d2-9c60-978024921994.xml, _DXGK_FLIPCAPS, d3dkmddi/DXGK_FLIPCAPS, display.dxgk_flipcaps
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_FLIPCAPS
 ---
 
-# _DXGK_FLIPCAPS structure
+# DXGK_FLIPCAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

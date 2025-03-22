@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_GETDPADDRESS callback function
+# DXGKDDI_GETDPADDRESS function (dispmprt.h)
+
+ function
 
 
 ## -description

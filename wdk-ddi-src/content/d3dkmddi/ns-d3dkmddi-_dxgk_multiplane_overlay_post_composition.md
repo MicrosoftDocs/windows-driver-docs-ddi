@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure"]
 ms.keywords: DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION, display.dxgk_multiplane_overlay_post_composition
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION
 ---
 
-# _DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure
+# DXGK_MULTIPLANE_OVERLAY_POST_COMPOSITION structure (d3dkmddi.h)
+
+
 
 
 ## -description

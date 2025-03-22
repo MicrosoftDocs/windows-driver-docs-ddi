@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_QOS_OFFLOAD_CAPABILITIES structure (ntddndis.h)
+
 ## -description
 
 The **NDIS_QOS_OFFLOAD_CAPABILITIES** structure specifies the hardware and current Hardware Quality of Service (QoS) offload capabilities of a miniport adapter.

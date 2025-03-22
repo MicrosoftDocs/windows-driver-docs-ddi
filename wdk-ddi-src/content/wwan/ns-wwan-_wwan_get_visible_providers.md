@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_GET_VISIBLE_PROVIDERS structure"]
 ms.keywords: "*PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS, PWWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_VISIBLE_PROVIDERS, WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], _WWAN_GET_VISIBLE_PROVIDERS, netvista.wwan_get_visible_providers, wwan/PWWAN_GET_VISIBLE_PROVIDERS, wwan/WWAN_GET_VISIBLE_PROVIDERS"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_GET_VISIBLE_PROVIDERS
 ---
 
-# _WWAN_GET_VISIBLE_PROVIDERS structure
+# WWAN_GET_VISIBLE_PROVIDERS structure (wwan.h)
+
+
 
 
 ## -description

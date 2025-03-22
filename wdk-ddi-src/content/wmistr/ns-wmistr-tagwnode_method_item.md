@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["tagWNODE_METHOD_ITEM structure"]
 ms.keywords: "*PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM, PWNODE_METHOD_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_METHOD_ITEM, WNODE_METHOD_ITEM structure [Kernel-Mode Driver Architecture], kernel.wnode_method_item, kstruct_d_6240b4d6-5d39-458c-b74c-21fdfa46b666.xml, tagWNODE_METHOD_ITEM, wmistr/PWNODE_METHOD_ITEM, wmistr/WNODE_METHOD_ITEM"
 req.header: wmistr.h
+req.construct-type: structure
 req.include-header: Wmistr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WNODE_METHOD_ITEM
 ---
 
-# tagWNODE_METHOD_ITEM structure
+# tagWNODE_METHOD_ITEM structure (wmistr.h)
+
+
 
 
 ## -description

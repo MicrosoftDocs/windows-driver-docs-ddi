@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitCreate function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitCreate** function is used to create an ACXCIRCUIT.

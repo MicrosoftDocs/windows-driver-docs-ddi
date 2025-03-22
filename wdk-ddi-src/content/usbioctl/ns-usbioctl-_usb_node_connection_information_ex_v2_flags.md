@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS structure"]
 ms.keywords: "*PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union pointer [Buses], USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS union [Buses], _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, buses.usb_node_connection_information_ex_v2_flags, usbioctl/PUSB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS, usbioctl/USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS
 ---
 
-# _USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS structure
+# USB_NODE_CONNECTION_INFORMATION_EX_V2_FLAGS structure (usbioctl.h)
+
+
 
 
 ## -description

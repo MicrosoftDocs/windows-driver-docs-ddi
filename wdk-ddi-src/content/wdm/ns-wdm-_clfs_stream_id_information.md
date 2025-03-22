@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CLFS_STREAM_ID_INFORMATION structure"]
 ms.keywords: "*PCLFS_STREAM_ID_INFORMATION, CLFS_STREAM_ID_INFORMATION, CLFS_STREAM_ID_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_STREAM_ID_INFORMATION, PCLFS_STREAM_ID_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_STREAM_ID_INFORMATION, PPCLFS_STREAM_ID_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLFS_STREAM_ID_INFORMATION, kernel.clfs_stream_id_information, kstruct_a_bfefe413-124f-49c3-8742-c1f1a524f5a6.xml, wdm/CLFS_STREAM_ID_INFORMATION, wdm/PCLFS_STREAM_ID_INFORMATION, wdm/PPCLFS_STREAM_ID_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CLFS_STREAM_ID_INFORMATION
 ---
 
-# _CLFS_STREAM_ID_INFORMATION structure
+# CLFS_STREAM_ID_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

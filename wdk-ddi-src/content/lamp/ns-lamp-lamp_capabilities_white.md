@@ -8,6 +8,7 @@ ms.date: 03/12/2021
 keywords: ["LAMP_CAPABILITIES_WHITE structure"]
 ms.keywords: LAMP_CAPABILITIES_WHITE, LAMP_CAPABILITIES_WHITE structure [Streaming Media Devices], lamp/LAMP_CAPABILITIES_WHITE, stream.lamp_capabilities_white
 req.header: lamp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - LAMP_CAPABILITIES_WHITE
 ---
 
-# LAMP_CAPABILITIES_WHITE structure
+# LAMP_CAPABILITIES_WHITE structure (lamp.h)
+
+
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_STREAMAUDIOENGINE_RETRIEVE_LINEAR_BUFFER_POSITION** callback is implemented by the driver and is called when the linear buffer position is requested for the specified stream audio engine.

@@ -7,6 +7,7 @@ ms.date: 05/20/2024
 keywords: ["DXGK_MONITORLINKINFO_USAGEHINTS structure"]
 ms.keywords: "*PDXGK_MONITORLINKINFO_USAGEHINTS, DXGK_MONITORLINKINFO_USAGEHINTS, DXGK_MONITORLINKINFO_USAGEHINTS union [Display Devices], PDXGK_MONITORLINKINFO_USAGEHINTS, PDXGK_MONITORLINKINFO_USAGEHINTS union pointer [Display Devices], _DXGK_MONITORLINKINFO_USAGEHINTS, d3dkmdt/DXGK_MONITORLINKINFO_USAGEHINTS, d3dkmdt/PDXGK_MONITORLINKINFO_USAGEHINTS, display.dxgk_monitorlinkinfo_usagehints"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -45,7 +46,9 @@ api_name:
  - DXGK_MONITORLINKINFO_USAGEHINTS
 ---
 
-# DXGK_MONITORLINKINFO_USAGEHINTS structure
+# DXGK_MONITORLINKINFO_USAGEHINTS structure (d3dkmdt.h)
+
+
 
 ## -description
 

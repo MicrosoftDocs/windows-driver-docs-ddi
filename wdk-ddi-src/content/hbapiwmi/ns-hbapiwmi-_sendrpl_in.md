@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SendRPL_IN structure"]
 ms.keywords: "*PSendRPL_IN, PSendRPL_IN, PSendRPL_IN structure pointer [Storage Devices], SendRPL_IN, SendRPL_IN structure [Storage Devices], _SendRPL_IN, hbapiwmi/PSendRPL_IN, hbapiwmi/SendRPL_IN, storage.sendrpl_in, structs-Fibre_3babb7ed-9d87-4154-b038-8e503750eed4.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SendRPL_IN
 ---
 
-# _SendRPL_IN structure
+# SendRPL_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

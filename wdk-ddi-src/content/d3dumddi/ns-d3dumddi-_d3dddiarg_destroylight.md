@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DESTROYLIGHT structure"]
 ms.keywords: D3DDDIARG_DESTROYLIGHT, D3DDDIARG_DESTROYLIGHT structure [Display Devices], UMDisplayDriver_param_Structs_497b7bc8-b2ca-4ead-9c3e-365673b2058f.xml, _D3DDDIARG_DESTROYLIGHT, d3dumddi/D3DDDIARG_DESTROYLIGHT, display.d3dddiarg_destroylight
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DESTROYLIGHT
 ---
 
-# _D3DDDIARG_DESTROYLIGHT structure
+# D3DDDIARG_DESTROYLIGHT structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the _DXGKARG_QUERYDEPENDENTENGINEGROUP structure.
 ms.date: 10/17/2024
 keywords: ["DXGKARG_QUERYDEPENDENTENGINEGROUP structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - DXGKARG_QUERYDEPENDENTENGINEGROUP
 ---
 
-# DXGKARG_QUERYDEPENDENTENGINEGROUP structure
+# DXGKARG_QUERYDEPENDENTENGINEGROUP structure (d3dkmddi.h)
+
+
 
 ## -description
 

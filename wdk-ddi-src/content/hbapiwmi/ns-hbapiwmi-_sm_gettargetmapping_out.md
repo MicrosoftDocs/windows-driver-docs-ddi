@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_GetTargetMapping_OUT structure"]
 ms.keywords: "*PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT, PSM_GetTargetMapping_OUT structure pointer [Storage Devices], SM_GetTargetMapping_OUT, SM_GetTargetMapping_OUT structure [Storage Devices], _SM_GetTargetMapping_OUT, hbapiwmi/PSM_GetTargetMapping_OUT, hbapiwmi/SM_GetTargetMapping_OUT, storage.sm_gettargetmapping_out, structs-Fibre_fd5726b9-b4fe-470a-9e43-65148a60808b.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_GetTargetMapping_OUT
 ---
 
-# _SM_GetTargetMapping_OUT structure
+# SM_GetTargetMapping_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

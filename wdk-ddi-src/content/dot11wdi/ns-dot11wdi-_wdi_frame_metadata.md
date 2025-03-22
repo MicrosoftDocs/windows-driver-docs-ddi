@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_FRAME_METADATA structure"]
 ms.keywords: "*PWDI_FRAME_METADATA, PWDI_FRAME_METADATA, PWDI_FRAME_METADATA structure pointer [Network Drivers Starting with Windows Vista], WDI_FRAME_METADATA, WDI_FRAME_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_FRAME_METADATA, dot11wdi/PWDI_FRAME_METADATA, dot11wdi/WDI_FRAME_METADATA, netvista.wdi_frame_metadata, netvista.wifi_frame_metadata"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_FRAME_METADATA
 ---
 
-# _WDI_FRAME_METADATA structure
+# WDI_FRAME_METADATA structure (dot11wdi.h)
+
+
 
 
 ## -description

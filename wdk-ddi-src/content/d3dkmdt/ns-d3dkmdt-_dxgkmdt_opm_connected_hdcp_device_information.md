@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure"]
 ms.keywords: DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure [Display Devices], DmStructs_9c39e234-e0dd-4d2f-b1b4-e8745bcc69aa.xml, _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, d3dkmdt/DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION, display.dxgkmdt_opm_connected_hdcp_device_information
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION
 ---
 
-# _DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure
+# DXGKMDT_OPM_CONNECTED_HDCP_DEVICE_INFORMATION structure (d3dkmdt.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_TARGET_STREAM_CONFIG_INIT function (acxtargets.h)
+
 ## -description
 
 The **ACX_TARGET_STREAM_CONFIG_INIT** function initializes an ACX target stream config structure.

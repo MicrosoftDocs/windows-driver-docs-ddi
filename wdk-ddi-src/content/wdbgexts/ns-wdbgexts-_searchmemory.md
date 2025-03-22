@@ -8,6 +8,7 @@ ms.date: 07/27/2023
 keywords: ["SEARCHMEMORY structure"]
 ms.keywords: "*PSEARCHMEMORY, SEARCHMEMORY, SearchMemory, SearchMemory function [Windows Debugging], WdbgExts_Ref_4eb909e5-edfd-487c-851c-812b15274c66.xml, _SEARCHMEMORY, debugger.searchmemory, wdbgexts/SearchMemory"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SEARCHMEMORY
 ---
 
-# _SEARCHMEMORY structure
+# SEARCHMEMORY structure (wdbgexts.h)
+
+
 
 ## -description
 

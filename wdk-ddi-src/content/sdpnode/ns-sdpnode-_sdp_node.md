@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SDP_NODE structure"]
 ms.keywords: "*PSDP_NODE, PSDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], SDP_NODE, SDP_NODE structure [Bluetooth Devices], _SDP_NODE, bltooth.sdp_node, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, sdpnode/PSDP_NODE, sdpnode/SDP_NODE"
 req.header: sdpnode.h
+req.construct-type: structure
 req.include-header: Sdpnode.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - SDP_NODE
 ---
 
-# _SDP_NODE structure
+# SDP_NODE structure (sdpnode.h)
+
+
 
 
 ## -description

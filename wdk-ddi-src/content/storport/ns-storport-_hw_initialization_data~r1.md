@@ -5,6 +5,7 @@ description: Learn more about the HW_INITIALIZATION_DATA structure.
 tech.root: storage
 ms.date: 12/19/2024
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# HW_INITIALIZATION_DATA structure
+# HW_INITIALIZATION_DATA structure (storport.h)
+
+
 
 ## -description
 

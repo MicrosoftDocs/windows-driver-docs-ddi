@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetCircuitGetPinsCount function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetCircuitGetPinsCount** function returns the count of ACX pins on the remote target.

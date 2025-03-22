@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["SYNTH_STATS structure"]
 ms.keywords: "*PSYNTH_STATS, PSYNTH_STATS, PSYNTH_STATS structure pointer [Audio Devices], SYNTH_STATS, SYNTH_STATS structure [Audio Devices], _SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, audio.synth_stats, dmusprop/PSYNTH_STATS, dmusprop/SYNTH_STATS"
 req.header: dmusprop.h
+req.construct-type: structure
 req.include-header: Dmusprop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYNTH_STATS
 ---
 
-# _SYNTH_STATS structure
+# SYNTH_STATS structure (dmusprop.h)
+
+
 
 
 ## -description

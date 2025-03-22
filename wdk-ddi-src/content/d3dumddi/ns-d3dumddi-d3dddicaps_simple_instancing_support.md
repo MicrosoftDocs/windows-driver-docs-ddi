@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure"]
 ms.keywords: D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure [Display Devices], d3dumddi/D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT, display.d3dddicaps_simple_instancing_support
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT
 ---
 
-# D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure
+# D3DDDICAPS_SIMPLE_INSTANCING_SUPPORT structure (d3dumddi.h)
+
+
 
 
 ## -description

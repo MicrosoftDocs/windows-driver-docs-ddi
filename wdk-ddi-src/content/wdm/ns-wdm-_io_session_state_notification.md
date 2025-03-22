@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_SESSION_STATE_NOTIFICATION structure"]
 ms.keywords: "*PIO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_ALL_EVENTS, IO_SESSION_STATE_CONNECT_EVENT, IO_SESSION_STATE_CREATION_EVENT, IO_SESSION_STATE_DISCONNECT_EVENT, IO_SESSION_STATE_LOGOFF_EVENT, IO_SESSION_STATE_LOGON_EVENT, IO_SESSION_STATE_NOTIFICATION, IO_SESSION_STATE_NOTIFICATION structure [Kernel-Mode Driver Architecture], IO_SESSION_STATE_TERMINATION_EVENT, IO_SESSION_STATE_VALID_EVENT_MASK, PIO_SESSION_STATE_NOTIFICATION, PIO_SESSION_STATE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _IO_SESSION_STATE_NOTIFICATION, kernel.io_session_state_notification, kstruct_b_b25d50a3-6254-4eeb-800e-c5fc73c56dfb.xml, wdm/IO_SESSION_STATE_NOTIFICATION, wdm/PIO_SESSION_STATE_NOTIFICATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - IO_SESSION_STATE_NOTIFICATION
 ---
 
-# _IO_SESSION_STATE_NOTIFICATION structure
+# IO_SESSION_STATE_NOTIFICATION structure (wdm.h)
+
+
 
 
 ## -description

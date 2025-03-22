@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddGuid function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddGuid function adds Guid data to an existing, initialized AcxObjectBag.

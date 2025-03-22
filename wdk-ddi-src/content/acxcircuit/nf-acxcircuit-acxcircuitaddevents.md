@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitAddEvents function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitAddEvents** function adds one or more events to an ACXCIRCUIT.

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_FS_SIZE_INFORMATION structure"]
 ms.keywords: "*PFILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION, FILE_FS_SIZE_INFORMATION structure [Installable File System Drivers], PFILE_FS_SIZE_INFORMATION, PFILE_FS_SIZE_INFORMATION structure pointer [Installable File System Drivers], _FILE_FS_SIZE_INFORMATION, fileinformationstructures_749eab67-2b42-4c11-a9a8-ef8ae9866f17.xml, ifsk.file_fs_size_information, ntddk/FILE_FS_SIZE_INFORMATION, ntddk/PFILE_FS_SIZE_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_FS_SIZE_INFORMATION
 ---
 
-# _FILE_FS_SIZE_INFORMATION structure
+# FILE_FS_SIZE_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

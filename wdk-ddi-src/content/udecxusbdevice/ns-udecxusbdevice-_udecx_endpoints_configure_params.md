@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_ENDPOINTS_CONFIGURE_PARAMS structure"]
 ms.keywords: "*PUDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS, PUDECX_ENDPOINTS_CONFIGURE_PARAMS structure pointer [Buses], UDECX_ENDPOINTS_CONFIGURE_PARAMS, UDECX_ENDPOINTS_CONFIGURE_PARAMS structure [Buses], _UDECX_ENDPOINTS_CONFIGURE_PARAMS, buses.udecx_endpoints_configure_params, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_PARAMS, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_PARAMS"
 req.header: udecxusbdevice.h
+req.construct-type: structure
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UDECX_ENDPOINTS_CONFIGURE_PARAMS
 ---
 
-# _UDECX_ENDPOINTS_CONFIGURE_PARAMS structure
+# UDECX_ENDPOINTS_CONFIGURE_PARAMS structure (udecxusbdevice.h)
+
+
 
 
 ## -description

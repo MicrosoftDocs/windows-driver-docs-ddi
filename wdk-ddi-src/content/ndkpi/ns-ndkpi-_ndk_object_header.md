@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDK_OBJECT_HEADER structure"]
 ms.keywords: NDK_OBJECT_HEADER, NDK_OBJECT_HEADER structure [Network Drivers Starting with Windows Vista], PNDK_OBJECT_HEADER, PNDK_OBJECT_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDK_OBJECT_HEADER, ndkpi/NDK_OBJECT_HEADER, ndkpi/PNDK_OBJECT_HEADER, netvista.ndk_object_header
 req.header: ndkpi.h
+req.construct-type: structure
 req.include-header: Ndkpi.h
 req.target-type: Windows
 req.target-min-winverclnt: None supported,Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDK_OBJECT_HEADER
 ---
 
-# _NDK_OBJECT_HEADER structure
+# NDK_OBJECT_HEADER structure (ndkpi.h)
+
+
 
 
 ## -description

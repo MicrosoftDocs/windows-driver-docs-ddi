@@ -7,6 +7,7 @@ ms.date: 10/06/2022
 keywords: ["DXGKARG_PRESENT structure"]
 ms.keywords: "*INOUT_PDXGKARG_PRESENT, DXGKARG_PRESENT, DXGKARG_PRESENT structure [Display Devices], DmStructs_cbe9fbba-047c-468e-bb52-0f90c4e2b75c.xml, _DXGKARG_PRESENT, d3dkmddi/DXGKARG_PRESENT, display.dxgkarg_present"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -44,7 +45,9 @@ api_name:
 ms.custom: engagement-fy23
 ---
 
-# DXGKARG_PRESENT structure
+# DXGKARG_PRESENT structure (d3dkmddi.h)
+
+
 
 ## -description
 

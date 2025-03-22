@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["FILE_FS_FULL_SIZE_INFORMATION_EX structure"]
 ms.keywords: _FILE_FS_FULL_SIZE_INFORMATION_EX, FILE_FS_FULL_SIZE_INFORMATION_EX, *PFILE_FS_FULL_SIZE_INFORMATION_EX,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: wdm.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - FILE_FS_FULL_SIZE_INFORMATION_EX
 ---
 
-# _FILE_FS_FULL_SIZE_INFORMATION_EX structure
+# FILE_FS_FULL_SIZE_INFORMATION_EX structure (ntddk.h)
+
+
 
 
 ## -description

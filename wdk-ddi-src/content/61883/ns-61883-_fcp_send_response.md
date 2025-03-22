@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["FCP_SEND_RESPONSE structure"]
 ms.keywords: "*PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], IEEE.fcp_send_response, PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], _FCP_SEND_RESPONSE"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FCP_SEND_RESPONSE
 ---
 
-# _FCP_SEND_RESPONSE structure
+# FCP_SEND_RESPONSE structure (61883.h)
+
+
 
 
 ## -description

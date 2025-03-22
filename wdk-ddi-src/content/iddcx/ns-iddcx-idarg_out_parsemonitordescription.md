@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IDARG_OUT_PARSEMONITORDESCRIPTION structure"]
 ms.keywords: IDARG_OUT_PARSEMONITORDESCRIPTION, IDARG_OUT_PARSEMONITORDESCRIPTION structure [Display Devices], display.idarg_out_parsemonitordescription, iddcx/IDARG_OUT_PARSEMONITORDESCRIPTION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IDARG_OUT_PARSEMONITORDESCRIPTION
 ---
 
-# IDARG_OUT_PARSEMONITORDESCRIPTION structure
+# IDARG_OUT_PARSEMONITORDESCRIPTION structure (iddcx.h)
+
+
 
 ## -description
 

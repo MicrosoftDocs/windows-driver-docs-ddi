@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUPROFILE structure"]
 ms.keywords: _DXGK_VIRTUALGPUPROFILE, DXGK_VIRTUALGPUPROFILE, *PDXGK_VIRTUALGPUPROFILE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VIRTUALGPUPROFILE structure
+# DXGK_VIRTUALGPUPROFILE structure (dispmprt.h)
+
+
 
 
 ## -description

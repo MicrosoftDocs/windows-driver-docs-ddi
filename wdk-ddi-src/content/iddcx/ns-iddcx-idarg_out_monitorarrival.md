@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_OUT_MONITORARRIVAL structure"]
 ms.keywords: IDARG_OUT_MONITORARRIVAL, IDARG_OUT_MONITORARRIVAL structure [Display Devices], display.idarg_out_monitorarrival, iddcx/IDARG_OUT_MONITORARRIVAL
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_OUT_MONITORARRIVAL
 ---
 
-# IDARG_OUT_MONITORARRIVAL structure
+# IDARG_OUT_MONITORARRIVAL structure (iddcx.h)
+
+
 
 
 ## -description

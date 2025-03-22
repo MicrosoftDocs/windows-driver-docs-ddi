@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PIN_CALLBACKS structure (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_CALLBACKS** structure specifies pin event callback functions.

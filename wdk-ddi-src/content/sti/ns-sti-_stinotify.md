@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["STINOTIFY structure"]
 ms.keywords: "*LPSTINOTIFY, LPSTINOTIFY, LPSTINOTIFY structure pointer [Imaging Devices], STINOTIFY, STINOTIFY structure [Imaging Devices], _STINOTIFY, image.stinotify, sti/LPSTINOTIFY, sti/STINOTIFY, stifnc_2cee63fa-a7a5-4a15-be83-e536a504bcb7.xml"
 req.header: sti.h
+req.construct-type: structure
 req.include-header: Sti.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STINOTIFY
 ---
 
-# _STINOTIFY structure
+# STINOTIFY structure (sti.h)
+
+
 
 
 ## -description

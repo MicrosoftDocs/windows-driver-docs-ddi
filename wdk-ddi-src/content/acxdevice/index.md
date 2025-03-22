@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# acxdevice apiset (acxdevice.h)
+
 ## -description
 
 This header is used by the ACX audio class extensions.

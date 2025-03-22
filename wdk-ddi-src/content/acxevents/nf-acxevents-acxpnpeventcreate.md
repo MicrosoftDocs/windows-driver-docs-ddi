@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPnpEventCreate function (acxevents.h)
+
 ## -description
 
 The **AcxPnpEventCreate** function creates an ACXPNPEVENT.

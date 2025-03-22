@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYMITIGATEDRANGECOUNT structure"]
 ms.keywords: _DXGKARG_QUERYMITIGATEDRANGECOUNT, DXGKARG_QUERYMITIGATEDRANGECOUNT, *PDXGKARG_QUERYMITIGATEDRANGECOUNT,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_QUERYMITIGATEDRANGECOUNT structure
+# DXGKARG_QUERYMITIGATEDRANGECOUNT structure (dispmprt.h)
+
+
 
 
 ## -description

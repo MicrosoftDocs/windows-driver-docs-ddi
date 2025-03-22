@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["WHEA_ERROR_RECORD_HEADER structure"]
 ms.keywords: "*PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], WHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, whea.whea_error_record_header, whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -47,7 +48,9 @@ api_name:
  - WHEA_ERROR_RECORD_HEADER
 ---
 
-# _WHEA_ERROR_RECORD_HEADER structure
+# WHEA_ERROR_RECORD_HEADER structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemoveTarget_IN structure"]
 ms.keywords: "*PRemoveTarget_IN, PRemoveTarget_IN, PRemoveTarget_IN structure pointer [Storage Devices], RemoveTarget_IN, RemoveTarget_IN structure [Storage Devices], _RemoveTarget_IN, hbapiwmi/PRemoveTarget_IN, hbapiwmi/RemoveTarget_IN, storage.removetarget_in, structs-Fibre_e284d48f-3a57-449f-8227-2e8637118dcd.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemoveTarget_IN
 ---
 
-# _RemoveTarget_IN structure
+# RemoveTarget_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

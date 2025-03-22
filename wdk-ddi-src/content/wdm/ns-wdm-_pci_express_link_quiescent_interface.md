@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure"]
 ms.keywords: "*PPCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI.pci_express_link_quiescent_interface_, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure [Buses], _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE, wdm/"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_EXPRESS_LINK_QUIESCENT_INTERFACE
 ---
 
-# _PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure
+# PCI_EXPRESS_LINK_QUIESCENT_INTERFACE structure (wdm.h)
+
+
 
 
 ## -description

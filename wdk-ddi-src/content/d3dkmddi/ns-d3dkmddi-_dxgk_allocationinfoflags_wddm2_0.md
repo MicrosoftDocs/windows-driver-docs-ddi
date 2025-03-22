@@ -6,6 +6,7 @@ ms.date: 08/25/2022
 keywords: ["_DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure"]
 ms.keywords: DXGK_ALLOCATIONINFOFLAGS_WDDM2_0, DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure [Display Devices], d3dkmddi/DXGK_ALLOCATIONINFOFLAGS, display.dxgk_allocationinfoflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - DXGK_ALLOCATIONINFOFLAGS_WDDM2_0
 ---
 
-# DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure
+# DXGK_ALLOCATIONINFOFLAGS_WDDM2_0 structure (d3dkmddi.h)
+
+
 
 ## -description
 

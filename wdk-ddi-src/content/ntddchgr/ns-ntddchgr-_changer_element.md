@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CHANGER_ELEMENT structure"]
 ms.keywords: "*PCHANGER_ELEMENT, CHANGER_ELEMENT, CHANGER_ELEMENT structure [Storage Devices], PCHANGER_ELEMENT, PCHANGER_ELEMENT structure pointer [Storage Devices], _CHANGER_ELEMENT, ntddchgr/CHANGER_ELEMENT, ntddchgr/PCHANGER_ELEMENT, storage.changer_element, structs-changer_b1685d99-20ff-495d-a9e3-c63571559106.xml"
 req.header: ntddchgr.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CHANGER_ELEMENT
 ---
 
-# _CHANGER_ELEMENT structure
+# CHANGER_ELEMENT structure (ntddchgr.h)
+
+
 
 
 ## -description

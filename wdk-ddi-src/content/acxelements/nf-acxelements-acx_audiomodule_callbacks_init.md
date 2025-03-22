@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOMODULE_CALLBACKS_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOMODULE_CALLBACKS_INIT** function initializes the [ACX_AUDIOMODULE_CALLBACKS](ns-acxelements-acx_audiomodule_callbacks.md) structure.

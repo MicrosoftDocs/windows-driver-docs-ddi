@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RILDEVSPECIFICREQUEST structure"]
 ms.keywords: "*LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST, LPRILDEVSPECIFICREQUEST structure pointer [Network Drivers Starting with Windows Vista], RILDEVSPECIFICREQUEST, RILDEVSPECIFICREQUEST structure [Network Drivers Starting with Windows Vista], netvista.rildevspecificrequest, oemrilapitypes/LPRILDEVSPECIFICREQUEST, oemrilapitypes/RILDEVSPECIFICREQUEST"
 req.header: oemrilapitypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - LPRILDEVSPECIFICREQUEST
 ---
 
-# RILDEVSPECIFICREQUEST structure
+# RILDEVSPECIFICREQUEST structure (oemrilapitypes.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_SMS_SEND structure"]
 ms.keywords: "*PWWAN_SMS_SEND, PWWAN_SMS_SEND, PWWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], WWAN_SMS_SEND, WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], WwanRef_5212cb88-8eeb-4aef-8ecd-8a0634db962c.xml, _WWAN_SMS_SEND, netvista.wwan_sms_send, wwan/PWWAN_SMS_SEND, wwan/WWAN_SMS_SEND"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_SMS_SEND
 ---
 
-# _WWAN_SMS_SEND structure
+# WWAN_SMS_SEND structure (wwan.h)
+
+
 
 
 ## -description

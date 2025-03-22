@@ -7,6 +7,7 @@ ms.date: 12/16/2022
 keywords: ["PO_FX_PERF_STATE structure"]
 ms.keywords: "*PPO_FX_PERF_STATE, PO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PO_FX_PERF_STATE, kernel.po_fx_perf_state, wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -44,6 +45,8 @@ api_name:
  - PPO_FX_PERF_STATE
  - PO_FX_PERF_STATE
 ---
+
+# PO_FX_PERF_STATE structure (wdm.h)
 
 ## -description
 

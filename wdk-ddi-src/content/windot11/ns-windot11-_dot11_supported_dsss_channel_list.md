@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure"]
 ms.keywords: "*PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST, DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_cf2e493f-66e9-49ae-aed8-3c7b220b836f.xml, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST, PDOT11_SUPPORTED_DSSS_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_SUPPORTED_DSSS_CHANNEL_LIST, netvista.dot11_supported_dsss_channel_list, windot11/DOT11_SUPPORTED_DSSS_CHANNEL_LIST, windot11/PDOT11_SUPPORTED_DSSS_CHANNEL_LIST"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_SUPPORTED_DSSS_CHANNEL_LIST
 ---
 
-# _DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure
+# DOT11_SUPPORTED_DSSS_CHANNEL_LIST structure (windot11.h)
+
+
 
 
 ## -description

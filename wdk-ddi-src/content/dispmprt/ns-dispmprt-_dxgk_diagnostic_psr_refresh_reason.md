@@ -6,6 +6,7 @@ ms.date: 05/31/2022
 keywords: ["DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_PSR_REFRESH_REASON, DXGK_DIAGNOSTIC_PSR_REFRESH_REASON,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure
+# DXGK_DIAGNOSTIC_PSR_REFRESH_REASON structure (dispmprt.h)
+
+
 
 ## -description
 

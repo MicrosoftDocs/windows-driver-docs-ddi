@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure"]
 ms.keywords: DXGKVGPU_ESCAPE_READ_VGPU_TYPE, DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure [Display Devices], _DXGKVGPU_ESCAPE_READ_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_READ_VGPU_TYPE, display.dxgkvgpu_escape_read_vgpu_type
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKVGPU_ESCAPE_READ_VGPU_TYPE
 ---
 
-# _DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure
+# DXGKVGPU_ESCAPE_READ_VGPU_TYPE structure (d3dukmdt.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure"]
 ms.keywords: D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure [Display Devices], _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, d3dkmthk/D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS, display.d3dkmt_brightness_possible_levels
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS
 ---
 
-# _D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure
+# D3DKMT_BRIGHTNESS_POSSIBLE_LEVELS structure (d3dkmthk.h)
+
+
 
 
 ## -description

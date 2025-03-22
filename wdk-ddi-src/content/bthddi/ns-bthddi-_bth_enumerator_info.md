@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTH_ENUMERATOR_INFO structure"]
 ms.keywords: "*PBTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO, BTH_ENUMERATOR_INFO structure [Bluetooth Devices], PBTH_ENUMERATOR_INFO, PBTH_ENUMERATOR_INFO structure pointer [Bluetooth Devices], _BTH_ENUMERATOR_INFO, bltooth.bth_enumerator_info, bth_structs_7cdc888a-ed42-4988-917f-578522399179.xml, bthddi/BTH_ENUMERATOR_INFO, bthddi/PBTH_ENUMERATOR_INFO"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - BTH_ENUMERATOR_INFO
 ---
 
-# _BTH_ENUMERATOR_INFO structure
+# BTH_ENUMERATOR_INFO structure (bthddi.h)
+
+
 
 
 ## -description

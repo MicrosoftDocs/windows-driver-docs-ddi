@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_P2P_SERVICE_NAME_HASH structure"]
 ms.keywords: "*PWDI_P2P_SERVICE_NAME_HASH, PWDI_P2P_SERVICE_NAME_HASH, PWDI_P2P_SERVICE_NAME_HASH structure pointer [Network Drivers Starting with Windows Vista], WDI_P2P_SERVICE_NAME_HASH, WDI_P2P_SERVICE_NAME_HASH structure [Network Drivers Starting with Windows Vista], _WDI_P2P_SERVICE_NAME_HASH, dot11wdi/PWDI_P2P_SERVICE_NAME_HASH, dot11wdi/WDI_P2P_SERVICE_NAME_HASH, netvista.wdi_p2p_service_name_hash"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - WDI_P2P_SERVICE_NAME_HASH
 ---
 
-# _WDI_P2P_SERVICE_NAME_HASH structure
+# WDI_P2P_SERVICE_NAME_HASH structure (dot11wdi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_QUERYMITIGATEDRANGES structure"]
 ms.keywords: _DXGKARG_QUERYMITIGATEDRANGES, DXGKARG_QUERYMITIGATEDRANGES, *PDXGKARG_QUERYMITIGATEDRANGES,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_QUERYMITIGATEDRANGES structure
+# DXGKARG_QUERYMITIGATEDRANGES structure (dispmprt.h)
+
+
 
 
 ## -description

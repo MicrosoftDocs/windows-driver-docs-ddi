@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["NV_FEATURE_PARAMETER structure"]
 ms.keywords: "*PNV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER, NV_FEATURE_PARAMETER structure [Storage Devices], PNV_FEATURE_PARAMETER, PNV_FEATURE_PARAMETER structure pointer [Storage Devices], _NV_FEATURE_PARAMETER, ntddscsi/NV_FEATURE_PARAMETER, ntddscsi/PNV_FEATURE_PARAMETER, storage.nv_feature_parameter, structs-nvcache_ac844d4b-783b-4248-8699-353eef5a3d52.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NV_FEATURE_PARAMETER
 ---
 
-# NV_FEATURE_PARAMETER structure
+# NV_FEATURE_PARAMETER structure (ntddscsi.h)
+
+
 
 
 ## -description

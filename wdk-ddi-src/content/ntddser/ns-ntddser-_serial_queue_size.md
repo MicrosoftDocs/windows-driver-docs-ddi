@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERIAL_QUEUE_SIZE structure"]
 ms.keywords: "*PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE, PSERIAL_QUEUE_SIZE structure pointer [Serial Ports], SERIAL_QUEUE_SIZE, SERIAL_QUEUE_SIZE structure [Serial Ports], _SERIAL_QUEUE_SIZE, ntddser/PSERIAL_QUEUE_SIZE, ntddser/SERIAL_QUEUE_SIZE, serports.serial_queue_size"
 req.header: ntddser.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SERIAL_QUEUE_SIZE
 ---
 
-# _SERIAL_QUEUE_SIZE structure
+# SERIAL_QUEUE_SIZE structure (ntddser.h)
+
+
 
 
 ## -description

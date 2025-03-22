@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DIRTYREGIONS structure"]
 ms.keywords: D3DKMT_DIRTYREGIONS, D3DKMT_DIRTYREGIONS structure [Display Devices], OpenGL_Structs_a6113f9d-8ffc-4e75-8366-8329ad6c114b.xml, _D3DKMT_DIRTYREGIONS, d3dkmthk/D3DKMT_DIRTYREGIONS, display.d3dkmt_dirtyregions
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_DIRTYREGIONS is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DIRTYREGIONS
 ---
 
-# _D3DKMT_DIRTYREGIONS structure
+# D3DKMT_DIRTYREGIONS structure (d3dkmthk.h)
+
+
 
 
 ## -description

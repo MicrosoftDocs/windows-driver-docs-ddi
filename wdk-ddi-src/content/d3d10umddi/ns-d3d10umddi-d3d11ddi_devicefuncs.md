@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDI_DEVICEFUNCS structure"]
 ms.keywords: D3D11DDI_DEVICEFUNCS, D3D11DDI_DEVICEFUNCS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_f91ec9c6-5d1b-49ab-8a92-21028de8e10b.xml, d3d10umddi/D3D11DDI_DEVICEFUNCS, display.d3d11ddi_devicefuncs
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDI_DEVICEFUNCS is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDI_DEVICEFUNCS
 ---
 
-# D3D11DDI_DEVICEFUNCS structure
+# D3D11DDI_DEVICEFUNCS structure (d3d10umddi.h)
+
+
 
 
 ## -description

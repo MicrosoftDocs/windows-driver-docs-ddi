@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSP_BDA_NODE_PIN structure"]
 ms.keywords: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN structure [Streaming Media Devices], PKSP_BDA_NODE_PIN, PKSP_BDA_NODE_PIN structure pointer [Streaming Media Devices], _KSP_BDA_NODE_PIN, bdamedia/KSP_BDA_NODE_PIN, bdamedia/PKSP_BDA_NODE_PIN, bdaref_5e3a84db-906c-4d12-863d-9a77b2f7d78c.xml, stream.ksp_bda_node_pin"
 req.header: bdamedia.h
+req.construct-type: structure
 req.include-header: Bdamedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSP_BDA_NODE_PIN
 ---
 
-# _KSP_BDA_NODE_PIN structure
+# KSP_BDA_NODE_PIN structure (bdamedia.h)
+
+
 
 
 ## -description

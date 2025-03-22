@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure"]
 ms.keywords: "*PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, kernel.io_report_interrupt_active_state_parameters, wdm/IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS, wdm/PIO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS
 ---
 
-# _IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure
+# IO_REPORT_INTERRUPT_ACTIVE_STATE_PARAMETERS structure (wdm.h)
+
+
 
 
 ## -description

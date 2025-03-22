@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_BIND_PARAMETERS structure"]
 ms.keywords: "*PNDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS, NDIS_BIND_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_BIND_PARAMETERS, PNDIS_BIND_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_BIND_PARAMETERS, ndis/NDIS_BIND_PARAMETERS, ndis/PNDIS_BIND_PARAMETERS, netvista.ndis_bind_parameters, protocol_structures_ref_25c90ff2-4a09-41f2-8b66-666a91dbfe17.xml"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_BIND_PARAMETERS
 ---
 
-# _NDIS_BIND_PARAMETERS structure
+# NDIS_BIND_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

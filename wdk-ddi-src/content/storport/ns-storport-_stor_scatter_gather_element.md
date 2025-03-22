@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_SCATTER_GATHER_ELEMENT structure"]
 ms.keywords: "*PSTOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], STOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], _STOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, storport/PSTOR_SCATTER_GATHER_ELEMENT, storport/STOR_SCATTER_GATHER_ELEMENT, structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STOR_SCATTER_GATHER_ELEMENT
 ---
 
-# _STOR_SCATTER_GATHER_ELEMENT structure
+# STOR_SCATTER_GATHER_ELEMENT structure (storport.h)
+
+
 
 
 ## -description

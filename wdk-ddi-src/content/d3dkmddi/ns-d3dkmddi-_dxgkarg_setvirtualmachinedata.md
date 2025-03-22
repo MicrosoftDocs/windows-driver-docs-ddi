@@ -4,6 +4,7 @@ title: DXGKARG_SETVIRTUALMACHINEDATA (d3dkmddi.h)
 description: Arguments used to set virtual machine data.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_SETVIRTUALMACHINEDATA structure
+# DXGKARG_SETVIRTUALMACHINEDATA structure (d3dkmddi.h)
+
+
 
 ## -description
 

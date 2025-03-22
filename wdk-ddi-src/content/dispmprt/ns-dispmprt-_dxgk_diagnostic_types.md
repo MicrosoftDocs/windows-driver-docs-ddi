@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_DIAGNOSTIC_TYPES structure"]
 ms.keywords: _DXGK_DIAGNOSTIC_TYPES, DXGK_DIAGNOSTIC_TYPES,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_DIAGNOSTIC_TYPES
 ---
 
-# _DXGK_DIAGNOSTIC_TYPES structure
+# DXGK_DIAGNOSTIC_TYPES structure (dispmprt.h)
+
+
 
 
 ## -description

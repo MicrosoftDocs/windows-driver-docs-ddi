@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTHX_VERSION structure"]
 ms.keywords: "*PBTHX_VERSION, BTHX_VERSION, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, bltooth.bthx_version, bthxddi/_BTHX_VERSION"
 req.header: bthxddi.h
+req.construct-type: structure
 req.include-header: BthXDDI.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BTHX_VERSION
 ---
 
-# _BTHX_VERSION structure
+# BTHX_VERSION structure (bthxddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TAPE_PREPARE structure"]
 ms.keywords: "*PTAPE_PREPARE, PTAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE, TAPE_PREPARE structure [Storage Devices], _TAPE_PREPARE, ntddtape/PTAPE_PREPARE, ntddtape/TAPE_PREPARE, storage.tape_prepare, structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml"
 req.header: ntddtape.h
+req.construct-type: structure
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TAPE_PREPARE
 ---
 
-# _TAPE_PREPARE structure (ntddtape.h)
+# TAPE_PREPARE structure (ntddtape.h)
+
+
 
 
 ## -description

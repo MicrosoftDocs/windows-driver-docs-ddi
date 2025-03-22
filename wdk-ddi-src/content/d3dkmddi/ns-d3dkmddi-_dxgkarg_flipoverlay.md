@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_FLIPOVERLAY structure"]
 ms.keywords: DXGKARG_FLIPOVERLAY, DXGKARG_FLIPOVERLAY structure [Display Devices], DmStructs_8ff06344-e7f5-44b1-95fc-d3b363428d43.xml, _DXGKARG_FLIPOVERLAY, d3dkmddi/DXGKARG_FLIPOVERLAY, display.dxgkarg_flipoverlay
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_FLIPOVERLAY
 ---
 
-# _DXGKARG_FLIPOVERLAY structure
+# DXGKARG_FLIPOVERLAY structure (d3dkmddi.h)
+
+
 
 
 ## -description

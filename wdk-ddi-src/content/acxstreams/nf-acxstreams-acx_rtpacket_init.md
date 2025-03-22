@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_RTPACKET_INIT function (acxstreams.h)
+
 ## -description
 
 The **ACX_RTPACKET_INIT** function initializes the ACX RT packet structure.

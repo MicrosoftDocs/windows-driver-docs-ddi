@@ -7,6 +7,7 @@ ms.date: 03/15/2019
 keywords: ["STORAGE_ENDURANCE_INFO structure"]
 ms.keywords: STORAGE_ENDURANCE_INFO, STORAGE_ENDURANCE_INFO, *PSTORAGE_ENDURANCE_INFO, STORAGE_ENDURANCE_DATA_DESCRIPTOR
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - STORAGE_ENDURANCE_INFO
 ---
 
-# STORAGE_ENDURANCE_INFO structure
+# STORAGE_ENDURANCE_INFO structure (ntddscsi.h)
+
+
 
 
 ## -description

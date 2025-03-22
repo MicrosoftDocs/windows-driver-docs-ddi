@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["PO_FX_DEVICE_V3 structure"]
 ms.keywords: PO_FX_DEVICE_V3, PO_FX_DEVICE_V3, *PPO_FX_DEVICE_V3, *PPO_FX_DEVICE, PO_FX_DEVICE
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - PO_FX_DEVICE_V3
 ---
 
-# PO_FX_DEVICE_V3 structure
+# PO_FX_DEVICE_V3 structure (wdm.h)
+
+
 
 
 ## -description

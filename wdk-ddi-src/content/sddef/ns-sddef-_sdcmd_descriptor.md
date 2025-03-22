@@ -8,6 +8,7 @@ ms.date: 12/16/2021
 keywords: ["SDCMD_DESCRIPTOR structure"]
 ms.keywords: "*PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SD.sdcmd_descriptor, SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], _SDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/PSDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR"
 req.header: sddef.h
+req.construct-type: structure
 req.include-header: Sddef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SDCMD_DESCRIPTOR
 ---
 
-# SDCMD_DESCRIPTOR structure
+# SDCMD_DESCRIPTOR structure (sddef.h)
+
+
 
 ## -description
 

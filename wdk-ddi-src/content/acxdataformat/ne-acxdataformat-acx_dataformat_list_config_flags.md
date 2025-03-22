@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_LIST_CONFIG_FLAGS enumeration (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_LIST_CONFIG_FLAGS** enumeration is used to configure a data format list used by an audio class extension (ACX) driver.

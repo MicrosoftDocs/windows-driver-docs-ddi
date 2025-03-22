@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSTOPOLOGY structure"]
 ms.keywords: "*PKSTOPOLOGY, KSTOPOLOGY, KSTOPOLOGY structure [Streaming Media Devices], PKSTOPOLOGY, PKSTOPOLOGY structure pointer [Streaming Media Devices], ks-struct_1d55c5f9-18d4-43d0-9fe9-291134e84115.xml, ks/KSTOPOLOGY, ks/PKSTOPOLOGY, stream.kstopology"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSTOPOLOGY
 ---
 
-# KSTOPOLOGY structure
+# KSTOPOLOGY structure (ks.h)
+
+
 
 
 ## -description

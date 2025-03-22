@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_TS_SELECTORINFO_ISDBS_EXT structure"]
 ms.keywords: "*PBDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT, BDA_TS_SELECTORINFO_ISDBS_EXT structure [Streaming Media Devices], PBDA_TS_SELECTORINFO_ISDBS_EXT, PBDA_TS_SELECTORINFO_ISDBS_EXT structure pointer [Streaming Media Devices], _BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/BDA_TS_SELECTORINFO_ISDBS_EXT, bdatypes/PBDA_TS_SELECTORINFO_ISDBS_EXT, stream.bda_ts_selectorinfo_isdbs_ext"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_TS_SELECTORINFO_ISDBS_EXT
 ---
 
-# _BDA_TS_SELECTORINFO_ISDBS_EXT structure
+# BDA_TS_SELECTORINFO_ISDBS_EXT structure (bdatypes.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_UNLOCKFLAGS structure"]
 ms.keywords: D3DDDI_UNLOCKFLAGS, D3DDDI_UNLOCKFLAGS structure [Display Devices], D3D_other_Structs_c1133d3b-9330-4278-85c7-4083436278cf.xml, _D3DDDI_UNLOCKFLAGS, d3dumddi/D3DDDI_UNLOCKFLAGS, display.d3dddi_unlockflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_UNLOCKFLAGS
 ---
 
-# _D3DDDI_UNLOCKFLAGS structure
+# D3DDDI_UNLOCKFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

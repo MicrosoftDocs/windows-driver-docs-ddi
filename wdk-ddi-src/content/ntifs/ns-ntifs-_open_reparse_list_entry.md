@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["OPEN_REPARSE_LIST_ENTRY structure"]
 ms.keywords: "*POPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY, OPEN_REPARSE_LIST_ENTRY , OPEN_REPARSE_LIST_ENTRY structure [Installable File System Drivers], OPEN_REPARSE_POINT_REPARSE_IF_CHILD_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_CHILD_NOT_EXISTS, OPEN_REPARSE_POINT_REPARSE_IF_DIRECTORY_FINAL_COMPONENT, OPEN_REPARSE_POINT_TAG_ENCOUNTERED, OPEN_REPARSE_POINT_VERSION_EX, POPEN_REPARSE_LIST_ENTRY, POPEN_REPARSE_LIST_ENTRY structure pointer [Installable File System Drivers], _OPEN_REPARSE_LIST_ENTRY, ifsk.open_reparse_list_entry_, ntifs/OPEN_REPARSE_LIST_ENTRY, ntifs/POPEN_REPARSE_LIST_ENTRY"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -46,7 +47,9 @@ api_name:
  - OPEN_REPARSE_LIST_ENTRY
 ---
 
-# _OPEN_REPARSE_LIST_ENTRY structure
+# OPEN_REPARSE_LIST_ENTRY structure (ntifs.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["EFI_QUERY_VARIABLE_INFO_IN structure"]
 ms.keywords: _EFI_QUERY_VARIABLE_INFO_IN, EFI_QUERY_VARIABLE_INFO_IN, *PEFI_QUERY_VARIABLE_INFO_IN,
 req.header: treevariableservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - EFI_QUERY_VARIABLE_INFO_IN
 ---
 
-# _EFI_QUERY_VARIABLE_INFO_IN structure
+# EFI_QUERY_VARIABLE_INFO_IN structure (treevariableservice.h)
+
+
 
 
 ## -description

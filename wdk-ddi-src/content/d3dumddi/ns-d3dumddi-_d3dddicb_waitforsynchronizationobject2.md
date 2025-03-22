@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure"]
 ms.keywords: D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure [Display Devices], _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, d3dumddi/D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2, display.d3dddicb_waitforsynchronizationobject2
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2
 ---
 
-# _D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure
+# D3DDDICB_WAITFORSYNCHRONIZATIONOBJECT2 structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_CREATEHWCONTEXT structure"]
 ms.keywords: D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], _D3DDDICB_CREATEHWCONTEXT, d3dumddi/D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_CREATEHWCONTEXT
 ---
 
-# _D3DDDICB_CREATEHWCONTEXT structure
+# D3DDDICB_CREATEHWCONTEXT structure (d3dumddi.h)
+
+
 
 
 ## -description

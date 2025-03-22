@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["VOLUME_DISK_EXTENTS structure"]
 ms.keywords: "*PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS structure pointer [Storage Devices], VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS structure [Storage Devices], _VOLUME_DISK_EXTENTS, ntddvol/PVOLUME_DISK_EXTENTS, ntddvol/VOLUME_DISK_EXTENTS, storage.volume_disk_extents, structs-volumemgr_148847d4-324c-4767-8247-7d286e496d42.xml"
 req.header: ntddvol.h
+req.construct-type: structure
 req.include-header: Ntddvol.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VOLUME_DISK_EXTENTS
 ---
 
-# _VOLUME_DISK_EXTENTS structure
+# VOLUME_DISK_EXTENTS structure (ntddvol.h)
+
+
 
 
 ## -description

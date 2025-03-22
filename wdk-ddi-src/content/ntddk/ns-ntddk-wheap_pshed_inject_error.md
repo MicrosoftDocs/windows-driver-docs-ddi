@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_PSHED_INJECT_ERROR structure"]
 ms.keywords: WHEAP_PSHED_INJECT_ERROR, WHEAP_PSHED_INJECT_ERROR, *PWHEAP_PSHED_INJECT_ERROR,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_PSHED_INJECT_ERROR
 ---
 
-# WHEAP_PSHED_INJECT_ERROR structure
+# WHEAP_PSHED_INJECT_ERROR structure (ntddk.h)
+
+
 
 
 ## -description

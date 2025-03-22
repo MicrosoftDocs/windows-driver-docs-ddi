@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IDEREGISTERS structure"]
 ms.keywords: "*PIDEREGISTERS, IDEREGISTERS, IDEREGISTERS structure [Storage Devices], PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], _IDEREGISTERS, irb/IDEREGISTERS, irb/PIDEREGISTERS, storage.ideregisters, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml"
 req.header: irb.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDEREGISTERS
 ---
 
-# _IDEREGISTERS structure
+# IDEREGISTERS structure (irb.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LAST_BUFFER_POSITION** callback function is implemented by the driver and is called when the position of the last valid byte in the audio buffer is set for the specified stream audio engine.

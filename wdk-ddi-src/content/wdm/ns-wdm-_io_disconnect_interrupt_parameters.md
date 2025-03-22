@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_DISCONNECT_INTERRUPT_PARAMETERS structure"]
 ms.keywords: "*PIO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS, IO_DISCONNECT_INTERRUPT_PARAMETERS structure [Kernel-Mode Driver Architecture], PIO_DISCONNECT_INTERRUPT_PARAMETERS, PIO_DISCONNECT_INTERRUPT_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], _IO_DISCONNECT_INTERRUPT_PARAMETERS, kernel.io_disconnect_interrupt_parameters, kstruct_b_f8b627a3-a9ce-4a6c-8e3a-c0354ecdff7f.xml, wdm/IO_DISCONNECT_INTERRUPT_PARAMETERS, wdm/PIO_DISCONNECT_INTERRUPT_PARAMETERS"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IO_DISCONNECT_INTERRUPT_PARAMETERS
 ---
 
-# _IO_DISCONNECT_INTERRUPT_PARAMETERS structure
+# IO_DISCONNECT_INTERRUPT_PARAMETERS structure (wdm.h)
+
+
 
 
 ## -description

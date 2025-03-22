@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GET_CONFIGURATION_HEADER structure"]
 ms.keywords: "*PGET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER, GET_CONFIGURATION_HEADER structure [Storage Devices], PGET_CONFIGURATION_HEADER, PGET_CONFIGURATION_HEADER structure pointer [Storage Devices], _GET_CONFIGURATION_HEADER, ntddmmc/GET_CONFIGURATION_HEADER, ntddmmc/PGET_CONFIGURATION_HEADER, storage.get_configuration_header, structs-CD-ROM_f15044b6-5bbe-4d82-9826-dbe0c96a488c.xml"
 req.header: ntddmmc.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GET_CONFIGURATION_HEADER
 ---
 
-# _GET_CONFIGURATION_HEADER structure
+# GET_CONFIGURATION_HEADER structure (ntddmmc.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WWAN_SMS_SEND structure"]
 ms.keywords: "*PNDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND, NDIS_WWAN_SMS_SEND structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_SMS_SEND, PNDIS_WWAN_SMS_SEND structure pointer [Network Drivers Starting with Windows Vista], WwanRef_ef75a09f-b42a-4bd6-ae59-b94d5e4b0e54.xml, _NDIS_WWAN_SMS_SEND, ndiswwan/NDIS_WWAN_SMS_SEND, ndiswwan/PNDIS_WWAN_SMS_SEND, netvista.ndis_wwan_sms_send"
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: Ndiswwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WWAN_SMS_SEND
 ---
 
-# _NDIS_WWAN_SMS_SEND structure
+# NDIS_WWAN_SMS_SEND structure (ndiswwan.h)
+
+
 
 
 ## -description

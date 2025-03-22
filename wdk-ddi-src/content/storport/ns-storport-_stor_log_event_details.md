@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_LOG_EVENT_DETAILS structure"]
 ms.keywords: "*PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS, PSTOR_LOG_EVENT_DETAILS structure pointer [Storage Devices], STOR_LOG_EVENT_DETAILS, STOR_LOG_EVENT_DETAILS structure [Storage Devices], _STOR_LOG_EVENT_DETAILS, storage.stor_log_event_details, storport/PSTOR_LOG_EVENT_DETAILS, storport/STOR_LOG_EVENT_DETAILS, structs-storport_ba65fe62-1b9a-4234-b9a4-b145bf549699.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STOR_LOG_EVENT_DETAILS
 ---
 
-# _STOR_LOG_EVENT_DETAILS structure
+# STOR_LOG_EVENT_DETAILS structure (storport.h)
+
+
 
 
 ## -description

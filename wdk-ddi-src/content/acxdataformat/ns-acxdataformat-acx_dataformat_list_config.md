@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_LIST_CONFIG structure (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_LIST_CONFIG** structure is used to configure a new ACX data format list object.

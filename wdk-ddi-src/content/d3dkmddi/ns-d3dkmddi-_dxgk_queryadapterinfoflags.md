@@ -4,6 +4,7 @@ title: DXGK_QUERYADAPTERINFOFLAGS (d3dkmddi.h)
 description: Used to query graphics adapter information.
 ms.date: 02/06/2025
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -34,7 +35,9 @@ api_name:
  - DXGK_QUERYADAPTERINFOFLAGS
 ---
 
-# DXGK_QUERYADAPTERINFOFLAGS structure
+# DXGK_QUERYADAPTERINFOFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

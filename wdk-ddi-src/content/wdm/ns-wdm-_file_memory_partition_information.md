@@ -8,6 +8,7 @@ author: lorihollasch
 keywords: ["FILE_MEMORY_PARTITION_INFORMATION structure"]
 ms.keywords: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, wdm/FILE_MEMORY_PARTITION_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - FILE_MEMORY_PARTITION_INFORMATION
 ---
 
-# _FILE_MEMORY_PARTITION_INFORMATION structure
+# FILE_MEMORY_PARTITION_INFORMATION structure (wdm.h)
+
+
 
 ## -description
 

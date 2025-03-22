@@ -8,6 +8,7 @@ ms.date: 02/22/2018
 keywords: ["OS_DEP_DATA structure"]
 ms.keywords: "*POS_DEP_DATA, OS_DEP_DATA, OS_DEP_DATA (WDM), OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], OS_DEP_DATA structure [Smart Card Reader Devices], POS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], _OS_DEP_DATA, scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smartcrd.os_dep_data__wdm_, smcnt/OS_DEP_DATA, smcnt/POS_DEP_DATA"
 req.header: smcnt.h
+req.construct-type: structure
 req.include-header: Smcnt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - OS_DEP_DATA
 ---
 
-# _OS_DEP_DATA structure
+# OS_DEP_DATA structure (smcnt.h)
+
+
 
 
 ## -description

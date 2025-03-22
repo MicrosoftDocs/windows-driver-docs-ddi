@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BranchOfficeJobDataPipelineFailed structure"]
 ms.keywords: "*PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], PBranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], print.branchofficejobdatapipelinefailed, winsplp/BranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BranchOfficeJobDataPipelineFailed
 ---
 
-# BranchOfficeJobDataPipelineFailed structure
+# BranchOfficeJobDataPipelineFailed structure (winsplp.h)
+
+
 
 
 ## -description

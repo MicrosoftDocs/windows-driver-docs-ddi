@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["PCI_PMCSR_BSE structure"]
 ms.keywords: "*PPCI_PMCSR_BSE, PCI.pci_pmcsr_bse, PCI_PMCSR_BSE, PCI_PMCSR_BSE structure [Buses], PPCI_PMCSR_BSE, PPCI_PMCSR_BSE structure pointer [Buses], _PCI_PMCSR_BSE, pci_struct_8ff8cc6c-91a4-4396-9d4c-8d99967a9417.xml, wdm/PCI_PMCSR_BSE, wdm/PPCI_PMCSR_BSE"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PCI_PMCSR_BSE
 ---
 
-# _PCI_PMCSR_BSE structure (wdm.h)
+# PCI_PMCSR_BSE structure (wdm.h)
+
+
 
 
 ## -description

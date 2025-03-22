@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_VideoDesc structure"]
 ms.keywords: "*LPDXVA_VideoDesc, DXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], _DXVA_VideoDesc, display.dxva_videodesc, dxva/DXVA_VideoDesc, dxva/LPDXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXVA_VideoDesc
 ---
 
-# _DXVA_VideoDesc structure
+# DXVA_VideoDesc structure (dxva.h)
+
+
 
 
 ## -description

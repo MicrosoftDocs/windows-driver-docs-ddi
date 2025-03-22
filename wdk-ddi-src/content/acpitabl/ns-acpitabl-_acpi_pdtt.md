@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PDTT structure"]
 ms.keywords: _ACPI_PDTT, ACPI_PDTT, *PACPI_PDTT,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ACPI_PDTT
 ---
 
-# _ACPI_PDTT structure
+# ACPI_PDTT structure (acpitabl.h)
+
+
 
 
 ## -description

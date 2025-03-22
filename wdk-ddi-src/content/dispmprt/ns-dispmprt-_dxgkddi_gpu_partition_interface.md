@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKDDI_GPU_PARTITION_INTERFACE structure"]
 ms.keywords: _DXGKDDI_GPU_PARTITION_INTERFACE, DXGKDDI_GPU_PARTITION_INTERFACE, *PDXGKDDI_GPU_PARTITION_INTERFACE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKDDI_GPU_PARTITION_INTERFACE structure
+# DXGKDDI_GPU_PARTITION_INTERFACE structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure"]
 ms.keywords: "*POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, 216offload_de874753-3127-47fb-8768-a5e2bd6eb96d.xml, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure pointer [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, netvista.offload_ipsec_udpesp_encaptype_entry, ntddndis/OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY, ntddndis/POFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY
 ---
 
-# _OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure
+# OFFLOAD_IPSEC_UDPESP_ENCAPTYPE_ENTRY structure (ntddndis.h)
+
+
 
 
 ## -description

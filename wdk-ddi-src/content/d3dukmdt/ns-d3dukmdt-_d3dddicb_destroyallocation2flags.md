@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_DESTROYALLOCATION2FLAGS structure"]
 ms.keywords: D3DDDICB_DESTROYALLOCATION2FLAGS, D3DDDICB_DESTROYALLOCATION2FLAGS structure [Display Devices], _D3DDDICB_DESTROYALLOCATION2FLAGS, d3dukmdt/D3DDDICB_DESTROYALLOCATION2FLAGS, display.d3dddicb_destroyallocation2flags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_DESTROYALLOCATION2FLAGS
 ---
 
-# _D3DDDICB_DESTROYALLOCATION2FLAGS structure
+# D3DDDICB_DESTROYALLOCATION2FLAGS structure (d3dukmdt.h)
+
+
 
 
 ## -description

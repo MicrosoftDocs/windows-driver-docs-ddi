@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OB_CALLBACK_REGISTRATION structure"]
 ms.keywords: "*POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _OB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, wdm/OB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Server 2008.
@@ -46,7 +47,9 @@ api_name:
  - OB_CALLBACK_REGISTRATION
 ---
 
-# _OB_CALLBACK_REGISTRATION structure
+# OB_CALLBACK_REGISTRATION structure (wdm.h)
+
+
 
 
 ## -description

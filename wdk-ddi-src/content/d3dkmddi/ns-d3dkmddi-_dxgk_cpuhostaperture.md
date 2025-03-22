@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CPUHOSTAPERTURE structure"]
 ms.keywords: DXGK_CPUHOSTAPERTURE, DXGK_CPUHOSTAPERTURE structure [Display Devices], _DXGK_CPUHOSTAPERTURE, d3dkmddi/DXGK_CPUHOSTAPERTURE, display.dxgk_cpuhostaperture
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_CPUHOSTAPERTURE
 ---
 
-# _DXGK_CPUHOSTAPERTURE structure
+# DXGK_CPUHOSTAPERTURE structure (d3dkmddi.h)
+
+
 
 
 ## -description

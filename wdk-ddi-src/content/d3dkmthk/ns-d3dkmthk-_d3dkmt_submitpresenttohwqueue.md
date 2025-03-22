@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_SUBMITPRESENTTOHWQUEUE structure"]
 ms.keywords: _D3DKMT_SUBMITPRESENTTOHWQUEUE, D3DKMT_SUBMITPRESENTTOHWQUEUE,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_SUBMITPRESENTTOHWQUEUE structure
+# D3DKMT_SUBMITPRESENTTOHWQUEUE structure (d3dkmthk.h)
+
+
 
 
 ## -description

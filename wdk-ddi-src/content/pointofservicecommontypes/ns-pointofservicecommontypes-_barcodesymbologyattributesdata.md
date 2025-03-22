@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["BarcodeSymbologyAttributesData structure"]
 ms.keywords: BarcodeSymbologyAttributesData, BarcodeSymbologyAttributesData structure, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata
 req.header: pointofservicecommontypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BarcodeSymbologyAttributesData
 ---
 
-# _BarcodeSymbologyAttributesData structure
+# BarcodeSymbologyAttributesData structure (pointofservicecommontypes.h)
+
+
 
 
 ## -description

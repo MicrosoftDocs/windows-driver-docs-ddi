@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEAP_FOUND_ERROR_IN_BANK_EVENT structure"]
 ms.keywords: WHEAP_FOUND_ERROR_IN_BANK_EVENT, WHEAP_FOUND_ERROR_IN_BANK_EVENT, *PWHEAP_FOUND_ERROR_IN_BANK_EVENT,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEAP_FOUND_ERROR_IN_BANK_EVENT
 ---
 
-# WHEAP_FOUND_ERROR_IN_BANK_EVENT structure
+# WHEAP_FOUND_ERROR_IN_BANK_EVENT structure (ntddk.h)
+
+
 
 
 ## -description

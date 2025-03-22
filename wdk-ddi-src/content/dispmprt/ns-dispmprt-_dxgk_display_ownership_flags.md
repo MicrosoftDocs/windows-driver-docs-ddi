@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_DISPLAY_OWNERSHIP_FLAGS structure"]
 ms.keywords: "*PDXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS, DXGK_DISPLAY_OWNERSHIP_FLAGS structure [Display Devices], PDXGK_DISPLAY_OWNERSHIP_FLAGS, PDXGK_DISPLAY_OWNERSHIP_FLAGS structure pointer [Display Devices], _DXGK_DISPLAY_OWNERSHIP_FLAGS, display.dxgk_display_ownership_flags, dispmprt/DXGK_DISPLAY_OWNERSHIP_FLAGS, dispmprt/PDXGK_DISPLAY_OWNERSHIP_FLAGS"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_DISPLAY_OWNERSHIP_FLAGS
 ---
 
-# _DXGK_DISPLAY_OWNERSHIP_FLAGS structure
+# DXGK_DISPLAY_OWNERSHIP_FLAGS structure (dispmprt.h)
+
+
 
 
 ## -description

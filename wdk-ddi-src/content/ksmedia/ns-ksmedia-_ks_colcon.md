@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_COLCON structure"]
 ms.keywords: "*PKS_COLCON, KS_COLCON, KS_COLCON structure [Streaming Media Devices], PKS_COLCON, PKS_COLCON structure pointer [Streaming Media Devices], _KS_COLCON, dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml, ksmedia/KS_COLCON, ksmedia/PKS_COLCON, stream.ks_colcon"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KS_COLCON
 ---
 
-# _KS_COLCON structure
+# KS_COLCON structure (ksmedia.h)
+
+
 
 
 ## -description

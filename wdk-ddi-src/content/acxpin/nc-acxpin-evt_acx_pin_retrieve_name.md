@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_PIN_RETRIEVE_NAME function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_PIN_RETRIEVE_NAME** callback function is implemented by the driver and is called when the name is requested for the specified pin.

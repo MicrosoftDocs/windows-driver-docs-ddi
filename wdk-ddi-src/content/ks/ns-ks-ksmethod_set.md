@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSMETHOD_SET structure"]
 ms.keywords: "*PKSMETHOD_SET, KSMETHOD_SET, KSMETHOD_SET structure [Streaming Media Devices], PKSMETHOD_SET, PKSMETHOD_SET structure pointer [Streaming Media Devices], ks-struct_c3d1123f-8d2a-491b-a748-df8d88c7d9bc.xml, ks/KSMETHOD_SET, ks/PKSMETHOD_SET, stream.ksmethod_set"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSMETHOD_SET
 ---
 
-# KSMETHOD_SET structure
+# KSMETHOD_SET structure (ks.h)
+
+
 
 
 ## -description

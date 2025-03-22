@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SYSTEM_PROCESSOR_INFO structure"]
 ms.keywords: "*PNDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO, NDIS_SYSTEM_PROCESSOR_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_SYSTEM_PROCESSOR_INFO, PNDIS_SYSTEM_PROCESSOR_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SYSTEM_PROCESSOR_INFO, ndis/NDIS_SYSTEM_PROCESSOR_INFO, ndis/PNDIS_SYSTEM_PROCESSOR_INFO, ndis_sysinfo_ref_79dba975-da34-4cc1-b26b-5c18867fa408.xml, netvista.ndis_system_processor_info"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and 6.1. For NDIS 6.20 and later, use NDIS_SYSTEM_PROCESSOR_INFO_EX.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SYSTEM_PROCESSOR_INFO
 ---
 
-# _NDIS_SYSTEM_PROCESSOR_INFO structure
+# NDIS_SYSTEM_PROCESSOR_INFO structure (ndis.h)
+
+
 
 
 ## -description

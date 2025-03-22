@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_OS_FEATURE_DESCRIPTOR_REQUEST structure"]
 ms.keywords: "_URB_OS_FEATURE_DESCRIPTOR_REQUEST, _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure [Buses], buses._urb_os_feature_descriptor_request, usb/_URB_OS_FEATURE_DESCRIPTOR_REQUEST"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows XP and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - _URB_OS_FEATURE_DESCRIPTOR_REQUEST
 ---
 
-# _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure
+# _URB_OS_FEATURE_DESCRIPTOR_REQUEST structure (usb.h)
+
+
 
 
 ## -description

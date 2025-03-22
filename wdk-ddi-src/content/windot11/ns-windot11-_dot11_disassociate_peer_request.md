@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_DISASSOCIATE_PEER_REQUEST structure"]
 ms.keywords: "*PDOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml, PDOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_DISASSOCIATE_PEER_REQUEST, netvista.dot11_disassociate_peer_request, windot11/DOT11_DISASSOCIATE_PEER_REQUEST, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_DISASSOCIATE_PEER_REQUEST
 ---
 
-# _DOT11_DISASSOCIATE_PEER_REQUEST structure
+# DOT11_DISASSOCIATE_PEER_REQUEST structure (windot11.h)
+
+
 
 
 ## -description

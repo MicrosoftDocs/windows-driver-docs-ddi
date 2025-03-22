@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUCAPABILITY structure"]
 ms.keywords: _DXGK_VIRTUALGPUCAPABILITY, DXGK_VIRTUALGPUCAPABILITY, *PDXGK_VIRTUALGPUCAPABILITY,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VIRTUALGPUCAPABILITY structure
+# DXGK_VIRTUALGPUCAPABILITY structure (dispmprt.h)
+
+
 
 
 ## -description

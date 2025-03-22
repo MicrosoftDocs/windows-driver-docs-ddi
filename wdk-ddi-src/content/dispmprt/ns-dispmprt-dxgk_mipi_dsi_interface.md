@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_MIPI_DSI_INTERFACE structure
+# DXGK_MIPI_DSI_INTERFACE structure (dispmprt.h)
+
+
 
 ## -description
 

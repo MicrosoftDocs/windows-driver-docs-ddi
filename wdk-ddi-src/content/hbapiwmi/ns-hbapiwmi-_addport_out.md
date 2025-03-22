@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AddPort_OUT structure"]
 ms.keywords: "*PAddPort_OUT, AddPort_OUT, AddPort_OUT structure [Storage Devices], PAddPort_OUT, PAddPort_OUT structure pointer [Storage Devices], _AddPort_OUT, hbapiwmi/AddPort_OUT, hbapiwmi/PAddPort_OUT, storage.addport_out, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AddPort_OUT
 ---
 
-# _AddPort_OUT structure
+# AddPort_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

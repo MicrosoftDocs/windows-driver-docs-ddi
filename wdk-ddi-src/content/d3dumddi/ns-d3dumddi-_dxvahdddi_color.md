@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_COLOR structure"]
 ms.keywords: DXVA2_Structs_21418f8b-824c-4505-b52a-92437c3ff508.xml, DXVAHDDDI_COLOR, DXVAHDDDI_COLOR union [Display Devices], _DXVAHDDDI_COLOR, d3dumddi/DXVAHDDDI_COLOR, display.dxvahdddi_color
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_COLOR is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_COLOR
 ---
 
-# _DXVAHDDDI_COLOR structure
+# DXVAHDDDI_COLOR structure (d3dumddi.h)
+
+
 
 
 ## -description

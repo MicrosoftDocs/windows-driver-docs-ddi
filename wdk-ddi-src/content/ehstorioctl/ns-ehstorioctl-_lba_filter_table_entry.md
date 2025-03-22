@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["LBA_FILTER_TABLE_ENTRY structure"]
 ms.keywords: "*PLBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY, LBA_FILTER_TABLE_ENTRY structure [Storage Devices], PLBA_FILTER_TABLE_ENTRY, PLBA_FILTER_TABLE_ENTRY structure pointer [Storage Devices], _LBA_FILTER_TABLE_ENTRY, ehstorioctl/LBA_FILTER_TABLE_ENTRY, ehstorioctl/PLBA_FILTER_TABLE_ENTRY, storage.lba_filter_table_entry"
 req.header: ehstorioctl.h
+req.construct-type: structure
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - LBA_FILTER_TABLE_ENTRY
 ---
 
-# _LBA_FILTER_TABLE_ENTRY structure
+# LBA_FILTER_TABLE_ENTRY structure (ehstorioctl.h)
+
+
 
 
 ## -description

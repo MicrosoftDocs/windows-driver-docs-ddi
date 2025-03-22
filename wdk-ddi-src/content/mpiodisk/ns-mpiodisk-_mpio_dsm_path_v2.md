@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MPIO_DSM_Path_V2 structure"]
 ms.keywords: "*PMPIO_DSM_Path_V2, MPIO_DSM_Path_V2, MPIO_DSM_Path_V2 structure [Storage Devices], PMPIO_DSM_Path_V2, PMPIO_DSM_Path_V2 structure pointer [Storage Devices], _MPIO_DSM_Path_V2, mpiodisk/MPIO_DSM_Path_V2, mpiodisk/PMPIO_DSM_Path_V2, storage.mpio_dsm_path_v2, structs-scsibus_e1d340a8-aa6a-4219-8bd4-c11fc3520f5d.xml"
 req.header: mpiodisk.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MPIO_DSM_Path_V2
 ---
 
-# _MPIO_DSM_Path_V2 structure
+# MPIO_DSM_Path_V2 structure (mpiodisk.h)
+
+
 
 
 ## -description

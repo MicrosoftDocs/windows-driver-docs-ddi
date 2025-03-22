@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure"]
 ms.keywords: D3DKMT_DEBUG_SNAPSHOT_ESCAPE, D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure [Display Devices], OpenGL_Structs_c8ece404-4d73-4d77-96c3-b2f5ceb94feb.xml, _D3DKMT_DEBUG_SNAPSHOT_ESCAPE, d3dkmthk/D3DKMT_DEBUG_SNAPSHOT_ESCAPE, display.d3dkmt_debug_snapshot_escape
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DEBUG_SNAPSHOT_ESCAPE
 ---
 
-# _D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure
+# D3DKMT_DEBUG_SNAPSHOT_ESCAPE structure (d3dkmthk.h)
+
+
 
 
 ## -description

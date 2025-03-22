@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_RATE_SET structure"]
 ms.keywords: "*PDOT11_RATE_SET, DOT11_RATE_SET, DOT11_RATE_SET structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b2c617a6-b974-4b67-9f33-2ff5a99b55e9.xml, PDOT11_RATE_SET, PDOT11_RATE_SET structure pointer [Network Drivers Starting with Windows Vista], _DOT11_RATE_SET, netvista.dot11_rate_set, windot11/DOT11_RATE_SET, windot11/PDOT11_RATE_SET"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_RATE_SET
 ---
 
-# _DOT11_RATE_SET structure
+# DOT11_RATE_SET structure (windot11.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 11/30/2021
 keywords: ["BRB_L2CA_OPEN_ENHANCED_CHANNEL structure"]
 ms.keywords: BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_enhanced_channel, bltooth.brb_l2ca_open_enhanced_channel, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
@@ -40,7 +41,9 @@ api_name:
  - _BRB_L2CA_OPEN_ENHANCED_CHANNEL
 ---
 
-# _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure
+# _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure (bthddi.h)
+
+
 
 ## -description
 

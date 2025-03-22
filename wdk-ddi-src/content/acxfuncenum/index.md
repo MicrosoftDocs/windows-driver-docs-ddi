@@ -43,6 +43,8 @@ helpviewer_keywords:
  - acxfuncenum
 ---
 
+# acxfuncenum apiset (acxfuncenum.h)
+
 ## -description
 
 The acxfuncenum.h header is used by an ACX audio class extensions.

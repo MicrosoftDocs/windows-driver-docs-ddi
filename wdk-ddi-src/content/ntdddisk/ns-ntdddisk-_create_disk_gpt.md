@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CREATE_DISK_GPT structure"]
 ms.keywords: "*PCREATE_DISK_GPT, CREATE_DISK_GPT, CREATE_DISK_GPT structure [Storage Devices], PCREATE_DISK_GPT, PCREATE_DISK_GPT structure pointer [Storage Devices], _CREATE_DISK_GPT, ntdddisk/CREATE_DISK_GPT, ntdddisk/PCREATE_DISK_GPT, storage.create_disk_gpt, structs-disk_c5c62f65-c252-482b-bbf7-1bb021920649.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CREATE_DISK_GPT
 ---
 
-# _CREATE_DISK_GPT structure
+# CREATE_DISK_GPT structure (ntdddisk.h)
+
+
 
 
 ## -description

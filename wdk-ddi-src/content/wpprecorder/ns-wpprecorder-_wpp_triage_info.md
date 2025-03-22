@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["WPP_TRIAGE_INFO structure"]
 ms.keywords: "*PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO, PWPP_TRIAGE_INFO structure pointer [Driver Development Tools], WPP_TRIAGE_INFO, WPP_TRIAGE_INFO structure [Driver Development Tools], _WPP_TRIAGE_INFO, devtest.wpp_triage_info, wpprecorder/PWPP_TRIAGE_INFO, wpprecorder/WPP_TRIAGE_INFO"
 req.header: wpprecorder.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WPP_TRIAGE_INFO
 ---
 
-# _WPP_TRIAGE_INFO structure
+# WPP_TRIAGE_INFO structure (wpprecorder.h)
+
+
 
 
 ## -description

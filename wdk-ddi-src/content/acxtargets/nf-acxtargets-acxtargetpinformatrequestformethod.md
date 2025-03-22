@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetPinFormatRequestForMethod function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetPinFormatRequestForMethod** function function formats a WDFREQUEST as an ACX method request to be used on specified pin target.

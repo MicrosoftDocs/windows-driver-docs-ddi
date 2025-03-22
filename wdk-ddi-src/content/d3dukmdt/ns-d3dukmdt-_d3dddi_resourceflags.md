@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_RESOURCEFLAGS structure"]
 ms.keywords: D3DDDI_RESOURCEFLAGS, D3DDDI_RESOURCEFLAGS structure [Display Devices], D3D_other_Structs_f00f4222-1c56-4b96-abe4-bf05088b7aa4.xml, _D3DDDI_RESOURCEFLAGS, d3dukmdt/D3DDDI_RESOURCEFLAGS, display.d3dddi_resourceflags
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_RESOURCEFLAGS
 ---
 
-# _D3DDDI_RESOURCEFLAGS structure
+# D3DDDI_RESOURCEFLAGS structure (d3dukmdt.h)
+
+
 
 
 ## -description

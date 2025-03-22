@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BIDI_RESPONSE_CONTAINER structure"]
 ms.keywords: "*LPBIDI_RESPONSE_CONTAINER, *PBIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER, BIDI_RESPONSE_CONTAINER structure [Print Devices], LPBIDI_RESPONSE_CONTAINER, LPBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], PBIDI_RESPONSE_CONTAINER, PBIDI_RESPONSE_CONTAINER structure pointer [Print Devices], _BIDI_RESPONSE_CONTAINER, print.bidi_response_container, spoolfnc_79e5354d-1fc1-4156-8be9-028ebcd14b16.xml, winspool/BIDI_RESPONSE_CONTAINER, winspool/LPBIDI_RESPONSE_CONTAINER, winspool/PBIDI_RESPONSE_CONTAINER"
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available in Windows XP and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - BIDI_RESPONSE_CONTAINER
 ---
 
-# _BIDI_RESPONSE_CONTAINER structure
+# BIDI_RESPONSE_CONTAINER structure (winspool.h)
+
+
 
 
 ## -description

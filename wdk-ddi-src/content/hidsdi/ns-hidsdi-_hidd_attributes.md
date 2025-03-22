@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HIDD_ATTRIBUTES structure"]
 ms.keywords: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES, HIDD_ATTRIBUTES structure [Human Input Devices], PHIDD_ATTRIBUTES, PHIDD_ATTRIBUTES structure pointer [Human Input Devices], _HIDD_ATTRIBUTES, hid.hidd_attributes, hidsdi/HIDD_ATTRIBUTES, hidsdi/PHIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml"
 req.header: hidsdi.h
+req.construct-type: structure
 req.include-header: Hidsdi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HIDD_ATTRIBUTES
 ---
 
-# _HIDD_ATTRIBUTES structure
+# HIDD_ATTRIBUTES structure (hidsdi.h)
+
+
 
 
 ## -description

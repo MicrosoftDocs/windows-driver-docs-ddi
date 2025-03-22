@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSGRAPHMANAGER_FUNCTIONTABLE structure"]
 ms.keywords: KSGRAPHMANAGER_FUNCTIONTABLE, KSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], PKSGRAPHMANAGER_FUNCTIONTABLE, PKSGRAPHMANAGER_FUNCTIONTABLE structure [Streaming Media Devices], ks/KSGRAPHMANAGER_FUNCTIONTABLE, ks/PKSGRAPHMANAGER_FUNCTIONTABLE, stream.ksgraphmanager_functiontable
 req.header: ks.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSGRAPHMANAGER_FUNCTIONTABLE
 ---
 
-# KSGRAPHMANAGER_FUNCTIONTABLE structure
+# KSGRAPHMANAGER_FUNCTIONTABLE structure (ks.h)
+
+
 
 
 ## -description

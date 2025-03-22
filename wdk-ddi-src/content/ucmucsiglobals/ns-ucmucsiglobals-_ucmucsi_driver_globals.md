@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UCMUCSI_DRIVER_GLOBALS structure"]
 ms.keywords: _UCMUCSI_DRIVER_GLOBALS, UCMUCSI_DRIVER_GLOBALS, *PUCMUCSI_DRIVER_GLOBALS,
 req.header: ucmucsiglobals.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCMUCSI_DRIVER_GLOBALS
 ---
 
-# _UCMUCSI_DRIVER_GLOBALS structure
+# UCMUCSI_DRIVER_GLOBALS structure (ucmucsiglobals.h)
+
+
 
 
 ## -description

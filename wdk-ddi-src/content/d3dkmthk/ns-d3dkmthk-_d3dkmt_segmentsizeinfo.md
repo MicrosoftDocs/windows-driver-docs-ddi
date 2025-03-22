@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_SEGMENTSIZEINFO structure"]
 ms.keywords: D3DKMT_SEGMENTSIZEINFO, D3DKMT_SEGMENTSIZEINFO structure [Display Devices], OpenGL_Structs_bdb19184-37f0-4341-b8bb-41011f6cb6b3.xml, _D3DKMT_SEGMENTSIZEINFO, d3dkmthk/D3DKMT_SEGMENTSIZEINFO, display.d3dkmt_segmentsizeinfo
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_SEGMENTSIZEINFO
 ---
 
-# _D3DKMT_SEGMENTSIZEINFO structure
+# D3DKMT_SEGMENTSIZEINFO structure (d3dkmthk.h)
+
+
 
 
 ## -description

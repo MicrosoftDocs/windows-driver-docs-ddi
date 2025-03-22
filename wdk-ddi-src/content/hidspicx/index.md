@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# hidspicx apiset (hidspicx.h)
+
 ## -description
 
 This header is used by hid. For more information, see:

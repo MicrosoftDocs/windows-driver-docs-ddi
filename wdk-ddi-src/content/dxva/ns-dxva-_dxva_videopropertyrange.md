@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_VideoPropertyRange structure"]
 ms.keywords: "*LPDXVA_VideoPropertyRange, DXVA_VideoPropertyRange, DXVA_VideoPropertyRange structure [Display Devices], LPDXVA_VideoPropertyRange, LPDXVA_VideoPropertyRange structure pointer [Display Devices], _DXVA_VideoPropertyRange, display.dxva_videopropertyrange, dxva/DXVA_VideoPropertyRange, dxva/LPDXVA_VideoPropertyRange, dxvaref_0e7bc2aa-0404-4025-908a-5d4c528e020b.xml"
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: DirectX 9.0 and later versions only.
@@ -46,7 +47,9 @@ api_name:
  - DXVA_VideoPropertyRange
 ---
 
-# _DXVA_VideoPropertyRange structure
+# DXVA_VideoPropertyRange structure (dxva.h)
+
+
 
 
 ## -description

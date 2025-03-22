@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["PRINTER_NOTIFY_INIT structure"]
 ms.keywords: "*LPPRINTER_NOTIFY_INIT, *PPRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT, LPPRINTER_NOTIFY_INIT structure pointer [Print Devices], PPRINTER_NOTIFY_INIT, PPRINTER_NOTIFY_INIT structure pointer [Print Devices], PRINTER_NOTIFY_INIT, PRINTER_NOTIFY_INIT structure [Print Devices], _PRINTER_NOTIFY_INIT, print.printer_notify_init, winsplp/LPPRINTER_NOTIFY_INIT, winsplp/PPRINTER_NOTIFY_INIT, winsplp/PRINTER_NOTIFY_INIT"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PRINTER_NOTIFY_INIT
 ---
 
-# _PRINTER_NOTIFY_INIT structure
+# PRINTER_NOTIFY_INIT structure (winsplp.h)
+
+
 
 
 ## -description

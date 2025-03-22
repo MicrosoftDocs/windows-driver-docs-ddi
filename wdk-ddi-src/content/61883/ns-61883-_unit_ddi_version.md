@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["UNIT_DDI_VERSION structure"]
 ms.keywords: "*PUNIT_DDI_VERSION, 61883/PUNIT_DDI_VERSION, 61883/UNIT_DDI_VERSION, 61883_structures_dacbe4af-54fd-4b96-89e2-6954a623e75d.xml, IEEE.unit_ddi_version, PUNIT_DDI_VERSION, PUNIT_DDI_VERSION structure pointer [Buses], UNIT_DDI_VERSION, UNIT_DDI_VERSION structure [Buses], _UNIT_DDI_VERSION"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UNIT_DDI_VERSION
 ---
 
-# _UNIT_DDI_VERSION structure
+# UNIT_DDI_VERSION structure (61883.h)
+
+
 
 
 ## -description

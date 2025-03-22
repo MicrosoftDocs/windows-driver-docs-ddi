@@ -4,6 +4,7 @@ title: D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY (d3dkmthk.h)
 description: Learn more about the D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
@@ -40,7 +41,9 @@ api_name:
  - D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY
 ---
 
-# D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure
+# D3DKMT_QUERY_PHYSICAL_ADAPTER_PNP_KEY structure (d3dkmthk.h)
+
+
 
 ## -description
 

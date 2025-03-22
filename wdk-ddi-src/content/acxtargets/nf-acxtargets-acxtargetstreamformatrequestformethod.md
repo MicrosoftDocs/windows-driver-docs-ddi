@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamFormatRequestForMethod function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamFormatRequestForMethod** formats a WDFREQUEST as an ACX method request to be used on specified stream target.

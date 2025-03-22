@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["PRINTER_EVENT_ATTRIBUTES_INFO structure"]
 ms.keywords: "*PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO, PPRINTER_EVENT_ATTRIBUTES_INFO structure pointer [Print Devices], PRINTER_EVENT_ATTRIBUTES_INFO, PRINTER_EVENT_ATTRIBUTES_INFO structure [Print Devices], _PRINTER_EVENT_ATTRIBUTES_INFO, print.printer_event_attributes_info, print_interface-graphics_a4fa57f7-bd03-4c38-9c0f-026da9d3535e.xml, winddiui/PPRINTER_EVENT_ATTRIBUTES_INFO, winddiui/PRINTER_EVENT_ATTRIBUTES_INFO"
 req.header: winddiui.h
+req.construct-type: structure
 req.include-header: Winddiui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PRINTER_EVENT_ATTRIBUTES_INFO
 ---
 
-# _PRINTER_EVENT_ATTRIBUTES_INFO structure
+# PRINTER_EVENT_ATTRIBUTES_INFO structure (winddiui.h)
+
+
 
 
 ## -description

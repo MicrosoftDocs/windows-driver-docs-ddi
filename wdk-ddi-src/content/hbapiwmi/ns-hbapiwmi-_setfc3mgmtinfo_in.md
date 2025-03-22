@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetFC3MgmtInfo_IN structure"]
 ms.keywords: "*PSetFC3MgmtInfo_IN, PSetFC3MgmtInfo_IN, PSetFC3MgmtInfo_IN structure pointer [Storage Devices], SetFC3MgmtInfo_IN, SetFC3MgmtInfo_IN structure [Storage Devices], _SetFC3MgmtInfo_IN, hbapiwmi/PSetFC3MgmtInfo_IN, hbapiwmi/SetFC3MgmtInfo_IN, storage.setfc3mgmtinfo_in, structs-Fibre_d4b69005-dc94-411f-810a-6767699e0b11.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetFC3MgmtInfo_IN
 ---
 
-# _SetFC3MgmtInfo_IN structure
+# SetFC3MgmtInfo_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

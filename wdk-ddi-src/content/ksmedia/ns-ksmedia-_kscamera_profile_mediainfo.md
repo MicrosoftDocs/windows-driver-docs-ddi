@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_PROFILE_MEDIAINFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_MEDIAINFO, ksmedia/KSCAMERA_PROFILE_MEDIAINFO, ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, stream.kscamera_profile_mediainfo"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_PROFILE_MEDIAINFO
 ---
 
-# _KSCAMERA_PROFILE_MEDIAINFO structure
+# KSCAMERA_PROFILE_MEDIAINFO structure (ksmedia.h)
+
+
 
 
 ## -description

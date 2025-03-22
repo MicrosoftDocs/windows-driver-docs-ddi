@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_ACL_ENTER_ACTIVE_MODE structure"]
 ms.keywords: "_BRB_ACL_ENTER_ACTIVE_MODE, _BRB_ACL_ENTER_ACTIVE_MODE structure [Bluetooth Devices], bltooth._brb_acl_enter_active_mode, bth_structs_1cb3c3f5-063a-4213-98b0-5a2c667f5e40.xml, bthddi/_BRB_ACL_ENTER_ACTIVE_MODE"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_ACL_ENTER_ACTIVE_MODE
 ---
 
-# _BRB_ACL_ENTER_ACTIVE_MODE structure
+# _BRB_ACL_ENTER_ACTIVE_MODE structure (bthddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGKARG_SETVIRTUALGPURESOURCES structure"]
 ms.keywords: _DXGKARG_SETVIRTUALGPURESOURCES, DXGKARG_SETVIRTUALGPURESOURCES, *PDXGKARG_SETVIRTUALGPURESOURCES,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETVIRTUALGPURESOURCES structure
+# DXGKARG_SETVIRTUALGPURESOURCES structure (dispmprt.h)
+
+
 
 
 ## -description

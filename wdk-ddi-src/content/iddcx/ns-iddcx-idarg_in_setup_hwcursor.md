@@ -8,6 +8,7 @@ ms.date: 08/05/2022
 keywords: ["IDARG_IN_SETUP_HWCURSOR structure"]
 ms.keywords: IDARG_IN_SETUP_HWCURSOR, IDARG_IN_SETUP_HWCURSOR structure [Display Devices], display.idarg_in_setup_hwcursor, iddcx/IDARG_IN_SETUP_HWCURSOR
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_SETUP_HWCURSOR
 ---
 
-# IDARG_IN_SETUP_HWCURSOR structure
+# IDARG_IN_SETUP_HWCURSOR structure (iddcx.h)
+
+
 
 ## -description
 

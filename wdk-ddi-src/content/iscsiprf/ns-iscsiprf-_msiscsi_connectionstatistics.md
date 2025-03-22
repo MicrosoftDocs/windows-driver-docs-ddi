@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_ConnectionStatistics structure"]
 ms.keywords: "*PMSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], _MSiSCSI_ConnectionStatistics, iscsiprf/MSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml"
 req.header: iscsiprf.h
+req.construct-type: structure
 req.include-header: Iscsiprf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_ConnectionStatistics
 ---
 
-# _MSiSCSI_ConnectionStatistics structure
+# MSiSCSI_ConnectionStatistics structure (iscsiprf.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["AVC_PIN_DESCRIPTOR structure"]
 ms.keywords: "*PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], PAVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], _AVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, stream.avc_pin_descriptor"
 req.header: avc.h
+req.construct-type: structure
 req.include-header: Avc.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AVC_PIN_DESCRIPTOR
 ---
 
-# _AVC_PIN_DESCRIPTOR structure
+# AVC_PIN_DESCRIPTOR structure (avc.h)
+
+
 
 
 ## -description

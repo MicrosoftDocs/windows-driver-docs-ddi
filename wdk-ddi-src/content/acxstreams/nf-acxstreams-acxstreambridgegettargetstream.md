@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamBridgeGetTargetStream function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamBridgeGetTargetStream** function gets the ACXTARGETSTREAM object associated with the input ACXSTREAM object on the specified ACXSTREAMBRIDGE object. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

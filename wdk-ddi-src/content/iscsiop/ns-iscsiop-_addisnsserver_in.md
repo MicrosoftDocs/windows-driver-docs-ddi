@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AddiSNSServer_IN structure"]
 ms.keywords: "*PAddiSNSServer_IN, AddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], PAddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], _AddiSNSServer_IN, iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, storage.addisnsserver_in, structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AddiSNSServer_IN
 ---
 
-# _AddiSNSServer_IN structure
+# AddiSNSServer_IN structure (iscsiop.h)
+
+
 
 
 ## -description

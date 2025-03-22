@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitResumeIoActual function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitResumeIoActual** function is used to resume circuit I/O after it has been stopped.

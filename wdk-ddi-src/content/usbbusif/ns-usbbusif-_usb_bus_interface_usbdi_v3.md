@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_BUS_INTERFACE_USBDI_V3 structure"]
 ms.keywords: "*PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3, PUSB_BUS_INTERFACE_USBDI_V3 structure pointer [Buses], USB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3 structure [Buses], _USB_BUS_INTERFACE_USBDI_V3, buses.usb_bus_interface_usbdi_v3, usbbusif/PUSB_BUS_INTERFACE_USBDI_V3, usbbusif/USB_BUS_INTERFACE_USBDI_V3"
 req.header: usbbusif.h
+req.construct-type: structure
 req.include-header: Usbbusif.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - USB_BUS_INTERFACE_USBDI_V3
 ---
 
-# _USB_BUS_INTERFACE_USBDI_V3 structure
+# USB_BUS_INTERFACE_USBDI_V3 structure (usbbusif.h)
+
+
 
 
 ## -description

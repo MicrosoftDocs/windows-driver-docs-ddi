@@ -7,6 +7,7 @@ ms.date: 06/06/2022
 keywords: ["DEVICE_RESET_INTERFACE_STANDARD structure"]
 ms.keywords: "*PDEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD, DEVICE_RESET_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], PDEVICE_RESET_INTERFACE_STANDARD, PDEVICE_RESET_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], _DEVICE_RESET_INTERFACE_STANDARD, kernel.device_reset_interface_standard, wdm/DEVICE_RESET_INTERFACE_STANDARD, wdm/PDEVICE_RESET_INTERFACE_STANDARD"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -45,7 +46,9 @@ api_name:
  - DEVICE_RESET_INTERFACE_STANDARD
 ---
 
-# _DEVICE_RESET_INTERFACE_STANDARD structure
+# DEVICE_RESET_INTERFACE_STANDARD structure (wdm.h)
+
+
 
 ## -description
 

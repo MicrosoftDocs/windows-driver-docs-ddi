@@ -8,6 +8,7 @@ ms.date: 08/03/2021
 keywords: ["KSDS3D_ITD_PARAMS structure"]
 ms.keywords: "*PKSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS, KSDS3D_ITD_PARAMS structure [Audio Devices], PKSDS3D_ITD_PARAMS, PKSDS3D_ITD_PARAMS structure pointer [Audio Devices], aud-prop_169748c9-f538-47d2-ae3c-ae34cca26f00.xml, audio.ksds3d_itd_params, ksmedia/KSDS3D_ITD_PARAMS, ksmedia/PKSDS3D_ITD_PARAMS"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDS3D_ITD_PARAMS
 ---
 
-# KSDS3D_ITD_PARAMS structure
+# KSDS3D_ITD_PARAMS structure (ksmedia.h)
+
+
 
 
 ## -description

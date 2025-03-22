@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["SPB_CONTROLLER_CONFIG structure"]
 ms.keywords: "*PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG structure pointer [Buses], SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG structure [Buses], _SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG, spbcx/SPB_CONTROLLER_CONFIG"
 req.header: spbcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SPB_CONTROLLER_CONFIG
 ---
 
-# _SPB_CONTROLLER_CONFIG structure
+# SPB_CONTROLLER_CONFIG structure (spbcx.h)
+
+
 
 ## -description
 

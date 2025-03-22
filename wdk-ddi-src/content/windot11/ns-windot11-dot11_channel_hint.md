@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_CHANNEL_HINT structure"]
 ms.keywords: "*PDOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT, DOT11_CHANNEL_HINT structure [Network Drivers Starting with Windows Vista], PDOT11_CHANNEL_HINT, PDOT11_CHANNEL_HINT structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_channel_hint, windot11/DOT11_CHANNEL_HINT, windot11/PDOT11_CHANNEL_HINT"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -43,7 +44,9 @@ api_name:
  - PDOT11_CHANNEL_HINT
 ---
 
-# DOT11_CHANNEL_HINT structure
+# DOT11_CHANNEL_HINT structure (windot11.h)
+
+
 
 
 ## -description

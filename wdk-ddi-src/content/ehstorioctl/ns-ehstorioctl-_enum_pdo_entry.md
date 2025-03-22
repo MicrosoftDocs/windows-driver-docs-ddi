@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ENUM_PDO_ENTRY structure"]
 ms.keywords: "*PENUM_PDO_ENTRY, ENUM_PDO_ENTRY, ENUM_PDO_ENTRY structure [Storage Devices], PENUM_PDO_ENTRY, PENUM_PDO_ENTRY structure pointer [Storage Devices], _ENUM_PDO_ENTRY, ehstorioctl/ENUM_PDO_ENTRY, ehstorioctl/PENUM_PDO_ENTRY, storage.enum_pdo_entry, structs-silo_8303b6a6-8f4f-4f0c-91ce-9d70ea72f4f2.xml"
 req.header: ehstorioctl.h
+req.construct-type: structure
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ENUM_PDO_ENTRY
 ---
 
-# _ENUM_PDO_ENTRY structure
+# ENUM_PDO_ENTRY structure (ehstorioctl.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/18/2024
 keywords: ["NET_PACKET_RSC structure"]
 ms.keywords: NET_PACKET_RSC, NET_PACKET_RSC,
 req.header: rsctypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_PACKET_RSC
 ---
 
-# NET_PACKET_RSC structure
+# NET_PACKET_RSC structure (rsctypes.h)
+
+
 
 
 ## -description

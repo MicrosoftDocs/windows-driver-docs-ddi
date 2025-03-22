@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UFX_ENDPOINT_CALLBACKS structure"]
 ms.keywords: "*PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], UFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], _UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, ufxclient/PUFX_ENDPOINT_CALLBACKS, ufxclient/UFX_ENDPOINT_CALLBACKS"
 req.header: ufxclient.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UFX_ENDPOINT_CALLBACKS
 ---
 
-# _UFX_ENDPOINT_CALLBACKS structure
+# UFX_ENDPOINT_CALLBACKS structure (ufxclient.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MSR_DATA_RECEIVED structure"]
 ms.keywords: "*PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, PMSR_DATA_RECEIVED, PMSR_DATA_RECEIVED structure pointer, _MSR_DATA_RECEIVED, pointofservicedriverinterface/MSR_DATA_RECEIVED, pointofservicedriverinterface/PMSR_DATA_RECEIVED, pos.msr_data_received"
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSR_DATA_RECEIVED
 ---
 
-# _MSR_DATA_RECEIVED structure
+# MSR_DATA_RECEIVED structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

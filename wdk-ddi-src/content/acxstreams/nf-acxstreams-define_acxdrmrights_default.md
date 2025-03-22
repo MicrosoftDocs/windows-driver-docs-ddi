@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# DEFINE_ACXDRMRIGHTS_DEFAULT function (acxstreams.h)
+
 ## -description
 
 This macro provides the following default for DRM rights

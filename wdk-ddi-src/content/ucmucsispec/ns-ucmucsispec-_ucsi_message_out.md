@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_MESSAGE_OUT structure"]
 ms.keywords: _UCSI_MESSAGE_OUT, UCSI_MESSAGE_OUT, *PUCSI_MESSAGE_OUT,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_MESSAGE_OUT
 ---
 
-# _UCSI_MESSAGE_OUT structure
+# UCSI_MESSAGE_OUT structure (ucmucsispec.h)
+
+
 
 
 ## -description

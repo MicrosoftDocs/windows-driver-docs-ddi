@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_EXTENDEDFORMAT structure"]
 ms.keywords: DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], _DXVADDI_EXTENDEDFORMAT, d3dumddi/DXVADDI_EXTENDEDFORMAT, display.dxvaddi_extendedformat
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_EXTENDEDFORMAT
 ---
 
-# _DXVADDI_EXTENDEDFORMAT structure
+# DXVADDI_EXTENDEDFORMAT structure (d3dumddi.h)
+
+
 
 
 ## -description

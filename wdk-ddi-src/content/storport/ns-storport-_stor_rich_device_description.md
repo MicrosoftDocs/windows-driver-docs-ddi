@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["STOR_RICH_DEVICE_DESCRIPTION structure"]
 ms.keywords: "*PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, storport/PSTOR_RICH_DEVICE_DESCRIPTION, storport/STOR_RICH_DEVICE_DESCRIPTION"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -46,7 +47,9 @@ api_name:
  - STOR_RICH_DEVICE_DESCRIPTION
 ---
 
-# STOR_RICH_DEVICE_DESCRIPTION structure
+# STOR_RICH_DEVICE_DESCRIPTION structure (storport.h)
+
+
 
 ## -description
 

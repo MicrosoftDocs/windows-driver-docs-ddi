@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_DEVICEFUNCS structure"]
 ms.keywords: D3DDDI_DEVICEFUNCS, D3DDDI_DEVICEFUNCS structure [Display Devices], D3D_other_Structs_108deb18-33e2-4a62-9d10-777352fbdd27.xml, _D3DDDI_DEVICEFUNCS, d3dumddi/D3DDDI_DEVICEFUNCS, display.d3dddi_devicefuncs
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_DEVICEFUNCS
 ---
 
-# _D3DDDI_DEVICEFUNCS structure
+# D3DDDI_DEVICEFUNCS structure (d3dumddi.h)
+
+
 
 
 ## -description

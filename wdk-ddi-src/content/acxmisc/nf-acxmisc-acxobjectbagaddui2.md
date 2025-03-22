@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddUI2 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddUI2 function adds an unsigned int two byte I2 (USHORT) value to an existing, initialized AcxObjectBag.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddUnicodeString function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddUnicodeString function adds a unicode string to and existing, initialized AcxObjectBag.

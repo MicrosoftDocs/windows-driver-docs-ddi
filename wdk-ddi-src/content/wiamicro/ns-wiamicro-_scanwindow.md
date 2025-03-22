@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SCANWINDOW structure"]
 ms.keywords: "*PSCANWINDOW, MicroDrv_b89f7f9d-a1e6-4a61-83e3-659c6f3a9d13.xml, PSCANWINDOW, PSCANWINDOW structure pointer [Imaging Devices], SCANWINDOW, SCANWINDOW structure [Imaging Devices], _SCANWINDOW, image.scanwindow, wiamicro/PSCANWINDOW, wiamicro/SCANWINDOW"
 req.header: wiamicro.h
+req.construct-type: structure
 req.include-header: Wiamicro.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCANWINDOW
 ---
 
-# _SCANWINDOW structure
+# SCANWINDOW structure (wiamicro.h)
+
+
 
 
 ## -description

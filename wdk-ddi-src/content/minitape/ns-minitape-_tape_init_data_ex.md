@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TAPE_INIT_DATA_EX structure"]
 ms.keywords: "*PTAPE_INIT_DATA_EX, PTAPE_INIT_DATA_EX, PTAPE_INIT_DATA_EX structure pointer [Storage Devices], TAPE_INIT_DATA_EX, TAPE_INIT_DATA_EX structure [Storage Devices], _TAPE_INIT_DATA_EX, minitape/PTAPE_INIT_DATA_EX, minitape/TAPE_INIT_DATA_EX, storage.tape_init_data_ex, structs-tape_69291d6d-0f9e-4b6b-bb66-c40757bb5c69.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TAPE_INIT_DATA_EX
 ---
 
-# TAPE_INIT_DATA_EX structure
+# TAPE_INIT_DATA_EX structure (minitape.h)
+
+
 
 ## -description
 

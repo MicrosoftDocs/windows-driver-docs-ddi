@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_SURFACEINFO structure"]
 ms.keywords: D3DDDI_SURFACEINFO, D3DDDI_SURFACEINFO structure [Display Devices], D3D_other_Structs_03e742b5-062c-46d3-bedf-25aee3582dfc.xml, _D3DDDI_SURFACEINFO, d3dukmdt/D3DDDI_SURFACEINFO, display.d3dddi_surfaceinfo
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_SURFACEINFO
 ---
 
-# _D3DDDI_SURFACEINFO structure
+# D3DDDI_SURFACEINFO structure (d3dukmdt.h)
+
+
 
 
 ## -description

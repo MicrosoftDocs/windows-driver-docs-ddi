@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_POWER_MGMT_MODE_STATUS_INFO structure"]
 ms.keywords: "*PDOT11_POWER_MGMT_MODE_STATUSINFO, DOT11_POWER_MGMT_MODE_STATUS_INFO, DOT11_POWER_MGMT_MODE_STATUS_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_POWER_MGMT_MODE_STATUS_INFO, PDOT11_POWER_MGMT_MODE_STATUS_INFO structure pointer [Network Drivers Starting with Windows Vista], _DOT11_POWER_MGMT_MODE_STATUS_INFO, netvista.dot11_power_mgmt_mode_status_info, windot11/DOT11_POWER_MGMT_MODE_STATUS_INFO, windot11/PDOT11_POWER_MGMT_MODE_STATUS_INFO"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DOT11_POWER_MGMT_MODE_STATUS_INFO
 ---
 
-# _DOT11_POWER_MGMT_MODE_STATUS_INFO structure
+# DOT11_POWER_MGMT_MODE_STATUS_INFO structure (windot11.h)
+
+
 
 
 ## -description

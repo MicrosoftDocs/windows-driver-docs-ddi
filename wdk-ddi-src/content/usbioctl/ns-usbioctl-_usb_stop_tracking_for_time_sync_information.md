@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure"]
 ms.keywords: "*PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure pointer [Buses], USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure [Buses], _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, buses.usb_stop_tracking_for_time_sync_information, usbioctl/PUSB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION, usbioctl/USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION
 ---
 
-# _USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure
+# USB_STOP_TRACKING_FOR_TIME_SYNC_INFORMATION structure (usbioctl.h)
+
+
 
 
 ## -description

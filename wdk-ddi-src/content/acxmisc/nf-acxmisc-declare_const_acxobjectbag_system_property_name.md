@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME function (acxmisc.h)
+
 ## -description
 
 The DECLARE_CONST_ACXOBJECTBAG_SYSTEM_PROPERTY_NAME function declares an ACX object bag property name. System defined properties start with `sys_`.

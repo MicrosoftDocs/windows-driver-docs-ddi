@@ -7,6 +7,7 @@ ms.date: 10/22/2019
 keywords: ["NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure"]
 ms.keywords: NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES, NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES,
 req.header: netadapter.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES
 ---
 
-# NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure
+# NET_ADAPTER_POWER_OFFLOAD_NS_CAPABILITIES structure (netadapter.h)
+
+
 
 
 ## -description

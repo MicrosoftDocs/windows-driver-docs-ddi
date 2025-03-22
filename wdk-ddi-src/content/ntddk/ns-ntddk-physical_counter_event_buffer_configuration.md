@@ -7,6 +7,7 @@ ms.date: 01/23/2019
 keywords: ["PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION structure"]
 ms.keywords: PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION, PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION, *PPHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION
 ---
 
-# PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION structure
+# PHYSICAL_COUNTER_EVENT_BUFFER_CONFIGURATION structure (ntddk.h)
+
+
 
 
 ## -description

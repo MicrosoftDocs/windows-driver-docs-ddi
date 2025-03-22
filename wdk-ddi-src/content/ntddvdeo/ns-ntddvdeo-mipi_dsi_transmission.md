@@ -10,6 +10,7 @@ f1_keywords:
  - "MIPI_DSI_TRANSMISSION"
 ms.keywords: MIPI_DSI_TRANSMISSION, MIPI_DSI_TRANSMISSION, *PMIPI_DSI_TRANSMISSION_OUTPUT, MIPI_DSI_TRANSMISSION_INPUT, *PMIPI_DSI_TRANSMISSION_INPUT, MIPI_DSI_TRANSMISSION_OUTPUT
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
 ms.custom: 19H1
 ---
 
-# MIPI_DSI_TRANSMISSION structure
+# MIPI_DSI_TRANSMISSION structure (ntddvdeo.h)
+
+
 
 ## -description
 

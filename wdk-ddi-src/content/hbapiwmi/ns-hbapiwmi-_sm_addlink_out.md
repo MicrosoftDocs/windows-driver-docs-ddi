@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_AddLink_OUT structure"]
 ms.keywords: "*PSM_AddLink_OUT, PSM_AddLink_OUT, PSM_AddLink_OUT structure pointer [Storage Devices], SM_AddLink_OUT, SM_AddLink_OUT structure [Storage Devices], _SM_AddLink_OUT, hbapiwmi/PSM_AddLink_OUT, hbapiwmi/SM_AddLink_OUT, storage.sm_addlink_out, structs-Fibre_a02f38fd-ea37-42cb-9c3d-387ffb097893.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_AddLink_OUT
 ---
 
-# _SM_AddLink_OUT structure
+# SM_AddLink_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

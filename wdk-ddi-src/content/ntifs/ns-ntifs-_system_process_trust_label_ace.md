@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SYSTEM_PROCESS_TRUST_LABEL_ACE structure"]
 ms.keywords: "*PSYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE, SYSTEM_PROCESS_TRUST_LABEL_ACE structure [Installable File System Drivers], _SYSTEM_PROCESS_TRUST_LABEL_ACE, ifsk.system_process_trust_label_ace, ntifs/SYSTEM_PROCESS_TRUST_LABEL_ACE"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYSTEM_PROCESS_TRUST_LABEL_ACE
 ---
 
-# _SYSTEM_PROCESS_TRUST_LABEL_ACE structure
+# SYSTEM_PROCESS_TRUST_LABEL_ACE structure (ntifs.h)
+
+
 
 
 ## -description

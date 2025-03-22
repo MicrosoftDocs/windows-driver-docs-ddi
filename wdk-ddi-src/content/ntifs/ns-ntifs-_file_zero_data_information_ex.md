@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_ZERO_DATA_INFORMATION_EX structure"]
 ms.keywords: "*PFILE_ZERO_DATA_INFORMATION_EX, FILE_ZERO_DATA_INFORMATION_EX, FILE_ZERO_DATA_INFORMATION_EX structure [Installable File System Drivers], PFILE_ZERO_DATA_INFORMATION_EX, PFILE_ZERO_DATA_INFORMATION_EX structure pointer [Installable File System Drivers], _FILE_ZERO_DATA_INFORMATION_EX, ifsk.file_zero_data_information_ex, ntifs/FILE_ZERO_DATA_INFORMATION_EX, ntifs/PFILE_ZERO_DATA_INFORMATION_EX"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - FILE_ZERO_DATA_INFORMATION_EX
 ---
 
-# _FILE_ZERO_DATA_INFORMATION_EX structure
+# FILE_ZERO_DATA_INFORMATION_EX structure (ntifs.h)
+
+
 
 
 ## -description

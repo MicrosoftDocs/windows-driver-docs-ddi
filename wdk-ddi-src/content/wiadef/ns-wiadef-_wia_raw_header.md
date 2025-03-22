@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["WIA_RAW_HEADER structure"]
 ms.keywords: _WIA_RAW_HEADER, WIA_RAW_HEADER, *PWIA_RAW_HEADER,
 req.header: wiadef.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WIA_RAW_HEADER
 ---
 
-# _WIA_RAW_HEADER structure
+# WIA_RAW_HEADER structure (wiadef.h)
+
+
 
 
 ## -description

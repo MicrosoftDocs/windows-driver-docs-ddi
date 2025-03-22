@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUDRIVERESCAPE structure"]
 ms.keywords: _DXGK_VIRTUALGPUDRIVERESCAPE, DXGK_VIRTUALGPUDRIVERESCAPE, *PDXGK_VIRTUALGPUDRIVERESCAPE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VIRTUALGPUDRIVERESCAPE structure
+# DXGK_VIRTUALGPUDRIVERESCAPE structure (dispmprt.h)
+
+
 
 
 ## -description

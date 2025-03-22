@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["FILE_ID_FULL_DIR_INFORMATION structure"]
 ms.keywords: "*PFILE_ID_FULL_DIR_INFORMATION, FILE_ID_FULL_DIR_INFORMATION, FILE_ID_FULL_DIR_INFORMATION structure [Installable File System Drivers], PFILE_ID_FULL_DIR_INFORMATION, PFILE_ID_FULL_DIR_INFORMATION structure pointer [Installable File System Drivers], _FILE_ID_FULL_DIR_INFORMATION, fileinformationstructures_f12568df-3a02-4ae5-8989-b999a498300f.xml, ifsk.file_id_full_dir_information, ntifs/FILE_ID_FULL_DIR_INFORMATION, ntifs/PFILE_ID_FULL_DIR_INFORMATION"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_ID_FULL_DIR_INFORMATION
 ---
 
-# FILE_ID_FULL_DIR_INFORMATION structure
+# FILE_ID_FULL_DIR_INFORMATION structure (ntifs.h)
+
+
 
 ## -description
 

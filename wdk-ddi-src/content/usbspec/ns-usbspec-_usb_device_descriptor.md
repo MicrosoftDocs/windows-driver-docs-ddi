@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_DEVICE_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR, PUSB_DEVICE_DESCRIPTOR structure pointer [Buses], USB_DEVICE_DESCRIPTOR, USB_DEVICE_DESCRIPTOR structure [Buses], _USB_DEVICE_DESCRIPTOR, buses.usb_device_descriptor, usbspec/PUSB_DEVICE_DESCRIPTOR, usbspec/USB_DEVICE_DESCRIPTOR, usbstrct_40e68471-a1e1-4e2e-8bea-77c8f7085589.xml"
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: Usb100.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_DEVICE_DESCRIPTOR
 ---
 
-# _USB_DEVICE_DESCRIPTOR structure
+# USB_DEVICE_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

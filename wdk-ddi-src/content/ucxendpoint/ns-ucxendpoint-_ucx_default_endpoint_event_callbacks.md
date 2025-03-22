@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure"]
 ms.keywords: "*PUCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure pointer [Buses], UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure [Buses], _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, buses._ucx_default_endpoint_event_callbacks, ucxendpoint/P_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS, ucxendpoint/_UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS"
 req.header: ucxendpoint.h
+req.construct-type: structure
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS
 ---
 
-# _UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure
+# UCX_DEFAULT_ENDPOINT_EVENT_CALLBACKS structure (ucxendpoint.h)
+
+
 
 
 ## -description

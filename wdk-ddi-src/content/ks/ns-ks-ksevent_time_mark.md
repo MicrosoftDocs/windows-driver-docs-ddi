@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_TIME_MARK structure"]
 ms.keywords: "*PKSEVENT_TIME_MARK, KSEVENT_TIME_MARK, KSEVENT_TIME_MARK structure [Streaming Media Devices], PKSEVENT_TIME_MARK, PKSEVENT_TIME_MARK structure pointer [Streaming Media Devices], ks-struct_66e60015-261c-4e6d-a58f-dab8d50cf4d6.xml, ks/KSEVENT_TIME_MARK, ks/PKSEVENT_TIME_MARK, stream.ksevent_time_mark"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSEVENT_TIME_MARK
 ---
 
-# KSEVENT_TIME_MARK structure
+# KSEVENT_TIME_MARK structure (ks.h)
+
+
 
 
 ## -description

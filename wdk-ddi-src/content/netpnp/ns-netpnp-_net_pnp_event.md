@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NET_PNP_EVENT structure"]
 ms.keywords: "*PNET_PNP_EVENT, NET_PNP_EVENT, NET_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_PNP_EVENT, PNET_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT, ndis/NET_PNP_EVENT, ndis/PNET_PNP_EVENT, netvista.net_pnp_event, protocol_structures_ref_0d2da286-4352-4097-901d-d3eba45d31c2.xml"
 req.header: netpnp.h
+req.construct-type: structure
 req.include-header: Ndis.h, Netpnp.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For more information about the NDIS 5.1 version of this structure, see    NET_PNP_EVENT (NDIS 5.1).
@@ -46,7 +47,9 @@ api_name:
  - NET_PNP_EVENT
 ---
 
-# _NET_PNP_EVENT structure (netpnp.h)
+# NET_PNP_EVENT structure (netpnp.h)
+
+
 
 
 ## -description

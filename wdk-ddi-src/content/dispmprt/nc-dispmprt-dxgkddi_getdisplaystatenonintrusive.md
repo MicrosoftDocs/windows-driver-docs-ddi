@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_GETDISPLAYSTATENONINTRUSIVE callback function
+# DXGKDDI_GETDISPLAYSTATENONINTRUSIVE function (dispmprt.h)
+
+ function
 
 
 ## -description

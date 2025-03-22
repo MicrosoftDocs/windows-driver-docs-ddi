@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_PROFILE_PININFO structure"]
 ms.keywords: "*PKSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO, KSCAMERA_PROFILE_PININFO structure [Streaming Media Devices], PKSCAMERA_PROFILE_PININFO, PKSCAMERA_PROFILE_PININFO structure pointer [Streaming Media Devices], _KSCAMERA_PROFILE_PININFO, ksmedia/KSCAMERA_PROFILE_PININFO, ksmedia/PKSCAMERA_PROFILE_PININFO, stream.kscamera_profile_pininfo"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSCAMERA_PROFILE_PININFO
 ---
 
-# _KSCAMERA_PROFILE_PININFO structure
+# KSCAMERA_PROFILE_PININFO structure (ksmedia.h)
+
+
 
 
 ## -description

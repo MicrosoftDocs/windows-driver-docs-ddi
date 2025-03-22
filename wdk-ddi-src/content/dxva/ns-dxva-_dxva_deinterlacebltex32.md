@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_DeinterlaceBltEx32 structure"]
 ms.keywords: DXVA_DeinterlaceBltEx32, DXVA_DeinterlaceBltEx32 structure [Display Devices], _DXVA_DeinterlaceBltEx32, display.dxva_deinterlacebltex32, dxva/DXVA_DeinterlaceBltEx32, dxvaref_93b5f3fe-0474-4efe-8d8f-b57e5c3f267d.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.Only compiles for a 64-bit version of the operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_DeinterlaceBltEx32
 ---
 
-# _DXVA_DeinterlaceBltEx32 structure
+# DXVA_DeinterlaceBltEx32 structure (dxva.h)
+
+
 
 
 ## -description

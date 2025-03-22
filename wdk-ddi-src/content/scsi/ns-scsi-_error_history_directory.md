@@ -7,6 +7,7 @@ tech.root: storage
 keywords: ["ERROR_HISTORY_DIRECTORY structure"]
 ms.keywords: _ERROR_HISTORY_DIRECTORY, ERROR_HISTORY_DIRECTORY, *PERROR_HISTORY_DIRECTORY,
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - ERROR_HISTORY_DIRECTORY
 ---
 
-# _ERROR_HISTORY_DIRECTORY structure (scsi.h)
+# ERROR_HISTORY_DIRECTORY structure (scsi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_MONITOR_INFO structure"]
 ms.keywords: "*PCMP_MONITOR_INFO, 61883/CMP_MONITOR_INFO, 61883/PCMP_MONITOR_INFO, 61883_structures_0064b5eb-7b9a-4f96-9e56-f3190d2fd7a3.xml, CMP_MONITOR_INFO, CMP_MONITOR_INFO structure [Buses], IEEE.cmp_monitor_info, PCMP_MONITOR_INFO, PCMP_MONITOR_INFO structure pointer [Buses], _CMP_MONITOR_INFO"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CMP_MONITOR_INFO
 ---
 
-# _CMP_MONITOR_INFO structure
+# CMP_MONITOR_INFO structure (61883.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 12/08/2023
 keywords: ["D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure"]
 ms.keywords: D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032, display.d3d12ddi_video_process_output_stream_desc_0032
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032
 ---
 
-# D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure
+# D3D12DDI_VIDEO_PROCESS_OUTPUT_STREAM_DESC_0032 structure (d3d12umddi.h)
+
+
 
 ## -description
 

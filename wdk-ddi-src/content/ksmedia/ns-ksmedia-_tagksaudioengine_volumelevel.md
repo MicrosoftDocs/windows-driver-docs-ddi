@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagKSAUDIOENGINE_VOLUMELEVEL structure"]
 ms.keywords: "*PKSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL, KSAUDIOENGINE_VOLUMELEVEL structure [Audio Devices], PKSAUDIOENGINE_VOLUMELEVEL, PKSAUDIOENGINE_VOLUMELEVEL structure pointer [Audio Devices], _tagKSAUDIOENGINE_VOLUMELEVEL, audio.ksaudioengine_volumelevel, ksmedia/KSAUDIOENGINE_VOLUMELEVEL, ksmedia/PKSAUDIOENGINE_VOLUMELEVEL"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - KSAUDIOENGINE_VOLUMELEVEL
 ---
 
-# _tagKSAUDIOENGINE_VOLUMELEVEL structure
+# KSAUDIOENGINE_VOLUMELEVEL structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure"]
 ms.keywords: "*PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure [Network Drivers Starting with Windows Vista], PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, ndis/PNDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO, netvista.ndis_net_buffer_list_media_specific_info"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO
 ---
 
-# _NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure
+# NDIS_NET_BUFFER_LIST_MEDIA_SPECIFIC_INFO structure (ndis.h)
+
+
 
 
 ## -description

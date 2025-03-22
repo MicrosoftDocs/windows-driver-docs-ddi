@@ -7,6 +7,7 @@ ms.date: 06/20/2022
 keywords: ["GNSS_SUPL_NI_INFO structure"]
 ms.keywords: "*PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnss.gnss_supl_ni_info, gnssdriver/GNSS_SUPL_NI_INFO, gnssdriver/PGNSS_SUPL_NI_INFO"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_SUPL_NI_INFO
  - GNSS_SUPL_NI_INFO
 ---
+
+# GNSS_SUPL_NI_INFO structure (gnssdriver.h)
 
 ## -description
 

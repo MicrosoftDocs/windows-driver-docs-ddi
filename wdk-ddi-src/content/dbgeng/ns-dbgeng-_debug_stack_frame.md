@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_STACK_FRAME structure"]
 ms.keywords: "*PDEBUG_STACK_FRAME, DEBUG_STACK_FRAME, DEBUG_STACK_FRAME structure [Windows Debugging], PDEBUG_STACK_FRAME, PDEBUG_STACK_FRAME structure pointer [Windows Debugging], Structures_219fad76-6f80-429d-b0ff-0f5443a9263b.xml, _DEBUG_STACK_FRAME, dbgeng/DEBUG_STACK_FRAME, dbgeng/PDEBUG_STACK_FRAME, debugger.debug_stack_frame"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_STACK_FRAME
 ---
 
-# _DEBUG_STACK_FRAME structure
+# DEBUG_STACK_FRAME structure (dbgeng.h)
+
+
 
 
 ## -description

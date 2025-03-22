@@ -8,6 +8,7 @@ ms.custom: content-health
 keywords: ["D3D10_1DDIARG_CREATESHADERRESOURCEVIEW structure"]
 ms.keywords: D3D10_1DDIARG_CREATESHADERRESOURCEVIEW, D3D10_1DDIARG_CREATESHADERRESOURCEVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_a6468f32-7ebf-4ce8-b5c5-9163e65fce93.xml, d3d10umddi/D3D10_1DDIARG_CREATESHADERRESOURCEVIEW, display.d3d10_1ddiarg_createshaderresourceview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista Service Pack 1 (SP1)
@@ -41,7 +42,9 @@ api_name:
  - D3D10_1DDIARG_CREATESHADERRESOURCEVIEW
 ---
 
-# D3D10_1DDIARG_CREATESHADERRESOURCEVIEW structure
+# D3D10_1DDIARG_CREATESHADERRESOURCEVIEW structure (d3d10umddi.h)
+
+
 
 ## -description
 

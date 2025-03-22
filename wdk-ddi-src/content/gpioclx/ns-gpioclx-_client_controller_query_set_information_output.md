@@ -8,6 +8,7 @@ ms.date: 07/22/2022
 keywords: ["CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure"]
 ms.keywords: "*PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure [Parallel Ports], GPIO.client_controller_query_set_information_output, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure pointer [Parallel Ports], _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, gpioclx/CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT, gpioclx/PCLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT"
 req.header: gpioclx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT
 ---
 
-# _CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure
+# CLIENT_CONTROLLER_QUERY_SET_INFORMATION_OUTPUT structure (gpioclx.h)
+
+
 
 ## -description
 

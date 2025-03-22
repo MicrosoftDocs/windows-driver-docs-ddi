@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_STOP_AP_PARAMETERS structure"]
 ms.keywords: "*PDOT11_STOP_AP_PARAMETERS, DOT11_STOP_AP_PARAMETERS, DOT11_STOP_AP_PARAMETERS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_1c8e69b9-852b-4ad6-87a4-ae13b37f7523.xml, PDOT11_STOP_AP_PARAMETERS, PDOT11_STOP_AP_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_STOP_AP_PARAMETERS, netvista.dot11_stop_ap_parameters, windot11/DOT11_STOP_AP_PARAMETERS, windot11/PDOT11_STOP_AP_PARAMETERS"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating   system.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_STOP_AP_PARAMETERS
 ---
 
-# _DOT11_STOP_AP_PARAMETERS structure
+# DOT11_STOP_AP_PARAMETERS structure (windot11.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["LPIT structure"]
 ms.keywords: "*PLPIT, LPIT, LPIT structure [ACPI Devices], PLPIT, PLPIT structure pointer [ACPI Devices], _LPIT, acpi.lpit, acpitabl/LPIT, acpitabl/PLPIT"
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: Acpitabl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - LPIT
 ---
 
-# _LPIT structure
+# LPIT structure (acpitabl.h)
+
+
 
 ## -description
 

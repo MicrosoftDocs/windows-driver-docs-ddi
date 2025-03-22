@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_MSONEX_RESULT_PARAMS structure"]
 ms.keywords: "*PDOT11_MSONEX_RESULT_PARAMS, DOT11_MSONEX_RESULT_PARAMS, DOT11_MSONEX_RESULT_PARAMS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_52bdb8c1-36cc-43a0-9156-397c3a8549b3.xml, PDOT11_MSONEX_RESULT_PARAMS, PDOT11_MSONEX_RESULT_PARAMS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_MSONEX_RESULT_PARAMS, netvista.dot11_msonex_result_params, wlanihv/DOT11_MSONEX_RESULT_PARAMS, wlanihv/PDOT11_MSONEX_RESULT_PARAMS"
 req.header: wlanihv.h
+req.construct-type: structure
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_MSONEX_RESULT_PARAMS
 ---
 
-# _DOT11_MSONEX_RESULT_PARAMS structure
+# DOT11_MSONEX_RESULT_PARAMS structure (wlanihv.h)
+
+
 
 
 ## -description

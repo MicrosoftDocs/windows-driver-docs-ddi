@@ -8,6 +8,7 @@ ms.date: 08/20/2020
 keywords: ["KSAC3_BIT_STREAM_MODE structure"]
 ms.keywords: "*PKSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE, KSAC3_BIT_STREAM_MODE structure [Audio Devices], PKSAC3_BIT_STREAM_MODE, PKSAC3_BIT_STREAM_MODE structure pointer [Audio Devices], aud-prop_b90587bf-508c-4e01-83ec-6fd925433d17.xml, audio.ksac3_bit_stream_mode, ksmedia/KSAC3_BIT_STREAM_MODE, ksmedia/PKSAC3_BIT_STREAM_MODE"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSAC3_BIT_STREAM_MODE
 ---
 
-# KSAC3_BIT_STREAM_MODE structure
+# KSAC3_BIT_STREAM_MODE structure (ksmedia.h)
+
+
 
 
 ## -description

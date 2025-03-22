@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["PRI_REGISTRATION_LIST structure"]
 ms.keywords: "*PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST, PPRI_REGISTRATION_LIST structure pointer [Storage Devices], PRI_REGISTRATION_LIST, PRI_REGISTRATION_LIST structure [Storage Devices], storage.pri_registration_list, storport/PPRI_REGISTRATION_LIST, storport/PRI_REGISTRATION_LIST, structs-general_ad5a83a3-3ac6-4579-be4f-c24181e9d59e.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Minitape.h, Scsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PPRI_REGISTRATION_LIST
  - PRI_REGISTRATION_LIST
 ---
+
+# PRI_REGISTRATION_LIST structure (minitape.h)
 
 ## -description
 

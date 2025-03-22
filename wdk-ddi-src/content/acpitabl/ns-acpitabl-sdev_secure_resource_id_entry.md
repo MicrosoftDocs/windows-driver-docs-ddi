@@ -40,7 +40,9 @@ f1_keywords:
  - acpitabl/SDEV_SECURE_RESOURCE_ID_ENTRY
 ---
 
-# _SDEV_SECURE_RESOURCE_ID_ENTRY structure
+# SDEV_SECURE_RESOURCE_ID_ENTRY structure (acpitabl.h)
+
+
 
 
 ## -description

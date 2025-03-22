@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure"]
 ms.keywords: "*PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, debugger.debug_last_event_info_unload_module"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
 ---
 
-# _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure
+# DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure (dbgeng.h)
+
+
 
 
 ## -description

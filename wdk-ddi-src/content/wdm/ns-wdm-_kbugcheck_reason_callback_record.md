@@ -7,6 +7,7 @@ ms.date: 05/08/2019
 keywords: ["KBUGCHECK_REASON_CALLBACK_RECORD structure"]
 ms.keywords: KBUGCHECK_REASON_CALLBACK_RECORD, KBUGCHECK_REASON_CALLBACK_RECORD, *PKBUGCHECK_REASON_CALLBACK_RECORD,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - KBUGCHECK_REASON_CALLBACK_RECORD
 ---
 
-# KBUGCHECK_REASON_CALLBACK_RECORD structure
+# KBUGCHECK_REASON_CALLBACK_RECORD structure (wdm.h)
+
+
 
 
 ## -description

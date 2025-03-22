@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SM_RemovePersistentBinding_IN structure"]
 ms.keywords: "*PSM_RemovePersistentBinding_IN, PSM_RemovePersistentBinding_IN, PSM_RemovePersistentBinding_IN structure pointer [Storage Devices], SM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN structure [Storage Devices], _SM_RemovePersistentBinding_IN, hbapiwmi/PSM_RemovePersistentBinding_IN, hbapiwmi/SM_RemovePersistentBinding_IN, storage.sm_removepersistentbinding_in, structs-Fibre_d27cd5dc-07ee-470c-ad0d-239f1d378841.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SM_RemovePersistentBinding_IN
 ---
 
-# _SM_RemovePersistentBinding_IN structure
+# SM_RemovePersistentBinding_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

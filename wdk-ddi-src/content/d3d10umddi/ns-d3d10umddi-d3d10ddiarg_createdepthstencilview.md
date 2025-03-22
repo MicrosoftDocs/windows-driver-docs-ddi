@@ -8,6 +8,7 @@ ms.custom: content-health
 keywords: ["D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure"]
 ms.keywords: D3D10DDIARG_CREATEDEPTHSTENCILVIEW, D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure [Display Devices], UMDisplayDriver_Dx10param_Structs_7460e9f5-4a7b-469a-8019-cc634f00d4c1.xml, d3d10umddi/D3D10DDIARG_CREATEDEPTHSTENCILVIEW, display.d3d10ddiarg_createdepthstencilview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - D3D10DDIARG_CREATEDEPTHSTENCILVIEW
 ---
 
-# D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure
+# D3D10DDIARG_CREATEDEPTHSTENCILVIEW structure (d3d10umddi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REG_SET_VALUE_KEY_INFORMATION structure"]
 ms.keywords: "*PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, wdm/PREG_SET_VALUE_KEY_INFORMATION, wdm/REG_SET_VALUE_KEY_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows XP and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - REG_SET_VALUE_KEY_INFORMATION
 ---
 
-# _REG_SET_VALUE_KEY_INFORMATION structure
+# REG_SET_VALUE_KEY_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

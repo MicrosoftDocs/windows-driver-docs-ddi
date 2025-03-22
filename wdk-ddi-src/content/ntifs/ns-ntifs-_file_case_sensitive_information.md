@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FILE_CASE_SENSITIVE_INFORMATION structure"]
 ms.keywords: _FILE_CASE_SENSITIVE_INFORMATION, FILE_CASE_SENSITIVE_INFORMATION, *PFILE_CASE_SENSITIVE_INFORMATION,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - FILE_CASE_SENSITIVE_INFORMATION
 ---
 
-# _FILE_CASE_SENSITIVE_INFORMATION structure
+# FILE_CASE_SENSITIVE_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

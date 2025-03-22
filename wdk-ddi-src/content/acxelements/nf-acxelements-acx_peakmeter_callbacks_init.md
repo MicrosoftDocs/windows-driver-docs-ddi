@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PEAKMETER_CALLBACKS_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_PEAKMETER_CALLBACKS_INIT** function initializes a [ACX_PEAKMETER_CALLBACKS structure](ns-acxelements-acx_peakmeter_callbacks.md).

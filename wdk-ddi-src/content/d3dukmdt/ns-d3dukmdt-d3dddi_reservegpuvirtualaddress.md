@@ -7,6 +7,7 @@ ms.date: 07/19/2024
 keywords: ["D3DDDI_RESERVEGPUVIRTUALADDRESS structure"]
 ms.keywords: D3DDDI_RESERVEGPUVIRTUALADDRESS, D3DDDI_RESERVEGPUVIRTUALADDRESS structure [Display Devices], d3dukmdt/D3DDDI_RESERVEGPUVIRTUALADDRESS, display.d3dddi_reservegpuvirtualaddress
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - D3DDDI_RESERVEGPUVIRTUALADDRESS
 ---
 
-# D3DDDI_RESERVEGPUVIRTUALADDRESS structure
+# D3DDDI_RESERVEGPUVIRTUALADDRESS structure (d3dukmdt.h)
+
+
 
 ## -description
 

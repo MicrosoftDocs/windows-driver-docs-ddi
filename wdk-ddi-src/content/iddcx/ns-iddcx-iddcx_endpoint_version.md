@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_ENDPOINT_VERSION structure"]
 ms.keywords: IDDCX_ENDPOINT_VERSION, IDDCX_ENDPOINT_VERSION structure [Display Devices], display.iddcx_endpoint_version, iddcx/IDDCX_ENDPOINT_VERSION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_ENDPOINT_VERSION
 ---
 
-# IDDCX_ENDPOINT_VERSION structure
+# IDDCX_ENDPOINT_VERSION structure (iddcx.h)
+
+
 
 ## -description
 

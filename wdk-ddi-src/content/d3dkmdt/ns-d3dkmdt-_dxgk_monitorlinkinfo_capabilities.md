@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["DXGK_MONITORLINKINFO_CAPABILITIES structure"]
 ms.keywords: "*PDXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES, DXGK_MONITORLINKINFO_CAPABILITIES union [Display Devices], PDXGK_MONITORLINKINFO_CAPABILITIES, PDXGK_MONITORLINKINFO_CAPABILITIES union pointer [Display Devices], _DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/DXGK_MONITORLINKINFO_CAPABILITIES, d3dkmdt/PDXGK_MONITORLINKINFO_CAPABILITIES, display.dxgk_monitorlinkinfo_capabilities"
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -49,7 +50,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_MONITORLINKINFO_CAPABILITIES structure
+# DXGK_MONITORLINKINFO_CAPABILITIES structure (d3dkmdt.h)
+
+
 
 
 ## -description

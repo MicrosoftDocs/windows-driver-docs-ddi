@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamInitAssignMethods function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamInitAssignMethods** function assigns an array of methods to a stream using the *ACXSTREAM_INIT* object.

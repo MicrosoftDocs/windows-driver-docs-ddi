@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["REFS_SMR_VOLUME_INFO_OUTPUT structure"]
 ms.keywords: "*PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT, PREFS_SMR_VOLUME_INFO_OUTPUT structure pointer [Installable File System Drivers], REFS_SMR_VOLUME_INFO_OUTPUT, REFS_SMR_VOLUME_INFO_OUTPUT structure [Installable File System Drivers], _REFS_SMR_VOLUME_INFO_OUTPUT, ifsk.refs_smr_volume_info_output, ntifs/PREFS_SMR_VOLUME_INFO_OUTPUT, ntifs/REFS_SMR_VOLUME_INFO_OUTPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - REFS_SMR_VOLUME_INFO_OUTPUT
 ---
 
-# REFS_SMR_VOLUME_INFO_OUTPUT structure
+# REFS_SMR_VOLUME_INFO_OUTPUT structure (ntifs.h)
+
+
 
 ## -description
 

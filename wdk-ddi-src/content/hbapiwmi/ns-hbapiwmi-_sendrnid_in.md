@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SendRNID_IN structure"]
 ms.keywords: "*PSendRNID_IN, PSendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], SendRNID_IN, SendRNID_IN structure [Storage Devices], _SendRNID_IN, hbapiwmi/PSendRNID_IN, hbapiwmi/SendRNID_IN, storage.sendrnid_in, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SendRNID_IN
 ---
 
-# _SendRNID_IN structure
+# SendRNID_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

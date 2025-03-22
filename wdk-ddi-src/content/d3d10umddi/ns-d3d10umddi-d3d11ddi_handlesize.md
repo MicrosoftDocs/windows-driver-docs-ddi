@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDI_HANDLESIZE structure"]
 ms.keywords: D3D11DDI_HANDLESIZE, D3D11DDI_HANDLESIZE structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4eedfbd5-b87d-42bb-9ec9-2efc75ad3464.xml, d3d10umddi/D3D11DDI_HANDLESIZE, display.d3d11ddi_handlesize
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDI_HANDLESIZE is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDI_HANDLESIZE
 ---
 
-# D3D11DDI_HANDLESIZE structure
+# D3D11DDI_HANDLESIZE structure (d3d10umddi.h)
+
+
 
 
 ## -description

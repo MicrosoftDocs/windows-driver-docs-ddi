@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_VOLUME_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_VOLUME_CONFIG_INIT** function initializes an [ACX_VOLUME_CONFIG](ns-acxelements-acx_volume_config.md) structure.

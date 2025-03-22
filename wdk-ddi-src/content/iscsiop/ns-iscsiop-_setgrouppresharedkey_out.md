@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetGroupPresharedKey_OUT structure"]
 ms.keywords: "*PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT, PSetGroupPresharedKey_OUT structure pointer [Storage Devices], SetGroupPresharedKey_OUT, SetGroupPresharedKey_OUT structure [Storage Devices], _SetGroupPresharedKey_OUT, iscsiop/PSetGroupPresharedKey_OUT, iscsiop/SetGroupPresharedKey_OUT, storage.setgrouppresharedkey_out, structs-iSCSI_81186f6a-bf08-42eb-a3d8-ae195cdd8135.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetGroupPresharedKey_OUT
 ---
 
-# _SetGroupPresharedKey_OUT structure
+# SetGroupPresharedKey_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

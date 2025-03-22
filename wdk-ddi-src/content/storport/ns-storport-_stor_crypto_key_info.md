@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_CRYPTO_KEY_INFO structure"]
 ms.keywords: "*PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO structure pointer [Storage Devices], STOR_CRYPTO_KEY_INFO, STOR_CRYPTO_KEY_INFO structure [Storage Devices], _STOR_CRYPTO_KEY_INFO, storage.stor_crypto_key_info, storport/PSTOR_CRYPTO_KEY_INFO, storport/STOR_CRYPTO_KEY_INFO"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_CRYPTO_KEY_INFO
 ---
 
-# STOR_CRYPTO_KEY_INFO structure
+# STOR_CRYPTO_KEY_INFO structure (storport.h)
+
+
 
 ## -description
 

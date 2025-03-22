@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure"]
 ms.keywords: "*PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure pointer [Storage Devices], VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure [Storage Devices], _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/PVPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, scsi/VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE, storage.vpd_zoned_block_device_characteristics_page"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE
 ---
 
-# _VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure (minitape.h)
+# VPD_ZONED_BLOCK_DEVICE_CHARACTERISTICS_PAGE structure (minitape.h)
+
+
 
 
 ## -description

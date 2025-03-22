@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_SEND_PHY_PACKET structure"]
 ms.keywords: 1394/IRB_REQ_SEND_PHY_PACKET, IEEE.irb_req_send_phy_packet, IRB_REQ_SEND_PHY_PACKET, IRB_REQ_SEND_PHY_PACKET structure [Buses], _IRB_REQ_SEND_PHY_PACKET
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_SEND_PHY_PACKET
 ---
 
-# _IRB_REQ_SEND_PHY_PACKET structure
+# IRB_REQ_SEND_PHY_PACKET structure (1394.h)
+
+
 
 
 ## -description

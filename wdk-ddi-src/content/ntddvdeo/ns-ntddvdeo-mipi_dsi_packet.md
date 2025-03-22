@@ -10,6 +10,7 @@ f1_keywords:
  - "MIPI_DSI_PACKET"
 ms.keywords: MIPI_DSI_PACKET, MIPI_DSI_PACKET, 
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header:
 req.target-type:
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
 ms.custom: 19H1
 ---
 
-# MIPI_DSI_PACKET structure
+# MIPI_DSI_PACKET structure (ntddvdeo.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["FILE_DESIRED_STORAGE_CLASS_INFORMATION structure"]
 ms.keywords: _FILE_DESIRED_STORAGE_CLASS_INFORMATION, FILE_DESIRED_STORAGE_CLASS_INFORMATION, *PFILE_DESIRED_STORAGE_CLASS_INFORMATION,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _FILE_DESIRED_STORAGE_CLASS_INFORMATION structure
+# FILE_DESIRED_STORAGE_CLASS_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DISPLAY_DIAGNOSTICS_INTERFACE structure
+# DXGK_DISPLAY_DIAGNOSTICS_INTERFACE structure (dispmprt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["ACPI_METHOD_ARGUMENT_V2 structure"]
 ms.keywords: "*PACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2, ACPI_METHOD_ARGUMENT_V2 structure [ACPI Devices], PACPI_METHOD_ARGUMENT_V2, PACPI_METHOD_ARGUMENT_V2 structure pointer [ACPI Devices], _ACPI_METHOD_ARGUMENT_V2, acpi.acpi_method_argument_v2, acpiioct/ACPI_METHOD_ARGUMENT_V2, acpiioct/PACPI_METHOD_ARGUMENT_V2"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 and later versions.
@@ -43,7 +44,9 @@ api_name:
  - ACPI_METHOD_ARGUMENT_V2
 ---
 
-# _ACPI_METHOD_ARGUMENT_V2 structure
+# ACPI_METHOD_ARGUMENT_V2 structure (acpiioct.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["COMPOSITE_DEVICE_CAPABILITIES structure"]
 ms.keywords: "*PCOMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES, COMPOSITE_DEVICE_CAPABILITIES structure [Buses], PCOMPOSITE_DEVICE_CAPABILITIES, PCOMPOSITE_DEVICE_CAPABILITIES structure pointer [Buses], _COMPOSITE_DEVICE_CAPABILITIES, buses.composite_driver_capabilities, usbdlib/COMPOSITE_DEVICE_CAPABILITIES, usbdlib/PCOMPOSITE_DEVICE_CAPABILITIES"
 req.header: usbdlib.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - COMPOSITE_DEVICE_CAPABILITIES
 ---
 
-# _COMPOSITE_DEVICE_CAPABILITIES structure
+# COMPOSITE_DEVICE_CAPABILITIES structure (usbdlib.h)
+
+
 
 
 ## -description

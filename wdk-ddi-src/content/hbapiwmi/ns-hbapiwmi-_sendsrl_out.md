@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SendSRL_OUT structure"]
 ms.keywords: "*PSendSRL_OUT, PSendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], SendSRL_OUT, SendSRL_OUT structure [Storage Devices], _SendSRL_OUT, hbapiwmi/PSendSRL_OUT, hbapiwmi/SendSRL_OUT, storage.sendsrl_out, structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SendSRL_OUT
 ---
 
-# _SendSRL_OUT structure
+# SendSRL_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

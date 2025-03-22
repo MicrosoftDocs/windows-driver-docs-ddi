@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_SET_READ_AHEAD structure"]
 ms.keywords: "*PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD, PSTORAGE_SET_READ_AHEAD structure pointer [Storage Devices], STORAGE_SET_READ_AHEAD, STORAGE_SET_READ_AHEAD structure [Storage Devices], _STORAGE_SET_READ_AHEAD, ntddcdvd/PSTORAGE_SET_READ_AHEAD, ntddcdvd/STORAGE_SET_READ_AHEAD, storage.storage_set_read_ahead, structs-general_a6938152-7839-43e0-a030-8767d032469c.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_SET_READ_AHEAD
 ---
 
-# _STORAGE_SET_READ_AHEAD structure
+# STORAGE_SET_READ_AHEAD structure (ntddcdvd.h)
+
+
 
 
 ## -description

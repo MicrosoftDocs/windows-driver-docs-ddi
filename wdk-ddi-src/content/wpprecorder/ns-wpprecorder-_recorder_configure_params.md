@@ -8,6 +8,7 @@ ms.date: 03/17/2022
 keywords: ["RECORDER_CONFIGURE_PARAMS structure"]
 ms.keywords: "*PRECORDER_CONFIGURE_PARAMS, PRECORDER_CONFIGURE_PARAMS, PRECORDER_CONFIGURE_PARAMS structure pointer [Driver Development Tools], RECORDER_CONFIGURE_PARAMS, RECORDER_CONFIGURE_PARAMS structure [Driver Development Tools], _RECORDER_CONFIGURE_PARAMS, devtest.recorder_configure_params, wpprecorder/PRECORDER_CONFIGURE_PARAMS, wpprecorder/RECORDER_CONFIGURE_PARAMS"
 req.header: wpprecorder.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RECORDER_CONFIGURE_PARAMS
 ---
 
-# _RECORDER_CONFIGURE_PARAMS structure
+# RECORDER_CONFIGURE_PARAMS structure (wpprecorder.h)
+
+
 
 
 ## -description

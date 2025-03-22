@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_FREQUENCY structure"]
 ms.keywords: DXVA2_Structs_bf2ee217-d321-4302-8bd3-1621081fdb09.xml, DXVADDI_FREQUENCY, DXVADDI_FREQUENCY structure [Display Devices], _DXVADDI_FREQUENCY, d3dumddi/DXVADDI_FREQUENCY, display.dxvaddi_frequency
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_FREQUENCY
 ---
 
-# _DXVADDI_FREQUENCY structure
+# DXVADDI_FREQUENCY structure (d3dumddi.h)
+
+
 
 
 ## -description

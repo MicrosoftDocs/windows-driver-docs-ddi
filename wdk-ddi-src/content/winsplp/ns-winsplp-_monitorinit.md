@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["MONITORINIT structure"]
 ms.keywords: "*PMONITORINIT, MONITORINIT, MONITORINIT structure [Print Devices], PMONITORINIT, PMONITORINIT structure pointer [Print Devices], _MONITORINIT, print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, winsplp/MONITORINIT, winsplp/PMONITORINIT"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MONITORINIT
 ---
 
-# _MONITORINIT structure
+# MONITORINIT structure (winsplp.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 06/20/2022
 keywords: ["GNSS_SUPL_HSLP_CONFIG structure"]
 ms.keywords: "*PGNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG, GNSS_SUPL_HSLP_CONFIG structure [Sensor Devices], PGNSS_SUPL_HSLP_CONFIG, PGNSS_SUPL_HSLP_CONFIG structure pointer [Sensor Devices], gnss.gnss_supl_hslp_config, gnssdriver/GNSS_SUPL_HSLP_CONFIG, gnssdriver/PGNSS_SUPL_HSLP_CONFIG"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_SUPL_HSLP_CONFIG
  - GNSS_SUPL_HSLP_CONFIG
 ---
+
+# GNSS_SUPL_HSLP_CONFIG structure (gnssdriver.h)
 
 ## -description
 

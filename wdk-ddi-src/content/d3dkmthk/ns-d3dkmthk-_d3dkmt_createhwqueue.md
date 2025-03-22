@@ -5,6 +5,7 @@ description: Learn more about the D3DKMT_CREATEHWQUEUE structure.
 ms.date: 03/21/2024
 keywords: ["D3DKMT_CREATEHWQUEUE structure"]
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - D3DKMT_CREATEHWQUEUE
 ---
 
-# D3DKMT_CREATEHWQUEUE structure
+# D3DKMT_CREATEHWQUEUE structure (d3dkmthk.h)
+
+
 
 ## -description
 

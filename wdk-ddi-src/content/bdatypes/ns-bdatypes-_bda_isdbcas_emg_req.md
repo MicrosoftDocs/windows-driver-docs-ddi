@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["BDA_ISDBCAS_EMG_REQ structure"]
 ms.keywords: _BDA_ISDBCAS_EMG_REQ, BDA_ISDBCAS_EMG_REQ, *PBDA_ISDBCAS_EMG_REQ,
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - BDA_ISDBCAS_EMG_REQ
 ---
 
-# _BDA_ISDBCAS_EMG_REQ structure
+# BDA_ISDBCAS_EMG_REQ structure (bdatypes.h)
+
+
 
 
 ## -description

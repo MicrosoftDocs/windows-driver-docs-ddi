@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PIN_CONFIG_INIT_ID function (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_CONFIG_INIT_ID** function initializes an [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure with the specified ID.

@@ -6,6 +6,7 @@ ms.date: 06/17/2024
 keywords: ["DXGK_NODEMETADATA_FLAGS structure"]
 ms.keywords: _DXGK_NODEMETADATA_FLAGS, DXGK_NODEMETADATA_FLAGS,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1703
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_NODEMETADATA_FLAGS structure
+# DXGK_NODEMETADATA_FLAGS structure (d3dkmdt.h)
+
+
 
 ## -description
 

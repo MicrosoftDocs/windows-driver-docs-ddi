@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PO_FX_DEVICE_V2 structure"]
 ms.keywords: "*PPO_FX_DEVICE, *PPO_FX_DEVICE_V2, PO_FX_DEVICE, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V1, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE_V2, PPO_FX_DEVICE_V1, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_DEVICE_V2, kernel.po_fx_device, wdm/PO_FX_DEVICE, wdm/PO_FX_DEVICE_V1, wdm/PPO_FX_DEVICE_V1"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - PO_FX_DEVICE_V2
 ---
 
-# _PO_FX_DEVICE_V2 structure
+# PO_FX_DEVICE_V2 structure (wdm.h)
+
+
 
 
 ## -description

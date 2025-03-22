@@ -7,6 +7,7 @@ ms.date: 01/11/2023
 keywords: ["WHEA_AER_BRIDGE_DESCRIPTOR structure"]
 ms.keywords: "*PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR, PWHEA_AER_BRIDGE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], WHEA_AER_BRIDGE_DESCRIPTOR, WHEA_AER_BRIDGE_DESCRIPTOR structure [WHEA Drivers and Applications], _WHEA_AER_BRIDGE_DESCRIPTOR, ntddk/PWHEA_AER_BRIDGE_DESCRIPTOR, ntddk/WHEA_AER_BRIDGE_DESCRIPTOR, whea.whea_aer_bridge_descriptor, whearef_52e2fbef-c8d7-42c8-b8ae-584fbc4f622f.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_AER_BRIDGE_DESCRIPTOR
  - WHEA_AER_BRIDGE_DESCRIPTOR
 ---
+
+# WHEA_AER_BRIDGE_DESCRIPTOR structure (ntddk.h)
 
 ## -description
 

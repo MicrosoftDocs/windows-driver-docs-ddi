@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_PPM_CONFIG structure"]
 ms.keywords: _UCMUCSI_PPM_CONFIG, UCMUCSI_PPM_CONFIG, *PUCMUCSI_PPM_CONFIG,
 req.header: ucmucsippm.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCMUCSI_PPM_CONFIG
 ---
 
-# _UCMUCSI_PPM_CONFIG structure
+# UCMUCSI_PPM_CONFIG structure (ucmucsippm.h)
+
+
 
 
 ## -description

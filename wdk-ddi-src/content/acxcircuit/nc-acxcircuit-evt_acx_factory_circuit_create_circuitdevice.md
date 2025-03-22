@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_FACTORY_CIRCUIT_CREATE_CIRCUITDEVICE** callback is invoked by ACX when the driver must create a WDFDEVICE for a new ACXCIRCUIT object.

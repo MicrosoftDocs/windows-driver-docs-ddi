@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure"]
 ms.keywords: D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure [Display Devices], UMDisplayDriver_param_Structs_998b4bf8-b2ff-48a4-b4d4-1d41ecd08558.xml, _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, d3dumddi/D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE, display.d3dddiarg_dxvahd_getvideoprocessbltstateprivate
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE
 ---
 
-# _D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure
+# D3DDDIARG_DXVAHD_GETVIDEOPROCESSBLTSTATEPRIVATE structure (d3dumddi.h)
+
+
 
 
 ## -description

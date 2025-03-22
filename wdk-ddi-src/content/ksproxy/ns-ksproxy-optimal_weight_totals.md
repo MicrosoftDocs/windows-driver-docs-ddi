@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["OPTIMAL_WEIGHT_TOTALS structure"]
 ms.keywords: OPTIMAL_WEIGHT_TOTALS, OPTIMAL_WEIGHT_TOTALS structure [Streaming Media Devices], ksproxy/OPTIMAL_WEIGHT_TOTALS, stream.optimal_weight_totals
 req.header: ksproxy.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - OPTIMAL_WEIGHT_TOTALS
 ---
 
-# OPTIMAL_WEIGHT_TOTALS structure
+# OPTIMAL_WEIGHT_TOTALS structure (ksproxy.h)
+
+
 
 
 ## -description

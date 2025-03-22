@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_STREAM_INFORMATION structure"]
 ms.keywords: "*PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION, PUSBD_STREAM_INFORMATION structure pointer [Buses], USBD_STREAM_INFORMATION, USBD_STREAM_INFORMATION structure [Buses], _USBD_STREAM_INFORMATION, buses.usbd_stream_information, usb/PUSBD_STREAM_INFORMATION, usb/USBD_STREAM_INFORMATION"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - USBD_STREAM_INFORMATION
 ---
 
-# _USBD_STREAM_INFORMATION structure
+# USBD_STREAM_INFORMATION structure (usb.h)
+
+
 
 
 ## -description

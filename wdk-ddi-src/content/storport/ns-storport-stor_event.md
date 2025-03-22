@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 03/24/2020
 ms.keywords: STOR_EVENT, STOR_EVENT, *PSTOR_EVENT, *PRSTOR_EVENT,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - STOR_EVENT
 ---
 
-# STOR_EVENT structure
+# STOR_EVENT structure (storport.h)
+
+
 
 
 ## -description

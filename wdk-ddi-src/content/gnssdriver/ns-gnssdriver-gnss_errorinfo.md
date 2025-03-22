@@ -8,6 +8,7 @@ ms.date: 08/20/2020
 keywords: ["GNSS_ERRORINFO structure"]
 ms.keywords: "*PGNSS_ERRORINFO, GNSS_ERRORINFO, GNSS_ERRORINFO structure [Sensor Devices], PGNSS_ERRORINFO, PGNSS_ERRORINFO structure pointer [Sensor Devices], gnss.gnss_errorinfo, gnssdriver/GNSS_ERRORINFO, gnssdriver/PGNSS_ERRORINFO"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_ERRORINFO
 ---
 
-# GNSS_ERRORINFO structure
+# GNSS_ERRORINFO structure (gnssdriver.h)
+
+
 
 
 ## -description

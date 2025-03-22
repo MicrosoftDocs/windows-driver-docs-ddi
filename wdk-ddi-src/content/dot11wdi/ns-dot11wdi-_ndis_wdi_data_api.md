@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_WDI_DATA_API structure"]
 ms.keywords: "*PNDIS_WDI_DATA_API, NDIS_WDI_DATA_API, NDIS_WDI_DATA_API structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_DATA_API, PNDIS_WDI_DATA_API structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WDI_DATA_API, dot11wdi/NDIS_WDI_DATA_API, dot11wdi/PNDIS_WDI_DATA_API, netvista.ndis_wdi_data_api"
 req.header: dot11wdi.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NDIS_WDI_DATA_API
 ---
 
-# _NDIS_WDI_DATA_API structure
+# NDIS_WDI_DATA_API structure (dot11wdi.h)
+
+
 
 
 ## -description

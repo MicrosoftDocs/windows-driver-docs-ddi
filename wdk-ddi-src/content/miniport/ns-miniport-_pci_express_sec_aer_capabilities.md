@@ -7,6 +7,7 @@ ms.date: 07/19/2022
 keywords: ["PCI_EXPRESS_SEC_AER_CAPABILITIES structure"]
 ms.keywords: "*PPCI_EXPRESS_SEC_AER_CAPABILITIES, PCI.pci_express_sec_aer_capabilities, PCI_EXPRESS_SEC_AER_CAPABILITIES, PCI_EXPRESS_SEC_AER_CAPABILITIES union [Buses], PPCI_EXPRESS_SEC_AER_CAPABILITIES, PPCI_EXPRESS_SEC_AER_CAPABILITIES union pointer [Buses], _PCI_EXPRESS_SEC_AER_CAPABILITIES, pci_struct_22bcb7f0-e690-414b-ba51-37c8783a6fad.xml, wdm/PCI_EXPRESS_SEC_AER_CAPABILITIES, wdm/PPCI_EXPRESS_SEC_AER_CAPABILITIES"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_EXPRESS_SEC_AER_CAPABILITIES
  - PCI_EXPRESS_SEC_AER_CAPABILITIES
 ---
+
+# PCI_EXPRESS_SEC_AER_CAPABILITIES structure (miniport.h)
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinRemoveStreamBridges function (acxpin.h)
+
 ## -description
 
 The **AcxPinRemoveStreamBridges** function removes ACXSTREAMBRIDGE objects from the specified pin.

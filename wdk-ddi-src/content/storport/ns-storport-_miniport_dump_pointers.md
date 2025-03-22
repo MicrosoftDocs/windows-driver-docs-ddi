@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["MINIPORT_DUMP_POINTERS structure"]
 ms.keywords: "*PMINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS, MINIPORT_DUMP_POINTERS structure [Storage Devices], PMINIPORT_DUMP_POINTERS, PMINIPORT_DUMP_POINTERS structure pointer [Storage Devices], _MINIPORT_DUMP_POINTERS, storage.miniport_dump_pointers, storport/MINIPORT_DUMP_POINTERS, storport/PMINIPORT_DUMP_POINTERS, structs-virtual_34ca963f-93fe-4e7d-8e02-02bde32cf2ef.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MINIPORT_DUMP_POINTERS
 ---
 
-# MINIPORT_DUMP_POINTERS structure
+# MINIPORT_DUMP_POINTERS structure (storport.h)
+
+
 
 ## -description
 

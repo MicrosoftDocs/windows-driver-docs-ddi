@@ -7,6 +7,7 @@ tech.root: storage
 keywords: ["CURRENT_DEVICE_INTERNAL_STATUS_LOG structure"]
 ms.keywords: _CURRENT_DEVICE_INTERNAL_STATUS_LOG, CURRENT_DEVICE_INTERNAL_STATUS_LOG, *PCURRENT_DEVICE_INTERNAL_STATUS_LOG,
 req.header: ata.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - CURRENT_DEVICE_INTERNAL_STATUS_LOG
 ---
 
-# _CURRENT_DEVICE_INTERNAL_STATUS_LOG structure
+# CURRENT_DEVICE_INTERNAL_STATUS_LOG structure (ata.h)
+
+
 
 
 ## -description

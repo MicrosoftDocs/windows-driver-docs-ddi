@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_PMEM_ERROR_SECTION_VALIDBITS structure"]
 ms.keywords: WHEA_PMEM_ERROR_SECTION_VALIDBITS, WHEA_PMEM_ERROR_SECTION_VALIDBITS, *PWHEA_PMEM_ERROR_SECTION_VALIDBITS,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WHEA_PMEM_ERROR_SECTION_VALIDBITS
 ---
 
-# WHEA_PMEM_ERROR_SECTION_VALIDBITS structure
+# WHEA_PMEM_ERROR_SECTION_VALIDBITS structure (ntddk.h)
+
+
 
 
 ## -description

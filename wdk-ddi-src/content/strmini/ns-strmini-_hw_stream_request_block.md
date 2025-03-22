@@ -7,6 +7,7 @@ ms.date: 03/11/2022
 keywords: ["HW_STREAM_REQUEST_BLOCK structure"]
 ms.keywords: "*PHW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK, HW_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], PHW_STREAM_REQUEST_BLOCK, PHW_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], _HW_STREAM_REQUEST_BLOCK, strclass-struct_4b0da124-b08a-49fe-acbc-9457db500b26.xml, stream.hw_stream_request_block, strmini/HW_STREAM_REQUEST_BLOCK, strmini/PHW_STREAM_REQUEST_BLOCK"
 req.header: strmini.h
+req.construct-type: structure
 req.include-header: Strmini.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PHW_STREAM_REQUEST_BLOCK
  - HW_STREAM_REQUEST_BLOCK
 ---
+
+# HW_STREAM_REQUEST_BLOCK structure (strmini.h)
 
 ## -description
 

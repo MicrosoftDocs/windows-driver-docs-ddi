@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_INQUIRY_DATA structure"]
 ms.keywords: "*PSCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA, PSCSI_INQUIRY_DATA structure pointer [Storage Devices], SCSI_INQUIRY_DATA, SCSI_INQUIRY_DATA structure [Storage Devices], _SCSI_INQUIRY_DATA, ntddscsi/PSCSI_INQUIRY_DATA, ntddscsi/SCSI_INQUIRY_DATA, storage.scsi_inquiry_data, structs-scsibus_caffe649-9258-4363-ac26-da2c81bebdd1.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSI_INQUIRY_DATA
 ---
 
-# _SCSI_INQUIRY_DATA structure
+# SCSI_INQUIRY_DATA structure (ntddscsi.h)
+
+
 
 
 ## -description

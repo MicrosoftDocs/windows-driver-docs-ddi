@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure"]
 ms.keywords: DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure [Display Devices], _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS, display.dxgi_ddi_arg_getmultiplaneoverlaygroupcaps, dxgiddi/DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 req.header: dxgiddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS
 ---
 
-# _DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure
+# DXGI_DDI_ARG_GETMULTIPLANEOVERLAYGROUPCAPS structure (dxgiddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_LKGFIX_PARAM structure"]
 ms.keywords: "*PGNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM, GNSS_LKGFIX_PARAM structure [Sensor Devices], PGNSS_LKGFIX_PARAM, PGNSS_LKGFIX_PARAM structure pointer [Sensor Devices], gnss.gnss_lkgfix_param, gnssdriver/GNSS_LKGFIX_PARAM, gnssdriver/PGNSS_LKGFIX_PARAM"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_LKGFIX_PARAM
 ---
 
-# GNSS_LKGFIX_PARAM structure
+# GNSS_LKGFIX_PARAM structure (gnssdriver.h)
+
+
 
 
 ## -description

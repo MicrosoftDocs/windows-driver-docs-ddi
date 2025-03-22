@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_SIGNALMONITOREDFENCE structure"]
 ms.keywords: _DXGKARG_SIGNALMONITOREDFENCE, DXGKARG_SIGNALMONITOREDFENCE, *INOUT_PDXGKARG_SIGNALMONITOREDFENCE
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SIGNALMONITOREDFENCE structure
+# DXGKARG_SIGNALMONITOREDFENCE structure (d3dkmddi.h)
+
+
 
 
 ## -description

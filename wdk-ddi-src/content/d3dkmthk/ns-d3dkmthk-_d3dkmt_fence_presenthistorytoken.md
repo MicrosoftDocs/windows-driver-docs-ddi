@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_FENCE_PRESENTHISTORYTOKEN structure"]
 ms.keywords: D3DKMT_FENCE_PRESENTHISTORYTOKEN, D3DKMT_FENCE_PRESENTHISTORYTOKEN structure [Display Devices], OpenGL_Structs_eaaa4933-1089-4698-9812-05ff6521f431.xml, _D3DKMT_FENCE_PRESENTHISTORYTOKEN, d3dkmthk/D3DKMT_FENCE_PRESENTHISTORYTOKEN, display.d3dkmt_fence_presenthistorytoken
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: D3DKMT_FENCE_PRESENTHISTORYTOKEN is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_FENCE_PRESENTHISTORYTOKEN
 ---
 
-# _D3DKMT_FENCE_PRESENTHISTORYTOKEN structure
+# D3DKMT_FENCE_PRESENTHISTORYTOKEN structure (d3dkmthk.h)
+
+
 
 
 ## -description

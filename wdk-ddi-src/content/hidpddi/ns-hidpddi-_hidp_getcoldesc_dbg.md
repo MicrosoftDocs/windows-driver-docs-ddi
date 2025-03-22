@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HIDP_GETCOLDESC_DBG structure"]
 ms.keywords: "*PHIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG, HIDP_GETCOLDESC_DBG structure [Human Input Devices], PHIDP_GETCOLDESC_DBG, PHIDP_GETCOLDESC_DBG structure pointer [Human Input Devices], _HIDP_GETCOLDESC_DBG, hid.hidp_getcoldesc_dbg, hidpddi/HIDP_GETCOLDESC_DBG, hidpddi/PHIDP_GETCOLDESC_DBG"
 req.header: hidpddi.h
+req.construct-type: structure
 req.include-header: Hidpddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HIDP_GETCOLDESC_DBG
 ---
 
-# _HIDP_GETCOLDESC_DBG structure
+# HIDP_GETCOLDESC_DBG structure (hidpddi.h)
+
+
 
 
 ## -description

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_REQUEST_TYPE enumeration (acxrequest.h)
+
 ## -description
 
 The **ACX_REQUEST_TYPE** enumeration describes the possible types of ACX requests.

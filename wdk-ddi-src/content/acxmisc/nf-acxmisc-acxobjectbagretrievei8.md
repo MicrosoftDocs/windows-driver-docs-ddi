@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveI8 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveI8 function retrieves an int eight byte I8 (LONG64) value from an existing, initialized AcxObjectBag that contains values.

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_METHOD_VERB enumeration (acxrequest.h)
+
 ## -description
 
 The **ACX_METHOD_VERB** enumeration describes the type of verb operations supported on ACX methods.

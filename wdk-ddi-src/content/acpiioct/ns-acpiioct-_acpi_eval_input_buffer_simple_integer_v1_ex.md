@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure"]
 ms.keywords: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure pointer [ACPI Devices], _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpi-meth-eval-ref_29bc925a-8ab0-4f97-a722-a8a6201853a2.xml, acpi.acpi_eval_input_buffer_simple_integer_ex, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX"
 req.header: acpiioct.h
+req.construct-type: structure
 req.include-header: Acpiioct.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX
 ---
 
-# _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure
+# ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure (acpiioct.h)
+
+
 
 
 ## -description

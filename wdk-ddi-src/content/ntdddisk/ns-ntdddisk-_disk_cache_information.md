@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DISK_CACHE_INFORMATION structure"]
 ms.keywords: "*PDISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION, DISK_CACHE_INFORMATION structure [Storage Devices], PDISK_CACHE_INFORMATION, PDISK_CACHE_INFORMATION structure pointer [Storage Devices], _DISK_CACHE_INFORMATION, ntdddisk/DISK_CACHE_INFORMATION, ntdddisk/PDISK_CACHE_INFORMATION, storage.disk_cache_information, structs-disk_def992c5-6103-4eab-8598-4d52808e6b8c.xml"
 req.header: ntdddisk.h
+req.construct-type: structure
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DISK_CACHE_INFORMATION
 ---
 
-# _DISK_CACHE_INFORMATION structure
+# DISK_CACHE_INFORMATION structure (ntdddisk.h)
+
+
 
 
 ## -description

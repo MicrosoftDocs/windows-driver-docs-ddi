@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_COMPOSITE_TEMPLATE_CONFIG_INIT function (acxmanager.h)
+
 ## -description
 
 The **ACX_COMPOSITE_TEMPLATE_CONFIG_INIT** function initializes an [ACX_COMPOSITE_TEMPLATE_CONFIG](ns-acxmanager-acx_composite_template_config.md) structure.

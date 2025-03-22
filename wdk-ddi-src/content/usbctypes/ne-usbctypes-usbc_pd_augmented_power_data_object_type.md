@@ -37,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _USBC_PD_AUGMENTED_POWER_DATA_OBJECT_TYPE enumeration
+# USBC_PD_AUGMENTED_POWER_DATA_OBJECT_TYPE enumeration (usbctypes.h)
+
+
 
 ## -description
 

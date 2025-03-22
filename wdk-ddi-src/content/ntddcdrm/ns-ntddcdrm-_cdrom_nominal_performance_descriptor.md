@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure"]
 ms.keywords: "*PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure [Storage Devices], PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure pointer [Storage Devices], _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, ntddcdrm/PCDROM_NOMINAL_PERFORMANCE_DESCRIPTOR, storage.cdrom_nominal_performance_descriptor"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR
 ---
 
-# _CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure
+# CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR structure (ntddcdrm.h)
+
+
 
 
 ## -description

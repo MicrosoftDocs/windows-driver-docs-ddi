@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceRemoveFactoryCircuit function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceRemoveFactoryCircuit** function removes a factory circuit for creating audio circuits from a **WDFDEVICE**.

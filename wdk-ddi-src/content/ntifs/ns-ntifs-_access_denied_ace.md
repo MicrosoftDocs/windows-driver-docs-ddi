@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["ACCESS_DENIED_ACE structure"]
 ms.keywords: "*PACCESS_DENIED_ACE, ACCESS_DENIED_ACE, ACCESS_DENIED_ACE structure [Installable File System Drivers], PACCESS_DENIED_ACE, PACCESS_DENIED_ACE structure pointer [Installable File System Drivers], _ACCESS_DENIED_ACE, ifsk.access_denied_ace, ntifs/ACCESS_DENIED_ACE, ntifs/PACCESS_DENIED_ACE, securitystructures_d2c690e3-53bc-4d57-b1b5-1a34ef612a7b.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - ACCESS_DENIED_ACE
 ---
 
-# _ACCESS_DENIED_ACE structure
+# ACCESS_DENIED_ACE structure (ntifs.h)
+
+
 
 
 ## -description

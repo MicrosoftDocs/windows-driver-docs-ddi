@@ -6,6 +6,7 @@ ms.date: 08/24/2022
 keywords: ["DXGK_RENDERKM_COMMAND structure"]
 ms.keywords: DXGK_RENDERKM_COMMAND, DXGK_RENDERKM_COMMAND structure [Display Devices], DmStructs_b23578a5-ae81-42c8-95ce-3ba9b4691d57.xml, _DXGK_RENDERKM_COMMAND, d3dkmddi/DXGK_RENDERKM_COMMAND, display.dxgk_renderkm_command
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_RENDERKM_COMMAND
 ---
 
-# DXGK_RENDERKM_COMMAND structure
+# DXGK_RENDERKM_COMMAND structure (d3dkmddi.h)
+
+
 
 ## -description
 

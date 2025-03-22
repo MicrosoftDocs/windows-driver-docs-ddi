@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_PARAMETERS structure"]
 ms.keywords: "*PWDF_REQUEST_PARAMETERS, DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, PWDF_REQUEST_PARAMETERS, PWDF_REQUEST_PARAMETERS structure pointer, WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, _WDF_REQUEST_PARAMETERS, kmdf.wdf_request_parameters, wdf.wdf_request_parameters, wdfrequest/PWDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS"
 req.header: wdfrequest.h
+req.construct-type: structure
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_REQUEST_PARAMETERS
 ---
 
-# _WDF_REQUEST_PARAMETERS structure
+# WDF_REQUEST_PARAMETERS structure (wdfrequest.h)
+
+
 
 
 ## -description

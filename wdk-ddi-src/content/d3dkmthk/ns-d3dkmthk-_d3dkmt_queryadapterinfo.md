@@ -4,6 +4,7 @@ title: D3DKMT_QUERYADAPTERINFO (d3dkmthk.h)
 description: Learn more about the D3DKMT_QUERYADAPTERINFO structure.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - D3DKMT_QUERYADAPTERINFO
 ---
 
-# D3DKMT_QUERYADAPTERINFO structure
+# D3DKMT_QUERYADAPTERINFO structure (d3dkmthk.h)
+
+
 
 ## -description
 

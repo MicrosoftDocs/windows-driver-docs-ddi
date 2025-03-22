@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamAddConnections function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamAddConnections** function adds explicit connections to a new ACX stream during [EvtAcxCircuitCreateStream](..\acxcircuit\nc-acxcircuit-evt_acx_circuit_create_stream.md)

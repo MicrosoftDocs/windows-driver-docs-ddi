@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_INTERFACE_INFORMATION structure"]
 ms.keywords: "*PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses], _USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usb/PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBD_INTERFACE_INFORMATION
 ---
 
-# _USBD_INTERFACE_INFORMATION structure
+# USBD_INTERFACE_INFORMATION structure (usb.h)
+
+
 
 
 ## -description

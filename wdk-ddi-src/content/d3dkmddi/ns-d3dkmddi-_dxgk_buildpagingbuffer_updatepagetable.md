@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure"]
 ms.keywords: DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure [Display Devices], _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, d3dkmddi/DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE, display.dxgk_buildpagingbuffer_updatepagetable
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE
 ---
 
-# _DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure
+# DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE structure (d3dkmddi.h)
+
+
 
 
 ## -description

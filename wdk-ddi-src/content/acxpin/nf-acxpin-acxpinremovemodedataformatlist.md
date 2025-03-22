@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxPinRemoveModeDataFormatList
 ---
 
+# AcxPinRemoveModeDataFormatList function (acxpin.h)
+
 ## -description
 
 The **AcxPinRemoveModeDataFormatList** function deletes the mode data format list for the specified pin.

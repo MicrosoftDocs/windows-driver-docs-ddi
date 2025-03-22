@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11EXT_IHV_SECURITY_PROFILE structure"]
 ms.keywords: "*PDOT11EXT_IHV_SECURITY_PROFILE, DOT11EXT_IHV_SECURITY_PROFILE, DOT11EXT_IHV_SECURITY_PROFILE structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_7761c811-0068-48d5-8b46-da550a008a9c.xml, PDOT11EXT_IHV_SECURITY_PROFILE, PDOT11EXT_IHV_SECURITY_PROFILE structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_SECURITY_PROFILE, netvista.dot11ext_ihv_security_profile, wlanihv/DOT11EXT_IHV_SECURITY_PROFILE, wlanihv/PDOT11EXT_IHV_SECURITY_PROFILE"
 req.header: wlanihv.h
+req.construct-type: structure
 req.include-header: Wlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11EXT_IHV_SECURITY_PROFILE
 ---
 
-# _DOT11EXT_IHV_SECURITY_PROFILE structure
+# DOT11EXT_IHV_SECURITY_PROFILE structure (wlanihv.h)
+
+
 
 
 ## -description

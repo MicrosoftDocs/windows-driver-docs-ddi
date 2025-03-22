@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FLT_RELATED_CONTEXTS_EX structure"]
 ms.keywords: "*PFLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX, FLT_RELATED_CONTEXTS_EX structure [Installable File System Drivers], PFLT_RELATED_CONTEXTS_EX, PFLT_RELATED_CONTEXTS_EX structure pointer [Installable File System Drivers], _FLT_RELATED_CONTEXTS_EX, fltkernel/FLT_RELATED_CONTEXTS_EX, fltkernel/PFLT_RELATED_CONTEXTS_EX, ifsk.flt_related_contexts_ex"
 req.header: fltkernel.h
+req.construct-type: structure
 req.include-header: Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - FLT_RELATED_CONTEXTS_EX
 ---
 
-# _FLT_RELATED_CONTEXTS_EX structure
+# FLT_RELATED_CONTEXTS_EX structure (fltkernel.h)
+
+
 
 
 ## -description

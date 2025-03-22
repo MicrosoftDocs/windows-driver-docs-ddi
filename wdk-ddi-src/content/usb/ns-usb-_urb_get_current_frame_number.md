@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_GET_CURRENT_FRAME_NUMBER structure"]
 ms.keywords: "_URB_GET_CURRENT_FRAME_NUMBER, _URB_GET_CURRENT_FRAME_NUMBER structure [Buses], buses._urb_get_current_frame_number, usb/_URB_GET_CURRENT_FRAME_NUMBER, usbstrct_b767de1b-63fd-4ac4-b696-78e4d0d83661.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_GET_CURRENT_FRAME_NUMBER
 ---
 
-# _URB_GET_CURRENT_FRAME_NUMBER structure
+# _URB_GET_CURRENT_FRAME_NUMBER structure (usb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX_BUFFER_DESCRIPTOR structure"]
 ms.keywords: "*PSERCX_BUFFER_DESCRIPTOR, 1/PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], serports.sercx_buffer_descriptor"
 req.header: sercx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -43,7 +44,9 @@ api_name:
  - PSERCX_BUFFER_DESCRIPTOR
 ---
 
-# SERCX_BUFFER_DESCRIPTOR structure
+# SERCX_BUFFER_DESCRIPTOR structure (sercx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_DEVICE_POWER_STATE structure"]
 ms.keywords: "*PPEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE, PEP_DEVICE_POWER_STATE structure [Kernel-Mode Driver Architecture], PPEP_DEVICE_POWER_STATE, PPEP_DEVICE_POWER_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_DEVICE_POWER_STATE, kernel.pep_device_power_state, pepfx/PEP_DEVICE_POWER_STATE, pepfx/PPEP_DEVICE_POWER_STATE"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_DEVICE_POWER_STATE
 ---
 
-# _PEP_DEVICE_POWER_STATE structure (pepfx.h)
+# PEP_DEVICE_POWER_STATE structure (pepfx.h)
+
+
 
 
 ## -description

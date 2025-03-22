@@ -8,6 +8,7 @@ ms.date: 03/11/2022
 keywords: ["WWAN_AUTH_SIM_RESPONSE structure"]
 ms.keywords: "*PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE, PWWAN_AUTH_SIM_RESPONSE structure pointer [Network Drivers Starting with Windows Vista], WWAN_AUTH_SIM_RESPONSE, WWAN_AUTH_SIM_RESPONSE structure [Network Drivers Starting with Windows Vista], _WWAN_AUTH_SIM_RESPONSE, netvista.wwan_auth_sim_response, wwan/PWWAN_AUTH_SIM_RESPONSE, wwan/WWAN_AUTH_SIM_RESPONSE"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_AUTH_SIM_RESPONSE
 ---
 
-# _WWAN_AUTH_SIM_RESPONSE structure
+# WWAN_AUTH_SIM_RESPONSE structure (wwan.h)
+
+
 
 
 ## -description

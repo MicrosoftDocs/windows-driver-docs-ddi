@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_BLOCKLIST_INFO structure"]
 ms.keywords: _D3DKMT_BLOCKLIST_INFO, D3DKMT_BLOCKLIST_INFO,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - D3DKMT_BLOCKLIST_INFO
 ---
 
-# _D3DKMT_BLOCKLIST_INFO structure
+# D3DKMT_BLOCKLIST_INFO structure (d3dkmthk.h)
+
+
 
 
 ## -description

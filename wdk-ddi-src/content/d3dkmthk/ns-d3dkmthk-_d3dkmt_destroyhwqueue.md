@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DESTROYHWQUEUE structure"]
 ms.keywords: D3DKMT_DESTROYHWQUEUE, D3DKMT_DESTROYHWQUEUE structure [Display Devices], _D3DKMT_DESTROYHWQUEUE, d3dkmthk/D3DKMT_DESTROYHWQUEUE, display.d3dkmt_destroyhwqueue
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DESTROYHWQUEUE
 ---
 
-# _D3DKMT_DESTROYHWQUEUE structure
+# D3DKMT_DESTROYHWQUEUE structure (d3dkmthk.h)
+
+
 
 
 ## -description

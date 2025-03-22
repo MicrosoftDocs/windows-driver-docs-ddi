@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SYSTEM_SCOPED_POLICY_ID_ACE structure"]
 ms.keywords: "*PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE, PSYSTEM_SCOPED_POLICY_ID_ACE structure pointer [Installable File System Drivers], SYSTEM_SCOPED_POLICY_ID_ACE, SYSTEM_SCOPED_POLICY_ID_ACE structure [Installable File System Drivers], _SYSTEM_SCOPED_POLICY_ID_ACE, ifsk.system_scoped_policy_id_ace, ntifs/PSYSTEM_SCOPED_POLICY_ID_ACE, ntifs/SYSTEM_SCOPED_POLICY_ID_ACE"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYSTEM_SCOPED_POLICY_ID_ACE
 ---
 
-# _SYSTEM_SCOPED_POLICY_ID_ACE structure
+# SYSTEM_SCOPED_POLICY_ID_ACE structure (ntifs.h)
+
+
 
 
 ## -description

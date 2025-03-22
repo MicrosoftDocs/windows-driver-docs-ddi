@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_HWLATENCY structure"]
 ms.keywords: "*PKSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY, KSRTAUDIO_HWLATENCY structure [Audio Devices], PKSRTAUDIO_HWLATENCY, PKSRTAUDIO_HWLATENCY structure pointer [Audio Devices], aud-prop_dd10bf1b-e1b6-4dfd-bb50-1540ef3caed5.xml, audio.ksrtaudio_hwlatency, ksmedia/KSRTAUDIO_HWLATENCY, ksmedia/PKSRTAUDIO_HWLATENCY"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_HWLATENCY
 ---
 
-# KSRTAUDIO_HWLATENCY structure
+# KSRTAUDIO_HWLATENCY structure (ksmedia.h)
+
+
 
 
 ## -description

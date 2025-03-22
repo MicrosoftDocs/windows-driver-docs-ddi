@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["UFS_STRING_DESCRIPTOR structure"]
 ms.keywords: "*PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], UFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 req.header: ufs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - UFS_STRING_DESCRIPTOR
 ---
 
-# _UFS_STRING_DESCRIPTOR structure
+# UFS_STRING_DESCRIPTOR structure (ufs.h)
+
+
 
 
 ## -description

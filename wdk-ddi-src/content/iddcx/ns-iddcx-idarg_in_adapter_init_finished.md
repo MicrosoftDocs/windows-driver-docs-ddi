@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_IN_ADAPTER_INIT_FINISHED structure"]
 ms.keywords: IDARG_IN_ADAPTER_INIT_FINISHED, IDARG_IN_ADAPTER_INIT_FINISHED structure [Display Devices], display.idarg_in_adapter_init_finished, iddcx/IDARG_IN_ADAPTER_INIT_FINISHED
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_ADAPTER_INIT_FINISHED
 ---
 
-# IDARG_IN_ADAPTER_INIT_FINISHED structure
+# IDARG_IN_ADAPTER_INIT_FINISHED structure (iddcx.h)
+
+
 
 
 ## -description

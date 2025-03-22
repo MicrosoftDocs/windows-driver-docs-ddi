@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["OEMFONTINSTPARAM structure"]
 ms.keywords: "*POEMFONTINSTPARAM, OEMFONTINSTPARAM, OEMFONTINSTPARAM structure [Print Devices], POEMFONTINSTPARAM, POEMFONTINSTPARAM structure pointer [Print Devices], _OEMFONTINSTPARAM, print.oemfontinstparam, print_unidrv-pscript_ui_d306ca78-7f06-4ccf-a501-7470f33f96cb.xml, prntfont/OEMFONTINSTPARAM, prntfont/POEMFONTINSTPARAM"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - OEMFONTINSTPARAM
 ---
 
-# _OEMFONTINSTPARAM structure
+# OEMFONTINSTPARAM structure (prntfont.h)
+
+
 
 
 ## -description

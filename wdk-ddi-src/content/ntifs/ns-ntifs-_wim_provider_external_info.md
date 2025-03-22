@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["WIM_PROVIDER_EXTERNAL_INFO structure"]
 ms.keywords: "*PWIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO, PWIM_PROVIDER_EXTERNAL_INFO structure pointer [Installable File System Drivers], WIM_PROVIDER_EXTERNAL_FLAG_NOT_ACTIVE, WIM_PROVIDER_EXTERNAL_FLAG_SUSPENDED, WIM_PROVIDER_EXTERNAL_INFO, WIM_PROVIDER_EXTERNAL_INFO structure [Installable File System Drivers], _WIM_PROVIDER_EXTERNAL_INFO, ifsk.wim_provider_external_info, ntifs/PWIM_PROVIDER_EXTERNAL_INFO, ntifs/WIM_PROVIDER_EXTERNAL_INFO"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1 Update
@@ -45,7 +46,9 @@ api_name:
  - WIM_PROVIDER_EXTERNAL_INFO
 ---
 
-# WIM_PROVIDER_EXTERNAL_INFO structure
+# WIM_PROVIDER_EXTERNAL_INFO structure (ntifs.h)
+
+
 
 ## -description
 

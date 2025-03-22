@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET** callback resets the keyword spotter detector to an unarmed state with no pattern set.

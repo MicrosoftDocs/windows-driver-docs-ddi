@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_IPADDRESS_ENTRY structure"]
 ms.keywords: "*PWWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], WWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], _WWAN_IPADDRESS_ENTRY, netvista.wwan_ipaddress_entry, wwan/PWWAN_IPADDRESS_ENTRY, wwan/WWAN_IPADDRESS_ENTRY"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.1 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_IPADDRESS_ENTRY
 ---
 
-# _WWAN_IPADDRESS_ENTRY structure
+# WWAN_IPADDRESS_ENTRY structure (wwan.h)
+
+
 
 
 ## -description

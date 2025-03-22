@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_CONNECTOR_INFO structure"]
 ms.keywords: _UCMUCSI_CONNECTOR_INFO, UCMUCSI_CONNECTOR_INFO, *PUCMUCSI_CONNECTOR_INFO,
 req.header: ucmucsippm.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCMUCSI_CONNECTOR_INFO
 ---
 
-# _UCMUCSI_CONNECTOR_INFO structure
+# UCMUCSI_CONNECTOR_INFO structure (ucmucsippm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["ERROR_HISTORY_DIRECTORY_ENTRY structure"]
 ms.keywords: _ERROR_HISTORY_DIRECTORY_ENTRY, ERROR_HISTORY_DIRECTORY_ENTRY, *PERROR_HISTORY_DIRECTORY_ENTRY,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - ERROR_HISTORY_DIRECTORY_ENTRY
 ---
 
-# _ERROR_HISTORY_DIRECTORY_ENTRY structure (storport.h)
+# ERROR_HISTORY_DIRECTORY_ENTRY structure (storport.h)
+
+
 
 
 ## -description

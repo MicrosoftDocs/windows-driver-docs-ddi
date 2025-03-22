@@ -7,6 +7,7 @@ ms.date: 03/23/2022
 keywords: ["NET_PACKET_QUEUE_CONFIG structure"]
 ms.keywords: _NET_PACKET_QUEUE_CONFIG, NET_PACKET_QUEUE_CONFIG, *PNET_PACKET_QUEUE_CONFIG,
 req.header: netpacketqueue.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_PACKET_QUEUE_CONFIG
 ---
 
-# _NET_PACKET_QUEUE_CONFIG structure
+# NET_PACKET_QUEUE_CONFIG structure (netpacketqueue.h)
+
+
 
 
 ## -description

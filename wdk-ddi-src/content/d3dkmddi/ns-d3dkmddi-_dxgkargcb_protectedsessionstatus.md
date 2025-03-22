@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGKARGCB_PROTECTEDSESSIONSTATUS structure"]
 ms.keywords: DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS structure [Display Devices], _DXGKARGCB_PROTECTEDSESSIONSTATUS, d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS, display.dxgkargcb_protectedsessionstatus
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 (WDDM 2.3)
@@ -43,7 +44,9 @@ api_name:
  - DXGKARGCB_PROTECTEDSESSIONSTATUS
 ---
 
-# DXGKARGCB_PROTECTEDSESSIONSTATUS structure
+# DXGKARGCB_PROTECTEDSESSIONSTATUS structure (d3dkmddi.h)
+
+
 
 ## -description
 

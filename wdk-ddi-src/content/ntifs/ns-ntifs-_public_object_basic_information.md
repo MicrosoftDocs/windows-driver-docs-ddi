@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PUBLIC_OBJECT_BASIC_INFORMATION structure"]
 ms.keywords: "*PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION, PPUBLIC_OBJECT_BASIC_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_BASIC_INFORMATION, PUBLIC_OBJECT_BASIC_INFORMATION structure [Installable File System Drivers], _PUBLIC_OBJECT_BASIC_INFORMATION, ifsk.public_object_basic_information, ntifs/PPUBLIC_OBJECT_BASIC_INFORMATION, ntifs/PUBLIC_OBJECT_BASIC_INFORMATION, objectstructures_f0dec604-d95c-47b4-aedc-168a3ae1dedc.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Microsoft Windows 2000.
@@ -46,7 +47,9 @@ api_name:
  - PUBLIC_OBJECT_BASIC_INFORMATION
 ---
 
-# _PUBLIC_OBJECT_BASIC_INFORMATION structure
+# PUBLIC_OBJECT_BASIC_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

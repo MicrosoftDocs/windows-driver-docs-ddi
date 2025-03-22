@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KEY_NAME_INFORMATION structure"]
 ms.keywords: "*PKEY_NAME_INFORMATION, KEY_NAME_INFORMATION, KEY_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_NAME_INFORMATION, PKEY_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NAME_INFORMATION, kernel.key_name_information, kstruct_c_1b3b2976-9298-4d7d-a3d7-b0c8d303d29a.xml, ntddk/KEY_NAME_INFORMATION, ntddk/PKEY_NAME_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KEY_NAME_INFORMATION
 ---
 
-# _KEY_NAME_INFORMATION structure
+# KEY_NAME_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_LB_PROVISIONING_MAP_RESOURCES structure"]
 ms.keywords: "*PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, LOG_PAGE_LBP_RESOURCE_SCOPE_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_DEDICATED_TO_LUN, LOG_PAGE_LBP_RESOURCE_SCOPE_NOT_REPORTED, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, PSTORAGE_LB_PROVISIONING_MAP_RESOURCES structure pointer [Storage Devices], STORAGE_LB_PROVISIONING_MAP_RESOURCES, STORAGE_LB_PROVISIONING_MAP_RESOURCES structure [Storage Devices], _STORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/PSTORAGE_LB_PROVISIONING_MAP_RESOURCES, ntddstor/STORAGE_LB_PROVISIONING_MAP_RESOURCES, storage.storage_lb_provisioning_map_resources"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h, Scsi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_LB_PROVISIONING_MAP_RESOURCES
 ---
 
-# _STORAGE_LB_PROVISIONING_MAP_RESOURCES structure
+# STORAGE_LB_PROVISIONING_MAP_RESOURCES structure (ntddstor.h)
+
+
 
 
 ## -description

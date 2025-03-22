@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_CAPS structure"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_CAPS, D3DDDI_MULTIPLANE_OVERLAY_CAPS structure [Display Devices], d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_CAPS, display.d3dddi_multiplane_overlay_caps
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_MULTIPLANE_OVERLAY_CAPS
 ---
 
-# D3DDDI_MULTIPLANE_OVERLAY_CAPS structure
+# D3DDDI_MULTIPLANE_OVERLAY_CAPS structure (d3dumddi.h)
+
+
 
 
 ## -description

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxCircuitGetNotificationId
 ---
 
+# AcxCircuitGetNotificationId function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitGetNotificationId** function retrieves the Plug and Play notification ID that is used for audio module notifications for the specified ACX circuit.

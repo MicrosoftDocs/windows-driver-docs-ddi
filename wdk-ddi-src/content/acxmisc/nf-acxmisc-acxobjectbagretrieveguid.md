@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveGuid function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveGuid function retrieves a GUID value from an existing, initialized AcxObjectBag that contains values.

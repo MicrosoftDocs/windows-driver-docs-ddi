@@ -8,6 +8,7 @@ ms.date: 02/22/2018
 keywords: ["T0_DATA structure"]
 ms.keywords: "*PT0_DATA, PT0_DATA, PT0_DATA structure pointer [Smart Card Reader Devices], T0_DATA, T0_DATA structure [Smart Card Reader Devices], _T0_DATA, smartcrd.t0_data, smclib/PT0_DATA, smclib/T0_DATA"
 req.header: smclib.h
+req.construct-type: structure
 req.include-header: Smclib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - T0_DATA
 ---
 
-# _T0_DATA structure
+# T0_DATA structure (smclib.h)
+
+
 
 
 ## -description

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_VOLUME_CURVE_TYPE enumeration (acxelements.h)
+
 ## -description
 
 The **ACX_VOLUME_CURVE_TYPE** enumeration defines constants that specify a curve algorithm to be applied to set a volume level.

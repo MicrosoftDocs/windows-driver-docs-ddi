@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["FILTER_INITIALIZATION_DATA structure"]
 ms.keywords: "*PFILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_MAJOR_VERSION_1, FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], _FILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, ntdddump/PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml"
 req.header: ntdddump.h
+req.construct-type: structure
 req.include-header: Ntdddump.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista and Windows Server 2008.
@@ -46,7 +47,9 @@ api_name:
  - FILTER_INITIALIZATION_DATA
 ---
 
-# _FILTER_INITIALIZATION_DATA structure
+# FILTER_INITIALIZATION_DATA structure (ntdddump.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AddRADIUSServer_IN structure"]
 ms.keywords: "*PAddRADIUSServer_IN, AddRADIUSServer_IN, AddRADIUSServer_IN structure [Storage Devices], PAddRADIUSServer_IN, PAddRADIUSServer_IN structure pointer [Storage Devices], _AddRADIUSServer_IN, iscsiop/AddRADIUSServer_IN, iscsiop/PAddRADIUSServer_IN, storage.addradiusserver_in, structs-iSCSI_9899ffb9-7e0d-4d1e-af4c-9dd771527610.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AddRADIUSServer_IN
 ---
 
-# _AddRADIUSServer_IN structure
+# AddRADIUSServer_IN structure (iscsiop.h)
+
+
 
 
 ## -description

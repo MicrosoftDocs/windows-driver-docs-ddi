@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_CODEC_DATA_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_CODEC_DATA_0095 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_CODEC_DATA_0095** structure is a comprehensive configuration structure that contains all the necessary parameters for controlling the encoding of an AV1 picture (frame).

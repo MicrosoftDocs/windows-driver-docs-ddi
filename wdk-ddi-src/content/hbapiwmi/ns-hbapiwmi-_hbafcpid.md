@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["HBAFCPID structure"]
 ms.keywords: "*PHBAFCPID, HBAFCPID, HBAFCPID structure [Storage Devices], PHBAFCPID, PHBAFCPID structure pointer [Storage Devices], _HBAFCPID, hbapiwmi/HBAFCPID, hbapiwmi/PHBAFCPID, storage.hbafcpid, structs-Fibre_d993c5b6-2b58-4fae-981a-8096cd9c9bd0.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HBAFCPID
 ---
 
-# _HBAFCPID structure
+# HBAFCPID structure (hbapiwmi.h)
+
+
 
 
 ## -description

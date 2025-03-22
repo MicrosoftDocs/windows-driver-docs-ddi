@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSiSCSI_HBASessionConfig structure"]
 ms.keywords: "*PMSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig, MSiSCSI_HBASessionConfig structure [Storage Devices], PMSiSCSI_HBASessionConfig, PMSiSCSI_HBASessionConfig structure pointer [Storage Devices], _MSiSCSI_HBASessionConfig, iscsimgt/MSiSCSI_HBASessionConfig, iscsimgt/PMSiSCSI_HBASessionConfig, storage.msiscsi_hbasessionconfig, structs-iSCSI_e8f9731d-11fb-42e1-90a0-09e3e6597ebe.xml"
 req.header: iscsimgt.h
+req.construct-type: structure
 req.include-header: Iscsimgt.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSiSCSI_HBASessionConfig
 ---
 
-# _MSiSCSI_HBASessionConfig structure
+# MSiSCSI_HBASessionConfig structure (iscsimgt.h)
+
+
 
 
 ## -description

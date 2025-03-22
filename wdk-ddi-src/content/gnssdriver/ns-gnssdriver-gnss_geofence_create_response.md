@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_GEOFENCE_CREATE_RESPONSE structure"]
 ms.keywords: "*PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_RESPONSE, PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices], gnss.gnss_geofence_create_response, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_GEOFENCE_CREATE_RESPONSE
  - GNSS_GEOFENCE_CREATE_RESPONSE
 ---
+
+# GNSS_GEOFENCE_CREATE_RESPONSE structure (gnssdriver.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_GETMULTIPLANEOVERLAYCAPS structure"]
 ms.keywords: "*IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], _DXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps"
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_GETMULTIPLANEOVERLAYCAPS
 ---
 
-# _DXGKARG_GETMULTIPLANEOVERLAYCAPS structure
+# DXGKARG_GETMULTIPLANEOVERLAYCAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

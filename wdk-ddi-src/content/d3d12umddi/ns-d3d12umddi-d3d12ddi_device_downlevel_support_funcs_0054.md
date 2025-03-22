@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure"]
 ms.keywords: D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054, D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054,
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure
+# D3D12DDI_DEVICE_DOWNLEVEL_SUPPORT_FUNCS_0054 structure (d3d12umddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/18/2022
 keywords: ["PCI_EXPRESS_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_CAPABILITY, PCI.pci_express_capability, PCI_EXPRESS_CAPABILITY, PCI_EXPRESS_CAPABILITY structure [Buses], PPCI_EXPRESS_CAPABILITY, PPCI_EXPRESS_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_CAPABILITY, ntddk/PCI_EXPRESS_CAPABILITY, ntddk/PPCI_EXPRESS_CAPABILITY, pci_struct_9c629781-bcee-486d-bab3-5d5b7441ac72.xml"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_EXPRESS_CAPABILITY
  - PCI_EXPRESS_CAPABILITY
 ---
+
+# PCI_EXPRESS_CAPABILITY structure (miniport.h)
 
 ## -description
 

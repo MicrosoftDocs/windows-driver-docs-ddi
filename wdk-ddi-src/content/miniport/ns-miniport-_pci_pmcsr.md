@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["PCI_PMCSR structure"]
 ms.keywords: "*PPCI_PMCSR, PCI.pci_pmcsr, PCI_PMCSR, PCI_PMCSR structure [Buses], PPCI_PMCSR, PPCI_PMCSR structure pointer [Buses], _PCI_PMCSR, pci_struct_03c3c722-9aa9-4fff-a50e-4499122d7490.xml, wdm/PCI_PMCSR, wdm/PPCI_PMCSR"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_PMCSR
  - PCI_PMCSR
 ---
+
+# PCI_PMCSR structure (miniport.h)
 
 ## -description
 

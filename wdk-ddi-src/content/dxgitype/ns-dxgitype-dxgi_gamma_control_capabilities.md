@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_GAMMA_CONTROL_CAPABILITIES structure"]
 ms.keywords: DXGI_GAMMA_CONTROL_CAPABILIITES, DXGI_GAMMA_CONTROL_CAPABILIITES structure [Display Devices], DXGI_GAMMA_CONTROL_CAPABILITIES, DXGI_GAMMA_CONTROL_CAPABILITIES structure [Display Devices], UMDisplayDriver_Dx10param_Structs_002eb4f0-081a-43df-a307-e979017daf6f.xml, display.dxgi_gamma_control_capabiliites, dxgitype/DXGI_GAMMA_CONTROL_CAPABILIITES
 req.header: dxgitype.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - DXGI_GAMMA_CONTROL_CAPABILITIES
 ---
 
-# DXGI_GAMMA_CONTROL_CAPABILITIES structure
+# DXGI_GAMMA_CONTROL_CAPABILITIES structure (dxgitype.h)
+
+
 
 
 ## -description

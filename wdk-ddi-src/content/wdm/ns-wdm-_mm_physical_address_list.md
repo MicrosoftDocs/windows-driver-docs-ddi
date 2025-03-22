@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MM_PHYSICAL_ADDRESS_LIST structure"]
 ms.keywords: "*PMM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST, MM_PHYSICAL_ADDRESS_LIST structure [Kernel-Mode Driver Architecture], PMM_PHYSICAL_ADDRESS_LIST, PMM_PHYSICAL_ADDRESS_LIST structure pointer [Kernel-Mode Driver Architecture], _MM_PHYSICAL_ADDRESS_LIST, kernel.mm_physical_address_list, wdm/MM_PHYSICAL_ADDRESS_LIST, wdm/PMM_PHYSICAL_ADDRESS_LIST"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MM_PHYSICAL_ADDRESS_LIST
 ---
 
-# _MM_PHYSICAL_ADDRESS_LIST structure
+# MM_PHYSICAL_ADDRESS_LIST structure (wdm.h)
+
+
 
 
 ## -description

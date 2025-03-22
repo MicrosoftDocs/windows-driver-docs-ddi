@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitAddConnections function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitAddConnections** function adds connections to an ACXCIRCUIT.

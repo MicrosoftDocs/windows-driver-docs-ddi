@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AUX_MODULE_BASIC_INFO structure"]
 ms.keywords: "*PAUX_MODULE_BASIC_INFO, AUX_MODULE_BASIC_INFO, AUX_MODULE_BASIC_INFO structure [Kernel-Mode Driver Architecture], PAUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO structure pointer [Kernel-Mode Driver Architecture], _AUX_MODULE_BASIC_INFO, aux_klib/AUX_MODULE_BASIC_INFO, aux_klib/PAUX_MODULE_BASIC_INFO, aux_klib_7c33c85c-d2d1-49ea-98e2-d25299a281b9.xml, kernel.aux_module_basic_info"
 req.header: aux_klib.h
+req.construct-type: structure
 req.include-header: Aux_klib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AUX_MODULE_BASIC_INFO
 ---
 
-# _AUX_MODULE_BASIC_INFO structure
+# AUX_MODULE_BASIC_INFO structure (aux_klib.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["RTL_SEGMENT_HEAP_PARAMETERS structure"]
 ms.keywords: _RTL_SEGMENT_HEAP_PARAMETERS, RTL_SEGMENT_HEAP_PARAMETERS, *PRTL_SEGMENT_HEAP_PARAMETERS,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - RTL_SEGMENT_HEAP_PARAMETERS
 ---
 
-# _RTL_SEGMENT_HEAP_PARAMETERS structure
+# RTL_SEGMENT_HEAP_PARAMETERS structure (ntifs.h)
+
+
 
 
 The **RTL_SEGMENT_HEAP_PARAMETERS** structure contains the segment heap parameters.

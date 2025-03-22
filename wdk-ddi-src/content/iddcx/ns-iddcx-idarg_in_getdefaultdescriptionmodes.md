@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure"]
 ms.keywords: IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 ---
 
-# IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure
+# IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure (iddcx.h)
+
+
 
 
 ## -description

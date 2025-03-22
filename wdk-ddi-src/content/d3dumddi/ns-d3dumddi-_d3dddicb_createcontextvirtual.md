@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DDDICB_CREATECONTEXTVIRTUAL, D3DDDICB_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DDDICB_CREATECONTEXTVIRTUAL, d3dumddi/D3DDDICB_CREATECONTEXTVIRTUAL, display.d3dddicb_createcontextvirtual
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DDDICB_CREATECONTEXTVIRTUAL
 ---
 
-# _D3DDDICB_CREATECONTEXTVIRTUAL structure
+# D3DDDICB_CREATECONTEXTVIRTUAL structure (d3dumddi.h)
+
+
 
 
 ## -description

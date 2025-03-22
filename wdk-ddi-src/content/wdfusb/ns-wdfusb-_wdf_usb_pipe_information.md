@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_PIPE_INFORMATION structure"]
 ms.keywords: "*PWDF_USB_PIPE_INFORMATION, DFUsbRef_80f26f29-adf0-4017-b261-36637da41c0d.xml, PWDF_USB_PIPE_INFORMATION, PWDF_USB_PIPE_INFORMATION structure pointer, WDF_USB_PIPE_INFORMATION, WDF_USB_PIPE_INFORMATION structure, _WDF_USB_PIPE_INFORMATION, kmdf.wdf_usb_pipe_information, wdf.wdf_usb_pipe_information, wdfusb/PWDF_USB_PIPE_INFORMATION, wdfusb/WDF_USB_PIPE_INFORMATION"
 req.header: wdfusb.h
+req.construct-type: structure
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_USB_PIPE_INFORMATION
 ---
 
-# _WDF_USB_PIPE_INFORMATION structure
+# WDF_USB_PIPE_INFORMATION structure (wdfusb.h)
+
+
 
 
 ## -description

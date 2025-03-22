@@ -7,6 +7,7 @@ ms.date: 11/07/2019
 keywords: ["NET_EXTENSION_QUERY structure"]
 ms.keywords: NET_EXTENSION_QUERY, NET_EXTENSION_QUERY,
 req.header: netadapterpacket.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NET_EXTENSION_QUERY
 ---
 
-# NET_EXTENSION_QUERY structure
+# NET_EXTENSION_QUERY structure (netadapterpacket.h)
+
+
 
 
 ## -description

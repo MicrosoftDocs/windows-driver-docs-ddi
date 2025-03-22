@@ -7,6 +7,7 @@ ms.date: 06/17/2022
 keywords: ["GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure"]
 ms.keywords: "*PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA, GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure [Sensor Devices], PGNSS_GEOFENCES_TRACKINGSTATUS_DATA, PGNSS_GEOFENCES_TRACKINGSTATUS_DATA structure pointer [Sensor Devices], gnss.gnss_geofences_trackingstatus_data, gnssdriver/GNSS_GEOFENCES_TRACKINGSTATUS_DATA, gnssdriver/PGNSS_GEOFENCES_TRACKINGSTATUS_DATA"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_GEOFENCES_TRACKINGSTATUS_DATA
  - GNSS_GEOFENCES_TRACKINGSTATUS_DATA
 ---
+
+# GNSS_GEOFENCES_TRACKINGSTATUS_DATA structure (gnssdriver.h)
 
 ## -description
 

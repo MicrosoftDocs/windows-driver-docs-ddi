@@ -7,6 +7,7 @@ ms.date: 07/19/2022
 keywords: ["PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure"]
 ms.keywords: "*PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI.pci_express_slot_capabilities_register, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, pci_struct_095f0907-dfff-491b-8734-28b42794c46b.xml"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
  - PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 ---
+
+# PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure (miniport.h)
 
 ## -description
 

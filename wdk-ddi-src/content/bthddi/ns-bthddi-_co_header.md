@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["CO_HEADER structure"]
 ms.keywords: CO_HEADER, CO_HEADER structure [Bluetooth Devices], _CO_HEADER, bltooth.co_header, bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml, bthddi/CO_HEADER
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -43,7 +44,9 @@ api_name:
  - CO_HEADER
 ---
 
-# _CO_HEADER structure
+# CO_HEADER structure (bthddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["PosDeviceBasicsType structure"]
 ms.keywords: PosDeviceBasicsType, PosDeviceBasicsType structure, _PosDeviceBasicsType, pointofservicedriverinterface/PosDeviceBasicsType, pos.posdevicebasicstype
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PosDeviceBasicsType
 ---
 
-# _PosDeviceBasicsType structure
+# PosDeviceBasicsType structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

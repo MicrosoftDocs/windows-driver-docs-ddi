@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSFASTPROPERTY_ITEM structure"]
 ms.keywords: "*PKSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM, KSFASTPROPERTY_ITEM structure [Streaming Media Devices], PKSFASTPROPERTY_ITEM, PKSFASTPROPERTY_ITEM structure pointer [Streaming Media Devices], ks-struct_dddb648f-ea8a-436a-b948-397364fe2db6.xml, ks/KSFASTPROPERTY_ITEM, ks/PKSFASTPROPERTY_ITEM, stream.ksfastproperty_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSFASTPROPERTY_ITEM
 ---
 
-# KSFASTPROPERTY_ITEM structure
+# KSFASTPROPERTY_ITEM structure (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiInquiry_IN structure"]
 ms.keywords: "*PScsiInquiry_IN, PScsiInquiry_IN, PScsiInquiry_IN structure pointer [Storage Devices], ScsiInquiry_IN, ScsiInquiry_IN structure [Storage Devices], _ScsiInquiry_IN, hbapiwmi/PScsiInquiry_IN, hbapiwmi/ScsiInquiry_IN, storage.scsiinquiry_in2, structs-Fibre_b1f0d146-5bc7-4d98-b97e-ec508b4023c9.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ScsiInquiry_IN
 ---
 
-# _ScsiInquiry_IN structure (hbapiwmi.h)
+# ScsiInquiry_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["BDA_MUX_PIDLISTITEM structure"]
 ms.keywords: _BDA_MUX_PIDLISTITEM, BDA_MUX_PIDLISTITEM, *PBDA_MUX_PIDLISTITEM,
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - BDA_MUX_PIDLISTITEM
 ---
 
-# _BDA_MUX_PIDLISTITEM structure
+# BDA_MUX_PIDLISTITEM structure (bdatypes.h)
+
+
 
 
 ## -description

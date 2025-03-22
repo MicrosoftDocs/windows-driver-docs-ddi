@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_FCAdapterHBAAttributes structure"]
 ms.keywords: "*PMSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes, MSFC_FCAdapterHBAAttributes structure [Storage Devices], PMSFC_FCAdapterHBAAttributes, PMSFC_FCAdapterHBAAttributes structure pointer [Storage Devices], _MSFC_FCAdapterHBAAttributes, hbapiwmi/MSFC_FCAdapterHBAAttributes, hbapiwmi/PMSFC_FCAdapterHBAAttributes, storage.msfc_fcadapterhbaattributes, structs-Fibre_07d902b9-2da0-4bca-94ab-db837beff481.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_FCAdapterHBAAttributes
 ---
 
-# _MSFC_FCAdapterHBAAttributes structure
+# MSFC_FCAdapterHBAAttributes structure (hbapiwmi.h)
+
+
 
 
 ## -description

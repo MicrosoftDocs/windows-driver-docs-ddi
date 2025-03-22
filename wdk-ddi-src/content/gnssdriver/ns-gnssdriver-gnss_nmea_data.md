@@ -7,6 +7,7 @@ ms.date: 06/20/2022
 keywords: ["GNSS_NMEA_DATA structure"]
 ms.keywords: "*PGNSS_NMEA_DATA, GNSS_NMEA_DATA, GNSS_NMEA_DATA structure [Sensor Devices], PGNSS_NMEA_DATA, PGNSS_NMEA_DATA structure pointer [Sensor Devices], gnss.gnss_nmea_data, gnssdriver/GNSS_NMEA_DATA, gnssdriver/PGNSS_NMEA_DATA"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_NMEA_DATA
  - GNSS_NMEA_DATA
 ---
+
+# GNSS_NMEA_DATA structure (gnssdriver.h)
 
 ## -description
 

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAM_BRIDGE_CONFIG structure (acxstreams.h)
+
 ## -description
 
 The **ACX_STREAM_BRIDGE_CONFIG** structure is used to configure attributes, such as the AUDIO_SIGNALPROCESSINGMODEs, and the ACX_STREAM_BRIDGE_TYPE for the AcxStreamBridge. The AcxStreamBridge is used by a circuit to propagate stream creation, the stream’s states transitions and DRM settings between the endpoint's circuit stream segments. For information about ACX streaming, see [ACX streaming](/windows-hardware/drivers/audio/acx-streaming).

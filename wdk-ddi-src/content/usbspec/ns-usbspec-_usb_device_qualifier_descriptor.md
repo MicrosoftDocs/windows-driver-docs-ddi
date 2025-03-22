@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_DEVICE_QUALIFIER_DESCRIPTOR structure"]
 ms.keywords: "*PUSB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR, PUSB_DEVICE_QUALIFIER_DESCRIPTOR structure pointer [Buses], USB_DEVICE_QUALIFIER_DESCRIPTOR, USB_DEVICE_QUALIFIER_DESCRIPTOR structure [Buses], _USB_DEVICE_QUALIFIER_DESCRIPTOR, buses.usb_device_qualifier_descriptor, usbspec/PUSB_DEVICE_QUALIFIER_DESCRIPTOR, usbspec/USB_DEVICE_QUALIFIER_DESCRIPTOR, usbstrct_af615085-b822-4342-b1dd-950a0ff61d99.xml"
 req.header: usbspec.h
+req.construct-type: structure
 req.include-header: Usb200.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_DEVICE_QUALIFIER_DESCRIPTOR
 ---
 
-# _USB_DEVICE_QUALIFIER_DESCRIPTOR structure
+# USB_DEVICE_QUALIFIER_DESCRIPTOR structure (usbspec.h)
+
+
 
 
 ## -description

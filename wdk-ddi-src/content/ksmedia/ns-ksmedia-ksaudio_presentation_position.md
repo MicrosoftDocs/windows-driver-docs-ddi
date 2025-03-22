@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSAUDIO_PRESENTATION_POSITION structure"]
 ms.keywords: "*PKSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION, KSAUDIO_PRESENTATION_POSITION structure [Audio Devices], PKSAUDIO_PRESENTATION_POSITION, PKSAUDIO_PRESENTATION_POSITION structure pointer [Audio Devices], audio.ksaudio_presentation_position, ksmedia/KSAUDIO_PRESENTATION_POSITION, ksmedia/PKSAUDIO_PRESENTATION_POSITION"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - KSAUDIO_PRESENTATION_POSITION
 ---
 
-# KSAUDIO_PRESENTATION_POSITION structure
+# KSAUDIO_PRESENTATION_POSITION structure (ksmedia.h)
+
+
 
 
 ## -description

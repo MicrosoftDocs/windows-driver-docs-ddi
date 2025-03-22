@@ -37,7 +37,9 @@ f1_keywords:
  - gnssdriver/GNSS_SUPL_VERSION_2
 ---
 
-# GNSS_SUPL_VERSION_2 structure
+# GNSS_SUPL_VERSION_2 structure (gnssdriver.h)
+
+
 
 
 ## -description

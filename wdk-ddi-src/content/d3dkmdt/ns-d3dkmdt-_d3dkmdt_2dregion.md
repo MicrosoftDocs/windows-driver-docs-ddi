@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_2DREGION structure"]
 ms.keywords: D3DKMDT_2DOFFSET, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices], DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION, d3dkmdt/D3DKMDT_2DREGION, display.d3dkmdt_2dregion
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_2DREGION
 ---
 
-# _D3DKMDT_2DREGION structure
+# D3DKMDT_2DREGION structure (d3dkmdt.h)
+
+
 
 
 ## -description

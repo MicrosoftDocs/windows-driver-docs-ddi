@@ -8,6 +8,7 @@ ms.date: 09/09/2021
 keywords: ["ECP_OPEN_PARAMETERS structure"]
 ms.keywords: "*PECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS, ECP_OPEN_PARAMETERS structure [Installable File System Drivers], PECP_OPEN_PARAMETERS, PECP_OPEN_PARAMETERS structure pointer [Installable File System Drivers], _ECP_OPEN_PARAMETERS, ifsk.ecp_open_parameters, ntifs/ECP_OPEN_PARAMETERS, ntifs/PECP_OPEN_PARAMETERS"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709.
@@ -46,7 +47,9 @@ api_name:
  - ECP_OPEN_PARAMETERS
 ---
 
-# ECP_OPEN_PARAMETERS structure
+# ECP_OPEN_PARAMETERS structure (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_VERSION structure"]
 ms.keywords: _UCSI_VERSION, UCSI_VERSION, *PUCSI_VERSION,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_VERSION
 ---
 
-# _UCSI_VERSION structure
+# UCSI_VERSION structure (ucmucsispec.h)
+
+
 
 
 ## -description

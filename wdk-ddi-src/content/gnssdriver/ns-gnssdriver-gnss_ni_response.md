@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_NI_RESPONSE structure"]
 ms.keywords: "*PGNSS_NI_RESPONSE, GNSS_NI_RESPONSE, GNSS_NI_RESPONSE structure [Sensor Devices], PGNSS_NI_RESPONSE, PGNSS_NI_RESPONSE structure pointer [Sensor Devices], gnss.gnss_ni_response, gnssdriver/GNSS_NI_RESPONSE, gnssdriver/PGNSS_NI_RESPONSE"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - GNSS_NI_RESPONSE
 ---
 
-# GNSS_NI_RESPONSE structure
+# GNSS_NI_RESPONSE structure (gnssdriver.h)
+
+
 
 
 ## -description

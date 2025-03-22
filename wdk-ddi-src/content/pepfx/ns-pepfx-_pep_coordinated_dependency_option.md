@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_COORDINATED_DEPENDENCY_OPTION structure"]
 ms.keywords: "*PPEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION, PEP_COORDINATED_DEPENDENCY_OPTION structure [Kernel-Mode Driver Architecture], PPEP_COORDINATED_DEPENDENCY_OPTION, PPEP_COORDINATED_DEPENDENCY_OPTION structure pointer [Kernel-Mode Driver Architecture], _PEP_COORDINATED_DEPENDENCY_OPTION, kernel.pep_coordinated_dependency_option, pepfx/PEP_COORDINATED_DEPENDENCY_OPTION, pepfx/PPEP_COORDINATED_DEPENDENCY_OPTION"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_COORDINATED_DEPENDENCY_OPTION
 ---
 
-# _PEP_COORDINATED_DEPENDENCY_OPTION structure (pepfx.h)
+# PEP_COORDINATED_DEPENDENCY_OPTION structure (pepfx.h)
+
+
 
 
 ## -description

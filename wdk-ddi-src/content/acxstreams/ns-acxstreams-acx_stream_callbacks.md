@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAM_CALLBACKS structure (acxstreams.h)
+
 ## -description
 
 The **ACX_STREAM_CALLBACKS** structure identifies the driver callbacks for streaming to the ACX framework. This structure is a part of the [ACX_PIN_CONFIG structure](/windows-hardware/drivers/ddi/acxpin/ns-acxpin-acx_pin_config).

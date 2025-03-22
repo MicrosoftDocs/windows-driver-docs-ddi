@@ -8,6 +8,7 @@ ms.date: 02/06/2022
 keywords: ["DEBUG_HANDLE_DATA_BASIC structure"]
 ms.keywords: "*PDEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC, DEBUG_HANDLE_DATA_BASIC structure [Windows Debugging], PDEBUG_HANDLE_DATA_BASIC, PDEBUG_HANDLE_DATA_BASIC structure pointer [Windows Debugging], Structures_e4fb66c0-8e88-4f35-a103-0cc0f7cc1bfd.xml, _DEBUG_HANDLE_DATA_BASIC, dbgeng/DEBUG_HANDLE_DATA_BASIC, dbgeng/PDEBUG_HANDLE_DATA_BASIC, debugger.debug_handle_data_basic"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_HANDLE_DATA_BASIC
 ---
 
-# _DEBUG_HANDLE_DATA_BASIC structure
+# DEBUG_HANDLE_DATA_BASIC structure (dbgeng.h)
+
+
 
 
 ## -description

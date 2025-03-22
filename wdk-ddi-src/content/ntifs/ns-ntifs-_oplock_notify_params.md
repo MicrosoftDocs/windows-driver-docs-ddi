@@ -7,6 +7,7 @@ tech.root: ifsk
 ms.date: 03/24/2020
 ms.keywords: "*POPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS, OPLOCK_NOTIFY_PARAMS structure [File System Drivers], FsRtlCheckOplockEx2"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
@@ -45,7 +46,9 @@ api_name:
  - OPLOCK_NOTIFY_PARAMS
 ---
 
-# _OPLOCK_NOTIFY_PARAMS structure
+# OPLOCK_NOTIFY_PARAMS structure (ntifs.h)
+
+
 
 
 ## -description

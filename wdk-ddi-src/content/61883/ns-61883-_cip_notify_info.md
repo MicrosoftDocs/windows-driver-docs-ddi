@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CIP_NOTIFY_INFO structure"]
 ms.keywords: "*PCIP_NOTIFY_INFO, 61883/CIP_NOTIFY_INFO, 61883/PCIP_NOTIFY_INFO, 61883_structures_383bc74c-1168-4478-8284-b2724f9ec654.xml, CIP_NOTIFY_INFO, CIP_NOTIFY_INFO structure [Buses], IEEE.cip_notify_info, PCIP_NOTIFY_INFO, PCIP_NOTIFY_INFO structure pointer [Buses], _CIP_NOTIFY_INFO"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_NOTIFY_INFO
 ---
 
-# _CIP_NOTIFY_INFO structure
+# CIP_NOTIFY_INFO structure (61883.h)
+
+
 
 
 ## -description

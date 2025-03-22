@@ -7,6 +7,7 @@ ms.date: 04/05/2019
 keywords: ["IEventDetectorOemAdapterVtbl structure"]
 ms.keywords: IEventDetectorOemAdapterVtbl, IEventDetectorOemAdapterVtbl,
 req.header: eventdetectoroemadapter.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - IEventDetectorOemAdapterVtbl
 ---
 
-# IEventDetectorOemAdapterVtbl structure
+# IEventDetectorOemAdapterVtbl structure (eventdetectoroemadapter.h)
+
+
 
 
 ## -description

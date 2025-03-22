@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_REGISTER_DESCRIPTION structure"]
 ms.keywords: "*PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, _DEBUG_REGISTER_DESCRIPTION, dbgeng/DEBUG_REGISTER_DESCRIPTION, dbgeng/PDEBUG_REGISTER_DESCRIPTION, debugger.debug_register_description"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_REGISTER_DESCRIPTION
 ---
 
-# _DEBUG_REGISTER_DESCRIPTION structure
+# DEBUG_REGISTER_DESCRIPTION structure (dbgeng.h)
+
+
 
 
 ## -description

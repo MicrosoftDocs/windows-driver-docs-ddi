@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_UNMASKED_INTERRUPT_INFORMATION structure"]
 ms.keywords: "*PPEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_UNMASKED_INTERRUPT_INFORMATION, PPEP_UNMASKED_INTERRUPT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_INFORMATION, kernel.pep_unmasked_interrupt_information, pepfx/PEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PPEP_UNMASKED_INTERRUPT_INFORMATION"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_UNMASKED_INTERRUPT_INFORMATION
 ---
 
-# _PEP_UNMASKED_INTERRUPT_INFORMATION structure (pepfx.h)
+# PEP_UNMASKED_INTERRUPT_INFORMATION structure (pepfx.h)
+
+
 
 
 ## -description

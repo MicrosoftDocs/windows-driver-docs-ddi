@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_DESCRIPTION structure (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_DESCRIPTION** structure describes attributes of an audio jack, such as connection type, physical location, and so on.

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_PROTOCOLS structure"]
 ms.keywords: "*PUSB_PROTOCOLS, PUSB_PROTOCOLS, PUSB_PROTOCOLS union pointer [Buses], USB_PROTOCOLS, USB_PROTOCOLS union [Buses], _USB_PROTOCOLS, buses.usb_protocols, usbioctl/PUSB_PROTOCOLS, usbioctl/USB_PROTOCOLS"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - USB_PROTOCOLS
 ---
 
-# _USB_PROTOCOLS structure
+# USB_PROTOCOLS structure (usbioctl.h)
+
+
 
 
 ## -description

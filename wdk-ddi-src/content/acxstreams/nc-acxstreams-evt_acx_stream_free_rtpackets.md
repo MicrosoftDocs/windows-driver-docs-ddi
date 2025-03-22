@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_FREE_RTPACKETS function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamFreeRtPackets** event tells the driver to free the RtPackets that were allocated in a previous call to EvtAcxStreamAllocateRtPackets. The same packets from that call are included.

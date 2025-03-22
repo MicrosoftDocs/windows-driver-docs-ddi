@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# acxtargets apiset (acxtargets.h)
+
 ## -description
 
 The acxtargets header is used by the ACX audio class extensions. For more information, see [ACX Audio Class Extensions overview](/windows-hardware/drivers/audio/acx-audio-class-extensions-overview).

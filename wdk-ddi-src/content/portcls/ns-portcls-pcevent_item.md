@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PCEVENT_ITEM structure"]
 ms.keywords: "*PPCEVENT_ITEM, PCEVENT_ITEM, PCEVENT_ITEM structure [Audio Devices], PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], audio.pcevent_item, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PCEVENT_ITEM, portcls/PPCEVENT_ITEM"
 req.header: portcls.h
+req.construct-type: structure
 req.include-header: Portcls.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PCEVENT_ITEM
 ---
 
-# PCEVENT_ITEM structure
+# PCEVENT_ITEM structure (portcls.h)
+
+
 
 
 ## -description

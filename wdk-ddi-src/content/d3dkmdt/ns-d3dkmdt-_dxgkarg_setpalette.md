@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_SETPALETTE structure"]
 ms.keywords: DXGKARG_SETPALETTE, DXGKARG_SETPALETTE structure [Display Devices], DmStructs_d5720608-bc3d-437a-b080-6cd8b9635391.xml, _DXGKARG_SETPALETTE, d3dkmdt/DXGKARG_SETPALETTE, display.dxgkarg_setpalette
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_SETPALETTE
 ---
 
-# _DXGKARG_SETPALETTE structure
+# DXGKARG_SETPALETTE structure (d3dkmdt.h)
+
+
 
 
 ## -description

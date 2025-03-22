@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MSFC_HBAPortAttributesResults structure"]
 ms.keywords: "*PMSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults, MSFC_HBAPortAttributesResults structure [Storage Devices], PMSFC_HBAPortAttributesResults, PMSFC_HBAPortAttributesResults structure pointer [Storage Devices], _MSFC_HBAPortAttributesResults, hbapiwmi/MSFC_HBAPortAttributesResults, hbapiwmi/PMSFC_HBAPortAttributesResults, storage.msfc_hbaportattributesresults, structs-Fibre_976d4a28-f7d1-4a94-849c-f917f5bce339.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h, Hbaapi.h, Hbaapi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSFC_HBAPortAttributesResults
 ---
 
-# _MSFC_HBAPortAttributesResults structure
+# MSFC_HBAPortAttributesResults structure (hbapiwmi.h)
+
+
 
 
 ## -description

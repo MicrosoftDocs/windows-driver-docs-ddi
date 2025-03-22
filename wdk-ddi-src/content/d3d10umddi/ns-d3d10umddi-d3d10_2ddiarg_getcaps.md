@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_2DDIARG_GETCAPS structure"]
 ms.keywords: D3D10_2DDIARG_GETCAPS, D3D10_2DDIARG_GETCAPS structure [Display Devices], UMDisplayDriver_Dx11param_Structs_0d9c80db-e29f-4e2f-b697-bcf87f29034c.xml, d3d10umddi/D3D10_2DDIARG_GETCAPS, display.d3d10_2ddiarg_getcaps
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D10_2DDIARG_GETCAPS is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_2DDIARG_GETCAPS
 ---
 
-# D3D10_2DDIARG_GETCAPS structure
+# D3D10_2DDIARG_GETCAPS structure (d3d10umddi.h)
+
+
 
 
 ## -description

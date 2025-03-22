@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["CHARGINGSTATUSCOMPLETE structure"]
 ms.keywords: "*PCHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE structure [Battery Devices], _CHARGINGSTATUSCOMPLETE, battery.chargingstatuscomplete, charging/BATTERY_INFORMATION"
 req.header: charging.h
+req.construct-type: structure
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CHARGINGSTATUSCOMPLETE
 ---
 
-# _CHARGINGSTATUSCOMPLETE structure
+# CHARGINGSTATUSCOMPLETE structure (charging.h)
+
+
 
 ## -description
 

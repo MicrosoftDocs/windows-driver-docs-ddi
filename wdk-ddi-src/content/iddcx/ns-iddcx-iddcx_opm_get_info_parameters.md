@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDDCX_OPM_GET_INFO_PARAMETERS structure"]
 ms.keywords: IDDCX_OPM_GET_INFO_PARAMETERS, IDDCX_OPM_GET_INFO_PARAMETERS structure [Display Devices], display.iddcx_opm_get_info_parameters, iddcx/IDDCX_OPM_GET_INFO_PARAMETERS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_OPM_GET_INFO_PARAMETERS
 ---
 
-# IDDCX_OPM_GET_INFO_PARAMETERS structure
+# IDDCX_OPM_GET_INFO_PARAMETERS structure (iddcx.h)
+
+
 
 
 ## -description

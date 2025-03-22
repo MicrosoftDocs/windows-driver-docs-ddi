@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_CREATECOMMANDLIST structure"]
 ms.keywords: D3D11DDIARG_CREATECOMMANDLIST, D3D11DDIARG_CREATECOMMANDLIST structure [Display Devices], UMDisplayDriver_Dx11param_Structs_fc1a42ad-2d14-44de-abf1-480810b8d080.xml, d3d10umddi/D3D11DDIARG_CREATECOMMANDLIST, display.d3d11ddiarg_createcommandlist
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDIARG_CREATECOMMANDLIST is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDIARG_CREATECOMMANDLIST
 ---
 
-# D3D11DDIARG_CREATECOMMANDLIST structure
+# D3D11DDIARG_CREATECOMMANDLIST structure (d3d10umddi.h)
+
+
 
 
 ## -description

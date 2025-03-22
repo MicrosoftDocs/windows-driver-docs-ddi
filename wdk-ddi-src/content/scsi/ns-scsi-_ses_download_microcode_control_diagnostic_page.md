@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure"]
 ms.keywords: "*PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, Activate deferred microcode, Download microcode with offsets,save,and activate, Download microcode with offsets,save,and defer activate, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure pointer [Storage Devices], Reserved, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure [Storage Devices], _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/PSES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, scsi/SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE, storage.ses_download_microcode_control_diagnostic_page"
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE
 ---
 
-# _SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure (scsi.h)
+# SES_DOWNLOAD_MICROCODE_CONTROL_DIAGNOSTIC_PAGE structure (scsi.h)
+
+
 
 
 ## -description

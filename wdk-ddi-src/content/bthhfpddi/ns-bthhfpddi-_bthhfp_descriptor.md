@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["BTHHFP_DESCRIPTOR structure"]
 ms.keywords: "*PBTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR, BTHHFP_DESCRIPTOR structure [Audio Devices], PBTHHFP_DESCRIPTOR, PBTHHFP_DESCRIPTOR structure pointer [Audio Devices], _BTHHFP_DESCRIPTOR, audio.bthhfp_descriptor, bthhfpddi/BTHHFP_DESCRIPTOR, bthhfpddi/PBTHHFP_DESCRIPTOR"
 req.header: bthhfpddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - BTHHFP_DESCRIPTOR
 ---
 
-# _BTHHFP_DESCRIPTOR structure
+# BTHHFP_DESCRIPTOR structure (bthhfpddi.h)
+
+
 
 
 ## -description

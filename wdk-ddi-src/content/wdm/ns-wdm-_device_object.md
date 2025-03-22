@@ -6,6 +6,7 @@ tech.root: kernel
 ms.date: 02/09/2024
 keywords: ["DEVICE_OBJECT structure"]
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,6 +44,8 @@ api_name:
  - PDEVICE_OBJECT
  - DEVICE_OBJECT
 ---
+
+# DEVICE_OBJECT structure (wdm.h)
 
 ## -description
 

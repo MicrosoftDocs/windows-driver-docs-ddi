@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_DECODEBUFFERDESC structure"]
 ms.keywords: DXVA2_Structs_0946584e-3d1f-4bb4-95d5-7ae2c669814a.xml, DXVADDI_DECODEBUFFERDESC, DXVADDI_DECODEBUFFERDESC structure [Display Devices], _DXVADDI_DECODEBUFFERDESC, d3dumddi/DXVADDI_DECODEBUFFERDESC, display.dxvaddi_decodebufferdesc
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_DECODEBUFFERDESC
 ---
 
-# _DXVADDI_DECODEBUFFERDESC structure
+# DXVADDI_DECODEBUFFERDESC structure (d3dumddi.h)
+
+
 
 
 ## -description

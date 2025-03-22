@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["INTERNAL_I8042_HOOK_MOUSE structure"]
 ms.keywords: "*PINTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE, INTERNAL_I8042_HOOK_MOUSE structure [Human Input Devices], PINTERNAL_I8042_HOOK_MOUSE, PINTERNAL_I8042_HOOK_MOUSE structure pointer [Human Input Devices], _INTERNAL_I8042_HOOK_MOUSE, hid.internal_i8042_hook_mouse, i8042ref_23133caf-3bd0-4160-8213-899e37b7703e.xml, ntdd8042/INTERNAL_I8042_HOOK_MOUSE, ntdd8042/PINTERNAL_I8042_HOOK_MOUSE"
 req.header: ntdd8042.h
+req.construct-type: structure
 req.include-header: Ntdd8042.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - INTERNAL_I8042_HOOK_MOUSE
 ---
 
-# _INTERNAL_I8042_HOOK_MOUSE structure
+# INTERNAL_I8042_HOOK_MOUSE structure (ntdd8042.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_LoginOptions structure"]
 ms.keywords: "*PISCSI_LoginOptions, ISCSI_LoginOptions, ISCSI_LoginOptions structure [Storage Devices], PISCSI_LoginOptions, PISCSI_LoginOptions structure pointer [Storage Devices], _ISCSI_LoginOptions, iscsidef/ISCSI_LoginOptions, iscsidef/PISCSI_LoginOptions, storage.iscsi_loginoptions, structs-iSCSI_d6ba6d7e-95c3-42a4-bed9-c038c1702d59.xml"
 req.header: iscsidef.h
+req.construct-type: structure
 req.include-header: Iscsidef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_LoginOptions
 ---
 
-# _ISCSI_LoginOptions structure
+# ISCSI_LoginOptions structure (iscsidef.h)
+
+
 
 
 ## -description

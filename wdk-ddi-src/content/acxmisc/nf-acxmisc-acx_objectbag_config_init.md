@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_OBJECTBAG_CONFIG_INIT function (acxmisc.h)
+
 ## -description
 
 The ACX_OBJECTBAG_CONFIG_INIT function initializes an [ACX_OBJECTBAG_CONFIG](ns-acxmisc-acx_objectbag_config.md) structure.

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["PARALLEL_INTERRUPT_INFORMATION structure"]
 ms.keywords: "*PPARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION, PARALLEL_INTERRUPT_INFORMATION structure [Parallel Ports], PPARALLEL_INTERRUPT_INFORMATION, PPARALLEL_INTERRUPT_INFORMATION structure pointer [Parallel Ports], _PARALLEL_INTERRUPT_INFORMATION, cisspd_3912e608-5549-4b0a-a48d-fdc34af7bc04.xml, parallel/PARALLEL_INTERRUPT_INFORMATION, parallel/PPARALLEL_INTERRUPT_INFORMATION, parports.parallel_interrupt_information"
 req.header: parallel.h
+req.construct-type: structure
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARALLEL_INTERRUPT_INFORMATION
 ---
 
-# _PARALLEL_INTERRUPT_INFORMATION structure
+# PARALLEL_INTERRUPT_INFORMATION structure (parallel.h)
+
+
 
 
 ## -description

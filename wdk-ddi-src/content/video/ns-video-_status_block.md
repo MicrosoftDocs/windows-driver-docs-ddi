@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["STATUS_BLOCK structure"]
 ms.keywords: "*PSTATUS_BLOCK, PSTATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], STATUS_BLOCK, STATUS_BLOCK structure [Display Devices], Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, _STATUS_BLOCK, display.status_block, video/PSTATUS_BLOCK, video/STATUS_BLOCK"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STATUS_BLOCK
 ---
 
-# _STATUS_BLOCK structure
+# STATUS_BLOCK structure (video.h)
+
+
 
 
 ## -description

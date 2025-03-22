@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_CREATE_PROCESS_OPTIONS structure"]
 ms.keywords: "*PDEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS, DEBUG_CREATE_PROCESS_OPTIONS structure [Windows Debugging], PDEBUG_CREATE_PROCESS_OPTIONS, PDEBUG_CREATE_PROCESS_OPTIONS structure pointer [Windows Debugging], Structures_2dc7014a-a1c3-4d31-b754-834f5d06c482.xml, _DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/DEBUG_CREATE_PROCESS_OPTIONS, dbgeng/PDEBUG_CREATE_PROCESS_OPTIONS, debugger.debug_create_process_options"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_CREATE_PROCESS_OPTIONS
 ---
 
-# _DEBUG_CREATE_PROCESS_OPTIONS structure
+# DEBUG_CREATE_PROCESS_OPTIONS structure (dbgeng.h)
+
+
 
 
 ## -description

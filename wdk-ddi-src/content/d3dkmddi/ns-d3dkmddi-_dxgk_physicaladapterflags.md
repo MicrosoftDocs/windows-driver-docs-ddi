@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["DXGK_PHYSICALADAPTERFLAGS structure"]
 ms.keywords: DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PHYSICALADAPTERFLAGS
 ---
 
-# _DXGK_PHYSICALADAPTERFLAGS structure
+# DXGK_PHYSICALADAPTERFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_GO_INTENT structure"]
 ms.keywords: "*PDOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_GO_INTENT, netvista._dot11_wfd_go_intent, windot11/DOT11_WFD_GO_INTENT, windot11/PDOT11_WFD_GO_INTENT"
 req.header: windot11.h
+req.construct-type: structure
 req.include-header: Windot11.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_GO_INTENT
 ---
 
-# _DOT11_WFD_GO_INTENT structure
+# DOT11_WFD_GO_INTENT structure (windot11.h)
+
+
 
 
 ## -description

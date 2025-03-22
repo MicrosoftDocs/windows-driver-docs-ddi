@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_RT_STREAM_CALLBACKS_INIT function (acxstreams.h)
+
 ## -description
 
 The **ACX_RT_STREAM_CALLBACKS_INIT** function initializes the ACX RT stream callbacks.

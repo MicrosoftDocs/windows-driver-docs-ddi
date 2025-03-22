@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterAdd0
 ---
 
+# FwpmFilterAdd0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterAdd0** function adds a new filter object to the system.

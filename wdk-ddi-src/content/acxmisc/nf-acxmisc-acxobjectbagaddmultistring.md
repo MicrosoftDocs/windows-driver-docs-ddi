@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddMultiString function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddMultiString function adds a MultiString to an existing, initialized AcxObjectBag.

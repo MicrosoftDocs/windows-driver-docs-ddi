@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["D3D12DDI_DEVICE_FUNCS_CORE_0010 structure"]
 ms.keywords: D3D12DDI_DEVICE_FUNCS_CORE_0010, D3D12DDI_DEVICE_FUNCS_CORE_0010 structure [Display Devices], d3d12umddi/D3D12DDI_DEVICE_FUNCS_CORE_0010, display.d3d12ddi_device_funcs_core_0010
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_DEVICE_FUNCS_CORE_0010
 ---
 
-# D3D12DDI_DEVICE_FUNCS_CORE_0010 structure
+# D3D12DDI_DEVICE_FUNCS_CORE_0010 structure (d3d12umddi.h)
+
+
 
 
 ## -description

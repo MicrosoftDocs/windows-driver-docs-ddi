@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_RANGE_ERROR_INFO structure"]
 ms.keywords: DEVICE_DSM_RANGE_ERROR_INFO, DEVICE_DSM_RANGE_ERROR_INFO, *PDEVICE_DSM_RANGE_ERROR_INFO, DEVICE_DSM_RANGE_ERROR_OUTPUT, *PDEVICE_DSM_RANGE_ERROR_OUTPUT,
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ f1_keywords:
  - ntddstor/DEVICE_DSM_RANGE_ERROR_INFO
 ---
 
-# DEVICE_DSM_RANGE_ERROR_INFO structure
+# DEVICE_DSM_RANGE_ERROR_INFO structure (ntddstor.h)
+
+
 
 
 ## -description

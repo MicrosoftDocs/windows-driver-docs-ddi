@@ -7,6 +7,7 @@ ms.date: 03/06/2023
 keywords: ["KSOBJECT_CREATE_ITEM structure"]
 ms.keywords: "*PKSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM, KSOBJECT_CREATE_ITEM structure [Streaming Media Devices], PKSOBJECT_CREATE_ITEM, PKSOBJECT_CREATE_ITEM structure pointer [Streaming Media Devices], ks-struct_d09f00c9-44ef-44fa-b46e-2ab540797a53.xml, ks/KSOBJECT_CREATE_ITEM, ks/PKSOBJECT_CREATE_ITEM, stream.ksobject_create_item"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PKSOBJECT_CREATE_ITEM
  - KSOBJECT_CREATE_ITEM
 ---
+
+# KSOBJECT_CREATE_ITEM structure (ks.h)
 
 ## -description
 

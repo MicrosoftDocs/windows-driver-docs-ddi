@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["DEBUG_TYPED_DATA structure"]
 ms.keywords: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging], PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, debugger.debug_typed_data, wdbgexts/DEBUG_TYPED_DATA, wdbgexts/PDEBUG_TYPED_DATA"
 req.header: wdbgexts.h
+req.construct-type: structure
 req.include-header: WdbgExts.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEBUG_TYPED_DATA
 ---
 
-# _DEBUG_TYPED_DATA structure
+# DEBUG_TYPED_DATA structure (wdbgexts.h)
+
+
 
 
 ## -description

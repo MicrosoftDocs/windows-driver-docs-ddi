@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_ADAPTERFUNCS structure"]
 ms.keywords: D3DDDI_ADAPTERFUNCS, D3DDDI_ADAPTERFUNCS structure [Display Devices], D3D_other_Structs_2397321f-704c-4c93-bbd1-b7591134294c.xml, _D3DDDI_ADAPTERFUNCS, d3dumddi/D3DDDI_ADAPTERFUNCS, display.d3dddi_adapterfuncs
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_ADAPTERFUNCS
 ---
 
-# _D3DDDI_ADAPTERFUNCS structure
+# D3DDDI_ADAPTERFUNCS structure (d3dumddi.h)
+
+
 
 
 ## -description

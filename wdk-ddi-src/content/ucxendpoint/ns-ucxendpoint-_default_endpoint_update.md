@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["DEFAULT_ENDPOINT_UPDATE structure"]
 ms.keywords: "*PDEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses], P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], _DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update, ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/_DEFAULT_ENDPOINT_UPDATE"
 req.header: ucxendpoint.h
+req.construct-type: structure
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEFAULT_ENDPOINT_UPDATE
 ---
 
-# _DEFAULT_ENDPOINT_UPDATE structure
+# DEFAULT_ENDPOINT_UPDATE structure (ucxendpoint.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USB_NODE_INFORMATION structure"]
 ms.keywords: "*PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], _USB_NODE_INFORMATION, buses.usb_node_information, usbioctl/PUSB_NODE_INFORMATION, usbioctl/USB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml"
 req.header: usbioctl.h
+req.construct-type: structure
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USB_NODE_INFORMATION
 ---
 
-# _USB_NODE_INFORMATION structure
+# USB_NODE_INFORMATION structure (usbioctl.h)
+
+
 
 
 ## -description

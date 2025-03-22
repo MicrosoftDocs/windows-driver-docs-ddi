@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxManagerRemoveCompositeTemplate function (acxmanager.h)
+
 ## -description
 
 The **AcxManagerRemoveCompositeTemplate** function removes the specified composite template from the specified **ACXMANAGER**.

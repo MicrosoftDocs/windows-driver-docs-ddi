@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["NDIS_WWAN_NETWORK_BLACKLIST structure"]
 ms.keywords: _NDIS_WWAN_NETWORK_BLACKLIST, NDIS_WWAN_NETWORK_BLACKLIST, *PNDIS_WWAN_NETWORK_BLACKLIST,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_NETWORK_BLACKLIST
 ---
 
-# _NDIS_WWAN_NETWORK_BLACKLIST structure
+# NDIS_WWAN_NETWORK_BLACKLIST structure (ndiswwan.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamAudioEngineGetStream function (acxelements.h)
+
 ## -description
 
 The **AcxStreamAudioEngineGetStream** function retrieves the ACXSTREAM object associated with the given stream audio engine object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

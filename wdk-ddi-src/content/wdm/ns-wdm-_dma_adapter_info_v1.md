@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DMA_ADAPTER_INFO_V1 structure"]
 ms.keywords: "*PDMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1, DMA_ADAPTER_INFO_V1 structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER_INFO_V1, PDMA_ADAPTER_INFO_V1 structure pointer [Kernel-Mode Driver Architecture], _DMA_ADAPTER_INFO_V1, kernel.dma_adapter_info_v1, wdm/DMA_ADAPTER_INFO_V1, wdm/PDMA_ADAPTER_INFO_V1"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DMA_ADAPTER_INFO_V1
 ---
 
-# _DMA_ADAPTER_INFO_V1 structure
+# DMA_ADAPTER_INFO_V1 structure (wdm.h)
+
+
 
 
 ## -description

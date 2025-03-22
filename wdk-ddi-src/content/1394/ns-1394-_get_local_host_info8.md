@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GET_LOCAL_HOST_INFO8 structure"]
 ms.keywords: "*PGET_LOCAL_HOST_INFO8, 1394/GET_LOCAL_HOST_INFO8, 1394/PGET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8, GET_LOCAL_HOST_INFO8 structure [Buses], IEEE.get_local_host_info8, PGET_LOCAL_HOST_INFO8, PGET_LOCAL_HOST_INFO8 structure pointer [Buses], _GET_LOCAL_HOST_INFO8"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - GET_LOCAL_HOST_INFO8
 ---
 
-# _GET_LOCAL_HOST_INFO8 structure
+# GET_LOCAL_HOST_INFO8 structure (1394.h)
+
+
 
 
 ## -description

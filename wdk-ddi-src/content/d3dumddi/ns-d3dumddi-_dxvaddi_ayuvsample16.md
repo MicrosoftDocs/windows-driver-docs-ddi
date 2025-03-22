@@ -8,6 +8,7 @@ ms.date: 07/01/2022
 keywords: ["DXVADDI_AYUVSAMPLE16 structure"]
 ms.keywords: DXVA2_Structs_9e7fc230-f50c-4a07-b1cb-358694dc207d.xml, DXVADDI_AYUVSAMPLE16, DXVADDI_AYUVSAMPLE16 structure [Display Devices], _DXVADDI_AYUVSAMPLE16, d3dumddi/DXVADDI_AYUVSAMPLE16, display.dxvaddi_ayuvsample16
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_AYUVSAMPLE16
 ---
 
-# DXVADDI_AYUVSAMPLE16 structure
+# DXVADDI_AYUVSAMPLE16 structure (d3dumddi.h)
+
+
 
 ## -description
 

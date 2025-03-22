@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitAssignAcxRequestPreprocessCallback function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitAssignAcxRequestPreprocessCallback** function add a WDFREQUEST preprocess callback.

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_TEMPLATE_CONNECTION structure"]
 ms.keywords: "*PBDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION, BDA_TEMPLATE_CONNECTION structure [Streaming Media Devices], PBDA_TEMPLATE_CONNECTION, PBDA_TEMPLATE_CONNECTION structure pointer [Streaming Media Devices], _BDA_TEMPLATE_CONNECTION, bdaref_fbba4f2e-dd43-4f5c-b057-f1fbc52cfbe9.xml, bdatypes/BDA_TEMPLATE_CONNECTION, bdatypes/PBDA_TEMPLATE_CONNECTION, stream.bda_template_connection"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: Bdatypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_TEMPLATE_CONNECTION
 ---
 
-# _BDA_TEMPLATE_CONNECTION structure
+# BDA_TEMPLATE_CONNECTION structure (bdatypes.h)
+
+
 
 
 ## -description

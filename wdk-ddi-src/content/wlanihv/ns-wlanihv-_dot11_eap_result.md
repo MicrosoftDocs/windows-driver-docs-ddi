@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_EAP_RESULT structure"]
 ms.keywords: "*PDOT11_EAP_RESULT, DOT11_EAP_RESULT, DOT11_EAP_RESULT structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_85e62087-2509-442a-b513-ae48577e0b77.xml, PDOT11_EAP_RESULT, PDOT11_EAP_RESULT structure pointer [Network Drivers Starting with Windows Vista], _DOT11_EAP_RESULT, netvista.dot11_eap_result, wlanihv/DOT11_EAP_RESULT, wlanihv/PDOT11_EAP_RESULT"
 req.header: wlanihv.h
+req.construct-type: structure
 req.include-header: Winlanihv.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_EAP_RESULT
 ---
 
-# _DOT11_EAP_RESULT structure
+# DOT11_EAP_RESULT structure (wlanihv.h)
+
+
 
 
 ## -description

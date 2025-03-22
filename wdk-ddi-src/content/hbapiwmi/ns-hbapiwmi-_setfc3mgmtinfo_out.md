@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SetFC3MgmtInfo_OUT structure"]
 ms.keywords: "*PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT, PSetFC3MgmtInfo_OUT structure pointer [Storage Devices], SetFC3MgmtInfo_OUT, SetFC3MgmtInfo_OUT structure [Storage Devices], _SetFC3MgmtInfo_OUT, hbapiwmi/PSetFC3MgmtInfo_OUT, hbapiwmi/SetFC3MgmtInfo_OUT, storage.setfc3mgmtinfo_out, structs-Fibre_86907ae9-a0a0-4836-a822-d07cd2adfdb0.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SetFC3MgmtInfo_OUT
 ---
 
-# _SetFC3MgmtInfo_OUT structure
+# SetFC3MgmtInfo_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

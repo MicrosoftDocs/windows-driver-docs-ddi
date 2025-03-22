@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["tagKS_H264VIDEOINFO structure"]
 ms.keywords: "*PKS_H264VIDEOINFO, KS_H264VIDEOINFO, KS_H264VIDEOINFO structure [Streaming Media Devices], PKS_H264VIDEOINFO, PKS_H264VIDEOINFO structure pointer [Streaming Media Devices], ksmedia/KS_H264VIDEOINFO, ksmedia/PKS_H264VIDEOINFO, stream.ks_h264videoinfo, tagKS_H264VIDEOINFO"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -44,6 +45,8 @@ api_name:
  - PKS_H264VIDEOINFO
  - KS_H264VIDEOINFO
 ---
+
+# tagKS_H264VIDEOINFO structure (ksmedia.h)
 
 ## -description
 

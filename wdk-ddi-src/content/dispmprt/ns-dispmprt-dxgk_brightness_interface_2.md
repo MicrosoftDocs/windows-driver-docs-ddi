@@ -8,6 +8,7 @@ ms.date: 11/19/2021
 keywords: ["DXGK_BRIGHTNESS_INTERFACE_2 structure"]
 ms.keywords: "*PDXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2, DXGK_BRIGHTNESS_INTERFACE_2 structure [Display Devices], PDXGK_BRIGHTNESS_INTERFACE_2, PDXGK_BRIGHTNESS_INTERFACE_2 structure pointer [Display Devices], display.dxgk_brightness_interface_2, dispmprt/DXGK_BRIGHTNESS_INTERFACE_2, dispmprt/PDXGK_BRIGHTNESS_INTERFACE_2"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_BRIGHTNESS_INTERFACE_2
 ---
 
-# DXGK_BRIGHTNESS_INTERFACE_2 structure
+# DXGK_BRIGHTNESS_INTERFACE_2 structure (dispmprt.h)
+
+
 
 ## -description
 

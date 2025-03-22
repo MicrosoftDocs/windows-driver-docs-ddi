@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPeakMeterCreate function (acxelements.h)
+
 ## -description
 
 The **AcxPeakMeterCreate** function is used to create an ACX peakmeter object that that will be associated with a circuit object parent.

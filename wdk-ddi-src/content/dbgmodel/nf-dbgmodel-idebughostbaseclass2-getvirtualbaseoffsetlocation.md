@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetVirtualBaseOffsetLocation
 ---
 
+# IDebugHostBaseClass2::GetVirtualBaseOffsetLocation function (dbgmodel.h)
+
 ## -description
 
 The GetVirtualBaseOffsetLocation method retrieves the location of the "offset" of the base class relative to the parent class. It provides information necessary to calculate the virtual table (vtbl or vbtbl) location and the corresponding offset within the base class.

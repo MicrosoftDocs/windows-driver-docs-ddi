@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PEAKMETER_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_PEAKMETER_CONFIG_INIT** function initializes an [ACX_PEAKMETER_CONFIG](ns-acxelements-acx_peakmeter_config.md) structure.

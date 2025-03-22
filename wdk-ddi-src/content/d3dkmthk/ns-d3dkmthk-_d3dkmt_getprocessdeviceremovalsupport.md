@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure"]
 ms.keywords: _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT, D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT
 ---
 
-# _D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure
+# D3DKMT_GETPROCESSDEVICEREMOVALSUPPORT structure (d3dkmthk.h)
+
+
 
 
 ## -description

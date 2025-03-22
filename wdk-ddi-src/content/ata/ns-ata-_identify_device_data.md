@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["IDENTIFY_DEVICE_DATA structure"]
 ms.keywords: "*PIDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA, IDENTIFY_DEVICE_DATA structure [Storage Devices], PIDENTIFY_DEVICE_DATA, PIDENTIFY_DEVICE_DATA structure pointer [Storage Devices], _IDENTIFY_DEVICE_DATA, ata/IDENTIFY_DEVICE_DATA, ata/PIDENTIFY_DEVICE_DATA, storage.identify_device_data, structs-ATA_904f6e71-4dd9-4ecb-9928-0d7ce44b83ef.xml"
 req.header: ata.h
+req.construct-type: structure
 req.include-header: Irb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IDENTIFY_DEVICE_DATA
 ---
 
-# IDENTIFY_DEVICE_DATA structure
+# IDENTIFY_DEVICE_DATA structure (ata.h)
+
+
 
 ## -description
 

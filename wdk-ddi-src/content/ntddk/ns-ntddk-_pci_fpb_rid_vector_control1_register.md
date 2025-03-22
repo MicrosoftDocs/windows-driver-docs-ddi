@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["PCI_FPB_RID_VECTOR_CONTROL1_REGISTER structure"]
 ms.keywords: _PCI_FPB_RID_VECTOR_CONTROL1_REGISTER, PCI_FPB_RID_VECTOR_CONTROL1_REGISTER, *PPCI_FPB_RID_VECTOR_CONTROL1_REGISTER,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ api_name:
  - PCI_FPB_RID_VECTOR_CONTROL1_REGISTER
 ---
 
-# _PCI_FPB_RID_VECTOR_CONTROL1_REGISTER structure
+# PCI_FPB_RID_VECTOR_CONTROL1_REGISTER structure (ntddk.h)
+
+
 
 
 ## -description

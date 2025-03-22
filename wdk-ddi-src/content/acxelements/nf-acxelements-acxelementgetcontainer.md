@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxElementGetContainer function (acxelements.h)
+
 ## -description
 
 The **AcxElementGetContainer** function retrieves the associated container for the given ACX element. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

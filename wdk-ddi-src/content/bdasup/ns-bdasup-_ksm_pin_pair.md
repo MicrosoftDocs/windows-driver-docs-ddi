@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSM_PIN_PAIR structure"]
 ms.keywords: "*PKSM_PIN_PAIR, KSM_PIN_PAIR, KSM_PIN_PAIR structure [Streaming Media Devices], PKSM_PIN_PAIR, PKSM_PIN_PAIR structure pointer [Streaming Media Devices], _KSM_PIN_PAIR, bdaref_4d2071d5-ba64-4026-95a9-0763dc2f13cf.xml, bdasup/KSM_PIN_PAIR, bdasup/PKSM_PIN_PAIR, stream.ksm_pin_pair"
 req.header: bdasup.h
+req.construct-type: structure
 req.include-header: Bdasup.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSM_PIN_PAIR
 ---
 
-# _KSM_PIN_PAIR structure
+# KSM_PIN_PAIR structure (bdasup.h)
+
+
 
 
 ## -description

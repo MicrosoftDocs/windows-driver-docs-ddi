@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IO_PRIORITY_INFO structure"]
 ms.keywords: "*PIO_PRIORITY_INFO, IO_PRIORITY_INFO, IO_PRIORITY_INFO structure [Installable File System Drivers], PIO_PRIORITY_INFO, PIO_PRIORITY_INFO structure pointer [Installable File System Drivers], _IO_PRIORITY_INFO, ifsk.io_priority_info, ntifs/IO_PRIORITY_INFO, ntifs/PIO_PRIORITY_INFO, othersystemstructures_19a36a9e-6950-4a52-b1e3-e25977777952.xml"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - IO_PRIORITY_INFO
 ---
 
-# _IO_PRIORITY_INFO structure
+# IO_PRIORITY_INFO structure (ntifs.h)
+
+
 
 
 ## -description

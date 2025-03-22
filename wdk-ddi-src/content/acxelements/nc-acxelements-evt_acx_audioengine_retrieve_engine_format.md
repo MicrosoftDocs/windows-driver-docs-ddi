@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_AUDIOENGINE_RETRIEVE_ENGINE_FORMAT** callback is implemented by the driver and is called when the internal mix format is requested for the specified audio engine.

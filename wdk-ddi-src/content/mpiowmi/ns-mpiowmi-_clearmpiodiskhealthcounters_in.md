@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ClearMpioDiskHealthCounters_IN structure"]
 ms.keywords: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], PClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], _ClearMpioDiskHealthCounters_IN, mpiowmi/ClearMpioDiskHealthCounters_IN, mpiowmi/PClearMpioDiskHealthCounters_IN, storage.clearmpiodiskhealthcounters_in, structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml"
 req.header: mpiowmi.h
+req.construct-type: structure
 req.include-header: Mpiowmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ClearMpioDiskHealthCounters_IN
 ---
 
-# _ClearMpioDiskHealthCounters_IN structure
+# ClearMpioDiskHealthCounters_IN structure (mpiowmi.h)
+
+
 
 
 ## -description

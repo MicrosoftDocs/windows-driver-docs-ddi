@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CM_SCSI_DEVICE_DATA structure"]
 ms.keywords: "*PCM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA, CM_SCSI_DEVICE_DATA structure [Kernel-Mode Driver Architecture], PCM_SCSI_DEVICE_DATA, PCM_SCSI_DEVICE_DATA structure pointer [Kernel-Mode Driver Architecture], _CM_SCSI_DEVICE_DATA, kernel.cm_scsi_device_data, kstruct_a_af6c0c9a-2191-45f9-ba0f-20c54a202e0a.xml, wdm/CM_SCSI_DEVICE_DATA, wdm/PCM_SCSI_DEVICE_DATA"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CM_SCSI_DEVICE_DATA
 ---
 
-# _CM_SCSI_DEVICE_DATA structure
+# CM_SCSI_DEVICE_DATA structure (wdm.h)
+
+
 
 
 ## -description

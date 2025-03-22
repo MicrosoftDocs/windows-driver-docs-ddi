@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisIMCopySendCompletePerPacketInfo
 ---
 
-# NdisIMCopySendCompletePerPacketInfo function
+# NdisIMCopySendCompletePerPacketInfo function (ndis.h)
+
+
 
 ## -description
 

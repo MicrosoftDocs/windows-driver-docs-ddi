@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DMA_OPERATIONS structure"]
 ms.keywords: "*PDMA_OPERATIONS, DMA_OPERATIONS, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], PDMA_OPERATIONS, PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], _DMA_OPERATIONS, kernel.dma_operations, kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml, wdm/DMA_OPERATIONS, wdm/PDMA_OPERATIONS"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 2000.
@@ -46,7 +47,9 @@ api_name:
  - DMA_OPERATIONS
 ---
 
-# _DMA_OPERATIONS structure
+# DMA_OPERATIONS structure (wdm.h)
+
+
 
 
 ## -description

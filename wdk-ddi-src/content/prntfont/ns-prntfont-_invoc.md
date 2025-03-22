@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["INVOC structure"]
 ms.keywords: "*PINVOC, INVOC, INVOC structure [Print Devices], PINVOC, PINVOC structure pointer [Print Devices], _INVOC, print.invoc, print_unidrv-pscript_fonts_1c5bebe8-a2ca-4049-bcce-defd8622761b.xml, prntfont/INVOC, prntfont/PINVOC"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - INVOC
 ---
 
-# _INVOC structure
+# INVOC structure (prntfont.h)
+
+
 
 
 ## -description

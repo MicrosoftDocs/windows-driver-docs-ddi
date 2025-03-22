@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure"]
 ms.keywords: D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure [Display Devices], d3dumddi/D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU, display.d3dddicb_signalsynchronizationobjectfromcpu
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU
 ---
 
-# D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure
+# D3DDDICB_SIGNALSYNCHRONIZATIONOBJECTFROMCPU structure (d3dumddi.h)
+
+
 
 
 ## -description

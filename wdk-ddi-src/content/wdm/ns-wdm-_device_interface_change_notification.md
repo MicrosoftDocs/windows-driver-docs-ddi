@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DEVICE_INTERFACE_CHANGE_NOTIFICATION structure"]
 ms.keywords: "*PDEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION, DEVICE_INTERFACE_CHANGE_NOTIFICATION structure [Kernel-Mode Driver Architecture], PDEVICE_INTERFACE_CHANGE_NOTIFICATION, PDEVICE_INTERFACE_CHANGE_NOTIFICATION structure pointer [Kernel-Mode Driver Architecture], _DEVICE_INTERFACE_CHANGE_NOTIFICATION, kernel.device_interface_change_notification, kstruct_a_43e52fa7-54ee-49bd-b822-4daf39ebcdc2.xml, wdm/DEVICE_INTERFACE_CHANGE_NOTIFICATION, wdm/PDEVICE_INTERFACE_CHANGE_NOTIFICATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_INTERFACE_CHANGE_NOTIFICATION
 ---
 
-# _DEVICE_INTERFACE_CHANGE_NOTIFICATION structure
+# DEVICE_INTERFACE_CHANGE_NOTIFICATION structure (wdm.h)
+
+
 
 
 ## -description

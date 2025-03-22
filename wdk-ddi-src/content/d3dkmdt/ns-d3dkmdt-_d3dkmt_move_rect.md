@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_MOVE_RECT structure"]
 ms.keywords: D3DKMT_MOVE_RECT, D3DKMT_MOVE_RECT structure [Display Devices], _D3DKMT_MOVE_RECT, d3dkmdt/D3DKMT_MOVE_RECT, display.d3dkmt_move_rect
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_MOVE_RECT
 ---
 
-# _D3DKMT_MOVE_RECT structure
+# D3DKMT_MOVE_RECT structure (d3dkmdt.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 06/16/2022
 keywords: ["GNSS_CWTESTDATA structure"]
 ms.keywords: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA, GNSS_CWTESTDATA structure [Sensor Devices], PGNSS_CWTESTDATA, PGNSS_CWTESTDATA structure pointer [Sensor Devices], gnss.gnss_cwtestdata, gnssdriver/GNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA"
 req.header: gnssdriver.h
+req.construct-type: structure
 req.include-header: Gnssdriver.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PGNSS_CWTESTDATA
  - GNSS_CWTESTDATA
 ---
+
+# GNSS_CWTESTDATA structure (gnssdriver.h)
 
 ## -description
 

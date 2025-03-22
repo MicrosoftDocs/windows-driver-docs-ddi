@@ -5,6 +5,7 @@ description: Learn more about the QUERY_INTERFACE structure.
 tech.root: display
 ms.date: 01/13/2025
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - QUERY_INTERFACE
 ---
 
-# QUERY_INTERFACE structure
+# QUERY_INTERFACE structure (video.h)
+
+
 
 ## -description
 

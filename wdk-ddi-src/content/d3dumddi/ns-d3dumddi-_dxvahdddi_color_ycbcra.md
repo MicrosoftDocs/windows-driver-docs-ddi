@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_COLOR_YCbCrA structure"]
 ms.keywords: DXVA2_Structs_28a4ec5c-f8e6-414b-ac91-846e3b0fdbf8.xml, DXVAHDDDI_COLOR_YCbCrA, DXVAHDDDI_COLOR_YCbCrA structure [Display Devices], _DXVAHDDDI_COLOR_YCbCrA, d3dumddi/DXVAHDDDI_COLOR_YCbCrA, display.dxvahdddi_color_ycbcra
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_COLOR_YCbCrA is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_COLOR_YCbCrA
 ---
 
-# _DXVAHDDDI_COLOR_YCbCrA structure
+# DXVAHDDDI_COLOR_YCbCrA structure (d3dumddi.h)
+
+
 
 
 ## -description

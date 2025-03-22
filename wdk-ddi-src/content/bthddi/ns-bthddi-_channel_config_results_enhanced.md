@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["CHANNEL_CONFIG_RESULTS_ENHANCED structure"]
 ms.keywords: "*PCHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED, CHANNEL_CONFIG_RESULTS_ENHANCED structure [Bluetooth Devices], PCHANNEL_CONFIG_RESULTS_ENHANCED, PCHANNEL_CONFIG_RESULTS_ENHANCED structure pointer [Bluetooth Devices], _CHANNEL_CONFIG_RESULTS_ENHANCED, bltooth.channel_config_results_enhanced, bthddi/CHANNEL_CONFIG_RESULTS_ENHANCED, bthddi/PCHANNEL_CONFIG_RESULTS_ENHANCED"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows
@@ -46,7 +47,9 @@ api_name:
  - CHANNEL_CONFIG_RESULTS_ENHANCED
 ---
 
-# _CHANNEL_CONFIG_RESULTS_ENHANCED structure
+# CHANNEL_CONFIG_RESULTS_ENHANCED structure (bthddi.h)
+
+
 
 
 ## -description

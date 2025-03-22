@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["STI_DEVICE_STATUS structure"]
 ms.keywords: "*PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS, PSTI_DEVICE_STATUS structure pointer [Imaging Devices], STI_DEVICE_STATUS, STI_DEVICE_STATUS structure [Imaging Devices], _STI_DEVICE_STATUS, image.sti_device_status, sti/PSTI_DEVICE_STATUS, sti/STI_DEVICE_STATUS, stifnc_9581d5c4-a5c5-4115-8e9e-33f3da4806c6.xml"
 req.header: sti.h
+req.construct-type: structure
 req.include-header: Sti.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PSTI_DEVICE_STATUS
  - STI_DEVICE_STATUS
 ---
+
+# STI_DEVICE_STATUS structure (sti.h)
 
 ## -description
 

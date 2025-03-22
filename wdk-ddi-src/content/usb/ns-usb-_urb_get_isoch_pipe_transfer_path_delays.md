@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure"]
 ms.keywords: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], buses._urb_get_isoch_pipe_transfer_path_delays, usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS
 ---
 
-# _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure
+# _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure (usb.h)
+
+
 
 
 ## -description

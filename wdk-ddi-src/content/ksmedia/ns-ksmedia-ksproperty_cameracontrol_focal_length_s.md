@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure"]
 ms.keywords: "*PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure pointer [Streaming Media Devices], ksmedia/KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, ksmedia/PKSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S, stream.ksproperty_cameracontrol_focal_length_s, vidcapstruct_d3d5d26e-e8be-4ce5-9a9a-03b125134bf7.xml"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S
 ---
 
-# KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure
+# KSPROPERTY_CAMERACONTROL_FOCAL_LENGTH_S structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DATA_SET_RANGE structure"]
 ms.keywords: "DEVICE_DSM_RANGE, PDEVICE_DSM_RANGE, *PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure [Storage Devices], PDEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], _DEVICE_DATA_SET_RANGE, ntddstor/DEVICE_DATA_SET_RANGE, ntddstor/PDEVICE_DATA_SET_RANGE, storage.device_data_set_range, structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_DATA_SET_RANGE
 ---
 
-# _DEVICE_DATA_SET_RANGE structure
+# DEVICE_DATA_SET_RANGE structure (ntddstor.h)
+
+
 
 
 ## -description

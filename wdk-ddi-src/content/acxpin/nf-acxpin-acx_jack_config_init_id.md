@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CONFIG_INIT_ID function (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CONFIG_INIT_ID** function initializes an [ACX_JACK_CONFIG](ns-acxpin-acx_jack_config.md) structure with the specified ID.

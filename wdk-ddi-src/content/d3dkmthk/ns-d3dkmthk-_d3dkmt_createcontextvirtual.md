@@ -7,6 +7,7 @@ ms.date: 02/28/2023
 keywords: ["D3DKMT_CREATECONTEXTVIRTUAL structure"]
 ms.keywords: D3DKMT_CREATECONTEXTVIRTUAL, D3DKMT_CREATECONTEXTVIRTUAL structure [Display Devices], _D3DKMT_CREATECONTEXTVIRTUAL, d3dkmthk/D3DKMT_CREATECONTEXTVIRTUAL, display.d3dkmt_createcontextvirtual
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CREATECONTEXTVIRTUAL
 ---
 
-# D3DKMT_CREATECONTEXTVIRTUAL structure
+# D3DKMT_CREATECONTEXTVIRTUAL structure (d3dkmthk.h)
+
+
 
 ## -description
 

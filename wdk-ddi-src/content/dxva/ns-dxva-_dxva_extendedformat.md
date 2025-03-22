@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_ExtendedFormat structure"]
 ms.keywords: DXVA_ExtendedFormat, DXVA_ExtendedFormat structure [Display Devices], _DXVA_ExtendedFormat, display.dxva_extendedformat, dxva/DXVA_ExtendedFormat, dxvaref_3e46e283-492a-4ec5-8213-ff05215b0676.xml
 req.header: dxva.h
+req.construct-type: structure
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_ExtendedFormat
 ---
 
-# _DXVA_ExtendedFormat structure
+# DXVA_ExtendedFormat structure (dxva.h)
+
+
 
 
 ## -description

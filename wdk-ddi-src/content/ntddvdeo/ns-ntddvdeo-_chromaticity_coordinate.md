@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["CHROMATICITY_COORDINATE structure"]
 ms.keywords: _CHROMATICITY_COORDINATE, CHROMATICITY_COORDINATE,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - CHROMATICITY_COORDINATE
 ---
 
-# _CHROMATICITY_COORDINATE structure
+# CHROMATICITY_COORDINATE structure (ntddvdeo.h)
+
+
 
 
 ## -description

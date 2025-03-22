@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSFILTER structure"]
 ms.keywords: "*PKSFILTER, KSFILTER, KSFILTER structure [Streaming Media Devices], PKSFILTER, PKSFILTER structure pointer [Streaming Media Devices], _KSFILTER, avstruct_6662a03a-c6de-4f5e-b86a-a3685dba320e.xml, ks/KSFILTER, ks/PKSFILTER, stream.ksfilter"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and in Microsoft DirectX 8.0 and later versions.
@@ -46,7 +47,9 @@ api_name:
  - KSFILTER
 ---
 
-# _KSFILTER structure
+# KSFILTER structure (ks.h)
+
+
 
 
 ## -description

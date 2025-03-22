@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["L2CAP_CONFIG_RANGE structure"]
 ms.keywords: "*PL2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE, L2CAP_CONFIG_RANGE structure [Bluetooth Devices], PL2CAP_CONFIG_RANGE, PL2CAP_CONFIG_RANGE structure pointer [Bluetooth Devices], _L2CAP_CONFIG_RANGE, bltooth.l2cap_config_range, bth_structs_86178813-5f20-4c58-8d70-c863217350b3.xml, bthddi/L2CAP_CONFIG_RANGE, bthddi/PL2CAP_CONFIG_RANGE"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - L2CAP_CONFIG_RANGE
 ---
 
-# _L2CAP_CONFIG_RANGE structure
+# L2CAP_CONFIG_RANGE structure (bthddi.h)
+
+
 
 
 ## -description

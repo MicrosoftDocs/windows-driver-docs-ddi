@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VIDEO_CHILD_ENUM_INFO structure"]
 ms.keywords: "*PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO, PVIDEO_CHILD_ENUM_INFO structure pointer [Display Devices], VIDEO_CHILD_ENUM_INFO, VIDEO_CHILD_ENUM_INFO structure [Display Devices], Video_Structs_13176852-07dc-4b7e-9e3a-c9ed9c2a3879.xml, _VIDEO_CHILD_ENUM_INFO, display.video_child_enum_info, video/PVIDEO_CHILD_ENUM_INFO, video/VIDEO_CHILD_ENUM_INFO"
 req.header: video.h
+req.construct-type: structure
 req.include-header: Video.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VIDEO_CHILD_ENUM_INFO
 ---
 
-# _VIDEO_CHILD_ENUM_INFO structure
+# VIDEO_CHILD_ENUM_INFO structure (video.h)
+
+
 
 
 ## -description

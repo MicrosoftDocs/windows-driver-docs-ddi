@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_LAYER_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], _DVD_LAYER_DESCRIPTOR, ntddcdvd/DVD_LAYER_DESCRIPTOR, ntddcdvd/PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DVD_LAYER_DESCRIPTOR
 ---
 
-# _DVD_LAYER_DESCRIPTOR structure
+# DVD_LAYER_DESCRIPTOR structure (ntddcdvd.h)
+
+
 
 
 ## -description

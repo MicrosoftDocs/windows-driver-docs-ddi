@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG structure"]
 ms.keywords: _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG, *PCUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG,
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -39,7 +40,9 @@ api_name:
  - CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG
 ---
 
-# _CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG structure
+# CUSTOM_SYSTEM_EVENT_TRIGGER_CONFIG structure (ntddk.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitStopIoActual function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitStopIoActual** function is used to signal to the operating system to temporarily stop circuit I/O. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.

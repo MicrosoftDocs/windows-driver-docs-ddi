@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_REGISTER_CRASHDUMP_DEVICE structure"]
 ms.keywords: "*PPEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE, PEP_REGISTER_CRASHDUMP_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_REGISTER_CRASHDUMP_DEVICE, PPEP_REGISTER_CRASHDUMP_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_REGISTER_CRASHDUMP_DEVICE, kernel.pep_register_crashdump_device, pepfx/PEP_REGISTER_CRASHDUMP_DEVICE, pepfx/PPEP_REGISTER_CRASHDUMP_DEVICE"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_REGISTER_CRASHDUMP_DEVICE
 ---
 
-# _PEP_REGISTER_CRASHDUMP_DEVICE structure (pep_x.h)
+# PEP_REGISTER_CRASHDUMP_DEVICE structure (pep_x.h)
+
+
 
 
 ## -description

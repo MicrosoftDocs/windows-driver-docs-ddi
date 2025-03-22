@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure"]
 ms.keywords: "*PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSSTREAM_UVC_METADATATYPE_TIMESTAMP
 ---
 
-# KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure
+# KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure (ks.h)
+
+
 
 
 ## -description

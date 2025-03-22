@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxKeywordSpotterCreate function (acxelements.h)
+
 ## -description
 
 The **AcxKeywordSpotterCreate** function is used to create an ACX keyword spotter object that that will be associated with a circuit device object parent.

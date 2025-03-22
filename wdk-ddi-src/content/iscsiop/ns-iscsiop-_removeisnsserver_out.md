@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemoveiSNSServer_OUT structure"]
 ms.keywords: "*PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT, PRemoveiSNSServer_OUT structure pointer [Storage Devices], RemoveiSNSServer_OUT, RemoveiSNSServer_OUT structure [Storage Devices], _RemoveiSNSServer_OUT, iscsiop/PRemoveiSNSServer_OUT, iscsiop/RemoveiSNSServer_OUT, storage.removeisnsserver_out, structs-iSCSI_8d8df1a1-3b89-42a1-9ef8-3e749a94b531.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemoveiSNSServer_OUT
 ---
 
-# _RemoveiSNSServer_OUT structure
+# RemoveiSNSServer_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

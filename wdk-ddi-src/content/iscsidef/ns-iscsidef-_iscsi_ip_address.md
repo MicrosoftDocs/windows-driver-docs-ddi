@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_IP_Address structure"]
 ms.keywords: "*PISCSI_IP_Address, ISCSI_IP_Address, ISCSI_IP_Address structure [Storage Devices], PISCSI_IP_Address, PISCSI_IP_Address structure pointer [Storage Devices], _ISCSI_IP_Address, iscsidef/ISCSI_IP_Address, iscsidef/PISCSI_IP_Address, storage.iscsi_ip_address, structs-iSCSI_c8f7a419-6398-4ece-a92d-fc0deffbe39a.xml"
 req.header: iscsidef.h
+req.construct-type: structure
 req.include-header: Iscsidef.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ISCSI_IP_Address
 ---
 
-# _ISCSI_IP_Address structure
+# ISCSI_IP_Address structure (iscsidef.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure"]
 ms.keywords: _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES, DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure
+# DXGKARG_SETCONTEXTSCHEDULINGPROPERTIES structure (d3dkmddi.h)
+
+
 
 
 ## -description

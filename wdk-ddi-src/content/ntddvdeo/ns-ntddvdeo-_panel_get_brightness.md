@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["PANEL_GET_BRIGHTNESS structure"]
 ms.keywords: _PANEL_GET_BRIGHTNESS, PANEL_GET_BRIGHTNESS, *PPANEL_GET_BRIGHTNESS,
 req.header: ntddvdeo.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PANEL_GET_BRIGHTNESS
 ---
 
-# _PANEL_GET_BRIGHTNESS structure
+# PANEL_GET_BRIGHTNESS structure (ntddvdeo.h)
+
+
 
 
 ## -description

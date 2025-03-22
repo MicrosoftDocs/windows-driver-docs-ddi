@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure"]
 ms.keywords: "*PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure [Audio Devices], PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure pointer [Audio Devices], aud-prop_0c408e4a-d94e-4458-9b31-da185dc42747.xml, audio.ksrtaudio_notification_event_property, ksmedia/KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY, ksmedia/PKSRTAUDIO_NOTIFICATION_EVENT_PROPERTY"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY
 ---
 
-# KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure
+# KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY structure (ksmedia.h)
+
+
 
 
 ## -description

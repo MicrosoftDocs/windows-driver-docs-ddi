@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_LOCKASYNCFLAGS structure"]
 ms.keywords: D3DDDI_LOCKASYNCFLAGS, D3DDDI_LOCKASYNCFLAGS structure [Display Devices], D3D_other_Structs_765c2b3d-14e2-4eaf-978f-764263aa2a99.xml, _D3DDDI_LOCKASYNCFLAGS, d3dumddi/D3DDDI_LOCKASYNCFLAGS, display.d3dddi_lockasyncflags
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_LOCKASYNCFLAGS
 ---
 
-# _D3DDDI_LOCKASYNCFLAGS structure
+# D3DDDI_LOCKASYNCFLAGS structure (d3dumddi.h)
+
+
 
 
 ## -description

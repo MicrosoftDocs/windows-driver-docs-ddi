@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_USBDEVICE_CHARACTERISTIC structure"]
 ms.keywords: "*PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC, PUCX_USBDEVICE_CHARACTERISTIC structure pointer [Buses], UCX_USBDEVICE_CHARACTERISTIC, UCX_USBDEVICE_CHARACTERISTIC structure [Buses], _UCX_USBDEVICE_CHARACTERISTIC, buses.ucx_usbdevice_characteristic, ucxusbdevice/PUCX_USBDEVICE_CHARACTERISTIC, ucxusbdevice/UCX_USBDEVICE_CHARACTERISTIC"
 req.header: ucxusbdevice.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - UCX_USBDEVICE_CHARACTERISTIC
 ---
 
-# _UCX_USBDEVICE_CHARACTERISTIC structure
+# UCX_USBDEVICE_CHARACTERISTIC structure (ucxusbdevice.h)
+
+
 
 
 ## -description

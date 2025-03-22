@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_ADAPTER_CAPS structure"]
 ms.keywords: IDDCX_ADAPTER_CAPS, IDDCX_ADAPTER_CAPS structure [Display Devices], display.iddcx_adapter_caps, iddcx/IDDCX_ADAPTER_CAPS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_ADAPTER_CAPS
 ---
 
-# IDDCX_ADAPTER_CAPS structure
+# IDDCX_ADAPTER_CAPS structure (iddcx.h)
+
+
 
 ## -description
 

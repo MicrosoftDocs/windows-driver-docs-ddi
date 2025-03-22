@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MSR_ERROR_EVENT structure"]
 ms.keywords: "*PMSR_ERROR_EVENT, MSR_ERROR_EVENT, MSR_ERROR_EVENT structure, PMSR_ERROR_EVENT, PMSR_ERROR_EVENT structure pointer, _MSR_ERROR_EVENT, pointofservicedriverinterface/MSR_ERROR_EVENT, pointofservicedriverinterface/PMSR_ERROR_EVENT, pos.msr_error_event"
 req.header: pointofservicedriverinterface.h
+req.construct-type: structure
 req.include-header: PointOfServiceDriverInterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MSR_ERROR_EVENT
 ---
 
-# _MSR_ERROR_EVENT structure
+# MSR_ERROR_EVENT structure (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

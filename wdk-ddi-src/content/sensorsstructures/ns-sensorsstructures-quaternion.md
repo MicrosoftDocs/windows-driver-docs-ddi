@@ -7,6 +7,7 @@ keywords: ["QUATERNION structure"]
 tech.root: sensors
 ms.keywords: QUATERNION, QUATERNION, *PQUATERNION,
 req.header: sensorsstructures.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - QUATERNION
 ---
 
-# QUATERNION structure
+# QUATERNION structure (sensorsstructures.h)
+
+
 
 
 ## -description

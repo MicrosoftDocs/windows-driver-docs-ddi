@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DSI_TRANSMISSION structure
+# DXGK_DSI_TRANSMISSION structure (dispmprt.h)
+
+
 
 ## -description
 

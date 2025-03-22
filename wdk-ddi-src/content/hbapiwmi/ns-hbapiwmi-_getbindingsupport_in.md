@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetBindingSupport_IN structure"]
 ms.keywords: "*PGetBindingSupport_IN, GetBindingSupport_IN, GetBindingSupport_IN structure [Storage Devices], PGetBindingSupport_IN, PGetBindingSupport_IN structure pointer [Storage Devices], _GetBindingSupport_IN, hbapiwmi/GetBindingSupport_IN, hbapiwmi/PGetBindingSupport_IN, storage.getbindingsupport_in, structs-Fibre_858abc05-6d3e-4630-a9f9-4b9aa742ea8e.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetBindingSupport_IN
 ---
 
-# _GetBindingSupport_IN structure
+# GetBindingSupport_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

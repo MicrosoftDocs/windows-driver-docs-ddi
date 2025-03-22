@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetFcpPersistentBinding_OUT structure"]
 ms.keywords: "*PGetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT, GetFcpPersistentBinding_OUT structure [Storage Devices], PGetFcpPersistentBinding_OUT, PGetFcpPersistentBinding_OUT structure pointer [Storage Devices], _GetFcpPersistentBinding_OUT, hbapiwmi/GetFcpPersistentBinding_OUT, hbapiwmi/PGetFcpPersistentBinding_OUT, storage.getfcppersistentbinding_out, structs-Fibre_6deac9e1-fd5f-4bc1-9349-39bc61c4c6bb.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetFcpPersistentBinding_OUT
 ---
 
-# _GetFcpPersistentBinding_OUT structure
+# GetFcpPersistentBinding_OUT structure (hbapiwmi.h)
+
+
 
 
 ## -description

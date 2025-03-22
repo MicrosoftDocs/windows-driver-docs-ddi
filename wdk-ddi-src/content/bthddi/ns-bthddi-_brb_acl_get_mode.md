@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BRB_ACL_GET_MODE structure"]
 ms.keywords: "_BRB_ACL_GET_MODE, _BRB_ACL_GET_MODE structure [Bluetooth Devices], bltooth._brb_acl_get_mode, bth_structs_ce659c96-d1af-4e27-b31a-f6700ff88331.xml, bthddi/_BRB_ACL_GET_MODE"
 req.header: bthddi.h
+req.construct-type: structure
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - _BRB_ACL_GET_MODE
 ---
 
-# _BRB_ACL_GET_MODE structure
+# _BRB_ACL_GET_MODE structure (bthddi.h)
+
+
 
 
 ## -description

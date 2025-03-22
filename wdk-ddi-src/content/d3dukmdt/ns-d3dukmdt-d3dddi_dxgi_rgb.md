@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_DXGI_RGB structure"]
 ms.keywords: D3DDDI_DXGI_RGB, D3DDDI_DXGI_RGB structure [Display Devices], DmStructs_808243de-342c-439b-9ebe-d418ccedd8ff.xml, d3dukmdt/D3DDDI_DXGI_RGB, display.d3dddi_dxgi_rgb
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_DXGI_RGB
 ---
 
-# D3DDDI_DXGI_RGB structure
+# D3DDDI_DXGI_RGB structure (d3dukmdt.h)
+
+
 
 
 ## -description

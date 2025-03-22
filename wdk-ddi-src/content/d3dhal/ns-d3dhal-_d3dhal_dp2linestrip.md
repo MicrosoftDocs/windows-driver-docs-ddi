@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2LINESTRIP structure"]
 ms.keywords: "*LPD3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP, D3DHAL_DP2LINESTRIP structure [Display Devices], LPD3DHAL_DP2LINESTRIP, LPD3DHAL_DP2LINESTRIP structure pointer [Display Devices], _D3DHAL_DP2LINESTRIP, d3dhal/D3DHAL_DP2LINESTRIP, d3dhal/LPD3DHAL_DP2LINESTRIP, d3dstrct_d49daf52-1228-463a-8db5-3802da2fc787.xml, display.d3dhal_dp2linestrip"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DHAL_DP2LINESTRIP
 ---
 
-# _D3DHAL_DP2LINESTRIP structure
+# D3DHAL_DP2LINESTRIP structure (d3dhal.h)
+
+
 
 
 ## -description

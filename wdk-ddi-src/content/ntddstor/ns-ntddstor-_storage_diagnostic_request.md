@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["STORAGE_DIAGNOSTIC_REQUEST structure"]
 ms.keywords: "*PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST, PSTORAGE_DIAGNOSTIC_REQUEST structure pointer [Storage Devices], STORAGE_DIAGNOSTIC_REQUEST, STORAGE_DIAGNOSTIC_REQUEST structure [Storage Devices], _STORAGE_DIAGNOSTIC_REQUEST, ntddstor/PSTORAGE_DIAGNOSTIC_REQUEST, ntddstor/STORAGE_DIAGNOSTIC_REQUEST, storage.storage_diagnostic_request"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 10, version 1709.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DIAGNOSTIC_REQUEST
 ---
 
-# STORAGE_DIAGNOSTIC_REQUEST structure
+# STORAGE_DIAGNOSTIC_REQUEST structure (ntddstor.h)
+
+
 
 ## -description
 

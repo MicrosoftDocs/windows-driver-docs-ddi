@@ -7,6 +7,7 @@ ms.date: 06/03/2019
 keywords: ["KBUGCHECK_SECONDARY_DUMP_DATA_EX structure"]
 ms.keywords: KBUGCHECK_SECONDARY_DUMP_DATA_EX, KBUGCHECK_SECONDARY_DUMP_DATA_EX, *PKBUGCHECK_SECONDARY_DUMP_DATA_EX,
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - KBUGCHECK_SECONDARY_DUMP_DATA_EX
 ---
 
-# _KBUGCHECK_SECONDARY_DUMP_DATA_EX structure
+# KBUGCHECK_SECONDARY_DUMP_DATA_EX structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TAPE_ERASE structure"]
 ms.keywords: "*PTAPE_ERASE, PTAPE_ERASE, PTAPE_ERASE structure pointer [Storage Devices], TAPE_ERASE, TAPE_ERASE structure [Storage Devices], _TAPE_ERASE, ntddtape/PTAPE_ERASE, ntddtape/TAPE_ERASE, storage.tape_erase, structs-tape_56c14eca-358e-438f-9ff4-06345d2b2434.xml"
 req.header: minitape.h
+req.construct-type: structure
 req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TAPE_ERASE
 ---
 
-# _TAPE_ERASE structure (minitape.h)
+# TAPE_ERASE structure (minitape.h)
+
+
 
 
 ## -description

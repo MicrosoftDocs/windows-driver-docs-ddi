@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["DEVICE_LB_PROVISIONING_DESCRIPTOR structure"]
 ms.keywords: "*PDEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR, DEVICE_LB_PROVISIONING_DESCRIPTOR structure [Storage Devices], PDEVICE_LB_PROVISIONING_DESCRIPTOR, PDEVICE_LB_PROVISIONING_DESCRIPTOR structure pointer [Storage Devices], _DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/DEVICE_LB_PROVISIONING_DESCRIPTOR, ntddstor/PDEVICE_LB_PROVISIONING_DESCRIPTOR, storage.device_lb_provisioning_descriptor"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_LB_PROVISIONING_DESCRIPTOR
 ---
 
-# DEVICE_LB_PROVISIONING_DESCRIPTOR structure
+# DEVICE_LB_PROVISIONING_DESCRIPTOR structure (ntddstor.h)
+
+
 
 ## -description
 

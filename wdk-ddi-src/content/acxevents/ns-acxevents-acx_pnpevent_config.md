@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PNPEVENT_CONFIG structure (acxevents.h)
+
 ## -description
 
 The **ACX_PNPEVENT_CONFIG** structure is used to configure an ACXPNPEVENT.

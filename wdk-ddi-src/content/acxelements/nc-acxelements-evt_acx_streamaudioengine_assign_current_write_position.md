@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_CURRENT_WRITE_POSITION** callback function is implemented by the driver and is called when the current write position for the specified stream audio engine is set.

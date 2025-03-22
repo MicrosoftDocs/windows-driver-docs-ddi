@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitTemplateCreate function (acxmanager.h)
+
 ## -description
 
 The **AcxCircuitTemplateCreate** function is used to create a circuit template for use by the audio class extension (ACX) manager.

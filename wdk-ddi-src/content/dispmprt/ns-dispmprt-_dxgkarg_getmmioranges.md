@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_GETMMIORANGES structure"]
 ms.keywords: _DXGKARG_GETMMIORANGES, DXGKARG_GETMMIORANGES, *PDXGKARG_GETMMIORANGES,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_GETMMIORANGES structure
+# DXGKARG_GETMMIORANGES structure (dispmprt.h)
+
+
 
 
 ## -description

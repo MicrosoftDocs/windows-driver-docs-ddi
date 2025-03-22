@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CIRCUIT_COMPOSITE_CALLBACKS structure (acxcircuit.h)
+
 ## -description
 
 The **ACX_CIRCUIT_COMPOSITE_CALLBACKS** structure identifies the driver callbacks for ACX composite circuit  operations.

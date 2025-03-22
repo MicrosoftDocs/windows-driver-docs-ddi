@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["PD_BUFFER structure"]
 ms.keywords: PD_BUFFER, PD_BUFFER structure [Network Drivers Starting with Windows Vista], PPD_BUFFER, PPD_BUFFER structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER, ndis/PD_BUFFER, ndis/PPD_BUFFER, netvista.pd_buffer
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - PD_BUFFER
 ---
 
-# _PD_BUFFER structure
+# PD_BUFFER structure (ndis.h)
+
+
 
 
 ## -description

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_GEO_LOCATION enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_GEO_LOCATION** enumeration is used by the [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure to help describe the geometric location of an audio jack.

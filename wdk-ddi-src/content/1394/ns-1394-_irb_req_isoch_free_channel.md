@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ISOCH_FREE_CHANNEL structure"]
 ms.keywords: 1394/IRB_REQ_ISOCH_FREE_CHANNEL, IEEE.irb_req_isoch_free_channel, IRB_REQ_ISOCH_FREE_CHANNEL, IRB_REQ_ISOCH_FREE_CHANNEL structure [Buses], _IRB_REQ_ISOCH_FREE_CHANNEL
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ISOCH_FREE_CHANNEL
 ---
 
-# _IRB_REQ_ISOCH_FREE_CHANNEL structure
+# IRB_REQ_ISOCH_FREE_CHANNEL structure (1394.h)
+
+
 
 
 ## -description

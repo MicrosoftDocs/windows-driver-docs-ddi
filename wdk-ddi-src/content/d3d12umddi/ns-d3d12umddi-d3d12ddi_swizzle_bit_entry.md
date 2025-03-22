@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_SWIZZLE_BIT_ENTRY structure"]
 ms.keywords: D3D12DDI_SWIZZLE_BIT_ENTRY, D3D12DDI_SWIZZLE_BIT_ENTRY structure [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_BIT_ENTRY, display.d3d12ddi_swizzle_bit_entry
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_SWIZZLE_BIT_ENTRY
 ---
 
-# D3D12DDI_SWIZZLE_BIT_ENTRY structure
+# D3D12DDI_SWIZZLE_BIT_ENTRY structure (d3d12umddi.h)
+
+
 
 
 ## -description

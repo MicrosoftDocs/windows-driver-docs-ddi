@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_CREATEPROTECTEDSESSION structure"]
 ms.keywords: D3DKMT_CREATEPROTECTEDSESSION, D3DKMT_CREATEPROTECTEDSESSION structure [Display Devices], _D3DKMT_CREATEPROTECTEDSESSION, d3dkmthk/D3DKMT_CREATEPROTECTEDSESSION, display.d3dkmt-createprotectedsession
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_CREATEPROTECTEDSESSION
 ---
 
-# _D3DKMT_CREATEPROTECTEDSESSION structure
+# D3DKMT_CREATEPROTECTEDSESSION structure (d3dkmthk.h)
+
+
 
 
 ## -description

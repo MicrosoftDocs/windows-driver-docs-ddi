@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PREEMPTCOMMANDFLAGS structure"]
 ms.keywords: DXGK_PREEMPTCOMMANDFLAGS, DXGK_PREEMPTCOMMANDFLAGS structure [Display Devices], DmStructs_7163ce37-49c8-4b17-aadc-cd36ad5cac9d.xml, _DXGK_PREEMPTCOMMANDFLAGS, d3dkmddi/DXGK_PREEMPTCOMMANDFLAGS, display.dxgk_preemptcommandflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PREEMPTCOMMANDFLAGS
 ---
 
-# _DXGK_PREEMPTCOMMANDFLAGS structure
+# DXGK_PREEMPTCOMMANDFLAGS structure (d3dkmddi.h)
+
+
 
 
 ## -description

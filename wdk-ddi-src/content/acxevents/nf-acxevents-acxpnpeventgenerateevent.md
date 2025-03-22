@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPnpEventGenerateEvent function (acxevents.h)
+
 ## -description
 
 The **AcxPnpEventGenerateEvent** function generates an ACX PNP event.

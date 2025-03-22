@@ -7,6 +7,7 @@ ms.date: 03/21/2023
 keywords: ["D3DDDI_ALLOCATIONINFO structure"]
 ms.keywords: D3DDDI_ALLOCATIONINFO, D3DDDI_ALLOCATIONINFO structure [Display Devices], D3D_other_Structs_5125c057-c4b7-45fd-b7d9-9ebcfce4fff7.xml, _D3DDDI_ALLOCATIONINFO, d3dukmdt/D3DDDI_ALLOCATIONINFO, display.d3dddi_allocationinfo
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dumddi.h, D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - D3DDDI_ALLOCATIONINFO
 ---
 
-# D3DDDI_ALLOCATIONINFO structure
+# D3DDDI_ALLOCATIONINFO structure (d3dukmdt.h)
+
+
 
 ## -description
 

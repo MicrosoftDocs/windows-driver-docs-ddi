@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxFactoryCircuitGetSymbolicLinkName
 ---
 
+# AcxFactoryCircuitGetSymbolicLinkName function (acxcircuit.h)
+
 ## -description
 
 The **AcxFactoryCircuitGetSymbolicLinkName** function retrieves the symbolic link name for the specified ACX factory circuit.

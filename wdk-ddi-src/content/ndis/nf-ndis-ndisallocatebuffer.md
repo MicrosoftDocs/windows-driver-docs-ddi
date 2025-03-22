@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisAllocateBuffer
 ---
 
-# NdisAllocateBuffer function
+# NdisAllocateBuffer function (ndis.h)
+
+
 
 ## -description
 

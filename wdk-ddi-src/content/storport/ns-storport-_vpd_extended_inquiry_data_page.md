@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["VPD_EXTENDED_INQUIRY_DATA_PAGE structure"]
 ms.keywords: _VPD_EXTENDED_INQUIRY_DATA_PAGE, VPD_EXTENDED_INQUIRY_DATA_PAGE, *PVPD_EXTENDED_INQUIRY_DATA_PAGE,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - VPD_EXTENDED_INQUIRY_DATA_PAGE
 ---
 
-# _VPD_EXTENDED_INQUIRY_DATA_PAGE structure (storport.h)
+# VPD_EXTENDED_INQUIRY_DATA_PAGE structure (storport.h)
+
+
 
 
 ## -description

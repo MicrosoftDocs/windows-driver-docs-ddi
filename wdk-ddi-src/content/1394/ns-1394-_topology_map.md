@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["TOPOLOGY_MAP structure"]
 ms.keywords: "*PTOPOLOGY_MAP, 1394/PTOPOLOGY_MAP, 1394/TOPOLOGY_MAP, 1394stct_4afaf64f-e60c-4521-91c7-82abefd49b55.xml, IEEE.topology_map, PTOPOLOGY_MAP, PTOPOLOGY_MAP structure pointer [Buses], TOPOLOGY_MAP, TOPOLOGY_MAP structure [Buses], _TOPOLOGY_MAP"
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TOPOLOGY_MAP
 ---
 
-# _TOPOLOGY_MAP structure
+# TOPOLOGY_MAP structure (1394.h)
+
+
 
 
 ## -description

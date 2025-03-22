@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["REPARSE_DATA_BUFFER_EX structure"]
 ms.keywords: _REPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER_EX, *PREPARSE_DATA_BUFFER_EX, REPARSE_DATA_BUFFER
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - REPARSE_DATA_BUFFER_EX
 ---
 
-# _REPARSE_DATA_BUFFER_EX structure
+# REPARSE_DATA_BUFFER_EX structure (ntifs.h)
+
+
 
 
 ## -description

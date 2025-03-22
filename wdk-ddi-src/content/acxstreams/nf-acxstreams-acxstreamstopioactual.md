@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamStopIoActual function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamStopIoActual** function is used to signal to the operating system to temporarily stop stream IO. This allows the driver a short period of time to run time sensitive tasks, and then resume IO after the execution of time sensitive code is complete.

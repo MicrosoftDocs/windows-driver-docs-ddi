@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SYSENV_VARIABLE_INFO structure"]
 ms.keywords: "*PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO, PSYSENV_VARIABLE_INFO structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE_INFO, SYSENV_VARIABLE_INFO structure [Kernel-Mode Driver Architecture], _SYSENV_VARIABLE_INFO, kernel.sysenv_variable_info, ntddsysenv/PSYSENV_VARIABLE_INFO, ntddsysenv/SYSENV_VARIABLE_INFO"
 req.header: ntddsysenv.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYSENV_VARIABLE_INFO
 ---
 
-# _SYSENV_VARIABLE_INFO structure
+# SYSENV_VARIABLE_INFO structure (ntddsysenv.h)
+
+
 
 
 ## -description

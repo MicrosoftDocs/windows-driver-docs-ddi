@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES structure"]
 ms.keywords: _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES, *PSIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES,
 req.header: usbsidebandaudio.h
+req.construct-type: structure
 req.include-header: usbsidebandaudio.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES
 ---
 
-# _SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES structure
+# SIDEBANDAUDIO_EP_USBAUDIO_TRANSPORT_RESOURCES structure (usbsidebandaudio.h)
+
+
 
 ## -description
 

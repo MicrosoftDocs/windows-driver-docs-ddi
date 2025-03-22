@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["WOF_VERSION_INFO structure"]
 ms.keywords: "*PWOF_VERSION_INFO, PWOF_VERSION_INFO, PWOF_VERSION_INFO structure pointer [Installable File System Drivers], WOF_VERSION_INFO, WOF_VERSION_INFO structure [Installable File System Drivers], _WOF_VERSION_INFO, ifsk.wof_version_info, ntifs/PWOF_VERSION_INFO, ntifs/WOF_VERSION_INFO"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -45,7 +46,9 @@ api_name:
  - WOF_VERSION_INFO
 ---
 
-# WOF_VERSION_INFO structure
+# WOF_VERSION_INFO structure (ntifs.h)
+
+
 
 ## -description
 

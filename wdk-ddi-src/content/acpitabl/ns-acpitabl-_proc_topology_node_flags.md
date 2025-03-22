@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_NODE_FLAGS structure"]
 ms.keywords: _PROC_TOPOLOGY_NODE_FLAGS, PROC_TOPOLOGY_NODE_FLAGS, *PPROC_TOPOLOGY_NODE_FLAGS,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PROC_TOPOLOGY_NODE_FLAGS
 ---
 
-# _PROC_TOPOLOGY_NODE_FLAGS structure
+# PROC_TOPOLOGY_NODE_FLAGS structure (acpitabl.h)
+
+
 
 
 ## -description

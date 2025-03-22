@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIEW_INSTANCING_DESC structure"]
 ms.keywords: D3D12DDI_VIEW_INSTANCING_DESC, D3D12DDI_VIEW_INSTANCING_DESC structure [Display Devices], d3d12umddi/D3D12DDI_VIEW_INSTANCING_DESC, display.d3d12ddi-view-instancing-desc
 req.header: d3d12umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIEW_INSTANCING_DESC
 ---
 
-# D3D12DDI_VIEW_INSTANCING_DESC structure
+# D3D12DDI_VIEW_INSTANCING_DESC structure (d3d12umddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: netvista
 ms.date: 01/30/2024
 ms.keywords: "*PNDIS_OFFLOAD, IPSEC_OFFLOAD_V2_AND_TCP_CHECKSUM_COEXISTENCE, IPSEC_OFFLOAD_V2_AND_UDP_CHECKSUM_COEXISTENCE, NDIS_OFFLOAD, NDIS_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_OFFLOAD, PNDIS_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD, netvista.ndis_offload, ntddndis/NDIS_OFFLOAD, ntddndis/PNDIS_OFFLOAD, tcpip_offload_ref_e5f796e9-714c-43f9-98e4-1d0de0dcc8ee.xml"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista,Supported in NDIS 6.0 and later.
@@ -45,7 +46,9 @@ api_name:
  - NDIS_OFFLOAD
 ---
 
-# _NDIS_OFFLOAD structure
+# NDIS_OFFLOAD structure (ntddndis.h)
+
+
 
 
 ## -description

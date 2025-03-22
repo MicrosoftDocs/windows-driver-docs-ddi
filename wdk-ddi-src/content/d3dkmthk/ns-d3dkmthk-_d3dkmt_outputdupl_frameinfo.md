@@ -6,6 +6,7 @@ ms.date: 07/17/2024
 keywords: ["D3DKMT_OUTPUTDUPL_FRAMEINFO structure"]
 ms.keywords: _D3DKMT_OUTPUTDUPL_FRAMEINFO, D3DKMT_OUTPUTDUPL_FRAMEINFO,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_OUTPUTDUPL_FRAMEINFO structure
+# D3DKMT_OUTPUTDUPL_FRAMEINFO structure (d3dkmthk.h)
+
+
 
 ## -description
 

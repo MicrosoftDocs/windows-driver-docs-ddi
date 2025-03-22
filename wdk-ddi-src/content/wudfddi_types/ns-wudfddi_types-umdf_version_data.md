@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["UMDF_VERSION_DATA structure"]
 ms.keywords: "*PUMDF_VERSION_DATA, PUMDF_VERSION_DATA, PUMDF_VERSION_DATA structure pointer, UMDF_VERSION_DATA, UMDF_VERSION_DATA structure, umdf.umdf_version_data, umdfstructs_b4fe6241-b095-437b-a3f8-e1cf395da8ee.xml, wdf.umdf_version_data, wudfddi_types/PUMDF_VERSION_DATA, wudfddi_types/UMDF_VERSION_DATA"
 req.header: wudfddi_types.h
+req.construct-type: structure
 req.include-header: Wudfddi_types.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PUMDF_VERSION_DATA
 ---
 
-# UMDF_VERSION_DATA structure
+# UMDF_VERSION_DATA structure (wudfddi_types.h)
+
+
 
 
 ## -description

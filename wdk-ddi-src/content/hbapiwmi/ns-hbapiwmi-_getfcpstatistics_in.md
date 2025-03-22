@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetFCPStatistics_IN structure"]
 ms.keywords: "*PGetFCPStatistics_IN, GetFCPStatistics_IN, GetFCPStatistics_IN structure [Storage Devices], PGetFCPStatistics_IN, PGetFCPStatistics_IN structure pointer [Storage Devices], _GetFCPStatistics_IN, hbapiwmi/GetFCPStatistics_IN, hbapiwmi/PGetFCPStatistics_IN, storage.getfcpstatistics_in, structs-Fibre_409be852-67ff-45c4-bce1-291076c1a70b.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetFCPStatistics_IN
 ---
 
-# _GetFCPStatistics_IN structure
+# GetFCPStatistics_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

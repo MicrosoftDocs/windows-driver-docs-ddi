@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure"]
 ms.keywords: "*PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure [Audio Devices], PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure pointer [Audio Devices], aud-prop_43dd73ce-1c4d-4138-a7c1-9f1f17da5643.xml, audio.ksrtaudio_buffer_property_with_notification, ksmedia/KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, ksmedia/PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 ---
 
-# KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure
+# KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure (ksmedia.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IDDCX_OPM_REQUESTED_INFORMATION structure"]
 ms.keywords: IDDCX_OPM_REQUESTED_INFORMATION, IDDCX_OPM_REQUESTED_INFORMATION structure [Display Devices], display.iddcx_opm_requested_information, iddcx/IDDCX_OPM_REQUESTED_INFORMATION
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_OPM_REQUESTED_INFORMATION
 ---
 
-# IDDCX_OPM_REQUESTED_INFORMATION structure
+# IDDCX_OPM_REQUESTED_INFORMATION structure (iddcx.h)
+
+
 
 
 ## -description

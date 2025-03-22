@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICROPHONE_COORDINATES structure (acxpin.h)
+
 ## -description
 
 The **ACX_MICROPHONE_COORDINATES** structure specifies the 3D location of the microphone in X, Y, and Z coordinates.

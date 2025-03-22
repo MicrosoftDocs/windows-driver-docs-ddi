@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_GAMMA_RAMP_DXGI_1 structure"]
 ms.keywords: D3DDDI_GAMMA_RAMP_DXGI_1, D3DDDI_GAMMA_RAMP_DXGI_1 structure [Display Devices], DmStructs_378e6432-010f-453c-8e59-d32f243543f0.xml, _D3DDDI_GAMMA_RAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMA_RAMP_DXGI_1, display.d3dddi_gamma_ramp_dxgi_1
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_GAMMA_RAMP_DXGI_1
 ---
 
-# _D3DDDI_GAMMA_RAMP_DXGI_1 structure
+# D3DDDI_GAMMA_RAMP_DXGI_1 structure (d3dukmdt.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_KEYWORDSPOTTER_CALLBACKS_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_KEYWORDSPOTTER_CALLBACKS_INIT** function initializes a [ACX_KEYWORDSPOTTER_CALLBACKS structure](ns-acxelements-acx_keywordspotter_callbacks.md).

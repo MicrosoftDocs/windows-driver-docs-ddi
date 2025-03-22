@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FILE_STAT_INFORMATION structure"]
 ms.keywords: _FILE_STAT_INFORMATION, FILE_STAT_INFORMATION, *PFILE_STAT_INFORMATION,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FILE_STAT_INFORMATION structure
+# FILE_STAT_INFORMATION structure (ntifs.h)
+
+
 
 
 ## -description

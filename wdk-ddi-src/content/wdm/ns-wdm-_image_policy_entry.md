@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IMAGE_POLICY_ENTRY structure"]
 ms.keywords: IMAGE_POLICY_ENTRY, IMAGE_POLICY_ENTRY structure [Kernel-Mode Driver Architecture], _IMAGE_POLICY_ENTRY, kernel._image_policy_entry, wdm/IMAGE_POLICY_ENTRY
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IMAGE_POLICY_ENTRY
 ---
 
-# _IMAGE_POLICY_ENTRY structure
+# IMAGE_POLICY_ENTRY structure (wdm.h)
+
+
 
 
 ## -description

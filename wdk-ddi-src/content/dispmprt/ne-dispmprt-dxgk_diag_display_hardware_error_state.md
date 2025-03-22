@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_HARDWARE_ERROR_STATE enumeration
+# DXGK_DIAG_DISPLAY_HARDWARE_ERROR_STATE enumeration (dispmprt.h)
+
+
 
 
 ## -description

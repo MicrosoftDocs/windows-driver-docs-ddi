@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICARRAYGEOMETRY_CONFIG structure (acxpin.h)
+
 ## -description
 
 The **ACX_MICARRAYGEOMETRY_CONFIG** structure is used to configure a microphone array.

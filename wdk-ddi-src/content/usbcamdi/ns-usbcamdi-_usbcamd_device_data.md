@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["USBCAMD_DEVICE_DATA structure"]
 ms.keywords: "*PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA, PUSBCAMD_DEVICE_DATA structure pointer [Streaming Media Devices], USBCAMD_DEVICE_DATA, USBCAMD_DEVICE_DATA structure [Streaming Media Devices], _USBCAMD_DEVICE_DATA, stream.usbcamd_device_data, usbcamdi/PUSBCAMD_DEVICE_DATA, usbcamdi/USBCAMD_DEVICE_DATA, usbcmdpr_1e4ea0e1-71e0-4c0e-a2bd-668f8fac9b02.xml"
 req.header: usbcamdi.h
+req.construct-type: structure
 req.include-header: Usbcamdi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBCAMD_DEVICE_DATA
 ---
 
-# _USBCAMD_DEVICE_DATA structure
+# USBCAMD_DEVICE_DATA structure (usbcamdi.h)
+
+
 
 
 ## -description

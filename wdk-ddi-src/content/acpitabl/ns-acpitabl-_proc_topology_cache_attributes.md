@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_CACHE_ATTRIBUTES structure"]
 ms.keywords: _PROC_TOPOLOGY_CACHE_ATTRIBUTES, PROC_TOPOLOGY_CACHE_ATTRIBUTES, *PPROC_TOPOLOGY_CACHE_ATTRIBUTES,
 req.header: acpitabl.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PROC_TOPOLOGY_CACHE_ATTRIBUTES
 ---
 
-# _PROC_TOPOLOGY_CACHE_ATTRIBUTES structure
+# PROC_TOPOLOGY_CACHE_ATTRIBUTES structure (acpitabl.h)
+
+
 
 
 ## -description

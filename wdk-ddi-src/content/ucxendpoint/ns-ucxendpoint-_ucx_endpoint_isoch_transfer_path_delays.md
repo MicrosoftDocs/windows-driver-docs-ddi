@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure"]
 ms.keywords: "*PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure pointer [Buses], UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure [Buses], _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, buses.ucx_endpoint_isoch_transfer_path_delays, ucxendpoint/PUCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS, ucxendpoint/UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS"
 req.header: ucxendpoint.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS
 ---
 
-# _UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure
+# UCX_ENDPOINT_ISOCH_TRANSFER_PATH_DELAYS structure (ucxendpoint.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDIDEVINFO_VCACHE structure"]
 ms.keywords: D3DDDIDEVINFO_VCACHE, D3DDDIDEVINFO_VCACHE structure [Display Devices], D3D_other_Structs_e212d960-07ba-4887-8b31-76ad54a7ae03.xml, _D3DDDIDEVINFO_VCACHE, d3dumddi/D3DDDIDEVINFO_VCACHE, display.d3dddidevinfo_vcache
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDIDEVINFO_VCACHE
 ---
 
-# _D3DDDIDEVINFO_VCACHE structure
+# D3DDDIDEVINFO_VCACHE structure (d3dumddi.h)
+
+
 
 
 ## -description

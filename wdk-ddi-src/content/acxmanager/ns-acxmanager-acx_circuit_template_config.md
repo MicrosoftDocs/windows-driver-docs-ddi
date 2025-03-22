@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CIRCUIT_TEMPLATE_CONFIG structure (acxmanager.h)
+
 ## -description
 
 The **ACX_CIRCUIT_TEMPLATE_CONFIG** structure is used to configure a new ACX circuit template object.

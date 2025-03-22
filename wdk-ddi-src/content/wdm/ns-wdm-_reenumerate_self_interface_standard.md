@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["REENUMERATE_SELF_INTERFACE_STANDARD structure"]
 ms.keywords: "*PREENUMERATE_SELF_INTERFACE_STANDARD, PREENUMERATE_SELF_INTERFACE_STANDARD, PREENUMERATE_SELF_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], REENUMERATE_SELF_INTERFACE_STANDARD, REENUMERATE_SELF_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], _REENUMERATE_SELF_INTERFACE_STANDARD, drvr_interface_6e913216-4d26-4c59-b040-854f5aac2a9a.xml, kernel.reenumerate_self_interface_standard, wdm/PREENUMERATE_SELF_INTERFACE_STANDARD, wdm/REENUMERATE_SELF_INTERFACE_STANDARD"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -46,7 +47,9 @@ api_name:
  - REENUMERATE_SELF_INTERFACE_STANDARD
 ---
 
-# _REENUMERATE_SELF_INTERFACE_STANDARD structure
+# REENUMERATE_SELF_INTERFACE_STANDARD structure (wdm.h)
+
+
 
 
 ## -description

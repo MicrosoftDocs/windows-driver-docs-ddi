@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure"]
 ms.keywords: _CURRENT_INTERNAL_STATUS_PARAMETER_DATA, CURRENT_INTERNAL_STATUS_PARAMETER_DATA, *PCURRENT_INTERNAL_STATUS_PARAMETER_DATA,
 req.header: storport.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - CURRENT_INTERNAL_STATUS_PARAMETER_DATA
 ---
 
-# _CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)
+# CURRENT_INTERNAL_STATUS_PARAMETER_DATA structure (storport.h)
+
+
 
 
 ## -description

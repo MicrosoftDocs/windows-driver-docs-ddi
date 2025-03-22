@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_DATA_BLOCK structure"]
 ms.keywords: _UCSI_DATA_BLOCK, UCSI_DATA_BLOCK, *PUCSI_DATA_BLOCK,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_DATA_BLOCK
 ---
 
-# _UCSI_DATA_BLOCK structure
+# UCSI_DATA_BLOCK structure (ucmucsispec.h)
+
+
 
 
 ## -description

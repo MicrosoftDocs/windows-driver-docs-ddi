@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["LogoutFromTarget_IN structure"]
 ms.keywords: "*PLogoutFromTarget_IN, LogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], PLogoutFromTarget_IN, PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, iscsiop/LogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, storage.logoutfromtarget_in, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - LogoutFromTarget_IN
 ---
 
-# _LogoutFromTarget_IN structure
+# LogoutFromTarget_IN structure (iscsiop.h)
+
+
 
 
 ## -description

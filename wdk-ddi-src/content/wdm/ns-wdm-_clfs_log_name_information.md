@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CLFS_LOG_NAME_INFORMATION structure"]
 ms.keywords: "*PCLFS_LOG_NAME_INFORMATION, CLFS_LOG_NAME_INFORMATION, CLFS_LOG_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_LOG_NAME_INFORMATION, PCLFS_LOG_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_LOG_NAME_INFORMATION, PPCLFS_LOG_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _CLFS_LOG_NAME_INFORMATION, kernel.clfs_log_name_information, kstruct_a_381305d2-8396-4f34-b981-0ba3eb732cd1.xml, wdm/CLFS_LOG_NAME_INFORMATION, wdm/PCLFS_LOG_NAME_INFORMATION, wdm/PPCLFS_LOG_NAME_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CLFS_LOG_NAME_INFORMATION
 ---
 
-# _CLFS_LOG_NAME_INFORMATION structure
+# CLFS_LOG_NAME_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BIDI_RESPONSE_DATA structure"]
 ms.keywords: "*LPBIDI_RESPONSE_DATA, *PBIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA, BIDI_RESPONSE_DATA structure [Print Devices], LPBIDI_RESPONSE_DATA, LPBIDI_RESPONSE_DATA structure pointer [Print Devices], PBIDI_RESPONSE_DATA, PBIDI_RESPONSE_DATA structure pointer [Print Devices], _BIDI_RESPONSE_DATA, print.bidi_response_data, spoolfnc_eb6aa91d-8fbc-4079-a8b8-57d5c3ff7abf.xml, winspool/BIDI_RESPONSE_DATA, winspool/LPBIDI_RESPONSE_DATA, winspool/PBIDI_RESPONSE_DATA"
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available in Windows XP and later operating systems.
@@ -46,7 +47,9 @@ api_name:
  - BIDI_RESPONSE_DATA
 ---
 
-# _BIDI_RESPONSE_DATA structure
+# BIDI_RESPONSE_DATA structure (winspool.h)
+
+
 
 
 ## -description

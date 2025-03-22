@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["CIP_HDR2_MPEGTS structure"]
 ms.keywords: "*PCIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS, CIP_HDR2_MPEGTS structure [Streaming Media Devices], PCIP_HDR2_MPEGTS, PCIP_HDR2_MPEGTS structure pointer [Streaming Media Devices], _CIP_HDR2_MPEGTS, avcsref_80577192-cbb5-401a-a840-5970841111ab.xml, avcstrm/CIP_HDR2_MPEGTS, avcstrm/PCIP_HDR2_MPEGTS, stream.cip_hdr2_mpegts"
 req.header: avcstrm.h
+req.construct-type: structure
 req.include-header: Avcstrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CIP_HDR2_MPEGTS
 ---
 
-# _CIP_HDR2_MPEGTS structure
+# CIP_HDR2_MPEGTS structure (avcstrm.h)
+
+
 
 
 ## -description

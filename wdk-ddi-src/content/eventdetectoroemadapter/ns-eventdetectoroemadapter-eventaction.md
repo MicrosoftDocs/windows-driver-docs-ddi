@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["EVENTACTION structure"]
 ms.keywords: EVENTACTION, EVENTACTION,
 req.header: eventdetectoroemadapter.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - EVENTACTION
 ---
 
-# EVENTACTION structure
+# EVENTACTION structure (eventdetectoroemadapter.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_BCA_DESCRIPTOR structure"]
 ms.keywords: "*PDVD_BCA_DESCRIPTOR, DVD_BCA_DESCRIPTOR, DVD_BCA_DESCRIPTOR structure [Storage Devices], PDVD_BCA_DESCRIPTOR, PDVD_BCA_DESCRIPTOR structure pointer [Storage Devices], _DVD_BCA_DESCRIPTOR, ntddcdvd/DVD_BCA_DESCRIPTOR, ntddcdvd/PDVD_BCA_DESCRIPTOR, storage.dvd_bca_descriptor, structs-DVD_4bbbd075-9b9f-40a6-b52d-e96b8ad7118b.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DVD_BCA_DESCRIPTOR
 ---
 
-# _DVD_BCA_DESCRIPTOR structure
+# DVD_BCA_DESCRIPTOR structure (ntddcdvd.h)
+
+
 
 
 ## -description

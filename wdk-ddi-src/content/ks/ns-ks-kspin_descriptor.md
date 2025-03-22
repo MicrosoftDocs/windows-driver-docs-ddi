@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN_DESCRIPTOR structure"]
 ms.keywords: "*PKSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR, KSPIN_DESCRIPTOR structure [Streaming Media Devices], PKSPIN_DESCRIPTOR, PKSPIN_DESCRIPTOR structure pointer [Streaming Media Devices], ks-struct_adeadb36-6cf2-4c36-a1b4-a7852e98303f.xml, ks/KSPIN_DESCRIPTOR, ks/PKSPIN_DESCRIPTOR, stream.kspin_descriptor"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPIN_DESCRIPTOR
 ---
 
-# KSPIN_DESCRIPTOR structure
+# KSPIN_DESCRIPTOR structure (ks.h)
+
+
 
 
 ## -description

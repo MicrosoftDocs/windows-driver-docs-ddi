@@ -6,6 +6,7 @@ ms.date: 07/27/2023
 keywords: ["D3DKMT_BUDGETCHANGENOTIFICATION structure"]
 ms.keywords: _D3DKMT_BUDGETCHANGENOTIFICATION, D3DKMT_BUDGETCHANGENOTIFICATION,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_BUDGETCHANGENOTIFICATION structure
+# D3DKMT_BUDGETCHANGENOTIFICATION structure (d3dkmthk.h)
+
+
 
 ## -description
 

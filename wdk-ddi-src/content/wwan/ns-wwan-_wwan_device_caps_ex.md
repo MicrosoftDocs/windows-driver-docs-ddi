@@ -8,6 +8,7 @@ ms.date: 12/30/2021
 keywords: ["WWAN_DEVICE_CAPS_EX structure"]
 ms.keywords: "*PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_CAPS_EX, netvista.wwan_device_caps_ex, wwan/PWWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DEVICE_CAPS_EX
 ---
 
-# _WWAN_DEVICE_CAPS_EX structure
+# WWAN_DEVICE_CAPS_EX structure (wwan.h)
+
+
 
 
 ## -description

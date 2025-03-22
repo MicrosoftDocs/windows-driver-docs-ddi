@@ -8,6 +8,7 @@ ms.date: 02/28/2023
 keywords: ["D3DDeviceDesc_V3 structure"]
 ms.keywords: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], _D3DDeviceDesc_V3, d3dhal/, d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, display.d3ddevicedesc_v3"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - D3DDEVICEDESC_V3
 ---
 
-# D3DDeviceDesc_V3 structure
+# D3DDEVICEDESC_V3 structure (d3dhal.h)
+
+
 
 ## -description
 

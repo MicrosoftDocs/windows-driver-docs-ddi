@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetKsDataFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetKsDataFormat** function gets the kernel streaming data format for the specified data format.

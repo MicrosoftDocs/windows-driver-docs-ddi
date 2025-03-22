@@ -7,6 +7,7 @@ ms.date: 03/23/2022
 keywords: ["EMULATOR_ACCESS_ENTRY structure"]
 ms.keywords: ",  , *, *PEMULATOR_ACCESS_ENTRY, ,, A, C, E, EMULATOR_ACCESS_ENTRY, EMULATOR_ACCESS_ENTRY structure [Display Devices], L, M, N, O, P, PEMULATOR_ACCESS_ENTRY, PEMULATOR_ACCESS_ENTRY structure pointer [Display Devices], R, S, T, U, Video_Structs_8a00f589-ff5c-489b-b49b-abdcf9f42cf2.xml, Y, _, _EMULATOR_ACCESS_ENTRY, display.emulator_access_entry, miniport/EMULATOR_ACCESS_ENTRY, miniport/PEMULATOR_ACCESS_ENTRY"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PEMULATOR_ACCESS_ENTRY
  - EMULATOR_ACCESS_ENTRY
 ---
+
+# EMULATOR_ACCESS_ENTRY structure (miniport.h)
 
 ## -description
 

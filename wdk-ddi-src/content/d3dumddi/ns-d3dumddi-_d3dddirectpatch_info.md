@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDIRECTPATCH_INFO structure"]
 ms.keywords: _D3DDDIRECTPATCH_INFO, D3DDDIRECTPATCH_INFO,
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDIRECTPATCH_INFO structure
+# D3DDDIRECTPATCH_INFO structure (d3dumddi.h)
+
+
 
 
 ## -description

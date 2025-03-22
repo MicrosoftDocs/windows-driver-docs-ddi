@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AACS_BINDING_NONCE structure"]
 ms.keywords: "*PAACS_BINDING_NONCE, AACS_BINDING_NONCE, AACS_BINDING_NONCE structure [Storage Devices], PAACS_BINDING_NONCE, PAACS_BINDING_NONCE structure pointer [Storage Devices], _AACS_BINDING_NONCE, ntddcdvd/AACS_BINDING_NONCE, ntddcdvd/PAACS_BINDING_NONCE, storage.aacs_binding_nonce, structs-DVD_4420e26a-681e-4942-9f90-699bcd80b37f.xml"
 req.header: ntddcdvd.h
+req.construct-type: structure
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AACS_BINDING_NONCE
 ---
 
-# _AACS_BINDING_NONCE structure
+# AACS_BINDING_NONCE structure (ntddcdvd.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the DXGKARG_CONTROLINTERRUPT2 structure.
 ms.date: 03/24/2020
 ms.keywords: DXGKARG_CONTROLINTERRUPT2, DXGKARG_CONTROLINTERRUPT2 structure [Display Devices], DXGKARG_CONTROLINTTERUPT2, DXGKARG_CONTROLINTTERUPT2 structure [Display Devices], _DXGKARG_CONTROLINTERRUPT2, d3dkmddi/DXGKARG_CONTROLINTERRUPT2, display.dxgkarg_controlinterrupt2
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - DXGKARG_CONTROLINTERRUPT2
 ---
 
-# DXGKARG_CONTROLINTERRUPT2 structure
+# DXGKARG_CONTROLINTERRUPT2 structure (d3dkmddi.h)
+
+
 
 ## -description
 

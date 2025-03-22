@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_VALID_DATA_LENGTH_INFORMATION structure"]
 ms.keywords: "*PFILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION, FILE_VALID_DATA_LENGTH_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_VALID_DATA_LENGTH_INFORMATION, PFILE_VALID_DATA_LENGTH_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_VALID_DATA_LENGTH_INFORMATION, kernel.file_valid_data_length_information, kstruct_b_4db45831-d238-4274-b0f3-f1945e187eb5.xml, ntddk/FILE_VALID_DATA_LENGTH_INFORMATION, ntddk/PFILE_VALID_DATA_LENGTH_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows XP and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - FILE_VALID_DATA_LENGTH_INFORMATION
 ---
 
-# _FILE_VALID_DATA_LENGTH_INFORMATION structure
+# FILE_VALID_DATA_LENGTH_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

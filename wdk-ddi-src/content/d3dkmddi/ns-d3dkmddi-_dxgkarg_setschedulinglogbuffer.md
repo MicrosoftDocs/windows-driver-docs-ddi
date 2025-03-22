@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKARG_SETSCHEDULINGLOGBUFFER structure"]
 ms.keywords: _DXGKARG_SETSCHEDULINGLOGBUFFER, DXGKARG_SETSCHEDULINGLOGBUFFER,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKARG_SETSCHEDULINGLOGBUFFER structure
+# DXGKARG_SETSCHEDULINGLOGBUFFER structure (d3dkmddi.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_OFFER_FLAGS structure"]
 ms.keywords: D3DDDI_OFFER_FLAGS, D3DDDI_OFFER_FLAGS,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_OFFER_FLAGS structure
+# D3DDDI_OFFER_FLAGS structure (d3dukmdt.h)
+
+
 
 
 ## -description

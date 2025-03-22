@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN_CINSTANCES structure"]
 ms.keywords: "*PKSPIN_CINSTANCES, KSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], ks/KSPIN_CINSTANCES, ks/PKSPIN_CINSTANCES, stream.kspin_cinstances"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSPIN_CINSTANCES
 ---
 
-# KSPIN_CINSTANCES structure
+# KSPIN_CINSTANCES structure (ks.h)
+
+
 
 
 ## -description

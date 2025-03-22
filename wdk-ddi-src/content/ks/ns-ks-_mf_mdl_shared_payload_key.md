@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["MF_MDL_SHARED_PAYLOAD_KEY structure"]
 ms.keywords: "*PMF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY, MF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], PMF_MDL_SHARED_PAYLOAD_KEY, PMF_MDL_SHARED_PAYLOAD_KEY union [Streaming Media Devices], _MF_MDL_SHARED_PAYLOAD_KEY, ks/MF_MDL_SHARED_PAYLOAD_KEY, ks/PMF_MDL_SHARED_PAYLOAD_KEY, stream.mf_mdl_shared_payload_key"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MF_MDL_SHARED_PAYLOAD_KEY
 ---
 
-# _MF_MDL_SHARED_PAYLOAD_KEY structure
+# MF_MDL_SHARED_PAYLOAD_KEY structure (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSDEVICE_PROFILE_INFO structure"]
 ms.keywords: "*PKSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO, KSDEVICE_PROFILE_INFO structure [Streaming Media Devices], PKSDEVICE_PROFILE_INFO, PKSDEVICE_PROFILE_INFO structure pointer [Streaming Media Devices], _KSDEVICE_PROFILE_INFO, ksmedia/KSDEVICE_PROFILE_INFO, ksmedia/PKSDEVICE_PROFILE_INFO, stream.ksdevice_profile_info"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - KSDEVICE_PROFILE_INFO
 ---
 
-# _KSDEVICE_PROFILE_INFO structure
+# KSDEVICE_PROFILE_INFO structure (ksmedia.h)
+
+
 
 
 ## -description

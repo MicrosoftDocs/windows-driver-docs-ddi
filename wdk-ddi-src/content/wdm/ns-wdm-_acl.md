@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["ACL structure"]
 ms.keywords: "*PACL, ACL, ACL structure [Installable File System Drivers], PACL, PACL structure pointer [Installable File System Drivers], _ACL, ifsk.acl, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/ACL, wdm/PACL"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - ACL
 ---
 
-# _ACL structure
+# ACL structure (wdm.h)
+
+
 
 
 ## -description

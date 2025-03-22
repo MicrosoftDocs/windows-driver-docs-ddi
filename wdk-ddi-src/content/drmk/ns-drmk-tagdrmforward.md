@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["tagDRMFORWARD structure"]
 ms.keywords: "*PDRMFORWARD, DRMFORWARD, DRMFORWARD structure [Audio Devices], PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, audio.drmforward, drmk/DRMFORWARD, drmk/PDRMFORWARD, tagDRMFORWARD"
 req.header: drmk.h
+req.construct-type: structure
 req.include-header: Drmk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DRMFORWARD
 ---
 
-# tagDRMFORWARD structure
+# tagDRMFORWARD structure (drmk.h)
+
+
 
 
 ## -description

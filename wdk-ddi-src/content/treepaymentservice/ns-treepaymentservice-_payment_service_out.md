@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["PAYMENT_SERVICE_OUT structure"]
 ms.keywords: _PAYMENT_SERVICE_OUT, PAYMENT_SERVICE_OUT, *PPAYMENT_SERVICE_OUT,
 req.header: treepaymentservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PAYMENT_SERVICE_OUT
 ---
 
-# _PAYMENT_SERVICE_OUT structure
+# PAYMENT_SERVICE_OUT structure (treepaymentservice.h)
+
+
 
 
 ## -description

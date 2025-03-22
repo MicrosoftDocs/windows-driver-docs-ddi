@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["HBAFCPScsiEntry structure"]
 ms.keywords: "*PHBAFCPScsiEntry, HBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices], PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], _HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, storage.hbafcpscsientry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - HBAFCPScsiEntry
 ---
 
-# _HBAFCPScsiEntry structure
+# HBAFCPScsiEntry structure (hbapiwmi.h)
+
+
 
 
 ## -description

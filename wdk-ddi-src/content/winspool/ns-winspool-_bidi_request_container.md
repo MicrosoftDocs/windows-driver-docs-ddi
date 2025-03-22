@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["BIDI_REQUEST_CONTAINER structure"]
 ms.keywords: "*LPBIDI_REQUEST_CONTAINER, *PBIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER, BIDI_REQUEST_CONTAINER structure [Print Devices], LPBIDI_REQUEST_CONTAINER, LPBIDI_REQUEST_CONTAINER structure pointer [Print Devices], PBIDI_REQUEST_CONTAINER, PBIDI_REQUEST_CONTAINER structure pointer [Print Devices], _BIDI_REQUEST_CONTAINER, print.bidi_request_container, spoolfnc_26c43d0f-69f8-415c-8653-79ef503fe139.xml, winspool/BIDI_REQUEST_CONTAINER, winspool/LPBIDI_REQUEST_CONTAINER, winspool/PBIDI_REQUEST_CONTAINER"
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: This structure is available in Windows XP and later.
@@ -46,7 +47,9 @@ api_name:
  - BIDI_REQUEST_CONTAINER
 ---
 
-# _BIDI_REQUEST_CONTAINER structure
+# BIDI_REQUEST_CONTAINER structure (winspool.h)
+
+
 
 
 ## -description

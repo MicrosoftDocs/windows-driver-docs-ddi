@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_NODE_PERFDATA structure"]
 ms.keywords: _DXGK_NODE_PERFDATA, DXGK_NODE_PERFDATA,
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DXGK_NODE_PERFDATA
 ---
 
-# _DXGK_NODE_PERFDATA structure
+# DXGK_NODE_PERFDATA structure (d3dkmdt.h)
+
+
 
 
 ## -description

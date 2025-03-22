@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure"]
 ms.keywords: "DEVICE_DSM_INPUT, PDEVICE_DSM_INPUT, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
-# _DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
+# DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure (ntddstor.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetSampleRate function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetSampleRate** function gets the sample rate for the specified data format.

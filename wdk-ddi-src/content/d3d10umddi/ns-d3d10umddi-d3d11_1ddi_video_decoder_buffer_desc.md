@@ -7,6 +7,7 @@ ms.date: 02/20/2018
 keywords: ["D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure"]
 ms.keywords: D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure [Display Devices], display.d3d11_1ddi_video_decoderr_buffer_desc, d3d10umddi/D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC, D3D11_1DDI_VIDEO_DECODERR_BUFFER_DESC structure [Display Devices]
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC
 ---
 
-# D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure
+# D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC structure (d3d10umddi.h)
+
+
 
 
 ## -description

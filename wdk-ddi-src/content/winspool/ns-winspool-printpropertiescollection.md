@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["PrintPropertiesCollection structure"]
 ms.keywords: PrintPropertiesCollection, PrintPropertiesCollection structure [Print Devices], print.printpropertiescollection, winspool/PrintPropertiesCollection
 req.header: winspool.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PrintPropertiesCollection
 ---
 
-# PrintPropertiesCollection structure
+# PrintPropertiesCollection structure (winspool.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FSCTL_OFFLOAD_READ_OUTPUT structure"]
 ms.keywords: "*PFSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT, FSCTL_OFFLOAD_READ_OUTPUT structure [Installable File System Drivers], OFFLOAD_READ_FLAG_ALL_ZERO_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_CANNOT_OFFLOAD_BEYOND_CURRENT_RANGE, OFFLOAD_READ_FLAG_FILE_TOO_SMALL, PFSCTL_OFFLOAD_READ_OUTPUT, PFSCTL_OFFLOAD_READ_OUTPUT structure pointer [Installable File System Drivers], _FSCTL_OFFLOAD_READ_OUTPUT, ifsk.fsctl_offload_read_output, ntifs/FSCTL_OFFLOAD_READ_OUTPUT, ntifs/PFSCTL_OFFLOAD_READ_OUTPUT"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - FSCTL_OFFLOAD_READ_OUTPUT
 ---
 
-# _FSCTL_OFFLOAD_READ_OUTPUT structure
+# FSCTL_OFFLOAD_READ_OUTPUT structure (ntifs.h)
+
+
 
 
 ## -description

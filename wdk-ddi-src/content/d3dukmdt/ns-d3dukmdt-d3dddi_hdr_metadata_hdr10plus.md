@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_HDR_METADATA_HDR10PLUS structure"]
 ms.keywords: D3DDDI_HDR_METADATA_HDR10PLUS, D3DDDI_HDR_METADATA_HDR10PLUS,
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3DDDI_HDR_METADATA_HDR10PLUS
 ---
 
-# D3DDDI_HDR_METADATA_HDR10PLUS structure
+# D3DDDI_HDR_METADATA_HDR10PLUS structure (d3dukmdt.h)
+
+
 
 
 ## -description

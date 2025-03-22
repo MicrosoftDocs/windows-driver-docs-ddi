@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetPresharedKeyForId_OUT structure"]
 ms.keywords: "*PGetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT structure [Storage Devices], PGetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT structure pointer [Storage Devices], _GetPresharedKeyForId_OUT, iscsiop/GetPresharedKeyForId_OUT, iscsiop/PGetPresharedKeyForId_OUT, storage.getpresharedkeyforid_out, structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetPresharedKeyForId_OUT
 ---
 
-# _GetPresharedKeyForId_OUT structure
+# GetPresharedKeyForId_OUT structure (iscsiop.h)
+
+
 
 
 ## -description

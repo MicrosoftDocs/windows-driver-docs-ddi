@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["USBSCAN_GET_DESCRIPTOR structure"]
 ms.keywords: "*PUSBSCAN_GET_DESCRIPTOR, PUSBSCAN_GET_DESCRIPTOR, PUSBSCAN_GET_DESCRIPTOR structure pointer [Imaging Devices], USBSCAN_GET_DESCRIPTOR, USBSCAN_GET_DESCRIPTOR structure [Imaging Devices], _USBSCAN_GET_DESCRIPTOR, image.usbscan_get_descriptor, stifnc_1e92e306-420d-47ec-bb8a-8c906c3b62ea.xml, usbscan/PUSBSCAN_GET_DESCRIPTOR, usbscan/USBSCAN_GET_DESCRIPTOR"
 req.header: usbscan.h
+req.construct-type: structure
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBSCAN_GET_DESCRIPTOR
 ---
 
-# _USBSCAN_GET_DESCRIPTOR structure
+# USBSCAN_GET_DESCRIPTOR structure (usbscan.h)
+
+
 
 
 ## -description

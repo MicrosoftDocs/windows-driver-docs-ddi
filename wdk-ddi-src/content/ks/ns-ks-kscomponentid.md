@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCOMPONENTID structure"]
 ms.keywords: "*PKSCOMPONENTID, KSCOMPONENTID, KSCOMPONENTID structure [Streaming Media Devices], PKSCOMPONENTID, PKSCOMPONENTID structure pointer [Streaming Media Devices], ks-struct_a6ed820f-c35d-411e-98a5-bd14a2141960.xml, ks/KSCOMPONENTID, ks/PKSCOMPONENTID, stream.kscomponentid"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSCOMPONENTID
 ---
 
-# KSCOMPONENTID structure
+# KSCOMPONENTID structure (ks.h)
+
+
 
 
 ## -description

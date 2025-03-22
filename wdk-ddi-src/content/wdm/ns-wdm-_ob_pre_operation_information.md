@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["OB_PRE_OPERATION_INFORMATION structure"]
 ms.keywords: "*POB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION, OB_PRE_OPERATION_INFORMATION structure [Kernel-Mode Driver Architecture], POB_PRE_OPERATION_INFORMATION, POB_PRE_OPERATION_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _OB_PRE_OPERATION_INFORMATION, kernel.ob_pre_operation_information, kstruct_c_36dbceed-ec59-4fe7-885f-93386ea7b3e9.xml, wdm/OB_PRE_OPERATION_INFORMATION, wdm/POB_PRE_OPERATION_INFORMATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2008 and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - OB_PRE_OPERATION_INFORMATION
 ---
 
-# _OB_PRE_OPERATION_INFORMATION structure
+# OB_PRE_OPERATION_INFORMATION structure (wdm.h)
+
+
 
 
 ## -description

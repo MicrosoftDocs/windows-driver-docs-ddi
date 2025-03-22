@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_BUS_CONFIGURATION_INFO structure"]
 ms.keywords: "*PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], USBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], _USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO"
 req.header: usbfnbase.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_BUS_CONFIGURATION_INFO
 ---
 
-# _USBFN_BUS_CONFIGURATION_INFO structure
+# USBFN_BUS_CONFIGURATION_INFO structure (usbfnbase.h)
+
+
 
 
 ## -description

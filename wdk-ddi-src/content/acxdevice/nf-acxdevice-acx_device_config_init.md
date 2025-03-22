@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DEVICE_CONFIG_INIT function (acxdevice.h)
+
 ## -description
 
 The **ACX_DEVICE_CONFIG_INIT** function initializes an [ACX_DEVICE_CONFIG](ns-acxdevice-acx_device_config.md) structure to be used when calling the [AcxDeviceInitialize](nf-acxdevice-acxdeviceinitialize.md) function.

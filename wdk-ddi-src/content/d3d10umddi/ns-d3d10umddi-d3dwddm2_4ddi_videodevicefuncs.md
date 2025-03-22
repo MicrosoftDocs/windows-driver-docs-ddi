@@ -6,6 +6,7 @@ ms.date: 01/17/2023
 keywords: ["D3DWDDM2_4DDI_VIDEODEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_4DDI_VIDEODEVICEFUNCS, D3DWDDM2_4DDI_VIDEODEVICEFUNCS,
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3DWDDM2_4DDI_VIDEODEVICEFUNCS
 ---
 
-# D3DWDDM2_4DDI_VIDEODEVICEFUNCS structure
+# D3DWDDM2_4DDI_VIDEODEVICEFUNCS structure (d3d10umddi.h)
+
+
 
 ## -description
 

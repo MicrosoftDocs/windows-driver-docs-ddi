@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["INSTANCE_PARTIAL_INFORMATION structure"]
 ms.keywords: FltSystemStructures_10279757-e7e1-49a9-aa12-184a830e1db7.xml, INSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION structure [Installable File System Drivers], PINSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION structure pointer [Installable File System Drivers], _INSTANCE_PARTIAL_INFORMATION, fltuserstructures/INSTANCE_PARTIAL_INFORMATION, fltuserstructures/PINSTANCE_PARTIAL_INFORMATION, ifsk.instance_partial_information
 req.header: fltuserstructures.h
+req.construct-type: structure
 req.include-header: FltUser.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - INSTANCE_PARTIAL_INFORMATION
 ---
 
-# _INSTANCE_PARTIAL_INFORMATION structure
+# INSTANCE_PARTIAL_INFORMATION structure (fltuserstructures.h)
+
+
 
 
 ## -description

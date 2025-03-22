@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["SPLCLIENT_INFO_2_V3 structure"]
 ms.keywords: "*LPSPLCLIENT_INFO_2, *PSPLCLIENT_INFO_2, SPLCLIENT_INFO_2, SPLCLIENT_INFO_2_LONGHORN, SPLCLIENT_INFO_2_LONGHORN structure [Print Devices], _SPLCLIENT_INFO_2_V3, print.splclient_info_2_longhorn, winsplp/SPLCLIENT_INFO_2_LONGHORN"
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - SPLCLIENT_INFO_2_LONGHORN
 ---
 
-# _SPLCLIENT_INFO_2_V3 structure
+# SPLCLIENT_INFO_2_LONGHORN structure (winsplp.h)
+
+
 
 
 ## -description

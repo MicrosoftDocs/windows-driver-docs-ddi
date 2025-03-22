@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisMRegisterDevice
 ---
 
-# NdisMRegisterDevice function
+# NdisMRegisterDevice function (ndis.h)
+
+
 
 ## -description
 

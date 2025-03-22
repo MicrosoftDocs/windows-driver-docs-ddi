@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["FILE_ALIGNMENT_INFORMATION structure"]
 ms.keywords: "*PFILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION, FILE_ALIGNMENT_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ALIGNMENT_INFORMATION, PFILE_ALIGNMENT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _FILE_ALIGNMENT_INFORMATION, kernel.file_alignment_information, kstruct_b_ce42b00c-17a9-4fcf-a6bb-ade557580e81.xml, ntddk/FILE_ALIGNMENT_INFORMATION, ntddk/PFILE_ALIGNMENT_INFORMATION"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_ALIGNMENT_INFORMATION
 ---
 
-# _FILE_ALIGNMENT_INFORMATION structure
+# FILE_ALIGNMENT_INFORMATION structure (ntddk.h)
+
+
 
 
 ## -description

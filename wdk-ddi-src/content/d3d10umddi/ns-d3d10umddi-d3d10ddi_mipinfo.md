@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10DDI_MIPINFO structure"]
 ms.keywords: D3D10DDI_MIPINFO, D3D10DDI_MIPINFO structure [Display Devices], UMDisplayDriver_Dx10param_Structs_67768e5f-a18d-4bd9-a1be-96587f267c36.xml, d3d10umddi/D3D10DDI_MIPINFO, display.d3d10ddi_mipinfo
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10DDI_MIPINFO
 ---
 
-# D3D10DDI_MIPINFO structure
+# D3D10DDI_MIPINFO structure (d3d10umddi.h)
+
+
 
 
 ## -description

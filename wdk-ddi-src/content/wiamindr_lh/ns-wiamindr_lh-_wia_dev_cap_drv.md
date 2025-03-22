@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIA_DEV_CAP_DRV structure"]
 ms.keywords: "*PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV, PWIA_DEV_CAP_DRV structure pointer [Imaging Devices], WIA_DEV_CAP_DRV, WIA_DEV_CAP_DRV structure [Imaging Devices], _WIA_DEV_CAP_DRV, image.wia_dev_cap_drv, wiamindr_lh/PWIA_DEV_CAP_DRV, wiamindr_lh/WIA_DEV_CAP_DRV, wiastrct_111f0703-6db4-4a87-ae12-20a3120219cc.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WIA_DEV_CAP_DRV
 ---
 
-# _WIA_DEV_CAP_DRV structure
+# WIA_DEV_CAP_DRV structure (wiamindr_lh.h)
+
+
 
 
 ## -description

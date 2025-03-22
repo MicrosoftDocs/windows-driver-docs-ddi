@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CONNECTION_TYPE enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CONNECTION_TYPE** enumeration is used by the [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure to describe the type of a physical connection jack.

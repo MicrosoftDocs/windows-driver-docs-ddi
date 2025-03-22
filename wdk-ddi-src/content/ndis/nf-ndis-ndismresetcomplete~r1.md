@@ -38,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# NdisMResetComplete function (NDIS 6.x)
+# NdisMResetComplete function (ndis.h)
+
+ (NDIS 6.x)
 
 ## -description
 

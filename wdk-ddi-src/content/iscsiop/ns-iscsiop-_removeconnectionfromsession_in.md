@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["RemoveConnectionFromSession_IN structure"]
 ms.keywords: "*PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], RemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN structure [Storage Devices], _RemoveConnectionFromSession_IN, iscsiop/PRemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml"
 req.header: iscsiop.h
+req.construct-type: structure
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - RemoveConnectionFromSession_IN
 ---
 
-# _RemoveConnectionFromSession_IN structure
+# RemoveConnectionFromSession_IN structure (iscsiop.h)
+
+
 
 
 ## -description

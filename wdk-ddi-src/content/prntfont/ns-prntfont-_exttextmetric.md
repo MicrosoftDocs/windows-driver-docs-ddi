@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["EXTTEXTMETRIC structure"]
 ms.keywords: "*PEXTTEXTMETRIC, EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], PEXTTEXTMETRIC, PEXTTEXTMETRIC structure pointer [Print Devices], _EXTTEXTMETRIC, print.exttextmetric, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, prntfont/EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - EXTTEXTMETRIC
 ---
 
-# _EXTTEXTMETRIC structure
+# EXTTEXTMETRIC structure (prntfont.h)
+
+
 
 
 ## -description

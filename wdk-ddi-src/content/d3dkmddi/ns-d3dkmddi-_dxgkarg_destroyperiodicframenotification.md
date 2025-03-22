@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure"]
 ms.keywords: DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure [Display Devices], _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, d3dkmddi/DXGKARG_DESTROYPERIODICFRAMENOTIFICATION, display.dxgkarg_destroyperiodicframenotification
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_DESTROYPERIODICFRAMENOTIFICATION
 ---
 
-# _DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure
+# DXGKARG_DESTROYPERIODICFRAMENOTIFICATION structure (d3dkmddi.h)
+
+
 
 
 ## -description

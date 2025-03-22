@@ -8,6 +8,7 @@ ms.date: 08/23/2019
 keywords: ["STORAGE_OFFLOAD_WRITE_OUTPUT structure"]
 ms.keywords: "*PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT, PSTORAGE_OFFLOAD_WRITE_OUTPUT structure pointer [Storage Devices], STORAGE_OFFLOAD_TOKEN_INVALID, STORAGE_OFFLOAD_WRITE_OUTPUT, STORAGE_OFFLOAD_WRITE_OUTPUT structure [Storage Devices], STORAGE_OFFLOAD_WRITE_RANGE_TRUNCATED, _STORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/PSTORAGE_OFFLOAD_WRITE_OUTPUT, ntddstor/STORAGE_OFFLOAD_WRITE_OUTPUT, storage.storage_offload_write_output"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_OFFLOAD_WRITE_OUTPUT
 ---
 
-# _STORAGE_OFFLOAD_WRITE_OUTPUT structure
+# STORAGE_OFFLOAD_WRITE_OUTPUT structure (ntddstor.h)
+
+
 
 
 ## -description

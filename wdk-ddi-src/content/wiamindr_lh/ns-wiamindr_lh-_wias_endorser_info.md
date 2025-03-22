@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_ENDORSER_INFO structure"]
 ms.keywords: "*PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], _WIAS_ENDORSER_INFO, image.wias_endorser_info, wiamindr_lh/PWIAS_ENDORSER_INFO, wiamindr_lh/WIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml"
 req.header: wiamindr_lh.h
+req.construct-type: structure
 req.include-header: Wiamindr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WIAS_ENDORSER_INFO
 ---
 
-# _WIAS_ENDORSER_INFO structure
+# WIAS_ENDORSER_INFO structure (wiamindr_lh.h)
+
+
 
 
 ## -description

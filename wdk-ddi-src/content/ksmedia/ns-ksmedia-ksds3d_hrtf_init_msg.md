@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSDS3D_HRTF_INIT_MSG structure"]
 ms.keywords: "*PKSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG, KSDS3D_HRTF_INIT_MSG structure [Audio Devices], PKSDS3D_HRTF_INIT_MSG, PKSDS3D_HRTF_INIT_MSG structure pointer [Audio Devices], aud-prop_f9994a16-7d3c-43af-b423-c6afc64c05b9.xml, audio.ksds3d_hrtf_init_msg, ksmedia/KSDS3D_HRTF_INIT_MSG, ksmedia/PKSDS3D_HRTF_INIT_MSG"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDS3D_HRTF_INIT_MSG
 ---
 
-# KSDS3D_HRTF_INIT_MSG structure
+# KSDS3D_HRTF_INIT_MSG structure (ksmedia.h)
+
+
 
 
 ## -description

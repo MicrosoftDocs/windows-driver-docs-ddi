@@ -9,6 +9,7 @@ keywords: ["PRINTPROVIDOR structure"]
 ms.keywords: "*LPPRINTPROVIDOR, LPPRINTPROVIDOR, LPPRINTPROVIDOR structure pointer [Print Devices], PRINTPROVIDOR, PRINTPROVIDOR structure [Print Devices], _PRINTPROVIDOR, print.printprovidor, spoolfnc_4fb8242e-e0a0-47e5-b01f-2a20932d4d84.xml, winsplp/LPPRINTPROVIDOR, winsplp/PRINTPROVIDOR"
 ms.custom: RS5, 19H1
 req.header: winsplp.h
+req.construct-type: structure
 req.include-header: Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,6 +47,8 @@ api_name:
  - LPPRINTPROVIDOR
  - PRINTPROVIDOR
 ---
+
+# PRINTPROVIDOR structure (winsplp.h)
 
 ## -description
 

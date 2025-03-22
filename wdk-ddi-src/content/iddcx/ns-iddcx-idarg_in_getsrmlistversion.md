@@ -35,7 +35,9 @@ dev_langs:
  - c++
 ---
 
-# IDARG_IN_GETSRMLISTVERSION structure
+# IDARG_IN_GETSRMLISTVERSION structure (iddcx.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 08/20/2020
 keywords: ["KSAC3_DIALOGUE_LEVEL structure"]
 ms.keywords: "*PKSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL, KSAC3_DIALOGUE_LEVEL structure [Audio Devices], PKSAC3_DIALOGUE_LEVEL, PKSAC3_DIALOGUE_LEVEL structure pointer [Audio Devices], aud-prop_223d9fe5-3b60-46b4-a157-7ddab97a75f8.xml, audio.ksac3_dialogue_level, ksmedia/KSAC3_DIALOGUE_LEVEL, ksmedia/PKSAC3_DIALOGUE_LEVEL"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSAC3_DIALOGUE_LEVEL
 ---
 
-# KSAC3_DIALOGUE_LEVEL structure
+# KSAC3_DIALOGUE_LEVEL structure (ksmedia.h)
+
+
 
 
 ## -description

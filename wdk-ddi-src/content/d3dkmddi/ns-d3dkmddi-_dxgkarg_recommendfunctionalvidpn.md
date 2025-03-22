@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_RECOMMENDFUNCTIONALVIDPN structure"]
 ms.keywords: DXGKARG_RECOMMENDFUNCTIONALVIDPN, DXGKARG_RECOMMENDFUNCTIONALVIDPN structure [Display Devices], DmStructs_15342273-6bfe-4cee-8f8e-1d89c7683e4b.xml, _DXGKARG_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DXGKARG_RECOMMENDFUNCTIONALVIDPN, display.dxgkarg_recommendfunctionalvidpn
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_RECOMMENDFUNCTIONALVIDPN
 ---
 
-# _DXGKARG_RECOMMENDFUNCTIONALVIDPN structure
+# DXGKARG_RECOMMENDFUNCTIONALVIDPN structure (d3dkmddi.h)
+
+
 
 
 ## -description

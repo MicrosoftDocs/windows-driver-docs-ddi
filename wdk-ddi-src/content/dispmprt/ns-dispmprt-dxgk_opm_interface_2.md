@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_OPM_INTERFACE_2 structure
+# DXGK_OPM_INTERFACE_2 structure (dispmprt.h)
+
+
 
 
 ## -description

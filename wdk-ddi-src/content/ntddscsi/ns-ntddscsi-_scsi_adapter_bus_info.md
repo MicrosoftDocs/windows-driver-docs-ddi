@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSI_ADAPTER_BUS_INFO structure"]
 ms.keywords: "*PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO, PSCSI_ADAPTER_BUS_INFO structure pointer [Storage Devices], SCSI_ADAPTER_BUS_INFO, SCSI_ADAPTER_BUS_INFO structure [Storage Devices], _SCSI_ADAPTER_BUS_INFO, ntddscsi/PSCSI_ADAPTER_BUS_INFO, ntddscsi/SCSI_ADAPTER_BUS_INFO, storage.scsi_adapter_bus_info, structs-scsibus_f21bd933-bcbc-48b5-8904-845712ce226f.xml"
 req.header: ntddscsi.h
+req.construct-type: structure
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SCSI_ADAPTER_BUS_INFO
 ---
 
-# _SCSI_ADAPTER_BUS_INFO structure
+# SCSI_ADAPTER_BUS_INFO structure (ntddscsi.h)
+
+
 
 
 ## -description

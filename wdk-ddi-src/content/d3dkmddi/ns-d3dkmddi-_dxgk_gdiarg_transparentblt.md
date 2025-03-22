@@ -7,6 +7,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_GDIARG_TRANSPARENTBLT structure"]
 ms.keywords: DXGK_GDIARG_TRANSPARENTBLT, DXGK_GDIARG_TRANSPARENTBLT structure [Display Devices], DmStructs_bb046cac-9272-4bf2-a3a7-33cc7035f3fb.xml, _DXGK_GDIARG_TRANSPARENTBLT, d3dkmddi/DXGK_GDIARG_TRANSPARENTBLT, display.dxgk_gdiarg_transparentblt
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -43,7 +44,9 @@ api_name:
  - DXGK_GDIARG_TRANSPARENTBLT
 ---
 
-# DXGK_GDIARG_TRANSPARENTBLT structure
+# DXGK_GDIARG_TRANSPARENTBLT structure (d3dkmddi.h)
+
+
 
 ## -description
 

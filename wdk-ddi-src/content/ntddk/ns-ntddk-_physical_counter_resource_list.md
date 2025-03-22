@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PHYSICAL_COUNTER_RESOURCE_LIST structure"]
 ms.keywords: "*PPHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST, PHYSICAL_COUNTER_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], PPHYSICAL_COUNTER_RESOURCE_LIST, PPHYSICAL_COUNTER_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], _PHYSICAL_COUNTER_RESOURCE_LIST, kernel.physical_counter_resource_list, kstruct_c_17d0a58a-6ac5-4360-a481-d33f0942b521.xml, ntddk/PHYSICAL_COUNTER_RESOURCE_LIST, ntddk/PPHYSICAL_COUNTER_RESOURCE_LIST"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -47,7 +48,9 @@ api_name:
  - PHYSICAL_COUNTER_RESOURCE_LIST
 ---
 
-# _PHYSICAL_COUNTER_RESOURCE_LIST structure
+# PHYSICAL_COUNTER_RESOURCE_LIST structure (ntddk.h)
+
+
 
 
 ## -description

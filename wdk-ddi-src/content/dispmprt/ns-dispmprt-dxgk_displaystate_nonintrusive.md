@@ -38,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DISPLAYSTATE_NONINTRUSIVE structure
+# DXGK_DISPLAYSTATE_NONINTRUSIVE structure (dispmprt.h)
+
+
 
 ## -description
 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_GET_HW_LATENCY function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamGetHwLatency** event tells the driver to provide stream latency for the specific circuit of this stream (overall latency will be a sum of the latency of the different circuits).

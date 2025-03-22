@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11DDIARG_POINTERDATA structure"]
 ms.keywords: D3D11DDIARG_POINTERDATA, D3D11DDIARG_POINTERDATA structure [Display Devices], UMDisplayDriver_Dx11param_Structs_4e1d0abb-4385-4d8b-9687-0c913884ab46.xml, d3d10umddi/D3D11DDIARG_POINTERDATA, display.d3d11ddiarg_pointerdata
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11DDIARG_POINTERDATA is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDIARG_POINTERDATA
 ---
 
-# D3D11DDIARG_POINTERDATA structure
+# D3D11DDIARG_POINTERDATA structure (d3d10umddi.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_GET_CAPTURE_PACKET function (acxstreams.h)
+
 ## -description
 
 **EvtAcxStreamGetCapturePacket** tells the driver to indicate which packet (0-based) was completely filled most recently, including the QPC value at the time the driver started filling the packet.

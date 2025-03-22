@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_VIRTUALGPUMEMORYRESOURCE structure"]
 ms.keywords: _DXGK_VIRTUALGPUMEMORYRESOURCE, DXGK_VIRTUALGPUMEMORYRESOURCE, *PDXGK_VIRTUALGPUMEMORYRESOURCE,
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_VIRTUALGPUMEMORYRESOURCE structure
+# DXGK_VIRTUALGPUMEMORYRESOURCE structure (dispmprt.h)
+
+
 
 
 ## -description

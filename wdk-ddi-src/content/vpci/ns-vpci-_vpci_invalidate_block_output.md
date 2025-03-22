@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VPCI_INVALIDATE_BLOCK_OUTPUT structure"]
 ms.keywords: "*PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT, PVPCI_INVALIDATE_BLOCK_OUTPUT structure pointer [Kernel-Mode Driver Architecture], VPCI_INVALIDATE_BLOCK_OUTPUT, VPCI_INVALIDATE_BLOCK_OUTPUT structure [Kernel-Mode Driver Architecture], _VPCI_INVALIDATE_BLOCK_OUTPUT, kernel.vpci_invalidate_block_output, vpci/PVPCI_INVALIDATE_BLOCK_OUTPUT, vpci/VPCI_INVALIDATE_BLOCK_OUTPUT"
 req.header: vpci.h
+req.construct-type: structure
 req.include-header: Vpci.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - VPCI_INVALIDATE_BLOCK_OUTPUT
 ---
 
-# _VPCI_INVALIDATE_BLOCK_OUTPUT structure
+# VPCI_INVALIDATE_BLOCK_OUTPUT structure (vpci.h)
+
+
 
 
 ## -description

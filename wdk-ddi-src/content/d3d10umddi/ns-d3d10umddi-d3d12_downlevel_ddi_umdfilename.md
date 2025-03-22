@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3D12_DOWNLEVEL_DDI_UMDFILENAME structure"]
 ms.keywords: D3D12_DOWNLEVEL_DDI_UMDFILENAME, D3D12_DOWNLEVEL_DDI_UMDFILENAME,
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -34,7 +35,9 @@ api_name:
  - D3D12_DOWNLEVEL_DDI_UMDFILENAME
 ---
 
-# D3D12_DOWNLEVEL_DDI_UMDFILENAME structure
+# D3D12_DOWNLEVEL_DDI_UMDFILENAME structure (d3d10umddi.h)
+
+
 
 
 ## -description

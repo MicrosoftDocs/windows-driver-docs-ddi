@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["USAGE_AND_PAGE structure"]
 ms.keywords: "*PUSAGE_AND_PAGE, PUSAGE_AND_PAGE, PUSAGE_AND_PAGE structure pointer [Human Input Devices], USAGE_AND_PAGE, USAGE_AND_PAGE structure [Human Input Devices], _USAGE_AND_PAGE, hid.usage_and_page, hidpi/PUSAGE_AND_PAGE, hidpi/USAGE_AND_PAGE, hidstrct_cbb3e4f3-5409-406c-9114-d8455e505497.xml"
 req.header: hidpi.h
+req.construct-type: structure
 req.include-header: Hidpi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USAGE_AND_PAGE
 ---
 
-# _USAGE_AND_PAGE structure
+# USAGE_AND_PAGE structure (hidpi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 09/25/2019
 keywords: ["KSSOUNDDETECTORPROPERTY structure"]
 ms.keywords: "*PKSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTY, KSSOUNDDETECTORPROPERTYstructure [Audio Devices], PKSSOUNDDETECTORPROPERTY, PKSSOUNDDETECTORPROPERTYstructure pointer [Audio Devices], audio.KSSOUNDDETECTORPROPERTY, ksmedia/KSSOUNDDETECTORPROPERTY, ksmedia/PKSSOUNDDETECTORPROPERTY"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1903
@@ -43,7 +44,9 @@ api_name:
  - KSSOUNDDETECTORPROPERTY
 ---
 
-# KSSOUNDDETECTORPROPERTY structure
+# KSSOUNDDETECTORPROPERTY structure (ksmedia.h)
+
+
 
 
 ## -description

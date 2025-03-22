@@ -7,6 +7,7 @@ ms.date: 09/27/2019
 keywords: ["NET_PACKET_LAYOUT structure"]
 ms.keywords: _NET_PACKET_LAYOUT, NET_PACKET_LAYOUT, *PNET_PACKET_LAYOUT, _NET_PACKET_LAYER2_TYPE, NET_PACKET_LAYER2_TYPE, _NET_PACKET_LAYER3_TYPE, NET_PACKET_LAYER3_TYPE, _NET_PACKET_LAYER4_TYPE, NET_PACKET_LAYER4_TYPE
 req.header: packet.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NET_PACKET_LAYOUT
 ---
 
-# _NET_PACKET_LAYOUT structure
+# NET_PACKET_LAYOUT structure (packet.h)
+
+
 
 
 ## -description

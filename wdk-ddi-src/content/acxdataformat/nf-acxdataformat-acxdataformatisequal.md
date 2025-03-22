@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatIsEqual function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatIsEqual** function compares two [ACXDATAFORMAT](index.md) objects for equality.

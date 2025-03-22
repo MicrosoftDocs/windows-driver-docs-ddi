@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAM_BRIDGE_TYPE enumeration (acxstreams.h)
+
 ## -description
 
 The **ACX_STREAM_BRIDGE_TYPE** enumeration describes the Acx Stream Bridge Type.

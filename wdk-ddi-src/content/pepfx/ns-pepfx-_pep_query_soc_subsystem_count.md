@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_QUERY_SOC_SUBSYSTEM_COUNT structure"]
 ms.keywords: "*PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT, PEP_QUERY_SOC_SUBSYSTEM_COUNT structure [Kernel-Mode Driver Architecture], PPEP_QUERY_SOC_SUBSYSTEM_COUNT, PPEP_QUERY_SOC_SUBSYSTEM_COUNT structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_SOC_SUBSYSTEM_COUNT, kernel.pep_query_soc_subsystem_count, pepfx/PEP_QUERY_SOC_SUBSYSTEM_COUNT, pepfx/PPEP_QUERY_SOC_SUBSYSTEM_COUNT"
 req.header: pepfx.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_QUERY_SOC_SUBSYSTEM_COUNT
 ---
 
-# _PEP_QUERY_SOC_SUBSYSTEM_COUNT structure (pepfx.h)
+# PEP_QUERY_SOC_SUBSYSTEM_COUNT structure (pepfx.h)
+
+
 
 
 ## -description

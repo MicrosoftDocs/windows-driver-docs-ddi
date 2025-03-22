@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxAudioEngineGetDeviceFormatList function (acxelements.h)
+
 ## -description
 
 The **AcxAudioEngineGetDeviceFormatList** function retrieves the ACXDATAFORMATLIST object that holds the list of supported formats for the audio engine node. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

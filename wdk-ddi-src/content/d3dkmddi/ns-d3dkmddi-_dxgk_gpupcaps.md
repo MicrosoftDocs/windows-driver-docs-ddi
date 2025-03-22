@@ -7,6 +7,7 @@ ms.date: 10/04/2024
 keywords: ["DXGK_GPUPCAPS structure"]
 ms.keywords: _DXGK_GPUPCAPS, DXGK_GPUPCAPS,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -37,7 +38,9 @@ api_name:
  - DXGK_GPUPCAPS
 ---
 
-# DXGK_GPUPCAPS structure
+# DXGK_GPUPCAPS structure (d3dkmddi.h)
+
+
 
 ## -description
 

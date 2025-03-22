@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure"]
 ms.keywords: D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure [Display Devices], DmStructs_33f2d82d-dbb3-4d51-bc3c-5c8e334d5113.xml, _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, d3dkmdt/D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES, display.d3dkmdt_color_coeff_dynamic_ranges
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
 ---
 
-# _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure
+# D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES structure (d3dkmdt.h)
+
+
 
 
 ## -description

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinGetId function (acxpin.h)
+
 ## -description
 
 The **AcxPinGetId** function returns the ID for the specified pin.

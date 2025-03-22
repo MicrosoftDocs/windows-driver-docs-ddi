@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IDARG_IN_QUERY_HWCURSOR structure"]
 ms.keywords: IDARG_IN_QUERY_HWCURSOR, IDARG_IN_QUERY_HWCURSOR structure [Display Devices], PIDARG_IN_QUERY_HWCURSOR, PIDARG_IN_QUERY_HWCURSOR structure pointer [Display Devices], display.idarg_in_query_hwcursor, iddcx/IDARG_IN_QUERY_HWCURSOR, iddcx/PIDARG_IN_QUERY_HWCURSOR
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IDARG_IN_QUERY_HWCURSOR
 ---
 
-# IDARG_IN_QUERY_HWCURSOR structure
+# IDARG_IN_QUERY_HWCURSOR structure (iddcx.h)
+
+
 
 ## -description
 

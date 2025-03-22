@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["KSDS3D_HRTF_FILTER_FORMAT_MSG structure"]
 ms.keywords: "*PKSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG, KSDS3D_HRTF_FILTER_FORMAT_MSG structure [Audio Devices], PKSDS3D_HRTF_FILTER_FORMAT_MSG, PKSDS3D_HRTF_FILTER_FORMAT_MSG structure pointer [Audio Devices], aud-prop_5ad5b67d-5302-44e1-b4e0-16d66334f57b.xml, audio.ksds3d_hrtf_filter_format_msg, ksmedia/KSDS3D_HRTF_FILTER_FORMAT_MSG, ksmedia/PKSDS3D_HRTF_FILTER_FORMAT_MSG"
 req.header: ksmedia.h
+req.construct-type: structure
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDS3D_HRTF_FILTER_FORMAT_MSG
 ---
 
-# KSDS3D_HRTF_FILTER_FORMAT_MSG structure
+# KSDS3D_HRTF_FILTER_FORMAT_MSG structure (ksmedia.h)
+
+
 
 
 ## -description

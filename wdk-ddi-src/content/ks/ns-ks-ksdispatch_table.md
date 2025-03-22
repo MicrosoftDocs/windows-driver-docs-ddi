@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSDISPATCH_TABLE structure"]
 ms.keywords: "*PKSDISPATCH_TABLE, KSDISPATCH_TABLE, KSDISPATCH_TABLE structure [Streaming Media Devices], PKSDISPATCH_TABLE, PKSDISPATCH_TABLE structure pointer [Streaming Media Devices], ks-struct_c1daf962-90e2-495e-9531-c23716ee9d68.xml, ks/KSDISPATCH_TABLE, ks/PKSDISPATCH_TABLE, stream.ksdispatch_table"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSDISPATCH_TABLE
 ---
 
-# KSDISPATCH_TABLE structure
+# KSDISPATCH_TABLE structure (ks.h)
+
+
 
 
 ## -description

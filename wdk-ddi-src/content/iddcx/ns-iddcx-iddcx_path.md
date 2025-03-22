@@ -8,6 +8,7 @@ ms.date: 08/09/2022
 keywords: ["IDDCX_PATH structure"]
 ms.keywords: IDDCX_PATH, IDDCX_PATH structure, IDDCX_PATH structure [Display Devices], IDDCX_PATH structure pointer [Display Devices], IDDCX_PATH structure structure [Display Devices], display.iddcx_path, iddcx/IDDCX_PATH
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_PATH
 ---
 
-# IDDCX_PATH structure
+# IDDCX_PATH structure (iddcx.h)
+
+
 
 ## -description
 

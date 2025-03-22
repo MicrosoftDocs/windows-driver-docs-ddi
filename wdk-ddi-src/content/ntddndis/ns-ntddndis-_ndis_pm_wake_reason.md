@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PM_WAKE_REASON structure"]
 ms.keywords: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON, netvista.ndis_pm_wake_reason, ntddndis/NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON"
 req.header: ntddndis.h
+req.construct-type: structure
 req.include-header: Ntddndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PM_WAKE_REASON
 ---
 
-# _NDIS_PM_WAKE_REASON structure
+# NDIS_PM_WAKE_REASON structure (ntddndis.h)
+
+
 
 
 ## -description

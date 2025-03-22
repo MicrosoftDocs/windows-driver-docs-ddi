@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BDA_TEMPLATE_PIN_JOINT structure"]
 ms.keywords: "*PBDA_TEMPLATE_PIN_JOINT, BDA_TEMPLATE_PIN_JOINT, BDA_TEMPLATE_PIN_JOINT structure [Streaming Media Devices], PBDA_TEMPLATE_PIN_JOINT, PBDA_TEMPLATE_PIN_JOINT structure pointer [Streaming Media Devices], _BDA_TEMPLATE_PIN_JOINT, bdaref_d1704bcd-5d90-4fa2-b675-509f31737dd4.xml, bdatypes/BDA_TEMPLATE_PIN_JOINT, bdatypes/PBDA_TEMPLATE_PIN_JOINT, stream.bda_template_pin_joint"
 req.header: bdatypes.h
+req.construct-type: structure
 req.include-header: Bdatypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - BDA_TEMPLATE_PIN_JOINT
 ---
 
-# _BDA_TEMPLATE_PIN_JOINT structure
+# BDA_TEMPLATE_PIN_JOINT structure (bdatypes.h)
+
+
 
 
 ## -description

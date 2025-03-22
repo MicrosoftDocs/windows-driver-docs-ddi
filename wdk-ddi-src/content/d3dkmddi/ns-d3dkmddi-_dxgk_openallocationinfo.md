@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_OPENALLOCATIONINFO structure"]
 ms.keywords: DXGK_OPENALLOCATIONINFO, DXGK_OPENALLOCATIONINFO structure [Display Devices], DmStructs_e03247bd-d6b8-42df-ac22-79d906d7c852.xml, _DXGK_OPENALLOCATIONINFO, d3dkmddi/DXGK_OPENALLOCATIONINFO, display.dxgk_openallocationinfo
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_OPENALLOCATIONINFO
 ---
 
-# _DXGK_OPENALLOCATIONINFO structure
+# DXGK_OPENALLOCATIONINFO structure (d3dkmddi.h)
+
+
 
 
 ## -description

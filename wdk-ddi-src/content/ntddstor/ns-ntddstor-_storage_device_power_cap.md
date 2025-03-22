@@ -8,6 +8,7 @@ ms.date: 10/11/2022
 keywords: ["STORAGE_DEVICE_POWER_CAP structure"]
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP, PSTORAGE_DEVICE_POWER_CAP structure pointer [Storage Devices], STORAGE_DEVICE_POWER_CAP, STORAGE_DEVICE_POWER_CAP structure [Storage Devices], _STORAGE_DEVICE_POWER_CAP, ntddstor/PSTORAGE_DEVICE_POWER_CAP, ntddstor/STORAGE_DEVICE_POWER_CAP, storage.storage_device_power_cap"
 req.header: ntddstor.h
+req.construct-type: structure
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -47,7 +48,9 @@ api_name:
 ms.custom: engagement-fy23 
 ---
 
-# STORAGE_DEVICE_POWER_CAP structure
+# STORAGE_DEVICE_POWER_CAP structure (ntddstor.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_OUT structure"]
 ms.keywords: _EFI_SET_VARIABLE_OUT, EFI_SET_VARIABLE_OUT, *PEFI_SET_VARIABLE_OUT,
 req.header: treevariableservice.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - EFI_SET_VARIABLE_OUT
 ---
 
-# _EFI_SET_VARIABLE_OUT structure
+# EFI_SET_VARIABLE_OUT structure (treevariableservice.h)
+
+
 
 
 ## -description

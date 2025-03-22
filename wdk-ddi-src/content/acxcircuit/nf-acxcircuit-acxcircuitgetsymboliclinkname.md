@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxCircuitGetSymbolicLinkName
 ---
 
+# AcxCircuitGetSymbolicLinkName function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitGetSymbolicLinkName** function retrieves the symbolic link name for the specified circuit object.

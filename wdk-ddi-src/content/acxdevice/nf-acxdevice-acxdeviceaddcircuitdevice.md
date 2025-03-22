@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceAddCircuitDevice function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceAddCircuitDevice** function adds an ACX circuit device to a specified parent device representing an audio path.

@@ -5,6 +5,7 @@ description: Learn more about the DXGKARGCB_NOTIFY_INTERRUPT_DATA structure.
 ms.date: 11/08/2024
 keywords: ["DXGKARGCB_NOTIFY_INTERRUPT_DATA structure"]
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -41,7 +42,9 @@ api_name:
  - DXGKARGCB_NOTIFY_INTERRUPT_DATA
 ---
 
-# DXGKARGCB_NOTIFY_INTERRUPT_DATA structure
+# DXGKARGCB_NOTIFY_INTERRUPT_DATA structure (d3dkmddi.h)
+
+
 
 ## -description
 

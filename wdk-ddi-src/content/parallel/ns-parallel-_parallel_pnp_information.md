@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["PARALLEL_PNP_INFORMATION structure"]
 ms.keywords: "*PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION structure [Parallel Ports], PPARALLEL_PNP_INFORMATION, PPARALLEL_PNP_INFORMATION structure pointer [Parallel Ports], _PARALLEL_PNP_INFORMATION, cisspd_71ac405c-ab56-434c-a945-9afee36c0972.xml, parallel/PARALLEL_PNP_INFORMATION, parallel/PPARALLEL_PNP_INFORMATION, parports.parallel_pnp_information"
 req.header: parallel.h
+req.construct-type: structure
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - PARALLEL_PNP_INFORMATION
 ---
 
-# _PARALLEL_PNP_INFORMATION structure
+# PARALLEL_PNP_INFORMATION structure (parallel.h)
+
+
 
 
 ## -description

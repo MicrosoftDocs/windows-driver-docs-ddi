@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_RECLAIMALLOCATIONS structure"]
 ms.keywords: D3DKMT_RECLAIMALLOCATIONS, D3DKMT_RECLAIMALLOCATIONS structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS, display.d3dkmt_reclaimallocations
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_RECLAIMALLOCATIONS
 ---
 
-# _D3DKMT_RECLAIMALLOCATIONS structure
+# D3DKMT_RECLAIMALLOCATIONS structure (d3dkmthk.h)
+
+
 
 
 ## -description

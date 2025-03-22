@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IRB_REQ_ALLOCATE_ADDRESS_RANGE structure"]
 ms.keywords: 1394/IRB_REQ_ALLOCATE_ADDRESS_RANGE, IEEE.irb_req_allocate_address_range, IRB_REQ_ALLOCATE_ADDRESS_RANGE, IRB_REQ_ALLOCATE_ADDRESS_RANGE structure [Buses], _IRB_REQ_ALLOCATE_ADDRESS_RANGE
 req.header: 1394.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IRB_REQ_ALLOCATE_ADDRESS_RANGE
 ---
 
-# _IRB_REQ_ALLOCATE_ADDRESS_RANGE structure
+# IRB_REQ_ALLOCATE_ADDRESS_RANGE structure (1394.h)
+
+
 
 
 ## -description

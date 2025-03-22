@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitAssignName function (acxcircuit.h)
+
 ## -description
 
 The AcxFactoryCircuitInitAssignName function assigns a friendly name for the ACXFACTORYCIRCUIT.

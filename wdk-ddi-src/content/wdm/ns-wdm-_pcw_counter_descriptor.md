@@ -8,6 +8,7 @@ ms.date: 07/28/2020
 keywords: ["PCW_COUNTER_DESCRIPTOR structure"]
 ms.keywords: "*PPCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR, PCW_COUNTER_DESCRIPTOR structure [Driver Development Tools], PPCW_COUNTER_DESCRIPTOR, PPCW_COUNTER_DESCRIPTOR structure pointer [Driver Development Tools], _PCW_COUNTER_DESCRIPTOR, devtest.pcw_counter_descriptor, km_pcw_8507bc5e-60f4-4b71-bb2f-d62360076e2c.xml, wdm/PCW_COUNTER_DESCRIPTOR, wdm/PPCW_COUNTER_DESCRIPTOR"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - PCW_COUNTER_DESCRIPTOR
 ---
 
-# PCW_COUNTER_DESCRIPTOR structure
+# PCW_COUNTER_DESCRIPTOR structure (wdm.h)
+
+
 
 
 ## -description

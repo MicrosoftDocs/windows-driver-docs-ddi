@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["CONFIGURABLE_CHARGER_PROPERTY_HEADER structure"]
 ms.keywords: "*PCONFIGURABLE_CHARGER_PROPERTY_HEADER, CONFIGURABLE_CHARGER_PROPERTY_HEADER, CONFIGURABLE_CHARGER_PROPERTY_HEADER structure [Battery Devices], PCONFIGURABLE_CHARGER_PROPERTY_HEADER, PCONFIGURABLE_CHARGER_PROPERTY_HEADER structure pointer [Battery Devices], _CONFIGURABLE_CHARGER_PROPERTY_HEADER, battery.configurable_charger_property_header, charging/CONFIGURABLE_CHARGER_PROPERTY_HEADER, charging/PCONFIGURABLE_CHARGER_PROPERTY_HEADER"
 req.header: charging.h
+req.construct-type: structure
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CONFIGURABLE_CHARGER_PROPERTY_HEADER
 ---
 
-# _CONFIGURABLE_CHARGER_PROPERTY_HEADER structure
+# CONFIGURABLE_CHARGER_PROPERTY_HEADER structure (charging.h)
+
+
 
 
 ## -description

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PEAKMETER_CONFIG_FLAGS enumeration (acxelements.h)
+
 ## -description
 
 The **ACX_PEAKMETER_CONFIG_FLAGS** enumeration defines the config flags for the ACX peakmeter element.

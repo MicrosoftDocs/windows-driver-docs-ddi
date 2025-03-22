@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAM_STATE enumeration (acxstreams.h)
+
 ## -description
 
 **ACX_STREAM_STATE** describes the Acx Stream State flags.

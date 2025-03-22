@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOENGINE_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOENGINE_CALLBACKS** structure defines callbacks for the ACX audio engine.

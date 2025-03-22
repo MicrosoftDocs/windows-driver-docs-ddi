@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WMILIB_CONTEXT structure"]
 ms.keywords: "*PWMILIB_CONTEXT, PWMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], _WMILIB_CONTEXT, kernel.wmilib_context, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, wmilib/PWMILIB_CONTEXT, wmilib/WMILIB_CONTEXT"
 req.header: wmilib.h
+req.construct-type: structure
 req.include-header: Wmilib.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WMILIB_CONTEXT
 ---
 
-# _WMILIB_CONTEXT structure
+# WMILIB_CONTEXT structure (wmilib.h)
+
+
 
 
 ## -description

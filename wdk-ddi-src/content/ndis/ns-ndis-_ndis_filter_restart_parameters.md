@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_FILTER_RESTART_PARAMETERS structure"]
 ms.keywords: "*PNDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS, NDIS_FILTER_RESTART_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_FILTER_RESTART_PARAMETERS, PNDIS_FILTER_RESTART_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_FILTER_RESTART_PARAMETERS, filter_structures_ref_35344063-f39b-4a73-8069-4a47a61d9f2a.xml, ndis/NDIS_FILTER_RESTART_PARAMETERS, ndis/PNDIS_FILTER_RESTART_PARAMETERS, netvista.ndis_filter_restart_parameters"
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_FILTER_RESTART_PARAMETERS
 ---
 
-# _NDIS_FILTER_RESTART_PARAMETERS structure
+# NDIS_FILTER_RESTART_PARAMETERS structure (ndis.h)
+
+
 
 
 ## -description

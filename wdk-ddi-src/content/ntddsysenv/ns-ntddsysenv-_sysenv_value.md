@@ -8,6 +8,7 @@ ms.date: 08/04/2022
 keywords: ["SYSENV_VALUE structure"]
 ms.keywords: "*PSYSENV_VALUE, PSYSENV_VALUE, PSYSENV_VALUE structure pointer [Kernel-Mode Driver Architecture], SYSENV_VALUE, SYSENV_VALUE structure [Kernel-Mode Driver Architecture], _SYSENV_VALUE, kernel.sysenv_value, ntddsysenv/PSYSENV_VALUE, ntddsysenv/SYSENV_VALUE"
 req.header: ntddsysenv.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYSENV_VALUE
 ---
 
-# _SYSENV_VALUE structure
+# SYSENV_VALUE structure (ntddsysenv.h)
+
+
 
 ## -description
 

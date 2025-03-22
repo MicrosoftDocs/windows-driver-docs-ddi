@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["MEMORY_REGION structure"]
 ms.keywords: "*PMEMORY_REGION, MEMORY_REGION, MEMORY_REGION structure [Storage Devices], PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], _MEMORY_REGION, storage.memory_region, storport/MEMORY_REGION, storport/PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MEMORY_REGION
 ---
 
-# _MEMORY_REGION structure
+# MEMORY_REGION structure (storport.h)
+
+
 
 
 ## -description

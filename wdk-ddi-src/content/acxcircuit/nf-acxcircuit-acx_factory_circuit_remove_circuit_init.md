@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT function (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT_INIT** function initializes a [ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT](ns-acxcircuit-acx_factory_circuit_remove_circuit.md) structure. No inputs are used with this function.

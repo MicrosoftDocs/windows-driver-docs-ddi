@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2EXT structure"]
 ms.keywords: "*LPD3DHAL_DP2EXT, D3DHAL_DP2EXT, D3DHAL_DP2EXT structure [Display Devices], LPD3DHAL_DP2EXT, LPD3DHAL_DP2EXT structure pointer [Display Devices], _D3DHAL_DP2EXT, d3dhal/D3DHAL_DP2EXT, d3dhal/LPD3DHAL_DP2EXT, d3dstrct_e56171cd-ae20-4277-abd5-cb8f0c008637.xml, display.d3dhal_dp2ext"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2EXT
 ---
 
-# _D3DHAL_DP2EXT structure
+# D3DHAL_DP2EXT structure (d3dhal.h)
+
+
 
 
 ## -description

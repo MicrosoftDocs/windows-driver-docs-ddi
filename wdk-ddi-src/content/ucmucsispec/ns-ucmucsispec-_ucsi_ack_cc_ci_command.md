@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_ACK_CC_CI_COMMAND structure"]
 ms.keywords: _UCSI_ACK_CC_CI_COMMAND, UCSI_ACK_CC_CI_COMMAND, *PUCSI_ACK_CC_CI_COMMAND,
 req.header: ucmucsispec.h
+req.construct-type: structure
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UCSI_ACK_CC_CI_COMMAND
 ---
 
-# _UCSI_ACK_CC_CI_COMMAND structure
+# UCSI_ACK_CC_CI_COMMAND structure (ucmucsispec.h)
+
+
 
 
 ## -description

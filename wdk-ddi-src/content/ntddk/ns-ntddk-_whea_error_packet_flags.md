@@ -7,6 +7,7 @@ ms.date: 12/08/2022
 keywords: ["WHEA_ERROR_PACKET_FLAGS structure"]
 ms.keywords: "*PWHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS, PWHEA_ERROR_PACKET_FLAGS union pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_FLAGS, WHEA_ERROR_PACKET_FLAGS union [WHEA Drivers and Applications], _WHEA_ERROR_PACKET_FLAGS, ntddk/PWHEA_ERROR_PACKET_FLAGS, ntddk/WHEA_ERROR_PACKET_FLAGS, whea.whea_error_packet_flags, whearef_c193e4e7-f233-4de0-93ac-5e7b841a6c6e.xml"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_PACKET_FLAGS
  - WHEA_ERROR_PACKET_FLAGS
 ---
+
+# WHEA_ERROR_PACKET_FLAGS structure (ntddk.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure"]
 ms.keywords: _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT, VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT, *PVIRTUAL_STORAGE_SET_BEHAVIOR_INPUT,
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winversvr: 
@@ -38,7 +39,9 @@ api_name:
  - VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT
 ---
 
-# _VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure
+# VIRTUAL_STORAGE_SET_BEHAVIOR_INPUT structure (ntifs.h)
+
+
 
 
 ## -description

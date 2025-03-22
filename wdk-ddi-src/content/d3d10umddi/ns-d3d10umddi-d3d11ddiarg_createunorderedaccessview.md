@@ -7,6 +7,7 @@ ms.custom: content-health
 keywords: ["D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure"]
 ms.keywords: D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure [Display Devices], UMDisplayDriver_Dx11param_Structs_e6b10da8-f790-4182-926a-a7f183dcd59b.xml, d3d10umddi/D3D11DDIARG_CREATEUNORDEREDACCESSVIEW, display.d3d11ddiarg_createunorderedaccessview
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - D3D11DDIARG_CREATEUNORDEREDACCESSVIEW
 ---
 
-# D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure
+# D3D11DDIARG_CREATEUNORDEREDACCESSVIEW structure (d3d10umddi.h)
+
+
 
 ## -description
 

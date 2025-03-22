@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["STOR_DPC structure"]
 ms.keywords: "*PSTOR_DPC, STOR_DPC, STOR_DPC structure [Storage Devices], _STOR_DPC, storage.stor_dpc, storport/STOR_DPC, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml"
 req.header: storport.h
+req.construct-type: structure
 req.include-header: Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STOR_DPC
 ---
 
-# STOR_DPC structure
+# STOR_DPC structure (storport.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SYMBOL_INFO_EX structure"]
 ms.keywords: "*PSYMBOL_INFO_EX, PSYMBOL_INFO_EX, PSYMBOL_INFO_EX structure pointer [Windows Debugging], SYMBOL_INFO_EX, SYMBOL_INFO_EX structure [Windows Debugging], _SYMBOL_INFO_EX, dbgeng/PSYMBOL_INFO_EX, dbgeng/SYMBOL_INFO_EX, debugger.symbol_info_ex"
 req.header: dbgeng.h
+req.construct-type: structure
 req.include-header: DbgEng.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SYMBOL_INFO_EX
 ---
 
-# _SYMBOL_INFO_EX structure
+# SYMBOL_INFO_EX structure (dbgeng.h)
+
+
 
 ## -description
 

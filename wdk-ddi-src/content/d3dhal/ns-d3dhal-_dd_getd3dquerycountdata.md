@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DD_GETD3DQUERYCOUNTDATA structure"]
 ms.keywords: DD_GETD3DQUERYCOUNTDATA, DD_GETD3DQUERYCOUNTDATA structure [Display Devices], _DD_GETD3DQUERYCOUNTDATA, d3dhal/DD_GETD3DQUERYCOUNTDATA, d3dstrct_d97e6eb4-0ecd-4459-9256-eee9bb36bb78.xml, display.dd_getd3dquerycountdata
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DD_GETD3DQUERYCOUNTDATA
 ---
 
-# _DD_GETD3DQUERYCOUNTDATA structure
+# DD_GETD3DQUERYCOUNTDATA structure (d3dhal.h)
+
+
 
 
 ## -description

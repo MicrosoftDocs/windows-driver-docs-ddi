@@ -6,6 +6,7 @@ ms.date: 02/28/2023
 keywords: ["D3DKMT_CHANGESURFACEPOINTER structure"]
 ms.keywords: _D3DKMT_CHANGESURFACEPOINTER, D3DKMT_CHANGESURFACEPOINTER,
 req.header: d3dkmthk.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_CHANGESURFACEPOINTER structure
+# D3DKMT_CHANGESURFACEPOINTER structure (d3dkmthk.h)
+
+
 
 ## -description
 

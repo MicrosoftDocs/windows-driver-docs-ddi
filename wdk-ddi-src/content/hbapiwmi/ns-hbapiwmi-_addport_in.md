@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AddPort_IN structure"]
 ms.keywords: "*PAddPort_IN, AddPort_IN, AddPort_IN structure [Storage Devices], PAddPort_IN, PAddPort_IN structure pointer [Storage Devices], _AddPort_IN, hbapiwmi/AddPort_IN, hbapiwmi/PAddPort_IN, storage.addport_in, structs-Fibre_0f7b349b-048b-444c-b8ac-bdf63b00f998.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - AddPort_IN
 ---
 
-# _AddPort_IN structure
+# AddPort_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

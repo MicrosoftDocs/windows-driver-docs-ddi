@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_CIRCUIT_COMPOSITE_INITIALIZE** callback is used by the driver to do any post-initialization after the composite endpoint has been assembled by ACX Manager.

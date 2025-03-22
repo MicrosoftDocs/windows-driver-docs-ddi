@@ -8,6 +8,7 @@ ms.date: 07/08/2019
 keywords: ["IMAGE_INFO_EX structure"]
 ms.keywords: "*PIMAGE_INFO_EX, IMAGE_INFO_EX, IMAGE_INFO_EX structure [Kernel-Mode Driver Architecture], PIMAGE_INFO_EX, PIMAGE_INFO_EX structure pointer [Kernel-Mode Driver Architecture], _IMAGE_INFO_EX, kernel.image_info_ex, ntddk/IMAGE_INFO_EX, ntddk/PIMAGE_INFO_EX"
 req.header: ntddk.h
+req.construct-type: structure
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - IMAGE_INFO_EX
 ---
 
-# _IMAGE_INFO_EX structure
+# IMAGE_INFO_EX structure (ntddk.h)
+
+
 
 
 ## -description

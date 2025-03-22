@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_DEVICE_INFO structure"]
 ms.keywords: "*PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO structure pointer [Display Devices], _DXGK_DEVICE_INFO, display.dxgk_device_info, dispmprt/DXGK_DEVICE_INFO, dispmprt/PDXGK_DEVICE_INFO"
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGK_DEVICE_INFO
 ---
 
-# _DXGK_DEVICE_INFO structure
+# DXGK_DEVICE_INFO structure (dispmprt.h)
+
+
 
 
 ## -description

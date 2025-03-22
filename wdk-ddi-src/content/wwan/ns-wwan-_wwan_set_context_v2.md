@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["WWAN_SET_CONTEXT_V2 structure"]
 ms.keywords: _WWAN_SET_CONTEXT_V2, WWAN_SET_CONTEXT_V2, *PWWAN_SET_CONTEXT_V2,
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -40,7 +41,9 @@ api_name:
  - WWAN_SET_CONTEXT_V2
 ---
 
-# _WWAN_SET_CONTEXT_V2 structure
+# WWAN_SET_CONTEXT_V2 structure (wwan.h)
+
+
 
 
 ## -description

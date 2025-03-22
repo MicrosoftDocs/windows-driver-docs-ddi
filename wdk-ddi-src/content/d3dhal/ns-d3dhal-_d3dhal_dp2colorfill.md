@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DHAL_DP2COLORFILL structure"]
 ms.keywords: "*LPD3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL, D3DHAL_DP2COLORFILL structure [Display Devices], LPD3DHAL_DP2COLORFILL, LPD3DHAL_DP2COLORFILL structure pointer [Display Devices], _D3DHAL_DP2COLORFILL, d3dhal/D3DHAL_DP2COLORFILL, d3dhal/LPD3DHAL_DP2COLORFILL, d3dstrct_41b1733a-0f94-4e04-9f7d-dac688c2bc56.xml, display.d3dhal_dp2colorfill"
 req.header: d3dhal.h
+req.construct-type: structure
 req.include-header: D3dhal.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DHAL_DP2COLORFILL
 ---
 
-# _D3DHAL_DP2COLORFILL structure
+# D3DHAL_DP2COLORFILL structure (d3dhal.h)
+
+
 
 
 ## -description

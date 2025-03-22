@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["MAPTABLE structure"]
 ms.keywords: "*PMAPTABLE, MAPTABLE, MAPTABLE structure [Print Devices], PMAPTABLE, PMAPTABLE structure pointer [Print Devices], _MAPTABLE, print.maptable, print_unidrv-pscript_fonts_c98fd60e-c56a-4f76-8408-e6680bc49525.xml, prntfont/MAPTABLE, prntfont/PMAPTABLE"
 req.header: prntfont.h
+req.construct-type: structure
 req.include-header: Prntfont.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MAPTABLE
 ---
 
-# _MAPTABLE structure
+# MAPTABLE structure (prntfont.h)
+
+
 
 
 ## -description

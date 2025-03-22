@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CLFS_MGMT_CLIENT_REGISTRATION structure"]
 ms.keywords: "*PCLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], _CLFS_MGMT_CLIENT_REGISTRATION, kernel.clfs_mgmt_client_registration, kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, wdm/CLFS_MGMT_CLIENT_REGISTRATION, wdm/PCLFS_MGMT_CLIENT_REGISTRATION"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CLFS_MGMT_CLIENT_REGISTRATION
 ---
 
-# _CLFS_MGMT_CLIENT_REGISTRATION structure
+# CLFS_MGMT_CLIENT_REGISTRATION structure (wdm.h)
+
+
 
 
 ## -description

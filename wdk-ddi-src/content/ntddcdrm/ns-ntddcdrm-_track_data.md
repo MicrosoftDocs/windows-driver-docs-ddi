@@ -8,6 +8,7 @@ ms.date: 01/08/2020
 keywords: ["TRACK_DATA structure"]
 ms.keywords: "*PTRACK_DATA, PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], TRACK_DATA, TRACK_DATA structure [Storage Devices], _TRACK_DATA, ntddcdrm/PTRACK_DATA, ntddcdrm/TRACK_DATA, storage.track_data, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml"
 req.header: ntddcdrm.h
+req.construct-type: structure
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - TRACK_DATA
 ---
 
-# TRACK_DATA structure
+# TRACK_DATA structure (ntddcdrm.h)
+
+
 
 
 ## -description

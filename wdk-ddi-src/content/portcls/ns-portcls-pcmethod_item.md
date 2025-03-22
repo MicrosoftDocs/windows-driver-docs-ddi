@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PCMETHOD_ITEM structure"]
 ms.keywords: "*PPCMETHOD_ITEM, PCMETHOD_ITEM, PCMETHOD_ITEM structure [Audio Devices], PPCMETHOD_ITEM, PPCMETHOD_ITEM structure pointer [Audio Devices], audio.pcmethod_item, audpc-struct_58edb038-1bae-4846-8ce9-d0c0c052730c.xml, portcls/PCMETHOD_ITEM, portcls/PPCMETHOD_ITEM"
 req.header: portcls.h
+req.construct-type: structure
 req.include-header: Portcls.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PCMETHOD_ITEM
 ---
 
-# PCMETHOD_ITEM structure
+# PCMETHOD_ITEM structure (portcls.h)
+
+
 
 
 ## -description

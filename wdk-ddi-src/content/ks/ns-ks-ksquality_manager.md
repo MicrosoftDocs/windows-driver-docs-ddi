@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSQUALITY_MANAGER structure"]
 ms.keywords: "*PKSQUALITY_MANAGER, KSQUALITY_MANAGER, KSQUALITY_MANAGER structure [Streaming Media Devices], PKSQUALITY_MANAGER, PKSQUALITY_MANAGER structure pointer [Streaming Media Devices], ks-struct_97f36a6a-6d00-4cec-b13d-8f039b54c5a8.xml, ks/KSQUALITY_MANAGER, ks/PKSQUALITY_MANAGER, stream.ksquality_manager"
 req.header: ks.h
+req.construct-type: structure
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - KSQUALITY_MANAGER
 ---
 
-# KSQUALITY_MANAGER structure
+# KSQUALITY_MANAGER structure (ks.h)
+
+
 
 
 ## -description

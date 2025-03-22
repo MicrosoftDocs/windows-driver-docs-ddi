@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure"]
 ms.keywords: D3DDDI_MULTIPLANE_ALLOCATION_INFO, D3DDDI_MULTIPLANE_ALLOCATION_INFO structure [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO, d3dumddi/D3DDDI_MULTIPLANE_ALLOCATION_INFO, display.d3dddi_multiplane_allocation_info
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_MULTIPLANE_ALLOCATION_INFO
 ---
 
-# D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure
+# D3DDDI_MULTIPLANE_OVERLAY_ALLOCATION_INFO structure (d3dumddi.h)
+
+
 
 
 ## -description

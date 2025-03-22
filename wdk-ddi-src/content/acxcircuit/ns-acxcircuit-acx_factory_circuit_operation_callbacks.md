@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS structure (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_OPERATION_CALLBACKS** structure identifies the driver callbacks for ACX factory operations.

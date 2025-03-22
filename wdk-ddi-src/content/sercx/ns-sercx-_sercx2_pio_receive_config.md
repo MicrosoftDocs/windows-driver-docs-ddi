@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX2_PIO_RECEIVE_CONFIG structure"]
 ms.keywords: "*PSERCX2_PIO_RECEIVE_CONFIG, 2/PSERCX2_PIO_RECEIVE_CONFIG, 2/SERCX2_PIO_RECEIVE_CONFIG, PSERCX2_PIO_RECEIVE_CONFIG, PSERCX2_PIO_RECEIVE_CONFIG structure pointer [Serial Ports], SERCX2_PIO_RECEIVE_CONFIG, SERCX2_PIO_RECEIVE_CONFIG structure [Serial Ports], _SERCX2_PIO_RECEIVE_CONFIG, serports.sercx2_pio_receive_config"
 req.header: sercx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.1.
@@ -46,7 +47,9 @@ api_name:
  - SERCX2_PIO_RECEIVE_CONFIG
 ---
 
-# _SERCX2_PIO_RECEIVE_CONFIG structure
+# SERCX2_PIO_RECEIVE_CONFIG structure (sercx.h)
+
+
 
 
 ## -description

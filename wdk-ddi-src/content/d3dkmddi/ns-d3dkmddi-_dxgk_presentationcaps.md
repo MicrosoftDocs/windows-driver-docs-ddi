@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PRESENTATIONCAPS structure"]
 ms.keywords: DXGK_PRESENTATIONCAPS, DXGK_PRESENTATIONCAPS structure [Display Devices], DmStructs_67f7af73-6eaa-4ac8-ad04-1633bc1504af.xml, _DXGK_PRESENTATIONCAPS, d3dkmddi/DXGK_PRESENTATIONCAPS, display.dxgk_presentationcaps
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PRESENTATIONCAPS
 ---
 
-# _DXGK_PRESENTATIONCAPS structure
+# DXGK_PRESENTATIONCAPS structure (d3dkmddi.h)
+
+
 
 
 ## -description

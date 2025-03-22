@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDriverInitialize function (acxdriver.h)
+
 ## -description
 
 The **AcxDriverInitialize** function initializes the specified audio driver.

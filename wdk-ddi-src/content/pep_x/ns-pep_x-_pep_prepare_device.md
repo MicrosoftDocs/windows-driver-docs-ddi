@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PREPARE_DEVICE structure"]
 ms.keywords: "*PPEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE, PEP_PREPARE_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_PREPARE_DEVICE, PPEP_PREPARE_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_PREPARE_DEVICE, kernel.pep_prepare_device, pepfx/PEP_PREPARE_DEVICE, pepfx/PPEP_PREPARE_DEVICE"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PREPARE_DEVICE
 ---
 
-# _PEP_PREPARE_DEVICE structure (pep_x.h)
+# PEP_PREPARE_DEVICE structure (pep_x.h)
+
+
 
 
 ## -description

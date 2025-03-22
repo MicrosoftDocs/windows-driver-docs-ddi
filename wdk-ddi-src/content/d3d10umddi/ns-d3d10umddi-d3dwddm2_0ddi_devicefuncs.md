@@ -7,6 +7,7 @@ ms.date: 07/29/2022
 keywords: ["D3DWDDM2_0DDI_DEVICEFUNCS structure"]
 ms.keywords: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, display.d3dwddm2_0ddi_devicefuncs
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM2_0DDI_DEVICEFUNCS
 ---
 
-# D3DWDDM2_0DDI_DEVICEFUNCS structure
+# D3DWDDM2_0DDI_DEVICEFUNCS structure (d3d10umddi.h)
+
+
 
 ## -description
 

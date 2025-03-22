@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DRIVER_UPGRADE_INFO_2 structure"]
 ms.keywords: "*PDRIVER_UPGRADE_INFO_2, DRIVER_UPGRADE_INFO_2, DRIVER_UPGRADE_INFO_2 structure [Print Devices], PDRIVER_UPGRADE_INFO_2, PDRIVER_UPGRADE_INFO_2 structure pointer [Print Devices], _DRIVER_UPGRADE_INFO_2, print.driver_upgrade_info_2, print_interface-graphics_3db7d8d4-1f0c-4b76-9e22-bc55aac9b6c7.xml, winddiui/DRIVER_UPGRADE_INFO_2, winddiui/PDRIVER_UPGRADE_INFO_2"
 req.header: winddiui.h
+req.construct-type: structure
 req.include-header: Winddiui.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PDRIVER_UPGRADE_INFO_2
  - DRIVER_UPGRADE_INFO_2
 ---
+
+# DRIVER_UPGRADE_INFO_2 structure (winddiui.h)
 
 ## -description
 

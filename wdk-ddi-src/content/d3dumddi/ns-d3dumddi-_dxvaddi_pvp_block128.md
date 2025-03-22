@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_PVP_BLOCK128 structure"]
 ms.keywords: DXVA2_Structs_1384e44e-aa25-470a-93bb-3e20b5885bdb.xml, DXVADDI_PVP_BLOCK128, DXVADDI_PVP_BLOCK128 structure [Display Devices], DXVADDI_PVP_KEY128, DXVADDI_PVP_KEY128 structure [Display Devices], _DXVADDI_PVP_BLOCK128, d3dumddi/DXVADDI_PVP_KEY128, display.dxvaddi_pvp_key128
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_PVP_BLOCK128
 ---
 
-# _DXVADDI_PVP_BLOCK128 structure
+# DXVADDI_PVP_BLOCK128 structure (d3dumddi.h)
+
+
 
 
 ## -description

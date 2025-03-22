@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ROOTHUB_INFO structure"]
 ms.keywords: "*PROOTHUB_INFO, P_ROOTHUB_INFO, P_ROOTHUB_INFO structure pointer [Buses], ROOTHUB_INFO, ROOTHUB_INFO structure [Buses], _ROOTHUB_INFO, buses._roothub_info, ucxroothub/P_ROOTHUB_INFO, ucxroothub/_ROOTHUB_INFO"
 req.header: ucxroothub.h
+req.construct-type: structure
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - ROOTHUB_INFO
 ---
 
-# _ROOTHUB_INFO structure
+# ROOTHUB_INFO structure (ucxroothub.h)
+
+
 
 
 ## -description

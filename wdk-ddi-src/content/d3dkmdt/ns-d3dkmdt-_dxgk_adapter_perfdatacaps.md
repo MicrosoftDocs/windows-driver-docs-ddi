@@ -4,6 +4,7 @@ title: DXGK_ADAPTER_PERFDATACAPS (d3dkmdt.h)
 description: Learn more about the DXGK_ADAPTER_PERFDATACAPS structure.
 ms.date: 09/11/2024
 req.header: d3dkmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - DXGK_ADAPTER_PERFDATACAPS
 ---
 
-# DXGK_ADAPTER_PERFDATACAPS structure
+# DXGK_ADAPTER_PERFDATACAPS structure (d3dkmdt.h)
+
+
 
 ## -description
 

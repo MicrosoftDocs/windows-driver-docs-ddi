@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_VOLUME_CONFIG_FLAGS enumeration (acxelements.h)
+
 ## -description
 
 The **ACX_VOLUME_CONFIG_FLAGS** enumeration defines the config flags for the ACX volume element.

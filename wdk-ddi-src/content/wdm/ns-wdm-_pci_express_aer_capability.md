@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["PCI_EXPRESS_AER_CAPABILITY structure"]
 ms.keywords: "*PPCI_EXPRESS_AER_CAPABILITY, PCI.pci_express_aer_capability, PCI_EXPRESS_AER_CAPABILITY, PCI_EXPRESS_AER_CAPABILITY structure [Buses], PPCI_EXPRESS_AER_CAPABILITY, PPCI_EXPRESS_AER_CAPABILITY structure pointer [Buses], _PCI_EXPRESS_AER_CAPABILITY, pci_struct_b9447d2e-502f-45f0-8851-ced834748798.xml, wdm/PCI_EXPRESS_AER_CAPABILITY, wdm/PPCI_EXPRESS_AER_CAPABILITY"
 req.header: wdm.h
+req.construct-type: structure
 req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_EXPRESS_AER_CAPABILITY
  - PCI_EXPRESS_AER_CAPABILITY
 ---
+
+# PCI_EXPRESS_AER_CAPABILITY structure (wdm.h)
 
 ## -description
 

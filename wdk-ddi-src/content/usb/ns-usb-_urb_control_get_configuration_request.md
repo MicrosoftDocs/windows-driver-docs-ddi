@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URB_CONTROL_GET_CONFIGURATION_REQUEST structure"]
 ms.keywords: "_URB_CONTROL_GET_CONFIGURATION_REQUEST, _URB_CONTROL_GET_CONFIGURATION_REQUEST structure [Buses], buses._urb_control_get_configuration_request, usb/_URB_CONTROL_GET_CONFIGURATION_REQUEST, usbstrct_77d89ae2-eb81-48f0-b399-85d39a5feb6a.xml"
 req.header: usb.h
+req.construct-type: structure
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - _URB_CONTROL_GET_CONFIGURATION_REQUEST
 ---
 
-# _URB_CONTROL_GET_CONFIGURATION_REQUEST structure
+# _URB_CONTROL_GET_CONFIGURATION_REQUEST structure (usb.h)
+
+
 
 
 ## -description

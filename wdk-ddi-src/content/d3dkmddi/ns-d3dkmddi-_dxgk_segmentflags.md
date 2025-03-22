@@ -7,6 +7,7 @@ ms.date: 08/25/2022
 keywords: ["DXGK_SEGMENTFLAGS structure"]
 ms.keywords: DXGK_SEGMENTFLAGS, DXGK_SEGMENTFLAGS structure [Display Devices], DmStructs_a7239928-eb4e-42d0-8ced-9e37d28e9464.xml, _DXGK_SEGMENTFLAGS, d3dkmddi/DXGK_SEGMENTFLAGS, display.dxgk_segmentflags
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - DXGK_SEGMENTFLAGS
 ---
 
-# DXGK_SEGMENTFLAGS structure
+# DXGK_SEGMENTFLAGS structure (d3dkmddi.h)
+
+
 
 ## -description
 

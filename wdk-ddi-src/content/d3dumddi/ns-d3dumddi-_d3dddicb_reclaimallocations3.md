@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDICB_RECLAIMALLOCATIONS3 structure"]
 ms.keywords: _D3DDDICB_RECLAIMALLOCATIONS3, D3DDDICB_RECLAIMALLOCATIONS3,
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDICB_RECLAIMALLOCATIONS3 structure
+# D3DDDICB_RECLAIMALLOCATIONS3 structure (d3dumddi.h)
+
+
 
 
 ## -description

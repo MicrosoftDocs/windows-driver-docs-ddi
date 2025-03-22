@@ -7,6 +7,7 @@ ms.date: 03/24/2020
 keywords: ["DXGKARG_COLLECTDIAGNOSTICINFO structure"]
 ms.keywords: DXGKARG_COLLECTDIAGNOSTICINFO, DXGKARG_COLLECTDIAGNOSTICINFO, *INOUT_PDXGKARG_COLLECTDIAGNOSTICINFO
 req.header: dispmprt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_COLLECTDIAGNOSTICINFO structure
+# DXGKARG_COLLECTDIAGNOSTICINFO structure (dispmprt.h)
+
+
 
 
 ## -description

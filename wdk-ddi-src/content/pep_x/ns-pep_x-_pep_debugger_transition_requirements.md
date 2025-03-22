@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure"]
 ms.keywords: "*PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS, PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure [Kernel-Mode Driver Architecture], PPEP_DEBUGGER_TRANSITION_REQUIREMENTS, PPEP_DEBUGGER_TRANSITION_REQUIREMENTS structure pointer [Kernel-Mode Driver Architecture], _PEP_DEBUGGER_TRANSITION_REQUIREMENTS, kernel.pep_debugger_transition_requirements, pepfx/PEP_DEBUGGER_TRANSITION_REQUIREMENTS, pepfx/PPEP_DEBUGGER_TRANSITION_REQUIREMENTS"
 req.header: pep_x.h
+req.construct-type: structure
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_DEBUGGER_TRANSITION_REQUIREMENTS
 ---
 
-# _PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure (pep_x.h)
+# PEP_DEBUGGER_TRANSITION_REQUIREMENTS structure (pep_x.h)
+
+
 
 
 ## -description

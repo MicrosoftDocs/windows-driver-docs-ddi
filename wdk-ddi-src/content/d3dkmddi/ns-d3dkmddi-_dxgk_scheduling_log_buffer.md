@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_SCHEDULING_LOG_BUFFER structure"]
 ms.keywords: _DXGK_SCHEDULING_LOG_BUFFER, DXGK_SCHEDULING_LOG_BUFFER,
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_SCHEDULING_LOG_BUFFER structure
+# DXGK_SCHEDULING_LOG_BUFFER structure (d3dkmddi.h)
+
+
 
 
 ## -description

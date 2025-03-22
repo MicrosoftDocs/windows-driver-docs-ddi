@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDrmAddContentHandlers function (acxstreams.h)
+
 ## -description
 
 The **AcxDrmAddContentHandlers** function provides the system with a list of functions that handle protected content.

@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_FRAME_STATISTICS structure"]
 ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], display.iddcx_frame_statistics, iddcx/IDDCX_FRAME_STATISTICS
 req.header: iddcx.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_FRAME_STATISTICS
 ---
 
-# IDDCX_FRAME_STATISTICS structure
+# IDDCX_FRAME_STATISTICS structure (iddcx.h)
+
+
 
 ## -description
 

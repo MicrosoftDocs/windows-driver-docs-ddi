@@ -7,6 +7,7 @@ ms.date: 10/25/2019
 keywords: ["NET_ADAPTER_WAKE_REASON_PACKET structure"]
 ms.keywords: NET_ADAPTER_WAKE_REASON_PACKET, NET_ADAPTER_WAKE_REASON_PACKET,
 req.header: netadaptercx.h
+req.construct-type: structure
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -37,7 +38,9 @@ api_name:
  - NET_ADAPTER_WAKE_REASON_PACKET
 ---
 
-# NET_ADAPTER_WAKE_REASON_PACKET structure
+# NET_ADAPTER_WAKE_REASON_PACKET structure (netadaptercx.h)
+
+
 
 
 ## -description

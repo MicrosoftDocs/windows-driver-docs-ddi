@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKARG_ENUMVIDPNCOFUNCMODALITY structure"]
 ms.keywords: DXGKARG_ENUMVIDPNCOFUNCMODALITY, DXGKARG_ENUMVIDPNCOFUNCMODALITY structure [Display Devices], DmStructs_7b6ad975-cf77-450d-9190-f74711cafe71.xml, _DXGKARG_ENUMVIDPNCOFUNCMODALITY, d3dkmddi/DXGKARG_ENUMVIDPNCOFUNCMODALITY, display.dxgkarg_enumvidpncofuncmodality
 req.header: d3dkmddi.h
+req.construct-type: structure
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - DXGKARG_ENUMVIDPNCOFUNCMODALITY
 ---
 
-# _DXGKARG_ENUMVIDPNCOFUNCMODALITY structure
+# DXGKARG_ENUMVIDPNCOFUNCMODALITY structure (d3dkmddi.h)
+
+
 
 
 ## -description

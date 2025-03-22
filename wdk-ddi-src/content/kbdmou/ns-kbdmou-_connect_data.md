@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CONNECT_DATA structure"]
 ms.keywords: "*PCONNECT_DATA, CONNECT_DATA, CONNECT_DATA structure [Human Input Devices], PCONNECT_DATA, PCONNECT_DATA structure pointer [Human Input Devices], _CONNECT_DATA, hid.connect_data__kbdclass_, kbdmou/CONNECT_DATA, kbdmou/PCONNECT_DATA, kref_e50b6d57-99fa-41bd-979c-de2d83922af6.xml"
 req.header: kbdmou.h
+req.construct-type: structure
 req.include-header: Kbdmou.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CONNECT_DATA
 ---
 
-# _CONNECT_DATA structure
+# CONNECT_DATA structure (kbdmou.h)
+
+
 
 
 ## -description

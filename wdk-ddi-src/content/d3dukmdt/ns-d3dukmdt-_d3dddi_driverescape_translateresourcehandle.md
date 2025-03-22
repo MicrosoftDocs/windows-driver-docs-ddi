@@ -4,6 +4,7 @@ title: D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE (d3dukmdt.h)
 description: Used to translate the resource handle to the corresponding host handle.
 ms.date: 02/06/2025
 req.header: d3dukmdt.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE structure
+# D3DDDI_DRIVERESCAPE_TRANSLATERESOURCEHANDLE structure (d3dukmdt.h)
+
+
 
 ## -description
 

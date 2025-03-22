@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ENUMERATE_BANDS_PARAMETERS structure"]
 ms.keywords: "*PENUMERATE_BANDS_PARAMETERS, ENUMBANDS_ENUM_ALL_BANDS, ENUMBANDS_REPORT_CRYPTO_ALGO, ENUMERATE_BANDS_PARAMETERS, ENUMERATE_BANDS_PARAMETERS structure [Storage Devices], PENUMERATE_BANDS_PARAMETERS, PENUMERATE_BANDS_PARAMETERS structure pointer [Storage Devices], _ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/ENUMERATE_BANDS_PARAMETERS, ehstorbandmgmt/PENUMERATE_BANDS_PARAMETERS, storage.enumerate_bands_parameters"
 req.header: ehstorbandmgmt.h
+req.construct-type: structure
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -46,7 +47,9 @@ api_name:
  - ENUMERATE_BANDS_PARAMETERS
 ---
 
-# _ENUMERATE_BANDS_PARAMETERS structure
+# ENUMERATE_BANDS_PARAMETERS structure (ehstorbandmgmt.h)
+
+
 
 
 ## -description

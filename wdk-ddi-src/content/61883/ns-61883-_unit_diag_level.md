@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["UNIT_DIAG_LEVEL structure"]
 ms.keywords: "*PUNIT_DIAG_LEVEL, 61883/PUNIT_DIAG_LEVEL, 61883/UNIT_DIAG_LEVEL, 61883_structures_02b60b1d-45d1-474b-901c-4346b23c8d25.xml, IEEE.unit_diag_level, PUNIT_DIAG_LEVEL, PUNIT_DIAG_LEVEL structure pointer [Buses], UNIT_DIAG_LEVEL, UNIT_DIAG_LEVEL structure [Buses], _UNIT_DIAG_LEVEL"
 req.header: 61883.h
+req.construct-type: structure
 req.include-header: 61883.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UNIT_DIAG_LEVEL
 ---
 
-# _UNIT_DIAG_LEVEL structure
+# UNIT_DIAG_LEVEL structure (61883.h)
+
+
 
 
 ## -description

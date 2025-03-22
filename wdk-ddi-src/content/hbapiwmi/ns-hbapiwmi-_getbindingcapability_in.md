@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["GetBindingCapability_IN structure"]
 ms.keywords: "*PGetBindingCapability_IN, GetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices], PGetBindingCapability_IN, PGetBindingCapability_IN structure pointer [Storage Devices], _GetBindingCapability_IN, hbapiwmi/GetBindingCapability_IN, hbapiwmi/PGetBindingCapability_IN, storage.getbindingcapability_in, structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml"
 req.header: hbapiwmi.h
+req.construct-type: structure
 req.include-header: Hbapiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - GetBindingCapability_IN
 ---
 
-# _GetBindingCapability_IN structure
+# GetBindingCapability_IN structure (hbapiwmi.h)
+
+
 
 
 ## -description

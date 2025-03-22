@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["NDIS_WWAN_UICC_ACCESS_BINARY structure"]
 ms.keywords: _NDIS_WWAN_UICC_ACCESS_BINARY, NDIS_WWAN_UICC_ACCESS_BINARY, *PNDIS_WWAN_UICC_ACCESS_BINARY,
 req.header: ndiswwan.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ api_name:
  - NDIS_WWAN_UICC_ACCESS_BINARY
 ---
 
-# _NDIS_WWAN_UICC_ACCESS_BINARY structure
+# NDIS_WWAN_UICC_ACCESS_BINARY structure (ndiswwan.h)
+
+
 
 
 ## -description

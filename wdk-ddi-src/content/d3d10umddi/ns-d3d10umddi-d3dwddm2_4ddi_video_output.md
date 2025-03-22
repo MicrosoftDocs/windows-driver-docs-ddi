@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEO_OUTPUT structure"]
 ms.keywords: D3DWDDM2_4DDI_VIDEO_OUTPUT, D3DWDDM2_4DDI_VIDEO_OUTPUT,
 req.header: d3d10umddi.h
+req.construct-type: structure
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - D3DWDDM2_4DDI_VIDEO_OUTPUT
 ---
 
-# D3DWDDM2_4DDI_VIDEO_OUTPUT structure
+# D3DWDDM2_4DDI_VIDEO_OUTPUT structure (d3d10umddi.h)
+
+
 
 
 ## -description

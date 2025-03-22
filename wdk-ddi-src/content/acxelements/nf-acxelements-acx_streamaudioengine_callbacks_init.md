@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAMAUDIOENGINE_CALLBACKS_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_STREAMAUDIOENGINE_CALLBACKS_INIT** function initializes a [ACX_STREAMAUDIOENGINE_CALLBACKS structure](ns-acxelements-acx_streamaudioengine_callbacks.md).

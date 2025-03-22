@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FILE_TIMESTAMPS structure"]
 ms.keywords: "*PFILE_TIMESTAMPS, FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], _FILE_TIMESTAMPS, ifsk.file_timestamps, ntifs/File_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS"
 req.header: ntifs.h
+req.construct-type: structure
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - FILE_TIMESTAMPS
 ---
 
-# _FILE_TIMESTAMPS structure
+# FILE_TIMESTAMPS structure (ntifs.h)
+
+
 
 ## -description
 

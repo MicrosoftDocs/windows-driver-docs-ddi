@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["BINARY_DATA structure"]
 ms.keywords: BINARY_DATA, BINARY_DATA structure [Network Drivers Starting with Windows Vista], ndis/BINARY_DATA, ndis_configuration_ref_50fc50e5-52d2-4e25-a03b-6c581e50fef1.xml, netvista.binary_data
 req.header: ndis.h
+req.construct-type: structure
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers in Windows Vista. Supported for NDIS   5.1 drivers in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - BINARY_DATA
 ---
 
-# BINARY_DATA structure
+# BINARY_DATA structure (ndis.h)
+
+
 
 
 ## -description

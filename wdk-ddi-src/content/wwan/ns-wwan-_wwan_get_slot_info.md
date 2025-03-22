@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_GET_SLOT_INFO structure"]
 ms.keywords: "*PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO, PWWAN_GET_SLOT_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_GET_SLOT_INFO, WWAN_GET_SLOT_INFO structure [Network Drivers Starting with Windows Vista], _WWAN_GET_SLOT_INFO, netvista.wwan_get_slot_info_status, wwan/PWWAN_GET_SLOT_INFO, wwan/WWAN_GET_SLOT_INFO"
 req.header: wwan.h
+req.construct-type: structure
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -46,7 +47,9 @@ api_name:
  - WWAN_GET_SLOT_INFO
 ---
 
-# _WWAN_GET_SLOT_INFO structure
+# WWAN_GET_SLOT_INFO structure (wwan.h)
+
+
 
 
 ## -description

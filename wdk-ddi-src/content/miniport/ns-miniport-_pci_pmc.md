@@ -7,6 +7,7 @@ ms.date: 07/20/2022
 keywords: ["PCI_PMC structure"]
 ms.keywords: "*PPCI_PMC, PCI.pci_pmc, PCI_PMC, PCI_PMC structure [Buses], PPCI_PMC, PPCI_PMC structure pointer [Buses], _PCI_PMC, pci_struct_5ac33692-66a0-4c2e-89dc-e5ace757e06b.xml, wdm/PCI_PMC, wdm/PPCI_PMC"
 req.header: miniport.h
+req.construct-type: structure
 req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - PPCI_PMC
  - PCI_PMC
 ---
+
+# PCI_PMC structure (miniport.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_LIGHT structure"]
 ms.keywords: D3DDDI_LIGHT, D3DDDI_LIGHT structure [Display Devices], D3D_other_Structs_4f43b697-886b-47bf-97b9-603306e899f8.xml, _D3DDDI_LIGHT, d3dumddi/D3DDDI_LIGHT, display.d3dddi_light
 req.header: d3dumddi.h
+req.construct-type: structure
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_LIGHT
 ---
 
-# _D3DDDI_LIGHT structure
+# D3DDDI_LIGHT structure (d3dumddi.h)
+
+
 
 
 ## -description
