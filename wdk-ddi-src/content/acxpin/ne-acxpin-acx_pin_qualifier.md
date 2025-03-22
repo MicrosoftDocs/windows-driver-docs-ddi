@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PIN_QUALIFIER enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_QUALIFIER** enumeration specify how the PIN is connected in the multi-circuit audio topology.

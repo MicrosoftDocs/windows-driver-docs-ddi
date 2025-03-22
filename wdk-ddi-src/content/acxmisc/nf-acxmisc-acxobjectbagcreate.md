@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagCreate function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagCreate function creates a new AcxObjectBag.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_CALLBACKS structure (acxevents.h)
+
 ## -description
 
 The **ACX_EVENT_CALLBACKS** structure identifies the driver callbacks for ACX event operations.

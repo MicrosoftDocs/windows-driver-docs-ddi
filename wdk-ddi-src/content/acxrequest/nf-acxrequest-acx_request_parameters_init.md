@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_REQUEST_PARAMETERS_INIT function (acxrequest.h)
+
 ## -description
 
 The **ACX_REQUEST_PARAMETERS_INIT** function initializes an ACX_REQUEST_PARAMETERS struct.

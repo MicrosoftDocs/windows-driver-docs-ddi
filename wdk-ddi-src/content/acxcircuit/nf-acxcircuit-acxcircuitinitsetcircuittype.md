@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitSetCircuitType function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitSetCircuitType** function is used to set the circuit type of the ACXCIRCUIT.

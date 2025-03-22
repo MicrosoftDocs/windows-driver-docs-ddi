@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CONSTRICTOR_OPTION enumeration (acxelements.h)
+
 ## -description
 
 The **ACX_CONSTRICTOR_OPTION** enumeration defines the options for the loopback protection status of a stream audio engine node.

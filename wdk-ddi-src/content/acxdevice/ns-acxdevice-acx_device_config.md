@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DEVICE_CONFIG structure (acxdevice.h)
+
 ## -description
 
 The **ACX_DEVICE_CONFIG** structure provides configuration information to the class extension.

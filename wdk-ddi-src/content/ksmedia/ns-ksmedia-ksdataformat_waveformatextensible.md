@@ -43,7 +43,9 @@ f1_keywords:
  - ksmedia/KSDATAFORMAT_WAVEFORMATEXTENSIBLE
 ---
 
-# KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure
+# KSDATAFORMAT_WAVEFORMATEXTENSIBLE structure (ksmedia.h)
+
+
 
 
 ## -description

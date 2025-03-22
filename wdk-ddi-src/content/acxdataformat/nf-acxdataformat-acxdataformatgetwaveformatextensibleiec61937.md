@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetWaveFormatExtensibleIec61937 function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetWaveFormatExtensibleIec61937** function gets the WAVEFORMATEXTENSIBLE_IEC61937 structure associated with the specified data format.

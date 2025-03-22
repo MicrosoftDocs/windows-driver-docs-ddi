@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlSecureZeroMemory2
 ---
 
+# RtlSecureZeroMemory2 function (wdm.h)
+
 ## -description
 
 The **RtlSecureZeroMemory2** function is a convenience wrapper around [**RtlFillVolatileMemory**](nf-wdm-rtlfillvolatilememory.md) and is identical to [**RtlZeroVolatileMemory**](nf-wdm-rtlzerovolatilememory.md).

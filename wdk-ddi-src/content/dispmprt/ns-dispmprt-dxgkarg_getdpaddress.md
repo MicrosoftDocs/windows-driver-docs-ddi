@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_GETDPADDRESS structure
+# DXGKARG_GETDPADDRESS structure (dispmprt.h)
+
+
 
 
 ## -description

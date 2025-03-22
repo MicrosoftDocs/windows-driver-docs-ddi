@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_GET_CURRENT_PACKET function (acxstreams.h)
+
 ## -description
 
 **EvtAcxStreamGetCurrentPacket** tells the driver to indicate which packet (0-based) is currently being rendered to the hardware or is currently being filled by the capture hardware.

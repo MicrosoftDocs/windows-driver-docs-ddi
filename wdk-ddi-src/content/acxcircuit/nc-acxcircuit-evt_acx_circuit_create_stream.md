@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_CIRCUIT_CREATE_STREAM function (acxcircuit.h)
+
 ## -description
 
 The driver defines the **EVT_ACX_CIRCUIT_CREATE_STREAM** callback to create circuit stream instances.

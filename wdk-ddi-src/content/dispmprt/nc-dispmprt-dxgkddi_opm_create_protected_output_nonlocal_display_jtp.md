@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP callback function
+# DXGKDDI_OPM_CREATE_PROTECTED_OUTPUT_NONLOCAL_DISPLAY_JTP function (dispmprt.h)
+
+ function
 
 
 ## -description

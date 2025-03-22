@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceRemoveCircuit function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceRemoveCircuit** function removes the specified audio circuit from an ACX device.

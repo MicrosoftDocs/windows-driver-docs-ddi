@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_ELEMENT_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_ELEMENT_CONFIG** structure is used to define the acx element configuration.

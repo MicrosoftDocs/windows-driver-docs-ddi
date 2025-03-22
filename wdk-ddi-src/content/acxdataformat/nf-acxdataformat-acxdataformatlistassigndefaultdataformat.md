@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListAssignDefaultDataFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListAssignDefaultDataFormat** function adds an [ACXDATAFORMAT](index.md) object to the specified data format list and sets the **ACXDATAFORMAT** object as the default.

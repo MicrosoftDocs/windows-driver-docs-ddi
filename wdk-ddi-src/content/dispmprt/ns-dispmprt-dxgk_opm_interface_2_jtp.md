@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_OPM_INTERFACE_2_JTP structure
+# DXGK_OPM_INTERFACE_2_JTP structure (dispmprt.h)
+
+
 
 
 ## -description

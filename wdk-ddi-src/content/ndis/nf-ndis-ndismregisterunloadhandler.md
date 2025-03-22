@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisMRegisterUnloadHandler
 ---
 
-# NdisMRegisterUnloadHandler function
+# NdisMRegisterUnloadHandler function (ndis.h)
+
+
 
 ## -description
 

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS** structure contains pointers to an ACXFACTORYCIRCUIT's Plug and Play and power event callback functions.

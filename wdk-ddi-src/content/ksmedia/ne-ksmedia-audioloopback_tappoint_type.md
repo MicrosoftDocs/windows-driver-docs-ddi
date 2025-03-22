@@ -38,7 +38,9 @@ helpviewer_keywords:
  - tagAUDIOLOOPBACK_TAPPOINT_TYPE
 ---
 
-# AUDIOLOOPBACK_TAPPOINT_TYPE enumeration (ksmedia.h)
+# tagAUDIOLOOPBACK_TAPPOINT_TYPE enumeration (ksmedia.h)
+
+
 
 The AUDIOLOOPBACK_TAPPOINT_TYPE enum contains the  pre and post tap point definitions. It is available starting in Windows 11 24H2.
 

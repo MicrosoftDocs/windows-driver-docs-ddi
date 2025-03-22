@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAMAUDIOENGINE_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_STREAMAUDIOENGINE_CONFIG** structure is used to define the stream audio engine configuration.

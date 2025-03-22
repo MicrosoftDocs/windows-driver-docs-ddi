@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_MUTE_ASSIGN_STATE function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_MUTE_ASSIGN_STATE** callback function is implemented by the driver and is called when the state of a specified channel on a mute node is set. The state of the channel can be set to 0 (FALSE) or 1 (TRUE), where 0 indicates the channel is not muted and 1 indicates the channel is muted.

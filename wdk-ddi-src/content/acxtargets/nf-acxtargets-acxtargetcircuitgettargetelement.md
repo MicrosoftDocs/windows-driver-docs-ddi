@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetCircuitGetTargetElement function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetCircuitGetTargetElement** function, given a valid element index value, will return the associated ACXTARGETELEMENT object.

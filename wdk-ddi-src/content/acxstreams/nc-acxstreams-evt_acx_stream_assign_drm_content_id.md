@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID function (acxstreams.h)
+
 ## -description
 
 The **EVT_ACX_STREAM_ASSIGN_DRM_CONTENT_ID** event tells the driver to assign a content ID for the purposes of DRM streaming.

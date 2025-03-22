@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetAverageBytesPerSec function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetAverageBytesPerSec** function gets the required bytes-per-second transfer rate for the specified data format.

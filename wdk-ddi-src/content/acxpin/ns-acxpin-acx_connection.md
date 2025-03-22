@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CONNECTION structure (acxpin.h)
+
 ## -description
 
 The **ACX_CONNECTION** structure is used to define a connection between two pins.

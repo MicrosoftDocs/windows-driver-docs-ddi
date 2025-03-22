@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_KEYWORDSPOTTER_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_KEYWORDSPOTTER_CONFIG_INIT** function initializes an [ACX_KEYWORDSPOTTER_CONFIG](ns-acxelements-acx_keywordspotter_config.md) structure.

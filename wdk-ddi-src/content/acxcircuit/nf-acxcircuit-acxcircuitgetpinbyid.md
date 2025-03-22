@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitGetPinById function (acxcircuit.h)
+
 ## -description
 
 When provided a valid PinID number, the **AcxCircuitGetPinById** function returns the AcxCircuitGetPinById function returns the corresponding ACXPIN object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

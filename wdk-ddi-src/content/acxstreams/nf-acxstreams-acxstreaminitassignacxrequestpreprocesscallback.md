@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamInitAssignAcxRequestPreprocessCallback function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamInitAssignAcxRequestPreprocessCallback** function assigns an AcxRequestPreprocessCallback to a stream.

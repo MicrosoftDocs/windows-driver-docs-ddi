@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisUnchainBufferAtBack
 ---
 
-# NdisUnchainBufferAtBack function
+# NdisUnchainBufferAtBack function (ndis.h)
+
+
 
 ## -description
 

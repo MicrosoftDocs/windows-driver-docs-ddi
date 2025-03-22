@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICARRAYGEOMETRY_CONFIG_FLAGS enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_MICARRAYGEOMETRY_CONFIG_FLAGS** enumeration is used to configure the geometry of a microphone array.

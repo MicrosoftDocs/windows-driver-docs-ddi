@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_PIN_SET_DATAFORMAT function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_PIN_SET_DATAFORMAT** callback function is implemented by the driver and is called to set the data format for the specified pin.

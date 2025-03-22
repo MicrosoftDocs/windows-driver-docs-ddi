@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisMIndicateStatus
 ---
 
-# NdisMIndicateStatus function
+# NdisMIndicateStatus function (ndis.h)
+
+
 
 ## -description
 

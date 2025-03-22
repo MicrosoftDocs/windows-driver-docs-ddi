@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamCreate function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamCreate** function is used to create a target stream.

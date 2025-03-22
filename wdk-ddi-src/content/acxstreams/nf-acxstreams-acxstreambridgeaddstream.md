@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamBridgeAddStream function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamBridgeAddStream** function adds an existing ACXSTREAM to an existing ACXSTREAMBRIDGE.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

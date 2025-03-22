@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_TARGET_CIRCUIT_CONFIG_FLAGS enumeration (acxtargets.h)
+
 ## -description
 
 The **ACX_TARGET_CIRCUIT_CONFIG_FLAGS** enumeration defines the config flags for the ACX target circuit.

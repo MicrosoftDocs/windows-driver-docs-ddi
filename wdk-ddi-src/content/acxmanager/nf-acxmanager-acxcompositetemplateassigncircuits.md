@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCompositeTemplateAssignCircuits function (acxmanager.h)
+
 ## -description
 
 The **AcxCompositeTemplateAssignCircuits** function adds an array of circuit templates to the specified composite template.

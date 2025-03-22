@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PIN_COMMUNICATION enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_COMMUNICATION** enumeration is used by the [ACX_PIN_CONFIG](..\acxpin\ns-acxpin-acx_pin_config.md) structure to indicate the communication type of a pin.

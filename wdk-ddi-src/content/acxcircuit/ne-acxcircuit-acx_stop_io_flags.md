@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STOP_IO_FLAGS enumeration (acxcircuit.h)
+
 ## -description
 
 The **ACX_STOP_IO_FLAGS** enumeration defines Stop IO flags.

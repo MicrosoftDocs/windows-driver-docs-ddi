@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_RT_STREAM_CALLBACKS structure (acxstreams.h)
+
 ## -description
 
 The **ACX_RT_STREAM_CALLBACKS** structure defines callbacks for RT streaming to the ACX framework.

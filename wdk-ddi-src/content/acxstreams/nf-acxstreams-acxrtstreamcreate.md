@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxRtStreamCreate function (acxstreams.h)
+
 ## -description
 
 **AcxRtStreamCreate** creates an ACX RTStream audio stream that is used by the OS to stream audio data.

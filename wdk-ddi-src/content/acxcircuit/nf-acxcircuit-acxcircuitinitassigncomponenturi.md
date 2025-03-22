@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitAssignComponentUri function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitAssignComponentUri** function assigns an URI string as ID for the ACXCIRCUIT.

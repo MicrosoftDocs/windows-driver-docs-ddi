@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinAddStreamBridges function (acxpin.h)
+
 ## -description
 
 The **AcxPinAddStreamBridges** function adds an array of stream bridges to the specified pin.

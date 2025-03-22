@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_CONNECTIVITY enumeration
+# DXGK_DIAG_DISPLAY_CONNECTIVITY enumeration (dispmprt.h)
+
+
 
 
 ## -description

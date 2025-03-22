@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetChannelMask function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetChannelMask** function gets the [channel mask](/windows-hardware/drivers/audio/channel-mask) for the specified data format.

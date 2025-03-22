@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceGetCurrentDxExitLatency function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceGetCurrentDxExitLatency** function gets the current audio device sleep state exit latency value.

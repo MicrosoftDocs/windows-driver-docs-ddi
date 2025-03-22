@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveBlob function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveBlob function retrieves a blob value from an existing, initialized AcxObjectBag that contains values.

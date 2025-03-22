@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamBridgeRemoveStream function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamBridgeRemoveStream** function removes the specified ACXSTREAM from the ACXSTREAMBRIDGE object . For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

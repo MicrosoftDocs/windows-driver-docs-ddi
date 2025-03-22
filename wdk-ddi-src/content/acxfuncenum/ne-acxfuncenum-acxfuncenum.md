@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _ACXFUNCENUM
 ---
 
+# ACXFUNCENUM enumeration (acxfuncenum.h)
+
 ## -description
 
 The **ACXFUNCENUM** enum provides indexes into the table of ACX functions.

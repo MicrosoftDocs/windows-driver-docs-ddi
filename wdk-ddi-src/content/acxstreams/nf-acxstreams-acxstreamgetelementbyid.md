@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamGetElementById function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamGetElementById** function returns the ACXELEMENT Object handle for the requested element ID. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

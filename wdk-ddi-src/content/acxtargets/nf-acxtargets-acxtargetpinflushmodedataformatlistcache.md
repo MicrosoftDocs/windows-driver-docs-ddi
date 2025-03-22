@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxTargetPinFlushModeDataFormatListCache
 ---
 
+# AcxTargetPinFlushModeDataFormatListCache function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetPinFlushModeDataFormatListCache** function flushes the mode data format list cache for the specified target pin.

@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisGetReceivedPacket
 ---
 
-# NdisGetReceivedPacket function
+# NdisGetReceivedPacket function (ndis.h)
+
+
 
 ## -description
 

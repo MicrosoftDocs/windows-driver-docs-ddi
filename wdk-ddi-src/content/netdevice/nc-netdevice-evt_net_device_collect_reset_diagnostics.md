@@ -40,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS callback function
+# EVT_NET_DEVICE_COLLECT_RESET_DIAGNOSTICS function (netadaptercx.h)
+
+ function
 
 ## -description
 

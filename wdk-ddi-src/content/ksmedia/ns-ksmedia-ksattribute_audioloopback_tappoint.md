@@ -45,7 +45,9 @@ helpviewer_keywords:
  - tagKSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT
 ---
 
-# KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT structure (ksmedia.h)
+# tagKSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT structure (ksmedia.h)
+
+
 
 The KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT attribute points to the  pre and post tap audio point definitions. It is available starting in Windows 11 24H2.
 

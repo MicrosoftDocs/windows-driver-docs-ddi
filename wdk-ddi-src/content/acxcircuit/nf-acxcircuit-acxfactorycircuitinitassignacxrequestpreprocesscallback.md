@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function (acxcircuit.h)
+
 ## -description
 
 The AcxFactoryCircuitInitAssignAcxRequestPreprocessCallback function initializes defined AssignAcxRequest Preprocess callbacks for circuit factories.

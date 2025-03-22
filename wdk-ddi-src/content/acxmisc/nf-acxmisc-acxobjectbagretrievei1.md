@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveI1 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveI1 function retrieves an int one byte (CHAR) I1 value from an existing, initialized AcxObjectBag that contains values.

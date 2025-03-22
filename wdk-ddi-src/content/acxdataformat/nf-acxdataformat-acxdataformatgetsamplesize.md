@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetSampleSize function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetSampleSize** function gets the sample size for the specified data format.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetValidBitsPerSample function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetValidBitsPerSample** function gets the valid number of bits per sample for the specified data format.

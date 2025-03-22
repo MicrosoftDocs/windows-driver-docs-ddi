@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_OBJECTBAG_CONFIG_FLAGS enumeration (acxmisc.h)
+
 ## -description
 
 The **ACX_OBJECTBAG_CONFIG_FLAGS** enumeration defines the configuration for an AcxObjectBag.

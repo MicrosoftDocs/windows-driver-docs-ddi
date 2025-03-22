@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_DEVICE_CAPS_EX_REV1 structure (wwan.h)
+
 ## -description
 
 > [!IMPORTANT]

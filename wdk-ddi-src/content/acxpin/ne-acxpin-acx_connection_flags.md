@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CONNECTION_FLAGS enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_CONNECTION_FLAGS** enumeration is used by the [ACX_CONNECTION](ns-acxpin-acx_connection.md) structure to specify the ACX object identifier types.

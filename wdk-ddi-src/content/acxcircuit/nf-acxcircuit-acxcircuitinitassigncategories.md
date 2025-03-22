@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitAssignCategories function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitAssignCategories** function assigns a set of KSCATERGORY entries for the ACXCIRCUIT.

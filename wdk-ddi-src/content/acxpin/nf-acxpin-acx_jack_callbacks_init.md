@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CALLBACKS_INIT function (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CALLBACKS_INIT** function initializes an [ACX_JACK_CALLBACKS](ns-acxpin-acx_jack_callbacks.md) structure for use.

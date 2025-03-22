@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UcxRootHubCreate
 ---
 
+# UcxRootHubCreate function (ucxroothub.h)
+
 ## -description
 
 Creates a root hub object for the specified host controller.

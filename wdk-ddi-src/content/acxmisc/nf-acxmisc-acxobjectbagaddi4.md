@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddI4 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddI4 function adds an int four byte I4 (LONG) value to an existing, initialized AcxObjectBag.

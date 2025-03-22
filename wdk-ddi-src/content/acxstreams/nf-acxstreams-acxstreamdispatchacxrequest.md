@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamDispatchAcxRequest function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamDispatchAcxRequest** dispatches an ACX request using a WDFREQUEST framework request object. AcxStreamDispatchAcxRequest is called within the context of an [EVT_ACX_OBJECT_PREPROCESS_REQUEST](../acxrequest/nc-acxrequest-evt_acx_object_preprocess_request.md) event handler registered through [AcxStreamInitAssignAcxRequestPreprocessCallback](nf-acxstreams-acxstreaminitassignacxrequestpreprocesscallback.md) to indicate the request should be handled by the ACX framework.

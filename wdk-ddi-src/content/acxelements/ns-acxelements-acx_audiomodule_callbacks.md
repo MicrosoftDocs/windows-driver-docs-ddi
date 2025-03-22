@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOMODULE_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOMODULE_CALLBACKS** structure identifies the driver callbacks for ACX audio module operations.

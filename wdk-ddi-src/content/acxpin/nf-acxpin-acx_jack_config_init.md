@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CONFIG_INIT function (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CONFIG_INIT** macro calls the [ACX_JACK_CONFIG_INIT_ID](nf-acxpin-acx_jack_config_init_id.md) function with the default ID value.

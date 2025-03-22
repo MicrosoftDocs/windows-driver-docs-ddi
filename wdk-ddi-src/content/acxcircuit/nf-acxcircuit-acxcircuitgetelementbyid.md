@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitGetElementById function (acxcircuit.h)
+
 ## -description
 
 When provided a valid ElementID number, the **AcxCircuitGetElementById** function returns the corresponding ACXELEMENT object. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

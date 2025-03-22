@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOMODULE_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOMODULE_CONFIG_INIT** function initializes an [ACX_AUDIOMODULE_CONFIG](ns-acxelements-acx_audiomodule_config.md) structure.

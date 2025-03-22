@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# TUNNEL structure (ntifs.h)
+
 ## -description
 
 The **TUNNEL** structure is a tunnel cache structure.

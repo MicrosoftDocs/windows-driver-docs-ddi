@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCompositeTemplateCreate function (acxmanager.h)
+
 ## -description
 
 The **AcxCompositeTemplateCreate** function is used to create a composite template for use by the audio class extension (ACX) manager.

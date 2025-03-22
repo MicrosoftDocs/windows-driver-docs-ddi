@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddUI4 function (acxmisc.h)
+
 ## -description
 
 The **AcxObjectBagAddUI4** function adds an unsigned int four byte I4 (ULONG) value to an existing, initialized AcxObjectBag.

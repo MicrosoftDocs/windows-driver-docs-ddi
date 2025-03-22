@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetPinGetId function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetPinGetId** function given an existing ACXTARGETPIN object returns its associated ID value.

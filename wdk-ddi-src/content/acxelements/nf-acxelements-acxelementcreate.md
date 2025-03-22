@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxElementCreate function (acxelements.h)
+
 ## -description
 
 The **AcxElementCreate** function is used to create an ACXELEMENT object that that will be associated with a circuit or stream device object parent.

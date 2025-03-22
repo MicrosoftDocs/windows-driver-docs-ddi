@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MUTE_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The **ACX_MUTE_CALLBACKS** structure identifies the driver callbacks for ACX mute operations.

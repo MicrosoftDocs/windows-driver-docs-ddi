@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListAddDataFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListAddDataFormat** function adds an [ACXDATAFORMAT](index.md) object to a data format list.

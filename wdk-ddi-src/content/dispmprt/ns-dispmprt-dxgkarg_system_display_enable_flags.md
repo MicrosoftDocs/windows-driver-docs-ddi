@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS structure
+# DXGKARG_SYSTEM_DISPLAY_ENABLE_FLAGS structure (dispmprt.h)
+
+
 
 ## -description
 

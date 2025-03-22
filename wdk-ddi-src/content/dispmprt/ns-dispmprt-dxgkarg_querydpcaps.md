@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_QUERYDPCAPS structure
+# DXGKARG_QUERYDPCAPS structure (dispmprt.h)
+
+
 
 
 ## -description

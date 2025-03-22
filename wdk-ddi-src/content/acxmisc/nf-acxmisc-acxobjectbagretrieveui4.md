@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveUI4 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveUI4 function retrieves an unsigned int four byte UI4 (ULONG) value from an existing, initialized AcxObjectBag that contains values.

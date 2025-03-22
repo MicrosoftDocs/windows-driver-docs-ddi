@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddSizeT function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddSizeT function adds a SIZE_T entry to an existing, initialized AcxObjectBag.

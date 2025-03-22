@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListRetrieveNextFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListRetrieveNextFormat** function gets the next ACX data format when iterating an ACX data format list.

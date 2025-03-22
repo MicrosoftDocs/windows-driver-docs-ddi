@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICROPHONE_CONFIG_FLAGS enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_MICROPHONE_CONFIG_FLAGS** enumeration is used to configure a physical microphone.

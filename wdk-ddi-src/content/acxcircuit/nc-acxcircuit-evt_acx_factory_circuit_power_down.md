@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_FACTORY_CIRCUIT_POWER_DOWN** callback is used by the driver to add functionality in the power down path of an ACXFACTORYCIRCUIT object.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_COMPOSITE_TEMPLATE_CONFIG structure (acxmanager.h)
+
 ## -description
 
 The **ACX_COMPOSITE_TEMPLATE_CONFIG** structure is used to configure a new ACX composite template object.

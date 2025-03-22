@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamResumeIo function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamResumeIo** function is used to resume IO for a stream.

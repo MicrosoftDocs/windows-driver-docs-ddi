@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxVolumeChangeLevelNotification function (acxelements.h)
+
 ## -description
 
 The **AcxVolumeChangeLevelNotification** function sends a notification of a volume level change on an ACXVOLUME object so that ACX can generate a corresponding event.

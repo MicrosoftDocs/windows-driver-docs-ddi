@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MUTE_CALLBACKS_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_MUTE_CALLBACKS_INIT** function initializes a [ACX_MUTE_CALLBACKS structure](ns-acxelements-acx_mute_callbacks.md).

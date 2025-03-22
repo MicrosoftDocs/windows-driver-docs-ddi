@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PHYSICAL_CONNECTION structure (acxpin.h)
+
 ## -description
 
 The **ACX_PHYSICAL_CONNECTION** structure describes a physical audio connection between two ACXCIRCUIT objects.

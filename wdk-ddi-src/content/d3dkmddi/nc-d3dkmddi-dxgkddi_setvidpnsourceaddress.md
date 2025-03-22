@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SETVIDPNSOURCEADDRESS
 ---
 
+# DXGKDDI_SETVIDPNSOURCEADDRESS function (d3dkmddi.h)
+
 ## -description
 
 The *DxgkDdiSetVidPnSourceAddress* function sets the address of the primary surface that is associated with a particular video present source.

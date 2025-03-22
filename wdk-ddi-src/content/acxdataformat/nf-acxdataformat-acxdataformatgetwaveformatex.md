@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetWaveFormatEx function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetWaveFormatEx** function gets the [WAVEFORMATEX](/windows/win32/api/mmreg/ns-mmreg-waveformatex) structure associated with the specified data format.

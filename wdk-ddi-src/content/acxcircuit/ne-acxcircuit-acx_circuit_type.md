@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_CIRCUIT_TYPE enumeration (acxcircuit.h)
+
 ## -description
 
 The **ACX_CIRCUIT_TYPE** enumeration defines the types of ACXCIRCUITs.

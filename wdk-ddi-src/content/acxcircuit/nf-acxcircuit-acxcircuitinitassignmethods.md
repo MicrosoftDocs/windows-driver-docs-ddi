@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitAssignMethods function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitAssignMethods** function assigns one or more ACX methods for the ACXCIRCUIT.

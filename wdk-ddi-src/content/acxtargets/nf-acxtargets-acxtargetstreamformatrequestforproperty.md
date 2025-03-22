@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamFormatRequestForProperty function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamFormatRequestForProperty** formats a WDFREQUEST as an ACX property request to be used on specified stream target.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitFree function (acxcircuit.h)
+
 ## -description
 
 The **AcxFactoryCircuitInitFree** function deletes the factory circuit initialization object.

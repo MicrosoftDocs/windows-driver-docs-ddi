@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxMuteCreate function (acxelements.h)
+
 ## -description
 
 The **AcxMuteCreate** function is used to create an ACX mute object that that will be associated with a circuit object parent.

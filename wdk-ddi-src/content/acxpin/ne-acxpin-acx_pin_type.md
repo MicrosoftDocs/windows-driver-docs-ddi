@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PIN_TYPE enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_PIN_TYPE** enumeration is used by the [ACX_PIN_CONFIG](ns-acxpin-acx_pin_config.md) structure to indicate the type of a pin.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitDisableDefaultStreamBridgeHandling function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitDisableDefaultStreamBridgeHandling** function disables the ACX default stream bridge handling in a multi-circuit environment.

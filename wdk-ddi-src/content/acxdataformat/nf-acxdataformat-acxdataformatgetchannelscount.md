@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetChannelsCount function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetChannelsCount** function gets the number of audio channels in the specified data format.

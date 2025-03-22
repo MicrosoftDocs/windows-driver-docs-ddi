@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT structure (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_REMOVE_CIRCUIT** structure is used to remove ACX circuit factory circuits.

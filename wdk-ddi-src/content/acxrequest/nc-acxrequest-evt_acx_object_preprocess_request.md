@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_OBJECT_PREPROCESS_REQUEST function (acxrequest.h)
+
 ## -description
 
 The **EVT_ACX_OBJECT_PREPROCESS_REQUEST** callback is used by the driver to preprocess I/O WDFREQUESTs.

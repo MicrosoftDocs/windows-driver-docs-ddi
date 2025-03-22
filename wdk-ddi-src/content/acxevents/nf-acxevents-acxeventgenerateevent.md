@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxEventGenerateEvent function (acxevents.h)
+
 ## -description
 
 The **AcxEventGenerateEvent** function generates an ACX event.

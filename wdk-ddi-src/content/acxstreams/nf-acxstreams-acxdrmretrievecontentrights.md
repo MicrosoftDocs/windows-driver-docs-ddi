@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxDrmRetrieveContentRights
 ---
 
+# AcxDrmRetrieveContentRights function (acxstreams.h)
+
 ## -description
 
 The **AcxDrmRetrieveContentRights** function gets the DRM content rights assigned to a DRM content ID.

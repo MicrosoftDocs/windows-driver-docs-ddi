@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveMultiString function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveMultiString function retrieves a MultiString value from an existing, initialized AcxObjectBag that contains values.

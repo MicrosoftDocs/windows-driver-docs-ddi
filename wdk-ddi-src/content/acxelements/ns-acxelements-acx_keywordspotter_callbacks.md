@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_KEYWORDSPOTTER_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The ACX_KEYWORDSPOTTER_CALLBACKS structure identifies the driver callbacks for keyword spotter operations.

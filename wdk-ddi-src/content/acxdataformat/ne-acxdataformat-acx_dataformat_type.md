@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_TYPE enumeration (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_TYPE** enumeration is used to specify the type of a data format used by an audio class extension (ACX) driver.

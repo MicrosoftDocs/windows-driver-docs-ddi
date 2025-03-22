@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetSubFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetSubFormat** function gets the subformat for the specified data format.

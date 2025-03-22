@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ACX_IS_FUNCTION_AVAILABLE
 ---
 
+# ACX_IS_FUNCTION_AVAILABLE function (acxfuncenum.h)
+
 ## -description
 
 The **ACX_IS_FUNCTION_AVAILABLE** function enables you to query if the specified ACX function is available on the system.

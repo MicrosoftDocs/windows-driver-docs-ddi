@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisCancelSendPackets
 ---
 
-# NdisCancelSendPackets function
+# NdisCancelSendPackets function (ndis.h)
+
+
 
 ## -description
 

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOENGINE_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOENGINE_CONFIG** structure is used to define the audio engine configuration.

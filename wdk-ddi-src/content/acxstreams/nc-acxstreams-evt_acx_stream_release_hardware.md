@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_RELEASE_HARDWARE function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamReleaseHardware** event tells the driver to release any hardware allocated for the stream and put the stream into the Stop state.

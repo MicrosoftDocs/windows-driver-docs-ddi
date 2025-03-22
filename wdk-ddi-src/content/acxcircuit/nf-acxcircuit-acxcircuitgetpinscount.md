@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxCircuitGetPinsCount
 ---
 
+# AcxCircuitGetPinsCount function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitGetPinsCount** function retrieves the number of pins for the specified circuit object.

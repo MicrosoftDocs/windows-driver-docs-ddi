@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetEncodedChannelCount function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetEncodedChannelCount** function gets the channel count for the specified encoded data format.

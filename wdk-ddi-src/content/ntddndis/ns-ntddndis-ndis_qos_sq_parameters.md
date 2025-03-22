@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_QOS_SQ_PARAMETERS structure (ntddndis.h)
+
 ## -description
 
 The **NDIS_QOS_SQ_PARAMETERS** structure contains the parameters of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamInitAssignAcxStreamCallbacks function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamInitAssignAcxStreamCallbacks** function sets the callbacks using an [ACX_STREAM_CALLBACKS structure](ns-acxstreams-acx_stream_callbacks.md) and an ACXSTREAM_INIT object.  For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

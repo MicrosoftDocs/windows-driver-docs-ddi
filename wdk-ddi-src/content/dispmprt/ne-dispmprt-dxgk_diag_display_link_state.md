@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_LINK_STATE enumeration
+# DXGK_DIAG_DISPLAY_LINK_STATE enumeration (dispmprt.h)
+
+
 
 
 ## -description

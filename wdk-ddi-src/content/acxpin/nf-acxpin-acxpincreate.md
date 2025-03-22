@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinCreate function (acxpin.h)
+
 ## -description
 
 The **AcxPinCreate** function creates and initializes a new [ACXPIN](index.md) object.

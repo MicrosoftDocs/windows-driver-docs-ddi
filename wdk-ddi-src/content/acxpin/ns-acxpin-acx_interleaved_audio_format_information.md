@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION structure (acxpin.h)
+
 ## -description
 
 The **ACX_INTERLEAVED_AUDIO_FORMAT_INFORMATION** structure specifies how loopback audio is interleaved with the microphone audio for [KSPROPERTY_INTERLEAVEDAUDIO_FORMATINFORMATION](/windows-hardware/drivers/audio/ksproperty-interleavedaudio-formatinformation).

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveString function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveString function retrieves a WDFSTRING object from an existing, initialized AcxObjectBag.

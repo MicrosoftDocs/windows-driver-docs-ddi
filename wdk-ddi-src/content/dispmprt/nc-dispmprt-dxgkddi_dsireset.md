@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_DSIRESET callback function
+# DXGKDDI_DSIRESET function (dispmprt.h)
+
+ function
 
 
 ## -description

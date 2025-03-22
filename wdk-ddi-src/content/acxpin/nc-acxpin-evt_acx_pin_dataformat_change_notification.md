@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION
 ---
 
+# EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION function (acxpin.h)
+
 ## -description
 
 The **EVT_ACX_PIN_DATAFORMAT_CHANGE_NOTIFICATION** callback function is implemented by the driver and is called when a data format change occurs on the specified pin.

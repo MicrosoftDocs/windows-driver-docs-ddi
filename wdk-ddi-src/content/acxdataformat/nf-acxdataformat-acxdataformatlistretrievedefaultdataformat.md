@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListRetrieveDefaultDataFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListRetrieveDefaultDataFormat** gets the default ACX data format from the specified ACX data format list.

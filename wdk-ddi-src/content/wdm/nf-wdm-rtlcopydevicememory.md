@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlCopyDeviceMemory
 ---
 
+# RtlCopyDeviceMemory function (wdm.h)
+
 ## -description
 
 The **RtlCopyDeviceMemory** function provides [**RtlCopyVolatileMemory**](nf-wdm-rtlcopyvolatilememory.md) behavior (for example, copying memory from one location to another without interference from compiler optimizations) in situations where the developer needs to additionally be sure that alignment faults won't be generated when accessing device memory.

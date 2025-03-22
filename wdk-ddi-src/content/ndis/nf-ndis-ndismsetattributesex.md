@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisMSetAttributesEx
 ---
 
-# NdisMSetAttributesEx function
+# NdisMSetAttributesEx function (ndis.h)
+
+
 
 ## -description
 

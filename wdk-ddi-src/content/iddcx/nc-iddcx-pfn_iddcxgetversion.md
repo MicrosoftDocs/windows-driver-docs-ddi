@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# PFN_IDDCXGETVERSION callback function
+# PFN_IDDCXGETVERSION function (iddcx.h)
+
+ function
 
 ## -description
 

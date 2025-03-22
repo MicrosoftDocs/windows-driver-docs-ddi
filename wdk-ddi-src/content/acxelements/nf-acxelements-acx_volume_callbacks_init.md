@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_VOLUME_CALLBACKS_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_VOLUME_CALLBACKS_INIT** function initializes a [ACX_VOLUME_CALLBACKS structure](ns-acxelements-acx_volume_callbacks.md).

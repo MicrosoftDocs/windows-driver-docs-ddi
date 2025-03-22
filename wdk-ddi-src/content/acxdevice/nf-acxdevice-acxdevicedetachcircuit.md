@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDeviceDetachCircuit function (acxdevice.h)
+
 ## -description
 
 The **AcxDeviceDetachCircuit** function detaches an audio circuit from a **WDFDEVICE** prior to removal.

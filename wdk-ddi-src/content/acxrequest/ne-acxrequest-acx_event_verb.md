@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_VERB enumeration (acxrequest.h)
+
 ## -description
 
 The **ACX_EVENT_VERB** enumeration describes the type of verb operations supported on ACX events.

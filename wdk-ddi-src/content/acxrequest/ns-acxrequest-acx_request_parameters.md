@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_REQUEST_PARAMETERS structure (acxrequest.h)
+
 ## -description
 
 The **ACX_REQUEST_PARAMETERS** structure receives parameters that are associated with an I/O ACX request.

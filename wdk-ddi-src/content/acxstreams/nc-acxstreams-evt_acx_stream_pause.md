@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_PAUSE function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamPause** event tells the driver to transition the stream state from Run to Pause.

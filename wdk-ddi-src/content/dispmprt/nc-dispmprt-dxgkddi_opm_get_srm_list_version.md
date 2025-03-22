@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_OPM_GET_SRM_LIST_VERSION callback function
+# DXGKDDI_OPM_GET_SRM_LIST_VERSION function (dispmprt.h)
+
+ function
 
 
 ## -description

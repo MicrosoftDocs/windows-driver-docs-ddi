@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DATAFORMAT_LIST_ITERATOR structure (acxdataformat.h)
+
 ## -description
 
 The **ACX_DATAFORMAT_LIST_ITERATOR** structure holds the state of iteration over an ACX data format list.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PROPERTY_ITEM structure (acxrequest.h)
+
 ## -description
 
 The **ACX_PROPERTY_ITEM** structure describes a property item that is the target of an ACX request. A property represents a capability or control-state setting that belongs to an ACX object, such as a circuit, element, pin, stream, etc. For more information, see [KS Properties](/windows-hardware/drivers/stream/ks-properties).

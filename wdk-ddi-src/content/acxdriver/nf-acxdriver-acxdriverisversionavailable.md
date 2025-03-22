@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDriverIsVersionAvailable function (acxdriver.h)
+
 ## -description
 
 The **AcxDriverIsVersionAvailable** function returns a Boolean value indicating if the specified driver version is available.

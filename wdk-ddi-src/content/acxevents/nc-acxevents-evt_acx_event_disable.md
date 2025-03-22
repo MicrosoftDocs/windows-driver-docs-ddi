@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_EVENT_DISABLE function (acxevents.h)
+
 ## -description
 
 The **EVT_ACX_EVENT_DISABLE** callback is used by the driver to disable the ACXEVENT source.

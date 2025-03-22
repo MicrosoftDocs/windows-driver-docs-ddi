@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListCreate function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListCreate** function creates a new ACX data format list.

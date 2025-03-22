@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_AUDIOENGINE_ASSIGN_EFFECTS_STATE** callback function is implemented by the driver and is called when the global effects state is set for an audio engine node. The global effects state can be set to TRUE or FALSE, where TRUE indicates that global effect processing in the audio engine node is enabled and FALSE indicates that global effect processing in the audio engine node is disabled.

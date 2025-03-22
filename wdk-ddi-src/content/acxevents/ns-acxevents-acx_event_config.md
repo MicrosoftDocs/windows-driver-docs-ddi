@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_CONFIG structure (acxevents.h)
+
 ## -description
 
 The **ACX_EVENT_CONFIG** structure is used to configure an ACXEVENT.

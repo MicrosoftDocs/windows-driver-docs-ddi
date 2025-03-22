@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatCreate function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatCreate** function is used to create a data format for use by an audio class extension (ACX) driver.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveUI2 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveUI2 function retrieves an unsigned int two byte UI2 (USHORT) from an existing, initialized AcxObjectBag that contains values.

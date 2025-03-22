@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOENGINE_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOENGINE_CONFIG_INIT** function initializes a driver's [ACX_AUDIOENGINE_CONFIG](ns-acxelements-acx_audioengine_config.md) structure.

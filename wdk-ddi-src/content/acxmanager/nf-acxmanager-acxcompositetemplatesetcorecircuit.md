@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCompositeTemplateSetCoreCircuit function (acxmanager.h)
+
 ## -description
 
 The **AcxCompositeTemplateSetCoreCircuit** function sets the core circuit template for the specified composite template.

@@ -38,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_SCANOUT_BUFFER_CONTENT structure
+# DXGK_DIAG_SCANOUT_BUFFER_CONTENT structure (dispmprt.h)
+
+
 
 ## -description
 

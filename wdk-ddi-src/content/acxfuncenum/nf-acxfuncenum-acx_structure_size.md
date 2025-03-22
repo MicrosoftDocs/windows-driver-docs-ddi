@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ACX_STRUCTURE_SIZE
 ---
 
+# ACX_STRUCTURE_SIZE function (acxfuncenum.h)
+
 ## -description
 
 The **ACX_STRUCTURE_SIZE** functions gets the size, in bytes, of the specified ACX structure.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_EVENT_ENABLE function (acxevents.h)
+
 ## -description
 
 The **EVT_ACX_EVENT_ENABLE** callback is used by the driver to enabled the ACXEVENT source.

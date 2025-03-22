@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamAssignDrmContentId function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamAssignDrmContentId** function given an existing ACXTARGETSTREAM object, assigns a DRM Content ID to that stream.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MUTE_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_MUTE_CONFIG** structure is used to define the acx mute configuration.

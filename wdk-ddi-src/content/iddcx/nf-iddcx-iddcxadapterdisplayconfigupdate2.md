@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IddCxAdapterDisplayConfigUpdate2
 ---
 
+# IddCxAdapterDisplayConfigUpdate2 function (iddcx.h)
+
 ## -description
 
 A remote driver can call **IddCxAdapterDisplayConfigUpdate2** to allow a client to tell the server how to update the monitor configuration.

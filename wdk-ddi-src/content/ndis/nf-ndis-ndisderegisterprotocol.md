@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisDeregisterProtocol
 ---
 
-# NdisDeregisterProtocol function
+# NdisDeregisterProtocol function (ndis.h)
+
+
 
 ## -description
 

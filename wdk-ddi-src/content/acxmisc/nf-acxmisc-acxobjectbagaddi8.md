@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddI8 function (acxmisc.h)
+
 ## -description
 
 The **AcxObjectBagAddI8** function adds an int eight byte I8 (LONG64) value to an existing, initialized AcxObjectBag.

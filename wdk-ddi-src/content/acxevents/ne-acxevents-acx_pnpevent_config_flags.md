@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_PNPEVENT_CONFIG_FLAGS enumeration (acxevents.h)
+
 ## -description
 
 The **ACX_PNPEVENT_CONFIG_FLAGS** enumeration defines the PNPEVENT config flags for an ACXEVENT type.

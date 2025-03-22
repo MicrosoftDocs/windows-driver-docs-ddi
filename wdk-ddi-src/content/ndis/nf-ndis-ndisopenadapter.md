@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisOpenAdapter
 ---
 
-# NdisOpenAdapter function
+# NdisOpenAdapter function (ndis.h)
+
+
 
 ## -description
 

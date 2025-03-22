@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_DPSBMTRANSMISSION structure
+# DXGKARG_DPSBMTRANSMISSION structure (dispmprt.h)
+
+
 
 
 ## -description

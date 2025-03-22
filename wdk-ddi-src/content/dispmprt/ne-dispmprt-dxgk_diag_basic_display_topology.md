@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY enumeration
+# DXGK_DIAG_BASIC_DISPLAY_TOPOLOGY enumeration (dispmprt.h)
+
+
 
 
 ## -description

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_KEYWORDSPOTTER_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_KEYWORDSPOTTER_CONFIG** structure is used to define the acx keyword spotter configuration.

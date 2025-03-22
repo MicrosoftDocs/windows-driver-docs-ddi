@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveUI1 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveUI1 function retrieves an unsigned int one byte (UCHAR) UI1 value from an existing, initialized AcxObjectBag that contains values.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamGetTargetElement function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamGetTargetElement** function, given a valid element index value, returns the corresponding ACXTARGETELEMENT ACX object that is associated with the specified stream.

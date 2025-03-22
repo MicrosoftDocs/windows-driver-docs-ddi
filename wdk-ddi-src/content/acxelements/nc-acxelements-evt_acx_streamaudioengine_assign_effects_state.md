@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_EFFECTS_STATE** callback function is implemented by the driver and is called when the local effects state is set for a stream audio engine node.

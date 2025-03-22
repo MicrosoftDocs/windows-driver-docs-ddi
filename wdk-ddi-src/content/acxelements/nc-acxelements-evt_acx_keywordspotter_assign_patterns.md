@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS** callback assigns detection patterns for keyword detection to be used by the keyword spotter.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DRIVER_CONFIG_FLAGS enumeration (acxdriver.h)
+
 ## -description
 
 The **ACX_DRIVER_CONFIG_FLAGS** enum defines values used to configure the audio class extension.

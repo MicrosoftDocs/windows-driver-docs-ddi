@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitAssignMethods function (acxcircuit.h)
+
 ## -description
 
 The AcxFactoryCircuitInitAssignMethods function assigns one or more ACX methods for the ACXFACTORYCIRCUIT.

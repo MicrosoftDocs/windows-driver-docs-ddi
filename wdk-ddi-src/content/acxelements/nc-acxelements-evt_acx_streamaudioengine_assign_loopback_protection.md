@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_STREAMAUDIOENGINE_ASSIGN_LOOPBACK_PROTECTION** callback is implemented by the driver and is called when the loopback protection status is set for an audio engine node.

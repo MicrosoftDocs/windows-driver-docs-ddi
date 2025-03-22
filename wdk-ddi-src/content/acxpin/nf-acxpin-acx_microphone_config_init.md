@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICROPHONE_CONFIG_INIT function (acxpin.h)
+
 ## -description
 
 The ACX_MICROPHONE_CONFIG_INIT function initialized an [ACX_MICROPHONE_CONFIG](ns-acxpin-acx_microphone_config.md) structure for use.

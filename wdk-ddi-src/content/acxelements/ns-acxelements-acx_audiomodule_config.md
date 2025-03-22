@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOMODULE_CONFIG structure (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOMODULE_CONFIG** structure is used to define the audio module configuration.

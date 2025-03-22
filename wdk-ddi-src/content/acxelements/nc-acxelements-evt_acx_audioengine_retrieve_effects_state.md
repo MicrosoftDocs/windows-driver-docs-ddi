@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_AUDIOENGINE_RETRIEVE_EFFECTS_STATE** callback function is implemented by the driver and is called when the global effects state is requested for the specified audio engine node.

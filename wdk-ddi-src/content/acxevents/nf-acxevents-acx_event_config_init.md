@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_EVENT_CONFIG_INIT function (acxevents.h)
+
 ## -description
 
 The **ACX_EVENT_CONFIG_INIT** function initializes an [ACX_EVENT_CONFIG](ns-acxevents-acx_event_config.md) structure. No inputs are used with this function.

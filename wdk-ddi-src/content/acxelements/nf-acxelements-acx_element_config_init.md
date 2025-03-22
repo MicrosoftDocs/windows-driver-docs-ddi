@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_ELEMENT_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_ELEMENT_CONFIG_INIT** function initializes an [ACX_ELEMENT_CONFIG](ns-acxelements-acx_element_config.md) structure.

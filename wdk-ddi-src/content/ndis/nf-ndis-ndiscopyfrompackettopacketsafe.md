@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisCopyFromPacketToPacketSafe
 ---
 
-# NdisCopyFromPacketToPacket function
+# NdisCopyFromPacketToPacketSafe function (ndis.h)
+
+
 
 
 

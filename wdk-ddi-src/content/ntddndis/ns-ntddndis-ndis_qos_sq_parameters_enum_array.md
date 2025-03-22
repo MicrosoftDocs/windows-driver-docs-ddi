@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY structure (ntddndis.h)
+
 ## -description
 
 **NDIS_QOS_SQ_PARAMETERS_ENUM_ARRAY** is not currently used and has been updated to **NDIS_QOS_SQ_ARRAY** for NDIS 6.45 and later.

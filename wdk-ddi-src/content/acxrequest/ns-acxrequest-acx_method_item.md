@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_METHOD_ITEM structure (acxrequest.h)
+
 ## -description
 
 The **ACX_METHOD_ITEM** structure describes a method item that is the target of an ACX request.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetElementGetWdfIoTarget function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetElementGetWdfIoTarget** function given an existing ACXTARGETELEMENT object, returns its corresponding WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).

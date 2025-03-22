@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxMicArrayGeometryCreate function (acxpin.h)
+
 ## -description
 
 The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md) object.

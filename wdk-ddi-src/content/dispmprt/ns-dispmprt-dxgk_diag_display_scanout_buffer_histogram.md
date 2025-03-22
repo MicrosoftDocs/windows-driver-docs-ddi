@@ -38,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM structure
+# DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_HISTOGRAM structure (dispmprt.h)
+
+
 
 ## -description
 

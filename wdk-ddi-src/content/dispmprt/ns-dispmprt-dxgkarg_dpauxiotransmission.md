@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKARG_DPAUXIOTRANSMISSION structure
+# DXGKARG_DPAUXIOTRANSMISSION structure (dispmprt.h)
+
+
 
 
 ## -description

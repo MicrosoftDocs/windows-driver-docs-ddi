@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_PORT_CONNECTION enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_PORT_CONNECTION** enumeration is used by the [ACX_JACK_DESCRIPTION](ns-acxpin-acx_jack_description.md) structure and specifies the type of port represented by the jack.

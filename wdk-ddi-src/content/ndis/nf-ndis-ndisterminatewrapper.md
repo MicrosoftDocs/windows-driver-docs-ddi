@@ -43,7 +43,9 @@ helpviewer_keywords:
  - NdisTerminateWrapper
 ---
 
-# NdisTerminateWrapper function
+# NdisTerminateWrapper function (ndis.h)
+
+
 
 ## -description
 

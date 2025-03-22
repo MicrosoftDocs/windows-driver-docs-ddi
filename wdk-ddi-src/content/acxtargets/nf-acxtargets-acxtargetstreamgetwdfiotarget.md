@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetStreamGetWdfIoTarget function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetStreamGetWdfIoTarget** function will return a WDFIOTARGET WDF object that is associated with the specified stream.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_GET_PRESENTATION_POSITION function (acxstreams.h)
+
 ## -description
 
 **EvtAcxStreamGetPresentationPosition** tells the driver to indicate the current position along with the QPC value at the time the current position was calculated.

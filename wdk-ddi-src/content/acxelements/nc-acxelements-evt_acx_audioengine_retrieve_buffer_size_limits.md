@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_AUDIOENGINE_RETRIEVE_BUFFER_SIZE_LIMITS** callback is implemented by the driver and is called when the buffer size limits for a given data format are requested for the specified audio engine.

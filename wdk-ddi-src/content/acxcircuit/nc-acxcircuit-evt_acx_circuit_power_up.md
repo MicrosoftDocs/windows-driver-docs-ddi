@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_CIRCUIT_POWER_UP function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_CIRCUIT_POWER_UP** callback is used by the driver to add functionality in the power up path of an ACXCIRCUIT object.

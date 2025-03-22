@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_ITEM_TYPE enumeration (acxrequest.h)
+
 ## -description
 
 The **ACX_ITEM_TYPE** enumeration describes the possible types of items.

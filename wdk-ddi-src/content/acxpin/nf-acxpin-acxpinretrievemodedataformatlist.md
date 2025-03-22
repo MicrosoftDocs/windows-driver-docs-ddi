@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinRetrieveModeDataFormatList function (acxpin.h)
+
 ## -description
 
 The **AcxPinRetrieveModeDataFormatList** function gets the mode data format list for the specified pin.

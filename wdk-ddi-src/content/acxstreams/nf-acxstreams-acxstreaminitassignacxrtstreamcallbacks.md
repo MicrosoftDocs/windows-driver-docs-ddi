@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamInitAssignAcxRtStreamCallbacks function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamInitAssignAcxRtStreamCallbacks** function sets the RT callbacks using an ACXSTREAM_INIT object and a [ACX_RT_STREAM_CALLBACKS structure](ns-acxstreams-acx_rt_stream_callbacks.md). For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpsAllocateDeepCloneNetBufferList0
 ---
 
+# FwpsAllocateDeepCloneNetBufferList0 function (fwpsk.h)
+
 ## -description
 
 The **FwpsAllocateDeepCloneNetBufferList0** function allocates a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure that is a deep clone of an existing **NET_BUFFER_LIST** structure.

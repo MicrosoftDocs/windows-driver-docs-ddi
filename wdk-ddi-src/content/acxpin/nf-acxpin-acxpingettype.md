@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinGetType function (acxpin.h)
+
 ## -description
 
 The **AcxPinGetType** function returns the type of the specified pin.

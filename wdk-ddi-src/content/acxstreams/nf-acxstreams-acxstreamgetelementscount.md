@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxStreamGetElementsCount
 ---
 
+# AcxStreamGetElementsCount function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamGetElementsCount** function retrieves the number of elements for the specified audio stream.

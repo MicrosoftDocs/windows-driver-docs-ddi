@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAMAUDIOENGINE_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The **ACX_STREAMAUDIOENGINE_CALLBACKS** structure identifies the driver callbacks for ACX stream audio engine operations.

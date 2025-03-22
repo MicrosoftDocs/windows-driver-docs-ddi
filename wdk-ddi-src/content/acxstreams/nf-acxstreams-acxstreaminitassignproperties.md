@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamInitAssignProperties function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamInitAssignProperties** function assigns an array of properties to a stream using an *ACXSTREAM_INIT* object.

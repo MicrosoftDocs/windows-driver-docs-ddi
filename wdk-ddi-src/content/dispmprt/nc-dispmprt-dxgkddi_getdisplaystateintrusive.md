@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_GETDISPLAYSTATEINTRUSIVE callback function
+# DXGKDDI_GETDISPLAYSTATEINTRUSIVE function (dispmprt.h)
+
+ function
 
 
 ## -description

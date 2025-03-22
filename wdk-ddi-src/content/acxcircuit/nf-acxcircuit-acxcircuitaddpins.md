@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitAddPins function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitAddPins** function adds pins to an ACXCIRCUIT.

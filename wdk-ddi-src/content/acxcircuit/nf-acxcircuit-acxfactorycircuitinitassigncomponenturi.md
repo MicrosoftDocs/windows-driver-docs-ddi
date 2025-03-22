@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitAssignComponentUri function (acxcircuit.h)
+
 ## -description
 
 The AcxFactoryCircuitInitAssignComponentUri function assigns an URI string as identifier for the ACXFACTORYCIRCUIT.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_KEYWORDSPOTTER_CONFIG_INIT_ID function (acxelements.h)
+
 ## -description
 
 At this time, the **ACX_KEYWORDSPOTTER_CONFIG_INIT_ID** function can only take AcxElementIdDefault as input for the element ID, which is the same as using ACX_KEYWORDSPOTTER_CONFIG_INIT. Because of this, [ACX_KEYWORDSPOTTER_CONFIG_INIT](nf-acxelements-acx_keywordspotter_config_init.md) is recommended.

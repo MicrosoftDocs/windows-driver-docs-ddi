@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddI1 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddI1 function adds an int one byte (CHAR) I1 value to an existing, initialized AcxObjectBag.

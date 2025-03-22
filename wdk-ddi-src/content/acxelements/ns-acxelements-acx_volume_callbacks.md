@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_VOLUME_CALLBACKS structure (acxelements.h)
+
 ## -description
 
 The **ACX_VOLUME_CALLBACKS** structure identifies the driver callbacks for ACX volume operations.

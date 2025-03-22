@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitAssignCategories function (acxcircuit.h)
+
 ## -description
 
 The AcxFactoryCircuitInitAssignCategories function assigns a set of driver category (GUID) entries for the ACXFACTORYCIRCUIT.

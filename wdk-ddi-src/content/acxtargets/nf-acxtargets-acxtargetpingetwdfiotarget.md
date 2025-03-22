@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetPinGetWdfIoTarget function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetPinGetWdfIoTarget** given an existing ACXTARGETPIN object, returns its corresponding WDFIOTARGET object. For more information about WDF IO targets see [Initializing a General I/O Target](/windows-hardware/drivers/wdf/initializing-a-general-i-o-target).

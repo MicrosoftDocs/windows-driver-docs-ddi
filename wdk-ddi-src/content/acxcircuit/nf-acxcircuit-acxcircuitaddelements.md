@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitAddElements function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitAddElements** function adds elements to an ACXCIRCUIT.

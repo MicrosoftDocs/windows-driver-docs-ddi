@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinAssignModeDataFormatList function (acxpin.h)
+
 ## -description
 
 The **AcxPinAssignModeDataFormatList** function assigns a mode data format list to the specified pin.

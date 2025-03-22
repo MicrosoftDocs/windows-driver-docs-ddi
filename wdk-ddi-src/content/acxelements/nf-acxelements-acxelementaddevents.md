@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxElementAddEvents function (acxelements.h)
+
 ## -description
 
 The **AcxElementAddEvents** function provides the ability to add ACXEVENT event objects to an existing ACXELEMENT object.

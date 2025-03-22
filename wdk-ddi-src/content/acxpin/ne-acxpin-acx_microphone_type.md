@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICROPHONE_TYPE enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_MICROPHONE_TYPE** enumeration is used to identify the pickup pattern of a microphone.

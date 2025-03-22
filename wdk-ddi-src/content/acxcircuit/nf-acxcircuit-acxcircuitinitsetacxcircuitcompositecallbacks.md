@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitInitSetAcxCircuitCompositeCallbacks function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitInitSetAcxCircuitCompositeCallbacks** function sets the driver's composite callbacks for the ACXCIRCUIT.

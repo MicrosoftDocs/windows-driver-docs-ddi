@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MICARRAYGEOMETRY_CONFIG_INIT function (acxpin.h)
+
 ## -description
 
 The **ACX_MICARRAYGEOMETRY_CONFIG_INIT** function initializes an [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md) structure for use.

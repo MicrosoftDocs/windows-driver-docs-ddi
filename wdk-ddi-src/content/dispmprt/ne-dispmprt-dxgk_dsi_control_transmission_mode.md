@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DSI_CONTROL_TRANSMISSION_MODE enumeration
+# DXGK_DSI_CONTROL_TRANSMISSION_MODE enumeration (dispmprt.h)
+
+
 
 
 ## -description

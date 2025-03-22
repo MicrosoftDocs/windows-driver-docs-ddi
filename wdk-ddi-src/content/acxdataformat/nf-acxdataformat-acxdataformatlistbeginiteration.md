@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListBeginIteration function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListBeginIteration** function initializes an [ACX_DATAFORMAT_LIST_ITERATOR](ns-acxdataformat-acx_dataformat_list_iterator.md) to use for iterating through the specified data format list.

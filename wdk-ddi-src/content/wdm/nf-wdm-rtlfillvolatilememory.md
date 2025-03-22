@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlFillVolatileMemory
 ---
 
+# RtlFillVolatileMemory function (wdm.h)
+
 ## -description
 
 The **RtlFillVolatileMemory** function provides [**RtlFillMemory**](nf-wdm-rtlfillmemory.md) behavior (for example, setting the contents of a buffer) in situations where the developer needs to be sure that the setting operation occurs (for example, isn't subject to compiler optimizations).

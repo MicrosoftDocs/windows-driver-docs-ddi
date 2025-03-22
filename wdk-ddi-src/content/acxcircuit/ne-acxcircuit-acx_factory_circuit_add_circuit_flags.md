@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS enumeration (acxcircuit.h)
+
 ## -description
 
 The **ACX_FACTORY_CIRCUIT_ADD_CIRCUIT_FLAGS** enumeration defines factory circuit add flags.

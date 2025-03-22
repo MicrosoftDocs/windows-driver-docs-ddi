@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_DPI2CIOTRANSMISSION callback function
+# DXGKDDI_DPI2CIOTRANSMISSION function (dispmprt.h)
+
+ function
 
 
 ## -description

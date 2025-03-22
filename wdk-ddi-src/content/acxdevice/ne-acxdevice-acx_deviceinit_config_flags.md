@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DEVICEINIT_CONFIG_FLAGS enumeration (acxdevice.h)
+
 ## -description
 
 The **ACX_DEVICEINIT_CONFIG_FLAGS** enum defines values used to initialize the audio class extension.

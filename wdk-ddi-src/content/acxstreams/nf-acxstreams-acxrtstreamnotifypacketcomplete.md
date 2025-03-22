@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxRtStreamNotifyPacketComplete function (acxstreams.h)
+
 ## -description
 
 The driver calls **AcxRtStreamNotifyPacketComplete** when a packet has completed. The packet completion time and the 0-based Packet index are included to improve client performance. The ACX framework will set any notification events associated with the stream.

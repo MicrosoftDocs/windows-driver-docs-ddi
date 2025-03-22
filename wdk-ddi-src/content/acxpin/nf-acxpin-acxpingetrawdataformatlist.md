@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinGetRawDataFormatList function (acxpin.h)
+
 ## -description
 
 The **AcxPinGetRawDataFormatList** function returns the raw mode data format list for the specified pin.

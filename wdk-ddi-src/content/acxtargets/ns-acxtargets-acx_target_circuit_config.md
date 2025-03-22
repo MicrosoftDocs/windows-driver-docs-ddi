@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_TARGET_CIRCUIT_CONFIG structure (acxtargets.h)
+
 ## -description
 
 The **ACX_TARGET_CIRCUIT_CONFIG** structure is used to define the target circuit configuration.

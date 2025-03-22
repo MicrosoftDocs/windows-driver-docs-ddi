@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IddCxSwapChainReleaseAndAcquireBuffer2
 ---
 
+# IddCxSwapChainReleaseAndAcquireBuffer2 function (iddcx.h)
+
 ## -description
 
 An indirect display driver calls **IddCxSwapChainReleaseAndAcquireBuffer2** to release the current buffer in the swap chain and acquire a new one. A driver that supports HDR adapters must use **IddCxSwapChainReleaseAndAcquireBuffer2** instead of [**IddCxSwapChainReleaseAndAcquireBuffer**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer.md) and [**IddCxSwapChainReleaseAndAcquireSystemBuffer**](nf-iddcx-iddcxswapchainreleaseandacquiresystembuffer.md).

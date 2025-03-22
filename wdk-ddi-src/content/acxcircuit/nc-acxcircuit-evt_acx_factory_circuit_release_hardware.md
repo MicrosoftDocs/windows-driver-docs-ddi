@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_FACTORY_CIRCUIT_RELEASE_HARDWARE** callback is used by the driver to add functionality when an ACXFACTORYCIRCUIT is in the release hardware phase.

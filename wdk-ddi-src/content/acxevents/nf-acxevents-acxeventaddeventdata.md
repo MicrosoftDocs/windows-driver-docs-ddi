@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxEventAddEventData function (acxevents.h)
+
 ## -description
 
 The **AcxEventAddEventData** function adds event data to an ACXEVENT object.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcxDataFormatListRemoveDataFormats
 ---
 
+# AcxDataFormatListRemoveDataFormats function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListRemoveDataFormats** function removes all data formats from the specified ACX data format list.

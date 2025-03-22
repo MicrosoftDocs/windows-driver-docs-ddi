@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_STREAMAUDIOENGINE_CONFIG_FLAGS enumeration (acxelements.h)
+
 ## -description
 
 The **ACX_STREAMAUDIOENGINE_CONFIG_FLAGS** enumeration defines the config flags for the ACX stream audio engine.

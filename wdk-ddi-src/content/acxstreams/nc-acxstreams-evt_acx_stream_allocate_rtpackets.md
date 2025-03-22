@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_ALLOCATE_RTPACKETS function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamAllocateRtPackets** event tells the driver to allocate RtPackets for streaming.

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_SINK_INFO_CONNECTION_TYPE enumeration (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_SINK_INFO_CONNECTION_TYPE** enumeration is used by the [ACX_JACK_SINK_INFORMATION](ns-acxpin-acx_jack_sink_information.md) structure to specify the type of a connection.

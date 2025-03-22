@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddString function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddString function adds a WDFSTRING object to an existing, initialized AcxObjectBag. For more information about WDFSTRING, see [wdfstring.h header](/windows-hardware/drivers/ddi/wdfstring/).

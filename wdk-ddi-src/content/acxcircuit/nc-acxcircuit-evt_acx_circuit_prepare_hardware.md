@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_CIRCUIT_PREPARE_HARDWARE function (acxcircuit.h)
+
 ## -description
 
 The **EVT_ACX_CIRCUIT_PREPARE_HARDWARE** callback is used by the driver to add functionality when an ACXCIRCUIT is in the prepare hardware phase.

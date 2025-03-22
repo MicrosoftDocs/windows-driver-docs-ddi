@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetCircuitCreate function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetCircuitCreate** function is used to create an ACX target circuit.

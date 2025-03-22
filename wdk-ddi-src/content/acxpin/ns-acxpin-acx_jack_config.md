@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_JACK_CONFIG structure (acxpin.h)
+
 ## -description
 
 The **ACX_JACK_CONFIG** structure is used to configure an audio jack.

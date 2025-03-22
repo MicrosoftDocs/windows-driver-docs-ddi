@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_DRIVER_CONFIG_INIT function (acxdriver.h)
+
 ## -description
 
 The **ACX_DRIVER_CONFIG_INIT** function initializes an [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md) structure before calling the [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md) function.

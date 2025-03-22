@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamGetCircuit function (acxstreams.h)
+
 ## -description
 
 The **AcxStreamGetCircuit** function returns the ACXCIRCUIT Object associated with the stream. For more information about ACX Objects, see [ACX - Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

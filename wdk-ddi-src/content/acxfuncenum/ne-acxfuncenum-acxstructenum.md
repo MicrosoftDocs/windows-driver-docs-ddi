@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _ACXSTRUCTENUM
 ---
 
+# ACXSTRUCTENUM enumeration (acxfuncenum.h)
+
 ## -description
 
 The **ACXSTRUCTENUM** enum provides indexes into the table of ACX structures.

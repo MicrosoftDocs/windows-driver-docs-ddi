@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlFillDeviceMemory
 ---
 
+# RtlFillDeviceMemory function (wdm.h)
+
 ## -description
 
 The **RtlFillDeviceMemory** function provides [**RtlFillVolatileMemory**](nf-wdm-rtlfillvolatilememory.md) behavior (for example, setting the contents of a buffer without interference from compiler optimizations) in situations where the developer needs to additionally be sure that alignment faults won't be generated when accessing device memory.

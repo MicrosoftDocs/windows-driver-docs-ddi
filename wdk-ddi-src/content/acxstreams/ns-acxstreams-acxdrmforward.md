@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACXDRMFORWARD structure (acxstreams.h)
+
 ## -description
 
 The **ACXDRMFORWARD** structure contains the information that the DRM system driver needs in order to forward a DRM content ID to a device that handles protected content.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_QUERY_FILE_REGIONS
 ---
 
+# FSCTL_QUERY_FILE_REGIONS ioctl (ntifs.h)
+
 ## -description
 
 **FSCTL_QUERY_FILE_REGIONS** queries a list of file regions, based on a specified usage parameter, for the file associated with the handle on which this FSCTL was invoked. This message contains an optional [**FILE_REGION_INPUT**](ns-ntifs-file_region_input.md) data element. If no **FILE_REGION_INPUT** parameter is specified, information for the entire size of the file is returned.

@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_DSITRANSMISSION callback function
+# DXGKDDI_DSITRANSMISSION function (dispmprt.h)
+
+ function
 
 
 ## -description

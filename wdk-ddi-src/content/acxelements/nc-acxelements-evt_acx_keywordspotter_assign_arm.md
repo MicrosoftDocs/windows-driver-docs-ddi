@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM function (acxelements.h)
+
 ## -description
 
 The **EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM** callback sets the arm state of the keyword spotter.

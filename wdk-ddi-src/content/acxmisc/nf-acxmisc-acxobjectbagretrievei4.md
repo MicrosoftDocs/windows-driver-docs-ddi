@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagRetrieveI4 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagRetrieveI4 function retrieves an int four byte I4 (LONG) value from an existing, initialized AcxObjectBag that contains values.

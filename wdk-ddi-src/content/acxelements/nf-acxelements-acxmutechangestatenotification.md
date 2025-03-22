@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxMuteChangeStateNotification function (acxelements.h)
+
 ## -description
 
 The **AcxMuteChangeStateNotification** function sends a notification of a mute state change on an ACXMUTE object so that acx can generate a corresponding event.

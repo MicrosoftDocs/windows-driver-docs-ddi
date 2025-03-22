@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_AUDIOMODULE_DESCRIPTOR structure (acxelements.h)
+
 ## -description
 
 The **ACX_AUDIOMODULE_DESCRIPTOR** is used to define an audio module descriptor structure.

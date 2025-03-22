@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitCreate function (acxcircuit.h)
+
 ## -description
 
 The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.

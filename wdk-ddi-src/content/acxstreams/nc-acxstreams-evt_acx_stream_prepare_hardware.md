@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_ACX_STREAM_PREPARE_HARDWARE function (acxstreams.h)
+
 ## -description
 
 The **EvtAcxStreamPrepareHardware** event tells the driver to prepare the hardware for streaming.

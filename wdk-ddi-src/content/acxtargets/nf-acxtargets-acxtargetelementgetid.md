@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetElementGetId function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetElementGetId** function given an existing ACXTARGETELEMENT object, returns its corresponding ID value.

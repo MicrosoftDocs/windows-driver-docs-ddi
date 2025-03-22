@@ -38,7 +38,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_SAMPLED_GAMMA structure
+# DXGK_DIAG_DISPLAY_SAMPLED_GAMMA structure (dispmprt.h)
+
+
 
 
 ## -description

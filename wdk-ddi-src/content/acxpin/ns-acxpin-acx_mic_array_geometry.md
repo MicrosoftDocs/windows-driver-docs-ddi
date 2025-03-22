@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MIC_ARRAY_GEOMETRY structure (acxpin.h)
+
 ## -description
 
 The **ACX_MIC_ARRAY_GEOMETRY** structure specifies the type and the geometry of the microphone array.

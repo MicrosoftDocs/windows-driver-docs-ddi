@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxObjectBagAddUI1 function (acxmisc.h)
+
 ## -description
 
 The AcxObjectBagAddUI1 function adds an unsigned int one byte (UCHAR) I1 value to an existing, initialized AcxObjectBag.

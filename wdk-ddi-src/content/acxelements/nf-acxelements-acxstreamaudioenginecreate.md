@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxStreamAudioEngineCreate function (acxelements.h)
+
 ## -description
 
 The **AcxStreamAudioEngineCreate** function is used to create an ACX stream audio engine object that will be associated with an ACX stream object parent. For more information about ACX objects, see [Summary of ACX Objects](/windows-hardware/drivers/audio/acx-summary-of-objects).

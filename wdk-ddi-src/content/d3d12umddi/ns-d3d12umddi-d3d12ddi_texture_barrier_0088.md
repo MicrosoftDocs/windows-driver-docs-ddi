@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_TEXTURE_BARRIER_0088
 ---
 
+# D3D12DDI_TEXTURE_BARRIER_0088 structure (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_TEXTURE_BARRIER_0088** structure describes access transitions for textures.

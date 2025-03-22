@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_REARRANGE_FILE
 ---
 
+# FSCTL_REARRANGE_FILE ioctl (ntifs.h)
+
 ## -description
 
 **FSCTL_REARRANGE_FILE** rearranges allocation within the file, moving clusters from a requested contiguous source range within a file to another location within the same file.

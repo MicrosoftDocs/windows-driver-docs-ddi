@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxTargetFactoryCircuitFormatRequestForProperty function (acxtargets.h)
+
 ## -description
 
 The **AcxTargetFactoryCircuitFormatRequestForProperty** formats a WDFREQUEST as an ACX property request to be used on specified circuit factory target.

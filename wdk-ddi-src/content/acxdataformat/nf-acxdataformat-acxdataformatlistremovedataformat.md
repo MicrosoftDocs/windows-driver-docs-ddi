@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatListRemoveDataFormat function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatListRemoveDataFormat** function removes the specified ACX data format from an ACX data format list.

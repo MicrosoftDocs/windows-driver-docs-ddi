@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC_0082_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_SEQUENCE_CONTROL_DESC_0082_0** structure contains the sequence-level parameters for the input of a video encoding operation.

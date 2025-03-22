@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxFactoryCircuitInitSetComponentId function (acxcircuit.h)
+
 ## -description
 
 The **AcxFactoryCircuitInitSetComponentId** function sets the component ID for the ACXFACTORYCIRCUIT.

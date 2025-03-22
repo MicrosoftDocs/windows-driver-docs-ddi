@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxDataFormatGetWaveFormatExtensible function (acxdataformat.h)
+
 ## -description
 
 The **AcxDataFormatGetWaveFormatExtensible** function gets the [WAVEFORMATEXTENSIBLE](../ksmedia/ns-ksmedia-waveformatextensible.md) structure associated with the specified data format.

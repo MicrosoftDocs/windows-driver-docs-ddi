@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_RTPACKET structure (acxstreams.h)
+
 ## -description
 
 The **ACX_RTPACKET** structure represents a single allocated packet. The PacketBuffer must be a Memory Descriptor List (MDL).  

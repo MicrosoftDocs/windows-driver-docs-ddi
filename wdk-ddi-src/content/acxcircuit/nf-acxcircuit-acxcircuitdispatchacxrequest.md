@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxCircuitDispatchAcxRequest function (acxcircuit.h)
+
 ## -description
 
 The **AcxCircuitDispatchAcxRequest** dispatches an ACX WDFREQUEST object to the ACX framework which will manage the request. For more information about working with WDF request objects, see [Creating Framework Request Objects](/windows-hardware/drivers/wdf/creating-framework-request-objects) and [wdfrequest.h header](/windows-hardware/drivers/ddi/wdfrequest/).

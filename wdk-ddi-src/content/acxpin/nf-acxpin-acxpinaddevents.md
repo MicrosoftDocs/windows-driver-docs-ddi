@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# AcxPinAddEvents function (acxpin.h)
+
 ## -description
 
 The **AcxPinAddEvents** function adds an array of events to the specified pin.

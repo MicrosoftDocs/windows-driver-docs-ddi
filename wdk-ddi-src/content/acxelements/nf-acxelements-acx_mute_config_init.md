@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ACX_MUTE_CONFIG_INIT function (acxelements.h)
+
 ## -description
 
 The **ACX_MUTE_CONFIG_INIT** function initializes an [ACX_MUTE_CONFIG](ns-acxelements-acx_mute_config.md) structure.

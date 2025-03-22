@@ -39,7 +39,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKDDI_QUERYDPCAPS callback function
+# DXGKDDI_QUERYDPCAPS function (dispmprt.h)
+
+ function
 
 
 ## -description

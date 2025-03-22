@@ -34,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC enumeration
+# DXGK_DIAG_DISPLAY_SCANOUT_BUFFER_CRC enumeration (dispmprt.h)
+
+
 
 ## -description
 
