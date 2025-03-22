@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSDS3D_HRTF_COEFF_FORMAT
 ---
 
+# KSDS3D_HRTF_COEFF_FORMAT enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSDS3D_HRTF_FILTER_VERSION** enumeration (ksmedia.h).

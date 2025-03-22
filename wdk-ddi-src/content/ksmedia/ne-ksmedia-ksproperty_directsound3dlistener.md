@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_DIRECTSOUND3DLISTENER
 ---
 
+# KSPROPERTY_DIRECTSOUND3DLISTENER enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_DIRECTSOUND3DLISTENER** enumeration (ksmedia.h).

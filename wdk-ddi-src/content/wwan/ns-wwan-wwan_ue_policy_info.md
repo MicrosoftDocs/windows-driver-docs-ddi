@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_UE_POLICY_INFO
 ---
 
+# WWAN_UE_POLICY_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_UE_POLICY_INFO** structure represents the UE policy information of the MB device.

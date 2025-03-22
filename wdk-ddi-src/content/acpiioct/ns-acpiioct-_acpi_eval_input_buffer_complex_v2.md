@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2
 ---
 
+# ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2 structure (acpiioct.h)
+
 ## -description
 
 This topic describes the **ACPI_EVAL_INPUT_BUFFER_COMPLEX_V2** structure.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_CAN_SUSTAIN_AP_REASON enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

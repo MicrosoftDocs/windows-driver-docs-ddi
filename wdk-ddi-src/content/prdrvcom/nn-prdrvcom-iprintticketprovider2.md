@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IPrintTicketProvider2
 ---
 
+# IPrintTicketProvider2 interface (prdrvcom.h)
+
 ## -description
 
 Describes the **IPrintTicketProvider2** interface.

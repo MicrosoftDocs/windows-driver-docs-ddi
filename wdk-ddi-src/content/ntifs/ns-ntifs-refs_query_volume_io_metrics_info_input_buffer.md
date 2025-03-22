@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _REFS_QUERY_VOLUME_IO_METRICS_INFO_INPUT_BUFFER
 ---
 
+# REFS_QUERY_VOLUME_IO_METRICS_INFO_INPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

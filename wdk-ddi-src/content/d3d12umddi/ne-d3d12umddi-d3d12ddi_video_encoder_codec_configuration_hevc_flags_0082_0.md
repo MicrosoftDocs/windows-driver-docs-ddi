@@ -32,6 +32,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_FLAGS_0082_0** enumeration lists the possible set of enabled features for an HEVC (H.265) codec.

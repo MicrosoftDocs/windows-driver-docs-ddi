@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_DISPLAYCONFIG_MONITOR_COLORMODE
 ---
 
+# IDDCX_DISPLAYCONFIG_MONITOR_COLORMODE enumeration (iddcx.h)
+
 ## -description
 
 A **IDDCX_DISPLAYCONFIG_MONITOR_COLORMODE** enumeration value specifies the color mode to be set on a monitor.

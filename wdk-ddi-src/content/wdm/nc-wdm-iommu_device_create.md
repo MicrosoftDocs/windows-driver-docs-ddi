@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DEVICE_CREATE function (wdm.h)
+
 ## -description
 
 Takes a physical device object and creates an opaque token representing the **IOMMU_DMA_DEVICE** that can be used with the IOMMU interface APIs.

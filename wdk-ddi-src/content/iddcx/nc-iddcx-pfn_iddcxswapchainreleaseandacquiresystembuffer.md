@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXSWAPCHAINRELEASEANDACQUIRESYSTEMBUFFER** is a pointer to an OS callback function through which to release and acquire buffers from a swapchain.

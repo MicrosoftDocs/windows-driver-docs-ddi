@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_OPTIONS_DATA_0110
 ---
 
+# D3D12DDI_OPTIONS_DATA_0110 structure (d3d12umddi.h)
+
 ## -description
 
 ## -struct-fields

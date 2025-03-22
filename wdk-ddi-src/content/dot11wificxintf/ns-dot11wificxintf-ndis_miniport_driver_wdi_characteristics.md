@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

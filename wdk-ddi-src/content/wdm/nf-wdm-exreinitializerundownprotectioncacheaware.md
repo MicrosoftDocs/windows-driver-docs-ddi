@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReInitializeRundownProtectionCacheAware
 ---
 
+# ExReInitializeRundownProtectionCacheAware function (wdm.h)
+
 ## -description
 
 The **ExReInitializeRundownProtectionCacheAware** routine reinitializes an **EX_RUNDOWN_REF_CACHE_AWARE** structure after the associated object is run down.

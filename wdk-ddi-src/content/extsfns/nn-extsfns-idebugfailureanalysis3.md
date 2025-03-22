@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugFailureAnalysis3
 ---
 
+# IDebugFailureAnalysis3 interface (extsfns.h)
+
 ## -description
 
 ## -remarks

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostFunctionLocalDetails
 ---
 
+# IDebugHostFunctionLocalDetails interface (dbgmodel.h)
+
 ## -description
 
 A host optional interface which provides details about a function local variable. 

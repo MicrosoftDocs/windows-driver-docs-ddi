@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_LOD_REGION_0073 structure (d3d12umddi.h)
+
 ## -description
 
 Deprecated. Use D3D12DDI_MIP_REGION_0075 instead.

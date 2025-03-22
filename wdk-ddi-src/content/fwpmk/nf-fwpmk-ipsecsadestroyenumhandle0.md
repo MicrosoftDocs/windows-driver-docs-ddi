@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaDestroyEnumHandle0
 ---
 
+# IPsecSaDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaDestroyEnumHandle0** function frees a handle returned by **[IPsecSaCreateEnumHandle0](nf-fwpmk-ipsecsacreateenumhandle0.md)**.

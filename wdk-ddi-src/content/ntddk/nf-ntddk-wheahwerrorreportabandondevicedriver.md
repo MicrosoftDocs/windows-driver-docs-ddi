@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaHwErrorReportAbandonDeviceDriver function (ntddk.h)
+
 ## -description
 
 This routine abandons the in progress error report and releases its resources.

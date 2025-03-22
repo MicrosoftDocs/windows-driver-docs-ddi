@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmIPsecTunnelDeleteByKey0
 ---
 
+# FwpmIPsecTunnelDeleteByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmIPsecTunnelDeleteByKey0** function removes an Internet Protocol Security (IPsec) tunnel mode policy from the system.

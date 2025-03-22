@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextDeleteById0
 ---
 
+# IPsecSaContextDeleteById0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextDeleteById0** function deletes an IPsec security association (SA) context.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PCOMPLETE_LOCK_IRP_ROUTINE
 ---
 
+# PCOMPLETE_LOCK_IRP_ROUTINE function (ntifs.h)
+
 ## -description
 
 A file system filter driver (legacy filter) can register a **PCOMPLETE_LOCK_IRP_ROUTINE**-typed routine as the filter's *CompleteLockIrpRoutine* callback.

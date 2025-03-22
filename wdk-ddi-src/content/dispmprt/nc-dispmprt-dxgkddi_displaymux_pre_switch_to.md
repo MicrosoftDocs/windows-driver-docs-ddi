@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_PRE_SWITCH_TO
 ---
 
+# DXGKDDI_DISPLAYMUX_PRE_SWITCH_TO function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxPreSwitchTo** function to notify the driver currently not connected to the display that the display is about to be switched to its GPU.

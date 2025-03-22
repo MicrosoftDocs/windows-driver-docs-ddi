@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# FS_BPIO_OPERATIONS enumeration (ntifs.h)
+
 ## -description
 
 **FS_BPIO_OPERATIONS** defines the various BypassIO operations supported by the [**FSCTL_MANAGE_BYPASS_IO**](ni-ntifs-fsctl_manage_bypass_io.md) control code.

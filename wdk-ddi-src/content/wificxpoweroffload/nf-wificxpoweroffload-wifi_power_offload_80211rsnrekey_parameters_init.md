@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS_INIT function (wificxpoweroffload.h)
+
 ## -description
 
 The **WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS_INIT** function initializes a [**WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS**](ns-wificxpoweroffload-wifi_power_offload_80211rsnrekey_parameters.md) structure.

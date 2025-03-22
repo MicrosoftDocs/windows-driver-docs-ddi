@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_TX_SUSPECT_FRAME_LIST_ABORT function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_BARRIER_TYPE
 ---
 
+# D3D12DDI_BARRIER_TYPE enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_BARRIER_TYPE** enumeration value indicates the type of resource barrier.

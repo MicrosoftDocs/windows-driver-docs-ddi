@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# FsRtlFreeAePushLock function (ntifs.h)
+
 ## -description
 
 **FsRtlFreeAePushLock** deallocates an auto-expand push lock.

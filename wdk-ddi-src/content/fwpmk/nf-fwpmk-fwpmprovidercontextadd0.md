@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderContextAdd0
 ---
 
+# FwpmProviderContextAdd0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderContextAdd0** function adds a new provider context to the system.

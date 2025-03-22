@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteUInt32Raw
 ---
 
+# WriteUInt32Raw function (wdm.h)
+
 ## -description
 
 ## -parameters

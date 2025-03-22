@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STORPORT_ETW_EVENT_CHANNEL enumeration (storport.h)
+
 ## -description
 
 The **STORPORT_ETW_EVENT_CHANNEL** enumeration identifies the event channels of Storport to which miniport can log an event.

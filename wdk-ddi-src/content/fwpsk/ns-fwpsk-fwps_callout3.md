@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FWPS_CALLOUT3_
 ---
 
+# FWPS_CALLOUT3_ structure (fwpsk.h)
+
 ## -description
 
 The **FWPS_CALLOUT3** structure defines the data that is required for a callout driver to register a callout with the filter engine.

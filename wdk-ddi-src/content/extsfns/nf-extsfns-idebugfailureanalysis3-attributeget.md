@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AttributeGet
 ---
 
+# IDebugFailureAnalysis3::AttributeGet function (extsfns.h)
+
 ## -description
 
 ## -parameters

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SD_RW_DIRECT_ARGUMENT
 ---
 
+# SD_RW_DIRECT_ARGUMENT structure (sddef.h)
+
 ## -description
 
 The SD_RW_DIRECT_ARGUMENT structure is used in conjunction with the [**SdBusSubmitRequest**](../ntddsd/nf-ntddsd-sdbussubmitrequest.md) routine or the [**SdBusSubmitRequestAsync**](../ntddsd/nf-ntddsd-sdbussubmitrequestasync.md) routine to send a Secure Digital (SD) read or write request to the bus driver.

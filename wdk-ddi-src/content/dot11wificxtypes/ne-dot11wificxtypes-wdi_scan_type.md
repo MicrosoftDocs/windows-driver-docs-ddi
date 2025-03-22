@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_SCAN_TYPE enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

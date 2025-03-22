@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetOffset
 ---
 
+# IDebugHostBaseClass2::GetOffset function (dbgmodel.h)
+
 ## -description
 
 The GetOffset method returns the offset of the base class from the base address of the derived class. Such offset may be zero or may be a positive unsigned 64-bit value.

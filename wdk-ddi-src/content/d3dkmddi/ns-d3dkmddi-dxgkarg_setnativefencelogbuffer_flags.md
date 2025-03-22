@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_SETNATIVEFENCELOGBUFFER_FLAGS
 ---
 
+# DXGKARG_SETNATIVEFENCELOGBUFFER_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_SETNATIVEFENCELOGBUFFER_FLAGS** specifies flags to use when writing a native fence log buffer entry.

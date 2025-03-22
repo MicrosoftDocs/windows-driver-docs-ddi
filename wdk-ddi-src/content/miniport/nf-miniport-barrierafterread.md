@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BarrierAfterRead
 ---
 
+# BarrierAfterRead function (miniport.h)
+
 ## -description
 
 Describes the *BarrierAfterRead* function.

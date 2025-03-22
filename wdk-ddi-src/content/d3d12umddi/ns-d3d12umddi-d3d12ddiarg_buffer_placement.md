@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDIARG_BUFFER_PLACEMENT
 ---
 
+# D3D12DDIARG_BUFFER_PLACEMENT structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_BUFFER_PLACEMENT** structure specifies the GPU-side virtual address that a resource should have.

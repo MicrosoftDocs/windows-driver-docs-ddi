@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# MmGetMdlByteOffset function (wdm.h)
+
 ## -description
 
 The **MmGetMdlByteOffset** macro returns the byte offset within the initial page of the buffer described by the given MDL.

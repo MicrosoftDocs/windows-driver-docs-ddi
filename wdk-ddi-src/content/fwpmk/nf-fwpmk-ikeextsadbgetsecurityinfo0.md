@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaDbGetSecurityInfo0
 ---
 
+# IkeextSaDbGetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaDbGetSecurityInfo0** function retrieves a copy of the security descriptor for a security association (SA) database.

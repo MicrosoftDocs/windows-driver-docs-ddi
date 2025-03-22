@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS structure (wificxpoweroffload.h)
+
 ## -description
 
 The **WIFI_POWER_OFFLOAD_80211RSNREKEY_PARAMETERS** structure contains parameters for an 802.11 RSN rekey low power protocol offload to a WiFiCx net adapter.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_CREATE_VIDEO_DECODER_HEAP_0072 structure (d3d12umddi.h)
+
 ## -description
 
 Structure used to create a video decoder heap for a decode session.

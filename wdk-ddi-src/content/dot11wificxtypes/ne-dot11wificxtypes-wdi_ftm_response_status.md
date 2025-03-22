@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_FTM_RESPONSE_STATUS enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

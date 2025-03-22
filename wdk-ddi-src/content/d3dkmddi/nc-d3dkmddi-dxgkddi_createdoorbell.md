@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CREATEDOORBELL
 ---
 
+# DXGKDDI_CREATEDOORBELL function (d3dkmddi.h)
+
 ## -description
 
 The OS calls KMD's **DxgkDdiCreateDoorbell** callback function to create a doorbell for a hardware queue.

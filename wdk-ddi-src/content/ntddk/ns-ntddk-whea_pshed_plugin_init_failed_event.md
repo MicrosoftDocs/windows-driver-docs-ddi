@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_PSHED_PLUGIN_INIT_FAILED_EVENT
 ---
 
+# WHEA_PSHED_PLUGIN_INIT_FAILED_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_PSHED_PLUGIN_INIT_FAILED_EVENT** structure.

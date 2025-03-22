@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_STOPDIRTYTRACKING
 ---
 
+# DXGKDDI_STOPDIRTYTRACKING function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiStopDirtyTracking** function disables dirty bit tracking within the specified segment and given address range.

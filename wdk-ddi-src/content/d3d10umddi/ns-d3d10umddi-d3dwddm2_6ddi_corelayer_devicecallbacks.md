@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS
 ---
 
+# D3DWDDM2_6DDI_CORELAYER_DEVICECALLBACKS structure (d3d10umddi.h)
+
 ## -description
 
 This structure contains the function table for the core layer device callback functions starting in WDDM 2.6.

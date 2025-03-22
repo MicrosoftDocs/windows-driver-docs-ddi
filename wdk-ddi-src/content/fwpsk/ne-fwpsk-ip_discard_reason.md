@@ -38,6 +38,8 @@ helpviewer_keywords:
  - IP_DISCARD_REASON
 ---
 
+# IP_DISCARD_REASON enumeration (fwpsk.h)
+
 ## -description
 
 The **IP_DISCARD_REASON** enum defines the possible reasons that data is discarded by one of the network layers.

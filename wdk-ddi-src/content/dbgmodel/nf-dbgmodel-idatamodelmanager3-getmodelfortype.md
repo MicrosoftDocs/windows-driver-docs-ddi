@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetModelForType
 ---
 
+# IDataModelManager3::GetModelForType function (dbgmodel.h)
+
 ## -description
 
 The GetModelForType method returns the data model which is the canonical visualizer for a given type instance. In effect, this method finds the best matching type signature which was registered with a prior call to the RegisterModelForTypeSignature method and returns the associated data model.

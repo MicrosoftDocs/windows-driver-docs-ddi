@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_ABSOLUTE_QP_MAP_0096
 ---
 
+# D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_ABSOLUTE_QP_MAP_0096 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_ABSOLUTE_QP_MAP_0096** structure specifies the rate control parameters when an absolute QP map is used.

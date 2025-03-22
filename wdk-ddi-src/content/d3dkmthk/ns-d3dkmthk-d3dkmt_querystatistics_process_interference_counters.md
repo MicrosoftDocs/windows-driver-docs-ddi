@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_QUERYSTATISTICS_PROCESS_INTERFERENCE_COUNTERS structure (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

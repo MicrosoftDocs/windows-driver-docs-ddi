@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortUpdatePortConfigMaxIOInfo
 ---
 
+# StorPortUpdatePortConfigMaxIOInfo function (storport.h)
+
 ## -description
 
 A miniport calls **StorPortUpdatePortConfigMaxIOInfo** to update the maximum IOs and maximum IOs per LUN supported by an adapter.

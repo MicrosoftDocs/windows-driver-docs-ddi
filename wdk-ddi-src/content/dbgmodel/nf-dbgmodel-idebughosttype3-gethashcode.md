@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetHashCode
 ---
 
+# IDebugHostType3::GetHashCode function (dbgmodel.h)
+
 ## -description
 
 The GetHashCode method returns a 32-bit hash code for the type. With the exception of a global match (e.g.: a type signature equivalent to * which matches everything if permitted by the host), any type instance which can match a particular type signature must return the same hash code. 

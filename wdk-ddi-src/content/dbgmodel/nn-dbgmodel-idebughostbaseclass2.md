@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostBaseClass2
 ---
 
+# IDebugHostBaseClass2 interface (dbgmodel.h)
+
 ## -description
 
 The second version of an extended specialization of IDebugHostSymbol which represents a base class.

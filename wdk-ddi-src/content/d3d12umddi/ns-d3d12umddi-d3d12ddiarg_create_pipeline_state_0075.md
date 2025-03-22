@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_CREATE_PIPELINE_STATE_0075 structure (d3d12umddi.h)
+
 ## -description
 
 Creates a pipeline state.

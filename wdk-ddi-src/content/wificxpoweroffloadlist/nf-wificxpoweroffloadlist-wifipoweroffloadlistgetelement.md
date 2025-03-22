@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiPowerOffloadListGetElement function (wificxpoweroffloadlist.h)
+
 ## -description
 
 The **WifiPowerOffloadListGetElement** function gets a low power protocol offload from a list of offloads to a WiFiCx net adapter.

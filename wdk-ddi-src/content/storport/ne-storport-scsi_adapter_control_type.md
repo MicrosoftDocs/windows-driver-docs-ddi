@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# SCSI_ADAPTER_CONTROL_TYPE enumeration (storport.h)
+
 ## -description
 
 The **SCSI_ADAPTER_CONTROL_TYPE** enumeration contains adapter control operations, where each control type initiates an action on an adapter by the miniport driver. Storport specifies the control type when it calls a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine.

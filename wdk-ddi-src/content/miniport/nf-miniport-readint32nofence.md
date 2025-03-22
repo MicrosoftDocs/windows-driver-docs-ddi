@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadInt32NoFence
 ---
 
+# ReadInt32NoFence function (miniport.h)
+
 ## -description
 
 This topic describes the **ReadInt32NoFence** function.

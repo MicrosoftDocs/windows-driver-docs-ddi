@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SeAccessCheckFromStateEx
 ---
 
+# SeAccessCheckFromStateEx function (ntifs.h)
+
 ## -description
 
 **SeAccessCheckFromStateEx** checks whether the requested access rights can be granted to an object that is protected by a security descriptor and an optional object owner.

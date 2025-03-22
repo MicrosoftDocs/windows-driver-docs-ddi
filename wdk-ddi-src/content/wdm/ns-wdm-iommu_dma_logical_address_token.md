@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_LOGICAL_ADDRESS_TOKEN structure (wdm.h)
+
 ## -description
 
 The **IOMMU_DMA_LOGICAL_ADDRESS_TOKEN** represents a reserved contiguous logical address range created by [IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE](./nc-wdm-iommu_reserve_logical_address_range.md). Logical address tokens guarantee that the logical address represented has all of its associated page tables allocated ahead of time, ensuring that future mappings to this region will not fail due to low memory conditions.

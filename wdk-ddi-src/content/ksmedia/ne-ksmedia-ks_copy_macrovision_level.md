@@ -38,6 +38,8 @@ helpviewer_keywords:
  - KS_COPY_MACROVISION_LEVEL
 ---
 
+# KS_COPY_MACROVISION_LEVEL enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KS_COPY_MACROVISION_LEVEL** enumeration (ksmedia.h).

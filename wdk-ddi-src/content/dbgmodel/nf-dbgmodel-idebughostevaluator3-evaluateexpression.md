@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EvaluateExpression
 ---
 
+# IDebugHostEvaluator3::EvaluateExpression function (dbgmodel.h)
+
 ## -description
 
 The EvaluateExpression method allows requests the debug host to evaluate a language (e.g.: C++) expression and return the resulting value of that expression evaluation boxed as an [IModelObject](nn-dbgmodel-imodelobject.md). This particular variant of the method only allows language constructs. Any additional functionality which is presented within the expression evaluator of the debug host that is not present in the language (e.g.: LINQ query methods) is turned off for the evaluation. 

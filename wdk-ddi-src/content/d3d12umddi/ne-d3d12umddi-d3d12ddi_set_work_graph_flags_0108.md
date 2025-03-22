@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_SET_WORK_GRAPH_FLAGS_0108
 ---
 
+# D3D12DDI_SET_WORK_GRAPH_FLAGS_0108 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_SET_WORK_GRAPH_FLAGS_0108** enumeration specifies flags for setting the work graph.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3D12DDI_OPTIONS1_DATA_0103
 ---
 
+# D3D12DDI_OPTIONS1_DATA_0103 structure (d3d12umddi.h)
+
 ## -description
 
 A user-mode driver indicates support for capabilities in the **D3D12DDI_OPTIONS_DATA_0103** structure when its [**PFND3DDDI_GETCAPS**](../d3dumddi/nc-d3dumddi-pfnd3dddi_getcaps.md) function is called with [**D3D12DDICAPS_TYPE_OPTIONS_0103**](ne-d3d12umddi-d3d12ddicaps_type.md).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - STARTING_VCN_INPUT_BUFFER
 ---
 
+# STARTING_VCN_INPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 The **STARTING_VCN_INPUT_BUFFER** structure contains the starting virtual cluster number (VCN) for the [**FSCTL_GET_RETRIEVAL_POINTERS**](ni-ntifs-fsctl_get_retrieval_pointers.md) control code.

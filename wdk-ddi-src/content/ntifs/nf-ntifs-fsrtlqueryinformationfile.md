@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FsRtlQueryInformationFile
 ---
 
+# FsRtlQueryInformationFile function (ntifs.h)
+
 ## -description
 
 **FsRtlQueryInformationFile** builds an explicit file query information IRP (IRP_MJ_QUERY_INFORMATION), sends it down the stack, synchronously waits for it to complete, and returns the result. This function allows the caller to complete this action by **FileObject** instead of handle.

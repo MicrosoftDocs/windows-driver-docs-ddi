@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateArrayOf
 ---
 
+# IDebugHostType3::CreateArrayOf function (dbgmodel.h)
+
 ## -description
 
 For any given type, this returns a new [IDebugHostType](nn-dbgmodel-idebughosttype.md) which is an array of this type.

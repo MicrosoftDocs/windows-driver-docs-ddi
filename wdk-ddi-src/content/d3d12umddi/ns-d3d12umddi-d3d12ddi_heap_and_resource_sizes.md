@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_HEAP_AND_RESOURCE_SIZES
 ---
 
+# D3D12DDI_HEAP_AND_RESOURCE_SIZES structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_HEAP_AND_RESOURCE_SIZES** specifies the sizes of a private heap and resource.

@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_BDF
 ---
 
+# NDIS_KDNET_BDF structure (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_BDF** structure describes the PCI location of the port to query.

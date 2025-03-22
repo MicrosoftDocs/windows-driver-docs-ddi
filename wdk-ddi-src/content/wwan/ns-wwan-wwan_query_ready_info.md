@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_QUERY_READY_INFO
 ---
 
+# WWAN_QUERY_READY_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_QUERY_READY_INFO** structure represents the SIM slot ID that is associated with an [OID_WWAN_READY_INFO](/windows-hardware/drivers/network/oid-wwan-ready-info) query request.

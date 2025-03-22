@@ -41,6 +41,8 @@ helpviewer_keywords:
  - SET_POWER_SETTING_VALUE
 ---
 
+# SET_POWER_SETTING_VALUE structure (wdm.h)
+
 ## -description
 
 This topic describes the **SET_POWER_SETTING_VALUE** structure.

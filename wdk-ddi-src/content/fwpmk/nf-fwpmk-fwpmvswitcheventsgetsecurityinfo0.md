@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmvSwitchEventsGetSecurityInfo0
 ---
 
+# FwpmvSwitchEventsGetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmvSwitchEventsGetSecurityInfo0** function retrieves a copy of the security descriptor for a vSwitch event.

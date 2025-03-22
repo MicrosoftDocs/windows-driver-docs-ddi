@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_SETINTERRUPTTARGETPRESENTID
 ---
 
+# DXGKARG_SETINTERRUPTTARGETPRESENTID structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_SETINTERRUPTTARGETPRESENTID** structure contains parameters for the driver's [**DXGKDDI_SETINTERRUPTTARGETPRESENTID**](nc-d3dkmddi-dxgkddi_setinterrupttargetpresentid.md) callback function.

@@ -32,6 +32,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_FLAGS_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_VIDEO_ENCODER_FLAGS_0080** contains video encoder creation flags.

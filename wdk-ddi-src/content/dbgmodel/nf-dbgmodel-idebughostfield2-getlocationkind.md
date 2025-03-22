@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetLocationKind
 ---
 
+# IDebugHostField2::GetLocationKind function (dbgmodel.h)
+
 ## -description
 
 The GetLocationKind method returns what kind of location the symbol is at according to the LocationKind enumeration. Such enumeration can be one of the following values: 

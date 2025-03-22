@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PsRevertToUserMultipleGroupAffinityThread function (wdm.h)
+
 ## -description
 
 The **PsRevertToUserMultipleGroupAffinityThread** function reverts the current thread to its previous affinity as indicated by the given affinity token.

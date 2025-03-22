@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_NATIVEFENCEINFO
 ---
 
+# D3DDDI_NATIVEFENCEINFO structure (d3dukmdt.h)
+
 ## -description
 
 **D3DDDI_NATIVEFENCEINFO** describes the attributes of a native fence synchronization object.

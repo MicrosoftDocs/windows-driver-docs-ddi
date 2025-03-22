@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_P2P_CHANNEL_INDICATE_REASON enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

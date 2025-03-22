@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _KERNEL_CET_CONTEXT
 ---
 
+# KERNEL_CET_CONTEXT structure (wdm.h)
+
 ## -description
 
 Reserved for system use only. Do not use.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HidP_SetButtonArray function (hidpi.h)
+
 ## -description
 
 The **HidP_SetButtonArray** function sets the state of buttons via an array of [HIDP_BUTTON_ARRAY_DATA](ns-hidpi-hidp_button_array_data.md) structures.

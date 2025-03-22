@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_COLLECTDBGINFO2
 ---
 
+# DXGKARG_COLLECTDBGINFO2 structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_COLLECTDBGINFO** structure describes information for a debug report when [**DxgkDdiCollectDbgInfo2**](nc-d3dkmddi-dxgkddi_collectdbginfo2.md) is called.

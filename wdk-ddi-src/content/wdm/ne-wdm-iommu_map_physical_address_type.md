@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_MAP_PHYSICAL_ADDRESS_TYPE enumeration (wdm.h)
+
 ## -description
 
 The **IOMMU_MAP_PHYSICAL_ADDRESS_TYPE** enum indicates the format of the physical address described in an [**IOMMU_MAP_PHYSICAL_ADDRESS**](ns-wdm-iommu_map_physical_address.md) structure.

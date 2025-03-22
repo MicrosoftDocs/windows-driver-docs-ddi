@@ -35,6 +35,8 @@ helpviewer_keywords:
  - ALGOIDTYPE
 ---
 
+# ALGOIDTYPE enumeration (ehstorbandmgmt.h)
+
 ## -description
 
 Specifies the crypto algorithm ID type.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextCreate0
 ---
 
+# IPsecSaContextCreate0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextCreate0** function creates an IPsec security association (SA) context.

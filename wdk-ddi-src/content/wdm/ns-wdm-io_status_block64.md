@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _IO_STATUS_BLOCK64
 ---
 
+# IO_STATUS_BLOCK64 structure (wdm.h)
+
 ## -description
 
 ## -struct-fields

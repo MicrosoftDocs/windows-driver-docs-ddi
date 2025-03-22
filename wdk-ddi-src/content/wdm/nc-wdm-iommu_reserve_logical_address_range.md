@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE function (wdm.h)
+
 ## -description
 
 Preallocates logical address space that can be used for future mappings. This grants a driver the ability to ensure forward progress for future map/unmap calls.

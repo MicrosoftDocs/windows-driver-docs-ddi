@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlRetrieveUlong function (wdm.h)
+
 ## -description
 
 The **RtlRetrieveUlong** macro retrieves a ULONG value from the source address, avoiding alignment faults. The destination address is assumed to be aligned.

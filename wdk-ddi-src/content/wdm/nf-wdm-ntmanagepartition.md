@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NtManagePartition function (wdm.h)
+
 ## -description
 
 The **NtManagePartition** function gets and sets information for a partition.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0088
 ---
 
+# PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0088 function (d3d12umddi.h)
+
 ## -description
 
 The **PFND3D12DDI_CHECKRESOURCEALLOCATIONINFO_0088** callback function supports checking resource allocation information.

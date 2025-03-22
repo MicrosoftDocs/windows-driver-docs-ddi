@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoQueryPowerLimitAttributes
 ---
 
+# PoQueryPowerLimitAttributes function (wdm.h)
+
 ## -description
 
 This function queries the attributes of a power limit request object.

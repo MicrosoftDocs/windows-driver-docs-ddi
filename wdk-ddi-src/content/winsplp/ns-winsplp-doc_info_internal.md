@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _DOC_INFO_INTERNAL
 ---
 
+# DOC_INFO_INTERNAL structure (winsplp.h)
+
 ## -description
 
 Describes the **DOC_INFO_INTERNAL** structure.

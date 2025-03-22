@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_NATIVE_FENCE_LOG_BUFFER
 ---
 
+# DXGK_NATIVE_FENCE_LOG_BUFFER structure (d3dukmdt.h)
+
 ## -description
 
 **DXGK_NATIVE_FENCE_LOG_BUFFER** is a structure that represents a native fence log buffer.

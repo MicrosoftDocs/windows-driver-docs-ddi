@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterSetSecurityInfoByKey0
 ---
 
+# FwpmFilterSetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterSetSecurityInfoByKey0** function sets specified security information in the security descriptor of a filter object.

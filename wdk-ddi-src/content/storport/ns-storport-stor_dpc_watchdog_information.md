@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_DPC_WATCHDOG_INFORMATION structure (storport.h)
+
 ## -description
 
 **STOR_DPC_WATCHDOG_INFORMATION** holds time-out information about the current deferred procedure call (DPC).

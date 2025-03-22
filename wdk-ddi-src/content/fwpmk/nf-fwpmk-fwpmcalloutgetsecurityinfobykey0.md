@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmCalloutGetSecurityInfoByKey0
 ---
 
+# FwpmCalloutGetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmCalloutGetSecurityInfoByKey0** function retrieves a copy of the security descriptor for a callout object.

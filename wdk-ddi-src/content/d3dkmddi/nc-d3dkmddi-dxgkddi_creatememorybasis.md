@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CREATEMEMORYBASIS
 ---
 
+# DXGKDDI_CREATEMEMORYBASIS function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiCreateMemoryBasis** function creates a handle for a collection of memory ranges that represent the allocation being operated on during dirty bit tracking.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ECDT
 ---
 
+# ECDT structure (acpitabl.h)
+
 ## -description
 
 This topic describes the **ECDT** structure.

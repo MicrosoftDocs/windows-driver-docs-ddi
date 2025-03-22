@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE function (wificx.h)
+
 ## -description
 
 WiFiCx client drivers implement *EvtWifiDeviceCreateWifiDirectDevice* to create a WIFIDIRECTDEVICE object.

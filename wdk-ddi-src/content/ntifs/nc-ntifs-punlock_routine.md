@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PUNLOCK_ROUTINE
 ---
 
+# PUNLOCK_ROUTINE function (ntifs.h)
+
 ## -description
 
 A filter (legacy filter or minifilter) can register a PUNLOCK_ROUTINE-typed routine as the filter's *UnlockRoutine* callback routine for a [**FILE_LOCK**](ns-ntifs-file_lock.md) structure.

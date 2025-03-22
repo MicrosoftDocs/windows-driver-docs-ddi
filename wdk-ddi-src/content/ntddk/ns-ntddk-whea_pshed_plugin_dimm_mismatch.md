@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_PSHED_PLUGIN_DIMM_MISMATCH structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_PIN_RESOURCES_CALLBACKS_0076 structure (d3d12umddi.h)
+
 ## -description
 
 Structure containing callback functions that pin and unpin resources.

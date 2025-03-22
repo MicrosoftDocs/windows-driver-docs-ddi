@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_GPUP_RESTORE_IMMUTABLE_MIGRATION_DATA
 ---
 
+# DXGKARG_GPUP_RESTORE_IMMUTABLE_MIGRATION_DATA structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_GPUP_RESTORE_IMMUTABLE_MIGRATION_DATA** structure is used in a call to [**DxgkDdiRestoreImmutableMigrationData**](nc-d3dkmddi-dxgkddi_restoreimmutablemigrationdata.md) to restore immutable data that was saved by the sending-side driver in a previous call to its [**DxgkDdiSaveImmutableMigrationData**](nc-d3dkmddi-dxgkddi_saveimmutablemigrationdata.md).

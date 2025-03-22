@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_FRAME_SUBREGION_METADATA_0083_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_FRAME_SUBREGION_METADATA_0083_0** structure represents subregion metadata of a video encoder frame.

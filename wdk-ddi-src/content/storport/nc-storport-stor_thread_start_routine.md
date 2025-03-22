@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_THREAD_START_ROUTINE function (storport.h)
+
 ## -description
 
 **STOR_THREAD_START_ROUTINE** provides an entry point for a storage miniport-created system thread.

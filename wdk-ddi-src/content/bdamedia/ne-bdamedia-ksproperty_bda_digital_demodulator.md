@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_DIGITAL_DEMODULATOR
 ---
 
+# KSPROPERTY_BDA_DIGITAL_DEMODULATOR enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_DIGITAL_DEMODULATOR** enumeration.

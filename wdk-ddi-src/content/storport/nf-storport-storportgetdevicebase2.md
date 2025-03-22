@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortGetDeviceBase2
 ---
 
+# StorPortGetDeviceBase2 function (storport.h)
+
 ## -description
 
 The **StorPortGetDeviceBase2** function is like **[StorPortGetDeviceBase](nf-storport-storportgetdevicebase.md)**, but the *Flags* parameter allows for additional optional behavior. Rather than returning a mapped base address, a status is returned and the caller provides a pointer to store the mapping.

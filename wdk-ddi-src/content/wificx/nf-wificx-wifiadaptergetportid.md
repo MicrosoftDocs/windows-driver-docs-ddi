@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterGetPortId function (wificx.h)
+
 ## -description
 
 The **WifiAdapterGetPortId** function gets the Wi-Fi adapter port ID.

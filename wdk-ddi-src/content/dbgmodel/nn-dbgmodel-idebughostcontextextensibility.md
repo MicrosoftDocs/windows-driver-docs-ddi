@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostContextExtensibility
 ---
 
+# IDebugHostContextExtensibility interface (dbgmodel.h)
+
 ## -description
 
 An OPTIONAL dbgmodel.h interface for hosts to support that allows certain extensions. 

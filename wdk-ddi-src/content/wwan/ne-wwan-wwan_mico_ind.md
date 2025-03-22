@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_MICO_IND enumeration (wwan.h)
+
 ## -description
 
 The **WWAN_MICO_IND** enumeration indicates the use of Mobile Initiated Connection (MICO) mode or the renegotiation of MICO mode. MICO is a mode of operation for 5G devices.

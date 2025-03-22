@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _ReadWriteBarrier
 ---
 
+# _ReadWriteBarrier function (miniport.h)
+
 ## -description
 
 Describes the *ReadWriteBarrier~r1* function.

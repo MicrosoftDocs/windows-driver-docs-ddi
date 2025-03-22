@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadExtensionData
 ---
 
+# IDebugHostContextExtensibility::ReadExtensionData function (dbgmodel.h)
+
 ## -description
 
 This method reads a set of extension data from a host context. This method will fail if the context does not have the particular extension blob associated with it.

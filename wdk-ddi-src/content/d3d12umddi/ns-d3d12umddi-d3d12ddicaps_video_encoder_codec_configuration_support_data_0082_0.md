@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDICAPS_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_DATA_0082_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDICAPS_VIDEO_ENCODER_CODEC_CONFIGURATION_SUPPORT_DATA_0082_0** structure is used to indicate whether the specified input HEVC codec configuration parameters are supported or retrieves (outputs) the supported configuration for H.264 encoding.

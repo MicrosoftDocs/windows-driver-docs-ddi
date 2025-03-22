@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadInt32Raw
 ---
 
+# ReadInt32Raw function (wdm.h)
+
 ## -description
 
 ## -parameters

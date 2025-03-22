@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# BPIO_OUTFLAGS enumeration (ntddstor.h)
+
 ## -description
 
 **BPIO_OUTFLAGS** defines the BypassIO output flags for the [**IOCTL_STORAGE_MANAGE_BYPASS_IO**](ni-ntddstor-ioctl_storage_manage_bypass_io.md) control code.

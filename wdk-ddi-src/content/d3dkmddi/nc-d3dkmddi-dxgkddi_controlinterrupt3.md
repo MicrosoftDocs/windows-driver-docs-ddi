@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKDDI_CONTROLINTERRUPT3 function (d3dkmddi.h)
+
 ## -description
 
 The *DxgkDdi_ControlInterrupt3* function enables or disables the given interrupt type for the specified VidPnSourceId on the graphics hardware.

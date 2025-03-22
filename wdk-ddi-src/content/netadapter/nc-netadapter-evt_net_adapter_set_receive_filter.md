@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_NET_ADAPTER_SET_RECEIVE_FILTER function (netadapter.h)
+
 ## -description
 
 The client driver implements the *EvtNetAdapterSetReceiveFilter* callback function to set changes in a network adapter's active receive filtering capabilities.

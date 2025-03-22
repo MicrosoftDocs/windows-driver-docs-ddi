@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::ChangeEngineState function (dbgeng.h)
+
 ## -description
 
 The engine state has changed.

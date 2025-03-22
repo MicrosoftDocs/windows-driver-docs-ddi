@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_ENUMERATE_PFS
 ---
 
+# NDIS_KDNET_ENUMERATE_PFS structure (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_ENUMERATE_PFS**  structure describes the data required to enumerate the list of PF. It is used by OID_KDNET_ENUMERATE_PFS.

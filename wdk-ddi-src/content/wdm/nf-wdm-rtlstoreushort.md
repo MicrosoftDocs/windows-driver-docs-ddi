@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlStoreUshort function (wdm.h)
+
 ## -description
 
 The **RtlStoreUshort** macro stores a USHORT value at a particular address, avoiding alignment faults.

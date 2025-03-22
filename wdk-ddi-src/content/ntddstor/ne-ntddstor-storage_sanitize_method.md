@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_SANITIZE_METHOD enumeration (ntddstor.h)
+
 ## -description
 
 The **STORAGE_SANITIZE_METHOD** enumeration identifies the sanitize method for an NVMe device.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_SET_DEVICE_FAULT_REPORTING_EX function (wdm.h)
+
 ## -description
 
 This routine set the device fault reporting state on a device already attached to a domain.

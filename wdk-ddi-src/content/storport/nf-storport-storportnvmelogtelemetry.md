@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortNvmeLogTelemetry
 ---
 
+# StorPortNvmeLogTelemetry function (storport.h)
+
 ## -description
 
 An NMVe miniport driver calls the **StorPortNvmeLogTelemetry** function to log telemetry events for an NVMe device.

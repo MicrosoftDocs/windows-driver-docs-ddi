@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSDISPLAYCHANGE
 ---
 
+# KSDISPLAYCHANGE structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSDISPLAYCHANGE** structure (ksmedia.h).

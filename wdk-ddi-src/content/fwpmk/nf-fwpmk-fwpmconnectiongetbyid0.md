@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionGetById0
 ---
 
+# FwpmConnectionGetById0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionGetById0** function retrieves a connection object by using the run-time identifier for the connection.

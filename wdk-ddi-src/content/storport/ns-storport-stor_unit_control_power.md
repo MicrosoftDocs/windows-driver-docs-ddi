@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_UNIT_CONTROL_POWER structure (storport.h)
+
 ## -description
 
 **STOR_UNIT_CONTROL_POWER** is the structure pointed to by the **Parameters** parameter when Storport calls a miniport's [**HwStorUnitControl**](nc-storport-hw_unit_control.md) routine with a **ControlType** of **ScsiUnitPower**.

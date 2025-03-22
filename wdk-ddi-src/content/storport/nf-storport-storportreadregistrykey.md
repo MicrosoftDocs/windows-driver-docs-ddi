@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortReadRegistryKey
 ---
 
+# StorPortReadRegistryKey function (storport.h)
+
 ## -description
 
 The **StorPortReadRegistryKey** function is used by the miniport to read the specified registry key. The caller provides the absolute path to the key to be read.

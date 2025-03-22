@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_CROSSBAR_ACTIVE_S
 ---
 
+# KSPROPERTY_CROSSBAR_ACTIVE_S structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_CROSSBAR_ACTIVE_S** structure (ksmedia.h).

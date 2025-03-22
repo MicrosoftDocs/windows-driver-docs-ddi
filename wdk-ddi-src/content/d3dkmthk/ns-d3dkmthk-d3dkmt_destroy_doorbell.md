@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_DESTROY_DOORBELL
 ---
 
+# D3DKMT_DESTROY_DOORBELL structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_DESTROY_DOORBELL** structure identifies the doorbell that [**D3DKMTDestroyDoorbell**](nf-d3dkmthk-d3dkmtdestroydoorbell.md) should destroy.

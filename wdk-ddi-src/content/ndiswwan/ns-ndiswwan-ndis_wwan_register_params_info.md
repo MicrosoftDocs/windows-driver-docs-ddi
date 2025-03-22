@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WWAN_REGISTER_PARAMS_INFO structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_REGISTER_PARAMS_INFO** structure represents data for [**NDIS_STATUS_WWAN_REGISTER_PARAMS_STATE**](/windows-hardware/drivers/network/ndis-status-wwan-register-params-state) notifications.

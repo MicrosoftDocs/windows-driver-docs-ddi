@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsGeneric
 ---
 
+# IDebugHostType3::IsGeneric function (dbgmodel.h)
+
 ## -description
 
 Returns whether the type is a generic or template.

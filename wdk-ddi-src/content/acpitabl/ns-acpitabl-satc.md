@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SATC
 ---
 
+# SATC structure (acpitabl.h)
+
 ## -description
 
 This topic describes the **SATC** structure.

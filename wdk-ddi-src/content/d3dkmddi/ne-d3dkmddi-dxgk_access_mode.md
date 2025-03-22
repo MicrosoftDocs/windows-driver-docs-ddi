@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_ACCESS_MODE enumeration (d3dkmddi.h)
+
 ## -description
 
 **DXGK_ACCESS_MODE** describes the access mode that [**DxgkCbMapPhysicalMemory**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md) will provide when doing a mapping.

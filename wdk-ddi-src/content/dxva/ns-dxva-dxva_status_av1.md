@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DXVA_Status_AV1 structure (dxva.h)
+
 ## -description
 
 The **DXVA_Status_AV1** structure is sent by the accelerator to the host software decoder to convey decoding status information.

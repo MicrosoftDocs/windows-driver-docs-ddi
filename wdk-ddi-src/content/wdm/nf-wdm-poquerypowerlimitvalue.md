@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoQueryPowerLimitValue
 ---
 
+# PoQueryPowerLimitValue function (wdm.h)
+
 ## -description
 
 This function queries the limit values of a power limit request object.

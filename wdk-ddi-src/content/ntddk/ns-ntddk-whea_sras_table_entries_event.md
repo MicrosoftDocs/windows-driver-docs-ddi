@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_SRAS_TABLE_ENTRIES_EVENT
 ---
 
+# WHEA_SRAS_TABLE_ENTRIES_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_SRAS_TABLE_ENTRIES_EVENT** structure.

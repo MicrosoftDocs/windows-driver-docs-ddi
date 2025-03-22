@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_NOTIFYCURSORSUPPORTCHANGE structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_NOTIFYCURSORSUPPORTCHANGE** structure contains arguments for the [**DXGKCB_NOTIFYCURSORSUPPORTCHANGE**](nc-d3dkmddi-dxgkcb_notifycursorsupportchange.md) callback function.

@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE
 ---
 
+# REFS_QUERY_VOLUME_IO_METRICS_INFO_QUERY_TYPE enumeration (ntifs.h)
+
 ## -description
 
 Reserved for system use.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsReparseTagReserved
 ---
 
+# IsReparseTagReserved function (ntifs.h)
+
 ## -description
 
 The **IsReparseTagReserved** macro determines whether a reparse point tag is reserved by Microsoft.

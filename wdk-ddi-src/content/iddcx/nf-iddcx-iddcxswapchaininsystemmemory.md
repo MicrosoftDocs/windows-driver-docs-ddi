@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IddCxSwapChainInSystemMemory function (iddcx.h)
+
 ## -description
 
 **IddCxSwapChainInSystemMemory** checks whether buffers for a swapchain are resident in system memory.

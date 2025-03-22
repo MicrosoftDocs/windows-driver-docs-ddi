@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_DESTROYDOORBELL
 ---
 
+# DXGKARG_DESTROYDOORBELL structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_DESTROYDOORBELL** structure contains parameters for [**DxgkDdiDestroyDoorbell**](nc-d3dkmddi-dxgkddi_destroydoorbell.md).

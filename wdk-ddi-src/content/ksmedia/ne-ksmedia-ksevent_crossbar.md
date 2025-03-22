@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_CROSSBAR
 ---
 
+# KSEVENT_CROSSBAR enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_CROSSBAR** enumeration (ksmedia.h).

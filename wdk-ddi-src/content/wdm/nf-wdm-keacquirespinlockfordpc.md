@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireSpinLockForDpc
 ---
 
+# KeAcquireSpinLockForDpc function (wdm.h)
+
 ## -description
 
 The **KeAcquireSpinLockForDpc** routine acquires a threaded DPC spin lock.

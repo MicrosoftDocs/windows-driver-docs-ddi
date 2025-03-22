@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_RESTOREMUTABLEMIGRATIONDATA
 ---
 
+# DXGKDDI_RESTOREMUTABLEMIGRATIONDATA function (d3dkmddi.h)
+
 ## -description
 
 The receiving-side OS calls **DxgkDdiRestoreMutableMigrationData** to restore mutable data that was saved by the sending-side driver in a previous call to [**DxgkDdiSaveMutableMigrationData**](nc-d3dkmddi-dxgkddi_savemutablemigrationdata.md).

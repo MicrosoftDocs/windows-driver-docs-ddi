@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IoGetShadowFileInformation
 ---
 
+# IoGetShadowFileInformation function (ntddk.h)
+
 ## -description
 
 This topic describes the **IoGetShadowFileInformation** function.

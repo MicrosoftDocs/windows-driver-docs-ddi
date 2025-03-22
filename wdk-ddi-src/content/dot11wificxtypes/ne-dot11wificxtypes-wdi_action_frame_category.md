@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_ACTION_FRAME_CATEGORY enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

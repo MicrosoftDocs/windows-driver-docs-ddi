@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATEHWQUEUE
 ---
 
+# DXGKARG_CREATEHWQUEUE structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CREATEHWQUEUE** structure is used with [**DxgkDdiCreateHwQueue**](nc-d3dkmddi-dxgkddi_createhwqueue.md) to create a hardware queue.

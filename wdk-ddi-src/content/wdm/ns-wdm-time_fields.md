@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _TIME_FIELDS
 ---
 
+# TIME_FIELDS structure (wdm.h)
+
 ## -description
 
 Describes time information for time conversion routines.

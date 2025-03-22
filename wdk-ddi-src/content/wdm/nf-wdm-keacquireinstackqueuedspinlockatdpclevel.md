@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireInStackQueuedSpinLockAtDpcLevel
 ---
 
+# KeAcquireInStackQueuedSpinLockAtDpcLevel function (wdm.h)
+
 ## -description
 
 The **KeAcquireInStackQueuedSpinLockAtDpcLevel** routine acquires a queued spin lock when the caller is already running at IRQL \>= DISPATCH\_LEVEL.

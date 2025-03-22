@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceSetStationCapabilities function (wificx.h)
+
 ## -description
 
 The **WifiDeviceSetStationCapabilities** function sets the station capabilities for a WiFiCx device.

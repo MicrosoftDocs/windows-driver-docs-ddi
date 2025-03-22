@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePool3 function (wdm.h)
+
 ## -description
 
 The **ExAllocatePool3** routine allocates pool memory of the specified type and returns a pointer to the allocated block. This routine is similar to **ExAllocatePool2** but it adds extended parameters.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlIsZeroLuid function (wdm.h)
+
 ## -description
 
 The **RtlIsZeroLuid** macro determines if the specified LUID is the zero LUID.

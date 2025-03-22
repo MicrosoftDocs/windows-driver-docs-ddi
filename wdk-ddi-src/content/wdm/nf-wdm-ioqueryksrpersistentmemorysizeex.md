@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IoQueryKsrPersistentMemorySizeEx function (wdm.h)
+
 ## -description
 
 Reserved for system use.

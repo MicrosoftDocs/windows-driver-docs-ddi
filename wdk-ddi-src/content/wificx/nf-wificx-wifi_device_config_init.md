@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_DEVICE_CONFIG_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_DEVICE_CONFIG_INIT** function initializes the [**WIFI_DEVICE_CONFIG**](ns-wificx-wifi_device_config.md) structure.

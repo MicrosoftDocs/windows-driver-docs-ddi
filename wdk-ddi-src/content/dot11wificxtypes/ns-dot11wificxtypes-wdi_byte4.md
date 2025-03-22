@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_BYTE4 structure (dot11wificxtypes.h)
+
 ## -description
 
 > [!WARNING]

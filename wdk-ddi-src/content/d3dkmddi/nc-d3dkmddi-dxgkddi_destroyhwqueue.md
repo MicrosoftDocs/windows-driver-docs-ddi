@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DESTROYHWQUEUE
 ---
 
+# DXGKDDI_DESTROYHWQUEUE function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnel* calls **DxgkDdiDestroyHwQueue** to have the kernel-mode display driver (KMD) perform the work to destroy a hardware queue.

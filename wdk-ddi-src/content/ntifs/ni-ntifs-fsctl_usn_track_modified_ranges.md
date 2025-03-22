@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_USN_TRACK_MODIFIED_RANGES
 ---
 
+# FSCTL_USN_TRACK_MODIFIED_RANGES ioctl (ntifs.h)
+
 ## -description
 
 See [FSCTL_USN_TRACK_MODIFIED_RANGES IOCTL (winioctl.h)](/windows/win32/api/winioctl/ni-winioctl-fsctl_usn_track_modified_ranges).

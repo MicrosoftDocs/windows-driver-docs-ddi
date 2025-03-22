@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_DECODER_HEAP_SIZE_DATA_0072 structure (d3d12umddi.h)
+
 ## -description
 
 Retrieves the memory allocation size of a video decoder heap created with the given properties.

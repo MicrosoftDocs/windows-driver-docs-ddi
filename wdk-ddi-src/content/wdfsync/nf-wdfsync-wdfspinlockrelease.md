@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WdfSpinLockRelease
 ---
 
+# WdfSpinLockRelease function (wdfsync.h)
+
 ## -description
 
 The <b>WdfSpinLockRelease</b> method releases a specified spin lock.

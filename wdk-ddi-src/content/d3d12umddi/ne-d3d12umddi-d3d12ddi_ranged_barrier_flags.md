@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_RANGED_BARRIER_FLAGS
 ---
 
+# D3D12DDI_RANGED_BARRIER_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_RANGED_BARRIER_FLAGS** enumeration specifies flags for ranged barriers.

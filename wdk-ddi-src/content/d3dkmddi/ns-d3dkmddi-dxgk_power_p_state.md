@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_POWER_P_STATE
 ---
 
+# DXGK_POWER_P_STATE structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_POWER_P_STATE** is reserved for system use. Don't use it in your driver.

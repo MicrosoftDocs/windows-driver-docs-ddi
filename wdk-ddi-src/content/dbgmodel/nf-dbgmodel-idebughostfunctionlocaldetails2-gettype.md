@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetType
 ---
 
+# IDebugHostFunctionLocalDetails2::GetType function (dbgmodel.h)
+
 ## -description
 
 The GetType method retrieves the type of the local variable.

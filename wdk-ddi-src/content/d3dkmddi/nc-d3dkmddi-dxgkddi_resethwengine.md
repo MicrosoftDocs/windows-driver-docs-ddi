@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_RESETHWENGINE
 ---
 
+# DXGKDDI_RESETHWENGINE function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls the display miniport driver's (KMD's) **DxgkDdiResetHwEngine** function when a GPU engine reset is required.

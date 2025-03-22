@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _D3DDDI_DOORBELLSTATUS
 ---
 
+# D3DDDI_DOORBELLSTATUS enumeration (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_DOORBELLSTATUS** enumeration indicates the status of a doorbell object.

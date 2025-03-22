@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseFastMutex
 ---
 
+# ExReleaseFastMutex function (wdm.h)
+
 ## -description
 
 The **ExReleaseFastMutex** routine releases ownership of a fast mutex that was acquired with [**ExAcquireFastMutex**](nf-wdm-exacquirefastmutex.md) or [**ExTryToAcquireFastMutex**](nf-wdm-extrytoacquirefastmutex.md).

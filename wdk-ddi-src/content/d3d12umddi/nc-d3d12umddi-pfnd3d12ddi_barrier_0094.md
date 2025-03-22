@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_BARRIER_0094
 ---
 
+# PFND3D12DDI_BARRIER_0094 function (d3d12umddi.h)
+
 ## -description
 
 A driver's **PFND3D12DDI_BARRIER_0094** (**pfnBarrier**) callback function synchronizes multiple accesses to resources. This callback supports enhanced barriers.

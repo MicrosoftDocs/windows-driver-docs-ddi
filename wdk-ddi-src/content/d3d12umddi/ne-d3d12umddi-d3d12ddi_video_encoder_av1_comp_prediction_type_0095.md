@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_COMP_PREDICTION_TYPE_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_COMP_PREDICTION_TYPE_0095 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_COMP_PREDICTION_TYPE_0095** enumeration defines the compound prediction types for an AV1 encoder.

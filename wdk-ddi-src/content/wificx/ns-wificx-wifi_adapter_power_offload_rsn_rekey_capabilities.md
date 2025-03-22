@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES structure (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_POWER_OFFLOAD_RSN_REKEY_CAPABILITIES** structure describes a WiFiCx net adapter's RSN rekey power offload capabilities.

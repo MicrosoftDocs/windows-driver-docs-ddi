@@ -42,6 +42,8 @@ helpviewer_keywords:
  - LkmdTelInsertTriageDataBlock
 ---
 
+# LkmdTelInsertTriageDataBlock function (lkmdtel.h)
+
 ## -description
 
 This function adds a region of kernel memory to the kernel minidump.  

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_IN_UPDATEMODES2
 ---
 
+# IDARG_IN_UPDATEMODES2 structure (iddcx.h)
+
 ## -description
 
 The **IDARG_IN_UPDATEMODES2** structure contains input parameters for the [**IddCxMonitorUpdateModes2**](nf-iddcx-iddcxmonitorupdatemodes2.md) function.

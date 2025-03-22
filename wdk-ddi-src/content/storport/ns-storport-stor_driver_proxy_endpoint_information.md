@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _STOR_DRIVER_PROXY_ENDPOINT_INFORMATION
 ---
 
+# STOR_DRIVER_PROXY_ENDPOINT_INFORMATION structure (storport.h)
+
 ## -description
 
 The **STOR_DRIVER_PROXY_ENDPOINT_INFORMATION** structure contains information about a driver proxy endpoint.

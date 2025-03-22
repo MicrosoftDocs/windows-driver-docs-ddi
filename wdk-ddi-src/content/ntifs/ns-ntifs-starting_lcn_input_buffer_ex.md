@@ -42,6 +42,8 @@ helpviewer_keywords:
  - STARTING_LCN_INPUT_BUFFER_EX
 ---
 
+# STARTING_LCN_INPUT_BUFFER_EX structure (ntifs.h)
+
 ## -description
 
 The **STARTING_LCN_INPUT_BUFFER_EX** structure contains the starting logical cluster number (LCN) for the [**FSCTL_GET_VOLUME_BITMAP**](ni-ntifs-fsctl_get_volume_bitmap.md) control code.

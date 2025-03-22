@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_WAVE_MMA_TIER
 ---
 
+# D3D12DDI_WAVE_MMA_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_WAVE_MMA_TIER** enumeration value indicates the driver's support for wave matrix-matrix arithmetic (MMA) operations.

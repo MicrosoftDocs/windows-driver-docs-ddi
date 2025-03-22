@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EtwSetInformation
 ---
 
+# EtwSetInformation function (wdm.h)
+
 ## -description
 
 The **EtwSetInformation** provides special-purpose information to modify a kernel-mode ETW provider registration. The **EtwSetInformation** function is the kernel-mode equivalent of the [**EventSetInformation**](/windows/win32/api/evntprov/nf-evntprov-eventsetinformation) function.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextSetSpi0
 ---
 
+# IPsecSaContextSetSpi0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextSetSpi0** function sets the security parameters index (SPI) for a security association (SA) context.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseSpinLockSharedFromDpcLevel
 ---
 
+# ExReleaseSpinLockSharedFromDpcLevel function (wdm.h)
+
 ## -description
 
 The **ExReleaseSpinLockSharedFromDpcLevel** routine releases a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) that the caller acquired for shared access, and leaves the IRQL unchanged.

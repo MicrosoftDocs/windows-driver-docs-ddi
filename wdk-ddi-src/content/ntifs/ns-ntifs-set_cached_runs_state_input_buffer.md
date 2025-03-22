@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SET_CACHED_RUNS_STATE_INPUT_BUFFER
 ---
 
+# SET_CACHED_RUNS_STATE_INPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

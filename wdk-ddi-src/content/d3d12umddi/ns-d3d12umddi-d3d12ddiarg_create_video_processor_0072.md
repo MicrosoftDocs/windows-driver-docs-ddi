@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_CREATE_VIDEO_PROCESSOR_0072** structure contains the arguments used to create a video processor.

@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_SAMPLER_FEEDBACK_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 The supported sampler feedback tier.

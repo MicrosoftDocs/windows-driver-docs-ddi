@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# MmGetPhysicalMemoryRangesEx2 function (ntddk.h)
+
 ## -description
 
 The <b>MmGetPhysicalMemoryRangesEx2</b> routine returns the virtual address of a nonpaged pool block which contains the physical memory ranges in the system.

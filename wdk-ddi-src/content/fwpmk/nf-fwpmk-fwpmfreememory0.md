@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFreeMemory0
 ---
 
+# FwpmFreeMemory0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFreeMemory0** function is used to release memory resources allocated by the Windows Filtering Platform (WFP) functions.

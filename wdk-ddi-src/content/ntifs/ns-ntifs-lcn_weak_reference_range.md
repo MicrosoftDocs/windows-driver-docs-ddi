@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _LCN_WEAK_REFERENCE_RANGE
 ---
 
+# LCN_WEAK_REFERENCE_RANGE structure (ntifs.h)
+
 ## -description
 
 **LCN_WEAK_REFERENCE_RANGE** is reserved for system use.

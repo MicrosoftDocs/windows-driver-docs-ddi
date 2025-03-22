@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_CROSSADAPTERRESOURCE_SUPPORT structure (d3dkmthk.h)
+
 ## -description
 
 Currently reserved for system use. The **D3DKMT_CROSSADAPTERRESOURCE_SUPPORT** structure indicates the cross adapter resource support provided by a display driver.

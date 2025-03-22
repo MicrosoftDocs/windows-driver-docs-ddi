@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WdfSpinLockAcquire
 ---
 
+# WdfSpinLockAcquire function (wdfsync.h)
+
 ## -description
 
 The <b>WdfSpinLockAcquire</b> method acquires a specified spin lock.

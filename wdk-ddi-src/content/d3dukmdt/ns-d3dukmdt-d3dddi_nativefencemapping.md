@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_NATIVEFENCEMAPPING
 ---
 
+# D3DDDI_NATIVEFENCEMAPPING structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_NATIVEFENCEMAPPING** structure contains native GPU fence address mappings in the caller's process address space.

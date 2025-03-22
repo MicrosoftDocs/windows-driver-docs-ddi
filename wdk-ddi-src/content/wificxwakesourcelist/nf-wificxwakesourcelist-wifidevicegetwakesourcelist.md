@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceGetWakeSourceList function (wificxwakesourcelist.h)
+
 ## -description
 
 The **WifiDeviceGetWakeSourceList** function gets the list of wake sources for a WiFiCx net adapter.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# FsRtlAllocateAePushLock function (ntifs.h)
+
 ## -description
 
 **FsRtlAllocateAePushLock** allocates and initializes an auto-expand push lock.

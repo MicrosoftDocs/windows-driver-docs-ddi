@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DXVA_PicParams_AV1 structure (dxva.h)
+
 ## -description
 
 The DXVA_PicParams_AV1 structure provides the picture-level parameters of a compressed picture for AV1 video decoding.

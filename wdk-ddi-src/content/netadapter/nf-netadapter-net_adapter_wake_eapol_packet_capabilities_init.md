@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT function (netadapter.h)
+
 ## -description
 
 The **NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure. 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecDospStateDestroyEnumHandle0
 ---
 
+# IPsecDospStateDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecDospStateDestroyEnumHandle0** function frees a handle returned by **[IPsecDospStateCreateEnumHandle0](nf-fwpmk-ipsecdospstatecreateenumhandle0.md)**.

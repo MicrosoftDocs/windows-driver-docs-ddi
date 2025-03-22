@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_DRIVER_GLOBALS structure (wificxtypes.h)
+
 ## -description
 
 Call WIFI_DRIVER_GLOBALS_INIT to initialize this structure.

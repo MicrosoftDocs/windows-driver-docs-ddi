@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _FWPS_CONNECTION_POLICY0
 ---
 
+# FWPS_CONNECTION_POLICY0 structure (fwpsk.h)
+
 ## -description
 
 The **FWPS_CONNECTION_POLICY0** structure defines the connection policy for outbound network connections. 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_INVALIDATEHWCONTEXT function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode graphics driver (KMD) calls **DxgkcbInvalidatehwcontext** to invalidate a hardware context.

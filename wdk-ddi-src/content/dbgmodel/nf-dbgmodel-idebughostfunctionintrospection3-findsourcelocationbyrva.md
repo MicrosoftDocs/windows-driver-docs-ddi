@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FindSourceLocationByRVA
 ---
 
+# IDebugHostFunctionIntrospection3::FindSourceLocationByRVA function (dbgmodel.h)
+
 ## -description
 
 The FindSourceLocationByRVA method retrieves the source file name and the line number for a specific Relative Virtual Address (RVA).

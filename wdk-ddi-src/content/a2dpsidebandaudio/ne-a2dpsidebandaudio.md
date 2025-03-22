@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# SIDEBANDAUDIO_PARAMS_A2DP enumeration (a2dpsidebandaudio.h)
+
 ## -description
 
 Identifies the SIDEBANDAUDIO_PARAMS_SET_A2DP parameter.

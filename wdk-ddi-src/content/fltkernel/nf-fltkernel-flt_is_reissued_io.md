@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FLT_IS_REISSUED_IO
 ---
 
+# FLT_IS_REISSUED_IO function (fltkernel.h)
+
 ## -description
 
 The **FLT_IS_REISSUED_IO** macro determines whether the given callback data structure represents a reissued I/O operation.

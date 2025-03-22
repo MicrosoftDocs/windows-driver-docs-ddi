@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextEnum1
 ---
 
+# IPsecSaContextEnum1 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextEnum1** function returns the next page of results from the IPsec security association (SA) context enumerator.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SDBUS_INTERFACE_STANDARD
 ---
 
+# SDBUS_INTERFACE_STANDARD structure (ntddsd.h)
+
 ## -description
 
 The SDBUS\_INTERFACE\_STANDARD structure contains pointers to the method routines of a Secure Digital (SD) card bus interface.

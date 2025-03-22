@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _LCN_WEAK_REFERENCE_CREATE_OUTPUT_BUFFER
 ---
 
+# LCN_WEAK_REFERENCE_CREATE_OUTPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 **LCN_WEAK_REFERENCE_CREATE_OUTPUT_BUFFER** is reserved for system use.

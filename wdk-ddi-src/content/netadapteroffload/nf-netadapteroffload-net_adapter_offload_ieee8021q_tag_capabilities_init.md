@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES_INIT function (netadapteroffload.h)
+
 ## -description
 
 The **NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES**](ns-netadapteroffload-net_adapter_offload_ieee8021q_tag_capabilities.md) structure.

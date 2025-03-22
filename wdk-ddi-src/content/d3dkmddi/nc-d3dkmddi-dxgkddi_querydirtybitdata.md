@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_QUERYDIRTYBITDATA
 ---
 
+# DXGKDDI_QUERYDIRTYBITDATA function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls **DxgkDdiQueryDirtyBitData** to request a copy of the dirty bitplane data from the kernel-mode display miniport driver (KMD).

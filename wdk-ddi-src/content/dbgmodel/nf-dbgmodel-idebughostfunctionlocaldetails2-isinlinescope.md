@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsInlineScope
 ---
 
+# IDebugHostFunctionLocalDetails2::IsInlineScope function (dbgmodel.h)
+
 ## -description
 
 The IsInlineScope method determines if the local variable is scoped within an inlined function. This will always return false unless the [EnumerateLocalsDetailsEx method](nf-dbgmodel-idebughostfunctionlocaldetails3-enumeratelocalsdetailsex.md) is called with 'enumerateInlinedLocals' set to true.

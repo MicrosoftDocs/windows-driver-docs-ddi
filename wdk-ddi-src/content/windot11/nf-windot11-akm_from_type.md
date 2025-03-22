@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AKM_FROM_TYPE
 ---
 
+# AKM_FROM_TYPE function (windot11.h)
+
 ## -description
 
 The **AKM_FROM_TYPE** macro is used to compute the [**RSNA_AKM_SUITE**](ne-windot11-rsna_akm_suite.md) and [**WPA_AKM_SUITE**](ne-windot11-wpa_akm_suite.md) enum values.

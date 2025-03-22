@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDIARG_CREATEHEAP_0001
 ---
 
+# D3D12DDIARG_CREATEHEAP_0001 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_CREATEHEAP_0001** structure describes a heap.

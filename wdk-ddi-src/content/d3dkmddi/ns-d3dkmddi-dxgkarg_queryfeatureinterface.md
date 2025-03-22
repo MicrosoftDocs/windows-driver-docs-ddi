@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_QUERYFEATUREINTERFACE
 ---
 
+# DXGKARG_QUERYFEATUREINTERFACE structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_QUERYFEATUREINTERFACE** is the parameter to the [**DxgkDdiQueryFeatureInterface**](nc-d3dkmddi-dxgkddi_queryfeatureinterface.md) function.

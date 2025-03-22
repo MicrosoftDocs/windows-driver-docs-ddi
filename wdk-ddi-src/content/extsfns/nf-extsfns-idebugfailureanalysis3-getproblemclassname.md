@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetProblemClassName
 ---
 
+# IDebugFailureAnalysis3::GetProblemClassName function (extsfns.h)
+
 ## -description
 
 ## -parameters

@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SHUFFLE_FILE_DATA
 ---
 
+# SHUFFLE_FILE_DATA structure (ntifs.h)
+
 ## -description
 
 **SHUFFLE_FILE_DATA** is the input structure for the [**FSCTL_SHUFFLE_FILE**](ni-ntifs-fsctl_shuffle_file.md) control code.

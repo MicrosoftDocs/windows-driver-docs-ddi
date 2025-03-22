@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CLOSENATIVEFENCE
 ---
 
+# DXGKARG_CLOSENATIVEFENCE structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_CLOSENATIVEFENCE** is the structure passed to [**DxgkDdiCloseNativeFence**](nc-d3dkmddi-dxgkddi_closenativefence.md).

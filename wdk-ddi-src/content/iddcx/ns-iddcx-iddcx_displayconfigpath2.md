@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_DISPLAYCONFIGPATH2
 ---
 
+# IDDCX_DISPLAYCONFIGPATH2 structure (iddcx.h)
+
 ## -description
 
 A **IDDCX_DISPLAYCONFIGPATH2** structure contains path display configuration information.

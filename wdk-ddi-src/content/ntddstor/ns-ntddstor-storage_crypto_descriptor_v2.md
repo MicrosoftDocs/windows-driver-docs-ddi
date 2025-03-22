@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _STORAGE_CRYPTO_DESCRIPTOR_V2
 ---
 
+# STORAGE_CRYPTO_DESCRIPTOR_V2 structure (ntddstor.h)
+
 ## -description
 
 Microsoft reserves the **STORAGE_CRYPTO_DESCRIPTOR_V2** structure for internal use only. Don't use this structure in your code.

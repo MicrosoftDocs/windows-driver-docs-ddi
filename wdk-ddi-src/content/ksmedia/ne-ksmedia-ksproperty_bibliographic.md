@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BIBLIOGRAPHIC
 ---
 
+# KSPROPERTY_BIBLIOGRAPHIC enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BIBLIOGRAPHIC** enumeration (ksmedia.h).

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORPORT_CAPTURE_LIVEDUMP structure (storport.h)
+
 ## -description
 
 The **STORPORT_CAPTURE_LIVEDUMP** structure contains the data needed to generate a live dump.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_DISPATCH_MESH_ARGUMENTS structure (d3d12umddi.h)
+
 ## -description
 
 Mesh shader threadgroups.

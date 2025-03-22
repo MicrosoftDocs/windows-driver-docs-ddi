@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_RECORD_EXTENT
 ---
 
+# USN_RECORD_EXTENT structure (ntifs.h)
+
 ## -description
 
 The **USN_RECORD_EXTENT** structure contains the offset and length for an update sequence number (USN) record extent.

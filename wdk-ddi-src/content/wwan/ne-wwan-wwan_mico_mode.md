@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_MICO_MODE enumeration (wwan.h)
+
 ## -description
 
 The **WWAN_MICO_MODE** enumeration lists Mobile Initiated Connection modes.

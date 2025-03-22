@@ -42,6 +42,8 @@ helpviewer_keywords:
  - HasExtensionData
 ---
 
+# IDebugHostContextExtensibility::HasExtensionData function (dbgmodel.h)
+
 ## -description
 
 This method is used to indicate whether a given context has a particular extension blob associated with it.

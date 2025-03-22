@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_GROUP_AFFINITY structure (storport.h)
+
 ## -description
 
 The **STOR_GROUP_AFFINITY** structure specifies a group number and the processor affinity within that group.

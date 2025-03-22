@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NTFS_VOLUME_DATA_BUFFER
 ---
 
+# NTFS_VOLUME_DATA_BUFFER structure (ntifs.h)
+
 ## -description
 
 The **NTFS_VOLUME_DATA_BUFFER** structure contains information about an NTFS volume. It's used with the [**FSCTL_GET_NTFS_VOLUME_DATA**](ni-ntifs-fsctl_get_ntfs_volume_data.md) control code.

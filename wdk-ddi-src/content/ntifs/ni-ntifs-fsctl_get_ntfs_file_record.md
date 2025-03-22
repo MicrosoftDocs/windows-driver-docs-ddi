@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_GET_NTFS_FILE_RECORD
 ---
 
+# FSCTL_GET_NTFS_FILE_RECORD ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_GET_NTFS_FILE_RECORD** control code retrieves a file record from an NTFS volume.

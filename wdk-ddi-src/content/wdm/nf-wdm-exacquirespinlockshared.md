@@ -45,6 +45,8 @@ helpviewer_keywords:
  - ExAcquireSpinLockShared
 ---
 
+# ExAcquireSpinLockShared function (wdm.h)
+
 ## -description
 
 The **ExAcquireSpinLockShared** routine acquires a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) for shared access by the caller, and raises the IRQL to DISPATCH_LEVEL.

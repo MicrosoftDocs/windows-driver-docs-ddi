@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_SINGLE_NSSAI structure (wwan.h)
+
 ## -description
 
 The **WWAN_SINGLE_NSSAI** structure represents a single Network Slice Selection Assistance Information (NSSAI). WWAN_SINGLE_NSSAI is used to uniquely identify a network slice.

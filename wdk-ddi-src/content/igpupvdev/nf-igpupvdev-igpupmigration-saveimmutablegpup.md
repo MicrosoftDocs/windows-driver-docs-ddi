@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SaveImmutableGpup
 ---
 
+# IGPUPMigration::SaveImmutableGpup function (igpupvdev.h)
+
 ## -description
 
 The **SaveImmutableGpup** method is part of the [**IGPUPMigration**](nn-igpupvdev-igpupmigration.md) interface, designed to save the immutable state of a virtual GPU (vGPU) during live migration processes.

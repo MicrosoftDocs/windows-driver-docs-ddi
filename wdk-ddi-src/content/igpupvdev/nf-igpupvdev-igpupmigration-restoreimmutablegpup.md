@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RestoreImmutableGpup
 ---
 
+# IGPUPMigration::RestoreImmutableGpup function (igpupvdev.h)
+
 ## -description
 
 The **RestoreImmutableGpup** method is part of the [**IGPUPMigration**](nn-igpupvdev-igpupmigration.md) interface, designed to restore the immutable state of a virtual GPU (vGPU) during live migration processes.

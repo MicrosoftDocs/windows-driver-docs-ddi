@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_CREATEPHYSICALMEMORYOBJECT function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_CREATEPHYSICALMEMORYOBJECT** creates physical memory for the driver.

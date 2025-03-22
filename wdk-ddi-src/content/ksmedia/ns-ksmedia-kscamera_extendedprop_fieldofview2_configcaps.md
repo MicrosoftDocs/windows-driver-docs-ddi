@@ -45,6 +45,8 @@ helpviewer_keywords:
  - tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW2_CONFIGCAPS
 ---
 
+# tagKSCAMERA_EXTENDEDPROP_FIELDOFVIEW2_CONFIGCAPS structure (ksmedia.h)
+
 ## -description
 
 The **KSCAMERA_EXTENDEDPROP_FIELDOFVIEW2_CONFIGCAPS** structure defines the configuration capabilities of a camera's field of view (FoV).

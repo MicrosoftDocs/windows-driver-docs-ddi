@@ -35,6 +35,8 @@ helpviewer_keywords:
  - CLASS_FUNCTION_SUPPORT
 ---
 
+# CLASS_FUNCTION_SUPPORT enumeration (classpnp.h)
+
 ## -description
 
 Specifies which functionality is being enabled or disabled.

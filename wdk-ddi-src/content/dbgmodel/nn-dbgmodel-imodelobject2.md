@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IModelObject2
 ---
 
+# IModelObject2 interface (dbgmodel.h)
+
 ## -description
 
 The **IModelObject2** interface encapsulates the notion of an object -- whether that object is an integer, a string, some complex type in the target address space of the debugger.

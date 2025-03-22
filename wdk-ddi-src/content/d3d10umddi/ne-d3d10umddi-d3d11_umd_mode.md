@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D11_UMD_MODE
 ---
 
+# D3D11_UMD_MODE enumeration (d3d10umddi.h)
+
 ## -description
 
 The **D3D11_UMD_MODE** enumeration specifies the mode that a native D3D11 user-mode driver wants to run in.

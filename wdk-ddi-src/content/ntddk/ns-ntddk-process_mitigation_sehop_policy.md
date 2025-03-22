@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PROCESS_MITIGATION_SEHOP_POLICY
 ---
 
+# PROCESS_MITIGATION_SEHOP_POLICY structure (ntddk.h)
+
 ## -description
 
 Describes the **PROCESS_MITIGATION_SEHOP_POLICY** structure.

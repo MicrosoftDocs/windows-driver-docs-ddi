@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RATING_INFO
 ---
 
+# RATING_INFO structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **RATING_INFO** structure.

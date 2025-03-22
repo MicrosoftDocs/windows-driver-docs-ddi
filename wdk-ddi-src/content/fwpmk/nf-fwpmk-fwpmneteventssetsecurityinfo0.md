@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmNetEventsSetSecurityInfo0
 ---
 
+# FwpmNetEventsSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmNetEventsSetSecurityInfo0** function sets specified security information in the security descriptor of a network event object.

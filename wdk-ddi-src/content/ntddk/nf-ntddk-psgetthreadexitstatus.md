@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PsGetThreadExitStatus
 ---
 
+# PsGetThreadExitStatus function (ntddk.h)
+
 ## -description
 
 This routine returns the exit status for a given thread.

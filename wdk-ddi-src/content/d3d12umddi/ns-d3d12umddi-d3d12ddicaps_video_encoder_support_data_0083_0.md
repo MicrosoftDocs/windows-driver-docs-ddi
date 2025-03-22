@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0** structure provides the driver's support details for the requested input configurations.

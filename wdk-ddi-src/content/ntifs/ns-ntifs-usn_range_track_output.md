@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_RANGE_TRACK_OUTPUT
 ---
 
+# USN_RANGE_TRACK_OUTPUT structure (ntifs.h)
+
 ## -description
 
 The **USN_RANGE_TRACK_OUTPUT** structure contains returned update sequence number (USN) from the [**FSCTL_USN_TRACK_MODIFIED_RANGES**](ni-ntifs-fsctl_usn_track_modified_ranges.md) control code.

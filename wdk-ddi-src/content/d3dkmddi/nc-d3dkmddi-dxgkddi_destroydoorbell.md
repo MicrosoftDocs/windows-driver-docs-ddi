@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DESTROYDOORBELL
 ---
 
+# DXGKDDI_DESTROYDOORBELL function (d3dkmddi.h)
+
 ## -description
 
 The **DxgkDdiDestroyDoorbell** function destroys a previously created doorbell object.

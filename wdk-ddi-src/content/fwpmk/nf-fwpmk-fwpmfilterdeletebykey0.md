@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterDeleteByKey0
 ---
 
+# FwpmFilterDeleteByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterDeleteByKey0** function removes a filter object from the system.

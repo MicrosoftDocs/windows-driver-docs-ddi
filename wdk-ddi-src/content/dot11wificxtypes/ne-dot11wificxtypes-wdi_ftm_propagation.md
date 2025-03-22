@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_FTM_PROPAGATION enumeration (dot11wificxtypes.h)
+
 ## -description
 
 The **WDI_FTM_PROPAGATION** enumeration defines the propagation properties of a signal that are estimated by the LE's logic.

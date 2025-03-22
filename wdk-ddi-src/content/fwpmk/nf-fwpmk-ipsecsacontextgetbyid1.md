@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextGetById1
 ---
 
+# IPsecSaContextGetById1 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextGetById1** function retrieves an IPsec security association (SA) context.

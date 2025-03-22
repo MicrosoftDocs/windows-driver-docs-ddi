@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG structure (wdm.h)
+
 ## -description
 
 The **IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG** structure contains information required to configure a logical allocator.

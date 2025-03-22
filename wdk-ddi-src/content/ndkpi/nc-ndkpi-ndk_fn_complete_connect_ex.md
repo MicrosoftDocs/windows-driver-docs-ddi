@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDK_FN_COMPLETE_CONNECT_EX function (ndkpi.h)
+
 ## -description
 
 The *NdkCompleteConnectEx* (*NDK_FN_COMPLETE_CONNECT_EX*) function completes an asynchronous connection request.

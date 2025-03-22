@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDICAPS_VIDEO_ENCODER_SUPPORT1_DATA_0096
 ---
 
+# D3D12DDICAPS_VIDEO_ENCODER_SUPPORT1_DATA_0096 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDICAPS_VIDEO_ENCODER_SUPPORT1_DATA_0096** structure provides the driver's support details for the requested input configurations.

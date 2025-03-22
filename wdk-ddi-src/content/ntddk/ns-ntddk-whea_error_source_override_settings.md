@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_ERROR_SOURCE_OVERRIDE_SETTINGS
 ---
 
+# WHEA_ERROR_SOURCE_OVERRIDE_SETTINGS structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_ERROR_SOURCE_OVERRIDE_SETTINGS** structure.

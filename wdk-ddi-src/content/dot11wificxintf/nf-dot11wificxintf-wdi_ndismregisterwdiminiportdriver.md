@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# Wdi_NdisMRegisterWdiMiniportDriver function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

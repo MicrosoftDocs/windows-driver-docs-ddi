@@ -36,6 +36,8 @@ helpviewer_keywords:
  - INamedModelsEnumerator
 ---
 
+# INamedModelsEnumerator interface (dbgmodel.h)
+
 ## -description
 
 An interface which enumerates registered named models and their associated name.

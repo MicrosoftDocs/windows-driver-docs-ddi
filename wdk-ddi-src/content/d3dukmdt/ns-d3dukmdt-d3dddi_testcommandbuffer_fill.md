@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_TESTCOMMANDBUFFER_FILL
 ---
 
+# D3DDDI_TESTCOMMANDBUFFER_FILL structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_TESTCOMMANDBUFFER_FILL** structure describes a fill operation for a test command buffer for kernel-mode testing.

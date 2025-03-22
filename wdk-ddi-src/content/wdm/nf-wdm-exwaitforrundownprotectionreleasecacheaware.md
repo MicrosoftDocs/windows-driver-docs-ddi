@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExWaitForRundownProtectionReleaseCacheAware
 ---
 
+# ExWaitForRundownProtectionReleaseCacheAware function (wdm.h)
+
 ## -description
 
 The **ExWaitForRundownProtectionReleaseCacheAware** routine waits until all drivers that have already been granted cache-aware run-down protection complete their accesses of the shared object.

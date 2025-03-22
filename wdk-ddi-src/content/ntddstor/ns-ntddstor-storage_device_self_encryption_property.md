@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_DEVICE_SELF_ENCRYPTION_PROPERTY structure (ntddstor.h)
+
 ## -description
 
 **STORAGE_DEVICE_SELF_ENCRYPTION_PROPERTY** is the structure used when a caller sends [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to query whether a device supports self encryption.

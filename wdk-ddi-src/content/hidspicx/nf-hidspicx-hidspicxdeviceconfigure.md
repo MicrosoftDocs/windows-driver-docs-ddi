@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HidSpiCxDeviceConfigure function (hidspicx.h)
+
 ## -description
 
 After calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md), and still in its [**EVT_WDF_DRIVER_DEVICE_ADD**](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, the client driver calls this function with a pointer to a [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md) structure, specifying interfaces the class extension will use to communicate with the device. The class extension initializes its internal state, returning whether or not this is successful.

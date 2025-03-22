@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UART_SET_POWER_D3
 ---
 
+# UART_SET_POWER_D3 function (uart.h)
+
 ## -description
 
 Supplies a function to transition the UART to D3.

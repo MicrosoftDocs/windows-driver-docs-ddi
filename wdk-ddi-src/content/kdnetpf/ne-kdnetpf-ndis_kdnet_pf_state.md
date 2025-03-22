@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_PF_STATE
 ---
 
+# NDIS_KDNET_PF_STATE enumeration (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_PF_STATE** enumeration defines the PF state.

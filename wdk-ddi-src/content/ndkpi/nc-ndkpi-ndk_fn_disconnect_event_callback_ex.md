@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDK_FN_DISCONNECT_EVENT_CALLBACK_EX function (ndkpi.h)
+
 ## -description
 
 The *NdkDisconnectEventCallbackEx* (*NDK_FN_DISCONNECT_EVENT_CALLBACK_EX*) function is called by the NDK provider once when the peer disconnects.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _EFI_ACPI_RAS_SIGNAL_TABLE
 ---
 
+# EFI_ACPI_RAS_SIGNAL_TABLE structure (ntddk.h)
+
 ## -description
 
 This topic describes the **EFI_ACPI_RAS_SIGNAL_TABLE** structure.

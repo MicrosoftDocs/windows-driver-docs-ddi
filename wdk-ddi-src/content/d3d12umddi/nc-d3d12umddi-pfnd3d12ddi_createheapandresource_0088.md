@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_CREATEHEAPANDRESOURCE_0088
 ---
 
+# PFND3D12DDI_CREATEHEAPANDRESOURCE_0088 function (d3d12umddi.h)
+
 ## -description
 
 A user-mode display driver's **PFND3D12DDI_CREATEHEAPANDRESOURCE_0088** function simultaneously creates a heap and resource.

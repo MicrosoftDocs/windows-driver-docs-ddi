@@ -32,6 +32,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_TUSIZE_0082_0 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_HEVC_TUSIZE_0082_0** enumeration lists the possible values for luma transform block sizes for an HEVC codec.

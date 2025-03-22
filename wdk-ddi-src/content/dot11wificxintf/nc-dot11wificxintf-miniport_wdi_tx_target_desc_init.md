@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_TX_TARGET_DESC_INIT function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

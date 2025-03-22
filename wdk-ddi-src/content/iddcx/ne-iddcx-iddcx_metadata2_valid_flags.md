@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_METADATA2_VALID_FLAGS
 ---
 
+# IDDCX_METADATA2_VALID_FLAGS enumeration (iddcx.h)
+
 ## -description
 
 A **IDDCX_METADATA2_VALID_FLAGS** enumeration value indicates which fields in an [**IDDCX_METADATA2**](ns-iddcx-iddcx_metadata2.md) structure have valid content.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterGetByKey0
 ---
 
+# FwpmFilterGetByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterGetByKey0** function retrieves a filter object.

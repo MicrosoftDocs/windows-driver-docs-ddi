@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SAVEIMMUTABLEMIGRATIONDATA
 ---
 
+# DXGKDDI_SAVEIMMUTABLEMIGRATIONDATA function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiSaveImmutableMigrationData** function saves immutable data for a live migration that is about to start.

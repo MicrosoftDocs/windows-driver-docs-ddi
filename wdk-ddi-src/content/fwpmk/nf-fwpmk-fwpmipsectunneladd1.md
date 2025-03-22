@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmIPsecTunnelAdd1
 ---
 
+# FwpmIPsecTunnelAdd1 function (fwpmk.h)
+
 ## -description
 
 The **FwpmIPsecTunnelAdd1** function adds a new Internet Protocol Security (IPsec) tunnel mode policy to the system.

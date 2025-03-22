@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IoGetIommuInterfaceEx function (wdm.h)
+
 ## -description
 
 Retrieves a pointer to the extended interface that contains a set of IOMMU routines.

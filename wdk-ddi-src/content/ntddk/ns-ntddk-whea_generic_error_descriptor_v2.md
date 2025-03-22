@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_GENERIC_ERROR_DESCRIPTOR_V2 structure (ntddk.h)
+
 ## -description
 
 The WHEA_GENERIC_ERROR_DESCRIPTOR_V2 structure describes a generic error source.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmTransactionCommit0
 ---
 
+# FwpmTransactionCommit0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmTransactionCommit0** function commits the current transaction within the current session.

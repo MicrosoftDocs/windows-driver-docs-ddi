@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_CONSERVATIVE_RASTERIZATION_TIER
 ---
 
+# D3D12DDI_CONSERVATIVE_RASTERIZATION_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_CONSERVATIVE_RASTERIZATION_TIER** value identifies the tier level of conservative rasterization supported by the driver.

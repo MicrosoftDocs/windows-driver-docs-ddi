@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _STORAGE_STACK_TYPE
 ---
 
+# STORAGE_STACK_TYPE enumeration (ntddstor.h)
+
 ## -description
 
 The **STORAGE_STACK_TYPE** enum indicates the storage stack type for the device, such as SCSI, NVMe, and so on.

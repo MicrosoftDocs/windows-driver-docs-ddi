@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BTAUDIO
 ---
 
+# KSPROPERTY_BTAUDIO enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BTAUDIO** enumeration (ksmedia.h).

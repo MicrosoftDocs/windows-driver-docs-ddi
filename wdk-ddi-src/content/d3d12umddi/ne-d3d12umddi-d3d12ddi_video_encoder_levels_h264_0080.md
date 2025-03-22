@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_LEVELS_H264_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_LEVELS_H264_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_LEVELS_H264_0080** enumeration lists the possible H.264 levels, as defined in the H.264 specification.

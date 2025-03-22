@@ -39,6 +39,8 @@ helpviewer_keywords:
  - _SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE
 ---
 
+# SIDEBANDAUDIO_USB_CONTROLLER_CONFIG_INFO_TYPE enumeration (usbsidebandaudio.h)
+
 ## -description
 
 Microsoft USB Audio Sideband USB controller Set of Parameters.

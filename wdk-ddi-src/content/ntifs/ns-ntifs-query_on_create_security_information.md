@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# QUERY_ON_CREATE_SECURITY_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **QUERY_ON_CREATE_SECURITY_INFORMATION** structure is used to write file information when [**FltRequestSecurityInfoOnCreateCompletion**](../fltkernel/nf-fltkernel-fltrequestsecurityinfooncreatecompletion.md) is called in pre-create.

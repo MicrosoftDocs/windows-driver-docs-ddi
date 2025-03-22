@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetReceiveFilterGetMulticastAddressList function (netadapter.h)
+
 ## -description
 
 The **NetReceiveFilterGetMulticastAddressList** function retrieves a network adapter's multicast address list.

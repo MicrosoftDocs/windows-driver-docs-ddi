@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDataModelScript2
 ---
 
+# IDataModelScript2 interface (dbgmodel.h)
+
 ## -description
 
 This is the second version of the core script interface.

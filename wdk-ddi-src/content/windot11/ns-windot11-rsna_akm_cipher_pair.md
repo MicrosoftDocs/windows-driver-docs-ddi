@@ -39,6 +39,8 @@ helpviewer_keywords:
  - RSNA_AKM_CIPHER_PAIR
 ---
 
+# RSNA_AKM_CIPHER_PAIR structure (windot11.h)
+
 ## -description
 
 The **RSNA_AKM_CIPHER_PAIR** structure represents a Robust Security Network Association (RSNA) authentication and key management (AKM) and encryption cipher pair.

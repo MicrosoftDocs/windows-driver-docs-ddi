@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ProblemClassSetBSTR
 ---
 
+# IDebugFailureAnalysis3::ProblemClassSetBSTR function (extsfns.h)
+
 ## -description
 
 ## -parameters

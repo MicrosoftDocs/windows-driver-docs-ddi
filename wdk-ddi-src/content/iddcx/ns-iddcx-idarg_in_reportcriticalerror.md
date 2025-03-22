@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# IDARG_IN_REPORTCRITICALERROR structure (iddcx.h)
+
 ## -description
 
 The **IDARG_IN_REPORTCRITICALERROR** structure contains information about a critical error being reported by an indirect display driver (IDD).

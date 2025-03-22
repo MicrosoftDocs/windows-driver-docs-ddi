@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_GET_DRIVER_SUPPORT_LEVEL
 ---
 
+# DXGKDDI_DISPLAYMUX_GET_DRIVER_SUPPORT_LEVEL function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls a kernel-mode display driver's (KMD) **DxgkDdiDisplayMuxGetDriverSupportLevel** function to query the level of support the driver has for the [automatic display switch](/windows-hardware/drivers/display/automatic-display-switch) (ADS) feature.

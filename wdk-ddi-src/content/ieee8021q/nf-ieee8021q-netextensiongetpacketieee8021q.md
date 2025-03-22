@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetExtensionGetPacketIeee8021Q function (ieee8021q.h)
+
 ## -description
 
 The **NetExtensionGetPacketIeee8021Q** function retrieves the IEEE 802.1Q information for a [**NET_PACKET**](../packet/ns-packet-_net_packet.md).

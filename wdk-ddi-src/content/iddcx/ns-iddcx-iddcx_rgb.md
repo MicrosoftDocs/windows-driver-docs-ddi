@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_RGB
 ---
 
+# IDDCX_RGB structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_RGB** structure contains a red, green, and blue value for gamma ramp data.

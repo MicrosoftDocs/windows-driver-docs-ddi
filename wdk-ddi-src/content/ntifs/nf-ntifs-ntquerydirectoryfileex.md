@@ -41,6 +41,8 @@ dev_langs:
 ms.custom: engagement-fy23
 ---
 
+# NtQueryDirectoryFileEx function (ntifs.h)
+
 ## -description
 
 The **NtQueryDirectoryFileEx** routine returns various kinds of information about files in the directory specified by a given file handle.

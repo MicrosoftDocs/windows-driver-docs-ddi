@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_GET_RUNTIME_STATUS
 ---
 
+# DXGKDDI_DISPLAYMUX_GET_RUNTIME_STATUS function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkDdiDisplayMuxGetRuntimeStatus** function to query the runtime level of automatic display switch (ADS) support that the driver provides.

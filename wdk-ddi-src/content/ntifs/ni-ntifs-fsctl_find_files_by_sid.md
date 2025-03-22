@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_FIND_FILES_BY_SID
 ---
 
+# FSCTL_FIND_FILES_BY_SID ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_FIND_FILES_BY_SID** control code searches a directory for a file whose creator owner matches the specified security identifier (SID).

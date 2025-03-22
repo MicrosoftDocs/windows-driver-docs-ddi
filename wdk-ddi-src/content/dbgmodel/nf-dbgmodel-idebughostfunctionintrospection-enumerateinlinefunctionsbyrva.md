@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EnumerateInlineFunctionsByRVA
 ---
 
+# IDebugHostFunctionIntrospection::EnumerateInlineFunctionsByRVA function (dbgmodel.h)
+
 ## -description
 
 The EnumerateInlineFunctionsByRVA method enumerates the functions that are inlined at a specific Relative Virtual Address (RVA). The functions are enumerated from the innermost containing inline function to the outermost.

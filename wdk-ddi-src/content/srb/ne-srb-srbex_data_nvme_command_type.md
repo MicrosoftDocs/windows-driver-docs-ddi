@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# SRBEX_DATA_NVME_COMMAND_TYPE enumeration (srb.h)
+
 ## -description
 
 **SRBEX_DATA_NVME_COMMAND_TYPE** enumerates the NVMe command types.

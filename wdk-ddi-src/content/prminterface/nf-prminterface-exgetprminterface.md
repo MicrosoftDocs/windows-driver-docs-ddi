@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExGetPrmInterface
 ---
 
+# ExGetPrmInterface function (prminterface.h)
+
 ## -description
 
 This routine fills a caller-provided structure with pointers to system-supplied routines that comprise the Platform Runtime Mechanism (PRM) interface.

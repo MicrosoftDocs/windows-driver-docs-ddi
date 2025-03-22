@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetDisplayStringForLocation
 ---
 
+# IDebugHostMemory5::GetDisplayStringForLocation function (dbgmodel.h)
+
 ## -description
 
 For a given location within the address space of the target as defined by context and location, convert the location to a displayable string (according to whatever format the host chooses).

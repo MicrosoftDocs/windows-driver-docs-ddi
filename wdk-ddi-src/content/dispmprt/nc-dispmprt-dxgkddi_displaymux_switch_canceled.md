@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_SWITCH_CANCELED
 ---
 
+# DXGKDDI_DISPLAYMUX_SWITCH_CANCELED function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxSwitchCanceled** function to notify the driver that the switch sequence was canceled before being completed.

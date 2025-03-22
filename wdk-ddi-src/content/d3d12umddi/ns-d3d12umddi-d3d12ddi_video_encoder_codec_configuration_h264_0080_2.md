@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_0080_2** structure contains configuration information for an H.264 codec.

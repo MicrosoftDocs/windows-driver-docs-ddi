@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSINTERFACE_MEDIA
 ---
 
+# KSINTERFACE_MEDIA enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSINTERFACE_MEDIA** enumeration (ksmedia.h).

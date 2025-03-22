@@ -35,6 +35,8 @@ helpviewer_keywords:
  - WPA_CIPHER_SUITE
 ---
 
+# WPA_CIPHER_SUITE enumeration (windot11.h)
+
 ## -description
 
 The **WPA_CIPHER_SUITE** enumeration defines Wi-Fi Protected Access (WPA) cipher suites.

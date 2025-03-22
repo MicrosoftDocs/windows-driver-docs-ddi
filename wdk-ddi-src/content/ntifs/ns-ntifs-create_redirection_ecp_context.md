@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# CREATE_REDIRECTION_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **CREATE_REDIRECTION_ECP_CONTEXT** structure contains the extra create parameter (ECP) context that can be sent to query the redirection state of a file for a specific create operation.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UnregisterNamedModel
 ---
 
+# IDataModelManager3::UnregisterNamedModel function (dbgmodel.h)
+
 ## -description
 
 The UnregisterNamedModel method undoes a prior call to RegisterNamedModel. It removes the association between a data model and a name under which it can be looked up.

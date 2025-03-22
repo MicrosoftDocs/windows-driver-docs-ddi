@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_RECORD_V2
 ---
 
+# USN_RECORD_V2 structure (ntifs.h)
+
 ## -description
 
 The **USN_RECORD_V2** structure contains the information for an update sequence number (USN) change journal version 2.0 record. See [USN_RECORD_V2 structure (winioctl.h)](/windows/win32/api/winioctl/ns-winioctl-usn_record_v2) for details.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortEtwChannelEvent8
 ---
 
+# StorPortEtwChannelEvent8 function (storport.h)
+
 ## -description
 
 A miniport calls **StorPortEtwChannelEvent8** to log an ETW event with eight general-purpose ETW parameters to a specified channel.

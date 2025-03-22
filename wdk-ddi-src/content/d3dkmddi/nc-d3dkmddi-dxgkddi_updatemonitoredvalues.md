@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_UPDATEMONITOREDVALUES
 ---
 
+# DXGKDDI_UPDATEMONITOREDVALUES function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls **DxgkDdiUpdateMonitoredValues** to instruct the kernel-mode display driver (KMD) to update a batch of monitored values.

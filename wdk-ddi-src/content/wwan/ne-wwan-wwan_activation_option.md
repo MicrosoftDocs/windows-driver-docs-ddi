@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WWAN_ACTIVATION_OPTION
 ---
 
+# WWAN_ACTIVATION_OPTION enumeration (wwan.h)
+
 ## -description
 
 The **WWAN_ACTIVATION_OPTION** enumeration lists the Packet Data Protocol (PDP) activation options that the MB device supports.

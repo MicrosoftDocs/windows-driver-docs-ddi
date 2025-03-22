@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PsGetThreadId
 ---
 
+# PsGetThreadId function (ntddk.h)
+
 ## -description
 
 This routine returns the unique identifier (ID) of a given thread.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_SEI_SECTION
 ---
 
+# WHEA_SEI_SECTION structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_SEI_SECTION** structure.

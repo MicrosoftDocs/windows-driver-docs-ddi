@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceReceiveIndication function (wificx.h)
+
 ## -description
 
 WiFiCx drivers call the **WifiDeviceReceiveIndication** function to send a status indication to the WiFiCx framework. 

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ZwQueryDirectoryFileEx function (ntifs.h)
+
 ## -description
 
 The **ZwQueryDirectoryFileEx** routine returns various information about files in the directory specified by a given file handle.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - DvbParentalRatingParam
 ---
 
+# DvbParentalRatingParam structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **DvbParentalRatingParam** structure.

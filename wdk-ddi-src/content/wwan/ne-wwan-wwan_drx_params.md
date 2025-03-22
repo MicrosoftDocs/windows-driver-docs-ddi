@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_DRX_PARAMS enumeration (wwan.h)
+
 ## -description
 
 The **WWAN_DRX_PARAMS** enumeration lists Discontinuous Reception (DRX) settings.

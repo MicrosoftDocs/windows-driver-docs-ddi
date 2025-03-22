@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_CANCELFLIPS_PLANE
 ---
 
+# DXGK_CANCELFLIPS_PLANE structure (d3dkmddi.h)
+
 ## -description
 
 In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the **DXGK_CANCELFLIPS_PLANE** structure contains a [plane cancel request](nc-d3dkmddi-dxgkddi_cancelflips.md).

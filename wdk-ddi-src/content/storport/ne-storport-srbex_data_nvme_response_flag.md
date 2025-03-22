@@ -38,6 +38,8 @@ helpviewer_keywords:
  - SRBEX_DATA_NVME_RESPONSE_FLAG
 ---
 
+# SRBEX_DATA_NVME_RESPONSE_FLAG enumeration (storport.h)
+
 ## -description
 
 See [**SRBEX_DATA_NVME_RESPONSE_FLAG** (*srb.h*)](../srb/ne-srb-srbex_data_nvme_response_flag.md).

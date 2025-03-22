@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPrintDeviceCapabilities
 ---
 
+# IPrintTicketProvider2::GetPrintDeviceCapabilities function (prdrvcom.h)
+
 ## -description
 
 Describes the **IPrintTicketProvider2::GetPrintDeviceCapabilities** method.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_AUTH_ALGORITHM enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXGK_QUERYINTEGRATEDDISPLAYOUT
 ---
 
+# DXGK_QUERYINTEGRATEDDISPLAYOUT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_QUERYINTEGRATEDDISPLAYOUT** structure is used to output queried information for an integrated display.

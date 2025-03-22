@@ -30,6 +30,8 @@ api_name:
  - KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY
 ---
 
+# KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY structure (ksmedia.h)
+
 ## -description
 
 The **KSPROPERTY_NETWORKCAMERACONTROL_PROPERTY** enumeration defines the network camera control properties.

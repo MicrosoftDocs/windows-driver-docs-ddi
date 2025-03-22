@@ -42,6 +42,8 @@ helpviewer_keywords:
  - QUERY_VIRTUAL_MEMORY_CALLBACK
 ---
 
+# QUERY_VIRTUAL_MEMORY_CALLBACK function (ntifs.h)
+
 ## -description
 
 Reserved for system use.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_TYPE enumeration (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_TYPE** enumeration specifies the Wi-Fi adapter type.

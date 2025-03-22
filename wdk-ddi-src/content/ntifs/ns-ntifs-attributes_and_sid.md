@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _ATTRIBUTES_AND_SID
 ---
 
+# ATTRIBUTES_AND_SID structure (ntifs.h)
+
 ## -description
 
 The **ATTRIBUTES_AND_SID** structure associates a set of attributes with a security identifier (SID).

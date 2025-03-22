@@ -35,6 +35,8 @@ helpviewer_keywords:
  - ChannelChangeSpanningEvent_State
 ---
 
+# ChannelChangeSpanningEvent_State enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **ChannelChangeSpanningEvent_State** enumeration.

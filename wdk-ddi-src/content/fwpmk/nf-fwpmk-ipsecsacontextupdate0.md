@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextUpdate0
 ---
 
+# IPsecSaContextUpdate0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextUpdate0** function updates an IPsec security association (SA) context.

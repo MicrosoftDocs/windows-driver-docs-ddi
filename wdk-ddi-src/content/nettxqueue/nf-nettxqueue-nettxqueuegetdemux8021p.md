@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetTxQueueGetDemux8021p function (nettxqueue.h)
+
 ## -description
 
 The **NetTxQueueGetDemux8021p** function retrieves the IEEE 802.1p priority information associated with a transmit queue.

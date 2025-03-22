@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DOMAIN_CONFIGURATION_X64 structure (wdm.h)
+
 ## -description
 
 The **DOMAIN_CONFIGURATION_X64** structure is reserved for system use only.

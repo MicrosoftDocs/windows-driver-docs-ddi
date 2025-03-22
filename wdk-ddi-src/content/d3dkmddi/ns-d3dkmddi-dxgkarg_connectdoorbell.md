@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CONNECTDOORBELL
 ---
 
+# DXGKARG_CONNECTDOORBELL structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CONNECTDOORBELL** structure contains parameters for [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md).

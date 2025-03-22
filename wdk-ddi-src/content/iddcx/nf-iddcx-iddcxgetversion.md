@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IddCxGetVersion function (iddcx.h)
+
 ## -description
 
 **IddCxGetVersion** is an OS callback function that an indirect display (ID) driver calls to obtain the IddCx version (Indirect Display Driver Class eXtension).

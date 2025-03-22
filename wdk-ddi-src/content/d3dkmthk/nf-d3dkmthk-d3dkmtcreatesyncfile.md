@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTCreateSyncFile
 ---
 
+# D3DKMTCreateSyncFile function (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

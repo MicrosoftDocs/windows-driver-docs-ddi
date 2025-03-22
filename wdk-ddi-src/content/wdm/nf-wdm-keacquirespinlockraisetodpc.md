@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireSpinLockRaiseToDpc
 ---
 
+# KeAcquireSpinLockRaiseToDpc function (wdm.h)
+
 ## -description
 
 The **KeAcquireSpinLockRaiseToDpc** routine is a faster version of the [**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md) routine.

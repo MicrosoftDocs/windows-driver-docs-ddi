@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FAILURE_PREDICTION_METHOD
 ---
 
+# FAILURE_PREDICTION_METHOD enumeration (classpnp.h)
+
 ## -description
 
 The **FAILURE_PREDICTION_METHOD** enum specifies which method to use for failure prediction.

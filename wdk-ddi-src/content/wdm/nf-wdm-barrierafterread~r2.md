@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BarrierAfterRead
 ---
 
+# BarrierAfterRead function (wdm.h)
+
 ## -description
 
 Describes the *BarrierAfterRead~r2* function.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortEtwLogByteStream function (storport.h)
+
 ## -description
 
 **StorPortEtwLogByteStream** logs an Event Tracing for Windows (ETW) event with a general purpose byte stream parameter to the specified channel.

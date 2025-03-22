@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_PIDFILTER
 ---
 
+# KSPROPERTY_BDA_PIDFILTER enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_PIDFILTER** enumeration.

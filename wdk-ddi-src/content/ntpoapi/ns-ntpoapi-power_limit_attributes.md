@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _POWER_LIMIT_ATTRIBUTES
 ---
 
+# POWER_LIMIT_ATTRIBUTES structure (ntpoapi.h)
+
 ## -description
 
  The **POWER_LIMIT_ATTRIBUTES** structure describes the attributes of each power limit type.

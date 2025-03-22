@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_ITD3D
 ---
 
+# KSPROPERTY_ITD3D enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_ITD3D** enumeration (ksmedia.h).

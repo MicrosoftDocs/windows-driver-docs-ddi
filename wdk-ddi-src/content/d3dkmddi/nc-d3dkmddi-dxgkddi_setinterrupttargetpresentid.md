@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SETINTERRUPTTARGETPRESENTID
 ---
 
+# DXGKDDI_SETINTERRUPTTARGETPRESENTID function (d3dkmddi.h)
+
 ## -description
 
 The OS calls a display driver's **DXGKDDI_SETINTERRUPTTARGETPRESENTID** function to specify the target PresentId that should result in a Vsync interrupt being raised when the corresponding flip is completed.

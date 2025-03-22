@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPrintDeviceResources
 ---
 
+# IPrintTicketProvider2::GetPrintDeviceResources function (prdrvcom.h)
+
 ## -description
 
 Describes the **IPrintTicketProvider2::GetPrintDeviceResources** method.

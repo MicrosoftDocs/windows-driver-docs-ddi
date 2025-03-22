@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D10DDIRESOURCE_TYPE
 ---
 
+# D3D10DDIRESOURCE_TYPE enumeration (d3d10umddi.h)
+
 ## -description
 
 The **D3D10DDIRESOURCE_TYPE** enumeration identifies the type of a resource.

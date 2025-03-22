@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_TX_DEMUX structure (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_TX_DEMUX** structure specifies Tx DEMUX information. 

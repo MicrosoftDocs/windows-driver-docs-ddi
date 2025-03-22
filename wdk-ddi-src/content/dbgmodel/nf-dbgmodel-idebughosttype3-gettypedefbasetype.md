@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetTypedefBaseType
 ---
 
+# IDebugHostType3::GetTypedefBaseType function (dbgmodel.h)
+
 ## -description
 
 The GetTypedefBaseType method will return what the immediate definition of the typedef. In this example: 

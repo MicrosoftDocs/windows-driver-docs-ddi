@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_PHY_INFO structure (wificx.h)
+
 ## -description
 
 The **WIFI_PHY_INFO** structure contains PHY information. 

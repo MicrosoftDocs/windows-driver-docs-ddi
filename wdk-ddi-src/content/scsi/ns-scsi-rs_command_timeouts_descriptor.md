@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RS_COMMAND_TIMEOUTS_DESCRIPTOR
 ---
 
+# RS_COMMAND_TIMEOUTS_DESCRIPTOR structure (scsi.h)
+
 ## -description
 
 The **RS_COMMAND_TIMEOUTS_DESCRIPTOR** structure contains command timeout information from the start of processing a command to its reported completion.

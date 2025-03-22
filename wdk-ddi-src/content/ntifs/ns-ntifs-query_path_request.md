@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# QUERY_PATH_REQUEST structure (ntifs.h)
+
 ## -description
 
 The **QUERY_PATH_REQUEST** structure contains the prefix resolution request for [**IOCTL_REDIR_QUERY_PATH**](ni-ntifs-ioctl_redir_query_path.md).

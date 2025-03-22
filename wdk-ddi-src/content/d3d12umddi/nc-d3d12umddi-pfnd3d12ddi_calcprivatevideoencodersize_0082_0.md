@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0 function (d3d12umddi.h)
+
 ## -description
 
 A client driver's **PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0** callback function calculates the required amount of memory needed for the driver's object that represents the video encoder.

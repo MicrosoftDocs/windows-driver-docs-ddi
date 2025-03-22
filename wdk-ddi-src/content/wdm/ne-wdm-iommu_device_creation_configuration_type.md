@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _IOMMU_DEVICE_CREATION_CONFIGURATION_TYPE
 ---
 
+# IOMMU_DEVICE_CREATION_CONFIGURATION_TYPE enumeration (wdm.h)
+
 ## -description
 
 Describes the configuration types that are used upon **IOMMU_DMA_DEVICE** creation depending on the device type and the system.

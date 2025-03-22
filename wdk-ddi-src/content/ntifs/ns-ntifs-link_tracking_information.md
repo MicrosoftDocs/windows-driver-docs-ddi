@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _LINK_TRACKING_INFORMATION
 ---
 
+# LINK_TRACKING_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **LINK_TRACKING_INFORMATION** structure contains the link tracking information of the file.

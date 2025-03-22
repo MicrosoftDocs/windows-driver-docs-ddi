@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NPEM_CONTROL_QUERY_STANDARD_CAPABILITIES function (wdm.h)
+
 ## -description
 
 Reserved for system use.

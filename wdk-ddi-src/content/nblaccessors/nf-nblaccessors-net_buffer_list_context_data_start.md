@@ -43,6 +43,8 @@ helpviewer_keywords:
  - NET_BUFFER_LIST_CONTEXT_DATA_START
 ---
 
+# NET_BUFFER_LIST_CONTEXT_DATA_START function (nblaccessors.h)
+
 ## -description
 
 **NET_BUFFER_LIST_CONTEXT_DATA_START** is a macro that NDIS drivers use to get a pointer to the [**NET_BUFFER_LIST_CONTEXT**](../nbl/ns-nbl-net_buffer_list_context.md) context space that is associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.

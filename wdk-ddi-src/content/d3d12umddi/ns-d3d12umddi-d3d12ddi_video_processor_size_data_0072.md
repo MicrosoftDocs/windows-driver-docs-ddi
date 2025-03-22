@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072 structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_VIDEO_PROCESSOR_SIZE_DATA_0072** is the structure for the [**D3D12DDICAPS_TYPE_VIDEO_0032_PROCESSOR_SIZE**](ne-d3d12umddi-d3d12ddicaps_type_video_0020.md) capability check when the video feature version is **D3D12DDI_FEATURE_VERSION_VIDEO_0072_0**. It is used to retrieve the memory allocation size of a video processor created with the given properties.

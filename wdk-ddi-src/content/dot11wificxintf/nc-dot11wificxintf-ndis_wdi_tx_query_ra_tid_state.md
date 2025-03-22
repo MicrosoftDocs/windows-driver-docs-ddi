@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_TX_QUERY_RA_TID_STATE function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

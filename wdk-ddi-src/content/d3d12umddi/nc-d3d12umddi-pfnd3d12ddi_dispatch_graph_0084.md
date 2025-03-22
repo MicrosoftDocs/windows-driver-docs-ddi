@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_DISPATCH_GRAPH_0084
 ---
 
+# PFND3D12DDI_DISPATCH_GRAPH_0084 function (d3d12umddi.h)
+
 ## -description
 
 UMD's **PFND3D12DDI_DISPATCH_GRAPH_0084** function dispatches a work graph for execution on the GPU.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortPoFxSetPerfState function (storport.h)
+
 ## -description
 
 **StorPortPoFxSetPerfState** sets a component's P-state (performance or "perf" state).

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_BDA_USERACTIVITY_SERVICE
 ---
 
+# KSMETHOD_BDA_USERACTIVITY_SERVICE enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_BDA_USERACTIVITY_SERVICE** enumeration.

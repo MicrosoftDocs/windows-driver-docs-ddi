@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetName
 ---
 
+# IDebugHostFunctionLocalDetails::GetName function (dbgmodel.h)
+
 ## -description
 
 The GetName method retrieves the name of the local variable.

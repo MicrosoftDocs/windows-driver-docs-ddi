@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::UnloadModule function (dbgeng.h)
+
 ## -description
 
 The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.

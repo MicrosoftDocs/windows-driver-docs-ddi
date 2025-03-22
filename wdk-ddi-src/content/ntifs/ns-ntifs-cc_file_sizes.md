@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _CC_FILE_SIZES
 ---
 
+# CC_FILE_SIZES structure (ntifs.h)
+
 ## -description
 
 The **CC_FILE_SIZES** structure contains file size information.

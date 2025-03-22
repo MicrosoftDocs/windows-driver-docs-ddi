@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SDBUS_REQUEST_PACKET
 ---
 
+# SDBUS_REQUEST_PACKET structure (ntddsd.h)
+
 ## -description
 
 The **SDBUS_REQUEST_PACKET** structure specifies the parameters for the individual requests and commands that the [**SdBusSubmitRequest**](nf-ntddsd-sdbussubmitrequest.md) routine sends to the bus driver.

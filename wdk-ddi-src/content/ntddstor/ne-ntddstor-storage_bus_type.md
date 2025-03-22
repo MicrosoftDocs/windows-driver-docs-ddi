@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_BUS_TYPE enumeration (ntddstor.h)
+
 ## -description
 
 The STORAGE_BUS_TYPE enumeration provides a symbolic means of representing the various types of storage buses.

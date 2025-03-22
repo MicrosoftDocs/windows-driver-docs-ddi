@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# D3DDDI_DLIST_QUERY_RESULT enumeration (d3dumddi.h)
+
 ## -description
 
 A **D3DDDI_DLIST_QUERY_RESULT** enum value describes the GPU preference returned by [**pfnQueryDlistForApplication2Cb**](nc-d3dumddi-pfnd3dddi_querydlistforapplication2.md) for the queried application.

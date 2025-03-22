@@ -42,6 +42,8 @@ helpviewer_keywords:
  - LinearizeLocation
 ---
 
+# IDebugHostMemory3::LinearizeLocation function (dbgmodel.h)
+
 ## -description
 
 Takes a location which may represent something other than a virtual memory address and attempts to linearize the location into a virtual memory address within the given context.  This operation may fail if the location cannot be represented by a virtual address (e.g.: it's a register).

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGKARG_QUERYDIRTYBITDATAFLAGS
 ---
 
+# DXGKARG_QUERYDIRTYBITDATAFLAGS enumeration (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_QUERYDIRTYBITDATAFLAGS** enumeration specifies flags for a call to [**DxgkDdiQueryDirtyBitData**](nc-d3dkmddi-dxgkddi_querydirtybitdata.md).

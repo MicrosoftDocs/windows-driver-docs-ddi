@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaAddHwErrorReportSectionDeviceDriver function (ntddk.h)
+
 ## -description
 
 This routine adds a new section to an error report, and hands the caller a buffer set that can be populated with information.

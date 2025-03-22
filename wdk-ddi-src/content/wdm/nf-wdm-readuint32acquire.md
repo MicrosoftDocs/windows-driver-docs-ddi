@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadUInt32Acquire
 ---
 
+# ReadUInt32Acquire function (wdm.h)
+
 ## -description
 
 ## -parameters

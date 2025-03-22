@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CBR_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CBR_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CBR_0080** structure contains the rate control definition for constant bitrate (CBR) mode.

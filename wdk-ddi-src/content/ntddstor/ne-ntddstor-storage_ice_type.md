@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _STORAGE_ICE_TYPE
 ---
 
+# STORAGE_ICE_TYPE enumeration (ntddstor.h)
+
 ## -description
 
 The **STORAGE_ICE_TYPE** enum indicates the ICE type of the storage device.

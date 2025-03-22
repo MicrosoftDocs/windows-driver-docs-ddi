@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# SRBEX_DATA_NVME_COMMAND structure (srb.h)
+
 ## -description
 
 The **SRBEX_DATA_NVME_COMMAND** structure enables the user to frame and issue a command in NVMe format. This structure is currently reserved for system use.

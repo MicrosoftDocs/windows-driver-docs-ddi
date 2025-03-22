@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_UICC_TERMINAL_CAPABILITY_INFO
 ---
 
+# WWAN_UICC_TERMINAL_CAPABILITY_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_UICC_TERMINAL_CAPABILITY_INFO** structure represents information about the terminal capabilities of the host. 

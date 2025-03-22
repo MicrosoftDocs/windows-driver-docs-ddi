@@ -32,6 +32,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0 enumeration (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_VIDEO_ENCODER_CODEC_CONFIGURATION_H264_SLICES_DEBLOCKING_MODES_0082_0** values correspond with the block edge filtering configuration values identified by the *disable_deblocking_filter_idc* syntax in the H.264 specification.

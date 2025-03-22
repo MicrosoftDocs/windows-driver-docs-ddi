@@ -42,6 +42,8 @@ helpviewer_keywords:
  - VIDEO_BRIGHTNESS_POLICY
 ---
 
+# VIDEO_BRIGHTNESS_POLICY structure (ntddvdeo.h)
+
 ## -description
 
 The **VIDEO_BRIGHTNESS_POLICY** structure is used for setting brightness policy through the [Device Power Policy Manager](/windows-hardware/drivers/kernel/managing-device-power-policy).

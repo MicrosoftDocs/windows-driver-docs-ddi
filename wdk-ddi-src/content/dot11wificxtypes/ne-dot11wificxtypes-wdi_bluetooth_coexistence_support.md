@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_BLUETOOTH_COEXISTENCE_SUPPORT enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

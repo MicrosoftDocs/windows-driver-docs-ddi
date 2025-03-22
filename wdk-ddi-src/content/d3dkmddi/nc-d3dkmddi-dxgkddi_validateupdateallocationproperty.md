@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_VALIDATEUPDATEALLOCATIONPROPERTY
 ---
 
+# DXGKDDI_VALIDATEUPDATEALLOCATIONPROPERTY function (d3dkmddi.h)
+
 ## -description
 
 The **DXGKDDI_VALIDATEUPDATEALLOCATIONPROPERTY** function validates the update of an allocation property.

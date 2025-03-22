@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsEqualTo
 ---
 
+# IDebugHostContext2::IsEqualTo function (dbgmodel.h)
+
 ## -description
 
 Returns whether two [IDebugHostContext2](nn-dbgmodel-idebughostcontext2.md) objects are equal by value.  Note that there is no requirement for a debug host to have interface pointer equality for two contexts which are equivalent.  The actual contexts can be compared through this method.

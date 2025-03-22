@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_REJECTED_SNSSAI_LIST
 ---
 
+# WWAN_REJECTED_SNSSAI_LIST structure (wwan.h)
+
 ## -description
 
 The **WWAN_REJECTED_SNSSAI_LIST** structure represents a list of single Network Slice Selection Assistance Information (S-NSSAIs) that are not allowed in the current PLMN or registration area.

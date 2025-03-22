@@ -38,6 +38,8 @@ helpviewer_keywords:
  - KD_CALLBACK_ACTION
 ---
 
+# KD_CALLBACK_ACTION enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **KD_CALLBACK_ACTION** enumeration.

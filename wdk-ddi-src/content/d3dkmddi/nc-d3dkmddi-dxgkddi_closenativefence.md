@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CLOSENATIVEFENCE
 ---
 
+# DXGKDDI_CLOSENATIVEFENCE function (d3dkmddi.h)
+
 ## -description
 
 **DxgkDdiCloseNativeFence** is called by the OS to close a native GPU fence object.

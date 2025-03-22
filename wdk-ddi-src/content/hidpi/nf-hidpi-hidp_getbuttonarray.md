@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HidP_GetButtonArray function (hidpi.h)
+
 ## -description
 
 **HidP_GetButtonArray** returns an array of [HIDP_BUTTON_ARRAY_DATA](ns-hidpi-hidp_button_array_data.md) structures for the specified report.

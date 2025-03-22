@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteInt32NoFence
 ---
 
+# WriteInt32NoFence function (miniport.h)
+
 ## -description
 
 This topic describes the **WriteInt32NoFence** function.

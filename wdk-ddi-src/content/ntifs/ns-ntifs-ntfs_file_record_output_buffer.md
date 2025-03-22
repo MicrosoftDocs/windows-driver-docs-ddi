@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NTFS_FILE_RECORD_OUTPUT_BUFFER
 ---
 
+# NTFS_FILE_RECORD_OUTPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 The **NTFS_FILE_RECORD_OUTPUT_BUFFER** structure receives the output data from the [**FSCTL_GET_NTFS_FILE_RECORD**](ni-ntifs-fsctl_get_ntfs_file_record.md) control code.

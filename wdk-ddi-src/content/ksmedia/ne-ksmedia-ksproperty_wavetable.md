@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_WAVETABLE
 ---
 
+# KSPROPERTY_WAVETABLE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_WAVETABLE** enumeration (ksmedia.h).

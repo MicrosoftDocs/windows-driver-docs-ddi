@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_BUILDPAGINGBUFFER_NOTIFYALLOC
 ---
 
+# DXGK_BUILDPAGINGBUFFER_NOTIFYALLOC structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_BUILDPAGINGBUFFER_NOTIFYALLOC** structure is used to notify the kernel-mode driver (KMD) of an allocation that is about to be used in a [**DXGK_OPERATION_NOTIFY_ALLOC**](ne-d3dkmddi-_dxgk_buildpagingbuffer_operation.md) paging operation.

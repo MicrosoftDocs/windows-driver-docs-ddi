@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _CC_DIRTY_PAGES_INFO
 ---
 
+# CC_DIRTY_PAGES_INFO structure (ntifs.h)
+
 ## -description
 
 The **CC_DIRTY_PAGES_INFO** structure contains information about dirty page statistics for an external cache.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TX_FRAME_STATUS enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsVirtual
 ---
 
+# IDebugHostBaseClass2::IsVirtual function (dbgmodel.h)
+
 ## -description
 
 The IsVirtual method indicates whether a particular base class is a virtual base class. This distinction is important in the context of class hierarchies, especially when handling virtual inheritance scenarios.

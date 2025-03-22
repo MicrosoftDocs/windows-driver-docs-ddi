@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_AC3
 ---
 
+# KSPROPERTY_AC3 enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AC3** enumeration (ksmedia.h).

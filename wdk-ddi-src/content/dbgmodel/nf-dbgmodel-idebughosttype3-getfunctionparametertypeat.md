@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetFunctionParameterTypeAt
 ---
 
+# IDebugHostType3::GetFunctionParameterTypeAt function (dbgmodel.h)
+
 ## -description
 
 The GetFunctionParameterTypeAt method returns the type of the i-th argument to the function.

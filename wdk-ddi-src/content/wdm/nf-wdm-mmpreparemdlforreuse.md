@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# MmPrepareMdlForReuse function (wdm.h)
+
 ## -description
 
 The **MmPrepareMdlForReuse** macro releases the resources that are associated with a partial MDL so that the MDL can be reused.

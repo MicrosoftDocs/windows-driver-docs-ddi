@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRI_FULL_STATUS_LIST
 ---
 
+# PRI_FULL_STATUS_LIST structure (scsi.h)
+
 ## -description
 
 The **PRI_FULL_STATUS_LIST** structure is returned in response to a Persistent Reserve In command with `ServiceAction=RESERVATION_ACTION_READ_FULL_STATUS`.

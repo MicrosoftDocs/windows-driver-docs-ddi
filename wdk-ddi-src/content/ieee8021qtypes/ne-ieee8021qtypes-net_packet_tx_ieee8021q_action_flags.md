@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS enumeration (ieee8021qtypes.h)
+
 ## -description
 
 NetAdapterCx sets the **NET_PACKET_TX_IEEE8021Q_ACTION_FLAGS** enum to specify the IEEE 802.1 priority tagging and virtual LAN (VLAN) tagging capabilities that the client driver supports.

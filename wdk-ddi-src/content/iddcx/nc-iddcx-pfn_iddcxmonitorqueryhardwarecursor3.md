@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFN_IDDCXMONITORQUERYHARDWARECURSOR3
 ---
 
+# PFN_IDDCXMONITORQUERYHARDWARECURSOR3 function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXMONITORQUERYHARDWARECURSOR3** is a pointer to an OS callback function that retrieves the current hardware cursor information for the specified monitor.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA
 ---
 
+# IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA structure (iddcx.h)
+
 ## -description
 
 The **IDARG_IN_MONITOR_SET_DEFAULT_HDR_METADATA** structure contains the input arguments for the [**EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA**](nc-iddcx-evt_idd_cx_monitor_set_default_hdr_metadata.md) callback function.

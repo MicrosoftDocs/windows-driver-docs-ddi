@@ -42,6 +42,8 @@ helpviewer_keywords:
  - MOVE_FILE_DATA
 ---
 
+# MOVE_FILE_DATA structure (ntifs.h)
+
 ## -description
 
 The **MOVE_FILE_DATA** structure contains input data for the [**FSCTL_MOVE_FILE**](ni-ntifs-fsctl_move_file.md) control code.

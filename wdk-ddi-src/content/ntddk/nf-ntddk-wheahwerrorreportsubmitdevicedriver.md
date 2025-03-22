@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaHwErrorReportSubmitDeviceDriver function (ntddk.h)
+
 ## -description
 
 This routine submits an in progress error report to WHEA to be reported as a hardware error.

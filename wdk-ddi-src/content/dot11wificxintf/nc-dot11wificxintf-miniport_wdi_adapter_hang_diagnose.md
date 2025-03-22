@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_ADAPTER_HANG_DIAGNOSE function (dot11wificxintf.h)
+
 
 ## -description
 

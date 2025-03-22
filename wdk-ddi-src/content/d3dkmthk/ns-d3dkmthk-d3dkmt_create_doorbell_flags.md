@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_CREATE_DOORBELL_FLAGS
 ---
 
+# D3DKMT_CREATE_DOORBELL_FLAGS structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_CREATE_DOORBELL_FLAGS** structure specifies flags for [creating a doorbell](nf-d3dkmthk-d3dkmtcreatedoorbell.md).

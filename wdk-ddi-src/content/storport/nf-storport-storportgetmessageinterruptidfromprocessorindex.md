@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortGetMessageInterruptIDFromProcessorIndex
 ---
 
+# StorPortGetMessageInterruptIDFromProcessorIndex function (storport.h)
+
 ## -description
 
 A Storport miniport can call **StorPortGetMessageInterruptIDFromProcessorIndex** to get the message interrupt ID of the specified processor index.

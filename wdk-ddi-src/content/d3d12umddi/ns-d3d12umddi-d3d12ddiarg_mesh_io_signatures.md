@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_MESH_IO_SIGNATURES structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_MESH_IO_SIGNATURES** structure describes a set of signatures for a given mesh shader's output primitives and vertices.

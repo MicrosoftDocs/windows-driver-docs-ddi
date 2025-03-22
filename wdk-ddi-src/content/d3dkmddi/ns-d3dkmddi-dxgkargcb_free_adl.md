@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_FREE_ADL structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARGCB_FREE_ADL** contains the information used by the [**DXGKCB_FREEADL**](nc-d3dkmddi-dxgkcb_freeadl.md) callback function to destroy an address descriptor list (ADL).

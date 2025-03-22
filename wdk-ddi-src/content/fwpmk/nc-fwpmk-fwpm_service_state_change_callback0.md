@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FWPM_SERVICE_STATE_CHANGE_CALLBACK0
 ---
 
+# FWPM_SERVICE_STATE_CHANGE_CALLBACK0 function (fwpmk.h)
+
 ## -description
 
 The **FWPM_SERVICE_STATE_CHANGE_CALLBACK0** function is implemented by a WFP callout driver to add custom behavior to the base filtering engine (BFE) service state change notification process.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_TDR_PAYLOAD_ENGINE_TIMEOUT
 ---
 
+# DXGK_TDR_PAYLOAD_ENGINE_TIMEOUT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_TDR_PAYLOAD_ENGINE_TIMEOUT** structure contains the payload for a [**DxgkDdiCollectDbgInfo2**](nc-d3dkmddi-dxgkddi_collectdbginfo2.md) call when **TdrType** is **DXGK_TDR_TYPE_ENGINE_TIMEOUT**.

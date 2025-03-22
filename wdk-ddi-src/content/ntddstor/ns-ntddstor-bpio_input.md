@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# BPIO_INPUT structure (ntddstor.h)
+
 ## -description
 
 The BPIO_INPUT structure specifies the requested BypassIO operation and flags for the [**IOCTL_STORAGE_MANAGE_BYPASS_IO**](ni-ntddstor-ioctl_storage_manage_bypass_io.md) control code.

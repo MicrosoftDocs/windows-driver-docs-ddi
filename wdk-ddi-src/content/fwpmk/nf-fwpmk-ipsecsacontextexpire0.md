@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextExpire0
 ---
 
+# IPsecSaContextExpire0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextExpire0** function indicates that an IPsec security association (SA) context should be expired.

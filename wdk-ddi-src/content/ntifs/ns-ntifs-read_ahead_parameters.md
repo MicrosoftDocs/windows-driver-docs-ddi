@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _READ_AHEAD_PARAMETERS
 ---
 
+# READ_AHEAD_PARAMETERS structure (ntifs.h)
+
 ## -description
 
 The **READ_AHEAD_PARAMETERS** structure contains read-ahead parameters.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# HIDSPICX_DEVICE_CONFIG structure (hidspicx.h)
+
 ## -description
 
 The **HIDSPICX_DEVICE_CONFIG** structure provides configuration information to the class extension.

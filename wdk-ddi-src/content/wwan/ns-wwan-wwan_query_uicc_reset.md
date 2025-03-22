@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_QUERY_UICC_RESET
 ---
 
+# WWAN_QUERY_UICC_RESET structure (wwan.h)
+
 ## -description
 
 The **WWAN_QUERY_UICC_RESET** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_RESET](/windows-hardware/drivers/network/oid-wwan-uicc-reset) query request.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WdfDriverOpenPersistentStateRegistryKey function (wdfdriver.h)
+
 ## -description
 
 Drivers should use **WdfDriverOpenPersistentStateRegistryKey** to write driver wide persistent information to the registry. 

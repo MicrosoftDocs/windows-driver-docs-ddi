@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_PREPARELIVEMIGRATION
 ---
 
+# DXGKDDI_PREPARELIVEMIGRATION function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls KMD's **DxgkDdiPrepareLiveMigration** function to notify the driver to prepare for a live migration that is about to start.

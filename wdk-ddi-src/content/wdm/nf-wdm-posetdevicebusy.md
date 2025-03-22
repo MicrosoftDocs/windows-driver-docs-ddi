@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# PoSetDeviceBusy function (wdm.h)
+
 ## -description
 
 The **PoSetDeviceBusy** macro notifies the [power manager](/windows-hardware/drivers/kernel/power-manager) that the device associated with _IdlePointer_ is busy.

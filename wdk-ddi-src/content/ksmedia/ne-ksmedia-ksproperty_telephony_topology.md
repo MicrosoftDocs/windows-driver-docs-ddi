@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_TELEPHONY_TOPOLOGY
 ---
 
+# KSPROPERTY_TELEPHONY_TOPOLOGY enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_TELEPHONY_TOPOLOGY** enumeration (ksmedia.h).

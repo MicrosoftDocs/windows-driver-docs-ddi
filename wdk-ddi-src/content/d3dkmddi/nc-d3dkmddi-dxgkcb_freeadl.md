@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_FREEADL function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_FREEADL** destroys an address descriptor list (ADL) created in a prior call to [**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md).

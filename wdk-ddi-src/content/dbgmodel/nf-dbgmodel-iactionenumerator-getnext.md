@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetNext
 ---
 
+# IActionEnumerator::GetNext function (dbgmodel.h)
+
 ## -description
 
 Retrieves the next action available for the object that implements the IActionEnumerator interface.

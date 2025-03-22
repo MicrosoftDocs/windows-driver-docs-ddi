@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SEC_SESSION_TICKET
 ---
 
+# SEC_SESSION_TICKET structure (ntifs.h)
+
 ## -description
 
 The **SEC_SESSION_TICKET** structure is used to represent a session ticket in secure communication protocols. It contains information about the session ticket size and the actual ticket data.

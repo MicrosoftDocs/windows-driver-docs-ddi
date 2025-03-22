@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDICAPS_VIDEO_ENCODER_PROFILE_LEVEL_DATA_0080_2
 ---
 
+# D3D12DDICAPS_VIDEO_ENCODER_PROFILE_LEVEL_DATA_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDICAPS_VIDEO_ENCODER_PROFILE_LEVEL_DATA_0080_2** structure is used to check whether the adapter supports the specified profile for video encoding and return the supported levels range for that profile.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadBooleanRaw
 ---
 
+# ReadBooleanRaw function (wdm.h)
+
 ## -description
 
 This topic describes the **ReadBooleanRaw** function.

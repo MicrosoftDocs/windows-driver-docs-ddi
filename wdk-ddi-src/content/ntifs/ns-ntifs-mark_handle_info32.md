@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# MARK_HANDLE_INFO32 structure (ntifs.h)
+
 ## -description
 
 Version of [**MARK_HANDLE_INFO**](ns-ntifs-mark_handle_info.md) structure used for [thunking](/windows-hardware/drivers/kernel/why-thunking-is-necessary). See **MARK_HANDLE_INFO** for member descriptions and details.

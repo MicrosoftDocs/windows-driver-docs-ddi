@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateErrorObject
 ---
 
+# IDataModelManager3::CreateErrorObject function (dbgmodel.h)
+
 ## -description
 
 The CreateErrorObject method creates an "error object". The data model does not have the notion of exceptions and exception flow. Failure comes out of a property/method in two ways: 

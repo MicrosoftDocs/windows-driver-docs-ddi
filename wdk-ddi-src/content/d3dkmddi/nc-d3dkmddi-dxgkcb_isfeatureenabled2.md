@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_ISFEATUREENABLED2
 ---
 
+# DXGKCB_ISFEATUREENABLED2 function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver (KMD) calls **DXGKCB_ISFEATUREENABLED2** to query whether the OS has enabled a feature.

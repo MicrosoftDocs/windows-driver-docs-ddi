@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CanonicalizeLocation
 ---
 
+# IDebugHostMemory4::CanonicalizeLocation function (dbgmodel.h)
+
 ## -description
 
 CanonicalizeLocation is a method that transforms a given location to its "canonical representation", which is a chosen standard form. It can handle different types of locations, for example, virtual memory and register, that can be represented in several ways.

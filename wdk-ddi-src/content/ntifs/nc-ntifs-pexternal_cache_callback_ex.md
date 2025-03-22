@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PEXTERNAL_CACHE_CALLBACK_EX
 ---
 
+# PEXTERNAL_CACHE_CALLBACK_EX function (ntifs.h)
+
 ## -description
 
 The **PEXTERNAL_CACHE_CALLBACK_EX** callback function is called by the cache manager (*Cc*) on every lazy write scan.

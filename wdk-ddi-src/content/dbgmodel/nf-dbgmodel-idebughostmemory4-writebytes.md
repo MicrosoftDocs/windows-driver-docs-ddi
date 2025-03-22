@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteBytes
 ---
 
+# IDebugHostMemory4::WriteBytes function (dbgmodel.h)
+
 ## -description
 
 Writes a number of bytes to the address space of the target as defined by the inpassed context and location.

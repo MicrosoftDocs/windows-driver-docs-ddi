@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PsGetProcessStartKey
 ---
 
+# PsGetProcessStartKey function (ntddk.h)
+
 ## -description
 
 This routine generates an identifier for a process which is unique across boot sessions.

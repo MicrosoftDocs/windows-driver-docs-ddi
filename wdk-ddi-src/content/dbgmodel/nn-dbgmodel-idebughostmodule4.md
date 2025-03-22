@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostModule4
 ---
 
+# IDebugHostModule4 interface (dbgmodel.h)
+
 ## -description
 
 Version 4 of an ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular module.

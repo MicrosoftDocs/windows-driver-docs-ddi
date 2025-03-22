@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_CREATERESOURCE_0075 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_CREATERESOURCE_0075** structure contains the information needed to create or calculate the size of a resource.

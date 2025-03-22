@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_EXPRESS_LINK_CONTROL_2_REGISTER
 ---
 
+# PCI_EXPRESS_LINK_CONTROL_2_REGISTER structure (ntddk.h)
+
 ## -description
 
 The **PCI_EXPRESS_LINK_CONTROL_2_REGISTER** structure describes a PCI Express (PCIe) link control 2 register of a PCIe capability structure. This is an extension of the PCIe link control register.

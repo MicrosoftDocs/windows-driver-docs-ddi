@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_POLL_NOTIFICATION structure (poll.h)
+
 ## -description
 
 The **NDIS_POLL_NOTIFICATION** structure contains the interrupt state associated with a Poll object. 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRM_LOCK_MODULE
 ---
 
+# PRM_LOCK_MODULE function (prminterface.h)
+
 ## -description
 
 This routine locks a PRM module in memory and prevents it from being updated by the OS runtime.

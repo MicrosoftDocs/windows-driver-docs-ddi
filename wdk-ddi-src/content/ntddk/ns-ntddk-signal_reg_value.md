@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SIGNAL_REG_VALUE
 ---
 
+# SIGNAL_REG_VALUE structure (ntddk.h)
+
 ## -description
 
 This topic describes the **PROCESS_MITIGATION_USER_POINTER_AUTH_POLICY** structure.

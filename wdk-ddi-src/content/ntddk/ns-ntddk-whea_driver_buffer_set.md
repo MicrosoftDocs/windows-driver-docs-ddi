@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_DRIVER_BUFFER_SET structure (ntddk.h)
+
 ## -description
 
 This structure stores WHEA error report data.

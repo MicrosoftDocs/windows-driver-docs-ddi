@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ConvertDevModeToPrintTicket
 ---
 
+# IPrintTicketProvider::ConvertDevModeToPrintTicket function (prdrvcom.h)
+
 ## -description
 
 The **IPrintTicketProvider::ConvertDevModeToPrintTicket** method converts a **DEVMODEW** structure into a print ticket.

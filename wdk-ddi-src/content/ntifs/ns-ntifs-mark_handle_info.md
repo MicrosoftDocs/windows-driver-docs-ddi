@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# MARK_HANDLE_INFO structure (ntifs.h)
+
 ## -description
 
 A **MARK_HANDLE_INFO** structure is passed as the input buffer during a [**FSCTL_MARK_HANDLE**](ni-ntifs-fsctl_mark_handle.md) control code request.

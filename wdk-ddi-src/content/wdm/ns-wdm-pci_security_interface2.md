@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PCI_SECURITY_INTERFACE2 structure (wdm.h)
+
 ## -description
 
 Defines the **PCI_SECURITY_INTERFACE2** structure.

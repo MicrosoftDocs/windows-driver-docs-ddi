@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEAP_ROW_FAILURE_EVENT
 ---
 
+# WHEAP_ROW_FAILURE_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEAP_ROW_FAILURE_EVENT** structure.

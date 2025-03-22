@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# RKF_BYPASS_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **RKF_BYPASS_ECP_CONTEXT** structure contains the extra create parameter (ECP) context for the Resume Key Filter (RKF)  for an RKF bypass handle.

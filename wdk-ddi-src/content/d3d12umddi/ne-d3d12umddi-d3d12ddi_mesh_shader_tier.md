@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_MESH_SHADER_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_MESH_SHADER_TIER** specifies the mesh shader tier.

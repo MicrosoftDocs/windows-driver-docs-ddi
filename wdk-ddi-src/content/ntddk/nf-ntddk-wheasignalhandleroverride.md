@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WheaSignalHandlerOverride
 ---
 
+# WheaSignalHandlerOverride function (ntddk.h)
+
 ## -description
 
 This topic describes the **WheaSignalHandlerOverride** function.

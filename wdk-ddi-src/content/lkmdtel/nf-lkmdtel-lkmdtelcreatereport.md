@@ -42,6 +42,8 @@ helpviewer_keywords:
  - LkmdTelCreateReport
 ---
 
+# LkmdTelCreateReport function (lkmdtel.h)
+
 ## -description
 
 This function initializes a new live kernel dump telemetry report, and returns an opaque handle of the report to the caller for use with subsequent LkmdTel functions. 

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - BDA_DigitalSignalStandard
 ---
 
+# BDA_DigitalSignalStandard enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **BDA_DigitalSignalStandard** enumeration.

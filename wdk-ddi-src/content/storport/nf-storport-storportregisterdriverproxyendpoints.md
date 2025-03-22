@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortRegisterDriverProxyEndpoints
 ---
 
+# StorPortRegisterDriverProxyEndpoints function (storport.h)
+
 ## -description
 
 **StorPortRegisterDriverProxyEndpoints** registers driver proxy endpoints with the kernel.

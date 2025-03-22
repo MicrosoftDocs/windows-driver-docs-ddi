@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_PROTECTED_RESOURCE_SESSION_TYPE_COUNT_DATA_0074 structure (d3d12umddi.h)
+
 ## -description
 
 Count of protected resource session types.

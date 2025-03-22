@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _FILE_LOCK
 ---
 
+# FILE_LOCK structure (ntifs.h)
+
 ## -description
 
 This structure is reserved for system use. The operating system uses the opaque **FILE_LOCK** structure to support the locking of files.

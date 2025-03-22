@@ -41,6 +41,8 @@ dev_langs:
 ms.custom: engagement-fy23
 ---
 
+# NtOpenThreadToken function (ntifs.h)
+
 ## -description
 
 The **NtOpenThreadToken** routine opens the access token associated with a thread, and returns a handle that can be used to access that token.

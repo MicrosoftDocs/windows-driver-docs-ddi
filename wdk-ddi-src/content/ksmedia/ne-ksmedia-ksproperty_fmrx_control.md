@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_FMRX_CONTROL
 ---
 
+# KSPROPERTY_FMRX_CONTROL enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_FMRX_CONTROL** enumeration (ksmedia.h).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaDestroyEnumHandle0
 ---
 
+# IkeextSaDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaDestroyEnumHandle0** function frees a handle returned by **[IkeextSaCreateEnumHandle0](nf-fwpmk-ikeextsacreateenumhandle0.md)**.

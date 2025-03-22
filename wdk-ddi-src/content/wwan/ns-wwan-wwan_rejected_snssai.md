@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_REJECTED_SNSSAI structure (wwan.h)
+
 ## -description
 
 The **WWAN_REJECTED_SNSSAI** structure contains information about a single Network Slice Selection Assistance Information (S-NSSAI) that was rejected.

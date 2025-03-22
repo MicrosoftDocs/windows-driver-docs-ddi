@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPxcPortConnection
 ---
 
+# EPxcPortConnection enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **EPxcPortConnection** enumeration (ksmedia.h).

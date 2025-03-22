@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PsGetThreadProperty
 ---
 
+# PsGetThreadProperty function (ntddk.h)
+
 ## -description
 
 This function is reserved for system use.

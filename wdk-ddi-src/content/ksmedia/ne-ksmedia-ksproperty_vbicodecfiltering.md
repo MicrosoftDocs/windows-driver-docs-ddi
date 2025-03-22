@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_VBICODECFILTERING
 ---
 
+# KSPROPERTY_VBICODECFILTERING enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VBICODECFILTERING** enumeration (ksmedia.h).

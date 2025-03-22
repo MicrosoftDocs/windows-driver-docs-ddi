@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSubLayerAdd0
 ---
 
+# FwpmSubLayerAdd0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSubLayerAdd0** function adds a new sublayer to the system.

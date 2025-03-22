@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# tagKSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS structure (ksmedia.h)
+
 ## -description
 
 **KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS** defines an available resolution and its supported configuration values.

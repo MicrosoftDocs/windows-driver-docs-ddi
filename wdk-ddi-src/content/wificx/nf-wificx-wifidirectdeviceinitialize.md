@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDirectDeviceInitialize function (wificx.h)
+
 ## -description
 
 The **WifiDirectDeviceInitialize** function initializes a newly created WIFIDIRECTDEVICE object.

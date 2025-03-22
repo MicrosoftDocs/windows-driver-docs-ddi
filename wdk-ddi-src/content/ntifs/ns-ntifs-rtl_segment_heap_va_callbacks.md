@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _RTL_SEGMENT_HEAP_VA_CALLBACKS
 ---
 
+# RTL_SEGMENT_HEAP_VA_CALLBACKS structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

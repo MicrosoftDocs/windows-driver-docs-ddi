@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SEC_APP_SESSION_STATE
 ---
 
+# SEC_APP_SESSION_STATE structure (ntifs.h)
+
 ## -description
 
 The **SEC_APP_SESSION_STATE** structure is used to store and manage application-specific session state information. This structure is typically associated with session tickets to maintain state across secure sessions.

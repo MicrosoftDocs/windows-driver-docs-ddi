@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_REINITIALIZE_MEDIA structure (ntddstor.h)
+
 ## -description
 
 STORAGE_REINITIALIZE_MEDIA is an optional structure that contains sanitize parameters for [**IOCTL_STORAGE_REINITIALIZE_MEDIA**](ni-ntddstor-ioctl_storage_reinitialize_media.md).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Reset
 ---
 
+# IActionEnumerator::Reset function (dbgmodel.h)
+
 ## -description
 
 Resets the enumerator back to the first action of the object implementing the IActionEnumerator interface.

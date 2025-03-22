@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_PACKET_IEEE8021Q structure (ieee8021qtypes.h)
+
 ## -description
 
 The **NET_PACKET_IEEE8021Q** structure describes the IEEE 802.1Q information for a [**NET_PACKET**](../packet/ns-packet-_net_packet.md).

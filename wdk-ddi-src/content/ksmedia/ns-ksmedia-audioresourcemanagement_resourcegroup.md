@@ -41,6 +41,8 @@ helpviewer_keywords:
  - AUDIORESOURCEMANAGEMENT_RESOURCEGROUP
 ---
 
+# AUDIORESOURCEMANAGEMENT_RESOURCEGROUP structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **AUDIORESOURCEMANAGEMENT_RESOURCEGROUP** structure.

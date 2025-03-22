@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# Wdi_NdisMOidRequestComplete function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

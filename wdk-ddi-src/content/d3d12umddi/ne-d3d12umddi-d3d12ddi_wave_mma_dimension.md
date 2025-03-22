@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_WAVE_MMA_DIMENSION
 ---
 
+# D3D12DDI_WAVE_MMA_DIMENSION enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WAVE_MMA_DIMENSION** enumeration specifies a dimension for a matrix being used for wave-based matrix multiply-accumulate (MMA) operations.

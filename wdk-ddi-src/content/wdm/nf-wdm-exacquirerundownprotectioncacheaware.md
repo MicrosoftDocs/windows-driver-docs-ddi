@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExAcquireRundownProtectionCacheAware
 ---
 
+# ExAcquireRundownProtectionCacheAware function (wdm.h)
+
 ## -description
 
 The **ExAcquireRundownProtectionCacheAware** routine tries to acquire cache-aware run-down protection on a shared object so the caller can safely access the object.

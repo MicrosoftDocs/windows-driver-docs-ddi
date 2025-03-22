@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostSymbolsTargetComposition
 ---
 
+# IDebugHostSymbolsTargetComposition interface (dbgmodel.h)
+
 ## -description
 
 IDebugHostSymbolsTargetComposition provides interfaces which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for symbols.

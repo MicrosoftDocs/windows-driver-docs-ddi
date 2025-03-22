@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_READY_INFO_REV1 structure (wwan.h)
+
 ## -description
 
 The **WWAN_READY_INFO_REV1** structure represents the ready-state of the MB device. WWAN_READY_INFO_REV1 updates [WWAN_READY_INFO](./ns-wwan-_wwan_ready_info.md) by removing the *StatusFlags* field.

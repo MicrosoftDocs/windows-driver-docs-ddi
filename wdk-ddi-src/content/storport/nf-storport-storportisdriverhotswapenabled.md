@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortIsDriverHotSwapEnabled
 ---
 
+# StorPortIsDriverHotSwapEnabled function (storport.h)
+
 ## -description
 
 A miniport driver calls the **StorPortIsDriverHotSwapEnabled** function to determine whether driver hot swap is enabled in the kernel.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExSizeOfRundownProtectionCacheAware
 ---
 
+# ExSizeOfRundownProtectionCacheAware function (wdm.h)
+
 ## -description
 
 The **ExSizeOfRundownProtectionCacheAware** routine returns recommended size for a cache-friendly rundown structure.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_UPDATENATIVEFENCELOGS
 ---
 
+# DXGKARG_UPDATENATIVEFENCELOGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_UPDATENATIVEFENCELOGS** is the input structure for [**DxgkDdiUpdateNativeFenceLogs**](nc-d3dkmddi-dxgkddi_updatenativefencelogs.md).

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePool2 function (wdm.h)
+
 ## -description
 
 The **ExAllocatePool2** routine allocates pool memory of the specified type and returns a pointer to the allocated block.

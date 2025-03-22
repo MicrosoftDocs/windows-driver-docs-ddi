@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_OUT_QUERYTARGET_INFO
 ---
 
+# IDARG_OUT_QUERYTARGET_INFO structure (iddcx.h)
+
 ## -description
 
 The **IDARG_OUT_QUERYTARGET_INFO** structure contains output arguments for the [**EVT_IDD_CX_ADAPTER_QUERY_TARGET_INFO**](nc-iddcx-evt_idd_cx_adapter_query_target_info.md) callback function.

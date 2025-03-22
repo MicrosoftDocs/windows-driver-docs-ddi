@@ -45,6 +45,8 @@ helpviewer_keywords:
 ms.custom: engagement-fy23
 ---
 
+# FILE_ALLOCATED_RANGE_BUFFER structure (ntifs.h)
+
 ## -description
 
 **FILE_ALLOCATED_RANGE_BUFFER** structures are used as input and output during a [**FSCTL_QUERY_ALLOCATED_RANGES**](ni-ntifs-fsctl_query_allocated_ranges.md) control code request.

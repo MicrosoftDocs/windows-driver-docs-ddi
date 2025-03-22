@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetName
 ---
 
+# IDataModelScript2::GetName function (dbgmodel.h)
+
 ## -description
 
 The GetName method returns the name of the script as an allocated string via the SysAllocString function. If the script does not yet have a name, the method should return a null BSTR. It should not fail in this circumstance. If the script is explicitly renamed via a call to the Rename method, the GetName method should return the newly assigned name.

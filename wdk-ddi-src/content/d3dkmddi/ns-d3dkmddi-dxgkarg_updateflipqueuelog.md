@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_UPDATEFLIPQUEUELOG
 ---
 
+# DXGKARG_UPDATEFLIPQUEUELOG structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_UPDATEFLIPQUEUELOG** structure contains parameters for the driver's [**DXGKDDI_UPDATEFLIPQUEUELOG**](nc-d3dkmddi-dxgkddi_updateflipqueuelog.md) callback function.

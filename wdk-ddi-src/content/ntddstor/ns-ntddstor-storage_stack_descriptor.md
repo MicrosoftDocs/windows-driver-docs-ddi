@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _STORAGE_STACK_DESCRIPTOR
 ---
 
+# STORAGE_STACK_DESCRIPTOR structure (ntddstor.h)
+
 ## -description
 
 The **STORAGE_STACK_DESCRIPTOR** structure describes the storage stack for the device.

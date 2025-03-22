@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortAcquireSpinLockEx
 ---
 
+# StorPortAcquireSpinLockEx function (storport.h)
+
 ## -description
 
 The **StorPortAcquireSpinLockEx** routine acquires the specified spin lock.

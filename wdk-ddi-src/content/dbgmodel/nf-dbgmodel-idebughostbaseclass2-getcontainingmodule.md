@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetContainingModule
 ---
 
+# IDebugHostBaseClass2::GetContainingModule function (dbgmodel.h)
+
 ## -description
 
 Returns the module which contains this symbol if the symbol has a containing module.  If the symbol does not have a containing module, an error is returned.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterInitAddTxDemux function (wificx.h)
+
 ## -description
 
 The **WifiAdapterInitAddTxDemux** function adds DEMUX properties for multiple Tx queue support.

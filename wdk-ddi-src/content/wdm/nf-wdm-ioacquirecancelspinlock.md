@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IoAcquireCancelSpinLock
 ---
 
+# IoAcquireCancelSpinLock function (wdm.h)
+
 ## -description
 
 The **IoAcquireCancelSpinLock** routine synchronizes cancelable-state transitions for IRPs in a multiprocessor-safe way.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3 structure (d3dkmddi.h)
+
 ## -description
 
 The display miniport driver uses **DXGK_MULTIPLANE_OVERLAY_VSYNC_INFO3** to report per-plane flip completion after a Vsync.

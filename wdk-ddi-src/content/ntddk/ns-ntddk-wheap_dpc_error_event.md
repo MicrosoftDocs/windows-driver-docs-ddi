@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEAP_DPC_ERROR_EVENT
 ---
 
+# WHEAP_DPC_ERROR_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEAP_DPC_ERROR_EVENT** structure.

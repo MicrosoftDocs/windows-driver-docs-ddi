@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortQueryDpcWatchdogInformation function (storport.h)
+
 ## -description
 
 **StorPortQueryDpcWatchdogInformation** queries DPC watchdog timer values for the current processor.

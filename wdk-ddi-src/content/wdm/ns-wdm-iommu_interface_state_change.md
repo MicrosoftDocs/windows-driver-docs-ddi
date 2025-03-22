@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_INTERFACE_STATE_CHANGE structure (wdm.h)
+
 ## -description
 
 **IOMMU_INTERFACE_STATE_CHANGE** represents the IOMMU interface state at the time a state change callback is invoked. When an [**IOMMU_INTERFACE_STATE_CHANGE_CALLBACK**](nc-wdm-iommu_interface_state_change_callback.md) is invoked, the `PresentFields` indicate which [**IOMMU_INTERFACE_STATE_CHANGE_FIELDS**](ns-wdm-iommu_interface_state_change_fields.md) have changed while the rest of the members of **IOMMU_INTERFACE_STATE_CHANGE** provide the new state.

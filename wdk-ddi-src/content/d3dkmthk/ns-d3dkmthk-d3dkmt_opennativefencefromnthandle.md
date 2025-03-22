@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_OPENNATIVEFENCEFROMNTHANDLE
 ---
 
+# D3DKMT_OPENNATIVEFENCEFROMNTHANDLE structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_OPENNATIVEFENCEFROMNTHANDLE** structure is a parameter for the [**D3DKMTOpenNativeFenceFromNTHandle**](nf-d3dkmthk-d3dkmtopennativefencefromnthandle.md) function. It describes the native fence to open.

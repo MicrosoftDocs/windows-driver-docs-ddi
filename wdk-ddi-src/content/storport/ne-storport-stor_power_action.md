@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_POWER_ACTION enumeration (storport.h)
+
 ## -description
 
 The **STOR_POWER_ACTION** enumeration identifies the system power actions that can occur on a computer.

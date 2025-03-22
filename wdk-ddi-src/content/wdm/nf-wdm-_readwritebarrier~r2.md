@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _ReadWriteBarrier
 ---
 
+# _ReadWriteBarrier function (wdm.h)
+
 ## -description
 
 Describes the *ReadWriteBarrier~r2* function.

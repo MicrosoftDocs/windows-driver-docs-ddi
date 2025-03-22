@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoDeletePowerLimitRequest
 ---
 
+# PoDeletePowerLimitRequest function (wdm.h)
+
 ## -description
 
 This function deletes a power limit request object.

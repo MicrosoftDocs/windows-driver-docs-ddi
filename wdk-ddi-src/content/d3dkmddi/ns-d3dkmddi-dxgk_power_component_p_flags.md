@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_POWER_COMPONENT_P_FLAGS
 ---
 
+# DXGK_POWER_COMPONENT_P_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_POWER_COMPONENT_P_FLAGS** is reserved for system use. Don't use in your driver.

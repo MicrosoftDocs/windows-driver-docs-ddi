@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFLT_CONNECT_NOTIFY
 ---
 
+# PFLT_CONNECT_NOTIFY function (fltkernel.h)
+
 ## -description
 
 *FltMgr* calls a minifilter's **ConnectNotifyCallback** callback function to notify the minifilter when a new connection to a communication port is being requested.

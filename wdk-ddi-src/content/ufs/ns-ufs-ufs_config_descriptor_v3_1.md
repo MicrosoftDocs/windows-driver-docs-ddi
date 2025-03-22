@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UFS_CONFIG_DESCRIPTOR_V3_1
 ---
 
+# UFS_CONFIG_DESCRIPTOR_V3_1 structure (ufs.h)
+
 ## -description
 
 ## -struct-fields

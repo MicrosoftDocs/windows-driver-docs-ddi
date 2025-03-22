@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# SPB_MULTI_SPI_WRITE_TRANSFER structure (spb.h)
+
 ## -description
 
 The **SPB_MULTI_SPI_WRITE_TRANSFER** structure describes a write operation to be executed in a Multi-SPI (e.g. Dual SPI or Quad SPI) mode. It is comprised of a **SPB_MULTI_SPI_TRANSFER** structure containing the parameters and write phase of the transfer.

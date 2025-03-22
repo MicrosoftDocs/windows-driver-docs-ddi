@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DEVICE_QUERY_DOMAIN_TYPES function (wdm.h)
+
 ## -description
 
 Queries for the available types of domains that an **IOMMU_DMA_DEVICE** is allowed to attach to, depending on environment factors, such as platform and DMA Guard Policy.

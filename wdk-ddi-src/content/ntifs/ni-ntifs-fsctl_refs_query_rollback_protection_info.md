@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_REFS_QUERY_ROLLBACK_PROTECTION_INFO
 ---
 
+# FSCTL_REFS_QUERY_ROLLBACK_PROTECTION_INFO ioctl (ntifs.h)
+
 ## -description
 
 Reserved for system use.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FltAcquireResourceShared
 ---
 
+# FltAcquireResourceShared function (fltkernel.h)
+
 ## -description
 
 The **FltAcquireResourceShared** routine acquires the given resource for shared access by the calling thread.

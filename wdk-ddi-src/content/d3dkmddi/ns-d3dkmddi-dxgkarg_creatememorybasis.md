@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATEMEMORYBASIS
 ---
 
+# DXGKARG_CREATEMEMORYBASIS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CREATEMEMORYBASIS** structure is an input parameter for [**DxgkDdiCreateMemoryBasis**](nc-d3dkmddi-dxgkddi_creatememorybasis.md) to use to create a memory basis.

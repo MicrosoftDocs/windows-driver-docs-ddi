@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetAdapterOffloadSetIeee8021qTagCapabilities function (netadapteroffload.h)
+
 ## -description
 
 The **NetAdapterOffloadSetIeee8021qTagCapabilities** function sets the IEEE 802.1 priority tagging and virtual LAN (VLAN) tagging capabilities of a network adapter.

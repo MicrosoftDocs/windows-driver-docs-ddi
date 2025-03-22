@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetAddressSpaceRelation
 ---
 
+# IDebugHostContext2::GetAddressSpaceRelation function (dbgmodel.h)
+
 ## -description
 
 The GetAddressSpaceRelation method returns the relationship between the virtual memory space of the current context and that of another specified context. The relationship can indicate how the memory mappings of both contexts interact.

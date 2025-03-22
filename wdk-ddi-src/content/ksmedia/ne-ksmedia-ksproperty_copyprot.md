@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_COPYPROT
 ---
 
+# KSPROPERTY_COPYPROT enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_COPYPROT** enumeration (ksmedia.h).

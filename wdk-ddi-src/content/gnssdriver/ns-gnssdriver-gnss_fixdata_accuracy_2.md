@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# GNSS_FIXDATA_ACCURACY_2 structure (gnssdriver.h)
+
 ## -description
 
 The **GNSS_FIXDATA_ACCURACY_2** structure defines the accuracy details of a fix.

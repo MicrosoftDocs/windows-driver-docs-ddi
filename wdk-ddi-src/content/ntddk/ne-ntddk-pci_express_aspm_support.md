@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_ASPM_SUPPORT
 ---
 
+# PCI_EXPRESS_ASPM_SUPPORT enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_ASPM_SUPPORT** enumeration.

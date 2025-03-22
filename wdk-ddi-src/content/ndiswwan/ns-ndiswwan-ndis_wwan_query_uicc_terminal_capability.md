@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_QUERY_UICC_TERMINAL_CAPABILITY
 ---
 
+# NDIS_WWAN_QUERY_UICC_TERMINAL_CAPABILITY structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_QUERY_UICC_TERMINAL_CAPABILITY** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability) query request.

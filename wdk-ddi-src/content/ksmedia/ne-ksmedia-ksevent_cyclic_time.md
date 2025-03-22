@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_CYCLIC_TIME
 ---
 
+# KSEVENT_CYCLIC_TIME enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_CYCLIC_TIME** enumeration (ksmedia.h).

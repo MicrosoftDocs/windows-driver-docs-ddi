@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_UE_POLICY_INFO
 ---
 
+# NDIS_WWAN_UE_POLICY_INFO structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_UE_POLICY_INFO** structure represents the UE policy information of the MB device.

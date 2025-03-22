@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT function (netadapter.h)
+
 ## -description
 
 The **NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES_INIT** function initializes a [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure. 

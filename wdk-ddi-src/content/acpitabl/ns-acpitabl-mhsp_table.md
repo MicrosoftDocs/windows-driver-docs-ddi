@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _MHSP_TABLE
 ---
 
+# MHSP_TABLE structure (acpitabl.h)
+
 ## -description
 
 Describes the **MHSP_TABLE** structure.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - POWER_USER_PRESENCE_TYPE
 ---
 
+# POWER_USER_PRESENCE_TYPE enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **POWER_USER_PRESENCE_TYPE** enumeration.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmNetEventCreateEnumHandle0
 ---
 
+# FwpmNetEventCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmNetEventCreateEnumHandle0** function creates a handle used to enumerate a set of network events.

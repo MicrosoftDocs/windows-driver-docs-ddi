@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SETALLOCATIONBACKINGSTORE
 ---
 
+# DXGKDDI_SETALLOCATIONBACKINGSTORE function (d3dkmddi.h)
+
 ## -description
 
 **DXGKDDI_SETALLOCATIONBACKINGSTORE** obtains the system space address to a graphics allocation backing store.

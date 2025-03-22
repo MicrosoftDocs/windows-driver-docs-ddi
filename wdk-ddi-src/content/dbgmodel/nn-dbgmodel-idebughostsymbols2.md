@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostSymbols2
 ---
 
+# IDebugHostSymbols2 interface (dbgmodel.h)
+
 ## -description
 
 Version 2 of the symbols interface to the underlying debugger.

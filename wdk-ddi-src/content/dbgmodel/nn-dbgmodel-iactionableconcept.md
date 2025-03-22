@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IActionableConcept
 ---
 
+# IActionableConcept interface (dbgmodel.h)
+
 ## -description
 
 A concept mechanism for implementing actions.  Clients may choose to either implement this interface or place

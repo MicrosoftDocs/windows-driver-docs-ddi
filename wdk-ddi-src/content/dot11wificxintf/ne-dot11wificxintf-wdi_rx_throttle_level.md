@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_RX_THROTTLE_LEVEL enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

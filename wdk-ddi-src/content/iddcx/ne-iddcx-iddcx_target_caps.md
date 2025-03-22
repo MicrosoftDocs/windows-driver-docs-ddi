@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_TARGET_CAPS
 ---
 
+# IDDCX_TARGET_CAPS enumeration (iddcx.h)
+
 ## -description
 
 An **IDDCX_TARGET_CAPS** enumeration value identifies the capabilities of a target.

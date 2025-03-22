@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_D3D12_OPTIONS_DATA_0086
 ---
 
+# D3D12DDI_D3D12_OPTIONS_DATA_0086 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_D3D12_OPTIONS_DATA_0086** structure describes the feature options supported by the driver/hardware in D3D12 Release 8, Build Revision 6.

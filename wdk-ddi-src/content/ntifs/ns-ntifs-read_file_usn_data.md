@@ -42,6 +42,8 @@ helpviewer_keywords:
  - READ_FILE_USN_DATA
 ---
 
+# READ_FILE_USN_DATA structure (ntifs.h)
+
 ## -description
 
 The **READ_FILE_USN_DATA** structure specifies the versions of the update sequence number (USN) change journal supported by the caller. This structure is the input structure to the [**FSCTL_READ_FILE_USN_DATA**](ni-ntifs-fsctl_read_file_usn_data.md) control code.

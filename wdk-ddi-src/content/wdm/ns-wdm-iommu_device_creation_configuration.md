@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _IOMMU_DEVICE_CREATION_CONFIGURATION
 ---
 
+# IOMMU_DEVICE_CREATION_CONFIGURATION structure (wdm.h)
+
 ## -description
 
 **IOMMU_DEVICE_CREATION_CONFIGURATION** describes a configuration or list of configurations to be used as part of creation and initialization of an **IOMMU_DMA_DEVICE**.

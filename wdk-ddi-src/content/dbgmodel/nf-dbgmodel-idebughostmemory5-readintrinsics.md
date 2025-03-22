@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadIntrinsics
 ---
 
+# IDebugHostMemory5::ReadIntrinsics function (dbgmodel.h)
+
 ## -description
 
 The ReadIntrinsics method reads one or more intrinsic values from the target's address space defined by the given context and location. The number of intrinsics successfully read is returned in the intrinsicsRead on success.

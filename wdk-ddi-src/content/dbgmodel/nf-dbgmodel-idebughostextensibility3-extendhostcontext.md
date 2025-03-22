@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExtendHostContext
 ---
 
+# IDebugHostExtensibility3::ExtendHostContext function (dbgmodel.h)
+
 ## -description
 
 The ExtendHostContext method is used by hosts which support receiving arbitrary plain old data (POD) inside a host context. This method extends the notion of a host context with a specific size of POD data.

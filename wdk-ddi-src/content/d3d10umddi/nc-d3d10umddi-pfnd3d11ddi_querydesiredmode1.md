@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D11DDI_QUERYDESIREDMODE1
 ---
 
+# PFND3D11DDI_QUERYDESIREDMODE1 function (d3d10umddi.h)
+
 ## -description
 
 The **PFND3D11DDI_QUERYDESIREDMODE1** function is reserved for system use.

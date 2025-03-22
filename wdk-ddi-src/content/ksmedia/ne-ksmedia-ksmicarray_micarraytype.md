@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMICARRAY_MICARRAYTYPE
 ---
 
+# KSMICARRAY_MICARRAYTYPE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSMICARRAY_MICARRAYTYPE** enumeration (ksmedia.h).

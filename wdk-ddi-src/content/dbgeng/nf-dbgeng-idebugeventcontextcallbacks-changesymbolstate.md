@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::ChangeSymbolState function (dbgeng.h)
+
 ## -description
 
 The symbol state has changed.

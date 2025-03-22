@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3DWDDM2_1DDI_DEVICEFUNCS
 ---
 
+# D3DWDDM2_1DDI_DEVICEFUNCS structure (d3d10umddi.h)
+
 ## -description
 
 This structure contains the user mode device function table for Windows Display Driver Model (WDDM) 2.1. In general, unless a function is commented as optional in *d3d10umdd.h* (or optional under certain conditions), a driver must implement it.

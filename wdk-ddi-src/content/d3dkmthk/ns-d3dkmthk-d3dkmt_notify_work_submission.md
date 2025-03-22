@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_NOTIFY_WORK_SUBMISSION
 ---
 
+# D3DKMT_NOTIFY_WORK_SUBMISSION structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_NOTIFY_WORK_SUBMISSION** structure is passed to [**D3DKMTNotifyWorkSubmission**](nf-d3dkmthk-d3dkmtnotifyworksubmission.md) to notify the kernel-mode display driver (KMD) that the user-mode display driver (UMD) has submitted work to the GPU.

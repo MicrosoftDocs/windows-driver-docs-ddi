@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaDbGetSecurityInfo0
 ---
 
+# IPsecSaDbGetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaDbGetSecurityInfo0** function retrieves a copy of the security descriptor for the IPsec security association (SA) database.

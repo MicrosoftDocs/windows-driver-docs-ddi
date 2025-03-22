@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_CLOSE_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_CLOSEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_closephysicalmemoryobject.md) callback function to close a physical memory object.

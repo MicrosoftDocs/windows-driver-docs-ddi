@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmLayerCreateEnumHandle0
 ---
 
+# FwpmLayerCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmLayerCreateEnumHandle0** function creates a handle used to enumerate a set of layer objects.

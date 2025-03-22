@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FIND_BY_SID_OUTPUT
 ---
 
+# FIND_BY_SID_OUTPUT structure (ntifs.h)
+
 ## -description
 
 The **FIND_BY_SID_OUTPUT** structure represents the fully qualified path name of a file found by the [**FSCTL_FIND_FILES_BY_SID**](ni-ntifs-fsctl_find_files_by_sid.md) control code.

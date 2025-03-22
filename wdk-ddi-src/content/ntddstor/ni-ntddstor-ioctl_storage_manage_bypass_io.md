@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# IOCTL_STORAGE_MANAGE_BYPASS_IO ioctl (ntddstor.h)
+
 ## -description
 
 The **IOCTL_STORAGE_MANAGE_BYPASS_IO** control code controls BypassIO operations on a given file in all layers of the volume and storage stacks.

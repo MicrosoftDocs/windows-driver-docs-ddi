@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WIFI_BAND_CAPABILITIES_INIT
 ---
 
+# WIFI_BAND_CAPABILITIES_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_BAND_CAPABILITIES_INIT** function initializes a [**WIFI_BAND_CAPABILITIES**](ns-wificx-wifi_band_capabilities.md) structure.

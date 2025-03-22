@@ -41,6 +41,8 @@ helpviewer_keywords:
  - NOTIFY_USER_POWER_SETTING
 ---
 
+# NOTIFY_USER_POWER_SETTING structure (wdm.h)
+
 ## -description
 
 This topic describes the **NOTIFY_USER_POWER_SETTING** structure.

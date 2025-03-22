@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# SPB_MULTI_SPI_TRANSFER_INIT function (spb.h)
+
 ## -description
 
 The **SPB_MULTI_SPI_TRANSFER_INIT** function initializes an [SPB_MULTI_SPI_TRANSFER](./ns-spb-spb_multi_spi_transfer.md) structure.

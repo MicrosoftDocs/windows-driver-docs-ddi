@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_TARGET_MODE2
 ---
 
+# IDDCX_TARGET_MODE2 structure (iddcx.h)
+
 ## -description
 
 **IDDCX_TARGET_MODE2** provides information about a target mode.

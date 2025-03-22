@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecDospSetSecurityInfo0
 ---
 
+# IPsecDospSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecDospSetSecurityInfo0** function sets specified security information in the security descriptor of the IPsec DoS Protection database.

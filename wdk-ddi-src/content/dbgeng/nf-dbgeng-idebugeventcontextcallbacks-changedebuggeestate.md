@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::ChangeDebuggeeState function (dbgeng.h)
+
 ## -description
 
 Debuggee state, such as registers or data spaces, has changed.

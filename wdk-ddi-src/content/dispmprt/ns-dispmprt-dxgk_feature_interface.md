@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXGK_FEATURE_INTERFACE
 ---
 
+# DXGK_FEATURE_INTERFACE structure (dispmprt.h)
+
 ## -description
 
 The **DXGK_FEATURE_INTERFACE** structure contains the port driver's interface that can be used to query it for its enabled features and their support.

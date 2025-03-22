@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _CONFIGURATION_INFORMATION
 ---
 
+# CONFIGURATION_INFORMATION structure (ntddk.h)
+
 ## -description
 
 The **CONFIGURATION_INFORMATION** structure contains the overall system device configuration record.

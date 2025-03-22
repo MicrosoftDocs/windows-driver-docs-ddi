@@ -43,6 +43,8 @@ helpviewer_keywords:
  - ExTryAcquirePushLockShared
 ---
 
+# ExTryAcquirePushLockShared function (wdm.h)
+
 ## -description
 
 Try to acquire the given push lock for shared access by the calling thread.

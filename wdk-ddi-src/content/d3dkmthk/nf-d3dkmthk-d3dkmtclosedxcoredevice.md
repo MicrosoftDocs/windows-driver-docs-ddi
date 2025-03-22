@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTCloseDxCoreDevice
 ---
 
+# D3DKMTCloseDxCoreDevice function (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

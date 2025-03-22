@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_DVDSUBPIC
 ---
 
+# KSPROPERTY_DVDSUBPIC enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_DVDSUBPIC** enumeration (ksmedia.h).

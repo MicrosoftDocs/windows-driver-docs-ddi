@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NtCopyFileChunk
 ---
 
+# NtCopyFileChunk function (ntifs.h)
+
 ## -description
 
 The **NtCopyFileChunk** routine copies data from the source file into the destination file.

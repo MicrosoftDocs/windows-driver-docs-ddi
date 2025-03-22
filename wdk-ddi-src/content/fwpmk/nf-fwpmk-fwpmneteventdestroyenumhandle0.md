@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmNetEventDestroyEnumHandle0
 ---
 
+# FwpmNetEventDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmNetEventDestroyEnumHandle0** function frees a handle returned by **[FwpmNetEventCreateEnumHandle0](nf-fwpmk-fwpmneteventcreateenumhandle0.md)**.

@@ -40,6 +40,8 @@ dev_langs:
 ms.custom: Fe
 ---
 
+# NetOffloadIsRscTcpTimestampOptionEnabled function (netadapteroffload.h)
+
 ## -description
 
 The **NetOffloadIsRscTcpTimestampOptionEnabled** function determines whether a net adapter has RSC offload enabled for timestamp packets.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2
 ---
 
+# EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2 function (iddcx.h)
+
 ## -description
 
 The OS calls **EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES2** to get a list of target modes supported by the driver for a monitor connected to the endpoint. This callback is similar to [**EVT_IDD_CX_MONITOR_QUERY_TARGET_MODES**](nc-iddcx-evt_idd_cx_monitor_query_target_modes.md), but allows the driver to report additional information for HDR10 and WCG target modes.

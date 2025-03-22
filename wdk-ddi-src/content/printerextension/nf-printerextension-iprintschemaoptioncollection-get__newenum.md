@@ -42,6 +42,8 @@ helpviewer_keywords:
  - get__NewEnum
 ---
 
+# IPrintSchemaOptionCollection::get__NewEnum function (printerextension.h)
+
 ## -description
 
 Gets a pointer to the enumerants of [**IPrintSchemaOptionCollection**](nn-printerextension-iprintschemaoptioncollection.md) objects.

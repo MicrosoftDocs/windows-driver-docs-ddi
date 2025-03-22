@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_DEVICE_LED_STATE_DESCRIPTOR structure (ntddstor.h)
+
 ## -description
 
 The STORAGE_DEVICE_LED_STATE_DESCRIPTOR structure describes the LED state of a device.

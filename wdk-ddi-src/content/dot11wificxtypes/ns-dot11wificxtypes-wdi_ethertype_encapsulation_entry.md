@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_ETHERTYPE_ENCAPSULATION_ENTRY structure (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

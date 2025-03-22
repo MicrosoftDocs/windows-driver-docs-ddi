@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_DEVICE_D3COLD_STATE_REASON
 ---
 
+# PCI_DEVICE_D3COLD_STATE_REASON enumeration (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_DEVICE_D3COLD_STATE_REASON** enumeration.

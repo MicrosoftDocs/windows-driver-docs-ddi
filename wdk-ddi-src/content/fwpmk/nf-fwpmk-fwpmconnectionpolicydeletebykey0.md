@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionPolicyDeleteByKey0
 ---
 
+# FwpmConnectionPolicyDeleteByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionPolicyDeleteByKey0** function removes the connection policy that was created with the GUID specified in the **[FWPM_PROVIDER_CONTEXT::providerContextKey](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context3)** when you called **[FwpmConnectionPolicyAdd0](nf-fwpmk-fwpmconnectionpolicyadd0.md)**.

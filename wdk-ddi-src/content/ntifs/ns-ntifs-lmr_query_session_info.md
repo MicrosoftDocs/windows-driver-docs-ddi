@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _LMR_QUERY_SESSION_INFO
 ---
 
+# LMR_QUERY_SESSION_INFO structure (ntifs.h)
+
 ## -description
 
 The **LMR_QUERY_SESSION_INFO** structure is used to return queried session information for a file or directory.

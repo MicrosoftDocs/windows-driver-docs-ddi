@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# FILE_SFIO_RESERVE_INFORMATION structure (wdm.h)
+
 ## -description
 
 **FILE_SFIO_RESERVE_INFORMATION** is used to query or set a file's reserved bandwidth information for scheduled file I/O (SFIO).

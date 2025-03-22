@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcquireFilteredSubNamespace
 ---
 
+# IDataModelManager4::AcquireFilteredSubNamespace function (dbgmodel.h)
+
 ## -description
 
 A convenience method for acquiring (and registering if necessary) a filtered sub-namespace on an object.

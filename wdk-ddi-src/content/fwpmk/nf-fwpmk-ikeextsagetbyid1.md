@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaGetById1
 ---
 
+# IkeextSaGetById1 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaGetById1** function retrieves an IKE/AuthIP security association (SA) from the database.

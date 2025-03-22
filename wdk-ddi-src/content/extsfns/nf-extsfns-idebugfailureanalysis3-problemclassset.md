@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ProblemClassSet
 ---
 
+# IDebugFailureAnalysis3::ProblemClassSet function (extsfns.h)
+
 ## -description
 
 ## -parameters

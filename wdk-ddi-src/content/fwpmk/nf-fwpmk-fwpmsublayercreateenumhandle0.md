@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSubLayerCreateEnumHandle0
 ---
 
+# FwpmSubLayerCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSubLayerCreateEnumHandle0** function creates a handle used to enumerate a set of sublayers.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - RX_LOGGING_STATE
 ---
 
+# RX_LOGGING_STATE enumeration (rxlog.h)
+
 ## -description
 
 The **RX_LOGGING_STATE** enumeration defines the possible states of the logging system within the RDBSS (Redirected Drive Buffering SubSystem).

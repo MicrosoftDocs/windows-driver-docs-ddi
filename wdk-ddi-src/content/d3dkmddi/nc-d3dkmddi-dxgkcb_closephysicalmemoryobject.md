@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_CLOSEPHYSICALMEMORYOBJECT function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_CLOSEPHYSICALMEMORYOBJECT** closes a physical memory object.

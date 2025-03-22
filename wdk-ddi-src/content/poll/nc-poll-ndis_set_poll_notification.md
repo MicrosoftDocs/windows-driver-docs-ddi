@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_SET_POLL_NOTIFICATION function (poll.h)
+
 ## -description
 
 Miniport drivers implement the *NdisSetPollNotification* callback function to enable or disable the interrupt associated with a Poll object.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaHwErrorReportSetSeverityDeviceDriver function (ntddk.h)
+
 ## -description
 
 This routine sets the error severity of the packet and sections.

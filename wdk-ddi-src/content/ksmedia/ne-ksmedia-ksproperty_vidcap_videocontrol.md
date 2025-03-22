@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDCAP_VIDEOCONTROL
 ---
 
+# KSPROPERTY_VIDCAP_VIDEOCONTROL enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDCAP_VIDEOCONTROL** enumeration (ksmedia.h).

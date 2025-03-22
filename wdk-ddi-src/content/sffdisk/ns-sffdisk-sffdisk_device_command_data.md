@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SFFDISK_DEVICE_COMMAND_DATA
 ---
 
+# SFFDISK_DEVICE_COMMAND_DATA structure (sffdisk.h)
+
 ## -description
 
 The SFFDISK\_DEVICE\_COMMAND\_DATA structure specifies the operation performed by an [**IOCTL\_SFFDISK\_DEVICE\_COMMAND**](ni-sffdisk-ioctl_sffdisk_device_command.md) request.

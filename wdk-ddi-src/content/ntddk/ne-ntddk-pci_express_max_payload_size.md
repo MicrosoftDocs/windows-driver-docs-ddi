@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_MAX_PAYLOAD_SIZE
 ---
 
+# PCI_EXPRESS_MAX_PAYLOAD_SIZE enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_MAX_PAYLOAD_SIZE** enumeration.

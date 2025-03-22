@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_PHY_CAPABILITIES structure (wificx.h)
+
 ## -description
 
 The **WIFI_PHY_CAPABILITIES** structure describes the PHY capabilities for a WiFiCx device.

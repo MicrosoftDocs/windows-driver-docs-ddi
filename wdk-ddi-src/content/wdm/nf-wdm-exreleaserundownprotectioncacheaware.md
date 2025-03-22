@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseRundownProtectionCacheAware
 ---
 
+# ExReleaseRundownProtectionCacheAware function (wdm.h)
+
 ## -description
 
 The **ExReleaseRundownProtectionCacheAware** routine releases run-down protection that the caller previously acquired by calling [**ExAllocateCacheAwareRundownProtection**](./nf-wdm-exallocatecacheawarerundownprotection.md) or [**ExAcquireRundownProtectionCacheAware**](./nf-wdm-exacquirerundownprotectioncacheaware.md).

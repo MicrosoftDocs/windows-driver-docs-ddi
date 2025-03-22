@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _LCN_WEAK_REFERENCE_VCN_MAPPING
 ---
 
+# LCN_WEAK_REFERENCE_VCN_MAPPING structure (ntifs.h)
+
 ## -description
 
 **LCN_WEAK_REFERENCE_VCN_MAPPING** is reserved for system use.

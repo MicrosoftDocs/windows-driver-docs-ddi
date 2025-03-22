@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_READ_USN_JOURNAL
 ---
 
+# FSCTL_READ_USN_JOURNAL ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_READ_USN_JOURNAL** control code retrieves the set of update sequence number (USN) change journal records between two specified USN values. See Remarks.

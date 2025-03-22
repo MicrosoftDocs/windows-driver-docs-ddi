@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXGK_DISPLAYMUX_SET_INTERNAL_PANEL_INFO
 ---
 
+# DXGK_DISPLAYMUX_SET_INTERNAL_PANEL_INFO structure (d3dkmdt.h)
+
 ## -description
 
 The **DXGK_DISPLAYMUX_SET_INTERNAL_PANEL_INFO** structure contains information about the internal panel.

@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXGK_DISPLAYMUX_INTERFACE
 ---
 
+# DXGK_DISPLAYMUX_INTERFACE structure (dispmprt.h)
+
 ## -description
 
 The **DXGK_DISPLAYMUX_INTERFACE** structure contains pointers to functions that are implemented by the kernel-mode display miniport driver (KMD) to support version 1 of the [automatic display switching](/windows-hardware/drivers/display/automatic-display-switch) feature. Version 1 was for the feature's pre-release; use [**DXGK_DISPLAYMUX_INTERFACE_V2**](ns-dispmprt-dxgk_displaymux_interface_2.md), which is the version released with Windows 11, version 24H2, update 2025.01 (WDDM 3.2).

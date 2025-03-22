@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IoCheckFileObjectOpenedAsCopyDestination
 ---
 
+# IoCheckFileObjectOpenedAsCopyDestination function (ntifs.h)
+
 ## -description
 
 The **IoCheckFileObjectOpenedAsCopyDestination** routine checks whether a file was previously opened with copy intent as a destination file.

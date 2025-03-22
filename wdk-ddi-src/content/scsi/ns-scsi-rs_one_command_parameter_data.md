@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RS_ONE_COMMAND_PARAMETER_DATA
 ---
 
+# RS_ONE_COMMAND_PARAMETER_DATA structure (scsi.h)
+
 ## -description
 
 The **RS_ONE_COMMAND_PARAMETER_DATA** structure contains information about the command data block (CDB) and a usage map for bits in the CDB.

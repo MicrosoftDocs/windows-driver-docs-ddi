@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDIARG_ROW_MAJOR_RESOURCE_LAYOUT
 ---
 
+# D3D12DDIARG_ROW_MAJOR_RESOURCE_LAYOUT structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_ROW_MAJOR_RESOURCE_LAYOUT** structure describes the layout of a row-major resource.

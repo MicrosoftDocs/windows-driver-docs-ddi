@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _FILE_LOCK_INFO
 ---
 
+# FILE_LOCK_INFO structure (ntifs.h)
+
 ## -description
 
 The **FILE_LOCK_INFO** structure is reserved for system use.

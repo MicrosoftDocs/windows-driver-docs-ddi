@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SFFDISK_DEVICE_PASSWORD_DATA
 ---
 
+# SFFDISK_DEVICE_PASSWORD_DATA structure (sffdisk.h)
+
 ## -description
 
 The SFFDISK\_DEVICE\_PASSWORD\_DATA structure is used in conjunction with an [**IOCTL\_SFFDISK\_DEVICE\_PASSWORD**](ni-sffdisk-ioctl_sffdisk_device_password.md) to change the password on a Secure Digital (SD) card.

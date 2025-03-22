@@ -38,6 +38,8 @@ helpviewer_keywords:
  - IOCTL_USB_GET_NODE_CONNECTION_SUPERSPEEDPLUS_INFORMATION
 ---
 
+# IOCTL_USB_GET_NODE_CONNECTION_SUPERSPEEDPLUS_INFORMATION ioctl (usbioctl.h)
+
 ## -description
 
 The **IOCTL_USB_GET_NODE_CONNECTION_SUPERSPEEDPLUS_INFORMATION** request retrieves USB port super-speed lane information.

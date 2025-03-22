@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IoReserveKsrPersistentMemoryEx function (wdm.h)
+
 ## -description
 
 Reserved for system use.

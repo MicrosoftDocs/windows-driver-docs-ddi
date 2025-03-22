@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EDeviceControlUseType
 ---
 
+# EDeviceControlUseType enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **EDeviceControlUseType** enumeration (ksmedia.h).

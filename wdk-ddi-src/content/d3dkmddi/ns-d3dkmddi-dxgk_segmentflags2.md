@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_SEGMENTFLAGS2
 ---
 
+# DXGK_SEGMENTFLAGS2 structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_SEGMENTFLAGS2** is reserved for system use. Don't use it in your driver.

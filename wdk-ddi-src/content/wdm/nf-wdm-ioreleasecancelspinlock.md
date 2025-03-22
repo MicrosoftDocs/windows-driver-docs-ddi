@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IoReleaseCancelSpinLock
 ---
 
+# IoReleaseCancelSpinLock function (wdm.h)
+
 ## -description
 
 The **IoReleaseCancelSpinLock** routine releases the cancel spin lock after the driver has changed the cancelable state of an IRP.

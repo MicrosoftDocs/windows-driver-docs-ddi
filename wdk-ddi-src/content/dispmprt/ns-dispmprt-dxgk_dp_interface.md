@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_DP_INTERFACE structure (dispmprt.h)
+
 ## -description
 
 A kernel-mode component that needs to use the **DXGK_DP_INTERFACE** DisplayPort (DP) interface calls the display miniport driver's [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md) function.

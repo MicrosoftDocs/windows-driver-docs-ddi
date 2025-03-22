@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortSetSystemGroupAffinityThread function (storport.h)
+
 ## -description
 
 **StorPortSetSystemGroupAffinityThread** changes the group number and affinity mask of the calling thread.

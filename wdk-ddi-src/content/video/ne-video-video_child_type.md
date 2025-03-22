@@ -38,6 +38,8 @@ helpviewer_keywords:
  - VIDEO_CHILD_TYPE
 ---
 
+# VIDEO_CHILD_TYPE enumeration (video.h)
+
 ## -description
 
 The **VIDEO_CHILD_TYPE** enumeration specifies the type of child device that is attached to a video device.

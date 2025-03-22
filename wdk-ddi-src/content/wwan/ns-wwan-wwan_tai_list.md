@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_TAI_LIST
 ---
 
+# WWAN_TAI_LIST structure (wwan.h)
+
 ## -description
 
 The **WWAN_TAI_LIST** structure represents one or more Tracking Area Identity (TAI) lists. 

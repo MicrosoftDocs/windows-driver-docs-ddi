@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SYSAUDIO_PREFERRED_DEVICE
 ---
 
+# SYSAUDIO_PREFERRED_DEVICE structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **SYSAUDIO_PREFERRED_DEVICE** structure (ksmedia.h).

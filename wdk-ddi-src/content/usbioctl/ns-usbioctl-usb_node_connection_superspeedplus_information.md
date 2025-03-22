@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _USB_NODE_CONNECTION_SUPERSPEEDPLUS_INFORMATION
 ---
 
+# USB_NODE_CONNECTION_SUPERSPEEDPLUS_INFORMATION structure (usbioctl.h)
+
 ## -description
 
 ## -struct-fields

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_UPDATECURRENTVALUESFROMCPU_FLAGS
 ---
 
+# DXGK_UPDATECURRENTVALUESFROMCPU_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_UPDATECURRENTVALUESFROMCPU_FLAGS** specifies flags to use when updating the current value of a batch of native fences from the CPU.

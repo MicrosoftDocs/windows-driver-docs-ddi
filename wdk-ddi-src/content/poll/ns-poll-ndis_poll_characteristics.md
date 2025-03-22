@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_POLL_CHARACTERISTICS structure (poll.h)
+
 ## -description
 
 The **NDIS_POLL_CHARACTERISTICS** structure contains a Poll object’s [*NdisPoll*](nc-poll-ndis_poll.md) and [*NdisSetPollNotification*](nc-poll-ndis_set_poll_notification.md) callback pointers.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEAP_DEVICE_DRV_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

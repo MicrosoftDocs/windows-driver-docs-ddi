@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Reset
 ---
 
+# IDebugHostFunctionLocalDetailsEnumerator::Reset function (dbgmodel.h)
+
 ## -description
 
 The Reset method resets the enumerator back to its initial state.

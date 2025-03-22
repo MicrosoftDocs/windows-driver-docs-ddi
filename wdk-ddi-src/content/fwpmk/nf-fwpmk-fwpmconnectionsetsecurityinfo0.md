@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionSetSecurityInfo0
 ---
 
+# FwpmConnectionSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionSetSecurityInfo0** function sets specified security information in the security descriptor for a connection object change event.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_RPMB_DATA_FRAME structure (ntddstor.h)
+
 ## -description
 
 The **STORAGE_RPMB_DATA_FRAME** structure identifies the data frame format of a Replay Protected Memory Block (RPMB) payload.

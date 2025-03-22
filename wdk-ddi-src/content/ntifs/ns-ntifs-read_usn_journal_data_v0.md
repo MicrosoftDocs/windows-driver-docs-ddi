@@ -42,6 +42,8 @@ helpviewer_keywords:
  - READ_USN_JOURNAL_DATA_V0
 ---
 
+# READ_USN_JOURNAL_DATA_V0 structure (ntifs.h)
+
 ## -description
 
 The **READ_USN_JOURNAL_DATA_V0** structure contains information defining a set of update sequence number (USN) change journal records to return to the calling process. It is used by the [**FSCTL_QUERY_USN_JOURNAL**](ni-ntifs-fsctl_query_usn_journal.md) and [**FSCTL_READ_USN_JOURNAL**](ni-ntifs-fsctl_read_usn_journal.md) control codes. Prior to Windows 8 and Windows Server 2012 this structure was named **READ_USN_JOURNAL_DATA**. Windows Server 2012 introduced [**READ_USN_JOURNAL_DATA_V1**](ns-ntifs-read_usn_journal_data_v1.md) to support 128-bit file identifiers used by ReFS.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_AEC
 ---
 
+# KSPROPERTY_AEC enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AEC** enumeration (ksmedia.h).

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _OPLOCK_KEY_ECP_CONTEXT
 ---
 
+# OPLOCK_KEY_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **OPLOCK_KEY_ECP_CONTEXT** structure is used to attach an oplock key to a file. This structure is obsolete for Windows 8 and later versions; filters should instead use [DUAL_OP_LOCK_KEY_ECP_CONTEXT](ns-ntifs-dual_oplock_key_ecp_context.md).

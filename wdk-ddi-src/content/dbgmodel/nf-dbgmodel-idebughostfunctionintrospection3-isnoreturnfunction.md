@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsNoReturnFunction
 ---
 
+# IDebugHostFunctionIntrospection3::IsNoReturnFunction function (dbgmodel.h)
+
 ## -description
 
 The IsNoReturnFunction method determines if the function is a non-returning function.

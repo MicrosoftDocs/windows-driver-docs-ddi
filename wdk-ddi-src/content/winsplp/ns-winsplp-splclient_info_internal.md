@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _SPLCLIENT_INFO_INTERNAL
 ---
 
+# SPLCLIENT_INFO_INTERNAL structure (winsplp.h)
+
 ## -description
 
 The **SPLCLIENT_INFO_INTERNAL** structure is a super set of the information in splclient_info_1, splclient_info2 and splclient_info3 and contains additional information needed by the Device Control Defender code.

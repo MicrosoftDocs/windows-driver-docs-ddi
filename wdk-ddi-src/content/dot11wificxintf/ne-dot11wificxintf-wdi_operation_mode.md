@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_OPERATION_MODE enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

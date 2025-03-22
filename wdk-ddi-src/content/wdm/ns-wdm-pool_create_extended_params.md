@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# POOL_CREATE_EXTENDED_PARAMS structure (wdm.h)
+
 ## -description
 
 Defines the **POOL_CREATE_EXTENDED_PARAMS** structure.

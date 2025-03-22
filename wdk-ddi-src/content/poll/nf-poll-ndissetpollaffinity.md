@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NdisSetPollAffinity function (poll.h)
+
 ## -description
 
 A miniport driver calls the **NdisSetPollAffinity** function to lock an [*NdisPoll*](nc-poll-ndis_poll.md) callback to a processor. 

@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_VIDEO_ENCODER_PROFILE_DESC_0080_2** is a generic structure for codec profiles.

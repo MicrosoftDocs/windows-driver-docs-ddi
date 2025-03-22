@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSessionEnum0
 ---
 
+# FwpmSessionEnum0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSessionEnum0** function returns the next page of results from the session enumerator.

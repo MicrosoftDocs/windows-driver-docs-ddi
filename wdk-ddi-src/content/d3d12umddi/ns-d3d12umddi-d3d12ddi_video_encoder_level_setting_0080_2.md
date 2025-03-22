@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_LEVEL_SETTING_0080_2
 ---
 
+# D3D12DDI_VIDEO_ENCODER_LEVEL_SETTING_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_LEVEL_SETTING_0080_2** structure encapsulates a generic level-related setting definition.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDirectDeviceGetPortId function (wificx.h)
+
 ## -description
 
 Gets the Wi-Fi Direct port ID.

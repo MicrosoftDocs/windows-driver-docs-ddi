@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PROCESS_SYSCALL_PROVIDER_INFORMATION
 ---
 
+# PROCESS_SYSCALL_PROVIDER_INFORMATION structure (ntddk.h)
+
 ## -description
 
 Describes the **PROCESS_SYSCALL_PROVIDER_INFORMATION** structure.

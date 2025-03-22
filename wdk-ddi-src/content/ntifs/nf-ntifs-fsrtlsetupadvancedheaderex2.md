@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# FsRtlSetupAdvancedHeaderEx2 function (ntifs.h)
+
 ## -description
 
 The **FsRtlSetupAdvancedHeaderEx2** macro is used by file systems to initialize an [**FSRTL_ADVANCED_FCB_HEADER**](ns-ntifs-_fsrtl_advanced_fcb_header.md) structure for use with stream and file contexts.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_BDA_WMDRM
 ---
 
+# KSMETHOD_BDA_WMDRM enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_BDA_WMDRM** enumeration.

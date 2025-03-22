@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaCreateEnumHandle0
 ---
 
+# IkeextSaCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaCreateEnumHandle0** function creates a handle used to enumerate a set of Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) security association (SA) objects.

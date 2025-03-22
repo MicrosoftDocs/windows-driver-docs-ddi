@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# tagKSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER structure (ksmedia.h)
+
 ## -description
 
 **KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER** contains size and count information for the **KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPSHEADER** and [KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_CONFIGCAPS](./ns-ksmedia-kscamera_extendedprop_digitalwindow_configcaps.md) structures.

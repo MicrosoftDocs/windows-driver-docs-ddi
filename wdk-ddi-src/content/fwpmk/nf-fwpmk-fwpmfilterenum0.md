@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterEnum0
 ---
 
+# FwpmFilterEnum0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterEnum0** function returns the next page of results from the filter enumerator.

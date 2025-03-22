@@ -35,6 +35,8 @@ helpviewer_keywords:
  - LATENCY_TIME
 ---
 
+# LATENCY_TIME enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **LATENCY_TIME** enumeration.

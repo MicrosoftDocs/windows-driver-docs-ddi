@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_PATH2
 ---
 
+# IDDCX_PATH2 structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_PATH2** structure describes the mode to be set on a given monitor.

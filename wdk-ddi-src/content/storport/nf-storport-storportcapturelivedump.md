@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortCaptureLiveDump function (storport.h)
+
 ## -description
 
 **StorPortCaptureLiveDump** captures a live dump file.

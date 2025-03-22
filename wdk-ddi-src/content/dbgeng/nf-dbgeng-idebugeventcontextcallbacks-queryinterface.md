@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::QueryInterface function (dbgeng.h)
+
 ## -description
 
 The standard COM QueryInterface method.

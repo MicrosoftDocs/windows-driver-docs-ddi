@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO
 ---
 
+# NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_UICC_TERMINAL_CAPABILITY_INFO** structure represents information about the terminal capabilities of the host.

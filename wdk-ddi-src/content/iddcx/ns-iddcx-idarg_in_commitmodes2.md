@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_IN_COMMITMODES2
 ---
 
+# IDARG_IN_COMMITMODES2 structure (iddcx.h)
+
 ## -description
 
 The **IDARG_IN_COMMITMODES2** structure contains input parameters for the [**EVT_IDD_CX_ADAPTER_COMMIT_MODES2**](nc-iddcx-evt_idd_cx_adapter_commit_modes2.md) callback function, which allows a driver to report extra information needed for HDR10 or WCG monitor modes.

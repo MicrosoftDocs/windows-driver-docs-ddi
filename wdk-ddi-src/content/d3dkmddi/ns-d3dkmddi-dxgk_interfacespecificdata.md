@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_INTERFACESPECIFICDATA
 ---
 
+# DXGK_INTERFACESPECIFICDATA structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_INTERFACESPECIFICDATA** is reserved for system use. Don't use it in your driver.

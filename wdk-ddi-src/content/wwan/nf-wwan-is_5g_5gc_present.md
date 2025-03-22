@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IS_5G_5GC_PRESENT function (wwan.h)
+
 ## -description
 
 The **IS_5G_5GC_PRESENT** macro determines whether a mobile broadband (MBB) device is registered in a 5G SA network.

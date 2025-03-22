@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _STORAGE_IDENTIFIER_TYPE
 ---
 
+# STORAGE_IDENTIFIER_TYPE enumeration (ntddstor.h)
+
 ## -description
 
 The STORAGE\_IDENTIFIER\_TYPE enumeration specifies the type of storage identifier.

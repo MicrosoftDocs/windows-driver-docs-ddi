@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_SETNATIVEFENCELOGBUFFER
 ---
 
+# DXGKARG_SETNATIVEFENCELOGBUFFER structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_SETNATIVEFENCELOGBUFFER** is the input structure for [**DxgkDdiSetNativeFenceLogBuffer**](nc-d3dkmddi-dxgkddi_setnativefencelogbuffer.md).

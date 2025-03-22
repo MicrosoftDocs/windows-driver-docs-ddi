@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TX_METADATA structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

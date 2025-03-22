@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKCBINT_FEATURE_NATIVEFENCE_1
 ---
 
+# DXGKCBINT_FEATURE_NATIVEFENCE_1 structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKCBINT_FEATURE_NATIVEFENCE_1** structure is an internal driver structure used by KMD to query the OS for its support of native GPU fence features.

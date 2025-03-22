@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortNvmeIceIoComplete
 ---
 
+# StorPortNvmeIceIoComplete function (storport.h)
+
 ## -description
 
 The **StorPortNvmeIceIoComplete** function signals the completion of an NVMe I/O operation that was initiated by a previous call to [**StorPortNvmeIceIoStart**](nf-storport-storportnvmeiceiostart.md).

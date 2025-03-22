@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CREATEHWQUEUE
 ---
 
+# DXGKDDI_CREATEHWQUEUE function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls **DxgkDdiCreateHwQueue** to have the kernel-mode display driver (KMD) perform the work to create a hardware queue.

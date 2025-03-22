@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_BARRIER_LAYOUT
 ---
 
+# D3D12DDI_BARRIER_LAYOUT enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_BARRIER_LAYOUT** value describes the possible layouts used by D3D12 subresources with respect to [texture barriers](ns-d3d12umddi-d3d12ddi_texture_barrier_0088.md). Layouts apply only to texture resources.

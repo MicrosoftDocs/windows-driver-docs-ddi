@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_VBICODECFILTERING_STATISTICS_COMMON_PIN_S
 ---
 
+# KSPROPERTY_VBICODECFILTERING_STATISTICS_COMMON_PIN_S structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VBICODECFILTERING_STATISTICS_COMMON_PIN_S** structure (ksmedia.h).

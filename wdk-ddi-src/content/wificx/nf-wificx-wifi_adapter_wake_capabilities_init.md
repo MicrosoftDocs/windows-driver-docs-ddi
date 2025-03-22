@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_WAKE_CAPABILITIES_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_WAKE_CAPABILITIES_INIT** method initializes a [**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md) structure.

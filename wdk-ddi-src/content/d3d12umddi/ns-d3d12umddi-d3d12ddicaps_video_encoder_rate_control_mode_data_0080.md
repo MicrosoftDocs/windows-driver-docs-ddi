@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDICAPS_VIDEO_ENCODER_RATE_CONTROL_MODE_DATA_0080
 ---
 
+# D3D12DDICAPS_VIDEO_ENCODER_RATE_CONTROL_MODE_DATA_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDICAPS_VIDEO_ENCODER_RATE_CONTROL_MODE_DATA_0080** structure is used to check whether a specified video encoding rate control mode is supported.

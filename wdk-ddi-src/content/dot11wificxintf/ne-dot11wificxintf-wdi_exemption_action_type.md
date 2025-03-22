@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_EXEMPTION_ACTION_TYPE enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

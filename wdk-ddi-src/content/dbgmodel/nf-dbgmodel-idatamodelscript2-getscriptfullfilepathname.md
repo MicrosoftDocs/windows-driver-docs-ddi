@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetScriptFullFilePathName
 ---
 
+# IDataModelScript2::GetScriptFullFilePathName function (dbgmodel.h)
+
 ## -description
 
 The GetScriptFullFilePathName method retrieves the full file path name of a script.

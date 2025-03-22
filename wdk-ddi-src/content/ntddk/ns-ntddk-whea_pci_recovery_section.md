@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_PCI_RECOVERY_SECTION
 ---
 
+# WHEA_PCI_RECOVERY_SECTION structure (ntddk.h)
+
 ## -description
 
 Describes the **WHEA_PCI_RECOVERY_SECTION** structure.

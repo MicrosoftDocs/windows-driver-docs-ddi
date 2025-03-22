@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_OPENNATIVEFENCE
 ---
 
+# DXGKARG_OPENNATIVEFENCE structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_OPENNATIVEFENCE** is the structure passed to [**DxgkDdiOpenNativeFence**](nc-d3dkmddi-dxgkddi_opennativefence.md).

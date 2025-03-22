@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCR_BTI_VBAR_INDEX
 ---
 
+# PCR_BTI_VBAR_INDEX enumeration (ntddk.h)
+
 ## -description
 
 Describes the **PCR_BTI_VBAR_INDEX** enumeration.

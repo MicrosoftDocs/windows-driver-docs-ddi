@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_ASSOC_STATUS enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

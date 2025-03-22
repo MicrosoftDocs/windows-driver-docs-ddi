@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _D3DDDI_DRIVERESCAPE_CPUEVENTUSAGE
 ---
 
+# D3DDDI_DRIVERESCAPE_CPUEVENTUSAGE structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_DRIVERESCAPE_CPUEVENTUSAGE** structure defines the kernel-mode driver (KMD) CPU event usage escape when notifying KMD about the intended usage of a KMD CPU event object.

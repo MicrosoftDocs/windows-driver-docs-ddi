@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# FILE_KNOWN_FOLDER_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **FILE_KNOWN_FOLDER_INFORMATION** structure contains information about a known folder (for example, *Documents*, *Downloads*, *Pictures*, and so forth).

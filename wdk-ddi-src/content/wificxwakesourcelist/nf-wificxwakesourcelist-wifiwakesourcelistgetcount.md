@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiWakeSourceListGetCount function (wificxwakesourcelist.h)
+
 ## -description
 
 The **WifiWakeSourceListGetCount** function gets the number of wake sources for a WiFiCx net adapter.

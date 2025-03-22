@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _REFS_DEALLOCATE_RANGES_ALLOCATOR
 ---
 
+# REFS_DEALLOCATE_RANGES_ALLOCATOR enumeration (ntifs.h)
+
 ## -description
 
 Reserved for system use.

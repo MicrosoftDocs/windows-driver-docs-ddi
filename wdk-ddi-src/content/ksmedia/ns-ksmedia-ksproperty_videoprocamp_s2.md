@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDEOPROCAMP_S2
 ---
 
+# KSPROPERTY_VIDEOPROCAMP_S2 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDEOPROCAMP_S2** structure (ksmedia.h).

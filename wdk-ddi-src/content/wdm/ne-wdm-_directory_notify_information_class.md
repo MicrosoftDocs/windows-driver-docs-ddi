@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _DIRECTORY_NOTIFY_INFORMATION_CLASS
 ---
 
+# DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration (wdm.h)
+
 ## -description
 
 A **DIRECTORY_NOTIFY_INFORMATION_CLASS** value specifies which structure to use to query or set information for files in a directory.

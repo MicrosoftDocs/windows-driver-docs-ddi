@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetInlinedFunction
 ---
 
+# IDebugHostFunctionLocalDetails2::GetInlinedFunction function (dbgmodel.h)
+
 ## -description
 
 The GetInlinedFunction method retrieves a symbol for the inlined function that the local variable is contained within, if [IsInlineScope()](nf-dbgmodel-idebughostfunctionlocaldetails2-isinlinescope.md) returns true.

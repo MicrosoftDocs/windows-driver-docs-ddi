@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_BDA_CHANGE_SYNC
 ---
 
+# KSMETHOD_BDA_CHANGE_SYNC enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_BDA_CHANGE_SYNC** enumeration.

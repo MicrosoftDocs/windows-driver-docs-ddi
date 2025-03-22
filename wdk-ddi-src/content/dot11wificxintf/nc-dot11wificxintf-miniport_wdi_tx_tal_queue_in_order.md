@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_TX_TAL_QUEUE_IN_ORDER function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

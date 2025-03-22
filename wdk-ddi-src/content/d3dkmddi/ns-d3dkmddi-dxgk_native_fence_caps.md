@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_NATIVE_FENCE_CAPS
 ---
 
+# DXGK_NATIVE_FENCE_CAPS structure (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver (KMD) returns the GPU's native fence capabilities in **DXGK_NATIVE_FENCE_CAPS** when its [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is called with the [**DXGKQAITYPE_NATIVE_FENCE_CAPS**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) query adapter info type.

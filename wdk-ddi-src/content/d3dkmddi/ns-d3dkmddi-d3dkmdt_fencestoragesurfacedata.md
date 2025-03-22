@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMDT_FENCESTORAGESURFACEDATA
 ---
 
+# D3DKMDT_FENCESTORAGESURFACEDATA structure (d3dkmddi.h)
+
 ## -description
 
 The **D3DKMDT_FENCESTORAGESURFACEDATA** structure describes the memory segments where the fence storage should be placed.

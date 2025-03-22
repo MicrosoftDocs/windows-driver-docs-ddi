@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_PROVISIONED_CONTEXT_V2
 ---
 
+# WWAN_PROVISIONED_CONTEXT_V2 structure (wwan.h)
+
 ## -description
 
 The **WWAN_PROVISIONED_CONTEXT_V2** structure represents a provisioned context that is supported by a mobile broadband (MBB) device. **WWAN_PROVISIONED_CONTEXT_V2** is only used in MBB driver versions 2.170 and above.

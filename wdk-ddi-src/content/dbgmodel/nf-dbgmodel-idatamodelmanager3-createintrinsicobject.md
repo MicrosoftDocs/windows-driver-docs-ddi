@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateIntrinsicObject
 ---
 
+# IDataModelManager3::CreateIntrinsicObject function (dbgmodel.h)
+
 ## -description
 
 The CreateIntrinsicObject method is the method which boxes intrinsic values into [IModelObject](nn-dbgmodel-imodelobject.md). The caller places the value in a COM VARIANT and calls this method. The data model manager returns an [IModelObject](nn-dbgmodel-imodelobject.md) representing the object. Note that this method is also used to box fundamental IUnknown based types: property accessors, methods, contexts, etc... In such cases, the objectKind method indicates what kind of IUnknown based construct the object represents and the punkVal field of the passed variant is the IUnknown derived type. The type must be statically castable to the appropriate model interface (e.g.: [IModelPropertyAccessor](nn-dbgmodel-imodelpropertyaccessor.md), [IModelMethod](nn-dbgmodel-imodelmethod.md), [IDebugHostContext](nn-dbgmodel-idebughostcontext.md), etc...) in process. 

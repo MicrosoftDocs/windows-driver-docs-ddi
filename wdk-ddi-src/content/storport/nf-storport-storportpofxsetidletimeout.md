@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortPoFxSetIdleTimeout
 ---
 
+# StorPortPoFxSetIdleTimeout function (storport.h)
+
 ## -description
 
 A miniport can call **StorPortPoFxSetIdleTimeout** to set the idle timeout value for an adapter, which is the amount of time that an adapter can be idle before it gets the Device Power Not Required notification.

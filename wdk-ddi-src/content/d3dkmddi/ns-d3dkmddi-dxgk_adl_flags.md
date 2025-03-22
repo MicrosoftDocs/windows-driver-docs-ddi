@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_ADL_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_ADL_FLAGS** structure specifies the flag(s) that apply to an [address descriptor list (ADL)](ns-d3dkmddi-dxgk_adl.md).

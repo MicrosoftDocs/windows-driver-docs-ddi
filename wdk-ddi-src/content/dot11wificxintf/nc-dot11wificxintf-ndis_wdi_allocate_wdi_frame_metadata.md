@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_ALLOCATE_WDI_FRAME_METADATA function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_ENGINE_STATE
 ---
 
+# DXGK_ENGINE_STATE enumeration (d3dkmddi.h)
+
 ## -description
 
 A **DXGK_ENGINE_STATE** enumeration value specifies the state of a GPU engine.

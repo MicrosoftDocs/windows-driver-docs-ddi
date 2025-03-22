@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderContextDeleteById0
 ---
 
+# FwpmProviderContextDeleteById0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderContextDeleteById0** function removes a provider context from the system.

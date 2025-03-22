@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRI_FULL_STATUS_DESCRIPTOR_HEADER
 ---
 
+# PRI_FULL_STATUS_DESCRIPTOR_HEADER structure (scsi.h)
+
 ## -description
 
 The **PRI_FULL_STATUS_DESCRIPTOR_HEADER** structure is the first member of a **[PRI_FULL_STATUS_DESCRIPTOR](ns-scsi-pri_full_status_descriptor.md)** structure, which is used to populate a **[PRI_FULL_STATUS_LIST](ns-scsi-pri_full_status_list.md)**.

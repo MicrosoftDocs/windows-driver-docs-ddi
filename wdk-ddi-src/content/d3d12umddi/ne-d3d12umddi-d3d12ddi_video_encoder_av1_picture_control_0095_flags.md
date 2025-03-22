@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_0095_FLAGS
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_0095_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_PICTURE_CONTROL_0095_FLAGS** enumeration specifies flags for the AV1-specific picture control properties.

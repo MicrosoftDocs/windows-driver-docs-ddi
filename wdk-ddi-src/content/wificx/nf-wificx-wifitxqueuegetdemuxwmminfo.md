@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiTxQueueGetDemuxWmmInfo function (wificx.h)
+
 ## -description
 
 The **WifiTxQueueGetDemuxWmmInfo** function gets the priority that the WiFiCx framework will use for this queue.

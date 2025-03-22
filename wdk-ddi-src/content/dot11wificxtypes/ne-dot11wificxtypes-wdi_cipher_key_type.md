@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_CIPHER_KEY_TYPE enumeration (dot11wificxtypes.h)
+
 
 ## -description
 

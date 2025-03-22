@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# RAID_SYSTEM_POWER enumeration (storport.h)
+
 ## -description
 
 **RAID_SYSTEM_POWER** is a system power usage indicator.

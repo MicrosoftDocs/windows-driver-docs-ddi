@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_ENUM_USN_DATA
 ---
 
+# FSCTL_ENUM_USN_DATA ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_ENUM_USN_DATA** control code enumerates the update sequence number (USN) data between two specified boundaries to get master file table (MFT) records.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDISETPOWERPSTATE
 ---
 
+# DXGKDDISETPOWERPSTATE function (d3dkmddi.h)
+
 ## -description
 
 **DXGKDDI_SETPOWERPSTATE** is reserved for system use. Don't use it in your driver.

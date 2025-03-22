@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_NOTIFYALLOCFLAGS
 ---
 
+# DXGK_NOTIFYALLOCFLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_NOTIFYALLOCFLAGS** structure specifies flags related to allocation notifications for paging operations.

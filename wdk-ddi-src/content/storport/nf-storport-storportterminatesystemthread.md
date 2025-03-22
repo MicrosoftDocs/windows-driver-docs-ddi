@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortTerminateSystemThread function (storport.h)
+
 ## -description
 
 **StorPortTerminateSystemThread** terminates the current system thread.

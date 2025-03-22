@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_QOS_SQ_TYPE enumeration (ntddndis.h)
+
 ## -description
 
 The **NDIS_QOS_SQ_TYPE** enumeration specifies the type of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_POWER_SETTING_INFO structure (storport.h)
+
 ## -description
 
 **STOR_POWER_SETTING_INFO** is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiPowerSettingNotification**.

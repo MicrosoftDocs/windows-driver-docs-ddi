@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_PIN_CONTROL
 ---
 
+# KSPROPERTY_BDA_PIN_CONTROL enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_PIN_CONTROL** enumeration.

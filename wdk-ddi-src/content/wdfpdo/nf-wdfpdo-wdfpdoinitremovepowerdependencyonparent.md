@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# WdfPdoInitRemovePowerDependencyOnParent function (wdfpdo.h)
+
 ## -description
 
 The **WdfPdoInitRemovePowerDependencyOnParent** method removes the power dependency described in the **Remarks** section.

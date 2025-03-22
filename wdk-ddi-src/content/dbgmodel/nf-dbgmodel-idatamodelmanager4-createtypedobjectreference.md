@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateTypedObjectReference
 ---
 
+# IDataModelManager4::CreateTypedObjectReference function (dbgmodel.h)
+
 ## -description
 
 The CreateTypedObjectReference method is semantically similar to the CreateTypedObject method excepting that it creates a reference to the underlying native/language construct. The created reference is an object which has a kind of ObjectTargetObjectReference. It is not a native reference as the underlying language might support (e.g.: a C++ & or &&). It is entirely possible to have a ObjectTargetObjectReference to a C++ reference. 

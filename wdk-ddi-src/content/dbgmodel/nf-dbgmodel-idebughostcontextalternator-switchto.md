@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SwitchTo
 ---
 
+# IDebugHostContextAlternator::SwitchTo function (dbgmodel.h)
+
 ## -description
 
 The SwitchTo method changes or switches the debugger engine context to the IDebugHostContext from which the IDebugHostContextControl was retrieved. Unlike a full context switch, this change is temporary, and not all debugger functionalities may be available or may work as expected unless the context is switched back.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseRundownProtectionCacheAwareEx
 ---
 
+# ExReleaseRundownProtectionCacheAwareEx function (wdm.h)
+
 ## -description
 
 The **ExReleaseRundownProtectionCacheAwareEx** routine releases cache-aware run-down protection on a specified number of shared objects.

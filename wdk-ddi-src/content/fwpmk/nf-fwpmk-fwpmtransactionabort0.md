@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmTransactionAbort0
 ---
 
+# FwpmTransactionAbort0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmTransactionAbort0** function causes the current transaction within the current session to abort and rollback.

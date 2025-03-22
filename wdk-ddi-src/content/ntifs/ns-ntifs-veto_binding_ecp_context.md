@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _VETO_BINDING_ECP_CONTEXT
 ---
 
+# VETO_BINDING_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **VETO_BINDING_ECP_CONTEXT** structure is the ECP context structure associated with [**GUID_ECP_TYPE_VETO_BINDING**](/windows-hardware/drivers/ifs/system-defined-ecps) for vetoing a bind link.

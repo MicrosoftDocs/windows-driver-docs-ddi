@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_UC_DEVICE_USAGE structure (storport.h)
+
 ## -description
 
 **STOR_UC_DEVICE_USAGE** is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorUnitControl**](nc-storport-hw_unit_control.md) routine is called with a **ControlType** of **ScsiUnitUsage**.

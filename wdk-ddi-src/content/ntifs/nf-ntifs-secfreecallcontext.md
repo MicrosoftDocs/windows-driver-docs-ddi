@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SecFreeCallContext
 ---
 
+# SecFreeCallContext function (ntifs.h)
+
 ## -description
 
 The **SecFreeCallContext** function frees a call context.

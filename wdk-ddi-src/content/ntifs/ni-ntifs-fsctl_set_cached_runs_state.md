@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_SET_CACHED_RUNS_STATE
 ---
 
+# FSCTL_SET_CACHED_RUNS_STATE ioctl (ntifs.h)
+
 ## -description
 
 Reserved for system use.

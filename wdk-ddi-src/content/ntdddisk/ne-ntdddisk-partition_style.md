@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _PARTITION_STYLE
 ---
 
+# PARTITION_STYLE enumeration (ntdddisk.h)
+
 ## -description
 
 The PARTITION\_STYLE enumeration type indicates the type of partition table for a disk.

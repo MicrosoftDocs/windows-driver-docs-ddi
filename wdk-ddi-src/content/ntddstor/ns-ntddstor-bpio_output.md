@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# BPIO_OUTPUT structure (ntddstor.h)
+
 ## -description
 
 The BPIO_OUTPUT structure is used to return information about the BypassIO operation for the [**IOCTL_STORAGE_MANAGE_BYPASS_IO**](ni-ntddstor-ioctl_storage_manage_bypass_io.md) control code.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_TDR_TYPE
 ---
 
+# DXGK_TDR_TYPE enumeration (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_TDR_TYPE** enumeration specifies the type of timeout detection and recovery (TDR) event that occurred.

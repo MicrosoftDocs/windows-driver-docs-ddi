@@ -34,6 +34,8 @@ helpviewer_keywords:
  - POWER_INFORMATION_LEVEL
 ---
 
+# POWER_INFORMATION_LEVEL enumeration (wdm.h)
+
 ## -description
 
 **POWER_INFORMATION_LEVEL** enumerates power level information indicators.

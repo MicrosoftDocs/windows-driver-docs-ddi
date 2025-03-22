@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_DEVICE_FUNCS_CORE_0108
 ---
 
+# D3D12DDI_DEVICE_FUNCS_CORE_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_DEVICE_FUNCS_CORE_0108** structure contains the core device functionality available in D3D12 Release 8, Build rev 108. The user-mode driver (UMD) returns its function pointers in this structure when its [**PFND3D12DDI_FILLDDITTABLE**](nc-d3d12umddi-pfnd3d12ddi_fillddittable.md) function is called with a [**D3D12DDI_TABLE_TYPE**](ne-d3d12umddi-d3d12ddi_table_type.md) of **D3D12DDI_TABLE_TYPE_DEVICE_CORE**.

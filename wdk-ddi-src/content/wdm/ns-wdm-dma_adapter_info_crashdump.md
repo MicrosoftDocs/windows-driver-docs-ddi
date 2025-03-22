@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _DMA_ADAPTER_INFO_CRASHDUMP
 ---
 
+# DMA_ADAPTER_INFO_CRASHDUMP structure (wdm.h)
+
 ## -description
 
 This topic describes the **DMA_ADAPTER_INFO_CRASHDUMP** structure.

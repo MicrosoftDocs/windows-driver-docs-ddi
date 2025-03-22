@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderGetByKey0
 ---
 
+# FwpmProviderGetByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderGetByKey0** function retrieves a provider.

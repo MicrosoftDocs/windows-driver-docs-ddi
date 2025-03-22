@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_CREATE_SHADER_0026
 ---
 
+# PFND3D12DDI_CREATE_SHADER_0026 function (d3d12umddi.h)
+
 ## -description
 
 The user-mode display driver's **PFND3D12DDI_CREATE_SHADER_0026** callback function creates a shader.

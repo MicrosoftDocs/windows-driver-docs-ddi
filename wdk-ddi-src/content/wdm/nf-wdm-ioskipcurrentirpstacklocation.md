@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IoSkipCurrentIrpStackLocation function (wdm.h)
+
 ## -description
 
 The **IoSkipCurrentIrpStackLocation** macro modifies the system's [**IO_STACK_LOCATION**](./ns-wdm-_io_stack_location.md) array pointer, so that when the current driver calls the next-lower driver, that driver receives the same **IO_STACK_LOCATION** structure that the current driver received.

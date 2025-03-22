@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_PCIE_CORRECTABLE_ERROR_DEVICES
 ---
 
+# WHEA_PCIE_CORRECTABLE_ERROR_DEVICES structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

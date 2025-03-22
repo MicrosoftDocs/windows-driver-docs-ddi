@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXVA_HuffmanTable_MJPEG
 ---
 
+# DXVA_HuffmanTable_MJPEG structure (dxva.h)
+
 ## -description
 
 The **DXVA_HuffmanTable_MJPEG** structure provides the Huffman table of a compressed picture for MJPEG video decoding.

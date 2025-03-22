@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmEngineSetSecurityInfo0
 ---
 
+# FwpmEngineSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmEngineSetSecurityInfo0** function sets specified security information in the security descriptor of the filter engine.

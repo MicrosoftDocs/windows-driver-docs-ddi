@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# DXGIDDI_PARTITIONING_EVENT_TYPE enumeration (d3dkmddi.h)
+
 ## -description
 
 **DXGIDDI_PARTITIONING_EVENT_TYPE** identifies the type of ETW event being reported by [**DxgkCbLogEtwEvent**](../dispmprt/nc-dispmprt-dxgkcb_log_etw_event.md) when **EventGuid** is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_PINFRAMEBUFFERFORSAVE2 structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_PINFRAMEBUFFERFORSAVE2** structure contains the information used by the [**DXGKCB_PINFRAMEBUFFERFORSAVE2**](nc-d3dkmddi-dxgkcb_pinframebufferforsave2.md) callback function to pin an entire frame buffer at once.

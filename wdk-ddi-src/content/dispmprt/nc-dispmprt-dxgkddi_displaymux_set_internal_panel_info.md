@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_SET_INTERNAL_PANEL_INFO
 ---
 
+# DXGKDDI_DISPLAYMUX_SET_INTERNAL_PANEL_INFO function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxSetInternalPanelInfo** function to provide the driver with information about the internal panel.

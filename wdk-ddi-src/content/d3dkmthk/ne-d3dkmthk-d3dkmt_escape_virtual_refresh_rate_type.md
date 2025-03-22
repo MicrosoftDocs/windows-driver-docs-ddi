@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _D3DKMT_ESCAPE_VIRTUAL_REFRESH_RATE_TYPE
 ---
 
+# D3DKMT_ESCAPE_VIRTUAL_REFRESH_RATE_TYPE enumeration (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

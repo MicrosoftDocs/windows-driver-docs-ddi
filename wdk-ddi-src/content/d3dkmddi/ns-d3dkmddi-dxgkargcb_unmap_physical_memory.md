@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_UNMAP_PHYSICAL_MEMORY structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_UNMAP_PHYSICAL_MEMORY** structure contains information about the physical memory object from which the CPU-visible address is being unmapped by the [**DXGKCB_UNMAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_unmapphysicalmemory.md) callback function.

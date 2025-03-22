@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MmAllocateContiguousMemoryEx function (wdm.h)
+
 ## -description
 
 The **MmAllocateContiguousMemoryEx** function allocates a range of physically contiguous non-paged memory and returns its virtual address.

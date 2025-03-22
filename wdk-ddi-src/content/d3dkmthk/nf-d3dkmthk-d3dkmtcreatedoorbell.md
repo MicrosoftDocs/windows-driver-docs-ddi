@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTCreateDoorbell
 ---
 
+# D3DKMTCreateDoorbell function (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMTCreateDoorbell** function creates a GPU doorbell for a D3D hardware queue for user-mode work submission.

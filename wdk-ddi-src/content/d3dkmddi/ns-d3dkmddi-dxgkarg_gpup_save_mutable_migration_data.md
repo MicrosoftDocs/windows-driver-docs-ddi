@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_GPUP_SAVE_MUTABLE_MIGRATION_DATA
 ---
 
+# DXGKARG_GPUP_SAVE_MUTABLE_MIGRATION_DATA structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_GPUP_SAVE_MUTABLE_MIGRATION_DATA** structure is used in a call to [**DxgkDdiSaveMutableMigrationData**](nc-d3dkmddi-dxgkddi_savemutablemigrationdata.md) to save mutable data for a live migration that is about to end.

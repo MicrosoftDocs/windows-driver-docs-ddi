@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# FILE_KNOWN_FOLDER_TYPE enumeration (ntifs.h)
+
 ## -description
 
 A **FILE_KNOWN_FOLDER_TYPE** value identifies a known folder.

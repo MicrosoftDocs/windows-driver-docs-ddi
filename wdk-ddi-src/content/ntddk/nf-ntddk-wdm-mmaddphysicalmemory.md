@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MmAddPhysicalMemory function (ntddk.h)
+
 ## -description
 
 The **MmAddPhysicalMemory** function adds a range of physical memory to the system.

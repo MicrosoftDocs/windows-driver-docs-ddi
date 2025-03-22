@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SETFLIPQUEUELOGBUFFER
 ---
 
+# DXGKDDI_SETFLIPQUEUELOGBUFFER function (d3dkmddi.h)
+
 ## -description
 
 In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the OS calls a display miniport driver's [**DXGKDDI_SETFLIPQUEUELOGBUFFER**](/windows-hardware/drivers/ddi/nc-d3dkmddi-dxgkddi_setflipqueuelogbuffe

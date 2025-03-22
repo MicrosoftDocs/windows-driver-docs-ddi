@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_RAYTRACING_PIPELINE_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 Raytracing pipeline flag.

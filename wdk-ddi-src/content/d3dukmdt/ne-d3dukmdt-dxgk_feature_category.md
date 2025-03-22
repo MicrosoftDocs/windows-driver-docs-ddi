@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_FEATURE_CATEGORY
 ---
 
+# DXGK_FEATURE_CATEGORY enumeration (d3dukmdt.h)
+
 ## -description
 
 The **DXGK_FEATURE_CATEGORY** enumeration specifies the category of a WDDM feature.

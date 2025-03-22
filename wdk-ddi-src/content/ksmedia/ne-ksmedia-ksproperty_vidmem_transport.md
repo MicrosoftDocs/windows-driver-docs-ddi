@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDMEM_TRANSPORT
 ---
 
+# KSPROPERTY_VIDMEM_TRANSPORT enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDMEM_TRANSPORT** enumeration (ksmedia.h).

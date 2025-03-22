@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _TOKEN_MANDATORY_POLICY
 ---
 
+# TOKEN_MANDATORY_POLICY structure (ntifs.h)
+
 ## -description
 
 The **TOKEN_MANDATORY_POLICY** structure specifies the mandatory integrity policy for a token.

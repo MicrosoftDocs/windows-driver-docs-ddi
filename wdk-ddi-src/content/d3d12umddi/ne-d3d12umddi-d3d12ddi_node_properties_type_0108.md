@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_NODE_PROPERTIES_TYPE_0108
 ---
 
+# D3D12DDI_NODE_PROPERTIES_TYPE_0108 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_NODE_PROPERTIES_TYPE_0108** enumeration specifies the type of properties associated with a node in a work graph.

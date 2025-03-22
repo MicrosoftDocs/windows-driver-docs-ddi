@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDEOCOMPRESSION_S1
 ---
 
+# KSPROPERTY_VIDEOCOMPRESSION_S1 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDEOCOMPRESSION_S1** structure (ksmedia.h).

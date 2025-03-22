@@ -35,6 +35,8 @@ helpviewer_keywords:
  - CLASSENABLEDISABLEFUNCTION
 ---
 
+# CLASSENABLEDISABLEFUNCTION enumeration (classpnp.h)
+
 ## -description
 
 Specifies which functionality is being enabled or disabled.

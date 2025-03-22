@@ -41,6 +41,8 @@ dev_langs:
 returns-override: true
 ---
 
+# MmGetMdlPfnArray function (wdm.h)
+
 ## -description
 
 The **MmGetMdlPfnArray** macro returns a pointer to the beginning of the array of physical page numbers that are associated with a memory descriptor list (MDL).

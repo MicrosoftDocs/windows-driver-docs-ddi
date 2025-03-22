@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterRemovePeer function (wificx.h)
+
 ## -description
 
 Client drivers call the **WifiAdapterRemovePeer** function to tell the WiFiCx framework that a peer has been disconnected. This causes the framework to stop the associated queue.

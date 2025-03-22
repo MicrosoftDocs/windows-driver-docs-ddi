@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3DWDDM2_0DDIARG_TEX2D_SHADERRESOURCEVIEW
 ---
 
+# D3DWDDM2_0DDIARG_TEX2D_SHADERRESOURCEVIEW structure (d3d10umddi.h)
+
 ## -description
 
 The **D3DWDDM2_0DDIARG_TEX2D_SHADERRESOURCEVIEW** structure describes a two-dimensional (2-D) texture that is used to create a shader resource view in a call to [**CreateShaderResourceView**](nc-d3d10umddi-pfnd3dwddm2_0ddi_createshaderresourceview.md).

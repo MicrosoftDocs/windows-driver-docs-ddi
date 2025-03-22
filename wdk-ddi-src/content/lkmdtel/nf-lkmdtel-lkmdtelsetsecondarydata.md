@@ -42,6 +42,8 @@ helpviewer_keywords:
  - LkmdTelSetSecondaryData
 ---
 
+# LkmdTelSetSecondaryData function (lkmdtel.h)
+
 ## -description
 
 This function sets the secondary data in the telemetry data structure. It is not required prior to submitting a report. Providing secondary data allows a component to supply extra data within the minidump to assist in debugging. 

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DMA_IOMMU_INTERFACE_EX structure (wdm.h)
+
 ## -description
 
 An interface structure that allows device drivers to interface with the IOMMU functions that perform device domain operations.

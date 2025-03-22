@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExEnterCriticalRegionAndAcquireResourceExclusive
 ---
 
+# ExEnterCriticalRegionAndAcquireResourceExclusive function (wdm.h)
+
 ## -description
 
 The **ExEnterCriticalRegionAndAcquireResourceExclusive** routine first enters a critical region, and then acquires exclusive access to the specified resource.

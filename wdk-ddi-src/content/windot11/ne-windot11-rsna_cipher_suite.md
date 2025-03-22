@@ -35,6 +35,8 @@ helpviewer_keywords:
  - RSNA_CIPHER_SUITE
 ---
 
+# RSNA_CIPHER_SUITE enumeration (windot11.h)
+
 ## -description
 
 The **RSNA_CIPHER_SUITE** enumeration defines Robust Security Network Association (RSNA) cipher suites.

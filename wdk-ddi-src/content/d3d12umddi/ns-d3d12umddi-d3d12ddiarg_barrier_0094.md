@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDIARG_BARRIER_0094
 ---
 
+# D3D12DDIARG_BARRIER_0094 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_BARRIER_0094** structure contains the enhanced barrier parameters for the [**PFND3D12DDI_BARRIER_0094**](nc-d3d12umddi-pfnd3d12ddi_barrier_0094.md) callback function.

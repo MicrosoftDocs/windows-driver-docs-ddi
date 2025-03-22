@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetReceiveFilterGetMulticastAddressCount function (netadapter.h)
+
 ## -description
 
 The **NetReceiveFilterGetMulticastAddressCount** function retrieves the number of addresses in a network adapter's multicast address list. 

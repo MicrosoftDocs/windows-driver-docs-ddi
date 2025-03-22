@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# GNSS_FIXDATA_2 structure (gnssdriver.h)
+
 ## -description
 
 The **GNSS_FIXDATA_2** structure defines the specific data elements associated with a GNSS fix returned from the driver.

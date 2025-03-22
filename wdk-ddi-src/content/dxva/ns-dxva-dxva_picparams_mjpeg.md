@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXVA_PicParams_MJPEG
 ---
 
+# DXVA_PicParams_MJPEG structure (dxva.h)
+
 ## -description
 
 The **DXVA_PicParams_MJPEG** structure provides the picture-level parameters of a compressed picture for MJPEG video decoding.

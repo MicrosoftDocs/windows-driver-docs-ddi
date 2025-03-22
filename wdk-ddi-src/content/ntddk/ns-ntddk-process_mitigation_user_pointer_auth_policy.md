@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PROCESS_MITIGATION_USER_POINTER_AUTH_POLICY
 ---
 
+# PROCESS_MITIGATION_USER_POINTER_AUTH_POLICY structure (ntddk.h)
+
 ## -description
 
 This topic describes the **PROCESS_MITIGATION_USER_POINTER_AUTH_POLICY** structure.

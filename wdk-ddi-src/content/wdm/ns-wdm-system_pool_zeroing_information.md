@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# SYSTEM_POOL_ZEROING_INFORMATION structure (wdm.h)
+
 ## -description
 
 Reserved for system use.

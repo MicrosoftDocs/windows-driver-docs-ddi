@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RTL_HEAP_COMMIT_ROUTINE
 ---
 
+# RTL_HEAP_COMMIT_ROUTINE function (ntifs.h)
+
 ## -description
 
 A **RTL_HEAP_COMMIT_ROUTINE** callback routine commits pages from the heap.

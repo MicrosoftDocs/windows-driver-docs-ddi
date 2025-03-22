@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetBaseType
 ---
 
+# IDebugHostType3::GetBaseType function (dbgmodel.h)
+
 ## -description
 
 If the type is a derivative of another single type (e.g.: as MyStruct * is derived from MyStruct'), the GetBaseType method returns the base type of the derivation. For pointers, this returns the type pointed to. For arrays, this returns what the array is an array of. If the type is not such a derivative type, an error is returned. 

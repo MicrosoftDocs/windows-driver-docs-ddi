@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# SPB_MULTI_SPI_TRANSFER_MODE enumeration (spb.h)
+
 ## -description
 
 The **SPB_MULTI_SPI_TRANSFER_MODE** enumeration specifies a type of multi-SPI transfer to be used by a bus driver to communicate with a peripheral device.

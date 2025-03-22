@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FsRtlKernelFsControlFile
 ---
 
+# FsRtlKernelFsControlFile function (ntifs.h)
+
 ## -description
 
 The **FsRtlKernelFsControlFile** function builds an explicit FSCTL_XXX IRP, sends it down the stack, synchronously waits for it to complete, and returns the result. This function allows the caller to complete this action by **FileObject** instead of handle.

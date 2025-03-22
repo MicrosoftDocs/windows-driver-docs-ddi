@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# QUERY_PATH_REQUEST_EX structure (ntifs.h)
+
 ## -description
 
 The **QUERY_PATH_REQUEST_EX** structure contains the prefix resolution request for [**IOCTL_REDIR_QUERY_PATH_EX**](ni-ntifs-ioctl_redir_query_path_ex.md).

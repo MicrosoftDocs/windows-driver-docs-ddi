@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetRegister
 ---
 
+# IDebugHostFunctionLocalStorage::GetRegister function (dbgmodel.h)
+
 ## -description
 
 The GetRegister method retrieves the register the local data is stored within, or the register it is relative to. The returned value is architecture-specific.

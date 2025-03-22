@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI structure (wdm.h)
+
 ## -description
 
 **IOMMU_DEVICE_CREATION_CONFIGURATION_ACPI** provides the ACPI-specific configuration parameters of a [**IOMMU_DEVICE_CREATION_CONFIGURATION**](ns-wdm-iommu_device_creation_configuration.md) structure, which is provided for creation of an ACPI-type **IOMMU_DMA_DEVICE**.

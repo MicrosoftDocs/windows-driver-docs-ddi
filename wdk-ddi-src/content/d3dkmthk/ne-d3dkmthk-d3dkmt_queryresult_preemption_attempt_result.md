@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT enumeration (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

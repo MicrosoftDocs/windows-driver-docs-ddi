@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_MEMORY_CORRECTABLE_ERROR_HEADER
 ---
 
+# WHEA_MEMORY_CORRECTABLE_ERROR_HEADER structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

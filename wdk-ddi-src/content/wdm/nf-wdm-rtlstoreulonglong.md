@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlStoreUlonglong function (wdm.h)
+
 ## -description
 
 The **RtlStoreUlonglong** macro stores a specified ULONGLONG value at a specified memory address, avoiding memory alignment faults.

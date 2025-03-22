@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DeleteAdditionalXML
 ---
 
+# IDebugFailureAnalysis3::DeleteAdditionalXML function (extsfns.h)
+
 ## -description
 
 ## -parameters

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePoolUninitialized function (wdm.h)
+
 ## -description
 
 This routine is a wrapper and replacement option for [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md).

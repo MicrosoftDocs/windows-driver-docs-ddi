@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _LMR_QUERY_INFO_PARAM
 ---
 
+# LMR_QUERY_INFO_PARAM structure (ntifs.h)
+
 ## -description
 
 The **LMR_QUERY_INFO_PARAM** structure is used to query information about a file system.

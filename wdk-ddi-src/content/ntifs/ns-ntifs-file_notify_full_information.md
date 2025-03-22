@@ -43,6 +43,8 @@ helpviewer_keywords:
  - _FILE_NOTIFY_FULL_INFORMATION
 ---
 
+# FILE_NOTIFY_FULL_INFORMATION structure (ntifs.h)
+
 ## -description
 
 A **FILE_NOTIFY_FULL_INFORMATION** structure is returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when [**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md) is DirectoryNotifyFullInformation.

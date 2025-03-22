@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KS_AM_PROPERTY_TS_RATE_CHANGE
 ---
 
+# KS_AM_PROPERTY_TS_RATE_CHANGE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KS_AM_PROPERTY_TS_RATE_CHANGE** enumeration (ksmedia.h).

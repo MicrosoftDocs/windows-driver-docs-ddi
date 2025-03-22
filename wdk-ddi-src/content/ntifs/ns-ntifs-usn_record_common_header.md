@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_RECORD_COMMON_HEADER
 ---
 
+# USN_RECORD_COMMON_HEADER structure (ntifs.h)
+
 ## -description
 
 The **USN_RECORD_COMMON_HEADER** structure contains the information for an update sequence number (USN) common header which is common through [**USN_RECORD_V2**](ns-ntifs-usn_record_v2.md), [**USN_RECORD_V3**](ns-ntifs-usn_record_v3.md) and [**USN_RECORD_V4**](ns-ntifs-usn_record_v4.md) structure.

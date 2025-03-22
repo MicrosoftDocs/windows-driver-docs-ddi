@@ -35,6 +35,8 @@ helpviewer_keywords:
  - LocalKind
 ---
 
+# LocalKind enumeration (dbgmodel.h)
+
 ## -description
    
 The **LocalKind** enum defines the kind of local that a particular name is (whether an argument to the function or a local variable).  

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_CARD_PRESENCE
 ---
 
+# PCI_EXPRESS_CARD_PRESENCE enumeration (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_CARD_PRESENCE** enumeration.

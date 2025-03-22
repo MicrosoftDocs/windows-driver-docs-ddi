@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _BitTestAndReset64
 ---
 
+# _BitTestAndReset64 function (wdm.h)
+
 ## -description
 
 ## -parameters

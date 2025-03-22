@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NPEM_CONTROL_SET_STANDARD_CONTROL function (wdm.h)
+
 ## -description
 
 Reserved for system use.

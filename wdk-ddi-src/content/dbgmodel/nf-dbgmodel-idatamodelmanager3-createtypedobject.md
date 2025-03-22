@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateTypedObject
 ---
 
+# IDataModelManager3::CreateTypedObject function (dbgmodel.h)
+
 ## -description
 
 The CreateTypedObject method is the method which allows a client to create a representation of a native/language object in the address space of a debug target. If the type of the newly created object (as indicated by the objectType argument) happens to match one or more type signatures registered with the data model manager as either canonical visualizers or extensions, those matching data models will automatically be attached to the created instance object before it is returned to the caller.

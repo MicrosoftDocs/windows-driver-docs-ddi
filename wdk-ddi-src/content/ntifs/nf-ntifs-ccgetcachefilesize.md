@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcGetCacheFileSize
 ---
 
+# CcGetCacheFileSize function (ntifs.h)
+
 ## -description
 
 The **CcGetCacheFileSize** function retrieves the current size of a file as known to the cache manager.

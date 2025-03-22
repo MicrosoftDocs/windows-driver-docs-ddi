@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_POST_ENCODE_VALUES_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_POST_ENCODE_VALUES_0095 structure (d3d12umddi.h)
+
 ## -description
 
 If a [**D3D12DDI_VIDEO_ENCODER_AV1_POST_ENCODE_VALUES_0095_FLAGS**](ne-d3d12umddi-d3d12ddi_video_encoder_av1_post_encode_values_0095_flags.md) value is reported for its respective structure, the driver must write the value after [*EncodeFrame*](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md) execution with or without modifications (copy API client input) done by the driver. Otherwise, the driver must copy the values from the associated API Client input when calling *EncodeFrame*.

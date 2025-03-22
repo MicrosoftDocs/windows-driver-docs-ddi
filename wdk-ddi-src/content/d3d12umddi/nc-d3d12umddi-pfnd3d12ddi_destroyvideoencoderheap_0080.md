@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_DESTROYVIDEOENCODERHEAP_0080
 ---
 
+# PFND3D12DDI_DESTROYVIDEOENCODERHEAP_0080 function (d3d12umddi.h)
+
 ## -description
 
 A client driver's **PFND3D12DDI_DESTROYVIDEOENCODERHEAP_0080** callback function destroys a video encoder heap object.

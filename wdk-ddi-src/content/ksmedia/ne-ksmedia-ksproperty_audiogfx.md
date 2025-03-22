@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_AUDIOGFX
 ---
 
+# KSPROPERTY_AUDIOGFX enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AUDIOGFX** enumeration (ksmedia.h).

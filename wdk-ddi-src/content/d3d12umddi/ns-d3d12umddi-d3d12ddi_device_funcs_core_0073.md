@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_DEVICE_FUNCS_CORE_0073 structure (d3d12umddi.h)
+
 ## -description
 
 Core device functions available in D3D12 Release 7, Build rev 3.

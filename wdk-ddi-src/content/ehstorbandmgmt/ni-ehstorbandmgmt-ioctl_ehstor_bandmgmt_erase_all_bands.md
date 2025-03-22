@@ -38,6 +38,8 @@ helpviewer_keywords:
  - IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS
 ---
 
+# IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS ioctl (ehstorbandmgmt.h)
+
 ## -description
 
 The **IOCTL_EHSTOR_BANDMGMT_ERASE_ALL_BANDS** request cryptographically erases and resets the authentication keys for all configured bands.

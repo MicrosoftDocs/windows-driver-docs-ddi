@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlEqualLuid function (wdm.h)
+
 ## -description
 
 ## -parameters

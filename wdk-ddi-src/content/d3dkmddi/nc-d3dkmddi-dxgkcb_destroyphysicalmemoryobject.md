@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_DESTROYPHYSICALMEMORYOBJECT function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_DESTROYPHYSICALMEMORYOBJECT** destroys physical memory for the driver.

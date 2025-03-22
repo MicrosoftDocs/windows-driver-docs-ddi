@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# SCSI_UC_DEVICE_USAGE_TYPE enumeration (storport.h)
+
 ## -description
 
 **SCSI_UC_DEVICE_USAGE_TYPE** specifies the device usage type from a PnP device usage notification.

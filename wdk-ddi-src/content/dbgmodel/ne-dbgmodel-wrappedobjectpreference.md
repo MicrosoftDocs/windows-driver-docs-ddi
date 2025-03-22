@@ -35,6 +35,8 @@ helpviewer_keywords:
  - WrappedObjectPreference
 ---
 
+# WrappedObjectPreference enumeration (dbgmodel.h)
+
 ## -description  
    
 The **WrappedObjectPreference** enum indicates a preference for how the wrapper and the wrapped object should be treated.  

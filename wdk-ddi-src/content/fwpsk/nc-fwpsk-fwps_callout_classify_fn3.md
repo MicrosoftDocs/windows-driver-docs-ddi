@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FWPS_CALLOUT_CLASSIFY_FN3
 ---
 
+# FWPS_CALLOUT_CLASSIFY_FN3 function (fwpsk.h)
+
 ## -description
 
 Version 3 of the callback function invoked during classification when a callout filter matches. The difference being that this callback returns an [FWPS_FILTER3](/windows/win32/api/fwpstypes/ns-fwpstypes-fwps_filter3) structure.

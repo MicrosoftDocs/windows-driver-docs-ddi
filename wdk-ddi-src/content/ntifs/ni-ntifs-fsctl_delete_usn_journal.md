@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_DELETE_USN_JOURNAL
 ---
 
+# FSCTL_DELETE_USN_JOURNAL ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_DELETE_USN_JOURNAL** control code deletes the update sequence number (USN) change journal on a volume, or waits for notification of change journal deletion. See Remarks.

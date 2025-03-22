@@ -41,6 +41,8 @@ helpviewer_keywords:
  - DEBUG_MEMORY_REQUIREMENTS
 ---
 
+# DEBUG_MEMORY_REQUIREMENTS structure (ntddk.h)
+
 ## -description
 
 This topic describes the **DEBUG_MEMORY_REQUIREMENTS** structure.

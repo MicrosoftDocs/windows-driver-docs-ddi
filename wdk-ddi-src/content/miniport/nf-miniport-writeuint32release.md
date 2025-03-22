@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteUInt32Release
 ---
 
+# WriteUInt32Release function (miniport.h)
+
 ## -description
 
 This topic describes the **WriteUInt32Release** function.

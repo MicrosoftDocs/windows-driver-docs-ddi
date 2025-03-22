@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_QUERYSTATISTICS structure (d3dkmthk.h)
+
 ## -description
 
 **D3DKMT_QUERYSTATISTICS** is reserved for system use. Do not use.

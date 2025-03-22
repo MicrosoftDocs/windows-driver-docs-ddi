@@ -35,6 +35,8 @@ helpviewer_keywords:
  - ExtendedArrayDimensionFlags
 ---
 
+# ExtendedArrayDimensionFlags enumeration (dbgmodel.h)
+
 ## -description
 
 This enum defines the memory layout of one dimension of an extended array. It is designed to fully describe the array layout of a CLI (ECMA-335) array.  

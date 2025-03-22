@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostFunctionLocalStorageEnumerator
 ---
 
+# IDebugHostFunctionLocalStorageEnumerator interface (dbgmodel.h)
+
 ## -description
 
 IDebugHostFunctionLocalStorageEnumerator provides an interface to storage for the local (what registers or memory locations

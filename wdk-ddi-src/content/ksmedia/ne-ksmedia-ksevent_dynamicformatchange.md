@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_DYNAMICFORMATCHANGE
 ---
 
+# KSEVENT_DYNAMICFORMATCHANGE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_DYNAMICFORMATCHANGE** enumeration (ksmedia.h).

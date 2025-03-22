@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NET_BUFFER_LIST_IS_TCP_RSC_SET
 ---
 
+# NET_BUFFER_LIST_IS_TCP_RSC_SET function (ndis.h)
+
 ## -description
 
 The **NET_BUFFER_LIST_IS_TCP_RSC_SET** function returns whether receive segment coalescing (RSC) is set for a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.

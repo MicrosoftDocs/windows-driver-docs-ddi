@@ -42,6 +42,8 @@ helpviewer_keywords:
  - HalSetBusDataByOffset
 ---
 
+# HalSetBusDataByOffset function (ntddk.h)
+
 ## -description
 
 >[!WARNING]

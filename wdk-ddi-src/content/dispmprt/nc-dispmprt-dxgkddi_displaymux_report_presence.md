@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_REPORT_PRESENCE
 ---
 
+# DXGKDDI_DISPLAYMUX_REPORT_PRESENCE function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxReportPresence** function before adapter start to inform the driver that an automatic display switch (ADS) mux has been detected.

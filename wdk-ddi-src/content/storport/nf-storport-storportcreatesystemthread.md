@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortCreateSystemThread function (storport.h)
+
 ## -description
 
 **StorPortCreateSystemThread** creates a system thread and supplies a pointer to a context for the thread.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_MODE_0095_FLAGS
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_MODE_0095_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_SEGMENTATION_MODE_0095_FLAGS** enumeration defines the supported segmentation modes that can be used for the segmentation map in the AV1 video encoding process.

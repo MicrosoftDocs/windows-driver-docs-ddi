@@ -38,6 +38,8 @@ helpviewer_keywords:
  - DEVICE_TEXT_TYPE
 ---
 
+# DEVICE_TEXT_TYPE enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **DEVICE_TEXT_TYPE** enumeration.

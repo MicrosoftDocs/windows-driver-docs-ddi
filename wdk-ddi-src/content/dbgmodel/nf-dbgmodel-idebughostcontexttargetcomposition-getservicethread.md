@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetServiceThread
 ---
 
+# IDebugHostContextTargetComposition::GetServiceThread function (dbgmodel.h)
+
 ## -description
 
 The GetServiceThread method retrieves the thread that is associated with a particular host context.

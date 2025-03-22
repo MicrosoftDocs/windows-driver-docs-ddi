@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderAdd0
 ---
 
+# FwpmProviderAdd0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderAdd0** function adds a new provider to the system.

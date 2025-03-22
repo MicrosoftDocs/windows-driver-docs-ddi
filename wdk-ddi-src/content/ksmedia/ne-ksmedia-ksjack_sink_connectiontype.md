@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSJACK_SINK_CONNECTIONTYPE
 ---
 
+# KSJACK_SINK_CONNECTIONTYPE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSJACK_SINK_CONNECTIONTYPE** enumeration (ksmedia.h).

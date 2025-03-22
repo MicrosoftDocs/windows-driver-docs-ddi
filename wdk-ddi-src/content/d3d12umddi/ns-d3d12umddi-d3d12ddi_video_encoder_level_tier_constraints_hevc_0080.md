@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_LEVEL_TIER_CONSTRAINTS_HEVC_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_LEVEL_TIER_CONSTRAINTS_HEVC_0080 structure (d3d12umddi.h)
+
 ## -description
 
  **D3D12DDI_VIDEO_ENCODER_LEVEL_TIER_CONSTRAINTS_HEVC_0080** structure identifies the level and tier for an HEVC level setting configuration.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE
 ---
 
+# MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE structure (scsi.h)
+
 ## -description
 
 The **MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE** structure describes the Command Duration Limit T2B mode page, described in Section 7.5.12 of the T10 SCSI Primary Commands specification (SPC-6).

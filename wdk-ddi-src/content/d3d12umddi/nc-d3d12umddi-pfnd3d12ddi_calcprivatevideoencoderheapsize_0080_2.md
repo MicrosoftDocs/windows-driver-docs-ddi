@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_CALCPRIVATEVIDEOENCODERHEAPSIZE_0080_2
 ---
 
+# PFND3D12DDI_CALCPRIVATEVIDEOENCODERHEAPSIZE_0080_2 function (d3d12umddi.h)
+
 ## -description
 
 A client driver's **PFND3D12DDI_CALCPRIVATEVIDEOENCODERHEAPSIZE_0080_2** callback function calculates the required amount of memory needed for the driver's object that represents the video encoder heap.

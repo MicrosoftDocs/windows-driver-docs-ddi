@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RegisterModelForTypeSignature
 ---
 
+# IDataModelManager4::RegisterModelForTypeSignature function (dbgmodel.h)
+
 ## -description
 
 The RegisterModelForTypeSignature method is the primary method that a caller utilizes to register a canonical visualizer for a given type (or set of types). A canonical visualizer is a data model which, in effect, takes over the display of a given type (or set of types). Instead of the native/language view of the type being displayed in any debugger user interface, the view of the type as presented by the registered data model is displayed (along with a means of getting back to the native/language view for a user who desires it). 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_GET_PROGRAM_IDENTIFIER_0108
 ---
 
+# PFND3D12DDI_GET_PROGRAM_IDENTIFIER_0108 function (d3d12umddi.h)
+
 ## -description
 
 UMD's **PFND3D12DDI_GET_PROGRAM_IDENTIFIER_0108** function retrieves an identifier for a program within a state object.

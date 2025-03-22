@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterInitialize function (wificx.h)
+
 ## -description
 
 The **WifiAdapterInitialize** function initializes a newly created NETADAPTER object for WiFiCx.

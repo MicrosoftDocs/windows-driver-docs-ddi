@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterAddPeer function (wificx.h)
+
 ## -description
 
 Client drivers call the **WifiAdapterAddPeer** function to tell the WiFiCx framework that a peer has connected with the given address. WiFiCx will associate a queue to the peer address. 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARGCB_FEATURE_NATIVEFENCE_CAPS_1
 ---
 
+# DXGKARGCB_FEATURE_NATIVEFENCE_CAPS_1 structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_FEATURE_NATIVEFENCE_CAPS_1** structure describes the native fence capabilities of the OS.

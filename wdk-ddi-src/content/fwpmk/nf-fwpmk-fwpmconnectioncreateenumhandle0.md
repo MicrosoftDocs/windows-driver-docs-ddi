@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionCreateEnumHandle0
 ---
 
+# FwpmConnectionCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionCreateEnumHandle0** function creates a handle used to enumerate a set of connection objects.

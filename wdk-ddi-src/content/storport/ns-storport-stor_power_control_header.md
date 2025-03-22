@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_POWER_CONTROL_HEADER structure (storport.h)
+
 ## -description
 
 **STOR_POWER_CONTROL_HEADER** is a common power control header for both adapter and unit power-related control parameters.

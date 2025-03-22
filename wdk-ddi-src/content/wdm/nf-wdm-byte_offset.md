@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# BYTE_OFFSET function (wdm.h)
+
 ## -description
 
 The **BYTE_OFFSET** macro takes a virtual address and returns the byte offset of that address within the page.

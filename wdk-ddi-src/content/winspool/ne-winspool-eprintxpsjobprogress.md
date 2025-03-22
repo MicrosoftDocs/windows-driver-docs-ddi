@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPrintXPSJobProgress
 ---
 
+# EPrintXPSJobProgress enumeration (winspool.h)
+
 ## -description
 
 This topic describes the **EPrintXPSJobProgress** enumeration.

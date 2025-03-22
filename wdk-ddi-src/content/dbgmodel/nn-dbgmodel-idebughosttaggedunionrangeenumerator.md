@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostTaggedUnionRangeEnumerator
 ---
 
+# IDebugHostTaggedUnionRangeEnumerator interface (dbgmodel.h)
+
 ## -description
 
 IDebugHostTaggedUnionRangeEnumerator enumerates a set of tag ranges for a tagged union case. This can be acquired by calling DebugHostType6::GetTaggedUnionTagRanges() on a tagged union case type.

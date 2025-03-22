@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_SHAREOBJECTWITHHOST
 ---
 
+# D3DKMT_SHAREOBJECTWITHHOST structure (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

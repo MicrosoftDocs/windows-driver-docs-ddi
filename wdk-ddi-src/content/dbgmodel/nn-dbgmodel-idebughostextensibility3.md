@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostExtensibility3
 ---
 
+# IDebugHostExtensibility3 interface (dbgmodel.h)
+
 ## -description
 
 The version 3 of the extensibility interface to the underlying debugger.

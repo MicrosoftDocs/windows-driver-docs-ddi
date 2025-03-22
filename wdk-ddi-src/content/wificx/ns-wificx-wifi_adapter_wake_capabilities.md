@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_WAKE_CAPABILITIES structure (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_WAKE_CAPABILITIES** structure describes a WiFiCx network adapter's wake-on-LAN (WoL) capabilities.

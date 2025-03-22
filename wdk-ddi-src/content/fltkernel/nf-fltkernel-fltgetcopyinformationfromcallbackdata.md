@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FltGetCopyInformationFromCallbackData
 ---
 
+# FltGetCopyInformationFromCallbackData function (fltkernel.h)
+
 ## -description
 
 The **FltGetCopyInformationFromCallbackData** routine retrieves copy information from the callback data, if present. The copy information is in the IRP extension for read/write calls coming from [**NtCopyFileChunk**](/windows-hardware/drivers/ifs/nf-ntifs-ntcopyfilechunk).

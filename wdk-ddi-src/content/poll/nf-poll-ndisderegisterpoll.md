@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NdisDeregisterPoll function (poll.h)
+
 ## -description
 
 A miniport driver calls the **NdisDeregisterPoll** function to deregister a Poll object it previously registered with a call to the [**NdisRegisterPoll**](nf-poll-ndisregisterpoll.md) function.

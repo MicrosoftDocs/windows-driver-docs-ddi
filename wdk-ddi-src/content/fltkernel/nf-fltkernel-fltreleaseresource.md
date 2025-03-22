@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FltReleaseResource
 ---
 
+# FltReleaseResource function (fltkernel.h)
+
 ## -description
 
 The **FltReleaseResource** routine releases a specified resource owned by the current thread.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_FRU_ID_DESCRIPTOR structure (ntddstor.h)
+
 ## -description
 
 **STORAGE_FRU_ID_DESCRIPTOR** is the structure used when a caller sends [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md) to query for the ID of a fault replacement unit (FRU).

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CQP1_0096
 ---
 
+# D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CQP1_0096 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_CQP_0080** structure contains the extended rate control definition for constant quantization parameter (CQP) mode.

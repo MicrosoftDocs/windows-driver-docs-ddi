@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_STA_BANDS_COMBINATION structure (wificx.h)
+
 ## -description
 
 The **WIFI_STA_BANDS_COMBINATION** structure contains a list of band IDs that are available for secondary STA connections.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExAllocateCacheAwareRundownProtection
 ---
 
+# ExAllocateCacheAwareRundownProtection function (wdm.h)
+
 ## -description
 
 The **ExAllocateCacheAwareRundownProtection** routine allocates a cache-friendly rundown protection structure for multi-processor scenarios. Rundown protection is a synchronization mechanism that allows for the safe cleanup of resources that might be accessed by multiple threads.

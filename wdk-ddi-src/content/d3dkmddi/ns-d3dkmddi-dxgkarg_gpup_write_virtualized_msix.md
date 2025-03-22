@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_GPUP_WRITE_VIRTUALIZED_MSIX
 ---
 
+# DXGKARG_GPUP_WRITE_VIRTUALIZED_MSIX structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_GPUP_WRITE_VIRTUALIZED_MSIX** structure is a parameter for the [**DxgkDdiWriteVirtualizedInterrupt**](nc-d3dkmddi-dxgkddi_writevirtualizedinterrupt.md) function that writes to the MSI-X interrupt table during the process of live migration of a virtualized GPU device.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_WSAUMDIMAGENAME
 ---
 
+# D3DKMT_WSAUMDIMAGENAME structure (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_COMMAND_LIST_FUNCS_3D_0088
 ---
 
+# D3D12DDI_COMMAND_LIST_FUNCS_3D_0088 structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_COMMAND_LIST_FUNCS_3D_0088** is used to provide pointers to the user-mode driver's command list 3D DDI functions for version Direct3D 12 Release 8, Build rev 8.

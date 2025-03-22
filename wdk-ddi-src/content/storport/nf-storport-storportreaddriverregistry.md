@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortReadDriverRegistry
 ---
 
+# StorPortReadDriverRegistry function (storport.h)
+
 ## -description
 
 The **StorPortReadDriverRegistry** function is used by the miniport to read the registry data for a given driver object.

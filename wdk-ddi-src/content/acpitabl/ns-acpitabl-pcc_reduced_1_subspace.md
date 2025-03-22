@@ -40,6 +40,8 @@ f1_keywords:
  - acpitabl/PCC_REDUCED_1_SUBSPACE
 ---
 
+# PCC_REDUCED_1_SUBSPACE structure (acpitabl.h)
+
 ## -description
 
 The **PCC_REDUCED_1_SUBSPACE** structure contains information about the ACPI Platform Communication Channel (PCC) HW-reduced Type 1 subspace.

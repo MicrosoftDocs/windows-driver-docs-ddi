@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IddCxSwapChainGetPhysicallyContiguousAddress function (iddcx.h)
+
 ## -description
 
 **IddCxSwapChainGetPhysicallyContiguousAddress** retrieves the physical address of the specified swapchain's currently acquired surface.

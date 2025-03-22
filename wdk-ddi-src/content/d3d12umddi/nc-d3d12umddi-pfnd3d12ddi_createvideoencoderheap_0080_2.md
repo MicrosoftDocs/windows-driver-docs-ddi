@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_CREATEVIDEOENCODERHEAP_0080_2
 ---
 
+# PFND3D12DDI_CREATEVIDEOENCODERHEAP_0080_2 function (d3d12umddi.h)
+
 ## -description
 
 A client driver's **PFND3D12DDI_CREATEVIDEOENCODERHEAP_0080_2** callback function creates a video encoder heap object.

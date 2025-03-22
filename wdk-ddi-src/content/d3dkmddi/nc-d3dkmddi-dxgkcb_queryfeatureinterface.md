@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_QUERYFEATUREINTERFACE
 ---
 
+# DXGKCB_QUERYFEATUREINTERFACE function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_QUERYFEATUREINTERFACE** is a port driver-implemented callback function that is used to query for a feature interface.

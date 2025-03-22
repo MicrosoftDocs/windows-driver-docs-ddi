@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_BARRIER_SYNC
 ---
 
+# D3D12DDI_BARRIER_SYNC enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_BARRIER_SYNC** value is a bit-wise OR of the following fields that specify the synchronization scope of GPU work with respect to the barrier.

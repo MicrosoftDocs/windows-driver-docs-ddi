@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKDDI_KERNELMODETESTINGINTERFACE
 ---
 
+# DXGKDDI_KERNELMODETESTINGINTERFACE structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKDDI_KERNELMODETESTINGINTERFACE** structure contains pointers to functions that are used for the kernel-mode testing interface.

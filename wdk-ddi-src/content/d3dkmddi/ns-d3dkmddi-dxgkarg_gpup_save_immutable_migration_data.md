@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_GPUP_SAVE_IMMUTABLE_MIGRATION_DATA
 ---
 
+# DXGKARG_GPUP_SAVE_IMMUTABLE_MIGRATION_DATA structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_GPUP_SAVE_IMMUTABLE_MIGRATION_DATA** structure is used in a call to [**DxgkDdiSaveImmutableMigrationData**](nc-d3dkmddi-dxgkddi_saveimmutablemigrationdata.md) to save immutable data for a live migration that is about to start.

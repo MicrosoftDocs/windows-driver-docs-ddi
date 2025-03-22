@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FindTypeByName
 ---
 
+# IDebugHostModule5::FindTypeByName function (dbgmodel.h)
+
 ## -description
 
 The FindTypeByName method finds a type defined within the module by the type name and returns a type symbol for it. This method may return a valid [IDebugHostType](nn-dbgmodel-idebughosttype.md) which would never be returned via explicit recursion of children of the module. The debug host may allow creation of derivative types -- types not ever used within the module itself but derived from types that are. As an example, if the structure MyStruct is defined in the symbols of the module but the type MyStruct ** is never used, the FindTypeByName method may legitimately return a type symbol for MyStruct ** despite that type name never explicitly appearing in the symbols for the module. 

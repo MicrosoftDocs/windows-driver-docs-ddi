@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_INIT_PARAMETERS structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

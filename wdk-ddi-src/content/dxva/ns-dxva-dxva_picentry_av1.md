@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DXVA_PicEntry_AV1 structure (dxva.h)
+
 ## -description
 
 The **DXVA_PicEntry_AV1** structure specifies a reference to an uncompressed surface, with the additional metadata necessary for referencing that surface.

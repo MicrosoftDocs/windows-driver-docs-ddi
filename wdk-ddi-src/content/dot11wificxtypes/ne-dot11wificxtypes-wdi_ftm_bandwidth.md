@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_FTM_BANDWIDTH enumeration (dot11wificxtypes.h)
+
 ## -description
 
 The **WDI_FTM_BANDWIDTH** enumeration defines the negotiated bandwidth between two STAs to exercise the Fine Timing Measurement (FTM).

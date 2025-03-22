@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaEnum0
 ---
 
+# IPsecSaEnum0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaEnum0** function returns the next page of results from the IPsec security association (SA) enumerator.

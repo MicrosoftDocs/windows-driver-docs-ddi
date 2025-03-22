@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiRequestComplete function (wificx.h)
+
 ## -description
 
 WiFiCx drivers call the **WifiRequestComplete** function to complete a request to send a command message to the device.

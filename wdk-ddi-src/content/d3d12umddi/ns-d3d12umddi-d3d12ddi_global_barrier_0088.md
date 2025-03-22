@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_GLOBAL_BARRIER_0088
 ---
 
+# D3D12DDI_GLOBAL_BARRIER_0088 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_GLOBAL_BARRIER_0088** structure describes a resource memory access barrier. This barrier is used by global, texture, and buffer barriers to indicate when resource memory must be made visible for a specific access type.

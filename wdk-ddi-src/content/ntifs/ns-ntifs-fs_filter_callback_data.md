@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# FS_FILTER_CALLBACK_DATA structure (ntifs.h)
+
 ## -description
 
 FS_FILTER_CALLBACK_DATA is the callback data structure for a [**FS_FILTER_CALLBACKS**](ns-ntifs-fs_filter_callbacks.md)'s FS_FILTER_CALLBACK or FS_FILTER_COMPLETION_CALLBACK operation.

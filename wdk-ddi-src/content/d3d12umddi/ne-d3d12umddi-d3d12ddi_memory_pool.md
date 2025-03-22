@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_MEMORY_POOL
 ---
 
+# D3D12DDI_MEMORY_POOL enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_MEMORY_POOL** value specifies the memory pool for the heap.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - MFT_ENUM_DATA_V1
 ---
 
+# MFT_ENUM_DATA_V1 structure (ntifs.h)
+
 ## -description
 
 The **MFT_ENUM_DATA_V1** structure contains information defining the boundaries for and starting place of an enumeration of update sequence number (USN) change journal records for ReFS volumes. It is used as the input buffer for the [**FSCTL_ENUM_USN_DATA**](ni-ntifs-fsctl_enum_usn_data.md) control code.

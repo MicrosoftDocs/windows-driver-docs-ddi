@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_REGISTER_INTERFACE_STATE_CHANGE_CALLBACK function (wdm.h)
+
 ## -description
 
 Allows the caller to register a callback to be invoked whenever any state change related to a [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md) occurs.

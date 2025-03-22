@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_PINFRAMEBUFFERFORSAVE2 function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver calls **DXGKCB_PINFRAMEBUFFERFORSAVE2** to pin an entire frame buffer at once.

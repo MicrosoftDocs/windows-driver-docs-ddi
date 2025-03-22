@@ -35,6 +35,8 @@ helpviewer_keywords:
  - ChannelType
 ---
 
+# ChannelType enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **ChannelType** enumeration.

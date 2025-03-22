@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _VPCI_INTERFACE_STANDARD
 ---
 
+# VPCI_INTERFACE_STANDARD structure (vpci.h)
+
 ## -description
 
 The **VPCI\_INTERFACE\_STANDARD** interface structure enables device drivers to access blocks of configuration data that is specific to a PCI Express (PCIe) virtual function (VF) of devices that support the single root I/O virtualization (SR-IOV) interface.

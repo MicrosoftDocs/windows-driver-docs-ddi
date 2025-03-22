@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_NOTIFYCURSORSUPPORTCHANGE function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver calls **DXGKCB_NOTIFYCURSORSUPPORTCHANGE** to notify the operating system that cursor support has been changed.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSMULTIPLE_DATA_PROP
 ---
 
+# KSMULTIPLE_DATA_PROP structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSMULTIPLE_DATA_PROP** structure (ksmedia.h).

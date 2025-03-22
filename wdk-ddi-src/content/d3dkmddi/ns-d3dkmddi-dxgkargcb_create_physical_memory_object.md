@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_CREATE_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_CREATEPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md) callback function to create physical memory.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_VENDOR_SPECIFIC_CAPABILITY
 ---
 
+# PCI_VENDOR_SPECIFIC_CAPABILITY structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

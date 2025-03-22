@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_ADD_PF
 ---
 
+# NDIS_KDNET_ADD_PF structure (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_ADD_PF** structure describes the data required to add a PF to the BDF port. It is used by OID_KDNET_ADD_PF.

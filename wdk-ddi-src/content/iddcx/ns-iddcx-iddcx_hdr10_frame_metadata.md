@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_HDR10_FRAME_METADATA
 ---
 
+# IDDCX_HDR10_FRAME_METADATA structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_HDR10_FRAME_METADATA** structure contains HDR10 metadata to use with a frame.

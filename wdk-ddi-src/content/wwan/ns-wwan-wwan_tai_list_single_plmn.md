@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_TAI_LIST_SINGLE_PLMN
 ---
 
+# WWAN_TAI_LIST_SINGLE_PLMN structure (wwan.h)
+
 ## -description
 
 The **WWAN_TAI_LIST** structure represents a list of Tracking Area Codes (TACs) that belong to a single PLMN (the Mobile Country Code (MCC) and Mobile Network Code (MNC)). The TAC values can be consecutive or nonconsecutive. 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_CLOSENATIVEFENCE_FLAGS
 ---
 
+# DXGK_CLOSENATIVEFENCE_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_CLOSENATIVEFENCE_FLAGS** specifies flags to use when closing a native GPU fence.

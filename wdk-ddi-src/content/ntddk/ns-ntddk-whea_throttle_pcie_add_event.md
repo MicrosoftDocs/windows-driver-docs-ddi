@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_PCIE_ADD_EVENT
 ---
 
+# WHEA_THROTTLE_PCIE_ADD_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

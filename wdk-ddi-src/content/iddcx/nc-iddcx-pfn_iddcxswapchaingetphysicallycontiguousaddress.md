@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXSWAPCHAINGETPHYSICALLYCONTIGUOUSADDRESS** is a pointer to an OS callback function through which to retrieve the physical address of the specified swapchain's currently acquired surface.

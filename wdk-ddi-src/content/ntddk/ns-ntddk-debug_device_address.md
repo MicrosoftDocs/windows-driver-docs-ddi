@@ -41,6 +41,8 @@ helpviewer_keywords:
  - DEBUG_DEVICE_ADDRESS
 ---
 
+# DEBUG_DEVICE_ADDRESS structure (ntddk.h)
+
 ## -description
 
 This topic describes the **DEBUG_DEVICE_ADDRESS** structure.

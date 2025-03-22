@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_TELEPHONY
 ---
 
+# KSEVENT_TELEPHONY enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_TELEPHONY** enumeration (ksmedia.h).

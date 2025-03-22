@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSDS3D_HRTF_FILTER_METHOD
 ---
 
+# KSDS3D_HRTF_FILTER_METHOD enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSDS3D_HRTF_FILTER_VERSION** enumeration (ksmedia.h).

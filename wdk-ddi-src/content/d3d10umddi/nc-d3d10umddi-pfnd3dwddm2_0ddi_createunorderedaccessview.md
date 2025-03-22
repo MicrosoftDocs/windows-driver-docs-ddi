@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3DWDDM2_0DDI_CREATEUNORDEREDACCESSVIEW
 ---
 
+# PFND3DWDDM2_0DDI_CREATEUNORDEREDACCESSVIEW function (d3d10umddi.h)
+
 ## -description
 
 **CreateUnorderedAccessView(WDDM 2.0)** creates an unordered access view.

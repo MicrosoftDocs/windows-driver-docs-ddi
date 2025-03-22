@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_GAMMARAMP_RGB256x3x16
 ---
 
+# IDDCX_GAMMARAMP_RGB256x3x16 structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_GAMMARAMP_RGB256x3x16** structure contains an RGB gamma ramp for a monitor.

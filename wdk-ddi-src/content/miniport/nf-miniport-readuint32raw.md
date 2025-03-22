@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadUInt32Raw
 ---
 
+# ReadUInt32Raw function (miniport.h)
+
 ## -description
 
 This topic describes the **ReadUInt32Raw** function.

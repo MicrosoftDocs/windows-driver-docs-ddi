@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RegisterNamedModel
 ---
 
+# IDataModelManager3::RegisterNamedModel function (dbgmodel.h)
+
 ## -description
 
 The RegisterNamedModel method registers a given data model under a well known name so that it can be found by clients wishing to extend it. This is the primary purpose of the API -- to publish a data model as something which can be extended by retrieving the model registered under this well known name and adding a parent model to it. 

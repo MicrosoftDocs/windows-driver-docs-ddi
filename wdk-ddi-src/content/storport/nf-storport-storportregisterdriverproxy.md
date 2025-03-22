@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortRegisterDriverProxy
 ---
 
+# StorPortRegisterDriverProxy function (storport.h)
+
 ## -description
 
 **StorPortRegisterDriverProxy** creates a driver proxy endpoint for the specified driver object.

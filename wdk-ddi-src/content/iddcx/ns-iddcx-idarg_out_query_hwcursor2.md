@@ -38,6 +38,8 @@ helpviewer_keywords:
  - IDARG_OUT_QUERY_HWCURSOR2
 ---
 
+# IDARG_OUT_QUERY_HWCURSOR2 structure (iddcx.h)
+
 ## -description
 
 An **IDARG_OUT_QUERY_HWCURSOR2** structure is the output parameter used by [**IddCxMonitorQueryHardwareCursor2**](nf-iddcx-iddcxmonitorqueryhardwarecursor2.md) to return information about the current hardware cursor.

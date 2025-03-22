@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_POLL function (poll.h)
+
 ## -description
 
 Miniport drivers implement the *NdisPoll* callback function that NDIS will poll for receive indications and send completions.

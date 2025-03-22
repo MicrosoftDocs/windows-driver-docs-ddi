@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_QUERY_UICC_RESET
 ---
 
+# NDIS_WWAN_QUERY_UICC_RESET structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_QUERY_UICC_RESET** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_RESET](/windows-hardware/drivers/network/oid-wwan-uicc-reset) query request.

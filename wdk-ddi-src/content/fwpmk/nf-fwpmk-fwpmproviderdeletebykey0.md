@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderDeleteByKey0
 ---
 
+# FwpmProviderDeleteByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderDeleteByKey0** function removes a provider from the system.

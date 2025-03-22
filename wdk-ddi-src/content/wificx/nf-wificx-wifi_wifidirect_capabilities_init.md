@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WIFI_WIFIDIRECT_CAPABILITIES_INIT
 ---
 
+# WIFI_WIFIDIRECT_CAPABILITIES_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_WIFIDIRECT_CAPABILITIES_INIT** function initializes a [**WIFI_WIFIDIRECT_CAPABILITIES**](ns-wificx-wifi_wifidirect_capabilities.md) structure.

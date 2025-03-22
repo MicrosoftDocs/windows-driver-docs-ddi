@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SERFUNC
 ---
 
+# SERFUNC function (sercx.h)
+
 ## -description
 
 SERFUNC is used to create the SERCX function interfaces.

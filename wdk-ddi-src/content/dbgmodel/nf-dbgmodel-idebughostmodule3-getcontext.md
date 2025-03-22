@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetContext
 ---
 
+# IDebugHostModule3::GetContext function (dbgmodel.h)
+
 ## -description
 
 The GetContext method returns the context where the symbol is valid. While this will represent things such as the debug target and process/address space in which the symbol exists, it may not be as specific as a context retrieved from other means (e.g.: from an [IModelObject](nn-dbgmodel-imodelobject.md)).

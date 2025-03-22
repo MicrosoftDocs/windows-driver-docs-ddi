@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TXRX_PARAMETERS structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

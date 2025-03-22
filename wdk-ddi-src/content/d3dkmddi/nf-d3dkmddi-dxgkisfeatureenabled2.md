@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DxgkIsFeatureEnabled2
 ---
 
+# DxgkIsFeatureEnabled2 function (d3dkmddi.h)
+
 ## -description
 
 KMD can call the display port driver's **DxgkIsFeatureEnabled2** function before *Dxgkrnl* is enabled to determine whether a particular feature is enabled.

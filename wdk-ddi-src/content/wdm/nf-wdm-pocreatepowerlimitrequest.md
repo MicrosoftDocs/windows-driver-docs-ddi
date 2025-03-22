@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoCreatePowerLimitRequest
 ---
 
+# PoCreatePowerLimitRequest function (wdm.h)
+
 ## -description
 
 This function creates a power limit request object.

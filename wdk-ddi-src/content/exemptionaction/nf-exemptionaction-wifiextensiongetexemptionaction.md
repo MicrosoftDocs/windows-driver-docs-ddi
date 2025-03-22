@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WifiExtensionGetExemptionAction
 ---
 
+# WifiExtensionGetExemptionAction function (exemptionaction.h)
+
 ## -description
 
 The **WifiExtensionGetExemptionAction** function retrieves the exemption action information for a packet.

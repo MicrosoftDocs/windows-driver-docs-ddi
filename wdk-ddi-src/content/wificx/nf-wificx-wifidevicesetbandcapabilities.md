@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceSetBandCapabilities function (wificx.h)
+
 ## -description
 
 The **WifiDeviceSetBandCapabilities** function sets the band capabilities for a WiFiCx device.

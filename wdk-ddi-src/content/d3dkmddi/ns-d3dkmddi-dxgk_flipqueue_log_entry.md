@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_FLIPQUEUE_LOG_ENTRY
 ---
 
+# DXGK_FLIPQUEUE_LOG_ENTRY structure (d3dkmddi.h)
+
 ## -description
 
 In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the **DXGK_FLIPQUEUE_LOG_ENTRY** structure contains a single flip queue log entry for a completed or cancelled flip.

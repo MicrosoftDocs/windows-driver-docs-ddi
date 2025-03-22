@@ -38,6 +38,8 @@ helpviewer_keywords:
  - KD_NAMESPACE_ENUM
 ---
 
+# KD_NAMESPACE_ENUM enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **KD_NAMESPACE_ENUM** enumeration.

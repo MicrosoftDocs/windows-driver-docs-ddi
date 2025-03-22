@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PsFreeAffinityToken function (wdm.h)
+
 ## -description
 
 The **PsFreeAffinityToken** function frees an affinity token that was allocated by [**PsAllocateAffinityToken**](nf-wdm-psallocateaffinitytoken.md).

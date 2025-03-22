@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DELETE_USN_JOURNAL_DATA
 ---
 
+# DELETE_USN_JOURNAL_DATA structure (ntifs.h)
+
 ## -description
 
 The **DELETE_USN_JOURNAL_DATA** structure contains information for the deletion of an update sequence number (USN) change journal.

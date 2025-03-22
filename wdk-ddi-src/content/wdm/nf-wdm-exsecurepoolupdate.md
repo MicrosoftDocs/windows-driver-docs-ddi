@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExSecurePoolUpdate function (wdm.h)
+
 ## -description
 
 The **ExSecurePoolUpdate** function updates the contents of the secure pool allocation.

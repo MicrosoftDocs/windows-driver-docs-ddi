@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EvaluateExtendedExpression
 ---
 
+# IDebugHostEvaluator3::EvaluateExtendedExpression function (dbgmodel.h)
+
 ## -description
 
 The EvaluateExtendedExpression method is similar to the EvaluateExpression method except that it turns back on additional non-language functionality which a particular debug host chooses to add to its expression evaluator. For Debugging Tools for Windows, for example, this enables anonymous types, LINQ queries, module qualifiers, format specifiers, and other non-C/C++ functionality. 

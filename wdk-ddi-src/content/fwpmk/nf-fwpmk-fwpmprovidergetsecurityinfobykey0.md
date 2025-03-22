@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderGetSecurityInfoByKey0
 ---
 
+# FwpmProviderGetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderGetSecurityInfoByKey0** function retrieves a copy of the security descriptor for a provider object.

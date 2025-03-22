@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _LPI_STATE_FLAGS
 ---
 
+# LPI_STATE_FLAGS structure (acpitabl.h)
+
 ## -description
 
 Defines LPI state flags, either as a structure or as an integer.

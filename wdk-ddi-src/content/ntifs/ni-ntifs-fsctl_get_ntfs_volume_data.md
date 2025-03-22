@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_GET_NTFS_VOLUME_DATA
 ---
 
+# FSCTL_GET_NTFS_VOLUME_DATA ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_GET_NTFS_VOLUME_DATA** control code retrieves information about the specified NTFS volume.

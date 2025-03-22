@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CREATECPUEVENT
 ---
 
+# DXGKDDI_CREATECPUEVENT function (d3dkmddi.h)
+
 ## -description
 
 **DXGKDDI_CREATECPUEVENT** creates the kernel-mode driver's (KMD's) CPU event object for the corresponding *Dxgkrnl* object.

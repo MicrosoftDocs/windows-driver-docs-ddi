@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _POWER_LIMIT_VALUE
 ---
 
+# POWER_LIMIT_VALUE structure (ntpoapi.h)
+
 ## -description
 
 The **POWER_LIMIT_VALUE** structure describes the specific power limit value to be updated for a certain power limit.

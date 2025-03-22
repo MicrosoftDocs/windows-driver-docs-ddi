@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_CREATECPUEVENTFLAGS
 ---
 
+# DXGK_CREATECPUEVENTFLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_CREATECPUEVENTFLAGS** structure is reserved for future use.

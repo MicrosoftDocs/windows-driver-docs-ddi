@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAGS_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAGS_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAGS_0080** enumeration reports the support for a given configuration. Use [**D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAGS_0083_0**](ne-d3d12umddi-d3d12ddi_video_encoder_support_flags_0083_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).

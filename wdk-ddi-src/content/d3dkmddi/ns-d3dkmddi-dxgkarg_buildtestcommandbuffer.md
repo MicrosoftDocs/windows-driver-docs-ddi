@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_BUILDTESTCOMMANDBUFFER
 ---
 
+# DXGKARG_BUILDTESTCOMMANDBUFFER structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_BUILDTESTCOMMANDBUFFER** structure describes a test command buffer for [**DXGKDDI_BUILDTESTCOMMANDBUFFER::pfnBuildTestCommandBuffer**](nc-d3dkmddi-dxgkddi_buildtestcommandbuffer.md).

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_PROGRAM_IDENTIFIER_0108
 ---
 
+# D3D12DDI_PROGRAM_IDENTIFIER_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_PROGRAM_IDENTIFIER_0108** structure describes a program identifier for a state object.

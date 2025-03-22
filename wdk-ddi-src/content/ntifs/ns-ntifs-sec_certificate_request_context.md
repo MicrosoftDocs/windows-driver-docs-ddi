@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SEC_CERTIFICATE_REQUEST_CONTEXT
 ---
 
+# SEC_CERTIFICATE_REQUEST_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **SEC_CERTIFICATE_REQUEST_CONTEXT** structure provides the certificate request context when [**BufferType**](/windows/win32/api/sspi/ns-sspi-secbuffer) is **SECBUFFER_CERTIFICATE_REQUEST_CONTEXT**.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EVT_IDD_CX_ADAPTER_QUERY_TARGET_INFO
 ---
 
+# EVT_IDD_CX_ADAPTER_QUERY_TARGET_INFO function (iddcx.h)
+
 ## -description
 
 The OS calls an indirect display driver's **EVT_IDD_CX_ADAPTER_QUERY_TARGET_INFO** callback function to retrieve information about target capabilities.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_QVBR1_0096
 ---
 
+# D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_QVBR1_0096 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_QVBR1_0096** structure contains the rate control definition for enhanced QVBR rate control mode.

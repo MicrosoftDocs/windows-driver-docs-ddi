@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_DRMAUDIOSTREAM
 ---
 
+# KSPROPERTY_DRMAUDIOSTREAM enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_DRMAUDIOSTREAM** enumeration (ksmedia.h).

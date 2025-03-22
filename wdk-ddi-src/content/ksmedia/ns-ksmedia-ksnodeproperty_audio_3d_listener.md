@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSNODEPROPERTY_AUDIO_3D_LISTENER
 ---
 
+# KSNODEPROPERTY_AUDIO_3D_LISTENER structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSNODEPROPERTY_AUDIO_3D_LISTENER** structure (ksmedia.h).

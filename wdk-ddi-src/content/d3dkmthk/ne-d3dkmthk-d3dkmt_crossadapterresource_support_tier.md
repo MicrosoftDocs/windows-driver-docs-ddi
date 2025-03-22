@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_CROSSADAPTERRESOURCE_SUPPORT_TIER enumeration (d3dkmthk.h)
+
 ## -description
 
 Currently reserved for system use. **D3DKMT_CROSSADAPTERRESOURCE_SUPPORT_TIER** enumerates the tier(s) of support provided by the driver for cross-adapter resources.

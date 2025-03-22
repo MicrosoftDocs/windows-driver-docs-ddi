@@ -42,6 +42,8 @@ helpviewer_keywords:
  - __umulh
 ---
 
+# __umulh function (ntintsafe.h)
+
 ## -description
 
 For more info, see [ARM64 intrinsics](/cpp/intrinsics/arm64-intrinsics).

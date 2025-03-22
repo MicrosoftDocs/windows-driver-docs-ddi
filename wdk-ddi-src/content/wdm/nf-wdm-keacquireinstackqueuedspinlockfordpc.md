@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireInStackQueuedSpinLockForDpc
 ---
 
+# KeAcquireInStackQueuedSpinLockForDpc function (wdm.h)
+
 ## -description
 
 The **KeAcquireInStackQueuedSpinLockForDpc** routine acquires a queued spin lock for a threaded DPC.

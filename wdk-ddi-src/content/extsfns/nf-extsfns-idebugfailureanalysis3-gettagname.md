@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetTAGName
 ---
 
+# IDebugFailureAnalysis3::GetTAGName function (extsfns.h)
+
 ## -description
 
 ## -parameters

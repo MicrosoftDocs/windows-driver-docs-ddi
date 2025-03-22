@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_REMOVE_PF
 ---
 
+# NDIS_KDNET_REMOVE_PF structure (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_REMOVE_PF** structure describes the data required to remove a PF from the BDF port. It is used by OID_KDNET_REMOVE_PF.

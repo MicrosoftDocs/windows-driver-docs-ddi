@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_REGISTRY_CORRUPT_EVENT
 ---
 
+# WHEA_THROTTLE_REGISTRY_CORRUPT_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

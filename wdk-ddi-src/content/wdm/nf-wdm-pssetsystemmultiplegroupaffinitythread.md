@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PsSetSystemMultipleGroupAffinityThread function (wdm.h)
+
 ## -description
 
 The **PsSetSystemMultipleGroupAffinityThread** function sets the multi-group system affinity of the current thread.

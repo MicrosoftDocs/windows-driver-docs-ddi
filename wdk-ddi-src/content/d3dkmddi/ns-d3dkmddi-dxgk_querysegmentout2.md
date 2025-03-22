@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_QUERYSEGMENTOUT2
 ---
 
+# DXGK_QUERYSEGMENTOUT2 structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_QUERYSEGMENTOUT2** is reserved for system use. Don't use it in your driver.

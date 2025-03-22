@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FsRtlCheckOplockForFsFilterCallback
 ---
 
+# FsRtlCheckOplockForFsFilterCallback function (ntifs.h)
+
 ## -description
 
 A file system can call **FsRtlCheckOplockForFsFilterCallback** to break oplocks that are affected by file system filter operations.

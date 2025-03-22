@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecDospGetSecurityInfo0
 ---
 
+# IPsecDospGetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecDospGetSecurityInfo0** function retrieves a copy of the security descriptor for the IPsec DoS Protection database.

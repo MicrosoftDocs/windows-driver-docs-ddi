@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KnownCompiler
 ---
 
+# KnownCompiler enumeration (dbgmodel.h)
+
 ## -description
 
 The **KnownCompiler** enumeration identifies a well-known set of compilers.  

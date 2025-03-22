@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _WDI_ROBUST_AV_STREAMING_ACTION
 ---
 
+# WDI_ROBUST_AV_STREAMING_ACTION enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

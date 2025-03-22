@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDEOENCODER_S
 ---
 
+# KSPROPERTY_VIDEOENCODER_S structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDEOENCODER_S** structure (ksmedia.h).

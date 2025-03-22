@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDeconstructableConcept
 ---
 
+# IDeconstructableConcept interface (dbgmodel.h)
+
 ## -description
 
 A concept that a data model can support in order to decompose an object into a set of arguments which can be passed to the constructable concept in order to create a new identical instance of the object (short any extensions which were manually attached).

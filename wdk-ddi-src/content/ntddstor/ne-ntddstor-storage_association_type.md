@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _STORAGE_ASSOCIATION_TYPE
 ---
 
+# STORAGE_ASSOCIATION_TYPE enumeration (ntddstor.h)
+
 ## -description
 
 The STORAGE\_ASSOCIATION\_TYPE enumeration indicates whether a storage descriptor identifies a device or a port.

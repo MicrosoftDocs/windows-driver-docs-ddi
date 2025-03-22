@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IActionQueryConcept
 ---
 
+# IActionQueryConcept interface (dbgmodel.h)
+
 ## -description
 
 A concept which is automatically implemented by the data model for any object which has (or can have) actions

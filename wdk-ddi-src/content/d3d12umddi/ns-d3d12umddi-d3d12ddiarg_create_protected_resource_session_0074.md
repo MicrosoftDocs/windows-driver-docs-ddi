@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_CREATE_PROTECTED_RESOURCE_SESSION_0074 structure (d3d12umddi.h)
+
 ## -description
 
 Creation arguments for a protected resource session.

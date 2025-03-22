@@ -42,6 +42,8 @@ helpviewer_keywords:
  - QueryInterface
 ---
 
+# IDebugHostFunctionIntrospection::QueryInterface function (dbgmodel.h)
+
 ## -description
 
 Retrieves pointers to the supported interfaces on an object. This method calls IUnknown::AddRef on the pointer it returns. 

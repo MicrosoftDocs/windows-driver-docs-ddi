@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UFS_UNIT_CONFIG_DESCRIPTOR_V3_1
 ---
 
+# UFS_UNIT_CONFIG_DESCRIPTOR_V3_1 structure (ufs.h)
+
 ## -description
 
 The **UFS_UNIT_CONFIG_DESCRIPTOR_V3_1** structure describes the user-configurable parameters within the **[UFS_CONFIG_DESCRIPTOR_V3_1](ns-ufs-ufs_config_descriptor_v3_1.md)** structure.

@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_SETALLOCATIONBACKINGSTORE
 ---
 
+# DXGKARG_SETALLOCATIONBACKINGSTORE structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_SETALLOCATIONBACKINGSTORE** structure contains the arguments used by the [**DXGKDDI_SETALLOCATIONBACKINGSTORE**](nc-d3dkmddi-dxgkddi_setallocationbackingstore.md) callback function to obtain the system space address to a graphics allocation backing store.

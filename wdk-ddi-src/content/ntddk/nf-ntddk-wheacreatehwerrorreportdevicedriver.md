@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaCreateHwErrorReportDeviceDriver function (ntddk.h)
+
 ## -description
 
 This routine initializes an error report.

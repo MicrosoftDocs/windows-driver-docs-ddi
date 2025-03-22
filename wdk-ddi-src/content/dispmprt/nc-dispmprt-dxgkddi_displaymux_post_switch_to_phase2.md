@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_POST_SWITCH_TO_PHASE2
 ---
 
+# DXGKDDI_DISPLAYMUX_POST_SWITCH_TO_PHASE2 function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxPostSwitchToPhase2** function to notify the driver that the mux switch has completed, and that the driver is now connected to the display and should perform phase 2 tasks.

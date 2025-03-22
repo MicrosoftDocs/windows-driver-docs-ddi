@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortGetNodeAffinity2
 ---
 
+# StorPortGetNodeAffinity2 function (storport.h)
+
 ## -description
 
  A miniport can call **StorPortGetNodeAffinity2** to get the current multi-group processor affinity of the given NUMA node.

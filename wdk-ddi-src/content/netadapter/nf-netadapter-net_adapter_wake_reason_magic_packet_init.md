@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT function (netadaptercx.h)
+
 ## -description
 
 The client driver calls the  **NET_ADAPTER_WAKE_REASON_MAGIC_PACKET_INIT** function to initialize a [**NET_ADAPTER_WAKE_REASON_PACKET**](../netadapter/ns-netadapter-_net_adapter_wake_reason_packet.md) structure when reporting that a magic packet caused a wake-up event.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FLT_IS_FS_FILTER_OPERATION
 ---
 
+# FLT_IS_FS_FILTER_OPERATION function (fltkernel.h)
+
 ## -description
 
 The **FLT_IS_FS_FILTER_OPERATION** macro determines whether the given callback data structure represents a file system filter (FSFilter) callback operation.

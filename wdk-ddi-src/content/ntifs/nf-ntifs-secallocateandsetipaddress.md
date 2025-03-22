@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SecAllocateAndSetIPAddress
 ---
 
+# SecAllocateAndSetIPAddress function (ntifs.h)
+
 ## -description
 
 The **SecAllocateAndSetIPAddress** function allocates resources and sets a call target based on an IP address and optional target name.  

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BlameTEB
 ---
 
+# IDebugFailureAnalysis3::BlameTEB function (extsfns.h)
+
 ## -description
 
 ## -parameters

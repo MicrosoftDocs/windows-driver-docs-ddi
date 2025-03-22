@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_SUPPORT_0095_FLAGS
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_SUPPORT_0095_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_SUPPORT_0095_FLAGS** enumeration is a bitwise OR of values that define the loop restoration tile sizes that the encoder supports.

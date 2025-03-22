@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _POWER_MONITOR_INVOCATION
 ---
 
+# POWER_MONITOR_INVOCATION structure (ntpoapi.h)
+
 ## -description
 
 Reserved for system use.

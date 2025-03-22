@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FinalizeContext
 ---
 
+# IDebugHostContextExtension::FinalizeContext function (dbgmodel.h)
+
 ## -description
 
 The FinalizeContext method finalizes modifications of the host context, makes it immutable, and returns an interface to the context.

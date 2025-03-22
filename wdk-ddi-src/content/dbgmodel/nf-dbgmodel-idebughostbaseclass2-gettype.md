@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetType
 ---
 
+# IDebugHostBaseClass2::GetType function (dbgmodel.h)
+
 ## -description
 
 Returns the type, for example "int *", of the symbol if the symbol has a type.  If the symbol does not have a type, an error is returned.

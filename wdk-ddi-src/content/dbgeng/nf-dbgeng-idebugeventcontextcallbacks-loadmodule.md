@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::LoadModule function (dbgeng.h)
+
 ## -description
 
 The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.

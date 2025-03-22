@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SeLocateProcessImageName
 ---
 
+# SeLocateProcessImageName function (ntifs.h)
+
 ## -description
 
 The **SeLocateProcessImageName** routine returns the full process image name for the specified process.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::SystemError function (dbgeng.h)
+
 ## -description
 
 The SystemError callback method is called by the engine when a system error occurs in the target.

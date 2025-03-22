@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TYPE_MIC structure (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

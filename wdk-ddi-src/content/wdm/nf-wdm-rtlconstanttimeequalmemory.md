@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlConstantTimeEqualMemory
 ---
 
+# RtlConstantTimeEqualMemory function (wdm.h)
+
 ## -description
 
 This topic describes the **RtlConstantTimeEqualMemory** function.

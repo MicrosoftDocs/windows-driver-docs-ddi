@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _TOKEN_ACCESS_INFORMATION
 ---
 
+# TOKEN_ACCESS_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **TOKEN_ACCESS_INFORMATION** structure specifies all the information in a token that is necessary to perform an access check.

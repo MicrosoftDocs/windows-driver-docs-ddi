@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_RESERVED_REGION structure (wdm.h)
+
 ## -description
 
 The **IOMMU_DMA_RESERVED_REGION** structure describes a region of memory that needs to be marked as reserved during domain creation. This structure is used by [*IOMMU_DOMAIN_CREATE_EX*](nc-wdm-iommu_domain_create_ex.md).

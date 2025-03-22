@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostContextTargetComposition
 ---
 
+# IDebugHostContextTargetComposition interface (dbgmodel.h)
+
 ## -description
 
 An interface which bridges the extensibility of the upper edge interfaces (the data model) with those of the lower edge (target composition) for a particular host context.

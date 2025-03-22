@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_AUDIOPOSTURE
 ---
 
+# KSPROPERTY_AUDIOPOSTURE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AUDIOPOSTURE** enumeration (ksmedia.h).

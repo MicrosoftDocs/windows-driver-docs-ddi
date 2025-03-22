@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderSetSecurityInfoByKey0
 ---
 
+# FwpmProviderSetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderSetSecurityInfoByKey0** function sets specified security information in the security descriptor of a provider object.

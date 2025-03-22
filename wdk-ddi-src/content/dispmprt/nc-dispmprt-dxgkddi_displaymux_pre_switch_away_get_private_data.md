@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_PRE_SWITCH_AWAY_GET_PRIVATE_DATA
 ---
 
+# DXGKDDI_DISPLAYMUX_PRE_SWITCH_AWAY_GET_PRIVATE_DATA function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the **DxgkddiDisplayMuxPreSwitchAwayGetPrivateData** function of the kernel-mode display driver (KMD) currently connected to the panel to retrieve any private data from it.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_DESTROYNATIVEFENCE_FLAGS
 ---
 
+# DXGK_DESTROYNATIVEFENCE_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_DESTROYNATIVEFENCE_FLAGS** specifies flags to use when destroying a global native GPU fence.

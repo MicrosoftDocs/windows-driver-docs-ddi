@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_RICH_DEVICE_DESCRIPTION structure (storport.h)
+
 ## -description
 
 **STOR_RICH_DEVICE_DESCRIPTION** is the structure pointed to by the **Parameters** parameter when a miniport's **[HwStorUnitControl](nc-storport-hw_unit_control.md)** routine is called with a **ControlType** of **ScsiUnitRichDescription**.

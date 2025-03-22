@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SETNATIVEFENCELOGBUFFER
 ---
 
+# DXGKDDI_SETNATIVEFENCELOGBUFFER function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls **DxgkDdiSetNativeFenceLogBuffer** to inform the kernel-mode display miniport driver (KMD) of the location of the specified native fence log buffer.

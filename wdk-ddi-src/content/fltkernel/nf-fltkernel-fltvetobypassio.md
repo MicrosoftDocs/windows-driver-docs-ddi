@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# FltVetoBypassIo function (fltkernel.h)
+
 ## -description
 
 **FltVetoBypassIo** retrieves information needed to veto a BypassIO request.

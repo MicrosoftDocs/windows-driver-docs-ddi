@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetFunctionParameterTypeCount
 ---
 
+# IDebugHostType3::GetFunctionParameterTypeCount function (dbgmodel.h)
+
 ## -description
 
 The GetFunctionParameterTypeCount method returns the number of arguments that the function takes. 

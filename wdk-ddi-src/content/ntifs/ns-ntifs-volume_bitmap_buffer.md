@@ -42,6 +42,8 @@ helpviewer_keywords:
  - VOLUME_BITMAP_BUFFER
 ---
 
+# VOLUME_BITMAP_BUFFER structure (ntifs.h)
+
 ## -description
 
 The **VOLUME_BITMAP_BUFFER** structure contains a bitmap of occupied and available clusters on a disk. This structure is the output buffer for the [**FSCTL_GET_VOLUME_BITMAP**](ni-ntifs-fsctl_get_volume_bitmap.md) control code.

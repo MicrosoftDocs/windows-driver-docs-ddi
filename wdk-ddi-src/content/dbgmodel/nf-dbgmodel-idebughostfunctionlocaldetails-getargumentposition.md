@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetArgumentPosition
 ---
 
+# IDebugHostFunctionLocalDetails::GetArgumentPosition function (dbgmodel.h)
+
 ## -description
 
 The GetArgumentPosition method obtains the position of the function argument within the argument list. This method will fail on any local which does not return LocalArgument from the [GetLocalKind() method](nf-dbgmodel-idebughostfunctionlocaldetails-getlocalkind.md).

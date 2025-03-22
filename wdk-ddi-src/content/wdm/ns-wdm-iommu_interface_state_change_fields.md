@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_INTERFACE_STATE_CHANGE_FIELDS structure (wdm.h)
+
 ## -description
 
 **IOMMU_INTERFACE_STATE_CHANGE_FIELDS** represents the fields of an [**IOMMU_INTERFACE_STATE_CHANGE**](ns-wdm-iommu_interface_state_change.md), indicating the caller's wish to be notified of a change of a specific state field(s) or indicating to callback owners which states have changed.

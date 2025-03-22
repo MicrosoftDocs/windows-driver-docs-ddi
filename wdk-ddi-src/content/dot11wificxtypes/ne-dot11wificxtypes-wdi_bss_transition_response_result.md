@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_BSS_TRANSITION_RESPONSE_RESULT enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!WARNING]

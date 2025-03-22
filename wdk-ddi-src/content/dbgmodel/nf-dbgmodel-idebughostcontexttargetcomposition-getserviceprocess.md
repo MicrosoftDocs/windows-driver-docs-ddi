@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetServiceProcess
 ---
 
+# IDebugHostContextTargetComposition::GetServiceProcess function (dbgmodel.h)
+
 ## -description
 
 The GetServiceProcess method retrieves the process that is associated with a particular host context.

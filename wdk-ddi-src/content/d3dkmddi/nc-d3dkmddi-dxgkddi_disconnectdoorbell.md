@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISCONNECTDOORBELL
 ---
 
+# DXGKDDI_DISCONNECTDOORBELL function (d3dkmddi.h)
+
 ## -description
 
 The **DxgkDdiDisconnectDoorbell** function disconnects a previously connected doorbell from a hardware queue.

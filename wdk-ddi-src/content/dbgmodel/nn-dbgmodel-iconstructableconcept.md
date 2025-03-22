@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IConstructableConcept
 ---
 
+# IConstructableConcept interface (dbgmodel.h)
+
 ## -description
 
 A concept that a data model can support in order to allow for construction of the object.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_SINGLE_TAI structure (wwan.h)
+
 ## -description
 
 The **WWAN_SINGLE_TAI** structure represents a single Tracking Area Identity (TAI). The TAI contains the Mobile Country Code (MCC), Mobile Network Code (MNC) and Tracking Area Code (TAC)).

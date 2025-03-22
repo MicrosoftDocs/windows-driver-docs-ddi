@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExAcquireSpinLockSharedAtDpcLevel
 ---
 
+# ExAcquireSpinLockSharedAtDpcLevel function (wdm.h)
+
 ## -description
 
 The **ExAcquireSpinLockSharedAtDpcLevel** routine acquires a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) for shared access by a caller that is already running at IRQL \>= DISPATCH_LEVEL.

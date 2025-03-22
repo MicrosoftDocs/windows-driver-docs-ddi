@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_NODE_OUTPUT_0108
 ---
 
+# D3D12DDI_NODE_OUTPUT_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_NODE_OUTPUT_0108** structure describes the output of a node in a work graph.

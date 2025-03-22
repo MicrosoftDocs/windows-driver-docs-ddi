@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# BPIO_OPERATIONS enumeration (ntddstor.h)
+
 ## -description
 
 **BPIO_OPERATIONS** defines the various BypassIO operations supported by the [**IOCTL_STORAGE_MANAGE_BYPASS_IO**](ni-ntddstor-ioctl_storage_manage_bypass_io.md) control code.

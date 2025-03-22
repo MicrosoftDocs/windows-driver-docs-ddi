@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmCalloutEnum0
 ---
 
+# FwpmCalloutEnum0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmCalloutEnum0** function returns the next page of results from the callout enumerator.

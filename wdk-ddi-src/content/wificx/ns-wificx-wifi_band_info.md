@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_BAND_INFO structure (wificx.h)
+
 ## -description
 
 The **WIFI_BAND_INFO** structure contains band information. 

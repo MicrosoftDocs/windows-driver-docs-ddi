@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_RF_TUNER_CAPS_S
 ---
 
+# KSPROPERTY_BDA_RF_TUNER_CAPS_S structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_RF_TUNER_CAPS_S** structure.

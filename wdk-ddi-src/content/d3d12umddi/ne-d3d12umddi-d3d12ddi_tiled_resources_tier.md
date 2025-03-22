@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_TILED_RESOURCES_TIER
 ---
 
+# D3D12DDI_TILED_RESOURCES_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_TILED_RESOURCES_TIER** value identifies the tier level at which the driver supports tiled resources.

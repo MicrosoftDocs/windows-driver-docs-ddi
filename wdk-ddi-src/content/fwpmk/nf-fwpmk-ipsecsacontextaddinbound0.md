@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextAddInbound0
 ---
 
+# IPsecSaContextAddInbound0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextAddInbound0** function adds an inbound IPsec security association (SA) bundle to an existing SA context.

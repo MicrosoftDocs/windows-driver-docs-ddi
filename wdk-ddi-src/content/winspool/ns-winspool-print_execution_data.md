@@ -39,6 +39,8 @@ helpviewer_keywords:
  - PRINT_EXECUTION_DATA
 ---
 
+# PRINT_EXECUTION_DATA structure (winspool.h)
+
 ## -description
 
 This topic describes the **PRINT_EXECUTION_DATA** structure.

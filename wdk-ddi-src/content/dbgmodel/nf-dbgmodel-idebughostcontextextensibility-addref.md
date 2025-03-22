@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AddRef
 ---
 
+# IDebugHostContextExtensibility::AddRef function (dbgmodel.h)
+
 ## -description
 
 Increments the reference count for an interface on an object. This method should be called for every new copy of a pointer to an interface on an object. 

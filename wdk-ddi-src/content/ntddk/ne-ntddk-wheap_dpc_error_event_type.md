@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WHEAP_DPC_ERROR_EVENT_TYPE
 ---
 
+# WHEAP_DPC_ERROR_EVENT_TYPE enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEAP_DPC_ERROR_EVENT_TYPE** enumeration.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_HANDLE_TYPE enumeration (d3dkmddi.h)
+
 ## -description
 
 **DXGK_HANDLE_TYPE** identifies the handle type of an allocation.

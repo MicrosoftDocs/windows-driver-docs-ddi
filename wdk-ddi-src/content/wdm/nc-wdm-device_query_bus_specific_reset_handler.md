@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DEVICE_QUERY_BUS_SPECIFIC_RESET_HANDLER
 ---
 
+# DEVICE_QUERY_BUS_SPECIFIC_RESET_HANDLER function (wdm.h)
+
 ## -description
 
 This topic describes the **DEVICE_QUERY_BUS_SPECIFIC_RESET_HANDLER** callback function.

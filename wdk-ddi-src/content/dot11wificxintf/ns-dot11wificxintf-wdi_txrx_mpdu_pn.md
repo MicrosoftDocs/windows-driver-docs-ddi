@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TXRX_MPDU_PN structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

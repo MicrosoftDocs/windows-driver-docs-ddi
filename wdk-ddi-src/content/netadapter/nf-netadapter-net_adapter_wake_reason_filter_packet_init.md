@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_WAKE_REASON_FILTER_PACKET_INIT function (netadaptercx.h)
+
 ## -description
 
 

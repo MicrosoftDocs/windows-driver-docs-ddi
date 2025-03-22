@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseFastMutexUnsafe
 ---
 
+# ExReleaseFastMutexUnsafe function (wdm.h)
+
 ## -description
 
 The **ExReleaseFastMutexUnsafe** routine releases ownership of a fast mutex that was acquired by using [**ExAcquireFastMutexUnsafe**](nf-wdm-exacquirefastmutexunsafe.md).

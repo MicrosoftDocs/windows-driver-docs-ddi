@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_DEVICE_TYPE
 ---
 
+# PCI_EXPRESS_DEVICE_TYPE enumeration (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_DEVICE_TYPE** enumeration.

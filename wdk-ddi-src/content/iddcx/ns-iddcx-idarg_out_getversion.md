@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# IDARG_OUT_GETVERSION structure (iddcx.h)
+
 ## -description
 
 The **IDARG_OUT_GETVERSION** structure identifies the IddCx (Indirect Display Driver Class eXtension) version.

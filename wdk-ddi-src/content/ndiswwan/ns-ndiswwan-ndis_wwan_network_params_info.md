@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WWAN_NETWORK_PARAMS_INFO structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_NETWORK_PARAMS_INFO** structure represents network configuration data and policy information. Miniport drivers use this structure with

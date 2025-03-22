@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# NET_WAKE_SOURCE_TYPE enumeration (netwakesource.h)
+
 ## -description
 
 The **NET_WAKE_SOURCE_TYPE** enumeration specifies the type for the source of a wake-on-LAN (WoL) wake-up event from a net adapter.

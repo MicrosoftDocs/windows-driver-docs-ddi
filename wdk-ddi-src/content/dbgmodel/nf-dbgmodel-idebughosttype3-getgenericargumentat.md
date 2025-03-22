@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetGenericArgumentAt
 ---
 
+# IDebugHostType3::GetGenericArgumentAt function (dbgmodel.h)
+
 ## -description
 
 For the "i"-th generic argument to the generic/template, this returns a new [IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md)  which represents that argument.  For templates, this is most often an [IDebugHostType](nn-dbgmodel-idebughosttype.md); however --  it may be an [IDebugHostConstant](nn-dbgmodel-idebughostconstant.md) for non-template type arguments.  

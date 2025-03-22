@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetVersion
 ---
 
+# IDebugHostModule5::GetVersion function (dbgmodel.h)
+
 ## -description
 
 The GetVersion method returns version information about the module (assuming that such information can successfully be read out of the headers). If a given version is requested (via a non-nullptr output pointer) and it cannot be read, an appropriate error code will be returned from the method call.

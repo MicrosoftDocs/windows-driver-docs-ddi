@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortMaskMsixInterrupt function (storport.h)
+
 ## -description
 
 **StorPortMaskMsixInterrupt** masks or unmasks an interrupt in the MSI-X hardware interrupt table.

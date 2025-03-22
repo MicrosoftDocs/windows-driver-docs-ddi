@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEAP_BAD_HEST_NOTIFY_DATA_EVENT
 ---
 
+# WHEAP_BAD_HEST_NOTIFY_DATA_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEAP_BAD_HEST_NOTIFY_DATA_EVENT** structure.

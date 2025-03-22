@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SEC_CHANNEL_BINDINGS_RESULT
 ---
 
+# SEC_CHANNEL_BINDINGS_RESULT structure (ntifs.h)
+
 ## -description
 
 The **SEC_CHANNEL_BINDINGS_RESULT** structure is used to represent the outcome of channel bindings verification in secure communication protocols.

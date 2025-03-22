@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_ROAM_TRIGGER enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

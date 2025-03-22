@@ -38,6 +38,8 @@ helpviewer_keywords:
  - BUS_QUERY_ID_TYPE
 ---
 
+# BUS_QUERY_ID_TYPE enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **BUS_QUERY_ID_TYPE** enumeration.

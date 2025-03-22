@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION structure (wdm.h)
+
 ## -description
 
 Defines the **MEMORY_PARTITION_DEDICATED_MEMORY_OPEN_INFORMATION** structure.

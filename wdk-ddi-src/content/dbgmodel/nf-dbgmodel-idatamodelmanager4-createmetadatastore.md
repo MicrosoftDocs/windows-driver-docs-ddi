@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateMetadataStore
 ---
 
+# IDataModelManager4::CreateMetadataStore function (dbgmodel.h)
+
 ## -description
 
 The CreateMetadataStore method creates a key store -- a simplified container of key/value/metadata tuples -- which is used to hold metadata that can be associated with properties and a variety of other values. 

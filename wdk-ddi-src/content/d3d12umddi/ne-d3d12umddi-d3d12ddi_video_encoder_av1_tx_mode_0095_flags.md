@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095_FLAGS
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095_FLAGS** enumeration defines flags that indicate the transform modes that can be used in AV1 video encoding.

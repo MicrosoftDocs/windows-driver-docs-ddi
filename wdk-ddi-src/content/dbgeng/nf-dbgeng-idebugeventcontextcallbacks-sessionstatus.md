@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::SessionStatus function (dbgeng.h)
+
 ## -description
 
 Session status is synchronous like the other wait callbacks but it is called as the state of the session is changing rather than at specific events so its return value does not influence waiting.  Implementations should just return DEBUG_STATUS_NO_CHANGE.

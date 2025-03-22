@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CloneContextForModification
 ---
 
+# IDebugHostContextExtensibility::CloneContextForModification function (dbgmodel.h)
+
 ## -description
 
 This method clones the current host context and returns a one-time modification interface to associate data with the context.

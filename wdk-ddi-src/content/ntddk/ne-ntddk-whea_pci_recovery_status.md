@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WHEA_PCI_RECOVERY_STATUS
 ---
 
+# WHEA_PCI_RECOVERY_STATUS enumeration (ntddk.h)
+
 ## -description
 
 Describes the **WHEA_PCI_RECOVERY_STATUS** enumeration.

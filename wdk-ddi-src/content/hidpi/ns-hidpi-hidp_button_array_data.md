@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# HIDP_BUTTON_ARRAY_DATA structure (hidpi.h)
+
 ## -description
 
 The **HIDP_BUTTON_ARRAY_DATA** structure is used to get or set data for single button in a button array.

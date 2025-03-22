@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetAdapterWakeSetEapolPacketCapabilities function (netadapter.h)
+
 ## -description
 
 The **NetAdapterWakeSetEapolPacketCapabilities** function sets a network adapter's EAP over LAN (EAPOL) packet wake on LAN (WoL) capabilities.

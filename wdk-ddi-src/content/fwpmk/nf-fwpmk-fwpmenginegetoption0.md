@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmEngineGetOption0
 ---
 
+# FwpmEngineGetOption0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmEngineGetOption0** function retrieves a filter engine option.

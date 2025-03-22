@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _WRITE_THROUGH
 ---
 
+# WRITE_THROUGH enumeration (ntddstor.h)
+
 ## -description
 
 The WRITE\_THROUGH enumeration specifies whether a storage device supports write-through caching.

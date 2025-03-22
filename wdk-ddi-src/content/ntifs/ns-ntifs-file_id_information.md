@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# FILE_ID_INFORMATION structure (ntifs.h)
+
 ## -description
 
 **FILE_ID_INFORMATION** is used to query file identification information.

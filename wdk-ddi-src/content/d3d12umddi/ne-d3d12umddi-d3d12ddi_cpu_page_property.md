@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_CPU_PAGE_PROPERTY
 ---
 
+# D3D12DDI_CPU_PAGE_PROPERTY enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_CPU_PAGE_PROPERTY** value specifies the CPU page properties for a heap.

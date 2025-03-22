@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMDT_VIRTUALGPUSURFACEDATA
 ---
 
+# D3DKMDT_VIRTUALGPUSURFACEDATA structure (d3dkmdt.h)
+
 ## -description
 
 The **D3DKMDT_VIRTUALGPUSURFACEDATA** structure describes a surface allocated for a virtual GPU (vGPU).

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# MmGetSystemAddressForMdlSafe function (wdm.h)
+
 ## -description
 
 The **MmGetSystemAddressForMdlSafe** macro returns a nonpaged system-space virtual address for the buffer that the specified MDL describes.

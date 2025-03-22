@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetValue
 ---
 
+# IDebugHostField2::GetValue function (dbgmodel.h)
+
 ## -description
 
 For fields which have a constant value defined within the symbolic information (e.g.: fields whose location kind indicates LocationConstant), the GetValue method will return the constant value of the field. 

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_ATR_INFO
 ---
 
+# NDIS_WWAN_ATR_INFO structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_ATR_INFO** structure represents a SIM card's Answer to Reset (ATR) information.

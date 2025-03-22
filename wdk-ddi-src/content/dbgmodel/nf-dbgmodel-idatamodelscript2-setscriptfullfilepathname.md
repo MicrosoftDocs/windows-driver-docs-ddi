@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SetScriptFullFilePathName
 ---
 
+# IDataModelScript2::SetScriptFullFilePathName function (dbgmodel.h)
+
 ## -description
 
 The SetScriptFullFilePathName method sets the script full file path name. The method can be executed only once.

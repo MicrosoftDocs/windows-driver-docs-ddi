@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_INTERPOLATION_FILTERS_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_INTERPOLATION_FILTERS_0095 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12_VIDEO_ENCODER_AV1_INTERPOLATION_FILTERS** enumeration defines the list of distinct interpolation filter types that can be used in the AV1 video encoding process, where each value represents a specific interpolation filter.

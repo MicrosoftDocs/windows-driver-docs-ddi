@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecDospStateCreateEnumHandle0
 ---
 
+# IPsecDospStateCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecDospStateCreateEnumHandle0** function creates a handle used to enumerate a set of IPsec DoS Protection objects.

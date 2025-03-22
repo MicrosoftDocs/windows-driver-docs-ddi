@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderDestroyEnumHandle0
 ---
 
+# FwpmProviderDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderDestroyEnumHandle0** function frees a handle returned by **[FwpmProviderCreateEnumHandle0](nf-fwpmk-fwpmprovidercreateenumhandle0.md)**.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FltMupGetProviderInfoFromFileObject
 ---
 
+# FltMupGetProviderInfoFromFileObject function (fltkernel.h)
+
 ## -description
 
 **FltMupGetProviderInfoFromFileObject** retrieves the provider information corresponding to a file object.

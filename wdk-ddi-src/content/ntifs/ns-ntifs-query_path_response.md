@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# QUERY_PATH_RESPONSE structure (ntifs.h)
+
 ## -description
 
 The **QUERY_PATH_RESPONSE** structure contains the response for an [**IOCTL_REDIR_QUERY_PATH_EX**](ni-ntifs-ioctl_redir_query_path_ex.md) (or [**IOCTL_REDIR_QUERY_PATH**](ni-ntifs-ioctl_redir_query_path.md)) prefix resolution query.

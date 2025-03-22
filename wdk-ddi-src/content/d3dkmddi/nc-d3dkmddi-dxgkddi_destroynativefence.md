@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DESTROYNATIVEFENCE
 ---
 
+# DXGKDDI_DESTROYNATIVEFENCE function (d3dkmddi.h)
+
 ## -description
 
 The OS calls KMD's **DxgkDdiDestroyNativeFence** to destroy a tracking object for a native GPU fence.

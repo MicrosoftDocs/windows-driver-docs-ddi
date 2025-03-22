@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortRevertToUserGroupAffinityThread function (storport.h)
+
 ## -description
 
 ## -parameters

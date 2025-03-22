@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_ALLOCATEADL function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_ALLOCATEADL** creates an address descriptor list (ADL).

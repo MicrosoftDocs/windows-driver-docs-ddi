@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDIARG_CREATE_VIDEO_ENCODER_HEAP_0080_2
 ---
 
+# D3D12DDIARG_CREATE_VIDEO_ENCODER_HEAP_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_CREATE_VIDEO_ENCODER_HEAP_0080_2** structure specifies video encoder heap parameters.

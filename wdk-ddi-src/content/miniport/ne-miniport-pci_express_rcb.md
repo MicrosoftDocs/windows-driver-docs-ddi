@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_RCB
 ---
 
+# PCI_EXPRESS_RCB enumeration (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_RCB** enumeration.

@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_PROTECTED_RESOURCE_SUPPORT_FLAGS_0072 enumeration (d3d12umddi.h)
+
 ## -description
 
 The protected resource support flags for D3D video operations.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PPTT
 ---
 
+# PPTT structure (acpitabl.h)
+
 ## -description
 
 Defines the Processor Properties Topology Table (PPTT) structure.

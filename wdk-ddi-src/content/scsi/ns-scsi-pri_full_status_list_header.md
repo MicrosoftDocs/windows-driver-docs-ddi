@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRI_FULL_STATUS_LIST_HEADER
 ---
 
+# PRI_FULL_STATUS_LIST_HEADER structure (scsi.h)
+
 ## -description
 
 The **PRI_FULL_STATUS_LIST_HEADER** structure is the first member of a **[PRI_FULL_STATUS_LIST](ns-scsi-pri_full_status_list.md)** that is returned in response to a Persistent Reserve In command with `ServiceAction=RESERVATION_ACTION_READ_FULL_STATUS`.

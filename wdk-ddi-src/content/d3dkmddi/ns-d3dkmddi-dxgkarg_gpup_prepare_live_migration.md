@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_GPUP_PREPARE_LIVE_MIGRATION
 ---
 
+# DXGKARG_GPUP_PREPARE_LIVE_MIGRATION structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_GPUP_PREPARE_LIVE_MIGRATION** structure contains information for the KMD's [**DxgkDdiPrepareLiveMigration**](nc-d3dkmddi-dxgkddi_preparelivemigration.md) function to prepare for a live migration.

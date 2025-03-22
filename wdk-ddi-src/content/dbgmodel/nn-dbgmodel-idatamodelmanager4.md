@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDataModelManager4
 ---
 
+# IDataModelManager4 interface (dbgmodel.h)
+
 ## -description
 
 The fourth version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.

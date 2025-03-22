@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_INTERCONNECT_TYPE enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

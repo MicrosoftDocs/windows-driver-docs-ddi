@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AddThreads
 ---
 
+# IDebugFailureAnalysis3::AddThreads function (extsfns.h)
+
 ## -description
 
 ## -parameters

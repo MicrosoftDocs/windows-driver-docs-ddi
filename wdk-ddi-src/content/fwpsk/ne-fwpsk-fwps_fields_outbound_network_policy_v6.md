@@ -37,6 +37,8 @@ helpviewer_keywords:
  - FWPS_FIELDS_OUTBOUND_NETWORK_CONNECTION_POLICY_V6_
 ---
 
+# FWPS_FIELDS_OUTBOUND_NETWORK_CONNECTION_POLICY_V6_ enumeration (fwpsk.h)
+
 ## -description
 
 The FWPS_FIELDS_OUTBOUND_NETWORK_POLICY_V6 enumeration type specifies the data field identifiers for the FWPS_LAYER_OUTBOUND_NETWORK_CONNECTION_POLICY_V6 [run-time filtering layer](/windows-hardware/drivers/network/run-time-filtering-layer-identifiers).

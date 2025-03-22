@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# FSCTL_MARK_HANDLE ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_MARK_HANDLE** control code marks a specified file or directory and its change journal record with information about changes to that file or directory.

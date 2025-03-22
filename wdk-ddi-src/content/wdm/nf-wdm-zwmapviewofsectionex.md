@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ZwMapViewOfSectionEx
 ---
 
+# ZwMapViewOfSectionEx function (wdm.h)
+
 ## -description
 
 The **ZwMapViewOfSectionEx** routine maps a view of a section into the virtual address space of a subject process.

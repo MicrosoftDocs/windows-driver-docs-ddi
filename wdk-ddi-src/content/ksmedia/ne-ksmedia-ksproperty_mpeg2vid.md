@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_MPEG2VID
 ---
 
+# KSPROPERTY_MPEG2VID enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_MPEG2VID** enumeration (ksmedia.h).

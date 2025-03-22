@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_SRAS_TABLE_NOT_FOUND
 ---
 
+# WHEA_SRAS_TABLE_NOT_FOUND structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_SRAS_TABLE_NOT_FOUND** structure.

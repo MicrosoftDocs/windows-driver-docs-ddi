@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# MmInitializeMdl function (wdm.h)
+
 ## -description
 
 The **MmInitializeMdl** macro initializes the header of an MDL.

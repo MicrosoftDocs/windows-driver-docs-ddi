@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE structure (ntddstor.h)
+
 ## -description
 
 **STORAGE_PROTOCOL_DATA_SUBVALUE_GET_LOG_PAGE** is used to provide additional information to be specified when getting an NVMe log page.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExCreatePool function (wdm.h)
+
 ## -description
 
 Defines the **ExCreatePool** function.

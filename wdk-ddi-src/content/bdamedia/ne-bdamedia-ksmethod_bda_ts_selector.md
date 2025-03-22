@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_BDA_TS_SELECTOR
 ---
 
+# KSMETHOD_BDA_TS_SELECTOR enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_BDA_TS_SELECTOR** enumeration.

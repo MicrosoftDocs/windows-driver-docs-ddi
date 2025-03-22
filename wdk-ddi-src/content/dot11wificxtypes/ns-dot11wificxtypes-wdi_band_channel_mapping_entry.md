@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_BAND_CHANNEL_MAPPING_ENTRY structure (dot11wificxtypes.h)
+
 ## -description
 
 > [!WARNING]

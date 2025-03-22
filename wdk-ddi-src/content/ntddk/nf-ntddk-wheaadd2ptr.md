@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WheaAdd2Ptr
 ---
 
+# WheaAdd2Ptr function (ntddk.h)
+
 ## -description
 
 This topic describes the **WheaAdd2Ptr** macro.

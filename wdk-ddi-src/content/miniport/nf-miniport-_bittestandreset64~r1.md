@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _BitTestAndReset64
 ---
 
+# _BitTestAndReset64 function (miniport.h)
+
 ## -description
 
 This topic describes the **_BitTestAndReset64** function.

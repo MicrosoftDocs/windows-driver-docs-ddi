@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_TUNER
 ---
 
+# KSPROPERTY_TUNER enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_TUNER** enumeration (ksmedia.h).

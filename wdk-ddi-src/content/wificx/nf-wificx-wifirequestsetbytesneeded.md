@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiRequestSetBytesNeeded function (wificx.h)
+
 ## -description
 
 WiFiCx drivers call the **WifiRequestSetBytesNeeded** function to set a larger buffer size for a command message.

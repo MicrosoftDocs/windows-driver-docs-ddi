@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_READ_FILE_USN_DATA
 ---
 
+# FSCTL_READ_FILE_USN_DATA ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_READ_FILE_USN_DATA** control code retrieves the update sequence number (USN) change-journal information for the specified file or directory.

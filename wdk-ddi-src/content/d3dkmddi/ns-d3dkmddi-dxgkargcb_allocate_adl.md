@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_ALLOCATE_ADL structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARGCB_ALLOCATE_ADL** contains the information used by the [**DXGKCB_ALLOCATEADL**](nc-d3dkmddi-dxgkcb_allocateadl.md) callback function to create an address descriptor list (ADL).

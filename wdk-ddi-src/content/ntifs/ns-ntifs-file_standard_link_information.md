@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# FILE_STANDARD_LINK_INFORMATION structure (ntifs.h)
+
 ## -description
 
 **FILE_STANDARD_LINK_INFORMATION** is used to query file link information.

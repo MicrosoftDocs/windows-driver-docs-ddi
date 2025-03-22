@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WheaUnregisterErrorSourceOverride
 ---
 
+# WheaUnregisterErrorSourceOverride function (ntddk.h)
+
 ## -description
 
 This topic describes the **WheaUnregisterErrorSourceOverride** function.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRI_FULL_STATUS_DESCRIPTOR
 ---
 
+# PRI_FULL_STATUS_DESCRIPTOR structure (storport.h)
+
 ## -description
 
 The **PRI_FULL_STATUS_DESCRIPTOR** structure is used to construct the **[PRI_FULL_STATUS_LIST](ns-storport-pri_full_status_list.md)** structure that is returned in response to a Persistent Reserve In command with `ServiceAction=RESERVATION_ACTION_READ_FULL_STATUS`.

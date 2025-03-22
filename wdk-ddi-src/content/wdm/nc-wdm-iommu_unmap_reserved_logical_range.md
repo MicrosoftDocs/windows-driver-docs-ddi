@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_UNMAP_RESERVED_LOGICAL_RANGE function (wdm.h)
+
 ## -description
 
 Unmaps a previously mapped reserved logical range. Unlike [**IOMMU_UNMAP_LOGICAL_RANGE**](nc-wdm-iommu_unmap_logical_range.md), this is guaranteed not to delete any page table resources so that the logical address range can be reused without performing any memory allocations.

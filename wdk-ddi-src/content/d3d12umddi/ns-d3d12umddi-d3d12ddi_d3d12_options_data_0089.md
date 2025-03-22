@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_D3D12_OPTIONS_DATA_0089
 ---
 
+# D3D12DDI_D3D12_OPTIONS_DATA_0089 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_D3D12_OPTIONS_DATA_0089** structure describes the feature options supported by the driver/ in D3D12 Release 8, Build Revision 9.

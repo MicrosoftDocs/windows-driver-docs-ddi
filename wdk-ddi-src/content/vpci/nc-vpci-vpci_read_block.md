@@ -42,6 +42,8 @@ helpviewer_keywords:
  - VPCI_READ_BLOCK
 ---
 
+# VPCI_READ_BLOCK function (vpci.h)
+
 ## -description
 
 The *ReadVfConfigBlock* routine reads a block of configuration data for a PCI Express (PCIe) virtual function (VF). This routine is called by the driver of a PCIe VF on a device that supports the single root I/O virtualization (SR-IOV) interface.

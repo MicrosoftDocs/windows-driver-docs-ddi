@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IS_5GNSA_OPTION3_PRESENT function (wwan.h)
+
 ## -description
 
 The **IS_5GNSA_OPTION3_PRESENT** macro determines whether a mobile broadband (MBB) device is registered in a 5G NSA (Option 3) network.

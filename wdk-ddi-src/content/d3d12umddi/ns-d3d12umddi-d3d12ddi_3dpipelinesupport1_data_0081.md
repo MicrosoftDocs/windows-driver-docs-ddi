@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_3DPIPELINESUPPORT1_DATA_0081 structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_3DPIPELINESUPPORT1_DATA_0081** is used to indicate the highest feature level of 3D pipeline support in the Direct3D runtime and the driver.

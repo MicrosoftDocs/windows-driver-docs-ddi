@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# SCSI_SUPPORTED_CONTROL_TYPE_LIST structure (storport.h)
+
 ## -description
 
 **SCSI_SUPPORTED_CONTROL_TYPE_LIST** is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorUnitControl**](nc-storport-hw_unit_control.md) routine is called with a **ControlType** of **ScsiQuerySupportedUnitControlTypes** or [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiQuerySupportedControlTypes**.

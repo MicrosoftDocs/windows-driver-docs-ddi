@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IActionEnumerator
 ---
 
+# IActionEnumerator interface (dbgmodel.h)
+
 ## -description
 
 An enumerator for actions on an object.

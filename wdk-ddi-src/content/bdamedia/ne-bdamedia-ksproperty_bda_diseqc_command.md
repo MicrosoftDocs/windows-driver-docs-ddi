@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_DISEQC_COMMAND
 ---
 
+# KSPROPERTY_BDA_DISEQC_COMMAND enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_DISEQC_COMMAND** enumeration.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_D3D12_OPTIONS_DATA_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The D3D12DDI_D3D12_OPTIONS_DATA_0080 structure contains display options data supported by the driver/hardware.

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# GNSS_EVENT_2 structure (gnssdriver.h)
+
 ## -description
 
 The **GNSS_EVENT_2** structure defines the information required for a GNSS event.

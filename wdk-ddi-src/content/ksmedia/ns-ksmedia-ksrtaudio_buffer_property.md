@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSRTAUDIO_BUFFER_PROPERTY
 ---
 
+# KSRTAUDIO_BUFFER_PROPERTY structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSRTAUDIO_BUFFER_PROPERTY** structure (ksmedia.h).

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_SEGMENT_DATA_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_SEGMENT_DATA_0095 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_SEGMENT_DATA_0095** structure contains segmentation data for a segment within an AV1 frame.

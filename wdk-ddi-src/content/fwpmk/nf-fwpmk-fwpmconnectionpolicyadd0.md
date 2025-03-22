@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionPolicyAdd0
 ---
 
+# FwpmConnectionPolicyAdd0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionPolicyAdd0API** function configures routing policies for outbound connections.

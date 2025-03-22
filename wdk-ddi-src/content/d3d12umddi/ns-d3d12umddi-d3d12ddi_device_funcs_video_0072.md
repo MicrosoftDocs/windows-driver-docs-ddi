@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_DEVICE_FUNCS_VIDEO_0072 structure (d3d12umddi.h)
+
 ## -description
 
 Contains device functions for core features in video, used in D3D12DDI_FEATURE_VERSION_VIDEO_0072.

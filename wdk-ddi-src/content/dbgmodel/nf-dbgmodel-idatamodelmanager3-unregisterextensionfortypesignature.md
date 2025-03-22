@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UnregisterExtensionForTypeSignature
 ---
 
+# IDataModelManager3::UnregisterExtensionForTypeSignature function (dbgmodel.h)
+
 ## -description
 
 The UnregisterExtensionForTypeSignature method undoes a prior call to RegisterExtensionForTypeSignature. It unregisters a particular data model as an extension for either a particular type signature or as an extension for all type signatures against which the data model was registered.

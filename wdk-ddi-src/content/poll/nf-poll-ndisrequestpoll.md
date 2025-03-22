@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NdisRequestPoll function (poll.h)
+
 ## -description
 
 Miniport drivers call **NdisRequestPoll** to ask NDIS to execute the [*NdisPoll*](nc-poll-ndis_poll.md) callback for this Poll object.

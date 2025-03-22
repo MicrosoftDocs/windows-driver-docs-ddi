@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _BitTestAndComplement64
 ---
 
+# _BitTestAndComplement64 function (wdm.h)
+
 ## -description
 
 ## -parameters

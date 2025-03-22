@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextAddOutbound0
 ---
 
+# IPsecSaContextAddOutbound0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextAddOutbound0** function adds an outbound IPsec security association (SA) bundle to an existing SA context.

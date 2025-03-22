@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_CREATE_VIDEO_ENCODER_0082_0** structure contains the encoder creation parameters for the [**PFND3D12DDI_CALCPRIVATEVIDEOENCODERSIZE_0082_0**](nc-d3d12umddi-pfnd3d12ddi_calcprivatevideoencodersize_0082_0.md) and [**PFND3D12DDI_CREATEVIDEOENCODER_0082_0**](nc-d3d12umddi-pfnd3d12ddi_createvideoencoder_0082_0.md) callback functions.

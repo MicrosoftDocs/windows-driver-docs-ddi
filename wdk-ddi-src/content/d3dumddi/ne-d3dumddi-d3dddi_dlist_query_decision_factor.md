@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# D3DDDI_DLIST_QUERY_DECISION_FACTOR enumeration (d3dumddi.h)
+
 ## -description
 
 A **D3DDDI_DLIST_QUERY_DECISION_FACTOR** enum value describes the factor that determined the GPU preference returned by [**pfnQueryDlistForApplication2Cb**](nc-d3dumddi-pfnd3dddi_querydlistforapplication2.md).

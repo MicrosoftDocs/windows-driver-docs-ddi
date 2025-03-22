@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXVA_QMatrix_MJPEG
 ---
 
+# DXVA_QMatrix_MJPEG structure (dxva.h)
+
 ## -description
 
 The **DXVA_QMatrix_MJPEG** structure provides the quantization table of a compressed picture for MJPEG video decoding.

@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _LINK_TRACKING_INFORMATION_TYPE
 ---
 
+# LINK_TRACKING_INFORMATION_TYPE enumeration (ntifs.h)
+
 ## -description
 
 A **LINK_TRACKING_INFORMATION_TYPE** value identifies the type of file system that a file resides on.

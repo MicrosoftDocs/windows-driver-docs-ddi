@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# PFN_WSK_SEND_MESSAGES function (wsk.h)
+
 ## -description
 
 The **WskSendMessages** function sends multiple datagrams to a remote transport address.

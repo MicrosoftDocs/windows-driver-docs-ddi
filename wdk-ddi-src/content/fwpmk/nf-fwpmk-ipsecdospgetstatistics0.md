@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecDospGetStatistics0
 ---
 
+# IPsecDospGetStatistics0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecDospGetStatistics0** function retrieves Internet Protocol Security (IPsec) DoS Protection statistics.

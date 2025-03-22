@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# FS_BPIO_INFO structure (ntifs.h)
+
 ## -description
 
 The **FS_BPIO_INFO** structure provides information about the BypassIO state of the volume.

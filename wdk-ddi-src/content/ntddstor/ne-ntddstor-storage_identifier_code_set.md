@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _STORAGE_IDENTIFIER_CODE_SET
 ---
 
+# STORAGE_IDENTIFIER_CODE_SET enumeration (ntddstor.h)
+
 ## -description
 
 The STORAGE\_IDENTIFIER\_CODE\_SET enumeration specifies the code set used by a SCSI identification descriptor ([**STORAGE\_IDENTIFIER**](ns-ntddstor-_storage_identifier.md)) to identify a logical unit.

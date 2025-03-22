@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExFreePool2 function (wdm.h)
+
 ## -description
 
 Defines the **ExFreePool2** function.

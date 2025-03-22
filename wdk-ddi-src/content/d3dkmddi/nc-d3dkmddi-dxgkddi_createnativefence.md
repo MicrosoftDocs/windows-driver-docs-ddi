@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CREATENATIVEFENCE
 ---
 
+# DXGKDDI_CREATENATIVEFENCE function (d3dkmddi.h)
+
 ## -description
 
 The OS calls KMD's **DxgkDdiCreateNativeFence** to create a tracking object for a native GPU fence.

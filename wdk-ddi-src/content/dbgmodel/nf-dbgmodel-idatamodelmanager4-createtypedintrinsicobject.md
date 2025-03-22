@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateTypedIntrinsicObject
 ---
 
+# IDataModelManager4::CreateTypedIntrinsicObject function (dbgmodel.h)
+
 ## -description
 
 The CreateTypedintrinsicObject method is similar to the CreateIntrinsicObject method excepting that it allows a native/language type to be associated with the data and carried along with the boxed value. This allows the data model to represent constructs such as native enumeration types (which are simply VT_UI* or VT_I* values). Pointer types are also created with this method. A native pointer in the data model is a zero extended 64-bit quantity representing an offset into the virtual address space of the debug target. It is boxed inside a VT_UI8 and is created with this method and a type which indicates a native/language pointer.

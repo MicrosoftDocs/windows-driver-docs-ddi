@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_WAVE_MMA_DATA_0103
 ---
 
+# D3D12DDI_WAVE_MMA_DATA_0103 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WAVE_MMA_DATA_0103** structure describes a driver's support for Direct3D matrix-multiply-accumulate (MMA) operations.

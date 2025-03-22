@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostFunctionLocalDetailsEnumerator
 ---
 
+# IDebugHostFunctionLocalDetailsEnumerator interface (dbgmodel.h)
+
 ## -description
 
 A host optional interface which enumerates locals & arguments of a function and provides details about their backing storage and types.

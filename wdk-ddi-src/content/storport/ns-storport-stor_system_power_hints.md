@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_SYSTEM_POWER_HINTS structure (storport.h)
+
 ## -description
 
 **STOR_SYSTEM_POWER_HINTS** is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiAdapterSystemPowerHints**.

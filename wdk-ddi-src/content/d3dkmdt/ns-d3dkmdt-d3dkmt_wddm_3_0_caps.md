@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_WDDM_3_0_CAPS structure (d3dkmdt.h)
+
 ## -description
 
 Reserved for system use. Do not use.

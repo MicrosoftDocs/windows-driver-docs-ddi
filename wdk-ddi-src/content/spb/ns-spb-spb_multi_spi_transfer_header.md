@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# SPB_MULTI_SPI_TRANSFER_HEADER structure (spb.h)
+
 ## -description
 
 The **SPB_MULTI_SPI_TRANSFER_HEADER** structure describes a SPI transfer to be executed in a Multi-SPI (e.g. Dual SPI or Quad SPI) mode. This structure should be accessed by a controller driver to retrieve the parameters of a multi-SPI transfer.

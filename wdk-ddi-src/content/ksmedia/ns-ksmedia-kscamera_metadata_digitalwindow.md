@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# tagKSCAMERA_METADATA_DIGITALWINDOW structure (ksmedia.h)
+
 ## -description
 
 **KSCAMERA_METADATA_DIGITALWINDOW** contains metadata header information along with the digital window x and y origin and size in Q24 format.

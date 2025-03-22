@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_DEVICE_FUNCS_CONTENT_PROTECTION_RESOURCES_0074 structure (d3d12umddi.h)
+
 ## -description
 
 Device functions for D3D12 protected resources.

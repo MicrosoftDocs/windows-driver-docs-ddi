@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PVIDEO_HW_START_DMA
 ---
 
+# PVIDEO_HW_START_DMA function (video.h)
+
 ## -description
 
 A video miniport driver's **HwStartDma** function starts a DMA transfer. Reserved for system use.

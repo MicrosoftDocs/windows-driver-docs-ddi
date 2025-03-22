@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_RECORD_DISPATCH_GRID_0108
 ---
 
+# D3D12DDI_RECORD_DISPATCH_GRID_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_RECORD_DISPATCH_GRID_0108** structure describes the [*SV_DispatchGrid*](https://github.com/microsoft/DirectX-Specs/blob/master/d3d/WorkGraphs.md#sv_dispatchgrid) field in a record.

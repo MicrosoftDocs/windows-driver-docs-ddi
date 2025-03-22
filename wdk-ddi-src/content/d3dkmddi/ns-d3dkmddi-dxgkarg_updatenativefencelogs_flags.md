@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_UPDATENATIVEFENCELOGS_FLAGS
 ---
 
+# DXGKARG_UPDATENATIVEFENCELOGS_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_UPDATENATIVEFENCELOGS_FLAGS** specifies flags to use when flushing native fence log writes.

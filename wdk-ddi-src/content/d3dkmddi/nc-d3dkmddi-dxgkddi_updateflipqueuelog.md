@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_UPDATEFLIPQUEUELOG
 ---
 
+# DXGKDDI_UPDATEFLIPQUEUELOG function (d3dkmddi.h)
+
 ## -description
 
 The OS calls **DXGKDDI_UPDATEFLIPQUEUELOG** to request that the display driver update the hardware flip queue log.

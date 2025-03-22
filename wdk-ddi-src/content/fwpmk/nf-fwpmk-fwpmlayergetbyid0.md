@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmLayerGetById0
 ---
 
+# FwpmLayerGetById0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmLayerGetById0** function retrieves a layer object.

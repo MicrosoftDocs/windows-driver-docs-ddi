@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_NATIVE_FENCE_LOG_HEADER
 ---
 
+# DXGK_NATIVE_FENCE_LOG_HEADER structure (d3dukmdt.h)
+
 ## -description
 
 The **DXGK_NATIVE_FENCE_LOG_HEADER** structure contains the header information for the native fence log buffer.

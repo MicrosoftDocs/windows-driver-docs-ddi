@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostFunctionIntrospection2
 ---
 
+# IDebugHostFunctionIntrospection2 interface (dbgmodel.h)
+
 ## -description
 
 A host optional interface which provides detailed information about a function.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DXVA_Tile_AV1 structure (dxva.h)
+
 ## -description
 
 The **DXVA_Tile_AV1** structure is sent by the host software decoder to the accelerator to convey tile data locations.

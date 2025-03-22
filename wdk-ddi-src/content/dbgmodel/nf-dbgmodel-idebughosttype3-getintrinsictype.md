@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetIntrinsicType
 ---
 
+# IDebugHostType3::GetIntrinsicType function (dbgmodel.h)
+
 ## -description
 
 The GetIntrinsicType method returns information about what kind of intrinsic the type is. Two values are returned out of this method: 

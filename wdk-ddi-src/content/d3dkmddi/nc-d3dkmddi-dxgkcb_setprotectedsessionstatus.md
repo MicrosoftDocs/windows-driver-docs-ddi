@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_SETPROTECTEDSESSIONSTATUS function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver calls **DXGKCB_SETPROTECTEDSESSIONSTATUS** to set the status of a protected session.

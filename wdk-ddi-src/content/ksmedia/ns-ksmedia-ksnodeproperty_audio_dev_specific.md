@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSNODEPROPERTY_AUDIO_DEV_SPECIFIC
 ---
 
+# KSNODEPROPERTY_AUDIO_DEV_SPECIFIC structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSNODEPROPERTY_AUDIO_DEV_SPECIFIC** structure (ksmedia.h).

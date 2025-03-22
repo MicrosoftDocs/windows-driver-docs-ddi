@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# IO_DEVICE_HINT_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **IO_DEVICE_HINT_ECP_CONTEXT** structure contains the extra create parameters (ECP) context that the I/O manager uses to pass back information to the filter manager about a reparse when the reparse target goes to a new device.

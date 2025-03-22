@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGKMDT_OPM_CONNECTOR_TYPE
 ---
 
+# DXGKMDT_OPM_CONNECTOR_TYPE enumeration (d3dkmdt.h)
+
 ## -description
 
 **DXGKMDT_OPM_CONNECTOR_TYPE** is reserved for system use. Don't use it in your driver.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PsGetProcessExitStatus
 ---
 
+# PsGetProcessExitStatus function (ntddk.h)
+
 ## -description
 
 This routine retrieves the exit status of a process.

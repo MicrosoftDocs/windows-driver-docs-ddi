@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetGenericArgumentCount
 ---
 
+# IDebugHostType3::GetGenericArgumentCount function (dbgmodel.h)
+
 ## -description
 
 Returns the number of arguments to the generic/template.  The returned value must be greater than zero.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_PCIE_CORRECTABLE_ERROR_SECTION_HEADER
 ---
 
+# WHEA_PCIE_CORRECTABLE_ERROR_SECTION_HEADER structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

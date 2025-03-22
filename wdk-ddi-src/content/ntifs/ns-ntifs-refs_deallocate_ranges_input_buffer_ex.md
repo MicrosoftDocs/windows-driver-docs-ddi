@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _REFS_DEALLOCATE_RANGES_INPUT_BUFFER_EX
 ---
 
+# REFS_DEALLOCATE_RANGES_INPUT_BUFFER_EX structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

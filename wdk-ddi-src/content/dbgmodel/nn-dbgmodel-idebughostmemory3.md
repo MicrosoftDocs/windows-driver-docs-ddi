@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostMemory3
 ---
 
+# IDebugHostMemory3 interface (dbgmodel.h)
+
 ## -description
 
 The **IDebugHostMemory3** interface defines methods that provide memory access to the underlying debugger.

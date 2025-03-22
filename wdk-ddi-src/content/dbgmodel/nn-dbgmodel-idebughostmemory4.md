@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostMemory4
 ---
 
+# IDebugHostMemory4 interface (dbgmodel.h)
+
 ## -description
 
 The version 4 of a memory access interface to the underlying debugger.

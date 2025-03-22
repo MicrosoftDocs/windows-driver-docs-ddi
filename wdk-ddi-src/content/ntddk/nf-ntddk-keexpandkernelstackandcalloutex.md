@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# KeExpandKernelStackAndCalloutEx function (ntddk.h)
+
 ## -description
 
 The **KeExpandKernelStackAndCalloutEx** routine calls a routine and guarantees that a specified amount of stack space is available for this call.

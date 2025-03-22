@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseSpinLockExclusiveFromDpcLevel
 ---
 
+# ExReleaseSpinLockExclusiveFromDpcLevel function (wdm.h)
+
 ## -description
 
 The **ExReleaseSpinLockExclusiveFromDpcLevel** routine releases a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) that the caller acquired for exclusive access, and leaves the IRQL unchanged.

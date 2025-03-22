@@ -43,6 +43,8 @@ helpviewer_keywords:
  - ExTryAcquirePushLockExclusive
 ---
 
+# ExTryAcquirePushLockExclusive function (wdm.h)
+
 ## -description
 
 Try to acquire the given push lock for exclusive access by the calling thread.

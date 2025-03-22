@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortSecureCopyMemory function (storport.h)
+
 ## -description
 
 **StorPortSecureCopyMemory** securely copies bytes between buffers.

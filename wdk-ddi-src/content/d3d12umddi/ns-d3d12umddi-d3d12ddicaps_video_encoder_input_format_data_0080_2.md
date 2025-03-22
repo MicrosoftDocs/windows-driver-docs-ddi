@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDICAPS_VIDEO_ENCODER_INPUT_FORMAT_DATA_0080_2
 ---
 
+# D3D12DDICAPS_VIDEO_ENCODER_INPUT_FORMAT_DATA_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDICAPS_VIDEO_ENCODER_INPUT_FORMAT_DATA_0080_2** structure is used to query whether a specified video encoding input format is supported.

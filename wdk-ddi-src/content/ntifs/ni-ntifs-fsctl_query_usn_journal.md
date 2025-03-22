@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_QUERY_USN_JOURNAL
 ---
 
+# FSCTL_QUERY_USN_JOURNAL ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_QUERY_USN_JOURNAL** control code queries for information on the current update sequence number (USN) change journal, its records, and its capacity. See Remarks.

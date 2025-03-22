@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetContainingType
 ---
 
+# IDebugHostType3::GetContainingType function (dbgmodel.h)
+
 ## -description
 
 The GetContainingType method returns the type of the containing parent (the type that contains this symbol).

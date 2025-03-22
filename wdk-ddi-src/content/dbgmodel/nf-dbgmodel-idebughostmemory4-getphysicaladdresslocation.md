@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPhysicalAddressLocation
 ---
 
+# IDebugHostMemory4::GetPhysicalAddressLocation function (dbgmodel.h)
+
 ## -description
 
 The GetPhysicalAddressLocation method creates a location structure that represents an offset as a physical memory address. Failure is a legitimate outcome (E_NOTIMPL) if the debugger does not support physical addressing. However, if the debugger supports physical addressing but a particular target does not, GetPhysicalAddressLocation will succeed but read attempts from that location will fail.

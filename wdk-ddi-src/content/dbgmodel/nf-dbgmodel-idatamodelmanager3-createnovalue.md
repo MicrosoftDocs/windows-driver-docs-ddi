@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateNoValue
 ---
 
+# IDataModelManager3::CreateNoValue function (dbgmodel.h)
+
 ## -description
 
 The CreateNoValue method creates a "no value" object, boxes it into an [IModelObject](nn-dbgmodel-imodelobject.md), and returns it. The returned model object has a kind of ObjectNoValue. 

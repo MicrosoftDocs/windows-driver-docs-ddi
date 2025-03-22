@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NPEM_CONTROL_ENABLE_DISABLE function (wdm.h)
+
 ## -description
 
 Reserved for system use.

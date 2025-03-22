@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Compare
 ---
 
+# IDebugHostEvaluator3::Compare function (dbgmodel.h)
+
 ## -description
 
 The Compare method compares two model-based objects for equality linguistically. It handles pointers and pointer coercion equality if necessary.

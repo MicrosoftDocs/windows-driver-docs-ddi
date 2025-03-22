@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_WIRE_FORMAT_INFO
 ---
 
+# IDDCX_WIRE_FORMAT_INFO structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_WIRE_FORMAT_INFO** structure contains details about the signal to send to the monitor.

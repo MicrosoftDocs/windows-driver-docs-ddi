@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExAcquireFastMutexUnsafe
 ---
 
+# ExAcquireFastMutexUnsafe function (wdm.h)
+
 ## -description
 
 The **ExAcquireFastMutexUnsafe** routine acquires the specified fast mutex for the calling thread.

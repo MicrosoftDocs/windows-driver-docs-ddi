@@ -40,6 +40,8 @@ dev_langs:
 ms.custom: Fe
 ---
 
+# NetOffloadIsTcpRscIPv4Enabled function (netadapteroffload.h)
+
 ## -description
 
 The **NetOffloadIsTcpRscIPv4Enabled** function determines whether a net adapter has RSC offload enabled for IPv4 packets.

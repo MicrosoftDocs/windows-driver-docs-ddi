@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_CDEF_CONFIG_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_CDEF_CONFIG_0095 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_CDEF_CONFIG_0095** structure contains configuration information related to the constrained directional enhancement filter (CDEF) settings within an AV1 video encoder.

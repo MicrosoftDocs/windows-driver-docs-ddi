@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_OPENPHYSICALMEMORYOBJECT function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver calls **DXGKCB_OPENPHYSICALMEMORYOBJECT** to open a physical memory object and associates it with an adapter.

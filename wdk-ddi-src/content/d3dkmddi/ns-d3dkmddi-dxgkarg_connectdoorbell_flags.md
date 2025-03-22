@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CONNECTDOORBELL_FLAGS
 ---
 
+# DXGKARG_CONNECTDOORBELL_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CONNECTDOORBELL_FLAGS** structure specifies doorbell connection flags for [**DxgkDdiConnectDoorbell**](nc-d3dkmddi-dxgkddi_connectdoorbell.md).

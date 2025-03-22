@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_HIDSPICX_RESETDEVICE function (hidspicx.h)
+
 ## -description
 
 The **EVT_HIDSPICX_RESETDEVICE** callback function is implemented by the client driver to respond to requests to reset the device.

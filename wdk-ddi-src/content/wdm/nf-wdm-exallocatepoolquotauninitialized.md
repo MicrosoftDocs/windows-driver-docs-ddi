@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePoolQuotaUninitialized function (wdm.h)
+
 ## -description
 
 The **ExAllocatePoolQuotaUninitialized** routine allocates pool memory, charging the quota against the current process.

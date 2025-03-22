@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARGCB_ISFEATUREENABLED2_FLAGS
 ---
 
+# DXGKARGCB_ISFEATUREENABLED2_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_ISFEATUREENABLED2_FLAGS** structure contains optional flags for querying feature enabled state.

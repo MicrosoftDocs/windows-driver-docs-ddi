@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetFunctionCallingConvention
 ---
 
+# IDebugHostType3::GetFunctionCallingConvention function (dbgmodel.h)
+
 ## -description
 
 The GetFunctionCallingConvention method returns the calling convention of the function. Such is returned as a member of the [CallingConventionKind enumeration](ne-dbgmodel-callingconventionkind.md).

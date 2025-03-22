@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_DISPATCH_GRAPH_DESC_0108
 ---
 
+# D3D12DDI_DISPATCH_GRAPH_DESC_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_DISPATCH_GRAPH_DESC_0108** structure is the input parameter for [**PFND3D12DDI_DISPATCH_GRAPH_0108**](nc-d3d12umddi-pfnd3d12ddi_dispatch_graph_0108.md). It describes the work graph to dispatch.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcRegisterExternalCacheEx
 ---
 
+# CcRegisterExternalCacheEx function (ntifs.h)
+
 ## -description
 
 The **CcRegisterExternalCacheEx** routine registers an external cache with the cache manager.

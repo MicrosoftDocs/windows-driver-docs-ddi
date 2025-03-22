@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_QUERYSTATISTICS_QUERY_SEGMENT structure (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

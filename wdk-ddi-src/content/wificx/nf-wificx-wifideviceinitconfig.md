@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceInitConfig function (wificx.h)
+
 ## -description
 
 The **WifiDeviceInitConfig** function initializes WiFiCx device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.

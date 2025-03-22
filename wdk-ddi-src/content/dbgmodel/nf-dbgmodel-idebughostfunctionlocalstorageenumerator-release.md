@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Release
 ---
 
+# IDebugHostFunctionLocalStorageEnumerator::Release function (dbgmodel.h)
+
 ## -description
 
 Decrements the reference count for an interface on an object. 

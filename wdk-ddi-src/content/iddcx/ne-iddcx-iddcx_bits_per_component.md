@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_BITS_PER_COMPONENT
 ---
 
+# IDDCX_BITS_PER_COMPONENT enumeration (iddcx.h)
+
 ## -description
 
 An **IDDCX_BITS_PER_COMPONENT** enumeration value identifies the supported or requested number of bits per color component for the dithering support of a target.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::ExitProcess function (dbgeng.h)
+
 ## -description
 
 The <b>ExitProcess</b> callback method is called by the engine when an exit-process debugging event occurs in the target.

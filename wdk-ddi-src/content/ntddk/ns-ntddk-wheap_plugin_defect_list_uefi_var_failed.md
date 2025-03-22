@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEAP_PLUGIN_DEFECT_LIST_UEFI_VAR_FAILED
 ---
 
+# WHEAP_PLUGIN_DEFECT_LIST_UEFI_VAR_FAILED structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEAP_PLUGIN_DEFECT_LIST_UEFI_VAR_FAILED** structure.

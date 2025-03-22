@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFLT_DISCONNECT_NOTIFY
 ---
 
+# PFLT_DISCONNECT_NOTIFY function (fltkernel.h)
+
 ## -description
 
 *FltMgr* calls a minifilter's **DisconnectNotifyCallback** callback function to notify the minifilter when a client port is being disconnected.

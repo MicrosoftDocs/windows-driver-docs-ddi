@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# KeQueryNodeActiveProcessorCount function (wdm.h)
+
 ## -description
 
 This routine returns the number of active processors in the given NUMA node across all groups.

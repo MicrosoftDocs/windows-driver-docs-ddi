@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_MEMORY_CORRECTABLE_ERROR_SECTION_VALIDBITS
 ---
 
+# WHEA_MEMORY_CORRECTABLE_ERROR_SECTION_VALIDBITS structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

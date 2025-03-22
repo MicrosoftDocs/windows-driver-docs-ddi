@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_BARRIER_SUBRESOURCE_RANGE_0088
 ---
 
+# D3D12DDI_BARRIER_SUBRESOURCE_RANGE_0088 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_BARRIER_SUBRESOURCE_RANGE_0088** structure specifies the range of subresources being transitioned.

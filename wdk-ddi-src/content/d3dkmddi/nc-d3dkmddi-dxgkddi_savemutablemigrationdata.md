@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_SAVEMUTABLEMIGRATIONDATA
 ---
 
+# DXGKDDI_SAVEMUTABLEMIGRATIONDATA function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiSaveMutableMigrationData** function collects mutable data for a live migration that is about to end.

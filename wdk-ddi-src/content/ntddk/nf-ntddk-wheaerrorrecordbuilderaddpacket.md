@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WheaErrorRecordBuilderAddPacket
 ---
 
+# WheaErrorRecordBuilderAddPacket function (ntddk.h)
+
 ## -description
 
 This routine adds a packet into an error record.

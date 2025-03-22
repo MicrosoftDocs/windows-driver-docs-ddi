@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_SHADER_MIN_PRECISION
 ---
 
+# D3D12DDI_SHADER_MIN_PRECISION enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_SHADER_MIN_PRECISION** enumeration describes the driver's minimum precision support options for shaders.

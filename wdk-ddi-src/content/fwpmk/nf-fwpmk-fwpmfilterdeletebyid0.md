@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterDeleteById0
 ---
 
+# FwpmFilterDeleteById0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterDeleteById0** function removes a filter object from the system.

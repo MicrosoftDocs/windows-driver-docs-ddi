@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EnumerateLocalsDetails
 ---
 
+# IDebugHostFunctionIntrospection2::EnumerateLocalsDetails function (dbgmodel.h)
+
 ## -description
 
 The EnumerateLocalsDetails method enumerates a set of information about all locals and arguments within a function. It doesn't enumerate any locals and arguments of functions inlined within the given function. To enumerate inlined functions, use the [EnumerateLocalsDetailsEx method](nf-dbgmodel-idebughostfunctionintrospection2-enumeratelocalsdetailsex.md) on the IDebugHostFunctionIntrospection2 interface.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_SECURITY_ID_CHECK
 ---
 
+# FSCTL_SECURITY_ID_CHECK ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_SECURITY_ID_CHECK** control code verifies security identifiers (SIDs) against specified access rights in bulk.

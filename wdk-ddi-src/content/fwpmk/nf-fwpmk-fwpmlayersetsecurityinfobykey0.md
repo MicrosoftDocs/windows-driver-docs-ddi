@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmLayerSetSecurityInfoByKey0
 ---
 
+# FwpmLayerSetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmLayerSetSecurityInfoByKey0** function sets specified security information in the security descriptor of a layer object.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# SPB_MULTI_SPI_TRANSFER structure (spb.h)
+
 ## -description
 
 The **SPB_MULTI_SPI_TRANSFER** structure describes a SPI I/O operation which is to be executed using a multi-SPI transfer mode such as Dual or Quad SPI.

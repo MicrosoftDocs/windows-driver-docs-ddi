@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_VIRTUALIZATION_INTERFACE
 ---
 
+# PCI_VIRTUALIZATION_INTERFACE structure (wdm.h)
+
 ## -description
 
 The **PCI_VIRTUALIZATION_INTERFACE** structure enables drivers to manage and configure the PCI Express (PCIe) configuration space for a virtual function (VF). VFs are exposed on the PCI bus by devices that support the single root I/O virtualization (SR-IOV) interface.

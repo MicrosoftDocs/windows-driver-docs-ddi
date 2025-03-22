@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_WAKE_SOURCE_TYPE enumeration (wificxwakesource.h)
+
 ## -description
 
 The **WIFI_WAKE_SOURCE_TYPE** enumeration specifies the type of a wake-on-LAN (WoL) wake-up event for a WiFiCx net adapter.

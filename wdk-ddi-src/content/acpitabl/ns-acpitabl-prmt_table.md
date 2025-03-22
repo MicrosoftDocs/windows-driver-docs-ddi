@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PRMT_TABLE structure (acpitabl.h)
+
 ## -description
 
 Defines the **PRMT_TABLE** structure.

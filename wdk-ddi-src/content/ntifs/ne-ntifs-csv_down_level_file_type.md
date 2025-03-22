@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# CSV_DOWN_LEVEL_FILE_TYPE enumeration (ntifs.h)
+
 ## -description
 
 The **CSV_DOWN_LEVEL_FILE_TYPE** enum identifies the type of the down-level Cluster Shared Volumes file system (CSVFS) file object.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_RECORD_V4
 ---
 
+# USN_RECORD_V4 structure (ntifs.h)
+
 ## -description
 
 The **USN_RECORD_V4** structure contains the information for an update sequence number (USN) change journal version 4.0 record. The version 2.0 record is defined by the [**USN_RECORD_V2**](ns-ntifs-usn_record_v2.md) structure (also called **USN_RECORD** structure). See [USN_RECORD_V4 structure (winioctl.h)](/windows/win32/api/winioctl/ns-winioctl-usn_record_v4) for details.

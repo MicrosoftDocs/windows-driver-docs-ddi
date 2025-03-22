@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KE_PROCESSOR_CHANGE_NOTIFY_STATE
 ---
 
+# KE_PROCESSOR_CHANGE_NOTIFY_STATE enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **KE_PROCESSOR_CHANGE_NOTIFY_STATE** enumeration.

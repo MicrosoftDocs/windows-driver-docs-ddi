@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_TUNER
 ---
 
+# KSEVENT_TUNER enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_TUNER** enumeration (ksmedia.h).

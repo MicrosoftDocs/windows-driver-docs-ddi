@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_LEVELS_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_LEVELS_0095 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12_VIDEO_ENCODER_AV1_LEVELS** enumeration specifies the levels of the AV1 video encoder. The levels are defined according to the AV1 specification. See the specification for details.

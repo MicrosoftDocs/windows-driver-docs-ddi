@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_JACK
 ---
 
+# KSPROPERTY_JACK enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_JACK** enumeration (ksmedia.h).

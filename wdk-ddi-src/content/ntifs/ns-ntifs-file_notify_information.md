@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# FILE_NOTIFY_INFORMATION structure (ntifs.h)
+
 ## -description
 
 **FILE_NOTIFY_INFORMATION** describes the changes to a directory. It's returned in response to an [**IRP_MJ_DIRECTORY_CONTROL**](/windows-hardware/drivers/ifs/irp-mj-directory-control) request with an **IRP_MN_NOTIFY_CHANGE_DIRECTORY** minor function code when [**DIRECTORY_NOTIFY_INFORMATION_CLASS**](../wdm/ne-wdm-_directory_notify_information_class.md) is DirectoryNotifyInformation.

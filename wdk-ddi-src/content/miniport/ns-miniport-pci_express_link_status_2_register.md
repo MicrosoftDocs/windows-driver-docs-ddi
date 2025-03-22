@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_EXPRESS_LINK_STATUS_2_REGISTER
 ---
 
+# PCI_EXPRESS_LINK_STATUS_2_REGISTER structure (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_LINK_STATUS_2_REGISTER** union.

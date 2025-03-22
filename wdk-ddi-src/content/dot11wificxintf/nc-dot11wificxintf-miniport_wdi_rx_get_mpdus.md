@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_RX_GET_MPDUS function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

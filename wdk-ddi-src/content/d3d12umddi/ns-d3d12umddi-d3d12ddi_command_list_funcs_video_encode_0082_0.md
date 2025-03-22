@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0082_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_ENCODE_0082_0** structure contains the command list functions for video encoding, version D3D12DDI_FEATURE_VERSION_VIDEO_0082_0.

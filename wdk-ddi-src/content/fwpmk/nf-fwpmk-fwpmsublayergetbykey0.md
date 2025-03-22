@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSubLayerGetByKey0
 ---
 
+# FwpmSubLayerGetByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSubLayerGetByKey0** function retrieves a sublayer by its key.

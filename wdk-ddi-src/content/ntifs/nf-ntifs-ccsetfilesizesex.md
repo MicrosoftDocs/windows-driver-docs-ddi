@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcSetFileSizesEx
 ---
 
+# CcSetFileSizesEx function (ntifs.h)
+
 ## -description
 
 The **CcSetFileSizesEx** routine updates the cache maps and section object for a cached file whose size has changed.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_SET_GENERIC_PIPELINE_DESC_0108
 ---
 
+# D3D12DDI_SET_GENERIC_PIPELINE_DESC_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_SET_GENERIC_PIPELINE_DESC_0108** structure describes a generic pipeline to set when the **Type** field of a [**D3D12DDI_SET_PROGRAM_DESC_0108**](ns-d3d12umddi-d3d12ddi_set_program_desc_0108.md) structure is **D3D12DDI_PROGRAM_TYPE_GENERIC_PIPELINE_0108**.

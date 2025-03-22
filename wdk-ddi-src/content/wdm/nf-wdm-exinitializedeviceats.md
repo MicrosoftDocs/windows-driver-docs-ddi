@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExInitializeDeviceAts
 ---
 
+# ExInitializeDeviceAts function (wdm.h)
+
 ## -description
 
 Describes the **ExInitializeDeviceAts** function.

@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# NET_DEVICE_RESET_CAPABILITIES structure (netadaptercx.h)
+
 ## -description
 
 The **NET_DEVICE_RESET_CAPABILITIES** structure describes a client driver's capabilities for collecting diagnostics during the device reset and recovery process.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DestroyFunctionAlias
 ---
 
+# IDebugHostExtensibility2::DestroyFunctionAlias function (dbgmodel.h)
+
 ## -description
 
 The DestroyFunctionAlias method undoes a prior call to the CreateFunctionAlias method. The function will no longer be available under the quick alias name.

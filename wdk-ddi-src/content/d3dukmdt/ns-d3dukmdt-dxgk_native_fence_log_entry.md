@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_NATIVE_FENCE_LOG_ENTRY
 ---
 
+# DXGK_NATIVE_FENCE_LOG_ENTRY structure (d3dukmdt.h)
+
 ## -description
 
 The **DXGK_NATIVE_FENCE_LOG_ENTRY** structure contains a native fence log entry.

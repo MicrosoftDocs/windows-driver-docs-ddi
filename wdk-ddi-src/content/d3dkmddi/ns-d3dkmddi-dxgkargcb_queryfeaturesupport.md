@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARGCB_QUERYFEATURESUPPORT
 ---
 
+# DXGKARGCB_QUERYFEATURESUPPORT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_QUERYFEATURESUPPORT** structure is the parameter passed to the [**DXGKCB_QUERYFEATURESUPPORT**](nc-d3dkmddi-dxgkcb_queryfeaturesupport.md) callback function to query for feature support.

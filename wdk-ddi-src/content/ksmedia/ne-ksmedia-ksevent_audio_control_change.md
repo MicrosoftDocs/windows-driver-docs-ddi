@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_AUDIO_CONTROL_CHANGE
 ---
 
+# KSEVENT_AUDIO_CONTROL_CHANGE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_AUDIO_CONTROL_CHANGE** enumeration (ksmedia.h).

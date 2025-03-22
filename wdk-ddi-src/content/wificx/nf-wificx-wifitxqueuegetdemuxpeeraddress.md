@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiTxQueueGetDemuxPeerAddress function (wificx.h)
+
 ## -description
 
 The **WifiTxQueueGetDemuxPeerAddress** function gets the peer address that the WiFiCx framework will use for this queue.

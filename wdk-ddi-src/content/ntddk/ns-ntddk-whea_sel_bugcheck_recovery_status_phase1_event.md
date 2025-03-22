@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_SEL_BUGCHECK_RECOVERY_STATUS_PHASE1_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

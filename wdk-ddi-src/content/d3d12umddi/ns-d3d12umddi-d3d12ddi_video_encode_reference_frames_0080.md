@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODE_REFERENCE_FRAMES_0080** structure encapsulates the reconstructed reference images for the encoding operation.

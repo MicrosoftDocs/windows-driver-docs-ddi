@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFN_IDDCXMONITORUPDATEMODES2
 ---
 
+# PFN_IDDCXMONITORUPDATEMODES2 function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXMONITORUPDATEMODES2** is a pointer to an OS callback function that updates the mode list for a monitor.

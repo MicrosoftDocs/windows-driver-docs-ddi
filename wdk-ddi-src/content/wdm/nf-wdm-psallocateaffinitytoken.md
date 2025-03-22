@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PsAllocateAffinityToken function (wdm.h)
+
 ## -description
 
 The **PsAllocateAffinityToken** function allocates a thread affinity token. After use, the token must be freed by calling [**PsFreeAffinityToken**](nf-wdm-psfreeaffinitytoken.md).

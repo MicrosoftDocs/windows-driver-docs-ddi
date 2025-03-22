@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextDestroyEnumHandle0
 ---
 
+# IPsecSaContextDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextDestroyEnumHandle0** function frees a handle returned by **[IPsecSaContextCreateEnumHandle0](nf-fwpmk-ipsecsacontextcreateenumhandle0.md)**.

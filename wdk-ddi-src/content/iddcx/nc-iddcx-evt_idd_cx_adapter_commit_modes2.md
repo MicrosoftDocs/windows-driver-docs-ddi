@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EVT_IDD_CX_ADAPTER_COMMIT_MODES2
 ---
 
+# EVT_IDD_CX_ADAPTER_COMMIT_MODES2 function (iddcx.h)
+
 ## -description
 
 The OS calls **EVT_IDD_CX_ADAPTER_COMMIT_MODES2** to inform the driver of a mode change for monitors on the adapter.

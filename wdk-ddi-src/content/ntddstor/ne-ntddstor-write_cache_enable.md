@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _WRITE_CACHE_ENABLE
 ---
 
+# WRITE_CACHE_ENABLE enumeration (ntddstor.h)
+
 ## -description
 
 The WRITE\_CACHE\_ENABLE enumeration indicates whether the write cache is enabled or disabled.

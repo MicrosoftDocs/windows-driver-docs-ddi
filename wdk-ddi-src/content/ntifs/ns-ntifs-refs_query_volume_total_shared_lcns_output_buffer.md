@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _REFS_QUERY_VOLUME_TOTAL_SHARED_LCNS_OUTPUT_BUFFER
 ---
 
+# REFS_QUERY_VOLUME_TOTAL_SHARED_LCNS_OUTPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_BAND_ID enumeration (dot11wificxtypes.h)
+
 ## -description
 
 The **WDI_BAND_ID** enumeration is a UINT32 value that defines a band ID.

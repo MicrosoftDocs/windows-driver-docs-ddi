@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_JOURNAL_DATA_V0
 ---
 
+# USN_JOURNAL_DATA_V0 structure (ntifs.h)
+
 ## -description
 
 The **USN_JOURNAL_DATA_V0** structure represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the [**FSCTL_QUERY_USN_JOURNAL**](ni-ntifs-fsctl_query_usn_journal.md) control code. Prior to Windows 8 and Windows Server 2012 this structure was named **USN_JOURNAL_DATA**

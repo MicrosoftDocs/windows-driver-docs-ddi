@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_POWER_OFFLOAD_LIST_INIT function (wificxpoweroffloadlist.h)
+
 ## -description
 
 The **WIFI_POWER_OFFLOAD_LIST_INIT** function initializes a [**WIFI_POWER_OFFLOAD_LIST**](ns-wificxpoweroffloadlist-wifi_power_offload_list.md) structure. 

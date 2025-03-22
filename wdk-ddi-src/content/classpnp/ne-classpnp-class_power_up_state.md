@@ -35,6 +35,8 @@ helpviewer_keywords:
  - CLASS_POWER_UP_STATE
 ---
 
+# CLASS_POWER_UP_STATE enumeration (classpnp.h)
+
 ## -description
 
 This enumeration is for internal use only.

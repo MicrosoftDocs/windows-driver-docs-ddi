@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_DEFAULT_HDR_METADATA_TYPE
 ---
 
+# IDDCX_DEFAULT_HDR_METADATA_TYPE enumeration (iddcx.h)
+
 ## -description
 
 The **IDDCX_DEFAULT_HDR_METADATA_TYPE** enumeration identifies the type of the default metadata.

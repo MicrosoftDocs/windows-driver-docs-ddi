@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePoolQuotaZero function (wdm.h)
+
 ## -description
 
 > [!CAUTION]

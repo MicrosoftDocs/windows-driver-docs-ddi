@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_SEA_SECTION
 ---
 
+# WHEA_SEA_SECTION structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_SEA_SECTION** structure.

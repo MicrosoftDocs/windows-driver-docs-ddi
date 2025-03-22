@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_SEGMENTDESCRIPTOR2
 ---
 
+# DXGK_SEGMENTDESCRIPTOR2 structure (d3dkmddi.h)
+
 ## -description
 
 ## -struct-fields

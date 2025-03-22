@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_HIDSPICX_NOTIFY_POWERDOWN function (hidspicx.h)
+
 ## -description
 
 The **EvtHidspicxNotifyPowerdown** callback function is implemented by the client driver to receive notifications when the device is about to transition to a low-power state.

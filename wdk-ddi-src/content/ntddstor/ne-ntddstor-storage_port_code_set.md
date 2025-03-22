@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _STORAGE_PORT_CODE_SET
 ---
 
+# STORAGE_PORT_CODE_SET enumeration (ntddstor.h)
+
 ## -description
 
 Reserved for system use.

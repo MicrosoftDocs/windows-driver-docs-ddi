@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# FS_BPIO_RESULTS structure (ntifs.h)
+
 ## -description
 
 The **FS_BPIO_RESULTS** structure defines BypassIO operation-specific outputs for [**FS_BPIO_OP_ENABLE** and **FS_BPIO_OP_QUERY** operations](ne-ntifs-fs_bpio_operations.md) when a driver is failing the operation.

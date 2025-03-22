@@ -39,6 +39,8 @@ helpviewer_keywords:
  - DvbParentalRatingDescriptor
 ---
 
+# DvbParentalRatingDescriptor structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **DvbParentalRatingDescriptor** structure.

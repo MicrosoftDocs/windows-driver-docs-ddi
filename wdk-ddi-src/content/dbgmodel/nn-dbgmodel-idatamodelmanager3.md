@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDataModelManager3
 ---
 
+# IDataModelManager3 interface (dbgmodel.h)
+
 ## -description 
 
 The third version of the interface for the data model manager. This is the interface by which new objects are created, intrinsic values are boxed and unboxed, and models are registered for types.

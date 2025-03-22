@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_SAE_STATUS enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

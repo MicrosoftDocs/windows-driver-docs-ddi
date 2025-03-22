@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetValidRange
 ---
 
+# IDebugHostFunctionLocalStorage::GetValidRange function (dbgmodel.h)
+
 ## -description
 
 The GetValidRange method retrieves a set of module-relative addresses for which this storage is valid and whether it is guaranteed within said range.

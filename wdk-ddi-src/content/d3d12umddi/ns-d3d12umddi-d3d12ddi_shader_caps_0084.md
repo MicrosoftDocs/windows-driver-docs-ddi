@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_SHADER_CAPS_0084
 ---
 
+# D3D12DDI_SHADER_CAPS_0084 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_SHADER_CAPS_0084** structure contains display device shader capabilities that the driver supports.

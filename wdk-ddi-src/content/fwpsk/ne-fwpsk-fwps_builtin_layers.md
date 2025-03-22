@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FWPS_BUILTIN_LAYERS_
 ---
 
+# FWPS_BUILTIN_LAYERS_ enumeration (fwpsk.h)
+
 ## -description
 
 Defines constants that specify built-in run-time filtering layer identifiers. Each is represented by a locally unique identifier (LUID), which is 64 bits in size.

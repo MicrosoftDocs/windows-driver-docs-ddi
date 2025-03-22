@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_DIRTY_BIT_TRACKING_SEGMENT_CAPS
 ---
 
+# DXGK_DIRTY_BIT_TRACKING_SEGMENT_CAPS structure (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver (KMD) returns its dirty bit tracking capabilities for a specified segment in **DXGK_DIRTY_BIT_TRACKING_SEGMENT_CAPS** when its [**DxgkDdiQueryAdapterInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) function is called with the [**DXGKQAITYPE_DIRTYBITTRACKINGSEGMENTCAPS**](ne-d3dkmddi-_dxgk_queryadapterinfotype.md) query adapter info type.

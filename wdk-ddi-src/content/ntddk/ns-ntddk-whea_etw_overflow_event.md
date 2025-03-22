@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_ETW_OVERFLOW_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

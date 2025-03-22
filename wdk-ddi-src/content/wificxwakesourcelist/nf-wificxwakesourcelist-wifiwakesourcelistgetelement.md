@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiWakeSourceListGetElement function (wificxwakesourcelist.h)
+
 ## -description
 
 The **WifiWakeSourceListGetElement** function gets a wake source from the list of wake sources for a WiFiCx net adapter.

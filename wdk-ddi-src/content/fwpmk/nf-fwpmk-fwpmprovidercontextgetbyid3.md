@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderContextGetById3
 ---
 
+# FwpmProviderContextGetById3 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderContextGetById3** function retrieves a provider context.

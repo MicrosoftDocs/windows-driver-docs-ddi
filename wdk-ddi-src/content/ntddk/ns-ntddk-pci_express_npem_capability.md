@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PCI_EXPRESS_NPEM_CAPABILITY structure (ntddk.h)
+
 ## -description
 
 Defined in the PCI Express Base Specification Revision 4.0.  Reserved for system use.

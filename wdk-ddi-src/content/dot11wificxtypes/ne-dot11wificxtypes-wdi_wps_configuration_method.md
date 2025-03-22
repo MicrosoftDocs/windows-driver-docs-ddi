@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_WPS_CONFIGURATION_METHOD enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

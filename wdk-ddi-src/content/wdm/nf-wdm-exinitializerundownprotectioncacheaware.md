@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExInitializeRundownProtectionCacheAware
 ---
 
+# ExInitializeRundownProtectionCacheAware function (wdm.h)
+
 ## -description
 
 This routine initializes a cache-aware rundown protection object.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_PAGESIZE
 ---
 
+# DXGK_PAGESIZE enumeration (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_PAGESIZE** enumeration defines a compressed 16-bit representation of a page size. It represents powers of two, ranging from 4 KB to 128 MB.

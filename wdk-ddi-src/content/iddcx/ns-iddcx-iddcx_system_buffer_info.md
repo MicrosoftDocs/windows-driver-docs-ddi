@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# IDDCX_SYSTEM_BUFFER_INFO structure (iddcx.h)
+
 ## -description
 
 **IDDCX_SYSTEM_BUFFER_INFO** holds the resulting buffer-specific information after a buffer release and acquire operation.

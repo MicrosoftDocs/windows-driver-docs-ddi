@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UCX_ROOTHUB_CONFIG_INIT_WITH_CONTROL_URB_HANDLER
 ---
 
+# UCX_ROOTHUB_CONFIG_INIT_WITH_CONTROL_URB_HANDLER function (ucxroothub.h)
+
 ## -description
 
 Initializes a [**UCX\_ROOTHUB\_CONFIG**](ns-ucxroothub-_ucx_roothub_config.md) with pointers to event callback functions implemented by the client driver.

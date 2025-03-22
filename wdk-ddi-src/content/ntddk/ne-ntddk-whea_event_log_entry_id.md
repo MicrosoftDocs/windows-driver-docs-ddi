@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WHEA_EVENT_LOG_ENTRY_ID
 ---
 
+# WHEA_EVENT_LOG_ENTRY_ID enumeration (ntddk.h)
+
 ## -description
 
 The **WHEA_EVENT_LOG_ENTRY_ID** enumeration is reserved for system use. Do not use.

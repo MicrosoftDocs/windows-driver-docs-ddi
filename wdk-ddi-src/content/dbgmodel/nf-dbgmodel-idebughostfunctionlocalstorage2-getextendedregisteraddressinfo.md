@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetExtendedRegisterAddressInfo
 ---
 
+# IDebugHostFunctionLocalStorage2::GetExtendedRegisterAddressInfo function (dbgmodel.h)
+
 ## -description
 
 The GetExtendedRegisterAddressInfo method retrieves the architecture-specific register address information in which local data is stored. The information includes the register ID, the offset, whether the access is indirect, and the indirect offset if applicable.

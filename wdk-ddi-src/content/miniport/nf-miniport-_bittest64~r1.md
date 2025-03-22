@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _BitTest64
 ---
 
+# _BitTest64 function (miniport.h)
+
 ## -description
 
 This topic describes the **_BitTest64** function.

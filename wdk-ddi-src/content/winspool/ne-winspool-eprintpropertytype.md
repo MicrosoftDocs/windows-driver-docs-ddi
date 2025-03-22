@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPrintPropertyType
 ---
 
+# EPrintPropertyType enumeration (winspool.h)
+
 ## -description
 
 This topic describes the **EPrintPropertyType** enumeration.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_MEMORY_THROTTLE_SUMMARY_FAILED_EVENT
 ---
 
+# WHEA_MEMORY_THROTTLE_SUMMARY_FAILED_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

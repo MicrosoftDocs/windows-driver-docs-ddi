@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_HRTF3D
 ---
 
+# KSPROPERTY_HRTF3D enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_HRTF3D** enumeration (ksmedia.h).

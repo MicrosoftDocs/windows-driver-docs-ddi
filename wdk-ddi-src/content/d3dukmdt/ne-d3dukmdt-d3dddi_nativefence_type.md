@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _D3DDDI_NATIVEFENCE_TYPE
 ---
 
+# D3DDDI_NATIVEFENCE_TYPE enumeration (d3dukmdt.h)
+
 ## -description
 
 A **D3DDDI_NATIVEFENCE_TYPE** enumeration value specifies the type of native fence that the OS.

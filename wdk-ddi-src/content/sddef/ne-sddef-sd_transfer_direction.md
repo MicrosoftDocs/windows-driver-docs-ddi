@@ -34,6 +34,8 @@ helpviewer_keywords:
  - SD_TRANSFER_DIRECTION
 ---
 
+# SD_TRANSFER_DIRECTION enumeration (sddef.h)
+
 ## -description
 
 A **SD_TRANSFER_DIRECTION** value indicates the data transfer direction of a Secure Digital (SD) card command.

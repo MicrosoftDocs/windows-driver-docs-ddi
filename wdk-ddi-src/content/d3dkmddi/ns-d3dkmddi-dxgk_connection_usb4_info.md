@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _DXGK_CONNECTION_USB4_INFO
 ---
 
+# DXGK_CONNECTION_USB4_INFO structure (d3dkmddi.h)
+
 ## -description
 
 A driver that supports USB4 returns information in a **DXGK_CONNECTION_USB4_INFO** structure when a new monitor connected over USB4 arrives.

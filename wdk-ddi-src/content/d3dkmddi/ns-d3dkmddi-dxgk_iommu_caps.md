@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_IOMMU_CAPS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_IOMMU_CAPS** structure is used to indicate whether a driver supports IOMMU linear remapping.

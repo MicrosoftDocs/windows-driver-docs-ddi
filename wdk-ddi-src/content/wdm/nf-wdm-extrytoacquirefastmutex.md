@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExTryToAcquireFastMutex
 ---
 
+# ExTryToAcquireFastMutex function (wdm.h)
+
 ## -description
 
 The **ExTryToAcquireFastMutex** routine acquires the given fast mutex, if possible, with APCs to the current thread disabled.

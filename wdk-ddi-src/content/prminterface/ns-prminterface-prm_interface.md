@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _PRM_INTERFACE
 ---
 
+# PRM_INTERFACE structure (prminterface.h)
+
 ## -description
 
 The PRM_INTERFACE structure provides a set of pointers to functions that control the operation of a PRM interface.

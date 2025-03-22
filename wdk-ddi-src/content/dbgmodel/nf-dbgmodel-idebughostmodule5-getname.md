@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetName
 ---
 
+# IDebugHostModule5::GetName function (dbgmodel.h)
+
 ## -description
 
 Returns the name of the symbol if the symbol has a name.  If the symbol does not have a name, an error is returned.

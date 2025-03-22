@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_QUERYFEATUREINTERFACE
 ---
 
+# DXGKDDI_QUERYFEATUREINTERFACE function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiQueryFeatureInterface** function is called to query its interface for a feature.

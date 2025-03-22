@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetSupportedVersions
 ---
 
+# IPrintTicketProvider2::GetSupportedVersions function (prdrvcom.h)
+
 ## -description
 
 The **IPrintTicketProvider2::GetSupportedVersions** method retrieves major version numbers of the print schemas that are supported by the plug-in provider.

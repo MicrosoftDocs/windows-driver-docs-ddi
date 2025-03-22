@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_CONNECTION_MONITOR_CONNECT_FLAGS
 ---
 
+# DXGK_CONNECTION_MONITOR_CONNECT_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_CONNECTION_MONITOR_CONNECT_FLAGS** structure specifies flags for the connected monitor.

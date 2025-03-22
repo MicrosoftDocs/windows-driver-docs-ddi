@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Release
 ---
 
+# IDebugHostContext2::Release function (dbgmodel.h)
+
 ## -description
 
 

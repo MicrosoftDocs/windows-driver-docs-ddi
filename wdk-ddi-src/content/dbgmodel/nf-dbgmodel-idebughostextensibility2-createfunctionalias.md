@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateFunctionAlias
 ---
 
+# IDebugHostExtensibility2::CreateFunctionAlias function (dbgmodel.h)
+
 ## -description
 
 The CreateFunctionAlias method creates a "function alias", a "quick alias" for a method implemented in some extension. The meaning of this alias is host specific. It may extend the host's expression evaluator with the function or it may do something entirely different. 

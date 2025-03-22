@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _MUP_PROVIDER_INFORMATION
 ---
 
+# MUP_PROVIDER_INFORMATION structure (ntifs.h)
+
 ## -description
 
 **MUP_PROVIDER_INFORMATION** is reserved for system use.

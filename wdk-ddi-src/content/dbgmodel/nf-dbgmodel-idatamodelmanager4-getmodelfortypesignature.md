@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetModelForTypeSignature
 ---
 
+# IDataModelManager4::GetModelForTypeSignature function (dbgmodel.h)
+
 ## -description
 
 The GetModelForTypeSignature method returns the data model that was registered against a particular type signature via a prior call to the RegisterModelForTypeSignature method. The data model returned from this method is considered the canonical visualizer for any type which matches the passed type signature. As a canonical visualizer, that data model takes over the display of the type. Display engines will, by default, hide native/language constructs of the object in favor of the view of the object presented by the data model.

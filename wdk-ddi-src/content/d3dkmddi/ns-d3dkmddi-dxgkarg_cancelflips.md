@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_CANCELFLIPS
 ---
 
+# DXGKARG_CANCELFLIPS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CANCELFLIPS** structure contains parameters for the driver's [**DXGKDDI_CANCELFLIPS**](nc-d3dkmddi-dxgkddi_cancelflips.md) callback function.

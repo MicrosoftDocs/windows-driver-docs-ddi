@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTDestroyDoorbell
 ---
 
+# D3DKMTDestroyDoorbell function (d3dkmthk.h)
+
 ## -description
 
 **D3DKMTDestroyDoorbell** destroys a doorbell.

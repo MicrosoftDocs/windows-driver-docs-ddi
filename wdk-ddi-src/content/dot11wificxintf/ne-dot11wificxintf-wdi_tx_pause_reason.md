@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TX_PAUSE_REASON enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

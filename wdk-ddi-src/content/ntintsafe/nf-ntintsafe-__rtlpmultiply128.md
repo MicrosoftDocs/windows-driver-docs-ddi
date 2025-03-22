@@ -42,6 +42,8 @@ helpviewer_keywords:
  - __RtlpMultiply128
 ---
 
+# __RtlpMultiply128 function (ntintsafe.h)
+
 ## -description
 
 Reserved for internal use.

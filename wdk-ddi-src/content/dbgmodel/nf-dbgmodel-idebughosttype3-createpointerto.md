@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreatePointerTo
 ---
 
+# IDebugHostType3::CreatePointerTo function (dbgmodel.h)
+
 ## -description
 
 For any given type, this returns a new [IDebugHostType3](nn-dbgmodel-idebughosttype3.md) which is a pointer to this type.

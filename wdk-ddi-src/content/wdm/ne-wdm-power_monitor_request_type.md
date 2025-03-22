@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _POWER_MONITOR_REQUEST_TYPE
 ---
 
+# POWER_MONITOR_REQUEST_TYPE enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **POWER_MONITOR_REQUEST_TYPE** enumeration.

@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_PF_USAGE_TAG
 ---
 
+# NDIS_KDNET_PF_USAGE_TAG enumeration (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_PF_USAGE_TAG** enumeration defines the PF usage. It is used to indicate the entity that owns the PF.

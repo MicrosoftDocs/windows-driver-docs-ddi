@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetBaseLocation
 ---
 
+# IDebugHostModule3::GetBaseLocation function (dbgmodel.h)
+
 ## -description
 
 The GetBaseLocation method returns the base load address of the module as a location structure. The returned location structure for a module will typically refer to a virtual address.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CANCELFLIPS
 ---
 
+# DXGKDDI_CANCELFLIPS function (d3dkmddi.h)
+
 ## -description
 
 In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the OS calls a display miniport driver's **DXGKDDI_CANCELFLIPS** function to synchronously cancel previously queued flips.

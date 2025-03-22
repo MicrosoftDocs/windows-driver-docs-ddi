@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NtOpenProcessToken function (ntifs.h)
+
 ## -description
 
 The **NtOpenProcessToken** routine opens the access token associated with a process, and returns a handle that can be used to access that token.

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostFunctionLocalStorage
 ---
 
+# IDebugHostFunctionLocalStorage interface (dbgmodel.h)
+
 ## -description
 
 Optional introspection interfaces that defines where a local is stored.

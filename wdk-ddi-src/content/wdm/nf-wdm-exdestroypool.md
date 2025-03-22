@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExDestroyPool function (wdm.h)
+
 ## -description
 
 Defines the **ExDestroyPool** function.

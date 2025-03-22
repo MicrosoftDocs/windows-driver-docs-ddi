@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3DWDDM2_1DDI_VIDEO_INPUT
 ---
 
+# D3DWDDM2_1DDI_VIDEO_INPUT structure (d3d10umddi.h)
+
 ## -description
 
 **D3DWDDM2_1DDI_VIDEO_INPUT** contains input information used by the [**PFND3D10DDI_RETRIEVESUBOBJECT**](nc-d3d10umddi-pfnd3d10ddi_retrievesubobject.md) DDI when querying the driver's WDDM 2.1 video functions.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_METADATA2
 ---
 
+# IDDCX_METADATA2 structure (iddcx.h)
+
 ## -description
 
 **IDDCX_METADATA2** provides information about the current provided surface and what is displayed on it.

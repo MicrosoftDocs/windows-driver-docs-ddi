@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterReportWakeReason function (wificx.h)
+
 ## -description
 
 The **WifiAdapterReportWakeReason** function reports to the framework the reason that a Wi-Fi device has generated a wake-up event.

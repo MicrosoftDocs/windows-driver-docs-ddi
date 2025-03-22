@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STORPORT_LIVEDUMP_DATA_TYPE enumeration (storport.h)
+
 ## -description
 
 **STORPORT_LIVEDUMP_DATA_TYPE** identifies the data type of the payload to be included in the live dump.

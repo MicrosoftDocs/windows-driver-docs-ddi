@@ -35,6 +35,8 @@ helpviewer_keywords:
  - LOCKSTATE
 ---
 
+# LOCKSTATE enumeration (ehstorbandmgmt.h)
+
 ## -description
 
 Indicates the current lock state of the device.

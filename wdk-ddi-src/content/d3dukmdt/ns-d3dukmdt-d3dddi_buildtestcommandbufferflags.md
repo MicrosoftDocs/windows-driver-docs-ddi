@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_BUILDTESTCOMMANDBUFFERFLAGS
 ---
 
+# D3DDDI_BUILDTESTCOMMANDBUFFERFLAGS structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_BUILDTESTCOMMANDBUFFERFLAGS** structure specifies flags for [**DXGKDDI_BUILDTESTCOMMANDBUFFER**](../d3dkmddi/nc-d3dkmddi-dxgkddi_buildtestcommandbuffer.md) to use when building a command buffer for kernel-mode testing.

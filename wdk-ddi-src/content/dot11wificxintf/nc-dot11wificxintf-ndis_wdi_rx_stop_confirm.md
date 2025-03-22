@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_RX_STOP_CONFIRM function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

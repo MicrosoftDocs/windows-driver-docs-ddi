@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetTAGIndex
 ---
 
+# IDebugFailureAnalysis3::GetTAGIndex function (extsfns.h)
+
 ## -description
 
 ## -parameters

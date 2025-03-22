@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _WHEA_SIGNAL_HANDLER_OVERRIDE_CALLBACK
 ---
 
+# _WHEA_SIGNAL_HANDLER_OVERRIDE_CALLBACK function (ntddk.h)
+
 ## -description
 
 This topic describes the **_WHEA_SIGNAL_HANDLER_OVERRIDE_CALLBACK** callback function.

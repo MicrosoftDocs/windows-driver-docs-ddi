@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_IN_RELEASEANDACQUIREBUFFER2
 ---
 
+# IDARG_IN_RELEASEANDACQUIREBUFFER2 structure (iddcx.h)
+
 ## -description
 
 The **IDARG_IN_RELEASEANDACQUIREBUFFER2** structure contains input arguments for the [**IddCxSwapChainReleaseAndAcquireBuffer2**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer2.md) function.

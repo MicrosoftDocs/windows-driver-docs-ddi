@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostFunctionIntrospection
 ---
 
+# IDebugHostFunctionIntrospection interface (dbgmodel.h)
+
 ## -description
 
 The **IDebugHostFunctionIntrospection** interface provides detailed information about a function. This is an optional host interface that the client can implement if they want to get such function details.  

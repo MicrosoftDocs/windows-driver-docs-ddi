@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::Exception function (dbgeng.h)
+
 ## -description
 
 The Exception callback method is called by the engine when an exception debugging event occurs in the target.

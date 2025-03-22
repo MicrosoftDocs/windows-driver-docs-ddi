@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmTransactionBegin0
 ---
 
+# FwpmTransactionBegin0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmTransactionBegin0** function begins an explicit transaction within the current session.

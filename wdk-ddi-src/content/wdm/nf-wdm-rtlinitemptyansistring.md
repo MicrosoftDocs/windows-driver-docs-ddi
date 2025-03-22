@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlInitEmptyAnsiString function (wdm.h)
+
 ## -description
 
 The **RtlInitEmptyAnsiString** macro initializes an empty counted ANSI string.

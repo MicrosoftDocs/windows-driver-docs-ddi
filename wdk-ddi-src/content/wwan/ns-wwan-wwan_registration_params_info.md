@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_REGISTRATION_PARAMS_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_REGISTRATION_PARAMS_INFO** structure represents parameters that an MB device uses during 5G registration requests. A host typically sends an [OID_WWAN_REGISTER_PARAMS](/windows-hardware/drivers/network/oid-wwan-register-params) set request with a **WWAN_REGISTRATION_PARAMS_INFO** structure to configure a device with the desired registration parameters.

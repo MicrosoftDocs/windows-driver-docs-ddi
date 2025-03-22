@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SECURE_BUFFER_INFO
 ---
 
+# SECURE_BUFFER_INFO structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **SECURE_BUFFER_INFO** structure (ksmedia.h).

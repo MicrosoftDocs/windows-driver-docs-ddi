@@ -34,6 +34,8 @@ helpviewer_keywords:
  - HUMAN_PRESENCE_DETECTION_TYPE_COUNT
 ---
 
+# HUMAN_PRESENCE_DETECTION_TYPE_COUNT enumeration (sensorsdef.h)
+
 ## -description
 
 The **HUMAN_PRESENCE_DETECTION_TYPE_COUNT** enumeration represents the number of human presence detection types in the [HUMAN_PRESENCE_DETECTION_TYPE](ne-sensorsdef-human_presence_detection_type.md) enum.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_MESSAGE_HEADER structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

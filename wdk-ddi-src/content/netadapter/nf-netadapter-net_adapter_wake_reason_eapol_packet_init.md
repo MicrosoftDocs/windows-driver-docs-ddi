@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT function (netadapter.h)
+
 ## -description
 
 The client driver calls the  **NET_ADAPTER_WAKE_REASON_EAPOL_PACKET_INIT** function to initialize a [**NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES**](ns-netadapter-net_adapter_wake_eapol_packet_capabilities.md) structure when reporting that an EAP over LAN (EAPOL) packet caused a wake-up event.

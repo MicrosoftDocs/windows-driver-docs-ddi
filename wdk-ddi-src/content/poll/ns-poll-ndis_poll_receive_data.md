@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_POLL_RECEIVE_DATA structure (poll.h)
+
 ## -description
 
 Miniport drivers use the **NDIS_POLL_RECEIVE_DATA** structure to perform receive indications when using a Poll object. 

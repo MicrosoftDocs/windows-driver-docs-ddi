@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXGKDDI_FEATURE_INTERFACE
 ---
 
+# DXGKDDI_FEATURE_INTERFACE structure (dispmprt.h)
+
 ## -description
 
 The **DXGKDDI_FEATURE_INTERFACE** structure contains the display kernel-mode miniport driver's (KMD's) interface that the port driver can call to query for KMD's feature support.

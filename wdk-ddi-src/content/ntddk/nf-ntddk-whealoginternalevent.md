@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaLogInternalEvent function (ntddk.h)
+
 ## -description
 
 Reserved for system use.

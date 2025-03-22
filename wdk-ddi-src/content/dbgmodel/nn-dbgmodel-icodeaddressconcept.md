@@ -36,6 +36,8 @@ helpviewer_keywords:
  - ICodeAddressConcept
 ---
 
+# ICodeAddressConcept interface (dbgmodel.h)
+
 ## -description
 
 The ICodeAddressConcept allows the  the use of a code address model that is code addressable.

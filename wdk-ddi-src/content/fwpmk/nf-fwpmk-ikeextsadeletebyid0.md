@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaDeleteById0
 ---
 
+# IkeextSaDeleteById0 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaDeleteById0** function removes a security association (SA) from the database.

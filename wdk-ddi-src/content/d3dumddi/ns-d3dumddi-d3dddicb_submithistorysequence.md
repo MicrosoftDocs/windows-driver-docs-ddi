@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DDDICB_SUBMITHISTORYSEQUENCE structure (d3dumddi.h)
+
 ## -description
 
 ## -struct-fields

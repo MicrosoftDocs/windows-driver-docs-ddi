@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_ATR_INFO
 ---
 
+# WWAN_ATR_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_ATR_INFO** structure represents a SIM card's Answer to Reset (ATR) information.

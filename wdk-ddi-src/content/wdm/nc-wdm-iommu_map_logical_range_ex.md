@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_MAP_LOGICAL_RANGE_EX function (wdm.h)
+
 ## -description
 
 Maps physical address space into the logical address space of an **IOMMU_DMA_DOMAIN**.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_PCIE_REMOVE_EVENT
 ---
 
+# WHEA_THROTTLE_PCIE_REMOVE_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

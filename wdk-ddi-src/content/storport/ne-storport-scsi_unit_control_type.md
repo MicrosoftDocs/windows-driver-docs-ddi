@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# SCSI_UNIT_CONTROL_TYPE enumeration (storport.h)
+
 ## -description
 
 The **SCSI_UNIT_CONTROL_TYPE** enumeration contains unit control operations, where each control type initiates an action on a unit by the miniport driver. Storport specifies the control type when it calls a miniport's [**HwStorUnitControl**](nc-storport-hw_unit_control.md) routine.

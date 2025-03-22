@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WIFI_PHY_CAPABILITIES_INIT
 ---
 
+# WIFI_PHY_CAPABILITIES_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_PHY_CAPABILITIES_INIT** function initializes a [**WIFI_PHY_CAPABILITIES**](ns-wificx-wifi_phy_capabilities.md) structure.

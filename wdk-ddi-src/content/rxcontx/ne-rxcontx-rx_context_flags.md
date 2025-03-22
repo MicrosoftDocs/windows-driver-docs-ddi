@@ -35,6 +35,8 @@ helpviewer_keywords:
  - RX_CONTEXT_FLAGS
 ---
 
+# RX_CONTEXT_FLAGS enumeration (rxcontx.h)
+
 ## -description
 
 The **RX_CONTEXT_FLAGS** enumeration specifies flags set by RDBSS during context creation.

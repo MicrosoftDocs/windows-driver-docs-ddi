@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortGetCurrentIrql function (storport.h)
+
 ## -description
 
 **StorPortGetCurrentIrql** retrieves the current interrupt request level (IRQL).

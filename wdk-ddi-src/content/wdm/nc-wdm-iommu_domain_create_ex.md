@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DOMAIN_CREATE_EX function (wdm.h)
+
 ## -description
 
 Creates a new DMA device domain based on the provided domain type.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FsRtlCheckFileSystemFilterCallbacksRegistered
 ---
 
+# FsRtlCheckFileSystemFilterCallbacksRegistered function (ntifs.h)
+
 ## -description
 
 The **FsRtlCheckFileSystemFilterCallbacksRegistered** routine checks whether the driver object has already registered file system filter callbacks under its driver extension field.

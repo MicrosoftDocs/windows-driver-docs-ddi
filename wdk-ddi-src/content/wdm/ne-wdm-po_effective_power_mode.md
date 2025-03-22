@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _PO_EFFECTIVE_POWER_MODE
 ---
 
+# PO_EFFECTIVE_POWER_MODE enumeration (wdm.h)
+
 ## -description
 
 The **PO_EFFECTIVE_POWER_MODE** enumeration constants indicates the effective power mode the system is running.

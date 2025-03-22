@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_GET_RETRIEVAL_POINTERS
 ---
 
+# FSCTL_GET_RETRIEVAL_POINTERS ioctl (ntifs.h)
+
 ## -description
 
 Given a file handle, the **FSCTL_GET_RETRIEVAL_POINTERS** control code retrieves a data structure that describes the allocation and location on disk of a specified file; or, given a volume handle, it retrieves the locations of bad clusters on the volume.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HidSpiCxDeviceInitConfig function (hidspicx.h)
+
 ## -description
 
 The client driver must call **HidSpiCxDeviceInitConfig** in its [EVT_WDF_DRIVER_DEVICE_ADD](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) callback, before calling [**WdfDeviceCreate**](../wdfdevice/nf-wdfdevice-wdfdevicecreate.md).

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDK_FN_ACCEPT_EX function (ndkpi.h)
+
 ## -description
 
 The *NdkAcceptEx* (*NDK_FN_ACCEPT_EX*) function accepts an incoming connection request over a listener object.

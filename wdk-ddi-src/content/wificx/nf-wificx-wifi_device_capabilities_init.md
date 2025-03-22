@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WIFI_DEVICE_CAPABILITIES_INIT
 ---
 
+# WIFI_DEVICE_CAPABILITIES_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_DEVICE_CAPABILITIES_INIT** function initializes a [**WIFI_DEVICE_CAPABILITIES**](ns-wificx-wifi_device_capabilities.md) structure.

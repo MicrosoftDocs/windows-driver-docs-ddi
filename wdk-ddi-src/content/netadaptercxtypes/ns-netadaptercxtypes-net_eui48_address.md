@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_EUI48_ADDRESS structure (netadaptercxtypes.h)
+
 ## -description
 
 The **NET_EUI48_ADDRESS** union specifies an EUI-48 address.

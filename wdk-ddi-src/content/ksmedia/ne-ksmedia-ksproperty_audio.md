@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_AUDIO
 ---
 
+# KSPROPERTY_AUDIO enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AUDIO** enumeration (ksmedia.h).

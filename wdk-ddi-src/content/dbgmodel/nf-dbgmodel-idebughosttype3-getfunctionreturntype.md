@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetFunctionReturnType
 ---
 
+# IDebugHostType3::GetFunctionReturnType function (dbgmodel.h)
+
 ## -description
 
 The GetFunctionReturnType method returns the return type of the function.

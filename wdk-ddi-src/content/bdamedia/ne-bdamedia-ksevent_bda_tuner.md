@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_BDA_TUNER
 ---
 
+# KSEVENT_BDA_TUNER enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_BDA_TUNER** enumeration.

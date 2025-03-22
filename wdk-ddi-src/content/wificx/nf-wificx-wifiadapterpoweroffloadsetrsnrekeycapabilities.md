@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterPowerOffloadSetRsnRekeyCapabilities function (wificx.h)
+
 ## -description
 
 The **WifiAdapterPowerOffloadSetRsnRekeyCapabilities** function sets a WiFiCx net adapter's RSN rekey power offload capabilities.

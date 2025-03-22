@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_LADN_IND_REQUEST enumeration (wwan.h)
+
 ## -description
 
 The **WWAN_LADN_IND_REQUEST** enumeration lists Local Area Data Networks (LADN) information requests.

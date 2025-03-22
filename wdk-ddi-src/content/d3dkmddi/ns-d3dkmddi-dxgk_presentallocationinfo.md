@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_PRESENTALLOCATIONINFO
 ---
 
+# DXGK_PRESENTALLOCATIONINFO structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_PRESENTALLOCATIONINFO** is reserved for system use. Don't use it in your driver.

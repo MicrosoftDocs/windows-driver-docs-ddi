@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_MAP_RESERVED_LOGICAL_RANGE function (wdm.h)
+
 ## -description
 
 Maps a reserved logical range.

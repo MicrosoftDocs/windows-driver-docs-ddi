@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _DUAL_OPLOCK_KEY_ECP_CONTEXT
 ---
 
+# DUAL_OPLOCK_KEY_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **DUAL_OPLOCK_KEY_ECP_CONTEXT** structure contains the extra create parameter context for a dual oplock key. Oplocks keys for both a target and a parent file object can be set in this structure.

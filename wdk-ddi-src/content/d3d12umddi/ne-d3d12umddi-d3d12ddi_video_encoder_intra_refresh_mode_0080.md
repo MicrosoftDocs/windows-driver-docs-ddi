@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_MODE_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_MODE_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_INTRA_REFRESH_MODE_0080** enumeration lists the possible intra refresh modes.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# FS_BPIO_INPUT structure (ntifs.h)
+
 ## -description
 
 The **FS_BPIO_INPUT** structure specifies the requested BypassIO operation and flags for the [**FSCTL_MANAGE_BYPASS_IO**](ni-ntifs-fsctl_manage_bypass_io.md) control code.

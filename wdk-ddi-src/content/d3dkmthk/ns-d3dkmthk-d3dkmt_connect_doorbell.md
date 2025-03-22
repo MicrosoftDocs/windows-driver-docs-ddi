@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_CONNECT_DOORBELL
 ---
 
+# D3DKMT_CONNECT_DOORBELL structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_CONNECT_DOORBELL** structure describes the doorbell that [**D3DKMTConnectDoorbell**](nf-d3dkmthk-d3dkmtconnectdoorbell.md) should connect to a hardware queue.

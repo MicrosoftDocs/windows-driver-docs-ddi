@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_CANCELQUEUEDFLIPS
 ---
 
+# DXGKARG_CANCELQUEUEDFLIPS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CANCELQUEUEDFLIPS** structure contains parameters for the driver's [**DXGKDDI_CANCELQUEUEDFLIPS**](nc-d3dkmddi-dxgkddi_cancelqueuedflips.md) callback function. This structure was superseded by [**DXGKARG_CANCELFLIPS**](ns-d3dkmddi-dxgkarg_cancelflips.md) starting in WDDM 3.0.

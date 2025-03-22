@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _STORPORT_ETW_LEVEL
 ---
 
+# STORPORT_ETW_LEVEL enumeration (storport.h)
+
 ## -description
 
 The **STORPORT_ETW_LEVEL** enumeration defines the level of importance or severity of an ETW event.

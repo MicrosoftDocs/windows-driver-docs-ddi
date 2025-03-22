@@ -42,6 +42,8 @@ helpviewer_keywords:
  - LkmdTelSubmitReport
 ---
 
+# LkmdTelSubmitReport function (lkmdtel.h)
+
 ## -description
 
 This function creates the minidump file and notifies WER (Windows Error Reporting) that there is a pending report to be uploaded.

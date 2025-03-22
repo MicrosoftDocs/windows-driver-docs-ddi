@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _MODE_PAGE_SUBPAGE_HEADER
 ---
 
+# MODE_PAGE_SUBPAGE_HEADER structure (scsi.h)
+
 ## -description
 
 The **MODE_PAGE_SUBPAGE_HEADER** structure contains header information for the page_0 or sub_page mode page format, as defined in Section 7.5.8 of the T10 SCSI Primary Commands specification (SPC-6).

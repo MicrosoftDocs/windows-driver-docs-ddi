@@ -42,6 +42,8 @@ helpviewer_keywords:
  - HW_REGISTRY_NOTIFICATION_ROUTINE
 ---
 
+# HW_REGISTRY_NOTIFICATION_ROUTINE function (storport.h)
+
 ## -description
 
 Storport calls a miniport's **HW_REGISTRY_NOTIFICATION_ROUTINE** callback when a change occurs under the HKLM\System\CurrentControlSet\Services\<*serviceName*>\Parameters\Device registry key.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_NR_NEIGHBOR_CELLS_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_NR_NEIGHBOR_CELLS_INFO** structure represents information about NR neighbor cells.

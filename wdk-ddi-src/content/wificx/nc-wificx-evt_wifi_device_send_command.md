@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_WIFI_DEVICE_SEND_COMMAND function (wificx.h)
+
 ## -description
 
 A WiFiCx driver's *EvtWifiDeviceSendCommand* callback function retrieves and processes a command message sent by the WiFiCx framework.  

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS enumeration (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

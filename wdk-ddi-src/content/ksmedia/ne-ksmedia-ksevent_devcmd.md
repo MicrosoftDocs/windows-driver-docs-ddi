@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_DEVCMD
 ---
 
+# KSEVENT_DEVCMD enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_DEVCMD** enumeration (ksmedia.h).

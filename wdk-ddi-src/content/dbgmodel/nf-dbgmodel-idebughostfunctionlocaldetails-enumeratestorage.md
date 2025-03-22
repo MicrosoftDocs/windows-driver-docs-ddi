@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EnumerateStorage
 ---
 
+# IDebugHostFunctionLocalDetails::EnumerateStorage function (dbgmodel.h)
+
 ## -description
 
 The EnumerateStorage method enumerates the storage for the local variable, including what registers or memory locations it may be in within the function.

@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_ACCESS_TYPE enumeration (wdm.h)
+
 ## -description
 
 Specifies permissions for hardware access for a common buffer being created when the **ConfigType** field of the [DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION](ns-wdm-dma_common_buffer_extended_configuration.md) structure is **CommonBufferConfigTypeHardwareAccessPermissions**.

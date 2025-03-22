@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteInt32Raw
 ---
 
+# WriteInt32Raw function (miniport.h)
+
 ## -description
 
 This topic describes the **WriteInt32Raw** function.

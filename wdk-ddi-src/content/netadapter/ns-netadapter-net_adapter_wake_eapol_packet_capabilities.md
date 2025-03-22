@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES structure (netadapter.h)
+
 ## -description
 
 The **NET_ADAPTER_WAKE_EAPOL_PACKET_CAPABILITIES** structure describes a network adapter's wake on LAN (WoL) capabilities for waking from an EAP over LAN (EAPOL) request identifier message.

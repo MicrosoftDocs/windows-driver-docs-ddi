@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DDDI_BATCHEDMARKERDATA structure (d3dumddi.h)
+
 ## -description
 
 The **D3DDDI_BATCHEDMARKERDATA** structure provides high-performance marker data from D3D12 drivers.

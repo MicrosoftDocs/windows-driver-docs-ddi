@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadOrdinalIntrinsics
 ---
 
+# IDebugHostMemory5::ReadOrdinalIntrinsics function (dbgmodel.h)
+
 ## -description
 
 The ReadOrdinalIntrinsics method reads one or more intrinsic values from the target's address space as defined by the given context and location. This method is similar to ReadIntrinsics(), but the type of intrinsic is specified by an ordinal size and an indication of whether the intrinsics are signed. This method supports 8-64 bit signed and unsigned ordinals.

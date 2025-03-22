@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_ACPI_HEADER
 ---
 
+# WHEA_ACPI_HEADER structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_ACPI_HEADER** structure.

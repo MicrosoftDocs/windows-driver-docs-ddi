@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostEvaluator3
 ---
 
+# IDebugHostEvaluator3 interface (dbgmodel.h)
+
 ## -description
 
 he version 3 expression evaluator interface to the underlying debugger. 

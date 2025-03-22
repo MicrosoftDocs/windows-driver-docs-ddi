@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_BDA_WMDRM_TUNER
 ---
 
+# KSMETHOD_BDA_WMDRM_TUNER enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_BDA_WMDRM_TUNER** enumeration.

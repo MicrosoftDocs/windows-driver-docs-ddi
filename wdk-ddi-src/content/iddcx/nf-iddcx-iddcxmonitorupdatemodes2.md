@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IddCxMonitorUpdateModes2
 ---
 
+# IddCxMonitorUpdateModes2 function (iddcx.h)
+
 ## -description
 
 An indirect display driver calls **IddCxMonitorUpdateModes2** to have the OS update the mode list for a monitor.

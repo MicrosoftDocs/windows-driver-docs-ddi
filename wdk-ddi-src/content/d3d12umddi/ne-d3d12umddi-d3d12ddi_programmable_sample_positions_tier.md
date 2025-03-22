@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_PROGRAMMABLE_SAMPLE_POSITIONS_TIER
 ---
 
+# D3D12DDI_PROGRAMMABLE_SAMPLE_POSITIONS_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_PROGRAMMABLE_SAMPLE_POSITIONS_TIER** value specifies the level of support provided by the adapter for programmable sample positions.

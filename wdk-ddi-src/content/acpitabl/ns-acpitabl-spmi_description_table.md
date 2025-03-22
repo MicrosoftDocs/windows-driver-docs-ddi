@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# SPMI_DESCRIPTION_TABLE structure (acpitabl.h)
+
 ## -description
 
 Defines the **SPMI_DESCRIPTION_TABLE** structure.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_TIMECODE
 ---
 
+# KSPROPERTY_TIMECODE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_TIMECODE** enumeration (ksmedia.h).

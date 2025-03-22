@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WAVEFORMATEXTENSIBLE_IEC61937
 ---
 
+# WAVEFORMATEXTENSIBLE_IEC61937 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **WAVEFORMATEXTENSIBLE_IEC61937** structure (ksmedia.h).

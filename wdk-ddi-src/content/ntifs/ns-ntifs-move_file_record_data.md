@@ -42,6 +42,8 @@ helpviewer_keywords:
  - MOVE_FILE_RECORD_DATA
 ---
 
+# MOVE_FILE_RECORD_DATA structure (ntifs.h)
+
 ## -description
 
 The **MOVE_FILE_RECORD_DATA** structure is reserved for system use.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetTypedefFinalBaseType
 ---
 
+# IDebugHostType3::GetTypedefFinalBaseType function (dbgmodel.h)
+
 ## -description
 
 The GetTypedefFinalBaseType method will return the final type that the typedef is a definition for. If the typedef is a definition of another typedef, this will continue to follow the definition chain until it reaches a type which is not a typedef and that type will be returned. In this example: 

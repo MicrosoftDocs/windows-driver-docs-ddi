@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmCalloutCreateEnumHandle0
 ---
 
+# FwpmCalloutCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmCalloutCreateEnumHandle0** function creates a handle used to enumerate a set of callout objects.

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostField2
 ---
 
+# IDebugHostField2 interface (dbgmodel.h)
+
 ## -description
 
 Version 2 of IDebugHostField, which is a specialization of IDebugHostSymbol, which represents a field of a class or struct.

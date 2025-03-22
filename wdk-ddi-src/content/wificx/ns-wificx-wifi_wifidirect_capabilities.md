@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_WIFIDIRECT_CAPABILITIES structure (wificx.h)
+
 ## -description
 
 The **WIFI_WIFIDIRECT_CAPABILITIES** structure describes the Wi-Fi Direct capabilities for a WiFiCx device.

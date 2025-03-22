@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IGPUPMigrationVtbl
 ---
 
+# IGPUPMigrationVtbl structure (igpupvdev.h)
+
 ## -description
 
 The **IGPUPMigrationVtbl** structure defines the virtual table for the [**IGPUPMigration**](nn-igpupvdev-igpupmigration.md) interface.

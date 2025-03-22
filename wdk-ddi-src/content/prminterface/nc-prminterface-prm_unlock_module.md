@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRM_UNLOCK_MODULE
 ---
 
+# PRM_UNLOCK_MODULE function (prminterface.h)
+
 ## -description
 
 This routine undoes the operation from [**PRM_LOCK_MODULE**](./nc-prminterface-prm_lock_module.md) and allows the module to be updated. PRM_UNLOCK_MODULE should always be preceded by exactly one PRM_LOCK_MODULE call.

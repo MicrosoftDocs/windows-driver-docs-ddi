@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WheaErrorRecordBuilderInit
 ---
 
+# WheaErrorRecordBuilderInit function (ntddk.h)
+
 ## -description
 
 The **WheaErrorRecordBuilderInit** function initializes an error record for the record builder helper functions.

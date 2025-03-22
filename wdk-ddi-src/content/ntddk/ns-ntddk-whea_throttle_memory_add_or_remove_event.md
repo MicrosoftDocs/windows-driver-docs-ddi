@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT
 ---
 
+# WHEA_THROTTLE_MEMORY_ADD_OR_REMOVE_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

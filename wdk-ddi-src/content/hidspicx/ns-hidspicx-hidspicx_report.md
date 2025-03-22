@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# HIDSPICX_REPORT structure (hidspicx.h)
+
 ## -description
 
 The **HIDSPICX_REPORT** structure is used to represent input and output reports.

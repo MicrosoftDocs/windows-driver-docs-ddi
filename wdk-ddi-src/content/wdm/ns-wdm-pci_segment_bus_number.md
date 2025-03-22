@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PCI_SEGMENT_BUS_NUMBER structure (wdm.h)
+
 ## -description
 
 Reserved for system use.

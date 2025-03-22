@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FindSymbolByRVA
 ---
 
+# IDebugHostModule4::FindSymbolByRVA function (dbgmodel.h)
+
 ## -description
 
 The FindSymbolByRVA method will find a single matching symbol at the given relative virtual address within the module. If there is not a single symbol at the supplied RVA (e.g.: there are multiple matches), an error will be returned by this method. Note that this method will prefer returning a private symbol over a symbol in the publics table.

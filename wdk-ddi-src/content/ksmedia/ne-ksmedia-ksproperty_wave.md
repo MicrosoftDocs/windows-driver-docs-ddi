@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_WAVE
 ---
 
+# KSPROPERTY_WAVE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_WAVE** enumeration (ksmedia.h).

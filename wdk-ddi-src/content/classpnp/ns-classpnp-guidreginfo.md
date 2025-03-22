@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WMIREGINFO
 ---
 
+# GUIDREGINFO structure (classpnp.h)
+
 ## -description
 
 The **GUIDREGINFO** structure contains GUID registration information.

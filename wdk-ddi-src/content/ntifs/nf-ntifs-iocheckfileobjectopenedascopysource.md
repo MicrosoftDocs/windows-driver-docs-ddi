@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IoCheckFileObjectOpenedAsCopySource
 ---
 
+# IoCheckFileObjectOpenedAsCopySource function (ntifs.h)
+
 ## -description
 
 The **IoCheckFileObjectOpenedAsCopySource** routine checks whether a file was previously opened with copy intent as a source file.

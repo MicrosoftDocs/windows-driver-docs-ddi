@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_POWER_OFFLOAD_TYPE enumeration (wificxpoweroffload.h)
+
 ## -description
 
 The **WIFI_POWER_OFFLOAD_TYPE** enumeration specifies the type for a low power offload protocol offload to a WiFiCx network adapter.

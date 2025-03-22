@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostSymbol3
 ---
 
+# IDebugHostSymbol3 interface (dbgmodel.h)
+
 ## -description
 
 The version 3 of an interface to a particular symbol.

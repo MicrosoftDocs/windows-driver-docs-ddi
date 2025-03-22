@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# FS_BPIO_OUTPUT structure (ntifs.h)
+
 ## -description
 
 The **FS_BPIO_OUTPUT** structure is used to return information about the BypassIO operation for the [**FSCTL_MANAGE_BYPASS_IO**](ni-ntifs-fsctl_manage_bypass_io.md) control code.

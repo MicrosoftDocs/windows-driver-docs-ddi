@@ -35,6 +35,8 @@ helpviewer_keywords:
  - VIDEO_PORT_CACHE_TYPE
 ---
 
+# VIDEO_PORT_CACHE_TYPE enumeration (videoagp.h)
+
 ## -description
 
 The **VIDEO_PORT_CACHE_TYPE** enumeration specifies the type of caching that the system should use.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_IDS_BDA_TABLE
 ---
 
+# KSPROPERTY_IDS_BDA_TABLE enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_IDS_BDA_TABLE** enumeration.

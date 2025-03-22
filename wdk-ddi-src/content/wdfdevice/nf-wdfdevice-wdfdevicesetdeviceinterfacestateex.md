@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# WdfDeviceSetDeviceInterfaceStateEx function (wdfdevice.h)
+
 ## -description
 
 The <b>WdfDeviceSetDeviceInterfaceStateEx</b> method enables or disables a device interface for a specified device.

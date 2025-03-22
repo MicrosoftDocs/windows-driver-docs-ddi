@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# CSV_QUERY_FILE_REVISION_ECP_CONTEXT_FILE_ID_128 structure (ntifs.h)
+
 ## -description
 
 The **CSV_QUERY_FILE_REVISION_ECP_CONTEXT_FILE_ID_128** structure contains the extra create parameter (ECP) context that can be sent to the Cluster Share Volumes (CSV) file system to request a file revision number.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# Wdi_NdisMIndicateStatusEx function (dot11wificxintf.h)
+
 ## -description
 
 > [!WARNING]

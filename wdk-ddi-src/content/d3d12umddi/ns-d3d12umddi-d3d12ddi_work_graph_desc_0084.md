@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_WORK_GRAPH_DESC_0084
 ---
 
+# D3D12DDI_WORK_GRAPH_DESC_0084 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WORK_GRAPH_DESC_0084** structure defines the state subobject of type [**D3D12DDI_STATE_SUBOBJECT_TYPE_WORK_GRAPH**](ne-d3d12umddi-d3d12ddi_state_subobject_type.md).

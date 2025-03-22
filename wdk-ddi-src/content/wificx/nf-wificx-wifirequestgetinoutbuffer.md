@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiRequestGetInOutBuffer function (wificx.h)
+
 ## -description
 
 WiFiCx drivers call the **WifiRequestGetInOutBuffer** function to get the input/output buffer for a command message.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RATING_SYSTEM
 ---
 
+# RATING_SYSTEM structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **RATING_SYSTEM** structure.

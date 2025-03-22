@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_TESTCOMMANDBUFFER_COPY
 ---
 
+# D3DDDI_TESTCOMMANDBUFFER_COPY structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_TESTCOMMANDBUFFER_COPY** structure describes a copy operation for a test command buffer for kernel-mode testing.

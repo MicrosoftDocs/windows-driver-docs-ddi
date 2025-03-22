@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_INTERFACE_STATE_CHANGE_CALLBACK function (wdm.h)
+
 ## -description
 
 This routine is invoked whenever there has been a system state change that affects a [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetArrayDimensions
 ---
 
+# IDebugHostType3::GetArrayDimensions function (dbgmodel.h)
+
 ## -description
 
 The GetArrayDimensions method returns a set of descriptors, one for each dimension of the array as indicated by the GetArrayDimensionality method. Each descriptor is an ArrayDimension structure which describes the starting index, length, and forward stride of each array dimension. This allows descriptions of significantly more powerful array constructs than are allowed in the C type system.

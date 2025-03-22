@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_RESOLUTION_SUPPORT_LIMITS_0080_2
 ---
 
+# D3D12DDI_VIDEO_ENCODER_RESOLUTION_SUPPORT_LIMITS_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_RESOLUTION_SUPPORT_LIMITS_0080_2** structure represents the video encoder resolution support limits for a [**D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0**](ne-d3d12umddi-d3d12ddi_video_encoder_support_flags_0083_0.md) structure.

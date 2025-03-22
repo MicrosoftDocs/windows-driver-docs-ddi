@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_VBICAP
 ---
 
+# KSPROPERTY_VBICAP enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VBICAP** enumeration (ksmedia.h).

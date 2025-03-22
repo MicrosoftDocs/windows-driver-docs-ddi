@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiPowerOffloadGetType function (wificxpoweroffload.h)
+
 ## -description
 
 The **WifiPowerOffloadGetType** function gets the Wi-Fi power offload type for a low power protocol offload to a WiFiCx net adapter.

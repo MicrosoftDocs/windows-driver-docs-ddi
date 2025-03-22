@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ValidatePrintTicket
 ---
 
+# IPrintTicketProvider::ValidatePrintTicket function (prdrvcom.h)
+
 ## -description
 
 The **IPrintTicketProvider::ValidatePrintTicket** method validates a print ticket.

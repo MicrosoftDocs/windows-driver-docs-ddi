@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Execute
 ---
 
+# IDataModelScript2::Execute function (dbgmodel.h)
+
 ## -description
 
 The Execute method executes the content of the script as dictated by the last successful Populate call and modifies the object model of the debugger according to that content. If the language (or the script provider) defines a "main function" -- one that the author would want called upon clicking an imaginary "Execute Script" button in a user interface -- such "main function" is not called during an Execute operation. The Execute operation can be considered to perform initialization and object model manipulations only (e.g.: executing root code and setting up extensibility points). 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RS_COMMAND_DESCRIPTOR
 ---
 
+# RS_COMMAND_DESCRIPTOR structure (storport.h)
+
 ## -description
 
 The **RS_COMMAND_DESCRIPTOR** structure contains information about a single supported command descriptor block (CDB).

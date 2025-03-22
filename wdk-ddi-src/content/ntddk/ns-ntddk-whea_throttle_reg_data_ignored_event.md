@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_REG_DATA_IGNORED_EVENT
 ---
 
+# WHEA_THROTTLE_REG_DATA_IGNORED_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

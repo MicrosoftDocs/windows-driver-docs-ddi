@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES structure (netadapter.h)
+
 ## -description
 
 The **NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES** structure specifies a network adapter's receive filtering capabilities.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaCreateEnumHandle0
 ---
 
+# IPsecSaCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaCreateEnumHandle0** function creates a handle used to enumerate a set of Internet Protocol Security (IPsec) security association (SA) objects.

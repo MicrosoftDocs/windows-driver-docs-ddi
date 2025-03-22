@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_PSHED_PI_TRACE_EVENT
 ---
 
+# WHEA_PSHED_PI_TRACE_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

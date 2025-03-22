@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiRequestGetMessageId function (wificx.h)
+
 ## -description
 
 The **WifiRequestGetMessageId** function returns the ID of a WiFiCx command message. 

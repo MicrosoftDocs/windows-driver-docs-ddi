@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _REARRANGE_FILE_DATA
 ---
 
+# REARRANGE_FILE_DATA structure (ntifs.h)
+
 ## -description
 
 **REARRANGE_FILE_DATA** is the input structure for the [**FSCTL_REARRANGE_FILE**](ni-ntifs-fsctl_rearrange_file.md) control code.

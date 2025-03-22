@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_VALIDATION_FLAGS_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_VALIDATION_FLAGS_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_VALIDATION_FLAGS_0080** enumeration indicates which [**D3D12DDICAPS_VIDEO_ENCODER_SUPPORT_DATA_0083_0**](ns-d3d12umddi-d3d12ddicaps_video_encoder_support_data_0083_0.md) input configuration requests are *not* supported. Use [**D3D12DDI_VIDEO_ENCODER_VALIDATION_FLAGS_0082_0**](ne-d3d12umddi-d3d12ddi_video_encoder_validation_flags_0082_0.md) for full video encoding feature support for Windows 11 (WDDM 3.0).

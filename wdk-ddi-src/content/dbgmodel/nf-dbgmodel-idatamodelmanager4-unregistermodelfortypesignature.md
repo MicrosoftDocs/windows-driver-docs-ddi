@@ -42,6 +42,8 @@ helpviewer_keywords:
  - UnregisterModelForTypeSignature
 ---
 
+# IDataModelManager4::UnregisterModelForTypeSignature function (dbgmodel.h)
+
 ## -description
 
 The UnregisterModelForTypeSignature method undoes a prior call to the RegisterModelForTypeSignature method. This method can either remove a given data model as the canonical visualizer for types matching a particular type signature or it can remove a given data model as the canonical visualizer for every type signature under which that data model is registered.

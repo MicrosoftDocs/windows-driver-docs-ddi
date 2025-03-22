@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlStoreUlongPtr function (wdm.h)
+
 ## -description
 
 The **RtlStoreUlongPtr** macro stores a specified ULONG_PTR value at a specified memory location, avoiding memory alignment faults.

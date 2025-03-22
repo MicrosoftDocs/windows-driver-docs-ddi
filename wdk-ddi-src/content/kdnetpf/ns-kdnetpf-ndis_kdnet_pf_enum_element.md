@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_PF_ENUM_ELEMENT
 ---
 
+# NDIS_KDNET_PF_ENUM_ELEMENT structure (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_PF_ENUM_ELEMENT** is a PF element array structure.

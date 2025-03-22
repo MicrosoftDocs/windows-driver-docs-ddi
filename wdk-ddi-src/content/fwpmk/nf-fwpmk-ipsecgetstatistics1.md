@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecGetStatistics1
 ---
 
+# IPsecGetStatistics1 function (fwpmk.h)
+
 ## -description
 
 The **IPsecGetStatistics1** function retrieves Internet Protocol Security (IPsec) statistics.

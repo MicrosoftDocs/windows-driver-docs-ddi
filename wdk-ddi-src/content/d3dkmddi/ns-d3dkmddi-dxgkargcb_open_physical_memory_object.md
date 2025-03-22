@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_OPEN_PHYSICAL_MEMORY_OBJECT** structure contains the information used by the [**DXGKCB_OPENPHYSICALMEMORYOBJECT**](nc-d3dkmddi-dxgkcb_openphysicalmemoryobject.md) callback function to open a physical memory object.

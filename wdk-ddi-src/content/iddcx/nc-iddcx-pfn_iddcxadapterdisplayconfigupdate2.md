@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE2
 ---
 
+# PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE2 function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE2** is a pointer to an OS callback function that updates the display configuration for the specified adapter.

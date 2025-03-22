@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_DISPLAYMUX_RUNTIME_STATUS
 ---
 
+# DXGK_DISPLAYMUX_RUNTIME_STATUS enumeration (d3dkmdt.h)
+
 ## -description
 
 The **DXGK_DISPLAYMUX_RUNTIME_STATUS** enumeration specifies the runtime status level of automatic display switch (ADS) support that the driver provides.

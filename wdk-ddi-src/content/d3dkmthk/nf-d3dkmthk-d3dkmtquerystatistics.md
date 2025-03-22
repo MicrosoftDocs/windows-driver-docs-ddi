@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMTQueryStatistics function (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use in your driver.

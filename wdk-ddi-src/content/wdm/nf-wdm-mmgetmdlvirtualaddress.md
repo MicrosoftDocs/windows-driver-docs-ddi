@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# MmGetMdlVirtualAddress function (wdm.h)
+
 ## -description
 
 The **MmGetMdlVirtualAddress** macro returns the base virtual address of a buffer described by an MDL.

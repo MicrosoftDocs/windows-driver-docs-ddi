@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_CREATENATIVEFENCE_FLAGS
 ---
 
+# D3DKMT_CREATENATIVEFENCE_FLAGS structure (d3dkmthk.h)
+
 ## -description
 
 **D3DKMT_CREATENATIVEFENCE_FLAGS** specifies flags to use when creating a native GPU fence.

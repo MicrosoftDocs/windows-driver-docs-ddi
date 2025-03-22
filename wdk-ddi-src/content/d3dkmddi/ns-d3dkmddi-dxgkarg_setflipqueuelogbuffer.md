@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_SETFLIPQUEUELOGBUFFER
 ---
 
+# DXGKARG_SETFLIPQUEUELOGBUFFER structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_SETFLIPQUEUELOGBUFFER** structure contains parameters for the driver's [**DXGKDDI_SETFLIPQUEUELOGBUFFER**](nc-d3dkmddi-dxgkddi_setflipqueuelogbuffer.md) callback function.

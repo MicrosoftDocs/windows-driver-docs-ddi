@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# PAGE_ALIGN function (wdm.h)
+
 ## -description
 
 The **PAGE_ALIGN** macro returns a page-aligned virtual address for a given virtual address.

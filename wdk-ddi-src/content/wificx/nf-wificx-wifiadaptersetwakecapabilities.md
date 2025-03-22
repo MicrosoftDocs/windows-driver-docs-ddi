@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterSetWakeCapabilities function (wificx.h)
+
 ## -description
 
 The **WifiAdapterSetWakeCapabilities** method sets the wake capabilities for a WiFiCx device.

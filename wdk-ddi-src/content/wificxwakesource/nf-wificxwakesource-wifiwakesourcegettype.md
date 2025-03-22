@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiWakeSourceGetType function (wificxwakesource.h)
+
 ## -description
 
 The **WifiWakeSourceGetType** function gets the type for wake-on-LAN (WoL) source from a WiFiCx net adapter.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_TESTCOMMANDBUFFER
 ---
 
+# D3DDDI_TESTCOMMANDBUFFER structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_TESTCOMMANDBUFFER** structure describes a test command buffer for kernel-mode testing.

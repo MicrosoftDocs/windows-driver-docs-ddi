@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_QUERYFEATURESUPPORT
 ---
 
+# DXGKCB_QUERYFEATURESUPPORT function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver (KMD) calls **DXGKCB_QUERYFEATURESUPPORT** to query whether the OS will permit it to enable support for a feature. Starting in Windows 11, version 24H2 (WDDM 3.2), this port driver callback function has been replaced by [**DXGK_FEATURE_INTERFACE**](../dispmprt/ns-dispmprt-dxgkddi_feature_interface.md).

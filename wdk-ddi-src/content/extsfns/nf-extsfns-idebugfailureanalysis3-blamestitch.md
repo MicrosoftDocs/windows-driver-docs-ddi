@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BlameStitch
 ---
 
+# IDebugFailureAnalysis3::BlameStitch function (extsfns.h)
+
 ## -description
 
 ## -parameters

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPrimaryCompilerInformation
 ---
 
+# IDebugHostModule5::GetPrimaryCompilerInformation function (dbgmodel.h)
+
 ## -description
 
 The GetPrimaryCompilerInformationmethod retrieves information regarding the "primary compiler" which produced the module. The returned information can be used, for example, to understand how symbols are formatted by that compiler. Although this can vary for each compilation unit or compiland, this method should return the details of the "primary" or most significant one for non-assembly compilation units.

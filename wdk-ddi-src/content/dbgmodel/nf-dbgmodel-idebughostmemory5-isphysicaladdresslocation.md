@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsPhysicalAddressLocation
 ---
 
+# IDebugHostMemory5::IsPhysicalAddressLocation function (dbgmodel.h)
+
 ## -description
 
 The IsPhysicalAddressLocation method is used to determine whether a given location represents a physical address or not.

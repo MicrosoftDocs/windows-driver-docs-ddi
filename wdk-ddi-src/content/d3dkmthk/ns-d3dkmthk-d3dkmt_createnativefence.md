@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_CREATENATIVEFENCE
 ---
 
+# D3DKMT_CREATENATIVEFENCE structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_CREATENATIVEFENCE** structure is a parameter for the [**D3DKMTCreateNativeFence**](nf-d3dkmthk-d3dkmtcreatenativefence.md) function. It describes the fence object to create.

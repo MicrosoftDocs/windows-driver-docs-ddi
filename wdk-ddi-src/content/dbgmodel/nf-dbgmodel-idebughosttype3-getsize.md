@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetSize
 ---
 
+# IDebugHostType3::GetSize function (dbgmodel.h)
+
 ## -description
 
 The GetSize method returns the size of the type (as if one had done sizeof(type) in C++).

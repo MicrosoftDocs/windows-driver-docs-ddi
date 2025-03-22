@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARG_CONTROLINTERRUPT3 structure (d3dkmddi.h)
+
 ## -description
 
 The DXGKARG_CONTROLINTERRUPT3 structure is used in [**DxgkDdi_ControlInterrupt3**](./nc-d3dkmddi-dxgkddi_controlinterrupt3.md) calls to describe the state of interrupts.

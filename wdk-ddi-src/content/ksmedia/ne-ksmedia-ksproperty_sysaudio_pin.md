@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_SYSAUDIO_PIN
 ---
 
+# KSPROPERTY_SYSAUDIO_PIN enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_SYSAUDIO_PIN** enumeration (ksmedia.h).

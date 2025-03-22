@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_UPDATEMONITOREDVALUES
 ---
 
+# DXGKARG_UPDATEMONITOREDVALUES structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_UPDATEMONITOREDVALUES** is the parameter for the [**DxgkDdiUpdateMonitoredValues**](nc-d3dkmddi-dxgkddi_updatemonitoredvalues.md) function.

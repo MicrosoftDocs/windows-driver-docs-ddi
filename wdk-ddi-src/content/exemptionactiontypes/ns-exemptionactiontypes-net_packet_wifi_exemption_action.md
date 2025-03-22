@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _NET_PACKET_WIFI_EXEMPTION_ACTION
 ---
 
+# NET_PACKET_WIFI_EXEMPTION_ACTION structure (exemptionactiontypes.h)
+
 ## -description
 
 The **NET_PACKET_WIFI_EXEMPTION_ACTION** structure contains the exemption action information for a packet.

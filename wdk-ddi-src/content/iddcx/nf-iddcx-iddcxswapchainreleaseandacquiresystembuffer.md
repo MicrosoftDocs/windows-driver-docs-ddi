@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IddCxSwapChainReleaseAndAcquireSystemBuffer function (iddcx.h)
+
 ## -description
 
 **IddCxSwapChainReleaseAndAcquireSystemBuffer** releases and acquires buffers from the swapchain.

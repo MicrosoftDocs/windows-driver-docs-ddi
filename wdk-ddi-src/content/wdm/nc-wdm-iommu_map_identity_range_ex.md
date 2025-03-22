@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_MAP_IDENTITY_RANGE_EX function (wdm.h)
+
 ## -description
 
 Creates an identity mapping for a provided physical address space in the provided domain.

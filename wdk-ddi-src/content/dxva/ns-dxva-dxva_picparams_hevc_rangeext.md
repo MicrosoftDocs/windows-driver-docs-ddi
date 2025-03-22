@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXVA_PicParams_HEVC_RangeExt
 ---
 
+# DXVA_PicParams_HEVC_RangeExt structure (dxva.h)
+
 ## -description
 
 The **DXVA_PicParams_HEVC_RangeExt** structure provides the picture-level parameters of a compressed picture for HEVC video decoding.

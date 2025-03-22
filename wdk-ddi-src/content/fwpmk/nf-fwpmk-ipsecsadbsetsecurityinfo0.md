@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaDbSetSecurityInfo0
 ---
 
+# IPsecSaDbSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaDbSetSecurityInfo0** function sets specified security information in the security descriptor of the IPsec security association database.

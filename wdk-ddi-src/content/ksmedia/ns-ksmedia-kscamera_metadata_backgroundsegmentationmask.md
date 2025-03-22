@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# tagKSCAMERA_METADATA_BACKGROUNDSEGMENTATIONMASK structure (ksmedia.h)
+
 ## -description
 
 The **KSCAMERA_METADATA_BACKGROUNDSEGMENTATIONMASK** structure contains information about the dimensions of the background mask as well as its coverage of the frame it is inferred from, which is the frame that is outputted by the stream.

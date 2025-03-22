@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiWakeSourceGetAdapter function (wificxwakesource.h)
+
 ## -description
 
 The **WifiWakeSourceGetAdapter** function gets the WiFiCx net adapter for a wake-up source.

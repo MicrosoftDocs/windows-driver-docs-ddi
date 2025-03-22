@@ -35,6 +35,8 @@ helpviewer_keywords:
  - UDTKind
 ---
 
+# UDTKind enumeration (dbgmodel.h)
+
 ## -description  
    
 The **UDTKind** enum defines the nature of the User-Defined Type (UDT) in question.  

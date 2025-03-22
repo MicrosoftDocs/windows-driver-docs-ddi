@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_RESETHWENGINE
 ---
 
+# DXGKARG_RESETHWENGINE structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_RESETHWENGINE** structure contains arguments used to [reset the hardware engine](nc-d3dkmddi-dxgkddi_resethwengine.md).

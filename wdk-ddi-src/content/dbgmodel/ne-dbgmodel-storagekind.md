@@ -35,6 +35,8 @@ helpviewer_keywords:
  - StorageKind
 ---
 
+# StorageKind enumeration (dbgmodel.h)
+
 ## -description  
    
 The **StorageKind** enum defines where a local is stored.  

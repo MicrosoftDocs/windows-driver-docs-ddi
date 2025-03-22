@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_BUFFER_ALLOCATE_MDL function (nblapi.h)
+
 ## -description
 
 The 

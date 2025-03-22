@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_STARTDIRTYTRACKING
 ---
 
+# DXGKDDI_STARTDIRTYTRACKING function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiStartDirtyTracking** function enables dirty bit tracking within the specified segment and given address range.

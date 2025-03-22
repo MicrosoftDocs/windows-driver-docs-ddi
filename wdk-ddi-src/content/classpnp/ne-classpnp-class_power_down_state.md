@@ -35,6 +35,8 @@ helpviewer_keywords:
  - CLASS_POWER_DOWN_STATE
 ---
 
+# CLASS_POWER_DOWN_STATE enumeration (classpnp.h)
+
 ## -description
 
 This enumeration is for internal use only.

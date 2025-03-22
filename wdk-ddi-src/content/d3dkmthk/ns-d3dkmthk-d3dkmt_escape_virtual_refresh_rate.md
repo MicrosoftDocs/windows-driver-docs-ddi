@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_ESCAPE_VIRTUAL_REFRESH_RATE
 ---
 
+# D3DKMT_ESCAPE_VIRTUAL_REFRESH_RATE structure (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ProblemClassDelete
 ---
 
+# IDebugFailureAnalysis3::ProblemClassDelete function (extsfns.h)
+
 ## -description
 
 ## -parameters

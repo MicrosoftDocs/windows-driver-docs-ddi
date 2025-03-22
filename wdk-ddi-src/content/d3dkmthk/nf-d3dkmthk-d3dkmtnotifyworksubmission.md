@@ -41,6 +41,8 @@ helpviewer_keywords:
  - D3DKMTNotifyWorkSubmission
 ---
 
+# D3DKMTNotifyWorkSubmission function (d3dkmthk.h)
+
 ## -description
 
 **D3DKMTNotifyWorkSubmission** notifies the kernel-mode display driver (KMD) that the user-mode display driver (UMD) has submitted work to the GPU.

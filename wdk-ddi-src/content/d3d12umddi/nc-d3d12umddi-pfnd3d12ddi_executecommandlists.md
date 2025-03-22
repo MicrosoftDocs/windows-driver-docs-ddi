@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_EXECUTECOMMANDLISTS
 ---
 
+# PFND3D12DDI_EXECUTECOMMANDLISTS function (d3d12umddi.h)
+
 ## -description
 
 UMD's **PFND3D12DDI_EXECUTECOMMANDLISTS** function executes an array of command lists submitted by an application.

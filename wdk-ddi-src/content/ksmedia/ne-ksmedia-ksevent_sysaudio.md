@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_SYSAUDIO
 ---
 
+# KSEVENT_SYSAUDIO enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_SYSAUDIO** enumeration (ksmedia.h).

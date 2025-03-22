@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterGetSecurityInfoByKey0
 ---
 
+# FwpmFilterGetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterGetSecurityInfoByKey0** function retrieves a copy of the security descriptor for a filter object.

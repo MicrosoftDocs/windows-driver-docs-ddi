@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateInstance
 ---
 
+# IConstructableConcept::CreateInstance function (dbgmodel.h)
+
 ## -description
 
 Creates an instance of the object or model implementing the IConstructableConcept interface.

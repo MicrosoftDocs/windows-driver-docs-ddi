@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetSymbolKind
 ---
 
+# IDebugHostModule4::GetSymbolKind function (dbgmodel.h)
+
 ## -description
 
 Gets the kind of symbol that this is (e.g. a field, a base class, a type, etc...).

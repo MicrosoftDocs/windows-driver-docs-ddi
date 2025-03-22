@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_SET_PROGRAM_0108
 ---
 
+# PFND3D12DDI_SET_PROGRAM_0108 function (d3d12umddi.h)
+
 ## -description
 
 ## -parameters

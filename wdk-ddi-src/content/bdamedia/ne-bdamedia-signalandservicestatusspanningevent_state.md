@@ -35,6 +35,8 @@ helpviewer_keywords:
  - SignalAndServiceStatusSpanningEvent_State
 ---
 
+# SignalAndServiceStatusSpanningEvent_State enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **SignalAndServiceStatusSpanningEvent_State** enumeration.

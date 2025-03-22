@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DEVICE_BUS_SPECIFIC_RESET_INFO structure (wdm.h)
+
 ## -description
 
 Defines the **DEVICE_BUS_SPECIFIC_RESET_INFO** structure.

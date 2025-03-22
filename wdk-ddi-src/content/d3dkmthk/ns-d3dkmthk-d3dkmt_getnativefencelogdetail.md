@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_GETNATIVEFENCELOGDETAIL
 ---
 
+# D3DKMT_GETNATIVEFENCELOGDETAIL structure (d3dkmthk.h)
+
 ## -description
 
 **D3DKMT_GETNATIVEFENCELOGDETAIL** is deprecated. See [Native GPU fence objects](/windows-hardware/drivers/display/native-gpu-fence-objects) for information about native fence log buffer design.

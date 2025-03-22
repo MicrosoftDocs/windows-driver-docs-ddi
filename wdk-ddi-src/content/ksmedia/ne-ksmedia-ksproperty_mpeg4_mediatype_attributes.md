@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_MPEG4_MEDIATYPE_ATTRIBUTES
 ---
 
+# KSPROPERTY_MPEG4_MEDIATYPE_ATTRIBUTES enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_MPEG4_MEDIATYPE_ATTRIBUTES** enumeration (ksmedia.h).

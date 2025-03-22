@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# POOL_EXTENDED_PARAMETER structure (wdm.h)
+
 ## -description
 
 Specifies extended parameter information that the driver provides when calling [**ExAllocatePool3**](nf-wdm-exallocatepool3.md).

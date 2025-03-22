@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterInitGetType function (wificx.h)
+
 ## -description
 
 A WiFiCx client driver calls the **WifiAdapterInitGetType** function when it needs to query the adapter type from the NETADAPTER_INIT object before the adapter is created.

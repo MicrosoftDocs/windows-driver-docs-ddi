@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_COLLECTDBGINFO2
 ---
 
+# DXGKDDI_COLLECTDBGINFO2 function (d3dkmddi.h)
+
 ## -description
 
 The **DxgkDdiCollectDbgInfo2** function outputs driver information for a debug report.

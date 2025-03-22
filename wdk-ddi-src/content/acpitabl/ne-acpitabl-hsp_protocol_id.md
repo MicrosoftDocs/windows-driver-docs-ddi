@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _HSP_PROTOCOL_ID
 ---
 
+# HSP_PROTOCOL_ID enumeration (acpitabl.h)
+
 ## -description
 
 This topic describes the **HSP_PROTOCOL_ID** enumeration.

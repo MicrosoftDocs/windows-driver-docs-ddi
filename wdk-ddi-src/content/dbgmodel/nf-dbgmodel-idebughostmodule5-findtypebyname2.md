@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FindTypeByName2
 ---
 
+# IDebugHostModule5::FindTypeByName2 function (dbgmodel.h)
+
 ## -description
 
 The FindTypeByName2 method finds a type by name within the module. If an enclosing symbol is given, the type is looked for by name within that enclosing symbol; otherwise, the type is looked for globally.

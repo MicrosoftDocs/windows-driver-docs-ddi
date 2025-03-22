@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# ZwQueryInformationByName function (wdm.h)
+
 ## -description
 
 **ZwQueryInformationByName** returns the requested information about a file specified by file name.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSWAVETABLE_WAVE_DESC
 ---
 
+# KSWAVETABLE_WAVE_DESC structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSWAVETABLE_WAVE_DESC** structure (ksmedia.h).

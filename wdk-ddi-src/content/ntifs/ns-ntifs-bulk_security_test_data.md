@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BULK_SECURITY_TEST_DATA
 ---
 
+# BULK_SECURITY_TEST_DATA structure (ntifs.h)
+
 ## -description
 
 The **BULK_SECURITY_TEST_DATA** structure is used with the [**FSCTL_SECURITY_ID_CHECK**](ni-ntifs-fsctl_security_id_check.md) control code to verify security identifiers (SIDs) against specified access rights in bulk.

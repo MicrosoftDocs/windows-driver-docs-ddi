@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_NATIVE_FENCE_LOG_TYPE
 ---
 
+# DXGK_NATIVE_FENCE_LOG_TYPE enumeration (d3dukmdt.h)
+
 ## -description
 
 A **DXGK_NATIVE_FENCE_LOG_TYPE** value identifies the type of a native log entry.

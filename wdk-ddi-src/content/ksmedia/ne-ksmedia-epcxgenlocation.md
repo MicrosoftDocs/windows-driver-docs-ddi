@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPcxGenLocation
 ---
 
+# EPcxGenLocation enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **EPcxGenLocation** enumeration (ksmedia.h).

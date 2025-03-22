@@ -39,6 +39,8 @@ helpviewer_keywords:
  - ExtendedArrayDimension
 ---
 
+# ExtendedArrayDimension structure (dbgmodel.h)
+
 
 ## -description  
    

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_ENDLIVEMIGRATION
 ---
 
+# DXGKDDI_ENDLIVEMIGRATION function (d3dkmddi.h)
+
 ## -description
 
 *Dxgkrnl* calls KMD's **DxgkDdiEndLiveMigration** function to notify the driver that a live migration is ending.

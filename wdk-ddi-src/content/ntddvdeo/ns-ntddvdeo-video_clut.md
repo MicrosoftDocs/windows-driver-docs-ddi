@@ -42,6 +42,8 @@ helpviewer_keywords:
  - VIDEO_CLUT
 ---
 
+# VIDEO_CLUT structure (ntddvdeo.h)
+
 ## -description
 
 The **VIDEO_CLUT** structure is used to define a color look-up table (CLUT) for a video device.

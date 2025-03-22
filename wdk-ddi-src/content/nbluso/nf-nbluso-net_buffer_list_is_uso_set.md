@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NET_BUFFER_LIST_IS_USO_SET
 ---
 
+# NET_BUFFER_LIST_IS_USO_SET function (ndis.h)
+
 ## -description
 
 The **NET_BUFFER_LIST_IS_USO_SET** function returns whether the [UDP Segment Offload (USO)](/windows-hardware/drivers/network/udp-segmentation-offload-uso-) offload information is set for a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.

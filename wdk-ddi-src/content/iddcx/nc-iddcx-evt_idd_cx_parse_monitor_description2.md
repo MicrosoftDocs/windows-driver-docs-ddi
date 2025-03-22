@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2
 ---
 
+# EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2 function (iddcx.h)
+
 ## -description
 
 The OS calls **EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2** to ask the driver to parse a monitor description into a list of modes that the monitor supports. The OS calls this callback version (instead of **EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION**) to allow the driver to report extra information needed for HDR10 or WCG monitor modes.

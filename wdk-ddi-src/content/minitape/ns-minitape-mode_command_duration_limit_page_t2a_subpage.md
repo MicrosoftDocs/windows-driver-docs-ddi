@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _MODE_COMMAND_DURATION_LIMIT_PAGE_T2A_SUBPAGE
 ---
 
+# MODE_COMMAND_DURATION_LIMIT_PAGE_T2A_SUBPAGE structure (minitape.h)
+
 ## -description
 
 The **MODE_COMMAND_DURATION_LIMIT_PAGE_T2A_SUBPAGE** structure describes the Command Duration Limit T2A mode page, described in Section 7.5.11 of the T10 SCSI Primary Commands specification (SPC-6).

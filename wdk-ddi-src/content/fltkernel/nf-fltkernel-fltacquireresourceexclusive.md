@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FltAcquireResourceExclusive
 ---
 
+# FltAcquireResourceExclusive function (fltkernel.h)
+
 ## -description
 
 The **FltAcquireResourceExclusive** routine acquires the given resource for exclusive access by the calling thread.

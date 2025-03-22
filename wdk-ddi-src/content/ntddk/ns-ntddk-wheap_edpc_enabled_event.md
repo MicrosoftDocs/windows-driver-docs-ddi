@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEAP_EDPC_ENABLED_EVENT
 ---
 
+# WHEAP_EDPC_ENABLED_EVENT structure (ntddk.h)
+
 ## -description
 
 The **WHEAP_EDPC_ENABLED_EVENT** structure is reserved for system use. Do not use.

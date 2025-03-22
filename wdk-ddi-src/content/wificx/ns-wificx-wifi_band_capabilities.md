@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_BAND_CAPABILITIES structure (wificx.h)
+
 ## -description
 
 The **WIFI_BAND_CAPABILITIES** structure describes the band capabilities for a WiFiCx device.

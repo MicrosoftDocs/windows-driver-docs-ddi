@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetRootNamespace
 ---
 
+# IDataModelManager4::GetRootNamespace function (dbgmodel.h)
+
 ## -description
 
 The GetRootNamespace method returns the data model's root namespace. This is an object which the data model manages and into which the debug host places certain objects. It is expected that at least the following hierarchy is exposed by every host: 

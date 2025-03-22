@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_BDA_ISDB_CAS
 ---
 
+# KSMETHOD_BDA_ISDB_CAS enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_BDA_ISDB_CAS** enumeration.

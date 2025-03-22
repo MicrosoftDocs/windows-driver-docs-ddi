@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_DISPLAYCONFIGPATH2_FLAGS
 ---
 
+# IDDCX_DISPLAYCONFIGPATH2_FLAGS enumeration (iddcx.h)
+
 ## -description
 
 An **IDDCX_DISPLAYCONFIGPATH2_FLAGS** enumeration value identifies the flags for the path, including which fields in the [**IDDCX_DISPLAYCONFIGPATH2**](ns-iddcx-iddcx_displayconfigpath2.md) structure contain valid data.

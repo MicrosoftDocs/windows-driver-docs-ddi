@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DOMAIN_ATTACH_DEVICE_EX function (wdm.h)
+
 ## -description
 
 Attaches an **IOMMU_DMA_DEVICE** to an existing DMA device domain.

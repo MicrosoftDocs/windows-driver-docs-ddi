@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_SHADER_NODE_0108
 ---
 
+# D3D12DDI_SHADER_NODE_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_SHADER_NODE_0108** structure describes a shader node in a work graph.

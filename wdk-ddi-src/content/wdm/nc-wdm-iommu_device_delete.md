@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DEVICE_DELETE function (wdm.h)
+
 ## -description
 
 Deletes the provided opaque token representing the **IOMMU_DMA_DEVICE**.

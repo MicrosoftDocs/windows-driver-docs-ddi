@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_PACKET_GSO structure (gsotypes.h)
+
 ## -description
 
 The **NET_PACKET_GSO** structure contains [Generic Segmentation Offload (GSO)](/windows-hardware/drivers/netcx/gso-offload) information for a packet. 

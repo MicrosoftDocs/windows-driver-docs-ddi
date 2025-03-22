@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_TX_QUERY_SUSPECT_FRAME_COMPLETE_STATUS function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

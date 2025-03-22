@@ -41,6 +41,8 @@ helpviewer_keywords:
  - ACPI_INTERFACE_STANDARD2
 ---
 
+# ACPI_INTERFACE_STANDARD2 structure (wdm.h)
+
 ## -description
 
 This topic describes the **ACPI_INTERFACE_STANDARD2** structure.

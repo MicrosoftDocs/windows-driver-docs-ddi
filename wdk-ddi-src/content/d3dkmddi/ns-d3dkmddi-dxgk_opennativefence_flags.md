@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_OPENNATIVEFENCE_FLAGS
 ---
 
+# DXGK_OPENNATIVEFENCE_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGK_OPENNATIVEFENCE_FLAGS** specifies flags to use when opening a native GPU fence.

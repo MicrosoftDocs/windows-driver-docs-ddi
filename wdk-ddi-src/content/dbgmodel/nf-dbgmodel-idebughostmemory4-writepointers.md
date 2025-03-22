@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WritePointers
 ---
 
+# IDebugHostMemory4::WritePointers function (dbgmodel.h)
+
 ## -description
 
 Takes a number of pointers as held in unsigned 64-bit values, truncates them to the native pointer size of the target,and writes them into the address space of the target as defined by the inpassed context and location.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEAP_ACPI_TIMEOUT_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

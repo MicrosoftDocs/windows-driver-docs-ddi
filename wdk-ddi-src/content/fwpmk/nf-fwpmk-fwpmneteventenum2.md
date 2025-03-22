@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmNetEventEnum2
 ---
 
+# FwpmNetEventEnum2 function (fwpmk.h)
+
 ## -description
 
 The **FwpmNetEventEnum2** function returns the next page of results from the network event enumerator.

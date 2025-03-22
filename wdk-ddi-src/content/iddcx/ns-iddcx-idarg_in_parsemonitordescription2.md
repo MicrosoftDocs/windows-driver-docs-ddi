@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_IN_PARSEMONITORDESCRIPTION2
 ---
 
+# IDARG_IN_PARSEMONITORDESCRIPTION2 structure (iddcx.h)
+
 ## -description
 
 The **IDARG_IN_PARSEMONITORDESCRIPTION2** structure contains input arguments for the [**EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION2**](nc-iddcx-evt_idd_cx_parse_monitor_description2.md) callback function, which allows a driver to report extra information needed for HDR10 or WCG monitor modes.

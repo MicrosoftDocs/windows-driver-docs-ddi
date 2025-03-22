@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _IO_CREATE_STREAM_FILE_OPTIONS
 ---
 
+# IO_CREATE_STREAM_FILE_OPTIONS structure (ntifs.h)
+
 ## -description
 
 The **IO_CREATE_STREAM_FILE_OPTIONS** structure contains the create options for a new stream file object.

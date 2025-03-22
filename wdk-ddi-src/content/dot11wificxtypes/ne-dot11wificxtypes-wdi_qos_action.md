@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _WDI_QOS_ACTION
 ---
 
+# WDI_QOS_ACTION enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

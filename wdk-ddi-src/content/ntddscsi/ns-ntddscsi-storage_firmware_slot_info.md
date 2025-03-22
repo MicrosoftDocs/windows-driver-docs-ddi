@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _STORAGE_FIRMWARE_SLOT_INFO
 ---
 
+# STORAGE_FIRMWARE_SLOT_INFO structure (ntddscsi.h)
+
 ## -description
 
 The **STORAGE_FIRMWARE_SLOT_INFO** structure contains information about a firmware slot on a storage device.

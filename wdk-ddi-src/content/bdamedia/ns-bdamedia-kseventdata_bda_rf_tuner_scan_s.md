@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSEVENTDATA_BDA_RF_TUNER_SCAN_S
 ---
 
+# KSEVENTDATA_BDA_RF_TUNER_SCAN_S structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSEVENTDATA_BDA_RF_TUNER_SCAN_S** structure.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# SPB_MULTI_SPI_READ_TRANSFER structure (spb.h)
+
 ## -description
 
 The **SPB_MULTI_SPI_READ_TRANSFER** structure describes a read operation to be executed in a Multi-SPI (e.g. Dual SPI or Quad SPI) mode. It is comprised of a **SPB_MULTI_SPI_TRANSFER** structure containing the parameters and first write phase of the transfer, and an additional transfer phase structure for the read phase of the transfer.

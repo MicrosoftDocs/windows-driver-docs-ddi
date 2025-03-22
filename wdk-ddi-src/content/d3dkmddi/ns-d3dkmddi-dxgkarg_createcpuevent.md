@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATECPUEVENT
 ---
 
+# DXGKARG_CREATECPUEVENT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CREATECPUEVENT** structure is an argument passed to [**DXGKDDI_CREATECPUEVENT**](nc-d3dkmddi-dxgkddi_createcpuevent.md) to create a kernel-mode driver's (KMD's) CPU event object for a corresponding *Dxgkrnl* object.

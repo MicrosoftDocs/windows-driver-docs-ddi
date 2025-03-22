@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSCAMERA_EXTENDEDPROP_WBPRESET
 ---
 
+# KSCAMERA_EXTENDEDPROP_WBPRESET enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSDS3D_HRTF_FILTER_VERSION** enumeration (ksmedia.h).

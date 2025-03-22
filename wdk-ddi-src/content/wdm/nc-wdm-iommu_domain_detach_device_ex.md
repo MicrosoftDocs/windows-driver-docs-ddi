@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DOMAIN_DETACH_DEVICE_EX function (wdm.h)
+
 ## -description
 
 Detaches a **IOMMU_DMA_DEVICE** from an existing domain.

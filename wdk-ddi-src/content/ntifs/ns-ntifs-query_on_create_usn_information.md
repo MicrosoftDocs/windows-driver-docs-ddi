@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# QUERY_ON_CREATE_USN_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **QUERY_ON_CREATE_USN_INFORMATION** structure is used to write file information when [**FltRequestFileInfoOnCreateCompletion**](../fltkernel/nf-fltkernel-fltrequestfileinfooncreatecompletion.md) is called with the **QoCFileUsnInformation** flag set in the **InfoClassFlags** parameter.

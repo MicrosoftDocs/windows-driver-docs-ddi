@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PFND3DKMT_QUERYSTATISTICS function (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

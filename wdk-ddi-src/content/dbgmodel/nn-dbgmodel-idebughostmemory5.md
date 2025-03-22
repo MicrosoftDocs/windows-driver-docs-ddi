@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostMemory5
 ---
 
+# IDebugHostMemory5 interface (dbgmodel.h)
+
 ## -description
 
 Version 5 of the memory access interface to the underlying debugger.

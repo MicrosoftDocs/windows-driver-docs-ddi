@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _MHSP_CHANNEL
 ---
 
+# MHSP_CHANNEL structure (acpitabl.h)
+
 ## -description
 
 This topic describes the **MHSP_CHANNEL** structure used by the Microsoft HSP ACPI table.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_OS_POWER_MANAGEMENT_FLAGS enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

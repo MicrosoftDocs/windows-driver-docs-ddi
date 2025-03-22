@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_FREE_RESERVED_LOGICAL_ADDRESS_RANGE function (wdm.h)
+
 ## -description
 
 Frees a logical address token created by [**IOMMU_RESERVE_LOGICAL_ADDRESS_RANGE**](./nc-wdm-iommu_reserve_logical_address_range.md).

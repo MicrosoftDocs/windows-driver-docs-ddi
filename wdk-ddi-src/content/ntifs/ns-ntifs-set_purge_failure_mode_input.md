@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SET_PURGE_FAILURE_MODE_INPUT
 ---
 
+# SET_PURGE_FAILURE_MODE_INPUT structure (ntifs.h)
+
 ## -description
 
 A **SET_PURGE_FAILURE_MODE_INPUT** structure is the input parameter for an [**FSCTL_SET_PURGE_FAILURE_MODE**](ni-ntifs-fsctl_set_purge_failure_mode.md) operation.

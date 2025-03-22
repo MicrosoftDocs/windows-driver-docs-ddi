@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_CREATE_DOORBELL
 ---
 
+# D3DKMT_CREATE_DOORBELL structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_CREATE_DOORBELL** structure contains parameters for [**D3DKMTCreateDoorbell**](nf-d3dkmthk-d3dkmtcreatedoorbell.md).

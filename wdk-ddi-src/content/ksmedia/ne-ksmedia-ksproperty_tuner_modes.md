@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_TUNER_MODES
 ---
 
+# KSPROPERTY_TUNER_MODES enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_TUNER_MODES** enumeration (ksmedia.h).

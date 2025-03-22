@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _STOR_RESET_BUS_SYNCHRONOUS_PARAMETER
 ---
 
+# STOR_RESET_BUS_SYNCHRONOUS_PARAMETER structure (storport.h)
+
 ## -description
 
 **STOR_RESET_BUS_SYNCHRONOUS_PARAMETER** is the **Parameters** parameter to the miniport's [**HW_ADAPTER_CONTROL](nc-storport-hw_adapter_control.md) routine when [**ControlType**](ne-storport-scsi_adapter_control_type.md) is **ScsiAdapterResetBusSynchronous**.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_UNREGISTER_INTERFACE_STATE_CHANGE_CALLBACK function (wdm.h)
+
 ## -description
 
 Allows the caller to deregister a registered [**IOMMU_INTERFACE_STATE_CHANGE_CALLBACK**](nc-wdm-iommu_interface_state_change_callback.md).

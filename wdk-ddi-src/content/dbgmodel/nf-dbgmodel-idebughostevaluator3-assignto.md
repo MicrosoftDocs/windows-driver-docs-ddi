@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AssignTo
 ---
 
+# IDebugHostEvaluator3::AssignTo function (dbgmodel.h)
+
 ## -description
 
 The AssignTo method performs assignment according to the semantics of the language being debugged.

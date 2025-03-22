@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PFND3DDDI_QUERYDLISTFORAPPLICATION2 function (d3dumddi.h)
+
 ## -description
 
 The **PFND3DDDI_QUERYDLISTFORAPPLICATION2** callback function queries the dList for an application.

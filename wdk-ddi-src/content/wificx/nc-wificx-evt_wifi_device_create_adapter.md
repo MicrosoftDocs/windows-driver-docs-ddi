@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_WIFI_DEVICE_CREATE_ADAPTER function (wificx.h)
+
 ## -description
 
 WiFiCx client drivers implement *EvtWifiDeviceCreateAdapter* to create a NETADAPTER object.

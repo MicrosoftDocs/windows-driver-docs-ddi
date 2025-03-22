@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEAP_PLUGIN_PFA_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IFilteredNamespacePropertyToken
 ---
 
+# IFilteredNamespacePropertyToken interface (dbgmodel.h)
+
 ## -description
 
 Provides an extension to the data model functionality for manipulating namespaces.

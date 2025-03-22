@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AddExtensionData
 ---
 
+# IDebugHostContextExtension::AddExtensionData function (dbgmodel.h)
+
 ## -description
 
 The AddExtensionData method adds a set of extension data to a host context.

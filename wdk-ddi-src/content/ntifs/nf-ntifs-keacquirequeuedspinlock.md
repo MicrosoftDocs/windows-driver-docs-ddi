@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireQueuedSpinLock
 ---
 
+# KeAcquireQueuedSpinLock function (ntifs.h)
+
 ## -description
 
 **KeAcquireQueuedSpinLock** is reserved for system use.

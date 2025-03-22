@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WppRecorderLogDumpLiveData
 ---
 
+# WppRecorderLogDumpLiveData function (wpprecorder.h)
+
 ## -description
 
 The **WppRecorderLogDumpLiveData** method returns an opaque pointer to a log buffer header and data so that they can be saved in a live crashdump.

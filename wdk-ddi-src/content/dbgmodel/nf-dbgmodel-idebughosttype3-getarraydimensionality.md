@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetArrayDimensionality
 ---
 
+# IDebugHostType3::GetArrayDimensionality function (dbgmodel.h)
+
 ## -description
 
 The GetArrayDimensionality method returns the number of dimensions that the array is indexed in. For C style arrays, the value returned here will always be 1.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3DWDDM2_0DDIARG_CREATESHADERRESOURCEVIEW
 ---
 
+# D3DWDDM2_0DDIARG_CREATESHADERRESOURCEVIEW structure (d3d10umddi.h)
+
 ## -description
 
 The **D3DWDDM2_0DDIARG_CREATESHADERRESOURCEVIEW** structure describes a shader resource view.

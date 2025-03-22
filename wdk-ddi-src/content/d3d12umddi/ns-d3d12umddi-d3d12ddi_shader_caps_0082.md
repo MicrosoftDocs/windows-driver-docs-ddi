@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_SHADER_CAPS_0082 structure (d3d12umddi.h)
+
 ## -description
 
 Reserved for system use.

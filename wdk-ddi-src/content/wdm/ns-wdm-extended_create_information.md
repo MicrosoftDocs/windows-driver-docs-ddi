@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _EXTENDED_CREATE_INFORMATION
 ---
 
+# EXTENDED_CREATE_INFORMATION structure (wdm.h)
+
 ## -description
 
 The **EXTENDED_CREATE_INFORMATION** structure is the **EaBuffer** field in [NtCreateFile](../ntifs/nf-ntifs-ntcreatefile.md) when the **FILE_CONTAINS_EXTENDED_CREATE_INFORMATION** flag is set in NtCreateFile's *CreateOption* parameter.

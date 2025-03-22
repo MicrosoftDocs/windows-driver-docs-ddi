@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_CODEC_CONFIGURATION_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_CODEC_CONFIGURATION_0095 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_CODEC_CONFIGURATION_0095** structure describes the AV1 codec configuration.

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_ADL structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_ADL** structure is an address descriptor list (ADL), which used to describe an array of pages that can be either physical or logical.

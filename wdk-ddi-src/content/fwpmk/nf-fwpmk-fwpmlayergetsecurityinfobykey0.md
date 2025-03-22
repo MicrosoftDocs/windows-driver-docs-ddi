@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmLayerGetSecurityInfoByKey0
 ---
 
+# FwpmLayerGetSecurityInfoByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmLayerGetSecurityInfoByKey0** function retrieves a copy of the security descriptor for a layer object.

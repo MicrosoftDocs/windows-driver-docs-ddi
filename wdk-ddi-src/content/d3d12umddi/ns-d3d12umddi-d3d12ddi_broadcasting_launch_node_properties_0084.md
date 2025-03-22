@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_BROADCASTING_LAUNCH_NODE_PROPERTIES_0084
 ---
 
+# D3D12DDI_BROADCASTING_LAUNCH_NODE_PROPERTIES_0084 structure (d3d12umddi.h)
+
 ## -description
 
 Use [**D3D12DDI_BROADCASTING_LAUNCH_NODE_PROPERTIES_0108**](ns-d3d12umddi-d3d12ddi_broadcasting_launch_node_properties_0108.md) instead.

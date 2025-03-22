@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_DISABLE_DATA_PATH_OFFLOADS_SCENARIO enumeration (dot11wificxtypes.h)
+
 ## -description
 
 The **WDI_DISABLE_DATA_PATH_OFFLOADS_SCENARIO** enumeration is used to instruct the OS to disable datapath offloads for this connection only.

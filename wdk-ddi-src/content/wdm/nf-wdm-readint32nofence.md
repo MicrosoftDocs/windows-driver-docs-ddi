@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadInt32NoFence
 ---
 
+# ReadInt32NoFence function (wdm.h)
+
 ## -description
 
 ## -parameters

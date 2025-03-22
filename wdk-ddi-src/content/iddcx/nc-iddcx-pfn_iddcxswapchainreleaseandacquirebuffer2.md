@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFN_IDDCXSWAPCHAINRELEASEANDACQUIREBUFFER2
 ---
 
+# PFN_IDDCXSWAPCHAINRELEASEANDACQUIREBUFFER2 function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXSWAPCHAINRELEASEANDACQUIREBUFFER2** is a pointer to an OS callback function that releases the buffer from the swap chain and acquires a new buffer.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_CONNECTION_QUALITY_HINT enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

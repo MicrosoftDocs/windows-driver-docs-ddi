@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS
 ---
 
+# WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS structure (wificxpoweroffload.h)
+
 ## -description
 
 The **WIFI_POWER_OFFLOAD_ACTION_FRAME_WAKE_PATTERN_PARAMETERS** structure contains parameters for an action frame wake pattern low power protocol offload to a WiFiCx network adapter.

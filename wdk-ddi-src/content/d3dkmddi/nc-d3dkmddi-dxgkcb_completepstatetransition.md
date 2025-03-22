@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_COMPLETEPSTATETRANSITION
 ---
 
+# DXGKCB_COMPLETEPSTATETRANSITION function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_COMPLETEPSTATETRANSITION** is reserved for system use. Don't use it in your driver.

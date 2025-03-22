@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_EXPRESS_LINK_STATUS_2_REGISTER
 ---
 
+# PCI_EXPRESS_LINK_STATUS_2_REGISTER structure (ntddk.h)
+
 ## -description
 
 **PCI_EXPRESS_LINK_STATUS_2_REGISTER** describes a PCI Express (PCIe) link status 2 register of a PCIe capability structure. Currently, all fields are reserved and not supported in Windows.

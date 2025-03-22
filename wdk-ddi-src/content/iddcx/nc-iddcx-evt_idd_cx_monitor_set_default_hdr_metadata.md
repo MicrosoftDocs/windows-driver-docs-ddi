@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA
 ---
 
+# EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA function (iddcx.h)
+
 ## -description
 
 The OS calls **EVT_IDD_CX_MONITOR_SET_DEFAULT_HDR_METADATA** to provide the default HDR10 metadata that a console driver should send to the monitor when default metadata is specified in a call to [**IddCxSwapChainReleaseAndAcquireBuffer2**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer2.md).

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - INET_DISCARD_REASON
 ---
 
+# INET_DISCARD_REASON enumeration (fwpsk.h)
+
 ## -description
 
 The **INET_DISCARD_REASON** enum defines the possible reasons that data is discarded by one of the transport layers.

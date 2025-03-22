@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_IMPLICIT_SHADER_CACHE_CONTROL_FLAGS_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_IMPLICIT_SHADER_CACHE_CONTROL_FLAGS_0080** enumerates the control action(s) to take on a driver-managed shader cache.

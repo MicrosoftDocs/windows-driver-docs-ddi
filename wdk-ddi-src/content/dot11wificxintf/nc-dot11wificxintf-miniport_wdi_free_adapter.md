@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_FREE_ADAPTER function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

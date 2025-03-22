@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_BROADCASTING_LAUNCH_NODE_PROPERTIES_0108
 ---
 
+# D3D12DDI_BROADCASTING_LAUNCH_NODE_PROPERTIES_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_BROADCASTING_LAUNCH_NODE_PROPERTIES_0108** structure describes the properties of a broadcasting launch node in a work graph.

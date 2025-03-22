@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_VPNOTIFY
 ---
 
+# KSEVENT_VPNOTIFY enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_VPNOTIFY** enumeration (ksmedia.h).

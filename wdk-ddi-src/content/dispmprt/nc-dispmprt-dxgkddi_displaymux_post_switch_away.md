@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_POST_SWITCH_AWAY
 ---
 
+# DXGKDDI_DISPLAYMUX_POST_SWITCH_AWAY function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxPostSwitchAway** function to notify the driver that it's no longer connected to the display.

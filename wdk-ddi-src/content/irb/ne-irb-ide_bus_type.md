@@ -38,6 +38,8 @@ helpviewer_keywords:
  - IDE_BUS_TYPE
 ---
 
+# IDE_BUS_TYPE enumeration (irb.h)
+
 ## -description
 
 Specifies the IDE bus type.

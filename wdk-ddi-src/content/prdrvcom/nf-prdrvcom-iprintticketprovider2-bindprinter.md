@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BindPrinter
 ---
 
+# IPrintTicketProvider2::BindPrinter function (prdrvcom.h)
+
 ## -description
 
 The **IPrintTicketProvider2::BindPrinter** method binds a printer or print queue to a specific version of the print ticket schema, which enables the core driver to associate a set of private namespace uniform resource identifiers (URIs) with a device.

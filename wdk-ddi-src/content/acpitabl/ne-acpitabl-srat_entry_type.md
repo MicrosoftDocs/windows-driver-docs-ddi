@@ -35,6 +35,8 @@ helpviewer_keywords:
  - SRAT_ENTRY_TYPE
 ---
 
+# SRAT_ENTRY_TYPE enumeration (acpitabl.h)
+
 ## -description
 
 This topic describes the **SRAT_ENTRY_TYPE** enumeration.

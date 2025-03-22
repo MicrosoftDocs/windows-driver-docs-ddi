@@ -43,6 +43,8 @@ helpviewer_keywords:
  - NET_BUFFER_LIST_CONTEXT_DATA_SIZE
 ---
 
+# NET_BUFFER_LIST_CONTEXT_DATA_SIZE function (nblaccessors.h)
+
 ## -description
 
 **NET_BUFFER_LIST_CONTEXT_DATA_SIZE** is a macro that NDIS drivers use to get the size of the [**NET_BUFFER_LIST_CONTEXT**](../nbl/ns-nbl-net_buffer_list_context.md) data buffer that is associated with a [**NET_BUFFER_LIST**](../nbl/ns-nbl-net_buffer_list.md) structure.

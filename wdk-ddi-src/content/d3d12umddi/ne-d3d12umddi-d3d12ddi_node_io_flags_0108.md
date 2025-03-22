@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_NODE_IO_FLAGS_0108
 ---
 
+# D3D12DDI_NODE_IO_FLAGS_0108 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_NODE_IO_FLAGS_0108** enumeration specifies flags used to describe the I/O behavior of a node in a work graph.

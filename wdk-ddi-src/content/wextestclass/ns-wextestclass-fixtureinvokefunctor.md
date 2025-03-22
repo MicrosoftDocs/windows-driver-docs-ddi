@@ -39,6 +39,8 @@ helpviewer_keywords:
  - FixtureInvokeFunctor
 ---
 
+# FixtureInvokeFunctor structure (wextestclass.h)
+
 ## -description
 
 The FixtureInvokeFunctor structure is used with the wextestclass header.

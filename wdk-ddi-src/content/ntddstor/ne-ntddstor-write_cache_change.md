@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _WRITE_CACHE_CHANGE
 ---
 
+# WRITE_CACHE_CHANGE enumeration (ntddstor.h)
+
 ## -description
 
 The WRITE\_CACHE\_CHANGE enumeration indicates whether the write cache features of a device are changeable or not.

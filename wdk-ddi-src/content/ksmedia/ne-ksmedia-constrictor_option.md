@@ -35,6 +35,8 @@ helpviewer_keywords:
  - CONSTRICTOR_OPTION
 ---
 
+# CONSTRICTOR_OPTION enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **CONSTRICTOR_OPTION** enumeration.

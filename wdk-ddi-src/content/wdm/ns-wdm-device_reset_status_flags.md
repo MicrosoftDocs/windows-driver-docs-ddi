@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _DEVICE_RESET_STATUS_FLAGS
 ---
 
+# DEVICE_RESET_STATUS_FLAGS structure (wdm.h)
+
 ## -description
 
 This topic describes the **DEVICE_RESET_STATUS_FLAGS** union.

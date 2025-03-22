@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _tagKSAUDIOENGINE_DEVICECONTROLS
 ---
 
+# KSAUDIOENGINE_DEVICECONTROLS structure (ksmedia.h)
+
 ## -description
 
 Describes the **KSAUDIOENGINE_DEVICECONTROLS** structure.

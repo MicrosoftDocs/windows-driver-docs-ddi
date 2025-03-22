@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_JOURNAL_DATA_V2
 ---
 
+# USN_JOURNAL_DATA_V2 structure (ntifs.h)
+
 ## -description
 
 The **USN_JOURNAL_DATA_V2** structure represents an update sequence number (USN) change journal, its records, and its capacity. This structure is the output buffer for the [**FSCTL_QUERY_USN_JOURNAL**](ni-ntifs-fsctl_query_usn_journal.md) control code.

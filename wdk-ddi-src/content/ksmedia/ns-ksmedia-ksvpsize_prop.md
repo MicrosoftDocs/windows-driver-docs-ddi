@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSVPSIZE_PROP
 ---
 
+# KSVPSIZE_PROP structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSVPSIZE_PROP** structure (ksmedia.h).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_NOTIFYWORKSUBMISSION
 ---
 
+# DXGKARG_NOTIFYWORKSUBMISSION structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_NOTIFYWORKSUBMISSION** structure contains parameters for [**DxgkDdiNotifyWorkSubmission**](nc-d3dkmddi-dxgkddi_notifyworksubmission.md).

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExAcquireSpinLockExclusive
 ---
 
+# ExAcquireSpinLockExclusive function (wdm.h)
+
 ## -description
 
 The **ExAcquireSpinLockExclusive** routine acquires a [spin lock](/windows-hardware/drivers/kernel/introduction-to-spin-locks) for exclusive access by the caller, and raises the IRQL to DISPATCH_LEVEL.

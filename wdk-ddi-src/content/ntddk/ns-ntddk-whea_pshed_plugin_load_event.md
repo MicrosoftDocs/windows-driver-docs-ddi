@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_PSHED_PLUGIN_LOAD_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

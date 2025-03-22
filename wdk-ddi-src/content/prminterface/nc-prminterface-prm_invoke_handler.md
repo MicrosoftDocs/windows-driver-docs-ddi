@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRM_INVOKE_HANDLER
 ---
 
+# PRM_INVOKE_HANDLER function (prminterface.h)
+
 ## -description
 
 This routine invokes a specific PRM handler.

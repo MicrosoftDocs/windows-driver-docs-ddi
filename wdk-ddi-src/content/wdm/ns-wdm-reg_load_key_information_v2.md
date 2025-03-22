@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# REG_LOAD_KEY_INFORMATION_V2 structure (wdm.h)
+
 ## -description
 
 The **REG_LOAD_KEY_INFORMATION_V2** structure contains information about a registry hive that is being loaded.

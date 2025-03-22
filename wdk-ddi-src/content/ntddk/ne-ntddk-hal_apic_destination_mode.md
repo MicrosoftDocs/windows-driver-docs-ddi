@@ -38,6 +38,8 @@ helpviewer_keywords:
  - HAL_APIC_DESTINATION_MODE
 ---
 
+# HAL_APIC_DESTINATION_MODE enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **HAL_APIC_DESTINATION_MODE** enumeration.

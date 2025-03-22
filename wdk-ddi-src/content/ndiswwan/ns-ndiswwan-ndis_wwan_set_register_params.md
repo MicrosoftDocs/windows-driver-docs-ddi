@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WWAN_SET_REGISTER_PARAMS structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_SET_REGISTER_PARAMS** structure represents data for [**OID_WWAN_REGISTER_PARAMS**](/windows-hardware/drivers/network/oid-wwan-register-params) set requests.

@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _STORPORT_ETW_EVENT_OPCODE
 ---
 
+# STORPORT_ETW_EVENT_OPCODE enumeration (storport.h)
+
 ## -description
 
 A **STORPORT_ETW_EVENT_OPCODE** enumeration defines operational nature of an ETW event.

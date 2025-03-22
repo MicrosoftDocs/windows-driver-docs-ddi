@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFLT_MESSAGE_NOTIFY
 ---
 
+# PFLT_MESSAGE_NOTIFY function (fltkernel.h)
+
 ## -description
 
 *FltMgr* calls a minifilter's **MessageNotifyCallback** callback function whenever a user-mode application calls [**FilterSendMessage**](/windows/win32/api/fltuser/nf-fltuser-filtersendmessage) to send a message to the minifilter through the client port.

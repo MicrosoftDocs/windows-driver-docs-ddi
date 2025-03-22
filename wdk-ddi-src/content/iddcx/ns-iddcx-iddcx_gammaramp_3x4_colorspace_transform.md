@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_GAMMARAMP_3X4_COLORSPACE_TRANSFORM
 ---
 
+# IDDCX_GAMMARAMP_3X4_COLORSPACE_TRANSFORM structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_GAMMARAMP_3X4_COLORSPACE_TRANSFORM** structure contains a 3x4 color space gamma ramp for a monitor.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# ADDRESS_AND_SIZE_TO_SPAN_PAGES function (wdm.h)
+
 ## -description
 
 The **ADDRESS_AND_SIZE_TO_SPAN_PAGES** macro returns the number of pages spanned by the virtual range defined by a virtual address and the size in bytes of a transfer request.

@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# WSK_BUF_LIST structure (wsk.h)
+
 ## -description
 
 The **WSK_BUF_LIST** structure is used to send multiple datagrams via a single call to [**WskSendMessages**](nc-wsk-pfn_wsk_send_messages.md).

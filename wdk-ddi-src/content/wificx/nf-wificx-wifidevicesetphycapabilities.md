@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceSetPhyCapabilities function (wificx.h)
+
 ## -description
 
 The **WifiDeviceSetPhyCapabilities** function sets the PHY capabilities for a WiFiCx device.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_NATIVE_FENCE_LOG_OPERATION
 ---
 
+# DXGK_NATIVE_FENCE_LOG_OPERATION enumeration (d3dukmdt.h)
+
 ## -description
 
 A **DXGK_NATIVE_FENCE_LOG_OPERATION** value identifies the native log entry operation being logged.

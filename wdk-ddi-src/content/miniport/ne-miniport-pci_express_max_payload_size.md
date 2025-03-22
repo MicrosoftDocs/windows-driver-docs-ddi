@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# PCI_EXPRESS_MAX_PAYLOAD_SIZE enumeration (miniport.h)
+
 ## -description
 
 **PCI_EXPRESS_MAX_PAYLOAD_SIZE** enumerates the maximum data payload sizes for a PCI Express (PCIe) controller.

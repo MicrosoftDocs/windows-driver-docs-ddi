@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3DWDDM2_0DDIARG_TEX2D_UNORDEREDACCESSVIEW
 ---
 
+# D3DWDDM2_0DDIARG_TEX2D_UNORDEREDACCESSVIEW structure (d3d10umddi.h)
+
 ## -description
 
 the **D3DWDDM2_0DDIARG_TEX2D_UNORDEREDACCESSVIEW** structure describes a 2D texture that is used to create an unordered access view in a call to [**CreateUnorderedAccessView (WDDM 2.0**](nc-d3d10umddi-pfnd3dwddm2_0ddi_createunorderedaccessview.md).

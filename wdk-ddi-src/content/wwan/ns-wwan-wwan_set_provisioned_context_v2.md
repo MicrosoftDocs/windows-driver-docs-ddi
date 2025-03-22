@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_SET_PROVISIONED_CONTEXT_V2
 ---
 
+# WWAN_SET_PROVISIONED_CONTEXT_V2 structure (wwan.h)
+
 ## -description
 
 The **WWAN_SET_PROVISIONED_CONTEXT_V2** structure represents a provisioned context that is supported by a mobile broadband (MBB) device. This structure is used by the [**NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2**](../ndiswwan/ns-ndiswwan-ndis_wwan_set_provisioned_context_v2.md) structure. 

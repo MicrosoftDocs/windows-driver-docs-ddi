@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_VIDEODECODER
 ---
 
+# KSEVENT_VIDEODECODER enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_VIDEODECODER** enumeration (ksmedia.h).

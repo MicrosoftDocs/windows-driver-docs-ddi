@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_FRU_ID_DESCRIPTION structure (storport.h)
+
 ## -description
 
 STOR_FRU_ID_DESCRIPTION is the structure pointed to by the **Parameters** parameter when a miniport's [**HwStorUnitControl**](nc-storport-hw_unit_control.md) routine is called with a **ControlType** of **ScsiUnitQueryFruId** or [**HwStorAdapterControl**](nc-storport-hw_adapter_control.md) routine is called with a **ControlType** of **ScsiAdapterQueryFruId**.

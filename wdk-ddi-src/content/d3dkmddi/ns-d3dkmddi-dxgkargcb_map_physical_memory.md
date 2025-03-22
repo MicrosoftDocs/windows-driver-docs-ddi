@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_MAP_PHYSICAL_MEMORY structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_MAP_PHYSICAL_MEMORY** structure contains the information used by the [**DXGKCB_MAPPHYSICALMEMORY**](nc-d3dkmddi-dxgkcb_mapphysicalmemory.md) callback function to map a CPU-visible virtual address to the underlying physical memory.

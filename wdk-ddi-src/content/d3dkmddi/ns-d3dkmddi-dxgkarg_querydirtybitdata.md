@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_QUERYDIRTYBITDATA
 ---
 
+# DXGKARG_QUERYDIRTYBITDATA structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_QUERYDIRTYBITDATA** is an input/output parameter for [**DxgkDdiQueryDirtyBitData**](nc-d3dkmddi-dxgkddi_querydirtybitdata.md) to use to query dirty bitplane data.

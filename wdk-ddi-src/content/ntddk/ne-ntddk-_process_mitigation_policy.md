@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _PROCESS_MITIGATION_POLICY
 ---
 
+# PROCESS_MITIGATION_POLICY enumeration (ntddk.h)
+
 ## -description
 
 Enumerates process mitigation policies.

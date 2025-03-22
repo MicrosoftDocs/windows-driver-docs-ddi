@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_IHV_TASK_PRIORITY enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

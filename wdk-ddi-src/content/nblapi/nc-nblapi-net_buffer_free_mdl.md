@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NET_BUFFER_FREE_MDL function (nblapi.h)
+
 ## -description
 
 The 

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderContextEnum3
 ---
 
+# FwpmProviderContextEnum3 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderContextEnum3** function returns the next page of results from the provider context enumerator.

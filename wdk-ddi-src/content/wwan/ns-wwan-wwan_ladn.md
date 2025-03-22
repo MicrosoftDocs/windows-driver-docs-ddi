@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_LADN
 ---
 
+# WWAN_LADN structure (wwan.h)
+
 ## -description
 
 The **WWAN_LADN** structure represents a Local Area Data Network (LADN).

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# KeInitializeCallbackRecord function (wdm.h)
+
 ## -description
 
 The **KeInitializeCallbackRecord** macro initializes a [**KBUGCHECK_CALLBACK_RECORD**](/windows-hardware/drivers/kernel/eprocess) or [**KBUGCHECK_REASON_CALLBACK_RECORD**](/windows-hardware/drivers/kernel/eprocess) structure.

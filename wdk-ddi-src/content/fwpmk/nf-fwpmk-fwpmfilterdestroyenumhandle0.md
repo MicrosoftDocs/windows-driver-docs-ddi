@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterDestroyEnumHandle0
 ---
 
+# FwpmFilterDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterDestroyEnumHandle0** function frees a handle returned by **[FwpmFilterCreateEnumHandle0](nf-fwpmk-fwpmfiltercreateenumhandle0.md)**.

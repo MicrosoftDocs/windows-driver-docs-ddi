@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_NODEMETADATA
 ---
 
+# D3DKMT_NODEMETADATA structure (d3dkmdt.h)
+
 ## -description
 
 The **D3DKMT_NODEMETADATA** structure describes the metadata for a node.

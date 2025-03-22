@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_WRITEVIRTUALIZEDINTERRUPT
 ---
 
+# DXGKDDI_WRITEVIRTUALIZEDINTERRUPT function (d3dkmddi.h)
+
 ## -description
 
 **DxgkDdiWriteVirtualizedInterrupt** services writes to the MSI-X interrupt table during the process of live migration of a virtualized GPU device.

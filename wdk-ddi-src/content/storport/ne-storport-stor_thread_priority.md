@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STOR_THREAD_PRIORITY enumeration (storport.h)
+
 ## -description
 
 **STOR_THREAD_PRIORITY** specifies the priority for a StorPort miniport-created thread.

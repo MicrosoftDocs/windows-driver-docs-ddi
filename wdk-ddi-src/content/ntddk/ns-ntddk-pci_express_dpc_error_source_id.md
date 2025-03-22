@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_EXPRESS_DPC_ERROR_SOURCE_ID
 ---
 
+# PCI_EXPRESS_DPC_ERROR_SOURCE_ID structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

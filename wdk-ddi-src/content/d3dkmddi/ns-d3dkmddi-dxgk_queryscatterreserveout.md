@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_QUERYSCATTERRESERVEOUT
 ---
 
+# DXGK_QUERYSCATTERRESERVEOUT structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_QUERYSCATTERRESERVEOUT** structure contains the output parameters (**pOutputData**) for a [**DxgkDdiQueryAdaptedInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) call with a **Type** of **DXGKQAITYPE_SCATTER_RESERVE**.

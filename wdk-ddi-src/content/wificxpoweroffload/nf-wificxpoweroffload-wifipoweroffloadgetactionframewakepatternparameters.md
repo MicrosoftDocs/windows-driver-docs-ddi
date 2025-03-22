@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WifiPowerOffloadGetActionFrameWakePatternParameters
 ---
 
+# WifiPowerOffloadGetActionFrameWakePatternParameters function (wificxpoweroffload.h)
+
 ## -description
 
 The **WifiPowerOffloadGetActionFrameWakePatternParameters** function gets the parameters for an action frame wake pattern low power protocol offload to a WiFiCx network adapter.

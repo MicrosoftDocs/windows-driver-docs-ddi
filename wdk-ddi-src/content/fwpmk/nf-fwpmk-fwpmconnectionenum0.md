@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionEnum0
 ---
 
+# FwpmConnectionEnum0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionEnum0** function returns the next page of results from the connection object enumerator.

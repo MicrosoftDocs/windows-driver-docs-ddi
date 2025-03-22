@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPrintCapabilities
 ---
 
+# IPrintTicketProvider2::GetPrintCapabilities function (prdrvcom.h)
+
 ## -description
 
 The **IPrintTicketProvider2::GetPrintCapabilities** method queries the provider for a complete print capabilities document that describes the printer's features and parameters.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_QOS_SQ_STATS structure (ntddndis.h)
+
 ## -description
 
 The **NDIS_QOS_SQ_STATS** structure is used by [OID_QOS_OFFLOAD_SQ_STATS](/windows-hardware/drivers/network/oid-qos-offload-sq-stats) to query the stats of an NDIS Quality of Service (QoS) Scheduler Queue (SQ).  

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_VOID_TRANSFORM
 ---
 
+# KSPROPERTY_BDA_VOID_TRANSFORM enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_VOID_TRANSFORM** enumeration.

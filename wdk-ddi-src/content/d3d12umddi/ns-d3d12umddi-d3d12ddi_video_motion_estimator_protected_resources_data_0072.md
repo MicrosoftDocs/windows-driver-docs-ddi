@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_MOTION_ESTIMATOR_PROTECTED_RESOURCES_DATA_0072 structure (d3d12umddi.h)
+
 ## -description
 
 Data structure used to check for video motion estimator protected resource support capabilities on a given node index.

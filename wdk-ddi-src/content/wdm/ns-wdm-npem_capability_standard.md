@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# NPEM_CAPABILITY_STANDARD structure (wdm.h)
+
 ## -description
 
 Reserved for system use.

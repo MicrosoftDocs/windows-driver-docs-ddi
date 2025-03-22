@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateFunctionAliasWithMetadata
 ---
 
+# IDebugHostExtensibility3::CreateFunctionAliasWithMetadata function (dbgmodel.h)
+
 ## -description
 
 The CreateFunctionAliasWithMetadata method is similar to [CreateFunctionAlias](nf-dbgmodel-idebughostextensibility2-createfunctionalias.md) but allows for passing metadata information about the function.

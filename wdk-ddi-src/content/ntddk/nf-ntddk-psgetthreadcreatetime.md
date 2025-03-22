@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PsGetThreadCreateTime
 ---
 
+# PsGetThreadCreateTime function (ntddk.h)
+
 ## -description
 
 This routine retrieves the creation time of a given thread.

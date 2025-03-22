@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_TVAUDIO
 ---
 
+# KSEVENT_TVAUDIO enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_TVAUDIO** enumeration (ksmedia.h).

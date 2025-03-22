@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IddCxMonitorQueryHardwareCursor3
 ---
 
+# IddCxMonitorQueryHardwareCursor3 function (iddcx.h)
+
 ## -description
 
 An indirect display driver calls **IddCxMonitorQueryHardwareCursor3** to retrieve the current hardware cursor information for the specified monitor. This function version adds the SDR white level which a driver must apply to the cursor if the monitor is in an HDR mode.

@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _FILE_ID_64_EXTD_DIR_INFORMATION
 ---
 
+# FILE_ID_64_EXTD_DIR_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **FILE_ID_64_EXTD_DIR_INFORMATION** structure is used to query 64-bit file reference number information for the files in a directory.

@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_STATION_CAPABILITIES structure (wificx.h)
+
 ## -description
 
 The **WIFI_STATION_CAPABILITIES** structure describes the station capabilities for a WiFiCx device.

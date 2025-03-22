@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderContextGetById1
 ---
 
+# FwpmProviderContextGetById1 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderContextGetById1** function retrieves a provider context.

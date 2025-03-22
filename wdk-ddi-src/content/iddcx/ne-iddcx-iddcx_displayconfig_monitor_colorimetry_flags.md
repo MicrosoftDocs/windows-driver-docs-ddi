@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY_FLAGS
 ---
 
+# IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY_FLAGS enumeration (iddcx.h)
+
 ## -description
 
 A **IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY_FLAGS** enumeration contains flags that indicate support for specific colorimetry and Electro-Optical Transfer Function (EOTF) capabilities.

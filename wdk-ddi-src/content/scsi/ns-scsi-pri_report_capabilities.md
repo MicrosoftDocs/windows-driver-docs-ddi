@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRI_REPORT_CAPABILITIES
 ---
 
+# PRI_REPORT_CAPABILITIES structure (scsi.h)
+
 ## -description
 
 The **PRI_REPORT_CAPABILITIES** structure contains the information on persistent reservation features that is returned in response to a Persistent Reserve In command with `ServiceAction=RESERVATION_ACTION_REPORT_CAPABILITIES`.

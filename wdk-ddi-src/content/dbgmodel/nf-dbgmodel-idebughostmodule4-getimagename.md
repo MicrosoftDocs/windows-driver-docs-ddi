@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetImageName
 ---
 
+# IDebugHostModule4::GetImageName function (dbgmodel.h)
+
 ## -description
 
 The GetImageName method returns the image name of the module. Depending on the value of the allowPath argument, the returned image name may or may not include the full path to the image.

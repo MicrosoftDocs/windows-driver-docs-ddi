@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_TELEPHONY_CONTROL
 ---
 
+# KSPROPERTY_TELEPHONY_CONTROL enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_TELEPHONY_CONTROL** enumeration (ksmedia.h).

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDCAP_DROPPEDFRAMES
 ---
 
+# KSPROPERTY_VIDCAP_DROPPEDFRAMES enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDCAP_DROPPEDFRAMES** enumeration (ksmedia.h).

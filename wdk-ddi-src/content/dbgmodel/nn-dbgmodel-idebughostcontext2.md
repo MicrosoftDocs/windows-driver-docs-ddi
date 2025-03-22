@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostContext2
 ---
 
+# IDebugHostContext2 interface (dbgmodel.h)
+
 ## -description
 
 Represents a context of the debugger answers questions about (what session, process, thread).

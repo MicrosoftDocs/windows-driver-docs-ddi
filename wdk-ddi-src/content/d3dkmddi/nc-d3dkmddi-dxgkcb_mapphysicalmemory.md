@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_MAPPHYSICALMEMORY function (d3dkmddi.h)
+
 ## -description
 
 A kernel-mode display miniport driver calls **DXGKCB_MAPPHYSICALMEMORY** to map CPU-visible virtual addresses to the underlying physical memory.

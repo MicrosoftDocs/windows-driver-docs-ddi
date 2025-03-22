@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EnumerateChildren
 ---
 
+# IDebugHostField2::EnumerateChildren function (dbgmodel.h)
+
 ## -description
 
 The EnumerateChildren method returns an enumerator which will enumerate all children of a given symbol. For a C++ type, for example, the base classes, fields, member functions, and the like are all considered children of the type symbol.

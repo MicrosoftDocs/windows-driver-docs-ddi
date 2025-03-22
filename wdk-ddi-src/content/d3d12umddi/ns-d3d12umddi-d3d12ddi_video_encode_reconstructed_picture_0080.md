@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODE_RECONSTRUCTED_PICTURE_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODE_RECONSTRUCTED_PICTURE_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The**D3D12DDI_VIDEO_ENCODE_RECONSTRUCTED_PICTURE_0080** structure encapsulates the reconstructed picture generated from the input frame passed to the encode operation.

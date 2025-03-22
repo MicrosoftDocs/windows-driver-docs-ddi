@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _FILE_REGION_OUTPUT
 ---
 
+# FILE_REGION_OUTPUT structure (ntifs.h)
+
 ## -description
 
 **FILE_REGION_OUTPUT** is the output structure for [**FSCTL_QUERY_FILE_REGIONS**](ni-ntifs-fsctl_query_file_regions.md).

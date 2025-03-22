@@ -35,6 +35,8 @@ helpviewer_keywords:
  - POWER_MONITOR_REQUEST_REASON
 ---
 
+# POWER_MONITOR_REQUEST_REASON enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **POWER_MONITOR_REQUEST_REASON** enumeration.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _T2_COMMAND_DURATION_LIMIT_DESCRIPTOR
 ---
 
+# T2_COMMAND_DURATION_LIMIT_DESCRIPTOR structure (scsi.h)
+
 ## -description
 
 The **T2_COMMAND_DURATION_LIMIT_DESCRIPTOR** structure describes the command duration limit (CDL) information that corresponds to one **T2CommandDurationLimitDescriptors** index in a [**MODE_COMMAND_DURATION_LIMIT_PAGE_T2A_SUBPAGE**](ns-scsi-mode_command_duration_limit_page_t2a_subpage.md) and [**MODE_COMMAND_DURATION_LIMIT_PAGE_T2B_SUBPAGE**](ns-scsi-mode_command_duration_limit_page_t2b_subpage.md) structure. See Table 459 (T2 Command Duration Limit Descriptor format) in the T10 SCSI Primary Commands specification (SPC-6) for details.

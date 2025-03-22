@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireInStackQueuedSpinLock
 ---
 
+# KeAcquireInStackQueuedSpinLock function (wdm.h)
+
 ## -description
 
 The **KeAcquireInStackQueuedSpinLock** routine acquires a queued spin lock.

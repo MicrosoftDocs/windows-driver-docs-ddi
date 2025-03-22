@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# FSCTL_MANAGE_BYPASS_IO ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_MANAGE_BYPASS_IO** control code controls BypassIO operations on a given file in the filter and file system stacks.

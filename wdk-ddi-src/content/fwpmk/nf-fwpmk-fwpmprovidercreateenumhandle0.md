@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmProviderCreateEnumHandle0
 ---
 
+# FwpmProviderCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmProviderCreateEnumHandle0** function creates a handle used to enumerate a set of providers.

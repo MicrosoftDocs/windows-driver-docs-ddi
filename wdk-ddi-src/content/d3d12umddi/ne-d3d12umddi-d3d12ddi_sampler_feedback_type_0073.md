@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_SAMPLER_FEEDBACK_TYPE_0073 enumeration (d3d12umddi.h)
+
 ## -description
 
 Specifies type of sample feedback map. Deprecated - do not use.

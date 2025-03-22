@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_COLOR_SPACE
 ---
 
+# IDDCX_COLOR_SPACE enumeration (iddcx.h)
+
 ## -description
 
 An **IDDCX_COLOR_SPACE** enumeration value specifies the color space to use on the monitor.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_OFFSET_SIZE_ELEMENT
 ---
 
+# WWAN_OFFSET_SIZE_ELEMENT structure (wwan.h)
+
 ## -description
 
 The **WWAN_OFFSET_SIZE_ELEMENT** structure contains the size and offset to a data buffer.

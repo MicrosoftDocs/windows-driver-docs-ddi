@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_DEFAULT_PDU_SESSION_HINT enumeration (wwan.h)
+
 ## -description
 
 The **WWAN_DEFAULT_PDU_SESSION_HINT** enumeration lists protocol data unit (PDU) session hints.

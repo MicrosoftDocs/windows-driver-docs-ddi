@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetReceiveFilterGetPacketFilter function (netadapter.h)
+
 ## -description
 
 The **NetReceiveFilterGetPacketFilter** function retrieves the **NET_PACKET_FILTER_FLAGS**. These flags describe the packet filters that the network adapter supports.

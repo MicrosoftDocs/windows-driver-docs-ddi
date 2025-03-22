@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_NOTIFY_WORK_SUBMISSION_FLAGS
 ---
 
+# D3DKMT_NOTIFY_WORK_SUBMISSION_FLAGS structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_NOTIFY_WORK_SUBMISSION_FLAGS** structure specifies work submission notification flags.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDIARG_CREATERESOURCE_0088
 ---
 
+# D3D12DDIARG_CREATERESOURCE_0088 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDIARG_CREATERESOURCE_0088** structure contains the information needed to create or calculate the size of a resource.

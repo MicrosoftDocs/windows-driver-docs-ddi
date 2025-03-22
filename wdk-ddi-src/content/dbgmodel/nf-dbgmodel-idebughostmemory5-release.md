@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Release
 ---
 
+# IDebugHostMemory5::Release function (dbgmodel.h)
+
 ## -description
 
 Decrements the reference count for an interface on an object. 

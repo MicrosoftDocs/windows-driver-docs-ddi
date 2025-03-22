@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateSyntheticObject
 ---
 
+# IDataModelManager4::CreateSyntheticObject function (dbgmodel.h)
+
 ## -description
 
 The CreateSyntheticObject method creates an empty data model object -- a dictionary of key/value/metadata tuples and concepts. At the time of creation, there are no keys nor concepts on the object. It is a clean slate for the caller to utilize.

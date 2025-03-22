@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_TILESIZE_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_TILESIZE_0095 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_RESTORATION_TILESIZE_0095** corresponds to the size of loop restoration units, in units of samples in the current plane.

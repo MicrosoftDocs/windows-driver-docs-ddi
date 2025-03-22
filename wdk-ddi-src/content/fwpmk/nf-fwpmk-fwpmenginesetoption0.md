@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmEngineSetOption0
 ---
 
+# FwpmEngineSetOption0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmEngineSetOption0** function changes the filter engine settings.

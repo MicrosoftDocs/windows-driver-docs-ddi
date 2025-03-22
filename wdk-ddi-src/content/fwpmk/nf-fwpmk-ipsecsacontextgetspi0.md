@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecSaContextGetSpi0
 ---
 
+# IPsecSaContextGetSpi0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecSaContextGetSpi0** function retrieves the security parameters index (SPI) for a security association (SA) context.

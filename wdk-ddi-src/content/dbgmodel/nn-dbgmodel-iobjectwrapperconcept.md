@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IObjectWrapperConcept
 ---
 
+# IObjectWrapperConcept interface (dbgmodel.h)
+
 ## -description
 
 An object which is a wrapper for another object (e.g.: a smart pointer like std::unique_ptr) can implement this concept to indicate such.

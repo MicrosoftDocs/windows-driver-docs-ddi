@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiPowerOffloadGet80211RSNRekeyParameters function (wificxpoweroffload.h)
+
 ## -description
 
 The **WifiPowerOffloadGet80211RSNRekeyParameters** function gets parameters for an 802.11 RSN rekey low power protocol offload to a WiFiCx net adapter.

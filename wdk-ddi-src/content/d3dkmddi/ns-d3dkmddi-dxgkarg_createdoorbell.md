@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATEDOORBELL
 ---
 
+# DXGKARG_CREATEDOORBELL structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CREATEDOORBELL** structure contains parameters for KMD's [**DxgkDdiCreateDoorbell**](nc-d3dkmddi-dxgkddi_createdoorbell.md) callback function.

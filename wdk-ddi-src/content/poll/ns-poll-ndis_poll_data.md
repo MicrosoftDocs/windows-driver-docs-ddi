@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_POLL_DATA structure (poll.h)
+
 ## -description
 
 The **NDIS_POLL_DATA** structure contains pointers to the [**NDIS_POLL_TRANSMIT_DATA**](ns-poll-ndis_poll_transmit_data.md) and [**NDIS_POLL_RECEIVE_DATA**](ns-poll-ndis_poll_receive_data.md) structures that the miniport driver uses to perform receive indications and send completions when using a Poll object.

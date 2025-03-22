@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFN_IDDCXSETREALTIMEGPUPRIORITY
 ---
 
+# PFN_IDDCXSETREALTIMEGPUPRIORITY function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXSETREALTIMEGPUPRIORITY** is a pointer to an OS callback function through which to raise the GPU priority of a DirectX device to realtime.

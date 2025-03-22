@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORAGE_RPMB_DESCRIPTOR structure (ntddstor.h)
+
 ## -description
 
 The **STORAGE_RPMB_DESCRIPTOR** structure contains information about a device's Replay Protected Memory Block (RPMB) support.

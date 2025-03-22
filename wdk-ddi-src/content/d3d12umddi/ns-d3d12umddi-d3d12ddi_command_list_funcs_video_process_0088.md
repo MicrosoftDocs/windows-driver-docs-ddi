@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0088
 ---
 
+# D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0088 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_COMMAND_LIST_FUNCS_VIDEO_PROCESS_0088** structure contains pointers to command list functions for video processing, version D3D12DDI_FEATURE_VERSION_VIDEO_0088.

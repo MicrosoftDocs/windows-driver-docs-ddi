@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKARGCB_RELEASEHANDLEDATA structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_RELEASEHANDLEDATA** structure contains the information used by the [**DXGKCB_RELEASEHANDLEDATA**](nc-d3dkmddi-dxgkcb_releasehandledata.md) callback function to release a reference to an allocation.

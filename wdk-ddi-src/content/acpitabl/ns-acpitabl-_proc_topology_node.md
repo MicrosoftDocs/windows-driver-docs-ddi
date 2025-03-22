@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PROC_TOPOLOGY_NODE
 ---
 
+# PROC_TOPOLOGY_NODE structure (acpitabl.h)
+
 ## -description
 
 Defines the processor topology node structure.

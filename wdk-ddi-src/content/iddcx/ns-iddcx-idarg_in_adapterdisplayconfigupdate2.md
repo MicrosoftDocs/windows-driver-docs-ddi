@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE2
 ---
 
+# IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE2 structure (iddcx.h)
+
 ## -description
 
 **IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE2** contains the arguments used in the [**IddCxAdapterDisplayConfigUpdate2**](nf-iddcx-iddcxadapterdisplayconfigupdate2.md) function.

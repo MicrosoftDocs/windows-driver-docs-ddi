@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_MAP_PHYSICAL_ADDRESS structure (wdm.h)
+
 ## -description
 
 The **IOMMU_MAP_PHYSICAL_ADDRESS** represents a physical address that is to be mapped to a logical address. It is used by [*IOMMU_MAP_LOGICAL_RANGE_EX*](nc-wdm-iommu_map_logical_range_ex.md) and [*IOMMU_MAP_IDENTITY_RANGE_EX*](nc-wdm-iommu_map_identity_range_ex.md).

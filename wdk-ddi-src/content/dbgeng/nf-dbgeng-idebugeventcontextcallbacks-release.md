@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::Release function (dbgeng.h)
+
 ## -description
 
 The standard COM Release method.

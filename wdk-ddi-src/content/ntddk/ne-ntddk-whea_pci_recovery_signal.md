@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WHEA_PCI_RECOVERY_SIGNAL
 ---
 
+# WHEA_PCI_RECOVERY_SIGNAL enumeration (ntddk.h)
+
 ## -description
 
 Describes the **WHEA_PCI_RECOVERY_SIGNAL** enumeration.

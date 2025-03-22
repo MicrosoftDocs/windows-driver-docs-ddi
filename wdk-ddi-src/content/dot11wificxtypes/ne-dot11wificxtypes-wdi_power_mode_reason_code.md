@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_POWER_MODE_REASON_CODE enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

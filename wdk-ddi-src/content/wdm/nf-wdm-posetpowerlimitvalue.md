@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoSetPowerLimitValue
 ---
 
+# PoSetPowerLimitValue function (wdm.h)
+
 ## -description
 
 This function sets power limit values.

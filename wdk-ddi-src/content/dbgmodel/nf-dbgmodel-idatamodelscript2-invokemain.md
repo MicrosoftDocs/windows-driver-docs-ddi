@@ -42,6 +42,8 @@ helpviewer_keywords:
  - InvokeMain
 ---
 
+# IDataModelScript2::InvokeMain function (dbgmodel.h)
+
 ## -description
 
 If the script has a "main function" which is intended to execute from a UI invocation, it indicates such via a true return from the IsInvocable method. The user interface can then call the InvokeMain method to actually "invoke" the script. Note that this is distinct from *Execute* which runs all root code and bridges the script to the namespace of the underlying host. 

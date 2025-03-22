@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_NODE_LIST_ENTRY_0108
 ---
 
+# D3D12DDI_NODE_LIST_ENTRY_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_NODE_LIST_ENTRY_0108** structure is used as part of a linked list to represent individual nodes in a work graph. Each node represents a unit of work or operation that can be executed on the GPU.

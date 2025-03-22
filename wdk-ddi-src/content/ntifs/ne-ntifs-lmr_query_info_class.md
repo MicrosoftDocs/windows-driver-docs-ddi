@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _LMR_QUERY_INFO_CLASS
 ---
 
+# LMR_QUERY_INFO_CLASS enumeration (ntifs.h)
+
 ## -description
 
 The **LMR_QUERY_INFO_CLASS** enumeration specifies the type of information to query.

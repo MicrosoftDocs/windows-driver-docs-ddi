@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HIDSPICX_DEVICE_CONFIG_INIT function (hidspicx.h)
+
 ## -description
 
 The **HIDSPICX_DEVICE_CONFIG_INIT** routine is used to initialize a [**HIDSPICX_DEVICE_CONFIG**](ns-hidspicx-hidspicx_device_config.md) structure before passing it to the to the **HidSpiCxDeviceConfigure** function.

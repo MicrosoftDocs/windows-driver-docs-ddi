@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_BUILDTESTCOMMANDBUFFER
 ---
 
+# DXGKDDI_BUILDTESTCOMMANDBUFFER function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DXGKDDI_BUILDTESTCOMMANDBUFFER** function builds a test command buffer for [kernel-mode testing](/windows-hardware/drivers/display/kernel-mode-testing-of-wddm-features).

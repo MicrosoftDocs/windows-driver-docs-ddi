@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_AZCC_ROOT_BUS_ERR_EVENT structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

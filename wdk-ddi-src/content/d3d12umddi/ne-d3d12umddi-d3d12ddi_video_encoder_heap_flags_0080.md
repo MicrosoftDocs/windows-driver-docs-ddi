@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_HEAP_FLAGS_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_HEAP_FLAGS_0080 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_HEAP_FLAGS_0080** enumeration lists video encoder heap creation flags.

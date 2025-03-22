@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionDestroyEnumHandle0
 ---
 
+# FwpmConnectionDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionDestroyEnumHandle0** function frees a handle returned by **[FwpmConnectionCreateEnumHandle0](nf-fwpmk-fwpmconnectioncreateenumhandle0.md)**.

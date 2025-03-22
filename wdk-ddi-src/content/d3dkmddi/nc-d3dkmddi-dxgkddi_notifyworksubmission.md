@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_NOTIFYWORKSUBMISSION
 ---
 
+# DXGKDDI_NOTIFYWORKSUBMISSION function (d3dkmddi.h)
+
 ## -description
 
 The **DxgkDdiNotifyWorkSubmission** function notifies KMD that UMD has submitted new work.

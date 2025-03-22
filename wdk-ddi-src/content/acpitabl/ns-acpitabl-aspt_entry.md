@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _ASPT_ENTRY
 ---
 
+# ASPT_ENTRY structure (acpitabl.h)
+
 ## -description
 
 This topic describes the **ASPT_ENTRY** union used by the AMD Secure Processor Table (ASPT).

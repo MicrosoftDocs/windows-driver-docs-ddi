@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KS_PhysicalConnectorType
 ---
 
+# KS_PhysicalConnectorType enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KS_PhysicalConnectorType** enumeration (ksmedia.h).

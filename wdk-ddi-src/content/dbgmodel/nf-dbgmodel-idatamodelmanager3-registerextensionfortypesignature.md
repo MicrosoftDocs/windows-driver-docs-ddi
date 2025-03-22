@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RegisterExtensionForTypeSignature
 ---
 
+# IDataModelManager3::RegisterExtensionForTypeSignature function (dbgmodel.h)
+
 ## -description
 
 The RegisterExtensionForTypeSignature method is similar to the RegisterModelForTypeSignature method with one key difference. The data model which is passed to this method is not the canonical visualizer for any type and it will not take over the display of the native/language view of that type. The data model which is passed to this method will automatically be added as a parent to any concrete type which matches the supplied type signature. 

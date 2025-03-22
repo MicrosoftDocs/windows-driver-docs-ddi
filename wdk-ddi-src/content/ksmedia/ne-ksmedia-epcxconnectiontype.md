@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPcxConnectionType
 ---
 
+# EPcxConnectionType enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **EPcxConnectionType** enumeration (ksmedia.h).

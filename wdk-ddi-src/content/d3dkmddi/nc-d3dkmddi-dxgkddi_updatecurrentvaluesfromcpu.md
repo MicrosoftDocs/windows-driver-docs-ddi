@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_UPDATECURRENTVALUESFROMCPU
 ---
 
+# DXGKDDI_UPDATECURRENTVALUESFROMCPU function (d3dkmddi.h)
+
 ## -description
 
 The OS calls **DxgkDdiUpdateCurrentValuesFromCpu** to update the **CurrentValue** of a batch of native fences from the CPU.

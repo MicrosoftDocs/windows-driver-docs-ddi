@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PFND3D12DDI_IMPLICITSHADERCACHECONTROL_0080 function (d3d12umddi.h)
+
 ## -description
 
 The **pfnImplicitShaderCacheControl** callback function can optionally perform an application-requested action on the driver-managed shader cache.

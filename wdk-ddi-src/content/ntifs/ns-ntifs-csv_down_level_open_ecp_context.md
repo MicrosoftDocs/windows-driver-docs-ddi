@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# CSV_DOWN_LEVEL_OPEN_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **CSV_DOWN_LEVEL_OPEN_ECP_CONTEXT** structure contains the extra create parameter (ECP) context sent by the Cluster Share Volumes (CSV) file system with information about the type of file create.

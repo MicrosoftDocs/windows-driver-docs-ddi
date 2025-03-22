@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RATING_ATTRIBUTE
 ---
 
+# RATING_ATTRIBUTE structure (bdamedia.h)
+
 ## -description
 
 This topic describes the **RATING_ATTRIBUTE** structure.

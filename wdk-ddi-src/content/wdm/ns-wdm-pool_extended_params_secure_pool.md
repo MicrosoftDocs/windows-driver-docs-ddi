@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# POOL_EXTENDED_PARAMS_SECURE_POOL structure (wdm.h)
+
 ## -description
 
 Defines the **POOL_EXTENDED_PARAMS_SECURE_POOL** structure.

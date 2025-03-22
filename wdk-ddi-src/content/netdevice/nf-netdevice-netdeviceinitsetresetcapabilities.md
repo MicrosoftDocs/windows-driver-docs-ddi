@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetDeviceInitSetResetCapabilities function (netadaptercx.h)
+
 ## -description
 
 The **NetDeviceInitSetResetCapabilities** function registers a client driver's [**NET_DEVICE_RESET_CAPABILITIES**](ns-netdevice-net_device_reset_capabilities.md) to the NetAdapterCx framework.

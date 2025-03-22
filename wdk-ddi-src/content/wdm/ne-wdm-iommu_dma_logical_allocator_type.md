@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_LOGICAL_ALLOCATOR_TYPE enumeration (wdm.h)
+
 ## -description
 
 The **IOMMU_DMA_LOGICAL_ALLOCATOR_TYPE** enum indicates the type of logical allocator described in an [**IOMMU_DMA_LOGICAL_ALLOCATOR_CONFIG**](ns-wdm-iommu_dma_logical_allocator_config.md) structure.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _DMA_ADAPTER_INFO
 ---
 
+# DMA_ADAPTER_INFO structure (wdm.h)
+
 ## -description
 
 The DMA_ADAPTER_INFO structure is a container for a DMA_ADAPTER_INFO_XXX structure that describes the capabilities of a system DMA controller.

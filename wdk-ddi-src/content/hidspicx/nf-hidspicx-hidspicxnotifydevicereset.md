@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HidSpiCxNotifyDeviceReset function (hidspicx.h)
+
 ## -description
 
 Informs the class extension of a requirement to reset the device.

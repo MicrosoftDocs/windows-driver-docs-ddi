@@ -36,6 +36,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_METADATA_STATISTICS_0083_0 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_METADATA_STATISTICS_0083_0** structure is used to provide encoding statistics for an [encoding operation](nc-d3d12umddi-pfnd3d12ddi_video_encode_frame_0082_0.md).

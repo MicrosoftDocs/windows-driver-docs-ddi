@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_TAI_LIST_MULTI_PLMN
 ---
 
+# WWAN_TAI_LIST_MULTI_PLMN structure (wwan.h)
+
 ## -description
 
 The **WWAN_TAI_LIST_MULTI_PLMN** structure represents a list of Tracking Area Identities (TAIs) that belong to different PLMNs (the Mobile Country Code (MCC) and Mobile Network Code (MNC)).

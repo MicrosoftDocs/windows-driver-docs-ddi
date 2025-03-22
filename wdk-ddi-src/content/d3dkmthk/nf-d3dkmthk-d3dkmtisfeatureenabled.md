@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTIsFeatureEnabled
 ---
 
+# D3DKMTIsFeatureEnabled function (d3dkmthk.h)
+
 ## -description
 
 A user-mode client calls **D3DKMTIsFeatureEnabled** to query whether a particular WDDM feature is enabled.

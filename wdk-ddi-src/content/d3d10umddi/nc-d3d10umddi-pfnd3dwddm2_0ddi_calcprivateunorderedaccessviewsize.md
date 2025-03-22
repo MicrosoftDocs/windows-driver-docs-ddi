@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3DWDDM2_0DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE
 ---
 
+# PFND3DWDDM2_0DDI_CALCPRIVATEUNORDEREDACCESSVIEWSIZE function (d3d10umddi.h)
+
 ## -description
 
 The **CalcPrivateUnorderedAccessViewSize** function determines the size of the user-mode display driver's private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for an unordered access view.

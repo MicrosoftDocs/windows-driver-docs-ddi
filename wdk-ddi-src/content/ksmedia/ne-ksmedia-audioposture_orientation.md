@@ -29,6 +29,8 @@ dev_langs:
  - c++
 ---
 
+# AUDIOPOSTURE_ORIENTATION enumeration (ksmedia.h)
+
 ## -description
 
 The rotation values indicates the orientation of screen in sync with the UI. The UI may be locked to a particular orientation regardless of the physical sensor. This indicates the UI/shell orientation on the particular screen.

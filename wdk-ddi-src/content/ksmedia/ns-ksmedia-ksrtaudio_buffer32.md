@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSRTAUDIO_BUFFER32
 ---
 
+# KSRTAUDIO_BUFFER32 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSRTAUDIO_BUFFER32** structure (ksmedia.h).

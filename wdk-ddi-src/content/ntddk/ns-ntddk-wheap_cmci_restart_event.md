@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEAP_CMCI_RESTART_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

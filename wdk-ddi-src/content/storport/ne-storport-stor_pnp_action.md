@@ -38,6 +38,8 @@ helpviewer_keywords:
  - STOR_PNP_ACTION
 ---
 
+# STOR_PNP_ACTION enumeration (storport.h)
+
 ## -description
 
 See [**STOR_PNP_ACTION** (*srb.h*)](../srb/ne-srb-stor_pnp_action.md).

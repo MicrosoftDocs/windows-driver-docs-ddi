@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _tagKSJACK_DESCRIPTION3
 ---
 
+# KSJACK_DESCRIPTION3 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSJACK_DESCRIPTION3** structure.

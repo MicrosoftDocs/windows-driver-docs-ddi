@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_DISCONNECTDOORBELL
 ---
 
+# DXGKCB_DISCONNECTDOORBELL function (d3dkmddi.h)
+
 ## -description
 
 KMD calls **DxgkCbDisconnectDoorbell** to notify *Dxgkrnl* that KMD needs to disconnect a previously connected doorbell from a hardware queue.

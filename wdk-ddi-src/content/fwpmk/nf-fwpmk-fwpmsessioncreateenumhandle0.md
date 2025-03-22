@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSessionCreateEnumHandle0
 ---
 
+# FwpmSessionCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSessionCreateEnumHandle0** function creates a handle used to enumerate a set of session objects.

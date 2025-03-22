@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetServiceManager
 ---
 
+# IDebugHostContextTargetComposition::GetServiceManager function (dbgmodel.h)
+
 ## -description
 
 The GetServiceManager method retrieves the service manager container that is associated with a particular host context.

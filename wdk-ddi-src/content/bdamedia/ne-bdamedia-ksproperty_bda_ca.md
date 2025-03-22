@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_CA
 ---
 
+# KSPROPERTY_BDA_CA enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_CA** enumeration.

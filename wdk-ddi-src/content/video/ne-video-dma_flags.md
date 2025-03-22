@@ -35,6 +35,8 @@ helpviewer_keywords:
  - DMA_FLAGS
 ---
 
+# DMA_FLAGS enumeration (video.h)
+
 ## -description
 
 The **DMA_FLAGS** enumeration specifies flags for the [**VideoPortLockPages**](nf-video-videoportlockpages.md) or [**VideoPortDoDma**](nf-video-videoportdodma.md) functions.

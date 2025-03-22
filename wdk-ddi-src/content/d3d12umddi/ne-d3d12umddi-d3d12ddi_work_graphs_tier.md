@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_WORK_GRAPHS_TIER
 ---
 
+# D3D12DDI_WORK_GRAPHS_TIER enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WORK_GRAPHS_TIER** enumeration specifies the work graphs tier supported by the driver.

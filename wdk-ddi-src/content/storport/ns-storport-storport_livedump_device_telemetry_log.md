@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG structure (storport.h)
+
 ## -description
 
 **STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG** contains the payload for a live dump captured by [**StorPortCaptureLiveDump**](nf-storport-storportcapturelivedump.md).

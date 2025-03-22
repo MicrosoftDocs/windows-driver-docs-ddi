@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SRBEX_DATA_NVMEOF_OPERATION
 ---
 
+# SRBEX_DATA_NVMEOF_OPERATION structure (storport.h)
+
 ## -description
 
 For internal use only. Do not use.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PCI_EXPRESS_CAPABILITY
 ---
 
+# PCI_EXPRESS_CAPABILITY structure (ntddk.h)
+
 ## -description
 
 The **PCI_EXPRESS_CAPABILITY** structure describes a PCI Express (PCIe) capability structure.

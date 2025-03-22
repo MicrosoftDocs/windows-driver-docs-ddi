@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_INTERRUPT_TABLE_ENTRY
 ---
 
+# DXGK_INTERRUPT_TABLE_ENTRY structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_INTERRUPT_TABLE_ENTRY** structure contains data to write to an MSI-X table entry.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IddCxSetRealtimeGPUPriority
 ---
 
+# IddCxSetRealtimeGPUPriority function (iddcx.h)
+
 ## -description
 
 An indirect display driver (IDD) calls **IddCxSetRealtimeGPUPriority** to raise the GPU priority of a DirectX device to realtime.

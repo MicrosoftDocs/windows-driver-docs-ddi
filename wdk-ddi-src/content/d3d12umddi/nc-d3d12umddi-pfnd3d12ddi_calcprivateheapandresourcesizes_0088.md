@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0088
 ---
 
+# PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0088 function (d3d12umddi.h)
+
 ## -description
 
 **PFND3D12DDI_CALCPRIVATEHEAPANDRESOURCESIZES_0088** calculates the number of bytes required for a private heap and resource.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoUnregisterFromEffectivePowerModeNotifications
 ---
 
+# PoUnregisterFromEffectivePowerModeNotifications function (wdm.h)
+
 ## -description
 
 The **PoUnregisterFromEffectivePowerModeNotifications** function unregisters from effective power mode change notifications. This function is intended to be called from cleanup code and will wait for all callbacks to complete before unregistering.

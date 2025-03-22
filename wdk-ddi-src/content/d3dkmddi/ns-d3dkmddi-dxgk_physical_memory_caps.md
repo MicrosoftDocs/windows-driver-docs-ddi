@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_PHYSICAL_MEMORY_CAPS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_PHYSICAL_MEMORY_CAPS** structure provides information about the driver's physical memory restrictions.

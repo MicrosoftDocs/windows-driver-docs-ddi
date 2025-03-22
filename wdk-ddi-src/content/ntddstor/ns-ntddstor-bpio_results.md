@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# BPIO_RESULTS structure (ntddstor.h)
+
 ## -description
 
 The **BPIO_RESULTS** structure defines BypassIO operation-specific outputs for [**BPIO_OP_ENABLE** and **BPIO_OP_QUERY** operations](ne-ntddstor-bpio_operations.md) when a driver is failing the operation.

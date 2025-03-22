@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_REPORT_HW_ERROR_DEVICE_DRIVER_FLAGS structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

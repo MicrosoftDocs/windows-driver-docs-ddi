@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_GPUP_MIGRATIONTYPE
 ---
 
+# DXGK_GPUP_MIGRATIONTYPE enumeration (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_GPUP_MIGRATIONTYPE** enumeration identifies the side of the migration process to prepare for.

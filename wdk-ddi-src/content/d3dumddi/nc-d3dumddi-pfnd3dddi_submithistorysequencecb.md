@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3DDDI_SUBMITHISTORYSEQUENCECB
 ---
 
+# PFND3DDDI_SUBMITHISTORYSEQUENCECB function (d3dumddi.h)
+
 ## -description
 
 **PFND3DDDI_SUBMITHISTORYSEQUENCECB** associates history buffer data with a particular hardware queue and progress fence ID.

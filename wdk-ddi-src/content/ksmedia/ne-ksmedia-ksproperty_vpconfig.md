@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_VPCONFIG
 ---
 
+# KSPROPERTY_VPCONFIG enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VPCONFIG** enumeration (ksmedia.h).

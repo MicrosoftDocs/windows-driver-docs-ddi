@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadBytes
 ---
 
+# IDebugHostMemory4::ReadBytes function (dbgmodel.h)
+
 ## -description
 
 Reads a number of bytes from the address space of the target as defined by the inpassed context and location.

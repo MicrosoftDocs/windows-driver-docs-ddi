@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_DISCONNECTDOORBELL
 ---
 
+# DXGKARG_DISCONNECTDOORBELL structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_DISCONNECTDOORBELL** structure contains parameters for [**DxgkDdiDisconnectDoorbell**](nc-d3dkmddi-dxgkddi_disconnectdoorbell.md).

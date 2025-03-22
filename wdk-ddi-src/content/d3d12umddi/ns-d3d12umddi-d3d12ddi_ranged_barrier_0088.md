@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_RANGED_BARRIER_0088
 ---
 
+# D3D12DDI_RANGED_BARRIER_0088 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_RANGED_BARRIER_0088** structure describes a resource ranged barrier. This structure replaces the legacy [**D3D12DDI_RESOURCE_RANGED_BARRIER_0022**](ns-d3d12umddi-d3d12ddi_resource_ranged_barrier_0022.md) structure.

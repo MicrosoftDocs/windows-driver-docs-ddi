@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# POOL_EXTENDED_PARAMETER_TYPE enumeration (wdm.h)
+
 ## -description
 
 This enumeration is used in the [**POOL_EXTENDED_PARAMETER**](xref:NS:wdm._POOL_EXTENDED_PARAMETER) structure.

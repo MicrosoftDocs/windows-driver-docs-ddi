@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# BYTES_TO_PAGES function (wdm.h)
+
 ## -description
 
 The **BYTES_TO_PAGES** macro takes the size in bytes of the transfer request and calculates the number of pages required to contain the bytes.

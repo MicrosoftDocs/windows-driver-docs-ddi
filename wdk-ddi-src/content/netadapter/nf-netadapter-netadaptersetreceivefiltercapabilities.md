@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetAdapterSetReceiveFilterCapabilities function (netadapter.h)
+
 ## -description
 
 The **NetAdapterSetReceiveFilterCapabilities** function sets the receive filtering capabilities of a network adapter.

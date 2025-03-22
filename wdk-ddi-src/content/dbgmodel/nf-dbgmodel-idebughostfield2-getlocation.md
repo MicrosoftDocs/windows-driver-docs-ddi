@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetLocation
 ---
 
+# IDebugHostField2::GetLocation function (dbgmodel.h)
+
 ## -description
 
 For fields which have an address regardless of the particular type instance (e.g. fields whose location kind indicates LocationStatic), the GetLocation method will return the abstract location (address) of the field.

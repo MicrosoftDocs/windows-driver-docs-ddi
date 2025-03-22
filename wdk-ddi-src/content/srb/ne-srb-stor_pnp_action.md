@@ -38,6 +38,8 @@ helpviewer_keywords:
  - STOR_PNP_ACTION
 ---
 
+# STOR_PNP_ACTION enumeration (srb.h)
+
 ## -description
 
 Enumerates Plug and Play minor function codes.

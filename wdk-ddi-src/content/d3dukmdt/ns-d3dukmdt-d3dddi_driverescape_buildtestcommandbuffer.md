@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DDDI_DRIVERESCAPE_BUILDTESTCOMMANDBUFFER
 ---
 
+# D3DDDI_DRIVERESCAPE_BUILDTESTCOMMANDBUFFER structure (d3dukmdt.h)
+
 ## -description
 
 The **D3DDDI_DRIVERESCAPE_BUILDTESTCOMMANDBUFFER** structure defines the kernel-mode driver (KMD) escape for building a test command buffer.

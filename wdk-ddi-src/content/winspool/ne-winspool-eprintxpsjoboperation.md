@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPrintXPSJobOperation
 ---
 
+# EPrintXPSJobOperation enumeration (winspool.h)
+
 ## -description
 
 This topic describes the **EPrintXPSJobOperation** enumeration.

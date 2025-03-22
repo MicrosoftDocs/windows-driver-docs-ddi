@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteUInt32NoFence
 ---
 
+# WriteUInt32NoFence function (wdm.h)
+
 ## -description
 
 ## -parameters

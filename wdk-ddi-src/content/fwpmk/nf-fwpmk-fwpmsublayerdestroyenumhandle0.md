@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSubLayerDestroyEnumHandle0
 ---
 
+# FwpmSubLayerDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSubLayerDestroyEnumHandle0** function frees a handle returned by **[FwpmSubLayerCreateEnumHandle0](nf-fwpmk-fwpmsublayercreateenumhandle0.md)**.

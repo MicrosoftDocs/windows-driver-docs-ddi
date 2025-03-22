@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlGetAcesBufferSize
 ---
 
+# RtlGetAcesBufferSize function (ntifs.h)
+
 ## -description
 
 **RtlGetAcesBufferSize** computes the size of the access control entries (ACEs) for the specified access control list (ACL).

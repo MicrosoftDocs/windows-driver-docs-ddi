@@ -43,6 +43,8 @@ helpviewer_keywords:
  - _WWAN_QUERY_ATR_INFO
 ---
 
+# WWAN_QUERY_ATR_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_QUERY_ATR_INFO** structure represents the SIM slot ID that is associated with an [OID_WWAN_UICC_ATR](/windows-hardware/drivers/network/oid-wwan-uicc-atr) query request.

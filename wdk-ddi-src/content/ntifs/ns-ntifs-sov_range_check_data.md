@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SOV_RANGE_CHECK_DATA
 ---
 
+# SOV_RANGE_CHECK_DATA structure (ntifs.h)
+
 ## -description
 
 ## -struct-fields

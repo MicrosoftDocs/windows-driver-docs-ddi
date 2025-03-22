@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NdisRegisterPoll function (poll.h)
+
 ## -description
 
 A miniport driver calls the **NdisRegisterPoll** function to register a Poll object with NDIS. 

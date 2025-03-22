@@ -32,6 +32,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAGS_0083_0 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_SUPPORT_FLAGS_0083_0** enumeration is a bit-wise OR of flags that report the capabilities and features that a video encoder supports for a given configuration.

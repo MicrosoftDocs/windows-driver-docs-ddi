@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _KUSER_SHARED_DATA
 ---
 
+# KUSER_SHARED_DATA structure (ntddk.h)
+
 ## -description
 
 This topic describes the **KUSER_SHARED_DATA** structure.

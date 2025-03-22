@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PCI_ATS_INTERFACE structure (wdm.h)
+
 ## -description
 
 Defines the **PCI_ATS_INTERFACE** structure.

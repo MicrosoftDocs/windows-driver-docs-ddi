@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _IO_FOEXT_SHADOW_FILE
 ---
 
+# IO_FOEXT_SHADOW_FILE structure (ntddk.h)
+
 ## -description
 
 This topic describes the **IO_FOEXT_SHADOW_FILE** structure.

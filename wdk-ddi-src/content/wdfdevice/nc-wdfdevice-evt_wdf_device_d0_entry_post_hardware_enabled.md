@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_WDF_DEVICE_D0_ENTRY_POST_HARDWARE_ENABLED function (wdfdevice.h)
+
 ## -description
 
 Reserved for system use.

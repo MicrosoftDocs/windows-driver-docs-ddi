@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NTFS_EXTENDED_VOLUME_DATA
 ---
 
+# NTFS_EXTENDED_VOLUME_DATA structure (ntifs.h)
+
 ## -description
 
 The **NTFS_EXTENDED_VOLUME_DATA** structure contains extended information about an NTFS volume. It's used with the [**FSCTL_GET_NTFS_VOLUME_DATA**](ni-ntifs-fsctl_get_ntfs_volume_data.md) control code.

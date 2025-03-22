@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcUpdateExternalCacheInfoEx
 ---
 
+# CcUpdateExternalCacheInfoEx function (ntifs.h)
+
 ## -description
 
 A file system calls **CcUpdateExternalCacheInfoEx** to ask the cache manager (*Cc*) to update dirty page statistics in the specified external cache information structure.

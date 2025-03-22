@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _REFS_QUERY_VOLUME_IO_METRICS_METRICS_DATA
 ---
 
+# REFS_QUERY_VOLUME_IO_METRICS_METRICS_DATA structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

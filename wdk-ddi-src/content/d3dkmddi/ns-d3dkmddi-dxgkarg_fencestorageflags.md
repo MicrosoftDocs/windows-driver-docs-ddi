@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_FENCESTORAGEFLAGS
 ---
 
+# DXGKARG_FENCESTORAGEFLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_FENCESTORAGEFLAGS** structure describes the fence storage flags.

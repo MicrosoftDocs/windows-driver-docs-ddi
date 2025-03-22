@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FLT_IS_IRP_OPERATION
 ---
 
+# FLT_IS_IRP_OPERATION function (fltkernel.h)
+
 ## -description
 
 The **FLT_IS_IRP_OPERATION** macro determines whether the given callback data structure represents an I/O request packet (IRP)-based I/O operation.

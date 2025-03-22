@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_NODE_0084
 ---
 
+# D3D12DDI_NODE_0084 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_NODE_0084** structure describes a node in a work graph.

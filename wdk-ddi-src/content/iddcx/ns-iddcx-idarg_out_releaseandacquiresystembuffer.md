@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER structure (iddcx.h)
+
 ## -description
 
 **IDARG_OUT_RELEASEANDACQUIRESYSTEMBUFFER** contains the information resulting from a buffer release and acquire operation.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EnumerateNamedModels
 ---
 
+# IDataModelManager3::EnumerateNamedModels function (dbgmodel.h)
+
 ## -description
 
 EnumerateNamedModels returns an enumerator which will enumerate all registered named models and their associated name.

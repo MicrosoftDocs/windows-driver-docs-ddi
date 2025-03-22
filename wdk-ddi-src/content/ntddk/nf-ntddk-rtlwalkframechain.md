@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RtlWalkFrameChain
 ---
 
+# RtlWalkFrameChain function (ntddk.h)
+
 ## -description
 
 This function is reserved for system use. Use [**RtlCaptureStackBackTrace**](../ntifs/nf-ntifs-rtlcapturestackbacktrace.md) instead.

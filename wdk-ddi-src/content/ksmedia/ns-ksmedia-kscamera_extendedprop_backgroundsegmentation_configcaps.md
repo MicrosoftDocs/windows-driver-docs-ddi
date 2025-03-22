@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# tagKSCAMERA_EXTENDEDPROP_BACKGROUNDSEGMENTATION_CONFIGCAPS structure (ksmedia.h)
+
 ## -description
 
 The **KSCAMERA_EXTENDEDPROP_BACKGROUNDSEGMENTATION_CONFIGCAPS** structure is used to list which stream configurations support background segmentation when using the **KSPROPERTY_CAMERACONTROL_EXTENDED_BACKGROUNDSEGMENTATION** control so that consumer of this DDI knows what to expect when it is leveraged and in which cases it may not take effect.

@@ -41,6 +41,8 @@ dev_langs:
 ms.custom: engagement-fy23
 ---
 
+# NtPrivilegeCheck function (ntifs.h)
+
 ## -description
 
 **NtPrivilegeCheck** is reserved for system use.

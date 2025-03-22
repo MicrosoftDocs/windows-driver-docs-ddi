@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_POLL_TRANSMIT_DATA structure (poll.h)
+
 ## -description
 
 Miniport drivers use the **NDIS_POLL_TRANSMIT_DATA** structure to perform send completions when using a Poll object. 

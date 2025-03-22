@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortSetPriorityThread function (storport.h)
+
 ## -description
 
 **StorPortSetPriorityThread** sets the run-time priority of a miniport-created thread.

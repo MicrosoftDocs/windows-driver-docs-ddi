@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_DOMAIN_CREATION_FLAGS structure (wdm.h)
+
 ## -description
 
 The **IOMMU_DMA_DOMAIN_CREATION_FLAGS** structure defines configuration flags for a domain being created by [**IOMMU_DOMAIN_CREATE_EX**](nc-wdm-iommu_domain_create_ex.md).

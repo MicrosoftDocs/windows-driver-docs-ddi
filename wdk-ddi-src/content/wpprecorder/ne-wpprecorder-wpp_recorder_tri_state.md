@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WPP_RECORDER_TRI_STATE
 ---
 
+# WPP_RECORDER_TRI_STATE enumeration (wpprecorder.h)
+
 ## -description
 
 The WPP_RECORDER_TRI_STATE enumeration type defines three values that WPP uses for some structure members and function parameters.

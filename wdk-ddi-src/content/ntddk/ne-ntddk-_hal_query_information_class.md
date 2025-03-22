@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _HAL_QUERY_INFORMATION_CLASS
 ---
 
+# HAL_QUERY_INFORMATION_CLASS enumeration (ntddk.h)
+
 ## -description
 
 The **HAL_QUERY_INFORMATION_CLASS** enumeration is reserved for system use only. Do not use.

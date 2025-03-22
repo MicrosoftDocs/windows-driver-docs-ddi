@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT function (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT** function initializes a [**WIFI_ADAPTER_TX_DEMUX**](ns-wificx-wifi_adapter_tx_demux.md) structure when the Tx DEMUX type is PEER_ADDRESS.

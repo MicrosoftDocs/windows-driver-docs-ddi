@@ -42,6 +42,8 @@ helpviewer_keywords:
  - REFS_VOLUME_DATA_BUFFER_CONTAINS_DRIVER_VERSION
 ---
 
+# REFS_VOLUME_DATA_BUFFER_CONTAINS_DRIVER_VERSION function (ntifs.h)
+
 ## -description
 
 The **REFS_VOLUME_DATA_BUFFER_CONTAINS_DRIVER_VERSION** macro determines whether a [**REFS_VOLUME_DATA_BUFFER**](ns-ntifs-refs_volume_data_buffer.md) structure contains valid driver version information.

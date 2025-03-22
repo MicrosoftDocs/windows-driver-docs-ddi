@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PROXIMITY_SENSOR_CAPABILITIES
 ---
 
+# PROXIMITY_SENSOR_CAPABILITIES enumeration (sensorsdef.h)
+
 ## -description
 
 The **PROXIMITY_SENSOR_CAPABILITIES** enumeration values indicate the capabilities of a proximity sensor.

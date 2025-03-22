@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NetAdapterLightweightInitAllocate
 ---
 
+# NetAdapterLightweightInitAllocate function (netadapter.h)
+
 ## -description
 
 The **NetAdapterLightweightInitAllocate** function allocates a NETADAPTER_INIT structure that a client driver uses when creating a new NETADAPTER object for a deviceless adapter.

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostSymbolSubstitutionEnumerator
 ---
 
+# IDebugHostSymbolSubstitutionEnumerator interface (dbgmodel.h)
+
 ## -description
 
 An interface for enumerating symbols with substitution text.

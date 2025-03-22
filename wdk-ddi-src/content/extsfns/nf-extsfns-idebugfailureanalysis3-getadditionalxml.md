@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetAdditionalXML
 ---
 
+# IDebugFailureAnalysis3::GetAdditionalXML function (extsfns.h)
+
 ## -description
 
 ## -parameters

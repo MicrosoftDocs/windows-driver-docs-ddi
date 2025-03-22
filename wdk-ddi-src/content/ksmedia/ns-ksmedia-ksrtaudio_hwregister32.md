@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSRTAUDIO_HWREGISTER32
 ---
 
+# KSRTAUDIO_HWREGISTER32 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSRTAUDIO_HWREGISTER32** structure (ksmedia.h).

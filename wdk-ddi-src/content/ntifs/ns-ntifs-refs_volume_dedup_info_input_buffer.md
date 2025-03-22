@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _REFS_VOLUME_DEDUP_INFO_INPUT_BUFFER
 ---
 
+# REFS_VOLUME_DEDUP_INFO_INPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 Reserved for system use.

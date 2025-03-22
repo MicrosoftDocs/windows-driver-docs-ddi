@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SFFDISK_QUERY_DEVICE_PROTOCOL_DATA
 ---
 
+# SFFDISK_QUERY_DEVICE_PROTOCOL_DATA structure (sffdisk.h)
+
 ## -description
 
 The SFFDISK\_QUERY\_DEVICE\_PROTOCOL\_DATA structure is used in conjunction with the [**IOCTL\_SFFDISK\_QUERY\_DEVICE\_PROTOCOL**](ni-sffdisk-ioctl_sffdisk_query_device_protocol.md) request to report protocol data.

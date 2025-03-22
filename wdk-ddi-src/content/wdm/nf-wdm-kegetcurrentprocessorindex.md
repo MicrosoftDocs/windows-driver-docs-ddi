@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeGetCurrentProcessorIndex
 ---
 
+# KeGetCurrentProcessorIndex function (wdm.h)
+
 ## -description
 
 KeGetCurrentProcessorIndex returns the index of the processor that the caller is running on.

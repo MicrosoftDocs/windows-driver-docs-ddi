@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SERCXFUNC
 ---
 
+# SERCXFUNC function (sercx.h)
+
 ## -description
 
 SERCXFUNC is used to create the SERCX function interfaces.

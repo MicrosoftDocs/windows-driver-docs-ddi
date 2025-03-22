@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY32
 ---
 
+# KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY32 structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSRTAUDIO_NOTIFICATION_EVENT_PROPERTY32** structure (ksmedia.h).

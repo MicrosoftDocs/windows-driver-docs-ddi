@@ -35,6 +35,8 @@ helpviewer_keywords:
  - RX_CONTEXT_LOWIO_FLAGS
 ---
 
+# RX_CONTEXT_LOWIO_FLAGS enumeration (rxcontx.h)
+
 ## -description
 
 The **RX_CONTEXT_LOWIO_FLAGS** enumeration specifies flags set by RDBSS during low I/O operations.

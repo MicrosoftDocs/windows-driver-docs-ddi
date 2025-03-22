@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlInitEmptyUnicodeString function (wdm.h)
+
 ## -description
 
 The **RtlInitEmptyUnicodeString** macro initializes an empty counted Unicode string.

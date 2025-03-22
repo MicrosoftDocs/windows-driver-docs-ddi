@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075 structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_RAYTRACING_PIPELINE_CONFIG_0075** describes a ray tracing pipeline configuration.

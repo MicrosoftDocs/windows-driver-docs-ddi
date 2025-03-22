@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_GET_VOLUME_BITMAP
 ---
 
+# FSCTL_GET_VOLUME_BITMAP ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_GET_VOLUME_BITMAP** control code retrieves a bitmap of occupied and available clusters on a volume.

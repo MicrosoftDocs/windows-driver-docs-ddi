@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SDBUS_INTERFACE_PARAMETERS
 ---
 
+# SDBUS_INTERFACE_PARAMETERS structure (ntddsd.h)
+
 ## -description
 
 The SDBUS\_INTERFACE\_PARAMETERS structure contains the information necessary to initialize a Secure Digital (SD) card bus interface.

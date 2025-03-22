@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _FILE_FS_GUID_INFORMATION
 ---
 
+# FILE_FS_GUID_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **FILE_FS_GUID_INFORMATION** structure contains GUID infomation.

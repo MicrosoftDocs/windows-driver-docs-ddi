@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcSetCacheFileSizes
 ---
 
+# CcSetCacheFileSizes function (ntifs.h)
+
 ## -description
 
 The **CcSetCacheFileSizes** function sets the cache manager file sizes by section object pointers.

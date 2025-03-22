@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# NET_PACKET_FILTER_FLAGS enumeration (netadapter.h)
+
 ## -description
 
 The **NET_PACKET_FILTER_FLAGS** enumeration describes a network adapter's receive packet filters.

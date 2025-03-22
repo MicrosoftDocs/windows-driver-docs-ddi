@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# DXGK_PHYSICAL_MEMORY_TYPE enumeration (d3dkmddi.h)
+
 ## -description
 
 **DXGK_PHYSICAL_MEMORY_TYPE** indicates the type of physical memory being created by the driver in a call to [**DxgkCbCreatePhysicalMemoryObject**](nc-d3dkmddi-dxgkcb_createphysicalmemoryobject.md).

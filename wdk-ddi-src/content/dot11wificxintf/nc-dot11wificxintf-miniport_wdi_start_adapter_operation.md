@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_START_ADAPTER_OPERATION function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

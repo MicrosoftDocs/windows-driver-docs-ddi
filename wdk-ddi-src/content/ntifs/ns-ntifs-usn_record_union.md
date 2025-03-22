@@ -42,6 +42,8 @@ helpviewer_keywords:
  - USN_RECORD_UNION
 ---
 
+# USN_RECORD_UNION structure (ntifs.h)
+
 ## -description
 
 The **USN_RECORD_UNION** is a union that encapsulates different versions of USN record structures. It provides a flexible way to handle USN records of varying formats.

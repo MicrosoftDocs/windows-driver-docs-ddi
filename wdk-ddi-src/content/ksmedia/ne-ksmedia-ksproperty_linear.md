@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_LINEAR
 ---
 
+# KSPROPERTY_LINEAR enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_LINEAR** enumeration (ksmedia.h).

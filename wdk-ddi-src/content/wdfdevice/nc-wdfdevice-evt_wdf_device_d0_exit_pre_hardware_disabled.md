@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# EVT_WDF_DEVICE_D0_EXIT_PRE_HARDWARE_DISABLED function (wdfdevice.h)
+
 ## -description
 
 Reserved for system use.

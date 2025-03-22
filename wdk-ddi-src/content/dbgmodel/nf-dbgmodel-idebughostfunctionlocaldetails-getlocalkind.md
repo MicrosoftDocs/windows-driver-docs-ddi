@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetLocalKind
 ---
 
+# IDebugHostFunctionLocalDetails::GetLocalKind function (dbgmodel.h)
+
 ## -description
 
 The GetLocalKind method retrieves the kind of local variable that has been enumerated.

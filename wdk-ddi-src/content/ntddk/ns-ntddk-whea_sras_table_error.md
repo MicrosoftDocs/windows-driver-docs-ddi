@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_SRAS_TABLE_ERROR
 ---
 
+# WHEA_SRAS_TABLE_ERROR structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_SRAS_TABLE_ERROR** structure.

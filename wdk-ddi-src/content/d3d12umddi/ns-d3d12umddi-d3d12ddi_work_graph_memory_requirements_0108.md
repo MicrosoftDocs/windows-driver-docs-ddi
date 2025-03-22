@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_WORK_GRAPH_MEMORY_REQUIREMENTS_0108
 ---
 
+# D3D12DDI_WORK_GRAPH_MEMORY_REQUIREMENTS_0108 structure (d3d12umddi.h)
+
 ## -description
 
 **D3D12DDI_WORK_GRAPH_MEMORY_REQUIREMENTS_0108** is the structure in which the user-mode driver's [**pfnGetWorkGraphMemoryRequirements**](nc-d3d12umddi-pfnd3d12ddi_get_work_graph_memory_requirements_0108.md) function returns work graph memory requirements.

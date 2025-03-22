@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetPointerKind
 ---
 
+# IDebugHostType3::GetPointerKind function (dbgmodel.h)
+
 ## -description
 
 For types which are pointers, the GetPointerKind method returns the kind of pointer. This is defined by the PointerKind enumeration and is one of the following values: 

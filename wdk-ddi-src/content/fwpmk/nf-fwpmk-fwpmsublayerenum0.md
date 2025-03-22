@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSubLayerEnum0
 ---
 
+# FwpmSubLayerEnum0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSubLayerEnum0** function returns the next page of results from the sublayer enumerator.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::GetInterestMask function (dbgeng.h)
+
 ## -description
 
 The engine calls GetInterestMask once when the event callbacks are set for a client.

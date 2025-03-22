@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_DISPLAYMUX_DRIVER_SUPPORT_LEVEL
 ---
 
+# DXGK_DISPLAYMUX_SUPPORT_LEVEL enumeration (d3dkmdt.h)
+
 ## -description
 
 The **DXGK_DISPLAYMUX_SUPPORT_LEVEL** enumeration specifies the level of support that a kernel-mode display driver (KMD) provides for [automatic display switching](/windows-hardware/drivers/display/automatic-display-switch) (ADS).

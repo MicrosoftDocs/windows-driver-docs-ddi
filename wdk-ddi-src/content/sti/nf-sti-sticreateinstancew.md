@@ -45,6 +45,8 @@ helpviewer_keywords:
  - StiCreateInstanceW
 ---
 
+# StiCreateInstanceW function (sti.h)
+
 ## -description
 
 The **StiCreateInstance** function creates an instance of the COM object that defines the **IStillImage** interface, and returns a pointer to the interface.

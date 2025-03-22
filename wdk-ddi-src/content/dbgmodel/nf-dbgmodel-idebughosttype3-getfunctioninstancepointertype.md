@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetFunctionInstancePointerType
 ---
 
+# IDebugHostType3::GetFunctionInstancePointerType function (dbgmodel.h)
+
 ## -description
 
 Indicates what the type of the instance ("this") pointer passed to the function is.  This method will fail

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PRM_QUERY_HANDLER
 ---
 
+# PRM_QUERY_HANDLER function (prminterface.h)
+
 ## -description
 
 This routine queries for the presence of a specific PRM handler.

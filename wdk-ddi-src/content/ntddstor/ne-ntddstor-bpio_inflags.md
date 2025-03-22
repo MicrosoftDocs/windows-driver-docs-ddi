@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# BPIO_INFLAGS enumeration (ntddstor.h)
+
 ## -description
 
 **BPIO_INFLAGS** defines the BypassIO input flags for the [**IOCTL_STORAGE_MANAGE_BYPASS_IO**](ni-ntddstor-ioctl_storage_manage_bypass_io.md) control code.

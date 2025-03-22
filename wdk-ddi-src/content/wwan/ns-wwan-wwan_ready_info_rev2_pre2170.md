@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_READY_INFO_REV2_PRE2170
 ---
 
+# WWAN_READY_INFO_REV2_PRE2170 structure (wwan.h)
+
 ## -description
 
 The **WWAN_READY_INFO_REV2_PRE2170** structure is the older version of the [**WWAN_READY_INFO**](ns-wwan-_wwan_ready_info.md) structure, previous to Windows 11.

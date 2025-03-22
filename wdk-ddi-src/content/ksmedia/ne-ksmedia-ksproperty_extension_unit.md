@@ -38,6 +38,8 @@ helpviewer_keywords:
  - KSPROPERTY_EXTENSION_UNIT
 ---
 
+# KSPROPERTY_EXTENSION_UNIT enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_EXTENSION_UNIT** enumeration (ksmedia.h).

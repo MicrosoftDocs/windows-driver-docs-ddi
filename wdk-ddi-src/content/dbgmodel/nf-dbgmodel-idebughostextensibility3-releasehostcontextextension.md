@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReleaseHostContextExtension
 ---
 
+# IDebugHostExtensibility3::ReleaseHostContextExtension function (dbgmodel.h)
+
 ## -description
 
 The ReleaseHostContextExtension method is used to release the reservation of a host context blob as acquired from the [ExtendHostContext method](nf-dbgmodel-idebughostextensibility3-extendhostcontext.md).

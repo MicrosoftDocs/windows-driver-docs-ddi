@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_SIGNAL_STATS
 ---
 
+# KSPROPERTY_BDA_SIGNAL_STATS enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_SIGNAL_STATS** enumeration.

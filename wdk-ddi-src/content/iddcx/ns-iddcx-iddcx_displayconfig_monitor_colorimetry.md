@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY
 ---
 
+# IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_DISPLAYCONFIG_MONITOR_COLORIMETRY** structure contains colorimetry information for a monitor.

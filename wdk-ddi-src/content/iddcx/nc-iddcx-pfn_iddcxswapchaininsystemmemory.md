@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# PFN_IDDCXSWAPCHAININSYSTEMMEMORY function (iddcx.h)
+
 ## -description
 
 **PFN_IDDCXSWAPCHAININSYSTEMMEMORY** is a pointer to an OS callback function through which to determine whether swapchain buffers are allocated in system memory.

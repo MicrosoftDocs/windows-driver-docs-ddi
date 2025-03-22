@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IPsecDospStateEnum0
 ---
 
+# IPsecDospStateEnum0 function (fwpmk.h)
+
 ## -description
 
 The **IPsecDospStateEnum0** function returns the next page of results from the IPsec DoS Protection state enumerator.

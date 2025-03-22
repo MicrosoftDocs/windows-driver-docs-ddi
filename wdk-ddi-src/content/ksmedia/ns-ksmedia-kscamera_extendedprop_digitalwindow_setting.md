@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# tagKSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING structure (ksmedia.h)
+
 ## -description
 
 **KSCAMERA_EXTENDEDPROP_DIGITALWINDOW_SETTING** contains the x and y origin and window size of the digital window in Q24 format.

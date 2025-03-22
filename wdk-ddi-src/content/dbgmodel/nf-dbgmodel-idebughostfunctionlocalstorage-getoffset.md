@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetOffset
 ---
 
+# IDebugHostFunctionLocalStorage::GetOffset function (dbgmodel.h)
+
 ## -description
 
 The GetOffset method retrieves the offset from the register where the local data is stored.

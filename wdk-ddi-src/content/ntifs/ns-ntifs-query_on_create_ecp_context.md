@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# QUERY_ON_CREATE_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 **QUERY_ON_CREATE_ECP_CONTEXT** is reserved for system use.

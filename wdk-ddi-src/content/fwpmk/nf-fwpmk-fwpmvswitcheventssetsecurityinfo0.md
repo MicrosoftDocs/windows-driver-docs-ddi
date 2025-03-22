@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmvSwitchEventsSetSecurityInfo0
 ---
 
+# FwpmvSwitchEventsSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmvSwitchEventsSetSecurityInfo0** function sets specified security information in the security descriptor for a vSwitch event.

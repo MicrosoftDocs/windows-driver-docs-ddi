@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# POWER_SESSION_ALLOW_EXTERNAL_DMA_DEVICES structure (ntpoapi.h)
+
 ## -description
 
 Reserved for system use.

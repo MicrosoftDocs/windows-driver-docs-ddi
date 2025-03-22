@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextGetStatistics0
 ---
 
+# IkeextGetStatistics0 function (fwpmk.h)
+
 ## -description
 
 The **IkeextGetStatistics0** function retrieves Internet Key Exchange (IKE) and Authenticated Internet Protocol (AuthIP) statistics.

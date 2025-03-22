@@ -39,6 +39,8 @@ helpviewer_keywords:
  - LogTrace
 ---
 
+# LogTrace class (wexlogtrace.h)
+
 ## -description
 
 The LogTrace class is used with the wexlogtrace header.

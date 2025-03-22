@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_ADD_ERR_SRC_FAILED_EVENT
 ---
 
+# WHEA_THROTTLE_ADD_ERR_SRC_FAILED_EVENT structure (ntddk.h)
+
 ## -description
 
 ## -struct-fields

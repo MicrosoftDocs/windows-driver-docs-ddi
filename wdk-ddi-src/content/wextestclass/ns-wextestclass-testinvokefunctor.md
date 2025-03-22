@@ -39,6 +39,8 @@ helpviewer_keywords:
  - TestInvokeFunctor
 ---
 
+# TestInvokeFunctor structure (wextestclass.h)
+
 ## -description
 
 The TestInvokeFunctor structure is used with the wextestclass header.

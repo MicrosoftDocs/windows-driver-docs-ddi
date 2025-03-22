@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WriteInt32Release
 ---
 
+# WriteInt32Release function (wdm.h)
+
 ## -description
 
 ## -parameters

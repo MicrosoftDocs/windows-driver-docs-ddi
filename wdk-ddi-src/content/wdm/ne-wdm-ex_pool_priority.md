@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# EX_POOL_PRIORITY enumeration (wdm.h)
+
 ## -description
 
 Specifies the priority of a pool memory allocation request.

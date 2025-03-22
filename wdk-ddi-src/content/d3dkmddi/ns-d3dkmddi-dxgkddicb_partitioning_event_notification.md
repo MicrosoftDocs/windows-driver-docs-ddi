@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKDDICB_PARTITIONING_EVENT_NOTIFICATION structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKDDICB_PARTITIONING_EVENT_NOTIFICATION** is the structure used by the [**DxgkCbLogEtwEvent**](../dispmprt/nc-dispmprt-dxgkcb_log_etw_event.md) callback to log an event when its **EventGuid** parameter is GUID_DXGKDDI_AZURE_TRIAGE_EVENT.

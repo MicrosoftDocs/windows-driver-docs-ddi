@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATENATIVEFENCE
 ---
 
+# DXGKARG_CREATENATIVEFENCE structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_CREATENATIVEFENCE** is the structure passed to [**DxgkDdiCreateNativeFence**](nc-d3dkmddi-dxgkddi_createnativefence.md) to describe a native GPU fence.

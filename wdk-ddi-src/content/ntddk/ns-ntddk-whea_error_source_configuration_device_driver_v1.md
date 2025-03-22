@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_ERROR_SOURCE_CONFIGURATION_DEVICE_DRIVER_V1 structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

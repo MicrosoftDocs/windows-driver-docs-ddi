@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PCI_SEGMENT_BUS_NUMBER structure (miniport.h)
+
 ## -description
 
 The **PCI_SEGMENT_BUS_NUMBER** structure contains information about the bus and segment numbers.

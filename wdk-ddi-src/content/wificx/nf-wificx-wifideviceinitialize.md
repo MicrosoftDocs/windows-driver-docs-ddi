@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceInitialize function (wificx.h)
+
 ## -description
 
 The **WifiDeviceInitialize** function registers the client driver's WiFiCx-specific callback functions.

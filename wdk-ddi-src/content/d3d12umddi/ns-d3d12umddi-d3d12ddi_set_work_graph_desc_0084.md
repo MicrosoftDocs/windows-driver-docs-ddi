@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_SET_WORK_GRAPH_DESC_0084
 ---
 
+# D3D12DDI_SET_WORK_GRAPH_DESC_0084 structure (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_SET_WORK_GRAPH_DESC_0084** structure describes a work graph to set when the **Type** field of a [**D3D12DDI_SET_PROGRAM_DESC_0084**](ns-d3d12umddi-d3d12ddi_set_program_desc_0108.md) structure is **D3D12DDI_PROGRAM_TYPE_WORK_GRAPH_0084**.

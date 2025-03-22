@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KSPROPERTY_VIDEODECODER_STATUS2_S
 ---
 
+# KSPROPERTY_VIDEODECODER_STATUS2_S structure (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_VIDEODECODER_STATUS2_S** structure (ksmedia.h).

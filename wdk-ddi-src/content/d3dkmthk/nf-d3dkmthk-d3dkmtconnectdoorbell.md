@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTConnectDoorbell
 ---
 
+# D3DKMTConnectDoorbell function (d3dkmthk.h)
+
 ## -description
 
 **D3DKMTConnectDoorbell** connects (or reconnects) a [previously created doorbell](nf-d3dkmthk-d3dkmtcreatedoorbell.md) to a hardware queue.

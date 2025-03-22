@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3DWDDM2_0DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE
 ---
 
+# PFND3DWDDM2_0DDI_CALCPRIVATESHADERRESOURCEVIEWSIZE function (d3d10umddi.h)
+
 ## -description
 
 **CalcPrivateShaderResourceViewSize(WDDM 2.0)** determines the size of the user-mode display driver's (UMD's) private region of memory (that is, the size of internal driver structures, not the size of the resource video memory) for a shader resource view.

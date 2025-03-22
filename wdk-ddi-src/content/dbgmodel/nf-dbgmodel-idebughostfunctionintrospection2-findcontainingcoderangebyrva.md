@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FindContainingCodeRangeByRVA
 ---
 
+# IDebugHostFunctionIntrospection2::FindContainingCodeRangeByRVA function (dbgmodel.h)
+
 ## -description
 
 The FindContainingCodeRangeByRVA method returns the sub-range of instructions that contains a given address. For single-block functions, this will simply be the start and end of the function body. For multi-block functions, this will be the start and end of the block containing the specified Relative Virtual Address (RVA).

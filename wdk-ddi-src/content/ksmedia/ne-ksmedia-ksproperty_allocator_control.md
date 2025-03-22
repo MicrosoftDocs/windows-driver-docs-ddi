@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_ALLOCATOR_CONTROL
 ---
 
+# KSPROPERTY_ALLOCATOR_CONTROL enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_ALLOCATOR_CONTROL** enumeration (ksmedia.h).

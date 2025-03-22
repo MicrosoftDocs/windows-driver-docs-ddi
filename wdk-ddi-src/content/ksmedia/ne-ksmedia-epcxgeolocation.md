@@ -35,6 +35,8 @@ helpviewer_keywords:
  - EPcxGeoLocation
 ---
 
+# EPcxGeoLocation enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **EPcxGeoLocation** enumeration (ksmedia.h).

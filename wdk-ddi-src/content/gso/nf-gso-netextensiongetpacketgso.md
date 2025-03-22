@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NetExtensionGetPacketGso function (gso.h)
+
 ## -description
 
 The **NetExtensionGetPacketGso** function retrieves [Generic Segmentation Offload (GSO)](/windows-hardware/drivers/netcx/gso-offload) information for a packet.

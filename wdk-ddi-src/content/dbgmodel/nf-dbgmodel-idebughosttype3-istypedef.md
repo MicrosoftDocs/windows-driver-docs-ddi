@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsTypedef
 ---
 
+# IDebugHostType3::IsTypedef function (dbgmodel.h)
+
 ## -description
 
 The IsTypedef method is the only method capable of seeing whether a type is a typedef. The [GetTypeKind method](nf-dbgmodel-idebughosttype3-gettypekind.md) will behave as if called on the underlying type.

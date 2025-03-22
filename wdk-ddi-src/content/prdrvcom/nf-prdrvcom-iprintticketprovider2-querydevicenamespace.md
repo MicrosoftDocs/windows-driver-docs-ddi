@@ -42,6 +42,8 @@ helpviewer_keywords:
  - QueryDeviceNamespace
 ---
 
+# IPrintTicketProvider2::QueryDeviceNamespace function (prdrvcom.h)
+
 ## -description
 
 The **IPrintTicketProvider2::QueryDeviceNamespace** method queries the device for its default namespace uniform resource identifier (URI).

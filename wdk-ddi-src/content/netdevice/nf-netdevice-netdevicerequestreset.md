@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NetDeviceRequestReset function (netadaptercx.h)
+
 ## -description
 
 The **NetDeviceRequestReset** function triggers the NetAdapterCx framework to perform the platform-level device reset operation that recovers an unresponsive NIC device.

@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# FsRtlGetBypassIoOpenCount function (ntifs.h)
+
 ## -description
 
 **FsRtlGetBypassIoOpenCount** returns a count of how many BypassIO opens there are for a given stream.

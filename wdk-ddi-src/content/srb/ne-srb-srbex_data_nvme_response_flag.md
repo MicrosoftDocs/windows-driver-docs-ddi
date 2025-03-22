@@ -38,6 +38,8 @@ helpviewer_keywords:
  - SRBEX_DATA_NVME_RESPONSE_FLAG
 ---
 
+# SRBEX_DATA_NVME_RESPONSE_FLAG enumeration (srb.h)
+
 ## -description
 
 Enumerates the properties of a SRBEX data NVMe response.

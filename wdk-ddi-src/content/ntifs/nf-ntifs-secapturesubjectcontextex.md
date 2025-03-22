@@ -42,6 +42,8 @@ helpviewer_keywords:
  - SeCaptureSubjectContextEx
 ---
 
+# SeCaptureSubjectContextEx function (ntifs.h)
+
 ## -description
 
 **SeCaptureSubjectContextEx** takes a snapshot of the calling thread's security context for access validation and auditing.

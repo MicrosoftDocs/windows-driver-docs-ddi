@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_CREATE_USN_JOURNAL
 ---
 
+# FSCTL_CREATE_USN_JOURNAL ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_CREATE_USN_JOURNAL** control code creates an update sequence number (USN) change journal stream on a target volume, or modifies an existing change journal stream. See Remarks.

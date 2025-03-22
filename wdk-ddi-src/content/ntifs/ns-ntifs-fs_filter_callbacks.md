@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# FS_FILTER_CALLBACKS structure (ntifs.h)
+
 ## -description
 
 The FS_FILTER_CALLBACKS structure contains the entry points of caller-supplied notification callback routines.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_CAMERA_PHOTOTRIGGERTIME_FLAGS
 ---
 
+# KSPROPERTY_CAMERA_PHOTOTRIGGERTIME_FLAGS enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_CAMERA_PHOTOTRIGGERTIME_FLAGS** enumeration (ksmedia.h).

@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostStatus2
 ---
 
+# IDebugHostStatus2 interface (dbgmodel.h)
+
 ## -description
 
 The version 2 of an interface allowing a client to query for the status of the host.

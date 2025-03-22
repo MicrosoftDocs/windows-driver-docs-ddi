@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# GNSS_FIXDATA_BASIC_2 structure (gnssdriver.h)
+
 ## -description
 
 The **GNSS_FIXDATA_BASIC_2** structure defines basic position information.

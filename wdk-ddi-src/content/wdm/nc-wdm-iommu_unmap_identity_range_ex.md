@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_UNMAP_IDENTITY_RANGE_EX function (wdm.h)
+
 ## -description
 
 Deletes an identity mapping created by *IOMMU_MAP_IDENTITY_RANGE_EX*.

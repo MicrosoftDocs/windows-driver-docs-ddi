@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetTypeKind
 ---
 
+# IDebugHostType3::GetTypeKind function (dbgmodel.h)
+
 ## -description
 
 The GetTypeKind method returns what kind of type (pointer, array, intrinsic, etc...) the symbol refers to.

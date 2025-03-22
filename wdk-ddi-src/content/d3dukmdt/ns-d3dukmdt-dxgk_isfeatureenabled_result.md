@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_ISFEATUREENABLED_RESULT
 ---
 
+# DXGK_ISFEATUREENABLED_RESULT structure (d3dukmdt.h)
+
 ## -description
 
 The **DXGK_ISFEATUREENABLED_RESULT** structure defines the results of a feature query.

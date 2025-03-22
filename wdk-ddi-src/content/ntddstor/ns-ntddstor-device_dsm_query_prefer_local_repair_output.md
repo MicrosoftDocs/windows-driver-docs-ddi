@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DEVICE_DSM_QUERY_PREFER_LOCAL_REPAIR_OUTPUT
 ---
 
+# DEVICE_DSM_QUERY_PREFER_LOCAL_REPAIR_OUTPUT structure (ntddstor.h)
+
 ## -description
 
 The **DEVICE_DSM_QUERY_PREFER_LOCAL_REPAIR_OUTPUT** structure indicates if the device prefers local repair of storage spaces.

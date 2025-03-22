@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# StorPortQueryTimerMinInterval function (storport.h)
+
 ## -description
 
 **StorPortQueryTimerMinInterval** queries the minimum timer resolution that is supported by the system clock.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - QueryHostContextExtension
 ---
 
+# IDebugHostExtensibility3::QueryHostContextExtension function (dbgmodel.h)
+
 ## -description
 
 The QueryHostContextExtension method provides a way to lookup a context extension and its information using an identifier GUID.

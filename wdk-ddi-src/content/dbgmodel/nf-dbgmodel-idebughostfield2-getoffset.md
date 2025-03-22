@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetOffset
 ---
 
+# IDebugHostField2::GetOffset function (dbgmodel.h)
+
 ## -description
 
 For fields which have an offset (e.g. fields whose location kind indicates LocationMember), the GetOffset method will return the offset from the base address of the containing type (the this pointer) to the data for the field itself. Such offsets are always expressed as unsigned 64-bit values.

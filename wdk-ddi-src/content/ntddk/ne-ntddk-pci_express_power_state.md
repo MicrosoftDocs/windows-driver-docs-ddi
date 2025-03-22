@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_POWER_STATE
 ---
 
+# PCI_EXPRESS_POWER_STATE enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_POWER_STATE** enumeration.

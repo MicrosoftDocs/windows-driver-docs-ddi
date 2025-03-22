@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_BARRIER_ACCESS
 ---
 
+# D3D12DDI_BARRIER_ACCESS enumeration (d3d12umddi.h)
+
 ## -description
 
 A **D3D12DDI_BARRIER_ACCESS** value is a bit-wise OR of the following fields that specify resource access with respect to a barrier.

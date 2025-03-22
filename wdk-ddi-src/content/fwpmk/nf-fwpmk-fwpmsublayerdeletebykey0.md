@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSubLayerDeleteByKey0
 ---
 
+# FwpmSubLayerDeleteByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSubLayerDeleteByKey0** function deletes a sublayer from the system by its key.

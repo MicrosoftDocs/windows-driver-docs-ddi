@@ -35,6 +35,8 @@ helpviewer_keywords:
  - SYSTEM_POWER_CONDITION
 ---
 
+# SYSTEM_POWER_CONDITION enumeration (wdm.h)
+
 ## -description
 
 This topic describes the **SYSTEM_POWER_CONDITION** enumeration.

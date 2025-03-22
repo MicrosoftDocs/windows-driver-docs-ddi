@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_AUDIOSIGNALPROCESSING
 ---
 
+# KSPROPERTY_AUDIOSIGNALPROCESSING enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AUDIOSIGNALPROCESSING** enumeration (ksmedia.h).

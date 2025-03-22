@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostContextControl
 ---
 
+# IDebugHostContextControl interface (dbgmodel.h)
+
 ## -description
 
 This interface allows to change the "current" context (the internal state) of the debugger (IDebugHostContext).

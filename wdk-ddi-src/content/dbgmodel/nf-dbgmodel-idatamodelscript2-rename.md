@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Rename
 ---
 
+# IDataModelScript2::Rename function (dbgmodel.h)
+
 ## -description
 
 The Rename method assigns a new name to the script. It is the responsibility of the script implementation to save this name and return it upon any call to the GetName method. This is often called when a user interface chooses to Save As the script to a new name. Note that renaming the script may affect where the hosting application chooses to project the contents of the script.

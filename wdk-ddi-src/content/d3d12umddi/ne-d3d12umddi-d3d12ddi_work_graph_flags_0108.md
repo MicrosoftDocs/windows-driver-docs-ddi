@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_WORK_GRAPH_FLAGS_0108
 ---
 
+# D3D12DDI_WORK_GRAPH_FLAGS_0108 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WORK_GRAPH_FLAGS_0108** enumeration specifies flags for the [**D3D12DDI_WORK_GRAPH_DESC_0108**](ns-d3d12umddi-d3d12ddi_work_graph_desc_0108.md) structure for configuring the behavior of the work graph.

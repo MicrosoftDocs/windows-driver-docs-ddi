@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SEC_CHANNEL_BINDINGS_EX
 ---
 
+# SEC_CHANNEL_BINDINGS_EX structure (ntifs.h)
+
 ## -description
 
 The **SEC_CHANNEL_BINDINGS_EX** structure is used to provide channel binding information for a security context.

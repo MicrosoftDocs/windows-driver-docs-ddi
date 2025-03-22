@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _POWER_LIMIT_TYPES
 ---
 
+# POWER_LIMIT_TYPES enumeration (ntpoapi.h)
+
 ## -description
 
 Enumerates power limit types that describe a throttled object (power or battery discharge current) and how long the throttled object can last.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PGET_DEVICE_RESET_STATUS
 ---
 
+# PGET_DEVICE_RESET_STATUS function (wdm.h)
+
 ## -description
 
 This topic describes the **GET_DEVICE_RESET_STATUS** callback function.

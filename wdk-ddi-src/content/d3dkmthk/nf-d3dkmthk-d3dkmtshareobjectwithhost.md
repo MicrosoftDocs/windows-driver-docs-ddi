@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTShareObjectWithHost
 ---
 
+# D3DKMTShareObjectWithHost function (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

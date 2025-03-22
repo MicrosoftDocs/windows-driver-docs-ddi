@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_DRIVER_FEATURE
 ---
 
+# DXGK_DRIVER_FEATURE enumeration (d3dukmdt.h)
+
 ## -description
 
 The **DXGK_DRIVER_FEATURE** enumeration is a list of driver features.

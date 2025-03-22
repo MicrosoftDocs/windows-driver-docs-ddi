@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_PRESENT_DISPLAYONLY_PROGRESS
 ---
 
+# DXGKCB_PRESENT_DISPLAYONLY_PROGRESS function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_PRESENT_DISPLAYONLY_PROGRESS** is reserved for system use. Don't use it in your driver.

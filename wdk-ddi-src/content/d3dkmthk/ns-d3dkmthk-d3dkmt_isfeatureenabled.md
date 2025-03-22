@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_ISFEATUREENABLED
 ---
 
+# D3DKMT_ISFEATUREENABLED structure (d3dkmthk.h)
+
 ## -description
 
 **D3DKMT_ISFEATUREENABLED** is a parameter for the [**D3DKMTIsFeatureEnabled**](nf-d3dkmthk-d3dkmtisfeatureenabled.md) function that queries whether a feature is enabled.

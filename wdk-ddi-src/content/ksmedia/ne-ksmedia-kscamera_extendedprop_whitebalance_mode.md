@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSCAMERA_EXTENDEDPROP_WHITEBALANCE_MODE
 ---
 
+# KSCAMERA_EXTENDEDPROP_WHITEBALANCE_MODE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSCAMERA_EXTENDEDPROP_WHITEBALANCE_MODE** enumeration.

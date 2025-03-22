@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_QUERYFEATURESUPPORT
 ---
 
+# DXGKDDI_QUERYFEATURESUPPORT function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiQueryFeatureSupport** function is called to query its support for a feature.

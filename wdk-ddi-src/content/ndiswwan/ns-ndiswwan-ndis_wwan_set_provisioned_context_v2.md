@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2
 ---
 
+# NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2 structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_SET_PROVISIONED_CONTEXT_V2** structure represents the command to set the provisioned context state of the MB device.

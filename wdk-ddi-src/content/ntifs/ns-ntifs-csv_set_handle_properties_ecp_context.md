@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# CSV_SET_HANDLE_PROPERTIES_ECP_CONTEXT structure (ntifs.h)
+
 ## -description
 
 The **CSV_SET_HANDLE_PROPERTIES_ECP_CONTEXT** structure contains the extra create parameter (ECP) context that can be sent to the Cluster Shared Volumes (CSV) file system to set properties for how it should handle IO arriving on this open.

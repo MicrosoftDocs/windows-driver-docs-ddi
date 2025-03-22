@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _EXTENDED_CREATE_INFORMATION_32
 ---
 
+# EXTENDED_CREATE_INFORMATION_32 structure (wdm.h)
+
 ## -description
 
 Describes the 32-bit version of the [**EXTENDED_CREATE_INFORMATION**](ns-wdm-extended_create_information.md) structure.

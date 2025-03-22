@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _NDIS_WWAN_QUERY_READY_INFO
 ---
 
+# NDIS_WWAN_QUERY_READY_INFO structure (ndiswwan.h)
+
 ## -description
 
 The **NDIS_WWAN_QUERY_READY_INFO** structure represents the SIM slot ID that is associated with an [OID_WWAN_READY_INFO](/windows-hardware/drivers/network/oid-wwan-ready-info) query request.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_UPDATEMONITOREDVALUES_FLAGS
 ---
 
+# DXGKARG_UPDATEMONITOREDVALUES_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_UPDATEMONITOREDVALUES_FLAGS** specifies flags to use when updating monitored values for a native GPU fence.

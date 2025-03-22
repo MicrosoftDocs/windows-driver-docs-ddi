@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATEDOORBELL_FLAGS
 ---
 
+# DXGKARG_CREATEDOORBELL_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARG_CREATEDOORBELL_FLAGS** structure specifies doorbell creation flags.

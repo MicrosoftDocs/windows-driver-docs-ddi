@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_BUS_WIDTH
 ---
 
+# PCI_BUS_WIDTH enumeration (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_BUS_WIDTH** enumeration.

@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_PLMN
 ---
 
+# WWAN_PLMN structure (wwan.h)
+
 ## -description
 
 The **WWAN_PLMN** structure represents a Mobile Country Code (MCC) and Mobile Network Code (MNC).

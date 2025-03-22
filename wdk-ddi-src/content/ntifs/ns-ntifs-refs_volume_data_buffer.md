@@ -42,6 +42,8 @@ helpviewer_keywords:
  - REFS_VOLUME_DATA_BUFFER
 ---
 
+# REFS_VOLUME_DATA_BUFFER structure (ntifs.h)
+
 ## -description
 
 The **REFS_VOLUME_DATA_BUFFER** structure contains information about an ReFS volume.

@@ -34,6 +34,8 @@ helpviewer_keywords:
  - KSPROPERTY_AUDIOMODULE
 ---
 
+# KSPROPERTY_AUDIOMODULE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_AUDIOMODULE** enumeration.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_MULTI_NODE_CPU_INPUT_0108
 ---
 
+# D3D12DDI_MULTI_NODE_CPU_INPUT_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_MULTI_NODE_CPU_INPUT_0108** structure describes the input data for multiple nodes within a work graph where the input is provided by the CPU.

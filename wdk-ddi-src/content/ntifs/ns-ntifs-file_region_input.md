@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _FILE_REGION_INPUT
 ---
 
+# FILE_REGION_INPUT structure (ntifs.h)
+
 ## -description
 
 **FILE_REGION_INPUT** is the optional input structure for [**FSCTL_QUERY_FILE_REGIONS**](ni-ntifs-fsctl_query_file_regions.md).

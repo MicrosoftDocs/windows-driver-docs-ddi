@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_SET_PURGE_FAILURE_MODE
 ---
 
+# FSCTL_SET_PURGE_FAILURE_MODE ioctl (ntifs.h)
+
 ## -description
 
 Filter Manager uses the **FSCTL_SET_PURGE_FAILURE_MODE** control code to synchronize operations during the lifetime of a section created for [data scan](/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltcreatesectionfordatascan). Filters should never issue this control code.

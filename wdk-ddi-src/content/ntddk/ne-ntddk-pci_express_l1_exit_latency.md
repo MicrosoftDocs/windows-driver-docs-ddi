@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_L1_EXIT_LATENCY
 ---
 
+# PCI_EXPRESS_L1_EXIT_LATENCY enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_L1_EXIT_LATENCY** enumeration.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_UPGRADE_VOLUME
 ---
 
+# FSCTL_UPGRADE_VOLUME ioctl (ntifs.h)
+
 ## -description
 
 **FSCTL_UPGRADE_VOLUME** triggers a volume upgrade.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::Breakpoint function (dbgeng.h)
+
 ## -description
 
 A breakpoint event is generated when a breakpoint exception is received and it can be mapped to an existing breakpoint.

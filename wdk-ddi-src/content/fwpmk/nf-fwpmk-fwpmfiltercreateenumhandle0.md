@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmFilterCreateEnumHandle0
 ---
 
+# FwpmFilterCreateEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmFilterCreateEnumHandle0** function creates a handle used to enumerate a set of filter objects.

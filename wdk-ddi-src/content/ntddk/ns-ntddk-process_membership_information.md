@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _PROCESS_MEMBERSHIP_INFORMATION
 ---
 
+# PROCESS_MEMBERSHIP_INFORMATION structure (ntddk.h)
+
 ## -description
 
 This topic describes the **PROCESS_MEMBERSHIP_INFORMATION** structure.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# PRM_MODULE_INFORMATION structure (acpitabl.h)
+
 ## -description
 
 Defines the **PRM_MODULE_INFORMATION** structure.

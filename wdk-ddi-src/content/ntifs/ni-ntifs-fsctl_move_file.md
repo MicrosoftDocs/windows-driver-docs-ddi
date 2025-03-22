@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_MOVE_FILE
 ---
 
+# FSCTL_MOVE_FILE ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_MOVE_FILE** control code relocates one or more virtual clusters of a file from one logical cluster to another within the same volume.

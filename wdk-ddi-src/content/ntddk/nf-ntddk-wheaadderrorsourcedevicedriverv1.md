@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaAddErrorSourceDeviceDriverV1 function (ntddk.h)
+
 ## -description
 
 This function is obsolete. Use [**WheaAddErrorSourceDeviceDriver**](nf-ntddk-wheaadderrorsourcedevicedriver.md) instead.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_CREATENATIVEFENCE_FLAGS
 ---
 
+# DXGKARG_CREATENATIVEFENCE_FLAGS structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_CREATENATIVEFENCE_FLAGS** specifies flags to use when creating a native GPU fence.

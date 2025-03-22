@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _FILE_STREAM_RESERVATION_INFORMATION
 ---
 
+# FILE_STREAM_RESERVATION_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **FILE_STREAM_RESERVATION_INFORMATION** structure contains information about the reservation of space for a file stream.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTCreateNativeFence
 ---
 
+# D3DKMTCreateNativeFence function (d3dkmthk.h)
+
 ## -description
 
 The D3D runtime calls **D3DKMTCreateNativeFence** to create a native GPU fence object on a particular device.

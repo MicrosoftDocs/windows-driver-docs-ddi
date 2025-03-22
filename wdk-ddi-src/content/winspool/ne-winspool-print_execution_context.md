@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PRINT_EXECUTION_CONTEXT
 ---
 
+# PRINT_EXECUTION_CONTEXT enumeration (winspool.h)
+
 ## -description
 
 This topic describes the **PRINT_EXECUTION_CONTEXT** enumeration.

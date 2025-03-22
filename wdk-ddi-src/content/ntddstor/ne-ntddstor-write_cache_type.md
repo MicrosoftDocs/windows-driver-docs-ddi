@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _WRITE_CACHE_TYPE
 ---
 
+# WRITE_CACHE_TYPE enumeration (ntddstor.h)
+
 ## -description
 
 The WRITE\_CACHE\_TYPE enumeration specifies the cache type.

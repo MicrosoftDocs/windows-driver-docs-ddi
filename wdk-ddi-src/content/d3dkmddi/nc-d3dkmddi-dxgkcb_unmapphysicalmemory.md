@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# DXGKCB_UNMAPPHYSICALMEMORY function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_UNMAPPHYSICALMEMORY** unmaps a CPU-visible virtual address from the underlying physical memory.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DESTROYCPUEVENT
 ---
 
+# DXGKDDI_DESTROYCPUEVENT function (d3dkmddi.h)
+
 ## -description
 
 **DXGKDDI_DESTROYCPUEVENT** destroys the specified kernel-mode driver (KMD) CPU object.

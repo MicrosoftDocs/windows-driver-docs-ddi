@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGKARG_FENCESTORAGEVALUETYPE
 ---
 
+# DXGKARG_FENCESTORAGEVALUETYPE enumeration (d3dkmdt.h)
+
 ## -description
 
 The **DXGKARG_FENCESTORAGEVALUETYPE** enumeration specifies the type of fence value.

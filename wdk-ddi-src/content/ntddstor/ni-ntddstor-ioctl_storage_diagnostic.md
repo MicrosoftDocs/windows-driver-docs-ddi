@@ -36,6 +36,8 @@ dev_langs:
 ms.custom: engagement-fy23 
 ---
 
+# IOCTL_STORAGE_DIAGNOSTIC ioctl (ntddstor.h)
+
 ## -description
 
 **IOCTL_STORAGE_DIAGNOSTIC** is used to query diagnostic data from the storage driver stack.

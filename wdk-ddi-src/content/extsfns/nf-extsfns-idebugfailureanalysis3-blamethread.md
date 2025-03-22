@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BlameThread
 ---
 
+# IDebugFailureAnalysis3::BlameThread function (extsfns.h)
+
 ## -description
 
 ## -parameters

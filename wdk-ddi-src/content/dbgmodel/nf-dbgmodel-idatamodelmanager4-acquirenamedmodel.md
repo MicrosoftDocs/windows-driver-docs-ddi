@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcquireNamedModel
 ---
 
+# IDataModelManager4::AcquireNamedModel function (dbgmodel.h)
+
 ## -description
 AcquireNamedModel looks up a well known model name and returns the data model registered by that name.  Note that if there is no model registered by the supplied name, a stub will be created and returned to the caller. 
 

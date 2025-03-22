@@ -35,6 +35,8 @@ helpviewer_keywords:
  - MSV1_0_AVID
 ---
 
+# MSV1_0_AVID enumeration (ntifs.h)
+
 ## -description
 
 Reserved for system use.

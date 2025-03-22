@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireInterruptSpinLock
 ---
 
+# KeAcquireInterruptSpinLock function (wdm.h)
+
 ## -description
 
 The **KeAcquireInterruptSpinLock** routine acquires the spin lock associated with an interrupt object.

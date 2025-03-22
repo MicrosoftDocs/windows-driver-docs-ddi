@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IDebugHostType3
 ---
 
+# IDebugHostType3 interface (dbgmodel.h)
+
 ## -description
 
 Version 3 of an ([IDebugHostSymbol](nn-dbgmodel-idebughostsymbol.md) derived) interface to a particular type.

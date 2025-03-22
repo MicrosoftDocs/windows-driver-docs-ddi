@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTRegisterVailProcess
 ---
 
+# D3DKMTRegisterVailProcess function (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMTRegisterVailProcess** function registers the current process as one that can share GPU allocations between a guest virtual machine (VM) and the host.

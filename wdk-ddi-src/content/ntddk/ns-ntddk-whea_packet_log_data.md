@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WHEA_PACKET_LOG_DATA structure (ntddk.h)
+
 ## -description
 
 Reserved for system use.

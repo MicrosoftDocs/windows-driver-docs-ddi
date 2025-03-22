@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_SHADER_NODE_0084
 ---
 
+# D3D12DDI_SHADER_NODE_0084 structure (d3d12umddi.h)
+
 ## -description
 
 Use [**D3D12DDI_SHADER_NODE_0108**](ns-d3d12umddi-d3d12ddi_shader_node_0108.md) instead.

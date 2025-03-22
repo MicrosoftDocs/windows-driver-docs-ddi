@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _MEDIA_TYPE
 ---
 
+# MEDIA_TYPE enumeration (ntdddisk.h)
+
 ## -description
 
 The MEDIA\_TYPE enumerators are used in conjunction with the [**IOCTL\_DISK\_FORMAT\_TRACKS**](ni-ntdddisk-ioctl_disk_format_tracks.md) request to format the specified set of contiguous tracks on the disk.

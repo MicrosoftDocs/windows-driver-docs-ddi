@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IddCxReportCriticalError function (iddcx.h)
+
 ## -description
 
 **IddCxReportCriticalError** is an OS callback function called by an indirect display driver (IDD) to report a critical error.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaDbSetSecurityInfo0
 ---
 
+# IkeextSaDbSetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaDbSetSecurityInfo0** function sets specified security information in the security descriptor of the IKE/AuthIP security association database.

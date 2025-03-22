@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiPowerOffloadListGetCount function (wificxpoweroffloadlist.h)
+
 ## -description
 
 The **WifiPowerOffloadListGetCount** function gets the number of low power protocol offloads to a WiFiCx net adapter.

@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceGetOsWdiVersion function (wificx.h)
+
 ## -description
 
 The **WifiDeviceGetOsWdiVersion** function gets the TLV version that WifiCx uses to initialize client driver's [TLV parser/generator](/windows-hardware/drivers/netcx/wificx-tlv-generator-interface).

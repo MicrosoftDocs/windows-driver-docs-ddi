@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::ExitThread function (dbgeng.h)
+
 ## -description
 
 The ExitThread callback method is called by the engine when an exit-thread debugging event occurs in the target.

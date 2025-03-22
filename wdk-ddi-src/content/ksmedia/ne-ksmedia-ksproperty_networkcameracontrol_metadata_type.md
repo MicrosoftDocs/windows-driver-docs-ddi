@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_NETWORKCAMERACONTROL_METADATA_TYPE
 ---
 
+# KSPROPERTY_NETWORKCAMERACONTROL_METADATA_TYPE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_NETWORKCAMERACONTROL_METADATA_TYPE** enumeration (ksmedia.h).

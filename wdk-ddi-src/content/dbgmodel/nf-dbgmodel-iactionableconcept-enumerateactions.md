@@ -42,6 +42,8 @@ helpviewer_keywords:
  - EnumerateActions
 ---
 
+# IActionableConcept::EnumerateActions function (dbgmodel.h)
+
 ## -description
 
 Returns an enumerator to all actions on any object implementing the IActionableConcept interface.

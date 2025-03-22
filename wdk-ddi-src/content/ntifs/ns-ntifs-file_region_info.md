@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _FILE_REGION_INFO
 ---
 
+# FILE_REGION_INFO structure (ntifs.h)
+
 ## -description
 
 The **FILE_REGION_INFO** structure contains a computed region of a file based on a desired usage. This structure is used to store region information for the [**FSCTL_QUERY_FILE_REGIONS**](ni-ntifs-fsctl_query_file_regions.md) reply message, with the [**FILE_REGION_OUTPUT**](ns-ntifs-file_region_output.md) structure containing one or more **FILE_REGION_INFO** structures.

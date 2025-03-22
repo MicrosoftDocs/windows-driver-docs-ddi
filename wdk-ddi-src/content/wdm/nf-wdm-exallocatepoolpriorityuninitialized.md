@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePoolPriorityUninitialized function (wdm.h)
+
 ## -description
 
 This routine is a wrapper and replacement option for [**ExAllocatePoolWithTagPriority**](nf-wdm-exallocatepoolwithtagpriority.md).

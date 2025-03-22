@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExRundownCompletedCacheAware
 ---
 
+# ExRundownCompletedCacheAware function (wdm.h)
+
 ## -description
 
 The **ExRundownCompletedCacheAware** routine updates the run-down status of a shared object to indicate that the run down of the object has completed.

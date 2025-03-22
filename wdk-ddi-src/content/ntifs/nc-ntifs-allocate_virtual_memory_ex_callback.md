@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ALLOCATE_VIRTUAL_MEMORY_EX_CALLBACK
 ---
 
+# ALLOCATE_VIRTUAL_MEMORY_EX_CALLBACK function (ntifs.h)
+
 ## -description
 
 Reserved for system use.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_CA_EVENT
 ---
 
+# KSPROPERTY_BDA_CA_EVENT enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_CA_EVENT** enumeration.

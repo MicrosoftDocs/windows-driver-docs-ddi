@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_VIDEO_PROCESS_PROTECTED_RESOURCES_DATA_0072 structure (d3d12umddi.h)
+
 ## -description
 
 Data structure used to check for video process protected resource support capabilities on a given node index.

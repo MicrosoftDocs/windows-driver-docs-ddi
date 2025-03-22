@@ -42,6 +42,8 @@ helpviewer_keywords:
  - NetOffloadIsUdpRscEnabled
 ---
 
+# NetOffloadIsUdpRscEnabled function (netadapteroffload.h)
+
 ## -description
 
 The **NetOffloadIsUdpRscEnabled** function determines whether a network adapter has [UDP RSC Offload (URO)](/windows-hardware/drivers/netcx/rsc-offload#udp-rsc-offload-uro-) enabled.

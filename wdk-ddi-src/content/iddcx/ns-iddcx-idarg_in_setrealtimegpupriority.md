@@ -38,6 +38,8 @@ helpviewer_keywords:
  - IDARG_IN_SETREALTIMEGPUPRIORITY
 ---
 
+# IDARG_IN_SETREALTIMEGPUPRIORITY structure (iddcx.h)
+
 ## -description
 
 A **IDARG_IN_SETREALTIMEGPUPRIORITY** structure is passed to [**IddCxSetRealtimeGPUPriority**](nf-iddcx-iddcxsetrealtimegpupriority.md) when an indirect display driver requests a bump in GPU priority.

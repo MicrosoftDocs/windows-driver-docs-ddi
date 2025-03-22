@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortEnableRegistryKeyNotification
 ---
 
+# StorPortEnableRegistryKeyNotification function (storport.h)
+
 ## -description
 
 A miniport calls **StorPortEnableRegistryKeyNotification** to enable registry change notifications for a device under the path HKLM\System\CurrentControlSet\Services\<*serviceName*>\Parameters\Device.

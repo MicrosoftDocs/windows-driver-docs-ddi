@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_ADAPTER_TX_DEMUX_TYPE enumeration (wificx.h)
+
 ## -description
 
 The **WIFI_ADAPTER_TX_DEMUX_TYPE** enumeration specifies the Tx DEMUX type. 

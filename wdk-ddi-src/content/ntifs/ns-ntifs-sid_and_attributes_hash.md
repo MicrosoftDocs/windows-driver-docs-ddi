@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _SID_AND_ATTRIBUTES_HASH
 ---
 
+# SID_AND_ATTRIBUTES_HASH structure (ntifs.h)
+
 ## -description
 
 The **SID_AND_ATTRIBUTES_HASH** structure specifies a hash values for the specified array of security identifiers ([SIDs](ns-ntifs-_sid.md)).

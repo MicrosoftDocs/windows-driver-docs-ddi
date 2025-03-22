@@ -42,6 +42,8 @@ helpviewer_keywords:
  - AcquireSubNamespace
 ---
 
+# IDataModelManager4::AcquireSubNamespace function (dbgmodel.h)
+
 ## -description
 
 The AcquireSubNamespace method helps in the construction of something which might more traditionally look like a language namespace than a new object in a dynamic language. If, for instance, a caller wishes to categorize properties on a process object to make the process object more organized and the properties easier to discover, one method of doing this would be to create a sub-object for each category on the process object and placing those properties inside that object. The problem with this notion is that the sub-object has its own context and the properties there are passed the sub-object as an instance pointer instead of the process object itself. The AcquireSubNamespace method helps to create a shared ownership "sub-object" where the instance pointer passed to properties of the sub-object is the parent object. 

@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _DXGK_DISPLAYMUX_INTERFACE_2
 ---
 
+# DXGK_DISPLAYMUX_INTERFACE_2 structure (dispmprt.h)
+
 ## -description
 
 The **DXGK_DISPLAYMUX_INTERFACE_2** structure contains pointers to functions that are implemented by the kernel-mode display miniport driver (KMD) to support version 2 of the [automatic display switching](/windows-hardware/drivers/display/automatic-display-switch) feature.

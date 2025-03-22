@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WheaHwErrorReportSetSectionNameDeviceDriver function (ntddk.h)
+
 ## -description
 
 This is a helper function for updating the FRUText field of the [**WHEA_ERROR_RECORD_SECTION_DESCRIPTOR**](./ns-ntddk-_whea_error_record_section_descriptor.md) structure.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IkeextSaEnum1
 ---
 
+# IkeextSaEnum1 function (fwpmk.h)
+
 ## -description
 
 The **IkeextSaEnum1** function returns the next page of results from the IKE/AuthIP security association (SA) enumerator.

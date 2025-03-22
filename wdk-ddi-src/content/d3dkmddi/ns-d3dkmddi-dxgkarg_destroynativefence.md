@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_DESTROYNATIVEFENCE
 ---
 
+# DXGKARG_DESTROYNATIVEFENCE structure (d3dkmddi.h)
+
 ## -description
 
 **DXGKARG_DESTROYNATIVEFENCE** is the structure passed to [**DxgkDdiDestroyNativeFence**](nc-d3dkmddi-dxgkddi_destroynativefence.md).

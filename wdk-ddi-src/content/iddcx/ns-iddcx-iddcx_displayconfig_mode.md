@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_DISPLAYCONFIG_MODE
 ---
 
+# IDDCX_DISPLAYCONFIG_MODE structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_DISPLAYCONFIG_MODE** structure contains details of the mode to be set for the monitor in a path.

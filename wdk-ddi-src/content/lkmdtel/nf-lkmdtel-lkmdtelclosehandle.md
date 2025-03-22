@@ -42,6 +42,8 @@ helpviewer_keywords:
  - LkmdTelCloseHandle
 ---
 
+# LkmdTelCloseHandle function (lkmdtel.h)
+
 ## -description
 
 This function frees any resources that were allocated during creation of the telemetry data report. 

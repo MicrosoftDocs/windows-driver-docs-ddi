@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_LINK_SUBSTATE
 ---
 
+# PCI_EXPRESS_LINK_SUBSTATE enumeration (miniport.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_LINK_SUBSTATE** enumeration.

@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STORPORT_LIVEDUMP_ISSUE_TYPE enumeration (storport.h)
+
 ## -description
 
 **STORPORT_LIVEDUMP_ISSUE_TYPE** identifies the issue that triggered the live dump capture.

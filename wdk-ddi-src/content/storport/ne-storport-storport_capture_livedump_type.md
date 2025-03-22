@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# STORPORT_CAPTURE_LIVEDUMP_TYPE enumeration (storport.h)
+
 ## -description
 
 **STORPORT_CAPTURE_LIVEDUMP_TYPE** identifies the type of live dump to capture.

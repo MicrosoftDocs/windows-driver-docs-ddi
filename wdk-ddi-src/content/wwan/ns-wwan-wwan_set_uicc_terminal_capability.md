@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WWAN_SET_UICC_TERMINAL_CAPABILITY
 ---
 
+# WWAN_SET_UICC_TERMINAL_CAPABILITY structure (wwan.h)
+
 ## -description
 
 The **WWAN_SET_UICC_TERMINAL_CAPABILITY** structure represents the terminal capabilities of the host and SIM slot ID associated with an [OID_WWAN_UICC_TERMINAL_CAPABILITY](/windows-hardware/drivers/network/oid-wwan-uicc-terminal-capability) set request.

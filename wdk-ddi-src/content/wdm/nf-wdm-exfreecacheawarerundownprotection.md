@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExFreeCacheAwareRundownProtection
 ---
 
+# ExFreeCacheAwareRundownProtection function (wdm.h)
+
 ## -description
 
 The **ExFreeCacheAwareRundownProtection** routine frees a cache-friendly rundown protection structure that was previously allocated.

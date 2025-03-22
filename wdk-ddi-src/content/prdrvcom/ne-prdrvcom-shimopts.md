@@ -51,6 +51,8 @@ helpviewer_keywords:
  - tagSHIMOPTS
 ---
 
+# tagSHIMOPTS enumeration (prdrvcom.h)
+
 ## -description
 
 Describes the **SHIMOPTS** enumeration.

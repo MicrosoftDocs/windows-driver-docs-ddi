@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _BUS_SPECIFIC_RESET_FLAGS
 ---
 
+# BUS_SPECIFIC_RESET_FLAGS structure (wdm.h)
+
 ## -description
 
 This topic describes the **BUS_SPECIFIC_RESET_FLAGS** union.

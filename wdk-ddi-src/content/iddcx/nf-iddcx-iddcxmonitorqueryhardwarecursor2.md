@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IddCxMonitorQueryHardwareCursor2
 ---
 
+# IddCxMonitorQueryHardwareCursor2 function (iddcx.h)
+
 ## -description
 
 An indirect display driver calls **IddCxMonitorQueryHardwareCursor2** to retrieve the current hardware cursor information for the specified monitor. A driver that reports HDR support must use [**IddCxMonitorQueryHardwareCursor3**](nf-iddcx-iddcxmonitorqueryhardwarecursor3.md) instead.

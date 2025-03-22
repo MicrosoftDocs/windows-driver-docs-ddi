@@ -37,6 +37,8 @@ dev_langs:
  - c++
 ---
 
+# NPEM_CONTROL_STANDARD_CONTROL_BIT enumeration (wdm.h)
+
 ## -description
 
 Reserved for system use.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_TOPOLOGYNODE
 ---
 
+# KSPROPERTY_TOPOLOGYNODE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_TOPOLOGYNODE** enumeration (ksmedia.h).

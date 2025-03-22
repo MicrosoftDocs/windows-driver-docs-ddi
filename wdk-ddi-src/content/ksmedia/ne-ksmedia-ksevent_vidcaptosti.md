@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_VIDCAPTOSTI
 ---
 
+# KSEVENT_VIDCAPTOSTI enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_VIDCAPTOSTI** enumeration (ksmedia.h).

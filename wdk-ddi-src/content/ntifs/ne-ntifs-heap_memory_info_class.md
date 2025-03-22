@@ -37,6 +37,8 @@ helpviewer_keywords:
  - _HEAP_MEMORY_INFO_CLASS
 ---
 
+# HEAP_MEMORY_INFO_CLASS enumeration (ntifs.h)
+
 ## -description
 
 Reserved for system use.

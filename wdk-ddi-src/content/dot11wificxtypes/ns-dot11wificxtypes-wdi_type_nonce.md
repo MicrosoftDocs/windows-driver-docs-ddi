@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_TYPE_NONCE structure (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

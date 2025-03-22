@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# RtlRetrieveUshort function (wdm.h)
+
 ## -description
 
 The **RtlRetrieveUshort** macro retrieves a USHORT value from the source address, avoiding alignment faults.

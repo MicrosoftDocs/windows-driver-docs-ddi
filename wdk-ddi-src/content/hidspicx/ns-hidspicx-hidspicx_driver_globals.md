@@ -42,6 +42,8 @@ dev_langs:
  - c++
 ---
 
+# HIDSPICX_DRIVER_GLOBALS structure (hidspicx.h)
+
 ## -description
 
 The **HIDSPICX_DRIVER_GLOBALS** structure is used internally by the framework. Do not use.

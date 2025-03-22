@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_PEER_CREATE_IND function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

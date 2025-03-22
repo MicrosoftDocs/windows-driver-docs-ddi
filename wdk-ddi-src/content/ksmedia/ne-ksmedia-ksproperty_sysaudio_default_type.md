@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_SYSAUDIO_DEFAULT_TYPE
 ---
 
+# KSPROPERTY_SYSAUDIO_DEFAULT_TYPE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_SYSAUDIO_DEFAULT_TYPE** enumeration (ksmedia.h).

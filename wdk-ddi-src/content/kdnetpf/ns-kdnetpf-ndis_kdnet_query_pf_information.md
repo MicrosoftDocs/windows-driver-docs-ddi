@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _NDIS_KDNET_QUERY_PF_INFORMATION
 ---
 
+# NDIS_KDNET_QUERY_PF_INFORMATION structure (kdnetpf.h)
+
 ## -description
 
 The **NDIS_KDNET_QUERY_PF_INFORMATION** structure describes the data required to query the PF management data.

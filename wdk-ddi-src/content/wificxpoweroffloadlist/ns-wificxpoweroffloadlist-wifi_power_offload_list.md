@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_POWER_OFFLOAD_LIST structure (wificxpoweroffloadlist.h)
+
 ## -description
 
 The **WIFI_POWER_OFFLOAD_LIST** structure represents a list of low power protocol offloads to a WiFiCx net adapter.

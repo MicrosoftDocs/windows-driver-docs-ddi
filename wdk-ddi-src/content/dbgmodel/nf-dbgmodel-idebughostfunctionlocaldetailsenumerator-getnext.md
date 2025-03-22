@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetNext
 ---
 
+# IDebugHostFunctionLocalDetailsEnumerator::GetNext function (dbgmodel.h)
+
 ## -description
 
 The GetNext method retrieves information about the next local variable within the function. Note that this method is "scopeless", meaning that it might return two local variables with the same name as they might be in different scopes.

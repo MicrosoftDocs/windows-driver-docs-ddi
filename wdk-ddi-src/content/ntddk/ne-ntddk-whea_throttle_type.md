@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WHEA_THROTTLE_TYPE
 ---
 
+# WHEA_THROTTLE_TYPE enumeration (ntddk.h)
+
 ## -description
 
 ## -enum-fields

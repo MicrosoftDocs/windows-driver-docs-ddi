@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_PICTURE_RESOLUTION_DESC_0080** structure defines a picture resolution.

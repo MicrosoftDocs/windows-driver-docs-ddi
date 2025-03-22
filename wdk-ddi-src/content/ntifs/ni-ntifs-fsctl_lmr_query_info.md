@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_LMR_QUERY_INFO
 ---
 
+# FSCTL_LMR_QUERY_INFO ioctl (ntifs.h)
+
 ## -description
 
 The **FSCTL_LMR_QUERY_INFO** control code retrieves the desired information for a remote file or directory opened locally.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_P2P_SERVICE_NAME_HASH structure (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

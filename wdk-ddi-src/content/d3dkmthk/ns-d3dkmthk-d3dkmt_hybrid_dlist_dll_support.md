@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_HYBRID_DLIST_DLL_SUPPORT structure (d3dkmthk.h)
+
 ## -description
 
 The **D3DKMT_HYBRID_DLIST_DLL_SUPPORT** structure indicates whether the adapter provides [dList DLL support on a hybrid system](/windows-hardware/drivers/display/hybrid-system-ddi).

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_TX_MODE_0095** enumeration defines the list of distinct transform modes that can be used in AV1 video encoding.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSMETHOD_WAVETABLE
 ---
 
+# KSMETHOD_WAVETABLE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSMETHOD_WAVETABLE** enumeration (ksmedia.h).

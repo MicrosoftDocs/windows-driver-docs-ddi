@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FindSymbolByName
 ---
 
+# IDebugHostModule5::FindSymbolByName function (dbgmodel.h)
+
 ## -description
 
 The FindSymbolByName method will find a single global symbol of the given name within the module. If there is not a single symbol matching the given name, an error will be returned by this method. Note that this method will prefer returning a private symbol over a symbol in the publics table.

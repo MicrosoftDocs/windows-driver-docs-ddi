@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEA_FAILED_ADD_DEFECT_LIST_EVENT
 ---
 
+# WHEA_FAILED_ADD_DEFECT_LIST_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEA_FAILED_ADD_DEFECT_LIST_EVENT** structure.

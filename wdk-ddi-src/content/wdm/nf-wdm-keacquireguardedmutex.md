@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireGuardedMutex
 ---
 
+# KeAcquireGuardedMutex function (wdm.h)
+
 ## -description
 
 The **KeAcquireGuardedMutex** routine acquires a guarded mutex.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortNvmeIceIoStart
 ---
 
+# StorPortNvmeIceIoStart function (storport.h)
+
 ## -description
 
 The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (instant cryptographic erase) I/O operation.

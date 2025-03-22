@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDirectDeviceCreate function (wificx.h)
+
 ## -description
 
 Creates a WIFIDIRECTDEVICE object.

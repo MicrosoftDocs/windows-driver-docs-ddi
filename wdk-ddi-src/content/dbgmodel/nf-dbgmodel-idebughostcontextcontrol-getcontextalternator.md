@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetContextAlternator
 ---
 
+# IDebugHostContextControl::GetContextAlternator function (dbgmodel.h)
+
 ## -description
 
 It retrieves a context alternator, allowing a temporary context change or switch.

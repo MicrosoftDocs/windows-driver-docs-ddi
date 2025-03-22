@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExInitializeRundownProtectionCacheAwareEx
 ---
 
+# ExInitializeRundownProtectionCacheAwareEx function (wdm.h)
+
 ## -description
 
 This routine is reserved for internal use.

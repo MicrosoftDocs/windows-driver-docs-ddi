@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_WAVE_MMA_ACCUM_DATATYPE
 ---
 
+# D3D12DDI_WAVE_MMA_ACCUM_DATATYPE enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WAVE_MMA_ACCUM_DATATYPE** enumeration is a bitwise-OR of the data types supported for the accumulator in a matrix-multiply-accumulate (MMA) operation.

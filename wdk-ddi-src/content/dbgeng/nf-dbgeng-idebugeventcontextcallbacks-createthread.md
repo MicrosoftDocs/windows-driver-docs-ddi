@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# IDebugEventContextCallbacks::CreateThread function (dbgeng.h)
+
 ## -description
 
 The CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target.

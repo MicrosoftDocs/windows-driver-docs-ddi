@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmLayerGetByKey0
 ---
 
+# FwpmLayerGetByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmLayerGetByKey0** function retrieves a layer object.

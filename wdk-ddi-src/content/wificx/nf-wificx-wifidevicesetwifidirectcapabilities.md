@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiDeviceSetWiFiDirectCapabilities function (wificx.h)
+
 ## -description
 
 The **WifiDeviceSetWiFiDirectCapabilities** function sets the Wi-Fi Direct capabilities for a WiFiCx device.

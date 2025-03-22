@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_BDA_LNB_INFO
 ---
 
+# KSPROPERTY_BDA_LNB_INFO enumeration (bdamedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_BDA_LNB_INFO** enumeration.

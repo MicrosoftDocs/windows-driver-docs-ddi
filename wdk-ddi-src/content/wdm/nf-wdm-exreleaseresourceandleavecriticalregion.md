@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExReleaseResourceAndLeaveCriticalRegion
 ---
 
+# ExReleaseResourceAndLeaveCriticalRegion function (wdm.h)
+
 ## -description
 
 The **ExReleaseResourceAndLeaveCriticalRegion** routine first releases the specified resource, and then leaves the critical region.

@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_WAKE_PATTERN_ID enumeration (netadapter.h)
+
 ## -description
 
 The **NET_ADAPTER_WAKE_PATTERN_ID** enumeration specifies the wake pattern ID in the [**NET_ADAPTER_WAKE_REASON_PACKET**](ns-netadapter-_net_adapter_wake_reason_packet.md) structure.

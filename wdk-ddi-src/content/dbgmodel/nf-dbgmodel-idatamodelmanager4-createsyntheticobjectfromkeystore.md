@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateSyntheticObjectFromKeyStore
 ---
 
+# IDataModelManager4::CreateSyntheticObjectFromKeyStore function (dbgmodel.h)
+
 ## -description
 
 Creates a synthetic object from an existing key store, which consists of key/value/metadata tuples. The synthetic IModelObject that is created by the method.

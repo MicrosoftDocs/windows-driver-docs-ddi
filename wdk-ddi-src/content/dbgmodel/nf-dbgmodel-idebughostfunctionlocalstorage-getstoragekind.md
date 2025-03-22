@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetStorageKind
 ---
 
+# IDebugHostFunctionLocalStorage::GetStorageKind function (dbgmodel.h)
+
 ## -description
 
 The GetStorageKind method retrieves the storage kind of the local data.

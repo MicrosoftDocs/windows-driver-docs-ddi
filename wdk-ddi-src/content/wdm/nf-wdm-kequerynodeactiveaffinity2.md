@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# KeQueryNodeActiveAffinity2 function (wdm.h)
+
 ## -description
 
 This routine returns the current multi-group processor affinity of the given NUMA node.

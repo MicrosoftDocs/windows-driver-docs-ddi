@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _WHEAP_PLUGIN_DEFECT_LIST_FULL_EVENT
 ---
 
+# WHEAP_PLUGIN_DEFECT_LIST_FULL_EVENT structure (ntddk.h)
+
 ## -description
 
 This topic describes the **WHEAP_PLUGIN_DEFECT_LIST_FULL_EVENT** structure.

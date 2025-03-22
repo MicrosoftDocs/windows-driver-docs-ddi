@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_UPDATENATIVEFENCELOGS
 ---
 
+# DXGKDDI_UPDATENATIVEFENCELOGS function (d3dkmddi.h)
+
 ## -description
 
 **DxgkDdiUpdateNativeFenceLogs** synchronously flushes pending native fence log writes on demand.

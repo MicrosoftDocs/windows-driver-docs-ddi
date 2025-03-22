@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDICAPS_SAMPLER_FEEDBACK_CAPS_0073 structure (d3d12umddi.h)
+
 ## -description
 
 Deprecated - do not use.

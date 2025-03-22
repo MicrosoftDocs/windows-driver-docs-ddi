@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortNvmeMiniportEvent
 ---
 
+# StorPortNvmeMiniportEvent function (storport.h)
+
 ## -description
 
 An NVMe miniport driver calls the **StorPortNvmeMiniportEvent** function to log an ETW event to a specific channel with up to eight extra general purpose parameters.

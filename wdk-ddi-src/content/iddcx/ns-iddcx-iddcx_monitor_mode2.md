@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_MONITOR_MODE2
 ---
 
+# IDDCX_MONITOR_MODE2 structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_MONITOR_MODE2** structure contains information about a monitor mode.

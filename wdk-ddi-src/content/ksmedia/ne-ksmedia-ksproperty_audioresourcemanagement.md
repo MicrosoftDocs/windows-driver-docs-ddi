@@ -34,6 +34,8 @@ helpviewer_keywords:
  - KSPROPERTY_AUDIORESOURCEMANAGEMENT
 ---
 
+# KSPROPERTY_AUDIORESOURCEMANAGEMENT enumeration (ksmedia.h)
+
 ## -description
 
 Describes the **KSPROPERTY_AUDIORESOURCEMANAGEMENT** enumeration.

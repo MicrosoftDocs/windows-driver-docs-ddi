@@ -42,6 +42,8 @@ helpviewer_keywords:
  - IsInvocable
 ---
 
+# IDataModelScript2::IsInvocable function (dbgmodel.h)
+
 ## -description
 
 The IsInvocable method returns whether or not the script is invocable -- that is, whether it has a "main function" as defined by its language or provider. Such a "main function" is conceptually something that the script author would want called if an imaginary "Execute Script" button were pressed in a user interface. 

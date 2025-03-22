@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3D12DDI_GET_WORK_GRAPH_MEMORY_REQUIREMENTS_0108
 ---
 
+# PFND3D12DDI_GET_WORK_GRAPH_MEMORY_REQUIREMENTS_0108 function (d3d12umddi.h)
+
 ## -description
 
 The user-mode driver's **pfnGetWorkGraphMemoryRequirements** function gets the backing memory size requirements for a work graph.

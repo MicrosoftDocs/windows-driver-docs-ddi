@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKCB_FEATURE_NATIVEFENCE_CAPS_1
 ---
 
+# DXGKCB_FEATURE_NATIVEFENCE_CAPS_1 function (d3dkmddi.h)
+
 ## -description
 
 **DXGKCB_FEATURE_NATIVEFENCE_CAPS_1** is the OS's interface table dedicated to version 1 of [**DXGK_FEATURE_NATIVE_FENCE**](../d3dukmdt/ne-d3dukmdt-dxgk_feature_id.md).

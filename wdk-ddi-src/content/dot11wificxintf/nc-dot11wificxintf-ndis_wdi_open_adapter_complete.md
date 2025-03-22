@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# NDIS_WDI_OPEN_ADAPTER_COMPLETE function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

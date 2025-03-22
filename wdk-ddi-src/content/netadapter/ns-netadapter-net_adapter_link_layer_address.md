@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_LINK_LAYER_ADDRESS structure (netadapter.h)
+
 ## -description
 
 A **NET_ADAPTER_LINK_LAYER_ADDRESS** structure describes a link layer address.

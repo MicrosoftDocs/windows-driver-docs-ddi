@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARG_UPDATECURRENTVALUESFROMCPU
 ---
 
+# DXGKARG_UPDATECURRENTVALUESFROMCPU structure (d3dkmddi.h)
+
 ## -description
 
 ****DXGKARG_UPDATECURRENTVALUESFROMCPU** is the parameter for the [**DxgkDdiUpdateCurrentValuesFromCpu**](nc-d3dkmddi-dxgkddi_updatecurrentvaluesfromcpu.md) function.

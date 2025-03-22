@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_WAVE_MMA_INPUT_DATATYPE
 ---
 
+# D3D12DDI_WAVE_MMA_INPUT_DATATYPE enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_WAVE_MMA_INPUT_DATATYPE** enumeration specifies the type of the input data for Direct3D matrix-multiply-accumulate (MMA) operations.

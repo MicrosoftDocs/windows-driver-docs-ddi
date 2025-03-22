@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _D3DDDI_TESTCOMMANDBUFFEROP
 ---
 
+# D3DDDI_TESTCOMMANDBUFFEROP enumeration (d3dukmdt.h)
+
 ## -description
 
 A **D3DDDI_TESTCOMMANDBUFFEROP** enumeration specifies the type of operation for a test command buffer.

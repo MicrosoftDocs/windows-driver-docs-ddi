@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Populate
 ---
 
+# IDataModelScript2::Populate function (dbgmodel.h)
+
 ## -description
 
 The Populate method is called by the client in order to change or synchronize the "content" of the script. It is the notification that is made to the script provider that the code of the script has changed. It is important to note that this method does not cause execution of the script or changes to any of the objects that the script manipulates. This is merely a notification to the script provider that the content of the script has changed so that it may synchronize its own internal state.

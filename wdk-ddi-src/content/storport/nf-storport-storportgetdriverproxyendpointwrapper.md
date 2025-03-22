@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortGetDriverProxyEndpointWrapper
 ---
 
+# StorPortGetDriverProxyEndpointWrapper function (storport.h)
+
 ## -description
 
 **StorPortGetDriverProxyEndpointWrapper** retrieves the address of a wrapped function pointer for a driver's endpoint.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DESTROYMEMORYBASIS
 ---
 
+# DXGKDDI_DESTROYMEMORYBASIS function (d3dkmddi.h)
+
 ## -description
 
 KMD's **DxgkDdiDestroyMemoryBasis** function destroys a memory basis that was created by a previous call to [**DxgkDdiCreateMemoryBasis**](nc-d3dkmddi-dxgkddi_creatememorybasis.md).

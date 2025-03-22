@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _TOKEN_LOGGING_INFORMATION
 ---
 
+# TOKEN_LOGGING_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **TOKEN_LOGGING_INFORMATION** provides detailed information about a security token.

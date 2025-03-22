@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_WAKE_SOURCE_LIST structure (wificxwakesourcelist.h)
+
 ## -description
 
 The **WIFI_WAKE_SOURCE_LIST** structure represents a list of wake sources for a WiFiCx net adapter.

@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# KSPROPERTY_NETWORKCAMERACONTROL_EVENT_INFO structure (ksmedia.h)
+
 ## -description
 
 Defines the **KSPROPERTY_NETWORKCAMERACONTROL_EVENT_INFO** structure.

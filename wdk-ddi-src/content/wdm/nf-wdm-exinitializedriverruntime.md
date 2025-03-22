@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExInitializeDriverRuntime function (wdm.h)
+
 ## -description
 
 POOL_NX_OPTIN allows device drivers to dynamically opt-in to making

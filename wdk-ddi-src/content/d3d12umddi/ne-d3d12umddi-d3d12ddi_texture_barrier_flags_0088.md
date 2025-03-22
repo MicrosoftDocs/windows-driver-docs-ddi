@@ -34,6 +34,8 @@ helpviewer_keywords:
  - D3D12DDI_TEXTURE_BARRIER_FLAGS_0088
 ---
 
+# D3D12DDI_TEXTURE_BARRIER_FLAGS_0088 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_TEXTURE_BARRIER_FLAGS_0088** enumeration specifies flags for texture resource barriers.

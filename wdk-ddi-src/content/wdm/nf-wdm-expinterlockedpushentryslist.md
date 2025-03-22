@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ExpInterlockedPushEntrySList
 ---
 
+# ExpInterlockedPushEntrySList function (wdm.h)
+
 ## -description
 
 Describes the **ExpInterlockedPushEntrySList** function.

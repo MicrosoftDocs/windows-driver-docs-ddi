@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_WAKE_SOURCE_LIST_INIT function (wificxwakesourcelist.h)
+
 ## -description
 
 The **WIFI_WAKE_SOURCE_LIST_INIT** function initializes a [**WIFI_WAKE_SOURCE_LIST**](ns-wificxwakesourcelist-wifi_wake_source_list.md) structure.

@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_HWQUEUEDFLIP_CAPS
 ---
 
+# DXGK_HWQUEUEDFLIP_CAPS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_HWQUEUEDFLIP_CAPS** structure describes hardware flip queue capabilities.

@@ -41,6 +41,8 @@ helpviewer_keywords:
  - _DXGK_ALLOCATIONINFOFLAGS2
 ---
 
+# DXGK_ALLOCATIONINFOFLAGS2 structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_ALLOCATIONINFOFLAGS2** structure contains additional properties for an allocation.

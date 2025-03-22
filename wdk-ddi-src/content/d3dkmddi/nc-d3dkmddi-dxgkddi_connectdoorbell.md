@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_CONNECTDOORBELL
 ---
 
+# DXGKDDI_CONNECTDOORBELL function (d3dkmddi.h)
+
 ## -description
 
 **DxgkDdiConnectDoorbell** connects (or reconnects) a [previously created doorbell object](ns-d3dkmddi-dxgkarg_createdoorbell.md) to a hardware queue.

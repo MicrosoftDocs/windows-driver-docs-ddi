@@ -42,6 +42,8 @@ helpviewer_keywords:
  - RS_ALL_COMMANDS_PARAMETER_DATA
 ---
 
+# RS_ALL_COMMANDS_PARAMETER_DATA structure (storport.h)
+
 ## -description
 
 The **RS_ALL_COMMANDS_PARAMETER_DATA** structure contains a list of **[RS_COMMAND_DESCRIPTOR](ns-storport-rs_command_descriptor.md)** structures.

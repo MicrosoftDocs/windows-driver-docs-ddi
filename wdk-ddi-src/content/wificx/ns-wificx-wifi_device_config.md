@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# WIFI_DEVICE_CONFIG structure (wificx.h)
+
 ## -description
 
 The **WIFI_DEVICE_CONFIG** structure contains pointers to a client driver's WiFiCx-specific callback functions. The client driver must supply an initialized **WIFI_DEVICE_CONFIG** structure as an input parameter to [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).

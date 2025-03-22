@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_DISPLAYMUX_UPDATE_STATE
 ---
 
+# DXGKDDI_DISPLAYMUX_UPDATE_STATE function (dispmprt.h)
+
 ## -description
 
 *Dxgkrnl* calls the kernel-mode display driver's (KMD) **DxgkddiDisplayMuxUpdateState** function to notify the driver of the current mux state.

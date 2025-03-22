@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# HidP_GetVersion function (hidpi.h)
+
 ## -description
 
 The **HidP_GetVersion** function is a header-only implementation that returns the HID API version.

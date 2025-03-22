@@ -36,6 +36,8 @@ helpviewer_keywords:
  - IGPUPMigration
 ---
 
+# IGPUPMigration interface (igpupvdev.h)
+
 ## -description
 
 The **IGPUPMigration** interface is part of the Windows user-mode emulation DLL that facilitates the management of GPU state during live migration of virtual GPUs.

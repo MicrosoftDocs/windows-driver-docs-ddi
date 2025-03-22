@@ -42,6 +42,8 @@ helpviewer_keywords:
  - StorPortGetProcessorCount
 ---
 
+# StorPortGetProcessorCount function (storport.h)
+
 ## -description
 
 The **StorPortGetProcessorCount** routine returns the number of active logical processors in the system.

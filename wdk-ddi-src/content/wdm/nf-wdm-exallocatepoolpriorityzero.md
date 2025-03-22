@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExAllocatePoolPriorityZero function (wdm.h)
+
 ## -description
 
 > [!CAUTION]

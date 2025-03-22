@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# NetDeviceStoreResetDiagnostics function (netadaptercx.h)
+
 ## -description
 
 The **NetDeviceStoreResetDiagnostics** function stores client driver collected reset diagnostics into the NetAdapterCx framework.

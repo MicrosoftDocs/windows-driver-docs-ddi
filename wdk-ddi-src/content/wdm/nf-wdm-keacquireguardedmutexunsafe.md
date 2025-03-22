@@ -42,6 +42,8 @@ helpviewer_keywords:
  - KeAcquireGuardedMutexUnsafe
 ---
 
+# KeAcquireGuardedMutexUnsafe function (wdm.h)
+
 ## -description
 
 The **KeAcquireGuardedMutexUnsafe** acquires a guarded mutex while inside a guarded region.

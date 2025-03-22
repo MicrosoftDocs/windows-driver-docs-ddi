@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _ASPT_ENTRY_HEADER
 ---
 
+# ASPT_ENTRY_HEADER structure (acpitabl.h)
+
 ## -description
 
 This topic describes the **ASPT_ENTRY_HEADER** structure used by the AMD Secure Processor Table (ASPT).

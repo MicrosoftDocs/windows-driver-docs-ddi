@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcUnregisterExternalCacheEx
 ---
 
+# CcUnregisterExternalCacheEx function (ntifs.h)
+
 ## -description
 
 **CcUnregisterExternalCacheEx** routine unregisters an external cache with the cache manager.

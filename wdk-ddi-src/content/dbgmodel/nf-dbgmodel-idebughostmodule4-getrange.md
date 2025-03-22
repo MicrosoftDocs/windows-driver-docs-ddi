@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetRange
 ---
 
+# IDebugHostModule4::GetRange function (dbgmodel.h)
+
 ## -description
 
 The GetRange method retrieves the beginning and ending virtual addresses (VA) of the module in memory.

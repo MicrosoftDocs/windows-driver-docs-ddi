@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES structure (netadapteroffload.h)
+
 ## -description
 
 The **NET_ADAPTER_OFFLOAD_IEEE8021Q_TAG_CAPABILITIES** structure describes a network interface card (NIC)'s IEEE 802.1 priority tagging and virtual LAN (VLAN) tagging capabilities.

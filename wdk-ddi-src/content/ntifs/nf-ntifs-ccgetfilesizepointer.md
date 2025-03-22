@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CcGetFileSizePointer
 ---
 
+# CcGetFileSizePointer function (ntifs.h)
+
 ## -description
 
 **CcGetFileSizePointer** returns the size of a file.

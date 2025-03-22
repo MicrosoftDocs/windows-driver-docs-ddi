@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_QUERYSEGMENTCOUNTOUT
 ---
 
+# DXGK_QUERYSEGMENTCOUNTOUT structure (d3dkmddi.h)
+
 ## -description
 
 Currently reserved for system use.

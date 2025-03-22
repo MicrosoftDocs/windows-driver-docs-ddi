@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# WifiAdapterGetType function (wificx.h)
+
 ## -description
 
 Gets the Wi-Fi adapter type.

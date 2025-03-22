@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_0080_2
 ---
 
+# D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_0080_2 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_RATE_CONTROL_0080_2** structure specifies the rate control configuration.

@@ -34,6 +34,8 @@ helpviewer_keywords:
  - HUMAN_PRESENCE_DETECTION_TYPE
 ---
 
+# HUMAN_PRESENCE_DETECTION_TYPE enumeration (sensorsdef.h)
+
 ## -description
 
 The **HUMAN_PRESENCE_DETECTION_TYPE** enumeration values indicate types of human presence detection hardware.

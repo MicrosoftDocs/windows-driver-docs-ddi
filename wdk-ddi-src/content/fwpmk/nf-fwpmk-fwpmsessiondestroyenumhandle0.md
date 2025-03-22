@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmSessionDestroyEnumHandle0
 ---
 
+# FwpmSessionDestroyEnumHandle0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmSessionDestroyEnumHandle0** function frees a handle returned by **[FwpmSessionCreateEnumHandle0](nf-fwpmk-fwpmsessioncreateenumhandle0.md)**.

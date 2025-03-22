@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _FILE_STAT_BASIC_INFORMATION
 ---
 
+# FILE_STAT_BASIC_INFORMATION structure (ntifs.h)
+
 ## -description
 
 **FILE_STAT_BASIC_INFORMATION** contains basic metadata about a file.

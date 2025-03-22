@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDIARG_ADD_TO_STATE_OBJECT_0072 structure (d3d12umddi.h)
+
 ## -description
 
 Structure used to add subobject(s) to a state object via the [**PFND3D12DDI_ADD_TO_STATE_OBJECT_0072**](nc-d3d12umddi-pfnd3d12ddi_add_to_state_object_0072.md) callback.

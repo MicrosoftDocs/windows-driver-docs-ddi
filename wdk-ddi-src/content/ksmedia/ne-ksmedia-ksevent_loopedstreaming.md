@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSEVENT_LOOPEDSTREAMING
 ---
 
+# KSEVENT_LOOPEDSTREAMING enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSEVENT_LOOPEDSTREAMING** enumeration (ksmedia.h).

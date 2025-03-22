@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# D3DKMT_QUERYSTATISTICS_QUEUE_PACKET_TYPE enumeration (d3dkmthk.h)
+
 ## -description
 
 Reserved for system use. Do not use.

@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1** structure describes statistics for each stage of the graphics pipeline that is used in a call to the [**pfnBeginEndQuery**](nc-d3d12umddi-pfnd3d12ddi_begin_end_query.md) function to create a **D3D12_QUERY_TYPE_PIPELINE_STATISTICS1** query type, and in a call to [**pfnResolveQueryData**](nc-d3d12umddi-pfnd3d12ddi_resolve_query_data.md) to return information about the query.

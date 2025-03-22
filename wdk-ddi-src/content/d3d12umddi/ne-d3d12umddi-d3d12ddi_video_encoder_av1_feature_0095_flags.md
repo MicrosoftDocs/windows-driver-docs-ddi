@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_AV1_FEATURE_0095_FLAGS
 ---
 
+# D3D12DDI_VIDEO_ENCODER_AV1_FEATURE_0095_FLAGS enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_AV1_FEATURE_0095_FLAGS** enumeration is a bitwise OR of values that report the encoding capabilities of the AV1 codec.

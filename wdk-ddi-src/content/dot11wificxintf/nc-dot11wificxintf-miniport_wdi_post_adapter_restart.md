@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_POST_ADAPTER_RESTART function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

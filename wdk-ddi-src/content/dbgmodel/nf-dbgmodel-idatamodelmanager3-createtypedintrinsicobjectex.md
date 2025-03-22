@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CreateTypedIntrinsicObjectEx
 ---
 
+# IDataModelManager3::CreateTypedIntrinsicObjectEx function (dbgmodel.h)
+
 ## -description
 
 The CreateTypedIntrinsicObjectEx method is semantically similar to the CreateTypedIntrinsicObject method. The only difference between the two is that this method allows the caller to specify the context in which the intrinsic data is valid. If no context is passed, the data is considered valid in whatever context is inherited from the type argument (how CreateTypedIntrinsicObject behaves). This allows for the creation of typed pointer values in the debug target which require more specific context than can be inherited from the type.

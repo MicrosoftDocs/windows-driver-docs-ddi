@@ -34,6 +34,8 @@ dev_langs:
  - c++
 ---
 
+# WDI_STOP_AP_REASON enumeration (dot11wificxtypes.h)
+
 ## -description
 
 > [!IMPORTANT]

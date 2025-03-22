@@ -42,6 +42,8 @@ helpviewer_keywords:
  - CREATE_USN_JOURNAL_DATA
 ---
 
+# CREATE_USN_JOURNAL_DATA structure (ntifs.h)
+
 ## -description
 
 The **CREATE_USN_JOURNAL_DATA** structure contains information for the creation of an update sequence number (USN) change journal.

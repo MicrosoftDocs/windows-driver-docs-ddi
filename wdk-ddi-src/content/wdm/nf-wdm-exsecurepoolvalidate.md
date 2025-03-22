@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# ExSecurePoolValidate function (wdm.h)
+
 ## -description
 
 The **ExSecurePoolValidate** function validates that the secure pool provided is indeed the one previously created. It matches the secure header content with the values provided and checks if it owns the heap.

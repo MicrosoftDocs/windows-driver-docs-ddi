@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_NR_SERVING_CELLS structure (wwan.h)
+
 ## -description
 
 The **WWAN_NR_SERVING_CELLS** structure represents the measured results list of 5G NR serving cells.

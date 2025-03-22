@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpsCalloutRegister3
 ---
 
+# FwpsCalloutRegister3 function (fwpsk.h)
+
 ## -description
 
 The **FwpsCalloutRegister3** function registers the function pointers for a version 3 of the **[FWPS_CALLOUT3](ns-fwpsk-fwps_callout3.md)** structure.

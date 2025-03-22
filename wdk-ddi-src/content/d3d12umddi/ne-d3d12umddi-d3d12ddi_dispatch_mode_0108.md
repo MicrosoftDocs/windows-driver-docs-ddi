@@ -35,6 +35,8 @@ helpviewer_keywords:
  - D3D12DDI_DISPATCH_MODE_0108
 ---
 
+# D3D12DDI_DISPATCH_MODE_0108 enumeration (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_DISPATCH_MODE_0108** enumeration identifies a work graph's dispatch mode and which union member in [**D3D12DDI_DISPATCH_GRAPH_DESC_0108**](ns-d3d12umddi-d3d12ddi_dispatch_graph_desc_0108.md) to use.

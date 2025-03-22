@@ -42,6 +42,8 @@ helpviewer_keywords:
  - BlameApplication
 ---
 
+# IDebugFailureAnalysis3::BlameApplication function (extsfns.h)
+
 ## -description
 
 ## -parameters

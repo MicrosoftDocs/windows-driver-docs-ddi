@@ -38,6 +38,8 @@ helpviewer_keywords:
  - FSCTL_REFS_QUERY_VOLUME_TOTAL_SHARED_LCNS
 ---
 
+# FSCTL_REFS_QUERY_VOLUME_TOTAL_SHARED_LCNS ioctl (ntifs.h)
+
 ## -description
 
 Reserved for system use.

@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_EXTDEVICE
 ---
 
+# KSPROPERTY_EXTDEVICE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_EXTDEVICE** enumeration (ksmedia.h).

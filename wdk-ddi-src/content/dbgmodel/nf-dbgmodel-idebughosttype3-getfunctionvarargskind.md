@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetFunctionVarArgsKind
 ---
 
+# IDebugHostType3::GetFunctionVarArgsKind function (dbgmodel.h)
+
 ## -description
 
 The GetFunctionVarArgsKind method returns whether a given function utilizes a variable argument list, and if so, what style of variable arguments it utilizes. Such is defined by a member of the [VarArgsKind enumeration](ne-dbgmodel-varargskind.md) defined as follows:

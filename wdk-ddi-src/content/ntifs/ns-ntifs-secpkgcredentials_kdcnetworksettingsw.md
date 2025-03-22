@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _SecPkgCredentials_KdcNetworkSettingsW
 ---
 
+# SecPkgCredentials_KdcNetworkSettingsW structure (ntifs.h)
+
 ## -description
 
 The **SecPkgCredentials_KdcNetworkSettingsW** structure is used to configure network settings for Kerberos Key Distribution Center (KDC) communications in secure environments. It is typically used in scenarios where specific network configurations are required for secure communication with KDCs.

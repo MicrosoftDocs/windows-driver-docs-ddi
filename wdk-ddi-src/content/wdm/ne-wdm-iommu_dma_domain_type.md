@@ -38,6 +38,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_DOMAIN_TYPE enumeration (wdm.h)
+
 ## -description
 
 Describes the domain types that can be created and interacted with via the [**DMA_IOMMU_INTERFACE_EX**](ns-wdm-dma_iommu_interface_ex.md).

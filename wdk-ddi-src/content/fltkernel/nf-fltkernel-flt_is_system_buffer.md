@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FLT_IS_SYSTEM_BUFFER
 ---
 
+# FLT_IS_SYSTEM_BUFFER function (fltkernel.h)
+
 ## -description
 
 The **FLT_IS_SYSTEM_BUFFER** macro tests the system buffer flag in a callback data structure.

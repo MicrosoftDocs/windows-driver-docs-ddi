@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PoRegisterForEffectivePowerModeNotifications
 ---
 
+# PoRegisterForEffectivePowerModeNotifications function (wdm.h)
+
 ## -description
 
 The **PoRegisterForEffectivePowerModeNotifications** function registers a callback to receive effective power mode change notifications.

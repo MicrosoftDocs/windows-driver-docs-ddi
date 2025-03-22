@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_WDDM_3_1_CAPS
 ---
 
+# D3DKMT_WDDM_3_1_CAPS structure (d3dkmdt.h)
+
 ## -description
 
 Reserved for system use. Do not use.

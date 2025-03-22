@@ -38,6 +38,8 @@ helpviewer_keywords:
  - D3D12DDI_VIDEO_ENCODER_COMPRESSED_BITSTREAM_0080
 ---
 
+# D3D12DDI_VIDEO_ENCODER_COMPRESSED_BITSTREAM_0080 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_VIDEO_ENCODER_COMPRESSED_BITSTREAM_0080** structure encapsulates the compressed bitstream output for the encoding operation.

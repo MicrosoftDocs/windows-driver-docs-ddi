@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _RTL_HEAP_PARAMETERS
 ---
 
+# RTL_HEAP_PARAMETERS structure (ntifs.h)
+
 ## -description
 
 The **RTL_HEAP_PARAMETERS** structure contains parameters to be applied when creating a heap.

@@ -39,6 +39,8 @@ helpviewer_keywords:
  - IDDCX_WIRE_BITS_PER_COMPONENT
 ---
 
+# IDDCX_WIRE_BITS_PER_COMPONENT structure (iddcx.h)
+
 ## -description
 
 The **IDDCX_WIRE_BITS_PER_COMPONENT** structure identifies the dithering support of a target.

@@ -38,6 +38,8 @@ helpviewer_keywords:
  - _DXGK_FEATURE_ID
 ---
 
+# DXGK_FEATURE_ID enumeration (d3dukmdt.h)
+
 ## -description
 
 A **DXGK_FEATURE_ID** enumeration value identifies a WDDM feature.

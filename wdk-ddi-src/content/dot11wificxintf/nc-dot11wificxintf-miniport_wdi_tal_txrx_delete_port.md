@@ -39,6 +39,8 @@ dev_langs:
  - c++
 ---
 
+# MINIPORT_WDI_TAL_TXRX_DELETE_PORT function (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

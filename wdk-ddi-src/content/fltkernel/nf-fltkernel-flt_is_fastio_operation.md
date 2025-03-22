@@ -40,6 +40,8 @@ dev_langs:
  - c++
 ---
 
+# FLT_IS_FASTIO_OPERATION function (fltkernel.h)
+
 ## -description
 
 The **FLT_IS_FASTIO_OPERATION** macro determines whether the given callback data structure represents a fast I/O operation.

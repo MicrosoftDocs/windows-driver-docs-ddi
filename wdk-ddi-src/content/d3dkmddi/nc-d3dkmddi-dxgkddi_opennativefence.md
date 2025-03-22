@@ -42,6 +42,8 @@ helpviewer_keywords:
  - DXGKDDI_OPENNATIVEFENCE
 ---
 
+# DXGKDDI_OPENNATIVEFENCE function (d3dkmddi.h)
+
 ## -description
 
 **DxgkDdiOpenNativeFence** is called by the OS to open a native GPU fence object.

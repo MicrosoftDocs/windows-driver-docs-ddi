@@ -34,6 +34,8 @@ helpviewer_keywords:
  - RSNA_AKM_SUITE
 ---
 
+# RSNA_AKM_SUITE enumeration (windot11.h)
+
 ## -description
 
 The **RSNA_AKM_SUITE** enumeration specifies Robust Security Network Association (RSNA) authentication and key management (AKM) suites.

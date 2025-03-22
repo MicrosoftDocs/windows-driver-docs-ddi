@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# REG_SAVE_MERGED_KEY_INFORMATION structure (wdm.h)
+
 ## -description
 
 The **REG_SAVE_MERGED_KEY_INFORMATION** structure contains the information about the two registry subtrees for which a merged view is to be saved to a file.

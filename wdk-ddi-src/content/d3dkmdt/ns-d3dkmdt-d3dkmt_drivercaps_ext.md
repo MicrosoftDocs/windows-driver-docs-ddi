@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _D3DKMT_DRIVERCAPS_EXT
 ---
 
+# D3DKMT_DRIVERCAPS_EXT structure (d3dkmdt.h)
+
 ## -description
 
 The **D3DKMT_DRIVERCAPS_EXT** structure describes the extended capabilities of the display miniport driver (KMD).

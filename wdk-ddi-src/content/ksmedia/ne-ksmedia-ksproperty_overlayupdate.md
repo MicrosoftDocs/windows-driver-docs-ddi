@@ -35,6 +35,8 @@ helpviewer_keywords:
  - KSPROPERTY_OVERLAYUPDATE
 ---
 
+# KSPROPERTY_OVERLAYUPDATE enumeration (ksmedia.h)
+
 ## -description
 
 This topic describes the **KSPROPERTY_OVERLAYUPDATE** enumeration (ksmedia.h).

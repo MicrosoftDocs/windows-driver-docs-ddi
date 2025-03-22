@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PO_EFFECTIVE_POWER_MODE_CALLBACK
 ---
 
+# PO_EFFECTIVE_POWER_MODE_CALLBACK function (wdm.h)
+
 ## -description
 
 The **PO_EFFECTIVE_POWER_MODE_CALLBACK** is the effective power mode callback.

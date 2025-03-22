@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmConnectionGetSecurityInfo0
 ---
 
+# FwpmConnectionGetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmConnectionGetSecurityInfo0** function retrieves a copy of the security descriptor for a connection object change event.

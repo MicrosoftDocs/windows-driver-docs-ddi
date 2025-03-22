@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmEngineGetSecurityInfo0
 ---
 
+# FwpmEngineGetSecurityInfo0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmEngineGetSecurityInfo0** function retrieves a copy of the security descriptor for the filter engine.

@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_USERMODESUBMISSION_CAPS
 ---
 
+# DXGK_USERMODESUBMISSION_CAPS structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_USERMODESUBMISSION_CAPS** structure describes KMD's user-mode work submission capabilities.

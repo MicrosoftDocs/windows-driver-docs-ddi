@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGK_QUERYSCATTERRESERVEIN
 ---
 
+# DXGK_QUERYSCATTERRESERVEIN structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGK_QUERYSCATTERRESERVEIN** structure contains the input parameters (**pInputData**) for a [**DxgkDdiQueryAdaptedInfo**](nc-d3dkmddi-dxgkddi_queryadapterinfo.md) call with a **Type** of **DXGKQAITYPE_SCATTER_RESERVE**.

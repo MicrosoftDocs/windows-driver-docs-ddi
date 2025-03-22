@@ -42,6 +42,8 @@ helpviewer_keywords:
  - _DXGKARGCB_ISFEATUREENABLED2
 ---
 
+# DXGKARGCB_ISFEATUREENABLED2 structure (d3dkmddi.h)
+
 ## -description
 
 The **DXGKARGCB_ISFEATUREENABLED2** structure is the parameter for the [**DXGKCB_ISFEATUREENABLED2**](nc-d3dkmddi-dxgkcb_isfeatureenabled2.md) callback function.

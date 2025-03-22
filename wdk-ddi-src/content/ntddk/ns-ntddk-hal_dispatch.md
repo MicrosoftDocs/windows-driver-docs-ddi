@@ -41,6 +41,8 @@ helpviewer_keywords:
  - HAL_DISPATCH
 ---
 
+# HAL_DISPATCH structure (ntddk.h)
+
 ## -description
 
 This topic describes the **HAL_DISPATCH** structure.

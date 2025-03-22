@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# WWAN_NETWORK_PARAMS_INFO structure (wwan.h)
+
 ## -description
 
 The **WWAN_NETWORK_PARAMS_INFO** structure represents network configuration data and policy information. Miniport drivers use this structure with [**NDIS_WWAN_NETWORK_PARAMS_INFO**](../ndiswwan/ns-ndiswwan-ndis_wwan_network_params_info.md) and [NDIS_STATUS_WWAN_NETWORK_PARAMS_STATE](/windows-hardware/drivers/network/ndis-status-wwan-network-params-state) notifications to notify the host of network parameter updates.

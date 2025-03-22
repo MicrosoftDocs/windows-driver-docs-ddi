@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3DWDDM2_0DDIARG_CREATEUNORDEREDACCESSVIEW
 ---
 
+# D3DWDDM2_0DDIARG_CREATEUNORDEREDACCESSVIEW structure (d3d10umddi.h)
+
 ## -description
 
 The **D3DWDDM2_0DDIARG_CREATEUNORDEREDACCESSVIEW** structure describes an unordered access view that is used to create a shader resource view in a call to [**CreateUnorderedAccessView (WDDM 2.0)**](nc-d3d10umddi-pfnd3dwddm2_0ddi_createunorderedaccessview.md).

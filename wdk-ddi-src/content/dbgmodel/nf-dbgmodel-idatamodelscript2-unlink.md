@@ -42,6 +42,8 @@ helpviewer_keywords:
  - Unlink
 ---
 
+# IDataModelScript2::Unlink function (dbgmodel.h)
+
 ## -description
 
 The Unlink method undoes the Execute operation. Any object model manipulations or extensibility points established during the execution of the script are undone. After an Unlink operation, the script may be re-executed via a call to Execute or it may be released. 

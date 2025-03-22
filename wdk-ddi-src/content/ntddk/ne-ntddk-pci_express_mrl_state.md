@@ -35,6 +35,8 @@ helpviewer_keywords:
  - PCI_EXPRESS_MRL_STATE
 ---
 
+# PCI_EXPRESS_MRL_STATE enumeration (ntddk.h)
+
 ## -description
 
 This topic describes the **PCI_EXPRESS_MRL_STATE** enumeration.

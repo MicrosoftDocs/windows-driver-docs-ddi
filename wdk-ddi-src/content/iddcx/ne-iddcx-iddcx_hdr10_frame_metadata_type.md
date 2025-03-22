@@ -35,6 +35,8 @@ helpviewer_keywords:
  - IDDCX_HDR10_FRAME_METADATA_TYPE
 ---
 
+# IDDCX_HDR10_FRAME_METADATA_TYPE enumeration (iddcx.h)
+
 ## -description
 
 A **IDDCX_HDR10_FRAME_METADATA_TYPE** enumeration value tells the driver which type of HDR10 metadata to use with a frame.

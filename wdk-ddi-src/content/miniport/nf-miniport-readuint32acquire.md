@@ -42,6 +42,8 @@ helpviewer_keywords:
  - ReadUInt32Acquire
 ---
 
+# ReadUInt32Acquire function (miniport.h)
+
 ## -description
 
 This topic describes the **ReadUInt32Acquire** function.

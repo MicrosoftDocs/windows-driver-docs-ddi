@@ -45,6 +45,8 @@ helpviewer_keywords:
  - _LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER
 ---
 
+# LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER structure (ntifs.h)
+
 ## -description
 
 **LCN_WEAK_REFERENCE_CLEAR_INPUT_BUFFER** is reserved for system use.

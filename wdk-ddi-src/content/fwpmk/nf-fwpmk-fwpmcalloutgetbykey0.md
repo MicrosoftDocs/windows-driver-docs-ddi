@@ -42,6 +42,8 @@ helpviewer_keywords:
  - FwpmCalloutGetByKey0
 ---
 
+# FwpmCalloutGetByKey0 function (fwpmk.h)
+
 ## -description
 
 The **FwpmCalloutGetByKey0** function retrieves a callout by using the GUID key for the callout.

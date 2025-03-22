@@ -42,6 +42,8 @@ helpviewer_keywords:
  - D3DKMTOpenNativeFenceFromNtHandle
 ---
 
+# D3DKMTOpenNativeFenceFromNtHandle function (d3dkmthk.h)
+
 ## -description
 
 The D3D runtime calls ***D3DKMTOpenNativeFenceFromNTHandle** to open an existing shared native fence on a different device or process.

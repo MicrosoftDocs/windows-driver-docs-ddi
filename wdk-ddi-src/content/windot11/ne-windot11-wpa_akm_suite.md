@@ -35,6 +35,8 @@ helpviewer_keywords:
  - WPA_AKM_SUITE
 ---
 
+# WPA_AKM_SUITE enumeration (windot11.h)
+
 ## -description
 
 The **WPA_AKM_SUITE** enumeration defines Wi-Fi Protected Access (WPA) authentication and key management (AKM) suites.

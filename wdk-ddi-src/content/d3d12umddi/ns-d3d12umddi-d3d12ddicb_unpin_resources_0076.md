@@ -35,6 +35,8 @@ dev_langs:
  - c++
 ---
 
+# D3D12DDICB_UNPIN_RESOURCES_0076 structure (d3d12umddi.h)
+
 ## -description
 
 Argument structure for [**PFND3D12DDI_UNPINRESOURCES_CB_0076**](nc-d3d12umddi-pfnd3d12ddi_unpinresources_cb_0076.md) that provides the list of resources to unpin.

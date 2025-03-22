@@ -44,6 +44,8 @@ helpviewer_keywords:
  - _COPY_INFORMATION
 ---
 
+# COPY_INFORMATION structure (ntifs.h)
+
 ## -description
 
 The **COPY_INFORMATION** structure correlates read and write calls to a copy operation from [**NtCopyFileChunk**](/windows-hardware/drivers/ifs/nf-ntifs-ntcopyfilechunk).

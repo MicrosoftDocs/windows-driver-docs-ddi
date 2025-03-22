@@ -39,6 +39,8 @@ helpviewer_keywords:
  - D3D12DDI_SET_PROGRAM_DESC_0108
 ---
 
+# D3D12DDI_SET_PROGRAM_DESC_0108 structure (d3d12umddi.h)
+
 ## -description
 
 The **D3D12DDI_SET_PROGRAM_DESC_0108** structure describes the program that [**PFND3D12DDI_SET_PROGRAM_0108**](nc-d3d12umddi-pfnd3d12ddi_set_program_0108.md) should set on a command list.

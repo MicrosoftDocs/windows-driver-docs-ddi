@@ -40,6 +40,8 @@ helpviewer_keywords:
  - _WHEA_ERROR_SOURCE_TYPE
 ---
 
+# WHEA_ERROR_SOURCE_TYPE enumeration (ntddk.h)
+
 ## -description
 
 The **WHEA_ERROR_SOURCE_TYPE** enumeration defines the different types of error sources that can report hardware errors.

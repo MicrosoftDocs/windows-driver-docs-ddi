@@ -31,6 +31,8 @@ dev_langs:
  - c++
 ---
 
+# eDiagnoseLevel enumeration (dot11wificxintf.h)
+
 ## -description
 
 > [!IMPORTANT]

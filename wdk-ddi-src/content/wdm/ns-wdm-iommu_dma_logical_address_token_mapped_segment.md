@@ -41,6 +41,8 @@ dev_langs:
  - c++
 ---
 
+# IOMMU_DMA_LOGICAL_ADDRESS_TOKEN_MAPPED_SEGMENT structure (wdm.h)
+
 ## -description
 
 The **IOMMU_DMA_LOGICAL_ADDRESS_TOKEN_MAPPED_SEGMENT** represents a mapped portion of an [**IOMMU_DMA_LOGICAL_ADDRESS_TOKEN**](./ns-wdm-iommu_dma_logical_address_token.md).

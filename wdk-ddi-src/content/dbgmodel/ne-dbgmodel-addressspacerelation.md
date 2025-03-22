@@ -35,6 +35,8 @@ helpviewer_keywords:
  - AddressSpaceRelation
 ---
 
+# AddressSpaceRelation enumeration (dbgmodel.h)
+
 ## -description
 
 Defines the kind of address space being used.

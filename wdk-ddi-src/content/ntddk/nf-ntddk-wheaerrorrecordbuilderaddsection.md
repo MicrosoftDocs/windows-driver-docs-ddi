@@ -42,6 +42,8 @@ helpviewer_keywords:
  - WheaErrorRecordBuilderAddSection
 ---
 
+# WheaErrorRecordBuilderAddSection function (ntddk.h)
+
 ## -description
 
 The **WheaErrorRecordBuilderAddSection** function finds the next section, initializes its descriptor, and returns a pointer for the caller to populate with data.

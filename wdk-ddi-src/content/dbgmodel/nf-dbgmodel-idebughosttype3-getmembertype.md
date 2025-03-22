@@ -42,6 +42,8 @@ helpviewer_keywords:
  - GetMemberType
 ---
 
+# IDebugHostType3::GetMemberType function (dbgmodel.h)
+
 ## -description
 
 For types which are pointer-to-member (as indicated by a type kind of TypeMemberPointer), the GetMemberType method returns the class the pointer is a pointer-to-member of.

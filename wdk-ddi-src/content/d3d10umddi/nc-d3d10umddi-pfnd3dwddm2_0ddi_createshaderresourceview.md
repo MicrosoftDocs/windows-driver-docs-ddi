@@ -42,6 +42,8 @@ helpviewer_keywords:
  - PFND3DWDDM2_0DDI_CREATESHADERRESOURCEVIEW
 ---
 
+# PFND3DWDDM2_0DDI_CREATESHADERRESOURCEVIEW function (d3d10umddi.h)
+
 ## -description
 
 **CreateShaderResourceView(WDDM 2.0)** creates a shader resource view.
