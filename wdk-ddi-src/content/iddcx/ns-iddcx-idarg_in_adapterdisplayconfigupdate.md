@@ -3,7 +3,6 @@ UID: NS:iddcx.IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 title: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE
 description: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE contains the arguments used in the IddCxAdapterDisplayConfigUpdate function.
 tech.root: display
-ms.author: windowsdriverdev
 ms.date: 09/24/2020
 keywords: ["IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE structure"]
 ms.keywords: IDARG_IN_ADAPTERDISPLAYCONFIGUPDATE

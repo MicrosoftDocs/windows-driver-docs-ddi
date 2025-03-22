@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The HidP_GetButtonsEx macro is an mnemonic alias for the HidP_GetUsagesEx function.
 tech.root: hid
 ms.assetid: 1bb98458-faa7-4d7b-a7d9-d784f0137939
-ms.author: windowsdriverdev
 ms.date: 12/06/2021
 ms.keywords: HidP_GetButtonsEx
 req.header: hidpi.h
