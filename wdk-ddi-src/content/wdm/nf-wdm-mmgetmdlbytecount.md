@@ -41,7 +41,9 @@ api_name:
 returns-override: true
 ---
 
-# MmGetMdlByteCount function (wdm.h)
+# MmGetMdlByteCount macro (wdm.h)
+
+
 
 ## -description
 

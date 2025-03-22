@@ -44,7 +44,9 @@ api_name:
  - WdfDeviceStopIdle
 ---
 
-# WdfDeviceStopIdle function (wdfdevice.h)
+# WdfDeviceStopIdle macro (wdfdevice.h)
+
+
 
 
 

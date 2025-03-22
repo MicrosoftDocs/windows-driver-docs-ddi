@@ -41,7 +41,9 @@ api_name:
  - GetDebuggerData
 ---
 
-# GetDebuggerData function (wdbgexts.h)
+# GetDebuggerData macro (wdbgexts.h)
+
+
 
 
 

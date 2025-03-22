@@ -41,7 +41,9 @@ api_name:
  - ASSERTMSG
 ---
 
-# ASSERTMSG function (wdm.h)
+# ASSERTMSG macro (wdm.h)
+
+
 
 
 

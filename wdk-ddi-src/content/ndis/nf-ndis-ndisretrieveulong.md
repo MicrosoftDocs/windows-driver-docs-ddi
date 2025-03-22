@@ -41,7 +41,9 @@ api_name:
  - NdisRetrieveUlong
 ---
 
-# NdisRetrieveUlong function (ndis.h)
+# NdisRetrieveUlong macro (ndis.h)
+
+
 
 
 

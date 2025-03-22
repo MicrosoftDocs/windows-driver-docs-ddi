@@ -42,7 +42,9 @@ api_name:
  - FltAcquirePushLockShared
 ---
 
-# FltAcquirePushLockShared function (fltkernel.h)
+# FltAcquirePushLockShared macro (fltkernel.h)
+
+
 
 
 

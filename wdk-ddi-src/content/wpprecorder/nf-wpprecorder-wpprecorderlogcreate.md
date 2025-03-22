@@ -41,7 +41,9 @@ api_name:
  - WppRecorderLogCreate
 ---
 
-# WppRecorderLogCreate function (wpprecorder.h)
+# WppRecorderLogCreate macro (wpprecorder.h)
+
+
 
 
 

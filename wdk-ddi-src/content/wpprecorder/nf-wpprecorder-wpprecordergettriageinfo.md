@@ -43,7 +43,9 @@ api_name:
  - WppRecorderGetTriageInfo
 ---
 
-# WppRecorderGetTriageInfo function (wpprecorder.h)
+# WppRecorderGetTriageInfo macro (wpprecorder.h)
+
+
 
 
 

@@ -40,7 +40,9 @@ api_name:
  - SeQuerySubjectContextToken
 ---
 
-# SeQuerySubjectContextToken function (ntifs.h)
+# SeQuerySubjectContextToken macro (ntifs.h)
+
+
 
 
 

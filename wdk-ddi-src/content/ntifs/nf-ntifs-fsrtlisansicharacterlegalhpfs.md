@@ -41,7 +41,9 @@ api_name:
  - FsRtlIsAnsiCharacterLegalHpfs
 ---
 
-# FsRtlIsAnsiCharacterLegalHpfs function (ntifs.h)
+# FsRtlIsAnsiCharacterLegalHpfs macro (ntifs.h)
+
+
 
 
 

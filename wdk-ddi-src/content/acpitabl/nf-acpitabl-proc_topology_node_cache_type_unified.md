@@ -39,7 +39,9 @@ api_name:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED
 ---
 
-# PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED function (acpitabl.h)
+# PROC_TOPOLOGY_NODE_CACHE_TYPE_UNIFIED macro (acpitabl.h)
+
+
 
 
 

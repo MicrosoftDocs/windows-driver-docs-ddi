@@ -41,7 +41,9 @@ api_name:
  - NdisMCmAddPartyComplete
 ---
 
-# NdisMCmAddPartyComplete function (ndis.h)
+# NdisMCmAddPartyComplete macro (ndis.h)
+
+
 
 
 

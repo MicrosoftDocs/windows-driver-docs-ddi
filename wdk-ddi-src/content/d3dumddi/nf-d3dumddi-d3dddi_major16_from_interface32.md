@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_MAJOR16_FROM_INTERFACE32 function (d3dumddi.h)
+# D3DDDI_MAJOR16_FROM_INTERFACE32 macro (d3dumddi.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - WppRecorderLogDelete
 ---
 
-# WppRecorderLogDelete function (wpprecorder.h)
+# WppRecorderLogDelete macro (wpprecorder.h)
+
+
 
 
 

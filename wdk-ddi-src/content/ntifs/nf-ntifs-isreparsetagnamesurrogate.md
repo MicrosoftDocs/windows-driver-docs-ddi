@@ -41,7 +41,9 @@ api_name:
  - IsReparseTagNameSurrogate
 ---
 
-# IsReparseTagNameSurrogate function (ntifs.h)
+# IsReparseTagNameSurrogate macro (ntifs.h)
+
+
 
 
 

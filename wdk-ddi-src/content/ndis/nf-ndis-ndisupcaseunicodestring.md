@@ -42,7 +42,9 @@ api_name:
  - NdisUpcaseUnicodeString
 ---
 
-# NdisUpcaseUnicodeString function (ndis.h)
+# NdisUpcaseUnicodeString macro (ndis.h)
+
+
 
 
 

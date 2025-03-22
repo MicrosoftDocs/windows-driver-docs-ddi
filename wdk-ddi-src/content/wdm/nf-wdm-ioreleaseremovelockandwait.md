@@ -41,7 +41,9 @@ api_name:
  - IoReleaseRemoveLockAndWait
 ---
 
-# IoReleaseRemoveLockAndWait function (wdm.h)
+# IoReleaseRemoveLockAndWait macro (wdm.h)
+
+
 
 
 

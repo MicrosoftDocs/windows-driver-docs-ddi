@@ -40,7 +40,9 @@ api_name:
  - FsRtlAreThereCurrentFileLocks
 ---
 
-# FsRtlAreThereCurrentFileLocks function (ntifs.h)
+# FsRtlAreThereCurrentFileLocks macro (ntifs.h)
+
+
 
 
 

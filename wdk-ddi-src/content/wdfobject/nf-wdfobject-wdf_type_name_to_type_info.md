@@ -44,7 +44,9 @@ api_name:
  - WDF_TYPE_NAME_TO_TYPE_INFO
 ---
 
-# WDF_TYPE_NAME_TO_TYPE_INFO function (wdfobject.h)
+# WDF_TYPE_NAME_TO_TYPE_INFO macro (wdfobject.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - FsRtlOplockIsFastIoPossible
 ---
 
-# FsRtlOplockIsFastIoPossible function (rxprocs.h)
+# FsRtlOplockIsFastIoPossible macro (rxprocs.h)
+
+
 
 
 

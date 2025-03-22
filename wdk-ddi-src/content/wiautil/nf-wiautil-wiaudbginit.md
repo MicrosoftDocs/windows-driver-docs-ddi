@@ -41,7 +41,9 @@ api_name:
  - wiauDbgInit
 ---
 
-# wiauDbgInit function (wiautil.h)
+# wiauDbgInit macro (wiautil.h)
+
+
 
 
 

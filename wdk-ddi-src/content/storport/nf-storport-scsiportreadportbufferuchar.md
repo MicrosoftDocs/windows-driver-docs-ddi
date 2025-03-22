@@ -42,7 +42,9 @@ api_name:
  - ScsiPortReadPortBufferUchar
 ---
 
-# ScsiPortReadPortBufferUchar function (storport.h)
+# ScsiPortReadPortBufferUchar macro (storport.h)
+
+
 
 
 

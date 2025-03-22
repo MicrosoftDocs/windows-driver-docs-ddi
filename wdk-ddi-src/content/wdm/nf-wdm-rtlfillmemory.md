@@ -43,7 +43,9 @@ api_name:
  - RtlFillMemory
 ---
 
-# RtlFillMemory function (wdm.h)
+# RtlFillMemory macro (wdm.h)
+
+
 
 ## -description
 

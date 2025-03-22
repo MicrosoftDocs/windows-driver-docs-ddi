@@ -41,7 +41,9 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET function (minitape.h)
+# FIELD_OFFSET macro (minitape.h)
+
+
 
 
 

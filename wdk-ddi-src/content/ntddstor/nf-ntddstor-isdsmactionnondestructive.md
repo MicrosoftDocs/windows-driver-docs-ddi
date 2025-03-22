@@ -38,7 +38,9 @@ api_name:
  - IsDsmActionNonDestructive
 ---
 
-# IsDsmActionNonDestructive function (ntddstor.h)
+# IsDsmActionNonDestructive macro (ntddstor.h)
+
+
 
 
 

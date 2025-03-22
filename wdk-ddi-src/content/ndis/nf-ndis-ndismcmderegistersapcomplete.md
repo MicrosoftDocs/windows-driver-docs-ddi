@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDeregisterSapComplete
 ---
 
-# NdisMCmDeregisterSapComplete function (ndis.h)
+# NdisMCmDeregisterSapComplete macro (ndis.h)
+
+
 
 
 

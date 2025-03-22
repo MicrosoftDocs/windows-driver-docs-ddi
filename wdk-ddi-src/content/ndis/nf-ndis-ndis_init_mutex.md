@@ -38,7 +38,9 @@ api_name:
  - NDIS_INIT_MUTEX
 ---
 
-# NDIS_INIT_MUTEX function (ndis.h)
+# NDIS_INIT_MUTEX macro (ndis.h)
+
+
 
 
 

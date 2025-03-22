@@ -41,7 +41,9 @@ api_name:
  - WppRecorderLogSetIdentifier
 ---
 
-# WppRecorderLogSetIdentifier function (wpprecorder.h)
+# WppRecorderLogSetIdentifier macro (wpprecorder.h)
+
+
 
 
 

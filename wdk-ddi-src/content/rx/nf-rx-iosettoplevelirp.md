@@ -41,7 +41,9 @@ api_name:
  - IoSetTopLevelIrp
 ---
 
-# IoSetTopLevelIrp function (rx.h)
+# IoSetTopLevelIrp macro (rx.h)
+
+
 
 
 

@@ -38,7 +38,9 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory function (ntddstor.h)
+# RtlZeroMemory macro (ntddstor.h)
+
+
 
 
 

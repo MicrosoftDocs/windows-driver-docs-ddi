@@ -38,7 +38,9 @@ api_name:
  - I2C_REQUEST_SIZE
 ---
 
-# I2C_REQUEST_SIZE function (sensorsdriversutils.h)
+# I2C_REQUEST_SIZE macro (sensorsdriversutils.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - SeDeleteClientSecurity
 ---
 
-# SeDeleteClientSecurity function (ntifs.h)
+# SeDeleteClientSecurity macro (ntifs.h)
+
+
 
 
 

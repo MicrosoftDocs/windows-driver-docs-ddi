@@ -41,7 +41,9 @@ api_name:
  - NdisWriteRegisterUshort
 ---
 
-# NdisWriteRegisterUshort function (ndis.h)
+# NdisWriteRegisterUshort macro (ndis.h)
+
+
 
 
 

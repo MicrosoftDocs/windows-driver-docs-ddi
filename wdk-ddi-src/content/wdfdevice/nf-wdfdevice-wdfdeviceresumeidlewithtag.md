@@ -43,7 +43,9 @@ api_name:
  - WdfDeviceResumeIdleWithTag
 ---
 
-# WdfDeviceResumeIdleWithTag function (wdfdevice.h)
+# WdfDeviceResumeIdleWithTag macro (wdfdevice.h)
+
+
 
 
 

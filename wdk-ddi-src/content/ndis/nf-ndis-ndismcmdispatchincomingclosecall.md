@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDispatchIncomingCloseCall
 ---
 
-# NdisMCmDispatchIncomingCloseCall function (ndis.h)
+# NdisMCmDispatchIncomingCloseCall macro (ndis.h)
+
+
 
 
 

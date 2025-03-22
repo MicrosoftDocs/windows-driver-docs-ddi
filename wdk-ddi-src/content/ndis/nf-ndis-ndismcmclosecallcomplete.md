@@ -41,7 +41,9 @@ api_name:
  - NdisMCmCloseCallComplete
 ---
 
-# NdisMCmCloseCallComplete function (ndis.h)
+# NdisMCmCloseCallComplete macro (ndis.h)
+
+
 
 
 

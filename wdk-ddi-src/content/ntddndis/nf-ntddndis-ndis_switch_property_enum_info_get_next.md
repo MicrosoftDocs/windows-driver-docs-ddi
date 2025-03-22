@@ -39,7 +39,9 @@ api_name:
  - NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT
 ---
 
-# NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT function (ntddndis.h)
+# NDIS_SWITCH_PROPERTY_ENUM_INFO_GET_NEXT macro (ntddndis.h)
+
+
 
 
 

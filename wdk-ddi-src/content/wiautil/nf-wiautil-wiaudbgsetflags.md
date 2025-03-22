@@ -41,7 +41,9 @@ api_name:
  - wiauDbgSetFlags
 ---
 
-# wiauDbgSetFlags function (wiautil.h)
+# wiauDbgSetFlags macro (wiautil.h)
+
+
 
 
 

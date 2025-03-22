@@ -40,7 +40,9 @@ api_name:
  - FsRtlAllocatePoolWithTag
 ---
 
-# FsRtlAllocatePoolWithTag function (ntifs.h)
+# FsRtlAllocatePoolWithTag macro (ntifs.h)
+
+
 
 
 

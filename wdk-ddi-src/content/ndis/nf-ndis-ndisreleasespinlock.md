@@ -42,7 +42,9 @@ api_name:
  - NdisReleaseSpinLock
 ---
 
-# NdisReleaseSpinLock function (ndis.h)
+# NdisReleaseSpinLock macro (ndis.h)
+
+
 
 
 

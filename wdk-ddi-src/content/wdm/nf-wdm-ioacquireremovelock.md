@@ -40,7 +40,9 @@ api_name:
  - IoAcquireRemoveLock
 ---
 
-# IoAcquireRemoveLock function (wdm.h)
+# IoAcquireRemoveLock macro (wdm.h)
+
+
 
 
 

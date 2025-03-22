@@ -42,7 +42,9 @@ api_name:
  - ScsiPortReadRegisterBufferUshort
 ---
 
-# ScsiPortReadRegisterBufferUshort function (storport.h)
+# ScsiPortReadRegisterBufferUshort macro (storport.h)
+
+
 
 
 

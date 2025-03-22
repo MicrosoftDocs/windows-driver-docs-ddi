@@ -41,7 +41,9 @@ api_name:
  - RtlOemStringToCountedUnicodeSize
 ---
 
-# RtlOemStringToCountedUnicodeSize function (ntifs.h)
+# RtlOemStringToCountedUnicodeSize macro (ntifs.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - KdBreakPointWithStatus
 ---
 
-# KdBreakPointWithStatus function (wdm.h)
+# KdBreakPointWithStatus macro (wdm.h)
+
+
 
 
 

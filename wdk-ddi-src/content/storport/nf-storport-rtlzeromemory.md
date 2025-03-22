@@ -41,7 +41,9 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory function (storport.h)
+# RtlZeroMemory macro (storport.h)
+
+
 
 
 

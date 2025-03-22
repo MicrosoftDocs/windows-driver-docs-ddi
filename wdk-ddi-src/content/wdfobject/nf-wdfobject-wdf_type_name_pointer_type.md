@@ -44,7 +44,9 @@ api_name:
  - WDF_TYPE_NAME_POINTER_TYPE
 ---
 
-# WDF_TYPE_NAME_POINTER_TYPE function (wdfobject.h)
+# WDF_TYPE_NAME_POINTER_TYPE macro (wdfobject.h)
+
+
 
 
 

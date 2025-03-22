@@ -41,7 +41,9 @@ api_name:
  - NdisFreeString
 ---
 
-# NdisFreeString function (ndis.h)
+# NdisFreeString macro (ndis.h)
+
+
 
 
 

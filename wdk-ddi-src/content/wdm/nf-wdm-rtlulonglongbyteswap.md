@@ -41,7 +41,9 @@ api_name:
  - RtlUlonglongByteSwap
 ---
 
-# RtlUlonglongByteSwap function (wdm.h)
+# RtlUlonglongByteSwap macro (wdm.h)
+
+
 
 
 

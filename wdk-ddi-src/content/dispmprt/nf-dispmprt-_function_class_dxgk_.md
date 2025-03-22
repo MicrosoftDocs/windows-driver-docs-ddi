@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# _Function_class_DXGK_ function (dispmprt.h)
+# _Function_class_DXGK_ macro (dispmprt.h)
+
+
 
 
 

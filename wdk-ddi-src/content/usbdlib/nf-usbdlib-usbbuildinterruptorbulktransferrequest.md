@@ -41,7 +41,9 @@ api_name:
  - UsbBuildInterruptOrBulkTransferRequest
 ---
 
-# UsbBuildInterruptOrBulkTransferRequest function (usbdlib.h)
+# UsbBuildInterruptOrBulkTransferRequest macro (usbdlib.h)
+
+
 
 
 

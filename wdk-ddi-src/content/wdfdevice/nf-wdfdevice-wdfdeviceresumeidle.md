@@ -44,7 +44,9 @@ api_name:
  - WdfDeviceResumeIdle
 ---
 
-# WdfDeviceResumeIdle function (wdfdevice.h)
+# WdfDeviceResumeIdle macro (wdfdevice.h)
+
+
 
 
 

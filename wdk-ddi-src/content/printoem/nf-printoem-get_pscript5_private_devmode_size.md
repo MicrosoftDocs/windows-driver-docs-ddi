@@ -38,7 +38,9 @@ api_name:
  - GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 ---
 
-# GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE function (printoem.h)
+# GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro (printoem.h)
+
+
 
 ## -description
 

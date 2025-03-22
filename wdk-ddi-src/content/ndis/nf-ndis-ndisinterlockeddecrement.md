@@ -43,7 +43,9 @@ api_name:
  - NdisInterlockedDecrement
 ---
 
-# NdisInterlockedDecrement function (ndis.h)
+# NdisInterlockedDecrement macro (ndis.h)
+
+
 
 
 

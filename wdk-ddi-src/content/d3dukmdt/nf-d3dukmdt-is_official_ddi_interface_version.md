@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# IS_OFFICIAL_DDI_INTERFACE_VERSION function (d3dukmdt.h)
+# IS_OFFICIAL_DDI_INTERFACE_VERSION macro (d3dukmdt.h)
+
+
 
 
 

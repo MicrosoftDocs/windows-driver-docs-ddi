@@ -41,7 +41,9 @@ api_name:
  - NdisMCmRegisterSapComplete
 ---
 
-# NdisMCmRegisterSapComplete function (ndis.h)
+# NdisMCmRegisterSapComplete macro (ndis.h)
+
+
 
 
 

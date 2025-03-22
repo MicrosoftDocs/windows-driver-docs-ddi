@@ -41,7 +41,9 @@ api_name:
  - FsRtlIsLeadDbcsCharacter
 ---
 
-# FsRtlIsLeadDbcsCharacter function (ntifs.h)
+# FsRtlIsLeadDbcsCharacter macro (ntifs.h)
+
+
 
 
 

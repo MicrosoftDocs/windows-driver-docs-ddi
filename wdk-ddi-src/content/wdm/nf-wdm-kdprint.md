@@ -40,7 +40,9 @@ api_name:
  - KdPrint
 ---
 
-# KdPrint function (wdm.h)
+# KdPrint macro (wdm.h)
+
+
 
 ## -description
 

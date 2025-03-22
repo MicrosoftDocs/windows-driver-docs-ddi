@@ -38,7 +38,9 @@ api_name:
  - IMAGE_POLICY_OVERRIDE
 ---
 
-# IMAGE_POLICY_OVERRIDE function (wdm.h)
+# IMAGE_POLICY_OVERRIDE macro (wdm.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - FsRtlFastLock
 ---
 
-# FsRtlFastLock function (ntifs.h)
+# FsRtlFastLock macro (ntifs.h)
+
+
 
 
 

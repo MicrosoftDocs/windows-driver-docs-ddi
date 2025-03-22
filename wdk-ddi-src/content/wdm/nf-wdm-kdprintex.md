@@ -40,7 +40,9 @@ api_name:
  - KdPrintEx
 ---
 
-# KdPrintEx function (wdm.h)
+# KdPrintEx macro (wdm.h)
+
+
 
 ## -description
 

@@ -41,7 +41,9 @@ api_name:
  - IoIsErrorUserInduced
 ---
 
-# IoIsErrorUserInduced function (wdm.h)
+# IoIsErrorUserInduced macro (wdm.h)
+
+
 
 
 

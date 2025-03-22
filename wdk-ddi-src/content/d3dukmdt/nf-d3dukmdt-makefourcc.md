@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# MAKEFOURCC function (d3dukmdt.h)
+# MAKEFOURCC macro (d3dukmdt.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - NdisWriteRegisterUlong
 ---
 
-# NdisWriteRegisterUlong function (ndis.h)
+# NdisWriteRegisterUlong macro (ndis.h)
+
+
 
 
 

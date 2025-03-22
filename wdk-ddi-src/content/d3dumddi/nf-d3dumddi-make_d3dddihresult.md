@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# MAKE_D3DDDIHRESULT function (d3dumddi.h)
+# MAKE_D3DDDIHRESULT macro (d3dumddi.h)
+
+
 
 
 

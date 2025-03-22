@@ -41,7 +41,9 @@ api_name:
  - RtlParent
 ---
 
-# RtlParent function (ntddk.h)
+# RtlParent macro (ntddk.h)
+
+
 
 
 

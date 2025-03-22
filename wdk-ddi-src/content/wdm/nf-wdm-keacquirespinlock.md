@@ -42,7 +42,9 @@ api_name:
  - KeAcquireSpinLock
 ---
 
-# KeAcquireSpinLock function (wdm.h)
+# KeAcquireSpinLock macro (wdm.h)
+
+
 
 
 

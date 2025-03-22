@@ -39,7 +39,9 @@ api_name:
  - NDIS_RELEASE_MUTEX
 ---
 
-# NDIS_RELEASE_MUTEX function (ndis.h)
+# NDIS_RELEASE_MUTEX macro (ndis.h)
+
+
 
 
 

@@ -42,7 +42,9 @@ api_name:
  - ScsiPortReadRegisterUlong
 ---
 
-# ScsiPortReadRegisterUlong function (storport.h)
+# ScsiPortReadRegisterUlong macro (storport.h)
+
+
 
 
 

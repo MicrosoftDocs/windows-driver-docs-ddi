@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDispatchIncomingCallQoSChange
 ---
 
-# NdisMCmDispatchIncomingCallQoSChange function (ndis.h)
+# NdisMCmDispatchIncomingCallQoSChange macro (ndis.h)
+
+
 
 
 

@@ -39,7 +39,9 @@ api_name:
  - NDIS_MAKE_RID
 ---
 
-# NDIS_MAKE_RID function (ndis.h)
+# NDIS_MAKE_RID macro (ndis.h)
+
+
 
 
 

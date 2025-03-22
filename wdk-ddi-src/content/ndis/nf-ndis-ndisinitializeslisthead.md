@@ -41,7 +41,9 @@ api_name:
  - NdisInitializeSListHead
 ---
 
-# NdisInitializeSListHead function (ndis.h)
+# NdisInitializeSListHead macro (ndis.h)
+
+
 
 
 

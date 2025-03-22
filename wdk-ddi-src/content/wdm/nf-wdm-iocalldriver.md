@@ -40,7 +40,9 @@ api_name:
  - IoCallDriver
 ---
 
-# IoCallDriver function (wdm.h)
+# IoCallDriver macro (wdm.h)
+
+
 
 ## -description
 

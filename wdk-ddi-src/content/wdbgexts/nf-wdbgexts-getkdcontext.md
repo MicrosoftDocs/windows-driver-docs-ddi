@@ -41,7 +41,9 @@ api_name:
  - GetKdContext
 ---
 
-# GetKdContext function (wdbgexts.h)
+# GetKdContext macro (wdbgexts.h)
+
+
 
 
 

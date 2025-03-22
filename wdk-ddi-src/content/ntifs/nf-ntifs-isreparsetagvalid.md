@@ -41,7 +41,9 @@ api_name:
  - IsReparseTagValid
 ---
 
-# IsReparseTagValid function (ntifs.h)
+# IsReparseTagValid macro (ntifs.h)
+
+
 
 
 

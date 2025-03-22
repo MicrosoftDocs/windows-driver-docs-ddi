@@ -42,7 +42,9 @@ api_name:
  - NdisAnsiStringToUnicodeString
 ---
 
-# NdisAnsiStringToUnicodeString function (ndis.h)
+# NdisAnsiStringToUnicodeString macro (ndis.h)
+
+
 
 
 

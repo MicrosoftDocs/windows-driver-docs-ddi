@@ -41,7 +41,9 @@ api_name:
  - RtlRightChild
 ---
 
-# RtlRightChild function (ntddk.h)
+# RtlRightChild macro (ntddk.h)
+
+
 
 
 

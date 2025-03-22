@@ -41,7 +41,9 @@ api_name:
  - FsRtlCheckOplock
 ---
 
-# FsRtlCheckOplock function (rxprocs.h)
+# FsRtlCheckOplock macro (rxprocs.h)
+
+
 
 
 

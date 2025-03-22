@@ -41,7 +41,9 @@ api_name:
  - NdisMoveMemory
 ---
 
-# NdisMoveMemory function (ndis.h)
+# NdisMoveMemory macro (ndis.h)
+
+
 
 
 

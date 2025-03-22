@@ -40,7 +40,9 @@ api_name:
  - ObReferenceObjectWithTag
 ---
 
-# ObReferenceObjectWithTag function (wdm.h)
+# ObReferenceObjectWithTag macro (wdm.h)
+
+
 
 ## -description
 

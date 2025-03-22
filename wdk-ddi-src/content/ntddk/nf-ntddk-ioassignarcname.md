@@ -41,7 +41,9 @@ api_name:
  - IoAssignArcName
 ---
 
-# IoAssignArcName function (ntddk.h)
+# IoAssignArcName macro (ntddk.h)
+
+
 
 
 

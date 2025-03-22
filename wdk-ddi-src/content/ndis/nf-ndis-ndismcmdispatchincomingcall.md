@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDispatchIncomingCall
 ---
 
-# NdisMCmDispatchIncomingCall function (ndis.h)
+# NdisMCmDispatchIncomingCall macro (ndis.h)
+
+
 
 
 

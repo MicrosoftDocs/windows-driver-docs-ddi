@@ -41,7 +41,9 @@ api_name:
  - WppRecorderDumpLiveDriverData
 ---
 
-# WppRecorderDumpLiveDriverData function (wpprecorder.h)
+# WppRecorderDumpLiveDriverData macro (wpprecorder.h)
+
+
 
 
 

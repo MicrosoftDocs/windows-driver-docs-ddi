@@ -41,7 +41,9 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory function (minitape.h)
+# RtlZeroMemory macro (minitape.h)
+
+
 
 
 

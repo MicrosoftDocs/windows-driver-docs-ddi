@@ -41,7 +41,9 @@ api_name:
  - RtlIsRoot
 ---
 
-# RtlIsRoot function (ntddk.h)
+# RtlIsRoot macro (ntddk.h)
+
+
 
 
 

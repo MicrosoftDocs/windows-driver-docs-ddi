@@ -41,7 +41,9 @@ api_name:
  - FsRtlSetupAdvancedHeaderEx
 ---
 
-# FsRtlSetupAdvancedHeaderEx function (ntifs.h)
+# FsRtlSetupAdvancedHeaderEx macro (ntifs.h)
+
+
 
 
 

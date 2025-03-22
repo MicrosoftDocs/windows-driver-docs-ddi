@@ -41,7 +41,9 @@ api_name:
  - KeRaiseIrql
 ---
 
-# KeRaiseIrql function (wdm.h)
+# KeRaiseIrql macro (wdm.h)
+
+
 
 
 

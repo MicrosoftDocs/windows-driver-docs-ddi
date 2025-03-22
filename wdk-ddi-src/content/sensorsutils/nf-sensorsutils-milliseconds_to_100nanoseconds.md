@@ -39,7 +39,9 @@ api_name:
  - MILLISECONDS_TO_100NANOSECONDS
 ---
 
-# MILLISECONDS_TO_100NANOSECONDS function (sensorsutils.h)
+# MILLISECONDS_TO_100NANOSECONDS macro (sensorsutils.h)
+
+
 
 
 

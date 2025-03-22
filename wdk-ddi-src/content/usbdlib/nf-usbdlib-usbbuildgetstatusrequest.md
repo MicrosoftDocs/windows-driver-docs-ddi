@@ -41,7 +41,9 @@ api_name:
  - UsbBuildGetStatusRequest
 ---
 
-# UsbBuildGetStatusRequest function (usbdlib.h)
+# UsbBuildGetStatusRequest macro (usbdlib.h)
+
+
 
 
 

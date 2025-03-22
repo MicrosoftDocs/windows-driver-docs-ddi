@@ -41,7 +41,9 @@ api_name:
  - IoIsFileOpenedExclusively
 ---
 
-# IoIsFileOpenedExclusively function (ntifs.h)
+# IoIsFileOpenedExclusively macro (ntifs.h)
+
+
 
 
 

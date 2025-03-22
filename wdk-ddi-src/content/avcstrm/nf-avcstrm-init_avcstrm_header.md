@@ -41,7 +41,9 @@ api_name:
  - INIT_AVCSTRM_HEADER
 ---
 
-# INIT_AVCSTRM_HEADER function (avcstrm.h)
+# INIT_AVCSTRM_HEADER macro (avcstrm.h)
+
+
 
 
 

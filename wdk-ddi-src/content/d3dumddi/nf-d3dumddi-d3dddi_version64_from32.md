@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_VERSION64_FROM32 function (d3dumddi.h)
+# D3DDDI_VERSION64_FROM32 macro (d3dumddi.h)
+
+
 
 
 

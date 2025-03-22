@@ -38,7 +38,9 @@ api_name:
  - ARM64_SYSREG_CRM
 ---
 
-# ARM64_SYSREG_CRM function (miniport.h)
+# ARM64_SYSREG_CRM macro (miniport.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - ExInterlockedPushEntrySList
 ---
 
-# ExInterlockedPushEntrySList function (wdm.h)
+# ExInterlockedPushEntrySList macro (wdm.h)
+
+
 
 
 

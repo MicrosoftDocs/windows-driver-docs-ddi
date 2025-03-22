@@ -40,7 +40,9 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory function (wdm.h)
+# RtlZeroMemory macro (wdm.h)
+
+
 
 ## -description
 

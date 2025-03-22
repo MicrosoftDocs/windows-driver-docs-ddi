@@ -41,7 +41,9 @@ api_name:
  - RtlFillMemoryUlonglong
 ---
 
-# RtlFillMemoryUlonglong function (ntifs.h)
+# RtlFillMemoryUlonglong macro (ntifs.h)
+
+
 
 
 

@@ -42,7 +42,9 @@ api_name:
  - NdisInterlockedAddUlong
 ---
 
-# NdisInterlockedAddUlong function (ndis.h)
+# NdisInterlockedAddUlong macro (ndis.h)
+
+
 
 
 

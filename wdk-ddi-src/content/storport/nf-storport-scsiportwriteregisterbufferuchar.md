@@ -42,7 +42,9 @@ api_name:
  - ScsiPortWriteRegisterBufferUchar
 ---
 
-# ScsiPortWriteRegisterBufferUchar function (storport.h)
+# ScsiPortWriteRegisterBufferUchar macro (storport.h)
+
+
 
 
 

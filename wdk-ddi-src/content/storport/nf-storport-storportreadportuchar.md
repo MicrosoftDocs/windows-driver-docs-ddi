@@ -42,7 +42,9 @@ api_name:
  - StorPortReadPortUchar
 ---
 
-# StorPortReadPortUchar function (storport.h)
+# StorPortReadPortUchar macro (storport.h)
+
+
 
 
 

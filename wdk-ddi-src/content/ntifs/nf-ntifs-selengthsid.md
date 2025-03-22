@@ -41,7 +41,9 @@ api_name:
  - SeLengthSid
 ---
 
-# SeLengthSid function (ntifs.h)
+# SeLengthSid macro (ntifs.h)
+
+
 
 
 

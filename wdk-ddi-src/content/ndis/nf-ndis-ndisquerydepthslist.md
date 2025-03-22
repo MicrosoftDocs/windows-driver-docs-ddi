@@ -41,7 +41,9 @@ api_name:
  - NdisQueryDepthSList
 ---
 
-# NdisQueryDepthSList function (ndis.h)
+# NdisQueryDepthSList macro (ndis.h)
+
+
 
 
 

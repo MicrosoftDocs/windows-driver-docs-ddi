@@ -39,7 +39,9 @@ api_name:
  - CTL_CODE
 ---
 
-# CTL_CODE function (d4drvif.h)
+# CTL_CODE macro (d4drvif.h)
+
+
 
 
 

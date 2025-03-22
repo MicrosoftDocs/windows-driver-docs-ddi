@@ -41,7 +41,9 @@ api_name:
  - NdisRawWritePortBufferUshort
 ---
 
-# NdisRawWritePortBufferUshort function (ndis.h)
+# NdisRawWritePortBufferUshort macro (ndis.h)
+
+
 
 
 

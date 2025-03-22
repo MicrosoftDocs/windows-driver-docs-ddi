@@ -38,7 +38,9 @@ api_name:
  - RtlCopyMemory
 ---
 
-# RtlCopyMemory function (ntddstor.h)
+# RtlCopyMemory macro (ntddstor.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - FsRtlGetPerStreamContextPointer
 ---
 
-# FsRtlGetPerStreamContextPointer function (ntifs.h)
+# FsRtlGetPerStreamContextPointer macro (ntifs.h)
+
+
 
 
 

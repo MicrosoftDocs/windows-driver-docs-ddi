@@ -39,7 +39,9 @@ api_name:
  - HMAT_ENTRY_LENGTH
 ---
 
-# HMAT_ENTRY_LENGTH function (acpitabl.h)
+# HMAT_ENTRY_LENGTH macro (acpitabl.h)
+
+
 
 
 

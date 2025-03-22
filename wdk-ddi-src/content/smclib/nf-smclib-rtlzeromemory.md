@@ -41,7 +41,9 @@ api_name:
  - RtlZeroMemory
 ---
 
-# RtlZeroMemory function (smclib.h)
+# RtlZeroMemory macro (smclib.h)
+
+
 
 
 

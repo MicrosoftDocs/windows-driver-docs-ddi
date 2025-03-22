@@ -39,7 +39,9 @@ api_name:
  - NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 ---
 
-# NDIS_GET_NET_BUFFER_LIST_CANCEL_ID function (ndis.h)
+# NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro (ndis.h)
+
+
 
 
 

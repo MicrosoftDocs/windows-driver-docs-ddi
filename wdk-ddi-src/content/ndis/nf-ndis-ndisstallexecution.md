@@ -41,7 +41,9 @@ api_name:
  - NdisStallExecution
 ---
 
-# NdisStallExecution function (ndis.h)
+# NdisStallExecution macro (ndis.h)
+
+
 
 
 

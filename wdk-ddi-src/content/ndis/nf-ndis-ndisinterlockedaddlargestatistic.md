@@ -41,7 +41,9 @@ api_name:
  - NdisInterlockedAddLargeStatistic
 ---
 
-# NdisInterlockedAddLargeStatistic function (ndis.h)
+# NdisInterlockedAddLargeStatistic macro (ndis.h)
+
+
 
 
 

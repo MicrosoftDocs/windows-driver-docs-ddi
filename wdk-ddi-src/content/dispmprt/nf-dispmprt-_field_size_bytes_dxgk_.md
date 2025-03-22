@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# _Field_size_bytes_DXGK_ function (dispmprt.h)
+# _Field_size_bytes_DXGK_ macro (dispmprt.h)
+
+
 
 
 

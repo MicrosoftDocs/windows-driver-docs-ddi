@@ -39,7 +39,9 @@ api_name:
  - SIDEBANDAUDIO_IOCTL
 ---
 
-# SIDEBANDAUDIO_IOCTL function (sidebandaudio.h)
+# SIDEBANDAUDIO_IOCTL macro (sidebandaudio.h)
+
+
 
 
 

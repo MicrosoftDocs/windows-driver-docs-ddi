@@ -41,7 +41,9 @@ api_name:
  - RtlUnicodeStringToOemSize
 ---
 
-# RtlUnicodeStringToOemSize function (ntifs.h)
+# RtlUnicodeStringToOemSize macro (ntifs.h)
+
+
 
 
 

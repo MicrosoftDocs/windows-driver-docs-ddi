@@ -40,7 +40,9 @@ api_name:
  - RtlMoveMemory
 ---
 
-# RtlMoveMemory function (wdm.h)
+# RtlMoveMemory macro (wdm.h)
+
+
 
 ## -description
 

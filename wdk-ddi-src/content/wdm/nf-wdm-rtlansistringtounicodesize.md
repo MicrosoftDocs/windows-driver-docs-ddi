@@ -41,7 +41,9 @@ api_name:
  - RtlAnsiStringToUnicodeSize
 ---
 
-# RtlAnsiStringToUnicodeSize function (wdm.h)
+# RtlAnsiStringToUnicodeSize macro (wdm.h)
+
+
 
 
 

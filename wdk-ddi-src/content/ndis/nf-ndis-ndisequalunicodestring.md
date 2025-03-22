@@ -41,7 +41,9 @@ api_name:
  - NdisEqualUnicodeString
 ---
 
-# NdisEqualUnicodeString function (ndis.h)
+# NdisEqualUnicodeString macro (ndis.h)
+
+
 
 
 

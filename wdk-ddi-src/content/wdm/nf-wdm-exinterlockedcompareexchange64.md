@@ -41,7 +41,9 @@ api_name:
  - ExInterlockedCompareExchange64
 ---
 
-# ExInterlockedCompareExchange64 function (wdm.h)
+# ExInterlockedCompareExchange64 macro (wdm.h)
+
+
 
 
 

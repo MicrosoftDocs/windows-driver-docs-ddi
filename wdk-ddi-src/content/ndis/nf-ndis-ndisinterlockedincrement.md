@@ -42,7 +42,9 @@ api_name:
  - NdisInterlockedIncrement
 ---
 
-# NdisInterlockedIncrement function (ndis.h)
+# NdisInterlockedIncrement macro (ndis.h)
+
+
 
 
 

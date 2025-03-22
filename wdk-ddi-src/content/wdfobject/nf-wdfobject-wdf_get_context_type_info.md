@@ -44,7 +44,9 @@ api_name:
  - WDF_GET_CONTEXT_TYPE_INFO
 ---
 
-# WDF_GET_CONTEXT_TYPE_INFO function (wdfobject.h)
+# WDF_GET_CONTEXT_TYPE_INFO macro (wdfobject.h)
+
+
 
 
 

@@ -40,7 +40,9 @@ api_name:
  - WIAS_LWARNING
 ---
 
-# WIAS_LWARNING function (wiamdef.h)
+# WIAS_LWARNING macro (wiamdef.h)
+
+
 
 ## -description
 

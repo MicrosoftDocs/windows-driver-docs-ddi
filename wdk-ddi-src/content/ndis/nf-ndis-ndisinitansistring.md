@@ -42,7 +42,9 @@ api_name:
  - NdisInitAnsiString
 ---
 
-# NdisInitAnsiString function (ndis.h)
+# NdisInitAnsiString macro (ndis.h)
+
+
 
 
 

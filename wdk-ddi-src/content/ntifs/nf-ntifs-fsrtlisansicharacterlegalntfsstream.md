@@ -41,7 +41,9 @@ api_name:
  - FsRtlIsAnsiCharacterLegalNtfsStream
 ---
 
-# FsRtlIsAnsiCharacterLegalNtfsStream function (ntifs.h)
+# FsRtlIsAnsiCharacterLegalNtfsStream macro (ntifs.h)
+
+
 
 
 

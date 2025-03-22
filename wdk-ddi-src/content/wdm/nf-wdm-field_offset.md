@@ -40,7 +40,9 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET function (wdm.h)
+# FIELD_OFFSET macro (wdm.h)
+
+
 
 ## -description
 

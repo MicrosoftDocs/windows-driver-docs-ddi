@@ -41,7 +41,9 @@ api_name:
  - FsRtlCompleteRequest
 ---
 
-# FsRtlCompleteRequest function (ntifs.h)
+# FsRtlCompleteRequest macro (ntifs.h)
+
+
 
 
 

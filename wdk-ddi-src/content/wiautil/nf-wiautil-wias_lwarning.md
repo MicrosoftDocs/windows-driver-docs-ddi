@@ -41,7 +41,9 @@ api_name:
  - WIAS_LWARNING
 ---
 
-# WIAS_LWARNING function (wiautil.h)
+# WIAS_LWARNING macro (wiautil.h)
+
+
 
 
 

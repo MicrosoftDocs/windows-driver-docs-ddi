@@ -41,7 +41,9 @@ api_name:
  - NdisSetPhysicalAddressLow
 ---
 
-# NdisSetPhysicalAddressLow function (ndis.h)
+# NdisSetPhysicalAddressLow macro (ndis.h)
+
+
 
 
 

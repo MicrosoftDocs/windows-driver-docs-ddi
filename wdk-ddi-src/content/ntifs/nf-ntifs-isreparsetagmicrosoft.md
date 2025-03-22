@@ -41,7 +41,9 @@ api_name:
  - IsReparseTagMicrosoft
 ---
 
-# IsReparseTagMicrosoft function (ntifs.h)
+# IsReparseTagMicrosoft macro (ntifs.h)
+
+
 
 
 

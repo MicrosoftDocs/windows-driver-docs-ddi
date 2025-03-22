@@ -40,7 +40,9 @@ api_name:
  - WIAS_ASSERT
 ---
 
-# WIAS_ASSERT function (wiamdef.h)
+# WIAS_ASSERT macro (wiamdef.h)
+
+
 
 ## -description
 

@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# SRB_STATUS function (scsiscan.h)
+# SRB_STATUS macro (scsiscan.h)
+
+
 
 
 

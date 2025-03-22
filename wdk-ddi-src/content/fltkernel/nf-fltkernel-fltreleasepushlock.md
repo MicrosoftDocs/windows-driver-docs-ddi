@@ -41,7 +41,9 @@ api_name:
  - FltReleasePushLock
 ---
 
-# FltReleasePushLock function (fltkernel.h)
+# FltReleasePushLock macro (fltkernel.h)
+
+
 
 
 

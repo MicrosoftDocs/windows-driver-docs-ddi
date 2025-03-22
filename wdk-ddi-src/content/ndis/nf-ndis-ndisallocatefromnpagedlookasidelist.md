@@ -41,7 +41,9 @@ api_name:
  - NdisAllocateFromNPagedLookasideList
 ---
 
-# NdisAllocateFromNPagedLookasideList function (ndis.h)
+# NdisAllocateFromNPagedLookasideList macro (ndis.h)
+
+
 
 
 

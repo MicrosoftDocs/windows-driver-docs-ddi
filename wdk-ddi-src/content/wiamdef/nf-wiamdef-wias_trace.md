@@ -41,7 +41,9 @@ api_name:
  - WIAS_TRACE
 ---
 
-# WIAS_TRACE function (wiamdef.h)
+# WIAS_TRACE macro (wiamdef.h)
+
+
 
 
 

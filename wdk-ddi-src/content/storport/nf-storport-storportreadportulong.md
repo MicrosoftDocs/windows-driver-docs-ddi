@@ -42,7 +42,9 @@ api_name:
  - StorPortReadPortUlong
 ---
 
-# StorPortReadPortUlong function (storport.h)
+# StorPortReadPortUlong macro (storport.h)
+
+
 
 
 

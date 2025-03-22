@@ -41,7 +41,9 @@ api_name:
  - FsRtlIsUnicodeCharacterWild
 ---
 
-# FsRtlIsUnicodeCharacterWild function (ntifs.h)
+# FsRtlIsUnicodeCharacterWild macro (ntifs.h)
+
+
 
 
 

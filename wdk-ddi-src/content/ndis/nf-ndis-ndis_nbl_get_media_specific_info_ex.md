@@ -38,7 +38,9 @@ api_name:
  - NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX
 ---
 
-# NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX function (ndis.h)
+# NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
+
+
 
 
 

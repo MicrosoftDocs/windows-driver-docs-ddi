@@ -39,7 +39,9 @@ api_name:
  - NET_BUFFER_LIST_RECEIVE_FILTER_ID
 ---
 
-# NET_BUFFER_LIST_RECEIVE_FILTER_ID function (ndis.h)
+# NET_BUFFER_LIST_RECEIVE_FILTER_ID macro (ndis.h)
+
+
 
 
 

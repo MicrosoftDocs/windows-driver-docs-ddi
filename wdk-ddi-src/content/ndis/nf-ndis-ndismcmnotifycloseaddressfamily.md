@@ -41,7 +41,9 @@ api_name:
  - NdisMCmNotifyCloseAddressFamily
 ---
 
-# NdisMCmNotifyCloseAddressFamily function (ndis.h)
+# NdisMCmNotifyCloseAddressFamily macro (ndis.h)
+
+
 
 
 

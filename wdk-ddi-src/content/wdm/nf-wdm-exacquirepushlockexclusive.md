@@ -39,7 +39,9 @@ api_name:
  - ExAcquirePushLockExclusive
 ---
 
-# ExAcquirePushLockExclusive function (wdm.h)
+# ExAcquirePushLockExclusive macro (wdm.h)
+
+
 
 
 

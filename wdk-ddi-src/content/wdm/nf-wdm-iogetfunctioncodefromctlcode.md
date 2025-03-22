@@ -41,7 +41,9 @@ api_name:
  - IoGetFunctionCodeFromCtlCode
 ---
 
-# IoGetFunctionCodeFromCtlCode function (wdm.h)
+# IoGetFunctionCodeFromCtlCode macro (wdm.h)
+
+
 
 
 

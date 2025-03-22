@@ -41,7 +41,9 @@ api_name:
  - KeQueryTickCount
 ---
 
-# KeQueryTickCount function (wdm.h)
+# KeQueryTickCount macro (wdm.h)
+
+
 
 
 

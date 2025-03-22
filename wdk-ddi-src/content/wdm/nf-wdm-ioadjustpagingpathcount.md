@@ -41,7 +41,9 @@ api_name:
  - IoAdjustPagingPathCount
 ---
 
-# IoAdjustPagingPathCount function (wdm.h)
+# IoAdjustPagingPathCount macro (wdm.h)
+
+
 
 
 

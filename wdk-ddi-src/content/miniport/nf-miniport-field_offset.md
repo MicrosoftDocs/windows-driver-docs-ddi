@@ -40,7 +40,9 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET function (miniport.h)
+# FIELD_OFFSET macro (miniport.h)
+
+
 
 ## -description
 

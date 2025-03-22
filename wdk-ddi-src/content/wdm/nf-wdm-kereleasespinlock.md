@@ -42,7 +42,9 @@ api_name:
  - KeReleaseSpinLock
 ---
 
-# KeReleaseSpinLock function (wdm.h)
+# KeReleaseSpinLock macro (wdm.h)
+
+
 
 
 

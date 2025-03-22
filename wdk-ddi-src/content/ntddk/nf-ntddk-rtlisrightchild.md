@@ -41,7 +41,9 @@ api_name:
  - RtlIsRightChild
 ---
 
-# RtlIsRightChild function (ntddk.h)
+# RtlIsRightChild macro (ntddk.h)
+
+
 
 
 

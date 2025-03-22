@@ -40,7 +40,9 @@ api_name:
  - KsDeleteFilterFactory
 ---
 
-# KsDeleteFilterFactory function (ks.h)
+# KsDeleteFilterFactory macro (ks.h)
+
+
 
 ## -description
 

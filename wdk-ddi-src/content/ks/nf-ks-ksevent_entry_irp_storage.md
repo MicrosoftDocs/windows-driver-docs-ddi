@@ -40,7 +40,9 @@ api_name:
  - KSEVENT_ENTRY_IRP_STORAGE
 ---
 
-# KSEVENT_ENTRY_IRP_STORAGE function (ks.h)
+# KSEVENT_ENTRY_IRP_STORAGE macro (ks.h)
+
+
 
 ## -description
 

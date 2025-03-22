@@ -41,7 +41,9 @@ api_name:
  - ExAllocatePoolWithQuota
 ---
 
-# ExAllocatePoolWithQuota function (classpnp.h)
+# ExAllocatePoolWithQuota macro (classpnp.h)
+
+
 
 
 

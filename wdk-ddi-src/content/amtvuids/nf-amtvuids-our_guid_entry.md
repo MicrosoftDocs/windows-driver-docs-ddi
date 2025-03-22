@@ -39,7 +39,9 @@ api_name:
  - OUR_GUID_ENTRY
 ---
 
-# OUR_GUID_ENTRY function (amtvuids.h)
+# OUR_GUID_ENTRY macro (amtvuids.h)
+
+
 
 
 

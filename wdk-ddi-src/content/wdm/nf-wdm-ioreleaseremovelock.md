@@ -41,7 +41,9 @@ api_name:
  - IoReleaseRemoveLock
 ---
 
-# IoReleaseRemoveLock function (wdm.h)
+# IoReleaseRemoveLock macro (wdm.h)
+
+
 
 
 

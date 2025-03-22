@@ -38,7 +38,9 @@ api_name:
  - DEVICE_DSM_ROUND_DN
 ---
 
-# DEVICE_DSM_ROUND_DN function (ntddstor.h)
+# DEVICE_DSM_ROUND_DN macro (ntddstor.h)
+
+
 
 
 

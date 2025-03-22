@@ -39,7 +39,9 @@ api_name:
  - ExReleasePushLockShared
 ---
 
-# ExReleasePushLockShared function (wdm.h)
+# ExReleasePushLockShared macro (wdm.h)
+
+
 
 
 

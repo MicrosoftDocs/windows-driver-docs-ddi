@@ -41,7 +41,9 @@ api_name:
  - NdisFillMemory
 ---
 
-# NdisFillMemory function (ndis.h)
+# NdisFillMemory macro (ndis.h)
+
+
 
 
 

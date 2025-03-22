@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDispatchCallConnected
 ---
 
-# NdisMCmDispatchCallConnected function (ndis.h)
+# NdisMCmDispatchCallConnected macro (ndis.h)
+
+
 
 
 

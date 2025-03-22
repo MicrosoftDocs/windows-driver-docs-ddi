@@ -38,7 +38,9 @@ api_name:
  - NDIS_RAISE_IRQL_TO_DISPATCH
 ---
 
-# NDIS_RAISE_IRQL_TO_DISPATCH function (ndis.h)
+# NDIS_RAISE_IRQL_TO_DISPATCH macro (ndis.h)
+
+
 
 
 

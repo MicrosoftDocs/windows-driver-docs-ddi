@@ -41,7 +41,9 @@ api_name:
  - GetFieldValue
 ---
 
-# GetFieldValue function (wdbgexts.h)
+# GetFieldValue macro (wdbgexts.h)
+
+
 
 
 

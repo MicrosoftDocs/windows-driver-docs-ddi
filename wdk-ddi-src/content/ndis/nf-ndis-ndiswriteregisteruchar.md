@@ -41,7 +41,9 @@ api_name:
  - NdisWriteRegisterUchar
 ---
 
-# NdisWriteRegisterUchar function (ndis.h)
+# NdisWriteRegisterUchar macro (ndis.h)
+
+
 
 
 

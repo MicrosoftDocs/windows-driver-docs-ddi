@@ -38,7 +38,9 @@ api_name:
  - GET_UNIDRV_PRIVATE_DEVMODE_SIZE
 ---
 
-# GET_UNIDRV_PRIVATE_DEVMODE_SIZE function (printoem.h)
+# GET_UNIDRV_PRIVATE_DEVMODE_SIZE macro (printoem.h)
+
+
 
 
 

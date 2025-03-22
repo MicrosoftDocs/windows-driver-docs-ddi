@@ -41,7 +41,9 @@ api_name:
  - FIELD_OFFSET
 ---
 
-# FIELD_OFFSET function (storport.h)
+# FIELD_OFFSET macro (storport.h)
+
+
 
 
 

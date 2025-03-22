@@ -41,7 +41,9 @@ api_name:
  - NdisMCmMakeCallComplete
 ---
 
-# NdisMCmMakeCallComplete function (ndis.h)
+# NdisMCmMakeCallComplete macro (ndis.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - ExInterlockedAddLargeStatistic
 ---
 
-# ExInterlockedAddLargeStatistic function (wdm.h)
+# ExInterlockedAddLargeStatistic macro (wdm.h)
+
+
 
 
 

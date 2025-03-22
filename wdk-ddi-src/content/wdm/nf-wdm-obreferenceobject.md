@@ -41,7 +41,9 @@ api_name:
  - ObReferenceObject
 ---
 
-# ObReferenceObject function (wdm.h)
+# ObReferenceObject macro (wdm.h)
+
+
 
 
 

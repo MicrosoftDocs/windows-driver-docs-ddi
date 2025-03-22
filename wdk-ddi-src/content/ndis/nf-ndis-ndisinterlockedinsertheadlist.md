@@ -42,7 +42,9 @@ api_name:
  - NdisInterlockedInsertHeadList
 ---
 
-# NdisInterlockedInsertHeadList function (ndis.h)
+# NdisInterlockedInsertHeadList macro (ndis.h)
+
+
 
 
 

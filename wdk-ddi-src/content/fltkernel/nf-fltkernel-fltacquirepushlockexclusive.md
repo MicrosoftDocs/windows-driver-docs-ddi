@@ -42,7 +42,9 @@ api_name:
  - FltAcquirePushLockExclusive
 ---
 
-# FltAcquirePushLockExclusive function (fltkernel.h)
+# FltAcquirePushLockExclusive macro (fltkernel.h)
+
+
 
 
 

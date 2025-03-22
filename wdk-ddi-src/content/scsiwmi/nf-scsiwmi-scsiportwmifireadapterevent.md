@@ -41,7 +41,9 @@ api_name:
  - ScsiPortWmiFireAdapterEvent
 ---
 
-# ScsiPortWmiFireAdapterEvent function (scsiwmi.h)
+# ScsiPortWmiFireAdapterEvent macro (scsiwmi.h)
+
+
 
 
 

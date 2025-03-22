@@ -41,7 +41,9 @@ api_name:
  - NdisInitializeListHead
 ---
 
-# NdisInitializeListHead function (ndis.h)
+# NdisInitializeListHead macro (ndis.h)
+
+
 
 
 

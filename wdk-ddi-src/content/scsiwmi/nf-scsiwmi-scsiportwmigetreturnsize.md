@@ -41,7 +41,9 @@ api_name:
  - ScsiPortWmiGetReturnSize
 ---
 
-# ScsiPortWmiGetReturnSize function (scsiwmi.h)
+# ScsiPortWmiGetReturnSize macro (scsiwmi.h)
+
+
 
 
 

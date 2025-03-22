@@ -38,7 +38,9 @@ api_name:
  - ARM64_SYSREG_CRN
 ---
 
-# ARM64_SYSREG_CRN function (wdm.h)
+# ARM64_SYSREG_CRN macro (wdm.h)
+
+
 
 
 

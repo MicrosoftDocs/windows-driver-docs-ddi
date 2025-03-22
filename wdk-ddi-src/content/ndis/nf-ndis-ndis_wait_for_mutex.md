@@ -39,7 +39,9 @@ api_name:
  - NDIS_WAIT_FOR_MUTEX
 ---
 
-# NDIS_WAIT_FOR_MUTEX function (ndis.h)
+# NDIS_WAIT_FOR_MUTEX macro (ndis.h)
+
+
 
 
 

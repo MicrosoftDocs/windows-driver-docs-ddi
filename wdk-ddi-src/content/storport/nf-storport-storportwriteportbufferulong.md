@@ -42,7 +42,9 @@ api_name:
  - StorPortWritePortBufferUlong
 ---
 
-# StorPortWritePortBufferUlong function (storport.h)
+# StorPortWritePortBufferUlong macro (storport.h)
+
+
 
 
 

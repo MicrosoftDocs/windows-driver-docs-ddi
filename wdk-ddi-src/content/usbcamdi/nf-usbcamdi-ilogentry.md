@@ -39,7 +39,9 @@ api_name:
  - ILOGENTRY
 ---
 
-# ILOGENTRY function (usbcamdi.h)
+# ILOGENTRY macro (usbcamdi.h)
+
+
 
 
 

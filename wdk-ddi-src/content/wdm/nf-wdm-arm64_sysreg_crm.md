@@ -38,7 +38,9 @@ api_name:
  - ARM64_SYSREG_CRM
 ---
 
-# ARM64_SYSREG_CRM function (wdm.h)
+# ARM64_SYSREG_CRM macro (wdm.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# DlDebugPrintEx function (dispmprt.h)
+# DlDebugPrintEx macro (dispmprt.h)
+
+
 
 
 

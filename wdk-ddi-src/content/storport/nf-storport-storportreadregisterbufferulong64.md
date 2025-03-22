@@ -41,7 +41,9 @@ api_name:
  - StorPortReadRegisterBufferUlong64
 ---
 
-# StorPortReadRegisterBufferUlong64 function (storport.h)
+# StorPortReadRegisterBufferUlong64 macro (storport.h)
+
+
 
 
 

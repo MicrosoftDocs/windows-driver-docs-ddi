@@ -40,7 +40,9 @@ api_name:
  - MmLockPagableCodeSection
 ---
 
-# MmLockPagableCodeSection function (wdm.h)
+# MmLockPagableCodeSection macro (wdm.h)
+
+
 
 ## -description
 

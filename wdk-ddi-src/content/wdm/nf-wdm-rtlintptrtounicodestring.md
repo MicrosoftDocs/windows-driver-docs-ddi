@@ -41,7 +41,9 @@ api_name:
  - RtlIntPtrToUnicodeString
 ---
 
-# RtlIntPtrToUnicodeString function (wdm.h)
+# RtlIntPtrToUnicodeString macro (wdm.h)
+
+
 
 
 

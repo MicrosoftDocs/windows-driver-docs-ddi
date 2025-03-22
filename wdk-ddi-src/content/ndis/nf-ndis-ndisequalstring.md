@@ -42,7 +42,9 @@ api_name:
  - NdisEqualString
 ---
 
-# NdisEqualString function (ndis.h)
+# NdisEqualString macro (ndis.h)
+
+
 
 
 

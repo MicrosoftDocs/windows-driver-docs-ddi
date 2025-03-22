@@ -40,7 +40,9 @@ api_name:
  - KSEVENT_ITEM_IRP_STORAGE
 ---
 
-# KSEVENT_ITEM_IRP_STORAGE function (ks.h)
+# KSEVENT_ITEM_IRP_STORAGE macro (ks.h)
+
+
 
 ## -description
 

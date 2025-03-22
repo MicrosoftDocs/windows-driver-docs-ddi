@@ -41,7 +41,9 @@ api_name:
  - wiauDbgHelper
 ---
 
-# wiauDbgHelper function (wiautil.h)
+# wiauDbgHelper macro (wiautil.h)
+
+
 
 
 

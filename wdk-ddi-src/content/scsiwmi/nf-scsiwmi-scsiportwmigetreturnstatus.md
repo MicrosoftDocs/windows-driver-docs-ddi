@@ -41,7 +41,9 @@ api_name:
  - ScsiPortWmiGetReturnStatus
 ---
 
-# ScsiPortWmiGetReturnStatus function (scsiwmi.h)
+# ScsiPortWmiGetReturnStatus macro (scsiwmi.h)
+
+
 
 
 

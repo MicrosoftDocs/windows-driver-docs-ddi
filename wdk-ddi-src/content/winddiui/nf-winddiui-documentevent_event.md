@@ -39,7 +39,9 @@ api_name:
  - DOCUMENTEVENT_EVENT
 ---
 
-# DOCUMENTEVENT_EVENT function (winddiui.h)
+# DOCUMENTEVENT_EVENT macro (winddiui.h)
+
+
 
 
 

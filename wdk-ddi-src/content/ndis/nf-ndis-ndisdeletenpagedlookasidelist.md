@@ -41,7 +41,9 @@ api_name:
  - NdisDeleteNPagedLookasideList
 ---
 
-# NdisDeleteNPagedLookasideList function (ndis.h)
+# NdisDeleteNPagedLookasideList macro (ndis.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - NdisMCmOpenAddressFamilyComplete
 ---
 
-# NdisMCmOpenAddressFamilyComplete function (ndis.h)
+# NdisMCmOpenAddressFamilyComplete macro (ndis.h)
+
+
 
 
 

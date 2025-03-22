@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDropPartyComplete
 ---
 
-# NdisMCmDropPartyComplete function (ndis.h)
+# NdisMCmDropPartyComplete macro (ndis.h)
+
+
 
 
 

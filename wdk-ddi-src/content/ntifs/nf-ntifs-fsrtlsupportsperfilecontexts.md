@@ -41,7 +41,9 @@ api_name:
  - FsRtlSupportsPerFileContexts
 ---
 
-# FsRtlSupportsPerFileContexts function (ntifs.h)
+# FsRtlSupportsPerFileContexts macro (ntifs.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - KsDiscard
 ---
 
-# KsDiscard function (ks.h)
+# KsDiscard macro (ks.h)
+
+
 
 ## -description
 

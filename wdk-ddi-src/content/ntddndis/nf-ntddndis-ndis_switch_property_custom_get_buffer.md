@@ -39,7 +39,9 @@ api_name:
  - NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER
 ---
 
-# NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER function (ntddndis.h)
+# NDIS_SWITCH_PROPERTY_CUSTOM_GET_BUFFER macro (ntddndis.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - NdisRawReadPortBufferUchar
 ---
 
-# NdisRawReadPortBufferUchar function (ndis.h)
+# NdisRawReadPortBufferUchar macro (ndis.h)
+
+
 
 
 

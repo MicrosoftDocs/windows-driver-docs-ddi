@@ -39,7 +39,9 @@ api_name:
  - NDIS_SWITCH_NIC_AT_ARRAY_INDEX
 ---
 
-# NDIS_SWITCH_NIC_AT_ARRAY_INDEX function (ntddndis.h)
+# NDIS_SWITCH_NIC_AT_ARRAY_INDEX macro (ntddndis.h)
+
+
 
 
 

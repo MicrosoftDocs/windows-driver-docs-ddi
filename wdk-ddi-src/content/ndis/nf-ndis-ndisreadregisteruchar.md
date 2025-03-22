@@ -41,7 +41,9 @@ api_name:
  - NdisReadRegisterUchar
 ---
 
-# NdisReadRegisterUchar function (ndis.h)
+# NdisReadRegisterUchar macro (ndis.h)
+
+
 
 
 

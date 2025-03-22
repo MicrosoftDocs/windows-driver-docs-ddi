@@ -41,7 +41,9 @@ api_name:
  - NdisMCmCloseAddressFamilyComplete
 ---
 
-# NdisMCmCloseAddressFamilyComplete function (ndis.h)
+# NdisMCmCloseAddressFamilyComplete macro (ndis.h)
+
+
 
 
 

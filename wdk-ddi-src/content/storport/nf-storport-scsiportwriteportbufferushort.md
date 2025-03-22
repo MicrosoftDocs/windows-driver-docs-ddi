@@ -42,7 +42,9 @@ api_name:
  - ScsiPortWritePortBufferUshort
 ---
 
-# ScsiPortWritePortBufferUshort function (storport.h)
+# ScsiPortWritePortBufferUshort macro (storport.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - NdisZeroMappedMemory
 ---
 
-# NdisZeroMappedMemory function (ndis.h)
+# NdisZeroMappedMemory macro (ndis.h)
+
+
 
 
 

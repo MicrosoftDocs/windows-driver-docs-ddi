@@ -41,7 +41,9 @@ api_name:
  - FsRtlLookupPerStreamContext
 ---
 
-# FsRtlLookupPerStreamContext function (ntifs.h)
+# FsRtlLookupPerStreamContext macro (ntifs.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - NdisMCmDispatchIncomingDropParty
 ---
 
-# NdisMCmDispatchIncomingDropParty function (ndis.h)
+# NdisMCmDispatchIncomingDropParty macro (ndis.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - FsRtlIsAnsiCharacterLegalFat
 ---
 
-# FsRtlIsAnsiCharacterLegalFat function (ntifs.h)
+# FsRtlIsAnsiCharacterLegalFat macro (ntifs.h)
+
+
 
 
 

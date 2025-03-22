@@ -41,7 +41,9 @@ api_name:
  - IofCompleteRequest
 ---
 
-# IofCompleteRequest function (wdm.h)
+# IofCompleteRequest macro (wdm.h)
+
+
 
 
 

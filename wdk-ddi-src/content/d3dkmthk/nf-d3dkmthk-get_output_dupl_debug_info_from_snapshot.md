@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT function (d3dkmthk.h)
+# GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro (d3dkmthk.h)
+
+
 
 
 

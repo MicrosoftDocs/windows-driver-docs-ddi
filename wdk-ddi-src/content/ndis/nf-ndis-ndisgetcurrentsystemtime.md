@@ -42,7 +42,9 @@ api_name:
  - NdisGetCurrentSystemTime
 ---
 
-# NdisGetCurrentSystemTime function (ndis.h)
+# NdisGetCurrentSystemTime macro (ndis.h)
+
+
 
 
 

@@ -38,7 +38,9 @@ api_name:
  - DEVICE_DSM_ROUND_UP
 ---
 
-# DEVICE_DSM_ROUND_UP function (ntddstor.h)
+# DEVICE_DSM_ROUND_UP macro (ntddstor.h)
+
+
 
 
 

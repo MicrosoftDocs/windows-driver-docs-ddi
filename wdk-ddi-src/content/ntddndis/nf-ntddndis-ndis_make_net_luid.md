@@ -38,7 +38,9 @@ api_name:
  - NDIS_MAKE_NET_LUID
 ---
 
-# NDIS_MAKE_NET_LUID function (ntddndis.h)
+# NDIS_MAKE_NET_LUID macro (ntddndis.h)
+
+
 
 
 

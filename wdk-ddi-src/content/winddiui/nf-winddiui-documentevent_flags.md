@@ -39,7 +39,9 @@ api_name:
  - DOCUMENTEVENT_FLAGS
 ---
 
-# DOCUMENTEVENT_FLAGS function (winddiui.h)
+# DOCUMENTEVENT_FLAGS macro (winddiui.h)
+
+
 
 
 

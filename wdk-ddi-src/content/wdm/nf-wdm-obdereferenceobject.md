@@ -40,7 +40,9 @@ api_name:
  - ObDereferenceObject
 ---
 
-# ObDereferenceObject function (wdm.h)
+# ObDereferenceObject macro (wdm.h)
+
+
 
 ## -description
 

@@ -38,7 +38,9 @@ api_name:
  - NDIS_LOWER_IRQL
 ---
 
-# NDIS_LOWER_IRQL function (ndis.h)
+# NDIS_LOWER_IRQL macro (ndis.h)
+
+
 
 
 

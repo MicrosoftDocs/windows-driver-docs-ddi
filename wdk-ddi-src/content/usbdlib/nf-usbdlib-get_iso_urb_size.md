@@ -41,7 +41,9 @@ api_name:
  - GET_ISO_URB_SIZE
 ---
 
-# GET_ISO_URB_SIZE function (usbdlib.h)
+# GET_ISO_URB_SIZE macro (usbdlib.h)
+
+
 
 
 

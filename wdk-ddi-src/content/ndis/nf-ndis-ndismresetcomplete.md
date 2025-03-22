@@ -42,7 +42,9 @@ api_name:
  - NdisMResetComplete
 ---
 
-# NdisMResetComplete function (ndis.h)
+# NdisMResetComplete macro (ndis.h)
+
+
 
  (NDIS 5.x)
 

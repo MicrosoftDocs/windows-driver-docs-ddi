@@ -39,7 +39,9 @@ api_name:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 ---
 
-# PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA function (acpitabl.h)
+# PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro (acpitabl.h)
+
+
 
 
 

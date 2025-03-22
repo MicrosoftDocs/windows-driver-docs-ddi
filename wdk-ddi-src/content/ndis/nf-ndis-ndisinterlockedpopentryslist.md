@@ -41,7 +41,9 @@ api_name:
  - NdisInterlockedPopEntrySList
 ---
 
-# NdisInterlockedPopEntrySList function (ndis.h)
+# NdisInterlockedPopEntrySList macro (ndis.h)
+
+
 
 
 

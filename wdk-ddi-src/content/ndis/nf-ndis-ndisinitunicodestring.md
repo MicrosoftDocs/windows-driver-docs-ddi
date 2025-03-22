@@ -42,7 +42,9 @@ api_name:
  - NdisInitUnicodeString
 ---
 
-# NdisInitUnicodeString function (ndis.h)
+# NdisInitUnicodeString macro (ndis.h)
+
+
 
 
 

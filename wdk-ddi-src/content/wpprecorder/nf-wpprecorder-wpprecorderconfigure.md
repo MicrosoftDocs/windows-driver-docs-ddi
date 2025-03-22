@@ -41,7 +41,9 @@ api_name:
  - WppRecorderConfigure
 ---
 
-# WppRecorderConfigure function (wpprecorder.h)
+# WppRecorderConfigure macro (wpprecorder.h)
+
+
 
 
 

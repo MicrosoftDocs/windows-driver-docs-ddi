@@ -41,7 +41,9 @@ api_name:
  - KeReleaseSpinLockFromDpcLevel
 ---
 
-# KeReleaseSpinLockFromDpcLevel function (wdm.h)
+# KeReleaseSpinLockFromDpcLevel macro (wdm.h)
+
+
 
 
 

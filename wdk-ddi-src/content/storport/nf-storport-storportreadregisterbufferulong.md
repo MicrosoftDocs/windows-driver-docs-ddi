@@ -42,7 +42,9 @@ api_name:
  - StorPortReadRegisterBufferUlong
 ---
 
-# StorPortReadRegisterBufferUlong function (storport.h)
+# StorPortReadRegisterBufferUlong macro (storport.h)
+
+
 
 
 

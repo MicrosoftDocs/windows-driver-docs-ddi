@@ -42,7 +42,9 @@ api_name:
  - NdisInterlockedInsertTailList
 ---
 
-# NdisInterlockedInsertTailList function (ndis.h)
+# NdisInterlockedInsertTailList macro (ndis.h)
+
+
 
 
 

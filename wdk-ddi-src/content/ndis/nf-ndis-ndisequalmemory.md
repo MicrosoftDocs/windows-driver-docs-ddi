@@ -41,7 +41,9 @@ api_name:
  - NdisEqualMemory
 ---
 
-# NdisEqualMemory function (ndis.h)
+# NdisEqualMemory macro (ndis.h)
+
+
 
 
 

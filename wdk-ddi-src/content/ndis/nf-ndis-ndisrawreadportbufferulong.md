@@ -41,7 +41,9 @@ api_name:
  - NdisRawReadPortBufferUlong
 ---
 
-# NdisRawReadPortBufferUlong function (ndis.h)
+# NdisRawReadPortBufferUlong macro (ndis.h)
+
+
 
 
 

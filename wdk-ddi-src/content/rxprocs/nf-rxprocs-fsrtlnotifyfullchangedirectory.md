@@ -41,7 +41,9 @@ api_name:
  - FsRtlNotifyFullChangeDirectory
 ---
 
-# FsRtlNotifyFullChangeDirectory function (rxprocs.h)
+# FsRtlNotifyFullChangeDirectory macro (rxprocs.h)
+
+
 
 
 

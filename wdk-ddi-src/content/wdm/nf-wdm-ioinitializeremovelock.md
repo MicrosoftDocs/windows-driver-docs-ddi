@@ -41,7 +41,9 @@ api_name:
  - IoInitializeRemoveLock
 ---
 
-# IoInitializeRemoveLock function (wdm.h)
+# IoInitializeRemoveLock macro (wdm.h)
+
+
 
 
 

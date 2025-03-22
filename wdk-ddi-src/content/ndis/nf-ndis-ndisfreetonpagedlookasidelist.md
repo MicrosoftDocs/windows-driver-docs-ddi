@@ -41,7 +41,9 @@ api_name:
  - NdisFreeToNPagedLookasideList
 ---
 
-# NdisFreeToNPagedLookasideList function (ndis.h)
+# NdisFreeToNPagedLookasideList macro (ndis.h)
+
+
 
 
 

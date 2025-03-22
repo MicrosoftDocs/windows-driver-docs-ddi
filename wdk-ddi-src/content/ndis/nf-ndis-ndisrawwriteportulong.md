@@ -41,7 +41,9 @@ api_name:
  - NdisRawWritePortUlong
 ---
 
-# NdisRawWritePortUlong function (ndis.h)
+# NdisRawWritePortUlong macro (ndis.h)
+
+
 
 
 

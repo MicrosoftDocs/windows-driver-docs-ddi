@@ -39,7 +39,9 @@ api_name:
  - ExReleasePushLockExclusive
 ---
 
-# ExReleasePushLockExclusive function (wdm.h)
+# ExReleasePushLockExclusive macro (wdm.h)
+
+
 
 
 

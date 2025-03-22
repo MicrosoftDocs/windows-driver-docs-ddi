@@ -41,7 +41,9 @@ api_name:
  - KeQueryTickCount
 ---
 
-# KeQueryTickCount function (ntddk.h)
+# KeQueryTickCount macro (ntddk.h)
+
+
 
 
 

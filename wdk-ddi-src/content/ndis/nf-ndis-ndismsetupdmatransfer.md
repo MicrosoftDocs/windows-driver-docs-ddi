@@ -41,7 +41,9 @@ api_name:
  - NdisMSetupDmaTransfer
 ---
 
-# NdisMSetupDmaTransfer function (ndis.h)
+# NdisMSetupDmaTransfer macro (ndis.h)
+
+
 
 
 

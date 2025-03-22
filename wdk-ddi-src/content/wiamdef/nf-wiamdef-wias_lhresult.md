@@ -41,7 +41,9 @@ api_name:
  - WIAS_LHRESULT
 ---
 
-# WIAS_LHRESULT function (wiamdef.h)
+# WIAS_LHRESULT macro (wiamdef.h)
+
+
 
 
 

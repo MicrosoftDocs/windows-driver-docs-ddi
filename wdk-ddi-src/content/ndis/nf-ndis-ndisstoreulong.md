@@ -41,7 +41,9 @@ api_name:
  - NdisStoreUlong
 ---
 
-# NdisStoreUlong function (ndis.h)
+# NdisStoreUlong macro (ndis.h)
+
+
 
 
 

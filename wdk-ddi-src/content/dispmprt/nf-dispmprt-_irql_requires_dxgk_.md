@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# _IRQL_requires_DXGK_ function (dispmprt.h)
+# _IRQL_requires_DXGK_ macro (dispmprt.h)
+
+
 
 
 

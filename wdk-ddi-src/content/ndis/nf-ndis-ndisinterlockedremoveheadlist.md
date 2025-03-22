@@ -43,7 +43,9 @@ api_name:
  - NdisInterlockedRemoveHeadList
 ---
 
-# NdisInterlockedRemoveHeadList function (ndis.h)
+# NdisInterlockedRemoveHeadList macro (ndis.h)
+
+
 
 
 

@@ -42,7 +42,9 @@ api_name:
  - ScsiPortWritePortUlong
 ---
 
-# ScsiPortWritePortUlong function (storport.h)
+# ScsiPortWritePortUlong macro (storport.h)
+
+
 
 
 

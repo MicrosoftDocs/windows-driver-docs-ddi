@@ -41,7 +41,9 @@ api_name:
  - WppRecorderLinkCounters
 ---
 
-# WppRecorderLinkCounters function (wpprecorder.h)
+# WppRecorderLinkCounters macro (wpprecorder.h)
+
+
 
 
 

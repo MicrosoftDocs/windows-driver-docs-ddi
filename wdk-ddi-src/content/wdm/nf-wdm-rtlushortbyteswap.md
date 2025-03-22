@@ -41,7 +41,9 @@ api_name:
  - RtlUshortByteSwap
 ---
 
-# RtlUshortByteSwap function (wdm.h)
+# RtlUshortByteSwap macro (wdm.h)
+
+
 
 
 

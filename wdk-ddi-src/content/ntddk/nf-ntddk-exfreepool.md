@@ -41,7 +41,9 @@ api_name:
  - ExFreePool
 ---
 
-# ExFreePool function (ntddk.h)
+# ExFreePool macro (ntddk.h)
+
+
 
 
 

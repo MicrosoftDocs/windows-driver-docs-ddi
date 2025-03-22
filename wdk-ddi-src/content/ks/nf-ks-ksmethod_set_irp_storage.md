@@ -41,7 +41,9 @@ api_name:
  - KSMETHOD_SET_IRP_STORAGE
 ---
 
-# KSMETHOD_SET_IRP_STORAGE function (ks.h)
+# KSMETHOD_SET_IRP_STORAGE macro (ks.h)
+
+
 
 ## -description
 

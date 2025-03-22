@@ -41,7 +41,9 @@ api_name:
  - FsRtlTestAnsiCharacter
 ---
 
-# FsRtlTestAnsiCharacter function (ntifs.h)
+# FsRtlTestAnsiCharacter macro (ntifs.h)
+
+
 
 
 

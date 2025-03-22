@@ -41,7 +41,9 @@ api_name:
  - RtlIsLeftChild
 ---
 
-# RtlIsLeftChild function (ntddk.h)
+# RtlIsLeftChild macro (ntddk.h)
+
+
 
 
 

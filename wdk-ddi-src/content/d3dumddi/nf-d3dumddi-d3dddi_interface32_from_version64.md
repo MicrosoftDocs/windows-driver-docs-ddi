@@ -41,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_INTERFACE32_FROM_VERSION64 function (d3dumddi.h)
+# D3DDDI_INTERFACE32_FROM_VERSION64 macro (d3dumddi.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - NdisMCmOidRequestComplete
 ---
 
-# NdisMCmOidRequestComplete function (ndis.h)
+# NdisMCmOidRequestComplete macro (ndis.h)
+
+
 
 
 

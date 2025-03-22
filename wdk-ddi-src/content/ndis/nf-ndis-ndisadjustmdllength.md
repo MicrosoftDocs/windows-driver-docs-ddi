@@ -41,7 +41,9 @@ api_name:
  - NdisAdjustMdlLength
 ---
 
-# NdisAdjustMdlLength function (ndis.h)
+# NdisAdjustMdlLength macro (ndis.h)
+
+
 
 
 

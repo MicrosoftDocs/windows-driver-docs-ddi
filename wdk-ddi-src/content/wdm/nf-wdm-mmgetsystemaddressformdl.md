@@ -40,7 +40,9 @@ api_name:
  - MmGetSystemAddressForMdl
 ---
 
-# MmGetSystemAddressForMdl function (wdm.h)
+# MmGetSystemAddressForMdl macro (wdm.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
  - FsRtlInitPerStreamContext
 ---
 
-# FsRtlInitPerStreamContext function (ntifs.h)
+# FsRtlInitPerStreamContext macro (ntifs.h)
+
+
 
 
 

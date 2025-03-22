@@ -40,7 +40,9 @@ api_name:
  - KeAcquireSpinLockAtDpcLevel
 ---
 
-# KeAcquireSpinLockAtDpcLevel function (wdm.h)
+# KeAcquireSpinLockAtDpcLevel macro (wdm.h)
+
+
 
 ## -description
 

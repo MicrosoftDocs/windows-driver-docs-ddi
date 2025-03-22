@@ -41,7 +41,9 @@ api_name:
  - NdisMCmModifyCallQoSComplete
 ---
 
-# NdisMCmModifyCallQoSComplete function (ndis.h)
+# NdisMCmModifyCallQoSComplete macro (ndis.h)
+
+
 
 
 

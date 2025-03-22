@@ -39,7 +39,9 @@ api_name:
  - WIA_PROP_LIST_VALUE
 ---
 
-# WIA_PROP_LIST_VALUE function (wiadef.h)
+# WIA_PROP_LIST_VALUE macro (wiadef.h)
+
+
 
 
 

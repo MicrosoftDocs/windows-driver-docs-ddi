@@ -41,7 +41,9 @@ api_name:
  - RtlCheckBit
 ---
 
-# RtlCheckBit function (wdm.h)
+# RtlCheckBit macro (wdm.h)
+
+
 
 
 

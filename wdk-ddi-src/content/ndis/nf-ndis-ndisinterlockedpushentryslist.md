@@ -41,7 +41,9 @@ api_name:
  - NdisInterlockedPushEntrySList
 ---
 
-# NdisInterlockedPushEntrySList function (ndis.h)
+# NdisInterlockedPushEntrySList macro (ndis.h)
+
+
 
 
 

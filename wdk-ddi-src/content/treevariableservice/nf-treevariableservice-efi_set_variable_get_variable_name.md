@@ -39,7 +39,9 @@ api_name:
  - EFI_SET_VARIABLE_GET_VARIABLE_NAME
 ---
 
-# EFI_SET_VARIABLE_GET_VARIABLE_NAME function (treevariableservice.h)
+# EFI_SET_VARIABLE_GET_VARIABLE_NAME macro (treevariableservice.h)
+
+
 
 
 

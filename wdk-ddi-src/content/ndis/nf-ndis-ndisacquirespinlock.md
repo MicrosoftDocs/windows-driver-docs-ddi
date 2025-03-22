@@ -42,7 +42,9 @@ api_name:
  - NdisAcquireSpinLock
 ---
 
-# NdisAcquireSpinLock function (ndis.h)
+# NdisAcquireSpinLock macro (ndis.h)
+
+
 
 
 

@@ -41,7 +41,9 @@ api_name:
 returns-override: true
 ---
 
-# RtlEqualMemory function (wdm.h)
+# RtlEqualMemory macro (wdm.h)
+
+
 
 ## -description
 
