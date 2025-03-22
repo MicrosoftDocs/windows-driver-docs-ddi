@@ -3,7 +3,6 @@ UID: NF:iddcx.IddCxAdapterSetRenderAdapter
 title: IddCxAdapterSetRenderAdapter function
 description: IddCxAdapterSetRenderAdapter sets the preferred render adapter on which to render the swapchains for the specified adapter.
 tech.root: display
-ms.author: windowsdriverdev
 ms.date: 08/08/2022
 keywords: ["IddCxAdapterSetRenderAdapter function"]
 ms.keywords: IddCxAdapterSetRenderAdapter

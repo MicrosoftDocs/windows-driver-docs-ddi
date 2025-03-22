@@ -5,7 +5,6 @@ author: windows-driver-content
 description: The HidP_UnsetButtons macro is a mnemonic alias for the HidP_UnsetUsages function.
 tech.root: hid
 ms.assetid: 72aef86d-8403-451d-8a19-6050d56646c6
-ms.author: windowsdriverdev
 ms.date: 12/06/2021
 ms.keywords: HidP_UnsetButtons
 req.header: hidpi.h
