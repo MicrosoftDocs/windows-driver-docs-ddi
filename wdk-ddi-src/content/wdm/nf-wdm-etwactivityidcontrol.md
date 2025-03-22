@@ -7,6 +7,7 @@ ms.date: 02/15/2023
 keywords: ["EtwActivityIdControl function"]
 ms.keywords: EVENT_ACTIVITY_CTRL_CREATE_ID, EVENT_ACTIVITY_CTRL_CREATE_SET_ID, EVENT_ACTIVITY_CTRL_GET_ID, EVENT_ACTIVITY_CTRL_GET_SET_ID, EVENT_ACTIVITY_CTRL_SET_ID, EtwActivityIdControl, EtwActivityIdControl function [Driver Development Tools], devtest.etwactivityidcontrol, etw_km_ecbfd65a-dd05-422b-9039-bb2a307d5978.xml, wdm/EtwActivityIdControl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,9 @@ api_location:
 api_name:
  - EtwActivityIdControl
 ---
+
+# EtwActivityIdControl function (wdm.h)
+
 ## -description
 
 The **EtwActivityIdControl** function creates, queries, and sets the current activity identifier.
