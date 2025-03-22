@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltRequestOperationStatusCallback function"]
 ms.keywords: FltApiRef_p_to_z_85d8f6d5-37d1-469f-8c97-8b358f69e9ef.xml, FltRequestOperationStatusCallback, FltRequestOperationStatusCallback function [Installable File System Drivers], fltkernel/FltRequestOperationStatusCallback, ifsk.fltrequestoperationstatuscallback
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltRequestOperationStatusCallback
 ---
 
-# FltRequestOperationStatusCallback function
+# FltRequestOperationStatusCallback function (fltkernel.h)
+
+
 
 
 ## -description

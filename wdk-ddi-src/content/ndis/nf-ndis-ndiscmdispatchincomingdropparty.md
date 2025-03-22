@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingDropParty function"]
 ms.keywords: NdisCmDispatchIncomingDropParty, NdisCmDispatchIncomingDropParty function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_6f7730c4-030a-45a6-b873-833bf8033ce7.xml, ndis/NdisCmDispatchIncomingDropParty, netvista.ndiscmdispatchincomingdropparty
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisCmDispatchIncomingDropParty (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisCmDispatchIncomingDropParty (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmDispatchIncomingDropParty
 ---
 
-# NdisCmDispatchIncomingDropParty function
+# NdisCmDispatchIncomingDropParty function (ndis.h)
+
+
 
 
 ## -description

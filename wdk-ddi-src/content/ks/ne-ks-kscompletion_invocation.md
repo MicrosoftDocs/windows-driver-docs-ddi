@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSCOMPLETION_INVOCATION enumeration"]
 ms.keywords: KSCOMPLETION_INVOCATION, KSCOMPLETION_INVOCATION enumeration [Streaming Media Devices], KsInvokeOnCancel, KsInvokeOnError, KsInvokeOnSuccess, ks/KSCOMPLETION_INVOCATION, ks/KsInvokeOnCancel, ks/KsInvokeOnError, ks/KsInvokeOnSuccess, stream.kscompletion_invocation
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSCOMPLETION_INVOCATION
 ---
 
-# KSCOMPLETION_INVOCATION enumeration
+# KSCOMPLETION_INVOCATION enumeration (ks.h)
+
+
 
 
 ## -description

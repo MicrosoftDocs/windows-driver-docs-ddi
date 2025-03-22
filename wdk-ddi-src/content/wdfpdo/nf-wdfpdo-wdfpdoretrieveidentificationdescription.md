@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoRetrieveIdentificationDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_fe883ca1-8b36-4ac1-b7ff-8c38bf098148.xml, WdfPdoRetrieveIdentificationDescription, WdfPdoRetrieveIdentificationDescription method, kmdf.wdfpdoretrieveidentificationdescription, wdf.wdfpdoretrieveidentificationdescription, wdfpdo/WdfPdoRetrieveIdentificationDescription
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoRetrieveIdentificationDescription
 ---
 
-# WdfPdoRetrieveIdentificationDescription function
+# WdfPdoRetrieveIdentificationDescription function (wdfpdo.h)
+
+
 
 
 ## -description

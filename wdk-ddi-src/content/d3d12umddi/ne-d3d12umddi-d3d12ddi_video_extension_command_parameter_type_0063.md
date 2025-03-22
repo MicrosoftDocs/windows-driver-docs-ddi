@@ -7,6 +7,7 @@ ms.date: 04/01/2021
 keywords: ["D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063, D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063 enumeration
+# D3D12DDI_VIDEO_EXTENSION_COMMAND_PARAMETER_TYPE_0063 enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

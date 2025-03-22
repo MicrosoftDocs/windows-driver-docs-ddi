@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceSelectSettingType enumeration"]
 ms.keywords: DFUsbRef_2c08813e-959f-48db-92d5-3aece2d8e856.xml, WdfUsbInterfaceSelectSettingTypeDescriptor, WdfUsbInterfaceSelectSettingTypeSetting, WdfUsbInterfaceSelectSettingTypeUrb, WdfUsbTargetDeviceSelectSettingType, WdfUsbTargetDeviceSelectSettingType enumeration, _WdfUsbTargetDeviceSelectSettingType, kmdf.wdfusbtargetdeviceselectsettingtype, wdf.wdfusbtargetdeviceselectsettingtype, wdfusb/WdfUsbInterfaceSelectSettingTypeDescriptor, wdfusb/WdfUsbInterfaceSelectSettingTypeSetting, wdfusb/WdfUsbInterfaceSelectSettingTypeUrb, wdfusb/WdfUsbTargetDeviceSelectSettingType
 req.header: wdfusb.h
+req.construct-type: enumeration
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceSelectSettingType
 ---
 
-# _WdfUsbTargetDeviceSelectSettingType enumeration
+# WdfUsbTargetDeviceSelectSettingType enumeration (wdfusb.h)
+
+
 
 
 ## -description

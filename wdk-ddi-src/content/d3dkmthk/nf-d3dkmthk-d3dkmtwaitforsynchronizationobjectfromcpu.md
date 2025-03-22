@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromCpu, D3DKMTWaitForSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromCpu, display.d3dkmtwaitforsynchronizationobjectfromcpu
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTWaitForSynchronizationObjectFromCpu
 ---
 
-# D3DKMTWaitForSynchronizationObjectFromCpu function
+# D3DKMTWaitForSynchronizationObjectFromCpu function (d3dkmthk.h)
+
+
 
 ## -description
 

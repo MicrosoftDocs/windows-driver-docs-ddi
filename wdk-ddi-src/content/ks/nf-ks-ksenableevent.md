@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsEnableEvent function"]
 ms.keywords: KsEnableEvent, KsEnableEvent function [Streaming Media Devices], ks/KsEnableEvent, ksfunc_f6611298-cc8d-40eb-86e6-1287caff3ec0.xml, stream.ksenableevent
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsEnableEvent
 ---
 
-# KsEnableEvent function
+# KsEnableEvent function (ks.h)
+
+
 
 
 ## -description

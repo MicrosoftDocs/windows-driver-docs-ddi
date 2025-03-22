@@ -8,6 +8,7 @@ ms.date: 06/24/2019
 keywords: ["USBD_CreateHandle function"]
 ms.keywords: USBD_CreateHandle, USBD_CreateHandle routine [Buses], buses.usbd_register, usbdlib/USBD_CreateHandle
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: usbdlib.h, usb.h
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -43,7 +44,9 @@ api_name:
  - USBD_CreateHandle
 ---
 
-# USBD_CreateHandle function
+# USBD_CreateHandle function (usbdlib.h)
+
+
 
 
 ## -description

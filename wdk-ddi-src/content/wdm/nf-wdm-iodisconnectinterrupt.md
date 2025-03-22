@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoDisconnectInterrupt function"]
 ms.keywords: IoDisconnectInterrupt, IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture], k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml, kernel.iodisconnectinterrupt, wdm/IoDisconnectInterrupt
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoDisconnectInterrupt
 ---
 
-# IoDisconnectInterrupt function
+# IoDisconnectInterrupt function (wdm.h)
+
+
 
 
 ## -description

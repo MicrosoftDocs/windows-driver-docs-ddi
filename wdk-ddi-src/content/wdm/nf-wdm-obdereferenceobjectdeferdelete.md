@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["ObDereferenceObjectDeferDelete function"]
 ms.keywords: ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, kernel.obdereferenceobjectdeferdelete, wdm/ObDereferenceObjectDeferDelete
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ObDereferenceObjectDeferDelete
 ---
+
+# ObDereferenceObjectDeferDelete function (wdm.h)
 
 ## -description
 

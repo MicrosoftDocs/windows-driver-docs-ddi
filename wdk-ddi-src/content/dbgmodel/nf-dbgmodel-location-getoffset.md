@@ -6,6 +6,7 @@ ms.date: 09/28/2018
 keywords: ["GetOffset function"]
 ms.keywords: GetOffset
 req.header: dbgmodel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - Location::GetOffset
 ---
 
-# GetOffset function
+# Location::GetOffset function (dbgmodel.h)
+
+
 
 
 ## -description

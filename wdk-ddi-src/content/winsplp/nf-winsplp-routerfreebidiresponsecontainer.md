@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterFreeBidiResponseContainer function"]
 ms.keywords: RouterFreeBidiResponseContainer, RouterFreeBidiResponseContainer function [Print Devices], print.routerfreebidiresponsecontainer, spoolfnc_065c8a3a-5790-45f5-bf79-3af94fdd0571.xml, winsplp/RouterFreeBidiResponseContainer
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: This function is available in Windows XP and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - RouterFreeBidiResponseContainer
 ---
 
-# RouterFreeBidiResponseContainer function
+# RouterFreeBidiResponseContainer function (winsplp.h)
+
+
 
 
 ## -description

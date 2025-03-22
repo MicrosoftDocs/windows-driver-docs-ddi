@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueStopAndPurge function"]
 ms.keywords: WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method, kmdf.wdfioqueuestopandpurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueStopAndPurge
 ---
 
-# WdfIoQueueStopAndPurge function
+# WdfIoQueueStopAndPurge function (wdfio.h)
+
+
 
 
 ## -description

@@ -9,6 +9,7 @@ ms.date: 10/09/2020
 keywords: ["NetOffloadIsLsoIPv4Enabled function"]
 ms.keywords: NetOffloadIsLsoIPv4Enabled
 req.header: netadapteroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type:
 req.target-min-winverclnt:
@@ -39,7 +40,9 @@ api_name:
  - NetOffloadIsLsoIPv4Enabled
 ---
 
-# NetOffloadIsLsoIPv4Enabled function
+# NetOffloadIsLsoIPv4Enabled function (netadapteroffload.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlDecompressFragmentEx function"]
 ms.keywords: RtlDecompressFragmentEx, RtlDecompressFragmentEx routine [Installable File System Drivers], ifsk.rtldecompressfragmentex, ntifs/RtlDecompressFragmentEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - RtlDecompressFragmentEx
 ---
 
-# RtlDecompressFragmentEx function
+# RtlDecompressFragmentEx function (ntifs.h)
+
+
 
 ## -description
 

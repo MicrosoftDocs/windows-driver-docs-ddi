@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMRealizeBrush function"]
 ms.keywords: OEMRealizeBrush, OEMRealizeBrush function [Print Devices], print.oemrealizebrush, print_unidrv-pscript_rendering_ab4f8635-9dda-4f08-b4f9-d70681ec532e.xml, printoem/OEMRealizeBrush
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMRealizeBrush
 ---
+
+# OEMRealizeBrush function (printoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlAllocateAndInitializeSid function"]
 ms.keywords: RtlAllocateAndInitializeSid, RtlAllocateAndInitializeSid function [Installable File System Drivers], ifsk.rtlallocateandinitializesid, ntifs/RtlAllocateAndInitializeSid, rtlref_74879713-f57f-4d67-a779-995c150bc7ea.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlAllocateAndInitializeSid
 ---
 
-# RtlAllocateAndInitializeSid function
+# RtlAllocateAndInitializeSid function (ntifs.h)
+
+
 
 ## -description
 

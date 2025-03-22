@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInt8ToUInt8 function"]
 ms.keywords: RtlInt8ToUInt8, RtlInt8ToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlint8touint8, ntintsafe/RtlInt8ToUInt8
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInt8ToUInt8
 ---
 
-# RtlInt8ToUInt8 function
+# RtlInt8ToUInt8 function (ntintsafe.h)
+
+
 
 
 ## -description

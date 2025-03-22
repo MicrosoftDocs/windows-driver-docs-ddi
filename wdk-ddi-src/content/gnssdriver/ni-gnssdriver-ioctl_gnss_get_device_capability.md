@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_GET_DEVICE_CAPABILITY IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_DEVICE_CAPABILITY, IOCTL_GNSS_GET_DEVICE_CAPABILITY control, IOCTL_GNSS_GET_DEVICE_CAPABILITY control code [Sensor Devices], gnss.ioctl_gnss_get_device_capability, gnssdriver/IOCTL_GNSS_GET_DEVICE_CAPABILITY
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_GET_DEVICE_CAPABILITY
 ---
 
-# IOCTL_GNSS_GET_DEVICE_CAPABILITY IOCTL
+# IOCTL_GNSS_GET_DEVICE_CAPABILITY IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

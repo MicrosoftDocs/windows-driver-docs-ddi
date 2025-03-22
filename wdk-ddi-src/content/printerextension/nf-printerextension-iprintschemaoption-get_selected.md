@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaOption::get_Selected"]
 ms.keywords: IPrintSchemaOption interface [Print Devices],Selected property, IPrintSchemaOption.Selected, IPrintSchemaOption.get_Selected, IPrintSchemaOption::Selected, IPrintSchemaOption::get_Selected, Selected property [Print Devices], Selected property [Print Devices],IPrintSchemaOption interface, get_Selected, print.iprintschemaoption_selected, printerextension/IPrintSchemaOption::Selected, printerextension/IPrintSchemaOption::get_Selected
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaOption::get_Selected
 ---
+
+# IPrintSchemaOption::get_Selected function (printerextension.h)
 
 ## -description
 

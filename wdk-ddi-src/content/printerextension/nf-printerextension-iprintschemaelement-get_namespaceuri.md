@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaElement::get_NamespaceUri"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],NamespaceUri property, IPrintSchemaElement.NamespaceUri, IPrintSchemaElement.get_NamespaceUri, IPrintSchemaElement::NamespaceUri, IPrintSchemaElement::get_NamespaceUri, NamespaceUri property [Print Devices], NamespaceUri property [Print Devices],IPrintSchemaElement interface, get_NamespaceUri, print.iprintschemaelement_namespaceuri, printerextension/IPrintSchemaElement::NamespaceUri, printerextension/IPrintSchemaElement::get_NamespaceUri
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaElement::get_NamespaceUri
 ---
+
+# IPrintSchemaElement::get_NamespaceUri function (printerextension.h)
 
 ## -description
 

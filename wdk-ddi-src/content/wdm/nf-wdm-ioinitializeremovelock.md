@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoInitializeRemoveLock macro"]
 ms.keywords: IoInitializeRemoveLock, IoInitializeRemoveLock routine [Kernel-Mode Driver Architecture], k104_b9b844b1-4bb4-4a52-8274-c5a3441f6267.xml, kernel.ioinitializeremovelock, wdm/IoInitializeRemoveLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - IoInitializeRemoveLock
 ---
 
-# IoInitializeRemoveLock macro
+# IoInitializeRemoveLock macro (wdm.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaTicket::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Print Devices], GetCapabilities method [Print Devices],IPrintSchemaTicket interface, IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],GetCapabilities method, IPrintSchemaTicket.GetCapabilities, IPrintSchemaTicket::GetCapabilities, print.iprintschematicket_getcapabilities, printerextension/IPrintSchemaTicket::GetCapabilities
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaTicket::GetCapabilities
 ---
+
+# IPrintSchemaTicket::GetCapabilities function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiEndDocEMF function"]
 ms.keywords: GdiEndDocEMF, GdiEndDocEMF function [Print Devices], gdifnc_632b9c31-c0c1-4447-8a0c-ac8fb6b5af55.xml, print.gdienddocemf, winppi/GdiEndDocEMF
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiEndDocEMF
 ---
 
-# GdiEndDocEMF function
+# GdiEndDocEMF function (winppi.h)
+
+
 
 
 ## -description

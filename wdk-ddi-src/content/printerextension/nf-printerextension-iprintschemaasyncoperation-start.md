@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaAsyncOperation::Start"]
 ms.keywords: IPrintSchemaAsyncOperation interface [Print Devices],Start method, IPrintSchemaAsyncOperation.Start, IPrintSchemaAsyncOperation::Start, Start, Start method [Print Devices], Start method [Print Devices],IPrintSchemaAsyncOperation interface, print.iprintschemaasyncoperation_start, printerextension/IPrintSchemaAsyncOperation::Start
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaAsyncOperation::Start
 ---
+
+# IPrintSchemaAsyncOperation::Start function (printerextension.h)
 
 ## -description
 

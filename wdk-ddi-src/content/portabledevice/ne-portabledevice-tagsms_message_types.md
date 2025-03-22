@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagSMS_MESSAGE_TYPES enumeration"]
 ms.keywords: SMS_BINARY_MESSAGE, SMS_MESSAGE_TYPES, SMS_MESSAGE_TYPES enumeration, SMS_TEXT_MESSAGE, enumeration, portabledevice/SMS_BINARY_MESSAGE, portabledevice/SMS_MESSAGE_TYPES, portabledevice/SMS_TEXT_MESSAGE, tagSMS_MESSAGE_TYPES, wpddk.sms_message_types
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - SMS_MESSAGE_TYPES
 ---
 
-# tagSMS_MESSAGE_TYPES enumeration
+# tagSMS_MESSAGE_TYPES enumeration (portabledevice.h)
+
+
 
 
 ## -description

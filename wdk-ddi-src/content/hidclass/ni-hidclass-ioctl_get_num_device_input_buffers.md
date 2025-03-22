@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL"]
 ms.keywords: IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control, IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS control code [Human Input Devices], hid.ioctl_get_num_device_input_buffers, hidclass/IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS, hidioreq_4d76e323-5cc1-40d2-aa56-ca5427f15e6f.xml
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS
 ---
 
-# IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL
+# IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

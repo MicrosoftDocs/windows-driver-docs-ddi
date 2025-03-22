@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeDeleteObjectAuditAlarm function"]
 ms.keywords: SeDeleteObjectAuditAlarm, SeDeleteObjectAuditAlarm routine [Installable File System Drivers], ifsk.sedeleteobjectauditalarm, ntifs/SeDeleteObjectAuditAlarm, seref_eb1715b3-9c8b-4848-8cc8-3809d0d35d9e.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeDeleteObjectAuditAlarm
 ---
 
-# SeDeleteObjectAuditAlarm function
+# SeDeleteObjectAuditAlarm function (ntifs.h)
+
+
 
 
 ## -description

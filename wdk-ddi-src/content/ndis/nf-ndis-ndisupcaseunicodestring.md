@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisUpcaseUnicodeString macro"]
 ms.keywords: NdisUpcaseUnicodeString, NdisUpcaseUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisUpcaseUnicodeString, ndis_string_ref_79578398-7b4c-4741-a39b-5e5e30b2f4b3.xml, netvista.ndisupcaseunicodestring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlUpcaseUnicodeString instead.
@@ -41,7 +42,11 @@ api_name:
  - NdisUpcaseUnicodeString
 ---
 
-# NdisUpcaseUnicodeString macro
+# NdisUpcaseUnicodeString macro (ndis.h)
+
+
+
+
 
 
 ## -description

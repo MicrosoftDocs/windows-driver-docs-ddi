@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoSetCancelRoutine function"]
 ms.keywords: IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, kernel.iosetcancelroutine, wdm/IoSetCancelRoutine
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoSetCancelRoutine
 ---
+
+# IoSetCancelRoutine function (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control, IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES, storage.ioctl_ehstor_driver_report_capabilities
 req.header: ehstorioctl.h
+req.construct-type: ioctl
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES
 ---
 
-# IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES IOCTL
+# IOCTL_EHSTOR_DRIVER_REPORT_CAPABILITIES IOCTL (ehstorioctl.h)
+
+
+
+
 
 
 ## -description

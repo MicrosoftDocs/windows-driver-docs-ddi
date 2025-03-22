@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_COINSTALLER_INSTALL_OPTIONS_INIT function"]
 ms.keywords: DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, WDF_COINSTALLER_INSTALL_OPTIONS_INIT, WDF_COINSTALLER_INSTALL_OPTIONS_INIT function, kmdf.wdf_coinstaller_install_options_init, wdf.wdf_coinstaller_install_options_init, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 req.header: wdfinstaller.h
+req.construct-type: function
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_COINSTALLER_INSTALL_OPTIONS_INIT
 ---
 
-# WDF_COINSTALLER_INSTALL_OPTIONS_INIT function
+# WDF_COINSTALLER_INSTALL_OPTIONS_INIT function (wdfinstaller.h)
+
+
 
 
 ## -description

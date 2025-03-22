@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_SEND_CERTIFICATE IOCTL"]
 ms.keywords: IOCTL_AACS_SEND_CERTIFICATE, IOCTL_AACS_SEND_CERTIFICATE control, IOCTL_AACS_SEND_CERTIFICATE control code [Storage Devices], k307_c275c772-8b16-4397-ba4d-3ff3ebc5eb40.xml, ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE, storage.ioctl_aacs_send_certificate
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_SEND_CERTIFICATE
 ---
 
-# IOCTL_AACS_SEND_CERTIFICATE IOCTL
+# IOCTL_AACS_SEND_CERTIFICATE IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

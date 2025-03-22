@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxChangeBufferingState function"]
 ms.keywords: RxChangeBufferingState, RxChangeBufferingState function [Installable File System Drivers], ifsk.rxchangebufferingstate, rxprocs/RxChangeBufferingState, rxref_be2316b0-d89d-4f61-bd09-05d631d1cfdd.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxChangeBufferingState
 ---
 
-# RxChangeBufferingState function
+# RxChangeBufferingState function (rxprocs.h)
+
+
 
 
 ## -description

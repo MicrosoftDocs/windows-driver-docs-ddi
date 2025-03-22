@@ -7,6 +7,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY macro"]
 ms.keywords: NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY
 req.header: ntddndis.h
+req.construct-type: function
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -38,7 +39,11 @@ api_name:
  - NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY
 ---
 
-# NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY macro
+# NDIS_SWITCH_PORT_PROPERTY_PARAMETERS_GET_PROPERTY macro (ntddndis.h)
+
+
+
+
 
 
 ## -description

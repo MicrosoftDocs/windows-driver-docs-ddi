@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcMapData function"]
 ms.keywords: CcMapData, CcMapData routine [Installable File System Drivers], ccref_1eb788ce-2fb2-40b4-b696-14609a0c8556.xml, ifsk.ccmapdata, ntifs/CcMapData
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcMapData
 ---
 
-# CcMapData function
+# CcMapData function (ntifs.h)
+
+
 
 
 ## -description

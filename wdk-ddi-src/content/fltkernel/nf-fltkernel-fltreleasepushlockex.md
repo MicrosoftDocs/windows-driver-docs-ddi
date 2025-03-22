@@ -7,6 +7,7 @@ tech.root: ifsk
 keywords: ["FltReleasePushLockEx function"]
 ms.keywords: FltReleasePushLockEx
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# FltReleasePushLockEx function
+# FltReleasePushLockEx function (fltkernel.h)
+
+
 
 ## -description
 

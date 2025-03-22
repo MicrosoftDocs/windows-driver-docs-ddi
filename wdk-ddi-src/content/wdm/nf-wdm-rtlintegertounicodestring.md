@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlIntegerToUnicodeString function"]
 ms.keywords: RtlIntegerToUnicodeString, RtlIntegerToUnicodeString routine [Kernel-Mode Driver Architecture], k109_2ed50455-f426-4072-be25-cab15c4c79cc.xml, kernel.rtlintegertounicodestring, wdm/RtlIntegerToUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlIntegerToUnicodeString
 ---
 
-# RtlIntegerToUnicodeString function
+# RtlIntegerToUnicodeString function (wdm.h)
+
+
 
 
 ## -description

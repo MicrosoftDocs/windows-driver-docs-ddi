@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["MBB_DEVICE_MBIM_PARAMETERS_INIT function"]
 ms.keywords: MBB_DEVICE_MBIM_PARAMETERS_INIT
 req.header: mbbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - MBB_DEVICE_MBIM_PARAMETERS_INIT
 ---
 
-# MBB_DEVICE_MBIM_PARAMETERS_INIT function
+# MBB_DEVICE_MBIM_PARAMETERS_INIT function (mbbcx.h)
+
+
 
 
 ## -description

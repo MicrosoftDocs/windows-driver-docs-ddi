@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["RtlFindClearBits function"]
 ms.keywords: RtlFindClearBits, RtlFindClearBits routine [Kernel-Mode Driver Architecture], k109_bf520772-12d8-403e-8b57-31a24e9a27b6.xml, kernel.rtlfindclearbits, wdm/RtlFindClearBits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlFindClearBits
 ---
+
+# RtlFindClearBits function (wdm.h)
 
 ## -description
 

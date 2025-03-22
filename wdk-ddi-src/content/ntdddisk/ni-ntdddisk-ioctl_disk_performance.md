@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_PERFORMANCE IOCTL"]
 ms.keywords: IOCTL_DISK_PERFORMANCE, IOCTL_DISK_PERFORMANCE control, IOCTL_DISK_PERFORMANCE control code [Storage Devices], k307_f7ebe3b4-ed77-4c99-af07-c6639b5fd3be.xml, ntdddisk/IOCTL_DISK_PERFORMANCE, storage.ioctl_disk_performance
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_PERFORMANCE
 ---
 
-# IOCTL_DISK_PERFORMANCE IOCTL
+# IOCTL_DISK_PERFORMANCE IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcPinRead function"]
 ms.keywords: CcPinRead, CcPinRead routine [Installable File System Drivers], ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ifsk.ccpinread, ntifs/CcPinRead
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcPinRead
 ---
 
-# CcPinRead function
+# CcPinRead function (ntifs.h)
+
+
 
 
 ## -description

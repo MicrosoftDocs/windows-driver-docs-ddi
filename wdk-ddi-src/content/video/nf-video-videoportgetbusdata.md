@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetBusData function"]
 ms.keywords: VideoPortGetBusData, VideoPortGetBusData function [Display Devices], VideoPort_Functions_98b5cc14-84db-4611-a651-652eb434cae6.xml, display.videoportgetbusdata, video/VideoPortGetBusData
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetBusData
 ---
 
-# VideoPortGetBusData function
+# VideoPortGetBusData function (video.h)
+
+
 
 
 ## -description

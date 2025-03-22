@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["NtOpenThreadTokenEx function"]
 ms.keywords: NtOpenThreadTokenEx, ZwOpenThreadTokenEx, ZwOpenThreadTokenEx routine [Kernel-Mode Driver Architecture], k111_657ad702-595c-4422-99be-ca8ecc428bbe.xml, kernel.zwopenthreadtokenex, ntifs/NtOpenThreadTokenEx, ntifs/ZwOpenThreadTokenEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - NtOpenThreadTokenEx
 ---
 
-# NtOpenThreadTokenEx function
+# NtOpenThreadTokenEx function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetVgaStatus function"]
 ms.keywords: VideoPortGetVgaStatus, VideoPortGetVgaStatus function [Display Devices], VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, display.videoportgetvgastatus, video/VideoPortGetVgaStatus
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetVgaStatus
 ---
 
-# VideoPortGetVgaStatus function
+# VideoPortGetVgaStatus function (video.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxNameCacheInitialize function"]
 ms.keywords: RxNameCacheInitialize, RxNameCacheInitialize function [Installable File System Drivers], ifsk.rxnamecacheinitialize, namcache/RxNameCacheInitialize, rxref_1a97be61-3797-49f0-ad90-e426e43505c1.xml
 req.header: namcache.h
+req.construct-type: function
 req.include-header: Namcache.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxNameCacheInitialize
 ---
 
-# RxNameCacheInitialize function
+# RxNameCacheInitialize function (namcache.h)
+
+
 
 
 ## -description

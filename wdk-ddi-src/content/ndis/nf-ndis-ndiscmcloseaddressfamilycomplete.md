@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmCloseAddressFamilyComplete function"]
 ms.keywords: NdisCmCloseAddressFamilyComplete, NdisCmCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_e8f3c7fa-1a6a-4cf4-9c3c-78f036c2e912.xml, ndis/NdisCmCloseAddressFamilyComplete, netvista.ndiscmcloseaddressfamilycomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisCmCloseAddressFamilyComplete (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisCmCloseAddressFamilyComplete (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmCloseAddressFamilyComplete
 ---
 
-# NdisCmCloseAddressFamilyComplete function
+# NdisCmCloseAddressFamilyComplete function (ndis.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDisableDriver function"]
 ms.keywords: OEMDisableDriver, OEMDisableDriver function [Print Devices], print.oemdisabledriver, print_obsoletefunctions_b9594259-f9e5-43bf-b2dd-18ace2ddc25c.xml, printoem/OEMDisableDriver
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDisableDriver
 ---
+
+# OEMDisableDriver function (printoem.h)
 
 ## -description
 

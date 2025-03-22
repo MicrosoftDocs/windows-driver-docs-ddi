@@ -7,6 +7,7 @@ keywords: ["InitPropVariantFromFloat function"]
 tech.root: sensors
 ms.keywords: InitPropVariantFromFloat
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - InitPropVariantFromFloat
 ---
 
-# InitPropVariantFromFloat function
+# InitPropVariantFromFloat function (sensorsutils.h)
+
+
 
 
 ## -description

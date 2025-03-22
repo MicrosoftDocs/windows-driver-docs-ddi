@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["WWAN_NETWORK_BLACKLIST_STATE enumeration"]
 ms.keywords: _WWAN_NETWORK_BLACKLIST_STATE, WWAN_NETWORK_BLACKLIST_STATE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -34,7 +35,9 @@ api_name:
  - WWAN_NETWORK_BLACKLIST_STATE
 ---
 
-# _WWAN_NETWORK_BLACKLIST_STATE enumeration
+# WWAN_NETWORK_BLACKLIST_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

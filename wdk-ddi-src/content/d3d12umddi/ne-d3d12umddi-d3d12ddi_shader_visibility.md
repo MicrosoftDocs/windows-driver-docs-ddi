@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 05/24/2022
 ms.keywords: D3D12DDI_SHADER_VISIBILITY, D3D12DDI_SHADER_VISIBILITY,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -29,7 +30,9 @@ f1_keywords:
  - d3d12umddi/D3D12DDI_SHADER_VISIBILITY
 ---
 
-# D3D12DDI_SHADER_VISIBILITY enumeration
+# D3D12DDI_SHADER_VISIBILITY enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

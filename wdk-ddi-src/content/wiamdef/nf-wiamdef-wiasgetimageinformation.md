@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetImageInformation function"]
 ms.keywords: image.wiasgetimageinformation, wiamdef/wiasGetImageInformation, wiasFncs_6603ae74-b0b9-48f4-9fa9-83cdf3edc1d6.xml, wiasGetImageInformation, wiasGetImageInformation function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetImageInformation
 ---
 
-# wiasGetImageInformation function
+# wiasGetImageInformation function (wiamdef.h)
+
+
 
 
 ## -description

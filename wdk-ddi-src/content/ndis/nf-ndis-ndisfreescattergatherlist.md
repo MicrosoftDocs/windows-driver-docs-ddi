@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeScatterGatherList function"]
 ms.keywords: NdisFreeScatterGatherList, NdisFreeScatterGatherList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeScatterGatherList, ndis_shared_memory_ref_2376e740-d44c-4572-8731-7518d4765208.xml, netvista.ndisfreescattergatherlist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeScatterGatherList
 ---
 
-# NdisFreeScatterGatherList function
+# NdisFreeScatterGatherList function (ndis.h)
+
+
 
 
 ## -description

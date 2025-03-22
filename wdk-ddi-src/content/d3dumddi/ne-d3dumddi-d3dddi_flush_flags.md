@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_FLUSH_FLAGS enumeration"]
 ms.keywords: D3DDDI_FLUSH_FLAGS, D3DDDI_FLUSH_FLAGS enumeration [Display Devices], D3DDDI_TRIM_MEMORY, d3dumddi/D3DDDI_FLUSH_FLAGS, d3dumddi/D3DDDI_TRIM_MEMORY, display.d3dddi_flush_flags
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_FLUSH_FLAGS
 ---
 
-# D3DDDI_FLUSH_FLAGS enumeration
+# D3DDDI_FLUSH_FLAGS enumeration (d3dumddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaPropertyNodeDescriptors function"]
 ms.keywords: BdaPropertyNodeDescriptors, BdaPropertyNodeDescriptors function [Streaming Media Devices], bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, bdasup/BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaPropertyNodeDescriptors
 ---
+
+# BdaPropertyNodeDescriptors function (bdasup.h)
 
 ## -description
 

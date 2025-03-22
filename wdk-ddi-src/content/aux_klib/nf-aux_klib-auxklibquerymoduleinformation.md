@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AuxKlibQueryModuleInformation function"]
 ms.keywords: AuxKlibQueryModuleInformation, AuxKlibQueryModuleInformation routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibQueryModuleInformation, aux_klib_555c5806-0b0d-48c1-9c50-b0496fb4e807.xml, kernel.auxklibquerymoduleinformation
 req.header: aux_klib.h
+req.construct-type: function
 req.include-header: Aux_klib.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - AuxKlibQueryModuleInformation
 ---
 
-# AuxKlibQueryModuleInformation function
+# AuxKlibQueryModuleInformation function (aux_klib.h)
+
+
 
 
 ## -description

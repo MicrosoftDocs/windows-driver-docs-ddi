@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO, IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO control, IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO control code [Buses], buses.ioctl_internal_usb_get_roothub_pdo, usbioctl/IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO, usbirp_66fee324-5309-4242-ad55-b0ed76dbf68e.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO
 ---
 
-# IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO IOCTL
+# IOCTL_INTERNAL_USB_GET_ROOTHUB_PDO IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

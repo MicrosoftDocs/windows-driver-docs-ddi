@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceQueryPropertyEx function"]
 ms.keywords: WdfDeviceQueryPropertyEx, WdfDeviceQueryPropertyEx method, wdf.wdfdevicequerypropertyex, wdfdevice/WdfDeviceQueryPropertyEx
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceQueryPropertyEx
 ---
 
-# WdfDeviceQueryPropertyEx function
+# WdfDeviceQueryPropertyEx function (wdfdevice.h)
+
+
 
 
 ## -description

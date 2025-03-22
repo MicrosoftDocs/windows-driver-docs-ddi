@@ -7,6 +7,7 @@ ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration"]
 ms.keywords: CreatePrintAsyncNotifyRegistration, CreatePrintAsyncNotifyRegistration method [Print Devices], CreatePrintAsyncNotifyRegistration method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyRegistration method, IPrintAsyncNotify.CreatePrintAsyncNotifyRegistration, IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration, print.iprintasyncnotify_createprintasyncnotifyregistration, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration
 ---
+
+# IPrintAsyncNotify::CreatePrintAsyncNotifyRegistration function (prnasntp.h)
 
 ## -description
 

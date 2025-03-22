@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetWdmGetTargetFileHandle function"]
 ms.keywords: DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method, kmdf.wdfiotargetwdmgettargetfilehandle, wdf.wdfiotargetwdmgettargetfilehandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoTargetWdmGetTargetFileHandle
 ---
 
-# WdfIoTargetWdmGetTargetFileHandle function
+# WdfIoTargetWdmGetTargetFileHandle function (wdfiotarget.h)
+
+
 
 
 ## -description

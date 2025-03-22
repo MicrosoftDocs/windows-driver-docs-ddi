@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_CHARGING_STATE enumeration"]
 ms.keywords: "*PUCM_CHARGING_STATE, UCM_CHARGING_STATE, UCM_CHARGING_STATE enumeration [Buses], UcmChargingStateInvalid, UcmChargingStateNominalCharging, UcmChargingStateNotCharging, UcmChargingStateSlowCharging, UcmChargingStateTrickleCharging, _UCM_CHARGING_STATE, buses.ucm_charging_state, ucmtypes/ UcmChargingStateTrickleCharging, ucmtypes/UCM_CHARGING_STATE, ucmtypes/UcmChargingStateInvalid, ucmtypes/UcmChargingStateNominalCharging, ucmtypes/UcmChargingStateNotCharging, ucmtypes/UcmChargingStateSlowCharging"
 req.header: ucmtypes.h
+req.construct-type: enumeration
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - UCM_CHARGING_STATE
 ---
 
-# _UCM_CHARGING_STATE enumeration
+# UCM_CHARGING_STATE enumeration (ucmtypes.h)
+
+
 
 
 ## -description

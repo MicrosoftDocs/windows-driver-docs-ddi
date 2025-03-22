@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlFindInTunnelCache function"]
 ms.keywords: FsRtlFindInTunnelCache, FsRtlFindInTunnelCache routine [Installable File System Drivers], fsrtlref_ae11e9b8-bc4f-4c56-84a7-8e328e215415.xml, ifsk.fsrtlfindintunnelcache, ntifs/FsRtlFindInTunnelCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlFindInTunnelCache function
+# FsRtlFindInTunnelCache function (ntifs.h)
+
+
 
 ## -description
 

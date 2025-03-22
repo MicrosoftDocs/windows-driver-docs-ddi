@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMGradientFill function"]
 ms.keywords: OEMGradientFill, OEMGradientFill function [Print Devices], print.oemgradientfill, print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, printoem/OEMGradientFill
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMGradientFill
 ---
+
+# OEMGradientFill function (printoem.h)
 
 ## -description
 

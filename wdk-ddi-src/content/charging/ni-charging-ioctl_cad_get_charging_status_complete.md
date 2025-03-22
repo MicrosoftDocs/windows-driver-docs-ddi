@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE IOCTL"]
 ms.keywords: IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control, IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE control code [Battery Devices], battery.ioctl_cad_get_charging_status_complete, charging/IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 req.header: charging.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE
 ---
 
-# IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE IOCTL
+# IOCTL_CAD_GET_CHARGING_STATUS_COMPLETE IOCTL (charging.h)
+
+
+
+
 
 ## -description
 

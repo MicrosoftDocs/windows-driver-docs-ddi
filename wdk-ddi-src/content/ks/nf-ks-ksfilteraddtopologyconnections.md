@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterAddTopologyConnections function"]
 ms.keywords: KsFilterAddTopologyConnections, KsFilterAddTopologyConnections function [Streaming Media Devices], avfunc_99b8984f-5ca2-460b-ab20-230fd09b6d13.xml, ks/KsFilterAddTopologyConnections, stream.ksfilteraddtopologyconnections
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterAddTopologyConnections
 ---
 
-# KsFilterAddTopologyConnections function
+# KsFilterAddTopologyConnections function (ks.h)
+
+
 
 
 ## -description

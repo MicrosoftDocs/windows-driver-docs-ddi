@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaAsyncOperation::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrintSchemaAsyncOperation interface, IPrintSchemaAsyncOperation interface [Print Devices],Cancel method, IPrintSchemaAsyncOperation.Cancel, IPrintSchemaAsyncOperation::Cancel, print.iprintschemaasyncoperation_cancel, printerextension/IPrintSchemaAsyncOperation::Cancel
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaAsyncOperation::Cancel
 ---
+
+# IPrintSchemaAsyncOperation::Cancel function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFileObjectGetFlags function"]
 ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, WdfFileObjectGetFlags, WdfFileObjectGetFlags method, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags, wdffileobject/WdfFileObjectGetFlags
 req.header: wdffileobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfFileObjectGetFlags
 ---
 
-# WdfFileObjectGetFlags function
+# WdfFileObjectGetFlags function (wdffileobject.h)
+
+
 
 
 ## -description

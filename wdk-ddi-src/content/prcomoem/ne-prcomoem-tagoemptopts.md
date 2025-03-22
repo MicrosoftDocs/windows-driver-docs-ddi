@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["tagOEMPTOPTS enumeration"]
 ms.keywords: "*POEMPTOPTS, OEMPTOPTS, OEMPTOPTS enumeration [Print Devices], OEMPT_DEFAULT, OEMPT_NOSHAPSHOT, POEMPTOPTS, POEMPTOPTS enumeration pointer [Print Devices], prcomoem/OEMPTOPTS, prcomoem/OEMPT_DEFAULT, prcomoem/OEMPT_NOSHAPSHOT, prcomoem/POEMPTOPTS, print.oemptopts, tagOEMPTOPTS"
 req.header: prcomoem.h
+req.construct-type: enumeration
 req.include-header: Prcomoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,8 @@ api_name:
  - POEMPTOPTS
  - OEMPTOPTS
 ---
+
+# tagOEMPTOPTS enumeration (prcomoem.h)
 
 ## -description
 

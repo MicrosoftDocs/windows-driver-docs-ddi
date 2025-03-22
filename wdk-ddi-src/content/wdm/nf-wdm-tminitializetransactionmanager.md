@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmInitializeTransactionManager function"]
 ms.keywords: TmInitializeTransactionManager, TmInitializeTransactionManager , TmInitializeTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tminitializetransactionmanager_, wdm/TmInitializeTransactionManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -42,7 +43,9 @@ api_name:
  - TmInitializeTransactionManager
 ---
 
-# TmInitializeTransactionManager function
+# TmInitializeTransactionManager function (wdm.h)
+
+
 
 
 ## -description

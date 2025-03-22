@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["KSPROPERTY_RTAUDIO enumeration"]
 ms.keywords: KSPROPERTY_RTAUDIO, KSPROPERTY_RTAUDIO,
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - KSPROPERTY_RTAUDIO
 ---
 
-# KSPROPERTY_RTAUDIO enumeration
+# KSPROPERTY_RTAUDIO enumeration (ksmedia.h)
+
+
 
 
 ## -description

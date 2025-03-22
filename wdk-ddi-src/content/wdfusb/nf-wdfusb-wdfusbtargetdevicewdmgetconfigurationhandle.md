@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceWdmGetConfigurationHandle function"]
 ms.keywords: DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, WdfUsbTargetDeviceWdmGetConfigurationHandle, WdfUsbTargetDeviceWdmGetConfigurationHandle method, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetDeviceWdmGetConfigurationHandle
 ---
 
-# WdfUsbTargetDeviceWdmGetConfigurationHandle function
+# WdfUsbTargetDeviceWdmGetConfigurationHandle function (wdfusb.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/25/2022
 keywords: ["DXGK_PATH_UPDATE enumeration"]
 ms.keywords: DXGK_PATH_UPDATE, DXGK_PATH_UPDATE enumeration [Display Devices], DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, DXGK_PATH_UPDATE_UNMODIFED, _DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_ADDED, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, display.dxgk_path_update
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PATH_UPDATE
 ---
 
-# DXGK_PATH_UPDATE enumeration
+# DXGK_PATH_UPDATE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

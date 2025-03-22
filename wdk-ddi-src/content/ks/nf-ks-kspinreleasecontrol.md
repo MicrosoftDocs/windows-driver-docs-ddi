@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinReleaseControl function"]
 ms.keywords: KsPinReleaseControl, KsPinReleaseControl function [Streaming Media Devices], avfunc_24f35b7d-4ecc-4a64-8b78-9972ba7bab5c.xml, ks/KsPinReleaseControl, stream.kspinreleasecontrol
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsPinReleaseControl
 ---
 
-# KsPinReleaseControl function
+# KsPinReleaseControl function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUIntAdd function"]
 ms.keywords: RtlUIntAdd, RtlUIntAdd function [Kernel-Mode Driver Architecture], kernel.rtluintadd, ntintsafe/RtlUIntAdd
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUIntAdd
 ---
 
-# RtlUIntAdd function
+# RtlUIntAdd function (ntintsafe.h)
+
+
 
 
 ## -description

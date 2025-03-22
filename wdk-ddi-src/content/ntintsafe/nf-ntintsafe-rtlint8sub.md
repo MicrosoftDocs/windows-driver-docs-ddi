@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInt8Sub function"]
 ms.keywords: RtlInt8Sub, RtlInt8Sub function [Kernel-Mode Driver Architecture], kernel.rtlint8sub, ntintsafe/RtlInt8Sub
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInt8Sub
 ---
 
-# RtlInt8Sub function
+# RtlInt8Sub function (ntintsafe.h)
+
+
 
 
 ## -description

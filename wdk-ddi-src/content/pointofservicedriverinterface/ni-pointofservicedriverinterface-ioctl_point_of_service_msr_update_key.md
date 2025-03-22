@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, pos.ioctl_point_of_service_msr_update_key
 req.header: pointofservicedriverinterface.h
+req.construct-type: ioctl
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
 ---
 
-# IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY IOCTL
+# IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY IOCTL (pointofservicedriverinterface.h)
+
+
+
+
 
 
 ## -description

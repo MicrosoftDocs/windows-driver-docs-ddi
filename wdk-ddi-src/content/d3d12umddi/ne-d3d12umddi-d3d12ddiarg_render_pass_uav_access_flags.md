@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS enumeration"]
 ms.keywords: D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS, D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS enumeration
+# D3D12DDIARG_RENDER_PASS_UAV_ACCESS_FLAGS enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

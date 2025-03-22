@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMUpgradePrinter function"]
 ms.keywords: OEMUpgradePrinter, OEMUpgradePrinter function [Print Devices], print.oemupgradeprinter, print_obsoletefunctions_188db86f-1544-410e-ae88-c15c0e26cc3c.xml, printoem/OEMUpgradePrinter
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMUpgradePrinter
 ---
+
+# OEMUpgradePrinter function (printoem.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetSingleTransferRequirement function"]
 ms.keywords: WdfDmaTransactionSetSingleTransferRequirement, WdfDmaTransactionSetSingleTransferRequirement method, wdf.wdfdmatransactionsetsingletransferrequirement, wdfdmatransaction/WdfDmaTransactionSetSingleTransferRequirement
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionSetSingleTransferRequirement
 ---
 
-# WdfDmaTransactionSetSingleTransferRequirement function
+# WdfDmaTransactionSetSingleTransferRequirement function (wdfdmatransaction.h)
+
+
 
 
 ## -description

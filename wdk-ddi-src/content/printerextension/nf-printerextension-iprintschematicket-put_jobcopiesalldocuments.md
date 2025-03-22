@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaTicket::put_JobCopiesAllDocuments"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],JobCopiesAllDocuments property, IPrintSchemaTicket.JobCopiesAllDocuments, IPrintSchemaTicket.put_JobCopiesAllDocuments, IPrintSchemaTicket::JobCopiesAllDocuments, IPrintSchemaTicket::put_JobCopiesAllDocuments, JobCopiesAllDocuments property [Print Devices], JobCopiesAllDocuments property [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_put_jobcopiesalldocuments, printerextension/IPrintSchemaTicket::JobCopiesAllDocuments, printerextension/IPrintSchemaTicket::put_JobCopiesAllDocuments, put_JobCopiesAllDocuments
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaTicket::put_JobCopiesAllDocuments
 ---
+
+# IPrintSchemaTicket::put_JobCopiesAllDocuments function (printerextension.h)
 
 ## -description
 

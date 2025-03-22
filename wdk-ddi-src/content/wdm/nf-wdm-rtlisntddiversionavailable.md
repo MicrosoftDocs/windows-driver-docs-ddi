@@ -8,6 +8,7 @@ ms.date: 01/16/2024
 keywords: ["RtlIsNtDdiVersionAvailable function"]
 ms.keywords: RtlIsNtDdiVersionAvailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, kernel.rtlisntddiversionavailable, wdm/RtlIsNtDdiVersionAvailable
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista. A compatibility library supports this routine in earlier versions of Windows (see Remarks section).
@@ -41,7 +42,9 @@ api_name:
  - RtlIsNtDdiVersionAvailable
 ---
 
-# RtlIsNtDdiVersionAvailable function
+# RtlIsNtDdiVersionAvailable function (wdm.h)
+
+
 
 
 ## -description

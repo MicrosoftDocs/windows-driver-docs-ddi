@@ -8,6 +8,7 @@ ms.date: 12/01/2021
 keywords: ["FltQueryDirectoryFile function"]
 ms.keywords: FltQueryDirectoryFile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, ifsk.fltquerydirectoryfile, FltQueryDirectoryFileEx
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FltQueryDirectoryFile
 ---
 
-# FltQueryDirectoryFile function
+# FltQueryDirectoryFile function (fltkernel.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerClassAllocatePool function"]
 ms.keywords: ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, storage.changerclassallocatepool
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ChangerClassAllocatePool
 ---
 
-# ChangerClassAllocatePool function
+# ChangerClassAllocatePool function (mcd.h)
+
+
 
 
 ## -description

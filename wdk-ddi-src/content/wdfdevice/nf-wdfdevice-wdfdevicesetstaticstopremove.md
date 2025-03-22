@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceSetStaticStopRemove function"]
 ms.keywords: DFDeviceObjectGeneralRef_9874b784-6344-4336-9753-0b172563f981.xml, WdfDeviceSetStaticStopRemove, WdfDeviceSetStaticStopRemove method, kmdf.wdfdevicesetstaticstopremove, wdf.wdfdevicesetstaticstopremove, wdfdevice/WdfDeviceSetStaticStopRemove
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceSetStaticStopRemove
 ---
 
-# WdfDeviceSetStaticStopRemove function
+# WdfDeviceSetStaticStopRemove function (wdfdevice.h)
+
+
 
 
 ## -description

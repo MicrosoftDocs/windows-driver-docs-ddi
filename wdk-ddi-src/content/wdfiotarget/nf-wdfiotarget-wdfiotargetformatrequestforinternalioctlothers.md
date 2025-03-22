@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetFormatRequestForInternalIoctlOthers function"]
 ms.keywords: DFIOTargetRef_bf839577-4858-4b98-adf3-cee7e8f01bd5.xml, WdfIoTargetFormatRequestForInternalIoctlOthers, WdfIoTargetFormatRequestForInternalIoctlOthers method, kmdf.wdfiotargetformatrequestforinternalioctlothers, wdf.wdfiotargetformatrequestforinternalioctlothers, wdfiotarget/WdfIoTargetFormatRequestForInternalIoctlOthers
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoTargetFormatRequestForInternalIoctlOthers
 ---
 
-# WdfIoTargetFormatRequestForInternalIoctlOthers function
+# WdfIoTargetFormatRequestForInternalIoctlOthers function (wdfiotarget.h)
+
+
 
 
 ## -description

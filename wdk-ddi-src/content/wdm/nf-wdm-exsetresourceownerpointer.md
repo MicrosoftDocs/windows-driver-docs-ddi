@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExSetResourceOwnerPointer function"]
 ms.keywords: ExSetResourceOwnerPointer, ExSetResourceOwnerPointer routine [Kernel-Mode Driver Architecture], k102_1f5ed4f7-4252-4f50-9c40-06d6204d8b57.xml, kernel.exsetresourceownerpointer, wdm/ExSetResourceOwnerPointer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExSetResourceOwnerPointer
 ---
 
-# ExSetResourceOwnerPointer function
+# ExSetResourceOwnerPointer function (wdm.h)
+
+
 
 
 ## -description

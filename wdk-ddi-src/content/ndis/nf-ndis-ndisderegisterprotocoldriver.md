@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisDeregisterProtocolDriver function"]
 ms.keywords: NdisDeregisterProtocolDriver, NdisDeregisterProtocolDriver function [Network Drivers Starting with Windows Vista], ndis/NdisDeregisterProtocolDriver, netvista.ndisderegisterprotocoldriver, protocol_ndis_functions_ref_98dc25bb-4e04-42bb-a8b3-a997dcb77ac3.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisDeregisterProtocolDriver
 ---
 
-# NdisDeregisterProtocolDriver function
+# NdisDeregisterProtocolDriver function (ndis.h)
+
+
 
 
 ## -description

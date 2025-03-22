@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCreateSymbolicLink function"]
 ms.keywords: IoCreateSymbolicLink, IoCreateSymbolicLink routine [Kernel-Mode Driver Architecture], k104_8311eaf7-a12f-470d-b81f-83a12697ddbe.xml, kernel.iocreatesymboliclink, wdm/IoCreateSymbolicLink
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoCreateSymbolicLink
 ---
 
-# IoCreateSymbolicLink function
+# IoCreateSymbolicLink function (wdm.h)
+
+
 
 
 ## -description

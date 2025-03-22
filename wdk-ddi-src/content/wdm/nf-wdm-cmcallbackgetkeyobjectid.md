@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["CmCallbackGetKeyObjectID function"]
 ms.keywords: CmCallbackGetKeyObjectID, CmCallbackGetKeyObjectID routine [Kernel-Mode Driver Architecture], ConfigMgrRef_dbab8a69-78b4-4ae8-8409-e62e62ea8b9e.xml, kernel.cmcallbackgetkeyobjectid, wdm/CmCallbackGetKeyObjectID
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CmCallbackGetKeyObjectID
 ---
+
+# CmCallbackGetKeyObjectID function (wdm.h)
 
 ## -description
 

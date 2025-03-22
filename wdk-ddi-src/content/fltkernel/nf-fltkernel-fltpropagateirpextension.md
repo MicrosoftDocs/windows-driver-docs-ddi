@@ -7,6 +7,7 @@ ms.date: 01/02/2020
 keywords: ["FltPropagateIrpExtension function"]
 ms.keywords: FltPropagateIrpExtension, FltPropagateIrpExtension routine, fltkernel/FltPropagateIrpExtension
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10 version 1607.
@@ -39,7 +40,9 @@ api_name:
  - FltPropagateIrpExtension
 ---
 
-# FltPropagateIrpExtension function
+# FltPropagateIrpExtension function (fltkernel.h)
+
+
 
 
 ## -description

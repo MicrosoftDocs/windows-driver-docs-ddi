@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtRenameTransactionManager function"]
 ms.keywords: NtRenameTransactionManager, NtRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntrenametransactionmanager, ntx_299b8860-3b7b-4bc7-8f33-c3805fd0a38f.xml, wdm/NtRenameTransactionManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - NtRenameTransactionManager
 ---
 
-# NtRenameTransactionManager function
+# NtRenameTransactionManager function (wdm.h)
+
+
 
 
 ## -description

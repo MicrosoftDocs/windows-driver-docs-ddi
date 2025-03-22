@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenSyncObjectFromNtHandle function"]
 ms.keywords: D3DKMTOpenSyncObjectFromNtHandle, D3DKMTOpenSyncObjectFromNtHandle function [Display Devices], d3dkmthk/D3DKMTOpenSyncObjectFromNtHandle, display.d3dkmtopensyncobjectfromnthandle
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTOpenSyncObjectFromNtHandle
 ---
 
-# D3DKMTOpenSyncObjectFromNtHandle function
+# D3DKMTOpenSyncObjectFromNtHandle function (d3dkmthk.h)
+
+
 
 
 ## -description

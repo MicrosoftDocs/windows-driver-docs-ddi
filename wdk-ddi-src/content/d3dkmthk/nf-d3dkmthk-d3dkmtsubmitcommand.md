@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSubmitCommand function"]
 ms.keywords: D3DKMTSubmitCommand, D3DKMTSubmitCommand function [Display Devices], d3dkmthk/D3DKMTSubmitCommand, display.d3dkmtsubmitcommand
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTSubmitCommand
 ---
 
-# D3DKMTSubmitCommand function
+# D3DKMTSubmitCommand function (d3dkmthk.h)
+
+
 
 ## -description
 

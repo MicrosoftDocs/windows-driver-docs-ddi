@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMEscape function"]
 ms.keywords: OEMEscape, OEMEscape function [Print Devices], print.oemescape, print_unidrv-pscript_rendering_6f5f3a3e-6027-4524-bb11-1010dfc48727.xml, printoem/OEMEscape
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMEscape
 ---
+
+# OEMEscape function (printoem.h)
 
 ## -description
 

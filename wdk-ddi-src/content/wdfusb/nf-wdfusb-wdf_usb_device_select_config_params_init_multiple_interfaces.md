@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function"]
 ms.keywords: DFUsbRef_185af305-36be-46f3-85d7-dfb3b3d4d6b8.xml, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function, kmdf.wdf_usb_device_select_config_params_init_multiple_interfaces, wdf.wdf_usb_device_select_config_params_init_multiple_interfaces, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES
 ---
 
-# WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function
+# WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES function (wdfusb.h)
+
+
 
 
 ## -description

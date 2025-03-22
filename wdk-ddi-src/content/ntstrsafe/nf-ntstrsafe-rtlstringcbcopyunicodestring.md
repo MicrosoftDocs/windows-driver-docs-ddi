@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCbCopyUnicodeString function"]
 ms.keywords: RtlStringCbCopyUnicodeString, RtlStringCbCopyUnicodeString function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyunicodestring, ntstrsafe/RtlStringCbCopyUnicodeString, safestrings_1c916f4b-b084-4587-a867-998b789bd2fa.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCbCopyUnicodeString
 ---
 
-# RtlStringCbCopyUnicodeString function
+# RtlStringCbCopyUnicodeString function (ntstrsafe.h)
+
+
 
 
 ## -description

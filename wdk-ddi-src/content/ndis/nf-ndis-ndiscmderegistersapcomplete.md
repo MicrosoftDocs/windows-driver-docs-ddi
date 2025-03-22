@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmDeregisterSapComplete function"]
 ms.keywords: NdisCmDeregisterSapComplete, NdisCmDeregisterSapComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d8a656de-56d5-4b84-8179-636b72f1313b.xml, ndis/NdisCmDeregisterSapComplete, netvista.ndiscmderegistersapcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCmDeregisterSapComplete   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisCmDeregisterSapComplete   (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmDeregisterSapComplete
 ---
 
-# NdisCmDeregisterSapComplete function
+# NdisCmDeregisterSapComplete function (ndis.h)
+
+
 
 
 ## -description

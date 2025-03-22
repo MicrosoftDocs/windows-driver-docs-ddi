@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionDmaCompletedWithLength function"]
 ms.keywords: DFDmaObjectRef_b04fb6c6-98ce-4d3b-8bc9-10a29f6bde46.xml, WdfDmaTransactionDmaCompletedWithLength, WdfDmaTransactionDmaCompletedWithLength method, kmdf.wdfdmatransactiondmacompletedwithlength, wdf.wdfdmatransactiondmacompletedwithlength, wdfdmatransaction/WdfDmaTransactionDmaCompletedWithLength
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionDmaCompletedWithLength
 ---
 
-# WdfDmaTransactionDmaCompletedWithLength function
+# WdfDmaTransactionDmaCompletedWithLength function (wdfdmatransaction.h)
+
+
 
 
 ## -description

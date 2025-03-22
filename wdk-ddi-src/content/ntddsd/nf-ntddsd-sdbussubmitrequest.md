@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SdBusSubmitRequest function"]
 ms.keywords: SD.sdbussubmitrequest, SdBusSubmitRequest, SdBusSubmitRequest function [Buses], ntddsd/SdBusSubmitRequest, sd-rtns_2709a5bb-0cc9-42b0-9fd1-2b8206a383d5.xml
 req.header: ntddsd.h
+req.construct-type: function
 req.include-header: Ntddsd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SdBusSubmitRequest
 ---
 
-# SdBusSubmitRequest function
+# SdBusSubmitRequest function (ntddsd.h)
+
+
 
 
 ## -description

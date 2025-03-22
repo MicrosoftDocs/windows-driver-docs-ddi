@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlMdlWriteCompleteDev function"]
 ms.keywords: FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlMdlWriteCompleteDev function
+# FsRtlMdlWriteCompleteDev function (ntifs.h)
+
+
 
 
 ## -description

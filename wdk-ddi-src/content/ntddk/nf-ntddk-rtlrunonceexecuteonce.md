@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlRunOnceExecuteOnce function"]
 ms.keywords: RtlRunOnceExecuteOnce, RtlRunOnceExecuteOnce function [Kernel-Mode Driver Architecture], k109_c1729bff-038f-4714-b422-1b97dd5a9c19.xml, kernel.rtlrunonceexecuteonce, ntddk/RtlRunOnceExecuteOnce
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - RtlRunOnceExecuteOnce
 ---
 
-# RtlRunOnceExecuteOnce function
+# RtlRunOnceExecuteOnce function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxCleanPendingRequests function"]
 ms.keywords: PosCxCleanPendingRequests, PosCxCleanPendingRequests function, pos.poscxcleanpendingrequests, poscx/PosCxCleanPendingRequests
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxCleanPendingRequests
 ---
 
-# PosCxCleanPendingRequests function
+# PosCxCleanPendingRequests function (poscx.h)
+
+
 
 
 ## -description

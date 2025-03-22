@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlRealPredecessor function"]
 ms.keywords: RtlRealPredecessor, RtlRealPredecessor routine [Installable File System Drivers], ifsk.rtlrealpredecessor, ntddk/RtlRealPredecessor, rtlref_1c872dd0-50cb-48ff-a7e4-e3c88b3b087f.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
@@ -40,7 +41,9 @@ api_name:
  - RtlRealPredecessor
 ---
 
-# RtlRealPredecessor function
+# RtlRealPredecessor function (ntddk.h)
+
+
 
 
 ## -description

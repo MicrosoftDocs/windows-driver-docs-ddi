@@ -7,6 +7,7 @@ ms.date: 08/25/2022
 keywords: ["DXGK_GLITCH_EFFECT enumeration"]
 ms.keywords: DXGK_GLITCH_EFFECT, DXGK_GLITCH_EFFECT enumeration [Display Devices], DXGK_GLITCH_EFFECT_BLACK_CONTENT, DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, DXGK_GLITCH_EFFECT_SEAMLESS, DXGK_GLITCH_EFFECT_STALE_CONTENT, DXGK_GLITCH_EFFECT_SYNC_LOSS, _DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT, d3dkmddi/DXGK_GLITCH_EFFECT_BLACK_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_DEGRADED_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_GARBAGE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SEAMLESS, d3dkmddi/DXGK_GLITCH_EFFECT_STALE_CONTENT, d3dkmddi/DXGK_GLITCH_EFFECT_SYNC_LOSS, display.dxgk_glitch_effect
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_GLITCH_EFFECT
 ---
 
-# DXGK_GLITCH_EFFECT enumeration
+# DXGK_GLITCH_EFFECT enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

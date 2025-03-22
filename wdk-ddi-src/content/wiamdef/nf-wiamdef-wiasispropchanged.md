@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasIsPropChanged function"]
 ms.keywords: image.wiasispropchanged, wiamdef/wiasIsPropChanged, wiasFncs_11e49124-0147-4140-ba56-879ae3fcbf46.xml, wiasIsPropChanged, wiasIsPropChanged function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasIsPropChanged
 ---
 
-# wiasIsPropChanged function
+# wiasIsPropChanged function (wiamdef.h)
+
+
 
 
 ## -description

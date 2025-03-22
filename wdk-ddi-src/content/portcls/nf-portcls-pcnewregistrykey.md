@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcNewRegistryKey function"]
 ms.keywords: PcNewRegistryKey, PcNewRegistryKey function [Audio Devices], audio.pcnewregistrykey, audpc-routines_67ac1fc2-b40b-4176-8a86-0f4d6eb15e6a.xml, portcls/PcNewRegistryKey
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcNewRegistryKey function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcNewRegistryKey
 ---
 
-# PcNewRegistryKey function
+# PcNewRegistryKey function (portcls.h)
+
+
 
 
 ## -description

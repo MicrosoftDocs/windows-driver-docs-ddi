@@ -6,6 +6,7 @@ ms.date: 01/04/2019
 keywords: ["D3DKMTSubmitPresentBltToHwQueue function"]
 ms.keywords: D3DKMTSubmitPresentBltToHwQueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - D3DKMTSubmitPresentBltToHwQueue
 ---
 
-# D3DKMTSubmitPresentBltToHwQueue function
+# D3DKMTSubmitPresentBltToHwQueue function (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the D3D12DDI_COMMAND_QUEUE_FLAGS enumeration.
 ms.date: 10/04/2024
 keywords: ["D3D12DDI_COMMAND_QUEUE_FLAGS enumeration"]
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - D3D12DDI_COMMAND_QUEUE_FLAGS
 ---
 
-# D3D12DDI_COMMAND_QUEUE_FLAGS enumeration
+# D3D12DDI_COMMAND_QUEUE_FLAGS enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

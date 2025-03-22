@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control, IOCTL_MOUNTDEV_QUERY_UNIQUE_ID control code [Storage Devices], k307_5dd8b350-65b5-4f59-b96f-cae11fe7fb5b.xml, mountdev/IOCTL_MOUNTDEV_QUERY_UNIQUE_ID, storage.ioctl_mountdev_query_unique_id
 req.header: mountdev.h
+req.construct-type: ioctl
 req.include-header: Mountdev.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTDEV_QUERY_UNIQUE_ID
 ---
+
+# IOCTL_MOUNTDEV_QUERY_UNIQUE_ID IOCTL (mountdev.h)
+
+
 
 ## -description
 

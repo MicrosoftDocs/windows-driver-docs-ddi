@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxCompleteDevicePowerNotRequired function"]
 ms.keywords: PoFxCompleteDevicePowerNotRequired, PoFxCompleteDevicePowerNotRequired routine [Kernel-Mode Driver Architecture], kernel.pofxcompletedevicepowernotrequired, wdm/PoFxCompleteDevicePowerNotRequired
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxCompleteDevicePowerNotRequired
 ---
 
-# PoFxCompleteDevicePowerNotRequired function
+# PoFxCompleteDevicePowerNotRequired function (wdm.h)
+
+
 
 
 ## -description

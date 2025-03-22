@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnLess function"]
 ms.keywords: ClfsLsnLess, ClfsLsnLess routine [Kernel-Mode Driver Architecture], Clfs_5e0196f1-8244-4cf9-aa36-7359e52ff43b.xml, kernel.clfslsnless, wdm/ClfsLsnLess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnLess
 ---
 
-# ClfsLsnLess function
+# ClfsLsnLess function (wdm.h)
+
+
 
 
 ## -description

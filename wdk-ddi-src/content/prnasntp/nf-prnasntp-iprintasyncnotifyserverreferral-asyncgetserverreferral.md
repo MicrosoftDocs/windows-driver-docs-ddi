@@ -7,6 +7,7 @@ ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotifyServerReferral::AsyncGetServerReferral"]
 ms.keywords: AsyncGetServerReferral, AsyncGetServerReferral method [Print Devices], AsyncGetServerReferral method [Print Devices],IPrintAsyncNotifyServerReferral interface, IPrintAsyncNotifyServerReferral interface [Print Devices],AsyncGetServerReferral method, IPrintAsyncNotifyServerReferral.AsyncGetServerReferral, IPrintAsyncNotifyServerReferral::AsyncGetServerReferral, print.iprintasyncnotifyserverreferral_asyncgetserverreferral, prnasntp/IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintAsyncNotifyServerReferral::AsyncGetServerReferral
 ---
+
+# IPrintAsyncNotifyServerReferral::AsyncGetServerReferral function (prnasntp.h)
 
 ## -description
 

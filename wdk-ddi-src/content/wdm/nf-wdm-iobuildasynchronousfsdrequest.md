@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoBuildAsynchronousFsdRequest function"]
 ms.keywords: IoBuildAsynchronousFsdRequest, IoBuildAsynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_bbefd6f7-02b9-497d-9d9e-aef507436cd4.xml, kernel.iobuildasynchronousfsdrequest, wdm/IoBuildAsynchronousFsdRequest
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoBuildAsynchronousFsdRequest
 ---
+
+# IoBuildAsynchronousFsdRequest function (wdm.h)
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_MONITOR_INTERFACE_VERSION enumeration"]
 ms.keywords: DXGK_MONITOR_INTERFACE_VERSION, DXGK_MONITOR_INTERFACE_VERSION enumeration [Display Devices], DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, DXGK_MONITOR_INTERFACE_VERSION_V1, DXGK_MONITOR_INTERFACE_VERSION_V2, DmEnums_4ec3a10c-c04f-431b-851d-908a5ff972a1.xml, _DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_UNINITIALIZED, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V1, d3dkmddi/DXGK_MONITOR_INTERFACE_VERSION_V2, display.dxgk_monitor_interface_version
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - DXGK_MONITOR_INTERFACE_VERSION
 ---
 
-# DXGK_MONITOR_INTERFACE_VERSION enumeration
+# DXGK_MONITOR_INTERFACE_VERSION enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

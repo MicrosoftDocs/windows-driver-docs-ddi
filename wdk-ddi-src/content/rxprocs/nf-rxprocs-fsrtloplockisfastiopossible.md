@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlOplockIsFastIoPossible macro"]
 ms.keywords: FsRtlOplockIsFastIoPossible, FsRtlOplockIsFastIoPossible function [Installable File System Drivers], fsrtlref_94131dc4-e2ee-4ec0-92b9-39cd8a7d6e41.xml, ifsk.fsrtloplockisfastiopossible, rxprocs/FsRtlOplockIsFastIoPossible
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - FsRtlOplockIsFastIoPossible
 ---
 
-# FsRtlOplockIsFastIoPossible macro
+# FsRtlOplockIsFastIoPossible macro (rxprocs.h)
+
+
+
+
 
 
 ## -description

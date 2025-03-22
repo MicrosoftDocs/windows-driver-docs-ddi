@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoIncrementKeepAliveCount function"]
 ms.keywords: IoIncrementKeepAliveCount, IoIncrementKeepAliveCount routine [Kernel-Mode Driver Architecture], kernel.ioincrementkeepalivecount, ntddk/IoIncrementKeepAliveCount
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - IoIncrementKeepAliveCount
 ---
 
-# IoIncrementKeepAliveCount function
+# IoIncrementKeepAliveCount function (ntddk.h)
+
+
 
 
 ## -description

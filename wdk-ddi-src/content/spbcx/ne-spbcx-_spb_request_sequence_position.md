@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["SPB_REQUEST_SEQUENCE_POSITION enumeration"]
 ms.keywords: "*PSPB_REQUEST_SEQUENCE_POSITION, SPB.spb_request_sequence_position, SPB_REQUEST_SEQUENCE_POSITION, SPB_REQUEST_SEQUENCE_POSITION enumeration [Buses], SpbRequestSequencePositionContinue, SpbRequestSequencePositionFirst, SpbRequestSequencePositionInvalid, SpbRequestSequencePositionLast, SpbRequestSequencePositionMax, SpbRequestSequencePositionSingle, _SPB_REQUEST_SEQUENCE_POSITION, spbcx/SPB_REQUEST_SEQUENCE_POSITION, spbcx/SpbRequestSequencePositionContinue, spbcx/SpbRequestSequencePositionFirst, spbcx/SpbRequestSequencePositionInvalid, spbcx/SpbRequestSequencePositionLast, spbcx/SpbRequestSequencePositionMax, spbcx/SpbRequestSequencePositionSingle"
 req.header: spbcx.h
+req.construct-type: enumeration
 req.include-header: Spb.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - SPB_REQUEST_SEQUENCE_POSITION
 ---
 
-# _SPB_REQUEST_SEQUENCE_POSITION enumeration
+# SPB_REQUEST_SEQUENCE_POSITION enumeration (spbcx.h)
+
+
 
 ## -description
 

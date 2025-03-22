@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_READY function"]
 ms.keywords: DFQueueObjectRef_d5c37eea-044b-41b6-9c0a-f910fef04d00.xml, WDF_IO_QUEUE_READY, WDF_IO_QUEUE_READY function, kmdf.wdf_io_queue_ready, wdf.wdf_io_queue_ready, wdfio/WDF_IO_QUEUE_READY
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_IO_QUEUE_READY
 ---
 
-# WDF_IO_QUEUE_READY function
+# WDF_IO_QUEUE_READY function (wdfio.h)
+
+
 
 
 ## -description

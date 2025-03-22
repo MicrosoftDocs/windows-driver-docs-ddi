@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SPB_CONNECTION_PARAMETERS_INIT function"]
 ms.keywords: SPB.spb_connection_parameters_init, SPB_CONNECTION_PARAMETERS_INIT, SPB_CONNECTION_PARAMETERS_INIT function [Buses], spbcx/SPB_CONNECTION_PARAMETERS_INIT
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SPB_CONNECTION_PARAMETERS_INIT
 ---
 
-# SPB_CONNECTION_PARAMETERS_INIT function
+# SPB_CONNECTION_PARAMETERS_INIT function (spbcx.h)
+
+
 
 
 ## -description

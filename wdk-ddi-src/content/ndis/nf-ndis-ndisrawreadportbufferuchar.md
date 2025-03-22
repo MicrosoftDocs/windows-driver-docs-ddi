@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisRawReadPortBufferUchar macro"]
 ms.keywords: NdisRawReadPortBufferUchar, NdisRawReadPortBufferUchar macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_acd96d67-c82f-48dd-b6f1-cb77564e4bd6.xml, ndis/NdisRawReadPortBufferUchar, netvista.ndisrawreadportbufferuchar
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisRawReadPortBufferUchar   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisRawReadPortBufferUchar   (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisRawReadPortBufferUchar
 ---
 
-# NdisRawReadPortBufferUchar macro
+# NdisRawReadPortBufferUchar macro (ndis.h)
+
+
+
+
 
 
 ## -description

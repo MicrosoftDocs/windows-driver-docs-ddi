@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsUpdateDiskCounters function"]
 ms.keywords: PsUpdateDiskCounters, PsUpdateDiskCounters routine [Installable File System Drivers], ifsk.psupdatediskcounters, ntifs/PsUpdateDiskCounters
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PsUpdateDiskCounters
 ---
 
-# PsUpdateDiskCounters function
+# PsUpdateDiskCounters function (ntifs.h)
+
+
 
 
 ## -description

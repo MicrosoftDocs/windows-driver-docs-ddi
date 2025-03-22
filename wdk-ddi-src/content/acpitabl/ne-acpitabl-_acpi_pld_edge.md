@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_EDGE enumeration"]
 ms.keywords: _ACPI_PLD_EDGE, ACPI_PLD_EDGE, *PACPI_PLD_EDGE,
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - ACPI_PLD_EDGE
 ---
 
-# _ACPI_PLD_EDGE enumeration
+# ACPI_PLD_EDGE enumeration (acpitabl.h)
+
+
 
 
 ## -description

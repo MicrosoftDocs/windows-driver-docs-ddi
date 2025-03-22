@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExSetTimer function"]
 ms.keywords: ExSetTimer, ExSetTimer routine [Kernel-Mode Driver Architecture], kernel.exsettimer, wdm/ExSetTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -41,7 +42,9 @@ api_name:
  - ExSetTimer
 ---
 
-# ExSetTimer function
+# ExSetTimer function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_OPERATION_MODE enumeration"]
 ms.keywords: WDI_OPERATION_MODE, WDI_OPERATION_MODE enumeration [Network Drivers Starting with Windows Vista], WDI_OPERATION_MODE_P2P_CLIENT, WDI_OPERATION_MODE_P2P_DEVICE, WDI_OPERATION_MODE_P2P_GO, WDI_OPERATION_MODE_STA, _WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE, dot11wdi/WDI_OPERATION_MODE_P2P_CLIENT, dot11wdi/WDI_OPERATION_MODE_P2P_DEVICE, dot11wdi/WDI_OPERATION_MODE_P2P_GO, dot11wdi/WDI_OPERATION_MODE_STA, netvista.wdi_operation_mode, netvista.wifi_operation_mode
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - WDI_OPERATION_MODE
 ---
 
-# _WDI_OPERATION_MODE enumeration
+# WDI_OPERATION_MODE enumeration (dot11wdi.h)
+
+
 
 
 ## -description

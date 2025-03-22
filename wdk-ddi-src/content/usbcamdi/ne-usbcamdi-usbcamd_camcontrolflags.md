@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["USBCAMD_CamControlFlags enumeration"]
 ms.keywords: USBCAMD_CamControlFlags, USBCAMD_CamControlFlags,
 req.header: usbcamdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - USBCAMD_CamControlFlags
 ---
 
-# USBCAMD_CamControlFlags enumeration
+# USBCAMD_CamControlFlags enumeration (usbcamdi.h)
+
+
 
 
 ## -description

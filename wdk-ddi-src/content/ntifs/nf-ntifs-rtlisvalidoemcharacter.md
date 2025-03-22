@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlIsValidOemCharacter function"]
 ms.keywords: RtlIsValidOemCharacter, RtlIsValidOemCharacter routine [Installable File System Drivers], ifsk.rtlisvalidoemcharacter, ntifs/RtlIsValidOemCharacter, rtlref_ebbaa5fc-63da-4eef-b8ac-be10a6e062a0.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - RtlIsValidOemCharacter
 ---
 
-# RtlIsValidOemCharacter function
+# RtlIsValidOemCharacter function (ntifs.h)
+
+
 
 
 ## -description

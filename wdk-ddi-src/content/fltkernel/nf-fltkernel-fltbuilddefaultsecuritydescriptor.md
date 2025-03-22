@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltBuildDefaultSecurityDescriptor function"]
 ms.keywords: FltApiRef_a_to_d_5b763c42-6bea-4c52-8148-60c18a2f2aeb.xml, FltBuildDefaultSecurityDescriptor, FltBuildDefaultSecurityDescriptor function [Installable File System Drivers], fltkernel/FltBuildDefaultSecurityDescriptor, ifsk.fltbuilddefaultsecuritydescriptor
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltBuildDefaultSecurityDescriptor
 ---
 
-# FltBuildDefaultSecurityDescriptor function
+# FltBuildDefaultSecurityDescriptor function (fltkernel.h)
+
+
 
 
 ## -description

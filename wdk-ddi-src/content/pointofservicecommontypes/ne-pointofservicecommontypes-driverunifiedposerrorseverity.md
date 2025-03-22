@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DriverUnifiedPosErrorSeverity enumeration"]
 ms.keywords: AssistanceRequired, DriverUnifiedPosErrorSeverity, DriverUnifiedPosErrorSeverity enumeration, Fatal, Recoverable, UnknownErrorSeverity, Unrecoverable, Warning, pointofservicecommontypes/ AssistanceRequired, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, pointofservicecommontypes/Fatal, pointofservicecommontypes/Recoverable, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/Unrecoverable, pointofservicecommontypes/Warning, pos.unifiedposerrorseverity
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverUnifiedPosErrorSeverity
 ---
 
-# DriverUnifiedPosErrorSeverity enumeration
+# DriverUnifiedPosErrorSeverity enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

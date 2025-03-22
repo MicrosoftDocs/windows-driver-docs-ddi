@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["PsCreateSystemThread function"]
 ms.keywords: PsCreateSystemThread, PsCreateSystemThread routine [Kernel-Mode Driver Architecture], k108_858fe76b-471d-42c9-8844-c14ae33bd235.xml, kernel.pscreatesystemthread, wdm/PsCreateSystemThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PsCreateSystemThread
 ---
+
+# PsCreateSystemThread function (wdm.h)
 
 ## -description
 

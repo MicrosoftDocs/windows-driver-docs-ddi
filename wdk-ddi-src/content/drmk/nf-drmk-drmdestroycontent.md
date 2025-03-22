@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["DrmDestroyContent function"]
 ms.keywords: DrmDestroyContent, DrmDestroyContent function [Audio Devices], aud-prop2_cfaec95c-a7e5-4488-a56d-323ebc577d90.xml, audio.drmdestroycontent, drmk/DrmDestroyContent
 req.header: drmk.h
+req.construct-type: function
 req.include-header: Drmk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - DrmDestroyContent
 ---
 
-# DrmDestroyContent function
+# DrmDestroyContent function (drmk.h)
+
+
 
 
 ## -description

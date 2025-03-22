@@ -7,6 +7,7 @@ ms.date: 04/01/2021
 keywords: ["StorPortAcquireSpinLock function"]
 ms.keywords: StorPortAcquireSpinLock, StorPortAcquireSpinLock routine [Storage Devices], storage.storportacquirespinlock, storport/StorPortAcquireSpinLock, storprt_a5092ef5-d8ab-4175-8799-df23cfcd4dc8.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - StorPortAcquireSpinLock
 ---
 
-# StorPortAcquireSpinLock function
+# StorPortAcquireSpinLock function (storport.h)
+
+
 
 ## -description
 

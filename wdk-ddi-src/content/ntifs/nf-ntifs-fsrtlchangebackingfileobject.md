@@ -8,6 +8,7 @@ ms.date: 06/08/2020
 keywords: ["FsRtlChangeBackingFileObject function"]
 ms.keywords: FsRtlChangeBackingFileObject, FsRtlChangeBackingFileObject routine [Installable File System Drivers], fsrtlref_4dd83ba3-8d9b-4c5b-a4ea-d7a0ceaaa9f2.xml, ifsk.fsrtlchangebackingfileobject, ntifs/FsRtlChangeBackingFileObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlChangeBackingFileObject routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlChangeBackingFileObject
 ---
 
-# FsRtlChangeBackingFileObject function
+# FsRtlChangeBackingFileObject function (ntifs.h)
+
+
 
 
 ## -description

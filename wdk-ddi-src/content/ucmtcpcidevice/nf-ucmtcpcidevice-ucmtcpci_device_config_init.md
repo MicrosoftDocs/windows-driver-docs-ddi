@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCMTCPCI_DEVICE_CONFIG_INIT function"]
 ms.keywords: UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], buses.ucmtcpci_device_config_init, ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT
 req.header: ucmtcpcidevice.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCMTCPCI_DEVICE_CONFIG_INIT
 ---
 
-# UCMTCPCI_DEVICE_CONFIG_INIT function
+# UCMTCPCI_DEVICE_CONFIG_INIT function (ucmtcpcidevice.h)
+
+
 
 
 ## -description

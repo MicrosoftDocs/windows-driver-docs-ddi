@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetAdapterStop function"]
 ms.keywords: NetAdapterStop
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetAdapterStop
 ---
 
-# NetAdapterStop function
+# NetAdapterStop function (netadapter.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterScriptableSequentialStream::Read"]
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Read method, IPrinterScriptableSequentialStream.Read, IPrinterScriptableSequentialStream::Read, Read, Read method [Print Devices], Read method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_read, printerextension/IPrinterScriptableSequentialStream::Read
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptableSequentialStream::Read
 ---
+
+# IPrinterScriptableSequentialStream::Read function (printerextension.h)
 
 ## -description
 

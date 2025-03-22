@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["HwNRegisterClient function"]
 ms.keywords: HwNRegisterClient, HwNRegisterClient function, gpiobtn.hwnregisterclient, hwnclx/HwNRegisterClient
 req.header: hwnclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - HwNRegisterClient
 ---
 
-# HwNRegisterClient function
+# HwNRegisterClient function (hwnclx.h)
+
+
 
 
 ## -description

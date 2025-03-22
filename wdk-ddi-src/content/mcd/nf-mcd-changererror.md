@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerError function"]
 ms.keywords: ChangerError, ChangerError function [Storage Devices], chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, mcd/ChangerError, storage.changererror
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerError
 ---
 
-# ChangerError function
+# ChangerError function (mcd.h)
+
+
 
 
 ## -description

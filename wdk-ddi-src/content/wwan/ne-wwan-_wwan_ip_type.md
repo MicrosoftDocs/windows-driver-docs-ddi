@@ -8,6 +8,7 @@ ms.date: 12/30/2021
 keywords: ["WWAN_IP_TYPE enumeration"]
 ms.keywords: "*PWWAN_IP_TYPE, WWAN_IP_TYPE, WWAN_IP_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanIPTypeDefault, WwanIPTypeIPv4, WwanIPTypeIPv6, WwanIPTypeIpv4v6, _WWAN_IP_TYPE, netvista.wwan_ip_type, wwan/WWAN_IP_TYPE, wwan/WwanIPTypeDefault, wwan/WwanIPTypeIPv4, wwan/WwanIPTypeIPv6, wwan/WwanIPTypeIpv4v6"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_IP_TYPE
 ---
 
-# _WWAN_IP_TYPE enumeration
+# WWAN_IP_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

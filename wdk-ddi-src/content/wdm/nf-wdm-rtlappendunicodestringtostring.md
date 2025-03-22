@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlAppendUnicodeStringToString function"]
 ms.keywords: RtlAppendUnicodeStringToString, RtlAppendUnicodeStringToString routine [Kernel-Mode Driver Architecture], k109_4c17620f-086f-4a0d-aa7a-6bc46d0a0f21.xml, kernel.rtlappendunicodestringtostring, wdm/RtlAppendUnicodeStringToString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlAppendUnicodeStringToString
 ---
 
-# RtlAppendUnicodeStringToString function
+# RtlAppendUnicodeStringToString function (wdm.h)
+
+
 
 
 ## -description

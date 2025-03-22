@@ -5,6 +5,7 @@ description: "The audio driver issues the IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR co
 ms.date: 07/11/2023
 keywords: ["IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR
 ---
 
-# IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL
+# IOCTL_SBAUD_GET_ENDPOINT_DESCRIPTOR IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

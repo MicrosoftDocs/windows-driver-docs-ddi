@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["IoCheckEaBufferValidity function"]
 ms.keywords: IoCheckEaBufferValidity, IoCheckEaBufferValidity function [Installable File System Drivers], ifsk.iocheckeabuffervalidity, ioref_cda82410-a6a9-40df-83ac-c1376a129a7a.xml, ntifs/IoCheckEaBufferValidity
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - IoCheckEaBufferValidity
 ---
 
-# IoCheckEaBufferValidity function
+# IoCheckEaBufferValidity function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["_MIDL___MIDL_itf_filterpipeline_0000_0000_0003 enumeration"]
 ms.keywords: EXpsJobConsumption, EXpsJobConsumption enumeration [Print Devices], XpsJob_DocumentSequenceAdded, XpsJob_FixedDocumentAdded, XpsJob_FixedPageAdded, __MIDL___MIDL_itf_filterpipeline_0000_0000_0003, filterpipeline/EXpsJobConsumption, filterpipeline/XpsJob_DocumentSequenceAdded, filterpipeline/XpsJob_FixedDocumentAdded, filterpipeline/XpsJob_FixedPageAdded, filterpipeline_67998379-96d5-4e6f-abc3-602526b12276.xml, print.expsjobconsumption
 req.header: filterpipeline.h
+req.construct-type: enumeration
 req.include-header: Filterpipeline.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - EXpsJobConsumption
 ---
 
-# __MIDL___MIDL_itf_filterpipeline_0000_0000_0003 enumeration
+# EXpsJobConsumption enumeration (filterpipeline.h)
+
+
 
 
 ## -description

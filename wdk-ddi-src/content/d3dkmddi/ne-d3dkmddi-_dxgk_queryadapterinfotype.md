@@ -5,6 +5,7 @@ description: Learn more about the DXGK_QUERYADAPTERINFOTYPE enumeration.
 ms.date: 08/19/2024
 keywords: ["DXGK_QUERYADAPTERINFOTYPE enumeration"]
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -44,7 +45,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_QUERYADAPTERINFOTYPE enumeration
+# DXGK_QUERYADAPTERINFOTYPE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

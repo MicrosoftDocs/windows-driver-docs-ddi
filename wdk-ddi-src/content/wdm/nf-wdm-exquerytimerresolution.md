@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExQueryTimerResolution function"]
 ms.keywords: ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], kernel.exquerytimerresolution, wdm/ExQueryTimerResolution
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - ExQueryTimerResolution
 ---
 
-# ExQueryTimerResolution function
+# ExQueryTimerResolution function (wdm.h)
+
+
 
 
 ## -description

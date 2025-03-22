@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRequestWorkerRoutine function"]
 ms.keywords: AtaPortRequestWorkerRoutine, AtaPortRequestWorkerRoutine routine [Storage Devices], atartns_9edce4ce-1bcf-4e52-81c1-705e645fe5f4.xml, irb/AtaPortRequestWorkerRoutine, storage.ataportrequestworkerroutine
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortRequestWorkerRoutine
 ---
 
-# AtaPortRequestWorkerRoutine function
+# AtaPortRequestWorkerRoutine function (irb.h)
+
+
 
 
 ## -description

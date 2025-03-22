@@ -9,6 +9,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_GetIndexedString function"]
 ms.keywords: HidD_GetIndexedString, HidD_GetIndexedString routine [Human Input Devices], hid.hidd_getindexedstring, hidfunc_49698b0b-18d1-41aa-b64c-185307fb2100.xml, hidsdi/HidD_GetIndexedString
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidD_GetIndexedString
 ---
 
-# HidD_GetIndexedString function
+# HidD_GetIndexedString function (hidsdi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFreeObjectCreateItemsByContext function"]
 ms.keywords: KsFreeObjectCreateItemsByContext, KsFreeObjectCreateItemsByContext function [Streaming Media Devices], ks/KsFreeObjectCreateItemsByContext, ksfunc_0ad51072-eff4-4be3-95f4-b54c9267a4a9.xml, stream.ksfreeobjectcreateitemsbycontext
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFreeObjectCreateItemsByContext
 ---
 
-# KsFreeObjectCreateItemsByContext function
+# KsFreeObjectCreateItemsByContext function (ks.h)
+
+
 
 
 ## -description

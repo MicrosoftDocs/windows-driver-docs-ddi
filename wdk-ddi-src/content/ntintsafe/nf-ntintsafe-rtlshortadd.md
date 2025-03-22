@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlShortAdd function"]
 ms.keywords: RtlShortAdd, RtlShortAdd function [Kernel-Mode Driver Architecture], kernel.rtlshortadd, ntintsafe/RtlShortAdd
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlShortAdd
 ---
 
-# RtlShortAdd function
+# RtlShortAdd function (ntintsafe.h)
+
+
 
 
 ## -description

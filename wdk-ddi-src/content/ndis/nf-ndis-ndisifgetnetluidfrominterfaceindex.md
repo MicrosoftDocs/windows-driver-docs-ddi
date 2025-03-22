@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfGetNetLuidFromInterfaceIndex function"]
 ms.keywords: NdisIfGetNetLuidFromInterfaceIndex, NdisIfGetNetLuidFromInterfaceIndex function [Network Drivers Starting with Windows Vista], ndis/NdisIfGetNetLuidFromInterfaceIndex, net_if_functions_ref_eb50b72f-9bb0-4c02-88d3-dbb0fb1d82d1.xml, netvista.ndisifgetnetluidfrominterfaceindex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfGetNetLuidFromInterfaceIndex
 ---
 
-# NdisIfGetNetLuidFromInterfaceIndex function
+# NdisIfGetNetLuidFromInterfaceIndex function (ndis.h)
+
+
 
 
 ## -description

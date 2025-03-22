@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["IKsInterfaceHandler::KsProcessMediaSamples"]
 ms.keywords: IKsInterfaceHandler interface [Streaming Media Devices],KsProcessMediaSamples method, IKsInterfaceHandler.KsProcessMediaSamples, IKsInterfaceHandler::KsProcessMediaSamples, KsProcessMediaSamples, KsProcessMediaSamples method [Streaming Media Devices], KsProcessMediaSamples method [Streaming Media Devices],IKsInterfaceHandler interface, ksproxy/IKsInterfaceHandler::KsProcessMediaSamples, ksproxy_929792a7-d5c4-4568-9178-866b9738079b.xml, stream.iksinterfacehandler_ksprocessmediasamples
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsInterfaceHandler::KsProcessMediaSamples
 ---
+
+# IKsInterfaceHandler::KsProcessMediaSamples function (ksproxy.h)
 
 ## -description
 

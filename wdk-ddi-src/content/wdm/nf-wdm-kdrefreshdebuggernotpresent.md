@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["KdRefreshDebuggerNotPresent function"]
 ms.keywords: DebugFns_77b08eed-2f06-4ede-b02f-f1a7a5ab9ba5.xml, KdRefreshDebuggerNotPresent, KdRefreshDebuggerNotPresent function [Driver Development Tools], devtest.kdrefreshdebuggernotpresent, ntddk/KdRefreshDebuggerNotPresent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KdRefreshDebuggerNotPresent
 ---
+
+# KdRefreshDebuggerNotPresent function (wdm.h)
 
 ## -description
 

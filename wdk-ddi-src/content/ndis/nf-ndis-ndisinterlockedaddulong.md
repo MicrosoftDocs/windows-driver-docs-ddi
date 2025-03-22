@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInterlockedAddUlong macro"]
 ms.keywords: NdisInterlockedAddUlong, NdisInterlockedAddUlong macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddUlong, ndis_interlocked_ref_0b4862c9-6897-4b73-ab23-5cd2ede3e82a.xml, netvista.ndisinterlockedaddulong
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisInterlockedAddUlong (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisInterlockedAddUlong (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,11 @@ api_name:
  - NdisInterlockedAddUlong
 ---
 
-# NdisInterlockedAddUlong macro
+# NdisInterlockedAddUlong macro (ndis.h)
+
+
+
+
 
 
 ## -description

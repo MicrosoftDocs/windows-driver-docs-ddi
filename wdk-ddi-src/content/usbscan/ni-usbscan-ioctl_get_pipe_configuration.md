@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_GET_PIPE_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_GET_PIPE_CONFIGURATION, IOCTL_GET_PIPE_CONFIGURATION control, IOCTL_GET_PIPE_CONFIGURATION control code [Imaging Devices], image.ioctl_get_pipe_configuration, stifnc_d8b8d478-b15d-402e-b449-052a25ff38fc.xml, usbscan/IOCTL_GET_PIPE_CONFIGURATION
 req.header: usbscan.h
+req.construct-type: ioctl
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GET_PIPE_CONFIGURATION
 ---
 
-# IOCTL_GET_PIPE_CONFIGURATION IOCTL
+# IOCTL_GET_PIPE_CONFIGURATION IOCTL (usbscan.h)
+
+
+
+
 
 
 ## -description

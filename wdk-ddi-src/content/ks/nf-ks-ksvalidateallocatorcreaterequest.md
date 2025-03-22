@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsValidateAllocatorCreateRequest function"]
 ms.keywords: KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], ks/KsValidateAllocatorCreateRequest, ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml, stream.ksvalidateallocatorcreaterequest
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsValidateAllocatorCreateRequest
 ---
 
-# KsValidateAllocatorCreateRequest function
+# KsValidateAllocatorCreateRequest function (ks.h)
+
+
 
 
 ## -description

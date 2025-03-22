@@ -8,6 +8,7 @@ ms.date: 12/16/2021
 keywords: ["SensorsCxSensorDataReady function"]
 ms.keywords: SensorsCxSensorDataReady, SensorsCxSensorDataReady function [Sensor Devices], sensors.sensorscxsensordataready, sensorscx/SensorsCxSensorDataReady
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SensorsCxSensorDataReady
 ---
 
-# SensorsCxSensorDataReady function
+# SensorsCxSensorDataReady function (sensorscx.h)
+
+
 
 ## -description
 

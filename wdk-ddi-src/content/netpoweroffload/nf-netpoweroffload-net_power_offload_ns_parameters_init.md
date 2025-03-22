@@ -7,6 +7,7 @@ ms.date: 09/30/2019
 keywords: ["NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function"]
 ms.keywords: NET_POWER_OFFLOAD_NS_PARAMETERS_INIT
 req.header: netpoweroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NET_POWER_OFFLOAD_NS_PARAMETERS_INIT
 ---
 
-# NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function
+# NET_POWER_OFFLOAD_NS_PARAMETERS_INIT function (netpoweroffload.h)
+
+
 
 
 ## -description

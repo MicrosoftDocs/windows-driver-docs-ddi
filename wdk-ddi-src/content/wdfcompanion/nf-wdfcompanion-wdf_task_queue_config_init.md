@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TASK_QUEUE_CONFIG_INIT function"]
 ms.keywords: WDF_TASK_QUEUE_CONFIG_INIT, WDF_TASK_QUEUE_CONFIG_INIT method, wdf.wdf_task_queue_config_init, wdfcompanion/WDF_TASK_QUEUE_CONFIG_INIT
 req.header: wdfcompanion.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_TASK_QUEUE_CONFIG_INIT
 ---
 
-# WDF_TASK_QUEUE_CONFIG_INIT function
+# WDF_TASK_QUEUE_CONFIG_INIT function (wdfcompanion.h)
+
+
 
 
 ## -description

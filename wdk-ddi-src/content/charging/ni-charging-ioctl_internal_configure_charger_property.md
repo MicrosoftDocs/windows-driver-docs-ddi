@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL"]
 ms.keywords: IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], battery.ioctl_internal_configure_charger_property, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 req.header: charging.h
+req.construct-type: ioctl
 req.include-header: Charging.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10 and later operating systems.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 ---
 
-# IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL
+# IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL (charging.h)
+
+
+
+
 
 ## -description
 

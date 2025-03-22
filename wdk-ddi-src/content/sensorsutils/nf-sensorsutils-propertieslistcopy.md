@@ -7,6 +7,7 @@ keywords: ["PropertiesListCopy function"]
 tech.root: sensors
 ms.keywords: PropertiesListCopy
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropertiesListCopy
 ---
 
-# PropertiesListCopy function
+# PropertiesListCopy function (sensorsutils.h)
+
+
 
 
 ## -description

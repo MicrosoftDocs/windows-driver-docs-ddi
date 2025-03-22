@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlCreateSystemVolumeInformationFolder function"]
 ms.keywords: RtlCreateSystemVolumeInformationFolder, RtlCreateSystemVolumeInformationFolder routine [Installable File System Drivers], ifsk.rtlcreatesystemvolumeinformationfolder, ntifs/RtlCreateSystemVolumeInformationFolder, rtlref_f854cbbb-1aa4-4f0a-8d2d-5b160634a155.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlCreateSystemVolumeInformationFolder
 ---
 
-# RtlCreateSystemVolumeInformationFolder function
+# RtlCreateSystemVolumeInformationFolder function (ntifs.h)
+
+
 
 
 ## -description

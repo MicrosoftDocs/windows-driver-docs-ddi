@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_COMPONENT_HEALTH_STATUS enumeration"]
 ms.keywords: "*PSTORAGE_COMPONENT_HEALTH_STATUS, HealthStatusDisabled, HealthStatusFailed, HealthStatusNormal, HealthStatusThrottled, HealthStatusUnknown, HealthStatusWarning, PSTORAGE_COMPONENT_HEALTH_STATUS, PSTORAGE_COMPONENT_HEALTH_STATUS enumeration pointer [Storage Devices], STORAGE_COMPONENT_HEALTH_STATUS, STORAGE_COMPONENT_HEALTH_STATUS enumeration [Storage Devices], _STORAGE_COMPONENT_HEALTH_STATUS, ntddstor/HealthStatusDisabled, ntddstor/HealthStatusFailed, ntddstor/HealthStatusNormal, ntddstor/HealthStatusThrottled, ntddstor/HealthStatusUnknown, ntddstor/HealthStatusWarning, ntddstor/PSTORAGE_COMPONENT_HEALTH_STATUS, ntddstor/STORAGE_COMPONENT_HEALTH_STATUS, storage.storage_component_health_status"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_COMPONENT_HEALTH_STATUS
 ---
 
-# _STORAGE_COMPONENT_HEALTH_STATUS enumeration
+# STORAGE_COMPONENT_HEALTH_STATUS enumeration (ntddstor.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DEVICE_REMOVAL_POLICY enumeration"]
 ms.keywords: "*PDEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY, DEVICE_REMOVAL_POLICY enumeration [Kernel-Mode Driver Architecture], PDEVICE_REMOVAL_POLICY, PDEVICE_REMOVAL_POLICY enumeration pointer [Kernel-Mode Driver Architecture], RemovalPolicyExpectNoRemoval, RemovalPolicyExpectOrderlyRemoval, RemovalPolicyExpectSurpriseRemoval, _DEVICE_REMOVAL_POLICY, kernel.device_removal_policy, sysenum_46a08528-1177-4dd0-933f-6c4d7aa6c5b3.xml, wdm/DEVICE_REMOVAL_POLICY, wdm/PDEVICE_REMOVAL_POLICY, wdm/RemovalPolicyExpectNoRemoval, wdm/RemovalPolicyExpectOrderlyRemoval, wdm/RemovalPolicyExpectSurpriseRemoval"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_REMOVAL_POLICY
 ---
 
-# _DEVICE_REMOVAL_POLICY enumeration
+# DEVICE_REMOVAL_POLICY enumeration (wdm.h)
+
+
 
 
 ## -description

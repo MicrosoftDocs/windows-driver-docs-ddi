@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["EtwWriteString function"]
 ms.keywords: EtwWriteString, EtwWriteString function [Driver Development Tools], devtest.etwwritestring, etw_km_b4cb697f-3523-4730-8df5-1faf201af7f8.xml, wdm/EtwWriteString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - EtwWriteString
 ---
 
-# EtwWriteString function
+# EtwWriteString function (wdm.h)
+
+
 
 
 ## -description

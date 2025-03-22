@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function"]
 ms.keywords: WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function, wdf.wdf_io_target_open_params_init_open_by_file, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE
 ---
 
-# WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function
+# WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE function (wdfiotarget.h)
+
+
 
 
 ## -description

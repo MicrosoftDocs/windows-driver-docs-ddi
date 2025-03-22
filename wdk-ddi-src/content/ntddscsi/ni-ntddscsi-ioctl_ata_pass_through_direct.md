@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["IOCTL_ATA_PASS_THROUGH_DIRECT IOCTL"]
 ms.keywords: IOCTL_ATA_PASS_THROUGH_DIRECT, IOCTL_ATA_PASS_THROUGH_DIRECT control, IOCTL_ATA_PASS_THROUGH_DIRECT control code [Storage Devices], k307_8f1da276-e1bf-405e-8e01-a633b8671d5f.xml, ntddscsi/IOCTL_ATA_PASS_THROUGH_DIRECT, storage.ioctl_ata_pass_through_direct
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Server 2003
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_ATA_PASS_THROUGH_DIRECT
 ---
 
-# IOCTL_ATA_PASS_THROUGH_DIRECT IOCTL
+# IOCTL_ATA_PASS_THROUGH_DIRECT IOCTL (ntddscsi.h)
+
+
+
+
 
 ## -description
 

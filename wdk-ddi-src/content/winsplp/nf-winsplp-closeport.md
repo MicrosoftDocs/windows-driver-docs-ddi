@@ -8,6 +8,7 @@ ms.date: 02/02/2018
 keywords: ["ClosePort function"]
 ms.keywords: print.closeport, winsplp/ClosePort, spoolfnc_fdd98daa-d14c-4534-a8c6-0070ccbbc3fe.xml, ClosePort, ClosePort function [Print Devices]
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ClosePort
 ---
 
-# ClosePort function
+# ClosePort function (winsplp.h)
+
+
 
 
 ## -description

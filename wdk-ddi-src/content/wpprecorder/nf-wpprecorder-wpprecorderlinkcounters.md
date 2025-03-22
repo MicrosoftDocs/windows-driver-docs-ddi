@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderLinkCounters macro"]
 ms.keywords: WppRecorderLinkCounters, devtest.wpprecorderlinkcounters, imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], wpprecorder/imp_WppRecorderLinkCounters
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - WppRecorderLinkCounters
 ---
 
-# WppRecorderLinkCounters macro
+# WppRecorderLinkCounters macro (wpprecorder.h)
+
+
+
+
 
 
 ## -description

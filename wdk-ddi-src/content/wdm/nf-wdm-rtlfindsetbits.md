@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlFindSetBits function"]
 ms.keywords: RtlFindSetBits, RtlFindSetBits routine [Kernel-Mode Driver Architecture], k109_67665139-638f-4dc5-b0b4-db3782c1f294.xml, kernel.rtlfindsetbits, wdm/RtlFindSetBits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlFindSetBits
 ---
 
-# RtlFindSetBits function
+# RtlFindSetBits function (wdm.h)
+
+
 
 
 ## -description

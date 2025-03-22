@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgLegacyWarning function"]
 ms.keywords: image.wiaudbglegacywarning, wiauDbgLegacyWarning, wiauDbgLegacyWarning function [Imaging Devices], wiauFncs_03dcc80b-0d36-4130-a05d-bb407cd813cb.xml, wiautil/wiauDbgLegacyWarning
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgLegacyWarning
 ---
 
-# wiauDbgLegacyWarning function
+# wiauDbgLegacyWarning function (wiautil.h)
+
+
 
 
 ## -description

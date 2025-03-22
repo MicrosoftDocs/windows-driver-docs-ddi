@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWorkItemCreate function"]
 ms.keywords: DFWorkItemObjectRef_0041ea62-aa06-4e8b-8f84-807731ecc516.xml, WdfWorkItemCreate, WdfWorkItemCreate method, kmdf.wdfworkitemcreate, wdf.wdfworkitemcreate, wdfworkitem/WdfWorkItemCreate
 req.header: wdfworkitem.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfWorkItemCreate
 ---
 
-# WdfWorkItemCreate function
+# WdfWorkItemCreate function (wdfworkitem.h)
+
+
 
 
 ## -description

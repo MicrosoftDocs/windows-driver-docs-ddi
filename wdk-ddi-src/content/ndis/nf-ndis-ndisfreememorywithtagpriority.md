@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeMemoryWithTagPriority function"]
 ms.keywords: NdisFreeMemoryWithTagPriority, NdisFreeMemoryWithTagPriority function [Network Drivers Starting with Windows Vista], ndis/NdisFreeMemoryWithTagPriority, ndis_shared_memory_ref_60846563-cc80-4e5e-b9da-37bcfd5239b2.xml, netvista.ndisfreememorywithtagpriority
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeMemoryWithTagPriority
 ---
 
-# NdisFreeMemoryWithTagPriority function
+# NdisFreeMemoryWithTagPriority function (ndis.h)
+
+
 
 
 ## -description

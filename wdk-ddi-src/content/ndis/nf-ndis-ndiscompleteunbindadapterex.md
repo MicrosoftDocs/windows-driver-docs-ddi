@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCompleteUnbindAdapterEx function"]
 ms.keywords: NdisCompleteUnbindAdapterEx, NdisCompleteUnbindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteUnbindAdapterEx, netvista.ndiscompleteunbindadapterex, protocol_ndis_functions_ref_3d1252b7-d653-4bd6-a105-b998ffed694c.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisCompleteUnbindAdapterEx
 ---
 
-# NdisCompleteUnbindAdapterEx function
+# NdisCompleteUnbindAdapterEx function (ndis.h)
+
+
 
 
 ## -description

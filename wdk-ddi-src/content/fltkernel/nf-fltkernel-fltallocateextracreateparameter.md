@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAllocateExtraCreateParameter function"]
 ms.keywords: FltAllocateExtraCreateParameter, FltAllocateExtraCreateParameter routine [Installable File System Drivers], FltApiRef_a_to_d_937e6c81-7251-4f94-a868-88f65e219c73.xml, fltkernel/FltAllocateExtraCreateParameter, ifsk.fltallocateextracreateparameter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAllocateExtraCreateParameter
 ---
 
-# FltAllocateExtraCreateParameter function
+# FltAllocateExtraCreateParameter function (fltkernel.h)
+
+
 
 
 ## -description

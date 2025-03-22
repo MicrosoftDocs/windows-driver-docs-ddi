@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTQueryFSEBlock function"]
 ms.keywords: D3DKMTQueryFSEBlock
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTQueryFSEBlock function
+# D3DKMTQueryFSEBlock function (d3dkmthk.h)
+
+
 
 
 ## -description

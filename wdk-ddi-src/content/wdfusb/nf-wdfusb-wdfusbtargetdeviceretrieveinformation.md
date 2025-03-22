@@ -8,6 +8,7 @@ ms.date: 01/26/2022
 keywords: ["WdfUsbTargetDeviceRetrieveInformation function"]
 ms.keywords: DFUsbRef_dd8528c2-9697-4cc3-88f2-ba198fbe7594.xml, WdfUsbTargetDeviceRetrieveInformation, WdfUsbTargetDeviceRetrieveInformation method, kmdf.wdfusbtargetdeviceretrieveinformation, wdf.wdfusbtargetdeviceretrieveinformation, wdfusb/WdfUsbTargetDeviceRetrieveInformation
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceRetrieveInformation
 ---
 
-# WdfUsbTargetDeviceRetrieveInformation function
+# WdfUsbTargetDeviceRetrieveInformation function (wdfusb.h)
+
+
 
 
 ## -description

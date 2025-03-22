@@ -5,6 +5,7 @@ description: Learn more about the D3DKMTCreateHwQueue function.
 ms.date: 03/21/2024
 keywords: ["D3DKMTCreateHwQueue function"]
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - D3DKMTCreateHwQueue
 ---
 
-# D3DKMTCreateHwQueue function
+# D3DKMTCreateHwQueue function (d3dkmthk.h)
+
+
 
 ## -description
 

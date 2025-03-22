@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFreeSecurityDescriptor function"]
 ms.keywords: FltApiRef_e_to_o_ee21346e-6629-4ffd-bf82-b3915f4e1649.xml, FltFreeSecurityDescriptor, FltFreeSecurityDescriptor routine [Installable File System Drivers], fltkernel/FltFreeSecurityDescriptor, ifsk.fltfreesecuritydescriptor
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltFreeSecurityDescriptor
 ---
 
-# FltFreeSecurityDescriptor function
+# FltFreeSecurityDescriptor function (fltkernel.h)
+
+
 
 
 ## -description

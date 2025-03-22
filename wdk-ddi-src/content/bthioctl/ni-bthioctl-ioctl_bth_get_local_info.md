@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_LOCAL_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_LOCAL_INFO, IOCTL_BTH_GET_LOCAL_INFO control, IOCTL_BTH_GET_LOCAL_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_local_info, bth_ioctls_930c11ef-ff69-4044-a4ae-6ea3802a5132.xml, bthioctl/IOCTL_BTH_GET_LOCAL_INFO
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_GET_LOCAL_INFO
 ---
 
-# IOCTL_BTH_GET_LOCAL_INFO IOCTL
+# IOCTL_BTH_GET_LOCAL_INFO IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

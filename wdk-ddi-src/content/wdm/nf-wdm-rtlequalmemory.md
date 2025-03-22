@@ -7,6 +7,7 @@ ms.date: 08/16/2023
 keywords: ["RtlEqualMemory macro"]
 ms.keywords: RtlEqualMemory, RtlEqualMemory routine [Kernel-Mode Driver Architecture], k109_a75dfbc8-12af-4f95-9ba0-b7752b796e55.xml, kernel.rtlequalmemory, wdm/RtlEqualMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,10 @@ api_name:
  - RtlEqualMemory
 returns-override: true
 ---
+
+# RtlEqualMemory macro (wdm.h)
+
+
 
 ## -description
 

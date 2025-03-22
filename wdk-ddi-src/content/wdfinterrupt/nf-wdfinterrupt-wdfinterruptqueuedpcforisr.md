@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptQueueDpcForIsr function"]
 ms.keywords: DFInterruptObjectRef_c77c2aa3-e142-4226-aa9d-fb31d408e335.xml, WdfInterruptQueueDpcForIsr, WdfInterruptQueueDpcForIsr method, kmdf.wdfinterruptqueuedpcforisr, wdf.wdfinterruptqueuedpcforisr, wdfinterrupt/WdfInterruptQueueDpcForIsr
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptQueueDpcForIsr
 ---
 
-# WdfInterruptQueueDpcForIsr function
+# WdfInterruptQueueDpcForIsr function (wdfinterrupt.h)
+
+
 
 
 ## -description

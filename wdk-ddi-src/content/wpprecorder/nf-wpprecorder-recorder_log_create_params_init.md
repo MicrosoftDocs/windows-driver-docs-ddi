@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["RECORDER_LOG_CREATE_PARAMS_INIT function"]
 ms.keywords: RECORDER_LOG_CREATE_PARAMS_INIT, RECORDER_LOG_CREATE_PARAMS_INIT function [Driver Development Tools], devtest.recorder_log_create_params_init, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RECORDER_LOG_CREATE_PARAMS_INIT
 ---
 
-# RECORDER_LOG_CREATE_PARAMS_INIT function
+# RECORDER_LOG_CREATE_PARAMS_INIT function (wpprecorder.h)
+
+
 
 
 ## -description

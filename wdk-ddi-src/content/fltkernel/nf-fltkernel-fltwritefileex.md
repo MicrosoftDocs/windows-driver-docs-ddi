@@ -7,6 +7,7 @@ ms.date: 11/15/2023
 keywords: ["FltWriteFileEx function"]
 ms.keywords: FltWriteFileEx, FltWriteFileEx function [Installable File System Drivers], fltkernel/FltWriteFileEx, ifsk.fltwritefileex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - FltWriteFileEx
 ---
 
-# FltWriteFileEx function
+# FltWriteFileEx function (fltkernel.h)
+
+
 
 ## -description
 

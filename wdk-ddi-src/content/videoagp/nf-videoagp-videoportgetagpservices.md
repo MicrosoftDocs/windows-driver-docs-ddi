@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetAgpServices function"]
 ms.keywords: VideoPortGetAgpServices, VideoPortGetAgpServices function [Display Devices], VideoPort_Functions_498a8f06-f24e-4116-90df-30360fa111a1.xml, display.videoportgetagpservices, videoagp/VideoPortGetAgpServices
 req.header: videoagp.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetAgpServices
 ---
 
-# VideoPortGetAgpServices function
+# VideoPortGetAgpServices function (videoagp.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSSTREAM_POINTER_STATE enumeration"]
 ms.keywords: KSSTREAM_POINTER_STATE, KSSTREAM_POINTER_STATE enumeration [Streaming Media Devices], KSSTREAM_POINTER_STATE_LOCKED, KSSTREAM_POINTER_STATE_UNLOCKED, ks/KSSTREAM_POINTER_STATE, ks/KSSTREAM_POINTER_STATE_LOCKED, ks/KSSTREAM_POINTER_STATE_UNLOCKED, stream.ksstream_pointer_state
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSSTREAM_POINTER_STATE
 ---
 
-# KSSTREAM_POINTER_STATE enumeration
+# KSSTREAM_POINTER_STATE enumeration (ks.h)
+
+
 
 
 ## -description

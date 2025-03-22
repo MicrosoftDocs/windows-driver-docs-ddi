@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["IoCreateDevice function"]
 ms.keywords: IoCreateDevice, IoCreateDevice routine [Kernel-Mode Driver Architecture], k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, kernel.iocreatedevice, wdm/IoCreateDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoCreateDevice
 ---
+
+# IoCreateDevice function (wdm.h)
 
 ## -description
 

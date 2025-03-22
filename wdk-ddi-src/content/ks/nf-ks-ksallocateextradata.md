@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAllocateExtraData function"]
 ms.keywords: KsAllocateExtraData, KsAllocateExtraData function [Streaming Media Devices], ks/KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, stream.ksallocateextradata
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAllocateExtraData
 ---
 
-# KsAllocateExtraData function
+# KsAllocateExtraData function (ks.h)
+
+
 
 
 ## -description

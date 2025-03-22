@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_MPIO_PASS_THROUGH_PATH_EX IOCTL"]
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_EX, IOCTL_MPIO_PASS_THROUGH_PATH_EX control, IOCTL_MPIO_PASS_THROUGH_PATH_EX control code [Storage Devices], ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_EX, storage.ioctl_mpio_pass_through_path_ex
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_MPIO_PASS_THROUGH_PATH_EX
 ---
 
-# IOCTL_MPIO_PASS_THROUGH_PATH_EX IOCTL
+# IOCTL_MPIO_PASS_THROUGH_PATH_EX IOCTL (ntddscsi.h)
+
+
+
+
 
 
 ## -description

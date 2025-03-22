@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["WdfDriverRetrieveDriverDataDirectoryString function"]
 ms.keywords: WdfDriverRetrieveDriverDataDirectoryString
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - WdfDriverRetrieveDriverDataDirectoryString
 ---
 
-# WdfDriverRetrieveDriverDataDirectoryString function
+# WdfDriverRetrieveDriverDataDirectoryString function (wdfdriver.h)
+
+
 
 
 ## -description

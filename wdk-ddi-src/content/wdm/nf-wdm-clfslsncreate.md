@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnCreate function"]
 ms.keywords: ClfsLsnCreate, ClfsLsnCreate routine [Kernel-Mode Driver Architecture], Clfs_5eea5630-3db0-45bb-8e16-c9e69081f972.xml, kernel.clfslsncreate, wdm/ClfsLsnCreate
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnCreate
 ---
 
-# ClfsLsnCreate function
+# ClfsLsnCreate function (wdm.h)
+
+
 
 
 ## -description

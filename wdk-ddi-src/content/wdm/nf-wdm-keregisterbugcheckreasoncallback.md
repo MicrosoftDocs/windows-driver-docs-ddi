@@ -8,6 +8,7 @@ ms.date: 05/27/2021
 keywords: ["KeRegisterBugCheckReasonCallback function"]
 ms.keywords: KeRegisterBugCheckReasonCallback, KeRegisterBugCheckReasonCallback routine [Kernel-Mode Driver Architecture], k105_6b2fbc25-072d-470f-9860-e820e60cdf90.xml, kernel.keregisterbugcheckreasoncallback, wdm/KeRegisterBugCheckReasonCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP Service Pack 1 (SP1), Windows Server 2003, and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeRegisterBugCheckReasonCallback
 ---
 
-# KeRegisterBugCheckReasonCallback function
+# KeRegisterBugCheckReasonCallback function (wdm.h)
+
+
 
 ## -description
 

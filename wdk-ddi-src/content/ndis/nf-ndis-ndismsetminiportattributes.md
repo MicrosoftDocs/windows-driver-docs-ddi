@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMSetMiniportAttributes function"]
 ms.keywords: NdisMSetMiniportAttributes, NdisMSetMiniportAttributes function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_2fc47304-466b-4ae0-8450-44c636cecf64.xml, ndis/NdisMSetMiniportAttributes, netvista.ndismsetminiportattributes
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMSetMiniportAttributes
 ---
 
-# NdisMSetMiniportAttributes function
+# NdisMSetMiniportAttributes function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["VideoPortQueryPerformanceCounter function"]
 ms.keywords: VideoPortQueryPerformanceCounter, VideoPortQueryPerformanceCounter function [Display Devices], VideoPort_Functions_cd442a17-45fb-493b-b725-8bfbd12ed398.xml, display.videoportqueryperformancecounter, video/VideoPortQueryPerformanceCounter
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - VideoPortQueryPerformanceCounter
 ---
 
-# VideoPortQueryPerformanceCounter function
+# VideoPortQueryPerformanceCounter function (video.h)
+
+
 
 ## -description
 

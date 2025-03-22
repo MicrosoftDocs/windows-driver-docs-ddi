@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["eChannelTargetType enumeration"]
 ms.keywords: audio.echanneltargettype, eChannelTargetType, eChannelTargetType enumeration [Audio Devices], eMuteAttribute, ePeakMeterAttribute, eVolumeAttribute, portcls/eChannelTargetType, portcls/eMuteAttribute, portcls/ePeakMeterAttribute, portcls/eVolumeAttribute
 req.header: portcls.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - eChannelTargetType
 ---
 
-# eChannelTargetType enumeration
+# eChannelTargetType enumeration (portcls.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL"]
 ms.keywords: IOCTL_USBPRINT_VENDOR_SET_COMMAND, IOCTL_USBPRINT_VENDOR_SET_COMMAND control, IOCTL_USBPRINT_VENDOR_SET_COMMAND control code [Print Devices], print.ioctl_usbprint_vendor_set_command, usbioctl_b3ea3ada-47c2-4acc-b08c-2d16e9d3ead1.xml, usbprint/IOCTL_USBPRINT_VENDOR_SET_COMMAND
 req.header: usbprint.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_USBPRINT_VENDOR_SET_COMMAND
 ---
+
+# IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL (usbprint.h)
+
+
 
 ## -description
 

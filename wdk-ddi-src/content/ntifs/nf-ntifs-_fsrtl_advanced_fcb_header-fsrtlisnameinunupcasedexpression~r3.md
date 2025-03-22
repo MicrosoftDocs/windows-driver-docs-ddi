@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlIsNameInUnUpcasedExpression function"]
 ms.keywords: FsRtlIsNameInUnUpcasedExpression
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
@@ -37,7 +38,9 @@ api_name:
  - FsRtlIsNameInUnUpcasedExpression
 ---
 
-# FsRtlIsNameInUnUpcasedExpression function
+# FsRtlIsNameInUnUpcasedExpression function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterAllocBidiMem function"]
 ms.keywords: RouterAllocBidiMem, RouterAllocBidiMem function [Print Devices], print.routerallocbidimem, spoolfnc_ed433d21-ccfa-4061-9fbd-3bf333e12b31.xml, winsplp/RouterAllocBidiMem
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: This function is available in Windows XP and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - RouterAllocBidiMem
 ---
 
-# RouterAllocBidiMem function
+# RouterAllocBidiMem function (winsplp.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["CWiauFormatConverter::ConvertToBmp"]
 ms.keywords: CWiauFormatConverter interface [Imaging Devices],ConvertToBmp method, CWiauFormatConverter.ConvertToBmp, CWiauFormatConverter::ConvertToBmp, ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices],CWiauFormatConverter interface, image.cwiauformatconverter_converttobmp, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, wiautil/CWiauFormatConverter::ConvertToBmp
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CWiauFormatConverter::ConvertToBmp
 ---
+
+# CWiauFormatConverter::ConvertToBmp function (wiautil.h)
 
 ## -description
 

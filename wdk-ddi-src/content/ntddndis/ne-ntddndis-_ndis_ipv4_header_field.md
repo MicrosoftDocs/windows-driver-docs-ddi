@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_IPV4_HEADER_FIELD enumeration"]
 ms.keywords: "*PNDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD, NDIS_IPV4_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisIPv4HeaderFieldMaximum, NdisIPv4HeaderFieldProtocol, NdisIPv4HeaderFieldUndefined, PNDIS_IPV4_HEADER_FIELD, PNDIS_IPV4_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_IPV4_HEADER_FIELD, netvista.ndis_ipv4_header_field, ntddndis/NDIS_IPV4_HEADER_FIELD, ntddndis/NdisIPv4HeaderFieldMaximum, ntddndis/NdisIPv4HeaderFieldProtocol, ntddndis/NdisIPv4HeaderFieldUndefined, ntddndis/PNDIS_IPV4_HEADER_FIELD"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_IPV4_HEADER_FIELD
 ---
 
-# _NDIS_IPV4_HEADER_FIELD enumeration
+# NDIS_IPV4_HEADER_FIELD enumeration (ntddndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCoIndicateStatusEx function"]
 ms.keywords: NdisMCoIndicateStatusEx, NdisMCoIndicateStatusEx function [Network Drivers Starting with Windows Vista], condis_status_ref_1a0c27e2-e728-4b1d-8e45-9305869d3bfc.xml, ndis/NdisMCoIndicateStatusEx, netvista.ndismcoindicatestatusex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMCoIndicateStatusEx
 ---
 
-# NdisMCoIndicateStatusEx function
+# NdisMCoIndicateStatusEx function (ndis.h)
+
+
 
 
 ## -description

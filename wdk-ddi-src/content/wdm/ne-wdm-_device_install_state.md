@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DEVICE_INSTALL_STATE enumeration"]
 ms.keywords: "*PDEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE, DEVICE_INSTALL_STATE enumeration [Kernel-Mode Driver Architecture], InstallStateFailedInstall, InstallStateFinishInstall, InstallStateInstalled, InstallStateNeedsReinstall, PDEVICE_INSTALL_STATE, PDEVICE_INSTALL_STATE enumeration pointer [Kernel-Mode Driver Architecture], _DEVICE_INSTALL_STATE, kernel.device_install_state, sysenum_ba359e9d-17fd-43c7-8efd-ce6c61f46be6.xml, wdm/DEVICE_INSTALL_STATE, wdm/InstallStateFailedInstall, wdm/InstallStateFinishInstall, wdm/InstallStateInstalled, wdm/InstallStateNeedsReinstall, wdm/PDEVICE_INSTALL_STATE"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows XP and later versions of the Windows operating system.
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_INSTALL_STATE
 ---
 
-# _DEVICE_INSTALL_STATE enumeration
+# DEVICE_INSTALL_STATE enumeration (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortConvertPhysicalAddressToUlong function"]
 ms.keywords: ScsiPortConvertPhysicalAddressToUlong, ScsiPortConvertPhysicalAddressToUlong routine [Storage Devices], scsiprt_5417817d-81ab-4ba9-96f6-589991aecfce.xml, srb/ScsiPortConvertPhysicalAddressToUlong, storage.scsiportconvertphysicaladdresstoulong
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortConvertPhysicalAddressToUlong
 ---
 
-# ScsiPortConvertPhysicalAddressToUlong function
+# ScsiPortConvertPhysicalAddressToUlong function (srb.h)
+
+
 
 
 ## -description

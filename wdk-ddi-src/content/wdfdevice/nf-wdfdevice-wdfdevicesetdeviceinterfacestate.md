@@ -8,6 +8,7 @@ ms.date: 03/24/2020
 keywords: ["WdfDeviceSetDeviceInterfaceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, WdfDeviceSetDeviceInterfaceState, WdfDeviceSetDeviceInterfaceState method, kmdf.wdfdevicesetdeviceinterfacestate, wdf.wdfdevicesetdeviceinterfacestate, wdfdevice/WdfDeviceSetDeviceInterfaceState
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceSetDeviceInterfaceState
 ---
 
-# WdfDeviceSetDeviceInterfaceState function
+# WdfDeviceSetDeviceInterfaceState function (wdfdevice.h)
+
+
 
 
 ## -description

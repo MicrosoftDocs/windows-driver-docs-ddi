@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetDataInBufferSystemAddress function"]
 ms.keywords: StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetDataInBufferSystemAddress
 ---
 
-# StorPortGetDataInBufferSystemAddress function
+# StorPortGetDataInBufferSystemAddress function (storport.h)
+
+
 
 
 ## -description

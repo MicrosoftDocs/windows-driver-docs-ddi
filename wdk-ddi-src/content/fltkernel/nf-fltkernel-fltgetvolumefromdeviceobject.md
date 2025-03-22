@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetVolumeFromDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_fcc59f13-4385-478e-ba1b-c539f13930af.xml, FltGetVolumeFromDeviceObject, FltGetVolumeFromDeviceObject routine [Installable File System Drivers], fltkernel/FltGetVolumeFromDeviceObject, ifsk.fltgetvolumefromdeviceobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetVolumeFromDeviceObject
 ---
 
-# FltGetVolumeFromDeviceObject function
+# FltGetVolumeFromDeviceObject function (fltkernel.h)
+
+
 
 ## -description
 

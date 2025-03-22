@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 04/04/2019
 keywords: ["IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS IOCTL"]
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -34,7 +35,11 @@ dev_langs:
  - c++
 ---
 
-# IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS IOCTL
+# IOCTL_COLORSPACE_TRANSFORM_QUERY_TARGET_CAPS IOCTL (ntddvdeo.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

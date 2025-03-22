@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortControllerSyncRoutine function"]
 ms.keywords: AtaPortControllerSyncRoutine, AtaPortControllerSyncRoutine routine [Storage Devices], atartns_1fdbc2cb-49db-4121-aaaa-8a50c2a6cbde.xml, irb/AtaPortControllerSyncRoutine, storage.ataportcontrollersyncroutine
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortControllerSyncRoutine
 ---
 
-# AtaPortControllerSyncRoutine function
+# AtaPortControllerSyncRoutine function (irb.h)
+
+
 
 
 ## -description

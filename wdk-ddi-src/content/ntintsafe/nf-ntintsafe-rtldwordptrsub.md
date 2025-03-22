@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlDWordPtrSub function"]
 ms.keywords: RtlDWordPtrSub, RtlDWordPtrSub function [Kernel-Mode Driver Architecture], kernel.rtldwordptrsub, ntintsafe/RtlDWordPtrSub
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlDWordPtrSub
 ---
 
-# RtlDWordPtrSub function
+# RtlDWordPtrSub function (ntintsafe.h)
+
+
 
 
 ## -description

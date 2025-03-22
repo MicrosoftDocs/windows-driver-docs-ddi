@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlDecompressBuffer function"]
 ms.keywords: COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, RtlDecompressBuffer, RtlDecompressBuffer function [Installable File System Drivers], ifsk.rtldecompressbuffer, ntifs/RtlDecompressBuffer, rtlref_d19521fb-b086-4ee4-ae65-6354a89aeff9.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -39,7 +40,9 @@ api_name:
  - RtlDecompressBuffer
 ---
 
-# RtlDecompressBuffer function
+# RtlDecompressBuffer function (ntifs.h)
+
+
 
 ## -description
 

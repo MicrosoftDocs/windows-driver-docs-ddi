@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_SEEKING_CAPABILITIES enumeration"]
 ms.keywords: KS_SEEKING_CAPABILITIES, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices], KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanGetDuration, KS_SEEKING_CanGetStopPos, KS_SEEKING_CanPlayBackwards, KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanGetCurrentPos, ks/KS_SEEKING_CanGetDuration, ks/KS_SEEKING_CanGetStopPos, ks/KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekAbsolute, ks/KS_SEEKING_CanSeekBackwards, ks/KS_SEEKING_CanSeekForwards, stream.ks_seeking_capabilities
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_SEEKING_CAPABILITIES
 ---
 
-# KS_SEEKING_CAPABILITIES enumeration
+# KS_SEEKING_CAPABILITIES enumeration (ks.h)
+
+
 
 
 ## -description

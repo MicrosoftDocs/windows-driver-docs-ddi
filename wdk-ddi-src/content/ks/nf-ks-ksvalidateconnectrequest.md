@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsValidateConnectRequest function"]
 ms.keywords: KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, stream.ksvalidateconnectrequest
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsValidateConnectRequest
 ---
 
-# KsValidateConnectRequest function
+# KsValidateConnectRequest function (ks.h)
+
+
 
 
 ## -description

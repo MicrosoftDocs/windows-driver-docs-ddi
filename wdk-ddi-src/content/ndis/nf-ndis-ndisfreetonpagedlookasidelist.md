@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeToNPagedLookasideList macro"]
 ms.keywords: NdisFreeToNPagedLookasideList, NdisFreeToNPagedLookasideList macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeToNPagedLookasideList, ndis_lookaside_ref_8c12e884-8f7b-4bcc-9631-2173003e4ef6.xml, netvista.ndisfreetonpagedlookasidelist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisFreeToNPagedLookasideList (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisFreeToNPagedLookasideList (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisFreeToNPagedLookasideList
 ---
 
-# NdisFreeToNPagedLookasideList macro
+# NdisFreeToNPagedLookasideList macro (ndis.h)
+
+
+
+
 
 
 ## -description

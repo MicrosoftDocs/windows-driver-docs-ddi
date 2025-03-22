@@ -7,6 +7,7 @@ ms.date: 01/27/2025
 keywords: ["ExInitializeLookasideListEx function"]
 ms.keywords: ExInitializeLookasideListEx, ExInitializeLookasideListEx routine [Kernel-Mode Driver Architecture], k102_1ceb4bd5-41cb-4f77-b435-a8bf922afbc2.xml, kernel.exinitializelookasidelistex, wdm/ExInitializeLookasideListEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExInitializeLookasideListEx
 ---
+
+# ExInitializeLookasideListEx function (wdm.h)
 
 ## -description
 

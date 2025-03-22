@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_DEVICE_SERVICE_SESSION_STATE enumeration"]
 ms.keywords: "*PWWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE, WWAN_DEVICE_SERVICE_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanDeviceServiceSessionClosed, WwanDeviceServiceSessionOpen, _WWAN_DEVICE_SERVICE_SESSION_STATE, netvista.wwan_device_service_session_state, wwan/WWAN_DEVICE_SERVICE_SESSION_STATE, wwan/WwanDeviceServiceSessionClosed, wwan/WwanDeviceServiceSessionOpen"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_DEVICE_SERVICE_SESSION_STATE
 ---
 
-# _WWAN_DEVICE_SERVICE_SESSION_STATE enumeration
+# WWAN_DEVICE_SERVICE_SESSION_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

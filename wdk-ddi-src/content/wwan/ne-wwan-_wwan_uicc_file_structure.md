@@ -7,6 +7,7 @@ ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_STRUCTURE enumeration"]
 ms.keywords: _WWAN_UICC_FILE_STRUCTURE, WWAN_UICC_FILE_STRUCTURE, *PWWAN_UICC_FILE_STRUCTURE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -37,7 +38,9 @@ api_name:
  - WWAN_UICC_FILE_STRUCTURE
 ---
 
-# _WWAN_UICC_FILE_STRUCTURE enumeration
+# WWAN_UICC_FILE_STRUCTURE enumeration (wwan.h)
+
+
 
 
 ## -description

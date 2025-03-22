@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMUpgradeRegistry function"]
 ms.keywords: OEMUpgradeRegistry, OEMUpgradeRegistry function [Print Devices], print.oemupgraderegistry, print_obsoletefunctions_5837e384-9879-4909-8dfa-f3c74486bde0.xml, printoem/OEMUpgradeRegistry
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMUpgradeRegistry
 ---
+
+# OEMUpgradeRegistry function (printoem.h)
 
 ## -description
 

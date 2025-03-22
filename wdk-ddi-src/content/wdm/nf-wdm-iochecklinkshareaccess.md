@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCheckLinkShareAccess function"]
 ms.keywords: IoCheckLinkShareAccess, IoCheckLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iochecklinkshareaccess, wdm/IoCheckLinkShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1709
@@ -42,7 +43,9 @@ api_name:
  - IoCheckLinkShareAccess
 ---
 
-# IoCheckLinkShareAccess function
+# IoCheckLinkShareAccess function (wdm.h)
+
+
 
 
 ## -description

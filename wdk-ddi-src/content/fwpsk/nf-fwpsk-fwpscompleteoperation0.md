@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsCompleteOperation0 function"]
 ms.keywords: FwpsCompleteOperation0, FwpsCompleteOperation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteOperation0, netvista.fwpscompleteoperation0, wfp_ref_2_funct_3_fwps_C_bfabbf4d-812a-411f-b9ef-c2e6f145404d.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsCompleteOperation0
 ---
 
-# FwpsCompleteOperation0 function
+# FwpsCompleteOperation0 function (fwpsk.h)
+
+
 
 
 ## -description

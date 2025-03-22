@@ -7,6 +7,7 @@ ms.date: 02/22/2024
 keywords: ["FltFlushBuffers2 function"]
 ms.keywords: FltFlushBuffers2, FltFlushBuffers, IRP_MJ_FLUSH_BUFFERS
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# FltFlushBuffers2 function
+# FltFlushBuffers2 function (fltkernel.h)
+
+
 
 ## -description
 

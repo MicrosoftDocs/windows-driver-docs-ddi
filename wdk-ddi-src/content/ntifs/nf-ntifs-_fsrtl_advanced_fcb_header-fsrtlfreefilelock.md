@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlFreeFileLock function"]
 ms.keywords: FsRtlFreeFileLock, FsRtlFreeFileLock routine [Installable File System Drivers], fsrtlref_112afa00-3370-4671-ad22-0743f8dd1c52.xml, ifsk.fsrtlfreefilelock, ntifs/FsRtlFreeFileLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - FsRtlFreeFileLock
 ---
 
-# FsRtlFreeFileLock function
+# FsRtlFreeFileLock function (ntifs.h)
+
+
 
 
 ## -description

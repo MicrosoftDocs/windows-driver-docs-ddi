@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SensorsCxSensorInitialize function"]
 ms.keywords: SensorsCxSensorInitialize, SensorsCxSensorInitialize function [Sensor Devices], sensors.sensorscxsensorinitialize, sensorscx/SensorsCxSensorInitialize
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SensorsCxSensorInitialize
 ---
 
-# SensorsCxSensorInitialize function
+# SensorsCxSensorInitialize function (sensorscx.h)
+
+
 
 
 ## -description

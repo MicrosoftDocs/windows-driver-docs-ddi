@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinAttachAndGate function"]
 ms.keywords: KsPinAttachAndGate, KsPinAttachAndGate function [Streaming Media Devices], avfunc_395e0cf9-ba21-4b20-a37b-7758d1bfeca0.xml, ks/KsPinAttachAndGate, stream.kspinattachandgate
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinAttachAndGate
 ---
 
-# KsPinAttachAndGate function
+# KsPinAttachAndGate function (ks.h)
+
+
 
 
 ## -description

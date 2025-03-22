@@ -6,6 +6,7 @@ ms.date: 07/13/2018
 keywords: ["ErrorClass enumeration"]
 ms.keywords: ErrorClass, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - ErrorClass
 ---
 
-# ErrorClass enumeration
+# ErrorClass enumeration (dbgmodel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFRestartFilter function"]
 ms.keywords: NdisFRestartFilter, NdisFRestartFilter function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_c95250d0-3081-40cc-a39f-0d5c1ce51925.xml, ndis/NdisFRestartFilter, netvista.ndisfrestartfilter
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFRestartFilter
 ---
 
-# NdisFRestartFilter function
+# NdisFRestartFilter function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BdaUninitFilter function"]
 ms.keywords: BdaUninitFilter, BdaUninitFilter function [Streaming Media Devices], bdaref_68d86dcd-9a84-4c5f-acf5-8174ab3ba6d8.xml, bdasup/BdaUninitFilter, stream.bdauninitfilter
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
@@ -41,7 +42,9 @@ api_name:
  - BdaUninitFilter
 ---
 
-# BdaUninitFilter function
+# BdaUninitFilter function (bdasup.h)
+
+
 
 
 ## -description

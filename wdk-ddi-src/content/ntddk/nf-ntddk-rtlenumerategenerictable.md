@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlEnumerateGenericTable function"]
 ms.keywords: RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], ifsk.rtlenumerategenerictable, ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlEnumerateGenericTable
 ---
+
+# RtlEnumerateGenericTable function (ntddk.h)
 
 ## -description
 

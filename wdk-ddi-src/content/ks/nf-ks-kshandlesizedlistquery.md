@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsHandleSizedListQuery function"]
 ms.keywords: KsHandleSizedListQuery, KsHandleSizedListQuery function [Streaming Media Devices], ks/KsHandleSizedListQuery, ksfunc_31d10c58-ce60-43ca-aae7-27a0bd83d2e2.xml, stream.kshandlesizedlistquery
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsHandleSizedListQuery
 ---
 
-# KsHandleSizedListQuery function
+# KsHandleSizedListQuery function (ks.h)
+
+
 
 
 ## -description

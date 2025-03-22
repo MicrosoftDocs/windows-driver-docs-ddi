@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoIsErrorUserInduced macro"]
 ms.keywords: IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, kernel.ioiserroruserinduced, wdm/IoIsErrorUserInduced
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - IoIsErrorUserInduced
 ---
 
-# IoIsErrorUserInduced macro
+# IoIsErrorUserInduced macro (wdm.h)
+
+
+
+
 
 
 ## -description

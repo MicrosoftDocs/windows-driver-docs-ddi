@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfObjectDelete function"]
 ms.keywords: DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, WdfObjectDelete, WdfObjectDelete method, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, wdfobject/WdfObjectDelete
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfObjectDelete
 ---
 
-# WdfObjectDelete function
+# WdfObjectDelete function (wdfobject.h)
+
+
 
 
 ## -description

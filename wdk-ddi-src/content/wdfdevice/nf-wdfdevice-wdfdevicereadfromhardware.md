@@ -8,6 +8,7 @@ ms.date: 11/01/2021
 keywords: ["WdfDeviceReadFromHardware function"]
 ms.keywords: PFN_WDFDEVICEREADFROMHARDWARE, WdfDeviceReadFromHardware, WdfDeviceReadFromHardware method, wdf.wdfdevicereadfromhardware, wdfdevice/WdfDeviceReadFromHardware, wdfhwaccess/WdfDeviceReadFromHardware
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceReadFromHardware
 ---
 
-# WdfDeviceReadFromHardware function
+# WdfDeviceReadFromHardware function (wdfdevice.h)
+
+
 
 
 ## -description

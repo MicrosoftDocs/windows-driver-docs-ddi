@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 04/02/2024
 ms.keywords: STORPORT_FEATURE_TYPE, STORPORT_FEATURE_TYPE,
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -32,7 +33,9 @@ api_name:
  - STORPORT_FEATURE_TYPE
 ---
 
-# STORPORT_FEATURE_TYPE enumeration
+# STORPORT_FEATURE_TYPE enumeration (storport.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/04/2022
 keywords: ["IPrinterScriptableStream::Commit"]
 ms.keywords: Commit, Commit method [Print Devices], Commit method [Print Devices],IPrinterScriptableStream interface, IPrinterScriptableStream interface [Print Devices],Commit method, IPrinterScriptableStream.Commit, IPrinterScriptableStream::Commit, print.iprinterscriptablestream__commit, printerextension/IPrinterScriptableStream::Commit
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptableStream::Commit
 ---
+
+# IPrinterScriptableStream::Commit function (printerextension.h)
 
 ## -description
 

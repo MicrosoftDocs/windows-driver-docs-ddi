@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlGenerate8dot3Name function"]
 ms.keywords: RtlGenerate8dot3Name, RtlGenerate8dot3Name routine [Installable File System Drivers], ifsk.rtlgenerate8dot3name, ntifs/RtlGenerate8dot3Name, rtlref_e28a5c45-d430-43a7-89f8-4f193971715c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RtlGenerate8dot3Name
 ---
 
-# RtlGenerate8dot3Name function
+# RtlGenerate8dot3Name function (ntifs.h)
+
+
 
 ## -description
 

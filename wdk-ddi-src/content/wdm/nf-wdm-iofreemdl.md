@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoFreeMdl function"]
 ms.keywords: IoFreeMdl, IoFreeMdl routine [Kernel-Mode Driver Architecture], k104_30217ed4-82a6-4b6d-b6f6-77fab8faa867.xml, kernel.iofreemdl, wdm/IoFreeMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoFreeMdl
 ---
 
-# IoFreeMdl function
+# IoFreeMdl function (wdm.h)
+
+
 
 
 ## -description

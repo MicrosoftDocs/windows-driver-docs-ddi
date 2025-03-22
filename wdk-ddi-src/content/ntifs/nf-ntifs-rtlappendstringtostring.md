@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlAppendStringToString function"]
 ms.keywords: RtlAppendStringToString, RtlAppendStringToString routine [Installable File System Drivers], ifsk.rtlappendstringtostring, ntifs/RtlAppendStringToString, rtlref_a5cf2f54-1094-44ea-8b05-0c3d08aa5abc.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - RtlAppendStringToString
 ---
 
-# RtlAppendStringToString function
+# RtlAppendStringToString function (ntifs.h)
+
+
 
 
 ## -description

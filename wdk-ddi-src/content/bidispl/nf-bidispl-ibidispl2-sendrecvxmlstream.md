@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiSpl2::SendRecvXMLStream"]
 ms.keywords: IBidiSpl2 interface [Print Devices],SendRecvXMLStream method, IBidiSpl2.SendRecvXMLStream, IBidiSpl2::SendRecvXMLStream, SendRecvXMLStream, SendRecvXMLStream method [Print Devices], SendRecvXMLStream method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_SendRecvXMLStream, bidispl/IBidiSpl2::SendRecvXMLStream, gdi.ibidispl2_ibidispl2__sendrecvxmlstream, print.ibidispl2_ibidispl2__sendrecvxmlstream
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows Vista
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiSpl2::SendRecvXMLStream
 ---
+
+# IBidiSpl2::SendRecvXMLStream function (bidispl.h)
 
 ## -description
 

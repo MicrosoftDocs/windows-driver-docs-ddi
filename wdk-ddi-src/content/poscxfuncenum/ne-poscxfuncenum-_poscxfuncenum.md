@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["POSCXFUNCENUM enumeration"]
 ms.keywords: _POSCXFUNCENUM, POSCXFUNCENUM,
 req.header: poscxfuncenum.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - POSCXFUNCENUM
 ---
 
-# _POSCXFUNCENUM enumeration
+# POSCXFUNCENUM enumeration (poscxfuncenum.h)
+
+
 
 
 ## -description

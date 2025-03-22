@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["DrvSplStartDoc function"]
 ms.keywords: DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print.drvsplstartdoc, print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvSplStartDoc
 ---
+
+# DrvSplStartDoc function (winddiui.h)
 
 ## -description
 

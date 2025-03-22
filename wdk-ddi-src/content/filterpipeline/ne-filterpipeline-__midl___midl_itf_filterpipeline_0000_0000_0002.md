@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["_MIDL___MIDL_itf_filterpipeline_0000_0000_0002 enumeration"]
 ms.keywords: EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], Font_Normal, Font_Obfusticate, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/EXpsFontOptions, filterpipeline/Font_Normal, filterpipeline/Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, print.expsfontoptions
 req.header: filterpipeline.h
+req.construct-type: enumeration
 req.include-header: Filterpipeline.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - EXpsFontOptions
 ---
 
-# __MIDL___MIDL_itf_filterpipeline_0000_0000_0002 enumeration
+# EXpsFontOptions enumeration (filterpipeline.h)
+
+
 
 
 ## -description

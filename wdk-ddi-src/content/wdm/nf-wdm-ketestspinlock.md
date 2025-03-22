@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeTestSpinLock function"]
 ms.keywords: KeTestSpinLock, KeTestSpinLock routine [Kernel-Mode Driver Architecture], k105_99f18fd9-0242-4939-86ab-016236f9adcb.xml, kernel.ketestspinlock, wdm/KeTestSpinLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeTestSpinLock
 ---
 
-# KeTestSpinLock function
+# KeTestSpinLock function (wdm.h)
+
+
 
 
 ## -description

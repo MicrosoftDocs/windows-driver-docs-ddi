@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["DEVICE_WAKE_DEPTH enumeration"]
 ms.keywords: "*PDEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH, DEVICE_WAKE_DEPTH enumeration [Kernel-Mode Driver Architecture], DeviceWakeDepthD0, DeviceWakeDepthD1, DeviceWakeDepthD2, DeviceWakeDepthD3cold, DeviceWakeDepthD3hot, DeviceWakeDepthMaximum, DeviceWakeDepthNotWakeable, _DEVICE_WAKE_DEPTH, kernel.device_wake_depth, wdm/DEVICE_WAKE_DEPTH, wdm/DeviceWakeDepthD0, wdm/DeviceWakeDepthD1, wdm/DeviceWakeDepthD2, wdm/DeviceWakeDepthD3cold, wdm/DeviceWakeDepthD3hot, wdm/DeviceWakeDepthMaximum, wdm/DeviceWakeDepthNotWakeable"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DEVICE_WAKE_DEPTH
 ---
 
-# _DEVICE_WAKE_DEPTH enumeration
+# DEVICE_WAKE_DEPTH enumeration (wdm.h)
+
+
 
 
 ## -description

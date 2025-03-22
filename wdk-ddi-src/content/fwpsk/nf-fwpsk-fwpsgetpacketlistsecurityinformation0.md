@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsGetPacketListSecurityInformation0 function"]
 ms.keywords: FwpsGetPacketListSecurityInformation0, FwpsGetPacketListSecurityInformation0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsGetPacketListSecurityInformation0, netvista.fwpsgetpacketlistsecurityinformation0, wfp_ref_2_funct_3_fwps_D-H_1c333aca-c13e-449e-b230-a6d217442a5d.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsGetPacketListSecurityInformation0
 ---
 
-# FwpsGetPacketListSecurityInformation0 function
+# FwpsGetPacketListSecurityInformation0 function (fwpsk.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the DxgkInitialize function.
 tech.root: display
 ms.date: 01/13/2025
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: Dispmprt.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -37,7 +38,9 @@ api_name:
  - DxgkInitialize
 ---
 
-# DxgkInitialize function
+# DxgkInitialize function (dispmprt.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PO_FX_PERF_STATE_UNIT enumeration"]
 ms.keywords: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_UNIT, PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], PoFxPerfStateUnitBandwidth, PoFxPerfStateUnitFrequency, PoFxPerfStateUnitMaximum, PoFxPerfStateUnitOther, _PO_FX_PERF_STATE_UNIT, kernel.po_fx_perf_state_unit, wdm/PO_FX_PERF_STATE_UNIT, wdm/PPO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitBandwidth, wdm/PoFxPerfStateUnitFrequency, wdm/PoFxPerfStateUnitMaximum, wdm/PoFxPerfStateUnitOther"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PO_FX_PERF_STATE_UNIT
 ---
 
-# _PO_FX_PERF_STATE_UNIT enumeration
+# PO_FX_PERF_STATE_UNIT enumeration (wdm.h)
+
+
 
 
 ## -description

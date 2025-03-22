@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeTokenSetNoChildProcessRestricted function"]
 ms.keywords: SeTokenSetNoChildProcessRestricted, SeTokenSetNoChildProcessRestricted function [Installable File System Drivers], ifsk.setokensetnochildprocessrestricted, ntifs/SeTokenSetNoChildProcessRestricted
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709.
@@ -40,7 +41,9 @@ api_name:
  - SeTokenSetNoChildProcessRestricted
 ---
 
-# SeTokenSetNoChildProcessRestricted function
+# SeTokenSetNoChildProcessRestricted function (ntifs.h)
+
+
 
 
 ## -description

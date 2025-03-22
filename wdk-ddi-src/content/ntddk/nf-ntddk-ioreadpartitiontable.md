@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IoReadPartitionTable function"]
 ms.keywords: IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], ntddk/IoReadPartitionTable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, storage.ioreadpartitiontable
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoReadPartitionTable
 ---
 
-# IoReadPartitionTable function
+# IoReadPartitionTable function (ntddk.h)
+
+
 
 
 ## -description

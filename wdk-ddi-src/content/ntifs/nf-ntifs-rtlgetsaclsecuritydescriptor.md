@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlGetSaclSecurityDescriptor function"]
 ms.keywords: RtlGetSaclSecurityDescriptor, RtlGetSaclSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetsaclsecuritydescriptor, ntifs/RtlGetSaclSecurityDescriptor, rtlref_708c4a48-6840-426d-9c64-1eff896e8446.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003 SP1
@@ -40,7 +41,9 @@ api_name:
  - RtlGetSaclSecurityDescriptor
 ---
 
-# RtlGetSaclSecurityDescriptor function
+# RtlGetSaclSecurityDescriptor function (ntifs.h)
+
+
 
 
 ## -description

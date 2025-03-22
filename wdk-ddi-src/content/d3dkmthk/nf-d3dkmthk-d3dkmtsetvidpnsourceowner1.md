@@ -7,6 +7,7 @@ ms.date: 03/01/2022
 keywords: ["D3DKMTSetVidPnSourceOwner1 function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner1, D3DKMTSetVidPnSourceOwner1 callback function [Display Devices], PFND3DKMT_SETVIDPNSOURCEOWNER1, PFND3DKMT_SETVIDPNSOURCEOWNER1 callback, d3dkmthk/D3DKMTSetVidPnSourceOwner1, display.d3dkmtsetvidpnsourceowner1
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSetVidPnSourceOwner1
 ---
 
-# D3DKMTSetVidPnSourceOwner1 function
+# D3DKMTSetVidPnSourceOwner1 function (d3dkmthk.h)
+
+
 
 ## -description
 

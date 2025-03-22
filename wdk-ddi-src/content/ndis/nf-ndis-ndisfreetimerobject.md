@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeTimerObject function"]
 ms.keywords: NdisFreeTimerObject, NdisFreeTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeTimerObject, ndis_timer_ref_0f4b2edb-47fb-481c-a1e9-6940d15cb354.xml, netvista.ndisfreetimerobject
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeTimerObject
 ---
 
-# NdisFreeTimerObject function
+# NdisFreeTimerObject function (ndis.h)
+
+
 
 
 ## -description

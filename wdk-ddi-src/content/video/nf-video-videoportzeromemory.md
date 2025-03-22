@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortZeroMemory function"]
 ms.keywords: VideoPortZeroMemory, VideoPortZeroMemory function [Display Devices], VideoPort_Functions_518c5fa4-2011-47bd-a24c-0dff144dfa3a.xml, display.videoportzeromemory, video/VideoPortZeroMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortZeroMemory
 ---
 
-# VideoPortZeroMemory function
+# VideoPortZeroMemory function (video.h)
+
+
 
 
 ## -description

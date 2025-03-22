@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaCheckChanges function"]
 ms.keywords: BdaCheckChanges, BdaCheckChanges function [Streaming Media Devices], bdaref_d60c7f03-8188-4be5-807c-e21384429341.xml, bdasup/BdaCheckChanges, stream.bdacheckchanges
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaCheckChanges
 ---
+
+# BdaCheckChanges function (bdasup.h)
 
 ## -description
 

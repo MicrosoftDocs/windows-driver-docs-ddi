@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["LOCK_OPERATION enumeration"]
 ms.keywords: IoModifyAccess, IoReadAccess, IoWriteAccess, LOCK_OPERATION, LOCK_OPERATION enumeration [Installable File System Drivers], _LOCK_OPERATION, ifsk.lock_operation, wdm/IoModifyAccess, wdm/IoReadAccess, wdm/IoWriteAccess, wdm/LOCK_OPERATION
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating system.
@@ -43,7 +44,9 @@ api_name:
  - LOCK_OPERATION
 ---
 
-# _LOCK_OPERATION enumeration
+# LOCK_OPERATION enumeration (wdm.h)
+
+
 
 
 ## -description

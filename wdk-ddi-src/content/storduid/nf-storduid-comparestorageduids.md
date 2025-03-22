@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CompareStorageDuids function"]
 ms.keywords: CompareStorageDuids, CompareStorageDuids routine [Storage Devices], storage.comparestorageduids, storduid/CompareStorageDuids, storertns-general_86f18b5a-ed33-48e8-b13c-76bd2422418d.xml
 req.header: storduid.h
+req.construct-type: function
 req.include-header: Storduid.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CompareStorageDuids
 ---
 
-# CompareStorageDuids function
+# CompareStorageDuids function (storduid.h)
+
+
 
 
 ## -description

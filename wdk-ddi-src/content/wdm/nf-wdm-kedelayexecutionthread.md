@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeDelayExecutionThread function"]
 ms.keywords: KeDelayExecutionThread, KeDelayExecutionThread routine [Kernel-Mode Driver Architecture], k105_2335c373-d2b6-49bf-b329-92ab442ccade.xml, kernel.kedelayexecutionthread, wdm/KeDelayExecutionThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeDelayExecutionThread
 ---
 
-# KeDelayExecutionThread function
+# KeDelayExecutionThread function (wdm.h)
+
+
 
 
 ## -description

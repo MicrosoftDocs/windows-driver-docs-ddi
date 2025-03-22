@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_MIC_SET_VOLUME IOCTL"]
 ms.keywords: IOCTL_BTHHFP_MIC_SET_VOLUME, IOCTL_BTHHFP_MIC_SET_VOLUME control, IOCTL_BTHHFP_MIC_SET_VOLUME control code [Audio Devices], audio.ioctl_bthhfp_mic_set_volume, bthhfpddi/IOCTL_BTHHFP_MIC_SET_VOLUME
 req.header: bthhfpddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHHFP_MIC_SET_VOLUME
 ---
 
-# IOCTL_BTHHFP_MIC_SET_VOLUME IOCTL
+# IOCTL_BTHHFP_MIC_SET_VOLUME IOCTL (bthhfpddi.h)
+
+
+
+
 
 
 ## -description

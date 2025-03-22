@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionRemoveItem function"]
 ms.keywords: DFCollectionObjectRef_a037497e-b219-41c1-8d65-29cf8be17989.xml, WdfCollectionRemoveItem, WdfCollectionRemoveItem method, kmdf.wdfcollectionremoveitem, wdf.wdfcollectionremoveitem, wdfcollection/WdfCollectionRemoveItem
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionRemoveItem
 ---
 
-# WdfCollectionRemoveItem function
+# WdfCollectionRemoveItem function (wdfcollection.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["eDiagnoseLevel enumeration"]
 ms.keywords: DiagnoseLevelDriverStateDump, DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, DiagnoseLevelNone, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelFirmwareImageDump, dot11wdi/DiagnoseLevelHardwareRegisters, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, eDiagnoseLevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], netvista.wdiediagnoselevel
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - eDiagnoseLevel
 ---
 
-# eDiagnoseLevel enumeration
+# eDiagnoseLevel enumeration (dot11wdi.h)
+
+
 
 
 ## -description

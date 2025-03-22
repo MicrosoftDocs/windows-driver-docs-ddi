@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwRollbackEnlistment function"]
 ms.keywords: NtRollbackEnlistment, ZwRollbackEnlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwrollbackenlistment, ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, wdm/NtRollbackEnlistment, wdm/ZwRollbackEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwRollbackEnlistment
 ---
 
-# ZwRollbackEnlistment function
+# ZwRollbackEnlistment function (wdm.h)
+
+
 
 
 ## -description

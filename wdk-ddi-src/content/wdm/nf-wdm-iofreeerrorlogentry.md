@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoFreeErrorLogEntry function"]
 ms.keywords: IoFreeErrorLogEntry, IoFreeErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_33f7cbb2-e145-46f1-99a0-b53381704aad.xml, kernel.iofreeerrorlogentry, wdm/IoFreeErrorLogEntry
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoFreeErrorLogEntry
 ---
 
-# IoFreeErrorLogEntry function
+# IoFreeErrorLogEntry function (wdm.h)
+
+
 
 
 ## -description

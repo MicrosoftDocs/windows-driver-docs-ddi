@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlLookupElementGenericTableFullAvl function"]
 ms.keywords: RtlLookupElementGenericTableFullAvl, RtlLookupElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictablefullavl, ntddk/RtlLookupElementGenericTableFullAvl, rtlref_12eb0cb8-ea58-45a8-a88b-ceddc5af12c6.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - RtlLookupElementGenericTableFullAvl
 ---
 
-# RtlLookupElementGenericTableFullAvl function
+# RtlLookupElementGenericTableFullAvl function (ntddk.h)
+
+
 
 
 ## -description

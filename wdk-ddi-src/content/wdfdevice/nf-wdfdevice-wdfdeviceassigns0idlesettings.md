@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceAssignS0IdleSettings function"]
 ms.keywords: DFDeviceObjectGeneralRef_e43c95d7-1261-45d0-b47c-460b65bc28c8.xml, WdfDeviceAssignS0IdleSettings, WdfDeviceAssignS0IdleSettings method, kmdf.wdfdeviceassigns0idlesettings, wdf.wdfdeviceassigns0idlesettings, wdfdevice/WdfDeviceAssignS0IdleSettings
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceAssignS0IdleSettings
 ---
 
-# WdfDeviceAssignS0IdleSettings function
+# WdfDeviceAssignS0IdleSettings function (wdfdevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NmrWaitForProviderDeregisterComplete function"]
 ms.keywords: NmrWaitForProviderDeregisterComplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, nmrref_bd063787-0438-49de-9816-e5a110528d54.xml
 req.header: netioddk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - NmrWaitForProviderDeregisterComplete
 ---
 
-# NmrWaitForProviderDeregisterComplete function
+# NmrWaitForProviderDeregisterComplete function (netioddk.h)
+
+
 
 
 ## -description

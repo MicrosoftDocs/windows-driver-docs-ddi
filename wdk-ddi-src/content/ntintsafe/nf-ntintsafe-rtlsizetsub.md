@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSizeTSub function"]
 ms.keywords: RtlSizeTSub, RtlSizeTSub function [Kernel-Mode Driver Architecture], kernel.rtlsizetsub, ntintsafe/RtlSizeTSub
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSizeTSub
 ---
 
-# RtlSizeTSub function
+# RtlSizeTSub function (ntintsafe.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/31/2024
 keywords: ["LanguageKind enumeration"]
 ms.keywords: LanguageKind, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - LanguageKind
 ---
 
-# LanguageKind enumeration
+# LanguageKind enumeration (dbgmodel.h)
+
+
 
 
 ## -description

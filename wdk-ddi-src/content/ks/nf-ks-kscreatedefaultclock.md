@@ -8,6 +8,7 @@ ms.date: 06/25/2020
 keywords: ["KsCreateDefaultClock function"]
 ms.keywords: KsCreateDefaultClock, KsCreateDefaultClock function [Streaming Media Devices], ks/KsCreateDefaultClock, ksfunc_eb8617e1-d6e0-434d-bace-cec6b2b1cce1.xml, stream.kscreatedefaultclock
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCreateDefaultClock
 ---
 
-# KsCreateDefaultClock function
+# KsCreateDefaultClock function (ks.h)
+
+
 
 
 ## -description

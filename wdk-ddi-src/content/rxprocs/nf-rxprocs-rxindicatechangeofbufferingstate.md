@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxIndicateChangeOfBufferingState function"]
 ms.keywords: RxIndicateChangeOfBufferingState, RxIndicateChangeOfBufferingState routine [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstate, rxprocs/RxIndicateChangeOfBufferingState, rxref_4a7ba539-c0b8-4c3b-b642-c272d262310b.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxIndicateChangeOfBufferingState
 ---
 
-# RxIndicateChangeOfBufferingState function
+# RxIndicateChangeOfBufferingState function (rxprocs.h)
+
+
 
 
 ## -description

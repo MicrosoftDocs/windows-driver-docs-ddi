@@ -8,6 +8,7 @@ ms.date: 11/01/2021
 keywords: ["WdfCompanionTargetWdmGetCompanionProcess function"]
 ms.keywords: WdfCompanionTargetWdmGetCompanionProcess, WdfCompanionTargetWdmGetCompanionProcess method, wdf.wdfcompaniontargetwdmgetcompanionprocess, wdfcompaniontarget/WdfCompanionTargetWdmGetCompanionProcess
 req.header: wdfcompaniontarget.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfCompanionTargetWdmGetCompanionProcess
 ---
 
-# WdfCompanionTargetWdmGetCompanionProcess function
+# WdfCompanionTargetWdmGetCompanionProcess function (wdfcompaniontarget.h)
+
+
 
 
 ## -description

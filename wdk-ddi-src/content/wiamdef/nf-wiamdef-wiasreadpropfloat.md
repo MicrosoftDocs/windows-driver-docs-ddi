@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasReadPropFloat function"]
 ms.keywords: image.wiasreadpropfloat, wiamdef/wiasReadPropFloat, wiasFncs_9b143e96-64a5-4de3-b40d-c542bc440dc0.xml, wiasReadPropFloat, wiasReadPropFloat function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasReadPropFloat
 ---
 
-# wiasReadPropFloat function
+# wiasReadPropFloat function (wiamdef.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortWmiSetData function"]
 ms.keywords: ScsiPortWmiSetData, ScsiPortWmiSetData routine [Storage Devices], scsiprt_d35b9d5f-3bb4-4739-ab53-55a229eddb51.xml, scsiwmi/ScsiPortWmiSetData, storage.scsiportwmisetdata
 req.header: scsiwmi.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ScsiPortWmiSetData
 ---
 
-# ScsiPortWmiSetData function
+# ScsiPortWmiSetData function (scsiwmi.h)
+
+
 
 
 ## -description

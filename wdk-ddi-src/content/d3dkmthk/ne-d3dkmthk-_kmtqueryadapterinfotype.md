@@ -4,6 +4,7 @@ title: KMTQUERYADAPTERINFOTYPE (d3dkmthk.h)
 description: Learn more about the KMTQUERYADAPTERINFOTYPE enumeration.
 ms.date: 02/03/2025
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -30,6 +31,8 @@ api_name:
  - _KMTQUERYADAPTERINFOTYPE
  - KMTQUERYADAPTERINFOTYPE
 ---
+
+# KMTQUERYADAPTERINFOTYPE enumeration (d3dkmthk.h)
 
 ## -description
 

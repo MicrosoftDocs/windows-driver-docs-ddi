@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsQueueWorkItem function"]
 ms.keywords: KsQueueWorkItem, KsQueueWorkItem function [Streaming Media Devices], ks/KsQueueWorkItem, ksfunc_abb711a0-0862-4d91-b2e1-3af290f1112f.xml, stream.ksqueueworkitem
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsQueueWorkItem
 ---
 
-# KsQueueWorkItem function
+# KsQueueWorkItem function (ks.h)
+
+
 
 
 ## -description

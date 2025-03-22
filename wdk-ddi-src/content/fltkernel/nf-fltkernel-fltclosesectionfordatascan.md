@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCloseSectionForDataScan function"]
 ms.keywords: FltCloseSectionForDataScan, FltCloseSectionForDataScan routine [Installable File System Drivers], fltkernel/FltCloseSectionForDataScan, ifsk.fltclosesectionfordatascan
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltCloseSectionForDataScan routine is available starting with  Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FltCloseSectionForDataScan
 ---
 
-# FltCloseSectionForDataScan function
+# FltCloseSectionForDataScan function (fltkernel.h)
+
+
 
 
 ## -description

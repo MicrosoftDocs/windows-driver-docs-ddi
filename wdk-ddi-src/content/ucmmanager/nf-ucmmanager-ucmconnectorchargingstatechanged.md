@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmConnectorChargingStateChanged function"]
 ms.keywords: UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged method [Buses], buses.ucmconnectorchargingstatechanged, ucmmanager/UcmConnectorChargingStateChanged
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorChargingStateChanged
 ---
 
-# UcmConnectorChargingStateChanged function
+# UcmConnectorChargingStateChanged function (ucmmanager.h)
+
+
 
 
 ## -description

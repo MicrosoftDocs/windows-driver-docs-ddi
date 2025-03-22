@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceLinkPowerEntryComplete function"]
 ms.keywords: UdecxUsbDeviceLinkPowerEntryComplete, UdecxUsbDeviceLinkPowerEntryComplete function [Buses], buses.udecxusbdevicelinkpowerentrycomplete, udecxusbdevice/UdecxUsbDeviceLinkPowerEntryComplete
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceLinkPowerEntryComplete
 ---
 
-# UdecxUsbDeviceLinkPowerEntryComplete function
+# UdecxUsbDeviceLinkPowerEntryComplete function (udecxusbdevice.h)
+
+
 
 
 ## -description

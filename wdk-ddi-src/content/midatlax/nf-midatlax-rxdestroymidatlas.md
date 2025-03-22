@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxDestroyMidAtlas function"]
 ms.keywords: RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers], ifsk.rxdestroymidatlas, midatlax/RxDestroyMidAtlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml
 req.header: midatlax.h
+req.construct-type: function
 req.include-header: Midatlax.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxDestroyMidAtlas
 ---
 
-# RxDestroyMidAtlas function
+# RxDestroyMidAtlas function (midatlax.h)
+
+
 
 
 ## -description

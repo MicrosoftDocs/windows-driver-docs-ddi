@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION enumeration"]
 ms.keywords: COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION, COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION,
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION enumeration
+# COLORSPACE_TRANSFORM_TARGET_CAPS_VERSION enumeration (ntddvdeo.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTQueryProtectedSessionInfoFromNtHandle function"]
 ms.keywords: D3DKMTQueryProtectedSessionInfoFromNtHandle, D3DKMTQueryProtectedSessionInfoFromNtHandle method [Display Devices], d3dkmthk/D3DKMTQueryProtectedSessionInfoFromNtHandle, display.d3dkmtqueryprotectedsessioninfofromnthandle
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTQueryProtectedSessionInfoFromNtHandle
 ---
 
-# D3DKMTQueryProtectedSessionInfoFromNtHandle function
+# D3DKMTQueryProtectedSessionInfoFromNtHandle function (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: "Learn more about: __MIDL_IGPUPMitigationDevice_0003 enumeration"
 ms.date: 10/19/2018
 tech.root: display
 req.header: igpupvdev.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - GPUP_SAVE_RESTORE_PAUSE_STATE
 ---
 
-# __MIDL_IGPUPMitigationDevice_0003 enumeration
+# GPUP_SAVE_RESTORE_PAUSE_STATE enumeration (igpupvdev.h)
+
+
 
 ## -description
 

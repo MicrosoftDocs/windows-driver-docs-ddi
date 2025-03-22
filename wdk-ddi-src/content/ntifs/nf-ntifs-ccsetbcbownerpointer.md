@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcSetBcbOwnerPointer function"]
 ms.keywords: CcSetBcbOwnerPointer, CcSetBcbOwnerPointer routine [Installable File System Drivers], ccref_9ad1d1a5-0600-4cfa-88d3-e4e5d2cd9df1.xml, ifsk.ccsetbcbownerpointer, ntifs/CcSetBcbOwnerPointer
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcSetBcbOwnerPointer
 ---
 
-# CcSetBcbOwnerPointer function
+# CcSetBcbOwnerPointer function (ntifs.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiSpl::SendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],SendRecv method, IBidiSpl.SendRecv, IBidiSpl::SendRecv, SendRecv, SendRecv method [Print Devices], SendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_SendRecv, bidispl/IBidiSpl::SendRecv, gdi.ibidispl_ibidispl__sendrecv, print.ibidispl_ibidispl__sendrecv
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiSpl::SendRecv
 ---
+
+# IBidiSpl::SendRecv function (bidispl.h)
 
 ## -description
 

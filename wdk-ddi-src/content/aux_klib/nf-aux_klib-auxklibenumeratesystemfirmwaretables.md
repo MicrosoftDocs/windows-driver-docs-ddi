@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AuxKlibEnumerateSystemFirmwareTables function"]
 ms.keywords: AuxKlibEnumerateSystemFirmwareTables, AuxKlibEnumerateSystemFirmwareTables routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibEnumerateSystemFirmwareTables, kernel.auxklibenumeratesystemfirmwaretables
 req.header: aux_klib.h
+req.construct-type: function
 req.include-header: Aux_klib.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - AuxKlibEnumerateSystemFirmwareTables
 ---
 
-# AuxKlibEnumerateSystemFirmwareTables function
+# AuxKlibEnumerateSystemFirmwareTables function (aux_klib.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxPostRecurrentTimerRequest function"]
 ms.keywords: RxPostRecurrentTimerRequest, RxPostRecurrentTimerRequest routine [Installable File System Drivers], ifsk.rxpostrecurrenttimerrequest, rxref_64318843-28af-4351-9273-06061b94578f.xml, rxtimer/RxPostRecurrentTimerRequest
 req.header: rxtimer.h
+req.construct-type: function
 req.include-header: Rxtimer.h, Rxworkq.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxPostRecurrentTimerRequest
 ---
 
-# RxPostRecurrentTimerRequest function
+# RxPostRecurrentTimerRequest function (rxtimer.h)
+
+
 
 
 ## -description

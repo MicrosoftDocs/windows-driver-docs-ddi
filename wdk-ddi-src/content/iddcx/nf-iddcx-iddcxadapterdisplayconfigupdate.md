@@ -8,6 +8,7 @@ ms.date: 09/24/2020
 keywords: ["IddCxAdapterDisplayConfigUpdate function"]
 ms.keywords: IddCxAdapterDisplayConfigUpdate
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# IddCxAdapterDisplayConfigUpdate function
+# IddCxAdapterDisplayConfigUpdate function (iddcx.h)
+
+
 
 ## -description
 

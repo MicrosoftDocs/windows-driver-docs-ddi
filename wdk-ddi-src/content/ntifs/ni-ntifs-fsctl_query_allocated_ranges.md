@@ -39,7 +39,9 @@ helpviewer_keywords:
 ms.custom: engagement-fy23
 ---
 
-# FSCTL_QUERY_ALLOCATED_RANGES ioctl (ntifs.h)
+# FSCTL_QUERY_ALLOCATED_RANGES IOCTL (ntifs.h)
+
+
 
 ## -description
 

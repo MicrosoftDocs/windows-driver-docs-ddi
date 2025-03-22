@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortFreePool function"]
 ms.keywords: StorPortFreePool, StorPortFreePool routine [Storage Devices], storage.storportfreepool, storport/StorPortFreePool, storprt_a4fd5e23-3c56-4bf3-9751-21f90028d704.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortFreePool
 ---
 
-# StorPortFreePool function
+# StorPortFreePool function (storport.h)
+
+
 
 
 ## -description

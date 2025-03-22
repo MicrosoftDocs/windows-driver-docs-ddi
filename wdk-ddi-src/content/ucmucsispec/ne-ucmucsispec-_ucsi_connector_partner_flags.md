@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_CONNECTOR_PARTNER_FLAGS enumeration"]
 ms.keywords: _UCSI_CONNECTOR_PARTNER_FLAGS, UCSI_CONNECTOR_PARTNER_FLAGS,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_CONNECTOR_PARTNER_FLAGS
 ---
 
-# _UCSI_CONNECTOR_PARTNER_FLAGS enumeration
+# UCSI_CONNECTOR_PARTNER_FLAGS enumeration (ucmucsispec.h)
+
+
 
 
 ## -description

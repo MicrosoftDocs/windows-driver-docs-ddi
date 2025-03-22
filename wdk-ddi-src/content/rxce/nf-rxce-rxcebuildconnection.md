@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeBuildConnection function"]
 ms.keywords: RxCeBuildConnection, RxCeBuildConnection function [Installable File System Drivers], ifsk.rxcebuildconnection, rxce/RxCeBuildConnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeBuildConnection
 ---
 
-# RxCeBuildConnection function
+# RxCeBuildConnection function (rxce.h)
+
+
 
 
 ## -description

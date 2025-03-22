@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_ALIGN_SIZE_UP function"]
 ms.keywords: DFMemoryObjectRef_48452ee1-3939-48ba-a485-4d503ee052f3.xml, WDF_ALIGN_SIZE_UP, WDF_ALIGN_SIZE_UP function, kmdf.wdf_align_size_up, wdf.wdf_align_size_up, wdfcore/WDF_ALIGN_SIZE_UP
 req.header: wdfcore.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_ALIGN_SIZE_UP
 ---
 
-# WDF_ALIGN_SIZE_UP function
+# WDF_ALIGN_SIZE_UP function (wdfcore.h)
+
+
 
 
 ## -description

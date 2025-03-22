@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_READY_STATE enumeration"]
 ms.keywords: "*PWWAN_READY_STATE, PWWAN_READY_STATE, PWWAN_READY_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_READY_STATE, WWAN_READY_STATE enumeration [Network Drivers Starting with Windows Vista], WwanReadyStateBadSim, WwanReadyStateDeviceLocked, WwanReadyStateFailure, WwanReadyStateInitialized, WwanReadyStateNotActivated, WwanReadyStateOff, WwanReadyStateSimNotInserted, WwanRef_08468e16-e4da-49ff-9b2a-2cee4df6c72f.xml, _WWAN_READY_STATE, netvista.wwan_ready_state, wwan/PWWAN_READY_STATE, wwan/WWAN_READY_STATE, wwan/WwanReadyStateBadSim, wwan/WwanReadyStateDeviceLocked, wwan/WwanReadyStateFailure, wwan/WwanReadyStateInitialized, wwan/WwanReadyStateNotActivated, wwan/WwanReadyStateOff, wwan/WwanReadyStateSimNotInserted"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_READY_STATE
 ---
 
-# _WWAN_READY_STATE enumeration
+# WWAN_READY_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

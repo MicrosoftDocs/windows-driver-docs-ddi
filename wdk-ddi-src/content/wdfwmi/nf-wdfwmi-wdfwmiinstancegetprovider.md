@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceGetProvider function"]
 ms.keywords: DFWMIRef_f5950eae-6036-4acc-91ab-d7d49ae74202.xml, WdfWmiInstanceGetProvider, WdfWmiInstanceGetProvider method, kmdf.wdfwmiinstancegetprovider, wdf.wdfwmiinstancegetprovider, wdfwmi/WdfWmiInstanceGetProvider
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfWmiInstanceGetProvider
 ---
 
-# WdfWmiInstanceGetProvider function
+# WdfWmiInstanceGetProvider function (wdfwmi.h)
+
+
 
 
 ## -description

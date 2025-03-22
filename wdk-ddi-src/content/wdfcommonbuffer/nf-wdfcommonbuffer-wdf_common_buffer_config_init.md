@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_COMMON_BUFFER_CONFIG_INIT function"]
 ms.keywords: DFCommonBufferObjectRef_23c5b41e-89ce-448c-86fa-3ae4e688b378.xml, WDF_COMMON_BUFFER_CONFIG_INIT, WDF_COMMON_BUFFER_CONFIG_INIT function, kmdf.wdf_common_buffer_config_init, wdf.wdf_common_buffer_config_init, wdfcommonbuffer/WDF_COMMON_BUFFER_CONFIG_INIT
 req.header: wdfcommonbuffer.h
+req.construct-type: function
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_COMMON_BUFFER_CONFIG_INIT
 ---
 
-# WDF_COMMON_BUFFER_CONFIG_INIT function
+# WDF_COMMON_BUFFER_CONFIG_INIT function (wdfcommonbuffer.h)
+
+
 
 
 ## -description

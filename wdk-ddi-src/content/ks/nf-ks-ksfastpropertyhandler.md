@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFastPropertyHandler function"]
 ms.keywords: KsFastPropertyHandler, KsFastPropertyHandler function [Streaming Media Devices], ks/KsFastPropertyHandler, ksfunc_4b896ea0-aa74-4acf-b8fa-cdc4c8cdb4b1.xml, stream.ksfastpropertyhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFastPropertyHandler
 ---
 
-# KsFastPropertyHandler function
+# KsFastPropertyHandler function (ks.h)
+
+
 
 
 ## -description

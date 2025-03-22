@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisZeroMappedMemory macro"]
 ms.keywords: NdisZeroMappedMemory, NdisZeroMappedMemory function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_41b91ff3-a113-4a69-bb38-ec3ba89cc0d7.xml, ndis/NdisZeroMappedMemory, netvista.ndiszeromappedmemory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisZeroMappedMemory (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisZeroMappedMemory (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisZeroMappedMemory
 ---
 
-# NdisZeroMappedMemory macro
+# NdisZeroMappedMemory macro (ndis.h)
+
+
+
+
 
 
 ## -description

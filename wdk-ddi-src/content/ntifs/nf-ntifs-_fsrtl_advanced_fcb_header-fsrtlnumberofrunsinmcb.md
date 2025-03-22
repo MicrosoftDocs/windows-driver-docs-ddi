@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNumberOfRunsInMcb function"]
 ms.keywords: FsRtlNumberOfRunsInMcb, FsRtlNumberOfRunsInMcb function [Installable File System Drivers], fsrtlref_2f405315-e2d0-45f0-95de-61b397b20f11.xml, ifsk.fsrtlnumberofrunsinmcb, ntifs/FsRtlNumberOfRunsInMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlNumberOfRunsInMcb
 ---
 
-# FsRtlNumberOfRunsInMcb function
+# FsRtlNumberOfRunsInMcb function (ntifs.h)
+
+
 
 ## -description
 

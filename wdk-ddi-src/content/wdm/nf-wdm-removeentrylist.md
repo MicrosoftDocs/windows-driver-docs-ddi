@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["RemoveEntryList function"]
 ms.keywords: RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, kernel.removeentrylist, wdm/RemoveEntryList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,7 +40,9 @@ api_name:
  - RemoveEntryList
 ---
 
-# RemoveEntryList function
+# RemoveEntryList function (wdm.h)
+
+
 
 ## -description
 

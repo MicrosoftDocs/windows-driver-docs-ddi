@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiDeleteSpoolFileHandle function"]
 ms.keywords: GdiDeleteSpoolFileHandle, GdiDeleteSpoolFileHandle function [Print Devices], gdifnc_76c1c0cf-2a48-44eb-9b48-1d0a5bf4548b.xml, print.gdideletespoolfilehandle, winppi/GdiDeleteSpoolFileHandle
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiDeleteSpoolFileHandle
 ---
 
-# GdiDeleteSpoolFileHandle function
+# GdiDeleteSpoolFileHandle function (winppi.h)
+
+
 
 
 ## -description

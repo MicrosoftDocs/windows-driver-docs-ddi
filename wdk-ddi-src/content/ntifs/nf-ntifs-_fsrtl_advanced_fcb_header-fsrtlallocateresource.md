@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["FsRtlAllocateResource function"]
 ms.keywords: FsRtlAllocateResource, FsRtlAllocateResource function [Installable File System Drivers], fsrtlref_7c0e205b-9e67-4fba-a70d-67e441cdcddf.xml, ifsk.fsrtlallocateresource, ntifs/FsRtlAllocateResource
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAllocateResource
 ---
 
-# FsRtlAllocateResource function
+# FsRtlAllocateResource function (ntifs.h)
+
+
 
 ## -description
 

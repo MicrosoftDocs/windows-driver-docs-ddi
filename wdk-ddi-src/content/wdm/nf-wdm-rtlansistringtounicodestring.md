@@ -7,6 +7,7 @@ ms.date: 01/18/2023
 keywords: ["RtlAnsiStringToUnicodeString function"]
 ms.keywords: RtlAnsiStringToUnicodeString, RtlAnsiStringToUnicodeString function [Kernel-Mode Driver Architecture], k109_d27ee285-6d32-4ecb-994b-ba8a47f1e588.xml, kernel.rtlansistringtounicodestring, wdm/RtlAnsiStringToUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlAnsiStringToUnicodeString
 ---
+
+# RtlAnsiStringToUnicodeString function (wdm.h)
 
 ## -description
 

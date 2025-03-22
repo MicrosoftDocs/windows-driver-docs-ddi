@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetIMSStatus function"]
 ms.keywords: RIL_GetIMSStatus, RIL_GetIMSStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getimsstatus, rilapi/RIL_GetIMSStatus
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetIMSStatus
 ---
 
-# RIL_GetIMSStatus function
+# RIL_GetIMSStatus function (rilapi.h)
+
+
 
 
 ## -description

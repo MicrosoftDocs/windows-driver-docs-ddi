@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["NOTIFICATION_CALLBACK_COMMANDS enumeration"]
 ms.keywords: NOTIFICATION_CALLBACK_COMMANDS, NOTIFICATION_CALLBACK_COMMANDS enumeration [Print Devices], NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, NOTIFICATION_COMMAND_CONTEXT_RELEASE, NOTIFICATION_COMMAND_NOTIFY, _NOTIFICATION_CALLBACK_COMMANDS, print.notification_callback_commands, winsplp/NOTIFICATION_CALLBACK_COMMANDS, winsplp/NOTIFICATION_COMMAND_CONTEXT_ACQUIRE, winsplp/NOTIFICATION_COMMAND_CONTEXT_RELEASE, winsplp/NOTIFICATION_COMMAND_NOTIFY
 req.header: winsplp.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - NOTIFICATION_CALLBACK_COMMANDS
 ---
 
-# _NOTIFICATION_CALLBACK_COMMANDS enumeration
+# NOTIFICATION_CALLBACK_COMMANDS enumeration (winsplp.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceGetNumInterfaces function"]
 ms.keywords: DFUsbRef_8819241f-cfcd-49de-8775-4f415ab63593.xml, WdfUsbTargetDeviceGetNumInterfaces, WdfUsbTargetDeviceGetNumInterfaces method, kmdf.wdfusbtargetdevicegetnuminterfaces, wdf.wdfusbtargetdevicegetnuminterfaces, wdfusb/WdfUsbTargetDeviceGetNumInterfaces
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceGetNumInterfaces
 ---
 
-# WdfUsbTargetDeviceGetNumInterfaces function
+# WdfUsbTargetDeviceGetNumInterfaces function (wdfusb.h)
+
+
 
 
 ## -description

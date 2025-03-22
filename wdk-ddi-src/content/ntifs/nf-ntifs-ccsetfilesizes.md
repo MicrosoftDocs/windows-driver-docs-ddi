@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 02/02/2024
 keywords: ["CcSetFileSizes function"]
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CcSetFileSizes
 ---
 
-# CcSetFileSizes function
+# CcSetFileSizes function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 03/20/2023
 keywords: ["FsRtlAllocateFileLock function"]
 ms.keywords: FsRtlAllocateFileLock, FsRtlAllocateFileLock routine [Installable File System Drivers], fsrtlref_cb42425d-add9-4c5b-bddc-54dc55448902.xml, ifsk.fsrtlallocatefilelock, ntifs/FsRtlAllocateFileLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlAllocateFileLock function
+# FsRtlAllocateFileLock function (ntifs.h)
+
+
 
 ## -description
 

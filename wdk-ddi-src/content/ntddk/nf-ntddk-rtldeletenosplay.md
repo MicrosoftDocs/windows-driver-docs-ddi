@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlDeleteNoSplay function"]
 ms.keywords: RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlDeleteNoSplay
 ---
 
-# RtlDeleteNoSplay function
+# RtlDeleteNoSplay function (ntddk.h)
+
+
 
 
 ## -description

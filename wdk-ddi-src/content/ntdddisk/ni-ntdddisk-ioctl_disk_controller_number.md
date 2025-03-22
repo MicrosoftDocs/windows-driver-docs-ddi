@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_CONTROLLER_NUMBER IOCTL"]
 ms.keywords: IOCTL_DISK_CONTROLLER_NUMBER, IOCTL_DISK_CONTROLLER_NUMBER control, IOCTL_DISK_CONTROLLER_NUMBER control code [Storage Devices], k307_227ab511-78ff-4aba-be29-3429329d05e5.xml, ntdddisk/IOCTL_DISK_CONTROLLER_NUMBER, storage.ioctl_disk_controller_number
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_CONTROLLER_NUMBER
 ---
 
-# IOCTL_DISK_CONTROLLER_NUMBER IOCTL
+# IOCTL_DISK_CONTROLLER_NUMBER IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassAbortOutstandingRequests function"]
 ms.keywords: StreamClassAbortOutstandingRequests, StreamClassAbortOutstandingRequests routine [Streaming Media Devices], strclass-routines_f0bb32ce-019d-4c2f-90f6-cf6d54e2fb08.xml, stream.streamclassabortoutstandingrequests, strmini/StreamClassAbortOutstandingRequests
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StreamClassAbortOutstandingRequests
 ---
 
-# StreamClassAbortOutstandingRequests function
+# StreamClassAbortOutstandingRequests function (strmini.h)
+
+
 
 
 ## -description

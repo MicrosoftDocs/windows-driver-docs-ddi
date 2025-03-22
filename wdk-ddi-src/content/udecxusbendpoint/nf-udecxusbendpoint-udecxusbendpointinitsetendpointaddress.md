@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbEndpointInitSetEndpointAddress function"]
 ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
 req.header: udecxusbendpoint.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbEndpointInitSetEndpointAddress
 ---
 
-# UdecxUsbEndpointInitSetEndpointAddress function
+# UdecxUsbEndpointInitSetEndpointAddress function (udecxusbendpoint.h)
+
+
 
 
 ## -description

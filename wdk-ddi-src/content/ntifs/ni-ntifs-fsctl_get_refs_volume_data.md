@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_GET_REFS_VOLUME_DATA
 ---
 
-# FSCTL_GET_REFS_VOLUME_DATA ioctl (ntifs.h)
+# FSCTL_GET_REFS_VOLUME_DATA IOCTL (ntifs.h)
+
+
 
 ## -description
 

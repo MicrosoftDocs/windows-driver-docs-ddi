@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["KeSetTimerEx function"]
 ms.keywords: KeSetTimerEx, KeSetTimerEx routine [Kernel-Mode Driver Architecture], k105_ca0b6adf-7903-485b-b29c-c406701c3032.xml, kernel.kesettimerex, wdm/KeSetTimerEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeSetTimerEx
 ---
 
-# KeSetTimerEx function
+# KeSetTimerEx function (wdm.h)
+
+
 
 ## -description
 

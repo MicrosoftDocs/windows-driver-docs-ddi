@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsIsHostSilo function"]
 ms.keywords: PsIsHostSilo, PsIsHostSilo routine [Kernel-Mode Driver Architecture], kernel.psishostsilo, ntddk/PsIsHostSilo
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - PsIsHostSilo
 ---
 
-# PsIsHostSilo function
+# PsIsHostSilo function (ntddk.h)
+
+
 
 
 ## -description

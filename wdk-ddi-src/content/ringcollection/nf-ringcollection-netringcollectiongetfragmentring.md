@@ -7,6 +7,7 @@ ms.date: 02/06/2019
 keywords: ["NetRingCollectionGetFragmentRing function"]
 ms.keywords: NetRingCollectionGetFragmentRing
 req.header: ringcollection.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetRingCollectionGetFragmentRing
 ---
 
-# NetRingCollectionGetFragmentRing function
+# NetRingCollectionGetFragmentRing function (ringcollection.h)
+
+
 
 
 ## -description

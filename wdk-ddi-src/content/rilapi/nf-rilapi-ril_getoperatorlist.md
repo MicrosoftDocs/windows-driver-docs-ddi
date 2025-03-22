@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetOperatorList function"]
 ms.keywords: RIL_GetOperatorList, RIL_GetOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_getoperatorlist, rilapi/RIL_GetOperatorList
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetOperatorList
 ---
 
-# RIL_GetOperatorList function
+# RIL_GetOperatorList function (rilapi.h)
+
+
 
 
 ## -description

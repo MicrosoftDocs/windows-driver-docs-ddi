@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlParent macro"]
 ms.keywords: RtlParent, RtlParent routine [Installable File System Drivers], ifsk.rtlparent, ntddk/RtlParent, rtlref_85e6ffbf-9d34-47f5-b5c2-1d57a1a57056.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - RtlParent
 ---
 
-# RtlParent macro
+# RtlParent macro (ntddk.h)
+
+
+
+
 
 
 ## -description

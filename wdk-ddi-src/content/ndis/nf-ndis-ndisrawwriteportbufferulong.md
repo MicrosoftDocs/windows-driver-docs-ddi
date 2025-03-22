@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisRawWritePortBufferUlong macro"]
 ms.keywords: NdisRawWritePortBufferUlong, NdisRawWritePortBufferUlong macro [Network Drivers Starting with Windows Vista], miniport_port_raw_ref_6d507471-8935-42d8-8e13-8b82496bca57.xml, ndis/NdisRawWritePortBufferUlong, netvista.ndisrawwriteportbufferulong
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisRawWritePortBufferUlong   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisRawWritePortBufferUlong   (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisRawWritePortBufferUlong
 ---
 
-# NdisRawWritePortBufferUlong macro
+# NdisRawWritePortBufferUlong macro (ndis.h)
+
+
+
+
 
 
 ## -description

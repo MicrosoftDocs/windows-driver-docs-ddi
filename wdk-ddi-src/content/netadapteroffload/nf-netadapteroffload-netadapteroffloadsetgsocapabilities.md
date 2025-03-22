@@ -7,6 +7,7 @@ ms.date: 10/09/2020
 keywords: ["NetAdapterOffloadSetGsoCapabilities function"]
 ms.keywords: NetAdapterOffloadSetGsoCapabilities
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 11
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterOffloadSetGsoCapabilities
 ---
 
-# NetAdapterOffloadSetGsoCapabilities function
+# NetAdapterOffloadSetGsoCapabilities function (netadapter.h)
+
+
 
 
 ## -description

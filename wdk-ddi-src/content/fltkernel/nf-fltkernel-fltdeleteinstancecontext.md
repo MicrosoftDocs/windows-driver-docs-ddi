@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltDeleteInstanceContext function"]
 ms.keywords: FltApiRef_a_to_d_2ccc7fef-0bff-4df4-b617-fb4749bb3ed6.xml, FltDeleteInstanceContext, FltDeleteInstanceContext function [Installable File System Drivers], fltkernel/FltDeleteInstanceContext, ifsk.fltdeleteinstancecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltDeleteInstanceContext
 ---
 
-# FltDeleteInstanceContext function
+# FltDeleteInstanceContext function (fltkernel.h)
+
+
 
 ## -description
 

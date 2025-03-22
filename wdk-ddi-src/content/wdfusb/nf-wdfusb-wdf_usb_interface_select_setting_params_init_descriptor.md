@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function"]
 ms.keywords: DFUsbRef_6c30fa1b-546f-46f2-8eb6-fd189894a746.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function, kmdf.wdf_usb_interface_select_setting_params_init_descriptor, wdf.wdf_usb_interface_select_setting_params_init_descriptor, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR
 ---
 
-# WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function
+# WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR function (wdfusb.h)
+
+
 
 
 ## -description

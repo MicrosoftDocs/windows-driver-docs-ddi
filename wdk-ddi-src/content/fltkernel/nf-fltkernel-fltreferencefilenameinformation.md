@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltReferenceFileNameInformation function"]
 ms.keywords: FltApiRef_p_to_z_c6cfa7ad-ac72-45ad-9750-c466dd6ede6e.xml, FltReferenceFileNameInformation, FltReferenceFileNameInformation function [Installable File System Drivers], fltkernel/FltReferenceFileNameInformation, ifsk.fltreferencefilenameinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltReferenceFileNameInformation
 ---
 
-# FltReferenceFileNameInformation function
+# FltReferenceFileNameInformation function (fltkernel.h)
+
+
 
 
 ## -description

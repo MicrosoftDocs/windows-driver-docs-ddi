@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderLogCreate macro"]
 ms.keywords: WppRecorderLogCreate, devtest.wpprecorderlogcreate, imp_WppRecorderLogCreate, imp_WppRecorderLogCreate function [Driver Development Tools], wpprecorder/imp_WppRecorderLogCreate
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - WppRecorderLogCreate
 ---
 
-# WppRecorderLogCreate macro
+# WppRecorderLogCreate macro (wpprecorder.h)
+
+
+
+
 
 
 ## -description

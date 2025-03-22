@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["IsValidDevmodeW function"]
 ms.keywords: IsValidDevmode, IsValidDevmode function [Print Devices], IsValidDevmodeA, IsValidDevmodeW, print.isvaliddevmode, spoolfnc_ea9b6cc1-6f0b-42a7-835b-df561588691a.xml, winspool/IsValidDevmode
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -41,6 +42,8 @@ api_name:
  - IsValidDevmodeW
  - IsValidDevmode
 ---
+
+# IsValidDevmodeW function (winspool.h)
 
 ## -description
 

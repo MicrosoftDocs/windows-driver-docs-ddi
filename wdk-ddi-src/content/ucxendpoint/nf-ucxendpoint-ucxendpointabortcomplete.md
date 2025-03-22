@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxEndpointAbortComplete function"]
 ms.keywords: UcxEndpointAbortComplete, UcxEndpointAbortComplete method [Buses], buses._ucxendpointabortcomplete, ucxendpoint/UcxEndpointAbortComplete
 req.header: ucxendpoint.h
+req.construct-type: function
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxEndpointAbortComplete
 ---
 
-# UcxEndpointAbortComplete function
+# UcxEndpointAbortComplete function (ucxendpoint.h)
+
+
 
 
 ## -description

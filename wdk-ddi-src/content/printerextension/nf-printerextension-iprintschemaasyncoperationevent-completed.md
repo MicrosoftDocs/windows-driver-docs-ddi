@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaAsyncOperationEvent::Completed"]
 ms.keywords: Completed, Completed method [Print Devices], Completed method [Print Devices],IPrintSchemaAsyncOperationEvent interface, IPrintSchemaAsyncOperationEvent interface [Print Devices],Completed method, IPrintSchemaAsyncOperationEvent.Completed, IPrintSchemaAsyncOperationEvent::Completed, print.iprintschemaasyncoperationevent_completed, printerextension/IPrintSchemaAsyncOperationEvent::Completed
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaAsyncOperationEvent::Completed
 ---
+
+# IPrintSchemaAsyncOperationEvent::Completed function (printerextension.h)
 
 ## -description
 

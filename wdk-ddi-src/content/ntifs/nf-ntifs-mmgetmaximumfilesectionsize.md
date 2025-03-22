@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["MmGetMaximumFileSectionSize function"]
 ms.keywords: MmGetMaximumFileSectionSize, MmGetMaximumFileSectionSize routine [Installable File System Drivers], ifsk.mmgetmaximumfilesectionsize, ntifs/MmGetMaximumFileSectionSize
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - MmGetMaximumFileSectionSize
 ---
 
-# MmGetMaximumFileSectionSize function
+# MmGetMaximumFileSectionSize function (ntifs.h)
+
+
 
 
 ## -description

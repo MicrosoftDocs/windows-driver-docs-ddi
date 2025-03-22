@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["POS_CX_EVENT_DEST enumeration"]
 ms.keywords: POS_CX_EVENT_DEST, POS_CX_EVENT_DEST enumeration, POS_CX_EVENT_DEST_ALL, POS_CX_EVENT_DEST_DEVICE_OWNER, POS_CX_EVENT_DEST_INVALID, _POS_CX_EVENT_DEST, pos.pos_cx_event_dest, poscx/POS_CX_EVENT_DEST, poscx/POS_CX_EVENT_DEST_ALL, poscx/POS_CX_EVENT_DEST_DEVICE_OWNER, poscx/POS_CX_EVENT_DEST_INVALID
 req.header: poscx.h
+req.construct-type: enumeration
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - POS_CX_EVENT_DEST
 ---
 
-# _POS_CX_EVENT_DEST enumeration
+# POS_CX_EVENT_DEST enumeration (poscx.h)
+
+
 
 
 ## -description

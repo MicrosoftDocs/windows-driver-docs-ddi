@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DrvDriverEvent function"]
 ms.keywords: DrvDriverEvent, DrvDriverEvent function [Print Devices], print.drvdriverevent, print_interface-graphics_41c98198-e5b7-4725-9b93-d467ec38e4c3.xml, winddiui/DrvDriverEvent
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvDriverEvent
 ---
+
+# DrvDriverEvent function (winddiui.h)
 
 ## -description
 

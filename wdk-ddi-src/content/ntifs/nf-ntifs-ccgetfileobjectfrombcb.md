@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcGetFileObjectFromBcb function"]
 ms.keywords: CcGetFileObjectFromBcb, CcGetFileObjectFromBcb routine [Installable File System Drivers], ccref_7fdf1d1e-a080-4322-a09c-be0a16543050.xml, ifsk.ccgetfileobjectfrombcb, ntifs/CcGetFileObjectFromBcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcGetFileObjectFromBcb
 ---
 
-# CcGetFileObjectFromBcb function
+# CcGetFileObjectFromBcb function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VhfDelete function"]
 ms.keywords: VhfDelete, VhfDelete method [Human Input Devices], hid.vhfdelete, vhf/VhfDelete
 req.header: vhf.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - VhfDelete
 ---
 
-# VhfDelete function
+# VhfDelete function (vhf.h)
+
+
 
 
 ## -description

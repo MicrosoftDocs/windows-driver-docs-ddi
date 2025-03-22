@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL"]
 ms.keywords: IOCTL_CHANGER_EXCHANGE_MEDIUM, IOCTL_CHANGER_EXCHANGE_MEDIUM control, IOCTL_CHANGER_EXCHANGE_MEDIUM control code [Storage Devices], k307_c132f9e2-bb9c-43b7-85c2-644f2b24acea.xml, ntddchgr/IOCTL_CHANGER_EXCHANGE_MEDIUM, storage.ioctl_changer_exchange_medium
 req.header: ntddchgr.h
+req.construct-type: ioctl
 req.include-header: Ntddchgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CHANGER_EXCHANGE_MEDIUM
 ---
 
-# IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL
+# IOCTL_CHANGER_EXCHANGE_MEDIUM IOCTL (ntddchgr.h)
+
+
+
+
 
 
 ## -description

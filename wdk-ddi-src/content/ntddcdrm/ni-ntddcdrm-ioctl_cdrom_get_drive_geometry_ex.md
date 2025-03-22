@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control, IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX control code [Storage Devices], k307_d92083df-7f01-4858-8bab-5b4b4ea5eaea.xml, ntddcdrm/IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX, storage.ioctl_cdrom_get_drive_geometry_ex
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX
 ---
 
-# IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX IOCTL
+# IOCTL_CDROM_GET_DRIVE_GEOMETRY_EX IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["IoSetFileObjectIgnoreSharing function"]
 ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ifsk.iosetfileobjectignoresharing, ntddk/IoSetFileObjectIgnoreSharing
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows 7.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoSetFileObjectIgnoreSharing
 ---
+
+# IoSetFileObjectIgnoreSharing function (ntddk.h)
 
 ## -description
 

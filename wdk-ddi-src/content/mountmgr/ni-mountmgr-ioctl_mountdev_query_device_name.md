@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTDEV_QUERY_DEVICE_NAME IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control, IOCTL_MOUNTDEV_QUERY_DEVICE_NAME control code [Storage Devices], k307_4a0b9087-3740-4467-aa0f-ca7f56b8ae13.xml, mountmgr/IOCTL_MOUNTDEV_QUERY_DEVICE_NAME, storage.ioctl_mountdev_query_device_name
 req.header: mountmgr.h
+req.construct-type: ioctl
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTDEV_QUERY_DEVICE_NAME
 ---
+
+# IOCTL_MOUNTDEV_QUERY_DEVICE_NAME IOCTL (mountmgr.h)
+
+
 
 
 ## -description

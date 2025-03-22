@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgTrace function"]
 ms.keywords: image.wiaudbgtrace, wiauDbgTrace, wiauDbgTrace function [Imaging Devices], wiauFncs_5c66ac77-5db3-489c-b7fc-84393e9105dd.xml, wiautil/wiauDbgTrace
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgTrace
 ---
 
-# wiauDbgTrace function
+# wiauDbgTrace function (wiautil.h)
+
+
 
 
 ## -description

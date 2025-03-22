@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiPlayPageEMF function"]
 ms.keywords: GdiPlayPageEMF, GdiPlayPageEMF function [Print Devices], gdifnc_b1c27aba-d367-481a-8012-6c2f957ff11e.xml, print.gdiplaypageemf, winppi/GdiPlayPageEMF
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiPlayPageEMF
 ---
 
-# GdiPlayPageEMF function
+# GdiPlayPageEMF function (winppi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_POWER_POLICY_STATE enumeration"]
 ms.keywords: "*PWDF_DEVICE_POWER_POLICY_STATE, PWDF_DEVICE_POWER_POLICY_STATE, PWDF_DEVICE_POWER_POLICY_STATE enumeration pointer, WDF_DEVICE_POWER_POLICY_STATE, WDF_DEVICE_POWER_POLICY_STATE enumeration"
 req.header: wdfdevice.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_DEVICE_POWER_POLICY_STATE
 ---
 
-# _WDF_DEVICE_POWER_POLICY_STATE enumeration
+# WDF_DEVICE_POWER_POLICY_STATE enumeration (wdfdevice.h)
+
+
 
 
 ## -description

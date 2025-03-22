@@ -7,6 +7,7 @@ ms.date: 04/18/2022
 keywords: ["IKsDataTypeHandler::KsSetMediaType"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsSetMediaType method, IKsDataTypeHandler.KsSetMediaType, IKsDataTypeHandler::KsSetMediaType, KsSetMediaType, KsSetMediaType method [Streaming Media Devices], KsSetMediaType method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsSetMediaType, ksproxy_5992cc35-8912-4e1e-8712-ebb6f36f5193.xml, stream.iksdatatypehandler_kssetmediatype
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsDataTypeHandler::KsSetMediaType
 ---
+
+# IKsDataTypeHandler::KsSetMediaType function (ksproxy.h)
 
 ## -description
 

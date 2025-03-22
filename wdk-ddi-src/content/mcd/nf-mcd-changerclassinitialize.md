@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerClassInitialize function"]
 ms.keywords: ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, storage.changerclassinitialize
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ChangerClassInitialize
 ---
 
-# ChangerClassInitialize function
+# ChangerClassInitialize function (mcd.h)
+
+
 
 
 ## -description

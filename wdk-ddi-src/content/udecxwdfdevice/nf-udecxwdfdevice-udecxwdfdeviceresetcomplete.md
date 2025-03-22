@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxWdfDeviceResetComplete function"]
 ms.keywords: UdecxWdfDeviceResetComplete, UdecxWdfDeviceResetComplete function [Buses], buses.udecxwdfdeviceresetcomplete, udecxwdfdevice/UdecxWdfDeviceResetComplete
 req.header: udecxwdfdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxWdfDeviceResetComplete
 ---
 
-# UdecxWdfDeviceResetComplete function
+# UdecxWdfDeviceResetComplete function (udecxwdfdevice.h)
+
+
 
 
 ## -description

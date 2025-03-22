@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DeviceDsmNumberOfDataSetRanges function"]
 ms.keywords: DeviceDsmNumberOfDataSetRanges
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - DeviceDsmNumberOfDataSetRanges
 ---
 
-# DeviceDsmNumberOfDataSetRanges function
+# DeviceDsmNumberOfDataSetRanges function (ntddstor.h)
+
+
 
 
 ## -description

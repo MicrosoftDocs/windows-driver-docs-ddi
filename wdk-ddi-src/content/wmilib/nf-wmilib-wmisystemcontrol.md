@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WmiSystemControl function"]
 ms.keywords: WmiSystemControl, WmiSystemControl routine [Kernel-Mode Driver Architecture], k902_7bd87d12-7e45-4dd1-a78b-6389c6894ea4.xml, kernel.wmisystemcontrol, wmilib/WmiSystemControl
 req.header: wmilib.h
+req.construct-type: function
 req.include-header: Wmilib.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - WmiSystemControl
 ---
 
-# WmiSystemControl function
+# WmiSystemControl function (wmilib.h)
+
+
 
 
 ## -description

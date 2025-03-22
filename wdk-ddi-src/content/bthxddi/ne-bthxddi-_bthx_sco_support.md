@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["BTHX_SCO_SUPPORT enumeration"]
 ms.keywords: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT enumeration [Bluetooth Devices], ScoSupportHCI, ScoSupportHCIBypass, ScoSupportNone, _BTHX_SCO_SUPPORT, bltooth.bthx_sco_support, bthxddi/BTHX_SCO_SUPPORT, bthxddi/ScoSupportHCI, bthxddi/ScoSupportHCIBypass, bthxddi/ScoSupportNone"
 req.header: bthxddi.h
+req.construct-type: enumeration
 req.include-header: BthXDDI.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BTHX_SCO_SUPPORT
 ---
 
-# _BTHX_SCO_SUPPORT enumeration
+# BTHX_SCO_SUPPORT enumeration (bthxddi.h)
+
+
 
 
 ## -description

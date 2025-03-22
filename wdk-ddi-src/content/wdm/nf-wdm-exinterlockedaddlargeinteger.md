@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedAddLargeInteger function"]
 ms.keywords: ExInterlockedAddLargeInteger, ExInterlockedAddLargeInteger routine [Kernel-Mode Driver Architecture], k102_934a3a64-9f63-402c-8b55-db7e2b4d9d4b.xml, kernel.exinterlockedaddlargeinteger, wdm/ExInterlockedAddLargeInteger
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows. Not available in Windows 98 or Windows Me.
@@ -40,7 +41,9 @@ api_name:
  - ExInterlockedAddLargeInteger
 ---
 
-# ExInterlockedAddLargeInteger function
+# ExInterlockedAddLargeInteger function (wdm.h)
+
+
 
 
 ## -description

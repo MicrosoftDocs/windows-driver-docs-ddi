@@ -8,6 +8,7 @@ ms.date: 01/08/2021
 keywords: ["FltOplockFsctrlEx function"]
 ms.keywords: FltApiRef_e_to_o_fbf1fd08-c50d-41f9-8d13-5bd8f1265625.xml, FltOplockFsctrlEx, FltOplockFsctrlEx routine [Installable File System Drivers], fltkernel/FltOplockFsctrlEx, ifsk.fltoplockfsctrlex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltOplockFsctrlEx
 ---
 
-# FltOplockFsctrlEx function
+# FltOplockFsctrlEx function (fltkernel.h)
+
+
 
 ## -description
 

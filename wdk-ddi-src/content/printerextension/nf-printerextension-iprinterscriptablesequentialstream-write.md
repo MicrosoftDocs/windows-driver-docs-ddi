@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterScriptableSequentialStream::Write"]
 ms.keywords: IPrinterScriptableSequentialStream interface [Print Devices],Write method, IPrinterScriptableSequentialStream.Write, IPrinterScriptableSequentialStream::Write, Write, Write method [Print Devices], Write method [Print Devices],IPrinterScriptableSequentialStream interface, print.iprinterscriptablesequentialstream_write, printerextension/IPrinterScriptableSequentialStream::Write
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptableSequentialStream::Write
 ---
+
+# IPrinterScriptableSequentialStream::Write function (printerextension.h)
 
 ## -description
 

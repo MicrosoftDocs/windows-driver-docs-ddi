@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_GET_CHALLENGE_KEY IOCTL"]
 ms.keywords: IOCTL_AACS_GET_CHALLENGE_KEY, IOCTL_AACS_GET_CHALLENGE_KEY control, IOCTL_AACS_GET_CHALLENGE_KEY control code [Storage Devices], k307_f500a9e4-ea44-4089-bfa0-8215635a11c6.xml, ntddcdvd/IOCTL_AACS_GET_CHALLENGE_KEY, storage.ioctl_aacs_get_challenge_key
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_GET_CHALLENGE_KEY
 ---
 
-# IOCTL_AACS_GET_CHALLENGE_KEY IOCTL
+# IOCTL_AACS_GET_CHALLENGE_KEY IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

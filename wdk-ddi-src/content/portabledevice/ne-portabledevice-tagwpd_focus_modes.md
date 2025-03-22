@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_FOCUS_MODES enumeration"]
 ms.keywords: WPD_FOCUS_AUTOMATIC, WPD_FOCUS_AUTOMATIC_MACRO, WPD_FOCUS_MANUAL, WPD_FOCUS_MODES, WPD_FOCUS_MODES enumeration, WPD_FOCUS_UNDEFINED, enumeration, portabledevice/WPD_FOCUS_AUTOMATIC, portabledevice/WPD_FOCUS_AUTOMATIC_MACRO, portabledevice/WPD_FOCUS_MANUAL, portabledevice/WPD_FOCUS_MODES, portabledevice/WPD_FOCUS_UNDEFINED, tagWPD_FOCUS_MODES, wpddk.wpd_focus_modes
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_FOCUS_MODES
 ---
 
-# tagWPD_FOCUS_MODES enumeration
+# tagWPD_FOCUS_MODES enumeration (portabledevice.h)
+
+
 
 
 ## -description

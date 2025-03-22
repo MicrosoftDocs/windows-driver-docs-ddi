@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL"]
 ms.keywords: IOCTL_INTERNAL_BTH_SUBMIT_BRB, IOCTL_INTERNAL_BTH_SUBMIT_BRB control, IOCTL_INTERNAL_BTH_SUBMIT_BRB control code [Bluetooth Devices], bltooth.ioctl_internal_bth_submit_brb, bth_ioctls_4b5e6ea0-3c6d-4453-9822-df845ebc2038.xml, bthioctl/IOCTL_INTERNAL_BTH_SUBMIT_BRB
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: BthIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_BTH_SUBMIT_BRB
 ---
 
-# IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL
+# IOCTL_INTERNAL_BTH_SUBMIT_BRB IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

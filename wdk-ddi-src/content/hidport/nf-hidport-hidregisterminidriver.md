@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidRegisterMinidriver function"]
 ms.keywords: HidRegisterMinidriver, HidRegisterMinidriver routine [Human Input Devices], hid.hidregisterminidriver, hidfunc_83ef5fb3-46fc-427e-a9de-8aa554ef26b6.xml, hidport/HidRegisterMinidriver
 req.header: hidport.h
+req.construct-type: function
 req.include-header: Hidport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidRegisterMinidriver
 ---
 
-# HidRegisterMinidriver function
+# HidRegisterMinidriver function (hidport.h)
+
+
 
 
 ## -description

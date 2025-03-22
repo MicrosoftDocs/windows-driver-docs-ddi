@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_GET_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_SCSI_GET_CAPABILITIES, IOCTL_SCSI_GET_CAPABILITIES control, IOCTL_SCSI_GET_CAPABILITIES control code [Storage Devices], k307_99c3b622-6b7f-4550-9740-22b46d141966.xml, ntddscsi/IOCTL_SCSI_GET_CAPABILITIES, storage.ioctl_scsi_get_capabilities
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSI_GET_CAPABILITIES
 ---
 
-# IOCTL_SCSI_GET_CAPABILITIES IOCTL
+# IOCTL_SCSI_GET_CAPABILITIES IOCTL (ntddscsi.h)
+
+
+
+
 
 
 ## -description

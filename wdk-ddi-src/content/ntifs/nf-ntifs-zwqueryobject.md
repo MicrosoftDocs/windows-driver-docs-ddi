@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwQueryObject function"]
 ms.keywords: NtQueryObject, ZwQueryObject, ZwQueryObject routine [Kernel-Mode Driver Architecture], k111_54a1efe7-3cf8-46b3-bbb5-9e7520ba459d.xml, kernel.zwqueryobject, ntifs/NtQueryObject, ntifs/ZwQueryObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ZwQueryObject
 ---
 
-# ZwQueryObject function
+# ZwQueryObject function (ntifs.h)
+
+
 
 
 ## -description

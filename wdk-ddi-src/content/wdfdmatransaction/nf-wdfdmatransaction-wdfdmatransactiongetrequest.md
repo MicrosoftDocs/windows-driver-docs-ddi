@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionGetRequest function"]
 ms.keywords: DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, WdfDmaTransactionGetRequest, WdfDmaTransactionGetRequest method, kmdf.wdfdmatransactiongetrequest, wdf.wdfdmatransactiongetrequest, wdfdmatransaction/WdfDmaTransactionGetRequest
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionGetRequest
 ---
 
-# WdfDmaTransactionGetRequest function
+# WdfDmaTransactionGetRequest function (wdfdmatransaction.h)
+
+
 
 
 ## -description

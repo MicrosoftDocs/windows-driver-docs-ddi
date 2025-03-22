@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerClassCreate function"]
 ms.keywords: ChangerClassCreate, ChangerClassCreate routine [Storage Devices], chgrclas_27002d62-809d-48db-a2fc-8603d376f0d2.xml, mcd/ChangerClassCreate, storage.changerclasscreate, storage.changerclasscreateclose
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerClassCreate
 ---
 
-# ChangerClassCreate function
+# ChangerClassCreate function (mcd.h)
+
+
 
 
 ## -description

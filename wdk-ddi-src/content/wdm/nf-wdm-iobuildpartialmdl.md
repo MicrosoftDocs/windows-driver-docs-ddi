@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoBuildPartialMdl function"]
 ms.keywords: IoBuildPartialMdl, IoBuildPartialMdl routine [Kernel-Mode Driver Architecture], k104_8c9451f6-614c-45a2-b95a-4f0935588d7f.xml, kernel.iobuildpartialmdl, wdm/IoBuildPartialMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoBuildPartialMdl
 ---
 
-# IoBuildPartialMdl function
+# IoBuildPartialMdl function (wdm.h)
+
+
 
 
 ## -description

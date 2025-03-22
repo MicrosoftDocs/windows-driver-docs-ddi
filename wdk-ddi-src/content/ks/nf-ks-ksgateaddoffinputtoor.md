@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateAddOffInputToOr function"]
 ms.keywords: KsGateAddOffInputToOr, KsGateAddOffInputToOr function [Streaming Media Devices], avfunc_abee7d7c-388b-4a48-a573-6b46a1c9dc46.xml, ks/KsGateAddOffInputToOr, stream.ksgateaddoffinputtoor
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateAddOffInputToOr
 ---
 
-# KsGateAddOffInputToOr function
+# KsGateAddOffInputToOr function (ks.h)
+
+
 
 
 ## -description

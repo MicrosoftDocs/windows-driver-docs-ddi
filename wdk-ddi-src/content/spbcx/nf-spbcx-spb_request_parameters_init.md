@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SPB_REQUEST_PARAMETERS_INIT function"]
 ms.keywords: SPB.spb_request_parameters_init, SPB_REQUEST_PARAMETERS_INIT, SPB_REQUEST_PARAMETERS_INIT function [Buses], spbcx/SPB_REQUEST_PARAMETERS_INIT
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SPB_REQUEST_PARAMETERS_INIT
 ---
 
-# SPB_REQUEST_PARAMETERS_INIT function
+# SPB_REQUEST_PARAMETERS_INIT function (spbcx.h)
+
+
 
 
 ## -description

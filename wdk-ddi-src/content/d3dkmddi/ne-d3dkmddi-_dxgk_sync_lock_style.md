@@ -6,6 +6,7 @@ ms.date: 08/25/2022
 keywords: ["DXGK_SYNC_LOCK_STYLE enumeration"]
 ms.keywords: _DXGK_SYNC_LOCK_STYLE, DXGK_SYNC_LOCK_STYLE,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_SYNC_LOCK_STYLE enumeration
+# DXGK_SYNC_LOCK_STYLE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

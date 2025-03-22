@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSINTERFACE_STANDARD enumeration"]
 ms.keywords: KSINTERFACE_STANDARD, KSINTERFACE_STANDARD enumeration [Streaming Media Devices], KSINTERFACE_STANDARD_CONTROL, KSINTERFACE_STANDARD_LOOPED_STREAMING, KSINTERFACE_STANDARD_STREAMING, ks/KSINTERFACE_STANDARD, ks/KSINTERFACE_STANDARD_CONTROL, ks/KSINTERFACE_STANDARD_LOOPED_STREAMING, ks/KSINTERFACE_STANDARD_STREAMING, stream.ksinterface_standard
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSINTERFACE_STANDARD
 ---
 
-# KSINTERFACE_STANDARD enumeration
+# KSINTERFACE_STANDARD enumeration (ks.h)
+
+
 
 
 ## -description

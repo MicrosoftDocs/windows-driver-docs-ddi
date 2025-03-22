@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SWENUM_GET_BUS_ID IOCTL"]
 ms.keywords: IOCTL_SWENUM_GET_BUS_ID, IOCTL_SWENUM_GET_BUS_ID control, IOCTL_SWENUM_GET_BUS_ID control code [Streaming Media Devices], stream.ioctl_swenum_get_bus_id, swenum/IOCTL_SWENUM_GET_BUS_ID
 req.header: swenum.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SWENUM_GET_BUS_ID
 ---
 
-# IOCTL_SWENUM_GET_BUS_ID IOCTL
+# IOCTL_SWENUM_GET_BUS_ID IOCTL (swenum.h)
+
+
+
+
 
 
 ## -description

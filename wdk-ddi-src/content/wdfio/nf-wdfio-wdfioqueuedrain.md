@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueDrain function"]
 ms.keywords: DFQueueObjectRef_39ca90c2-1fc9-4f1c-b05f-d46f668a3cd1.xml, WdfIoQueueDrain, WdfIoQueueDrain method, kmdf.wdfioqueuedrain, wdf.wdfioqueuedrain, wdfio/WdfIoQueueDrain
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueDrain
 ---
 
-# WdfIoQueueDrain function
+# WdfIoQueueDrain function (wdfio.h)
+
+
 
 
 ## -description

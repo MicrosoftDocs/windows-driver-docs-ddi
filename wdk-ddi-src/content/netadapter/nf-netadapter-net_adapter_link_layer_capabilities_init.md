@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function"]
 ms.keywords: NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT
 ---
 
-# NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function
+# NET_ADAPTER_LINK_LAYER_CAPABILITIES_INIT function (netadapter.h)
+
+
 
 
 ## -description

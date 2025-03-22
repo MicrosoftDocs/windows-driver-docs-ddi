@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_NI_NOTIFICATION_TYPE enumeration"]
 ms.keywords: GNSS_NI_NOTIFICATION_TYPE, GNSS_NI_NOTIFICATION_TYPE enumeration [Sensor Devices], GNSS_NI_NoNotifyNoVerify, GNSS_NI_NotifyOnly, GNSS_NI_NotifyVerifyDefaultAllow, GNSS_NI_NotifyVerifyDefaultNotAllow, GNSS_NI_PrivacyOverride, gnss.gnss_ni_notification_type, gnssdriver/GNSS_NI_NOTIFICATION_TYPE, gnssdriver/GNSS_NI_NoNotifyNoVerify, gnssdriver/GNSS_NI_NotifyOnly, gnssdriver/GNSS_NI_NotifyVerifyDefaultAllow, gnssdriver/GNSS_NI_NotifyVerifyDefaultNotAllow, gnssdriver/GNSS_NI_PrivacyOverride
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_NI_NOTIFICATION_TYPE
 ---
 
-# GNSS_NI_NOTIFICATION_TYPE enumeration
+# GNSS_NI_NOTIFICATION_TYPE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

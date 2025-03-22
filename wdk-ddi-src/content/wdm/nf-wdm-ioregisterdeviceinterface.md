@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRegisterDeviceInterface function"]
 ms.keywords: IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, wdm/IoRegisterDeviceInterface
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterDeviceInterface
 ---
 
-# IoRegisterDeviceInterface function
+# IoRegisterDeviceInterface function (wdm.h)
+
+
 
 
 ## -description

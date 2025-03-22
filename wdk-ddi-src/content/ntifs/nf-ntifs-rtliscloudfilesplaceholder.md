@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlIsCloudFilesPlaceholder function"]
 ms.keywords: RtlIsCloudFilesPlaceholder, RtlIsCloudFilesPlaceholder routine [Installable File System Drivers], ifsk.rtliscloudfilesplaceholder, ntifs/RtlIsCloudFilesPlaceholder
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709.
@@ -40,7 +41,9 @@ api_name:
  - RtlIsCloudFilesPlaceholder
 ---
 
-# RtlIsCloudFilesPlaceholder function
+# RtlIsCloudFilesPlaceholder function (ntifs.h)
+
+
 
 
 ## -description

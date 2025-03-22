@@ -8,6 +8,7 @@ ms.date: 05/06/2019
 keywords: ["KBUGCHECK_CALLBACK_REASON enumeration"]
 ms.keywords: KBUGCHECK_CALLBACK_REASON, KBUGCHECK_CALLBACK_REASON enumeration [Kernel-Mode Driver Architecture], KbCallbackAddPages, KbCallbackDumpIo, KbCallbackInvalid, KbCallbackReserved1, KbCallbackSecondaryDumpData, _KBUGCHECK_CALLBACK_REASON, kernel.kbugcheck_callback_reason, sysenum_e8373f57-7ba5-44ad-9ad9-4110710732ee.xml, wdm/KBUGCHECK_CALLBACK_REASON, wdm/KbCallbackAddPages, wdm/KbCallbackDumpIo, wdm/KbCallbackInvalid, wdm/KbCallbackReserved1, wdm/KbCallbackSecondaryDumpData
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported on Windows XP with Service Pack 1 (SP1), Windows Server 2003, and later versions of the Windows operating system.
@@ -43,7 +44,9 @@ api_name:
  - KBUGCHECK_CALLBACK_REASON
 ---
 
-# _KBUGCHECK_CALLBACK_REASON enumeration
+# KBUGCHECK_CALLBACK_REASON enumeration (wdm.h)
+
+
 
 
 ## -description

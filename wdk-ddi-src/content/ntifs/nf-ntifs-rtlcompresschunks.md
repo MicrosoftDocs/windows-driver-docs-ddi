@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlCompressChunks function"]
 ms.keywords: RtlCompressChunks, RtlCompressChunks function [Installable File System Drivers], ifsk.rtlcompresschunks, ntifs/RtlCompressChunks, rtlref_5a8506ad-e74c-410f-9da3-18d3812601c3.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlCompressChunks
 ---
 
-# RtlCompressChunks function
+# RtlCompressChunks function (ntifs.h)
+
+
 
 ## -description
 

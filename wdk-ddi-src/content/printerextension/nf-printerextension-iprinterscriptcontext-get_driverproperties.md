@@ -7,6 +7,7 @@ ms.date: 08/04/2022
 keywords: ["IPrinterScriptContext::get_DriverProperties"]
 ms.keywords: DriverProperties property [Print Devices], DriverProperties property [Print Devices],IPrinterScriptContext interface, IPrinterScriptContext interface [Print Devices],DriverProperties property, IPrinterScriptContext.DriverProperties, IPrinterScriptContext.get_DriverProperties, IPrinterScriptContext::DriverProperties, IPrinterScriptContext::get_DriverProperties, get_DriverProperties, print.iprinterscriptcontext_driverproperties, printerextension/IPrinterScriptContext::DriverProperties, printerextension/IPrinterScriptContext::get_DriverProperties
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptContext::get_DriverProperties
 ---
+
+# IPrinterScriptContext::get_DriverProperties function (printerextension.h)
 
 ## -description
 

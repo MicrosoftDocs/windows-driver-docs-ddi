@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SeAssignSecurity function"]
 ms.keywords: SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, kernel.seassignsecurity, wdm/SeAssignSecurity
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - SeAssignSecurity
 ---
 
-# SeAssignSecurity function
+# SeAssignSecurity function (wdm.h)
+
+
 
 
 ## -description

@@ -4,6 +4,7 @@ title: D3DKMT_ESCAPETYPE (d3dkmthk.h)
 description: Learn more about the D3DKMT_ESCAPETYPE enumeration.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - D3DKMT_ESCAPETYPE
 ---
 
-# D3DKMT_ESCAPETYPE enumeration
+# D3DKMT_ESCAPETYPE enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UsbBuildInterruptOrBulkTransferRequest macro"]
 ms.keywords: UsbBuildInterruptOrBulkTransferRequest, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - UsbBuildInterruptOrBulkTransferRequest
 ---
 
-# UsbBuildInterruptOrBulkTransferRequest macro
+# UsbBuildInterruptOrBulkTransferRequest macro (usbdlib.h)
+
+
+
+
 
 
 ## -description

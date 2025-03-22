@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_GET_DEVICE_CAPS IOCTL"]
 ms.keywords: IOCTL_PAR_GET_DEVICE_CAPS, IOCTL_PAR_GET_DEVICE_CAPS control code [Parallel Ports], cisspd_ea215140-7641-4554-bf95-362942d13143.xml, ntddpar/IOCTL_PAR_GET_DEVICE_CAPS, parports.ioctl_par_get_device_caps
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PAR_GET_DEVICE_CAPS
 ---
 
-# IOCTL_PAR_GET_DEVICE_CAPS IOCTL
+# IOCTL_PAR_GET_DEVICE_CAPS IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

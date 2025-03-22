@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons"]
 ms.keywords: ExtentHeightInMicrons property [Print Devices], ExtentHeightInMicrons property [Print Devices],IPrintSchemaPageImageableSize interface, IPrintSchemaPageImageableSize interface [Print Devices],ExtentHeightInMicrons property, IPrintSchemaPageImageableSize.ExtentHeightInMicrons, IPrintSchemaPageImageableSize.get_ExtentHeightInMicrons, IPrintSchemaPageImageableSize::ExtentHeightInMicrons, IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons, get_ExtentHeightInMicrons, print.iprintschemapageimageablesize_extentheightinmicrons, printerextension/IPrintSchemaPageImageableSize::ExtentHeightInMicrons, printerextension/IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons
 ---
+
+# IPrintSchemaPageImageableSize::get_ExtentHeightInMicrons function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_GROW_PARTITION IOCTL"]
 ms.keywords: IOCTL_DISK_GROW_PARTITION, IOCTL_DISK_GROW_PARTITION control, IOCTL_DISK_GROW_PARTITION control code [Storage Devices], k307_f3c07ac5-6895-46f9-85ad-7706661164a1.xml, ntdddisk/IOCTL_DISK_GROW_PARTITION, storage.ioctl_disk_grow_partition
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_GROW_PARTITION
 ---
 
-# IOCTL_DISK_GROW_PARTITION IOCTL
+# IOCTL_DISK_GROW_PARTITION IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsGetProcessCreateTimeQuadPart function"]
 ms.keywords: PsGetProcessCreateTimeQuadPart, PsGetProcessCreateTimeQuadPart routine [Kernel-Mode Driver Architecture], k108_57bcfbb5-501b-41bf-964c-14c2b90548ea.xml, kernel.psgetprocesscreatetimequadpart, ntddk/PsGetProcessCreateTimeQuadPart
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - PsGetProcessCreateTimeQuadPart
 ---
 
-# PsGetProcessCreateTimeQuadPart function
+# PsGetProcessCreateTimeQuadPart function (ntddk.h)
+
+
 
 
 ## -description

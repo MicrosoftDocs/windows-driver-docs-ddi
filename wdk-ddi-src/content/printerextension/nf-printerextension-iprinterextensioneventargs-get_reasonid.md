@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrinterExtensionEventArgs::get_ReasonId"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],ReasonId property, IPrinterExtensionEventArgs.ReasonId, IPrinterExtensionEventArgs.get_ReasonId, IPrinterExtensionEventArgs::ReasonId, IPrinterExtensionEventArgs::get_ReasonId, ReasonId property [Print Devices], ReasonId property [Print Devices],IPrinterExtensionEventArgs interface, get_ReasonId, print.iprinterextensioneventargs_reasonid, printerextension/IPrinterExtensionEventArgs::ReasonId, printerextension/IPrinterExtensionEventArgs::get_ReasonId
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEventArgs::get_ReasonId
 ---
+
+# IPrinterExtensionEventArgs::get_ReasonId function (printerextension.h)
 
 ## -description
 

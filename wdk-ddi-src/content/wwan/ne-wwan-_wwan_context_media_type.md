@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["WWAN_CONTEXT_MEDIA_TYPE enumeration"]
 ms.keywords: _WWAN_CONTEXT_MEDIA_TYPE, WWAN_CONTEXT_MEDIA_TYPE, *PWWAN_CONTEXT_MEDIA_TYPE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_CONTEXT_MEDIA_TYPE
 ---
 
-# _WWAN_CONTEXT_MEDIA_TYPE enumeration
+# WWAN_CONTEXT_MEDIA_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

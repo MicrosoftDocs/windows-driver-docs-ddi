@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VhfAsyncOperationComplete function"]
 ms.keywords: VhfAsyncOperationComplete, VhfAsyncOperationComplete method [Human Input Devices], hid._vhfasyncoperationcomplete, vhf/VhfAsyncOperationComplete
 req.header: vhf.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - VhfAsyncOperationComplete
 ---
 
-# VhfAsyncOperationComplete function
+# VhfAsyncOperationComplete function (vhf.h)
+
+
 
 
 ## -description

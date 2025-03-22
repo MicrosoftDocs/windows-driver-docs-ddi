@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExCancelTimer function"]
 ms.keywords: ExCancelTimer, ExCancelTimer routine [Kernel-Mode Driver Architecture], kernel.excanceltimer, wdm/ExCancelTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -41,7 +42,9 @@ api_name:
  - ExCancelTimer
 ---
 
-# ExCancelTimer function
+# ExCancelTimer function (wdm.h)
+
+
 
 
 ## -description

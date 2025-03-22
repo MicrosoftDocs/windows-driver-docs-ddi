@@ -7,6 +7,7 @@ ms.date: 05/31/2022
 keywords: ["DlDebugPrint function"]
 ms.keywords: DlDebugPrint
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# DlDebugPrint function
+# DlDebugPrint function (dispmprt.h)
+
+
 
 ## -description
 

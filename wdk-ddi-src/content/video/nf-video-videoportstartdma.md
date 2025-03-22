@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortStartDma function"]
 ms.keywords: VideoPortStartDma, VideoPortStartDma function [Display Devices], VideoPort_Functions_b568d7ff-2e88-4afe-827b-4e54e075718c.xml, display.videoportstartdma, video/VideoPortStartDma
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortStartDma
 ---
 
-# VideoPortStartDma function
+# VideoPortStartDma function (video.h)
+
+
 
 
 ## -description

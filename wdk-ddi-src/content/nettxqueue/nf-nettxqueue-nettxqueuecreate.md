@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetTxQueueCreate function"]
 ms.keywords: NetTxQueueCreate
 req.header: nettxqueue.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetTxQueueCreate
 ---
 
-# NetTxQueueCreate function
+# NetTxQueueCreate function (nettxqueue.h)
+
+
 
 
 ## -description

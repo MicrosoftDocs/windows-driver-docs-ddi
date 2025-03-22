@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateVolumes function"]
 ms.keywords: FltApiRef_e_to_o_20e817de-0825-4c5f-a831-2815c216344e.xml, FltEnumerateVolumes, FltEnumerateVolumes routine [Installable File System Drivers], fltkernel/FltEnumerateVolumes, ifsk.fltenumeratevolumes
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateVolumes
 ---
 
-# FltEnumerateVolumes function
+# FltEnumerateVolumes function (fltkernel.h)
+
+
 
 
 ## -description

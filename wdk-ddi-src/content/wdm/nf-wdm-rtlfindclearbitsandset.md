@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlFindClearBitsAndSet function"]
 ms.keywords: RtlFindClearBitsAndSet, RtlFindClearBitsAndSet routine [Kernel-Mode Driver Architecture], k109_187055d4-54ce-4ede-878a-fd97079e6fdd.xml, kernel.rtlfindclearbitsandset, wdm/RtlFindClearBitsAndSet
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlFindClearBitsAndSet
 ---
 
-# RtlFindClearBitsAndSet function
+# RtlFindClearBitsAndSet function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoClearEjectionRelationsDevices function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, kmdf.wdfpdoclearejectionrelationsdevices, wdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoClearEjectionRelationsDevices
 ---
 
-# WdfPdoClearEjectionRelationsDevices function
+# WdfPdoClearEjectionRelationsDevices function (wdfpdo.h)
+
+
 
 
 ## -description

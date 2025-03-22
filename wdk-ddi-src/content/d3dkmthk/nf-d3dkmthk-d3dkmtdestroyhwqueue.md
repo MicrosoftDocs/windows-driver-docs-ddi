@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyHwQueue function"]
 ms.keywords: D3DKMTDestroyHwQueue, D3DKMTDestroyHwQueue function [Display Devices], d3dkmthk/D3DKMTDestroyHwQueue, display.d3dkmtdestroyhwqueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTDestroyHwQueue
 ---
 
-# D3DKMTDestroyHwQueue function
+# D3DKMTDestroyHwQueue function (d3dkmthk.h)
+
+
 
 ## -description
 

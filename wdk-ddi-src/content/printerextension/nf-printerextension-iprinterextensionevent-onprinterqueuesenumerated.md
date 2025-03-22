@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterExtensionEvent::OnPrinterQueuesEnumerated"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnPrinterQueuesEnumerated method, IPrinterExtensionEvent.OnPrinterQueuesEnumerated, IPrinterExtensionEvent::OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated, OnPrinterQueuesEnumerated method [Print Devices], OnPrinterQueuesEnumerated method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_onprinterqueuesenumerated, printerextension/IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEvent::OnPrinterQueuesEnumerated
 ---
+
+# IPrinterExtensionEvent::OnPrinterQueuesEnumerated function (printerextension.h)
 
 ## -description
 

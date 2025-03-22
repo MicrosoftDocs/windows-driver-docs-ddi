@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_VideoLighting enumeration"]
 ms.keywords: DXVA_VideoLighting, DXVA_VideoLighting enumeration [Display Devices], DXVA_VideoLightingMask, DXVA_VideoLightingShift, DXVA_VideoLighting_Unknown, DXVA_VideoLighting_bright, DXVA_VideoLighting_dark, DXVA_VideoLighting_dim, DXVA_VideoLighting_office, _DXVA_VideoLighting, display.dxva_videolighting, dxva/DXVA_VideoLighting, dxva/DXVA_VideoLightingMask, dxva/DXVA_VideoLightingShift, dxva/DXVA_VideoLighting_Unknown, dxva/DXVA_VideoLighting_bright, dxva/DXVA_VideoLighting_dark, dxva/DXVA_VideoLighting_dim, dxva/DXVA_VideoLighting_office, dxvaref_c223ad8d-6e70-4672-b286-292a7e36d6f7.xml
 req.header: dxva.h
+req.construct-type: enumeration
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This enumeration type applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_VideoLighting
 ---
 
-# _DXVA_VideoLighting enumeration
+# DXVA_VideoLighting enumeration (dxva.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_MODEM_CONFIG_STATE enumeration"]
 ms.keywords: "*PWWAN_MODEM_CONFIG_STATE, PWWAN_MODEM_CONFIG_STATE, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigStateActivated, WwanModemConfigStateMax, WwanModemConfigStatePending, WwanModemConfigStateUnknown, _WWAN_MODEM_CONFIG_STATE, netvista.wwan_modem_config_state, wwan/PWWAN_MODEM_CONFIG_STATE, wwan/WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateActivated, wwan/WwanModemConfigStateMax, wwan/WwanModemConfigStatePending, wwan/WwanModemConfigStateUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_MODEM_CONFIG_STATE
 ---
 
-# _WWAN_MODEM_CONFIG_STATE enumeration
+# WWAN_MODEM_CONFIG_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

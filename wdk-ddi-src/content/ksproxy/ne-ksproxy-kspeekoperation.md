@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPEEKOPERATION enumeration"]
 ms.keywords: KSPEEKOPERATION, KSPEEKOPERATION enumeration [Streaming Media Devices], KsPeekOperation_AddRef, KsPeekOperation_PeekOnly, ksproxy/KSPEEKOPERATION, ksproxy/KsPeekOperation_AddRef, ksproxy/KsPeekOperation_PeekOnly, stream.kspeekoperation
 req.header: ksproxy.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPEEKOPERATION
 ---
 
-# KSPEEKOPERATION enumeration
+# KSPEEKOPERATION enumeration (ksproxy.h)
+
+
 
 
 ## -description

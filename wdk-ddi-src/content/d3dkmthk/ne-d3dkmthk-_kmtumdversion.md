@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["KMTUMDVERSION enumeration"]
 ms.keywords: _KMTUMDVERSION, KMTUMDVERSION,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# KMTUMDVERSION enumeration
+# KMTUMDVERSION enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

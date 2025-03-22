@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["NtQueryQuotaInformationFile function"]
 ms.keywords: NtQueryQuotaInformationFile, ZwQueryQuotaInformationFile, ZwQueryQuotaInformationFile routine [Kernel-Mode Driver Architecture], k111_226a807c-d14d-403f-bbef-f5b4e6491039.xml, kernel.zwqueryquotainformationfile, ntifs/NtQueryQuotaInformationFile, ntifs/ZwQueryQuotaInformationFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - NtQueryQuotaInformationFile
 ---
 
-# NtQueryQuotaInformationFile function
+# NtQueryQuotaInformationFile function (ntifs.h)
+
+
 
 ## -description
 

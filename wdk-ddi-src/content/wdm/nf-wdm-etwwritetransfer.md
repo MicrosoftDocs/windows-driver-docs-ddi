@@ -7,6 +7,7 @@ ms.date: 02/15/2023
 keywords: ["EtwWriteTransfer function"]
 ms.keywords: EtwWriteTransfer, EtwWriteTransfer function [Driver Development Tools], devtest.etwwritetransfer, etw_km_210cf13d-0f54-4a51-b8f2-7d37b22d8eac.xml, wdm/EtwWriteTransfer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - EtwWriteTransfer
 ---
+
+# EtwWriteTransfer function (wdm.h)
 
 ## -description
 

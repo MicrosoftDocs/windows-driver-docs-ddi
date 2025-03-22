@@ -8,6 +8,7 @@ ms.date: 12/28/2021
 keywords: ["DOT11_AUTH_ALGORITHM enumeration"]
 ms.keywords: "*PDOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM, DOT11_AUTH_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_AUTH_ALGO_80211_OPEN, DOT11_AUTH_ALGO_80211_SHARED_KEY, DOT11_AUTH_ALGO_IHV_END, DOT11_AUTH_ALGO_IHV_START, DOT11_AUTH_ALGO_RSNA, DOT11_AUTH_ALGO_RSNA_PSK, DOT11_AUTH_ALGO_WPA, DOT11_AUTH_ALGO_WPA_NONE, DOT11_AUTH_ALGO_WPA_PSK, Native_802.11_data_types_e6d2770c-b7fd-467c-a94e-b2f77a515e76.xml, PDOT11_AUTH_ALGORITHM, PDOT11_AUTH_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11_AUTH_ALGORITHM, netvista.dot11_auth_algorithm, wlantypes/DOT11_AUTH_ALGORITHM, wlantypes/DOT11_AUTH_ALGO_80211_OPEN, wlantypes/DOT11_AUTH_ALGO_80211_SHARED_KEY, wlantypes/DOT11_AUTH_ALGO_IHV_END, wlantypes/DOT11_AUTH_ALGO_IHV_START, wlantypes/DOT11_AUTH_ALGO_RSNA, wlantypes/DOT11_AUTH_ALGO_RSNA_PSK, wlantypes/DOT11_AUTH_ALGO_WPA, wlantypes/DOT11_AUTH_ALGO_WPA_NONE, wlantypes/DOT11_AUTH_ALGO_WPA_PSK, wlantypes/PDOT11_AUTH_ALGORITHM"
 req.header: wlantypes.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_AUTH_ALGORITHM
 ---
 
-# _DOT11_AUTH_ALGORITHM enumeration
+# DOT11_AUTH_ALGORITHM enumeration (wlantypes.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxMapSystemBuffer function"]
 ms.keywords: RxMapSystemBuffer, RxMapSystemBuffer function [Installable File System Drivers], ifsk.rxmapsystembuffer, rxprocs/RxMapSystemBuffer, rxref_b9222b0a-25ca-4ad4-95b9-b9651c625a39.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxcontx.h, Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxMapSystemBuffer
 ---
 
-# RxMapSystemBuffer function
+# RxMapSystemBuffer function (rxprocs.h)
+
+
 
 
 ## -description

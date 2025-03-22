@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoSetCompletionRoutineEx function"]
 ms.keywords: IoSetCompletionRoutineEx, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture], k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, kernel.iosetcompletionroutineex, wdm/IoSetCompletionRoutineEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoSetCompletionRoutineEx
 ---
+
+# IoSetCompletionRoutineEx function (wdm.h)
 
 ## -description
 

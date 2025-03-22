@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlAllocatePoolWithTag macro"]
 ms.keywords: FsRtlAllocatePoolWithTag, FsRtlAllocatePoolWithTag routine [Installable File System Drivers], fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, ifsk.fsrtlallocatepoolwithtag, ntifs/FsRtlAllocatePoolWithTag
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,11 @@ api_name:
  - FsRtlAllocatePoolWithTag
 ---
 
-# FsRtlAllocatePoolWithTag macro
+# FsRtlAllocatePoolWithTag macro (ntifs.h)
+
+
+
+
 
 ## -description
 

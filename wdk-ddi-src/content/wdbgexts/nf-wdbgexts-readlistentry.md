@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadListEntry function"]
 ms.keywords: ReadListEntry, ReadListEntry function [Windows Debugging], WdbgExts_Ref_ab7a48d6-aa2a-4ed1-a4dc-7339993ccb45.xml, debugger.readlistentry, wdbgexts/ReadListEntry
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h, Winnt.h, Ntdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadListEntry
 ---
 
-# ReadListEntry function
+# ReadListEntry function (wdbgexts.h)
+
+
 
 
 ## -description

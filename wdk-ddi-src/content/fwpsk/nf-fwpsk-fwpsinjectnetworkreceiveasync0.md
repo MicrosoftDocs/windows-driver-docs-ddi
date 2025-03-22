@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsInjectNetworkReceiveAsync0 function"]
 ms.keywords: FwpsInjectNetworkReceiveAsync0, FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectNetworkReceiveAsync0, netvista.fwpsinjectnetworkreceiveasync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsInjectNetworkReceiveAsync0
 ---
 
-# FwpsInjectNetworkReceiveAsync0 function
+# FwpsInjectNetworkReceiveAsync0 function (fwpsk.h)
+
+
 
 
 ## -description

@@ -5,6 +5,7 @@ description: Learn more about the StorPortGetCurrentProcessorNumber function.
 tech.root: storage
 ms.date: 07/26/2024
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -37,7 +38,9 @@ api_name:
  - StorPortGetCurrentProcessorNumber
 ---
 
-# StorPortGetCurrentProcessorNumber function
+# StorPortGetCurrentProcessorNumber function (storport.h)
+
+
 
 ## -description
 

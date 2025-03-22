@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetAffinityInterrupt function"]
 ms.keywords: IoGetAffinityInterrupt, IoGetAffinityInterrupt routine [Kernel-Mode Driver Architecture], WdmlibIoGetAffinityInterrupt, k104_39247b69-50e1-4162-b26e-81b5358738de.xml, kernel.iogetaffinityinterrupt, wdm/IoGetAffinityInterrupt, wdm/WdmlibIoGetAffinityInterrupt
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoGetAffinityInterrupt
 ---
 
-# IoGetAffinityInterrupt function
+# IoGetAffinityInterrupt function (wdm.h)
+
+
 
 
 ## -description

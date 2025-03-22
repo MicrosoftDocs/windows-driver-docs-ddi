@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetRxQueueGetRingCollection function"]
 ms.keywords: NetRxQueueGetRingCollection
 req.header: netrxqueue.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetRxQueueGetRingCollection
 ---
 
-# NetRxQueueGetRingCollection function
+# NetRxQueueGetRingCollection function (netrxqueue.h)
+
+
 
 
 ## -description

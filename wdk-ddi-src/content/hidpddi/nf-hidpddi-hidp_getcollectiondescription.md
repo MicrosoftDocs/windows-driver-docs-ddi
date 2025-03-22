@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetCollectionDescription function"]
 ms.keywords: HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hid.hidp_getcollectiondescription, hidpddi/HidP_GetCollectionDescription
 req.header: hidpddi.h
+req.construct-type: function
 req.include-header: Hidpddi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_GetCollectionDescription
 ---
 
-# HidP_GetCollectionDescription function
+# HidP_GetCollectionDescription function (hidpddi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_PD_CONN_STATE enumeration"]
 ms.keywords: _USBC_PD_CONN_STATE, USBC_PD_CONN_STATE,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_PD_CONN_STATE
 ---
 
-# _USBC_PD_CONN_STATE enumeration
+# USBC_PD_CONN_STATE enumeration (usbctypes.h)
+
+
 
 
 ## -description

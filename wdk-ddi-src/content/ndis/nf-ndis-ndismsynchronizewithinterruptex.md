@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMSynchronizeWithInterruptEx function"]
 ms.keywords: BOOLEAN, NdisMSynchronizeWithInterruptEx, NdisMSynchronizeWithInterruptEx function [Network Drivers Starting with Windows Vista], ndis/NdisMSynchronizeWithInterruptEx, ndis_interrupts_functions_ref_e2b886ed-7425-4f7e-8cb6-4e3946dec8ff.xml, netvista.ndismsynchronizewithinterruptex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h, Video.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMSynchronizeWithInterruptEx
 ---
 
-# NdisMSynchronizeWithInterruptEx function
+# NdisMSynchronizeWithInterruptEx function (ndis.h)
+
+
 
 
 ## -description

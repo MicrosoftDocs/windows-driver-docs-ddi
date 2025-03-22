@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExIsResourceAcquiredSharedLite function"]
 ms.keywords: ExIsResourceAcquiredLite, ExIsResourceAcquiredSharedLite, ExIsResourceAcquiredSharedLite routine [Kernel-Mode Driver Architecture], k102_e1ae158d-fd02-4962-813f-7bd87943f033.xml, kernel.exisresourceacquiredsharedlite, wdm/ExIsResourceAcquiredSharedLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExIsResourceAcquiredSharedLite
 ---
 
-# ExIsResourceAcquiredSharedLite function
+# ExIsResourceAcquiredSharedLite function (wdm.h)
+
+
 
 
 ## -description

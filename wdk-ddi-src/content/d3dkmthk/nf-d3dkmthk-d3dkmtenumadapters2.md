@@ -6,6 +6,7 @@ ms.date: 08/30/2022
 keywords: ["D3DKMTEnumAdapters2 function"]
 ms.keywords: D3DKMTEnumAdapters2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTEnumAdapters2 function
+# D3DKMTEnumAdapters2 function (d3dkmthk.h)
+
+
 
 ## -description
 

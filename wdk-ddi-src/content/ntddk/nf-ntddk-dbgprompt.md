@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["DbgPrompt function"]
 ms.keywords: DbgPrompt, DbgPrompt routine [Driver Development Tools], DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, devtest.dbgprompt, ntddk/DbgPrompt
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - DbgPrompt
 ---
+
+# DbgPrompt function (ntddk.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForReset function"]
 ms.keywords: DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, WdfUsbTargetPipeFormatRequestForReset, WdfUsbTargetPipeFormatRequestForReset method, kmdf.wdfusbtargetpipeformatrequestforreset, wdf.wdfusbtargetpipeformatrequestforreset, wdfusb/WdfUsbTargetPipeFormatRequestForReset
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeFormatRequestForReset
 ---
 
-# WdfUsbTargetPipeFormatRequestForReset function
+# WdfUsbTargetPipeFormatRequestForReset function (wdfusb.h)
+
+
 
 
 ## -description

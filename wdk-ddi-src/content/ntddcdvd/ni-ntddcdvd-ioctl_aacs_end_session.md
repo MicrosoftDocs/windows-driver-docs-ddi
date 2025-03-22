@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_END_SESSION IOCTL"]
 ms.keywords: IOCTL_AACS_END_SESSION, IOCTL_AACS_END_SESSION control, IOCTL_AACS_END_SESSION control code [Storage Devices], k307_608ddec6-9661-433b-8b82-22ce3b06267d.xml, ntddcdvd/IOCTL_AACS_END_SESSION, storage.ioctl_aacs_end_session
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_END_SESSION
 ---
 
-# IOCTL_AACS_END_SESSION IOCTL
+# IOCTL_AACS_END_SESSION IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

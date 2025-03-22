@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinAcquireProcessingMutex function"]
 ms.keywords: KsPinAcquireProcessingMutex, KsPinAcquireProcessingMutex function [Streaming Media Devices], avfunc_d06d3037-45b0-4931-86e4-ef7c586bcdf1.xml, ks/KsPinAcquireProcessingMutex, stream.kspinacquireprocessingmutex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinAcquireProcessingMutex
 ---
 
-# KsPinAcquireProcessingMutex function
+# KsPinAcquireProcessingMutex function (ks.h)
+
+
 
 
 ## -description

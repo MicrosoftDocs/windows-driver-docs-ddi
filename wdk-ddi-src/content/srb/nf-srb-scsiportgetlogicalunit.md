@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortGetLogicalUnit function"]
 ms.keywords: ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit routine [Storage Devices], scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, srb/ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortGetLogicalUnit
 ---
 
-# ScsiPortGetLogicalUnit function
+# ScsiPortGetLogicalUnit function (srb.h)
+
+
 
 
 ## -description

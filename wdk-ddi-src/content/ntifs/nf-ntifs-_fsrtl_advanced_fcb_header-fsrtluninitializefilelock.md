@@ -8,6 +8,7 @@ ms.date: 03/20/2023
 keywords: ["FsRtlUninitializeFileLock function"]
 ms.keywords: FsRtlUninitializeFileLock, FsRtlUninitializeFileLock routine [Installable File System Drivers], fsrtlref_d78c3eae-751c-4440-8915-455454886201.xml, ifsk.fsrtluninitializefilelock, ntifs/FsRtlUninitializeFileLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlUninitializeFileLock
 ---
 
-# FsRtlUninitializeFileLock function
+# FsRtlUninitializeFileLock function (ntifs.h)
+
+
 
 ## -description
 

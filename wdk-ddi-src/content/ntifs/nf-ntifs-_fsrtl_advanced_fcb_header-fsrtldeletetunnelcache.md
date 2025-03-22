@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDeleteTunnelCache function"]
 ms.keywords: FsRtlDeleteTunnelCache, FsRtlDeleteTunnelCache routine [Installable File System Drivers], fsrtlref_b5481e27-6ade-4057-8d63-3af814f9b80e.xml, ifsk.fsrtldeletetunnelcache, ntifs/FsRtlDeleteTunnelCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlDeleteTunnelCache
 ---
 
-# FsRtlDeleteTunnelCache function
+# FsRtlDeleteTunnelCache function (ntifs.h)
+
+
 
 
 ## -description

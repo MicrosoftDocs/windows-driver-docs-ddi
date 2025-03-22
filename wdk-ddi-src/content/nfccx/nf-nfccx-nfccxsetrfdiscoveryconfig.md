@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxSetRfDiscoveryConfig function"]
 ms.keywords: NfcCxSetRfDiscoveryConfig, NfcCxSetRfDiscoveryConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetRfDiscoveryConfig, nfpdrivers._nfccxsetrfdiscoveryconfig
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxSetRfDiscoveryConfig
 ---
 
-# NfcCxSetRfDiscoveryConfig function
+# NfcCxSetRfDiscoveryConfig function (nfccx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_INTERRUPT_POLICY enumeration"]
 ms.keywords: "*PWDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicyAllCloseProcessors, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyMachineDefault, WdfIrqPolicyOneCloseProcessor, WdfIrqPolicySpecifiedProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, umdf.wdf_interrupt_policy, wdf.wdf_interrupt_policy_umdf, wudfinterrupt/PWDF_INTERRUPT_POLICY, wudfinterrupt/WDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wudfinterrupt/WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors"
 req.header: wudfinterrupt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_INTERRUPT_POLICY
 ---
 
-# _WDF_INTERRUPT_POLICY enumeration (wudfinterrupt.h)
+# WDF_INTERRUPT_POLICY enumeration (wudfinterrupt.h)
+
+
 
 
 ## -description

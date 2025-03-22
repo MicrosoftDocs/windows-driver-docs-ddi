@@ -7,6 +7,7 @@ ms.date: 08/22/2022
 keywords: ["IPrintOemPrintTicketProvider::ExpandIntentOptions"]
 ms.keywords: ExpandIntentOptions, ExpandIntentOptions method [Print Devices], ExpandIntentOptions method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],ExpandIntentOptions method, IPrintOemPrintTicketProvider.ExpandIntentOptions, IPrintOemPrintTicketProvider::ExpandIntentOptions, prcomoem/IPrintOemPrintTicketProvider::ExpandIntentOptions, print.iprintoemprintticketprovider_expandintentoptions, print_ticket-package_1b344230-a06b-49ca-8b55-eb9c3500c3f1.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::ExpandIntentOptions
 ---
+
+# IPrintOemPrintTicketProvider::ExpandIntentOptions function (prcomoem.h)
 
 ## -description
 

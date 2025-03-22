@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfVerifierKeBugCheck function"]
 ms.keywords: DFDebugRef_05774709-97ed-4fcc-b0b2-9fdac9a34094.xml, WdfVerifierKeBugCheck, WdfVerifierKeBugCheck function, kmdf.wdfverifierkebugcheck, wdf.wdfverifierkebugcheck, wdfverifier/WdfVerifierKeBugCheck
 req.header: wdfverifier.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfVerifierKeBugCheck
 ---
 
-# WdfVerifierKeBugCheck function
+# WdfVerifierKeBugCheck function (wdfverifier.h)
+
+
 
 
 ## -description

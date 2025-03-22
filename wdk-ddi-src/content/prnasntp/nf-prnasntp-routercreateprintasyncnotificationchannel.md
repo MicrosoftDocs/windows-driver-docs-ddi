@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["RouterCreatePrintAsyncNotificationChannel function"]
 ms.keywords: RouterCreatePrintAsyncNotificationChannel, RouterCreatePrintAsyncNotificationChannel , RouterCreatePrintAsyncNotificationChannel function [Print Devices], print.routercreateprintasyncnotificationchannel, prnasntp/RouterCreatePrintAsyncNotificationChannel, spoolfnc_24cb45ed-2f72-4a13-9a40-c1197c41aae7.xml
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - RouterCreatePrintAsyncNotificationChannel
 ---
+
+# RouterCreatePrintAsyncNotificationChannel function (prnasntp.h)
 
 ## -description
 

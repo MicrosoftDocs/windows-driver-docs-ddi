@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIncrementCcFastMdlReadWait function"]
 ms.keywords: FsRtlIncrementCcFastMdlReadWait, FsRtlIncrementCcFastMdlReadWait routine [Installable File System Drivers], fsrtlref_6ab13976-a131-41bf-970c-f2a554d87d92.xml, ifsk.fsrtlincrementccfastmdlreadwait, ntifs/FsRtlIncrementCcFastMdlReadWait
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIncrementCcFastMdlReadWait
 ---
 
-# FsRtlIncrementCcFastMdlReadWait function
+# FsRtlIncrementCcFastMdlReadWait function (ntifs.h)
+
+
 
 
 ## -description

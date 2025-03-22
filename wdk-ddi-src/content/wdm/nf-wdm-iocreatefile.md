@@ -8,6 +8,7 @@ author: lorihollasch
 keywords: ["IoCreateFile function"]
 ms.keywords: IoCreateFile, IoCreateFile routine [Kernel-Mode Driver Architecture], k104_7221dba8-910f-439a-acdf-5a6ca4fcd49a.xml, kernel.iocreatefile, wdm/IoCreateFile
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - IoCreateFile
 ---
+
+# IoCreateFile function (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasFreePropContext function"]
 ms.keywords: image.wiasfreepropcontext, wiamdef/wiasFreePropContext, wiasFncs_60deac65-fa17-4f2e-abe1-fa6d424dc477.xml, wiasFreePropContext, wiasFreePropContext function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasFreePropContext
 ---
 
-# wiasFreePropContext function
+# wiasFreePropContext function (wiamdef.h)
+
+
 
 
 ## -description

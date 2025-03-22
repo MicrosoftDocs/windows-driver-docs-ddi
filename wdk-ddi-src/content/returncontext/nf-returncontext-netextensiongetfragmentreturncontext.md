@@ -7,6 +7,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentReturnContext function"]
 ms.keywords: NetExtensionGetFragmentReturnContext
 req.header: returncontext.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetExtensionGetFragmentReturnContext
 ---
 
-# NetExtensionGetFragmentReturnContext function
+# NetExtensionGetFragmentReturnContext function (returncontext.h)
+
+
 
 
 ## -description

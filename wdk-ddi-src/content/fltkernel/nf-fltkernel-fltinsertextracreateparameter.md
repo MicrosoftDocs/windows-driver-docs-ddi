@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltInsertExtraCreateParameter function"]
 ms.keywords: FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml, FltInsertExtraCreateParameter, FltInsertExtraCreateParameter routine [Installable File System Drivers], fltkernel/FltInsertExtraCreateParameter, ifsk.fltinsertextracreateparameter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltInsertExtraCreateParameter
 ---
 
-# FltInsertExtraCreateParameter function
+# FltInsertExtraCreateParameter function (fltkernel.h)
+
+
 
 
 ## -description

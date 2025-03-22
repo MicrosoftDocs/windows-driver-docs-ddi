@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IStiUSD::RawWriteData"]
 ms.keywords: IStiUSD interface [Imaging Devices],RawWriteData method, IStiUSD.RawWriteData, IStiUSD::RawWriteData, RawWriteData, RawWriteData method [Imaging Devices], RawWriteData method [Imaging Devices],IStiUSD interface, image.istiusd_rawwritedata, stifnc_32bdc55e-1e54-44ba-be36-e851d333f207.xml, stiusd/IStiUSD::RawWriteData
 req.header: stiusd.h
+req.construct-type: function
 req.include-header: Stiusd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiUSD::RawWriteData
 ---
+
+# IStiUSD::RawWriteData function (stiusd.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control, IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER control code [Storage Devices], k307_c77572b5-04ff-453d-91a4-9f58c65930e0.xml, mountmgr/IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER, storage.ioctl_mountmgr_next_drive_letter
 req.header: mountmgr.h
+req.construct-type: ioctl
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER
 ---
+
+# IOCTL_MOUNTMGR_NEXT_DRIVE_LETTER IOCTL (mountmgr.h)
+
+
 
 
 ## -description

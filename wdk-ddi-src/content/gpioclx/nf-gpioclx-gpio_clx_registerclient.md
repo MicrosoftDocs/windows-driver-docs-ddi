@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GPIO_CLX_RegisterClient function"]
 ms.keywords: GPIO.gpio_clx_registerclient, GPIO_CLX_RegisterClient, GPIO_CLX_RegisterClient method [Parallel Ports], gpioclx/GPIO_CLX_RegisterClient
 req.header: gpioclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - GPIO_CLX_RegisterClient
 ---
 
-# GPIO_CLX_RegisterClient function
+# GPIO_CLX_RegisterClient function (gpioclx.h)
+
+
 
 
 ## -description

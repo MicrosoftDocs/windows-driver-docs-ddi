@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCancelIo function"]
 ms.keywords: KsCancelIo, KsCancelIo function [Streaming Media Devices], ks/KsCancelIo, ksfunc_135412c3-120f-4b19-ac05-da63ab6b1ddd.xml, stream.kscancelio
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCancelIo
 ---
 
-# KsCancelIo function
+# KsCancelIo function (ks.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaPropertyGetPinControl function"]
 ms.keywords: BdaPropertyGetPinControl, BdaPropertyGetPinControl function [Streaming Media Devices], bdaref_f2db3de1-bfa0-4ad9-a537-6cc46f972984.xml, bdasup/BdaPropertyGetPinControl, stream.bdapropertygetpincontrol
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaPropertyGetPinControl
 ---
+
+# BdaPropertyGetPinControl function (bdasup.h)
 
 ## -description
 

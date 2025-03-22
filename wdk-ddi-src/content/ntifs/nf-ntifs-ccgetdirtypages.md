@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcGetDirtyPages function"]
 ms.keywords: CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - CcGetDirtyPages
 ---
 
-# CcGetDirtyPages function
+# CcGetDirtyPages function (ntifs.h)
+
+
 
 
 ## -description

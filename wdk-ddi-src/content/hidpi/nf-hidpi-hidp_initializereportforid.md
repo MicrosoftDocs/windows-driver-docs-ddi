@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_InitializeReportForID function"]
 ms.keywords: HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices], hid.hidp_initializereportforid, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hidpi/HidP_InitializeReportForID
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_InitializeReportForID
 ---
 
-# HidP_InitializeReportForID function
+# HidP_InitializeReportForID function (hidpi.h)
+
+
 
 
 ## -description

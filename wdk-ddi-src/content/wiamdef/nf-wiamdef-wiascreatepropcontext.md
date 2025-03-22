@@ -7,6 +7,7 @@ ms.date: 11/11/2022
 keywords: ["wiasCreatePropContext function"]
 ms.keywords: image.wiascreatepropcontext, wiamdef/wiasCreatePropContext, wiasCreatePropContext, wiasCreatePropContext function [Imaging Devices], wiasFncs_08d1a910-1036-46c9-a7a2-115a86275d60.xml
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasCreatePropContext
 ---
+
+# wiasCreatePropContext function (wiamdef.h)
 
 ## -description
 

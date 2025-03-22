@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_CURRENT enumeration"]
 ms.keywords: _USBC_CURRENT, USBC_CURRENT,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_CURRENT
 ---
 
-# _USBC_CURRENT enumeration
+# USBC_CURRENT enumeration (usbctypes.h)
+
+
 
 
 ## -description

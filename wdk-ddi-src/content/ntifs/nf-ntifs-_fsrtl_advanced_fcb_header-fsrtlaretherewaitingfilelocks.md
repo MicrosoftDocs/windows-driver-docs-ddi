@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlAreThereWaitingFileLocks function"]
 ms.keywords: FsRtlAreThereWaitingFileLocks, FsRtlAreThereWaitingFileLocks routine [Installable File System Drivers], ifsk.fsrtlaretherewaitingfilelocks, ntifs/FsRtlAreThereWaitingFileLocks
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAreThereWaitingFileLocks
 ---
 
-# FsRtlAreThereWaitingFileLocks function
+# FsRtlAreThereWaitingFileLocks function (ntifs.h)
+
+
 
 
 ## -description

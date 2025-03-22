@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCsqRemoveIrp function"]
 ms.keywords: IoCsqRemoveIrp, IoCsqRemoveIrp routine [Kernel-Mode Driver Architecture], k104_9a940115-fcbd-4e46-b7a5-10dc7fad7bda.xml, kernel.iocsqremoveirp, wdm/IoCsqRemoveIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows. Drivers that must also work in Windows 2000 and Windows 98/Me can instead link to Csq.lib to use the routine.
@@ -40,7 +41,9 @@ api_name:
  - IoCsqRemoveIrp
 ---
 
-# IoCsqRemoveIrp function
+# IoCsqRemoveIrp function (wdm.h)
+
+
 
 
 ## -description

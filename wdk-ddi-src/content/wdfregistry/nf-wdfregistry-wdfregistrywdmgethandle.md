@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryWdmGetHandle function"]
 ms.keywords: DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle, WdfRegistryWdmGetHandle method, kmdf.wdfregistrywdmgethandle, wdf.wdfregistrywdmgethandle, wdfregistry/WdfRegistryWdmGetHandle
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryWdmGetHandle
 ---
 
-# WdfRegistryWdmGetHandle function
+# WdfRegistryWdmGetHandle function (wdfregistry.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_DRIVER_REQUEST enumeration"]
 ms.keywords: GNSS_DRIVER_REQUEST, GNSS_DRIVER_REQUEST enumeration [Sensor Devices], SUPL_CONFIG_DATA, gnss.gnss_driver_request, gnssdriver/GNSS_DRIVER_REQUEST, gnssdriver/SUPL_CONFIG_DATA
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_DRIVER_REQUEST
 ---
 
-# GNSS_DRIVER_REQUEST enumeration
+# GNSS_DRIVER_REQUEST enumeration (gnssdriver.h)
+
+
 
 
 ## -description

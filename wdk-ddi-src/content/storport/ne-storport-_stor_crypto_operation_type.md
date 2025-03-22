@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_CRYPTO_OPERATION_TYPE enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE, PSTOR_CRYPTO_OPERATION_TYPE enumeration pointer [Storage Devices], STOR_CRYPTO_OPERATION_TYPE, STOR_CRYPTO_OPERATION_TYPE enumeration [Storage Devices], _STOR_CRYPTO_OPERATION_TYPE, storage.stor_crypto_operation_type, storport/, storport/PSTOR_CRYPTO_OPERATION_TYPE, storport/STOR_CRYPTO_OPERATION_TYPE"
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_CRYPTO_OPERATION_TYPE
 ---
 
-# STOR_CRYPTO_OPERATION_TYPE enumeration
+# STOR_CRYPTO_OPERATION_TYPE enumeration (storport.h)
+
+
 
 ## -description
 

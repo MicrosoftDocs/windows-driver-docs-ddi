@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlRemoveMcbEntry function"]
 ms.keywords: FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers], fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ifsk.fsrtlremovemcbentry, ntifs/FsRtlRemoveMcbEntry
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlRemoveMcbEntry function
+# FsRtlRemoveMcbEntry function (ntifs.h)
+
+
 
 
 ## -description

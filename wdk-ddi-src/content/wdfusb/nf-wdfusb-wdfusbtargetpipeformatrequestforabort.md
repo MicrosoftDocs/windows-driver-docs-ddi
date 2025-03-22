@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForAbort function"]
 ms.keywords: DFUsbRef_d99442d6-818c-4c46-8df2-dd5e2346aa5f.xml, WdfUsbTargetPipeFormatRequestForAbort, WdfUsbTargetPipeFormatRequestForAbort method, kmdf.wdfusbtargetpipeformatrequestforabort, wdf.wdfusbtargetpipeformatrequestforabort, wdfusb/WdfUsbTargetPipeFormatRequestForAbort
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeFormatRequestForAbort
 ---
 
-# WdfUsbTargetPipeFormatRequestForAbort function
+# WdfUsbTargetPipeFormatRequestForAbort function (wdfusb.h)
+
+
 
 
 ## -description

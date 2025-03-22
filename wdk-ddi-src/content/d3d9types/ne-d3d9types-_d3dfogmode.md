@@ -7,6 +7,7 @@ tech.root: display
 keywords: ["D3DFOGMODE enumeration"]
 ms.keywords: _D3DFOGMODE, D3DFOGMODE,
 req.header: d3d9types.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DFOGMODE enumeration
+# D3DFOGMODE enumeration (d3d9types.h)
+
+
 
 
 ## -description

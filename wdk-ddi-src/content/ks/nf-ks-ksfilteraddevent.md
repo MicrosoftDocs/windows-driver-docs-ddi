@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterAddEvent function"]
 ms.keywords: KsFilterAddEvent, KsFilterAddEvent function [Streaming Media Devices], avfunc_a00691e6-cae6-40ae-9776-1b6d09e01d73.xml, ks/KsFilterAddEvent, stream.ksfilteraddevent
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsFilterAddEvent
 ---
 
-# KsFilterAddEvent function
+# KsFilterAddEvent function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmDropPartyComplete function"]
 ms.keywords: NdisCmDropPartyComplete, NdisCmDropPartyComplete function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_d1773adc-25ef-4544-8ccf-70fe676a862d.xml, ndis/NdisCmDropPartyComplete, netvista.ndiscmdroppartycomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCmDropPartyComplete (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisCmDropPartyComplete (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmDropPartyComplete
 ---
 
-# NdisCmDropPartyComplete function
+# NdisCmDropPartyComplete function (ndis.h)
+
+
 
 
 ## -description

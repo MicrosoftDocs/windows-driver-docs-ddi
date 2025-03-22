@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IPartThumbnail::SetThumbnailContent"]
 ms.keywords: IPartThumbnail interface [Print Devices],SetThumbnailContent method, IPartThumbnail.SetThumbnailContent, IPartThumbnail::SetThumbnailContent, SetThumbnailContent, SetThumbnailContent method [Print Devices], SetThumbnailContent method [Print Devices],IPartThumbnail interface, filterpipeline/IPartThumbnail::SetThumbnailContent, filterpipeline_da595290-0b57-4b7d-a494-1f93b8f05470.xml, print.ipartthumbnail_setthumbnailcontent
 req.header: filterpipeline.h
+req.construct-type: function
 req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPartThumbnail::SetThumbnailContent
 ---
+
+# IPartThumbnail::SetThumbnailContent function (filterpipeline.h)
 
 ## -description
 

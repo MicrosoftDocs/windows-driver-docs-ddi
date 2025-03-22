@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxGetReadIntervalTimeout function"]
 ms.keywords: 1/SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout, SerCxGetReadIntervalTimeout method [Serial Ports], serports.sercxgetreadintervaltimeout
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxGetReadIntervalTimeout
 ---
 
-# SerCxGetReadIntervalTimeout function
+# SerCxGetReadIntervalTimeout function (sercx.h)
+
+
 
 
 ## -description

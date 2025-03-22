@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetLogicalUnit function"]
 ms.keywords: StorPortGetLogicalUnit, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetLogicalUnit
 ---
 
-# StorPortGetLogicalUnit function
+# StorPortGetLogicalUnit function (storport.h)
+
+
 
 ## -description
 

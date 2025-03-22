@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_CAMERACONTROL enumeration"]
 ms.keywords: KSEVENT_CAMERACONTROL, KSEVENT_CAMERACONTROL enumeration [Streaming Media Devices], KSEVENT_CAMERACONTROL_FOCUS, KSEVENT_CAMERACONTROL_ZOOM, ksmedia/KSEVENT_CAMERACONTROL, ksmedia/KSEVENT_CAMERACONTROL_FOCUS, ksmedia/KSEVENT_CAMERACONTROL_ZOOM, stream.ksevent_cameracontrol
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KSEVENT_CAMERACONTROL
 ---
 
-# KSEVENT_CAMERACONTROL enumeration
+# KSEVENT_CAMERACONTROL enumeration (ksmedia.h)
+
+
 
 
 ## -description

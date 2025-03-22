@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortWritePortBufferUlong macro"]
 ms.keywords: StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storport/StorPortWritePortBufferUlong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - StorPortWritePortBufferUlong
 ---
 
-# StorPortWritePortBufferUlong macro
+# StorPortWritePortBufferUlong macro (storport.h)
+
+
+
+
 
 
 ## -description

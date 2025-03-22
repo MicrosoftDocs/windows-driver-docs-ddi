@@ -7,6 +7,7 @@ ms.date: 09/25/2019
 keywords: ["NetRingGetFragmentAtIndex function"]
 ms.keywords: NetRingGetFragmentAtIndex
 req.header: ring.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetRingGetFragmentAtIndex
 ---
 
-# NetRingGetFragmentAtIndex function
+# NetRingGetFragmentAtIndex function (ring.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInt64ToUnicodeString function"]
 ms.keywords: RtlInt64ToUnicodeString, RtlInt64ToUnicodeString routine [Kernel-Mode Driver Architecture], k109_b6248e50-c6e8-4c61-a9f0-83fb434bd69c.xml, kernel.rtlint64tounicodestring, wdm/RtlInt64ToUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlInt64ToUnicodeString
 ---
 
-# RtlInt64ToUnicodeString function
+# RtlInt64ToUnicodeString function (wdm.h)
+
+
 
 
 ## -description

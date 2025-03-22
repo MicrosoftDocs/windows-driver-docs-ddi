@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_GET_CHIPSETINFO IOCTL"]
 ms.keywords: IOCTL_GNSS_GET_CHIPSETINFO, IOCTL_GNSS_GET_CHIPSETINFO control, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], gnss.ioctl_gnss_get_chipsetinfo, gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_GET_CHIPSETINFO
 ---
 
-# IOCTL_GNSS_GET_CHIPSETINFO IOCTL
+# IOCTL_GNSS_GET_CHIPSETINFO IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

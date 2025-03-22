@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_receive_detect, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT
 req.header: ucmtcpciportcontrollerrequests.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT
 ---
 
-# IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT IOCTL
+# IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_RECEIVE_DETECT IOCTL (ucmtcpciportcontrollerrequests.h)
+
+
+
+
 
 
 ## -description

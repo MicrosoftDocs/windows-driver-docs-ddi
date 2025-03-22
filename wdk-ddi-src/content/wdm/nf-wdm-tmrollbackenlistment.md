@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmRollbackEnlistment function"]
 ms.keywords: TmRollbackEnlistment, TmRollbackEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrollbackenlistment, ktm_ref_adca7b83-77e1-4c1d-9ed8-aac2c713d43c.xml, wdm/TmRollbackEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmRollbackEnlistment
 ---
 
-# TmRollbackEnlistment function
+# TmRollbackEnlistment function (wdm.h)
+
+
 
 
 ## -description

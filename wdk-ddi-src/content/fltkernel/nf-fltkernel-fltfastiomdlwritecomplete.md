@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFastIoMdlWriteComplete function"]
 ms.keywords: FltFastIoMdlWriteComplete, FsRtlMdlWriteCompleteDev, FsRtlMdlWriteCompleteDev routine [Installable File System Drivers], fltkernel/FsRtlMdlWriteCompleteDev, ifsk.fltfastiomdlwritecomplete
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltFastIoMdlWriteComplete
 ---
 
-# FltFastIoMdlWriteComplete function
+# FltFastIoMdlWriteComplete function (fltkernel.h)
+
+
 
 
 ## -description

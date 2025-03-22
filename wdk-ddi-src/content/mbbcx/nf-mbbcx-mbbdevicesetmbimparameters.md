@@ -7,6 +7,7 @@ ms.date: 06/29/2018
 keywords: ["MbbDeviceSetMbimParameters function"]
 ms.keywords: MbbDeviceSetMbimParameters
 req.header: mbbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - MbbDeviceSetMbimParameters
 ---
 
-# MbbDeviceSetMbimParameters function
+# MbbDeviceSetMbimParameters function (mbbcx.h)
+
+
 
 
 ## -description

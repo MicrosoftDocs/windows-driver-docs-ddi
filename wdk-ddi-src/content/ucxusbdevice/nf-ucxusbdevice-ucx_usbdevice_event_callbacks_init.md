@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCX_USBDEVICE_EVENT_CALLBACKS_INIT function"]
 ms.keywords: UCX_USBDEVICE_EVENT_CALLBACKS_INIT, UCX_USBDEVICE_EVENT_CALLBACKS_INIT function [Buses], buses._ucx_usbdevice_event_callbacks_init, ucxusbdevice/UCX_USBDEVICE_EVENT_CALLBACKS_INIT
 req.header: ucxusbdevice.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCX_USBDEVICE_EVENT_CALLBACKS_INIT
 ---
 
-# UCX_USBDEVICE_EVENT_CALLBACKS_INIT function
+# UCX_USBDEVICE_EVENT_CALLBACKS_INIT function (ucxusbdevice.h)
+
+
 
 
 ## -description

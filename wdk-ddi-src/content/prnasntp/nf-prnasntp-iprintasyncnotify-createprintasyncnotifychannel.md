@@ -7,6 +7,7 @@ ms.date: 07/26/2022
 keywords: ["IPrintAsyncNotify::CreatePrintAsyncNotifyChannel"]
 ms.keywords: CreatePrintAsyncNotifyChannel, CreatePrintAsyncNotifyChannel method [Print Devices], CreatePrintAsyncNotifyChannel method [Print Devices],IPrintAsyncNotify interface, IPrintAsyncNotify interface [Print Devices],CreatePrintAsyncNotifyChannel method, IPrintAsyncNotify.CreatePrintAsyncNotifyChannel, IPrintAsyncNotify::CreatePrintAsyncNotifyChannel, print.iprintasyncnotify_createprintasyncnotifychannel, prnasntp/IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintAsyncNotify::CreatePrintAsyncNotifyChannel
 ---
+
+# IPrintAsyncNotify::CreatePrintAsyncNotifyChannel function (prnasntp.h)
 
 ## -description
 

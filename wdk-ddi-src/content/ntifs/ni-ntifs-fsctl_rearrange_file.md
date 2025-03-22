@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_REARRANGE_FILE
 ---
 
-# FSCTL_REARRANGE_FILE ioctl (ntifs.h)
+# FSCTL_REARRANGE_FILE IOCTL (ntifs.h)
+
+
 
 ## -description
 

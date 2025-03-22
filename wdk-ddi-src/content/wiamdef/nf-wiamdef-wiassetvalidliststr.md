@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["wiasSetValidListStr function"]
 ms.keywords: image.wiassetvalidliststr, wiamdef/wiasSetValidListStr, wiasFncs_c18aeb74-5c44-43ea-be9e-5132f45a5f77.xml, wiasSetValidListStr, wiasSetValidListStr function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasSetValidListStr
 ---
+
+# wiasSetValidListStr function (wiamdef.h)
 
 ## -description
 

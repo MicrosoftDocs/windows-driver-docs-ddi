@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlEqualPrefixSid function"]
 ms.keywords: RtlEqualPrefixSid, RtlEqualPrefixSid routine [Installable File System Drivers], ifsk.rtlequalprefixsid, ntifs/RtlEqualPrefixSid, rtlref_67b0c7e1-647f-426a-8d9d-dde2d98b0cc3.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlEqualPrefixSid
 ---
 
-# RtlEqualPrefixSid function
+# RtlEqualPrefixSid function (ntifs.h)
+
+
 
 
 ## -description

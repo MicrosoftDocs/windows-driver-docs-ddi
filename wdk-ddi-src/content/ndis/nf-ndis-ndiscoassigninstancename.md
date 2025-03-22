@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCoAssignInstanceName function"]
 ms.keywords: NdisCoAssignInstanceName, NdisCoAssignInstanceName function [Network Drivers Starting with Windows Vista], condis_protocol_ref_48515a9c-790b-4122-8a29-2a35cf560af9.xml, ndis/NdisCoAssignInstanceName, netvista.ndiscoassigninstancename
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCoAssignInstanceName (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisCoAssignInstanceName (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCoAssignInstanceName
 ---
 
-# NdisCoAssignInstanceName function
+# NdisCoAssignInstanceName function (ndis.h)
+
+
 
 
 ## -description

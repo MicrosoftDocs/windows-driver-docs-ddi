@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["wiasDownSampleBuffer function"]
 ms.keywords: image.wiasdownsamplebuffer, wiamdef/wiasDownSampleBuffer, wiasDownSampleBuffer, wiasDownSampleBuffer function [Imaging Devices], wiasFncs_a109a3d9-e801-4332-bc89-65432023eecb.xml
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasDownSampleBuffer
 ---
+
+# wiasDownSampleBuffer function (wiamdef.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxHardwareEvent function"]
 ms.keywords: NfcCxHardwareEvent, NfcCxHardwareEvent method [Near-Field Proximity Drivers], nfccx/NfcCxHardwareEvent, nfpdrivers._nfccxhardwareevent
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxHardwareEvent
 ---
 
-# NfcCxHardwareEvent function
+# NfcCxHardwareEvent function (nfccx.h)
+
+
 
 
 ## -description

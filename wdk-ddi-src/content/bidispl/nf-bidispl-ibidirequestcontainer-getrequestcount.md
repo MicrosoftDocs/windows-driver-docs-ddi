@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiRequestContainer::GetRequestCount"]
 ms.keywords: GetRequestCount, GetRequestCount method [Print Devices], GetRequestCount method [Print Devices],IBidiRequestContainer interface, IBidiRequestContainer interface [Print Devices],GetRequestCount method, IBidiRequestContainer.GetRequestCount, IBidiRequestContainer::GetRequestCount, _win32_IBidiRequestContainer_GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiRequestContainer::GetRequestCount
 ---
+
+# IBidiRequestContainer::GetRequestCount function (bidispl.h)
 
 ## -description
 

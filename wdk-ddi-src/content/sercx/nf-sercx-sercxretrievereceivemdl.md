@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxRetrieveReceiveMdl function"]
 ms.keywords: 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], serports.sercxretrievereceivemdl
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxRetrieveReceiveMdl
 ---
 
-# SerCxRetrieveReceiveMdl function
+# SerCxRetrieveReceiveMdl function (sercx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPIN_MDL_CACHING_EVENT enumeration"]
 ms.keywords: KSPIN_MDL_CACHING_EVENT, KSPIN_MDL_CACHING_EVENT enumeration [Streaming Media Devices], KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, KSPIN_MDL_CACHING_NOTIFY_CLEANUP, ks/KSPIN_MDL_CACHING_EVENT, ks/KSPIN_MDL_CACHING_NOTIFY_ADDSAMPLE, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_NOWAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANALL_WAIT, ks/KSPIN_MDL_CACHING_NOTIFY_CLEANUP, stream.kspin_mdl_caching_event
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPIN_MDL_CACHING_EVENT
 ---
 
-# KSPIN_MDL_CACHING_EVENT enumeration
+# KSPIN_MDL_CACHING_EVENT enumeration (ks.h)
+
+
 
 
 ## -description

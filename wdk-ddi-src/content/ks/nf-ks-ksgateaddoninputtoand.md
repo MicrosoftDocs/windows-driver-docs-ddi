@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateAddOnInputToAnd function"]
 ms.keywords: KsGateAddOnInputToAnd, KsGateAddOnInputToAnd function [Streaming Media Devices], avfunc_a7d04c8d-b1d7-46a8-bd34-2ec9de4f2196.xml, ks/KsGateAddOnInputToAnd, stream.ksgateaddoninputtoand
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateAddOnInputToAnd
 ---
 
-# KsGateAddOnInputToAnd function
+# KsGateAddOnInputToAnd function (ks.h)
+
+
 
 
 ## -description

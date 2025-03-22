@@ -42,7 +42,10 @@ dev_langs:
 helpviewer_keywords:
  - NdisIMRegisterLayeredMiniport
 ---
-# NdisIMRegisterLayeredMiniport function
+
+# NdisIMRegisterLayeredMiniport function (ndis.h)
+
+
 
 ## -description
 
@@ -207,7 +210,7 @@ Pointer to a variable in which **NdisIMRegisterLayeredMiniport**, if this call i
 
 |Return code|Description|
 |--- |--- |
-|**NDIS_STATUS_BAD_CHARACTERISTICS**|The _CharacteristicsLength_ is too small for the **MajorNdisVersion** specified in the buffer at _MiniportCharacteristics_.|
+|**NDIS_STATUS_BAD_CHARACTERISTICS**|The *CharacteristicsLength* is too small for the **MajorNdisVersion** specified in the buffer at *MiniportCharacteristics*.|
 |**NDIS_STATUS_BAD_VERSION**|The **MajorNdisVersion** or **MajorNdisVersion** specified in the characteristics structure is invalid.|
 |**NDIS_STATUS_RESOURCES**|A shortage of resources, possibly memory, prevented the NDIS library from registering the caller as a miniport driver.|
 |**NDIS_STATUS_FAILURE**|This is a default error status, returned when none of the preceding errors caused the registration to fail. For example, if the NDIS library cannot load the driver's image and lock it into system memory, it returns this error.|

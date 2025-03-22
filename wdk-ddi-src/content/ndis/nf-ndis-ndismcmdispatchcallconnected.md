@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmDispatchCallConnected macro"]
 ms.keywords: NdisMCmDispatchCallConnected, NdisMCmDispatchCallConnected macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_3d3199be-36e5-445e-986d-984a4f778da0.xml, ndis/NdisMCmDispatchCallConnected, netvista.ndismcmdispatchcallconnected
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmDispatchCallConnected   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmDispatchCallConnected   (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisMCmDispatchCallConnected
 ---
 
-# NdisMCmDispatchCallConnected macro
+# NdisMCmDispatchCallConnected macro (ndis.h)
+
+
+
+
 
 
 ## -description

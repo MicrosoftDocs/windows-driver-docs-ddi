@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsReleaseDeviceSecurityLock function"]
 ms.keywords: KsReleaseDeviceSecurityLock, KsReleaseDeviceSecurityLock function [Streaming Media Devices], ks/KsReleaseDeviceSecurityLock, ksfunc_4f6e594d-1f06-4741-89f2-d153db3a63e7.xml, stream.ksreleasedevicesecuritylock
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsReleaseDeviceSecurityLock
 ---
 
-# KsReleaseDeviceSecurityLock function
+# KsReleaseDeviceSecurityLock function (ks.h)
+
+
 
 
 ## -description

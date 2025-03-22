@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HARDWARE_COUNTER_TYPE enumeration"]
 ms.keywords: "*PHARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE, HARDWARE_COUNTER_TYPE enumeration [Kernel-Mode Driver Architecture], MaxHardwareCounterType, PHARDWARE_COUNTER_TYPE, PHARDWARE_COUNTER_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PMCCounter, _HARDWARE_COUNTER_TYPE, kernel.hardware_counter_type, ntddk/HARDWARE_COUNTER_TYPE, ntddk/MaxHardwareCounterType, ntddk/PHARDWARE_COUNTER_TYPE, ntddk/PMCCounter, sysenum_861db9b8-cd2d-4cfe-ae99-5c292f28c420.xml"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Winnt.h, Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - HARDWARE_COUNTER_TYPE
 ---
 
-# _HARDWARE_COUNTER_TYPE enumeration
+# HARDWARE_COUNTER_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

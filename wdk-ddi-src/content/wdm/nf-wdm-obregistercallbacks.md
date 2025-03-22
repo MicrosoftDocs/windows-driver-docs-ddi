@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObRegisterCallbacks function"]
 ms.keywords: ObRegisterCallbacks, ObRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_e5976812-0590-42f5-836c-85f9d262f19f.xml, kernel.obregistercallbacks, wdm/ObRegisterCallbacks
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista with Service Pack 1 (SP1) and Windows Server 2008.
@@ -40,7 +41,9 @@ api_name:
  - ObRegisterCallbacks
 ---
 
-# ObRegisterCallbacks function
+# ObRegisterCallbacks function (wdm.h)
+
+
 
 
 ## -description

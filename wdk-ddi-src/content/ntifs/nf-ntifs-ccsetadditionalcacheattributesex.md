@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["CcSetAdditionalCacheAttributesEx function"]
 ms.keywords: CcSetAdditionalCacheAttributesEx, ifsk.ccsetadditionalcacheattributesex, ntifs/CcSetAdditionalCacheAttributesEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - CcSetAdditionalCacheAttributesEx
 ---
 
-# CcSetAdditionalCacheAttributesEx function
+# CcSetAdditionalCacheAttributesEx function (ntifs.h)
+
+
 
 ## -description
 

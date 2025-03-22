@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceOpenDevicemapKey function"]
 ms.keywords: WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method, wdf.wdfdeviceopendevicemapkey, wdfdevice/WdfDeviceOpenDevicemapKey
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceOpenDevicemapKey
 ---
 
-# WdfDeviceOpenDevicemapKey function
+# WdfDeviceOpenDevicemapKey function (wdfdevice.h)
+
+
 
 
 ## -description

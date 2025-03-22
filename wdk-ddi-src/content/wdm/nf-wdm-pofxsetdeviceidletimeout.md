@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxSetDeviceIdleTimeout function"]
 ms.keywords: PoFxSetDeviceIdleTimeout, PoFxSetDeviceIdleTimeout routine [Kernel-Mode Driver Architecture], kernel.pofxsetdeviceidletimeout, wdm/PoFxSetDeviceIdleTimeout
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxSetDeviceIdleTimeout
 ---
 
-# PoFxSetDeviceIdleTimeout function
+# PoFxSetDeviceIdleTimeout function (wdm.h)
+
+
 
 
 ## -description

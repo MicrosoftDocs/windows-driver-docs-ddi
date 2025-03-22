@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeConvertAuxiliaryCounterToPerformanceCounter function"]
 ms.keywords: KeConvertAuxiliaryCounterToPerformanceCounter, KeConvertAuxiliaryCounterToPerformanceCounter routine [Kernel-Mode Driver Architecture], kernel.keconvertauxiliarycountertoperformancecounter, wdm/KeConvertAuxiliaryCounterToPerformanceCounter
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - KeConvertAuxiliaryCounterToPerformanceCounter
 ---
 
-# KeConvertAuxiliaryCounterToPerformanceCounter function
+# KeConvertAuxiliaryCounterToPerformanceCounter function (wdm.h)
+
+
 
 
 ## -description

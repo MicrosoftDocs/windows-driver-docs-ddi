@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfStringCreate function"]
 ms.keywords: DFStringObjectRef_1c460976-7e49-45c8-9fdb-c6651048d387.xml, WdfStringCreate, WdfStringCreate method, kmdf.wdfstringcreate, wdf.wdfstringcreate, wdfstring/WdfStringCreate
 req.header: wdfstring.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfStringCreate
 ---
 
-# WdfStringCreate function
+# WdfStringCreate function (wdfstring.h)
+
+
 
 
 ## -description

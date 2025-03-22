@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["ZwSetSecurityObject function"]
 ms.keywords: NtSetSecurityObject, ZwSetSecurityObject, ZwSetSecurityObject routine [Kernel-Mode Driver Architecture], k111_38d4fa7c-4fc6-467c-9be2-ca997d739f44.xml, kernel.zwsetsecurityobject, ntifs/NtSetSecurityObject, ntifs/ZwSetSecurityObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - ZwSetSecurityObject
 ---
 
-# ZwSetSecurityObject function
+# ZwSetSecurityObject function (ntifs.h)
+
+
 
 ## -description
 

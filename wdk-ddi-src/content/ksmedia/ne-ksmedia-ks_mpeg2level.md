@@ -8,6 +8,7 @@ ms.date: 04/30/2019
 keywords: ["KS_MPEG2Level enumeration"]
 ms.keywords: KS_MPEG2Level, KS_MPEG2Level enumeration [Streaming Media Devices], KS_MPEG2Level_High, KS_MPEG2Level_High1440, KS_MPEG2Level_Low, KS_MPEG2Level_Main, ksmedia/KS_MPEG2Level, ksmedia/KS_MPEG2Level_High, ksmedia/KS_MPEG2Level_High1440, ksmedia/KS_MPEG2Level_Low, ksmedia/KS_MPEG2Level_Main, stream.ks_mpeg2level, vidcapstruct_a97daeef-93e4-4ded-98dc-f583c1893095.xml
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_MPEG2Level
 ---
 
-# KS_MPEG2Level enumeration
+# KS_MPEG2Level enumeration (ksmedia.h)
+
+
 
 
 ## -description

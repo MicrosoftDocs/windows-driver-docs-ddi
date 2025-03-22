@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["COMPOSITE_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], buses.composite_driver_capabilities_init, usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - COMPOSITE_DEVICE_CAPABILITIES_INIT
 ---
 
-# COMPOSITE_DEVICE_CAPABILITIES_INIT function
+# COMPOSITE_DEVICE_CAPABILITIES_INIT function (usbdlib.h)
+
+
 
 
 ## -description

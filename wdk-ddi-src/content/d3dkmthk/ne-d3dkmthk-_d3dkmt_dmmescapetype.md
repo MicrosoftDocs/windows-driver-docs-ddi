@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_DMMESCAPETYPE enumeration"]
 ms.keywords: _D3DKMT_DMMESCAPETYPE, D3DKMT_DMMESCAPETYPE,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_DMMESCAPETYPE enumeration
+# D3DKMT_DMMESCAPETYPE enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

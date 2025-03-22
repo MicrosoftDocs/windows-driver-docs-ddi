@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IXpsPartIterator::Reset"]
 ms.keywords: IXpsPartIterator interface [Print Devices],Reset method, IXpsPartIterator.Reset, IXpsPartIterator::Reset, Reset, Reset method [Print Devices], Reset method [Print Devices],IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Reset, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, print.ixpspartiterator_reset
 req.header: filterpipeline.h
+req.construct-type: function
 req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IXpsPartIterator::Reset
 ---
+
+# IXpsPartIterator::Reset function (filterpipeline.h)
 
 ## -description
 

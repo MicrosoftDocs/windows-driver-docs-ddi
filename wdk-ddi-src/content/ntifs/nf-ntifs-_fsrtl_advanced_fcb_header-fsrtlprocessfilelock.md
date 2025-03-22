@@ -8,6 +8,7 @@ ms.date: 09/10/2021
 keywords: ["FsRtlProcessFileLock function"]
 ms.keywords: FsRtlProcessFileLock, FsRtlProcessFileLock routine [Installable File System Drivers], fsrtlref_93a3a663-fe0b-45c2-ab32-af4fe94b9697.xml, ifsk.fsrtlprocessfilelock, ntifs/FsRtlProcessFileLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlProcessFileLock function
+# FsRtlProcessFileLock function (ntifs.h)
+
+
 
 ## -description
 

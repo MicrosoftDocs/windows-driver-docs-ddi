@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsDereferencePrimaryToken function"]
 ms.keywords: PsDereferencePrimaryToken, PsDereferencePrimaryToken routine [Installable File System Drivers], ifsk.psdereferenceprimarytoken, ntifs/PsDereferencePrimaryToken, psref_d3e4caeb-19a5-49d5-909a-5cb78a54f2e5.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PsDereferencePrimaryToken
 ---
 
-# PsDereferencePrimaryToken function
+# PsDereferencePrimaryToken function (ntifs.h)
+
+
 
 
 ## -description

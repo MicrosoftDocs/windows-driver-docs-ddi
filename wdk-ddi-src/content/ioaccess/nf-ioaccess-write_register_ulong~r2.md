@@ -8,6 +8,7 @@ ms.date: 03/01/2018
 keywords: ["WRITE_REGISTER_ULONG function"]
 ms.keywords: WRITE_REGISTER_ULONG, WRITE_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], k103_af58a3ec-4102-4a89-9c58-e56f99d793d0.xml, kernel.write_register_ulong, wdm/WRITE_REGISTER_ULONG
 req.header: ioaccess.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - WRITE_REGISTER_ULONG
 ---
 
-# WRITE_REGISTER_ULONG function
+# WRITE_REGISTER_ULONG function (ioaccess.h)
+
+
 
 
 ## -description

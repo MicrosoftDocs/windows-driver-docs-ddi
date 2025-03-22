@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisActiveGroupCount function"]
 ms.keywords: NdisActiveGroupCount, NdisActiveGroupCount function [Network Drivers Starting with Windows Vista], ndis/NdisActiveGroupCount, ndis_processor_group_ref_e0e7bb9b-d6fd-4a31-9793-f21c4b36841d.xml, netvista.ndisactivegroupcount
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisActiveGroupCount
 ---
 
-# NdisActiveGroupCount function
+# NdisActiveGroupCount function (ndis.h)
+
+
 
 
 ## -description

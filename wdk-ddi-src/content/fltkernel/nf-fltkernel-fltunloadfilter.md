@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltUnloadFilter function"]
 ms.keywords: FltApiRef_p_to_z_88925df3-96d3-4e1f-9e0b-f97eb8d9b40b.xml, FltUnloadFilter, FltUnloadFilter function [Installable File System Drivers], fltkernel/FltUnloadFilter, ifsk.fltunloadfilter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltUnloadFilter
 ---
 
-# FltUnloadFilter function
+# FltUnloadFilter function (fltkernel.h)
+
+
 
 
 ## -description

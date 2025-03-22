@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMIdleNotificationComplete function"]
 ms.keywords: NdisMIdleNotificationComplete, NdisMIdleNotificationComplete function [Network Drivers Starting with Windows Vista], ndis/NdisMIdleNotificationComplete, netvista.ndismidlenotificationcomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMIdleNotificationComplete
 ---
 
-# NdisMIdleNotificationComplete function
+# NdisMIdleNotificationComplete function (ndis.h)
+
+
 
 
 ## -description

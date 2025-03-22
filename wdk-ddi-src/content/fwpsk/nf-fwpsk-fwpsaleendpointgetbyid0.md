@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointGetById0 function"]
 ms.keywords: FwpsAleEndpointGetById0, FwpsAleEndpointGetById0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetById0, netvista.fwpsaleendpointgetbyid0, wfp_ref_2_funct_3_fwps_A-B_3feb07cf-ae5a-4412-a51a-8e4d4d65c31d.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FwpsAleEndpointGetById0
 ---
 
-# FwpsAleEndpointGetById0 function
+# FwpsAleEndpointGetById0 function (fwpsk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSetRegistryParameters function"]
 ms.keywords: VideoPortSetRegistryParameters, VideoPortSetRegistryParameters function [Display Devices], VideoPort_Functions_a1d6dbfd-595b-4396-a1d3-9ec4fa3a6bfb.xml, display.videoportsetregistryparameters, video/VideoPortSetRegistryParameters
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortSetRegistryParameters
 ---
 
-# VideoPortSetRegistryParameters function
+# VideoPortSetRegistryParameters function (video.h)
+
+
 
 
 ## -description

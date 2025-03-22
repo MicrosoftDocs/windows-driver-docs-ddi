@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSSIZETMult function"]
 ms.keywords: RtlSSIZETMult, RtlSSIZETMult function [Kernel-Mode Driver Architecture], kernel.rtlssizetmult, ntintsafe/RtlSSIZETMult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSSIZETMult
 ---
 
-# RtlSSIZETMult function
+# RtlSSIZETMult function (ntintsafe.h)
+
+
 
 
 ## -description

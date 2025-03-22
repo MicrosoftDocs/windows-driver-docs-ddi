@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeSharedMemory function"]
 ms.keywords: NdisFreeSharedMemory, NdisFreeSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisFreeSharedMemory, ndis_shared_memory_ref_b020f3ba-6e10-422f-9342-650236ace5f8.xml, netvista.ndisfreesharedmemory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeSharedMemory
 ---
 
-# NdisFreeSharedMemory function
+# NdisFreeSharedMemory function (ndis.h)
+
+
 
 
 ## -description

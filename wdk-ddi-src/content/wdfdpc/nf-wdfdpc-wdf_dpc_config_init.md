@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DPC_CONFIG_INIT function"]
 ms.keywords: DFDpcObjectRef_ba15c593-3f2a-4e7f-9a58-a550ca47ccc1.xml, WDF_DPC_CONFIG_INIT, WDF_DPC_CONFIG_INIT function, kmdf.wdf_dpc_config_init, wdf.wdf_dpc_config_init, wdfdpc/WDF_DPC_CONFIG_INIT
 req.header: wdfdpc.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_DPC_CONFIG_INIT
 ---
 
-# WDF_DPC_CONFIG_INIT function
+# WDF_DPC_CONFIG_INIT function (wdfdpc.h)
+
+
 
 
 ## -description

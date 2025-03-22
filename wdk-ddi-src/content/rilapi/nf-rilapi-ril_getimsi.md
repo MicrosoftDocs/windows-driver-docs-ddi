@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetIMSI function"]
 ms.keywords: RIL_GetIMSI, RIL_GetIMSI method [Network Drivers Starting with Windows Vista], netvista.ril_getimsi, rilapi/RIL_GetIMSI
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetIMSI
 ---
 
-# RIL_GetIMSI function
+# RIL_GetIMSI function (rilapi.h)
+
+
 
 
 ## -description

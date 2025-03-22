@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::GetBool"]
 ms.keywords: GetBool, GetBool method [Print Devices], GetBool method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetBool method, IPrinterPropertyBag.GetBool, IPrinterPropertyBag::GetBool, print.iprinterpropertybag_getbool, printerextension/IPrinterPropertyBag::GetBool
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::GetBool
 ---
+
+# IPrinterPropertyBag::GetBool function (printerextension.h)
 
 ## -description
 

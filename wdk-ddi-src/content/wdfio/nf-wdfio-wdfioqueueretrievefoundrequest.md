@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueRetrieveFoundRequest function"]
 ms.keywords: DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest, WdfIoQueueRetrieveFoundRequest method, kmdf.wdfioqueueretrievefoundrequest, wdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueRetrieveFoundRequest
 ---
 
-# WdfIoQueueRetrieveFoundRequest function
+# WdfIoQueueRetrieveFoundRequest function (wdfio.h)
+
+
 
 
 ## -description

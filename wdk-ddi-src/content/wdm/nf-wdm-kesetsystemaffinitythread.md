@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSetSystemAffinityThread function"]
 ms.keywords: KeSetSystemAffinityThread, KeSetSystemAffinityThread routine [Kernel-Mode Driver Architecture], k105_86ff0d26-a53d-4da4-b776-35ed30b950ad.xml, kernel.kesetsystemaffinitythread, wdm/KeSetSystemAffinityThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows. Use KeSetSystemAffinityThread only on systems before Windows Vista. In Windows Vista and later versions of the Windows operating system, use KeSetSystemAffinityThreadEx instead.
@@ -40,7 +41,9 @@ api_name:
  - KeSetSystemAffinityThread
 ---
 
-# KeSetSystemAffinityThread function
+# KeSetSystemAffinityThread function (wdm.h)
+
+
 
 
 ## -description

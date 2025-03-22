@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterBufferUlong macro"]
 ms.keywords: StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong routine [Storage Devices], storage.storportreadregisterbufferulong, storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - StorPortReadRegisterBufferUlong
 ---
 
-# StorPortReadRegisterBufferUlong macro
+# StorPortReadRegisterBufferUlong macro (storport.h)
+
+
+
+
 
 
 ## -description

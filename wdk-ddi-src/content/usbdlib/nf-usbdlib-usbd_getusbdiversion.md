@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_GetUSBDIVersion function"]
 ms.keywords: USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], buses.usbd_getusbdiversion, usbdlib/USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - USBD_GetUSBDIVersion
 ---
 
-# USBD_GetUSBDIVersion function
+# USBD_GetUSBDIVersion function (usbdlib.h)
+
+
 
 
 ## -description

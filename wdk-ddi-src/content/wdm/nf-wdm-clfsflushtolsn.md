@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["ClfsFlushToLsn function"]
 ms.keywords: ClfsFlushToLsn, ClfsFlushToLsn routine [Kernel-Mode Driver Architecture], Clfs_80676b51-aa14-42bf-92ae-d11cf0a694b5.xml, kernel.clfsflushtolsn, wdm/ClfsFlushToLsn
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ClfsFlushToLsn
 ---
+
+# ClfsFlushToLsn function (wdm.h)
 
 ## -description
 

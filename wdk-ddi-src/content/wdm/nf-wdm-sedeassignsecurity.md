@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SeDeassignSecurity function"]
 ms.keywords: SeDeassignSecurity, SeDeassignSecurity routine [Kernel-Mode Driver Architecture], k110_9c1ca048-addd-4343-bfee-34e905b143b3.xml, kernel.sedeassignsecurity, wdm/SeDeassignSecurity
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - SeDeassignSecurity
 ---
 
-# SeDeassignSecurity function
+# SeDeassignSecurity function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/12/2022
 keywords: ["IoSetDeviceInterfacePropertyData function"]
 ms.keywords: IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], kernel.iosetdeviceinterfacepropertydata, wdm/IoSetDeviceInterfacePropertyData
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available for Windows 8 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoSetDeviceInterfacePropertyData
 ---
 
-# IoSetDeviceInterfacePropertyData function
+# IoSetDeviceInterfacePropertyData function (wdm.h)
+
+
 
 ## -description
 

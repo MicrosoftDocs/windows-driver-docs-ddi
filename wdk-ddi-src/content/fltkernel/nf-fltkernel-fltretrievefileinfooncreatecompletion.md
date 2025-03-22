@@ -7,6 +7,7 @@ ms.date: 03/12/2019
 keywords: ["FltRetrieveFileInfoOnCreateCompletion function"]
 ms.keywords: FltRetrieveFileInfoOnCreateCompletion
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - FltRetrieveFileInfoOnCreateCompletion
 ---
 
-# FltRetrieveFileInfoOnCreateCompletion function
+# FltRetrieveFileInfoOnCreateCompletion function (fltkernel.h)
+
+
 
 ## -description
 

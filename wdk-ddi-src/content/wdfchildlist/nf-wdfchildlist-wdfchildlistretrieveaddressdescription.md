@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListRetrieveAddressDescription function"]
 ms.keywords: DFDeviceObjectChildListRef_bd30cd1e-b7ac-40cd-b96f-4071d08bafc1.xml, WdfChildListRetrieveAddressDescription, WdfChildListRetrieveAddressDescription method, kmdf.wdfchildlistretrieveaddressdescription, wdf.wdfchildlistretrieveaddressdescription, wdfchildlist/WdfChildListRetrieveAddressDescription
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListRetrieveAddressDescription
 ---
 
-# WdfChildListRetrieveAddressDescription function
+# WdfChildListRetrieveAddressDescription function (wdfchildlist.h)
+
+
 
 
 ## -description

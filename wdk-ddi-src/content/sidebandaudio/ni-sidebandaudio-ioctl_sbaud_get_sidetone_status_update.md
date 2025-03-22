@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE IOCTL gets the sidetone
 ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE
 ---
 
-# IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE IOCTL
+# IOCTL_SBAUD_GET_SIDETONE_STATUS_UPDATE IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

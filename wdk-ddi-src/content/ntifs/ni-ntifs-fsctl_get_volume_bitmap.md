@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_GET_VOLUME_BITMAP
 ---
 
-# FSCTL_GET_VOLUME_BITMAP ioctl (ntifs.h)
+# FSCTL_GET_VOLUME_BITMAP IOCTL (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DbgPrintEx function"]
 ms.keywords: DbgPrintEx, DbgPrintEx routine [Driver Development Tools], DebugFns_0c93bbeb-9eb9-4c73-944f-565401dbb073.xml, devtest.dbgprintex, wdm/DbgPrintEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later.
@@ -41,7 +42,9 @@ api_name:
  - DbgPrintEx
 ---
 
-# DbgPrintEx function
+# DbgPrintEx function (wdm.h)
+
+
 
 
 ## -description

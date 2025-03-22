@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassRegisterAdapter function"]
 ms.keywords: StreamClassRegisterAdapter, StreamClassRegisterAdapter function [Streaming Media Devices], StreamClassRegisterMinidriver, strclass-routines_5336cc3e-8abd-4943-a191-12dbf9d25b85.xml, stream.streamclassregisterminidriver, strmini/StreamClassRegisterAdapter
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StreamClassRegisterAdapter
 ---
 
-# StreamClassRegisterAdapter function
+# StreamClassRegisterAdapter function (strmini.h)
+
+
 
 
 ## -description

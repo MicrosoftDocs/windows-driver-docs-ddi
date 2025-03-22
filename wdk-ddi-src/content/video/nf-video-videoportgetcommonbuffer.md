@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetCommonBuffer function"]
 ms.keywords: VideoPortGetCommonBuffer, VideoPortGetCommonBuffer function [Display Devices], VideoPort_Functions_eead14aa-271b-49a2-8ded-482ffc73741e.xml, display.videoportgetcommonbuffer, video/VideoPortGetCommonBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetCommonBuffer
 ---
 
-# VideoPortGetCommonBuffer function
+# VideoPortGetCommonBuffer function (video.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsCalloutRegister0 function"]
 ms.keywords: FwpsCalloutRegister0, FwpsCalloutRegister0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCalloutRegister0, netvista.fwpscalloutregister0, wfp_ref_2_funct_3_fwps_C_a1902e8d-fa04-4d2c-ab39-04d313d01833.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsCalloutRegister0
 ---
 
-# FwpsCalloutRegister0 function
+# FwpsCalloutRegister0 function (fwpsk.h)
+
+
 
 
 ## -description

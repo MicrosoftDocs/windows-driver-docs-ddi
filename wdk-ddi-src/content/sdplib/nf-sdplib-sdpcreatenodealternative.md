@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpCreateNodeAlternative function"]
 ms.keywords: SdpCreateNodeAlternative, SdpCreateNodeAlternative function [Bluetooth Devices], bltooth.sdpcreatenodealternative, bth_funcs_e54ab424-3fbf-479a-9368-51d824c1fbec.xml, sdplib/SdpCreateNodeAlternative
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpCreateNodeAlternative
 ---
 
-# SdpCreateNodeAlternative function
+# SdpCreateNodeAlternative function (sdplib.h)
+
+
 
 
 ## -description

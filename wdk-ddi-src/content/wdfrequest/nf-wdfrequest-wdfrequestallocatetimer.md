@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestAllocateTimer function"]
 ms.keywords: DFRequestObjectRef_ae292896-d156-44ae-b0cd-3f807fbc1765.xml, WdfRequestAllocateTimer, WdfRequestAllocateTimer method, kmdf.wdfrequestallocatetimer, wdf.wdfrequestallocatetimer, wdfrequest/WdfRequestAllocateTimer
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestAllocateTimer
 ---
 
-# WdfRequestAllocateTimer function
+# WdfRequestAllocateTimer function (wdfrequest.h)
+
+
 
 
 ## -description

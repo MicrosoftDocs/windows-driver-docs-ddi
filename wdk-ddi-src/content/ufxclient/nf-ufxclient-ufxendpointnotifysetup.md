@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxEndpointNotifySetup function"]
 ms.keywords: UfxEndpointNotifySetup, UfxEndpointNotifySetup method [Buses], buses.ufxendpointnotifysetup, ufxclient/UfxEndpointNotifySetup
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxEndpointNotifySetup
 ---
 
-# UfxEndpointNotifySetup function
+# UfxEndpointNotifySetup function (ufxclient.h)
+
+
 
 
 ## -description

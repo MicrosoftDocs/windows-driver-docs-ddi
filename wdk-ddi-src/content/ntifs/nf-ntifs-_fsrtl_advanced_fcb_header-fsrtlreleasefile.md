@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlReleaseFile function"]
 ms.keywords: FsRtlReleaseFile, FsRtlReleaseFile function [Installable File System Drivers], fsrtlref_301a078d-fbc5-4d2d-84f3-e0a1214731a9.xml, ifsk.fsrtlreleasefile, ntifs/FsRtlReleaseFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlReleaseFile
 ---
 
-# FsRtlReleaseFile function
+# FsRtlReleaseFile function (ntifs.h)
+
+
 
 
 ## -description

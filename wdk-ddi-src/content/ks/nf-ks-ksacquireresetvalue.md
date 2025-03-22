@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAcquireResetValue function"]
 ms.keywords: KsAcquireResetValue, KsAcquireResetValue function [Streaming Media Devices], ks/KsAcquireResetValue, ksfunc_fbfd5f64-6842-4559-9829-05797fda4fa2.xml, stream.ksacquireresetvalue
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAcquireResetValue
 ---
 
-# KsAcquireResetValue function
+# KsAcquireResetValue function (ks.h)
+
+
 
 
 ## -description

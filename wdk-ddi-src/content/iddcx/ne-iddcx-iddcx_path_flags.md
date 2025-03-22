@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_PATH_FLAGS enumeration"]
 ms.keywords: IDDCX_PATH_FLAGS, IDDCX_PATH_FLAGS enumeration [Display Devices], IDDCX_PATH_FLAGS_ACTIVE, IDDCX_PATH_FLAGS_CHANGED, IDDCX_PATH_FLAGS_NONE, display.iddcx_path_flags, iddcx/IDDCX_PATH_FLAGS, iddcx/IDDCX_PATH_FLAGS_ACTIVE, iddcx/IDDCX_PATH_FLAGS_CHANGED, iddcx/IDDCX_PATH_FLAGS_NONE
 req.header: iddcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_PATH_FLAGS
 ---
 
-# IDDCX_PATH_FLAGS enumeration
+# IDDCX_PATH_FLAGS enumeration (iddcx.h)
+
+
 
 ## -description
 

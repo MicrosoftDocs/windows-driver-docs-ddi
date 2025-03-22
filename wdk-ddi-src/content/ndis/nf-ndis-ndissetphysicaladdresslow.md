@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisSetPhysicalAddressLow macro"]
 ms.keywords: NdisSetPhysicalAddressLow, NdisSetPhysicalAddressLow macro [Network Drivers Starting with Windows Vista], miniport_memory_shared_ref_b21e2206-bd6c-47b6-b518-31bcad459bbb.xml, ndis/NdisSetPhysicalAddressLow, netvista.ndissetphysicaladdresslow
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisSetPhysicalAddressLow (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisSetPhysicalAddressLow (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisSetPhysicalAddressLow
 ---
 
-# NdisSetPhysicalAddressLow macro
+# NdisSetPhysicalAddressLow macro (ndis.h)
+
+
+
+
 
 
 ## -description

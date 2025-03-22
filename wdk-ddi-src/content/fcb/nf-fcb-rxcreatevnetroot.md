@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCreateVNetRoot function"]
 ms.keywords: RxCreateVNetRoot, RxCreateVNetRoot function [Installable File System Drivers], fcb/RxCreateVNetRoot, ifsk.rxcreatevnetroot, rxref_adf9e6de-8b07-488e-86de-0d42036c3d7c.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Rxcontx.h, Mrxfcb.h, Prefix.h, Struchdr.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCreateVNetRoot
 ---
 
-# RxCreateVNetRoot function
+# RxCreateVNetRoot function (fcb.h)
+
+
 
 
 ## -description

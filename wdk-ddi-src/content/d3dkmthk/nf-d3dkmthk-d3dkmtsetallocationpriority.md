@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTSetAllocationPriority function"]
 ms.keywords: D3DKMTSetAllocationPriority, D3DKMTSetAllocationPriority function [Display Devices], OpenGL_Functions_dc77467a-7ec3-4be9-96cd-8bedb5beb948.xml, d3dkmthk/D3DKMTSetAllocationPriority, display.d3dkmtsetallocationpriority
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSetAllocationPriority
 ---
 
-# D3DKMTSetAllocationPriority function
+# D3DKMTSetAllocationPriority function (d3dkmthk.h)
+
+
 
 ## -description
 

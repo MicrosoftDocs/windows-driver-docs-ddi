@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME, IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME control, IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME control code [Buses], buses.ioctl_internal_usb_req_global_resume, usbioctl/IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME
 ---
 
-# IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME IOCTL
+# IOCTL_INTERNAL_USB_REQ_GLOBAL_RESUME IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

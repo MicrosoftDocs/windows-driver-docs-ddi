@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsCompleteClassify0 function"]
 ms.keywords: FwpsCompleteClassify0, FwpsCompleteClassify0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsCompleteClassify0, netvista.fwpscompleteclassify0, wfp_ref_2_funct_3_fwps_C_32709694-e6b8-41b8-90ea-4c8ef187ab6f.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FwpsCompleteClassify0
 ---
 
-# FwpsCompleteClassify0 function
+# FwpsCompleteClassify0 function (fwpsk.h)
+
+
 
 
 ## -description

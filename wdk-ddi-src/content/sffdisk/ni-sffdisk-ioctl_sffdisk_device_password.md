@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_SFFDISK_DEVICE_PASSWORD IOCTL"]
 ms.keywords: IOCTL_SFFDISK_DEVICE_PASSWORD, IOCTL_SFFDISK_DEVICE_PASSWORD control, IOCTL_SFFDISK_DEVICE_PASSWORD control code [Buses], SD.ioctl_sffdisk_device_password, sd-ioctls_409f2592-46a6-4658-bc4f-d15c10452007.xml, sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD
 req.header: sffdisk.h
+req.construct-type: ioctl
 req.include-header: Sffdisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SFFDISK_DEVICE_PASSWORD
 ---
 
-# IOCTL_SFFDISK_DEVICE_PASSWORD IOCTL
+# IOCTL_SFFDISK_DEVICE_PASSWORD IOCTL (sffdisk.h)
+
+
+
+
 
 
 ## -description

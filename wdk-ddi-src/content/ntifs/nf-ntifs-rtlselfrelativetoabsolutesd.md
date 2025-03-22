@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlSelfRelativeToAbsoluteSD function"]
 ms.keywords: RtlSelfRelativeToAbsoluteSD, RtlSelfRelativeToAbsoluteSD routine [Installable File System Drivers], ifsk.rtlselfrelativetoabsolutesd, ntifs/RtlSelfRelativeToAbsoluteSD, rtlref_84aae1db-020b-440b-ab32-ade50a4b47bb.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003 SP1
@@ -40,7 +41,9 @@ api_name:
  - RtlSelfRelativeToAbsoluteSD
 ---
 
-# RtlSelfRelativeToAbsoluteSD function
+# RtlSelfRelativeToAbsoluteSD function (ntifs.h)
+
+
 
 
 ## -description

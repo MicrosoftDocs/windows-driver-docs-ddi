@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueRetrieveRequestByFileObject function"]
 ms.keywords: DFQueueObjectRef_52e014c4-04ca-44b2-a5a8-19185b085cdf.xml, WdfIoQueueRetrieveRequestByFileObject, WdfIoQueueRetrieveRequestByFileObject method, kmdf.wdfioqueueretrieverequestbyfileobject, wdf.wdfioqueueretrieverequestbyfileobject, wdfio/WdfIoQueueRetrieveRequestByFileObject
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueRetrieveRequestByFileObject
 ---
 
-# WdfIoQueueRetrieveRequestByFileObject function
+# WdfIoQueueRetrieveRequestByFileObject function (wdfio.h)
+
+
 
 
 ## -description

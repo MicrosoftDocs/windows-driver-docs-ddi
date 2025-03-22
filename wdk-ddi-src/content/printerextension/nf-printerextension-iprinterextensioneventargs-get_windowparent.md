@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionEventArgs::get_WindowParent"]
 ms.keywords: IPrinterExtensionEventArgs interface [Print Devices],WindowParent property, IPrinterExtensionEventArgs.WindowParent, IPrinterExtensionEventArgs.get_WindowParent, IPrinterExtensionEventArgs::WindowParent, IPrinterExtensionEventArgs::get_WindowParent, WindowParent property [Print Devices], WindowParent property [Print Devices],IPrinterExtensionEventArgs interface, get_WindowParent, print.iprinterextensioneventargs_windowparent, printerextension/IPrinterExtensionEventArgs::WindowParent, printerextension/IPrinterExtensionEventArgs::get_WindowParent
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEventArgs::get_WindowParent
 ---
+
+# IPrinterExtensionEventArgs::get_WindowParent function (printerextension.h)
 
 ## -description
 

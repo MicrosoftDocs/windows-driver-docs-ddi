@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsNullDriverUnload function"]
 ms.keywords: KsNullDriverUnload, KsNullDriverUnload function [Streaming Media Devices], ks/KsNullDriverUnload, ksfunc_449d73af-488d-4c4b-b5cb-f706fd48beab.xml, stream.ksnulldriverunload
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsNullDriverUnload
 ---
 
-# KsNullDriverUnload function
+# KsNullDriverUnload function (ks.h)
+
+
 
 
 ## -description

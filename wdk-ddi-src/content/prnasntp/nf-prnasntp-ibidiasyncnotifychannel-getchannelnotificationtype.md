@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::GetChannelNotificationType"]
 ms.keywords: GetChannelNotificationType, GetChannelNotificationType method [Print Devices], GetChannelNotificationType method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],GetChannelNotificationType method, IBidiAsyncNotifyChannel.GetChannelNotificationType, IBidiAsyncNotifyChannel::GetChannelNotificationType, print.ibidiasyncnotifychannel_getchannelnotificationtype, prnasntp/IBidiAsyncNotifyChannel::GetChannelNotificationType
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiAsyncNotifyChannel::GetChannelNotificationType
 ---
+
+# IBidiAsyncNotifyChannel::GetChannelNotificationType function (prnasntp.h)
 
 ## -description
 

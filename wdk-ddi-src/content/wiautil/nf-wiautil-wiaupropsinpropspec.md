@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauPropsInPropSpec function"]
 ms.keywords: image.wiaupropsinpropspec, wiauFncs_2490b5b3-8051-4711-b681-1aef18580182.xml, wiauPropsInPropSpec, wiauPropsInPropSpec function [Imaging Devices], wiautil/wiauPropsInPropSpec
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauPropsInPropSpec
 ---
 
-# wiauPropsInPropSpec function
+# wiauPropsInPropSpec function (wiautil.h)
+
+
 
 
 ## -description

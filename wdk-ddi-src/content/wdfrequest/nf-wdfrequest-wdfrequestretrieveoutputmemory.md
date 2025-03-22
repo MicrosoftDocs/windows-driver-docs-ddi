@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveOutputMemory function"]
 ms.keywords: DFRequestObjectRef_fdcaef98-5478-42af-a61e-669eec37907e.xml, WdfRequestRetrieveOutputMemory, WdfRequestRetrieveOutputMemory method, kmdf.wdfrequestretrieveoutputmemory, wdf.wdfrequestretrieveoutputmemory, wdfrequest/WdfRequestRetrieveOutputMemory
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestRetrieveOutputMemory
 ---
 
-# WdfRequestRetrieveOutputMemory function
+# WdfRequestRetrieveOutputMemory function (wdfrequest.h)
+
+
 
 
 ## -description

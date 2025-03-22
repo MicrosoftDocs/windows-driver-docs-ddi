@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortStallExecution function"]
 ms.keywords: ScsiPortStallExecution, ScsiPortStallExecution routine [Storage Devices], scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, srb/ScsiPortStallExecution, storage.scsiportstallexecution
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortStallExecution
 ---
 
-# ScsiPortStallExecution function
+# ScsiPortStallExecution function (srb.h)
+
+
 
 
 ## -description

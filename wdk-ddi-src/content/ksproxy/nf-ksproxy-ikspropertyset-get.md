@@ -7,6 +7,7 @@ ms.date: 11/17/2022
 keywords: ["IKsPropertySet::Get"]
 ms.keywords: Get, Get method [Streaming Media Devices], Get method [Streaming Media Devices],IKsPropertySet interface, IKsPropertySet interface [Streaming Media Devices],Get method, IKsPropertySet.Get, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, stream.ikspropertyset_get
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h, Dsound.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsPropertySet::Get
 ---
+
+# IKsPropertySet::Get function (ksproxy.h)
 
 ## -description
 

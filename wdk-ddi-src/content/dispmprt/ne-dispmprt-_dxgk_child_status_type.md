@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_CHILD_STATUS_TYPE enumeration"]
 ms.keywords: "*PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, PDXGK_CHILD_STATUS_TYPE, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], StatusConnection, StatusMiracast, StatusRotation, StatusUninitialized, _DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, dispmprt/DXGK_CHILD_STATUS_TYPE, dispmprt/PDXGK_CHILD_STATUS_TYPE, dispmprt/StatusConnection, dispmprt/StatusMiracast, dispmprt/StatusRotation, dispmprt/StatusUninitialized"
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -46,7 +47,9 @@ api_name:
  - DXGK_CHILD_STATUS_TYPE
 ---
 
-# _DXGK_CHILD_STATUS_TYPE enumeration
+# DXGK_CHILD_STATUS_TYPE enumeration (dispmprt.h)
+
+
 
 
 ## -description

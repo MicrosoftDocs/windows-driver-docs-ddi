@@ -7,6 +7,7 @@ ms.date: 12/07/2022
 keywords: ["MmIsAddressValid function"]
 ms.keywords: MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, kernel.mmisaddressvalid, ntddk/MmIsAddressValid
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmIsAddressValid
 ---
+
+# MmIsAddressValid function (ntddk.h)
 
 ## -description
 

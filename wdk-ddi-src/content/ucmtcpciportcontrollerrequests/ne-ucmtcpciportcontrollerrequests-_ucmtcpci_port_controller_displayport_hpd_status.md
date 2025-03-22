@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration [Buses], UcmTcpciPortControllerHPDStatusHigh, UcmTcpciPortControllerHPDStatusLow, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, buses.ucmtcpci_port_controller_displayport_hpd_status, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusHigh, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerHPDStatusLow
 req.header: ucmtcpciportcontrollerrequests.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS
 ---
 
-# _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration
+# UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_HPD_STATUS enumeration (ucmtcpciportcontrollerrequests.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTSubmitPresentToHwQueue function"]
 ms.keywords: D3DKMTSubmitPresentToHwQueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTSubmitPresentToHwQueue function
+# D3DKMTSubmitPresentToHwQueue function (d3dkmthk.h)
+
+
 
 
 ## -description

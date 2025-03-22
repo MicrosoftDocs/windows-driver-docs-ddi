@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["tagAvcResponseCode enumeration"]
 ms.keywords: AVC_RESPONSE_ACCEPTED, AVC_RESPONSE_CHANGED, AVC_RESPONSE_IMPLEMENTED, AVC_RESPONSE_INTERIM, AVC_RESPONSE_IN_TRANSITION, AVC_RESPONSE_NOTIMPL, AVC_RESPONSE_REJECTED, AVC_RESPONSE_STABLE, AvcResponseCode, AvcResponseCode enumeration [Streaming Media Devices], _tagAvcResponseCode, avc/AVC_RESPONSE_ACCEPTED, avc/AVC_RESPONSE_CHANGED, avc/AVC_RESPONSE_IMPLEMENTED, avc/AVC_RESPONSE_INTERIM, avc/AVC_RESPONSE_IN_TRANSITION, avc/AVC_RESPONSE_NOTIMPL, avc/AVC_RESPONSE_REJECTED, avc/AVC_RESPONSE_STABLE, avc/AvcResponseCode, avcref_28d2a6d6-4b1f-4b5e-af90-294da5dd14e5.xml, stream.avcresponsecode
 req.header: avc.h
+req.construct-type: enumeration
 req.include-header: Avc.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AvcResponseCode
 ---
 
-# _tagAvcResponseCode enumeration
+# AvcResponseCode enumeration (avc.h)
+
+
 
 
 ## -description

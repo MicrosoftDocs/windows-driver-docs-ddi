@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitFree function"]
 ms.keywords: UdecxUsbDeviceInitFree, UdecxUsbDeviceInitFree function [Buses], buses.udecxusbdeviceinitfree, udecxusbdevice/UdecxUsbDeviceInitFree
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceInitFree
 ---
 
-# UdecxUsbDeviceInitFree function
+# UdecxUsbDeviceInitFree function (udecxusbdevice.h)
+
+
 
 
 ## -description

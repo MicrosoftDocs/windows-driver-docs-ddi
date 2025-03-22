@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DriverUnifiedPosHealthCheckLevel enumeration"]
 ms.keywords: DriverUnifiedPosHealthCheckLevel, DriverUnifiedPosHealthCheckLevel enumeration, External, Interactive, POSInternal, UnknownHealthCheckLevel, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/External, pointofservicecommontypes/Interactive, pointofservicecommontypes/POSInternal, pointofservicecommontypes/UnknownHealthCheckLevel, pos.unifiedposhealthchecklevel
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverUnifiedPosHealthCheckLevel
 ---
 
-# DriverUnifiedPosHealthCheckLevel enumeration
+# DriverUnifiedPosHealthCheckLevel enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

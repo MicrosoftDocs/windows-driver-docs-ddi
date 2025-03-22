@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_DISCONNECT_DEVICE IOCTL"]
 ms.keywords: IOCTL_BTH_DISCONNECT_DEVICE, IOCTL_BTH_DISCONNECT_DEVICE control, IOCTL_BTH_DISCONNECT_DEVICE control code [Bluetooth Devices], bltooth.ioctl_bth_disconnect_device, bth_ioctls_03f58c9a-06b9-45b9-b817-3ef86058af5e.xml, bthioctl/IOCTL_BTH_DISCONNECT_DEVICE
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_DISCONNECT_DEVICE
 ---
 
-# IOCTL_BTH_DISCONNECT_DEVICE IOCTL
+# IOCTL_BTH_DISCONNECT_DEVICE IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

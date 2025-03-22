@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlDestroyHeap function"]
 ms.keywords: RtlDestroyHeap, RtlDestroyHeap routine [Installable File System Drivers], ifsk.rtldestroyheap, ntifs/RtlDestroyHeap, rtlref_c1cb90f1-932d-46ab-badc-d960503def9c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlDestroyHeap
 ---
 
-# RtlDestroyHeap function
+# RtlDestroyHeap function (ntifs.h)
+
+
 
 
 ## -description

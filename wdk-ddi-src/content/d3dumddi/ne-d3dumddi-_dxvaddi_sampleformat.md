@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVADDI_SAMPLEFORMAT enumeration"]
 ms.keywords: DXVA2_Structs_70e0302d-16a1-4a48-8f51-943873c20997.xml, DXVADDI_SAMPLEFORMAT, DXVADDI_SAMPLEFORMAT enumeration [Display Devices], DXVADDI_SampleFieldInterleavedEvenFirst, DXVADDI_SampleFieldInterleavedOddFirst, DXVADDI_SampleFieldSingleEven, DXVADDI_SampleFieldSingleOdd, DXVADDI_SampleFormatMask, DXVADDI_SampleProgressiveFrame, DXVADDI_SampleSubStream, DXVADDI_SampleUnknown, _DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SAMPLEFORMAT, d3dumddi/DXVADDI_SampleFieldInterleavedEvenFirst, d3dumddi/DXVADDI_SampleFieldInterleavedOddFirst, d3dumddi/DXVADDI_SampleFieldSingleEven, d3dumddi/DXVADDI_SampleFieldSingleOdd, d3dumddi/DXVADDI_SampleFormatMask, d3dumddi/DXVADDI_SampleProgressiveFrame, d3dumddi/DXVADDI_SampleSubStream, d3dumddi/DXVADDI_SampleUnknown, display.dxvaddi_sampleformat
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -43,7 +44,9 @@ api_name:
  - DXVADDI_SAMPLEFORMAT
 ---
 
-# _DXVADDI_SAMPLEFORMAT enumeration
+# DXVADDI_SAMPLEFORMAT enumeration (d3dumddi.h)
+
+
 
 
 ## -description

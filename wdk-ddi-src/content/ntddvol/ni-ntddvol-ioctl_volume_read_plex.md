@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_READ_PLEX IOCTL"]
 ms.keywords: IOCTL_VOLUME_READ_PLEX, IOCTL_VOLUME_READ_PLEX control, IOCTL_VOLUME_READ_PLEX control code [Storage Devices], k307_9f88e325-8c32-4be3-acaa-5df77ee023c2.xml, ntddvol/IOCTL_VOLUME_READ_PLEX, storage.ioctl_volume_read_plex
 req.header: ntddvol.h
+req.construct-type: ioctl
 req.include-header: Ntddvol.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VOLUME_READ_PLEX
 ---
 
-# IOCTL_VOLUME_READ_PLEX IOCTL
+# IOCTL_VOLUME_READ_PLEX IOCTL (ntddvol.h)
+
+
+
+
 
 
 ## -description

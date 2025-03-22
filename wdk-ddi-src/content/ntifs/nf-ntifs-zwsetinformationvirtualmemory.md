@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwSetInformationVirtualMemory function"]
 ms.keywords: ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture], kernel.zwsetinformationvirtualmemory, ntifs/ZwSetInformationVirtualMemory
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1511.
@@ -40,7 +41,9 @@ api_name:
  - ZwSetInformationVirtualMemory
 ---
 
-# ZwSetInformationVirtualMemory function
+# ZwSetInformationVirtualMemory function (ntifs.h)
+
+
 
 
 ## -description

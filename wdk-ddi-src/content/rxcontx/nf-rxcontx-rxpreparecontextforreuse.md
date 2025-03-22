@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxPrepareContextForReuse function"]
 ms.keywords: RxPrepareContextForReuse, RxPrepareContextForReuse function [Installable File System Drivers], ifsk.rxpreparecontextforreuse, rxcontx/RxPrepareContextForReuse, rxref_34eae0cd-faff-47e7-8313-aca1361edc68.xml
 req.header: rxcontx.h
+req.construct-type: function
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxPrepareContextForReuse
 ---
 
-# RxPrepareContextForReuse function
+# RxPrepareContextForReuse function (rxcontx.h)
+
+
 
 
 ## -description

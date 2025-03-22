@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMStretchBltROP function"]
 ms.keywords: OEMStretchBltROP, OEMStretchBltROP function [Print Devices], print.oemstretchbltrop, print_unidrv-pscript_rendering_b1617a87-83e0-4b49-b123-e1db1ed3dd70.xml, printoem/OEMStretchBltROP
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMStretchBltROP
 ---
+
+# OEMStretchBltROP function (printoem.h)
 
 ## -description
 

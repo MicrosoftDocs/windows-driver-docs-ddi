@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IWiaLog::Log"]
 ms.keywords: IWiaLog interface [Imaging Devices],Log method, IWiaLog.Log, IWiaLog::Log, IWiaLog_e3605b5e-0494-46a7-85c1-3a0707a74764.xml, Log, Log method [Imaging Devices], Log method [Imaging Devices],IWiaLog interface, image.iwialog_log, wia_lh/IWiaLog::Log
 req.header: wia_lh.h
+req.construct-type: function
 req.include-header: Wia_lh.h
 req.target-type: Desktop
 req.target-min-winverclnt: Obsolete and is no longer supported. Instead, use the Diagnostic Log Macros.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaLog::Log
 ---
+
+# IWiaLog::Log function (wia_lh.h)
 
 ## -description
 

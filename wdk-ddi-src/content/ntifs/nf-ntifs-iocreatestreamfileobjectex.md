@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoCreateStreamFileObjectEx function"]
 ms.keywords: IoCreateStreamFileObjectEx, IoCreateStreamFileObjectEx routine [Installable File System Drivers], ifsk.iocreatestreamfileobjectex, ioref_0c92890a-e4ae-4a25-b1cb-8097361674ee.xml, ntifs/IoCreateStreamFileObjectEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - IoCreateStreamFileObjectEx
 ---
 
-# IoCreateStreamFileObjectEx function
+# IoCreateStreamFileObjectEx function (ntifs.h)
+
+
 
 
 ## -description

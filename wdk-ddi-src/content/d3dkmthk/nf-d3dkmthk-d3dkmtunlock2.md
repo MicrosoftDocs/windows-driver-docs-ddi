@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTUnlock2 function"]
 ms.keywords: D3DKMTUnlock2, D3DKMTUnlock2 function [Display Devices], d3dkmthk/D3DKMTUnlock2, display.d3dkmtunlock2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTUnlock2
 ---
 
-# D3DKMTUnlock2 function
+# D3DKMTUnlock2 function (d3dkmthk.h)
+
+
 
 ## -description
 

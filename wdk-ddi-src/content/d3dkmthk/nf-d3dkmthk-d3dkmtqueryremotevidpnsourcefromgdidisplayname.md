@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function"]
 ms.keywords: D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName callback function [Display Devices], PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME, PFND3DKMT_QUERYREMOTEVIDPNSOURCEFROMGDIDISPLAYNAME callback, d3dkmthk/D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName, display.d3dkmtqueryremotevidpnsourcefromgdidisplayname
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName
 ---
 
-# D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function
+# D3DKMTQueryRemoteVidPnSourceFromGdiDisplayName function (d3dkmthk.h)
+
+
 
 
 ## -description

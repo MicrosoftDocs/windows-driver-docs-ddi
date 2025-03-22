@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMGetDeviceProperty function"]
 ms.keywords: NdisMGetDeviceProperty, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For NDIS 5.1 drivers, see    NdisMGetDeviceProperty (NDIS   5.1).
@@ -41,7 +42,9 @@ api_name:
  - NdisMGetDeviceProperty
 ---
 
-# NdisMGetDeviceProperty function
+# NdisMGetDeviceProperty function (ndis.h)
+
+
 
 
 ## -description

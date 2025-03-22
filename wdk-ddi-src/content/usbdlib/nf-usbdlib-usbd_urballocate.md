@@ -8,6 +8,7 @@ ms.date: 06/24/2019
 keywords: ["USBD_UrbAllocate function"]
 ms.keywords: USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, usbdlib/USBD_UrbAllocate
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_UrbAllocate
 ---
 
-# USBD_UrbAllocate function
+# USBD_UrbAllocate function (usbdlib.h)
+
+
 
 
 ## -description

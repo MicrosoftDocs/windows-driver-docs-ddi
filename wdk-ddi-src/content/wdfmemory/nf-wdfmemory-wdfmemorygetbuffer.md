@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfMemoryGetBuffer function"]
 ms.keywords: DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, WdfMemoryGetBuffer, WdfMemoryGetBuffer method, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer, wdfmemory/WdfMemoryGetBuffer
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfMemoryGetBuffer
 ---
 
-# WdfMemoryGetBuffer function
+# WdfMemoryGetBuffer function (wdfmemory.h)
+
+
 
 
 ## -description

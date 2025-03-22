@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitSetEventCallbacks function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_00002737-467e-4449-8c6c-498860a18747.xml, WdfPdoInitSetEventCallbacks, WdfPdoInitSetEventCallbacks method, kmdf.wdfpdoinitseteventcallbacks, wdf.wdfpdoinitseteventcallbacks, wdfpdo/WdfPdoInitSetEventCallbacks
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitSetEventCallbacks
 ---
 
-# WdfPdoInitSetEventCallbacks function
+# WdfPdoInitSetEventCallbacks function (wdfpdo.h)
+
+
 
 
 ## -description

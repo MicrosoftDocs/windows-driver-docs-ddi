@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_MOUSE_CONNECT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_MOUSE_CONNECT, IOCTL_INTERNAL_MOUSE_CONNECT control, IOCTL_INTERNAL_MOUSE_CONNECT control code [Human Input Devices], hid.ioctl_internal_mouse_connect, kbdmou/IOCTL_INTERNAL_MOUSE_CONNECT, mfilref_df1ebbe7-9806-4c2a-93c5-4fcbbfdf2f1f.xml
 req.header: kbdmou.h
+req.construct-type: ioctl
 req.include-header: Kbdmou.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_MOUSE_CONNECT
 ---
 
-# IOCTL_INTERNAL_MOUSE_CONNECT IOCTL
+# IOCTL_INTERNAL_MOUSE_CONNECT IOCTL (kbdmou.h)
+
+
+
+
 
 
 ## -description

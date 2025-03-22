@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["KeRemoveQueue function"]
 ms.keywords: KeRemoveQueue, KeRemoveQueue routine [Installable File System Drivers], ifsk.keremovequeue, keref_99014b0b-5ca1-4cda-8422-fc3819f42d8b.xml, ntifs/KeRemoveQueue
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - KeRemoveQueue
 ---
 
-# KeRemoveQueue function
+# KeRemoveQueue function (ntifs.h)
+
+
 
 ## -description
 

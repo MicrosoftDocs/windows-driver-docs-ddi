@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS control, IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS control code [Buses], buses.ioctl_ioctl_ucmtcpci_port_controller_get_status, buses.ioctl_ucmtcpci_port_controller_get_status, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS
 req.header: ucmtcpciportcontrollerrequests.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS
 ---
 
-# IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS IOCTL
+# IOCTL_UCMTCPCI_PORT_CONTROLLER_GET_STATUS IOCTL (ucmtcpciportcontrollerrequests.h)
+
+
+
+
 
 
 ## -description

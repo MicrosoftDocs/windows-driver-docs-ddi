@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxNameCacheCreateEntry function"]
 ms.keywords: RxNameCacheCreateEntry, RxNameCacheCreateEntry function [Installable File System Drivers], ifsk.rxnamecachecreateentry, namcache/RxNameCacheCreateEntry, rxref_a1245999-8aba-4012-a143-609517c2686b.xml
 req.header: namcache.h
+req.construct-type: function
 req.include-header: Namcache.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxNameCacheCreateEntry
 ---
 
-# RxNameCacheCreateEntry function
+# RxNameCacheCreateEntry function (namcache.h)
+
+
 
 
 ## -description

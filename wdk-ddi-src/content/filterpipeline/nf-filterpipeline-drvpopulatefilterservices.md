@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["DrvPopulateFilterServices function"]
 ms.keywords: DrvPopulateFilterServices, DrvPopulateFilterServices function [Print Devices], filterpipeline/DrvPopulateFilterServices, print.drvpopulatefilterservices
 req.header: filterpipeline.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DrvPopulateFilterServices
 ---
 
-# DrvPopulateFilterServices function
+# DrvPopulateFilterServices function (filterpipeline.h)
+
+
 
 
 ## -description

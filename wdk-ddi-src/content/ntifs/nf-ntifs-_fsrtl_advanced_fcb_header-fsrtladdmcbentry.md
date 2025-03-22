@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlAddMcbEntry function"]
 ms.keywords: FsRtlAddMcbEntry, FsRtlAddMcbEntry function [Installable File System Drivers], fsrtlref_73de29f7-837c-40a4-b224-ab7266794840.xml, ifsk.fsrtladdmcbentry, ntifs/FsRtlAddMcbEntry
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlAddMcbEntry function
+# FsRtlAddMcbEntry function (ntifs.h)
+
+
 
 ## -description
 

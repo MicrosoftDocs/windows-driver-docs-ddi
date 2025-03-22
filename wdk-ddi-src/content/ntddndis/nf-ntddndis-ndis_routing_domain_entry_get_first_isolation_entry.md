@@ -7,6 +7,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro"]
 ms.keywords: NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
 req.header: ntddndis.h
+req.construct-type: function
 req.include-header: ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.40 and later.
@@ -38,7 +39,11 @@ api_name:
  - NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY
 ---
 
-# NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro
+# NDIS_ROUTING_DOMAIN_ENTRY_GET_FIRST_ISOLATION_ENTRY macro (ntddndis.h)
+
+
+
+
 
 
 ## -description

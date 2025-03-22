@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_CMD_SUCCEEDED function"]
 ms.keywords: UCSI_CMD_SUCCEEDED
 req.header: ucmucsispec.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UCSI_CMD_SUCCEEDED
 ---
 
-# UCSI_CMD_SUCCEEDED function
+# UCSI_CMD_SUCCEEDED function (ucmucsispec.h)
+
+
 
 
 ## -description

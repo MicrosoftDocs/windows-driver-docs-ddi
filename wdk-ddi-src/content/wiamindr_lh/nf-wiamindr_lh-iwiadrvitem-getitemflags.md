@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaDrvItem::GetItemFlags"]
 ms.keywords: DrvItem_6fcac1f5-c754-4158-a1a0-61efe0d3913c.xml, GetItemFlags, GetItemFlags method [Imaging Devices], GetItemFlags method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],GetItemFlags method, IWiaDrvItem.GetItemFlags, IWiaDrvItem::GetItemFlags, image.iwiadrvitem_getitemflags, wiamindr_lh/IWiaDrvItem::GetItemFlags
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaDrvItem::GetItemFlags
 ---
+
+# IWiaDrvItem::GetItemFlags function (wiamindr_lh.h)
 
 ## -description
 

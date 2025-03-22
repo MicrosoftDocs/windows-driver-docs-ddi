@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReadPortBufferUchar macro"]
 ms.keywords: StorPortReadPortBufferUchar, StorPortReadPortBufferUchar routine [Storage Devices], storage.storportreadportbufferuchar, storport/StorPortReadPortBufferUchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - StorPortReadPortBufferUchar
 ---
 
-# StorPortReadPortBufferUchar macro
+# StorPortReadPortBufferUchar macro (storport.h)
+
+
+
+
 
 
 ## -description

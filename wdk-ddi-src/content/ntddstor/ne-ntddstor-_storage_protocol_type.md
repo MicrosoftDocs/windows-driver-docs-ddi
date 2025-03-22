@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_PROTOCOL_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_TYPE, ProtocolTypeAta, ProtocolTypeMaxReserved, ProtocolTypeNvme, ProtocolTypeProprietary, ProtocolTypeScsi, ProtocolTypeSd, ProtocolTypeUfs, ProtocolTypeUnknown, STORAGE_PROTOCOL_TYPE, STORAGE_PROTOCOL_TYPE enumeration [Storage Devices], _STORAGE_PROTOCOL_TYPE, ntddstor/ProtocolTypeAta, ntddstor/ProtocolTypeMaxReserved, ntddstor/ProtocolTypeNvme, ntddstor/ProtocolTypeProprietary, ntddstor/ProtocolTypeScsi, ntddstor/ProtocolTypeSd, ntddstor/ProtocolTypeUfs, ntddstor/ProtocolTypeUnknown, ntddstor/STORAGE_PROTOCOL_TYPE, storage.storage_protocol_type"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_PROTOCOL_TYPE
 ---
 
-# _STORAGE_PROTOCOL_TYPE enumeration
+# STORAGE_PROTOCOL_TYPE enumeration (ntddstor.h)
+
+
 
 
 ## -description

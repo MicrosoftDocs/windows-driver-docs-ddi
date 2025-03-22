@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisOffloadTcpSend function"]
 ms.keywords: NdisOffloadTcpSend, NdisOffloadTcpSend function [Network Drivers Starting with Windows Vista], ndischimney/NdisOffloadTcpSend, netvista.ndisoffloadtcpsend, tcp_chim_ndis_func_51f71d27-0877-4046-b80d-8c05765d8e69.xml
 req.header: ndischimney.h
+req.construct-type: function
 req.include-header: Ndischimney.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - NdisOffloadTcpSend
 ---
 
-# NdisOffloadTcpSend function
+# NdisOffloadTcpSend function (ndischimney.h)
+
+
 
 
 ## -description

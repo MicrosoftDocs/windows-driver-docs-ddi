@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRegisterPhysicalConnectionFromExternal function"]
 ms.keywords: PcRegisterPhysicalConnectionFromExternal, PcRegisterPhysicalConnectionFromExternal function [Audio Devices], audio.pcregisterphysicalconnectionfromexternal, audpc-routines_ad19ffe2-ec64-4b2b-b036-cc84a986adfe.xml, portcls/PcRegisterPhysicalConnectionFromExternal
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcRegisterPhysicalConnectionFromExternal function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcRegisterPhysicalConnectionFromExternal
 ---
 
-# PcRegisterPhysicalConnectionFromExternal function
+# PcRegisterPhysicalConnectionFromExternal function (portcls.h)
+
+
 
 
 ## -description

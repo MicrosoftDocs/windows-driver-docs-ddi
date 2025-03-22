@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control, IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE, storage.ioctl_ehstor_driver_update_lba_filter_table
 req.header: ehstorioctl.h
+req.construct-type: ioctl
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE
 ---
 
-# IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL
+# IOCTL_EHSTOR_DRIVER_UPDATE_LBA_FILTER_TABLE IOCTL (ehstorioctl.h)
+
+
+
+
 
 
 ## -description

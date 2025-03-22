@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMStartBanding function"]
 ms.keywords: OEMStartBanding, OEMStartBanding function [Print Devices], print.oemstartbanding, print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, printoem/OEMStartBanding
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMStartBanding
 ---
+
+# OEMStartBanding function (printoem.h)
 
 ## -description
 

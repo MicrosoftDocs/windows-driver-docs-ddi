@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlTimeToTimeFields function"]
 ms.keywords: RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, kernel.rtltimetotimefields, wdm/RtlTimeToTimeFields
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlTimeToTimeFields
 ---
 
-# RtlTimeToTimeFields function
+# RtlTimeToTimeFields function (wdm.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], buses.ucmtcpci_port_controller_identification_init, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 req.header: ucmtcpciportcontroller.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
 ---
 
-# UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function
+# UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT function (ucmtcpciportcontroller.h)
+
+
 
 
 ## -description

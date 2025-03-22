@@ -8,6 +8,7 @@ ms.date: 05/09/2019
 keywords: ["StorPortNotification function"]
 ms.keywords: StorPortNotification, StorPortNotification routine [Storage Devices], storage.storportnotification, storport/StorPortNotification, storprt_5915c32e-be1b-4786-b391-67be5e61760f.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortNotification
 ---
 
-# StorPortNotification function
+# StorPortNotification function (storport.h)
+
+
 
 
 ## -description

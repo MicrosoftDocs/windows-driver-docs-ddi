@@ -7,6 +7,7 @@ ms.date: 04/13/2018
 keywords: ["NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro"]
 ms.keywords: NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -37,7 +38,11 @@ api_name:
  - NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX
 ---
 
-# NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro
+# NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX macro (ndis.h)
+
+
+
+
 
 
 ## -description

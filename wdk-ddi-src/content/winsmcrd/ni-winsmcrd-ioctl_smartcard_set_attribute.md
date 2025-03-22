@@ -8,6 +8,7 @@ ms.date: 07/15/2022
 keywords: ["IOCTL_SMARTCARD_SET_ATTRIBUTE IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_SET_ATTRIBUTE, IOCTL_SMARTCARD_SET_ATTRIBUTE control, IOCTL_SMARTCARD_SET_ATTRIBUTE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_set_attribute, winsmcrd/IOCTL_SMARTCARD_SET_ATTRIBUTE
 req.header: winsmcrd.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SMARTCARD_SET_ATTRIBUTE
 ---
 
-# IOCTL_SMARTCARD_SET_ATTRIBUTE IOCTL
+# IOCTL_SMARTCARD_SET_ATTRIBUTE IOCTL (winsmcrd.h)
+
+
+
+
 
 ## -description
 

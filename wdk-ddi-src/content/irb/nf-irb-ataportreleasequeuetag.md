@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortReleaseQueueTag function"]
 ms.keywords: AtaPortReleaseQueueTag, AtaPortReleaseQueueTag routine [Storage Devices], atartns_cfdd9be6-53b5-4c4a-ac61-bc6a3cf48ea5.xml, irb/AtaPortReleaseQueueTag, storage.ataportreleasequeuetag
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortReleaseQueueTag
 ---
 
-# AtaPortReleaseQueueTag function
+# AtaPortReleaseQueueTag function (irb.h)
+
+
 
 
 ## -description

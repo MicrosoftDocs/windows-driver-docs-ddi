@@ -7,6 +7,7 @@ ms.date: 08/21/2018
 keywords: ["WWAN_NETWORK_BLACKLIST_TYPE enumeration"]
 ms.keywords: _WWAN_NETWORK_BLACKLIST_TYPE, WWAN_NETWORK_BLACKLIST_TYPE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -34,7 +35,9 @@ api_name:
  - WWAN_NETWORK_BLACKLIST_TYPE
 ---
 
-# _WWAN_NETWORK_BLACKLIST_TYPE enumeration
+# WWAN_NETWORK_BLACKLIST_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

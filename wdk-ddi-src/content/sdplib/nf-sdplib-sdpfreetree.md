@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpFreeTree function"]
 ms.keywords: SdpFreeTree, SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, sdplib/SdpFreeTree
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpFreeTree
 ---
 
-# SdpFreeTree function
+# SdpFreeTree function (sdplib.h)
+
+
 
 
 ## -description

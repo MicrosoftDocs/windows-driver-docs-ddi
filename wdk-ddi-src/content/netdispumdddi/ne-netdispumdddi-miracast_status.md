@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["MIRACAST_STATUS enumeration"]
 ms.keywords: MIRACAST_STATUS, MIRACAST_STATUS enumeration [Display Devices], MIRACAST_STATUS_CRITICAL_ERROR, MIRACAST_STATUS_FORCE_UINT32, MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, MIRACAST_STATUS_MISSING_KEEPALIVE, MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE, display.miracast_status, netdispumdddi/MIRACAST_STATUS, netdispumdddi/MIRACAST_STATUS_CRITICAL_ERROR, netdispumdddi/MIRACAST_STATUS_FORCE_UINT32, netdispumdddi/MIRACAST_STATUS_INSUFFICIENT_BANDWIDTH, netdispumdddi/MIRACAST_STATUS_MISSING_KEEPALIVE, netdispumdddi/MIRACAST_STATUS_SINK_DISOCNNECT_REQUEST, netdispumdddi/MIRACAST_STATUS_SINK_FAILED_STANDARD_MODE_CHANGE
 req.header: netdispumdddi.h
+req.construct-type: enumeration
 req.include-header: Netdispumdddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - MIRACAST_STATUS
 ---
 
-# MIRACAST_STATUS enumeration
+# MIRACAST_STATUS enumeration (netdispumdddi.h)
+
+
 
 
 ## -description

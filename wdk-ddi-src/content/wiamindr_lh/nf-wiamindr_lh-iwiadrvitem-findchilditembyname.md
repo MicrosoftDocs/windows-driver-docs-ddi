@@ -7,6 +7,7 @@ ms.date: 07/20/2022
 keywords: ["IWiaDrvItem::FindChildItemByName"]
 ms.keywords: DrvItem_afe8c47f-ebf9-484e-94bf-fdcd4713ea2a.xml, FindChildItemByName, FindChildItemByName method [Imaging Devices], FindChildItemByName method [Imaging Devices],IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices],FindChildItemByName method, IWiaDrvItem.FindChildItemByName, IWiaDrvItem::FindChildItemByName, image.iwiadrvitem_findchilditembyname, wiamindr_lh/IWiaDrvItem::FindChildItemByName
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaDrvItem::FindChildItemByName
 ---
+
+# IWiaDrvItem::FindChildItemByName function (wiamindr_lh.h)
 
 ## -description
 

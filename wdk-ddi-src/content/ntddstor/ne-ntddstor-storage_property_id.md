@@ -7,6 +7,7 @@ ms.date: 02/21/2024
 keywords: ["STORAGE_PROPERTY_ID enumeration"]
 ms.keywords: STORAGE_PROPERTY_ID, STORAGE_PROPERTY_ID, *PSTORAGE_PROPERTY_ID,
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - STORAGE_PROPERTY_ID
 ---
 
-# STORAGE_PROPERTY_ID enumeration
+# STORAGE_PROPERTY_ID enumeration (ntddstor.h)
+
+
 
 ## -description
 

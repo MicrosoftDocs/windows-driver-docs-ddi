@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["AddPortUI function"]
 ms.keywords: AddPortUI, pfnAddPortUI, pfnAddPortUI function [Print Devices], print.addportui, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, winsplp/pfnAddPortUI
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - AddPortUI
 ---
+
+# AddPortUI function (winsplp.h)
 
 ## -description
 

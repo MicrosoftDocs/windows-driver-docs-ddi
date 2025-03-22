@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_STREAMALLOCATOR enumeration"]
 ms.keywords: KSPROPERTY_STREAMALLOCATOR, KSPROPERTY_STREAMALLOCATOR enumeration [Streaming Media Devices], KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, KSPROPERTY_STREAMALLOCATOR_STATUS, ks/KSPROPERTY_STREAMALLOCATOR, ks/KSPROPERTY_STREAMALLOCATOR_FUNCTIONTABLE, ks/KSPROPERTY_STREAMALLOCATOR_STATUS, stream.ksproperty_streamallocator
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_STREAMALLOCATOR
 ---
 
-# KSPROPERTY_STREAMALLOCATOR enumeration
+# KSPROPERTY_STREAMALLOCATOR enumeration (ks.h)
+
+
 
 
 ## -description

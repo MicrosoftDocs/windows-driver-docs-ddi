@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration"]
 ms.keywords: "*PSTORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE, STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration [Storage Devices], UfsDataTypeMax, UfsDataTypeQueryDescriptor, UfsDataTypeUnknown, _STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/ UfsDataTypeMax, ntddstor/ UfsDataTypeQueryDescriptor, ntddstor/STORAGE_PROTOCOL_UFS_DATA_TYPE, ntddstor/UfsDataTypeUnknown, storage.storage_protocol_ufs_data_type"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_PROTOCOL_UFS_DATA_TYPE
 ---
 
-# STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration
+# STORAGE_PROTOCOL_UFS_DATA_TYPE enumeration (ntddstor.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["DEVICE_USAGE_NOTIFICATION_TYPE enumeration"]
 ms.keywords: DEVICE_USAGE_NOTIFICATION_TYPE, DEVICE_USAGE_NOTIFICATION_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - DEVICE_USAGE_NOTIFICATION_TYPE
 ---
 
-# DEVICE_USAGE_NOTIFICATION_TYPE enumeration
+# DEVICE_USAGE_NOTIFICATION_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

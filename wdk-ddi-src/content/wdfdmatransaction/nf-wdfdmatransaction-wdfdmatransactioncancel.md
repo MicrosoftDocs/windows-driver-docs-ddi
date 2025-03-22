@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionCancel function"]
 ms.keywords: WdfDmaTransactionCancel, WdfDmaTransactionCancel method, kmdf.wdfdmatransactioncancel, wdf.wdfdmatransactioncancel, wdfdmatransaction/WdfDmaTransactionCancel
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionCancel
 ---
 
-# WdfDmaTransactionCancel function
+# WdfDmaTransactionCancel function (wdfdmatransaction.h)
+
+
 
 
 ## -description

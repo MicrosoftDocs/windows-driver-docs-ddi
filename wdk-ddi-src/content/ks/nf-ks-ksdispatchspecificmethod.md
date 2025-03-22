@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDispatchSpecificMethod function"]
 ms.keywords: KsDispatchSpecificMethod, KsDispatchSpecificMethod function [Streaming Media Devices], ks/KsDispatchSpecificMethod, ksfunc_9304d127-8930-4e0e-b39f-aefc10e54131.xml, stream.ksdispatchspecificmethod
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDispatchSpecificMethod
 ---
 
-# KsDispatchSpecificMethod function
+# KsDispatchSpecificMethod function (ks.h)
+
+
 
 
 ## -description

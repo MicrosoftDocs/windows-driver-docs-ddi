@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreateAllocator function"]
 ms.keywords: KsCreateAllocator, KsCreateAllocator function [Streaming Media Devices], ks/KsCreateAllocator, ksfunc_cc89b86b-fdd7-4e08-83b1-0df712fccaa4.xml, stream.kscreateallocator
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCreateAllocator
 ---
 
-# KsCreateAllocator function
+# KsCreateAllocator function (ks.h)
+
+
 
 
 ## -description

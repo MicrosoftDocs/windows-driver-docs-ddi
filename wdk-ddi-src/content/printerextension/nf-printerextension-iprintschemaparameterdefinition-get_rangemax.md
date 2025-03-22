@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_RangeMax"]
 ms.keywords: IPrintSchemaParameterDefinition interface [Print Devices],RangeMax property, IPrintSchemaParameterDefinition.RangeMax, IPrintSchemaParameterDefinition.get_RangeMax, IPrintSchemaParameterDefinition::RangeMax, IPrintSchemaParameterDefinition::get_RangeMax, RangeMax property [Print Devices], RangeMax property [Print Devices],IPrintSchemaParameterDefinition interface, get_RangeMax, print._iprintschemaparameterdefinition_rangemax, printerextension/IPrintSchemaParameterDefinition::RangeMax, printerextension/IPrintSchemaParameterDefinition::get_RangeMax
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaParameterDefinition::get_RangeMax
 ---
+
+# IPrintSchemaParameterDefinition::get_RangeMax function (printerextension.h)
 
 ## -description
 

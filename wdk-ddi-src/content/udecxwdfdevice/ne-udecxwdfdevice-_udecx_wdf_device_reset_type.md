@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UDECX_WDF_DEVICE_RESET_TYPE enumeration"]
 ms.keywords: _UDECX_WDF_DEVICE_RESET_TYPE, UDECX_WDF_DEVICE_RESET_TYPE, *PUDECX_WDF_DEVICE_RESET_TYPE,
 req.header: udecxwdfdevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - UDECX_WDF_DEVICE_RESET_TYPE
 ---
 
-# _UDECX_WDF_DEVICE_RESET_TYPE enumeration
+# UDECX_WDF_DEVICE_RESET_TYPE enumeration (udecxwdfdevice.h)
+
+
 
 
 ## -description

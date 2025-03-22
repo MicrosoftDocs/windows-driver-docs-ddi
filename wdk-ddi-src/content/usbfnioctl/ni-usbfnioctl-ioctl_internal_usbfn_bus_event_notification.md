@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control, IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION control code [Buses], buses.ioctl_internal_usbfn_bus_event_notification, usbfnioctl/IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 req.header: usbfnioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION
 ---
 
-# IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION IOCTL
+# IOCTL_INTERNAL_USBFN_BUS_EVENT_NOTIFICATION IOCTL (usbfnioctl.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsTerminateDevice function"]
 ms.keywords: KsTerminateDevice, KsTerminateDevice function [Streaming Media Devices], avfunc_42f55ca4-ed73-4ea2-9f33-462d9d13e3e3.xml, ks/KsTerminateDevice, stream.ksterminatedevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsTerminateDevice
 ---
 
-# KsTerminateDevice function
+# KsTerminateDevice function (ks.h)
+
+
 
 
 ## -description

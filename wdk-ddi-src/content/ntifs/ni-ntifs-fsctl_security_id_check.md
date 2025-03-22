@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_SECURITY_ID_CHECK
 ---
 
-# FSCTL_SECURITY_ID_CHECK ioctl (ntifs.h)
+# FSCTL_SECURITY_ID_CHECK IOCTL (ntifs.h)
+
+
 
 ## -description
 

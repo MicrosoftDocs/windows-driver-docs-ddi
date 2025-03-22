@@ -8,6 +8,7 @@ ms.date: 09/13/2021
 keywords: ["UDECX_USB_ENDPOINT_CALLBACKS_INIT function"]
 ms.keywords: UDECX_USB_ENDPOINT_CALLBACKS_INIT, UDECX_USB_ENDPOINT_CALLBACKS_INIT method [Buses], buses.udecx_usb_endpoint_callbacks_init, udecxusbendpoint/UDECX_USB_ENDPOINT_CALLBACKS_INIT
 req.header: udecxusbendpoint.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UDECX_USB_ENDPOINT_CALLBACKS_INIT
 ---
 
-# UDECX_USB_ENDPOINT_CALLBACKS_INIT function
+# UDECX_USB_ENDPOINT_CALLBACKS_INIT function (udecxusbendpoint.h)
+
+
 
 ## -description
 

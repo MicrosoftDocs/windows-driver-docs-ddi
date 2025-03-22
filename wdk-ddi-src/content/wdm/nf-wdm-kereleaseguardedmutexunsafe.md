@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReleaseGuardedMutexUnsafe function"]
 ms.keywords: KeReleaseGuardedMutexUnsafe, KeReleaseGuardedMutexUnsafe routine [Kernel-Mode Driver Architecture], k105_645b087e-53ee-4434-ae8b-2bb801d1217e.xml, kernel.kereleaseguardedmutexunsafe, wdm/KeReleaseGuardedMutexUnsafe
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - KeReleaseGuardedMutexUnsafe
 ---
 
-# KeReleaseGuardedMutexUnsafe function
+# KeReleaseGuardedMutexUnsafe function (wdm.h)
+
+
 
 
 ## -description

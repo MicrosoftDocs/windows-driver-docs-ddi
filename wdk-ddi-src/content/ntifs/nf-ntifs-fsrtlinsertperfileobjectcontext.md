@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlInsertPerFileObjectContext function"]
 ms.keywords: FsRtlInsertPerFileObjectContext, FsRtlInsertPerFileObjectContext function [Installable File System Drivers], fsrtlref_21a21edf-cf20-4c0b-aaef-bc75656238c4.xml, ifsk.fsrtlinsertperfileobjectcontext, ntifs/FsRtlInsertPerFileObjectContext
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlInsertPerFileObjectContext
 ---
 
-# FsRtlInsertPerFileObjectContext function
+# FsRtlInsertPerFileObjectContext function (ntifs.h)
+
+
 
 
 ## -description

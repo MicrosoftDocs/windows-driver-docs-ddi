@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyHardwareFailure function"]
 ms.keywords: UfxDeviceNotifyHardwareFailure, UfxDeviceNotifyHardwareFailure method [Buses], buses.ufxdevicenotifyhardwarefailure, ufxclient/UfxDeviceNotifyHardwareFailure
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceNotifyHardwareFailure
 ---
 
-# UfxDeviceNotifyHardwareFailure function
+# UfxDeviceNotifyHardwareFailure function (ufxclient.h)
+
+
 
 
 ## -description

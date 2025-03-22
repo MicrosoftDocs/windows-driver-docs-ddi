@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueStr function"]
 ms.keywords: image.wiasgetchangedvaluestr, wiamdef/wiasGetChangedValueStr, wiasFncs_24524e94-fa0a-4d40-b742-6fad76707014.xml, wiasGetChangedValueStr, wiasGetChangedValueStr function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetChangedValueStr
 ---
 
-# wiasGetChangedValueStr function
+# wiasGetChangedValueStr function (wiamdef.h)
+
+
 
 
 ## -description

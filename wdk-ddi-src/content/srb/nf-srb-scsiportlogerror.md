@@ -8,6 +8,7 @@ ms.date: 08/31/2022
 keywords: ["ScsiPortLogError function"]
 ms.keywords: ScsiPortLogError, ScsiPortLogError routine [Storage Devices], scsiprt_5d3ec5ab-07f8-47d1-ab0c-363639c1e8aa.xml, srb/ScsiPortLogError, storage.scsiportlogerror
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortLogError
 ---
 
-# ScsiPortLogError function
+# ScsiPortLogError function (srb.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/29/2022
 keywords: ["FIELD_OFFSET macro"]
 ms.keywords: FIELD_OFFSET, FIELD_OFFSET function [Kernel-Mode Driver Architecture], k106_d6f0b450-e99c-4dd7-94c5-f428e4b1d642.xml, kernel.field_offset, ntdef/FIELD_OFFSET
 req.header: miniport.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Miniport.h, Minitape.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - FIELD_OFFSET
 ---
+
+# FIELD_OFFSET macro (miniport.h)
+
+
 
 ## -description
 

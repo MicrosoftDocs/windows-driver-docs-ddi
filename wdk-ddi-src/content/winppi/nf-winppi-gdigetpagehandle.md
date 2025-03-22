@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["GdiGetPageHandle function"]
 ms.keywords: GdiGetPageHandle, GdiGetPageHandle function [Print Devices], gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, print.gdigetpagehandle, winppi/GdiGetPageHandle
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,6 +41,8 @@ api_location:
 api_name:
  - GdiGetPageHandle
 ---
+
+# GdiGetPageHandle function (winppi.h)
 
 ## -description
 

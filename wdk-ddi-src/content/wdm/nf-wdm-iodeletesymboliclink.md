@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoDeleteSymbolicLink function"]
 ms.keywords: IoDeleteSymbolicLink, IoDeleteSymbolicLink routine [Kernel-Mode Driver Architecture], k104_6ff2f570-3573-4d12-b338-cca69515ef1a.xml, kernel.iodeletesymboliclink, wdm/IoDeleteSymbolicLink
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoDeleteSymbolicLink
 ---
 
-# IoDeleteSymbolicLink function
+# IoDeleteSymbolicLink function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoBuildSynchronousFsdRequest function"]
 ms.keywords: IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, kernel.iobuildsynchronousfsdrequest, wdm/IoBuildSynchronousFsdRequest
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoBuildSynchronousFsdRequest
 ---
 
-# IoBuildSynchronousFsdRequest function
+# IoBuildSynchronousFsdRequest function (wdm.h)
+
+
 
 
 ## -description

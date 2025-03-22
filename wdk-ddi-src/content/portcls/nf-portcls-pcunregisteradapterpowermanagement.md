@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcUnregisterAdapterPowerManagement function"]
 ms.keywords: PcUnregisterAdapterPowerManagement, PcUnregisterAdapterPowerManagement function [Audio Devices], audio.pcunregisteradapterpowermanagement, audpc-routines_c879c8bb-7466-4683-9a39-2a802f1e6529.xml, portcls/PcUnregisterAdapterPowerManagement
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - PcUnregisterAdapterPowerManagement
 ---
 
-# PcUnregisterAdapterPowerManagement function
+# PcUnregisterAdapterPowerManagement function (portcls.h)
+
+
 
 
 ## -description

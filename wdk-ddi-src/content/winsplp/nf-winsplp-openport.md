@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["OpenPort function"]
 ms.keywords: spoolfnc_94948c6d-fab4-44ce-9650-72464d5e3fdf.xml, pfnOpenPort, print.openport, OpenPort, pfnOpenPort function [Print Devices], winsplp/pfnOpenPort
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OpenPort
 ---
+
+# OpenPort function (winsplp.h)
 
 ## -description
 

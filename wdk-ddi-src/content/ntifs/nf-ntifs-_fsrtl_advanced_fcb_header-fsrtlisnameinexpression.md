@@ -8,6 +8,7 @@ ms.date: 06/27/2019
 keywords: ["FsRtlIsNameInExpression function"]
 ms.keywords: FsRtlIsNameInExpression, FsRtlIsNameInExpression routine [Installable File System Drivers], fsrtlref_719072fe-274b-482a-ba9c-4a21d4d2be21.xml, ifsk.fsrtlisnameinexpression, ntifs/FsRtlIsNameInExpression
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlIsNameInExpression function
+# FsRtlIsNameInExpression function (ntifs.h)
+
+
 
 
 ## -description

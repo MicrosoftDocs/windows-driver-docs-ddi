@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisQueueIoWorkItem function"]
 ms.keywords: NdisQueueIoWorkItem, NdisQueueIoWorkItem function [Network Drivers Starting with Windows Vista], ndis/NdisQueueIoWorkItem, ndis_work_items_ref_ac034ba5-7f33-4769-9664-2b9bbb5ad9e6.xml, netvista.ndisqueueioworkitem
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisQueueIoWorkItem
 ---
 
-# NdisQueueIoWorkItem function
+# NdisQueueIoWorkItem function (ndis.h)
+
+
 
 
 ## -description

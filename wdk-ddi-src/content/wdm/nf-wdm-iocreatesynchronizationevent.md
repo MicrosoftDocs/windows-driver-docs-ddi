@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCreateSynchronizationEvent function"]
 ms.keywords: IoCreateSynchronizationEvent, IoCreateSynchronizationEvent routine [Kernel-Mode Driver Architecture], k104_413cbfff-08a2-44b5-acdc-0e23d382a3d3.xml, kernel.iocreatesynchronizationevent, wdm/IoCreateSynchronizationEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoCreateSynchronizationEvent
 ---
 
-# IoCreateSynchronizationEvent function
+# IoCreateSynchronizationEvent function (wdm.h)
+
+
 
 
 ## -description

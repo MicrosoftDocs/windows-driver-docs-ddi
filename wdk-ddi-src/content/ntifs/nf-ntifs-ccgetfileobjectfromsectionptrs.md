@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcGetFileObjectFromSectionPtrs function"]
 ms.keywords: CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml, ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcGetFileObjectFromSectionPtrs
 ---
 
-# CcGetFileObjectFromSectionPtrs function
+# CcGetFileObjectFromSectionPtrs function (ntifs.h)
+
+
 
 
 ## -description

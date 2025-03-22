@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltReuseCallbackData function"]
 ms.keywords: FltApiRef_p_to_z_a412f56d-8cee-40de-93fb-1c007fe87c3c.xml, FltReuseCallbackData, FltReuseCallbackData routine [Installable File System Drivers], fltkernel/FltReuseCallbackData, ifsk.fltreusecallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltReuseCallbackData
 ---
 
-# FltReuseCallbackData function
+# FltReuseCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

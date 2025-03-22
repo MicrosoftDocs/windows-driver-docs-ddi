@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlUnicodeToMultiByteN function"]
 ms.keywords: RtlUnicodeToMultiByteN, RtlUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlunicodetomultibyten, ntifs/RtlUnicodeToMultiByteN, rtlref_233ec1ac-8ecc-4261-8f17-11485d03ec50.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUnicodeToMultiByteN
 ---
 
-# RtlUnicodeToMultiByteN function
+# RtlUnicodeToMultiByteN function (ntifs.h)
+
+
 
 
 ## -description

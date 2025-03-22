@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT enumeration"]
 ms.keywords: D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT, D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT,
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT
 ---
 
-# D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT enumeration
+# D3DWDDM2_4DDI_VIDEO_DECODER_HISTOGRAM_COMPONENT enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

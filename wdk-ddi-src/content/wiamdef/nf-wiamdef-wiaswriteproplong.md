@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasWritePropLong function"]
 ms.keywords: image.wiaswriteproplong, wiamdef/wiasWritePropLong, wiasFncs_af342c9b-5f61-492d-9765-86d62d492b55.xml, wiasWritePropLong, wiasWritePropLong function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasWritePropLong
 ---
 
-# wiasWritePropLong function
+# wiasWritePropLong function (wiamdef.h)
+
+
 
 
 ## -description

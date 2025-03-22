@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsFreeCloneNetBufferList0 function"]
 ms.keywords: FwpsFreeCloneNetBufferList0, FwpsFreeCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFreeCloneNetBufferList0, netvista.fwpsfreeclonenetbufferlist0, wfp_ref_2_funct_3_fwps_D-H_23efae1d-62cd-4559-b332-08ff843c3ab6.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsFreeCloneNetBufferList0
 ---
 
-# FwpsFreeCloneNetBufferList0 function
+# FwpsFreeCloneNetBufferList0 function (fwpsk.h)
+
+
 
 
 ## -description

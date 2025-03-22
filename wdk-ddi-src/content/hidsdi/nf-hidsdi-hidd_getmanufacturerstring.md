@@ -9,6 +9,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_GetManufacturerString function"]
 ms.keywords: HidD_GetManufacturerString, HidD_GetManufacturerString routine [Human Input Devices], hid.hidd_getmanufacturerstring, hidfunc_c0e9df6e-0aab-49ac-9a72-196a9b3ceec5.xml, hidsdi/HidD_GetManufacturerString
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidD_GetManufacturerString
 ---
 
-# HidD_GetManufacturerString function
+# HidD_GetManufacturerString function (hidsdi.h)
+
+
 
 ## -description
 

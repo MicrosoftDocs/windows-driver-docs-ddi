@@ -8,6 +8,7 @@ ms.date: 05/09/2019
 keywords: ["FltGetFileNameInformationUnsafe function"]
 ms.keywords: FltGetFileNameInformationUnsafe, FltGetFileNameInformationUnsafe routine [Installable File System Drivers], fltkernel/FltGetFileNameInformationUnsafe, ifsk.fltgetfilenameinformationunsafe
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetFileNameInformationUnsafe
 ---
 
-# FltGetFileNameInformationUnsafe function
+# FltGetFileNameInformationUnsafe function (fltkernel.h)
+
+
 
 
 ## -description

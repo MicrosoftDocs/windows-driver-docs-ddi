@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwPowerInformation function"]
 ms.keywords: NtPowerInformation, PlatformInformation, ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, wdm/NtPowerInformation, wdm/ZwPowerInformation
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntpoapi.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - ZwPowerInformation
 ---
 
-# ZwPowerInformation function
+# ZwPowerInformation function (ntddk.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["MEM_EXTENDED_PARAMETER_TYPE enumeration"]
 ms.keywords: MEM_EXTENDED_PARAMETER_TYPE, MEM_EXTENDED_PARAMETER_TYPE, *PMEM_EXTENDED_PARAMETER_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -34,7 +35,9 @@ api_name:
  - PMEM_EXTENDED_PARAMETER_TYPE
 ---
 
-# MEM_EXTENDED_PARAMETER_TYPE enumeration
+# MEM_EXTENDED_PARAMETER_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

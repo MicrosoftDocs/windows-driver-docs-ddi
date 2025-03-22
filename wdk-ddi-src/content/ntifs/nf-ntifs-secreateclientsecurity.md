@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["SeCreateClientSecurity function"]
 ms.keywords: SeCreateClientSecurity, SeCreateClientSecurity routine [Installable File System Drivers], ifsk.secreateclientsecurity, ntifs/SeCreateClientSecurity, seref_3b2ae680-788b-4ecb-b747-427f8fd3b4bf.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - SeCreateClientSecurity
 ---
 
-# SeCreateClientSecurity function
+# SeCreateClientSecurity function (ntifs.h)
+
+
 
 ## -description
 

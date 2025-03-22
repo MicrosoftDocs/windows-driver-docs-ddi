@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration"]
 ms.keywords: D3D11_1DDI_VIDEO_FRAME_FORMAT, D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration [Display Devices], D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_BOTTOM_FIELD_FIRST, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_INTERLACED_TOP_FIELD_FIRST, d3d10umddi/D3D11_1DDI_VIDEO_FRAME_FORMAT_PROGRESSIVE, display.d3d11_1ddi_video_frame_format
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDI_VIDEO_FRAME_FORMAT
 ---
 
-# D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration
+# D3D11_1DDI_VIDEO_FRAME_FORMAT enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

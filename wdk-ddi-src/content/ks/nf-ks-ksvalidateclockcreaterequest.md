@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsValidateClockCreateRequest function"]
 ms.keywords: KsValidateClockCreateRequest, KsValidateClockCreateRequest function [Streaming Media Devices], ks/KsValidateClockCreateRequest, ksfunc_e681d03e-44fb-43fb-b317-dc7e63fe6cb2.xml, stream.ksvalidateclockcreaterequest
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsValidateClockCreateRequest
 ---
+
+# KsValidateClockCreateRequest function (ks.h)
 
 ## -description
 

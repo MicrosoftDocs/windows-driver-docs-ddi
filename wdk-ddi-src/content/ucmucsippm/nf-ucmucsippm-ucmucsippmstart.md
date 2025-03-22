@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UcmUcsiPpmStart function"]
 ms.keywords: UcmUcsiPpmStart
 req.header: Ucmucsippm.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UcmUcsiPpmStart
 ---
 
-# UcmUcsiPpmStart function
+# UcmUcsiPpmStart function (Ucmucsippm.h)
+
+
 
 
 ## -description

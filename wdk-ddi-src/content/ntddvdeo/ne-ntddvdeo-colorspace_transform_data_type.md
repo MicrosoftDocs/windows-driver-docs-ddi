@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["COLORSPACE_TRANSFORM_DATA_TYPE enumeration"]
 ms.keywords: COLORSPACE_TRANSFORM_DATA_TYPE, COLORSPACE_TRANSFORM_DATA_TYPE,
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# COLORSPACE_TRANSFORM_DATA_TYPE enumeration
+# COLORSPACE_TRANSFORM_DATA_TYPE enumeration (ntddvdeo.h)
+
+
 
 
 ## -description

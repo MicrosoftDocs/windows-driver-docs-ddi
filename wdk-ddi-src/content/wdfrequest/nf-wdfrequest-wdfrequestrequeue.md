@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestRequeue function"]
 ms.keywords: DFRequestObjectRef_a51243a8-1412-4765-93a1-7a8f3ab17814.xml, WdfRequestRequeue, WdfRequestRequeue method, kmdf.wdfrequestrequeue, wdf.wdfrequestrequeue, wdfrequest/WdfRequestRequeue
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestRequeue
 ---
 
-# WdfRequestRequeue function
+# WdfRequestRequeue function (wdfrequest.h)
+
+
 
 
 ## -description

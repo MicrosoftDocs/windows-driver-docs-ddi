@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterScriptableStream::Seek"]
 ms.keywords: IPrinterScriptableStream interface [Print Devices],Seek method, IPrinterScriptableStream.Seek, IPrinterScriptableStream::Seek, Seek, Seek method [Print Devices], Seek method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__seek, printerextension/IPrinterScriptableStream::Seek
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptableStream::Seek
 ---
+
+# IPrinterScriptableStream::Seek function (printerextension.h)
 
 ## -description
 

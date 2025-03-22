@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_RENDERKM_OPERATION enumeration"]
 ms.keywords: DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_BITBLT, DXGK_GDIOP_CLEARTYPEBLEND, DXGK_GDIOP_COLORFILL, DXGK_GDIOP_ESCAPE, DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_TRANSPARENTBLT, DXGK_RENDERKM_OPERATION, DXGK_RENDERKM_OPERATION enumeration [Display Devices], DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, _DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_ALPHABLEND, d3dkmddi/DXGK_GDIOP_BITBLT, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_GDIOP_STRETCHBLT, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, d3dkmddi/DXGK_RENDERKM_OPERATION, display.dxgk_renderkm_operation
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -42,7 +43,9 @@ api_name:
  - DXGK_RENDERKM_OPERATION
 ---
 
-# DXGK_RENDERKM_OPERATION enumeration
+# DXGK_RENDERKM_OPERATION enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

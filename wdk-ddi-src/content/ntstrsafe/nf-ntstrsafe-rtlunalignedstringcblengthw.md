@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUnalignedStringCbLengthW function"]
 ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture], kernel.rtlunalignedstringcblength, ntstrsafe/RtlUnalignedStringCbLengthW, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlUnalignedStringCbLengthW
 ---
 
-# RtlUnalignedStringCbLengthW function
+# RtlUnalignedStringCbLengthW function (ntstrsafe.h)
+
+
 
 
 ## -description

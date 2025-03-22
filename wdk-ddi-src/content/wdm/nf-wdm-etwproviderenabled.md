@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["EtwProviderEnabled function"]
 ms.keywords: EtwProviderEnabled, EtwProviderEnabled function [Driver Development Tools], devtest.etwproviderenabled, etw_km_ea4989d3-f349-4dda-9d86-f1b9528ddf1c.xml, wdm/EtwProviderEnabled
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - EtwProviderEnabled
 ---
 
-# EtwProviderEnabled function
+# EtwProviderEnabled function (wdm.h)
+
+
 
 
 ## -description

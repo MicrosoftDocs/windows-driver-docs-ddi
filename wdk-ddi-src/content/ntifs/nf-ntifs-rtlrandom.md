@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlRandom function"]
 ms.keywords: RtlRandom, RtlRandom routine [Installable File System Drivers], ifsk.rtlrandom, ntifs/RtlRandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - RtlRandom
 ---
 
-# RtlRandom function
+# RtlRandom function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration"]
 ms.keywords: "*PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, DeleteStreamEvent, HardwareStarved, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration pointer [Streaming Media Devices], ReadyForNextStreamControlRequest, ReadyForNextStreamDataRequest, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration [Streaming Media Devices], SignalMultipleStreamEvents, SignalStreamEvent, StreamNotificationMaximum, StreamRequestComplete, _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, stream.stream_minidriver_stream_notification_type, strmini/DeleteStreamEvent, strmini/HardwareStarved, strmini/PSTREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/ReadyForNextStreamControlRequest, strmini/ReadyForNextStreamDataRequest, strmini/STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE, strmini/SignalMultipleStreamEvents, strmini/SignalStreamEvent, strmini/StreamNotificationMaximum, strmini/StreamRequestComplete"
 req.header: strmini.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE
 ---
 
-# _STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration
+# STREAM_MINIDRIVER_STREAM_NOTIFICATION_TYPE enumeration (strmini.h)
+
+
 
 
 ## -description

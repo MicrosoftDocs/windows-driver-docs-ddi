@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeTearDownConnection function"]
 ms.keywords: RxCeTearDownConnection, RxCeTearDownConnection function [Installable File System Drivers], ifsk.rxceteardownconnection, rxce/RxCeTearDownConnection, rxref_bf951adb-b63e-49f6-8325-f67adb2cdbf0.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeTearDownConnection
 ---
 
-# RxCeTearDownConnection function
+# RxCeTearDownConnection function (rxce.h)
+
+
 
 
 ## -description

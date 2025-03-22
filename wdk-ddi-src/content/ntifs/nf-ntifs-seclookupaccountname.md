@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SecLookupAccountName function"]
 ms.keywords: SecLookupAccountName, SecLookupAccountName function [Installable File System Drivers], ifsk.seclookupaccountname, ksecddref_1f4959e5-ea3b-440d-af1b-df05782eefce.xml, ntifs/SecLookupAccountName
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -41,7 +42,9 @@ api_name:
  - SecLookupAccountName
 ---
 
-# SecLookupAccountName function
+# SecLookupAccountName function (ntifs.h)
+
+
 
 ## -description
 

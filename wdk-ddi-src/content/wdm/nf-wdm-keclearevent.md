@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeClearEvent function"]
 ms.keywords: KeClearEvent, KeClearEvent routine [Kernel-Mode Driver Architecture], k105_1ea5c68a-0b59-48ec-911b-058b6a3e586b.xml, kernel.keclearevent, wdm/KeClearEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeClearEvent
 ---
 
-# KeClearEvent function
+# KeClearEvent function (wdm.h)
+
+
 
 
 ## -description

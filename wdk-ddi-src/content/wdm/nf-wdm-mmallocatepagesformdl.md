@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["MmAllocatePagesForMdl function"]
 ms.keywords: MmAllocatePagesForMdl, MmAllocatePagesForMdl routine [Kernel-Mode Driver Architecture], k106_bb9bac91-62a6-45f8-9133-0d23eda07b1e.xml, kernel.mmallocatepagesformdl, wdm/MmAllocatePagesForMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocatePagesForMdl
 ---
+
+# MmAllocatePagesForMdl function (wdm.h)
 
 ## -description
 

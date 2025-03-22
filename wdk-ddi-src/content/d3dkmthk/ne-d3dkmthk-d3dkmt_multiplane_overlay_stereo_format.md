@@ -4,6 +4,7 @@ title: D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT (d3dkmthk.h)
 description: Learn more about the D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -31,7 +32,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration
+# D3DKMT_MULTIPLANE_OVERLAY_STEREO_FORMAT enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

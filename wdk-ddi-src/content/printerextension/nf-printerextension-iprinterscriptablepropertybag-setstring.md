@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterScriptablePropertyBag::SetString"]
 ms.keywords: IPrinterScriptablePropertyBag interface [Print Devices],SetString method, IPrinterScriptablePropertyBag.SetString, IPrinterScriptablePropertyBag::SetString, SetString, SetString method [Print Devices], SetString method [Print Devices],IPrinterScriptablePropertyBag interface, print.iprinterscriptablepropertybag_setstring, printerextension/IPrinterScriptablePropertyBag::SetString
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptablePropertyBag::SetString
 ---
+
+# IPrinterScriptablePropertyBag::SetString function (printerextension.h)
 
 ## -description
 

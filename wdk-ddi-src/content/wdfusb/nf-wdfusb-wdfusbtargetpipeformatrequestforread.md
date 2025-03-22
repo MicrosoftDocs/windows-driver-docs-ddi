@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForRead function"]
 ms.keywords: DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, kmdf.wdfusbtargetpipeformatrequestforread, wdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeFormatRequestForRead
 ---
 
-# WdfUsbTargetPipeFormatRequestForRead function
+# WdfUsbTargetPipeFormatRequestForRead function (wdfusb.h)
+
+
 
 
 ## -description

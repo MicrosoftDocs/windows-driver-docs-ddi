@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MONITOR_DISPLAY_STATE enumeration"]
 ms.keywords: "*PMONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], PowerMonitorDim, PowerMonitorOff, PowerMonitorOn, _MONITOR_DISPLAY_STATE, kernel.monitor_display_state, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, wdm/PowerMonitorOff, wdm/PowerMonitorOn"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Ntpoapi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MONITOR_DISPLAY_STATE
 ---
 
-# _MONITOR_DISPLAY_STATE enumeration (wdm.h)
+# MONITOR_DISPLAY_STATE enumeration (wdm.h)
+
+
 
 
 ## -description

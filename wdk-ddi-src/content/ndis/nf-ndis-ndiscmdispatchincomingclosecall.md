@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmDispatchIncomingCloseCall function"]
 ms.keywords: NdisCmDispatchIncomingCloseCall, NdisCmDispatchIncomingCloseCall function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_877248ee-cc60-430c-836c-d2580627363f.xml, ndis/NdisCmDispatchIncomingCloseCall, netvista.ndiscmdispatchincomingclosecall
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisCmDispatchIncomingCloseCall (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisCmDispatchIncomingCloseCall (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmDispatchIncomingCloseCall
 ---
 
-# NdisCmDispatchIncomingCloseCall function
+# NdisCmDispatchIncomingCloseCall function (ndis.h)
+
+
 
 
 ## -description

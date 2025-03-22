@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenKeyedMutex2 function"]
 ms.keywords: D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 callback function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2, PFND3DKMT_OPENKEYEDMUTEX2 callback, d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTOpenKeyedMutex2
 ---
 
-# D3DKMTOpenKeyedMutex2 function
+# D3DKMTOpenKeyedMutex2 function (d3dkmthk.h)
+
+
 
 
 ## -description

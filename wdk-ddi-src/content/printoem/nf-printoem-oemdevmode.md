@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDevMode function"]
 ms.keywords: OEMDevMode, OEMDevMode function [Print Devices], print.oemdevmode, print_obsoletefunctions_7a402f29-f8ab-48cc-951f-89b21f45aebd.xml, printoem/OEMDevMode
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDevMode
 ---
+
+# OEMDevMode function (printoem.h)
 
 ## -description
 

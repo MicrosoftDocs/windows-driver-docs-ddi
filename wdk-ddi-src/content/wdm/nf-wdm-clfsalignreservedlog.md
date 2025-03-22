@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsAlignReservedLog function"]
 ms.keywords: ClfsAlignReservedLog, ClfsAlignReservedLog routine [Kernel-Mode Driver Architecture], Clfs_68de31de-d1f9-4948-ab15-bf8678aebcf2.xml, kernel.clfsalignreservedlog, wdm/ClfsAlignReservedLog
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsAlignReservedLog
 ---
 
-# ClfsAlignReservedLog function
+# ClfsAlignReservedLog function (wdm.h)
+
+
 
 
 ## -description

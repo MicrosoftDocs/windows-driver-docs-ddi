@@ -7,6 +7,7 @@ ms.date: 04/13/2022
 keywords: ["IoGetDeviceDirectory function"]
 ms.keywords: IoGetDeviceDirectory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - IoGetDeviceDirectory
 ---
 
-# IoGetDeviceDirectory function
+# IoGetDeviceDirectory function (wdm.h)
+
+
 
 
 ## -description

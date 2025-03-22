@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisUpdateOffload function"]
 ms.keywords: NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista], ndischimney/NdisUpdateOffload, netvista.ndisupdateoffload, tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml
 req.header: ndischimney.h
+req.construct-type: function
 req.include-header: Ndischimney.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - NdisUpdateOffload
 ---
 
-# NdisUpdateOffload function
+# NdisUpdateOffload function (ndischimney.h)
+
+
 
 
 ## -description

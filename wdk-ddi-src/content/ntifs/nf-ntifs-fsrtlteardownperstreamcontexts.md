@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlTeardownPerStreamContexts function"]
 ms.keywords: FsRtlTeardownPerStreamContexts, FsRtlTeardownPerStreamContexts routine [Installable File System Drivers], fsrtlref_15f597e3-b397-497b-9839-a61b6cf27745.xml, ifsk.fsrtlteardownperstreamcontexts, ntifs/FsRtlTeardownPerStreamContexts
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -40,7 +41,9 @@ api_name:
  - FsRtlTeardownPerStreamContexts
 ---
 
-# FsRtlTeardownPerStreamContexts function
+# FsRtlTeardownPerStreamContexts function (ntifs.h)
+
+
 
 
 ## -description

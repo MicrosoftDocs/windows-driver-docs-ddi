@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmUnmapLockedPages function"]
 ms.keywords: MmUnmapLockedPages, MmUnmapLockedPages routine [Kernel-Mode Driver Architecture], k106_1ed6ae95-665b-4a6e-802a-4f80294c4f6e.xml, kernel.mmunmaplockedpages, wdm/MmUnmapLockedPages
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmUnmapLockedPages
 ---
 
-# MmUnmapLockedPages function
+# MmUnmapLockedPages function (wdm.h)
+
+
 
 
 ## -description

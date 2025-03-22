@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue"]
 ms.keywords: IPrintSchemaCapabilities interface [Print Devices],JobCopiesAllDocumentsMaxValue property, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities.get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], JobCopiesAllDocumentsMaxValue property [Print Devices],IPrintSchemaCapabilities interface, get_JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue
 ---
+
+# IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListBeginIteration function"]
 ms.keywords: DFDeviceObjectChildListRef_98150ed0-3144-4fda-96ca-41573d3013bf.xml, WdfChildListBeginIteration, WdfChildListBeginIteration method, kmdf.wdfchildlistbeginiteration, wdf.wdfchildlistbeginiteration, wdfchildlist/WdfChildListBeginIteration
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListBeginIteration
 ---
 
-# WdfChildListBeginIteration function
+# WdfChildListBeginIteration function (wdfchildlist.h)
+
+
 
 
 ## -description

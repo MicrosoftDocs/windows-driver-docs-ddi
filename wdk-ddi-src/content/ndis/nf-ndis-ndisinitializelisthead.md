@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInitializeListHead macro"]
 ms.keywords: NdisInitializeListHead, NdisInitializeListHead macro [Network Drivers Starting with Windows Vista], ndis/NdisInitializeListHead, ndis_interlocked_ref_35d40751-6f2b-43db-801d-40479f3e0b6b.xml, netvista.ndisinitializelisthead
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisInitializeListHead (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisInitializeListHead (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisInitializeListHead
 ---
 
-# NdisInitializeListHead macro
+# NdisInitializeListHead macro (ndis.h)
+
+
+
+
 
 
 ## -description

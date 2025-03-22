@@ -8,6 +8,7 @@ ms.date: 11/18/2019
 keywords: ["DrvSplEndDoc function"]
 ms.keywords: DrvSplEndDoc, DrvSplEndDoc function [Print Devices], print.drvsplenddoc, print_interface-graphics_13e407aa-2d2a-4ec5-b3ab-bcb6fa745039.xml, winddiui/DrvSplEndDoc
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DrvSplEndDoc
 ---
 
-# DrvSplEndDoc function
+# DrvSplEndDoc function (winddiui.h)
+
+
 
 
 ## -description

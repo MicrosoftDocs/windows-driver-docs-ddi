@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlULongPtrToUInt function"]
 ms.keywords: RtlULongPtrToUInt, RtlULongPtrToUInt function [Kernel-Mode Driver Architecture], kernel.rtlulongptrtouint, ntintsafe/RtlULongPtrToUInt
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlULongPtrToUInt
 ---
 
-# RtlULongPtrToUInt function
+# RtlULongPtrToUInt function (ntintsafe.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockShared macro"]
 ms.keywords: ExAcquirePushLockShared
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,11 @@ api_name:
  - ExAcquirePushLockShared
 ---
 
-# ExAcquirePushLockShared macro
+# ExAcquirePushLockShared macro (wdm.h)
+
+
+
+
 
 
 ## -description

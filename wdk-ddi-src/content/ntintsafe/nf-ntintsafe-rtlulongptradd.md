@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlULongPtrAdd function"]
 ms.keywords: RtlULongPtrAdd, RtlULongPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtlulongptradd, ntintsafe/RtlULongPtrAdd
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlULongPtrAdd
 ---
 
-# RtlULongPtrAdd function
+# RtlULongPtrAdd function (ntintsafe.h)
+
+
 
 
 ## -description

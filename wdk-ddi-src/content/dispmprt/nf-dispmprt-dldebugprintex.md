@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DlDebugPrintEx macro"]
 ms.keywords: DlDebugPrintEx
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# DlDebugPrintEx macro
+# DlDebugPrintEx macro (dispmprt.h)
+
+
+
+
 
 
 ## -description

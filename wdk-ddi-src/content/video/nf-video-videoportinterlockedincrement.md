@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortInterlockedIncrement function"]
 ms.keywords: VideoPortInterlockedIncrement, VideoPortInterlockedIncrement function [Display Devices], VideoPort_Functions_ae59ee02-e3b2-43f6-8b93-8fe6bcedf248.xml, display.videoportinterlockedincrement, video/VideoPortInterlockedIncrement
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortInterlockedIncrement
 ---
 
-# VideoPortInterlockedIncrement function
+# VideoPortInterlockedIncrement function (video.h)
+
+
 
 
 ## -description

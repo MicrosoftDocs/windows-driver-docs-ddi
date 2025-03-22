@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlAddAce function"]
 ms.keywords: RtlAddAce, RtlAddAce routine [Installable File System Drivers], ifsk.rtladdace, ntifs/RtlAddAce, rtlref_798d31d8-c233-4154-981d-a84cfdd95045.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003 with SP1
@@ -40,7 +41,9 @@ api_name:
  - RtlAddAce
 ---
 
-# RtlAddAce function
+# RtlAddAce function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFileObjectGetRelatedFileObject function"]
 ms.keywords: WdfFileObjectGetRelatedFileObject, WdfFileObjectGetRelatedFileObject method, wdf.wdffileobjectgetrelatedfileobject, wdffileobject/WdfFileObjectGetRelatedFileObject
 req.header: wdffileobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WdfFileObjectGetRelatedFileObject
 ---
 
-# WdfFileObjectGetRelatedFileObject function
+# WdfFileObjectGetRelatedFileObject function (wdffileobject.h)
+
+
 
 
 ## -description

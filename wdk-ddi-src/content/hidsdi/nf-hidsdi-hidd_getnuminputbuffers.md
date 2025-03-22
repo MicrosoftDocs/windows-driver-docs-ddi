@@ -8,6 +8,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_GetNumInputBuffers function"]
 ms.keywords: HidD_GetNumInputBuffers, HidD_GetNumInputBuffers routine [Human Input Devices], hid.hidd_getnuminputbuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, hidsdi/HidD_GetNumInputBuffers
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_GetNumInputBuffers
 ---
 
-# HidD_GetNumInputBuffers function
+# HidD_GetNumInputBuffers function (hidsdi.h)
+
+
 
 
 ## -description

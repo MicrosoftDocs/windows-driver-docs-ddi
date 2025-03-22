@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSetPowerDispatch function"]
 ms.keywords: KsSetPowerDispatch, KsSetPowerDispatch routine [Streaming Media Devices], ks/KsSetPowerDispatch, ksfunc_b561e4ba-dadd-4e9c-a8e3-1d9b182cdd4f.xml, stream.kssetpowerdispatch
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSetPowerDispatch
 ---
 
-# KsSetPowerDispatch function
+# KsSetPowerDispatch function (ks.h)
+
+
 
 
 ## -description

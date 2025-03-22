@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlEnumerateGenericTableWithoutSplaying function"]
 ms.keywords: RtlEnumerateGenericTableWithoutSplaying, RtlEnumerateGenericTableWithoutSplaying routine [Installable File System Drivers], ifsk.rtlenumerategenerictablewithoutsplaying, ntddk/RtlEnumerateGenericTableWithoutSplaying, rtlref_83b2461b-003b-4aee-be45-afb325b15219.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlEnumerateGenericTableWithoutSplaying
 ---
+
+# RtlEnumerateGenericTableWithoutSplaying function (ntddk.h)
 
 ## -description
 

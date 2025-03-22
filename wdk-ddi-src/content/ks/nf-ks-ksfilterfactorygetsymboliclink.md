@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterFactoryGetSymbolicLink function"]
 ms.keywords: KsFilterFactoryGetSymbolicLink, KsFilterFactoryGetSymbolicLink function [Streaming Media Devices], avfunc_066ba440-b7d8-4c75-99bd-7b7cb38e4d70.xml, ks/KsFilterFactoryGetSymbolicLink, stream.ksfilterfactorygetsymboliclink
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterFactoryGetSymbolicLink
 ---
 
-# KsFilterFactoryGetSymbolicLink function
+# KsFilterFactoryGetSymbolicLink function (ks.h)
+
+
 
 
 ## -description

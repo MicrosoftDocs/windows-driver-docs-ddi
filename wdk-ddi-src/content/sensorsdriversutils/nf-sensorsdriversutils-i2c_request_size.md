@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["I2C_REQUEST_SIZE macro"]
 ms.keywords: I2C_REQUEST_SIZE
 req.header: sensorsdriversutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,11 @@ api_name:
  - I2C_REQUEST_SIZE
 ---
 
-# I2C_REQUEST_SIZE macro
+# I2C_REQUEST_SIZE macro (sensorsdriversutils.h)
+
+
+
+
 
 
 ## -description

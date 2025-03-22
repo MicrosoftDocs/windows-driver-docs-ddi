@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaFilterFactoryUpdateCacheData function"]
 ms.keywords: BdaFilterFactoryUpdateCacheData, BdaFilterFactoryUpdateCacheData function [Streaming Media Devices], bdaref_b384500e-7b80-4413-a950-f7cf7aed3f54.xml, bdasup/BdaFilterFactoryUpdateCacheData, stream.bdafilterfactoryupdatecachedata
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaFilterFactoryUpdateCacheData
 ---
+
+# BdaFilterFactoryUpdateCacheData function (bdasup.h)
 
 ## -description
 

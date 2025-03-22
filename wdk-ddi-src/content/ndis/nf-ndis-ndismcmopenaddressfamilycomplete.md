@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmOpenAddressFamilyComplete macro"]
 ms.keywords: NdisMCmOpenAddressFamilyComplete, NdisMCmOpenAddressFamilyComplete macro [Network Drivers Starting with Windows Vista], condis_mcm_ref_b03ae7ee-6f52-4d98-a7ff-f8b5840b6472.xml, ndis/NdisMCmOpenAddressFamilyComplete, netvista.ndismcmopenaddressfamilycomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisMCmOpenAddressFamilyComplete (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisMCmOpenAddressFamilyComplete (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisMCmOpenAddressFamilyComplete
 ---
 
-# NdisMCmOpenAddressFamilyComplete macro
+# NdisMCmOpenAddressFamilyComplete macro (ndis.h)
+
+
+
+
 
 
 ## -description

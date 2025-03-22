@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_PROTECTED_SESSION_STATUS enumeration"]
 ms.keywords: D3DKMT_PROTECTED_SESSION_STATUS, D3DKMT_PROTECTED_SESSION_STATUS enumeration [Display Devices], D3DKMT_PROTECTED_SESSION_STATUS_INVALID, D3DKMT_PROTECTED_SESSION_STATUS_OK, _D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_INVALID, d3dkmthk/D3DKMT_PROTECTED_SESSION_STATUS_OK, display.d3dkmt-protected-session-status
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_PROTECTED_SESSION_STATUS
 ---
 
-# _D3DKMT_PROTECTED_SESSION_STATUS enumeration
+# D3DKMT_PROTECTED_SESSION_STATUS enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

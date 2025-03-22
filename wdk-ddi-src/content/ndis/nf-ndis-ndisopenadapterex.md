@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisOpenAdapterEx function"]
 ms.keywords: NdisOpenAdapterEx, NdisOpenAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenAdapterEx, netvista.ndisopenadapterex, protocol_ndis_functions_ref_7ea04244-bfbb-460d-86f3-35e908850c6a.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisOpenAdapterEx
 ---
 
-# NdisOpenAdapterEx function
+# NdisOpenAdapterEx function (ndis.h)
+
+
 
 
 ## -description

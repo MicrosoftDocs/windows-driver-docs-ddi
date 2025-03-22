@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortStartTimer function"]
 ms.keywords: VideoPortStartTimer, VideoPortStartTimer function [Display Devices], VideoPort_Functions_1efc50e1-c79e-4ee2-acdf-35cdea97a3b9.xml, display.videoportstarttimer, video/VideoPortStartTimer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortStartTimer
 ---
 
-# VideoPortStartTimer function
+# VideoPortStartTimer function (video.h)
+
+
 
 
 ## -description

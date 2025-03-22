@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetConfigurationAssignUnicodeString function"]
 ms.keywords: NetConfigurationAssignUnicodeString
 req.header: netconfiguration.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetConfigurationAssignUnicodeString
 ---
 
-# NetConfigurationAssignUnicodeString function
+# NetConfigurationAssignUnicodeString function (netconfiguration.h)
+
+
 
 
 ## -description

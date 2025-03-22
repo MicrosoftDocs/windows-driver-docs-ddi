@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlVolumeDeviceToDosName function"]
 ms.keywords: RtlVolumeDeviceToDosName, RtlVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k109_a95aea8c-1156-4852-b4eb-38d2f141fcca.xml, kernel.rtlvolumedevicetodosname, ntddk/RtlVolumeDeviceToDosName
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete for Microsoft Windows XP and later versions of Windows. Use IoVolumeDeviceToDosName instead.
@@ -40,7 +41,9 @@ api_name:
  - RtlVolumeDeviceToDosName
 ---
 
-# RtlVolumeDeviceToDosName function
+# RtlVolumeDeviceToDosName function (ntddk.h)
+
+
 
 
 ## -description

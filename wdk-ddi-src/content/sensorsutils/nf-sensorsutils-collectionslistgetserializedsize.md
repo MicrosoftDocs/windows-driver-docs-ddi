@@ -7,6 +7,7 @@ keywords: ["CollectionsListGetSerializedSize function"]
 tech.root: sensors
 ms.keywords: CollectionsListGetSerializedSize
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListGetSerializedSize
 ---
 
-# CollectionsListGetSerializedSize function
+# CollectionsListGetSerializedSize function (sensorsutils.h)
+
+
 
 
 ## -description

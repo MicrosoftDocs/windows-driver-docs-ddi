@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptSynchronize function"]
 ms.keywords: DFInterruptObjectRef_d56eadd2-4636-43bb-b842-318243bcf192.xml, WdfInterruptSynchronize, WdfInterruptSynchronize method, kmdf.wdfinterruptsynchronize, wdf.wdfinterruptsynchronize, wdfinterrupt/WdfInterruptSynchronize
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptSynchronize
 ---
 
-# WdfInterruptSynchronize function
+# WdfInterruptSynchronize function (wdfinterrupt.h)
+
+
 
 
 ## -description

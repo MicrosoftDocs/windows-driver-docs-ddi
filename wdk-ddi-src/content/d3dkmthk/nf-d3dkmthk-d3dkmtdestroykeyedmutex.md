@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyKeyedMutex function"]
 ms.keywords: D3DKMTDestroyKeyedMutex, D3DKMTDestroyKeyedMutex function [Display Devices], OpenGL_Functions_de5400f1-6ef8-431c-a838-8c82cb03d7f1.xml, d3dkmthk/D3DKMTDestroyKeyedMutex, display.d3dkmtdestroykeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTDestroyKeyedMutex is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTDestroyKeyedMutex
 ---
 
-# D3DKMTDestroyKeyedMutex function
+# D3DKMTDestroyKeyedMutex function (d3dkmthk.h)
+
+
 
 ## -description
 

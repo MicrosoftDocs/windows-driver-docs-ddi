@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsMgmtSetLogFileSizeAsClient function"]
 ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient , ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, wdm/ClfsMgmtSetLogFileSizeAsClient
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsMgmtSetLogFileSizeAsClient
 ---
 
-# ClfsMgmtSetLogFileSizeAsClient function
+# ClfsMgmtSetLogFileSizeAsClient function (wdm.h)
+
+
 
 
 ## -description

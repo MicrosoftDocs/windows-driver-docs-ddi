@@ -8,6 +8,7 @@ ms.date: 05/03/2022
 keywords: ["HidD_GetInputReport function"]
 ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, hidsdi/HidD_GetInputReport
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_GetInputReport
 ---
 
-# HidD_GetInputReport function
+# HidD_GetInputReport function (hidsdi.h)
+
+
 
 ## -description
 

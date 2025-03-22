@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NmrRegisterProvider function"]
 ms.keywords: NmrRegisterProvider, NmrRegisterProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrRegisterProvider, netvista.nmrregisterprovider, nmrref_ad505c0b-91dd-413d-be24-ab331f8eadca.xml
 req.header: netioddk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - NmrRegisterProvider
 ---
 
-# NmrRegisterProvider function
+# NmrRegisterProvider function (netioddk.h)
+
+
 
 
 ## -description

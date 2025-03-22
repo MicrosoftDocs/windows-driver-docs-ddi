@@ -4,6 +4,7 @@ title: D3DKMTQueryAdapterInfo function (d3dkmthk.h)
 description: Learn more about the D3DKMTQueryAdapterInfo function.
 ms.date: 02/03/2025
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista (WDDM 1.0)
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTQueryAdapterInfo
 ---
 
-# D3DKMTQueryAdapterInfo function
+# D3DKMTQueryAdapterInfo function (d3dkmthk.h)
+
+
 
 ## -description
 

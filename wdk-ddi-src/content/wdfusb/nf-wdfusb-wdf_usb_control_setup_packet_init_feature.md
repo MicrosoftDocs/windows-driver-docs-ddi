@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function"]
 ms.keywords: DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function, kmdf.wdf_usb_control_setup_packet_init_feature, wdf.wdf_usb_control_setup_packet_init_feature, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE
 ---
 
-# WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function
+# WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function (wdfusb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control, IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES, storage.ioctl_ehstor_bandmgmt_query_capabilities
 req.header: ehstorbandmgmt.h
+req.construct-type: ioctl
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES
 ---
 
-# IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES IOCTL
+# IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES IOCTL (ehstorbandmgmt.h)
+
+
+
+
 
 
 ## -description

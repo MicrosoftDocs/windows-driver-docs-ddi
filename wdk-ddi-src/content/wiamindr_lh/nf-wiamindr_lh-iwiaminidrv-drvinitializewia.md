@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvInitializeWia"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvInitializeWia method, IWiaMiniDrv.drvInitializeWia, IWiaMiniDrv::drvInitializeWia, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, drvInitializeWia, drvInitializeWia method [Imaging Devices], drvInitializeWia method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvinitializewia, wiamindr_lh/IWiaMiniDrv::drvInitializeWia
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvInitializeWia
 ---
+
+# IWiaMiniDrv::drvInitializeWia function (wiamindr_lh.h)
 
 ## -description
 

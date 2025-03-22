@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ProbeForRead function"]
 ms.keywords: ProbeForRead, ProbeForRead routine [Kernel-Mode Driver Architecture], k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, kernel.probeforread, wdm/ProbeForRead
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ProbeForRead
 ---
 
-# ProbeForRead function
+# ProbeForRead function (wdm.h)
+
+
 
 
 ## -description

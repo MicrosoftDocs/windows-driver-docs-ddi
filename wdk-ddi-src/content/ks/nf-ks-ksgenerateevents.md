@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGenerateEvents function"]
 ms.keywords: KsGenerateEvents, KsGenerateEvents function [Streaming Media Devices], avfunc_47306d1b-67f9-4ea6-81bb-3b76b848667a.xml, ks/KsGenerateEvents, stream.ksgenerateevents
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGenerateEvents
 ---
 
-# KsGenerateEvents function
+# KsGenerateEvents function (ks.h)
+
+
 
 
 ## -description

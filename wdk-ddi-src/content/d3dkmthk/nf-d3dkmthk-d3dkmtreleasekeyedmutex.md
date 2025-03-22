@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTReleaseKeyedMutex function"]
 ms.keywords: D3DKMTReleaseKeyedMutex, D3DKMTReleaseKeyedMutex function [Display Devices], OpenGL_Functions_16fd3037-2615-49c0-8500-7c93bcda3c9f.xml, d3dkmthk/D3DKMTReleaseKeyedMutex, display.d3dkmtreleasekeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTReleaseKeyedMutex is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTReleaseKeyedMutex
 ---
 
-# D3DKMTReleaseKeyedMutex function
+# D3DKMTReleaseKeyedMutex function (d3dkmthk.h)
+
+
 
 
 ## -description

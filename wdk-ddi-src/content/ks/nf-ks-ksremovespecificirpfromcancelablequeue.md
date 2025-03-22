@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsRemoveSpecificIrpFromCancelableQueue function"]
 ms.keywords: KsRemoveSpecificIrpFromCancelableQueue, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices], ks/KsRemoveSpecificIrpFromCancelableQueue, ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml, stream.ksremovespecificirpfromcancelablequeue
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsRemoveSpecificIrpFromCancelableQueue
 ---
 
-# KsRemoveSpecificIrpFromCancelableQueue function
+# KsRemoveSpecificIrpFromCancelableQueue function (ks.h)
+
+
 
 
 ## -description

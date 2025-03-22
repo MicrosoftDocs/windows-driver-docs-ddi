@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["EPcMiniportEngineEvent enumeration"]
 ms.keywords: EPcMiniportEngineEvent, EPcMiniportEngineEvent enumeration [Audio Devices], audio.epcminiportengineevent, eMINIPORT_BUFFER_COMPLETE, eMINIPORT_FX_CLSID, eMINIPORT_GET_PRESENTATION_POSITION, eMINIPORT_GET_STREAM_POSITION, eMINIPORT_GLITCH_REPORT, eMINIPORT_IHV_DEFINED, eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_MaxValue, eMINIPORT_PIN_STATE, eMINIPORT_PROCESSING_MODE, eMINIPORT_PROGRAM_DMA, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_FX_CLSID, portcls/eMINIPORT_GET_PRESENTATION_POSITION, portcls/eMINIPORT_GET_STREAM_POSITION, portcls/eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_IHV_DEFINED, portcls/eMINIPORT_LAST_BUFFER_RENDERED, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_PROCESSING_MODE, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION
 req.header: portcls.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - EPcMiniportEngineEvent
 ---
 
-# EPcMiniportEngineEvent enumeration
+# EPcMiniportEngineEvent enumeration (portcls.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ keywords: ["PropKeyFindKeyGetFloat function"]
 tech.root: sensors
 ms.keywords: PropKeyFindKeyGetFloat
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropKeyFindKeyGetFloat
 ---
 
-# PropKeyFindKeyGetFloat function
+# PropKeyFindKeyGetFloat function (sensorsutils.h)
+
+
 
 
 ## -description

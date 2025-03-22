@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaEnablerConfigureSystemProfile function"]
 ms.keywords: WdfDmaEnablerConfigureSystemProfile, WdfDmaEnablerConfigureSystemProfile method, kmdf.wdfdmaenablerconfiguresystemprofile, wdf.wdfdmaenablerconfiguresystemprofile, wdfdmaenabler/WdfDmaEnablerConfigureSystemProfile
 req.header: wdfdmaenabler.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaEnablerConfigureSystemProfile
 ---
 
-# WdfDmaEnablerConfigureSystemProfile function
+# WdfDmaEnablerConfigureSystemProfile function (wdfdmaenabler.h)
+
+
 
 
 ## -description

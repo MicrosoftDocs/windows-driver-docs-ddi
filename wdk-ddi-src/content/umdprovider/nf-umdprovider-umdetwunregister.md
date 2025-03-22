@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["UMDEtwUnregister function"]
 ms.keywords: UMDEtwUnregister, UMDEtwUnregister function [Display Devices], display.umdetwunregister, umdprovider/UMDEtwUnregister
 req.header: umdprovider.h
+req.construct-type: function
 req.include-header: Umdprovider.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - UMDEtwUnregister
 ---
 
-# UMDEtwUnregister function
+# UMDEtwUnregister function (umdprovider.h)
+
+
 
 
 ## -description

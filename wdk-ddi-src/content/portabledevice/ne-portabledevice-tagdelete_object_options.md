@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagDELETE_OBJECT_OPTIONS enumeration"]
 ms.keywords: DELETE_OBJECT_OPTIONS, DELETE_OBJECT_OPTIONS enumeration, PORTABLE_DEVICE_DELETE_NO_RECURSION, PORTABLE_DEVICE_DELETE_WITH_RECURSION, enumeration, portabledevice/DELETE_OBJECT_OPTIONS, portabledevice/PORTABLE_DEVICE_DELETE_NO_RECURSION, portabledevice/PORTABLE_DEVICE_DELETE_WITH_RECURSION, tagDELETE_OBJECT_OPTIONS, wpddk.delete_object_options
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - DELETE_OBJECT_OPTIONS
 ---
 
-# tagDELETE_OBJECT_OPTIONS enumeration
+# tagDELETE_OBJECT_OPTIONS enumeration (portabledevice.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGetCurrentProcessorCpuUsage function"]
 ms.keywords: NdisGetCurrentProcessorCpuUsage, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCpuUsage, ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, netvista.ndisgetcurrentprocessorcpuusage
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated for NDIS 6.0 and later drivers in Windows Vista and later. Deprecated for NDIS 5.1 drivers (see       NdisGetCurrentProcessorCpuUsage (NDIS 5.1)) in Windows XP and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisGetCurrentProcessorCpuUsage
 ---
 
-# NdisGetCurrentProcessorCpuUsage function
+# NdisGetCurrentProcessorCpuUsage function (ndis.h)
+
+
 
 
 ## -description

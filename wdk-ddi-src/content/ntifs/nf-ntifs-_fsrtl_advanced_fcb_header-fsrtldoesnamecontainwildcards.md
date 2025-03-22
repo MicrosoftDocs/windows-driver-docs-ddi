@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDoesNameContainWildCards function"]
 ms.keywords: FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ifsk.fsrtldoesnamecontainwildcards, ntifs/FsRtlDoesNameContainWildCards
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlDoesNameContainWildCards
 ---
 
-# FsRtlDoesNameContainWildCards function
+# FsRtlDoesNameContainWildCards function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlInitializeTunnelCache function"]
 ms.keywords: FsRtlInitializeTunnelCache, FsRtlInitializeTunnelCache routine [Installable File System Drivers], fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml, ifsk.fsrtlinitializetunnelcache, ntifs/FsRtlInitializeTunnelCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FsRtlInitializeTunnelCache
 ---
 
-# FsRtlInitializeTunnelCache function
+# FsRtlInitializeTunnelCache function (ntifs.h)
+
+
 
 
 ## -description

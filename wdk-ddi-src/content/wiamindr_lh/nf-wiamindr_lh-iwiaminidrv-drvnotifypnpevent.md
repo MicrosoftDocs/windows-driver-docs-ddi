@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IWiaMiniDrv::drvNotifyPnpEvent"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvNotifyPnpEvent method, IWiaMiniDrv.drvNotifyPnpEvent, IWiaMiniDrv::drvNotifyPnpEvent, MiniDrv_7684a7e5-7ca5-4d20-a1a8-fc38400815ce.xml, drvNotifyPnpEvent, drvNotifyPnpEvent method [Imaging Devices], drvNotifyPnpEvent method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvnotifypnpevent, wiamindr_lh/IWiaMiniDrv::drvNotifyPnpEvent
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvNotifyPnpEvent
 ---
+
+# IWiaMiniDrv::drvNotifyPnpEvent function (wiamindr_lh.h)
 
 ## -description
 

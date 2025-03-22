@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenResourceFromNtHandle function"]
 ms.keywords: D3DKMTOpenResourceFromNtHandle, D3DKMTOpenResourceFromNtHandle callback function [Display Devices], PFND3DKMT_OPENRESOURCEFROMNTHANDLE, PFND3DKMT_OPENRESOURCEFROMNTHANDLE callback, d3dkmthk/D3DKMTOpenResourceFromNtHandle, display.d3dkmtopenresourcefromnthandle
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTOpenResourceFromNtHandle
 ---
 
-# D3DKMTOpenResourceFromNtHandle function
+# D3DKMTOpenResourceFromNtHandle function (d3dkmthk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetUncachedExtension function"]
 ms.keywords: StorPortGetUncachedExtension, StorPortGetUncachedExtension routine [Storage Devices], storage.storportgetuncachedextension, storport/StorPortGetUncachedExtension, storprt_f3acfe04-374f-47d9-8e8f-7f7f8ee8a1d3.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetUncachedExtension
 ---
 
-# StorPortGetUncachedExtension function
+# StorPortGetUncachedExtension function (storport.h)
+
+
 
 
 ## -description

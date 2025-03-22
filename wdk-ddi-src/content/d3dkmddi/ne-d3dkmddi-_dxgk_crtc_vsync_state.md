@@ -6,6 +6,7 @@ ms.date: 06/09/2023
 keywords: ["DXGK_CRTC_VSYNC_STATE enumeration"]
 ms.keywords: DXGK_CRTC_VSYNC_STATE, DXGK_CRTC_VSYNC_STATE enumeration [Display Devices], DXGK_INTERRUPT_ENABLE, DXGK_VSYNC_DISABLE_KEEP_PHASE, DXGK_VSYNC_DISABLE_NO_PHASE, _DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_CRTC_VSYNC_STATE, d3dkmddi/DXGK_INTERRUPT_ENABLE, d3dkmddi/DXGK_VSYNC_DISABLE_KEEP_PHASE, d3dkmddi/DXGK_VSYNC_DISABLE_NO_PHASE, display.dxgk_crtc_vsync_state
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - DXGK_CRTC_VSYNC_STATE
 ---
 
-# DXGK_CRTC_VSYNC_STATE enumeration
+# DXGK_CRTC_VSYNC_STATE enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

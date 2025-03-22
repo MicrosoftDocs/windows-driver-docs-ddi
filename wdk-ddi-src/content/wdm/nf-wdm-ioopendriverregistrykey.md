@@ -7,6 +7,7 @@ keywords: ["IoOpenDriverRegistryKey function"]
 tech.root: kernel
 ms.keywords: IoOpenDriverRegistryKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: wdm.h, ntddk.h, or ntifs.h
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -38,7 +39,9 @@ api_name:
  - IoOpenDriverRegistryKey
 ---
 
-# IoOpenDriverRegistryKey function
+# IoOpenDriverRegistryKey function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_SELECT_DEVICE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_SELECT_DEVICE, IOCTL_INTERNAL_SELECT_DEVICE control code [Parallel Ports], cisspd_e884bf73-c8d2-4007-a01a-ba6af4fd8359.xml, parallel/IOCTL_INTERNAL_SELECT_DEVICE, parports.ioctl_internal_select_device
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_SELECT_DEVICE
 ---
 
-# IOCTL_INTERNAL_SELECT_DEVICE IOCTL
+# IOCTL_INTERNAL_SELECT_DEVICE IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadControlSpace64 function"]
 ms.keywords: ReadControlSpace64, ReadControlSpace64 function [Windows Debugging], WdbgExts_Ref_3327dad4-903c-4285-b3cc-fe408d15f129.xml, debugger.readcontrolspace64, wdbgexts/ReadControlSpace64
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadControlSpace64
 ---
 
-# ReadControlSpace64 function
+# ReadControlSpace64 function (wdbgexts.h)
+
+
 
 
 ## -description

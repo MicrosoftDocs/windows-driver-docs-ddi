@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_POWER_SOURCES enumeration"]
 ms.keywords: WPD_POWER_SOURCES, WPD_POWER_SOURCES enumeration, WPD_POWER_SOURCE_BATTERY, WPD_POWER_SOURCE_EXTERNAL, enumeration, portabledevice/WPD_POWER_SOURCES, portabledevice/WPD_POWER_SOURCE_BATTERY, portabledevice/WPD_POWER_SOURCE_EXTERNAL, tagWPD_POWER_SOURCES, wpddk.wpd_power_sources
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_POWER_SOURCES
 ---
 
-# tagWPD_POWER_SOURCES enumeration
+# tagWPD_POWER_SOURCES enumeration (portabledevice.h)
+
+
 
 
 ## -description

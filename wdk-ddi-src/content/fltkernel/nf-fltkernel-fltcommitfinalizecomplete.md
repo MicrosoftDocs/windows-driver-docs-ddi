@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCommitFinalizeComplete function"]
 ms.keywords: FltApiRef_a_to_d_f2b874db-f5fb-405b-a3a5-b5877c88548d.xml, FltCommitFinalizeComplete, FltCommitFinalizeComplete routine [Installable File System Drivers], fltkernel/FltCommitFinalizeComplete, ifsk.fltcommitfinalizecomplete
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista Service Pack 1 (SP1) and later.
@@ -41,7 +42,9 @@ api_name:
  - FltCommitFinalizeComplete
 ---
 
-# FltCommitFinalizeComplete function
+# FltCommitFinalizeComplete function (fltkernel.h)
+
+
 
 
 ## -description

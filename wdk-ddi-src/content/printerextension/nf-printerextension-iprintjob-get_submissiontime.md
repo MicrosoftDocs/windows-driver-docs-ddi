@@ -7,6 +7,7 @@ ms.date: 07/29/2022
 keywords: ["IPrintJob::get_SubmissionTime"]
 ms.keywords: IPrintJob interface [Print Devices],SubmissionTime property, IPrintJob.SubmissionTime, IPrintJob.get_SubmissionTime, IPrintJob::SubmissionTime, IPrintJob::get_SubmissionTime, SubmissionTime property [Print Devices], SubmissionTime property [Print Devices],IPrintJob interface, get_SubmissionTime, print.iprintjob_submissiontime, printerextension/IPrintJob::SubmissionTime, printerextension/IPrintJob::get_SubmissionTime
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintJob::get_SubmissionTime
 ---
+
+# IPrintJob::get_SubmissionTime function (printerextension.h)
 
 ## -description
 

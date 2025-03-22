@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFileObjectGetDevice function"]
 ms.keywords: DFFileObjectRef_4986a619-be10-4eca-84dd-9ae1dcac423f.xml, WdfFileObjectGetDevice, WdfFileObjectGetDevice method, kmdf.wdffileobjectgetdevice, wdf.wdffileobjectgetdevice, wdffileobject/WdfFileObjectGetDevice
 req.header: wdffileobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfFileObjectGetDevice
 ---
 
-# WdfFileObjectGetDevice function
+# WdfFileObjectGetDevice function (wdffileobject.h)
+
+
 
 
 ## -description

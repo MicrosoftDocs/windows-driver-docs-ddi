@@ -8,6 +8,7 @@ ms.date: 12/01/2021
 keywords: ["ZwQueryDirectoryFile function"]
 ms.keywords: NtQueryDirectoryFile, ZwQueryDirectoryFile, ZwQueryDirectoryFile routine [Kernel-Mode Driver Architecture], k111_ffed894d-20dc-416e-8759-073a0cee3229.xml, kernel.zwquerydirectoryfile, ntifs/NtQueryDirectoryFile, ntifs/ZwQueryDirectoryFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - ZwQueryDirectoryFile
 ---
 
-# ZwQueryDirectoryFile function
+# ZwQueryDirectoryFile function (ntifs.h)
+
+
 
 ## -description
 

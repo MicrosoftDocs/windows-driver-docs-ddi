@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeAuditingFileEvents function"]
 ms.keywords: SeAuditingFileEvents, SeAuditingFileEvents routine [Installable File System Drivers], ifsk.seauditingfileevents, ntifs/SeAuditingFileEvents, seref_b4b8468e-cfb2-4685-9811-2b2733e9fb36.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeAuditingFileEvents
 ---
 
-# SeAuditingFileEvents function
+# SeAuditingFileEvents function (ntifs.h)
+
+
 
 
 ## -description

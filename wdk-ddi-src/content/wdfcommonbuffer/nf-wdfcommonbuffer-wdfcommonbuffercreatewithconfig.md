@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCommonBufferCreateWithConfig function"]
 ms.keywords: DFCommonBufferObjectRef_4e009b5f-a2a4-4be5-84d6-308c1558e702.xml, WdfCommonBufferCreateWithConfig, WdfCommonBufferCreateWithConfig method, kmdf.wdfcommonbuffercreatewithconfig, wdf.wdfcommonbuffercreatewithconfig, wdfcommonbuffer/WdfCommonBufferCreateWithConfig
 req.header: wdfcommonbuffer.h
+req.construct-type: function
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfCommonBufferCreateWithConfig
 ---
 
-# WdfCommonBufferCreateWithConfig function
+# WdfCommonBufferCreateWithConfig function (wdfcommonbuffer.h)
+
+
 
 
 ## -description

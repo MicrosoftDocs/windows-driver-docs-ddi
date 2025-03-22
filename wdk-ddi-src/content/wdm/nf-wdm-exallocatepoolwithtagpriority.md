@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["ExAllocatePoolWithTagPriority function"]
 ms.keywords: ExAllocatePoolWithTagPriority, ExAllocatePoolWithTagPriority routine [Kernel-Mode Driver Architecture], k102_cca6adc7-0f37-4565-858d-a191062f4fbd.xml, kernel.exallocatepoolwithtagpriority, wdm/ExAllocatePoolWithTagPriority
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExAllocatePoolWithTagPriority
 ---
+
+# ExAllocatePoolWithTagPriority function (wdm.h)
 
 ## -description
 

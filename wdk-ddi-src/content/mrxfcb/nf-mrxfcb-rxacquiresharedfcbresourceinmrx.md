@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxAcquireSharedFcbResourceInMRx function"]
 ms.keywords: RxAcquireSharedFcbResourceInMRx, RxAcquireSharedFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquiresharedfcbresourceinmrx, mrxfcb/RxAcquireSharedFcbResourceInMRx, rxref_8be6c6b8-c906-4071-b1a1-7687f044dcb7.xml
 req.header: mrxfcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxAcquireSharedFcbResourceInMRx
 ---
 
-# RxAcquireSharedFcbResourceInMRx function
+# RxAcquireSharedFcbResourceInMRx function (mrxfcb.h)
+
+
 
 
 ## -description

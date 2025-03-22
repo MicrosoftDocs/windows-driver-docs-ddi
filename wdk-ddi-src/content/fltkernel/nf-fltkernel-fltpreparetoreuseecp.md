@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltPrepareToReuseEcp function"]
 ms.keywords: FltPrepareToReuseEcp, FltPrepareToReuseEcp routine [Installable File System Drivers], fltkernel/FltPrepareToReuseEcp, ifsk.fltpreparetoreuseecp
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltPrepareToReuseEcp
 ---
 
-# FltPrepareToReuseEcp function
+# FltPrepareToReuseEcp function (fltkernel.h)
+
+
 
 
 ## -description

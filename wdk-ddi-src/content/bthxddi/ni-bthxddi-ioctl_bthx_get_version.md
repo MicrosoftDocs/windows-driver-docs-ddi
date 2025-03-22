@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_GET_VERSION IOCTL"]
 ms.keywords: IOCTL_BTHX_GET_VERSION, IOCTL_BTHX_GET_VERSION control, IOCTL_BTHX_GET_VERSION control code [Bluetooth Devices], bltooth.ioctl_bthx_get_version, bthxddi/IOCTL_BTHX_GET_VERSION
 req.header: bthxddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHX_GET_VERSION
 ---
 
-# IOCTL_BTHX_GET_VERSION IOCTL
+# IOCTL_BTHX_GET_VERSION IOCTL (bthxddi.h)
+
+
+
+
 
 
 ## -description

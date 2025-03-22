@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["PcwAddInstance function"]
 ms.keywords: PcwAddInstance, PcwAddInstance function [Driver Development Tools], devtest.pcwaddinstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PcwAddInstance
 ---
+
+# PcwAddInstance function (wdm.h)
 
 ## -description
 

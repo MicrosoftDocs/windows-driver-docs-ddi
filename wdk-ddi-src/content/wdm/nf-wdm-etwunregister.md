@@ -7,6 +7,7 @@ ms.date: 02/15/2023
 keywords: ["EtwUnregister function"]
 ms.keywords: EtwUnregister, EtwUnregister function [Driver Development Tools], devtest.etwunregister, etw_km_04787c1b-049f-4b92-b75c-3da660d51164.xml, wdm/EtwUnregister
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - EtwUnregister
 ---
+
+# EtwUnregister function (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 06/21/2021
 keywords: ["NtOpenProcessTokenEx function"]
 ms.keywords: NtOpenProcessTokenEx, ZwOpenProcessTokenEx, ZwOpenProcessTokenEx routine [Kernel-Mode Driver Architecture], k111_ab983257-9c27-4f73-af7c-d903de3a33d3.xml, kernel.zwopenprocesstokenex, ntifs/NtOpenProcessTokenEx, ntifs/ZwOpenProcessTokenEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - NtOpenProcessTokenEx
 ---
 
-# NtOpenProcessTokenEx function
+# NtOpenProcessTokenEx function (ntifs.h)
+
+
 
 ## -description
 

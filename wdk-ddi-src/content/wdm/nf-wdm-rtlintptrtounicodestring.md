@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlIntPtrToUnicodeString macro"]
 ms.keywords: RtlIntPtrToUnicodeString, RtlIntPtrToUnicodeString routine [Kernel-Mode Driver Architecture], k109_8ec9aafc-288e-4814-a22b-8b8e973689be.xml, kernel.rtlintptrtounicodestring, wdm/RtlIntPtrToUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - RtlIntPtrToUnicodeString
 ---
 
-# RtlIntPtrToUnicodeString macro
+# RtlIntPtrToUnicodeString macro (wdm.h)
+
+
+
+
 
 
 ## -description

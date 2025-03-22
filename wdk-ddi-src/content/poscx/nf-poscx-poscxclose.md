@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxClose function"]
 ms.keywords: PosCxClose, PosCxClose function, pos.poscxclose, poscx/PosCxClose
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxClose
 ---
 
-# PosCxClose function
+# PosCxClose function (poscx.h)
+
+
 
 
 ## -description

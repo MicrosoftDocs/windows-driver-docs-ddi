@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_COPY_FLAGS enumeration"]
 ms.keywords: D3DDDI_COPY_DISCARD, D3DDDI_COPY_FLAGS, D3DDDI_COPY_FLAGS enumeration [Display Devices], D3DDDI_COPY_NO_OVERWRITE, d3dumddi/D3DDDI_COPY_DISCARD, d3dumddi/D3DDDI_COPY_FLAGS, d3dumddi/D3DDDI_COPY_NO_OVERWRITE, display.d3dddi_copy_flags
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_COPY_FLAGS
 ---
 
-# D3DDDI_COPY_FLAGS enumeration
+# D3DDDI_COPY_FLAGS enumeration (d3dumddi.h)
+
+
 
 
 ## -description

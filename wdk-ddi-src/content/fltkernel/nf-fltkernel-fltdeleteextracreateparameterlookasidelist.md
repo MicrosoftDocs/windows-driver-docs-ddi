@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltDeleteExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_a_to_d_ac849af2-706e-4eac-be0b-1c3c905ccdfe.xml, FltDeleteExtraCreateParameterLookasideList, FltDeleteExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltDeleteExtraCreateParameterLookasideList, ifsk.fltdeleteextracreateparameterlookasidelist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltDeleteExtraCreateParameterLookasideList
 ---
 
-# FltDeleteExtraCreateParameterLookasideList function
+# FltDeleteExtraCreateParameterLookasideList function (fltkernel.h)
+
+
 
 
 ## -description

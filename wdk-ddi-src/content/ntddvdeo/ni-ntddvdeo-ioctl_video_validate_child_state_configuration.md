@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION IOCTL"]
 ms.keywords: IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION, IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION control, IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION control code [Display Devices], Video_IOCTLs_8e2a488b-85d7-4814-b85b-a96162fe5963.xml, display.ioctl_video_validate_child_state_configuration, ntddvdeo/IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION
 ---
 
-# IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION IOCTL
+# IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

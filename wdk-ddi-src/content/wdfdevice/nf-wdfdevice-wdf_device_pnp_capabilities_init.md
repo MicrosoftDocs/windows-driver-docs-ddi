@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DEVICE_PNP_CAPABILITIES_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_630e05dc-1566-4dc4-b35c-d9b756629c99.xml, WDF_DEVICE_PNP_CAPABILITIES_INIT, WDF_DEVICE_PNP_CAPABILITIES_INIT function, kmdf.wdf_device_pnp_capabilities_init, wdf.wdf_device_pnp_capabilities_init, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES_INIT
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_DEVICE_PNP_CAPABILITIES_INIT
 ---
 
-# WDF_DEVICE_PNP_CAPABILITIES_INIT function
+# WDF_DEVICE_PNP_CAPABILITIES_INIT function (wdfdevice.h)
+
+
 
 
 ## -description

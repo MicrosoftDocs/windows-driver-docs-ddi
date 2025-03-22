@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_DEVICE_STATE enumeration"]
 ms.keywords: "*PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE, USBFN_DEVICE_STATE enumeration [Buses], UsbfnDeviceStateAddressed, UsbfnDeviceStateAttached, UsbfnDeviceStateConfigured, UsbfnDeviceStateDefault, UsbfnDeviceStateDetached, UsbfnDeviceStateMinimum, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateSuspended, _USBFN_DEVICE_STATE, buses.usbfn_device_state, usbfnbase/USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateSuspended"
 req.header: usbfnbase.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_DEVICE_STATE
 ---
 
-# _USBFN_DEVICE_STATE enumeration
+# USBFN_DEVICE_STATE enumeration (usbfnbase.h)
+
+
 
 
 ## -description

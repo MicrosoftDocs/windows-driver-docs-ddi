@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_ACTIVATE_DEVICE IOCTL"]
 ms.keywords: IOCTL_HID_ACTIVATE_DEVICE, IOCTL_HID_ACTIVATE_DEVICE control, IOCTL_HID_ACTIVATE_DEVICE control code [Human Input Devices], hid.ioctl_hid_activate_device, hidioreq_031bb843-02fe-4859-acf2-4bcbfaaea657.xml, hidport/IOCTL_HID_ACTIVATE_DEVICE
 req.header: hidport.h
+req.construct-type: ioctl
 req.include-header: Hidport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_ACTIVATE_DEVICE
 ---
 
-# IOCTL_HID_ACTIVATE_DEVICE IOCTL
+# IOCTL_HID_ACTIVATE_DEVICE IOCTL (hidport.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaGetChangeState function"]
 ms.keywords: BdaGetChangeState, BdaGetChangeState function [Streaming Media Devices], bdaref_52b39183-4a62-47b2-91d1-41fb76b31606.xml, bdasup/BdaGetChangeState, stream.bdagetchangestate
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaGetChangeState
 ---
+
+# BdaGetChangeState function (bdasup.h)
 
 ## -description
 

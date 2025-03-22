@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiGetDC function"]
 ms.keywords: GdiGetDC, GdiGetDC function [Print Devices], gdifnc_4129439c-9cb6-46d3-8659-d12438841bb5.xml, print.gdigetdc, winppi/GdiGetDC
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiGetDC
 ---
 
-# GdiGetDC function
+# GdiGetDC function (winppi.h)
+
+
 
 
 ## -description

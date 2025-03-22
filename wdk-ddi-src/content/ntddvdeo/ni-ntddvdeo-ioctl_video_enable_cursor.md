@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_ENABLE_CURSOR IOCTL"]
 ms.keywords: IOCTL_VIDEO_ENABLE_CURSOR, IOCTL_VIDEO_ENABLE_CURSOR control, IOCTL_VIDEO_ENABLE_CURSOR control code [Display Devices], Video_IOCTLs_adcda61e-67fe-4c4e-a6df-015ff1d95c36.xml, display.ioctl_video_enable_cursor, ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_ENABLE_CURSOR
 ---
 
-# IOCTL_VIDEO_ENABLE_CURSOR IOCTL
+# IOCTL_VIDEO_ENABLE_CURSOR IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

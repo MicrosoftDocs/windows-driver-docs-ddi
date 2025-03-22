@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["InitializePrintMonitorUI function"]
 ms.keywords: InitializePrintMonitorUI, InitializePrintMonitorUI function [Print Devices], print.initializeprintmonitorui, spoolfnc_927446a6-117a-4585-8ce0-9a4b543c4037.xml, winsplp/InitializePrintMonitorUI
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - InitializePrintMonitorUI
 ---
 
-# InitializePrintMonitorUI function
+# InitializePrintMonitorUI function (winsplp.h)
+
+
 
 
 ## -description

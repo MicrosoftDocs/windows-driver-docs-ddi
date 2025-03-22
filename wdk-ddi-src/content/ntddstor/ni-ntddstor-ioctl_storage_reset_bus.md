@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_RESET_BUS IOCTL"]
 ms.keywords: IOCTL_STORAGE_RESET_BUS, IOCTL_STORAGE_RESET_BUS control, IOCTL_STORAGE_RESET_BUS control code [Storage Devices], k307_8a5629b9-44e4-4ed7-a481-a5b9efbeb083.xml, ntddstor/IOCTL_STORAGE_RESET_BUS, storage.ioctl_storage_reset_bus
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_RESET_BUS
 ---
 
-# IOCTL_STORAGE_RESET_BUS IOCTL
+# IOCTL_STORAGE_RESET_BUS IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

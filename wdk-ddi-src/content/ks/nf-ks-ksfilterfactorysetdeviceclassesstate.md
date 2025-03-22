@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterFactorySetDeviceClassesState function"]
 ms.keywords: KsFilterFactorySetDeviceClassesState, KsFilterFactorySetDeviceClassesState function [Streaming Media Devices], avfunc_a88f0816-e755-450f-b8b7-83dee85171f9.xml, ks/KsFilterFactorySetDeviceClassesState, stream.ksfilterfactorysetdeviceclassesstate
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterFactorySetDeviceClassesState
 ---
 
-# KsFilterFactorySetDeviceClassesState function
+# KsFilterFactorySetDeviceClassesState function (ks.h)
+
+
 
 
 ## -description

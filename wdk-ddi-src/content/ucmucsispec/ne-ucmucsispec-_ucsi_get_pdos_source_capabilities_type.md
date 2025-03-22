@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE enumeration"]
 ms.keywords: _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE, UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE
 ---
 
-# _UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE enumeration
+# UCSI_GET_PDOS_SOURCE_CAPABILITIES_TYPE enumeration (ucmucsispec.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["IOCTL_SRIOV_DETACH IOCTL"]
 ms.keywords: IOCTL_SRIOV_DETACH, IOCTL_SRIOV_DETACH control code [Buses], PCI.ioctl-sriov-detach, pcivirt/IOCTL_SRIOV_DETACH
 req.header: pcivirt.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SRIOV_DETACH
 ---
 
-# IOCTL_SRIOV_DETACH IOCTL
+# IOCTL_SRIOV_DETACH IOCTL (pcivirt.h)
+
+
+
+
 
 
 ##  Major Code:

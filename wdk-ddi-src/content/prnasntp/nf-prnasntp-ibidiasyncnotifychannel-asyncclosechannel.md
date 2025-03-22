@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::AsyncCloseChannel"]
 ms.keywords: AsyncCloseChannel, AsyncCloseChannel method [Print Devices], AsyncCloseChannel method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncCloseChannel method, IBidiAsyncNotifyChannel.AsyncCloseChannel, IBidiAsyncNotifyChannel::AsyncCloseChannel, print.ibidiasyncnotifychannel_asyncclosechannel, prnasntp/IBidiAsyncNotifyChannel::AsyncCloseChannel
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiAsyncNotifyChannel::AsyncCloseChannel
 ---
+
+# IBidiAsyncNotifyChannel::AsyncCloseChannel function (prnasntp.h)
 
 ## -description
 

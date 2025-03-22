@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AuxKlibGetBugCheckData function"]
 ms.keywords: AuxKlibGetBugCheckData, AuxKlibGetBugCheckData routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetBugCheckData, aux_klib_3cb977df-feb6-4b52-afa1-b5e3038fc287.xml, kernel.auxklibgetbugcheckdata
 req.header: aux_klib.h
+req.construct-type: function
 req.include-header: Aux_klib.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - AuxKlibGetBugCheckData
 ---
 
-# AuxKlibGetBugCheckData function
+# AuxKlibGetBugCheckData function (aux_klib.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], QueryDeviceDefaultNamespace method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print.iprintoemprintticketprovider_querydevicedefaultnamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace
 ---
+
+# IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace function (prcomoem.h)
 
 ## -description
 

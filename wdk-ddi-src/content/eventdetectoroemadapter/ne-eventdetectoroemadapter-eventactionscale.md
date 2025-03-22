@@ -7,6 +7,7 @@ ms.date: 03/22/2019
 keywords: ["EVENTACTIONSCALE enumeration"]
 ms.keywords: EVENTACTIONSCALE, EVENTACTIONSCALE,
 req.header: eventdetectoroemadapter.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - EVENTACTIONSCALE
 ---
 
-# EVENTACTIONSCALE enumeration
+# EVENTACTIONSCALE enumeration (eventdetectoroemadapter.h)
+
+
 
 
 ## -description

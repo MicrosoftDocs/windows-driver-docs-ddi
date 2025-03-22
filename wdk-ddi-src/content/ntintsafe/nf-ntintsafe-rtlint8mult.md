@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInt8Mult function"]
 ms.keywords: RtlInt8Mult, RtlInt8Mult function [Kernel-Mode Driver Architecture], kernel.rtlint8mult, ntintsafe/RtlInt8Mult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInt8Mult
 ---
 
-# RtlInt8Mult function
+# RtlInt8Mult function (ntintsafe.h)
+
+
 
 
 ## -description

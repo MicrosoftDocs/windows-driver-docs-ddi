@@ -7,6 +7,7 @@ ms.date: 03/20/2023
 keywords: ["FltFreeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_823e2511-8afe-4151-bbac-a9481c079068.xml, FltFreeFileLock, FltFreeFileLock routine [Installable File System Drivers], fltkernel/FltFreeFileLock, ifsk.fltfreefilelock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP SP2 
@@ -40,7 +41,9 @@ api_name:
  - FltFreeFileLock
 ---
 
-# FltFreeFileLock function
+# FltFreeFileLock function (fltkernel.h)
+
+
 
 ## -description
 

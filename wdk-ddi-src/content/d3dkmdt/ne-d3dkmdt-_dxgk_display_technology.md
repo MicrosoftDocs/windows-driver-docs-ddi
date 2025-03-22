@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["DXGK_DISPLAY_TECHNOLOGY enumeration"]
 ms.keywords: "*PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], DXGK_DT_INVALID, DXGK_DT_LCD, DXGK_DT_OLED, DXGK_DT_OTHER, PDXGK_DISPLAY_TECHNOLOGY, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_INVALID, d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DT_OLED, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology"
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - DXGK_DISPLAY_TECHNOLOGY
 ---
 
-# DXGK_DISPLAY_TECHNOLOGY enumeration
+# DXGK_DISPLAY_TECHNOLOGY enumeration (d3dkmdt.h)
+
+
 
 ## -description
 

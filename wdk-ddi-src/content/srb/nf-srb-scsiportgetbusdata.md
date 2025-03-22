@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortGetBusData function"]
 ms.keywords: ScsiPortGetBusData, ScsiPortGetBusData routine [Storage Devices], scsiprt_85566dfe-b1b6-4b6d-9f80-69fbdd82904a.xml, srb/ScsiPortGetBusData, storage.scsiportgetbusdata
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortGetBusData
 ---
 
-# ScsiPortGetBusData function
+# ScsiPortGetBusData function (srb.h)
+
+
 
 
 ## -description

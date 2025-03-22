@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoForwardIrpSynchronously function"]
 ms.keywords: IoForwardIrpSynchronously, IoForwardIrpSynchronously routine [Kernel-Mode Driver Architecture], k104_130c736e-6408-4484-b306-91ba275eaac0.xml, kernel.ioforwardirpsynchronously, wdm/IoForwardIrpSynchronously
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoForwardIrpSynchronously
 ---
 
-# IoForwardIrpSynchronously function
+# IoForwardIrpSynchronously function (wdm.h)
+
+
 
 
 ## -description

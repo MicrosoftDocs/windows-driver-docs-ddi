@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringInit function"]
 ms.keywords: RtlUnicodeStringInit, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinit, ntstrsafe/RtlUnicodeStringInit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringInit
 ---
 
-# RtlUnicodeStringInit function
+# RtlUnicodeStringInit function (ntstrsafe.h)
+
+
 
 
 ## -description

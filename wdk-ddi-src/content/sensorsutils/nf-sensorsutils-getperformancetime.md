@@ -7,6 +7,7 @@ keywords: ["GetPerformanceTime function"]
 tech.root: sensors
 ms.keywords: GetPerformanceTime
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - GetPerformanceTime
 ---
 
-# GetPerformanceTime function
+# GetPerformanceTime function (sensorsutils.h)
+
+
 
 
 ## -description

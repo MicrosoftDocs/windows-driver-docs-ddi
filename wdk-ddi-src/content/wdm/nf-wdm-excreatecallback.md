@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExCreateCallback function"]
 ms.keywords: ExCreateCallback, ExCreateCallback routine [Kernel-Mode Driver Architecture], k102_7c7f1024-8ae7-4925-91f3-add4fcb452b7.xml, kernel.excreatecallback, wdm/ExCreateCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExCreateCallback
 ---
 
-# ExCreateCallback function
+# ExCreateCallback function (wdm.h)
+
+
 
 
 ## -description

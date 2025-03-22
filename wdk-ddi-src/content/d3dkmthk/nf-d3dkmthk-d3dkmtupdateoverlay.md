@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTUpdateOverlay function"]
 ms.keywords: D3DKMTUpdateOverlay, D3DKMTUpdateOverlay function [Display Devices], OpenGL_Functions_bddc75da-dc62-43cf-8ee7-ec9958198669.xml, d3dkmthk/D3DKMTUpdateOverlay, display.d3dkmtupdateoverlay
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTUpdateOverlay
 ---
 
-# D3DKMTUpdateOverlay function
+# D3DKMTUpdateOverlay function (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_LogicalMemoryType enumeration"]
 ms.keywords: "*PKS_LogicalMemoryType, KS_LogicalMemoryType, KS_LogicalMemoryType enumeration [Streaming Media Devices], KS_MemoryTypeAnyHost, KS_MemoryTypeDeviceHostMapped, KS_MemoryTypeDeviceSpecific, KS_MemoryTypeDontCare, KS_MemoryTypeKernelNonPaged, KS_MemoryTypeKernelPaged, KS_MemoryTypeUser, ksproxy/KS_LogicalMemoryType, ksproxy/KS_MemoryTypeAnyHost, ksproxy/KS_MemoryTypeDeviceHostMapped, ksproxy/KS_MemoryTypeDeviceSpecific, ksproxy/KS_MemoryTypeDontCare, ksproxy/KS_MemoryTypeKernelNonPaged, ksproxy/KS_MemoryTypeKernelPaged, ksproxy/KS_MemoryTypeUser, stream.ks_logicalmemorytype"
 req.header: ksproxy.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_LogicalMemoryType
 ---
 
-# KS_LogicalMemoryType enumeration
+# KS_LogicalMemoryType enumeration (ksproxy.h)
+
+
 
 
 ## -description

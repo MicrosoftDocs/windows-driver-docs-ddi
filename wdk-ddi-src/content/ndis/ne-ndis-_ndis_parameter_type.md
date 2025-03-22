@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PARAMETER_TYPE enumeration"]
 ms.keywords: "*PNDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE, NDIS_PARAMETER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisParameterBinary, NdisParameterHexInteger, NdisParameterInteger, NdisParameterMultiString, NdisParameterString, PNDIS_PARAMETER_TYPE, PNDIS_PARAMETER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PARAMETER_TYPE, ndis/NDIS_PARAMETER_TYPE, ndis/NdisParameterBinary, ndis/NdisParameterHexInteger, ndis/NdisParameterInteger, ndis/NdisParameterMultiString, ndis/NdisParameterString, ndis/PNDIS_PARAMETER_TYPE, ndis_configuration_ref_05a453df-2660-470b-8eaf-7a59dcb20e04.xml, netvista.ndis_parameter_type"
 req.header: ndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers in Windows Vista. Supported for NDIS   5.1 drivers in Windows XP.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PARAMETER_TYPE
 ---
 
-# _NDIS_PARAMETER_TYPE enumeration
+# NDIS_PARAMETER_TYPE enumeration (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExAcquireRundownProtection function"]
 ms.keywords: ExAcquireRundownProtection, ExAcquireRundownProtection routine [Kernel-Mode Driver Architecture], kernel.exacquirerundownprotection, wdm/ExAcquireRundownProtection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - ExAcquireRundownProtection
 ---
 
-# ExAcquireRundownProtection function
+# ExAcquireRundownProtection function (wdm.h)
+
+
 
 
 ## -description

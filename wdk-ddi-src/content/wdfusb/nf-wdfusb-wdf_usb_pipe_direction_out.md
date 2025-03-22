@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_PIPE_DIRECTION_OUT function"]
 ms.keywords: DFUsbRef_24f2180e-94da-4d77-9209-6bf97ea051a3.xml, WDF_USB_PIPE_DIRECTION_OUT, WDF_USB_PIPE_DIRECTION_OUT function, kmdf.wdf_usb_pipe_direction_out, wdf.wdf_usb_pipe_direction_out, wdfusb/WDF_USB_PIPE_DIRECTION_OUT
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_USB_PIPE_DIRECTION_OUT
 ---
 
-# WDF_USB_PIPE_DIRECTION_OUT function
+# WDF_USB_PIPE_DIRECTION_OUT function (wdfusb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInitAnsiString macro"]
 ms.keywords: NdisInitAnsiString, NdisInitAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitAnsiString, ndis_string_ref_2d47b8b6-3b3e-48ca-a2be-ee1bca117ef6.xml, netvista.ndisinitansistring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlInitString instead.
@@ -41,7 +42,11 @@ api_name:
  - NdisInitAnsiString
 ---
 
-# NdisInitAnsiString macro
+# NdisInitAnsiString macro (ndis.h)
+
+
+
+
 
 
 ## -description

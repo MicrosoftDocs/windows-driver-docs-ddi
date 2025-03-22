@@ -6,6 +6,7 @@ tech.root: whea
 ms.date: 08/04/2021
 keywords: ["IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL"]
 req.header: ntddk.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,11 @@ api_name:
  - IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT
 ---
 
-# IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL
+# IOCTL_IPMI_INTERNAL_RECORD_SEL_EVENT IOCTL (ntddk.h)
+
+
+
+
 
 ## Major Code
 

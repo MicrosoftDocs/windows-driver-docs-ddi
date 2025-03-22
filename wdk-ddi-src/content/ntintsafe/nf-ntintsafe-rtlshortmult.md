@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlShortMult function"]
 ms.keywords: RtlShortMult, RtlShortMult function [Kernel-Mode Driver Architecture], kernel.rtlshortmult, ntintsafe/RtlShortMult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlShortMult
 ---
 
-# RtlShortMult function
+# RtlShortMult function (ntintsafe.h)
+
+
 
 
 ## -description

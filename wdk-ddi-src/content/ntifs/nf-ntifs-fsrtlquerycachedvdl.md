@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlQueryCachedVdl function"]
 ms.keywords: FsRtlQueryCachedVdl, FsRtlQueryCachedVdl routine [Installable File System Drivers], ifsk.fsrtlquerycachedvdl, ntifs/FsRtlQueryCachedVdl
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlQueryCachedVdl
 ---
 
-# FsRtlQueryCachedVdl function
+# FsRtlQueryCachedVdl function (ntifs.h)
+
+
 
 
 ## -description

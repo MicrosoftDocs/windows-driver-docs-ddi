@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_READ_Q_CHANNEL IOCTL"]
 ms.keywords: IOCTL_CDROM_READ_Q_CHANNEL, IOCTL_CDROM_READ_Q_CHANNEL control, IOCTL_CDROM_READ_Q_CHANNEL control code [Storage Devices], k307_1b91e5f3-ecd0-429d-a4d1-8b77170d14e7.xml, ntddcdrm/IOCTL_CDROM_READ_Q_CHANNEL, storage.ioctl_cdrom_read_q_channel
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: Obsolete, beginning with Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_READ_Q_CHANNEL
 ---
 
-# IOCTL_CDROM_READ_Q_CHANNEL IOCTL
+# IOCTL_CDROM_READ_Q_CHANNEL IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

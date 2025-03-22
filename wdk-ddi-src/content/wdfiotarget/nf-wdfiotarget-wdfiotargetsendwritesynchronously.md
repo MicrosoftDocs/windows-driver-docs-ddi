@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetSendWriteSynchronously function"]
 ms.keywords: DFIOTargetRef_2d272a81-583d-4d22-888e-797ace9a134c.xml, WdfIoTargetSendWriteSynchronously, WdfIoTargetSendWriteSynchronously method, kmdf.wdfiotargetsendwritesynchronously, wdf.wdfiotargetsendwritesynchronously, wdfiotarget/WdfIoTargetSendWriteSynchronously
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetSendWriteSynchronously
 ---
 
-# WdfIoTargetSendWriteSynchronously function
+# WdfIoTargetSendWriteSynchronously function (wdfiotarget.h)
+
+
 
 
 ## -description

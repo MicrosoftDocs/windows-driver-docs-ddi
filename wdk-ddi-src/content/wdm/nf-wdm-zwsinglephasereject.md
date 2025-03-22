@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwSinglePhaseReject function"]
 ms.keywords: NtSinglePhaseReject, ZwSinglePhaseReject, ZwSinglePhaseReject routine [Kernel-Mode Driver Architecture], kernel.zwsinglephasereject, ktm_ref_9bc69cd9-19ee-4f3e-b5c8-fea8ddb05e17.xml, wdm/NtSinglePhaseReject, wdm/ZwSinglePhaseReject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwSinglePhaseReject
 ---
 
-# ZwSinglePhaseReject function
+# ZwSinglePhaseReject function (wdm.h)
+
+
 
 
 ## -description

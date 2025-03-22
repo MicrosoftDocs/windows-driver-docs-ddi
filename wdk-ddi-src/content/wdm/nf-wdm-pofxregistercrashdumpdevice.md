@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxRegisterCrashdumpDevice function"]
 ms.keywords: PoFxRegisterCrashdumpDevice, PoFxRegisterCrashdumpDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregistercrashdumpdevice, wdm/PoFxRegisterCrashdumpDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Pepfx.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -41,7 +42,9 @@ api_name:
  - PoFxRegisterCrashdumpDevice
 ---
 
-# PoFxRegisterCrashdumpDevice function
+# PoFxRegisterCrashdumpDevice function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExRaiseAccessViolation function"]
 ms.keywords: ExRaiseAccessViolation, ExRaiseAccessViolation routine [Kernel-Mode Driver Architecture], k102_71b4c053-599c-4a6d-8a59-08aae6bdc534.xml, kernel.exraiseaccessviolation, ntddk/ExRaiseAccessViolation
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ExRaiseAccessViolation
 ---
 
-# ExRaiseAccessViolation function
+# ExRaiseAccessViolation function (ntddk.h)
+
+
 
 
 ## -description

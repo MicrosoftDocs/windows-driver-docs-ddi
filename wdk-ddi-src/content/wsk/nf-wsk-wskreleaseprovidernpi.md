@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WskReleaseProviderNPI function"]
 ms.keywords: WskReleaseProviderNPI, WskReleaseProviderNPI function [Network Drivers Starting with Windows Vista], netvista.wskreleaseprovidernpi, wsk/WskReleaseProviderNPI, wskref_1ed7116e-c3a0-41dd-9d19-aa2f44eae257.xml
 req.header: wsk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - WskReleaseProviderNPI
 ---
 
-# WskReleaseProviderNPI function
+# WskReleaseProviderNPI function (wsk.h)
+
+
 
 
 ## -description

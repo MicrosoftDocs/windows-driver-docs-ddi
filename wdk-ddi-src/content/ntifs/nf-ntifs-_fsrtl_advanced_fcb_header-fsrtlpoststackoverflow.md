@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlPostStackOverflow function"]
 ms.keywords: FsRtlPostStackOverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, ifsk.fsrtlpoststackoverflow, ntifs/FsRtlPostStackOverflow
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlPostStackOverflow function
+# FsRtlPostStackOverflow function (ntifs.h)
+
+
 
 
 ## -description

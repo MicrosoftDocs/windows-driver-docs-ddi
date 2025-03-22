@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KTMOBJECT_TYPE enumeration"]
 ms.keywords: "*PKTMOBJECT_TYPE, KTMOBJECT_ENLISTMENT, KTMOBJECT_INVALID, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION, KTMOBJECT_TRANSACTION_MANAGER, KTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], PKTMOBJECT_TYPE, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], _KTMOBJECT_TYPE, kernel.ktmobject_type, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_INVALID, wdm/KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_TRANSACTION_MANAGER, wdm/KTMOBJECT_TYPE, wdm/PKTMOBJECT_TYPE"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -46,7 +47,9 @@ api_name:
  - KTMOBJECT_TYPE
 ---
 
-# _KTMOBJECT_TYPE enumeration
+# KTMOBJECT_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

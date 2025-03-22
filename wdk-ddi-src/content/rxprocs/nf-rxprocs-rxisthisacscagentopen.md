@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxIsThisACscAgentOpen function"]
 ms.keywords: RxIsThisACscAgentOpen, RxIsThisACscAgentOpen function [Installable File System Drivers], ifsk.rxisthisacscagentopen, rxprocs/RxIsThisACscAgentOpen, rxref_1d515511-d1dd-4090-9c9d-b87960d56f5c.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxcontx.h, Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: The RxIsThisACscAgentOpen routine is only available on Windows Server 2003 and later.
@@ -40,7 +41,9 @@ api_name:
  - RxIsThisACscAgentOpen
 ---
 
-# RxIsThisACscAgentOpen function
+# RxIsThisACscAgentOpen function (rxprocs.h)
+
+
 
 
 ## -description

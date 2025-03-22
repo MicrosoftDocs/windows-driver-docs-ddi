@@ -7,6 +7,7 @@ ms.date: 09/22/2023
 keywords: ["IddCxMonitorUpdateModes function"]
 ms.keywords: IddCxMonitorUpdateModes, IddCxMonitorUpdateModes method [Display Devices], display.iddcxmonitorupdatemodes, iddcx/IddCxMonitorUpdateModes
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - IddCxMonitorUpdateModes
 ---
 
-# IddCxMonitorUpdateModes function
+# IddCxMonitorUpdateModes function (iddcx.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryMultiString function"]
 ms.keywords: DFRegKeyObjectRef_9610d27f-df2e-41f9-9376-4f5819e8ce66.xml, WdfRegistryQueryMultiString, WdfRegistryQueryMultiString method, kmdf.wdfregistryquerymultistring, wdf.wdfregistryquerymultistring, wdfregistry/WdfRegistryQueryMultiString
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryQueryMultiString
 ---
 
-# WdfRegistryQueryMultiString function
+# WdfRegistryQueryMultiString function (wdfregistry.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestRetrieveOutputBuffer function"]
 ms.keywords: DFRequestObjectRef_05ab728b-3b70-4095-acca-294443797557.xml, WdfRequestRetrieveOutputBuffer, WdfRequestRetrieveOutputBuffer method, kmdf.wdfrequestretrieveoutputbuffer, wdf.wdfrequestretrieveoutputbuffer, wdfrequest/WdfRequestRetrieveOutputBuffer
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestRetrieveOutputBuffer
 ---
 
-# WdfRequestRetrieveOutputBuffer function
+# WdfRequestRetrieveOutputBuffer function (wdfrequest.h)
+
+
 
 
 ## -description

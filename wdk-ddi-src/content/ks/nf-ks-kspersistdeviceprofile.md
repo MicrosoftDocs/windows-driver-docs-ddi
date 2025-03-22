@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPersistDeviceProfile function"]
 ms.keywords: KsPersistDeviceProfile, KsPersistDeviceProfile function [Streaming Media Devices], ks/KsPersistDeviceProfile, stream.kspersistdeviceprofile
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ksmedia.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsPersistDeviceProfile
 ---
 
-# KsPersistDeviceProfile function
+# KsPersistDeviceProfile function (ks.h)
+
+
 
 
 ## -description

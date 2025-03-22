@@ -7,6 +7,7 @@ keywords: ["UsbPm_Deregister function"]
 ms.keywords: UsbPm_Deregister
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - UsbPm_Deregister
 ---
 
-# UsbPm_Deregister function
+# UsbPm_Deregister function (usbpmapi.h)
+
+
 
 
 ## -description

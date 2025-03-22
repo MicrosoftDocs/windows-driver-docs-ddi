@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListEndScan function"]
 ms.keywords: DFDeviceObjectChildListRef_ffd03c13-6074-4679-bb87-b2c028fc8ded.xml, WdfChildListEndScan, WdfChildListEndScan method, kmdf.wdfchildlistendscan, wdf.wdfchildlistendscan, wdfchildlist/WdfChildListEndScan
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListEndScan
 ---
 
-# WdfChildListEndScan function
+# WdfChildListEndScan function (wdfchildlist.h)
+
+
 
 
 ## -description

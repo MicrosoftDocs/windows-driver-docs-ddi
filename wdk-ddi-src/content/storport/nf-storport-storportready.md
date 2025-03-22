@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReady function"]
 ms.keywords: StorPortReady, StorPortReady routine [Storage Devices], storage.storportready, storport/StorPortReady, storprt_6938d8e3-03f8-4f40-a867-07b64d91a6a2.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortReady
 ---
 
-# StorPortReady function
+# StorPortReady function (storport.h)
+
+
 
 
 ## -description

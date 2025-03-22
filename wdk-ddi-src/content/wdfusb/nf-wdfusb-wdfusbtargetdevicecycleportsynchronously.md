@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceCyclePortSynchronously function"]
 ms.keywords: DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, kmdf.wdfusbtargetdevicecycleportsynchronously, wdf.wdfusbtargetdevicecycleportsynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetDeviceCyclePortSynchronously
 ---
 
-# WdfUsbTargetDeviceCyclePortSynchronously function
+# WdfUsbTargetDeviceCyclePortSynchronously function (wdfusb.h)
+
+
 
 
 ## -description

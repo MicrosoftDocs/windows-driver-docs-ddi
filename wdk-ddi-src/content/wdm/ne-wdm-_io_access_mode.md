@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_ACCESS_MODE enumeration"]
 ms.keywords: IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, SequentialAccess, _IO_ACCESS_MODE, kernel.io_access_mode, wdm/IO_ACCESS_MODE, wdm/RandomAccess, wdm/SequentialAccess
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddsfio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IO_ACCESS_MODE
 ---
 
-# _IO_ACCESS_MODE enumeration (wdm.h)
+# IO_ACCESS_MODE enumeration (wdm.h)
+
+
 
 
 ## -description

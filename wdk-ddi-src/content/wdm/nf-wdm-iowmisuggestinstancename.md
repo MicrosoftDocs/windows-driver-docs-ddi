@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMISuggestInstanceName function"]
 ms.keywords: IoWMISuggestInstanceName, IoWMISuggestInstanceName routine [Kernel-Mode Driver Architecture], k104_dc84cc9c-d6ca-40d2-93af-f54a149be7d1.xml, kernel.iowmisuggestinstancename, wdm/IoWMISuggestInstanceName
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoWMISuggestInstanceName
 ---
 
-# IoWMISuggestInstanceName function
+# IoWMISuggestInstanceName function (wdm.h)
+
+
 
 
 ## -description

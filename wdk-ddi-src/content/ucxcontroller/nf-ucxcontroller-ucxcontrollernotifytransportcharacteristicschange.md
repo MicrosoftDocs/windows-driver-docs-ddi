@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxControllerNotifyTransportCharacteristicsChange function"]
 ms.keywords: UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses], buses.ucxcontrollernotifytransportcharacteristicschange, ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange
 req.header: ucxcontroller.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - UcxControllerNotifyTransportCharacteristicsChange
 ---
 
-# UcxControllerNotifyTransportCharacteristicsChange function
+# UcxControllerNotifyTransportCharacteristicsChange function (ucxcontroller.h)
+
+
 
 
 ## -description

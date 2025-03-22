@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration"]
 ms.keywords: D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG, D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED, D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_TIER_1_SUPPORTED, d3d10umddi/D3DWDDM1_3DDI_TILED_RESOURCES_TIER_2_SUPPORTED, display.d3dwddm1_3ddi_tiled_resources_support_flag
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG
 ---
 
-# D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration
+# D3DWDDM1_3DDI_TILED_RESOURCES_SUPPORT_FLAG enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

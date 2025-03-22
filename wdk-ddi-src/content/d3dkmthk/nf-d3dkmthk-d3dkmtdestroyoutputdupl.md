@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTDestroyOutputDupl function"]
 ms.keywords: D3DKMTDestroyOutputDupl
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTDestroyOutputDupl function
+# D3DKMTDestroyOutputDupl function (d3dkmthk.h)
+
+
 
 
 ## -description

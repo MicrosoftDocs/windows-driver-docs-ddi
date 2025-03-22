@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxSetComponentResidency function"]
 ms.keywords: PoFxSetComponentResidency, PoFxSetComponentResidency routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentresidency, wdm/PoFxSetComponentResidency
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxSetComponentResidency
 ---
 
-# PoFxSetComponentResidency function
+# PoFxSetComponentResidency function (wdm.h)
+
+
 
 
 ## -description

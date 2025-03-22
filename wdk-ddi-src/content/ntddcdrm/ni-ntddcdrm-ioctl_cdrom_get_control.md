@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_GET_CONTROL IOCTL"]
 ms.keywords: IOCTL_CDROM_GET_CONTROL, IOCTL_CDROM_GET_CONTROL control, IOCTL_CDROM_GET_CONTROL control code [Storage Devices], k307_441b4747-9431-42c3-b550-39aaea1229f1.xml, ntddcdrm/IOCTL_CDROM_GET_CONTROL, storage.ioctl_cdrom_get_control
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_GET_CONTROL
 ---
 
-# IOCTL_CDROM_GET_CONTROL IOCTL
+# IOCTL_CDROM_GET_CONTROL IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceCreateIsochUrb function"]
 ms.keywords: WdfUsbTargetDeviceCreateIsochUrb, WdfUsbTargetDeviceCreateIsochUrb method, kmdf.wdfusbtargetdevicecreateisochurb, wdf.wdfusbtargetdevicecreateisochurb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetDeviceCreateIsochUrb
 ---
 
-# WdfUsbTargetDeviceCreateIsochUrb function
+# WdfUsbTargetDeviceCreateIsochUrb function (wdfusb.h)
+
+
 
 
 ## -description

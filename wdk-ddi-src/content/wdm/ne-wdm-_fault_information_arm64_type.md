@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["FAULT_INFORMATION_ARM64_TYPE enumeration"]
 ms.keywords: _FAULT_INFORMATION_ARM64_TYPE, FAULT_INFORMATION_ARM64_TYPE, *PFAULT_INFORMATION_ARM64_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -37,7 +38,9 @@ api_name:
  - FAULT_INFORMATION_ARM64_TYPE
 ---
 
-# _FAULT_INFORMATION_ARM64_TYPE enumeration
+# FAULT_INFORMATION_ARM64_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxGetActivity function"]
 ms.keywords: 1/SerCxGetActivity, SerCxGetActivity, SerCxGetActivity method [Serial Ports], serports.sercxgetactivity
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxGetActivity
 ---
 
-# SerCxGetActivity function
+# SerCxGetActivity function (sercx.h)
+
+
 
 
 ## -description

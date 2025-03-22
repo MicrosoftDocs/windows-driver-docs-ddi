@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxDereferenceAndDeleteRxContext_Real function"]
 ms.keywords: RxDereferenceAndDeleteRxContext_Real, RxDereferenceAndDeleteRxContext_Real function [Installable File System Drivers], ifsk.rxdereferenceanddeleterxcontext_real, rxcontx/RxDereferenceAndDeleteRxContext_Real, rxref_d3ea173c-343f-4fbf-b07b-be17816e1b2e.xml
 req.header: rxcontx.h
+req.construct-type: function
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxDereferenceAndDeleteRxContext_Real
 ---
 
-# RxDereferenceAndDeleteRxContext_Real function
+# RxDereferenceAndDeleteRxContext_Real function (rxcontx.h)
+
+
 
 
 ## -description

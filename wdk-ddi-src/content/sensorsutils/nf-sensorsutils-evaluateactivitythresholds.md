@@ -7,6 +7,7 @@ keywords: ["EvaluateActivityThresholds function"]
 tech.root: sensors
 ms.keywords: EvaluateActivityThresholds
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - EvaluateActivityThresholds
 ---
 
-# EvaluateActivityThresholds function
+# EvaluateActivityThresholds function (sensorsutils.h)
+
+
 
 
 ## -description

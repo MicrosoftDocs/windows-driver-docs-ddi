@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDeviceEventComplete function"]
 ms.keywords: UfxDeviceEventComplete, UfxDeviceEventComplete method [Buses], buses.ufxdeviceeventcomplete, ufxclient/UfxDeviceEventComplete
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceEventComplete
 ---
 
-# UfxDeviceEventComplete function
+# UfxDeviceEventComplete function (ufxclient.h)
+
+
 
 
 ## -description

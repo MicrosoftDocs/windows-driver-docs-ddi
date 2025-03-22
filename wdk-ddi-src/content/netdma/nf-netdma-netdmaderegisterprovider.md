@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaDeregisterProvider function"]
 ms.keywords: NetDmaDeregisterProvider, NetDmaDeregisterProvider function [Network Drivers Starting with Windows Vista], netdma/NetDmaDeregisterProvider, netdma_ref_0fac8a7e-7721-4854-8d0e-6926243ff2ea.xml, netvista.netdmaderegisterprovider
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaDeregisterProvider
 ---
 
-# NetDmaDeregisterProvider function
+# NetDmaDeregisterProvider function (netdma.h)
+
+
 
 
 ## -description

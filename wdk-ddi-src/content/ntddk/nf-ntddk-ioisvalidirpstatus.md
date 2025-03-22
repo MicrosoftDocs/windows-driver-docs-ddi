@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoIsValidIrpStatus function"]
 ms.keywords: IoIsValidIrpStatus, IoIsValidIrpStatus routine [Kernel-Mode Driver Architecture], kernel.ioisvalidirpstatus, ntddk/IoIsValidIrpStatus
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - IoIsValidIrpStatus
 ---
 
-# IoIsValidIrpStatus function
+# IoIsValidIrpStatus function (ntddk.h)
+
+
 
 
 ## -description

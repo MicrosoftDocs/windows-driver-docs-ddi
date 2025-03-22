@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetClose function"]
 ms.keywords: DFIOTargetRef_3ef7f2b7-6919-46d7-b48c-10dc135905d4.xml, WdfIoTargetClose, WdfIoTargetClose method, kmdf.wdfiotargetclose, wdf.wdfiotargetclose, wdfiotarget/WdfIoTargetClose
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetClose
 ---
 
-# WdfIoTargetClose function
+# WdfIoTargetClose function (wdfiotarget.h)
+
+
 
 
 ## -description

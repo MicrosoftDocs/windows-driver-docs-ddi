@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptDebugState enumeration"]
 ms.keywords: ScriptDebugState, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - ScriptDebugState
 ---
 
-# ScriptDebugState enumeration
+# ScriptDebugState enumeration (dbgmodel.h)
+
+
 
 
 ## -description

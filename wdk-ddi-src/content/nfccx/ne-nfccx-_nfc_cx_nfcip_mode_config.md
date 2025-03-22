@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_NFCIP_MODE_CONFIG enumeration"]
 ms.keywords: "*PNFC_CX_NFCIP_MODE_CONFIG, NFC_CX_NFCIP_DEFAULT, NFC_CX_NFCIP_MODE_CONFIG, NFC_CX_NFCIP_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_NFCIP_MODE_CONFIG,*PNFC_CX_NFCIP_MODE_CONFIG, NFC_CX_NFCIP_MODE_CONFIG,*PNFC_CX_NFCIP_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_NFCIP_NFC_A, NFC_CX_NFCIP_NFC_ACTIVE, NFC_CX_NFCIP_NFC_ACTIVE_A, NFC_CX_NFCIP_NFC_ACTIVE_F_212, NFC_CX_NFCIP_NFC_ACTIVE_F_424, NFC_CX_NFCIP_NFC_F_212, NFC_CX_NFCIP_NFC_F_424, _NFC_CX_NFCIP_MODE_CONFIG, nfccx/NFC_CX_NFCIP_DEFAULT, nfccx/NFC_CX_NFCIP_MODE_CONFIG, nfccx/NFC_CX_NFCIP_NFC_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_A, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_212, nfccx/NFC_CX_NFCIP_NFC_ACTIVE_F_424, nfccx/NFC_CX_NFCIP_NFC_F_212, nfccx/NFC_CX_NFCIP_NFC_F_424, nfpdrivers.nfc_cx_nfcip_mode_config"
 req.header: nfccx.h
+req.construct-type: enumeration
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_NFCIP_MODE_CONFIG
 ---
 
-# _NFC_CX_NFCIP_MODE_CONFIG enumeration
+# NFC_CX_NFCIP_MODE_CONFIG enumeration (nfccx.h)
+
+
 
 
 ## -description

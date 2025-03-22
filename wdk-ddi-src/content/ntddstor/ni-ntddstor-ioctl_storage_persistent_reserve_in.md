@@ -7,6 +7,7 @@ tech.root: storage
 ms.date: 04/03/2023
 keywords: ["IOCTL_STORAGE_PERSISTENT_RESERVE_IN IOCTL"]
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -39,7 +40,11 @@ api_name:
  - IOCTL_STORAGE_PERSISTENT_RESERVE_IN
 ---
 
-# IOCTL_STORAGE_PERSISTENT_RESERVE_IN IOCTL
+# IOCTL_STORAGE_PERSISTENT_RESERVE_IN IOCTL (ntddstor.h)
+
+
+
+
 
 ## -description
 

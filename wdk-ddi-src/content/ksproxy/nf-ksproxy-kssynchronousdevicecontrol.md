@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSynchronousDeviceControl function"]
 ms.keywords: KsSynchronousDeviceControl, KsSynchronousDeviceControl function [Streaming Media Devices], ksproxy/KsSynchronousDeviceControl, ksproxy_5bfad2d0-2ee7-476d-a67b-e7c877505280.xml, stream.kssynchronousdevicecontrol
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSynchronousDeviceControl
 ---
 
-# KsSynchronousDeviceControl function
+# KsSynchronousDeviceControl function (ksproxy.h)
+
+
 
 
 ## -description

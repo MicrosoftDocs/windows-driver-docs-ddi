@@ -4,6 +4,7 @@ title: D3DKMTShareObjects function (d3dkmthk.h)
 description: Learn more about the D3DKMTShareObjects function.
 ms.date: 10/02/2024
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTShareObjects
 ---
 
-# D3DKMTShareObjects function
+# D3DKMTShareObjects function (d3dkmthk.h)
+
+
 
 ## -description
 

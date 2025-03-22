@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoIsFileObjectIgnoringSharing function"]
 ms.keywords: IoIsFileObjectIgnoringSharing, IoIsFileObjectIgnoringSharing routine [Installable File System Drivers], ifsk.ioisfileobjectignoringsharing, ntddk/IoIsFileObjectIgnoringSharing
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - IoIsFileObjectIgnoringSharing
 ---
 
-# IoIsFileObjectIgnoringSharing function
+# IoIsFileObjectIgnoringSharing function (ntddk.h)
+
+
 
 
 ## -description

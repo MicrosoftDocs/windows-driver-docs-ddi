@@ -8,6 +8,7 @@ ms.date: 11/22/2022
 keywords: ["KeGetCurrentIrql function"]
 ms.keywords: KeGetCurrentIrql, KeGetCurrentIrql routine [Kernel-Mode Driver Architecture], k105_04c845e8-a239-4400-8a5f-15996754494a.xml, kernel.kegetcurrentirql, wdm/KeGetCurrentIrql
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeGetCurrentIrql
 ---
 
-# KeGetCurrentIrql function
+# KeGetCurrentIrql function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAllocateTimerObject function"]
 ms.keywords: NdisAllocateTimerObject, NdisAllocateTimerObject function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateTimerObject, ndis_timer_ref_38e524b5-9210-4c60-b9ea-66fc23593dad.xml, netvista.ndisallocatetimerobject
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisAllocateTimerObject
 ---
 
-# NdisAllocateTimerObject function
+# NdisAllocateTimerObject function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInitializeSidEx function"]
 ms.keywords: RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RtlInitializeSidEx
 ---
 
-# RtlInitializeSidEx function
+# RtlInitializeSidEx function (ntifs.h)
+
+
 
 
 ## -description

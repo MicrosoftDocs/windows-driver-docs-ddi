@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortWmiFireAdapterEvent macro"]
 ms.keywords: ScsiPortWmiFireAdapterEvent, ScsiPortWmiFireAdapterEvent macro [Storage Devices], scsiprt_39ab704d-53a4-46d4-9196-f545710692ae.xml, scsiwmi/ScsiPortWmiFireAdapterEvent, storage.scsiportwmifireadapterevent
 req.header: scsiwmi.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - ScsiPortWmiFireAdapterEvent
 ---
 
-# ScsiPortWmiFireAdapterEvent macro
+# ScsiPortWmiFireAdapterEvent macro (scsiwmi.h)
+
+
+
+
 
 
 ## -description

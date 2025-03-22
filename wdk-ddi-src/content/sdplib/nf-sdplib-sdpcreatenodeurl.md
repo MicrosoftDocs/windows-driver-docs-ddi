@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpCreateNodeUrl function"]
 ms.keywords: SdpCreateNodeUrl, SdpCreateNodeUrl function [Bluetooth Devices], bltooth.sdpcreatenodeurl, bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, sdplib/SdpCreateNodeUrl
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpCreateNodeUrl
 ---
 
-# SdpCreateNodeUrl function
+# SdpCreateNodeUrl function (sdplib.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoAllocateWorkItem function"]
 ms.keywords: IoAllocateWorkItem, IoAllocateWorkItem routine [Kernel-Mode Driver Architecture], k104_6cb480b8-6cf9-4c68-953e-8a1c8153087a.xml, kernel.ioallocateworkitem, wdm/IoAllocateWorkItem
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating system, and in Windows Me. This routine is not available in Windows 98.
@@ -40,7 +41,9 @@ api_name:
  - IoAllocateWorkItem
 ---
 
-# IoAllocateWorkItem function
+# IoAllocateWorkItem function (wdm.h)
+
+
 
 
 ## -description

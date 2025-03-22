@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestIsReserved function"]
 ms.keywords: DFRequestObjectRef_286c4c9a-cbec-48f1-9d78-516cbaab2d45.xml, WdfRequestIsReserved, WdfRequestIsReserved method, kmdf.wdfrequestisreserved, wdf.wdfrequestisreserved, wdfrequest/WdfRequestIsReserved
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestIsReserved
 ---
 
-# WdfRequestIsReserved function
+# WdfRequestIsReserved function (wdfrequest.h)
+
+
 
 
 ## -description

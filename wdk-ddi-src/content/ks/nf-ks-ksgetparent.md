@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetParent function"]
 ms.keywords: KsGetParent, KsGetParent function [Streaming Media Devices], avfunc_da3c1932-98b1-4f29-8b5a-4663077759e9.xml, ks/KsGetParent, stream.ksgetparent
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetParent
 ---
 
-# KsGetParent function
+# KsGetParent function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HFP_BYPASS_CODEC_ID_VERSION enumeration"]
 ms.keywords: "*PHFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION, HFP_BYPASS_CODEC_ID_VERSION enumeration [Audio Devices], REQ_HFP_BYPASS_CODEC_ID_V1, _HFP_BYPASS_CODEC_ID_VERSION, audio.hfp_bypass_codec_id_version, bthhfpddi/HFP_BYPASS_CODEC_ID_VERSION, bthhfpddi/REQ_HFP_BYPASS_CODEC_ID_V1"
 req.header: bthhfpddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - HFP_BYPASS_CODEC_ID_VERSION
 ---
 
-# _HFP_BYPASS_CODEC_ID_VERSION enumeration
+# HFP_BYPASS_CODEC_ID_VERSION enumeration (bthhfpddi.h)
+
+
 
 
 ## -description

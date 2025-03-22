@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInsertUnicodePrefix function"]
 ms.keywords: RtlInsertUnicodePrefix, RtlInsertUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinsertunicodeprefix, ntifs/RtlInsertUnicodePrefix, rtlref_5c8e1a42-5c73-4029-9c1f-5426e43e123c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlInsertUnicodePrefix
 ---
 
-# RtlInsertUnicodePrefix function
+# RtlInsertUnicodePrefix function (ntifs.h)
+
+
 
 
 ## -description

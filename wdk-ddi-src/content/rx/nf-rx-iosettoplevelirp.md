@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoSetTopLevelIrp macro"]
 ms.keywords: IoSetTopLevelIrp, IoSetTopLevelIrp routine [Installable File System Drivers], ifsk.iosettoplevelirp, ioref_1c046677-97df-4f46-956c-108a203f83f2.xml, ntifs/IoSetTopLevelIrp
 req.header: rx.h
+req.construct-type: function
 req.include-header: Rx.h, Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IoSetTopLevelIrp
 ---
 
-# IoSetTopLevelIrp macro
+# IoSetTopLevelIrp macro (rx.h)
+
+
+
+
 
 
 ## -description

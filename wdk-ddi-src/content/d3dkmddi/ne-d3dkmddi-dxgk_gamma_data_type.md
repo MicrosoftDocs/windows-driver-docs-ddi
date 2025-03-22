@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["DXGK_GAMMA_DATA_TYPE enumeration"]
 ms.keywords: DXGK_GAMMA_DATA_TYPE, DXGK_GAMMA_DATA_TYPE,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_GAMMA_DATA_TYPE enumeration
+# DXGK_GAMMA_DATA_TYPE enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

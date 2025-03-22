@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetRomImage function"]
 ms.keywords: VideoPortGetRomImage, VideoPortGetRomImage function [Display Devices], VideoPort_Functions_070e50af-a33d-4dc5-9bd1-9f60367f49b2.xml, display.videoportgetromimage, video/VideoPortGetRomImage
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetRomImage
 ---
 
-# VideoPortGetRomImage function
+# VideoPortGetRomImage function (video.h)
+
+
 
 
 ## -description

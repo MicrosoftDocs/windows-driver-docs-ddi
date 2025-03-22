@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionCreate function"]
 ms.keywords: DFDmaObjectRef_d7399240-2da3-418f-b21b-8a441e7923d4.xml, WdfDmaTransactionCreate, WdfDmaTransactionCreate method, kmdf.wdfdmatransactioncreate, wdf.wdfdmatransactioncreate, wdfdmatransaction/WdfDmaTransactionCreate
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionCreate
 ---
 
-# WdfDmaTransactionCreate function
+# WdfDmaTransactionCreate function (wdfdmatransaction.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["DrvDocumentPropertySheets function"]
 ms.keywords: DrvDocumentPropertySheets, DrvDocumentPropertySheets function [Print Devices], print.drvdocumentpropertysheets, print_interface-graphics_00cc0beb-e6f1-41dd-ae0b-fd59a6d14465.xml, winddiui/DrvDocumentPropertySheets
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: Winddiui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvDocumentPropertySheets
 ---
+
+# DrvDocumentPropertySheets function (winddiui.h)
 
 ## -description
 

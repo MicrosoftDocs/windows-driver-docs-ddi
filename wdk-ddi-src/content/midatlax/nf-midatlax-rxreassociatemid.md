@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxReassociateMid function"]
 ms.keywords: RxReassociateMid, RxReassociateMid function [Installable File System Drivers], ifsk.rxreassociatemid, midatlax/RxReassociateMid, rxref_0fbfcaf6-383a-48ed-81b1-eed7521df3e7.xml
 req.header: midatlax.h
+req.construct-type: function
 req.include-header: Midatlax.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxReassociateMid
 ---
 
-# RxReassociateMid function
+# RxReassociateMid function (midatlax.h)
+
+
 
 
 ## -description

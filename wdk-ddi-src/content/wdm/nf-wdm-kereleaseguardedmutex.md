@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReleaseGuardedMutex function"]
 ms.keywords: KeReleaseGuardedMutex, KeReleaseGuardedMutex routine [Kernel-Mode Driver Architecture], k105_a338f1ba-027d-4637-a50f-776d60bd7da0.xml, kernel.kereleaseguardedmutex, wdm/KeReleaseGuardedMutex
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - KeReleaseGuardedMutex
 ---
 
-# KeReleaseGuardedMutex function
+# KeReleaseGuardedMutex function (wdm.h)
+
+
 
 
 ## -description

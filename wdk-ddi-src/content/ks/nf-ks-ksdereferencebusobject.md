@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDereferenceBusObject function"]
 ms.keywords: KsDereferenceBusObject, KsDereferenceBusObject function [Streaming Media Devices], ks/KsDereferenceBusObject, ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml, stream.ksdereferencebusobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDereferenceBusObject
 ---
 
-# KsDereferenceBusObject function
+# KsDereferenceBusObject function (ks.h)
+
+
 
 
 ## -description

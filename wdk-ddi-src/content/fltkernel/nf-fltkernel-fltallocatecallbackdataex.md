@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAllocateCallbackDataEx function"]
 ms.keywords: FltAllocateCallbackDataEx, FltAllocateCallbackDataEx routine [Installable File System Drivers], FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml, fltkernel/FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - FltAllocateCallbackDataEx
 ---
 
-# FltAllocateCallbackDataEx function
+# FltAllocateCallbackDataEx function (fltkernel.h)
+
+
 
 ## -description
 

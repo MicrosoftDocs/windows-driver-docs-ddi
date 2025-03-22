@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PC_REBALANCE_TYPE enumeration"]
 ms.keywords: PC_REBALANCE_TYPE, PC_REBALANCE_TYPE enumeration [Audio Devices], PcRebalanceNotSupported, PcRebalanceRemoveSubdevices, audio.pc_rebalance_type, portcls/PC_REBALANCE_TYPE, portcls/PcRebalanceNotSupported, portcls/PcRebalanceRemoveSubdevices
 req.header: portcls.h
+req.construct-type: enumeration
 req.include-header: Portcls.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PC_REBALANCE_TYPE
 ---
 
-# PC_REBALANCE_TYPE enumeration
+# PC_REBALANCE_TYPE enumeration (portcls.h)
+
+
 
 
 ## -description

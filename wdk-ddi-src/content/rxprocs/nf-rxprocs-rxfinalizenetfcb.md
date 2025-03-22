@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxFinalizeNetFcb function"]
 ms.keywords: RxFinalizeNetFCB, RxFinalizeNetFcb, RxFinalizeNetFcb function [Installable File System Drivers], ifsk.rxfinalizenetfcb, rxprocs/RxFinalizeNetFcb, rxref_5aaa19aa-c75c-4978-b731-f3046e84217d.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxFinalizeNetFcb
 ---
 
-# RxFinalizeNetFcb function
+# RxFinalizeNetFcb function (rxprocs.h)
+
+
 
 
 ## -description

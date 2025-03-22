@@ -7,6 +7,7 @@ ms.date: 03/20/2023
 keywords: ["FltCheckLockForWriteAccess function"]
 ms.keywords: FltApiRef_a_to_d_c9957537-90d0-4830-bba1-1043f450c367.xml, FltCheckLockForWriteAccess, FltCheckLockForWriteAccess routine [Installable File System Drivers], fltkernel/FltCheckLockForWriteAccess, ifsk.fltchecklockforwriteaccess
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP SP2
@@ -40,7 +41,9 @@ api_name:
  - FltCheckLockForWriteAccess
 ---
 
-# FltCheckLockForWriteAccess function
+# FltCheckLockForWriteAccess function (fltkernel.h)
+
+
 
 ## -description
 

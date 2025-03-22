@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauGetDrvItemContext function"]
 ms.keywords: image.wiaugetdrvitemcontext, wiauFncs_3928edcb-8885-456a-a27d-62612fcb2d1a.xml, wiauGetDrvItemContext, wiauGetDrvItemContext function [Imaging Devices], wiautil/wiauGetDrvItemContext
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauGetDrvItemContext
 ---
 
-# wiauGetDrvItemContext function
+# wiauGetDrvItemContext function (wiautil.h)
+
+
 
 
 ## -description

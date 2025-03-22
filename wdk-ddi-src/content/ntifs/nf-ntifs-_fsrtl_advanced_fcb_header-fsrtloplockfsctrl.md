@@ -8,6 +8,7 @@ ms.date: 01/08/2021
 keywords: ["FsRtlOplockFsctrl function"]
 ms.keywords: FsRtlOplockFsctrl, FsRtlOplockFsctrl function [Installable File System Drivers], fsrtlref_74e6bade-f196-4117-9e94-c33776c4f9cd.xml, ifsk.fsrtloplockfsctrl, ntifs/FsRtlOplockFsctrl
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlOplockFsctrl function
+# FsRtlOplockFsctrl function (ntifs.h)
+
+
 
 ## -description
 

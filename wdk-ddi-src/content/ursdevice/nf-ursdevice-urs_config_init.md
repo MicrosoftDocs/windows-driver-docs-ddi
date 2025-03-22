@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URS_CONFIG_INIT function"]
 ms.keywords: URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], buses.urs_config_init, ursdevice/URS_CONFIG_INIT
 req.header: ursdevice.h
+req.construct-type: function
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - URS_CONFIG_INIT
 ---
 
-# URS_CONFIG_INIT function
+# URS_CONFIG_INIT function (ursdevice.h)
+
+
 
 
 ## -description

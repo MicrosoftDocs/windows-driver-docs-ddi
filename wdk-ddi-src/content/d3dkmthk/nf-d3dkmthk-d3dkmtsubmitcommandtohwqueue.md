@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSubmitCommandToHwQueue function"]
 ms.keywords: D3DKMTSubmitCommandToHwQueue, D3DKMTSubmitCommandToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitCommandToHwQueue, display.d3dkmtsubmitcommandtohwqueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSubmitCommandToHwQueue
 ---
 
-# D3DKMTSubmitCommandToHwQueue function
+# D3DKMTSubmitCommandToHwQueue function (d3dkmthk.h)
+
+
 
 ## -description
 

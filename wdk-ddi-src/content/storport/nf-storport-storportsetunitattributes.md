@@ -7,6 +7,7 @@ ms.date: 06/13/2023
 keywords: ["StorPortSetUnitAttributes function"]
 ms.keywords: StorPortSetUnitAttributes, StorPortSetUnitAttributes routine [Storage Devices], storage.storportsetunitattributes, storport/StorPortSetUnitAttributes
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - StorPortSetUnitAttributes
 ---
 
-# StorPortSetUnitAttributes function
+# StorPortSetUnitAttributes function (storport.h)
+
+
 
 ## -description
 

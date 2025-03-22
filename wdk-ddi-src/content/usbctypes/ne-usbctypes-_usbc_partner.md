@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_PARTNER enumeration"]
 ms.keywords: _USBC_PARTNER, USBC_PARTNER,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_PARTNER
 ---
 
-# _USBC_PARTNER enumeration
+# USBC_PARTNER enumeration (usbctypes.h)
+
+
 
 
 ## -description

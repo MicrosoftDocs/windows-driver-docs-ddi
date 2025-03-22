@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_FIRMWARE_ACTIVATE IOCTL"]
 ms.keywords: IOCTL_STORAGE_FIRMWARE_ACTIVATE, IOCTL_STORAGE_FIRMWARE_ACTIVATE control, IOCTL_STORAGE_FIRMWARE_ACTIVATE control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_ACTIVATE, storage.ioctl_storage_firmware_activate
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_FIRMWARE_ACTIVATE
 ---
 
-# IOCTL_STORAGE_FIRMWARE_ACTIVATE IOCTL
+# IOCTL_STORAGE_FIRMWARE_ACTIVATE IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

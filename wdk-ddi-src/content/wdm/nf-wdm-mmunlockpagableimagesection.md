@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmUnlockPagableImageSection function"]
 ms.keywords: MmUnlockPagableImageSection, MmUnlockPagableImageSection routine [Kernel-Mode Driver Architecture], k106_1420e152-a858-4256-87ed-8fa78ee76379.xml, kernel.mmunlockpagableimagesection, wdm/MmUnlockPagableImageSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmUnlockPagableImageSection
 ---
 
-# MmUnlockPagableImageSection function
+# MmUnlockPagableImageSection function (wdm.h)
+
+
 
 
 ## -description

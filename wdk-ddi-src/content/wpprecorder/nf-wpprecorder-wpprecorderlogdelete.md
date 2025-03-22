@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderLogDelete macro"]
 ms.keywords: WppRecorderLogDelete, devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], wpprecorder/imp_WppRecorderLogDelete
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - WppRecorderLogDelete
 ---
 
-# WppRecorderLogDelete macro
+# WppRecorderLogDelete macro (wpprecorder.h)
+
+
+
+
 
 
 ## -description

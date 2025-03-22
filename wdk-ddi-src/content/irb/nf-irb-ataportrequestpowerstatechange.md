@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRequestPowerStateChange function"]
 ms.keywords: AtaPortRequestPowerStateChange, AtaPortRequestPowerStateChange routine [Storage Devices], irb/AtaPortRequestPowerStateChange, storage.ataportrequestpowerstatechange
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortRequestPowerStateChange
 ---
 
-# AtaPortRequestPowerStateChange function
+# AtaPortRequestPowerStateChange function (irb.h)
+
+
 
 
 ## -description

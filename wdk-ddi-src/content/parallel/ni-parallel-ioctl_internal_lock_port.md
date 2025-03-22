@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_LOCK_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_LOCK_PORT, IOCTL_INTERNAL_LOCK_PORT control code [Parallel Ports], cisspd_2338a5ae-b61e-44c6-8ddd-3666f5fb24ee.xml, parallel/IOCTL_INTERNAL_LOCK_PORT, parports.ioctl_internal_lock_port
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_LOCK_PORT
 ---
 
-# IOCTL_INTERNAL_LOCK_PORT IOCTL
+# IOCTL_INTERNAL_LOCK_PORT IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

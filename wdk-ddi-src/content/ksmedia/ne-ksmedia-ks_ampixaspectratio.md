@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KS_AMPixAspectRatio enumeration"]
 ms.keywords: KS_AMPixAspectRatio, KS_AMPixAspectRatio enumeration [Streaming Media Devices], KS_PixAspectRatio_NTSC16x9, KS_PixAspectRatio_NTSC4x3, KS_PixAspectRatio_PAL16x9, KS_PixAspectRatio_PAL4x3, ksmedia/KS_AMPixAspectRatio, ksmedia/KS_PixAspectRatio_NTSC16x9, ksmedia/KS_PixAspectRatio_NTSC4x3, ksmedia/KS_PixAspectRatio_PAL16x9, ksmedia/KS_PixAspectRatio_PAL4x3, stream.ks_ampixaspectratio, vidcapstruct_d891dbda-a467-4e13-bad6-fef794146717.xml
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_AMPixAspectRatio
 ---
 
-# KS_AMPixAspectRatio enumeration
+# KS_AMPixAspectRatio enumeration (ksmedia.h)
+
+
 
 
 ## -description

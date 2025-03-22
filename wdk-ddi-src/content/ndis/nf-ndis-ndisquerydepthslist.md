@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisQueryDepthSList macro"]
 ms.keywords: NdisQueryDepthSList, NdisQueryDepthSList macro [Network Drivers Starting with Windows Vista], ndis/NdisQueryDepthSList, ndis_interlocked_ref_f44c64cf-029a-408e-84a0-a8c09bc91592.xml, netvista.ndisquerydepthslist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisQueryDepthSList (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisQueryDepthSList (NDIS   5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisQueryDepthSList
 ---
 
-# NdisQueryDepthSList macro
+# NdisQueryDepthSList macro (ndis.h)
+
+
+
+
 
 
 ## -description

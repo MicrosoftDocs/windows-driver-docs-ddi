@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["TIME_FUNCTION enumeration"]
 ms.keywords: TIME_FUNCTION, TIME_FUNCTION enumeration [Streaming Media Devices], TIME_GET_STREAM_TIME, TIME_READ_ONBOARD_CLOCK, TIME_SET_ONBOARD_CLOCK, stream.time_function, strmini/TIME_FUNCTION, strmini/TIME_GET_STREAM_TIME, strmini/TIME_READ_ONBOARD_CLOCK, strmini/TIME_SET_ONBOARD_CLOCK
 req.header: strmini.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - TIME_FUNCTION
 ---
 
-# TIME_FUNCTION enumeration
+# TIME_FUNCTION enumeration (strmini.h)
+
+
 
 
 ## -description

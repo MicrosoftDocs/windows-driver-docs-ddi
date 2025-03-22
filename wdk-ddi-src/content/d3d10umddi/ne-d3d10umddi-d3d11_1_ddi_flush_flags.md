@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1_DDI_FLUSH_FLAGS enumeration"]
 ms.keywords: D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, D3D11_1_DDI_FLUSH_FLAGS, D3D11_1_DDI_FLUSH_FLAGS enumeration [Display Devices], D3DWDDM1_3DDI_TRIM_MEMORY, d3d10umddi/D3D11_1DDI_FLUSH_UNLESS_NO_COMMANDS, d3d10umddi/D3D11_1_DDI_FLUSH_FLAGS, d3d10umddi/D3DWDDM1_3DDI_TRIM_MEMORY, display.d3d11_1_ddi_flush_flags
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1_DDI_FLUSH_FLAGS
 ---
 
-# D3D11_1_DDI_FLUSH_FLAGS enumeration
+# D3D11_1_DDI_FLUSH_FLAGS enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

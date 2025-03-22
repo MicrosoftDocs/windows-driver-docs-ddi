@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterExtensionEvent::OnDriverEvent"]
 ms.keywords: IPrinterExtensionEvent interface [Print Devices],OnDriverEvent method, IPrinterExtensionEvent.OnDriverEvent, IPrinterExtensionEvent::OnDriverEvent, OnDriverEvent, OnDriverEvent method [Print Devices], OnDriverEvent method [Print Devices],IPrinterExtensionEvent interface, print.iprinterextensionevent_ondriverevent, printerextension/IPrinterExtensionEvent::OnDriverEvent
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEvent::OnDriverEvent
 ---
+
+# IPrinterExtensionEvent::OnDriverEvent function (printerextension.h)
 
 ## -description
 

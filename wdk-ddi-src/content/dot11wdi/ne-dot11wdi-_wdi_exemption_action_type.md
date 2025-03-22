@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_EXEMPTION_ACTION_TYPE enumeration"]
 ms.keywords: WDI_EXEMPTION_ACTION_TYPE, WDI_EXEMPTION_ACTION_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_EXEMPT_ALWAYS, WDI_EXEMPT_NO_EXEMPTION, WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, _WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPTION_ACTION_TYPE, dot11wdi/WDI_EXEMPT_ALWAYS, dot11wdi/WDI_EXEMPT_NO_EXEMPTION, dot11wdi/WDI_EXEMPT_ON_KEY_MAPPING_KEY_UNAVAILABLE, netvista.wdi_exemption_action_type, netvista.wifi_exemption_action_type
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - WDI_EXEMPTION_ACTION_TYPE
 ---
 
-# _WDI_EXEMPTION_ACTION_TYPE enumeration
+# WDI_EXEMPTION_ACTION_TYPE enumeration (dot11wdi.h)
+
+
 
 
 ## -description

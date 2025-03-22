@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_HUB_CYCLE_PORT IOCTL"]
 ms.keywords: IOCTL_USB_HUB_CYCLE_PORT, IOCTL_USB_HUB_CYCLE_PORT control, IOCTL_USB_HUB_CYCLE_PORT control code [Buses], buses.ioctl_usb_hub_cycle_port, usbioctl/IOCTL_USB_HUB_CYCLE_PORT, usbirp_8e57d8e6-316b-475d-88cc-87e00b4ee6fb.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported on Windows 8 and later versions of Windows,  if the caller is running as Administrator. Supported on Microsoft Windows Server 2003, Windows XP-based versions of Windows. Not supported on Windows 7, Windows Vista, and Windows Server 2008.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_HUB_CYCLE_PORT
 ---
 
-# IOCTL_USB_HUB_CYCLE_PORT IOCTL
+# IOCTL_USB_HUB_CYCLE_PORT IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

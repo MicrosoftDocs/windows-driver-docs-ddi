@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxNameCacheActivateEntry function"]
 ms.keywords: RxNameCacheActivateEntry, RxNameCacheActivateEntry function [Installable File System Drivers], ifsk.rxnamecacheactivateentry, namcache/RxNameCacheActivateEntry, rxref_f8bd601f-32b7-4164-beb5-c020f3670fe7.xml
 req.header: namcache.h
+req.construct-type: function
 req.include-header: Namcache.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxNameCacheActivateEntry
 ---
 
-# RxNameCacheActivateEntry function
+# RxNameCacheActivateEntry function (namcache.h)
+
+
 
 
 ## -description

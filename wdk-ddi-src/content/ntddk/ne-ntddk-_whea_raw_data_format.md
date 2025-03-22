@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["WHEA_RAW_DATA_FORMAT enumeration"]
 ms.keywords: "*PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaRawDataFormatAMD64MCA, WheaRawDataFormatGeneric, WheaRawDataFormatIA32MCA, WheaRawDataFormatIPFSalRecord, WheaRawDataFormatIntel64MCA, WheaRawDataFormatMax, WheaRawDataFormatMemory, WheaRawDataFormatNMIPort, WheaRawDataFormatPCIExpress, WheaRawDataFormatPCIXBus, WheaRawDataFormatPCIXDevice, _WHEA_RAW_DATA_FORMAT, ntddk/PWHEA_RAW_DATA_FORMAT, ntddk/WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIA32MCA, ntddk/WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatIntel64MCA, ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatMemory, ntddk/WheaRawDataFormatNMIPort, ntddk/WheaRawDataFormatPCIExpress, ntddk/WheaRawDataFormatPCIXBus, ntddk/WheaRawDataFormatPCIXDevice, whea.whea_raw_data_format, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt:
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_RAW_DATA_FORMAT
  - WHEA_RAW_DATA_FORMAT
 ---
+
+# WHEA_RAW_DATA_FORMAT enumeration (ntddk.h)
 
 ## -description
 

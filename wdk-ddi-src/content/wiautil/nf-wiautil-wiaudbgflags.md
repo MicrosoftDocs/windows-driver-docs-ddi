@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgFlags function"]
 ms.keywords: image.wiaudbgflags, wiauDbgFlags, wiauDbgFlags function [Imaging Devices], wiauFncs_db71e773-84d8-40b9-9688-9fa33aad9182.xml, wiautil/wiauDbgFlags
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgFlags
 ---
 
-# wiauDbgFlags function
+# wiauDbgFlags function (wiautil.h)
+
+
 
 
 ## -description

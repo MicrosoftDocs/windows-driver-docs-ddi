@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmMapLockedPages function"]
 ms.keywords: MmMapLockedPages, MmMapLockedPages routine [Kernel-Mode Driver Architecture], k106_009bdc6a-6bbc-4a7f-927e-ea5c6de8fa95.xml, kernel.mmmaplockedpages, wdm/MmMapLockedPages
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete for Windows 2000 and later versions of Windows, and for Windows Me. This routine is supported only for WDM drivers that must run on Windows 98. Otherwise, use MmMapLockedPagesSpecifyCache.
@@ -40,7 +41,9 @@ api_name:
  - MmMapLockedPages
 ---
 
-# MmMapLockedPages function
+# MmMapLockedPages function (wdm.h)
+
+
 
 
 ## -description

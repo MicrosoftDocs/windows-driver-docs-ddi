@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["KeTryToAcquireQueuedSpinLock function"]
 ms.keywords: KeTryToAcquireQueuedSpinLock, KeTryToAcquireQueuedSpinLock function [Installable File System Drivers], ifsk.ketrytoacquirequeuedspinlock, keref_754b75bd-31a8-4447-8ebe-3d24855150bf.xml, ntifs/KeTryToAcquireQueuedSpinLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeTryToAcquireQueuedSpinLock
 ---
 
-# KeTryToAcquireQueuedSpinLock function
+# KeTryToAcquireQueuedSpinLock function (ntifs.h)
+
+
 
 ## -description
 

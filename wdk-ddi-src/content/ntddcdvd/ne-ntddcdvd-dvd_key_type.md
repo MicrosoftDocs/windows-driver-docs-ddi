@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_KEY_TYPE enumeration"]
 ms.keywords: DVD_KEY_TYPE, DVD_KEY_TYPE enumeration [Storage Devices], DvdAsf, DvdBusKey1, DvdBusKey2, DvdChallengeKey, DvdDiskKey, DvdGetRpcKey, DvdInvalidateAGID, DvdSetRpcKey, DvdTitleKey, ntddcdvd/DVD_KEY_TYPE, ntddcdvd/DvdAsf, ntddcdvd/DvdBusKey1, ntddcdvd/DvdBusKey2, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdDiskKey, ntddcdvd/DvdGetRpcKey, ntddcdvd/DvdInvalidateAGID, ntddcdvd/DvdSetRpcKey, ntddcdvd/DvdTitleKey, storage.dvd_key_type, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml
 req.header: ntddcdvd.h
+req.construct-type: enumeration
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DVD_KEY_TYPE
 ---
 
-# DVD_KEY_TYPE enumeration
+# DVD_KEY_TYPE enumeration (ntddcdvd.h)
+
+
 
 
 ## -description

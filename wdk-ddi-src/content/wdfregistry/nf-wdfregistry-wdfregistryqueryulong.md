@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryULong function"]
 ms.keywords: DFRegKeyObjectRef_537593c8-1f9c-4392-9228-6a0e5d89a964.xml, WdfRegistryQueryULong, WdfRegistryQueryULong method, kmdf.wdfregistryqueryulong, wdf.wdfregistryqueryulong, wdfregistry/WdfRegistryQueryULong
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryQueryULong
 ---
 
-# WdfRegistryQueryULong function
+# WdfRegistryQueryULong function (wdfregistry.h)
+
+
 
 
 ## -description

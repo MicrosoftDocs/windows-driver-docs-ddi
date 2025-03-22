@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_BLT_STATE enumeration"]
 ms.keywords: DXVA2_Structs_2d8a894a-25be-49c1-bebe-82c7403007db.xml, DXVAHDDDI_BLT_STATE, DXVAHDDDI_BLT_STATE enumeration [Display Devices], DXVAHDDDI_BLT_STATE_ALPHA_FILL, DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR, DXVAHDDDI_BLT_STATE_CONSTRICTION, DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE, DXVAHDDDI_BLT_STATE_PRIVATE, DXVAHDDDI_BLT_STATE_TARGET_RECT, _DXVAHDDDI_BLT_STATE, d3dumddi/DXVAHDDDI_BLT_STATE, d3dumddi/DXVAHDDDI_BLT_STATE_ALPHA_FILL, d3dumddi/DXVAHDDDI_BLT_STATE_BACKGROUND_COLOR, d3dumddi/DXVAHDDDI_BLT_STATE_CONSTRICTION, d3dumddi/DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE, d3dumddi/DXVAHDDDI_BLT_STATE_PRIVATE, d3dumddi/DXVAHDDDI_BLT_STATE_TARGET_RECT, display.dxvahdddi_blt_state
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_BLT_STATE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_BLT_STATE
 ---
 
-# _DXVAHDDDI_BLT_STATE enumeration
+# DXVAHDDDI_BLT_STATE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

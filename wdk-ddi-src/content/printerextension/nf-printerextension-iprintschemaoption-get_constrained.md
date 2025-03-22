@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaOption::get_Constrained"]
 ms.keywords: Constrained property [Print Devices], Constrained property [Print Devices],IPrintSchemaOption interface, IPrintSchemaOption interface [Print Devices],Constrained property, IPrintSchemaOption.Constrained, IPrintSchemaOption.get_Constrained, IPrintSchemaOption::Constrained, IPrintSchemaOption::get_Constrained, get_Constrained, print.iprintschemaoption_constrained, printerextension/IPrintSchemaOption::Constrained, printerextension/IPrintSchemaOption::get_Constrained
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaOption::get_Constrained
 ---
+
+# IPrintSchemaOption::get_Constrained function (printerextension.h)
 
 ## -description
 

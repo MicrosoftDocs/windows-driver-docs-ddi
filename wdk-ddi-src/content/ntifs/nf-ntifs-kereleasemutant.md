@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["KeReleaseMutant function"]
 ms.keywords: KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeReleaseMutant
 ---
 
-# KeReleaseMutant function
+# KeReleaseMutant function (ntifs.h)
+
+
 
 ## -description
 

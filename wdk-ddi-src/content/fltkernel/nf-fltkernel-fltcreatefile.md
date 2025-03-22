@@ -8,6 +8,7 @@ ms.date: 02/13/2020
 keywords: ["FltCreateFile function"]
 ms.keywords: FltApiRef_a_to_d_2059a625-6d9e-4083-9c2e-d92e76c7539a.xml, FltCreateFile, FltCreateFile function [Installable File System Drivers], fltkernel/FltCreateFile, ifsk.fltcreatefile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1
@@ -41,7 +42,9 @@ api_name:
  - FltCreateFile
 ---
 
-# FltCreateFile function
+# FltCreateFile function (fltkernel.h)
+
+
 
 ## -description
 

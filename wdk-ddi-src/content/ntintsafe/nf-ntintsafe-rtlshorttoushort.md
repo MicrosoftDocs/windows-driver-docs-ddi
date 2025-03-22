@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlShortToUShort function"]
 ms.keywords: RtlShortToUShort, RtlShortToUShort function [Kernel-Mode Driver Architecture], kernel.rtlshorttoushort, ntintsafe/RtlShortToUShort
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlShortToUShort
 ---
 
-# RtlShortToUShort function
+# RtlShortToUShort function (ntintsafe.h)
+
+
 
 
 ## -description

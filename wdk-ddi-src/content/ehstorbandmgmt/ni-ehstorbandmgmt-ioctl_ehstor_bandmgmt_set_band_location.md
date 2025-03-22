@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control, IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION, storage.ioctl_ehstor_bandmgmt_set_band_location
 req.header: ehstorbandmgmt.h
+req.construct-type: ioctl
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION
 ---
 
-# IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION IOCTL
+# IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION IOCTL (ehstorbandmgmt.h)
+
+
+
+
 
 
 ## -description

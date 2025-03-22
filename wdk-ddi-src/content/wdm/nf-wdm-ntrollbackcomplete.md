@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtRollbackComplete function"]
 ms.keywords: NtRollbackComplete, ZwRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], kernel.zwrollbackcomplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, wdm/NtRollbackComplete, wdm/ZwRollbackComplete
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - NtRollbackComplete
 ---
 
-# NtRollbackComplete function
+# NtRollbackComplete function (wdm.h)
+
+
 
 
 ## -description

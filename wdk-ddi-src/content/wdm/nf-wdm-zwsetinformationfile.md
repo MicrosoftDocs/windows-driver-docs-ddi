@@ -8,6 +8,7 @@ author: lorihollasch
 keywords: ["ZwSetInformationFile function"]
 ms.keywords: NtSetInformationFile, ZwSetInformationFile, ZwSetInformationFile routine [Kernel-Mode Driver Architecture], k111_91ac021a-37b3-4d2d-9369-c80659e0dcd7.xml, kernel.zwsetinformationfile, wdm/NtSetInformationFile, wdm/ZwSetInformationFile
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ZwSetInformationFile
 ---
+
+# ZwSetInformationFile function (wdm.h)
 
 ## -description
 

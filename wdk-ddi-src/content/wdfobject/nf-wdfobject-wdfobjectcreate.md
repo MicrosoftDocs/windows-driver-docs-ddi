@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfObjectCreate function"]
 ms.keywords: DFGenObjectRef_6d84af32-c9c6-4327-be42-cda437dc80a1.xml, WdfObjectCreate, WdfObjectCreate method, kmdf.wdfobjectcreate, wdf.wdfobjectcreate, wdfobject/WdfObjectCreate
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfObjectCreate
 ---
 
-# WdfObjectCreate function
+# WdfObjectCreate function (wdfobject.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration"]
 ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_PROPERTY_ID, stream.ksproperty_cameracontrol_region_of_interest
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST
 ---
 
-# KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration
+# KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST enumeration (ksmedia.h)
+
+
 
 
 ## -description

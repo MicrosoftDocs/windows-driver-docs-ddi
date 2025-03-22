@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQueryInterruptTimePrecise function"]
 ms.keywords: KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryInterruptTimePrecise
 ---
 
-# KeQueryInterruptTimePrecise function
+# KeQueryInterruptTimePrecise function (wdm.h)
+
+
 
 
 ## -description

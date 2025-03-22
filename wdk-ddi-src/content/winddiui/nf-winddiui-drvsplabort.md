@@ -8,6 +8,7 @@ ms.date: 11/18/2019
 keywords: ["DrvSplAbort function"]
 ms.keywords: DrvSplAbort, DrvSplAbort function [Print Devices], print.drvsplabort, print_interface-graphics_78bb32ad-7688-4ea9-9369-93db9d2eea96.xml, winddiui/DrvSplAbort
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DrvSplAbort
 ---
 
-# DrvSplAbort function
+# DrvSplAbort function (winddiui.h)
+
+
 
 
 ## -description

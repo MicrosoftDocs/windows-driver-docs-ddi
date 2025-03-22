@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDIQUERYTYPE enumeration"]
 ms.keywords: _D3DDDIQUERYTYPE, D3DDDIQUERYTYPE,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDIQUERYTYPE enumeration
+# D3DDDIQUERYTYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

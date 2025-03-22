@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_DEVICE_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_DEVICE_INFO, IOCTL_BTH_GET_DEVICE_INFO control, IOCTL_BTH_GET_DEVICE_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_device_info, bth_ioctls_427504e3-7414-4d2c-b835-b612ed73ce01.xml, bthioctl/IOCTL_BTH_GET_DEVICE_INFO
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_GET_DEVICE_INFO
 ---
 
-# IOCTL_BTH_GET_DEVICE_INFO IOCTL
+# IOCTL_BTH_GET_DEVICE_INFO IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

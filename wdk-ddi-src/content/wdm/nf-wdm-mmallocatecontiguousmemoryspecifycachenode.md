@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["MmAllocateContiguousMemorySpecifyCacheNode function"]
 ms.keywords: MmAllocateContiguousMemorySpecifyCacheNode, MmAllocateContiguousMemorySpecifyCacheNode routine [Kernel-Mode Driver Architecture], k106_0ccc75e1-5d61-4f89-b576-1c709b50609f.xml, kernel.mmallocatecontiguousmemoryspecifycachenode, wdm/MmAllocateContiguousMemorySpecifyCacheNode
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocateContiguousMemorySpecifyCacheNode
 ---
+
+# MmAllocateContiguousMemorySpecifyCacheNode function (wdm.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFreeCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, FltFreeCallbackData, FltFreeCallbackData routine [Installable File System Drivers], fltkernel/FltFreeCallbackData, ifsk.fltfreecallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltFreeCallbackData
 ---
 
-# FltFreeCallbackData function
+# FltFreeCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

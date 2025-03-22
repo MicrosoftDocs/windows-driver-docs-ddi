@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortUnmapMemory function"]
 ms.keywords: VideoPortUnmapMemory, VideoPortUnmapMemory function [Display Devices], VideoPort_Functions_394a66fa-47cd-4e0e-8467-3c3562d27822.xml, display.videoportunmapmemory, video/VideoPortUnmapMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortUnmapMemory
 ---
 
-# VideoPortUnmapMemory function
+# VideoPortUnmapMemory function (video.h)
+
+
 
 
 ## -description

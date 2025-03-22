@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueGuid function"]
 ms.keywords: image.wiasgetchangedvalueguid, wiamdef/wiasGetChangedValueGuid, wiasFncs_b8b576d4-1470-4105-8725-928f70a1e3cc.xml, wiasGetChangedValueGuid, wiasGetChangedValueGuid function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetChangedValueGuid
 ---
 
-# wiasGetChangedValueGuid function
+# wiasGetChangedValueGuid function (wiamdef.h)
+
+
 
 
 ## -description

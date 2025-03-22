@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateInitialize function"]
 ms.keywords: KsGateInitialize, KsGateInitialize function [Streaming Media Devices], avfunc_1ec7041b-e335-4920-ad40-06290d1579c2.xml, ks/KsGateInitialize, stream.ksgateinitialize
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateInitialize
 ---
 
-# KsGateInitialize function
+# KsGateInitialize function (ks.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/26/2019
 keywords: ["NetExtensionGetFragmentLogicalAddress function"]
 ms.keywords: NetExtensionGetFragmentLogicalAddress
 req.header: logicaladdress.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetExtensionGetFragmentLogicalAddress
 ---
 
-# NetExtensionGetFragmentLogicalAddress function
+# NetExtensionGetFragmentLogicalAddress function (logicaladdress.h)
+
+
 
 
 ## -description

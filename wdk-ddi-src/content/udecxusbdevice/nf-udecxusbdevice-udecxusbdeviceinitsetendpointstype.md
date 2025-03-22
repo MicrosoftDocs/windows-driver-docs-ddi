@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceInitSetEndpointsType function"]
 ms.keywords: UdecxUsbDeviceInitSetEndpointsType, UdecxUsbDeviceInitSetEndpointsType function [Buses], buses.udecxusbdeviceinitsetendpointstype, udecxusbdevice/UdecxUsbDeviceInitSetEndpointsType
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceInitSetEndpointsType
 ---
 
-# UdecxUsbDeviceInitSetEndpointsType function
+# UdecxUsbDeviceInitSetEndpointsType function (udecxusbdevice.h)
+
+
 
 
 ## -description

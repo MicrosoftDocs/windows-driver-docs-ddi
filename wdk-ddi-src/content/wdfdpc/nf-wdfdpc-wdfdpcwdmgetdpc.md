@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDpcWdmGetDpc function"]
 ms.keywords: DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml, WdfDpcWdmGetDpc, WdfDpcWdmGetDpc method, kmdf.wdfdpcwdmgetdpc, wdf.wdfdpcwdmgetdpc, wdfdpc/WdfDpcWdmGetDpc
 req.header: wdfdpc.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDpcWdmGetDpc
 ---
 
-# WdfDpcWdmGetDpc function
+# WdfDpcWdmGetDpc function (wdfdpc.h)
+
+
 
 
 ## -description

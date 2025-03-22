@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaCapabilities::GetOptions"]
 ms.keywords: GetOptions, GetOptions method [Print Devices], GetOptions method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetOptions method, IPrintSchemaCapabilities.GetOptions, IPrintSchemaCapabilities::GetOptions, print.iprintschemacapabilities_getoptions, printerextension/IPrintSchemaCapabilities::GetOptions
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaCapabilities::GetOptions
 ---
+
+# IPrintSchemaCapabilities::GetOptions function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoEnumerateRegisteredFiltersList function"]
 ms.keywords: IoEnumerateRegisteredFiltersList, IoEnumerateRegisteredFiltersList routine [Installable File System Drivers], ifsk.ioenumerateregisteredfilterslist, ioref_b1530889-7d8a-4fd7-a7d3-954b1c7012ca.xml, ntifs/IoEnumerateRegisteredFiltersList
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Update Rollup for Windows 2000 SP4; Windows Server 2003 SP1
@@ -40,7 +41,9 @@ api_name:
  - IoEnumerateRegisteredFiltersList
 ---
 
-# IoEnumerateRegisteredFiltersList function
+# IoEnumerateRegisteredFiltersList function (ntifs.h)
+
+
 
 ## -description
 

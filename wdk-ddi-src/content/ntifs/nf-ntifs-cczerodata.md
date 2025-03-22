@@ -8,6 +8,7 @@ ms.date: 03/18/2021
 keywords: ["CcZeroData function"]
 ms.keywords: CcZeroData, CcZeroData routine [Installable File System Drivers], ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, ifsk.cczerodata, ntifs/CcZeroData
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000. See Remarks for changes for Vista and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - CcZeroData
 ---
 
-# CcZeroData function
+# CcZeroData function (ntifs.h)
+
+
 
 ## -description
 

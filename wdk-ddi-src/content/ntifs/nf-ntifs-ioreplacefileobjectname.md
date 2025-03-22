@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["IoReplaceFileObjectName function"]
 ms.keywords: IoReplaceFileObjectName, ntifs/IoReplaceFileObjectName
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -39,7 +40,9 @@ api_name:
  - IoReplaceFileObjectName
 ---
 
-# IoReplaceFileObjectName function
+# IoReplaceFileObjectName function (ntifs.h)
+
+
 
 ## -description
 

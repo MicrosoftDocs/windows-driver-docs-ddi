@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMSendPage function"]
 ms.keywords: OEMSendPage, OEMSendPage function [Print Devices], print.oemsendpage, print_unidrv-pscript_rendering_6a896dea-57aa-4fa0-810f-dadb79b13079.xml, printoem/OEMSendPage
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMSendPage
 ---
+
+# OEMSendPage function (printoem.h)
 
 ## -description
 

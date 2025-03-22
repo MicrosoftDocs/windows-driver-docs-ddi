@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerExchangeMedium function"]
 ms.keywords: ChangerExchangeMedium, ChangerExchangeMedium function [Storage Devices], chgrmini_1a4e68fa-4ef3-4f1e-ab2c-ca26b138fc14.xml, mcd/ChangerExchangeMedium, storage.changerexchangemedium
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerExchangeMedium
 ---
 
-# ChangerExchangeMedium function
+# ChangerExchangeMedium function (mcd.h)
+
+
 
 
 ## -description

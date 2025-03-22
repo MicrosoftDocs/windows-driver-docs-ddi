@@ -7,6 +7,7 @@ ms.date: 03/01/2022
 keywords: ["D3DKMTSetDisplayMode function"]
 ms.keywords: D3DKMTSetDisplayMode, D3DKMTSetDisplayMode function [Display Devices], OpenGL_Functions_dc92e1c9-5873-42b6-a8f8-f6827091dac4.xml, d3dkmthk/D3DKMTSetDisplayMode, display.d3dkmtsetdisplaymode
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSetDisplayMode
 ---
 
-# D3DKMTSetDisplayMode function
+# D3DKMTSetDisplayMode function (d3dkmthk.h)
+
+
 
 ## -description
 

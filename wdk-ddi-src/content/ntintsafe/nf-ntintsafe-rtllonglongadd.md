@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlLongLongAdd function"]
 ms.keywords: RtlLongLongAdd, RtlLongLongAdd function [Kernel-Mode Driver Architecture], kernel.rtllonglongadd, ntintsafe/RtlLongLongAdd
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlLongLongAdd
 ---
 
-# RtlLongLongAdd function
+# RtlLongLongAdd function (ntintsafe.h)
+
+
 
 
 ## -description

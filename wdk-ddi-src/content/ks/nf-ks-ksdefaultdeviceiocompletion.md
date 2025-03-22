@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDefaultDeviceIoCompletion function"]
 ms.keywords: KsDefaultDeviceIoCompletion, KsDefaultDeviceIoCompletion function [Streaming Media Devices], ks/KsDefaultDeviceIoCompletion, ksfunc_ae9df7be-800d-4f4a-a8d9-f39e09653e98.xml, stream.ksdefaultdeviceiocompletion
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDefaultDeviceIoCompletion
 ---
 
-# KsDefaultDeviceIoCompletion function
+# KsDefaultDeviceIoCompletion function (ks.h)
+
+
 
 
 ## -description

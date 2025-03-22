@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterGetChildPinCount function"]
 ms.keywords: KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, ks/KsFilterGetChildPinCount, stream.ksfiltergetchildpincount
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterGetChildPinCount
 ---
 
-# KsFilterGetChildPinCount function
+# KsFilterGetChildPinCount function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_UPDATE_FIRMWARE, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control code [Biometric Devices], biometric.ioctl_biometric_update_firmware, biometric_ref_b94fa4b7-e1db-4cac-8c06-ff490ca39fd5.xml, winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 req.header: winbio_ioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 ---
 
-# IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL
+# IOCTL_BIOMETRIC_UPDATE_FIRMWARE IOCTL (winbio_ioctl.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 01/26/2022
 keywords: ["WdfUsbInterfaceGetEndpointInformation function"]
 ms.keywords: DFUsbRef_fff1d755-32af-48d1-b9d6-faa8b118fa8d.xml, WdfUsbInterfaceGetEndpointInformation, WdfUsbInterfaceGetEndpointInformation method, kmdf.wdfusbinterfacegetendpointinformation, wdf.wdfusbinterfacegetendpointinformation, wdfusb/WdfUsbInterfaceGetEndpointInformation
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetEndpointInformation
 ---
 
-# WdfUsbInterfaceGetEndpointInformation function
+# WdfUsbInterfaceGetEndpointInformation function (wdfusb.h)
+
+
 
 
 ## -description

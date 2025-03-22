@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAllocateSharedMemory function"]
 ms.keywords: NdisAllocateSharedMemory, NdisAllocateSharedMemory function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSharedMemory, ndis_shared_memory_ref_252ce78e-6920-4825-9537-c1ddd2f9f900.xml, netvista.ndisallocatesharedmemory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisAllocateSharedMemory
 ---
 
-# NdisAllocateSharedMemory function
+# NdisAllocateSharedMemory function (ndis.h)
+
+
 
 
 ## -description

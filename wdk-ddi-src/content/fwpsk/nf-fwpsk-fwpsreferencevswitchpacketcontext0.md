@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsReferencevSwitchPacketContext0 function"]
 ms.keywords: FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FwpsReferencevSwitchPacketContext0
 ---
 
-# FwpsReferencevSwitchPacketContext0 function
+# FwpsReferencevSwitchPacketContext0 function (fwpsk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisReadNetworkAddress function"]
 ms.keywords: NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis/NdisReadNetworkAddress, ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, netvista.ndisreadnetworkaddress
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and later drivers in Windows Vista and later. Supported for NDIS 5.1 drivers (see    NdisReadNetworkAddress (NDIS   5.1)) in Windows XP and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisReadNetworkAddress
 ---
 
-# NdisReadNetworkAddress function
+# NdisReadNetworkAddress function (ndis.h)
+
+
 
 
 ## -description

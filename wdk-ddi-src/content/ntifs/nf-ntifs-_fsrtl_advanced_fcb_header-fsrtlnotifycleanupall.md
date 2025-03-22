@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNotifyCleanupAll function"]
 ms.keywords: FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers], fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ifsk.fsrtlnotifycleanupall, ntifs/FsRtlNotifyCleanupAll
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlNotifyCleanupAll function
+# FsRtlNotifyCleanupAll function (ntifs.h)
+
+
 
 
 ## -description

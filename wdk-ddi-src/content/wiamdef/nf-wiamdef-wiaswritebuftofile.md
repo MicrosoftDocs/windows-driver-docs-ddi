@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasWriteBufToFile function"]
 ms.keywords: image.wiaswritebuftofile, wiamdef/wiasWriteBufToFile, wiasFncs_9d14f2bd-ceba-491a-808c-9af7cdcc8b6b.xml, wiasWriteBufToFile, wiasWriteBufToFile function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasWriteBufToFile
 ---
 
-# wiasWriteBufToFile function
+# wiasWriteBufToFile function (wiamdef.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_CRYPTO_KEY_SIZE enumeration"]
 ms.keywords: "*PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], STORAGE_CRYPTO_KEY_SIZE,*PSTORAGE_CRYPTO_KEY_SIZE, STORAGE_CRYPTO_KEY_SIZE,*PSTORAGE_CRYPTO_KEY_SIZE enumeration [Storage Devices], StorageCryptoKeySize128Bits, StorageCryptoKeySize192Bits, StorageCryptoKeySize256Bits, StorageCryptoKeySize512Bits, StorageCryptoKeySizeUnknown, _STORAGE_CRYPTO_KEY_SIZE, ntddstor/STORAGE_CRYPTO_KEY_SIZE, ntddstor/StorageCryptoKeySize128Bits, ntddstor/StorageCryptoKeySize192Bits, ntddstor/StorageCryptoKeySize256Bits, ntddstor/StorageCryptoKeySize512Bits, ntddstor/StorageCryptoKeySizeUnknown, storage.storage_crypto_key_size"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_CRYPTO_KEY_SIZE
 ---
 
-# _STORAGE_CRYPTO_KEY_SIZE enumeration
+# STORAGE_CRYPTO_KEY_SIZE enumeration (ntddstor.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SCO_DISCONNECT_REASON enumeration"]
 ms.keywords: "*PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON, PSCO_DISCONNECT_REASON enumeration pointer [Bluetooth Devices], SCO_DISCONNECT_REASON, SCO_DISCONNECT_REASON enumeration [Bluetooth Devices], ScoDisconnectRequest, ScoHardwareRemoval, ScoHciDisconnect, ScoRadioPoweredDown, _SCO_DISCONNECT_REASON, bltooth.sco_disconnect_reason, bth_enums_ea951efc-1250-4414-9592-2bffe239dc95.xml, bthddi/PSCO_DISCONNECT_REASON, bthddi/SCO_DISCONNECT_REASON, bthddi/ScoDisconnectRequest, bthddi/ScoHardwareRemoval, bthddi/ScoHciDisconnect, bthddi/ScoRadioPoweredDown"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - SCO_DISCONNECT_REASON
 ---
 
-# _SCO_DISCONNECT_REASON enumeration
+# SCO_DISCONNECT_REASON enumeration (bthddi.h)
+
+
 
 
 ## -description

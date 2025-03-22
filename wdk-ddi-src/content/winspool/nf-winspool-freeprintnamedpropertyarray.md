@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["FreePrintNamedPropertyArray function"]
 ms.keywords: FreePrintNamedPropertyArray, FreePrintNamedPropertyArray function [Print Devices], print.freeprintnamedpropertyarray, winspool/FreePrintNamedPropertyArray
 req.header: winspool.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FreePrintNamedPropertyArray
 ---
 
-# FreePrintNamedPropertyArray function
+# FreePrintNamedPropertyArray function (winspool.h)
+
+
 
 
 ## -description

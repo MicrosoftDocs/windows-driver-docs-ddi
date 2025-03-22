@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreateKeyedMutex function"]
 ms.keywords: D3DKMTCreateKeyedMutex, D3DKMTCreateKeyedMutex callback function [Display Devices], OpenGL_Functions_a8475da1-40bf-4669-9da8-f6bb09c3f905.xml, PFND3DKMT_CREATEKEYEDMUTEX, PFND3DKMT_CREATEKEYEDMUTEX callback, d3dkmthk/D3DKMTCreateKeyedMutex, display.d3dkmtcreatekeyedmutex
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: D3DKMTCreateKeyedMutex is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCreateKeyedMutex
 ---
 
-# D3DKMTCreateKeyedMutex function
+# D3DKMTCreateKeyedMutex function (d3dkmthk.h)
+
+
 
 
 ## -description

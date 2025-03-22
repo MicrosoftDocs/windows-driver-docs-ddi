@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfDeleteIfStackEntry function"]
 ms.keywords: NdisIfDeleteIfStackEntry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, netvista.ndisifdeleteifstackentry
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfDeleteIfStackEntry
 ---
 
-# NdisIfDeleteIfStackEntry function
+# NdisIfDeleteIfStackEntry function (ndis.h)
+
+
 
 
 ## -description

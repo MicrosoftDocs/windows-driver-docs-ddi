@@ -8,6 +8,7 @@ ms.date: 03/28/2018
 keywords: ["ExConvertExclusiveToSharedLite function"]
 ms.keywords: ExConvertExclusiveToSharedLite, ExConvertExclusiveToSharedLite routine [Kernel-Mode Driver Architecture], k102_3c58f8e7-3da6-413d-9662-89a29928a6c1.xml, kernel.exconvertexclusivetosharedlite, wdm/ExConvertExclusiveToSharedLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExConvertExclusiveToSharedLite
 ---
 
-# ExConvertExclusiveToSharedLite function
+# ExConvertExclusiveToSharedLite function (wdm.h)
+
+
 
 
 ## -description

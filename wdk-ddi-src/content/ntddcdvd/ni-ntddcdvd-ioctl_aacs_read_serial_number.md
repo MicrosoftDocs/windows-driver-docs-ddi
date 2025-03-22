@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_READ_SERIAL_NUMBER IOCTL"]
 ms.keywords: IOCTL_AACS_READ_SERIAL_NUMBER, IOCTL_AACS_READ_SERIAL_NUMBER control, IOCTL_AACS_READ_SERIAL_NUMBER control code [Storage Devices], k307_039c336e-5b51-4a22-83bc-1b28d5ba5a33.xml, ntddcdvd/IOCTL_AACS_READ_SERIAL_NUMBER, storage.ioctl_aacs_read_serial_number
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_READ_SERIAL_NUMBER
 ---
 
-# IOCTL_AACS_READ_SERIAL_NUMBER IOCTL
+# IOCTL_AACS_READ_SERIAL_NUMBER IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

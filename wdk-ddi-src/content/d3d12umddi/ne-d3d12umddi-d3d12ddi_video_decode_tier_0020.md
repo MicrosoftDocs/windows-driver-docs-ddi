@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_TIER_0020, D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration [Display Devices], D3D12DDI_VIDEO_DECODE_TIER_0020_1, D3D12DDI_VIDEO_DECODE_TIER_0020_2, D3D12DDI_VIDEO_DECODE_TIER_0020_3, D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_1, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_2, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_3, d3d12umddi/D3D12DDI_VIDEO_DECODE_TIER_0020_NOT_SUPPORTED, display.d3d12ddi_video_decode_tier
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIDEO_DECODE_TIER_0020
 ---
 
-# D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration
+# D3D12DDI_VIDEO_DECODE_TIER_0020 enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

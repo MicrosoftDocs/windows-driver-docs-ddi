@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwDeleteKey function"]
 ms.keywords: NtDeleteKey, ZwDeleteKey, ZwDeleteKey routine [Kernel-Mode Driver Architecture], k111_b55bc28e-3539-424e-86b5-f7457e90cc61.xml, kernel.zwdeletekey, wdm/NtDeleteKey, wdm/ZwDeleteKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwDeleteKey
 ---
+
+# ZwDeleteKey function (wdm.h)
 
 ## -description
 

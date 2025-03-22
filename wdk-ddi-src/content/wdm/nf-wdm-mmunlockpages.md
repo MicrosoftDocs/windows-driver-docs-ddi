@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmUnlockPages function"]
 ms.keywords: MmUnlockPages, MmUnlockPages routine [Kernel-Mode Driver Architecture], k106_b8d8a984-9e0e-4322-bce1-2dd79e8d3a10.xml, kernel.mmunlockpages, wdm/MmUnlockPages
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmUnlockPages
 ---
 
-# MmUnlockPages function
+# MmUnlockPages function (wdm.h)
+
+
 
 
 ## -description

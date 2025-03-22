@@ -7,6 +7,7 @@ ms.date: 08/29/2022
 keywords: ["IPrintOemPrintTicketProvider::BindPrinter"]
 ms.keywords: BindPrinter, BindPrinter method [Print Devices], BindPrinter method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],BindPrinter method, IPrintOemPrintTicketProvider.BindPrinter, IPrintOemPrintTicketProvider::BindPrinter, prcomoem/IPrintOemPrintTicketProvider::BindPrinter, print.iprintoemprintticketprovider_bindprinter, print_ticket-package_14890643-fabb-4e03-8d1e-08a6ff7f1c9c.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::BindPrinter
 ---
+
+# IPrintOemPrintTicketProvider::BindPrinter function (prcomoem.h)
 
 ## -description
 

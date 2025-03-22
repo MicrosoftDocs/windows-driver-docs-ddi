@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiRequest::GetEnumCount"]
 ms.keywords: GetEnumCount, GetEnumCount method [Print Devices], GetEnumCount method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetEnumCount method, IBidiRequest.GetEnumCount, IBidiRequest::GetEnumCount, _win32_IBidiRequest_GetEnumCount, bidispl/IBidiRequest::GetEnumCount, gdi.ibidirequest_ibidirequest__getenumcount, print.ibidirequest_ibidirequest__getenumcount
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiRequest::GetEnumCount
 ---
+
+# IBidiRequest::GetEnumCount function (bidispl.h)
 
 ## -description
 

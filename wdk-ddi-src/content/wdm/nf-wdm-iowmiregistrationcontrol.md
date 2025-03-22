@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIRegistrationControl function"]
 ms.keywords: IoWMIRegistrationControl, IoWMIRegistrationControl routine [Kernel-Mode Driver Architecture], k104_69efd10b-fb1a-4d66-939d-6ade4185605d.xml, kernel.iowmiregistrationcontrol, wdm/IoWMIRegistrationControl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIRegistrationControl
 ---
 
-# IoWMIRegistrationControl function
+# IoWMIRegistrationControl function (wdm.h)
+
+
 
 
 ## -description

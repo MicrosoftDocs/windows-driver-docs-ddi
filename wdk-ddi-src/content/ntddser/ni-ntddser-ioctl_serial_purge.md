@@ -8,6 +8,7 @@ ms.date: 05/20/2022
 keywords: ["IOCTL_SERIAL_PURGE IOCTL"]
 ms.keywords: IOCTL_SERIAL_PURGE, IOCTL_SERIAL_PURGE control, IOCTL_SERIAL_PURGE control code [Serial Ports], ntddser/IOCTL_SERIAL_PURGE, serports.ioctl_serial_purge, serref_d52cfcec-8098-4319-b601-14187a77e438.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_PURGE
 ---
 
-# IOCTL_SERIAL_PURGE IOCTL
+# IOCTL_SERIAL_PURGE IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

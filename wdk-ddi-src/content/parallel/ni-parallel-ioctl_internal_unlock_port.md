@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_UNLOCK_PORT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_UNLOCK_PORT, IOCTL_INTERNAL_UNLOCK_PORT control code [Parallel Ports], cisspd_2f7b8b18-f3cb-41e4-bdb7-4475f3b8655f.xml, parallel/IOCTL_INTERNAL_UNLOCK_PORT, parports.ioctl_internal_unlock_port
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_UNLOCK_PORT
 ---
 
-# IOCTL_INTERNAL_UNLOCK_PORT IOCTL
+# IOCTL_INTERNAL_UNLOCK_PORT IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_LISTEN_ERROR IOCTL"]
 ms.keywords: IOCTL_GNSS_LISTEN_ERROR, IOCTL_GNSS_LISTEN_ERROR control, IOCTL_GNSS_LISTEN_ERROR control code [Sensor Devices], gnss.ioctl_gnss_listen_error_, gnssdriver/IOCTL_GNSS_LISTEN_ERROR
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_LISTEN_ERROR
 ---
 
-# IOCTL_GNSS_LISTEN_ERROR IOCTL
+# IOCTL_GNSS_LISTEN_ERROR IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

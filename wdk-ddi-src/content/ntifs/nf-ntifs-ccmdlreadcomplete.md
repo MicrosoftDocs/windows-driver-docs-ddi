@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcMdlReadComplete function"]
 ms.keywords: CcMdlReadComplete, CcMdlReadComplete routine [Installable File System Drivers], ccref_9739ef62-748c-43c6-ae79-ae54f2358368.xml, ifsk.ccmdlreadcomplete, ntifs/CcMdlReadComplete
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcMdlReadComplete
 ---
 
-# CcMdlReadComplete function
+# CcMdlReadComplete function (ntifs.h)
+
+
 
 
 ## -description

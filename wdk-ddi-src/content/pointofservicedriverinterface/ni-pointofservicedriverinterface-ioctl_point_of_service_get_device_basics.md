@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control, IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS, pos.ioctl_point_of_service_get_device_basics
 req.header: pointofservicedriverinterface.h
+req.construct-type: ioctl
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS
 ---
 
-# IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL
+# IOCTL_POINT_OF_SERVICE_GET_DEVICE_BASICS IOCTL (pointofservicedriverinterface.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDitherColor function"]
 ms.keywords: OEMDitherColor, OEMDitherColor function [Print Devices], print.oemdithercolor, print_unidrv-pscript_rendering_e220d80f-83d4-4f4a-9fdc-ca25b48dd718.xml, printoem/OEMDitherColor
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDitherColor
 ---
+
+# OEMDitherColor function (printoem.h)
 
 ## -description
 

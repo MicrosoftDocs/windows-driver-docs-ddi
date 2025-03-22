@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["DRIVER_REGKEY_TYPE enumeration"]
 ms.keywords: DRIVER_REGKEY_TYPE, DRIVER_REGKEY_TYPE, *PDRIVER_REGKEY_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -37,7 +38,9 @@ api_name:
  - DRIVER_REGKEY_TYPE
 ---
 
-# DRIVER_REGKEY_TYPE enumeration
+# DRIVER_REGKEY_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

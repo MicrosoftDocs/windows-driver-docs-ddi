@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE, IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE control, IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE control code [Buses], buses.ioctl_internal_usb_get_tt_device_handle, usbioctl/IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE
 ---
 
-# IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE IOCTL
+# IOCTL_INTERNAL_USB_GET_TT_DEVICE_HANDLE IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

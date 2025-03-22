@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisEqualString macro"]
 ms.keywords: NdisEqualString, NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis/NdisEqualString, ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlEqualUnicodeString instead.
@@ -41,7 +42,11 @@ api_name:
  - NdisEqualString
 ---
 
-# NdisEqualString macro
+# NdisEqualString macro (ndis.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCmResourceListRemoveByDescriptor function"]
 ms.keywords: DFResourceObjectRef_14bc7eb5-5cf4-49ae-83da-144ba0c9adea.xml, WdfCmResourceListRemoveByDescriptor, WdfCmResourceListRemoveByDescriptor method, kmdf.wdfcmresourcelistremovebydescriptor, wdf.wdfcmresourcelistremovebydescriptor, wdfresource/WdfCmResourceListRemoveByDescriptor
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfCmResourceListRemoveByDescriptor
 ---
 
-# WdfCmResourceListRemoveByDescriptor function
+# WdfCmResourceListRemoveByDescriptor function (wdfresource.h)
+
+
 
 
 ## -description

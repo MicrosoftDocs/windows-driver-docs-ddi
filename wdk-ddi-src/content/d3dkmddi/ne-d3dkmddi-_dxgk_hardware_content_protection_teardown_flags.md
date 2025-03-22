@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS enumeration"]
 ms.keywords: DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS, DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS enumeration [Display Devices], DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAG_PREEMPTIVE, _DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS, d3dkmddi/DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS, d3dkmddi/DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAG_PREEMPTIVE, display.dxgk_hardware_content_protection_teardown_flags
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS
 ---
 
-# _DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS enumeration
+# DXGK_HARDWARE_CONTENT_PROTECTION_TEARDOWN_FLAGS enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

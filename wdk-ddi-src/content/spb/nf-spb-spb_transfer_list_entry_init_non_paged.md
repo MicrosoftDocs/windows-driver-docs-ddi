@@ -8,6 +8,7 @@ ms.date: 11/15/2021
 keywords: ["SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function"]
 ms.keywords: SPB.spb_transfer_list_entry_init_non_paged, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED, SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function [Buses], spb/SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 req.header: spb.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED
 ---
 
-# SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function
+# SPB_TRANSFER_LIST_ENTRY_INIT_NON_PAGED function (spb.h)
+
+
 
 ## -description
 

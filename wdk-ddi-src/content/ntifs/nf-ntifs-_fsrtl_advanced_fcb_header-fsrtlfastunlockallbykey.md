@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlFastUnlockAllByKey function"]
 ms.keywords: FsRtlFastUnlockAllByKey, FsRtlFastUnlockAllByKey routine [Installable File System Drivers], fsrtlref_193afe01-52f3-4dbc-8a33-bd058beb10ce.xml, ifsk.fsrtlfastunlockallbykey, ntifs/FsRtlFastUnlockAllByKey
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlFastUnlockAllByKey function
+# FsRtlFastUnlockAllByKey function (ntifs.h)
+
+
 
 
 ## -description

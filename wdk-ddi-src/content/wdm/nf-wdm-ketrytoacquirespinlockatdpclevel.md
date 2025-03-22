@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeTryToAcquireSpinLockAtDpcLevel function"]
 ms.keywords: KeTryToAcquireSpinLockAtDpcLevel, KeTryToAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], k105_416ac5db-d064-4ced-8cf8-311aca8dae7f.xml, kernel.ketrytoacquirespinlockatdpclevel, wdm/KeTryToAcquireSpinLockAtDpcLevel
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 with Service Pack 1 (SP1) and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeTryToAcquireSpinLockAtDpcLevel
 ---
 
-# KeTryToAcquireSpinLockAtDpcLevel function
+# KeTryToAcquireSpinLockAtDpcLevel function (wdm.h)
+
+
 
 
 ## -description

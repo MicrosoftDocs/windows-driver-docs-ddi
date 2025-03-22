@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInitializeCryptoEngine function"]
 ms.keywords: StorPortInitializeCryptoEngine, StorPortInitializeCryptoEngine routine [Storage Devices], storage.storportinitializecryptoengine, storport/StorPortInitializeCryptoEngine
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - StorPortInitializeCryptoEngine
 ---
 
-# StorPortInitializeCryptoEngine function
+# StorPortInitializeCryptoEngine function (storport.h)
+
+
 
 ## -description
 

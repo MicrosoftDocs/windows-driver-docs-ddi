@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetParentFilter function"]
 ms.keywords: KsPinGetParentFilter, KsPinGetParentFilter function [Streaming Media Devices], avfunc_0a7c672c-072d-49f8-b1de-93ee1e5c8e1c.xml, ks/KsPinGetParentFilter, stream.kspingetparentfilter
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetParentFilter
 ---
 
-# KsPinGetParentFilter function
+# KsPinGetParentFilter function (ks.h)
+
+
 
 
 ## -description

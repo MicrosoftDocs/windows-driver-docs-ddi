@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueLong function"]
 ms.keywords: image.wiasgetchangedvaluelong, wiamdef/wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, wiasGetChangedValueLong, wiasGetChangedValueLong function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetChangedValueLong
 ---
 
-# wiasGetChangedValueLong function
+# wiasGetChangedValueLong function (wiamdef.h)
+
+
 
 
 ## -description

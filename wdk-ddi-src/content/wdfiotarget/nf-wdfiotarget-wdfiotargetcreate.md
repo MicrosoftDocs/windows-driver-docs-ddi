@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoTargetCreate function"]
 ms.keywords: DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate, WdfIoTargetCreate method, kmdf.wdfiotargetcreate, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoTargetCreate
 ---
 
-# WdfIoTargetCreate function
+# WdfIoTargetCreate function (wdfiotarget.h)
+
+
 
 
 ## -description

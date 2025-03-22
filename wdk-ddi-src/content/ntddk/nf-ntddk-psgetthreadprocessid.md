@@ -7,6 +7,7 @@ ms.date: 06/25/2018
 keywords: ["PsGetThreadProcessId function"]
 ms.keywords: PsGetThreadProcessId
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -39,7 +40,9 @@ api_name:
  - PsGetThreadProcessId
 ---
 
-# PsGetThreadProcessId function
+# PsGetThreadProcessId function (ntddk.h)
+
+
 
 
 ## -description

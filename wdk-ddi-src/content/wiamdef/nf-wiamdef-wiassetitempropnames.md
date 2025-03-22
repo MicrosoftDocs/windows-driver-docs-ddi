@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["wiasSetItemPropNames function"]
 ms.keywords: image.wiassetitempropnames, wiamdef/wiasSetItemPropNames, wiasFncs_e8f17c14-47a7-42bc-ad85-cdd52ecbab79.xml, wiasSetItemPropNames, wiasSetItemPropNames function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasSetItemPropNames
 ---
+
+# wiasSetItemPropNames function (wiamdef.h)
 
 ## -description
 

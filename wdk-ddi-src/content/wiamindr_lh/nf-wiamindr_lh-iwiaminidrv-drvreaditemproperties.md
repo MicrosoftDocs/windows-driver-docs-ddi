@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvReadItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvReadItemProperties method, IWiaMiniDrv.drvReadItemProperties, IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], drvReadItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvReadItemProperties
 ---
+
+# IWiaMiniDrv::drvReadItemProperties function (wiamindr_lh.h)
 
 ## -description
 

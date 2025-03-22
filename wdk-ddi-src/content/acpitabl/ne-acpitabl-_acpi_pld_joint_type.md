@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_JOINT_TYPE enumeration"]
 ms.keywords: _ACPI_PLD_JOINT_TYPE, ACPI_PLD_JOINT_TYPE, *PACPI_PLD_JOINT_TYPE,
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - ACPI_PLD_JOINT_TYPE
 ---
 
-# _ACPI_PLD_JOINT_TYPE enumeration
+# ACPI_PLD_JOINT_TYPE enumeration (acpitabl.h)
+
+
 
 
 ## -description

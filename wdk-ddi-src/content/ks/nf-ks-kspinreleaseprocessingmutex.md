@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinReleaseProcessingMutex function"]
 ms.keywords: KsPinReleaseProcessingMutex, KsPinReleaseProcessingMutex function [Streaming Media Devices], avfunc_22421ea0-8973-4921-a0cb-f1d824f76357.xml, ks/KsPinReleaseProcessingMutex, stream.kspinreleaseprocessingmutex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinReleaseProcessingMutex
 ---
 
-# KsPinReleaseProcessingMutex function
+# KsPinReleaseProcessingMutex function (ks.h)
+
+
 
 
 ## -description

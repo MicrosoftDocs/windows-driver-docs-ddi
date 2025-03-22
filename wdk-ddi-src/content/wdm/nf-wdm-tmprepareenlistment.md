@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmPrepareEnlistment function"]
 ms.keywords: TmPrepareEnlistment, TmPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmprepareenlistment, ktm_ref_c5ed06cd-98cc-4e0c-9311-07dcaea060fa.xml, wdm/TmPrepareEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmPrepareEnlistment
 ---
 
-# TmPrepareEnlistment function
+# TmPrepareEnlistment function (wdm.h)
+
+
 
 
 ## -description

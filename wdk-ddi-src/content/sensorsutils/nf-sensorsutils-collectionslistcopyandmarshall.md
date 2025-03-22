@@ -7,6 +7,7 @@ keywords: ["CollectionsListCopyAndMarshall function"]
 tech.root: sensors
 ms.keywords: CollectionsListCopyAndMarshall
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListCopyAndMarshall
 ---
 
-# CollectionsListCopyAndMarshall function
+# CollectionsListCopyAndMarshall function (sensorsutils.h)
+
+
 
 
 ## -description

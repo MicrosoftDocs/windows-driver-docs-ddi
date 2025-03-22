@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeWriteSynchronously function"]
 ms.keywords: DFUsbRef_9d78fb7e-eaf6-4d86-8376-4c68a1ab6ab9.xml, WdfUsbTargetPipeWriteSynchronously, WdfUsbTargetPipeWriteSynchronously method, kmdf.wdfusbtargetpipewritesynchronously, wdf.wdfusbtargetpipewritesynchronously, wdfusb/WdfUsbTargetPipeWriteSynchronously
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeWriteSynchronously
 ---
 
-# WdfUsbTargetPipeWriteSynchronously function
+# WdfUsbTargetPipeWriteSynchronously function (wdfusb.h)
+
+
 
 
 ## -description

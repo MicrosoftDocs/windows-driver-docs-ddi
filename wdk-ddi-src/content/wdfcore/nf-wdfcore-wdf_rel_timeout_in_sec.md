@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REL_TIMEOUT_IN_SEC function"]
 ms.keywords: DFTimerObjectRef_2c5d8c96-3c4d-484d-9d60-656c4c4a7cc5.xml, WDF_REL_TIMEOUT_IN_SEC, WDF_REL_TIMEOUT_IN_SEC function, kmdf.wdf_rel_timeout_in_sec, wdf.wdf_rel_timeout_in_sec, wdfcore/WDF_REL_TIMEOUT_IN_SEC
 req.header: wdfcore.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WDF_REL_TIMEOUT_IN_SEC
 ---
 
-# WDF_REL_TIMEOUT_IN_SEC function
+# WDF_REL_TIMEOUT_IN_SEC function (wdfcore.h)
+
+
 
 
 ## -description

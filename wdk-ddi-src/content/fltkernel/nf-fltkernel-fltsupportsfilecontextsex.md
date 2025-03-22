@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltSupportsFileContextsEx function"]
 ms.keywords: FltApiRef_p_to_z_3e8b5485-5c61-4405-9c5d-7d7c966f0478.xml, FltSupportsFileContextsEx, FltSupportsFileContextsEx routine [Installable File System Drivers], fltkernel/FltSupportsFileContextsEx, ifsk.fltsupportsfilecontextsex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Windows Vista and later.
@@ -40,7 +41,9 @@ api_name:
  - FltSupportsFileContextsEx
 ---
 
-# FltSupportsFileContextsEx function
+# FltSupportsFileContextsEx function (fltkernel.h)
+
+
 
 ## -description
 

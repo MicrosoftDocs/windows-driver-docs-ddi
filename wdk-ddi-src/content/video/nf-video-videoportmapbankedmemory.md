@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortMapBankedMemory function"]
 ms.keywords: VideoPortMapBankedMemory, VideoPortMapBankedMemory function [Display Devices], VideoPort_Functions_14384264-da80-4c16-8de9-af143ac6a014.xml, display.videoportmapbankedmemory, video/VideoPortMapBankedMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortMapBankedMemory
 ---
 
-# VideoPortMapBankedMemory function
+# VideoPortMapBankedMemory function (video.h)
+
+
 
 
 ## -description

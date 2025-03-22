@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["LAMP_MODE enumeration"]
 ms.keywords: LAMP_MODE, LAMP_MODE enumeration [Streaming Media Devices], LAMP_MODE_COLOR, LAMP_MODE_WHITE, lamp/LAMP_MODE, lamp/LAMP_MODE_COLOR, lamp/LAMP_MODE_WHITE, stream.lamp_mode
 req.header: lamp.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - LAMP_MODE
 ---
 
-# LAMP_MODE enumeration
+# LAMP_MODE enumeration (lamp.h)
+
+
 
 
 ## -description

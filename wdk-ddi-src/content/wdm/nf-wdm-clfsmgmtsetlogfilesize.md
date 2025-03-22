@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsMgmtSetLogFileSize function"]
 ms.keywords: ClfsMgmtSetLogFileSize, ClfsMgmtSetLogFileSize routine [Kernel-Mode Driver Architecture], Clfs_management_a4f0865a-5c4b-411b-a8a5-349b49c1528b.xml, kernel.clfsmgmtsetlogfilesize, wdm/ClfsMgmtSetLogFileSize
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows Server 2003 R2 and Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - ClfsMgmtSetLogFileSize
 ---
 
-# ClfsMgmtSetLogFileSize function
+# ClfsMgmtSetLogFileSize function (wdm.h)
+
+
 
 
 ## -description

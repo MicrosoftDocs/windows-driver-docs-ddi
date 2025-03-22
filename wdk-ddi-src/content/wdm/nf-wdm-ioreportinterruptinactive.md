@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoReportInterruptInactive function"]
 ms.keywords: IoReportInterruptInactive, IoReportInterruptInactive routine [Kernel-Mode Driver Architecture], kernel.ioreportinterruptinactive, wdm/IoReportInterruptInactive
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - IoReportInterruptInactive
 ---
 
-# IoReportInterruptInactive function
+# IoReportInterruptInactive function (wdm.h)
+
+
 
 
 ## -description

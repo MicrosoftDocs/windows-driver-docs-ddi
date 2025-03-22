@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlGetNextLargeMcbEntry function"]
 ms.keywords: FsRtlGetNextLargeMcbEntry, FsRtlGetNextLargeMcbEntry routine [Installable File System Drivers], fsrtlref_cee90943-5308-4e1f-ae2e-2e607f19252f.xml, ifsk.fsrtlgetnextlargemcbentry, ntifs/FsRtlGetNextLargeMcbEntry
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlGetNextLargeMcbEntry function
+# FsRtlGetNextLargeMcbEntry function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlConvertSidToUnicodeString function"]
 ms.keywords: RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString routine [Installable File System Drivers], ifsk.rtlconvertsidtounicodestring, ntifs/RtlConvertSidToUnicodeString, rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - RtlConvertSidToUnicodeString
 ---
 
-# RtlConvertSidToUnicodeString function
+# RtlConvertSidToUnicodeString function (ntifs.h)
+
+
 
 
 ## -description

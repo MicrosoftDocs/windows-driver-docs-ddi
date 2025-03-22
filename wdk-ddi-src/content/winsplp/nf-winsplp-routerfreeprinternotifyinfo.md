@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterFreePrinterNotifyInfo function"]
 ms.keywords: RouterFreePrinterNotifyInfo, RouterFreePrinterNotifyInfo function [Print Devices], print.routerfreeprinternotifyinfo, spoolfnc_7ae0296f-8bfe-4ee3-b621-1d1582deafdf.xml, winsplp/RouterFreePrinterNotifyInfo
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RouterFreePrinterNotifyInfo
 ---
 
-# RouterFreePrinterNotifyInfo function
+# RouterFreePrinterNotifyInfo function (winsplp.h)
+
+
 
 
 ## -description

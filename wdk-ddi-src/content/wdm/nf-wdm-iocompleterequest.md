@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCompleteRequest macro"]
 ms.keywords: IoCompleteRequest, IoCompleteRequest routine [Kernel-Mode Driver Architecture], k104_79ea2b93-3ce8-46eb-990b-ca3e56d3e3a8.xml, kernel.iocompleterequest, wdm/IoCompleteRequest
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - IofCompleteRequest
 ---
 
-# IoCompleteRequest macro
+# IofCompleteRequest macro (wdm.h)
+
+
+
+
 
 
 ## -description

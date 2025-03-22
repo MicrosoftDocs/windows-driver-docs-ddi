@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortWriteRegisterBufferUshort macro"]
 ms.keywords: StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices], storage.storportwriteregisterbufferushort, storport/StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - StorPortWriteRegisterBufferUshort
 ---
 
-# StorPortWriteRegisterBufferUshort macro
+# StorPortWriteRegisterBufferUshort macro (storport.h)
+
+
+
+
 
 
 ## -description

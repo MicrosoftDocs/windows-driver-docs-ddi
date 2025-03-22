@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsSynchronousIoControlDevice function"]
 ms.keywords: KsSynchronousIoControlDevice, KsSynchronousIoControlDevice function [Streaming Media Devices], ks/KsSynchronousIoControlDevice, ksfunc_b3bba8f7-d9fb-4372-bfff-f39b4d925561.xml, stream.kssynchronousiocontroldevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KsSynchronousIoControlDevice
 ---
 
-# KsSynchronousIoControlDevice function
+# KsSynchronousIoControlDevice function (ks.h)
+
+
 
 ## -description
 

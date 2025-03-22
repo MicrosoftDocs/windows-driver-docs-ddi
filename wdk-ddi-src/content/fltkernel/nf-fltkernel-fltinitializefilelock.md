@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltInitializeFileLock function"]
 ms.keywords: FltApiRef_e_to_o_8e2110a7-bc7b-4a98-b094-c6a7a12e7900.xml, FltInitializeFileLock, FltInitializeFileLock routine [Installable File System Drivers], fltkernel/FltInitializeFileLock, ifsk.fltinitializefilelock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP SP2 
@@ -40,7 +41,9 @@ api_name:
  - FltInitializeFileLock
 ---
 
-# FltInitializeFileLock function
+# FltInitializeFileLock function (fltkernel.h)
+
+
 
 ## -description
 

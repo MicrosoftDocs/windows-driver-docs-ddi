@@ -7,6 +7,7 @@ keywords: ["IsGUIDPresentInList function"]
 tech.root: sensors
 ms.keywords: IsGUIDPresentInList
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - IsGUIDPresentInList
 ---
 
-# IsGUIDPresentInList function
+# IsGUIDPresentInList function (sensorsutils.h)
+
+
 
 
 ## -description

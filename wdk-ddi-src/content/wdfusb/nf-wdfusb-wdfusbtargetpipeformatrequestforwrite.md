@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeFormatRequestForWrite function"]
 ms.keywords: DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite, WdfUsbTargetPipeFormatRequestForWrite method, kmdf.wdfusbtargetpipeformatrequestforwrite, wdf.wdfusbtargetpipeformatrequestforwrite, wdfusb/WdfUsbTargetPipeFormatRequestForWrite
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeFormatRequestForWrite
 ---
 
-# WdfUsbTargetPipeFormatRequestForWrite function
+# WdfUsbTargetPipeFormatRequestForWrite function (wdfusb.h)
+
+
 
 
 ## -description

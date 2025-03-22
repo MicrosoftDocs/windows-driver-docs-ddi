@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["ExAllocatePool function"]
 ms.keywords: ExAllocatePool, ExAllocatePool routine [Kernel-Mode Driver Architecture], k102_02ff5510-3d96-4a15-a0da-5da56e14b1b8.xml, kernel.exallocatepool, wdm/ExAllocatePool
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Classpnp.h, Smcnt.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete. This routine is exported only for existing binaries. Use ExAllocatePoolWithTag instead.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExAllocatePool
 ---
+
+# ExAllocatePool function (wdm.h)
 
 ## -description
 

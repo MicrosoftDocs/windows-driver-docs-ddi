@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_GET_STATE IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_GET_STATE, IOCTL_SMARTCARD_GET_STATE control, IOCTL_SMARTCARD_GET_STATE control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_get_state, winsmcrd/IOCTL_SMARTCARD_GET_STATE
 req.header: winsmcrd.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SMARTCARD_GET_STATE
 ---
 
-# IOCTL_SMARTCARD_GET_STATE IOCTL
+# IOCTL_SMARTCARD_GET_STATE IOCTL (winsmcrd.h)
+
+
+
+
 
 
 ## -description

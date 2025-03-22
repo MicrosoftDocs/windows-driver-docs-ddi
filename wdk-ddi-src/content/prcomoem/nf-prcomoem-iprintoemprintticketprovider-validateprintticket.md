@@ -7,6 +7,7 @@ ms.date: 08/23/2022
 keywords: ["IPrintOemPrintTicketProvider::ValidatePrintTicket"]
 ms.keywords: IPrintOemPrintTicketProvider interface [Print Devices],ValidatePrintTicket method, IPrintOemPrintTicketProvider.ValidatePrintTicket, IPrintOemPrintTicketProvider::ValidatePrintTicket, ValidatePrintTicket, ValidatePrintTicket method [Print Devices], ValidatePrintTicket method [Print Devices],IPrintOemPrintTicketProvider interface, prcomoem/IPrintOemPrintTicketProvider::ValidatePrintTicket, print.iprintoemprintticketprovider_validateprintticket, print_ticket-package_e7baf633-847b-4e0d-bffb-c723a05b672f.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::ValidatePrintTicket
 ---
+
+# IPrintOemPrintTicketProvider::ValidatePrintTicket function (prcomoem.h)
 
 ## -description
 

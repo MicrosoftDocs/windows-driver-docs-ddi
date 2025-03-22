@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetUiccAppPersoCheckState function"]
 ms.keywords: RIL_GetUiccAppPersoCheckState, RIL_GetUiccAppPersoCheckState method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccapppersocheckstate, rilapi/RIL_GetUiccAppPersoCheckState
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetUiccAppPersoCheckState
 ---
 
-# RIL_GetUiccAppPersoCheckState function
+# RIL_GetUiccAppPersoCheckState function (rilapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_NI_PLANE_TYPE enumeration"]
 ms.keywords: GNSS_NI_CP, GNSS_NI_PLANE_TYPE, GNSS_NI_PLANE_TYPE enumeration [Sensor Devices], GNSS_NI_SUPL, GNSS_NI_V2UPL, gnss.gnss_ni_plane_type, gnssdriver/GNSS_NI_CP, gnssdriver/GNSS_NI_PLANE_TYPE, gnssdriver/GNSS_NI_SUPL, gnssdriver/GNSS_NI_V2UPL
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_NI_PLANE_TYPE
 ---
 
-# GNSS_NI_PLANE_TYPE enumeration
+# GNSS_NI_PLANE_TYPE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

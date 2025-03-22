@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IPrintOemPS::EnableDriver"]
 ms.keywords: EnableDriver, EnableDriver method [Print Devices], EnableDriver method [Print Devices],IPrintOemPS interface, IPrintOemPS interface [Print Devices],EnableDriver method, IPrintOemPS.EnableDriver, IPrintOemPS::EnableDriver, prcomoem/IPrintOemPS::EnableDriver, print.iprintoemps_enabledriver, print_unidrv-pscript_rendering_2e2fe90b-66ce-4f39-adfa-ebb187700aac.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPS::EnableDriver
 ---
+
+# IPrintOemPS::EnableDriver function (prcomoem.h)
 
 ## -description
 

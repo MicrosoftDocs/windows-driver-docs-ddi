@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryString function"]
 ms.keywords: DFRegKeyObjectRef_d3260d42-afdc-4858-a0b4-e2ae90327066.xml, WdfRegistryQueryString, WdfRegistryQueryString method, kmdf.wdfregistryquerystring, wdf.wdfregistryquerystring, wdfregistry/WdfRegistryQueryString
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryQueryString
 ---
 
-# WdfRegistryQueryString function
+# WdfRegistryQueryString function (wdfregistry.h)
+
+
 
 
 ## -description

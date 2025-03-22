@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["L2CAP_DISCONNECT_REASON enumeration"]
 ms.keywords: HardwareRemoval, HciDisconnect, L2CAP_DISCONNECT_REASON, L2CAP_DISCONNECT_REASON enumeration [Bluetooth Devices], L2capDisconnectRequest, RadioPoweredDown, _L2CAP_DISCONNECT_REASON, bltooth.l2cap_disconnect_reason, bth_enums_b465d42e-515c-49b9-8d6c-0d576853a41b.xml, bthddi/HardwareRemoval, bthddi/HciDisconnect, bthddi/L2CAP_DISCONNECT_REASON, bthddi/L2capDisconnectRequest, bthddi/RadioPoweredDown
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista and later versions of Windows.
@@ -43,7 +44,9 @@ api_name:
  - L2CAP_DISCONNECT_REASON
 ---
 
-# _L2CAP_DISCONNECT_REASON enumeration
+# L2CAP_DISCONNECT_REASON enumeration (bthddi.h)
+
+
 
 
 ## -description

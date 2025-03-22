@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WdmlibIoValidateDeviceIoControlAccess function"]
 ms.keywords: FILE_READ_ACCESS, FILE_WRITE_ACCESS, IoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], kernel.wdmlibiovalidatedeviceiocontrolaccess, wdmsec/IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess
 req.header: wdmsec.h
+req.construct-type: function
 req.include-header: Wdmsec.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows. Drivers that must also work for Windows 2000 and Windows XP can instead link to Wdmsec.lib to use this routine. (The Wdmsec.lib library first shipped with the Windows XP Service Pack 1 [SP1] and Windows Server 2003 editions of the Driver Development Kit [DDK] and now ships with the Windows Driver Kit [WDK].)
@@ -40,7 +41,9 @@ api_name:
  - WdmlibIoValidateDeviceIoControlAccess
 ---
 
-# WdmlibIoValidateDeviceIoControlAccess function
+# WdmlibIoValidateDeviceIoControlAccess function (wdmsec.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetAdapterSetLinkLayerCapabilities function"]
 ms.keywords: NetAdapterSetLinkLayerCapabilities
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - NetAdapterSetLinkLayerCapabilities
 ---
 
-# NetAdapterSetLinkLayerCapabilities function
+# NetAdapterSetLinkLayerCapabilities function (netadapter.h)
+
+
 
 
 ## -description

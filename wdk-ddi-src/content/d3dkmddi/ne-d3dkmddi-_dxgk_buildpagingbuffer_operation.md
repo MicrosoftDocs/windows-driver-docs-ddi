@@ -4,6 +4,7 @@ title: DXGK_BUILDPAGINGBUFFER_OPERATION (d3dkmddi.h)
 description: Learn more about the DXGK_BUILDPAGINGBUFFER_OPERATION enumeration.
 ms.date: 08/16/2024
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - DXGK_BUILDPAGINGBUFFER_OPERATION
 ---
 
-# DXGK_BUILDPAGINGBUFFER_OPERATION enumeration
+# DXGK_BUILDPAGINGBUFFER_OPERATION enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

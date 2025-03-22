@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["SRIOV_PF_EVENT enumeration"]
 ms.keywords: "*PSRIOV_PF_EVENT, PCI.sriov_pf_event, SRIOV_PF_EVENT, SRIOV_PF_EVENT enumeration [Buses], SriovEventPfMaximum, SriovEventPfQueryStopDevice, SriovEventPfRestart, _SRIOV_PF_EVENT, pcivirt/SRIOV_PF_EVENT, pcivirt/SriovEventPfMaximum, pcivirt/SriovEventPfQueryStopDevice, pcivirt/SriovEventPfRestart"
 req.header: pcivirt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - SRIOV_PF_EVENT
 ---
 
-# _SRIOV_PF_EVENT enumeration
+# SRIOV_PF_EVENT enumeration (pcivirt.h)
+
+
 
 
 ## -description

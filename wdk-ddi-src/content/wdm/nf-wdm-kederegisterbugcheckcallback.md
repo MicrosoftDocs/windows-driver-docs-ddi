@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeDeregisterBugCheckCallback function"]
 ms.keywords: KeDeregisterBugCheckCallback, KeDeregisterBugCheckCallback routine [Kernel-Mode Driver Architecture], k105_6bb11ae2-ceb1-4640-b59c-47b42496b819.xml, kernel.kederegisterbugcheckcallback, wdm/KeDeregisterBugCheckCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeDeregisterBugCheckCallback
 ---
 
-# KeDeregisterBugCheckCallback function
+# KeDeregisterBugCheckCallback function (wdm.h)
+
+
 
 
 ## -description

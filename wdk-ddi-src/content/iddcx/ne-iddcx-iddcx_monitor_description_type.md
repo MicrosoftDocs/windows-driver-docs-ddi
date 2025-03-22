@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_MONITOR_DESCRIPTION_TYPE enumeration"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 req.header: iddcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_MONITOR_DESCRIPTION_TYPE
 ---
 
-# IDDCX_MONITOR_DESCRIPTION_TYPE enumeration
+# IDDCX_MONITOR_DESCRIPTION_TYPE enumeration (iddcx.h)
+
+
 
 ## -description
 

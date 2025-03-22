@@ -7,6 +7,7 @@ ms.date: 04/09/2019
 keywords: ["WWAN_UICC_FILE_TYPE enumeration"]
 ms.keywords: _WWAN_UICC_FILE_TYPE, WWAN_UICC_FILE_TYPE, *PWWAN_UICC_FILE_TYPE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -37,7 +38,9 @@ api_name:
  - WWAN_UICC_FILE_TYPE
 ---
 
-# _WWAN_UICC_FILE_TYPE enumeration
+# WWAN_UICC_FILE_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

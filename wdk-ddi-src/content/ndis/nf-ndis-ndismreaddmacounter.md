@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMReadDmaCounter function"]
 ms.keywords: NdisMReadDmaCounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, ndis/NdisMReadDmaCounter, netvista.ndismreaddmacounter
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMReadDmaCounter (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMReadDmaCounter (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisMReadDmaCounter
 ---
 
-# NdisMReadDmaCounter function
+# NdisMReadDmaCounter function (ndis.h)
+
+
 
 
 ## -description

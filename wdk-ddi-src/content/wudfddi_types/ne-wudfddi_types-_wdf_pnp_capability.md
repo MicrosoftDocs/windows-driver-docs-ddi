@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_PNP_CAPABILITY enumeration"]
 ms.keywords: WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY enumeration, WdfPnpCapDockDevice, WdfPnpCapEjectSupported, WdfPnpCapInvalid, WdfPnpCapLockSupported, WdfPnpCapMaximum, WdfPnpCapNoDisplayInUI, WdfPnpCapRemovable, WdfPnpCapSurpriseRemovalOk, _WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, wdf.wdf_pnp_capability, wudfddi_types/WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapInvalid, wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapMaximum, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapRemovable, wudfddi_types/WdfPnpCapSurpriseRemovalOk
 req.header: wudfddi_types.h
+req.construct-type: enumeration
 req.include-header: Wudfddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_PNP_CAPABILITY
 ---
 
-# _WDF_PNP_CAPABILITY enumeration
+# WDF_PNP_CAPABILITY enumeration (wudfddi_types.h)
+
+
 
 
 ## -description

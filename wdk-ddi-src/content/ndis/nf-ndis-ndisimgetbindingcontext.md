@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIMGetBindingContext function"]
 ms.keywords: NdisIMGetBindingContext, NdisIMGetBindingContext function [Network Drivers Starting with Windows Vista], intermediate_ref_ef5b6cf4-209a-4e51-be20-2e0e7bcc1ac8.xml, ndis/NdisIMGetBindingContext, netvista.ndisimgetbindingcontext
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisIMGetBindingContext (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisIMGetBindingContext (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisIMGetBindingContext
 ---
 
-# NdisIMGetBindingContext function
+# NdisIMGetBindingContext function (ndis.h)
+
+
 
 
 ## -description

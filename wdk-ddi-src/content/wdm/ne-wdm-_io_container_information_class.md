@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_CONTAINER_INFORMATION_CLASS enumeration"]
 ms.keywords: IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoMaxContainerInformationClass, IoSessionStateInformation, _IO_CONTAINER_INFORMATION_CLASS, kernel.io_container_information_class, sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, wdm/IO_CONTAINER_INFORMATION_CLASS, wdm/IoMaxContainerInformationClass, wdm/IoSessionStateInformation
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of the Windows operating system.
@@ -43,7 +44,9 @@ api_name:
  - IO_CONTAINER_INFORMATION_CLASS
 ---
 
-# _IO_CONTAINER_INFORMATION_CLASS enumeration
+# IO_CONTAINER_INFORMATION_CLASS enumeration (wdm.h)
+
+
 
 
 ## -description

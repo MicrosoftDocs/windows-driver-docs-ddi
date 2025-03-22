@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeBugCheck function"]
 ms.keywords: KeBugCheck, KeBugCheck routine [Kernel-Mode Driver Architecture], k105_0d6fece0-a301-44af-92b4-0ff735195c2b.xml, kernel.kebugcheck, ntddk/KeBugCheck
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeBugCheck
 ---
 
-# KeBugCheck function
+# KeBugCheck function (ntddk.h)
+
+
 
 
 ## -description

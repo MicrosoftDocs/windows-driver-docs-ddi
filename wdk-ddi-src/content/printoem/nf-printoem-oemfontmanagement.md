@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMFontManagement function"]
 ms.keywords: OEMFontManagement, OEMFontManagement function [Print Devices], print.oemfontmanagement, print_unidrv-pscript_rendering_41e19fb2-9946-4911-beb2-3681bd08c08b.xml, printoem/OEMFontManagement
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMFontManagement
 ---
+
+# OEMFontManagement function (printoem.h)
 
 ## -description
 

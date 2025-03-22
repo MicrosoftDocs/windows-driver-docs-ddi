@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTUnregisterTrimNotification function"]
 ms.keywords: D3DKMTUnregisterTrimNotification, D3DKMTUnregisterTrimNotification function [Display Devices], d3dkmthk/D3DKMTUnregisterTrimNotification, display.d3dkmtunregistertrimnotification
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTUnregisterTrimNotification
 ---
 
-# D3DKMTUnregisterTrimNotification function
+# D3DKMTUnregisterTrimNotification function (d3dkmthk.h)
+
+
 
 
 ## -description

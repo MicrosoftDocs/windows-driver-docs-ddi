@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsValidateTopologyNodeCreateRequest function"]
 ms.keywords: KsValidateTopologyNodeCreateRequest, KsValidateTopologyNodeCreateRequest function [Streaming Media Devices], ks/KsValidateTopologyNodeCreateRequest, ksfunc_f2b7fc56-1bca-4de5-981b-68364aa96fa7.xml, stream.ksvalidatetopologynodecreaterequest
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsValidateTopologyNodeCreateRequest
 ---
 
-# KsValidateTopologyNodeCreateRequest function
+# KsValidateTopologyNodeCreateRequest function (ks.h)
+
+
 
 
 ## -description

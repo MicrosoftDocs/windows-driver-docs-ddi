@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY, IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY control, IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY control code [Storage Devices], k307_5b02ca9a-551e-42d1-a153-39a6f5d94141.xml, mountmgr/IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY, storage.ioctl_mountmgr_delete_points_dbonly
 req.header: mountmgr.h
+req.construct-type: ioctl
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY
 ---
+
+# IOCTL_MOUNTMGR_DELETE_POINTS_DBONLY IOCTL (mountmgr.h)
+
+
 
 ## -description
 

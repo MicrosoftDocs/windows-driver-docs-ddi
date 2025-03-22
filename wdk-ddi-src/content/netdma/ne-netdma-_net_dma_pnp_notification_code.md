@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NET_DMA_PNP_NOTIFICATION_CODE enumeration"]
 ms.keywords: "*PNET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE, NET_DMA_PNP_NOTIFICATION_CODE enumeration [Network Drivers Starting with Windows Vista], NetDmaNotificationChannelArrival, NetDmaNotificationMax, NetDmaNotificationProviderArrival, NetDmaNotificationProviderPowerDown, NetDmaNotificationProviderPowerUp, NetDmaNotificationProviderRegistered, NetDmaNotificationProviderRemoval, PNET_DMA_PNP_NOTIFICATION_CODE, PNET_DMA_PNP_NOTIFICATION_CODE enumeration pointer [Network Drivers Starting with Windows Vista], _NET_DMA_PNP_NOTIFICATION_CODE, netdma/NET_DMA_PNP_NOTIFICATION_CODE, netdma/NetDmaNotificationChannelArrival, netdma/NetDmaNotificationMax, netdma/NetDmaNotificationProviderArrival, netdma/NetDmaNotificationProviderPowerDown, netdma/NetDmaNotificationProviderPowerUp, netdma/NetDmaNotificationProviderRegistered, netdma/NetDmaNotificationProviderRemoval, netdma/PNET_DMA_PNP_NOTIFICATION_CODE, netdma_ref_ce8373ae-1547-410d-b33e-d95eb42d649e.xml, netvista.net_dma_pnp_notification_code"
 req.header: netdma.h
+req.construct-type: enumeration
 req.include-header: Netdma.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported for NetDMA 2.0 and NetDMA 1.1 drivers in Windows Server 2008.
@@ -46,7 +47,9 @@ api_name:
  - NET_DMA_PNP_NOTIFICATION_CODE
 ---
 
-# _NET_DMA_PNP_NOTIFICATION_CODE enumeration
+# NET_DMA_PNP_NOTIFICATION_CODE enumeration (netdma.h)
+
+
 
 
 ## -description

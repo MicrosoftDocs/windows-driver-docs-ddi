@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFlushBuffers function"]
 ms.keywords: FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], fltkernel/FltFlushBuffers, ifsk.fltflushbuffers
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ dev_langs:
  - c++
 ---
 
-# FltFlushBuffers function
+# FltFlushBuffers function (fltkernel.h)
+
+
 
 
 ## -description

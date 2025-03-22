@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRequestDpc function"]
 ms.keywords: IoRequestDpc, IoRequestDpc routine [Kernel-Mode Driver Architecture], k104_37f449eb-de3d-4932-b845-388c73c55d01.xml, kernel.iorequestdpc, wdm/IoRequestDpc
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoRequestDpc
 ---
 
-# IoRequestDpc function
+# IoRequestDpc function (wdm.h)
+
+
 
 
 ## -description

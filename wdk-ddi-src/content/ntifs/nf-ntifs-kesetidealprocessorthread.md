@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["KeSetIdealProcessorThread function"]
 ms.keywords: KeSetIdealProcessorThread, KeSetIdealProcessorThread function [Installable File System Drivers], ifsk.kesetidealprocessorthread, keref_3a412d87-c325-4369-99f6-1b31225eb02e.xml, ntifs/KeSetIdealProcessorThread
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeSetIdealProcessorThread
 ---
 
-# KeSetIdealProcessorThread function
+# KeSetIdealProcessorThread function (ntifs.h)
+
+
 
 ## -description
 

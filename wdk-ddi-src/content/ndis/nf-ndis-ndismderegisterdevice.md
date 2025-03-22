@@ -42,7 +42,10 @@ dev_langs:
 helpviewer_keywords:
  - NdisMDeregisterDevice
 ---
-# NdisMDeregisterDevice function
+
+# NdisMDeregisterDevice function (ndis.h)
+
+
 
 ## -description
 

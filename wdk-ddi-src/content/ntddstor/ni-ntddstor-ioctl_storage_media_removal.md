@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_MEDIA_REMOVAL IOCTL"]
 ms.keywords: IOCTL_STORAGE_MEDIA_REMOVAL, IOCTL_STORAGE_MEDIA_REMOVAL control, IOCTL_STORAGE_MEDIA_REMOVAL control code [Storage Devices], k307_3579b0fa-49fa-4051-8726-15662992f0d2.xml, ntddstor/IOCTL_STORAGE_MEDIA_REMOVAL, storage.ioctl_storage_media_removal
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_MEDIA_REMOVAL
 ---
 
-# IOCTL_STORAGE_MEDIA_REMOVAL IOCTL
+# IOCTL_STORAGE_MEDIA_REMOVAL IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

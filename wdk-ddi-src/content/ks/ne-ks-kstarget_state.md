@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSTARGET_STATE enumeration"]
 ms.keywords: KSTARGET_STATE, KSTARGET_STATE enumeration [Streaming Media Devices], KSTARGET_STATE_DISABLED, KSTARGET_STATE_ENABLED, ks/KSTARGET_STATE, ks/KSTARGET_STATE_DISABLED, ks/KSTARGET_STATE_ENABLED, stream.kstarget_state
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSTARGET_STATE
 ---
 
-# KSTARGET_STATE enumeration
+# KSTARGET_STATE enumeration (ks.h)
+
+
 
 
 ## -description

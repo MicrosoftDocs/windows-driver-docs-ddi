@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisUnbindAdapter function"]
 ms.keywords: NdisUnbindAdapter, NdisUnbindAdapter function [Network Drivers Starting with Windows Vista], ndis/NdisUnbindAdapter, netvista.ndisunbindadapter, protocol_ndis_functions_ref_99324c18-23da-4ed1-9ccc-ab73ac342c50.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisUnbindAdapter
 ---
 
-# NdisUnbindAdapter function
+# NdisUnbindAdapter function (ndis.h)
+
+
 
 
 ## -description

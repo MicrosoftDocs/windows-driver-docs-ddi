@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxStaticStreamsSetStreamInfo function"]
 ms.keywords: UcxStaticStreamsSetStreamInfo, UcxStaticStreamsSetStreamInfo method [Buses], buses._ucxstaticstreamssetstreaminfo
 req.header: ucxsstreams.h
+req.construct-type: function
 req.include-header: Ucxclass.h, Ucxstreams.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxStaticStreamsSetStreamInfo
 ---
 
-# UcxStaticStreamsSetStreamInfo function
+# UcxStaticStreamsSetStreamInfo function (ucxsstreams.h)
+
+
 
 
 ## -description

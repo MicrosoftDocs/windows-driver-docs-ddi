@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_RESET_HUB IOCTL"]
 ms.keywords: IOCTL_USB_RESET_HUB, IOCTL_USB_RESET_HUB control, IOCTL_USB_RESET_HUB control code [Buses], buses.ioctl_usb_reset_hub, usbioctl/IOCTL_USB_RESET_HUB
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_RESET_HUB
 ---
 
-# IOCTL_USB_RESET_HUB IOCTL
+# IOCTL_USB_RESET_HUB IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/24/2019
 keywords: ["NetExtensionGetPacketRscTimestamp function"]
 ms.keywords: NetExtensionGetPacketRscTimestamp
 req.header: rsc.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetExtensionGetPacketRscTimestamp
 ---
 
-# NetExtensionGetPacketRscTimestamp function
+# NetExtensionGetPacketRscTimestamp function (rsc.h)
+
+
 
 
 ## -description

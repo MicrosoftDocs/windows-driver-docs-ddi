@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceSetPnpCapabilities function"]
 ms.keywords: DFDeviceObjectGeneralRef_5f299c2e-344d-4213-a2fa-8266f056896c.xml, WdfDeviceSetPnpCapabilities, WdfDeviceSetPnpCapabilities method, kmdf.wdfdevicesetpnpcapabilities, wdf.wdfdevicesetpnpcapabilities, wdfdevice/WdfDeviceSetPnpCapabilities
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceSetPnpCapabilities
 ---
 
-# WdfDeviceSetPnpCapabilities function
+# WdfDeviceSetPnpCapabilities function (wdfdevice.h)
+
+
 
 
 ## -description

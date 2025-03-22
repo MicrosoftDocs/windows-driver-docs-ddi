@@ -8,6 +8,7 @@ ms.date: 04/25/2023
 keywords: ["FltGetStreamHandleContext function"]
 ms.keywords: FltApiRef_e_to_o_4a329c48-3a48-47bc-b998-3aaee454fbef.xml, FltGetStreamHandleContext, FltGetStreamHandleContext routine [Installable File System Drivers], fltkernel/FltGetStreamHandleContext, ifsk.fltgetstreamhandlecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetStreamHandleContext
 ---
 
-# FltGetStreamHandleContext function
+# FltGetStreamHandleContext function (fltkernel.h)
+
+
 
 ## -description
 

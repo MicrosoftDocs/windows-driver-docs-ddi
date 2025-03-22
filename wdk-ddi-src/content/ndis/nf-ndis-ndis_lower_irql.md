@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_LOWER_IRQL macro"]
 ms.keywords: NDIS_LOWER_IRQL
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -37,7 +38,11 @@ api_name:
  - NDIS_LOWER_IRQL
 ---
 
-# NDIS_LOWER_IRQL macro
+# NDIS_LOWER_IRQL macro (ndis.h)
+
+
+
+
 
 
 ## -description

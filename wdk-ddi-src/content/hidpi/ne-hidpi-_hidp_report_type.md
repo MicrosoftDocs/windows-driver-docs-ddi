@@ -8,6 +8,7 @@ ms.date: 10/28/2021
 keywords: ["HIDP_REPORT_TYPE enumeration"]
 ms.keywords: HIDP_REPORT_TYPE, HIDP_REPORT_TYPE enumeration [Human Input Devices], HidP_Feature, HidP_Input, HidP_Output, _HIDP_REPORT_TYPE, hid.hidp_report_type, hidpi/HIDP_REPORT_TYPE, hidpi/HidP_Feature, hidpi/HidP_Input, hidpi/HidP_Output, hidstrct_d25e996c-d904-410c-bacb-a79f17fad916.xml
 req.header: hidpi.h
+req.construct-type: enumeration
 req.include-header: Hidpi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - HIDP_REPORT_TYPE
 ---
 
-# _HIDP_REPORT_TYPE enumeration
+# HIDP_REPORT_TYPE enumeration (hidpi.h)
+
+
 
 ## -description
 

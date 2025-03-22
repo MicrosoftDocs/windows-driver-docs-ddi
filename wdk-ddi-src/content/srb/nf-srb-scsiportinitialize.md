@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortInitialize function"]
 ms.keywords: ScsiPortInitialize, ScsiPortInitialize routine [Storage Devices], scsiprt_62fb91f9-a420-4156-9a1e-b58b65067a8b.xml, srb/ScsiPortInitialize, storage.scsiportinitialize
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortInitialize
 ---
 
-# ScsiPortInitialize function
+# ScsiPortInitialize function (srb.h)
+
+
 
 
 ## -description

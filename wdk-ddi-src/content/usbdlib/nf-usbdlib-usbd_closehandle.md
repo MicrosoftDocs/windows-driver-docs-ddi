@@ -8,6 +8,7 @@ ms.date: 06/24/2019
 keywords: ["USBD_CloseHandle function"]
 ms.keywords: USBD_CloseHandle, USBD_CloseHandle routine [Buses], buses.usbd_unregister, usbdlib/USBD_CloseHandle
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires DDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_CloseHandle
 ---
 
-# USBD_CloseHandle function
+# USBD_CloseHandle function (usbdlib.h)
+
+
 
 
 ## -description

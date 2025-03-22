@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintJobCollection::GetAt"]
 ms.keywords: GetAt, GetAt method [Print Devices], GetAt method [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],GetAt method, IPrintJobCollection.GetAt, IPrintJobCollection::GetAt, print.iprintjobcollection_getat, printerextension/IPrintJobCollection::GetAt
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintJobCollection::GetAt
 ---
+
+# IPrintJobCollection::GetAt function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSecureZeroMemory function"]
 ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows. (Because the routine is declared inline, the body of the routine can be included in earlier versions of the operating system.)
@@ -40,7 +41,9 @@ api_name:
  - RtlSecureZeroMemory
 ---
 
-# RtlSecureZeroMemory function
+# RtlSecureZeroMemory function (wdm.h)
+
+
 
 
 ## -description

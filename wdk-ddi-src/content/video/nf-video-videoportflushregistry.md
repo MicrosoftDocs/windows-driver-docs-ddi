@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortFlushRegistry function"]
 ms.keywords: VideoPortFlushRegistry, VideoPortFlushRegistry function [Display Devices], VideoPort_Functions_fe7df781-6130-484d-b582-55446711fef6.xml, display.videoportflushregistry, video/VideoPortFlushRegistry
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortFlushRegistry
 ---
 
-# VideoPortFlushRegistry function
+# VideoPortFlushRegistry function (video.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ tech.root: display
 ms.date: 11/08/2024
 keywords: ["D3DKMDT_STANDARDALLOCATION_TYPE enumeration"]
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -41,7 +42,9 @@ api_name:
  - D3DKMDT_STANDARDALLOCATION_TYPE
 ---
 
-# D3DKMDT_STANDARDALLOCATION_TYPE enumeration
+# D3DKMDT_STANDARDALLOCATION_TYPE enumeration (d3dkmdt.h)
+
+
 
 ## -description
 

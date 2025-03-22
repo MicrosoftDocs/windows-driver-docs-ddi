@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortCompareMemory function"]
 ms.keywords: VideoPortCompareMemory, VideoPortCompareMemory function [Display Devices], VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, display.videoportcomparememory, video/VideoPortCompareMemory
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortCompareMemory
 ---
 
-# VideoPortCompareMemory function
+# VideoPortCompareMemory function (video.h)
+
+
 
 
 ## -description

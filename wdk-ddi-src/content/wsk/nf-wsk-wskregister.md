@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WskRegister function"]
 ms.keywords: WskRegister, WskRegister function [Network Drivers Starting with Windows Vista], netvista.wskregister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
 req.header: wsk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - WskRegister
 ---
 
-# WskRegister function
+# WskRegister function (wsk.h)
+
+
 
 
 ## -description

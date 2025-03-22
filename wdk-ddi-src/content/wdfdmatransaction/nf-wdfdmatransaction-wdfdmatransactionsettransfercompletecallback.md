@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetTransferCompleteCallback function"]
 ms.keywords: WdfDmaTransactionSetTransferCompleteCallback, WdfDmaTransactionSetTransferCompleteCallback method, kmdf.wdfdmatransactionsettransfercompletecallback, wdf.wdfdmatransactionsettransfercompletecallback, wdfdmatransaction/WdfDmaTransactionSetTransferCompleteCallback
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionSetTransferCompleteCallback
 ---
 
-# WdfDmaTransactionSetTransferCompleteCallback function
+# WdfDmaTransactionSetTransferCompleteCallback function (wdfdmatransaction.h)
+
+
 
 
 ## -description

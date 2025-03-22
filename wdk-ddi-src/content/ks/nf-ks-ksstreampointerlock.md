@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerLock function"]
 ms.keywords: KsStreamPointerLock, KsStreamPointerLock function [Streaming Media Devices], avfunc_c7a4d7fb-9708-480d-a452-f398637bc82a.xml, ks/KsStreamPointerLock, stream.ksstreampointerlock
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerLock
 ---
 
-# KsStreamPointerLock function
+# KsStreamPointerLock function (ks.h)
+
+
 
 
 ## -description

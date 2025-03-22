@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrvTransferCallback::GetNextStream"]
 ms.keywords: GetNextStream, GetNextStream method [Imaging Devices], GetNextStream method [Imaging Devices],IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices],GetNextStream method, IWiaMiniDrvTransferCallback.GetNextStream, IWiaMiniDrvTransferCallback::GetNextStream, image.iwiaminidrvtransfercallback_getnextstream, wiamindr_lh/IWiaMiniDrvTransferCallback::GetNextStream
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrvTransferCallback::GetNextStream
 ---
+
+# IWiaMiniDrvTransferCallback::GetNextStream function (wiamindr_lh.h)
 
 ## -description
 

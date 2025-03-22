@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFDevicePnPEventNotify function"]
 ms.keywords: NdisFDevicePnPEventNotify, NdisFDevicePnPEventNotify function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_56e249ae-0200-4c98-b20c-03cc8d3fdd7d.xml, ndis/NdisFDevicePnPEventNotify, netvista.ndisfdevicepnpeventnotify
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFDevicePnPEventNotify
 ---
 
-# NdisFDevicePnPEventNotify function
+# NdisFDevicePnPEventNotify function (ndis.h)
+
+
 
 
 ## -description

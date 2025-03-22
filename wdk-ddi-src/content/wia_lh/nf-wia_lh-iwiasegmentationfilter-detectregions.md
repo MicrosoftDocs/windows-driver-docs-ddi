@@ -7,6 +7,7 @@ ms.date: 11/10/2022
 keywords: ["IWiaSegmentationFilter::DetectRegions"]
 ms.keywords: DetectRegions, DetectRegions method [Imaging Devices], DetectRegions method [Imaging Devices],IWiaSegmentationFilter interface, IWiaSegmentationFilter interface [Imaging Devices],DetectRegions method, IWiaSegmentationFilter.DetectRegions, IWiaSegmentationFilter::DetectRegions, image.iwiasegmentationfilter_detectregions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, wia_lh/IWiaSegmentationFilter::DetectRegions
 req.header: wia_lh.h
+req.construct-type: function
 req.include-header: Wia_lh.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaSegmentationFilter::DetectRegions
 ---
+
+# IWiaSegmentationFilter::DetectRegions function (wia_lh.h)
 
 ## -description
 

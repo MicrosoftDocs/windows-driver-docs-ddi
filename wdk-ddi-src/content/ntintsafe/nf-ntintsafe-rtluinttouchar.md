@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUIntToUChar function"]
 ms.keywords: RtlUIntToUChar, RtlUIntToUChar function [Kernel-Mode Driver Architecture], kernel.rtluinttouchar, ntintsafe/RtlUIntToUChar
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUIntToUChar
 ---
 
-# RtlUIntToUChar function
+# RtlUIntToUChar function (ntintsafe.h)
+
+
 
 
 ## -description

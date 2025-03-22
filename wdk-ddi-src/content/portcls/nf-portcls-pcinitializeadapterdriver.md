@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcInitializeAdapterDriver function"]
 ms.keywords: PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audio.pcinitializeadapterdriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, portcls/PcInitializeAdapterDriver
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcInitializeAdapterDriver function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcInitializeAdapterDriver
 ---
 
-# PcInitializeAdapterDriver function
+# PcInitializeAdapterDriver function (portcls.h)
+
+
 
 
 ## -description

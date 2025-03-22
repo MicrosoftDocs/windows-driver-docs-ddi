@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxRetrieveTransmitBuffer function"]
 ms.keywords: 1/SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer, SerCxRetrieveTransmitBuffer method [Serial Ports], serports.sercxretrievetransmitbuffer
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxRetrieveTransmitBuffer
 ---
 
-# SerCxRetrieveTransmitBuffer function
+# SerCxRetrieveTransmitBuffer function (sercx.h)
+
+
 
 
 ## -description

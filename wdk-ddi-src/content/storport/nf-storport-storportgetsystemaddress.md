@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetSystemAddress function"]
 ms.keywords: StorPortGetSystemAddress, StorPortGetSystemAddress routine [Storage Devices], storage.storportgetsystemaddress, storport/StorPortGetSystemAddress, storprt_6e6713c8-a235-43b8-a325-2d4b8fca8f35.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Server 2003 with SP2.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetSystemAddress
 ---
 
-# StorPortGetSystemAddress function
+# StorPortGetSystemAddress function (storport.h)
+
+
 
 
 ## -description

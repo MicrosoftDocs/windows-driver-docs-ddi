@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["TapeClassInitialize function"]
 ms.keywords: TapeClassInitialize, TapeClassInitialize routine [Storage Devices], minitape/TapeClassInitialize, storage.tapeclassinitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml
 req.header: minitape.h
+req.construct-type: function
 req.include-header: Minitape.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - TapeClassInitialize
 ---
 
-# TapeClassInitialize function
+# TapeClassInitialize function (minitape.h)
+
+
 
 
 ## -description

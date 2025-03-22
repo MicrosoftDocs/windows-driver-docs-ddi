@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_ENABLE_STREAMING IOCTL"]
 ms.keywords: IOCTL_CDROM_ENABLE_STREAMING, IOCTL_CDROM_ENABLE_STREAMING control, IOCTL_CDROM_ENABLE_STREAMING control code [Storage Devices], ntddcdrm/IOCTL_CDROM_ENABLE_STREAMING, storage.ioctl_cdrom_enable_streaming
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Winioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_ENABLE_STREAMING
 ---
 
-# IOCTL_CDROM_ENABLE_STREAMING IOCTL
+# IOCTL_CDROM_ENABLE_STREAMING IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

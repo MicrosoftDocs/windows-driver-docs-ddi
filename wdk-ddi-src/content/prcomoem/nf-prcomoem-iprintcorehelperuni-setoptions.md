@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IPrintCoreHelperUni::SetOptions"]
 ms.keywords: IPrintCoreHelperUni interface [Print Devices],SetOptions method, IPrintCoreHelperUni.SetOptions, IPrintCoreHelperUni::SetOptions, SetOptions, SetOptions method [Print Devices], SetOptions method [Print Devices],IPrintCoreHelperUni interface, prcomoem/IPrintCoreHelperUni::SetOptions, print.iprintcorehelperuni_setoptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintCoreHelperUni::SetOptions
 ---
+
+# IPrintCoreHelperUni::SetOptions function (prcomoem.h)
 
 ## -description
 

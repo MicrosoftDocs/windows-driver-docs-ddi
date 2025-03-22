@@ -7,6 +7,7 @@ keywords: ["IsSensorSubscribed function"]
 tech.root: sensors
 ms.keywords: IsSensorSubscribed
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - IsSensorSubscribed
 ---
 
-# IsSensorSubscribed function
+# IsSensorSubscribed function (sensorsutils.h)
+
+
 
 
 ## -description

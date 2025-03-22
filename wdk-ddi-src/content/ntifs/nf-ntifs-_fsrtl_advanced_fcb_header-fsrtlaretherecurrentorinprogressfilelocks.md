@@ -8,6 +8,7 @@ ms.date: 03/20/2023
 keywords: ["FsRtlAreThereCurrentOrInProgressFileLocks function"]
 ms.keywords: FsRtlAreThereCurrentOrInProgressFileLocks, FsRtlAreThereCurrentOrInProgressFileLocks routine [Installable File System Drivers], fsrtlref_66517730-628e-4aa4-b3c0-b5c0e0fd4d7d.xml, ifsk.fsrtlaretherecurrentorinprogressfilelocks, ntifs/FsRtlAreThereCurrentOrInProgressFileLocks
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - FsRtlAreThereCurrentOrInProgressFileLocks
 ---
 
-# FsRtlAreThereCurrentOrInProgressFileLocks function
+# FsRtlAreThereCurrentOrInProgressFileLocks function (ntifs.h)
+
+
 
 ## -description
 

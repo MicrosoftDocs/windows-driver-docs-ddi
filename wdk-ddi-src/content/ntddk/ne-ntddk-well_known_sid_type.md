@@ -7,6 +7,7 @@ ms.date: 09/26/2022
 keywords: ["WELL_KNOWN_SID_TYPE enumeration"]
 ms.keywords: WELL_KNOWN_SID_TYPE, WELL_KNOWN_SID_TYPE
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -29,6 +30,8 @@ api_location:
 api_name:
  - WELL_KNOWN_SID_TYPE
 ---
+
+# WELL_KNOWN_SID_TYPE enumeration (ntddk.h)
 
 ## -description
 

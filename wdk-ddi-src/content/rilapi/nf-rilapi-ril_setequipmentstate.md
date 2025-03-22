@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetEquipmentState function"]
 ms.keywords: RIL_SetEquipmentState, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], netvista.ril_setequipmentstate, rilapi/RIL_SetEquipmentState
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetEquipmentState
 ---
 
-# RIL_SetEquipmentState function
+# RIL_SetEquipmentState function (rilapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInterlockedInsertHeadList macro"]
 ms.keywords: NdisInterlockedInsertHeadList, NdisInterlockedInsertHeadList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedInsertHeadList, ndis_interlocked_ref_14cc728a-07b7-471f-a222-4810d9d79d5a.xml, netvista.ndisinterlockedinsertheadlist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisInterlockedInsertHeadList (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisInterlockedInsertHeadList (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,11 @@ api_name:
  - NdisInterlockedInsertHeadList
 ---
 
-# NdisInterlockedInsertHeadList macro
+# NdisInterlockedInsertHeadList macro (ndis.h)
+
+
+
+
 
 
 ## -description

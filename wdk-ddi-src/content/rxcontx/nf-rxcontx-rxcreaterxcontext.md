@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCreateRxContext function"]
 ms.keywords: RxCreateRxContext, RxCreateRxContext function [Installable File System Drivers], ifsk.rxcreaterxcontext, rxcontx/RxCreateRxContext, rxref_ceb498ca-e985-4100-a104-8333abb41fdf.xml
 req.header: rxcontx.h
+req.construct-type: function
 req.include-header: Rxprocs.h  rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCreateRxContext
 ---
 
-# RxCreateRxContext function
+# RxCreateRxContext function (rxcontx.h)
+
+
 
 
 ## -description

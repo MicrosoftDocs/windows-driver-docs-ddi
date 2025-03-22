@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_AUTH_METHOD enumeration"]
 ms.keywords: "*PWWAN_AUTH_METHOD, WWAN_AUTH_METHOD, WWAN_AUTH_METHOD enumeration [Network Drivers Starting with Windows Vista], WwanAuthAka, WwanAuthAkaPrime, WwanAuthMethodMax, WwanAuthSim, _WWAN_AUTH_METHOD, netvista.wwan_auth_method, wwan/WWAN_AUTH_METHOD, wwan/WwanAuthAka, wwan/WwanAuthAkaPrime, wwan/WwanAuthMethodMax, wwan/WwanAuthSim"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_AUTH_METHOD
 ---
 
-# _WWAN_AUTH_METHOD enumeration
+# WWAN_AUTH_METHOD enumeration (wwan.h)
+
+
 
 
 ## -description

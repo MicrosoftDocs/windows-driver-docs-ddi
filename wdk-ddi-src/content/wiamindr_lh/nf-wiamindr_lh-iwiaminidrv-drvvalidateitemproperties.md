@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvValidateItemProperties"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvValidateItemProperties method, IWiaMiniDrv.drvValidateItemProperties, IWiaMiniDrv::drvValidateItemProperties, MiniDrv_b288e05c-a142-452a-9ac7-ffb2dfcae4cf.xml, drvValidateItemProperties, drvValidateItemProperties method [Imaging Devices], drvValidateItemProperties method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvvalidateitemproperties, wiamindr_lh/IWiaMiniDrv::drvValidateItemProperties
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvValidateItemProperties
 ---
+
+# IWiaMiniDrv::drvValidateItemProperties function (wiamindr_lh.h)
 
 ## -description
 

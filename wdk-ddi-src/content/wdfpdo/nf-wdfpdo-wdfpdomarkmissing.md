@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoMarkMissing function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_a4198313-bd10-4b8a-a032-f253cdaccc7b.xml, WdfPdoMarkMissing, WdfPdoMarkMissing method, kmdf.wdfpdomarkmissing, wdf.wdfpdomarkmissing, wdfpdo/WdfPdoMarkMissing
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoMarkMissing
 ---
 
-# WdfPdoMarkMissing function
+# WdfPdoMarkMissing function (wdfpdo.h)
+
+
 
 
 ## -description

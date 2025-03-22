@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSRESET enumeration"]
 ms.keywords: KSRESET, KSRESET enumeration [Streaming Media Devices], KSRESET_BEGIN, KSRESET_END, ks/KSRESET, ks/KSRESET_BEGIN, ks/KSRESET_END, stream.ksreset
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSRESET
 ---
 
-# KSRESET enumeration
+# KSRESET enumeration (ks.h)
+
+
 
 
 ## -description

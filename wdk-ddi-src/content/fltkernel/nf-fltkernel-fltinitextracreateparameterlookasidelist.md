@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltInitExtraCreateParameterLookasideList function"]
 ms.keywords: FltApiRef_e_to_o_b9cff240-0f03-4756-86d0-a44612df8e58.xml, FltInitExtraCreateParameterLookasideList, FltInitExtraCreateParameterLookasideList routine [Installable File System Drivers], fltkernel/FltInitExtraCreateParameterLookasideList, ifsk.fltinitextracreateparameterlookasidelist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltInitExtraCreateParameterLookasideList routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltInitExtraCreateParameterLookasideList
 ---
 
-# FltInitExtraCreateParameterLookasideList function
+# FltInitExtraCreateParameterLookasideList function (fltkernel.h)
+
+
 
 
 ## -description

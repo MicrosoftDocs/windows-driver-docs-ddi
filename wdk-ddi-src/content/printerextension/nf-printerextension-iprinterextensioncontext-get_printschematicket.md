@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionContext::get_PrintSchemaTicket"]
 ms.keywords: IPrinterExtensionContext interface [Print Devices],PrintSchemaTicket property, IPrinterExtensionContext.PrintSchemaTicket, IPrinterExtensionContext.get_PrintSchemaTicket, IPrinterExtensionContext::PrintSchemaTicket, IPrinterExtensionContext::get_PrintSchemaTicket, PrintSchemaTicket property [Print Devices], PrintSchemaTicket property [Print Devices],IPrinterExtensionContext interface, get_PrintSchemaTicket, print.iprinterextensioncontext_printschematicket, printerextension/IPrinterExtensionContext::PrintSchemaTicket, printerextension/IPrinterExtensionContext::get_PrintSchemaTicket
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionContext::get_PrintSchemaTicket
 ---
+
+# IPrinterExtensionContext::get_PrintSchemaTicket function (printerextension.h)
 
 ## -description
 

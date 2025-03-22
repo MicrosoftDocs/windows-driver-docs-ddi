@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_UnsetUsages function"]
 ms.keywords: HidP_UnsetUsages, HidP_UnsetUsages routine [Human Input Devices], hid.hidp_unsetusages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hidpi/HidP_UnsetUsages
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_UnsetUsages
 ---
 
-# HidP_UnsetUsages function
+# HidP_UnsetUsages function (hidpi.h)
+
+
 
 
 ## -description

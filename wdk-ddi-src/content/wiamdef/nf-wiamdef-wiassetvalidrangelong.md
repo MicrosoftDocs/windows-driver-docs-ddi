@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasSetValidRangeLong function"]
 ms.keywords: image.wiassetvalidrangelong, wiamdef/wiasSetValidRangeLong, wiasFncs_3ee53b59-4ef4-4c35-8544-1ac7a8729212.xml, wiasSetValidRangeLong, wiasSetValidRangeLong function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasSetValidRangeLong
 ---
 
-# wiasSetValidRangeLong function
+# wiasSetValidRangeLong function (wiamdef.h)
+
+
 
 
 ## -description

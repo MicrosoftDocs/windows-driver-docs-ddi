@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSetHardErrorOrVerifyDevice function"]
 ms.keywords: IoSetHardErrorOrVerifyDevice, IoSetHardErrorOrVerifyDevice routine [Kernel-Mode Driver Architecture], k104_60c33e0c-64d3-404b-85a3-57e7da269404.xml, kernel.iosetharderrororverifydevice, ntddk/IoSetHardErrorOrVerifyDevice
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoSetHardErrorOrVerifyDevice
 ---
 
-# IoSetHardErrorOrVerifyDevice function
+# IoSetHardErrorOrVerifyDevice function (ntddk.h)
+
+
 
 
 ## -description

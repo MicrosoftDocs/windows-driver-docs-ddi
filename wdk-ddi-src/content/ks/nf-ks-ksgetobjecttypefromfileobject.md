@@ -8,6 +8,7 @@ ms.date: 04/12/2021
 keywords: ["KsGetObjectTypeFromFileObject function"]
 ms.keywords: KsGetObjectTypeFromFileObject, KsGetObjectTypeFromFileObject function [Streaming Media Devices], avfunc_51a9a4d6-1481-45f9-918e-582907e8513c.xml, ks/KsGetObjectTypeFromFileObject, stream.ksgetobjecttypefromfileobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetObjectTypeFromFileObject
 ---
 
-# KsGetObjectTypeFromFileObject function
+# KsGetObjectTypeFromFileObject function (ks.h)
+
+
 
 ## -description
 

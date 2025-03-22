@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRegisterPhysicalConnection function"]
 ms.keywords: PcRegisterPhysicalConnection, PcRegisterPhysicalConnection function [Audio Devices], audio.pcregisterphysicalconnection, audpc-routines_d806f159-7b56-428c-8780-f95d3c5f3b14.xml, portcls/PcRegisterPhysicalConnection
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcRegisterPhysicalConnection function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcRegisterPhysicalConnection
 ---
 
-# PcRegisterPhysicalConnection function
+# PcRegisterPhysicalConnection function (portcls.h)
+
+
 
 
 ## -description

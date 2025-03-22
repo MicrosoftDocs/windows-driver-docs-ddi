@@ -7,6 +7,7 @@ ms.date: 11/15/2022
 keywords: ["SetCPSUIUserData function"]
 ms.keywords: SetCPSUIUserData, SetCPSUIUserData function [Print Devices], compstui/SetCPSUIUserData, cpsuifnc_d2f38387-ece5-4894-86d5-0ef66f62a72c.xml, print.setcpsuiuserdata
 req.header: compstui.h
+req.construct-type: function
 req.include-header: Compstui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SetCPSUIUserData
 ---
+
+# SetCPSUIUserData function (compstui.h)
 
 ## -description
 

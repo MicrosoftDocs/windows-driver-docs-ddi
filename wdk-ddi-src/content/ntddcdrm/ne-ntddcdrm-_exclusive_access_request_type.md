@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration"]
 ms.keywords: "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ExclusiveAccessLockDevice, ExclusiveAccessQueryState, ExclusiveAccessUnlockDevice, PEXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], _EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessQueryState, ntddcdrm/ExclusiveAccessUnlockDevice, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, storage.exclusive_access_request_type, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml"
 req.header: ntddcdrm.h
+req.construct-type: enumeration
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - EXCLUSIVE_ACCESS_REQUEST_TYPE
 ---
 
-# _EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration
+# EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration (ntddcdrm.h)
+
+
 
 
 ## -description

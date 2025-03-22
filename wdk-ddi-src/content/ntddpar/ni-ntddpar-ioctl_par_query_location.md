@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_QUERY_LOCATION IOCTL"]
 ms.keywords: IOCTL_PAR_QUERY_LOCATION, IOCTL_PAR_QUERY_LOCATION control code [Parallel Ports], cisspd_49c52fd1-3855-4611-aa3b-4fa7c0ec6b16.xml, ntddpar/IOCTL_PAR_QUERY_LOCATION, parports.ioctl_par_query_location
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PAR_QUERY_LOCATION
 ---
 
-# IOCTL_PAR_QUERY_LOCATION IOCTL
+# IOCTL_PAR_QUERY_LOCATION IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

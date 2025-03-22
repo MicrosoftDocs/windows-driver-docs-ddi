@@ -7,6 +7,7 @@ ms.date: 11/15/2023
 keywords: ["FltReadFile function"]
 ms.keywords: FltApiRef_p_to_z_83c0167c-78df-4692-980b-7a55f531a9db.xml, FltReadFile, FltReadFile function [Installable File System Drivers], fltkernel/FltReadFile, ifsk.fltreadfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - FltReadFile
 ---
 
-# FltReadFile function
+# FltReadFile function (fltkernel.h)
+
+
 
 ## -description
 

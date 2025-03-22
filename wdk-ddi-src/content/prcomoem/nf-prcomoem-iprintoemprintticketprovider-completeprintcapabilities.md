@@ -7,6 +7,7 @@ ms.date: 08/22/2022
 keywords: ["IPrintOemPrintTicketProvider::CompletePrintCapabilities"]
 ms.keywords: CompletePrintCapabilities, CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices],IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices],CompletePrintCapabilities method, IPrintOemPrintTicketProvider.CompletePrintCapabilities, IPrintOemPrintTicketProvider::CompletePrintCapabilities, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print.iprintoemprintticketprovider_completeprintcapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintOemPrintTicketProvider::CompletePrintCapabilities
 ---
+
+# IPrintOemPrintTicketProvider::CompletePrintCapabilities function (prcomoem.h)
 
 ## -description
 

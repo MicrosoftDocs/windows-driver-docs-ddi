@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_EXTENSION_TYPE enumeration"]
 ms.keywords: NET_EXTENSION_TYPE, NET_EXTENSION_TYPE,
 req.header: extension.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - NET_EXTENSION_TYPE
 ---
 
-# NET_EXTENSION_TYPE enumeration
+# NET_EXTENSION_TYPE enumeration (extension.h)
+
+
 
 
 ## -description

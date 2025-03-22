@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDICAPS_SHADER_MIN_PRECISION enumeration"]
 ms.keywords: D3DDDICAPS_SHADER_MIN_PRECISION, D3DDDICAPS_SHADER_MIN_PRECISION enumeration [Display Devices], D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_10_BIT, d3dumddi/D3DDDICAPS_SHADER_MIN_PRECISION_16_BIT, display.d3dddicaps_shader_min_precision
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DDDICAPS_SHADER_MIN_PRECISION
 ---
 
-# D3DDDICAPS_SHADER_MIN_PRECISION enumeration
+# D3DDDICAPS_SHADER_MIN_PRECISION enumeration (d3dumddi.h)
+
+
 
 
 ## -description

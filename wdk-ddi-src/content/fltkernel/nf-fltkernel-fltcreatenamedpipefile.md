@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCreateNamedPipeFile function"]
 ms.keywords: FILE_PIPE_BYTE_STREAM_MODE, FILE_PIPE_BYTE_STREAM_TYPE, FILE_PIPE_COMPLETE_OPERATION, FILE_PIPE_MESSAGE_MODE, FILE_PIPE_MESSAGE_TYPE, FILE_PIPE_QUEUE_COMPLETION, FltCreateNamedPipeFile, FltCreateNamedPipeFile function [Installable File System Drivers], fltkernel/FltCreateNamedPipeFile, ifsk.fltcreatenamedpipefile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FltCreateNamedPipeFile
 ---
 
-# FltCreateNamedPipeFile function
+# FltCreateNamedPipeFile function (fltkernel.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/20/2024
 keywords: ["D3D12DDI_3DPIPELINELEVEL enumeration"]
 ms.keywords: D3D12DDI_3DPIPELINELEVEL, D3D12DDI_3DPIPELINELEVEL,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_3DPIPELINELEVEL enumeration
+# D3D12DDI_3DPIPELINELEVEL enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

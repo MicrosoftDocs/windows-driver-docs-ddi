@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_UsageListDifference function"]
 ms.keywords: HidP_UsageListDifference, HidP_UsageListDifference routine [Human Input Devices], hid.hidp_usagelistdifference, hidfunc_91cbddd2-90f6-4784-9f1d-6d9bf8be35d3.xml, hidpi/HidP_UsageListDifference
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_UsageListDifference
 ---
 
-# HidP_UsageListDifference function
+# HidP_UsageListDifference function (hidpi.h)
+
+
 
 
 ## -description

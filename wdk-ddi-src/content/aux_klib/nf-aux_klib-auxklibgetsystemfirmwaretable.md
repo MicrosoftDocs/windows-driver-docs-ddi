@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AuxKlibGetSystemFirmwareTable function"]
 ms.keywords: AuxKlibGetSystemFirmwareTable, AuxKlibGetSystemFirmwareTable routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibGetSystemFirmwareTable, kernel.auxklibgetsystemfirmwaretable
 req.header: aux_klib.h
+req.construct-type: function
 req.include-header: Aux_klib.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - AuxKlibGetSystemFirmwareTable
 ---
 
-# AuxKlibGetSystemFirmwareTable function
+# AuxKlibGetSystemFirmwareTable function (aux_klib.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VhfReadReportSubmit function"]
 ms.keywords: VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], hid.vhfreadreportsubmit, vhf/VhfReadReportSubmit
 req.header: vhf.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - VhfReadReportSubmit
 ---
 
-# VhfReadReportSubmit function
+# VhfReadReportSubmit function (vhf.h)
+
+
 
 
 ## -description

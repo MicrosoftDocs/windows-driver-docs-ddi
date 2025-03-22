@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetMSIInfo function"]
 ms.keywords: StorPortGetMSIInfo, StorPortGetMSIInfo routine [Storage Devices], storage.storportgetmsiinfo, storport/StorPortGetMSIInfo, storprt_32654460-fd47-4dc9-bd33-2080b881502f.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetMSIInfo
 ---
 
-# StorPortGetMSIInfo function
+# StorPortGetMSIInfo function (storport.h)
+
+
 
 
 ## -description

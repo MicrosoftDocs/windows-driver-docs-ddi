@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_RF_DISCOVERY_CONFIG_INIT function"]
 ms.keywords: NFC_CX_RF_DISCOVERY_CONFIG_INIT, NFC_CX_RF_DISCOVERY_CONFIG_INIT function [Near-Field Proximity Drivers], nfccx/NFC_CX_RF_DISCOVERY_CONFIG_INIT, nfpdrivers.nfc_cx_rf_discovery_config_init
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - NFC_CX_RF_DISCOVERY_CONFIG_INIT
 ---
 
-# NFC_CX_RF_DISCOVERY_CONFIG_INIT function
+# NFC_CX_RF_DISCOVERY_CONFIG_INIT function (nfccx.h)
+
+
 
 
 ## -description

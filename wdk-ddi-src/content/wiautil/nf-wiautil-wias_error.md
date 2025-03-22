@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_ERROR macro"]
 ms.keywords: IWiaLog_5b3e0d61-e0e5-4385-8256-943e437cee9d.xml, WIAS_ERROR, WIAS_ERROR macro [Imaging Devices], image.wias_error, wiamdef/WIAS_ERROR
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the operating system.
@@ -41,6 +42,10 @@ api_name:
 ---
 
 # WIAS_ERROR macro (wiautil.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["WWAN_CONTEXT_OPERATIONS enumeration"]
 ms.keywords: _WWAN_CONTEXT_OPERATIONS, WWAN_CONTEXT_OPERATIONS, *PWWAN_CONTEXT_OPERATIONS,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_CONTEXT_OPERATIONS
 ---
 
-# _WWAN_CONTEXT_OPERATIONS enumeration
+# WWAN_CONTEXT_OPERATIONS enumeration (wwan.h)
+
+
 
 
 ## -description

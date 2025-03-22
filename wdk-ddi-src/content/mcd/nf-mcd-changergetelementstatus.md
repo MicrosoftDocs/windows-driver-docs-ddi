@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerGetElementStatus function"]
 ms.keywords: ChangerGetElementStatus, ChangerGetElementStatus function [Storage Devices], chgrmini_b0e442c7-18c4-4086-b036-3db43177f6e5.xml, mcd/ChangerGetElementStatus, storage.changergetelementstatus
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerGetElementStatus
 ---
 
-# ChangerGetElementStatus function
+# ChangerGetElementStatus function (mcd.h)
+
+
 
 
 ## -description

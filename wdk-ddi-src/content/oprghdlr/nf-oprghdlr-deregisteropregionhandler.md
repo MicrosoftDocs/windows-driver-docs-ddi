@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["DeRegisterOpRegionHandler function"]
 ms.keywords: DeRegisterOpRegionHandler, DeRegisterOpRegionHandler routine [ACPI Devices], acpi.deregisteropregionhandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml, oprghdlr/DeRegisterOpRegionHandler
 req.header: oprghdlr.h
+req.construct-type: function
 req.include-header: Oprghdlr.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - DeRegisterOpRegionHandler
 ---
+
+# DeRegisterOpRegionHandler function (oprghdlr.h)
 
 ## -description
 

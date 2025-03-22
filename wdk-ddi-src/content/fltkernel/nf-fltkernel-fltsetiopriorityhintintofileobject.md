@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltSetIoPriorityHintIntoFileObject function"]
 ms.keywords: FltApiRef_p_to_z_981cae2b-b29c-4890-a462-163031a668d3.xml, FltSetIoPriorityHintIntoFileObject, FltSetIoPriorityHintIntoFileObject routine [Installable File System Drivers], fltkernel/FltSetIoPriorityHintIntoFileObject, ifsk.fltsetiopriorityhintintofileobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltSetIoPriorityHintIntoFileObject
 ---
 
-# FltSetIoPriorityHintIntoFileObject function
+# FltSetIoPriorityHintIntoFileObject function (fltkernel.h)
+
+
 
 
 ## -description

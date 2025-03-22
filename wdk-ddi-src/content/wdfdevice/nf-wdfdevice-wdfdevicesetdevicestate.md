@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceSetDeviceState function"]
 ms.keywords: DFDeviceObjectGeneralRef_41bd0604-a8fb-4df9-a1d2-f602d7ddcac4.xml, WdfDeviceSetDeviceState, WdfDeviceSetDeviceState method, kmdf.wdfdevicesetdevicestate, wdf.wdfdevicesetdevicestate, wdfdevice/WdfDeviceSetDeviceState
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceSetDeviceState
 ---
 
-# WdfDeviceSetDeviceState function
+# WdfDeviceSetDeviceState function (wdfdevice.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/05/2022
 keywords: ["OEMCommand function"]
 ms.keywords: OEMCommand, OEMCommand function [Print Devices], print.oemcommand, print_obsoletefunctions_f6d1a0f9-6560-4e4c-9826-c2714b7c1ad3.xml, printoem/OEMCommand
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMCommand
 ---
+
+# OEMCommand function (printoem.h)
 
 ## -description
 

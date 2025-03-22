@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortWriteRegisterUlong function"]
 ms.keywords: VideoPortWriteRegisterUlong, VideoPortWriteRegisterUlong function [Display Devices], VideoPort_Functions_18ff4439-1c87-44fe-b695-3903b0093e55.xml, display.videoportwriteregisterulong, video/VideoPortWriteRegisterUlong
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortWriteRegisterUlong
 ---
 
-# VideoPortWriteRegisterUlong function
+# VideoPortWriteRegisterUlong function (video.h)
+
+
 
 
 ## -description

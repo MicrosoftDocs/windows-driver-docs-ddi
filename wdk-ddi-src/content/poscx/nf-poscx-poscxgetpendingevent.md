@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxGetPendingEvent function"]
 ms.keywords: PosCxGetPendingEvent, PosCxGetPendingEvent function, pos.poscxgetpendingevent, poscx/PosCxGetPendingEvent
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxGetPendingEvent
 ---
 
-# PosCxGetPendingEvent function
+# PosCxGetPendingEvent function (poscx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["MapSecurityError function"]
 ms.keywords: IFSMiscRef_41a163d7-81d1-4877-b1c2-ae90b203177a.xml, MapSecurityError, MapSecurityError function [Installable File System Drivers], ifsk.mapsecurityerror, ntifs/MapSecurityError
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - MapSecurityError
 ---
 
-# MapSecurityError function
+# MapSecurityError function (ntifs.h)
+
+
 
 
 ## -description

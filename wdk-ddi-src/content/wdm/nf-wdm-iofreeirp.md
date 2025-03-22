@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoFreeIrp function"]
 ms.keywords: IoFreeIrp, IoFreeIrp routine [Kernel-Mode Driver Architecture], k104_fc262cc4-a482-4a92-9f8e-1e5765c9b1d4.xml, kernel.iofreeirp, wdm/IoFreeIrp
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoFreeIrp
 ---
 
-# IoFreeIrp function
+# IoFreeIrp function (wdm.h)
+
+
 
 
 ## -description

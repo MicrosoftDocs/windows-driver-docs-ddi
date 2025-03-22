@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UART_STATUS enumeration"]
 ms.keywords: UART_STATUS, UART_STATUS, *PUART_STATUS,
 req.header: uart.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -33,7 +34,9 @@ api_name:
  - UART_STATUS
 ---
 
-# UART_STATUS enumeration
+# UART_STATUS enumeration (uart.h)
+
+
 
 
 ## -description

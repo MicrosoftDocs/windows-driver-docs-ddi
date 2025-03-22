@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreatePin function"]
 ms.keywords: KsCreatePin, KsCreatePin function [Streaming Media Devices], ks/KsCreatePin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, stream.kscreatepin
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - KsCreatePin
 ---
 
-# KsCreatePin function
+# KsCreatePin function (ks.h)
+
+
 
 
 ## -description

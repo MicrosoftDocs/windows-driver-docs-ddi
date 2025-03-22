@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExAllocateTimer function"]
 ms.keywords: ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, wdm/ExAllocateTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -41,7 +42,9 @@ api_name:
  - ExAllocateTimer
 ---
 
-# ExAllocateTimer function
+# ExAllocateTimer function (wdm.h)
+
+
 
 
 ## -description

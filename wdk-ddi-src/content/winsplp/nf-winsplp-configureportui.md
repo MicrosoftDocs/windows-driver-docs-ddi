@@ -8,6 +8,7 @@ ms.date: 02/02/2018
 keywords: ["ConfigurePortUI function"]
 ms.keywords: pfnConfigurePortUI function [Print Devices], winsplp/pfnConfigurePortUI, ConfigurePortUI, print.configureportui, spoolfnc_5b799b7f-667a-4c5a-855e-554daa2695ea.xml, pfnConfigurePortUI
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ConfigurePortUI
 ---
 
-# ConfigurePortUI function
+# ConfigurePortUI function (winsplp.h)
+
+
 
 
 ## -description

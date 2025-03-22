@@ -7,6 +7,7 @@ ms.date: 11/16/2022
 keywords: ["KsPinAttemptProcessing function"]
 ms.keywords: KsPinAttemptProcessing, KsPinAttemptProcessing function [Streaming Media Devices], avfunc_e17d5ad8-b0e3-4b5e-ab4c-a552f1650ed4.xml, ks/KsPinAttemptProcessing, stream.kspinattemptprocessing
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsPinAttemptProcessing
 ---
+
+# KsPinAttemptProcessing function (ks.h)
 
 ## -description
 

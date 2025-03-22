@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryRemoveKey function"]
 ms.keywords: DFRegKeyObjectRef_448264d5-1720-46e3-b493-b195825db91f.xml, WdfRegistryRemoveKey, WdfRegistryRemoveKey method, kmdf.wdfregistryremovekey, wdf.wdfregistryremovekey, wdfregistry/WdfRegistryRemoveKey
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryRemoveKey
 ---
 
-# WdfRegistryRemoveKey function
+# WdfRegistryRemoveKey function (wdfregistry.h)
+
+
 
 
 ## -description

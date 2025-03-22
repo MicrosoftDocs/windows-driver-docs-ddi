@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_USSD_SESSION_STATE enumeration"]
 ms.keywords: "*PWWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE, WWAN_USSD_SESSION_STATE enumeration [Network Drivers Starting with Windows Vista], WwanUssdSessionStateExisting, WwanUssdSessionStateNew, _WWAN_USSD_SESSION_STATE, netvista.wwan_ussd_session_state, wwan/WWAN_USSD_SESSION_STATE, wwan/WwanUssdSessionStateExisting, wwan/WwanUssdSessionStateNew"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_USSD_SESSION_STATE
 ---
 
-# _WWAN_USSD_SESSION_STATE enumeration
+# WWAN_USSD_SESSION_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

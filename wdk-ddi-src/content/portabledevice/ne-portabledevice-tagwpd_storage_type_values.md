@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_STORAGE_TYPE_VALUES enumeration"]
 ms.keywords: WPD_STORAGE_TYPE_FIXED_RAM, WPD_STORAGE_TYPE_FIXED_ROM, WPD_STORAGE_TYPE_REMOVABLE_RAM, WPD_STORAGE_TYPE_REMOVABLE_ROM, WPD_STORAGE_TYPE_UNDEFINED, WPD_STORAGE_TYPE_VALUES, WPD_STORAGE_TYPE_VALUES enumeration, portabledevice/WPD_STORAGE_TYPE_FIXED_RAM, portabledevice/WPD_STORAGE_TYPE_FIXED_ROM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_RAM, portabledevice/WPD_STORAGE_TYPE_REMOVABLE_ROM, portabledevice/WPD_STORAGE_TYPE_UNDEFINED, portabledevice/WPD_STORAGE_TYPE_VALUES, tagWPD_STORAGE_TYPE_VALUES, wpddk.wpd_storage_type_values
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_STORAGE_TYPE_VALUES
 ---
 
-# tagWPD_STORAGE_TYPE_VALUES enumeration
+# tagWPD_STORAGE_TYPE_VALUES enumeration (portabledevice.h)
+
+
 
 
 ## -description

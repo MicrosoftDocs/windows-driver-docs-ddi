@@ -8,6 +8,7 @@ ms.date: 06/30/2020
 keywords: ["ZwCreateEvent function"]
 ms.keywords: NtCreateEvent, ZwCreateEvent, ZwCreateEvent routine [Kernel-Mode Driver Architecture], k111_53554a99-3112-4f70-8c00-9d632a74d15b.xml, kernel.zwcreateevent, ntifs/NtCreateEvent, ntifs/ZwCreateEvent
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - ZwCreateEvent
 ---
 
-# ZwCreateEvent function
+# ZwCreateEvent function (ntifs.h)
+
+
 
 
 ## -description

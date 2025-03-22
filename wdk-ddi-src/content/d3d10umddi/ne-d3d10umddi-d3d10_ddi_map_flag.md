@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D10_DDI_MAP_FLAG enumeration"]
 ms.keywords: D3D10_DDI_MAP_FLAG, D3D10_DDI_MAP_FLAG enumeration [Display Devices], D3D10_DDI_MAP_FLAG_DONOTWAIT, D3D10_DDI_MAP_FLAG_MASK, UMDisplayDriver_Dx10param_Structs_ff1e6692-48bb-4381-831a-3d090bbb6f3f.xml, d3d10umddi/D3D10_DDI_MAP_FLAG, d3d10umddi/D3D10_DDI_MAP_FLAG_DONOTWAIT, d3d10umddi/D3D10_DDI_MAP_FLAG_MASK, display.d3d10_ddi_map_flag
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - D3D10_DDI_MAP_FLAG
 ---
 
-# D3D10_DDI_MAP_FLAG enumeration
+# D3D10_DDI_MAP_FLAG enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

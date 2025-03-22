@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortReadPortBufferUlong macro"]
 ms.keywords: ScsiPortReadPortBufferUlong, ScsiPortReadPortBufferUlong routine [Storage Devices], scsiprt_5da99f27-5758-4e1b-af45-0d9069b55af7.xml, srb/ScsiPortReadPortBufferUlong, storage.scsiportreadportbufferulong
 req.header: storport.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - ScsiPortReadPortBufferUlong
 ---
 
-# ScsiPortReadPortBufferUlong macro
+# ScsiPortReadPortBufferUlong macro (storport.h)
+
+
+
+
 
 
 ## -description

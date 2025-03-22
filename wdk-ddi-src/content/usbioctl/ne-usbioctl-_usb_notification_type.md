@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["USB_NOTIFICATION_TYPE enumeration"]
 ms.keywords: _USB_NOTIFICATION_TYPE, USB_NOTIFICATION_TYPE,
 req.header: usbioctl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USB_NOTIFICATION_TYPE
 ---
 
-# _USB_NOTIFICATION_TYPE enumeration
+# USB_NOTIFICATION_TYPE enumeration (usbioctl.h)
+
+
 
 
 ## -description

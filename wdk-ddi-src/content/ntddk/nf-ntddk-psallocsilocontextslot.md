@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["PsAllocSiloContextSlot function"]
 ms.keywords: PsAllocSiloContextSlot, PsAllocSiloContextSlot routine [Kernel-Mode Driver Architecture], kernel.psallocsilocontextslot, ntddk/PsAllocSiloContextSlot
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PsAllocSiloContextSlot
 ---
+
+# PsAllocSiloContextSlot function (ntddk.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaEnablerGetMaximumLength function"]
 ms.keywords: DFDmaObjectRef_8d6be540-2f98-48f9-8ffe-332c96394920.xml, WdfDmaEnablerGetMaximumLength, WdfDmaEnablerGetMaximumLength method, kmdf.wdfdmaenablergetmaximumlength, wdf.wdfdmaenablergetmaximumlength, wdfdmaenabler/WdfDmaEnablerGetMaximumLength
 req.header: wdfdmaenabler.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaEnablerGetMaximumLength
 ---
 
-# WdfDmaEnablerGetMaximumLength function
+# WdfDmaEnablerGetMaximumLength function (wdfdmaenabler.h)
+
+
 
 
 ## -description

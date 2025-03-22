@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionInitializeUsingOffset function"]
 ms.keywords: WdfDmaTransactionInitializeUsingOffset, WdfDmaTransactionInitializeUsingOffset method, kmdf.wdfdmatransactioninitializeusingoffset, wdf.wdfdmatransactioninitializeusingoffset, wdfdmatransaction/WdfDmaTransactionInitializeUsingOffset
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionInitializeUsingOffset
 ---
 
-# WdfDmaTransactionInitializeUsingOffset function
+# WdfDmaTransactionInitializeUsingOffset function (wdfdmatransaction.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterGetFirstChildPin function"]
 ms.keywords: KsFilterGetFirstChildPin, KsFilterGetFirstChildPin function [Streaming Media Devices], avfunc_303477ee-598b-4b5b-baae-1e520c154e99.xml, ks/KsFilterGetFirstChildPin, stream.ksfiltergetfirstchildpin
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterGetFirstChildPin
 ---
 
-# KsFilterGetFirstChildPin function
+# KsFilterGetFirstChildPin function (ks.h)
+
+
 
 
 ## -description

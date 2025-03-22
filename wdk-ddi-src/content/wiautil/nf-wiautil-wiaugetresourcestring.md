@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauGetResourceString function"]
 ms.keywords: image.wiaugetresourcestring, wiauFncs_aa163759-0e49-4612-9f6c-78bd6534a62e.xml, wiauGetResourceString, wiauGetResourceString function [Imaging Devices], wiautil/wiauGetResourceString
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauGetResourceString
 ---
 
-# wiauGetResourceString function
+# wiauGetResourceString function (wiautil.h)
+
+
 
 
 ## -description

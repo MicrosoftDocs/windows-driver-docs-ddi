@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCheckShareAccessEx function"]
 ms.keywords: IoCheckShareAccessEx, IoCheckShareAccessEx routine [Kernel-Mode Driver Architecture], kernel.iocheckshareaccessex, wdm/IoCheckShareAccessEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - IoCheckShareAccessEx
 ---
 
-# IoCheckShareAccessEx function
+# IoCheckShareAccessEx function (wdm.h)
+
+
 
 
 ## -description

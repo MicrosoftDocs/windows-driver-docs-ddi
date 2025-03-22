@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSetLinkShareAccess function"]
 ms.keywords: IoSetLinkShareAccess, IoSetLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.iosetlinkshareaccess, wdm/IoSetLinkShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - IoSetLinkShareAccess
 ---
 
-# IoSetLinkShareAccess function
+# IoSetLinkShareAccess function (wdm.h)
+
+
 
 
 ## -description

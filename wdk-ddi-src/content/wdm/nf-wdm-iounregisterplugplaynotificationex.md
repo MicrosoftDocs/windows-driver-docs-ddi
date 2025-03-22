@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoUnregisterPlugPlayNotificationEx function"]
 ms.keywords: IoUnregisterPlugPlayNotificationEx, IoUnregisterPlugPlayNotificationEx routine [Kernel-Mode Driver Architecture], k104_ed460118-9610-4e7b-98fe-3b1cfee74e4b.xml, kernel.iounregisterplugplaynotificationex, wdm/IoUnregisterPlugPlayNotificationEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoUnregisterPlugPlayNotificationEx
 ---
+
+# IoUnregisterPlugPlayNotificationEx function (wdm.h)
 
 ## -description
 

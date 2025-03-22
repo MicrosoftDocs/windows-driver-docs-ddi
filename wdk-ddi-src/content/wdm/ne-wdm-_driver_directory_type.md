@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["DRIVER_DIRECTORY_TYPE enumeration"]
 ms.keywords: _DRIVER_DIRECTORY_TYPE, DRIVER_DIRECTORY_TYPE, *PDRIVER_DIRECTORY_TYPE,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - DRIVER_DIRECTORY_TYPE
 ---
 
-# _DRIVER_DIRECTORY_TYPE enumeration
+# DRIVER_DIRECTORY_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

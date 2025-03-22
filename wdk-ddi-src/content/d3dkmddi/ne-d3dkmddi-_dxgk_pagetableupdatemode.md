@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_PAGETABLEUPDATEMODE enumeration"]
 ms.keywords: DXGK_PAGETABLEUPDATEMODE, DXGK_PAGETABLEUPDATEMODE enumeration [Display Devices], DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, _DXGK_PAGETABLEUPDATEMODE, d3dkmddi/DXGK_PAGETABLEUPDATEMODE, d3dkmddi/DXGK_PAGETABLEUPDATE_CPU_VIRTUAL, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_PHYSICAL, d3dkmddi/DXGK_PAGETABLEUPDATE_GPU_VIRTUAL, display.dxgk_pagetableupdatemode
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PAGETABLEUPDATEMODE
 ---
 
-# _DXGK_PAGETABLEUPDATEMODE enumeration
+# DXGK_PAGETABLEUPDATEMODE enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

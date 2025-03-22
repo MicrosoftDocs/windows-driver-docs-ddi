@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration"]
 ms.keywords: WPD_COLOR_CORRECTED_STATUS_CORRECTED, WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, WPD_COLOR_CORRECTED_STATUS_VALUES, WPD_COLOR_CORRECTED_STATUS_VALUES enumeration, enumeration, portabledevice/WPD_COLOR_CORRECTED_STATUS_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_NOT_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_SHOULD_NOT_BE_CORRECTED, portabledevice/WPD_COLOR_CORRECTED_STATUS_VALUES, tagWPD_COLOR_CORRECTED_STATUS_VALUES, wpddk.wpd_color_corrected_status_values
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_COLOR_CORRECTED_STATUS_VALUES
 ---
 
-# tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration
+# tagWPD_COLOR_CORRECTED_STATUS_VALUES enumeration (portabledevice.h)
+
+
 
 
 ## -description

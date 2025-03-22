@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTDEV_LINK_DELETED IOCTL"]
 ms.keywords: IOCTL_MOUNTDEV_LINK_DELETED, IOCTL_MOUNTDEV_LINK_DELETED control, IOCTL_MOUNTDEV_LINK_DELETED control code [Storage Devices], k307_b0ab5504-dac9-410f-bb73-bbb5876e4a59.xml, mountdev/IOCTL_MOUNTDEV_LINK_DELETED, storage.ioctl_mountdev_link_deleted
 req.header: mountdev.h
+req.construct-type: ioctl
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTDEV_LINK_DELETED
 ---
+
+# IOCTL_MOUNTDEV_LINK_DELETED IOCTL (mountdev.h)
+
+
 
 ## -description
 

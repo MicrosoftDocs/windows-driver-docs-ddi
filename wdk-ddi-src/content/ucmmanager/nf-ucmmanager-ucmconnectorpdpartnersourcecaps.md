@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmConnectorPdPartnerSourceCaps function"]
 ms.keywords: UcmConnectorPdPartnerSourceCaps, UcmConnectorPdPartnerSourceCaps method [Buses], buses.ucmconnectorpdportpartnersourcecaps, ucmmanager/UcmConnectorPdPartnerSourceCaps
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorPdPartnerSourceCaps
 ---
 
-# UcmConnectorPdPartnerSourceCaps function
+# UcmConnectorPdPartnerSourceCaps function (ucmmanager.h)
+
+
 
 
 ## -description

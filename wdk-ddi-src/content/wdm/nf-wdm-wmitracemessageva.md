@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WmiTraceMessageVa function"]
 ms.keywords: WmiTraceMessageVa, WmiTraceMessageVa routine [Kernel-Mode Driver Architecture], k902_c9c7dd80-d7a8-4b53-bcf1-f64c822e9e6d.xml, kernel.wmitracemessageva, wdm/WmiTraceMessageVa
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - WmiTraceMessageVa
 ---
 
-# WmiTraceMessageVa function
+# WmiTraceMessageVa function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], hid.ioctl_hid_get_ms_genre_descriptor, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 ---
 
-# IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL
+# IOCTL_HID_GET_MS_GENRE_DESCRIPTOR IOCTL (hidclass.h)
+
+
+
+
 
 ## -description
 

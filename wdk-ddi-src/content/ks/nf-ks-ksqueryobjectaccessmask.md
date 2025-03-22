@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsQueryObjectAccessMask function"]
 ms.keywords: KsQueryObjectAccessMask, KsQueryObjectAccessMask function [Streaming Media Devices], ks/KsQueryObjectAccessMask, ksfunc_f79d4971-874e-4efd-ab73-d88cdd573991.xml, stream.ksqueryobjectaccessmask
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsQueryObjectAccessMask
 ---
 
-# KsQueryObjectAccessMask function
+# KsQueryObjectAccessMask function (ks.h)
+
+
 
 
 ## -description

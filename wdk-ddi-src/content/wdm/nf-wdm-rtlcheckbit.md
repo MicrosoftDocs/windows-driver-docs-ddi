@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCheckBit macro"]
 ms.keywords: RtlCheckBit, RtlCheckBit routine [Kernel-Mode Driver Architecture], k109_1f4676c1-d031-4a2c-8d74-afa9d3a0ed10.xml, kernel.rtlcheckbit, wdm/RtlCheckBit
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - RtlCheckBit
 ---
 
-# RtlCheckBit macro
+# RtlCheckBit macro (wdm.h)
+
+
+
+
 
 
 ## -description

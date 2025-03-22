@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltQueryVolumeInformation function"]
 ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FileFsDeviceInformation, FileFsDriverPathInformation, FileFsFullSizeInformation, FileFsObjectIdInformation, FileFsSectorSizeInformation, FileFsSizeInformation, FileFsVolumeInformation, FltApiRef_p_to_z_1b2db9a1-36d0-4503-bd97-7f24b68ad513.xml, FltQueryVolumeInformation, FltQueryVolumeInformation routine [Installable File System Drivers], fltkernel/FltQueryVolumeInformation, ifsk.fltqueryvolumeinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available and supported in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP with Service Pack 2 (SP2), Windows Server 2003 SP1 and later  Windows operating systems. Not available or supported in Windows 2000 SP4 and earlier Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltQueryVolumeInformation
 ---
 
-# FltQueryVolumeInformation function
+# FltQueryVolumeInformation function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcScheduleReadAhead function"]
 ms.keywords: CcScheduleReadAhead, CcScheduleReadAhead routine [Installable File System Drivers], ccref_ae4b3e52-9f23-499f-86f1-81e813484007.xml, ifsk.ccschedulereadahead, ntifs/CcScheduleReadAhead
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcScheduleReadAhead
 ---
 
-# CcScheduleReadAhead function
+# CcScheduleReadAhead function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_KPROCESSOR_MODE enumeration"]
 ms.keywords: "*PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE enumeration pointer, WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE enumeration, WdfKProcessorModeInvalid, WdfKProcessorModeMaximum, WdfKernelMode, WdfUserMode, _WDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wdf.wdf_kprocessor_mode, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, wudfddi_types/WdfKProcessorModeMaximum, wudfddi_types/WdfKernelMode, wudfddi_types/WdfUserMode"
 req.header: wudfddi_types.h
+req.construct-type: enumeration
 req.include-header: Wudfddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WDF_KPROCESSOR_MODE
 ---
 
-# _WDF_KPROCESSOR_MODE enumeration
+# WDF_KPROCESSOR_MODE enumeration (wudfddi_types.h)
+
+
 
 
 ## -description

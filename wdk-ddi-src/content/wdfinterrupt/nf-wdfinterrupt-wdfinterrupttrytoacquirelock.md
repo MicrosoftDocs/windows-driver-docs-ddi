@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptTryToAcquireLock function"]
 ms.keywords: WdfInterruptTryToAcquireLock, WdfInterruptTryToAcquireLock method, kmdf.wdfinterrupttrytoacquirelock, wdf.wdfinterrupttrytoacquirelock, wdfinterrupt/WdfInterruptTryToAcquireLock
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptTryToAcquireLock
 ---
 
-# WdfInterruptTryToAcquireLock function
+# WdfInterruptTryToAcquireLock function (wdfinterrupt.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsIsBusEnumChildDevice function"]
 ms.keywords: KsIsBusEnumChildDevice, KsIsBusEnumChildDevice function [Streaming Media Devices], ksfunc_5718ba1d-d377-40f8-8972-7005f4064e7c.xml, stream.ksisbusenumchilddevice, swenum/KsIsBusEnumChildDevice
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsIsBusEnumChildDevice
 ---
 
-# KsIsBusEnumChildDevice function
+# KsIsBusEnumChildDevice function (swenum.h)
+
+
 
 
 ## -description

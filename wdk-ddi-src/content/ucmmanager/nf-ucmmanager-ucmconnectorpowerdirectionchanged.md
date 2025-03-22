@@ -8,6 +8,7 @@ ms.date: 01/05/2022
 keywords: ["UcmConnectorPowerDirectionChanged function"]
 ms.keywords: UcmConnectorPowerDirectionChanged, UcmConnectorPowerDirectionChanged method [Buses], buses.ucmconnectorpowerdirectionchanged, ucmmanager/UcmConnectorPowerDirectionChanged
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorPowerDirectionChanged
 ---
 
-# UcmConnectorPowerDirectionChanged function
+# UcmConnectorPowerDirectionChanged function (ucmmanager.h)
+
+
 
 ## -description
 

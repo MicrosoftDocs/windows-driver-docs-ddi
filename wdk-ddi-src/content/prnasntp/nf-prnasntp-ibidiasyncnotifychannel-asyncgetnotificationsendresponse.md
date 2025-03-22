@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse"]
 ms.keywords: AsyncGetNotificationSendResponse, AsyncGetNotificationSendResponse method [Print Devices], AsyncGetNotificationSendResponse method [Print Devices],IBidiAsyncNotifyChannel interface, IBidiAsyncNotifyChannel interface [Print Devices],AsyncGetNotificationSendResponse method, IBidiAsyncNotifyChannel.AsyncGetNotificationSendResponse, IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse, print.ibidiasyncnotifychannel_asyncgetnotificationsendresponse, prnasntp/IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse
 ---
+
+# IBidiAsyncNotifyChannel::AsyncGetNotificationSendResponse function (prnasntp.h)
 
 ## -description
 

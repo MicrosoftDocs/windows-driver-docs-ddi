@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetChangedValueFloat function"]
 ms.keywords: image.wiasgetchangedvaluefloat, wiamdef/wiasGetChangedValueFloat, wiasFncs_d7b124d9-d108-4293-946c-a5d6bb43996f.xml, wiasGetChangedValueFloat, wiasGetChangedValueFloat function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetChangedValueFloat
 ---
 
-# wiasGetChangedValueFloat function
+# wiasGetChangedValueFloat function (wiamdef.h)
+
+
 
 
 ## -description

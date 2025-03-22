@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOutputDuplReleaseFrame function"]
 ms.keywords: D3DKMTOutputDuplReleaseFrame, D3DKMTOutputDuplReleaseFrame callback function [Display Devices], PFND3DKMT_OUTPUTDUPLRELEASEFRAME, PFND3DKMT_OUTPUTDUPLRELEASEFRAME callback, d3dkmthk/D3DKMTOutputDuplReleaseFrame, display.d3dkmtoutputduplreleaseframe
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTOutputDuplReleaseFrame
 ---
 
-# D3DKMTOutputDuplReleaseFrame function
+# D3DKMTOutputDuplReleaseFrame function (d3dkmthk.h)
+
+
 
 
 ## -description

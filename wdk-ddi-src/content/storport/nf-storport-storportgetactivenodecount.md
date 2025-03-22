@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetActiveNodeCount function"]
 ms.keywords: StorPortGetActiveNodeCount, StorPortGetActiveNodeCount routine [Storage Devices], storage.storportgetactivenodecount, storport/StorPortGetActiveNodeCount, storprt_311f0ad3-ee9a-47a1-9175-71fd0f01e03d.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetActiveNodeCount
 ---
 
-# StorPortGetActiveNodeCount function
+# StorPortGetActiveNodeCount function (storport.h)
+
+
 
 
 ## -description

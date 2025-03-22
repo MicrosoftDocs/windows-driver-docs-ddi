@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS enumeration"]
 ms.keywords: D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS, D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS,
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,7 +31,9 @@ api_name:
  - D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS
 ---
 
-# D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS enumeration
+# D3DWDDM2_4DDI_CRYPTO_SESSION_KEY_EXCHANGE_FLAGS enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

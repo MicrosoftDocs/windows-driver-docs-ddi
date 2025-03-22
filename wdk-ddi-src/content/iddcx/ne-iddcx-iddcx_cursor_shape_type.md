@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IDDCX_CURSOR_SHAPE_TYPE enumeration"]
 ms.keywords: IDDCX_CURSOR_SHAPE_TYPE, IDDCX_CURSOR_SHAPE_TYPE enumeration [Display Devices], IDDCX_CURSOR_SHAPE_TYPE_ALPHA, IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED, display.iddcx_cursor_shape_type, iddcx/IDDCX_CURSOR_SHAPE_TYPE, iddcx/IDDCX_CURSOR_SHAPE_TYPE_ALPHA, iddcx/IDDCX_CURSOR_SHAPE_TYPE_MASKED_COLOR, iddcx/IDDCX_CURSOR_SHAPE_TYPE_UNINITIALIZED
 req.header: iddcx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IDDCX_CURSOR_SHAPE_TYPE
 ---
 
-# IDDCX_CURSOR_SHAPE_TYPE enumeration
+# IDDCX_CURSOR_SHAPE_TYPE enumeration (iddcx.h)
+
+
 
 ## -description
 

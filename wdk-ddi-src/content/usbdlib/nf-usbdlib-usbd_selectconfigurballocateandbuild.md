@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_SelectConfigUrbAllocateAndBuild function"]
 ms.keywords: USBD_SelectConfigUrbAllocateAndBuild, USBD_SelectConfigUrbAllocateAndBuild routine [Buses], buses.usbd_selectconfigurballocateandbuild, usbdlib/USBD_SelectConfigUrbAllocateAndBuild
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_SelectConfigUrbAllocateAndBuild
 ---
 
-# USBD_SelectConfigUrbAllocateAndBuild function
+# USBD_SelectConfigUrbAllocateAndBuild function (usbdlib.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/09/2022
 keywords: ["OEMGetGlyphMode function"]
 ms.keywords: OEMGetGlyphMode, OEMGetGlyphMode function [Print Devices], print.oemgetglyphmode, print_unidrv-pscript_rendering_b5456727-fde5-4e4a-ae76-a5f571232325.xml, printoem/OEMGetGlyphMode
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMGetGlyphMode
 ---
+
+# OEMGetGlyphMode function (printoem.h)
 
 ## -description
 

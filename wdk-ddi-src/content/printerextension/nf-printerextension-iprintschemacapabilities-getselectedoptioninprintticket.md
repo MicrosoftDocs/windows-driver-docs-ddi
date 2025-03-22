@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket"]
 ms.keywords: GetSelectedOptionInPrintTicket, GetSelectedOptionInPrintTicket method [Print Devices], GetSelectedOptionInPrintTicket method [Print Devices],IPrintSchemaCapabilities interface, IPrintSchemaCapabilities, IPrintSchemaCapabilities interface [Print Devices],GetSelectedOptionInPrintTicket method, IPrintSchemaCapabilities.GetSelectedOptionInPrintTicket, IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket, print.iprintschemacapabilities_getselectedoptioninprintticket, printerextension/IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket
 ---
+
+# IPrintSchemaCapabilities::GetSelectedOptionInPrintTicket function (printerextension.h)
 
 ## -description
 

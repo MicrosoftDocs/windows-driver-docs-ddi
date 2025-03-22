@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["TELEPHONY_CALLSTATE enumeration"]
 ms.keywords: TELEPHONY_CALLSTATE, TELEPHONY_CALLSTATE enumeration [Audio Devices], TELEPHONY_CALLSTATE_DISABLED, TELEPHONY_CALLSTATE_ENABLED, TELEPHONY_CALLSTATE_HOLD, TELEPHONY_CALLSTATE_PROVIDERTRANSITION, audio.telephony_callstate, ksmedia/TELEPHONY_CALLSTATE, ksmedia/TELEPHONY_CALLSTATE_DISABLED, ksmedia/TELEPHONY_CALLSTATE_ENABLED, ksmedia/TELEPHONY_CALLSTATE_HOLD, ksmedia/TELEPHONY_CALLSTATE_PROVIDERTRANSITION
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10,Windows 10 Mobile
@@ -40,7 +41,9 @@ api_name:
  - TELEPHONY_CALLSTATE
 ---
 
-# TELEPHONY_CALLSTATE enumeration
+# TELEPHONY_CALLSTATE enumeration (ksmedia.h)
+
+
 
 
 ## -description

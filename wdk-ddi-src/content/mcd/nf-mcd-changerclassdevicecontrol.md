@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerClassDeviceControl function"]
 ms.keywords: ChangerClassDeviceControl, ChangerClassDeviceControl routine [Storage Devices], chgrclas_0338541c-8796-485d-aa1c-20335ea4c6c5.xml, mcd/ChangerClassDeviceControl, storage.changerclassdevicecontrol
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerClassDeviceControl
 ---
 
-# ChangerClassDeviceControl function
+# ChangerClassDeviceControl function (mcd.h)
+
+
 
 
 ## -description

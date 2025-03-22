@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTSetMonitorColorSpaceTransform function"]
 ms.keywords: D3DKMTSetMonitorColorSpaceTransform, D3DKMTSetMonitorColorSpaceTransform method [Display Devices], d3dkmthk/D3DKMTSetMonitorColorSpaceTransform, display.d3dkmtsetmonitorcolorspacetransform
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSetMonitorColorSpaceTransform
 ---
 
-# D3DKMTSetMonitorColorSpaceTransform function
+# D3DKMTSetMonitorColorSpaceTransform function (d3dkmthk.h)
+
+
 
 
 ## -description

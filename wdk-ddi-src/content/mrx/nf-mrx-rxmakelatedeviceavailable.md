@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxMakeLateDeviceAvailable function"]
 ms.keywords: RxMakeLateDeviceAvailable, RxMakeLateDeviceAvailable routine [Installable File System Drivers], ifsk.rxmakelatedeviceavailable, mrx/RxMakeLateDeviceAvailable, rxref_7586550f-6abe-4e18-8154-09936c3f0488.xml
 req.header: mrx.h
+req.construct-type: function
 req.include-header: Mrx.h, Rxstruc.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxMakeLateDeviceAvailable
 ---
 
-# RxMakeLateDeviceAvailable function
+# RxMakeLateDeviceAvailable function (mrx.h)
+
+
 
 
 ## -description

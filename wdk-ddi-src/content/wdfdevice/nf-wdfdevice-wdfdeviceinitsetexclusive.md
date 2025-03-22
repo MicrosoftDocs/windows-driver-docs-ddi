@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetExclusive function"]
 ms.keywords: DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive, WdfDeviceInitSetExclusive method, kmdf.wdfdeviceinitsetexclusive, wdf.wdfdeviceinitsetexclusive, wdfdevice/WdfDeviceInitSetExclusive
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceInitSetExclusive
 ---
 
-# WdfDeviceInitSetExclusive function
+# WdfDeviceInitSetExclusive function (wdfdevice.h)
+
+
 
 
 ## -description

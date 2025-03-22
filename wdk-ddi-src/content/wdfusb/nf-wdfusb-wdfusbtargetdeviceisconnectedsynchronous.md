@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceIsConnectedSynchronous function"]
 ms.keywords: DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, WdfUsbTargetDeviceIsConnectedSynchronous, WdfUsbTargetDeviceIsConnectedSynchronous method, kmdf.wdfusbtargetdeviceisconnectedsynchronous, wdf.wdfusbtargetdeviceisconnectedsynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetDeviceIsConnectedSynchronous
 ---
 
-# WdfUsbTargetDeviceIsConnectedSynchronous function
+# WdfUsbTargetDeviceIsConnectedSynchronous function (wdfusb.h)
+
+
 
 
 ## -description

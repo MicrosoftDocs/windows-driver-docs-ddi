@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsLsnEqual function"]
 ms.keywords: ClfsLsnEqual, ClfsLsnEqual routine [Kernel-Mode Driver Architecture], Clfs_09dba2f1-3508-488d-b663-8ba0806b9d31.xml, kernel.clfslsnequal, wdm/ClfsLsnEqual
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsLsnEqual
 ---
 
-# ClfsLsnEqual function
+# ClfsLsnEqual function (wdm.h)
+
+
 
 
 ## -description

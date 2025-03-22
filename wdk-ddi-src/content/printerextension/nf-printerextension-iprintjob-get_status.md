@@ -7,6 +7,7 @@ ms.date: 07/29/2022
 keywords: ["IPrintJob::get_Status method"]
 ms.keywords: IPrintJob, IPrintJob interface [Print Devices], Status property, IPrintJob.Status, IPrintJob::get_Status, Status property [Print Devices], Status property [Print Devices], IPrintJob interface, get_Status, get_Status,IPrintJob.get_Status, print.iprintjob_status, printerextension/IPrintJob::Status, printerextension/IPrintJob::get_Status
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintJob::get_Status
 ---
+
+# IPrintJob::get_Status function (printerextension.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExFreeToNPagedLookasideList function"]
 ms.keywords: ExFreeToNPagedLookasideList, ExFreeToNPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_30577c54-40a4-41a3-abc2-f3cdcd45ef1b.xml, kernel.exfreetonpagedlookasidelist, wdm/ExFreeToNPagedLookasideList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExFreeToNPagedLookasideList
 ---
 
-# ExFreeToNPagedLookasideList function
+# ExFreeToNPagedLookasideList function (wdm.h)
+
+
 
 
 ## -description

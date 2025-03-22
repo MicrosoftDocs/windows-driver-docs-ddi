@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoQueueGetState function"]
 ms.keywords: DFQueueObjectRef_756666e1-e5eb-4bcc-907e-65b10e580396.xml, WdfIoQueueGetState, WdfIoQueueGetState method, kmdf.wdfioqueuegetstate, wdf.wdfioqueuegetstate, wdfio/WdfIoQueueGetState
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfIoQueueGetState
 ---
 
-# WdfIoQueueGetState function
+# WdfIoQueueGetState function (wdfio.h)
+
+
 
 
 ## -description

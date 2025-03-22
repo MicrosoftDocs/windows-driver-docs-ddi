@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoReleaseVpbSpinLock function"]
 ms.keywords: IoReleaseVpbSpinLock, IoReleaseVpbSpinLock routine [Installable File System Drivers], ifsk.ioreleasevpbspinlock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, ntifs/IoReleaseVpbSpinLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoReleaseVpbSpinLock
 ---
 
-# IoReleaseVpbSpinLock function
+# IoReleaseVpbSpinLock function (ntifs.h)
+
+
 
 
 ## -description

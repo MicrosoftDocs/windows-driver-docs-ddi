@@ -8,6 +8,7 @@ ms.date: 09/13/2021
 keywords: ["UcxControllerResetComplete function"]
 ms.keywords: UcxControllerResetComplete, UcxControllerResetComplete method [Buses], buses._ucxcontrollerresetcomplete, ucxcontroller/UcxControllerResetComplete
 req.header: ucxcontroller.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxControllerResetComplete
 ---
 
-# UcxControllerResetComplete function
+# UcxControllerResetComplete function (ucxcontroller.h)
+
+
 
 ## -description
 

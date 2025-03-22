@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpAddAttributeToTree function"]
 ms.keywords: SdpAddAttributeToTree, SdpAddAttributeToTree function [Bluetooth Devices], bltooth.sdpaddattributetotree, bth_funcs_5a46529e-8b1b-474a-a005-16f7a5562d91.xml, sdplib/SdpAddAttributeToTree
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpAddAttributeToTree
 ---
 
-# SdpAddAttributeToTree function
+# SdpAddAttributeToTree function (sdplib.h)
+
+
 
 
 ## -description

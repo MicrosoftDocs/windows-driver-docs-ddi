@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceWdmGetAttachedDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_cfd9610b-28f6-4c5c-a532-9c5fae3576fc.xml, WdfDeviceWdmGetAttachedDevice, WdfDeviceWdmGetAttachedDevice method, kmdf.wdfdevicewdmgetattacheddevice, wdf.wdfdevicewdmgetattacheddevice, wdfdevice/WdfDeviceWdmGetAttachedDevice
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceWdmGetAttachedDevice
 ---
 
-# WdfDeviceWdmGetAttachedDevice function
+# WdfDeviceWdmGetAttachedDevice function (wdfdevice.h)
+
+
 
 
 ## -description

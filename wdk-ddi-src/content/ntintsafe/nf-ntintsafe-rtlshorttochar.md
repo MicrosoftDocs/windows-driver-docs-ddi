@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlShortToChar function"]
 ms.keywords: RtlShortToChar, RtlShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttochar, ntintsafe/RtlShortToChar
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlShortToChar
 ---
 
-# RtlShortToChar function
+# RtlShortToChar function (ntintsafe.h)
+
+
 
 
 ## -description

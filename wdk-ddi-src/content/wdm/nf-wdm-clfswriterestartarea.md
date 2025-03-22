@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsWriteRestartArea function"]
 ms.keywords: ClfsWriteRestartArea, ClfsWriteRestartArea routine [Kernel-Mode Driver Architecture], Clfs_b2bfac14-eb9c-4323-af79-ab8bebf06f79.xml, kernel.clfswriterestartarea, wdm/ClfsWriteRestartArea
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsWriteRestartArea
 ---
 
-# ClfsWriteRestartArea function
+# ClfsWriteRestartArea function (wdm.h)
+
+
 
 
 ## -description

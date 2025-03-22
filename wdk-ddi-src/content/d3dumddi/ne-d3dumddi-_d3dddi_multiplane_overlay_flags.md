@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, _D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_HORIZONTAL_FLIP, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_FLAG_VERTICAL_FLIP, display.d3dddi_multiplane_overlay_flags
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_MULTIPLANE_OVERLAY_FLAGS
 ---
 
-# _D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration
+# D3DDDI_MULTIPLANE_OVERLAY_FLAGS enumeration (d3dumddi.h)
+
+
 
 
 ## -description

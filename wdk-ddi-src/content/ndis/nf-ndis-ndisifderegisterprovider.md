@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfDeregisterProvider function"]
 ms.keywords: NdisIfDeregisterProvider, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, netvista.ndisifderegisterprovider
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfDeregisterProvider
 ---
 
-# NdisIfDeregisterProvider function
+# NdisIfDeregisterProvider function (ndis.h)
+
+
 
 
 ## -description

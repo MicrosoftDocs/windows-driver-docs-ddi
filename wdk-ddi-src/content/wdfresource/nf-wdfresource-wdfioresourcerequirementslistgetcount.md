@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoResourceRequirementsListGetCount function"]
 ms.keywords: DFResourceObjectRef_927d5729-0c1e-4363-9f2d-b5fefba8e2f6.xml, WdfIoResourceRequirementsListGetCount, WdfIoResourceRequirementsListGetCount method, kmdf.wdfioresourcerequirementslistgetcount, wdf.wdfioresourcerequirementslistgetcount, wdfresource/WdfIoResourceRequirementsListGetCount
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoResourceRequirementsListGetCount
 ---
 
-# WdfIoResourceRequirementsListGetCount function
+# WdfIoResourceRequirementsListGetCount function (wdfresource.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro"]
 ms.keywords: NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -38,7 +39,11 @@ api_name:
  - NDIS_GET_NET_BUFFER_LIST_CANCEL_ID
 ---
 
-# NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro
+# NDIS_GET_NET_BUFFER_LIST_CANCEL_ID macro (ndis.h)
+
+
+
+
 
 
 ## -description

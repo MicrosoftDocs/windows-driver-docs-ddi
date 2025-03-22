@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrintSchemaParameterDefinition::get_DataType"]
 ms.keywords: DataType property [Print Devices], DataType property [Print Devices],IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition interface [Print Devices],DataType property, IPrintSchemaParameterDefinition.DataType, IPrintSchemaParameterDefinition.get_DataType, IPrintSchemaParameterDefinition::DataType, IPrintSchemaParameterDefinition::get_DataType, get_DataType, print._iprintschemaparameterdefinition_datatype, printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaParameterDefinition::get_DataType
 ---
+
+# IPrintSchemaParameterDefinition::get_DataType function (printerextension.h)
 
 ## -description
 

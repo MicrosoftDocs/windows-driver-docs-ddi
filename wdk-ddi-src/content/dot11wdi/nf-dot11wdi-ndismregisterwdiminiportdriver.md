@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMRegisterWdiMiniportDriver function"]
 ms.keywords: NdisMRegisterWdiMiniportDriver, NdisMRegisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMRegisterWdiMiniportDriver, netvista.ndismregisterwdiminiportdriver
 req.header: dot11wdi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - NdisMRegisterWdiMiniportDriver
 ---
 
-# NdisMRegisterWdiMiniportDriver function
+# NdisMRegisterWdiMiniportDriver function (dot11wdi.h)
+
+
 
 
 ## -description

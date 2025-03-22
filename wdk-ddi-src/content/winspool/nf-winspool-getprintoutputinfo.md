@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GetPrintOutputInfo function"]
 ms.keywords: GetPrintOutputInfo, GetPrintOutputInfo function [Print Devices], print.getprintoutputinfo, winspool/GetPrintOutputInfo
 req.header: winspool.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetPrintOutputInfo
 ---
 
-# GetPrintOutputInfo function
+# GetPrintOutputInfo function (winspool.h)
+
+
 
 
 ## -description

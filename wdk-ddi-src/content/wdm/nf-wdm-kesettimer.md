@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["KeSetTimer function"]
 ms.keywords: KeSetTimer, KeSetTimer routine [Kernel-Mode Driver Architecture], k105_9cd3cb17-0067-4340-8226-ee75392cfdd1.xml, kernel.kesettimer, wdm/KeSetTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeSetTimer
 ---
 
-# KeSetTimer function
+# KeSetTimer function (wdm.h)
+
+
 
 ## -description
 

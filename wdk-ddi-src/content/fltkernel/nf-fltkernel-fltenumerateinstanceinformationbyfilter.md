@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateInstanceInformationByFilter function"]
 ms.keywords: FltApiRef_e_to_o_89f20331-46dd-42f8-bbf5-42650766bdc8.xml, FltEnumerateInstanceInformationByFilter, FltEnumerateInstanceInformationByFilter routine [Installable File System Drivers], fltkernel/FltEnumerateInstanceInformationByFilter, ifsk.fltenumerateinstanceinformationbyfilter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateInstanceInformationByFilter
 ---
 
-# FltEnumerateInstanceInformationByFilter function
+# FltEnumerateInstanceInformationByFilter function (fltkernel.h)
+
+
 
 
 ## -description

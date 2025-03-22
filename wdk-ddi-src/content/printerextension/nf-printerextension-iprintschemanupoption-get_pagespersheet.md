@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaNUpOption::get_PagesPerSheet"]
 ms.keywords: IPrintSchemaNUpOption interface [Print Devices],PagesPerSheet property, IPrintSchemaNUpOption.PagesPerSheet, IPrintSchemaNUpOption.get_PagesPerSheet, IPrintSchemaNUpOption::PagesPerSheet, IPrintSchemaNUpOption::get_PagesPerSheet, PagesPerSheet property [Print Devices], PagesPerSheet property [Print Devices],IPrintSchemaNUpOption interface, get_PagesPerSheet, print.iprintschemanupoption_pagespersheet, printerextension/IPrintSchemaNUpOption::PagesPerSheet, printerextension/IPrintSchemaNUpOption::get_PagesPerSheet
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaNUpOption::get_PagesPerSheet
 ---
+
+# IPrintSchemaNUpOption::get_PagesPerSheet function (printerextension.h)
 
 ## -description
 

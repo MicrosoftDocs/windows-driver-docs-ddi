@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration"]
 ms.keywords: _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration
+# DXGKMT_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

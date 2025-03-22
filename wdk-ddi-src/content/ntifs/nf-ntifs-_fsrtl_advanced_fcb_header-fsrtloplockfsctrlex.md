@@ -8,6 +8,7 @@ ms.date: 01/08/2021
 keywords: ["FsRtlOplockFsctrlEx function"]
 ms.keywords: FsRtlOplockFsctrlEx, FsRtlOplockFsctrlEx routine [Installable File System Drivers], fsrtlref_fa242815-36f3-4c0a-ae1d-826d0208e191.xml, ifsk.fsrtloplockfsctrlex, ntifs/FsRtlOplockFsctrlEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlOplockFsctrlEx routine is available starting with Windows 7.
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlOplockFsctrlEx function
+# FsRtlOplockFsctrlEx function (ntifs.h)
+
+
 
 ## -description
 

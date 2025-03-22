@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, storage.ioctl_ehstor_device_set_authz_state
 req.header: ehstorioctl.h
+req.construct-type: ioctl
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE
 ---
 
-# IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE IOCTL
+# IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE IOCTL (ehstorioctl.h)
+
+
+
+
 
 
 ## -description

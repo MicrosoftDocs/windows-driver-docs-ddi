@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCmResourceListAppendDescriptor function"]
 ms.keywords: DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, kmdf.wdfcmresourcelistappenddescriptor, wdf.wdfcmresourcelistappenddescriptor, wdfresource/WdfCmResourceListAppendDescriptor
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfCmResourceListAppendDescriptor
 ---
 
-# WdfCmResourceListAppendDescriptor function
+# WdfCmResourceListAppendDescriptor function (wdfresource.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterPropertyBag::GetInt32"]
 ms.keywords: GetInt32, GetInt32 method [Print Devices], GetInt32 method [Print Devices],IPrinterPropertyBag interface, IPrinterPropertyBag interface [Print Devices],GetInt32 method, IPrinterPropertyBag.GetInt32, IPrinterPropertyBag::GetInt32, print.iprinterpropertybag_getint32, printerextension/IPrinterPropertyBag::GetInt32
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::GetInt32
 ---
+
+# IPrinterPropertyBag::GetInt32 function (printerextension.h)
 
 ## -description
 

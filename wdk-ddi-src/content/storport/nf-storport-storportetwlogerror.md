@@ -7,6 +7,7 @@ ms.date: 03/05/2019
 keywords: ["StorPortEtwLogError function"]
 ms.keywords: StorPortEtwLogError
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 version 1903
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# StorPortEtwLogError function
+# StorPortEtwLogError function (storport.h)
+
+
 
 ## -description
 

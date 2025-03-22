@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceSelectConfigType enumeration"]
 ms.keywords: DFUsbRef_e4ab4d2c-dbca-4d6e-a690-4b362331e53e.xml, WdfUsbTargetDeviceSelectConfigType, WdfUsbTargetDeviceSelectConfigType enumeration, WdfUsbTargetDeviceSelectConfigTypeDeconfig, WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, WdfUsbTargetDeviceSelectConfigTypeInvalid, WdfUsbTargetDeviceSelectConfigTypeMultiInterface, WdfUsbTargetDeviceSelectConfigTypeSingleInterface, WdfUsbTargetDeviceSelectConfigTypeUrb, _WdfUsbTargetDeviceSelectConfigType, kmdf.wdfusbtargetdeviceselectconfigtype, wdf.wdfusbtargetdeviceselectconfigtype, wdfusb/WdfUsbTargetDeviceSelectConfigType, wdfusb/WdfUsbTargetDeviceSelectConfigTypeDeconfig, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesDescriptor, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInterfacesPairs, wdfusb/WdfUsbTargetDeviceSelectConfigTypeInvalid, wdfusb/WdfUsbTargetDeviceSelectConfigTypeMultiInterface, wdfusb/WdfUsbTargetDeviceSelectConfigTypeSingleInterface, wdfusb/WdfUsbTargetDeviceSelectConfigTypeUrb
 req.header: wdfusb.h
+req.construct-type: enumeration
 req.include-header: Wdfusb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceSelectConfigType
 ---
 
-# _WdfUsbTargetDeviceSelectConfigType enumeration
+# WdfUsbTargetDeviceSelectConfigType enumeration (wdfusb.h)
+
+
 
 
 ## -description

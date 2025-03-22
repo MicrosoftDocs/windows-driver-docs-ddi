@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltLoadFilter function"]
 ms.keywords: FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, ifsk.fltloadfilter
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltLoadFilter
 ---
 
-# FltLoadFilter function
+# FltLoadFilter function (fltkernel.h)
+
+
 
 
 ## -description

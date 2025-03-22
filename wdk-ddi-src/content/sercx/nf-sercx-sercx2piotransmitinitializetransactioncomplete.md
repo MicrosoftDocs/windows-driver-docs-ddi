@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2PioTransmitInitializeTransactionComplete function"]
 ms.keywords: 2/SerCx2PioTransmitInitializeTransactionComplete, SerCx2PioTransmitInitializeTransactionComplete, SerCx2PioTransmitInitializeTransactionComplete method [Serial Ports], serports.sercx2piotransmitinitializetransactioncomplete
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2PioTransmitInitializeTransactionComplete
 ---
 
-# SerCx2PioTransmitInitializeTransactionComplete function
+# SerCx2PioTransmitInitializeTransactionComplete function (sercx.h)
+
+
 
 
 ## -description

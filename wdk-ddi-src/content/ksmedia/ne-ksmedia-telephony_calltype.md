@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["TELEPHONY_CALLTYPE enumeration"]
 ms.keywords: TELEPHONY_CALLTYPE, TELEPHONY_CALLTYPE enumeration [Audio Devices], TELEPHONY_CALLTYPE_CIRCUITSWITCHED, TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN, audio.telephony_calltype, ksmedia/TELEPHONY_CALLTYPE, ksmedia/TELEPHONY_CALLTYPE_CIRCUITSWITCHED, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_LTE, ksmedia/TELEPHONY_CALLTYPE_PACKETSWITCHED_WLAN
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10,Windows 10 Mobile
@@ -40,7 +41,9 @@ api_name:
  - TELEPHONY_CALLTYPE
 ---
 
-# TELEPHONY_CALLTYPE enumeration
+# TELEPHONY_CALLTYPE enumeration (ksmedia.h)
+
+
 
 
 ## -description

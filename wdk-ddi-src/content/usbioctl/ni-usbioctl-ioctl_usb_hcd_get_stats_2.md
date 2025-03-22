@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_HCD_GET_STATS_2 IOCTL"]
 ms.keywords: IOCTL_USB_HCD_GET_STATS_2, IOCTL_USB_HCD_GET_STATS_2 control, IOCTL_USB_HCD_GET_STATS_2 control code [Buses], buses.ioctl_usb_hcd_get_stats_2, usbioctl/IOCTL_USB_HCD_GET_STATS_2, usbirp_62df7d2d-dc01-46bf-8ce8-aa1a0082387e.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows Server 2003, Windows XP, and Windows 2000, but it is not available on Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_HCD_GET_STATS_2
 ---
 
-# IOCTL_USB_HCD_GET_STATS_2 IOCTL
+# IOCTL_USB_HCD_GET_STATS_2 IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

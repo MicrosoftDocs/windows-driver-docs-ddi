@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["WHEA_ERROR_PACKET_DATA_FORMAT enumeration"]
 ms.keywords: "*PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT, PWHEA_ERROR_PACKET_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], WHEA_ERROR_PACKET_DATA_FORMAT, WHEA_ERROR_PACKET_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaDataFormatGeneric, WheaDataFormatIPFSalRecord, WheaDataFormatMax, WheaDataFormatMemory, WheaDataFormatNMIPort, WheaDataFormatPCIExpress, WheaDataFormatPCIXBus, WheaDataFormatPCIXDevice, WheaDataFormatXPFMCA, _WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/PWHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WHEA_ERROR_PACKET_DATA_FORMAT, ntddk/WheaDataFormatGeneric, ntddk/WheaDataFormatIPFSalRecord, ntddk/WheaDataFormatMax, ntddk/WheaDataFormatMemory, ntddk/WheaDataFormatNMIPort, ntddk/WheaDataFormatPCIExpress, ntddk/WheaDataFormatPCIXBus, ntddk/WheaDataFormatPCIXDevice, ntddk/WheaDataFormatXPFMCA, whea.whea_error_packet_data_format, whearef_19f75c8f-94d0-4837-ab44-e9ba9fbe51f7.xml"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
@@ -44,6 +45,8 @@ api_name:
  - PWHEA_ERROR_PACKET_DATA_FORMAT
  - WHEA_ERROR_PACKET_DATA_FORMAT
 ---
+
+# WHEA_ERROR_PACKET_DATA_FORMAT enumeration (ntddk.h)
 
 ## -description
 

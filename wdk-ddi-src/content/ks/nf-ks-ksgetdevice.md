@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetDevice function"]
 ms.keywords: KsGetDevice, KsGetDevice function [Streaming Media Devices], avfunc_8459c499-365e-4cd4-927c-b359792937b0.xml, ks/KsGetDevice, stream.ksgetdevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetDevice
 ---
 
-# KsGetDevice function
+# KsGetDevice function (ks.h)
+
+
 
 
 ## -description

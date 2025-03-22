@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSetDmaContext function"]
 ms.keywords: VideoPortSetDmaContext, VideoPortSetDmaContext function [Display Devices], VideoPort_Functions_8e20017f-9d32-45c9-8f68-10cc61b6591d.xml, display.videoportsetdmacontext, video/VideoPortSetDmaContext
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortSetDmaContext
 ---
 
-# VideoPortSetDmaContext function
+# VideoPortSetDmaContext function (video.h)
+
+
 
 
 ## -description

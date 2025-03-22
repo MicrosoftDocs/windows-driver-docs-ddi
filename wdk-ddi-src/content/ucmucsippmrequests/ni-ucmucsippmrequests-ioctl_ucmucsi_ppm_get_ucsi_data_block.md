@@ -6,6 +6,7 @@ description: "Learn more about: IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL"
 ms.date: 09/30/2018
 keywords: ["IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL"]
 req.header: Ucmucsippmrequests.h
+req.construct-type: ioctl
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK
 ---
 
-# IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL
+# IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK IOCTL (Ucmucsippmrequests.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

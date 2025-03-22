@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetIoPriorityHint function"]
 ms.keywords: FltApiRef_e_to_o_55aba7ac-700d-4cca-9ad1-abf80293041d.xml, FltGetIoPriorityHint, FltGetIoPriorityHint routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHint, ifsk.fltgetiopriorityhint
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltGetIoPriorityHint
 ---
 
-# FltGetIoPriorityHint function
+# FltGetIoPriorityHint function (fltkernel.h)
+
+
 
 
 ## -description

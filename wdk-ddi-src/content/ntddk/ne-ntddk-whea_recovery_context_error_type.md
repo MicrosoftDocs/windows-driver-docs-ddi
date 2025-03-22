@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration"]
 ms.keywords: WHEA_RECOVERY_CONTEXT_ERROR_TYPE, WHEA_RECOVERY_CONTEXT_ERROR_TYPE, *PWHEA_RECOVERY_CONTEXT_ERROR_TYPE,
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - WHEA_RECOVERY_CONTEXT_ERROR_TYPE
 ---
 
-# WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration
+# WHEA_RECOVERY_CONTEXT_ERROR_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

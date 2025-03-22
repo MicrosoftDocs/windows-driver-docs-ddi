@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetDeviceObjectPointer function"]
 ms.keywords: IoGetDeviceObjectPointer, IoGetDeviceObjectPointer routine [Kernel-Mode Driver Architecture], k104_c57b87e5-8316-4c45-a245-0fe7592c3471.xml, kernel.iogetdeviceobjectpointer, wdm/IoGetDeviceObjectPointer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetDeviceObjectPointer
 ---
 
-# IoGetDeviceObjectPointer function
+# IoGetDeviceObjectPointer function (wdm.h)
+
+
 
 
 ## -description

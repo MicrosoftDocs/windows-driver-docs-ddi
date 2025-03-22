@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["AuxKlibInitialize function"]
 ms.keywords: AuxKlibInitialize, AuxKlibInitialize routine [Kernel-Mode Driver Architecture], aux_klib/AuxKlibInitialize, aux_klib_d83fd3ae-3a26-4798-9ef8-1530adb78543.xml, kernel.auxklibinitialize
 req.header: aux_klib.h
+req.construct-type: function
 req.include-header: Aux_klib.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - AuxKlibInitialize
 ---
 
-# AuxKlibInitialize function
+# AuxKlibInitialize function (aux_klib.h)
+
+
 
 
 ## -description

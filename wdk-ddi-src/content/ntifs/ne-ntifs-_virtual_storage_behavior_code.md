@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration"]
 ms.keywords: _VIRTUAL_STORAGE_BEHAVIOR_CODE, VIRTUAL_STORAGE_BEHAVIOR_CODE, *PVIRTUAL_STORAGE_BEHAVIOR_CODE,
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10 (Version 1803)
@@ -36,7 +37,9 @@ api_name:
  - VIRTUAL_STORAGE_BEHAVIOR_CODE
 ---
 
-# VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration
+# VIRTUAL_STORAGE_BEHAVIOR_CODE enumeration (ntifs.h)
+
+
 
 ## -description
 

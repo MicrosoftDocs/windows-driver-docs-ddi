@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListUpdateChildDescriptionAsMissing function"]
 ms.keywords: DFDeviceObjectChildListRef_1a871104-3d76-4ecb-936e-c27c2a107f2e.xml, WdfChildListUpdateChildDescriptionAsMissing, WdfChildListUpdateChildDescriptionAsMissing method, kmdf.wdfchildlistupdatechilddescriptionasmissing, wdf.wdfchildlistupdatechilddescriptionasmissing, wdfchildlist/WdfChildListUpdateChildDescriptionAsMissing
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListUpdateChildDescriptionAsMissing
 ---
 
-# WdfChildListUpdateChildDescriptionAsMissing function
+# WdfChildListUpdateChildDescriptionAsMissing function (wdfchildlist.h)
+
+
 
 
 ## -description

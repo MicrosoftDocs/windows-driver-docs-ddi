@@ -6,6 +6,7 @@ ms.date: 03/22/2023
 keywords: ["D3DKMTCreateAllocation2 function"]
 ms.keywords: D3DKMTCreateAllocation2, D3DKMTCreateAllocation2 callback function [Display Devices], PFND3DKMT_CREATEALLOCATION2, PFND3DKMT_CREATEALLOCATION2 callback, d3dkmthk/D3DKMTCreateAllocation2, display.d3dkmtcreateallocation2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -39,7 +40,9 @@ api_name:
  - D3DKMTCreateAllocation2
 ---
 
-# D3DKMTCreateAllocation2 function
+# D3DKMTCreateAllocation2 function (d3dkmthk.h)
+
+
 
 ## -description
 

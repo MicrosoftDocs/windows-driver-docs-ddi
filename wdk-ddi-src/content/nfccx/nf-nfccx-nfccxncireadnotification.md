@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxNciReadNotification function"]
 ms.keywords: NfcCxNciReadNotification, NfcCxNciReadNotification method [Near-Field Proximity Drivers], nfccx/NfcCxNciReadNotification, nfpdrivers._nfccxncireadnotification
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxNciReadNotification
 ---
 
-# NfcCxNciReadNotification function
+# NfcCxNciReadNotification function (nfccx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ enumeration"]
 ms.keywords: FWPS_FIELDS_IPSEC_KM_DEMUX_V4, FWPS_FIELDS_IPSEC_KM_DEMUX_V4 enumeration [Network Drivers Starting with Windows Vista], FWPS_FIELDS_IPSEC_KM_DEMUX_V4_, FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, fwpsk/FWPS_FIELDS_IPSEC_KM_DEMUX_V4, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_CURRENT_PROFILE_ID, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_LOCAL_INTERFACE, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_IP_REMOTE_ADDRESS, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_MAX, fwpsk/FWPS_FIELD_IPSEC_KM_DEMUX_V4_QM_MODE, netvista.fwps_fields_ipsec_km_demux_v4, wfp_ref_5_const_3_data_fields_78a7198a-9122-420b-a45d-9b82cbfb16fb.xml
 req.header: fwpsk.h
+req.construct-type: enumeration
 req.include-header: Fwpsk.h
 req.target-type: Windows
 req.target-min-winverclnt: Unless otherwise noted, supported starting with Windows Vista.
@@ -43,7 +44,9 @@ api_name:
  - FWPS_FIELDS_IPSEC_KM_DEMUX_V4
 ---
 
-# FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ enumeration
+# FWPS_FIELDS_IPSEC_KM_DEMUX_V4_ enumeration (fwpsk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCompleteNetPnPEvent function"]
 ms.keywords: NdisCompleteNetPnPEvent, NdisCompleteNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteNetPnPEvent, netvista.ndiscompletenetpnpevent, protocol_ndis_functions_ref_4f57d0f9-c9bf-4451-a612-caa665d0b6be.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisCompleteNetPnPEvent
 ---
 
-# NdisCompleteNetPnPEvent function
+# NdisCompleteNetPnPEvent function (ndis.h)
+
+
 
 
 ## -description

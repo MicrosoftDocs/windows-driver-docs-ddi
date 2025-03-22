@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["MmSecureVirtualMemory function"]
 ms.keywords: MmSecureVirtualMemory, MmSecureVirtualMemory routine [Kernel-Mode Driver Architecture], k106_d85881bb-59a3-4494-afaa-55c49b71b64b.xml, kernel.mmsecurevirtualmemory, ntddk/MmSecureVirtualMemory
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - MmSecureVirtualMemory
 ---
+
+# MmSecureVirtualMemory function (ntddk.h)
 
 ## -description
 

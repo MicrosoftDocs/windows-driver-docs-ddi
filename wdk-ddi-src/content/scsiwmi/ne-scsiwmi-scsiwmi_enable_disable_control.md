@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["SCSIWMI_ENABLE_DISABLE_CONTROL enumeration"]
 ms.keywords: SCSIWMI_ENABLE_DISABLE_CONTROL, SCSIWMI_ENABLE_DISABLE_CONTROL enumeration [Storage Devices], ScsiWmiDataBlockControl, ScsiWmiEventControl, scsiwmi/SCSIWMI_ENABLE_DISABLE_CONTROL, scsiwmi/ScsiWmiDataBlockControl, scsiwmi/ScsiWmiEventControl, storage.scsiwmi_enable_disable_control, structs-scsibus_58a70c92-6ee7-4385-b212-45672a12ac8b.xml
 req.header: scsiwmi.h
+req.construct-type: enumeration
 req.include-header: Scsiwmi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SCSIWMI_ENABLE_DISABLE_CONTROL
 ---
 
-# SCSIWMI_ENABLE_DISABLE_CONTROL enumeration
+# SCSIWMI_ENABLE_DISABLE_CONTROL enumeration (scsiwmi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["RtlCompressBuffer function"]
 ms.keywords: COMPRESSION_ENGINE_HIBER, COMPRESSION_ENGINE_MAXIMUM, COMPRESSION_ENGINE_STANDARD, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_XPRESS_HUFF, RtlCompressBuffer, RtlCompressBuffer function [Installable File System Drivers], ifsk.rtlcompressbuffer, ntifs/RtlCompressBuffer, rtlref_5d0857eb-eefe-4e85-8f89-fcbfe37ce41f.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -39,7 +40,9 @@ api_name:
  - RtlCompressBuffer
 ---
 
-# RtlCompressBuffer function
+# RtlCompressBuffer function (ntifs.h)
+
+
 
 ## -description
 

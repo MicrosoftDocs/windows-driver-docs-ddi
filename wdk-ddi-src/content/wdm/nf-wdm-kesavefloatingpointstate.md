@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSaveFloatingPointState function"]
 ms.keywords: KeSaveFloatingPointState, KeSaveFloatingPointState routine [Kernel-Mode Driver Architecture], k105_f004bc61-7a09-46d1-a9c3-dc2a76a03c43.xml, kernel.kesavefloatingpointstate, wdm/KeSaveFloatingPointState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeSaveFloatingPointState
 ---
 
-# KeSaveFloatingPointState function
+# KeSaveFloatingPointState function (wdm.h)
+
+
 
 
 ## -description

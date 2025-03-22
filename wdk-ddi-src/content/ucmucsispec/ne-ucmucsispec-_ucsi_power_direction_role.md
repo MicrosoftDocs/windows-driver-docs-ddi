@@ -7,6 +7,7 @@ ms.date: 05/01/2024
 keywords: ["UCSI_POWER_DIRECTION_ROLE enumeration"]
 ms.keywords: _UCSI_POWER_DIRECTION_ROLE, UCSI_POWER_DIRECTION_ROLE,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_POWER_DIRECTION_ROLE
 ---
 
-# _UCSI_POWER_DIRECTION_ROLE enumeration
+# UCSI_POWER_DIRECTION_ROLE enumeration (ucmucsispec.h)
+
+
 
 ## -description
 

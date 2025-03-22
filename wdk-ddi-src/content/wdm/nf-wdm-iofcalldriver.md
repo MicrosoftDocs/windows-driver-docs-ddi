@@ -7,6 +7,7 @@ ms.date: 01/06/2023
 keywords: ["IofCallDriver function"]
 ms.keywords: IofCallDriver, IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture], k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, kernel.iocalldriver, wdm/IoCallDriver
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: 
 req.target-min-winverclnt:
@@ -37,6 +38,8 @@ api_location:
 api_name:
  - IofCallDriver
 ---
+
+# IofCallDriver function (wdm.h)
 
 ## -description
 

@@ -40,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# ACX_JACK_CONFIG_INIT function (acxpin.h)
+# ACX_JACK_CONFIG_INIT macro (acxpin.h)
+
+
 
 ## -description
 

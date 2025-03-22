@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCbdqDisable function"]
 ms.keywords: FltApiRef_a_to_d_12682977-5b03-4656-ad7b-8f37bb8da66b.xml, FltCbdqDisable, FltCbdqDisable function [Installable File System Drivers], fltkernel/FltCbdqDisable, ifsk.fltcbdqdisable
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltCbdqDisable
 ---
 
-# FltCbdqDisable function
+# FltCbdqDisable function (fltkernel.h)
+
+
 
 
 ## -description

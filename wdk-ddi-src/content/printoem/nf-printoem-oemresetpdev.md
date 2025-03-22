@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMResetPDEV function"]
 ms.keywords: OEMResetPDEV, OEMResetPDEV function [Print Devices], print.oemresetpdev, print_obsoletefunctions_c49829da-bbf6-4438-b291-c8dd93856311.xml, printoem/OEMResetPDEV
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMResetPDEV
 ---
+
+# OEMResetPDEV function (printoem.h)
 
 ## -description
 

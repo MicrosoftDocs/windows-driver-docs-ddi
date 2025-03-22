@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NpdBrokerAcquireWithTimeout function"]
 ms.keywords: NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerAcquireWithTimeout, netvista.npdbrokeracquirewithtimeout
 req.header: knetpwrdepbroker.h
+req.construct-type: function
 req.include-header: KNetPwrDepBroker.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - NpdBrokerAcquireWithTimeout
 ---
 
-# NpdBrokerAcquireWithTimeout function
+# NpdBrokerAcquireWithTimeout function (knetpwrdepbroker.h)
+
+
 
 
 ## -description

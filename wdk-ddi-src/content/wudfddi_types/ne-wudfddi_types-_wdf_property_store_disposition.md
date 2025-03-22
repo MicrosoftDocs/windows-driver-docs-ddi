@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_PROPERTY_STORE_DISPOSITION enumeration"]
 ms.keywords: CreatedNewStore, OpenedExistingStore, WDF_PROPERTY_STORE_DISPOSITION, WDF_PROPERTY_STORE_DISPOSITION enumeration, _WDF_PROPERTY_STORE_DISPOSITION, umdf.wdf_property_store_disposition, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, wdf.wdf_property_store_disposition, wudfddi_types/CreatedNewStore, wudfddi_types/OpenedExistingStore, wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION
 req.header: wudfddi_types.h
+req.construct-type: enumeration
 req.include-header: Wudfddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_PROPERTY_STORE_DISPOSITION
 ---
 
-# _WDF_PROPERTY_STORE_DISPOSITION enumeration
+# WDF_PROPERTY_STORE_DISPOSITION enumeration (wudfddi_types.h)
+
+
 
 
 ## -description

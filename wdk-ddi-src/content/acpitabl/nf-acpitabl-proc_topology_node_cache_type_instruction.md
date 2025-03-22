@@ -6,6 +6,7 @@ ms.date: 10/01/2018
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro"]
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION
 req.header: acpitabl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION
 ---
 
-# PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro
+# PROC_TOPOLOGY_NODE_CACHE_TYPE_INSTRUCTION macro (acpitabl.h)
+
+
+
+
 
 ## -description
 

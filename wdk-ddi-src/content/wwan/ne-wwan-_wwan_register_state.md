@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_REGISTER_STATE enumeration"]
 ms.keywords: "*PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE, PWWAN_REGISTER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_STATE, WWAN_REGISTER_STATE enumeration [Network Drivers Starting with Windows Vista], WwanRef_927c04e0-b022-4d93-8052-696b5e9da51f.xml, WwanRegisterStateDenied, WwanRegisterStateDeregistered, WwanRegisterStateHome, WwanRegisterStateMax, WwanRegisterStatePartner, WwanRegisterStateRoaming, WwanRegisterStateSearching, WwanRegisterStateUnknown, _WWAN_REGISTER_STATE, netvista.wwan_register_state, wwan/PWWAN_REGISTER_STATE, wwan/WWAN_REGISTER_STATE, wwan/WwanRegisterStateDenied, wwan/WwanRegisterStateDeregistered, wwan/WwanRegisterStateHome, wwan/WwanRegisterStateMax, wwan/WwanRegisterStatePartner, wwan/WwanRegisterStateRoaming, wwan/WwanRegisterStateSearching, wwan/WwanRegisterStateUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_REGISTER_STATE
 ---
 
-# _WWAN_REGISTER_STATE enumeration
+# WWAN_REGISTER_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

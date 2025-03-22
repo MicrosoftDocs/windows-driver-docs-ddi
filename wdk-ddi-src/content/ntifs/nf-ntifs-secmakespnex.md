@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SecMakeSPNEx function"]
 ms.keywords: SecMakeSPNEx, SecMakeSPNEx function [Installable File System Drivers], ifsk.secmakespnex, ksecddref_3c4441b9-ed78-473f-ac3c-35a644018499.xml, ntifs/SecMakeSPNEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This function is only Windows XP
@@ -41,7 +42,9 @@ api_name:
  - SecMakeSPNEx
 ---
 
-# SecMakeSPNEx function
+# SecMakeSPNEx function (ntifs.h)
+
+
 
 ## -description
 

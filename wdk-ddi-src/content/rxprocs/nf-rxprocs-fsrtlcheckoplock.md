@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlCheckOplock macro"]
 ms.keywords: FsRtlCheckOplock, FsRtlCheckOplock routine [Installable File System Drivers], fsrtlref_c11dbb80-c7a8-437d-bb6b-661edcf2f24a.xml, ifsk.fsrtlcheckoplock, rxprocs/FsRtlCheckOplock
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available in Microsoft Windows 2000 and later versions of Windows operating systems.
@@ -40,7 +41,11 @@ api_name:
  - FsRtlCheckOplock
 ---
 
-# FsRtlCheckOplock macro
+# FsRtlCheckOplock macro (rxprocs.h)
+
+
+
+
 
 
 ## -description

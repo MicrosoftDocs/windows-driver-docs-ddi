@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO control code [Parallel Ports], cisspd_3f4efeec-5579-44c6-8438-bdb4b4983194.xml, parallel/IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO, parports.ioctl_internal_get_more_parallel_port_info
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO
 ---
 
-# IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO IOCTL
+# IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

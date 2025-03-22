@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoAttachDeviceToDeviceStack function"]
 ms.keywords: IoAttachDeviceToDeviceStack, IoAttachDeviceToDeviceStack routine [Kernel-Mode Driver Architecture], k104_18c6aeef-4362-49f9-88a3-6d2a970eb0d7.xml, kernel.ioattachdevicetodevicestack, wdm/IoAttachDeviceToDeviceStack
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoAttachDeviceToDeviceStack
 ---
 
-# IoAttachDeviceToDeviceStack function
+# IoAttachDeviceToDeviceStack function (wdm.h)
+
+
 
 
 ## -description

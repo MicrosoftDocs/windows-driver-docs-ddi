@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortReadPortBufferUchar macro"]
 ms.keywords: ScsiPortReadPortBufferUchar, ScsiPortReadPortBufferUchar routine [Storage Devices], scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, srb/ScsiPortReadPortBufferUchar, storage.scsiportreadportbufferuchar
 req.header: storport.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - ScsiPortReadPortBufferUchar
 ---
 
-# ScsiPortReadPortBufferUchar macro
+# ScsiPortReadPortBufferUchar macro (storport.h)
+
+
+
+
 
 
 ## -description

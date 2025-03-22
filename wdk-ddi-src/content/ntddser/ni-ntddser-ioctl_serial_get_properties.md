@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_PROPERTIES, IOCTL_SERIAL_GET_PROPERTIES control, IOCTL_SERIAL_GET_PROPERTIES control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_PROPERTIES, serports.ioctl_serial_get_properties, serref_aff2123d-9c26-4958-84e7-9921fe45398e.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_GET_PROPERTIES
 ---
 
-# IOCTL_SERIAL_GET_PROPERTIES IOCTL
+# IOCTL_SERIAL_GET_PROPERTIES IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

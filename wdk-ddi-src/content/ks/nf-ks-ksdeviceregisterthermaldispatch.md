@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDeviceRegisterThermalDispatch function"]
 ms.keywords: KsDeviceRegisterThermalDispatch, KsDeviceRegisterThermalDispatch function [Streaming Media Devices], ks/KsDeviceRegisterThermalDispatch, stream.ksdeviceregisterthermaldispatch
 req.header: ks.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDeviceRegisterThermalDispatch
 ---
 
-# KsDeviceRegisterThermalDispatch function
+# KsDeviceRegisterThermalDispatch function (ks.h)
+
+
 
 
 ## -description

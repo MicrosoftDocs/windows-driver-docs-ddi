@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwSetEvent function"]
 ms.keywords: NtSetEvent, ZwSetEvent, ZwSetEvent routine [Kernel-Mode Driver Architecture], k111_e01bbbbf-29f9-4c0a-89a2-84cf927aeb47.xml, kernel.zwsetevent, ntifs/NtSetEvent, ntifs/ZwSetEvent
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - ZwSetEvent
 ---
 
-# ZwSetEvent function
+# ZwSetEvent function (ntifs.h)
+
+
 
 
 ## -description

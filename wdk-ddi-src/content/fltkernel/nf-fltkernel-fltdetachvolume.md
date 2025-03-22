@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltDetachVolume function"]
 ms.keywords: FltApiRef_a_to_d_2f7a4638-6f6d-4ac6-97b6-d547d64b56b6.xml, FltDetachVolume, FltDetachVolume function [Installable File System Drivers], fltkernel/FltDetachVolume, ifsk.fltdetachvolume
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltDetachVolume
 ---
 
-# FltDetachVolume function
+# FltDetachVolume function (fltkernel.h)
+
+
 
 
 ## -description

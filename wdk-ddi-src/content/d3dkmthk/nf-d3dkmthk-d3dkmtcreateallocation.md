@@ -6,6 +6,7 @@ ms.date: 01/22/2024
 keywords: ["D3DKMTCreateAllocation function"]
 ms.keywords: D3DKMTCreateAllocation, D3DKMTCreateAllocation callback function [Display Devices], OpenGL_Functions_dfd80d2b-c3c7-4aca-833c-153090153b96.xml, PFND3DKMT_CREATEALLOCATION, PFND3DKMT_CREATEALLOCATION callback, d3dkmthk/D3DKMTCreateAllocation, display.d3dkmtcreateallocation
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - D3DKMTCreateAllocation
 ---
+
+# D3DKMTCreateAllocation function (d3dkmthk.h)
 
 ## -description
 

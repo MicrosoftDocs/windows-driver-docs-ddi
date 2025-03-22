@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyHwContext function"]
 ms.keywords: D3DKMTDestroyHwContext, D3DKMTDestroyHwContext function [Display Devices], d3dkmthk/D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTDestroyHwContext
 ---
 
-# D3DKMTDestroyHwContext function
+# D3DKMTDestroyHwContext function (d3dkmthk.h)
+
+
 
 ## -description
 

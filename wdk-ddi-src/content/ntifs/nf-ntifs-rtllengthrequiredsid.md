@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlLengthRequiredSid function"]
 ms.keywords: RtlLengthRequiredSid, RtlLengthRequiredSid routine [Installable File System Drivers], ifsk.rtllengthrequiredsid, ntifs/RtlLengthRequiredSid, rtlref_78e8a660-8510-40bc-b221-747538423488.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - RtlLengthRequiredSid
 ---
 
-# RtlLengthRequiredSid function
+# RtlLengthRequiredSid function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_STREAM_OPEN IOCTL"]
 ms.keywords: IOCTL_BTHHFP_STREAM_OPEN, IOCTL_BTHHFP_STREAM_OPEN control, IOCTL_BTHHFP_STREAM_OPEN control code [Audio Devices], audio.ioctl_bthhfp_stream_open, bthhfpddi/IOCTL_BTHHFP_STREAM_OPEN
 req.header: bthhfpddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHHFP_STREAM_OPEN
 ---
 
-# IOCTL_BTHHFP_STREAM_OPEN IOCTL
+# IOCTL_BTHHFP_STREAM_OPEN IOCTL (bthhfpddi.h)
+
+
+
+
 
 
 ## -description

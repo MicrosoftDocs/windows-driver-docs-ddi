@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetActivityIdSrb function"]
 ms.keywords: StorPortGetActivityIdSrb, StorPortGetActivityIdSrb routine [Storage Devices], storage.storportgetactivityidsrb, storport/StorPortGetActivityIdSrb
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetActivityIdSrb
 ---
 
-# StorPortGetActivityIdSrb function
+# StorPortGetActivityIdSrb function (storport.h)
+
+
 
 
 ## -description

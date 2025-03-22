@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DbgBreakPointWithStatus function"]
 ms.keywords: DbgBreakPointWithStatus, DbgBreakPointWithStatus routine [Driver Development Tools], DebugFns_d958e007-b135-46b0-a407-1843da2e61c0.xml, devtest.dbgbreakpointwithstatus, ntddk/DbgBreakPointWithStatus
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later.
@@ -40,7 +41,9 @@ api_name:
  - DbgBreakPointWithStatus
 ---
 
-# DbgBreakPointWithStatus function
+# DbgBreakPointWithStatus function (wdm.h)
+
+
 
 
 ## -description

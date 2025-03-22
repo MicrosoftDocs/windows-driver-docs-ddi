@@ -8,6 +8,7 @@ ms.date: 01/26/2022
 keywords: ["WdfRequestGetParameters function"]
 ms.keywords: DFRequestObjectRef_f3d44f7e-60b9-4a64-b5b8-a68ab5240376.xml, WdfRequestGetParameters, WdfRequestGetParameters method, kmdf.wdfrequestgetparameters, wdf.wdfrequestgetparameters, wdfrequest/WdfRequestGetParameters
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestGetParameters
 ---
 
-# WdfRequestGetParameters function
+# WdfRequestGetParameters function (wdfrequest.h)
+
+
 
 
 ## -description

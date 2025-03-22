@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyHardwareReady function"]
 ms.keywords: UfxDeviceNotifyHardwareReady, UfxDeviceNotifyHardwareReady method [Buses], buses.ufxdevicenotifyhardwareready, ufxclient/UfxDeviceNotifyHardwareReady
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceNotifyHardwareReady
 ---
 
-# UfxDeviceNotifyHardwareReady function
+# UfxDeviceNotifyHardwareReady function (ufxclient.h)
+
+
 
 
 ## -description

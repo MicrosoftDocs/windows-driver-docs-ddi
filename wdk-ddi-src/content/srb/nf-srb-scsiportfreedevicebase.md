@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortFreeDeviceBase function"]
 ms.keywords: ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices], scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, srb/ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortFreeDeviceBase
 ---
 
-# ScsiPortFreeDeviceBase function
+# ScsiPortFreeDeviceBase function (srb.h)
+
+
 
 
 ## -description

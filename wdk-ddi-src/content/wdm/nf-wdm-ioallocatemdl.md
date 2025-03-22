@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoAllocateMdl function"]
 ms.keywords: IoAllocateMdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, kernel.ioallocatemdl, wdm/IoAllocateMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoAllocateMdl
 ---
 
-# IoAllocateMdl function
+# IoAllocateMdl function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSignalSynchronizationObject function"]
 ms.keywords: D3DKMTSignalSynchronizationObject, D3DKMTSignalSynchronizationObject function [Display Devices], OpenGL_Functions_183a6489-8a99-4dd3-a697-04db44b229c9.xml, d3dkmthk/D3DKMTSignalSynchronizationObject, display.d3dkmtsignalsynchronizationobject
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSignalSynchronizationObject
 ---
 
-# D3DKMTSignalSynchronizationObject function
+# D3DKMTSignalSynchronizationObject function (d3dkmthk.h)
+
+
 
 ## -description
 

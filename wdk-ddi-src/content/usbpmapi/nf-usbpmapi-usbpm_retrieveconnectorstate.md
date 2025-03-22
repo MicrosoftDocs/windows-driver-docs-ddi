@@ -7,6 +7,7 @@ keywords: ["UsbPm_RetrieveConnectorState function"]
 ms.keywords: UsbPm_RetrieveConnectorState
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - UsbPm_RetrieveConnectorState
 ---
 
-# UsbPm_RetrieveConnectorState function
+# UsbPm_RetrieveConnectorState function (usbpmapi.h)
+
+
 
 
 ## -description

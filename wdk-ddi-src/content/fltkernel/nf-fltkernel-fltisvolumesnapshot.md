@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltIsVolumeSnapshot function"]
 ms.keywords: FltApiRef_e_to_o_652c8b18-8114-460b-852f-9c6bc8ff687f.xml, FltIsVolumeSnapshot, FltIsVolumeSnapshot routine [Installable File System Drivers], fltkernel/FltIsVolumeSnapshot, ifsk.fltisvolumesnapshot
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - FltIsVolumeSnapshot
 ---
 
-# FltIsVolumeSnapshot function
+# FltIsVolumeSnapshot function (fltkernel.h)
+
+
 
 
 ## -description

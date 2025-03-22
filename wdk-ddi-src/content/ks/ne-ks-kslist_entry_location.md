@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSLIST_ENTRY_LOCATION enumeration"]
 ms.keywords: KSLIST_ENTRY_LOCATION, KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KsListEntryHead, KsListEntryTail, ks/KSLIST_ENTRY_LOCATION, ks/KsListEntryHead, ks/KsListEntryTail, stream.kslist_entry_location
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSLIST_ENTRY_LOCATION
 ---
 
-# KSLIST_ENTRY_LOCATION enumeration
+# KSLIST_ENTRY_LOCATION enumeration (ks.h)
+
+
 
 
 ## -description

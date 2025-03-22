@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsSetDevicePnpAndBaseObject function"]
 ms.keywords: KsSetDevicePnpAndBaseObject, KsSetDevicePnpAndBaseObject function [Streaming Media Devices], ks/KsSetDevicePnpAndBaseObject, ksfunc_eff06a34-a458-4426-972c-6a0fbf0f7846.xml, stream.kssetdevicepnpandbaseobject
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsSetDevicePnpAndBaseObject
 ---
+
+# KsSetDevicePnpAndBaseObject function (ks.h)
 
 ## -description
 

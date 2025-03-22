@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfChildListBeginScan function"]
 ms.keywords: DFDeviceObjectChildListRef_b503df87-d0b1-472d-9981-4896fe81f7d8.xml, WdfChildListBeginScan, WdfChildListBeginScan method, kmdf.wdfchildlistbeginscan, wdf.wdfchildlistbeginscan, wdfchildlist/WdfChildListBeginScan
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfChildListBeginScan
 ---
 
-# WdfChildListBeginScan function
+# WdfChildListBeginScan function (wdfchildlist.h)
+
+
 
 
 ## -description

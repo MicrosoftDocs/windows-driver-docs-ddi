@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoUnregisterPlugPlayNotification function"]
 ms.keywords: IoUnregisterPlugPlayNotification, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification, wdm/IoUnregisterPlugPlayNotification
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoUnregisterPlugPlayNotification
 ---
+
+# IoUnregisterPlugPlayNotification function (wdm.h)
 
 ## -description
 

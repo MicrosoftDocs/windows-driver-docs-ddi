@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URS_HOST_INTERFACE_TYPE enumeration"]
 ms.keywords: URS_HOST_INTERFACE_TYPE, URS_HOST_INTERFACE_TYPE enumeration [Buses], UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, UrsHostInterfaceTypeXhci, _URS_HOST_INTERFACE_TYPE, buses.urs_host_interface_type, urstypes/URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, urstypes/UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci
 req.header: urstypes.h
+req.construct-type: enumeration
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - URS_HOST_INTERFACE_TYPE
 ---
 
-# _URS_HOST_INTERFACE_TYPE enumeration
+# URS_HOST_INTERFACE_TYPE enumeration (urstypes.h)
+
+
 
 
 ## -description

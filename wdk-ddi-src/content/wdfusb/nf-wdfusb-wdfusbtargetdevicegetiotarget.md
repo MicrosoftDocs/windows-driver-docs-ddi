@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceGetIoTarget function"]
 ms.keywords: DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, kmdf.wdfusbtargetdevicegetiotarget, wdf.wdfusbtargetdevicegetiotarget, wdfusb/WdfUsbTargetDeviceGetIoTarget
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceGetIoTarget
 ---
 
-# WdfUsbTargetDeviceGetIoTarget function
+# WdfUsbTargetDeviceGetIoTarget function (wdfusb.h)
+
+
 
 
 ## -description

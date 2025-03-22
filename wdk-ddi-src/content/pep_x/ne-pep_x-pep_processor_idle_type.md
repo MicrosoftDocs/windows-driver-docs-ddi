@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PROCESSOR_IDLE_TYPE enumeration"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE, PEP_PROCESSOR_IDLE_TYPE enumeration [Kernel-Mode Driver Architecture], PepIdleTypeMax, PepIdleTypePlatform, PepIdleTypeProcessor, kernel.pep_processor_idle_type, pep_x/PEP_PROCESSOR_IDLE_TYPE, pep_x/PepIdleTypeMax, pep_x/PepIdleTypePlatform, pep_x/PepIdleTypeProcessor"
 req.header: pep_x.h
+req.construct-type: enumeration
 req.include-header: Pepfx.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -43,7 +44,9 @@ api_name:
  - PEP_PROCESSOR_IDLE_TYPE
 ---
 
-# PEP_PROCESSOR_IDLE_TYPE enumeration
+# PEP_PROCESSOR_IDLE_TYPE enumeration (pep_x.h)
+
+
 
 
 ## -description

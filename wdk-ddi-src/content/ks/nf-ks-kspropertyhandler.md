@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPropertyHandler function"]
 ms.keywords: KsPropertyHandler, KsPropertyHandler function [Streaming Media Devices], ks/KsPropertyHandler, ksfunc_9595b49a-6957-4ebc-8d45-3a92f9190734.xml, stream.kspropertyhandler
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsPropertyHandler
 ---
 
-# KsPropertyHandler function
+# KsPropertyHandler function (ks.h)
+
+
 
 
 ## -description

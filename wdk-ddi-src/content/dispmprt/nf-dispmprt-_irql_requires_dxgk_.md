@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["IRQL_requires_DXGK_ macro"]
 ms.keywords: _IRQL_requires_DXGK_
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# _IRQL_requires_DXGK_ macro
+# _IRQL_requires_DXGK_ macro (dispmprt.h)
+
+
+
+
 
 
 ## -description

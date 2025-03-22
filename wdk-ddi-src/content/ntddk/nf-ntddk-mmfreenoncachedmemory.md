@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmFreeNonCachedMemory function"]
 ms.keywords: MmFreeNonCachedMemory, MmFreeNonCachedMemory routine [Kernel-Mode Driver Architecture], k106_29c317c1-955e-4d0c-9e65-e1aa511c7a8d.xml, kernel.mmfreenoncachedmemory, ntddk/MmFreeNonCachedMemory
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmFreeNonCachedMemory
 ---
 
-# MmFreeNonCachedMemory function
+# MmFreeNonCachedMemory function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2019
 keywords: ["KBUGCHECK_DUMP_IO_TYPE enumeration"]
 ms.keywords: KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoBody, KbDumpIoComplete, KbDumpIoHeader, KbDumpIoInvalid, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoBody, wdm/KbDumpIoComplete, wdm/KbDumpIoHeader, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available on Microsoft Windows XP with Service Pack 1 (SP1), Windows Server 2003, and later versions of the Windows operating system.
@@ -43,7 +44,9 @@ api_name:
  - KBUGCHECK_DUMP_IO_TYPE
 ---
 
-# _KBUGCHECK_DUMP_IO_TYPE enumeration
+# KBUGCHECK_DUMP_IO_TYPE enumeration (wdm.h)
+
+
 
 
 ## -description

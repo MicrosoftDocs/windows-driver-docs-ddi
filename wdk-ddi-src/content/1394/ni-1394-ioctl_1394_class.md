@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_1394_CLASS IOCTL"]
 ms.keywords: 1394/IOCTL_1394_CLASS, 1394irp_fa8ee811-14ee-44a0-9a9c-b53a421497d4.xml, IEEE.ioctl_1394_class, IOCTL_1394_CLASS, IOCTL_1394_CLASS control, IOCTL_1394_CLASS control code [Buses]
 req.header: 1394.h
+req.construct-type: ioctl
 req.include-header: 1394.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_1394_CLASS
 ---
 
-# IOCTL_1394_CLASS IOCTL
+# IOCTL_1394_CLASS IOCTL (1394.h)
+
+
+
+
 
 
 ## -description

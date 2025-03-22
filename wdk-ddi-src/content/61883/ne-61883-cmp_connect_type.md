@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["CMP_CONNECT_TYPE enumeration"]
 ms.keywords: 61883/CMP_Broadcast, 61883/CMP_CONNECT_TYPE, 61883/CMP_PointToPoint, CMP_Broadcast, CMP_CONNECT_TYPE, CMP_CONNECT_TYPE enumeration [Buses], CMP_PointToPoint, IEEE.cmp_connect_type
 req.header: 61883.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CMP_CONNECT_TYPE
 ---
 
-# CMP_CONNECT_TYPE enumeration
+# CMP_CONNECT_TYPE enumeration (61883.h)
+
+
 
 
 ## -description

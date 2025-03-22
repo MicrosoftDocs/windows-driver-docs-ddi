@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortStallExecution function"]
 ms.keywords: VideoPortStallExecution, VideoPortStallExecution function [Display Devices], VideoPort_Functions_bda7e25d-a636-4ceb-ae47-c74435f9483a.xml, display.videoportstallexecution, video/VideoPortStallExecution
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortStallExecution
 ---
 
-# VideoPortStallExecution function
+# VideoPortStallExecution function (video.h)
+
+
 
 
 ## -description

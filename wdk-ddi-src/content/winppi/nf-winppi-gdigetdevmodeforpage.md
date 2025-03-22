@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiGetDevmodeForPage function"]
 ms.keywords: GdiGetDevmodeForPage, GdiGetDevmodeForPage function [Print Devices], gdifnc_39ecbc8c-73fb-4e71-9df7-abdc4d8ccdcf.xml, print.gdigetdevmodeforpage, winppi/GdiGetDevmodeForPage
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiGetDevmodeForPage
 ---
 
-# GdiGetDevmodeForPage function
+# GdiGetDevmodeForPage function (winppi.h)
+
+
 
 
 ## -description

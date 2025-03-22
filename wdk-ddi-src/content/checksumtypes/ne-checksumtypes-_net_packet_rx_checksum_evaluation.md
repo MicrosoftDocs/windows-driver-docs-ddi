@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_PACKET_RX_CHECKSUM_EVALUATION enumeration"]
 ms.keywords: NET_PACKET_RX_CHECKSUM_EVALUATION, NET_PACKET_RX_CHECKSUM_EVALUATION,
 req.header: checksumtypes.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ f1_keywords:
  - checksumtypes/NET_PACKET_RX_CHECKSUM_EVALUATION
 ---
 
-# NET_PACKET_RX_CHECKSUM_EVALUATION enumeration
+# NET_PACKET_RX_CHECKSUM_EVALUATION enumeration (checksumtypes.h)
+
+
 
 
 ## -description

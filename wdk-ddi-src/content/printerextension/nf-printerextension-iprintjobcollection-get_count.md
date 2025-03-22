@@ -7,6 +7,7 @@ ms.date: 07/29/2022
 keywords: ["IPrintJobCollection::get_Count"]
 ms.keywords: Count property [Print Devices], Count property [Print Devices],IPrintJobCollection interface, IPrintJobCollection interface [Print Devices],Count property, IPrintJobCollection.Count, IPrintJobCollection.get_Count, IPrintJobCollection::Count, IPrintJobCollection::get_Count, get_Count, print.iprintjobcollection_count, printerextension/IPrintJobCollection::Count, printerextension/IPrintJobCollection::get_Count
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintJobCollection::get_Count
 ---
+
+# IPrintJobCollection::get_Count function (printerextension.h)
 
 ## -description
 

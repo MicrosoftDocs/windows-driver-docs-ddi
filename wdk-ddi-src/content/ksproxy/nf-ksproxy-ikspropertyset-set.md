@@ -7,6 +7,7 @@ ms.date: 11/17/2022
 keywords: ["IKsPropertySet::Set"]
 ms.keywords: IKsPropertySet interface [Streaming Media Devices],Set method, IKsPropertySet.Set, IKsPropertySet::Set, Set, Set method [Streaming Media Devices], Set method [Streaming Media Devices],IKsPropertySet interface, ksproxy/IKsPropertySet::Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, stream.ikspropertyset_set
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h, Dsound.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsPropertySet::Set
 ---
+
+# IKsPropertySet::Set function (ksproxy.h)
 
 ## -description
 

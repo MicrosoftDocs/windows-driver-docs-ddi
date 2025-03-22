@@ -7,6 +7,7 @@ ms.date: 04/17/2018
 keywords: ["NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro"]
 ms.keywords: NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -37,7 +38,11 @@ api_name:
  - NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE
 ---
 
-# NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro
+# NDIS_DECLARE_SWITCH_NET_BUFFER_LIST_CONTEXT_TYPE macro (ndis.h)
+
+
+
+
 
 
 ## -description

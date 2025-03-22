@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCsqInsertIrpEx function"]
 ms.keywords: IoCsqInsertIrpEx, IoCsqInsertIrpEx routine [Kernel-Mode Driver Architecture], k104_5a30f95f-f46d-4f45-a261-a740f33c5327.xml, kernel.iocsqinsertirpex, wdm/IoCsqInsertIrpEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of the Windows operating system. The routine is also available in the Csq.lib library that ships with the Windows Driver Kit (WDK) and the Driver Development Kit (DDK) for Windows Server 2003. Drivers that must also work for on Windows XP, Windows 2000, and Windows 98/Me can instead link to Csq.lib to use the routine.
@@ -40,7 +41,9 @@ api_name:
  - IoCsqInsertIrpEx
 ---
 
-# IoCsqInsertIrpEx function
+# IoCsqInsertIrpEx function (wdm.h)
+
+
 
 
 ## -description

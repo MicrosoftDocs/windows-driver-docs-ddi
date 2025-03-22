@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisDprAcquireSpinLock macro"]
 ms.keywords: NdisDprAcquireSpinLock, NdisDprAcquireSpinLock macro [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireSpinLock, ndis_spin_lock_ref_c954c605-2544-4911-8ebd-ba0464228437.xml, netvista.ndisdpracquirespinlock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisDprAcquireSpinLock (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisDprAcquireSpinLock (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,11 @@ api_name:
  - NdisDprAcquireSpinLock
 ---
 
-# NdisDprAcquireSpinLock macro
+# NdisDprAcquireSpinLock macro (ndis.h)
+
+
+
+
 
 
 ## -description

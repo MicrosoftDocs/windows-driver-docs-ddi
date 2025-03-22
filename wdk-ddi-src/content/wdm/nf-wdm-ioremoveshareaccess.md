@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRemoveShareAccess function"]
 ms.keywords: IoRemoveShareAccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, kernel.ioremoveshareaccess, wdm/IoRemoveShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoRemoveShareAccess
 ---
 
-# IoRemoveShareAccess function
+# IoRemoveShareAccess function (wdm.h)
+
+
 
 
 ## -description

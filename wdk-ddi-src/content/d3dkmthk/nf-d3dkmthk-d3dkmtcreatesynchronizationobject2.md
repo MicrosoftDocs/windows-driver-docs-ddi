@@ -5,6 +5,7 @@ description: Learn more about the D3DKMTCreateSynchronizationObject2 function.
 ms.date: 03/14/2024
 keywords: ["D3DKMTCreateSynchronizationObject2 function"]
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -41,7 +42,9 @@ api_name:
  - D3DKMTCreateSynchronizationObject2
 ---
 
-# D3DKMTCreateSynchronizationObject2 function
+# D3DKMTCreateSynchronizationObject2 function (d3dkmthk.h)
+
+
 
 ## -description
 

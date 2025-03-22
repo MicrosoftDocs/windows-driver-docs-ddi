@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmRegisterAddressFamilyEx function"]
 ms.keywords: NdisCmRegisterAddressFamilyEx, NdisCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_5d5bc425-d983-4d7c-8896-7cda4cab625d.xml, ndis/NdisCmRegisterAddressFamilyEx, netvista.ndiscmregisteraddressfamilyex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmRegisterAddressFamilyEx
 ---
 
-# NdisCmRegisterAddressFamilyEx function
+# NdisCmRegisterAddressFamilyEx function (ndis.h)
+
+
 
 
 ## -description

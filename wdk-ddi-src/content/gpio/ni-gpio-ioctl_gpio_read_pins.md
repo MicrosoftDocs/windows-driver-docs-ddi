@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GPIO_READ_PINS IOCTL"]
 ms.keywords: GPIO.ioctl_gpio_read_pins, IOCTL_GPIO_READ_PINS, IOCTL_GPIO_READ_PINS control, IOCTL_GPIO_READ_PINS control code [Parallel Ports], gpio/IOCTL_GPIO_READ_PINS
 req.header: gpio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GPIO_READ_PINS
 ---
 
-# IOCTL_GPIO_READ_PINS IOCTL
+# IOCTL_GPIO_READ_PINS IOCTL (gpio.h)
+
+
+
+
 
 
 ## -description

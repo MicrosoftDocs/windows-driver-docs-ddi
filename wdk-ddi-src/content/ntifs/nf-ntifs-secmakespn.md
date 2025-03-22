@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["SecMakeSPN function"]
 ms.keywords: SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ifsk.secmakespn, ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - SecMakeSPN
 ---
 
-# SecMakeSPN function
+# SecMakeSPN function (ntifs.h)
+
+
 
 ## -description
 

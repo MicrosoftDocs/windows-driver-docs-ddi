@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["InsertHeadList function"]
 ms.keywords: InsertHeadList, InsertHeadList routine [Kernel-Mode Driver Architecture], k109_dde56187-8543-45cc-97fd-3fde2475e428.xml, kernel.insertheadlist, wdm/InsertHeadList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - InsertHeadList
 ---
 
-# InsertHeadList function
+# InsertHeadList function (wdm.h)
+
+
 
 
 ## -description

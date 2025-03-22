@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_DeinterlaceTech enumeration"]
 ms.keywords: DXVA_DeinterlaceTech, DXVA_DeinterlaceTech enumeration [Display Devices], DXVA_DeinterlaceTech_BOBLineReplicate, DXVA_DeinterlaceTech_BOBVerticalStretch, DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, DXVA_DeinterlaceTech_EdgeFiltering, DXVA_DeinterlaceTech_FieldAdaptive, DXVA_DeinterlaceTech_MedianFiltering, DXVA_DeinterlaceTech_MotionVectorSteered, DXVA_DeinterlaceTech_PixelAdaptive, DXVA_DeinterlaceTech_Unknown, _DXVA_DeinterlaceTech, display.dxva_deinterlacetech, dxva/DXVA_DeinterlaceTech, dxva/DXVA_DeinterlaceTech_BOBLineReplicate, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch, dxva/DXVA_DeinterlaceTech_BOBVerticalStretch4Tap, dxva/DXVA_DeinterlaceTech_EdgeFiltering, dxva/DXVA_DeinterlaceTech_FieldAdaptive, dxva/DXVA_DeinterlaceTech_MedianFiltering, dxva/DXVA_DeinterlaceTech_MotionVectorSteered, dxva/DXVA_DeinterlaceTech_PixelAdaptive, dxva/DXVA_DeinterlaceTech_Unknown, dxvaref_ce829a5b-1e09-43e6-b90c-f7501476f280.xml
 req.header: dxva.h
+req.construct-type: enumeration
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXVA_DeinterlaceTech
 ---
 
-# _DXVA_DeinterlaceTech enumeration
+# DXVA_DeinterlaceTech enumeration (dxva.h)
+
+
 
 
 ## -description

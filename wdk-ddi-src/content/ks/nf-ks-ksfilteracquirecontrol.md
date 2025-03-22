@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterAcquireControl function"]
 ms.keywords: KsFilterAcquireControl, KsFilterAcquireControl function [Streaming Media Devices], avfunc_63930ae0-491f-4916-a24f-7de5c8fa1ad3.xml, ks/KsFilterAcquireControl, stream.ksfilteracquirecontrol
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsFilterAcquireControl
 ---
 
-# KsFilterAcquireControl function
+# KsFilterAcquireControl function (ks.h)
+
+
 
 
 ## -description

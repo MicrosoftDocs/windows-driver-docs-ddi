@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlConvertLongToLuid function"]
 ms.keywords: RtlConvertLongToLuid, RtlConvertLongToLuid routine [Kernel-Mode Driver Architecture], k109_be3bfbe0-7a0b-43e3-a22e-2cd6e5a92f2e.xml, kernel.rtlconvertlongtoluid, ntddk/RtlConvertLongToLuid
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlConvertLongToLuid
 ---
 
-# RtlConvertLongToLuid function
+# RtlConvertLongToLuid function (ntddk.h)
+
+
 
 
 ## -description

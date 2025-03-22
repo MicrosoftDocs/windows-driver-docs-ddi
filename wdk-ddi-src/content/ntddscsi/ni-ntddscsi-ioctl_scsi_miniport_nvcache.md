@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_MINIPORT_NVCACHE IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_NVCACHE, IOCTL_SCSI_MINIPORT_NVCACHE control, IOCTL_SCSI_MINIPORT_NVCACHE control code [Storage Devices], k307_0a3946a8-c611-4499-b62c-25f920eeec1e.xml, ntddscsi/IOCTL_SCSI_MINIPORT_NVCACHE, storage.ioctl_scsi_miniport_nvcache
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSI_MINIPORT_NVCACHE
 ---
 
-# IOCTL_SCSI_MINIPORT_NVCACHE IOCTL
+# IOCTL_SCSI_MINIPORT_NVCACHE IOCTL (ntddscsi.h)
+
+
+
+
 
 ## -description
 

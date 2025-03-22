@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDeleteKeyFromTunnelCache function"]
 ms.keywords: FsRtlDeleteKeyFromTunnelCache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ifsk.fsrtldeletekeyfromtunnelcache, ntifs/FsRtlDeleteKeyFromTunnelCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlDeleteKeyFromTunnelCache function
+# FsRtlDeleteKeyFromTunnelCache function (ntifs.h)
+
+
 
 
 ## -description

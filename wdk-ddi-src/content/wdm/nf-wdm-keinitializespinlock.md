@@ -7,6 +7,7 @@ ms.date: 01/05/2023
 keywords: ["KeInitializeSpinLock function"]
 ms.keywords: KeInitializeSpinLock, KeInitializeSpinLock routine [Kernel-Mode Driver Architecture], k105_715eff59-827a-4d41-8e3a-2ce0d1f1181d.xml, kernel.keinitializespinlock, wdm/KeInitializeSpinLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KeInitializeSpinLock
 ---
+
+# KeInitializeSpinLock function (wdm.h)
 
 ## -description
 

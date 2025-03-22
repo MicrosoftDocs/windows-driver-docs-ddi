@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFreeDefaultClock function"]
 ms.keywords: KsFreeDefaultClock, KsFreeDefaultClock function [Streaming Media Devices], ks/KsFreeDefaultClock, ksfunc_30a51e64-775e-4412-9a8c-b186e6caf932.xml, stream.ksfreedefaultclock
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsFreeDefaultClock
 ---
 
-# KsFreeDefaultClock function
+# KsFreeDefaultClock function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFastIoMdlRead function"]
 ms.keywords: FltFastIoMdlRead, FsRtlMdlReadDev, FsRtlMdlReadDev routine [Installable File System Drivers], fltkernel/FsRtlMdlReadDev, ifsk.fltfastiomdlread
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltFastIoMdlRead
 ---
 
-# FltFastIoMdlRead function
+# FltFastIoMdlRead function (fltkernel.h)
+
+
 
 
 ## -description

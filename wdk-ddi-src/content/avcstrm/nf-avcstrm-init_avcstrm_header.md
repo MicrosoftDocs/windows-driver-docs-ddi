@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["INIT_AVCSTRM_HEADER macro"]
 ms.keywords: INIT_AVCSTRM_HEADER, INIT_AVCSTRM_HEADER macro [Streaming Media Devices], avcsref_97f7d983-5637-4ac4-ad1c-53328adca831.xml, avcstrm/INIT_AVCSTRM_HEADER, stream.init_avcstrm_header
 req.header: avcstrm.h
+req.construct-type: function
 req.include-header: Avcstrm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - INIT_AVCSTRM_HEADER
 ---
 
-# INIT_AVCSTRM_HEADER macro
+# INIT_AVCSTRM_HEADER macro (avcstrm.h)
+
+
+
+
 
 
 ## -description

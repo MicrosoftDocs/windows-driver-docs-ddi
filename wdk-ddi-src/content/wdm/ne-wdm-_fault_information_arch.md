@@ -7,6 +7,7 @@ tech.root: devtest
 keywords: ["FAULT_INFORMATION_ARCH enumeration"]
 ms.keywords: _FAULT_INFORMATION_ARCH, *PFAULT_INFORMATION_ARCH, FAULT_INFORMATION_ARCH,
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -36,7 +37,9 @@ api_name:
  - FAULT_INFORMATION_ARCH
 ---
 
-# _FAULT_INFORMATION_ARCH enumeration
+# FAULT_INFORMATION_ARCH enumeration (wdm.h)
+
+
 
 
 ## -description

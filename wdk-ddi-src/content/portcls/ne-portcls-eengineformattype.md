@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["eEngineFormatType enumeration"]
 ms.keywords: audio.eengineformattype, eDeviceFormat, eEngineFormatType, eEngineFormatType enumeration [Audio Devices], eMixFormat, eSupportedDeviceFormats, portcls/eDeviceFormat, portcls/eEngineFormatType, portcls/eMixFormat, portcls/eSupportedDeviceFormats
 req.header: portcls.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - eEngineFormatType
 ---
 
-# eEngineFormatType enumeration
+# eEngineFormatType enumeration (portcls.h)
+
+
 
 
 ## -description

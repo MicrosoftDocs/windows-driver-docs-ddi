@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_INTERCONNECT_TYPE enumeration"]
 ms.keywords: WDI_INTERCONNECT_MEMORY_MAPPED, WDI_INTERCONNECT_MESSAGE_BASED, WDI_INTERCONNECT_TYPE, WDI_INTERCONNECT_TYPE enumeration [Network Drivers Starting with Windows Vista], WDI_INTERCONNECT_UNKNOWN, _WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_MEMORY_MAPPED, dot11wdi/WDI_INTERCONNECT_MESSAGE_BASED, dot11wdi/WDI_INTERCONNECT_TYPE, dot11wdi/WDI_INTERCONNECT_UNKNOWN, netvista.wdi_interconnect_type, netvista.wifi_interconnect_type
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - WDI_INTERCONNECT_TYPE
 ---
 
-# _WDI_INTERCONNECT_TYPE enumeration
+# WDI_INTERCONNECT_TYPE enumeration (dot11wdi.h)
+
+
 
 
 ## -description

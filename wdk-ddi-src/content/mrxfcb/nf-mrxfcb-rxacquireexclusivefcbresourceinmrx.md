@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxAcquireExclusiveFcbResourceInMRx function"]
 ms.keywords: RxAcquireExclusiveFcbResourceInMRx, RxAcquireExclusiveFcbResourceInMRx routine [Installable File System Drivers], ifsk.rxacquireexclusivefcbresourceinmrx, mrxfcb/RxAcquireExclusiveFcbResourceInMRx, rxref_54a3508a-7d99-487a-9363-a13500540230.xml
 req.header: mrxfcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxAcquireExclusiveFcbResourceInMRx
 ---
 
-# RxAcquireExclusiveFcbResourceInMRx function
+# RxAcquireExclusiveFcbResourceInMRx function (mrxfcb.h)
+
+
 
 
 ## -description

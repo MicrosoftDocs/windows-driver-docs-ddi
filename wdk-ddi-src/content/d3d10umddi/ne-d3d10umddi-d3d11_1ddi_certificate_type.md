@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_1DDI_CERTIFICATE_TYPE enumeration"]
 ms.keywords: D3D11_1DDI_CERTIFICATE_TYPE, D3D11_1DDI_CERTIFICATE_TYPE enumeration [Display Devices], D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_AUTHENTICATED_CHANNEL, d3d10umddi/D3D11_1DDI_CERTIFICATE_TYPE_CRYPTO_SESSION, display.d3d11_1ddi_certificate_type
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3D11_1DDI_CERTIFICATE_TYPE
 ---
 
-# D3D11_1DDI_CERTIFICATE_TYPE enumeration
+# D3D11_1DDI_CERTIFICATE_TYPE enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

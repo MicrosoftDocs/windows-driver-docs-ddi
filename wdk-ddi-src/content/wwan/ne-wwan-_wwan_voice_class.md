@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_VOICE_CLASS enumeration"]
 ms.keywords: "*PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS, PWWAN_VOICE_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_VOICE_CLASS, WWAN_VOICE_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanRef_13e9339b-e11b-416b-8335-51c950049c6e.xml, WwanVoiceClassMax, WwanVoiceClassNoVoice, WwanVoiceClassSeparateVoiceData, WwanVoiceClassSimultaneousVoiceData, WwanVoiceClassUnknown, _WWAN_VOICE_CLASS, netvista.wwan_voice_class, wwan/PWWAN_VOICE_CLASS, wwan/WWAN_VOICE_CLASS, wwan/WwanVoiceClassMax, wwan/WwanVoiceClassNoVoice, wwan/WwanVoiceClassSeparateVoiceData, wwan/WwanVoiceClassSimultaneousVoiceData, wwan/WwanVoiceClassUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_VOICE_CLASS
 ---
 
-# _WWAN_VOICE_CLASS enumeration
+# WWAN_VOICE_CLASS enumeration (wwan.h)
+
+
 
 
 ## -description

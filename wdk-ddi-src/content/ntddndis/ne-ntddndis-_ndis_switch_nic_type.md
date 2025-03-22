@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_NIC_TYPE enumeration"]
 ms.keywords: NDIS_SWITCH_NIC_TYPE, NDIS_SWITCH_NIC_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchNicTypeEmulated, NdisSwitchNicTypeExternal, NdisSwitchNicTypeInternal, NdisSwitchNicTypeSynthetic, PNDIS_SWITCH_NIC_TYPE, PNDIS_SWITCH_NIC_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_TYPE, netvista.ndis_switch_nic_type, ntddndis/NDIS_SWITCH_NIC_TYPE, ntddndis/NdisSwitchNicTypeEmulated, ntddndis/NdisSwitchNicTypeExternal, ntddndis/NdisSwitchNicTypeInternal, ntddndis/NdisSwitchNicTypeSynthetic, ntddndis/PNDIS_SWITCH_NIC_TYPE
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDIS_SWITCH_NIC_TYPE
 ---
 
-# _NDIS_SWITCH_NIC_TYPE enumeration
+# NDIS_SWITCH_NIC_TYPE enumeration (ntddndis.h)
+
+
 
 
 ## -description

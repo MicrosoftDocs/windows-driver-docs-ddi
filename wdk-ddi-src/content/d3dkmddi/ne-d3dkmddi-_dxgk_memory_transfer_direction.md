@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_MEMORY_TRANSFER_DIRECTION enumeration"]
 ms.keywords: DXGK_MEMORY_TRANSFER_DIRECTION, DXGK_MEMORY_TRANSFER_DIRECTION enumeration [Display Devices], DXGK_MEMORY_TRANSFER_LOCAL_TO_LOCAL, DXGK_MEMORY_TRANSFER_LOCAL_TO_SYSTEM, DXGK_MEMORY_TRANSFER_SYSTEM_TO_LOCAL, _DXGK_MEMORY_TRANSFER_DIRECTION, d3dkmddi/DXGK_MEMORY_TRANSFER_DIRECTION, d3dkmddi/DXGK_MEMORY_TRANSFER_LOCAL_TO_LOCAL, d3dkmddi/DXGK_MEMORY_TRANSFER_LOCAL_TO_SYSTEM, d3dkmddi/DXGK_MEMORY_TRANSFER_SYSTEM_TO_LOCAL, display.dxgk_memory_transfer_direction
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: D3dkmddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - DXGK_MEMORY_TRANSFER_DIRECTION
 ---
 
-# _DXGK_MEMORY_TRANSFER_DIRECTION enumeration
+# DXGK_MEMORY_TRANSFER_DIRECTION enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

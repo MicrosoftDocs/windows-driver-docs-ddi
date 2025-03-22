@@ -6,6 +6,7 @@ ms.date: 03/03/2022
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_FLAGS, D3DKMT_MULTIPLANE_OVERLAY_FLAGS,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration
+# D3DKMT_MULTIPLANE_OVERLAY_FLAGS enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

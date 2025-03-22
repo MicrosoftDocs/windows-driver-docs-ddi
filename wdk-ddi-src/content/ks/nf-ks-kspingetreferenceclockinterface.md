@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetReferenceClockInterface function"]
 ms.keywords: KsPinGetReferenceClockInterface, KsPinGetReferenceClockInterface function [Streaming Media Devices], avfunc_7434698b-f441-4d80-91db-8fa5d7d10c60.xml, ks/KsPinGetReferenceClockInterface, stream.kspingetreferenceclockinterface
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetReferenceClockInterface
 ---
 
-# KsPinGetReferenceClockInterface function
+# KsPinGetReferenceClockInterface function (ks.h)
+
+
 
 
 ## -description

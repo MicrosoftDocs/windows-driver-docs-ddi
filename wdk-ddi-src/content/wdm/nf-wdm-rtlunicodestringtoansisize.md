@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringToAnsiSize macro"]
 ms.keywords: RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, wdm/RtlUnicodeStringToAnsiSize
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - RtlUnicodeStringToAnsiSize
 ---
 
-# RtlUnicodeStringToAnsiSize macro
+# RtlUnicodeStringToAnsiSize macro (wdm.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE, IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE control code [Parallel Ports], cisspd_79cabd40-4310-48c4-9ee3-f7b50fc60f6f.xml, parallel/IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE, parports.ioctl_internal_parallel_port_allocate
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE
 ---
 
-# IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE IOCTL
+# IOCTL_INTERNAL_PARALLEL_PORT_ALLOCATE IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

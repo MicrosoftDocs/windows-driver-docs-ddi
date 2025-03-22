@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIMAssociateMiniport function"]
 ms.keywords: NdisIMAssociateMiniport, NdisIMAssociateMiniport function [Network Drivers Starting with Windows Vista], intermediate_ref_2f9545a6-262c-4347-b192-16ea23314410.xml, ndis/NdisIMAssociateMiniport, netvista.ndisimassociateminiport
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisIMAssociateMiniport (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisIMAssociateMiniport (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisIMAssociateMiniport
 ---
 
-# NdisIMAssociateMiniport function
+# NdisIMAssociateMiniport function (ndis.h)
+
+
 
 
 ## -description

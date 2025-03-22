@@ -7,6 +7,7 @@ ms.date: 04/10/2019
 keywords: ["EVENTFEATURES enumeration"]
 ms.keywords: EVENTFEATURES, EVENTFEATURES,
 req.header: eventdetectoroemadapter.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - EVENTFEATURES
 ---
 
-# EVENTFEATURES enumeration
+# EVENTFEATURES enumeration (eventdetectoroemadapter.h)
+
+
 
 
 ## -description

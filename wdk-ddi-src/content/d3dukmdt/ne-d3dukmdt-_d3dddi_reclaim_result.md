@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_RECLAIM_RESULT enumeration"]
 ms.keywords: _D3DDDI_RECLAIM_RESULT, D3DDDI_RECLAIM_RESULT,
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDI_RECLAIM_RESULT enumeration
+# D3DDDI_RECLAIM_RESULT enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

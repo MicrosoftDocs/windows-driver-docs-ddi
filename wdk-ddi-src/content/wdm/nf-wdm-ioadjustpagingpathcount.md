@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoAdjustPagingPathCount macro"]
 ms.keywords: IoAdjustPagingPathCount, IoAdjustPagingPathCount routine [Kernel-Mode Driver Architecture], k104_f52acd6d-f3f6-43c2-a339-3060a12a6298.xml, kernel.ioadjustpagingpathcount, wdm/IoAdjustPagingPathCount
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - IoAdjustPagingPathCount
 ---
 
-# IoAdjustPagingPathCount macro
+# IoAdjustPagingPathCount macro (wdm.h)
+
+
+
+
 
 
 ## -description

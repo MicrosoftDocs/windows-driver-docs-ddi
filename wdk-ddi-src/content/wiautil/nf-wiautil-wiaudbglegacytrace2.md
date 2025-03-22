@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgLegacyTrace2 function"]
 ms.keywords: image.wiaudbglegacytrace2, wiauDbgLegacyTrace2, wiauDbgLegacyTrace2 function [Imaging Devices], wiauFncs_8fbdcd6b-cb2b-461b-81f0-880675d0124b.xml, wiautil/wiauDbgLegacyTrace2
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - wiauDbgLegacyTrace
 ---
 
-# wiauDbgLegacyTrace2 function
+# wiauDbgLegacyTrace2 function (wiautil.h)
+
+
 
 
 ## -description

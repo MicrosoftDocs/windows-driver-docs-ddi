@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoSetSystemWake function"]
 ms.keywords: PoSetSystemWake, PoSetSystemWake routine [Kernel-Mode Driver Architecture], kernel.posetsystemwake, portn_09bfa419-5a6c-4305-87ee-58a0e032d0c4.xml, wdm/PoSetSystemWake
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - PoSetSystemWake
 ---
 
-# PoSetSystemWake function
+# PoSetSystemWake function (wdm.h)
+
+
 
 
 ## -description

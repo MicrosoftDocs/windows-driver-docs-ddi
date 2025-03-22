@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNotifyUninitializeSync function"]
 ms.keywords: FsRtlNotifyUninitializeSync, FsRtlNotifyUninitializeSync routine [Installable File System Drivers], fsrtlref_bb1d0439-691c-4a2d-8d0f-750f26d75995.xml, ifsk.fsrtlnotifyuninitializesync, ntifs/FsRtlNotifyUninitializeSync
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - FsRtlNotifyUninitializeSync
 ---
 
-# FsRtlNotifyUninitializeSync function
+# FsRtlNotifyUninitializeSync function (ntifs.h)
+
+
 
 
 ## -description

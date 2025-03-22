@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInterlockedAddLargeStatistic macro"]
 ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml, netvista.ndisinterlockedaddlargestatistic
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisInterlockedAddLargeStatistic (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisInterlockedAddLargeStatistic (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisInterlockedAddLargeStatistic
 ---
 
-# NdisInterlockedAddLargeStatistic macro
+# NdisInterlockedAddLargeStatistic macro (ndis.h)
+
+
+
+
 
 
 ## -description

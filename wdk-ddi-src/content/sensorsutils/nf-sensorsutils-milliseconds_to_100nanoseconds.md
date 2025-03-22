@@ -7,6 +7,7 @@ keywords: ["MILLISECONDS_TO_100NANOSECONDS macro"]
 tech.root: sensors
 ms.keywords: MILLISECONDS_TO_100NANOSECONDS
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - MILLISECONDS_TO_100NANOSECONDS
 ---
 
-# MILLISECONDS_TO_100NANOSECONDS macro
+# MILLISECONDS_TO_100NANOSECONDS macro (sensorsutils.h)
+
+
+
+
 
 ## -description
 

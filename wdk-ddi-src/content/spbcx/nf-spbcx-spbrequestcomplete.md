@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbRequestComplete function"]
 ms.keywords: SPB.spbrequestcomplete, SpbRequestComplete, SpbRequestComplete method [Buses], spbcx/SpbRequestComplete
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbRequestComplete
 ---
 
-# SpbRequestComplete function
+# SpbRequestComplete function (spbcx.h)
+
+
 
 
 ## -description

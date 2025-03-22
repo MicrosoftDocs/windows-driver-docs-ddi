@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlUpcaseUnicodeToMultiByteN function"]
 ms.keywords: RtlUpcaseUnicodeToMultiByteN, RtlUpcaseUnicodeToMultiByteN routine [Installable File System Drivers], ifsk.rtlupcaseunicodetomultibyten, ntifs/RtlUpcaseUnicodeToMultiByteN, rtlref_a6ac52da-a3c7-4c16-8b8c-3086868fe4e2.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUpcaseUnicodeToMultiByteN
 ---
 
-# RtlUpcaseUnicodeToMultiByteN function
+# RtlUpcaseUnicodeToMultiByteN function (ntifs.h)
+
+
 
 
 ## -description

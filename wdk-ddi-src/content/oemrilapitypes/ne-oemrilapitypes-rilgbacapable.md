@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RILGBACAPABLE enumeration"]
 ms.keywords: RILGBACAPABLE, RILGBACAPABLE enumeration [Network Drivers Starting with Windows Vista], RIL_GBA_ME_SUPPORTED, RIL_GBA_NOT_SUPPORTED, RIL_GBA_UNKNOWN, RIL_GBA_U_SUPPORTED, netvista.rilgbacapable, oemrilapitypes/RILGBACAPABLE, oemrilapitypes/RIL_GBA_ME_SUPPORTED, oemrilapitypes/RIL_GBA_NOT_SUPPORTED, oemrilapitypes/RIL_GBA_UNKNOWN, oemrilapitypes/RIL_GBA_U_SUPPORTED
 req.header: oemrilapitypes.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RILGBACAPABLE
 ---
 
-# RILGBACAPABLE enumeration
+# RILGBACAPABLE enumeration (oemrilapitypes.h)
+
+
 
 
 ## -description

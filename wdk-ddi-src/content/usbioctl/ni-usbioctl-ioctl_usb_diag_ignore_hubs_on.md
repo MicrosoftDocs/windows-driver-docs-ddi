@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_DIAG_IGNORE_HUBS_ON IOCTL"]
 ms.keywords: IOCTL_USB_DIAG_IGNORE_HUBS_ON, IOCTL_USB_DIAG_IGNORE_HUBS_ON control, IOCTL_USB_DIAG_IGNORE_HUBS_ON control code [Buses], buses.ioctl_usb_diag_ignore_hubs_on, usbioctl/IOCTL_USB_DIAG_IGNORE_HUBS_ON, usbirp_7e95e023-3bb1-423d-b233-b5028e9af76b.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported on Microsoft Windows 2000 only.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_DIAG_IGNORE_HUBS_ON
 ---
 
-# IOCTL_USB_DIAG_IGNORE_HUBS_ON IOCTL
+# IOCTL_USB_DIAG_IGNORE_HUBS_ON IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoGetTransactionParameterBlock function"]
 ms.keywords: IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ifsk.iogettransactionparameterblock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, ntddk/IoGetTransactionParameterBlock
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista and later
@@ -40,7 +41,9 @@ api_name:
  - IoGetTransactionParameterBlock
 ---
 
-# IoGetTransactionParameterBlock function
+# IoGetTransactionParameterBlock function (ntddk.h)
+
+
 
 
 ## -description

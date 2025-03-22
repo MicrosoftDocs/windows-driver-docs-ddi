@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PMI_CONFIGURATION_TYPE enumeration"]
 ms.keywords: PMI_CONFIGURATION_TYPE, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], PmiBudgetingConfiguration, PmiConfigurationMax, PmiMeasurementConfiguration, PmiThresholdConfiguration, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, pmi/PMI_CONFIGURATION_TYPE, pmi/PmiBudgetingConfiguration, pmi/PmiConfigurationMax, pmi/PmiMeasurementConfiguration, pmi/PmiThresholdConfiguration, powermeter.pmi_configuration_type
 req.header: pmi.h
+req.construct-type: enumeration
 req.include-header: Pmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7, Windows Server 2008 R2, and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - PMI_CONFIGURATION_TYPE
 ---
 
-# PMI_CONFIGURATION_TYPE enumeration
+# PMI_CONFIGURATION_TYPE enumeration (pmi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsAcquireCachedMdl function"]
 ms.keywords: GUID, KsAcquireCachedMdl, KsAcquireCachedMdl function [Streaming Media Devices], PVOID, ks/KsAcquireCachedMdl, stream.ksacquirecachedmdl
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsAcquireCachedMdl
 ---
+
+# KsAcquireCachedMdl function (ks.h)
 
 ## -description
 

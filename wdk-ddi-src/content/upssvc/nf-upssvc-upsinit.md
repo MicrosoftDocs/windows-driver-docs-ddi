@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["UPSInit function"]
 ms.keywords: UPSInit, UPSInit function [Battery Devices], UPS_fns_855934b9-5f74-4308-9bed-5fd85d039247.xml, battery.upsinit, upssvc/UPSInit
 req.header: upssvc.h
+req.construct-type: function
 req.include-header: Upssvc.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UPSInit
 ---
 
-# UPSInit function
+# UPSInit function (upssvc.h)
+
+
 
 
 ## -description

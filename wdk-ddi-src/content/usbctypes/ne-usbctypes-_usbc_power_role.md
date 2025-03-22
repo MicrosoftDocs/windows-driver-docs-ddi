@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_POWER_ROLE enumeration"]
 ms.keywords: _USBC_POWER_ROLE, USBC_POWER_ROLE,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_POWER_ROLE
 ---
 
-# _USBC_POWER_ROLE enumeration
+# USBC_POWER_ROLE enumeration (usbctypes.h)
+
+
 
 
 ## -description

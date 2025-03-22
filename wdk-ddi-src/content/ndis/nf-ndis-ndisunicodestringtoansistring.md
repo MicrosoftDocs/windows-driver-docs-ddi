@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisUnicodeStringToAnsiString macro"]
 ms.keywords: NdisUnicodeStringToAnsiString, NdisUnicodeStringToAnsiString macro [Network Drivers Starting with Windows Vista], ndis/NdisUnicodeStringToAnsiString, ndis_string_ref_31235ece-f64c-4806-af32-e3ffffdb7904.xml, netvista.ndisunicodestringtoansistring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlUnicodeStringToAnsiString instead.
@@ -41,7 +42,11 @@ api_name:
  - NdisUnicodeStringToAnsiString
 ---
 
-# NdisUnicodeStringToAnsiString macro
+# NdisUnicodeStringToAnsiString macro (ndis.h)
+
+
+
+
 
 
 ## -description

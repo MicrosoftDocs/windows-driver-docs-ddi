@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_FIFO_CONTROL IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_FIFO_CONTROL, IOCTL_SERIAL_SET_FIFO_CONTROL control, IOCTL_SERIAL_SET_FIFO_CONTROL control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_FIFO_CONTROL, serports.ioctl_serial_set_fifo_control, serref_5e21a668-7fca-4d1e-baf2-3356ba2087d9.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_FIFO_CONTROL
 ---
 
-# IOCTL_SERIAL_SET_FIFO_CONTROL IOCTL
+# IOCTL_SERIAL_SET_FIFO_CONTROL IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

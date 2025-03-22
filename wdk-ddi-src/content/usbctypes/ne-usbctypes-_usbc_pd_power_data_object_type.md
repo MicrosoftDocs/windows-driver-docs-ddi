@@ -7,6 +7,7 @@ ms.date: 02/08/2022
 keywords: ["USBC_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 ms.keywords: _USBC_PD_POWER_DATA_OBJECT_TYPE, USBC_PD_POWER_DATA_OBJECT_TYPE,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_PD_POWER_DATA_OBJECT_TYPE
 ---
 
-# _USBC_PD_POWER_DATA_OBJECT_TYPE enumeration
+# USBC_PD_POWER_DATA_OBJECT_TYPE enumeration (usbctypes.h)
+
+
 
 ## -description
 

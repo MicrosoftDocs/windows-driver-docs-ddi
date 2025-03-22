@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlInitCodePageTable function"]
 ms.keywords: RtlInitCodePageTable, RtlInitCodePageTable function [Installable File System Drivers], ifsk.rtlinitcodepagetable, ntifs/RtlInitCodePageTable, rtlref_e8e23ed7-9655-4aba-a5fa-3096995aafd9.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInitCodePageTable
 ---
 
-# RtlInitCodePageTable function
+# RtlInitCodePageTable function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 03/14/2023
 keywords: ["ObReferenceObjectByPointerWithTag function"]
 ms.keywords: ObReferenceObjectByPointerWithTag, ObReferenceObjectByPointerWithTag routine [Kernel-Mode Driver Architecture], k107_5e5e16de-36ff-4a81-9fe6-9602053ccc6b.xml, kernel.obreferenceobjectbypointerwithtag, wdm/ObReferenceObjectByPointerWithTag
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating system.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ObReferenceObjectByPointerWithTag
 ---
+
+# ObReferenceObjectByPointerWithTag function (wdm.h)
 
 ## -description
 

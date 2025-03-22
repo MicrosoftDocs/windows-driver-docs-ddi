@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PopEntryList function"]
 ms.keywords: PopEntryList, PopEntryList routine [Kernel-Mode Driver Architecture], k109_a5d1634c-e1ab-43ac-ab3f-d0993263f5bb.xml, kernel.popentrylist, wdm/PopEntryList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PopEntryList
 ---
 
-# PopEntryList function
+# PopEntryList function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/21/2024
 keywords: ["D3DDDI_GAMMARAMP_TYPE enumeration"]
 ms.keywords: D3DDDI_GAMMARAMP_DEFAULT, D3DDDI_GAMMARAMP_DXGI_1, D3DDDI_GAMMARAMP_MATRIX_3x4, D3DDDI_GAMMARAMP_RGB256x3x16, D3DDDI_GAMMARAMP_TYPE, D3DDDI_GAMMARAMP_TYPE enumeration [Display Devices], D3DDDI_GAMMARAMP_UNINITIALIZED, DmEnums_fc19c762-0156-4602-97ea-0b3865012161.xml, _D3DDDI_GAMMARAMP_TYPE, d3dukmdt/D3DDDI_GAMMARAMP_DEFAULT, d3dukmdt/D3DDDI_GAMMARAMP_DXGI_1, d3dukmdt/D3DDDI_GAMMARAMP_MATRIX_3x4, d3dukmdt/D3DDDI_GAMMARAMP_RGB256x3x16, d3dukmdt/D3DDDI_GAMMARAMP_TYPE, d3dukmdt/D3DDDI_GAMMARAMP_UNINITIALIZED, display.d3dddi_gammaramp_type
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: D3dukmdt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -42,7 +43,9 @@ api_name:
  - D3DDDI_GAMMARAMP_TYPE
 ---
 
-# D3DDDI_GAMMARAMP_TYPE enumeration
+# D3DDDI_GAMMARAMP_TYPE enumeration (d3dukmdt.h)
+
+
 
 ## -description
 

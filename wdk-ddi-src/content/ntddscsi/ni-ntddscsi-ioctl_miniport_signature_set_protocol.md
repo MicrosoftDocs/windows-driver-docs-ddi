@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 08/18/2022
 keywords: ["IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE"]
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL
 ---
 
-# IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL SIGNATURE
+# IOCTL_MINIPORT_SIGNATURE_SET_PROTOCOL IOCTL (ntddscsi.h)
+
+
+
+
 
 ## -description
 

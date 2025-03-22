@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExUnregisterCallback function"]
 ms.keywords: ExUnregisterCallback, ExUnregisterCallback routine [Kernel-Mode Driver Architecture], k102_981ea9e7-42fc-4c63-9cc9-5d7aa3d35b72.xml, kernel.exunregistercallback, wdm/ExUnregisterCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExUnregisterCallback
 ---
 
-# ExUnregisterCallback function
+# ExUnregisterCallback function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxPrefixTableLookupName function"]
 ms.keywords: RxPrefixTableLookupName, RxPrefixTableLookupName function [Installable File System Drivers], ifsk.rxprefixtablelookupname, prefix/RxPrefixTableLookupName, rxref_e46fe04e-07a6-4733-936e-e70a51009618.xml
 req.header: prefix.h
+req.construct-type: function
 req.include-header: Prefix.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxPrefixTableLookupName
 ---
 
-# RxPrefixTableLookupName function
+# RxPrefixTableLookupName function (prefix.h)
+
+
 
 
 ## -description

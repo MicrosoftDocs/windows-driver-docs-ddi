@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringCat function"]
 ms.keywords: RtlUnicodeStringCat, RtlUnicodeStringCat function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcat, ntstrsafe/RtlUnicodeStringCat, safestrings_5d3ef5c7-f2cd-4de8-a043-5474c803183c.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringCat
 ---
 
-# RtlUnicodeStringCat function
+# RtlUnicodeStringCat function (ntstrsafe.h)
+
+
 
 
 ## -description

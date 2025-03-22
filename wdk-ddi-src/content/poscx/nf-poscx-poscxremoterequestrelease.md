@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["PosCxRemoteRequestRelease function"]
 ms.keywords: PosCxRemoteRequestRelease, PosCxRemoteRequestRelease function, pos.poscxremoterequestrelease, poscx/PosCxRemoteRequestRelease
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PosCxRemoteRequestRelease
 ---
+
+# PosCxRemoteRequestRelease function (poscx.h)
 
 ## -description
 

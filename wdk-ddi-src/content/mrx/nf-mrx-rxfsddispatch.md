@@ -7,6 +7,7 @@ ms.date: 10/11/2023
 keywords: ["RxFsdDispatch function"]
 ms.keywords: RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers], ifsk.rxfsddispatch, mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml
 req.header: mrx.h
+req.construct-type: function
 req.include-header: Mrx.h, Rxstruc.h, Struchdr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RxFsdDispatch
 ---
 
-# RxFsdDispatch function
+# RxFsdDispatch function (mrx.h)
+
+
 
 ## -description
 

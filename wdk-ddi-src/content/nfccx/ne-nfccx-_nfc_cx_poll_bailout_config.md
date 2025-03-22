@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_POLL_BAILOUT_CONFIG enumeration"]
 ms.keywords: "*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG, NFC_CX_POLL_BAILOUT_CONFIG,*PNFC_CX_POLL_BAILOUT_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_BAILOUT_DEFAULT, NFC_CX_POLL_BAILOUT_NFC_A, NFC_CX_POLL_BAILOUT_NFC_B, _NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_CONFIG, nfccx/NFC_CX_POLL_BAILOUT_DEFAULT, nfccx/NFC_CX_POLL_BAILOUT_NFC_A, nfccx/NFC_CX_POLL_BAILOUT_NFC_B, nfpdrivers.nfc_cx_poll_bailout_config"
 req.header: nfccx.h
+req.construct-type: enumeration
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_POLL_BAILOUT_CONFIG
 ---
 
-# _NFC_CX_POLL_BAILOUT_CONFIG enumeration
+# NFC_CX_POLL_BAILOUT_CONFIG enumeration (nfccx.h)
+
+
 
 
 ## -description

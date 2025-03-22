@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_SET_MUTE IOCTL is used to set the render (speaker)
 ms.date: 10/05/2018
 keywords: ["IOCTL_SBAUD_SET_MUTE IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_SET_MUTE
 ---
 
-# IOCTL_SBAUD_SET_MUTE IOCTL
+# IOCTL_SBAUD_SET_MUTE IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

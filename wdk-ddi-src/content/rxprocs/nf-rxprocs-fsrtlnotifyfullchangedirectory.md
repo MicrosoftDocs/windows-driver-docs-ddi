@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNotifyFullChangeDirectory macro"]
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - FsRtlNotifyFullChangeDirectory
 ---
 
-# FsRtlNotifyFullChangeDirectory macro
+# FsRtlNotifyFullChangeDirectory macro (rxprocs.h)
+
+
+
+
 
 
 ## -description

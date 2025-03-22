@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlCreateAcl function"]
 ms.keywords: RtlCreateAcl, RtlCreateAcl routine [Installable File System Drivers], ifsk.rtlcreateacl, ntifs/RtlCreateAcl, rtlref_0b8e6b6c-308f-4acd-b109-d6042964ea7f.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlCreateAcl
 ---
 
-# RtlCreateAcl function
+# RtlCreateAcl function (ntifs.h)
+
+
 
 
 ## -description

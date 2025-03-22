@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionAdd function"]
 ms.keywords: DFCollectionObjectRef_76895387-58f4-46fc-b5d0-244408fe57b9.xml, WdfCollectionAdd, WdfCollectionAdd method, kmdf.wdfcollectionadd, wdf.wdfcollectionadd, wdfcollection/WdfCollectionAdd
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionAdd
 ---
 
-# WdfCollectionAdd function
+# WdfCollectionAdd function (wdfcollection.h)
+
+
 
 
 ## -description

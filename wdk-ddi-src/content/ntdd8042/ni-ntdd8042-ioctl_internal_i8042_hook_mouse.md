@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_I8042_HOOK_MOUSE, IOCTL_INTERNAL_I8042_HOOK_MOUSE control, IOCTL_INTERNAL_I8042_HOOK_MOUSE control code [Human Input Devices], hid.ioctl_internal_i8042_hook_mouse, mfilref_d95cd233-bc97-4bd6-8675-2560b83f4715.xml, ntdd8042/IOCTL_INTERNAL_I8042_HOOK_MOUSE
 req.header: ntdd8042.h
+req.construct-type: ioctl
 req.include-header: Ntdd8042.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_I8042_HOOK_MOUSE
 ---
 
-# IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL
+# IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL (ntdd8042.h)
+
+
+
+
 
 
 ## -description

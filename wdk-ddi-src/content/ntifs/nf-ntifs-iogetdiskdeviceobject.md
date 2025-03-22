@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoGetDiskDeviceObject function"]
 ms.keywords: IoGetDiskDeviceObject, IoGetDiskDeviceObject routine [Installable File System Drivers], ifsk.iogetdiskdeviceobject, ioref_b3532bdd-87b6-4e6b-91a0-093b8ed5aa6c.xml, ntifs/IoGetDiskDeviceObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -40,7 +41,9 @@ api_name:
  - IoGetDiskDeviceObject
 ---
 
-# IoGetDiskDeviceObject function
+# IoGetDiskDeviceObject function (ntifs.h)
+
+
 
 
 ## -description

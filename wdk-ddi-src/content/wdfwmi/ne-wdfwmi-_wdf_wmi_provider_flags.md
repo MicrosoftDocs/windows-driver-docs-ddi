@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WMI_PROVIDER_FLAGS enumeration"]
 ms.keywords: DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WDF_WMI_PROVIDER_FLAGS, WDF_WMI_PROVIDER_FLAGS enumeration, WdfWmiProviderEventOnly, WdfWmiProviderExpensive, WdfWmiProviderTracing, WdfWmiProviderValidFlags, _WDF_WMI_PROVIDER_FLAGS, kmdf.wdf_wmi_provider_flags, wdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderTracing, wdfwmi/WdfWmiProviderValidFlags
 req.header: wdfwmi.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_WMI_PROVIDER_FLAGS
 ---
 
-# _WDF_WMI_PROVIDER_FLAGS enumeration
+# WDF_WMI_PROVIDER_FLAGS enumeration (wdfwmi.h)
+
+
 
 
 ## -description

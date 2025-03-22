@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbInterfaceGetNumEndpoints function"]
 ms.keywords: DFUsbRef_e0c08e93-b09f-40d0-9958-e4e51d7b887d.xml, WdfUsbInterfaceGetNumEndpoints, WdfUsbInterfaceGetNumEndpoints method, kmdf.wdfusbinterfacegetnumendpoints, wdf.wdfusbinterfacegetnumendpoints, wdfusb/WdfUsbInterfaceGetNumEndpoints
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbInterfaceGetNumEndpoints
 ---
 
-# WdfUsbInterfaceGetNumEndpoints function
+# WdfUsbInterfaceGetNumEndpoints function (wdfusb.h)
+
+
 
 
 ## -description

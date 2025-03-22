@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_CHILD_RETRIEVE_INFO_INIT function"]
 ms.keywords: DFDeviceObjectChildListRef_f647d2ee-4714-49b9-9ba4-18488fd66628.xml, WDF_CHILD_RETRIEVE_INFO_INIT, WDF_CHILD_RETRIEVE_INFO_INIT function, kmdf.wdf_child_retrieve_info_init, wdf.wdf_child_retrieve_info_init, wdfchildlist/WDF_CHILD_RETRIEVE_INFO_INIT
 req.header: wdfchildlist.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_CHILD_RETRIEVE_INFO_INIT
 ---
 
-# WDF_CHILD_RETRIEVE_INFO_INIT function
+# WDF_CHILD_RETRIEVE_INFO_INIT function (wdfchildlist.h)
+
+
 
 
 ## -description

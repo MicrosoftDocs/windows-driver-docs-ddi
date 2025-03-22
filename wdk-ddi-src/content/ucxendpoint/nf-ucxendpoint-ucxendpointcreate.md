@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxEndpointCreate function"]
 ms.keywords: UcxEndpointCreate, UcxEndpointCreate method [Buses], buses._ucxendpointcreate, ucxendpoint/UcxEndpointCreate
 req.header: ucxendpoint.h
+req.construct-type: function
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxEndpointCreate
 ---
 
-# UcxEndpointCreate function
+# UcxEndpointCreate function (ucxendpoint.h)
+
+
 
 
 ## -description

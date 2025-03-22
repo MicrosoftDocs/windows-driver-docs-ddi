@@ -8,6 +8,7 @@ ms.date: 08/12/2022
 keywords: ["WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration"]
 ms.keywords: None, WDF_CALLBACK_CONSTRAINT, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfDeviceLevel, WdfLevelReserved, _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wdf.wdf_callback_constraint, wudfddi_types/None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved
 req.header: wudfddi_types.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS
 ---
 
-# _WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration (wudfddi_types.h)
+# WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration (wudfddi_types.h)
+
+
 
 ## -description
 

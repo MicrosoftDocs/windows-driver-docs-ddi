@@ -7,6 +7,7 @@ ms.date: 03/08/2023
 keywords: ["wiasSetItemPropAttribs function"]
 ms.keywords: image.wiassetitempropattribs, wiamdef/wiasSetItemPropAttribs, wiasFncs_f3e1e830-6569-4b0f-8e0a-deac0a95022b.xml, wiasSetItemPropAttribs, wiasSetItemPropAttribs function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasSetItemPropAttribs
 ---
+
+# wiasSetItemPropAttribs function (wiamdef.h)
 
 ## -description
 

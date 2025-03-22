@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSignalSynchronizationObjectFromCpu function"]
 ms.keywords: D3DKMTSignalSynchronizationObjectFromCpu, D3DKMTSignalSynchronizationObjectFromCpu function [Display Devices], d3dkmthk/D3DKMTSignalSynchronizationObjectFromCpu, display.d3dkmtsignalsynchronizationobjectfromcpu
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTSignalSynchronizationObjectFromCpu
 ---
 
-# D3DKMTSignalSynchronizationObjectFromCpu function
+# D3DKMTSignalSynchronizationObjectFromCpu function (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeReleaseInStackQueuedSpinLock function"]
 ms.keywords: KeReleaseInStackQueuedSpinLock, KeReleaseInStackQueuedSpinLock routine [Kernel-Mode Driver Architecture], k105_1904b4b2-4f31-4061-895f-8564a1de04f6.xml, kernel.kereleaseinstackqueuedspinlock, wdm/KeReleaseInStackQueuedSpinLock
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - KeReleaseInStackQueuedSpinLock
 ---
 
-# KeReleaseInStackQueuedSpinLock function
+# KeReleaseInStackQueuedSpinLock function (wdm.h)
+
+
 
 
 ## -description

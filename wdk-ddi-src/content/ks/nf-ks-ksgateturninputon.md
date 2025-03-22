@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateTurnInputOn function"]
 ms.keywords: KsGateTurnInputOn, KsGateTurnInputOn function [Streaming Media Devices], avfunc_9aaa9c85-b3a1-49ae-8135-6402f7bc1755.xml, ks/KsGateTurnInputOn, stream.ksgateturninputon
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateTurnInputOn
 ---
 
-# KsGateTurnInputOn function
+# KsGateTurnInputOn function (ks.h)
+
+
 
 
 ## -description

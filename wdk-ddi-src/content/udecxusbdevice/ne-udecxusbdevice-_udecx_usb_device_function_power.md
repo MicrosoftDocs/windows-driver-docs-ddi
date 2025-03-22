@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_FUNCTION_POWER enumeration"]
 ms.keywords: "*PUDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER, PUDECX_USB_DEVICE_FUNCTION_POWER enumeration pointer [Buses], UDECX_USB_DEVICE_FUNCTION_POWER, UDECX_USB_DEVICE_FUNCTION_POWER enumeration [Buses], UdecxUsbDeviceFunctionNotSuspended, UdecxUsbDeviceFunctionSuspendedCanWake, UdecxUsbDeviceFunctionSuspendedCannotWake, _UDECX_USB_DEVICE_FUNCTION_POWER, buses.udecx_usb_device_function_power, udecxusbdevice/PUDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UDECX_USB_DEVICE_FUNCTION_POWER, udecxusbdevice/UdecxUsbDeviceFunctionNotSuspended, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCanWake, udecxusbdevice/UdecxUsbDeviceFunctionSuspendedCannotWake"
 req.header: udecxusbdevice.h
+req.construct-type: enumeration
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UDECX_USB_DEVICE_FUNCTION_POWER
 ---
 
-# _UDECX_USB_DEVICE_FUNCTION_POWER enumeration
+# UDECX_USB_DEVICE_FUNCTION_POWER enumeration (udecxusbdevice.h)
+
+
 
 
 ## -description

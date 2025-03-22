@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_CONNECTOR_INFO_INIT function"]
 ms.keywords: UCMUCSI_CONNECTOR_INFO_INIT
 req.header: ucmucsippm.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UCMUCSI_CONNECTOR_INFO_INIT
 ---
 
-# UCMUCSI_CONNECTOR_INFO_INIT function
+# UCMUCSI_CONNECTOR_INFO_INIT function (ucmucsippm.h)
+
+
 
 
 ## -description

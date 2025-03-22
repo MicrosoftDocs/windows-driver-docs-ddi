@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortReadRegisterBufferUlong function"]
 ms.keywords: AtaPortReadRegisterBufferUlong, AtaPortReadRegisterBufferUlong routine [Storage Devices], atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml, irb/AtaPortReadRegisterBufferUlong, storage.ataportreadregisterbufferulong
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortReadRegisterBufferUlong
 ---
 
-# AtaPortReadRegisterBufferUlong function
+# AtaPortReadRegisterBufferUlong function (irb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["PshedRegisterPlugin function"]
 ms.keywords: PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], ntddk/PshedRegisterPlugin, whea.pshedregisterplugin, whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in Windows Server 2008, Windows Vista SP1, and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - PshedRegisterPlugin
 ---
 
-# PshedRegisterPlugin function
+# PshedRegisterPlugin function (ntddk.h)
+
+
 
 
 ## -description

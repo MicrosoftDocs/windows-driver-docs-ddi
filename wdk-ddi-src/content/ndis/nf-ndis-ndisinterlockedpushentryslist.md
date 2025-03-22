@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInterlockedPushEntrySList macro"]
 ms.keywords: NdisInterlockedPushEntrySList, NdisInterlockedPushEntrySList macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedPushEntrySList, ndis_interlocked_ref_ee1513c8-bb1a-4f3e-981b-7c448b3d1e41.xml, netvista.ndisinterlockedpushentryslist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisInterlockedPushEntrySList (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see       NdisInterlockedPushEntrySList (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,11 @@ api_name:
  - NdisInterlockedPushEntrySList
 ---
 
-# NdisInterlockedPushEntrySList macro
+# NdisInterlockedPushEntrySList macro (ndis.h)
+
+
+
+
 
 
 ## -description

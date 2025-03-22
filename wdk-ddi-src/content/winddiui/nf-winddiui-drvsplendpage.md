@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["DrvSplEndPage function"]
 ms.keywords: DrvSplEndPage, DrvSplEndPage function [Print Devices], print.drvsplendpage, print_interface-graphics_e5fbdcf3-d462-4ae9-8187-546a87189e19.xml, winddiui/DrvSplEndPage
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvSplEndPage
 ---
+
+# DrvSplEndPage function (winddiui.h)
 
 ## -description
 

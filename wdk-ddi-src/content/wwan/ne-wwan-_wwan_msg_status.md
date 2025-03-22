@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_MSG_STATUS enumeration"]
 ms.keywords: "*PWWAN_MSG_STATUS, PWWAN_MSG_STATUS, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MSG_STATUS, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanMsgStatusDraft, WwanMsgStatusMax, WwanMsgStatusNew, WwanMsgStatusOld, WwanMsgStatusSent, WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, _WWAN_MSG_STATUS, netvista.wwan_msg_status, wwan/PWWAN_MSG_STATUS, wwan/WWAN_MSG_STATUS, wwan/WwanMsgStatusDraft, wwan/WwanMsgStatusMax, wwan/WwanMsgStatusNew, wwan/WwanMsgStatusOld, wwan/WwanMsgStatusSent"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_MSG_STATUS
 ---
 
-# _WWAN_MSG_STATUS enumeration
+# WWAN_MSG_STATUS enumeration (wwan.h)
+
+
 
 
 ## -description

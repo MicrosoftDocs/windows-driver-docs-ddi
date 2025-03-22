@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTWaitForSynchronizationObjectFromGpu function"]
 ms.keywords: D3DKMTWaitForSynchronizationObjectFromGpu, D3DKMTWaitForSynchronizationObjectFromGpu function [Display Devices], d3dkmthk/D3DKMTWaitForSynchronizationObjectFromGpu, display.d3dkmtwaitforsynchronizationobjectfromgpu
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTWaitForSynchronizationObjectFromGpu
 ---
 
-# D3DKMTWaitForSynchronizationObjectFromGpu function
+# D3DKMTWaitForSynchronizationObjectFromGpu function (d3dkmthk.h)
+
+
 
 ## -description
 

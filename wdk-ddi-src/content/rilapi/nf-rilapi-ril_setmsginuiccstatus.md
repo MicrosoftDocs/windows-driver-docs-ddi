@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetMsgInUiccStatus function"]
 ms.keywords: RIL_SetMsgInUiccStatus, RIL_SetMsgInUiccStatus method [Network Drivers Starting with Windows Vista], netvista.ril_setmsginuiccstatus, rilapi/RIL_SetMsgInUiccStatus
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetMsgInUiccStatus
 ---
 
-# RIL_SetMsgInUiccStatus function
+# RIL_SetMsgInUiccStatus function (rilapi.h)
+
+
 
 
 ## -description

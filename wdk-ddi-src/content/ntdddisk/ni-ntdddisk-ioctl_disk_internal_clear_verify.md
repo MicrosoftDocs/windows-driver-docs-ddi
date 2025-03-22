@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_INTERNAL_CLEAR_VERIFY IOCTL"]
 ms.keywords: IOCTL_DISK_INTERNAL_CLEAR_VERIFY, IOCTL_DISK_INTERNAL_CLEAR_VERIFY control, IOCTL_DISK_INTERNAL_CLEAR_VERIFY control code [Storage Devices], k307_bc80d35d-1d7f-4eb1-a2c7-da87c58a4f62.xml, ntdddisk/IOCTL_DISK_INTERNAL_CLEAR_VERIFY, storage.ioctl_disk_internal_clear_verify
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_INTERNAL_CLEAR_VERIFY
 ---
 
-# IOCTL_DISK_INTERNAL_CLEAR_VERIFY IOCTL
+# IOCTL_DISK_INTERNAL_CLEAR_VERIFY IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

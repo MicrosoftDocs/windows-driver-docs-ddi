@@ -5,6 +5,7 @@ description: Learn more about the D3D12DDICAPS_TYPE enumeration.
 old-location: display\d3d12ddicaps_type.htm
 ms.date: 05/03/2024
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - D3D12DDICAPS_TYPE
 ---
 
-# D3D12DDICAPS_TYPE enumeration
+# D3D12DDICAPS_TYPE enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

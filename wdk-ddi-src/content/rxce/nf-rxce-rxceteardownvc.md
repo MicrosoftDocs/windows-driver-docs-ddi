@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeTearDownVC function"]
 ms.keywords: RxCeTearDownVC, RxCeTearDownVC function [Installable File System Drivers], ifsk.rxceteardownvc, rxce/RxCeTearDownVC, rxref_12c4b02d-b629-4543-bf74-aeaa14f6f05d.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeTearDownVC
 ---
 
-# RxCeTearDownVC function
+# RxCeTearDownVC function (rxce.h)
+
+
 
 
 ## -description

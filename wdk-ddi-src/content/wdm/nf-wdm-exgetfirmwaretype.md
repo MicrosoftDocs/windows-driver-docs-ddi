@@ -8,6 +8,7 @@ ms.date: 10/28/2021
 keywords: ["ExGetFirmwareType function"]
 ms.keywords: ExGetFirmwareType, ExGetFirmwareType function [Kernel-Mode Driver Architecture], kernel.exgetfirmwaretype, wdm/ExGetFirmwareType
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - ExGetFirmwareType
 ---
 
-# ExGetFirmwareType function
+# ExGetFirmwareType function (wdm.h)
+
+
 
 
 ## -description

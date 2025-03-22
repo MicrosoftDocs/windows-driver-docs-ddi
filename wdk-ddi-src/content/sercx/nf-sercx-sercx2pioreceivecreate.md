@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2PioReceiveCreate function"]
 ms.keywords: 2/SerCx2PioReceiveCreate, SerCx2PioReceiveCreate, SerCx2PioReceiveCreate method [Serial Ports], serports.sercx2pioreceivecreate
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2PioReceiveCreate
 ---
 
-# SerCx2PioReceiveCreate function
+# SerCx2PioReceiveCreate function (sercx.h)
+
+
 
 
 ## -description

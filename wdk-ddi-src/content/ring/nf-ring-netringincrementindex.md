@@ -7,6 +7,7 @@ ms.date: 12/10/2021
 keywords: ["NetRingIncrementIndex function"]
 ms.keywords: NetRingIncrementIndex
 req.header: ring.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetRingIncrementIndex
 ---
 
-# NetRingIncrementIndex function
+# NetRingIncrementIndex function (ring.h)
+
+
 
 
 ## -description

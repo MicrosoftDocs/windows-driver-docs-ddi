@@ -7,6 +7,7 @@ ms.date: 10/07/2024
 keywords: ["MmDoesFileHaveUserWritableReferences function"]
 ms.keywords: MmDoesFileHaveUserWritableReferences, MmDoesFileHaveUserWritableReferences function [Installable File System Drivers], ifsk.mmdoesfilehaveuserwritablereferences, mmref_fb87e0fa-60db-498e-8a17-a1bd366c3df6.xml, ntifs/MmDoesFileHaveUserWritableReferences
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Fltkernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -39,7 +40,9 @@ api_name:
  - MmDoesFileHaveUserWritableReferences
 ---
 
-# MmDoesFileHaveUserWritableReferences function
+# MmDoesFileHaveUserWritableReferences function (ntifs.h)
+
+
 
 ## -description
 

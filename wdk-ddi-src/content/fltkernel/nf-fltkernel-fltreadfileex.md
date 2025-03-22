@@ -7,6 +7,7 @@ ms.date: 11/15/2023
 keywords: ["FltReadFileEx function"]
 ms.keywords: FltReadFileEx, FltReadFileEx function [Installable File System Drivers], fltkernel/FltReadFileEx, ifsk.fltreadfileex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - FltReadFileEx
 ---
 
-# FltReadFileEx function
+# FltReadFileEx function (fltkernel.h)
+
+
 
 ## -description
 

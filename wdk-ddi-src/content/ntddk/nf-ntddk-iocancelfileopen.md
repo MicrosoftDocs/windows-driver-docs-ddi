@@ -7,6 +7,7 @@ ms.date: 12/06/2022
 keywords: ["IoCancelFileOpen function"]
 ms.keywords: IoCancelFileOpen, IoCancelFileOpen routine [Installable File System Drivers], ifsk.iocancelfileopen, ioref_e63977d2-a70b-4743-85e2-557458ca89ae.xml, ntddk/IoCancelFileOpen
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Microsoft Windows 2000 and later.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoCancelFileOpen
 ---
+
+# IoCancelFileOpen function (ntddk.h)
 
 ## -description
 

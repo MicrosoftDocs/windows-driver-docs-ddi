@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TRACE_INFORMATION_CLASS enumeration"]
 ms.keywords: AllLoggerHandlesClass, DiskIoNotifyRoutinesClass, EventLoggerHandleClass, FltIoNotifyRoutinesClass, GlobalLoggerHandleClass, LoggerEventsLoggedClass, LoggerEventsLostClass, MaxTraceInformationClass, TRACE_INFORMATION_CLASS, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TraceEnableFlagsClass, TraceEnableLevelClass, TraceHandleByNameClass, TraceHandleClass, TraceIdClass, TraceInformationClassReserved1, TraceInformationClassReserved2, TraceSessionSettingsClass, WdfNotifyRoutinesClass, _TRACE_INFORMATION_CLASS, kernel.trace_information_class, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/AllLoggerHandlesClass, wdm/DiskIoNotifyRoutinesClass, wdm/EventLoggerHandleClass, wdm/FltIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, wdm/LoggerEventsLoggedClass, wdm/LoggerEventsLostClass, wdm/MaxTraceInformationClass, wdm/TRACE_INFORMATION_CLASS, wdm/TraceEnableFlagsClass, wdm/TraceEnableLevelClass, wdm/TraceHandleByNameClass, wdm/TraceHandleClass, wdm/TraceIdClass, wdm/TraceInformationClassReserved1, wdm/TraceInformationClassReserved2, wdm/TraceSessionSettingsClass, wdm/WdfNotifyRoutinesClass
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - TRACE_INFORMATION_CLASS
 ---
 
-# _TRACE_INFORMATION_CLASS enumeration
+# TRACE_INFORMATION_CLASS enumeration (wdm.h)
+
+
 
 
 ## -description

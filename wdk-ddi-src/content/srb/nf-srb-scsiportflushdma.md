@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortFlushDma function"]
 ms.keywords: ScsiPortFlushDma, ScsiPortFlushDma routine [Storage Devices], scsiprt_3c2fc1a8-0f37-4735-a9b8-dcec220ee5bf.xml, srb/ScsiPortFlushDma, storage.scsiportflushdma
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortFlushDma
 ---
 
-# ScsiPortFlushDma function
+# ScsiPortFlushDma function (srb.h)
+
+
 
 
 ## -description

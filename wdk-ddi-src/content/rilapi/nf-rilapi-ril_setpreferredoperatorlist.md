@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetPreferredOperatorList function"]
 ms.keywords: RIL_SetPreferredOperatorList, RIL_SetPreferredOperatorList method [Network Drivers Starting with Windows Vista], netvista.ril_setpreferredoperatorlist, rilapi/RIL_SetPreferredOperatorList
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetPreferredOperatorList
 ---
 
-# RIL_SetPreferredOperatorList function
+# RIL_SetPreferredOperatorList function (rilapi.h)
+
+
 
 
 ## -description

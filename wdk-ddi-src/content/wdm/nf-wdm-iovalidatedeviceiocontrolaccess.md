@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoValidateDeviceIoControlAccess function"]
 ms.keywords: IoValidateDeviceIoControlAccess, IoValidateDeviceIoControlAccess routine [Kernel-Mode Driver Architecture], k104_724cb845-fabf-4b5a-8712-901829f1f79d.xml, kernel.iovalidatedeviceiocontrolaccess, wdm/IoValidateDeviceIoControlAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows. Drivers that must also work for Windows 2000 and Windows XP can instead link to Wdmsec.lib to use this routine. (The Wdmsec.lib library first shipped with the Windows XP Service Pack 1 [SP1] and Windows Server 2003 editions of the Driver Development Kit [DDK] and now ships with the Windows Driver Kit [WDK].)
@@ -40,7 +41,9 @@ api_name:
  - IoValidateDeviceIoControlAccess
 ---
 
-# IoValidateDeviceIoControlAccess function
+# IoValidateDeviceIoControlAccess function (wdm.h)
+
+
 
 
 ## -description

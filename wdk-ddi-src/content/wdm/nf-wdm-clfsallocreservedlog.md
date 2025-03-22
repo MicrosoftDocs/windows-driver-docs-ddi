@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsAllocReservedLog function"]
 ms.keywords: ClfsAllocReservedLog, ClfsAllocReservedLog routine [Kernel-Mode Driver Architecture], Clfs_4429c61b-96d5-48cb-9ff0-5b0e3f01e0ec.xml, kernel.clfsallocreservedlog, wdm/ClfsAllocReservedLog
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsAllocReservedLog
 ---
 
-# ClfsAllocReservedLog function
+# ClfsAllocReservedLog function (wdm.h)
+
+
 
 
 ## -description

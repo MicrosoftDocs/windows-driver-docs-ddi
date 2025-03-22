@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortQuerySystemTime function"]
 ms.keywords: StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], storage.storportquerysystemtime, storport/StorPortQuerySystemTime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortQuerySystemTime
 ---
 
-# StorPortQuerySystemTime function
+# StorPortQuerySystemTime function (storport.h)
+
+
 
 
 ## -description

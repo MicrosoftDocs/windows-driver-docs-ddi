@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["BACKLIGHT_OPTIMIZATION_LEVEL enumeration"]
 ms.keywords: _BACKLIGHT_OPTIMIZATION_LEVEL, BACKLIGHT_OPTIMIZATION_LEVEL,
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - BACKLIGHT_OPTIMIZATION_LEVEL
 ---
 
-# _BACKLIGHT_OPTIMIZATION_LEVEL enumeration
+# BACKLIGHT_OPTIMIZATION_LEVEL enumeration (ntddvdeo.h)
+
+
 
 
 ## -description

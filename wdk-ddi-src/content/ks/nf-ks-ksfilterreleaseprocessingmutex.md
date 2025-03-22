@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterReleaseProcessingMutex function"]
 ms.keywords: KsFilterReleaseProcessingMutex, KsFilterReleaseProcessingMutex function [Streaming Media Devices], avfunc_35026563-e7aa-4305-a4fc-2558c1b21aa7.xml, ks/KsFilterReleaseProcessingMutex, stream.ksfilterreleaseprocessingmutex
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterReleaseProcessingMutex
 ---
 
-# KsFilterReleaseProcessingMutex function
+# KsFilterReleaseProcessingMutex function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_TRANSPORT_TYPE enumeration"]
 ms.keywords: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_CUSTOM, NFC_CX_TRANSPORT_I2C, NFC_CX_TRANSPORT_SPI, NFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_TYPE,*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE,*PNFC_CX_TRANSPORT_TYPE enumeration [Near-Field Proximity Drivers], NFC_CX_TRANSPORT_UART, _NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_CUSTOM, nfccx/NFC_CX_TRANSPORT_I2C, nfccx/NFC_CX_TRANSPORT_SPI, nfccx/NFC_CX_TRANSPORT_TYPE, nfccx/NFC_CX_TRANSPORT_UART, nfpdrivers.nfc_cx_transport_type"
 req.header: nfccx.h
+req.construct-type: enumeration
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_TRANSPORT_TYPE
 ---
 
-# _NFC_CX_TRANSPORT_TYPE enumeration
+# NFC_CX_TRANSPORT_TYPE enumeration (nfccx.h)
+
+
 
 
 ## -description

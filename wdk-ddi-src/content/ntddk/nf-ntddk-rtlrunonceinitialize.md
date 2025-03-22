@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlRunOnceInitialize function"]
 ms.keywords: RtlRunOnceInitialize, RtlRunOnceInitialize routine [Kernel-Mode Driver Architecture], k109_7d98d21e-b6f2-4ccd-b447-0c1d612eed5b.xml, kernel.rtlrunonceinitialize, ntddk/RtlRunOnceInitialize
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlRunOnceInitialize
 ---
 
-# RtlRunOnceInitialize function
+# RtlRunOnceInitialize function (ntddk.h)
+
+
 
 
 ## -description

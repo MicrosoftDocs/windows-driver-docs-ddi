@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReleaseSpinLock function"]
 ms.keywords: StorPortReleaseSpinLock, StorPortReleaseSpinLock routine [Storage Devices], storage.storportreleasespinlock, storport/StorPortReleaseSpinLock, storprt_5f3bd7a7-ffdd-4d7b-992b-70c2cea3acec.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortReleaseSpinLock
 ---
 
-# StorPortReleaseSpinLock function
+# StorPortReleaseSpinLock function (storport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsReleaseIrpOnCancelableQueue function"]
 ms.keywords: KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, stream.ksreleaseirponcancelablequeue
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsReleaseIrpOnCancelableQueue
 ---
 
-# KsReleaseIrpOnCancelableQueue function
+# KsReleaseIrpOnCancelableQueue function (ks.h)
+
+
 
 
 ## -description

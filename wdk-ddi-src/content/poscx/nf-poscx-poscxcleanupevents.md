@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["PosCxCleanupEvents function"]
 ms.keywords: PosCxCleanupEvents, PosCxCleanupEvents function, pos.poscxcleanupevents, poscx/PosCxCleanupEvents
 req.header: poscx.h
+req.construct-type: function
 req.include-header: Poscx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PosCxCleanupEvents
 ---
 
-# PosCxCleanupEvents function
+# PosCxCleanupEvents function (poscx.h)
+
+
 
 
 ## -description

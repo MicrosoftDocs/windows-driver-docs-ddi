@@ -5,6 +5,7 @@ description: Learn more about the D3DKMTDestroySynchronizationObject function.
 ms.date: 03/21/2024
 keywords: ["D3DKMTDestroySynchronizationObject function"]
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,6 +41,8 @@ api_location:
 api_name:
  - D3DKMTDestroySynchronizationObject
 ---
+
+# D3DKMTDestroySynchronizationObject function (d3dkmthk.h)
 
 ## -description
 

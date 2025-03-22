@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TRFUNCENUM enumeration"]
 ms.keywords: _TRFUNCENUM, TRFUNCENUM,
 req.header: trustedruntimeclx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - TRFUNCENUM
 ---
 
-# _TRFUNCENUM enumeration
+# TRFUNCENUM enumeration (trustedruntimeclx.h)
+
+
 
 
 ## -description

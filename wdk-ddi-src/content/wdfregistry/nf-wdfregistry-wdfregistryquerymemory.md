@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryMemory function"]
 ms.keywords: DFRegKeyObjectRef_97e02e2b-59d4-4041-a22d-e3a8905c096f.xml, WdfRegistryQueryMemory, WdfRegistryQueryMemory method, kmdf.wdfregistryquerymemory, wdf.wdfregistryquerymemory, wdfregistry/WdfRegistryQueryMemory
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryQueryMemory
 ---
 
-# WdfRegistryQueryMemory function
+# WdfRegistryQueryMemory function (wdfregistry.h)
+
+
 
 
 ## -description

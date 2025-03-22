@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DVD_STRUCTURE_FORMAT enumeration"]
 ms.keywords: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdBCADescriptor, DvdCopyrightDescriptor, DvdDiskKeyDescriptor, DvdManufacturerDescriptor, DvdMaxDescriptor, DvdPhysicalDescriptor, PDVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DVD_STRUCTURE_FORMAT, ntddcdvd/DvdBCADescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DvdMaxDescriptor, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, storage.dvd_structure_format, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml"
 req.header: ntddcdvd.h
+req.construct-type: enumeration
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - PDVD_STRUCTURE_FORMAT
 ---
 
-# DVD_STRUCTURE_FORMAT enumeration
+# DVD_STRUCTURE_FORMAT enumeration (ntddcdvd.h)
+
+
 
 
 ## -description

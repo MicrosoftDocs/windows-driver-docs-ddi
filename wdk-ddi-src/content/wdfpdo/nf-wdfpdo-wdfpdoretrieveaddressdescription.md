@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoRetrieveAddressDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_14653cca-1eb9-44c0-bcdd-cbb450617659.xml, WdfPdoRetrieveAddressDescription, WdfPdoRetrieveAddressDescription method, kmdf.wdfpdoretrieveaddressdescription, wdf.wdfpdoretrieveaddressdescription, wdfpdo/WdfPdoRetrieveAddressDescription
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoRetrieveAddressDescription
 ---
 
-# WdfPdoRetrieveAddressDescription function
+# WdfPdoRetrieveAddressDescription function (wdfpdo.h)
+
+
 
 
 ## -description

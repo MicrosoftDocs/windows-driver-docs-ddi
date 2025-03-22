@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_POLL_MODE_CONFIG enumeration"]
 ms.keywords: "*PNFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_DEFAULT, NFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_MODE_CONFIG,*PNFC_CX_POLL_MODE_CONFIG, NFC_CX_POLL_MODE_CONFIG,*PNFC_CX_POLL_MODE_CONFIG enumeration [Near-Field Proximity Drivers], NFC_CX_POLL_NFC_15693, NFC_CX_POLL_NFC_A, NFC_CX_POLL_NFC_ACTIVE, NFC_CX_POLL_NFC_B, NFC_CX_POLL_NFC_F_212, NFC_CX_POLL_NFC_F_424, PNFC_CX_POLL_MODE_CONFIG, _NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_DEFAULT, nfccx/NFC_CX_POLL_MODE_CONFIG, nfccx/NFC_CX_POLL_NFC_15693, nfccx/NFC_CX_POLL_NFC_A, nfccx/NFC_CX_POLL_NFC_ACTIVE, nfccx/NFC_CX_POLL_NFC_B, nfccx/NFC_CX_POLL_NFC_F_212, nfccx/NFC_CX_POLL_NFC_F_424, nfpdrivers.nfc_cx_poll_mode_config"
 req.header: nfccx.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_POLL_MODE_CONFIG
 ---
 
-# _NFC_CX_POLL_MODE_CONFIG enumeration
+# NFC_CX_POLL_MODE_CONFIG enumeration (nfccx.h)
+
+
 
 
 ## -description

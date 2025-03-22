@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisIfRegisterInterface function"]
 ms.keywords: NdisIfRegisterInterface, NdisIfRegisterInterface function [Network Drivers Starting with Windows Vista], ndis/NdisIfRegisterInterface, net_if_functions_ref_baca325c-667d-4472-9c91-dbc8fd41d033.xml, netvista.ndisifregisterinterface
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisIfRegisterInterface
 ---
 
-# NdisIfRegisterInterface function
+# NdisIfRegisterInterface function (ndis.h)
+
+
 
 
 ## -description

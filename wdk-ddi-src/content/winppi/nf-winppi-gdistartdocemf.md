@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiStartDocEMF function"]
 ms.keywords: GdiStartDocEMF, GdiStartDocEMF function [Print Devices], gdifnc_11790088-e5fa-4817-a7d7-79c654814062.xml, print.gdistartdocemf, winppi/GdiStartDocEMF
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiStartDocEMF
 ---
 
-# GdiStartDocEMF function
+# GdiStartDocEMF function (winppi.h)
+
+
 
 
 ## -description

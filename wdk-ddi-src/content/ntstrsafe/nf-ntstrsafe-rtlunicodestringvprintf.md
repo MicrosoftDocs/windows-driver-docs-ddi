@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUnicodeStringVPrintf function"]
 ms.keywords: RtlUnicodeStringVPrintf, RtlUnicodeStringVPrintf function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringvprintf, ntstrsafe/RtlUnicodeStringVPrintf, safestrings_45fb9433-8fea-42ec-83fc-772e943a3169.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringVPrintf
 ---
 
-# RtlUnicodeStringVPrintf function
+# RtlUnicodeStringVPrintf function (ntstrsafe.h)
+
+
 
 
 ## -description

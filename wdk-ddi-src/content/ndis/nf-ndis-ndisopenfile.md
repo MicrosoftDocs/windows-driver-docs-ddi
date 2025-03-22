@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisOpenFile function"]
 ms.keywords: NdisOpenFile, NdisOpenFile function [Network Drivers Starting with Windows Vista], ndis/NdisOpenFile, ndis_file_ref_0931368e-111b-4b25-a42d-12d0cc5d9d44.xml, netvista.ndisopenfile
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisOpenFile (NDIS 5.1)) in Windows   Vista. Supported for NDIS 5.1 drivers (see    NdisOpenFile (NDIS 5.1)) in Windows   XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisOpenFile
 ---
 
-# NdisOpenFile function
+# NdisOpenFile function (ndis.h)
+
+
 
 
 ## -description

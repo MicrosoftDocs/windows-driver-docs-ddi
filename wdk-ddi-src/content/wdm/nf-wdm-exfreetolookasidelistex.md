@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExFreeToLookasideListEx function"]
 ms.keywords: ExFreeToLookasideListEx, ExFreeToLookasideListEx routine [Kernel-Mode Driver Architecture], k102_2d275628-4a0f-4da8-a512-60a0998d8c5b.xml, kernel.exfreetolookasidelistex, wdm/ExFreeToLookasideListEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ExFreeToLookasideListEx
 ---
 
-# ExFreeToLookasideListEx function
+# ExFreeToLookasideListEx function (wdm.h)
+
+
 
 
 ## -description

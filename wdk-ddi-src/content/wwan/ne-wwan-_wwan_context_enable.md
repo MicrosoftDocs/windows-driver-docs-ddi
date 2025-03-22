@@ -7,6 +7,7 @@ ms.date: 08/22/2018
 keywords: ["WWAN_CONTEXT_ENABLE enumeration"]
 ms.keywords: _WWAN_CONTEXT_ENABLE, WWAN_CONTEXT_ENABLE, *PWWAN_CONTEXT_ENABLE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_CONTEXT_ENABLE
 ---
 
-# _WWAN_CONTEXT_ENABLE enumeration
+# WWAN_CONTEXT_ENABLE enumeration (wwan.h)
+
+
 
 
 ## -description

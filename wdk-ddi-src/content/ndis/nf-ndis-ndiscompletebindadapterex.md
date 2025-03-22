@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCompleteBindAdapterEx function"]
 ms.keywords: NdisCompleteBindAdapterEx, NdisCompleteBindAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCompleteBindAdapterEx, netvista.ndiscompletebindadapterex, protocol_ndis_functions_ref_11cc35a5-fa39-4922-a00d-c4ccb634ea88.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisCompleteBindAdapterEx
 ---
 
-# NdisCompleteBindAdapterEx function
+# NdisCompleteBindAdapterEx function (ndis.h)
+
+
 
 
 ## -description

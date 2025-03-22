@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URS_ROLE enumeration"]
 ms.keywords: "*PURS_ROLE, URS_ROLE, URS_ROLE enumeration [Buses], URS_ROLE,*PURS_ROLE, URS_ROLE,*PURS_ROLE enumeration [Buses], UrsRoleFunction, UrsRoleHost, UrsRoleNone, _URS_ROLE, buses.urs_role, urstypes/URS_ROLE, urstypes/UrsRoleFunction, urstypes/UrsRoleHost, urstypes/UrsRoleNone"
 req.header: urstypes.h
+req.construct-type: enumeration
 req.include-header: Urstypes.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - URS_ROLE
 ---
 
-# _URS_ROLE enumeration
+# URS_ROLE enumeration (urstypes.h)
+
+
 
 
 ## -description

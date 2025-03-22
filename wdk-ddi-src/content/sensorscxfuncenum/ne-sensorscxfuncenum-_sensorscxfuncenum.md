@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["SENSORSCXFUNCENUM enumeration"]
 ms.keywords: _SENSORSCXFUNCENUM, SENSORSCXFUNCENUM,
 req.header: sensorscxfuncenum.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - SENSORSCXFUNCENUM
 ---
 
-# _SENSORSCXFUNCENUM enumeration
+# SENSORSCXFUNCENUM enumeration (sensorscxfuncenum.h)
+
+
 
 
 ## -description

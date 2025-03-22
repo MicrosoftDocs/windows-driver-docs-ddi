@@ -7,6 +7,7 @@ ms.date: 03/11/2022
 keywords: ["KSEVENT_CAMERAEVENT enumeration"]
 ms.keywords: KSEVENT_CAMERAEVENT, KSEVENT_CAMERAEVENT enumeration [Streaming Media Devices], KSEVENT_PHOTO_SAMPLE_SCANNED, ksmedia/KSEVENT_CAMERAEVENT, ksmedia/KSEVENT_PHOTO_SAMPLE_SCANNED, stream.ksevent_cameraevent
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KSEVENT_CAMERAEVENT
 ---
+
+# KSEVENT_CAMERAEVENT enumeration (ksmedia.h)
 
 ## -description
 

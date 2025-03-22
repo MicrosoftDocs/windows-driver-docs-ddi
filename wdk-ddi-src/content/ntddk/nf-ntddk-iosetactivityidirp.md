@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["IoSetActivityIdIrp function"]
 ms.keywords: IoSetActivityIdIrp, IoSetActivityIdIrp routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidirp, ntddk/IoSetActivityIdIrp
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoSetActivityIdIrp
 ---
+
+# IoSetActivityIdIrp function (ntddk.h)
 
 ## -description
 

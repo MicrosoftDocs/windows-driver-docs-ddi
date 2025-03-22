@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["NDIS_MAKE_RID macro"]
 ms.keywords: NDIS_MAKE_RID
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -38,7 +39,11 @@ api_name:
  - NDIS_MAKE_RID
 ---
 
-# NDIS_MAKE_RID macro
+# NDIS_MAKE_RID macro (ndis.h)
+
+
+
+
 
 
 ## -description

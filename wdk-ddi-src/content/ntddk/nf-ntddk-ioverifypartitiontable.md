@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoVerifyPartitionTable function"]
 ms.keywords: IoVerifyPartitionTable, IoVerifyPartitionTable routine [Kernel-Mode Driver Architecture], k104_d550806b-f911-45f6-b6ab-efbf05683c4d.xml, kernel.ioverifypartitiontable, ntddk/IoVerifyPartitionTable
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - IoVerifyPartitionTable
 ---
 
-# IoVerifyPartitionTable function
+# IoVerifyPartitionTable function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExIsResourceAcquiredExclusiveLite function"]
 ms.keywords: ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, kernel.exisresourceacquiredexclusivelite, wdm/ExIsResourceAcquiredExclusiveLite
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExIsResourceAcquiredExclusiveLite
 ---
 
-# ExIsResourceAcquiredExclusiveLite function
+# ExIsResourceAcquiredExclusiveLite function (wdm.h)
+
+
 
 
 ## -description

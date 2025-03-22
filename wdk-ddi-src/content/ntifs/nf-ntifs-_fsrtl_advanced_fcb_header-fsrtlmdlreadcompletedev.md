@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlMdlReadCompleteDev function"]
 ms.keywords: FsRtlMdlReadCompleteDev, FsRtlMdlReadCompleteDev routine [Installable File System Drivers], ntifs/FsRtlMdlReadCompleteDev, ifsk.fsrtlmdlreadcompletedev
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlMdlReadCompleteDev function
+# FsRtlMdlReadCompleteDev function (ntifs.h)
+
+
 
 
 ## -description

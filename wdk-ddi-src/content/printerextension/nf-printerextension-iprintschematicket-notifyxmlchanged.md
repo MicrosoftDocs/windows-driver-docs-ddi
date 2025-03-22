@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaTicket::NotifyXmlChanged"]
 ms.keywords: IPrintSchemaTicket, IPrintSchemaTicket interface [Print Devices],NotifyXmlChanged method, IPrintSchemaTicket.NotifyXmlChanged, IPrintSchemaTicket::NotifyXmlChanged, NotifyXmlChanged, NotifyXmlChanged method [Print Devices], NotifyXmlChanged method [Print Devices],IPrintSchemaTicket interface, print.iprintschematicket_notifyxmlchanged, printerextension/IPrintSchemaTicket::NotifyXmlChanged
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaTicket::NotifyXmlChanged
 ---
+
+# IPrintSchemaTicket::NotifyXmlChanged function (printerextension.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreateKeyedMutex2 function"]
 ms.keywords: D3DKMTCreateKeyedMutex2, D3DKMTCreateKeyedMutex2 callback function [Display Devices], PFND3DKMT_CREATEKEYEDMUTEX2, PFND3DKMT_CREATEKEYEDMUTEX2 callback, d3dkmthk/D3DKMTCreateKeyedMutex2, display.d3dkmtcreatekeyedmutex2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCreateKeyedMutex2
 ---
 
-# D3DKMTCreateKeyedMutex2 function
+# D3DKMTCreateKeyedMutex2 function (d3dkmthk.h)
+
+
 
 
 ## -description

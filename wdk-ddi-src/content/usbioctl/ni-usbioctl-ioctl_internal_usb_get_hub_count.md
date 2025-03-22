@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USB_GET_HUB_COUNT IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USB_GET_HUB_COUNT, IOCTL_INTERNAL_USB_GET_HUB_COUNT control, IOCTL_INTERNAL_USB_GET_HUB_COUNT control code [Buses], buses.ioctl_internal_usb_get_hub_count, usbioctl/IOCTL_INTERNAL_USB_GET_HUB_COUNT, usbirp_8c73af1c-9349-4b49-8d8d-aaaeb090dc5e.xml
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USB_GET_HUB_COUNT
 ---
 
-# IOCTL_INTERNAL_USB_GET_HUB_COUNT IOCTL
+# IOCTL_INTERNAL_USB_GET_HUB_COUNT IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

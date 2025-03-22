@@ -7,6 +7,7 @@ ms.date: 03/12/2019
 keywords: ["IoUpdateLinkShareAccessEx function"]
 ms.keywords: IoUpdateLinkShareAccessEx, IoUpdateLinkShareAccessEx function [Kernel-Mode Driver Architecture], kernel.IoUpdateLinkShareAccessEx, wdm/IoUpdateLinkShareAccessEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1903
@@ -38,7 +39,9 @@ api_name:
  - IoUpdateLinkShareAccessEx
 ---
 
-# IoUpdateLinkShareAccessEx function
+# IoUpdateLinkShareAccessEx function (wdm.h)
+
+
 
 
 ## -description

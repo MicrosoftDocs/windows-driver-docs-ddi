@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STORAGE_DEVICE_POWER_CAP_UNITS enumeration"]
 ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices], StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsPercent, _STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, storage.storage_device_power_cap_units"
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - STORAGE_DEVICE_POWER_CAP_UNITS
 ---
 
-# _STORAGE_DEVICE_POWER_CAP_UNITS enumeration
+# STORAGE_DEVICE_POWER_CAP_UNITS enumeration (ntddstor.h)
+
+
 
 
 ## -description

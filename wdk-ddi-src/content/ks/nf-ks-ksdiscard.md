@@ -7,6 +7,7 @@ ms.date: 03/11/2022
 keywords: ["KsDiscard macro"]
 ms.keywords: KsDiscard, KsDiscard function [Streaming Media Devices], avfunc_645e5574-6c6b-4336-87fe-fe777f7d1c91.xml, ks/KsDiscard, stream.ksdiscard
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -39,6 +40,10 @@ api_location:
 api_name:
  - KsDiscard
 ---
+
+# KsDiscard macro (ks.h)
+
+
 
 ## -description
 

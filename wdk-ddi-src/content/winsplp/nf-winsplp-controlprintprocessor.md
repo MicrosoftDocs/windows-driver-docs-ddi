@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["ControlPrintProcessor function"]
 ms.keywords: ControlPrintProcessor, ControlPrintProcessor function [Print Devices], print.controlprintprocessor, spoolfnc_203120f1-7819-448e-9813-3aa2b24bfd7f.xml, winsplp/ControlPrintProcessor
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ControlPrintProcessor
 ---
+
+# ControlPrintProcessor function (winsplp.h)
 
 ## -description
 

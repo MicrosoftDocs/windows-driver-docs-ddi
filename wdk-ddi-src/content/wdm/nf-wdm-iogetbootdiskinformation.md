@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetBootDiskInformation function"]
 ms.keywords: IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetBootDiskInformation
 ---
 
-# IoGetBootDiskInformation function
+# IoGetBootDiskInformation function (wdm.h)
+
+
 
 
 ## -description

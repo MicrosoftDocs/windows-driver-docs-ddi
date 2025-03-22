@@ -8,6 +8,7 @@ ms.date: 03/17/2022
 keywords: ["WppRecorderConfigure macro"]
 ms.keywords: WppRecorderConfigure, devtest.wpprecorderconfigure, imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - WppRecorderConfigure
 ---
 
-# WppRecorderConfigure macro
+# WppRecorderConfigure macro (wpprecorder.h)
+
+
+
+
 
 
 ## -description

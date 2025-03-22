@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTGetSharedPrimaryHandle function"]
 ms.keywords: D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, d3dkmthk/D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTGetSharedPrimaryHandle
 ---
 
-# D3DKMTGetSharedPrimaryHandle function
+# D3DKMTGetSharedPrimaryHandle function (d3dkmthk.h)
+
+
 
 
 ## -description

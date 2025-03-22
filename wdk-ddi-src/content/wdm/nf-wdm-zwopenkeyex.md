@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwOpenKeyEx function"]
 ms.keywords: ZwOpenKeyEx, ZwOpenKeyEx routine [Kernel-Mode Driver Architecture], k111_4e01a648-6ffc-418f-821c-9a4ef821dc3b.xml, kernel.zwopenkeyex, wdm/ZwOpenKeyEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ZwOpenKeyEx
 ---
 
-# ZwOpenKeyEx function
+# ZwOpenKeyEx function (wdm.h)
+
+
 
 
 ## -description

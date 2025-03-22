@@ -8,6 +8,7 @@ ms.date: 10/21/2021
 keywords: ["FltGetFileNameInformation function"]
 ms.keywords: FltApiRef_e_to_o_1ce08fd0-5e23-43de-b012-dd71086282ea.xml, FltGetFileNameInformation, FltGetFileNameInformation routine [Installable File System Drivers], fltkernel/FltGetFileNameInformation, ifsk.fltgetfilenameinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetFileNameInformation
 ---
 
-# FltGetFileNameInformation function
+# FltGetFileNameInformation function (fltkernel.h)
+
+
 
 ## -description
 

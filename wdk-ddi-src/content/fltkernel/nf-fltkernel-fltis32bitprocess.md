@@ -8,6 +8,7 @@ ms.date: 11/29/2021
 keywords: ["FltIs32bitProcess function"]
 ms.keywords: FltApiRef_e_to_o_dbd737ec-e787-4f85-bd9e-833e06e862f0.xml, FltIs32bitProcess, FltIs32bitProcess routine [Installable File System Drivers], fltkernel/FltIs32bitProcess, ifsk.fltis32bitprocess
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Microsoft Windows XP SP2
@@ -40,7 +41,9 @@ api_name:
  - FltIs32bitProcess
 ---
 
-# FltIs32bitProcess function
+# FltIs32bitProcess function (fltkernel.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortInterlockedInsertTailList function"]
 ms.keywords: StorPortInterlockedInsertTailList, StorPortInterlockedInsertTailList routine [Storage Devices], storage.storportinterlockedinserttaillist, storport/StorPortInterlockedInsertTailList
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortInterlockedInsertTailList
 ---
 
-# StorPortInterlockedInsertTailList function
+# StorPortInterlockedInsertTailList function (storport.h)
+
+
 
 ## -description
 

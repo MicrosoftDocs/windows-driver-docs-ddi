@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxLogEventWithBufferDirect function"]
 ms.keywords: RxLogEventWithBufferDirect, RxLogEventWithBufferDirect function [Installable File System Drivers], ifsk.rxlogeventwithbufferdirect, rxprocs/RxLogEventWithBufferDirect, rxref_95cd6139-10e2-4cf1-bfd9-51b3d6dd1119.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Rxstruc.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxLogEventWithBufferDirect
 ---
 
-# RxLogEventWithBufferDirect function
+# RxLogEventWithBufferDirect function (rxprocs.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/17/2024
 keywords: ["DXGKMDT_OPM_ACP_PROTECTION_LEVEL enumeration"]
 ms.keywords: DXGKMDT_OPM_ACP_FORCE_ULONG, DXGKMDT_OPM_ACP_LEVEL_ONE, DXGKMDT_OPM_ACP_LEVEL_THREE, DXGKMDT_OPM_ACP_LEVEL_TWO, DXGKMDT_OPM_ACP_OFF, DXGKMDT_OPM_ACP_PROTECTION_LEVEL, DXGKMDT_OPM_ACP_PROTECTION_LEVEL enumeration [Display Devices], DmEnums_8ddb5546-7305-4b58-85e9-8e38a9bdf8af.xml, _DXGKMDT_OPM_ACP_PROTECTION_LEVEL, d3dkmdt/DXGKMDT_OPM_ACP_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_ACP_LEVEL_ONE, d3dkmdt/DXGKMDT_OPM_ACP_LEVEL_THREE, d3dkmdt/DXGKMDT_OPM_ACP_LEVEL_TWO, d3dkmdt/DXGKMDT_OPM_ACP_OFF, d3dkmdt/DXGKMDT_OPM_ACP_PROTECTION_LEVEL, display.dxgkmdt_opm_acp_protection_level
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -42,7 +43,9 @@ api_name:
  - DXGKMDT_OPM_ACP_PROTECTION_LEVEL
 ---
 
-# DXGKMDT_OPM_ACP_PROTECTION_LEVEL enumeration
+# DXGKMDT_OPM_ACP_PROTECTION_LEVEL enumeration (d3dkmdt.h)
+
+
 
 
 ## -description

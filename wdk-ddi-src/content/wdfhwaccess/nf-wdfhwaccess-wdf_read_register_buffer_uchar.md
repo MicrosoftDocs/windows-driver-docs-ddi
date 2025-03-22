@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_READ_REGISTER_BUFFER_UCHAR function"]
 ms.keywords: WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR function, wdf.wdf_read_register_buffer_uchar, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR
 req.header: wdfhwaccess.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WDF_READ_REGISTER_BUFFER_UCHAR
 ---
 
-# WDF_READ_REGISTER_BUFFER_UCHAR function
+# WDF_READ_REGISTER_BUFFER_UCHAR function (wdfhwaccess.h)
+
+
 
 
 ## -description

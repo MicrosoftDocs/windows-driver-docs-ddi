@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["UfxDeviceNotifyAttach function"]
 ms.keywords: UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceNotifyAttach
 ---
 
-# UfxDeviceNotifyAttach function
+# UfxDeviceNotifyAttach function (ufxclient.h)
+
+
 
 ## -description
 

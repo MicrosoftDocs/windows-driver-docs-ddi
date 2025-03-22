@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisOpenConfigurationEx function"]
 ms.keywords: NdisOpenConfigurationEx, NdisOpenConfigurationEx function [Network Drivers Starting with Windows Vista], ndis/NdisOpenConfigurationEx, ndis_configuration_ref_c1d84b46-85f5-4a0a-9a5f-d553fea94027.xml, netvista.ndisopenconfigurationex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisOpenConfigurationEx
 ---
 
-# NdisOpenConfigurationEx function
+# NdisOpenConfigurationEx function (ndis.h)
+
+
 
 
 ## -description

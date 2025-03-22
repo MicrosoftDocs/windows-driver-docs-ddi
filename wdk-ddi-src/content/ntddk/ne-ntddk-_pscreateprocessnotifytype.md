@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PSCREATEPROCESSNOTIFYTYPE enumeration"]
 ms.keywords: PSCREATEPROCESSNOTIFYTYPE, PSCREATEPROCESSNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateProcessNotifySubsystems, _PSCREATEPROCESSNOTIFYTYPE, kernel.pscreateprocessnotifytype, ntddk/PSCREATEPROCESSNOTIFYTYPE, ntddk/PsCreateProcessNotifySubsystems
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -43,7 +44,9 @@ api_name:
  - PSCREATEPROCESSNOTIFYTYPE
 ---
 
-# _PSCREATEPROCESSNOTIFYTYPE enumeration
+# PSCREATEPROCESSNOTIFYTYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

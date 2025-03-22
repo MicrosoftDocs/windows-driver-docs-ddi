@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["PrinterMessageBoxA function"]
 ms.keywords: PrinterMessageBoxA, PrinterMessageBoxA function [Print Devices], print.printermessageboxa, winspool/PrinterMessageBoxA
 req.header: winspool.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - PrinterMessageBoxA
  - PrinterMessageBox
 ---
+
+# PrinterMessageBoxA function (winspool.h)
 
 ## -description
 

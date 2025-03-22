@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoInitializePriorityInfo function"]
 ms.keywords: IoInitializePriorityInfo, IoInitializePriorityInfo routine [Installable File System Drivers], ifsk.ioinitializepriorityinfo, ioref_65eef333-11a8-4603-9b64-dc317f3d4e7b.xml, ntifs/IoInitializePriorityInfo
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Desktop
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - IoInitializePriorityInfo
 ---
 
-# IoInitializePriorityInfo function
+# IoInitializePriorityInfo function (ntifs.h)
+
+
 
 
 ## -description

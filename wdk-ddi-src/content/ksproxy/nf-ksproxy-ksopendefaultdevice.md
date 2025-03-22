@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsOpenDefaultDevice function"]
 ms.keywords: KsOpenDefaultDevice, KsOpenDefaultDevice function [Streaming Media Devices], ksproxy/KsOpenDefaultDevice, ksproxy_9c80d462-baaa-497b-a337-5d42e94b9c3f.xml, stream.ksopendefaultdevice
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsOpenDefaultDevice
 ---
 
-# KsOpenDefaultDevice function
+# KsOpenDefaultDevice function (ksproxy.h)
+
+
 
 
 ## -description

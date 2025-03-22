@@ -8,6 +8,7 @@ ms.date: 12/02/2020
 keywords: ["FltGetDiskDeviceObject function"]
 ms.keywords: FltApiRef_e_to_o_830212f4-ac53-41e1-8f66-48673bdaf9e2.xml, FltGetDiskDeviceObject, FltGetDiskDeviceObject routine [Installable File System Drivers], fltkernel/FltGetDiskDeviceObject, ifsk.fltgetdiskdeviceobject
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetDiskDeviceObject
 ---
 
-# FltGetDiskDeviceObject function
+# FltGetDiskDeviceObject function (fltkernel.h)
+
+
 
 ## -description
 

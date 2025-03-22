@@ -7,6 +7,7 @@ ms.date: 10/11/2019
 keywords: ["IoAllocateIrpEx function"]
 ms.keywords: IoAllocateIrpEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: wdm.h, ntddk.h, ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting Windows 10 (version 1507)
@@ -37,7 +38,9 @@ f1_keywords:
  - wdm/IoAllocateIrpEx
 ---
 
-# IoAllocateIrpEx function
+# IoAllocateIrpEx function (wdm.h)
+
+
 
 
 ## -description

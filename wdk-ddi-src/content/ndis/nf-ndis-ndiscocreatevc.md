@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCoCreateVc function"]
 ms.keywords: NdisCoCreateVc, NdisCoCreateVc function [Network Drivers Starting with Windows Vista], condis_protocol_ref_6b168c4f-016d-4fa8-911a-d89fd9de2829.xml, ndis/NdisCoCreateVc, netvista.ndiscocreatevc
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCoCreateVc (NDIS 5.1)) in   Windows Vista. Supported for NDIS 5.1 drivers (see    NdisCoCreateVc (NDIS 5.1)) in   Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCoCreateVc
 ---
 
-# NdisCoCreateVc function
+# NdisCoCreateVc function (ndis.h)
+
+
 
 
 ## -description

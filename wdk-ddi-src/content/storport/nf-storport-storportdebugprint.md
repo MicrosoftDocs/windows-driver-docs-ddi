@@ -8,6 +8,7 @@ ms.date: 01/03/2022
 keywords: ["StorPortDebugPrint function"]
 ms.keywords: StorPortDebugPrint, StorPortDebugPrint routine [Storage Devices], storage.storportdebugprint, storport/StorPortDebugPrint, storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortDebugPrint
 ---
 
-# StorPortDebugPrint function
+# StorPortDebugPrint function (storport.h)
+
+
 
 ## -description
 

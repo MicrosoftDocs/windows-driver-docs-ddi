@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["Field_size_bytes_DXGK_ macro"]
 ms.keywords: _Field_size_bytes_DXGK_
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# _Field_size_bytes_DXGK_ macro
+# _Field_size_bytes_DXGK_ macro (dispmprt.h)
+
+
+
+
 
 
 ## -description

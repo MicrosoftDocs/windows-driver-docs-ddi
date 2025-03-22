@@ -7,6 +7,7 @@ keywords: ["SerializationBufferFree function"]
 tech.root: sensors
 ms.keywords: SerializationBufferFree
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - SerializationBufferFree
 ---
 
-# SerializationBufferFree function
+# SerializationBufferFree function (sensorsutils.h)
+
+
 
 
 ## -description

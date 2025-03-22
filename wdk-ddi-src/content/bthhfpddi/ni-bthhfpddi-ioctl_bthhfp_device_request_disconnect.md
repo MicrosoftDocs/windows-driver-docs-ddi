@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT IOCTL"]
 ms.keywords: IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control, IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT control code [Audio Devices], audio.ioctl_bthhfp_device_request_disconnect, bthhfpddi/IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 req.header: bthhfpddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT
 ---
 
-# IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT IOCTL
+# IOCTL_BTHHFP_DEVICE_REQUEST_DISCONNECT IOCTL (bthhfpddi.h)
+
+
+
+
 
 
 ## -description

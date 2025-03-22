@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeGenericObject function"]
 ms.keywords: NdisFreeGenericObject, NdisFreeGenericObject function [Network Drivers Starting with Windows Vista], ndis/NdisFreeGenericObject, ndis_object_ref_d796ffda-61f1-473d-98ea-5ad3570889e9.xml, netvista.ndisfreegenericobject
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFreeGenericObject
 ---
 
-# NdisFreeGenericObject function
+# NdisFreeGenericObject function (ndis.h)
+
+
 
 
 ## -description

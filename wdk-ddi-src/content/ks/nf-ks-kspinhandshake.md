@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinHandshake function"]
 ms.keywords: KsPinHandshake, KsPinHandshake function [Streaming Media Devices], avfunc_a7b6afa8-acb0-4847-9e86-136100c4dd48.xml, ks/KsPinHandshake, stream.kspinhandshake
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsPinHandshake
 ---
 
-# KsPinHandshake function
+# KsPinHandshake function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNotifyFullReportChange function"]
 ms.keywords: FsRtlNotifyFullReportChange, FsRtlNotifyFullReportChange routine [Installable File System Drivers], fsrtlref_1107429f-a697-40a9-8336-b9a145b476b9.xml, ifsk.fsrtlnotifyfullreportchange, ntifs/FsRtlNotifyFullReportChange
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlNotifyFullReportChange function
+# FsRtlNotifyFullReportChange function (ntifs.h)
+
+
 
 
 ## -description

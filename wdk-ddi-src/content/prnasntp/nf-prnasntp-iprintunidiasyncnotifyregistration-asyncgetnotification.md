@@ -7,6 +7,7 @@ ms.date: 07/26/2022
 keywords: ["IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification"]
 ms.keywords: AsyncGetNotification, AsyncGetNotification method [Print Devices], AsyncGetNotification method [Print Devices],IPrintUnidiAsyncNotifyRegistration interface, IPrintUnidiAsyncNotifyRegistration interface [Print Devices],AsyncGetNotification method, IPrintUnidiAsyncNotifyRegistration.AsyncGetNotification, IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification, print.iprintunidiasyncnotifyregistration_asyncgetnotification, prnasntp/IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification
 ---
+
+# IPrintUnidiAsyncNotifyRegistration::AsyncGetNotification function (prnasntp.h)
 
 ## -description
 

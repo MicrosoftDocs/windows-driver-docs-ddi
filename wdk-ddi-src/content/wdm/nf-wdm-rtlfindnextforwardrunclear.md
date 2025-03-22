@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlFindNextForwardRunClear function"]
 ms.keywords: RtlFindNextForwardRunClear, RtlFindNextForwardRunClear routine [Kernel-Mode Driver Architecture], k109_3625ede2-f1b5-495d-9b79-2063e0daa567.xml, kernel.rtlfindnextforwardrunclear, wdm/RtlFindNextForwardRunClear
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlFindNextForwardRunClear
 ---
 
-# RtlFindNextForwardRunClear function
+# RtlFindNextForwardRunClear function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ tech.root: kernel
 keywords: ["RtlCopyMemoryNonTemporal function"]
 ms.keywords: RtlCopyMemoryNonTemporal
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2003 and later.
@@ -39,7 +40,9 @@ api_name:
  - RtlCopyMemoryNonTemporal
 ---
 
-# RtlCopyMemoryNonTemporal function
+# RtlCopyMemoryNonTemporal function (wdm.h)
+
+
 
 
 ## -description

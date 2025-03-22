@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptEnable function"]
 ms.keywords: DFInterruptObjectRef_4fa737c9-fae4-4d3c-9a27-165f5348c66c.xml, WdfInterruptEnable, WdfInterruptEnable method, kmdf.wdfinterruptenable, wdf.wdfinterruptenable, wdfinterrupt/WdfInterruptEnable
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptEnable
 ---
 
-# WdfInterruptEnable function
+# WdfInterruptEnable function (wdfinterrupt.h)
+
+
 
 
 ## -description

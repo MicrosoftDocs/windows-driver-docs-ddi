@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortResume function"]
 ms.keywords: StorPortResume, StorPortResume routine [Storage Devices], storage.storportresume, storport/StorPortResume, storprt_3970ca06-96f5-4d0a-84b0-781145133788.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortResume
 ---
 
-# StorPortResume function
+# StorPortResume function (storport.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["StreamClassDebugPrint function"]
 ms.keywords: StreamClassDebugPrint, StreamClassDebugPrint routine [Streaming Media Devices], strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, stream.streamclassdebugprint, strmini/StreamClassDebugPrint
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - StreamClassDebugPrint
 ---
+
+# StreamClassDebugPrint function (strmini.h)
 
 ## -description
 

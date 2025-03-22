@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["MmAllocateNodePagesForMdlEx function"]
 ms.keywords: MmAllocateNodePagesForMdlEx, MmAllocateNodePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatenodepagesformdlex, wdm/MmAllocateNodePagesForMdlEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - MmAllocateNodePagesForMdlEx
 ---
+
+# MmAllocateNodePagesForMdlEx function (wdm.h)
 
 ## -description
 

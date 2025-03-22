@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_STATE enumeration"]
 ms.keywords: DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueAcceptRequests, WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WdfIoQueueNoRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, kmdf.wdf_io_queue_state, wdf.wdf_io_queue_state, wdfio/WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueAcceptRequests, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueNoRequests, wdfio/WdfIoQueuePnpHeld
 req.header: wdfio.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_IO_QUEUE_STATE
 ---
 
-# _WDF_IO_QUEUE_STATE enumeration (wdfio.h)
+# WDF_IO_QUEUE_STATE enumeration (wdfio.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortGetDeviceBase function"]
 ms.keywords: AtaPortGetDeviceBase, AtaPortGetDeviceBase routine [Storage Devices], atartns_94ad1c8e-3a7b-4eeb-97d1-5b57284be6f3.xml, irb/AtaPortGetDeviceBase, storage.ataportgetdevicebase
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortGetDeviceBase
 ---
 
-# AtaPortGetDeviceBase function
+# AtaPortGetDeviceBase function (irb.h)
+
+
 
 
 ## -description

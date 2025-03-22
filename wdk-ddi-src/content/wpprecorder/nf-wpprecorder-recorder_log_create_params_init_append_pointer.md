@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function"]
 ms.keywords: RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER, RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function [Driver Development Tools], devtest.recorder_log_create_params_init_append_pointer, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER
 ---
 
-# RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function
+# RECORDER_LOG_CREATE_PARAMS_INIT_APPEND_POINTER function (wpprecorder.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DxgkInitializeDisplayOnlyDriver function"]
 ms.keywords: DxgkInitializeDisplayOnlyDriver, DxgkInitializeDisplayOnlyDriver function [Display Devices], display.dxgkinitializedisplayonlydriver, dispmprt/DxgkInitializeDisplayOnlyDriver
 req.header: dispmprt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -41,7 +42,9 @@ api_name:
  - DxgkInitializeDisplayOnlyDriver
 ---
 
-# DxgkInitializeDisplayOnlyDriver function
+# DxgkInitializeDisplayOnlyDriver function (dispmprt.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTGetScanLine function"]
 ms.keywords: D3DKMTGetScanLine, D3DKMTGetScanLine function [Display Devices], OpenGL_Functions_3a2d269d-0867-42fb-9268-86c560531de4.xml, d3dkmthk/D3DKMTGetScanLine, display.d3dkmtgetscanline
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTGetScanLine
 ---
 
-# D3DKMTGetScanLine function
+# D3DKMTGetScanLine function (d3dkmthk.h)
+
+
 
 
 ## -description

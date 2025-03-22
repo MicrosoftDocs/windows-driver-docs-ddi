@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestProbeAndLockUserBufferForWrite function"]
 ms.keywords: DFRequestObjectRef_8a3643bf-a6b6-4e22-baa8-bfb8a5716af6.xml, WdfRequestProbeAndLockUserBufferForWrite, WdfRequestProbeAndLockUserBufferForWrite method, kmdf.wdfrequestprobeandlockuserbufferforwrite, wdf.wdfrequestprobeandlockuserbufferforwrite, wdfrequest/WdfRequestProbeAndLockUserBufferForWrite
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestProbeAndLockUserBufferForWrite
 ---
 
-# WdfRequestProbeAndLockUserBufferForWrite function
+# WdfRequestProbeAndLockUserBufferForWrite function (wdfrequest.h)
+
+
 
 
 ## -description

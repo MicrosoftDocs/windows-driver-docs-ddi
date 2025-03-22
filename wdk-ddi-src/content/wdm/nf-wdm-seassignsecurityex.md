@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SeAssignSecurityEx function"]
 ms.keywords: SeAssignSecurityEx, SeAssignSecurityEx routine [Kernel-Mode Driver Architecture], k110_e014ad32-3cbd-47e6-908b-65357203ee59.xml, kernel.seassignsecurityex, wdm/SeAssignSecurityEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - SeAssignSecurityEx
 ---
 
-# SeAssignSecurityEx function
+# SeAssignSecurityEx function (wdm.h)
+
+
 
 
 ## -description

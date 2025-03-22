@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerQueryVolumeTags function"]
 ms.keywords: ChangerQueryVolumeTags, ChangerQueryVolumeTags function [Storage Devices], chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, mcd/ChangerQueryVolumeTags, storage.changerqueryvolumetags
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerQueryVolumeTags
 ---
 
-# ChangerQueryVolumeTags function
+# ChangerQueryVolumeTags function (mcd.h)
+
+
 
 
 ## -description

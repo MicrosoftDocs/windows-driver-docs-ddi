@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasGetChildrenContexts function"]
 ms.keywords: image.wiasgetchildrencontexts, wiamdef/wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts, wiasGetChildrenContexts function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasGetChildrenContexts
 ---
 
-# wiasGetChildrenContexts function
+# wiasGetChildrenContexts function (wiamdef.h)
+
+
 
 
 ## -description

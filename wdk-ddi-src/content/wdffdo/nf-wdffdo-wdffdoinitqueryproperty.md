@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoInitQueryProperty function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_92306389-1cdf-4751-a0c5-552cdb5e4556.xml, WdfFdoInitQueryProperty, WdfFdoInitQueryProperty method, kmdf.wdffdoinitqueryproperty, wdf.wdffdoinitqueryproperty, wdffdo/WdfFdoInitQueryProperty
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfFdoInitQueryProperty
 ---
 
-# WdfFdoInitQueryProperty function
+# WdfFdoInitQueryProperty function (wdffdo.h)
+
+
 
 
 ## -description

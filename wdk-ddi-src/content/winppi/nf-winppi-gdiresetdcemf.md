@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GdiResetDCEMF function"]
 ms.keywords: GdiResetDCEMF, GdiResetDCEMF function [Print Devices], gdifnc_ff066b35-7062-430e-a8b9-bbdef46494a6.xml, print.gdiresetdcemf, winppi/GdiResetDCEMF
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -42,7 +43,9 @@ api_name:
  - GdiResetDCEMF
 ---
 
-# GdiResetDCEMF function
+# GdiResetDCEMF function (winppi.h)
+
+
 
 
 ## -description

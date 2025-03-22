@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortConvertUlongToPhysicalAddress function"]
 ms.keywords: StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortConvertUlongToPhysicalAddress
 ---
 
-# StorPortConvertUlongToPhysicalAddress function
+# StorPortConvertUlongToPhysicalAddress function (storport.h)
+
+
 
 
 ## -description

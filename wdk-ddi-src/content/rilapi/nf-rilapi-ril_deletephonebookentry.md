@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_DeletePhonebookEntry function"]
 ms.keywords: RIL_DeletePhonebookEntry, RIL_DeletePhonebookEntry method [Network Drivers Starting with Windows Vista], netvista.ril_deletephonebookentry, rilapi/RIL_DeletePhonebookEntry
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_DeletePhonebookEntry
 ---
 
-# RIL_DeletePhonebookEntry function
+# RIL_DeletePhonebookEntry function (rilapi.h)
+
+
 
 
 ## -description

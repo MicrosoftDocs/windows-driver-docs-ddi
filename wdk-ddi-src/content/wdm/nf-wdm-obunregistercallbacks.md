@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObUnRegisterCallbacks function"]
 ms.keywords: ObUnRegisterCallbacks, ObUnRegisterCallbacks routine [Kernel-Mode Driver Architecture], k107_f0c1fdd0-3dcc-466c-a7a1-fab0b38e4e88.xml, kernel.obunregistercallbacks, wdm/ObUnRegisterCallbacks
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista with Service Pack 1 (SP1), Windows Server 2008, and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - ObUnRegisterCallbacks
 ---
 
-# ObUnRegisterCallbacks function
+# ObUnRegisterCallbacks function (wdm.h)
+
+
 
 
 ## -description

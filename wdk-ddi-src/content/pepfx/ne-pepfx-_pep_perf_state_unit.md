@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PEP_PERF_STATE_UNIT enumeration"]
 ms.keywords: "*PPEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT, PEP_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PepPerfStateUnitBandwidth, PepPerfStateUnitFrequency, PepPerfStateUnitMax, PepPerfStateUnitOther, _PEP_PERF_STATE_UNIT, kernel.pep_perf_state_unit, pepfx/PEP_PERF_STATE_UNIT, pepfx/PepPerfStateUnitBandwidth, pepfx/PepPerfStateUnitFrequency, pepfx/PepPerfStateUnitMax, pepfx/PepPerfStateUnitOther"
 req.header: pepfx.h
+req.construct-type: enumeration
 req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
@@ -46,7 +47,9 @@ api_name:
  - PEP_PERF_STATE_UNIT
 ---
 
-# _PEP_PERF_STATE_UNIT enumeration (pepfx.h)
+# PEP_PERF_STATE_UNIT enumeration (pepfx.h)
+
+
 
 
 ## -description

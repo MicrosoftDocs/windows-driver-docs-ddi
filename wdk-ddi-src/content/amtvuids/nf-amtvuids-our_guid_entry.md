@@ -6,6 +6,7 @@ ms.date: 11/17/2020
 keywords: ["OUR_GUID_ENTRY macro"]
 ms.keywords: OUR_GUID_ENTRY
 req.header: amtvuids.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - OUR_GUID_ENTRY
 ---
 
-# OUR_GUID_ENTRY macro
+# OUR_GUID_ENTRY macro (amtvuids.h)
+
+
+
+
 
 ## -description
 

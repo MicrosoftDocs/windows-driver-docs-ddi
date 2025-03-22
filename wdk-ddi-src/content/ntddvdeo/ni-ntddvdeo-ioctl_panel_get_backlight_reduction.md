@@ -5,6 +5,7 @@ description: Panel control IOCTLs must/can be handled by the monitor, OEM panel,
 ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_GET_BACKLIGHT_REDUCTION IOCTL"]
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,11 @@ api_name:
  - IOCTL_PANEL_GET_BACKLIGHT_REDUCTION
 ---
 
-# IOCTL_PANEL_GET_BACKLIGHT_REDUCTION IOCTL
+# IOCTL_PANEL_GET_BACKLIGHT_REDUCTION IOCTL (ntddvdeo.h)
+
+
+
+
 
 ## Major Code:  [[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 

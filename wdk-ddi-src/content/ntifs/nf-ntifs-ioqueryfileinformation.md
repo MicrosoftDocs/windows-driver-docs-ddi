@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["IoQueryFileInformation function"]
 ms.keywords: IoQueryFileInformation, IoQueryFileInformation function [Installable File System Drivers], ifsk.ioqueryfileinformation, ioref_7dc69c37-bd12-4857-ae49-69d0d29d8e72.xml, ntifs/IoQueryFileInformation
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoQueryFileInformation
 ---
 
-# IoQueryFileInformation function
+# IoQueryFileInformation function (ntifs.h)
+
+
 
 ## -description
 

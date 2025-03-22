@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinAttachOrGate function"]
 ms.keywords: KsPinAttachOrGate, KsPinAttachOrGate function [Streaming Media Devices], avfunc_bcc291d4-ee61-4196-88df-b7aef567a06b.xml, ks/KsPinAttachOrGate, stream.kspinattachorgate
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinAttachOrGate
 ---
 
-# KsPinAttachOrGate function
+# KsPinAttachOrGate function (ks.h)
+
+
 
 
 ## -description

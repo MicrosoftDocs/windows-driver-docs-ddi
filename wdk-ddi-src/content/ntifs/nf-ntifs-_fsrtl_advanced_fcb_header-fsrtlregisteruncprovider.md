@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlRegisterUncProvider function"]
 ms.keywords: FsRtlRegisterUncProvider, FsRtlRegisterUncProvider routine [Installable File System Drivers], fsrtlref_275d75b9-0033-4cfc-bb22-5ebfcab8d6ba.xml, ifsk.fsrtlregisteruncprovider, ntifs/FsRtlRegisterUncProvider
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlRegisterUncProvider function
+# FsRtlRegisterUncProvider function (ntifs.h)
+
+
 
 
 ## -description

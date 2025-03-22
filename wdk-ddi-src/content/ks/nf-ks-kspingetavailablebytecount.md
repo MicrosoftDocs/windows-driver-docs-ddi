@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetAvailableByteCount function"]
 ms.keywords: KsPinGetAvailableByteCount, KsPinGetAvailableByteCount routine [Streaming Media Devices], avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, ks/KsPinGetAvailableByteCount, stream.kspingetavailablebytecount
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetAvailableByteCount
 ---
 
-# KsPinGetAvailableByteCount function
+# KsPinGetAvailableByteCount function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSetBit function"]
 ms.keywords: RtlSetBit, RtlSetBit routine [Kernel-Mode Driver Architecture], k109_44d68cd0-b91e-4a4e-8f4f-c40e25b768b9.xml, kernel.rtlsetbit, wdm/RtlSetBit
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlSetBit
 ---
 
-# RtlSetBit function
+# RtlSetBit function (wdm.h)
+
+
 
 
 ## -description

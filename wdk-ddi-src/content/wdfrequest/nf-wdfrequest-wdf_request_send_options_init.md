@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_SEND_OPTIONS_INIT function"]
 ms.keywords: DFRequestObjectRef_9a31e96a-4cb1-43ea-b429-591f820838d8.xml, WDF_REQUEST_SEND_OPTIONS_INIT, WDF_REQUEST_SEND_OPTIONS_INIT function, kmdf.wdf_request_send_options_init, wdf.wdf_request_send_options_init, wdfrequest/WDF_REQUEST_SEND_OPTIONS_INIT
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_REQUEST_SEND_OPTIONS_INIT
 ---
 
-# WDF_REQUEST_SEND_OPTIONS_INIT function
+# WDF_REQUEST_SEND_OPTIONS_INIT function (wdfrequest.h)
+
+
 
 
 ## -description

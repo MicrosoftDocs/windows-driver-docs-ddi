@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetTrailingEdgeStreamPointer function"]
 ms.keywords: KsPinGetTrailingEdgeStreamPointer, KsPinGetTrailingEdgeStreamPointer function [Streaming Media Devices], avfunc_3fd3182e-6e4d-4654-9de7-e9cea1086e3e.xml, ks/KsPinGetTrailingEdgeStreamPointer, stream.kspingettrailingedgestreampointer
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetTrailingEdgeStreamPointer
 ---
 
-# KsPinGetTrailingEdgeStreamPointer function
+# KsPinGetTrailingEdgeStreamPointer function (ks.h)
+
+
 
 
 ## -description

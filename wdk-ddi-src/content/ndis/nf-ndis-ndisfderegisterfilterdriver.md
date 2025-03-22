@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFDeregisterFilterDriver function"]
 ms.keywords: NdisFDeregisterFilterDriver, NdisFDeregisterFilterDriver function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_d158c9c1-1e83-464f-b00a-421b658c8c32.xml, ndis/NdisFDeregisterFilterDriver, netvista.ndisfderegisterfilterdriver
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisFDeregisterFilterDriver
 ---
 
-# NdisFDeregisterFilterDriver function
+# NdisFDeregisterFilterDriver function (ndis.h)
+
+
 
 
 ## -description

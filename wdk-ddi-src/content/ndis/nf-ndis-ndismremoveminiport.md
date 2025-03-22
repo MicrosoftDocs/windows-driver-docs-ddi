@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMRemoveMiniport function"]
 ms.keywords: NdisMRemoveMiniport, NdisMRemoveMiniport function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_54f3a264-7933-4dca-86f4-42652abe9a9a.xml, ndis/NdisMRemoveMiniport, netvista.ndismremoveminiport
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For NDIS 5.1 drivers, see    NdisMRemoveMiniport (NDIS   5.1).
@@ -41,7 +42,9 @@ api_name:
  - NdisMRemoveMiniport
 ---
 
-# NdisMRemoveMiniport function
+# NdisMRemoveMiniport function (ndis.h)
+
+
 
 
 ## -description

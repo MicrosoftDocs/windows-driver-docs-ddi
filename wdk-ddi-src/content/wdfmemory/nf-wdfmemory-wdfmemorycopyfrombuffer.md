@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfMemoryCopyFromBuffer function"]
 ms.keywords: DFMemoryObjectRef_5e7dd10c-6902-4965-b868-8f3ba25d4fbc.xml, WdfMemoryCopyFromBuffer, WdfMemoryCopyFromBuffer method, kmdf.wdfmemorycopyfrombuffer, wdf.wdfmemorycopyfrombuffer, wdfmemory/WdfMemoryCopyFromBuffer
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfMemoryCopyFromBuffer
 ---
 
-# WdfMemoryCopyFromBuffer function
+# WdfMemoryCopyFromBuffer function (wdfmemory.h)
+
+
 
 
 ## -description

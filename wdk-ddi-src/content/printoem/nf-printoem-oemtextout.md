@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMTextOut function"]
 ms.keywords: OEMTextOut, OEMTextOut function [Print Devices], print.oemtextout, print_unidrv-pscript_rendering_fda6f01f-5d37-424f-aa4f-bf7849c50c19.xml, printoem/OEMTextOut
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMTextOut
 ---
+
+# OEMTextOut function (printoem.h)
 
 ## -description
 

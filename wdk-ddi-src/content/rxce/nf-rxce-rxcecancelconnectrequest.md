@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeCancelConnectRequest function"]
 ms.keywords: RxCeCancelConnectRequest, RxCeCancelConnectRequest routine [Installable File System Drivers], ifsk.rxcecancelconnectrequest, rxce/RxCeCancelConnectRequest, rxref_b7978600-a1ca-4713-b170-bc1f365f2f96.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeCancelConnectRequest
 ---
 
-# RxCeCancelConnectRequest function
+# RxCeCancelConnectRequest function (rxce.h)
+
+
 
 
 ## -description

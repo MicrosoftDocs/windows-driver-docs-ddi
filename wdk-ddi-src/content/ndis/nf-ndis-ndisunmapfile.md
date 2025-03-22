@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisUnmapFile function"]
 ms.keywords: NdisUnmapFile, NdisUnmapFile function [Network Drivers Starting with Windows Vista], ndis/NdisUnmapFile, ndis_file_ref_5be88800-5866-4969-8534-2d76953bf4de.xml, netvista.ndisunmapfile
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisUnmapFile (NDIS 5.1)) in Windows   Vista. Supported for NDIS 5.1 drivers (see    NdisUnmapFile (NDIS 5.1)) in Windows   XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisUnmapFile
 ---
 
-# NdisUnmapFile function
+# NdisUnmapFile function (ndis.h)
+
+
 
 
 ## -description

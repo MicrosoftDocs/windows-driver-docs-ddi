@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL IOCTL"]
 ms.keywords: IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control, IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL control code [Buses], buses.ioctl_ucmtcpci_port_controller_set_control, ucmtcpciportcontrollerrequests/IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
 req.header: ucmtcpciportcontrollerrequests.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL
 ---
 
-# IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL IOCTL
+# IOCTL_UCMTCPCI_PORT_CONTROLLER_SET_CONTROL IOCTL (ucmtcpciportcontrollerrequests.h)
+
+
+
+
 
 
 ## -description

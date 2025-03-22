@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasSetValidListFloat function"]
 ms.keywords: image.wiassetvalidlistfloat, wiamdef/wiasSetValidListFloat, wiasFncs_ef1aa836-f63d-43e8-8378-22d37fbdc3a2.xml, wiasSetValidListFloat, wiasSetValidListFloat function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasSetValidListFloat
 ---
 
-# wiasSetValidListFloat function
+# wiasSetValidListFloat function (wiamdef.h)
+
+
 
 
 ## -description

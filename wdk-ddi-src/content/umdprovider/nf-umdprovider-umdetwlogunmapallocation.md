@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["UMDEtwLogUnmapAllocation function"]
 ms.keywords: UMDEtwLogUnmapAllocation, UMDEtwLogUnmapAllocation function [Display Devices], display.umdetwlogunmapallocation, umdprovider/UMDEtwLogUnmapAllocation
 req.header: umdprovider.h
+req.construct-type: function
 req.include-header: Umdprovider.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - UMDEtwLogUnmapAllocation
 ---
 
-# UMDEtwLogUnmapAllocation function
+# UMDEtwLogUnmapAllocation function (umdprovider.h)
+
+
 
 
 ## -description

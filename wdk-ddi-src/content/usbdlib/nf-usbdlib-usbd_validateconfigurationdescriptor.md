@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_ValidateConfigurationDescriptor function"]
 ms.keywords: USBD_ValidateConfigurationDescriptor, USBD_ValidateConfigurationDescriptor routine [Buses], buses.usbd_validateconfigurationdescriptor, usbdlib/USBD_ValidateConfigurationDescriptor
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: Usbdlib.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - USBD_ValidateConfigurationDescriptor
 ---
 
-# USBD_ValidateConfigurationDescriptor function
+# USBD_ValidateConfigurationDescriptor function (usbdlib.h)
+
+
 
 
 ## -description

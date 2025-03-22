@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortRequestTimer function"]
 ms.keywords: StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storage.storportrequesttimer, storport/StorPortRequestTimer
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - StorPortRequestTimer
 ---
 
-# StorPortRequestTimer function
+# StorPortRequestTimer function (storport.h)
+
+
 
 
 ## -description

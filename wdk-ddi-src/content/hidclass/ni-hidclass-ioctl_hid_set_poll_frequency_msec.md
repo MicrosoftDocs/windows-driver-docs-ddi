@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_SET_POLL_FREQUENCY_MSEC IOCTL"]
 ms.keywords: IOCTL_HID_SET_POLL_FREQUENCY_MSEC, IOCTL_HID_SET_POLL_FREQUENCY_MSEC control, IOCTL_HID_SET_POLL_FREQUENCY_MSEC control code [Human Input Devices], hid.ioctl_hid_set_poll_frequency_msec, hidclass/IOCTL_HID_SET_POLL_FREQUENCY_MSEC, hidioreq_6492a059-8c30-440f-ae98-95d071545408.xml
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_SET_POLL_FREQUENCY_MSEC
 ---
 
-# IOCTL_HID_SET_POLL_FREQUENCY_MSEC IOCTL
+# IOCTL_HID_SET_POLL_FREQUENCY_MSEC IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

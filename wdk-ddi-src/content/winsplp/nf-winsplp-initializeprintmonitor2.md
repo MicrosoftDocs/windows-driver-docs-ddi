@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["InitializePrintMonitor2 function"]
 ms.keywords: InitializePrintMonitor2, InitializePrintMonitor2 function [Print Devices], print.initializeprintmonitor2, spoolfnc_34b0ce7d-8bb5-4cb1-9539-cd3b1b0113f4.xml, winsplp/InitializePrintMonitor2
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - InitializePrintMonitor2
 ---
 
-# InitializePrintMonitor2 function
+# InitializePrintMonitor2 function (winsplp.h)
+
+
 
 
 ## -description

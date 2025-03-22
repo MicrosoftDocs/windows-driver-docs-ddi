@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_IsInterfaceVersionSupported function"]
 ms.keywords: USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported routine [Buses], buses.usbd_isusbdinterfaceversionsupported, usbdlib/USBD_IsInterfaceVersionSupported
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_IsInterfaceVersionSupported
 ---
 
-# USBD_IsInterfaceVersionSupported function
+# USBD_IsInterfaceVersionSupported function (usbdlib.h)
+
+
 
 
 ## -description

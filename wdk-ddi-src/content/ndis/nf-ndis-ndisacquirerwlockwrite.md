@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAcquireRWLockWrite function"]
 ms.keywords: NdisAcquireRWLockWrite, NdisAcquireRWLockWrite function [Network Drivers Starting with Windows Vista], ndis/NdisAcquireRWLockWrite, ndis_processor_group_ref_f957b48a-4c09-4348-897c-51813ede9b19.xml, netvista.ndisacquirerwlockwrite
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisAcquireRWLockWrite
 ---
 
-# NdisAcquireRWLockWrite function
+# NdisAcquireRWLockWrite function (ndis.h)
+
+
 
 
 ## -description

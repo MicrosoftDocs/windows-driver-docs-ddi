@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WmiFireEvent function"]
 ms.keywords: WmiFireEvent, WmiFireEvent routine [Kernel-Mode Driver Architecture], k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, kernel.wmifireevent, wmilib/WmiFireEvent
 req.header: wmilib.h
+req.construct-type: function
 req.include-header: Wmilib.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - WmiFireEvent
 ---
 
-# WmiFireEvent function
+# WmiFireEvent function (wmilib.h)
+
+
 
 
 ## -description

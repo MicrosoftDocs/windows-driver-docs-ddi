@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetLeadingEdgeStreamPointer function"]
 ms.keywords: KsPinGetLeadingEdgeStreamPointer, KsPinGetLeadingEdgeStreamPointer function [Streaming Media Devices], avfunc_0eb1faec-c090-4647-8306-84cff42ddf9c.xml, ks/KsPinGetLeadingEdgeStreamPointer, stream.kspingetleadingedgestreampointer
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetLeadingEdgeStreamPointer
 ---
 
-# KsPinGetLeadingEdgeStreamPointer function
+# KsPinGetLeadingEdgeStreamPointer function (ks.h)
+
+
 
 
 ## -description

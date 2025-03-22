@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["WWAN_SAR_BACKOFF_STATE enumeration"]
 ms.keywords: _WWAN_SAR_BACKOFF_STATE, WWAN_SAR_BACKOFF_STATE, *PWWAN_SAR_BACKOFF_STATE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_SAR_BACKOFF_STATE
 ---
 
-# _WWAN_SAR_BACKOFF_STATE enumeration
+# WWAN_SAR_BACKOFF_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

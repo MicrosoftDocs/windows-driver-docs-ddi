@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcCompletePendingPropertyRequest function"]
 ms.keywords: PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices], audio.pccompletependingpropertyrequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, portcls/PcCompletePendingPropertyRequest
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcCompletePendingPropertyRequest function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcCompletePendingPropertyRequest
 ---
 
-# PcCompletePendingPropertyRequest function
+# PcCompletePendingPropertyRequest function (portcls.h)
+
+
 
 
 ## -description

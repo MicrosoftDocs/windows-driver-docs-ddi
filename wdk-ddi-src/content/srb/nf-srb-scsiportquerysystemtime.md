@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortQuerySystemTime function"]
 ms.keywords: ScsiPortQuerySystemTime, ScsiPortQuerySystemTime routine [Storage Devices], scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, srb/ScsiPortQuerySystemTime, storage.scsiportquerysystemtime
 req.header: srb.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortQuerySystemTime
 ---
 
-# ScsiPortQuerySystemTime function
+# ScsiPortQuerySystemTime function (srb.h)
+
+
 
 
 ## -description

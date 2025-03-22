@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoMarkIrpPending function"]
 ms.keywords: IoMarkIrpPending, IoMarkIrpPending routine [Kernel-Mode Driver Architecture], k104_478903ab-e597-4df6-a66e-e0c1fbea49d9.xml, kernel.iomarkirppending, wdm/IoMarkIrpPending
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoMarkIrpPending
 ---
+
+# IoMarkIrpPending function (wdm.h)
 
 ## -description
 

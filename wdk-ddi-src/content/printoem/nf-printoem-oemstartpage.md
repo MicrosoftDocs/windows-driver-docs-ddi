@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMStartPage function"]
 ms.keywords: OEMStartPage, OEMStartPage function [Print Devices], print.oemstartpage, print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, printoem/OEMStartPage
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMStartPage
 ---
+
+# OEMStartPage function (printoem.h)
 
 ## -description
 

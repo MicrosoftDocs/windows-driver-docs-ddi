@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["StreamClassCallAtNewPriority function"]
 ms.keywords: StreamClassCallAtNewPriority, StreamClassCallAtNewPriority routine [Streaming Media Devices], strclass-routines_6335ceee-08a1-4078-a9ce-aaa15d8158cd.xml, stream.streamclasscallatnewpriority, strmini/StreamClassCallAtNewPriority
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - StreamClassCallAtNewPriority
 ---
+
+# StreamClassCallAtNewPriority function (strmini.h)
 
 ## -description
 

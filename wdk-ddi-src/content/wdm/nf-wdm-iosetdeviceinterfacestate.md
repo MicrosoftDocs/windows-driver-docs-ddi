@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoSetDeviceInterfaceState function"]
 ms.keywords: IoSetDeviceInterfaceState, IoSetDeviceInterfaceState routine [Kernel-Mode Driver Architecture], k104_da5493d0-6dd5-4404-a647-6c23825df29c.xml, kernel.iosetdeviceinterfacestate, wdm/IoSetDeviceInterfaceState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoSetDeviceInterfaceState
 ---
 
-# IoSetDeviceInterfaceState function
+# IoSetDeviceInterfaceState function (wdm.h)
+
+
 
 
 ## -description

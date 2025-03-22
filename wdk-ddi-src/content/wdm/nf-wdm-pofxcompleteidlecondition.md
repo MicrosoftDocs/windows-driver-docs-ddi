@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxCompleteIdleCondition function"]
 ms.keywords: PoFxCompleteIdleCondition, PoFxCompleteIdleCondition routine [Kernel-Mode Driver Architecture], kernel.pofxcompleteidlecondition, wdm/PoFxCompleteIdleCondition
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxCompleteIdleCondition
 ---
 
-# PoFxCompleteIdleCondition function
+# PoFxCompleteIdleCondition function (wdm.h)
+
+
 
 
 ## -description

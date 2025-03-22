@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeUnregisterLogonSessionTerminatedRoutine function"]
 ms.keywords: SeUnregisterLogonSessionTerminatedRoutine, SeUnregisterLogonSessionTerminatedRoutine routine [Installable File System Drivers], ifsk.seunregisterlogonsessionterminatedroutine, ntifs/SeUnregisterLogonSessionTerminatedRoutine, seref_dbf0d7bc-c252-4805-99e1-075ce9e08ddc.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeUnregisterLogonSessionTerminatedRoutine
 ---
 
-# SeUnregisterLogonSessionTerminatedRoutine function
+# SeUnregisterLogonSessionTerminatedRoutine function (ntifs.h)
+
+
 
 
 ## -description

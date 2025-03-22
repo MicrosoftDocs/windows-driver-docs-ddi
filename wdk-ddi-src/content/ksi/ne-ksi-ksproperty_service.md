@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSPROPERTY_SERVICE enumeration"]
 ms.keywords: KSPROPERTY_SERVICE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE_MERIT, ksi/KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE_BUILDCACHE, ksi/KSPROPERTY_SERVICE_MERIT, stream.ksproperty_service
 req.header: ksi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSPROPERTY_SERVICE
 ---
 
-# KSPROPERTY_SERVICE enumeration
+# KSPROPERTY_SERVICE enumeration (ksi.h)
+
+
 
 
 ## -description

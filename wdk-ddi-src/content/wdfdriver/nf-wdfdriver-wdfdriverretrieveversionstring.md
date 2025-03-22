@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDriverRetrieveVersionString function"]
 ms.keywords: DFDriverObjectRef_42298067-6221-4d0c-af6b-8579f95d2047.xml, WdfDriverRetrieveVersionString, WdfDriverRetrieveVersionString method, kmdf.wdfdriverretrieveversionstring, wdf.wdfdriverretrieveversionstring, wdfdriver/WdfDriverRetrieveVersionString
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDriverRetrieveVersionString
 ---
 
-# WdfDriverRetrieveVersionString function
+# WdfDriverRetrieveVersionString function (wdfdriver.h)
+
+
 
 
 ## -description

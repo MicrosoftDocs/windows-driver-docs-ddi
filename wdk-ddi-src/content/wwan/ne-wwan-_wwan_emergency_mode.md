@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_EMERGENCY_MODE enumeration"]
 ms.keywords: "*PWWAN_EMERGENCY_MODE, PWWAN_EMERGENCY_MODE, PWWAN_EMERGENCY_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_EMERGENCY_MODE, WWAN_EMERGENCY_MODE enumeration [Network Drivers Starting with Windows Vista], WwanEmergencyModeMax, WwanEmergencyModeOff, WwanEmergencyModeOn, WwanRef_8b2029ff-7d10-4f36-a4c0-6b41f464b726.xml, _WWAN_EMERGENCY_MODE, netvista.wwan_emergency_mode, wwan/PWWAN_EMERGENCY_MODE, wwan/WWAN_EMERGENCY_MODE, wwan/WwanEmergencyModeMax, wwan/WwanEmergencyModeOff, wwan/WwanEmergencyModeOn"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_EMERGENCY_MODE
 ---
 
-# _WWAN_EMERGENCY_MODE enumeration
+# WWAN_EMERGENCY_MODE enumeration (wwan.h)
+
+
 
 
 ## -description

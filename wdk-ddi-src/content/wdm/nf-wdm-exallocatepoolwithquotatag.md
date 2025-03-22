@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["ExAllocatePoolWithQuotaTag function"]
 ms.keywords: ExAllocatePoolWithQuotaTag, ExAllocatePoolWithQuotaTag routine [Kernel-Mode Driver Architecture], k102_70106c3b-0d33-4fa7-be6a-2ac42cf3cbfe.xml, kernel.exallocatepoolwithquotatag, wdm/ExAllocatePoolWithQuotaTag
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ExAllocatePoolWithQuotaTag
 ---
+
+# ExAllocatePoolWithQuotaTag function (wdm.h)
 
 
 ## -description

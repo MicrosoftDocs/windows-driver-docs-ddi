@@ -8,6 +8,7 @@ ms.date: 03/04/2022
 keywords: ["FltDoCompletionProcessingWhenSafe function"]
 ms.keywords: FltApiRef_a_to_d_4e8cd7a1-1469-4ae1-97a9-51a184d0ad5a.xml, FltDoCompletionProcessingWhenSafe, FltDoCompletionProcessingWhenSafe routine [Installable File System Drivers], fltkernel/FltDoCompletionProcessingWhenSafe, ifsk.fltdocompletionprocessingwhensafe
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems. Not available in Windows 2000 SP4 and earlier operating systems.
@@ -41,7 +42,9 @@ api_name:
  - FltDoCompletionProcessingWhenSafe
 ---
 
-# FltDoCompletionProcessingWhenSafe function
+# FltDoCompletionProcessingWhenSafe function (fltkernel.h)
+
+
 
 ## -description
 

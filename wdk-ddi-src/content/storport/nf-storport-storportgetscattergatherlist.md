@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetScatterGatherList function"]
 ms.keywords: StorPortGetScatterGatherList, StorPortGetScatterGatherList routine [Storage Devices], storage.storportgetscattergatherlist, storport/StorPortGetScatterGatherList, storprt_1736d395-ccc8-42ec-8d84-a9d3b7656996.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortGetScatterGatherList
 ---
 
-# StorPortGetScatterGatherList function
+# StorPortGetScatterGatherList function (storport.h)
+
+
 
 
 ## -description

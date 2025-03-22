@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxControllerSetIdStrings function"]
 ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, ucxcontroller/UcxControllerSetIdStrings
 req.header: ucxcontroller.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - UcxControllerSetIdStrings
 ---
 
-# UcxControllerSetIdStrings function
+# UcxControllerSetIdStrings function (ucxcontroller.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsReadFile function"]
 ms.keywords: KsReadFile, KsReadFile function [Streaming Media Devices], ks/KsReadFile, ksfunc_9264bdad-2acc-46fe-9ca3-d006bf6c3e23.xml, stream.ksreadfile
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsReadFile
 ---
+
+# KsReadFile function (ks.h)
 
 ## -description
 

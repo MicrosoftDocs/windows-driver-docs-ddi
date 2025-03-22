@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltApplyPriorityInfoThread function"]
 ms.keywords: FltApiRef_a_to_d_446351ed-afa7-4548-8197-f9bf92d671e5.xml, FltApplyPriorityInfoThread, FltApplyPriorityInfoThread routine [Installable File System Drivers], fltkernel/FltApplyPriorityInfoThread, ifsk.fltapplypriorityinfothread
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Vista and later versions of Windows operating systems.
@@ -41,7 +42,9 @@ api_name:
  - FltApplyPriorityInfoThread
 ---
 
-# FltApplyPriorityInfoThread function
+# FltApplyPriorityInfoThread function (fltkernel.h)
+
+
 
 
 ## -description

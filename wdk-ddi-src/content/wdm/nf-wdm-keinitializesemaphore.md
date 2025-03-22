@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeInitializeSemaphore function"]
 ms.keywords: KeInitializeSemaphore, KeInitializeSemaphore routine [Kernel-Mode Driver Architecture], k105_a966274e-6afe-4569-ae7c-65dccbb3f1dc.xml, kernel.keinitializesemaphore, wdm/KeInitializeSemaphore
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeSemaphore
 ---
 
-# KeInitializeSemaphore function
+# KeInitializeSemaphore function (wdm.h)
+
+
 
 
 ## -description

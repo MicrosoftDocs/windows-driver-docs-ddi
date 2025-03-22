@@ -9,6 +9,7 @@ f1_keywords:
  - "wdm/DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE"
  - "DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE"
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header:
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -28,6 +29,8 @@ api_name:
  - DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE
 targetos: Windows
 ---
+
+# DMA_COMMON_BUFFER_EXTENDED_CONFIGURATION_TYPE enumeration (wdm.h)
 
 ## -description
 

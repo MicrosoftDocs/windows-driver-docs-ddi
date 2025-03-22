@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinGetNextSiblingPin function"]
 ms.keywords: KsPinGetNextSiblingPin, KsPinGetNextSiblingPin function [Streaming Media Devices], avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, ks/KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinGetNextSiblingPin
 ---
 
-# KsPinGetNextSiblingPin function
+# KsPinGetNextSiblingPin function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxUnregisterSequenceHandler function"]
 ms.keywords: NfcCxUnregisterSequenceHandler, NfcCxUnregisterSequenceHandler method [Near-Field Proximity Drivers], nfccx/NfcCxUnregisterSequenceHandler, nfpdrivers._nfccxunregistersequencehandler
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxUnregisterSequenceHandler
 ---
 
-# NfcCxUnregisterSequenceHandler function
+# NfcCxUnregisterSequenceHandler function (nfccx.h)
+
+
 
 
 ## -description

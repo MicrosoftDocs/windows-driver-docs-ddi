@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAcquireDevice function"]
 ms.keywords: KsAcquireDevice, KsAcquireDevice function [Streaming Media Devices], avfunc_396e6da2-9423-43ae-8a2b-24655a43037b.xml, ks/KsAcquireDevice, stream.ksacquiredevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsAcquireDevice
 ---
 
-# KsAcquireDevice function
+# KsAcquireDevice function (ks.h)
+
+
 
 
 ## -description

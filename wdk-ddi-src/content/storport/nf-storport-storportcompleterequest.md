@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortCompleteRequest function"]
 ms.keywords: StorPortCompleteRequest, StorPortCompleteRequest routine [Storage Devices], storage.storportcompleterequest, storport/StorPortCompleteRequest, storprt_c91d5dfe-31de-4804-a0be-c2bab228fbb9.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortCompleteRequest
 ---
 
-# StorPortCompleteRequest function
+# StorPortCompleteRequest function (storport.h)
+
+
 
 
 ## -description

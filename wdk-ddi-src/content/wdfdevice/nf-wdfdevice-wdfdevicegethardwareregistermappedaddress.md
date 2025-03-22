@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceGetHardwareRegisterMappedAddress function"]
 ms.keywords: WdfDeviceGetHardwareRegisterMappedAddress, WdfDeviceGetHardwareRegisterMappedAddress function, wdf.wdfdevicegethardwareregistermappedaddress, wdfdevice/WdfDeviceGetHardwareRegisterMappedAddress
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WdfDeviceGetHardwareRegisterMappedAddress
 ---
 
-# WdfDeviceGetHardwareRegisterMappedAddress function
+# WdfDeviceGetHardwareRegisterMappedAddress function (wdfdevice.h)
+
+
 
 
 ## -description

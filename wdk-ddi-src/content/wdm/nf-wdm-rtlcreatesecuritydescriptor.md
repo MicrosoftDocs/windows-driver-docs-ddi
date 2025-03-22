@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCreateSecurityDescriptor function"]
 ms.keywords: RtlCreateSecurityDescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, kernel.rtlcreatesecuritydescriptor, wdm/RtlCreateSecurityDescriptor
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlCreateSecurityDescriptor
 ---
 
-# RtlCreateSecurityDescriptor function
+# RtlCreateSecurityDescriptor function (wdm.h)
+
+
 
 
 ## -description

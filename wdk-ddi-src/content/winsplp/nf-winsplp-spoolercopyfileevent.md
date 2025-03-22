@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["SpoolerCopyFileEvent function"]
 ms.keywords: SpoolerCopyFileEvent, SpoolerCopyFileEvent function [Print Devices], poprfnc_e85f9707-18cf-4cd5-aece-ebcd5fd09270.xml, print.spoolercopyfileevent, winsplp/SpoolerCopyFileEvent
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SpoolerCopyFileEvent
 ---
+
+# SpoolerCopyFileEvent function (winsplp.h)
 
 ## -description
 

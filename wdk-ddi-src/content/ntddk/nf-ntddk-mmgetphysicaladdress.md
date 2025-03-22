@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmGetPhysicalAddress function"]
 ms.keywords: MmGetPhysicalAddress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, kernel.mmgetphysicaladdress, ntddk/MmGetPhysicalAddress
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmGetPhysicalAddress
 ---
 
-# MmGetPhysicalAddress function
+# MmGetPhysicalAddress function (ntddk.h)
+
+
 
 
 ## -description

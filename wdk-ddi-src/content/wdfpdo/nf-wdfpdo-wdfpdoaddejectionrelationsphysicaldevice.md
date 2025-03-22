@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoAddEjectionRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_c13c9c42-f704-4042-b70d-952ddb8a27b8.xml, WdfPdoAddEjectionRelationsPhysicalDevice, WdfPdoAddEjectionRelationsPhysicalDevice method, kmdf.wdfpdoaddejectionrelationsphysicaldevice, wdf.wdfpdoaddejectionrelationsphysicaldevice, wdfpdo/WdfPdoAddEjectionRelationsPhysicalDevice
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoAddEjectionRelationsPhysicalDevice
 ---
 
-# WdfPdoAddEjectionRelationsPhysicalDevice function
+# WdfPdoAddEjectionRelationsPhysicalDevice function (wdfpdo.h)
+
+
 
 
 ## -description

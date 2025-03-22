@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_DisableNotifications function"]
 ms.keywords: RIL_DisableNotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], netvista.ril_disablenotifications, rilapi/RIL_DisableNotifications
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_DisableNotifications
 ---
 
-# RIL_DisableNotifications function
+# RIL_DisableNotifications function (rilapi.h)
+
+
 
 
 ## -description

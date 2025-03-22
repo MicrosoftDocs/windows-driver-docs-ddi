@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration"]
 ms.keywords: D3DWDDM2_6DDI_SCANOUT_FLAGS, D3DWDDM2_6DDI_SCANOUT_FLAGS,
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -31,7 +32,9 @@ api_name:
  - D3DWDDM2_6DDI_SCANOUT_FLAGS
 ---
 
-# D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration
+# D3DWDDM2_6DDI_SCANOUT_FLAGS enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

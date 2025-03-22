@@ -4,6 +4,7 @@ title: D3DKMT_PNP_KEY_TYPE (d3dkmthk.h)
 description: Learn more about the D3DKMT_PNP_KEY_TYPE enumeration.
 ms.date: 02/06/2025
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703 (WDDM 2.2)
@@ -40,7 +41,9 @@ api_name:
  - D3DKMT_PNP_KEY_TYPE
 ---
 
-# D3DKMT_PNP_KEY_TYPE enumeration
+# D3DKMT_PNP_KEY_TYPE enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["EtwRegister function"]
 ms.keywords: EtwRegister, EtwRegister function [Driver Development Tools], devtest.etwregister, etw_km_45f383e4-ef13-4662-b80e-2fc48b6755ed.xml, wdm/EtwRegister
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - EtwRegister
 ---
 
-# EtwRegister function
+# EtwRegister function (wdm.h)
+
+
 
 
 ## -description

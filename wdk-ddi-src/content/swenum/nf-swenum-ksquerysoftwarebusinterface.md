@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsQuerySoftwareBusInterface function"]
 ms.keywords: KsQuerySoftwareBusInterface, KsQuerySoftwareBusInterface function [Streaming Media Devices], ksfunc_58ad39a9-6e7b-416b-9ca6-a5a92bb0a7fc.xml, stream.ksquerysoftwarebusinterface, swenum/KsQuerySoftwareBusInterface
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KsQuerySoftwareBusInterface
 ---
 
-# KsQuerySoftwareBusInterface function
+# KsQuerySoftwareBusInterface function (swenum.h)
+
+
 
 
 ## -description

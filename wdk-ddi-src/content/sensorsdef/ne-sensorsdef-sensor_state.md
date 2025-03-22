@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SENSOR_STATE enumeration"]
 ms.keywords: SENSOR_STATE, SENSOR_STATE enumeration [Sensor Devices], SensorState_Active, SensorState_Error, SensorState_Idle, SensorState_Initializing, sensors.sensor_state, sensorsdef/SENSOR_STATE, sensorsdef/SensorState_Active, sensorsdef/SensorState_Error, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Initializing
 req.header: sensorsdef.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - SENSOR_STATE
 ---
 
-# SENSOR_STATE enumeration
+# SENSOR_STATE enumeration (sensorsdef.h)
+
+
 
 
 ## -description

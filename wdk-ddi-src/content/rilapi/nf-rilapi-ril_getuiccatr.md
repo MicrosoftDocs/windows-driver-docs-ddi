@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetUiccATR function"]
 ms.keywords: RIL_GetUiccATR, RIL_GetUiccATR method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccatr, rilapi/RIL_GetUiccATR
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetUiccATR
 ---
 
-# RIL_GetUiccATR function
+# RIL_GetUiccATR function (rilapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VslDeleteSecureSection function"]
 ms.keywords: VslDeleteSecureSection, VslDeleteSecureSection function [Kernel-Mode Driver Architecture], kernel.vsldeletesecuresection, wdm/VslDeleteSecureSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -39,7 +40,9 @@ api_name:
  - VslDeleteSecureSection
 ---
 
-# VslDeleteSecureSection function
+# VslDeleteSecureSection function (wdm.h)
+
+
 
 
 ## -description

@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_REFS_DEALLOCATE_RANGES_EX
 ---
 
-# FSCTL_REFS_DEALLOCATE_RANGES_EX ioctl (ntifs.h)
+# FSCTL_REFS_DEALLOCATE_RANGES_EX IOCTL (ntifs.h)
+
+
 
 ## -description
 

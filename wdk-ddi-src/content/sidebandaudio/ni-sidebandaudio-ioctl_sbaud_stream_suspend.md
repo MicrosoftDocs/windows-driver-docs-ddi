@@ -5,6 +5,7 @@ description: "On transition below KSSTATE_RUN, send IOCTL_SBAUD_STREAM_SUSPEND."
 ms.date: 06/28/2023
 keywords: ["IOCTL_SBAUD_STREAM_SUSPEND IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_STREAM_SUSPEND
 ---
 
-# IOCTL_SBAUD_STREAM_SUSPEND IOCTL
+# IOCTL_SBAUD_STREAM_SUSPEND IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/10/2022
 keywords: ["OEMPDriverEvent function"]
 ms.keywords: OEMPDriverEvent, OEMPDriverEvent function [Print Devices], print.oempdriverevent, print_obsoletefunctions_c7348f27-998e-466b-97ad-b3175cfea28a.xml, printoem/OEMPDriverEvent
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMPDriverEvent
 ---
+
+# OEMPDriverEvent function (printoem.h)
 
 ## -description
 

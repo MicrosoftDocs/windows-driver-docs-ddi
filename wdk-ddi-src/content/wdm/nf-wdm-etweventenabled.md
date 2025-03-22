@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["EtwEventEnabled function"]
 ms.keywords: EtwEventEnabled, EtwEventEnabled function [Driver Development Tools], devtest.etweventenabled, etw_km_4a6453a7-cff8-4941-83fd-8184772ef161.xml, wdm/EtwEventEnabled
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - EtwEventEnabled
 ---
 
-# EtwEventEnabled function
+# EtwEventEnabled function (wdm.h)
+
+
 
 
 ## -description

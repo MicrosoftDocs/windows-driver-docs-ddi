@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoInitSetDefaultChildListConfig function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, WdfFdoInitSetDefaultChildListConfig, WdfFdoInitSetDefaultChildListConfig method, kmdf.wdffdoinitsetdefaultchildlistconfig, wdf.wdffdoinitsetdefaultchildlistconfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfFdoInitSetDefaultChildListConfig
 ---
 
-# WdfFdoInitSetDefaultChildListConfig function
+# WdfFdoInitSetDefaultChildListConfig function (wdffdo.h)
+
+
 
 
 ## -description

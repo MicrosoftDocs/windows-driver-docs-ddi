@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsReleaseControl function"]
 ms.keywords: KsReleaseControl, KsReleaseControl function [Streaming Media Devices], avfunc_b568770e-1fe0-47d5-8fd4-ac210cd4be30.xml, ks/KsReleaseControl, stream.ksreleasecontrol
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsReleaseControl
 ---
 
-# KsReleaseControl function
+# KsReleaseControl function (ks.h)
+
+
 
 
 ## -description

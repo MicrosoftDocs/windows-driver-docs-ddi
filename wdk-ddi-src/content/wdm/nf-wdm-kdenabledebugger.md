@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["KdEnableDebugger function"]
 ms.keywords: DebugFns_080ae06e-7e0c-45e1-a470-22e99922eb72.xml, KdEnableDebugger, KdEnableDebugger routine [Driver Development Tools], devtest.kdenabledebugger, wdm/KdEnableDebugger
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KdEnableDebugger
 ---
 
-# KdEnableDebugger function
+# KdEnableDebugger function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/05/2022
 keywords: ["OEMAlphaBlend function"]
 ms.keywords: OEMAlphaBlend, OEMAlphaBlend function [Print Devices], print.oemalphablend, print_unidrv-pscript_rendering_135f0675-e5ff-4e8f-94ad-1ea656cc4c46.xml, printoem/OEMAlphaBlend
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMAlphaBlend
 ---
+
+# OEMAlphaBlend function (printoem.h)
 
 ## -description
 

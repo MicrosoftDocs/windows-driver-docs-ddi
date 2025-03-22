@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_GET_MANUFACTURER_STRING IOCTL"]
 ms.keywords: IOCTL_HID_GET_MANUFACTURER_STRING, IOCTL_HID_GET_MANUFACTURER_STRING control, IOCTL_HID_GET_MANUFACTURER_STRING control code [Human Input Devices], hid.ioctl_hid_get_manufacturer_string, hidclass/IOCTL_HID_GET_MANUFACTURER_STRING, hidioreq_05724f70-c708-4f9a-ba51-fa2edabf56ed.xml
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_GET_MANUFACTURER_STRING
 ---
 
-# IOCTL_HID_GET_MANUFACTURER_STRING IOCTL
+# IOCTL_HID_GET_MANUFACTURER_STRING IOCTL (hidclass.h)
+
+
+
+
 
 ## -description
 

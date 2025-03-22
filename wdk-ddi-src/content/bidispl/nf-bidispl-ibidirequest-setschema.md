@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiRequest::SetSchema"]
 ms.keywords: IBidiRequest interface [Print Devices],SetSchema method, IBidiRequest.SetSchema, IBidiRequest::SetSchema, SetSchema, SetSchema method [Print Devices], SetSchema method [Print Devices],IBidiRequest interface, _win32_IBidiRequest_SetSchema, bidispl/IBidiRequest::SetSchema, gdi.ibidirequest_ibidirequest__setschema, print.ibidirequest_ibidirequest__setschema
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiRequest::SetSchema
 ---
+
+# IBidiRequest::SetSchema function (bidispl.h)
 
 ## -description
 

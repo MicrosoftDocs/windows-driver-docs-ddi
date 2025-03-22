@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterGetOuterUnknown function"]
 ms.keywords: KsFilterGetOuterUnknown, KsFilterGetOuterUnknown function [Streaming Media Devices], avfunc_32947579-50ca-4942-a594-b991c42d6681.xml, ks/KsFilterGetOuterUnknown, stream.ksfiltergetouterunknown
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsFilterGetOuterUnknown
 ---
 
-# KsFilterGetOuterUnknown function
+# KsFilterGetOuterUnknown function (ks.h)
+
+
 
 
 ## -description

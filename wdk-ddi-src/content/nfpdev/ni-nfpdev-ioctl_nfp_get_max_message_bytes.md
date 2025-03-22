@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_NFP_GET_MAX_MESSAGE_BYTES IOCTL"]
 ms.keywords: IOCTL_NFP_GET_MAX_MESSAGE_BYTES, IOCTL_NFP_GET_MAX_MESSAGE_BYTES control, IOCTL_NFP_GET_MAX_MESSAGE_BYTES control code [Near-Field Proximity Drivers], _IOCTL_NFP_GET_MAX_MESSAGE_BYTES, nfpdev/IOCTL_NFP_GET_MAX_MESSAGE_BYTES, nfpdrivers.ioctl_nfp_get_max_message_bytes
 req.header: nfpdev.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_NFP_GET_MAX_MESSAGE_BYTES
 ---
 
-# IOCTL_NFP_GET_MAX_MESSAGE_BYTES IOCTL
+# IOCTL_NFP_GET_MAX_MESSAGE_BYTES IOCTL (nfpdev.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxReleaseFcbResourceForThreadInMRx function"]
 ms.keywords: RxReleaseFcbResourceForThreadInMRx, RxReleaseFcbResourceForThreadInMRx function [Installable File System Drivers], ifsk.rxreleasefcbresourceforthreadinmrx, mrxfcb/RxReleaseFcbResourceForThreadInMRx, rxref_bed9a8b0-1761-413e-b816-599b51a7f305.xml
 req.header: mrxfcb.h
+req.construct-type: function
 req.include-header: Mrxfcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: RxReleaseFcbResourceForThreadInMRx is only available on Windows Server 2003 SP1 and later.
@@ -40,7 +41,9 @@ api_name:
  - RxReleaseFcbResourceForThreadInMRx
 ---
 
-# RxReleaseFcbResourceForThreadInMRx function
+# RxReleaseFcbResourceForThreadInMRx function (mrxfcb.h)
+
+
 
 
 ## -description

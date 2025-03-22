@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsEcpFromUserMode function"]
 ms.keywords: FsRtlIsEcpFromUserMode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, ifsk.fsrtlisecpfromusermode, ntifs/FsRtlIsEcpFromUserMode
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: FsRtlIsEcpFromUserMode is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIsEcpFromUserMode
 ---
 
-# FsRtlIsEcpFromUserMode function
+# FsRtlIsEcpFromUserMode function (ntifs.h)
+
+
 
 
 ## -description

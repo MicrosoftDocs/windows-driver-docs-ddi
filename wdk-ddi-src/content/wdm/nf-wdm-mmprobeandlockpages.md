@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmProbeAndLockPages function"]
 ms.keywords: MmProbeAndLockPages, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, kernel.mmprobeandlockpages, wdm/MmProbeAndLockPages
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmProbeAndLockPages
 ---
 
-# MmProbeAndLockPages function
+# MmProbeAndLockPages function (wdm.h)
+
+
 
 
 ## -description

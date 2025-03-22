@@ -4,6 +4,7 @@ title: D3DDDI_QUERYADAPTERTYPE (d3dumddi.h)
 description: Learn more about the D3DDDI_QUERYADAPTERTYPE enumeration.
 ms.date: 02/06/2025
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803 (WDDM 2.4)
@@ -31,7 +32,9 @@ api_name:
  - D3DDDI_QUERYADAPTERTYPE
 ---
 
-# D3DDDI_QUERYADAPTERTYPE enumeration
+# D3DDDI_QUERYADAPTERTYPE enumeration (d3dumddi.h)
+
+
 
 ## -description
 

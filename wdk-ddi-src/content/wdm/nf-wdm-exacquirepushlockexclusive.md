@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["ExAcquirePushLockExclusive macro"]
 ms.keywords: ExAcquirePushLockExclusive
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,11 @@ api_name:
  - ExAcquirePushLockExclusive
 ---
 
-# ExAcquirePushLockExclusive macro
+# ExAcquirePushLockExclusive macro (wdm.h)
+
+
+
+
 
 
 ## -description

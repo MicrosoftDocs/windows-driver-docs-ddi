@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_PPM_CONFIG_INIT function"]
 ms.keywords: UCMUCSI_PPM_CONFIG_INIT
 req.header: ucmucsippm.h
+req.construct-type: function
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UCMUCSI_PPM_CONFIG_INIT
 ---
 
-# UCMUCSI_PPM_CONFIG_INIT function
+# UCMUCSI_PPM_CONFIG_INIT function (ucmucsippm.h)
+
+
 
 
 ## -description

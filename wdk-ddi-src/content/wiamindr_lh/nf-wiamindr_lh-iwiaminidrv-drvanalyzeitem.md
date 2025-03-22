@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvAnalyzeItem"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvAnalyzeItem method, IWiaMiniDrv.drvAnalyzeItem, IWiaMiniDrv::drvAnalyzeItem, MiniDrv_dfa93eeb-ea39-44b6-b465-5bff0f056763.xml, drvAnalyzeItem, drvAnalyzeItem method [Imaging Devices], drvAnalyzeItem method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvanalyzeitem, wiamindr_lh/IWiaMiniDrv::drvAnalyzeItem
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvAnalyzeItem
 ---
+
+# IWiaMiniDrv::drvAnalyzeItem function (wiamindr_lh.h)
 
 ## -description
 

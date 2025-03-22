@@ -7,6 +7,7 @@ keywords: ["CollectionsListMarshall function"]
 tech.root: sensors
 ms.keywords: CollectionsListMarshall
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListMarshall
 ---
 
-# CollectionsListMarshall function
+# CollectionsListMarshall function (sensorsutils.h)
+
+
 
 
 ## -description

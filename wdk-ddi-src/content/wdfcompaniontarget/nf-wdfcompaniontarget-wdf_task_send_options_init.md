@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TASK_SEND_OPTIONS_INIT function"]
 ms.keywords: WDF_TASK_SEND_OPTIONS_INIT, WDF_TASK_SEND_OPTIONS_INIT method, wdf.wdf_task_send_options_init, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_INIT
 req.header: wdfcompaniontarget.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_TASK_SEND_OPTIONS_INIT
 ---
 
-# WDF_TASK_SEND_OPTIONS_INIT function
+# WDF_TASK_SEND_OPTIONS_INIT function (wdfcompaniontarget.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortWritePortBufferUchar macro"]
 ms.keywords: ScsiPortWritePortBufferUchar, ScsiPortWritePortBufferUchar routine [Storage Devices], scsiprt_19277863-04fb-4f72-85f5-9bc877bd83c1.xml, srb/ScsiPortWritePortBufferUchar, storage.scsiportwriteportbufferuchar
 req.header: storport.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - ScsiPortWritePortBufferUchar
 ---
 
-# ScsiPortWritePortBufferUchar macro
+# ScsiPortWritePortBufferUchar macro (storport.h)
+
+
+
+
 
 
 ## -description

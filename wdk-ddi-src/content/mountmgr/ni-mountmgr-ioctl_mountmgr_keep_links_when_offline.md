@@ -7,6 +7,7 @@ ms.date: 06/04/2024
 keywords: ["IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE IOCTL"]
 ms.keywords: IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE, IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE control, IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE control code [Storage Devices], k307_7502107c-0301-45d9-a0b6-8aa6e9e231c9.xml, mountmgr/IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE, storage.ioctl_mountmgr_keep_links_when_offline
 req.header: mountmgr.h
+req.construct-type: ioctl
 req.include-header: Mountmgr.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE
 ---
+
+# IOCTL_MOUNTMGR_KEEP_LINKS_WHEN_OFFLINE IOCTL (mountmgr.h)
+
+
 
 ## -description
 

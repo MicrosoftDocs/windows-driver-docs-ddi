@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxDeviceInitConfig function"]
 ms.keywords: NfcCxDeviceInitConfig, NfcCxDeviceInitConfig function [Near-Field Proximity Drivers], nfccx/NfcCxDeviceInitConfig, nfpdrivers._nfccxdeviceinitconfig_
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxDeviceInitConfig
 ---
 
-# NfcCxDeviceInitConfig function
+# NfcCxDeviceInitConfig function (nfccx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KoRelease function"]
 ms.keywords: KoRelease, KoRelease function [Streaming Media Devices], kcom/KoRelease, ksfunc_5a688121-dc73-48fe-8b85-1f6c14fb3a22.xml, stream.korelease
 req.header: kcom.h
+req.construct-type: function
 req.include-header: Kcom.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KoRelease
 ---
 
-# KoRelease function
+# KoRelease function (kcom.h)
+
+
 
 
 ## -description

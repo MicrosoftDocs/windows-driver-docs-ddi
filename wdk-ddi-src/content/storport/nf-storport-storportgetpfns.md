@@ -5,6 +5,7 @@ description: Learn more about the StorPortGetPfns function.
 tech.root: storage
 ms.date: 10/01/2024
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - StorPortGetPfns
 ---
 
-# StorPortGetPfns function
+# StorPortGetPfns function (storport.h)
+
+
 
 ## -description
 

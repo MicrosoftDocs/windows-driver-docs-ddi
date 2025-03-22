@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortReadRegisterBufferUchar function"]
 ms.keywords: AtaPortReadRegisterBufferUchar, AtaPortReadRegisterBufferUchar routine [Storage Devices], atartns_5c57e652-3b37-4673-b5cf-fbcdf38853ad.xml, irb/AtaPortReadRegisterBufferUchar, storage.ataportreadregisterbufferuchar
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortReadRegisterBufferUchar
 ---
 
-# AtaPortReadRegisterBufferUchar function
+# AtaPortReadRegisterBufferUchar function (irb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSetEvent function"]
 ms.keywords: VideoPortSetEvent, VideoPortSetEvent function [Display Devices], VideoPort_Functions_8efce2e2-f5e7-402a-a5bf-03c23ac85992.xml, display.videoportsetevent, video/VideoPortSetEvent
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortSetEvent
 ---
 
-# VideoPortSetEvent function
+# VideoPortSetEvent function (video.h)
+
+
 
 
 ## -description

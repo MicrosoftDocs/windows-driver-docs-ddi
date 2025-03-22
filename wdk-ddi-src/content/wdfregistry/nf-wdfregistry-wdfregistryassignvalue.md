@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryAssignValue function"]
 ms.keywords: DFRegKeyObjectRef_b585a896-046f-4730-8f1d-bba4a2479772.xml, WdfRegistryAssignValue, WdfRegistryAssignValue method, kmdf.wdfregistryassignvalue, wdf.wdfregistryassignvalue, wdfregistry/WdfRegistryAssignValue
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryAssignValue
 ---
 
-# WdfRegistryAssignValue function
+# WdfRegistryAssignValue function (wdfregistry.h)
+
+
 
 
 ## -description

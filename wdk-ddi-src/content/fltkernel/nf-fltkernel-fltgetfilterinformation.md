@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetFilterInformation function"]
 ms.keywords: FltApiRef_e_to_o_96d634cd-87a8-49a8-a34b-ad2a1352c677.xml, FltGetFilterInformation, FltGetFilterInformation routine [Installable File System Drivers], fltkernel/FltGetFilterInformation, ifsk.fltgetfilterinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetFilterInformation
 ---
 
-# FltGetFilterInformation function
+# FltGetFilterInformation function (fltkernel.h)
+
+
 
 
 ## -description

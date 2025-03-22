@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["_MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration"]
 ms.keywords: "*PPOWER_ACTION, POWER_ACTION, POWER_ACTION enumeration, PPOWER_ACTION, PPOWER_ACTION enumeration pointer, PowerActionHibernate, PowerActionNone, PowerActionReserved, PowerActionShutdown, PowerActionShutdownOff, PowerActionShutdownReset, PowerActionSleep, PowerActionWarmEject, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, umdf.power_action, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, wdf.power_action, wudfddi/POWER_ACTION, wudfddi/PPOWER_ACTION, wudfddi/PowerActionHibernate, wudfddi/PowerActionNone, wudfddi/PowerActionReserved, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionSleep, wudfddi/PowerActionWarmEject"
 req.header: wudfddi.h
+req.construct-type: enumeration
 req.include-header: Wudfddi.h, Ntpoapi.h, Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - POWER_ACTION
 ---
 
-# __MIDL___MIDL_itf_wudfddi_0000_0000_0001 enumeration (wudfddi.h)
+# POWER_ACTION enumeration (wudfddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/11/2022
 keywords: ["WdfDeviceStopIdle macro"]
 ms.keywords: DFDeviceObjectGeneralRef_3dbde224-ecdf-429e-9389-9bdb49b16040.xml, WdfDeviceStopIdle, WdfDeviceStopIdle method, kmdf.wdfdevicestopidle, wdf.wdfdevicestopidle, wdfdevice/WdfDeviceStopIdle
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,11 @@ api_name:
  - WdfDeviceStopIdle
 ---
 
-# WdfDeviceStopIdle macro
+# WdfDeviceStopIdle macro (wdfdevice.h)
+
+
+
+
 
 ## -description
 

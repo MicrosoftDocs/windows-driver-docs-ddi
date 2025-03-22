@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_SET_INFORMATION IOCTL"]
 ms.keywords: IOCTL_PAR_SET_INFORMATION, IOCTL_PAR_SET_INFORMATION control code [Parallel Ports], cisspd_950d6397-7eff-4966-a734-0497f1a84257.xml, ntddpar/IOCTL_PAR_SET_INFORMATION, parports.ioctl_par_set_information
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PAR_SET_INFORMATION
 ---
 
-# IOCTL_PAR_SET_INFORMATION IOCTL
+# IOCTL_PAR_SET_INFORMATION IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRaiseInformationalHardError function"]
 ms.keywords: IoRaiseInformationalHardError, IoRaiseInformationalHardError routine [Kernel-Mode Driver Architecture], k104_7af16dc2-0500-411e-962a-7d8c1fe40ba0.xml, kernel.ioraiseinformationalharderror, ntddk/IoRaiseInformationalHardError
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoRaiseInformationalHardError
 ---
 
-# IoRaiseInformationalHardError function
+# IoRaiseInformationalHardError function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["KeReleaseMutex function"]
 ms.keywords: KeReleaseMutex, KeReleaseMutex routine [Kernel-Mode Driver Architecture], k105_4237a9e6-715b-4e40-aab8-9b1458a220ae.xml, kernel.kereleasemutex, wdm/KeReleaseMutex
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeReleaseMutex
 ---
 
-# KeReleaseMutex function
+# KeReleaseMutex function (wdm.h)
+
+
 
 ## -description
 

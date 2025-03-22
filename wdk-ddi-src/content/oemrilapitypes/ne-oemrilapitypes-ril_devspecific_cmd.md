@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_DEVSPECIFIC_CMD enumeration"]
 ms.keywords: RIL_DEVSPECIFIC_CMD, RIL_DEVSPECIFIC_CMD enumeration [Network Drivers Starting with Windows Vista], RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_CAPABLE, RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_TOKEN, RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_TOKEN_FORCE, RIL_DEVSPECIFIC_CMD_OEM_GBA_UNKNOWN, RIL_DEVSPECIFIC_CMD_OEM_MAX, netvista.ril_devspecific_cmd, oemrilapitypes/RIL_DEVSPECIFIC_CMD, oemrilapitypes/RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_CAPABLE, oemrilapitypes/RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_TOKEN, oemrilapitypes/RIL_DEVSPECIFIC_CMD_OEM_GBA_GET_GBA_TOKEN_FORCE, oemrilapitypes/RIL_DEVSPECIFIC_CMD_OEM_GBA_UNKNOWN, oemrilapitypes/RIL_DEVSPECIFIC_CMD_OEM_MAX
 req.header: oemrilapitypes.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RIL_DEVSPECIFIC_CMD
 ---
 
-# RIL_DEVSPECIFIC_CMD enumeration
+# RIL_DEVSPECIFIC_CMD enumeration (oemrilapitypes.h)
+
+
 
 
 ## -description

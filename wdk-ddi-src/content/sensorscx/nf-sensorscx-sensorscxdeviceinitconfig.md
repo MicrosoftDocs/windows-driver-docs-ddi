@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SensorsCxDeviceInitConfig function"]
 ms.keywords: SensorsCxDeviceInitConfig, SensorsCxDeviceInitConfig function [Sensor Devices], sensors.sensorscxdeviceinitconfig, sensorscx/SensorsCxDeviceInitConfig
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SensorsCxDeviceInitConfig
 ---
 
-# SensorsCxDeviceInitConfig function
+# SensorsCxDeviceInitConfig function (sensorscx.h)
+
+
 
 
 ## -description

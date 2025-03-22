@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfInterruptCreate function"]
 ms.keywords: DFInterruptObjectRef_44b197bb-82d6-45ff-a640-67fd1de506cc.xml, WdfInterruptCreate, WdfInterruptCreate method, kmdf.wdfinterruptcreate, wdf.wdfinterruptcreate, wdfinterrupt/WdfInterruptCreate
 req.header: wdfinterrupt.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfInterruptCreate
 ---
 
-# WdfInterruptCreate function
+# WdfInterruptCreate function (wdfinterrupt.h)
+
+
 
 
 ## -description

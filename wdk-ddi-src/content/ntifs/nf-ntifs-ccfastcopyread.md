@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["CcFastCopyRead function"]
 ms.keywords: CcFastCopyRead, CcFastCopyRead routine [Installable File System Drivers], ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, ifsk.ccfastcopyread, ntifs/CcFastCopyRead
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - CcFastCopyRead
 ---
 
-# CcFastCopyRead function
+# CcFastCopyRead function (ntifs.h)
+
+
 
 ## -description
 

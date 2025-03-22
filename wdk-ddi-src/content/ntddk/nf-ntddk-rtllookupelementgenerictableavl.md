@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlLookupElementGenericTableAvl function"]
 ms.keywords: RtlLookupElementGenericTableAvl, RtlLookupElementGenericTableAvl routine [Installable File System Drivers], ifsk.rtllookupelementgenerictableavl, ntddk/RtlLookupElementGenericTableAvl
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlLookupElementGenericTableAvl
 ---
+
+# RtlLookupElementGenericTableAvl function (ntddk.h)
 
 ## -description
 

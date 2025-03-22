@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfObjectGetTypedContextWorker function"]
 ms.keywords: DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml, WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker method, kmdf.wdfobjectgettypedcontextworker, wdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfObjectGetTypedContextWorker
 ---
 
-# WdfObjectGetTypedContextWorker function
+# WdfObjectGetTypedContextWorker function (wdfobject.h)
+
+
 
 
 ## -description

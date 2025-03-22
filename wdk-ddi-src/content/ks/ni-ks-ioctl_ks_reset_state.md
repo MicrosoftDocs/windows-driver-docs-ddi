@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_KS_RESET_STATE IOCTL"]
 ms.keywords: IOCTL_KS_RESET_STATE, IOCTL_KS_RESET_STATE control, IOCTL_KS_RESET_STATE control code [Streaming Media Devices], ks-ioctl_ce7c174b-952d-4b08-ab05-f8843155af33.xml, ks/IOCTL_KS_RESET_STATE, stream.ioctl_ks_reset_state
 req.header: ks.h
+req.construct-type: ioctl
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_KS_RESET_STATE
 ---
 
-# IOCTL_KS_RESET_STATE IOCTL
+# IOCTL_KS_RESET_STATE IOCTL (ks.h)
+
+
+
+
 
 
 ## -description

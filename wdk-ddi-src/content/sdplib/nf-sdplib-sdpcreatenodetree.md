@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpCreateNodeTree function"]
 ms.keywords: SdpCreateNodeTree, SdpCreateNodeTree function [Bluetooth Devices], bltooth.sdpcreatenodetree, bth_funcs_95027cd6-7f0b-48e1-a574-990754e28e74.xml, sdplib/SdpCreateNodeTree
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpCreateNodeTree
 ---
 
-# SdpCreateNodeTree function
+# SdpCreateNodeTree function (sdplib.h)
+
+
 
 
 ## -description

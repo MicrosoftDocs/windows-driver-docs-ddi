@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTEvict function"]
 ms.keywords: D3DKMTEvict, D3DKMTEvict function [Display Devices], d3dkmthk/D3DKMTEvict, display.d3dkmtevict
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -42,7 +43,9 @@ api_name:
  - D3DKMTEvict
 ---
 
-# D3DKMTEvict function
+# D3DKMTEvict function (d3dkmthk.h)
+
+
 
 
 ## -description

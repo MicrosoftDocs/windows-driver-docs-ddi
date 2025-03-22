@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_SET_VOLUME IOCTL"]
 ms.keywords: IOCTL_CDROM_SET_VOLUME, IOCTL_CDROM_SET_VOLUME control, IOCTL_CDROM_SET_VOLUME control code [Storage Devices], k307_d31efcd3-1072-49db-82d0-6ecce05a8964.xml, ntddcdrm/IOCTL_CDROM_SET_VOLUME, storage.ioctl_cdrom_set_volume
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: Obsolete, beginning with Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_SET_VOLUME
 ---
 
-# IOCTL_CDROM_SET_VOLUME IOCTL
+# IOCTL_CDROM_SET_VOLUME IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

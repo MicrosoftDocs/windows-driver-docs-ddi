@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["D3DDDI_HDR_METADATA_TYPE enumeration"]
 ms.keywords: D3DDDI_HDR_METADATA_TYPE, D3DDDI_HDR_METADATA_TYPE enumeration [Display Devices], D3DDDI_HDR_METADATA_TYPE_HDR10, D3DDDI_HDR_METADATA_TYPE_NONE, _D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_HDR10, d3dukmdt/D3DDDI_HDR_METADATA_TYPE_NONE, display.d3dddi_hdr_metadata_type
 req.header: d3dukmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_HDR_METADATA_TYPE
 ---
 
-# _D3DDDI_HDR_METADATA_TYPE enumeration (d3dukmdt.h)
+# D3DDDI_HDR_METADATA_TYPE enumeration (d3dukmdt.h)
+
+
 
 
 ## -description

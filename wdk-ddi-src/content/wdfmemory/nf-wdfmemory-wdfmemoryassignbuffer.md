@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfMemoryAssignBuffer function"]
 ms.keywords: DFMemoryObjectRef_c2bf3437-5c1e-44d6-97ab-6ede16f7bc53.xml, WdfMemoryAssignBuffer, WdfMemoryAssignBuffer method, kmdf.wdfmemoryassignbuffer, wdf.wdfmemoryassignbuffer, wdfmemory/WdfMemoryAssignBuffer
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfMemoryAssignBuffer
 ---
 
-# WdfMemoryAssignBuffer function
+# WdfMemoryAssignBuffer function (wdfmemory.h)
+
+
 
 
 ## -description

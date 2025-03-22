@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcGetPhysicalDeviceObject function"]
 ms.keywords: PcGetPhysicalDeviceObject, PcGetPhysicalDeviceObject function [Audio Devices], audio.pcgetphysicaldeviceobject, portcls/PcGetPhysicalDeviceObject
 req.header: portcls.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting in Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - PcGetPhysicalDeviceObject
 ---
 
-# PcGetPhysicalDeviceObject function
+# PcGetPhysicalDeviceObject function (portcls.h)
+
+
 
 
 ## -description

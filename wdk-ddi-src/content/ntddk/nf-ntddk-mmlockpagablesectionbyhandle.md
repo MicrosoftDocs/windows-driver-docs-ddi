@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmLockPagableSectionByHandle function"]
 ms.keywords: MmLockPagableSectionByHandle, MmLockPagableSectionByHandle routine [Kernel-Mode Driver Architecture], k106_9c5e1e9c-8382-4082-a3ac-5985224c8b2a.xml, kernel.mmlockpagablesectionbyhandle, ntddk/MmLockPagableSectionByHandle
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmLockPagableSectionByHandle
 ---
 
-# MmLockPagableSectionByHandle function
+# MmLockPagableSectionByHandle function (ntddk.h)
+
+
 
 
 ## -description

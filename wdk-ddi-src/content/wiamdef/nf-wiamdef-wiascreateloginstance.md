@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasCreateLogInstance function"]
 ms.keywords: image.wiascreateloginstance, wiamdef/wiasCreateLogInstance, wiasCreateLogInstance, wiasCreateLogInstance function [Imaging Devices], wiasFncs_f3d782d2-d11c-41bb-9d1e-d2619547dfda.xml
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasCreateLogInstance
 ---
 
-# wiasCreateLogInstance function
+# wiasCreateLogInstance function (wiamdef.h)
+
+
 
 
 ## -description

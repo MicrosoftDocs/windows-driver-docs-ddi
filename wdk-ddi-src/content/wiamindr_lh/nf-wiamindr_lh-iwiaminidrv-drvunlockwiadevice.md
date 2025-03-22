@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaMiniDrv::drvUnLockWiaDevice"]
 ms.keywords: IWiaMiniDrv interface [Imaging Devices],drvUnLockWiaDevice method, IWiaMiniDrv.drvUnLockWiaDevice, IWiaMiniDrv::drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices], drvUnLockWiaDevice method [Imaging Devices],IWiaMiniDrv interface, image.iwiaminidrv_drvunlockwiadevice, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaMiniDrv::drvUnLockWiaDevice
 ---
+
+# IWiaMiniDrv::drvUnLockWiaDevice function (wiamindr_lh.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 09/18/2018
 keywords: ["ExReleasePushLockShared macro"]
 ms.keywords: ExReleasePushLockShared
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,11 @@ api_name:
  - ExReleasePushLockShared
 ---
 
-# ExReleasePushLockShared macro
+# ExReleasePushLockShared macro (wdm.h)
+
+
+
+
 
 
 ## -description

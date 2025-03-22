@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortReadPortBufferUshort function"]
 ms.keywords: VideoPortReadPortBufferUshort, VideoPortReadPortBufferUshort function [Display Devices], VideoPort_Functions_598e11ff-25be-4b55-a86f-130100ed0972.xml, display.videoportreadportbufferushort, video/VideoPortReadPortBufferUshort
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReadPortBufferUshort
 ---
 
-# VideoPortReadPortBufferUshort function
+# VideoPortReadPortBufferUshort function (video.h)
+
+
 
 
 ## -description

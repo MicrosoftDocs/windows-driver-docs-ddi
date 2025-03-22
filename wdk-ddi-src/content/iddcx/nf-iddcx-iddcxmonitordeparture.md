@@ -8,6 +8,7 @@ ms.date: 01/11/2021
 keywords: ["IddCxMonitorDeparture function"]
 ms.keywords: IddCxMonitorDeparture, IddCxMonitorDeparture method [Display Devices], display.iddcxmonitordeparture, iddcx/IddCxMonitorDeparture
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxMonitorDeparture
 ---
 
-# IddCxMonitorDeparture function
+# IddCxMonitorDeparture function (iddcx.h)
+
+
 
 ## -description
 

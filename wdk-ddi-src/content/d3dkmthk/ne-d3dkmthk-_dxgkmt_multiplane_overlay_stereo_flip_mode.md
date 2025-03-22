@@ -4,6 +4,7 @@ title: DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE (d3dkmthk.h)
 description: Learn more about the DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ dev_langs:
  - c++
 ---
 
-# DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration
+# DXGKMT_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -5,6 +5,7 @@ description: Queries the brightness ranges for a display panel.
 ms.date: 10/19/2018
 keywords: ["IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL"]
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,11 @@ api_name:
  - IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES
 ---
 
-# IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL
+# IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES IOCTL (ntddvdeo.h)
+
+
+
+
 
 ## Major Code:  [[XREF-LINK:IRP_MJ_DEVICE_CONTROL]
 

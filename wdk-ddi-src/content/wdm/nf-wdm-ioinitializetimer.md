@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["IoInitializeTimer function"]
 ms.keywords: IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, kernel.ioinitializetimer, wdm/IoInitializeTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoInitializeTimer
 ---
 
-# IoInitializeTimer function
+# IoInitializeTimer function (wdm.h)
+
+
 
 ## -description
 

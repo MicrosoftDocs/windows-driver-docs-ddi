@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwLoadDriver function"]
 ms.keywords: NtLoadDriver, ZwLoadDriver, ZwLoadDriver routine [Kernel-Mode Driver Architecture], k111_b421f181-1a7d-4122-a73c-604f6b98686d.xml, kernel.zwloaddriver, wdm/NtLoadDriver, wdm/ZwLoadDriver
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwLoadDriver
 ---
+
+# ZwLoadDriver function (wdm.h)
 
 ## -description
 

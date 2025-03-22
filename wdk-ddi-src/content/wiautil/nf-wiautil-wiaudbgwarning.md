@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgWarning function"]
 ms.keywords: image.wiaudbgwarning, wiauDbgWarning, wiauDbgWarning function [Imaging Devices], wiauFncs_1248626b-0d4f-445c-855c-9ba477cf306c.xml, wiautil/wiauDbgWarning
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiauDbgWarning
 ---
 
-# wiauDbgWarning function
+# wiauDbgWarning function (wiautil.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmUnmapReservedMapping function"]
 ms.keywords: MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml, kernel.mmunmapreservedmapping, wdm/MmUnmapReservedMapping
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - MmUnmapReservedMapping
 ---
 
-# MmUnmapReservedMapping function
+# MmUnmapReservedMapping function (wdm.h)
+
+
 
 
 ## -description

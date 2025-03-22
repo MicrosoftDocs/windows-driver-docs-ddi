@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["SFFDISK_DPCMD enumeration"]
 ms.keywords: SD.sffdisk_dpcmd, SFFDISK_DPCMD, SFFDISK_DPCMD enumeration [Buses], SFFDISK_DP_IS_SUPPORTED, SFFDISK_DP_LOCK_DEVICE, SFFDISK_DP_RESET_DEVICE_ALL_DATA, SFFDISK_DP_SET_PASSWORD, SFFDISK_DP_UNLOCK_DEVICE, sd-structs_794e7b1e-49e0-4385-ab34-235f00e1a7b2.xml, sffdisk/SFFDISK_DPCMD, sffdisk/SFFDISK_DP_IS_SUPPORTED, sffdisk/SFFDISK_DP_LOCK_DEVICE, sffdisk/SFFDISK_DP_RESET_DEVICE_ALL_DATA, sffdisk/SFFDISK_DP_SET_PASSWORD, sffdisk/SFFDISK_DP_UNLOCK_DEVICE
 req.header: sffdisk.h
+req.construct-type: enumeration
 req.include-header: Sffdisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SFFDISK_DPCMD
 ---
 
-# SFFDISK_DPCMD enumeration
+# SFFDISK_DPCMD enumeration (sffdisk.h)
+
+
 
 
 ## -description

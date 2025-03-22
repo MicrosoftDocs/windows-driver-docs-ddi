@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NetAdapterInitAllocate function"]
 ms.keywords: NetAdapterInitAllocate
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterInitAllocate
 ---
 
-# NetAdapterInitAllocate function
+# NetAdapterInitAllocate function (netadapter.h)
+
+
 
 
 ## -description

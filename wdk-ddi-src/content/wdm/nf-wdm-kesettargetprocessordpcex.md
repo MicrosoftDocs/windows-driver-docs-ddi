@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSetTargetProcessorDpcEx function"]
 ms.keywords: KeSetTargetProcessorDpcEx, KeSetTargetProcessorDpcEx routine [Kernel-Mode Driver Architecture], k105_86dff32b-f370-4233-a3ec-d8fb3cc5b4cc.xml, kernel.kesettargetprocessordpcex, wdm/KeSetTargetProcessorDpcEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - KeSetTargetProcessorDpcEx
 ---
 
-# KeSetTargetProcessorDpcEx function
+# KeSetTargetProcessorDpcEx function (wdm.h)
+
+
 
 
 ## -description

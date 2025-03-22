@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisReadConfiguration function"]
 ms.keywords: NDIS_STATUS_FAILURE, NDIS_STATUS_RESOURCES, NDIS_STATUS_SUCCESS, NdisReadConfiguration, NdisReadConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisReadConfiguration, ndis_configuration_ref_fb5d2879-b30e-470b-aa07-f5f5286973bf.xml, netvista.ndisreadconfiguration
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisReadConfiguration (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisReadConfiguration (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisReadConfiguration
 ---
 
-# NdisReadConfiguration function
+# NdisReadConfiguration function (ndis.h)
+
+
 
 
 ## -description

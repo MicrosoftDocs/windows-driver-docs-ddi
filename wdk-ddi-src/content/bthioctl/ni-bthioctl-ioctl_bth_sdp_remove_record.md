@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_SDP_REMOVE_RECORD IOCTL"]
 ms.keywords: IOCTL_BTH_SDP_REMOVE_RECORD, IOCTL_BTH_SDP_REMOVE_RECORD control, IOCTL_BTH_SDP_REMOVE_RECORD control code [Bluetooth Devices], bltooth.ioctl_bth_sdp_remove_record, bth_ioctls_863ca82b-4cb5-444c-bd29-b1d620e509a4.xml, bthioctl/IOCTL_BTH_SDP_REMOVE_RECORD
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_SDP_REMOVE_RECORD
 ---
 
-# IOCTL_BTH_SDP_REMOVE_RECORD IOCTL
+# IOCTL_BTH_SDP_REMOVE_RECORD IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

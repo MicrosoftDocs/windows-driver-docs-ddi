@@ -9,6 +9,7 @@ ms.custom: content-health
 keywords: ["RtlNtStatusToDosErrorNoTeb function"]
 ms.keywords: RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], RtlNtStatusToDosErrorNoTeb, ifsk.rtlntstatustodoserrornoteb, ntifs/RtlNtStatusToDosError, rtlref_161ea08b-d596-4a3c-ab9b-b66f757e4415.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -41,7 +42,9 @@ api_name:
  - RtlNtStatusToDosErrorNoTeb
 ---
 
-# RtlNtStatusToDosErrorNoTeb function
+# RtlNtStatusToDosErrorNoTeb function (ntifs.h)
+
+
 
 ## -description
 

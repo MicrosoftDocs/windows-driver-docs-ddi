@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisDirectOidRequest function"]
 ms.keywords: NdisDirectOidRequest, NdisDirectOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisDirectOidRequest, ndis_request_direct_ref_3a98c424-2d24-4841-87a7-e782d4e6c79d.xml, netvista.ndisdirectoidrequest
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.1 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisDirectOidRequest
 ---
 
-# NdisDirectOidRequest function
+# NdisDirectOidRequest function (ndis.h)
+
+
 
 
 ## -description

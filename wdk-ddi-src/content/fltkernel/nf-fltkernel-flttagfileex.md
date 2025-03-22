@@ -7,6 +7,7 @@ ms.date: 03/12/2019
 keywords: ["FltTagFileEx function"]
 ms.keywords: FltTagFileEx, FltTagFile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - FltTagFileEx
 ---
 
-# FltTagFileEx function
+# FltTagFileEx function (fltkernel.h)
+
+
 
 
 ## -description

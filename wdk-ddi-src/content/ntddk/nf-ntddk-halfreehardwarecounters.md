@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["HalFreeHardwareCounters function"]
 ms.keywords: ",  , C, F, H, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], a, d, e, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, kernel.halfreehardwarecounters, l, n, ntddk/HalFreeHardwareCounters, o, r, s, t, u, w"
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - HalFreeHardwareCounters
 ---
+
+# HalFreeHardwareCounters function (ntddk.h)
 
 ## -description
 

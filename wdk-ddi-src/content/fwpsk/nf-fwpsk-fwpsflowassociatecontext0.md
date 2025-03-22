@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsFlowAssociateContext0 function"]
 ms.keywords: FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsFlowAssociateContext0, netvista.fwpsflowassociatecontext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsFlowAssociateContext0
 ---
 
-# FwpsFlowAssociateContext0 function
+# FwpsFlowAssociateContext0 function (fwpsk.h)
+
+
 
 
 ## -description

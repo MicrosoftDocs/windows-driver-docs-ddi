@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_CANCEL_IO IOCTL"]
 ms.keywords: IOCTL_CANCEL_IO, IOCTL_CANCEL_IO control, IOCTL_CANCEL_IO control code [Imaging Devices], image.ioctl_cancel_io, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml, usbscan/IOCTL_CANCEL_IO
 req.header: usbscan.h
+req.construct-type: ioctl
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CANCEL_IO
 ---
 
-# IOCTL_CANCEL_IO IOCTL
+# IOCTL_CANCEL_IO IOCTL (usbscan.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ keywords: ["CollectionsListDeserializeFromBuffer function"]
 tech.root: sensors
 ms.keywords: CollectionsListDeserializeFromBuffer
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListDeserializeFromBuffer
 ---
 
-# CollectionsListDeserializeFromBuffer function
+# CollectionsListDeserializeFromBuffer function (sensorsutils.h)
+
+
 
 
 ## -description

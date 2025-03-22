@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltDeleteFileContext function"]
 ms.keywords: FltApiRef_a_to_d_53ae4cfc-b70a-405d-b947-cb0f04d4663b.xml, FltDeleteFileContext, FltDeleteFileContext routine [Installable File System Drivers], fltkernel/FltDeleteFileContext, ifsk.fltdeletefilecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista and later
@@ -41,7 +42,9 @@ api_name:
  - FltDeleteFileContext
 ---
 
-# FltDeleteFileContext function
+# FltDeleteFileContext function (fltkernel.h)
+
+
 
 ## -description
 

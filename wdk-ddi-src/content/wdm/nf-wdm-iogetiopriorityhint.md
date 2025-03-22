@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetIoPriorityHint function"]
 ms.keywords: IoGetIoPriorityHint, IoGetIoPriorityHint routine [Kernel-Mode Driver Architecture], k104_7d622ea7-68a8-4029-96d4-5c40d4f348de.xml, kernel.iogetiopriorityhint, wdm/IoGetIoPriorityHint
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoGetIoPriorityHint
 ---
 
-# IoGetIoPriorityHint function
+# IoGetIoPriorityHint function (wdm.h)
+
+
 
 
 ## -description

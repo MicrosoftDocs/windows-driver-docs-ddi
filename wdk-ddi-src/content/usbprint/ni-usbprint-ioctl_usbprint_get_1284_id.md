@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["IOCTL_USBPRINT_GET_1284_ID IOCTL"]
 ms.keywords: IOCTL_USBPRINT_GET_1284_ID, IOCTL_USBPRINT_GET_1284_ID control, IOCTL_USBPRINT_GET_1284_ID control code [Print Devices], print.ioctl_usbprint_get_1284_id, usbioctl_4b1e9092-6483-4603-b690-a5e655a73670.xml, usbprint/IOCTL_USBPRINT_GET_1284_ID
 req.header: usbprint.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - IOCTL_USBPRINT_GET_1284_ID
 ---
+
+# IOCTL_USBPRINT_GET_1284_ID IOCTL (usbprint.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration"]
 ms.keywords: D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT, D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration
+# D3DKMT_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

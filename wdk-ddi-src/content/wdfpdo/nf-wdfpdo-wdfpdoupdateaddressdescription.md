@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoUpdateAddressDescription function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_be344160-571e-4c5b-971d-a7ab78f6c292.xml, WdfPdoUpdateAddressDescription, WdfPdoUpdateAddressDescription method, kmdf.wdfpdoupdateaddressdescription, wdf.wdfpdoupdateaddressdescription, wdfpdo/WdfPdoUpdateAddressDescription
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoUpdateAddressDescription
 ---
 
-# WdfPdoUpdateAddressDescription function
+# WdfPdoUpdateAddressDescription function (wdfpdo.h)
+
+
 
 
 ## -description

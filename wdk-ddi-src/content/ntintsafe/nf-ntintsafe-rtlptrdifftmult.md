@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlPtrdiffTMult function"]
 ms.keywords: RtlPtrdiffTMult, RtlPtrdiffTMult function [Kernel-Mode Driver Architecture], kernel.rtlptrdifftmult, ntintsafe/RtlPtrdiffTMult
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlPtrdiffTMult
 ---
 
-# RtlPtrdiffTMult function
+# RtlPtrdiffTMult function (ntintsafe.h)
+
+
 
 
 ## -description

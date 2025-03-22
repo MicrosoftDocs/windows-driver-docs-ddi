@@ -8,6 +8,7 @@ ms.date: 01/03/2022
 keywords: ["AtaPortDebugPrint function"]
 ms.keywords: AtaPortDebugPrint, AtaPortDebugPrint routine [Storage Devices], atartns_57e04fb5-19ac-42fc-9bc5-32645ef61320.xml, irb/AtaPortDebugPrint, storage.ataportdebugprint
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortDebugPrint
 ---
 
-# AtaPortDebugPrint function
+# AtaPortDebugPrint function (irb.h)
+
+
 
 ## -description
 

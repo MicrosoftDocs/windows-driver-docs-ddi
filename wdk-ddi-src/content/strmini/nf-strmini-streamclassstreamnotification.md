@@ -7,6 +7,7 @@ ms.date: 04/22/2022
 keywords: ["StreamClassStreamNotification function"]
 ms.keywords: StreamClassStreamNotification, StreamClassStreamNotification routine [Streaming Media Devices], strclass-routines_22bc1b48-b75e-4dce-9aae-16e16b1ca1f9.xml, stream.streamclassstreamnotification, strmini/StreamClassStreamNotification
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - StreamClassStreamNotification
 ---
+
+# StreamClassStreamNotification function (strmini.h)
 
 ## -description
 

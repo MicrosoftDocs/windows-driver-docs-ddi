@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetTxQueueInitGetQueueId function"]
 ms.keywords: NetTxQueueInitGetQueueId
 req.header: nettxqueue.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - NetTxQueueInitGetQueueId
 ---
 
-# NetTxQueueInitGetQueueId function
+# NetTxQueueInitGetQueueId function (nettxqueue.h)
+
+
 
 
 ## -description

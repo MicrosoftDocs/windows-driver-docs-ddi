@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UDECX_USB_DEVICE_WAKE_SETTING enumeration"]
 ms.keywords: "*PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING, PUDECX_USB_DEVICE_WAKE_SETTING enumeration pointer [Buses], UDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING enumeration [Buses], UdecxUsbDeviceWakeDisabled, UdecxUsbDeviceWakeEnabled, UdecxUsbDeviceWakeNotApplicable, _UDECX_USB_DEVICE_WAKE_SETTING, buses.udecx_usb_device_wake_setting, udecxusbdevice/PUDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UDECX_USB_DEVICE_WAKE_SETTING, udecxusbdevice/UdecxUsbDeviceWakeDisabled, udecxusbdevice/UdecxUsbDeviceWakeEnabled, udecxusbdevice/UdecxUsbDeviceWakeNotApplicable"
 req.header: udecxusbdevice.h
+req.construct-type: enumeration
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - UDECX_USB_DEVICE_WAKE_SETTING
 ---
 
-# _UDECX_USB_DEVICE_WAKE_SETTING enumeration
+# UDECX_USB_DEVICE_WAKE_SETTING enumeration (udecxusbdevice.h)
+
+
 
 
 ## -description

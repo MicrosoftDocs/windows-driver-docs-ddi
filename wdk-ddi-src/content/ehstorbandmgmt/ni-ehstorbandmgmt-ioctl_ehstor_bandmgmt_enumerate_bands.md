@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL"]
 ms.keywords: IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control, IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS control code [Storage Devices], ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS, storage.ioctl_ehstor_bandmgmt_enumerate_bands
 req.header: ehstorbandmgmt.h
+req.construct-type: ioctl
 req.include-header: EhStorBandMgmt.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS
 ---
 
-# IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL
+# IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS IOCTL (ehstorbandmgmt.h)
+
+
+
+
 
 
 ## -description

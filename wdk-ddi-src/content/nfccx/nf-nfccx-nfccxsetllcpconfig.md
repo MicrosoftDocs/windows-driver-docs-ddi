@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NfcCxSetLlcpConfig function"]
 ms.keywords: NfcCxSetLlcpConfig, NfcCxSetLlcpConfig method [Near-Field Proximity Drivers], nfccx/NfcCxSetLlcpConfig, nfpdrivers._nfccxsetllcpconfig
 req.header: nfccx.h
+req.construct-type: function
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NfcCxSetLlcpConfig
 ---
 
-# NfcCxSetLlcpConfig function
+# NfcCxSetLlcpConfig function (nfccx.h)
+
+
 
 
 ## -description

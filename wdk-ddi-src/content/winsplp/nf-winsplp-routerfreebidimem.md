@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterFreeBidiMem function"]
 ms.keywords: RouterFreeBidiMem, RouterFreeBidiMem function [Print Devices], print.routerfreebidimem, spoolfnc_cc4cfcb8-c020-4112-9774-a2961e8a4ba2.xml, winsplp/RouterFreeBidiMem
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: This function is available in Windows XP and later operating systems.
@@ -40,7 +41,9 @@ api_name:
  - RouterFreeBidiMem
 ---
 
-# RouterFreeBidiMem function
+# RouterFreeBidiMem function (winsplp.h)
+
+
 
 
 ## -description

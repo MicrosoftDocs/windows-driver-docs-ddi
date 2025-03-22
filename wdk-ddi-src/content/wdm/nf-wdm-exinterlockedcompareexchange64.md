@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInterlockedCompareExchange64 macro"]
 ms.keywords: ExInterlockedCompareExchange64, ExInterlockedCompareExchange64 routine [Kernel-Mode Driver Architecture], k102_424c24f9-3965-40fd-b02b-f9bf1f7df4ec.xml, kernel.exinterlockedcompareexchange64, wdm/ExInterlockedCompareExchange64
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - ExInterlockedCompareExchange64
 ---
 
-# ExInterlockedCompareExchange64 macro
+# ExInterlockedCompareExchange64 macro (wdm.h)
+
+
+
+
 
 
 ## -description

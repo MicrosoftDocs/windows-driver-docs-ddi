@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDIRENDERSTATETYPE enumeration"]
 ms.keywords: _D3DDDIRENDERSTATETYPE, D3DDDIRENDERSTATETYPE,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDIRENDERSTATETYPE enumeration
+# D3DDDIRENDERSTATETYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

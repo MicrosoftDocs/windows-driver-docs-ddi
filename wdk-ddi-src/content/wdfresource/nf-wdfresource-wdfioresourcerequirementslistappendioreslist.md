@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoResourceRequirementsListAppendIoResList function"]
 ms.keywords: DFResourceObjectRef_1d064295-4660-4112-9512-9c5ff7196485.xml, WdfIoResourceRequirementsListAppendIoResList, WdfIoResourceRequirementsListAppendIoResList method, kmdf.wdfioresourcerequirementslistappendioreslist, wdf.wdfioresourcerequirementslistappendioreslist, wdfresource/WdfIoResourceRequirementsListAppendIoResList
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoResourceRequirementsListAppendIoResList
 ---
 
-# WdfIoResourceRequirementsListAppendIoResList function
+# WdfIoResourceRequirementsListAppendIoResList function (wdfresource.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UrsDeviceInitInitialize function"]
 ms.keywords: UrsDeviceInitInitialize, UrsDeviceInitInitialize method [Buses], buses.ursdeviceinitinitialize, ursdevice/UrsDeviceInitInitialize
 req.header: ursdevice.h
+req.construct-type: function
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UrsDeviceInitInitialize
 ---
 
-# UrsDeviceInitInitialize function
+# UrsDeviceInitInitialize function (ursdevice.h)
+
+
 
 
 ## -description

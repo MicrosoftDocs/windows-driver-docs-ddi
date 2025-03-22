@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetRadioConfiguration function"]
 ms.keywords: RIL_SetRadioConfiguration, RIL_SetRadioConfiguration method [Network Drivers Starting with Windows Vista], netvista.ril_setradioconfiguration, rilapi/RIL_SetRadioConfiguration
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetRadioConfiguration
 ---
 
-# RIL_SetRadioConfiguration function
+# RIL_SetRadioConfiguration function (rilapi.h)
+
+
 
 
 ## -description

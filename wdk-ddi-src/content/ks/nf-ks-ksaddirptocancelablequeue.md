@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAddIrpToCancelableQueue function"]
 ms.keywords: KsAddIrpToCancelableQueue, KsAddIrpToCancelableQueue function [Streaming Media Devices], ks/KsAddIrpToCancelableQueue, ksfunc_8a3caaa5-29ca-4c55-a3f6-8214808954b3.xml, stream.ksaddirptocancelablequeue
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAddIrpToCancelableQueue
 ---
 
-# KsAddIrpToCancelableQueue function
+# KsAddIrpToCancelableQueue function (ks.h)
+
+
 
 
 ## -description

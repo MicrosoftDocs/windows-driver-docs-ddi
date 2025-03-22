@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeResetEvent function"]
 ms.keywords: KeResetEvent, KeResetEvent routine [Kernel-Mode Driver Architecture], k105_d2a27b37-56af-46a4-8a48-da507261f77a.xml, kernel.keresetevent, wdm/KeResetEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeResetEvent
 ---
 
-# KeResetEvent function
+# KeResetEvent function (wdm.h)
+
+
 
 
 ## -description

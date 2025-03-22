@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_IEEE1284_NEGOTIATE IOCTL"]
 ms.keywords: IOCTL_IEEE1284_NEGOTIATE, IOCTL_IEEE1284_NEGOTIATE control code [Parallel Ports], cisspd_7d757685-3a5b-47cf-bba9-e7051956ae78.xml, ntddpar/IOCTL_IEEE1284_NEGOTIATE, parports.ioctl_ieee1284_negotiate
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_IEEE1284_NEGOTIATE
 ---
 
-# IOCTL_IEEE1284_NEGOTIATE IOCTL
+# IOCTL_IEEE1284_NEGOTIATE IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlCurrentOplockH function"]
 ms.keywords: FsRtlCurrentOplockH, FsRtlCurrentOplockH function [Installable File System Drivers], fsrtlref_4997ca62-379d-45d8-bc22-32efd2076692.xml, ifsk.fsrtlcurrentoplockh, ntifs/FsRtlCurrentOplockH
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlCurrentOplockH routine is available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlCurrentOplockH
 ---
 
-# FsRtlCurrentOplockH function
+# FsRtlCurrentOplockH function (ntifs.h)
+
+
 
 
 ## -description

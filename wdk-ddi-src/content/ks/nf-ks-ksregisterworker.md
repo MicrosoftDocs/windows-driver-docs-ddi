@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsRegisterWorker function"]
 ms.keywords: KsRegisterWorker, KsRegisterWorker function [Streaming Media Devices], ks/KsRegisterWorker, ksfunc_c2cb48b6-6268-4d53-a81b-07c1984f80aa.xml, stream.ksregisterworker
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsRegisterWorker
 ---
 
-# KsRegisterWorker function
+# KsRegisterWorker function (ks.h)
+
+
 
 
 ## -description

@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_CREATE_USN_JOURNAL
 ---
 
-# FSCTL_CREATE_USN_JOURNAL ioctl (ntifs.h)
+# FSCTL_CREATE_USN_JOURNAL IOCTL (ntifs.h)
+
+
 
 ## -description
 

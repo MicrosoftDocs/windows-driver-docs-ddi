@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerPolicyEventCallbacks function"]
 ms.keywords: DFDeviceObjectGeneralRef_7a73b769-9408-4349-b269-53dff2261d3d.xml, WdfDeviceInitSetPowerPolicyEventCallbacks, WdfDeviceInitSetPowerPolicyEventCallbacks method, kmdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdf.wdfdeviceinitsetpowerpolicyeventcallbacks, wdfdevice/WdfDeviceInitSetPowerPolicyEventCallbacks
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceInitSetPowerPolicyEventCallbacks
 ---
 
-# WdfDeviceInitSetPowerPolicyEventCallbacks function
+# WdfDeviceInitSetPowerPolicyEventCallbacks function (wdfdevice.h)
+
+
 
 
 ## -description

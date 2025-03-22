@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsMergeAutomationTables function"]
 ms.keywords: KsMergeAutomationTables, KsMergeAutomationTables function [Streaming Media Devices], avfunc_7e2146e2-0458-48ee-815a-8ea478187e07.xml, ks/KsMergeAutomationTables, stream.ksmergeautomationtables
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsMergeAutomationTables
 ---
 
-# KsMergeAutomationTables function
+# KsMergeAutomationTables function (ks.h)
+
+
 
 
 ## -description

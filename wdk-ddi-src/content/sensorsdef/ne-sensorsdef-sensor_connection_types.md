@@ -7,6 +7,7 @@ ms.date: 08/03/2018
 keywords: ["SENSOR_CONNECTION_TYPES enumeration"]
 ms.keywords: SENSOR_CONNECTION_TYPES, SENSOR_CONNECTION_TYPES,
 req.header: sensorsdef.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,7 +31,9 @@ api_name:
  - SENSOR_CONNECTION_TYPES
 ---
 
-# SENSOR_CONNECTION_TYPES enumeration
+# SENSOR_CONNECTION_TYPES enumeration (sensorsdef.h)
+
+
 
 
 ## -description

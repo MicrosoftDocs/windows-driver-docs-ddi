@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["RtlxOemStringToUnicodeSize function"]
 ms.keywords: RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize function [Installable File System Drivers], ifsk.rtlxoemstringtounicodesize, ntifs/RtlxOemStringToUnicodeSize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlxOemStringToUnicodeSize
 ---
 
-# RtlxOemStringToUnicodeSize function
+# RtlxOemStringToUnicodeSize function (ntifs.h)
+
+
 
 ## -description
 

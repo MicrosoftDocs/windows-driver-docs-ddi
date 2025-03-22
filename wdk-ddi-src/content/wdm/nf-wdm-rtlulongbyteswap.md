@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUlongByteSwap macro"]
 ms.keywords: RtlUlongByteSwap, RtlUlongByteSwap routine [Kernel-Mode Driver Architecture], k109_0d4753a3-859a-429f-bd07-66669f1b46e8.xml, kernel.rtlulongbyteswap, wdm/RtlUlongByteSwap
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - RtlUlongByteSwap
 ---
 
-# RtlUlongByteSwap macro
+# RtlUlongByteSwap macro (wdm.h)
+
+
+
+
 
 
 ## -description

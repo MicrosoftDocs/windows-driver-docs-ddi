@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetAllAdditionalNumberStrings function"]
 ms.keywords: RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetAllAdditionalNumberStrings
 ---
 
-# RIL_GetAllAdditionalNumberStrings function
+# RIL_GetAllAdditionalNumberStrings function (rilapi.h)
+
+
 
 
 ## -description

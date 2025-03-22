@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObReferenceObjectByHandle function"]
 ms.keywords: ObReferenceObjectByHandle, ObReferenceObjectByHandle routine [Kernel-Mode Driver Architecture], k107_97ce2cea-8f20-4b30-996c-9ea268951aef.xml, kernel.obreferenceobjectbyhandle, wdm/ObReferenceObjectByHandle
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ObReferenceObjectByHandle
 ---
 
-# ObReferenceObjectByHandle function
+# ObReferenceObjectByHandle function (wdm.h)
+
+
 
 
 ## -description

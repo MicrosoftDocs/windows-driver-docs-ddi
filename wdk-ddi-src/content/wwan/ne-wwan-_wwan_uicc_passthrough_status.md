@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_UICC_PASSTHROUGH_STATUS enumeration"]
 ms.keywords: "*PWWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughDisabled, WwanUiccPassThroughEnabled, WwanUiccPassThroughMaximum, _WWAN_UICC_PASSTHROUGH_STATUS, netvista.wwan_uicc_passthrough_status, wwan/WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, wwan/WwanUiccPassThroughEnabled, wwan/WwanUiccPassThroughMaximum"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_UICC_PASSTHROUGH_STATUS
 ---
 
-# _WWAN_UICC_PASSTHROUGH_STATUS enumeration
+# WWAN_UICC_PASSTHROUGH_STATUS enumeration (wwan.h)
+
+
 
 
 ## -description

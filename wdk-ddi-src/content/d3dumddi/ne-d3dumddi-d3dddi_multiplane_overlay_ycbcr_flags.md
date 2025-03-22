@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_BT709, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_NOMINAL_RANGE, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAG_xvYCC, display.d3dddi_multiplane_overlay_ycbcr_flags
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS
 ---
 
-# D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration
+# D3DDDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration (d3dumddi.h)
+
+
 
 
 ## -description

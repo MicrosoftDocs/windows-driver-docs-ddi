@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoWithinStackLimits function"]
 ms.keywords: IoWithinStackLimits, IoWithinStackLimits routine [Kernel-Mode Driver Architecture], k104_631648cb-6ba2-47b1-8745-e6314e17be30.xml, kernel.iowithinstacklimits, wdm/IoWithinStackLimits
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoWithinStackLimits
 ---
+
+# IoWithinStackLimits function (wdm.h)
 
 ## -description
 

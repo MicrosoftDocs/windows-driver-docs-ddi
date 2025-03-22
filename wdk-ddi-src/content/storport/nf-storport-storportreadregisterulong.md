@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortReadRegisterUlong macro"]
 ms.keywords: StorPortReadRegisterUlong, StorPortReadRegisterUlong routine [Storage Devices], storage.storportreadregisterulong, storport/StorPortReadRegisterUlong, storprt_dd719ccb-d625-4820-a371-dff748037a99.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - StorPortReadRegisterUlong
 ---
 
-# StorPortReadRegisterUlong macro
+# StorPortReadRegisterUlong macro (storport.h)
+
+
+
+
 
 
 ## -description

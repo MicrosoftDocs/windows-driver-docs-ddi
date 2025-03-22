@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["BarcodeSymbologyDecodeLengthType enumeration"]
 ms.keywords: BarcodeSymbologyDecodeLengthType, BarcodeSymbologyDecodeLengthType enumeration, DecodeLengthType_AnyLength, DecodeLengthType_Discrete, DecodeLengthType_Range, _BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/BarcodeSymbologyDecodeLengthType, pointofservicecommontypes/DecodeLengthType_AnyLength, pointofservicecommontypes/DecodeLengthType_Discrete, pointofservicecommontypes/DecodeLengthType_Range, pos.barcodesymbologydecodelengthtype
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BarcodeSymbologyDecodeLengthType
 ---
 
-# _BarcodeSymbologyDecodeLengthType enumeration
+# BarcodeSymbologyDecodeLengthType enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

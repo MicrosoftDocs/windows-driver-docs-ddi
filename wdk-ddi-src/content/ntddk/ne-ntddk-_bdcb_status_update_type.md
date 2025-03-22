@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["BDCB_STATUS_UPDATE_TYPE enumeration"]
 ms.keywords: "*PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDriverLoad, BdCbStatusPrepareForUnload, _BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, ntddk/BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForUnload"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BDCB_STATUS_UPDATE_TYPE
 ---
 
-# _BDCB_STATUS_UPDATE_TYPE enumeration
+# BDCB_STATUS_UPDATE_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

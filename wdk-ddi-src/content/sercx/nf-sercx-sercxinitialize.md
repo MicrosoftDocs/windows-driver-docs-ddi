@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCxInitialize function"]
 ms.keywords: 1/SerCxInitialize, SerCxInitialize, SerCxInitialize method [Serial Ports], serports.sercxinitialize
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - SerCxInitialize
 ---
 
-# SerCxInitialize function
+# SerCxInitialize function (sercx.h)
+
+
 
 
 ## -description

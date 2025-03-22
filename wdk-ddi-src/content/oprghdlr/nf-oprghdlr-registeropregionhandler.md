@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["RegisterOpRegionHandler function"]
 ms.keywords: RegisterOpRegionHandler, RegisterOpRegionHandler routine [ACPI Devices], acpi.registeropregionhandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, oprghdlr/RegisterOpRegionHandler
 req.header: oprghdlr.h
+req.construct-type: function
 req.include-header: Oprghdlr.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - RegisterOpRegionHandler
 ---
+
+# RegisterOpRegionHandler function (oprghdlr.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInitializeUnicodePrefix function"]
 ms.keywords: RtlInitializeUnicodePrefix, RtlInitializeUnicodePrefix routine [Installable File System Drivers], ifsk.rtlinitializeunicodeprefix, ntifs/RtlInitializeUnicodePrefix, rtlref_cc6170fe-7f41-45ac-909c-75e341ad8d9c.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlInitializeUnicodePrefix
 ---
 
-# RtlInitializeUnicodePrefix function
+# RtlInitializeUnicodePrefix function (ntifs.h)
+
+
 
 
 ## -description

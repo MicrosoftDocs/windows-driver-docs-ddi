@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_PD_POWER_DATA_OBJECT_TYPE enumeration"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_TYPE, UCM_PD_POWER_DATA_OBJECT_TYPE enumeration [Buses], UcmPdPdoTypeBatterySupply, UcmPdPdoTypeFixedSupply, UcmPdPdoTypeVariableSupplyNonBattery, _UCM_PD_POWER_DATA_OBJECT_TYPE, buses.ucm_pd_power_data_object_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_TYPE, ucmtypes/UcmPdPdoTypeBatterySupply, ucmtypes/UcmPdPdoTypeFixedSupply, ucmtypes/UcmPdPdoTypeVariableSupplyNonBattery
 req.header: ucmtypes.h
+req.construct-type: enumeration
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - UCM_PD_POWER_DATA_OBJECT_TYPE
 ---
 
-# _UCM_PD_POWER_DATA_OBJECT_TYPE enumeration
+# UCM_PD_POWER_DATA_OBJECT_TYPE enumeration (ucmtypes.h)
+
+
 
 
 ## -description

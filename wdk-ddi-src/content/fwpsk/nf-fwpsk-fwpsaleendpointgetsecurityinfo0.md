@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointGetSecurityInfo0 function"]
 ms.keywords: FwpsAleEndpointGetSecurityInfo0, FwpsAleEndpointGetSecurityInfo0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointGetSecurityInfo0, netvista.fwpsaleendpointgetsecurityinfo0, wfp_ref_2_funct_3_fwps_A-B_83803cc6-94be-4b32-8b33-2d12cec31e9e.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FwpsAleEndpointGetSecurityInfo0
 ---
 
-# FwpsAleEndpointGetSecurityInfo0 function
+# FwpsAleEndpointGetSecurityInfo0 function (fwpsk.h)
+
+
 
 
 ## -description

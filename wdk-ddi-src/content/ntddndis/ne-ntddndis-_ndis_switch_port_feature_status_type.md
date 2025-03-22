@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration"]
 ms.keywords: "*PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortFeatureStatusTypeCustom, NdisSwitchPortFeatureStatusTypeMaximum, NdisSwitchPortFeatureStatusTypeUndefined, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, netvista.ndis_switch_port_feature_status_type, ntddndis/NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE, ntddndis/NdisSwitchPortFeatureStatusTypeCustom, ntddndis/NdisSwitchPortFeatureStatusTypeMaximum, ntddndis/NdisSwitchPortFeatureStatusTypeUndefined, ntddndis/PNDIS_SWITCH_PORT_FEATURE_STATUS_TYPE"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE
 ---
 
-# _NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration
+# NDIS_SWITCH_PORT_FEATURE_STATUS_TYPE enumeration (ntddndis.h)
+
+
 
 
 ## -description

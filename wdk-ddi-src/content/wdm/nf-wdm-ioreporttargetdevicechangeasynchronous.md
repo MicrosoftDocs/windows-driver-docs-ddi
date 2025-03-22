@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoReportTargetDeviceChangeAsynchronous function"]
 ms.keywords: IoReportTargetDeviceChangeAsynchronous, IoReportTargetDeviceChangeAsynchronous routine [Kernel-Mode Driver Architecture], k104_b66839d5-f3b6-4f30-bf24-7b4ee869e733.xml, kernel.ioreporttargetdevicechangeasynchronous, wdm/IoReportTargetDeviceChangeAsynchronous
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoReportTargetDeviceChangeAsynchronous
 ---
+
+# IoReportTargetDeviceChangeAsynchronous function (wdm.h)
 
 ## -description
 

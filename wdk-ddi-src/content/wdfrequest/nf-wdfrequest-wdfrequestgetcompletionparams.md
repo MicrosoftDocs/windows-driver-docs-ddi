@@ -8,6 +8,7 @@ ms.date: 01/26/2022
 keywords: ["WdfRequestGetCompletionParams function"]
 ms.keywords: DFRequestObjectRef_032fe29a-4000-4d97-92fb-50462d2c1bea.xml, WdfRequestGetCompletionParams, WdfRequestGetCompletionParams method, kmdf.wdfrequestgetcompletionparams, wdf.wdfrequestgetcompletionparams, wdfrequest/WdfRequestGetCompletionParams
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestGetCompletionParams
 ---
 
-# WdfRequestGetCompletionParams function
+# WdfRequestGetCompletionParams function (wdfrequest.h)
+
+
 
 
 ## -description

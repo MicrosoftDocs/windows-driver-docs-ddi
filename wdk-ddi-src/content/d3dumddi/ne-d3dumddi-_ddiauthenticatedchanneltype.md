@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DDIAUTHENTICATEDCHANNELTYPE enumeration"]
 ms.keywords: D3D_other_Structs_ac5c5f50-3e64-483f-86d1-a0cd99f0578b.xml, DDIAUTHENTICATEDCHANNELTYPE, DDIAUTHENTICATEDCHANNELTYPE enumeration [Display Devices], DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, _DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNELTYPE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_HARDWARE, d3dumddi/DDIAUTHENTICATEDCHANNEL_DRIVER_SOFTWARE, display.ddiauthenticatedchanneltype
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DDIAUTHENTICATEDCHANNELTYPE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DDIAUTHENTICATEDCHANNELTYPE
 ---
 
-# _DDIAUTHENTICATEDCHANNELTYPE enumeration
+# DDIAUTHENTICATEDCHANNELTYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

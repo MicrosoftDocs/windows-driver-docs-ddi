@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["BarcodeStatus enumeration"]
 ms.keywords: BarcodeStatus, BarcodeStatus enumeration, BarcodeStatusUpdateType_Extended, BarcodeStatusUpdateType_Off, BarcodeStatusUpdateType_OffOrOffline, BarcodeStatusUpdateType_Offline, BarcodeStatusUpdateType_Online, _BarcodeStatus, pointofservicecommontypes/BarcodeStatus, pointofservicecommontypes/BarcodeStatusUpdateType_Extended, pointofservicecommontypes/BarcodeStatusUpdateType_Off, pointofservicecommontypes/BarcodeStatusUpdateType_OffOrOffline, pointofservicecommontypes/BarcodeStatusUpdateType_Offline, pointofservicecommontypes/BarcodeStatusUpdateType_Online, pos.barcodestatus
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - BarcodeStatus
 ---
 
-# _BarcodeStatus enumeration
+# BarcodeStatus enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

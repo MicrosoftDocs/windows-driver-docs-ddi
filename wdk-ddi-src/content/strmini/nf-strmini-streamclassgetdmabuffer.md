@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassGetDmaBuffer function"]
 ms.keywords: StreamClassGetDmaBuffer, StreamClassGetDmaBuffer routine [Streaming Media Devices], strclass-routines_d010423c-9c48-4dee-8ca3-f4b2854d14c9.xml, stream.streamclassgetdmabuffer, strmini/StreamClassGetDmaBuffer
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StreamClassGetDmaBuffer
 ---
 
-# StreamClassGetDmaBuffer function
+# StreamClassGetDmaBuffer function (strmini.h)
+
+
 
 
 ## -description

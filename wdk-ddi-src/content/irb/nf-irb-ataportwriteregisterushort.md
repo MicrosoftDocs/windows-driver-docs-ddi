@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortWriteRegisterUshort function"]
 ms.keywords: AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort routine [Storage Devices], atartns_09e1e2b6-ad88-4af7-9623-f9e441e491cb.xml, irb/AtaPortWriteRegisterUshort, storage.ataportwriteregisterushort
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortWriteRegisterUshort
 ---
 
-# AtaPortWriteRegisterUshort function
+# AtaPortWriteRegisterUshort function (irb.h)
+
+
 
 
 ## -description

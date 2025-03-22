@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxResumeBlockedOperations_Serially function"]
 ms.keywords: RxResumeBlockedOperations_Serially, RxResumeBlockedOperations_Serially , RxResumeBlockedOperations_Serially function [Installable File System Drivers], ifsk.rxresumeblockedoperations_serially, rxcontx/RxResumeBlockedOperations_Serially, rxref_b1284b31-72f0-4e0e-9602-817080b96e16.xml
 req.header: rxcontx.h
+req.construct-type: function
 req.include-header: Rxcontx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxResumeBlockedOperations_Serially
 ---
 
-# RxResumeBlockedOperations_Serially function
+# RxResumeBlockedOperations_Serially function (rxcontx.h)
+
+
 
 
 ## -description

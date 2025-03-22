@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_BATTERY_CHARGING_STATUS enumeration"]
 ms.keywords: _UCSI_BATTERY_CHARGING_STATUS, UCSI_BATTERY_CHARGING_STATUS,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_BATTERY_CHARGING_STATUS
 ---
 
-# _UCSI_BATTERY_CHARGING_STATUS enumeration
+# UCSI_BATTERY_CHARGING_STATUS enumeration (ucmucsispec.h)
+
+
 
 
 ## -description

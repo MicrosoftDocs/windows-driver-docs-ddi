@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmEnableCallbacks function"]
 ms.keywords: TmEnableCallbacks, TmEnableCallbacks routine [Kernel-Mode Driver Architecture], kernel.tmenablecallbacks, ktm_ref_0d901be3-7a5f-4296-b0fc-b8bdf84c43ec.xml, wdm/TmEnableCallbacks
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmEnableCallbacks
 ---
 
-# TmEnableCallbacks function
+# TmEnableCallbacks function (wdm.h)
+
+
 
 
 ## -description

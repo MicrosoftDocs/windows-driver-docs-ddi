@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTH_GET_RADIO_INFO IOCTL"]
 ms.keywords: IOCTL_BTH_GET_RADIO_INFO, IOCTL_BTH_GET_RADIO_INFO control, IOCTL_BTH_GET_RADIO_INFO control code [Bluetooth Devices], bltooth.ioctl_bth_get_radio_info, bth_ioctls_ed6699c7-3a05-46bd-ba8b-d138ce1ad751.xml, bthioctl/IOCTL_BTH_GET_RADIO_INFO
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTH_GET_RADIO_INFO
 ---
 
-# IOCTL_BTH_GET_RADIO_INFO IOCTL
+# IOCTL_BTH_GET_RADIO_INFO IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

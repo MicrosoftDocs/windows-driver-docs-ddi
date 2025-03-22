@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IPrintCoreHelper::EnumOptions"]
 ms.keywords: EnumOptions, EnumOptions method [Print Devices], EnumOptions method [Print Devices],IPrintCoreHelper interface, IPrintCoreHelper interface [Print Devices],EnumOptions method, IPrintCoreHelper.EnumOptions, IPrintCoreHelper::EnumOptions, prcomoem/IPrintCoreHelper::EnumOptions, print.iprintcorehelper_enumoptions, print_unidrv-pscript_allplugins_2dc1f4f3-27ab-44d3-8778-45f2eafae92a.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintCoreHelper::EnumOptions
 ---
+
+# IPrintCoreHelper::EnumOptions function (prcomoem.h)
 
 ## -description
 

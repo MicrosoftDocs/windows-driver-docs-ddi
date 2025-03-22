@@ -7,6 +7,7 @@ ms.date: 10/11/2023
 keywords: ["RxSetDomainForMailslotBroadcast function"]
 ms.keywords: RxSetDomainForMailslotBroadcast, RxSetDomainForMailslotBroadcast function [Installable File System Drivers], ifsk.rxsetdomainformailslotbroadcast, mrx/RxSetDomainForMailslotBroadcast, rxref_d342ef48-ef62-4186-97ea-d974bc4bf596.xml
 req.header: mrx.h
+req.construct-type: function
 req.include-header: Mrx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - RxSetDomainForMailslotBroadcast
 ---
 
-# RxSetDomainForMailslotBroadcast function
+# RxSetDomainForMailslotBroadcast function (mrx.h)
+
+
 
 ## -description
 

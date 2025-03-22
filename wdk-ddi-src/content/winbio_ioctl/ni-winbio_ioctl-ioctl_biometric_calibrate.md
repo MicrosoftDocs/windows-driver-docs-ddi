@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_CALIBRATE IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_CALIBRATE, IOCTL_BIOMETRIC_CALIBRATE control, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], biometric.ioctl_biometric_calibrate, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE
 req.header: winbio_ioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BIOMETRIC_CALIBRATE
 ---
 
-# IOCTL_BIOMETRIC_CALIBRATE IOCTL
+# IOCTL_BIOMETRIC_CALIBRATE IOCTL (winbio_ioctl.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/22/2022
 keywords: ["D3D12DDI_VIEW_INSTANCING_TIER enumeration"]
 ms.keywords: D3D12DDI_VIEW_INSTANCING_TIER, D3D12DDI_VIEW_INSTANCING_TIER enumeration [Display Devices], D3D12DDI_VIEW_INSTANCING_TIER_1, D3D12DDI_VIEW_INSTANCING_TIER_2, D3D12DDI_VIEW_INSTANCING_TIER_3, D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_1, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_2, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_3, d3d12umddi/D3D12DDI_VIEW_INSTANCING_TIER_NOT_SUPPORTED, display.d3d12ddi-view-instancing-tier
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIEW_INSTANCING_TIER
 ---
 
-# D3D12DDI_VIEW_INSTANCING_TIER enumeration
+# D3D12DDI_VIEW_INSTANCING_TIER enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

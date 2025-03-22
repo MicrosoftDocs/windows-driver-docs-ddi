@@ -7,6 +7,7 @@ ms.date: 04/23/2018
 keywords: ["KSCAMERA_MetadataId enumeration"]
 ms.keywords: KSCAMERA_MetadataId, KSCAMERA_MetadataId enumeration [Streaming Media Devices], MetadataId_Custom_Start, MetadataId_PhotoConfirmation, MetadataId_Standard_End, MetadataId_Standard_Start, ksmedia/KSCAMERA_MetadataId, ksmedia/MetadataId_Custom_Start, ksmedia/MetadataId_PhotoConfirmation, ksmedia/MetadataId_Standard_End, ksmedia/MetadataId_Standard_Start, stream.kscamera_metadataid
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KSCAMERA_MetadataId
 ---
+
+# KSCAMERA_MetadataId enumeration (ksmedia.h)
 
 ## -description
 

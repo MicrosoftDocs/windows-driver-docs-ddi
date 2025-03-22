@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FsRtlPrepareToReuseEcp function"]
 ms.keywords: FsRtlPrepareToReuseEcp, ifsk.fsrtlpreparetoreuseecp, ntifs/FsRtlPrepareToReuseEcp
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - FsRtlPrepareToReuseEcp
 ---
 
-# FsRtlPrepareToReuseEcp function
+# FsRtlPrepareToReuseEcp function (ntifs.h)
+
+
 
 ## -description
 

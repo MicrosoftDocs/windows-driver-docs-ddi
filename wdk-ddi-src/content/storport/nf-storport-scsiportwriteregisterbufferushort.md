@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortWriteRegisterBufferUshort macro"]
 ms.keywords: ScsiPortWriteRegisterBufferUshort, ScsiPortWriteRegisterBufferUshort routine [Storage Devices], scsiprt_300e2355-e8b2-4341-912d-a24954568824.xml, srb/ScsiPortWriteRegisterBufferUshort, storage.scsiportwriteregisterbufferushort
 req.header: storport.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,11 @@ api_name:
  - ScsiPortWriteRegisterBufferUshort
 ---
 
-# ScsiPortWriteRegisterBufferUshort macro
+# ScsiPortWriteRegisterBufferUshort macro (storport.h)
+
+
+
+
 
 
 ## -description

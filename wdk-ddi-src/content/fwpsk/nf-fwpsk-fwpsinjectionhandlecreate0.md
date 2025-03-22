@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsInjectionHandleCreate0 function"]
 ms.keywords: FwpsInjectionHandleCreate0, FwpsInjectionHandleCreate0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectionHandleCreate0, netvista.fwpsinjectionhandlecreate0, wfp_ref_2_funct_3_fwps_I_24f21d21-bf9c-4f77-9630-2c589b18aca4.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpsInjectionHandleCreate0
 ---
 
-# FwpsInjectionHandleCreate0 function
+# FwpsInjectionHandleCreate0 function (fwpsk.h)
+
+
 
 
 ## -description

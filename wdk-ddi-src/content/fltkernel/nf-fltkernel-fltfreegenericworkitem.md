@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFreeGenericWorkItem function"]
 ms.keywords: FltApiRef_e_to_o_e8a6dadd-879e-4476-9433-40a065066445.xml, FltFreeGenericWorkItem, FltFreeGenericWorkItem routine [Installable File System Drivers], fltkernel/FltFreeGenericWorkItem, ifsk.fltfreegenericworkitem
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltFreeGenericWorkItem
 ---
 
-# FltFreeGenericWorkItem function
+# FltFreeGenericWorkItem function (fltkernel.h)
+
+
 
 
 ## -description

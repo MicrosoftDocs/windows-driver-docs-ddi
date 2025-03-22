@@ -5,6 +5,7 @@ description: Learn more about the FltCreateCommunicationPort function.
 tech.root: ifsk
 ms.date: 07/10/2024
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - FltCreateCommunicationPort
 ---
 
-# FltCreateCommunicationPort function
+# FltCreateCommunicationPort function (fltkernel.h)
+
+
 
 ## -description
 

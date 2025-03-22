@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsGetCurrentThreadTeb function"]
 ms.keywords: PsGetCurrentThreadTeb, PsGetCurrentThreadTeb routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentthreadteb, ntddk/PsGetCurrentThreadTeb
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - PsGetCurrentThreadTeb
 ---
 
-# PsGetCurrentThreadTeb function
+# PsGetCurrentThreadTeb function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration"]
 ms.keywords: "*PNDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE, NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortPropertyTypeCustom, NdisSwitchPortPropertyTypeIsolation, NdisSwitchPortPropertyTypeMaximum, NdisSwitchPortPropertyTypeProfile, NdisSwitchPortPropertyTypeRoutingDomain, NdisSwitchPortPropertyTypeSecurity, NdisSwitchPortPropertyTypeUndefined, NdisSwitchPortPropertyTypeVlan, PNDIS_SWITCH_PORT_PROPERTY_TYPE, PNDIS_SWITCH_PORT_PROPERTY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_PROPERTY_TYPE, netvista.ndis_switch_port_property_type, ntddndis/NDIS_SWITCH_PORT_PROPERTY_TYPE, ntddndis/NdisSwitchPortPropertyTypeCustom, ntddndis/NdisSwitchPortPropertyTypeIsolation, ntddndis/NdisSwitchPortPropertyTypeMaximum, ntddndis/NdisSwitchPortPropertyTypeProfile, ntddndis/NdisSwitchPortPropertyTypeRoutingDomain, ntddndis/NdisSwitchPortPropertyTypeSecurity, ntddndis/NdisSwitchPortPropertyTypeUndefined, ntddndis/NdisSwitchPortPropertyTypeVlan, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_TYPE"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_SWITCH_PORT_PROPERTY_TYPE
 ---
 
-# _NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration
+# NDIS_SWITCH_PORT_PROPERTY_TYPE enumeration (ntddndis.h)
+
+
 
 
 ## -description

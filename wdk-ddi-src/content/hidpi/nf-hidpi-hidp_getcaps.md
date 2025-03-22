@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetCaps function"]
 ms.keywords: HidP_GetCaps, HidP_GetCaps callback function [Human Input Devices], PHIDP_GETCAPS, PHIDP_GETCAPS callback, hid.hidp_getcaps, hidfunc_420188e5-e357-43cc-b195-dea7637fd3c9.xml, hidpi/HidP_GetCaps
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidclass.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidP_GetCaps
 ---
 
-# HidP_GetCaps function
+# HidP_GetCaps function (hidpi.h)
+
+
 
 
 ## -description

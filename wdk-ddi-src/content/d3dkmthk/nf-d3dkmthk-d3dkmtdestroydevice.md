@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTDestroyDevice function"]
 ms.keywords: D3DKMTDestroyDevice, D3DKMTDestroyDevice function [Display Devices], OpenGL_Functions_66b283a1-deee-4a49-a02d-217567d35873.xml, d3dkmthk/D3DKMTDestroyDevice, display.d3dkmtdestroydevice
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTDestroyDevice
 ---
 
-# D3DKMTDestroyDevice function
+# D3DKMTDestroyDevice function (d3dkmthk.h)
+
+
 
 ## -description
 

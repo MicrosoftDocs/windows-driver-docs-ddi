@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIWriteEvent function"]
 ms.keywords: IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, kernel.iowmiwriteevent, wdm/IoWMIWriteEvent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIWriteEvent
 ---
 
-# IoWMIWriteEvent function
+# IoWMIWriteEvent function (wdm.h)
+
+
 
 
 ## -description

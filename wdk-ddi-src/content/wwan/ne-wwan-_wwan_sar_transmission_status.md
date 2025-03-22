@@ -7,6 +7,7 @@ ms.date: 08/20/2018
 keywords: ["WWAN_SAR_TRANSMISSION_STATUS enumeration"]
 ms.keywords: _WWAN_SAR_TRANSMISSION_STATUS, WWAN_SAR_TRANSMISSION_STATUS, *PWWAN_SAR_TRANSMISSION_STATUS,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1703
@@ -37,7 +38,9 @@ api_name:
  - WWAN_SAR_TRANSMISSION_STATUS
 ---
 
-# _WWAN_SAR_TRANSMISSION_STATUS enumeration
+# WWAN_SAR_TRANSMISSION_STATUS enumeration (wwan.h)
+
+
 
 
 ## -description

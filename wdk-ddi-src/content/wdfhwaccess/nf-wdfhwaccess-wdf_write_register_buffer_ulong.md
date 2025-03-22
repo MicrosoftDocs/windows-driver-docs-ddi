@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_WRITE_REGISTER_BUFFER_ULONG function"]
 ms.keywords: WDF_WRITE_REGISTER_BUFFER_ULONG, WDF_WRITE_REGISTER_BUFFER_ULONG function, wdf.wdf_write_register_buffer_ulong, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_ULONG
 req.header: wdfhwaccess.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WDF_WRITE_REGISTER_BUFFER_ULONG
 ---
 
-# WDF_WRITE_REGISTER_BUFFER_ULONG function
+# WDF_WRITE_REGISTER_BUFFER_ULONG function (wdfhwaccess.h)
+
+
 
 
 ## -description

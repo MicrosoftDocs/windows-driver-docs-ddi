@@ -7,6 +7,7 @@ keywords: ["PropKeyFindKeyGetDouble function"]
 tech.root: sensors
 ms.keywords: PropKeyFindKeyGetDouble
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - PropKeyFindKeyGetDouble
 ---
 
-# PropKeyFindKeyGetDouble function
+# PropKeyFindKeyGetDouble function (sensorsutils.h)
+
+
 
 
 ## -description

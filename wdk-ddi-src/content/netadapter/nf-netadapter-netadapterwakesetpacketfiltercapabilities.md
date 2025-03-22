@@ -7,6 +7,7 @@ ms.date: 10/25/2019
 keywords: ["NetAdapterWakeSetPacketFilterCapabilities function"]
 ms.keywords: NetAdapterWakeSetPacketFilterCapabilities
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterWakeSetPacketFilterCapabilities
 ---
 
-# NetAdapterWakeSetPacketFilterCapabilities function
+# NetAdapterWakeSetPacketFilterCapabilities function (netadapter.h)
+
+
 
 
 ## -description

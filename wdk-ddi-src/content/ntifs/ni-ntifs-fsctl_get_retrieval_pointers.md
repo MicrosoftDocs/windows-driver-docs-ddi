@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_GET_RETRIEVAL_POINTERS
 ---
 
-# FSCTL_GET_RETRIEVAL_POINTERS ioctl (ntifs.h)
+# FSCTL_GET_RETRIEVAL_POINTERS IOCTL (ntifs.h)
+
+
 
 ## -description
 

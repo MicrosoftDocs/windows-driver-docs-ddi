@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxEndpointInitSetEventCallbacks function"]
 ms.keywords: UcxEndpointInitSetEventCallbacks, UcxEndpointInitSetEventCallbacks method [Buses], buses._ucxendpointinitseteventcallbacks
 req.header: ucxendpoint.h
+req.construct-type: function
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxEndpointInitSetEventCallbacks
 ---
 
-# UcxEndpointInitSetEventCallbacks function
+# UcxEndpointInitSetEventCallbacks function (ucxendpoint.h)
+
+
 
 
 ## -description

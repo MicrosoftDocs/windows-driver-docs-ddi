@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_GET_CONTEXT_TYPE_INFO macro"]
 ms.keywords: DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, WDF_GET_CONTEXT_TYPE_INFO, WDF_GET_CONTEXT_TYPE_INFO macro, kmdf.wdf_get_context_type_info, wdf.wdf_get_context_type_info, wdfobject/WDF_GET_CONTEXT_TYPE_INFO
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,11 @@ api_name:
  - WDF_GET_CONTEXT_TYPE_INFO
 ---
 
-# WDF_GET_CONTEXT_TYPE_INFO macro
+# WDF_GET_CONTEXT_TYPE_INFO macro (wdfobject.h)
+
+
+
+
 
 
 ## -description

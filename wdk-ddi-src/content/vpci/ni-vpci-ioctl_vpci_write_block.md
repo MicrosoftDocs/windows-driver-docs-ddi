@@ -8,6 +8,7 @@ ms.date: 02/24/2018
 keywords: ["IOCTL_VPCI_WRITE_BLOCK IOCTL"]
 ms.keywords: IOCTL_VPCI_WRITE_BLOCK, IOCTL_VPCI_WRITE_BLOCK control code, PCI.ioctl_vpci_write_block, vpci/IOCTL_VPCI_WRITE_BLOCK
 req.header: vpci.h
+req.construct-type: ioctl
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Server 2012 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VPCI_WRITE_BLOCK
 ---
 
-# IOCTL_VPCI_WRITE_BLOCK IOCTL
+# IOCTL_VPCI_WRITE_BLOCK IOCTL (vpci.h)
+
+
+
+
 
 
 ##  Major Code:

@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["RtlUnicodeStringCopyEx function"]
 ms.keywords: RtlUnicodeStringCopyEx, RtlUnicodeStringCopyEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcopyex, ntstrsafe/RtlUnicodeStringCopyEx, safestrings_76d1f326-317e-4feb-967c-8fdcb40e9061.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringCopyEx
 ---
 
-# RtlUnicodeStringCopyEx function
+# RtlUnicodeStringCopyEx function (ntstrsafe.h)
+
+
 
 ## -description
 

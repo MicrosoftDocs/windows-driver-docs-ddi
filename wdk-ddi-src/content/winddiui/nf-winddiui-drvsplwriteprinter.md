@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["DrvSplWritePrinter function"]
 ms.keywords: DrvSplWritePrinter, DrvSplWritePrinter function [Print Devices], print.drvsplwriteprinter, print_interface-graphics_a59ea0df-c5d8-4a84-8b57-21dfa4f382c4.xml, winddiui/DrvSplWritePrinter
 req.header: winddiui.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - DrvSplWritePrinter
 ---
+
+# DrvSplWritePrinter function (winddiui.h)
 
 ## -description
 

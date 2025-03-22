@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeFlushQueuedDpcs function"]
 ms.keywords: KeFlushQueuedDpcs, KeFlushQueuedDpcs routine [Kernel-Mode Driver Architecture], k105_6aaf8f1a-0fa7-422a-b390-ba0f92558a65.xml, kernel.keflushqueueddpcs, wdm/KeFlushQueuedDpcs
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows XP with SP2 and Windows Server 2003.
@@ -40,7 +41,9 @@ api_name:
  - KeFlushQueuedDpcs
 ---
 
-# KeFlushQueuedDpcs function
+# KeFlushQueuedDpcs function (wdm.h)
+
+
 
 
 ## -description

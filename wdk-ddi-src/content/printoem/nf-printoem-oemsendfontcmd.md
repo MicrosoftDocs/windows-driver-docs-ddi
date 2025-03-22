@@ -7,6 +7,7 @@ ms.date: 08/12/2022
 keywords: ["OEMSendFontCmd function"]
 ms.keywords: OEMSendFontCmd, OEMSendFontCmd function [Print Devices], print.oemsendfontcmd, print_obsoletefunctions_f54bf949-57eb-49ea-a69b-f9edfdfb9da6.xml, printoem/OEMSendFontCmd
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMSendFontCmd
 ---
+
+# OEMSendFontCmd function (printoem.h)
 
 ## -description
 

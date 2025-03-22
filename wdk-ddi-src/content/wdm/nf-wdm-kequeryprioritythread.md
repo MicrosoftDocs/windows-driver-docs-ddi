@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQueryPriorityThread function"]
 ms.keywords: KeQueryPriorityThread, KeQueryPriorityThread routine [Kernel-Mode Driver Architecture], k105_6a330d84-aa5a-4822-a4d3-7b68aa9e8882.xml, kernel.kequeryprioritythread, wdm/KeQueryPriorityThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryPriorityThread
 ---
 
-# KeQueryPriorityThread function
+# KeQueryPriorityThread function (wdm.h)
+
+
 
 
 ## -description

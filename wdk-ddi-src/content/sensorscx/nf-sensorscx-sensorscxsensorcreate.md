@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SensorsCxSensorCreate function"]
 ms.keywords: SensorsCxSensorCreate, SensorsCxSensorCreate function [Sensor Devices], sensors.sensorscxsensorcreate, sensorscx/SensorsCxSensorCreate
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SensorsCxSensorCreate
 ---
 
-# SensorsCxSensorCreate function
+# SensorsCxSensorCreate function (sensorscx.h)
+
+
 
 
 ## -description

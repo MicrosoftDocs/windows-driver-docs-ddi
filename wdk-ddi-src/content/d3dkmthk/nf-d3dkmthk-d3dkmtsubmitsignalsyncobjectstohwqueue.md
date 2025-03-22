@@ -7,6 +7,7 @@ ms.date: 03/02/2022
 keywords: ["D3DKMTSubmitSignalSyncObjectsToHwQueue function"]
 ms.keywords: D3DKMTSubmitSignalSyncObjectsToHwQueue, D3DKMTSubmitSignalSyncObjectsToHwQueue function [Display Devices], d3dkmthk/D3DKMTSubmitSignalSyncObjectsToHwQueue, display.d3dkmtsubmitsignalsyncobjectstohwqueue
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSubmitSignalSyncObjectsToHwQueue
 ---
 
-# D3DKMTSubmitSignalSyncObjectsToHwQueue function
+# D3DKMTSubmitSignalSyncObjectsToHwQueue function (d3dkmthk.h)
+
+
 
 ## -description
 

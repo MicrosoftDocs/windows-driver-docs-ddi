@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SENSOR_CONTROLLER_CONFIG_INIT function"]
 ms.keywords: SENSOR_CONTROLLER_CONFIG_INIT, SENSOR_CONTROLLER_CONFIG_INIT function [Sensor Devices], sensors.sensor_controller_config_init, sensorscx/SENSOR_CONTROLLER_CONFIG_INIT
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SENSOR_CONTROLLER_CONFIG_INIT
 ---
 
-# SENSOR_CONTROLLER_CONFIG_INIT function
+# SENSOR_CONTROLLER_CONFIG_INIT function (sensorscx.h)
+
+
 
 
 ## -description

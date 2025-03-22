@@ -8,6 +8,7 @@ ms.date: 10/01/2024
 keywords: ["WdfRequestFormatRequestUsingCurrentType function"]
 ms.keywords: DFRequestObjectRef_c84fc560-9492-448a-9886-754c2857eba5.xml, WdfRequestFormatRequestUsingCurrentType, WdfRequestFormatRequestUsingCurrentType method, kmdf.wdfrequestformatrequestusingcurrenttype, wdf.wdfrequestformatrequestusingcurrenttype, wdfrequest/WdfRequestFormatRequestUsingCurrentType
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestFormatRequestUsingCurrentType
 ---
 
-# WdfRequestFormatRequestUsingCurrentType function
+# WdfRequestFormatRequestUsingCurrentType function (wdfrequest.h)
+
+
 
 
 ## -description

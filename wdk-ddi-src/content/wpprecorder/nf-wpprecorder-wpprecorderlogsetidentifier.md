@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderLogSetIdentifier macro"]
 ms.keywords: WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], wpprecorder/imp_WppRecorderLogSetIdentifier
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - WppRecorderLogSetIdentifier
 ---
 
-# WppRecorderLogSetIdentifier macro
+# WppRecorderLogSetIdentifier macro (wpprecorder.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 08/21/2020
 keywords: ["IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL"]
 ms.keywords: IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control, IOCTL_POINT_OF_SERVICE_CHECK_HEALTH control code, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CHECK_HEALTH, pos.ioctl_point_of_service_check_health
 req.header: pointofservicedriverinterface.h
+req.construct-type: ioctl
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_POINT_OF_SERVICE_CHECK_HEALTH
 ---
 
-# IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL
+# IOCTL_POINT_OF_SERVICE_CHECK_HEALTH IOCTL (pointofservicedriverinterface.h)
+
+
+
+
 
 
 ## -description

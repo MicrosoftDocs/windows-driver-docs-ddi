@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IddCxSwapChainSetDevice function"]
 ms.keywords: IddCxSwapChainSetDevice, IddCxSwapChainSetDevice method [Display Devices], display.iddcxswapchainsetdevice, iddcx/IddCxSwapChainSetDevice
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxSwapChainSetDevice
 ---
 
-# IddCxSwapChainSetDevice function
+# IddCxSwapChainSetDevice function (iddcx.h)
+
+
 
 
 ## -description

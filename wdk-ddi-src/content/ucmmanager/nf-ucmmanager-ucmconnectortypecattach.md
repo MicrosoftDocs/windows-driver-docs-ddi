@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmConnectorTypeCAttach function"]
 ms.keywords: UcmConnectorTypeCAttach, UcmConnectorTypeCAttach method [Buses], buses.ucmconnectortypecattach, ucmmanager/UcmConnectorTypeCAttach
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorTypeCAttach
 ---
 
-# UcmConnectorTypeCAttach function
+# UcmConnectorTypeCAttach function (ucmmanager.h)
+
+
 
 
 ## -description

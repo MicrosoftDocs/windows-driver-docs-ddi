@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["REFS_SMR_VOLUME_GC_STATE enumeration"]
 ms.keywords: "*PREFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE, SmrGcStateActive, SmrGcStateActiveFullSpeed, SmrGcStateInactive, SmrGcStatePaused, _REFS_SMR_VOLUME_GC_STATE, ifsk.refs_smr_volume_gc_state, ntifs/PREFS_SMR_VOLUME_GC_STATE, ntifs/REFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActive, ntifs/SmrGcStateActiveFullSpeed, ntifs/SmrGcStateInactive, ntifs/SmrGcStatePaused"
 req.header: ntifs.h
+req.construct-type: enumeration
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -45,7 +46,9 @@ api_name:
  - REFS_SMR_VOLUME_GC_STATE
 ---
 
-# REFS_SMR_VOLUME_GC_STATE enumeration
+# REFS_SMR_VOLUME_GC_STATE enumeration (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RemoveTailList function"]
 ms.keywords: RemoveTailList, RemoveTailList routine [Kernel-Mode Driver Architecture], k109_b9ce310f-ead1-46ee-a591-ae018f61f536.xml, kernel.removetaillist, wdm/RemoveTailList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RemoveTailList
 ---
 
-# RemoveTailList function
+# RemoveTailList function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPreDeviceRemove function"]
 ms.keywords: DFCoinstallerRef_6eeb3b62-08ef-4d17-a6af-9945a3737f0d.xml, WdfPreDeviceRemove, WdfPreDeviceRemove function, kmdf.wdfpredeviceremove, wdf.wdfpredeviceremove, wdfinstaller/WdfPreDeviceRemove
 req.header: wdfinstaller.h
+req.construct-type: function
 req.include-header: Wdfinstaller.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPreDeviceRemove
 ---
 
-# WdfPreDeviceRemove function
+# WdfPreDeviceRemove function (wdfinstaller.h)
+
+
 
 
 ## -description

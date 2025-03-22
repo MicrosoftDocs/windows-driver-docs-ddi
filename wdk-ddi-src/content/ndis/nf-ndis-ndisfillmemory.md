@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFillMemory macro"]
 ms.keywords: NdisFillMemory, NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, netvista.ndisfillmemory
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlFillMemory instead.
@@ -40,7 +41,11 @@ api_name:
  - NdisFillMemory
 ---
 
-# NdisFillMemory macro
+# NdisFillMemory macro (ndis.h)
+
+
+
+
 
 
 ## -description

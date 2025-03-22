@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionRequest::Cancel"]
 ms.keywords: Cancel, Cancel method [Print Devices], Cancel method [Print Devices],IPrinterExtensionRequest interface, IPrinterExtensionRequest interface [Print Devices],Cancel method, IPrinterExtensionRequest.Cancel, IPrinterExtensionRequest::Cancel, print.iprinterextensionrequest_cancel, printerextension/IPrinterExtensionRequest::Cancel
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionRequest::Cancel
 ---
+
+# IPrinterExtensionRequest::Cancel function (printerextension.h)
 
 ## -description
 

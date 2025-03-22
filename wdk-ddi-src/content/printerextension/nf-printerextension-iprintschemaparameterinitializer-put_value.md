@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrintSchemaParameterInitializer::put_Value"]
 ms.keywords: IPrintSchemaParameterInitializer interface [Print Devices],Value property, IPrintSchemaParameterInitializer,put_Value, IPrintSchemaParameterInitializer.Value, IPrintSchemaParameterInitializer.put_Value, IPrintSchemaParameterInitializer::Value, IPrintSchemaParameterInitializer::put_Value, Value property [Print Devices], Value property [Print Devices],IPrintSchemaParameterInitializer interface, print.iprintschemaparameterinitializer_putvalue, printerextension/IPrintSchemaParameterInitializer::Value, printerextension/IPrintSchemaParameterInitializer::put_Value, put_Value
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaParameterInitializer::put_Value
 ---
+
+# IPrintSchemaParameterInitializer::put_Value function (printerextension.h)
 
 ## -description
 

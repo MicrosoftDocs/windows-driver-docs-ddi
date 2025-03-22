@@ -8,6 +8,7 @@ ms.date: 01/05/2022
 keywords: ["UcmTcpciPortControllerAlert function"]
 ms.keywords: UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], buses.ucmtcpciportcontrolleralert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert
 req.header: ucmtcpciportcontroller.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcmTcpciPortControllerAlert
 ---
 
-# UcmTcpciPortControllerAlert function
+# UcmTcpciPortControllerAlert function (ucmtcpciportcontroller.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterPropertyBag::SetBytes"]
 ms.keywords: IPrinterPropertyBag interface [Print Devices],SetBytes method, IPrinterPropertyBag.SetBytes, IPrinterPropertyBag::SetBytes, SetBytes, SetBytes method [Print Devices], SetBytes method [Print Devices],IPrinterPropertyBag interface, print.iprinterpropertybag_setbytes, printerextension/IPrinterPropertyBag::SetBytes
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: Printerextension.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterPropertyBag::SetBytes
 ---
+
+# IPrinterPropertyBag::SetBytes function (printerextension.h)
 
 ## -description
 

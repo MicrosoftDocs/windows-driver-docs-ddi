@@ -8,6 +8,7 @@ ms.date: 08/26/2022
 keywords: ["RtlUnicodeStringCchCopyNEx function"]
 ms.keywords: RtlUnicodeStringCchCopyNEx, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringcchcopynex, ntstrsafe/RtlUnicodeStringCchCopyNEx, safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows XP with Service Pack 1 (SP1).
@@ -41,7 +42,9 @@ api_name:
  - RtlUnicodeStringCchCopyNEx
 ---
 
-# RtlUnicodeStringCchCopyNEx function
+# RtlUnicodeStringCchCopyNEx function (ntstrsafe.h)
+
+
 
 ## -description
 

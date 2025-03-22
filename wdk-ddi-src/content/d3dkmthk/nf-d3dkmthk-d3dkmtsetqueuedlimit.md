@@ -7,6 +7,7 @@ ms.date: 03/01/2022
 keywords: ["D3DKMTSetQueuedLimit function"]
 ms.keywords: D3DKMTSetQueuedLimit, D3DKMTSetQueuedLimit function [Display Devices], OpenGL_Functions_22227369-eb8b-4ee0-a3d8-97eb0f469d94.xml, d3dkmthk/D3DKMTSetQueuedLimit, display.d3dkmtsetqueuedlimit
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTSetQueuedLimit
 ---
 
-# D3DKMTSetQueuedLimit function
+# D3DKMTSetQueuedLimit function (d3dkmthk.h)
+
+
 
 ## -description
 

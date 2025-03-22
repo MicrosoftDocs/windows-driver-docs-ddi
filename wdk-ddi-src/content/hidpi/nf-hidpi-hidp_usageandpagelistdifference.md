@@ -8,6 +8,7 @@ ms.date: 12/02/2021
 keywords: ["HidP_UsageAndPageListDifference function"]
 ms.keywords: HidP_UsageAndPageListDifference, HidP_UsageAndPageListDifference function [Human Input Devices], hid.hidp_usageandpagelistdifference, hidfunc_0c86a540-d046-449f-a6ee-a122141fe6a3.xml, hidpi/HidP_UsageAndPageListDifference
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - HidP_UsageAndPageListDifference
 ---
 
-# HidP_UsageAndPageListDifference function
+# HidP_UsageAndPageListDifference function (hidpi.h)
+
+
 
 ## -description
 

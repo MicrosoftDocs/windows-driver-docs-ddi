@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPublishDeviceProfile function"]
 ms.keywords: KsPublishDeviceProfile, KsPublishDeviceProfile function [Streaming Media Devices], ks/KsPublishDeviceProfile, stream.kspublishdeviceprofile
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ksmedia.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsPublishDeviceProfile
 ---
 
-# KsPublishDeviceProfile function
+# KsPublishDeviceProfile function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_PREDICT_FAILURE IOCTL"]
 ms.keywords: IOCTL_STORAGE_PREDICT_FAILURE, IOCTL_STORAGE_PREDICT_FAILURE control, IOCTL_STORAGE_PREDICT_FAILURE control code [Storage Devices], k307_396b070a-af8a-4271-9d17-efb385869570.xml, ntddstor/IOCTL_STORAGE_PREDICT_FAILURE, storage.ioctl_storage_predict_failure
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_PREDICT_FAILURE
 ---
 
-# IOCTL_STORAGE_PREDICT_FAILURE IOCTL
+# IOCTL_STORAGE_PREDICT_FAILURE IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

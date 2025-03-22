@@ -7,6 +7,7 @@ ms.date: 03/09/2023
 keywords: ["XcvDataPort function"]
 ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - XcvDataPort
 ---
+
+# XcvDataPort function (winsplp.h)
 
 ## -description
 

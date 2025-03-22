@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_BUS_SPEED enumeration"]
 ms.keywords: "*PUSBFN_BUS_SPEED, USBFN_BUS_SPEED, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedFull, UsbfnBusSpeedHigh, UsbfnBusSpeedLow, UsbfnBusSpeedMaximum, UsbfnBusSpeedSuper, _USBFN_BUS_SPEED, buses.usbfn_bus_speed, usbfnbase/USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedHigh, usbfnbase/UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedSuper"
 req.header: usbfnbase.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_BUS_SPEED
 ---
 
-# _USBFN_BUS_SPEED enumeration
+# USBFN_BUS_SPEED enumeration (usbfnbase.h)
+
+
 
 
 ## -description

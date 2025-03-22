@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlDowncaseUnicodeString function"]
 ms.keywords: RtlDowncaseUnicodeString, RtlDowncaseUnicodeString routine [Installable File System Drivers], ifsk.rtldowncaseunicodestring, ntifs/RtlDowncaseUnicodeString, rtlref_140e7faa-096a-49df-a2b7-87776cfc5b38.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlDowncaseUnicodeString
 ---
 
-# RtlDowncaseUnicodeString function
+# RtlDowncaseUnicodeString function (ntifs.h)
+
+
 
 
 ## -description

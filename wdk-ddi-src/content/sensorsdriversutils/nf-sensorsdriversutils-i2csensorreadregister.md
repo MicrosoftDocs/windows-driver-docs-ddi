@@ -7,6 +7,7 @@ ms.date: 04/19/2018
 keywords: ["I2CSensorReadRegister function"]
 ms.keywords: I2CSensorReadRegister
 req.header: sensorsdriversutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - I2CSensorReadRegister
 ---
 
-# I2CSensorReadRegister function
+# I2CSensorReadRegister function (sensorsdriversutils.h)
+
+
 
 
 ## -description

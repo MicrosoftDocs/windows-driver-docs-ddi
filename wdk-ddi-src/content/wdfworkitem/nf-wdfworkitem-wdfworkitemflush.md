@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWorkItemFlush function"]
 ms.keywords: DFWorkItemObjectRef_620a50e7-1995-4806-b71a-932f7fc7c35a.xml, WdfWorkItemFlush, WdfWorkItemFlush method, kmdf.wdfworkitemflush, wdf.wdfworkitemflush, wdfworkitem/WdfWorkItemFlush
 req.header: wdfworkitem.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfWorkItemFlush
 ---
 
-# WdfWorkItemFlush function
+# WdfWorkItemFlush function (wdfworkitem.h)
+
+
 
 
 ## -description

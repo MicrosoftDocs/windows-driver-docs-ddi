@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCopyCurrentIrpStackLocationToNext function"]
 ms.keywords: IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, kernel.iocopycurrentirpstacklocationtonext, wdm/IoCopyCurrentIrpStackLocationToNext
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoCopyCurrentIrpStackLocationToNext
 ---
 
-# IoCopyCurrentIrpStackLocationToNext function
+# IoCopyCurrentIrpStackLocationToNext function (wdm.h)
+
+
 
 
 ## -description

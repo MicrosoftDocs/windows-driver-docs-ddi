@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["wiauDbgErrorHr function"]
 ms.keywords: image.wiaudbgerrorhr, wiauDbgErrorHr, wiauDbgErrorHr function [Imaging Devices], wiauFncs_1400188e-53d1-481c-a470-8a2247b7f34f.xml, wiautil/wiauDbgErrorHr
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiauDbgErrorHr
 ---
+
+# wiauDbgErrorHr function (wiautil.h)
 
 ## -description
 

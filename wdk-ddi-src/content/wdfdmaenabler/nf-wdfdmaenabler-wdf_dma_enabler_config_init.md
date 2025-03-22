@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DMA_ENABLER_CONFIG_INIT function"]
 ms.keywords: DFDmaObjectRef_2d577e59-2038-4850-a67c-6e7f3b795387.xml, WDF_DMA_ENABLER_CONFIG_INIT, WDF_DMA_ENABLER_CONFIG_INIT function, kmdf.wdf_dma_enabler_config_init, wdf.wdf_dma_enabler_config_init, wdfdmaenabler/WDF_DMA_ENABLER_CONFIG_INIT
 req.header: wdfdmaenabler.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_DMA_ENABLER_CONFIG_INIT
 ---
 
-# WDF_DMA_ENABLER_CONFIG_INIT function
+# WDF_DMA_ENABLER_CONFIG_INIT function (wdfdmaenabler.h)
+
+
 
 
 ## -description

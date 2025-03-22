@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SdpCreateNodeInt8 function"]
 ms.keywords: SdpCreateNodeInt8, SdpCreateNodeInt8 function [Bluetooth Devices], bltooth.sdpcreatenodeint8, bth_funcs_445898ae-3a2a-49f7-bfff-30e8c0773227.xml, sdplib/SdpCreateNodeInt8
 req.header: sdplib.h
+req.construct-type: function
 req.include-header: BthSdpddi.h
 req.target-type: Desktop
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,9 @@ api_name:
  - SdpCreateNodeInt8
 ---
 
-# SdpCreateNodeInt8 function
+# SdpCreateNodeInt8 function (sdplib.h)
+
+
 
 
 ## -description

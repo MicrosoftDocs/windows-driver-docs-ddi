@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiauDbgLegacyError2 function"]
 ms.keywords: image.wiaudbglegacyerror2, wiauDbgLegacyError2, wiauDbgLegacyError2 function [Imaging Devices], wiauFncs_647f5e2c-bcc7-4e9a-9746-2f0685f29fcf.xml, wiautil/wiauDbgLegacyError2
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - wiauDbgLegacyError
 ---
 
-# wiauDbgLegacyError2 function
+# wiauDbgLegacyError2 function (wiautil.h)
+
+
 
 
 ## -description

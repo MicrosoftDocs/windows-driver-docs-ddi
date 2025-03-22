@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoInitOpenRegistryKey function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method, kmdf.wdffdoinitopenregistrykey, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfFdoInitOpenRegistryKey
 ---
 
-# WdfFdoInitOpenRegistryKey function
+# WdfFdoInitOpenRegistryKey function (wdffdo.h)
+
+
 
 
 ## -description

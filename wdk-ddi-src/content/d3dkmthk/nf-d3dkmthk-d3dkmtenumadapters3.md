@@ -6,6 +6,7 @@ ms.date: 03/24/2020
 keywords: ["D3DKMTEnumAdapters3 function"]
 ms.keywords: D3DKMTEnumAdapters3
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 2004
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTEnumAdapters3 function
+# D3DKMTEnumAdapters3 function (d3dkmthk.h)
+
+
 
 ## -description
 

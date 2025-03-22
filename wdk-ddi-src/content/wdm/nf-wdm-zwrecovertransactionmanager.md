@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwRecoverTransactionManager function"]
 ms.keywords: NtRecoverTransactionManager, ZwRecoverTransactionManager, ZwRecoverTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrecovertransactionmanager, ktm_ref_8ff406ba-2e7b-453e-8fc7-12e88a3bf41e.xml, wdm/NtRecoverTransactionManager, wdm/ZwRecoverTransactionManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - ZwRecoverTransactionManager
 ---
 
-# ZwRecoverTransactionManager function
+# ZwRecoverTransactionManager function (wdm.h)
+
+
 
 
 ## -description

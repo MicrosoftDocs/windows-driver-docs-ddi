@@ -6,6 +6,7 @@ ms.date: 05/20/2024
 keywords: ["D3D12DDI_SHADER_MODEL enumeration"]
 ms.keywords: D3D12DDI_SHADER_MODEL, D3D12DDI_SHADER_MODEL,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,7 +31,9 @@ api_name:
  - D3D12DDI_SHADER_MODEL
 ---
 
-# D3D12DDI_SHADER_MODEL enumeration
+# D3D12DDI_SHADER_MODEL enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

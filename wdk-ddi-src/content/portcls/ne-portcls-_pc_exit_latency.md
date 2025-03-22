@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PC_EXIT_LATENCY enumeration"]
 ms.keywords: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY, PC_EXIT_LATENCY enumeration [Audio Devices], PcExitLatencyFast, PcExitLatencyInstant, PcExitLatencyResponsive, _PC_EXIT_LATENCY, audio.pc_exit_latency, portcls/PC_EXIT_LATENCY, portcls/PcExitLatencyFast, portcls/PcExitLatencyInstant, portcls/PcExitLatencyResponsive"
 req.header: portcls.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - PC_EXIT_LATENCY
 ---
 
-# _PC_EXIT_LATENCY enumeration
+# PC_EXIT_LATENCY enumeration (portcls.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterCreatePinFactory function"]
 ms.keywords: KsFilterCreatePinFactory, KsFilterCreatePinFactory function [Streaming Media Devices], avfunc_845b66c4-755e-43db-afdc-db929b6bd1c6.xml, ks/KsFilterCreatePinFactory, stream.ksfiltercreatepinfactory
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsFilterCreatePinFactory
 ---
 
-# KsFilterCreatePinFactory function
+# KsFilterCreatePinFactory function (ks.h)
+
+
 
 
 ## -description

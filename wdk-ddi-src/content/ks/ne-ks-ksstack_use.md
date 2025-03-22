@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSSTACK_USE enumeration"]
 ms.keywords: KSSTACK_USE, KSSTACK_USE enumeration [Streaming Media Devices], KsStackCopyToNewLocation, KsStackReuseCurrentLocation, KsStackUseNewLocation, ks/KSSTACK_USE, ks/KsStackCopyToNewLocation, ks/KsStackReuseCurrentLocation, ks/KsStackUseNewLocation, stream.ksstack_use
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSSTACK_USE
 ---
 
-# KSSTACK_USE enumeration
+# KSSTACK_USE enumeration (ks.h)
+
+
 
 
 ## -description

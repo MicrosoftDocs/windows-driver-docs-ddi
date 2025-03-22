@@ -8,6 +8,7 @@ ms.date: 07/29/2021
 keywords: ["KeReleaseSemaphore function"]
 ms.keywords: KeReleaseSemaphore, KeReleaseSemaphore routine [Kernel-Mode Driver Architecture], k105_43c9caa4-267a-43c4-8b48-f030e1c2f0d5.xml, kernel.kereleasesemaphore, wdm/KeReleaseSemaphore
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeReleaseSemaphore
 ---
 
-# KeReleaseSemaphore function
+# KeReleaseSemaphore function (wdm.h)
+
+
 
 ## -description
 

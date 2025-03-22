@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeOpenObjectAuditAlarm function"]
 ms.keywords: SeOpenObjectAuditAlarm, SeOpenObjectAuditAlarm routine [Installable File System Drivers], ifsk.seopenobjectauditalarm, ntifs/SeOpenObjectAuditAlarm, seref_87dbea09-cd36-40c2-8241-16c8180f1945.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeOpenObjectAuditAlarm
 ---
 
-# SeOpenObjectAuditAlarm function
+# SeOpenObjectAuditAlarm function (ntifs.h)
+
+
 
 
 ## -description

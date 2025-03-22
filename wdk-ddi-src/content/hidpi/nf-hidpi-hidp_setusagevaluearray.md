@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_SetUsageValueArray function"]
 ms.keywords: HidP_SetUsageValueArray, HidP_SetUsageValueArray routine [Human Input Devices], hid.hidp_setusagevaluearray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, hidpi/HidP_SetUsageValueArray
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_SetUsageValueArray
 ---
 
-# HidP_SetUsageValueArray function
+# HidP_SetUsageValueArray function (hidpi.h)
+
+
 
 
 ## -description

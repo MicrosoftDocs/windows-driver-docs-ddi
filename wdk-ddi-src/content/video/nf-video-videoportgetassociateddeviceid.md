@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortGetAssociatedDeviceID function"]
 ms.keywords: VideoPortGetAssociatedDeviceID, VideoPortGetAssociatedDeviceID function [Display Devices], VideoPort_Functions_56a3fa57-fd1a-4b45-8de7-ee9450a525f4.xml, display.videoportgetassociateddeviceid, video/VideoPortGetAssociatedDeviceID
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortGetAssociatedDeviceID
 ---
 
-# VideoPortGetAssociatedDeviceID function
+# VideoPortGetAssociatedDeviceID function (video.h)
+
+
 
 
 ## -description

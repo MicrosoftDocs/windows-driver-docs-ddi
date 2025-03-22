@@ -9,6 +9,7 @@ ms.date: 10/09/2020
 keywords: ["NetOffloadIsUsoIPv6Enabled function"]
 ms.keywords: NetOffloadIsUsoIPv6Enabled
 req.header: netadapteroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -39,7 +40,9 @@ api_name:
  - NetOffloadIsUsoIPv6Enabled
 ---
 
-# NetOffloadIsUsoIPv6Enabled function
+# NetOffloadIsUsoIPv6Enabled function (netadapteroffload.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbTargetGetFileObject function"]
 ms.keywords: SPB.spbtargetgetfileobject, SpbTargetGetFileObject, SpbTargetGetFileObject method [Buses], spbcx/SpbTargetGetFileObject
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbTargetGetFileObject
 ---
 
-# SpbTargetGetFileObject function
+# SpbTargetGetFileObject function (spbcx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmIsDriverVerifyingByAddress function"]
 ms.keywords: MmIsDriverVerifyingByAddress, MmIsDriverVerifyingByAddress routine [Kernel-Mode Driver Architecture], k106_37d22f13-de6a-4423-b148-9a7481570aaf.xml, kernel.mmisdriververifyingbyaddress, wdm/MmIsDriverVerifyingByAddress
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - MmIsDriverVerifyingByAddress
 ---
 
-# MmIsDriverVerifyingByAddress function
+# MmIsDriverVerifyingByAddress function (wdm.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_IOCTL macro"]
 ms.keywords: SIDEBANDAUDIO_IOCTL
 req.header: sidebandaudio.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - SIDEBANDAUDIO_IOCTL
 ---
 
-# SIDEBANDAUDIO_IOCTL macro
+# SIDEBANDAUDIO_IOCTL macro (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

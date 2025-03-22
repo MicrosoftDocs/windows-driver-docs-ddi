@@ -7,6 +7,7 @@ ms.date: 06/13/2021
 keywords: ["IoAllocateAdapterChannel function"]
 ms.keywords: IoAllocateAdapterChannel
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - IoAllocateAdapterChannel
 ---
 
-# IoAllocateAdapterChannel function
+# IoAllocateAdapterChannel function (ntddk.h)
+
+
 
 ## -description
 

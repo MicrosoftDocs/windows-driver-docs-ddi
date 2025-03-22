@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WdmlibProcgrpInitialize function"]
 ms.keywords: WdmlibProcgrpInitialize, WdmlibProcgrpInitialize function [Kernel-Mode Driver Architecture], kernel.wdmlibprocgrpinitialize, procgrp/WdmlibProcgrpInitialize, procgrp_ba92a7bb-1a2b-4056-bebd-d9df299768c1.xml
 req.header: procgrp.h
+req.construct-type: function
 req.include-header: Procgrp.h
 req.target-type: Desktop
 req.target-min-winverclnt: Compatible with Windows 7, Windows Server 2008 R2, Windows Server 2008, Windows Vista, Windows Server 2003, Windows XP, and Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - WdmlibProcgrpInitialize
 ---
 
-# WdmlibProcgrpInitialize function
+# WdmlibProcgrpInitialize function (procgrp.h)
+
+
 
 
 ## -description

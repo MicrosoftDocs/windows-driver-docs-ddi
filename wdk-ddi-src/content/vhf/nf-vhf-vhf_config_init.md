@@ -8,6 +8,7 @@ ms.date: 10/26/2021
 keywords: ["VHF_CONFIG_INIT function"]
 ms.keywords: VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices], hid.vhf_config_init, vhf/VHF_CONFIG_INIT
 req.header: vhf.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - VHF_CONFIG_INIT
 ---
 
-# VHF_CONFIG_INIT function
+# VHF_CONFIG_INIT function (vhf.h)
+
+
 
 
 ## -description

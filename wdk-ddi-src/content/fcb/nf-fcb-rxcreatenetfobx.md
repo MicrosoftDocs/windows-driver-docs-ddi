@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCreateNetFobx function"]
 ms.keywords: RxCreateNetFobx, RxCreateNetFobx function [Installable File System Drivers], fcb/RxCreateNetFobx, ifsk.rxcreatenetfobx, rxref_851152a8-bc89-44f8-9e74-1621e425dbba.xml
 req.header: fcb.h
+req.construct-type: function
 req.include-header: Rxcontx.h, Mrxfcb.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCreateNetFobx
 ---
 
-# RxCreateNetFobx function
+# RxCreateNetFobx function (fcb.h)
+
+
 
 
 ## -description

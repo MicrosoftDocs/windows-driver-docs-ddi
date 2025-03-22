@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_KS_WRITE_STREAM IOCTL"]
 ms.keywords: IOCTL_KS_WRITE_STREAM, IOCTL_KS_WRITE_STREAM control, IOCTL_KS_WRITE_STREAM control code [Streaming Media Devices], ks-ioctl_83263ce8-e0b1-4ae5-a5b8-848e0fb99471.xml, ks/IOCTL_KS_WRITE_STREAM, stream.ioctl_ks_write_stream
 req.header: ks.h
+req.construct-type: ioctl
 req.include-header: Ks.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_KS_WRITE_STREAM
 ---
 
-# IOCTL_KS_WRITE_STREAM IOCTL
+# IOCTL_KS_WRITE_STREAM IOCTL (ks.h)
+
+
+
+
 
 
 ## -description

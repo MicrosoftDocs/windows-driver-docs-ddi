@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCommonBufferGetAlignedVirtualAddress function"]
 ms.keywords: DFCommonBufferObjectRef_469df6c0-51ef-480a-93fe-dee452eaf216.xml, WdfCommonBufferGetAlignedVirtualAddress, WdfCommonBufferGetAlignedVirtualAddress method, kmdf.wdfcommonbuffergetalignedvirtualaddress, wdf.wdfcommonbuffergetalignedvirtualaddress, wdfcommonbuffer/WdfCommonBufferGetAlignedVirtualAddress
 req.header: wdfcommonbuffer.h
+req.construct-type: function
 req.include-header: WdfCommonBuffer.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfCommonBufferGetAlignedVirtualAddress
 ---
 
-# WdfCommonBufferGetAlignedVirtualAddress function
+# WdfCommonBufferGetAlignedVirtualAddress function (wdfcommonbuffer.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoIsSystemThread function"]
 ms.keywords: IoIsSystemThread, IoIsSystemThread routine [Installable File System Drivers], ifsk.ioissystemthread, ioref_3e14f3af-c985-43a4-bc57-927483597c79.xml, ntifs/IoIsSystemThread
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoIsSystemThread
 ---
 
-# IoIsSystemThread function
+# IoIsSystemThread function (ntifs.h)
+
+
 
 
 ## -description

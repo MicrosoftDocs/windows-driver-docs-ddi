@@ -4,6 +4,7 @@ title: D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS (d3dkmthk.h)
 description: Learn more about the D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -31,7 +32,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration
+# D3DKMT_MULTIPLANE_OVERLAY_YCbCr_FLAGS enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

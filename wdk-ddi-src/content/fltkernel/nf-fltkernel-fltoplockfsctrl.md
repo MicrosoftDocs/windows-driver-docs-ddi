@@ -8,6 +8,7 @@ ms.date: 01/08/2021
 keywords: ["FltOplockFsctrl function"]
 ms.keywords: FltApiRef_e_to_o_d34fe16c-8dc9-43be-866b-57244e9defa8.xml, FltOplockFsctrl, FltOplockFsctrl routine [Installable File System Drivers], fltkernel/FltOplockFsctrl, ifsk.fltoplockfsctrl
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltOplockFsctrl
 ---
 
-# FltOplockFsctrl function
+# FltOplockFsctrl function (fltkernel.h)
+
+
 
 ## -description
 

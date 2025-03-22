@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WFD_SCAN_TYPE enumeration"]
 ms.keywords: "*PDOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], _DOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_active, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_passive, netvista.dot11_wfd_scan_type, windot11/DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, windot11/dot11_wfd_scan_type_auto, windot11/dot11_wfd_scan_type_passive"
 req.header: windot11.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WFD_SCAN_TYPE
 ---
 
-# _DOT11_WFD_SCAN_TYPE enumeration
+# DOT11_WFD_SCAN_TYPE enumeration (windot11.h)
+
+
 
 
 ## -description

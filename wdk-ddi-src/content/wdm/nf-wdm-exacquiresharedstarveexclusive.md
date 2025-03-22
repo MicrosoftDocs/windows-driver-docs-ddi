@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExAcquireSharedStarveExclusive function"]
 ms.keywords: ExAcquireSharedStarveExclusive, ExAcquireSharedStarveExclusive routine [Kernel-Mode Driver Architecture], k102_b350fc88-cc76-4432-98e0-90e113e98007.xml, kernel.exacquiresharedstarveexclusive, wdm/ExAcquireSharedStarveExclusive
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExAcquireSharedStarveExclusive
 ---
 
-# ExAcquireSharedStarveExclusive function
+# ExAcquireSharedStarveExclusive function (wdm.h)
+
+
 
 
 ## -description

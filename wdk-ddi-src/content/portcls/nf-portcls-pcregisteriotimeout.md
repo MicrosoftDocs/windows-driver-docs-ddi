@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRegisterIoTimeout function"]
 ms.keywords: PcRegisterIoTimeout, PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml, portcls/PcRegisterIoTimeout
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcRegisterIoTimeout function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcRegisterIoTimeout
 ---
 
-# PcRegisterIoTimeout function
+# PcRegisterIoTimeout function (portcls.h)
+
+
 
 
 ## -description

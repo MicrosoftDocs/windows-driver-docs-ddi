@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaDisplayableElement::get_DisplayName"]
 ms.keywords: DisplayName property [Print Devices], DisplayName property [Print Devices],IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement interface [Print Devices],DisplayName property, IPrintSchemaDisplayableElement.DisplayName, IPrintSchemaDisplayableElement.get_DisplayName, IPrintSchemaDisplayableElement::DisplayName, IPrintSchemaDisplayableElement::get_DisplayName, get_DisplayName, print.iprintschemadisplayableelement_displayname, printerextension/IPrintSchemaDisplayableElement::DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaDisplayableElement::get_DisplayName
 ---
+
+# IPrintSchemaDisplayableElement::get_DisplayName function (printerextension.h)
 
 ## -description
 

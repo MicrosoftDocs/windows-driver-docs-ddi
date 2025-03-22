@@ -8,6 +8,7 @@ ms.date: 04/29/2019
 keywords: ["KS_VIDEODECODER_FLAGS enumeration"]
 ms.keywords: KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, stream.ks_videodecoder_flags, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml
 req.header: ksmedia.h
+req.construct-type: enumeration
 req.include-header: Ksmedia.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KS_VIDEODECODER_FLAGS
 ---
 
-# KS_VIDEODECODER_FLAGS enumeration
+# KS_VIDEODECODER_FLAGS enumeration (ksmedia.h)
+
+
 
 
 ## -description

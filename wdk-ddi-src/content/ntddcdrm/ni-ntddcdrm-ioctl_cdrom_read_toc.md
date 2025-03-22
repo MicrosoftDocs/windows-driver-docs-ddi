@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_CDROM_READ_TOC IOCTL"]
 ms.keywords: IOCTL_CDROM_READ_TOC, IOCTL_CDROM_READ_TOC control, IOCTL_CDROM_READ_TOC control code [Storage Devices], k307_8e0f2b70-edd0-424e-abb4-a81ea9f382fe.xml, ntddcdrm/IOCTL_CDROM_READ_TOC, storage.ioctl_cdrom_read_toc
 req.header: ntddcdrm.h
+req.construct-type: ioctl
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: Obsolete, beginning with Windows Vista.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CDROM_READ_TOC
 ---
 
-# IOCTL_CDROM_READ_TOC IOCTL
+# IOCTL_CDROM_READ_TOC IOCTL (ntddcdrm.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["MsrTrackErrorType enumeration"]
 ms.keywords: MsrTrackErrorType, MsrTrackErrorType enumeration, MsrTrackErrorType_EndSentinelError, MsrTrackErrorType_LrcError, MsrTrackErrorType_None, MsrTrackErrorType_ParityError, MsrTrackErrorType_StartSentinelError, MsrTrackErrorType_Unknown, _MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType_None, pointofservicedriverinterface/MsrTrackErrorType_ParityError, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_Unknown, pos.msrtrackerrortype
 req.header: pointofservicedriverinterface.h
+req.construct-type: enumeration
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - MsrTrackErrorType
 ---
 
-# _MsrTrackErrorType enumeration
+# MsrTrackErrorType enumeration (pointofservicedriverinterface.h)
+
+
 
 
 ## -description

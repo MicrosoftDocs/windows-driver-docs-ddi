@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfObjectContextGetObject function"]
 ms.keywords: DFGenObjectRef_cf11ce54-dbb0-4835-919d-6f0bec903e2d.xml, WdfObjectContextGetObject, WdfObjectContextGetObject method, kmdf.wdfobjectcontextgetobject, wdf.wdfobjectcontextgetobject, wdfobject/WdfObjectContextGetObject
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfObjectContextGetObject
 ---
 
-# WdfObjectContextGetObject function
+# WdfObjectContextGetObject function (wdfobject.h)
+
+
 
 
 ## -description

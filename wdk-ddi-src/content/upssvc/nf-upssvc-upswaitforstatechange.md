@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["UPSWaitForStateChange function"]
 ms.keywords: UPSWaitForStateChange, UPSWaitForStateChange function [Battery Devices], UPS_fns_8921d5d9-c4d0-496f-b531-a697ac06da93.xml, battery.upswaitforstatechange, upssvc/UPSWaitForStateChange
 req.header: upssvc.h
+req.construct-type: function
 req.include-header: Upssvc.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UPSWaitForStateChange
 ---
 
-# UPSWaitForStateChange function
+# UPSWaitForStateChange function (upssvc.h)
+
+
 
 
 ## -description

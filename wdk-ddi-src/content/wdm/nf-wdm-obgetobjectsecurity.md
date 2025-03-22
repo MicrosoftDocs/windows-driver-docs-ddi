@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ObGetObjectSecurity function"]
 ms.keywords: ObGetObjectSecurity, ObGetObjectSecurity routine [Kernel-Mode Driver Architecture], k107_a0c800de-984a-427f-b308-415f831e5d34.xml, kernel.obgetobjectsecurity, wdm/ObGetObjectSecurity
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ObGetObjectSecurity
 ---
 
-# ObGetObjectSecurity function
+# ObGetObjectSecurity function (wdm.h)
+
+
 
 
 ## -description

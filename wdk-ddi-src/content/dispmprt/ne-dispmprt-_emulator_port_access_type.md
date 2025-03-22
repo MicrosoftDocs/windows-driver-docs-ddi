@@ -7,6 +7,7 @@ ms.date: 04/04/2019
 keywords: ["EMULATOR_PORT_ACCESS_TYPE enumeration"]
 ms.keywords: _EMULATOR_PORT_ACCESS_TYPE, EMULATOR_PORT_ACCESS_TYPE, *PEMULATOR_PORT_ACCESS_TYPE,
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# _EMULATOR_PORT_ACCESS_TYPE enumeration
+# EMULATOR_PORT_ACCESS_TYPE enumeration (dispmprt.h)
+
+
 
 
 ## -description

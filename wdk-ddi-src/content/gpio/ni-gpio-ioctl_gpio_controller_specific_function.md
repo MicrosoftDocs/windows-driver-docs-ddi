@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION IOCTL"]
 ms.keywords: GPIO.ioctl_gpio_controller_specific_function, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control, IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION control code [Parallel Ports], gpio/IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 req.header: gpio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION
 ---
 
-# IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION IOCTL
+# IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION IOCTL (gpio.h)
+
+
+
+
 
 
 ## -description

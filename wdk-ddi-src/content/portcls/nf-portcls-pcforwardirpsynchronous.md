@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcForwardIrpSynchronous function"]
 ms.keywords: PcForwardIrpSynchronous, PcForwardIrpSynchronous function [Audio Devices], audio.pcforwardirpsynchronous, audpc-routines_9ecb1bfa-c318-424c-8f65-3777136c5f65.xml, portcls/PcForwardIrpSynchronous
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcForwardIrpSynchronous function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcForwardIrpSynchronous
 ---
 
-# PcForwardIrpSynchronous function
+# PcForwardIrpSynchronous function (portcls.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MODE_SCALING enumeration"]
 ms.keywords: DXGI_DDI_MODE_SCALING, DXGI_DDI_MODE_SCALING enumeration [Display Devices], DXGI_DDI_MODE_SCALING_CENTERED, DXGI_DDI_MODE_SCALING_STRETCHED, DXGI_DDI_MODE_SCALING_UNSPECIFIED, UMDisplayDriver_Dx10param_Structs_fce25008-9fff-4a5a-9bdc-2e9a6055ef06.xml, display.dxgi_ddi_mode_scaling, dxgiddi/DXGI_DDI_MODE_SCALING, dxgiddi/DXGI_DDI_MODE_SCALING_CENTERED, dxgiddi/DXGI_DDI_MODE_SCALING_STRETCHED, dxgiddi/DXGI_DDI_MODE_SCALING_UNSPECIFIED
 req.header: dxgiddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_MODE_SCALING
 ---
 
-# DXGI_DDI_MODE_SCALING enumeration
+# DXGI_DDI_MODE_SCALING enumeration (dxgiddi.h)
+
+
 
 
 ## -description

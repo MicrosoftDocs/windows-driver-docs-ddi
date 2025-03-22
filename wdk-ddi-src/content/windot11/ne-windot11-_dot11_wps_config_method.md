@@ -8,6 +8,7 @@ ms.date: 02/16/2018
 keywords: ["DOT11_WPS_CONFIG_METHOD enumeration"]
 ms.keywords: "*PDOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD, DOT11_WPS_CONFIG_METHOD enumeration [Network Drivers Starting with Windows Vista], DOT11_WPS_CONFIG_METHOD_DISPLAY, DOT11_WPS_CONFIG_METHOD_KEYPAD, DOT11_WPS_CONFIG_METHOD_NULL, DOT11_WPS_CONFIG_METHOD_PUSHBUTTON, _DOT11_WPS_CONFIG_METHOD, netvista.dot11_wps_config_method, windot11/DOT11_WPS_CONFIG_METHOD, windot11/DOT11_WPS_CONFIG_METHOD_DISPLAY, windot11/DOT11_WPS_CONFIG_METHOD_KEYPAD, windot11/DOT11_WPS_CONFIG_METHOD_NULL, windot11/DOT11_WPS_CONFIG_METHOD_PUSHBUTTON"
 req.header: windot11.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - DOT11_WPS_CONFIG_METHOD
 ---
 
-# _DOT11_WPS_CONFIG_METHOD enumeration
+# DOT11_WPS_CONFIG_METHOD enumeration (windot11.h)
+
+
 
 
 ## -description

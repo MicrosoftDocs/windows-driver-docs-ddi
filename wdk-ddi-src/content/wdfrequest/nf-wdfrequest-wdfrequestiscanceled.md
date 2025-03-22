@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestIsCanceled function"]
 ms.keywords: DFRequestObjectRef_2306854d-71f7-475f-bd8c-a74e2e6630ca.xml, WdfRequestIsCanceled, WdfRequestIsCanceled method, kmdf.wdfrequestiscanceled, wdf.wdfrequestiscanceled, wdfrequest/WdfRequestIsCanceled
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestIsCanceled
 ---
 
-# WdfRequestIsCanceled function
+# WdfRequestIsCanceled function (wdfrequest.h)
+
+
 
 
 ## -description

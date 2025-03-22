@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FsRtlCheckUpperOplock function"]
 ms.keywords: FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_READ, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, ntifs/FsRtlCheckUpperOplock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlCheckUpperOplock function
+# FsRtlCheckUpperOplock function (ntifs.h)
+
+
 
 ## -description
 

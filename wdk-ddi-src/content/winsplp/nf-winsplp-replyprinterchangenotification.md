@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["ReplyPrinterChangeNotification function"]
 ms.keywords: ReplyPrinterChangeNotification, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, winsplp/ReplyPrinterChangeNotification
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ReplyPrinterChangeNotification
 ---
+
+# ReplyPrinterChangeNotification function (winsplp.h)
 
 ## -description
 

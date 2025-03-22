@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortReadPortBufferUlong function"]
 ms.keywords: VideoPortReadPortBufferUlong, VideoPortReadPortBufferUlong function [Display Devices], VideoPort_Functions_a73970c1-c2cd-4d3c-a6e3-194eaacb978a.xml, display.videoportreadportbufferulong, video/VideoPortReadPortBufferUlong
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReadPortBufferUlong
 ---
 
-# VideoPortReadPortBufferUlong function
+# VideoPortReadPortBufferUlong function (video.h)
+
+
 
 
 ## -description

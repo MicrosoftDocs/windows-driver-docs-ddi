@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerGetNextClone function"]
 ms.keywords: KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices], avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, ks/KsStreamPointerGetNextClone, stream.ksstreampointergetnextclone
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerGetNextClone
 ---
 
-# KsStreamPointerGetNextClone function
+# KsStreamPointerGetNextClone function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRegisterAdapterPnpManagement function"]
 ms.keywords: PcRegisterAdapterPnPManagement, PcRegisterAdapterPnPManagement function [Audio Devices], PcRegisterAdapterPnpManagement, audio.pcregisteradapterpnpmanagement, portcls/PcRegisterAdapterPnPManagement
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 10, version 1511 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - PcRegisterAdapterPnpManagement
 ---
 
-# PcRegisterAdapterPnpManagement function
+# PcRegisterAdapterPnpManagement function (portcls.h)
+
+
 
 
 ## -description

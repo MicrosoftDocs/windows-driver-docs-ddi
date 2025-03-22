@@ -7,6 +7,7 @@ ms.date: 10/06/2020
 keywords: ["NetAdapterOffloadSetTxChecksumCapabilities function"]
 ms.keywords: NetAdapterOffloadSetTxChecksumCapabilities
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 11
@@ -38,7 +39,9 @@ api_name:
  - NetAdapterOffloadSetTxChecksumCapabilities
 ---
 
-# NetAdapterOffloadSetTxChecksumCapabilities function
+# NetAdapterOffloadSetTxChecksumCapabilities function (netadapter.h)
+
+
 
 
 ## -description

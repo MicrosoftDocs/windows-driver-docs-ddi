@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoAttachDeviceToDeviceStackSafe function"]
 ms.keywords: IoAttachDeviceToDeviceStackSafe, IoAttachDeviceToDeviceStackSafe routine [Installable File System Drivers], ifsk.ioattachdevicetodevicestacksafe, ioref_1db91288-e8ad-4796-9052-333bf37f01d1.xml, ntddk/IoAttachDeviceToDeviceStackSafe
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Update Rollup for Windows 2000 Service Pack 4 (SP4) and on Windows XP and later.
@@ -40,7 +41,9 @@ api_name:
  - IoAttachDeviceToDeviceStackSafe
 ---
 
-# IoAttachDeviceToDeviceStackSafe function
+# IoAttachDeviceToDeviceStackSafe function (ntddk.h)
+
+
 
 
 ## -description

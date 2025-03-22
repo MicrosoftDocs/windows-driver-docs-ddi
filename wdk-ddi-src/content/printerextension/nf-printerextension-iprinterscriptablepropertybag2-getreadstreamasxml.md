@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterScriptablePropertyBag2::GetReadStreamAsXML"]
 ms.keywords: GetReadStreamAsXML, GetReadStreamAsXML method [Print Devices], GetReadStreamAsXML method [Print Devices],IPrinterScriptablePropertyBag2 interface, IPrinterScriptablePropertyBag2 interface [Print Devices],GetReadStreamAsXML method, IPrinterScriptablePropertyBag2.GetReadStreamAsXML, IPrinterScriptablePropertyBag2::GetReadStreamAsXML, print.iprinterscriptablepropertybag2_getreadstreamasxml, printerextension/IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptablePropertyBag2::GetReadStreamAsXML
 ---
+
+# IPrinterScriptablePropertyBag2::GetReadStreamAsXML function (printerextension.h)
 
 ## -description
 

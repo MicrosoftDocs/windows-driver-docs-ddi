@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfMemoryCreatePreallocated function"]
 ms.keywords: DFMemoryObjectRef_03f219cd-a77b-4a17-b67a-2b01e0aeb3e6.xml, WdfMemoryCreatePreallocated, WdfMemoryCreatePreallocated method, kmdf.wdfmemorycreatepreallocated, wdf.wdfmemorycreatepreallocated, wdfmemory/WdfMemoryCreatePreallocated
 req.header: wdfmemory.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfMemoryCreatePreallocated
 ---
 
-# WdfMemoryCreatePreallocated function
+# WdfMemoryCreatePreallocated function (wdfmemory.h)
+
+
 
 
 ## -description

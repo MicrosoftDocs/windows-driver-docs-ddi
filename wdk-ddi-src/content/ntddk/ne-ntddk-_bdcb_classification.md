@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["BDCB_CLASSIFICATION enumeration"]
 ms.keywords: "*PBDCB_CLASSIFICATION, BDCB_CLASSIFICATION, BDCB_CLASSIFICATION enumeration [Kernel-Mode Driver Architecture], BdCbClassificationEnd, BdCbClassificationKnownBadImage, BdCbClassificationKnownBadImageBootCritical, BdCbClassificationKnownGoodImage, BdCbClassificationUnknownImage, _BDCB_CLASSIFICATION, kernel.bdcb_classification, ntddk/BDCB_CLASSIFICATION, ntddk/BdCbClassificationEnd, ntddk/BdCbClassificationKnownBadImage, ntddk/BdCbClassificationKnownBadImageBootCritical, ntddk/BdCbClassificationKnownGoodImage, ntddk/BdCbClassificationUnknownImage"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - BDCB_CLASSIFICATION
 ---
 
-# _BDCB_CLASSIFICATION enumeration
+# BDCB_CLASSIFICATION enumeration (ntddk.h)
+
+
 
 
 ## -description

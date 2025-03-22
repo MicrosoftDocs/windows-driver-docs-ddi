@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_SEND_KEY IOCTL"]
 ms.keywords: IOCTL_DVD_SEND_KEY, IOCTL_DVD_SEND_KEY control, IOCTL_DVD_SEND_KEY control code [Storage Devices], k307_9c0512f6-da79-4da0-a779-5a870ffe4b91.xml, ntddcdvd/IOCTL_DVD_SEND_KEY, storage.ioctl_dvd_send_key
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DVD_SEND_KEY
 ---
 
-# IOCTL_DVD_SEND_KEY IOCTL
+# IOCTL_DVD_SEND_KEY IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

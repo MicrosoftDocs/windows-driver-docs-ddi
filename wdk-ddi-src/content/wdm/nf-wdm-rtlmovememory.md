@@ -7,6 +7,7 @@ ms.date: 01/18/2023
 keywords: ["RtlMoveMemory macro"]
 ms.keywords: RtlMoveMemory, RtlMoveMemory routine [Kernel-Mode Driver Architecture], k109_5731ba5b-a7a5-4883-87cf-543768a29a93.xml, kernel.rtlmovememory, wdm/RtlMoveMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - RtlMoveMemory
 ---
+
+# RtlMoveMemory macro (wdm.h)
+
+
 
 ## -description
 

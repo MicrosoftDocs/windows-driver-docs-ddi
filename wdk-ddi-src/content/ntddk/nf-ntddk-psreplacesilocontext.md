@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsReplaceSiloContext function"]
 ms.keywords: PsReplaceSiloContext, PsReplaceSiloContext routine [Kernel-Mode Driver Architecture], kernel.psreplacesilocontext, ntddk/PsReplaceSiloContext
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - PsReplaceSiloContext
 ---
 
-# PsReplaceSiloContext function
+# PsReplaceSiloContext function (ntddk.h)
+
+
 
 
 ## -description

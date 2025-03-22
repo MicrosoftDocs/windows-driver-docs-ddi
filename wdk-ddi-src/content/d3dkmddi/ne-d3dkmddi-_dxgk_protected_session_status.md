@@ -7,6 +7,7 @@ ms.date: 10/13/2021
 keywords: ["DXGK_PROTECTED_SESSION_STATUS enumeration"]
 ms.keywords: DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], DXGK_PROTECTED_SESSION_STATUS_INVALID, DXGK_PROTECTED_SESSION_STATUS_OK, _DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, display.dxgk_protected_session_status
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709 (WDDM 2.3)
@@ -43,7 +44,9 @@ api_name:
  - DXGK_PROTECTED_SESSION_STATUS
 ---
 
-# DXGK_PROTECTED_SESSION_STATUS enumeration
+# DXGK_PROTECTED_SESSION_STATUS enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

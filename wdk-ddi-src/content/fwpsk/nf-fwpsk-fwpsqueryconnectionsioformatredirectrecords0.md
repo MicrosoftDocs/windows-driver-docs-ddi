@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsQueryConnectionSioFormatRedirectRecords0 function"]
 ms.keywords: FwpsQueryConnectionSioFormatRedirectRecords0, FwpsQueryConnectionSioFormatRedirectRecords0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsQueryConnectionSioFormatRedirectRecords0, netvista.fwpsqueryconnectionsioformatredirectrecords0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -41,7 +42,9 @@ api_name:
  - FwpsQueryConnectionSioFormatRedirectRecords0
 ---
 
-# FwpsQueryConnectionSioFormatRedirectRecords0 function
+# FwpsQueryConnectionSioFormatRedirectRecords0 function (fwpsk.h)
+
+
 
 
 ## -description

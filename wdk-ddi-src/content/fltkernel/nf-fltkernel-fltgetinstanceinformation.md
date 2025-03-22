@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetInstanceInformation function"]
 ms.keywords: FltApiRef_e_to_o_d476d1f7-fff3-45d1-91e9-25879ab9e90e.xml, FltGetInstanceInformation, FltGetInstanceInformation routine [Installable File System Drivers], fltkernel/FltGetInstanceInformation, ifsk.fltgetinstanceinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetInstanceInformation
 ---
 
-# FltGetInstanceInformation function
+# FltGetInstanceInformation function (fltkernel.h)
+
+
 
 
 ## -description

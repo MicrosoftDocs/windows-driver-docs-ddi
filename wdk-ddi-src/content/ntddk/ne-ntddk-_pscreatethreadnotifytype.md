@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PSCREATETHREADNOTIFYTYPE enumeration"]
 ms.keywords: PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], PsCreateThreadNotifyNonSystem, PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PSCREATETHREADNOTIFYTYPE, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: Ntddk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1703
@@ -43,7 +44,9 @@ api_name:
  - PSCREATETHREADNOTIFYTYPE
 ---
 
-# _PSCREATETHREADNOTIFYTYPE enumeration
+# PSCREATETHREADNOTIFYTYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

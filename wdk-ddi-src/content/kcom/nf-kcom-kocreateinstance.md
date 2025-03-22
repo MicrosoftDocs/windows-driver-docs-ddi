@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KoCreateInstance function"]
 ms.keywords: KoCreateInstance, KoCreateInstance function [Streaming Media Devices], kcom/KoCreateInstance, ksfunc_57c8ab23-3163-4ef8-a381-bd81ce01d18e.xml, stream.kocreateinstance
 req.header: kcom.h
+req.construct-type: function
 req.include-header: Kcom.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KoCreateInstance
 ---
 
-# KoCreateInstance function
+# KoCreateInstance function (kcom.h)
+
+
 
 
 ## -description

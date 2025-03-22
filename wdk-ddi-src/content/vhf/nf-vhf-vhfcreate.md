@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["VhfCreate function"]
 ms.keywords: VhfCreate, VhfCreate method [Human Input Devices], hid.vhfcreate, vhf/VhfCreate
 req.header: vhf.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - VhfCreate
 ---
 
-# VhfCreate function
+# VhfCreate function (vhf.h)
+
+
 
 
 ## -description

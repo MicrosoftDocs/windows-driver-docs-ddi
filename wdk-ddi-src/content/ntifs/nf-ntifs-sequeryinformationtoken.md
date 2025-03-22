@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeQueryInformationToken function"]
 ms.keywords: SeQueryInformationToken, SeQueryInformationToken routine [Installable File System Drivers], ifsk.sequeryinformationtoken, ntifs/SeQueryInformationToken, seref_80e09bda-ef06-4a25-ab50-d405f5539759.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - SeQueryInformationToken
 ---
 
-# SeQueryInformationToken function
+# SeQueryInformationToken function (ntifs.h)
+
+
 
 
 ## -description

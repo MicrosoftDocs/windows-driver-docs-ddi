@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmSizeOfMdl function"]
 ms.keywords: MmSizeOfMdl, MmSizeOfMdl routine [Kernel-Mode Driver Architecture], k106_7cddc848-8b01-4a6a-b5b1-977f2386fc21.xml, kernel.mmsizeofmdl, wdm/MmSizeOfMdl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmSizeOfMdl
 ---
 
-# MmSizeOfMdl function
+# MmSizeOfMdl function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["PoFxReportDevicePoweredOn function"]
 ms.keywords: PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], kernel.pofxreportdevicepoweredon, wdm/PoFxReportDevicePoweredOn
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxReportDevicePoweredOn
 ---
 
-# PoFxReportDevicePoweredOn function
+# PoFxReportDevicePoweredOn function (wdm.h)
+
+
 
 
 ## -description

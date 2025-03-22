@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreateDefaultSecurity function"]
 ms.keywords: KsCreateDefaultSecurity, KsCreateDefaultSecurity function [Streaming Media Devices], ks/KsCreateDefaultSecurity, ksfunc_ab036f47-0a15-4983-98b0-7277782f29e6.xml, stream.kscreatedefaultsecurity
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCreateDefaultSecurity
 ---
 
-# KsCreateDefaultSecurity function
+# KsCreateDefaultSecurity function (ks.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["Scan function"]
 ms.keywords: MicroDrv_ab289619-86b7-47fd-a5f5-e8533da4db31.xml, Scan, Scan function [Imaging Devices], image.scan, wiamicro/Scan
 req.header: wiamicro.h
+req.construct-type: function
 req.include-header: Wiamicro.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - Scan
 ---
+
+# Scan function (wiamicro.h)
 
 ## -description
 

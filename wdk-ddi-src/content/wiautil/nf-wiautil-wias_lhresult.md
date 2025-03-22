@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_LHRESULT macro"]
 ms.keywords: IWiaLog_f9693b87-6464-423a-9b50-f715f3b35f36.xml, WIAS_LHRESULT, WIAS_LHRESULT macro [Imaging Devices], image.wias_lhresult, wiamdef/WIAS_LHRESULT
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: Obsolete. Use WIAS_HRESULT instead.
@@ -41,6 +42,10 @@ api_name:
 ---
 
 # WIAS_LHRESULT macro (wiautil.h)
+
+
+
+
 
 
 ## -description

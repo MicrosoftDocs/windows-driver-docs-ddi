@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQuerySystemTimePrecise function"]
 ms.keywords: KeQuerySystemTimePrecise, KeQuerySystemTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequerysystemtimeprecise, wdm/KeQuerySystemTimePrecise
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - KeQuerySystemTimePrecise
 ---
 
-# KeQuerySystemTimePrecise function
+# KeQuerySystemTimePrecise function (wdm.h)
+
+
 
 
 ## -description

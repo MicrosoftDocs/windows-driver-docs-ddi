@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltIsEcpFromUserMode function"]
 ms.keywords: FltApiRef_e_to_o_ea63cca7-3efb-4b45-b075-7efbc8138f88.xml, FltIsEcpFromUserMode, FltIsEcpFromUserMode routine [Installable File System Drivers], fltkernel/FltIsEcpFromUserMode, ifsk.fltisecpfromusermode
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltIsEcpFromUserMode
 ---
 
-# FltIsEcpFromUserMode function
+# FltIsEcpFromUserMode function (fltkernel.h)
+
+
 
 
 ## -description

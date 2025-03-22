@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_ACTION enumeration"]
 ms.keywords: "*PUSBFN_ACTION, USBFN_ACTION, USBFN_ACTION enumeration [Buses], UsbfnActionDetectProprietaryCharger, UsbfnActionNoCad, UsbfnActionNone, _USBFN_ACTION, buses.usbfn_action, ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, ufxbase/UsbfnActionNone"
 req.header: ufxbase.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_ACTION
 ---
 
-# _USBFN_ACTION enumeration
+# USBFN_ACTION enumeration (ufxbase.h)
+
+
 
 
 ## -description

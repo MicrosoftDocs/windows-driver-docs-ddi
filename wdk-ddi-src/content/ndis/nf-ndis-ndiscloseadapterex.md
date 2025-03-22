@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCloseAdapterEx function"]
 ms.keywords: NdisCloseAdapterEx, NdisCloseAdapterEx function [Network Drivers Starting with Windows Vista], ndis/NdisCloseAdapterEx, netvista.ndiscloseadapterex, protocol_ndis_functions_ref_f349b273-d8c6-4711-af43-59646c41536c.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisCloseAdapterEx
 ---
 
-# NdisCloseAdapterEx function
+# NdisCloseAdapterEx function (ndis.h)
+
+
 
 
 ## -description

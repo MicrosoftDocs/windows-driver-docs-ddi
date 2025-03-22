@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsFilterRegisterAggregatedClientUnknown function"]
 ms.keywords: KsFilterRegisterAggregatedClientUnknown, KsFilterRegisterAggregatedClientUnknown function [Streaming Media Devices], avfunc_c485334a-83bd-474e-abfc-ced331ca55db.xml, ks/KsFilterRegisterAggregatedClientUnknown, stream.ksfilterregisteraggregatedclientunknown
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsFilterRegisterAggregatedClientUnknown
 ---
 
-# KsFilterRegisterAggregatedClientUnknown function
+# KsFilterRegisterAggregatedClientUnknown function (ks.h)
+
+
 
 
 ## -description

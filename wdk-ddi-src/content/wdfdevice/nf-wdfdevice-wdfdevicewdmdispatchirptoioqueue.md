@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceWdmDispatchIrpToIoQueue function"]
 ms.keywords: WdfDeviceWdmDispatchIrpToIoQueue, WdfDeviceWdmDispatchIrpToIoQueue method, kmdf.wdfdevicewdmdispatchirptoioqueue, kmdf.wdfdevicewdmforwardirptoioqueue, wdf.wdfdevicewdmdispatchirptoioqueue, wdfdevice/WdfDeviceWdmDispatchIrpToIoQueue
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceWdmDispatchIrpToIoQueue
 ---
 
-# WdfDeviceWdmDispatchIrpToIoQueue function
+# WdfDeviceWdmDispatchIrpToIoQueue function (wdfdevice.h)
+
+
 
 
 ## -description

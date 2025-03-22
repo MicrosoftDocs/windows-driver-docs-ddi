@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortWmiGetReturnStatus macro"]
 ms.keywords: ScsiPortWmiGetReturnStatus, ScsiPortWmiGetReturnStatus macro [Storage Devices], scsiprt_cb3693a3-2fab-4d25-9c64-84327a7ef61c.xml, scsiwmi/ScsiPortWmiGetReturnStatus, storage.scsiportwmigetreturnstatus
 req.header: scsiwmi.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - ScsiPortWmiGetReturnStatus
 ---
 
-# ScsiPortWmiGetReturnStatus macro
+# ScsiPortWmiGetReturnStatus macro (scsiwmi.h)
+
+
+
+
 
 
 ## -description

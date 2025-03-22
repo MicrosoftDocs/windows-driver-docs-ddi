@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IO_PRIORITY_HINT enumeration"]
 ms.keywords: IO_PRIORITY_HINT, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], IoPriorityCritical, IoPriorityHigh, IoPriorityLow, IoPriorityNormal, IoPriorityVeryLow, MaxIoPriorityTypes, _IO_PRIORITY_HINT, kernel.io_priority_hint, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IO_PRIORITY_HINT, wdm/IoPriorityCritical, wdm/IoPriorityHigh, wdm/IoPriorityLow, wdm/IoPriorityNormal, wdm/IoPriorityVeryLow, wdm/MaxIoPriorityTypes
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IO_PRIORITY_HINT
 ---
 
-# _IO_PRIORITY_HINT enumeration
+# IO_PRIORITY_HINT enumeration (wdm.h)
+
+
 
 
 ## -description

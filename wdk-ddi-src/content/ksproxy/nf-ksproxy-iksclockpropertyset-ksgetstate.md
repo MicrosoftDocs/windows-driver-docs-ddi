@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["IKsClockPropertySet::KsGetState"]
 ms.keywords: IKsClockPropertySet interface [Streaming Media Devices],KsGetState method, IKsClockPropertySet.KsGetState, IKsClockPropertySet::KsGetState, KsGetState, KsGetState method [Streaming Media Devices], KsGetState method [Streaming Media Devices],IKsClockPropertySet interface, ksproxy/IKsClockPropertySet::KsGetState, ksproxy_d14aea61-913f-44f9-8fc0-08d31b9e8e50.xml, stream.iksclockpropertyset_ksgetstate
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsClockPropertySet::KsGetState
 ---
+
+# IKsClockPropertySet::KsGetState function (ksproxy.h)
 
 ## -description
 

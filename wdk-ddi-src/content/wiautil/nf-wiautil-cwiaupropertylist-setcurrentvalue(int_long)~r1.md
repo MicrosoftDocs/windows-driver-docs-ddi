@@ -7,6 +7,7 @@ ms.date: 04/20/2022
 keywords: ["CWiauPropertyList::SetCurrentValue"]
 ms.keywords: CWiauPropertyList interface [Imaging Devices],SetCurrentValue method, CWiauPropertyList.SetCurrentValue, CWiauPropertyList.SetCurrentValue(INT,LONG), CWiauPropertyList::SetCurrentValue, CWiauPropertyList::SetCurrentValue(INT,LONG), SetCurrentValue, SetCurrentValue method [Imaging Devices], SetCurrentValue method [Imaging Devices],CWiauPropertyList interface, image.cwiaupropertylist_setcurrentvalue_long_, wiauFncs_e59bb543-0827-4c93-955c-6a2bef4b67b7.xml, wiautil/CWiauPropertyList::SetCurrentValue
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h, Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CWiauPropertyList::SetCurrentValue
 ---
+
+# CWiauPropertyList::SetCurrentValue function (wiautil.h)
 
 ## -description
 

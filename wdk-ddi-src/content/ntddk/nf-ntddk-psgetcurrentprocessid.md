@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsGetCurrentProcessId function"]
 ms.keywords: PsGetCurrentProcessId, PsGetCurrentProcessId routine [Kernel-Mode Driver Architecture], k108_e38b09ef-d948-4eb9-bfdd-24b25ba55034.xml, kernel.psgetcurrentprocessid, ntddk/PsGetCurrentProcessId
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PsGetCurrentProcessId
 ---
 
-# PsGetCurrentProcessId function
+# PsGetCurrentProcessId function (ntddk.h)
+
+
 
 
 ## -description

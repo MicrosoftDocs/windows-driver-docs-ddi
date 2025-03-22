@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WDI_TXRX_PEER_QOS_CAPS enumeration"]
 ms.keywords: WDI_TXRX_PEER_QOS_CAPS, WDI_TXRX_PEER_QOS_CAPS enumeration [Network Drivers Starting with Windows Vista], WDI_TXRX_PeerCfgQosCapable, WDI_TXRX_PeerCfgQosNone, WDI_TXRX_PeerCfgQosUapsdTids, _WDI_TXRX_PEER_QOS_CAPS, dot11wdi/WDI_TXRX_PEER_QOS_CAPS, dot11wdi/WDI_TXRX_PeerCfgQosCapable, dot11wdi/WDI_TXRX_PeerCfgQosNone, dot11wdi/WDI_TXRX_PeerCfgQosUapsdTids, netvista.wdi_txrx_peer_qos_caps, netvista.wifi_txrx_peer_qos_caps
 req.header: dot11wdi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - WDI_TXRX_PEER_QOS_CAPS
 ---
 
-# _WDI_TXRX_PEER_QOS_CAPS enumeration
+# WDI_TXRX_PEER_QOS_CAPS enumeration (dot11wdi.h)
+
+
 
 
 ## -description

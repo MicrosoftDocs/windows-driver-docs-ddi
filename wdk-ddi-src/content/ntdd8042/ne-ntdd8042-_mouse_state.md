@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MOUSE_STATE enumeration"]
 ms.keywords: "*PMOUSE_STATE, MOUSE_STATE, MOUSE_STATE enumeration [Human Input Devices], MouseExpectingACK, MouseIdle, MouseResetting, PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], XMovement, YMovement, ZMovement, _MOUSE_STATE, hid.mouse_state, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, ntdd8042/MOUSE_STATE, ntdd8042/MouseExpectingACK, ntdd8042/MouseIdle, ntdd8042/MouseResetting, ntdd8042/PMOUSE_STATE, ntdd8042/XMovement, ntdd8042/YMovement, ntdd8042/ZMovement"
 req.header: ntdd8042.h
+req.construct-type: enumeration
 req.include-header: Ntdd8042.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - MOUSE_STATE
 ---
 
-# _MOUSE_STATE enumeration
+# MOUSE_STATE enumeration (ntdd8042.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRegistryChannelSubkeyWrite function"]
 ms.keywords: AtaPortRegistryChannelSubKeyWrite, AtaPortRegistryChannelSubkeyWrite, AtaPortRegistryChannelSubkeyWrite routine [Storage Devices], atartns_0281129c-7789-44f3-b26d-d3725e7ff165.xml, irb/AtaPortRegistryChannelSubkeyWrite, storage.ataportregistrychannelsubkeywrite
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortRegistryChannelSubkeyWrite
 ---
 
-# AtaPortRegistryChannelSubkeyWrite function
+# AtaPortRegistryChannelSubkeyWrite function (irb.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 08/12/2022
 keywords: ["GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro"]
 ms.keywords: GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,6 +37,10 @@ api_location:
 api_name:
  - GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE
 ---
+
+# GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE macro (printoem.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryCreateKey function"]
 ms.keywords: DFRegKeyObjectRef_400650ea-7915-45f5-bcdd-2de1a02041f0.xml, WdfRegistryCreateKey, WdfRegistryCreateKey method, kmdf.wdfregistrycreatekey, wdf.wdfregistrycreatekey, wdfregistry/WdfRegistryCreateKey
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryCreateKey
 ---
 
-# WdfRegistryCreateKey function
+# WdfRegistryCreateKey function (wdfregistry.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlMupGetProviderIdFromName function"]
 ms.keywords: FsRtlMupGetProviderIdFromName, FsRtlMupGetProviderIdFromName routine [Installable File System Drivers], fsrtlref_40c084cd-454c-4e09-afc1-fca3a78bf614.xml, ifsk.fsrtlmupgetprovideridfromname, ntifs/FsRtlMupGetProviderIdFromName
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlMupGetProviderIdFromName function is Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlMupGetProviderIdFromName
 ---
 
-# FsRtlMupGetProviderIdFromName function
+# FsRtlMupGetProviderIdFromName function (ntifs.h)
+
+
 
 
 ## -description

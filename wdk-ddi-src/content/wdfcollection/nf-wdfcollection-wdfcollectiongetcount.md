@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionGetCount function"]
 ms.keywords: DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, WdfCollectionGetCount, WdfCollectionGetCount method, kmdf.wdfcollectiongetcount, wdf.wdfcollectiongetcount, wdfcollection/WdfCollectionGetCount
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionGetCount
 ---
 
-# WdfCollectionGetCount function
+# WdfCollectionGetCount function (wdfcollection.h)
+
+
 
 
 ## -description

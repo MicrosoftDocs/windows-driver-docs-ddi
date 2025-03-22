@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_READ_REGISTER_BUFFER_USHORT function"]
 ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdf.wdf_read_register_buffer_ushort, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
 req.header: wdfhwaccess.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - WDF_READ_REGISTER_BUFFER_USHORT
 ---
 
-# WDF_READ_REGISTER_BUFFER_USHORT function
+# WDF_READ_REGISTER_BUFFER_USHORT function (wdfhwaccess.h)
+
+
 
 
 ## -description

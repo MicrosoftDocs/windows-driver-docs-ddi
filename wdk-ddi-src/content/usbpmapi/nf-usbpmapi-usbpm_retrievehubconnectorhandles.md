@@ -7,6 +7,7 @@ keywords: ["UsbPm_RetrieveHubConnectorHandles function"]
 ms.keywords: UsbPm_RetrieveHubConnectorHandles
 tech.root: usbref
 req.header: usbpmapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - UsbPm_RetrieveHubConnectorHandles
 ---
 
-# UsbPm_RetrieveHubConnectorHandles function
+# UsbPm_RetrieveHubConnectorHandles function (usbpmapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetInitialStack function"]
 ms.keywords: IoGetInitialStack, IoGetInitialStack routine [Kernel-Mode Driver Architecture], k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack, wdm/IoGetInitialStack
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoGetInitialStack
 ---
 
-# IoGetInitialStack function
+# IoGetInitialStack function (wdm.h)
+
+
 
 
 ## -description

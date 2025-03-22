@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDriverGetRegistryPath function"]
 ms.keywords: DFDriverObjectRef_a21bcb6e-2211-4727-bb87-bb912f8a173b.xml, WdfDriverGetRegistryPath, WdfDriverGetRegistryPath method, kmdf.wdfdrivergetregistrypath, wdf.wdfdrivergetregistrypath, wdfdriver/WdfDriverGetRegistryPath
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDriverGetRegistryPath
 ---
 
-# WdfDriverGetRegistryPath function
+# WdfDriverGetRegistryPath function (wdfdriver.h)
+
+
 
 
 ## -description

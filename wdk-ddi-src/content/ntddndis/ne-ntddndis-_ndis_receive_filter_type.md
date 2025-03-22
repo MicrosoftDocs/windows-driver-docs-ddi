@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_RECEIVE_FILTER_TYPE enumeration"]
 ms.keywords: "*PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisReceiveFilterTypeMaximum, NdisReceiveFilterTypePacketCoalescing, NdisReceiveFilterTypeUndefined, NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_RECEIVE_FILTER_TYPE, netvista.ndis_receive_filter_type, ntddndis/NDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypeMaximum, ntddndis/NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeUndefined, ntddndis/NdisReceiveFilterTypeVMQueue, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_RECEIVE_FILTER_TYPE
 ---
 
-# _NDIS_RECEIVE_FILTER_TYPE enumeration
+# NDIS_RECEIVE_FILTER_TYPE enumeration (ntddndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_RESET_DEVICE IOCTL"]
 ms.keywords: IOCTL_STORAGE_RESET_DEVICE, IOCTL_STORAGE_RESET_DEVICE control, IOCTL_STORAGE_RESET_DEVICE control code [Storage Devices], k307_489c36aa-d120-4d01-b5bd-29adca082064.xml, ntddstor/IOCTL_STORAGE_RESET_DEVICE, storage.ioctl_storage_reset_device
 req.header: ntddstor.h
+req.construct-type: ioctl
 req.include-header: Ntddstor.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_RESET_DEVICE
 ---
 
-# IOCTL_STORAGE_RESET_DEVICE IOCTL
+# IOCTL_STORAGE_RESET_DEVICE IOCTL (ntddstor.h)
+
+
+
+
 
 
 ## -description

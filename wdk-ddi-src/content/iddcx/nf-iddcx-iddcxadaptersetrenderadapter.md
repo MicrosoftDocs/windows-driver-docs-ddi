@@ -8,6 +8,7 @@ ms.date: 08/08/2022
 keywords: ["IddCxAdapterSetRenderAdapter function"]
 ms.keywords: IddCxAdapterSetRenderAdapter
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -41,7 +42,9 @@ dev_langs:
  - c++
 ---
 
-# IddCxAdapterSetRenderAdapter function
+# IddCxAdapterSetRenderAdapter function (iddcx.h)
+
+
 
 ## -description
 

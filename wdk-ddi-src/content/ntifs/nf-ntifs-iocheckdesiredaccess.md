@@ -8,6 +8,7 @@ ms.date: 05/30/2019
 keywords: ["IoCheckDesiredAccess function"]
 ms.keywords: IoCheckDesiredAccess, IoCheckDesiredAccess function [Installable File System Drivers], ifsk.iocheckdesiredaccess, ioref_f8879d66-0bad-4c92-b2a3-853b7eb65ac6.xml, ntifs/IoCheckDesiredAccess
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoCheckDesiredAccess
 ---
 
-# IoCheckDesiredAccess function
+# IoCheckDesiredAccess function (ntifs.h)
+
+
 
 
 ## -description

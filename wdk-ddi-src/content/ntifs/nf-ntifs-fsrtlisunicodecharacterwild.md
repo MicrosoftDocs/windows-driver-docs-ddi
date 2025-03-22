@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsUnicodeCharacterWild macro"]
 ms.keywords: FsRtlIsUnicodeCharacterWild, FsRtlIsUnicodeCharacterWild function [Installable File System Drivers], fsrtlref_90047321-d510-4139-bfcf-d2f48c126834.xml, ifsk.fsrtlisunicodecharacterwild, ntifs/FsRtlIsUnicodeCharacterWild
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - FsRtlIsUnicodeCharacterWild
 ---
 
-# FsRtlIsUnicodeCharacterWild macro
+# FsRtlIsUnicodeCharacterWild macro (ntifs.h)
+
+
+
+
 
 
 ## -description

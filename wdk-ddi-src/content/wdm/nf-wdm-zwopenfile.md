@@ -8,6 +8,7 @@ author: lorihollasch
 keywords: ["ZwOpenFile function"]
 ms.keywords: NtOpenFile, ZwOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, kernel.zwopenfile, wdm/NtOpenFile, wdm/ZwOpenFile
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - ZwOpenFile
 ---
+
+# ZwOpenFile function (wdm.h)
 
 ## -description
 

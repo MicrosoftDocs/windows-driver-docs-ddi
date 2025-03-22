@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltSetEcpListIntoCallbackData function"]
 ms.keywords: FltApiRef_p_to_z_01e8fac7-3c58-4ed2-85ac-38580cca36e6.xml, FltSetEcpListIntoCallbackData, FltSetEcpListIntoCallbackData routine [Installable File System Drivers], fltkernel/FltSetEcpListIntoCallbackData, ifsk.fltsetecplistintocallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FltSetEcpListIntoCallbackData
 ---
 
-# FltSetEcpListIntoCallbackData function
+# FltSetEcpListIntoCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NmrClientAttachProvider function"]
 ms.keywords: NmrClientAttachProvider, NmrClientAttachProvider function [Network Drivers Starting with Windows Vista], netioddk/NmrClientAttachProvider, netvista.nmrclientattachprovider, nmrref_6d66009c-5262-4a75-986d-1eb91dcc61a2.xml
 req.header: netioddk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - NmrClientAttachProvider
 ---
 
-# NmrClientAttachProvider function
+# NmrClientAttachProvider function (netioddk.h)
+
+
 
 
 ## -description

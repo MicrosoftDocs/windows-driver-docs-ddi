@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_TYPEC_OPERATING_MODE enumeration"]
 ms.keywords: UCM_TYPEC_OPERATING_MODE, UCM_TYPEC_OPERATING_MODE enumeration [Buses], UcmTypeCOperatingModeDfp, UcmTypeCOperatingModeDrp, UcmTypeCOperatingModeInvalid, UcmTypeCOperatingModeUfp, _UCM_TYPEC_OPERATING_MODE, buses.ucm_type_c_operating_mode, ucmtypes/UCM_TYPEC_OPERATING_MODE, ucmtypes/UcmTypeCOperatingModeDfp, ucmtypes/UcmTypeCOperatingModeDrp, ucmtypes/UcmTypeCOperatingModeInvalid, ucmtypes/UcmTypeCOperatingModeUfp
 req.header: ucmtypes.h
+req.construct-type: enumeration
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -43,7 +44,9 @@ api_name:
  - UCM_TYPEC_OPERATING_MODE
 ---
 
-# _UCM_TYPEC_OPERATING_MODE enumeration
+# UCM_TYPEC_OPERATING_MODE enumeration (ucmtypes.h)
+
+
 
 
 ## -description

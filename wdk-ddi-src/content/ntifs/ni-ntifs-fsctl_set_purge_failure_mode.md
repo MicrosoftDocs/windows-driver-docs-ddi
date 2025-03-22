@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_SET_PURGE_FAILURE_MODE
 ---
 
-# FSCTL_SET_PURGE_FAILURE_MODE ioctl (ntifs.h)
+# FSCTL_SET_PURGE_FAILURE_MODE IOCTL (ntifs.h)
+
+
 
 ## -description
 

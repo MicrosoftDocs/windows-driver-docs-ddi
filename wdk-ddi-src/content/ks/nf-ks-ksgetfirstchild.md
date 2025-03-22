@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetFirstChild function"]
 ms.keywords: KsGetFirstChild, KsGetFirstChild function [Streaming Media Devices], avfunc_cfdde7e3-bc8b-46df-abf4-fe43ac9b0bfc.xml, ks/KsGetFirstChild, stream.ksgetfirstchild
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetFirstChild
 ---
 
-# KsGetFirstChild function
+# KsGetFirstChild function (ks.h)
+
+
 
 
 ## -description

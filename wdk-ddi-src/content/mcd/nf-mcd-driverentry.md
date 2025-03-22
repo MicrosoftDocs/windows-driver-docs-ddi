@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["DriverEntry function"]
 ms.keywords: DriverEntry, DriverEntry routine [Storage Devices], atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, storage.driverentry, wdm/DriverEntry
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Ntddk.h, Mcd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverEntry
 ---
 
-# DriverEntry function
+# DriverEntry function (mcd.h)
+
+
 
 
 ## -description

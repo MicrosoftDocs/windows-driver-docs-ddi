@@ -7,6 +7,7 @@ ms.date: 12/14/2022
 keywords: ["ZwCreateKey function"]
 ms.keywords: NtCreateKey, ZwCreateKey, ZwCreateKey routine [Kernel-Mode Driver Architecture], k111_1ab9fba3-0c39-45b8-9a79-d33ad73c0642.xml, kernel.zwcreatekey, wdm/NtCreateKey, wdm/ZwCreateKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwCreateKey
 ---
+
+# ZwCreateKey function (wdm.h)
 
 ## -description
 

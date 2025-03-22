@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterQueue2::SendBidiSetRequestAsync"]
 ms.keywords: IPrinterQueue2 interface [Print Devices],SendBidiSetRequestAsync method, IPrinterQueue2.SendBidiSetRequestAsync, IPrinterQueue2::SendBidiSetRequestAsync, SendBidiSetRequestAsync, SendBidiSetRequestAsync method [Print Devices], SendBidiSetRequestAsync method [Print Devices],IPrinterQueue2 interface, print.iprinterqueue2_sendbidisetrequestasync, printerextension/IPrinterQueue2::SendBidiSetRequestAsync
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterQueue2::SendBidiSetRequestAsync
 ---
+
+# IPrinterQueue2::SendBidiSetRequestAsync function (printerextension.h)
 
 ## -description
 

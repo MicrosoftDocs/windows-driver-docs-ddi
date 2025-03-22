@@ -5,6 +5,7 @@ description: Learn more about the StorPortUpdateAdapterMaxIO function.
 tech.root: storage
 ms.date: 08/05/2024
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -37,7 +38,9 @@ api_name:
  - StorPortUpdateAdapterMaxIO
 ---
 
-# StorPortUpdateAdapterMaxIO function
+# StorPortUpdateAdapterMaxIO function (storport.h)
+
+
 
 ## -description
 

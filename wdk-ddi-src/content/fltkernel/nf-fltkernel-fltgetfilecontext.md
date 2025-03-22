@@ -8,6 +8,7 @@ ms.date: 04/25/2023
 keywords: ["FltGetFileContext function"]
 ms.keywords: FltApiRef_e_to_o_230a0040-01b0-4998-8f16-427eec529aee.xml, FltGetFileContext, FltGetFileContext routine [Installable File System Drivers], fltkernel/FltGetFileContext, ifsk.fltgetfilecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FltGetFileContext
 ---
 
-# FltGetFileContext function
+# FltGetFileContext function (fltkernel.h)
+
+
 
 ## -description
 

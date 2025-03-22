@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestReuse function"]
 ms.keywords: DFRequestObjectRef_8815216b-4632-4cc8-8afd-c4b1412ddbad.xml, WdfRequestReuse, WdfRequestReuse method, kmdf.wdfrequestreuse, wdf.wdfrequestreuse, wdfrequest/WdfRequestReuse
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestReuse
 ---
 
-# WdfRequestReuse function
+# WdfRequestReuse function (wdfrequest.h)
+
+
 
 
 ## -description

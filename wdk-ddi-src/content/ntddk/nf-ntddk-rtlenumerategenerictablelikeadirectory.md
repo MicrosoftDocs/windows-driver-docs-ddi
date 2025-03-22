@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlEnumerateGenericTableLikeADirectory function"]
 ms.keywords: RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlEnumerateGenericTableLikeADirectory
 ---
+
+# RtlEnumerateGenericTableLikeADirectory function (ntddk.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGK_FRAMEBUFFER_STATE enumeration"]
 ms.keywords: DXGK_FRAMEBUFFER_STATE, DXGK_FRAMEBUFFER_STATE enumeration [Display Devices], FrameBufferStateInitializedByDriver, FrameBufferStateInitializedByFirmware, FrameBufferStateUnknown, _DXGK_FRAMEBUFFER_STATE, display.dxgk_framebuffer_state, dispmprt/DXGK_FRAMEBUFFER_STATE, dispmprt/FrameBufferStateInitializedByDriver, dispmprt/FrameBufferStateInitializedByFirmware, dispmprt/FrameBufferStateUnknown
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_FRAMEBUFFER_STATE
 ---
 
-# _DXGK_FRAMEBUFFER_STATE enumeration
+# DXGK_FRAMEBUFFER_STATE enumeration (dispmprt.h)
+
+
 
 
 ## -description

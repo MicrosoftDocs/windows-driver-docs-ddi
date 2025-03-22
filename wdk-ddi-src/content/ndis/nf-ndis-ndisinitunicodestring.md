@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInitUnicodeString macro"]
 ms.keywords: NdisInitUnicodeString, NdisInitUnicodeString macro [Network Drivers Starting with Windows Vista], ndis/NdisInitUnicodeString, ndis_string_ref_a25a98b2-f88b-4a56-9bb7-77a4e6dc10a6.xml, netvista.ndisinitunicodestring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisInitUnicodeString (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisInitUnicodeString (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,11 @@ api_name:
  - NdisInitUnicodeString
 ---
 
-# NdisInitUnicodeString macro
+# NdisInitUnicodeString macro (ndis.h)
+
+
+
+
 
 
 ## -description

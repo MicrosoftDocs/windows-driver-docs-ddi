@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortInitializeQueueTag function"]
 ms.keywords: AtaPortInitializeQueueTag, AtaPortInitializeQueueTag routine [Storage Devices], atartns_2dd092e5-f635-4da7-8444-ffef8e5c75db.xml, irb/AtaPortInitializeQueueTag, storage.ataportinitializequeuetag
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortInitializeQueueTag
 ---
 
-# AtaPortInitializeQueueTag function
+# AtaPortInitializeQueueTag function (irb.h)
+
+
 
 
 ## -description

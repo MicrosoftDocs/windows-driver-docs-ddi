@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeImpersonateClient function"]
 ms.keywords: SeImpersonateClient, SeImpersonateClient function [Installable File System Drivers], ifsk.seimpersonateclient, ntifs/SeImpersonateClient, seref_27996dfe-95b9-4d36-8182-9528fedef7d8.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeImpersonateClient
 ---
 
-# SeImpersonateClient function
+# SeImpersonateClient function (ntifs.h)
+
+
 
 
 ## -description

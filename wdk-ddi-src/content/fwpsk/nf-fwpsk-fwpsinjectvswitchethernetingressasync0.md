@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsInjectvSwitchEthernetIngressAsync0 function"]
 ms.keywords: FwpsInjectvSwitchEthernetIngressAsync0, FwpsInjectvSwitchEthernetIngressAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsInjectvSwitchEthernetIngressAsync0, netvista.fwpsinjectvswitchingressasync0
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - FwpsInjectvSwitchEthernetIngressAsync0
 ---
 
-# FwpsInjectvSwitchEthernetIngressAsync0 function
+# FwpsInjectvSwitchEthernetIngressAsync0 function (fwpsk.h)
+
+
 
 
 ## -description

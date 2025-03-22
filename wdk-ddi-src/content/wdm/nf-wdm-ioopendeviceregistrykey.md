@@ -7,6 +7,7 @@ ms.date: 01/03/2023
 keywords: ["IoOpenDeviceRegistryKey function"]
 ms.keywords: IoOpenDeviceRegistryKey, IoOpenDeviceRegistryKey routine [Kernel-Mode Driver Architecture], k104_7b6ab819-56e3-4d4a-956a-51e4a83300f0.xml, kernel.ioopendeviceregistrykey, wdm/IoOpenDeviceRegistryKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoOpenDeviceRegistryKey
 ---
+
+# IoOpenDeviceRegistryKey function (wdm.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_TYPEC_OPERATING_MODE enumeration"]
 ms.keywords: _USBC_TYPEC_OPERATING_MODE, USBC_TYPEC_OPERATING_MODE,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_TYPEC_OPERATING_MODE
 ---
 
-# _USBC_TYPEC_OPERATING_MODE enumeration
+# USBC_TYPEC_OPERATING_MODE enumeration (usbctypes.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 08/23/2019
 keywords: ["DEVICE_DSM_ROUND_DN macro"]
 ms.keywords: DEVICE_DSM_ROUND_DN
 req.header: ntddstor.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,11 @@ api_name:
  - DEVICE_DSM_ROUND_DN
 ---
 
-# DEVICE_DSM_ROUND_DN macro
+# DEVICE_DSM_ROUND_DN macro (ntddstor.h)
+
+
+
+
 
 
 ## -description

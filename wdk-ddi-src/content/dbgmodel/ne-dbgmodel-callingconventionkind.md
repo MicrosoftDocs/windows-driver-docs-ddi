@@ -6,6 +6,7 @@ ms.date: 10/05/2018
 keywords: ["CallingConventionKind enumeration"]
 ms.keywords: CallingConventionKind, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - CallingConventionKind
 ---
 
-# CallingConventionKind enumeration
+# CallingConventionKind enumeration (dbgmodel.h)
+
+
 
 
 ## -description

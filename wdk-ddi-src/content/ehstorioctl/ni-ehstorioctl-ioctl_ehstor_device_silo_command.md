@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_SILO_COMMAND, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND, storage.ioctl_ehstor_device_silo_command
 req.header: ehstorioctl.h
+req.construct-type: ioctl
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_DEVICE_SILO_COMMAND
 ---
 
-# IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL
+# IOCTL_EHSTOR_DEVICE_SILO_COMMAND IOCTL (ehstorioctl.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsSetDefaultClockTime function"]
 ms.keywords: KsSetDefaultClockTime, KsSetDefaultClockTime function [Streaming Media Devices], ks/KsSetDefaultClockTime, ksfunc_737648d0-8fc4-405c-96c8-61778e6758e9.xml, stream.kssetdefaultclocktime
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsSetDefaultClockTime
 ---
 
-# KsSetDefaultClockTime function
+# KsSetDefaultClockTime function (ks.h)
+
+
 
 
 ## -description

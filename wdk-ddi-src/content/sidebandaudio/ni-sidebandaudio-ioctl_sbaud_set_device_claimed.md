@@ -5,6 +5,7 @@ description: "The IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL claims the device for sid
 ms.date: 07/17/2023
 keywords: ["IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_SET_DEVICE_CLAIMED
 ---
 
-# IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL
+# IOCTL_SBAUD_SET_DEVICE_CLAIMED IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

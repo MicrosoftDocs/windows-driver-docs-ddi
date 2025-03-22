@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_SWIZZLE_PATTERN enumeration"]
 ms.keywords: D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SWIZZLE_PATTERN, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, d3d12umddi/D3D12DDI_SP_ROW_MAJOR, d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, display.d3d12ddi_swizzle_pattern
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_SWIZZLE_PATTERN
 ---
 
-# D3D12DDI_SWIZZLE_PATTERN enumeration
+# D3D12DDI_SWIZZLE_PATTERN enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

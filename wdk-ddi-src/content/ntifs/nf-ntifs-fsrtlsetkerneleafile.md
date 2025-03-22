@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlSetKernelEaFile function"]
 ms.keywords: FsRtlSetKernelEaFile, FsRtlSetKernelEaFile routine [Installable File System Drivers], ifsk.fsrtlsetkerneleafile, ntifs/FsRtlSetKernelEaFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FsRtlSetKernelEaFile
 ---
 
-# FsRtlSetKernelEaFile function
+# FsRtlSetKernelEaFile function (ntifs.h)
+
+
 
 
 ## -description

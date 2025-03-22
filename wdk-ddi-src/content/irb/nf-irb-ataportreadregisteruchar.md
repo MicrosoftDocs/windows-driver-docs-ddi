@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortReadRegisterUchar function"]
 ms.keywords: AtaPortReadRegisterUchar, AtaPortReadRegisterUchar routine [Storage Devices], atartns_63ee26b2-b436-4dc6-a3aa-5a13691e85dd.xml, irb/AtaPortReadRegisterUchar, storage.ataportreadregisteruchar
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortReadRegisterUchar
 ---
 
-# AtaPortReadRegisterUchar function
+# AtaPortReadRegisterUchar function (irb.h)
+
+
 
 
 ## -description

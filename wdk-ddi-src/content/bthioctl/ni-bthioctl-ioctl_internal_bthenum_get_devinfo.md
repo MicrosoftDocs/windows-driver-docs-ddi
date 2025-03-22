@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_INTERNAL_BTHENUM_GET_DEVINFO IOCTL"]
 ms.keywords: IOCTL_INTERNAL_BTHENUM_GET_DEVINFO, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control, IOCTL_INTERNAL_BTHENUM_GET_DEVINFO control code [Bluetooth Devices], bltooth.ioctl_internal_bthenum_get_devinfo, bth_ioctls_08047b17-31ae-4497-b83d-21e42058765f.xml, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 req.header: bthioctl.h
+req.construct-type: ioctl
 req.include-header: Bthioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_BTHENUM_GET_DEVINFO
 ---
 
-# IOCTL_INTERNAL_BTHENUM_GET_DEVINFO IOCTL
+# IOCTL_INTERNAL_BTHENUM_GET_DEVINFO IOCTL (bthioctl.h)
+
+
+
+
 
 
 ## -description

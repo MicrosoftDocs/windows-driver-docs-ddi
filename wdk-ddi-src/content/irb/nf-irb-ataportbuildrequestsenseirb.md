@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortBuildRequestSenseIrb function"]
 ms.keywords: AtaPortBuildRequestSenseIrb, AtaPortBuildRequestSenseIrb routine [Storage Devices], atartns_82b5c3cd-1956-47a0-9c05-cd18dbb2e2b6.xml, irb/AtaPortBuildRequestSenseIrb, storage.ataportbuildrequestsenseirb
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortBuildRequestSenseIrb
 ---
 
-# AtaPortBuildRequestSenseIrb function
+# AtaPortBuildRequestSenseIrb function (irb.h)
+
+
 
 
 ## -description

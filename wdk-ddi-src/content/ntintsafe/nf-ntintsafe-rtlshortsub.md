@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlShortSub function"]
 ms.keywords: RtlShortSub, RtlShortSub function [Kernel-Mode Driver Architecture], kernel.rtlshortsub, ntintsafe/RtlShortSub
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlShortSub
 ---
 
-# RtlShortSub function
+# RtlShortSub function (ntintsafe.h)
+
+
 
 
 ## -description

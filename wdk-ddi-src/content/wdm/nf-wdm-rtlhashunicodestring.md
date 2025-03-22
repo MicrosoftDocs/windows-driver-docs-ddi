@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlHashUnicodeString function"]
 ms.keywords: RtlHashUnicodeString, RtlHashUnicodeString routine [Kernel-Mode Driver Architecture], k109_090277b1-32f6-4c3d-b1fc-bacec35efc1d.xml, kernel.rtlhashunicodestring, wdm/RtlHashUnicodeString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - RtlHashUnicodeString
 ---
 
-# RtlHashUnicodeString function
+# RtlHashUnicodeString function (wdm.h)
+
+
 
 
 ## -description

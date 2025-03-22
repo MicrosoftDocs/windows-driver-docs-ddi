@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsDaxVolume function"]
 ms.keywords: FsRtlIsDaxVolume, FsRtlIsDaxVolume routine [Installable File System Drivers], ifsk.fsrtlisdaxvolume, ntifs/FsRtlIsDaxVolume
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIsDaxVolume
 ---
 
-# FsRtlIsDaxVolume function
+# FsRtlIsDaxVolume function (ntifs.h)
+
+
 
 
 ## -description

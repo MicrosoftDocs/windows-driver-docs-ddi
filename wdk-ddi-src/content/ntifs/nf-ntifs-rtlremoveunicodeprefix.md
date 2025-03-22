@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlRemoveUnicodePrefix function"]
 ms.keywords: RtlRemoveUnicodePrefix, RtlRemoveUnicodePrefix routine [Installable File System Drivers], ifsk.rtlremoveunicodeprefix, ntifs/RtlRemoveUnicodePrefix, rtlref_a6eb361a-f00b-4377-913c-8494c49d4064.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlRemoveUnicodePrefix
 ---
 
-# RtlRemoveUnicodePrefix function
+# RtlRemoveUnicodePrefix function (ntifs.h)
+
+
 
 
 ## -description

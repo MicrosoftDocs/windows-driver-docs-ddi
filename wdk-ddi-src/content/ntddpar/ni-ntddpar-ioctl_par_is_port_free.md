@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_PAR_IS_PORT_FREE IOCTL"]
 ms.keywords: IOCTL_PAR_IS_PORT_FREE, IOCTL_PAR_IS_PORT_FREE control code [Parallel Ports], cisspd_3f8c9a8d-225c-48cc-b504-235c79037f99.xml, ntddpar/IOCTL_PAR_IS_PORT_FREE, parports.ioctl_par_is_port_free
 req.header: ntddpar.h
+req.construct-type: ioctl
 req.include-header: Ntddpar.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_PAR_IS_PORT_FREE
 ---
 
-# IOCTL_PAR_IS_PORT_FREE IOCTL
+# IOCTL_PAR_IS_PORT_FREE IOCTL (ntddpar.h)
+
+
+
+
 
 
 ##  Major Code:

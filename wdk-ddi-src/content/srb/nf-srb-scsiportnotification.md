@@ -8,6 +8,7 @@ ms.date: 01/03/2022
 keywords: ["ScsiPortNotification function"]
 ms.keywords: ScsiPortNotification, ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, storage.scsiportnotification
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - ScsiPortNotification
 ---
 
-# ScsiPortNotification function
+# ScsiPortNotification function (srb.h)
+
+
 
 ## -description
 

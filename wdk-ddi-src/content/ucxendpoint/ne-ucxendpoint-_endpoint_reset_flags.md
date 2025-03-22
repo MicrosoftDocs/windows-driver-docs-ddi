@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["ENDPOINT_RESET_FLAGS enumeration"]
 ms.keywords: ENDPOINT_RESET_FLAGS, ENDPOINT_RESET_FLAGS enumeration [Buses], FlagEndpointResetPreserveTransferState, _ENDPOINT_RESET_FLAGS, buses.endpoint_reset_flags, ucxendpoint/ENDPOINT_RESET_FLAGS, ucxendpoint/FlagEndpointResetPreserveTransferState
 req.header: ucxendpoint.h
+req.construct-type: enumeration
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - ENDPOINT_RESET_FLAGS
 ---
 
-# _ENDPOINT_RESET_FLAGS enumeration
+# ENDPOINT_RESET_FLAGS enumeration (ucxendpoint.h)
+
+
 
 
 ## -description

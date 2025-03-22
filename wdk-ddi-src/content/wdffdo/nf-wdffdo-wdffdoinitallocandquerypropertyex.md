@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoInitAllocAndQueryPropertyEx function"]
 ms.keywords: WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx method, wdf.wdffdoinitallocandquerypropertyex, wdffdo/WdfFdoInitAllocAndQueryPropertyEx
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfFdoInitAllocAndQueryPropertyEx
 ---
 
-# WdfFdoInitAllocAndQueryPropertyEx function
+# WdfFdoInitAllocAndQueryPropertyEx function (wdffdo.h)
+
+
 
 
 ## -description

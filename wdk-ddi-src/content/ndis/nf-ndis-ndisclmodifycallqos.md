@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisClModifyCallQoS function"]
 ms.keywords: NdisClModifyCallQoS, NdisClModifyCallQoS function [Network Drivers Starting with Windows Vista], condis_client_ref_55b0158f-e91e-4be8-818b-ade726db0f61.xml, ndis/NdisClModifyCallQoS, netvista.ndisclmodifycallqos
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisClModifyCallQoS (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisClModifyCallQoS (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisClModifyCallQoS
 ---
 
-# NdisClModifyCallQoS function
+# NdisClModifyCallQoS function (ndis.h)
+
+
 
 
 ## -description

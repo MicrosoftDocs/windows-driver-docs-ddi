@@ -5,6 +5,7 @@ description: IOCTL_MIPI_DSI_QUERY_CAPS retrieves the basic capabilities of the M
 tech.root: display
 ms.date: 03/24/2020
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -32,7 +33,11 @@ dev_langs:
  - c++
 ---
 
-# IOCTL_MIPI_DSI_QUERY_CAPS IOCTL
+# IOCTL_MIPI_DSI_QUERY_CAPS IOCTL (ntddvdeo.h)
+
+
+
+
 
 ### Major Code:  [IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/kernel/irp-mj-device-control)
 

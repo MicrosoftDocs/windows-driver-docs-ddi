@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["CmRegisterCallback function"]
 ms.keywords: CmRegisterCallback, CmRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_ec214e13-1342-48b5-9a31-8c6c9da57cd6.xml, kernel.cmregistercallback, wdm/CmRegisterCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - CmRegisterCallback
 ---
 
-# CmRegisterCallback function
+# CmRegisterCallback function (wdm.h)
+
+
 
 
 ## -description

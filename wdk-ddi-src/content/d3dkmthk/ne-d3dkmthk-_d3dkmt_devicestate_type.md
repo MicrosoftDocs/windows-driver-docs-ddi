@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMT_DEVICESTATE_TYPE enumeration"]
 ms.keywords: D3DKMT_DEVICESTATE_EXECUTION, D3DKMT_DEVICESTATE_PAGE_FAULT, D3DKMT_DEVICESTATE_PRESENT, D3DKMT_DEVICESTATE_PRESENT_DWM, D3DKMT_DEVICESTATE_RESET, D3DKMT_DEVICESTATE_TYPE, D3DKMT_DEVICESTATE_TYPE enumeration [Display Devices], OpenGL_Structs_7446b76d-102c-4d61-bf39-ce1ca17ea036.xml, _D3DKMT_DEVICESTATE_TYPE, d3dkmthk/, d3dkmthk/D3DKMT_DEVICESTATE_EXECUTION, d3dkmthk/D3DKMT_DEVICESTATE_PAGE_FAULT, d3dkmthk/D3DKMT_DEVICESTATE_PRESENT, d3dkmthk/D3DKMT_DEVICESTATE_PRESENT_DWM, d3dkmthk/D3DKMT_DEVICESTATE_RESET, d3dkmthk/D3DKMT_DEVICESTATE_TYPE, display.d3dkmt_devicestate_type
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: D3dkmthk.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMT_DEVICESTATE_TYPE
 ---
 
-# _D3DKMT_DEVICESTATE_TYPE enumeration
+# D3DKMT_DEVICESTATE_TYPE enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

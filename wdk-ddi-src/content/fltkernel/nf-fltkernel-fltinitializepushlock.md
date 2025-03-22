@@ -5,6 +5,7 @@ description: Learn more about the FltInitializePushLock function.
 tech.root: ifsk
 ms.date: 10/03/2024
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP SP2 Microsoft
@@ -37,7 +38,9 @@ api_name:
  - FltInitializePushLock
 ---
 
-# FltInitializePushLock function
+# FltInitializePushLock function (fltkernel.h)
+
+
 
 ## -description
 

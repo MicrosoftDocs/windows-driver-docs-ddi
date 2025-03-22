@@ -8,6 +8,7 @@ ms.date: 06/24/2022
 keywords: ["StorPortQueueWorkItem function"]
 ms.keywords: StorPortQueueWorkItem, StorPortQueueWorkItem routine [Storage Devices], storage.storportqueueworkitem, storport/StorPortQueueWorkItem
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - StorPortQueueWorkItem
 ---
 
-# StorPortQueueWorkItem function
+# StorPortQueueWorkItem function (storport.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DMA_DIRECTION enumeration"]
 ms.keywords: DFDmaObjectRef_e790f51f-b8cb-4e04-a5f3-49f24fabf5b8.xml, WDF_DMA_DIRECTION, WDF_DMA_DIRECTION enumeration, WdfDmaDirectionReadFromDevice, WdfDmaDirectionWriteToDevice, _WDF_DMA_DIRECTION, kmdf.wdf_dma_direction, wdf.wdf_dma_direction, wdfdmaenabler/WDF_DMA_DIRECTION, wdfdmaenabler/WdfDmaDirectionReadFromDevice, wdfdmaenabler/WdfDmaDirectionWriteToDevice
 req.header: wdfdmaenabler.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_DMA_DIRECTION
 ---
 
-# _WDF_DMA_DIRECTION enumeration
+# WDF_DMA_DIRECTION enumeration (wdfdmaenabler.h)
+
+
 
 
 ## -description

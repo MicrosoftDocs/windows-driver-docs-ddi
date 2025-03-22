@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_SET_EMITTING_LIGHT IOCTL"]
 ms.keywords: IOCTL_LAMP_SET_EMITTING_LIGHT, IOCTL_LAMP_SET_EMITTING_LIGHT control, IOCTL_LAMP_SET_EMITTING_LIGHT control code [Streaming Media Devices], lamp/IOCTL_LAMP_SET_EMITTING_LIGHT, stream.ioctl_lamp_set_emitting_light
 req.header: lamp.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_LAMP_SET_EMITTING_LIGHT
 ---
 
-# IOCTL_LAMP_SET_EMITTING_LIGHT IOCTL
+# IOCTL_LAMP_SET_EMITTING_LIGHT IOCTL (lamp.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_USB_CONTINUOUS_READER_CONFIG_INIT function"]
 ms.keywords: DFUsbRef_a179cacd-e450-4a53-93e7-4eb3a59fc605.xml, WDF_USB_CONTINUOUS_READER_CONFIG_INIT, WDF_USB_CONTINUOUS_READER_CONFIG_INIT function, kmdf.wdf_usb_continuous_reader_config_init, wdf.wdf_usb_continuous_reader_config_init, wdfusb/WDF_USB_CONTINUOUS_READER_CONFIG_INIT
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_USB_CONTINUOUS_READER_CONFIG_INIT
 ---
 
-# WDF_USB_CONTINUOUS_READER_CONFIG_INIT function
+# WDF_USB_CONTINUOUS_READER_CONFIG_INIT function (wdfusb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCompletePendedPostOperation function"]
 ms.keywords: FltApiRef_a_to_d_ce848a3a-9d76-433d-a65c-e67ea0f9550b.xml, FltCompletePendedPostOperation, FltCompletePendedPostOperation routine [Installable File System Drivers], fltkernel/FltCompletePendedPostOperation, ifsk.fltcompletependedpostoperation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltCompletePendedPostOperation
 ---
 
-# FltCompletePendedPostOperation function
+# FltCompletePendedPostOperation function (fltkernel.h)
+
+
 
 
 ## -description

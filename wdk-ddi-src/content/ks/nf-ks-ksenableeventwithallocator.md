@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsEnableEventWithAllocator function"]
 ms.keywords: KsEnableEventWithAllocator, KsEnableEventWithAllocator function [Streaming Media Devices], ks/KsEnableEventWithAllocator, ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, stream.ksenableeventwithallocator
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsEnableEventWithAllocator
 ---
+
+# KsEnableEventWithAllocator function (ks.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortDeleteEvent function"]
 ms.keywords: VideoPortDeleteEvent, VideoPortDeleteEvent function [Display Devices], VideoPort_Functions_66e14d53-8a5e-4322-8576-4ac06230db31.xml, display.videoportdeleteevent, video/VideoPortDeleteEvent
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortDeleteEvent
 ---
 
-# VideoPortDeleteEvent function
+# VideoPortDeleteEvent function (video.h)
+
+
 
 
 ## -description

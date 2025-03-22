@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxIndicateChangeOfBufferingStateForSrvOpen function"]
 ms.keywords: RxIndicateChangeOfBufferingStateForSrvOpen, RxIndicateChangeOfBufferingStateForSrvOpen function [Installable File System Drivers], ifsk.rxindicatechangeofbufferingstateforsrvopen, rxprocs/RxIndicateChangeOfBufferingStateForSrvOpen, rxref_6fc017ff-369c-47c3-8a5c-45f808d1d86c.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h, Struchdr.h, Fcb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxIndicateChangeOfBufferingStateForSrvOpen
 ---
 
-# RxIndicateChangeOfBufferingStateForSrvOpen function
+# RxIndicateChangeOfBufferingStateForSrvOpen function (rxprocs.h)
+
+
 
 
 ## -description

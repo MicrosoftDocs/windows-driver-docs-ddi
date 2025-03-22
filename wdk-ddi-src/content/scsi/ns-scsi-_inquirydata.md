@@ -7,6 +7,7 @@ ms.date: 11/14/2022
 keywords: ["INQUIRYDATA structure"]
 ms.keywords: "*PINQUIRYDATA, INQUIRYDATA, INQUIRYDATA structure [Storage Devices], PINQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], _INQUIRYDATA, scsi/INQUIRYDATA, scsi/PINQUIRYDATA, storage.inquirydata, structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml"
 req.header: scsi.h
+req.construct-type: structure
 req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,6 +45,9 @@ api_name:
  - PINQUIRYDATA
  - INQUIRYDATA
 ---
+
+# INQUIRYDATA structure (scsi.h)
+
 ## -description
 
 The **INQUIRYDATA** structure is used in conjunction with the [TapeMiniExtensionInit](../minitape/nc-minitape-tape_extension_init_routine.md) and [TapeMiniVerifyInquiry](../minitape/nc-minitape-tape_verify_inquiry_routine.md) routines to report SCSI inquiry data associated with a tape device.

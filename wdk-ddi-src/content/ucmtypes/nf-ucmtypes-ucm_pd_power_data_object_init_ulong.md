@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function"]
 ms.keywords: UCM_PD_POWER_DATA_OBJECT_INIT_ULONG, UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function [Buses], buses.ucm_pd_power_data_object_init_ulong, ucmtypes/UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
 req.header: ucmtypes.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UCM_PD_POWER_DATA_OBJECT_INIT_ULONG
 ---
 
-# UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function
+# UCM_PD_POWER_DATA_OBJECT_INIT_ULONG function (ucmtypes.h)
+
+
 
 
 ## -description

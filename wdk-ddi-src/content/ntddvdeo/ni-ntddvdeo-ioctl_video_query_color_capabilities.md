@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control, IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES control code [Display Devices], Video_IOCTLs_26b0d5c4-d7b5-4056-9d78-6b9fa9a8ab72.xml, display.ioctl_video_query_color_capabilities, ntddvdeo/IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES
 ---
 
-# IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES IOCTL
+# IOCTL_VIDEO_QUERY_COLOR_CAPABILITIES IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

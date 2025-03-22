@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_COMPANION_EVENT_CALLBACKS_INIT function"]
 ms.keywords: WDF_COMPANION_EVENT_CALLBACKS_INIT, WDF_COMPANION_EVENT_CALLBACKS_INIT method, wdf.wdf_companion_event_callbacks_init, wdfcompanion/WDF_COMPANION_EVENT_CALLBACKS_INIT
 req.header: wdfcompanion.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_COMPANION_EVENT_CALLBACKS_INIT
 ---
 
-# WDF_COMPANION_EVENT_CALLBACKS_INIT function
+# WDF_COMPANION_EVENT_CALLBACKS_INIT function (wdfcompanion.h)
+
+
 
 
 ## -description

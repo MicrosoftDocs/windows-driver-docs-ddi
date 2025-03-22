@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsGetProcessExitTime function"]
 ms.keywords: PsGetProcessExitTime, PsGetProcessExitTime routine [Installable File System Drivers], ifsk.psgetprocessexittime, ntifs/PsGetProcessExitTime, psref_a3867d14-4a6b-4560-a580-cdc00075b185.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PsGetProcessExitTime
 ---
 
-# PsGetProcessExitTime function
+# PsGetProcessExitTime function (ntifs.h)
+
+
 
 
 ## -description

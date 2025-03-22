@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisWriteErrorLogEntry function"]
 ms.keywords: NdisWriteErrorLogEntry, NdisWriteErrorLogEntry function [Network Drivers Starting with Windows Vista], miniport_logging_ref_754f8e03-f922-4e6d-b2ef-20fb8027b645.xml, ndis/NdisWriteErrorLogEntry, netvista.ndiswriteerrorlogentry
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisWriteErrorLogEntry (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisWriteErrorLogEntry (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisWriteErrorLogEntry
 ---
 
-# NdisWriteErrorLogEntry function
+# NdisWriteErrorLogEntry function (ndis.h)
+
+
 
 
 ## -description

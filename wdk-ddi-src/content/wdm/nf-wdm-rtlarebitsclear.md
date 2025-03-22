@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlAreBitsClear function"]
 ms.keywords: RtlAreBitsClear, RtlAreBitsClear routine [Kernel-Mode Driver Architecture], k109_bbef7cb1-d817-498e-b091-2d07acc0e552.xml, kernel.rtlarebitsclear, wdm/RtlAreBitsClear
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlAreBitsClear
 ---
 
-# RtlAreBitsClear function
+# RtlAreBitsClear function (wdm.h)
+
+
 
 
 ## -description

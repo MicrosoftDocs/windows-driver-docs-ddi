@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDevQueryPrintEx function"]
 ms.keywords: OEMDevQueryPrintEx, OEMDevQueryPrintEx function [Print Devices], print.oemdevqueryprintex, print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml, printoem/OEMDevQueryPrintEx
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDevQueryPrintEx
 ---
+
+# OEMDevQueryPrintEx function (printoem.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTCreateHwContext function"]
 ms.keywords: D3DKMTCreateHwContext, D3DKMTCreateHwContext method [Display Devices], d3dkmthk/D3DKMTCreateHwContext, display.d3dkmtcreatehwcontext
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCreateHwContext
 ---
 
-# D3DKMTCreateHwContext function
+# D3DKMTCreateHwContext function (d3dkmthk.h)
+
+
 
 
 ## -description

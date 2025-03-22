@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsPropertyHandlerWithAllocator function"]
 ms.keywords: KsPropertyHandlerWithAllocator, KsPropertyHandlerWithAllocator function [Streaming Media Devices], ks/KsPropertyHandlerWithAllocator, ksfunc_bad2a764-641a-4f28-a7e6-7d9a03d300f3.xml, stream.kspropertyhandlerwithallocator
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - KsPropertyHandlerWithAllocator
 ---
+
+# KsPropertyHandlerWithAllocator function (ks.h)
 
 ## -description
 

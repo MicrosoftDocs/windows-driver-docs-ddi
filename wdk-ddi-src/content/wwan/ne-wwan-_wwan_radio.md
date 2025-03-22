@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_RADIO enumeration"]
 ms.keywords: "*PWWAN_RADIO, PWWAN_RADIO, PWWAN_RADIO enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_RADIO, WWAN_RADIO enumeration [Network Drivers Starting with Windows Vista], WwanRadioOff, WwanRadioOn, WwanRef_b864982c-e4b4-4a2e-b45b-ba6e534a1a71.xml, _WWAN_RADIO, netvista.wwan_radio, wwan/PWWAN_RADIO, wwan/WWAN_RADIO, wwan/WwanRadioOff, wwan/WwanRadioOn"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_RADIO
 ---
 
-# _WWAN_RADIO enumeration
+# WWAN_RADIO enumeration (wwan.h)
+
+
 
 
 ## -description

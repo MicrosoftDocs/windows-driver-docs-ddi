@@ -7,6 +7,7 @@ ms.date: 06/26/2018
 keywords: ["MBB_DEVICE_CONFIG_INIT function"]
 ms.keywords: MBB_DEVICE_CONFIG_INIT
 req.header: mbbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - MBB_DEVICE_CONFIG_INIT
 ---
 
-# MBB_DEVICE_CONFIG_INIT function
+# MBB_DEVICE_CONFIG_INIT function (mbbcx.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceGetAlignmentRequirement function"]
 ms.keywords: DFDeviceObjectGeneralRef_c7135427-9887-44e5-8380-28ebef4174a9.xml, WdfDeviceGetAlignmentRequirement, WdfDeviceGetAlignmentRequirement method, kmdf.wdfdevicegetalignmentrequirement, wdf.wdfdevicegetalignmentrequirement, wdfdevice/WdfDeviceGetAlignmentRequirement
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceGetAlignmentRequirement
 ---
 
-# WdfDeviceGetAlignmentRequirement function
+# WdfDeviceGetAlignmentRequirement function (wdfdevice.h)
+
+
 
 
 ## -description

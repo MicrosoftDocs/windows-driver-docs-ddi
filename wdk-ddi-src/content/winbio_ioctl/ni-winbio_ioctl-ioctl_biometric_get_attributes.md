@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_GET_ATTRIBUTES, IOCTL_BIOMETRIC_GET_ATTRIBUTES control, IOCTL_BIOMETRIC_GET_ATTRIBUTES control code [Biometric Devices], biometric.ioctl_biometric_get_attributes, biometric_ref_ee60223e-6d9a-4533-9449-b7a7463f835e.xml, winbio_ioctl/IOCTL_BIOMETRIC_GET_ATTRIBUTES
 req.header: winbio_ioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BIOMETRIC_GET_ATTRIBUTES
 ---
 
-# IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL
+# IOCTL_BIOMETRIC_GET_ATTRIBUTES IOCTL (winbio_ioctl.h)
+
+
+
+
 
 
 ## -description

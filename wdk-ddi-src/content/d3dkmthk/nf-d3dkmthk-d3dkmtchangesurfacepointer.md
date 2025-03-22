@@ -7,6 +7,7 @@ ms.date: 02/23/2022
 keywords: ["D3DKMTChangeSurfacePointer function"]
 ms.keywords: D3DKMTChangeSurfacePointer, D3DKMTChangeSurfacePointer callback function [Display Devices], OpenGL_Functions_b34c37f3-53fc-4dd3-a73a-f21c3010e00b.xml, PFND3DKMT_CHANGESURFACEPOINTER, PFND3DKMT_CHANGESURFACEPOINTER callback, d3dkmthk/D3DKMTChangeSurfacePointer, display.d3dkmtchangesurfacepointer
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTChangeSurfacePointer
 ---
 
-# D3DKMTChangeSurfacePointer function
+# D3DKMTChangeSurfacePointer function (d3dkmthk.h)
+
+
 
 ## -description
 

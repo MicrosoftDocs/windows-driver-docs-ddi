@@ -8,6 +8,7 @@ ms.date: 03/11/2022
 keywords: ["WWAN_CONTEXT_TYPE enumeration"]
 ms.keywords: "*PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanContextTypeCustom, WwanContextTypeInternet, WwanContextTypeMax, WwanContextTypeNone, WwanContextTypePurchase, WwanContextTypeVideoShare, WwanContextTypeVoice, WwanContextTypeVpn, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, _WWAN_CONTEXT_TYPE, netvista.wwan_context_type, wwan/PWWAN_CONTEXT_TYPE, wwan/WWAN_CONTEXT_TYPE, wwan/WwanContextTypeCustom, wwan/WwanContextTypeInternet, wwan/WwanContextTypeMax, wwan/WwanContextTypeNone, wwan/WwanContextTypePurchase, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeVoice, wwan/WwanContextTypeVpn"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_CONTEXT_TYPE
 ---
 
-# _WWAN_CONTEXT_TYPE enumeration
+# WWAN_CONTEXT_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

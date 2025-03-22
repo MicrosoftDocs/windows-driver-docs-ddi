@@ -7,6 +7,7 @@ ms.date: 12/15/2022
 keywords: ["ZwQuerySymbolicLinkObject function"]
 ms.keywords: NtQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject, ZwQuerySymbolicLinkObject routine [Kernel-Mode Driver Architecture], k111_0909b6b6-fa4d-421f-b17f-8201a254990b.xml, kernel.zwquerysymboliclinkobject, wdm/NtQuerySymbolicLinkObject, wdm/ZwQuerySymbolicLinkObject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwQuerySymbolicLinkObject
 ---
+
+# ZwQuerySymbolicLinkObject function (wdm.h)
 
 ## -description
 

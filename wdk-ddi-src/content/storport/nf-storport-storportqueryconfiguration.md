@@ -7,6 +7,7 @@ ms.date: 03/06/2019
 keywords: ["StorPortQueryConfiguration function"]
 ms.keywords: StorPortQueryConfiguration
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# StorPortQueryConfiguration function
+# StorPortQueryConfiguration function (storport.h)
+
+
 
 
 ## -description

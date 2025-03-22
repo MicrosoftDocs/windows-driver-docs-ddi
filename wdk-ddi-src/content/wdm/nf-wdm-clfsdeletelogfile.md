@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsDeleteLogFile function"]
 ms.keywords: ClfsDeleteLogFile, ClfsDeleteLogFile routine [Kernel-Mode Driver Architecture], Clfs_0b23f7ac-c175-4eaf-b6c9-9b23b6ebe7e3.xml, kernel.clfsdeletelogfile, wdm/ClfsDeleteLogFile
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsDeleteLogFile
 ---
 
-# ClfsDeleteLogFile function
+# ClfsDeleteLogFile function (wdm.h)
+
+
 
 
 ## -description

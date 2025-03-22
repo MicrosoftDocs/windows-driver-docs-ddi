@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetExecutorRFState function"]
 ms.keywords: RIL_GetExecutorRFState, RIL_GetExecutorRFState method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorrfstate, rilapi/RIL_GetExecutorRFState
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetExecutorRFState
 ---
 
-# RIL_GetExecutorRFState function
+# RIL_GetExecutorRFState function (rilapi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 03/13/2023
 keywords: ["RtlQueryRegistryValues function"]
 ms.keywords: RtlQueryRegistryValues, RtlQueryRegistryValues routine [Kernel-Mode Driver Architecture], k109_5a8cb907-8c49-4a88-9494-ff137cf6507d.xml, kernel.rtlqueryregistryvalues, wdm/RtlQueryRegistryValues
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlQueryRegistryValues
 ---
+
+# RtlQueryRegistryValues function (wdm.h)
 
 ## -description
 

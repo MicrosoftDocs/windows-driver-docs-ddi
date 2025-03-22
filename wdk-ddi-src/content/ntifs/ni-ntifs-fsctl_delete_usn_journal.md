@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_DELETE_USN_JOURNAL
 ---
 
-# FSCTL_DELETE_USN_JOURNAL ioctl (ntifs.h)
+# FSCTL_DELETE_USN_JOURNAL IOCTL (ntifs.h)
+
+
 
 ## -description
 

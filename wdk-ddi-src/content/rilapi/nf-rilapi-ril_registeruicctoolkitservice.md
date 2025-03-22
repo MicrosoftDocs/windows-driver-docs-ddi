@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_RegisterUiccToolkitService function"]
 ms.keywords: RIL_RegisterUiccToolkitService, RIL_RegisterUiccToolkitService method [Network Drivers Starting with Windows Vista], netvista.ril_registeruicctoolkitservice, rilapi/RIL_RegisterUiccToolkitService
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_RegisterUiccToolkitService
 ---
 
-# RIL_RegisterUiccToolkitService function
+# RIL_RegisterUiccToolkitService function (rilapi.h)
+
+
 
 
 ## -description

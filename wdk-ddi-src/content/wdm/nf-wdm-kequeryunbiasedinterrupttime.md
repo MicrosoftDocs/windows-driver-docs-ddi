@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeQueryUnbiasedInterruptTime function"]
 ms.keywords: KeQueryUnbiasedInterruptTime, KeQueryUnbiasedInterruptTime routine [Kernel-Mode Driver Architecture], k105_34119e3c-6e9a-4e27-9d0e-3d9eb579df46.xml, kernel.kequeryunbiasedinterrupttime, wdm/KeQueryUnbiasedInterruptTime
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryUnbiasedInterruptTime
 ---
 
-# KeQueryUnbiasedInterruptTime function
+# KeQueryUnbiasedInterruptTime function (wdm.h)
+
+
 
 
 ## -description

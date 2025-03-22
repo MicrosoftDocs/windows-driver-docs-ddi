@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExAllocateFromPagedLookasideList function"]
 ms.keywords: ExAllocateFromPagedLookasideList, ExAllocateFromPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_96e03fc6-f951-4c96-8de4-32d67e85ec02.xml, kernel.exallocatefrompagedlookasidelist, wdm/ExAllocateFromPagedLookasideList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExAllocateFromPagedLookasideList
 ---
 
-# ExAllocateFromPagedLookasideList function
+# ExAllocateFromPagedLookasideList function (wdm.h)
+
+
 
 
 ## -description

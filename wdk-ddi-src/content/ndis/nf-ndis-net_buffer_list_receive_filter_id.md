@@ -7,6 +7,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_RECEIVE_FILTER_ID macro"]
 ms.keywords: NET_BUFFER_LIST_RECEIVE_FILTER_ID
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -38,7 +39,11 @@ api_name:
  - NET_BUFFER_LIST_RECEIVE_FILTER_ID
 ---
 
-# NET_BUFFER_LIST_RECEIVE_FILTER_ID macro
+# NET_BUFFER_LIST_RECEIVE_FILTER_ID macro (ndis.h)
+
+
+
+
 
 
 ## -description

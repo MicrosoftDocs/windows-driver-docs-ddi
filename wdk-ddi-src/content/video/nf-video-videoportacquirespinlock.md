@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortAcquireSpinLock function"]
 ms.keywords: VideoPortAcquireSpinLock, VideoPortAcquireSpinLock function [Display Devices], VideoPort_Functions_c25b68ac-032b-4b1c-bb15-93957f2e345c.xml, display.videoportacquirespinlock, video/VideoPortAcquireSpinLock
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortAcquireSpinLock
 ---
 
-# VideoPortAcquireSpinLock function
+# VideoPortAcquireSpinLock function (video.h)
+
+
 
 
 ## -description

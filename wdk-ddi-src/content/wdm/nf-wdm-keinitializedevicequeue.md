@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeInitializeDeviceQueue function"]
 ms.keywords: KeInitializeDeviceQueue, KeInitializeDeviceQueue routine [Kernel-Mode Driver Architecture], k105_5d7ea571-8c88-45f7-917c-e42e6caac514.xml, kernel.keinitializedevicequeue, wdm/KeInitializeDeviceQueue
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeDeviceQueue
 ---
 
-# KeInitializeDeviceQueue function
+# KeInitializeDeviceQueue function (wdm.h)
+
+
 
 
 ## -description

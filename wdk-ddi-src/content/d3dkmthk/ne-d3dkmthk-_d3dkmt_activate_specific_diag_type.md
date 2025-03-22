@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE enumeration"]
 ms.keywords: _D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE, D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE,
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE enumeration
+# D3DKMT_ACTIVATE_SPECIFIC_DIAG_TYPE enumeration (d3dkmthk.h)
+
+
 
 
 ## -description

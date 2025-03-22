@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceSignalWake function"]
 ms.keywords: UdecxUsbDeviceSignalWake, UdecxUsbDeviceSignalWake function [Buses], buses.udecxusbdevicesignalwake, udecxusbdevice/UdecxUsbDeviceSignalWake
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceSignalWake
 ---
 
-# UdecxUsbDeviceSignalWake function
+# UdecxUsbDeviceSignalWake function (udecxusbdevice.h)
+
+
 
 
 ## -description

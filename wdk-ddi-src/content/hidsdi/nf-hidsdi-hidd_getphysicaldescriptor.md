@@ -8,6 +8,7 @@ ms.date: 06/19/2019
 keywords: ["HidD_GetPhysicalDescriptor function"]
 ms.keywords: HidD_GetPhysicalDescriptor, HidD_GetPhysicalDescriptor routine [Human Input Devices], hid.hidd_getphysicaldescriptor, hidfunc_e9532fa2-49f8-41ec-9e23-19416b889b47.xml, hidsdi/HidD_GetPhysicalDescriptor
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_GetPhysicalDescriptor
 ---
 
-# HidD_GetPhysicalDescriptor function
+# HidD_GetPhysicalDescriptor function (hidsdi.h)
+
+
 
 ## -description
 

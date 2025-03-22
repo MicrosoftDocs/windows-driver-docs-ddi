@@ -8,6 +8,7 @@ ms.date: 07/25/2023
 keywords: ["IOCTL_CAD_DISABLE_CHARGING IOCTL"]
 ms.keywords: IOCTL_CAD_DISABLE_CHARGING, IOCTL_CAD_DISABLE_CHARGING control, IOCTL_CAD_DISABLE_CHARGING control code [Battery Devices], battery.ioctl_cad_disable_charging, charging/IOCTL_CAD_DISABLE_CHARGING
 req.header: charging.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_CAD_DISABLE_CHARGING
 ---
 
-# IOCTL_CAD_DISABLE_CHARGING IOCTL
+# IOCTL_CAD_DISABLE_CHARGING IOCTL (charging.h)
+
+
+
+
 
 
 ## -description

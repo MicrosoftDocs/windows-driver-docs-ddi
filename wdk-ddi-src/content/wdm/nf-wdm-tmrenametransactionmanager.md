@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["TmRenameTransactionManager function"]
 ms.keywords: TmRenameTransactionManager, TmRenameTransactionManager , TmRenameTransactionManager routine [Kernel-Mode Driver Architecture], kernel.tmrenametransactionmanager_, wdm/TmRenameTransactionManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -40,6 +41,8 @@ api_location:
 api_name:
  - TmRenameTransactionManager
 ---
+
+# TmRenameTransactionManager function (wdm.h)
 
 ## -description
 

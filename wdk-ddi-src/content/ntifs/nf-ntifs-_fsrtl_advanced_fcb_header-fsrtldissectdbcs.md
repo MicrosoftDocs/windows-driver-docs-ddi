@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlDissectDbcs function"]
 ms.keywords: FsRtlDissectDbcs, FsRtlDissectDbcs routine [Installable File System Drivers], fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, ifsk.fsrtldissectdbcs, ntifs/FsRtlDissectDbcs
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlDissectDbcs function
+# FsRtlDissectDbcs function (ntifs.h)
+
+
 
 
 ## -description

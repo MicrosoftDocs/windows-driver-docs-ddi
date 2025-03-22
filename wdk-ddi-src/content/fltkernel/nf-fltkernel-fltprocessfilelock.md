@@ -8,6 +8,7 @@ ms.date: 11/29/2021
 keywords: ["FltProcessFileLock function"]
 ms.keywords: FltApiRef_p_to_z_e4ff8145-c586-4c3c-acfa-d4c22f48a5d2.xml, FltProcessFileLock, FltProcessFileLock routine [Installable File System Drivers], fltkernel/FltProcessFileLock, ifsk.fltprocessfilelock
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP with SP2
@@ -40,7 +41,9 @@ api_name:
  - FltProcessFileLock
 ---
 
-# FltProcessFileLock function
+# FltProcessFileLock function (fltkernel.h)
+
+
 
 ## -description
 

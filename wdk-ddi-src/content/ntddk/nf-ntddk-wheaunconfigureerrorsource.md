@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["WheaUnconfigureErrorSource function"]
 ms.keywords: WheaUnconfigureErrorSource
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - WheaUnconfigureErrorSource
 ---
 
-# WheaUnconfigureErrorSource function
+# WheaUnconfigureErrorSource function (ntddk.h)
+
+
 
 
 ## -description

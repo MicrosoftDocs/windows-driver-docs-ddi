@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function"]
 ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function [Display Devices], d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART, display.d3dkmdt_vppr_get_content_rotation_part
 req.header: d3dkmdt.h
+req.construct-type: function
 req.include-header:
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8.1,DXGKDDI_INTERFACE_VERSION >= DXGKDDI_INTERFACE_VERSION_WDDM1_3_PATH_INDEPENDENT_ROTATION
@@ -40,7 +41,9 @@ api_name:
  - D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART
 ---
 
-# D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function
+# D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART function (d3dkmdt.h)
+
+
 
 
 ## -description

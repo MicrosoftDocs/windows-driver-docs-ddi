@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFreeString macro"]
 ms.keywords: NdisFreeString, NdisFreeString macro [Network Drivers Starting with Windows Vista], ndis/NdisFreeString, ndis_string_ref_fbe6ac9f-c6a6-457e-a427-71e9739f3809.xml, netvista.ndisfreestring
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for existing drivers in  NDIS 6.0 and later, but new drivers should use RtlFreeAnsiString or RtlFreeUnicodeString  instead.
@@ -40,7 +41,11 @@ api_name:
  - NdisFreeString
 ---
 
-# NdisFreeString macro
+# NdisFreeString macro (ndis.h)
+
+
+
+
 
 
 ## -description

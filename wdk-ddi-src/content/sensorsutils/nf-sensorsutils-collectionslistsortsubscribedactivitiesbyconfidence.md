@@ -7,6 +7,7 @@ keywords: ["CollectionsListSortSubscribedActivitiesByConfidence function"]
 tech.root: sensors
 ms.keywords: CollectionsListSortSubscribedActivitiesByConfidence
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - CollectionsListSortSubscribedActivitiesByConfidence
 ---
 
-# CollectionsListSortSubscribedActivitiesByConfidence function
+# CollectionsListSortSubscribedActivitiesByConfidence function (sensorsutils.h)
+
+
 
 
 ## -description

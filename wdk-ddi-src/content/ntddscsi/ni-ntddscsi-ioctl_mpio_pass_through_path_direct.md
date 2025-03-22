@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT IOCTL"]
 ms.keywords: IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT control, IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT control code [Storage Devices], k307_70c0c9a6-7d04-484e-9ff2-94a85f919834.xml, ntddscsi/IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT, storage.ioctl_mpio_pass_through_path_direct
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: Ntddscsi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT
 ---
 
-# IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT IOCTL
+# IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT IOCTL (ntddscsi.h)
+
+
+
+
 
 
 ## -description

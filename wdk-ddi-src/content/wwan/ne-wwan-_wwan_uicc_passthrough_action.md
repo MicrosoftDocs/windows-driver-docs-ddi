@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_UICC_PASSTHROUGH_ACTION enumeration"]
 ms.keywords: "*PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughActionMaximum, WwanUiccPassThroughDisable, WwanUiccPassThroughEnable, _WWAN_UICC_PASSTHROUGH_ACTION, netvista.wwan_uicc_passthrough_action, wwan/WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughActionMaximum, wwan/WwanUiccPassThroughDisable, wwan/WwanUiccPassThroughEnable"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -46,7 +47,9 @@ api_name:
  - WWAN_UICC_PASSTHROUGH_ACTION
 ---
 
-# _WWAN_UICC_PASSTHROUGH_ACTION enumeration
+# WWAN_UICC_PASSTHROUGH_ACTION enumeration (wwan.h)
+
+
 
 
 ## -description

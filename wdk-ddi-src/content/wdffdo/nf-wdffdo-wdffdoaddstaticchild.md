@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfFdoAddStaticChild function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, WdfFdoAddStaticChild, WdfFdoAddStaticChild method, kmdf.wdffdoaddstaticchild, wdf.wdffdoaddstaticchild, wdffdo/WdfFdoAddStaticChild
 req.header: wdffdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfFdoAddStaticChild
 ---
 
-# WdfFdoAddStaticChild function
+# WdfFdoAddStaticChild function (wdffdo.h)
+
+
 
 
 ## -description

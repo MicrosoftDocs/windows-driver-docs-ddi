@@ -8,6 +8,7 @@ ms.date: 10/01/2024
 keywords: ["WdfTimerStop function"]
 ms.keywords: DFTimerObjectRef_6b433db6-e7a0-4521-961d-56c3de8a97ad.xml, WdfTimerStop, WdfTimerStop method, kmdf.wdftimerstop, wdf.wdftimerstop, wdftimer/WdfTimerStop
 req.header: wdftimer.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfTimerStop
 ---
 
-# WdfTimerStop function
+# WdfTimerStop function (wdftimer.h)
+
+
 
 
 ## -description

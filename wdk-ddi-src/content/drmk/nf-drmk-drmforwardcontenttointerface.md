@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["DrmForwardContentToInterface function"]
 ms.keywords: DrmForwardContentToInterface, DrmForwardContentToInterface function [Audio Devices], aud-prop2_c065f793-db14-4fc9-8804-f6d86754e106.xml, audio.drmforwardcontenttointerface, drmk/DrmForwardContentToInterface
 req.header: drmk.h
+req.construct-type: function
 req.include-header: Drmk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - DrmForwardContentToInterface
 ---
 
-# DrmForwardContentToInterface function
+# DrmForwardContentToInterface function (drmk.h)
+
+
 
 
 ## -description

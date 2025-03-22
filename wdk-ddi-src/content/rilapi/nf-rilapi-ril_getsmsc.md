@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetSMSC function"]
 ms.keywords: RIL_GetSMSC, RIL_GetSMSC method [Network Drivers Starting with Windows Vista], netvista.ril_getsmsc, rilapi/RIL_GetSMSC
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetSMSC
 ---
 
-# RIL_GetSMSC function
+# RIL_GetSMSC function (rilapi.h)
+
+
 
 
 ## -description

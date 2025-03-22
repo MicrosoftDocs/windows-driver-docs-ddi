@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaPropertyPinTypes function"]
 ms.keywords: BdaPropertyPinTypes, BdaPropertyPinTypes function [Streaming Media Devices], bdaref_38003a0c-ac8f-4249-b7b1-a4979f05b7ab.xml, bdasup/BdaPropertyPinTypes, stream.bdapropertypintypes
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaPropertyPinTypes
 ---
+
+# BdaPropertyPinTypes function (bdasup.h)
 
 ## -description
 

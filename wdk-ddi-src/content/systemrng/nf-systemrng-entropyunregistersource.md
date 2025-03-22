@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["EntropyUnregisterSource function"]
 ms.keywords: EntropyUnregisterSource
 req.header: systemrng.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - EntropyUnregisterSource
 ---
 
-# EntropyUnregisterSource function
+# EntropyUnregisterSource function (systemrng.h)
+
+
 
 ## -description
 

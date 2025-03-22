@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreateTopologyNode function"]
 ms.keywords: KsCreateTopologyNode, KsCreateTopologyNode function [Streaming Media Devices], ks/KsCreateTopologyNode, ksfunc_15092cdb-3f97-4f13-a10e-9dbc92d20776.xml, stream.kscreatetopologynode
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsCreateTopologyNode
 ---
 
-# KsCreateTopologyNode function
+# KsCreateTopologyNode function (ks.h)
+
+
 
 
 ## -description

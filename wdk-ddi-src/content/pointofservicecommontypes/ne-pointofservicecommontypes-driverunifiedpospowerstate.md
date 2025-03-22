@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["DriverUnifiedPosPowerState enumeration"]
 ms.keywords: DriverUnifiedPosPowerState, DriverUnifiedPosPowerState enumeration, pointofservicecommontypes/, pointofservicecommontypes/DriverUnifiedPosPowerState, pos.driverunifiedpospowerstate
 req.header: pointofservicecommontypes.h
+req.construct-type: enumeration
 req.include-header: Pointofservicecommontypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - DriverUnifiedPosPowerState
 ---
 
-# DriverUnifiedPosPowerState enumeration
+# DriverUnifiedPosPowerState enumeration (pointofservicecommontypes.h)
+
+
 
 
 ## -description

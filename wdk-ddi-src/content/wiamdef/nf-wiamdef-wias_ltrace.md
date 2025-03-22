@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_LTRACE macro"]
 ms.keywords: IWiaLog_bb7ae826-5b43-47c1-bf94-bd491d8b91a7.xml, WIAS_LTRACE, WIAS_LTRACE macro [Imaging Devices], image.wias_ltrace, wiamdef/WIAS_LTRACE
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: Obsolete, use WIAS_TRACE instead.
@@ -41,6 +42,10 @@ api_name:
 ---
 
 # WIAS_LTRACE macro (wiamdef.h)
+
+
+
+
 
 
 ## -description

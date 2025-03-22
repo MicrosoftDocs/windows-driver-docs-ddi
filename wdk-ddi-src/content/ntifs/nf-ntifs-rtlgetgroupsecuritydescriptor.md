@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlGetGroupSecurityDescriptor function"]
 ms.keywords: RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetgroupsecuritydescriptor, ntifs/RtlGetGroupSecurityDescriptor, rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003 SP1
@@ -40,7 +41,9 @@ api_name:
  - RtlGetGroupSecurityDescriptor
 ---
 
-# RtlGetGroupSecurityDescriptor function
+# RtlGetGroupSecurityDescriptor function (ntifs.h)
+
+
 
 
 ## -description

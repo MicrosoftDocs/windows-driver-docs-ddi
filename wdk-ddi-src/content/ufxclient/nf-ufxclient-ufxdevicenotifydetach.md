@@ -8,6 +8,7 @@ ms.date: 09/14/2021
 keywords: ["UfxDeviceNotifyDetach function"]
 ms.keywords: UfxDeviceNotifyDetach, UfxDeviceNotifyDetach method [Buses], buses.ufxdevicenotifydetach, ufxclient/UfxDeviceNotifyDetach
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceNotifyDetach
 ---
 
-# UfxDeviceNotifyDetach function
+# UfxDeviceNotifyDetach function (ufxclient.h)
+
+
 
 ## -description
 

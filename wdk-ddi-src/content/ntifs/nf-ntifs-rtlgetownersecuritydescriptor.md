@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlGetOwnerSecurityDescriptor function"]
 ms.keywords: RtlGetOwnerSecurityDescriptor, RtlGetOwnerSecurityDescriptor routine [Installable File System Drivers], ifsk.rtlgetownersecuritydescriptor, ntifs/RtlGetOwnerSecurityDescriptor, rtlref_7a3503c8-84ed-4ec7-9b69-5b93daaa6596.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -41,7 +42,9 @@ api_name:
  - RtlGetOwnerSecurityDescriptor
 ---
 
-# RtlGetOwnerSecurityDescriptor function
+# RtlGetOwnerSecurityDescriptor function (ntifs.h)
+
+
 
 
 ## -description

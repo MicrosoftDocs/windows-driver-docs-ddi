@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetFileObjectGenericMapping function"]
 ms.keywords: IoGetFileObjectGenericMapping, IoGetFileObjectGenericMapping routine [Kernel-Mode Driver Architecture], k104_90acd8aa-7b11-4ee8-b6c7-84e7c849b131.xml, kernel.iogetfileobjectgenericmapping, ntddk/IoGetFileObjectGenericMapping
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoGetFileObjectGenericMapping
 ---
 
-# IoGetFileObjectGenericMapping function
+# IoGetFileObjectGenericMapping function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], buses.ioctl_usb_get_port_connector_properties, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 req.header: usbioctl.h
+req.construct-type: ioctl
 req.include-header: Usbioctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ---
 
-# IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL
+# IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES IOCTL (usbioctl.h)
+
+
+
+
 
 
 ## -description

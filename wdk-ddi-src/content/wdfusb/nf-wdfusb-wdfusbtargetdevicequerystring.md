@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceQueryString function"]
 ms.keywords: DFUsbRef_ea603209-6043-48e6-b8ff-4795f572dea6.xml, WdfUsbTargetDeviceQueryString, WdfUsbTargetDeviceQueryString method, kmdf.wdfusbtargetdevicequerystring, wdf.wdfusbtargetdevicequerystring, wdfusb/WdfUsbTargetDeviceQueryString
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceQueryString
 ---
 
-# WdfUsbTargetDeviceQueryString function
+# WdfUsbTargetDeviceQueryString function (wdfusb.h)
+
+
 
 
 ## -description

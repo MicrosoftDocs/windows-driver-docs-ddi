@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration"]
 ms.keywords: D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration [Display Devices], D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_GLOBAL_REALTIME_PRIORITY, d3d12umddi/D3D12DDI_COMMAND_QUEUE_CREATION_FLAG_NONE, display.d3d12ddi_command_queue_creation_flags
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS
 ---
 
-# D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration
+# D3D12DDI_COMMAND_QUEUE_CREATION_FLAGS enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

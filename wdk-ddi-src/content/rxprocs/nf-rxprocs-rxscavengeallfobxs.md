@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxScavengeAllFobxs function"]
 ms.keywords: RxScavengeAllFobxs, RxScavengeAllFobxs function [Installable File System Drivers], ifsk.rxscavengeallfobxs, rxprocs/RxScavengeAllFobxs, rxref_d983b334-0cc7-42ab-abc7-79f1bc0876cd.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxScavengeAllFobxs
 ---
 
-# RxScavengeAllFobxs function
+# RxScavengeAllFobxs function (rxprocs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["imp_WppRecorderIsDefaultLogAvailable function"]
 ms.keywords: WppRecorderIsDefaultLogAvailable, devtest.wpprecorderisdefaultlogavailable, imp_WppRecorderIsDefaultLogAvailable, imp_WppRecorderIsDefaultLogAvailable function [Driver Development Tools], wpprecorder/imp_WppRecorderIsDefaultLogAvailable
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - imp_WppRecorderIsDefaultLogAvailable
 ---
 
-# WppRecorderIsDefaultLogAvailable function
+# imp_WppRecorderIsDefaultLogAvailable function (wpprecorder.h)
+
+
 
 
 ## -description

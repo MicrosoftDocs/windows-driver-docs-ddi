@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS IOCTL"]
 ms.keywords: IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS, IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS control, IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS control code [Display Devices], Video_IOCTLs_183de254-6025-478c-ad00-d5604f99b764.xml, display.ioctl_video_query_supported_brightness, ntddvdeo/IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS
 req.header: ntddvdeo.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS
 ---
 
-# IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS IOCTL
+# IOCTL_VIDEO_QUERY_SUPPORTED_BRIGHTNESS IOCTL (ntddvdeo.h)
+
+
+
+
 
 
 ## -description

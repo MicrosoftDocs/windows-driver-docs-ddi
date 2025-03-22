@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["HwNUnregisterClient function"]
 ms.keywords: HwNUnregisterClient, HwNUnregisterClient function, gpiobtn.hwnunregisterclient, hwnclx/HwNUnregisterClient
 req.header: hwnclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - HwNUnregisterClient
 ---
 
-# HwNUnregisterClient function
+# HwNUnregisterClient function (hwnclx.h)
+
+
 
 
 ## -description

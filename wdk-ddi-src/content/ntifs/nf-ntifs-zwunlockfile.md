@@ -8,6 +8,7 @@ ms.date: 07/26/2022
 keywords: ["ZwUnlockFile function"]
 ms.keywords: NtUnlockFile, ZwUnlockFile, ZwUnlockFile routine [Kernel-Mode Driver Architecture], k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml, kernel.zwunlockfile, ntifs/NtUnlockFile, ntifs/ZwUnlockFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - ZwUnlockFile
 ---
 
-# ZwUnlockFile function
+# ZwUnlockFile function (ntifs.h)
+
+
 
 ## -description
 

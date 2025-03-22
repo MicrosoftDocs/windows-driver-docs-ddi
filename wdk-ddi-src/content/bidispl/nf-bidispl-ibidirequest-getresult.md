@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiRequest::GetResult"]
 ms.keywords: GetResult, GetResult method [Print Devices], GetResult method [Print Devices],IBidiRequest interface, IBidiRequest interface [Print Devices],GetResult method, IBidiRequest.GetResult, IBidiRequest::GetResult, _win32_IBidiRequest_GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, print.ibidirequest_ibidirequest__getresult
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiRequest::GetResult
 ---
+
+# IBidiRequest::GetResult function (bidispl.h)
 
 ## -description
 

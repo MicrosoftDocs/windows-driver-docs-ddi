@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IOCTL_HID_ENABLE_SECURE_READ IOCTL"]
 ms.keywords: IOCTL_HID_ENABLE_SECURE_READ, IOCTL_HID_ENABLE_SECURE_READ control, IOCTL_HID_ENABLE_SECURE_READ control code [Human Input Devices], hid.ioctl_hid_enable_secure_read, hidclass/IOCTL_HID_ENABLE_SECURE_READ, hidioreq_2d4e5797-33fb-40dd-bf76-8d81a0d26826.xml
 req.header: hidclass.h
+req.construct-type: ioctl
 req.include-header: Hidclass.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_HID_ENABLE_SECURE_READ
 ---
 
-# IOCTL_HID_ENABLE_SECURE_READ IOCTL
+# IOCTL_HID_ENABLE_SECURE_READ IOCTL (hidclass.h)
+
+
+
+
 
 
 ## -description

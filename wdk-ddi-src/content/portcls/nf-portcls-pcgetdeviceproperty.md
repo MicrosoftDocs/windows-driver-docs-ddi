@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcGetDeviceProperty function"]
 ms.keywords: PcGetDeviceProperty, PcGetDeviceProperty function [Audio Devices], audio.pcgetdeviceproperty, audpc-routines_c95326e5-dc8f-4a04-b31d-6c4e79cc6771.xml, portcls/PcGetDeviceProperty
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcGetDeviceProperty function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcGetDeviceProperty
 ---
 
-# PcGetDeviceProperty function
+# PcGetDeviceProperty function (portcls.h)
+
+
 
 
 ## -description

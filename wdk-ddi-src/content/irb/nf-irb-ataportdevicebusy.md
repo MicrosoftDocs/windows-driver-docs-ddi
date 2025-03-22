@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortDeviceBusy function"]
 ms.keywords: AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, irb/AtaPortDeviceBusy, storage.ataportdevicebusy
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - AtaPortDeviceBusy
 ---
 
-# AtaPortDeviceBusy function
+# AtaPortDeviceBusy function (irb.h)
+
+
 
 
 ## -description

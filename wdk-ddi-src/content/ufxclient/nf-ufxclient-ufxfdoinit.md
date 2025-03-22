@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxFdoInit function"]
 ms.keywords: UfxFdoInit, UfxFdoInit method [Buses], buses.ufxfdoinit, ufxclient/UfxFdoInit
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxFdoInit
 ---
 
-# UfxFdoInit function
+# UfxFdoInit function (ufxclient.h)
+
+
 
 
 ## -description

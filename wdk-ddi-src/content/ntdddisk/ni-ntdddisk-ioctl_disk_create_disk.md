@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_CREATE_DISK IOCTL"]
 ms.keywords: IOCTL_DISK_CREATE_DISK, IOCTL_DISK_CREATE_DISK control, IOCTL_DISK_CREATE_DISK control code [Storage Devices], k307_1520ab81-e89f-4531-a6ac-0998e1b1b658.xml, ntdddisk/IOCTL_DISK_CREATE_DISK, storage.ioctl_disk_create_disk
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_CREATE_DISK
 ---
 
-# IOCTL_DISK_CREATE_DISK IOCTL
+# IOCTL_DISK_CREATE_DISK IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestGetRequestorProcessId function"]
 ms.keywords: WdfRequestGetRequestorProcessId, WdfRequestGetRequestorProcessId method, wdf.wdfrequestgetrequestorprocessid, wdfrequest/WdfRequestGetRequestorProcessId
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WdfRequestGetRequestorProcessId
 ---
 
-# WdfRequestGetRequestorProcessId function
+# WdfRequestGetRequestorProcessId function (wdfrequest.h)
+
+
 
 
 ## -description

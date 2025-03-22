@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVAHDDDI_DEVICE_USAGE enumeration"]
 ms.keywords: DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, _DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, display.dxvahdddi_device_usage
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: DXVAHDDDI_DEVICE_USAGE is supported beginning with the Windows 7 operating system.
@@ -43,7 +44,9 @@ api_name:
  - DXVAHDDDI_DEVICE_USAGE
 ---
 
-# _DXVAHDDDI_DEVICE_USAGE enumeration
+# DXVAHDDDI_DEVICE_USAGE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

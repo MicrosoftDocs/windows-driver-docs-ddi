@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["STOR_CRYPTO_ALGORITHM_ID enumeration"]
 ms.keywords: "*PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID, PSTOR_CRYPTO_ALGORITHM_ID enumeration pointer [Storage Devices], STOR_CRYPTO_ALGORITHM_ID, STOR_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STOR_CRYPTO_ALGORITHM_ID, storage.stor_crypto_algorithm_id, storport/, storport/PSTOR_CRYPTO_ALGORITHM_ID, storport/STOR_CRYPTO_ALGORITHM_ID"
 req.header: storport.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - STOR_CRYPTO_ALGORITHM_ID
 ---
 
-# STOR_CRYPTO_ALGORITHM_ID enumeration
+# STOR_CRYPTO_ALGORITHM_ID enumeration (storport.h)
+
+
 
 ## -description
 

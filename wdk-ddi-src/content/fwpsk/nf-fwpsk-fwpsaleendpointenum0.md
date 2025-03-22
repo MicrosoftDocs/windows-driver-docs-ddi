@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["FwpsAleEndpointEnum0 function"]
 ms.keywords: FwpsAleEndpointEnum0, FwpsAleEndpointEnum0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAleEndpointEnum0, netvista.fwpsaleendpointenum0, wfp_ref_2_funct_3_fwps_A-B_daf596f9-09c1-4e1c-8869-8c6aec4da6cd.xml
 req.header: fwpsk.h
+req.construct-type: function
 req.include-header: Fwpsk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FwpsAleEndpointEnum0
 ---
 
-# FwpsAleEndpointEnum0 function
+# FwpsAleEndpointEnum0 function (fwpsk.h)
+
+
 
 
 ## -description

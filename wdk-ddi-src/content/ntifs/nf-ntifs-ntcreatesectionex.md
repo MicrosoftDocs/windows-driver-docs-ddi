@@ -7,6 +7,7 @@ ms.date: 10/06/2022
 keywords: ["NtCreateSectionEx function"]
 ms.keywords: NtCreateSectionEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -40,7 +41,9 @@ dev_langs:
 ms.custom: engagement-fy23
 ---
 
-# NtCreateSectionEx function
+# NtCreateSectionEx function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["MmLockPagableCodeSection macro"]
 ms.keywords: MmLockPagableCodeSection, MmLockPagableCodeSection routine [Kernel-Mode Driver Architecture], k106_734069f7-1412-48d9-bae4-106391273a38.xml, kernel.mmlockpagablecodesection, wdm/MmLockPagableCodeSection
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - MmLockPagableCodeSection
 ---
+
+# MmLockPagableCodeSection macro (wdm.h)
+
+
 
 ## -description
 

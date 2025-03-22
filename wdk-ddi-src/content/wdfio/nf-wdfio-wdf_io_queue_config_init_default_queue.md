@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function"]
 ms.keywords: DFQueueObjectRef_e566e464-d9a3-44bf-a5a6-bb9b741ffe0f.xml, WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE, WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function, kmdf.wdf_io_queue_config_init_default_queue, wdf.wdf_io_queue_config_init_default_queue, wdfio/WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
 req.header: wdfio.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE
 ---
 
-# WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function
+# WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE function (wdfio.h)
+
+
 
 
 ## -description

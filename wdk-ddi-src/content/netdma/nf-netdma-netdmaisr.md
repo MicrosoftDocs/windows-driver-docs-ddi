@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NetDmaIsr function"]
 ms.keywords: NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, netvista.netdmaisr
 req.header: netdma.h
+req.construct-type: function
 req.include-header: Netdma.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NetDMA 1.0 drivers in Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - NetDmaIsr
 ---
 
-# NetDmaIsr function
+# NetDmaIsr function (netdma.h)
+
+
 
 
 ## -description

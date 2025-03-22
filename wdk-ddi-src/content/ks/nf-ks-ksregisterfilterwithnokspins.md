@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsRegisterFilterWithNoKSPins function"]
 ms.keywords: KsRegisterFilterWithNoKSPins, KsRegisterFilterWithNoKSPins function [Streaming Media Devices], avfunc_c9fc5273-7fd9-41d5-9ac4-5033ed757b7c.xml, ks/KsRegisterFilterWithNoKSPins, stream.ksregisterfilterwithnokspins
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsRegisterFilterWithNoKSPins
 ---
 
-# KsRegisterFilterWithNoKSPins function
+# KsRegisterFilterWithNoKSPins function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeRaiseIrql macro"]
 ms.keywords: KeRaiseIrql, KeRaiseIrql routine [Kernel-Mode Driver Architecture], k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, wdm/KeRaiseIrql
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,11 @@ api_name:
  - KeRaiseIrql
 ---
 
-# KeRaiseIrql macro
+# KeRaiseIrql macro (wdm.h)
+
+
+
+
 
 
 ## -description

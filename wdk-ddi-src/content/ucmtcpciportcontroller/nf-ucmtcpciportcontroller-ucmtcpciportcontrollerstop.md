@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmTcpciPortControllerStop function"]
 ms.keywords: UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], buses.ucmtcpciportcontrollerstop, ucmtcpciportcontroller/UcmTcpciPortControllerStop
 req.header: ucmtcpciportcontroller.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmTcpciPortControllerStop
 ---
 
-# UcmTcpciPortControllerStop function
+# UcmTcpciPortControllerStop function (ucmtcpciportcontroller.h)
+
+
 
 
 ## -description

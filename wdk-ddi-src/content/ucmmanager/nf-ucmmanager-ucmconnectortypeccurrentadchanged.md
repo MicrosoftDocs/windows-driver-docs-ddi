@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmConnectorTypeCCurrentAdChanged function"]
 ms.keywords: UcmConnectorTypeCCurrentAdChanged, UcmConnectorTypeCCurrentAdChanged method [Buses], buses.ucmconnectortypeccurrentadchanged, ucmmanager/UcmConnectorTypeCCurrentAdChanged
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorTypeCCurrentAdChanged
 ---
 
-# UcmConnectorTypeCCurrentAdChanged function
+# UcmConnectorTypeCCurrentAdChanged function (ucmmanager.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsQueryLogFileInformation function"]
 ms.keywords: ClfsQueryLogFileInformation, ClfsQueryLogFileInformation routine [Kernel-Mode Driver Architecture], Clfs_ff89b511-dc33-4407-b967-170b82cb70c3.xml, kernel.clfsquerylogfileinformation, wdm/ClfsQueryLogFileInformation
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsQueryLogFileInformation
 ---
 
-# ClfsQueryLogFileInformation function
+# ClfsQueryLogFileInformation function (wdm.h)
+
+
 
 
 ## -description

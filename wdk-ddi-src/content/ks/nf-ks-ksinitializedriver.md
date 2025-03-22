@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsInitializeDriver function"]
 ms.keywords: KsInitializeDriver, KsInitializeDriver function [Streaming Media Devices], avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, ks/KsInitializeDriver, stream.ksinitializedriver
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsInitializeDriver
 ---
+
+# KsInitializeDriver function (ks.h)
 
 ## -description
 

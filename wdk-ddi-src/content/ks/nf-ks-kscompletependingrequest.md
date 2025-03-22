@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCompletePendingRequest function"]
 ms.keywords: KsCompletePendingRequest, KsCompletePendingRequest function [Streaming Media Devices], avfunc_e01e61fc-ec10-4781-aee2-0aa7e24ca31a.xml, ks/KsCompletePendingRequest, stream.kscompletependingrequest
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsCompletePendingRequest
 ---
 
-# KsCompletePendingRequest function
+# KsCompletePendingRequest function (ks.h)
+
+
 
 
 ## -description

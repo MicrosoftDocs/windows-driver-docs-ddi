@@ -4,6 +4,7 @@ title: D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE (d3dkmthk.h)
 description: Learn more about the _D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration.
 ms.date: 07/17/2024
 req.header: d3dkmthk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -34,7 +35,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration
+# D3DKMT_OUTDUPL_POINTER_SHAPE_TYPE enumeration (d3dkmthk.h)
+
+
 
 ## -description
 

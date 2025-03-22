@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxDeviceNotifyReset function"]
 ms.keywords: UfxDeviceNotifyReset, UfxDeviceNotifyReset method [Buses], buses.ufxdevicenotifyreset, ufxclient/UfxDeviceNotifyReset
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxDeviceNotifyReset
 ---
 
-# UfxDeviceNotifyReset function
+# UfxDeviceNotifyReset function (ufxclient.h)
+
+
 
 
 ## -description

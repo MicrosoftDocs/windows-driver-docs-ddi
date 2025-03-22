@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeIsOutEndpoint function"]
 ms.keywords: DFUsbRef_19c3e865-4f6c-4950-93af-46a8b97ec6b9.xml, WdfUsbTargetPipeIsOutEndpoint, WdfUsbTargetPipeIsOutEndpoint method, kmdf.wdfusbtargetpipeisoutendpoint, wdf.wdfusbtargetpipeisoutendpoint, wdfusb/WdfUsbTargetPipeIsOutEndpoint
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetPipeIsOutEndpoint
 ---
 
-# WdfUsbTargetPipeIsOutEndpoint function
+# WdfUsbTargetPipeIsOutEndpoint function (wdfusb.h)
+
+
 
 
 ## -description

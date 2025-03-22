@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_STATS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_STATS, IOCTL_SERIAL_GET_STATS control, IOCTL_SERIAL_GET_STATS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_STATS, serports.ioctl_serial_get_stats, serref_c5deddd3-8649-4628-a62e-810d4693052e.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_GET_STATS
 ---
 
-# IOCTL_SERIAL_GET_STATS IOCTL
+# IOCTL_SERIAL_GET_STATS IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

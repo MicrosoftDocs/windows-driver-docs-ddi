@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxUsbDeviceRemoteWakeNotification function"]
 ms.keywords: UcxUsbDeviceRemoteWakeNotification, UcxUsbDeviceRemoteWakeNotification method [Buses], buses._ucxusbdeviceremotewakenotification, ucxusbdevice/UcxUsbDeviceRemoteWakeNotification
 req.header: ucxusbdevice.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxUsbDeviceRemoteWakeNotification
 ---
 
-# UcxUsbDeviceRemoteWakeNotification function
+# UcxUsbDeviceRemoteWakeNotification function (ucxusbdevice.h)
+
+
 
 
 ## -description

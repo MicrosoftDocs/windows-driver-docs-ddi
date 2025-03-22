@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_CELLULAR_CLASS enumeration"]
 ms.keywords: "*PWWAN_CELLULAR_CLASS, PWWAN_CELLULAR_CLASS, PWWAN_CELLULAR_CLASS enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_CELLULAR_CLASS, WWAN_CELLULAR_CLASS enumeration [Network Drivers Starting with Windows Vista], WwanCellularClassCdma, WwanCellularClassGsm, WwanCellularClassMax, WwanCellularClassUnknown, WwanRef_cbffbef4-6a05-4042-abf0-7495fadf869d.xml, _WWAN_CELLULAR_CLASS, netvista.wwan_cellular_class, wwan/PWWAN_CELLULAR_CLASS, wwan/WWAN_CELLULAR_CLASS, wwan/WwanCellularClassCdma, wwan/WwanCellularClassGsm, wwan/WwanCellularClassMax, wwan/WwanCellularClassUnknown"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_CELLULAR_CLASS
 ---
 
-# _WWAN_CELLULAR_CLASS enumeration
+# WWAN_CELLULAR_CLASS enumeration (wwan.h)
+
+
 
 
 ## -description

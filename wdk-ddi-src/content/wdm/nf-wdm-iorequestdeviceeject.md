@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoRequestDeviceEject function"]
 ms.keywords: IoRequestDeviceEject, IoRequestDeviceEject routine [Kernel-Mode Driver Architecture], k104_59a74c47-2538-400a-a9b5-a27a5fc495dd.xml, kernel.iorequestdeviceeject, wdm/IoRequestDeviceEject
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoRequestDeviceEject
 ---
 
-# IoRequestDeviceEject function
+# IoRequestDeviceEject function (wdm.h)
+
+
 
 
 ## -description

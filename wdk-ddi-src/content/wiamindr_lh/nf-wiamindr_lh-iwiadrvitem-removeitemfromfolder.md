@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaDrvItem::RemoveItemFromFolder"]
 ms.keywords: DrvItem_240e14a4-36bd-4a72-b143-6f8f5c220682.xml, IWiaDrvItem interface [Imaging Devices],RemoveItemFromFolder method, IWiaDrvItem.RemoveItemFromFolder, IWiaDrvItem::RemoveItemFromFolder, RemoveItemFromFolder, RemoveItemFromFolder method [Imaging Devices], RemoveItemFromFolder method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_removeitemfromfolder, wiamindr_lh/IWiaDrvItem::RemoveItemFromFolder
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaDrvItem::RemoveItemFromFolder
 ---
+
+# IWiaDrvItem::RemoveItemFromFolder function (wiamindr_lh.h)
 
 ## -description
 

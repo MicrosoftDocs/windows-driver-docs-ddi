@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["HPMI_HINT_BOOL enumeration"]
 ms.keywords: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, HpmiBoolMax, HpmiBoolTrue, HpmiBoolUnavailable, _HPMI_HINT_BOOL, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolFalse, hpmi/HpmiBoolMax, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, powermeter.hpmi_hint_bool"
 req.header: hpmi.h
+req.construct-type: enumeration
 req.include-header: Hpmi.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 10, version 1709 and later versions of the Windows operating systems.
@@ -46,7 +47,9 @@ api_name:
  - HPMI_HINT_BOOL
 ---
 
-# _HPMI_HINT_BOOL enumeration
+# HPMI_HINT_BOOL enumeration (hpmi.h)
+
+
 
 
 ## -description

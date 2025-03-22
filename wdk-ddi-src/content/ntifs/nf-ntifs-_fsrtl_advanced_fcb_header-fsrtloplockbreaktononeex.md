@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlOplockBreakToNoneEx function"]
 ms.keywords: FsRtlOplockBreakToNoneEx, FsRtlOplockBreakToNoneEx routine [Installable File System Drivers], fsrtlref_df3afc17-e57b-43b5-8281-4128854d2064.xml, ifsk.fsrtloplockbreaktononeex, ntifs/FsRtlOplockBreakToNoneEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlOplockBreakToNoneEx routine is available starting with Windows 7.
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlOplockBreakToNoneEx function
+# FsRtlOplockBreakToNoneEx function (ntifs.h)
+
+
 
 
 ## -description

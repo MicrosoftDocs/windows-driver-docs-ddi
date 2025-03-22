@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmInitializeDevice function"]
 ms.keywords: UcmInitializeDevice, UcmInitializeDevice method [Buses], buses.ucminitializedevice, ucmmanager/UcmInitializeDevice
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmInitializeDevice
 ---
 
-# UcmInitializeDevice function
+# UcmInitializeDevice function (ucmmanager.h)
+
+
 
 
 ## -description

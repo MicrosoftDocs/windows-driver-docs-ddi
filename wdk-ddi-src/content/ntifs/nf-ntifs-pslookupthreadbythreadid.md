@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsLookupThreadByThreadId function"]
 ms.keywords: PsLookupThreadByThreadId, PsLookupThreadByThreadId routine [Installable File System Drivers], ifsk.pslookupthreadbythreadid, ntifs/PsLookupThreadByThreadId, psref_36f0c499-8370-4257-849c-dc8bad2720cc.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PsLookupThreadByThreadId
 ---
 
-# PsLookupThreadByThreadId function
+# PsLookupThreadByThreadId function (ntifs.h)
+
+
 
 
 ## -description

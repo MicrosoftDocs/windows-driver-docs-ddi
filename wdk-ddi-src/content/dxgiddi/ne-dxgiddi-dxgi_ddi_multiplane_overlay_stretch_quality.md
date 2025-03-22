@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration"]
 ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH, display.dxgi_ddi_multiplane_overlay_stretch_quality, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_BILINEAR, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY_HIGH
 req.header: dxgiddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY
 ---
 
-# DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration
+# DXGI_DDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY enumeration (dxgiddi.h)
+
+
 
 
 ## -description

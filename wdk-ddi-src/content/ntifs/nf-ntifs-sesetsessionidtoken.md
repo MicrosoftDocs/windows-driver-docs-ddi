@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeSetSessionIdToken function"]
 ms.keywords: SeSetSessionIdToken, SeSetSessionIdToken function [Installable File System Drivers], ifsk.sesetsessionidtoken, ntifs/SeSetSessionIdToken, seref_3af3660a-a2ba-4262-91bb-dff8533bcdcb.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SeSetSessionIdToken
 ---
 
-# SeSetSessionIdToken function
+# SeSetSessionIdToken function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMDocumentPropertySheets function"]
 ms.keywords: OEMDocumentPropertySheets, OEMDocumentPropertySheets function [Print Devices], print.oemdocumentpropertysheets, print_obsoletefunctions_793a8444-a6ec-46b0-82bf-ea9cfecdf98a.xml, printoem/OEMDocumentPropertySheets
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMDocumentPropertySheets
 ---
+
+# OEMDocumentPropertySheets function (printoem.h)
 
 ## -description
 

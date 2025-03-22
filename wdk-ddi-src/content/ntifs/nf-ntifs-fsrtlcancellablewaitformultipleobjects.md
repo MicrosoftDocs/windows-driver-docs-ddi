@@ -8,6 +8,7 @@ ms.date: 12/16/2021
 keywords: ["FsRtlCancellableWaitForMultipleObjects function"]
 ms.keywords: FsRtlCancellableWaitForMultipleObjects, FsRtlCancellableWaitForMultipleObjects routine [Installable File System Drivers], fsrtlref_8a221e67-4344-401f-9e56-8fac66bb03b7.xml, ifsk.fsrtlcancellablewaitformultipleobjects, ntifs/FsRtlCancellableWaitForMultipleObjects
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlCancellableWaitForMultipleObjects
 ---
 
-# FsRtlCancellableWaitForMultipleObjects function
+# FsRtlCancellableWaitForMultipleObjects function (ntifs.h)
+
+
 
 ## -description
 

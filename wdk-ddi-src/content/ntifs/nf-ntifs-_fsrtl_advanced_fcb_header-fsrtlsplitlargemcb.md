@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlSplitLargeMcb function"]
 ms.keywords: FsRtlSplitLargeMcb, FsRtlSplitLargeMcb routine [Installable File System Drivers], fsrtlref_f8b7262b-59e2-442d-9525-faa934101bd8.xml, ifsk.fsrtlsplitlargemcb, ntifs/FsRtlSplitLargeMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlSplitLargeMcb function
+# FsRtlSplitLargeMcb function (ntifs.h)
+
+
 
 
 ## -description

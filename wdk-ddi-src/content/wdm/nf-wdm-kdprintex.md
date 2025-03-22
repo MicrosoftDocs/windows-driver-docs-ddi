@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["KdPrintEx macro"]
 ms.keywords: DebugFns_375418aa-5241-4b2c-9369-c930c3ca1ca6.xml, KdPrintEx, KdPrintEx function [Driver Development Tools], devtest.kdprintex, wdm/KdPrintEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later.
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - KdPrintEx
 ---
+
+# KdPrintEx macro (wdm.h)
+
+
 
 ## -description
 

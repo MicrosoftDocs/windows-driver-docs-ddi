@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisClOpenAddressFamilyEx function"]
 ms.keywords: NdisClOpenAddressFamilyEx, NdisClOpenAddressFamilyEx function [Network Drivers Starting with Windows Vista], condis_client_ref_6590ccca-3e48-4f83-a7d0-66ce9b6b1eef.xml, ndis/NdisClOpenAddressFamilyEx, netvista.ndisclopenaddressfamilyex
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisClOpenAddressFamilyEx
 ---
 
-# NdisClOpenAddressFamilyEx function
+# NdisClOpenAddressFamilyEx function (ndis.h)
+
+
 
 
 ## -description

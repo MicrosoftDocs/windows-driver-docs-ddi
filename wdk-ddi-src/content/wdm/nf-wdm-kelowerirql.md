@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeLowerIrql function"]
 ms.keywords: KeLowerIrql, KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, kernel.kelowerirql, wdm/KeLowerIrql
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - KeLowerIrql
 ---
 
-# KeLowerIrql function
+# KeLowerIrql function (wdm.h)
+
+
 
 
 ## -description

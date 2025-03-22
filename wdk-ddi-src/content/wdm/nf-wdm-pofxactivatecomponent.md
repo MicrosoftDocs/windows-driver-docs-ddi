@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxActivateComponent function"]
 ms.keywords: PO_FX_FLAG_ASYNC_ONLY, PO_FX_FLAG_BLOCKING, PoFxActivateComponent, PoFxActivateComponent routine [Kernel-Mode Driver Architecture], kernel.pofxactivatecomponent, wdm/PoFxActivateComponent
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxActivateComponent
 ---
 
-# PoFxActivateComponent function
+# PoFxActivateComponent function (wdm.h)
+
+
 
 
 ## -description

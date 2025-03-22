@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_REUSE_FLAGS enumeration"]
 ms.keywords: DFRequestObjectRef_4b91ca45-4dbb-4942-83ce-72ca10170932.xml, WDF_REQUEST_REUSE_FLAGS, WDF_REQUEST_REUSE_FLAGS enumeration, WDF_REQUEST_REUSE_NO_FLAGS, WDF_REQUEST_REUSE_SET_NEW_IRP, _WDF_REQUEST_REUSE_FLAGS, kmdf.wdf_request_reuse_flags, wdf.wdf_request_reuse_flags, wdfrequest/WDF_REQUEST_REUSE_FLAGS, wdfrequest/WDF_REQUEST_REUSE_NO_FLAGS, wdfrequest/WDF_REQUEST_REUSE_SET_NEW_IRP
 req.header: wdfrequest.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_REQUEST_REUSE_FLAGS
 ---
 
-# _WDF_REQUEST_REUSE_FLAGS enumeration
+# WDF_REQUEST_REUSE_FLAGS enumeration (wdfrequest.h)
+
+
 
 
 ## -description

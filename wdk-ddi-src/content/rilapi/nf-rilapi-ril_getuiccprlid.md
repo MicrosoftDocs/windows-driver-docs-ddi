@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_GetUiccPRLID function"]
 ms.keywords: RIL_GetUiccPRLID, RIL_GetUiccPRLID method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccprlid, rilapi/RIL_GetUiccPRLID
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_GetUiccPRLID
 ---
 
-# RIL_GetUiccPRLID function
+# RIL_GetUiccPRLID function (rilapi.h)
+
+
 
 
 ## -description

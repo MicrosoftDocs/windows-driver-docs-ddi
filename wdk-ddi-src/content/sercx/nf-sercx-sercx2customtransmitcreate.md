@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2CustomTransmitCreate function"]
 ms.keywords: 2/SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate, SerCx2CustomTransmitCreate method [Serial Ports], serports.sercx2customtransmitcreate
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2CustomTransmitCreate
 ---
 
-# SerCx2CustomTransmitCreate function
+# SerCx2CustomTransmitCreate function (sercx.h)
+
+
 
 
 ## -description

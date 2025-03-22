@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasUpdateValidFormat function"]
 ms.keywords: image.wiasupdatevalidformat, wiamdef/wiasUpdateValidFormat, wiasFncs_dfbd0aa5-1c7c-4b4f-a1da-82176b36e914.xml, wiasUpdateValidFormat, wiasUpdateValidFormat function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - wiasUpdateValidFormat
 ---
 
-# wiasUpdateValidFormat function
+# wiasUpdateValidFormat function (wiamdef.h)
+
+
 
 
 ## -description

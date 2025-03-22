@@ -7,6 +7,7 @@ ms.date: 12/07/2022
 keywords: ["ZwAllocateLocallyUniqueId function"]
 ms.keywords: NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwAllocateLocallyUniqueId
 ---
+
+# ZwAllocateLocallyUniqueId function (ntddk.h)
 
 ## -description
 

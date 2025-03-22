@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoRegisterFsRegistrationChangeMountAware function"]
 ms.keywords: IoRegisterFsRegistrationChangeMountAware, IoRegisterFsRegistrationChangeMountAware routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchangemountaware, ioref_c69a27ef-45f5-4873-bd11-34e984cc5c11.xml, ntifs/IoRegisterFsRegistrationChangeMountAware
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The IoRegisterFsRegistrationChangeMountAware routine is Windows 7
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterFsRegistrationChangeMountAware
 ---
 
-# IoRegisterFsRegistrationChangeMountAware function
+# IoRegisterFsRegistrationChangeMountAware function (ntifs.h)
+
+
 
 
 ## -description

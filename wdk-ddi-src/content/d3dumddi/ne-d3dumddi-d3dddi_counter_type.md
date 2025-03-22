@@ -6,6 +6,7 @@ ms.date: 10/10/2023
 keywords: ["D3DDDI_COUNTER_TYPE enumeration"]
 ms.keywords: D3DDDI_COUNTER_TYPE, D3DDDI_COUNTER_TYPE,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3DDDI_COUNTER_TYPE enumeration
+# D3DDDI_COUNTER_TYPE enumeration (d3dumddi.h)
+
+
 
 ## -description
 

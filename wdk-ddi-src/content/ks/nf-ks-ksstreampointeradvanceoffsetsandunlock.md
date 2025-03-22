@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerAdvanceOffsetsAndUnlock function"]
 ms.keywords: KsStreamPointerAdvanceOffsetsAndUnlock, KsStreamPointerAdvanceOffsetsAndUnlock function [Streaming Media Devices], avfunc_5f1d19bb-e367-4df3-9423-0263bda1cd54.xml, ks/KsStreamPointerAdvanceOffsetsAndUnlock, stream.ksstreampointeradvanceoffsetsandunlock
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerAdvanceOffsetsAndUnlock
 ---
 
-# KsStreamPointerAdvanceOffsetsAndUnlock function
+# KsStreamPointerAdvanceOffsetsAndUnlock function (ks.h)
+
+
 
 
 ## -description

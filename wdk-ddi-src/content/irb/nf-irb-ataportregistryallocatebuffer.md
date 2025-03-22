@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRegistryAllocateBuffer function"]
 ms.keywords: AtaPortRegistryAllocateBuffer, AtaPortRegistryAllocateBuffer routine [Storage Devices], atartns_9ad4a954-9252-4128-99b9-a82e89da5f98.xml, irb/AtaPortRegistryAllocateBuffer, storage.ataportregistryallocatebuffer
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortRegistryAllocateBuffer
 ---
 
-# AtaPortRegistryAllocateBuffer function
+# AtaPortRegistryAllocateBuffer function (irb.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisClNotifyCloseAddressFamilyComplete function"]
 ms.keywords: NdisClNotifyCloseAddressFamilyComplete, NdisClNotifyCloseAddressFamilyComplete function [Network Drivers Starting with Windows Vista], condis_client_ref_d084e99b-f911-4d23-b59e-ad1f51a2261a.xml, ndis/NdisClNotifyCloseAddressFamilyComplete, netvista.ndisclnotifycloseaddressfamilycomplete
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisClNotifyCloseAddressFamilyComplete
 ---
 
-# NdisClNotifyCloseAddressFamilyComplete function
+# NdisClNotifyCloseAddressFamilyComplete function (ndis.h)
+
+
 
 
 ## -description

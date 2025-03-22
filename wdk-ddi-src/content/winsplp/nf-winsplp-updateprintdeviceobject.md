@@ -7,6 +7,7 @@ ms.date: 11/30/2022
 keywords: ["UpdatePrintDeviceObject function"]
 ms.keywords: UpdatePrintDeviceObject, UpdatePrintDeviceObject function [Print Devices], print.updateprintdeviceobject, winsplp/UpdatePrintDeviceObject
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winspool.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - UpdatePrintDeviceObject
 ---
+
+# UpdatePrintDeviceObject function (winsplp.h)
 
 ## -description
 

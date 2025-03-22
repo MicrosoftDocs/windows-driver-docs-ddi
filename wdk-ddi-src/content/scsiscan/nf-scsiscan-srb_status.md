@@ -6,6 +6,7 @@ ms.date: 11/18/2020
 keywords: ["SRB_STATUS macro"]
 ms.keywords: SRB_STATUS
 req.header: scsiscan.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# SRB_STATUS macro
+# SRB_STATUS macro (scsiscan.h)
+
+
+
+
 
 ## -description
 

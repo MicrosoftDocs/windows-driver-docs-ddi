@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["MAKEFOURCC macro"]
 ms.keywords: MAKEFOURCC
 req.header: d3dukmdt.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# MAKEFOURCC macro
+# MAKEFOURCC macro (d3dukmdt.h)
+
+
+
+
 
 
 ## -description

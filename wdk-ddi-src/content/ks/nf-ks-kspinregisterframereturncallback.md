@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinRegisterFrameReturnCallback function"]
 ms.keywords: KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback function [Streaming Media Devices], avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, ks/KsPinRegisterFrameReturnCallback, stream.kspinregisterframereturncallback
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinRegisterFrameReturnCallback
 ---
 
-# KsPinRegisterFrameReturnCallback function
+# KsPinRegisterFrameReturnCallback function (ks.h)
+
+
 
 
 ## -description

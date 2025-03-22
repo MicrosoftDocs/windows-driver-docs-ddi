@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInitializeFastMutex function"]
 ms.keywords: ExInitializeFastMutex, ExInitializeFastMutex routine [Kernel-Mode Driver Architecture], k102_b340d108-2e1c-4fa5-9bd0-d174452b125c.xml, kernel.exinitializefastmutex, wdm/ExInitializeFastMutex
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExInitializeFastMutex
 ---
 
-# ExInitializeFastMutex function
+# ExInitializeFastMutex function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMSleep function"]
 ms.keywords: NdisMSleep, NdisMSleep function [Network Drivers Starting with Windows Vista], ndis/NdisMSleep, ndis_delay_ref_81af917a-626a-493f-97ed-c4ce48999b12.xml, netvista.ndismsleep
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMSleep (NDIS 5.1)) in Windows   Vista. Supported for NDIS 5.1 drivers (see    NdisMSleep (NDIS 5.1)).
@@ -41,7 +42,9 @@ api_name:
  - NdisMSleep
 ---
 
-# NdisMSleep function
+# NdisMSleep function (ndis.h)
+
+
 
 
 ## -description

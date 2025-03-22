@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["EtwWriteEx function"]
 ms.keywords: EtwWriteEx, EtwWriteEx function [Driver Development Tools], devtest.etwwriteex, wdm/EtwWriteEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - EtwWriteEx
 ---
 
-# EtwWriteEx function
+# EtwWriteEx function (wdm.h)
+
+
 
 
 ## -description

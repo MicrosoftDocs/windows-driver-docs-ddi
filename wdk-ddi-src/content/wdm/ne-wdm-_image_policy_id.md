@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IMAGE_POLICY_ID enumeration"]
 ms.keywords: IMAGE_POLICY_ID, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], ImagePolicyIdCapability, ImagePolicyIdCrashDump, ImagePolicyIdCrashDumpKey, ImagePolicyIdCrashDumpKeyGuid, ImagePolicyIdDebug, ImagePolicyIdDeviceId, ImagePolicyIdEtw, ImagePolicyIdMaximum, ImagePolicyIdParentSd, ImagePolicyIdParentSdRev, ImagePolicyIdScenarioId, ImagePolicyIdSvn, _IMAGE_POLICY_ID, kernel._image_policy_id, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDump, wdm/ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdDebug, wdm/ImagePolicyIdDeviceId, wdm/ImagePolicyIdEtw, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdParentSd, wdm/ImagePolicyIdParentSdRev, wdm/ImagePolicyIdScenarioId, wdm/ImagePolicyIdSvn
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - IMAGE_POLICY_ID
 ---
 
-# _IMAGE_POLICY_ID enumeration
+# IMAGE_POLICY_ID enumeration (wdm.h)
+
+
 
 
 ## -description

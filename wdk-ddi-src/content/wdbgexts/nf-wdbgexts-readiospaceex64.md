@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ReadIoSpaceEx64 function"]
 ms.keywords: ReadIoSpaceEx64, ReadIoSpaceEx64 function [Windows Debugging], WdbgExts_Ref_5d81517c-f30d-4f8c-b4fe-e3487ad6c49e.xml, debugger.readiospaceex64, wdbgexts/ReadIoSpaceEx64
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ReadIoSpaceEx64
 ---
 
-# ReadIoSpaceEx64 function
+# ReadIoSpaceEx64 function (wdbgexts.h)
+
+
 
 
 ## -description

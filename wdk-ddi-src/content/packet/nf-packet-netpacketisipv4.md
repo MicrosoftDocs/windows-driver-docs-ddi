@@ -7,6 +7,7 @@ ms.date: 01/30/2019
 keywords: ["NetPacketIsIpv4 function"]
 ms.keywords: NetPacketIsIpv4
 req.header: packet.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - NetPacketIsIpv4
 ---
 
-# NetPacketIsIpv4 function
+# NetPacketIsIpv4 function (packet.h)
+
+
 
 
 ## -description

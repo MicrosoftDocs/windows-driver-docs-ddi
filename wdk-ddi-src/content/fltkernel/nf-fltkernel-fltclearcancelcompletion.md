@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltClearCancelCompletion function"]
 ms.keywords: FltApiRef_a_to_d_4dea0214-a0a2-45b8-b044-960881a8f065.xml, FltClearCancelCompletion, FltClearCancelCompletion routine [Installable File System Drivers], fltkernel/FltClearCancelCompletion, ifsk.fltclearcancelcompletion
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltClearCancelCompletion
 ---
 
-# FltClearCancelCompletion function
+# FltClearCancelCompletion function (fltkernel.h)
+
+
 
 
 ## -description

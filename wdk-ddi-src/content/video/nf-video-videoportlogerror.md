@@ -8,6 +8,7 @@ ms.date: 08/18/2022
 keywords: ["VideoPortLogError function"]
 ms.keywords: VideoPortLogError, VideoPortLogError function [Display Devices], VideoPort_Functions_18666bd9-b871-4e4c-9f31-bd5cbd505d52.xml, display.videoportlogerror, video/VideoPortLogError
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - VideoPortLogError
 ---
 
-# VideoPortLogError function
+# VideoPortLogError function (video.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlUIntPtrToInt16 function"]
 ms.keywords: RtlUIntPtrToInt16, RtlUIntPtrToInt16 function [Kernel-Mode Driver Architecture], kernel.rtluintptrtoint16, ntintsafe/RtlUIntPtrToInt16
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUIntPtrToInt16
 ---
 
-# RtlUIntPtrToInt16 function
+# RtlUIntPtrToInt16 function (ntintsafe.h)
+
+
 
 
 ## -description

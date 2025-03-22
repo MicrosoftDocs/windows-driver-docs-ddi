@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltClose function"]
 ms.keywords: FltApiRef_a_to_d_f50e2397-1161-4e6e-9688-2baa417f6845.xml, FltClose, FltClose function [Installable File System Drivers], fltkernel/FltClose, ifsk.fltclose
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltClose
 ---
 
-# FltClose function
+# FltClose function (fltkernel.h)
+
+
 
 
 ## -description

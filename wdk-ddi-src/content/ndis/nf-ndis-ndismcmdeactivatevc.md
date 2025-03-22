@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMCmDeactivateVc function"]
 ms.keywords: NdisMCmDeactivateVc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, ndis/NdisMCmDeactivateVc, netvista.ndismcmdeactivatevc
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisMCmDeactivateVc (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisMCmDeactivateVc (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisMCmDeactivateVc
 ---
 
-# NdisMCmDeactivateVc function
+# NdisMCmDeactivateVc function (ndis.h)
+
+
 
 
 ## -description

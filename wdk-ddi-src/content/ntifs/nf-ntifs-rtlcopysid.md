@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlCopySid function"]
 ms.keywords: RtlCopySid, RtlCopySid routine [Installable File System Drivers], ifsk.rtlcopysid, ntifs/RtlCopySid, rtlref_598b8f18-6cd2-4714-a2da-8e91f6aba065.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - RtlCopySid
 ---
 
-# RtlCopySid function
+# RtlCopySid function (ntifs.h)
+
+
 
 
 ## -description

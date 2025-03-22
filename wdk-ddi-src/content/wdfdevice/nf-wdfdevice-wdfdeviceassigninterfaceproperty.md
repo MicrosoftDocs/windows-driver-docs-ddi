@@ -7,6 +7,7 @@ ms.date: 07/14/2022
 keywords: ["WdfDeviceAssignInterfaceProperty function"]
 ms.keywords: WdfDeviceAssignInterfaceProperty, WdfDeviceAssignInterfaceProperty method, wdf.wdfdeviceassigninterfaceproperty, wdfdevice/WdfDeviceAssignInterfaceProperty
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8.1
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - WdfDeviceAssignInterfaceProperty
 ---
+
+# WdfDeviceAssignInterfaceProperty function (wdfdevice.h)
 
 ## -description
 

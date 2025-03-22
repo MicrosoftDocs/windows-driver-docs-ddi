@@ -7,6 +7,7 @@ ms.date: 03/21/2019
 keywords: ["STORAGE_SET_TYPE enumeration"]
 ms.keywords: STORAGE_SET_TYPE, STORAGE_SET_TYPE, *PSTORAGE_SET_TYPE, STORAGE_PROPERTY_SET, IOCTL_STORAGE_SET_PROPERTY
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - STORAGE_SET_TYPE
 ---
 
-# STORAGE_SET_TYPE enumeration
+# STORAGE_SET_TYPE enumeration (ntddstor.h)
+
+
 
 
 ## -description

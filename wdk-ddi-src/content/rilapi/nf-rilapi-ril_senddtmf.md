@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SendDTMF function"]
 ms.keywords: RIL_SendDTMF, RIL_SendDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_senddtmf, rilapi/RIL_SendDTMF
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SendDTMF
 ---
 
-# RIL_SendDTMF function
+# RIL_SendDTMF function (rilapi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxEndpointNoPingResponseError function"]
 ms.keywords: UcxEndpointNoPingResponseError, UcxEndpointNoPingResponseError method [Buses], buses._ucxendpointnopingresponseerror, ucxendpoint/UcxEndpointNoPingResponseError
 req.header: ucxendpoint.h
+req.construct-type: function
 req.include-header: Ucxclass.h, Ucxendpoint.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxEndpointNoPingResponseError
 ---
 
-# UcxEndpointNoPingResponseError function
+# UcxEndpointNoPingResponseError function (ucxendpoint.h)
+
+
 
 
 ## -description

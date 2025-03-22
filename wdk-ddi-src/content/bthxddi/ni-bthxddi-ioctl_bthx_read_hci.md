@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["IOCTL_BTHX_READ_HCI IOCTL"]
 ms.keywords: IOCTL_BTHX_READ_HCI, IOCTL_BTHX_READ_HCI control, IOCTL_BTHX_READ_HCI control code [Bluetooth Devices], bltooth.ioctl_bthx_hci_read, bltooth.ioctl_bthx_read_hci, bthxddi/IOCTL_BTHX_READ_HCI
 req.header: bthxddi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BTHX_READ_HCI
 ---
 
-# IOCTL_BTHX_READ_HCI IOCTL
+# IOCTL_BTHX_READ_HCI IOCTL (bthxddi.h)
+
+
+
+
 
 
 ## -description

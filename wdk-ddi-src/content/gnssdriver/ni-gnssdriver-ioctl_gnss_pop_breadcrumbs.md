@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_POP_BREADCRUMBS IOCTL"]
 ms.keywords: IOCTL_GNSS_POP_BREADCRUMBS, IOCTL_GNSS_POP_BREADCRUMBS control, IOCTL_GNSS_POP_BREADCRUMBS control code [Sensor Devices], gnss.ioctl_gnss_pop_breadcrumbs_, gnssdriver/IOCTL_GNSS_POP_BREADCRUMBS
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_POP_BREADCRUMBS
 ---
 
-# IOCTL_GNSS_POP_BREADCRUMBS IOCTL
+# IOCTL_GNSS_POP_BREADCRUMBS IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

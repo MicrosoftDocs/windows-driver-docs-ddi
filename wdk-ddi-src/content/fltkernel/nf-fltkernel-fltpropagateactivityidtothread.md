@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltPropagateActivityIdToThread function"]
 ms.keywords: FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], fltkernel/FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - FltPropagateActivityIdToThread
 ---
 
-# FltPropagateActivityIdToThread function
+# FltPropagateActivityIdToThread function (fltkernel.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 05/24/2022
 keywords: ["DXGK_DISPLAYPANELORIENTATION enumeration"]
 ms.keywords: DXGK_DISPLAYPANELORIENTATION, DXGK_DISPLAYPANELORIENTATION enumeration [Display Devices], DXGK_DPO_0, DXGK_DPO_180, DXGK_DPO_270, DXGK_DPO_90, _DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DISPLAYPANELORIENTATION, d3dkmddi/DXGK_DPO_0, d3dkmddi/DXGK_DPO_180, d3dkmddi/DXGK_DPO_270, d3dkmddi/DXGK_DPO_90, display.dxgk_displaypanelorientation
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - DXGK_DISPLAYPANELORIENTATION
 ---
 
-# DXGK_DISPLAYPANELORIENTATION enumeration
+# DXGK_DISPLAYPANELORIENTATION enumeration (d3dkmddi.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function"]
 ms.keywords: WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT, WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function, kmdf.wdf_dma_system_profile_config_init, wdf.wdf_dma_system_profile_config_init, wdfdmaenabler/WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
 req.header: wdfdmaenabler.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT
 ---
 
-# WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function
+# WDF_DMA_SYSTEM_PROFILE_CONFIG_INIT function (wdfdmaenabler.h)
+
+
 
 
 ## -description

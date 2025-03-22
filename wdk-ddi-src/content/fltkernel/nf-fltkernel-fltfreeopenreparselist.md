@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltFreeOpenReparseList function"]
 ms.keywords: FltAddOpenReparseEntry, FltAddOpenReparseEntry routine [Installable File System Drivers], FltFreeOpenReparseList, fltkernel/FltAddOpenReparseEntry, ifsk.fltfreeopenreparselist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -40,7 +41,9 @@ api_name:
  - FltFreeOpenReparseList
 ---
 
-# FltFreeOpenReparseList function
+# FltFreeOpenReparseList function (fltkernel.h)
+
+
 
 
 ## -description

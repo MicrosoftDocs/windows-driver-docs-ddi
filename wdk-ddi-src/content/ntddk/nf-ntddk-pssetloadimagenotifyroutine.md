@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsSetLoadImageNotifyRoutine function"]
 ms.keywords: PsSetLoadImageNotifyRoutine, PsSetLoadImageNotifyRoutine routine [Kernel-Mode Driver Architecture], k108_287b9d79-8b77-40b6-8fe7-21ac3551e437.xml, kernel.pssetloadimagenotifyroutine, ntddk/PsSetLoadImageNotifyRoutine
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PsSetLoadImageNotifyRoutine
 ---
 
-# PsSetLoadImageNotifyRoutine function
+# PsSetLoadImageNotifyRoutine function (ntddk.h)
+
+
 
 
 ## -description

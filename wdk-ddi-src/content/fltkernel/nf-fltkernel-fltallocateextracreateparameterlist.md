@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAllocateExtraCreateParameterList function"]
 ms.keywords: FltAllocateExtraCreateParameterList, FltAllocateExtraCreateParameterList routine [Installable File System Drivers], FltApiRef_a_to_d_9caf46c0-e0bb-4a0a-b9dd-f4005664b9ca.xml, fltkernel/FltAllocateExtraCreateParameterList, ifsk.fltallocateextracreateparameterlist
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FltAllocateExtraCreateParameterList
 ---
 
-# FltAllocateExtraCreateParameterList function
+# FltAllocateExtraCreateParameterList function (fltkernel.h)
+
+
 
 
 ## -description

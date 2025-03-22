@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltStartFiltering function"]
 ms.keywords: FltApiRef_p_to_z_f88abc20-f8b7-4399-85be-bd43674fe536.xml, FltStartFiltering, FltStartFiltering function [Installable File System Drivers], fltkernel/FltStartFiltering, ifsk.fltstartfiltering
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltStartFiltering
 ---
 
-# FltStartFiltering function
+# FltStartFiltering function (fltkernel.h)
+
+
 
 
 ## -description

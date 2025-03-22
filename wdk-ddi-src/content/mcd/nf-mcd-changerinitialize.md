@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerInitialize function"]
 ms.keywords: ChangerInitialize, ChangerInitialize function [Storage Devices], chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, mcd/ChangerInitialize, storage.changerinitialize
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerInitialize
 ---
 
-# ChangerInitialize function
+# ChangerInitialize function (mcd.h)
+
+
 
 
 ## -description

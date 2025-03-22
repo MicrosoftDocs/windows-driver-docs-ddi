@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltSetInformationFile function"]
 ms.keywords: FltApiRef_p_to_z_310caf59-cf9a-488a-8632-f0d8d5e14769.xml, FltSetInformationFile, FltSetInformationFile function [Installable File System Drivers], fltkernel/FltSetInformationFile, ifsk.fltsetinformationfile
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltSetInformationFile
 ---
 
-# FltSetInformationFile function
+# FltSetInformationFile function (fltkernel.h)
+
+
 
 
 ## -description

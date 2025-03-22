@@ -8,6 +8,7 @@ ms.date: 06/01/2022
 keywords: ["FltRegisterForDataScan function"]
 ms.keywords: FltRegisterForDataScan, FltRegisterForDataScan routine [Installable File System Drivers], fltkernel/FltRegisterForDataScan, ifsk.fltregisterfordatascan
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FltRegisterForDataScan
 ---
 
-# FltRegisterForDataScan function
+# FltRegisterForDataScan function (fltkernel.h)
+
+
 
 ## -description
 

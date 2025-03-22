@@ -8,6 +8,7 @@ ms.date: 04/19/2022
 keywords: ["WppRecorderGetTriageInfo macro"]
 ms.keywords: WppRecorderGetTriageInfo
 req.header: wpprecorder.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -42,7 +43,11 @@ api_name:
  - WppRecorderGetTriageInfo
 ---
 
-# WppRecorderGetTriageInfo macro
+# WppRecorderGetTriageInfo macro (wpprecorder.h)
+
+
+
+
 
 
 ## -description

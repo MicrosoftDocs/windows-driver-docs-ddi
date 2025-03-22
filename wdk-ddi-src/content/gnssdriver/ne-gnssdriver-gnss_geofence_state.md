@@ -8,6 +8,7 @@ ms.date: 11/03/2020
 keywords: ["GNSS_GEOFENCE_STATE enumeration"]
 ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GeofenceState_Entered, GNSS_GeofenceState_Exited, GNSS_GeofenceState_Unknown, gnss.gnss_geofence_state, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Entered, gnssdriver/GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Unknown
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_GEOFENCE_STATE
 ---
 
-# GNSS_GEOFENCE_STATE enumeration
+# GNSS_GEOFENCE_STATE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

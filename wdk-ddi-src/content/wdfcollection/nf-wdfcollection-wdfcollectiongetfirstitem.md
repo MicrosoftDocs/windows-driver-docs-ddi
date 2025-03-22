@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionGetFirstItem function"]
 ms.keywords: DFCollectionObjectRef_1a816492-f120-48f9-9c10-88f71947008c.xml, WdfCollectionGetFirstItem, WdfCollectionGetFirstItem method, kmdf.wdfcollectiongetfirstitem, wdf.wdfcollectiongetfirstitem, wdfcollection/WdfCollectionGetFirstItem
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionGetFirstItem
 ---
 
-# WdfCollectionGetFirstItem function
+# WdfCollectionGetFirstItem function (wdfcollection.h)
+
+
 
 
 ## -description

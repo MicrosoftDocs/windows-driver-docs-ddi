@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExIsSoftBoot function"]
 ms.keywords: ExIsSoftBoot, ExIsSoftBoot function [Kernel-Mode Driver Architecture], kernel.exissoftboot, wdm/ExIsSoftBoot
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -40,7 +41,9 @@ api_name:
  - ExIsSoftBoot
 ---
 
-# ExIsSoftBoot function
+# ExIsSoftBoot function (wdm.h)
+
+
 
 
 ## -description

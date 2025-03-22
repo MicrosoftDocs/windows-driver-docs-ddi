@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoIsFileOpenedExclusively macro"]
 ms.keywords: IoIsFileOpenedExclusively, IoIsFileOpenedExclusively macro [Installable File System Drivers], ifsk.ioisfileopenedexclusively, ioref_3aa5aef5-1d17-4301-b02f-8013829fea38.xml, ntifs/IoIsFileOpenedExclusively
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IoIsFileOpenedExclusively
 ---
 
-# IoIsFileOpenedExclusively macro
+# IoIsFileOpenedExclusively macro (ntifs.h)
+
+
+
+
 
 
 ## -description

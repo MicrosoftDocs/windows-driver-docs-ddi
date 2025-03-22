@@ -7,6 +7,7 @@ ms.date: 05/23/2022
 keywords: ["StorPortAllocateDmaMemory function"]
 ms.keywords: StorPortAllocateDmaMemory
 req.header: storport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10 (Version 1803)
@@ -37,7 +38,9 @@ api_name:
  - StorPortAllocateDmaMemory
 ---
 
-# StorPortAllocateDmaMemory function
+# StorPortAllocateDmaMemory function (storport.h)
+
+
 
 ## -description
 

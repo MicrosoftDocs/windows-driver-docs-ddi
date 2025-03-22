@@ -7,6 +7,7 @@ ms.date: 10/03/2019
 keywords: ["NetPowerOffloadGetArpParameters function"]
 ms.keywords: NetPowerOffloadGetArpParameters
 req.header: netpoweroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 2004
@@ -38,7 +39,9 @@ api_name:
  - NetPowerOffloadGetArpParameters
 ---
 
-# NetPowerOffloadGetArpParameters function
+# NetPowerOffloadGetArpParameters function (netpoweroffload.h)
+
+
 
 
 ## -description

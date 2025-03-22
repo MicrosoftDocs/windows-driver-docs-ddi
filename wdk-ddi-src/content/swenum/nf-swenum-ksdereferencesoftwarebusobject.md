@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsDereferenceSoftwareBusObject function"]
 ms.keywords: KsDereferenceSoftwareBusObject, KsDereferenceSoftwareBusObject function [Streaming Media Devices], ksfunc_e9066001-173a-40e1-a933-2f646a21afad.xml, stream.ksdereferencesoftwarebusobject, swenum/KsDereferenceSoftwareBusObject
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsDereferenceSoftwareBusObject
 ---
 
-# KsDereferenceSoftwareBusObject function
+# KsDereferenceSoftwareBusObject function (swenum.h)
+
+
 
 
 ## -description

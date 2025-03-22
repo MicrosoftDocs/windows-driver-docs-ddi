@@ -8,6 +8,7 @@ ms.date: 04/28/2022
 keywords: ["HidD_GetFeature function"]
 ms.keywords: HidD_GetFeature, HidD_GetFeature routine [Human Input Devices], hid.hidd_getfeature, hidfunc_2992bcaf-4ca6-4b6f-9a85-d0add8c7fe99.xml, hidsdi/HidD_GetFeature
 req.header: hidsdi.h
+req.construct-type: function
 req.include-header: Hidsdi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - HidD_GetFeature
 ---
 
-# HidD_GetFeature function
+# HidD_GetFeature function (hidsdi.h)
+
+
 
 ## -description
 

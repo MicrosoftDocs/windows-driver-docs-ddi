@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlResetLargeMcb function"]
 ms.keywords: FsRtlResetLargeMcb, FsRtlResetLargeMcb routine [Installable File System Drivers], fsrtlref_947ccacb-eef2-44d8-9b73-1b8aa930cd03.xml, ifsk.fsrtlresetlargemcb, ntifs/FsRtlResetLargeMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlResetLargeMcb function
+# FsRtlResetLargeMcb function (ntifs.h)
+
+
 
 
 ## -description

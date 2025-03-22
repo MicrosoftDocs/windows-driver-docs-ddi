@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcForwardContentToInterface function"]
 ms.keywords: PcForwardContentToInterface, PcForwardContentToInterface function [Audio Devices], audio.pcforwardcontenttointerface, audpc-routines_1c3b8e8d-556e-4029-9e25-5a2e083dd17f.xml, portcls/PcForwardContentToInterface
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcForwardContentToInterface function in Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcForwardContentToInterface
 ---
 
-# PcForwardContentToInterface function
+# PcForwardContentToInterface function (portcls.h)
+
+
 
 
 ## -description

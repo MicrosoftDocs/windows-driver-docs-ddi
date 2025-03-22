@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxQueryCurrentComponentPerfState function"]
 ms.keywords: PoFxQueryCurrentComponentPerfState, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], kernel.pofxquerycurrentcomponentperfstate, wdm/PoFxQueryCurrentComponentPerfState
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - PoFxQueryCurrentComponentPerfState
 ---
 
-# PoFxQueryCurrentComponentPerfState function
+# PoFxQueryCurrentComponentPerfState function (wdm.h)
+
+
 
 
 ## -description

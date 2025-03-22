@@ -7,6 +7,7 @@ ms.date: 04/25/2024
 keywords: ["ZwQueryEaFile function"]
 ms.keywords: ZwQueryEaFile, ZwQueryEaFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryeafile, ntifs/ZwQueryEaFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - ZwQueryEaFile
 ---
 
-# ZwQueryEaFile function
+# ZwQueryEaFile function (ntifs.h)
+
+
 
 ## -description
 

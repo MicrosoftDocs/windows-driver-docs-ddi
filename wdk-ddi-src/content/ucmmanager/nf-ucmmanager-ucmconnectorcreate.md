@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmConnectorCreate function"]
 ms.keywords: UcmConnectorCreate, UcmConnectorCreate method [Buses], buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate
 req.header: ucmmanager.h
+req.construct-type: function
 req.include-header: Ucmcx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UcmConnectorCreate
 ---
 
-# UcmConnectorCreate function
+# UcmConnectorCreate function (ucmmanager.h)
+
+
 
 
 ## -description

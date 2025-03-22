@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCSI_USB_OPERATION_MODE enumeration"]
 ms.keywords: _UCSI_USB_OPERATION_MODE, UCSI_USB_OPERATION_MODE,
 req.header: ucmucsispec.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCSI_USB_OPERATION_MODE
 ---
 
-# _UCSI_USB_OPERATION_MODE enumeration
+# UCSI_USB_OPERATION_MODE enumeration (ucmucsispec.h)
+
+
 
 
 ## -description

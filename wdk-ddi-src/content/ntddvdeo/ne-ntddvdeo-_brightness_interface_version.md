@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["BRIGHTNESS_INTERFACE_VERSION enumeration"]
 ms.keywords: _BRIGHTNESS_INTERFACE_VERSION, BRIGHTNESS_INTERFACE_VERSION,
 req.header: ntddvdeo.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ api_name:
  - BRIGHTNESS_INTERFACE_VERSION
 ---
 
-# _BRIGHTNESS_INTERFACE_VERSION enumeration
+# BRIGHTNESS_INTERFACE_VERSION enumeration (ntddvdeo.h)
+
+
 
 
 ## -description

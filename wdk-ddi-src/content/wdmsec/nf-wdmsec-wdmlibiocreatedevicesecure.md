@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WdmlibIoCreateDeviceSecure function"]
 ms.keywords: IoCreateDeviceSecure, WdmlibIoCreateDeviceSecure, WdmlibIoCreateDeviceSecure function [Kernel-Mode Driver Architecture], kernel.wdmlibiocreatedevicesecure, wdmsec/IoCreateDeviceSecure, wdmsec/WdmlibIoCreateDeviceSecure
 req.header: wdmsec.h
+req.construct-type: function
 req.include-header: Wdmsec.h
 req.target-type: Desktop
 req.target-min-winverclnt: See Remarks section.
@@ -41,7 +42,9 @@ api_name:
  - WdmlibIoCreateDeviceSecure
 ---
 
-# WdmlibIoCreateDeviceSecure function
+# WdmlibIoCreateDeviceSecure function (wdmsec.h)
+
+
 
 
 ## -description

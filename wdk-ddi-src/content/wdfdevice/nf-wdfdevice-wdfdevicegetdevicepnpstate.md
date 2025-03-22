@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceGetDevicePnpState function"]
 ms.keywords: DFDeviceObjectGeneralRef_8c17c41d-4e8e-499e-83db-92006e4fe08a.xml, WdfDeviceGetDevicePnpState, WdfDeviceGetDevicePnpState method, kmdf.wdfdevicegetdevicepnpstate, wdf.wdfdevicegetdevicepnpstate, wdfdevice/WdfDeviceGetDevicePnpState
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceGetDevicePnpState
 ---
 
-# WdfDeviceGetDevicePnpState function
+# WdfDeviceGetDevicePnpState function (wdfdevice.h)
+
+
 
 
 ## -description

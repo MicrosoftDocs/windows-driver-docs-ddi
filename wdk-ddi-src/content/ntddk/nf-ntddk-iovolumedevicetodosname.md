@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["IoVolumeDeviceToDosName function"]
 ms.keywords: IoVolumeDeviceToDosName, IoVolumeDeviceToDosName routine [Kernel-Mode Driver Architecture], k104_01cdeb80-9a49-4d42-a311-cf8b69d03b9c.xml, kernel.iovolumedevicetodosname, ntddk/IoVolumeDeviceToDosName
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoVolumeDeviceToDosName
 ---
+
+# IoVolumeDeviceToDosName function (ntddk.h)
 
 ## -description
 

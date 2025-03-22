@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltEnumerateFilterInformation function"]
 ms.keywords: FltApiRef_e_to_o_dc4c496f-b21e-4b92-93c6-7efbe25400a6.xml, FltEnumerateFilterInformation, FltEnumerateFilterInformation routine [Installable File System Drivers], fltkernel/FltEnumerateFilterInformation, ifsk.fltenumeratefilterinformation
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltEnumerateFilterInformation
 ---
 
-# FltEnumerateFilterInformation function
+# FltEnumerateFilterInformation function (fltkernel.h)
+
+
 
 
 ## -description

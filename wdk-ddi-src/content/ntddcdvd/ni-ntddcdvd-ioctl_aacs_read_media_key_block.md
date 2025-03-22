@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_AACS_READ_MEDIA_KEY_BLOCK IOCTL"]
 ms.keywords: IOCTL_AACS_READ_MEDIA_KEY_BLOCK, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control, IOCTL_AACS_READ_MEDIA_KEY_BLOCK control code [Storage Devices], k307_0e90884e-4c78-4fd5-b30c-eed14d73ba5e.xml, ntddcdvd/IOCTL_AACS_READ_MEDIA_KEY_BLOCK, storage.ioctl_aacs_read_media_key_block
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_AACS_READ_MEDIA_KEY_BLOCK
 ---
 
-# IOCTL_AACS_READ_MEDIA_KEY_BLOCK IOCTL
+# IOCTL_AACS_READ_MEDIA_KEY_BLOCK IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortAllocateMdl function"]
 ms.keywords: StorPortAllocateMdl, StorPortAllocateMdl routine [Storage Devices], storage.storportallocatemdl, storport/StorPortAllocateMdl, storprt_d80c510f-4cc4-4687-ab5b-9b9b5cf399ce.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortAllocateMdl
 ---
 
-# StorPortAllocateMdl function
+# StorPortAllocateMdl function (storport.h)
+
+
 
 
 ## -description

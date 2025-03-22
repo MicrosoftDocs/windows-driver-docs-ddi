@@ -6,6 +6,7 @@ ms.date: 03/24/2020
 keywords: ["D3D12DDI_FEATURE_0020 enumeration"]
 ms.keywords: D3D12DDI_FEATURE_0020, D3D12DDI_FEATURE_0020 enumeration [Display Devices], D3D12DDI_FEATURE_0020_VIDEO, d3d12umddi/D3D12DDI_FEATURE_0020, d3d12umddi/D3D12DDI_FEATURE_0020_VIDEO, display.d3d12ddi_feature_0020
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - D3D12DDI_FEATURE_0020
 ---
 
-# D3D12DDI_FEATURE_0020 enumeration
+# D3D12DDI_FEATURE_0020 enumeration (d3d12umddi.h)
+
+
 
 ## -description
 

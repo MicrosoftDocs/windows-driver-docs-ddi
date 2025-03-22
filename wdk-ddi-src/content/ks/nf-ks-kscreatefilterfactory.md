@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreateFilterFactory function"]
 ms.keywords: KsCreateFilterFactory, KsCreateFilterFactory function [Streaming Media Devices], avfunc_0867c824-52e2-475a-9f36-05e6fba4cdd9.xml, ks/KsCreateFilterFactory, stream.kscreatefilterfactory
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsCreateFilterFactory
 ---
 
-# KsCreateFilterFactory function
+# KsCreateFilterFactory function (ks.h)
+
+
 
 
 ## -description

@@ -6,6 +6,7 @@ ms.date: 07/25/2023
 keywords: ["D3DKMTMapGpuVirtualAddress function"]
 ms.keywords: D3DKMTMapGpuVirtualAddress, D3DKMTMapGpuVirtualAddress function [Display Devices], d3dkmthk/D3DKMTMapGpuVirtualAddress, display.d3dkmtmapgpuvirtualaddress
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - D3DKMTMapGpuVirtualAddress
 ---
 
-# D3DKMTMapGpuVirtualAddress function
+# D3DKMTMapGpuVirtualAddress function (d3dkmthk.h)
+
+
 
 ## -description
 

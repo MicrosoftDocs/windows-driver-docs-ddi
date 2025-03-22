@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["wiasSetValidListGuid function"]
 ms.keywords: image.wiassetvalidlistguid, wiamdef/wiasSetValidListGuid, wiasFncs_eade05c7-20bd-480d-aa50-0216575ce856.xml, wiasSetValidListGuid, wiasSetValidListGuid function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows Me and in Windows XP and later versions of the Windows operating systems.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasSetValidListGuid
 ---
+
+# wiasSetValidListGuid function (wiamdef.h)
 
 ## -description
 

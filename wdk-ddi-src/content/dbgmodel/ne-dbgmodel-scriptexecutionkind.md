@@ -6,6 +6,7 @@ ms.date: 07/16/2018
 keywords: ["ScriptExecutionKind enumeration"]
 ms.keywords: ScriptExecutionKind, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - ScriptExecutionKind
 ---
 
-# ScriptExecutionKind enumeration
+# ScriptExecutionKind enumeration (dbgmodel.h)
+
+
 
 
 ## -description

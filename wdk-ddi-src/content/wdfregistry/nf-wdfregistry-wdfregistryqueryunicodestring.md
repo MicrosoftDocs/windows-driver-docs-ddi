@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRegistryQueryUnicodeString function"]
 ms.keywords: DFRegKeyObjectRef_3301cdb3-8fe5-4094-8fc2-717467802680.xml, WdfRegistryQueryUnicodeString, WdfRegistryQueryUnicodeString method, kmdf.wdfregistryqueryunicodestring, wdf.wdfregistryqueryunicodestring, wdfregistry/WdfRegistryQueryUnicodeString
 req.header: wdfregistry.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRegistryQueryUnicodeString
 ---
 
-# WdfRegistryQueryUnicodeString function
+# WdfRegistryQueryUnicodeString function (wdfregistry.h)
+
+
 
 
 ## -description

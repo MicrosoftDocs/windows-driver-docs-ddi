@@ -7,6 +7,7 @@ ms.date: 11/17/2022
 keywords: ["KsCreateBusEnumObject function"]
 ms.keywords: KsCreateBusEnumObject
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsCreateBusEnumObject
 ---
+
+# KsCreateBusEnumObject function (swenum.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfIoResourceListUpdateDescriptor function"]
 ms.keywords: DFResourceObjectRef_e9c68945-23e3-47f1-99b1-a0c62944669f.xml, WdfIoResourceListUpdateDescriptor, WdfIoResourceListUpdateDescriptor method, kmdf.wdfioresourcelistupdatedescriptor, wdf.wdfioresourcelistupdatedescriptor, wdfresource/WdfIoResourceListUpdateDescriptor
 req.header: wdfresource.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfIoResourceListUpdateDescriptor
 ---
 
-# WdfIoResourceListUpdateDescriptor function
+# WdfIoResourceListUpdateDescriptor function (wdfresource.h)
+
+
 
 
 ## -description

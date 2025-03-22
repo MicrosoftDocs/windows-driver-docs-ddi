@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitAddDeviceText function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_1167066a-5ec9-47b8-be03-32127121fa91.xml, WdfPdoInitAddDeviceText, WdfPdoInitAddDeviceText method, kmdf.wdfpdoinitadddevicetext, wdf.wdfpdoinitadddevicetext, wdfpdo/WdfPdoInitAddDeviceText
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitAddDeviceText
 ---
 
-# WdfPdoInitAddDeviceText function
+# WdfPdoInitAddDeviceText function (wdfpdo.h)
+
+
 
 
 ## -description

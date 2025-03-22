@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlCompareString function"]
 ms.keywords: RtlCompareString, RtlCompareString routine [Kernel-Mode Driver Architecture], k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, kernel.rtlcomparestring, ntddk/RtlCompareString
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlCompareString
 ---
 
-# RtlCompareString function
+# RtlCompareString function (ntddk.h)
+
+
 
 
 ## -description

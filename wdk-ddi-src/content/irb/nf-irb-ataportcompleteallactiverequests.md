@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortCompleteAllActiveRequests function"]
 ms.keywords: AtaPortCompleteAllActiveRequests, AtaPortCompleteAllActiveRequests routine [Storage Devices], atartns_b9f2bdc5-ede8-4a7f-9d9e-df16a9d83634.xml, irb/AtaPortCompleteAllActiveRequests, storage.ataportcompleteallactiverequests
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortCompleteAllActiveRequests
 ---
 
-# AtaPortCompleteAllActiveRequests function
+# AtaPortCompleteAllActiveRequests function (irb.h)
+
+
 
 
 ## -description

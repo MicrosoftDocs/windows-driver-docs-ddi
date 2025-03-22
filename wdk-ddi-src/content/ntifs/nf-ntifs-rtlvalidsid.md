@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlValidSid function"]
 ms.keywords: RtlValidSid, RtlValidSid routine [Installable File System Drivers], ifsk.rtlvalidsid, ntifs/RtlValidSid, rtlref_8d79344c-bb78-433f-be34-84e314b232a0.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - RtlValidSid
 ---
 
-# RtlValidSid function
+# RtlValidSid function (ntifs.h)
+
+
 
 
 ## -description

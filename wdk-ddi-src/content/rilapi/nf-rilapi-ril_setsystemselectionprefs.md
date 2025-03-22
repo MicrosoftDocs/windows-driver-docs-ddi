@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["RIL_SetSystemSelectionPrefs function"]
 ms.keywords: RIL_SetSystemSelectionPrefs, RIL_SetSystemSelectionPrefs method [Network Drivers Starting with Windows Vista], netvista.ril_setsystemselectionprefs, rilapi/RIL_SetSystemSelectionPrefs
 req.header: rilapi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - RIL_SetSystemSelectionPrefs
 ---
 
-# RIL_SetSystemSelectionPrefs function
+# RIL_SetSystemSelectionPrefs function (rilapi.h)
+
+
 
 
 ## -description

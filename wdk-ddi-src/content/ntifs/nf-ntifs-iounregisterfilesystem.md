@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoUnregisterFileSystem function"]
 ms.keywords: IoUnregisterFileSystem, IoUnregisterFileSystem routine [Installable File System Drivers], ifsk.iounregisterfilesystem, ioref_8799f64d-023b-4a67-8761-0899951596ad.xml, ntifs/IoUnregisterFileSystem
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoUnregisterFileSystem
 ---
 
-# IoUnregisterFileSystem function
+# IoUnregisterFileSystem function (ntifs.h)
+
+
 
 
 ## -description

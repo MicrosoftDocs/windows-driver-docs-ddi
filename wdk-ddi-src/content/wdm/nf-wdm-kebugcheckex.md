@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeBugCheckEx function"]
 ms.keywords: KeBugCheckEx, KeBugCheckEx routine [Kernel-Mode Driver Architecture], k105_17af10bb-b21d-408e-bf73-421ce705d117.xml, kernel.kebugcheckex, wdm/KeBugCheckEx
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeBugCheckEx
 ---
 
-# KeBugCheckEx function
+# KeBugCheckEx function (wdm.h)
+
+
 
 
 ## -description

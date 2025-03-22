@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisAllocateSpinLock function"]
 ms.keywords: NdisAllocateSpinLock, NdisAllocateSpinLock function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateSpinLock, ndis_spin_lock_ref_f42dc321-9805-443e-a7b3-315ab403aeba.xml, netvista.ndisallocatespinlock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisAllocateSpinLock (NDIS   5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisAllocateSpinLock (NDIS   5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisAllocateSpinLock
 ---
 
-# NdisAllocateSpinLock function
+# NdisAllocateSpinLock function (ndis.h)
+
+
 
 
 ## -description

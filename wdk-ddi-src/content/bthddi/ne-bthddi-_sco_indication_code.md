@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["SCO_INDICATION_CODE enumeration"]
 ms.keywords: "*PSCO_INDICATION_CODE, PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], SCO_INDICATION_CODE, SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, _SCO_INDICATION_CODE, bltooth.sco_indication_code, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, bthddi/ScoIndicationAddReference, bthddi/ScoIndicationReleaseReference, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - SCO_INDICATION_CODE
 ---
 
-# _SCO_INDICATION_CODE enumeration
+# SCO_INDICATION_CODE enumeration (bthddi.h)
+
+
 
 
 ## -description

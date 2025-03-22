@@ -7,6 +7,7 @@ ms.date: 02/28/2022
 keywords: ["D3DKMTPollDisplayChildren function"]
 ms.keywords: D3DKMTPollDisplayChildren, D3DKMTPollDisplayChildren function [Display Devices], OpenGL_Functions_dc39afab-758a-423a-9058-9d9ec091d4b2.xml, d3dkmthk/D3DKMTPollDisplayChildren, display.d3dkmtpolldisplaychildren
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTPollDisplayChildren
 ---
 
-# D3DKMTPollDisplayChildren function
+# D3DKMTPollDisplayChildren function (d3dkmthk.h)
+
+
 
 ## -description
 

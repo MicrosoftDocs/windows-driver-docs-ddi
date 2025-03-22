@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortSynchronizeExecution function"]
 ms.keywords: VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml, display.videoportsynchronizeexecution, video/VideoPortSynchronizeExecution
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortSynchronizeExecution
 ---
 
-# VideoPortSynchronizeExecution function
+# VideoPortSynchronizeExecution function (video.h)
+
+
 
 
 ## -description

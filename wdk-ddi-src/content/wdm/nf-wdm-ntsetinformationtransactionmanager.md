@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtSetInformationTransactionManager function"]
 ms.keywords: NtSetInformationTransactionManager, NtSetInformationTransactionManager routine [Kernel-Mode Driver Architecture], kernel.ntsetinformationtransactionmanager, ntx_b4f057ac-bca8-44e6-874e-4f33bd487a20.xml, wdm/NtSetInformationTransactionManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - NtSetInformationTransactionManager
 ---
 
-# NtSetInformationTransactionManager function
+# NtSetInformationTransactionManager function (wdm.h)
+
+
 
 
 ## -description

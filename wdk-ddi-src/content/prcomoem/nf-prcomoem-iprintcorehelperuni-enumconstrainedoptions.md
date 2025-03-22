@@ -7,6 +7,7 @@ ms.date: 07/25/2022
 keywords: ["IPrintCoreHelperUni::EnumConstrainedOptions"]
 ms.keywords: EnumConstrainedOptions, EnumConstrainedOptions method [Print Devices], EnumConstrainedOptions method [Print Devices],IPrintCoreHelperUni interface, IPrintCoreHelperUni interface [Print Devices],EnumConstrainedOptions method, IPrintCoreHelperUni.EnumConstrainedOptions, IPrintCoreHelperUni::EnumConstrainedOptions, prcomoem/IPrintCoreHelperUni::EnumConstrainedOptions, print.iprintcorehelperuni_enumconstrainedoptions, print_unidrv-pscript_allplugins_1acbff6a-b43d-4504-b2dc-69713a61261f.xml
 req.header: prcomoem.h
+req.construct-type: function
 req.include-header: Prcomoem.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintCoreHelperUni::EnumConstrainedOptions
 ---
+
+# IPrintCoreHelperUni::EnumConstrainedOptions function (prcomoem.h)
 
 ## -description
 

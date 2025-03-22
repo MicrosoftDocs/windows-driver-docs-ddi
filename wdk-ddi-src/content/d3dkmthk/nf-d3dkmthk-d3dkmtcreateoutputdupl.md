@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTCreateOutputDupl function"]
 ms.keywords: D3DKMTCreateOutputDupl
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Univwrsal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTCreateOutputDupl
 ---
 
-# D3DKMTCreateOutputDupl function
+# D3DKMTCreateOutputDupl function (d3dkmthk.h)
+
+
 
 
 ## -description

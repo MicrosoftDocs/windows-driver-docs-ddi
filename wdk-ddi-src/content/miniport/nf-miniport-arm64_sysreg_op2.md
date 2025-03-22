@@ -7,6 +7,7 @@ tech.root: storage
 keywords: ["ARM64_SYSREG_OP2 macro"]
 ms.keywords: ARM64_SYSREG_OP2
 req.header: miniport.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1803
@@ -38,6 +39,10 @@ api_name:
 ---
 
 # ARM64_SYSREG_OP2 macro (miniport.h)
+
+
+
+
 
 
 ## -description

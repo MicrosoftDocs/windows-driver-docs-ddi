@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCancelIo function"]
 ms.keywords: FltApiRef_a_to_d_e539a1bb-9dd4-4e1b-ac10-b5f742923839.xml, FltCancelIo, FltCancelIo routine [Installable File System Drivers], fltkernel/FltCancelIo, ifsk.fltcancelio
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltCancelIo
 ---
 
-# FltCancelIo function
+# FltCancelIo function (fltkernel.h)
+
+
 
 
 ## -description

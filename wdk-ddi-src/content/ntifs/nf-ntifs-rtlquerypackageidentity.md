@@ -6,6 +6,7 @@ tech.root: ifsk
 ms.date: 10/30/2019
 ms.keywords: RtlQueryPackageIdentity returns the associated full package name, if any, of a token object. It can optionally also return the package relative application name, and whether an application is considered packaged.
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 8
@@ -36,7 +37,9 @@ api_name:
  - RtlQueryPackageIdentity
 ---
 
-# RtlQueryPackageIdentity function
+# RtlQueryPackageIdentity function (ntifs.h)
+
+
 
 
 ## -description

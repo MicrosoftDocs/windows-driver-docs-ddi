@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["MAGNETOMETER_ACCURACY enumeration"]
 ms.keywords: MAGNETOMETER_ACCURACY, MAGNETOMETER_ACCURACY enumeration [Sensor Devices], MagnetometerAccuracy_Approximate, MagnetometerAccuracy_High, MagnetometerAccuracy_Unknown, MagnetometerAccuracy_Unreliable, sensors.magnetometer_accuracy, sensorsdef/MAGNETOMETER_ACCURACY, sensorsdef/MagnetometerAccuracy_Approximate, sensorsdef/MagnetometerAccuracy_High, sensorsdef/MagnetometerAccuracy_Unknown, sensorsdef/MagnetometerAccuracy_Unreliable
 req.header: sensorsdef.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -40,7 +41,9 @@ api_name:
  - MAGNETOMETER_ACCURACY
 ---
 
-# MAGNETOMETER_ACCURACY enumeration
+# MAGNETOMETER_ACCURACY enumeration (sensorsdef.h)
+
+
 
 
 ## -description

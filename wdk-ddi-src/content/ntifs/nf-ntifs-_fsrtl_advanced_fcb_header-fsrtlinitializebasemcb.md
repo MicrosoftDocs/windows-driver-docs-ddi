@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["FsRtlInitializeBaseMcb function"]
 ms.keywords: FsRtlInitializeBaseMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlInitializeBaseMcb function
+# FsRtlInitializeBaseMcb function (ntifs.h)
+
+
 
 
 ## -description

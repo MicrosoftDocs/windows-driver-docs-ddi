@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerSetStatusCode function"]
 ms.keywords: KsStreamPointerSetStatusCode, KsStreamPointerSetStatusCode function [Streaming Media Devices], avfunc_48c373d0-2d32-4ad3-b8de-3008e2e11f59.xml, ks/KsStreamPointerSetStatusCode, stream.ksstreampointersetstatuscode
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerSetStatusCode
 ---
 
-# KsStreamPointerSetStatusCode function
+# KsStreamPointerSetStatusCode function (ks.h)
+
+
 
 
 ## -description

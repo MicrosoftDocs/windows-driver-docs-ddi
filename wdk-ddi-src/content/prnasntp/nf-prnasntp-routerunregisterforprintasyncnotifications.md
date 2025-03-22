@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["RouterUnregisterForPrintAsyncNotifications function"]
 ms.keywords: RouterUnregisterForPrintAsyncNotifications, RouterUnregisterForPrintAsyncNotifications function [Print Devices], print.routerunregisterforprintasyncnotifications, prnasntp/RouterUnregisterForPrintAsyncNotifications, spoolfnc_3c629be8-f1d8-43fb-b225-582e4bb76c51.xml
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RouterUnregisterForPrintAsyncNotifications
 ---
 
-# RouterUnregisterForPrintAsyncNotifications function
+# RouterUnregisterForPrintAsyncNotifications function (prnasntp.h)
+
+
 
 
 ## -description

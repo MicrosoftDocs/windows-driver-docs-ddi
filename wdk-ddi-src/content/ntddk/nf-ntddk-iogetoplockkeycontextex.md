@@ -7,6 +7,7 @@ ms.date: 03/16/2023
 keywords: ["IoGetOplockKeyContextEx function"]
 ms.keywords: IoGetOplockKeyContext, IoGetOplockKeyContextEx, IoGetOplockKeyContextEx routine [Installable File System Drivers], ifsk.iogetoplockkeycontext, ntddk/IoGetOplockKeyContextEx
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: The IoGetOplockKeyContextEx routine is available starting with Windows 8.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - IoGetOplockKeyContextEx
 ---
+
+# IoGetOplockKeyContextEx function (ntddk.h)
 
 ## -description
 

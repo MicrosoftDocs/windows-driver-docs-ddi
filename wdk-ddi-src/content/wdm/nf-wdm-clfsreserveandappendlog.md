@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsReserveAndAppendLog function"]
 ms.keywords: ClfsReserveAndAppendLog, ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, kernel.clfsreserveandappendlog, wdm/ClfsReserveAndAppendLog
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsReserveAndAppendLog
 ---
 
-# ClfsReserveAndAppendLog function
+# ClfsReserveAndAppendLog function (wdm.h)
+
+
 
 
 ## -description

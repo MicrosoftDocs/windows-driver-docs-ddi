@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BdaInitFilter function"]
 ms.keywords: BdaInitFilter, BdaInitFilter function [Streaming Media Devices], bdaref_9ad4e7ef-1880-4233-83c5-4d066c8f26e5.xml, bdasup/BdaInitFilter, stream.bdainitfilter
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems. This routine is available on the Windows 2000 platform only if Microsoft DirectX 9.0 and later is installed on that platform.
@@ -41,7 +42,9 @@ api_name:
  - BdaInitFilter
 ---
 
-# BdaInitFilter function
+# BdaInitFilter function (bdasup.h)
+
+
 
 
 ## -description

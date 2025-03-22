@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL"]
 ms.keywords: IOCTL_DISK_GET_DRIVE_LAYOUT_EX, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control, IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Storage Devices], k307_81993d9b-900f-412c-ac07-f0765114141f.xml, ntdddisk/IOCTL_DISK_GET_DRIVE_LAYOUT_EX, storage.ioctl_disk_get_drive_layout_ex
 req.header: ntdddisk.h
+req.construct-type: ioctl
 req.include-header: Ntdddisk.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 ---
 
-# IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL
+# IOCTL_DISK_GET_DRIVE_LAYOUT_EX IOCTL (ntdddisk.h)
+
+
+
+
 
 
 ## -description

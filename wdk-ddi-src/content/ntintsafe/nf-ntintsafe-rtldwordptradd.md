@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlDWordPtrAdd function"]
 ms.keywords: RtlDWordPtrAdd, RtlDWordPtrAdd function [Kernel-Mode Driver Architecture], kernel.rtldwordptradd, ntintsafe/RtlDWordPtrAdd
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlDWordPtrAdd
 ---
 
-# RtlDWordPtrAdd function
+# RtlDWordPtrAdd function (ntintsafe.h)
+
+
 
 
 ## -description

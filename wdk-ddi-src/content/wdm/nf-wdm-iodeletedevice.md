@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoDeleteDevice function"]
 ms.keywords: IoDeleteDevice, IoDeleteDevice routine [Kernel-Mode Driver Architecture], k104_246c1fe6-75cc-434e-a1d4-7e573eff96de.xml, kernel.iodeletedevice, wdm/IoDeleteDevice
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoDeleteDevice
 ---
 
-# IoDeleteDevice function
+# IoDeleteDevice function (wdm.h)
+
+
 
 
 ## -description

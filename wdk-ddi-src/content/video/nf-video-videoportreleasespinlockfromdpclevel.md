@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["VideoPortReleaseSpinLockFromDpcLevel function"]
 ms.keywords: VideoPortReleaseSpinLockFromDpcLevel, VideoPortReleaseSpinLockFromDpcLevel function [Display Devices], VideoPort_Functions_2c3a3aa1-4ef4-4b7f-8cdf-b658a1128c35.xml, display.videoportreleasespinlockfromdpclevel, video/VideoPortReleaseSpinLockFromDpcLevel
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReleaseSpinLockFromDpcLevel
 ---
 
-# VideoPortReleaseSpinLockFromDpcLevel function
+# VideoPortReleaseSpinLockFromDpcLevel function (video.h)
+
+
 
 
 ## -description

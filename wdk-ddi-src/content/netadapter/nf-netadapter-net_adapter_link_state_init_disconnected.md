@@ -7,6 +7,7 @@ ms.date: 03/30/2022
 keywords: ["NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function"]
 ms.keywords: NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 req.header: netadapter.h
+req.construct-type: function
 req.include-header: netadaptercx.h 
 req.target-type: 
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED
 ---
 
-# NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function
+# NET_ADAPTER_LINK_STATE_INIT_DISCONNECTED function (netadapter.h)
+
+
 
 
 ## -description

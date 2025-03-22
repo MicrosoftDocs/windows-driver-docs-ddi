@@ -7,6 +7,7 @@ ms.date: 10/23/2022
 keywords: ["KeAcquireSpinLockAtDpcLevel macro"]
 ms.keywords: KeAcquireSpinLockAtDpcLevel, KeAcquireSpinLockAtDpcLevel routine [Kernel-Mode Driver Architecture], KefAcquireSpinLockAtDpcLevel, k105_4b7eb718-f04d-42de-9dfc-92355cd2ebc9.xml, kernel.keacquirespinlockatdpclevel, wdm/KeAcquireSpinLockAtDpcLevel, wdm/KefAcquireSpinLockAtDpcLevel
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,10 @@ api_location:
 api_name:
  - KeAcquireSpinLockAtDpcLevel
 ---
+
+# KeAcquireSpinLockAtDpcLevel macro (wdm.h)
+
+
 
 ## -description
 

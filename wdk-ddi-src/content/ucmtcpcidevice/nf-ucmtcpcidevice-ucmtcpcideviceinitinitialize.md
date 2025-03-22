@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcmTcpciDeviceInitInitialize function"]
 ms.keywords: UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize
 req.header: ucmtcpcidevice.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1607
@@ -41,7 +42,9 @@ api_name:
  - UcmTcpciDeviceInitInitialize
 ---
 
-# UcmTcpciDeviceInitInitialize function
+# UcmTcpciDeviceInitInitialize function (ucmtcpcidevice.h)
+
+
 
 
 ## -description

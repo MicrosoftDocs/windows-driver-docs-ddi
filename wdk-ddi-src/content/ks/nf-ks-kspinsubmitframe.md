@@ -7,6 +7,7 @@ ms.date: 07/13/2022
 keywords: ["KsPinSubmitFrame function"]
 ms.keywords: KsPinSubmitFrame, KsPinSubmitFrame function [Streaming Media Devices], avfunc_ce7c4c71-c404-4061-a2e5-b9f4c15df4a2.xml, ks/KsPinSubmitFrame, stream.kspinsubmitframe
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - KsPinSubmitFrame
 ---
+
+# KsPinSubmitFrame function (ks.h)
 
 ## -description
 

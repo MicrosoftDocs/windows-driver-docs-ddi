@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlSSIZETSub function"]
 ms.keywords: RtlSSIZETSub, RtlSSIZETSub function [Kernel-Mode Driver Architecture], kernel.rtlssizetsub, ntintsafe/RtlSSIZETSub
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlSSIZETSub
 ---
 
-# RtlSSIZETSub function
+# RtlSSIZETSub function (ntintsafe.h)
+
+
 
 
 ## -description

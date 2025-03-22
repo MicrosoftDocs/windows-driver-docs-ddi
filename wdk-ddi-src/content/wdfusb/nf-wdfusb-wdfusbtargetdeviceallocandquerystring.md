@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetDeviceAllocAndQueryString function"]
 ms.keywords: DFUsbRef_708583a1-a585-402f-afd6-5df4457b0a25.xml, WdfUsbTargetDeviceAllocAndQueryString, WdfUsbTargetDeviceAllocAndQueryString method, kmdf.wdfusbtargetdeviceallocandquerystring, wdf.wdfusbtargetdeviceallocandquerystring, wdfusb/WdfUsbTargetDeviceAllocAndQueryString
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfUsbTargetDeviceAllocAndQueryString
 ---
 
-# WdfUsbTargetDeviceAllocAndQueryString function
+# WdfUsbTargetDeviceAllocAndQueryString function (wdfusb.h)
+
+
 
 
 ## -description

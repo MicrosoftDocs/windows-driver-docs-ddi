@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_QUERY_FILE_REGIONS
 ---
 
-# FSCTL_QUERY_FILE_REGIONS ioctl (ntifs.h)
+# FSCTL_QUERY_FILE_REGIONS IOCTL (ntifs.h)
+
+
 
 ## -description
 

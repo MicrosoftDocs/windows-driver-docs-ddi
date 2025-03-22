@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortMoveMemory function"]
 ms.keywords: ScsiPortMoveMemory, ScsiPortMoveMemory routine [Storage Devices], scsiprt_88a58a03-0663-4aad-b048-2a2d3641e94e.xml, srb/ScsiPortMoveMemory, storage.scsiportmovememory
 req.header: srb.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortMoveMemory
 ---
 
-# ScsiPortMoveMemory function
+# ScsiPortMoveMemory function (srb.h)
+
+
 
 
 ## -description

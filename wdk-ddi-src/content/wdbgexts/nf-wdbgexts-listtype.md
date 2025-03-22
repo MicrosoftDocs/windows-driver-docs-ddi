@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ListType function"]
 ms.keywords: ListType, ListType function [Windows Debugging], WdbgExts_Ref_aa50fe48-2a66-4d5e-aec7-d225966cfab2.xml, debugger.listtype, wdbgexts/ListType
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ListType
 ---
 
-# ListType function
+# ListType function (wdbgexts.h)
+
+
 
 
 ## -description

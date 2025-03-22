@@ -7,6 +7,7 @@ ms.date: 04/01/2022
 keywords: ["NetRingAdvanceIndex function"]
 ms.keywords: NetRingAdvanceIndex
 req.header: ring.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - NetRingAdvanceIndex
 ---
 
-# NetRingAdvanceIndex function
+# NetRingAdvanceIndex function (ring.h)
+
+
 
 
 ## -description

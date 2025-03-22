@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["wiasWritePropGuid function"]
 ms.keywords: image.wiaswritepropguid, wiamdef/wiasWritePropGuid, wiasFncs_2d4110e9-d2e5-47a2-8213-d221e77c527d.xml, wiasWritePropGuid, wiasWritePropGuid function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - wiasWritePropGuid
 ---
+
+# wiasWritePropGuid function (wiamdef.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxpUnregisterMinirdr function"]
 ms.keywords: RxpUnregisterMinirdr, RxpUnregisterMinirdr function [Installable File System Drivers], ifsk.rxpunregisterminirdr, mrx/RxpUnregisterMinirdr, rxref_3d8dd57c-4753-47c7-afda-efbd54882c74.xml
 req.header: mrx.h
+req.construct-type: function
 req.include-header: Mrx.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxpUnregisterMinirdr
 ---
 
-# RxpUnregisterMinirdr function
+# RxpUnregisterMinirdr function (mrx.h)
+
+
 
 
 ## -description

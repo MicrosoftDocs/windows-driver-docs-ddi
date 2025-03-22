@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlMupGetProviderInfoFromFileObject function"]
 ms.keywords: FsRtlMupGetProviderInfoFromFileObject, FsRtlMupGetProviderInfoFromFileObject routine [Installable File System Drivers], fsrtlref_7ad681c5-3f7c-42d1-8644-7cd677101413.xml, ifsk.fsrtlmupgetproviderinfofromfileobject, ntifs/FsRtlMupGetProviderInfoFromFileObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: The FsRtlMupGetProviderInfoFromFileObject function is Windows Vista
@@ -40,7 +41,9 @@ api_name:
  - FsRtlMupGetProviderInfoFromFileObject
 ---
 
-# FsRtlMupGetProviderInfoFromFileObject function
+# FsRtlMupGetProviderInfoFromFileObject function (ntifs.h)
+
+
 
 
 ## -description

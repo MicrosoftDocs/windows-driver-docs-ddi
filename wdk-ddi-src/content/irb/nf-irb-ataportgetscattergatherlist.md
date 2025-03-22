@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortGetScatterGatherList function"]
 ms.keywords: AtaPortGetScatterGatherList, AtaPortGetScatterGatherList routine [Storage Devices], atartns_ef8ff0f5-2d1c-47e1-bf1a-2b554de3969d.xml, irb/AtaPortGetScatterGatherList, storage.ataportgetscattergatherlist
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortGetScatterGatherList
 ---
 
-# AtaPortGetScatterGatherList function
+# AtaPortGetScatterGatherList function (irb.h)
+
+
 
 
 ## -description

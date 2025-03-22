@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro"]
 ms.keywords: PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 req.header: acpitabl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA
 ---
 
-# PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro
+# PROC_TOPOLOGY_NODE_CACHE_TYPE_DATA macro (acpitabl.h)
+
+
+
+
 
 ## -description
 

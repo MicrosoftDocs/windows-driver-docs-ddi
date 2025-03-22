@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["DrmForwardContentToFileObject function"]
 ms.keywords: DrmForwardContentToFileObject, DrmForwardContentToFileObject function [Audio Devices], aud-prop2_f0deebf5-ef63-406b-a424-b084e775333c.xml, audio.drmforwardcontenttofileobject, drmk/DrmForwardContentToFileObject
 req.header: drmk.h
+req.construct-type: function
 req.include-header: Drmk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - DrmForwardContentToFileObject
 ---
 
-# DrmForwardContentToFileObject function
+# DrmForwardContentToFileObject function (drmk.h)
+
+
 
 
 ## -description

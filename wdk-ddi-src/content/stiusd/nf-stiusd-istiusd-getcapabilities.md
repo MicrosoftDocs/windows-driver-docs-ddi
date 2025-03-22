@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IStiUSD::GetCapabilities"]
 ms.keywords: GetCapabilities, GetCapabilities method [Imaging Devices], GetCapabilities method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],GetCapabilities method, IStiUSD.GetCapabilities, IStiUSD::GetCapabilities, image.istiusd_getcapabilities, stifnc_e0343c50-7695-417f-9742-1acd66f2791f.xml, stiusd/IStiUSD::GetCapabilities
 req.header: stiusd.h
+req.construct-type: function
 req.include-header: Stiusd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiUSD::GetCapabilities
 ---
+
+# IStiUSD::GetCapabilities function (stiusd.h)
 
 ## -description
 

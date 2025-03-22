@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_TAPE_CREATE_PARTITION IOCTL"]
 ms.keywords: IOCTL_TAPE_CREATE_PARTITION, IOCTL_TAPE_CREATE_PARTITION control, IOCTL_TAPE_CREATE_PARTITION control code [Storage Devices], k307_d1911c51-33f1-4c45-bbf0-ace7714fa53f.xml, ntddtape/IOCTL_TAPE_CREATE_PARTITION, storage.ioctl_tape_create_partition
 req.header: ntddtape.h
+req.construct-type: ioctl
 req.include-header: Ntddtape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_TAPE_CREATE_PARTITION
 ---
 
-# IOCTL_TAPE_CREATE_PARTITION IOCTL
+# IOCTL_TAPE_CREATE_PARTITION IOCTL (ntddtape.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_TAPE_WRITE_MARKS IOCTL"]
 ms.keywords: IOCTL_TAPE_WRITE_MARKS, IOCTL_TAPE_WRITE_MARKS control, IOCTL_TAPE_WRITE_MARKS control code [Storage Devices], k307_f1ba7d65-28cf-4a26-b385-462ca5018d88.xml, ntddtape/IOCTL_TAPE_WRITE_MARKS, storage.ioctl_tape_write_marks
 req.header: ntddtape.h
+req.construct-type: ioctl
 req.include-header: Ntddtape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_TAPE_WRITE_MARKS
 ---
 
-# IOCTL_TAPE_WRITE_MARKS IOCTL
+# IOCTL_TAPE_WRITE_MARKS IOCTL (ntddtape.h)
+
+
+
+
 
 
 ## -description

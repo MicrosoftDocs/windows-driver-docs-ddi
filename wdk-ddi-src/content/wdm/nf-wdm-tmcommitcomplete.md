@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmCommitComplete function"]
 ms.keywords: TmCommitComplete, TmCommitComplete routine [Kernel-Mode Driver Architecture], kernel.tmcommitcomplete, ktm_ref_e6357c60-303b-4d42-a0a2-1ff3766acbb9.xml, wdm/TmCommitComplete
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmCommitComplete
 ---
 
-# TmCommitComplete function
+# TmCommitComplete function (wdm.h)
+
+
 
 
 ## -description

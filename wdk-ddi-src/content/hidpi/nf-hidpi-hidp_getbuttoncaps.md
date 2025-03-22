@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_GetButtonCaps function"]
 ms.keywords: HidP_GetButtonCaps, HidP_GetButtonCaps routine [Human Input Devices], hid.hidp_getbuttoncaps, hidfunc_57425ae7-03dd-42b7-b9b3-0581569ab442.xml, hidpi/HidP_GetButtonCaps
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_GetButtonCaps
 ---
 
-# HidP_GetButtonCaps function
+# HidP_GetButtonCaps function (hidpi.h)
+
+
 
 
 ## -description

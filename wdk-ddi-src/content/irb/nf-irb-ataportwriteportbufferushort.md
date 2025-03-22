@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortWritePortBufferUshort function"]
 ms.keywords: AtaPortWritePortBufferUshort, AtaPortWritePortBufferUshort routine [Storage Devices], atartns_78cda4b1-7995-40c3-a784-ed66d8a8d520.xml, irb/AtaPortWritePortBufferUshort, storage.ataportwriteportbufferushort
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortWritePortBufferUshort
 ---
 
-# AtaPortWritePortBufferUshort function
+# AtaPortWritePortBufferUshort function (irb.h)
+
+
 
 
 ## -description

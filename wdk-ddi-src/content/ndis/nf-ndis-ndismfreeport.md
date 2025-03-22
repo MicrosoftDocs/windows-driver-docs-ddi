@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMFreePort function"]
 ms.keywords: NdisMFreePort, NdisMFreePort function [Network Drivers Starting with Windows Vista], ndis/NdisMFreePort, ndis_ports_ref_b5b73dda-9bc0-4d7d-a265-d50d1436c8f4.xml, netvista.ndismfreeport
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMFreePort
 ---
 
-# NdisMFreePort function
+# NdisMFreePort function (ndis.h)
+
+
 
 
 ## -description

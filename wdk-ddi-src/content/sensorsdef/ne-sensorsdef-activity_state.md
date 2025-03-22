@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["ACTIVITY_STATE enumeration"]
 ms.keywords: ACTIVITY_STATE, ACTIVITY_STATE enumeration [Sensor Devices], ActivityState_Biking, ActivityState_Fidgeting, ActivityState_Force_Dword, ActivityState_Idle, ActivityState_InVehicle, ActivityState_Max, ActivityState_Running, ActivityState_Stationary, ActivityState_Unknown, ActivityState_Walking, sensors.activity_states, sensorsdef/ACTIVITY_STATE, sensorsdef/ActivityState_Biking, sensorsdef/ActivityState_Fidgeting, sensorsdef/ActivityState_Force_Dword, sensorsdef/ActivityState_Idle, sensorsdef/ActivityState_InVehicle, sensorsdef/ActivityState_Max, sensorsdef/ActivityState_Running, sensorsdef/ActivityState_Stationary, sensorsdef/ActivityState_Unknown, sensorsdef/ActivityState_Walking
 req.header: sensorsdef.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ACTIVITY_STATE
 ---
 
-# ACTIVITY_STATE enumeration
+# ACTIVITY_STATE enumeration (sensorsdef.h)
+
+
 
 
 ## -description

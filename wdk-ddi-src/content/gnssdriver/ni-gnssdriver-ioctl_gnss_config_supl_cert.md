@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_GNSS_CONFIG_SUPL_CERT IOCTL"]
 ms.keywords: IOCTL_GNSS_CONFIG_SUPL_CERT, IOCTL_GNSS_CONFIG_SUPL_CERT control, IOCTL_GNSS_CONFIG_SUPL_CERT control code [Sensor Devices], gnss.ioctl_gnss_config_supl_cert, gnssdriver/IOCTL_GNSS_CONFIG_SUPL_CERT
 req.header: gnssdriver.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GNSS_CONFIG_SUPL_CERT
 ---
 
-# IOCTL_GNSS_CONFIG_SUPL_CERT IOCTL
+# IOCTL_GNSS_CONFIG_SUPL_CERT IOCTL (gnssdriver.h)
+
+
+
+
 
 
 ## -description

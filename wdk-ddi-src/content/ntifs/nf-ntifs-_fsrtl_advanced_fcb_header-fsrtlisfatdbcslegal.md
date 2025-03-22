@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlIsFatDbcsLegal function"]
 ms.keywords: FsRtlIsFatDbcsLegal, FsRtlIsFatDbcsLegal routine [Installable File System Drivers], fsrtlref_259cf46c-3d21-4acb-9674-f858bacbee1d.xml, ifsk.fsrtlisfatdbcslegal, ntifs/FsRtlIsFatDbcsLegal
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlIsFatDbcsLegal function
+# FsRtlIsFatDbcsLegal function (ntifs.h)
+
+
 
 
 ## -description

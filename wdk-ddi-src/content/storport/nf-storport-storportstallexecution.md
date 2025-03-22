@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortStallExecution function"]
 ms.keywords: StorPortStallExecution, StorPortStallExecution routine [Storage Devices], storage.storportstallexecution, storport/StorPortStallExecution, storprt_8cddf62f-d26d-4dd8-85f5-5bf35f74c1de.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortStallExecution
 ---
 
-# StorPortStallExecution function
+# StorPortStallExecution function (storport.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestGetIoQueue function"]
 ms.keywords: DFRequestObjectRef_5ac140be-04cf-480c-a917-9942d23b550f.xml, WdfRequestGetIoQueue, WdfRequestGetIoQueue method, kmdf.wdfrequestgetioqueue, wdf.wdfrequestgetioqueue, wdfrequest/WdfRequestGetIoQueue
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestGetIoQueue
 ---
 
-# WdfRequestGetIoQueue function
+# WdfRequestGetIoQueue function (wdfrequest.h)
+
+
 
 
 ## -description

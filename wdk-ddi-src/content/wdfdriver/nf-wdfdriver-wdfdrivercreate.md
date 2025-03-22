@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDriverCreate function"]
 ms.keywords: DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
 req.header: wdfdriver.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDriverCreate
 ---
 
-# WdfDriverCreate function
+# WdfDriverCreate function (wdfdriver.h)
+
+
 
 
 ## -description

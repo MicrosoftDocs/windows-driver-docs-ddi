@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_STATE_NOTIFICATION_TYPE enumeration"]
 ms.keywords: DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, StateNotificationAllStates, StateNotificationEnterState, StateNotificationInvalid, StateNotificationLeaveState, StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE, WDF_STATE_NOTIFICATION_TYPE enumeration, _WDF_STATE_NOTIFICATION_TYPE, kmdf.wdf_state_notification_type, wdf.wdf_state_notification_type, wdfdevice/StateNotificationAllStates, wdfdevice/StateNotificationEnterState, wdfdevice/StateNotificationInvalid, wdfdevice/StateNotificationLeaveState, wdfdevice/StateNotificationPostProcessState, wdfdevice/WDF_STATE_NOTIFICATION_TYPE
 req.header: wdfdevice.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_STATE_NOTIFICATION_TYPE
 ---
 
-# _WDF_STATE_NOTIFICATION_TYPE enumeration
+# WDF_STATE_NOTIFICATION_TYPE enumeration (wdfdevice.h)
+
+
 
 
 ## -description

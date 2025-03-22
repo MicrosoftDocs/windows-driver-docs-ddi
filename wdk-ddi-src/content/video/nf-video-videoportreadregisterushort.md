@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortReadRegisterUshort function"]
 ms.keywords: VideoPortReadRegisterUshort, VideoPortReadRegisterUshort function [Display Devices], VideoPort_Functions_c6ee8be3-3b15-4f22-8008-63d132ec7379.xml, display.videoportreadregisterushort, video/VideoPortReadRegisterUshort
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReadRegisterUshort
 ---
 
-# VideoPortReadRegisterUshort function
+# VideoPortReadRegisterUshort function (video.h)
+
+
 
 
 ## -description

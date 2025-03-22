@@ -8,6 +8,7 @@ ms.date: 01/11/2021
 keywords: ["IddCxMonitorCreate function"]
 ms.keywords: IddCxMonitorCreate, IddCxMonitorCreate method [Display Devices], display.iddcxmonitorcreate, iddcx/IddCxMonitorCreate
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxMonitorCreate
 ---
 
-# IddCxMonitorCreate function
+# IddCxMonitorCreate function (iddcx.h)
+
+
 
 ## -description
 

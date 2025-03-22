@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlPrivateLock function"]
 ms.keywords: FsRtlPrivateLock, FsRtlPrivateLock function [Installable File System Drivers], fsrtlref_950e4ca4-4e7f-4158-8e1e-083af825488d.xml, ifsk.fsrtlprivatelock, ntifs/FsRtlPrivateLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlPrivateLock function
+# FsRtlPrivateLock function (ntifs.h)
+
+
 
 ## -description
 

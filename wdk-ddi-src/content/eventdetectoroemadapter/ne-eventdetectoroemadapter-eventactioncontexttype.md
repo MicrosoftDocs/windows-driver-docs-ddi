@@ -7,6 +7,7 @@ ms.date: 02/25/2019
 keywords: ["EVENTACTIONCONTEXTTYPE enumeration"]
 ms.keywords: EVENTACTIONCONTEXTTYPE, EVENTACTIONCONTEXTTYPE,
 req.header: eventdetectoroemadapter.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - EVENTACTIONCONTEXTTYPE
 ---
 
-# EVENTACTIONCONTEXTTYPE enumeration
+# EVENTACTIONCONTEXTTYPE enumeration (eventdetectoroemadapter.h)
+
+
 
 
 ## -description

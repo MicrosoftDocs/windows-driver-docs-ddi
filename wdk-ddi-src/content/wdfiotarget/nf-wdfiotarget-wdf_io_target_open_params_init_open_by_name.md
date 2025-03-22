@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function"]
 ms.keywords: DFIOTargetRef_fd8afc87-6dae-469e-906f-f2fa99aba08e.xml, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME, WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function, kmdf.wdf_io_target_open_params_init_open_by_name, wdf.wdf_io_target_open_params_init_open_by_name, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
 req.header: wdfiotarget.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME
 ---
 
-# WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function
+# WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_NAME function (wdfiotarget.h)
+
+
 
 
 ## -description

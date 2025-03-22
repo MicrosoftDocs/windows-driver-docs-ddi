@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxUsbDeviceCreate function"]
 ms.keywords: UdecxUsbDeviceCreate, UdecxUsbDeviceCreate function [Buses], buses.udecxusbdevicecreate, udecxusbdevice/UdecxUsbDeviceCreate
 req.header: udecxusbdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxUsbDeviceCreate
 ---
 
-# UdecxUsbDeviceCreate function
+# UdecxUsbDeviceCreate function (udecxusbdevice.h)
+
+
 
 
 ## -description

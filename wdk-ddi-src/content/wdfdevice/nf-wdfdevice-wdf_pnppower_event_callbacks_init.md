@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_PNPPOWER_EVENT_CALLBACKS_INIT function"]
 ms.keywords: DFDeviceObjectGeneralRef_f8e5ea12-489b-4217-b05f-43a31ef891d0.xml, WDF_PNPPOWER_EVENT_CALLBACKS_INIT, WDF_PNPPOWER_EVENT_CALLBACKS_INIT function, kmdf.wdf_pnppower_event_callbacks_init, wdf.wdf_pnppower_event_callbacks_init, wdfdevice/WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - WDF_PNPPOWER_EVENT_CALLBACKS_INIT
 ---
 
-# WDF_PNPPOWER_EVENT_CALLBACKS_INIT function
+# WDF_PNPPOWER_EVENT_CALLBACKS_INIT function (wdfdevice.h)
+
+
 
 
 ## -description

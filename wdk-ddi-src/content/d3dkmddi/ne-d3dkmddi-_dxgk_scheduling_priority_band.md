@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["DXGK_SCHEDULING_PRIORITY_BAND enumeration"]
 ms.keywords: _DXGK_SCHEDULING_PRIORITY_BAND, DXGK_SCHEDULING_PRIORITY_BAND,
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _DXGK_SCHEDULING_PRIORITY_BAND enumeration
+# DXGK_SCHEDULING_PRIORITY_BAND enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

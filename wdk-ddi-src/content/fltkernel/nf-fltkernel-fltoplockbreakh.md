@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltOplockBreakH function"]
 ms.keywords: FltApiRef_e_to_o_55fd17fd-a64a-4837-a000-0d51685e5a18.xml, FltOplockBreakH, FltOplockBreakH routine [Installable File System Drivers], fltkernel/FltOplockBreakH, ifsk.fltoplockbreakh
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltOplockBreakH routine is available starting with Windows 7.
@@ -40,7 +41,9 @@ api_name:
  - FltOplockBreakH
 ---
 
-# FltOplockBreakH function
+# FltOplockBreakH function (fltkernel.h)
+
+
 
 
 ## -description

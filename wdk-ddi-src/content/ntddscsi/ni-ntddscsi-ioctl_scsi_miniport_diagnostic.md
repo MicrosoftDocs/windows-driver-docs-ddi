@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL"]
 ms.keywords: IOCTL_SCSI_MINIPORT_DIAGNOSTIC, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control, IOCTL_SCSI_MINIPORT_DIAGNOSTIC control code [Storage Devices], ntddscsi/IOCTL_SCSI_MINIPORT_DIAGNOSTIC, storage.ioctl_scsi_miniport_diagnostic
 req.header: ntddscsi.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SCSI_MINIPORT_DIAGNOSTIC
 ---
 
-# IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL
+# IOCTL_SCSI_MINIPORT_DIAGNOSTIC IOCTL (ntddscsi.h)
+
+
+
+
 
 
 ## -description

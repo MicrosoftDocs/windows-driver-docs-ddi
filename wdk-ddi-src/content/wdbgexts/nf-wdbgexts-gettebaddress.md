@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GetTebAddress function"]
 ms.keywords: GetTebAddress, GetTebAddress function [Windows Debugging], WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, debugger.gettebaddress, wdbgexts/GetTebAddress
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetTebAddress
 ---
 
-# GetTebAddress function
+# GetTebAddress function (wdbgexts.h)
+
+
 
 
 ## -description

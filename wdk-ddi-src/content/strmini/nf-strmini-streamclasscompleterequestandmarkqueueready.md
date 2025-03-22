@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassCompleteRequestAndMarkQueueReady function"]
 ms.keywords: StreamClassCompleteRequestAndMarkQueueReady, StreamClassCompleteRequestAndMarkQueueReady routine [Streaming Media Devices], strclass-routines_c94691a3-a806-4b2a-a566-7a4a9d209a6c.xml, stream.streamclasscompleterequestandmarkqueueready, strmini/StreamClassCompleteRequestAndMarkQueueReady
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StreamClassCompleteRequestAndMarkQueueReady
 ---
 
-# StreamClassCompleteRequestAndMarkQueueReady function
+# StreamClassCompleteRequestAndMarkQueueReady function (strmini.h)
+
+
 
 
 ## -description

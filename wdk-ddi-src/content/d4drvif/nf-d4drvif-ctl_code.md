@@ -7,6 +7,7 @@ tech.root: print
 keywords: ["CTL_CODE macro"]
 ms.keywords: CTL_CODE
 req.header: d4drvif.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - CTL_CODE
 ---
 
-# CTL_CODE macro
+# CTL_CODE macro (d4drvif.h)
+
+
+
+
 
 
 ## -description

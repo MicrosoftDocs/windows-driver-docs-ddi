@@ -7,6 +7,7 @@ ms.date: 04/18/2022
 keywords: ["IStiDevice::GetLastErrorInfo"]
 ms.keywords: GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], GetLastErrorInfo method [Imaging Devices],IStiDevice interface, IStiDevice interface [Imaging Devices],GetLastErrorInfo method, IStiDevice.GetLastErrorInfo, IStiDevice::GetLastErrorInfo, image.istidevice_getlasterrorinfo, sti/IStiDevice::GetLastErrorInfo, stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml
 req.header: sti.h
+req.construct-type: function
 req.include-header: Sti.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiDevice::GetLastErrorInfo
 ---
+
+# IStiDevice::GetLastErrorInfo function (sti.h)
 
 ## -description
 

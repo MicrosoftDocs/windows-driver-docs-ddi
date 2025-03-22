@@ -40,7 +40,9 @@ dev_langs:
  - c++
 ---
 
-# ACX_PIN_CONFIG_INIT function (acxpin.h)
+# ACX_PIN_CONFIG_INIT macro (acxpin.h)
+
+
 
 ## -description
 

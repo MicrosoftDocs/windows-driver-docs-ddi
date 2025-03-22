@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisDprAcquireReadWriteLock function"]
 ms.keywords: NdisDprAcquireReadWriteLock, NdisDprAcquireReadWriteLock function [Network Drivers Starting with Windows Vista], ndis/NdisDprAcquireReadWriteLock, netvista.ndisdpracquirereadwritelock
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Deprecated for NDIS 6.20 and later drivers, which should use NdisAcquireRWLockRead or NdisAcquireRWLockWrite instead of NdisDprAcquireReadWriteLock. Supported in NDIS 6.0 and 6.1.
@@ -41,7 +42,9 @@ api_name:
  - NdisDprAcquireReadWriteLock
 ---
 
-# NdisDprAcquireReadWriteLock function
+# NdisDprAcquireReadWriteLock function (ndis.h)
+
+
 
 
 ## -description

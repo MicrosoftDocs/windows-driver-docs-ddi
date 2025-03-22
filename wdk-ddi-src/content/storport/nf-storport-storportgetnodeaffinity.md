@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetNodeAffinity function"]
 ms.keywords: StorPortGetNodeAffinity, StorPortGetNodeAffinity routine [Storage Devices], storage.storportgetnodeaffinity, storport/StorPortGetNodeAffinity, storprt_fdd62c09-d9ce-49cd-b390-c7c9a76a098f.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetNodeAffinity
 ---
 
-# StorPortGetNodeAffinity function
+# StorPortGetNodeAffinity function (storport.h)
+
+
 
 
 ## -description

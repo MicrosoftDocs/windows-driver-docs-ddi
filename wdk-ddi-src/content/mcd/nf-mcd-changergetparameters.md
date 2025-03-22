@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerGetParameters function"]
 ms.keywords: ChangerGetParameters, ChangerGetParameters function [Storage Devices], chgrmini_d8cfe74e-46ff-4aee-b1a2-2e55be7ed01f.xml, mcd/ChangerGetParameters, storage.changergetparameters
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerGetParameters
 ---
 
-# ChangerGetParameters function
+# ChangerGetParameters function (mcd.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfUsbTargetPipeSendUrbSynchronously function"]
 ms.keywords: DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously method, kmdf.wdfusbtargetpipesendurbsynchronously, wdf.wdfusbtargetpipesendurbsynchronously, wdfusb/WdfUsbTargetPipeSendUrbSynchronously
 req.header: wdfusb.h
+req.construct-type: function
 req.include-header: Wdfusb.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfUsbTargetPipeSendUrbSynchronously
 ---
 
-# WdfUsbTargetPipeSendUrbSynchronously function
+# WdfUsbTargetPipeSendUrbSynchronously function (wdfusb.h)
+
+
 
 
 ## -description

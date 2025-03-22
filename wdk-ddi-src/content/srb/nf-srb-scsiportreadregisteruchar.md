@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortReadRegisterUchar function"]
 ms.keywords: ScsiPortReadRegisterUchar, ScsiPortReadRegisterUchar routine [Storage Devices], scsiprt_220f8972-dc09-4027-9cec-85a07ed5547d.xml, srb/ScsiPortReadRegisterUchar, storage.scsiportreadregisteruchar
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortReadRegisterUchar
 ---
 
-# ScsiPortReadRegisterUchar function
+# ScsiPortReadRegisterUchar function (srb.h)
+
+
 
 
 ## -description

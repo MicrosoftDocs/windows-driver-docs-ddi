@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["WIAS_ASSERT macro"]
 ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, wiamdef/WIAS_ASSERT
 req.header: wiautil.h
+req.construct-type: function
 req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,6 +42,10 @@ api_name:
 ---
 
 # WIAS_ASSERT macro (wiautil.h)
+
+
+
+
 
 
 ## -description

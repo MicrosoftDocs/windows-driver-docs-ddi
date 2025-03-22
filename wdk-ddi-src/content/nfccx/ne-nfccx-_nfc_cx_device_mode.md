@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["NFC_CX_DEVICE_MODE enumeration"]
 ms.keywords: "*PNFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE, NFC_CX_DEVICE_MODE enumeration [Near-Field Proximity Drivers], NFC_CX_DEVICE_MODE_DTA, NFC_CX_DEVICE_MODE_NCI, NFC_CX_DEVICE_MODE_RAW, _NFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE, nfccx/NFC_CX_DEVICE_MODE_DTA, nfccx/NFC_CX_DEVICE_MODE_NCI, nfccx/NFC_CX_DEVICE_MODE_RAW, nfpdrivers.nfc_cx_device_mode"
 req.header: nfccx.h
+req.construct-type: enumeration
 req.include-header: Ncidef.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - NFC_CX_DEVICE_MODE
 ---
 
-# _NFC_CX_DEVICE_MODE enumeration
+# NFC_CX_DEVICE_MODE enumeration (nfccx.h)
+
+
 
 
 ## -description

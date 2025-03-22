@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeIpiGenericCall function"]
 ms.keywords: KeIpiGenericCall, KeIpiGenericCall routine [Kernel-Mode Driver Architecture], k105_f819c564-ecbc-4d28-aa64-6936c8ad3542.xml, kernel.keipigenericcall, wdm/KeIpiGenericCall
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - KeIpiGenericCall
 ---
 
-# KeIpiGenericCall function
+# KeIpiGenericCall function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/23/2018
 keywords: ["ASSERTMSG macro"]
 ms.keywords: ASSERTMSG, ASSERTMSG function [Driver Development Tools], DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, devtest.assertmsg, ntddk/ASSERTMSG
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows 2000 and later.
@@ -40,7 +41,11 @@ api_name:
  - ASSERTMSG
 ---
 
-# ASSERTMSG macro
+# ASSERTMSG macro (wdm.h)
+
+
+
+
 
 
 ## -description

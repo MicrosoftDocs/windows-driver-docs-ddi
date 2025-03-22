@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["BdaCreatePin function"]
 ms.keywords: BdaCreatePin, BdaCreatePin function [Streaming Media Devices], bdaref_e84fba91-044c-40f3-9364-ede0bbabda48.xml, bdasup/BdaCreatePin, stream.bdacreatepin
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - BdaCreatePin
 ---
 
-# BdaCreatePin function
+# BdaCreatePin function (bdasup.h)
+
+
 
 
 ## -description

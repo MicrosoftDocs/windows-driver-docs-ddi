@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["FsRtlIsHpfsDbcsLegal function"]
 ms.keywords: FsRtlIsHpfsDbcsLegal, FsRtlIsHpfsDbcsLegal routine [Installable File System Drivers], fsrtlref_6cde5ef1-2a54-4b66-b2da-e134b5700668.xml, ifsk.fsrtlishpfsdbcslegal, ntifs/FsRtlIsHpfsDbcsLegal
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: FltKernel.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -42,7 +43,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlIsHpfsDbcsLegal function
+# FsRtlIsHpfsDbcsLegal function (ntifs.h)
+
+
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDIDEGREETYPE enumeration"]
 ms.keywords: _D3DDDIDEGREETYPE, D3DDDIDEGREETYPE,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDIDEGREETYPE enumeration
+# D3DDDIDEGREETYPE enumeration (d3dumddi.h)
+
+
 
 
 ## -description

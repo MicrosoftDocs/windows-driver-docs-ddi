@@ -6,6 +6,7 @@ tech.root: kernel
 ms.date: 03/24/2020
 ms.keywords: IoAcquireKsrPersistentMemory
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 2004
@@ -36,7 +37,9 @@ f1_keywords:
  - wdm/IoAcquireKsrPersistentMemory
 ---
 
-# IoAcquireKsrPersistentMemory function
+# IoAcquireKsrPersistentMemory function (wdm.h)
+
+
 
 ## -description
 

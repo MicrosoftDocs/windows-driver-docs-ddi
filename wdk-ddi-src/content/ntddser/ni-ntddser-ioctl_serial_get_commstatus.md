@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_GET_COMMSTATUS IOCTL"]
 ms.keywords: IOCTL_SERIAL_GET_COMMSTATUS, IOCTL_SERIAL_GET_COMMSTATUS control, IOCTL_SERIAL_GET_COMMSTATUS control code [Serial Ports], ntddser/IOCTL_SERIAL_GET_COMMSTATUS, serports.ioctl_serial_get_commstatus, serref_4c26c2fc-2285-4b46-8791-0fb613e1c05a.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_GET_COMMSTATUS
 ---
 
-# IOCTL_SERIAL_GET_COMMSTATUS IOCTL
+# IOCTL_SERIAL_GET_COMMSTATUS IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

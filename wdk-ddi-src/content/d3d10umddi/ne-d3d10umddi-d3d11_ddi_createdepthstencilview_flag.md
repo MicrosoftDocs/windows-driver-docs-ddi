@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration"]
 ms.keywords: D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration [Display Devices], D3D11_DDI_CREATE_DSV_FLAG_MASK, D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, UMDisplayDriver_Dx11param_Structs_1148b880-7553-4a83-b602-c6b80d79b29f.xml, d3d10umddi/D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG, d3d10umddi/D3D11_DDI_CREATE_DSV_FLAG_MASK, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_DEPTH, d3d10umddi/D3D11_DDI_CREATE_DSV_READ_ONLY_STENCIL, display.d3d11_ddi_createdepthstencilview_flag
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG is supported beginning with the Windows 7 operating system.
@@ -40,7 +41,9 @@ api_name:
  - D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG
 ---
 
-# D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration
+# D3D11_DDI_CREATEDEPTHSTENCILVIEW_FLAG enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

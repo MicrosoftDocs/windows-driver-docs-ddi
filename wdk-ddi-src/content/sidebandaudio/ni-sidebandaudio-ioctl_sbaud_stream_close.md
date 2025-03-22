@@ -5,6 +5,7 @@ description: "On closure of KS pin, send IOCTL_SBAUD_STREAM_CLOSE."
 ms.date: 07/21/2023
 keywords: ["IOCTL_SBAUD_STREAM_CLOSE IOCTL"]
 req.header: sidebandaudio.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -32,7 +33,11 @@ api_name:
  - IOCTL_SBAUD_STREAM_CLOSE
 ---
 
-# IOCTL_SBAUD_STREAM_CLOSE IOCTL
+# IOCTL_SBAUD_STREAM_CLOSE IOCTL (sidebandaudio.h)
+
+
+
+
 
 ## -description
 

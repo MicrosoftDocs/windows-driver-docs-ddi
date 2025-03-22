@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxRegisterComponentPerfStates function"]
 ms.keywords: PO_FX_FLAG_PERF_PEP_OPTIONAL, PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, PO_FX_FLAG_PERF_QUERY_ON_F0, PoFxRegisterComponentPerfStates, PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture], kernel.pofxregistercomponentperfstates, wdm/PoFxRegisterComponentPerfStates
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 10.
@@ -40,7 +41,9 @@ api_name:
  - PoFxRegisterComponentPerfStates
 ---
 
-# PoFxRegisterComponentPerfStates function
+# PoFxRegisterComponentPerfStates function (wdm.h)
+
+
 
 
 ## -description

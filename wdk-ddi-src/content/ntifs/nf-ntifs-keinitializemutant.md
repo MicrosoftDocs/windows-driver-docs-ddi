@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["KeInitializeMutant function"]
 ms.keywords: KeInitializeMutant, KeInitializeMutant function [Installable File System Drivers], ifsk.keinitializemutant, keref_b0f59cc4-6d50-45bc-928c-3c2288ba0f14.xml, ntifs/KeInitializeMutant
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KeInitializeMutant
 ---
 
-# KeInitializeMutant function
+# KeInitializeMutant function (ntifs.h)
+
+
 
 
 ## -description

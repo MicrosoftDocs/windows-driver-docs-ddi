@@ -8,6 +8,7 @@ ms.date: 02/25/2022
 keywords: ["CcCoherencyFlushAndPurgeCache function"]
 ms.keywords: CcCoherencyFlushAndPurgeCache, CcCoherencyFlushAndPurgeCache routine [Installable File System Drivers], ccref_79641311-568b-472c-9950-2e46472affcf.xml, ifsk.cccoherencyflushandpurgecache, ntifs/CcCoherencyFlushAndPurgeCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - CcCoherencyFlushAndPurgeCache
 ---
 
-# CcCoherencyFlushAndPurgeCache function
+# CcCoherencyFlushAndPurgeCache function (ntifs.h)
+
+
 
 ## -description
 

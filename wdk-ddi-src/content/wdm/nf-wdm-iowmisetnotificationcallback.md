@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoWMISetNotificationCallback function"]
 ms.keywords: IoWMISetNotificationCallback, IoWMISetNotificationCallback routine [Kernel-Mode Driver Architecture], k104_8ee391bd-0abe-4901-b0dc-6266d0c8f5c4.xml, kernel.iowmisetnotificationcallback, wdm/IoWMISetNotificationCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoWMISetNotificationCallback
 ---
+
+# IoWMISetNotificationCallback function (wdm.h)
 
 ## -description
 

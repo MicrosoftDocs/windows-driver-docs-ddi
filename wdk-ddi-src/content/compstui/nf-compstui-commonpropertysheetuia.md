@@ -7,6 +7,7 @@ ms.date: 11/14/2022
 keywords: ["CommonPropertySheetUIA function"]
 ms.keywords: CommonPropertySheetUI, CommonPropertySheetUI function [Print Devices], CommonPropertySheetUIA, CommonPropertySheetUIW, compstui/CommonPropertySheetUI, cpsuifnc_547a4235-9e08-43fc-acae-b30091032ab3.xml, print.commonpropertysheetui
 req.header: compstui.h
+req.construct-type: function
 req.include-header: Compstui.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - CommonPropertySheetUIA
  - CommonPropertySheetUI
 ---
+
+# CommonPropertySheetUIA function (compstui.h)
 
 ## -description
 

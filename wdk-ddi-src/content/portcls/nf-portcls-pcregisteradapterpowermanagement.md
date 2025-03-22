@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRegisterAdapterPowerManagement function"]
 ms.keywords: PcRegisterAdapterPowerManagement, PcRegisterAdapterPowerManagement function [Audio Devices], audio.pcregisteradapterpowermanagement, audpc-routines_524bed01-a6ba-492c-9e18-7495de15be46.xml, portcls/PcRegisterAdapterPowerManagement
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting in Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - PcRegisterAdapterPowerManagement
 ---
 
-# PcRegisterAdapterPowerManagement function
+# PcRegisterAdapterPowerManagement function (portcls.h)
+
+
 
 
 ## -description

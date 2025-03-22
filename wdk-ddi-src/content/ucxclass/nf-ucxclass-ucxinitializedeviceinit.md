@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxInitializeDeviceInit function"]
 ms.keywords: UcxInitializeDeviceInit, UcxInitializeDeviceInit method [Buses], buses._ucxinitializedeviceinit, ucxclass/UcxInitializeDeviceInit
 req.header: ucxclass.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxInitializeDeviceInit
 ---
 
-# UcxInitializeDeviceInit function
+# UcxInitializeDeviceInit function (ucxclass.h)
+
+
 
 
 ## -description

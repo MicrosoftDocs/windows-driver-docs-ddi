@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExFreeToPagedLookasideList function"]
 ms.keywords: ExFreeToPagedLookasideList, ExFreeToPagedLookasideList routine [Kernel-Mode Driver Architecture], k102_2d09255c-391a-4937-a991-99d88adf4233.xml, kernel.exfreetopagedlookasidelist, wdm/ExFreeToPagedLookasideList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExFreeToPagedLookasideList
 ---
 
-# ExFreeToPagedLookasideList function
+# ExFreeToPagedLookasideList function (wdm.h)
+
+
 
 
 ## -description

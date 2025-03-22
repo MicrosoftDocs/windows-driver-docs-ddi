@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlInitializeBitMap function"]
 ms.keywords: RtlInitializeBitMap, RtlInitializeBitMap routine [Kernel-Mode Driver Architecture], k109_2c98c30e-fc9f-422d-bfa8-e0d765677664.xml, kernel.rtlinitializebitmap, wdm/RtlInitializeBitMap
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -41,7 +42,9 @@ api_name:
  - RtlInitializeBitMap
 ---
 
-# RtlInitializeBitMap function
+# RtlInitializeBitMap function (wdm.h)
+
+
 
 
 ## -description

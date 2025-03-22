@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["NtDeviceIoControlFile function"]
 ms.keywords: NtDeviceIoControlFile, ZwDeviceIoControlFile, ZwDeviceIoControlFile routine [Kernel-Mode Driver Architecture], k111_03e754fc-b6b5-4266-9be1-452d5ba5331c.xml, kernel.zwdeviceiocontrolfile, ntifs/NtDeviceIoControlFile, ntifs/ZwDeviceIoControlFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - NtDeviceIoControlFile
 ---
 
-# NtDeviceIoControlFile function
+# NtDeviceIoControlFile function (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerReinitializeUnit function"]
 ms.keywords: ChangerReinitializeUnit, ChangerReinitializeUnit function [Storage Devices], chgrmini_9883d8fd-334e-49f5-93ad-408622aa339f.xml, mcd/ChangerReinitializeUnit, storage.changerreinitializeunit
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerReinitializeUnit
 ---
 
-# ChangerReinitializeUnit function
+# ChangerReinitializeUnit function (mcd.h)
+
+
 
 
 ## -description

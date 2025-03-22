@@ -8,6 +8,7 @@ ms.date: 01/11/2018
 keywords: ["PFN_WDFOBJECTRELEASELOCK callback"]
 ms.keywords: wdf.wdfobjectreleaselock, PFN_WDFOBJECTRELEASELOCK, WdfObjectReleaseLock callback function, WdfObjectReleaseLock, wdfsync/WdfObjectReleaseLock, DFSynchroRef_14ab9c69-1eb8-4a83-b1fb-cb8db7a67d06.xml, kmdf.wdfobjectreleaselock
 req.header: wdfsync.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - PFN_WDFOBJECTRELEASELOCK
 ---
 
-# WdfObjectReleaseLock function
+# PFN_WDFOBJECTRELEASELOCK function (wdfsync.h)
+
+
 
 
 ## -description

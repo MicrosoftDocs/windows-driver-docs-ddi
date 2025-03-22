@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES IOCTL"]
 ms.keywords: IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control, IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES control code [Storage Devices], ehstorioctl/IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES, storage.ioctl_ehstor_device_query_properties
 req.header: ehstorioctl.h
+req.construct-type: ioctl
 req.include-header: EhStorIoctl.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES
 ---
 
-# IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES IOCTL
+# IOCTL_EHSTOR_DEVICE_QUERY_PROPERTIES IOCTL (ehstorioctl.h)
+
+
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 09/09/2022
 keywords: ["POWER_MONITOR_REQUEST_REASON enumeration"]
 ms.keywords: POWER_MONITOR_REQUEST_REASON
 req.header: ntpoapi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -30,7 +31,9 @@ api_name:
  - POWER_MONITOR_REQUEST_REASON
 ---
 
-# POWER_MONITOR_REQUEST_REASON enumeration
+# POWER_MONITOR_REQUEST_REASON enumeration (ntpoapi.h)
+
+
 
 
 ## -description

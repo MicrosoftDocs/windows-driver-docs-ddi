@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetPagingIoPriority function"]
 ms.keywords: IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, wdm/IoGetPagingIoPriority
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows Server 2003 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - IoGetPagingIoPriority
 ---
 
-# IoGetPagingIoPriority function
+# IoGetPagingIoPriority function (ntddk.h)
+
+
 
 
 ## -description

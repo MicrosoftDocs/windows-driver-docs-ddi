@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetRequestorProcessIdEx function"]
 ms.keywords: FltApiRef_e_to_o_ec80528f-12a7-4d31-9bd8-92050a16bd85.xml, FltGetRequestorProcessIdEx, FltGetRequestorProcessIdEx routine [Installable File System Drivers], fltkernel/FltGetRequestorProcessIdEx, ifsk.fltgetrequestorprocessidex
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Vista or later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - FltGetRequestorProcessIdEx
 ---
 
-# FltGetRequestorProcessIdEx function
+# FltGetRequestorProcessIdEx function (fltkernel.h)
+
+
 
 
 ## -description

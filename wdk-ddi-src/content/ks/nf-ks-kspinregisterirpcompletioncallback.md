@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsPinRegisterIrpCompletionCallback function"]
 ms.keywords: KsPinRegisterIrpCompletionCallback, KsPinRegisterIrpCompletionCallback function [Streaming Media Devices], avfunc_ab906fd4-c863-467e-828e-34316fb65269.xml, ks/KsPinRegisterIrpCompletionCallback, stream.kspinregisterirpcompletioncallback
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsPinRegisterIrpCompletionCallback
 ---
 
-# KsPinRegisterIrpCompletionCallback function
+# KsPinRegisterIrpCompletionCallback function (ks.h)
+
+
 
 
 ## -description

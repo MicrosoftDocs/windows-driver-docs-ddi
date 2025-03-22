@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["tagWPD_OPERATION_STATES enumeration"]
 ms.keywords: WPD_OPERATION_STATES, WPD_OPERATION_STATES enumeration, WPD_OPERATION_STATE_ABORTED, WPD_OPERATION_STATE_CANCELLED, WPD_OPERATION_STATE_FINISHED, WPD_OPERATION_STATE_PAUSED, WPD_OPERATION_STATE_RUNNING, WPD_OPERATION_STATE_STARTED, WPD_OPERATION_STATE_UNSPECIFIED, portabledevice/WPD_OPERATION_STATES, portabledevice/WPD_OPERATION_STATE_ABORTED, portabledevice/WPD_OPERATION_STATE_CANCELLED, portabledevice/WPD_OPERATION_STATE_FINISHED, portabledevice/WPD_OPERATION_STATE_PAUSED, portabledevice/WPD_OPERATION_STATE_RUNNING, portabledevice/WPD_OPERATION_STATE_STARTED, portabledevice/WPD_OPERATION_STATE_UNSPECIFIED, tagWPD_OPERATION_STATES, wpddk.wpd_operation_states
 req.header: portabledevice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -44,7 +45,9 @@ api_name:
  - WPD_OPERATION_STATES
 ---
 
-# tagWPD_OPERATION_STATES enumeration
+# tagWPD_OPERATION_STATES enumeration (portabledevice.h)
+
+
 
 
 ## -description

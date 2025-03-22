@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxNameCacheExpireEntry function"]
 ms.keywords: RxNameCacheExpireEntry, RxNameCacheExpireEntry function [Installable File System Drivers], ifsk.rxnamecacheexpireentry, namcache/RxNameCacheExpireEntry, rxref_d516a8aa-e7f8-48d4-8619-6b59a862ca0c.xml
 req.header: namcache.h
+req.construct-type: function
 req.include-header: Namcache.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxNameCacheExpireEntry
 ---
 
-# RxNameCacheExpireEntry function
+# RxNameCacheExpireEntry function (namcache.h)
+
+
 
 
 ## -description

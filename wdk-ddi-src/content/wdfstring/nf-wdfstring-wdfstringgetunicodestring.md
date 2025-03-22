@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfStringGetUnicodeString function"]
 ms.keywords: DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, WdfStringGetUnicodeString, WdfStringGetUnicodeString method, kmdf.wdfstringgetunicodestring, wdf.wdfstringgetunicodestring, wdfstring/WdfStringGetUnicodeString
 req.header: wdfstring.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfStringGetUnicodeString
 ---
 
-# WdfStringGetUnicodeString function
+# WdfStringGetUnicodeString function (wdfstring.h)
+
+
 
 
 ## -description

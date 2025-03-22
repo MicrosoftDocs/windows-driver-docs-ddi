@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmProbeAndLockSelectedPages function"]
 ms.keywords: MmProbeAndLockSelectedPages, MmProbeAndLockSelectedPages , MmProbeAndLockSelectedPages routine [Kernel-Mode Driver Architecture], kernel.mmprobeandlockselectedpages_, wdm/MmProbeAndLockSelectedPages
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmProbeAndLockSelectedPages
 ---
 
-# MmProbeAndLockSelectedPages function
+# MmProbeAndLockSelectedPages function (wdm.h)
+
+
 
 
 ## -description

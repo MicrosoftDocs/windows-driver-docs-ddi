@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetDeviceNumaNode function"]
 ms.keywords: IoGetDeviceNumaNode, IoGetDeviceNumaNode routine [Kernel-Mode Driver Architecture], k104_5a8419d1-9b77-4461-bdc4-9cf5022fb508.xml, kernel.iogetdevicenumanode, wdm/IoGetDeviceNumaNode
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - IoGetDeviceNumaNode
 ---
 
-# IoGetDeviceNumaNode function
+# IoGetDeviceNumaNode function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 10/06/2020
 keywords: ["NetOffloadIsRxChecksumIPv4Enabled function"]
 ms.keywords: NetOffloadIsRxChecksumIPv4Enabled
 req.header: netadapteroffload.h
+req.construct-type: function
 req.include-header: netadaptercx.h
 req.target-type: 
 req.target-min-winverclnt: Windows 11
@@ -37,7 +38,9 @@ api_name:
  - NetOffloadIsRxChecksumIPv4Enabled
 ---
 
-# NetOffloadIsRxChecksumIPv4Enabled function
+# NetOffloadIsRxChecksumIPv4Enabled function (netadapteroffload.h)
+
+
 
 
 ## -description

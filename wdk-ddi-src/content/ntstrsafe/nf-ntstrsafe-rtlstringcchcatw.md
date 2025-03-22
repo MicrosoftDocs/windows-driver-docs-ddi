@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlStringCchCatW function"]
 ms.keywords: RtlStringCchCat, RtlStringCchCatA, RtlStringCchCatW, RtlStringCchCatW function [Kernel-Mode Driver Architecture], kernel.rtlstringcchcat, ntstrsafe/RtlStringCchCatA, ntstrsafe/RtlStringCchCatW, safestrings_03a0e306-3b4e-4808-b257-a8327b688a08.xml
 req.header: ntstrsafe.h
+req.construct-type: function
 req.include-header: Ntstrsafe.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP with Service Pack 1 (SP1) and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - RtlStringCchCatW
 ---
 
-# RtlStringCchCatW function
+# RtlStringCchCatW function (ntstrsafe.h)
+
+
 
 
 ## -description

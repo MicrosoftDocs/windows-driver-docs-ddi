@@ -8,6 +8,7 @@ ms.date: 09/24/2020
 keywords: ["IddCxAdapterInitAsync function"]
 ms.keywords: IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], display.iddcxadapterinitasync, iddcx/IddCxAdapterInitAsync
 req.header: iddcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - IddCxAdapterInitAsync
 ---
 
-# IddCxAdapterInitAsync function
+# IddCxAdapterInitAsync function (iddcx.h)
+
+
 
 ## -description
 

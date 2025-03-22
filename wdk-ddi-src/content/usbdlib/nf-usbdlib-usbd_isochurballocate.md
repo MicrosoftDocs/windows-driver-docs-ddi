@@ -8,6 +8,7 @@ ms.date: 02/08/2022
 keywords: ["USBD_IsochUrbAllocate function"]
 ms.keywords: USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses], buses.usbd_isochurballocate, usbdlib/USBD_IsochUrbAllocate
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_IsochUrbAllocate
 ---
 
-# USBD_IsochUrbAllocate function
+# USBD_IsochUrbAllocate function (usbdlib.h)
+
+
 
 ## -description
 

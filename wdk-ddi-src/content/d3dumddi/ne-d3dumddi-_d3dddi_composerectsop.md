@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DDDI_COMPOSERECTSOP enumeration"]
 ms.keywords: _D3DDDI_COMPOSERECTSOP, D3DDDI_COMPOSERECTSOP,
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# _D3DDDI_COMPOSERECTSOP enumeration
+# D3DDDI_COMPOSERECTSOP enumeration (d3dumddi.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration"]
 ms.keywords: KSEVENT_PINCAPS_CHANGENOTIFICATIONS, KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration [Streaming Media Devices], KSEVENT_PINCAPS_FORMATCHANGE, KSEVENT_PINCAPS_JACKINFOCHANGE, ks/KSEVENT_PINCAPS_CHANGENOTIFICATIONS, ks/KSEVENT_PINCAPS_FORMATCHANGE, ks/KSEVENT_PINCAPS_JACKINFOCHANGE, stream.ksevent_pincaps_changenotifications
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSEVENT_PINCAPS_CHANGENOTIFICATIONS
 ---
 
-# KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration
+# KSEVENT_PINCAPS_CHANGENOTIFICATIONS enumeration (ks.h)
+
+
 
 
 ## -description

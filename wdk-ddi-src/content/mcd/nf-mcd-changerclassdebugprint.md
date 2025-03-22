@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerClassDebugPrint function"]
 ms.keywords: ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices], chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, storage.changerclassdebugprint
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ChangerClassDebugPrint
 ---
 
-# ChangerClassDebugPrint function
+# ChangerClassDebugPrint function (mcd.h)
+
+
 
 
 ## -description

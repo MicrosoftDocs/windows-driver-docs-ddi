@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsRegisterCountedWorker function"]
 ms.keywords: KsRegisterCountedWorker, KsRegisterCountedWorker function [Streaming Media Devices], ks/KsRegisterCountedWorker, ksfunc_2d4b1740-9b91-420d-81be-a56034445893.xml, stream.ksregistercountedworker
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsRegisterCountedWorker
 ---
 
-# KsRegisterCountedWorker function
+# KsRegisterCountedWorker function (ks.h)
+
+
 
 
 ## -description

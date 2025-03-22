@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsReadLogRecord function"]
 ms.keywords: ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, kernel.clfsreadlogrecord, wdm/ClfsReadLogRecord
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsReadLogRecord
 ---
 
-# ClfsReadLogRecord function
+# ClfsReadLogRecord function (wdm.h)
+
+
 
 
 ## -description

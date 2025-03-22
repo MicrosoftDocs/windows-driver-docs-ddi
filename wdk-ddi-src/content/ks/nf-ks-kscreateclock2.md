@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsCreateClock2 function"]
 ms.keywords: KsCreateClock2, KsCreateClock2 function [Streaming Media Devices], ks/KsCreateClock2, stream.kscreateclock2
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - KsCreateClock2
 ---
 
-# KsCreateClock2 function
+# KsCreateClock2 function (ks.h)
+
+
 
 
 ## -description

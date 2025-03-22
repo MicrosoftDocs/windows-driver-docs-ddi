@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXVA_VideoTransferMatrix enumeration"]
 ms.keywords: DXVA_VideoTransferMatrix, DXVA_VideoTransferMatrix enumeration [Display Devices], DXVA_VideoTransferMatrixMask, DXVA_VideoTransferMatrixShift, DXVA_VideoTransferMatrix_BT601, DXVA_VideoTransferMatrix_BT709, DXVA_VideoTransferMatrix_SMPTE240M, DXVA_VideoTransferMatrix_Unknown, _DXVA_VideoTransferMatrix, display.dxva_videotransfermatrix, dxva/DXVA_VideoTransferMatrix, dxva/DXVA_VideoTransferMatrixMask, dxva/DXVA_VideoTransferMatrixShift, dxva/DXVA_VideoTransferMatrix_BT601, dxva/DXVA_VideoTransferMatrix_BT709, dxva/DXVA_VideoTransferMatrix_SMPTE240M, dxva/DXVA_VideoTransferMatrix_Unknown, dxvaref_82624d1d-650f-41a2-a8d2-fb8c9936caab.xml
 req.header: dxva.h
+req.construct-type: enumeration
 req.include-header: Dxva.h
 req.target-type: Windows
 req.target-min-winverclnt: This enumeration type applies only to Windows Server 2003 with SP1 and later, and Windows XP with SP2 and later.
@@ -43,7 +44,9 @@ api_name:
  - DXVA_VideoTransferMatrix
 ---
 
-# _DXVA_VideoTransferMatrix enumeration
+# DXVA_VideoTransferMatrix enumeration (dxva.h)
+
+
 
 
 ## -description

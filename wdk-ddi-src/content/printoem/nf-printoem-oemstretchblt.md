@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMStretchBlt function"]
 ms.keywords: OEMStretchBlt, OEMStretchBlt function [Print Devices], print.oemstretchblt, print_unidrv-pscript_rendering_cbbd51bd-2201-4fd4-9b3e-1e86f3962be8.xml, printoem/OEMStretchBlt
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMStretchBlt
 ---
+
+# OEMStretchBlt function (printoem.h)
 
 ## -description
 

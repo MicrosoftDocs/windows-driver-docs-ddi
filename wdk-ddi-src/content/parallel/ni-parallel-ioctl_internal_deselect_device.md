@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_INTERNAL_DESELECT_DEVICE IOCTL"]
 ms.keywords: IOCTL_INTERNAL_DESELECT_DEVICE, IOCTL_INTERNAL_DESELECT_DEVICE control code [Parallel Ports], cisspd_8ade9861-f2cd-4328-9f8a-92fa4b2d2163.xml, parallel/IOCTL_INTERNAL_DESELECT_DEVICE, parports.ioctl_internal_deselect_device
 req.header: parallel.h
+req.construct-type: ioctl
 req.include-header: Parallel.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_DESELECT_DEVICE
 ---
 
-# IOCTL_INTERNAL_DESELECT_DEVICE IOCTL
+# IOCTL_INTERNAL_DESELECT_DEVICE IOCTL (parallel.h)
+
+
+
+
 
 
 ##  Major Code:

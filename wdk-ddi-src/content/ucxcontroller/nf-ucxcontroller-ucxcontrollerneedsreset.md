@@ -8,6 +8,7 @@ ms.date: 01/14/2022
 keywords: ["UcxControllerNeedsReset function"]
 ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 req.header: ucxcontroller.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxControllerNeedsReset
 ---
 
-# UcxControllerNeedsReset function
+# UcxControllerNeedsReset function (ucxcontroller.h)
+
+
 
 ## -description
 

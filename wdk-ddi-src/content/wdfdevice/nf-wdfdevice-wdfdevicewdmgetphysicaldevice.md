@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceWdmGetPhysicalDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_07f321bf-b857-4b36-81c0-452dc8acfc9a.xml, WdfDeviceWdmGetPhysicalDevice, WdfDeviceWdmGetPhysicalDevice method, kmdf.wdfdevicewdmgetphysicaldevice, wdf.wdfdevicewdmgetphysicaldevice, wdfdevice/WdfDeviceWdmGetPhysicalDevice
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceWdmGetPhysicalDevice
 ---
 
-# WdfDeviceWdmGetPhysicalDevice function
+# WdfDeviceWdmGetPhysicalDevice function (wdfdevice.h)
+
+
 
 
 ## -description

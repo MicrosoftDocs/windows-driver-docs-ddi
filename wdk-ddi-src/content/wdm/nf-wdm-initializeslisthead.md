@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["InitializeSListHead function"]
 ms.keywords: ExInitializeSListHead, InitializeSListHead, InitializeSListHead routine [Kernel-Mode Driver Architecture], k102_6d3b712b-2dd5-4962-ad16-a296bdc4de2b.xml, kernel.exinitializeslisthead, wdm/InitializeSListHead
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - InitializeSListHead
 ---
 
-# InitializeSListHead function
+# InitializeSListHead function (wdm.h)
+
+
 
 
 ## -description

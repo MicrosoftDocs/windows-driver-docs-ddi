@@ -7,6 +7,7 @@ ms.date: 12/09/2022
 keywords: ["CmUnRegisterCallback function"]
 ms.keywords: CmUnRegisterCallback, CmUnRegisterCallback routine [Kernel-Mode Driver Architecture], ConfigMgrRef_13cbc14e-4652-4a3d-a87e-f6eef883f912.xml, kernel.cmunregistercallback, wdm/CmUnRegisterCallback
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - CmUnRegisterCallback
 ---
+
+# CmUnRegisterCallback function (wdm.h)
 
 ## -description
 

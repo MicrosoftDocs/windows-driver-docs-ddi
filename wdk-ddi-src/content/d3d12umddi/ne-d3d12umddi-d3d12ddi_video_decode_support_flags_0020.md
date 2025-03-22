@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration"]
 ms.keywords: D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration [Display Devices], D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_NONE, d3d12umddi/D3D12DDI_VIDEO_DECODE_SUPPORT_FLAG_0020_SUPPORTED, display.d3d12ddi_video_decode_support_flags
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: D3d12umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020
 ---
 
-# D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration
+# D3D12DDI_VIDEO_DECODE_SUPPORT_FLAGS_0020 enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

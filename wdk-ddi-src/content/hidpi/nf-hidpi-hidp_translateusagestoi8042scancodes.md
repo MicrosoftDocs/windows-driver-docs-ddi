@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["HidP_TranslateUsagesToI8042ScanCodes function"]
 ms.keywords: HidP_TranslateUsagesToI8042ScanCodes, HidP_TranslateUsagesToI8042ScanCodes routine [Human Input Devices], hid.hidp_translateusagestoi8042scancodes, hidfunc_da67ba0d-7d82-4b35-9ebb-cdd93b12450b.xml, hidpi/HidP_TranslateUsagesToI8042ScanCodes
 req.header: hidpi.h
+req.construct-type: function
 req.include-header: Hidpi.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - HidP_TranslateUsagesToI8042ScanCodes
 ---
 
-# HidP_TranslateUsagesToI8042ScanCodes function
+# HidP_TranslateUsagesToI8042ScanCodes function (hidpi.h)
+
+
 
 
 ## -description

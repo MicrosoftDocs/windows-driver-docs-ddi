@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiSpl::MultiSendRecv"]
 ms.keywords: IBidiSpl interface [Print Devices],MultiSendRecv method, IBidiSpl.MultiSendRecv, IBidiSpl::MultiSendRecv, MultiSendRecv, MultiSendRecv method [Print Devices], MultiSendRecv method [Print Devices],IBidiSpl interface, _win32_IBidiSpl_MultiSendRecv, bidispl/IBidiSpl::MultiSendRecv, gdi.ibidispl_ibidispl__multisendrecv, print.ibidispl_ibidispl__multisendrecv
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows XP
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiSpl::MultiSendRecv
 ---
+
+# IBidiSpl::MultiSendRecv function (bidispl.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["IoAcquireVpbSpinLock function"]
 ms.keywords: IoAcquireVpbSpinLock, IoAcquireVpbSpinLock routine [Installable File System Drivers], ifsk.ioacquirevpbspinlock, ioref_b5833043-4673-46ff-850c-bd71da7defef.xml, ntifs/IoAcquireVpbSpinLock
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - IoAcquireVpbSpinLock
 ---
 
-# IoAcquireVpbSpinLock function
+# IoAcquireVpbSpinLock function (ntifs.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/19/2019
 keywords: ["MmSecureVirtualMemoryEx function"]
 ms.keywords: MmSecureVirtualMemoryEx
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - MmSecureVirtualMemoryEx
 ---
 
-# MmSecureVirtualMemoryEx function
+# MmSecureVirtualMemoryEx function (ntddk.h)
+
+
 
 
 ## -description

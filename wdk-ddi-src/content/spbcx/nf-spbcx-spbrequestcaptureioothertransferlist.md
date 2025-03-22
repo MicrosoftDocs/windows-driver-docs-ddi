@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["SpbRequestCaptureIoOtherTransferList function"]
 ms.keywords: SPB.spbrequestcaptureioothertransferlist, SpbRequestCaptureIoOtherTransferList, SpbRequestCaptureIoOtherTransferList method [Buses], spbcx/SpbRequestCaptureIoOtherTransferList
 req.header: spbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -41,7 +42,9 @@ api_name:
  - SpbRequestCaptureIoOtherTransferList
 ---
 
-# SpbRequestCaptureIoOtherTransferList function
+# SpbRequestCaptureIoOtherTransferList function (spbcx.h)
+
+
 
 
 ## -description

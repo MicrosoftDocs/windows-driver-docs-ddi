@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceAllocAndQueryPropertyEx function"]
 ms.keywords: WdfDeviceAllocAndQueryPropertyEx, WdfDeviceAllocAndQueryPropertyEx method, wdf.wdfdeviceallocandquerypropertyex, wdfdevice/WdfDeviceAllocAndQueryPropertyEx
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceAllocAndQueryPropertyEx
 ---
 
-# WdfDeviceAllocAndQueryPropertyEx function
+# WdfDeviceAllocAndQueryPropertyEx function (wdfdevice.h)
+
+
 
 
 ## -description

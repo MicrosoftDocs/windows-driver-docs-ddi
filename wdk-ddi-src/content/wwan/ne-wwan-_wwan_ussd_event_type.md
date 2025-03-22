@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_USSD_EVENT_TYPE enumeration"]
 ms.keywords: "*PWWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventActionRequired, WwanUssdEventNetworkTimeOut, WwanUssdEventNoActionRequired, WwanUssdEventOperationNotSupported, WwanUssdEventOtherLocalClient, WwanUssdEventTerminated, _WWAN_USSD_EVENT_TYPE, netvista.wwan_ussd_event_type, wwan/WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventActionRequired, wwan/WwanUssdEventNetworkTimeOut, wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventOtherLocalClient, wwan/WwanUssdEventTerminated"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with  Windows 8.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_USSD_EVENT_TYPE
 ---
 
-# _WWAN_USSD_EVENT_TYPE enumeration
+# WWAN_USSD_EVENT_TYPE enumeration (wwan.h)
+
+
 
 
 ## -description

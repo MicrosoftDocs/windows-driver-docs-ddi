@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_TYPE_NAME_TO_TYPE_INFO macro"]
 ms.keywords: DFGenObjectRef_4f9f25c8-aa26-478f-a8e8-a83e979c109b.xml, WDF_TYPE_NAME_TO_TYPE_INFO, WDF_TYPE_NAME_TO_TYPE_INFO macro, kmdf.wdf_type_name_to_type_info, wdf.wdf_type_name_to_type_info, wdfobject/WDF_TYPE_NAME_TO_TYPE_INFO
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,11 @@ api_name:
  - WDF_TYPE_NAME_TO_TYPE_INFO
 ---
 
-# WDF_TYPE_NAME_TO_TYPE_INFO macro
+# WDF_TYPE_NAME_TO_TYPE_INFO macro (wdfobject.h)
+
+
+
+
 
 
 ## -description

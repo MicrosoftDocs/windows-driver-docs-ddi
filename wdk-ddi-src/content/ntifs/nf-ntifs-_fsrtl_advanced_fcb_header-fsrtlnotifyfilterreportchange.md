@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlNotifyFilterReportChange function"]
 ms.keywords: FsRtlNotifyFilterReportChange, FsRtlNotifyFilterReportChange function [Installable File System Drivers], fsrtlref_c4a79c57-aa80-40f3-9882-76ed887c99cb.xml, ifsk.fsrtlnotifyfilterreportchange, ntifs/FsRtlNotifyFilterReportChange
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000 SP4 Update Rollup; Windows XP
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlNotifyFilterReportChange function
+# FsRtlNotifyFilterReportChange function (ntifs.h)
+
+
 
 
 ## -description

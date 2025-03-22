@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmRecoverEnlistment function"]
 ms.keywords: TmRecoverEnlistment, TmRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrecoverenlistment, ktm_ref_bcbfbdfe-017c-4d33-a0f5-dda597ee9166.xml, wdm/TmRecoverEnlistment
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -42,7 +43,9 @@ api_name:
  - TmRecoverEnlistment
 ---
 
-# TmRecoverEnlistment function
+# TmRecoverEnlistment function (wdm.h)
+
+
 
 
 ## -description

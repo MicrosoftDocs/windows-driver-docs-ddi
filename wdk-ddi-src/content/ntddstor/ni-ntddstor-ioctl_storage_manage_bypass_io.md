@@ -36,7 +36,9 @@ dev_langs:
  - c++
 ---
 
-# IOCTL_STORAGE_MANAGE_BYPASS_IO ioctl (ntddstor.h)
+# IOCTL_STORAGE_MANAGE_BYPASS_IO IOCTL (ntddstor.h)
+
+
 
 ## -description
 

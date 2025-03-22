@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration"]
 ms.keywords: "*PCDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration [Storage Devices], CdromEntirePerformanceList, CdromNominalPerformance, CdromPerformanceExceptionsOnly, PCDROM_PERFORMANCE_EXCEPTION_TYPE, PCDROM_PERFORMANCE_EXCEPTION_TYPE enumeration pointer [Storage Devices], _CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/ CdromPerformanceExceptionsOnly, ntddcdrm/CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CdromEntirePerformanceList, ntddcdrm/CdromNominalPerformance, ntddcdrm/PCDROM_PERFORMANCE_EXCEPTION_TYPE, storage.cdrom_performance_exception_type"
 req.header: ntddcdrm.h
+req.construct-type: enumeration
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - CDROM_PERFORMANCE_EXCEPTION_TYPE
 ---
 
-# _CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration
+# CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration (ntddcdrm.h)
+
+
 
 
 ## -description

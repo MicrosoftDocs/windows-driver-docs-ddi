@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaPropertyGetControllingPinId function"]
 ms.keywords: BdaPropertyGetControllingPinId, BdaPropertyGetControllingPinId function [Streaming Media Devices], bdaref_7f3a3695-4599-4b16-8a90-4ac171ab1ec0.xml, bdasup/BdaPropertyGetControllingPinId, stream.bdapropertygetcontrollingpinid
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt:
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaPropertyGetControllingPinId
 ---
+
+# BdaPropertyGetControllingPinId function (bdasup.h)
 
 ## -description
 

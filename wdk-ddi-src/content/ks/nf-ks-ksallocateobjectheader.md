@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAllocateObjectHeader function"]
 ms.keywords: KsAllocateObjectHeader, KsAllocateObjectHeader function [Streaming Media Devices], ks/KsAllocateObjectHeader, ksfunc_0ab53e6c-a934-4c4a-9377-c81ec37833f6.xml, stream.ksallocateobjectheader
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAllocateObjectHeader
 ---
 
-# KsAllocateObjectHeader function
+# KsAllocateObjectHeader function (ks.h)
+
+
 
 
 ## -description

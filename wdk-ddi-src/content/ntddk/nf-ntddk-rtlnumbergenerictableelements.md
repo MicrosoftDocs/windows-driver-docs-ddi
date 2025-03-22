@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlNumberGenericTableElements function"]
 ms.keywords: RtlNumberGenericTableElements, RtlNumberGenericTableElements routine [Installable File System Drivers], ifsk.rtlnumbergenerictableelements, ntddk/RtlNumberGenericTableElements, rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlNumberGenericTableElements
 ---
 
-# RtlNumberGenericTableElements function
+# RtlNumberGenericTableElements function (ntddk.h)
+
+
 
 
 ## -description

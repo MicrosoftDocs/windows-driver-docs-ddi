@@ -8,6 +8,7 @@ ms.date: 05/24/2022
 keywords: ["ExQueryPoolBlockSize function"]
 ms.keywords: ExQueryPoolBlockSize, ExQueryPoolBlockSize function [Installable File System Drivers], exref_c8686b81-2d69-4bbf-a1fb-143574579cff.xml, ifsk.exquerypoolblocksize, ntifs/ExQueryPoolBlockSize
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ExQueryPoolBlockSize
 ---
 
-# ExQueryPoolBlockSize function
+# ExQueryPoolBlockSize function (ntifs.h)
+
+
 
 ## -description
 

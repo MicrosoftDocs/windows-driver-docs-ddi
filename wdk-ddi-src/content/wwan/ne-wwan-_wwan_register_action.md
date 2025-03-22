@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_REGISTER_ACTION enumeration"]
 ms.keywords: "*PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION, PWWAN_REGISTER_ACTION enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_REGISTER_ACTION, WWAN_REGISTER_ACTION enumeration [Network Drivers Starting with Windows Vista], WwanRef_27e66042-089c-435b-b255-d01e1ddebb5f.xml, WwanRegisterActionAutomatic, WwanRegisterActionManual, WwanRegisterActionMax, _WWAN_REGISTER_ACTION, netvista.wwan_register_action, wwan/PWWAN_REGISTER_ACTION, wwan/WWAN_REGISTER_ACTION, wwan/WwanRegisterActionAutomatic, wwan/WwanRegisterActionManual, wwan/WwanRegisterActionMax"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_REGISTER_ACTION
 ---
 
-# _WWAN_REGISTER_ACTION enumeration
+# WWAN_REGISTER_ACTION enumeration (wwan.h)
+
+
 
 
 ## -description

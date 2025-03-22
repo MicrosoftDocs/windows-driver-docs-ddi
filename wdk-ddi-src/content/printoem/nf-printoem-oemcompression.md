@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMCompression function"]
 ms.keywords: OEMCompression, OEMCompression function [Print Devices], print.oemcompression, print_obsoletefunctions_e5318981-34d5-4d97-97fe-c0bdf9ca8f97.xml, printoem/OEMCompression
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMCompression
 ---
+
+# OEMCompression function (printoem.h)
 
 ## -description
 

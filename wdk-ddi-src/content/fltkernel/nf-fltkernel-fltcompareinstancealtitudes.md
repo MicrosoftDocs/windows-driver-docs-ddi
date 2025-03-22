@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCompareInstanceAltitudes function"]
 ms.keywords: FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml, FltCompareInstanceAltitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], fltkernel/FltCompareInstanceAltitudes, ifsk.fltcompareinstancealtitudes
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltCompareInstanceAltitudes
 ---
 
-# FltCompareInstanceAltitudes function
+# FltCompareInstanceAltitudes function (fltkernel.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["GetSecurityUserInfo function"]
 ms.keywords: GetSecurityUserInfo, GetSecurityUserInfo function [Installable File System Drivers], IFSMiscRef_e375e4a8-9702-41b8-b848-0dcbc0a7d9bd.xml, ifsk.getsecurityuserinfo, ntifs/GetSecurityUserInfo
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -41,7 +42,9 @@ api_name:
  - GetSecurityUserInfo
 ---
 
-# GetSecurityUserInfo function
+# GetSecurityUserInfo function (ntifs.h)
+
+
 
 
 ## -description

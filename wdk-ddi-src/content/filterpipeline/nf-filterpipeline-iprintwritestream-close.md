@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IPrintWriteStream::Close"]
 ms.keywords: Close, Close method [Print Devices], Close method [Print Devices],IPrintWriteStream interface, IPrintWriteStream interface [Print Devices],Close method, IPrintWriteStream.Close, IPrintWriteStream::Close, filterpipeline/IPrintWriteStream::Close, filterpipeline_68b1e38f-f42a-4fa1-92f1-2181ac15033e.xml, print.iprintwritestream_close
 req.header: filterpipeline.h
+req.construct-type: function
 req.include-header: Filterpipeline.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintWriteStream::Close
 ---
+
+# IPrintWriteStream::Close function (filterpipeline.h)
 
 ## -description
 

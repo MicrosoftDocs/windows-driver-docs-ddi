@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMAllocateNetBufferSGList function"]
 ms.keywords: NdisMAllocateNetBufferSGList, NdisMAllocateNetBufferSGList function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocateNetBufferSGList, ndis_sgdma_ref_7d06207d-de5d-41a8-b6e8-4ecab32123a1.xml, netvista.ndismallocatenetbuffersglist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMAllocateNetBufferSGList
 ---
 
-# NdisMAllocateNetBufferSGList function
+# NdisMAllocateNetBufferSGList function (ndis.h)
+
+
 
 
 ## -description

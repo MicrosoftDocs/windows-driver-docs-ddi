@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ChangerSetAccess function"]
 ms.keywords: ChangerSetAccess, ChangerSetAccess function [Storage Devices], chgrmini_3b7a1ae3-1724-464a-942a-54ecbae6329d.xml, mcd/ChangerSetAccess, storage.changersetaccess
 req.header: mcd.h
+req.construct-type: function
 req.include-header: Mcd.h, Ntddchgr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - ChangerSetAccess
 ---
 
-# ChangerSetAccess function
+# ChangerSetAccess function (mcd.h)
+
+
 
 
 ## -description

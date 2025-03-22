@@ -8,6 +8,7 @@ ms.date: 04/20/2018
 keywords: ["GenerateCopyFilePaths function"]
 ms.keywords: GenerateCopyFilePaths, GenerateCopyFilePaths function [Print Devices], poprfnc_35a0e3c2-1841-4e84-b980-c3b13592c854.xml, print.generatecopyfilepaths, winsplp/GenerateCopyFilePaths
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GenerateCopyFilePaths
 ---
 
-# GenerateCopyFilePaths function
+# GenerateCopyFilePaths function (winsplp.h)
+
+
 
 
 ## -description

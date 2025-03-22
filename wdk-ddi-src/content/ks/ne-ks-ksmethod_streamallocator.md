@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KSMETHOD_STREAMALLOCATOR enumeration"]
 ms.keywords: KSMETHOD_STREAMALLOCATOR, KSMETHOD_STREAMALLOCATOR enumeration [Streaming Media Devices], KSMETHOD_STREAMALLOCATOR_ALLOC, KSMETHOD_STREAMALLOCATOR_FREE, ks/KSMETHOD_STREAMALLOCATOR, ks/KSMETHOD_STREAMALLOCATOR_ALLOC, ks/KSMETHOD_STREAMALLOCATOR_FREE, stream.ksmethod_streamallocator
 req.header: ks.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - KSMETHOD_STREAMALLOCATOR
 ---
 
-# KSMETHOD_STREAMALLOCATOR enumeration
+# KSMETHOD_STREAMALLOCATOR enumeration (ks.h)
+
+
 
 
 ## -description

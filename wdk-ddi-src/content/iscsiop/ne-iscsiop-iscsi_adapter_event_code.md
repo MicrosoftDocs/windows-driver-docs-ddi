@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ISCSI_ADAPTER_EVENT_CODE enumeration"]
 ms.keywords: "*PISCSI_ADAPTER_EVENT_CODE, ISCSI_ADAPTER_EVENT_CODE, ISCSI_ADAPTER_EVENT_CODE enumeration [Storage Devices], ISCSI_ADAPTER_TARGETS_CHANGED, PISCSI_ADAPTER_EVENT_CODE, PISCSI_ADAPTER_EVENT_CODE enumeration pointer [Storage Devices], iscsiop/ISCSI_ADAPTER_EVENT_CODE, iscsiop/ISCSI_ADAPTER_TARGETS_CHANGED, iscsiop/PISCSI_ADAPTER_EVENT_CODE, storage.iscsi_adapter_event_code, structs-iSCSI_68c678d4-b753-45f9-96ff-e811e8c374f7.xml"
 req.header: iscsiop.h
+req.construct-type: enumeration
 req.include-header: Iscsiop.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - ISCSI_ADAPTER_EVENT_CODE
 ---
 
-# ISCSI_ADAPTER_EVENT_CODE enumeration
+# ISCSI_ADAPTER_EVENT_CODE enumeration (iscsiop.h)
+
+
 
 
 ## -description

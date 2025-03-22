@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["SeTokenIsAdmin function"]
 ms.keywords: SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers], ifsk.setokenisadmin, ntifs/SeTokenIsAdmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - SeTokenIsAdmin
 ---
 
-# SeTokenIsAdmin function
+# SeTokenIsAdmin function (ntifs.h)
+
+
 
 
 ## -description

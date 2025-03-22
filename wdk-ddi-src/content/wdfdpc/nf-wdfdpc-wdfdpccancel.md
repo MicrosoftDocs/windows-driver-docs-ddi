@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDpcCancel function"]
 ms.keywords: DFDpcObjectRef_4efcdae1-0c0a-4808-a1d8-640dea3555cb.xml, WdfDpcCancel, WdfDpcCancel method, kmdf.wdfdpccancel, wdf.wdfdpccancel, wdfdpc/WdfDpcCancel
 req.header: wdfdpc.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDpcCancel
 ---
 
-# WdfDpcCancel function
+# WdfDpcCancel function (wdfdpc.h)
+
+
 
 
 ## -description

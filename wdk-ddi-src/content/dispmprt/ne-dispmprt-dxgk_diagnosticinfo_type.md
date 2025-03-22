@@ -7,6 +7,7 @@ ms.date: 05/31/2022
 keywords: ["DXGK_DIAGNOSTICINFO_TYPE enumeration"]
 ms.keywords: DXGK_DIAGNOSTICINFO_TYPE, DXGK_DIAGNOSTICINFO_TYPE,
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -36,7 +37,9 @@ dev_langs:
  - c++
 ---
 
-# DXGK_DIAGNOSTICINFO_TYPE enumeration
+# DXGK_DIAGNOSTICINFO_TYPE enumeration (dispmprt.h)
+
+
 
 ## -description
 

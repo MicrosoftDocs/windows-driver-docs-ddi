@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcUninitializeCacheMap function"]
 ms.keywords: CcUninitializeCacheMap, CcUninitializeCacheMap routine [Installable File System Drivers], ccref_737f8e52-0bb4-4dfd-8516-16de77410b9a.xml, ifsk.ccuninitializecachemap, ntifs/CcUninitializeCacheMap
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcUninitializeCacheMap
 ---
 
-# CcUninitializeCacheMap function
+# CcUninitializeCacheMap function (ntifs.h)
+
+
 
 
 ## -description

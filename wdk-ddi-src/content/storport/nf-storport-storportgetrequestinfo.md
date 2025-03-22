@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetRequestInfo function"]
 ms.keywords: StorPortGetRequestInfo, StorPortGetRequestInfo routine [Storage Devices], storage.storportgetrequestinfo, storport/StorPortGetRequestInfo
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetRequestInfo
 ---
 
-# StorPortGetRequestInfo function
+# StorPortGetRequestInfo function (storport.h)
+
+
 
 
 ## -description

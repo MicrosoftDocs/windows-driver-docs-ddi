@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortReadPortUlong function"]
 ms.keywords: ScsiPortReadPortUlong, ScsiPortReadPortUlong routine [Storage Devices], scsiprt_af6cc9e1-eaa8-4c05-a695-ed54690d0f3b.xml, srb/ScsiPortReadPortUlong, storage.scsiportreadportulong
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h, Storport.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortReadPortUlong
 ---
 
-# ScsiPortReadPortUlong function
+# ScsiPortReadPortUlong function (srb.h)
+
+
 
 
 ## -description

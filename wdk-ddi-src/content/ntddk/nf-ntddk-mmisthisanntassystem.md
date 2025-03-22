@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmIsThisAnNtAsSystem function"]
 ms.keywords: MmIsThisAnNtAsSystem, MmIsThisAnNtAsSystem routine [Kernel-Mode Driver Architecture], k106_3f6077c8-2ce9-4dce-b29e-afd262be1e80.xml, kernel.mmisthisanntassystem, ntddk/MmIsThisAnNtAsSystem
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Obsolete for Windows XP and later versions of Windows. Use RtlGetVersion or RtlVerifyVersionInfo instead.
@@ -40,7 +41,9 @@ api_name:
  - MmIsThisAnNtAsSystem
 ---
 
-# MmIsThisAnNtAsSystem function
+# MmIsThisAnNtAsSystem function (ntddk.h)
+
+
 
 
 ## -description

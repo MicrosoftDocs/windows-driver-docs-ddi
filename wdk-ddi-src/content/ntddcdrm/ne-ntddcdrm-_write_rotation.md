@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["WRITE_ROTATION enumeration"]
 ms.keywords: "*PWRITE_ROTATION, CdromCAVRotation, CdromDefaultRotation, PWRITE_ROTATION, PWRITE_ROTATION enumeration pointer [Storage Devices], WRITE_ROTATION, WRITE_ROTATION enumeration [Storage Devices], _WRITE_ROTATION, ntddcdrm/CdromCAVRotation, ntddcdrm/CdromDefaultRotation, ntddcdrm/PWRITE_ROTATION, ntddcdrm/WRITE_ROTATION, storage.write_rotation, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml"
 req.header: ntddcdrm.h
+req.construct-type: enumeration
 req.include-header: Ntddcdrm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - WRITE_ROTATION
 ---
 
-# _WRITE_ROTATION enumeration
+# WRITE_ROTATION enumeration (ntddcdrm.h)
+
+
 
 
 ## -description

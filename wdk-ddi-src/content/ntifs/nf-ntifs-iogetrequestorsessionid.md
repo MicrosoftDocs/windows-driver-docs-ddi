@@ -8,6 +8,7 @@ ms.date: 08/26/2021
 keywords: ["IoGetRequestorSessionId function"]
 ms.keywords: IoGetRequestorSessionId, IoGetRequestorSessionId routine [Installable File System Drivers], ifsk.iogetrequestorsessionid, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, ntifs/IoGetRequestorSessionId
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Server 2003 SP1
@@ -40,7 +41,9 @@ api_name:
  - IoGetRequestorSessionId
 ---
 
-# IoGetRequestorSessionId function
+# IoGetRequestorSessionId function (ntifs.h)
+
+
 
 ## -description
 

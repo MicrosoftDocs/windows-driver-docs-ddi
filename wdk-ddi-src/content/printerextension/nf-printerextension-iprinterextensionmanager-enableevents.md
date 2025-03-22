@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterExtensionManager::EnableEvents"]
 ms.keywords: EnableEvents, EnableEvents method [Print Devices], EnableEvents method [Print Devices],IPrinterExtensionManager interface, IPrinterExtensionManager interface [Print Devices],EnableEvents method, IPrinterExtensionManager.EnableEvents, IPrinterExtensionManager::EnableEvents, print.iprinterextensionmanager_enableevents, printerextension/IPrinterExtensionManager::EnableEvents
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionManager::EnableEvents
 ---
+
+# IPrinterExtensionManager::EnableEvents function (printerextension.h)
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 04/20/2023
 keywords: ["IoPropagateActivityIdToThread function"]
 ms.keywords: IoPropagateActivityIdToThread, IoPropagateActivityIdToThread routine [Kernel-Mode Driver Architecture], kernel.iopropagateactivityidtothread, ntddk/IoPropagateActivityIdToThread
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with  Windows 8.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoPropagateActivityIdToThread
 ---
+
+# IoPropagateActivityIdToThread function (ntddk.h)
 
 ## -description
 

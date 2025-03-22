@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IoSetPartitionInformationEx function"]
 ms.keywords: IoSetPartitionInformationEx, IoSetPartitionInformationEx routine [Storage Devices], ntddk/IoSetPartitionInformationEx, rtns-disk_7fd49999-70b3-4d59-b281-ff24b8a22a30.xml, storage.iosetpartitioninformationex
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoSetPartitionInformationEx
 ---
 
-# IoSetPartitionInformationEx function
+# IoSetPartitionInformationEx function (ntddk.h)
+
+
 
 
 ## -description

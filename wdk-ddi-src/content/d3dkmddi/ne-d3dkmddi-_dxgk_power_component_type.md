@@ -7,6 +7,7 @@ ms.date: 04/16/2018
 keywords: ["DXGK_POWER_COMPONENT_TYPE enumeration"]
 ms.keywords: DXGK_POWER_COMPONENT_ENGINE, DXGK_POWER_COMPONENT_MAX, DXGK_POWER_COMPONENT_MONITOR, DXGK_POWER_COMPONENT_MONITOR_REFRESH, DXGK_POWER_COMPONENT_OTHER, DXGK_POWER_COMPONENT_TYPE, DXGK_POWER_COMPONENT_TYPE enumeration [Display Devices], _DXGK_POWER_COMPONENT_TYPE, d3dkmddi/DXGK_POWER_COMPONENT_ENGINE, d3dkmddi/DXGK_POWER_COMPONENT_MAX, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR, d3dkmddi/DXGK_POWER_COMPONENT_MONITOR_REFRESH, d3dkmddi/DXGK_POWER_COMPONENT_OTHER, d3dkmddi/DXGK_POWER_COMPONENT_TYPE, display.dxgk_power_component_type
 req.header: d3dkmddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_POWER_COMPONENT_TYPE
 ---
 
-# _DXGK_POWER_COMPONENT_TYPE enumeration
+# DXGK_POWER_COMPONENT_TYPE enumeration (d3dkmddi.h)
+
+
 
 
 ## -description

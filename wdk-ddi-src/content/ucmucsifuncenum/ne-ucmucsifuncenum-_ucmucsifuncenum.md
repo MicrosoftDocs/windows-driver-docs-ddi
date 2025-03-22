@@ -7,6 +7,7 @@ ms.date: 10/19/2018
 keywords: ["UCMUCSIFUNCENUM enumeration"]
 ms.keywords: _UCMUCSIFUNCENUM, UCMUCSIFUNCENUM,
 req.header: ucmucsifuncenum.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCMUCSIFUNCENUM
 ---
 
-# _UCMUCSIFUNCENUM enumeration
+# UCMUCSIFUNCENUM enumeration (ucmucsifuncenum.h)
+
+
 
 
 ## -description

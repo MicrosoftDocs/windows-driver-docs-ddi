@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortAllocateRegistryBuffer function"]
 ms.keywords: StorPortAllocateRegistryBuffer, StorPortAllocateRegistryBuffer routine [Storage Devices], storage.storportallocateregistrybuffer, storport/StorPortAllocateRegistryBuffer, storprt_dc344b88-692d-4529-8b98-c9b5c07a05f3.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StorPortAllocateRegistryBuffer
 ---
 
-# StorPortAllocateRegistryBuffer function
+# StorPortAllocateRegistryBuffer function (storport.h)
+
+
 
 
 ## -description

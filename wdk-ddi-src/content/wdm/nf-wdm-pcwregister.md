@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["PcwRegister function"]
 ms.keywords: PcwRegister, PcwRegister function [Driver Development Tools], devtest.pcwregister, km_pcw_5204b626-3251-4c63-bd89-be1470980960.xml, wdm/PcwRegister
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - PcwRegister
 ---
+
+# PcwRegister function (wdm.h)
 
 ## -description
 

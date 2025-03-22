@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NmrProviderDetachClientComplete function"]
 ms.keywords: NmrProviderDetachClientComplete, NmrProviderDetachClientComplete function [Network Drivers Starting with Windows Vista], netioddk/NmrProviderDetachClientComplete, netvista.nmrproviderdetachclientcomplete, nmrref_c86f4d4f-b54f-4e31-b683-f692ff7ed1ba.xml
 req.header: netioddk.h
+req.construct-type: function
 req.include-header: Wsk.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
@@ -41,7 +42,9 @@ api_name:
  - NmrProviderDetachClientComplete
 ---
 
-# NmrProviderDetachClientComplete function
+# NmrProviderDetachClientComplete function (netioddk.h)
+
+
 
 
 ## -description

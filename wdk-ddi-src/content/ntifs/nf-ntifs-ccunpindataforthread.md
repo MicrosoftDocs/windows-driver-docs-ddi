@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcUnpinDataForThread function"]
 ms.keywords: CcUnpinDataForThread, CcUnpinDataForThread routine [Installable File System Drivers], ccref_71102887-ef3b-44b1-8b1f-e2b07dea3392.xml, ifsk.ccunpindataforthread, ntifs/CcUnpinDataForThread
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcUnpinDataForThread
 ---
 
-# CcUnpinDataForThread function
+# CcUnpinDataForThread function (ntifs.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 12/15/2022
 keywords: ["ZwQueryValueKey function"]
 ms.keywords: NtQueryValueKey, ZwQueryValueKey, ZwQueryValueKey routine [Kernel-Mode Driver Architecture], k111_f51b0b92-f768-4f96-9f2a-d1322fd02517.xml, kernel.zwqueryvaluekey, wdm/NtQueryValueKey, wdm/ZwQueryValueKey
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - ZwQueryValueKey
 ---
+
+# ZwQueryValueKey function (wdm.h)
 
 ## -description
 

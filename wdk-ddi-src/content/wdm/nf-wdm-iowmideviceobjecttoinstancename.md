@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIDeviceObjectToInstanceName function"]
 ms.keywords: IoWMIDeviceObjectToInstanceName, IoWMIDeviceObjectToInstanceName routine [Kernel-Mode Driver Architecture], k104_9341dc2b-c948-44bd-891d-a530a8676259.xml, kernel.iowmideviceobjecttoinstancename, wdm/IoWMIDeviceObjectToInstanceName
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIDeviceObjectToInstanceName
 ---
 
-# IoWMIDeviceObjectToInstanceName function
+# IoWMIDeviceObjectToInstanceName function (wdm.h)
+
+
 
 
 ## -description

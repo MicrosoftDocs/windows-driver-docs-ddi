@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["USBC_DATA_ROLE enumeration"]
 ms.keywords: _USBC_DATA_ROLE, USBC_DATA_ROLE,
 req.header: usbctypes.h
+req.construct-type: enumeration
 req.include-header: usbctypes.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - USBC_DATA_ROLE
 ---
 
-# _USBC_DATA_ROLE enumeration
+# USBC_DATA_ROLE enumeration (usbctypes.h)
+
+
 
 
 ## -description

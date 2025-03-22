@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsInitializeDevice function"]
 ms.keywords: KsInitializeDevice, KsInitializeDevice function [Streaming Media Devices], avfunc_dfdb87f8-ade9-4ba6-87a3-440e9abb80b4.xml, ks/KsInitializeDevice, stream.ksinitializedevice
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsInitializeDevice
 ---
 
-# KsInitializeDevice function
+# KsInitializeDevice function (ks.h)
+
+
 
 
 ## -description

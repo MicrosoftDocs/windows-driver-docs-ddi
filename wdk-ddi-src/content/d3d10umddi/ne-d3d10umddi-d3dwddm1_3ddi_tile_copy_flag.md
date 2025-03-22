@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration"]
 ms.keywords: D3DWDDM1_3DDI_TILE_COPY_FLAG, D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration [Display Devices], D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE, D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_FLAG, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_LINEAR_BUFFER_TO_SWIZZLED_TILED_RESOURCE, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_NO_OVERWRITE, d3d10umddi/D3DWDDM1_3DDI_TILE_COPY_SWIZZLED_TILED_RESOURCE_TO_LINEAR_BUFFER, display.d3dwddm1_3ddi_tile_copy_flag
 req.header: d3d10umddi.h
+req.construct-type: enumeration
 req.include-header: D3d10umddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1,WDDM 1.3
@@ -40,7 +41,9 @@ api_name:
  - D3DWDDM1_3DDI_TILE_COPY_FLAG
 ---
 
-# D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration
+# D3DWDDM1_3DDI_TILE_COPY_FLAG enumeration (d3d10umddi.h)
+
+
 
 
 ## -description

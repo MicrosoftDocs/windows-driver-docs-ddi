@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExInitializeSetTimerParameters function"]
 ms.keywords: ExInitializeSetTimerParameters, ExInitializeSetTimerParameters routine [Kernel-Mode Driver Architecture], kernel.exinitializesettimerparameters, wdm/ExInitializeSetTimerParameters
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - ExInitializeSetTimerParameters
 ---
 
-# ExInitializeSetTimerParameters function
+# ExInitializeSetTimerParameters function (wdm.h)
+
+
 
 
 ## -description

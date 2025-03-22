@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration"]
 ms.keywords: DFRequestObjectRef_cad8f6c6-9c76-4dc3-ac3f-3938e5174563.xml, WDF_REQUEST_FORWARD_OPTIONS_FLAGS, WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration, WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET, _WDF_REQUEST_FORWARD_OPTIONS_FLAGS, kmdf.wdf_request_forward_options_flags, wdf.wdf_request_forward_options_flags, wdfrequest/WDF_REQUEST_FORWARD_OPTIONS_FLAGS, wdfrequest/WDF_REQUEST_FORWARD_OPTION_SEND_AND_FORGET
 req.header: wdfrequest.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_REQUEST_FORWARD_OPTIONS_FLAGS
 ---
 
-# _WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration
+# WDF_REQUEST_FORWARD_OPTIONS_FLAGS enumeration (wdfrequest.h)
+
+
 
 
 ## -description

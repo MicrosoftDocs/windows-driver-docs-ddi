@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeCancelTimer function"]
 ms.keywords: KeCancelTimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, kernel.kecanceltimer, wdm/KeCancelTimer
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeCancelTimer
 ---
 
-# KeCancelTimer function
+# KeCancelTimer function (wdm.h)
+
+
 
 
 ## -description

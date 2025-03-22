@@ -7,6 +7,7 @@ ms.date: 07/14/2022
 keywords: ["READ_REGISTER_BUFFER_ULONG64 function"]
 ms.keywords: READ_REGISTER_BUFFER_ULONG64, READ_REGISTER_BUFFER_ULONG64 function, umdf.read_register_buffer_ulong64, wdf.read_register_buffer_ulong64, wudfddi_hwaccess/READ_REGISTER_BUFFER_ULONG64
 req.header: miniport.h
+req.construct-type: function
 req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - READ_REGISTER_BUFFER_ULONG64
 ---
+
+# READ_REGISTER_BUFFER_ULONG64 function (miniport.h)
 
 ## -description
 

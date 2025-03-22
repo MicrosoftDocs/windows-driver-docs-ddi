@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxUsbDeviceInitSetEventCallbacks function"]
 ms.keywords: UcxUsbDeviceInitSetEventCallbacks, UcxUsbDeviceInitSetEventCallbacks method [Buses], buses._ucxusbdeviceinitseteventcallbacks
 req.header: ucxusbdevice.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxUsbDeviceInitSetEventCallbacks
 ---
 
-# UcxUsbDeviceInitSetEventCallbacks function
+# UcxUsbDeviceInitSetEventCallbacks function (ucxusbdevice.h)
+
+
 
 
 ## -description

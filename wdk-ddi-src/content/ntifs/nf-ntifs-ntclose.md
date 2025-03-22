@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["NtClose function"]
 ms.keywords: NtClose, ZwClose, ZwClose routine [Kernel-Mode Driver Architecture], k111_6311836b-aa48-46f1-a64b-d94d5bb95f16.xml, kernel.zwclose, wdm/NtClose, wdm/ZwClose
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - NtClose
 ---
 
-# NtClose function
+# NtClose function (ntifs.h)
+
+
 
 ## -description
 

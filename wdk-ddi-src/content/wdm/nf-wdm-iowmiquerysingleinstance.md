@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoWMIQuerySingleInstance function"]
 ms.keywords: IoWMIQuerySingleInstance, IoWMIQuerySingleInstance routine [Kernel-Mode Driver Architecture], k104_ef4cfbd8-cca3-4ec0-99cd-3715c2ddf52f.xml, kernel.iowmiquerysingleinstance, wdm/IoWMIQuerySingleInstance
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating system.
@@ -40,7 +41,9 @@ api_name:
  - IoWMIQuerySingleInstance
 ---
 
-# IoWMIQuerySingleInstance function
+# IoWMIQuerySingleInstance function (wdm.h)
+
+
 
 
 ## -description

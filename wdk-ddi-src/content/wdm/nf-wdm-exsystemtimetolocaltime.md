@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExSystemTimeToLocalTime function"]
 ms.keywords: ExSystemTimeToLocalTime, ExSystemTimeToLocalTime routine [Kernel-Mode Driver Architecture], k102_9cf20274-70ae-41f6-b56f-2dc8aa7fd0e3.xml, kernel.exsystemtimetolocaltime, wdm/ExSystemTimeToLocalTime
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExSystemTimeToLocalTime
 ---
 
-# ExSystemTimeToLocalTime function
+# ExSystemTimeToLocalTime function (wdm.h)
+
+
 
 
 ## -description

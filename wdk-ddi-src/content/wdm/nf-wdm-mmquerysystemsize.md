@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmQuerySystemSize function"]
 ms.keywords: MmQuerySystemSize, MmQuerySystemSize routine [Kernel-Mode Driver Architecture], k106_9456af05-c1ea-43b0-a342-bc88a8de874b.xml, kernel.mmquerysystemsize, wdm/MmQuerySystemSize
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmQuerySystemSize
 ---
 
-# MmQuerySystemSize function
+# MmQuerySystemSize function (wdm.h)
+
+
 
 
 ## -description

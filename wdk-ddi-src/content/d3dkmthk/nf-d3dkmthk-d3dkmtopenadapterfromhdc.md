@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTOpenAdapterFromHdc function"]
 ms.keywords: D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc function [Display Devices], OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, d3dkmthk/D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTOpenAdapterFromHdc
 ---
 
-# D3DKMTOpenAdapterFromHdc function
+# D3DKMTOpenAdapterFromHdc function (d3dkmthk.h)
+
+
 
 
 ## -description

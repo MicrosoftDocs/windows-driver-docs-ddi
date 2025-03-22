@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlFindUnicodePrefix function"]
 ms.keywords: RtlFindUnicodePrefix, RtlFindUnicodePrefix routine [Installable File System Drivers], ifsk.rtlfindunicodeprefix, ntifs/RtlFindUnicodePrefix, rtlref_55dbfa12-5de6-44e0-8488-6e83abfaad84.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - RtlFindUnicodePrefix
 ---
 
-# RtlFindUnicodePrefix function
+# RtlFindUnicodePrefix function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltGetIoPriorityHintFromCallbackData function"]
 ms.keywords: FltApiRef_e_to_o_ce313b29-9c88-47f7-9a7f-a4ad9945ade1.xml, FltGetIoPriorityHintFromCallbackData, FltGetIoPriorityHintFromCallbackData routine [Installable File System Drivers], fltkernel/FltGetIoPriorityHintFromCallbackData, ifsk.fltgetiopriorityhintfromcallbackdata
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - FltGetIoPriorityHintFromCallbackData
 ---
 
-# FltGetIoPriorityHintFromCallbackData function
+# FltGetIoPriorityHintFromCallbackData function (fltkernel.h)
+
+
 
 
 ## -description

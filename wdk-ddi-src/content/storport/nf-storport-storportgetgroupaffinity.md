@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortGetGroupAffinity function"]
 ms.keywords: StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows 7 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - StorPortGetGroupAffinity
 ---
 
-# StorPortGetGroupAffinity function
+# StorPortGetGroupAffinity function (storport.h)
+
+
 
 
 ## -description

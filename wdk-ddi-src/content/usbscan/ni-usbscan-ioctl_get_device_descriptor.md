@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IOCTL_GET_DEVICE_DESCRIPTOR IOCTL"]
 ms.keywords: IOCTL_GET_DEVICE_DESCRIPTOR, IOCTL_GET_DEVICE_DESCRIPTOR control, IOCTL_GET_DEVICE_DESCRIPTOR control code [Imaging Devices], image.ioctl_get_device_descriptor, stifnc_b84c2743-6548-40c7-8b97-4952867740ad.xml, usbscan/IOCTL_GET_DEVICE_DESCRIPTOR
 req.header: usbscan.h
+req.construct-type: ioctl
 req.include-header: Usbscan.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_GET_DEVICE_DESCRIPTOR
 ---
 
-# IOCTL_GET_DEVICE_DESCRIPTOR IOCTL
+# IOCTL_GET_DEVICE_DESCRIPTOR IOCTL (usbscan.h)
+
+
+
+
 
 
 ## -description

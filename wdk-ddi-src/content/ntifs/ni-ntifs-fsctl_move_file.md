@@ -38,7 +38,9 @@ helpviewer_keywords:
  - FSCTL_MOVE_FILE
 ---
 
-# FSCTL_MOVE_FILE ioctl (ntifs.h)
+# FSCTL_MOVE_FILE IOCTL (ntifs.h)
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisWaitEvent function"]
 ms.keywords: NdisWaitEvent, NdisWaitEvent function [Network Drivers Starting with Windows Vista], ndis/NdisWaitEvent, ndis_event_ref_d607d02a-0509-4399-90e8-bbfb43d613b3.xml, netvista.ndiswaitevent
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisWaitEvent (NDIS 5.1)) in Windows   Vista. Supported for NDIS 5.1 drivers (see    NdisWaitEvent (NDIS 5.1)) in Windows   XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisWaitEvent
 ---
 
-# NdisWaitEvent function
+# NdisWaitEvent function (ndis.h)
+
+
 
 
 ## -description

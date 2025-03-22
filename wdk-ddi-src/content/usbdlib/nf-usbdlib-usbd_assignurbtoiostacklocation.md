@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_AssignUrbToIoStackLocation function"]
 ms.keywords: USBD_AssignUrbToIoStackLocation, USBD_AssignUrbToIoStackLocation routine [Buses], buses.usbd_assignurbtostacklocation, usbdlib/USBD_AssignUrbToIoStackLocation
 req.header: usbdlib.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Requires WDK for Windows 8. Targets Windows Vista and later versions of the Windows operating system.
@@ -41,7 +42,9 @@ api_name:
  - USBD_AssignUrbToIoStackLocation
 ---
 
-# USBD_AssignUrbToIoStackLocation function
+# USBD_AssignUrbToIoStackLocation function (usbdlib.h)
+
+
 
 
 ## -description

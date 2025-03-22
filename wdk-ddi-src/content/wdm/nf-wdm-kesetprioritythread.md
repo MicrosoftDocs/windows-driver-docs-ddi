@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeSetPriorityThread function"]
 ms.keywords: KeSetPriorityThread, KeSetPriorityThread routine [Kernel-Mode Driver Architecture], k105_b767dc2c-39ec-41de-8888-177d83de67c4.xml, kernel.kesetprioritythread, wdm/KeSetPriorityThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeSetPriorityThread
 ---
 
-# KeSetPriorityThread function
+# KeSetPriorityThread function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["TmPrepareComplete function"]
 ms.keywords: TmPrepareComplete, TmPrepareComplete routine [Kernel-Mode Driver Architecture], kernel.tmpreparecomplete, ktm_ref_e0ecfef3-989f-43c4-b4a6-6a2406e8aaa5.xml, wdm/TmPrepareComplete
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -42,7 +43,9 @@ api_name:
  - TmPrepareComplete
 ---
 
-# TmPrepareComplete function
+# TmPrepareComplete function (wdm.h)
+
+
 
 
 ## -description

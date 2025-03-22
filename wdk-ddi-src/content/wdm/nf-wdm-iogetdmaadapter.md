@@ -7,6 +7,7 @@ ms.date: 12/12/2022
 keywords: ["IoGetDmaAdapter function"]
 ms.keywords: IoGetDmaAdapter, IoGetDmaAdapter routine [Kernel-Mode Driver Architecture], k104_36398d16-2a22-4a85-a260-265aa9c54bbd.xml, kernel.iogetdmaadapter, wdm/IoGetDmaAdapter
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoGetDmaAdapter
 ---
+
+# IoGetDmaAdapter function (wdm.h)
 
 ## -description
 

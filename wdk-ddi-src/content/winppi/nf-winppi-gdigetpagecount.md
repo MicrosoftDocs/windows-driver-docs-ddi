@@ -7,6 +7,7 @@ ms.date: 01/04/2023
 keywords: ["GdiGetPageCount function"]
 ms.keywords: GdiGetPageCount, GdiGetPageCount function [Print Devices], gdifnc_f34bbc65-29f2-47b1-aec3-523af01a804c.xml, print.gdigetpagecount, winppi/GdiGetPageCount
 req.header: winppi.h
+req.construct-type: function
 req.include-header: Winppi.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,6 +41,8 @@ api_location:
 api_name:
  - GdiGetPageCount
 ---
+
+# GdiGetPageCount function (winppi.h)
 
 ## -description
 

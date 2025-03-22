@@ -7,6 +7,7 @@ ms.date: 01/10/2023
 keywords: ["RtlLookupElementGenericTable function"]
 ms.keywords: RtlLookupElementGenericTable, RtlLookupElementGenericTable routine [Installable File System Drivers], ifsk.rtllookupelementgenerictable, ntddk/RtlLookupElementGenericTable, rtlref_609e7ba3-35a1-40e8-9e94-f16605e52155.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlLookupElementGenericTable
 ---
+
+# RtlLookupElementGenericTable function (ntddk.h)
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS IOCTL"]
 ms.keywords: IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control, IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS control code [Serial Ports], ntddser/IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS, serports.ioctl_serial_internal_restore_settings, serref_bb81345f-080d-4de6-bc36-34a32f934fc7.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS
 ---
 
-# IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS IOCTL
+# IOCTL_SERIAL_INTERNAL_RESTORE_SETTINGS IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

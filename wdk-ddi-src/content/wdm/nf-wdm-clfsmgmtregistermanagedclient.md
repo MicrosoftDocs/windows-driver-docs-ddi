@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsMgmtRegisterManagedClient function"]
 ms.keywords: ClfsMgmtRegisterManagedClient, ClfsMgmtRegisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_9cd62567-e8c0-4a27-a3fd-153f0cdc9516.xml, kernel.clfsmgmtregistermanagedclient, wdm/ClfsMgmtRegisterManagedClient
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsMgmtRegisterManagedClient
 ---
 
-# ClfsMgmtRegisterManagedClient function
+# ClfsMgmtRegisterManagedClient function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlLongLongSub function"]
 ms.keywords: RtlLongLongSub, RtlLongLongSub function [Kernel-Mode Driver Architecture], kernel.rtllonglongsub, ntintsafe/RtlLongLongSub
 req.header: ntintsafe.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlLongLongSub
 ---
 
-# RtlLongLongSub function
+# RtlLongLongSub function (ntintsafe.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcFlushCache function"]
 ms.keywords: CcFlushCache, CcFlushCache routine [Installable File System Drivers], ccref_089656c6-a12e-4e74-a72d-7f0182f3c3dd.xml, ifsk.ccflushcache, ntifs/CcFlushCache
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcFlushCache
 ---
 
-# CcFlushCache function
+# CcFlushCache function (ntifs.h)
+
+
 
 
 ## -description

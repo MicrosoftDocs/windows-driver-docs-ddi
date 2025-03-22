@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceRemoveRemovalRelationsPhysicalDevice function"]
 ms.keywords: DFDeviceObjectGeneralRef_aad4d605-26bb-468f-a608-426a1e570037.xml, WdfDeviceRemoveRemovalRelationsPhysicalDevice, WdfDeviceRemoveRemovalRelationsPhysicalDevice method, kmdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdf.wdfdeviceremoveremovalrelationsphysicaldevice, wdfdevice/WdfDeviceRemoveRemovalRelationsPhysicalDevice
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceRemoveRemovalRelationsPhysicalDevice
 ---
 
-# WdfDeviceRemoveRemovalRelationsPhysicalDevice function
+# WdfDeviceRemoveRemovalRelationsPhysicalDevice function (wdfdevice.h)
+
+
 
 
 ## -description

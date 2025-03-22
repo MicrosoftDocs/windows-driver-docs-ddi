@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UdecxInitializeWdfDeviceInit function"]
 ms.keywords: UdecxInitializeWdfDeviceInit, UdecxInitializeWdfDeviceInit function [Buses], buses.udecxinitializewdfdeviceinit, udecxwdfdevice/UdecxInitializeWdfDeviceInit
 req.header: udecxwdfdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -41,7 +42,9 @@ api_name:
  - UdecxInitializeWdfDeviceInit
 ---
 
-# UdecxInitializeWdfDeviceInit function
+# UdecxInitializeWdfDeviceInit function (udecxwdfdevice.h)
+
+
 
 
 ## -description

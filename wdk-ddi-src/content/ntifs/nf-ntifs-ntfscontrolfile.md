@@ -5,6 +5,7 @@ description: Learn more about the NtFsControlFile routine.
 tech.root: kernel
 ms.date: 01/07/2025
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -37,7 +38,9 @@ api_name:
  - NtFsControlFile
 ---
 
-# NtFsControlFile function
+# NtFsControlFile function (ntifs.h)
+
+
 
 ## -description
 

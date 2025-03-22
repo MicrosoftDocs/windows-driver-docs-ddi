@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlUnicodeStringToCountedOemString function"]
 ms.keywords: RtlUnicodeStringToCountedOemString, RtlUnicodeStringToCountedOemString routine [Installable File System Drivers], ifsk.rtlunicodestringtocountedoemstring, ntifs/RtlUnicodeStringToCountedOemString, rtlref_dbc62228-043f-43f1-bd19-464adf37b693.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUnicodeStringToCountedOemString
 ---
 
-# RtlUnicodeStringToCountedOemString function
+# RtlUnicodeStringToCountedOemString function (ntifs.h)
+
+
 
 
 ## -description

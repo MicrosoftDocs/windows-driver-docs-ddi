@@ -6,6 +6,7 @@ ms.date: 07/26/2023
 keywords: ["TypeKind enumeration"]
 ms.keywords: TypeKind, ,
 req.header: dbgmodel.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -31,7 +32,9 @@ api_name:
  - TypeKind
 ---
 
-# TypeKind enumeration
+# TypeKind enumeration (dbgmodel.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 03/01/2022
 keywords: ["D3DKMTSetVidPnSourceOwner2 function"]
 ms.keywords: D3DKMTSetVidPnSourceOwner2, D3DKMTSetVidPnSourceOwner2 method [Display Devices], d3dkmthk/D3DKMTSetVidPnSourceOwner2, display.d3dkmtsetvidpnsourceowner2
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTSetVidPnSourceOwner2
 ---
 
-# D3DKMTSetVidPnSourceOwner2 function
+# D3DKMTSetVidPnSourceOwner2 function (d3dkmthk.h)
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 08/11/2022
 keywords: ["OEMTTYGetInfo function"]
 ms.keywords: OEMTTYGetInfo, OEMTTYGetInfo function [Print Devices], print.oemttygetinfo, print_obsoletefunctions_7da21ed3-626e-454f-9357-0ab0a0640a27.xml, printoem/OEMTTYGetInfo
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMTTYGetInfo
 ---
+
+# OEMTTYGetInfo function (printoem.h)
 
 ## -description
 

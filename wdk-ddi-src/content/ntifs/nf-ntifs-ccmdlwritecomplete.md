@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcMdlWriteComplete function"]
 ms.keywords: CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers], ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - CcMdlWriteComplete
 ---
 
-# CcMdlWriteComplete function
+# CcMdlWriteComplete function (ntifs.h)
+
+
 
 
 ## -description

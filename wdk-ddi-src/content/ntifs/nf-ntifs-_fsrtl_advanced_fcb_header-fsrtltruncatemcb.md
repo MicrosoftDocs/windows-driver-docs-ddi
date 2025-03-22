@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlTruncateMcb function"]
 ms.keywords: FsRtlTruncateMcb, FsRtlTruncateMcb function [Installable File System Drivers], fsrtlref_31bb51fe-e571-4bae-af8f-4c2b4413fa29.xml, ifsk.fsrtltruncatemcb, ntifs/FsRtlTruncateMcb
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlTruncateMcb function
+# FsRtlTruncateMcb function (ntifs.h)
+
+
 
 
 ## -description

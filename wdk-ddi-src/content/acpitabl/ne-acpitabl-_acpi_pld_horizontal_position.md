@@ -6,6 +6,7 @@ ms.date: 11/19/2020
 keywords: ["ACPI_PLD_HORIZONTAL_POSITION enumeration"]
 ms.keywords: _ACPI_PLD_HORIZONTAL_POSITION, ACPI_PLD_HORIZONTAL_POSITION, *PACPI_PLD_HORIZONTAL_POSITION, AcpiPldHPos
 req.header: acpitabl.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -36,7 +37,9 @@ api_name:
  - ACPI_PLD_HORIZONTAL_POSITION
 ---
 
-# _ACPI_PLD_HORIZONTAL_POSITION enumeration
+# ACPI_PLD_HORIZONTAL_POSITION enumeration (acpitabl.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/18/2022
 keywords: ["IStillImageW::SetupDeviceParameters"]
 ms.keywords: IStillImageW interface [Imaging Devices],SetupDeviceParameters method, IStillImageW.SetupDeviceParameters, IStillImageW::SetupDeviceParameters, SetupDeviceParameters, SetupDeviceParameters method [Imaging Devices], SetupDeviceParameters method [Imaging Devices],IStillImageW interface, image.istillimage_setupdeviceparameters, sti/IStillImageW::SetupDeviceParameters, stifnc_08d945b1-ff61-4018-ae0b-5b134fc4f112.xml
 req.header: sti.h
+req.construct-type: function
 req.include-header: Sti.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStillImageW::SetupDeviceParameters
 ---
+
+# IStillImageW::SetupDeviceParameters function (sti.h)
 
 ## -description
 

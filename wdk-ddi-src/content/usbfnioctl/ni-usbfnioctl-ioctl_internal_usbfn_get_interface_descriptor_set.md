@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET IOCTL"]
 ms.keywords: IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control, IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET control code [Buses], buses.ioctl_internal_usbfn_get_interface_descriptor_set_, usbfnioctl/IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
 req.header: usbfnioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET
 ---
 
-# IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET IOCTL
+# IOCTL_INTERNAL_USBFN_GET_INTERFACE_DESCRIPTOR_SET IOCTL (usbfnioctl.h)
+
+
+
+
 
 
 ## -description

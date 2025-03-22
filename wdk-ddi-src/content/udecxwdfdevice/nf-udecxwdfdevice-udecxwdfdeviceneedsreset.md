@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UdecxWdfDeviceNeedsReset function"]
 ms.keywords: UdecxWdfDeviceNeedsReset
 req.header: udecxwdfdevice.h
+req.construct-type: function
 req.include-header: Udecx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - UdecxWdfDeviceNeedsReset
 ---
 
-# UdecxWdfDeviceNeedsReset function
+# UdecxWdfDeviceNeedsReset function (udecxwdfdevice.h)
+
+
 
 
 ## -description

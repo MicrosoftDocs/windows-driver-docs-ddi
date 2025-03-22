@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInsertAsRightChild function"]
 ms.keywords: RtlInsertAsRightChild, RtlInsertAsRightChild routine [Installable File System Drivers], ifsk.rtlinsertasrightchild, ntddk/RtlInsertAsRightChild, rtlref_e16d0af2-9299-4fda-96ad-75a39f3e505f.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlInsertAsRightChild
 ---
 
-# RtlInsertAsRightChild function
+# RtlInsertAsRightChild function (ntddk.h)
+
+
 
 
 ## -description

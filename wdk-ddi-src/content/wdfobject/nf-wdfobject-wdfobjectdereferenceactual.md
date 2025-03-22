@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfObjectDereferenceActual function"]
 ms.keywords: DFGenObjectRef_d09786da-bccf-4735-bd7b-816bf2bd999d.xml, WdfObjectDereferenceActual, WdfObjectDereferenceActual method, kmdf.wdfobjectdereferenceactual, wdf.wdfobjectdereferenceactual, wdfobject/WdfObjectDereferenceActual
 req.header: wdfobject.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfObjectDereferenceActual
 ---
 
-# WdfObjectDereferenceActual function
+# WdfObjectDereferenceActual function (wdfobject.h)
+
+
 
 
 ## -description

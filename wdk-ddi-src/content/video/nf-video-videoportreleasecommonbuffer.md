@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortReleaseCommonBuffer function"]
 ms.keywords: VideoPortReleaseCommonBuffer, VideoPortReleaseCommonBuffer function [Display Devices], VideoPort_Functions_78edd589-bea5-43e3-8658-8c6c95a1f0f7.xml, display.videoportreleasecommonbuffer, video/VideoPortReleaseCommonBuffer
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h, Ntdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortReleaseCommonBuffer
 ---
 
-# VideoPortReleaseCommonBuffer function
+# VideoPortReleaseCommonBuffer function (video.h)
+
+
 
 
 ## -description

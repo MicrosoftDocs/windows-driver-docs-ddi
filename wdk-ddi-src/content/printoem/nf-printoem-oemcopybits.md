@@ -7,6 +7,7 @@ ms.date: 08/08/2022
 keywords: ["OEMCopyBits function"]
 ms.keywords: OEMCopyBits, OEMCopyBits function [Print Devices], print.oemcopybits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, printoem/OEMCopyBits
 req.header: printoem.h
+req.construct-type: function
 req.include-header: Printoem.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - OEMCopyBits
 ---
+
+# OEMCopyBits function (printoem.h)
 
 ## -description
 

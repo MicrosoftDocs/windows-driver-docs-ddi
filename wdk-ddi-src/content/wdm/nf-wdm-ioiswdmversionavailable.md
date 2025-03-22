@@ -7,6 +7,7 @@ ms.date: 01/12/2023
 keywords: ["IoIsWdmVersionAvailable function"]
 ms.keywords: IoIsWdmVersionAvailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, kernel.ioiswdmversionavailable, wdm/IoIsWdmVersionAvailable
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IoIsWdmVersionAvailable
 ---
+
+# IoIsWdmVersionAvailable function (wdm.h)
 
 ## -description
 

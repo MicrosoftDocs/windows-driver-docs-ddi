@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UfxEndpointInitSetEventCallbacks function"]
 ms.keywords: UfxEndpointInitSetEventCallbacks, UfxEndpointInitSetEventCallbacks method [Buses], buses.ufxendpointinitseteventcallbacks, ufxclient/UfxEndpointInitSetEventCallbacks
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UfxEndpointInitSetEventCallbacks
 ---
 
-# UfxEndpointInitSetEventCallbacks function
+# UfxEndpointInitSetEventCallbacks function (ufxclient.h)
+
+
 
 
 ## -description

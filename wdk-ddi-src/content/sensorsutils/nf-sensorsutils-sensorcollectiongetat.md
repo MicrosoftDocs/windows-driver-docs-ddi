@@ -7,6 +7,7 @@ keywords: ["SensorCollectionGetAt function"]
 tech.root: sensors
 ms.keywords: SensorCollectionGetAt
 req.header: sensorsutils.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - SensorCollectionGetAt
 ---
 
-# SensorCollectionGetAt function
+# SensorCollectionGetAt function (sensorsutils.h)
+
+
 
 
 ## -description

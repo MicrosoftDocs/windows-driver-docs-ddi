@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["AtaPortRegistryFreeBuffer function"]
 ms.keywords: AtaPortRegistryFreeBuffer, AtaPortRegistryFreeBuffer routine [Storage Devices], atartns_70807844-dbef-4457-bd47-102aeffcc840.xml, irb/AtaPortRegistryFreeBuffer, storage.ataportregistryfreebuffer
 req.header: irb.h
+req.construct-type: function
 req.include-header: Ata.h, Irb.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - AtaPortRegistryFreeBuffer
 ---
 
-# AtaPortRegistryFreeBuffer function
+# AtaPortRegistryFreeBuffer function (irb.h)
+
+
 
 
 ## -description

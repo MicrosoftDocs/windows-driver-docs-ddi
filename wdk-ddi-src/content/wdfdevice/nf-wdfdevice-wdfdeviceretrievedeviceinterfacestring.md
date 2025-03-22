@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceRetrieveDeviceInterfaceString function"]
 ms.keywords: DFDeviceObjectGeneralRef_a7f98bd1-23e0-4461-9a6c-481b8e10ba63.xml, WdfDeviceRetrieveDeviceInterfaceString, WdfDeviceRetrieveDeviceInterfaceString method, kmdf.wdfdeviceretrievedeviceinterfacestring, wdf.wdfdeviceretrievedeviceinterfacestring, wdfdevice/WdfDeviceRetrieveDeviceInterfaceString
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceRetrieveDeviceInterfaceString
 ---
 
-# WdfDeviceRetrieveDeviceInterfaceString function
+# WdfDeviceRetrieveDeviceInterfaceString function (wdfdevice.h)
+
+
 
 
 ## -description

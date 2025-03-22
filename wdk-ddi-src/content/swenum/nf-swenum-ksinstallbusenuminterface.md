@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsInstallBusEnumInterface function"]
 ms.keywords: KsInstallBusEnumInterface, KsInstallBusEnumInterface function [Streaming Media Devices], ksfunc_6c26cb96-610b-4030-9f9b-ef878fdfe086.xml, stream.ksinstallbusenuminterface, swenum/KsInstallBusEnumInterface
 req.header: swenum.h
+req.construct-type: function
 req.include-header: Swenum.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsInstallBusEnumInterface
 ---
 
-# KsInstallBusEnumInterface function
+# KsInstallBusEnumInterface function (swenum.h)
+
+
 
 
 ## -description

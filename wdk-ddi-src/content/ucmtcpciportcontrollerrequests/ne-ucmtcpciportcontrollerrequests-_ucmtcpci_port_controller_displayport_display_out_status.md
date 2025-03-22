@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration"]
 ms.keywords: UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration [Buses], UcmTcpciPortControllerDisplayOutStatusOff, UcmTcpciPortControllerDisplayOutStatusOn, _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, buses._ucmtcpci_port_controller_displayport_display_out_status, ucmtcpciportcontrollerrequests/UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOff, ucmtcpciportcontrollerrequests/UcmTcpciPortControllerDisplayOutStatusOn
 req.header: ucmtcpciportcontrollerrequests.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10, version 1709
@@ -43,7 +44,9 @@ api_name:
  - UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS
 ---
 
-# _UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration
+# UCMTCPCI_PORT_CONTROLLER_DISPLAYPORT_DISPLAY_OUT_STATUS enumeration (ucmtcpciportcontrollerrequests.h)
+
+
 
 
 ## -description

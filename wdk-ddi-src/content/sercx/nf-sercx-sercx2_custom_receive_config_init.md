@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function"]
 ms.keywords: 2/SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT, SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function [Serial Ports], serports.sercx2_custom_receive_config_init
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SERCX2_CUSTOM_RECEIVE_CONFIG_INIT
 ---
 
-# SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function
+# SERCX2_CUSTOM_RECEIVE_CONFIG_INIT function (sercx.h)
+
+
 
 
 ## -description

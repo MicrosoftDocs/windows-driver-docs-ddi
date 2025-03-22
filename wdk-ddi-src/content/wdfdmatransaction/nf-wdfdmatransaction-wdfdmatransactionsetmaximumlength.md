@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionSetMaximumLength function"]
 ms.keywords: DFDmaObjectRef_966c396e-c161-46d6-856e-9bc9aa30c610.xml, WdfDmaTransactionSetMaximumLength, WdfDmaTransactionSetMaximumLength method, kmdf.wdfdmatransactionsetmaximumlength, wdf.wdfdmatransactionsetmaximumlength, wdfdmatransaction/WdfDmaTransactionSetMaximumLength
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionSetMaximumLength
 ---
 
-# WdfDmaTransactionSetMaximumLength function
+# WdfDmaTransactionSetMaximumLength function (wdfdmatransaction.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration"]
 ms.keywords: D3DDDI_MULTIPLANE_OVERLAY_BLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, _D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, d3dumddi/D3DDDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, display.d3dddi_multiplane_overlay_blend
 req.header: d3dumddi.h
+req.construct-type: enumeration
 req.include-header: D3dumddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8.1
@@ -43,7 +44,9 @@ api_name:
  - D3DDDI_MULTIPLANE_OVERLAY_BLEND
 ---
 
-# _D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration
+# D3DDDI_MULTIPLANE_OVERLAY_BLEND enumeration (d3dumddi.h)
+
+
 
 
 ## -description

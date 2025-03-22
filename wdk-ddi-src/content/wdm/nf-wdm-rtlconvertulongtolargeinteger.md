@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlConvertUlongToLargeInteger function"]
 ms.keywords: RtlConvertUlongToLargeInteger, RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml, kernel.rtlconvertulongtolargeinteger, wdm/RtlConvertUlongToLargeInteger
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlConvertUlongToLargeInteger
 ---
 
-# RtlConvertUlongToLargeInteger function
+# RtlConvertUlongToLargeInteger function (wdm.h)
+
+
 
 
 ## -description

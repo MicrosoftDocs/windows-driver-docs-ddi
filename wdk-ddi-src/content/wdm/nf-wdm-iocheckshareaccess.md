@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoCheckShareAccess function"]
 ms.keywords: IoCheckShareAccess, IoCheckShareAccess routine [Kernel-Mode Driver Architecture], k104_0411033a-da5d-4803-a970-f6e7289a6200.xml, kernel.iocheckshareaccess, wdm/IoCheckShareAccess
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - IoCheckShareAccess
 ---
 
-# IoCheckShareAccess function
+# IoCheckShareAccess function (wdm.h)
+
+
 
 
 ## -description

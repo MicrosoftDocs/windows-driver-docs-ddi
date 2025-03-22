@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL"]
 ms.keywords: IOCTL_BIOMETRIC_CAPTURE_DATA, IOCTL_BIOMETRIC_CAPTURE_DATA control, IOCTL_BIOMETRIC_CAPTURE_DATA control code [Biometric Devices], biometric.ioctl_biometric_capture_data, biometric_ref_8337ca76-e92a-4efe-a73f-3f23c01f35c2.xml, winbio_ioctl/IOCTL_BIOMETRIC_CAPTURE_DATA
 req.header: winbio_ioctl.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_BIOMETRIC_CAPTURE_DATA
 ---
 
-# IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL
+# IOCTL_BIOMETRIC_CAPTURE_DATA IOCTL (winbio_ioctl.h)
+
+
+
+
 
 
 ## -description

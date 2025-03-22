@@ -8,6 +8,7 @@ ms.date: 10/28/2021
 keywords: ["ExGetPreviousMode function"]
 ms.keywords: ExGetPreviousMode, ExGetPreviousMode routine [Kernel-Mode Driver Architecture], k102_080fbfa6-6261-453d-a2c7-e08818d34b6f.xml, kernel.exgetpreviousmode, wdm/ExGetPreviousMode
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExGetPreviousMode
 ---
 
-# ExGetPreviousMode function
+# ExGetPreviousMode function (wdm.h)
+
+
 
 
 ## -description

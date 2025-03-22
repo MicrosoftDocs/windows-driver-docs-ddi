@@ -6,6 +6,7 @@ ms.date: 07/11/2023
 keywords: ["SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration"]
 ms.keywords: _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID, SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID,
 req.header: sidebandaudio.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID
 ---
 
-# _SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration
+# SIDEBANDAUDIO_PARAMS_MSFT_TYPE_ID enumeration (sidebandaudio.h)
+
+
 
 ## -description
 

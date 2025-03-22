@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["WdmlibIoConnectInterruptEx function"]
 ms.keywords: IoConnectInterruptEx, WdmlibIoConnectInterruptEx, WdmlibIoConnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/IoConnectInterruptEx, iointex/WdmlibIoConnectInterruptEx, kernel.wdmlibioconnectinterruptex
 req.header: iointex.h
+req.construct-type: function
 req.include-header: Iointex.h, Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available on Windows Vista and later versions of the Windows operating system. Drivers that must also work on Windows 2000, Windows XP, or Windows Server 2003 can instead link to Iointex.lib to use the routine.
@@ -40,7 +41,9 @@ api_name:
  - WdmlibIoConnectInterruptEx
 ---
 
-# WdmlibIoConnectInterruptEx function
+# WdmlibIoConnectInterruptEx function (iointex.h)
+
+
 
 
 ## -description

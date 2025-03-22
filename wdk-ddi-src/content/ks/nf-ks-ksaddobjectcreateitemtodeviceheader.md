@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAddObjectCreateItemToDeviceHeader function"]
 ms.keywords: KsAddObjectCreateItemToDeviceHeader, KsAddObjectCreateItemToDeviceHeader function [Streaming Media Devices], ks/KsAddObjectCreateItemToDeviceHeader, ksfunc_89d7ee34-62de-4702-9cfa-5e3b6c9a9819.xml, stream.ksaddobjectcreateitemtodeviceheader
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsAddObjectCreateItemToDeviceHeader
 ---
 
-# KsAddObjectCreateItemToDeviceHeader function
+# KsAddObjectCreateItemToDeviceHeader function (ks.h)
+
+
 
 
 ## -description

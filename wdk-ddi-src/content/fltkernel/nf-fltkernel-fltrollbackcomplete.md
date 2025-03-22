@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltRollbackComplete function"]
 ms.keywords: FltApiRef_p_to_z_5a4ebf97-8580-437d-b34d-e873bad7161b.xml, FltRollbackComplete, FltRollbackComplete routine [Installable File System Drivers], fltkernel/FltRollbackComplete, ifsk.fltrollbackcomplete
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is available on Windows Vista and later.
@@ -40,7 +41,9 @@ api_name:
  - FltRollbackComplete
 ---
 
-# FltRollbackComplete function
+# FltRollbackComplete function (fltkernel.h)
+
+
 
 
 ## -description

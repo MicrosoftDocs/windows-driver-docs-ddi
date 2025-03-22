@@ -8,6 +8,7 @@ ms.date: 08/05/2020
 keywords: ["DXGK_SURPRISE_REMOVAL_TYPE enumeration"]
 ms.keywords: DXGK_SURPRISE_REMOVAL_TYPE, DXGK_SURPRISE_REMOVAL_TYPE enumeration [Display Devices], DxgkRemovalHibernation, _DXGK_SURPRISE_REMOVAL_TYPE, display.dxgk_surprise_removal_type, dispmprt/DXGK_SURPRISE_REMOVAL_TYPE, dispmprt/DxgkRemovalHibernation
 req.header: dispmprt.h
+req.construct-type: enumeration
 req.include-header: Dispmprt.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -43,7 +44,9 @@ api_name:
  - DXGK_SURPRISE_REMOVAL_TYPE
 ---
 
-# _DXGK_SURPRISE_REMOVAL_TYPE enumeration
+# DXGK_SURPRISE_REMOVAL_TYPE enumeration (dispmprt.h)
+
+
 
 
 ## -description

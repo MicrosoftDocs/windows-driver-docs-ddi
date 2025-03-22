@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["GNSS_NI_USER_RESPONSE enumeration"]
 ms.keywords: GNSS_NI_USER_RESPONSE, GNSS_NI_USER_RESPONSE enumeration [Sensor Devices], GNSS_Ni_UserResponseAccept, GNSS_Ni_UserResponseDeny, GNSS_Ni_UserResponseTimeout, gnss.gnss_ni_user_response, gnssdriver/GNSS_NI_USER_RESPONSE, gnssdriver/GNSS_Ni_UserResponseAccept, gnssdriver/GNSS_Ni_UserResponseDeny, gnssdriver/GNSS_Ni_UserResponseTimeout
 req.header: gnssdriver.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GNSS_NI_USER_RESPONSE
 ---
 
-# GNSS_NI_USER_RESPONSE enumeration
+# GNSS_NI_USER_RESPONSE enumeration (gnssdriver.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FsRtlCompleteRequest macro"]
 ms.keywords: FsRtlCompleteRequest, FsRtlCompleteRequest function [Installable File System Drivers], fsrtlref_ae47bec7-1534-4ace-a29b-d5b6a5da292c.xml, ifsk.fsrtlcompleterequest, ntifs/FsRtlCompleteRequest
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - FsRtlCompleteRequest
 ---
 
-# FsRtlCompleteRequest macro
+# FsRtlCompleteRequest macro (ntifs.h)
+
+
+
+
 
 
 ## -description

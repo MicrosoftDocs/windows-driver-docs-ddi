@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGeneratePartialCancelId function"]
 ms.keywords: NdisGeneratePartialCancelId, NdisGeneratePartialCancelId function [Network Drivers Starting with Windows Vista], ndis/NdisGeneratePartialCancelId, netvista.ndisgeneratepartialcancelid, protocol_ndis_functions_ref_0d6b9e5a-d346-46a0-8f1c-d6677df53f1c.xml
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisGeneratePartialCancelId   (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see    NdisGeneratePartialCancelId   (NDIS 5.1)) in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisGeneratePartialCancelId
 ---
 
-# NdisGeneratePartialCancelId function
+# NdisGeneratePartialCancelId function (ndis.h)
+
+
 
 
 ## -description

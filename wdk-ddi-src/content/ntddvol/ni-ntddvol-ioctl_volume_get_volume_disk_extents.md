@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL"]
 ms.keywords: IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control, IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS control code [Storage Devices], k307_8f02f744-6892-4e3f-9b23-158370e6a1e9.xml, ntddvol/IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS, storage.ioctl_volume_get_volume_disk_extents
 req.header: ntddvol.h
+req.construct-type: ioctl
 req.include-header: Ntddvol.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Microsoft Windows 2000 for volumes on fixed disks, but not for volumes on removable media. Available for use with removable media in Microsoft Windows 2000 SP4 and Windows XP SP1.
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS
 ---
 
-# IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL
+# IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS IOCTL (ntddvol.h)
+
+
+
+
 
 
 ## -description

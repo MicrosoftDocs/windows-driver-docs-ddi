@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcAddContentHandlers function"]
 ms.keywords: PcAddContentHandlers, PcAddContentHandlers function [Audio Devices], audio.pcaddcontenthandlers, audpc-routines_11505f52-36d9-4b58-b1f8-44083705f9b5.xml, portcls/PcAddContentHandlers
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting in Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - PcAddContentHandlers
 ---
 
-# PcAddContentHandlers function
+# PcAddContentHandlers function (portcls.h)
+
+
 
 
 ## -description

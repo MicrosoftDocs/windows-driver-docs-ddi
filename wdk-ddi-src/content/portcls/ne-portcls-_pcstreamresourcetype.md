@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcStreamResourceType enumeration"]
 ms.keywords: "*PPcStreamResourceType, PcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType,*PPcStreamResourceType, PcStreamResourceType,*PPcStreamResourceType enumeration [Audio Devices], _PcStreamResourceType, audio.pcstreamresourcetype, ePcStreamResourceInterrupt, ePcStreamResourceSet, ePcStreamResourceThread, portcls/PcStreamResourceType, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceSet, portcls/ePcStreamResourceThread"
 req.header: portcls.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - PcStreamResourceType
 ---
 
-# _PcStreamResourceType enumeration
+# PcStreamResourceType enumeration (portcls.h)
+
+
 
 
 ## -description

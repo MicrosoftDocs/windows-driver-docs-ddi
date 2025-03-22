@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMSetBusData function"]
 ms.keywords: NdisMSetBusData, NdisMSetBusData function [Network Drivers Starting with Windows Vista], hardware_configuration_ref_4fd9608c-60b9-4a86-9aa3-02d6ec17da92.xml, ndis/NdisMSetBusData, netvista.ndismsetbusdata
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.0 and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisMSetBusData
 ---
 
-# NdisMSetBusData function
+# NdisMSetBusData function (ndis.h)
+
+
 
 
 ## -description

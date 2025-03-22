@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlUnicodeToOemN function"]
 ms.keywords: RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers], ifsk.rtlunicodetooemn, ntifs/RtlUnicodeToOemN, rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RtlUnicodeToOemN
 ---
 
-# RtlUnicodeToOemN function
+# RtlUnicodeToOemN function (ntifs.h)
+
+
 
 
 ## -description

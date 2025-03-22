@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwQuerySecurityObject function"]
 ms.keywords: NtQuerySecurityObject, ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - ZwQuerySecurityObject
 ---
 
-# ZwQuerySecurityObject function
+# ZwQuerySecurityObject function (ntifs.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsMgmtDeregisterManagedClient function"]
 ms.keywords: ClfsMgmtDeregisterManagedClient, ClfsMgmtDeregisterManagedClient routine [Kernel-Mode Driver Architecture], Clfs_management_6a802f4a-8157-42c8-8eda-740a1207714a.xml, kernel.clfsmgmtderegistermanagedclient, wdm/ClfsMgmtDeregisterManagedClient
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsMgmtDeregisterManagedClient
 ---
 
-# ClfsMgmtDeregisterManagedClient function
+# ClfsMgmtDeregisterManagedClient function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGateTurnInputOff function"]
 ms.keywords: KsGateTurnInputOff, KsGateTurnInputOff function [Streaming Media Devices], avfunc_ba116904-80e2-4288-a8d1-d03c0194ef51.xml, ks/KsGateTurnInputOff, stream.ksgateturninputoff
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -40,7 +41,9 @@ api_name:
  - KsGateTurnInputOff
 ---
 
-# KsGateTurnInputOff function
+# KsGateTurnInputOff function (ks.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["UMDEtwLogMapAllocation function"]
 ms.keywords: UMDEtwLogMapAllocation, UMDEtwLogMapAllocation function [Display Devices], display.umdetwlogmapallocation, umdprovider/UMDEtwLogMapAllocation
 req.header: umdprovider.h
+req.construct-type: function
 req.include-header: Umdprovider.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - UMDEtwLogMapAllocation
 ---
 
-# UMDEtwLogMapAllocation function
+# UMDEtwLogMapAllocation function (umdprovider.h)
+
+
 
 
 ## -description

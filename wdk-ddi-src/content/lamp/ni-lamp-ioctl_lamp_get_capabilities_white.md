@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_LAMP_GET_CAPABILITIES_WHITE IOCTL"]
 ms.keywords: IOCTL_LAMP_GET_CAPABILITIES_WHITE, IOCTL_LAMP_GET_CAPABILITIES_WHITE control, IOCTL_LAMP_GET_CAPABILITIES_WHITE control code [Streaming Media Devices], lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE, stream.ioctl_lamp_get_capabilities_white
 req.header: lamp.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_LAMP_GET_CAPABILITIES_WHITE
 ---
 
-# IOCTL_LAMP_GET_CAPABILITIES_WHITE IOCTL
+# IOCTL_LAMP_GET_CAPABILITIES_WHITE IOCTL (lamp.h)
+
+
+
+
 
 
 ## -description

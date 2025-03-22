@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisFSynchronousOidRequest function"]
 ms.keywords: NdisFSynchronousOidRequest, NdisFSynchronousOidRequest function [Network Drivers Starting with Windows Vista], ndis/NdisFSynchronousOidRequest, netvista.ndisfsynchronousoidrequest
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1709
@@ -41,7 +42,9 @@ api_name:
  - NdisFSynchronousOidRequest
 ---
 
-# NdisFSynchronousOidRequest function
+# NdisFSynchronousOidRequest function (ndis.h)
+
+
 
 
 ## -description

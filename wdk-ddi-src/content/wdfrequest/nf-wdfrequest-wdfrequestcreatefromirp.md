@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestCreateFromIrp function"]
 ms.keywords: DFRequestObjectRef_fb959453-1aab-4e2d-8877-356ce04b5784.xml, WdfRequestCreateFromIrp, WdfRequestCreateFromIrp method, kmdf.wdfrequestcreatefromirp, wdf.wdfrequestcreatefromirp, wdfrequest/WdfRequestCreateFromIrp
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfRequestCreateFromIrp
 ---
 
-# WdfRequestCreateFromIrp function
+# WdfRequestCreateFromIrp function (wdfrequest.h)
+
+
 
 
 ## -description

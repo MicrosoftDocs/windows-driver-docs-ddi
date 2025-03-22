@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBD_PIPE_TYPE enumeration"]
 ms.keywords: USBD_PIPE_TYPE, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeBulk, UsbdPipeTypeControl, UsbdPipeTypeInterrupt, UsbdPipeTypeIsochronous, _USBD_PIPE_TYPE, buses.usbd_pipe_type, usb/USBD_PIPE_TYPE, usb/UsbdPipeTypeBulk, usb/UsbdPipeTypeControl, usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeIsochronous, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml
 req.header: usb.h
+req.construct-type: enumeration
 req.include-header: Usb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - USBD_PIPE_TYPE
 ---
 
-# _USBD_PIPE_TYPE enumeration
+# USBD_PIPE_TYPE enumeration (usb.h)
+
+
 
 
 ## -description

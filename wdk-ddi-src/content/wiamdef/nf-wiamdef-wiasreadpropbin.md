@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["wiasReadPropBin function"]
 ms.keywords: image.wiasreadpropbin, wiamdef/wiasReadPropBin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiasReadPropBin, wiasReadPropBin function [Imaging Devices]
 req.header: wiamdef.h
+req.construct-type: function
 req.include-header: Wiamdef.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - wiasReadPropBin
 ---
 
-# wiasReadPropBin function
+# wiasReadPropBin function (wiamdef.h)
+
+
 
 
 ## -description

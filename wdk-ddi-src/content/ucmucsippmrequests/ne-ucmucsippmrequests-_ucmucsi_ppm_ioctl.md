@@ -7,6 +7,7 @@ ms.date: 09/30/2018
 keywords: ["UCMUCSI_PPM_IOCTL enumeration"]
 ms.keywords: _UCMUCSI_PPM_IOCTL, UCMUCSI_PPM_IOCTL,
 req.header: ucmucsippmrequests.h
+req.construct-type: enumeration
 req.include-header: UcmUcsiCx.h
 req.target-type: 
 req.target-min-winverclnt: 
@@ -34,7 +35,9 @@ api_name:
  - UCMUCSI_PPM_IOCTL
 ---
 
-# _UCMUCSI_PPM_IOCTL enumeration
+# UCMUCSI_PPM_IOCTL enumeration (ucmucsippmrequests.h)
+
+
 
 
 ## -description

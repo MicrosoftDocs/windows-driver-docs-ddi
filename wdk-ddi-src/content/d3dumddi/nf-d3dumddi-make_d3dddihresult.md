@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["MAKE_D3DDDIHRESULT macro"]
 ms.keywords: MAKE_D3DDDIHRESULT
 req.header: d3dumddi.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# MAKE_D3DDDIHRESULT macro
+# MAKE_D3DDDIHRESULT macro (d3dumddi.h)
+
+
+
+
 
 
 ## -description

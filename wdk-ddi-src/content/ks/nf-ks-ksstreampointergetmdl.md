@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerGetMdl function"]
 ms.keywords: KsStreamPointerGetMdl, KsStreamPointerGetMdl function [Streaming Media Devices], avfunc_94dcd1e0-4882-4703-b69a-9ca8b21d30a0.xml, ks/KsStreamPointerGetMdl, stream.ksstreampointergetmdl
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerGetMdl
 ---
 
-# KsStreamPointerGetMdl function
+# KsStreamPointerGetMdl function (ks.h)
+
+
 
 
 ## -description

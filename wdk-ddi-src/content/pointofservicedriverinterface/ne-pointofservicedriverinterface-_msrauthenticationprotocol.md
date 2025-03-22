@@ -7,6 +7,7 @@ ms.date: 01/03/2023
 keywords: ["MsrAuthenticationProtocol enumeration"]
 ms.keywords: MsrAuthenticationProtocol, MsrAuthenticationProtocol enumeration, MsrAuthenticationProtocolType, MsrAuthenticationProtocolType enumeration, MsrAuthenticationProtocolType_ChallengeResponse, MsrAuthenticationProtocolType_None, _MsrAuthenticationProtocol, pointofservicedriverinterface/MsrAuthenticationProtocolType, pointofservicedriverinterface/MsrAuthenticationProtocolType_ChallengeResponse, pointofservicedriverinterface/MsrAuthenticationProtocolType_None, pos.msrauthenticationprotocoltype
 req.header: pointofservicedriverinterface.h
+req.construct-type: enumeration
 req.include-header: Pointofservicedriverinterface.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -41,6 +42,8 @@ api_name:
  - _MsrAuthenticationProtocol
  - MsrAuthenticationProtocolType
 ---
+
+# MsrAuthenticationProtocolType enumeration (pointofservicedriverinterface.h)
 
 ## -description
 

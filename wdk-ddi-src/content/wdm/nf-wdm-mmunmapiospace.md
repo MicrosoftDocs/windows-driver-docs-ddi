@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["MmUnmapIoSpace function"]
 ms.keywords: MmUnmapIoSpace, MmUnmapIoSpace routine [Kernel-Mode Driver Architecture], k106_a56f91b1-7187-4836-a3d8-4b7d2918227a.xml, kernel.mmunmapiospace, wdm/MmUnmapIoSpace
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - MmUnmapIoSpace
 ---
 
-# MmUnmapIoSpace function
+# MmUnmapIoSpace function (wdm.h)
+
+
 
 
 ## -description

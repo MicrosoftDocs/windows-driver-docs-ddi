@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["AppendPrinterNotifyInfoData function"]
 ms.keywords: AppendPrinterNotifyInfoData, AppendPrinterNotifyInfoData function [Print Devices], print.appendprinternotifyinfodata, spoolfnc_cc8f6371-6dea-497e-92db-6cd9e26e7867.xml, winsplp/AppendPrinterNotifyInfoData
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: Winsplp.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - AppendPrinterNotifyInfoData
 ---
+
+# AppendPrinterNotifyInfoData function (winsplp.h)
 
 ## -description
 

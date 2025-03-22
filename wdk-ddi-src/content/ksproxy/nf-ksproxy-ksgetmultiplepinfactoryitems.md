@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetMultiplePinFactoryItems function"]
 ms.keywords: KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices], ksproxy/KsGetMultiplePinFactoryItems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, stream.ksgetmultiplepinfactoryitems
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - KsGetMultiplePinFactoryItems
 ---
 
-# KsGetMultiplePinFactoryItems function
+# KsGetMultiplePinFactoryItems function (ksproxy.h)
+
+
 
 
 ## -description

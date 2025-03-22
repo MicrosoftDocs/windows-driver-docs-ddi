@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["IsPtr64 function"]
 ms.keywords: IsPtr64, IsPtr64 function [Windows Debugging], WdbgExts_Ref_488f3445-c3ae-4847-8e3b-cf3892dcd365.xml, debugger.isptr64, wdbgexts/IsPtr64
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IsPtr64
 ---
 
-# IsPtr64 function
+# IsPtr64 function (wdbgexts.h)
+
+
 
 
 ## -description

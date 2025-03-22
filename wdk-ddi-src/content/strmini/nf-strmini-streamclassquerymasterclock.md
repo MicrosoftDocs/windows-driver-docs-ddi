@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassQueryMasterClock function"]
 ms.keywords: StreamClassQueryMasterClock, StreamClassQueryMasterClock routine [Streaming Media Devices], strclass-routines_2049b544-0e7a-4c12-801b-15d0a4a7ce6c.xml, stream.streamclassquerymasterclock, strmini/StreamClassQueryMasterClock
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StreamClassQueryMasterClock
 ---
 
-# StreamClassQueryMasterClock function
+# StreamClassQueryMasterClock function (strmini.h)
+
+
 
 
 ## -description

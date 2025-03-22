@@ -7,6 +7,7 @@ ms.date: 04/05/2019
 keywords: ["WWAN_5G_FREQUENCY_RANGE enumeration"]
 ms.keywords: _WWAN_5G_FREQUENCY_RANGE, WWAN_5G_FREQUENCY_RANGE, *PWWAN_5G_FREQUENCY_RANGE,
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: Windows 10, version 1903
@@ -37,7 +38,9 @@ api_name:
  - WWAN_5G_FREQUENCY_RANGE
 ---
 
-# _WWAN_5G_FREQUENCY_RANGE enumeration
+# WWAN_5G_FREQUENCY_RANGE enumeration (wwan.h)
+
+
 
 
 ## -description

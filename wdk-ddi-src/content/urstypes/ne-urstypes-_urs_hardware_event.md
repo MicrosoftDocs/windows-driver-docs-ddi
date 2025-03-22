@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["URS_HARDWARE_EVENT enumeration"]
 ms.keywords: "*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT, URS_HARDWARE_EVENT enumeration [Buses], URS_HARDWARE_EVENT,*PURS_HARDWARE_EVENT, URS_HARDWARE_EVENT,*PURS_HARDWARE_EVENT enumeration [Buses], UrsHardwareEventDetach, UrsHardwareEventIdFloat, UrsHardwareEventIdGround, UrsHardwareEventNone, UrsHardwareEventPortTypeDfp, UrsHardwareEventPortTypeUfp, _URS_HARDWARE_EVENT, buses.urs_hardware_event, urstypes/URS_HARDWARE_EVENT, urstypes/UrsHardwareEventDetach, urstypes/UrsHardwareEventIdFloat, urstypes/UrsHardwareEventIdGround, urstypes/UrsHardwareEventNone, urstypes/UrsHardwareEventPortTypeDfp, urstypes/UrsHardwareEventPortTypeUfp"
 req.header: urstypes.h
+req.construct-type: enumeration
 req.include-header: Urscx.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -46,7 +47,9 @@ api_name:
  - URS_HARDWARE_EVENT
 ---
 
-# _URS_HARDWARE_EVENT enumeration
+# URS_HARDWARE_EVENT enumeration (urstypes.h)
+
+
 
 
 ## -description

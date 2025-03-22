@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDriverMiniportUnload function"]
 ms.keywords: DFDriverObjectRef_aac24375-fae4-4310-b273-d3d2f4c13d69.xml, WdfDriverMiniportUnload, WdfDriverMiniportUnload method, kmdf.wdfdriverminiportunload, wdf.wdfdriverminiportunload, wdfminiport/WdfDriverMiniportUnload
 req.header: wdfminiport.h
+req.construct-type: function
 req.include-header: Wdfminiport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDriverMiniportUnload
 ---
 
-# WdfDriverMiniportUnload function
+# WdfDriverMiniportUnload function (wdfminiport.h)
+
+
 
 
 ## -description

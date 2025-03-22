@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration"]
 ms.keywords: DIDDT1_Dependent, DIDDT1_Monoscopic, DIDDT1_Stereo, DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, DmEnums_011fdd6c-ba90-40f7-ad26-d1fe075d21c3.xml, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration [Display Devices], d3dkmdt/DIDDT1_Dependent, d3dkmdt/DIDDT1_Monoscopic, d3dkmdt/DIDDT1_Stereo, d3dkmdt/_DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE, display.displayid_detailed_timing_type_i_stereo_mode
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header:
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -40,7 +41,9 @@ api_name:
  - _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE
 ---
 
-# _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration
+# _DISPLAYID_DETAILED_TIMING_TYPE_I_STEREO_MODE enumeration (d3dkmdt.h)
+
+
 
 
 ## -description

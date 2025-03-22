@@ -8,6 +8,7 @@ ms.date: 02/15/2018
 keywords: ["IOCTL_SMARTCARD_POWER IOCTL"]
 ms.keywords: IOCTL_SMARTCARD_POWER, IOCTL_SMARTCARD_POWER control, IOCTL_SMARTCARD_POWER control code [Near-Field Proximity Drivers], nfpdrivers.ioctl_smartcard_power, winsmcrd/IOCTL_SMARTCARD_POWER
 req.header: winsmcrd.h
+req.construct-type: ioctl
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SMARTCARD_POWER
 ---
 
-# IOCTL_SMARTCARD_POWER IOCTL
+# IOCTL_SMARTCARD_POWER IOCTL (winsmcrd.h)
+
+
+
+
 
 
 ## -description

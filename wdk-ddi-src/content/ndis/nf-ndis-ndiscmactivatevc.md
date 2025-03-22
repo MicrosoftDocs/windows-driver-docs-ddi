@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisCmActivateVc function"]
 ms.keywords: NdisCmActivateVc, NdisCmActivateVc function [Network Drivers Starting with Windows Vista], condis_call_manager_ref_425eba15-2cda-4e36-b88d-59978501ecbf.xml, ndis/NdisCmActivateVc, netvista.ndiscmactivatevc
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisCmActivateVc (NDIS 5.1)) in   Windows Vista. Supported for NDIS 5.1 drivers (see    NdisCmActivateVc (NDIS 5.1)) in   Windows XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisCmActivateVc
 ---
 
-# NdisCmActivateVc function
+# NdisCmActivateVc function (ndis.h)
+
+
 
 
 ## -description

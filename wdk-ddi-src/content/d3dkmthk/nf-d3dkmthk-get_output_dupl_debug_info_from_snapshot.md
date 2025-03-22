@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro"]
 ms.keywords: GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ dev_langs:
  - c++
 ---
 
-# GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro
+# GET_OUTPUT_DUPL_DEBUG_INFO_FROM_SNAPSHOT macro (d3dkmthk.h)
+
+
+
+
 
 
 ## -description

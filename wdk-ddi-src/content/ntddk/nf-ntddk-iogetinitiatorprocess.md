@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["IoGetInitiatorProcess function"]
 ms.keywords: IoGetInitiatorProcess, IoGetInitiatorProcess function [Kernel-Mode Driver Architecture], kernel.iogetinitiatorprocess, ntddk/IoGetInitiatorProcess
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoGetInitiatorProcess
 ---
 
-# IoGetInitiatorProcess function
+# IoGetInitiatorProcess function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestForwardToIoQueue function"]
 ms.keywords: DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, WdfRequestForwardToIoQueue, WdfRequestForwardToIoQueue method, kmdf.wdfrequestforwardtoioqueue, wdf.wdfrequestforwardtoioqueue, wdfrequest/WdfRequestForwardToIoQueue
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestForwardToIoQueue
 ---
 
-# WdfRequestForwardToIoQueue function
+# WdfRequestForwardToIoQueue function (wdfrequest.h)
+
+
 
 
 ## -description

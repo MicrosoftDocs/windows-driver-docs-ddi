@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsAllocateObjectBag function"]
 ms.keywords: KsAllocateObjectBag, KsAllocateObjectBag function [Streaming Media Devices], avfunc_a76be7a0-6dfa-4428-8317-4a8df31dec6e.xml, ks/KsAllocateObjectBag, stream.ksallocateobjectbag
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsAllocateObjectBag
 ---
 
-# KsAllocateObjectBag function
+# KsAllocateObjectBag function (ks.h)
+
+
 
 
 ## -description

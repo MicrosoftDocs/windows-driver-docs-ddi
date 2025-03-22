@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisInitializeNPagedLookasideList function"]
 ms.keywords: NdisInitializeNPagedLookasideList, NdisInitializeNPagedLookasideList function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeNPagedLookasideList, ndis_lookaside_ref_edf7a9cc-c6bc-405b-88bb-c27331c38069.xml, netvista.ndisinitializenpagedlookasidelist
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Desktop
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see       NdisInitializeNPagedLookasideList (NDIS 5.1)) in Windows Vista. Supported for NDIS 5.1 drivers (see         NdisInitializeNPagedLookasideList (NDIS 5.1)) in Windows XP.
@@ -40,7 +41,9 @@ api_name:
  - NdisInitializeNPagedLookasideList
 ---
 
-# NdisInitializeNPagedLookasideList function
+# NdisInitializeNPagedLookasideList function (ndis.h)
+
+
 
 
 ## -description

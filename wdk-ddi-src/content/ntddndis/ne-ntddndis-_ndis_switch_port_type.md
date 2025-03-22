@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_SWITCH_PORT_TYPE enumeration"]
 ms.keywords: NDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeEmulated, NdisSwitchPortTypeExternal, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeInternal, NdisSwitchPortTypeSynthetic, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeEmulated, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeSynthetic, ntddndis/PNDIS_SWITCH_PORT_TYPE
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -43,7 +44,9 @@ api_name:
  - NDIS_SWITCH_PORT_TYPE
 ---
 
-# _NDIS_SWITCH_PORT_TYPE enumeration
+# NDIS_SWITCH_PORT_TYPE enumeration (ntddndis.h)
+
+
 
 
 ## -description

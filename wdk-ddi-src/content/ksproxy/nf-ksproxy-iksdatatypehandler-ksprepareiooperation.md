@@ -7,6 +7,7 @@ ms.date: 03/07/2023
 keywords: ["IKsDataTypeHandler::KsPrepareIoOperation"]
 ms.keywords: IKsDataTypeHandler interface [Streaming Media Devices],KsPrepareIoOperation method, IKsDataTypeHandler.KsPrepareIoOperation, IKsDataTypeHandler::KsPrepareIoOperation, KsPrepareIoOperation, KsPrepareIoOperation method [Streaming Media Devices], KsPrepareIoOperation method [Streaming Media Devices],IKsDataTypeHandler interface, ksproxy/IKsDataTypeHandler::KsPrepareIoOperation, ksproxy_24b2f3a8-8870-434e-9f15-71fa363d3215.xml, stream.iksdatatypehandler_ksprepareiooperation
 req.header: ksproxy.h
+req.construct-type: function
 req.include-header: Ksproxy.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IKsDataTypeHandler::KsPrepareIoOperation
 ---
+
+# IKsDataTypeHandler::KsPrepareIoOperation function (ksproxy.h)
 
 ## -description
 

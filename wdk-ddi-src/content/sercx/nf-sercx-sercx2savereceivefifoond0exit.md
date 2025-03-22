@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["SerCx2SaveReceiveFifoOnD0Exit function"]
 ms.keywords: 2/SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit, SerCx2SaveReceiveFifoOnD0Exit method [Serial Ports], serports.sercx2savereceivefifoond0exit
 req.header: sercx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.1.
@@ -40,7 +41,9 @@ api_name:
  - SerCx2SaveReceiveFifoOnD0Exit
 ---
 
-# SerCx2SaveReceiveFifoOnD0Exit function
+# SerCx2SaveReceiveFifoOnD0Exit function (sercx.h)
+
+
 
 
 ## -description

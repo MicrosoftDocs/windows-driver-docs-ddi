@@ -8,6 +8,7 @@ ms.date: 05/08/2018
 keywords: ["PcRegisterSubdevice function"]
 ms.keywords: PcRegisterSubdevice, PcRegisterSubdevice function [Audio Devices], audio.pcregistersubdevice, audpc-routines_ba884bcc-8193-4434-9747-d2bce0156eb8.xml, portcls/PcRegisterSubdevice
 req.header: portcls.h
+req.construct-type: function
 req.include-header: Portcls.h
 req.target-type: Universal
 req.target-min-winverclnt: The PortCls system driver implements the PcRegisterSubdevice function in Microsoft Windows 98/Me and in Windows 2000 and later operating systems.
@@ -41,7 +42,9 @@ api_name:
  - PcRegisterSubdevice
 ---
 
-# PcRegisterSubdevice function
+# PcRegisterSubdevice function (portcls.h)
+
+
 
 
 ## -description

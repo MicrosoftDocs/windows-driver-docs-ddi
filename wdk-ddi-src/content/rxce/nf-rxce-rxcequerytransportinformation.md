@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxCeQueryTransportInformation function"]
 ms.keywords: RxCeQueryTransportInformation, RxCeQueryTransportInformation function [Installable File System Drivers], ifsk.rxcequerytransportinformation, rxce/RxCeQueryTransportInformation, rxref_db01b7e1-b0ea-4d42-99b8-c9b55fc34fb6.xml
 req.header: rxce.h
+req.construct-type: function
 req.include-header: Rxce.h, Rxcehdlr.h, Tdi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxCeQueryTransportInformation
 ---
 
-# RxCeQueryTransportInformation function
+# RxCeQueryTransportInformation function (rxce.h)
+
+
 
 
 ## -description

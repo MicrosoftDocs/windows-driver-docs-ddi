@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsStreamPointerGetIrp function"]
 ms.keywords: KsStreamPointerGetIrp, KsStreamPointerGetIrp function [Streaming Media Devices], avfunc_57ecd1af-c967-473c-b475-1d91bc42f2eb.xml, ks/KsStreamPointerGetIrp, stream.ksstreampointergetirp
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsStreamPointerGetIrp
 ---
 
-# KsStreamPointerGetIrp function
+# KsStreamPointerGetIrp function (ks.h)
+
+
 
 
 ## -description

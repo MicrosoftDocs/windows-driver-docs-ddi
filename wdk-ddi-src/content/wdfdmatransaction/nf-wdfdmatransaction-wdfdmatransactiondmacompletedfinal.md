@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionDmaCompletedFinal function"]
 ms.keywords: DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml, WdfDmaTransactionDmaCompletedFinal, WdfDmaTransactionDmaCompletedFinal method, kmdf.wdfdmatransactiondmacompletedfinal, wdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionDmaCompletedFinal
 ---
 
-# WdfDmaTransactionDmaCompletedFinal function
+# WdfDmaTransactionDmaCompletedFinal function (wdfdmatransaction.h)
+
+
 
 
 ## -description

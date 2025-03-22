@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_DVD_GET_REGION IOCTL"]
 ms.keywords: IOCTL_DVD_GET_REGION, IOCTL_DVD_GET_REGION control, IOCTL_DVD_GET_REGION control code [Storage Devices], k307_74494f73-c80e-4ca6-adec-03d4ca6d335e.xml, ntddcdvd/IOCTL_DVD_GET_REGION, storage.ioctl_dvd_get_region
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_DVD_GET_REGION
 ---
 
-# IOCTL_DVD_GET_REGION IOCTL
+# IOCTL_DVD_GET_REGION IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

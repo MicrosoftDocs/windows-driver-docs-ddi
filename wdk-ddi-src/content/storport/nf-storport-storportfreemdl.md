@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortFreeMdl function"]
 ms.keywords: StorPortFreeMdl, StorPortFreeMdl routine [Storage Devices], storage.storportfreemdl, storport/StorPortFreeMdl, storprt_c7f2c49d-a04e-428c-8c94-4ba20526a1fe.xml
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortFreeMdl
 ---
 
-# StorPortFreeMdl function
+# StorPortFreeMdl function (storport.h)
+
+
 
 
 ## -description

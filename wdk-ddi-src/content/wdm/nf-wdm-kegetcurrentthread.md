@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KeGetCurrentThread function"]
 ms.keywords: KeGetCurrentThread, KeGetCurrentThread routine [Kernel-Mode Driver Architecture], k105_fa2d3ae9-9ac8-4c50-bf51-5d6751a2b81e.xml, kernel.kegetcurrentthread, wdm/KeGetCurrentThread
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - KeGetCurrentThread
 ---
 
-# KeGetCurrentThread function
+# KeGetCurrentThread function (wdm.h)
+
+
 
 
 ## -description

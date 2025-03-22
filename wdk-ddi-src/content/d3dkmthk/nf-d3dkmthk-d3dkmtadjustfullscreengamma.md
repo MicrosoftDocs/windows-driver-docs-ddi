@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3DKMTAdjustFullscreenGamma function"]
 ms.keywords: D3DKMTAdjustFullscreenGamma
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ dev_langs:
  - c++
 ---
 
-# D3DKMTAdjustFullscreenGamma function
+# D3DKMTAdjustFullscreenGamma function (d3dkmthk.h)
+
+
 
 
 ## -description

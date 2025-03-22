@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlInsertElementGenericTableFullAvl function"]
 ms.keywords: RtlInsertElementGenericTableFullAvl, RtlInsertElementGenericTableFullAvl routine [Installable File System Drivers], ifsk.rtlinsertelementgenerictablefullavl, ntddk/RtlInsertElementGenericTableFullAvl, rtlref_425ca8ff-1fa8-4bdf-84ea-a8935cf0df59.xml
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - RtlInsertElementGenericTableFullAvl
 ---
 
-# RtlInsertElementGenericTableFullAvl function
+# RtlInsertElementGenericTableFullAvl function (ntddk.h)
+
+
 
 
 ## -description

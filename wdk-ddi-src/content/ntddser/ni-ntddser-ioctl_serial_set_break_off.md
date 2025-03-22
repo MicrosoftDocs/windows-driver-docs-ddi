@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["IOCTL_SERIAL_SET_BREAK_OFF IOCTL"]
 ms.keywords: IOCTL_SERIAL_SET_BREAK_OFF, IOCTL_SERIAL_SET_BREAK_OFF control, IOCTL_SERIAL_SET_BREAK_OFF control code [Serial Ports], ntddser/IOCTL_SERIAL_SET_BREAK_OFF, serports.ioctl_serial_set_break_off, serref_1a347f28-6dfb-4b5d-afb8-9bb8ffad9f36.xml
 req.header: ntddser.h
+req.construct-type: ioctl
 req.include-header: Ntddser.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_SERIAL_SET_BREAK_OFF
 ---
 
-# IOCTL_SERIAL_SET_BREAK_OFF IOCTL
+# IOCTL_SERIAL_SET_BREAK_OFF IOCTL (ntddser.h)
+
+
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 06/21/2024
 keywords: ["FwpmBfeStateGet0 function"]
 ms.keywords: FwpmBfeStateGet0, FwpmBfeStateGet0 function [Network Drivers Starting with Windows Vista], fwpmk/FwpmBfeStateGet0, netvista.fwpmbfestateget0, wfp_ref_2_funct_2_fwpm_6f70e48b-0c6c-465e-95c3-fa41413398db.xml
 req.header: fwpmk.h
+req.construct-type: function
 req.include-header: Fwpmk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -41,7 +42,9 @@ api_name:
  - FwpmBfeStateGet0
 ---
 
-# FwpmBfeStateGet0 function
+# FwpmBfeStateGet0 function (fwpmk.h)
+
+
 
 ## -description
 

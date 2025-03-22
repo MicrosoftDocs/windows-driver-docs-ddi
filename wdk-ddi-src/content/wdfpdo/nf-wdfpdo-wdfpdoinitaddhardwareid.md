@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfPdoInitAddHardwareID function"]
 ms.keywords: DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method, kmdf.wdfpdoinitaddhardwareid, wdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID
 req.header: wdfpdo.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfPdoInitAddHardwareID
 ---
 
-# WdfPdoInitAddHardwareID function
+# WdfPdoInitAddHardwareID function (wdfpdo.h)
+
+
 
 
 ## -description

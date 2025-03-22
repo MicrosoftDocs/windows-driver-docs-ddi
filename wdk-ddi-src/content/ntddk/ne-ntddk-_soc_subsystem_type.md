@@ -8,6 +8,7 @@ ms.date: 02/20/2018
 keywords: ["SOC_SUBSYSTEM_TYPE enumeration"]
 ms.keywords: "*PSOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE, SOC_SUBSYSTEM_TYPE enumeration [WHEA Drivers and Applications], SOC_SUBSYSTEM_WIRELESS_MODEM, SOC_SUBSYS_AUDIO_DSP, SOC_SUBSYS_SENSORS, SOC_SUBSYS_VENDOR_DEFINED, SOC_SUBSYS_WIRELSS_CONNECTIVITY, _SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_TYPE, ntddk/SOC_SUBSYSTEM_WIRELESS_MODEM, ntddk/SOC_SUBSYS_AUDIO_DSP, ntddk/SOC_SUBSYS_SENSORS, ntddk/SOC_SUBSYS_VENDOR_DEFINED, ntddk/SOC_SUBSYS_WIRELSS_CONNECTIVITY, whea.soc_sybsystem_type"
 req.header: ntddk.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -46,7 +47,9 @@ api_name:
  - SOC_SUBSYSTEM_TYPE
 ---
 
-# _SOC_SUBSYSTEM_TYPE enumeration
+# SOC_SUBSYSTEM_TYPE enumeration (ntddk.h)
+
+
 
 
 ## -description

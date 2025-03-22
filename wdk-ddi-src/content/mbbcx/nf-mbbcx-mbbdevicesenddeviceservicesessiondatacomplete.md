@@ -7,6 +7,7 @@ ms.date: 06/29/2018
 keywords: ["MbbDeviceSendDeviceServiceSessionDataComplete function"]
 ms.keywords: MbbDeviceSendDeviceServiceSessionDataComplete
 req.header: mbbcx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Windows 10, version 1809
@@ -38,7 +39,9 @@ api_name:
  - MbbDeviceSendDeviceServiceSessionDataComplete
 ---
 
-# MbbDeviceSendDeviceServiceSessionDataComplete function
+# MbbDeviceSendDeviceServiceSessionDataComplete function (mbbcx.h)
+
+
 
 
 ## -description

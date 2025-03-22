@@ -8,6 +8,7 @@ ms.date: 02/21/2023
 keywords: ["FsRtlNotifyFullChangeDirectory function"]
 ms.keywords: FsRtlNotifyFullChangeDirectory, FsRtlNotifyFullChangeDirectory routine [Installable File System Drivers], fsrtlref_551aff27-746f-49a4-b427-fa273249c36e.xml, ifsk.fsrtlnotifyfullchangedirectory, rxprocs/FsRtlNotifyFullChangeDirectory
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ dev_langs:
  - c++
 ---
 
-# FsRtlNotifyFullChangeDirectory function
+# FsRtlNotifyFullChangeDirectory function (ntifs.h)
+
+
 
 ## -description
 

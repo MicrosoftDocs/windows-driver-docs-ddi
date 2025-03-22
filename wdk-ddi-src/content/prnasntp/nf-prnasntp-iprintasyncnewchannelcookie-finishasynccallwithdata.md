@@ -7,6 +7,7 @@ ms.date: 07/29/2022
 keywords: ["IPrintAsyncNewChannelCookie::FinishAsyncCallWithData"]
 ms.keywords: FinishAsyncCallWithData, FinishAsyncCallWithData method [Print Devices], FinishAsyncCallWithData method [Print Devices],IPrintAsyncNewChannelCookie interface, IPrintAsyncNewChannelCookie interface [Print Devices],FinishAsyncCallWithData method, IPrintAsyncNewChannelCookie.FinishAsyncCallWithData, IPrintAsyncNewChannelCookie::FinishAsyncCallWithData, print.iprintasyncnewchannelcookie_finishasynccallwithdata, prnasntp/IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 req.header: prnasntp.h
+req.construct-type: function
 req.include-header: Prnasntp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintAsyncNewChannelCookie::FinishAsyncCallWithData
 ---
+
+# IPrintAsyncNewChannelCookie::FinishAsyncCallWithData function (prnasntp.h)
 
 ## -description
 

@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["EFI_SET_VARIABLE_GET_DATA macro"]
 ms.keywords: EFI_SET_VARIABLE_GET_DATA
 req.header: treevariableservice.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,11 @@ api_name:
  - EFI_SET_VARIABLE_GET_DATA
 ---
 
-# EFI_SET_VARIABLE_GET_DATA macro
+# EFI_SET_VARIABLE_GET_DATA macro (treevariableservice.h)
+
+
+
+
 
 ## -description
 

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WDF_CALLBACK_CONSTRAINT enumeration"]
 ms.keywords: None, WDF_CALLBACK_CONSTRAINT, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WdfDeviceLevel, WdfLevelReserved, _WDF_CALLBACK_CONSTRAINT, wdf.wdf_callback_constraint, wudfddi_types/None, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfDeviceLevel, wudfddi_types/WdfLevelReserved
 req.header: wudfddi_types.h
+req.construct-type: enumeration
 req.include-header: Wdf.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WDF_CALLBACK_CONSTRAINT
 ---
 
-# _WDF_CALLBACK_CONSTRAINT enumeration
+# WDF_CALLBACK_CONSTRAINT enumeration (wudfddi_types.h)
+
+
 
 
 ## -description

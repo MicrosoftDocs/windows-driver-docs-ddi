@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisGetCurrentProcessorCounts function"]
 ms.keywords: NdisGetCurrentProcessorCounts, NdisGetCurrentProcessorCounts function [Network Drivers Starting with Windows Vista], ndis/NdisGetCurrentProcessorCounts, ndis_sysinfo_ref_dab49118-724d-43e8-8d8d-05ebc7220f22.xml, netvista.ndisgetcurrentprocessorcounts
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and later drivers in Windows Vista and later. Supported for NDIS 5.1 drivers (see       NdisGetCurrentProcessorCounts (NDIS 5.1)) in Windows XP and later.
@@ -41,7 +42,9 @@ api_name:
  - NdisGetCurrentProcessorCounts
 ---
 
-# NdisGetCurrentProcessorCounts function
+# NdisGetCurrentProcessorCounts function (ndis.h)
+
+
 
 
 ## -description

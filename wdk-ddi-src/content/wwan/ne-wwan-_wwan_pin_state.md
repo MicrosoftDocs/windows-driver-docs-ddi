@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["WWAN_PIN_STATE enumeration"]
 ms.keywords: "*PWWAN_PIN_STATE, PWWAN_PIN_STATE, PWWAN_PIN_STATE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_STATE, WWAN_PIN_STATE enumeration [Network Drivers Starting with Windows Vista], WwanPinStateEnter, WwanPinStateMax, WwanPinStateNone, WwanRef_6adb4dc1-c989-45b5-a27c-b553c9a5fdd0.xml, _WWAN_PIN_STATE, netvista.wwan_pin_state, wwan/PWWAN_PIN_STATE, wwan/WWAN_PIN_STATE, wwan/WwanPinStateEnter, wwan/WwanPinStateMax, wwan/WwanPinStateNone"
 req.header: wwan.h
+req.construct-type: enumeration
 req.include-header: Wwan.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 7 and later versions of Windows.
@@ -46,7 +47,9 @@ api_name:
  - WWAN_PIN_STATE
 ---
 
-# _WWAN_PIN_STATE enumeration
+# WWAN_PIN_STATE enumeration (wwan.h)
+
+
 
 
 ## -description

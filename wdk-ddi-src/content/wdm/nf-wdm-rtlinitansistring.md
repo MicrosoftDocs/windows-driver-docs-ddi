@@ -7,6 +7,7 @@ ms.date: 12/13/2022
 keywords: ["RtlInitAnsiString function"]
 ms.keywords: RtlInitAnsiString, RtlInitAnsiString routine [Kernel-Mode Driver Architecture], k109_733e2861-a19a-41ca-92cc-d50caa8beead.xml, kernel.rtlinitansistring, wdm/RtlInitAnsiString
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt:
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - RtlInitAnsiString
 ---
+
+# RtlInitAnsiString function (wdm.h)
 
 ## -description
 

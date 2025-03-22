@@ -7,6 +7,7 @@ ms.date: 02/25/2022
 keywords: ["D3DKMTOfferAllocations function"]
 ms.keywords: D3DKMTOfferAllocations, D3DKMTOfferAllocations callback function [Display Devices], PFND3DKMT_OFFERALLOCATIONS, PFND3DKMT_OFFERALLOCATIONS callback, d3dkmthk/D3DKMTOfferAllocations, display.d3dkmtofferallocations
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - D3DKMTOfferAllocations
 ---
 
-# D3DKMTOfferAllocations function
+# D3DKMTOfferAllocations function (d3dkmthk.h)
+
+
 
 ## -description
 

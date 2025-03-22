@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["NtReadFile function"]
 ms.keywords: NtReadFile, ZwReadFile, ZwReadFile routine [Kernel-Mode Driver Architecture], k111_5cf3ebe2-7c2f-4998-b441-7d2aa2eb091f.xml, kernel.zwreadfile, wdm/NtReadFile, wdm/ZwReadFile
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 2000
@@ -39,7 +40,9 @@ api_name:
  - NtReadFile
 ---
 
-# NtReadFile function
+# NtReadFile function (ntifs.h)
+
+
 
 ## -description
 

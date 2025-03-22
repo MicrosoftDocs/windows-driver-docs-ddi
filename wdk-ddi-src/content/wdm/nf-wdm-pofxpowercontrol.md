@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PoFxPowerControl function"]
 ms.keywords: PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture], kernel.pofxpowercontrol, wdm/PoFxPowerControl
 req.header: wdm.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 8.
@@ -40,7 +41,9 @@ api_name:
  - PoFxPowerControl
 ---
 
-# PoFxPowerControl function
+# PoFxPowerControl function (wdm.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/21/2022
 keywords: ["IWiaDrvItem::UnlinkItemTree"]
 ms.keywords: DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, IWiaDrvItem interface [Imaging Devices],UnlinkItemTree method, IWiaDrvItem.UnlinkItemTree, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree, UnlinkItemTree method [Imaging Devices], UnlinkItemTree method [Imaging Devices],IWiaDrvItem interface, image.iwiadrvitem_unlinkitemtree, wiamindr_lh/IWiaDrvItem::UnlinkItemTree
 req.header: wiamindr_lh.h
+req.construct-type: function
 req.include-header: Wiamindr.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IWiaDrvItem::UnlinkItemTree
 ---
+
+# IWiaDrvItem::UnlinkItemTree function (wiamindr_lh.h)
 
 ## -description
 

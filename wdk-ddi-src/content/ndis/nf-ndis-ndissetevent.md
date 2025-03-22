@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisSetEvent function"]
 ms.keywords: NdisSetEvent, NdisSetEvent function [Network Drivers Starting with Windows Vista], ndis/NdisSetEvent, ndis_event_ref_3abf6ebc-6dcf-4b3e-8e39-2902b9b00adf.xml, netvista.ndissetevent
 req.header: ndis.h
+req.construct-type: function
 req.include-header: Ndis.h
 req.target-type: Universal
 req.target-min-winverclnt: Supported for NDIS 6.0 and NDIS 5.1 drivers (see    NdisSetEvent (NDIS 5.1)) in Windows   Vista. Supported for NDIS 5.1 drivers (see    NdisSetEvent (NDIS 5.1)) in Windows   XP.
@@ -41,7 +42,9 @@ api_name:
  - NdisSetEvent
 ---
 
-# NdisSetEvent function
+# NdisSetEvent function (ndis.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 04/27/2018
 keywords: ["ENUMERATOR_TYPE enumeration"]
 ms.keywords: "*PENUMERATOR_TYPE, ENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], ENUMERATOR_TYPE_MAX, ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_SERVICE, PENUMERATOR_TYPE, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], _ENUMERATOR_TYPE, bltooth.enumerator_type, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, bthddi/ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_MAX, bthddi/ENUMERATOR_TYPE_PROTOCOL, bthddi/ENUMERATOR_TYPE_SERVICE, bthddi/PENUMERATOR_TYPE"
 req.header: bthddi.h
+req.construct-type: enumeration
 req.include-header: Bthddi.h
 req.target-type: Windows
 req.target-min-winverclnt: Versions:\_Supported in Windows Vista, and later.
@@ -46,7 +47,9 @@ api_name:
  - ENUMERATOR_TYPE
 ---
 
-# _ENUMERATOR_TYPE enumeration
+# ENUMERATOR_TYPE enumeration (bthddi.h)
+
+
 
 
 ## -description

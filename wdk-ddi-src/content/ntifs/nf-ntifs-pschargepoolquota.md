@@ -7,6 +7,7 @@ ms.date: 09/27/2023
 keywords: ["PsChargePoolQuota function"]
 ms.keywords: PsChargePoolQuota, PsChargePoolQuota routine [Installable File System Drivers], ifsk.pschargepoolquota, ntifs/PsChargePoolQuota, psref_690f1550-4753-4f39-bcf2-bdcf7b80112d.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -39,7 +40,9 @@ api_name:
  - PsChargePoolQuota
 ---
 
-# PsChargePoolQuota function
+# PsChargePoolQuota function (ntifs.h)
+
+
 
 ## -description
 

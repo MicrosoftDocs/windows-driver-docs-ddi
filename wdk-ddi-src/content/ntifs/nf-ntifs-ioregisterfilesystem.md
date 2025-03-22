@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["IoRegisterFileSystem function"]
 ms.keywords: IoRegisterFileSystem, IoRegisterFileSystem routine [Installable File System Drivers], ifsk.ioregisterfilesystem, ioref_42200300-9ef6-4be9-8fee-bf42b027a809.xml, ntifs/IoRegisterFileSystem
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - IoRegisterFileSystem
 ---
 
-# IoRegisterFileSystem function
+# IoRegisterFileSystem function (ntifs.h)
+
+
 
 
 ## -description

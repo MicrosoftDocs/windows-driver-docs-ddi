@@ -7,6 +7,7 @@ ms.date: 03/03/2023
 keywords: ["IBidiSpl2::SendRecvXMLString"]
 ms.keywords: IBidiSpl2 interface [Print Devices],SendRecvXMLString method, IBidiSpl2.SendRecvXMLString, IBidiSpl2::SendRecvXMLString, SendRecvXMLString, SendRecvXMLString method [Print Devices], SendRecvXMLString method [Print Devices],IBidiSpl2 interface, _win32_IBidiSpl2_SendRecvXMLString, bidispl/IBidiSpl2::SendRecvXMLString, gdi.ibidispl2_ibidispl2__sendrecvxmlstring, print.ibidispl2_ibidispl2__sendrecvxmlstring
 req.header: bidispl.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows Vista
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IBidiSpl2::SendRecvXMLString
 ---
+
+# IBidiSpl2::SendRecvXMLString function (bidispl.h)
 
 ## -description
 

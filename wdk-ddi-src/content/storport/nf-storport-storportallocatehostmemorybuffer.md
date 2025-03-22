@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["StorPortAllocateHostMemoryBuffer function"]
 ms.keywords: StorPortAllocateHostMemoryBuffer, StorPortAllocateHostMemoryBuffer routine [Storage Devices], storage.storportallocatehostmemorybuffer, storport/StorPortAllocateHostMemoryBuffer
 req.header: storport.h
+req.construct-type: function
 req.include-header: Storport.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - StorPortAllocateHostMemoryBuffer
 ---
 
-# StorPortAllocateHostMemoryBuffer function
+# StorPortAllocateHostMemoryBuffer function (storport.h)
+
+
 
 ## -description
 

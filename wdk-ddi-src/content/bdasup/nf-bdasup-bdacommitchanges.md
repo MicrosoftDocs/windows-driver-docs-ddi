@@ -7,6 +7,7 @@ ms.date: 04/25/2022
 keywords: ["BdaCommitChanges function"]
 ms.keywords: BdaCommitChanges, BdaCommitChanges function [Streaming Media Devices], bdaref_41fbbc81-4461-47a2-ba7a-725b696329f3.xml, bdasup/BdaCommitChanges, stream.bdacommitchanges
 req.header: bdasup.h
+req.construct-type: function
 req.include-header: Bdasup.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available on Microsoft Windows XP and later operating systems.
@@ -39,6 +40,8 @@ api_location:
 api_name:
  - BdaCommitChanges
 ---
+
+# BdaCommitChanges function (bdasup.h)
 
 ## -description
 

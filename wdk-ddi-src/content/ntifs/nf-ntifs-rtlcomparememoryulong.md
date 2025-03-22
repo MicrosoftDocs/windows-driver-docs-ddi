@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlCompareMemoryUlong function"]
 ms.keywords: RtlCompareMemoryUlong, RtlCompareMemoryUlong routine [Installable File System Drivers], ifsk.rtlcomparememoryulong, ntifs/RtlCompareMemoryUlong, rtlref_a220e168-945b-46d1-9aa7-7750bdfc39bd.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - RtlCompareMemoryUlong
 ---
 
-# RtlCompareMemoryUlong function
+# RtlCompareMemoryUlong function (ntifs.h)
+
+
 
 
 ## -description

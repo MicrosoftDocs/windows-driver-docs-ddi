@@ -7,6 +7,7 @@ ms.date: 05/10/2018
 keywords: ["D3DKMTQueryResourceInfo function"]
 ms.keywords: D3DKMTQueryResourceInfo, D3DKMTQueryResourceInfo function [Display Devices], OpenGL_Functions_77dad2ba-a352-4b1a-b2be-53c41589bf90.xml, d3dkmthk/D3DKMTQueryResourceInfo, display.d3dkmtqueryresourceinfo
 req.header: d3dkmthk.h
+req.construct-type: function
 req.include-header: D3dkmthk.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows Vista
@@ -43,7 +44,9 @@ api_name:
  - D3DKMTQueryResourceInfo
 ---
 
-# D3DKMTQueryResourceInfo function
+# D3DKMTQueryResourceInfo function (d3dkmthk.h)
+
+
 
 
 ## -description

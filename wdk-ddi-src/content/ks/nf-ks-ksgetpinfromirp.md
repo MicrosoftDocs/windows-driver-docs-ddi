@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["KsGetPinFromIrp function"]
 ms.keywords: KsGetPinFromIrp, KsGetPinFromIrp function [Streaming Media Devices], avfunc_fa403f21-cccb-4a57-b40a-e7531feac721.xml, ks/KsGetPinFromIrp, stream.ksgetpinfromirp
 req.header: ks.h
+req.construct-type: function
 req.include-header: Ks.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Microsoft Windows XP and later operating systems and DirectX 8.0 and later DirectX versions.
@@ -41,7 +42,9 @@ api_name:
  - KsGetPinFromIrp
 ---
 
-# KsGetPinFromIrp function
+# KsGetPinFromIrp function (ks.h)
+
+
 
 
 ## -description

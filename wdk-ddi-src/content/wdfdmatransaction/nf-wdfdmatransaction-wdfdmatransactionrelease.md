@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaTransactionRelease function"]
 ms.keywords: DFDmaObjectRef_24ae3a95-d8b5-4a41-874a-ef537ed4c4cd.xml, WdfDmaTransactionRelease, WdfDmaTransactionRelease method, kmdf.wdfdmatransactionrelease, wdf.wdfdmatransactionrelease, wdfdmatransaction/WdfDmaTransactionRelease
 req.header: wdfdmatransaction.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaTransactionRelease
 ---
 
-# WdfDmaTransactionRelease function
+# WdfDmaTransactionRelease function (wdfdmatransaction.h)
+
+
 
 
 ## -description

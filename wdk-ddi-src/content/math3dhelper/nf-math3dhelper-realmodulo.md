@@ -7,6 +7,7 @@ keywords: ["RealModulo function"]
 tech.root: sensors
 ms.keywords: RealModulo, math3dhelper
 req.header: math3dhelper.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - RealModulo
 ---
 
-# RealModulo function
+# RealModulo function (math3dhelper.h)
+
+
 
 
 ## -description

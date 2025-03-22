@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ZwRollforwardTransactionManager function"]
 ms.keywords: NtRollforwardTransactionManager, ZwRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], kernel.zwrollforwardtransactionmanager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, wdm/NtRollforwardTransactionManager, wdm/ZwRollforwardTransactionManager
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later versions of Windows.
@@ -40,7 +41,9 @@ api_name:
  - ZwRollforwardTransactionManager
 ---
 
-# ZwRollforwardTransactionManager function
+# ZwRollforwardTransactionManager function (wdm.h)
+
+
 
 
 ## -description

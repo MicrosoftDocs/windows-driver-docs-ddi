@@ -8,6 +8,7 @@ ms.date: 07/28/2020
 keywords: ["KeQueryDpcWatchdogInformation function"]
 ms.keywords: KeQueryDpcWatchdogInformation, KeQueryDpcWatchdogInformation routine [Kernel-Mode Driver Architecture], k105_0a2f37cc-0062-4315-b7f1-9bbe814d69b4.xml, kernel.kequerydpcwatchdoginformation, wdm/KeQueryDpcWatchdogInformation
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - KeQueryDpcWatchdogInformation
 ---
 
-# KeQueryDpcWatchdogInformation function
+# KeQueryDpcWatchdogInformation function (wdm.h)
+
+
 
 
 ## -description

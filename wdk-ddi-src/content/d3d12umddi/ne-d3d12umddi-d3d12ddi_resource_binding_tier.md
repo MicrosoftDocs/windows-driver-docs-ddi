@@ -6,6 +6,7 @@ ms.date: 10/19/2018
 keywords: ["D3D12DDI_RESOURCE_BINDING_TIER enumeration"]
 ms.keywords: D3D12DDI_RESOURCE_BINDING_TIER, D3D12DDI_RESOURCE_BINDING_TIER,
 req.header: d3d12umddi.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -33,7 +34,9 @@ dev_langs:
  - c++
 ---
 
-# D3D12DDI_RESOURCE_BINDING_TIER enumeration
+# D3D12DDI_RESOURCE_BINDING_TIER enumeration (d3d12umddi.h)
+
+
 
 
 ## -description

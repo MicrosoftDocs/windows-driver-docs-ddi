@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortLockPages function"]
 ms.keywords: VideoPortLockPages, VideoPortLockPages function [Display Devices], VideoPort_Functions_47b202e0-2a8b-4fb0-9cf2-b4ef3ddb9ff4.xml, display.videoportlockpages, video/VideoPortLockPages
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows 2000 and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortLockPages
 ---
 
-# VideoPortLockPages function
+# VideoPortLockPages function (video.h)
+
+
 
 
 ## -description

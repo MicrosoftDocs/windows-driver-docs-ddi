@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltCurrentOplockH function"]
 ms.keywords: FltApiRef_a_to_d_0abdd89d-fe36-4546-a3bd-87d7d132f73e.xml, FltCurrentOplockH, FltCurrentOplockH routine [Installable File System Drivers], fltkernel/FltCurrentOplockH, ifsk.fltcurrentoplockh
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: The FltCurrentOplockH routine is available starting with Windows 7.
@@ -41,7 +42,9 @@ api_name:
  - FltCurrentOplockH
 ---
 
-# FltCurrentOplockH function
+# FltCurrentOplockH function (fltkernel.h)
+
+
 
 
 ## -description

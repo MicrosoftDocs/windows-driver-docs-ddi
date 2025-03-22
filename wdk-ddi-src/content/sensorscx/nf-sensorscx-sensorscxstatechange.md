@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["SensorsCxStateChange function"]
 ms.keywords: SensorsCxStateChange, SensorsCxStateChange function [Sensor Devices], sensors.sensorscxstatechange, sensorscx/SensorsCxStateChange
 req.header: sensorscx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - SensorsCxStateChange
 ---
 
-# SensorsCxStateChange function
+# SensorsCxStateChange function (sensorscx.h)
+
+
 
 
 ## -description

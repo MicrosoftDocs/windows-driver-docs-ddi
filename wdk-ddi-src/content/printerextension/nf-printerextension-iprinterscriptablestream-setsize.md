@@ -7,6 +7,7 @@ ms.date: 08/02/2022
 keywords: ["IPrinterScriptableStream::SetSize"]
 ms.keywords: IPrinterScriptableStream interface [Print Devices],SetSize method, IPrinterScriptableStream.SetSize, IPrinterScriptableStream::SetSize, SetSize, SetSize method [Print Devices], SetSize method [Print Devices],IPrinterScriptableStream interface, print.iprinterscriptablestream__setsize, printerextension/IPrinterScriptableStream::SetSize
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterScriptableStream::SetSize
 ---
+
+# IPrinterScriptableStream::SetSize function (printerextension.h)
 
 ## -description
 

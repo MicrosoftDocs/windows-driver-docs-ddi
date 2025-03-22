@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["KEY_SET_INFORMATION_CLASS enumeration"]
 ms.keywords: KEY_SET_INFORMATION_CLASS, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KeyControlFlagsInformation, KeySetDebugInformation, KeySetHandleTagsInformation, KeySetVirtualizationInformation, KeyWow64FlagsInformation, KeyWriteTimeInformation, MaxKeySetInfoClass, _KEY_SET_INFORMATION_CLASS, kernel.key_set_information_class, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KEY_SET_INFORMATION_CLASS, wdm/KeyControlFlagsInformation, wdm/KeySetDebugInformation, wdm/KeySetHandleTagsInformation, wdm/KeySetVirtualizationInformation, wdm/KeyWow64FlagsInformation, wdm/KeyWriteTimeInformation, wdm/MaxKeySetInfoClass
 req.header: wdm.h
+req.construct-type: enumeration
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows XP.
@@ -43,7 +44,9 @@ api_name:
  - KEY_SET_INFORMATION_CLASS
 ---
 
-# _KEY_SET_INFORMATION_CLASS enumeration
+# KEY_SET_INFORMATION_CLASS enumeration (wdm.h)
+
+
 
 
 ## -description

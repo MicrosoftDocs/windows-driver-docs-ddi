@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfCollectionCreate function"]
 ms.keywords: DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, WdfCollectionCreate, WdfCollectionCreate method, kmdf.wdfcollectioncreate, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate
 req.header: wdfcollection.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfCollectionCreate
 ---
 
-# WdfCollectionCreate function
+# WdfCollectionCreate function (wdfcollection.h)
+
+
 
 
 ## -description

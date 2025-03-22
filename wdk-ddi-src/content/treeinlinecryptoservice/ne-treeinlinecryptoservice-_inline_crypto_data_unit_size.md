@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["INLINE_CRYPTO_DATA_UNIT_SIZE enumeration"]
 ms.keywords: _INLINE_CRYPTO_DATA_UNIT_SIZE, INLINE_CRYPTO_DATA_UNIT_SIZE, *PINLINE_CRYPTO_DATA_UNIT_SIZE,
 req.header: treeinlinecryptoservice.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -37,7 +38,9 @@ api_name:
  - INLINE_CRYPTO_DATA_UNIT_SIZE
 ---
 
-# _INLINE_CRYPTO_DATA_UNIT_SIZE enumeration
+# INLINE_CRYPTO_DATA_UNIT_SIZE enumeration (treeinlinecryptoservice.h)
+
+
 
 
 ## -description

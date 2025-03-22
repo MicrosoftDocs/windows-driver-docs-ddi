@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NDIS_PM_WOL_PACKET enumeration"]
 ms.keywords: "*PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketEapolRequestIdMessage, NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketMaximum, NdisPMWoLPacketUnspecified, PNDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PACKET, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, netvista.ndis_pm_wol_packet, ntddndis/NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, ntddndis/NdisPMWoLPacketIPv4TcpSyn, ntddndis/NdisPMWoLPacketIPv6TcpSyn, ntddndis/NdisPMWoLPacketMagicPacket, ntddndis/NdisPMWoLPacketMaximum, ntddndis/NdisPMWoLPacketUnspecified, ntddndis/PNDIS_PM_WOL_PACKET"
 req.header: ntddndis.h
+req.construct-type: enumeration
 req.include-header: Ntddndis.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 6.20 and later.
@@ -46,7 +47,9 @@ api_name:
  - NDIS_PM_WOL_PACKET
 ---
 
-# _NDIS_PM_WOL_PACKET enumeration
+# NDIS_PM_WOL_PACKET enumeration (ntddndis.h)
+
+
 
 
 ## -description

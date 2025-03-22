@@ -8,6 +8,7 @@ ms.date: 09/10/2021
 keywords: ["FsRtlRemoveExtraCreateParameter function"]
 ms.keywords: FsRtlRemoveExtraCreateParameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ifsk.fsrtlremoveextracreateparameter, ntifs/FsRtlRemoveExtraCreateParameter
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: FsRtlRemoveExtraCreateParameter routine is available starting with Windows Vista.
@@ -40,7 +41,9 @@ api_name:
  - FsRtlRemoveExtraCreateParameter
 ---
 
-# FsRtlRemoveExtraCreateParameter function
+# FsRtlRemoveExtraCreateParameter function (ntifs.h)
+
+
 
 ## -description
 

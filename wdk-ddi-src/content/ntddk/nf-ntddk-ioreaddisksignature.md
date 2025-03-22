@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IoReadDiskSignature function"]
 ms.keywords: IoReadDiskSignature, IoReadDiskSignature routine [Storage Devices], ntddk/IoReadDiskSignature, rtns-disk_4bd8bcea-c43a-45ea-a074-013b8eb30e01.xml, storage.ioreaddisksignature
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: This routine is only available on Windows XP and later.
@@ -40,7 +41,9 @@ api_name:
  - IoReadDiskSignature
 ---
 
-# IoReadDiskSignature function
+# IoReadDiskSignature function (ntddk.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["USBFN_ATTACH_ACTION enumeration"]
 ms.keywords: "*PUSBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION, USBFN_ATTACH_ACTION enumeration [Buses], UsbfnDetectProprietaryCharger, UsbfnIgnoreAttach, UsbfnPortDetected, UsbfnPortDetectedNoCad, UsbfnProceedWithAttach, _USBFN_ATTACH_ACTION, buses.usbfn_attach_action, usbfnattach/USBFN_ATTACH_ACTION, usbfnattach/UsbfnDetectProprietaryCharger, usbfnattach/UsbfnIgnoreAttach, usbfnattach/UsbfnPortDetected, usbfnattach/UsbfnPortDetectedNoCad, usbfnattach/UsbfnProceedWithAttach"
 req.header: usbfnattach.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -46,7 +47,9 @@ api_name:
  - USBFN_ATTACH_ACTION
 ---
 
-# _USBFN_ATTACH_ACTION enumeration
+# USBFN_ATTACH_ACTION enumeration (usbfnattach.h)
+
+
 
 
 ## -description

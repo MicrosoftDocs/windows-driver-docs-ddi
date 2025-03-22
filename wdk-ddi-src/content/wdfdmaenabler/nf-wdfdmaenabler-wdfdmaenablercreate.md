@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDmaEnablerCreate function"]
 ms.keywords: DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, WdfDmaEnablerCreate, WdfDmaEnablerCreate method, kmdf.wdfdmaenablercreate, wdf.wdfdmaenablercreate, wdfdmaenabler/WdfDmaEnablerCreate
 req.header: wdfdmaenabler.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDmaEnablerCreate
 ---
 
-# WdfDmaEnablerCreate function
+# WdfDmaEnablerCreate function (wdfdmaenabler.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfWmiInstanceDeregister function"]
 ms.keywords: DFWMIRef_4e04e7da-3a14-4bd4-a430-8f5f3624b61a.xml, WdfWmiInstanceDeregister, WdfWmiInstanceDeregister method, kmdf.wdfwmiinstancederegister, wdf.wdfwmiinstancederegister, wdfwmi/WdfWmiInstanceDeregister
 req.header: wdfwmi.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfWmiInstanceDeregister
 ---
 
-# WdfWmiInstanceDeregister function
+# WdfWmiInstanceDeregister function (wdfwmi.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 07/27/2022
 keywords: ["SpoolerRefreshPrinterChangeNotification function"]
 ms.keywords: SpoolerRefreshPrinterChangeNotification, SpoolerRefreshPrinterChangeNotification function [Print Devices], print.spoolerrefreshprinterchangenotification, winsplp/SpoolerRefreshPrinterChangeNotification
 req.header: winsplp.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - SpoolerRefreshPrinterChangeNotification
 ---
+
+# SpoolerRefreshPrinterChangeNotification function (winsplp.h)
 
 ## -description
 

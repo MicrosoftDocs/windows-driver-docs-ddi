@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["FltAllocateDeferredIoWorkItem function"]
 ms.keywords: FltAllocateDeferredIoWorkItem, FltAllocateDeferredIoWorkItem function [Installable File System Drivers], FltApiRef_a_to_d_2fd5a055-2bcb-47a5-af89-5a34a92982f1.xml, fltkernel/FltAllocateDeferredIoWorkItem, ifsk.fltallocatedeferredioworkitem
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - FltAllocateDeferredIoWorkItem
 ---
 
-# FltAllocateDeferredIoWorkItem function
+# FltAllocateDeferredIoWorkItem function (fltkernel.h)
+
+
 
 
 ## -description

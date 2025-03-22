@@ -8,6 +8,7 @@ ms.date: 05/02/2018
 keywords: ["NdisMGetOffloadHandlers function"]
 ms.keywords: NdisMGetOffloadHandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], ndischimney/NdisMGetOffloadHandlers, netvista.ndismgetoffloadhandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml
 req.header: ndischimney.h
+req.construct-type: function
 req.include-header: Ndischimney.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - NdisMGetOffloadHandlers
 ---
 
-# NdisMGetOffloadHandlers function
+# NdisMGetOffloadHandlers function (ndischimney.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfRequestGetRequestorMode function"]
 ms.keywords: DFRequestObjectRef_3c672bff-3d8a-402a-8a0c-19eb4d39e37e.xml, WdfRequestGetRequestorMode, WdfRequestGetRequestorMode method, kmdf.wdfrequestgetrequestormode, wdf.wdfrequestgetrequestormode, wdfrequest/WdfRequestGetRequestorMode
 req.header: wdfrequest.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfRequestGetRequestorMode
 ---
 
-# WdfRequestGetRequestorMode function
+# WdfRequestGetRequestorMode function (wdfrequest.h)
+
+
 
 
 ## -description

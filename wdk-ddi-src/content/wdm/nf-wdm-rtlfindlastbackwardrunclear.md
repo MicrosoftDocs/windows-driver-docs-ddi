@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["RtlFindLastBackwardRunClear function"]
 ms.keywords: RtlFindLastBackwardRunClear, RtlFindLastBackwardRunClear routine [Kernel-Mode Driver Architecture], k109_b7075a86-ffa4-4a6a-98fb-60848c037253.xml, kernel.rtlfindlastbackwardrunclear, wdm/RtlFindLastBackwardRunClear
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - RtlFindLastBackwardRunClear
 ---
 
-# RtlFindLastBackwardRunClear function
+# RtlFindLastBackwardRunClear function (wdm.h)
+
+
 
 
 ## -description

@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetPowerPageable function"]
 ms.keywords: DFDeviceObjectGeneralRef_704347eb-35c6-4735-bd2a-e6a988ff2896.xml, WdfDeviceInitSetPowerPageable, WdfDeviceInitSetPowerPageable method, kmdf.wdfdeviceinitsetpowerpageable, wdf.wdfdeviceinitsetpowerpageable, wdfdevice/WdfDeviceInitSetPowerPageable
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceInitSetPowerPageable
 ---
 
-# WdfDeviceInitSetPowerPageable function
+# WdfDeviceInitSetPowerPageable function (wdfdevice.h)
+
+
 
 
 ## -description

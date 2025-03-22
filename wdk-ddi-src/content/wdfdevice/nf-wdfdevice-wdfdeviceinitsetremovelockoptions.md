@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceInitSetRemoveLockOptions function"]
 ms.keywords: WdfDeviceInitSetRemoveLockOptions, WdfDeviceInitSetRemoveLockOptions method, kmdf.wdfdeviceinitsetremovelockoptions, wdf.wdfdeviceinitsetremovelockoptions, wdfdevice/WdfDeviceInitSetRemoveLockOptions
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceInitSetRemoveLockOptions
 ---
 
-# WdfDeviceInitSetRemoveLockOptions function
+# WdfDeviceInitSetRemoveLockOptions function (wdfdevice.h)
+
+
 
 
 ## -description

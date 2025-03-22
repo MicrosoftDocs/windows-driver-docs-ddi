@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsSetCreateProcessNotifyRoutineEx function"]
 ms.keywords: PsSetCreateProcessNotifyRoutineEx, PsSetCreateProcessNotifyRoutineEx routine [Kernel-Mode Driver Architecture], k108_b68156fb-55d5-4192-a4d0-d74603647f42.xml, kernel.pssetcreateprocessnotifyroutineex, ntddk/PsSetCreateProcessNotifyRoutineEx
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Vista with SP1 and Windows Server 2008.
@@ -40,7 +41,9 @@ api_name:
  - PsSetCreateProcessNotifyRoutineEx
 ---
 
-# PsSetCreateProcessNotifyRoutineEx function
+# PsSetCreateProcessNotifyRoutineEx function (ntddk.h)
+
+
 
 
 ## -description

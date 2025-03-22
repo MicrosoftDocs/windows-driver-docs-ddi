@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UFX_DEVICE_CAPABILITIES_INIT function"]
 ms.keywords: UFX_DEVICE_CAPABILITIES_INIT, UFX_DEVICE_CAPABILITIES_INIT function [Buses], buses.ufx_device_capabilities_init, ufxclient/UFX_DEVICE_CAPABILITIES_INIT
 req.header: ufxclient.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - UFX_DEVICE_CAPABILITIES_INIT
 ---
 
-# UFX_DEVICE_CAPABILITIES_INIT function
+# UFX_DEVICE_CAPABILITIES_INIT function (ufxclient.h)
+
+
 
 
 ## -description

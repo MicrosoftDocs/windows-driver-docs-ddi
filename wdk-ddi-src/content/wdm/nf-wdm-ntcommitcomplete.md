@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["NtCommitComplete function"]
 ms.keywords: NtCommitComplete, ZwCommitComplete, ZwCommitComplete routine [Kernel-Mode Driver Architecture], kernel.zwcommitcomplete, ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml, wdm/NtCommitComplete, wdm/ZwCommitComplete
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available in Windows Vista and later operating system versions.
@@ -40,7 +41,9 @@ api_name:
  - NtCommitComplete
 ---
 
-# NtCommitComplete function
+# NtCommitComplete function (wdm.h)
+
+
 
 
 ## -description

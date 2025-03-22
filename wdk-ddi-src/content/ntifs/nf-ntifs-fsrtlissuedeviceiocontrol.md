@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["FsRtlIssueDeviceIoControl function"]
 ms.keywords: FsRtlIssueDeviceIoControl, ifsk.fsrtlissuedeviceiocontrol, ntifs/FsRtlIssueDeviceIoControl
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -40,7 +41,9 @@ api_name:
  - FsRtlIssueDeviceIoControl
 ---
 
-# FsRtlIssueDeviceIoControl function
+# FsRtlIssueDeviceIoControl function (ntifs.h)
+
+
 
 ## -description
 

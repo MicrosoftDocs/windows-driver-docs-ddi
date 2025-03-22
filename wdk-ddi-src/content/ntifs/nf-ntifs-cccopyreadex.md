@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["CcCopyReadEx function"]
 ms.keywords: CcCopyReadEx, ifsk.cccopyreadex, ntifs/CcCopyReadEx
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows 8
@@ -39,7 +40,9 @@ api_name:
  - CcCopyReadEx
 ---
 
-# CcCopyReadEx function
+# CcCopyReadEx function (ntifs.h)
+
+
 
 ## -description
 

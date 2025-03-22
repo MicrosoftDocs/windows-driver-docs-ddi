@@ -8,6 +8,7 @@ ms.date: 05/07/2018
 keywords: ["UcxControllerSetFailed function"]
 ms.keywords: UcxControllerSetFailed, UcxControllerSetFailed method [Buses], buses._ucxcontrollersetfailed, ucxcontroller/UcxControllerSetFailed
 req.header: ucxcontroller.h
+req.construct-type: function
 req.include-header: Ucxclass.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
@@ -40,7 +41,9 @@ api_name:
  - UcxControllerSetFailed
 ---
 
-# UcxControllerSetFailed function
+# UcxControllerSetFailed function (ucxcontroller.h)
+
+
 
 
 ## -description

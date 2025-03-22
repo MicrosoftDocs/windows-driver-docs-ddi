@@ -6,6 +6,7 @@ ms.date: 11/20/2020
 keywords: ["TrSecureDeviceQueryOSService function"]
 ms.keywords: TrSecureDeviceQueryOSService
 req.header: trustedruntimeclx.h
+req.construct-type: function
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -38,7 +39,9 @@ api_name:
  - TrSecureDeviceQueryOSService
 ---
 
-# TrSecureDeviceQueryOSService function
+# TrSecureDeviceQueryOSService function (trustedruntimeclx.h)
+
+
 
 ## -description
 

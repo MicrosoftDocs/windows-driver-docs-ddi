@@ -7,6 +7,7 @@ ms.date: 07/06/2023
 keywords: ["IoSizeOfIrp macro"]
 ms.keywords: IoSizeOfIrp, kernel.iosizeofirp, wdm/IoSizeOfIrp
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Desktop
 req.target-min-winverclnt: Windows 2000
@@ -40,6 +41,10 @@ api_name:
 ---
 
 # IoSizeOfIrp macro (ntifs.h)
+
+
+
+
 
 ## -description
 

@@ -7,6 +7,7 @@ ms.date: 04/13/2018
 keywords: ["NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro"]
 ms.keywords: NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 req.header: ndis.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Universal
 req.target-min-winverclnt: Supported in NDIS 6.30 and later.
@@ -38,7 +39,11 @@ api_name:
  - NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL
 ---
 
-# NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro
+# NET_BUFFER_LIST_SWITCH_FORWARDING_DETAIL macro (ndis.h)
+
+
+
+
 
 
 ## -description

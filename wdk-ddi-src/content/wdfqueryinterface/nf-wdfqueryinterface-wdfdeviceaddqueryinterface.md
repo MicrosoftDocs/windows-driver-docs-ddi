@@ -8,6 +8,7 @@ ms.date: 12/07/2021
 keywords: ["WdfDeviceAddQueryInterface function"]
 ms.keywords: DFDeviceObjectDriverDefIntRef_6d1dbdca-5adf-4641-91c9-7c59e2af6869.xml, WdfDeviceAddQueryInterface, WdfDeviceAddQueryInterface method, kmdf.wdfdeviceaddqueryinterface, wdf.wdfdeviceaddqueryinterface, wdfqueryinterface/WdfDeviceAddQueryInterface
 req.header: wdfqueryinterface.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - WdfDeviceAddQueryInterface
 ---
 
-# WdfDeviceAddQueryInterface function
+# WdfDeviceAddQueryInterface function (wdfqueryinterface.h)
+
+
 
 
 ## -description

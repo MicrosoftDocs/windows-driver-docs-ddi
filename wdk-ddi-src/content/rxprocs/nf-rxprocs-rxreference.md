@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RxReference function"]
 ms.keywords: RxReference, RxReference function [Installable File System Drivers], ifsk.rxreference, rxprocs/RxReference, rxref_3c87a6aa-d0c8-4308-8152-fce322dcb035.xml
 req.header: rxprocs.h
+req.construct-type: function
 req.include-header: Rxprocs.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - RxReference
 ---
 
-# RxReference function
+# RxReference function (rxprocs.h)
+
+
 
 
 ## -description

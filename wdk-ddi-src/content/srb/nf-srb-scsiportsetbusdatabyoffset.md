@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["ScsiPortSetBusDataByOffset function"]
 ms.keywords: ScsiPortSetBusDataByOffset, ScsiPortSetBusDataByOffset routine [Storage Devices], scsiprt_83fdaa63-8e40-41e6-8f60-b9cc98c6eade.xml, srb/ScsiPortSetBusDataByOffset, storage.scsiportsetbusdatabyoffset
 req.header: srb.h
+req.construct-type: function
 req.include-header: Miniport.h, Scsi.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - ScsiPortSetBusDataByOffset
 ---
 
-# ScsiPortSetBusDataByOffset function
+# ScsiPortSetBusDataByOffset function (srb.h)
+
+
 
 
 ## -description

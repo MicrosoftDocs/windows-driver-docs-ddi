@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["CcMdlWriteAbort function"]
 ms.keywords: CcMdlWriteAbort, CcMdlWriteAbort routine [Installable File System Drivers], ccref_517f25ce-d707-4611-af24-c66010b0d89e.xml, ifsk.ccmdlwriteabort, ntifs/CcMdlWriteAbort
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - CcMdlWriteAbort
 ---
 
-# CcMdlWriteAbort function
+# CcMdlWriteAbort function (ntifs.h)
+
+
 
 
 ## -description

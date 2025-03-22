@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ClfsSetArchiveTail function"]
 ms.keywords: ClfsSetArchiveTail, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, kernel.clfssetarchivetail, wdm/ClfsSetArchiveTail
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows Server 2003 R2, Windows Vista, and later versions of Windows.
@@ -41,7 +42,9 @@ api_name:
  - ClfsSetArchiveTail
 ---
 
-# ClfsSetArchiveTail function
+# ClfsSetArchiveTail function (wdm.h)
+
+
 
 
 ## -description

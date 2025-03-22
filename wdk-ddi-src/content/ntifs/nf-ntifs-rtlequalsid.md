@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["RtlEqualSid function"]
 ms.keywords: RtlEqualSid, RtlEqualSid routine [Installable File System Drivers], ifsk.rtlequalsid, ntifs/RtlEqualSid, rtlref_bc81c0ad-e0e6-4133-a423-4f6c4c264286.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - RtlEqualSid
 ---
 
-# RtlEqualSid function
+# RtlEqualSid function (ntifs.h)
+
+
 
 
 ## -description

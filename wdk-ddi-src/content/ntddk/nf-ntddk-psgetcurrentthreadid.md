@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["PsGetCurrentThreadId function"]
 ms.keywords: PsGetCurrentThreadId, PsGetCurrentThreadId routine [Kernel-Mode Driver Architecture], k108_eae0d8bf-f2fe-49dd-b3b7-6da9114f844a.xml, kernel.psgetcurrentthreadid, ntddk/PsGetCurrentThreadId
 req.header: ntddk.h
+req.construct-type: function
 req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - PsGetCurrentThreadId
 ---
 
-# PsGetCurrentThreadId function
+# PsGetCurrentThreadId function (ntddk.h)
+
+
 
 
 ## -description

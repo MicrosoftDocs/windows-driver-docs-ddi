@@ -7,6 +7,7 @@ ms.date: 08/01/2022
 keywords: ["IPrintSchemaElement::get_Name"]
 ms.keywords: IPrintSchemaElement interface [Print Devices],Name property, IPrintSchemaElement.Name, IPrintSchemaElement.get_Name, IPrintSchemaElement::Name, IPrintSchemaElement::get_Name, Name property [Print Devices], Name property [Print Devices],IPrintSchemaElement interface, get_Name, print.iprintschemaelement_name, printerextension/IPrintSchemaElement::Name, printerextension/IPrintSchemaElement::get_Name
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrintSchemaElement::get_Name
 ---
+
+# IPrintSchemaElement::get_Name function (printerextension.h)
 
 ## -description
 

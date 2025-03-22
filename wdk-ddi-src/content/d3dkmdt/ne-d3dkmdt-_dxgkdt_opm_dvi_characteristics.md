@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["DXGKDT_OPM_DVI_CHARACTERISTICS enumeration"]
 ms.keywords: DXGKDT_OPM_DVI_CHARACTERISTICS, DXGKDT_OPM_DVI_CHARACTERISTICS enumeration [Display Devices], DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, DmEnums_4bcf670e-2b55-4278-80a4-71c7c820dae6.xml, _DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKDT_OPM_DVI_CHARACTERISTICS, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTICS_FORCE_ULONG, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_0, d3dkmdt/DXGKMDT_OPM_DVI_CHARACTERISTIC_1_1_OR_ABOVE, display.dxgkdt_opm_dvi_characteristics
 req.header: d3dkmdt.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 7
@@ -43,7 +44,9 @@ api_name:
  - DXGKDT_OPM_DVI_CHARACTERISTICS
 ---
 
-# _DXGKDT_OPM_DVI_CHARACTERISTICS enumeration
+# DXGKDT_OPM_DVI_CHARACTERISTICS enumeration (d3dkmdt.h)
+
+
 
 
 ## -description

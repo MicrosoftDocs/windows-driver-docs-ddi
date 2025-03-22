@@ -8,6 +8,7 @@ ms.date: 01/22/2021
 keywords: ["FltReleaseContext function"]
 ms.keywords: FltApiRef_p_to_z_1040d19b-2ecb-4229-adda-b73f5c2bc828.xml, FltReleaseContext, FltReleaseContext function [Installable File System Drivers], fltkernel/FltReleaseContext, ifsk.fltreleasecontext
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltReleaseContext
 ---
 
-# FltReleaseContext function
+# FltReleaseContext function (fltkernel.h)
+
+
 
 ## -description
 

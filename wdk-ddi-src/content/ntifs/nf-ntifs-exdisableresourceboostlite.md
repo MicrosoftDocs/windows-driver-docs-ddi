@@ -8,6 +8,7 @@ ms.date: 03/03/2023
 keywords: ["ExDisableResourceBoostLite function"]
 ms.keywords: ExDisableResourceBoostLite, ExDisableResourceBoostLite function [Installable File System Drivers], exref_7c451751-995b-4d3c-9445-25b337624ef7.xml, ifsk.exdisableresourceboostlite, ntifs/ExDisableResourceBoostLite
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 2000
@@ -40,7 +41,9 @@ api_name:
  - ExDisableResourceBoostLite
 ---
 
-# ExDisableResourceBoostLite function
+# ExDisableResourceBoostLite function (ntifs.h)
+
+
 
 ## -description
 

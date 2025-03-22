@@ -8,6 +8,7 @@ ms.date: 06/27/2019
 keywords: ["FltGetTunneledName function"]
 ms.keywords: FltApiRef_e_to_o_5a952e3d-25d1-48e7-b91b-9891a446d53b.xml, FltGetTunneledName, FltGetTunneledName routine [Installable File System Drivers], fltkernel/FltGetTunneledName, ifsk.fltgettunneledname
 req.header: fltkernel.h
+req.construct-type: function
 req.include-header: Fltkernel.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - FltGetTunneledName
 ---
 
-# FltGetTunneledName function
+# FltGetTunneledName function (fltkernel.h)
+
+
 
 
 ## -description

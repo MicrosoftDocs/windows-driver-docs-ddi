@@ -8,6 +8,7 @@ ms.date: 05/10/2018
 keywords: ["VideoPortDeleteSpinLock function"]
 ms.keywords: VideoPortDeleteSpinLock, VideoPortDeleteSpinLock function [Display Devices], VideoPort_Functions_d98d74d6-bf9c-441b-95e3-a3455927dd45.xml, display.videoportdeletespinlock, video/VideoPortDeleteSpinLock
 req.header: video.h
+req.construct-type: function
 req.include-header: Video.h
 req.target-type: Desktop
 req.target-min-winverclnt: Available in Windows XP and later versions of the Windows operating systems.
@@ -40,7 +41,9 @@ api_name:
  - VideoPortDeleteSpinLock
 ---
 
-# VideoPortDeleteSpinLock function
+# VideoPortDeleteSpinLock function (video.h)
+
+
 
 
 ## -description

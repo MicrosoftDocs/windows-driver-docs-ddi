@@ -7,6 +7,7 @@ ms.date: 08/03/2022
 keywords: ["IPrinterExtensionEventArgs::get_BidiNotification"]
 ms.keywords: BidiNotification property [Print Devices], BidiNotification property [Print Devices],IPrinterExtensionEventArgs interface, IPrinterExtensionEventArgs interface [Print Devices],BidiNotification property, IPrinterExtensionEventArgs.BidiNotification, IPrinterExtensionEventArgs.get_BidiNotification, IPrinterExtensionEventArgs::BidiNotification, IPrinterExtensionEventArgs::get_BidiNotification, get_BidiNotification, print.iprinterextensioneventargs_bidinotification, printerextension/IPrinterExtensionEventArgs::BidiNotification, printerextension/IPrinterExtensionEventArgs::get_BidiNotification
 req.header: printerextension.h
+req.construct-type: function
 req.include-header: 
 req.target-type: Windows
 req.target-min-winverclnt: Windows 8
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IPrinterExtensionEventArgs::get_BidiNotification
 ---
+
+# IPrinterExtensionEventArgs::get_BidiNotification function (printerextension.h)
 
 ## -description
 

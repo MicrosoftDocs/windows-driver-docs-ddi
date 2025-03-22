@@ -8,6 +8,7 @@ ms.date: 04/23/2018
 keywords: ["StreamClassReadWriteConfig function"]
 ms.keywords: StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices], strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig
 req.header: strmini.h
+req.construct-type: function
 req.include-header: Strmini.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -41,7 +42,9 @@ api_name:
  - StreamClassReadWriteConfig
 ---
 
-# StreamClassReadWriteConfig function
+# StreamClassReadWriteConfig function (strmini.h)
+
+
 
 
 ## -description

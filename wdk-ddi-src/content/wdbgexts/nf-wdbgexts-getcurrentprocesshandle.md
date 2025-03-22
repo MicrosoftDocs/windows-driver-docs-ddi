@@ -8,6 +8,7 @@ ms.date: 05/03/2018
 keywords: ["GetCurrentProcessHandle function"]
 ms.keywords: GetCurrentProcessHandle, GetCurrentProcessHandle function [Windows Debugging], WdbgExts_Ref_50cc8e27-7f7e-4ec3-ad2d-745f38e87037.xml, debugger.getcurrentprocesshandle, wdbgexts/GetCurrentProcessHandle
 req.header: wdbgexts.h
+req.construct-type: function
 req.include-header: Wdbgexts.h, Dbgeng.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -40,7 +41,9 @@ api_name:
  - GetCurrentProcessHandle
 ---
 
-# GetCurrentProcessHandle function
+# GetCurrentProcessHandle function (wdbgexts.h)
+
+
 
 
 ## -description

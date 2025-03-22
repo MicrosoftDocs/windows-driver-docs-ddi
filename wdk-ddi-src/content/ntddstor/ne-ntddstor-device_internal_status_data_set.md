@@ -6,6 +6,7 @@ tech.root: storage
 ms.date: 11/30/2019
 ms.keywords: DEVICE_INTERNAL_STATUS_DATA_SET, DEVICE_INTERNAL_STATUS_DATA_SET, *PDEVICE_INTERNAL_STATUS_DATA_SET,
 req.header: ntddstor.h
+req.construct-type: enumeration
 req.include-header: 
 req.target-type: 
 req.target-min-winverclnt: 
@@ -35,7 +36,9 @@ api_name:
  - DEVICE_INTERNAL_STATUS_DATA_SET
 ---
 
-# DEVICE_INTERNAL_STATUS_DATA_SET enumeration
+# DEVICE_INTERNAL_STATUS_DATA_SET enumeration (ntddstor.h)
+
+
 
 
 ## -description

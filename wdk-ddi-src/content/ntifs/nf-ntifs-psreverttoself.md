@@ -8,6 +8,7 @@ ms.date: 04/16/2018
 keywords: ["PsRevertToSelf function"]
 ms.keywords: PsRevertToSelf, PsRevertToSelf routine [Installable File System Drivers], ifsk.psreverttoself, ntifs/PsRevertToSelf, psref_da555465-d8ee-4ae6-af44-cf0af7633458.xml
 req.header: ntifs.h
+req.construct-type: function
 req.include-header: Ntifs.h, FltKernel.h
 req.target-type: Universal
 req.target-min-winverclnt: Windows XP
@@ -40,7 +41,9 @@ api_name:
  - PsRevertToSelf
 ---
 
-# PsRevertToSelf function
+# PsRevertToSelf function (ntifs.h)
+
+
 
 
 ## -description

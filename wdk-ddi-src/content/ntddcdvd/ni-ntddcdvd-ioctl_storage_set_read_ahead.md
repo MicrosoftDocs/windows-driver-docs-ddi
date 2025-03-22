@@ -8,6 +8,7 @@ ms.date: 03/29/2018
 keywords: ["IOCTL_STORAGE_SET_READ_AHEAD IOCTL"]
 ms.keywords: IOCTL_STORAGE_SET_READ_AHEAD, IOCTL_STORAGE_SET_READ_AHEAD control, IOCTL_STORAGE_SET_READ_AHEAD control code [Storage Devices], k307_0112afc4-1b4b-47c1-9ace-1d82a41b120f.xml, ntddcdvd/IOCTL_STORAGE_SET_READ_AHEAD, storage.ioctl_storage_set_read_ahead
 req.header: ntddcdvd.h
+req.construct-type: ioctl
 req.include-header: Ntddcdvd.h
 req.target-type: Windows
 req.target-min-winverclnt: 
@@ -40,7 +41,11 @@ api_name:
  - IOCTL_STORAGE_SET_READ_AHEAD
 ---
 
-# IOCTL_STORAGE_SET_READ_AHEAD IOCTL
+# IOCTL_STORAGE_SET_READ_AHEAD IOCTL (ntddcdvd.h)
+
+
+
+
 
 
 ## -description

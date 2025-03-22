@@ -8,6 +8,7 @@ ms.date: 02/26/2018
 keywords: ["WdfDeviceOpenRegistryKey function"]
 ms.keywords: DFDeviceObjectGeneralRef_ab116304-7951-4b19-b197-3943a4a415db.xml, WdfDeviceOpenRegistryKey, WdfDeviceOpenRegistryKey method, kmdf.wdfdeviceopenregistrykey, wdf.wdfdeviceopenregistrykey, wdfdevice/WdfDeviceOpenRegistryKey
 req.header: wdfdevice.h
+req.construct-type: function
 req.include-header: Wdf.h
 req.target-type: Universal
 req.target-min-winverclnt: 
@@ -43,7 +44,9 @@ api_name:
  - WdfDeviceOpenRegistryKey
 ---
 
-# WdfDeviceOpenRegistryKey function
+# WdfDeviceOpenRegistryKey function (wdfdevice.h)
+
+
 
 
 ## -description

@@ -7,6 +7,7 @@ ms.date: 04/19/2022
 keywords: ["IStiUSD::Escape"]
 ms.keywords: Escape, Escape method [Imaging Devices], Escape method [Imaging Devices],IStiUSD interface, IStiUSD interface [Imaging Devices],Escape method, IStiUSD.Escape, IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, stiusd/IStiUSD::Escape
 req.header: stiusd.h
+req.construct-type: function
 req.include-header: Stiusd.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
@@ -38,6 +39,8 @@ api_location:
 api_name:
  - IStiUSD::Escape
 ---
+
+# IStiUSD::Escape function (stiusd.h)
 
 ## -description
 

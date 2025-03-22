@@ -8,6 +8,7 @@ ms.date: 04/30/2018
 keywords: ["ExQueryDepthSList function"]
 ms.keywords: ExQueryDepthSList, ExQueryDepthSList routine [Kernel-Mode Driver Architecture], k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, kernel.exquerydepthslist, wdm/ExQueryDepthSList
 req.header: wdm.h
+req.construct-type: function
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
@@ -40,7 +41,9 @@ api_name:
  - ExQueryDepthSList
 ---
 
-# ExQueryDepthSList function
+# ExQueryDepthSList function (wdm.h)
+
+
 
 
 ## -description
