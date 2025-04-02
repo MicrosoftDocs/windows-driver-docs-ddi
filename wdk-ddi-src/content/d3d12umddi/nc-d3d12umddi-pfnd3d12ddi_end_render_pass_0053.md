@@ -1,13 +1,12 @@
 ---
 UID: NC:d3d12umddi.PFND3D12DDI_END_RENDER_PASS_0053
 title: PFND3D12DDI_END_RENDER_PASS_0053 (d3d12umddi.h)
-description: The PFND3D12DDI_END_RENDER_PASS_0053 callback function ends a render pass. The function is called by a client driver.
-ms.date: 10/19/2018
-keywords: ["PFND3D12DDI_END_RENDER_PASS_0053 callback function"]
+description: The PFND3D12DDI_END_RENDER_PASS_0053 callback function marks the end of a render pass.
+ms.date: 03/28/2025
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: Windows 10, version 1809
+req.target-min-winverclnt: Windows 10, version 1809 (WDDM 2.5)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,10 +40,9 @@ dev_langs:
 
 # PFND3D12DDI_END_RENDER_PASS_0053 callback function
 
-
 ## -description
 
-Implemented by the client driver to end a Render Pass.
+The user-mode display driver's (UMD) **pfnEndRenderPass** callback function marks the end of an [extended render pass](/windows-hardware/drivers/display/render-passes).
 
 ## -parameters
 
@@ -52,24 +50,8 @@ Implemented by the client driver to end a Render Pass.
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 
-## -prototype
-
-```cpp
-//Declaration
-
-PFND3D12DDI_END_RENDER_PASS_0053 Pfnd3d12ddiEndRenderPass0053; 
-
-// Definition
-
-VOID Pfnd3d12ddiEndRenderPass0053 
-(
-	D3D12DDI_HCOMMANDLIST Arg1
-)
-{...}
-
-```
-
-## -remarks
+For more information, see [Direct3D 12 Render Passes](/windows-hardware/drivers/display/render-passes).
 
 ## -see-also
 
+[**pfnBeginRenderPass**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md)
