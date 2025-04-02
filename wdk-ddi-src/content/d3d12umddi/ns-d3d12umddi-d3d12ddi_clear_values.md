@@ -2,9 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_CLEAR_VALUES
 title: D3D12DDI_CLEAR_VALUES (d3d12umddi.h)
 description: The D3D12DDI_CLEAR_VALUES structure contains values used to optimize clear operations for a particular resource.
-ms.date: 10/19/2018
-keywords: ["D3D12DDI_CLEAR_VALUES structure"]
-ms.keywords: D3D12DDI_CLEAR_VALUES, D3D12DDI_CLEAR_VALUES,
+ms.date: 03/28/2025
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -38,16 +36,15 @@ dev_langs:
 
 # D3D12DDI_CLEAR_VALUES structure
 
-
 ## -description
 
-The D3D12DDI_CLEAR_VALUES structure contains values used to optimize clear operations for a particular resource.
+The **D3D12DDI_CLEAR_VALUES** structure contains values used to optimize clear operations for a particular resource.
 
 ## -struct-fields
 
 ### -field Format
 
-Specifies one member of the [DXGI_FORMAT](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
+Specifies one member of the [**DXGI_FORMAT**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) enumeration.
 
 The format of the commonly cleared color follows the same validation rules as a view/descriptor creation. In general, the format of the clear color can be any format in the same type-less group that the resource format belongs to.
 
@@ -55,13 +52,16 @@ This Format must match the format of the view used during the clear operation. I
 
 ### -field Color
 
-The color value that the driver should clear.
+The color value that the driver should use to clear.
 
 ### -field DepthStencil
 
- 
-Pointer to a [D3D12DDI_DEPTH_STENCIL_VALUES](ns-d3d12umddi-d3d12ddi_depth_stencil_values.md) structure that contains the depth and stencil buffer the driver should clear.
+Pointer to a [**D3D12DDI_DEPTH_STENCIL_VALUES**](ns-d3d12umddi-d3d12ddi_depth_stencil_values.md) structure that contains the depth and stencil buffer the driver should clear.
 
 ## -remarks
 
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+
 ## -see-also
+
+[**D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053**](ns-d3d12umddi-d3d12ddi_render_pass_beginning_access_clear_parameters_0053.md)
