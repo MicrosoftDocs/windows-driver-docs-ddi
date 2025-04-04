@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_COMPONENT_CONTEXT
 tech.root: netvista
 title: PKTMON_COMPONENT_CONTEXT
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_CONTEXT structure holds the context for the component.
 prerelease: false
@@ -51,11 +51,11 @@ The **PKTMON_COMPONENT_CONTEXT** structure holds the context for the component.
 
 ### -field ListLink
 
-A **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)** structure that links to the next component in the list.
+A **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)** structure that links this component to the list of components belonging to this client.
 
 ### -field EdgeList
 
-The list of edges for this component. An edge represents a pair of entry/exit points for a component.
+The list of edges for this component. An edge represents a pair of entry/exit points for a component. Use *EdgeList* to track all the edge contexts that belong to a component and to access these edge contexts.
 
 ### -field EdgeCount
 

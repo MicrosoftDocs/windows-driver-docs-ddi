@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntHeaderInfoDrop
 tech.root: netvista
 title: PktMonClntHeaderInfoDrop
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntHeaderInfoDrop function logs that a network packet was dropped.
 prerelease: false
@@ -69,9 +69,19 @@ Indicates the packet direction. Each component reports packets in two directions
 
 Integer that indicates the reason for the packet to be dropped.
 
+| Value | Usage |
+|--|--|
+| 0 - 0x7FFFFFFF | Reserved for Microsoft. |
+| 0x80000000 - 0xFFFFFFFF | Free to be used. |
+
 ### -param LocationCode
 
 Integer that indicates the location where the packet was dropped.
+
+| Value | Usage |
+|--|--|
+| 0 - 0x7FFFFFFF | Free to be used. |
+| 0x80000000 - 0xFFFFFFFF | Reserved for Microsoft. |
 
 ### -param Context
 

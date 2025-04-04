@@ -2,9 +2,9 @@
 UID: NF:pktmonclntk.PktMonClntAddEdge
 tech.root: netvista
 title: PktMonClntAddEdge
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
-description: 
+description: The **PktMonClntAddEdge** function adds an edge to a Packet Monitor component.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PktMonClntAddEdge** function adds an edge to a Packet Monitor component. An edge represents a pair of entry/exit points for a component. It can be referred to as a boundary for a component. Each component registers its lower or/and upper edge.
+The **PktMonClntAddEdge** function adds an edge to a Packet Monitor component. An edge represents a pair of entry/exit points for a component. It can be referred to as a boundary for a component. Each component optionally registers its lower or/and upper edge.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns a `
 
 ## -remarks
 
-An edge represents a pair of entry and exit points for a component. It can be referred to as a boundary for a component. Each component registers its lower and/or upper edge. A component can have multiple edges. One call to **PktMonClntAddEdge** should be made for each of these edges.
+An edge represents a pair of entry and exit points for a component. It can be referred to as a boundary for a component. Each component optionally registers its lower and upper edge. A component can have multiple edges. One call to **PktMonClntAddEdge** should be made for each of these edges.
 
 The *ListLink* member of **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)** is used to track all the edge contexts belonging to a component. *ListLink* can be used to access these edge contexts.
 

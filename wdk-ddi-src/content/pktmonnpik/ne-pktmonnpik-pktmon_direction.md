@@ -2,9 +2,9 @@
 UID: NE:pktmonnpik._PKTMON_DIRECTION
 tech.root: netvista
 title: PKTMON_DIRECTION
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
-description: The PKTMON_DIRECTION enum defines the two possible directions in which each component reports packets, IN or OUT.
+description: The **PKTMON_DIRECTION** enum defines the two possible directions in which packets flow into, or out of a component.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -41,17 +41,17 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_DIRECTION** enum defines the two possible directions in which each component reports packets, IN or OUT.
+The **PKTMON_DIRECTION** enum defines the two possible directions in which packets flow into, or out of a component.
 
 ## -enum-fields
 
 ### -field PktMonDir_In
 
-Specifies the in direction.
+Specifies packets flowing into the component.
 
 ### -field PktMonDir_Out
 
-Specifies the out direction.
+Specifies packets flowing out of the component.
 
 ## -remarks
 

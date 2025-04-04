@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_EDGE_CONTEXT
 tech.root: netvista
 title: PKTMON_EDGE_CONTEXT
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_EDGE_CONTEXT structure holds the context for an edge.
 prerelease: false
@@ -51,7 +51,7 @@ The **PKTMON_EDGE_CONTEXT** structure holds the context for an edge.
 
 ### -field ListLink
 
-A **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)** structure that is used to link the edge context to the list of edge contexts that belong to a component. Use *ListLink* to track all the edge contexts that belong to a component and to access these edge contexts.
+A **[LIST_ENTRY](/windows/win32/api/ntdef/ns-ntdef-list_entry)** structure that is used to link the edge context to the list of edge contexts that belong to a component.
 
 ### -field EdgeHandle
 

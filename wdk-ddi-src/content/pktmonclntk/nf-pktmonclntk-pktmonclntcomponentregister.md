@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntComponentRegister
 tech.root: netvista
 title: PktMonClntComponentRegister
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntComponentRegister function registers a component with Packet Monitor, allowing it to monitor and report packet activities.
 prerelease: false
@@ -55,11 +55,11 @@ Pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_cont
 
 ### -param Name
 
-The Packet Monitor client's name.
+The Packet Monitor component's name.
 
 ### -param Description
 
-A description for the Packet Monitor client.
+A description for the Packet Monitor component.
 
 ### -param Type
 
@@ -67,7 +67,7 @@ The type associated with this component. This must be one of the values defined 
 
 ### -param PacketType
 
-The payload type this client deals with. This must be one of the values defined in the **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)** enumeration.
+The packet type this client deals with. This must be one of the values defined in the **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)** enumeration.
 
 ## -returns
 

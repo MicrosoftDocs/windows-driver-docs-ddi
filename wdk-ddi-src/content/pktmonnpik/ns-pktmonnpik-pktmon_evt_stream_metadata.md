@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_EVT_STREAM_METADATA
 tech.root: netvista
 title: PKTMON_EVT_STREAM_METADATA
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_EVT_STREAM_METADATA structure contains metadata information used for event streaming.
 prerelease: false
@@ -71,7 +71,7 @@ Packet Payload type as [PKTMON_PACKET_TYPE](ne-pktmonnpik-pktmon_packet_type.md)
 
 ### -field ComponentId
 
-ID of component or data source that reported the packet.
+ID of the component that reported the packet.
 
 ### -field EdgeId
 

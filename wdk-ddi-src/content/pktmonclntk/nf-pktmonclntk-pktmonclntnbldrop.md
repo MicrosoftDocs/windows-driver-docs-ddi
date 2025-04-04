@@ -2,7 +2,7 @@
 UID: NF:pktmonclntk.PktMonClntNblDrop
 tech.root: netvista
 title: PktMonClntNblDrop
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntNblDrop function logs that a network packet was dropped.
 prerelease: false
@@ -67,7 +67,7 @@ Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-
 
 ### -param UseOnlyFirstNbl
 
-When TRUE, indicates that only the first NBL in NetBufferList should be used. Otherwise, all NBLs are used.
+When TRUE, indicates that only the first NBL in NetBufferList was dropped. Otherwise, all NBLs were dropped.
 
 ### -param Direction
 
@@ -77,9 +77,19 @@ Indicates the packet direction. Each component reports packets in two directions
 
 Integer that indicates the reason for the packet to be dropped.
 
+| Value | Usage |
+|--|--|
+| 0 - 0x7FFFFFFF | Reserved for Microsoft. |
+| 0x80000000 - 0xFFFFFFFF | Free to be used. |
+
 ### -param LocationCode
 
 Integer that indicates the location where the packet got dropped.
+
+| Value | Usage |
+|--|--|
+| 0 - 0x7FFFFFFF | Free to be used. |
+| 0x80000000 - 0xFFFFFFFF | Reserved for Microsoft. |
 
 ## -remarks
 

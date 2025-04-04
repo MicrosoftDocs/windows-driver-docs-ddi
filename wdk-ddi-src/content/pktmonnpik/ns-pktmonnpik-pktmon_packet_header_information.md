@@ -2,7 +2,7 @@
 UID: NS:pktmonnpik._PKTMON_PACKET_HEADER_INFORMATION
 tech.root: netvista
 title: PKTMON_PACKET_HEADER_INFORMATION
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_PACKET_HEADER_INFORMATION struct contains the packet header information.
 prerelease: false
@@ -75,7 +75,7 @@ The local port for the UDP protocol.
 
 ### -field Transport.Udp.PortRemote
 
-The renmote port for the UDP protocol.
+The remote port for the UDP protocol.
 
 ### -field Transport.Tcp
 

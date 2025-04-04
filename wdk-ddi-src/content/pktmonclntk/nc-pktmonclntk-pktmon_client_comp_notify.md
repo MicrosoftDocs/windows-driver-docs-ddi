@@ -2,9 +2,9 @@
 UID: NC:pktmonclntk.PKTMON_CLIENT_COMP_NOTIFY
 tech.root: netvista
 title: PKTMON_CLIENT_COMP_NOTIFY
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
-description: 
+description: Callback function that Packet Monitor calls to notify a component of changes to it's tracing enablement.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -46,13 +46,13 @@ helpviewer_keywords:
 
 ## -description
 
-Callback function that Packet Monitor calls to notify a component.
+Callback function that Packet Monitor calls to notify a component of changes to it's tracing enablement.
 
 ## -parameters
 
 ### -param CompContext
 
-A pointer to a [PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md) structure containing to context for the component.
+A pointer to a [PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md) structure containing context for the component.
 
 ## -remarks
 

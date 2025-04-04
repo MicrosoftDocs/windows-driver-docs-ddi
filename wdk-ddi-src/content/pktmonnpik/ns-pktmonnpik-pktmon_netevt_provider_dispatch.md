@@ -2,9 +2,9 @@
 UID: NS:pktmonnpik._PKTMON_NETEVT_PROVIDER_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_DISPATCH
-ms.date: 03/14/2025
+ms.date: 04/04/2025
 targetos: Windows
-description: The PKTMON_NETEVT_PROVIDER_DISPATCH structure contains a Packet Monitor NMR provider dispatch table.
+description: The PKTMON_NETEVT_PROVIDER_DISPATCH structure contains a Packet Monitor NetEvt NMR provider dispatch table.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_NETEVT_PROVIDER_DISPATCH** structure contains a Packet Monitor NMR provider dispatch table.
+The **PKTMON_NETEVT_PROVIDER_DISPATCH** structure contains a Packet Monitor NetEvt NMR provider dispatch table.
 
 ## -struct-fields
 
