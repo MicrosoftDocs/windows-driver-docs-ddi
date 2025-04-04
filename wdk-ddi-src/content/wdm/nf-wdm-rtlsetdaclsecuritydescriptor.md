@@ -65,6 +65,8 @@ Whether to indicate that a DACL is present in the security descriptor. If this p
 
 A pointer to the DACL for the security descriptor. If this parameter is <b>NULL</b>, the DACL pointer in the security descriptor is set to <b>NULL</b>. A <b>NULL</b> DACL pointer unconditionally grants all access to an object and is not the same as an empty DACL. An empty DACL denies all access to an object. If <i>Dacl</i> is non-<b>NULL</b>, the <a href="/windows-hardware/drivers/ddi/wdm/ns-wdm-_acl">ACL</a> structure supplied by the caller is referenced by, but not copied into, the security descriptor. The caller can allocate the <b>ACL</b> structure from paged system memory, and can call the <a href="/windows-hardware/drivers/ddi/ntifs/nf-ntifs-rtlcreateacl">RtlCreateAcl</a> routine to initialize the structure.
 
+❗**WARNING**❗ Setting a <b>NULL</b> DACL allows unrestricted access the object and, therefore, should only be used in strategic scenarios where a security evaluation has validated that this is an acceptable outcome.  Consider using an <b>*empty*</b> DACL, which defaults to all access being denied by default.
+
 ### -param DaclDefaulted [in, optional]
 
 
