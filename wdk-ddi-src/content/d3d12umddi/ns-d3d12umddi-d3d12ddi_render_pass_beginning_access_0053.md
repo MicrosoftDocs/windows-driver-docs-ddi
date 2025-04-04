@@ -2,9 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053
 title: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 (d3d12umddi.h)
 description: Learn more about the D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 structure.
-ms.date: 07/02/2024
-keywords: ["D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053 structure"]
-ms.keywords: D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053, D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053,
+ms.date: 03/28/2025
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -40,7 +38,7 @@ dev_langs:
 
 ## -description
 
-The **D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053** structure specifies the resources needed to start a render pass.
+The **D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_0053** structure specifies the access to the render target view(s) (RTVs) requested at the transition into a render pass.
 
 ## -struct-fields
 
@@ -54,10 +52,12 @@ A [**D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_CLEAR_PARAMETERS_0053**](ns-d3d12umdd
 
 ### -field PreserveLocal
 
-A **D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_PRESERVE_LOCAL_PARAMETERS_0101** structure with parameters for a local data preserve operation.
+A [**D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_PRESERVE_LOCAL_PARAMETERS_0101**](ns-d3d12umddi-d3d12ddi_render_pass_beginning_access_preserve_local_parameters_0101.md) structure with parameters for preserving a local portion of a resource at the beginning of a render pass.
 
 ## -remarks
 
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+
 ## -see-also
 
-[**PFND3D12DDI_BEGIN_RENDER_PASS_0053**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md)
+[**pfnBeginRenderPass**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md)

@@ -2,9 +2,7 @@
 UID: NE:d3d12umddi.D3D12DDIARG_RENDER_PASS_FLAGS_0053
 title: D3D12DDIARG_RENDER_PASS_FLAGS_0053 (d3d12umddi.h)
 description: Learn more about the D3D12DDIARG_RENDER_PASS_FLAGS_0053 enumeration.
-ms.date: 05/20/2024
-keywords: ["D3D12DDIARG_RENDER_PASS_FLAGS_0053 enumeration"]
-ms.keywords: D3D12DDIARG_RENDER_PASS_FLAGS_0053, D3D12DDIARG_RENDER_PASS_FLAGS_0053,
+ms.date: 03/28/2025
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
@@ -69,6 +67,8 @@ The stencil aspect of a DSV should be bound as read-only during the render pass.
 
 A render pass can be both resuming and suspending.
 
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+
 ## -see-also
 
-[**PFND3D12DDI_BEGIN_RENDER_PASS_0053**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md)
+[**pfnBeginRenderPass**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md)
