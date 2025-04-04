@@ -1,0 +1,70 @@
+---
+UID: NC:pktmonclntk.PKTMON_CLNT_NBL_LOG
+tech.root: netvista
+title: PKTMON_CLNT_NBL_LOG
+ms.date: 03/14/2025
+targetos: Windows
+description: Function pointer to PktMonClntNblLog.
+prerelease: false
+req.assembly: 
+req.construct-type: function
+req.ddi-compliance: 
+req.dll: 
+req.header: pktmonclntk.h
+req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.namespace: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.type-library: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - LibDef
+api_location:
+ - pktmonclntk.h
+api_name:
+ - PKTMON_CLNT_NBL_LOG
+f1_keywords:
+ - PKTMON_CLNT_NBL_LOG
+ - pktmonclntk/PKTMON_CLNT_NBL_LOG
+dev_langs:
+ - c
+ - c++
+helpviewer_keywords:
+ - PKTMON_CLNT_NBL_LOG
+---
+
+## -description
+
+Function pointer to [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md).
+
+## -parameters
+
+### -param EdgeContext
+
+### -param NetBufferList
+
+### -param PacketType
+
+### -param PacketHeaderInformation
+
+### -param UseOnlyFirstNbl
+
+### -param Direction
+
+## -remarks
+
+This function pointer is used by Microsoft for internal testing. Use the actual [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md) function instead.
+
+## -see-also
+
+- [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md)
