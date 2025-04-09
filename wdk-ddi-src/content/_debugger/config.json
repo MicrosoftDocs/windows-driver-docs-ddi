@@ -1,6 +1,7 @@
 {
   "tech": "debugger",
   "headers": [
+    "arrayofelements.h",
     "dbgeng.h",
     "dbgmodel.h",
     "engextcpp.hpp",
