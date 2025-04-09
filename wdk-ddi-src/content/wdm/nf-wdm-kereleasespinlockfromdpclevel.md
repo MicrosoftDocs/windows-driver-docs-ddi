@@ -2,15 +2,14 @@
 UID: NF:wdm.KeReleaseSpinLockFromDpcLevel~r1
 title: KeReleaseSpinLockFromDpcLevel macro (wdm.h)
 description: Learn how the KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
-old-location: kernel\kereleasespinlockfromdpclevel.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/09/2025
 keywords: ["KeReleaseSpinLockFromDpcLevel macro"]
 ms.keywords: KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,37 +39,40 @@ api_name:
  - KeReleaseSpinLockFromDpcLevel
 ---
 
-# KeReleaseSpinLockFromDpcLevel macro
-
-
 ## -description
 
-The <b>KeReleaseSpinLockFromDpcLevel</b> routine releases an executive spin lock without changing the IRQL.
+The **KeReleaseSpinLockFromDpcLevel** routine releases an executive spin lock without changing the IRQL.
 
 ## -parameters
 
 ### -param SpinLock [in, out]
 
-
 Pointer to an executive KSPIN_LOCK spin lock for which the caller provides the storage.
 
 ## -remarks
 
-Drivers call <b>KeReleaseSpinLockFromDpcLevel</b> to release a spin lock acquired by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>.
+Drivers call **KeReleaseSpinLockFromDpcLevel** to release a spin lock acquired by calling [KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md).
 
-It is an error to call <b>KeReleaseSpinLockFromDpcLevel</b> if the specified spin lock was acquired by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> because the caller's original IRQL is not restored, which can cause deadlocks or fatal page faults.
+It is an error to call **KeReleaseSpinLockFromDpcLevel** if the specified spin lock was acquired by calling [KeAcquireSpinLock](nf-wdm-keacquirespinlock.md) because the caller's original IRQL is not restored, which can cause deadlocks or fatal page faults.
 
-For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/spin-locks).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
+[KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)
 
+[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)
 
+[KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>
+[KefAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-kefacquireinstackqueuedspinlockatdpclevel.md)
 
+[KefReleaseSpinLockFromDpcLevel](nf-wdm-kefreleasespinlockfromdpclevel.md)
 
+[KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
+[KeReleaseSpinLock](nf-wdm-kereleasespinlock.md)
 
+[KeTryToAcquireSpinLockAtDpcLevel](nf-wdm-ketrytoacquirespinlockatdpclevel.md)
+
+[Spin Locks](/windows-hardware/drivers/kernel/spin-locks)

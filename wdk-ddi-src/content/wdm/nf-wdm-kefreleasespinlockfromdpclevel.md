@@ -1,16 +1,15 @@
 ---
 UID: NF:wdm.KefReleaseSpinLockFromDpcLevel
 title: KefReleaseSpinLockFromDpcLevel function (wdm.h)
-description: The KeReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
-old-location: kernel\kereleasespinlockfromdpclevel.htm
+description: The KefReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/09/2025
 keywords: ["KefReleaseSpinLockFromDpcLevel function"]
-ms.keywords: KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel
+ms.keywords: KefReleaseSpinLockFromDpcLevel, KefReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kefreleasespinlockfromdpclevel, wdm/KefReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -26,7 +25,6 @@ req.dll: NtosKrnl.exe
 req.irql: DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
-ms.custom: RS5
 f1_keywords:
  - KefReleaseSpinLockFromDpcLevel
  - wdm/KefReleaseSpinLockFromDpcLevel
@@ -41,37 +39,40 @@ api_name:
  - KefReleaseSpinLockFromDpcLevel
 ---
 
-# KefReleaseSpinLockFromDpcLevel function
-
-
 ## -description
 
-The <b>KeReleaseSpinLockFromDpcLevel</b> routine releases an executive spin lock without changing the IRQL.
+The **KefReleaseSpinLockFromDpcLevel** routine releases an executive spin lock without changing the IRQL.
 
 ## -parameters
 
 ### -param SpinLock [in, out]
 
-
 Pointer to an executive spin lock for which the caller provides the storage.
 
 ## -remarks
 
-Drivers call <b>KeReleaseSpinLockFromDpcLevel</b> to release a spin lock acquired by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>.
+Drivers call **KefReleaseSpinLockFromDpcLevel** to release a spin lock acquired by calling [KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md).
 
-It is an error to call <b>KeReleaseSpinLockFromDpcLevel</b> if the specified spin lock was acquired by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a> because the caller's original IRQL is not restored, which can cause deadlocks or fatal page faults.
+It is an error to call **KefReleaseSpinLockFromDpcLevel** if the specified spin lock was acquired by calling [KeAcquireSpinLock](nf-wdm-keacquirespinlock.md) because the caller's original IRQL is not restored, which can cause deadlocks or fatal page faults.
 
-For more information about spin locks, see <a href="/windows-hardware/drivers/kernel/spin-locks">Spin Locks</a>.
+For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/spin-locks).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlock">KeAcquireSpinLock</a>
+[KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)
 
+[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)
 
+[KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-keacquirespinlockatdpclevel">KeAcquireSpinLockAtDpcLevel</a>
+[KefAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-kefacquireinstackqueuedspinlockatdpclevel.md)
 
+[KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)
 
+[KeReleaseSpinLock](nf-wdm-kereleasespinlock.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-kereleasespinlock">KeReleaseSpinLock</a>
+[KeReleaseSpinLockFromDpcLevel](nf-wdm-kereleasespinlockfromdpclevel.md)
 
+[KeTryToAcquireSpinLockAtDpcLevel](nf-wdm-ketrytoacquirespinlockatdpclevel.md)
+
+[Spin Locks](/windows-hardware/drivers/kernel/spin-locks)
