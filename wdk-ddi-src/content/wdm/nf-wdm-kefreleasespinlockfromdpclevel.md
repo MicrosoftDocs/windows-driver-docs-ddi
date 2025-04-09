@@ -65,7 +65,7 @@ For more information about spin locks, see [Spin Locks](/windows-hardware/driver
 
 [KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md)
 
-[KefAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-kefacquireinstackqueuedspinlockatdpclevel.md)
+[KefAcquireSpinLockAtDpcLevel](nf-wdm-kefacquirespinlockatdpclevel.md)
 
 [KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)
 
