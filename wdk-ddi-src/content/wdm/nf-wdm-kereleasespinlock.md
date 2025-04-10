@@ -66,6 +66,6 @@ Callers of this routine are running at IRQL = DISPATCH_LEVEL. On return from **K
 
 [**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md)
 
-[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock)
+[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock.md)
 
 [Spin Locks](/windows-hardware/drivers/kernel/spin-locks)

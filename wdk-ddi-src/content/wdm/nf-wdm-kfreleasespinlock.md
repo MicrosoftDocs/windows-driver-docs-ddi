@@ -64,7 +64,7 @@ For more information about spin locks, see [Spin Locks](/windows-hardware/driver
 
 [**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md)
 
-[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock)
+[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock.md)
 
 [**KeReleaseSpinLock**](nf-wdm-kereleasespinlock.md)
 

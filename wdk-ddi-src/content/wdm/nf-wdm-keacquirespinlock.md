@@ -78,7 +78,7 @@ Attempting to acquire a spin lock recursively is guaranteed to cause a deadlock.
 
 [**KeAcquireSpinLockAtDpcLevel**](nf-wdm-keacquirespinlockatdpclevel.md)
 
-[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock)
+[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock.md)
 
 [**KeReleaseSpinLock**](nf-wdm-kereleasespinlock.md)
 
