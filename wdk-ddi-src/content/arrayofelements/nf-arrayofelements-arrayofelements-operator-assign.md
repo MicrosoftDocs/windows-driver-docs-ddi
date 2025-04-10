@@ -1,75 +1,65 @@
 ---
 UID: NF:arrayofelements.ArrayOfElements.operator-assign
 title: operator= function (arrayofelements.h)
-description: The operator= overloaded assignment operator sets the typed data represented by the ExtRemoteTyped object by copying the information from another object.
-old-location: debugger\extremotetyped_operatorequals_debug_typed_data.htm
-tech.root: debugger
-ms.date: 07/22/2022
-keywords: ["operator= function"]
-ms.keywords: ExtRemoteTyped class [Windows Debugging], operator= method, debugger.extremotetyped_operatorequals_debug_typed_data, operator=, operator= method [Windows Debugging], operator= method [Windows Debugging], ExtRemoteTyped class
-req.header: arrayofelements.hpp
-req.include-header: Engextcpp.hpp, Wexlogtrace.h, Wextestclass.h, Wextestclass.h
-req.target-type: Desktop
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+tech.root: netvista
+title: ArrayOfElements::operator=
+ms.date: 04/10/2025
+targetos: Windows
+description: "This ArrayOfElements::operator= operator is a equal assignment operator of the ArrayOfElements class."
+prerelease: false
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: 
+req.header: arrayofelements.h
 req.idl: 
+req.include-header: 
+req.irql: 
+req.kmdf-ver: 
+req.lib: 
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
 req.type-library: 
-req.lib: NtosKrnl.exe
-req.dll: 
-req.irql: 
-targetos: Windows
-req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - arrayofelements.h
+api_name:
+ - ArrayOfElements::operator=
 f1_keywords:
  - ArrayOfElements::operator=
  - arrayofelements/ArrayOfElements::operator=
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - COM
-api_location:
- - arrayofelements.hpp
-api_name:
- - ArrayOfElements::operator=
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - operator=
 ---
-
-# operator= function
 
 ## -description
 
-The **operator=** overloaded assignment operator sets the typed data represented by the [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) object by copying the information from another object.
+This **ArrayOfElements::operator=** operator is a equal assignment operator of the ArrayOfElements class. 
 
 ## -parameters
 
-## -param unnamedParam1
+### -param unnamedParam1
 
-A pointer to a **[DEBUG_TYPED_DATA](../wdbgexts/ns-wdbgexts-_debug_typed_data.md)** structure that describes the data and type to be assigned to this object.
+ArrayOfElements<ContentType>&: A constant reference to a ArrayOfElements object whose content is to be copied.
+ 
 
 ## -returns
 
-**operator=**  returns the [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md) object.
+A reference (ArrayOfElements<ContentType>&) to the object into which the content is copied.
 
-## -syntax
-
-```cpp
-ExtRemoteTyped & operator=(
-  [in] const DEBUG_TYPED_DATA *Typed
-);
-```
-
-## -remarks
-
-The typed data can also be copied using the [ExtRemoteTyped::Copy(Debug Typed Data)](..\engextcpp\nf-engextcpp-extbuffer-copy.md) or [ExtRemoteTyped::Copy(ExtRemoteTyped)](..\engextcpp\nf-engextcpp-extbuffer-copy.md) methods.
+STATUS
 
 ## -see-also
 
-- [ExtRemoteTyped](..\engextcpp\nl-engextcpp-extremotetyped.md)
-- [ExtRemoteTyped::Operator= (ExtRemoteTyped)](..\wextestclass\nf-wextestclass-fixtureinvokefunctor-operator=.md)
-- [DEBUG_TYPED_DATA](..\wdbgexts\ns-wdbgexts-_debug_typed_data.md)
+
