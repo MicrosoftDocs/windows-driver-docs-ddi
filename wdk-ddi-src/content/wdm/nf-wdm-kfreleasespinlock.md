@@ -2,9 +2,9 @@
 UID: NF:wdm.KfReleaseSpinLock
 tech.root: kernel
 title: KfReleaseSpinLock
-ms.date: 04/08/2025
+ms.date: 04/10/2025
 targetos: Windows
-description: 
+description: The KfReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,22 +44,30 @@ helpviewer_keywords:
 
 ## -description
 
-TBD
+The **KfReleaseSpinLock** routine releases a spin lock and restores the original IRQL at which the caller was running.
 
 ## -parameters
 
 ### -param SpinLock
 
-TBD
+Pointer to a KSPIN_LOCK spin lock for which the caller provides the storage.
 
 ### -param NewIrql
 
-TBD
+Specifies the KIRQL value saved from the preceding call to [**KfAcquireSpinLock**](nf-wdm-kfacquirespinlock.md).
 
 ## -remarks
 
-TBD
+For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/spin-locks).
 
 ## -see-also
 
-TBD
+[**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md)
+
+[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock)
+
+[**KeReleaseSpinLock**](nf-wdm-kereleasespinlock.md)
+
+[**KfAcquireSpinLock**](nf-wdm-kfacquirespinlock.md)
+
+[Spin Locks](/windows-hardware/drivers/kernel/spin-locks)
