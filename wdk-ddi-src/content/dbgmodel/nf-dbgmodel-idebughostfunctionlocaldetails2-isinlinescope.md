@@ -2,7 +2,7 @@
 UID: NF:dbgmodel.IDebugHostFunctionLocalDetails2.IsInlineScope
 tech.root: debugger
 title: IDebugHostFunctionLocalDetails2::IsInlineScope
-ms.date: 01/29/2025
+ms.date: 04/21/2025
 targetos: Windows
 description: The IsInlineScope method determines if the local variable is scoped within an inlined function.
 prerelease: false
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The IsInlineScope method determines if the local variable is scoped within an inlined function. This will always return false unless the [EnumerateLocalsDetailsEx method](nf-dbgmodel-idebughostfunctionlocaldetails3-enumeratelocalsdetailsex.md) is called with 'enumerateInlinedLocals' set to true.
+The IsInlineScope method determines if the local variable is scoped within an inlined function. This will always return false unless the [EnumerateLocalsDetailsEx method](nf-dbgmodel-idebughostfunctionintrospection3-enumeratelocalsdetailsex.md) is called with 'enumerateInlinedLocals' set to true.
 
 ## -returns
 
