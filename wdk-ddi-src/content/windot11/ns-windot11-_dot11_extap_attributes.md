@@ -187,9 +187,6 @@ typedef struct _DOT11_EXTAP_ATTRIBUTES {
 [OID_DOT11_DESIRED_BSSID_LIST](/windows-hardware/drivers/network/oid-dot11-desired-bssid-list)
 
 
-[DOT11_EXTAP_ATTRIBUTES](..\windot11\ns-windot11-_dot11_extap_attributes.md)
-
-
 
 [DOT11_COUNTRY_OR_REGION_STRING](/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string)
 
