@@ -135,9 +135,5 @@ typedef struct _DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS {
 
 
 
-<a href="..\windot11\ns-windot11-_dot11_send_provision_discovery_request_parameters.md">DOT11_SEND_PROVISION_DISCOVERY_REQUEST_PARAMETERS</a>
-
-
-
 <a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-provision-discovery-request-send-complete">NDIS_STATUS_DOT11_WFD_PROVISION_DISCOVERY_REQUEST_SEND_COMPLETE</a>
 

@@ -122,11 +122,6 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
-   Dot11ExtIhvOneXIndicateResult</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
 

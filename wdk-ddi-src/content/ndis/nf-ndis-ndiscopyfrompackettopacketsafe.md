@@ -85,7 +85,7 @@ Pointer to the caller-supplied variable in which this function returns the numbe
 
 Return value: None
 
-Drivers should call [**NdisCopyFromPacketToPacketSafe**](nf-ndis-ndiscopyfrompackettopacketsafe.md) instead of **NdisCopyFromPacketToPacket**. NDIS 5.1 miniport drivers must call **NdisCopyFromPacketToPacketSafe** instead of **NdisCopyFromPacketToPacket**. Unlike **NdisCopyFromPacketToPacket**, **NdisCopyFromPacketToPacketSafe** does not cause a bug check if system resources are low or exhausted.
+Drivers should call **NdisCopyFromPacketToPacketSafe** instead of **NdisCopyFromPacketToPacket**. NDIS 5.1 miniport drivers must call **NdisCopyFromPacketToPacketSafe** instead of **NdisCopyFromPacketToPacket**. Unlike **NdisCopyFromPacketToPacket**, **NdisCopyFromPacketToPacketSafe** does not cause a bug check if system resources are low or exhausted.
 
 The caller of **NdisCopyFromPacketToPacket** allocates the destination packet, if not the source packet as well. The packet descriptor of the destination packet should have enough chained buffer descriptors to receive the data.
 
@@ -102,7 +102,6 @@ The driver must release any spin lock it is holding before calling **NdisCopyFro
 
 - [**NdisAllocateBuffer**](nf-ndis-ndisallocatebuffer.md)
 - [**NdisAllocatePacket**](https://msdn.microsoft.com/library/ff550774\(v=vs.85\))
-- [**NdisCopyFromPacketToPacketSafe**](nf-ndis-ndiscopyfrompackettopacketsafe.md)
 - [**NdisMoveMemory**](https://msdn.microsoft.com/library/Ff563625)
 - [**NDIS\_OOB\_DATA\_FROM\_PACKET**](https://msdn.microsoft.com/library/ff557084\(v=vs.85\))
 - [**NDIS\_PACKET\_OOB\_DATA**](https://msdn.microsoft.com/library/ff557105\(v=vs.85\))
