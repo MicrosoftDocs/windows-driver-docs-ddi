@@ -73,11 +73,5 @@ The typed data can also be copied using the <a href="..\engextcpp\nf-engextcpp-e
 
 <a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
-
-
-<a href="..\wextestclass\nf-wextestclass-fixtureinvokefunctor-operator-assign.md">ExtRemoteTyped::Operator= (ExtRemoteTyped)</a>
-
-
-
 <a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 

@@ -60,7 +60,7 @@ An [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS](ns-acxcircuit-acx_factory_circuit_pn
 
 NOTE: At this time this DDI is not supported. Do not use it at this time.
 
-Before calling AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks, your driver should initialize its ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure by calling [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md). The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure is used as input to the [AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks method](nf-acxcircuit-acxfactorycircuitinitsetacxcircuitpnppowercallbacks.md).
+Before calling AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks, your driver should initialize its ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure by calling [ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS_INIT](nf-acxcircuit-acx_factory_circuit_pnppower_callbacks_init.md). The ACX_FACTORY_CIRCUIT_PNPPOWER_CALLBACKS structure is used as input to the `AcxFactoryCircuitInitSetAcxCircuitPnpPowerCallbacks method`.
 
 ### Example
 

@@ -54,7 +54,7 @@ For more information about working with WDF request objects, see [Creating Frame
 
 ### -param Parameters
 
-An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure that is initialized with the WDFREQUEST.
+An [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that is initialized with the WDFREQUEST.
 
 ## -remarks
 
