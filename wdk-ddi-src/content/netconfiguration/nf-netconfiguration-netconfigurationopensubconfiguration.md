@@ -78,5 +78,3 @@ The client driver closes the sub configuration by calling [NetConfigurationClose
 
 [NetAdapterOpenConfiguration](../netadapter/nf-netadapter-netadapteropenconfiguration.md)
 
-[NetConfigurationOpenSubConfiguration](nf-netconfiguration-netconfigurationopensubconfiguration.md)
-

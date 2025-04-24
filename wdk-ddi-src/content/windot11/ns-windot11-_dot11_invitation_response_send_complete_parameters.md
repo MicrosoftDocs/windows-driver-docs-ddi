@@ -116,9 +116,6 @@ typedef struct _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS {
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_invitation_response_send_complete_parameters.md">DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS</a>
-
-
 
 <a href="/windows-hardware/drivers/network/oid-dot11-wfd-send-invitation-response">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
