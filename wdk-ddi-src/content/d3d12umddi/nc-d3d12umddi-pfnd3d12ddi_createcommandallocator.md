@@ -2,12 +2,11 @@
 UID: NC:d3d12umddi.PFND3D12DDI_CREATECOMMANDALLOCATOR
 title: PFND3D12DDI_CREATECOMMANDALLOCATOR (d3d12umddi.h)
 description: Creates a command allocator.
-ms.date: 10/19/2018
-keywords: ["PFND3D12DDI_CREATECOMMANDALLOCATOR callback function"]
+ms.date: 04/25/2025
 req.header: d3d12umddi.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows Vista (WDDM 1.0)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -41,43 +40,34 @@ dev_langs:
 
 # PFND3D12DDI_CREATECOMMANDALLOCATOR callback function
 
-
 ## -description
 
-Creates a command allocator.
+The user-mode display driver's (UMD) **pfnCreateCommandAllocator** function creates a command allocator.
 
 ## -parameters
 
 ### -param unnamedParam1
 
-A handle to the display device (graphics context).
+[in] A handle to the display device (graphics context).
 
 ### -param unnamedParam2
 
-Pointer to a D3D12DDIARG_CREATECOMMANDALLOCATOR structure.
+[in] Pointer to a [**D3D12DDIARG_CREATECOMMANDALLOCATOR**](ns-d3d12umddi-d3d12ddiarg_createcommandallocator.md) structure that describes the command allocator to create.
 
 ## -returns
 
-Returns HRESULT.
+**pfnCreateCommandAllocator** returns an HRESULT value.
 
-## -prototype
+## -remarks
 
-```cpp
-//Declaration
+The command allocator corresponds to the underlying allocations in which GPU command lists are stored. It applies to both direct and bundle command lists.
 
-PFND3D12DDI_CREATECOMMANDALLOCATOR Pfnd3d12ddiCreatecommandallocator; 
+## -see-also
 
-// Definition
+[**D3D12DDIARG_CREATECOMMANDALLOCATOR**](ns-d3d12umddi-d3d12ddiarg_createcommandallocator.md)
 
-HRESULT Pfnd3d12ddiCreatecommandallocator 
-(
-	 D3D12DDI_HDEVICE
-	CONST D3D12DDIARG_CREATECOMMANDALLOCATOR *
-)
-{...}
+[**pfnCalcPrivateCommandAllocatorSize**](nc-d3d12umddi-pfnd3d12ddi_calcprivatecommandallocatorsize.md)
 
-PFND3D12DDI_CREATECOMMANDALLOCATOR 
+[**pfnDestroyCommandAllocator**](nc-d3d12umddi-pfnd3d12ddi_destroycommandallocator.md)
 
-
-```
-
+[**pfnResetCommandAllocator**](nc-d3d12umddi-pfnd3d12ddi_resetcommandallocator.md)
