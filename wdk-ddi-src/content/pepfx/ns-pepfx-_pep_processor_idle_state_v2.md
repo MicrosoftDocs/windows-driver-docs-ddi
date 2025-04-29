@@ -4,7 +4,7 @@ title: _PEP_PROCESSOR_IDLE_STATE_V2 (pepfx.h)
 description: The PEP_PROCESSOR_IDLE_STATE_V2 structure describes a processor idle state that the platform extension plug-in (PEP) supports.
 old-location: kernel\pep_processor_idle_state_v2.htm
 tech.root: kernel
-ms.date: 08/10/2022
+ms.date: 04/29/2025
 keywords: ["PEP_PROCESSOR_IDLE_STATE_V2 structure"]
 ms.keywords: "*PPEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2, PEP_PROCESSOR_IDLE_STATE_V2 structure [Kernel-Mode Driver Architecture], PPEP_PROCESSOR_IDLE_STATE_V2, PPEP_PROCESSOR_IDLE_STATE_V2 structure pointer [Kernel-Mode Driver Architecture], _PEP_PROCESSOR_IDLE_STATE_V2, kernel.pep_processor_idle_state_v2, pepfx/PEP_PROCESSOR_IDLE_STATE_V2, pepfx/PPEP_PROCESSOR_IDLE_STATE_V2"
 req.header: pepfx.h
@@ -84,7 +84,7 @@ Whether the transition to this processor idle state can be performed only as par
 
 ### -field Autonomous
 
-Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a [PEP_NOTIFY_PPM_TEST_IDLE_STATE](./ns-pepfx-_pep_ppm_test_idle_state.md), [PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE](./ns-pepfx-_pep_processor_idle_state_v2.md), or [PEP_NOTIFY_PPM_IDLE_COMPLETE](./ns-pepfx-_pep_ppm_idle_complete.md) notification. This flag can be set to 1 only if *CStateType* is nonzero.
+Whether a coordinated transition to this processor idle state is performed autonomously by the processor hardware. Set this flag bit to 1 if these transitions are autonomous, and to 0 if they are not. A flag value of 1 indicates that the idle state can be entered without sending a [PEP_NOTIFY_PPM_TEST_IDLE_STATE](./ns-pepfx-_pep_ppm_test_idle_state.md), **PEP_NOTIFY_PPM_IDLE_PRE_EXECUTE**, or [PEP_NOTIFY_PPM_IDLE_COMPLETE](./ns-pepfx-_pep_ppm_idle_complete.md) notification. This flag can be set to 1 only if *CStateType* is nonzero.
 
 ### -field Reserved
 

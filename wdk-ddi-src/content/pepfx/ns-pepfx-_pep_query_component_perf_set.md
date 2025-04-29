@@ -4,7 +4,7 @@ title: _PEP_QUERY_COMPONENT_PERF_SET (pepfx.h)
 description: The PEP_QUERY_COMPONENT_PERF_SET structure contains query information about a set of performance state values (P-state set) for a component.
 old-location: kernel\pep_query_component_perf_set.htm
 tech.root: kernel
-ms.date: 08/10/2022
+ms.date: 04/29/2025
 keywords: ["PEP_QUERY_COMPONENT_PERF_SET structure"]
 ms.keywords: "*PPEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET, PEP_QUERY_COMPONENT_PERF_SET structure [Kernel-Mode Driver Architecture], PPEP_QUERY_COMPONENT_PERF_SET, PPEP_QUERY_COMPONENT_PERF_SET structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_COMPONENT_PERF_SET, kernel.pep_query_component_perf_set, pepfx/PEP_QUERY_COMPONENT_PERF_SET, pepfx/PPEP_QUERY_COMPONENT_PERF_SET"
 req.header: pepfx.h
@@ -100,13 +100,12 @@ The maximum value in the range of performance values for this P-state set. This 
 
 ## -remarks
 
-This structure is used by the [PEP_DPM_QUERY_COMPONENT_PERF_SET](./ns-pepfx-_pep_query_component_perf_set.md) notification. The *DeviceHandle*, *Component*, *Set*, and *Flags* members contain input values that are supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is sent. The *Discrete* member or *Range* member contains an output value that the PEP writes to the structure in response to the notification.
+This structure is used by the **PEP_DPM_QUERY_COMPONENT_PERF_SET** notification. The *DeviceHandle*, *Component*, *Set*, and *Flags* members contain input values that are supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is sent. The *Discrete* member or *Range* member contains an output value that the PEP writes to the structure in response to the notification.
 
 The unnamed union contains either the number of discrete performance values in this P-state set, or the range of values in this P-state set.
 
 ## -see-also
 
 - [PEP_DEVICE_REGISTER_V2](./ns-pepfx-_pep_device_register_v2.md)
-- [PEP_DPM_QUERY_COMPONENT_PERF_SET](./ns-pepfx-_pep_query_component_perf_set.md)
 - [PEP_DPM_REGISTER_DEVICE](./ns-pepfx-_pep_register_crashdump_device.md)
 - [PEP_PERF_STATE_TYPE](./ne-pepfx-_pep_perf_state_type.md) [PEP_PERF_STATE_UNIT](./ne-pepfx-_pep_perf_state_unit.md)

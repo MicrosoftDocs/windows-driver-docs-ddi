@@ -4,7 +4,7 @@ title: _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE (pepfx.h)
 description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
-ms.date: 08/09/2022
+ms.date: 04/29/2025
 keywords: ["PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure"]
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 req.header: pepfx.h
@@ -48,7 +48,6 @@ api_name:
 
 # _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure (pepfx.h)
 
-
 ## -description
 
 The **PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE** structure contains an enumeration of the objects in the namespace of the device.
@@ -81,7 +80,7 @@ The first element in an array of [PEP_ACPI_OBJECT_NAME_WITH_TYPE](./ns-pepfx-_pe
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE](./ns-pepfx-_pep_acpi_enumerate_device_namespace.md) notification. The **RequestFlags** and **ObjectBufferSize** members contain input values supplied by PoFx when the notification is sent. The PEP may overwrite the **ObjectBufferSize** input value with an output value if the input value is less than the required output buffer size. The **Status**, **ObjectCount**, and **Objects** members contain output values that the PEP writes to the structure.
+This structure is used by the **PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE** notification. The **RequestFlags** and **ObjectBufferSize** members contain input values supplied by PoFx when the notification is sent. The PEP may overwrite the **ObjectBufferSize** input value with an output value if the input value is less than the required output buffer size. The **Status**, **ObjectCount**, and **Objects** members contain output values that the PEP writes to the structure.
 
 **ObjectCount** is the number of objects listed in the ACPI namespace under this device. The PEP should verify that the storage allocated by PoFx for the **Objects** array is large enough to contain **ObjectCount** array elements. If `ObjectCount > 1`, the additional ObjectCount–1 array elements follow the end of the **PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE** structure. The buffer size required to contain the structure and additional array elements is calculated as follows:
 
@@ -94,5 +93,4 @@ If the input value specified in the **ObjectBufferSize** member is less than the
 ## -see-also
 
 - [PEP_ACPI_OBJECT_NAME_WITH_TYPE](./ns-pepfx-_pep_acpi_object_name_with_type.md)
-- [PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE](./ns-pepfx-_pep_acpi_enumerate_device_namespace.md)
 - [PEP_NOTIFY_ACPI_REGISTER_DEVICE](./ns-pepfx-_pep_acpi_register_device.md)
