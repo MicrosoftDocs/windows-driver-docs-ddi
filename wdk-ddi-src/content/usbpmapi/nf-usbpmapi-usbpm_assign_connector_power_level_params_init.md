@@ -42,7 +42,7 @@ api_name:
 
 ## -description
 
-Initializes a **USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS** structure. The client driver must call this function before calling [**UsbPm_AssignConnectorPowerLevel**](nf-usbpmapi-usbpm_assignconnectorpowerlevel.md).
+Initializes a **[USBPM_ASSIGN_CONNECTOR_POWER_LEVEL_PARAMS](ns-usbpmapi-_usbpm_assign_connector_power_level_params.md)** structure. The client driver must call this function before calling [**UsbPm_AssignConnectorPowerLevel**](nf-usbpmapi-usbpm_assignconnectorpowerlevel.md).
 
 ## -parameters
 

@@ -72,7 +72,7 @@ The actual value read from the counter.
 
 ## -remarks
 
-This structure is used by the  notification. The *CounterIndex* member of the structure contains an input value supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the *InstantaneousValue* member if the counter generates an instantaneous value, or to the *NominalCount* and *ActualCount* members if the counter generates a relative value.
+This structure is used by the **PEP_NOTIFY_PPM_FEEDBACK_READ** notification. The *CounterIndex* member of the structure contains an input value supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the *InstantaneousValue* member if the counter generates an instantaneous value, or to the *NominalCount* and *ActualCount* members if the counter generates a relative value.
 
 Both an instantaneous counter and a relative counter are reset to zero when power is first turned on, but reading a relative counter causes the count to reset to zero, whereas reading an instantaneous counter does not reset the count. The PEP previously indicated whether the counter is instantaneous or relative in response to a [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](./ns-pepfx-_pep_ppm_query_feedback_counters.md) notification.
 

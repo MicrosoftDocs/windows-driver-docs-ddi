@@ -56,7 +56,7 @@ The handle to the hub.
 
 ### -param HubConnectorHandles [Out]
 
-A pointer to a **USBPM_HUB_CONNECTOR_HANDLES** structures that contains the connector handles. Initialize this structure by calling **[USBPM_HUB_CONNECTOR_HANDLES_INIT](nf-usbpmapi-usbpm_hub_connector_handles_init.md)**. The array is allocated by the Policy Manager is valid during the life time of the hub. The client driver must not change the array or release the array after use.
+A pointer to a **[USBPM_HUB_CONNECTOR_HANDLES](ns-usbpmapi-_usbpm_hub_connector_handles.md)** structures that contains the connector handles. Initialize this structure by calling **[USBPM_HUB_CONNECTOR_HANDLES_INIT](nf-usbpmapi-usbpm_hub_connector_handles_init.md)**. The array is allocated by the Policy Manager is valid during the life time of the hub. The client driver must not change the array or release the array after use.
 
 ## -returns
 
