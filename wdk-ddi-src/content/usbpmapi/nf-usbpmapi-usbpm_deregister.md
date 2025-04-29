@@ -2,7 +2,7 @@
 UID: NF:usbpmapi.UsbPm_Deregister
 title: UsbPm_Deregister function (usbpmapi.h)
 description: Unregisters the client driver with the Policy Manager.
-ms.date: 09/30/2018
+ms.date: 04/29/2025
 keywords: ["UsbPm_Deregister function"]
 ms.keywords: UsbPm_Deregister
 tech.root: usbref
@@ -40,7 +40,6 @@ api_name:
 
 # UsbPm_Deregister function
 
-
 ## -description
 
 Unregisters the client driver with the Policy Manager.
@@ -49,18 +48,18 @@ Unregisters the client driver with the Policy Manager.
 
 ### -param ClientHandle [In]
 
-The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
+The handle that the client driver received in a previous call to **[UsbPm_Register](nf-usbpmapi-usbpm_register.md)**.
 
 ## -returns
 
-Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) value.
+Returns STATUS_SUCCESS if the operation succeeds. Otherwise, returns an appropriate **[NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values)** value.
 
 ## -remarks
 
-[**UsbPm_Deregister**] does not return until all outstanding calls to the client driver's callback functions are returned. After **UsbPm_Deregister** returns, Policy Manager no longer invokes callback functions on the same handle.
+**UsbPm_Deregister** does not return until all outstanding calls to the client driver's callback functions are returned. After **UsbPm_Deregister** returns, Policy Manager no longer invokes callback functions on the same handle.
 
-The driver typically calls **UsbPm_Register** in the driver's [**EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT**](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md) and unregisters in [**EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP**](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md) by calling [**UsbPm_Deregister**](nf-usbpmapi-usbpm_deregister.md).
+The driver typically calls **[UsbPm_Register](nf-usbpmapi-usbpm_register.md)** in the driver's **[EVT_WDF_DEVICE_SELF_MANAGED_IO_INIT](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_init.md)** and unregisters in **[EVT_WDF_DEVICE_SELF_MANAGED_IO_CLEANUP](../wdfdevice/nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md)** by calling **UsbPm_Deregister**.
 
 ## -see-also
 
-[**UsbPm_Register**](nf-usbpmapi-usbpm_register.md)
+- **[UsbPm_Register](nf-usbpmapi-usbpm_register.md)**

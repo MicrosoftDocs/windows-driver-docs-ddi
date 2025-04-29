@@ -4,7 +4,7 @@ title: _PEP_PPM_FEEDBACK_READ (pepfx.h)
 description: The PEP_PPM_FEEDBACK_READ structure contains the value read from a processor performance feedback counter.
 old-location: kernel\pep_ppm_feedback_read.htm
 tech.root: kernel
-ms.date: 08/10/2022
+ms.date: 04/29/2025
 keywords: ["PEP_PPM_FEEDBACK_READ structure"]
 ms.keywords: "*PPEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ, PEP_PPM_FEEDBACK_READ structure [Kernel-Mode Driver Architecture], PPEP_PPM_FEEDBACK_READ, PPEP_PPM_FEEDBACK_READ structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_FEEDBACK_READ, kernel.pep_ppm_feedback_read, pepfx/PEP_PPM_FEEDBACK_READ, pepfx/PPEP_PPM_FEEDBACK_READ"
 req.header: pepfx.h
@@ -72,7 +72,7 @@ The actual value read from the counter.
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_PPM_FEEDBACK_READ](./ns-pepfx-_pep_ppm_feedback_read.md) notification. The *CounterIndex* member of the structure contains an input value supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the *InstantaneousValue* member if the counter generates an instantaneous value, or to the *NominalCount* and *ActualCount* members if the counter generates a relative value.
+This structure is used by the **PEP_NOTIFY_PPM_FEEDBACK_READ** notification. The *CounterIndex* member of the structure contains an input value supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is set. The other members contain output values that the PEP writes to the structure in response to the notification. The PEP writes to the *InstantaneousValue* member if the counter generates an instantaneous value, or to the *NominalCount* and *ActualCount* members if the counter generates a relative value.
 
 Both an instantaneous counter and a relative counter are reset to zero when power is first turned on, but reading a relative counter causes the count to reset to zero, whereas reading an instantaneous counter does not reset the count. The PEP previously indicated whether the counter is instantaneous or relative in response to a [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](./ns-pepfx-_pep_ppm_query_feedback_counters.md) notification.
 
@@ -83,5 +83,4 @@ The unnamed struct contains the nominal accumulated count and actual count, if t
 ## -see-also
 
 - [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](./ns-pepfx-_pep_ppm_query_capabilities.md)
-- [PEP_NOTIFY_PPM_FEEDBACK_READ](./ns-pepfx-_pep_ppm_feedback_read.md)
 - [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](./ns-pepfx-_pep_ppm_query_feedback_counters.md)
