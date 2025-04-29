@@ -4,7 +4,7 @@ title: _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES (pepfx.h)
 description: The PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure contains a list of translated power-control resources for the platform extension plug-in (PEP) to use.
 old-location: kernel\pep_acpi_translated_device_control_resources.htm
 tech.root: kernel
-ms.date: 08/09/2022
+ms.date: 04/29/2025
 keywords: ["PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure"]
 ms.keywords: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
 req.header: pepfx.h
@@ -76,10 +76,9 @@ A [CM_RESOURCE_LIST](../wdm/ns-wdm-_cm_resource_list.md) structure that serves a
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES](./ns-pepfx-_pep_acpi_translated_device_control_resources.md) notification to provide the PEP with a list of translated power control resources. The **RequestFlags**, **TranslatedResourcesSize**, and **TranslatedResources** members of the structure contain input values that the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) supplies when this notification is sent. The **Status** member contains an output value that the PEP writes to the structure in response to the notification.
+This structure is used by the **PEP_NOTIFY_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES** notification to provide the PEP with a list of translated power control resources. The **RequestFlags**, **TranslatedResourcesSize**, and **TranslatedResources** members of the structure contain input values that the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) supplies when this notification is sent. The **Status** member contains an output value that the PEP writes to the structure in response to the notification.
 
 ## -see-also
 
 - [CM_RESOURCE_LIST](../wdm/ns-wdm-_cm_resource_list.md)
 - [PEP_NOTIFY_ACPI_REGISTER_DEVICE](./ns-pepfx-_pep_acpi_register_device.md)
-- [PEP_NOTIFY_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES](./ns-pepfx-_pep_acpi_translated_device_control_resources.md)
