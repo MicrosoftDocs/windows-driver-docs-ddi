@@ -2,15 +2,14 @@
 UID: NF:wdm.RtlUnicodeStringToAnsiSize
 title: RtlUnicodeStringToAnsiSize macro (wdm.h)
 description: The RtlUnicodeStringToAnsiSize routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
-old-location: kernel\rtlunicodestringtoansisize.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/28/2025
 keywords: ["RtlUnicodeStringToAnsiSize macro"]
 ms.keywords: RtlUnicodeStringToAnsiSize, RtlUnicodeStringToAnsiSize routine [Kernel-Mode Driver Architecture], k109_3a436ab4-80f1-4fb2-b4b6-98b4dc1ba1f1.xml, kernel.rtlunicodestringtoansisize, wdm/RtlUnicodeStringToAnsiSize
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows 2000 and later versions of Windows.
+req.target-min-winverclnt:
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -40,29 +39,24 @@ api_name:
  - RtlUnicodeStringToAnsiSize
 ---
 
-# RtlUnicodeStringToAnsiSize macro
-
-
 ## -description
 
-The <b>RtlUnicodeStringToAnsiSize</b> routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
+The **RtlUnicodeStringToAnsiSize**> routine returns the number of bytes required for a null-terminated ANSI string that is equivalent to a specified Unicode string.
 
 ## -parameters
 
 ### -param STRING [in]
 
-
 Pointer to the Unicode string for which to compute the number of bytes required for an equivalent null-terminated ANSI string.
 
 ## -remarks
 
-If the Unicode string can be translated into an ANSI string using the current system locale information, [**RtlUnicodeStringToAnsiSize**](nf-wdm-rtlunicodestringtoansisize.md) returns the number of bytes required for an equivalent null-terminated ANSI string. Otherwise, [**RtlUnicodeStringToAnsiSize**](nf-wdm-rtlunicodestringtoansisize.md) returns zero.
-
+If the Unicode string can be translated into an ANSI string using the current system locale information, **RtlUnicodeStringToAnsiSize** returns the number of bytes required for an equivalent null-terminated ANSI string. Otherwise, **RtlUnicodeStringToAnsiSize** returns zero.
 
 The Unicode string is interpreted for the current system locale.
 
-<b>RtlUnicodeStringToAnsiSize</b> performs the same operation as <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxunicodestringtoansisize">RtlxUnicodeStringToAnsiSize</a>, but executes faster if the system does not use multibyte code pages.
+**RtlUnicodeStringToAnsiSize** performs the same operation as [**RtlxUnicodeStringToAnsiSize**](nf-wdm-rtlxunicodestringtoansisize.md), but executes faster if the system does not use multibyte code pages.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlxunicodestringtoansisize">RtlxUnicodeStringToAnsiSize</a>
+[**RtlxUnicodeStringToAnsiSize**](nf-wdm-rtlxunicodestringtoansisize.md)
