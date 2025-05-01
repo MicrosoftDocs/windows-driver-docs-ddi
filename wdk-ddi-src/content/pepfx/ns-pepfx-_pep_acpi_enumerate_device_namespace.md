@@ -4,7 +4,7 @@ title: _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE (pepfx.h)
 description: The PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure contains an enumeration of the objects in the namespace of the device.
 old-location: kernel\pep_acpi_enumerate_device_namespace.htm
 tech.root: kernel
-ms.date: 04/29/2025
+ms.date: 05/01/2025
 keywords: ["PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure"]
 ms.keywords: "*PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, kernel.pep_acpi_enumerate_device_namespace, pepfx/PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE, pepfx/PPEP_ACPI_ENUMERATE_DEVICE_NAMESPACE"
 req.header: pepfx.h
@@ -88,7 +88,7 @@ This structure is used by the **PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE** not
 sizeof(PEP_ACPI_ENUMERATE_DEVICE_NAMESPACE) + ((ObjectCount-1) * sizeof(PEP_ACPI_OBJECT_NAME_WITH_TYPE));
 ```
 
-If the input value specified in the **ObjectBufferSize** member is less than the required size, the PEP overwrites the **ObjectBufferSize** input value with the required size, and sets the **Status** member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will allocate a buffer of the required size and send a second [PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE](ns-pepfx-_pep_acpi_enumerate_device_namespace.md) notification to the PEP for this device.
+If the input value specified in the **ObjectBufferSize** member is less than the required size, the PEP overwrites the **ObjectBufferSize** input value with the required size, and sets the **Status** member to STATUS_BUFFER_TOO_SMALL. In response, PoFx will allocate a buffer of the required size and send a second **PEP_NOTIFY_ACPI_ENUMERATE_DEVICE_NAMESPACE** notification to the PEP for this device.
 
 ## -see-also
 
