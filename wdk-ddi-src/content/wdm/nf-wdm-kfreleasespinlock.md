@@ -2,7 +2,7 @@
 UID: NF:wdm.KfReleaseSpinLock
 tech.root: kernel
 title: KfReleaseSpinLock
-ms.date: 04/10/2025
+ms.date: 05/05/2025
 targetos: Windows
 description: The KfReleaseSpinLock routine releases a spin lock and restores the original IRQL at which the caller was running.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:wdm.KfAcquireSpinLock
 tech.root: kernel
 title: KfAcquireSpinLock
-ms.date: 04/10/2025
+ms.date: 05/05/2025
 targetos: Windows
 description: The KfAcquireSpinLock routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:wdm.KefAcquireSpinLockAtDpcLevel
 tech.root: kernel
 title: KefAcquireSpinLockAtDpcLevel
-ms.date: 04/08/2025
+ms.date: 05/05/2025
 targetos: Windows
 description: The KefAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
 prerelease: false
