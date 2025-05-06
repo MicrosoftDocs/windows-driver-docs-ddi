@@ -58,7 +58,7 @@ A [**D3D12DDI_RENDER_PASS_ENDING_ACCESS_0053**](ns-d3d12umddi-d3d12ddi_render_pa
 
 This structure is declared at the start of a Render Pass.
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 

@@ -68,7 +68,7 @@ This version of the user-mode display driver's (UMD) **pfnBeginRenderPass** call
 
 ## -remarks
 
-For the [extended render passes feature](/windows-hardware/drivers/display/render-passes), the [**PFND3D12DDI_BEGIN_RENDER_PASS_0053**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md) function is called instead.
+For the [extended render passes feature](/windows-hardware/drivers/display/d3d12-render-passes), the [**PFND3D12DDI_BEGIN_RENDER_PASS_0053**](nc-d3d12umddi-pfnd3d12ddi_begin_render_pass_0053.md) function is called instead.
 
 The caller of **pfnBeginRenderPass** must provide all Resources that the user declared. These resources can be one or both of the following:
 

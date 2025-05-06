@@ -67,7 +67,7 @@ The stencil aspect of a DSV should be bound as read-only during the render pass.
 
 A render pass can be both resuming and suspending.
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 
