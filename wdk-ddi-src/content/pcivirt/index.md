@@ -32,7 +32,7 @@ When a driver running on the VF requests a configuration space read or write, th
 
 The stack uses an I/O MMU to differentiate traffic coming from the various interfaces that the device exposes, enforcing policy about which regions of memory a device can access and which interrupts it can generate.
 
-:::image type="content" source="../images/pcivirt.png" alt-text="PCI virtualization.":::
+:::image type="content" source="../images/pcivirt.png" alt-text="Diagram showing PCI virtualization.":::
 
 ## Hardware requirements
 
