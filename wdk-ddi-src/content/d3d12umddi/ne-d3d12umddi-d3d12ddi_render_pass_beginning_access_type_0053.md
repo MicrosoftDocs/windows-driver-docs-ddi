@@ -109,7 +109,7 @@ The end of the previous pass must specify [**D3D12DDI_RENDER_PASS_ENDING_ACCESS_
 
 ## -remarks
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 

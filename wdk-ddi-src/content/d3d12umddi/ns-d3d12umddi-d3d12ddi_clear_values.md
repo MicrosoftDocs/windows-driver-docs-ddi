@@ -60,7 +60,7 @@ Pointer to a [**D3D12DDI_DEPTH_STENCIL_VALUES**](ns-d3d12umddi-d3d12ddi_depth_st
 
 ## -remarks
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 
