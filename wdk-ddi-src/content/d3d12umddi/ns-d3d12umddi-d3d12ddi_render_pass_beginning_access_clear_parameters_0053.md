@@ -50,7 +50,7 @@ A [**D3D12DDI_CLEAR_VALUES**](ns-d3d12umddi-d3d12ddi_clear_values.md) structure 
 
 This structure is used when the beginning access [**Type**](ns-d3d12umddi-d3d12ddi_render_pass_beginning_access_0053.md) for a resource within a render pass is **D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053_CLEAR**.
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 

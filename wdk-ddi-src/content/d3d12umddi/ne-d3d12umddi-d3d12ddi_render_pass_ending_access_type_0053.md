@@ -89,7 +89,7 @@ This value must be paired with the [**D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE
 
 ## -remarks
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 
