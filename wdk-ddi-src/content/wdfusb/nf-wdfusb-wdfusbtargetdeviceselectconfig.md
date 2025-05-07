@@ -4,7 +4,7 @@ title: WdfUsbTargetDeviceSelectConfig function (wdfusb.h)
 description: The WdfUsbTargetDeviceSelectConfig method selects a USB configuration for a device, or it deconfigures the device.
 old-location: wdf\wdfusbtargetdeviceselectconfig.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 05/07/2025
 keywords: ["WdfUsbTargetDeviceSelectConfig function"]
 ms.keywords: DFUsbRef_9f390705-2077-43ca-a1b9-0be087c86619.xml, WdfUsbTargetDeviceSelectConfig, WdfUsbTargetDeviceSelectConfig method, kmdf.wdfusbtargetdeviceselectconfig, wdf.wdfusbtargetdeviceselectconfig, wdfusb/WdfUsbTargetDeviceSelectConfig
 req.header: wdfusb.h
@@ -211,7 +211,7 @@ status = WdfUsbTargetDeviceSelectConfig(
     &configParams
 );
 
-if (!NT_SUCCESS(status)) {
+if (settingPairs != NULL) {
     ExFreePoolWithTag(
         settingPairs,
         MY_DRIVER_TAG
