@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddvdeo._PANEL_QUERY_BRIGHTNESS_RANGES
-title: _PANEL_QUERY_BRIGHTNESS_RANGES (ntddvdeo.h)
+title: PANEL_QUERY_BRIGHTNESS_RANGES (ntddvdeo.h)
 description: Queries a list of supported nit ranges.
 tech.root: display
-ms.date: 10/19/2018
-keywords: ["PANEL_QUERY_BRIGHTNESS_RANGES structure"]
-ms.keywords: _PANEL_QUERY_BRIGHTNESS_RANGES, PANEL_QUERY_BRIGHTNESS_RANGES, *PPANEL_QUERY_BRIGHTNESS_RANGES,
+ms.date: 05/09/2025
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: 
@@ -39,24 +37,26 @@ api_name:
  - PANEL_QUERY_BRIGHTNESS_RANGES
 ---
 
-# _PANEL_QUERY_BRIGHTNESS_RANGES structure
-
+# PANEL_QUERY_BRIGHTNESS_RANGES structure
 
 ## -description
 
-Queries a list of supported nit ranges.
+The **PANEL_QUERY_BRIGHTNESS_RANGES** structure contains a list of supported nit ranges.
 
 ## -struct-fields
 
+### -field Version
+
+a [**BRIGHTNESS_INTERFACE_VERSION**](ne-ntddvdeo-_brightness_interface_version.md) value that specifies the target interface version. This value should always be DXGK_BRIGHTNESS_INTERFACE_VERSION_3.
+
 ### -field BrightnessLevel
 
-The level of brightness.
+A [**BRIGHTNESS_LEVEL**](ns-ntddvdeo-_brightness_level.md) structure for the list of supported brightness levels of the display panel.
 
 ### -field NitRanges
 
-A list of supported nit ranges of the display panel.
+A [**BRIGHTNESS_NIT_RANGE**](ns-ntddvdeo-_brightness_nit_range.md) structure for the supported nit ranges of the display panel.
 
-### -field Version
+## - see-also
 
-The target version. This value should always be DXGK_BRIGHTNESS_INTERFACE_VERSION_3.
-
+[**IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES**](ni-ntddvdeo-ioctl_panel_query_brightness_ranges.md)

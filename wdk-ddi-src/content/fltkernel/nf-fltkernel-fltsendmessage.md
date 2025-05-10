@@ -7,8 +7,8 @@ ms.date: 05/02/2025
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
-req.target-min-winverclnt: Microsoft Windows 2000 Update Rollup 1 for SP4, Windows XP SP2, Windows Server 2003 SP1, and later operating systems.
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows 2000 Update Rollup 1 for SP4, Windows XP SP2
+req.target-min-winversvr: Windows Server 2003 SP1
 req.kmdf-ver: 
 req.umdf-ver: 
 req.ddi-compliance: 
@@ -82,7 +82,6 @@ A positive value specifies an absolute time, relative to January 1, 1601. A nega
 | Return code | Description |
 | ----------- | ----------- |
 | STATUS_BUFFER_OVERFLOW        | A miniport-allocated buffer wasn't large enough. This is an error code. |
-
 | STATUS_INSUFFICIENT_RESOURCES | **FltSendMessage** encountered a pool allocation failure. This is an error code. |
 | STATUS_PORT_DISCONNECTED      | The communication port has been disconnected. This is an error code. |
 | STATUS_THREAD_IS_TERMINATING  | The wait was interrupted because the thread has been terminated by an application or user. |
