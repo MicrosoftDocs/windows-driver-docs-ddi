@@ -1,11 +1,9 @@
 ---
 UID: NS:ntddvdeo._BRIGHTNESS_LEVEL
-title: _BRIGHTNESS_LEVEL (ntddvdeo.h)
+title: BRIGHTNESS_LEVEL (ntddvdeo.h)
 description: Contains information about the brightness level.
 tech.root: display
-ms.date: 08/03/2018
-keywords: ["BRIGHTNESS_LEVEL structure"]
-ms.keywords: _BRIGHTNESS_LEVEL, *PBRIGHTNESS_LEVEL, BRIGHTNESS_LEVEL,
+ms.date: 05/09/2025
 req.header: ntddvdeo.h
 req.include-header: 
 req.target-type: 
@@ -39,12 +37,11 @@ api_name:
  - BRIGHTNESS_LEVEL
 ---
 
-# _BRIGHTNESS_LEVEL structure
-
+# BRIGHTNESS_LEVEL structure
 
 ## -description
 
-Contains information about the brightness level.
+A **BRIGHTNESS_LEVEL** structure contains the brightness levels of a display panel.
 
 ## -struct-fields
 
@@ -54,5 +51,10 @@ The number of brightness levels in the array.
 
 ### -field Level
 
-The brightness level to transition to.
+Array of brightness levels. The number of elements in this array is specified by the **Count** member.
 
+## - see-also
+
+[**IOCTL_PANEL_QUERY_BRIGHTNESS_RANGES**](ni-ntddvdeo-ioctl_panel_query_brightness_ranges.md)
+
+[**PANEL_QUERY_BRIGHTNESS_RANGES**](ns-ntddvdeo-_panel_query_brightness_ranges.md)
