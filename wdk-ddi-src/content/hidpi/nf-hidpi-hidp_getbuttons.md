@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_GetButtons
 title: HidP_GetButtons macro
-author: windows-driver-content
 description: The HidP_GetButtons macro is a mnemonic alias for the HHidP_GetUsages function.
 tech.root: hid
 ms.assetid: 56255105-7dc3-4cc8-9dd0-d0c57339993e

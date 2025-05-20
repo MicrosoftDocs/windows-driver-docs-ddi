@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsUsoIPv4Enabled
 title: NetOffloadIsUsoIPv4Enabled function (netadapteroffload.h)
-author: windows-driver-content
 description: The NetOffloadIsUsoIPv4Enabled function determines whether a net adapter has UDP send offload (USO) enabled for IPv4 packets.
 tech.root: netvista
 ms.date: 10/09/2020

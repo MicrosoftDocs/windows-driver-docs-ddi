@@ -1,7 +1,6 @@
 ---
 UID: NF:hidpi.HidP_SetButtons
 title: HidP_SetButtons macro
-author: windows-driver-content
 description: The HidP_SetButtons macro is a mnemonic alias for the HidP_SetUsages function.
 tech.root: hid
 ms.assetid: 60bba768-dde1-4e31-a30a-fbf977aeb750

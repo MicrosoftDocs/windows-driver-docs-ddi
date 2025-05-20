@@ -1,7 +1,6 @@
 ---
 UID: NF:iddcx.IddCxAdapterDisplayConfigUpdate
 title: IddCxAdapterDisplayConfigUpdate function
-author: windows-driver-content
 description: Learn more about the IddCxAdapterDisplayConfigUpdate function.
 tech.root: display
 ms.date: 09/24/2020
