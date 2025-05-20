@@ -2,7 +2,7 @@
 UID: NF:wdm.KefAcquireSpinLockAtDpcLevel
 tech.root: kernel
 title: KefAcquireSpinLockAtDpcLevel
-ms.date: 05/05/2025
+ms.date: 05/20/2025
 targetos: Windows
 description: The KefAcquireSpinLockAtDpcLevel routine acquires a spin lock when the caller is already running at IRQL >= DISPATCH_LEVEL.
 prerelease: false
@@ -54,30 +54,22 @@ Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide
 
 ## -remarks
 
-Drivers call **KefAcquireSpinLockAtDpcLevel** instead of [KeAcquireSpinLock](nf-wdm-keacquirespinlock.md) for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
+Drivers call **KefAcquireSpinLockAtDpcLevel** instead of **[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)** for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
 
 If a driver is running at IRQL <= APC_LEVEL, it should call KeAcquireSpinLock to have IRQL raised by that routine. KefAcquireSpinLockAtDpcLevel assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
 
-The caller should release the spin lock with [KefReleaseSpinLockFromDpcLevel](nf-wdm-kefreleasespinlockfromdpclevel.md) as quickly as possible.
+The caller should release the spin lock with **[KefReleaseSpinLockFromDpcLevel](nf-wdm-kefreleasespinlockfromdpclevel.md)** as quickly as possible.
 
 For more information about spin locks, see [Spin Locks](/windows-hardware/drivers/kernel/introduction-to-spin-locks).
 
 ## -see-also
 
-[KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)
-
-[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)
-
-[KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md)
-
-[KefReleaseSpinLockFromDpcLevel](nf-wdm-kefreleasespinlockfromdpclevel.md)
-
-[KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)
-
-[KeReleaseSpinLock](nf-wdm-kereleasespinlock.md)
-
-[KeReleaseSpinLockFromDpcLevel](nf-wdm-kereleasespinlockfromdpclevel.md)
-
-[KeTryToAcquireSpinLockAtDpcLevel](nf-wdm-ketrytoacquirespinlockatdpclevel.md)
-
-[Spin Locks](/windows-hardware/drivers/kernel/spin-locks)
+- **[KeAcquireInStackQueuedSpinLockAtDpcLevel](nf-wdm-keacquireinstackqueuedspinlockatdpclevel.md)**
+- **[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)**
+- **[KeAcquireSpinLockAtDpcLevel](nf-wdm-keacquirespinlockatdpclevel.md)**
+- **[KefReleaseSpinLockFromDpcLevel](nf-wdm-kefreleasespinlockfromdpclevel.md)**
+- **[KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)**
+- **[KeReleaseSpinLock](nf-wdm-kereleasespinlock.md)**
+- **[KeReleaseSpinLockFromDpcLevel](nf-wdm-kereleasespinlockfromdpclevel.md)**
+- **[KeTryToAcquireSpinLockAtDpcLevel](nf-wdm-ketrytoacquirespinlockatdpclevel.md)**
+- [Spin Locks](/windows-hardware/drivers/kernel/spin-locks)

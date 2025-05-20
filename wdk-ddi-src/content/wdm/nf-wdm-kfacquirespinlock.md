@@ -2,7 +2,7 @@
 UID: NF:wdm.KfAcquireSpinLock
 tech.root: kernel
 title: KfAcquireSpinLock
-ms.date: 05/05/2025
+ms.date: 05/20/2025
 targetos: Windows
 description: The KfAcquireSpinLock routine acquires a spin lock so the caller can synchronize access to shared data in a multiprocessor-safe way by raising IRQL.
 prerelease: false
@@ -60,12 +60,8 @@ For more information about spin locks, see [Spin Locks](/windows-hardware/driver
 
 ## -see-also
 
-[**KeAcquireSpinLock**](nf-wdm-keacquirespinlock.md)
-
-[**KeInitializeSpinLock**](nf-wdm-keinitializespinlock.md)
-
-[**KeReleaseSpinLock**](nf-wdm-kereleasespinlock.md)
-
-[**KfReleaseSpinLock**](nf-wdm-kfreleasespinlock.md)
-
-[Spin Locks](/windows-hardware/drivers/kernel/spin-locks)
+- **[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)**
+- **[KeInitializeSpinLock](nf-wdm-keinitializespinlock.md)**
+- **[KeReleaseSpinLock](nf-wdm-kereleasespinlock.md)**
+- **[KfReleaseSpinLock](nf-wdm-kfreleasespinlock.md)**
+- [Spin Locks](/windows-hardware/drivers/kernel/spin-locks)
