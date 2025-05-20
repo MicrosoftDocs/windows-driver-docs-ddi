@@ -14,7 +14,6 @@ req.idl:
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.kmdf-ver: 
-req.lib: 
 req.max-support: 
 req.namespace: 
 req.redist: 
@@ -57,7 +56,7 @@ Pointer to an initialized KSPIN_LOCK spin lock for which the caller must provide
 
 Drivers call **KefAcquireSpinLockAtDpcLevel** instead of **[KeAcquireSpinLock](nf-wdm-keacquirespinlock.md)** for better driver performance if and only if they are already running at an IRQL of DISPATCH_LEVEL or above.
 
-If a driver is running at IRQL <= APC_LEVEL, it should call KeAcquireSpinLock to have IRQL raised by that routine. KefAcquireSpinLockAtDpcLevel assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
+If a driver is running at IRQL <= APC_LEVEL, it should call KeAcquireSpinLock to have IRQL raised by that routine. **KefAcquireSpinLockAtDpcLevel** assumes the caller is already running at IRQL >= DISPATCH_LEVEL, so no raise is necessary.
 
 The caller should release the spin lock with **[KefReleaseSpinLockFromDpcLevel](nf-wdm-kefreleasespinlockfromdpclevel.md)** as quickly as possible.
 
