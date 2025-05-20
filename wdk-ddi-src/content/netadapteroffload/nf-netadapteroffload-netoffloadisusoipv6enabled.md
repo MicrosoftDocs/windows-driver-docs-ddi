@@ -1,7 +1,6 @@
 ---
 UID: NF:netadapteroffload.NetOffloadIsUsoIPv6Enabled
 title: NetOffloadIsUsoIPv6Enabled function (netadapteroffload.h)
-author: windows-driver-content
 description: The NetOffloadIsUsoIPv6Enabled function determines whether a net adapter has UDP send offload (USO) enabled for IPv6 packets.
 tech.root: netvista
 ms.date: 10/09/2020
