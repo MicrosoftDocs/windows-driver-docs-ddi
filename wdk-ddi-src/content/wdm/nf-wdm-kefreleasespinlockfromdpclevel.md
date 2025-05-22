@@ -3,7 +3,7 @@ UID: NF:wdm.KefReleaseSpinLockFromDpcLevel
 title: KefReleaseSpinLockFromDpcLevel function (wdm.h)
 description: The KefReleaseSpinLockFromDpcLevel routine releases an executive spin lock without changing the IRQL.
 tech.root: kernel
-ms.date: 05/20/2025
+ms.date: 05/21/2025
 keywords: ["KefReleaseSpinLockFromDpcLevel function"]
 ms.keywords: KefReleaseSpinLockFromDpcLevel, KefReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], KefReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, kernel.kefreleasespinlockfromdpclevel, wdm/KefReleaseSpinLockFromDpcLevel, wdm/KefReleaseSpinLockFromDpcLevel
 req.header: wdm.h
@@ -34,7 +34,7 @@ topic_type:
 api_type:
  - DllExport
 api_location:
- - NtosKrnl.exe
+ - wdm.h
 api_name:
  - KefReleaseSpinLockFromDpcLevel
 ---
