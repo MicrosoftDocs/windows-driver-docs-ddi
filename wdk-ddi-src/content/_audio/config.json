@@ -25,6 +25,7 @@
     "ksmedia.h",
     "portcls.h",
     "sidebandaudio.h",
+    "soundwireclass.h",
     "usbsidebandaudio.h"
   ],
   "displayName": "Audio"

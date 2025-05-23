@@ -10,6 +10,8 @@
     "ucxclass.h",
     "ucxcontroller.h",
     "ucxendpoint.h",
+    "ucxfuncenum.h",
+    "ucxglobals.h",
     "ucxroothub.h",
     "ucxsstreams.h",
     "ucxusbdevice.h",
