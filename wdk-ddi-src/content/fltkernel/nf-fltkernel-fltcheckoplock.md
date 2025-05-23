@@ -51,7 +51,7 @@ An opaque oplock pointer for the file. This pointer must have been initialized b
 
 ### -param CallbackData [in]
 
-A pointer to the callback data ([**FLT_CALLBACK_DATA**](/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data)) structure for the I/O operation.
+A pointer to the callback data ([**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md)) structure for the I/O operation.
 
 ### -param Context [in, optional]
 
@@ -73,7 +73,7 @@ typedef VOID
 
 where:
 
-* **CallbackData** is a pointer to a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data) structure for the I/O operation.
+* **CallbackData** is a pointer to a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure for the I/O operation.
 
 * **Context** is a context information pointer that was passed in the **Context** parameter to **FltCheckOplock**.
 
@@ -102,9 +102,9 @@ where:
 
 | Return code | Description |
 |-------------|-------------|
-| **FLT_PREOP_COMPLETE** | **FltCheckOplock** encountered a pool allocation failure, or a call to the [**FsRtlCheckOplock**](/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize) function returned an error. **FltCheckOplock** will set the error code in the **Status** member of the [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure of the **IoStatus** member of the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data) callback data structure. The **CallbackData** parameter points to this **FLT_CALLBACK_DATA**. |
+| **FLT_PREOP_COMPLETE** | **FltCheckOplock** encountered a pool allocation failure, or a call to the [**FsRtlCheckOplock**](/windows/win32/api/rrascfg/nf-rrascfg-ieapproviderconfig-initialize) function returned an error. **FltCheckOplock** will set the error code in the **Status** member of the [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure of the **IoStatus** member of the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data structure. The **CallbackData** parameter points to this **FLT_CALLBACK_DATA**. |
 | **FLT_PREOP_PENDING** | An oplock break was initiated, which caused the Filter Manager to post the I/O operation to a work queue. The I/O operation is represented by the callback data that the **CallbackData** parameter points to. |
-| **FLT_PREOP_SUCCESS_NO_CALLBACK** | The I/O operation was performed immediately. Be aware that if this operation was a create operation that specified FILE_COMPLETE_IF_OPLOCKED in the create-options parameter, there might actually be an oplock break in progress even though the operation was performed immediately. To determine whether this is the situation, the caller should check the status in the **Status** member of the [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure of the **IoStatus** member of the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data) callback data structure. |
+| **FLT_PREOP_SUCCESS_NO_CALLBACK** | The I/O operation was performed immediately. Be aware that if this operation was a create operation that specified FILE_COMPLETE_IF_OPLOCKED in the create-options parameter, there might actually be an oplock break in progress even though the operation was performed immediately. To determine whether this is the situation, the caller should check the status in the **Status** member of the [**IO_STATUS_BLOCK**](/windows-hardware/drivers/ddi/wdm/ns-wdm-_io_status_block) structure of the **IoStatus** member of the [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) callback data structure. |
 
 ## -remarks
 
