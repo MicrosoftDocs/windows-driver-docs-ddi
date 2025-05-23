@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The **DXGKARG_SUBMITCOMMAND** structure describes the direct memory access (DMA) buffer that a display miniport driver submits to the hardware command execution unit during a call to [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md).
+The **DXGKARG_SUBMITCOMMAND** structure describes the DMA buffer that a display miniport driver (KMD) submits to the hardware command execution unit during a call to its [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) function.
 
 ## -struct-fields
 

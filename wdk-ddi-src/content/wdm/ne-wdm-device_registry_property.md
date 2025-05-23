@@ -2,11 +2,8 @@
 UID: NE:wdm.DEVICE_REGISTRY_PROPERTY
 title: DEVICE_REGISTRY_PROPERTY (wdm.h)
 description: The DEVICE_REGISTRY_PROPERTY enumeration identifies device properties that are stored in the registry.
-old-location: kernel\device_registry_property.htm
 tech.root: kernel
-ms.date: 04/30/2018
-keywords: ["DEVICE_REGISTRY_PROPERTY enumeration"]
-ms.keywords: DEVICE_REGISTRY_PROPERTY, DEVICE_REGISTRY_PROPERTY Enumeration, DEVICE_REGISTRY_PROPERTY enumeration [Kernel-Mode Driver Architecture], DevicePropertyAddress, DevicePropertyAllocatedResources, DevicePropertyBootConfiguration, DevicePropertyBootConfigurationTranslated, DevicePropertyBusNumber, DevicePropertyBusTypeGuid, DevicePropertyClassGuid, DevicePropertyClassName, DevicePropertyCompatibleIDs, DevicePropertyContainerID, DevicePropertyDeviceDescription, DevicePropertyDriverKeyName, DevicePropertyEnumeratorName, DevicePropertyFriendlyName, DevicePropertyHardwareID, DevicePropertyInstallState, DevicePropertyLegacyBusType, DevicePropertyLocationInformation, DevicePropertyManufacturer, DevicePropertyPhysicalDeviceObjectName, DevicePropertyRemovalPolicy, DevicePropertyResourceRequirements, DevicePropertyUINumber, enumeration [Kernel-Mode Driver Architecture], kernel.device_registry_property, sysenum_485e3369-186a-4a71-b13e-be6ff9ab8dce.xml, wdm/, wdm/DevicePropertyAddress, wdm/DevicePropertyAllocatedResources, wdm/DevicePropertyBootConfiguration, wdm/DevicePropertyBootConfigurationTranslated, wdm/DevicePropertyBusNumber, wdm/DevicePropertyBusTypeGuid, wdm/DevicePropertyClassGuid, wdm/DevicePropertyClassName, wdm/DevicePropertyCompatibleIDs, wdm/DevicePropertyContainerID, wdm/DevicePropertyDeviceDescription, wdm/DevicePropertyDriverKeyName, wdm/DevicePropertyEnumeratorName, wdm/DevicePropertyFriendlyName, wdm/DevicePropertyHardwareID, wdm/DevicePropertyInstallState, wdm/DevicePropertyLegacyBusType, wdm/DevicePropertyLocationInformation, wdm/DevicePropertyManufacturer, wdm/DevicePropertyPhysicalDeviceObjectName, wdm/DevicePropertyRemovalPolicy, wdm/DevicePropertyResourceRequirements, wdm/DevicePropertyUINumber
+ms.date: 05/22/2025
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
@@ -44,13 +41,13 @@ api_name:
 
 ## -description
 
-The <b>DEVICE_REGISTRY_PROPERTY</b> enumeration identifies device properties that are stored in the registry.
+The **DEVICE_REGISTRY_PROPERTY** enumeration identifies device properties that are stored in the registry.
 
 ## -enum-fields
 
 ### -field DevicePropertyDeviceDescription
 
-String describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. Property type is a NULL-terminated WCHAR string. 
+String describing the device, such as "Microsoft PS/2 Port Mouse", typically defined by the manufacturer. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyHardwareID
 
@@ -70,7 +67,7 @@ The hardware resources assigned to the device by the firmware, in translated for
 
 ### -field DevicePropertyClassName
 
-Name of the device's setup class, in text format. Property type is a NULL-terminated WCHAR string. 
+Name of the device's setup class, in text format. Property type is a NULL-terminated WCHAR string.
 
 ### -field DevicePropertyClassGuid
 
@@ -120,7 +117,37 @@ Address of the device on the bus. Property type is a ULONG.
 
 The interpretation of this address is bus-specific. The caller of this routine should call the routine again to request the **DevicePropertyBusTypeGuid**, or possibly the **DevicePropertyLegacyBusType**, so it can interpret the address. An address value of 0xFFFFFFFF indicates that the underlying bus driver did not supply a bus address for the device.
 
-The following list describes the information certain bus drivers store for their child devices:
+See *Remarks* for additional bus driver-specific information.
+
+### -field DevicePropertyUINumber
+
+Number associated with the device that can be displayed in the user interface. Property type is a ULONG value.
+
+This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device can't determine the UI number, this value is 0xFFFFFFFF.
+
+### -field DevicePropertyInstallState
+
+Device's installation state. Property type is a [DEVICE_INSTALL_STATE](ne-wdm-_device_install_state.md) enumeration value.
+
+### -field DevicePropertyRemovalPolicy
+
+Device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. Property type is a [DEVICE_REMOVAL_POLICY](ne-wdm-_device_removal_policy.md) enumeration value.
+
+### -field DevicePropertyResourceRequirements
+
+Device's resource requirements. Property type is an [IO_RESOURCE_REQUIREMENTS_LIST](ns-wdm-_io_resource_requirements_list.md) structure.
+
+### -field DevicePropertyAllocatedResources
+
+Device's allocated resources. Property type is a [CM_RESOURCE_LIST](./ns-wdm-_cm_resource_list.md) structure.
+
+### -field DevicePropertyContainerID
+
+Device's container ID. Property type is a NULL-terminated WCHAR string.
+
+## -remarks
+
+For the **DevicePropertyAddress** value, the following list describes the information that certain bus drivers store for their child devices:
 
 | Bus | Description |
 |-----|-------------|
@@ -133,27 +160,6 @@ The following list describes the information certain bus drivers store for their
 | SCSI | The target ID. |
 | USB | The port number. |
 
-### -field DevicePropertyUINumber
-
-Number associated with the device that can be displayed in the user interface. Property type is a ULONG value.
-
-This number is typically a user-perceived slot number, such as a number printed next to the slot on the board, or some other number that makes locating the physical device easier for the user. If the device is on a bus that has no UI number convention, or if the bus driver for the device cannot determine the UI number, this value is 0xFFFFFFFF.
-
-### -field DevicePropertyInstallState
-
-Device's installation state. Property type is a [DEVICE_INSTALL_STATE](ne-wdm-_device_install_state.md) enumeration value.
-
-### -field DevicePropertyRemovalPolicy
-
-Device's current removal policy. The operating system uses this value as a hint to determine how the device is normally removed. Property type is a [DEVICE_REMOVAL_POLICY](ne-wdm-_device_removal_policy.md) enumeration value.
-
-### -field DevicePropertyResourceRequirements
-
-### -field DevicePropertyAllocatedResources
-
-### -field DevicePropertyContainerID
-
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iogetdeviceproperty">IoGetDeviceProperty</a>
-
+[**IoGetDeviceProperty**](nf-wdm-iogetdeviceproperty.md)
