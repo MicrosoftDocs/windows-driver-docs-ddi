@@ -145,9 +145,11 @@ A minifilter driver calls **FltCheckOplockEx** to synchronize an IRP-based I/O o
 
   * IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION
 
-The I/O operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [FLT_IS_IRP_OPERATION](/previous-versions/ff544654(v=vs.85)) macro.
+With the exception of IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION, the I/O operation must be an IRP-based I/O operation. To determine whether a given callback data structure represents an IRP-based I/O operation, use the [FLT_IS_IRP_OPERATION](/previous-versions/ff544654(v=vs.85)) macro.
 
 Minifilters must not call **FltCheckOplockEx** again within the callback specified in *WaitCompletionRoutine*. Doing so can result in a deadlock condition if the oplock package calls the completion callback before **FltCheckOplockEx** returns.
+
+**FltCheckOplockEx** will only every return FLT_PREOP_SUCCESS_WITH_CALLBACK when the major function is IRP_MJ_ACQUIRE_FOR_SECTION_SYNCHRONIZATION.  Calling **FltCheckOplockEx** is supported on all OS versions from Windows 7/Server 2008 (TBC!).
 
 For more information about opportunistic locks, see [Opportunistic Locks](/windows/win32/fileio/opportunistic-locks).
 
