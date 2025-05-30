@@ -18,6 +18,7 @@
     "pepfx.h",
     "prminterface.h",
     "procgrp.h",
+    "usermode_accessors.h",
     "vpci.h",
     "wdm.h",
     "wdmsec.h",
