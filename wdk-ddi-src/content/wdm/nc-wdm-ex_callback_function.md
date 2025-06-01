@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL (see Remarks section).
+req.irql: <= APC_LEVEL (see Remarks section).
 targetos: Windows
 req.typenames: 
 f1_keywords:
@@ -156,7 +156,7 @@ The following table summarizes the requirements for buffer accesses by the *Regi
 
 For more information about *RegistryCallback* routines and registry filter drivers, see [Filtering Registry Calls](/windows-hardware/drivers/kernel/filtering-registry-calls).
 
-A *RegistryCallback* executes at IRQL = PASSIVE_LEVEL and in the context of the thread that is performing the registry operation.
+A *RegistryCallback* executes at IRQL <= APC_LEVEL and in the context of the thread that is performing the registry operation.
 
 ### Examples
 

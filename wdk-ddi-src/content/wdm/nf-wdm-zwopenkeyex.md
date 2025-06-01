@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: PASSIVE_LEVEL
+req.irql: <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
