@@ -52,7 +52,7 @@ ms.custom: engagement-fy23
 
 Pointer to a HANDLE variable that receives a handle to the section object.
 
-### -param DesiredAccess [out]
+### -param DesiredAccess [in]
 
 Specifies an [**ACCESS_MASK**](/windows-hardware/drivers/kernel/access-mask) value that determines the requested access to the object. In addition to the access rights that are defined for all types of objects, the caller can specify any of the following access rights, which are specific to section objects:
 
