@@ -66,6 +66,8 @@ The driver uses the **NET_PACKET_FILTER_FLAGS** enumeration to specify the net a
 
 An initialized [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md) structure is an input to [**NetAdapterSetReceiveFilterCapabilities**](nf-netadapter-netadaptersetreceivefiltercapabilities.md).
 
+**Important:** If the driver does not report support for all of the packet filters expected by an upper layer, NetAdapterCx will fail the `OID_GEN_CURRENT_PACKET_FILTER` request. This will cause the upper layer will fail to bind to your driver. For reliable binding, your driver must report support for all packet filter types.
+
 ## -see-also
 
 [**NET_ADAPTER_RECEIVE_FILTER_CAPABILITIES**](ns-netadapter-net_adapter_receive_filter_capabilities.md)
