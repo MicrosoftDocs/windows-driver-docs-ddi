@@ -62,8 +62,8 @@ The **WriteUShortToMode** function safely writes a USHORT value to memory based 
 
 | Value | Meaning |
 | ----- | ------- |
-| **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct write to the specified address. |
-| **UserMode** | **Destination** points to user-mode memory. The function performs a safe write with appropriate checks to ensure the memory is accessible. |
+| **KernelMode** | **Destination** points to kernel-mode memory. The function performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
+| **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
 ## -remarks
 
@@ -73,7 +73,7 @@ This function doesn't enforce alignment.
 
 It raises a structured exception if the memory access fails, such as when the destination address is inaccessible or is invalid for the specified mode.
 
-This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses).
+This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses). The memory access is performed with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
 
 This function works on all versions of Windows, not just the latest. You need to consume the latest WDK to get the function declaration from the *usermode_accessors.h* header. You also need the library (*umaccess.lib*) from the latest WDK. However, the resulting driver will run fine on older versions of Windows.
 
