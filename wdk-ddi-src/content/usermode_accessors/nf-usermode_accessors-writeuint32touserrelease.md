@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WriteUInt32ToUserRelease** function safely writes a UINT32 value to user-mode memory with release semantics.
+The **WriteUInt32ToUserRelease** function safely writes a UINT32 value to user-mode memory with [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics).
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The **WriteUInt32ToUserRelease** function safely writes a UINT32 value to user-m
 
 ## -remarks
 
-This function provides a safe way to write a UINT32 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.
+This function provides a safe way to write a UINT32 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.
 
 This function doesn't enforce alignment.
 
@@ -72,4 +72,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**WriteUInt32ToUser**](nf-usermode_accessors-writeuint32touser.md)
 
-[**WriteUInt32ToMode**](nf-usermode_accessors-writeuint32tomode.md)
+[**ReadUInt32FromUserAcquire**](nf-usermode_accessors-readuint32fromuseracquire.md)

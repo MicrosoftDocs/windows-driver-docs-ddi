@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WriteUInt32ToMode** function safely writes a UINT32 value to memory, checking that the address is appropriate for the current processor mode.
+The **WriteUInt32ToMode** function safely writes a UINT32 value to memory based on the specified processor mode.
 
 ## -parameters
 
@@ -54,19 +54,24 @@ The **WriteUInt32ToMode** function safely writes a UINT32 value to memory, check
 
 ### -param Value
 
-[in] The UINT32 value to write to the specified memory address.
+[in] The UINT32 value to write to the destination memory location.
 
 ### -param Mode
 
-[in] A value of type **KPROCESSOR_MODE** indicating the processor mode to check against. This can be **UserMode** or **KernelMode**.
+[in] The processor mode that determines how the memory access is performed. **Mode** can be one of the following values.
+
+| Value | Meaning |
+| ----- | ------- |
+| **KernelMode** | **Destination** points to kernel-mode memory. The function performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
+| **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
 ## -remarks
 
-This function provides a safe way to write a UINT32 value to memory based on the current processor mode. If **Mode** is **UserMode**, it ensures the provided address is a user-mode address before writing to it. If **Mode** is **KernelMode**, it treats the address as a kernel-mode address.
+This function provides a safe way to write a UINT32 value to memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.
 
 This function doesn't enforce alignment.
 
-It raises a structured exception if the memory access fails, such as when accessing an inappropriate address for the specified mode or when the address is inaccessible.
+It raises a structured exception if the memory access fails, such as when the destination address is inaccessible or is invalid for the specified mode.
 
 This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses). The memory access is performed with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
 

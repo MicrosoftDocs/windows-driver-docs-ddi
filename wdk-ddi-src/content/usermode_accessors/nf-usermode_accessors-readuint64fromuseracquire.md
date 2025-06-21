@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **ReadUInt64FromUserAcquire** function safely reads a UINT64 value from user-mode memory with acquire semantics.
+The **ReadUInt64FromUserAcquire** function safely reads a UINT64 value from user-mode memory with [acquire semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics).
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The **ReadUInt64FromUserAcquire** function safely reads a UINT64 value from user
 
 ## -remarks
 
-This function provides a safe way to read a UINT64 value from user-mode memory. It ensures the provided address is a user-mode address before reading it.
+This function provides a safe way to read a UINT64 value from user-mode memory. It ensures the provided address is a user-mode address before reading it. The [acquire semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that subsequent memory operations can't be reordered before this read operation.
 
 This function doesn't enforce alignment.
 
@@ -72,4 +72,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**ReadUInt64FromUser**](nf-usermode_accessors-readuint64fromuser.md)
 
-[**ReadUInt64FromMode**](nf-usermode_accessors-readuint64frommode.md)
+[**WriteUInt64ToUserRelease**](nf-usermode_accessors-writeuint64touserrelease.md)

@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **ReadUInt64FromMode** function safely reads a UINT64 value from memory, checking that the address is appropriate for the current processor mode.
+The **ReadUInt64FromMode** function safely reads a UINT64 value from memory based on the specified processor mode.
 
 ## -parameters
 
@@ -54,7 +54,12 @@ The **ReadUInt64FromMode** function safely reads a UINT64 value from memory, che
 
 ### -param Mode
 
-[in] A value of type **KPROCESSOR_MODE** indicating the processor mode to check against. This can be **UserMode** or **KernelMode**.
+[in] The processor mode that determines how the memory access is performed. **Mode** can be one of the following values.
+
+| Value | Meaning |
+| ----- | ------- |
+| **KernelMode** | **Source** points to kernel-mode memory. The function performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
+| **UserMode** | **Source** points to user-mode memory. The function raises an exception if **Source** doesn't point to user-mode memory; otherwise it performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
 ## -returns
 
@@ -62,11 +67,11 @@ The **ReadUInt64FromMode** function safely reads a UINT64 value from memory, che
 
 ## -remarks
 
-This function provides a safe way to read a UINT64 value from memory based on the current processor mode. If **Mode** is **UserMode**, it ensures the provided address is a user-mode address before reading it. If **Mode** is **KernelMode**, it treats the address as a kernel-mode address.
+This function provides a safe way to read a UINT64 value from memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.
 
 This function doesn't enforce alignment.
 
-It raises a structured exception if the memory access fails, such as when accessing an inappropriate address for the specified mode or when the address is inaccessible.
+It raises a structured exception if the memory access fails, such as when the source address is inaccessible or is invalid for the specified mode.
 
 This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses). The memory access is performed with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
 

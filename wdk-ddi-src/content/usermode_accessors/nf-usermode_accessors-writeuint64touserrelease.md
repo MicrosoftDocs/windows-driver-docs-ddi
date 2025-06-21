@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WriteUInt64ToUserRelease** function safely writes a UINT64 value to user-mode memory with release semantics.
+The **WriteUInt64ToUserRelease** function safely writes a UINT64 value to user-mode memory with [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics).
 
 ## -parameters
 
@@ -58,7 +58,7 @@ The **WriteUInt64ToUserRelease** function safely writes a UINT64 value to user-m
 
 ## -remarks
 
-This function provides a safe way to write a UINT64 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.
+This function provides a safe way to write a UINT64 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.
 
 This function doesn't enforce alignment.
 
@@ -72,4 +72,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**WriteUInt64ToUser**](nf-usermode_accessors-writeuint64touser.md)
 
-[**WriteUInt64ToMode**](nf-usermode_accessors-writeuint64tomode.md)
+[**ReadUInt64FromUserAcquire**](nf-usermode_accessors-readuint64fromuseracquire.md)
