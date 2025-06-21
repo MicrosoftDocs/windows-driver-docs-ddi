@@ -1,10 +1,10 @@
 ---
 UID: NF:usermode_accessors.RtlStringLengthFromUser
-tech.root: 
+tech.root: kernel
 title: RtlStringLengthFromUser
-ms.date: 
+ms.date: 06/20/2025
 targetos: Windows
-description: 
+description: The RtlStringLengthFromUser function is reserved for system use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **RtlStringLengthFromUser** function is reserved for system use.
+
 ## -parameters
 
 ### -param String
@@ -53,4 +55,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-

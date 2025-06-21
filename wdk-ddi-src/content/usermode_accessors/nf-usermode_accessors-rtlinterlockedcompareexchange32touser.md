@@ -1,10 +1,10 @@
 ---
 UID: NF:usermode_accessors.RtlInterlockedCompareExchange32ToUser
-tech.root: 
+tech.root: kernel
 title: RtlInterlockedCompareExchange32ToUser
-ms.date: 
+ms.date: 06/20/2025
 targetos: Windows
-description: 
+description: The RtlInterlockedCompareExchange32ToUser function is reserved for system use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **RtlInterlockedCompareExchange32ToUser** function is reserved for system use.
+
 ## -parameters
 
 ### -param Destination
@@ -57,4 +59,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-

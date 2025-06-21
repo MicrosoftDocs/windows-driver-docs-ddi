@@ -1,10 +1,10 @@
 ---
 UID: NF:usermode_accessors.RtlTypesCompatible
-tech.root: 
+tech.root: kernel
 title: RtlTypesCompatible
-ms.date: 
+ms.date: 06/20/2025
 targetos: Windows
-description: 
+description: The RtlTypesCompatible function is reserved for system use.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,6 +44,8 @@ helpviewer_keywords:
 
 ## -description
 
+The **RtlTypesCompatible** function is reserved for system use.
+
 ## -parameters
 
 ### -param Destination
@@ -53,4 +55,3 @@ helpviewer_keywords:
 ## -remarks
 
 ## -see-also
-
