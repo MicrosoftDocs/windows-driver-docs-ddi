@@ -70,6 +70,6 @@ This function works on all versions of Windows, not just the latest. You need to
 
 ## -see-also
 
-[**ReadULong64FromUser**](nf-usermode_accessors-readulong64fromuser.md)
-
 [**WriteULong64ToMode**](nf-usermode_accessors-writeulong64tomode.md)
+
+[**ReadULong64FromUser**](nf-usermode_accessors-readulong64fromuser.md)

@@ -54,7 +54,7 @@ The **WriteUInt64ToUserRelease** function safely writes a UINT64 value to user-m
 
 ### -param Value
 
-[in] The UINT64 value to write to the specified user-mode memory address.
+[in] The UINT64 value to write to the destination memory location.
 
 ## -remarks
 

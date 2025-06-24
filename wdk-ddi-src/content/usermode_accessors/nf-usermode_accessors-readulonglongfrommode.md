@@ -4,7 +4,7 @@ tech.root: kernel
 title: ReadULonglongFromMode
 ms.date: 06/20/2025
 targetos: Windows
-description: The ReadULonglongFromMode function safely reads a ULONGLONG value from memory, checking that the address is appropriate for the current processor mode.
+description: The ReadULonglongFromMode function safely reads a ULONGLONG value from memory based on the specified processor mode.
 prerelease: false
 req.assembly: 
 req.construct-type: function

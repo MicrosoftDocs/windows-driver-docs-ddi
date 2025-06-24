@@ -54,7 +54,7 @@ The **WriteULonglongToUser** function safely writes a ULONGLONG value to user-mo
 
 ### -param Value
 
-[in] The ULONGLONG value to write to the specified user-mode memory address.
+[in] The ULONGLONG value to write to the destination memory location.
 
 ## -remarks
 

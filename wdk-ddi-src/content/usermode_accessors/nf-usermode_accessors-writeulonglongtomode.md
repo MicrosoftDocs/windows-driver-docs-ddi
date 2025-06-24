@@ -4,7 +4,7 @@ tech.root: kernel
 title: WriteULonglongToMode
 ms.date: 06/20/2025
 targetos: Windows
-description: The WriteULonglongToMode function safely writes a ULONGLONG value to memory, checking that the address is appropriate for the current processor mode.
+description: The WriteULonglongToMode function safely writes a ULONGLONG value to memory.
 prerelease: false
 req.assembly: 
 req.construct-type: function
