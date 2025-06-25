@@ -4,7 +4,7 @@ tech.root: kernel
 title: ReadInt64FromMode
 ms.date: 06/24/2025
 targetos: Windows
-description: The ReadInt64FromMode function safely reads a INT64 value from memory based on the specified processor mode.
+description: The ReadInt64FromMode function safely reads an INT64 value from memory based on the specified processor mode.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **ReadInt64FromMode** function safely reads a INT64 value from memory based on the specified processor mode.
+The **ReadInt64FromMode** function safely reads an INT64 value from memory based on the specified processor mode.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ The **ReadInt64FromMode** function safely reads a INT64 value from memory based 
 
 ## -remarks
 
-This function provides a safe way to read a INT64 value from memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.
+This function provides a safe way to read an INT64 value from memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.
 
 This function doesn't enforce alignment.
 
@@ -82,4 +82,3 @@ This function works on all versions of Windows, not just the latest. You need to
 [**ReadInt64FromUser**](nf-usermode_accessors-readint64fromuser.md)
 
 [**WriteInt64ToMode**](nf-usermode_accessors-writeint64tomode.md)
-
