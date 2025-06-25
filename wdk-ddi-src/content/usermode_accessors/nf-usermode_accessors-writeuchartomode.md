@@ -82,4 +82,3 @@ This function works on all versions of Windows, not just the latest. You need to
 [**WriteUCharToUser**](nf-usermode_accessors-writeuchartouser.md)
 
 [**ReadUCharFromMode**](nf-usermode_accessors-readucharfrommode.md)
-

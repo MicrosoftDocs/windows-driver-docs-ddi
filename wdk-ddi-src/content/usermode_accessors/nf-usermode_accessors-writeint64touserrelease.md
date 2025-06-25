@@ -73,4 +73,3 @@ This function works on all versions of Windows, not just the latest. You need to
 [**WriteInt64ToUser**](nf-usermode_accessors-writeint64touser.md)
 
 [**ReadInt64FromUserAcquire**](nf-usermode_accessors-readint64fromuseracquire.md)
-
