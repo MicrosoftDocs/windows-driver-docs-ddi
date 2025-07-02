@@ -1,10 +1,10 @@
 ---
 UID: NF:usermode_accessors.WriteStructToUserHelper
-tech.root: 
+tech.root: kernel
 title: WriteStructToUserHelper
-ms.date: 
+ms.date: 06/24/2025
 targetos: Windows
-description: 
+description: The WriteStructToUserHelper function is a helper function that safely writes a structure of a specified size to user-mode memory.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -13,13 +13,13 @@ req.dll:
 req.header: usermode_accessors.h
 req.idl: 
 req.include-header: 
-req.irql: 
+req.irql: Less than or equal to APC_LEVEL
 req.kmdf-ver: 
-req.lib: 
+req.lib: umaccess.lib
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: 
+req.target-min-winverclnt: See Remarks
 req.target-min-winversvr: 
 req.target-type: 
 req.type-library: 
@@ -44,15 +44,28 @@ helpviewer_keywords:
 
 ## -description
 
+The **WriteStructToUserHelper** function is a helper function that safely writes a structure of a specified size to user-mode memory.
+
 ## -parameters
 
 ### -param Destination
 
+[out] A pointer to the user-mode memory location where the data will be written.
+
 ### -param Source
+
+[in] A pointer to the data to write to the destination memory location.
 
 ### -param Size
 
+[in] The size, in bytes, of the data to write.
+
 ## -remarks
+
+This function is a helper function used internally by the user-mode accessor macros. It provides optimized writing of structures to user-mode memory based on the structure size.
 
 ## -see-also
 
+[**WriteStructToUser**](nf-usermode_accessors-writestructtouser.md)
+
+[**WriteStructToUserAligned**](nf-usermode_accessors-writestructtouseraligned.md)
