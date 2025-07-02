@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUShortFromUserAcquire
 tech.root: kernel
 title: ReadUShortFromUserAcquire
-ms.date: 06/19/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUShortFromUserAcquire function safely reads a USHORT value from user-mode memory with acquire semantics.
 prerelease: false

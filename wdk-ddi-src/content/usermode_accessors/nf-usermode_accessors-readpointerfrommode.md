@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadPointerFromMode
 tech.root: kernel
 title: ReadPointerFromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadPointerFromMode function safely reads a PVOID value from memory based on the specified processor mode.
 prerelease: false

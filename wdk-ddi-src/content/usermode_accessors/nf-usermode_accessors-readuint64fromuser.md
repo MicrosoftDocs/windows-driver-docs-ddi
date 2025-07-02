@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUInt64FromUser
 tech.root: kernel
 title: ReadUInt64FromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUInt64FromUser function safely reads a UINT64 value from user-mode memory.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteIntPtrToUserRelease
 tech.root: kernel
 title: WriteIntPtrToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteIntPtrToUserRelease function safely writes an INT_PTR value to user-mode memory with release semantics.
 prerelease: false

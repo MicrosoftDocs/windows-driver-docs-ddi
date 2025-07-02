@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadNtStatusFromUser
 tech.root: kernel
 title: ReadNtStatusFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadNtStatusFromUser function safely reads an NTSTATUS value from user-mode memory.
 prerelease: false

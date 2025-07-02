@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlWriteUShortToUser
 tech.root: kernel
 title: RtlWriteUShortToUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlWriteUShortToUser function is reserved for system use.
 prerelease: false

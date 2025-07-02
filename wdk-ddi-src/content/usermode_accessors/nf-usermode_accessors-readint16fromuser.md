@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadInt16FromUser
 tech.root: kernel
 title: ReadInt16FromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadInt16FromUser function safely reads an INT16 value from user-mode memory.
 prerelease: false

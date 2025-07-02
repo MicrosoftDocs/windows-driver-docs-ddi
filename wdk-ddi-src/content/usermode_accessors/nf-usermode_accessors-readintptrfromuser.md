@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadIntPtrFromUser
 tech.root: kernel
 title: ReadIntPtrFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadIntPtrFromUser function safely reads an INT_PTR value from user-mode memory.
 prerelease: false

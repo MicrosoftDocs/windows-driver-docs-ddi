@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadULongFromUser
 tech.root: kernel
 title: ReadULongFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadULongFromUser function safely reads a ULONG value from user-mode memory.
 prerelease: false

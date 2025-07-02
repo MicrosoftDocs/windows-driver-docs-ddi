@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUInt32ToUser
 tech.root: kernel
 title: WriteUInt32ToUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUInt32ToUser function safely writes a UINT32 value to user-mode memory.
 prerelease: false

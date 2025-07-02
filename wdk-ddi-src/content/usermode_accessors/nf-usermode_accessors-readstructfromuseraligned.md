@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadStructFromUserAligned
 tech.root: kernel
 title: ReadStructFromUserAligned
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadStructFromUserAligned macro safely reads a structure from user-mode memory with alignment validation.
 prerelease: false

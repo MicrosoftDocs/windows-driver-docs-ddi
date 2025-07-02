@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.MoveToUserFromUser
 tech.root: kernel
 title: MoveToUserFromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The MoveToUserFromUser function safely moves data from user-mode memory to user-mode memory, supporting overlapping memory regions.
 prerelease: false

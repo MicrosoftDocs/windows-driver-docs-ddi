@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadInt8FromUser
 tech.root: kernel
 title: ReadInt8FromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadInt8FromUser function safely reads an INT8 value from user-mode memory.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadLonglongFromMode
 tech.root: kernel
 title: ReadLonglongFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadLonglongFromMode function safely reads a LONGLONG value from memory based on the specified processor mode.
 prerelease: false

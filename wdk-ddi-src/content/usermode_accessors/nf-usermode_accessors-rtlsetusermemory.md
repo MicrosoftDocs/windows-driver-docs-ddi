@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlSetUserMemory
 tech.root: kernel
 title: RtlSetUserMemory
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlSetUserMemory function is reserved for system use.
 prerelease: false

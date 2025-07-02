@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadStructFromUser
 tech.root: kernel
 title: ReadStructFromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadStructFromUser macro safely reads a structure from user-mode memory.
 prerelease: false

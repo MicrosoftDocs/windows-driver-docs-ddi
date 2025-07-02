@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteULong64ToUserRelease
 tech.root: kernel
 title: WriteULong64ToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteULong64ToUserRelease function safely writes a ULONG64 value to user-mode memory with release semantics.
 prerelease: false

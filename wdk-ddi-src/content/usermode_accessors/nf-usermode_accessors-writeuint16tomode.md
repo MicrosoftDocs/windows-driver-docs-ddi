@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUInt16ToMode
 tech.root: kernel
 title: WriteUInt16ToMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUInt16ToMode function safely writes a UINT16 value to memory based on the specified processor mode.
 prerelease: false

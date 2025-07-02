@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteWCharToUserRelease
 tech.root: kernel
 title: WriteWCharToUserRelease
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteWCharToUserRelease function safely writes a WCHAR value to user-mode memory with release semantics.
 prerelease: false

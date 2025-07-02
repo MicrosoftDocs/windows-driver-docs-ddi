@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadBooleanFromMode
 tech.root: kernel
 title: ReadBooleanFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadBooleanFromMode function safely reads a BOOLEAN value from memory based on the specified processor mode.
 prerelease: false

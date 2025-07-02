@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlCopyFromUserNonTemporal
 tech.root: kernel
 title: RtlCopyFromUserNonTemporal
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlCopyFromUserNonTemporal function is reserved for system use.
 prerelease: false

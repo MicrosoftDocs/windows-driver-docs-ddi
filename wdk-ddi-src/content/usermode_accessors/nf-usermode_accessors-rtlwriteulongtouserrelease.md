@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlWriteULongToUserRelease
 tech.root: kernel
 title: RtlWriteULongToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlWriteULongToUserRelease function is reserved for system use.
 prerelease: false

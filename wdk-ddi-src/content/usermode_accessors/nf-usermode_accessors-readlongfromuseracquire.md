@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadLongFromUserAcquire
 tech.root: kernel
 title: ReadLongFromUserAcquire
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadLongFromUserAcquire function safely reads a LONG value from user-mode memory with acquire semantics.
 prerelease: false

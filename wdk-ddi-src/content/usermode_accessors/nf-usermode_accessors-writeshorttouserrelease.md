@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteShortToUserRelease
 tech.root: kernel
 title: WriteShortToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteShortToUserRelease function safely writes a SHORT value to user-mode memory with release semantics.
 prerelease: false

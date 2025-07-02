@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteSizeTToMode
 tech.root: kernel
 title: WriteSizeTToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteSizeTToMode function safely writes a SIZE_T value to memory based on the specified processor mode.
 prerelease: false

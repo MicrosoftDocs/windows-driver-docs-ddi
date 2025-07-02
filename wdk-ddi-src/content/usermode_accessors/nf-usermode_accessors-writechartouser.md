@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteCharToUser
 tech.root: kernel
 title: WriteCharToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteCharToUser function safely writes a CHAR value to user-mode memory.
 prerelease: false

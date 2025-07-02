@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlTypesCompatible
 tech.root: kernel
 title: RtlTypesCompatible
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlTypesCompatible function is reserved for system use.
 prerelease: false

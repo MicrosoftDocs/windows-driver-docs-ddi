@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUCharFromUserAcquire
 tech.root: kernel
 title: ReadUCharFromUserAcquire
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUCharFromUserAcquire function safely reads a UCHAR value from user-mode memory with acquire semantics.
 prerelease: false

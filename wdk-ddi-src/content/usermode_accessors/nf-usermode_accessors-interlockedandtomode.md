@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedAndToMode
 tech.root: kernel
 title: InterlockedAndToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedAndToMode function performs an atomic AND operation on a 32-bit value in memory, with access dependent on the processor mode.
 prerelease: false

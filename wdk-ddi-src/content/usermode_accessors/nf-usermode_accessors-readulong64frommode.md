@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadULong64FromMode
 tech.root: kernel
 title: ReadULong64FromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadULong64FromMode function safely reads a ULONG64 value from memory based on the specified processor mode.
 prerelease: false

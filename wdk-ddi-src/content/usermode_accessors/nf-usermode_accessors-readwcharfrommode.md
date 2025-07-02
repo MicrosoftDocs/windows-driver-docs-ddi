@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadWCharFromMode
 tech.root: kernel
 title: ReadWCharFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadWCharFromMode function safely reads a WCHAR value from memory based on the specified processor mode.
 prerelease: false

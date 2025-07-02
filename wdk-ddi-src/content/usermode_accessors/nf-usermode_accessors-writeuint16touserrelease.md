@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUInt16ToUserRelease
 tech.root: kernel
 title: WriteUInt16ToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUInt16ToUserRelease function safely writes a UINT16 value to user-mode memory with release semantics.
 prerelease: false

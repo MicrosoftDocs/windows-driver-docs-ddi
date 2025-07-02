@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteInt8ToUser
 tech.root: kernel
 title: WriteInt8ToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteInt8ToUser function safely writes an INT8 value to user-mode memory.
 prerelease: false

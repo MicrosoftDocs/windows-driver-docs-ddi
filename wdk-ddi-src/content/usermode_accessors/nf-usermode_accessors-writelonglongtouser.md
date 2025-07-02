@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteLonglongToUser
 tech.root: kernel
 title: WriteLonglongToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteLonglongToUser function safely writes a LONGLONG value to user-mode memory.
 prerelease: false

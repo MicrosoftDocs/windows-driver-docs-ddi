@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadStructFromModeHelper
 tech.root: kernel
 title: ReadStructFromModeHelper
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadStructFromModeHelper function is a helper function that safely reads a structure of a specified size from memory based on the specified processor mode.
 prerelease: false

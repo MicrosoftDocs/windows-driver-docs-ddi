@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlCopyFromUser
 tech.root: kernel
 title: RtlCopyFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlCopyFromUser function is reserved for system use.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadShortFromMode
 tech.root: kernel
 title: ReadShortFromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadShortFromMode function safely reads a SHORT value from memory based on the specified processor mode.
 prerelease: false

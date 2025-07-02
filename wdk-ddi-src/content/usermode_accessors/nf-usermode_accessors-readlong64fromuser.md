@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadLong64FromUser
 tech.root: kernel
 title: ReadLong64FromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadLong64FromUser function safely reads a LONG64 value from user-mode memory.
 prerelease: false

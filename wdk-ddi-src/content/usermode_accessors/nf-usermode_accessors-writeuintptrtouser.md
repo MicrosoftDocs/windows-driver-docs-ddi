@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUIntPtrToUser
 tech.root: kernel
 title: WriteUIntPtrToUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUIntPtrToUser function safely writes a UINT_PTR value to user-mode memory.
 prerelease: false

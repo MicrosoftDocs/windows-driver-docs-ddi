@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteStructToUserAligned
 tech.root: kernel
 title: WriteStructToUserAligned
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteStructToUserAligned macro safely writes a structure to user-mode memory with alignment validation.
 prerelease: false

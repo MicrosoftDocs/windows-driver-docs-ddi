@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ZeroModeMemory
 tech.root: kernel
 title: ZeroModeMemory
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ZeroModeMemory function fills a memory region with zeros, based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUInt8ToMode
 tech.root: kernel
 title: WriteUInt8ToMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUInt8ToMode function safely writes a UINT8 value to memory based on the specified processor mode.
 prerelease: false

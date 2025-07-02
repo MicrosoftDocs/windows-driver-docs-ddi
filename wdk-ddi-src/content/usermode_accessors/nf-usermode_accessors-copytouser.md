@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.CopyToUser
 tech.root: kernel
 title: CopyToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The CopyToUser function safely copies data from kernel memory to user-mode memory.
 prerelease: false

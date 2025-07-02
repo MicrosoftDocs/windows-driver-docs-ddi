@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadCharFromUser
 tech.root: kernel
 title: ReadCharFromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadCharFromUser function safely reads a CHAR value from user-mode memory.
 prerelease: false

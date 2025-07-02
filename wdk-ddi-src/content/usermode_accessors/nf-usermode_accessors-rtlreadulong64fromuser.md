@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlReadULong64FromUser
 tech.root: kernel
 title: RtlReadULong64FromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlReadULong64FromUser function is reserved for system use.
 prerelease: false

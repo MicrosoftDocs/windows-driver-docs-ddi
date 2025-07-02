@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUInt32ToMode
 tech.root: kernel
 title: WriteUInt32ToMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUInt32ToMode function safely writes a UINT32 value to memory, checking that the address is appropriate for the current processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteIntPtrToMode
 tech.root: kernel
 title: WriteIntPtrToMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteIntPtrToMode function safely writes an INT_PTR value to memory based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadLargeIntegerFromUser
 tech.root: kernel
 title: ReadLargeIntegerFromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadLargeIntegerFromUser function safely reads a LARGE_INTEGER value from user-mode memory.
 prerelease: false

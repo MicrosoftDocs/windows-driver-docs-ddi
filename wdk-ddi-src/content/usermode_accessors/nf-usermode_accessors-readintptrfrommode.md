@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadIntPtrFromMode
 tech.root: kernel
 title: ReadIntPtrFromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadIntPtrFromMode function safely reads an INT_PTR value from memory based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteStructToModeHelper
 tech.root: kernel
 title: WriteStructToModeHelper
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteStructToModeHelper function is a helper function that safely writes a structure of a specified size to memory based on the specified processor mode.
 prerelease: false

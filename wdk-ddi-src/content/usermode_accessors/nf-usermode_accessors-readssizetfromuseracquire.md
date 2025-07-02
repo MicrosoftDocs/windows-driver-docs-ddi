@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadSSizeTFromUserAcquire
 tech.root: kernel
 title: ReadSSizeTFromUserAcquire
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadSSizeTFromUserAcquire function safely reads a SSIZE_T value from user-mode memory with acquire semantics.
 prerelease: false

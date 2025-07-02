@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlInterlockedAnd32ToUser
 tech.root: kernel
 title: RtlInterlockedAnd32ToUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlInterlockedAnd32ToUser function is reserved for system use.
 prerelease: false

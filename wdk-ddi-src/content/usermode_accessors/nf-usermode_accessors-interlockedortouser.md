@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedOrToUser
 tech.root: kernel
 title: InterlockedOrToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedOrToUser function performs an atomic OR operation on a 32-bit value in user-mode memory.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.FillModeMemory
 tech.root: kernel
 title: FillModeMemory
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The FillModeMemory function fills a memory region with a specified byte value, based on the specified processor mode.
 prerelease: false

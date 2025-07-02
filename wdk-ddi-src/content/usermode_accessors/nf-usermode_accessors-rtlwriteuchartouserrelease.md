@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlWriteUCharToUserRelease
 tech.root: kernel
 title: RtlWriteUCharToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlWriteUCharToUserRelease function is reserved for system use.
 prerelease: false

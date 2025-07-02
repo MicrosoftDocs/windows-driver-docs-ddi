@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlMoveToUserFromUser
 tech.root: kernel
 title: RtlMoveToUserFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlMoveToUserFromUser function is reserved for system use.
 prerelease: false

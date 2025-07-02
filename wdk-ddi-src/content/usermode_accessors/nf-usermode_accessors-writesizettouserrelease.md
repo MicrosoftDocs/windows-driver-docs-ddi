@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteSizeTToUserRelease
 tech.root: kernel
 title: WriteSizeTToUserRelease
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteSizeTToUserRelease function safely writes a SIZE_T value to user-mode memory with release semantics.
 prerelease: false

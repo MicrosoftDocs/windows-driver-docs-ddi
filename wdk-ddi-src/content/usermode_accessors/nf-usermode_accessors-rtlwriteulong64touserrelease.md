@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlWriteULong64ToUserRelease
 tech.root: kernel
 title: RtlWriteULong64ToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlWriteULong64ToUserRelease function is reserved for system use.
 prerelease: false

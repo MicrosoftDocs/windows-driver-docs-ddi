@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteInt64ToMode
 tech.root: kernel
 title: WriteInt64ToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteInt64ToMode function safely writes a INT64 value to memory based on the specified processor mode.
 prerelease: false

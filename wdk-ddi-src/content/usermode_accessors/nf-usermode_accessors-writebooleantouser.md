@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteBooleanToUser
 tech.root: kernel
 title: WriteBooleanToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteBooleanToUser function safely writes a BOOLEAN value to user-mode memory.
 prerelease: false

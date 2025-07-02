@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadInt64FromMode
 tech.root: kernel
 title: ReadInt64FromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadInt64FromMode function safely reads an INT64 value from memory based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadLongPtrFromUser
 tech.root: kernel
 title: ReadLongPtrFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadLongPtrFromUser function safely reads a LONG_PTR value from user-mode memory.
 prerelease: false

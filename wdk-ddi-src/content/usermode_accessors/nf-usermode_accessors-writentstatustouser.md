@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteNtStatusToUser
 tech.root: kernel
 title: WriteNtStatusToUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteNtStatusToUser function safely writes an NTSTATUS value to user-mode memory.
 prerelease: false

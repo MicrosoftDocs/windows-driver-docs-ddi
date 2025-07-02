@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedOr64ToUser
 tech.root: kernel
 title: InterlockedOr64ToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedOr64ToUser function performs an atomic OR operation on a 64-bit value in user-mode memory.
 prerelease: false

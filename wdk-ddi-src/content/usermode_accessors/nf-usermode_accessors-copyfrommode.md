@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.CopyFromMode
 tech.root: kernel
 title: CopyFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The CopyFromMode function safely copies data from either kernel or user-mode memory to kernel memory based on the specified processor mode.
 prerelease: false

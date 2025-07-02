@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteBooleanToMode
 tech.root: kernel
 title: WriteBooleanToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteBooleanToMode function safely writes a BOOLEAN value to memory based on the specified processor mode.
 prerelease: false

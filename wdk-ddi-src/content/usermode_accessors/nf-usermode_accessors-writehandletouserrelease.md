@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteHandleToUserRelease
 tech.root: kernel
 title: WriteHandleToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteHandleToUserRelease function safely writes a HANDLE value to user-mode memory with release semantics.
 prerelease: false

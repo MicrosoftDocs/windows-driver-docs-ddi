@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlReadUCharFromUserAcquire
 tech.root: kernel
 title: RtlReadUCharFromUserAcquire
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlReadUCharFromUserAcquire function is reserved for system use.
 prerelease: false

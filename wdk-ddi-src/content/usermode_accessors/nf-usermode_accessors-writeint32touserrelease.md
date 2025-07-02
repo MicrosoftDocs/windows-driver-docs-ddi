@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteInt32ToUserRelease
 tech.root: kernel
 title: WriteInt32ToUserRelease
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteInt32ToUserRelease function safely writes a INT32 value to user-mode memory with release semantics.
 prerelease: false

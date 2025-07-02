@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadHandleFromUser
 tech.root: kernel
 title: ReadHandleFromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadHandleFromUser function safely reads a HANDLE value from user-mode memory.
 prerelease: false

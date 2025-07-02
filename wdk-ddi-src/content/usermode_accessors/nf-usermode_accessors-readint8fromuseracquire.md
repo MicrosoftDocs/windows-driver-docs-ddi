@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadInt8FromUserAcquire
 tech.root: kernel
 title: ReadInt8FromUserAcquire
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadInt8FromUserAcquire function safely reads an INT8 value from user-mode memory with acquire semantics.
 prerelease: false

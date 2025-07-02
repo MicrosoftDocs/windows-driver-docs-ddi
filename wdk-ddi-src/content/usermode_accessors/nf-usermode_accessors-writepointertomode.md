@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WritePointerToMode
 tech.root: kernel
 title: WritePointerToMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WritePointerToMode function safely writes a PVOID value to memory based on the specified processor mode.
 prerelease: false

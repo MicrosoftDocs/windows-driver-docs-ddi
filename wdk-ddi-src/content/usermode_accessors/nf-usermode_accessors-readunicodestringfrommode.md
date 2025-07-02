@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUnicodeStringFromMode
 tech.root: kernel
 title: ReadUnicodeStringFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUnicodeStringFromMode function safely reads a UNICODE_STRING structure from memory based on the specified processor mode.
 prerelease: false

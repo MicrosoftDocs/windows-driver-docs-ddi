@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteBooleanToUserRelease
 tech.root: kernel
 title: WriteBooleanToUserRelease
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteBooleanToUserRelease function safely writes a BOOLEAN value to user-mode memory with release semantics.
 prerelease: false

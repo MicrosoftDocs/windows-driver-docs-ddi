@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.SetUserMemory
 tech.root: kernel
 title: SetUserMemory
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The SetUserMemory function fills a user-mode memory region with a specified byte value.
 prerelease: false

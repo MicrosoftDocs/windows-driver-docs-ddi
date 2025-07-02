@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUCharFromMode
 tech.root: kernel
 title: ReadUCharFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUCharFromMode function safely reads a UCHAR value from memory based on the specified processor mode.
 prerelease: false

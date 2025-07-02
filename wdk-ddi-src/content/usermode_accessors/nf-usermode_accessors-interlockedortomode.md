@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedOrToMode
 tech.root: kernel
 title: InterlockedOrToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedOrToMode function performs an atomic OR operation on a 32-bit value in memory, with access dependent on the processor mode.
 prerelease: false

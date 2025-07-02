@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlReadUShortFromUser
 tech.root: kernel
 title: RtlReadUShortFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlReadUShortFromUser function is reserved for system use.
 prerelease: false

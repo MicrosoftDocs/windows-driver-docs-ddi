@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadULargeIntegerFromMode
 tech.root: kernel
 title: ReadULargeIntegerFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadULargeIntegerFromMode function safely reads a ULARGE_INTEGER value from memory based on the specified processor mode.
 prerelease: false

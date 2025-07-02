@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteLonglongToMode
 tech.root: kernel
 title: WriteLonglongToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteLonglongToMode function safely writes a LONGLONG value to memory based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteStructToMode
 tech.root: kernel
 title: WriteStructToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteStructToMode macro safely writes a structure to memory based on the specified processor mode.
 prerelease: false

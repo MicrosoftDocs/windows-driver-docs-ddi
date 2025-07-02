@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.CopyToModeNonTemporal
 tech.root: kernel
 title: CopyToModeNonTemporal
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The CopyToModeNonTemporal function safely copies data from kernel memory to either kernel or user-mode memory using non-temporal instructions based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadStructFromMode
 tech.root: kernel
 title: ReadStructFromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadStructFromMode macro safely reads a structure from memory based on the specified processor mode.
 prerelease: false

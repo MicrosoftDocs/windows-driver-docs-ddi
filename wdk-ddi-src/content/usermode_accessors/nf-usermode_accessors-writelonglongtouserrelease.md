@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteLonglongToUserRelease
 tech.root: kernel
 title: WriteLonglongToUserRelease
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteLonglongToUserRelease function safely writes a LONGLONG value to user-mode memory with release semantics.
 prerelease: false

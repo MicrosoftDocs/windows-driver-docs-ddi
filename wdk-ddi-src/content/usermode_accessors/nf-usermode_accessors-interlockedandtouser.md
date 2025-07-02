@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedAndToUser
 tech.root: kernel
 title: InterlockedAndToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedAndToUser function performs an atomic AND operation on a 32-bit value in user-mode memory.
 prerelease: false

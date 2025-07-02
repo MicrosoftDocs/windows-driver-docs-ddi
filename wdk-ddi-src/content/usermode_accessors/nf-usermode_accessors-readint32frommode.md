@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadInt32FromMode
 tech.root: kernel
 title: ReadInt32FromMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadInt32FromMode function safely reads an INT32 value from memory based on the specified processor mode.
 prerelease: false

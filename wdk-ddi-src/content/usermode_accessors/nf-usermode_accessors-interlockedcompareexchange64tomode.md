@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedCompareExchange64ToMode
 tech.root: kernel
 title: InterlockedCompareExchange64ToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedCompareExchange64ToMode function performs an atomic compare-and-exchange operation on a 64-bit value in memory, with access dependent on the processor mode.
 prerelease: false

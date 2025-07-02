@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteULargeIntegerToUser
 tech.root: kernel
 title: WriteULargeIntegerToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteULargeIntegerToUser function safely writes a ULARGE_INTEGER value to user-mode memory.
 prerelease: false

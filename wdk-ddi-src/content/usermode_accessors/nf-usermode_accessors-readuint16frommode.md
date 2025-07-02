@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUInt16FromMode
 tech.root: kernel
 title: ReadUInt16FromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUInt16FromMode function safely reads a UINT16 value from memory based on the specified processor mode.
 prerelease: false

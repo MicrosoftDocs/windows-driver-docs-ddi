@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedCompareExchangeToUser
 tech.root: kernel
 title: InterlockedCompareExchangeToUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedCompareExchangeToUser function performs an atomic compare-and-exchange operation on a 32-bit value in user-mode memory.
 prerelease: false

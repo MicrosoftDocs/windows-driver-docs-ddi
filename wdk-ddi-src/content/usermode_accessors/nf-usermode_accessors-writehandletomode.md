@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteHandleToMode
 tech.root: kernel
 title: WriteHandleToMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteHandleToMode function safely writes a HANDLE value to memory based on the specified processor mode.
 prerelease: false

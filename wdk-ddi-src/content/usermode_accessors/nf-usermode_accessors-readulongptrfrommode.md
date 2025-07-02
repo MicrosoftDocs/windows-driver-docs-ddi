@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadULongPtrFromMode
 tech.root: kernel
 title: ReadULongPtrFromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadULongPtrFromMode function safely reads a ULONG_PTR value from memory based on the specified processor mode.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteStructToUserHelper
 tech.root: kernel
 title: WriteStructToUserHelper
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteStructToUserHelper function is a helper function that safely writes a structure of a specified size to user-mode memory.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteULong64ToUser
 tech.root: kernel
 title: WriteULong64ToUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteULong64ToUser function safely writes a ULONG64 value to user-mode memory.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteULongPtrToUserRelease
 tech.root: kernel
 title: WriteULongPtrToUserRelease
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteULongPtrToUserRelease function safely writes a ULONG_PTR value to user-mode memory with release semantics.
 prerelease: false

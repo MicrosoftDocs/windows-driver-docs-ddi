@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.InterlockedOr64ToMode
 tech.root: kernel
 title: InterlockedOr64ToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The InterlockedOr64ToMode function performs an atomic OR operation on a 64-bit value in memory, with access dependent on the processor mode.
 prerelease: false

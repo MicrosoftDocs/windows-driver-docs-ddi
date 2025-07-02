@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadSizeTFromUser
 tech.root: kernel
 title: ReadSizeTFromUser
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadSizeTFromUser function safely reads a SIZE_T value from user-mode memory.
 prerelease: false

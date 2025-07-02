@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadHandleFromMode
 tech.root: kernel
 title: ReadHandleFromMode
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadHandleFromMode function safely reads a HANDLE value from memory based on the specified processor mode.
 prerelease: false

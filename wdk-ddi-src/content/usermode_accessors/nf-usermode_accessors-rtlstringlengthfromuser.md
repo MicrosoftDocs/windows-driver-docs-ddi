@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlStringLengthFromUser
 tech.root: kernel
 title: RtlStringLengthFromUser
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlStringLengthFromUser function is reserved for system use.
 prerelease: false

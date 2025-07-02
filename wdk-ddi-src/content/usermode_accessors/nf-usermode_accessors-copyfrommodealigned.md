@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.CopyFromModeAligned
 tech.root: kernel
 title: CopyFromModeAligned
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The CopyFromModeAligned macro safely copies data from specified-mode memory to kernel memory, with alignment checking.
 prerelease: false

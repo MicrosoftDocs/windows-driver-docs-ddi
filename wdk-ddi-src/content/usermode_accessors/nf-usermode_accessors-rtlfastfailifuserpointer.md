@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.RtlFastFailIfUserPointer
 tech.root: kernel
 title: RtlFastFailIfUserPointer
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The RtlFastFailIfUserPointer function is reserved for system use.
 prerelease: false

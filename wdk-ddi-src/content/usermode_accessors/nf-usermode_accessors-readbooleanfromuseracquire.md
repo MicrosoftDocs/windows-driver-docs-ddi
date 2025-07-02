@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadBooleanFromUserAcquire
 tech.root: kernel
 title: ReadBooleanFromUserAcquire
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadBooleanFromUserAcquire function safely reads a BOOLEAN value from user-mode memory with acquire semantics.
 prerelease: false

@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.WriteUnicodeStringToMode
 tech.root: kernel
 title: WriteUnicodeStringToMode
-ms.date: 06/24/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The WriteUnicodeStringToMode function safely writes a UNICODE_STRING structure to memory based on the specified processor mode.
 prerelease: false

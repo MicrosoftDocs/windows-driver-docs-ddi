@@ -2,7 +2,7 @@
 UID: NF:usermode_accessors.ReadUInt32FromUserAcquire
 tech.root: kernel
 title: ReadUInt32FromUserAcquire
-ms.date: 06/20/2025
+ms.date: 07/02/2025
 targetos: Windows
 description: The ReadUInt32FromUserAcquire function safely reads a UINT32 value from user-mode memory with acquire semantics.
 prerelease: false
