@@ -80,6 +80,7 @@ Static audio devices (circuits) are enumerated only by the main device (the FDO)
 
 Attempts to perform static enumeration in a raw PDO child device’s context will not work, because the required static device list exists only at the FDO level. See [Static Enumeration](../wdf/static-enumeration.md) in the WDF documentation for additional information.
 
+Note that the FDO also supports dynamic enumerations. For more information, see [Dynamic Enumeration](../wdf/dynamic-enumeration.md).
 
 ### Example
 
