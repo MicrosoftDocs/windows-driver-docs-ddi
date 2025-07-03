@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitCreate
 tech.root: audio
 title: AcxFactoryCircuitCreate
-ms.date: 07/02/2025
+ms.date: 07/03/2025
 targetos: Windows
 description: The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.
 prerelease: false
@@ -74,13 +74,7 @@ The ACXFACTORYCIRCUIT is used in a multi-circuit endpoint. A circuit created by 
 
 An ACXFACTORYCIRCUIT has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects).
 
-Note that an AcxFactoryCircuit can only be created on FDOs (not on RAW PDOs). 
-
-Static audio devices (circuits) are enumerated only by the main device (the FDO). The static enumeration is supported by the FDO during its initial hardware setup. Raw PDO child devices are not used for static enumeration. The FDO maintains the list of static child devices, and any static circuits must be created and added to this list during the FDO’s EvtDevicePrepareHardware sequence. 
-
-Attempts to perform static enumeration in a raw PDO child device’s context will not work, because the required static device list exists only at the FDO level. See [Static Enumeration](../wdf/static-enumeration.md) in the WDF documentation for additional information.
-
-Note that the FDO also supports dynamic enumerations. For more information, see [Dynamic Enumeration](../wdf/dynamic-enumeration.md).
+An AcxFactoryCircuit can only be created on FDOs (not on RAW PDOs). The ACXFACTORYCIRCUIT object uses its FDO's static child list which is not available on a RAW PDO. See [Static Enumeration](../wdf/static-enumeration.md) and [Dynamic Enumeration](../wdf/dynamic-enumeration.md) in the WDF documentation for additional information.
 
 ### Example
 
