@@ -52,7 +52,7 @@ The user-mode display driver's (UMD) **pfnEndRenderPass** callback function mark
 
 ## -remarks
 
-For the [extended render passes feature](/windows-hardware/drivers/display/render-passes), the [**PFND3D12DDI_END_RENDER_PASS_0053**](nc-d3d12umddi-pfnd3d12ddi_end_render_pass_0053.md) function is called instead.
+For the [extended render passes feature](/windows-hardware/drivers/display/d3d12-render-passes), the [**PFND3D12DDI_END_RENDER_PASS_0053**](nc-d3d12umddi-pfnd3d12ddi_end_render_pass_0053.md) function is called instead.
 
 ## -see-also
 

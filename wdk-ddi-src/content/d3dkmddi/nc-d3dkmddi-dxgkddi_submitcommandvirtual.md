@@ -1,11 +1,8 @@
 ---
 UID: NC:d3dkmddi.DXGKDDI_SUBMITCOMMANDVIRTUAL
 title: DXGKDDI_SUBMITCOMMANDVIRTUAL (d3dkmddi.h)
-description: DxgkDdiSubmitCommandVirtual is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing.
-old-location: display\dxgkddisubmitcommandvirtual.htm
-ms.date: 05/10/2018
-keywords: ["DXGKDDI_SUBMITCOMMANDVIRTUAL callback function"]
-ms.keywords: DXGKDDI_SUBMITCOMMANDVIRTUAL, DXGKDDI_SUBMITCOMMANDVIRTUAL callback, DxgkDdiSubmitCommandVirtual, DxgkDdiSubmitCommandVirtual callback function [Display Devices], d3dkmddi/DxgkDdiSubmitCommandVirtual, display.dxgkddisubmitcommandvirtual
+description: DxgkDdiSubmitCommandVirtual submits a direct memory access (DMA) buffer to a context that supports virtual addressing.
+ms.date: 05/22/2025
 req.header: d3dkmddi.h
 req.include-header: 
 req.target-type: Desktop
@@ -42,44 +39,39 @@ api_name:
 
 # DXGKDDI_SUBMITCOMMANDVIRTUAL callback function
 
-
 ## -description
 
-<b>DxgkDdiSubmitCommandVirtual</b> is used to submit a direct memory access (DMA) buffer to a context that supports virtual addressing.
-
-
-
-The driver is responsible for making sure the correct address space is restored ahead of submitting a particular DMA buffer.
+The **DxgkDdiSubmitCommandVirtual** command submits a DMA buffer to a context that supports virtual addressing.
 
 ## -parameters
 
 ### -param hAdapter
 
-A handle to a context block that is associated with a display adapter.
+A handle to a context block that is associated with a display adapter. The display miniport driver (KMD) previously provided this handle to *Dxgkrnl* in the **MiniportDeviceContext** output parameter of the [**DxgkDdiAddDevice**](../dispmprt/nc-dispmprt-dxgkddi_add_device.md) function.
 
 ### -param pSubmitCommand
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_submitcommandvirtual">DXGKARG_SUBMITCOMMANDVIRTUAL</a> structure that describes operation.
+A pointer to a [**DXGKARG_SUBMITCOMMANDVIRTUAL**](ns-d3dkmddi-_dxgkarg_submitcommandvirtual.md) structure that describes operation.
 
 ## -returns
 
-| **Value** | **Description** | 
+| **Value** | **Description** |
 |:--|:--|
-| STATUS_SUCCESS | The submitted command is well-formed. | 
-| STATUS_INVALID_PARAMETER | The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The *SubmissionFenceId* value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value. <br/>**Note:** This behavior is different from [DxgkDdiSubmitCommand](./nc-d3dkmddi-dxgkddi_submitcommand.md)  call where no error is allowed to be returned due to the ability to validate the data in a prior [DxgkDdiRender](./nc-d3dkmddi-dxgkddi_render.md)  call. |
+| STATUS_SUCCESS | The submitted command is well-formed. |
+| STATUS_INVALID_PARAMETER | The DMA or private data is determined to be malformed. In this case, the OS will put the calling device in an error state and all subsequent calls on it will fail. The **SubmissionFenceId** value passed to this call will be considered completed after all previous packets on the hardware finished and at that point the driver notion of the last completed fence ID should be updated to this value. This behavior is different from a call to[**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md), where no error is allowed to be returned due to the ability to validate the data in a prior [**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)  call. |
 
+All other return values will lead to an OS bugcheck.
 
-All other return values will lead to the OS <i>bugcheck</i>.
+## -remarks
+
+**DxgkDdiSubmitCommandVirtual** works with virtual memory addressing, whereas [**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md) is called with physical memory. **DxgkDdiSubmitCommandVirtual** allows the driver to manage memory more flexibly.
+
+The GPU might have previously worked with a different address space, perhaps for another process or context. The driver is responsible for making sure the correct address space is restored ahead of submitting a particular DMA buffer.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/ns-d3dkmddi-_dxgkarg_submitcommandvirtual">DXGKARG_SUBMITCOMMANDVIRTUAL</a>
+[**DXGKARG_SUBMITCOMMANDVIRTUAL**](ns-d3dkmddi-_dxgkarg_submitcommandvirtual.md)
 
+[**DxgkDdiRender**](nc-d3dkmddi-dxgkddi_render.md)
 
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_render">DxgkDdiRender</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/d3dkmddi/nc-d3dkmddi-dxgkddi_submitcommand">DxgkDdiSubmitCommand</a>
-
+[**DxgkDdiSubmitCommand**](nc-d3dkmddi-dxgkddi_submitcommand.md)

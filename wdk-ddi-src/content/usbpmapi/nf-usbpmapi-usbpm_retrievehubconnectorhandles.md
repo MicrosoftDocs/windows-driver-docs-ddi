@@ -2,7 +2,7 @@
 UID: NF:usbpmapi.UsbPm_RetrieveHubConnectorHandles
 title: UsbPm_RetrieveHubConnectorHandles function (usbpmapi.h)
 description: Retrieves connector handles for all connectors of a hub.
-ms.date: 09/30/2018
+ms.date: 04/29/2025
 keywords: ["UsbPm_RetrieveHubConnectorHandles function"]
 ms.keywords: UsbPm_RetrieveHubConnectorHandles
 tech.root: usbref
@@ -40,7 +40,6 @@ api_name:
 
 # UsbPm_RetrieveHubConnectorHandles function
 
-
 ## -description
 
 Retrieves connector handles for all connectors of a hub.
@@ -49,7 +48,7 @@ Retrieves connector handles for all connectors of a hub.
 
 ### -param ClientHandle [In]
 
-The handle that the client driver received in a previous call to [**UsbPm_Register**](nf-usbpmapi-usbpm_register.md).
+The handle that the client driver received in a previous call to **[UsbPm_Register](nf-usbpmapi-usbpm_register.md)**.
 
 ### -param HubHandle [In]
 
@@ -57,7 +56,7 @@ The handle to the hub.
 
 ### -param HubConnectorHandles [Out]
 
-A pointer to a [**USBPM_HUB_CONNECTOR_HANDLES**](nf-usbpmapi-usbpm_retrievehubconnectorhandles.md) structures that contains the connector handles. Initialize this structure by calling [**USBPM_HUB_CONNECTOR_HANDLES_INIT**](nf-usbpmapi-usbpm_hub_connector_handles_init.md). The array is allocated by the Policy Manager is valid during the life time of the hub. The client driver must not change the array or release the array after use.
+A pointer to a **[USBPM_HUB_CONNECTOR_HANDLES](ns-usbpmapi-_usbpm_hub_connector_handles.md)** structures that contains the connector handles. Initialize this structure by calling **[USBPM_HUB_CONNECTOR_HANDLES_INIT](nf-usbpmapi-usbpm_hub_connector_handles_init.md)**. The array is allocated by the Policy Manager is valid during the life time of the hub. The client driver must not change the array or release the array after use.
 
 ## -returns
 
@@ -66,4 +65,3 @@ This function returns NTSTATUS.
 ## -remarks
 
 ## -see-also
-

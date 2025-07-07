@@ -76,8 +76,8 @@ MiniportWdiIdleNotification can return any of the following return values.
 
 |Return code|Description|
 |--- |--- |
-|**NDIS_STATUS_PENDING**|The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls [NdisWdiIdleNotificationComplete](nc-dot11wdi-ndis_wdi_idle_notification_complete.md). **Note:** The miniport driver must not return NDIS_STATUS_SUCCESS from [MiniportWdiIdleNotification](nc-dot11wdi-miniport_wdi_idle_notification.md).|
-|**NDIS_STATUS_BUSY**|The miniport driver vetoed the idle notification because the network adapter is still being used. **Note:** [MiniportWdiIdleNotification](nc-dot11wdi-miniport_wdi_idle_notification.md) must not return this status code if the _ForceIdle_ parameter is set to **TRUE**.|
+|**NDIS_STATUS_PENDING**|The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls [NdisWdiIdleNotificationComplete](nc-dot11wdi-ndis_wdi_idle_notification_complete.md). **Note:** The miniport driver must not return NDIS_STATUS_SUCCESS from MiniportWdiIdleNotification.|
+|**NDIS_STATUS_BUSY**|The miniport driver vetoed the idle notification because the network adapter is still being used. **Note:** MiniportWdiIdleNotification must not return this status code if the _ForceIdle_ parameter is set to **TRUE**.|
 |**NDIS_STATUS_FAILURE**|The miniport driver could not issue a bus-specific IRP successfully.|
 
 ## -see-also

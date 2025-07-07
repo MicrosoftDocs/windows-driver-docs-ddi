@@ -2,7 +2,7 @@
 UID: NS:pktmonclntk._PKTMON_EDGE_CONTEXT
 tech.root: netvista
 title: PKTMON_EDGE_CONTEXT
-ms.date: 04/04/2025
+ms.date: 04/21/2025
 targetos: Windows
 description: The PKTMON_EDGE_CONTEXT structure holds the context for an edge.
 prerelease: false
@@ -63,11 +63,11 @@ A pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_co
 
 ### -field PacketType
 
-The **[PKTMON_PACKET_TYPE](ns-pktmonclntk-pktmon_packet_type.md)**.
+The **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type)**.
 
 ## -remarks
 
 ## -see-also
 
-- **[PKTMON_PACKET_TYPE](ns-pktmonclntk-pktmon_packet_type.md)**
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type)**
 - **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**

@@ -47,7 +47,7 @@ api_name:
 
 <p class="CCE_Message">[Applies to KMDF only]</p>
 
-A bus driver's<i>EvtChildListCreateDevice</i> event callback function creates a framework device object for a new device that has been dynamically enumerated.
+A bus driver's <i>EvtChildListCreateDevice</i> event callback function creates a framework device object for a new device that has been dynamically enumerated.
 
 ## -parameters
 

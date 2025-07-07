@@ -53,7 +53,7 @@ A pointer to a [**UART_INITIALIZE_PORT**](nc-uart-uart_initialize_port.md) callb
 
 ### -field SetBaud
 
-A pointer to a [**UART_SET_BAUD**](ns-uart-_uart_hardware_driver.md) callback function that sets the baud rate of the UART hardware to the specified value.
+A pointer to a [**UART_SET_BAUD**](nc-uart-uart_set_baud.md) callback function that sets the baud rate of the UART hardware to the specified value.
 
 ### -field GetByte
 

@@ -51,7 +51,7 @@ The **PKTMON_COMPONENT_PROPERTY** structure defines various properties for a Pac
 
 ### -field Id
 
-Specifies the identifier for the component property. This field is of type **[PKTMON_COMPONENT_PROPERTY_ID](pktmondefk/ne-pktmondefk-pktmon_co../mponent_property_id.md)**.
+Specifies the identifier for the component property. This field is of type **[PKTMON_COMPONENT_PROPERTY_ID](../pktmondefk/ne-pktmondefk-pktmon_component_property_id.md)**.
 
 ### -field IfIndex
 
@@ -126,5 +126,4 @@ Specifies the socket address. Use this field when the property ID is **PktMonCom
 ## -see-also
 
 - **[PktMon**ClntSetComponentProperty](nf-pktmonclntk-pktmonclntsetcomponentproperty.md)**
-- **[PKTMON_COMPONENT_PROPERTY_ID](../pktmondefk/ne-pktmondefk-pktmon_co../mponent_property_id.md)**
-
+- **[PKTMON_COMPONENT_PROPERTY_ID](../pktmondefk/ne-pktmondefk-pktmon_component_property_id.md)**

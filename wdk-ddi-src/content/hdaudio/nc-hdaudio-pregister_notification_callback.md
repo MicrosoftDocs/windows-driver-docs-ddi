@@ -107,6 +107,4 @@ The HD Audio bus driver will maintain a reference on the FDO after registration 
 
 [HDAUDIO_BUS_INTERFACE_V3](ns-hdaudio-_hdaudio_bus_interface_v3.md)
 
-[PREGISTER_NOTIFICATION_CALLBACK callback function](nc-hdaudio-pregister_notification_callback.md)
-
 [hdaudio.h](../hdaudio/index.md)

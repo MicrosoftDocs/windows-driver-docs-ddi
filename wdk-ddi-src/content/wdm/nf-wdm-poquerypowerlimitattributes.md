@@ -2,7 +2,7 @@
 UID: NF:wdm.PoQueryPowerLimitAttributes
 tech.root: kernel
 title: PoQueryPowerLimitAttributes
-ms.date: 03/17/2025
+ms.date: 04/28/2025
 targetos: Windows
 description: This function queries the attributes of a power limit request object.
 prerelease: false
@@ -84,7 +84,7 @@ The policy calls this interface twice and allocates a buffer in between:
 
 [PoDeletePowerLimitRequest](nf-wdm-podeletepowerlimitrequest.md)
 
-[PoQueryPowerLimitValue](nf-wdm-poquerypowerlimitattributes.md)
+[PoQueryPowerLimitValue](nf-wdm-poquerypowerlimitvalue.md)
 
 [PoSetPowerLimitValue](nf-wdm-posetpowerlimitvalue.md)
 

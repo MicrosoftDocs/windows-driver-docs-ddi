@@ -1,7 +1,6 @@
 ---
 UID: NC:iddcx.PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
 title: PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE
-author: windows-driver-content
 description: PFN_IDDCXADAPTERDISPLAYCONFIGUPDATE is a pointer to an OS callback function that updates the display configuration for the remote session.
 tech.root: display
 ms.date: 09/28/2020

@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's [DriverEntry](/windows-hardware/drivers/storage/driverentry-of-ide-controller-minidriver), [AddDevice](./nc-wdm-driver_add_device.md), and optional [Reinitialize](../ntddk/nc-ntddk-driver_reinitialize.md) routines and to its [Unload](./nc-wdm-driver_unload.md) routine, if any.
+Each driver object represents the image of a loaded kernel-mode driver. A pointer to the driver object is an input parameter to a driver's [DriverEntry](/windows-hardware/drivers/ddi/wdm/nc-wdm-driver_initialize), [AddDevice](./nc-wdm-driver_add_device.md), and optional [Reinitialize](../ntddk/nc-ntddk-driver_reinitialize.md) routines and to its [Unload](./nc-wdm-driver_unload.md) routine, if any.
 
 A driver object is partially opaque. Driver writers must know about certain members of a driver object to initialize a driver and to unload it if the driver is unloadable. The following members of the driver object are accessible to drivers.
 

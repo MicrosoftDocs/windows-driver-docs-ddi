@@ -2,11 +2,8 @@
 UID: NE:ntifs._OBJECT_INFORMATION_CLASS
 title: OBJECT_INFORMATION_CLASS (ntifs.h)
 description: The OBJECT_INFORMATION_CLASS enumeration type represents the type of information to supply about an object.
-old-location: ifsk\object_information_class.htm
 tech.root: ifsk
-ms.date: 07/26/2022
-keywords: ["OBJECT_INFORMATION_CLASS enumeration"]
-ms.keywords: OBJECT_INFORMATION_CLASS, OBJECT_INFORMATION_CLASS enumeration [Installable File System Drivers], ObjectBasicInformation, ObjectTypeInformation, _OBJECT_INFORMATION_CLASS, ifsk.object_information_class, ntifs/OBJECT_INFORMATION_CLASS, ntifs/ObjectBasicInformation, ntifs/ObjectTypeInformation, objectstructures_60aa943f-6a91-429d-8c9d-1554f1bcf03e.xml
+ms.date: 05/05/2025
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -47,17 +44,17 @@ api_name:
 
 ## -description
 
-The **OBJECT_INFORMATION_CLASS** enumeration type represents the type of information to supply about an object.
+The **OBJECT_INFORMATION_CLASS** enumeration type represents the type of information to supply about a kernel object.
 
 ## -enum-fields
 
-### -field ObjectBasicInformation
+### -field ObjectBasicInformation:0
 
-A [**PUBLIC_OBJECT_BASIC_INFORMATION**](ns-ntifs-_public_object_basic_information.md) structure is supplied.
+The caller-allocated buffer passed to [**ZwQueryObject**](nf-ntifs-zwqueryobject.md) in the buffer that **ObjectInformation** points to contains a [**PUBLIC_OBJECT_BASIC_INFORMATION**](ns-ntifs-_public_object_basic_information.md) structure.
 
-### -field ObjectTypeInformation
+### -field ObjectTypeInformation:2
 
-A [**PUBLIC_OBJECT_TYPE_INFORMATION**](ns-ntifs-__public_object_type_information.md) structure is supplied.
+The caller-allocated buffer passed to [**ZwQueryObject**](nf-ntifs-zwqueryobject.md) in the buffer that **ObjectInformation** points to contains a  [**PUBLIC_OBJECT_TYPE_INFORMATION**](ns-ntifs-__public_object_type_information.md) structure.
 
 ## -see-also
 

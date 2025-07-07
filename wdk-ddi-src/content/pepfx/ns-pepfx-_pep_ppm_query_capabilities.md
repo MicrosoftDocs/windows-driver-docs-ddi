@@ -4,7 +4,7 @@ title: _PEP_PPM_QUERY_CAPABILITIES (pepfx.h)
 description: The PEP_PPM_QUERY_CAPABILITIES structure contains information about the processor power management (PPM) capabilities of the platform extension plug-in (PEP).
 old-location: kernel\pep_ppm_query_capabilities.htm
 tech.root: kernel
-ms.date: 08/10/2022
+ms.date: 04/29/2025
 keywords: ["PEP_PPM_QUERY_CAPABILITIES structure"]
 ms.keywords: "*PPEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES, PEP_PPM_QUERY_CAPABILITIES structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_CAPABILITIES, PPEP_PPM_QUERY_CAPABILITIES structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_CAPABILITIES, kernel.pep_ppm_query_capabilities, pepfx/PEP_PPM_QUERY_CAPABILITIES, pepfx/PPEP_PPM_QUERY_CAPABILITIES"
 req.header: pepfx.h
@@ -80,8 +80,6 @@ Reserved for future use. Set to zero.
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](./ns-pepfx-_pep_ppm_query_capabilities.md) notification. All four members contain output values that the PEP writes to the structure in response to this notification.
+This structure is used by the **PEP_NOTIFY_PPM_QUERY_CAPABILITIES** notification. All four members contain output values that the PEP writes to the structure in response to this notification.
 
 ## -see-also
-
-- [PEP_NOTIFY_PPM_QUERY_CAPABILITIES](./ns-pepfx-_pep_ppm_query_capabilities.md)

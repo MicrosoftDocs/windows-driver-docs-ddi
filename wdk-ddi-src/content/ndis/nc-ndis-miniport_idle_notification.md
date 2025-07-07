@@ -67,8 +67,8 @@ For more information about the *ForceIdle* parameter, see the Remarks section.
 
 |Return code|Description|
 |--- |--- |
-|**NDIS_STATUS_PENDING**|The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls [NdisMIdleNotificationComplete](nf-ndis-ndismidlenotificationcomplete.md). **Note:** The miniport driver must not return NDIS_STATUS_SUCCESS from [MiniportIdleNotification](nc-ndis-miniport_idle_notification.md).|
-|**NDIS_STATUS_BUSY**|The miniport driver vetoed the idle notification because the network adapter is still being used. **Note:** [MiniportIdleNotification](nc-ndis-miniport_idle_notification.md) must not return this status code if the _ForceIdle_ parameter is set to **TRUE**.|
+|**NDIS_STATUS_PENDING**|The miniport driver successfully handled the idle notification. The notification is left in a pending state until the miniport driver calls [NdisMIdleNotificationComplete](nf-ndis-ndismidlenotificationcomplete.md). **Note:** The miniport driver must not return NDIS_STATUS_SUCCESS from MiniportIdleNotification.|
+|**NDIS_STATUS_BUSY**|The miniport driver vetoed the idle notification because the network adapter is still being used. **Note:** MiniportIdleNotification must not return this status code if the _ForceIdle_ parameter is set to **TRUE**.|
 |**NDIS_STATUS_FAILURE**|The miniport driver could not issue a bus-specific IRP successfully.|
 
 ## -remarks

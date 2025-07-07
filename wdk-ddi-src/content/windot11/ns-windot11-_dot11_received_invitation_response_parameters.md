@@ -116,5 +116,5 @@ typedef struct _DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS {
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_received_invitation_response_parameters.md">DOT11_RECEIVED_INVITATION_RESPONSE_PARAMETERS</a>
+<a href="/windows-hardware/drivers/network/ndis-status-dot11-wfd-received-invitation-response">NDIS_STATUS_DOT11_WFD_RECEIVED_INVITATION_RESPONSE</a>
 

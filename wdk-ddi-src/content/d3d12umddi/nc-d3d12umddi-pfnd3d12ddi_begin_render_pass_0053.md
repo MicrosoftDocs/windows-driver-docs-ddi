@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-This version of the user-mode display driver's (UMD) **pfnBeginRenderPass** callback function marks the beginning of an [extended render pass](/windows-hardware/drivers/display/render-passes).
+This version of the user-mode display driver's (UMD) **pfnBeginRenderPass** callback function marks the beginning of an [extended render pass](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -parameters
 
@@ -75,7 +75,7 @@ The caller of **pfnBeginRenderPass** must provide all Resources that the user de
 
 The [**D3D12DDI_RENDER_PASS_BEGINNING_ACCESS_TYPE_0053**](ne-d3d12umddi-d3d12ddi_render_pass_beginning_access_type_0053.md) and [**D3D12DDI_RENDER_PASS_ENDING_ACCESS_TYPE_0053**](ne-d3d12umddi-d3d12ddi_render_pass_ending_access_type_0053.md) enumerations must both be provided for all resources when calling this callback.
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 

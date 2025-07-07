@@ -67,7 +67,7 @@ This structure is used when the beginning access [**Type**](ns-d3d12umddi-d3d12d
 
 If **AdditionalWidth**/**AdditionalHeight** parameters for the pass are nonzero, they define a border of additional pixel locations around the current one that can also be read. For instance, **AdditionalWidth** of 1 and **AdditionalHeight** of 2 means a region 3 pixels wide and 5 pixels tall around the current pixel can be read by the current pixel.
 
-For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [D3D12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 

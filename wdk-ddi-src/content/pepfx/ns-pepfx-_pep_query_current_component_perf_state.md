@@ -4,7 +4,7 @@ title: _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE (pepfx.h)
 description: The PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure contains information about the current P-state in the specified P-state set.
 old-location: kernel\pep_query_current_component_perf_state.htm
 tech.root: kernel
-ms.date: 04/30/2018
+ms.date: 04/29/2025
 keywords: ["PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure"]
 ms.keywords: "*PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure [Kernel-Mode Driver Architecture], PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, kernel.pep_query_current_component_perf_state, pepfx/PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, pepfx/PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE"
 req.header: pepfx.h
@@ -76,7 +76,7 @@ The value of the current P-state for the specified P-state set. Write to this me
 
 ## -remarks
 
-This structure is used by the [PEP_DPM_QUERY_CURRENT_COMPONENT_PERF_STATE](./ns-pepfx-_pep_query_current_component_perf_state.md) notification. The *DeviceHandle*, *Component*, and *Set* members contain input values supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is sent. The *StateIndex* member or *StateValue* member contains an output value that the PEP writes to the structure in response to the notification.
+This structure is used by the **PEP_DPM_QUERY_CURRENT_COMPONENT_PERF_STATE** notification. The *DeviceHandle*, *Component*, and *Set* members contain input values supplied by the Windows [power management framework](../_kernel/index.md#device-power-management) (PoFx) when this notification is sent. The *StateIndex* member or *StateValue* member contains an output value that the PEP writes to the structure in response to the notification.
 
 The unnamed union contains the current performance level of this P-state set expressed either as an index into a set of discrete values or as a value in a range. In response to a previous [PEP_DPM_QUERY_COMPONENT_PERF_SET](./ns-pepfx-_pep_query_component_perf_set.md) notification, the PEP indicated whether the performance values in the P-state set are of type **PoFxPerfStateTypeDiscrete** or **PoFxPerfStateTypeRange**.
 
@@ -85,5 +85,4 @@ The unnamed union contains the current performance level of this P-state set exp
 - [PEP_DPM_REGISTER_DEVICE](./ns-pepfx-_pep_register_crashdump_device.md)
 - [PEP_DEVICE_REGISTER_V2](./ns-pepfx-_pep_device_register_v2.md)
 - [PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES](./ns-pepfx-_pep_query_component_perf_capabilities.md)
-- [PEP_DPM_QUERY_CURRENT_COMPONENT_PERF_STATE](./ns-pepfx-_pep_query_current_component_perf_state.md)
 - [PEP_DPM_QUERY_COMPONENT_PERF_SET](./ns-pepfx-_pep_query_component_perf_set.md)

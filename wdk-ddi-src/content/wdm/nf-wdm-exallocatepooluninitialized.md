@@ -2,7 +2,7 @@
 UID: NF:wdm.ExAllocatePoolUninitialized
 title: ExAllocatePoolUninitialized
 tech.root: kernel
-ms.date: 01/05/2023
+ms.date: 04/28/2025
 targetos: Windows
 description: This routine is a wrapper and replacement option for ExAllocatePoolWithTag.
 req.assembly: 
@@ -43,7 +43,7 @@ dev_langs:
 
 This routine is a wrapper and replacement option for [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md).
 
-- To support Windows versions earlier than Windows 10, version 2004, use [**ExAllocatePoolUninitialized**](nf-wdm-exallocatepooluninitialized.md) or [**ExAllocatePoolZero**](nf-wdm-exallocatepoolzero.md).
+- To support Windows versions earlier than Windows 10, version 2004, use **ExAllocatePoolUninitialized** or [**ExAllocatePoolZero**](nf-wdm-exallocatepoolzero.md).
 
 - To support Windows 10, version 2004 and later, use [**ExAllocatePool2**](nf-wdm-exallocatepool2.md).
 

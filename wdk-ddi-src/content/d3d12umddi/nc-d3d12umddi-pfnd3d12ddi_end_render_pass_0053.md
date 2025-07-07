@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The user-mode display driver's (UMD) **pfnEndRenderPass** callback function marks the end of an [extended render pass](/windows-hardware/drivers/display/render-passes).
+The user-mode display driver's (UMD) **pfnEndRenderPass** callback function marks the end of an [extended render pass](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -parameters
 
@@ -50,7 +50,7 @@ The user-mode display driver's (UMD) **pfnEndRenderPass** callback function mark
 
 A D3D12DDI_HCOMMANDLIST (command list) that contains the Render Pass.
 
-For more information, see [Direct3D 12 Render Passes](/windows-hardware/drivers/display/render-passes).
+For more information, see [Direct3D 12 Render Passes](/windows-hardware/drivers/display/d3d12-render-passes).
 
 ## -see-also
 
