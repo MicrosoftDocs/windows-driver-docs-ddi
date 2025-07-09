@@ -4,7 +4,7 @@ title: HidP_GetUsages function (hidpi.h)
 description: The HidP_GetUsages routine returns a list of all the HID control button usages that are on a specified usage page and are set to ON in a HID report.
 old-location: hid\hidp_getusages.htm
 tech.root: hid
-ms.date: 04/30/2018
+ms.date: 07/09/2025
 keywords: ["HidP_GetUsages function"]
 ms.keywords: HidP_GetUsages, HidP_GetUsages routine [Human Input Devices], hid.hidp_getusages, hidfunc_ed08f7c0-5435-417a-958f-34a6cbb1f541.xml, hidpi/HidP_GetUsages
 req.header: hidpi.h
@@ -43,181 +43,74 @@ api_name:
 
 # HidP_GetUsages function
 
-
 ## -description
 
-The <b>HidP_GetUsages </b>routine returns a list of all the HID control button <a href="/windows-hardware/drivers/hid/hid-usages">usages</a> that are on a specified <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> and are set to ON in a HID report.
+The **HidP_GetUsages** routine returns a list of all the HID control button [usages](/windows-hardware/drivers/hid/hid-usages) that are on a specified [usage page](/windows-hardware/drivers/hid/hid-usages) and are set to ON in a HID report.
 
 ## -parameters
 
 ### -param ReportType [in]
 
-
-Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
+Specifies a [HIDP_REPORT_TYPE](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
 
 ### -param UsagePage [in]
 
-
-Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> of the button usages. The routine only returns information about buttons on this usage page.
+Specifies the [usage page](/windows-hardware/drivers/hid/hid-usages) of the button usages. The routine only returns information about buttons on this usage page.
 
 ### -param LinkCollection [in]
 
-
-Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> of the button usages. If <i>LinkCollection</i> is nonzero, the routine only returns information about the buttons that this link collection contains; otherwise, if <i>LinkCollection</i> is zero, the routine returns information about all the buttons in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
+Specifies the [link collection](/windows-hardware/drivers/hid/link-collections) of the button usages. If *LinkCollection* is nonzero, the routine only returns information about the buttons that this link collection contains; otherwise, if *LinkCollection* is zero, the routine returns information about all the buttons in the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) associated with *PreparsedData*.
 
 ### -param UsageList [out]
 
-
-Pointer to a caller-allocated buffer that the routine uses to return the usages of all buttons that are set to ON and belong to the usage page specified by <i>UsagePage</i>.
+Pointer to a caller-allocated buffer that the routine uses to return the usages of all buttons that are set to ON and belong to the usage page specified by *UsagePage*.
 
 ### -param UsageLength [in, out]
 
-
-Specifies, on input, the length, in array elements, of the <i>UsageList</i> buffer. Specifies, on output, the number of buttons that are set to ON on the specified usage page.
+Specifies, on input, the length, in array elements, of the *UsageList* buffer. Specifies, on output, the number of buttons that are set to ON on the specified usage page.
 
 ### -param PreparsedData [in]
 
-
-Pointer to a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+Pointer to a top-level collection's [preparsed data](/windows-hardware/drivers/hid/preparsed-data).
 
 ### -param Report [out]
-
 
 Pointer to a report.
 
 ### -param ReportLength [in]
 
-
-Specifies the length, in bytes, of the report located at <i>Report</i>.
+Specifies the length, in bytes, of the report located at *Report*.
 
 ## -returns
 
-<b>HidP_GetUsages</b> returns one of the following status values:
+**HidP_GetUsages** returns one of the following status values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The routine successfully returned all button usages set to ON.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_INVALID_REPORT_LENGTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The report length is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_INVALID_REPORT_TYPE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified report type is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>UsageList</i> buffer is too small to hold all the usages that are currently set to ON on the specified usage page.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>
-</td>
-<td width="60%">
-The collection contains buttons on the specified usage page in a report of the specified type, but there are no such usages in the specified report.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The preparsed data is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The collection does not contain any buttons on the specified usage page in any report of the specified report type.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **HIDP_STATUS_SUCCESS** | The routine successfully returned all button usages set to ON. |
+| **HIDP_STATUS_INVALID_REPORT_LENGTH** | The report length is not valid. |
+| **HIDP_INVALID_REPORT_TYPE** | The specified report type is not valid. |
+| **HIDP_STATUS_BUFFER_TOO_SMALL** | The *UsageList* buffer is too small to hold all the usages that are currently set to ON on the specified usage page. |
+| **HIDP_STATUS_INCOMPATIBLE_REPORT_ID** | The collection contains buttons on the specified usage page in a report of the specified type, but there are no such usages in the specified report. |
+| **HIDP_STATUS_INVALID_PREPARSED_DATA** | The preparsed data is not valid. |
+| **HIDP_STATUS_USAGE_NOT_FOUND** | The collection does not contain any buttons on the specified usage page in any report of the specified report type. |
 
 ## -remarks
 
-User-mode applications and kernel-mode drivers call <a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength">HidP_MaxUsageListLength</a> to determine the maximum number of buttons that can be returned for specified report type. Alternatively, applications or drivers can call <b>HidP_GetUsages</b> and set *(\*UsageLength)* to zero to return the required length in <i>UsageLength</i>. In other words, *UsageLength* should be a valid pointer that points to a ULONG value **0** to get the required length.
+User-mode applications and kernel-mode drivers call [HidP_MaxUsageListLength](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength) to determine the maximum number of buttons that can be returned for specified report type. Alternatively, applications or drivers can call **HidP_GetUsages** and set *(\*UsageLength)* to zero to return the required length in *UsageLength*. In other words, *UsageLength* should be a valid pointer that points to a ULONG value **0** to get the required length.
 
-Applications or drivers determine the required report length from the <i>Xxx</i><b>ReportByteLength</b> members in a top-level collection's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps">HIDP_CAPS</a> structure.
+Applications or drivers determine the required report length from the *Xxx***ReportByteLength** members in a top-level collection's [HIDP_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_caps) structure.
 
-For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see [HID Collections](/windows-hardware/drivers/hid/hid-collections).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtons</a>
-
-
-
-<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtonsEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue">HidP_GetScaledUsageValue</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray">HidP_GetUsageValueArray</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex">HidP_GetUsagesEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength">HidP_MaxUsageListLength</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
+- [HidP_GetButtons](/windows-hardware/drivers/hid/hdpi-h-macros)
+- [HidP_GetButtonsEx](/windows-hardware/drivers/hid/hdpi-h-macros)
+- [HidP_GetCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps)
+- [HidP_GetScaledUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue)
+- [HidP_GetUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue)
+- [HidP_GetUsageValueArray](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevaluearray)
+- [HidP_GetUsagesEx](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex)
+- [HidP_MaxUsageListLength](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_maxusagelistlength)
+- [_HIDP_PREPARSED_DATA](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata)

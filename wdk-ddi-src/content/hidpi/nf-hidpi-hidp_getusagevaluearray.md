@@ -4,7 +4,7 @@ title: HidP_GetUsageValueArray function (hidpi.h)
 description: The HidP_GetUsageValueArray routine extracts the data associated with a HID control usage value array from a HID report.
 old-location: hid\hidp_getusagevaluearray.htm
 tech.root: hid
-ms.date: 04/30/2018
+ms.date: 07/09/2025
 keywords: ["HidP_GetUsageValueArray function"]
 ms.keywords: HidP_GetUsageValueArray, HidP_GetUsageValueArray routine [Human Input Devices], hid.hidp_getusagevaluearray, hidfunc_4e641f34-d016-4b2f-b472-069334d3e461.xml, hidpi/HidP_GetUsageValueArray
 req.header: hidpi.h
@@ -43,199 +43,81 @@ api_name:
 
 # HidP_GetUsageValueArray function
 
-
 ## -description
 
-The <b>HidP_GetUsageValueArray</b> routine extracts the data associated with a HID control <a href="/windows-hardware/drivers/hid/value-capability-arrays">usage value array</a> from a HID report.
+The **HidP_GetUsageValueArray** routine extracts the data associated with a HID control [usage value array](/windows-hardware/drivers/hid/value-capability-arrays) from a HID report.
 
 ## -parameters
 
 ### -param ReportType [in]
 
-
-Specifies a <a href="/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type">HIDP_REPORT_TYPE</a> enumerator value that identifies the report type.
+Specifies a [HIDP_REPORT_TYPE](/windows-hardware/drivers/ddi/hidpi/ne-hidpi-_hidp_report_type) enumerator value that identifies the report type.
 
 ### -param UsagePage [in]
 
-
-Specifies the <a href="/windows-hardware/drivers/hid/hid-usages">usage page</a> of the usage value array.
+Specifies the [usage page](/windows-hardware/drivers/hid/hid-usages) of the usage value array.
 
 ### -param LinkCollection [in]
 
-
-Specifies the <a href="/windows-hardware/drivers/hid/link-collections">link collection</a> that contains the usage value array. If <i>LinkCollection</i> is nonzero, the routine only searches for a usage value array in this link collection; otherwise, if <i>LinkCollection</i> is zero, the routine searches for a usage value array in the <a href="/windows-hardware/drivers/hid/top-level-collections">top-level collection</a> associated with <i>PreparsedData</i>.
+Specifies the [link collection](/windows-hardware/drivers/hid/link-collections) that contains the usage value array. If *LinkCollection* is nonzero, the routine only searches for a usage value array in this link collection; otherwise, if *LinkCollection* is zero, the routine searches for a usage value array in the [top-level collection](/windows-hardware/drivers/hid/top-level-collections) associated with *PreparsedData*.
 
 ### -param Usage [in]
-
 
 Specifies the usage of the usage value array.
 
 ### -param UsageValue [in, out]
 
-
 Pointer to a caller-allocated buffer in which the routine returns the data associated with the usage value array.
 
 ### -param UsageValueByteLength [in]
 
-
-Specifies the length, in bytes, of the buffer at <i>UsageValue</i>.
+Specifies the length, in bytes, of the buffer at *UsageValue*.
 
 ### -param PreparsedData [in]
 
-
-Pointer to a top-level collection's <a href="/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+Pointer to a top-level collection's [preparsed data](/windows-hardware/drivers/hid/preparsed-data).
 
 ### -param Report [in]
-
 
 Pointer to a report that contains values.
 
 ### -param ReportLength [in]
 
-
-Specifies the length, in bytes, of the report located at <i>Report</i>.
+Specifies the length, in bytes, of the report located at *Report*.
 
 ## -returns
 
-<b>HidP_GetUsageValueArray </b>returns one of the following status values:
+**HidP_GetUsageValueArray** returns one of the following status values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_SUCCESS</b></dt>
-</dl>
-</td>
-<td width="60%">
-The routine successfully returned the value's data.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_INVALID_REPORT_LENGTH</b></dt>
-</dl>
-</td>
-<td width="60%">
-The report length is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_INVALID_REPORT_TYPE</b></dt>
-</dl>
-</td>
-<td width="60%">
-The specified report type is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_NOT_VALUE_ARRAY</b></dt>
-</dl>
-</td>
-<td width="60%">
-The requested usage is not a usage value array.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>UsageValue</i> buffer is too small to hold the requested usage. 
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_INCOMPATIBLE_REPORT_ID</b></dt>
-</dl>
-</td>
-<td width="60%">
-The collection contains a usage value array on the specified usage page in a report of the specified type, but there are no such usages in the specified report.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_INVALID_PREPARSED_DATA</b></dt>
-</dl>
-</td>
-<td width="60%">
-The preparsed data is not valid.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>HIDP_STATUS_USAGE_NOT_FOUND</b></dt>
-</dl>
-</td>
-<td width="60%">
-The collection does not contain a usage value array on the specified usage page in any report of the specified report type.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **HIDP_STATUS_SUCCESS** | The routine successfully returned the value's data. |
+| **HIDP_STATUS_INVALID_REPORT_LENGTH** | The report length is not valid. |
+| **HIDP_INVALID_REPORT_TYPE** | The specified report type is not valid. |
+| **HIDP_STATUS_NOT_VALUE_ARRAY** | The requested usage is not a usage value array. |
+| **HIDP_STATUS_BUFFER_TOO_SMALL** | The *UsageValue* buffer is too small to hold the requested usage. |
+| **HIDP_STATUS_INCOMPATIBLE_REPORT_ID** | The collection contains a usage value array on the specified usage page in a report of the specified type, but there are no such usages in the specified report. |
+| **HIDP_STATUS_INVALID_PREPARSED_DATA** | The preparsed data is not valid. |
+| **HIDP_STATUS_USAGE_NOT_FOUND** | The collection does not contain a usage value array on the specified usage page in any report of the specified report type. |
 
 ## -remarks
 
-The required size, in bytes, of <i>UsageValueByteLength</i> is determined by multiplying together the <b>BitSize</b> and <b>ReportCount</b> members of the usage value array's <a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a> structure, and rounding the result up to the nearest byte.
+The required size, in bytes, of *UsageValueByteLength* is determined by multiplying together the **BitSize** and **ReportCount** members of the usage value array's [HIDP_VALUE_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps) structure, and rounding the result up to the nearest byte.
 
-<b>HidP_GetUsageValueArray</b> sets the <i>UsageValue</i> buffer in little-endian order, beginning with the least significant bit of the usage's data. The data is not byte-aligned, and is shifted such that the least significant bit of the data is located at the first bit of the <i>UsageValue</i> buffer.
+**HidP_GetUsageValueArray** sets the *UsageValue* buffer in little-endian order, beginning with the least significant bit of the usage's data. The data is not byte-aligned, and is shifted such that the least significant bit of the data is located at the first bit of the *UsageValue* buffer.
 
-<b>HidP_GetUsageValueArray</b> is designed to extract all the usage values for a usage whose report count is greater than 1. To extract a usage whose report count is equal to 1, use <b>HidP_GetUsageValue</b>. 
+**HidP_GetUsageValueArray** is designed to extract all the usage values for a usage whose report count is greater than 1. To extract a usage whose report count is equal to 1, use **HidP_GetUsageValue**.
 
-For more information, see <a href="/windows-hardware/drivers/hid/hid-collections">HID Collections</a>.
+For more information, see [HID Collections](/windows-hardware/drivers/hid/hid-collections).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps">HIDP_VALUE_CAPS</a>
-
-
-
-<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtons</a>
-
-
-
-<a href="/windows-hardware/drivers/hid/hdpi-h-macros">HidP_GetButtonsEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps">HidP_GetCaps</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue">HidP_GetScaledUsageValue</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue">HidP_GetUsageValue</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages">HidP_GetUsages</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex">HidP_GetUsagesEx</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
+- [HIDP_VALUE_CAPS](/windows-hardware/drivers/ddi/hidpi/ns-hidpi-_hidp_value_caps)
+- [HidP_GetButtons](/windows-hardware/drivers/hid/hdpi-h-macros)
+- [HidP_GetButtonsEx](/windows-hardware/drivers/hid/hdpi-h-macros)
+- [HidP_GetCaps](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getcaps)
+- [HidP_GetScaledUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getscaledusagevalue)
+- [HidP_GetUsageValue](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagevalue)
+- [HidP_GetUsages](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusages)
+- [HidP_GetUsagesEx](/windows-hardware/drivers/ddi/hidpi/nf-hidpi-hidp_getusagesex)
+- [_HIDP_PREPARSED_DATA](/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata)
