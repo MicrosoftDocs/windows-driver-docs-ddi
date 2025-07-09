@@ -93,7 +93,7 @@ Specifies the length, in bytes, of the report located at *Report*.
 |-------------|-------------|
 | **HIDP_STATUS_SUCCESS** | The routine successfully returned the value's data. |
 | **HIDP_STATUS_INVALID_REPORT_LENGTH** | The report length is not valid. |
-| **HIDP_INVALID_REPORT_TYPE** | The specified report type is not valid. |
+| **HIDP_STATUS_INVALID_REPORT_TYPE** | The specified report type is not valid. |
 | **HIDP_STATUS_NOT_VALUE_ARRAY** | The requested usage is not a usage value array. |
 | **HIDP_STATUS_BUFFER_TOO_SMALL** | The *UsageValue* buffer is too small to hold the requested usage. |
 | **HIDP_STATUS_INCOMPATIBLE_REPORT_ID** | The collection contains a usage value array on the specified usage page in a report of the specified type, but there are no such usages in the specified report. |
