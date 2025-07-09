@@ -89,7 +89,7 @@ Specifies the length, in bytes, of the report located at *Report*.
 |-------------|-------------|
 | **HIDP_STATUS_SUCCESS** | The routine successfully returned all button usages set to ON. |
 | **HIDP_STATUS_INVALID_REPORT_LENGTH** | The report length is not valid. |
-| **HIDP_INVALID_REPORT_TYPE** | The specified report type is not valid. |
+| **HIDP_STATUS_INVALID_REPORT_TYPE** | The specified report type is not valid. |
 | **HIDP_STATUS_BUFFER_TOO_SMALL** | The *UsageList* buffer is too small to hold all the usages that are currently set to ON on the specified usage page. |
 | **HIDP_STATUS_INCOMPATIBLE_REPORT_ID** | The collection contains buttons on the specified usage page in a report of the specified type, but there are no such usages in the specified report. |
 | **HIDP_STATUS_INVALID_PREPARSED_DATA** | The preparsed data is not valid. |
