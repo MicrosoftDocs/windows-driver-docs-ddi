@@ -113,7 +113,7 @@ The routine successfully returned the value data.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HIDP_INVALID_REPORT_LENGTH</b></dt>
+<dt><b>HIDP_STATUS_INVALID_REPORT_LENGTH</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -124,7 +124,7 @@ The report length is not valid.
 <tr>
 <td width="40%">
 <dl>
-<dt><b>HIDP_INVALID_REPORT_TYPE</b></dt>
+<dt><b>HIDP_STATUS_INVALID_REPORT_TYPE</b></dt>
 </dl>
 </td>
 <td width="60%">
