@@ -66,7 +66,7 @@ The **ReadStructFromModeHelper** function is a helper function that safely reads
 
 ## -remarks
 
-This function is a helper function used internally by the user-mode accessor macros. It provides mode-aware reading of structures from memory, with extra safety checks when accessing user-mode memory.
+This function is a helper function used internally by the user-mode accessor functions. It provides mode-aware reading of structures from memory, with extra safety checks when accessing user-mode memory.
 
 ## -see-also
 

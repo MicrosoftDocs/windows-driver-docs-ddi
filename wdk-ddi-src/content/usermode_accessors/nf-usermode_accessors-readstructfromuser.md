@@ -4,7 +4,7 @@ tech.root: kernel
 title: ReadStructFromUser
 ms.date: 07/02/2025
 targetos: Windows
-description: The ReadStructFromUser macro safely reads a structure from user-mode memory.
+description: The ReadStructFromUser function safely reads a structure from user-mode memory.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **ReadStructFromUser** macro safely reads a structure from user-mode memory.
+The **ReadStructFromUser** function safely reads a structure from user-mode memory.
 
 ## -parameters
 
@@ -58,11 +58,11 @@ The **ReadStructFromUser** macro safely reads a structure from user-mode memory.
 
 ## -remarks
 
-This macro provides a safe way to read a structure from user-mode memory. It ensures the provided address is a user-mode address before reading it.
+This function provides a safe way to read a structure from user-mode memory. It ensures the provided address is a user-mode address before reading it.
 
-The macro validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
+The function validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
 
-This macro doesn't enforce alignment.
+This function doesn't enforce alignment.
 
 It raises a structured exception if the memory access fails, such as when the source address isn't a user-mode address or is inaccessible.
 

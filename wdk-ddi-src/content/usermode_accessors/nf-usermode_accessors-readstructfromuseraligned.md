@@ -4,7 +4,7 @@ tech.root: kernel
 title: ReadStructFromUserAligned
 ms.date: 07/02/2025
 targetos: Windows
-description: The ReadStructFromUserAligned macro safely reads a structure from user-mode memory with alignment validation.
+description: The ReadStructFromUserAligned function safely reads a structure from user-mode memory with alignment validation.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **ReadStructFromUserAligned** macro safely reads a structure from user-mode memory with alignment validation.
+The **ReadStructFromUserAligned** function safely reads a structure from user-mode memory with alignment validation.
 
 ## -parameters
 
@@ -62,11 +62,11 @@ The **ReadStructFromUserAligned** macro safely reads a structure from user-mode 
 
 ## -remarks
 
-This macro provides a safe way to read a structure from user-mode memory with alignment enforcement. It ensures the provided address is a user-mode address and meets the specified alignment requirements before reading it.
+This function provides a safe way to read a structure from user-mode memory with alignment enforcement. It ensures the provided address is a user-mode address and meets the specified alignment requirements before reading it.
 
-The macro validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
+The function validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
 
-This macro enforces alignment by verifying that the source address meets the specified alignment requirement. This helps prevent performance penalties and potential hardware faults that can occur when accessing misaligned data structures.
+This function enforces alignment by verifying that the source address meets the specified alignment requirement. This helps prevent performance penalties and potential hardware faults that can occur when accessing misaligned data structures.
 
 It raises a structured exception if the memory access fails, such as when the source address isn't a user-mode address, is inaccessible, or doesn't meet the alignment requirements.
 

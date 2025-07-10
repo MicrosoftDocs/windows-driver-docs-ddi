@@ -62,7 +62,7 @@ The **WriteStructToUserHelper** function is a helper function that safely writes
 
 ## -remarks
 
-This function is a helper function used internally by the user-mode accessor macros. It provides optimized writing of structures to user-mode memory based on the structure size.
+This function is a helper function used internally by the user-mode accessor functions. It provides optimized writing of structures to user-mode memory based on the structure size.
 
 ## -see-also
 

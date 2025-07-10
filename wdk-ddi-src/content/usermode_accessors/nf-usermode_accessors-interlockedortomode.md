@@ -50,7 +50,7 @@ The **InterlockedOrToMode** function performs an atomic OR operation on a 32-bit
 
 ### -param Destination
 
-[in, out] A pointer to the memory location containing the first operand. This value will be replaced with the result of the operation.
+[in, out] A pointer to the memory location containing the first operand. This value will be replaced with the result of the operation. The pointer must be naturally aligned for the data type; that is, the memory location must be 4-byte aligned since **Destination** points to a 4-byte type.
 
 ### -param Value
 
@@ -71,12 +71,12 @@ The function returns the original value of the **Destination** parameter.
 
 ## -remarks
 
+The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions. It generates a full memory barrier to ensure that memory operations are completed in order.
+
 This function provides atomic access to a 32-bit value in memory, performing a bitwise OR operation between the value at **Destination** and **Value**. The behavior depends on the processor mode specified:
 
 - When **Mode** is **UserMode**, the function ensures that the destination address is a valid user-mode address and performs the operation safely for user-mode memory access.
 - When **Mode** is **KernelMode**, the function operates directly on kernel-mode addresses.
-
-The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions and generates a full memory barrier to ensure that memory operations are completed in order.
 
 The function raises a structured exception if the operation fails, such as when the destination address is not accessible or is invalid for the specified mode.
 

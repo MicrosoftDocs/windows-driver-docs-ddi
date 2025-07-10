@@ -4,7 +4,7 @@ tech.root: kernel
 title: WriteStructToModeAligned
 ms.date: 07/02/2025
 targetos: Windows
-description: The WriteStructToModeAligned macro safely writes a structure to memory based on the specified processor mode with alignment validation.
+description: The WriteStructToModeAligned function safely writes a structure to memory based on the specified processor mode with alignment validation.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WriteStructToModeAligned** macro safely writes a structure to memory based on the specified processor mode with alignment validation.
+The **WriteStructToModeAligned** function safely writes a structure to memory based on the specified processor mode with alignment validation.
 
 ## -parameters
 
@@ -71,11 +71,11 @@ The **WriteStructToModeAligned** macro safely writes a structure to memory based
 
 ## -remarks
 
-This macro provides a safe way to write a structure to memory, with extra safety checks when accessing user-mode memory and alignment enforcement. It ensures that the provided address is valid and accessible based on the specified processor mode, and meets the specified alignment requirements when accessing user-mode memory.
+This function provides a safe way to write a structure to memory, with extra safety checks when accessing user-mode memory and alignment enforcement. It ensures that the provided address is valid and accessible based on the specified processor mode, and meets the specified alignment requirements when accessing user-mode memory.
 
-The macro validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
+The function validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
 
-This macro enforces alignment by verifying that the destination address meets the specified alignment requirement when accessing user-mode memory. This helps prevent performance penalties and potential hardware faults that can occur when accessing misaligned data structures.
+This function enforces alignment by verifying that the destination address meets the specified alignment requirement when accessing user-mode memory. This helps prevent performance penalties and potential hardware faults that can occur when accessing misaligned data structures.
 
 It raises a structured exception if the memory access fails, such as when the destination address isn't valid or is inaccessible for the specified processor mode, or doesn't meet the alignment requirements.
 

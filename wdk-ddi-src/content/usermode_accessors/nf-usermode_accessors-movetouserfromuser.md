@@ -50,11 +50,11 @@ The **MoveToUserFromUser** function safely moves data from user-mode memory to u
 
 ### -param Destination
 
-[out] A pointer to the user-mode memory location where the data will be moved.
+[out] A pointer to the starting address of the user-mode memory location where the data will be copied.
 
 ### -param Source
 
-[in] A pointer to the user-mode memory location from which to move the data.
+[in] A pointer to the starting address of the user-mode memory location from which to copy the data.
 
 ### -param Length
 
@@ -62,13 +62,21 @@ The **MoveToUserFromUser** function safely moves data from user-mode memory to u
 
 ## -remarks
 
-This function provides a safe way to move data from user-mode memory to user-mode memory with support for overlapping memory regions (memmove semantics). It ensures that both source and destination addresses are valid user-mode addresses before performing the move operation.
+This function provides a safe way to move data from user-mode memory to user-mode memory with support for overlapping memory regions.
 
-Unlike copy operations, this function correctly handles the case where the source and destination memory regions overlap, ensuring data integrity during the operation.
+The function has the following properties:
+
+* The function performs a move using [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
+
+* The function isn't recognized as a compiler intrinsic so the compiler will never optimize away the call (either entirely or replace the call with an equivalent sequence of instructions).
+
+* When the call returns, the data has been copied from **Source** to **Destination**. This function's memory accesses to the **Source** and **Destination** will only be performed within the function (for example, the compiler can't move memory accesses out of this function).
+
+* The function might perform unaligned accesses if the platform allows for it.
+
+* The function might access memory locations more than once as part of its fill operation.
 
 The function validates that both pointers refer to user-mode memory and raises a structured exception if the move operation fails, such as when the source or destination addresses are not valid user-mode addresses or are inaccessible.
-
-This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses). The memory access is performed with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
 
 This function works on all versions of Windows, not just the latest. You need to consume the latest WDK to get the function declaration from the *usermode_accessors.h* header. You also need the library (*umaccess.lib*) from the latest WDK. However, the resulting driver will run fine on older versions of Windows.
 

@@ -50,7 +50,7 @@ The **InterlockedCompareExchangeToMode** function performs an atomic compare-and
 
 ### -param Destination
 
-[in, out] A pointer to the memory location containing the destination value.
+[in, out] A pointer to the memory location containing the destination value. The pointer must be naturally aligned for the data type; that is, the memory location must be 4-byte aligned since **Destination** points to a 4-byte type.
 
 ### -param ExChange
 
@@ -75,14 +75,12 @@ The function returns the initial value of the **Destination** parameter.
 
 ## -remarks
 
-This function provides atomic compare-and-exchange access to a 32-bit value in memory. The function compares the **Destination** value with the **Comperand** value. If the **Destination** value is equal to the **Comperand** value, the **ExChange** value is stored in the address specified by **Destination**. Otherwise, no operation is performed.
+The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions. It generates a full memory barrier to ensure that memory operations are completed in order.
 
-The behavior depends on the processor mode specified:
+This function provides atomic compare-and-exchange access to a 32-bit value in memory. The function compares the **Destination** value with the **Comperand** value. If the **Destination** value is equal to the **Comperand** value, the **ExChange** value is stored in the address specified by **Destination**. Otherwise, no operation is performed. The behavior depends on the processor mode specified:
 
 - When **Mode** is **UserMode**, the function ensures that the destination address is a valid user-mode address and performs the operation safely for user-mode memory access.
 - When **Mode** is **KernelMode**, the function operates directly on kernel-mode addresses.
-
-The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions and generates a full memory barrier to ensure that memory operations are completed in order.
 
 The function raises a structured exception if the operation fails, such as when the destination address is not accessible or is invalid for the specified mode.
 

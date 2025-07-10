@@ -4,7 +4,7 @@ tech.root: kernel
 title: WriteStructToMode
 ms.date: 07/02/2025
 targetos: Windows
-description: The WriteStructToMode macro safely writes a structure to memory based on the specified processor mode.
+description: The WriteStructToMode function safely writes a structure to memory based on the specified processor mode.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **WriteStructToMode** macro safely writes a structure to memory based on the specified processor mode.
+The **WriteStructToMode** function safely writes a structure to memory based on the specified processor mode.
 
 ## -parameters
 
@@ -67,11 +67,11 @@ The **WriteStructToMode** macro safely writes a structure to memory based on the
 
 ## -remarks
 
-This macro provides a safe way to write a structure to memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.
+This function provides a safe way to write a structure to memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.
 
-The macro validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
+The function validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
 
-This macro doesn't enforce alignment.
+This function doesn't enforce alignment.
 
 It raises a structured exception if the memory access fails, such as when the destination address isn't valid or is inaccessible for the specified processor mode.
 

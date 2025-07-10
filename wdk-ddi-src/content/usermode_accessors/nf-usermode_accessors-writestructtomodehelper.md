@@ -66,7 +66,7 @@ The **WriteStructToModeHelper** function is a helper function that safely writes
 
 ## -remarks
 
-This function is a helper function used internally by the usermode accessor macros. It provides mode-aware writing of structures to memory, with extra safety checks when accessing user-mode memory.
+This function is a helper function used internally by the usermode accessor functions. It provides mode-aware writing of structures to memory, with extra safety checks when accessing user-mode memory.
 
 ## -see-also
 
