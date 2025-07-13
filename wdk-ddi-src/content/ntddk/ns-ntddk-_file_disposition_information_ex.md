@@ -65,7 +65,7 @@ Specifies what actions the system should take with a specific file while deletin
 | FILE_DISPOSITION_POSIX_SEMANTICS | 0x00000002 | Specifies the system should perform a POSIX-style delete. See more info in Remarks. |
 | FILE_DISPOSITION_FORCE_IMAGE_SECTION_CHECK | 0x00000004 | Specifies the system should force an image section check. |
 | FILE_DISPOSITION_ON_CLOSE | 0x00000008 | Specifies if the system sets or clears the on-close state. |
-| FILE_DISPOSITION_IGNORE_READONLY_ATTRIBUTE | 0x00000010 | Allows read-only files to be deleted. For more information, see the Remarks section below. |
+| FILE_DISPOSITION_IGNORE_READONLY_ATTRIBUTE | 0x00000010 | Allows read-only files to be deleted. |
 
 ## -remarks
 
