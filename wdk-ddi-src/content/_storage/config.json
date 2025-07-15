@@ -6,6 +6,7 @@
     "ehstorbandmgmt.h",
     "ehstorioctl.h",
     "hbapiwmi.h",
+    "icekeymaninterface.h",
     "irb.h",
     "iscsicfg.h",
     "iscsidef.h",

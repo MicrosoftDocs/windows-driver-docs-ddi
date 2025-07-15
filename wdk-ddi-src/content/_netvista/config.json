@@ -3,6 +3,7 @@
   "headers": [
     "checksum.h",
     "checksumtypes.h",
+    "configurationparameter.h",
     "dot11wdi.h",
     "dot11wificxintf.h",
     "dot11wificxtypes.h",
@@ -27,6 +28,7 @@
     "mdlapi.h",
     "mdltypes.h",
     "miniport.h",
+    "miniportgeneralattributes.h",
     "monitor.h",
     "nbl.h",
     "nbl8021q.h",
@@ -93,6 +95,7 @@
     "virtualaddresstypes.h",
     "vmbuskernelmodeclientlibapi.h",
     "wditypes.hpp",
+    "wifiattributes.h",
     "wificx.h",
     "wificxpoweroffload.h",
     "wificxpoweroffloadlist.h",
