@@ -1,82 +1,104 @@
 ---
 UID: NF:wdm.RtlSecureZeroMemory
-title: RtlSecureZeroMemory function (wdm.h)
-description: The RtlSecureZeroMemory routine fills a block of memory with zeros in a way that is guaranteed to be secure.
-old-location: kernel\rtlsecurezeromemory.htm
 tech.root: kernel
-ms.date: 04/30/2018
-keywords: ["RtlSecureZeroMemory function"]
-ms.keywords: RtlSecureZeroMemory, RtlSecureZeroMemory routine [Kernel-Mode Driver Architecture], k109_8bcffbc1-2930-416b-a192-b70c477d1910.xml, kernel.rtlsecurezeromemory, wdm/RtlSecureZeroMemory
-req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.target-type: Desktop
-req.target-min-winverclnt: Available in Windows Server 2003 and later versions of Windows. (Because the routine is declared inline, the body of the routine can be included in earlier versions of the operating system.)
-req.target-min-winversvr: 
-req.kmdf-ver: 
-req.umdf-ver: 
+title: RtlSecureZeroMemory function (wdm.h)
+ms.date: 07/14/2025
+targetos: Windows
+description: The RtlSecureZeroMemory routine securely fills a block of memory with zeros in a way that is guaranteed not to be optimized away by the compiler.
+prerelease: false
+req.assembly: 
+req.construct-type: function
 req.ddi-compliance: 
-req.unicode-ansi: 
+req.dll: NtosKrnl.exe
+req.header: wdm.h
 req.idl: 
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.irql: Any level (See Remarks section)
+req.kmdf-ver: 
+req.lib: NtosKrnl.lib
 req.max-support: 
 req.namespace: 
-req.assembly: 
+req.redist: 
+req.target-min-winverclnt:
+req.target-min-winversvr: 
+req.target-type: Universal
 req.type-library: 
-req.lib: 
-req.dll: 
-req.irql: Any level (See Remarks section)
-targetos: Windows
-req.typenames: 
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - DllExport
+api_location:
+ - NtosKrnl.exe
+api_name:
+ - RtlSecureZeroMemory
 f1_keywords:
  - RtlSecureZeroMemory
  - wdm/RtlSecureZeroMemory
-topic_type:
- - APIRef
- - kbSyntax
-api_type:
- - HeaderDef
-api_location:
- - Wdm.h
-api_name:
+dev_langs:
+ - c++
+helpviewer_keywords:
  - RtlSecureZeroMemory
 ---
 
-# RtlSecureZeroMemory function
-
-
 ## -description
 
-The <b>RtlSecureZeroMemory</b> routine fills a block of memory with zeros in a way that is guaranteed to be secure.
+The **RtlSecureZeroMemory** routine securely fills a block of memory with zeros in a way that is guaranteed not to be optimized away by the compiler.
 
 ## -parameters
 
-### -param ptr [out]
+### -param Ptr [in, out]
 
-
-Pointer to the memory buffer to be filled with zeros.
+A pointer to the memory block to be securely filled with zeros.
 
 ### -param cnt [in]
 
-
-Specifies the number of bytes to be filled with zeros.
+The number of bytes to fill with zeros.
 
 ## -returns
 
-None
+**RtlSecureZeroMemory** returns a pointer to the memory block that was filled (*Ptr*).
+
+## -syntax
+
+```cpp
+PVOID RtlSecureZeroMemory(
+  [in, out] PVOID  Ptr,
+  [in]      SIZE_T cnt
+);
+```
 
 ## -remarks
 
-The effect of <b>RtlSecureZeroMemory</b> is identical to that of <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>, except that it is guaranteed to zero the memory location, even if it is not subsequently written to. (The compiler can optimize away a call to <b>RtlZeroMemory</b>, if it determines that the caller does not access that memory range again.)
+- The function uses volatile memory accesses to ensure that the compiler cannot optimize away the zeroing operation, even if the memory appears to be unused after the call.
 
-Use <b>RtlSecureZeroMemory</b> to guarantee that sensitive information has been zeroed out. For example, suppose that a function uses a local array variable to store password information. Once the function exits, the password information can remain in the same memory location unless zeroed out by <b>RtlSecureZeroMemory</b>.
+- This differs from [**RtlZeroMemory**](nf-wdm-rtlzeromemory.md), which may be optimized away by the compiler if the memory is not accessed again.
 
-<b>RtlSecureZeroMemory</b> is slower than <b>RtlZeroMemory</b>; therefore, if security is not an issue, use <b>RtlZeroMemory</b> instead.
+- The function guarantees that all specified bytes will be set to zero and that this operation will not be removed by compiler optimizations.
 
-Callers of <b>RtlSecureZeroMemory</b> can be running at any IRQL if the <i>ptr</i> block is in nonpaged pool. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
+Callers of **RtlSecureZeroMemory** can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
+
+### Example
+
+```cpp
+UCHAR SensitiveData[256];
+UCHAR CryptographicKey[32];
+
+// Use sensitive data
+ProcessSensitiveInformation(SensitiveData);
+PerformCryptographicOperation(CryptographicKey);
+
+// Securely clear sensitive data from memory
+// This will not be optimized away by the compiler
+RtlSecureZeroMemory(SensitiveData, sizeof(SensitiveData));
+RtlSecureZeroMemory(CryptographicKey, sizeof(CryptographicKey));
+```
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlfillmemory">RtlFillMemory</a>
+[**RtlZeroMemory**](nf-wdm-rtlzeromemory.md)
 
+[**RtlFillVolatileMemory**](nf-wdm-rtlfillvolatilememory.md)
 
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlzeromemory">RtlZeroMemory</a>
+[**RtlSetVolatileMemory**](nf-wdm-rtlsetvolatilememory.md)

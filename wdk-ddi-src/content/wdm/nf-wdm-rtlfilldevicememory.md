@@ -1,19 +1,19 @@
 ---
 UID: NF:wdm.RtlFillDeviceMemory
 tech.root: kernel
-title: RtlFillDeviceMemory (wdm.h)
-ms.date: 03/26/2024
+title: RtlFillDeviceMemory function (wdm.h)
+ms.date: 07/14/2025
 targetos: Windows
-description: Provides RtlFillVolatileMemory behavior in situations where the developer needs to additionally be sure that alignment faults won't be generated when accessing device memory.
+description: The RtlFillDeviceMemory routine fills a block of device memory with the specified fill value and returns a pointer to the filled memory.
 prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
-req.dll:
+req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.idl: 
-req.include-header: Wdm.h
-req.irql:
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.irql: Any level (See Remarks section)
 req.kmdf-ver: 
 req.lib: volatileaccessk.lib (Kernel mode), volatileaccessu.lib (User mode)
 req.max-support: 
@@ -21,16 +21,16 @@ req.namespace:
 req.redist: 
 req.target-min-winverclnt:
 req.target-min-winversvr: 
-req.target-type:
+req.target-type: Universal
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
  - apiref
 api_type:
- - HeaderDef
+ - DllExport
 api_location:
- - wdm.h
+ - NtosKrnl.exe
 api_name:
  - RtlFillDeviceMemory
 f1_keywords:
@@ -44,17 +44,17 @@ helpviewer_keywords:
 
 ## -description
 
-The **RtlFillDeviceMemory** function provides [**RtlFillVolatileMemory**](nf-wdm-rtlfillvolatilememory.md) behavior (for example, setting the contents of a buffer without interference from compiler optimizations) in situations where the developer needs to additionally be sure that alignment faults won't be generated when accessing device memory.
+The **RtlFillDeviceMemory** routine fills a block of device memory with the specified fill value and returns a pointer to the filled memory. This function is safe for use on device memory because it uses appropriate access patterns for device memory regions.
 
 ## -parameters
 
 ### -param Destination [out]
 
-A pointer to the starting address of the block of memory to fill.
+A pointer to the starting address of the volatile device memory block to fill.
 
 ### -param Length [in]
 
-The size of the block of memory to fill, in bytes. This value must be less than the size of the *Destination* buffer.
+The size of the block of memory to fill, in bytes. This value must be less than or equal to the size of the **Destination** buffer.
 
 ### -param Fill [in]
 
@@ -62,41 +62,51 @@ The byte value with which to fill the memory block.
 
 ## -returns
 
-Returns the value of *Destination*.
+**RtlFillDeviceMemory** returns a pointer to the filled volatile device memory block (**Destination**).
 
 ## -remarks
 
-- The function isn't recognized as a compiler intrinsic so the compiler will never optimize away the call (either entirely or replace the call with an equivalent sequence of instructions). This differs from [**RtlFillMemory**](nf-wdm-rtlfillmemory.md) which is subject to various compiler optimizations.
+The **RtlFillDeviceMemory** routine is designed for safe filling of device memory regions where standard memory filling functions might not be appropriate due to the special characteristics of device memory.
 
-- When the call is complete, the buffer has been overwritten with the desired value. This functions memory accesses to the *Destination* will only be performed within the function (for example, the compiler can't move memory accesses out of this function).
+- The function uses volatile memory accesses to ensure proper handling of device memory that may have side effects or special access requirements.
 
-- The function may perform unaligned memory accesses only if the CPU supports unaligned memory accesses on device memory. If the CPU doesn't support unaligned device memory accesses, only aligned accesses will be performed.
+- The function is optimized for performance while maintaining safety for device memory access patterns.
 
-- The function may access memory locations more than once as part of its operation.
+- The function might perform unaligned memory accesses if the platform allows for it.
 
-> [!NOTE]
-> This function only guarantees that the CPU's requirements for accessing memory mapped as device memory are respected. If a specific device has its own specific requirements for being accessed, this function should not be used (and instead, the developer must implement their own accessor functions). For example, this function makes no guarantee about the size of memory accesses generated (unless the CPU itself enforces these requirements).
+- The function might use optimized filling patterns for larger memory blocks while ensuring device memory safety.
 
-> [!NOTE]
-> This function works on all versions of Windows, not just the latest. You need to consume the latest WDK to get the function declaration from the wdm.h header. You also need the library (volatileaccessk.lib) from the latest WDK. However, the resulting driver will run fine on older versions of Windows.
+This function provides [**RtlFillMemory**](nf-wdm-rtlfillmemory.md) behavior specifically designed for device memory regions.
+
+Callers of **RtlFillDeviceMemory** can be running at any IRQL if the destination memory block is in nonpaged system memory. Otherwise, the caller must be running at IRQL <= APC_LEVEL.
+
+This function works on all versions of Windows, not just the latest. You need to consume the latest WDK to get the function declaration from the wdm.h header. You also need the library (volatileaccessk.lib) from the latest WDK. However, the resulting driver will run fine on older versions of Windows.
 
 ### Example
 
 ```cpp
-// In this scenario we are setting data on memory mapped
-// as "device memory" (for example, memory not backed by RAM). 
-// On some platforms like ARM64, device memory cannot tolerate
-// memory accesses that are not naturally aligned (for example, a 4-byte
-// load must be 4-byte aligned). Functions like memset, RtlFillMemory,
-// and even RtlFillVolatileMemory may perform unaligned memory accesses
-// because it is typically faster to do this.
-// To ensure only naturally aligned accesses happen, use RtlFillDeviceMemory.
+volatile UCHAR* DeviceBuffer;
+SIZE_T BufferSize = 1024;
 
-RtlFillDeviceMemory(DeviceMemoryBuffer, 100, 0xAA);
+// Allocate or map device memory
+DeviceBuffer = MapDeviceMemory(BufferSize);
+
+// Fill the device memory with a specific pattern
+volatile void* result = RtlFillDeviceMemory(DeviceBuffer, BufferSize, 0xAA);
+
+// Use the filled device memory
+ProcessDeviceData(DeviceBuffer, BufferSize);
+
+// Clean up
+UnmapDeviceMemory(DeviceBuffer);
 ```
 
 ## -see-also
 
 [**RtlFillMemory**](nf-wdm-rtlfillmemory.md)
 
-[**RtlFillVolatileMemory**](nf-wdm-rtlfillvolatilememory.md)
+[**RtlSetVolatileMemory**](nf-wdm-rtlsetvolatilememory.md)
+
+[**RtlCompareDeviceMemory**](nf-wdm-rtlcomparedevicememory.md)
+
+[**RtlEqualDeviceMemory**](nf-wdm-rtlequaldevicememory.md)
