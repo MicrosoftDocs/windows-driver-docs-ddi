@@ -3,9 +3,7 @@ UID: NF:wdm.RtlCompareMemory
 title: RtlCompareMemory function (wdm.h)
 description: The RtlCompareMemory routine compares two blocks of memory and returns the number of bytes that match until the first difference.
 tech.root: kernel
-ms.date: 04/06/2022
-keywords: ["RtlCompareMemory function"]
-ms.keywords: RtlCompareMemory, RtlCompareMemory routine [Kernel-Mode Driver Architecture], k109_3deee1b7-0b3a-4d24-8c0f-5e428d051a02.xml, kernel.rtlcomparememory, wdm/RtlCompareMemory
+ms.date: 07/14/2025
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
@@ -72,3 +70,7 @@ The number of bytes to compare.
 The routine starts by comparing the first byte in the first block to the first byte in the second block, and continues to compare successive bytes in the two blocks while the bytes match. The routine stops comparing bytes when it encounters the first pair of bytes that are not equal, or when the number of matching bytes equals the *Length* parameter value, whichever occurs first.
 
 Callers of **RtlCompareMemory** can be running at any IRQL if both blocks of memory are resident.
+
+## -see-also
+
+[**RtlCompareDeviceMemory**](nf-wdm-rtlcomparedevicememory.md)
