@@ -4,7 +4,7 @@ title: _NET_IF_INFORMATION (ndis.h)
 description: The NET_IF_INFORMATION structure provides NDIS with information about a registered network interface.
 old-location: netvista\net_if_information.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 07/23/2025
 keywords: ["NET_IF_INFORMATION structure"]
 ms.keywords: "*PNET_IF_INFORMATION, NET_IF_INFORMATION, NET_IF_INFORMATION structure [Network Drivers Starting with Windows Vista], PNET_IF_INFORMATION, PNET_IF_INFORMATION structure pointer [Network Drivers Starting with Windows Vista], _NET_IF_INFORMATION, ndis/NET_IF_INFORMATION, ndis/PNET_IF_INFORMATION, net_if_struct_ref_ceb46daa-0e14-4ed8-9f05-9cd064a57dfb.xml, netvista.net_if_information"
 req.header: ndis.h
@@ -200,7 +200,7 @@ The GUID that is associated with the network that the interface belongs to. If t
 
 The statistics that the interface supports. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+     <a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure .
 
 ### -field MediaType
@@ -238,7 +238,7 @@ The interface provider should allocate enough memory for the structure and the a
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+<a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 

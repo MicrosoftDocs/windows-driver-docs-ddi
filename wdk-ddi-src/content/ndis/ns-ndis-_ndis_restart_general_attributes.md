@@ -4,7 +4,7 @@ title: _NDIS_RESTART_GENERAL_ATTRIBUTES (ndis.h)
 description: The NDIS_RESTART_GENERAL_ATTRIBUTES structure defines the general restart attributes that are associated with a miniport adapter.
 old-location: netvista\ndis_restart_general_attributes.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 07/23/2025
 keywords: ["NDIS_RESTART_GENERAL_ATTRIBUTES structure"]
 ms.keywords: "*PNDIS_RESTART_GENERAL_ATTRIBUTES, NDIS_RESTART_GENERAL_ATTRIBUTES, NDIS_RESTART_GENERAL_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PNDIS_RESTART_GENERAL_ATTRIBUTES, PNDIS_RESTART_GENERAL_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_RESTART_GENERAL_ATTRIBUTES, miniport_structures_ref_10a54e42-4d48-4fdc-8a68-43771c319215.xml, ndis/NDIS_RESTART_GENERAL_ATTRIBUTES, ndis/PNDIS_RESTART_GENERAL_ATTRIBUTES, netvista.ndis_restart_general_attributes"
 req.header: ndis.h
@@ -159,7 +159,7 @@ A
 
 The supported statistics. For more information, see the 
      <b>SupportedStatistics</b> member of the 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+     <a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
      NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure.
 
 ### -field DataBackFillSize
@@ -211,7 +211,7 @@ If the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+<a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 

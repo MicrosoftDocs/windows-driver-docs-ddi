@@ -4,7 +4,7 @@ title: MINIPORT_INITIALIZE (ndis.h)
 description: NDIS calls a miniport driver's MiniportInitializeEx function to initialize a miniport adapter for network I/O operations.
 old-location: netvista\miniportinitializeex.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 07/23/2025
 keywords: ["MINIPORT_INITIALIZE callback function"]
 ms.keywords: MINIPORT_INITIALIZE, MINIPORT_INITIALIZE callback, MiniportInitializeEx, MiniportInitializeEx callback function [Network Drivers Starting with Windows Vista], miniport_functions_ref_d98605bf-4032-4cfe-8529-2d0bebc9e29e.xml, ndis/MiniportInitializeEx, netvista.miniportinitializeex
 req.header: ndis.h
@@ -217,7 +217,7 @@ The miniport driver passes
     <i>MiniportXxx</i> functions.
 
 Miniport drivers must set the attributes in the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+    <a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> structure after they set the registration attributes in
     the NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES structure and before they set any additional
     attributes.
@@ -417,7 +417,7 @@ For information about  _Use_decl_annotations_, see <a href="/visualstudio/code-q
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+<a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 

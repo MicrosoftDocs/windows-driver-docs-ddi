@@ -3,7 +3,7 @@ UID: NF:netadapter.NetAdapterSetDataPathCapabilities
 title: NetAdapterSetDataPathCapabilities function (netadapter.h)
 description: Sets the data path capabilities of the network adapter.
 tech.root: netvista
-ms.date: 03/30/2022
+ms.date: 07/23/2025
 keywords: ["NetAdapterSetDataPathCapabilities function"]
 ms.keywords: NetAdapterSetDataPathCapabilities
 req.header: netadapter.h
@@ -65,7 +65,7 @@ A pointer to an allocated and initialized [NET_ADAPTER_RX_CAPABILITIES](ns-netad
 
 The client driver must call this function when starting a net adapter, before calling [**NetAdapterStart**](nf-netadapter-netadapterstart.md).
 
-This function, along with a few other set capability functions (see below), is the replacement for the [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md).
+This function, along with a few other set capability functions (see below), is the replacement for the [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes.md) union that a (non-WDF) client of Ndis.sys sets by calling [NdisMSetMiniportAttributes](../ndis/nf-ndis-ndismsetminiportattributes.md).
 
 ## -see-also
 

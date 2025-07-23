@@ -4,7 +4,7 @@ title: NdisWriteConfiguration function (ndis.h)
 description: The NdisWriteConfiguration function writes a caller-supplied value for a specified entry into the registry. This function must be invoked serially with respect to itself and the NdisReadConfiguration function.
 old-location: netvista\ndiswriteconfiguration.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 07/23/2025
 keywords: ["NdisWriteConfiguration function"]
 ms.keywords: NdisWriteConfiguration, NdisWriteConfiguration function [Network Drivers Starting with Windows Vista], ndis/NdisWriteConfiguration, ndis_configuration_ref_7d603433-49ed-46d5-8a57-000c06d83d4a.xml, netvista.ndiswriteconfiguration
 req.header: ndis.h
@@ -112,7 +112,7 @@ A pointer to an NDIS_STRING type describing a caller-supplied counted string, in
 
 
 Pointer to a caller-supplied 
-     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
+     <a href="/windows-hardware/drivers/ddi/configurationparameter/ns-configurationparameter-ndis_configuration_parameter">
      NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 ## -remarks
@@ -136,7 +136,7 @@ In the configuration registry of Windows 2000 and later versions, an NDIS
     The caller of 
     <b>NdisWriteConfiguration</b> is responsible for releasing the buffered string at 
     <i>Keyword</i> and the memory allocated for the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">
+    <a href="/windows-hardware/drivers/ddi/configurationparameter/ns-configurationparameter-ndis_configuration_parameter">
     NDIS_CONFIGURATION_PARAMETER</a> structure.
 
 As an alternative to calling 
@@ -157,7 +157,7 @@ For more information about setup and installation files for Windows 2000 and lat
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>
+<a href="/windows-hardware/drivers/ddi/configurationparameter/ns-configurationparameter-ndis_configuration_parameter">NDIS_CONFIGURATION_PARAMETER</a>
 
 
 
