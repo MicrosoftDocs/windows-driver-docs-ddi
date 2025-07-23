@@ -3,7 +3,7 @@ UID: NS:netadapter._NET_ADAPTER_LINK_STATE
 title: _NET_ADAPTER_LINK_STATE (netadapter.h)
 description: Describes the link state of the adapter.
 tech.root: netvista
-ms.date: 02/06/2018
+ms.date: 07/23/2025
 keywords: ["NET_ADAPTER_LINK_STATE structure"]
 ms.keywords: _NET_ADAPTER_LINK_STATE, NET_ADAPTER_LINK_STATE, *PNET_ADAPTER_LINK_STATE,
 req.header: netadapter.h
@@ -73,7 +73,7 @@ Support for the IEEE 802.3 pause frames specified by a [**NET_ADAPTER_PAUSE_FUNC
 
 ### -field AutoNegotiationFlags
 
-The auto-negotiation settings for the network adapter. For more info, see [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md).
+The auto-negotiation settings for the network adapter. For more info, see [NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes.md).
 
 ## -remarks
 
@@ -83,7 +83,7 @@ An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value 
 
 ## -see-also
 
-[NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_general_attributes.md)
+[NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes.md)
 
 [NET_ADAPTER_LINK_STATE_INIT](nf-netadapter-net_adapter_link_state_init.md)
 

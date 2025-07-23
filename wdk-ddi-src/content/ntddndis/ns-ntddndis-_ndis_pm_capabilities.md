@@ -4,7 +4,7 @@ title: _NDIS_PM_CAPABILITIES (ntddndis.h)
 description: The NDIS_PM_CAPABILITIES structure specifies power management capabilities of a network adapter.
 old-location: netvista\ndis_pm_capabilities.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 07/23/2025
 keywords: ["NDIS_PM_CAPABILITIES structure"]
 ms.keywords: "*PNDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES, NDIS_PM_CAPABILITIES structure [Network Drivers Starting with Windows Vista], PNDIS_PM_CAPABILITIES, PNDIS_PM_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PM_CAPABILITIES, miniport_power_management_ref_e70356b9-5c5a-4b38-b413-553a772da8b6.xml, netvista.ndis_pm_capabilities, ntddndis/NDIS_PM_CAPABILITIES, ntddndis/PNDIS_PM_CAPABILITIES"
 req.header: ntddndis.h
@@ -537,7 +537,7 @@ If this flag is set, the MB network adapter can generate a wake-up event if it r
 
 The <b>NDIS_PM_CAPABILITIES</b> structure is used in the 
     <b>PowerManagementCapabilitiesEx</b> member of the 
-    <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+    <a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
     NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a> and 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_bind_parameters">NDIS_BIND_PARAMETERS</a> structures and in
     the 
@@ -571,7 +571,7 @@ The
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_miniport_adapter_general_attributes">
+<a href="/windows-hardware/drivers/ddi/miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes">
    NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES</a>
 
 
