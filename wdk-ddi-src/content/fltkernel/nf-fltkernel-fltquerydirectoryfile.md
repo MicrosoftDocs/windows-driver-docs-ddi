@@ -119,7 +119,7 @@ The final call to **FltQueryDirectoryFile** returns an empty output buffer and r
 
 For information about other file information query routines, see [File Objects](../index.yml).
 
-Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **FltQueryDirectoryFile** must be running at IRQL = PASSIVE_LEVEL and with special kernel APCs enabled. For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 

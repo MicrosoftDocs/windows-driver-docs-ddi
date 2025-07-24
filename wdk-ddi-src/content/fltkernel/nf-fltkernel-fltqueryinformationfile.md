@@ -107,7 +107,7 @@ A minifilter driver calls **FltQueryInformationFile** to retrieve information fo
 
 **FltQueryInformationFile** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by a particular file system. 
 
-Callers of **FltQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **FltQueryInformationFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled](/windows-hardware/drivers/kernel/disabling-apcs).
 
 **NOTE:**
 Do not call this routine with a non-NULL top level IRP value, as this can cause a system deadlock.
