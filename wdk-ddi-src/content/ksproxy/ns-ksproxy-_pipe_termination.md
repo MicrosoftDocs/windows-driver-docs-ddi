@@ -4,7 +4,7 @@ title: _PIPE_TERMINATION (ksproxy.h)
 description: The PIPE_TERMINATION structure is for proxy use and not recommended for application use. PIPE_TERMINATION contains information that describes the pin terminator of a pipe.
 old-location: stream\pipe_termination.htm
 tech.root: stream
-ms.date: 04/23/2018
+ms.date: 07/24/2025
 keywords: ["PIPE_TERMINATION structure"]
 ms.keywords: PIPE_TERMINATION, PIPE_TERMINATION structure [Streaming Media Devices], PPIPE_TERMINATION, PPIPE_TERMINATION structure pointer [Streaming Media Devices], _PIPE_TERMINATION, ksproxy/PIPE_TERMINATION, ksproxy/PPIPE_TERMINATION, ksproxy_ee6f14a8-dda3-4b28-b6a9-e99bafd7e921.xml, stream.pipe_termination
 req.header: ksproxy.h
@@ -45,7 +45,6 @@ api_name:
 
 # _PIPE_TERMINATION structure
 
-
 ## -description
 
 The PIPE_TERMINATION structure is for proxy use and not recommended for application use. PIPE_TERMINATION contains information that describes the pin terminator of a pipe.
@@ -56,11 +55,20 @@ The PIPE_TERMINATION structure is for proxy use and not recommended for applicat
 
 ### -field OutsideFactors
 
-### -field Weight
+One of the factors (flags) defining the Pipes properties. The factors (flags) are defined in ksproxy.h as `PipeFactor_None` through `PipeFactor_LogicalEnd`.
+
+### -field Weigth
+
+The outside weight.
 
 ### -field PhysicalRange
 
+A [KS_FRAMING_RANGE](../ks/ns-ks-ks_framing_range.md) structure defining the physical range.
+
 ### -field OptimalRange
+
+A [KS_FRAMING_RANGE_WEIGHTED](../ks/ns-ks-ks_framing_range_weighted.md) structure defining the optimal range.
 
 ### -field Compression
 
+Relative to the connected pin on a neighboring filter.
