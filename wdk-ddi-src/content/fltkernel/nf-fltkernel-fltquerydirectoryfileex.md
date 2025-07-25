@@ -117,7 +117,7 @@ The final call to **FltQueryDirectoryFileEx** returns an empty output buffer and
 
 **FltQueryDirectoryFileEx** returns zero in any member of a FILE_*XXX*_INFORMATION structure that is not supported by the file system.
 
-Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL and with APCs enabled. For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
+Callers of **FltQueryDirectoryFileEx** must be running at IRQL = PASSIVE_LEVEL and with special kernel APCs enabled. For more information, see [Disabling APCs](/windows-hardware/drivers/kernel/disabling-apcs).
 
 ## -see-also
 
