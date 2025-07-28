@@ -4,7 +4,7 @@ title: _USBDEVICE_UPDATE (ucxusbdevice.h)
 description: Passed by UCX to update the specified device. This structure is in the request parameters (Parameters.Others.Arg1) of a framework request object passed in the EVT_UCX_USBDEVICE_UPDATE callback function.
 old-location: buses\_usbdevice_update.htm
 tech.root: usbref
-ms.date: 06/07/2022
+ms.date: 07/28/2025
 keywords: ["USBDEVICE_UPDATE structure"]
 ms.keywords: "*PUSBDEVICE_UPDATE, P_USBDEVICE_UPDATE, P_USBDEVICE_UPDATE structure pointer [Buses], USBDEVICE_UPDATE, USBDEVICE_UPDATE structure [Buses], _USBDEVICE_UPDATE, buses._usbdevice_update, ucxusbdevice/P_USBDEVICE_UPDATE, ucxusbdevice/_USBDEVICE_UPDATE"
 req.header: ucxusbdevice.h
@@ -90,9 +90,9 @@ A [USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS](ns-ucxusbdevice-_usbdevice_updat
 
 The resume time for the root port.
 
-### -field IsNative
+### -field Reserved
 
-Indicates if the USB device to update is native (TRUE) or not (FALSE).
+Reserved for internal use.
 
 ## -see-also
 

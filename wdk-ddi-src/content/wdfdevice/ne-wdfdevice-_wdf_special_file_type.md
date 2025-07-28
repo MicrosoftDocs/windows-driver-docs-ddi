@@ -4,7 +4,7 @@ title: _WDF_SPECIAL_FILE_TYPE (wdfdevice.h)
 description: The WDF_SPECIAL_FILE_TYPE enumeration identifies special file types that a device can support.
 old-location: wdf\wdf_special_file_type.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 07/28/2025
 keywords: ["WDF_SPECIAL_FILE_TYPE enumeration"]
 ms.keywords: "*PWDF_SPECIAL_FILE_TYPE, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, PWDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE enumeration pointer, WDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE enumeration, WdfSpecialFileBoot, WdfSpecialFileDump, WdfSpecialFileHibernation, WdfSpecialFileMax, WdfSpecialFilePaging, WdfSpecialFileUndefined, _WDF_SPECIAL_FILE_TYPE, kmdf.wdf_special_file_type, wdf.wdf_special_file_type, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileBoot, wdfdevice/WdfSpecialFileDump, wdfdevice/WdfSpecialFileHibernation, wdfdevice/WdfSpecialFileMax, wdfdevice/WdfSpecialFilePaging, wdfdevice/WdfSpecialFileUndefined"
 req.header: wdfdevice.h
@@ -48,22 +48,21 @@ api_name:
 
 # _WDF_SPECIAL_FILE_TYPE enumeration
 
-
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF only]</p>
+[Applies to KMDF only]
 
-The <b>WDF_SPECIAL_FILE_TYPE</b> enumeration identifies special file types that a device can support.
+The **WDF_SPECIAL_FILE_TYPE** enumeration identifies special file types that a device can support.
 
 ## -enum-fields
 
-### -field WdfSpecialFileUndefined:0
+### -field WdfSpecialFileUndefined
 
-For internal use only.
+For internal use only. The default value is zero.
 
-### -field WdfSpecialFilePaging:1
+### -field WdfSpecialFilePaging
 
-The device supports paging files.
+The device supports paging files. The default value is one.
 
 ### -field WdfSpecialFileHibernation
 
@@ -77,10 +76,6 @@ The device supports dump files.
 
 The device supports boot files. This constant is available in version 1.11 and later versions of KMDF.
 
-### -field WdfSpecialFileMax
-
-For internal use only.
-
 ### -field WdfSpecialFilePostDisplay
 
 The device supports a POST display adapter.
@@ -89,14 +84,20 @@ The device supports a POST display adapter.
 
 The device stack is assigned to a guest setting.
 
+### -field WdfSpecialFileInlineCryptoEngine
+
+The device supports inline crypto engine files.
+
+### -field WdfSpecialFileMax
+
+For internal use only.
+
 ## -remarks
 
-For more information, see <a href="/windows-hardware/drivers/wdf/supporting-special-files">Supporting Special Files</a>.
+For more information, see [Supporting Special Files](/windows-hardware/drivers/wdf/supporting-special-files).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetspecialfilesupport">WdfDeviceSetSpecialFileSupport</a>
-
-[EVT_WDF_DEVICE_USAGE_NOTIFICATION callback function](./nc-wdfdevice-evt_wdf_device_usage_notification.md)
-
-[DEVICE_USAGE_NOTIFICATION_TYPE enumeration](../wdm/ne-wdm-device_usage_notification_type.md)
+- [WdfDeviceSetSpecialFileSupport](/windows-hardware/drivers/ddi/wdfdevice/nf-wdfdevice-wdfdevicesetspecialfilesupport)
+- [EVT_WDF_DEVICE_USAGE_NOTIFICATION callback function](./nc-wdfdevice-evt_wdf_device_usage_notification.md)
+- [DEVICE_USAGE_NOTIFICATION_TYPE enumeration](../wdm/ne-wdm-device_usage_notification_type.md)

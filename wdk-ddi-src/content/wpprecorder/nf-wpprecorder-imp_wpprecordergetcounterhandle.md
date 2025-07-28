@@ -4,7 +4,7 @@ title: WppRecorderGetCounterHandle function (wpprecorder.h)
 description: The WppRecorderGetCounterHandle method.
 old-location: devtest\wpprecordergetcounterhandle.htm
 tech.root: devtest
-ms.date: 04/19/2022
+ms.date: 07/28/2025
 keywords: ["WppRecorderGetCounterHandle function"]
 ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, WppRecorderGetCounterHandle, WppRecorderGetCounterHandle function [Driver Development Tools], wpprecorder/WppRecorderGetCounterHandle
 req.header: wpprecorder.h
@@ -42,23 +42,16 @@ api_name:
 
 # WppRecorderGetCounterHandle function
 
-
 ## -description
 
-The <b>WppRecorderGetCounterHandle</b> method gets the ID of the counter whose current value is to be read.
-
-## -syntax
-
-```cpp
-WPP_RECORDER_COUNTER
-WppRecorderGetCounterHandle(
-    );
-```
+The **WppRecorderGetCounterHandle** method gets the ID of the counter whose current value is to be read.
 
 ## -parameters
 
+### -param WppCb
+
+Pointer to a trace control block.
 
 ## -returns
 
 ID of the counter whose current value is to be read.
-
