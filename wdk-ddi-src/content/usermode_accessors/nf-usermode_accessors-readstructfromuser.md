@@ -4,10 +4,10 @@ tech.root: kernel
 title: ReadStructFromUser
 ms.date: 07/02/2025
 targetos: Windows
-description: The ReadStructFromUser function safely reads a structure from user-mode memory.
+description: The ReadStructFromUser macro safely reads a structure from user-mode memory.
 prerelease: false
 req.assembly: 
-req.construct-type: function
+req.construct-type: macro
 req.ddi-compliance: 
 req.dll: 
 req.header: usermode_accessors.h
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **ReadStructFromUser** function safely reads a structure from user-mode memory.
+The **ReadStructFromUser** macro safely reads a structure from user-mode memory.
 
 ## -parameters
 
@@ -58,17 +58,17 @@ The **ReadStructFromUser** function safely reads a structure from user-mode memo
 
 ## -remarks
 
-This function provides a safe way to read a structure from user-mode memory. It ensures the provided address is a user-mode address before reading it.
+This macro provides a safe way to read a structure from user-mode memory. It ensures the provided address is a user-mode address before reading it.
 
-The function validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
+The macro validates that **Source** and **Destination** point to compatible types and automatically determines the structure size for the copy operation.
 
-This function doesn't enforce alignment.
+This macro doesn't enforce alignment.
 
 It raises a structured exception if the memory access fails, such as when the source address isn't a user-mode address or is inaccessible.
 
-This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses). The memory access is performed with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
+This macro will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the macro is called or after the macro returns (unless the source code explicitly performs these accesses). The memory access is performed with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum).
 
-This function works on all versions of Windows, not just the latest. You need to consume the latest WDK to get the function declaration from the *usermode_accessors.h* header. You also need the library (*umaccess.lib*) from the latest WDK. However, the resulting driver will run fine on older versions of Windows.
+This macro works on all versions of Windows, not just the latest. You need to consume the latest WDK to get the macro declaration from the *usermode_accessors.h* header. You also need the library (*umaccess.lib*) from the latest WDK. However, the resulting driver will run fine on older versions of Windows.
 
 ## -see-also
 
