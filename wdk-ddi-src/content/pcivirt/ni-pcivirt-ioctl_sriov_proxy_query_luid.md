@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_PROXY_QUERY_LUID (pcivirt.h)
 description: This request supplies the local unique identifier of the SR_IOV device implementing the interface.
 old-location: pci\ioctl-sriov-proxy-query-luid.htm
 tech.root: PCI
-ms.date: 07/24/2025
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_PROXY_QUERY_LUID IOCTL"]
 ms.keywords: IOCTL_SRIOV_PROXY_QUERY_LUID, IOCTL_SRIOV_PROXY_QUERY_LUID control code [Buses], PCI.ioctl-sriov-proxy-query-luid, pcivirt/IOCTL_SRIOV_PROXY_QUERY_LUID
 req.header: pcivirt.h
@@ -59,7 +59,11 @@ identifier of the SR_IOV device implementing the interface.
 
 ### -input-buffer
 
+**NULL**. No input buffer is required for this operation.
+
 ### -input-buffer-length
+
+Zero.
 
 ### -output-buffer
 
@@ -71,7 +75,11 @@ The size of the [SRIOV_PROXY_QUERY_LUID_OUTPUT](ns-pcivirt-_sriov_proxy_query_lu
 
 ### -in-out-buffer
 
+Not used with this operation; set this parameter to **NULL**.
+
 ### -inout-buffer-length
+
+Not used with this operation; set this parameter to zero.
 
 ### -status-block
 

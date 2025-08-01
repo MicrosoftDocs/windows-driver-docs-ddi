@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE (pcivirt.h)
 description: The IOCTL_SRIOV_MITIGATED_RANGE_UPDATE request indicates that the virtualization stack wants to update to the mitigation ranges.
 old-location: pci\ioctl-sriov-mitigated-range-update.htm
 tech.root: PCI
-ms.date: 07/28/2025
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_MITIGATED_RANGE_UPDATE IOCTL"]
 ms.keywords: IOCTL_SRIOV_MITIGATED_RANGE_UPDATE, IOCTL_SRIOV_MITIGATED_RANGE_UPDATE control code [Buses], PCI.ioctl-sriov-mitigated-range-update, pcivirt/IOCTL_SRIOV_MITIGATED_RANGE_UPDATE
 req.header: pcivirt.h
@@ -74,7 +74,11 @@ A pointer to a variable to contain the number of bytes written to the output buf
 
 ### -in-out-buffer
 
+Not used with this operation; set this value to **NULL**.
+
 ### -inout-buffer-length
+
+Not used with this operation; set this value to zero.
 
 ### -status-block
 

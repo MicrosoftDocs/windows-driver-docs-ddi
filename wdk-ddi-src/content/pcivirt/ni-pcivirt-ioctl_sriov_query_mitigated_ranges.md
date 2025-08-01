@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_QUERY_MITIGATED_RANGES (pcivirt.h)
 description: The request determines the specific ranges on which intercepts must be placed.
 old-location: pci\ioctl-sriov-query-mitigated-ranges.htm
 tech.root: PCI
-ms.date: 07/24/2025
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_QUERY_MITIGATED_RANGES IOCTL"]
 ms.keywords: IOCTL_SRIOV_QUERY_MITIGATED_RANGES, IOCTL_SRIOV_QUERY_MITIGATED_RANGES control code [Buses], PCI.ioctl-sriov-query-mitigated-ranges, pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES
 req.header: pcivirt.h
@@ -74,7 +74,11 @@ The size of the [SRIOV_MITIGATED_RANGES_OUTPUT](ns-pcivirt-_sriov_mitigated_rang
 
 ### -in-out-buffer
 
+Not used with this operation; set this parameter to **NULL**.
+
 ### -inout-buffer-length
+
+Not used with this operation; set this parameter to zero.
 
 ### -status-block
 

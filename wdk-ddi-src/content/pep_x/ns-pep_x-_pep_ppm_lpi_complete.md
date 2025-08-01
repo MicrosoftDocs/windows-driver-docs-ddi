@@ -4,7 +4,7 @@ title: _PEP_PPM_LPI_COMPLETE (pep_x.h)
 description: The PEP_PPM_LPI_COMPLETE structure (pep_x.h) describes the processor performance counters that the platform extension plug-in (PEP) supports for a particular processor.
 old-location: kernel\pep_ppm_query_feedback_counters.htm
 tech.root: kernel
-ms.date: 07/28/2025
+ms.date: 08/01/2025
 keywords: ["PEP_PPM_LPI_COMPLETE structure"]
 ms.keywords: "*PPEP_PPM_LPI_COMPLETE, *PPEP_PPM_QUERY_FEEDBACK_COUNTERS, PEP_PPM_LPI_COMPLETE, PEP_PPM_QUERY_FEEDBACK_COUNTERS, PEP_PPM_QUERY_FEEDBACK_COUNTERS structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_FEEDBACK_COUNTERS, PPEP_PPM_QUERY_FEEDBACK_COUNTERS structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_LPI_COMPLETE, kernel.pep_ppm_query_feedback_counters, pepfx/PEP_PPM_QUERY_FEEDBACK_COUNTERS, pepfx/PPEP_PPM_QUERY_FEEDBACK_COUNTERS"
 req.header: pep_x.h
@@ -56,11 +56,23 @@ The **PEP_PPM_LPI_COMPLETE** structure describes the processor performance count
 
 ### -field CoordinatedStateCount
 
+The number of coordinated idle states being exited by this transition.
+
 ### -field CoordinatedStates
+
+Pointer to an array of coordinated idle states that are being exited by this transition.
 
 ## -remarks
 
-This structure is used by the [PEP_NOTIFY_PPM_QUERY_FEEDBACK_COUNTERS](../pepfx/ns-pepfx-_pep_ppm_query_feedback_counters.md) notification. The **Count** member of the structure contains an input value that PoFx supplies when this notification is sent. The **Counters** member contains an output value that the PEP writes in response to the notification. The PEP writes any additional **Counters** array elements to the output buffer area that follows the **PEP_PPM_QUERY_FEEDBACK_COUNTERS** structure. The buffer that PoFx allocated for this structure is guaranteed to be large enough to contain any array elements that follow the structure.
+This structure is used by the **PEP_NOTIFY_PPM_LPI_COMPLETE** notification. The notification is sent to the PEP to notify it that current processor is waking up from a completed platform idle transition. The first processor to wake indicates the platform idle states being exited. The first processor to wake from a platform idle state may not be the processor that entered the platform idle state.
+
+This notification is only sent when using the ACPI LPI interface. Windows doesn't inform the PEP of processor idle state transitions or coordinated idle transitions except those listed below:
+
+Windows 10, version 1703: This notification is only sent when a platform idle state associated with the root processor container (if one exists) is exited, and only includes the platform idle state associated with the root processor container.
+
+Windows 10, version 1709: This notification is sent for all platform idle states. For example, all coordinated idle states associated with a processor container which directly or indirectly contains all processors in the system.
+
+This notification is sent with interrupts disabled. This notification is always executed on the target processor.
 
 ## -see-also
 

@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_EVENT_COMPLETE (pcivirt.h)
 description: The request indicates that the virtualization stack or the SR-IOV device received one of the events listed in SRIOV_PF_EVENT.
 old-location: pci\ioctl-sriov-event-complete.htm
 tech.root: PCI
-ms.date: 07/28/2025
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_EVENT_COMPLETE IOCTL"]
 ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 req.header: pcivirt.h
@@ -66,11 +66,19 @@ The size of the [SRIOV_PNP_EVENT_COMPLETE](ns-pcivirt-_sriov_pnp_event_complete.
 
 ### -output-buffer
 
+None.
+
 ### -output-buffer-length
+
+Zero.
 
 ### -in-out-buffer
 
+None.
+
 ### -inout-buffer-length
+
+Zero.
 
 ### -status-block
 

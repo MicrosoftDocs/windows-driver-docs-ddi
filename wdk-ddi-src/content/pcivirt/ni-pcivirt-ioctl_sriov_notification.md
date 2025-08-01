@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_NOTIFICATION (pcivirt.h)
 description: The request indicates that the virtualization stack wants to be notified when one of the events listed in SRIOV_PF_EVENT occurs.
 old-location: pci\ioctl-sriov-notification.htm
 tech.root: PCI
-ms.date: 07/24/2025
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_NOTIFICATION IOCTL"]
 ms.keywords: IOCTL_SRIOV_NOTIFICATION, IOCTL_SRIOV_NOTIFICATION control code [Buses], PCI.ioctl-sriov-notification, pcivirt/IOCTL_SRIOV_NOTIFICATION
 req.header: pcivirt.h
@@ -55,7 +55,11 @@ The request indicates that the virtualization stack wants to be notified when on
 
 ### -input-buffer
 
+None. This IOCTL does not use an input buffer.
+
 ### -input-buffer-length
+
+Zero.
 
 ### -output-buffer
 
@@ -67,7 +71,11 @@ A pointer to a variable to contain the number of bytes written to the output buf
 
 ### -in-out-buffer
 
+Not used with this operation; set to **NULL**.
+
 ### -inout-buffer-length
+
+Not used with this operation; set to zero.
 
 ### -status-block
 
