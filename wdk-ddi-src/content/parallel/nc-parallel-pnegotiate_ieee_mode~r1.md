@@ -93,10 +93,10 @@ The PNEGOTIATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the
 
 ## -see-also
 
-- [IOCTL_PAR_GET_DEFAULT_MODES](..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md)
-- [IOCTL_IEEE1284_GET_MODE](..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md)
-- [PTERMINATE_IEEE_MODE](..\parallel\nc-parallel-pterminate_ieee_mode.md)
-- [PPARALLEL_IEEE_FWD_TO_REV](..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md)
-- [IOCTL_IEEE1284_NEGOTIATE](..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md)
-- [PDETERMINE_IEEE_MODES](..\parallel\nc-parallel-pdetermine_ieee_modes.md)
-- [PPARALLEL_IEEE_REV_TO_FWD](..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md)
+- [IOCTL_PAR_GET_DEFAULT_MODES](../ntddpar/ni-ntddpar-ioctl_par_get_default_modes.md)
+- [IOCTL_IEEE1284_GET_MODE](../ntddpar/ni-ntddpar-ioctl_ieee1284_get_mode.md)
+- [PTERMINATE_IEEE_MODE](../parallel/nc-parallel-pterminate_ieee_mode.md)
+- [PPARALLEL_IEEE_FWD_TO_REV](../parallel/nc-parallel-pparallel_ieee_fwd_to_rev.md)
+- [IOCTL_IEEE1284_NEGOTIATE](../ntddpar/ni-ntddpar-ioctl_ieee1284_negotiate.md)
+- [PDETERMINE_IEEE_MODES](../parallel/nc-parallel-pdetermine_ieee_modes.md)
+- [PPARALLEL_IEEE_REV_TO_FWD](../parallel/nc-parallel-pparallel_ieee_rev_to_fwd.md)
