@@ -66,7 +66,7 @@ Specifies the reverse protocols. *ModeMaskRev* is a bitwise OR of the constants 
 
 Specifies the safety mode. Must be set to the SAFE_MODE enumeration value of the PARALLEL_SAFETY enumeration type:
 
-``` cpp
+```cpp
 typedef enum {
   SAFE_MODE,
   UNSAFE_MODE
@@ -87,7 +87,7 @@ Specifies whether to connect the forward or the reverse protocol that the routin
 
 ## -remarks
 
-To obtain a pointer to the system-supplied PNEGOTIATE_IEEE_MODE callback, a kernel-mode driver uses an [IOCTL_INTERNAL_PARCLASS_CONNECT](..\parallel\ni-parallel-ioctl_internal_parclass_connect.md) request, which returns a [PARCLASS_INFORMATION](..\parallel\ns-parallel-_parclass_information.md) structure. The **NegotiateIeeeMode** member of the PARCLASS_INFORMATION structure is a pointer to this callback.
+To obtain a pointer to the system-supplied PNEGOTIATE_IEEE_MODE callback, a kernel-mode driver uses an [IOCTL_INTERNAL_PARCLASS_CONNECT](../parallel/ni-parallel-ioctl_internal_parclass_connect.md) request, which returns a [PARCLASS_INFORMATION](../parallel/ns-parallel-_parclass_information.md) structure. The **NegotiateIeeeMode** member of the PARCLASS_INFORMATION structure is a pointer to this callback.
 
 The PNEGOTIATE_IEEE_MODE callback runs in the caller's thread at the IRQL of the caller.
 
