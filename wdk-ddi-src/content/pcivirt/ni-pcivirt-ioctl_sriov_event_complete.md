@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_EVENT_COMPLETE (pcivirt.h)
 description: The request indicates that the virtualization stack or the SR-IOV device received one of the events listed in SRIOV_PF_EVENT.
 old-location: pci\ioctl-sriov-event-complete.htm
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_EVENT_COMPLETE IOCTL"]
 ms.keywords: IOCTL_SRIOV_EVENT_COMPLETE, IOCTL_SRIOV_EVENT_COMPLETE control code [Buses], PCI.ioctl-sriov-event-complete, pcivirt/IOCTL_SRIOV_EVENT_COMPLETE
 req.header: pcivirt.h
@@ -42,37 +42,50 @@ api_name:
 
 # IOCTL_SRIOV_EVENT_COMPLETE IOCTL
 
+## Major Code
 
-##  Major Code:
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
-
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/ifs/irp-mj-device-control)
 
 ## -description
 
-The  request indicates that the virtualization stack  or the SR-IOV device received one of the events listed in
-<a href="/windows-hardware/drivers/ddi/pcivirt/ne-pcivirt-_sriov_pf_event">SRIOV_PF_EVENT</a>.
+The request indicates that the virtualization stack or the SR-IOV device received one of the events listed in [SRIOV_PF_EVENT](ne-pcivirt-_sriov_pf_event.md).
 
 ## -ioctlparameters
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/ifs/irp-mj-device-control)
+
 ### -input-buffer
 
-A pointer to an <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure that contains the NTSTATUS code with which <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request must be completed.
+A pointer to an [SRIOV_PNP_EVENT_COMPLETE](ns-pcivirt-_sriov_pnp_event_complete.md) structure that contains the NTSTATUS code with which [IOCTL_SRIOV_NOTIFICATION](ni-pcivirt-ioctl_sriov_notification.md) request must be completed.
 
 ### -input-buffer-length
 
-The size of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> structure.
+The size of the [SRIOV_PNP_EVENT_COMPLETE](ns-pcivirt-_sriov_pnp_event_complete.md) structure.
+
+### -output-buffer
+
+None.
+
+### -output-buffer-length
+
+Zero.
+
+### -in-out-buffer
+
+None.
+
+### -inout-buffer-length
+
+Zero.
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) code.
 
 ## -remarks
 
-This IOCTL request is sent by the virtualization stack to the  PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
+This IOCTL request is sent by the virtualization stack to the PCI Express SR-IOV Physical Function (PF) driver that exposes GUID_DEVINTERFACE_VIRTUALIZABLE_DEVICE.
 
-The virtualization stack sends the <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request when the physical function (PF) driver completes the previously sent <a href="/windows-hardware/drivers/ddi/pcivirt/ni-pcivirt-ioctl_sriov_notification">IOCTL_SRIOV_NOTIFICATION</a> request. The <b>IOCTL_SRIOV_EVENT_COMPLETE</b> request can be completed
-synchronously.  The stack provides the NTSTATUS code to set for the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_pnp_event_complete">SRIOV_PNP_EVENT_COMPLETE</a> is the input buffer.
+The virtualization stack sends the **IOCTL_SRIOV_EVENT_COMPLETE** request when the physical function (PF) driver completes the previously sent [IOCTL_SRIOV_NOTIFICATION](ni-pcivirt-ioctl_sriov_notification.md) request. The **IOCTL_SRIOV_EVENT_COMPLETE** request can be completed synchronously. The stack provides the NTSTATUS code to set for the [SRIOV_PNP_EVENT_COMPLETE](ns-pcivirt-_sriov_pnp_event_complete.md) is the input buffer.

@@ -4,7 +4,7 @@ title: IOCTL_SRIOV_QUERY_MITIGATED_RANGES (pcivirt.h)
 description: The request determines the specific ranges on which intercepts must be placed.
 old-location: pci\ioctl-sriov-query-mitigated-ranges.htm
 tech.root: PCI
-ms.date: 02/24/2018
+ms.date: 08/01/2025
 keywords: ["IOCTL_SRIOV_QUERY_MITIGATED_RANGES IOCTL"]
 ms.keywords: IOCTL_SRIOV_QUERY_MITIGATED_RANGES, IOCTL_SRIOV_QUERY_MITIGATED_RANGES control code [Buses], PCI.ioctl-sriov-query-mitigated-ranges, pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES
 req.header: pcivirt.h
@@ -42,12 +42,9 @@ api_name:
 
 # IOCTL_SRIOV_QUERY_MITIGATED_RANGES IOCTL
 
+## Major Code
 
-##  Major Code:
-
-
-<a href="/windows-hardware/drivers/ifs/irp-mj-device-control">IRP_MJ_DEVICE_CONTROL</a>
-
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/ifs/irp-mj-device-control)
 
 ## -description
 
@@ -57,25 +54,35 @@ The request determines the specific ranges on which intercepts must be placed.
 
 ### -ioctl-major-code
 
+[IRP_MJ_DEVICE_CONTROL](/windows-hardware/drivers/ifs/irp-mj-device-control)
+
 ### -input-buffer
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_input">SRIOV_MITIGATED_RANGES_INPUT</a> structure that specifies the virtual function (VF) whose ranges are to be mitigated.
+A pointer to a [SRIOV_MITIGATED_RANGES_INPUT](ns-pcivirt-_sriov_mitigated_ranges_input.md) structure that specifies the virtual function (VF) whose ranges are to be mitigated.
 
 ### -input-buffer-length
 
-The size of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_input">SRIOV_MITIGATED_RANGES_INPUT</a> structure.
+The size of the [SRIOV_MITIGATED_RANGES_INPUT](ns-pcivirt-_sriov_mitigated_ranges_input.md) structure.
 
 ### -output-buffer
 
-A pointer to a <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_output">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure that specifies the virtual function (VF) whose ranges were to mitigated.
+A pointer to a [SRIOV_MITIGATED_RANGES_OUTPUT](ns-pcivirt-_sriov_mitigated_ranges_output.md) structure that specifies the virtual function (VF) whose ranges were to mitigated.
 
 ### -output-buffer-length
 
-The size of the <a href="/windows-hardware/drivers/ddi/pcivirt/ns-pcivirt-_sriov_mitigated_ranges_output">SRIOV_MITIGATED_RANGES_OUTPUT</a> structure.
+The size of the [SRIOV_MITIGATED_RANGES_OUTPUT](ns-pcivirt-_sriov_mitigated_ranges_output.md) structure.
+
+### -in-out-buffer
+
+Not used with this operation; set this parameter to **NULL**.
+
+### -inout-buffer-length
+
+Not used with this operation; set this parameter to zero.
 
 ### -status-block
 
-<b>Irp->IoStatus.Status</b> is set to STATUS_SUCCESS if the request is successful. Otherwise, <b>Status</b> to the appropriate error condition as a <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS</a> code.
+**Irp->IoStatus.Status** is set to STATUS_SUCCESS if the request is successful. Otherwise, **Status** to the appropriate error condition as a [NTSTATUS](/windows-hardware/drivers/kernel/ntstatus-values) code.
 
 ## -remarks
 
