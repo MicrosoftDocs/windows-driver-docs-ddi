@@ -2,7 +2,7 @@
 UID: NS:ksmedia.tagKSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT
 tech.root: audio
 title: KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT
-ms.date: 07/24/2025
+ms.date: 08/04/2025
 targetos: Windows
 description: The KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT attribute points to the  pre and post tap audio point definitions.
 prerelease: false
@@ -23,7 +23,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-targetos: Windows
 req.typenames: KSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT, *PKSATTRIBUTE_AUDIOLOOPBACK_TAPPOINT
 typedef_isUnnamed: false
 topic_type:
