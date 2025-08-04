@@ -2,7 +2,7 @@
 UID: NE:ksmedia.tagAUDIOLOOPBACK_TAPPOINT_TYPE
 tech.root: audio
 title: AUDIOLOOPBACK_TAPPOINT_TYPE
-ms.date: 07/24/2025
+ms.date: 08/04/2025
 targetos: Windows
 description: The AUDIOLOOPBACK_TAPPOINT_TYPE enum contains the  pre and post tap point definitions.
 prerelease: false
@@ -23,7 +23,6 @@ req.type-library:
 req.lib: 
 req.dll: 
 req.irql: 
-targetos: Windows
 req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 
