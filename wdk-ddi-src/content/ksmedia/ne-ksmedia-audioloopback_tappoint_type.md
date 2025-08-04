@@ -4,8 +4,9 @@ tech.root: audio
 title: AUDIOLOOPBACK_TAPPOINT_TYPE
 ms.date: 08/04/2025
 targetos: Windows
-description: The AUDIOLOOPBACK_TAPPOINT_TYPE enum contains the  pre and post tap point definitions.
+description: The AUDIOLOOPBACK_TAPPOINT_TYPE enum contains the pre and post tap point definitions.
 prerelease: false
+req.construct-type: enumeration
 req.header: ksmedia.h
 req.include-header: 
 req.target-type: Windows
@@ -25,7 +26,6 @@ req.dll:
 req.irql: 
 req.typenames: 
 typedef_isUnnamed: false
-req.umdf-ver: 
 topic_type:
  - apiref
 api_type:
