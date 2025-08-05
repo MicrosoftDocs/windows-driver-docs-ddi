@@ -4,7 +4,7 @@ title: PNEGOTIATE_IEEE_MODE (parallel.h)
 description: 
 old-location: parports\pnegotiate_ieee_mode.htm
 tech.root: parports
-ms.date: 08/01/2025
+ms.date: 08/05/2025
 keywords: ["PNEGOTIATE_IEEE_MODE callback"]
 ms.keywords: PNEGOTIATE_IEEE_MODE, PNEGOTIATE_IEEE_MODE function pointer [Parallel Ports], cisspd_0bea0bb3-2a7c-4cf4-938d-8bc67962a222.xml, parallel/PNEGOTIATE_IEEE_MODE, parports.pnegotiate_ieee_mode
 req.header: parallel.h
@@ -44,7 +44,7 @@ api_name:
 
 ## -description
 
-The old version of the **PNEGOTIATE_IEEE_MODE** callback function. For the latest version, see the **[PNEGOTIATE_IEEE_MODE](nc-parallel-pnegotiate_ieee_mode~r1.md)** (new) callback function.
+The old version of the **PNEGOTIATE_IEEE_MODE** callback function. For the latest version, see the **[PNEGOTIATE_IEEE_MODE](./nc-parallel-pnegotiate_ieee_mode~r1.md)** (new) callback function.
 
 ## -parameters
 
@@ -71,4 +71,4 @@ Returns an NTSTATUS value. Possible return values include:
 
 ## -see-also
 
-- **[PNEGOTIATE_IEEE_MODE](nc-parallel-pnegotiate_ieee_mode~r1.md)**
+- **[PNEGOTIATE_IEEE_MODE](./nc-parallel-pnegotiate_ieee_mode~r1.md)**
