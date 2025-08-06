@@ -1,8 +1,8 @@
 ---
 UID: NF:wdm.MmGetMdlVirtualAddress
-tech.root: 
+tech.root: kernel
 title: MmGetMdlVirtualAddress
-ms.date: 07/16/2021
+ms.date: 08/05/2025
 targetos: Windows
 description: "Learn more about: MmGetMdlVirtualAddress"
 prerelease: false
@@ -47,18 +47,19 @@ The **MmGetMdlVirtualAddress** macro returns the base virtual address of a buffe
 ## -syntax
 
 ```cpp
-PVOID
-MmGetMdlVirtualAddress (
-    _In_ PMDL Mdl
-    )
+#define MmGetMdlVirtualAddress(Mdl) \
+    ((PVOID) ((PCHAR) ((Mdl)->StartVa) + (Mdl)->ByteOffset))
 ```
 
 ## -parameters
 
 ### -param Mdl [in]
 
-
 Pointer to an MDL that describes the buffer for which to return the initial virtual address.
+
+## -returns
+
+**MmGetMdlVirtualAddress** returns the base virtual address of the buffer described by the MDL.
 
 ## -remarks
 
