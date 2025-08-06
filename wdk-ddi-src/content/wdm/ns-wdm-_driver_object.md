@@ -85,7 +85,7 @@ Pointer to the driver extension. The only accessible member of the driver extens
 
 ### -field DriverName
 
-Contains the Unicode string name of the driver. This field is used by the error log thread to determine the name of the driver that an I/O request is or was bound to. This is typically of the form **\Driver\***DriverName*, where *DriverName* corresponds to the driver's service name in the registry. The I/O manager sets this value based on the driver's registry configuration.
+Contains the Unicode string name of the driver. This field is used by the error log thread to determine the name of the driver that an I/O request is or was bound to. This is typically of the form *\\Driver\\DriverName*, where *DriverName* corresponds to the driver's service name in the registry. The I/O manager sets this value based on the driver's registry configuration.
 
 ### -field HardwareDatabase
 
