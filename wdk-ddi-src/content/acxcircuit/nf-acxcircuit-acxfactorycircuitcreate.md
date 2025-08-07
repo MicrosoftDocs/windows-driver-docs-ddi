@@ -2,7 +2,7 @@
 UID: NF:acxcircuit.AcxFactoryCircuitCreate
 tech.root: audio
 title: AcxFactoryCircuitCreate
-ms.date: 07/03/2025
+ms.date: 08/07/2025
 targetos: Windows
 description: The AcxFactoryCircuitCreate function is used to create an ACXFACTORYCIRCUIT.
 prerelease: false
@@ -74,7 +74,7 @@ The ACXFACTORYCIRCUIT is used in a multi-circuit endpoint. A circuit created by 
 
 An ACXFACTORYCIRCUIT has a dedicated WDF queue. For more information about WDF queues, see [Framework Queue Objects](/windows-hardware/drivers/wdf/framework-queue-objects).
 
-An AcxFactoryCircuit can only be created on FDOs (not on RAW PDOs). The ACXFACTORYCIRCUIT object uses its FDO's static child list which is not available on a RAW PDO. See [Static Enumeration](../wdf/static-enumeration.md) and [Dynamic Enumeration](../wdf/dynamic-enumeration.md) in the WDF documentation for additional information.
+An AcxFactoryCircuit can only be created on FDOs (not on RAW PDOs). The ACXFACTORYCIRCUIT object uses its FDO's static child list which is not available on a RAW PDO. For more information, see [Static Enumeration](/windows-hardware/drivers/wdf/static-enumeration) and [Dynamic Enumeration](/windows-hardware/drivers/wdf/dynamic-enumeration) in the WDF documentation.
 
 ### Example
 
