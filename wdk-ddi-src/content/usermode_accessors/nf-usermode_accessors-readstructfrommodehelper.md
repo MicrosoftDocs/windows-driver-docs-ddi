@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - ReadStructFromModeHelper
+ai-usage: ai-assisted
 ---
 
 ## -description

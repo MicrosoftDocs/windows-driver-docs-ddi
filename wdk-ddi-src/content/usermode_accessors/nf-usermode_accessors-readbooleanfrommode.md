@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - ReadBooleanFromMode
+ai-usage: ai-assisted
 ---
 
 ## -description

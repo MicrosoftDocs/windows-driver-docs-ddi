@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - ReadInt32FromUserAcquire
+ai-usage: ai-assisted
 ---
 
 ## -description

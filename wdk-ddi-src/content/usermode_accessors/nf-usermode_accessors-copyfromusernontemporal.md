@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - CopyFromUserNonTemporal
+ai-usage: ai-assisted
 ---
 
 ## -description

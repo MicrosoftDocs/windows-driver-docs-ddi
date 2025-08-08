@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - InterlockedOr64ToUser
+ai-usage: ai-assisted
 ---
 
 ## -description

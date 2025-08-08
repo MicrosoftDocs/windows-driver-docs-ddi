@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteSSizeTToMode
+ai-usage: ai-assisted
 ---
 
 ## -description

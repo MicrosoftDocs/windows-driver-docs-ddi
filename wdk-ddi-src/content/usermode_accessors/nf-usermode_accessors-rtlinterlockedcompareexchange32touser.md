@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - RtlInterlockedCompareExchange32ToUser
+ai-usage: ai-assisted
 ---
 
 ## -description

@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - StringLengthFromUser
+ai-usage: ai-assisted
 ---
 
 ## -description

@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - UmaExceptionFilter
+ai-usage: ai-assisted
 ---
 
 ## -description

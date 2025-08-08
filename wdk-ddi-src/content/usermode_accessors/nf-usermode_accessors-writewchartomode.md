@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteWCharToMode
+ai-usage: ai-assisted
 ---
 
 ## -description

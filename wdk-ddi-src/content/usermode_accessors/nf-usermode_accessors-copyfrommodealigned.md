@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - CopyFromModeAligned
+ai-usage: ai-assisted
 ---
 
 ## -description
