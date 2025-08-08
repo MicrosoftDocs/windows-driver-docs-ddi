@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteLargeIntegerToMode
+ai-usage: ai-assisted
 ---
 
 ## -description

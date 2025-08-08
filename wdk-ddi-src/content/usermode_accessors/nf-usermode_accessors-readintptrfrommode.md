@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - ReadIntPtrFromMode
+ai-usage: ai-assisted
 ---
 
 ## -description

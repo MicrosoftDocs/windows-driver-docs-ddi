@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - CopyFromUserToMode
+ai-usage: ai-assisted
 ---
 
 ## -description

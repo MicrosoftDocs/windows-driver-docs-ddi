@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteInt8ToUser
+ai-usage: ai-assisted
 ---
 
 ## -description

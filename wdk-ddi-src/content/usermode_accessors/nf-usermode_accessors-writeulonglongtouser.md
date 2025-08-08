@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteULonglongToUser
+ai-usage: ai-assisted
 ---
 
 ## -description

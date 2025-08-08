@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteBooleanToMode
+ai-usage: ai-assisted
 ---
 
 ## -description

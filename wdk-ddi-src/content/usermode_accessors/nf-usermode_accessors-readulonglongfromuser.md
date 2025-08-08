@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - ReadULonglongFromUser
+ai-usage: ai-assisted
 ---
 
 ## -description

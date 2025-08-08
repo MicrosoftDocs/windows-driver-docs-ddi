@@ -2,7 +2,7 @@
 description: "Learn more about: usermode_accessors.h header"
 UID: NA:usermode_accessors
 title: usermode_accessors.h header
-ms.date: 01/05/2023
+ms.date: 08/07/2025
 keywords: ["usermode_accessors.h header"]
 ms.keywords: 
 tech.root: kernel
@@ -17,3 +17,4 @@ api_name:
 
 ## -description
 
+[User-mode accessors (UMA)](/windows-hardware/drivers/kernel/user-mode-accessors) are a set of DDIs designed to safely access and manipulate user-mode memory from kernel-mode code.

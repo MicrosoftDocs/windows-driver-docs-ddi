@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteInt64ToUserRelease
+ai-usage: ai-assisted
 ---
 
 ## -description

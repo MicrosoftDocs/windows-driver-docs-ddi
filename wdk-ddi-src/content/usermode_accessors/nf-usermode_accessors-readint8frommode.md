@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - ReadInt8FromMode
+ai-usage: ai-assisted
 ---
 
 ## -description

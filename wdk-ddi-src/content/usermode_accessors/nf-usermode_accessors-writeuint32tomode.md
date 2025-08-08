@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteUInt32ToMode
+ai-usage: ai-assisted
 ---
 
 ## -description

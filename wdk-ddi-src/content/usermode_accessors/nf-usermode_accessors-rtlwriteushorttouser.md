@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - RtlWriteUShortToUser
+ai-usage: ai-assisted
 ---
 
 ## -description

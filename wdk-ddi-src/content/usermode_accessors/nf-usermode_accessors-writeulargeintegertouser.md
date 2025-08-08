@@ -40,6 +40,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - WriteULargeIntegerToUser
+ai-usage: ai-assisted
 ---
 
 ## -description
