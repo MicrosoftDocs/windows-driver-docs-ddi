@@ -92,7 +92,7 @@ typedef VOID
 ```
 where:
 
-* **CallbackData** is a pointer to a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data) structure for the I/O operation.
+* **CallbackData** is a pointer to a [**FLT_CALLBACK_DATA**](ns-fltkernel-_flt_callback_data.md) structure for the I/O operation.
 
 * **Context** is a context information pointer that was passed in the **Context** parameter to **FltCheckOplock**.
 

@@ -74,7 +74,7 @@ Returns an NTSTATUS value. Possible values include:
 It is the driver's responsibility to ensure that this function is not called concurrently with any of the following on the same device:
 
 - [**IOMMU_PASID_DEVICE_DELETE**](nc-wdm-iommu_pasid_device_delete.md)
-- [**IOMMU_DOMAIN_DELETE_DEVICE**](nc-wdm-iommu_domain_delete_device.md)
+- [**IOMMU_DOMAIN_DELETE**](nc-wdm-iommu_domain_delete.md)
 - [**IOMMU_DOMAIN_ATTACH_PASID_DEVICE**](nc-wdm-iommu_domain_attach_pasid_device.md)
 - [**IOMMU_DOMAIN_DETACH_PASID_DEVICE**](nc-wdm-iommu_domain_detach_pasid_device.md)
 
