@@ -434,7 +434,7 @@
         "**/virtualaddresstypes/*.md": "bradben",
         "**/vmbuskernelmodeclientlibapi/*.md": "bradben",
         "**/vpci/*.md": "mhopkins-msft",
-        "**/wdbgexts/*.md": "bradbe",
+        "**/wdbgexts/*.md": "bradben",
         "**/wdfchildlist/*.md": "mhopkins-msft",
         "**/wdfcollection/*.md": "mhopkins-msft",
         "**/wdfcommonbuffer/*.md": "mhopkins-msft",
@@ -597,7 +597,7 @@
         "**/arrayofelements/*.md": "mhopkins",
         "**/ata/*.md": "loriwhip",
         "**/audioaggregation/*.md": "mhopkins",
-        "**/audiosensors/*.md": "mhopkins",        
+        "**/audiosensors/*.md": "mhopkins",
         "**/aux_klib/*.md": "mhopkins",
         "**/avc/*.md": "mhopkins",
         "**/avcstrm/*.md": "mhopkins",
@@ -1089,7 +1089,7 @@
         "**/_usbref/*.md": "mhopkins",
         "**/_wdf/*.md": "mhopkins",
         "**/_whea/*.md": "brbenefield",
-        "**/_wpd_dk/*.md": "mhopkins"        
+        "**/_wpd_dk/*.md": "mhopkins"
       }
     },
     "template": [],
