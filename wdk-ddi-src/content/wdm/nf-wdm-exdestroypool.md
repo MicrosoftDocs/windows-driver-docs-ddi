@@ -2,9 +2,9 @@
 UID: NF:wdm.ExDestroyPool
 tech.root: kernel
 title: ExDestroyPool
-ms.date: 06/13/2021
+ms.date: 08/08/2025
 targetos: Windows
-description: Defines the ExDestroyPool function.
+description: Destroys a previously created pool instance.
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -12,7 +12,7 @@ req.dll:
 req.header: wdm.h
 req.idl: 
 req.include-header: Wdm.h
-req.irql: 
+req.irql: PASSIVE_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
@@ -37,16 +37,35 @@ f1_keywords:
  - wdm/ExDestroyPool
 dev_langs:
  - c++
+ai-usage: ai-assisted
 ---
 
 ## -description
 
-Defines the **ExDestroyPool** function.
+**ExDestroyPool** destroys a pool instance.
 
 ## -parameters
 
 ### -param PoolHandle
 
+[in] Handle to the pool instance to be destroyed. Must be a valid handle returned by [**ExCreatePool**](nf-wdm-excreatepool.md).
+
+## -returns
+
+None.
+
 ## -remarks
 
+After this call, the pool handle is no longer valid and must not be used in subsequent operations.
+
+All allocations associated with the pool must have been released before the pool is destroyed.
+
+If the handle is invalid, a bug check may occur.
+
 ## -see-also
+
+[**ExCreatePool**](nf-wdm-excreatepool.md)
+
+[**ExAllocatePool2**](nf-wdm-exallocatepool2.md)
+
+[**ExFreePool2**](nf-wdm-exfreepool2.md)
