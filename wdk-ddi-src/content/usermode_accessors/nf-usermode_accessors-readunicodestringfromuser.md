@@ -53,6 +53,17 @@ The **ReadUnicodeStringFromUser** function safely reads a [UNICODE_STRING](/wind
 
 [in] A pointer to the user-mode memory location from which to read the  [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+ReadUnicodeStringFromUser (
+    _Out_ PUNICODE_STRING Destination,
+    _In_ const UNICODE_STRING* Source
+    );
+```
+
 ## -returns
 
 **ReadUnicodeStringFromUser** returns the  [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure read from the specified user-mode memory address.

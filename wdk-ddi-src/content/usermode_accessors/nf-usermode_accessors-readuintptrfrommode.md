@@ -62,6 +62,17 @@ The **ReadUIntPtrFromMode** function safely reads a UINT_PTR value from memory b
 | **KernelMode** | **Source** points to kernel-mode memory. The function performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Source** points to user-mode memory. The function raises an exception if **Source** doesn't point to user-mode memory; otherwise it performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
+## -syntax
+
+```cpp
+FORCEINLINE
+UINT_PTR
+ReadUIntPtrFromMode (
+    _In_ const volatile UINT_PTR* Source,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -returns
 
 **ReadUIntPtrFromMode** returns the UINT_PTR value read from the specified memory address.

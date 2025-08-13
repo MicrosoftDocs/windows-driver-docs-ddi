@@ -61,6 +61,17 @@ The **CopyToUserFromUser** function safely copies data from user-mode memory to 
 
 [in] The number of bytes to copy.
 
+## -syntax
+
+```cpp
+VOID
+CopyToUserFromUser (
+    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
+    _In_reads_bytes_(Length) volatile const VOID* Source,
+    _In_ SIZE_T Length
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to copy data between user-mode memory locations. This allows for flexible memory operations between different user-mode buffers when kernel-mode code needs to facilitate data transfer between user-mode locations.
@@ -80,6 +91,8 @@ The function has the following properties:
 * The function doesn't support copy operations when **Source** and **Destination** overlap each other.
 
 The function raises a structured exception if the copy operation fails, such as when either address is not a valid user-mode address or is inaccessible.
+
+If you are copying a fixed-sized structure, you should use [**WriteStructToUser**](nf-usermode_accessors-writestructtouser.md) instead to avoid the risk of passing the wrong size.
 
 This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses).
 

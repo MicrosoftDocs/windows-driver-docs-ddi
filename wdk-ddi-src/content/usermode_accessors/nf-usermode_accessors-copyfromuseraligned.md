@@ -65,6 +65,16 @@ The **CopyFromUserAligned** macro safely copies data from user-mode memory to ke
 
 [in] The alignment boundary that the source pointer must satisfy.
 
+## -syntax
+
+```cpp
+#define CopyFromUserAligned(Destination, Source, Length, Alignment)                                 \
+            do {                                                                                    \
+                ExProbeAlignment((Source), (Length), (Alignment));                                  \
+                CopyFromUser((Destination), (Source), (Length));                                    \
+            } while (0)
+```
+
 ## -remarks
 
 This macro provides a safe way to copy data from user-mode memory to kernel memory with alignment verification. This allows for flexible memory operations when kernel-mode code needs to retrieve data from user-mode buffers with specific alignment requirements.
@@ -82,6 +92,8 @@ The macro has the following properties:
 * The macro doesn't support copy operations when **Source** and **Destination** overlap each other.
 
 The macro raises a structured exception if the copy operation fails, such as when the source address is not a valid user-mode address, is not properly aligned according to the **Alignment** parameter, or is inaccessible.
+
+If you are copying from a fixed-sized structure, you should use [**ReadStructFromUserAligned**](nf-usermode_accessors-readstructfromuseraligned.md) instead to avoid the risk of passing the wrong size.
 
 This macro will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the macro is called or after the macro returns (unless the source code explicitly performs these accesses).
 

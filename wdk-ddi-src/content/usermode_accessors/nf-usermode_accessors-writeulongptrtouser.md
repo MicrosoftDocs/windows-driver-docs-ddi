@@ -57,6 +57,17 @@ The **WriteULongPtrToUser** function safely writes a ULONG_PTR value to user-mod
 
 [in] The ULONG_PTR value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeulongptrtouser (
+    _Out_ volatile ULONG* Destination,
+    _In_ ULONG Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a ULONG_PTR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

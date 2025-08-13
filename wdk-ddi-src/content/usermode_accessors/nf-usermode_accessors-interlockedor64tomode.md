@@ -66,6 +66,18 @@ The **InterlockedOr64ToMode** function performs an atomic OR operation on a 64-b
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct atomic OR operation. See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs an atomic OR operation at the specified address. See Remarks for more details. |
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG64
+InterlockedOr64ToMode (
+    _Inout_ LONG64 volatile *Destination,
+    _In_ LONG64 Value,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -returns
 
 The function returns the original value of the **Destination** parameter.

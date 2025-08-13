@@ -57,6 +57,17 @@ The **WriteLong64ToUserRelease** function safely writes a LONG64 value to user-m
 
 [in] The LONG64 value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writelong64touserrelease (
+    _Out_ volatile LONG64* Destination,
+    _In_ LONG64 Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a LONG64 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

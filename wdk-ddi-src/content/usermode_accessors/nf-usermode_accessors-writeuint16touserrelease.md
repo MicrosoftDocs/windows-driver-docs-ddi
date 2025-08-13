@@ -57,6 +57,17 @@ The **WriteUInt16ToUserRelease** function safely writes a UINT16 value to user-m
 
 [in] The UINT16 value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeuint16touserrelease (
+    _Out_ volatile UINT16* Destination,
+    _In_ UINT16 Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a UINT16 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

@@ -65,6 +65,19 @@ The **WriteStructToModeHelper** function is a helper function that safely writes
 
 [in] The processor mode that determines how the memory access is performed.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+WriteStructToModeHelper (
+    _Out_ PVOID Destination,
+    _In_ const PVOID Source,
+    _In_ SIZE_T Length,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This function is a helper function used internally by the usermode accessor functions. It provides mode-aware writing of structures to memory, with extra safety checks when accessing user-mode memory.

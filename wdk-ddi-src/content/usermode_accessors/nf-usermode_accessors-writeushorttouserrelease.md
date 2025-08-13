@@ -57,6 +57,17 @@ The **WriteUShortToUserRelease** function safely writes a USHORT value to user-m
 
 [in] The USHORT value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeushorttouserrelease (
+    _Out_ volatile USHORT* Destination,
+    _In_ USHORT Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a USHORT value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

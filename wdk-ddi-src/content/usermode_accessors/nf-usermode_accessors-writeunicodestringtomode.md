@@ -66,6 +66,18 @@ The **WriteUnicodeStringToMode** function safely writes a [UNICODE_STRING](/wind
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+WriteUnicodeStringToMode (
+    _Out_ PUNICODE_STRING Destination,
+    _In_ const UNICODE_STRING* Source,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure to memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.

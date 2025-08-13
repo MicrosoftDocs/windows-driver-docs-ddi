@@ -53,6 +53,16 @@ The **ReadLongFromUser** function safely reads a LONG value from user-mode memor
 
 [in] A pointer to the user-mode memory location from which to read the LONG value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG
+ReadLongFromUser (
+    _In_ const volatile LONG* Source
+    );
+```
+
 ## -returns
 
 **ReadLongFromUser** returns the LONG value read from the specified user-mode memory address.

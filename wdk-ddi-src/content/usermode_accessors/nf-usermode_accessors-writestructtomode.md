@@ -66,6 +66,19 @@ The **WriteStructToMode** macro safely writes a structure to memory based on the
 | **KernelMode** | **Destination** points to kernel-mode memory. The macro performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The macro raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a write to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+WriteStructToMode (
+    _Out_ PVOID Destination,
+    _In_ const PVOID Source,
+    _In_ SIZE_T Length,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This macro provides a safe way to write a structure to memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.

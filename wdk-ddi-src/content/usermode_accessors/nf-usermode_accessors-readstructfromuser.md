@@ -57,6 +57,18 @@ The **ReadStructFromUser** macro safely reads a structure from user-mode memory.
 
 [in] A pointer to the user-mode memory location from which to read the structure.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+ReadStructFromUser (
+    _Out_ PVOID Destination,
+    _In_ const PVOID Source,
+    _In_ SIZE_T Length
+    );
+```
+
 ## -remarks
 
 This macro provides a safe way to read a structure from user-mode memory. It ensures the provided address is a user-mode address before reading it.

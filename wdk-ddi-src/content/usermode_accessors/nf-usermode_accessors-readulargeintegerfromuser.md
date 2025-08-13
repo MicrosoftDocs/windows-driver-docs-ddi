@@ -53,6 +53,16 @@ The **ReadULargeIntegerFromUser** function safely reads a ULARGE_INTEGER value f
 
 [in] A pointer to the user-mode memory location from which to read the ULARGE_INTEGER value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+ULARGE_INTEGER
+ReadULargeIntegerFromUser (
+    _In_ const volatile ULARGE_INTEGER* Source
+    );
+```
+
 ## -returns
 
 **ReadULargeIntegerFromUser** returns the ULARGE_INTEGER value read from the specified user-mode memory address.

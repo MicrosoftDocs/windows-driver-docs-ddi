@@ -61,6 +61,18 @@ The **FillUserMemory** function fills a user-mode memory region with a specified
 
 [in] The byte value used to fill the first **Length** bytes of **Destination**.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+FillUserMemory (
+    _Out_writes_bytes_all_(Length) PVOID Destination,
+    _In_ SIZE_T Length,
+    _In_ UCHAR Fill
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to fill a user-mode memory region with a specified byte value. This allows for flexible memory operations when kernel-mode code needs to initialize user-mode memory buffers.

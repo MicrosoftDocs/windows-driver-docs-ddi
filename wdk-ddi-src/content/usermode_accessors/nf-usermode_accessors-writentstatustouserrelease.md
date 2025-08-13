@@ -57,6 +57,17 @@ The **WriteNtStatusToUserRelease** function safely writes an NTSTATUS value to u
 
 [in] The NTSTATUS value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+WriteNtStatusToUserRelease (
+    _Out_ volatile NTSTATUS* Destination,
+    _In_ NTSTATUS Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write an NTSTATUS value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

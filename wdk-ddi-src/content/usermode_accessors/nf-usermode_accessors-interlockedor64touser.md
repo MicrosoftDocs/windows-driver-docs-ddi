@@ -57,6 +57,17 @@ The **InterlockedOr64ToUser** function performs an atomic OR operation on a 64-b
 
 [in] The second operand.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG64
+InterlockedOr64ToUser (
+    _Inout_ LONG64 volatile *Destination,
+    _In_ LONG64 Value
+    );
+```
+
 ## -returns
 
 The function returns the original value of the **Destination** parameter.

@@ -74,6 +74,18 @@ The **CopyFromModeAligned** macro safely copies data from specified-mode memory 
 
 [in] The alignment boundary that the source pointer must satisfy.
 
+## -syntax
+
+```cpp
+#define CopyFromModeAligned(Destination, Source, Length, Mode, Alignment)                           \
+            do {                                                                                    \
+                if ((Mode) != KernelMode) {                                                         \
+                    ExProbeAlignment((Source), (Length), (Alignment));                              \
+                }                                                                                   \
+                CopyFromMode((Destination), (Source), (Length), (Mode));                            \
+            } while (0)
+```
+
 ## -remarks
 
 This macro provides a safe way to copy data from either kernel or user-mode memory to kernel memory, with the copy mechanism determined by the specified processor mode and alignment verification. This allows for flexible memory operations that can adapt to different execution contexts while ensuring proper alignment requirements.
@@ -91,6 +103,8 @@ When **Mode** is **KernelMode**:
 * The macro doesn't support copy operations when **Source** and **Destination** overlap each other.
 
 The macro raises a structured exception if the copy operation fails, such as when the source address is not valid for the specified mode, is not properly aligned according to the **Alignment** parameter, or is inaccessible.
+
+If you are copying from a fixed-sized structure, you should use [**ReadStructFromModeAligned**](nf-usermode_accessors-readstructfrommodealigned.md) instead to avoid the risk of passing the wrong size.
 
 This macro will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the macro is called or after the macro returns (unless the source code explicitly performs these accesses).
 

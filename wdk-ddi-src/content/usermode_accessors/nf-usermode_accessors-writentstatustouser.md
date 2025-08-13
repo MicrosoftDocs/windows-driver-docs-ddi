@@ -57,6 +57,17 @@ The **WriteNtStatusToUser** function safely writes an NTSTATUS value to user-mod
 
 [in] The NTSTATUS value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+WriteNtStatusToUser (
+    _Out_ volatile NTSTATUS* Destination,
+    _In_ NTSTATUS Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write an NTSTATUS value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

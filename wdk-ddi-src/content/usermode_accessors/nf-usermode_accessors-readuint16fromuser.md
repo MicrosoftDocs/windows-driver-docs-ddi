@@ -53,6 +53,16 @@ The **ReadUInt16FromUser** function safely reads a UINT16 value from user-mode m
 
 [in] A pointer to the user-mode memory location from which to read the UINT16 value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+UINT16
+ReadUInt16FromUser (
+    _In_ const volatile UINT16* Source
+    );
+```
+
 ## -returns
 
 **ReadUInt16FromUser** returns the UINT16 value read from the specified user-mode memory address.
