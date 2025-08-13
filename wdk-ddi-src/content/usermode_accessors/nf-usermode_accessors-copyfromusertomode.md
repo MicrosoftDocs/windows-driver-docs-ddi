@@ -70,6 +70,18 @@ The **CopyFromUserToMode** function safely copies data from user-mode memory to 
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a copy from user-mode to kernel memory with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The function performs a copy from user-mode to user-mode memory with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 
+## -syntax
+
+```cpp
+VOID
+CopyFromUserToMode (
+    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
+    _In_reads_bytes_(Length) volatile const VOID* Source,
+    _In_ SIZE_T Length,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to copy data from user-mode memory to either kernel or user-mode memory, with the copy mechanism determined by the specified processor mode. This allows for flexible memory operations that can adapt to different execution contexts.
@@ -89,6 +101,8 @@ When **Mode** is **KernelMode**:
 * The function doesn't support copy operations when **Source** and **Destination** overlap each other.
 
 The function raises a structured exception if the copy operation fails, such as when the source address is not a valid user-mode address, the destination address is not valid for the specified mode, or either address is inaccessible.
+
+If you are copying from a fixed-sized structure, you should use [**ReadStructFromUser**](nf-usermode_accessors-readstructfromuser.md) instead to avoid the risk of passing the wrong size.
 
 This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses).
 

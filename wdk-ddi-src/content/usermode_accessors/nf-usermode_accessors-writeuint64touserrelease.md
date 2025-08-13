@@ -57,6 +57,17 @@ The **WriteUInt64ToUserRelease** function safely writes a UINT64 value to user-m
 
 [in] The UINT64 value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeuint64touserrelease (
+    _Out_ volatile UINT64* Destination,
+    _In_ UINT64 Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a UINT64 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

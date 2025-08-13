@@ -57,6 +57,17 @@ The **WriteSizeTToUserRelease** function safely writes a SIZE_T value to user-mo
 
 [in] The SIZE_T value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writesizettouserrelease (
+    _Out_ volatile SIZE_T* Destination,
+    _In_ SIZE_T Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a SIZE_T value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

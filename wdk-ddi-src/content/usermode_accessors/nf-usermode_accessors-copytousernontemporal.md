@@ -61,6 +61,17 @@ The **CopyToUserNonTemporal** function safely copies data from kernel memory to 
 
 [in] The number of bytes to copy.
 
+## -syntax
+
+```cpp
+VOID
+CopyToUserNonTemporal (
+    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
+    _In_reads_bytes_(Length) const VOID* Source,
+    _In_ SIZE_T Length
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to copy data from kernel memory to user-mode memory using non-temporal (streaming) instructions. This allows for flexible memory operations when kernel-mode code needs to transfer data to user-mode buffers while optimizing cache performance for large data transfers.
@@ -84,6 +95,8 @@ The function has the following properties:
 The function raises a structured exception if the copy operation fails, such as when the destination address is not a valid user-mode address or is inaccessible.
 
 This function is particularly useful when copying large amounts of data that are unlikely to be accessed again soon, as it avoids evicting other useful data from the cache.
+
+If you are copying a fixed-sized structure, you should use [**WriteStructToUser**](nf-usermode_accessors-writestructtouser.md) instead to avoid the risk of passing the wrong size.
 
 This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses).
 

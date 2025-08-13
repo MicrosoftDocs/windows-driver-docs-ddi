@@ -53,6 +53,16 @@ The **ReadShortFromUser** function safely reads a SHORT value from user-mode mem
 
 [in] A pointer to the user-mode memory location from which to read the SHORT value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+SHORT
+ReadShortFromUser (
+    _In_ const volatile SHORT* Source
+    );
+```
+
 ## -returns
 
 **ReadShortFromUser** returns the SHORT value read from the specified user-mode memory address.

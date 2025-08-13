@@ -53,6 +53,16 @@ The **ReadUInt8FromUser** function safely reads a UINT8 value from user-mode mem
 
 [in] A pointer to the user-mode memory location from which to read the UINT8 value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+UINT8
+ReadUInt8FromUser (
+    _In_ const volatile UINT8* Source
+    );
+```
+
 ## -returns
 
 **ReadUInt8FromUser** returns the UINT8 value read from the specified user-mode memory address.

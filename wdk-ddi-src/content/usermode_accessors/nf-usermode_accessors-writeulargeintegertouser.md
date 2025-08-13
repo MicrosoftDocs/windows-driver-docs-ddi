@@ -57,6 +57,17 @@ The **WriteULargeIntegerToUser** function safely writes a ULARGE_INTEGER value t
 
 [in] The ULARGE_INTEGER value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+WriteULargeIntegerToUser (
+    _Out_ volatile ULARGE_INTEGER* Destination,
+    _In_ ULARGE_INTEGER Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a ULARGE_INTEGER value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

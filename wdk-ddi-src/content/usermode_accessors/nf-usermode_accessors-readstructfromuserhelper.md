@@ -61,6 +61,18 @@ The **ReadStructFromUserHelper** function is a helper function that safely reads
 
 [in] The size, in bytes, of the data to read.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+ReadStructFromUserHelper (
+    _Out_ PVOID Destination,
+    _In_ const PVOID Source,
+    _In_ SIZE_T Length
+    );
+```
+
 ## -remarks
 
 This function is a helper function used internally by the user-mode accessor functions. It provides optimized reading of structures from user-mode memory based on the structure size.

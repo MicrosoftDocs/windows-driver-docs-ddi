@@ -53,6 +53,16 @@ The **ReadLongPtrFromUser** function safely reads a LONG_PTR value from user-mod
 
 [in] A pointer to the user-mode memory location from which to read the LONG_PTR value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG_PTR
+ReadLongPtrFromUser (
+    _In_ const volatile LONG_PTR* Source
+    );
+```
+
 ## -returns
 
 **ReadLongPtrFromUser** returns the LONG_PTR value read from the specified user-mode memory address.

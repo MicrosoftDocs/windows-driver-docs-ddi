@@ -61,6 +61,19 @@ The **WriteStructToUserAligned** macro safely writes a structure to user-mode me
 
 [in] The required alignment for the destination address, in bytes.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+WriteStructToUserAligned (
+    _Out_ PVOID Destination,
+    _In_ const PVOID Source,
+    _In_ SIZE_T Length,
+    _In_ ULONG Alignment
+    );
+```
+
 ## -remarks
 
 This macro provides a safe way to write a structure to user-mode memory with alignment enforcement. It ensures the provided address is a user-mode address and meets the specified alignment requirements before writing to it.

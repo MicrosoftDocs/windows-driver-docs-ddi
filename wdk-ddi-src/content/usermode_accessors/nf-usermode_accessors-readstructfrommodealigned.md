@@ -70,6 +70,20 @@ The **ReadStructFromModeAligned** macro safely reads a structure from memory bas
 
 [in] The required alignment for the source address, in bytes.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+NTSTATUS
+ReadStructFromModeAligned (
+    _Out_ PVOID Destination,
+    _In_ const PVOID Source,
+    _In_ SIZE_T Length,
+    _In_ ULONG Alignment,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This macro provides a safe way to read a structure from memory, with extra safety checks when accessing user-mode memory and alignment enforcement. It ensures that the provided address is valid and accessible based on the specified processor mode, and meets the specified alignment requirements when accessing user-mode memory.

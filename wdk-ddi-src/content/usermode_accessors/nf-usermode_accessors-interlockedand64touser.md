@@ -57,6 +57,17 @@ The **InterlockedAnd64ToUser** function performs an atomic AND operation on a 64
 
 [in] The second operand.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG64
+InterlockedAnd64ToUser (
+    _Inout_ LONG64 volatile *Destination,
+    _In_ LONG64 Value
+    );
+```
+
 ## -returns
 
 The function returns the original value of the **Destination** parameter.

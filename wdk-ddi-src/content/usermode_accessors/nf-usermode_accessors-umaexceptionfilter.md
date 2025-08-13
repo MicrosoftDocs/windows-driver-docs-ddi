@@ -58,6 +58,17 @@ The **UmaExceptionFilter** function provides mode-dependent exception filtering 
 | **KernelMode** | The exception should continue searching for a handler. Returns **EXCEPTION_CONTINUE_SEARCH**. |
 | **UserMode** | The exception should be handled by the current handler. Returns **EXCEPTION_EXECUTE_HANDLER**. |
 
+## -syntax
+
+```cpp
+FORCEINLINE
+INT
+UmaExceptionFilter (
+    _In_ ULONG ExceptionCode,
+    _In_ PEXCEPTION_POINTERS ExceptionInfo
+    );
+```
+
 ## -returns
 
 The function returns one of the following exception filter values:

@@ -61,6 +61,18 @@ The **InterlockedCompareExchange64ToUser** function performs an atomic compare-a
 
 [in] The value to compare to **Destination**.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG64
+InterlockedCompareExchange64ToUser (
+    _Inout_ LONG64 volatile *Destination,
+    _In_ LONG64 ExChange,
+    _In_ LONG64 Comperand
+    );
+```
+
 ## -returns
 
 The function returns the initial value of the **Destination** parameter.

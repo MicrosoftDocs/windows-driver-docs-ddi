@@ -53,6 +53,16 @@ The **ReadLong64FromUserAcquire** function safely reads a LONG64 value from user
 
 [in] A pointer to the user-mode memory location from which to read the LONG64 value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONG64
+ReadLong64FromUserAcquire (
+    _In_ const volatile LONG64* Source
+    );
+```
+
 ## -returns
 
 **ReadLong64FromUserAcquire** returns the LONG64 value read from the specified user-mode memory address.

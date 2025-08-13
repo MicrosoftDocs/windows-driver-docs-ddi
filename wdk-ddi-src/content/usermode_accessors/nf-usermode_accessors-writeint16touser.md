@@ -57,6 +57,17 @@ The **WriteInt16ToUser** function safely writes an INT16 value to user-mode memo
 
 [in] The INT16 value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeint16touser (
+    _Out_ volatile INT16* Destination,
+    _In_ INT16 Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write an INT16 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

@@ -57,6 +57,17 @@ The **ZeroUserMemory** function fills a user-mode memory region with zeros.
 
 [in] The number of bytes to zero.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+ZeroUserMemory (
+    _Out_ PVOID Destination,
+    _In_ SIZE_T Length
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to zero a user-mode memory region. This allows for flexible memory operations when kernel-mode code needs to initialize user-mode memory buffers to zero.

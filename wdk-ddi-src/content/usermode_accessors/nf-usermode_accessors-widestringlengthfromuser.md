@@ -53,6 +53,17 @@ The **WideStringLengthFromUser** function safely calculates the length of a null
 
 [in] A pointer to a null-terminated wide character string in user-mode memory.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+SIZE_T
+WideStringLengthFromUser (
+    _In_ PCWSTR String,
+    _In_ SIZE_T MaxLength
+    );
+```
+
 ## -returns
 
 The function returns the length of the string in wide characters, not including the terminating null character.

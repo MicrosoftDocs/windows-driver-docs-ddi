@@ -53,6 +53,16 @@ The **ReadLonglongFromUserAcquire** function safely reads a LONGLONG value from 
 
 [in] A pointer to the user-mode memory location from which to read the LONGLONG value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+LONGLONG
+ReadLongLongFromUserAcquire (
+    _In_ const volatile LONGLONG* Source
+    );
+```
+
 ## -returns
 
 **ReadLonglongFromUserAcquire** returns the LONGLONG value read from the specified user-mode memory address.

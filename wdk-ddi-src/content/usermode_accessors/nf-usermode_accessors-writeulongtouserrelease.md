@@ -57,6 +57,17 @@ The **WriteULongToUserRelease** function safely writes a ULONG value to user-mod
 
 [in] The ULONG value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeulongtouserrelease (
+    _Out_ volatile ULONG* Destination,
+    _In_ ULONG Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a ULONG value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

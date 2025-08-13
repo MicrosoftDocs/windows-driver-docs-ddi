@@ -53,6 +53,17 @@ The **StringLengthFromUser** function safely calculates the length of a null-ter
 
 [in] A pointer to a null-terminated string in user-mode memory.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+SIZE_T
+StringLengthFromUser (
+    _In_ PCSTR String,
+    _In_ SIZE_T MaxLength
+    );
+```
+
 ## -returns
 
 The function returns the length of the string in characters, not including the terminating null character.

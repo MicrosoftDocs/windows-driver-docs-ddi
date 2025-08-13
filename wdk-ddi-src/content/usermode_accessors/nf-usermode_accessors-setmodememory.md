@@ -70,6 +70,19 @@ The **SetModeMemory** function fills a memory region with a specified byte value
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct memory fill operation with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a fill operation at the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+SetModeMemory (
+    _Out_ PVOID Destination,
+    _In_ UCHAR Value,
+    _In_ SIZE_T Length,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to fill a memory region with a specified byte value, with the fill mechanism determined by the specified processor mode.

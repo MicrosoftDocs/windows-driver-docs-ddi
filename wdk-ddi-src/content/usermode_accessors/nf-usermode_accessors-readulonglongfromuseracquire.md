@@ -53,6 +53,16 @@ The **ReadULonglongFromUserAcquire** function safely reads a ULONGLONG value fro
 
 [in] A pointer to the user-mode memory location from which to read the ULONGLONG value.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+ULONGLONG
+ReadULongLongFromUserAcquire (
+    _In_ const volatile ULONGLONG* Source
+    );
+```
+
 ## -returns
 
 **ReadULonglongFromUserAcquire** returns the ULONGLONG value read from the specified user-mode memory address.

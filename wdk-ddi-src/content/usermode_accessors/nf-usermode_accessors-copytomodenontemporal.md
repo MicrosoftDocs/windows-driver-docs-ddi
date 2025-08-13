@@ -70,6 +70,18 @@ The **CopyToModeNonTemporal** function safely copies data from kernel memory to 
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct memory copy using non-temporal instructions with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a copy to the specified address using non-temporal instructions with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 
+## -syntax
+
+```cpp
+VOID
+CopyToModeNonTemporal (
+    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
+    _In_reads_bytes_(Length) const VOID* Source,
+    _In_ SIZE_T Length,
+    _In_ KPROCESSOR_MODE Mode
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to copy data from kernel memory to either kernel or user-mode memory using non-temporal (streaming) instructions, with the copy mechanism determined by the specified processor mode. This allows for flexible memory operations that can adapt to different execution contexts while optimizing cache performance for large data transfers.
@@ -91,6 +103,8 @@ When **Mode** is **KernelMode**:
 * The function uses non-temporal instructions that can improve performance for large data transfers by bypassing the processor cache, reducing cache pollution.
 
 This function is particularly useful when copying large amounts of data that are unlikely to be accessed again soon, as it avoids evicting other useful data from the cache.
+
+If you are copying a fixed-sized structure, you should use [**WriteStructToMode**](nf-usermode_accessors-writestructtomode.md) instead to avoid the risk of passing the wrong size.
 
 This function will never be optimized away by the compiler, nor will the compiler create additional accesses to this memory location before the function is called or after the function returns (unless the source code explicitly performs these accesses).
 

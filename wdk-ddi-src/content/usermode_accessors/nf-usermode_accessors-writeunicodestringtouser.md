@@ -57,7 +57,20 @@ The **WriteUnicodeStringToUser** function safely writes a [UNICODE_STRING](/wind
 
 [in] The [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure to write to the destination memory location.
 
-## -remarks
+
+
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+WriteUnicodeStringToUser (
+    _Out_ PUNICODE_STRING Destination,
+    _In_ const UNICODE_STRING* Source
+    );
+```
+
+## -remarks## -remarks
 
 This function provides a safe way to write a [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure to user-mode memory. It ensures the provided address is a user-mode address before writing to it.
 

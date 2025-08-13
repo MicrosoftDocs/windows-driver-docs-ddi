@@ -57,6 +57,17 @@ The **WriteInt32ToUser** function safely writes an INT32 value to user-mode memo
 
 [in] The INT32 value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writeint32touser (
+    _Out_ volatile INT32* Destination,
+    _In_ INT32 Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write an INT32 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

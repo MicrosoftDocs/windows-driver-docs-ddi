@@ -57,6 +57,17 @@ The **WriteLargeIntegerToUser** function safely writes a LARGE_INTEGER value to 
 
 [in] The LARGE_INTEGER value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+WriteLargeIntegerToUser (
+    _Out_ volatile LARGE_INTEGER* Destination,
+    _In_ LARGE_INTEGER Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a LARGE_INTEGER value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

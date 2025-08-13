@@ -57,6 +57,17 @@ The **WriteBooleanToUserRelease** function safely writes a BOOLEAN value to user
 
 [in] The BOOLEAN value to write to the destination memory location.
 
+## -syntax
+
+```cpp
+FORCEINLINE
+VOID
+Writebooleantouserrelease (
+    _Out_ volatile BOOLEAN* Destination,
+    _In_ BOOLEAN Value
+    );
+```
+
 ## -remarks
 
 This function provides a safe way to write a BOOLEAN value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.
