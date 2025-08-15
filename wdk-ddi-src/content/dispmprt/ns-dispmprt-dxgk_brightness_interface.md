@@ -82,9 +82,9 @@ The **DXGK_BRIGHTNESS_INTERFACE** structure contains pointers to the kernel-mode
 
 ## -remarks
 
-A kernel-mode component such as *Dxgkrnl* that must use the brightness interface initiates a call to the KMD's [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md) function to retrieve the interface and passes a GUID_DEVINTERFACE_BRIGHTNESS in the **InterfaceType** member of the [QUERY_INTERFACE](/windows-hardware/drivers/ddi/video/ns-video-_query_interface) structure that the **QueryInterface** parameter points to.
+A kernel-mode component such as *Dxgkrnl* that must use the brightness interface initiates a call to the KMD's [DxgkDdiQueryInterface](nc-dispmprt-dxgkddi_query_interface.md) function to retrieve the interface and passes a GUID_DEVINTERFACE_BRIGHTNESS in the **InterfaceType** member of the [QUERY_INTERFACE](../video/ns-video-_query_interface.md) structure that the **QueryInterface** parameter points to.
 
-For more information, see [Supporting brightness controls on integrated display panels](https://learn.microsoft.com/windows-hardware/drivers/display/supporting-brightness-controls-on-integrated-display-panels).
+For more information, see [Supporting brightness controls on integrated display panels](/windows-hardware/drivers/display/supporting-brightness-controls-on-integrated-display-panels).
 
 ## -see-also
 
@@ -100,4 +100,4 @@ For more information, see [Supporting brightness controls on integrated display 
 
 [DxgkDdiSetBrightness](nc-dispmprt-dxgk_brightness_set.md)
 
-[QUERY_INTERFACE](/windows-hardware/drivers/ddi/video/ns-video-_query_interface)
+[QUERY_INTERFACE](../video/ns-video-_query_interface.md)

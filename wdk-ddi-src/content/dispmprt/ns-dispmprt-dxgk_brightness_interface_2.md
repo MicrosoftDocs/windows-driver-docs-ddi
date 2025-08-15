@@ -100,7 +100,7 @@ A pointer to KMD's [**DxgkDdiGetBacklightReduction**](nc-dispmprt-dxgk_brightnes
 
 This structure provides additional members, beyond those in the [**DXGK_BRIGHTNESS_INTERFACE**](ns-dispmprt-dxgk_brightness_interface.md) interface, that point to driver-implemented functions that control, measure, and optimize display panel brightness and allow smooth brightness control.
 
-For more information, see [Supporting brightness controls on integrated display panels](https://learn.microsoft.com/windows-hardware/drivers/display/supporting-brightness-controls-on-integrated-display-panels).
+For more information, see [Supporting brightness controls on integrated display panels](/windows-hardware/drivers/display/supporting-brightness-controls-on-integrated-display-panels).
 
 ## -see-also
 
