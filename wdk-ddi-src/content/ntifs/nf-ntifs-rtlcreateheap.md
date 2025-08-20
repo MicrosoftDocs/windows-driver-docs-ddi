@@ -2,11 +2,8 @@
 UID: NF:ntifs.RtlCreateHeap
 title: RtlCreateHeap function (ntifs.h)
 description: The RtlCreateHeap routine creates a heap object that can be used by the calling process. This routine reserves space in the virtual address space of the process and allocates physical storage for a specified initial portion of this block.
-old-location: ifsk\rtlcreateheap.htm
 tech.root: ifsk
-ms.date: 07/26/2022
-keywords: ["RtlCreateHeap function"]
-ms.keywords: RtlCreateHeap, RtlCreateHeap routine [Installable File System Drivers], ifsk.rtlcreateheap, ntifs/RtlCreateHeap, rtlref_e57e4a89-3686-4ab4-85e2-af223cdb3b18.xml
+ms.date: 08/20/2025
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -100,7 +97,14 @@ Pointer to a [**RTL_HEAP_PARAMETERS**](ns-ntifs-rtl_heap_parameters.md) structur
 
 ## -returns
 
-**RtlCreateHeap** returns a handle to be used in accessing the created heap.
+On success, **RtlCreateHeap** returns a handle to be used in accessing the created heap. If **RtlCreateHeap** fails for any reason, it returns NULL. Reason for failure include:
+
+* Invalid parameter combinations (or example, incompatible flags)
+* Memory allocation failures
+* Virtual memory query failures
+* Lock initialization failures
+* Heap segment initialization failures
+* Process heap list insertion failures
 
 ## -remarks
 
