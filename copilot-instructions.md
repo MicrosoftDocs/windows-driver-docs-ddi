@@ -103,6 +103,24 @@ ai-usage: {ai-assisted|ai-generated}
 
 This metadata automatically adds a customer-facing AI disclosure to the published content.
 
+### Common Metadata Patterns
+
+#### API Types by Prefix:
+- **Enumerations (ne)**: `req.construct-type: enumeration`
+- **Callbacks (nc)**: `req.construct-type: function` 
+- **IOCTLs (ni)**: `api_type: HeaderDef`
+- **Structures (ns)**: `req.construct-type: structure`
+- **Classes (nl)**: `api_type: HeaderDef` or `LibDef`
+- **Interfaces (nn)**: `api_type: HeaderDef`
+- **Functions (nf)**: `api_type: DllExport` or `HeaderDef`
+
+#### Technology Roots (tech.root):
+Common values include: `netvista`, `ifsk`, `kernel`, `audio`, `display`, `image`, `battery`, etc.
+
+#### Version Requirements:
+- Use specific Windows versions: `Windows 11`, `Windows 10, version 1903`, etc.
+- Server versions: `Windows Server 2022`, `Windows Server 2019`, etc.
+
 ### Content Sections
 
 #### Standard Sections (in order):
@@ -114,6 +132,11 @@ This metadata automatically adds a customer-facing AI disclosure to the publishe
 6. `## -remarks` - Additional usage notes, examples, and important information
 7. `## -see-also` - Related API references
 
+#### Special Section Types:
+- `## -ioctlparameters` - For IOCTL documentation (ni- files)
+- `## -syntax` - Function/method syntax (automatically generated, do not edit)
+- `## -inheritance` - For interface/class inheritance (nn-/nl- files)
+
 #### Parameter/Field Format:
 ```markdown
 ### -param ParameterName
@@ -121,6 +144,9 @@ Brief description of the parameter.
 
 ### -field FieldName  
 Brief description of the field.
+
+### -field EnumValue:ValueNumber
+Brief description of the enumeration value.
 ```
 
 ## Link Formatting Guidelines
@@ -166,6 +192,30 @@ External links (non-learn.microsoft.com) should use full URLs:
 - Include practical usage examples in -remarks when helpful
 - Cross-reference related APIs in -see-also sections
 - Verify technical accuracy of all information
+- Follow Microsoft Writing Style Guide for technical documentation
+- Use consistent terminology with existing documentation
+
+### Code Examples
+When including code examples:
+- Use proper C/C++ syntax highlighting
+- Include necessary header files
+- Provide context for when/why the code would be used
+- Keep examples concise but complete
+
+```cpp
+// Example code block
+#include <wificx.h>
+
+NTSTATUS
+EvtWifiDeviceCreateAdapter(
+    _In_ WDFDEVICE Device,
+    _Inout_ WIFI_ADAPTER_INIT* AdapterInit
+    )
+{
+    // Implementation here
+    return STATUS_SUCCESS;
+}
+```
 
 ### Common Patterns
 - Functions: Focus on purpose, parameters, return values, and usage patterns
@@ -184,14 +234,16 @@ The repository uses DocFX for building documentation. Key configuration is in `d
 - Validate that required metadata is present
 
 ### Content Review Checklist
-- [ ] Correct filename prefix used
+- [ ] Correct filename prefix used (ne/nc/ni/ns/nl/nn)
 - [ ] YAML frontmatter complete and valid
 - [ ] AI usage metadata included if AI was used
 - [ ] Site-relative links used for learn.microsoft.com content
-- [ ] All required sections present
+- [ ] All required sections present (-description, -parameters/-struct-fields/-enum-fields as appropriate, -remarks, -see-also)
 - [ ] Technical accuracy verified
 - [ ] Cross-references added to related APIs
 - [ ] Examples provided where helpful
+- [ ] Consistent with Microsoft Writing Style Guide
+- [ ] All parameters/fields documented completely
 
 ## Categories and Technology Areas
 
