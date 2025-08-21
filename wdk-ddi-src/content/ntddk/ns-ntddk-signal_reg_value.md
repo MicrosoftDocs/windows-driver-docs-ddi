@@ -2,7 +2,7 @@
 UID: NS:ntddk._SIGNAL_REG_VALUE
 tech.root: kernel
 title: SIGNAL_REG_VALUE (ntddk.h)
-ms.date: 03/28/2022
+ms.date: 08/20/2025
 targetos: Windows
 description: This topic describes the SIGNAL_REG_VALUE structure.
 prerelease: false
@@ -46,22 +46,32 @@ helpviewer_keywords:
 
 ## -description
 
-This topic describes the **PROCESS_MITIGATION_USER_POINTER_AUTH_POLICY** structure.
+The **SIGNAL_REG_VALUE** structure represents a RAS (Reliability, Availability, and Serviceability) signal register entry that contains register name, MSR address, and value information.
 
 ## -struct-fields
 
 ### -field RegName
 
-Defines the **UINT8** member **RegName**.
+A **UINT8** array that contains the name of the RAS register. The maximum length is defined by `WCS_RAS_REGISTER_NAME_MAX_LENGTH`.
 
 ### -field MsrAddr
 
-Defines the **UINT32** member **MsrAddr**.
+A **UINT32** value that specifies the Model Specific Register (MSR) address for this RAS signal register.
 
 ### -field Value
 
-Defines the **UINT64** member **Value**.
+A **UINT64** value that contains the current value stored in the RAS signal register.
 
 ## -remarks
 
+This structure is used as part of the EFI ACPI RAS Signal Table for hardware error reporting and signaling mechanisms.
+
+It's used as an array element within the [**EFI_ACPI_RAS_SIGNAL_TABLE**](ns-ntddk-efi_acpi_ras_signal_table.md) structure. Each entry represents a specific RAS signal register that can be monitored for hardware error conditions.
+
+This structure is primarily used by the Windows Hardware Error Architecture (WHEA) subsystem for logging RAS table entries through ETW (Event Tracing for Windows) events. The structure allows the system to track and report on specific hardware registers that are relevant for reliability and error detection.
+
+When multiple **SIGNAL_REG_VALUE** entries need to be logged, they may be split across multiple ETW events if the total size exceeds the maximum event size limit.
+
 ## -see-also
+
+[**EFI_ACPI_RAS_SIGNAL_TABLE**](ns-ntddk-efi_acpi_ras_signal_table.md)
