@@ -7,26 +7,35 @@ This repository contains the source files for the Windows Driver Kit (WDK) Devic
 ### Purpose
 - Provides comprehensive API reference documentation for Windows device drivers
 - Covers functions, structures, enumerations, IOCTLs, callbacks, interfaces, and classes
-- Serves as the authoritative source for driver development APIs across hundreds of driver categories
+- Serves as the authoritative source for driver development APIs across hundreds of header files organized by technology areas
 
 ## Repository Structure
 
 ```
 windows-driver-docs-ddi/
 ├── wdk-ddi-src/content/          # Main content directory
-│   ├── {category}/               # Driver category directories (e.g., wificx, ntddk, etc.)
-│   │   ├── nf-{category}-*.md   # Function documentation
-│   │   ├── ns-{category}-*.md   # Structure documentation  
-│   │   ├── ne-{category}-*.md   # Enumeration documentation
-│   │   ├── ni-{category}-*.md   # IOCTL documentation
-│   │   ├── nc-{category}-*.md   # Callback documentation
-│   │   ├── nn-{category}-*.md   # Interface documentation
-│   │   ├── nl-{category}-*.md   # Class documentation
-│   │   └── index.yml            # Category index
+│   ├── {header}/                 # Header file directories (e.g., ntddk, wificx, etc.)
+│   │   ├── nf-{header}-*.md     # Function documentation
+│   │   ├── ns-{header}-*.md     # Structure documentation  
+│   │   ├── ne-{header}-*.md     # Enumeration documentation
+│   │   ├── ni-{header}-*.md     # IOCTL documentation
+│   │   ├── nc-{header}-*.md     # Callback documentation
+│   │   ├── nn-{header}-*.md     # Interface documentation
+│   │   ├── nl-{header}-*.md     # Class documentation
+│   │   └── index.yml            # Header index
+│   ├── _{technology}/           # Technology area directories (e.g., _audio, _kernel, etc.)
+│   │   ├── config.json          # Lists headers included in this technology
+│   │   └── index.md             # Technology area overview
 │   └── docfx.json               # Build configuration
 ├── CONTRIBUTING.md              # Contribution guidelines
 └── README.md                    # Repository information
 ```
+
+### Folder Organization
+- **Header directories** (no underscore): Folders like `ntddk`, `wificx`, `acxcircuit` correspond to header file names and contain the API documentation files
+- **Technology directories** (with underscore): Folders like `_audio`, `_kernel`, `_display` represent technology areas and contain a `config.json` that lists all headers belonging to that technology
+- Headers can appear in multiple technology areas but must appear in at least one
+- Each technology area groups related headers for organizational purposes
 
 ## File Naming Conventions
 
@@ -41,15 +50,15 @@ All documentation files follow a strict naming pattern using prefixes to indicat
 | `ni` | IOCTL | Input/Output Control codes | `ni-charging-ioctl_cad_disable_charging.md` |
 | `ns` | Structure | Data structures and unions | `ns-wificx-wifi_device_config.md` |
 | `nl` | Class | Classes (primarily for C++ APIs) | `nl-engextcpp-extremotedata.md` |
-| `nn` | Interface | COM interfaces and abstract base classes | `nn-{category}-{interface_name}.md` |
+| `nn` | Interface | COM interfaces and abstract base classes | `nn-{header}-{interface_name}.md` |
 | `nf` | Function | Functions and methods | `nf-wificx-wifideviceinitialize.md` |
 
 ### Naming Pattern
-Files should follow the pattern: `{prefix}-{category}-{api_name}.md`
+Files should follow the pattern: `{prefix}-{header}-{api_name}.md`
 
 Where:
 - `{prefix}` is one of the prefixes above
-- `{category}` matches the directory name
+- `{header}` matches the directory name
 - `{api_name}` is the lowercase, hyphenated version of the API name
 
 ## Content Structure
@@ -91,17 +100,14 @@ f1_keywords:
  - {header}/{API name}
 dev_langs:
  - c++
-ai-usage: {ai-assisted|ai-generated}
 ---
 ```
 
 ### Required AI Usage Metadata
-**IMPORTANT**: All articles created or revised using AI must include the `ai-usage` metadata attribute in the YAML frontmatter.
+**IMPORTANT**: When Copilot creates or modifies content, include the appropriate `ai-usage` metadata attribute in the YAML frontmatter:
 
-- `ai-assisted`: Content was created by a human author with the help of AI. A human author reviewed and revised the content as needed.
-- `ai-generated`: Content was created by AI. A human author may have reviewed and revised the content as needed.
-
-This metadata automatically adds a customer-facing AI disclosure to the published content.
+- When **creating a new file**: Add `ai-usage: ai-generated`
+- When **modifying an existing file**: Add `ai-usage: ai-assisted`
 
 ### Common Metadata Patterns
 
@@ -265,5 +271,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines, inc
 - Code review requirements  
 - Microsoft Contributor License Agreement (CLA)
 - Style guide adherence
-
-For questions or issues, create an issue in this repository or contact the Windows driver documentation team.
