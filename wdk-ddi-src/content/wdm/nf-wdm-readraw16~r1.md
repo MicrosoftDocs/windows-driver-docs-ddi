@@ -62,10 +62,6 @@ The **ReadRaw16** function performs a raw memory read operation on a 16-bit valu
 
 ## -see-also
 
-[ReadAcquire16](nf-wdm-readacquire16.md)
+[WriteRaw16](nf-wdm-writeraw16-r1.md)
 
-[ReadNoFence16](nf-wdm-readnofence16.md)
-
-[WriteRaw16](nf-wdm-writeraw16~r1.md)
-
-[ReadRaw](nf-wdm-readraw~r1.md)
+[ReadRaw](nf-wdm-readraw-r1.md)

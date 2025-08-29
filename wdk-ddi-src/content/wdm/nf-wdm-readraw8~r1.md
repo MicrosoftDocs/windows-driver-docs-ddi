@@ -62,10 +62,6 @@ The **ReadRaw8** function performs a raw memory read operation on an 8-bit value
 
 ## -see-also
 
-[ReadAcquire8](nf-wdm-readacquire8.md)
+[WriteRaw8](nf-wdm-writeraw8-r1.md)
 
-[ReadNoFence8](nf-wdm-readnofence8.md)
-
-[WriteRaw8](nf-wdm-writeraw8~r1.md)
-
-[ReadRaw](nf-wdm-readraw~r1.md)
+[ReadRaw](nf-wdm-readraw-r1.md)

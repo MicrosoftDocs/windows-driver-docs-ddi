@@ -62,6 +62,6 @@ The **WriteRaw8** function performs a raw memory write operation on an 8-bit val
 
 ## -see-also
 
-[ReadRaw8](nf-wdm-readraw8~r1.md)
+[ReadRaw8](nf-wdm-readraw8-r1.md)
 
-[WriteRaw](nf-wdm-writeraw~r1.md)
+[WriteRaw](nf-wdm-writeraw-r1.md)

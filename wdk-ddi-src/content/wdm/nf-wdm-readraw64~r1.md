@@ -62,10 +62,6 @@ The **ReadRaw64** function performs a raw memory read operation on a 64-bit valu
 
 ## -see-also
 
-[ReadAcquire64](nf-wdm-readacquire64.md)
+[WriteRaw64](nf-wdm-writeraw64-r1.md)
 
-[ReadNoFence64](nf-wdm-readnofence64.md)
-
-[WriteRaw64](nf-wdm-writeraw64~r1.md)
-
-[ReadRaw](nf-wdm-readraw~r1.md)
+[ReadRaw](nf-wdm-readraw-r1.md)

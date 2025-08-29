@@ -62,6 +62,6 @@ The **WriteRaw16** function performs a raw memory write operation on a 16-bit va
 
 ## -see-also
 
-[ReadRaw16](nf-wdm-readraw16~r1.md)
+[ReadRaw16](nf-wdm-readraw16-r1.md)
 
-[WriteRaw](nf-wdm-writeraw~r1.md)
+[WriteRaw](nf-wdm-writeraw-r1.md)

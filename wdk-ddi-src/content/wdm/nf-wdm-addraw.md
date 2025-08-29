@@ -72,6 +72,6 @@ This function is not atomic and should not be used in multithreaded scenarios wh
 
 [AddULongRaw](nf-wdm-addulongraw.md)
 
-[ReadRaw](nf-wdm-readraw~r1.md)
+[ReadRaw](nf-wdm-readraw-r1.md)
 
-[WriteRaw](nf-wdm-writeraw~r1.md)
+[WriteRaw](nf-wdm-writeraw-r1.md)

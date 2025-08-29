@@ -62,6 +62,6 @@ The **WriteRaw64** function performs a raw memory write operation on a 64-bit va
 
 ## -see-also
 
-[ReadRaw64](nf-wdm-readraw64~r1.md)
+[ReadRaw64](nf-wdm-readraw64-r1.md)
 
-[WriteRaw](nf-wdm-writeraw~r1.md)
+[WriteRaw](nf-wdm-writeraw-r1.md)

@@ -53,7 +53,7 @@ The **KeRaiseIrqlToDpcLevel** routine raises the hardware priority to IRQL = DIS
 
 ## -remarks
 
-Any caller of **KeRaiseIrqlToDpcLevel** should save the returned IRQL value. Every such caller must restore the original IRQL as quickly as possible by passing this returned IRQL in a subsequent call to [KeLowerIrql](nf-wdm-kelowerirql~r1.md).
+Any caller of **KeRaiseIrqlToDpcLevel** should save the returned IRQL value. Every such caller must restore the original IRQL as quickly as possible by passing this returned IRQL in a subsequent call to [KeLowerIrql](nf-wdm-kelowerirql-r1.md).
 
 Callers of **KeRaiseIrqlToDpcLevel** must be running at IRQL <= DISPATCH_LEVEL. Otherwise, a call to this routine causes a bug check.
 
@@ -61,7 +61,7 @@ Callers of **KeRaiseIrqlToDpcLevel** must be running at IRQL <= DISPATCH_LEVEL. 
 
 [KeGetCurrentIrql](nf-wdm-kegetcurrentirql.md)
 
-[KeLowerIrql](nf-wdm-kelowerirql~r1.md)
+[KeLowerIrql](nf-wdm-kelowerirql-r1.md)
 
 [KeRaiseIrql](nf-wdm-keraiseirql.md)
 
