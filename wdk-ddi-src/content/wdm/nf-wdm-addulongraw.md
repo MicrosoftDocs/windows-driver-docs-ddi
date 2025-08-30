@@ -73,7 +73,3 @@ This function is not atomic and should not be used in multithreaded scenarios wh
 [AddULong64Raw](nf-wdm-addulong64raw.md)
 
 [AddRaw64](nf-wdm-addraw64.md)
-
-[ReadULongRaw](nf-wdm-readulongraw.md)
-
-[WriteULongRaw](nf-wdm-writeulongraw.md)

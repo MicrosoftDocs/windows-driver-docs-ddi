@@ -73,7 +73,3 @@ This function shouldn't be used in multithreaded scenarios where multiple thread
 [AddULongRaw](nf-wdm-addulongraw.md)
 
 [AddRaw](nf-wdm-addraw.md)
-
-[ReadULong64Raw](nf-wdm-readulong64raw.md)
-
-[WriteULong64Raw](nf-wdm-writeulong64raw.md)
