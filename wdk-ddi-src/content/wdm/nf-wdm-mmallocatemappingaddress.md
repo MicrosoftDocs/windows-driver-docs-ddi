@@ -2,15 +2,12 @@
 UID: NF:wdm.MmAllocateMappingAddress
 title: MmAllocateMappingAddress function (wdm.h)
 description: The MmAllocateMappingAddress routine reserves a range of system virtual address space of the specified size.
-old-location: kernel\mmallocatemappingaddress.htm
 tech.root: kernel
-ms.date: 04/30/2018
-keywords: ["MmAllocateMappingAddress function"]
-ms.keywords: MmAllocateMappingAddress, MmAllocateMappingAddress routine [Kernel-Mode Driver Architecture], k106_3ef2863e-218c-4546-a934-152cbd0133e9.xml, kernel.mmallocatemappingaddress, wdm/MmAllocateMappingAddress
+ms.date: 08/29/2025
 req.header: wdm.h
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
 req.target-type: Universal
-req.target-min-winverclnt: Available in Windows XP and later versions of Windows.
+req.target-min-winverclnt: Windows XP
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -42,39 +39,34 @@ api_name:
 
 # MmAllocateMappingAddress function
 
-
 ## -description
 
-The <b>MmAllocateMappingAddress</b> routine reserves a range of system virtual address space of the specified size.
+The **MmAllocateMappingAddress** routine reserves a range of system virtual address space of the specified size.
 
 ## -parameters
 
 ### -param NumberOfBytes [in]
 
-
 Specifies the number of bytes to reserve.
 
 ### -param PoolTag [in]
 
-
-Specifies a four-character tag used to identify the buffer. Use a distinct <i>PoolTag</i> tag for each allocation code path. For a description of pool tags, see <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-exallocatepoolwithtag">ExAllocatePoolWithTag</a>.
+Specifies a four-character tag used to identify the buffer. Use a distinct **PoolTag** tag for each allocation code path. For a description of pool tags, see [**ExAllocatePoolWithTag**](nf-wdm-exallocatepoolwithtag.md).
 
 ## -returns
 
-<b>MmAllocateMappingAddress</b> returns a pointer to the beginning of the reserved memory buffer.
+**MmAllocateMappingAddress** returns a pointer to the beginning of the reserved memory buffer if the operation is successful; otherwise, it returns NULL.
 
 ## -remarks
 
-<b>MmAllocateMappingAddress</b> reserves a system virtual address range for the caller to use. No physical memory is allocated for the virtual address range and the virtual memory cannot be accessed until it is mapped by the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a> routine. The caller unmaps the reserved memory range by calling the <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a> routine. Finally, the caller can free the reserved range by calling <a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>.
+**MmAllocateMappingAddress** reserves a system virtual address range for the caller to use. No physical memory is allocated for the virtual address range and the virtual memory can't be accessed until it is mapped by the [**MmMapLockedPagesWithReservedMapping**](nf-wdm-mmmaplockedpageswithreservedmapping.md) routine. The caller unmaps the reserved memory range by calling the [**MmUnmapReservedMapping**](nf-wdm-mmunmapreservedmapping.md) routine. Finally, the caller can free the reserved range by calling [**MmFreeMappingAddress**](nf-wdm-mmfreemappingaddress.md).
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmfreemappingaddress">MmFreeMappingAddress</a>
+[**MmAllocateMappingAddressEx**](nf-wdm-mmallocatemappingaddressex.md)
 
+[**MmFreeMappingAddress**](nf-wdm-mmfreemappingaddress.md)
 
+[**MmMapLockedPagesWithReservedMapping**](nf-wdm-mmmaplockedpageswithreservedmapping.md)
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmmaplockedpageswithreservedmapping">MmMapLockedPagesWithReservedMapping</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-mmunmapreservedmapping">MmUnmapReservedMapping</a>
+[**MmUnmapReservedMapping**](nf-wdm-mmunmapreservedmapping.md)
