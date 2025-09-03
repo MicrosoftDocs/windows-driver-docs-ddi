@@ -61,18 +61,6 @@ The **WriteStructToUserHelper** function is a helper function that safely writes
 
 [in] The size, in bytes, of the data to write.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-NTSTATUS
-WriteStructToUserHelper (
-    _Out_ PVOID Destination,
-    _In_ const PVOID Source,
-    _In_ SIZE_T Length
-    );
-```
-
 ## -remarks
 
 This function is a helper function used internally by the user-mode accessor functions. It provides optimized writing of structures to user-mode memory based on the structure size.
