@@ -62,17 +62,6 @@ The **ReadULongPtrFromMode** function safely reads a ULONG_PTR value from memory
 | **KernelMode** | **Source** points to kernel-mode memory. The function performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Source** points to user-mode memory. The function raises an exception if **Source** doesn't point to user-mode memory; otherwise it performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-ULONG_PTR
-ReadULongPtrFromMode (
-    _In_ const volatile ULONG_PTR* Source,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -returns
 
 **ReadULongPtrFromMode** returns the ULONG_PTR value read from the specified memory address.

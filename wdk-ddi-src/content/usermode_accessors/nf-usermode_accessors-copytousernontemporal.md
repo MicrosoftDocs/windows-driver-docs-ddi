@@ -61,17 +61,6 @@ The **CopyToUserNonTemporal** function safely copies data from kernel memory to 
 
 [in] The number of bytes to copy.
 
-## -syntax
-
-```cpp
-VOID
-CopyToUserNonTemporal (
-    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
-    _In_reads_bytes_(Length) const VOID* Source,
-    _In_ SIZE_T Length
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to copy data from kernel memory to user-mode memory using non-temporal (streaming) instructions. This allows for flexible memory operations when kernel-mode code needs to transfer data to user-mode buffers while optimizing cache performance for large data transfers.

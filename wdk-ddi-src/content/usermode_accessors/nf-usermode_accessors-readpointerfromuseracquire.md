@@ -53,16 +53,6 @@ The **ReadPointerFromUserAcquire** function safely reads a PVOID value from user
 
 [in] A pointer to the user-mode memory location from which to read the PVOID value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-PVOID
-ReadPointerFromUserAcquire (
-    _In_ const volatile PVOID* Source
-    );
-```
-
 ## -returns
 
 **ReadPointerFromUserAcquire** returns the PVOID value read from the specified user-mode memory address.

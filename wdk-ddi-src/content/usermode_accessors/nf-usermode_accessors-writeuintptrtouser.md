@@ -57,17 +57,6 @@ The **WriteUIntPtrToUser** function safely writes a UINT_PTR value to user-mode 
 
 [in] The UINT_PTR value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeuintptrtouser (
-    _Out_ volatile UINT_PTR* Destination,
-    _In_ UINT_PTR Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a UINT_PTR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

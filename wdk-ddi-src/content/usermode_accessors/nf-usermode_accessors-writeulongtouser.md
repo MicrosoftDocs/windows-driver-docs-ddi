@@ -57,17 +57,6 @@ The **WriteULongToUser** function safely writes a ULONG value to user-mode memor
 
 [in] The ULONG value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeulongtouser (
-    _Out_ volatile ULONG* Destination,
-    _In_ ULONG Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a ULONG value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

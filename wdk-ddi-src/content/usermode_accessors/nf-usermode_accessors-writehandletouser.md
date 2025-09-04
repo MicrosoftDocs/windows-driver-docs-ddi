@@ -57,17 +57,6 @@ The **WriteHandleToUser** function safely writes a HANDLE value to user-mode mem
 
 [in] The HANDLE value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writehandletouser (
-    _Out_ volatile HANDLE* Destination,
-    _In_ HANDLE Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a HANDLE value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

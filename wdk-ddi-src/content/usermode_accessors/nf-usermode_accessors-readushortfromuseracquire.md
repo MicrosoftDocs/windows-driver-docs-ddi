@@ -53,16 +53,6 @@ The **ReadUShortFromUserAcquire** function safely reads a USHORT value from user
 
 [in] A pointer to the user-mode memory location from which to read the USHORT value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-USHORT
-ReadUShortFromUserAcquire (
-    _In_ const volatile USHORT* Source
-    );
-```
-
 ## -returns
 
 **ReadUShortFromUserAcquire** returns the USHORT value read from the specified user-mode memory address.

@@ -57,17 +57,6 @@ The **WriteUInt32ToUser** function safely writes a UINT32 value to user-mode mem
 
 [in] The UINT32 value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeuint32touser (
-    _Out_ volatile UINT32* Destination,
-    _In_ UINT32 Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a UINT32 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

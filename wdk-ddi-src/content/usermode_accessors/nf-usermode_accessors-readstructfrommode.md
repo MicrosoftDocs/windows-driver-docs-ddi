@@ -66,19 +66,6 @@ The **ReadStructFromMode** macro safely reads a structure from memory based on t
 | **KernelMode** | **Source** points to kernel-mode memory. The macro performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Source** points to user-mode memory. The macro raises an exception if **Source** doesn't point to user-mode memory; otherwise it performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-NTSTATUS
-ReadStructFromMode (
-    _Out_ PVOID Destination,
-    _In_ const PVOID Source,
-    _In_ SIZE_T Length,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -remarks
 
 This macro provides a safe way to read a structure from memory, with extra safety checks when accessing user-mode memory. It ensures that the provided address is valid and accessible based on the specified processor mode.

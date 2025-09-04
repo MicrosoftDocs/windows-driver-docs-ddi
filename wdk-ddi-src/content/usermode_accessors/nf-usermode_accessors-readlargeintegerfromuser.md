@@ -53,16 +53,6 @@ The **ReadLargeIntegerFromUser** function safely reads a LARGE_INTEGER value fro
 
 [in] A pointer to the user-mode memory location from which to read the LARGE_INTEGER value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-LARGE_INTEGER
-ReadLargeIntegerFromUser (
-    _In_ const volatile LARGE_INTEGER* Source
-    );
-```
-
 ## -returns
 
 **ReadLargeIntegerFromUser** returns the LARGE_INTEGER value read from the specified user-mode memory address.

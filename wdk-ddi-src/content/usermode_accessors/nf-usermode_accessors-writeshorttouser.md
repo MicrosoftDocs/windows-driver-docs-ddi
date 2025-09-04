@@ -57,17 +57,6 @@ The **WriteShortToUser** function safely writes a SHORT value to user-mode memor
 
 [in] The SHORT value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeshorttouser (
-    _Out_ volatile SHORT* Destination,
-    _In_ SHORT Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a SHORT value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

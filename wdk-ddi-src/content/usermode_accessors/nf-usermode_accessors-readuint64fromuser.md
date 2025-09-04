@@ -53,16 +53,6 @@ The **ReadUInt64FromUser** function safely reads a UINT64 value from user-mode m
 
 [in] A pointer to the user-mode memory location from which to read the UINT64 value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-UINT64
-ReadUInt64FromUser (
-    _In_ const volatile UINT64* Source
-    );
-```
-
 ## -returns
 
 **ReadUInt64FromUser** returns the UINT64 value read from the specified user-mode memory address.

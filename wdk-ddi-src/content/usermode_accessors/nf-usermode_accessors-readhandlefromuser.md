@@ -53,16 +53,6 @@ The **ReadHandleFromUser** function safely reads a HANDLE value from user-mode m
 
 [in] A pointer to the user-mode memory location from which to read the HANDLE value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-HANDLE
-ReadHandleFromUser (
-    _In_ const volatile HANDLE* Source
-    );
-```
-
 ## -returns
 
 **ReadHandleFromUser** returns the HANDLE value read from the specified user-mode memory address.

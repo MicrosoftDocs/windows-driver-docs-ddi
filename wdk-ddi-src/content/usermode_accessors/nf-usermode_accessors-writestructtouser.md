@@ -57,18 +57,6 @@ The **WriteStructToUser** macro safely writes a structure to user-mode memory.
 
 [in] A pointer to the structure to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-NTSTATUS
-WriteStructToUser (
-    _Out_ PVOID Destination,
-    _In_ const PVOID Source,
-    _In_ SIZE_T Length
-    );
-```
-
 ## -remarks
 
 This macro provides a safe way to write a structure to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

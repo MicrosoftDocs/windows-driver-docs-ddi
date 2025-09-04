@@ -57,17 +57,6 @@ The **WriteInt32ToUserRelease** function safely writes a INT32 value to user-mod
 
 [in] The INT32 value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeint32touserrelease (
-    _Out_ volatile INT32* Destination,
-    _In_ INT32 Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a INT32 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

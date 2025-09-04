@@ -61,17 +61,6 @@ The **CopyToUserFromUser** function safely copies data from user-mode memory to 
 
 [in] The number of bytes to copy.
 
-## -syntax
-
-```cpp
-VOID
-CopyToUserFromUser (
-    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
-    _In_reads_bytes_(Length) volatile const VOID* Source,
-    _In_ SIZE_T Length
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to copy data between user-mode memory locations. This allows for flexible memory operations between different user-mode buffers when kernel-mode code needs to facilitate data transfer between user-mode locations.

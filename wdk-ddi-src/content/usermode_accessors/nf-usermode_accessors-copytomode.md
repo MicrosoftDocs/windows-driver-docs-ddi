@@ -70,18 +70,6 @@ The **CopyToMode** function safely copies data from kernel memory to either kern
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct memory copy with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a copy to the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 
-## -syntax
-
-```cpp
-VOID
-CopyToMode (
-    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
-    _In_reads_bytes_(Length) const VOID* Source,
-    _In_ SIZE_T Length,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to copy data from kernel memory to either kernel or user-mode memory, with the copy mechanism determined by the specified processor mode. This allows for flexible memory operations that can adapt to different execution contexts.

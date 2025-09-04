@@ -53,16 +53,6 @@ The **ReadULongPtrFromUserAcquire** function safely reads a ULONG_PTR value from
 
 [in] A pointer to the user-mode memory location from which to read the ULONG_PTR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-ULONG_PTR
-ReadULongPtrFromUserAcquire (
-    _In_ const volatile ULONG_PTR* Source
-    );
-```
-
 ## -returns
 
 **ReadULongPtrFromUserAcquire** returns the ULONG_PTR value read from the specified user-mode memory address.

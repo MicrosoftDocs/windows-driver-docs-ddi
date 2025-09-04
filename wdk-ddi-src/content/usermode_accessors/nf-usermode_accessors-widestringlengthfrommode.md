@@ -62,18 +62,6 @@ The **WideStringLengthFromMode** function calculates the length of a null-termin
 | **KernelMode** | **String** points to kernel-mode memory. The function performs a direct string length calculation. See Remarks for more details. |
 | **UserMode** | **String** points to user-mode memory. The function raises an exception if **String** doesn't point to user-mode memory; otherwise it performs a safe string length calculation at the specified address. See Remarks for more details. |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-SIZE_T
-WideStringLengthFromMode (
-    _In_ PCWSTR String,
-    _In_ SIZE_T MaxLength,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -returns
 
 The function returns the length of the string in wide characters, not including the terminating null character.

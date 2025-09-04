@@ -53,16 +53,6 @@ The **ReadSSizeTFromUserAcquire** function safely reads a SSIZE_T value from use
 
 [in] A pointer to the user-mode memory location from which to read the SSIZE_T value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-SSIZE_T
-ReadSSizeTFromUserAcquire (
-    _In_ const volatile SSIZE_T* Source
-    );
-```
-
 ## -returns
 
 **ReadSSizeTFromUserAcquire** returns the SSIZE_T value read from the specified user-mode memory address.

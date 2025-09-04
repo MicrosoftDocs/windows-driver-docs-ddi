@@ -62,17 +62,6 @@ The **ReadInt16FromMode** function safely reads an INT16 value from memory based
 | **KernelMode** | **Source** points to kernel-mode memory. The function performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Source** points to user-mode memory. The function raises an exception if **Source** doesn't point to user-mode memory; otherwise it performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-INT16
-ReadInt16FromMode (
-    _In_ const volatile INT16* Source,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -returns
 
 **ReadInt16FromMode** returns the INT16 value read from the specified memory address.

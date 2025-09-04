@@ -61,17 +61,6 @@ The **MoveToUserFromUser** function safely moves data from user-mode memory to u
 
 [in] The number of bytes to move.
 
-## -syntax
-
-```cpp
-VOID
-MoveToUserFromUser (
-    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
-    _In_reads_bytes_(Length) volatile const VOID* Source,
-    _In_ SIZE_T Length
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to move data from user-mode memory to user-mode memory with support for overlapping memory regions.

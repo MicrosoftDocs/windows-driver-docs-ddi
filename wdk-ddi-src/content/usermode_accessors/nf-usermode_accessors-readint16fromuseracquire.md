@@ -53,16 +53,6 @@ The **ReadInt16FromUserAcquire** function safely reads an INT16 value from user-
 
 [in] A pointer to the user-mode memory location from which to read the INT16 value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-INT16
-ReadInt16FromUserAcquire (
-    _In_ const volatile INT16* Source
-    );
-```
-
 ## -returns
 
 **ReadInt16FromUserAcquire** returns the INT16 value read from the specified user-mode memory address.

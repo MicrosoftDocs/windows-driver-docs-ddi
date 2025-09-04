@@ -62,17 +62,6 @@ The **ReadULargeIntegerFromMode** function safely reads a ULARGE_INTEGER value f
 | **KernelMode** | **Source** points to kernel-mode memory. The function performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Source** points to user-mode memory. The function raises an exception if **Source** doesn't point to user-mode memory; otherwise it performs a read from the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-ULARGE_INTEGER
-ReadULargeIntegerFromMode (
-    _In_ const volatile ULARGE_INTEGER* Source,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -returns
 
 **ReadULargeIntegerFromMode** returns the ULARGE_INTEGER value read from the specified memory address.
