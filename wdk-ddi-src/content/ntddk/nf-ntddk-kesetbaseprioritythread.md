@@ -80,8 +80,8 @@ The new base priority is restricted to the priority class of the given thread's 
 
 ## -see-also
 
-[**KeGetCurrentThread**](nf-wdm-kegetcurrentthread.md)
+[**KeGetCurrentThread**](../wdm/nf-wdm-kegetcurrentthread.md)
 
-[**KeQueryPriorityThread**](nf-wdm-kequeryprioritythread.md)
+[**KeQueryPriorityThread**](../wdm/nf-wdm-kequeryprioritythread.md)
 
-[**KeSetPriorityThread**](nf-wdm-kesetprioritythread.md)
+[**KeSetPriorityThread**](../wdm/nf-wdm-kesetprioritythread.md)
