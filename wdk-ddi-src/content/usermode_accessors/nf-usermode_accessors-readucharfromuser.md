@@ -53,16 +53,6 @@ The **ReadUCharFromUser** function safely reads a UCHAR value from user-mode mem
 
 [in] A pointer to the user-mode memory location from which to read the UCHAR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-UCHAR
-ReadUCharFromUser (
-    _In_ const volatile UCHAR* Source
-    );
-```
-
 ## -returns
 
 **ReadUCharFromUser** returns the UCHAR value read from the specified user-mode memory address.

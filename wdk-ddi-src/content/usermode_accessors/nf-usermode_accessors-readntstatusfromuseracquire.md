@@ -53,16 +53,6 @@ The **ReadNtStatusFromUserAcquire** function safely reads an NTSTATUS value from
 
 [in] A pointer to the user-mode memory location from which to read the NTSTATUS value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-NTSTATUS
-ReadNtStatusFromUserAcquire (
-    _In_ const volatile NTSTATUS* Source
-    );
-```
-
 ## -returns
 
 **ReadNtStatusFromUserAcquire** returns the NTSTATUS value read from the specified user-mode memory address.

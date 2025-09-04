@@ -57,17 +57,6 @@ The **WriteInt64ToUser** function safely writes an INT64 value to user-mode memo
 
 [in] The INT64 value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeint64touser (
-    _Out_ volatile INT64* Destination,
-    _In_ INT64 Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write an INT64 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

@@ -57,16 +57,6 @@ The **WriteBooleanToUser** function safely writes a BOOLEAN value to user-mode m
 
 [in] The BOOLEAN value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-VOID
-WriteBooleanToUser (
-    _Out_ _Deref_out_range_(==, Value) volatile BOOLEAN* Destination,
-    _In_ BOOLEAN Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a BOOLEAN value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

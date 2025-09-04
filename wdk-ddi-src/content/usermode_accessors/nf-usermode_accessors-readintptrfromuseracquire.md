@@ -53,16 +53,6 @@ The **ReadIntPtrFromUserAcquire** function safely reads an INT_PTR value from us
 
 [in] A pointer to the user-mode memory location from which to read the INT_PTR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-INT_PTR
-ReadIntPtrFromUserAcquire (
-    _In_ const volatile INT_PTR* Source
-    );
-```
-
 ## -returns
 
 **ReadIntPtrFromUserAcquire** returns the INT_PTR value read from the specified user-mode memory address.

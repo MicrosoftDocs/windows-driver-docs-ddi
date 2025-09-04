@@ -61,18 +61,6 @@ The **SetUserMemory** function fills a user-mode memory region with a specified 
 
 [in] The number of bytes to fill with the **Fill** value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-SetUserMemory (
-    _Out_ PVOID Destination,
-    _In_ UCHAR Value,
-    _In_ SIZE_T Length
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to fill a user-mode memory region with a specified byte value. This allows for flexible memory operations when kernel-mode code needs to initialize user-mode memory buffers.

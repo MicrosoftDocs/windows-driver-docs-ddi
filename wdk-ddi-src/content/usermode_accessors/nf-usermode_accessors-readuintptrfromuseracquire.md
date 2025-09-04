@@ -53,16 +53,6 @@ The **ReadUIntPtrFromUserAcquire** function safely reads a UINT_PTR value from u
 
 [in] A pointer to the user-mode memory location from which to read the UINT_PTR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-UINT_PTR
-ReadUIntPtrFromUserAcquire (
-    _In_ const volatile UINT_PTR* Source
-    );
-```
-
 ## -returns
 
 **ReadUIntPtrFromUserAcquire** returns the UINT_PTR value read from the specified user-mode memory address.

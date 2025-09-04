@@ -53,16 +53,6 @@ The **ReadULong64FromUser** function safely reads a ULONG64 value from user-mode
 
 [in] A pointer to the user-mode memory location from which to read the ULONG64 value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-ULONG64
-ReadULong64FromUser (
-    _In_ const volatile ULONG64* Source
-    );
-```
-
 ## -returns
 
 **ReadULong64FromUser** returns the ULONG64 value read from the specified user-mode memory address.

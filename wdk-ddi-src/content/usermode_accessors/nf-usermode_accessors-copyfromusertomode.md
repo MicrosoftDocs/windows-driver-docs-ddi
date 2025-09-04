@@ -70,18 +70,6 @@ The **CopyFromUserToMode** function safely copies data from user-mode memory to 
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a copy from user-mode to kernel memory with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The function performs a copy from user-mode to user-mode memory with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 
-## -syntax
-
-```cpp
-VOID
-CopyFromUserToMode (
-    _Out_writes_bytes_all_(Length) volatile VOID* Destination,
-    _In_reads_bytes_(Length) volatile const VOID* Source,
-    _In_ SIZE_T Length,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to copy data from user-mode memory to either kernel or user-mode memory, with the copy mechanism determined by the specified processor mode. This allows for flexible memory operations that can adapt to different execution contexts.

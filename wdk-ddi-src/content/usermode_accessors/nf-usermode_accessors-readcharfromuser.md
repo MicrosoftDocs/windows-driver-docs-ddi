@@ -53,16 +53,6 @@ The **ReadCharFromUser** function safely reads a CHAR value from user-mode memor
 
 [in] A pointer to the user-mode memory location from which to read the CHAR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-CHAR
-ReadCharFromUser (
-    _In_ const volatile CHAR* Source
-    );
-```
-
 ## -returns
 
 **ReadCharFromUser** returns the CHAR value read from the specified user-mode memory address.

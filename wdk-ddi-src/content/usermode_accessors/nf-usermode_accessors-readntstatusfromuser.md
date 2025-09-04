@@ -53,16 +53,6 @@ The **ReadNtStatusFromUser** function safely reads an NTSTATUS value from user-m
 
 [in] A pointer to the user-mode memory location from which to read the NTSTATUS value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-NTSTATUS
-ReadNtStatusFromUser (
-    _In_ const volatile NTSTATUS* Source
-    );
-```
-
 ## -returns
 
 **ReadNtStatusFromUser** returns the NTSTATUS value read from the specified user-mode memory address.

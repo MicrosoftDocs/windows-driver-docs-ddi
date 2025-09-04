@@ -57,17 +57,6 @@ The **WriteLongPtrToUser** function safely writes a LONG_PTR value to user-mode 
 
 [in] The LONG_PTR value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writelongptrtouser (
-    _Out_ volatile LONG* Destination,
-    _In_ LONG Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a LONG_PTR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

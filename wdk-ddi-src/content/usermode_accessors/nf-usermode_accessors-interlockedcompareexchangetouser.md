@@ -61,18 +61,6 @@ The **InterlockedCompareExchangeToUser** function performs an atomic compare-and
 
 [in] The value to compare to **Destination**.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-LONG
-InterlockedCompareExchangeToUser (
-    _Inout_ LONG volatile *Destination,
-    _In_ LONG ExChange,
-    _In_ LONG Comperand
-    );
-```
-
 ## -returns
 
 The function returns the initial value of the **Destination** parameter.

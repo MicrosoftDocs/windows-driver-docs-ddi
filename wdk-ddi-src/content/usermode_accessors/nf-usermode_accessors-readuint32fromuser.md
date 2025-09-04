@@ -53,16 +53,6 @@ The **ReadUInt32FromUser** function safely reads a UINT32 value from user-mode m
 
 [in] A pointer to the user-mode memory location from which to read the UINT32 value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-UINT32
-ReadUInt32FromUser (
-    _In_ const volatile UINT32* Source
-    );
-```
-
 ## -returns
 
 **ReadUInt32FromUser** returns the UINT32 value read from the specified user-mode memory address.

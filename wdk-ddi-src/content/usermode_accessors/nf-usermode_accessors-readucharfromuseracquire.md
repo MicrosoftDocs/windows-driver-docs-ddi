@@ -53,16 +53,6 @@ The **ReadUCharFromUserAcquire** function safely reads a UCHAR value from user-m
 
 [in] A pointer to the user-mode memory location from which to read the UCHAR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-UCHAR
-ReadUCharFromUserAcquire (
-    _In_ const volatile UCHAR* Source
-    );
-```
-
 ## -returns
 
 **ReadUCharFromUserAcquire** returns the UCHAR value read from the specified user-mode memory address.

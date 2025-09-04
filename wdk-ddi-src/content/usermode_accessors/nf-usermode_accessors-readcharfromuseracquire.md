@@ -53,16 +53,6 @@ The **ReadCharFromUserAcquire** function safely reads a CHAR value from user-mod
 
 [in] A pointer to the user-mode memory location from which to read the CHAR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-CHAR
-ReadCharFromUserAcquire (
-    _In_ const volatile CHAR* Source
-    );
-```
-
 ## -returns
 
 **ReadCharFromUserAcquire** returns the CHAR value read from the specified user-mode memory address.

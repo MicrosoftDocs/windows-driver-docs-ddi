@@ -53,16 +53,6 @@ The **ReadWCharFromUserAcquire** function safely reads a WCHAR value from user-m
 
 [in] A pointer to the user-mode memory location from which to read the WCHAR value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-WCHAR
-ReadWCharFromUserAcquire (
-    _In_ const volatile WCHAR* Source
-    );
-```
-
 ## -returns
 
 **ReadWCharFromUserAcquire** returns the WCHAR value read from the specified user-mode memory address.

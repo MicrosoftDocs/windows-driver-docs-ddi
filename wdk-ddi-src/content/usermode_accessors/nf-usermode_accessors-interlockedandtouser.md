@@ -57,17 +57,6 @@ The **InterlockedAndToUser** function performs an atomic AND operation on a 32-b
 
 [in] The second operand.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-LONG
-InterlockedAndToUser (
-    _Inout_ LONG volatile *Destination,
-    _In_ LONG Value
-    );
-```
-
 ## -returns
 
 The function returns the original value of the **Destination** parameter.

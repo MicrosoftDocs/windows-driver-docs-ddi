@@ -57,17 +57,6 @@ The **WritePointerToUser** function safely writes a PVOID value to user-mode mem
 
 [in] The PVOID value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writepointertouser (
-    _Out_ volatile PVOID* Destination,
-    _In_ PVOID Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a PVOID value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

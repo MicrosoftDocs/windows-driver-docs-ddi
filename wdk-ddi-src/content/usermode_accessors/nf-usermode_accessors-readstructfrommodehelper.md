@@ -65,19 +65,6 @@ The **ReadStructFromModeHelper** function is a helper function that safely reads
 
 [in] The processor mode that determines how the memory access is performed.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-NTSTATUS
-ReadStructFromModeHelper (
-    _Out_ PVOID Destination,
-    _In_ const PVOID Source,
-    _In_ SIZE_T Length,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -remarks
 
 This function is a helper function used internally by the user-mode accessor functions. It provides mode-aware reading of structures from memory, with extra safety checks when accessing user-mode memory.

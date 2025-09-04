@@ -53,16 +53,6 @@ The **ReadPointerFromUser** function safely reads a PVOID value from user-mode m
 
 [in] A pointer to the user-mode memory location from which to read the PVOID value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-PVOID
-ReadPointerFromUser (
-    _In_ const volatile PVOID* Source
-    );
-```
-
 ## -returns
 
 **ReadPointerFromUser** returns the PVOID value read from the specified user-mode memory address.
