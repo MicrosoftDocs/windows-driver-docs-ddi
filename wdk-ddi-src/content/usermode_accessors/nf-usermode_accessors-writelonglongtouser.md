@@ -57,17 +57,6 @@ The **WriteLonglongToUser** function safely writes a LONGLONG value to user-mode
 
 [in] The LONGLONG value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writelonglongtouser (
-    _Out_ volatile LONG* Destination,
-    _In_ LONG Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a LONGLONG value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

@@ -53,6 +53,6 @@ Specifies the IRQL that was returned from <a href="/windows-hardware/drivers/ddi
 
 ## -remarks
 
-This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql~r1.md) function.
+This function is same as the [**KeLowerIrql**](nf-wdm-kelowerirql.md) function.
 
 ## -see-also

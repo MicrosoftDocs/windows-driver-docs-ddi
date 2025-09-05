@@ -57,17 +57,6 @@ The **WriteUInt8ToUserRelease** function safely writes a UINT8 value to user-mod
 
 [in] The UINT8 value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeuint8touserrelease (
-    _Out_ volatile UINT8* Destination,
-    _In_ UINT8 Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a UINT8 value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

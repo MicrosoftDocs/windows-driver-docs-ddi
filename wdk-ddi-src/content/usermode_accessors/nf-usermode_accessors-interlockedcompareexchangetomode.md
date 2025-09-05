@@ -70,19 +70,6 @@ The **InterlockedCompareExchangeToMode** function performs an atomic compare-and
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct atomic compare-and-exchange operation. See Remarks for more details. |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs an atomic compare-and-exchange operation at the specified address. See Remarks for more details. |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-LONG
-InterlockedCompareExchangeToMode (
-    _Inout_ LONG volatile *Destination,
-    _In_ LONG ExChange,
-    _In_ LONG Comperand,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -returns
 
 The function returns the initial value of the **Destination** parameter.

@@ -57,17 +57,6 @@ The **InterlockedOrToUser** function performs an atomic OR operation on a 32-bit
 
 [in] The second operand.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-LONG
-InterlockedOrToUser (
-    _Inout_ LONG volatile *Destination,
-    _In_ LONG Value
-    );
-```
-
 ## -returns
 
 The function returns the original value of the **Destination** parameter.

@@ -57,17 +57,6 @@ The **WriteUCharToUser** function safely writes a UCHAR value to user-mode memor
 
 [in] The UCHAR value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeuchartouser (
-    _Out_ volatile UCHAR* Destination,
-    _In_ UCHAR Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a UCHAR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

@@ -57,17 +57,6 @@ The **WriteSSizeTToUser** function safely writes a SSIZE_T value to user-mode me
 
 [in] The SSIZE_T value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writessizettouser (
-    _Out_ volatile SSIZE_T* Destination,
-    _In_ SSIZE_T Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a SSIZE_T value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.

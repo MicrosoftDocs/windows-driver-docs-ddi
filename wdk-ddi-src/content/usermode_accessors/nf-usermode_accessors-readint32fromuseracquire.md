@@ -53,16 +53,6 @@ The **ReadInt32FromUserAcquire** function safely reads an INT32 value from user-
 
 [in] A pointer to the user-mode memory location from which to read the INT32 value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-INT32
-ReadInt32FromUserAcquire (
-    _In_ const volatile INT32* Source
-    );
-```
-
 ## -returns
 
 **ReadInt32FromUserAcquire** returns the INT32 value read from the specified user-mode memory address.

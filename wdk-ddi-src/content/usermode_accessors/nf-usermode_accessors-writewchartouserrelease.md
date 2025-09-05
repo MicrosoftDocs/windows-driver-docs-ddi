@@ -57,17 +57,6 @@ The **WriteWCharToUserRelease** function safely writes a WCHAR value to user-mod
 
 [in] The WCHAR value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-WriteWCharToUserRelease (
-    _Out_ volatile WCHAR* Destination,
-    _In_ WCHAR Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a WCHAR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

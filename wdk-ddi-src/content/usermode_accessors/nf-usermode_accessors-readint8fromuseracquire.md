@@ -53,16 +53,6 @@ The **ReadInt8FromUserAcquire** function safely reads an INT8 value from user-mo
 
 [in] A pointer to the user-mode memory location from which to read the INT8 value.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-INT8
-ReadInt8FromUserAcquire (
-    _In_ const volatile INT8* Source
-    );
-```
-
 ## -returns
 
 **ReadInt8FromUserAcquire** returns the INT8 value read from the specified user-mode memory address.

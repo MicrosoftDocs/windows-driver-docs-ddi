@@ -66,18 +66,6 @@ The **ZeroModeMemory** function fills a memory region with zeros, based on the s
 | **KernelMode** | **Destination** points to kernel-mode memory. The function performs a direct memory zero operation with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 | **UserMode** | **Destination** points to user-mode memory. The function raises an exception if **Destination** doesn't point to user-mode memory; otherwise it performs a zero operation at the specified address with [memory_order_relaxed semantics](/cpp/standard-library/atomic-enums?view=msvc-170#memory_order_enum). |
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-ZeroModeMemory (
-    _Out_ PVOID Destination,
-    _In_ SIZE_T Length,
-    _In_ KPROCESSOR_MODE Mode
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to zero a memory region, with the zero mechanism determined by the specified processor mode. This allows for flexible memory operations that can adapt to different execution contexts while initializing memory blocks to zero.

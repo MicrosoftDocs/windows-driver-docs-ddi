@@ -57,17 +57,6 @@ The **WriteUIntPtrToUserRelease** function safely writes a UINT_PTR value to use
 
 [in] The UINT_PTR value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writeuintptrtouserrelease (
-    _Out_ volatile UINT_PTR* Destination,
-    _In_ UINT_PTR Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a UINT_PTR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it. The [release semantics](/windows-hardware/drivers/kernel/acquire-and-release-semantics) ensure that preceding memory operations can't be reordered after this write operation.

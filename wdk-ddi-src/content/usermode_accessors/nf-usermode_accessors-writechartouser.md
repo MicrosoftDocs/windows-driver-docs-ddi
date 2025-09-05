@@ -57,17 +57,6 @@ The **WriteCharToUser** function safely writes a CHAR value to user-mode memory.
 
 [in] The CHAR value to write to the destination memory location.
 
-## -syntax
-
-```cpp
-FORCEINLINE
-VOID
-Writechartouser (
-    _Out_ volatile CHAR* Destination,
-    _In_ CHAR Value
-    );
-```
-
 ## -remarks
 
 This function provides a safe way to write a CHAR value to user-mode memory. It ensures the provided address is a user-mode address before writing to it.
