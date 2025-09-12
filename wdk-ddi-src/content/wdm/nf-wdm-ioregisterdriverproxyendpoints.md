@@ -2,7 +2,7 @@
 UID: NF:wdm.IoRegisterDriverProxyEndpoints
 tech.root: kernel
 title: IoRegisterDriverProxyEndpoints
-ms.date: 09/05/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Registers endpoint functions to a DriverProxy extension for hot-swappable functionality.
 prerelease: false

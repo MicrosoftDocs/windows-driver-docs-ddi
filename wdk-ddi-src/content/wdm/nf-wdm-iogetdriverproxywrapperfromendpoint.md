@@ -2,7 +2,7 @@
 UID: NF:wdm.IoGetDriverProxyWrapperFromEndpoint
 tech.root: kernel
 title: IoGetDriverProxyWrapperFromEndpoint
-ms.date: 09/09/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Gets the wrapper for an endpoint function using the endpoint function pointer (macro).
 prerelease: false

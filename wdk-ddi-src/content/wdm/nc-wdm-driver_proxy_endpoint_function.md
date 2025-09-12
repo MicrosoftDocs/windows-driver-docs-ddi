@@ -2,7 +2,7 @@
 UID: NC:wdm.DRIVER_PROXY_ENDPOINT_FUNCTION
 tech.root: kernel
 title: DRIVER_PROXY_ENDPOINT_FUNCTION
-ms.date: 09/09/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Defines the function signature for a hot-swappable endpoint function in the DriverProxy system.
 prerelease: false

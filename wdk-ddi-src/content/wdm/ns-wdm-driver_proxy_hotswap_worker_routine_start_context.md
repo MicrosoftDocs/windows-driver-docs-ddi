@@ -2,7 +2,7 @@
 UID: NS:wdm._DRIVER_PROXY_HOTSWAP_WORKER_ROUTINE_START_CONTEXT
 tech.root: kernel
 title: DRIVER_PROXY_HOTSWAP_WORKER_ROUTINE_START_CONTEXT
-ms.date: 09/09/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Contains parameters for starting a hot-swappable worker thread.
 prerelease: false
@@ -50,23 +50,6 @@ ai-usage: ai-assisted
 
 The **DRIVER_PROXY_HOTSWAP_WORKER_ROUTINE_START_CONTEXT** structure contains the parameters needed to start a hot-swappable worker thread using [**IoDriverProxyCreateHotSwappableWorkerThread**](nf-wdm-iodriverproxycreatehotswappableworkerthread.md).
 
-```cpp
-typedef struct _DRIVER_PROXY_HOTSWAP_WORKER_ROUTINE_START_CONTEXT {
-    PDRIVER_PROXY_HOTSWAP_WORKER_ROUTINE WorkerRoutine;
-    PVOID Context;
-    WAIT_TYPE WaitType;
-    KWAIT_REASON WaitReason;
-    KPROCESSOR_MODE WaitMode;
-    BOOLEAN Altertable;
-    BOOLEAN HasTimeout;
-    LARGE_INTEGER Timeout;
-    ULONG EventCount;
-    PKEVENT Events[ANYSIZE_ARRAY];
-} DRIVER_PROXY_HOTSWAP_WORKER_ROUTINE_START_CONTEXT, *PDRIVER_PROXY_HOTSWAP_WORKER_ROUTINE_START_CONTEXT;
-```
-
-This structure configures how the worker thread will wait for kernel objects and defines the callback routine that will be invoked when the wait completes.
-
 ## -struct-fields
 
 ### -field WorkerRoutine
@@ -79,33 +62,31 @@ A pointer to driver-defined context information that will be passed to the **Wor
 
 ### -field WaitType
 
-Specifies the type of wait operation to perform. This is a **WAIT_TYPE** enumeration value:
-
-- **WaitAll** - Wait for all specified events to be signaled
-- **WaitAny** - Wait for any of the specified events to be signaled
+The type of wait operation to perform. Specify either **WaitAll**, indicating that all of the specified objects must attain a signaled state before the wait is satisfied; or **WaitAny**, indicating that any one of the objects must attain a signaled state before the wait is satisfied.
 
 ### -field WaitReason
 
-Specifies the reason for the wait operation. This is a **KWAIT_REASON** enumeration value that indicates the purpose of the wait, such as **Executive**, **UserRequest**, or other system-defined reasons.
+The reason for the wait. Drivers should set this value to **Executive** or, if the driver is doing work on behalf of a user and is running in the context of a user thread, to **UserRequest**.
 
 ### -field WaitMode
 
-Specifies the processor mode for the wait operation. This is a **KPROCESSOR_MODE** enumeration value:
-
-- **KernelMode** - Wait in kernel mode
-- **UserMode** - Wait in user mode
+Whether the caller waits in **KernelMode** or **UserMode**. Intermediate and lowest-level drivers should specify **KernelMode**. If the set of objects waited on includes a mutex, the caller must specify **KernelMode**.
 
 ### -field Altertable
 
-A Boolean value that specifies whether the wait is alertable. If **TRUE**, the wait can be interrupted by APCs (Asynchronous Procedure Calls). If **FALSE**, the wait is not alertable.
+A Boolean value that indicates whether the thread can be alerted while it is in the waiting state.
 
 ### -field HasTimeout
 
-A Boolean value that indicates whether a timeout value is specified. If **TRUE**, the **Timeout** field contains a valid timeout value. If **FALSE**, the wait operation will wait indefinitely.
+A Boolean value that indicates whether a timeout value is specified. If TRUE, the **Timeout** field contains a valid timeout value. If FALSE, the wait operation will wait indefinitely.
 
 ### -field Timeout
 
-A **LARGE_INTEGER** value that specifies the timeout for the wait operation, in 100-nanosecond intervals. This field is only used if **HasTimeout** is **TRUE**. A negative value indicates a relative timeout, while a positive value indicates an absolute timeout.
+A pointer to a time-out value that specifies the absolute or relative time, in 100-nanosecond units, at which the wait is to be completed.
+
+A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
+
+If *Timeout = 0, the routine returns without waiting. If the caller supplies a NULL pointer, the routine waits indefinitely until any or all of the dispatcher objects are set to the signaled state.
 
 ### -field EventCount
 
@@ -117,16 +98,11 @@ An array of pointers to **KEVENT** objects that the worker thread will wait on. 
 
 ## -remarks
 
+This structure configures how the worker thread will wait for kernel objects and defines the callback routine that will be invoked when the wait completes.
+
 This structure is used to configure a hot-swappable worker thread that can be safely terminated and recreated during driver hot-swap operations. The structure provides all the necessary parameters for the underlying kernel wait operations.
 
 The worker thread created with this structure will repeatedly wait on the specified events and call the **WorkerRoutine** callback each time the wait completes. The callback can then decide whether the thread should continue running or terminate.
-
-Key considerations when using this structure:
-
-- All event objects in the **Events** array must remain valid for the lifetime of the worker thread
-- The **Context** pointer should point to memory that remains valid throughout the thread's execution
-- The **WorkerRoutine** callback runs at PASSIVE_LEVEL and can perform operations that require this IRQL
-- The structure should be allocated from non-paged memory if it needs to persist across power state changes
 
 The hot-swappable nature of the worker thread means it can be safely stopped and restarted as part of driver update operations, maintaining system stability during runtime driver replacements.
 
@@ -137,4 +113,3 @@ The hot-swappable nature of the worker thread means it can be safely stopped and
 [**DRIVER_PROXY_HOTSWAP_WORKER_ROUTINE**](nc-wdm-driver_proxy_hotswap_worker_routine.md)
 
 [**KEVENT**](/windows-hardware/drivers/kernel/eprocess)
-

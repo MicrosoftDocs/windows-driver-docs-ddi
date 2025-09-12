@@ -2,7 +2,7 @@
 UID: NF:wdm.IoCreateDriverProxyExtension
 tech.root: kernel
 title: IoCreateDriverProxyExtension
-ms.date: 09/05/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Allocates and initializes a DriverProxy extension.
 prerelease: false
@@ -51,7 +51,7 @@ The **IoCreateDriverProxyExtension** function allocates and initializes a Driver
 
 ### -param OwningDriverObject
 
-[in, optional] An optional pointer to the [**DRIVER_OBJECT**](ns-wdm-driver_object.md) that will own the DriverProxy extension. If provided, the extension will be associated with this driver object. If NULL, the extension is created without an owning driver.
+[in, optional] An optional pointer to the [**DRIVER_OBJECT**](ns-wdm-_driver_object.md) that will own the DriverProxy extension. If provided, the extension will be associated with this driver object. If NULL, the extension is created without an owning driver.
 
 ### -param Flags
 
@@ -89,8 +89,12 @@ The system automatically manages the lifecycle of the DriverProxy extension. Whe
 
 ## -see-also
 
-- [**IoGetDriverProxyFeatures**](nf-wdm-iogetdriverproxyfeatures.md)
-- [**IoGetDriverProxyWrapperFromEndpoint**](nf-wdm-iogetdriverproxywrapperfromendpoint.md)
-- [**IoGetDriverProxyExtensionFromDriverObject**](nf-wdm-iogetdriverproxyextensionfromdriverobject.md)
-- [**DRIVER_PROXY_EXTENSION_CREATION_FLAGS**](ns-wdm-driver_proxy_extension_creation_flags.md)
-- [**DRIVER_OBJECT**](ns-wdm-driver_object.md)
+[**IoGetDriverProxyFeatures**](nf-wdm-iogetdriverproxyfeatures.md)
+
+[**IoGetDriverProxyWrapperFromEndpoint**](nf-wdm-iogetdriverproxywrapperfromendpoint.md)
+
+[**IoGetDriverProxyExtensionFromDriverObject**](nf-wdm-iogetdriverproxyextensionfromdriverobject.md)
+
+[**DRIVER_PROXY_EXTENSION_CREATION_FLAGS**](ns-wdm-driver_proxy_extension_creation_flags.md)
+
+[**DRIVER_OBJECT**](ns-wdm-_driver_object.md)

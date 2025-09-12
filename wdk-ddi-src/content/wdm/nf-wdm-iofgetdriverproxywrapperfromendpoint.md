@@ -2,7 +2,7 @@
 UID: NF:wdm.IofGetDriverProxyWrapperFromEndpoint
 tech.root: kernel
 title: IofGetDriverProxyWrapperFromEndpoint
-ms.date: 09/05/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Gets the wrapper for an endpoint function using the endpoint function pointer.
 prerelease: false
@@ -74,7 +74,7 @@ The **IofGetDriverProxyWrapperFromEndpoint** function gets the pointer to the wr
 
 This function is the standard method for retrieving endpoint wrappers in Driver Hot-Swap V2. The endpoint pointer passed to this function must exactly match a pointer that was identified during the automatic endpoint enumeration process.
 
-To avoid compiler warnings when calling this function, you may need to cast the **Endpoint** and **Wrapper** parameters. For convenience, a macro **IoGetDriverProxyWrapperFromEndpoint** is provided that handles the type casting automatically. It is recommended to use the macro instead of calling this function directly.
+To avoid compiler warnings when calling this function, you might need to cast the **Endpoint** and **Wrapper** parameters. For convenience, a macro **IoGetDriverProxyWrapperFromEndpoint** is provided that handles the type casting automatically. It is recommended to use the macro instead of calling this function directly.
 
 The function can be called at any IRQL level and performs a fast lookup operation.
 
@@ -82,5 +82,6 @@ Once a wrapper is obtained, drivers should call the wrapper function instead of 
 
 ## -see-also
 
-- [**IoCreateDriverProxyExtension**](nf-wdm-iocreatedriverproxyextension.md)
-- [**DRIVER_PROXY_ENDPOINT_FUNCTION**](nc-wdm-driver_proxy_endpoint_function.md)
+[**IoCreateDriverProxyExtension**](nf-wdm-iocreatedriverproxyextension.md)
+
+[**DRIVER_PROXY_ENDPOINT_FUNCTION**](nc-wdm-driver_proxy_endpoint_function.md)

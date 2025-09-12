@@ -51,7 +51,7 @@ The **IoGetDriverProxyExtensionFromDriverObject** function retrieves the DriverP
 
 ### -param DriverObject
 
-[in] A pointer to the [**DRIVER_OBJECT**](ns-wdm-driver_object.md) that owns the DriverProxy extension to retrieve.
+[in] A pointer to the [**DRIVER_OBJECT**](ns-wdm-_driver_object.md) that owns the DriverProxy extension to retrieve.
 
 ## -returns
 
@@ -71,4 +71,4 @@ If the driver object's **DriverExtension** field is NULL, the function will retu
 
 [**IoRegisterDriverProxyEndpoints**](nf-wdm-ioregisterdriverproxyendpoints.md)
 
-[**DRIVER_OBJECT**](ns-wdm-driver_object.md)
+[**DRIVER_OBJECT**](ns-wdm-_driver_object.md)

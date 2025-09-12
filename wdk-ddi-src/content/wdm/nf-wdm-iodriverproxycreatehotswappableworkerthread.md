@@ -2,7 +2,7 @@
 UID: NF:wdm.IoDriverProxyCreateHotSwappableWorkerThread
 tech.root: kernel
 title: IoDriverProxyCreateHotSwappableWorkerThread
-ms.date: 09/05/2025
+ms.date: 09/11/2025
 targetos: Windows
 description: Creates a hot-swappable worker thread that can handle long-running driver operations.
 prerelease: false

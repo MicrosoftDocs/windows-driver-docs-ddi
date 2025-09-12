@@ -53,7 +53,7 @@ This function allows drivers to determine whether DriverProxy functionality is a
 
 ### -param DriverObject
 
-[in, optional] An optional pointer to the [**DRIVER_OBJECT**](ns-wdm-driver_object.md) to check for DriverProxy support. If this parameter is NULL, the function checks whether DriverProxy is enabled for all drivers on the system.
+[in, optional] An optional pointer to the [**DRIVER_OBJECT**](ns-wdm-_driver_object.md) to check for DriverProxy support. If this parameter is NULL, the function checks whether DriverProxy is enabled for all drivers on the system.
 
 ### -param Flags
 
@@ -84,4 +84,4 @@ The function can be called at any IRQL level and is safe to use during driver in
 
 [**IoRegisterDriverProxyEndpoints**](nf-wdm-ioregisterdriverproxyendpoints.md)
 
-[**DRIVER_OBJECT**](ns-wdm-driver_object.md)
+[**DRIVER_OBJECT**](ns-wdm-_driver_object.md)
