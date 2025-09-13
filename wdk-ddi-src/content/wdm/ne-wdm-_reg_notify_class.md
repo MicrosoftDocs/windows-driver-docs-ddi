@@ -134,19 +134,19 @@ Specifies that a thread is attempting to query multiple value entries for a key.
 
 ### -field RegNtPreCreateKey
 
-Specifies that a thread is attempting to create a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
+Specifies that a thread is attempting to create a key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 ### -field RegNtPostCreateKey
 
-Specifies that a thread has successfully created a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
+Specifies that a thread has successfully created a key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 ### -field RegNtPreOpenKey
 
-Specifies that a thread is attempting to open an existing key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
+Specifies that a thread is attempting to open an existing key. This value indicates a pre-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 ### -field RegNtPostOpenKey
 
-Specifies that a thread has successfully opened an existing key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value on Windows XP and later versions of the Windows operating system.
+Specifies that a thread has successfully opened an existing key. This value indicates a post-notification call to <i>RegistryCallback</i>. Use this value only on Windows XP.
 
 ### -field RegNtKeyHandleClose
 
@@ -315,4 +315,5 @@ When the configuration manager calls a driver's <i>RegistryCallback</i> routine,
 
 
 <a href="/windows-hardware/drivers/ddi/wdm/nc-wdm-ex_callback_function">RegistryCallback</a>
+
 
