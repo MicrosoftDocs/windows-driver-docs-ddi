@@ -65,12 +65,12 @@ A pointer to the file object for the file.
 ### -param FileOffset [in]
 
 
-A pointer to a variable that specifies the starting byte offset within the file of the range to be unlocked.
+A pointer to a variable that specifies the starting byte offset within the file of the range to be unlocked.  The memory pointed to must not be pageable.
 
 ### -param Length [in]
 
 
-A pointer to a variable that specifies the length, in bytes, of the range to be unlocked.
+A pointer to a variable that specifies the length, in bytes, of the range to be unlocked.  The memory pointed to must not be pageable.
 
 ### -param ProcessId [in]
 
