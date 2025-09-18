@@ -58,6 +58,7 @@ Optional handle to a caller-created event to be set to the Signaled state when t
 ### -param ApcRoutine [in, optional]
 
 Pointer to a caller-supplied APC routine to run after the operation completes. This parameter is optional and can be NULL.
+* For a kernel-mode call, set this parameter to a pointer to a [**WORK_QUEUE_ITEM**](../wdm/ns-wdm-_work_queue_item.md) struct
 
 ### -param ApcContext [in, optional]
 
@@ -124,3 +125,4 @@ For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of 
 [**ZwCreateKey**](../wdm/nf-wdm-zwcreatekey.md)
 
 [**ZwOpenKey**](../wdm/nf-wdm-zwopenkey.md)
+
