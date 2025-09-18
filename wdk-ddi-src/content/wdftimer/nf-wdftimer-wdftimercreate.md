@@ -166,7 +166,8 @@ WDF_TIMER_CONFIG_INIT(
                       MyEvtTimerFunc
                       );
 
-timerConfig.AutomaticSerialization = TRUE;
+// Consider allowing a tolerance for the due time and period.
+timerConfig.TolerableDelay = 10;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&timerAttributes);
 timerAttributes.ParentObject = DeviceHandle;

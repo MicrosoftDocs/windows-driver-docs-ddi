@@ -112,7 +112,7 @@ If a driver uses the <b>TolerableDelay</b> member, the operating system can grou
 
 If the <b>TolerableDelay</b> member is <b>TolerableDelayUnlimited</b>, the system will not return to its fully on (S0) state to service the timer if it is in a low-power (S<i>x</i>) state when the timer expires. A driver can specify <b>TolerableDelayUnlimited</b> to increase battery life when the timer is related to a non-critical periodic operation.
 
-Setting <b>UseHighResolutionTimer</b> to <b>WdfTrue</b> may result in decreased battery life.
+Setting <b>UseHighResolutionTimer</b> to <b>WdfTrue</b> will enable a high-resolution timer object instead of a regular timer and may result in decreased battery life. Only use this if a higher resolution is actually needed. For more information and alternatives see the dedicated article on <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/high-resolution-timers">high-resolution timers</a>.
 
 For more information about <b>AutomaticSerialization</b> and synchronizing driver callback functions, see <a href="/windows-hardware/drivers/wdf/synchronization-techniques-for-wdf-drivers">Synchronization Techniques for Framework-Based Drivers</a>.
 
