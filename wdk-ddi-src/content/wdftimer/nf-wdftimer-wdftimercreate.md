@@ -107,8 +107,8 @@ WDF_TIMER_CONFIG_INIT(
                       );
 
 // Consider allowing a tolerance for the due time and period.
-// For more information on high-resolution timers and timer coalescing, see:
-// https://learn.microsoft.com/windows-hardware/drivers/kernel/high-resolution-timers
+// For more information on no-wake timers and timer coalescing, see:
+// https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/no-wake-timers
 timerConfig.TolerableDelay = 10;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&timerAttributes);
