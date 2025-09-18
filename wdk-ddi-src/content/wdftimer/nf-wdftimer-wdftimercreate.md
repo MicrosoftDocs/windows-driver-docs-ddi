@@ -4,7 +4,7 @@ title: WdfTimerCreate function (wdftimer.h)
 description: The WdfTimerCreate method creates a framework timer object.
 old-location: wdf\wdftimercreate.htm
 tech.root: wdf
-ms.date: 02/26/2018
+ms.date: 09/18/2025
 keywords: ["WdfTimerCreate function"]
 ms.keywords: DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, WdfTimerCreate, WdfTimerCreate method, kmdf.wdftimercreate, wdf.wdftimercreate, wdftimer/WdfTimerCreate
 req.header: wdftimer.h
@@ -45,115 +45,55 @@ api_name:
 
 # WdfTimerCreate function
 
-
 ## -description
 
-<p class="CCE_Message">[Applies to KMDF and UMDF]</p>
+*[Applies to KMDF and UMDF]*
 
-The <b>WdfTimerCreate</b> method creates a framework timer object.
+The **WdfTimerCreate** method creates a framework timer object.
 
 ## -parameters
 
 ### -param Config [in]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure.
+A pointer to a [WDF_TIMER_CONFIG](/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config) structure.
 
 ### -param Attributes [in]
 
-
-A pointer to a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that contains object attributes for the new timer object.
+A pointer to a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that contains object attributes for the new timer object.
 
 ### -param Timer [out]
-
 
 A pointer to a location that receives a handle to the new framework timer object.
 
 ## -returns
 
-<b>WdfTimerCreate</b> returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
+**WdfTimerCreate** returns STATUS_SUCCESS if the operation succeeds. Otherwise, this method might return one of the following values:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_WDF_PARENT_NOT_SPECIFIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <i>Attributes</i> parameter was <b>NULL</b>, or the <b>ParentObject</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure that <i>Attributes</i> specifies was <b>NULL</b>.
+| Return code | Description |
+|-------------|-------------|
+| **STATUS_WDF_PARENT_NOT_SPECIFIED** | The *Attributes* parameter was **NULL**, or the **ParentObject** member of the [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure that *Attributes* specifies was **NULL**. |
+| **STATUS_INVALID_PARAMETER** | An invalid parameter was specified. |
+| **STATUS_INVALID_DEVICE_REQUEST** | The **ParentObject** member of the [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure did not reference a framework device object or an object whose chain of parents leads to a framework device object. |
+| **STATUS_INSUFFICIENT_RESOURCES** | There was insufficient memory. |
+| **STATUS_WDF_INCOMPATIBLE_EXECUTION_LEVEL** | The **AutomaticSerialization** member of the [WDF_TIMER_CONFIG](/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config) structure was set to **TRUE**, but the parent device object's [execution level](/windows-hardware/drivers/ddi/wdfobject/ne-wdfobject-_wdf_execution_level) was set to **WdfExecutionLevelPassive**. |
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_PARAMETER</b></dt>
-</dl>
-</td>
-<td width="60%">
-An invalid parameter was specified.
+For a list of other return values that the **WdfTimerCreate** method might return, see [Framework Object Creation Errors](/windows-hardware/drivers/wdf/framework-object-creation-errors).
 
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INVALID_DEVICE_REQUEST</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>ParentObject</b> member of the <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure did not reference a framework device object or an object whose chain of parents leads to a framework device object.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
-</dl>
-</td>
-<td width="60%">
-There was insufficient memory.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_WDF_INCOMPATIBLE_EXECUTION_LEVEL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The <b>AutomaticSerialization</b> member of the <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure was set to <b>TRUE</b>, but the parent device object's <a href="/windows-hardware/drivers/ddi/wdfobject/ne-wdfobject-_wdf_execution_level">execution level</a> was set to <b>WdfExecutionLevelPassive</b>.
-
-</td>
-</tr>
-</table>
- 
-
-For a list of other return values that the <b>WdfTimerCreate</b> method might return, see <a href="/windows-hardware/drivers/wdf/framework-object-creation-errors">Framework Object Creation Errors</a>.
-
-This method might also return other <a href="/windows-hardware/drivers/kernel/ntstatus-values">NTSTATUS values</a>.
+This method might also return other [NTSTATUS values](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-When your driver calls <b>WdfTimerCreate</b>, it must supply a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and must specify a parent object in the structure's <b>ParentObject</b> member. The parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the timer object when it deletes the device object.
+When your driver calls **WdfTimerCreate**, it must supply a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure and must specify a parent object in the structure's **ParentObject** member. The parent object can be a framework device object or any object whose chain of parents leads to a framework device object. The framework will delete the timer object when it deletes the device object.
 
-After creating a timer object, the driver must call <a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimerstart">WdfTimerStart</a> to start the timer's clock regardless of whether the timer is periodic or not. 
+After creating a timer object, the driver must call [WdfTimerStart](/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimerstart) to start the timer's clock regardless of whether the timer is periodic or not.
 
-If your driver provides <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup">EvtCleanupCallback</a> or <a href="/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_destroy">EvtDestroyCallback</a> callback functions for the framework timer object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
+If your driver provides [EvtCleanupCallback](/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_cleanup) or [EvtDestroyCallback](/windows-hardware/drivers/ddi/wdfobject/nc-wdfobject-evt_wdf_object_context_destroy) callback functions for the framework timer object, note that the framework calls these callback functions at IRQL = PASSIVE_LEVEL.
 
-For more information about framework timer objects, see <a href="/windows-hardware/drivers/wdf/using-timers">Using Timers</a>.
+For more information about framework timer objects, see [Using Timers](/windows-hardware/drivers/wdf/using-timers).
 
+### Examples
 
-#### Examples
-
-The following code example initializes a <a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a> structure and a <a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a> structure and then calls <b>WdfTimerCreate</b>.
+The following code example initializes a [WDF_TIMER_CONFIG](/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config) structure and a [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes) structure and then calls **WdfTimerCreate**.
 
 ```cpp
 WDF_TIMER_CONFIG  timerConfig;
@@ -167,6 +107,8 @@ WDF_TIMER_CONFIG_INIT(
                       );
 
 // Consider allowing a tolerance for the due time and period.
+// For more information on high-resolution timers and timer coalescing, see:
+// https://learn.microsoft.com/windows-hardware/drivers/kernel/high-resolution-timers
 timerConfig.TolerableDelay = 10;
 
 WDF_OBJECT_ATTRIBUTES_INIT(&timerAttributes);
@@ -185,20 +127,8 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config">WDF_TIMER_CONFIG</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdf_timer_config_init">WDF_TIMER_CONFIG_INIT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimerstart">WdfTimerStart</a>
+- [WDF_OBJECT_ATTRIBUTES](/windows-hardware/drivers/ddi/wdfobject/ns-wdfobject-_wdf_object_attributes)
+- [WDF_OBJECT_ATTRIBUTES_INIT](/windows-hardware/drivers/ddi/wdfobject/nf-wdfobject-wdf_object_attributes_init)
+- [WDF_TIMER_CONFIG](/windows-hardware/drivers/ddi/wdftimer/ns-wdftimer-_wdf_timer_config)
+- [WDF_TIMER_CONFIG_INIT](/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdf_timer_config_init)
+- [WdfTimerStart](/windows-hardware/drivers/ddi/wdftimer/nf-wdftimer-wdftimerstart)
