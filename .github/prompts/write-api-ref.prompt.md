@@ -31,10 +31,12 @@ Your goal is to write API reference documentation pages for Windows Driver Kit (
 
 8. Use the Learn MCP server for any supplemental information needed.
 
-9. Open and write the completed documentation pages in the checked out files listed in the CSV. Don't write the documentation into the chat window.
+9. Open and write the completed documentation pages in the checked out files listed in the CSV.
 
 10. Don't remove anything from the stub files. If no information exists for a field or entity, leave it blank and move on.
 
 11. Make the API entities in the -see-also section to relative links in markdown format. Arrange the -see-also section a dashed list of bulleted links.
 
-12. If a file matching `na-*.md` exists, rename that file to `index.md`
+12. Add or delete blank lines as needed to ensure there is only one blank line at the end of each file.
+
+13. If a file matching `na-*.md` exists, rename that file to `index.md`
