@@ -1,7 +1,7 @@
 ---
 mode: 'agent'
 model: Claude Sonnet 4
-tools: ['microsoft_docs_search']
+tools: [microsoft_docs_search, runCommands, edit, runTasks]
 description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git and the Learn MCP tool, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations in attached headers, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git or Learn MCP access is unavailable, the agent reports the problem and stops.'
 ---
 
@@ -14,11 +14,11 @@ Your goal is to write API reference documentation pages for Windows Driver Kit (
 2. Verify environment access:
     - Run `git status` to confirm Git is available in the terminal.
     - Verify access to the Learn MCP server (`microsoft.docs.mcp`).
-    - If either check fails, report the problem to the user and stop.
+    - If either check fails, stop and report the problem to the user.
 
 3. The .csv lists the target filenames for which you must write reference documentation.
 
-4. From the repository root, check out each corresponding stub file with:
+4. From the repository root, use the VS Code terminal window to check out each corresponding stub file with:
     `git checkout origin/stubs/main -- <path/filename.md>`
 
 5. For each target file:
@@ -31,7 +31,7 @@ Your goal is to write API reference documentation pages for Windows Driver Kit (
 
 8. Use the Learn MCP server for any supplemental information needed.
 
-9. Write the completed documentation pages for the files listed in the CSV.
+9. Open and write the completed documentation pages in the checked out files listed in the CSV. Don't write the documentation into the chat window.
 
 10. Don't remove anything from the stub files. If no information exists for a field or entity, leave it blank and move on.
 
