@@ -537,6 +537,6 @@ WDDM synchronization class:
 
 [**MDL**](../wdm/ns-wdm-_mdl.md)
 
-[**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray
+[**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray)
 
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)

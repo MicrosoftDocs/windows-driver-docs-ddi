@@ -69,7 +69,7 @@ HW_INTERRUPT (
 
 ```
 
-The **HwStorInterrupt** routine should return within 50 microseconds, ideally as short a time as possible. Therefore, all activity does not have to occur at high IRQL should be deferred to the [**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md that is defined in the miniport driver and issued by using [**StorPortIssueDpc**](nf-storport-storportissuedpc.md).  The latency of the DPC is very low, and it will be called immediately after the return from high IRQL.
+The **HwStorInterrupt** routine should return within 50 microseconds, ideally as short a time as possible. Therefore, all activity does not have to occur at high IRQL should be deferred to the [**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md) that is defined in the miniport driver and issued by using [**StorPortIssueDpc**](nf-storport-storportissuedpc.md).  The latency of the DPC is very low, and it will be called immediately after the return from high IRQL.
 
 The port driver calls the **HwStorInterrupt** routine at DIRQL.
 
@@ -100,6 +100,6 @@ The **HW_INTERRUPT** function type is defined in the Storport.h header file. To 
 
 ## -see-also
 
-[**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md
+[**HwStorDpcRoutine**](nc-storport-hw_dpc_routine.md)
 
 [**StorPortIssueDpc**](nf-storport-storportissuedpc.md)
