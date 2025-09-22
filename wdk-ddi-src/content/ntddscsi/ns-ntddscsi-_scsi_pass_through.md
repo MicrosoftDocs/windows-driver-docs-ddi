@@ -131,6 +131,6 @@ The members of SCSI_PASS_THROUGH correspond roughly to the members of a [SCSI_RE
 
 [IOCTL_SCSI_PASS_THROUGH_DIRECT](ni-ntddscsi-ioctl_scsi_pass_through_direct.md)
 
-[SCSI_PASS_THROUGH_DIRECT](ni-ntddscsi-_scsi_pass_through_direct.md)
+[SCSI_PASS_THROUGH_DIRECT](ns-ntddscsi-_scsi_pass_through_direct.md)
 
 [SCSI_REQUEST_BLOCK](../srb/ns-srb-_scsi_request_block.md)
