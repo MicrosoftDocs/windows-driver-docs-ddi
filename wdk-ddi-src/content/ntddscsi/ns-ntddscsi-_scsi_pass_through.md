@@ -1,12 +1,9 @@
 ---
 UID: NS:ntddscsi._SCSI_PASS_THROUGH
-title: _SCSI_PASS_THROUGH (ntddscsi.h)
+title: SCSI_PASS_THROUGH (ntddscsi.h)
 description: The SCSI_PASS_THROUGH structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH request to instruct the port driver to send an embedded SCSI command to the target device.
-old-location: storage\scsi_pass_through.htm
 tech.root: storage
-ms.date: 03/29/2018
-keywords: ["SCSI_PASS_THROUGH structure"]
-ms.keywords: "*PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH, PSCSI_PASS_THROUGH structure pointer [Storage Devices], SCSI_PASS_THROUGH, SCSI_PASS_THROUGH structure [Storage Devices], _SCSI_PASS_THROUGH, ntddscsi/PSCSI_PASS_THROUGH, ntddscsi/SCSI_PASS_THROUGH, storage.scsi_pass_through, structs-scsibus_6d017ae1-d61d-49b8-bfaf-b6b15341732b.xml"
+ms.date: 09/22/2025
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
@@ -46,19 +43,22 @@ api_name:
  - SCSI_PASS_THROUGH
 ---
 
-# _SCSI_PASS_THROUGH structure
-
+# SCSI_PASS_THROUGH structure
 
 ## -description
 
-The SCSI_PASS_THROUGH structure is used in conjunction with an <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through">IOCTL_SCSI_PASS_THROUGH</a> request to instruct the port driver to send an embedded SCSI command to the target device. 
-<div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="/windows-hardware/drivers/storage/storport-driver-overview">Storport driver</a> and <a href="/windows-hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
+The SCSI_PASS_THROUGH structure is used in conjunction with an [IOCTL_SCSI_PASS_THROUGH](ni-ntddscsi-ioctl_scsi_pass_through.md) request to instruct the port driver to send an embedded SCSI command to the target device.
+
+> **Note**  
+> The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the [Storport driver](/windows-hardware/drivers/storage/storport-driver-overview) and [Storport miniport](/windows-hardware/drivers/storage/storport-miniport-drivers) driver models.
+
+The SCSI_PASS_THROUGH structure is used in conjunction with an [IOCTL_SCSI_PASS_THROUGH](ni-ntddscsi-ioctl_scsi_pass_through.md) request to instruct the port driver to send an embedded SCSI command to the target device.
 
 ## -struct-fields
 
 ### -field Length
 
-Contains the value of <b>sizeof</b>(SCSI_PASS_THROUGH).
+Contains the value of **sizeof**(SCSI_PASS_THROUGH).
 
 ### -field ScsiStatus
 
@@ -86,19 +86,26 @@ Indicates the size in bytes of the request-sense buffer.
 
 ### -field DataIn
 
-#####  This field must have one of three values:
+Indicates whether the SCSI command will read or write data. This field must have one of three values:
 
-
-
-#######
+| Value | Meaning |
+| ----- | ------- |
+| SCSI_IOCTL_DATA_OUT (0) | Write data to the device |
+| SCSI_IOCTL_DATA_IN (1) | Read data from the device |
+| SCSI_IOCTL_DATA_UNSPECIFIED (2) | No data transfer or transfer direction is unknown |
 
 ### -field DataTransferLength
 
-Indicates the size in bytes of the data buffer. Many devices transfer chunks of data of predefined length. The value in <b>DataTransferLength</b> must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
+Indicates the size in bytes of the data buffer. Many devices transfer chunks of data of predefined length. The value in **DataTransferLength** must be an integral multiple of this predefined, minimum length that is specified by the device. If an underrun occurs, the miniport driver must update this member to the number of bytes actually transferred.
 
 ### -field TimeOutValue
 
-Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
+Indicates the interval in seconds that the request can execute before the port driver considers it timed out. Do not set this value to 0. Default values often range from:
+
+* Typical operations: 30 to 60 seconds
+* Short operations: 10 to 30 seconds
+* Medium operations: 30 to 120 seconds
+* Long operations (like format, extended self-test): 300 to 3600 seconds or more
 
 ### -field DataBufferOffset
 
@@ -114,23 +121,16 @@ Specifies the SCSI command descriptor block to be sent to the target device.
 
 ## -remarks
 
-The SCSI_PASS_THROUGH structure is used with <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through">IOCTL_SCSI_PASS_THROUGH</a>, which is a buffered device control request. To bypass buffering in system memory, callers should use <a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>. When handling an IOCTL_SCSI_PASS_THROUGH_DIRECT request, the system locks down the buffer in user memory and the device accesses this memory directly. 
+The SCSI_PASS_THROUGH structure is used with [IOCTL_SCSI_PASS_THROUGH](ni-ntddscsi-ioctl_scsi_pass_through.md), which is a buffered device control request. To bypass buffering in system memory, callers should use [IOCTL_SCSI_PASS_THROUGH_DIRECT](ni-ntddscsi-ioctl_scsi_pass_through_direct.md). When handling an IOCTL_SCSI_PASS_THROUGH_DIRECT request, the system locks down the buffer in user memory and the device accesses this memory directly.
 
-The members of SCSI_PASS_THROUGH correspond roughly to the members of a <a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a> structure. The values of the <b>DataIn</b> member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to <b>SrbFlags</b> member of SCSI_REQUEST_BLOCK.
+The members of SCSI_PASS_THROUGH correspond roughly to the members of a [SCSI_REQUEST_BLOCK](../srb/ns-srb-_scsi_request_block.md) structure. The values of the **DataIn** member correspond to the SCSI_IOCTL_DATA_IN, SCSI_IOCTL_DATA_OUT, and SCSI_IOCTL_DATA_UNSPECIFIED flags assigned to **SrbFlags** member of SCSI_REQUEST_BLOCK.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through">IOCTL_SCSI_PASS_THROUGH</a>
+[IOCTL_SCSI_PASS_THROUGH](ni-ntddscsi-ioctl_scsi_pass_through.md)
 
+[IOCTL_SCSI_PASS_THROUGH_DIRECT](ni-ntddscsi-ioctl_scsi_pass_through_direct.md)
 
+[SCSI_PASS_THROUGH_DIRECT](ni-ntddscsi-_scsi_pass_through_direct.md)
 
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ni-ntddscsi-ioctl_scsi_pass_through_direct">IOCTL_SCSI_PASS_THROUGH_DIRECT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddscsi/ns-ntddscsi-_scsi_pass_through_direct">SCSI_PASS_THROUGH_DIRECT</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/srb/ns-srb-_scsi_request_block">SCSI_REQUEST_BLOCK</a>
-
+[SCSI_REQUEST_BLOCK](../srb/ns-srb-_scsi_request_block.md)

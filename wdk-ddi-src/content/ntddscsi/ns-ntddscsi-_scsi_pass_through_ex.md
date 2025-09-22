@@ -2,15 +2,12 @@
 UID: NS:ntddscsi._SCSI_PASS_THROUGH_EX
 title: SCSI_PASS_THROUGH_EX (ntddscsi.h)
 description: The SCSI_PASS_THROUGH_EX structure is used in conjunction with an IOCTL_SCSI_PASS_THROUGH_EX request to instruct the port driver to send an embedded SCSI command to the target device.
-old-location: storage\scsi_pass_through_ex.htm
 tech.root: storage
-ms.date: 04/09/2021
-keywords: ["SCSI_PASS_THROUGH_EX structure"]
-ms.keywords: "*PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], _SCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex"
+ms.date: 09/22/2025
 req.header: ntddscsi.h
 req.include-header: Ntddscsi.h
 req.target-type: Windows
-req.target-min-winverclnt: Available starting with Windows 8.
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -98,7 +95,12 @@ Reserved. Set to 0.
 
 ### -field TimeOutValue
 
-Indicates the interval in seconds that the request can execute before the port driver considers it timed out.
+Indicates the interval in seconds that the request can execute before the port driver considers it timed out. Do not set this value to 0. Default values often range from:
+
+* Typical operations: 30 to 60 seconds
+* Short operations: 10 to 30 seconds
+* Medium operations: 30 to 120 seconds
+* Long operations (like format, extended self-test): 300 to 3600 seconds or more
 
 ### -field StorAddressOffset
 
