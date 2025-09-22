@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **DXGKARG_BUILDPAGINGBUFFER** structure describes parameters for the [DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) callback that builds a paging buffer for use in a memory-transfer operation.
+The **DXGKARG_BUILDPAGINGBUFFER** structure describes parameters for the [**DxgkDdiBuildPagingBuffer**](nc-d3dkmddi-dxgkddi_buildpagingbuffer.md) callback that builds a paging buffer for use in a memory-transfer operation.
 
 ## -struct-fields
 
@@ -129,7 +129,7 @@ The **DXGKARG_BUILDPAGINGBUFFER** structure describes parameters for the [DxgkDd
 
 ### -field Transfer.MdlOffset
 
-[in] The offset, in system memory pages, within the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that the **pMdl** member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray function as follows.
+[in] The offset, in system memory pages, within the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that the **pMdl** member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray) function as follows.
 
 ```cpp
 MmGetMdlPfnArray(pMdl)[MdlOffset];
@@ -247,7 +247,7 @@ For a shared allocation, **hDevice** is set to the device that the video memory 
 
 ### -field MapApertureSegment.MdlOffset
 
-[in] The offset, in system memory pages, within the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that the **pMdl** member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray function as follows.
+[in] The offset, in system memory pages, within the [**MDL**](../wdm/ns-wdm-_mdl.md) structure that the **pMdl** member points to, to the first system memory page for the current operation. The driver can obtain the physical address of the first system memory page by calling the [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray) function as follows.
 
 ```cpp
 MmGetMdlPfnArray(pMdl)[MdlOffset];
@@ -538,5 +538,6 @@ WDDM synchronization class:
 [**MDL**](../wdm/ns-wdm-_mdl.md)
 
 [**MmGetMdlPfnArray**](/windows-hardware/drivers/kernel/mm-bad-pointer#mmgetmdlpfnarray)
+
 
 [**pfnLockCb**](../d3dumddi/nc-d3dumddi-pfnd3dddi_lockcb.md)
