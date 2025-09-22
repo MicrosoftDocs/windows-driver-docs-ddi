@@ -349,7 +349,7 @@ If the operation succeeds, the **ComPropSheet** function returns an icon handle;
 
 The **CPSFUNC_LOAD_CPSUI_STRING** function code causes the **ComPropSheet** function to load a CPSUI-supplied string resource.
 
-The **ComPropSheet** function calls the **LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringw) function to load the specified string.
+The **ComPropSheet** function calls the [**LoadString**](/windows/win32/api/winuser/nf-winuser-loadstringw) function to load the specified string.
 
 ##### Parameters (CPSFUNC_LOAD_CPSUI_STRING)
 

@@ -85,7 +85,7 @@ A call to **NtSetQuotaInformationFile** will result in an [**IRP_MJ_SET_QUOTA**]
 If the underlying file system does not support quota information (FAT and CDFS file systems, for example), **NtSetQuotaInformationFile** will fail returning STATUS_INVALID_DEVICE_REQUEST.
 
 > [!NOTE]
-> If the call to the **NtSetQuotaInformationFile** function occurs in kernel mode, you should use the name "[**ZwSetQuotaInformationFile**](nf-ntifs-zwsetquotainformationfile.md" instead of "**NtSetQuotaInformationFile**".
+> If the call to the **NtSetQuotaInformationFile** function occurs in kernel mode, you should use the name "[**ZwSetQuotaInformationFile**](nf-ntifs-zwsetquotainformationfile.md)" instead of "**NtSetQuotaInformationFile**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 
