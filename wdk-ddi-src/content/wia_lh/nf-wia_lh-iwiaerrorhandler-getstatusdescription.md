@@ -59,7 +59,7 @@ HRESULT variable that contains the status code received by the WIA transfer meth
 
 ### -param pbstrDescription [out]
 
-Pointer to a BSTR that receives a description of the status or error encountered during the transfer. This parameter cannot be **NULL**. The driver must allocate the string using the [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) function and the caller must free the string using the **SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.
+Pointer to a BSTR that receives a description of the status or error encountered during the transfer. This parameter cannot be **NULL**. The driver must allocate the string using the [**SysAllocString**](/windows/win32/api/oleauto/nf-oleauto-sysallocstring) function and the caller must free the string using the [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) function.
 
 ## -returns
 

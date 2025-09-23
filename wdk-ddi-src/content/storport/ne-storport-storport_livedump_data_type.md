@@ -59,6 +59,6 @@ Include a payload of type [**STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG**](ns-storpo
 
 [**STORPORT_CAPTURE_LIVEDUMP**](ns-storport-storport_capture_livedump.md)
 
-[**STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG**](ns-storport-storport_livedump_device_telemetry_log.md
+[**STORPORT_LIVEDUMP_DEVICE_TELEMETRY_LOG**](ns-storport-storport_livedump_device_telemetry_log.md)
 
 [**StorPortCaptureLiveDump**](nf-storport-storportcapturelivedump.md)

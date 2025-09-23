@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **IWiaTransferCallback::GetNextStream** method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling [**IWiaTransfer::Download**](/windows/win32/wia/-wia-iwiatransfer-download) or the preview component's **IWiaPreview::GetNewPreview**](/windows/win32/wia/-wia-iwiapreview-getnewpreview).
+The **IWiaTransferCallback::GetNextStream** method is implemented by an image processing filter. It is called by the WIA service as a result of an application calling [**IWiaTransfer::Download**](/windows/win32/wia/-wia-iwiatransfer-download) or the preview component's [**IWiaPreview::GetNewPreview**](/windows/win32/wia/-wia-iwiapreview-getnewpreview).
 
 ## -parameters
 
@@ -71,7 +71,7 @@ An image processing filter's implementation of **IWiaTransferCallback::GetNextSt
 
 An image processing filter's implementation of **IWiaTransferCallback::GetNextStream** must delegate to the application's **IWiaTransferCallback::GetNextStream** method. The image processing filter then uses the stream returned by the application callback's **IWiaTransferCallback::GetNextStream** implementation to create its own stream (the "filtering stream") that it passes back to the WIA service.
 
-In its **IWiaTransferCallback::GetNextStream** implementation, the image processing filter should read which properties are needed for its image processing from the item for which the image is being acquired. The filter must not read the properties directly from the *pWiaItem2* passed into [**IWiaImageFilter::InitializeFilter**](nf-wia_lh-iwiaimagefilter-initializefilter.md); rather it must call **IWiaItem2::FindItemByName**](/windows/win32/wia/-wia-iwiaitem2-finditembyname) on this WIA item to obtain the actual WIA item. The reason is that during a folder transfer the images acquired correspond to the child items of *pWiaItem2* rather than to *pWiaItem2* itself.
+In its **IWiaTransferCallback::GetNextStream** implementation, the image processing filter should read which properties are needed for its image processing from the item for which the image is being acquired. The filter must not read the properties directly from the *pWiaItem2* passed into [**IWiaImageFilter::InitializeFilter**](nf-wia_lh-iwiaimagefilter-initializefilter.md); rather it must call [**IWiaItem2::FindItemByName**](/windows/win32/wia/-wia-iwiaitem2-finditembyname) on this WIA item to obtain the actual WIA item. The reason is that during a folder transfer the images acquired correspond to the child items of *pWiaItem2* rather than to *pWiaItem2* itself.
 
 This method is not called by the preview component during [**IWiaPreview::UpdatePreview**](/windows/win32/wia/-wia-iwiapreview-updatepreview).
 
