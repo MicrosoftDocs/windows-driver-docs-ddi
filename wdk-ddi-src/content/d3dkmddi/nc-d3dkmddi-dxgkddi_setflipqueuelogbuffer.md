@@ -44,8 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the OS calls a display miniport driver's [**DXGKDDI_SETFLIPQUEUELOGBUFFER**](/windows-hardware/drivers/ddi/nc-d3dkmddi-dxgkddi_setflipqueuelogbuffe
-r) function to provide the driver with the flip queue log.
+In the [hardware flip queue model](/windows-hardware/drivers/display/hardware-flip-queue), the OS calls a display miniport driver's [**DXGKDDI_SETFLIPQUEUELOGBUFFER**](/windows-hardware/drivers/ddi/nc-d3dkmddi-dxgkddi_setflipqueuelogbuffer) function to provide the driver with the flip queue log.
 
 ## -parameters
 
