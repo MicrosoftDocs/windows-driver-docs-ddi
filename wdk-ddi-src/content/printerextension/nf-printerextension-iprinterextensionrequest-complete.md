@@ -9,7 +9,7 @@ ms.keywords: Complete, Complete method [Print Devices], Complete method [Print D
 req.header: printerextension.h
 req.include-header: 
 req.target-type: Desktop
-req.target-min-winverclnt: Windows�8
+req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
