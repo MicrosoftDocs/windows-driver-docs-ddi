@@ -2,7 +2,7 @@
 UID: NF:storport.StorPortNvmeIceIoStart
 tech.root: storage
 title: StorPortNvmeIceIoStart
-ms.date: 07/26/2024
+ms.date: 09/24/2025
 targetos: Windows
 description: Learn more about the StorPortNvmeIceIoStart function.
 prerelease: false
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (instant cryptographic erase) I/O operation.
+The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (Inline Cryptographic Engine) I/O operation.
 
 ## -parameters
 
@@ -54,7 +54,7 @@ The **StorPortNvmeIceIoStart** function initiates an NVMe ICE (instant cryptogra
 
 ### -param Srb
 
-[in] A pointer to a SCSI request block. This structure represents a single I/O request.
+[in] A pointer to a [SCSI request block](ns-storport-_scsi_request_block.md). This structure represents a single I/O request.
 
 ### -param LbaCount
 
