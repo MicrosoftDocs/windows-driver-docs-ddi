@@ -48,7 +48,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **KSMIDILOOPED_BUFFER** structure describes the buffer information returned by the [KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER](ne-ksmedia-ksproperty_midiloopedstreaming.md) property.
+The **KSMIDILOOPED_BUFFER** structure describes the buffer information returned by the [KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER](/windows-hardware/drivers/audio/ksproperty-midiloopedstreaming-buffer) property. It contains a pointer to the cross process memory buffer mapped into the callers process space, along with the size of the buffer allocated.
 
 ## -struct-fields
 
@@ -64,7 +64,9 @@ Specifies the actual size of the allocated looped streaming buffer, in bytes. Th
 
 This structure is used with the **KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER** property to retrieve information about the cyclic buffer used for MIDI looped streaming. The looped streaming mechanism allows for efficient, low-latency MIDI data processing by providing a circular buffer that can be accessed by both the driver and client applications.
 
-The buffer address returned in **BufferAddress** is typically mapped into the client process's address space to allow direct access to the MIDI data stream.
+The buffer address returned in *BufferAddress* is typically mapped into the client process's address space to allow direct access to the MIDI data stream.
+
+The *ActualBufferSize* value may differ from the requested size due to hardware or alignment requirements.
 
 ## -see-also
 

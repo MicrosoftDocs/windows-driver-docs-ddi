@@ -54,11 +54,11 @@ The **KSMIDILOOPED_REGISTERS** structure contains pointers to the read and write
 
 ### -field WritePosition
 
-Pointer to a ULONG value that indicates the current write position within the looped streaming buffer, in bytes. This register is updated by the driver as it places new MIDI data into the buffer.
+Pointer to a ULONG value that indicates the current write position within the looped streaming buffer, in bytes. The driver updates this register as it places new MIDI data into the buffer.
 
 ### -field ReadPosition
 
-Pointer to a ULONG value that indicates the current read position within the looped streaming buffer, in bytes. This register is updated by the client as it consumes data from the buffer.
+Pointer to a ULONG value that indicates the current read position within the looped streaming buffer, in bytes. The client updates this register as it consumes data from the buffer.
 
 ## -remarks
 
