@@ -1,30 +1,30 @@
 ---
 UID: NC:audiosensors.EVT_AUDIO_SENSORS_START_SESSION
 tech.root: audio
-title: EVT_AUDIO_SENSORS_START_SESSION
-ms.date: 09/26/2025
+title: EVT_AUDIO_SENSORS_START_SESSION (audiosensors.h)
+ms.date: 09/29/2025
 targetos: Windows
-description: The EVT_AUDIO_SENSORS_START_SESSION callback function is called to start a new audio sensors session with optional endpoint configurations.
+description: The EVT_AUDIO_SENSORS_START_SESSION callback function starts an audio sensors session with optional render and capture endpoint configurations.
 prerelease: false
-req.assembly: 
+req.assembly:
 req.construct-type: function
-req.ddi-compliance: 
-req.dll: 
+req.ddi-compliance:
+req.dll:
 req.header: audiosensors.h
-req.idl: 
-req.include-header: 
-req.irql: 
-req.kmdf-ver: 
-req.lib: 
-req.max-support: 
-req.namespace: 
-req.redist: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
-req.target-type: 
-req.type-library: 
-req.umdf-ver: 
-req.unicode-ansi: 
+req.idl:
+req.include-header:
+req.irql: PASSIVE_LEVEL
+req.kmdf-ver:
+req.lib:
+req.max-support:
+req.namespace:
+req.redist:
+req.target-min-winverclnt:
+req.target-min-winversvr:
+req.target-type:
+req.type-library:
+req.umdf-ver:
+req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
@@ -40,59 +40,51 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - EVT_AUDIO_SENSORS_START_SESSION
-ai-usage: ai-assisted
+ai-usage: ai-generated
 ---
 
 ## -description
 
-The **EVT_AUDIO_SENSORS_START_SESSION** callback function is implemented by audio sensor drivers to start a new sensors session. This function establishes a session for communication between the audio subsystem and sensor devices with optional endpoint configuration parameters.
+The **EVT_AUDIO_SENSORS_START_SESSION** callback function is implemented by the audio sensors driver and is called by the audio driver to start a new sensors session. This function configures audio endpoints for use in presence sensing scenarios.
 
 ## -parameters
 
 ### -param Context
 
-[in] A pointer to the audio driver-supplied context that was passed to the interface when it was acquired.
+A pointer to the audio driver-supplied context that was provided when the interface was obtained.
 
 ### -param ModuleId
 
-[in] An **[AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)** structure that identifies the specific audio module for which the session is being started.
+An [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md) structure that identifies the target audio module for this session.
 
 ### -param AudioRenderEndpointConfig
 
-[in, optional] A pointer to an **[AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)** structure that contains configuration details for the audio render endpoint. This parameter can be **NULL** if no render endpoint configuration is required.
+An optional pointer to an [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md) structure that contains the audio render endpoint configuration details to be used for this session. This parameter can be NULL if no render endpoint configuration is needed.
 
 ### -param AudioCaptureEndpointConfig
 
-[in, optional] A pointer to an **[AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)** structure that contains configuration details for the audio capture endpoint. This parameter can be **NULL** if no capture endpoint configuration is required.
+An optional pointer to an [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md) structure that contains the audio capture endpoint configuration details to be used for this session. This parameter can be NULL if no capture endpoint configuration is needed.
 
 ### -param SensorsSessionId
 
-[out] A pointer to a **ULONG** that receives the non-zero session ID for the newly created sensors session. This session ID is used in subsequent calls to identify this session.
+A pointer to a ULONG that receives a non-zero session identifier returned by the audio sensors driver. This identifier is used in subsequent calls to identify this specific session.
 
 ## -returns
 
-Returns an **NTSTATUS** value that indicates the success or failure of the function call.
+Returns an NTSTATUS value. Return **STATUS_SUCCESS** if the operation succeeds. Otherwise, return an appropriate [NTSTATUS error code](/windows-hardware/drivers/kernel/ntstatus-values).
 
 ## -remarks
 
-This callback function is called by the audio subsystem to initiate a new sensors session. The session allows for coordination between audio processing and sensor data, enabling advanced features such as adaptive audio processing based on environmental conditions, device usage patterns, or SoundWire bus topology changes.
+The **EVT_AUDIO_SENSORS_START_SESSION** callback is called by the audio driver when it needs to start a sensor session for presence sensing operations. The session associates audio endpoints with sensor functionality, typically for ultrasound-based presence detection.
 
-The *AudioRenderEndpointConfig* and *AudioCaptureEndpointConfig* parameters provide optional configuration information for the audio endpoints that will be used during this session. These configurations may include technology-specific settings such as SDCA (SoundWire Device Class for Audio) function information, which specifies the SoundWire controller, link, device, and function addresses for proper bus communication.
+The **SensorsSessionId** returned by this function must be a non-zero value that uniquely identifies the session. This identifier is used in subsequent calls to [EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md) and [EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md) functions.
 
-For SDCA-based endpoints, the configuration structures may contain detailed topology information including:
-
-- SoundWire controller and link identification
-- SDCA device unique IDs and function numbers
-- Function types (Smart Amplifier, Smart Microphone, etc.)
-- Manufacturer and function-specific identifiers
-
-The returned *SensorsSessionId* must be a non-zero value and will be used in subsequent operations such as buffer operations and session termination. The audio driver is responsible for managing session IDs and ensuring they remain valid until the corresponding **[EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)** is called.
+Both **AudioRenderEndpointConfig** and **AudioCaptureEndpointConfig** are optional, allowing flexibility in configuring sessions that may only need one direction of audio flow.
 
 ## -see-also
 
 - [EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)
 - [EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md)
-- [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)
 - [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)
+- [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)
 - [AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)
-- [audiosensors.h header](index.md)
