@@ -2,11 +2,8 @@
 UID: NI:ntddstor.IOCTL_STORAGE_FIRMWARE_DOWNLOAD
 title: IOCTL_STORAGE_FIRMWARE_DOWNLOAD (ntddstor.h)
 description: A driver can use IOCTL_STORAGE_FIRMWARE_DOWNLOAD to download a firmware image to a storage device, but does not activate it.
-old-location: storage\ioctl_storage_firmware_download.htm
 tech.root: storage
-ms.date: 03/29/2018
-keywords: ["IOCTL_STORAGE_FIRMWARE_DOWNLOAD IOCTL"]
-ms.keywords: IOCTL_STORAGE_FIRMWARE_DOWNLOAD, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control, IOCTL_STORAGE_FIRMWARE_DOWNLOAD control code [Storage Devices], ntddstor/IOCTL_STORAGE_FIRMWARE_DOWNLOAD, storage.ioctl_storage_firmware_download
+ms.date: 09/29/2025
 req.header: ntddstor.h
 req.include-header: Ntddstor.h
 req.target-type: Windows
@@ -42,10 +39,9 @@ api_name:
 
 # IOCTL_STORAGE_FIRMWARE_DOWNLOAD IOCTL
 
-
 ## -description
 
-A driver can use <b>IOCTL_STORAGE_FIRMWARE_DOWNLOAD</b> to download a firmware image to a storage device, but does not activate it. If the image to be downloaded is larger than the controller’s maximum data transfer size, this IOCTL will have to be called multiple times until the entire image is downloaded.
+A driver can use **IOCTL_STORAGE_FIRMWARE_DOWNLOAD** to download a firmware image to a storage device, but does not activate it. If the image to be downloaded is larger than the controller’s maximum data transfer size, this IOCTL will have to be called multiple times until the entire image is downloaded.
 
 ## -ioctlparameters
 
@@ -53,13 +49,11 @@ A driver can use <b>IOCTL_STORAGE_FIRMWARE_DOWNLOAD</b> to download a firmware i
 
 ### -input-buffer
 
-<b>
-       Irp->AssociatedIrp.SystemBuffer</b> contains <a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a> data that specifies information about the downloaded firmware to activate.
+**Irp->AssociatedIrp.SystemBuffer** contains [STORAGE_HW_FIRMWARE_DOWNLOAD](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_download) data that specifies information about the downloaded firmware to activate.
 
 ### -input-buffer-length
 
-<b>
-       Parameters.DeviceIoControl.InputBufferLength</b> indicates the size, in bytes, of the parameter buffer at <b>Irp->AssociatedIrp.SystemBuffer</b>, which must be >= <b>sizeof</b>(<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a>).
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of the parameter buffer at **Irp->AssociatedIrp.SystemBuffer**, which must be >= ```sizeof(STORAGE_HW_FIRMWARE_DOWNLOAD)```.
 
 ### -output-buffer
 
@@ -75,32 +69,20 @@ None.
 
 ### -status-block
 
-The <b>Information</b> field is set to the number of bytes returned. The <b>Status</b> field is set to <b>STATUS_SUCCESS</b>, or possibly to <b>STATUS_INSUFFICIENT_RESOURCES</b>.
+The **Information** field is set to the number of bytes returned. The **Status** field is set to **STATUS_SUCCESS**, or possibly to **STATUS_INSUFFICIENT_RESOURCES**.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_firmware_activate">IOCTL_STORAGE_FIRMWARE_ACTIVATE</a>
+[IOCTL_STORAGE_FIRMWARE_ACTIVATE](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_firmware_activate)
 
+[IOCTL_STORAGE_FIRMWARE_GET_INFO](/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_firmware_get_info)
 
+[STORAGE_HW_FIRMWARE_ACTIVATE](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_activate)
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ni-ntddstor-ioctl_storage_firmware_get_info">IOCTL_STORAGE_FIRMWARE_GET_INFO</a>
+[STORAGE_HW_FIRMWARE_DOWNLOAD](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_download)
 
+[STORAGE_HW_FIRMWARE_INFO](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info)
 
+[STORAGE_HW_FIRMWARE_INFO_QUERY](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info_query)
 
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_activate">STORAGE_HW_FIRMWARE_ACTIVATE</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_download">STORAGE_HW_FIRMWARE_DOWNLOAD</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info">STORAGE_HW_FIRMWARE_INFO</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_info_query">STORAGE_HW_FIRMWARE_INFO_QUERY</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_slot_info">STORAGE_HW_FIRMWARE_SLOT_INFO</a>
+[STORAGE_HW_FIRMWARE_SLOT_INFO](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-_storage_hw_firmware_slot_info)
