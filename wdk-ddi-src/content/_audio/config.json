@@ -15,6 +15,7 @@
     "acxrequest.h",
     "acxstreams.h",
     "acxtargets.h",
+    "audiosensors.h",
     "bthhfpddi.h",
     "dmusicks.h",
     "dmusprop.h",
