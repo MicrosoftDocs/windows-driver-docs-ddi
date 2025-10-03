@@ -106,8 +106,8 @@ dev_langs:
 ### Required AI Usage Metadata
 **IMPORTANT**: When Copilot creates or modifies content, include the appropriate `ai-usage` metadata attribute in the YAML frontmatter:
 
-- When **creating a new file**: Add `ai-usage: ai-generated`
-- When **modifying an existing file**: Add `ai-usage: ai-assisted`
+- When **creating a new file** or **adding content to a stub file that contains only field headings**: Add `ai-usage: ai-generated`
+- When **updating an existing file that already has free text content**, for example description or remarks: Add `ai-usage: ai-assisted`
 
 ### Common Metadata Patterns
 
