@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: ksmedia.h
-req.include-header: Ksmedia.h
+req.include-header: ksmedia.h
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
