@@ -1,16 +1,14 @@
 ---
 UID: NS:wdm._KBUGCHECK_REMOVE_PAGES
-title: _KBUGCHECK_REMOVE_PAGES
+title: KBUGCHECK_REMOVE_PAGES
 description: "Learn more about: KBUGCHECK_REMOVE_PAGES structure"
 tech.root: devtest
-ms.date: 05/08/2019
-keywords: ["KBUGCHECK_REMOVE_PAGES structure"]
-ms.keywords: KBUGCHECK_REMOVE_PAGES, KBUGCHECK_REMOVE_PAGES, *PKBUGCHECK_REMOVE_PAGES,
+ms.date: 09/26/2025
 req.header: wdm.h
 req.include-header: 
 req.target-type: 
-req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winverclnt: Windows Vista
+req.target-min-winversvr: Windows Server 2008
 req.kmdf-ver: 
 req.umdf-ver: 
 req.lib: 
@@ -41,30 +39,25 @@ api_name:
 
 # KBUGCHECK_REMOVE_PAGES structure
 
-
 ## -description
 
-The <b>KBUGCHECK_REMOVE_PAGES</b> structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine from the crash dump file.
+The **KBUGCHECK_REMOVE_PAGES** structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine from the crash dump file.
 
 ## -struct-fields
 
 ### -field Context
 
-Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, <b>Context</b> is <b>NULL</b>.
+Contains private context data for the exclusive use of the callback routine. The callback routine can set this member to any value. Typically, if the callback routine needs to be called more than one time, the routine sets this member to point to a driver-supplied buffer during the initial call. During subsequent calls, the callback routine can read the previous contents of this buffer and update its contents. Before the initial call to the callback routine, **Context** is NULL.
 
 ### -field Flags
 
-Contains flags that describe the remove-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits: 
+Contains flags that describe the remove-page request. The callback routine must set the value of this member. Set this member to the bitwise OR of one or more of the following flag bits:
 
-```cpp
-KB_ADD_PAGES_FEATURE_SHIFT       4
-
-KB_REMOVE_PAGES_FEATURE_SHIFT    4
-
-KB_ADD_PAGES_FEATURE_MASK        (0xF << KB_ADD_PAGES_FEATURE_SHIFT)
-
-KB_REMOVE_PAGES_FEATURE_MASK     (0xF << (KB_ADD_PAGES_FEATURE_SHIFT + KB_REMOVE_PAGES_FEATURE_SHIFT))
-```
+| Flag | Value | Description |
+|------|-------|-------------|
+| **KB_REMOVE_PAGES_FLAG_VIRTUAL_ADDRESS** | 0x00000001UL | Indicates the **Address** member contains a virtual address. |
+| **KB_REMOVE_PAGES_FLAG_PHYSICAL_ADDRESS** | 0x00000002UL | Indicates the **Address** member contains a physical address. |
+| **KB_REMOVE_PAGES_FLAG_ADDITIONAL_RANGES_EXIST** | 0x80000000UL | Indicates that the callback routine requests that it be called again so that it can remove more pages. |
 
 ### -field BugCheckCode
 
@@ -76,13 +69,14 @@ Specifies the physical or virtual address of the page or pages that the callback
 
 ### -field Count
 
-Specifies the number of contiguous pages to remove from the crash dump file, starting from the virtual or physical address that is specified by the <b>Address</b> member. If <b>Count</b> > 1 and <b>Address</b> is a virtual address, the pages are contiguous in virtual memory space. If <b>Count</b> > 1 and <b>Address</b> is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to remove any pages from the crash dump file.
+Specifies the number of contiguous pages to remove from the crash dump file, starting from the virtual or physical address that is specified by the **Address** member. If **Count** > 1 and **Address** is a virtual address, the pages are contiguous in virtual memory space. If **Count** > 1 and **Address** is a physical address, the pages are contiguous in physical memory space. The callback routine can set this member to zero to indicate that it does not need to remove any pages from the crash dump file.
 
 ## -remarks
 
-In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine, the operating system sets the <i>Reason</i> parameter to <b>KbCallbackRemovePages</b>, and sets the <i>ReasonSpecificData</i> parameter to point to a <b>KBUGCHECK_REMOVE_PAGES</b> structure.
+In a call to the [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](nc-wdm-kbugcheck_reason_callback_routine.md) callback routine, the operating system sets the **Reason** parameter to **KbCallbackRemovePages**, and sets the **ReasonSpecificData** parameter to point to a **KBUGCHECK_REMOVE_PAGES** structure.
 
-For more information about bug check callback routines, see <a href="/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine">Writing a Bug Check Callback Routine</a>.
+For more information about bug check callback routines, see [Writing a Bug Check Callback Routine](/windows-hardware/drivers/kernel/writing-a-bug-check-callback-routine).
 
 ## -see-also
 
+[**KBUGCHECK_ADD_PAGES**](ns-wdm-_kbugcheck_add_pages.md)

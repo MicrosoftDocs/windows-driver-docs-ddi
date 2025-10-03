@@ -3,9 +3,7 @@ UID: NF:ntifs.ZwNotifyChangeKey
 title: ZwNotifyChangeKey function (ntifs.h)
 description: Learn more about the ZwNotifyChangeKey function.
 tech.root: kernel
-ms.date: 01/19/2024
-keywords: ["ZwNotifyChangeKey function"]
-ms.keywords: NtNotifyChangeKey, ZwNotifyChangeKey, ZwNotifyChangeKey routine [Kernel-Mode Driver Architecture], k111_e9219ad8-c702-45a2-97f1-a195c1aa8b89.xml, kernel.zwnotifychangekey, ntifs/NtNotifyChangeKey, ntifs/ZwNotifyChangeKey
+ms.date: 09/25/2025
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -59,6 +57,8 @@ Optional handle to a caller-created event to be set to the Signaled state when t
 
 Pointer to a caller-supplied APC routine to run after the operation completes. This parameter is optional and can be NULL.
 
+* For a kernel-mode call, set this parameter to a pointer to a [**WORK_QUEUE_ITEM**](../wdm/ns-wdm-_work_queue_item.md) struct
+
 ### -param ApcContext [in, optional]
 
 Pointer to pass as an argument to the APC routine that **ApcRoutine** points to. This argument is required if **ApcRoutine** isn't NULL, and must be cast to type PVOID. Otherwise, if **ApcRoutine** is NULL, set this parameter to NULL, too.
@@ -108,6 +108,31 @@ If FALSE, the routine does not return until the specified event occurs. If TRUE,
 The **ZwNotifyChangeKey** routine returns STATUS_SUCCESS on success, or the appropriate NTSTATUS value otherwise. If the caller specifies TRUE for the **Asynchronous** parameter, and the event has not yet occurred, the routine returns STATUS_PENDING.
 
 ## -remarks
+
+**ZwNotifyChangeKey** monitors a registry key for changes and notifies the caller when modifications occur.
+
+The routine monitors the specified key (and optionally its subtree) for changes based on the **CompletionFilter** flags. When a change occurs, the system notifies the caller via event signaling, APC callback, or synchronous completion.
+
+This is a one-time notification. After a registry change triggers the notification, you must call **ZwNotifyChangeKey** again to continue monitoring.
+
+The key must be opened with KEY_NOTIFY access before calling this routine.
+
+For asynchronous operation (**Asynchronous** = TRUE):
+
+* If **Event** is specified, it will be signaled when changes occur. If **Event** is NULL, then **KeyHandle** is set to the Signaled state.
+* If **ApcRoutine** is specified, it will be called with **ApcContext** and **IoStatusBlock**.
+* If neither is specified, the **KeyHandle** itself becomes signalable.
+
+For synchronous operation (**Asynchronous** = FALSE):
+
+* The call blocks until a change occurs.
+* **Event**, **ApcRoutine**, and **ApcContext** parameters are ignored.
+
+The notification session ends when **KeyHandle** is closed.
+
+Note: **CompletionFilter** and **WatchTree** are set on the first call and apply to all subsequent calls using the same **KeyHandle**. These parameters are ignored on subsequent calls.
+
+Registry notifications hold handles that will prevent hive unload operations (such as [**RegUnloadKey**](/windows/win32/api/winreg/nf-winreg-regunloadkeyw)) until closed. Currently, there is no mechanism for a driver to have a notification that won’t block **RegUnloadKey**. Drivers can try to proactively cancel notifications when the monitored process or user session ends to avoid blocking legitimate hive management operations.
 
 If the call to the **ZwNotifyChangeKey** function occurs in user mode, you should use the name "**NtNotifyChangeKey**" instead of "**ZwNotifyChangeKey**".
 

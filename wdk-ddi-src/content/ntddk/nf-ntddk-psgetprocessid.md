@@ -3,7 +3,7 @@ UID: NF:ntddk.PsGetProcessId
 title: PsGetProcessId function (ntddk.h)
 description: The PsGetProcessId routine returns the process identifier (process ID) that is associated with a specified process.
 tech.root: kernel
-ms.date: 07/28/2025
+ms.date: 09/22/2025
 req.header: ntddk.h
 req.include-header: Ntddk.h
 req.target-type: Universal
@@ -57,8 +57,12 @@ A pointer to a process object structure.
 
 The EPROCESS-typed process object structure is an opaque data structure that the operating system uses internally. To obtain a pointer to the EPROCESS structure for the current process, a driver can call [**PsGetCurrentProcess**](../wdm/nf-wdm-iogetcurrentprocess.md). To obtain a pointer to the EPROCESS structure for a different process, the driver can call [**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md).
 
+When used with **PsGetCurrentProcess**, this function returns the process ID of the process that the current thread is attached to (from APC state). This may differ from [**PsGetCurrentProcessId**](nf-ntddk-psgetcurrentprocessid.md), which returns the process ID of the process that created the current thread.
+
 ## -see-also
 
 [**ObReferenceObjectByHandle**](../wdm/nf-wdm-obreferenceobjectbyhandle.md)
 
 [**PsGetCurrentProcess**](../wdm/nf-wdm-iogetcurrentprocess.md)
+
+[**PsGetCurrentProcessId**](nf-ntddk-psgetcurrentprocessid.md)
