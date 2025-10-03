@@ -2,7 +2,7 @@
 UID: NS:audiosensors._SDCA_FUNCTION_INFORMATION
 tech.root: audio
 title: SDCA_FUNCTION_INFORMATION (audiosensors.h)
-ms.date: 09/29/2025
+ms.date: 10/02/2025
 targetos: Windows
 description: The SDCA_FUNCTION_INFORMATION structure provides detailed information about an SDCA (Smart Device Class Audio) function.
 prerelease: false
@@ -90,11 +90,11 @@ The peripheral device's unique identifier within the SoundWire topology.
 
 ## -remarks
 
-The **SDCA_FUNCTION_INFORMATION** structure is used within [SDCA_ENDPOINT_CONFIG](ns-audiosensors-sdca_endpoint_config.md) to describe the SDCA functions that need to be configured for audio sensor operations.
+The **SDCA_FUNCTION_INFORMATION** structure is used within **[SDCA_ENDPOINT_CONFIG](ns-audiosensors-sdca_endpoint_config.md)** to describe the SDCA functions that need to be configured for audio sensor operations.
 
 SDCA (Smart Device Class Audio) is a specification that defines how audio devices connect and operate over SoundWire interfaces. This structure provides the necessary addressing information to identify and configure specific SDCA functions within the SoundWire topology.
 
 ## -see-also
 
-- [SDCA_ENDPOINT_CONFIG](ns-audiosensors-sdca_endpoint_config.md)
-- [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)
+- **[SDCA_ENDPOINT_CONFIG](ns-audiosensors-sdca_endpoint_config.md)**
+- **[AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)**

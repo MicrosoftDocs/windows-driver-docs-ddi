@@ -2,7 +2,7 @@
 UID: NS:audiosensors._AUDIO_MODULE_ID
 tech.root: audio
 title: AUDIO_MODULE_ID (audiosensors.h)
-ms.date: 09/29/2025
+ms.date: 10/02/2025
 targetos: Windows
 description: The AUDIO_MODULE_ID structure identifies a specific audio module by its class and instance identifiers.
 prerelease: false
@@ -62,12 +62,12 @@ A ULONG value that represents the instance identifier for the audio module. This
 
 ## -remarks
 
-The **AUDIO_MODULE_ID** structure is used throughout the Audio Sensors Interface to specify which audio module should be the target of various operations, such as starting or stopping sensor sessions and managing buffers.
+The **AUDIO_MODULE_ID** structure is used throughout the audio sensors interface to specify which audio module should be the target of various operations, such as starting or stopping sensor sessions and managing buffers.
 
 The combination of **ClassId** and **InstanceId** must uniquely identify an audio module within the system.
 
 ## -see-also
 
-- [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)
-- [EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)
-- [EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md)
+- **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)**
+- **[EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)**
+- **[EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md)**

@@ -2,7 +2,7 @@
 UID: NC:audiosensors.EVT_AUDIO_SENSORS_BUFFER
 tech.root: audio
 title: EVT_AUDIO_SENSORS_BUFFER (audiosensors.h)
-ms.date: 09/29/2025
+ms.date: 10/02/2025
 targetos: Windows
 description: The EVT_AUDIO_SENSORS_BUFFER callback function is used for buffer operations between audio and sensors drivers.
 prerelease: false
@@ -45,7 +45,7 @@ ai-usage: ai-generated
 
 ## -description
 
-The **EVT_AUDIO_SENSORS_BUFFER** callback function is used for buffer operations between audio and sensors drivers. This callback has multiple uses including getting buffers, setting buffers, and submitting read reports.
+The **EVT_AUDIO_SENSORS_BUFFER** callback function is used for buffer operations between audio drivers and audio sensors drivers. This callback has multiple uses including getting buffers, setting buffers, and submitting read reports.
 
 ## -parameters
 
@@ -55,11 +55,11 @@ A pointer to the audio sensors driver-supplied context.
 
 ### -param ModuleId
 
-An [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md) structure that identifies the target audio module.
+An **[AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)** structure that identifies the target audio module.
 
 ### -param SensorsSessionId
 
-The session identifier returned by the [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md) callback. A value of 0 indicates a request that is not associated with any specific sensors session.
+The session identifier returned by the **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)** callback. A value of 0 indicates a request that is not associated with any specific audio sensors session.
 
 ### -param BufferSize
 
@@ -75,19 +75,19 @@ Returns an NTSTATUS value. Return **STATUS_SUCCESS** if the operation succeeds. 
 
 ## -remarks
 
-The **EVT_AUDIO_SENSORS_BUFFER** callback function type is used for three different buffer operations in the Audio Sensors Interface:
+The **EVT_AUDIO_SENSORS_BUFFER** callback function type is used for three different buffer operations in the audio sensors interface:
 
 - **EvtAudioSensorsGetBuffer** - Used to retrieve buffer data from the audio sensors driver
 - **EvtAudioSensorsSetBuffer** - Used to set buffer data in the audio sensors driver  
 - **EvtAudioSensorsSubmitReadReport** - Used by the audio driver to submit read reports to the sensors driver
 
-The specific operation depends on which function pointer in the [AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md) structure is being used.
+The specific operation depends on which function pointer in the **[AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)** structure is being used.
 
 The **SensorsSessionId** parameter links operations to a specific sensor session created by **EVT_AUDIO_SENSORS_START_SESSION**. When the value is 0, the operation is not associated with any specific session.
 
 ## -see-also
 
-- [AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)
-- [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)
-- [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)
-- [EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)
+- **[AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)**
+- **[AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)**
+- **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)**
+- **[EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)**

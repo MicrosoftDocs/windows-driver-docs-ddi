@@ -2,7 +2,7 @@
 UID: NS:audiosensors._SDCA_ENDPOINT_CONFIG
 tech.root: audio
 title: SDCA_ENDPOINT_CONFIG (audiosensors.h)
-ms.date: 09/29/2025
+ms.date: 10/02/2025
 targetos: Windows
 description: The SDCA_ENDPOINT_CONFIG structure defines the configuration for SDCA (Smart Device Class Audio) endpoints, including information about the SDCA functions that need to be configured.
 prerelease: false
@@ -66,16 +66,16 @@ The number of SDCA functions in the **SdcaFunctionInformation** array.
 
 ### -field SdcaFunctionInformation[ANYSIZE_ARRAY]
 
-An array of [SDCA_FUNCTION_INFORMATION](ns-audiosensors-sdca_function_information.md) structures that provide details about the SDCA functions that need to be configured for this endpoint.
+An array of **[SDCA_FUNCTION_INFORMATION](ns-audiosensors-sdca_function_information.md)** structures that provide details about the SDCA functions that need to be configured for this endpoint.
 
 ## -remarks
 
-The **SDCA_ENDPOINT_CONFIG** structure is a variable-length structure that follows an [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md) structure when the **AudioInterfaceType** is **AUDIO_INTERFACE_SDCA**.
+The **SDCA_ENDPOINT_CONFIG** structure is a variable-length structure that follows an **[AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)** structure when the **AudioInterfaceType** is **AUDIO_INTERFACE_SDCA**.
 
 SDCA (Smart Device Class Audio) is a specification for audio devices that operate over SoundWire interfaces. This structure allows configuration of multiple SDCA functions that collectively implement an audio endpoint for sensor operations.
 
 ## -see-also
 
-- [SDCA_FUNCTION_INFORMATION](ns-audiosensors-sdca_function_information.md)
-- [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)
-- [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)
+- **[SDCA_FUNCTION_INFORMATION](ns-audiosensors-sdca_function_information.md)**
+- **[AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)**
+- **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)**

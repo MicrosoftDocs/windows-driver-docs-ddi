@@ -2,7 +2,7 @@
 UID: NC:audiosensors.EVT_AUDIO_SENSORS_STOP_SESSION
 tech.root: audio
 title: EVT_AUDIO_SENSORS_STOP_SESSION (audiosensors.h)
-ms.date: 09/29/2025
+ms.date: 10/02/2025
 targetos: Windows
 description: The EVT_AUDIO_SENSORS_STOP_SESSION callback function stops a previously started audio sensors session.
 prerelease: false
@@ -45,7 +45,7 @@ ai-usage: ai-generated
 
 ## -description
 
-The **EVT_AUDIO_SENSORS_STOP_SESSION** callback function is implemented by the audio sensors driver and is called by the audio driver to stop a previously started sensors session.
+The **EVT_AUDIO_SENSORS_STOP_SESSION** callback function is implemented by the audio driver and is called by the audio sensors driver to stop a previously started sensors session.
 
 ## -parameters
 
@@ -55,11 +55,11 @@ A pointer to the audio driver-supplied context that was provided when the interf
 
 ### -param ModuleId
 
-An [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md) structure that identifies the target audio module for this operation.
+An **[AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)** structure that identifies the target audio module for this operation.
 
 ### -param SensorsSessionId
 
-The session identifier that was returned by the [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md) callback when the session was started.
+The session identifier that was returned by the **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)** callback when the session was started.
 
 ## -returns
 
@@ -67,15 +67,15 @@ Returns an NTSTATUS value. Return **STATUS_SUCCESS** if the operation succeeds. 
 
 ## -remarks
 
-The **EVT_AUDIO_SENSORS_STOP_SESSION** callback is called by the audio driver when it needs to terminate a sensor session that was previously started with [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md).
+The **EVT_AUDIO_SENSORS_STOP_SESSION** callback is called by the audio driver when it needs to terminate a sensor session that was previously started with **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)**.
 
 After this function returns successfully, the **SensorsSessionId** is no longer valid and should not be used in subsequent operations.
 
-The audio sensors driver should clean up any resources associated with the session and ensure that any active sensing operations are properly terminated.
+The audio driver should clean up any resources associated with the session and ensure that any active sensing operations are properly terminated.
 
 ## -see-also
 
-- [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)
-- [EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md)
-- [AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)
-- [AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)
+- **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)**
+- **[EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md)**
+- **[AUDIO_MODULE_ID](ns-audiosensors-audio_module_id.md)**
+- **[AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)**

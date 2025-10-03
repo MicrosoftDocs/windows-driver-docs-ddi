@@ -2,9 +2,9 @@
 UID: NA:audiosensors
 tech.root: audio
 title: audiosensors.h
-ms.date: 09/29/2025
+ms.date: 10/02/2025
 targetos: Windows
-description: The audiosensors.h header defines the types, constants, and functions for device drivers that advertise the Audio Sensors Interface.
+description: The audiosensors.h header defines the types, constants, and functions for device drivers that advertise the audio sensors interface.
 prerelease: false
 req.assembly:
 req.construct-type: apiset
@@ -46,13 +46,13 @@ ai-usage: ai-generated
 
 ## -description
 
-This header defines the Audio Sensors Interface, which allows audio drivers to communicate with sensors drivers for presence sensing using ultrasound audio. The interface provides a standardized way for audio and sensors subsystems to coordinate for features like wake on approach and lock on leave.
+This header defines the audio sensors interface, which allows audio drivers to communicate with audio sensors drivers for presence sensing using ultrasound audio. The interface provides a standardized way for audio and sensors subsystems to coordinate for features like wake on approach and lock on leave.
 
 ## -remarks
 
-The Audio Sensors Interface includes:
+The audio sensors interface includes:
 
-- Interface definition for communication between audio and sensors drivers
+- Interface definition for communication between audio drivers and audio sensors drivers
 - Structure definitions for audio endpoint configuration 
 - Callback functions for session management and buffer operations
 - Support for SDCA (Smart Device Class Audio) endpoint configuration
@@ -61,7 +61,8 @@ The interface supports presence sensing scenarios where ultrasound audio signals
 
 ## -see-also
 
-- [AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)
-- [AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)
-- [EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)
-- [EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)
+- **[AUDIO_SENSORS_INTERFACE_V0100](ns-audiosensors-audio_sensors_interface_v0100.md)**
+- **[AUDIO_ENDPOINT_CONFIG](ns-audiosensors-audio_endpoint_config.md)**
+- **[EVT_AUDIO_SENSORS_START_SESSION](nc-audiosensors-evt_audio_sensors_start_session.md)**
+- **[EVT_AUDIO_SENSORS_STOP_SESSION](nc-audiosensors-evt_audio_sensors_stop_session.md)**
+- **[EVT_AUDIO_SENSORS_BUFFER](nc-audiosensors-evt_audio_sensors_buffer.md)**
