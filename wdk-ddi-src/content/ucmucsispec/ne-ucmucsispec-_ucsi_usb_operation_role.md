@@ -23,6 +23,12 @@ f1_keywords:
  - ucmucsispec/_UCSI_USB_OPERATION_ROLE
  - UCSI_USB_OPERATION_ROLE
  - ucmucsispec/UCSI_USB_OPERATION_ROLE
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - ucmucsispec.h
 api_name:
  - _UCSI_USB_OPERATION_ROLE
  - UCSI_USB_OPERATION_ROLE

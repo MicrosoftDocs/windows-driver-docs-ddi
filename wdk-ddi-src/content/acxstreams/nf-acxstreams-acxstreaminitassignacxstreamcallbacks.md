@@ -52,7 +52,7 @@ Address of a ACXSTREAM_INIT object used to define the stream initialization para
 
 ### -param StreamCallbacks
 
-An [ACX_STREAM_CALLBACKS structure](An [ACX_STREAM_CALLBACKS structure](ns-acxstreams-acx_stream_callbacks.md) that is used to define the following callbacks.
+An [ACX_STREAM_CALLBACKS structure](ns-acxstreams-acx_stream_callbacks.md) that is used to define the following callbacks.
 
 - PFN_ACX_STREAM_PREPARE_HARDWARE
 - PFN_ACX_STREAM_RELEASE_HARDWARE
