@@ -10,7 +10,7 @@ req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
 req.header: ksmedia.h
-req.include-header: Ksmedia.h
+req.include-header: ksmedia.h
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
