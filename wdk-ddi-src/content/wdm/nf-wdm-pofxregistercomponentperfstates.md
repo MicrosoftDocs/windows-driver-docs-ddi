@@ -133,7 +133,7 @@ The memory allocated for this parameter is managed by PoFx, and the driver shoul
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>STATUS_NOT_IMPLEMENTED</b></b></dt>
+<dt><b>STATUS_NOT_IMPLEMENTED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -144,7 +144,7 @@ The <i>Flags</i> parameter does not include the <b>PO_FX_FLAG_PERF_PEP_OPTIONAL<
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>STATUS_INVALID_PARAMETER</b></b></dt>
+<dt><b>STATUS_INVALID_PARAMETER</b></dt>
 </dl>
 </td>
 <td width="60%">

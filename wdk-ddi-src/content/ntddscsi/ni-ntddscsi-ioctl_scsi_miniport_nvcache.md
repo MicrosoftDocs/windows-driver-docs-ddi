@@ -60,7 +60,7 @@ The buffer at **Irp->AssociatedIrp.SystemBuffer** contains an [**SRB_IO_CONTROL*
 
 ### -input-buffer-length
 
-**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of all the input data: [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md), [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md), and function-specific data buffer combined. The presence or absence of a data buffer is indicated by the **NVCACHE_REQUEST_BLOCK****DataBufSize** field.
+**Parameters.DeviceIoControl.InputBufferLength** indicates the size, in bytes, of all the input data: [**SRB_IO_CONTROL**](./ns-ntddscsi-_srb_io_control.md), [**NVCACHE_REQUEST_BLOCK**](./ns-ntddscsi-_nvcache_request_block.md), and function-specific data buffer combined. The presence or absence of a data buffer is indicated by the **NVCACHE_REQUEST_BLOCK** **DataBufSize** field.
 
 ### -output-buffer
 

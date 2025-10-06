@@ -134,7 +134,7 @@ A minifilter driver calls **FltWriteFileEx** to write data to an open file.
 
 * The caller set the FLTFL_IO_OPERATION_NON_CACHED flag in the **Flags** parameter.
 
-* The file object was opened for noncached I/O. Usually, this is done by specifying the **FILE_NO_INTERMEDIATE_BUFFERING****CreateOptions** flag in the preceding call to [**FltCreateFile**](nf-fltkernel-fltcreatefile.md), [**FltCreateFileEx**](nf-fltkernel-fltcreatefileex.md), or [**ZwCreateFile**](../wdm/nf-wdm-zwcreatefile.md).
+* The file object was opened for noncached I/O. Usually, this is done by specifying the **FILE_NO_INTERMEDIATE_BUFFERING** **CreateOptions** flag in the preceding call to [**FltCreateFile**](nf-fltkernel-fltcreatefile.md), [**FltCreateFileEx**](nf-fltkernel-fltcreatefileex.md), or [**ZwCreateFile**](../wdm/nf-wdm-zwcreatefile.md).
 
 Noncached I/O imposes the following restrictions on the parameter values passed to **FltWriteFileEx**:
 

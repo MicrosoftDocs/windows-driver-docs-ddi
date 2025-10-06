@@ -66,7 +66,7 @@ A pointer to an IRP.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -77,7 +77,7 @@ The specified IRP did cause the system to wake.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

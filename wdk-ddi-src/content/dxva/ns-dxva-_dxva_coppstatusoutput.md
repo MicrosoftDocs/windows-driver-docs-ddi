@@ -67,7 +67,7 @@ Specifies the size, in bytes, of the status data at <b>COPPStatus</b>.
 
 Specifies an array that contains the status data. The display driver should return status data in one of the following ways, depending on the input value that was specified in the <b>guidStatusRequestID</b> member of the <a href="/windows-hardware/drivers/ddi/dxva/ns-dxva-_dxva_coppstatusinput">DXVA_COPPStatusInput</a> structure: 
 
-| ****Input value**** | ****Output status data**** | 
+| **Input value** | **Output status data** | 
 |:--|:--|
 | DXVA_COPPQueryDisplayData | Pointer to a [DXVA_COPPStatusDisplayData](./ns-dxva-_dxva_coppstatusdisplaydata.md)  structure | 
 | DXVA_COPPQueryProtectionType, DXVA_COPPQueryConnectorType, DXVA_COPPQueryLocalProtectionLevel, DXVA_COPPQueryGlobalProtectionLevel or DXVA_COPPQueryBusData| Pointer to a [DXVA_COPPStatusData](./ns-dxva-_dxva_coppstatusdata.md)  structure | 

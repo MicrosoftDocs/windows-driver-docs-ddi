@@ -104,7 +104,7 @@ The physical address of the DMA descriptor must be aligned to 64-bit boundaries.
 </tr>
 <tr>
 <td width="40%"><a id="NetDmaTransferStatusActive"></a><a id="netdmatransferstatusactive"></a><a id="NETDMATRANSFERSTATUSACTIVE"></a><dl>
-<dt><b><b>NetDmaTransferStatusActive</b></b></dt>
+<dt><b>NetDmaTransferStatusActive</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ The DMA transfer for the most recent DMA descriptor completed without errors, an
 </tr>
 <tr>
 <td width="40%"><a id="NetDmaTransferStatusIdle"></a><a id="netdmatransferstatusidle"></a><a id="NETDMATRANSFERSTATUSIDLE"></a><dl>
-<dt><b><b>NetDmaTransferStatusIdle</b></b></dt>
+<dt><b>NetDmaTransferStatusIdle</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -126,7 +126,7 @@ The DMA transfer for the last DMA descriptor in the linked list of descriptors c
 </tr>
 <tr>
 <td width="40%"><a id="NetDmaTransferStatusSuspend"></a><a id="netdmatransferstatussuspend"></a><a id="NETDMATRANSFERSTATUSSUSPEND"></a><dl>
-<dt><b><b>NetDmaTransferStatusSuspend</b></b></dt>
+<dt><b>NetDmaTransferStatusSuspend</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -140,7 +140,7 @@ The DMA transfer for the most recent DMA descriptor completed without errors, an
 </tr>
 <tr>
 <td width="40%"><a id="NetDmaTransferStatusHalted"></a><a id="netdmatransferstatushalted"></a><a id="NETDMATRANSFERSTATUSHALTED"></a><dl>
-<dt><b><b>NetDmaTransferStatusHalted</b></b></dt>
+<dt><b>NetDmaTransferStatusHalted</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -152,7 +152,7 @@ The DMA transfer for the most recent DMA transfer was aborted because of errors 
 </tr>
 <tr>
 <td width="40%"><a id="NetDmaTransferStatusArmed"></a><a id="netdmatransferstatusarmed"></a><a id="NETDMATRANSFERSTATUSARMED"></a><dl>
-<dt><b><b>NetDmaTransferStatusArmed</b></b></dt>
+<dt><b>NetDmaTransferStatusArmed</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -101,10 +101,10 @@ Number of medium changer devices in the system. A driver can use this number to 
 
 * By drivers that are initializing to determine the number of devices of a particular type that have already been initialized.
 * To track whether or not the AtDisk address range has already been claimed.
-* By the [**IoGetConfigurationInformation **](nf-ntddk-iogetconfigurationinformation.md) system service to return device type counts.
+* By the [**IoGetConfigurationInformation**](nf-ntddk-iogetconfigurationinformation.md) system service to return device type counts.
 
 ## -see-also
 
-[**IoGetConfigurationInformation **](nf-ntddk-iogetconfigurationinformation.md) (*ntddk.h*)
+[**IoGetConfigurationInformation**](nf-ntddk-iogetconfigurationinformation.md) (*ntddk.h*)
 
-[**IoGetConfigurationInformation **](../ntifs/nf-ntifs-iogetconfigurationinformation.md) (*ntifs.h*)
+[**IoGetConfigurationInformation**](../ntifs/nf-ntifs-iogetconfigurationinformation.md) (*ntifs.h*)

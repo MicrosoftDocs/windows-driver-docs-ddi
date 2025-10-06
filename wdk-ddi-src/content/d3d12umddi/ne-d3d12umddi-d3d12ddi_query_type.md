@@ -88,7 +88,7 @@ The query type is for video decode statistics. See [**D3D12DDI_QUERY_DATA_VIDEO_
 
 ### -field D3D12DDI_QUERY_TYPE_PIPELINE_STATISTICS1:10
 
-The query type is for graphics pipeline statistics. See [**D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1 **](ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1.md).
+The query type is for graphics pipeline statistics. See [**D3D12DDI_QUERY_DATA_PIPELINE_STATISTICS1**](ns-d3d12umddi-d3d12ddi_query_data_pipeline_statistics1.md).
 
 ## -remarks
 

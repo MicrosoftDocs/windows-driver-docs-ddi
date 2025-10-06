@@ -51,7 +51,7 @@ Defines the **KSPROPERTY_DVDCOPY_DVD_KEY1** constant.
 
 ### -field KSPROPERTY_DVDCOPY_DEC_KEY2
 
-Defines the **** constant.
+Defines the **KSPROPERTY_DVDCOPY_DEC_KEY2** constant.
 
 ### -field KSPROPERTY_DVDCOPY_TITLE_KEY
 

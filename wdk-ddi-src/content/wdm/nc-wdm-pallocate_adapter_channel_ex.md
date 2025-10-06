@@ -81,7 +81,7 @@ The number of map registers to use in the DMA transfer. The calling driver shoul
 </tr>
 <tr>
 <td width="40%"><a id="DMA_SYNCHRONOUS_CALLBACK"></a><a id="dma_synchronous_callback"></a><dl>
-<dt><b><b>DMA_SYNCHRONOUS_CALLBACK</b></b></dt>
+<dt><b>DMA_SYNCHRONOUS_CALLBACK</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -51,7 +51,7 @@ The **RtlUnicodeStringCchCopyStringNEx** function copies a string into a [UNICOD
 
 ### -param DestinationString [out]
 
-Optional. A pointer to a **UNICODE_STRING** structure that receives the copied string. The string that the *pszSrc *parameter points to (excluding the terminating null) is copied into the buffer that the *DestinationString* parameter's **UNICODE_STRING** structure points to. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. *DestinationString* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
+Optional. A pointer to a **UNICODE_STRING** structure that receives the copied string. The string that the *pszSrc* parameter points to (excluding the terminating null) is copied into the buffer that the *DestinationString* parameter's **UNICODE_STRING** structure points to. The maximum number of characters in the string is NTSTRSAFE_UNICODE_STRING_MAX_CCH. *DestinationString* can be **NULL**, but only if STRSAFE_IGNORE_NULLS is set in *dwFlags*.
 
 ### -param pszSrc [in]
 

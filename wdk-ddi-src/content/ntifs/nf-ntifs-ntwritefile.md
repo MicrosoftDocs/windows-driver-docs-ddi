@@ -83,12 +83,12 @@ If the call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) set only the **Desir
 
 If the call to [**NtCreateFile**](nf-ntifs-ntcreatefile.md) set either of the **CreateOptions** flags, FILE_SYNCHRONOUS_IO_ALERT or FILE_SYNCHRONOUS_IO_NONALERT, the I/O Manager maintains the current file position. If so, the caller of **NtWriteFile** can specify that the current file position offset be used instead of an explicit **ByteOffset** value. This specification can be made by using one of the following methods:
 
-* *Specify a pointer to a LARGE_INTEGER value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value FILE_USE_FILE_POINTER_POSITION.
+* Specify a pointer to a LARGE_INTEGER value with the **HighPart** member set to -1 and the **LowPart** member set to the system-defined value FILE_USE_FILE_POINTER_POSITION.
 * Pass a NULL pointer for **ByteOffset**.
 
 **NtWriteFile** updates the current file position by adding the number of bytes written when it completes the write operation, if it is using the current file position maintained by the I/O Manager.
 
-Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit **ByteOffset** value to **NtWriteFile**. Doing this automatically changes the current file position to that **ByteOffset**value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
+Even when the I/O Manager is maintaining the current file position, the caller can reset this position by passing an explicit **ByteOffset** value to **NtWriteFile**. Doing this automatically changes the current file position to that **ByteOffset** value, performs the write operation, and then updates the position according to the number of bytes actually written. This technique gives the caller atomic seek-and-write service.
 
 It is also possible to cause a write operation to start at the current end of file by specifying for **ByteOffset** a pointer to a LARGE_INTEGER value with **HighPart** set to -1 and **LowPart** set to FILE_WRITE_TO_END_OF_FILE. This works regardless of whether the I/O Manager is maintaining the current file position.
 

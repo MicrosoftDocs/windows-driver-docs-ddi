@@ -47,7 +47,7 @@ This macro retrieves a pointer to the [**KSEVENT_ENTRY**](ns-ks-_ksevent_entry.m
 
 ### -param Irp
 
-Contains a pointer to a KSEVENT_ENT****RY structure.
+Contains a pointer to a **KSEVENT_ENTRY** structure.
 
 ## -remarks
 
