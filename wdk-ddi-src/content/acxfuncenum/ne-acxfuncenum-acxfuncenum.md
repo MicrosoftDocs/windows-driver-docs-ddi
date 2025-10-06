@@ -97,7 +97,7 @@ Index for the **[AcxCircuitInitAssignAcxCreateStreamCallback](../acxcircuit/nf-a
 
 ### -field AcxCircuitInitDisableDefaultStreamBridgeHandlingTableIndex
 
-Index for the **[AcxCircuitInitDisableDefaultStreamBridgeHandling](../acxcircuit/nf-acxcircuit-acxcircuitinitassignacxcreatestreamcallback.md)** function.
+Index for the **[AcxCircuitInitDisableDefaultStreamBridgeHandling](../acxcircuit/nf-acxcircuit-acxcircuitinitdisabledefaultstreambridgehandling.md)** function.
 
 ### -field AcxCircuitCreateTableIndex
 

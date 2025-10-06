@@ -54,19 +54,19 @@ The length, in bytes, of this structure.
 
 ### -field EvtAcxStreamPrepareHardware
 
-The [PFN_ACX_STREAM_PREPARE_HARDWARE](nc-acxstreams-evt_acx_stream_prepare_hardware.md) Callback.
+The [EVT_ACX_STREAM_PREPARE_HARDWARE](nc-acxstreams-evt_acx_stream_prepare_hardware.md) Callback.
 
 ### -field EvtAcxStreamReleaseHardware
 
-The [PFN_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md) Callback.
+The [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md) Callback.
 
 ### -field EvtAcxStreamRun
 
-The [PFN_ACX_STREAM_RUN](nc-acxstreams-evt_acx_stream_run.md) Callback.
+The [EVT_ACX_STREAM_RUN](nc-acxstreams-evt_acx_stream_run.md) Callback.
 
 ### -field EvtAcxStreamPause
 
-The [PFN_ACX_STREAM_PAUSE](nc-acxstreams-evt_acx_stream_pause.md) Callback.
+The [EVT_ACX_STREAM_PAUSE](nc-acxstreams-evt_acx_stream_pause.md) Callback.
 
 ### -field EvtAcxStreamAssignDrmContentId
 

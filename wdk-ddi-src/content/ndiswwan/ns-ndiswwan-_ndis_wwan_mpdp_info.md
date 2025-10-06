@@ -51,7 +51,7 @@ The **NDIS_WWAN_MPDP_INFO** structure contains information for an operation to p
 
 ### -field Operation
 
-An [**NDIS_WWAN_MPDP_OPERATION**](ne-ndiswwan-_wwan_mpdp_operation.md) value that specifies the operation to perform.
+An [**WWAN_MPDP_OPERATION**](ne-ndiswwan-_wwan_mpdp_operation.md) value that specifies the operation to perform.
 
 ### -field ChildInterfaceGUID
 
@@ -68,7 +68,7 @@ This structure is a member of both the [**NDIS_WWAN_SET_MPDP_STATE**](ns-ndiswwa
 
 ## -see-also
 
-[**NDIS_WWAN_MPDP_OPERATION**](ne-ndiswwan-_wwan_mpdp_operation.md)
+[**WWAN_MPDP_OPERATION**](ne-ndiswwan-_wwan_mpdp_operation.md)
 
 [**NDIS_WWAN_SET_MPDP_STATE**](ns-ndiswwan-_ndis_wwan_set_mpdp_state.md)
 

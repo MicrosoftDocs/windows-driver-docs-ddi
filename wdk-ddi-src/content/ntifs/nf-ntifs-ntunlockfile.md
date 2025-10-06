@@ -83,7 +83,7 @@ The **NtUnlockFile** routine takes a range of bytes as specified by the **ByteOf
 Callers of **NtUnlockFile** must be running at IRQL = PASSIVE_LEVEL and [with special kernel APCs enabled**](/windows-hardware/drivers/kernel/disabling-apcs).
 
 > [!NOTE]
-> If the call to the **NtUnlockFile** function occurs in kernel mode, you should use the name "[**ZwUnlockFile**](nf-ntifs-zwlockfile.md)" instead of "**NtUnlockFile**".
+> If the call to the **NtUnlockFile** function occurs in kernel mode, you should use the name "[**ZwUnlockFile**](nf-ntifs-zwunlockfile.md)" instead of "**NtUnlockFile**".
 
 For calls from kernel-mode drivers, the **Nt*Xxx*** and **Zw*Xxx*** versions of a Windows Native System Services routine can behave differently in the way that they handle and interpret input parameters. For more information about the relationship between the **Nt*Xxx*** and **Zw*Xxx*** versions of a routine, see [Using Nt and Zw Versions of the Native System Services Routines](/windows-hardware/drivers/kernel/using-nt-and-zw-versions-of-the-native-system-services-routines).
 

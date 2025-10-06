@@ -58,7 +58,7 @@ Supplies the number of elements in the group affinity array.
 ### -param AffinityToken [in, out]
 
 
-Supplies a pointer to an affinity token structure which must be returned by [**PsAllocateAffinityToken**](nf-wdm-psallocateaffinitytoken.md). On output it receives an opaque affinity token that must be passed to [**PsRevertToUserMultipleGroupAffinity**](nf-wdm-psreverttousermultiplegroupaffinitythread.md) to revert the thread to its previous affinity.
+Supplies a pointer to an affinity token structure which must be returned by [**PsAllocateAffinityToken**](nf-wdm-psallocateaffinitytoken.md). On output it receives an opaque affinity token that must be passed to [**PsRevertToUserMultipleGroupAffinityThread**](nf-wdm-psreverttousermultiplegroupaffinitythread.md) to revert the thread to its previous affinity.
 
 ## -returns
 
@@ -70,4 +70,4 @@ Returns an NTSTATUS code.
 
 [PsAllocateAffinityToken](nf-wdm-psallocateaffinitytoken.md)
 
-[PsRevertToUserMultipleGroupAffinity](nf-wdm-psreverttousermultiplegroupaffinitythread.md)
+[PsRevertToUserMultipleGroupAffinityThread](nf-wdm-psreverttousermultiplegroupaffinitythread.md)

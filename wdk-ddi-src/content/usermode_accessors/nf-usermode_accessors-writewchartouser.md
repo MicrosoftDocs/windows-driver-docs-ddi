@@ -73,4 +73,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**ReadWCharFromUser**](nf-usermode_accessors-readwcharfromuser.md)
 
-[**WriteWCharToUserMode**](nf-usermode_accessors-writewchartomode.md)
+[**WriteWCharToMode**](nf-usermode_accessors-writewchartomode.md)

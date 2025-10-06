@@ -48,7 +48,7 @@ The **ACX_REQUEST_PARAMETERS_INIT** function initializes an ACX_REQUEST_PARAMETE
 
 ### -param Parameters
 
-An [ACX_REQUEST_PARAMETERS](nf-acxrequest-acxrequestgetparameters.md) structure that stores the ACX/KS operation parameters.
+An [ACX_REQUEST_PARAMETERS](ns-acxrequest-acx_request_parameters.md) structure that stores the ACX/KS operation parameters.
 
 ## -remarks
 

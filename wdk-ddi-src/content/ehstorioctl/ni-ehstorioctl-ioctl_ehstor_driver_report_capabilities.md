@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of the silo  driver's capabilities.  The silo driver sends this IOCTL with a <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a> structure that indicates whether authentication and banding are supported along with a list of EHSTOR IOCTLs it will handle.
+This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of the silo  driver's capabilities.  The silo driver sends this IOCTL with a <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_silo_driver_capabilities">SILO_DRIVER_CAPABILITIES</a> structure that indicates whether authentication and banding are supported along with a list of EHSTOR IOCTLs it will handle.
 
 ## -ioctlparameters
 
@@ -53,7 +53,7 @@ This IOCTL is used to inform the enhanced storage (EHSTOR) class driver of the s
 
 ### -input-buffer
 
-The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-tagact_authz_state">SILO_DRIVER_CAPABILITES</a>. This structure is followed immediately by a list of which redirected IOCTLs the silo driver will handle.
+The input buffer at <b>Irp->AssociatedIrp.SystemBuffer</b> must contain a structure of type <a href="/windows-hardware/drivers/ddi/ehstorioctl/ns-ehstorioctl-_silo_driver_capabilities">SILO_DRIVER_CAPABILITIES</a>. This structure is followed immediately by a list of which redirected IOCTLs the silo driver will handle.
 
 ### -input-buffer-length
 

@@ -463,7 +463,7 @@ The IDE_REQUEST_BLOCK structure provides a functionality similar to the <a href=
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy">AtaportDeviceBusy</a>
+<a href="/windows-hardware/drivers/ddi/irb/nf-irb-ataportdevicebusy">AtaPortDeviceBusy</a>
 
 
 

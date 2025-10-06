@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdevicedeinitialize">NfcDxDeviceInitialize</a>, otherwise an error is returned.
+The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdeviceinitialize">NfcDxDeviceInitialize</a>, otherwise an error is returned.
 
 ## -struct-fields
 

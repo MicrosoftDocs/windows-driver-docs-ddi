@@ -66,7 +66,7 @@ A pointer to an [EVT_ACX_PIN_RETRIEVE_JACK_SINK_INFO](./nc-acxpin-evt_acx_pin_re
 
 ### -field EvtAcxPinProcessJackRequest
 
-A pointer to an [EVT_ACX_OBJECT_PROCESS_REQUEST](../acxrequest/nc-acxrequest-evt_acx_object_process_event_request.md) callback function.
+A pointer to an [EVT_ACX_OBJECT_PROCESS_REQUEST](../acxrequest/nc-acxrequest-evt_acx_object_process_request.md) callback function.
 
 ### -field EvtAcxPinConnected
 

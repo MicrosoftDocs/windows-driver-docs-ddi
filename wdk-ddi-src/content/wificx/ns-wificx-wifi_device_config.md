@@ -40,7 +40,7 @@ dev_langs:
 
 ## -description
 
-The **WIFI_DEVICE_CONFIG** structure contains pointers to a client driver's WiFiCx-specific callback functions. The client driver must supply an initialized **WIFI_DEVICE_CONFIG** structure as an input parameter to [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
+The **WIFI_DEVICE_CONFIG** structure contains pointers to a client driver's WiFiCx-specific callback functions. The client driver must supply an initialized **WIFI_DEVICE_CONFIG** structure as an input parameter to [**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
 
 
 ## -struct-fields
@@ -71,9 +71,9 @@ Call [**WIFI_DEVICE_CONFIG_INIT**](nf-wificx-wifi_device_config_init.md) to init
 
 ## -see-also
 
-[**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
+[**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
 
-[*EVT_MBB_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md)
+[*EVT_WIFI_DEVICE_CREATE_ADAPTER*](nc-wificx-evt_wifi_device_create_adapter.md)
 
 [*EVT_WIFI_DEVICE_SEND_COMMAND*](nc-wificx-evt_wifi_device_send_command.md)
 

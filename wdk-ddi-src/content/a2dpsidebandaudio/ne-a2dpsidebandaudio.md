@@ -63,6 +63,6 @@ Also, see A2DP 1.3.1 section 4.2.5 and section 4.7.2 for additional information.
 
 [A2DPSidebandAudio](./index.md)
 
-[SET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)
+[SET_VENDOR_ID_TO_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)
 
 [GET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-get_vendor_id_from_paramset.md)

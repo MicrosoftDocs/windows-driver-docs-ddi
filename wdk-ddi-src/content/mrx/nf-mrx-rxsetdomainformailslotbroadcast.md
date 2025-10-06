@@ -71,8 +71,8 @@ One of the parameters passed to the **RxRegisterMinirdr** routine indicates whet
 
 [**RxRegisterMinirdr**](nf-mrx-rxregisterminirdr.md)
 
-[**RxStartMiniRdr**](nf-mrx-rxstartminirdr.md)
+[**RxStartMinirdr**](nf-mrx-rxstartminirdr.md)
 
-[**RxStopMiniRdr**](nf-mrx-rxstopminirdr.md)
+[**RxStopMinirdr**](nf-mrx-rxstopminirdr.md)
 
 [**RxFillAndInstallFastIoDispatch**](nf-mrx-__rxfillandinstallfastiodispatch.md)
