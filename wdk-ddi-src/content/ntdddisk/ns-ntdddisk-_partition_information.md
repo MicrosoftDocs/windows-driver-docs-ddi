@@ -121,7 +121,7 @@ Disk drivers should now use structures [DRIVE_LAYOUT_INFORMATION_EX](ns-ntdddisk
 
 [IoReadPartitionTableEx](../ntddk/nf-ntddk-ioreadpartitiontableex.md)
 
-[IoSetPartitionInformation](../ntddk/nf-ntddk-ioreadpartitiontableex.md)
+[IoSetPartitionInformation](../ntddk/nf-ntddk-iosetpartitioninformation.md)
 
 [IoSetPartitionInformationEx](../ntddk/nf-ntddk-iosetpartitioninformationex.md)
 

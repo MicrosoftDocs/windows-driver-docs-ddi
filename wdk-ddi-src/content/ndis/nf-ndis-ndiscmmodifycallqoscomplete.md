@@ -105,7 +105,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmodifycallqoscomplete">NdisMCmModifyCallQosComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndismcmmodifycallqoscomplete">NdisMCmModifyCallQoSComplete</a>
 
 
 

@@ -63,7 +63,7 @@ Any NDIS 6.0 or 6.1 driver can use **NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO** to re
 
 ## -see-also
 
-[**NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX**](nf-ndis-ndis_nbl_get_media_specific_info_ex.md)
+[**NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX**](nf-ndis-ndis_nbl_remove_media_specific_info_ex.md)
 
 [**NDIS_NBL_MEDIA_SPECIFIC_INFORMATION**](ns-ndis-_ndis_nbl_media_media_specific_information.md)
 

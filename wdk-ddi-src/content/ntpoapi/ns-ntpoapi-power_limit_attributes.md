@@ -111,7 +111,7 @@ Each instance of **POWER_LIMIT_ATTRIBUTES** is associated with one domain and on
 
 [PoQueryPowerLimitAttributes](../wdm/nf-wdm-poquerypowerlimitattributes.md)
 
-[PoQueryPowerLimitValue](../wdm/nf-wdm-poquerypowerlimitattributes.md)
+[PoQueryPowerLimitValue](../wdm/nf-wdm-poquerypowerlimitvalue.md)
 
 [PoSetPowerLimitValue](../wdm/nf-wdm-posetpowerlimitvalue.md)
 

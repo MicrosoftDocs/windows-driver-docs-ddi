@@ -4,7 +4,7 @@ tech.root: audio
 title: AcxMicArrayGeometryCreate
 ms.date: 12/16/2022
 targetos: Windows
-description: The AcxMicArrayGeometryCreate function creates and initializes a new ACXMICARRAYGEOMETRY object.
+description: The AcxMicArrayGeometryCreate function creates and initializes a new ACX_MIC_ARRAY_GEOMETRY object.
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -42,7 +42,7 @@ dev_langs:
 
 ## -description
 
-The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md) object.
+The **AcxMicArrayGeometryCreate** function creates and initializes a new [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md) object.
 
 ## -parameters
 
@@ -52,15 +52,15 @@ The ACXCIRCUIT object to which the mic array geometry will be added. For more in
 
 ### -param Attributes [in]
 
-Pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure to use when initializing the new **ACXMICARRAYGEOMETRY** structure.
+Pointer to a [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md) structure to use when initializing the new **ACX_MIC_ARRAY_GEOMETRY** structure.
 
 ### -param Config [in]
 
-Pointer to an [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md) structure to use when initializing the new **ACXMICARRAYGEOMETRY** structure.
+Pointer to an [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md) structure to use when initializing the new **ACX_MIC_ARRAY_GEOMETRY** structure.
 
 ### -param MicArrayGeometry [out]
 
-Pointer to the newly created **ACXMICARRAYGEOMETRY** structure.
+Pointer to the newly created **ACX_MIC_ARRAY_GEOMETRY** structure.
 
 ## -returns
 
@@ -78,7 +78,7 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-- [ACXMICARRAYGEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
+- [ACX_MIC_ARRAY_GEOMETRY](ns-acxpin-acx_mic_array_geometry.md)
 - [WDF_OBJECT_ATTRIBUTES](../wdfobject/ns-wdfobject-_wdf_object_attributes.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG](ns-acxpin-acx_micarraygeometry_config.md)
 - [ACX_MICARRAYGEOMETRY_CONFIG_INIT](nf-acxpin-acx_micarraygeometry_config_init.md)

@@ -42,13 +42,13 @@ dev_langs:
 
 ## -description
 
-The **ACX_DRIVER_CONFIG_INIT** function initializes an [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md) structure before calling the [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md) function.
+The **ACX_DRIVER_CONFIG_INIT** function initializes an [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure before calling the [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md) function.
 
 ## -parameters
 
 ### -param Config
 
-Pointer to an [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md) structure.
+Pointer to an [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md) structure.
 
 ## -remarks
 
@@ -67,6 +67,6 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 ## -see-also
 
-* [ACX_DRIVER_CONFIG](ne-acxdriver-acx_driver_config_flags.md)
+* [ACX_DRIVER_CONFIG](ns-acxdriver-acx_driver_config.md)
 * [AcxDriverInitialize](nf-acxdriver-acxdriverinitialize.md)
 * [acxdriver.h header](index.md)

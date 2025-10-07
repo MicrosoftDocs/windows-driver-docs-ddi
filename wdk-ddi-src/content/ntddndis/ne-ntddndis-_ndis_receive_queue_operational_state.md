@@ -86,7 +86,7 @@ The DMA operations on the queue are stopped because the queue is being freed, an
      <a href="/windows-hardware/drivers/network/oid-receive-filter-free-queue">
      OID_RECEIVE_FILTER_FREE_QUEUE</a> OID request, stops the DMA operations for the queue, and issues an 
      <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
-     NDIS_STATUS_RECEIVE_QUEUE_STATE</a> status indication.
+     NDIS_RECEIVE_QUEUE_STATE</a> status indication.
 
 ### -field NdisReceiveQueueOperationalStateMaximum
 
@@ -112,7 +112,7 @@ The <b>
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
-   NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
+   NDIS_RECEIVE_QUEUE_STATE</a>
 
 
 

@@ -76,7 +76,7 @@ Returns an NTSTATUS value.
 
 [PoQueryPowerLimitAttributes](nf-wdm-poquerypowerlimitattributes.md)
 
-[PoQueryPowerLimitValue](nf-wdm-poquerypowerlimitattributes.md)
+[PoQueryPowerLimitValue](nf-wdm-poquerypowerlimitvalue.md)
 
 [**POWER_LIMIT_ATTRIBUTES**](../ntpoapi/ns-ntpoapi-power_limit_attributes.md)
 

@@ -292,7 +292,7 @@ The current threshold, in threshold units, at which the miniport driver has been
 
 A formatted [**WWAN_LIST_HEADER**](../wwan/ns-wwan-_wwan_list_header.md) structure that represents a list of signal state extensions per data class and the number of data classes. The miniport driver must return a list of all supported data classes.
 
-This member points to a list of [**WWAN_SIGNAL_STATE_EXT**](../wwan/ns-wwan-_wwan_signal_state_ext.md) structures that use the **WWAN_LIST_HEADER** structure. The rest of the members of the **WWAN_SIGNAL_STATE_EX** structures are filled based on the highest available data class.
+This member points to a list of [**WWAN_SIGNAL_STATE_EXT**](../wwan/ns-wwan-_wwan_signal_state_ext.md) structures that use the **WWAN_LIST_HEADER** structure. The rest of the members of the **WWAN_SIGNAL_STATE_EXT** structures are filled based on the highest available data class.
 
 ## -see-also
 

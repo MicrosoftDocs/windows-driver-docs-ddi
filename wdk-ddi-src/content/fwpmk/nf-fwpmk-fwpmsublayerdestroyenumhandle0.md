@@ -58,8 +58,6 @@ Handle of a sublayer enumeration created by a call to **Handle of a sublayer enu
 
 Handle of a sublayer enumeration created by a call to **[FwpmSubLayerCreateEnumHandle0](nf-fwpmk-fwpmsublayercreateenumhandle0.md)**.
 
-[-description](nf-fwpmk-fwpmsublayercreateenumhandle0.md)**.
-
 ## -returns
 
 | Return code/value | Description |

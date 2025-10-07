@@ -70,7 +70,7 @@ The Flags field can be used to set the following Flags defined in the AcxRequest
 
 ### -field EvtAcxObjectProcessRequest
 
-The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_event_request.md) method handler associated with this item.
+The [EVT_ACX_OBJECT_PROCESS_REQUEST callback](nc-acxrequest-evt_acx_object_process_request.md) method handler associated with this item.
 
 ### -field Reserved
 

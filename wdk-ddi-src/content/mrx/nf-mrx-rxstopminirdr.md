@@ -92,7 +92,7 @@ The **RxStopMinirdr** routine then calls the network mini-redirector **MrxStop**
 
 [**RxRegisterMinirdr**](nf-mrx-rxregisterminirdr.md)
 
-[**RxStartMiniRdr**](nf-mrx-rxstartminirdr.md)
+[**RxStartMinirdr**](nf-mrx-rxstartminirdr.md)
 
 [**RxUnregisterMinirdr**](../rxstruc/nf-rxstruc-rxunregisterminirdr.md)
 

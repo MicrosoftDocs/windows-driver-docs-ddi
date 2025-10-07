@@ -86,7 +86,7 @@ An
 
 The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the 
     <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
-    NDIS_STATUS_RECEIVE_QUEUE_STATE</a> status indication.
+    NDIS_RECEIVE_QUEUE_STATE</a> status indication.
 
 ## -see-also
 
@@ -100,5 +100,5 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 
 <a href="/windows-hardware/drivers/ddi/ndis/ns-ndis-_ndis_receive_queue_state">
-   NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
+   NDIS_RECEIVE_QUEUE_STATE</a>
 

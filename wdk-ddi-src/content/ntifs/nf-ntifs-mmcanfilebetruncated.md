@@ -79,6 +79,6 @@ A file cannot be truncated (and **MmCanFileBeTruncated** will return FALSE) if a
 
 [**CcPurgeCacheSection**](nf-ntifs-ccpurgecachesection.md)
 
-[**CcSetFileSizesEx**](nf-ntifs-cccoherencyflushandpurgecache.md)
+[**CcSetFileSizesEx**](nf-ntifs-ccsetfilesizesex.md)
 
 [**MmFlushImageSection**](nf-ntifs-mmflushimagesection.md)

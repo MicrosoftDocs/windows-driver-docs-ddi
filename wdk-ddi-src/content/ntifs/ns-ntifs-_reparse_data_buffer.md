@@ -64,7 +64,7 @@ Size, in bytes, of the reparse data in the buffer that **DataBuffer** points to.
 
 ### -field Reserved
 
-Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object. For more information about the **FileName** member, see [FILE_OBJECT<](../wdm/ns-wdm-_file_object.md). This member is only valid for create operations when the I/O fails with STATUS_REPARSE. For all other purposes, such as setting or querying a reparse point for the reparse data, this member is treated as reserved.
+Length, in bytes, of the unparsed portion of the file name pointed to by the **FileName** member of the associated file object. For more information about the **FileName** member, see [FILE_OBJECT](../wdm/ns-wdm-_file_object.md). This member is only valid for create operations when the I/O fails with STATUS_REPARSE. For all other purposes, such as setting or querying a reparse point for the reparse data, this member is treated as reserved.
 
 ### -field DUMMYUNIONNAME
 

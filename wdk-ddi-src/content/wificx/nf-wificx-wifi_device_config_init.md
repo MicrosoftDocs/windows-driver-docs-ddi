@@ -67,7 +67,7 @@ The **WIFI_DEVICE_CONFIG_INIT** function initializes the [**WIFI_DEVICE_CONFIG**
 
 ## -remarks
 
-The client driver calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) event callback function in preparation for calling [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
+The client driver calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../wdfdriver/nc-wdfdriver-evt_wdf_driver_device_add.md) event callback function in preparation for calling [**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
 
 ## -see-also
 
@@ -81,5 +81,5 @@ The client driver calls this function from its [*EVT_WDF_DRIVER_DEVICE_ADD*](../
 
 [*EVT_WIFI_DEVICE_CREATE_WIFIDIRECTDEVICE*](nc-wificx-evt_wifi_device_create_wifidirectdevice.md)
 
-[**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
+[**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
 

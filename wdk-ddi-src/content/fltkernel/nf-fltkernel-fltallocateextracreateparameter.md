@@ -132,7 +132,7 @@ Memory pool that is allocated by the **FltAllocateExtraCreateParameter** routine
 
 [FltRemoveExtraCreateParameter](nf-fltkernel-fltremoveextracreateparameter.md)
 
-[FltSetEcpListIntoCallbackData](nf-fltkernel-fltremoveextracreateparameter.md)
+[FltSetEcpListIntoCallbackData](nf-fltkernel-fltsetecplistintocallbackdata.md)
 
 [IoCreateFileEx](../ntddk/nf-ntddk-iocreatefileex.md)
 

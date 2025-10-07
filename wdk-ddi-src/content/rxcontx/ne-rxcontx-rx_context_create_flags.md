@@ -37,7 +37,7 @@ helpviewer_keywords:
 
 ## -description
 
-**RX_CONTENT_CREATE_FLAGS** specifies flags set by RDBSS and passed to operations sent to the network mini-redirector during the creation of a context.
+**RX_CONTEXT_CREATE_FLAGS** specifies flags set by RDBSS and passed to operations sent to the network mini-redirector during the creation of a context.
 
 ## -enum-fields
 

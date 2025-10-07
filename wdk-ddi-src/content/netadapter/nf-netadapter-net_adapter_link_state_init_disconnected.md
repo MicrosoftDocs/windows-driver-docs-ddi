@@ -61,7 +61,7 @@ An initialized **NET_ADAPTER_LINK_STATE** structure is an input parameter value 
 
 ## -see-also
 
-[NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../ndis/ns-ndis-_ndis_miniport_adapter_attributes.md)
+[NDIS_MINIPORT_ADAPTER_GENERAL_ATTRIBUTES](../miniportgeneralattributes/ns-miniportgeneralattributes-ndis_miniport_adapter_general_attributes.md)
 
 [NET_ADAPTER_LINK_STATE_INIT](nf-netadapter-net_adapter_link_state_init.md)
 

@@ -60,7 +60,7 @@ The maximum number of queues for QOS or peers.
 
 If the demux type is WMMINFO call [**WIFI_ADAPTER_TX_WMMINFO_DEMUX_INIT**](nf-wificx-wifi_adapter_tx_wmminfo_demux_init.md) to initialize this structure. 
 
-If the demux type is PEER_ADDRESS call [**WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT**](nf-wificx-wifi_adapter_tx_wmminfo_demux_init.md) to initialize this structure.
+If the demux type is PEER_ADDRESS call [**WIFI_ADAPTER_TX_PEER_ADDRESS_DEMUX_INIT**](nf-wificx-wifi_adapter_tx_peer_address_demux_init.md) to initialize this structure.
 
 Call [**WifiAdapterInitAddTxDemux**](nf-wificx-wifiadapterinitaddtxdemux.md) to add the Tx demux information to the NETADAPTER.
 

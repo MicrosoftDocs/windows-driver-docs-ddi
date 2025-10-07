@@ -54,19 +54,19 @@ The length, in bytes, of this callbacks structure.
 
 ### -field EvtAcxKeywordSpotterRetrieveArm
 
-The [ACX_KEYWORDSPOTTER_RETRIEVE_ARM](nc-acxelements-evt_acx_keywordspotter_retrieve_arm.md) callback.
+The [EVT_ACX_KEYWORDSPOTTER_RETRIEVE_ARM](nc-acxelements-evt_acx_keywordspotter_retrieve_arm.md) callback.
 
 ### -field EvtAcxKeywordSpotterAssignArm
 
-The [ACX_KEYWORDSPOTTER_ASSIGN_ARM](nc-acxelements-evt_acx_keywordspotter_assign_arm.md) callback.
+The [EVT_ACX_KEYWORDSPOTTER_ASSIGN_ARM](nc-acxelements-evt_acx_keywordspotter_assign_arm.md) callback.
 
 ### -field EvtAcxKeywordSpotterAssignPatterns
 
-The [ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS](nc-acxelements-evt_acx_keywordspotter_assign_patterns.md) callback.
+The [EVT_ACX_KEYWORDSPOTTER_ASSIGN_PATTERNS](nc-acxelements-evt_acx_keywordspotter_assign_patterns.md) callback.
 
 ### -field EvtAcxKeywordSpotterAssignReset
 
-The [ACX_KEYWORDSPOTTER_ASSIGN_RESET](nc-acxelements-evt_acx_keywordspotter_assign_reset.md) callback.
+The [EVT_ACX_KEYWORDSPOTTER_ASSIGN_RESET](nc-acxelements-evt_acx_keywordspotter_assign_reset.md) callback.
 
 ## -remarks
 

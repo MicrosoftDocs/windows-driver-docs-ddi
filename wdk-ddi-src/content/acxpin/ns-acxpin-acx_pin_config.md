@@ -82,7 +82,7 @@ A GUID value representing the name of the pin.
 
 ### -field PinCallbacks
 
-A pointer to an [ACX_PIN_CALLBACKS](nf-acxpin-acx_pin_callbacks_init.md) structure that specifies the callback functions for the pin.
+A pointer to an [ACX_PIN_CALLBACKS](ns-acxpin-acx_pin_callbacks.md) structure that specifies the callback functions for the pin.
 
 ### -field PropertiesCount
 
@@ -128,5 +128,5 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 - [ACX_PIN_CONFIG_FLAGS](ne-acxpin-acx_pin_config_flags.md)
 - [ACX_PROPERTY_ITEM](../acxrequest/ns-acxrequest-acx_property_item.md)
 - [ACX_METHOD_ITEM](../acxrequest/ns-acxrequest-acx_method_item.md)
-- [ACX_PIN_CALLBACKS](nf-acxpin-acx_pin_callbacks_init.md)
+- [ACX_PIN_CALLBACKS](ns-acxpin-acx_pin_callbacks.md)
 - [acxpin.h header](index.md)
