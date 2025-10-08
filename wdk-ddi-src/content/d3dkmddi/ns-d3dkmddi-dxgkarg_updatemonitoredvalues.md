@@ -66,7 +66,7 @@ helpviewer_keywords:
 
 ### -field Flags
 
-[in] A [**DXGKARG_UPDATEMONITOREDVALUES_FLAGS **](ns-d3dkmddi-dxgkarg_updatemonitoredvalues_flags.md) value that specifies the flags for the update.
+[in] A [**DXGKARG_UPDATEMONITOREDVALUES_FLAGS**](ns-d3dkmddi-dxgkarg_updatemonitoredvalues_flags.md) value that specifies the flags for the update.
 
 ### -field Reserved[28]
 

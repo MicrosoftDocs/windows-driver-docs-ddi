@@ -46,7 +46,7 @@ api_name:
 
 ## -description
 
-The** KsCreateFilterFactory** function adds a filter factory to a given device.
+The **KsCreateFilterFactory** function adds a filter factory to a given device.
 
 ## -parameters
 

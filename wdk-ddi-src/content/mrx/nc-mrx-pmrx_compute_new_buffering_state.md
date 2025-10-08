@@ -69,7 +69,7 @@ A pointer to where the new buffering state is stored when the routine returns.
 
 ## -remarks
 
-Before calling **MRxComputeNewBufferingState**, RDBSS sets the **FcbState** member of **SrvOpen****->Fcb** to FCB_STATE_BUFFERSTATE_CHANGING.
+Before calling **MRxComputeNewBufferingState**, RDBSS sets the **FcbState** member of **SrvOpen->Fcb** to FCB_STATE_BUFFERSTATE_CHANGING.
 
 The Server Message Block (SMB) redirector uses **MRxComputeNewBufferingState** to map the SMB-specific oplock levels into the appropriate RDBSS buffering state flags. The oplock level is passed in the **MrxContext** parameter.
 

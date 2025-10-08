@@ -72,7 +72,7 @@ Indicates the maximum temperature in degrees Celsius at which the device is capa
 
 ### -field InfoCount
 
-Specifies the number of [**STORAGE_TEMPERATURE_INFO*](ns-ntddstor-_storage_temperature_info.md) structures reported in **TemperatureInfo**. More than one set of temperature data may be returned when there are multiple sensors in the drive.
+Specifies the number of [**STORAGE_TEMPERATURE_INFO**](ns-ntddstor-_storage_temperature_info.md) structures reported in **TemperatureInfo**. More than one set of temperature data may be returned when there are multiple sensors in the drive.
 
 ### -field Reserved0[2]
 
@@ -84,14 +84,14 @@ Reserved for future use.
 
 ### -field TemperatureInfo[ANYSIZE_ARRAY]
 
-Device temperature data, of type [**STORAGE_TEMPERATURE_INFO*](ns-ntddstor-_storage_temperature_info.md).
+Device temperature data, of type [**STORAGE_TEMPERATURE_INFO**](ns-ntddstor-_storage_temperature_info.md).
 
 ## -see-also
 
 [**IOCTL_STORAGE_QUERY_PROPERTY**](ni-ntddstor-ioctl_storage_query_property.md)
 
-[**STORAGE_PROPERTY_ID*](ne-ntddstor-storage_property_id.md)
+[**STORAGE_PROPERTY_ID**](ne-ntddstor-storage_property_id.md)
 
-[**STORAGE_PROPERTY_QUERY*](ns-ntddstor-_storage_property_query.md)
+[**STORAGE_PROPERTY_QUERY**](ns-ntddstor-_storage_property_query.md)
 
-[**STORAGE_TEMPERATURE_INFO*](ns-ntddstor-_storage_temperature_info.md)
+[**STORAGE_TEMPERATURE_INFO**](ns-ntddstor-_storage_temperature_info.md)

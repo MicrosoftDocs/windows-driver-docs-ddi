@@ -96,7 +96,7 @@ For most miniport drivers, **VideoPortGetAccessRanges** can retrieve, verify, an
 
 Each successful call to **VideoPortGetAccessRanges** or **VideoPortVerifyAccessRanges** for a particular adapter overwrites the miniport driver's preceding claim on hardware resources in the registry.
 
-After a successful call to **VideoPortGetAccessRanges**, the miniport driver must map the returned bus-relative ranges to logical ranges with [**VideoPortGetDeviceBase**](nf-video-videoportgetdevicebase.md) *before* calling the appropriate **VideoPortRead/Write****Xxx** function to communicate with the adapter.
+After a successful call to **VideoPortGetAccessRanges**, the miniport driver must map the returned bus-relative ranges to logical ranges with [**VideoPortGetDeviceBase**](nf-video-videoportgetdevicebase.md) *before* calling the appropriate **VideoPortRead/Write*Xxx*** function to communicate with the adapter.
 
 Generally, the miniport driver of a PCI device should have its [**HwVidFindAdapter**](nc-video-pvideo_hw_find_adapter.md) function call **VideoPortGetAccessRanges**, rather than attempt to manipulate the nondevice-specific PCI_COMMON_CONFIG information returned by a call to [**VideoPortGetBusData**](nf-video-videoportgetbusdata.md). This miniport driver can typically call **VideoPortGetAccessRanges** with a NULL**RequestedResources** pointer. The video port driver then uses the configuration space of the PCI bus to determine the resources for the video adapter. The miniport driver can call **VideoPortGetAccessRanges**, using a set of driver-supplied **RequestedResources** specifications, if its original call fails to return valid configuration data for the adapter.
 

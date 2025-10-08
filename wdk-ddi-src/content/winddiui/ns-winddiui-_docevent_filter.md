@@ -65,7 +65,7 @@ Driver-supplied total number of elements needed in the **aDocEventCall** array m
 
 ### -field cElementsReturned
 
-Driver-supplied number of DOCUMENTEVENT_**XXX **events that it placed in the **aDocEventCall** array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
+Driver-supplied number of DOCUMENTEVENT_**XXX** events that it placed in the **aDocEventCall** array member. The spooler initializes this member to 0XFFFFFFFF. For more information, see the following Remarks section.
 
 ### -field aDocEventCall
 

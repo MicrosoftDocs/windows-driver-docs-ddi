@@ -81,7 +81,7 @@ Indicates the number of bytes of data transferred for the SRB. This member is no
 
 ## -remarks
 
-When the miniport driver receives an SRB in which the **Function** member is set to SRB_FUNCTION_WMI, it calls [**ScsiPortWmiDispatchFunction**](nf-scsiwmi-scsiportwmidispatchfunction.md) with request parameters, including a pointer to a request context. **ScsiPortWmiDispatchFunction** passes the request context to the miniport driver's appropriate **HwScsiWmi*****Xxx*** routine.
+When the miniport driver receives an SRB in which the **Function** member is set to SRB_FUNCTION_WMI, it calls [**ScsiPortWmiDispatchFunction**](nf-scsiwmi-scsiportwmidispatchfunction.md) with request parameters, including a pointer to a request context. **ScsiPortWmiDispatchFunction** passes the request context to the miniport driver's appropriate **HwScsiWmi*Xxx*** routine.
 
 When the miniport driver is done processing the SRB and prior to completing the SRB, the miniport driver should call [**ScsiPortWmiPostProcess**](nf-scsiwmi-scsiportwmipostprocess.md) to update the **ReturnStatus** and **ReturnSize** members of the request context. The miniport driver updates the SRB's data transfer length and status to these values by calling [**ScsiPortWmiGetReturnSize**](nf-scsiwmi-scsiportwmigetreturnsize.md) and [**ScsiPortWmiGetReturnStatus**](nf-scsiwmi-scsiportwmigetreturnstatus.md). respectively.
 
