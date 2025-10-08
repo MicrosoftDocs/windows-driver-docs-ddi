@@ -53,7 +53,7 @@ A pointer to the miniport driver per-adapter device extension.
 
 ### -param SpinLock [in]
 
-Specifies an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire. For this function, **SpinLock** must be one of: **DpcLock**, **StartIoLock**, or **InterruptLock**. Call [**StorportAcquireSpinLockEx**](nf-storport-storportacquirespinlockex.md) to acquire other types of spin locks.
+Specifies an enumerator value of type [**STOR_SPINLOCK**](ne-storport-_stor_spinlock.md) that specifies the spin lock to acquire. For this function, **SpinLock** must be one of: **DpcLock**, **StartIoLock**, or **InterruptLock**. Call [**StorPortAcquireSpinLockEx**](nf-storport-storportacquirespinlockex.md) to acquire other types of spin locks.
 
 ### -param LockContext [in]
 

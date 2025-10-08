@@ -54,7 +54,7 @@ The length, in bytes, of this structure.
 
 ### -field Flags
 
-Bitwise OR of [ACX_OBJECTBAG_FLAGS](ne-acxmisc-acx_objectbag_config_flags.md) that is used to configure the object bag.
+Bitwise OR of [ACX_OBJECTBAG_CONFIG_FLAGS](ne-acxmisc-acx_objectbag_config_flags.md) that is used to configure the object bag.
 
 ### -field ParentKey
 

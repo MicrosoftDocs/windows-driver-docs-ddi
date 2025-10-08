@@ -104,4 +104,4 @@ A miniport driver's call to
 
 [NET_BUFFER_LIST](./../nbl/ns-nbl-net_buffer_list.md)
 
-[NdisSendNetBufferLists](./../nbl/ns-nbl-net_buffer_list.md)
+[NdisSendNetBufferLists](./nf-ndis-ndissendnetbufferlists.md)

@@ -55,7 +55,7 @@ A WiFiCx driver's *EvtWifiDeviceSendCommand* callback function retrieves and pro
 
 ## -remarks
 
-A WiFiCx client driver must register its *EvtWifiDeviceSendCommand* callback function by calling [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
+A WiFiCx client driver must register its *EvtWifiDeviceSendCommand* callback function by calling [**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
 
 The WiFiCx framework invokes *EvtWifiDeviceSendCommand* to issue a command message to the client driver.
 
@@ -73,7 +73,7 @@ For more information, see [Handling WiFiCx command messages](/windows-hardware/d
 
 [Handling WiFiCx command messages](/windows-hardware/drivers/netcx/writing-a-wificx-client-driver#handling-wificx-command-messages)
 
-[**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
+[**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md)
 
 [**WifiRequestGetInOutBuffer**](nf-wificx-wifirequestgetinoutbuffer.md) 
 

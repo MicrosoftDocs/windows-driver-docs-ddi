@@ -75,7 +75,7 @@ The time parameter of this power limit.
 
 [PoQueryPowerLimitAttributes](../wdm/nf-wdm-poquerypowerlimitattributes.md)
 
-[PoQueryPowerLimitValue](../wdm/nf-wdm-poquerypowerlimitattributes.md)
+[PoQueryPowerLimitValue](../wdm/nf-wdm-poquerypowerlimitvalue.md)
 
 [PoSetPowerLimitValue](../wdm/nf-wdm-posetpowerlimitvalue.md)
 

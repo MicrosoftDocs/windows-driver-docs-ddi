@@ -73,4 +73,4 @@ This function works on all versions of Windows, not just the latest. You need to
 
 [**ReadUShortFromUser**](nf-usermode_accessors-readushortfromuser.md)
 
-[**WriteUShortToUserMode**](nf-usermode_accessors-writeushorttomode.md)
+[**WriteUShortToMode**](nf-usermode_accessors-writeushorttomode.md)

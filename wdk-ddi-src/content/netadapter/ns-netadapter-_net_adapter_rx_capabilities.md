@@ -101,7 +101,7 @@ The minimum alignment for packet fragments. This member must be a power of 2.
 
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME2.DmaCapabilities
 
-A pointer to a driver-allocated and initialized [**NET_DMA_CAPABILITIES**](ns-netadapter-_net_adapter_dma_capabilities.md) structure that describes the adapter's DMA capabilities on the receive path. This member is ignored by NetAdapterCx if **MappingRequirement** is not set to **NetMemoryMappingRequirementDmaMapped**. 
+A pointer to a driver-allocated and initialized [**NET_ADAPTER_DMA_CAPABILITIES**](ns-netadapter-_net_adapter_dma_capabilities.md) structure that describes the adapter's DMA capabilities on the receive path. This member is ignored by NetAdapterCx if **MappingRequirement** is not set to **NetMemoryMappingRequirementDmaMapped**. 
 
 UMDF NetAdapterCX doesn't support **DmaCapabilities**. UMDF drivers must set this member to **NULL**.
 

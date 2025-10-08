@@ -59,7 +59,7 @@ This request is sent by a driver that replaces the Microsoft-provided composite 
 
 ### -input-buffer
 
-**Parameters.Others.Argument1** is a pointer to a caller-allocated and initialized [REGISTER_COMPOSITE_DEVICE<](../usbdlib/ns-usbdlib-_register_composite_device.md) structure that contains information about the parent driver. To initialize the structure, call the [USBD_BuildRegisterCompositeDevice](../usbdlib/nf-usbdlib-usbd_buildregistercompositedevice.md) routine.
+**Parameters.Others.Argument1** is a pointer to a caller-allocated and initialized [REGISTER_COMPOSITE_DEVICE](../usbdlib/ns-usbdlib-_register_composite_device.md) structure that contains information about the parent driver. To initialize the structure, call the [USBD_BuildRegisterCompositeDevice](../usbdlib/nf-usbdlib-usbd_buildregistercompositedevice.md) routine.
 
 The **AssociatedIrp.SystemBuffer** member points to a caller-allocated buffer that is large enough to hold an array of function handles (typed USBD_FUNCTION_HANDLE) for functions in the USB composite device. The number of elements in the array is indicated by the **FunctionCount** member of [REGISTER_COMPOSITE_DEVICE](../usbdlib/ns-usbdlib-_register_composite_device.md). To obtain the number of functions, inspect the descriptors returned by a get-configuration request.
 

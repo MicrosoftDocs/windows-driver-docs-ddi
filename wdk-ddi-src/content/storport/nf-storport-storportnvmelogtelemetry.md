@@ -62,7 +62,7 @@ An NMVe miniport driver calls the **StorPortNvmeLogTelemetry** function to log t
 
 ### -param Event
 
-[in] Pointer to a [**STORPORT_TELEMTRY_EVENT**](ns-storport-_storport_telemetry_event.md) structure that contains standard event fields and miniport payload data.
+[in] Pointer to a [**STORPORT_TELEMETRY_EVENT**](ns-storport-_storport_telemetry_event.md) structure that contains standard event fields and miniport payload data.
 
 ### -param Category
 
@@ -87,4 +87,4 @@ An NVMe miniport can call this function to log a tracelogging measures event wit
 
 [**STOR_TELEMETRY_CATEGORY**](ne-storport-_stor_telemetry_category.md)
 
-[**STORPORT_TELEMTRY_EVENT**](ns-storport-_storport_telemetry_event.md)
+[**STORPORT_TELEMETRY_EVENT**](ns-storport-_storport_telemetry_event.md)

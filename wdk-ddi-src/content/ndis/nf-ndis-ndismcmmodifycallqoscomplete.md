@@ -102,7 +102,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmmodifycallqoscomplete">NdisCmModifyCallQosComplete</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscmmodifycallqoscomplete">NdisCmModifyCallQoSComplete</a>
 
 
 

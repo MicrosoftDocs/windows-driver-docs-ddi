@@ -56,7 +56,7 @@ api_name:
 
 Unicode string that identifies a particular VC. This string is the Unicode version of a string
      identifier that was previously returned by the 
-     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscogettapicallid">NdisCoGetTapiCallID</a> function.
+     <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscogettapicallid">NdisCoGetTapiCallId</a> function.
 
 ### -param ProtocolVcContext [out]
 

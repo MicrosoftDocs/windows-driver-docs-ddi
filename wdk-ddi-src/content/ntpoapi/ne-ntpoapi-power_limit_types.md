@@ -75,7 +75,7 @@ The sum of peak power of specified devices, which is used to adjust **PowerLimit
 
 [PoQueryPowerLimitAttributes](../wdm/nf-wdm-poquerypowerlimitattributes.md)
 
-[PoQueryPowerLimitValue](../wdm/nf-wdm-poquerypowerlimitattributes.md)
+[PoQueryPowerLimitValue](../wdm/nf-wdm-poquerypowerlimitvalue.md)
 
 [PoSetPowerLimitValue](../wdm/nf-wdm-posetpowerlimitvalue.md)
 

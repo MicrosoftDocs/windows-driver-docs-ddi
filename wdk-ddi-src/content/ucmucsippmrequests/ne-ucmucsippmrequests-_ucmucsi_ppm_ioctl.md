@@ -47,7 +47,7 @@ See [IOCTL_UCMUCSI_PPM_SEND_UCSI_DATA_BLOCK](ni-ucmucsippmrequests-ioctl_ucmucsi
 
 ### -field _IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK 
 
-See [IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK](ns-ucmucsippmrequests-_ucmucsi_ppm_get_ucsi_data_block_in_params.md)
+See [IOCTL_UCMUCSI_PPM_GET_UCSI_DATA_BLOCK](ni-ucmucsippmrequests-ioctl_ucmucsi_ppm_get_ucsi_data_block.md)
 
 ## -remarks
 

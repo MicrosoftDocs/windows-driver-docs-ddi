@@ -68,7 +68,7 @@ Specifies the long integer to convert.
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertulongtoluid">RtlConvertULongToLuid</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlconvertulongtoluid">RtlConvertUlongToLuid</a>
 
 
 

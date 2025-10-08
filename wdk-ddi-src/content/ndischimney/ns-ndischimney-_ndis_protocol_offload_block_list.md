@@ -565,7 +565,7 @@ An NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure can be immediately followed in mem
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate">NdisQueryOffload</a>
+<a href="/windows-hardware/drivers/ddi/ndischimney/nf-ndischimney-ndisqueryoffloadstate">NdisQueryOffloadState</a>
 
 
 

@@ -159,7 +159,7 @@ This member specifies, in clock ticks, the maximum time that the offload target 
      <b>MaxRT</b> overrides 
      <b>TcpMaximumRetransmissions</b> in the 
      <a href="/windows-hardware/drivers/ddi/ndischimney/ns-ndischimney-_ndis_tcp_connection_offload_parameters">
-     NDIS_TASK_TCP_CONNECTION_OFFLOAD</a> structure. The default value for is 
+     NDIS_TCP_CONNECTION_OFFLOAD_PARAMETERS</a> structure. The default value for is 
      <b>MaxRT</b> is zero, which means that 
      <b>TcpMaximumRetransmissions</b> sets the maximum number of times that the offload target should
      retransmit a segment on a TCP connection. If the value of 

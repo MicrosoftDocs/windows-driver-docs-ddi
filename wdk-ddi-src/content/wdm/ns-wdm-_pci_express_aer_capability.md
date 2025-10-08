@@ -95,7 +95,7 @@ A [**PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_MASK**](ns-wdm-_pci_express_sec_uncorre
 
 ### -field SecUncorrectableErrorSeverity
 
-A [**PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERIT**](ns-wdm-_pci_express_sec_uncorrectable_error_severity.md)Y structure that describes the PCIe secondary uncorrectable error severity register of the PCIe AER capability structure.
+A [**PCI_EXPRESS_SEC_UNCORRECTABLE_ERROR_SEVERITY**](ns-wdm-_pci_express_sec_uncorrectable_error_severity.md) structure that describes the PCIe secondary uncorrectable error severity register of the PCIe AER capability structure.
 
 ### -field SecCapabilitiesAndControl
 

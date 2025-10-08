@@ -86,6 +86,6 @@ Callers of **StorportWaitForSingleObject** must be running at IRQL <= DISPATCH_L
 
 [**KeWaitForSingleObject**](../wdm/nf-wdm-kewaitforsingleobject.md)
 
-[**StorportInitializeEvent**](nf-storport-storportinitializeevent.md)
+[**StorPortInitializeEvent**](nf-storport-storportinitializeevent.md)
 
 [**StorportSetEvent**](nf-storport-storportsetevent.md)

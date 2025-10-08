@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxsetllcpconfig">NfcCxSetLlcpConfig.</a>
+The NFC_CX_LLCP_CONFIG structure is an input parameter to <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxsetllcpconfig">NfcCxSetLlcpConfig</a>.
 
 ## -struct-fields
 

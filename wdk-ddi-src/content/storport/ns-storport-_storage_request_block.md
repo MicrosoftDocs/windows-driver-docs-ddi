@@ -253,7 +253,7 @@ Points to a port driver context data for this request. This member is irrelevant
 
 ### -field MiniportContext
 
-Points to the Srb extension. A miniport driver must not use this member if it set **SrbExtensionSize** to zero in [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md). The memory at **MiniportContext** is not initialized by the operating system-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling [**StorportGetPhysicalAddress**](nf-storport-storportgetphysicaladdress.md) with the **MiniportContext** pointer.
+Points to the Srb extension. A miniport driver must not use this member if it set **SrbExtensionSize** to zero in [**HW_INITIALIZATION_DATA**](ns-storport-_hw_initialization_data-r1.md). The memory at **MiniportContext** is not initialized by the operating system-specific port driver, and the miniport driver-determined data can be accessed directly by the HBA. The corresponding physical address can be obtained by calling [**StorPortGetPhysicalAddress**](nf-storport-storportgetphysicaladdress.md) with the **MiniportContext** pointer.
 
 ### -field NextSrb
 

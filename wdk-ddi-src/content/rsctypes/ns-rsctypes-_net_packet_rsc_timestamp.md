@@ -61,7 +61,7 @@ The absolute delta between the earliest and the latest TCP timestamp value seen 
 
 ## -remarks
 
-Client drivers can obtain this structure for a packet by calling [**NetExtensionGetPacketRscTimeStamp**](../rsc/nf-rsc-netextensiongetpacketrsctimestamp.md).
+Client drivers can obtain this structure for a packet by calling [**NetExtensionGetPacketRscTimestamp**](../rsc/nf-rsc-netextensiongetpacketrsctimestamp.md).
 
 ## -see-also
 
