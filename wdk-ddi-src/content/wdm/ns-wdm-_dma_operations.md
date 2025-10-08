@@ -211,7 +211,7 @@ A pointer to a [*PCREATE_COMMON_BUFFER_FROM_MDL*](nc-wdm-pcreate-common-buffer-f
 
 ## -remarks
 
-All members of this structure, with the exception of **Size**, are pointers to functions that drivers use to perform DMA operations for their devices. Drivers obtain these pointers by calling the [**IoGetDmaAdapter**](nf-wdm-iogetdmaadapter.md) routine. The version of the **DMA_OPERATIONS** structure that this routine returns depends on the **Version** member of the [**DEVICE_DESCRIPTION**](wdm/ns-wdm-_device_description.md) structure that is passed to **IoGetDmaAdapter** as an input parameter. If **Version** is DEVICE_DESCRIPTION_VERSION or DEVICE_DESCRIPTION_VERSION1, version 1 of this structure is returned. If **Version** is DEVICE_DESCRIPTION_VERSION2, version 2 of this structure is returned. Version 2 of **DMA_OPERATIONS** is available starting with  Windows XP. If **Version** is DEVICE_DESCRIPTION_VERSION3, version 3 of this structure is returned. Version 3 of **DMA_OPERATIONS** is available starting with  Windows 8.
+All members of this structure, with the exception of **Size**, are pointers to functions that drivers use to perform DMA operations for their devices. Drivers obtain these pointers by calling the [**IoGetDmaAdapter**](nf-wdm-iogetdmaadapter.md) routine. The version of the **DMA_OPERATIONS** structure that this routine returns depends on the **Version** member of the [**DEVICE_DESCRIPTION**](ns-wdm-_device_description.md) structure that is passed to **IoGetDmaAdapter** as an input parameter. If **Version** is DEVICE_DESCRIPTION_VERSION or DEVICE_DESCRIPTION_VERSION1, version 1 of this structure is returned. If **Version** is DEVICE_DESCRIPTION_VERSION2, version 2 of this structure is returned. Version 2 of **DMA_OPERATIONS** is available starting with  Windows XP. If **Version** is DEVICE_DESCRIPTION_VERSION3, version 3 of this structure is returned. Version 3 of **DMA_OPERATIONS** is available starting with  Windows 8.
 
 ## -see-also
 
@@ -237,7 +237,7 @@ All members of this structure, with the exception of **Size**, are pointers to f
 
 [**ConfigureAdapterChannel**](nc-wdm-pconfigure_adapter_channel.md)
 
-[**DEVICE_DESCRIPTION**](nc-wdm-_device_description.md)
+[**DEVICE_DESCRIPTION**](ns-wdm-_device_description.md)
 
 [**FlushAdapterBuffers**](nc-wdm-pflush_adapter_buffers.md)
 
