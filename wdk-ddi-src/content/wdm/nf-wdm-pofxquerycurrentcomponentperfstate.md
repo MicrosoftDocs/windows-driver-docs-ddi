@@ -86,7 +86,7 @@ A pointer to variable in which the current performance state for the specified p
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>STATUS_INVALID_PARAMETER</b></b></dt>
+<dt><b>STATUS_INVALID_PARAMETER</b></dt>
 </dl>
 </td>
 <td width="60%">

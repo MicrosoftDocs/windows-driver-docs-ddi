@@ -78,7 +78,7 @@ A pointer to a data buffer to include in the event notification. If the driver d
 ### -param CallBack [in, optional]
 
 
-A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used).
+A pointer to a caller-specified function that is called to determine whether a given event should be generated. If this is **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet* and *EventId* are used).
 
 ### -param CallBackContext [in, optional]
 
@@ -91,7 +91,7 @@ When calling this function, a minidriver must place *Data* and *CallBackContext*
 
 Minidrivers typically do not call this function directly and instead use one of the versions that performs appropriate casting: [KsFilterGenerateEvents](./nf-ks-ksfiltergenerateevents.md) or [KsPinGenerateEvents](./nf-ks-kspingenerateevents.md).
 
-An event is generated if it is present in *Object's *event list and *EventId *matches the event's ID, *EventSet* either matches the event's set GUID or is **NULL**, and *CallBack *is either **NULL** or authorizes the match.
+An event is generated if it is present in *Object's *event list and *EventId* matches the event's ID, *EventSet* either matches the event's set GUID or is **NULL**, and *CallBack* is either **NULL** or authorizes the match.
 
 *CallBack* is a caller-specified callback used for additional match determination. It is prototyped as follows:
 

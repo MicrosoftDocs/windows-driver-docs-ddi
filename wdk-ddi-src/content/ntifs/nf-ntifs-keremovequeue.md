@@ -72,7 +72,7 @@ Pointer to a variable that specifies the absolute or relative time, in units of 
 
 Callers of **KeRemoveQueue** should test whether its return value is STATUS_TIMEOUT or STATUS_USER_APC before accessing any entry members. Testing the return value of **KeRemoveQueue** against **NULL** is a programming error.
 
-Specifying a zero value for ***Timeout** indicates the caller's unwillingness to wait for an entry if the queue is currently empty. Specifying a **NULL****Timeout** pointer indicates the caller's willingness to wait indefinitely for an entry.
+Specifying a zero value for ***Timeout** indicates the caller's unwillingness to wait for an entry if the queue is currently empty. Specifying a **NULL** **Timeout** pointer indicates the caller's willingness to wait indefinitely for an entry.
 
 If the **WaitMode** parameter is **UserMode**, the kernel stack can be swapped out during the wait. Consequently, a caller must never attempt to pass parameters on the stack when calling **KeRemoveQueue** with **WaitMode** set to **UserMode**.
 

@@ -167,7 +167,7 @@ The **RtlStringCbCopyUnicodeStringEx** function uses the destination buffer's si
 
 If the source and destination strings overlap, the behavior of the function is undefined.
 
-The *SourceString *and *pszDest* pointers cannot be **NULL** unless the STRSAFE_IGNORE_NULLS flag is set in *dwFlags*. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be **NULL**. If the *pszDest* pointer is **NULL**, the *SourceString *pointer must be **NULL** or the [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure must describe an empty string.
+The *SourceString* and *pszDest* pointers cannot be **NULL** unless the STRSAFE_IGNORE_NULLS flag is set in *dwFlags*. If STRSAFE_IGNORE_NULLS is set, one or both of these pointers can be **NULL**. If the *pszDest* pointer is **NULL**, the *SourceString* pointer must be **NULL** or the [UNICODE_STRING](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) structure must describe an empty string.
 
 For more information about the safe string functions, see [Using safe string functions](/windows-hardware/drivers/kernel/using-safe-string-functions).
 

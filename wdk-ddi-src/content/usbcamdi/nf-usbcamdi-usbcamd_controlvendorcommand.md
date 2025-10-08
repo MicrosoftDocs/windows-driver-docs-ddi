@@ -95,7 +95,7 @@ Other possible error codes include:
 
 ## -remarks
 
-This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md) is called and passed the value in the *CommandContext* argument*.*
+This function may be called at IRQL >= PASSIVE_LEVEL. If the function is called at IRQL > PASSIVE_LEVEL, the command is deferred. After completion, the camera minidriver defined [CommandCompleteFunction](./nc-usbcamdi-pcommand_complete_function.md) is called and passed the value in the *CommandContext* argument.
 
 ## -see-also
 

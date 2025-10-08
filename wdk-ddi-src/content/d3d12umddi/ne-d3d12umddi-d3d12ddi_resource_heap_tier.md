@@ -51,7 +51,7 @@ Indicates that heaps can support resources from all three categories.
 
 ## -remarks
 
-See [**D3D12_RESOURCE_HEAP_TIER **](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_heap_tier) for a detailed description for each tier level.
+See [**D3D12_RESOURCE_HEAP_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_heap_tier) for a detailed description for each tier level.
 
 ## -see-also
 

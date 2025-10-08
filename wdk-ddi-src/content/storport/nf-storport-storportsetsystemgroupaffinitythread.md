@@ -97,7 +97,7 @@ If **StorPortSetSystemGroupAffinityThread** is called at IRQL <= APC_LEVEL and t
 
 ## -see-also
 
-[**KeSetSystemGroupAffinityThread **](../wdm/nf-wdm-kesetsystemgroupaffinitythread.md)
+[**KeSetSystemGroupAffinityThread**](../wdm/nf-wdm-kesetsystemgroupaffinitythread.md)
 
 [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md)
 
