@@ -35,8 +35,10 @@ Your goal is to write API reference documentation pages for Windows Driver Kit (
 
 10. Don't remove anything from the stub files. If no information exists for a field or entity, leave it blank and move on.
 
-11. Make the API entities in the -see-also section to relative links in markdown format. Arrange the -see-also section a dashed list of bulleted links.
+11. Ensure that `ai-usage: ai-assisted` is included as a metadata attribute in the YAML frontmatter. If this attribute is not present, add it.
 
-12. Add or delete blank lines as needed to ensure there is only one blank line at the end of each file.
+12. Make the API entities in the -see-also section to relative links in markdown format. Arrange the -see-also section a dashed list of bulleted links.
 
-13. If a file matching `na-*.md` exists, rename that file to `index.md`
+13. Add or delete blank lines as needed to ensure there is only one blank line at the end of each file.
+
+14. If a file matching `na-*.md` exists, rename that file to `index.md`
