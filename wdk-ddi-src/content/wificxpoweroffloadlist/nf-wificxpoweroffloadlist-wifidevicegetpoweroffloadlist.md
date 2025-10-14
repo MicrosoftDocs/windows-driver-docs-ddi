@@ -60,6 +60,8 @@ Call [**WIFI_POWER_OFFLOAD_LIST_INIT**](nf-wificxpoweroffloadlist-wifi_power_off
 
 The client driver must only call **WifiDeviceGetPowerOffloadList** during a power transition, typically from its *[EVT_WDF_DEVICE_ARM_WAKE_FROM_SX](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_sx.md)*, *[EVT_WDF_DEVICE_ARM_WAKE_FROM_S0](../wdfdevice/nc-wdfdevice-evt_wdf_device_arm_wake_from_s0.md)*, or *[EVT_NET_DEVICE_PREVIEW_POWER_OFFLOAD](../netdevice/nc-netdevice-evt_net_device_preview_power_offload.md)* callback function. Otherwise, the call results in a system bugcheck.
 
+The returned [**WIFI_POWER_OFFLOAD_LIST**](ns-wificxpoweroffloadlist-wifi_power_offload_list.md) is invalid once the device resumes to a working (D0) power state. 
+
 ## -see-also
 
 [**WIFI_POWER_OFFLOAD_LIST**](ns-wificxpoweroffloadlist-wifi_power_offload_list.md)
