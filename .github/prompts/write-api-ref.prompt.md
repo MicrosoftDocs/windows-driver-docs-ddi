@@ -1,6 +1,6 @@
 ---
 mode: 'agent'
-model: Claude Sonnet 4
+model: Claude Sonnet 4.5
 tools: [microsoft_docs_search, runCommands, edit, runTasks]
 description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git and the Learn MCP tool, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations in attached headers, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git or Learn MCP access is unavailable, the agent reports the problem and stops.'
 ---
@@ -33,7 +33,7 @@ Your goal is to write API reference documentation pages for Windows Driver Kit (
 
 9. Open and write the completed documentation pages in the checked out files listed in the CSV.
 
-10. Don't remove anything from the stub files. If no information exists for a field or entity, leave it blank and move on.
+10. Don't remove any existing text from the stub files.
 
 11. Ensure that `ai-usage: ai-assisted` is included as a metadata attribute in the YAML frontmatter. If this attribute is not present, add it.
 
