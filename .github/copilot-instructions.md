@@ -15,6 +15,7 @@ This repository contains the source files for the Windows Driver Kit (WDK) Devic
 windows-driver-docs-ddi/
 ├── wdk-ddi-src/content/          # Main content directory
 │   ├── {header}/                 # Header file directories (e.g., ntddk, wificx, etc.)
+│   │   ├── na-{header}-*.md     # Header documentation, rename this to index.md
 │   │   ├── nf-{header}-*.md     # Function documentation
 │   │   ├── ns-{header}-*.md     # Structure documentation  
 │   │   ├── ne-{header}-*.md     # Enumeration documentation
@@ -45,6 +46,7 @@ All documentation files follow a strict naming pattern using prefixes to indicat
 
 | Prefix | Type | Description | Example |
 |--------|------|-------------|---------|
+| `na` | Header | Header file entry page, should be renamed to `index.md` | `na-wificx.md` |
 | `ne` | Enum | Enumerations and enumerated types | `ne-wificx-wifi_adapter_type.md` |
 | `nc` | Callback | Callback functions and function pointers | `nc-wificx-evt_wifi_device_create_adapter.md` |
 | `ni` | IOCTL | Input/Output Control codes | `ni-charging-ioctl_cad_disable_charging.md` |
@@ -103,9 +105,11 @@ dev_langs:
 ---
 ```
 
-#### Required AI Usage Metadata
+### Required AI Usage Metadata
+**IMPORTANT**: When Copilot creates or modifies content, include the appropriate `ai-usage` metadata attribute in the YAML frontmatter:
 
-**IMPORTANT**: When Copilot creates or modifies content, ensure that `ai-usage: ai-assisted` is included as a metadata attribute in the YAML frontmatter. If this attribute is not present, add it.
+- When **creating a new file**: Add `ai-usage: ai-generated`
+- When **modifying an existing file**: Add `ai-usage: ai-assisted`
 
 ### Common Metadata Patterns
 
