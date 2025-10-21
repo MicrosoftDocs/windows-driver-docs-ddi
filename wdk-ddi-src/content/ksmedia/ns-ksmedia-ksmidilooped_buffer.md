@@ -2,7 +2,7 @@
 UID: NS:ksmedia.KSMIDILOOPED_BUFFER
 tech.root: audio
 title: KSMIDILOOPED_BUFFER (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 10/20/2025
 targetos: Windows
 description: The KSMIDILOOPED_BUFFER structure describes the buffer information returned by the KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER property.
 prerelease: false
@@ -70,7 +70,7 @@ The *ActualBufferSize* value may differ from the requested size due to hardware 
 
 ## -see-also
 
-- [KSMIDILOOPED_BUFFER_PROPERTY](ns-ksmedia-ksmidilooped_buffer_property.md)
-- [KSMIDILOOPED_REGISTERS](ns-ksmedia-ksmidilooped_registers.md)
-- [KSMIDILOOPED_EVENT](ns-ksmedia-ksmidilooped_event.md)
-- [KSPROPERTY_MIDILOOPEDSTREAMING](ne-ksmedia-ksproperty_midiloopedstreaming.md)
+- **[KSMIDILOOPED_BUFFER_PROPERTY](ns-ksmedia-ksmidilooped_buffer_property.md)**
+- **[KSMIDILOOPED_REGISTERS](ns-ksmedia-ksmidilooped_registers.md)**
+- **[KSMIDILOOPED_EVENT](ns-ksmedia-ksmidilooped_event.md)**
+- **[KSPROPERTY_MIDILOOPEDSTREAMING](ne-ksmedia-ksproperty_midiloopedstreaming.md)**

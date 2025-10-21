@@ -2,7 +2,7 @@
 UID: NS:ksmedia.KSMIDILOOPED_EVENT
 tech.root: audio
 title: KSMIDILOOPED_EVENT (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 10/20/2025
 targetos: Windows
 description: The KSMIDILOOPED_EVENT structure specifies the event handles used for notification in MIDI looped streaming.
 prerelease: false
@@ -62,8 +62,18 @@ This structure is used with the **KSPROPERTY_MIDILOOPEDSTREAMING_NOTIFICATION_EV
 
 The write event is typically signaled when the driver has processed data from the buffer, indicating that buffer space is available for new data. The client should create this event before setting the property, and it should be a reset event (manual or automatic reset, depending on the application's needs).
 
+### Code sample
+
+```cpp
+_Use_decl_annotations_
+NTSTATUS StreamEngine::SetLoopedStreamingNotificationEvent(PKSMIDILOOPED_EVENT Buffer)
+{
+ // Code to handle event...
+}
+```
+
 ## -see-also
 
-- [KSMIDILOOPED_BUFFER](ns-ksmedia-ksmidilooped_buffer.md)
-- [KSMIDILOOPED_REGISTERS](ns-ksmedia-ksmidilooped_registers.md)
-- [KSPROPERTY_MIDILOOPEDSTREAMING](ne-ksmedia-ksproperty_midiloopedstreaming.md)
+- **[KSMIDILOOPED_BUFFER](ns-ksmedia-ksmidilooped_buffer.md)**
+- **[KSMIDILOOPED_REGISTERS](ns-ksmedia-ksmidilooped_registers.md)**
+- **[KSPROPERTY_MIDILOOPEDSTREAMING](ne-ksmedia-ksproperty_midiloopedstreaming.md)**

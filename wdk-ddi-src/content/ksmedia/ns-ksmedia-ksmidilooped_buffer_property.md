@@ -2,7 +2,7 @@
 UID: NS:ksmedia.KSMIDILOOPED_BUFFER_PROPERTY
 tech.root: audio
 title: KSMIDILOOPED_BUFFER_PROPERTY (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 10/20/2025
 targetos: Windows
 description: The KSMIDILOOPED_BUFFER_PROPERTY structure specifies a property request for the looped streaming buffer and includes the requested buffer size.
 prerelease: false
@@ -54,7 +54,7 @@ The **KSMIDILOOPED_BUFFER_PROPERTY** structure specifies a property request for 
 
 ### -field Property
 
-Specifies a [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure) structure that identifies the property set, property ID, and request type for the looped streaming buffer property.
+Specifies a **[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)** structure that identifies the property set, property ID, and request type for the looped streaming buffer property.
 
 ### -field RequestedBufferSize
 
@@ -62,12 +62,43 @@ Specifies the requested size for the looped streaming buffer, in bytes. The driv
 
 ## -remarks
 
-This structure is used when making a **KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER** property request. It allows the client to specify the desired buffer size for the cyclic MIDI streaming buffer. The driver uses this information to allocate an appropriate buffer and returns the actual buffer details in a [KSMIDILOOPED_BUFFER](ns-ksmedia-ksmidilooped_buffer.md) structure.
+This structure is used when making a **[KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER](/windows-hardware/drivers/audio/ksproperty-midiloopedstreaming-buffer)** property request. It allows the client to specify the desired buffer size for the cyclic MIDI streaming buffer. The driver uses this information to allocate an appropriate buffer and returns the actual buffer details in a **[KSMIDILOOPED_BUFFER](ns-ksmedia-ksmidilooped_buffer.md)** structure.
+
+The **KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER** call  builds on the standard **KSPROPERTY**, adding the requested buffer size for the cross process looped memory buffer. The *RequestedBufferSize* is only a request. The driver can increase, decrease, or adjust the buffer size to meet hardware or alignment requirements. The actual buffer size, and the buffer address, are returned in the **KSMIDILOOPED_BUFFER**.
 
 The looped streaming mechanism is designed for low-latency MIDI applications that require direct access to a cyclic buffer for efficient data processing.
 
+### Code sample
+
+```cpp
+HRESULT LoopedBufferCall(_In_ ULONG& bufferSize)
+{
+    KSMIDILOOPED_BUFFER_PROPERTY property {0};
+    KSMIDILOOPED_BUFFER buffer{0};
+    ULONG propertySize {sizeof(property)};
+
+    property.Property.Set           = KSPROPSETID_MidiLoopedStreaming; 
+    property.Property.Id            = KSPROPERTY_MIDILOOPEDSTREAMING_BUFFER;       
+    property.Property.Flags         = KSPROPERTY_TYPE_GET;
+    property.RequestedBufferSize    = bufferSize;
+
+    RETURN_IF_FAILED(SyncIoctl(
+        m_Pin.get(),
+        IOCTL_KS_PROPERTY,
+        &property,
+        propertySize,
+        &buffer,
+        sizeof(buffer),
+        nullptr));
+
+    bufferSize = buffer.ActualBufferSize;
+
+    return S_OK;
+}
+```
+
 ## -see-also
 
-- [KSMIDILOOPED_BUFFER](ns-ksmedia-ksmidilooped_buffer.md)
-- [KSPROPERTY_MIDILOOPEDSTREAMING](ne-ksmedia-ksproperty_midiloopedstreaming.md)
-- [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
+- **[KSMIDILOOPED_BUFFER](ns-ksmedia-ksmidilooped_buffer.md)**
+- **[KSPROPERTY_MIDILOOPEDSTREAMING](ne-ksmedia-ksproperty_midiloopedstreaming.md)**
+- **[KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)**
