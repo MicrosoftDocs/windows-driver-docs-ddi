@@ -13,15 +13,9 @@ This repository contains the source files for the Windows Driver Kit (WDK) Devic
 
 ```
 windows-driver-docs-ddi/
-<<<<<<< HEAD
 ├── wdk-ddi-src/content/         # Main content directory
 │   ├── {header}/                # Header file directories (e.g., ntddk, wificx, etc.)
-│   │   ├── na-{header}-*.md     # Header documentation, rename this to index.md
-=======
-├── wdk-ddi-src/content/          # Main content directory
-│   ├── {header}/                 # Header file directories (e.g., ntddk, wificx, etc.)
 │   │   ├── na-{header}-*.md     # Header file entry page, should be renamed to index.md
->>>>>>> da61e7cd381588c7feac52a39110d2124f4d9b9d
 │   │   ├── nf-{header}-*.md     # Function documentation
 │   │   ├── ns-{header}-*.md     # Structure documentation  
 │   │   ├── ne-{header}-*.md     # Enumeration documentation
