@@ -64,7 +64,7 @@ The **FSCTL_GET_NTFS_FILE_RECORD** control code retrieves a file record from an 
 
 To perform this operation, call [**FltFsControlFile**](../fltkernel/nf-fltkernel-fltfscontrolfile.md) or [**ZwFsControlFile**](nf-ntifs-zwfscontrolfile.md).
 
-See [**FSCTL_GET_NTFS_VOLUME_DATA**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_ntfs_file_record) for more information.
+See [**FSCTL_GET_NTFS_VOLUME_DATA**](/windows/win32/api/winioctl/ni-winioctl-fsctl_get_ntfs_volume_data) for more information.
 
 ## -see-also
 
