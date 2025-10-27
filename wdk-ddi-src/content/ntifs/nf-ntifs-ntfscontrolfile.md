@@ -3,7 +3,7 @@ UID: NF:ntifs.NtFsControlFile
 title: NtFsControlFile function (ntifs.h)
 description: Learn more about the NtFsControlFile routine.
 tech.root: kernel
-ms.date: 01/07/2025
+ms.date: 10/27/2025
 req.header: ntifs.h
 req.include-header: Ntifs.h
 req.target-type: Universal
@@ -89,7 +89,16 @@ Size, in bytes, of the buffer at **OutputBuffer**. This value is ignored if **Ou
 
 ## -returns
 
-**NtFsControlFile** returns STATUS_SUCCESS or an appropriate NTSTATUS value such as one of the following:
+**NtFsControlFile** returns STATUS_SUCCESS if the control operation was successfully queued to the I/O system. Once the operation completes, the actual status can be determined by examining the **Status** field of the **IoStatusBlock**.
+
+The routine can also return various error status values, including but not limited to:
+
+* STATUS_ACCESS_DENIED if the caller lacks required access rights for the **FsControlCode** or if **NtFsControlFile** system service calls are blocked by process mitigation policy
+* STATUS_INVALID_PARAMETER if an invalid parameter combination is specified (for example, specifying an **ApcRoutine** when an I/O completion port is associated with the file object)
+* STATUS_INSUFFICIENT_RESOURCES if insufficient memory is available to allocate buffers or MDLs
+* STATUS_PENDING if the **Asynchronous** parameter is TRUE and the operation has not yet completed
+
+For asynchronous operations, if **Asynchronous** is TRUE and the event has not yet occurred, the routine returns STATUS_PENDING.
 
 ## -remarks
 
