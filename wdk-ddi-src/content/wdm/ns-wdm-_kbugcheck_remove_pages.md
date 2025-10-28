@@ -1,9 +1,9 @@
 ---
 UID: NS:wdm._KBUGCHECK_REMOVE_PAGES
 title: KBUGCHECK_REMOVE_PAGES
-description: "Learn more about: KBUGCHECK_REMOVE_PAGES structure"
+description: Describes one or more pages of driver-supplied data to be removed from the crash dump file by a KBUGCHECK_REASON_CALLBACK_ROUTINE callback routine.
 tech.root: devtest
-ms.date: 09/26/2025
+ms.date: 10/28/2025
 req.header: wdm.h
 req.include-header: 
 req.target-type: 
@@ -41,7 +41,7 @@ api_name:
 
 ## -description
 
-The **KBUGCHECK_REMOVE_PAGES** structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](./nc-wdm-kbugcheck_reason_callback_routine.md) callback routine from the crash dump file.
+The **KBUGCHECK_REMOVE_PAGES** structure describes one or more pages of driver-supplied data to be removed by a [*KBUGCHECK_REASON_CALLBACK_ROUTINE*](nc-wdm-kbugcheck_reason_callback_routine.md) callback routine from the crash dump file.
 
 ## -struct-fields
 
