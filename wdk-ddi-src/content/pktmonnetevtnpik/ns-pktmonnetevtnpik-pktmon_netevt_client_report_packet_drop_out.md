@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
+UID: NS:pktmonnetevtnpik._PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 ms.date: 03/14/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
  - _PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
  - PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 f1_keywords:
  - _PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
- - pktmonnpik/_PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
+ - pktmonnetevtnpik/_PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
  - PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
- - pktmonnpik/PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
+ - pktmonnetevtnpik/PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT
 dev_langs:
  - c
  - c++
@@ -61,4 +61,4 @@ Pointer to the end of the buffer containing the dropped packet information.
 
 ## -see-also
 
-- [PKTMON_EVT_STREAM_PACKET_HEADER](ns-pktmonnpik-pktmon_evt_stream_packet_header.md)
+- [PKTMON_EVT_STREAM_PACKET_HEADER](ns-pktmonnetevtnpik-pktmon_evt_stream_packet_header.md)

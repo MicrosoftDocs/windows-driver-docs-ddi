@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_DISPATCH
+UID: NS:pktmonnetevtnpik._PKTMON_NETEVT_CLIENT_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_DISPATCH
 ms.date: 04/04/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
  - _PKTMON_NETEVT_CLIENT_DISPATCH
  - PKTMON_NETEVT_CLIENT_DISPATCH
 f1_keywords:
  - _PKTMON_NETEVT_CLIENT_DISPATCH
- - pktmonnpik/_PKTMON_NETEVT_CLIENT_DISPATCH
+ - pktmonnetevtnpik/_PKTMON_NETEVT_CLIENT_DISPATCH
  - PKTMON_NETEVT_CLIENT_DISPATCH
- - pktmonnpik/PKTMON_NETEVT_CLIENT_DISPATCH
+ - pktmonnetevtnpik/PKTMON_NETEVT_CLIENT_DISPATCH
 dev_langs:
  - c
  - c++
@@ -51,7 +51,7 @@ The **PKTMON_NETEVT_CLIENT_DISPATCH** structure contains the Packet Monitor NetE
 
 ### -field Header
 
-Represents header information as described in **[PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md)**.
+Represents header information as described in **[PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnetevtnpik-pktmon_netevt_dispatch_header.md)**.
 
 ### -field HandlerCount
 
@@ -69,4 +69,4 @@ The client module must make sure that this structure remains valid and resident 
 
 - [NPI](/windows-hardware/drivers/network/network-programming-interface)
 - **[NmrClientAttachProvider](../netioddk/nf-netioddk-nmrclientattachprovider.md)**
-- **[PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md)**
+- **[PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnetevtnpik-pktmon_netevt_dispatch_header.md)**

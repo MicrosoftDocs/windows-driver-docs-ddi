@@ -63,6 +63,6 @@ Currently, only version 0 is supported.
 
 ### -see-also
 
-- **[PKTMON_PACKET_CONTEXT_IN](ns-pktmonnpik-pktmon_packet_context_in.md)**
+- **[PKTMON_PACKET_CONTEXT_IN](../pktmonclntnpik/ns-pktmonclntnpik-pktmon_packet_context_in.md)**
 - **[PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)**
 - **[PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)**

@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_NETEVT_DISPATCH_HEADER
+UID: NS:pktmonnetevtnpik._PKTMON_NETEVT_DISPATCH_HEADER
 tech.root: netvista
 title: PKTMON_NETEVT_DISPATCH_HEADER
 ms.date: 03/14/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
  - _PKTMON_NETEVT_DISPATCH_HEADER
  - PKTMON_NETEVT_DISPATCH_HEADER
 f1_keywords:
  - _PKTMON_NETEVT_DISPATCH_HEADER
- - pktmonnpik/_PKTMON_NETEVT_DISPATCH_HEADER
+ - pktmonnetevtnpik/_PKTMON_NETEVT_DISPATCH_HEADER
  - PKTMON_NETEVT_DISPATCH_HEADER
- - pktmonnpik/PKTMON_NETEVT_DISPATCH_HEADER
+ - pktmonnetevtnpik/PKTMON_NETEVT_DISPATCH_HEADER
 dev_langs:
  - c
  - c++
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_NETEVT_DISPATCH_HEADER** structure contains the header for a **[PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnpik-pktmon_netevt_provider_dispatch.md)** structure.
+The **PKTMON_NETEVT_DISPATCH_HEADER** structure contains the header for a **[PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnetevtnpik-pktmon_netevt_provider_dispatch.md)** structure.
 
 ## -struct-fields
 
@@ -55,11 +55,11 @@ The version of the PktMon programming interface that the application would like 
 
 ### -field Size
 
-The size of the **[PKTMON_NETEVT_CLIENT_DISPATCH](ns-pktmonnpik-pktmon_netevt_client_dispatch.md)** structure.
+The size of the **[PKTMON_NETEVT_CLIENT_DISPATCH](ns-pktmonnetevtnpik-pktmon_netevt_client_dispatch.md)** structure.
 
 ## -remarks
 
 ## -see-also
 
-- **[PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnpik-pktmon_netevt_provider_dispatch.md)**
-- **[PKTMON_NETEVT_CLIENT_DISPATCH](ns-pktmonnpik-pktmon_netevt_client_dispatch.md)**
+- **[PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnetevtnpik-pktmon_netevt_provider_dispatch.md)**
+- **[PKTMON_NETEVT_CLIENT_DISPATCH](ns-pktmonnetevtnpik-pktmon_netevt_client_dispatch.md)**

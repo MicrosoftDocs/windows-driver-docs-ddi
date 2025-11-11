@@ -59,7 +59,7 @@ The type of packet being logged. This must be one of the values defined in the *
 
 ### -param PacketHeaderInformation
 
-Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information.
+Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonclntk/ns-pktmonclntk-pktmon_packet_header_information.md)** structure containing the packet header information.
 
 ### -param Direction
 
@@ -85,7 +85,7 @@ Integer that indicates the location where the packet was dropped.
 
 ### -param Context
 
-Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_packet_context_in.md)** structure containing the packet context. Can be NULL.
+Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonclntnpik/ns-pktmonclntnpik-pktmon_packet_context_in.md)** structure containing the packet context. Can be NULL.
 
 ## -remarks
 
@@ -93,6 +93,6 @@ Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_pac
 
 - **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**
 - **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
-- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)**
+- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonclntk/ns-pktmonclntk-pktmon_packet_header_information.md)**
 - **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)**
-- **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_packet_context_in.md)**
+- **[PKTMON_PACKET_CONTEXT_IN](../pktmonclntnpik/ns-pktmonclntnpik-pktmon_packet_context_in.md)**

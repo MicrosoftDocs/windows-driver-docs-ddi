@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_NETEVT_CLIENT_CONTEXT
+UID: NS:pktmonnetevtnpik._PKTMON_NETEVT_CLIENT_CONTEXT
 tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_CONTEXT
 ms.date: 04/04/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
  - _PKTMON_NETEVT_CLIENT_CONTEXT
  - PKTMON_NETEVT_CLIENT_CONTEXT
 f1_keywords:
  - _PKTMON_NETEVT_CLIENT_CONTEXT
- - pktmonnpik/_PKTMON_NETEVT_CLIENT_CONTEXT
+ - pktmonnetevtnpik/_PKTMON_NETEVT_CLIENT_CONTEXT
  - PKTMON_NETEVT_CLIENT_CONTEXT
- - pktmonnpik/PKTMON_NETEVT_CLIENT_CONTEXT
+ - pktmonnetevtnpik/PKTMON_NETEVT_CLIENT_CONTEXT
 dev_langs:
  - c
  - c++

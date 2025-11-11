@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_NETEVT_PROVIDER_DISPATCH
+UID: NS:pktmonnetevtnpik._PKTMON_NETEVT_PROVIDER_DISPATCH
 tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_DISPATCH
 ms.date: 04/04/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
  - _PKTMON_NETEVT_PROVIDER_DISPATCH
  - PKTMON_NETEVT_PROVIDER_DISPATCH
 f1_keywords:
  - _PKTMON_NETEVT_PROVIDER_DISPATCH
- - pktmonnpik/_PKTMON_NETEVT_PROVIDER_DISPATCH
+ - pktmonnetevtnpik/_PKTMON_NETEVT_PROVIDER_DISPATCH
  - PKTMON_NETEVT_PROVIDER_DISPATCH
- - pktmonnpik/PKTMON_NETEVT_PROVIDER_DISPATCH
+ - pktmonnetevtnpik/PKTMON_NETEVT_PROVIDER_DISPATCH
 dev_langs:
  - c
  - c++
@@ -51,7 +51,7 @@ The **PKTMON_NETEVT_PROVIDER_DISPATCH** structure contains a Packet Monitor NetE
 
 ### -field Header
 
-The [PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md) structure for this dispatch table.
+The [PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnetevtnpik-pktmon_netevt_dispatch_header.md) structure for this dispatch table.
 
 ### -field HandlerCount
 
@@ -65,4 +65,4 @@ Pointer to the event handlers.
 
 ## -see-also
 
-- [PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnpik-pktmon_netevt_dispatch_header.md)
+- [PKTMON_NETEVT_DISPATCH_HEADER](ns-pktmonnetevtnpik-pktmon_netevt_dispatch_header.md)

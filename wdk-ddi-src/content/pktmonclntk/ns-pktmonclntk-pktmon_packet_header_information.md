@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_PACKET_HEADER_INFORMATION
+UID: NS:pktmonclntk._PKTMON_PACKET_HEADER_INFORMATION
 tech.root: netvista
 title: PKTMON_PACKET_HEADER_INFORMATION
 ms.date: 04/04/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonclntk.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonclntk.h
 api_name:
  - _PKTMON_PACKET_HEADER_INFORMATION
  - PKTMON_PACKET_HEADER_INFORMATION
 f1_keywords:
  - _PKTMON_PACKET_HEADER_INFORMATION
- - pktmonnpik/_PKTMON_PACKET_HEADER_INFORMATION
+ - pktmonclntk/_PKTMON_PACKET_HEADER_INFORMATION
  - PKTMON_PACKET_HEADER_INFORMATION
- - pktmonnpik/PKTMON_PACKET_HEADER_INFORMATION
+ - pktmonclntk/PKTMON_PACKET_HEADER_INFORMATION
 dev_langs:
  - c
  - c++

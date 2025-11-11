@@ -1,0 +1,58 @@
+---
+UID: NS:pktmonclntnpik._PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+tech.root: 
+title: PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+ms.date: 
+targetos: Windows
+description: 
+prerelease: true
+req.construct-type: structure
+req.ddi-compliance: 
+req.dll: 
+req.header: pktmonclntnpik.h
+req.include-header: 
+req.kmdf-ver: 
+req.lib: 
+req.max-support: 
+req.redist: 
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.target-type: 
+req.typenames: PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+typedef_isUnnamed: false
+req.umdf-ver: 
+req.unicode-ansi: 
+topic_type:
+ - apiref
+api_type:
+ - HeaderDef
+api_location:
+ - pktmonclntnpik.h
+api_name:
+ - _PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+ - PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+f1_keywords:
+ - _PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+ - pktmonclntnpik/_PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+ - PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+ - pktmonclntnpik/PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+dev_langs:
+ - c++
+helpviewer_keywords:
+ - _PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS
+---
+
+## -description
+
+## -struct-fields
+
+### -field Header
+
+### -field ProviderMajorVersion
+
+### -field ProviderMinorVersion
+
+## -remarks
+
+## -see-also
+

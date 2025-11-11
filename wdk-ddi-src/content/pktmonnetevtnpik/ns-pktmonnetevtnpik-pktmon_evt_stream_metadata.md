@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_EVT_STREAM_METADATA
+UID: NS:pktmonnetevtnpik._PKTMON_EVT_STREAM_METADATA
 tech.root: netvista
 title: PKTMON_EVT_STREAM_METADATA
 ms.date: 04/04/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
  - _PKTMON_EVT_STREAM_METADATA
  - PKTMON_EVT_STREAM_METADATA
 f1_keywords:
  - _PKTMON_EVT_STREAM_METADATA
- - pktmonnpik/_PKTMON_EVT_STREAM_METADATA
+ - pktmonnetevtnpik/_PKTMON_EVT_STREAM_METADATA
  - PKTMON_EVT_STREAM_METADATA
- - pktmonnpik/PKTMON_EVT_STREAM_METADATA
+ - pktmonnetevtnpik/PKTMON_EVT_STREAM_METADATA
 dev_langs:
  - c
  - c++
