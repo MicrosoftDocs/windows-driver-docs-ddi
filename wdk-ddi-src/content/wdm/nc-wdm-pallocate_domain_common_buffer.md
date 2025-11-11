@@ -3,8 +3,7 @@ UID: NC:wdm.PALLOCATE_DOMAIN_COMMON_BUFFER
 title: PALLOCATE_DOMAIN_COMMON_BUFFER (wdm.h)
 description: This callback function allocates the memory for a domain common buffer.
 tech.root: kernel
-ms.date: 01/19/2023
-keywords: ["PALLOCATE_DOMAIN_COMMON_BUFFER callback function"]
+ms.date: 10/07/2025
 req.header: wdm.h
 req.include-header: Wdm.h
 req.target-type: 
@@ -72,6 +71,8 @@ Possible values include:
 
 A pointer to a [**MEMORY_CACHING_TYPE**](ne-wdm-_memory_caching_type.md) enumeration indicating whether the routine must enable or disable cached memory in the common buffer that is to be allocated. Only values of **MmNonCached** and **MmCached** are supported. The parameter is optional and can be specified as NULL to specify the caching will be dependent upon the hardware platform default.
 
+If a caller provides an override value of **MmCached** on an adapter that is not cache-coherent, they are responsible for flushing the contents of the cache. If unsure, a caller should always provide NULL.
+
 ### -param PreferredNode [in]
 
 The preferred NUMA node from which the memory is to be allocated. If N is the number of NUMA nodes in a multiprocessor system, *PreferredNode* is a number in the range 0 to N–1. For a one-processor system or a non-NUMA multiprocessor system, set *PreferredNode* to zero.
@@ -91,3 +92,5 @@ Returns STATUS_SUCCESS if the call is successful. Otherwise, it returns an appro
 ## -remarks
 
 ## -see-also
+
+[**DMA_OPERATIONS**](ns-wdm-_dma_operations.md)

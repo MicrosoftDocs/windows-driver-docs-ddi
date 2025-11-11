@@ -170,7 +170,7 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVC</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndiscodeletevc">NdisCoDeleteVc</a>
 
 
 

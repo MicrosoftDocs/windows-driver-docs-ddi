@@ -141,7 +141,7 @@ For information about how to test NTSTATUS values, see [Using NTSTATUS Values](/
 
 ## -remarks
 
-The **RtlUnicodeStringCbCatStringNEx **function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does *not* terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
+The **RtlUnicodeStringCbCatStringNEx** function uses the destination buffer's size to ensure that the concatenation operation does not write past the end of the buffer. By default, the function does *not* terminate the resultant string with a null character value (that is, with zero). As an option, the caller can use the STRSAFE_FILL_BEHIND flag and a fill byte value of zero to null-terminate a resultant string that does not occupy the entire destination buffer.
 
 **RtlUnicodeStringCbCatStringNEx** adds to the functionality of the [RtlUnicodeStringCbCatStringN](./nf-ntstrsafe-rtlunicodestringcbcatstringn.md) function by returning a **UNICODE_STRING** structure that identifies the end of the destination string and the number of bytes that are left unused in that string. You can pass flags to **RtlUnicodeStringCbCatStringNEx** for additional control.
 

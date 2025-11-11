@@ -78,7 +78,7 @@ A pointer to a data buffer. Specify if generating a data event.
 ### -param CallBack [in, optional]
 
 
-A pointer to a caller-specified function that is called to determine whether a given event should be generated. If **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet *and *EventId* are used). Prototype as follows:
+A pointer to a caller-specified function that is called to determine whether a given event should be generated. If **NULL**, no callback verification is performed to determine whether an event should be generated (only *EventSet* and *EventId* are used). Prototype as follows:
 
 ```cpp
 BOOLEAN CallBack
@@ -101,11 +101,11 @@ This is an inline function call to [KsGenerateEvents](./nf-ks-ksgenerateevents.m
 
 An event is generated if the following three conditions hold:
 
-* The event is present in *Pin's *event list and *EventId *matches the event's ID.
+* The event is present in *Pin's *event list and *EventId* matches the event's ID.
 
 * *EventSet* either matches the event's set GUID or is **NULL**.
 
-* *CallBack *is either **NULL** or authorizes the match.
+* *CallBack* is either **NULL** or authorizes the match.
 
 For more information, see [Event Handling in AVStream](/windows-hardware/drivers/stream/event-handling-in-avstream) and [KS Events](/windows-hardware/drivers/stream/ks-events).
 

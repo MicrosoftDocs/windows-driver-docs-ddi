@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **IPrintTicketProvider2::ConvertPrintTicketToDevMode** method converts a print ticket to a ****DEVMODEW**** structure.
+The **IPrintTicketProvider2::ConvertPrintTicketToDevMode** method converts a print ticket to a **DEVMODEW** structure.
 
 ## -parameters
 

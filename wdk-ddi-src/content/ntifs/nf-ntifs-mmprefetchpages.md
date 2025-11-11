@@ -74,4 +74,4 @@ A pointer to an array of read-lists to be prefetched.
 
 > [!NOTE]
 >
-> The [section object](/windows-hardware/drivers/kernel/section-objects-and-views) must already exist for the file to be prefetched. A section handle can be obtained by calling [**ZwCreateSection**](../wdm/nf-wdm-zwcreatefile.md).
+> The [section object](/windows-hardware/drivers/kernel/section-objects-and-views) must already exist for the file to be prefetched. A section handle can be obtained by calling [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md).

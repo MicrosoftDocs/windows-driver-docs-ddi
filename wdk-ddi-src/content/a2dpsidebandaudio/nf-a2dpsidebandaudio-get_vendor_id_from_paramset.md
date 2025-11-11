@@ -77,4 +77,4 @@ A parameter set. (Additional Information Pending)
 
 [A2DPSidebandAudio](./index.md)
 
-[SET_VENDOR_ID_FROM_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)
+[SET_VENDOR_ID_TO_PARAMSET](./nf-a2dpsidebandaudio-set_vendor_id_to_paramset.md)

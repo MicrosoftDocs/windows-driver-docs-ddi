@@ -318,7 +318,7 @@ A [**FILE_RENAME_INFORMATION**](../ntifs/ns-ntifs-_file_rename_information.md) s
 
 ### -field FileDesiredStorageClassInformation:67
 
-A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](ne-wdm-_file_information_class.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
+A [**FILE_DESIRED_STORAGE_CLASS_INFORMATION**](../ntifs/ns-ntifs-_file_desired_storage_class_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1709.
 
 ### -field FileStatInformation:68
 
@@ -346,7 +346,7 @@ A [**FILE_LINK_INFORMATION**](../ntifs/ns-ntifs-_file_link_information.md) struc
 
 ### -field FileStorageReserveIdInformation:74
 
-A [**FILE_SET_STORAGE_RESERVE_ID_INFORMATION**](../ntifs/ns-ntifs-_file_storage_reserve_id_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
+A [**FILE_STORAGE_RESERVE_ID_INFORMATION**](../ntifs/ns-ntifs-_file_storage_reserve_id_information.md) structure, declared in ntifs.h. This value is available starting with Windows 10, version 1809.
 
 ### -field FileCaseSensitiveInformationForceAccessCheck:75
 

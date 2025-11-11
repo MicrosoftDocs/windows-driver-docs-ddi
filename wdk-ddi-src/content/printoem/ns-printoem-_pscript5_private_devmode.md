@@ -77,7 +77,7 @@ To safely determine the address of the private portion of your plug-in's **DEVMO
 
 1. Call the **GET_PSCRIPT5_PRIVATE_DEVMODE_SIZE** macro, passing the address of the **DEVMODEW** structure in the call.
 
-1. Verify that (pdm)->dmDriverExtra is larger than the value returned by the macro. (The macro returns the value of the **wSize** member of the PSCRIPT5_PR****IVATE_DEVMODE structure.)
+1. Verify that (pdm)->dmDriverExtra is larger than the value returned by the macro. (The macro returns the value of the **wSize** member of the **PSCRIPT5_PRIVATE_DEVMODE** structure.)
 
 1. Determine the address of the private portion of your plug-in's **DEVMODEW** structure as follows.
 

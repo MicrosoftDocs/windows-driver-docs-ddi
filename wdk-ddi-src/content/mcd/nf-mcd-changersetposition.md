@@ -90,7 +90,7 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_position">, IOCTL_CHANGER_SET_POSITION</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ni-ntddchgr-ioctl_changer_set_position">IOCTL_CHANGER_SET_POSITION</a>
 
 
 

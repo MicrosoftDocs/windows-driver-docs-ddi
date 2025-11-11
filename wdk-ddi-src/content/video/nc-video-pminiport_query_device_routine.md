@@ -63,13 +63,13 @@ Specifies the type of configuration information that was requested, which is one
 
 <b>VpBusData</b>
 
-<b><b>VpCmosData</b></b>
+<b>VpCmosData</b>
 
-<b><b>VpControllerData</b></b>
+<b>VpControllerData</b>
 
-<b><b>VpMachineData</b></b>
+<b>VpMachineData</b>
 
-<b><b>VpMonitorData</b></b>
+<b>VpMonitorData</b>
 
 Miniport drivers of x86-type video adapters usually specify <b>VpBusData</b>, particularly for adapters on EISA buses. The <b>VpControllerData</b> and <b>VpMonitorData</b> values have meaning only on ARC-compliant platforms. The <b>VpCmosData</b> and <b>VpMachineData</b> values are seldom used.
 

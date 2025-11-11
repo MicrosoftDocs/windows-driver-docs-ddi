@@ -76,7 +76,7 @@ For more information about memory management, see [Memory Management](/windows-h
 
 Memory that **FsRtlAllocatePoolWithQuotaTag** allocates is uninitialized. A kernel-mode driver must first zero this memory if it is going to make it visible to user-mode software (to avoid leaking potentially privileged contents).
 
-Callers of **FsRtlAllocatePoolWithQuotaTag** must be running at IRQL <= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must specify a **NonPaged****XxxPoolType**. Otherwise, the caller must be running at IRQL < DISPATCH_LEVEL.
+Callers of **FsRtlAllocatePoolWithQuotaTag** must be running at IRQL <= DISPATCH_LEVEL. A caller at DISPATCH_LEVEL must specify a **NonPagedXXX** **PoolType**. Otherwise, the caller must be running at IRQL < DISPATCH_LEVEL.
 
 ## -see-also
 

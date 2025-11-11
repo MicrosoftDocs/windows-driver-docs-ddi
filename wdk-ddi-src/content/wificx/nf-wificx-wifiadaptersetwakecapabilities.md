@@ -57,6 +57,8 @@ The **WifiAdapterSetWakeCapabilities** method sets the wake capabilities for a W
 
 The client driver typically calls this function from within [*EVT_DEVICE_PREPARE_HARDWARE*](../wdfdevice/nc-wdfdevice-evt_wdf_device_prepare_hardware.md).
 
+The client driver must call [**WifiDeviceSetStationCapabilities**](nf-wificx-wifidevicesetstationcapabilities.md) before calling **WifiAdapterSetWakeCapabilities**.
+
 ## -see-also
 
 [**WIFI_ADAPTER_WAKE_CAPABILITIES**](ns-wificx-wifi_adapter_wake_capabilities.md) 

@@ -82,4 +82,4 @@ See [**KeInitializeEvent**](../wdm/nf-wdm-keinitializeevent.md) for more details
 
 [**StorPortSetEvent**](nf-storport-storportsetevent.md)
 
-[**StoPortWaitForSingleObject**](nf-storport-storportwaitforsingleobject.md)
+[**StorPortWaitForSingleObject**](nf-storport-storportwaitforsingleobject.md)

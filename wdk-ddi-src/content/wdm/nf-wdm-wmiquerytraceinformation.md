@@ -336,7 +336,7 @@ If the caller supplies a non-<b>NULL</b> <i>RequiredLength</i> pointer, <b>WmiQu
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWmiWriteEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWMIWriteEvent</a>
 
 
 

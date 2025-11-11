@@ -1,7 +1,7 @@
 ---
 UID: NE:ntddk._SOC_SUBSYSTEM_TYPE
 title: _SOC_SUBSYSTEM_TYPE (ntddk.h)
-description: The SOC_SYBSYSTEM_TYPE enumeration defines different types of System on a Chip (SoC) subsystems.
+description: The SOC_SUBSYSTEM_TYPE enumeration defines different types of System on a Chip (SoC) subsystems.
 old-location: whea\soc_sybsystem_type.htm
 tech.root: whea
 ms.date: 02/20/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>SOC_SYBSYSTEM_TYPE</b> enumeration defines different types of System on a Chip (SoC) subsystems.
+The <b>SOC_SUBSYSTEM_TYPE</b> enumeration defines different types of System on a Chip (SoC) subsystems.
 
 The <b>SybsysType</b> member of the <a href="/windows-hardware/drivers/ddi/ntddk/ns-ntddk-_soc_subsystem_failure_details">SOC_SUBSYSTEM_FAILURE_DETAILS</a> structure is a value from this enumeration. The <b>SOC_SUBSYSTEM_FAILURE_DETAILS</b> structure is used by these bug codes:
 <ul>

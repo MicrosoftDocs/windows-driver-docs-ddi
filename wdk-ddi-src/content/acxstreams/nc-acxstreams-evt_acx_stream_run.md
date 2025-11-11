@@ -119,5 +119,5 @@ For more information about ACX versions, see [ACX version overview](/windows-har
 
 - [acxstreams.h header](index.md)
 - [EVT_ACX_STREAM_PREPARE_HARDWARE](nc-acxstreams-evt_acx_stream_prepare_hardware.md)
-- [EVT_ACX_STREAM_PAUSE_HARDWARE](nc-acxstreams-evt_acx_stream_pause.md)
+- [EVT_ACX_STREAM_PAUSE](nc-acxstreams-evt_acx_stream_pause.md)
 - [EVT_ACX_STREAM_RELEASE_HARDWARE](nc-acxstreams-evt_acx_stream_release_hardware.md)
