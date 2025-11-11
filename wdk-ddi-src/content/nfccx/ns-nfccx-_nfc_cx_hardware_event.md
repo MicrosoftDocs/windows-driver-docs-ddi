@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxhardwareevent">NfcCxHardwareEvent.</a>
+The NFC_CX_HARDWARE_EVENT structure is an input parameter to <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxhardwareevent">NfcCxHardwareEvent</a>.
 
 ## -struct-fields
 

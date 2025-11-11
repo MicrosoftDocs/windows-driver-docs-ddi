@@ -60,7 +60,7 @@ Specifies the node ID of the node on the upstream end of the connection. If this
 
 ### -field FromNodePin
 
-Specifies the pin ID for the upstream end of the connection. If **FromNode **is KSFILTER_NODE, the pin on this end of the connection is an external pin on the filter. If not, the pin on this end is a logical pin on an internal node.
+Specifies the pin ID for the upstream end of the connection. If **FromNode** is KSFILTER_NODE, the pin on this end of the connection is an external pin on the filter. If not, the pin on this end is a logical pin on an internal node.
 
 ### -field ToNode
 

@@ -102,7 +102,7 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>TRUE</b></b></dt>
+<dt><b>TRUE</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -115,7 +115,7 @@ A bitmask that indicates the target processors for which NDIS should schedule a 
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>FALSE</b></b></dt>
+<dt><b>FALSE</b></dt>
 </dl>
 </td>
 <td width="60%">

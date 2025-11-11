@@ -67,7 +67,7 @@ A caller-supplied <b>IO_STATUS_BLOCK</b> to receive the result of the call to <b
 ### -param Buffer [out]
 
 
-A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_ea_information"> FILE_GET_QUOTA_INFORMATION</a>-structured input buffer where the quota information values are to be returned.
+A pointer to a caller-supplied <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_get_quota_information">FILE_GET_QUOTA_INFORMATION</a>-structured input buffer where the quota information values are to be returned.
 
 ### -param Length [in]
 

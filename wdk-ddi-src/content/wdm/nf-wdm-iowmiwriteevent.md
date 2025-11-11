@@ -119,7 +119,7 @@ Callers of this routine must be running at IRQL <= APC_LEVEL, with one exception
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWmiDeviceObjectToProviderId</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmideviceobjecttoproviderid">IoWMIDeviceObjectToProviderId</a>
 
 
 

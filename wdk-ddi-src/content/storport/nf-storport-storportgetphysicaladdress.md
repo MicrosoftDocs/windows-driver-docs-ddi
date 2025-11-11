@@ -58,7 +58,7 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 ### -param Srb [in, optional]
 
 
-Pointer to the SCSI request block if the virtual address to be converted comes from that SRB's <b>DataBuffer</b> member or <b>SenseInfoBuffer</b> member. Otherwise, this parameter must be <b>NULL</b>.
+Pointer to the SCSI request block if the virtual address to be converted comes from that SRB's <b>DataBuffer</b>, <b>SenseInfoBuffer</b>, or <b>SrbExtension</b> member. Otherwise, this parameter must be <b>NULL</b>.
 
 ### -param VirtualAddress [in]
 
@@ -101,3 +101,4 @@ The <b>STOR_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 
 <a href="/windows-hardware/drivers/ddi/srb/nf-srb-scsiportgetphysicaladdress">ScsiPortGetPhysicalAddress</a>
+

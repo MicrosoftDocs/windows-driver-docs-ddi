@@ -47,7 +47,7 @@ api_name:
 
 ## -description
 
-The **CM_EISA_FUNCTION_INFORMATION** structure defines detailed EISA configuration information returned by [HalGetBusData](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)) for the input *BusDataType ***EisaConfiguration**, or by **HalGetBusDataByOffset** for the input *BusDataType ***EisaConfiguration** and the *Offset* zero, assuming the caller-allocated *Buffer* is of sufficient *Length*.
+The **CM_EISA_FUNCTION_INFORMATION** structure defines detailed EISA configuration information returned by [HalGetBusData](/previous-versions/windows/hardware/drivers/ff546644(v=vs.85)) for the input *BusDataType* **EisaConfiguration**, or by **HalGetBusDataByOffset** for the input *BusDataType* **EisaConfiguration** and the *Offset* zero, assuming the caller-allocated *Buffer* is of sufficient *Length*.
 
 ## -struct-fields
 

@@ -59,7 +59,7 @@ This callback function returns STATUS_SUCCESS if the operation was successful. O
 
 ## -remarks
 
-A WiFiCx client driver registers the *EvtWifiDeviceCreateWifiDirectDevice* callback function by calling [**WiFiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
+A WiFiCx client driver registers the *EvtWifiDeviceCreateWifiDirectDevice* callback function by calling [**WifiDeviceInitialize**](nf-wificx-wifideviceinitialize.md).
 
 In its *EvtWifiDeviceCreateWifiDirectDevice* callback, the client driver:
 

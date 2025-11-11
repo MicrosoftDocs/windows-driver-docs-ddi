@@ -3,7 +3,7 @@ UID: NF:fltkernel.FltSendMessage
 title: FltSendMessage function (fltkernel.h)
 description: FltSendMessage sends a message to a waiting user-mode application on behalf of a minifilter driver or a minifilter driver instance.
 tech.root: ifsk
-ms.date: 05/02/2025
+ms.date: 10/27/2025
 req.header: fltkernel.h
 req.include-header: FltKernel.h
 req.target-type: Universal
@@ -117,7 +117,7 @@ Otherwise, if **ReplyBuffer** isn't NULL, the minifilter is put into a wait stat
 
 ### Padding and Buffer Size
 
-Problems can occur when the caller doesn't consider system-specific structure padding that might occur.
+Problems can occur when the caller doesn't properly account for system-specific structure padding that might occur.
 
 For example, say a minifilter declares the following structure in which to receive a reply, and passes a pointer to it in **ReplyBuffer**:
 
@@ -129,9 +129,11 @@ typedef struct _REPLY_STRUCT
 } REPLY_STRUCT, *PREPLY_STRUCT;
 ```
 
-Setting **ReplyLength** to ```sizeof(REPLY_STRUCT)``` would capture any padding that might be added to the end of any member of the structure, but isn't an accurate representation of the actual size of the structure and each of its members.
+**ReplyBuffer** must be allocated with sufficient space to hold the entire structure including any padding. Therefore, ReplyLength should be set to ```sizeof(REPLY_STRUCT)```, not ```sizeof(FILTER_REPLY_HEADER) + sizeof(REPLY_DATA)```.
 
-Setting **ReplyLength** to ```sizeof(FILTER_REPLY_HEADER) + sizeof(REPLY_DATA)``` ensures that any padding at the end of either structures is ignored. In the event that padding might be added after the **Header** structure, ```offsetof(REPLY_STRUCT, Data)``` can be used to accurately access the beginning of the **Data** structure, and ```sizeof(REPLY_DATA)``` can be used to determine the true number of bytes in the **Data** structure.
+Setting **ReplyLength** to ```sizeof(FILTER_REPLY_HEADER) + sizeof(REPLY_DATA)``` doesn't account for padding that might be inserted between the **Header** and **Data** members. This can lead to **FltSendMessage** returning STATUS_BUFFER_OVERFLOW even when the buffer is large enough to hold both structures.
+
+After **FltSendMessage** returns successfully, use ```offsetof(REPLY_STRUCT, Data)``` to locate the beginning of the **Data** structure within **ReplyBuffer**, and examine the **ReplyLength** output value to determine the actual number of bytes written by the user-mode application.
 
 ## -see-also
 

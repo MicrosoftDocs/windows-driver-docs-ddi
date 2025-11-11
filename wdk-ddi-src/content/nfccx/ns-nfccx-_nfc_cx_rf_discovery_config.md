@@ -1,7 +1,7 @@
 ---
 UID: NS:nfccx._NFC_CX_RF_DISCOVERY_CONFIG
 title: _NFC_CX_RF_DISCOVERY_CONFIG (nfccx.h)
-description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling NfcDxDeviceInitialize, otherwise an error is returned.
+description: The NFC_CX_RF_DISCOVERY_CONFIG structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling NfcCxDeviceInitialize, otherwise an error is returned.
 old-location: nfpdrivers\nfc_cx_rf_discovery_config.htm
 tech.root: nfpdrivers
 ms.date: 02/15/2018
@@ -51,7 +51,7 @@ api_name:
 
 ## -description
 
-The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdevicedeinitialize">NfcDxDeviceInitialize</a>, otherwise an error is returned.
+The <b>NFC_CX_RF_DISCOVERY_CONFIG</b> structure contains RF discovery configuration settings. Discovery configuration should be completed during initialization after calling <a href="/windows-hardware/drivers/ddi/nfccx/nf-nfccx-nfccxdeviceinitialize">NfcCxDeviceInitialize</a>, otherwise an error is returned.
 
 ## -struct-fields
 
@@ -102,4 +102,5 @@ This member enables configuration of PA_BAIL_OUT and PB_BAIL_OUT as described in
 
 
 <a href="/windows-hardware/drivers/nfc/">Near field communication (NFC) design guide</a>
+
 

@@ -90,7 +90,7 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">, GET_CHANGER_PARAMETERS</a>
+<a href="/windows-hardware/drivers/ddi/ntddchgr/ns-ntddchgr-_get_changer_parameters">GET_CHANGER_PARAMETERS</a>
 
 
 

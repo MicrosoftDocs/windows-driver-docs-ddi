@@ -127,7 +127,7 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictablefullavl">RtlInsertElementGenericTableFull</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictablefullavl">RtlInsertElementGenericTableFullAvl</a>
 
 
 </li>
@@ -145,7 +145,7 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 </li>
 <li>
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFull</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFullAvl</a>
 
 
 </li>
@@ -183,7 +183,7 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictablefullavl">RtlInsertElementGenericTableFull</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlinsertelementgenerictablefullavl">RtlInsertElementGenericTableFullAvl</a>
 
 
 
@@ -195,7 +195,7 @@ To initialize a generic table package, you allocate a buffer that is at least <b
 
 
 
-<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFull</a>
+<a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtllookupelementgenerictablefullavl">RtlLookupElementGenericTableFullAvl</a>
 
 
 

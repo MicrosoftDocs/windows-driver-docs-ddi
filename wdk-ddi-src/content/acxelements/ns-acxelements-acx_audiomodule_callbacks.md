@@ -54,7 +54,7 @@ The length, in bytes, of this structure.
 
 ### -field EvtAcxAudioModuleProcessCommand
 
-The [ACX_AUDIOMODULE_PROCESSCOMMAND](nc-acxelements-evt_acx_audiomodule_processcommand.md) callback.
+The [EVT_ACX_AUDIOMODULE_PROCESSCOMMAND](nc-acxelements-evt_acx_audiomodule_processcommand.md) callback.
 
 ## -remarks
 

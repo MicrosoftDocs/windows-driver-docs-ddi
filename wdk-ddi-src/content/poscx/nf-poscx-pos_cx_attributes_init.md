@@ -1,7 +1,7 @@
 ---
 UID: NF:poscx.POS_CX_ATTRIBUTES_INIT
 title: POS_CX_ATTRIBUTES_INIT function (poscx.h)
-description: POS_CX_ATTRIBUTES_INIT initializes a POS_CX_ATTRIBUTE structure.
+description: POS_CX_ATTRIBUTES_INIT initializes a POS_CX_ATTRIBUTES structure.
 old-location: pos\pos_cx_attributes_init.htm
 tech.root: pos
 ms.date: 02/23/2018
@@ -45,18 +45,18 @@ api_name:
 
 ## -description
 
-POS_CX_ATTRIBUTES_INIT initializes a <a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTE</a> structure.
+POS_CX_ATTRIBUTES_INIT initializes a <a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTES</a> structure.
 
 ## -parameters
 
 ### -param PosCxAttrPtr [out]
 
 
-A pointer to the caller-allocated <a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTE</a> structure to initialize.
+A pointer to the caller-allocated <a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTES</a> structure to initialize.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTE</a>
+<a href="/windows-hardware/drivers/ddi/poscx/ns-poscx-_pos_cx_attributes">POS_CX_ATTRIBUTES</a>
 
 
 

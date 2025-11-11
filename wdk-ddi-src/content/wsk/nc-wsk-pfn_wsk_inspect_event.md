@@ -97,7 +97,7 @@ A WSK application's
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WskInspectAccept</b></b></dt>
+<dt><b>WskInspectAccept</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -108,7 +108,7 @@ The incoming connection request is accepted.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WskInspectReject</b></b></dt>
+<dt><b>WskInspectReject</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -119,7 +119,7 @@ The incoming connection request is rejected.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>WskInspectPend</b></b></dt>
+<dt><b>WskInspectPend</b></dt>
 </dl>
 </td>
 <td width="60%">

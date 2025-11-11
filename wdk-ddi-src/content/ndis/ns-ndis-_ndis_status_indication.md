@@ -213,7 +213,7 @@ Protocol drivers receive status indications at the
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus">NdisFindicateStatus</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisfindicatestatus">NdisFIndicateStatus</a>
 
 
 

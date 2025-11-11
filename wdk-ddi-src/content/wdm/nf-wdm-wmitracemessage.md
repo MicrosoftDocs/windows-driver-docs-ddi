@@ -209,7 +209,7 @@ All message buffers allocated to software tracing session are full.
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWmiWriteEvent</a>
+<a href="/windows-hardware/drivers/ddi/wdm/nf-wdm-iowmiwriteevent">IoWMIWriteEvent</a>
 
 
 

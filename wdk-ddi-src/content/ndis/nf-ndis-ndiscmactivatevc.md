@@ -129,7 +129,7 @@ For a client-initiated outgoing call, a stand-alone CM usually calls
 
 In the process of setting up an outgoing call and while any VC remains activated, the client can
     request changes to the call parameters for that VC, for example, by calling 
-    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQos</a>. After verifying
+    <a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>. After verifying
     the validity of the given call parameters for any such a request, the stand-alone call manager must call 
     <b>NdisCmActivateVc</b> to pass the modified call parameters down to the underlying miniport driver.
 
@@ -152,7 +152,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQos</a>
+<a href="/windows-hardware/drivers/ddi/ndis/nf-ndis-ndisclmodifycallqos">NdisClModifyCallQoS</a>
 
 
 

@@ -76,7 +76,7 @@ A pointer to a location into which the routine writes a handle that represents t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>STATUS_INVALID_PARAMETER</b></b></dt>
+<dt><b>STATUS_INVALID_PARAMETER</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -87,7 +87,7 @@ A pointer to a location into which the routine writes a handle that represents t
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>STATUS_DEVICE_NOT_READY</b></b></dt>
+<dt><b>STATUS_DEVICE_NOT_READY</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -98,7 +98,7 @@ The device is not ready.
 <tr>
 <td width="40%">
 <dl>
-<dt><b><b>STATUS_INSUFFICIENT_RESOURCES</b></b></dt>
+<dt><b>STATUS_INSUFFICIENT_RESOURCES</b></dt>
 </dl>
 </td>
 <td width="60%">

@@ -43,7 +43,7 @@ api_name:
 
 ## -description
 
-Initializes a [**USBPM_CONNECTOR_PROPERTIES**](ns-usbpmapi-_usbpm_connector_properties.md) structure. The client driver must call this function before calling [**UsbPm_RetrieveCoonnectorProperties**](nf-usbpmapi-usbpm_retrieveconnectorproperties.md).
+Initializes a [**USBPM_CONNECTOR_PROPERTIES**](ns-usbpmapi-_usbpm_connector_properties.md) structure. The client driver must call this function before calling [**UsbPm_RetrieveConnectorProperties**](nf-usbpmapi-usbpm_retrieveconnectorproperties.md).
 
 ## -parameters
 

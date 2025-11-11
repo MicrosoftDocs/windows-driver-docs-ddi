@@ -122,7 +122,7 @@ On an abnormal termination or other failure, **RxStartMinirdr** will try to undo
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxpunregisterminirdr">, RxpUnregisterMinirdr</a>
+<a href="/windows-hardware/drivers/ddi/mrx/nf-mrx-rxpunregisterminirdr">RxpUnregisterMinirdr</a>
 
 
 

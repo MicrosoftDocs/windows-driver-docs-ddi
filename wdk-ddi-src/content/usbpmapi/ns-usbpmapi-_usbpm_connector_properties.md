@@ -45,7 +45,7 @@ api_name:
 
 ## -description
 
-Describes the properties of a connector. This structure is used in the [**UsbPm_RetrieveCoonnectorProperties**](nf-usbpmapi-usbpm_retrieveconnectorproperties.md) call.
+Describes the properties of a connector. This structure is used in the [**UsbPm_RetrieveConnectorProperties**](nf-usbpmapi-usbpm_retrieveconnectorproperties.md) call.
 
 ## -struct-fields
 

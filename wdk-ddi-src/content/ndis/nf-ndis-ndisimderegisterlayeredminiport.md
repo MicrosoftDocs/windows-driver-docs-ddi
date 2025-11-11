@@ -68,4 +68,4 @@ The **NdisIMDeregisterLayeredMiniport** function is the reciprocal of **NdisIMRe
 
 ## -see-also
 
-- [**NdisDeregisterProtocolNdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)
+- [**NdisIMRegisterLayeredMiniport**](nf-ndis-ndisimregisterlayeredminiport.md)

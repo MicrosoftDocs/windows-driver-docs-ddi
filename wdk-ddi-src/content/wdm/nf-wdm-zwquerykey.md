@@ -80,7 +80,7 @@ Pointer to a variable that receives the size, in bytes, of the requested key inf
 The *KeyHandle* passed to **ZwQueryKey** must have been opened with KEY_QUERY_VALUE access. This is accomplished by passing KEY_QUERY_VALUE, KEY_READ, or KEY_ALL_ACCESS as the *DesiredAccess* parameter to [ZwCreateKey](./nf-wdm-zwcreatekey.md) or [ZwOpenKey](./nf-wdm-zwopenkey.md).
 > If *KeyInformationClass* is KeyNameInformation or KeyHandleTagsInformation, the KEY_QUERY_VALUE requirement does not apply.
 
-**ZwQueryKey** can be used to obtain information that you can use to allocate buffers to hold registry data, such as the maximum size of a key's value entries or subkey names, or the number of subkeys. For example, you can call **ZwQueryKey**, use the returned information to allocate a buffer for a subkey, call [ZwEnumerateKey](./nf-wdm-zwenumeratekey.md) to get the name of the subkey, and pass that name to an **Rtl*****Xxx*****Registry** routine.
+**ZwQueryKey** can be used to obtain information that you can use to allocate buffers to hold registry data, such as the maximum size of a key's value entries or subkey names, or the number of subkeys. For example, you can call **ZwQueryKey**, use the returned information to allocate a buffer for a subkey, call [ZwEnumerateKey](./nf-wdm-zwenumeratekey.md) to get the name of the subkey, and pass that name to an **Rtl*Xxx*Registry** routine.
 
 For more information about working with registry keys, see [Using the Registry in a Driver](/windows-hardware/drivers/kernel/using-the-registry-in-a-driver).
 

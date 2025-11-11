@@ -53,7 +53,7 @@ Pointer to the thread context received in a prior call to [**StorPortCreateSyste
 
 ### -param PreviousAffinity [in]
 
-Pointer to a [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md) structure with the group affinity to restore. This group affinity was obtained in a prior call to [**StorPortSetSystemGroupAffinityThread**](nf-storport-storportsetprioritythread.md).
+Pointer to a [**STOR_GROUP_AFFINITY**](ns-storport-stor_group_affinity.md) structure with the group affinity to restore. This group affinity was obtained in a prior call to [**StorPortSetSystemGroupAffinityThread**](nf-storport-storportsetsystemgroupaffinitythread.md).
 
 ## -returns
 
