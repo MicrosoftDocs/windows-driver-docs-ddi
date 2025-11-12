@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntnpik.PKTMON_PROVIDER_REGISTER_COMPONENT
-tech.root: 
+tech.root: netvista
 title: PKTMON_PROVIDER_REGISTER_COMPONENT
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The **PKTMON_PROVIDER_REGISTER_COMPONENT** callback function is invoked by the Packet Monitor provider to register a new monitoring component.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,17 +44,33 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_PROVIDER_REGISTER_COMPONENT** callback function is invoked by the Packet Monitor provider to register a new monitoring component. This callback is part of the provider dispatch table and is called when a client needs to register a component with the packet monitoring infrastructure.
+
 ## -parameters
 
 ### -param ProviderBindingContext
 
+An opaque context pointer representing the provider binding. This context was established during the provider-client attachment and is used to identify the specific provider instance handling this operation.
+
 ### -param Component
+
+A pointer to a **[PKTMON_COMPONENT_IN](ns-pktmonclntnpik-pktmon_component_in.md)** structure containing the component registration information, including the component's name, description, type, and packet type it will monitor.
 
 ### -param CompHandle
 
+A pointer to a handle that receives the component handle upon successful registration. This handle is used in subsequent operations involving this component.
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the component registration succeeds. Otherwise, returns an appropriate `NTSTATUS` error code indicating the failure reason.
 
 ## -remarks
 
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the provider module when a client calls **[PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentregister.md)**. The provider implementation should validate the component information and allocate necessary resources for tracking this component.
+
 ## -see-also
+
+- [PKTMON_COMPONENT_IN](ns-pktmonclntnpik-pktmon_component_in.md)
+- [PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)
+- [PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentregister.md)
 

@@ -1,10 +1,10 @@
 ---
 UID: NS:pktmonnetevtnpik._PKTMON_NETEVT_CLIENT_REPORT_PACKET_EVENT_OUT
-tech.root: 
+tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_REPORT_PACKET_EVENT_OUT
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The **PKTMON_NETEVT_CLIENT_REPORT_PACKET_EVENT_OUT** structure contains the start and end pointers of the buffer containing packet event information.
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,13 +44,25 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_NETEVT_CLIENT_REPORT_PACKET_EVENT_OUT** structure contains the start and end pointers of the buffer containing packet event information. This structure is used as an output parameter when reporting packet flow events through the NetEvt interface.
+
 ## -struct-fields
 
 ### -field BufferStart
 
+Pointer to the beginning of the buffer containing the packet event information. This marks the starting address of the event data that has been written.
+
 ### -field BufferEnd
+
+Pointer to the end of the buffer containing the packet event information. This marks the address immediately after the last byte of valid event data.
 
 ## -remarks
 
+The buffer bounded by *BufferStart* and *BufferEnd* typically contains a **[PKTMON_EVT_STREAM_PACKET_HEADER](ns-pktmonnetevtnpik-pktmon_evt_stream_packet_header.md)** followed by the packet metadata and payload data.
+
 ## -see-also
+
+- [PKTMON_EVT_STREAM_PACKET_HEADER](ns-pktmonnetevtnpik-pktmon_evt_stream_packet_header.md)
+- [PKTMON_NETEVT_CLIENT_REPORT_PACKET_DROP_OUT](ns-pktmonnetevtnpik-pktmon_netevt_client_report_packet_drop_out.md)
+- [PKTMON_NETEVT_PROVIDER_DISPATCH](ns-pktmonnetevtnpik-pktmon_netevt_provider_dispatch.md)
 

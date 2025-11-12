@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntnpik.PKTMON_PROVIDER_PACKET_DROP
-tech.root: 
+tech.root: netvista        
 title: PKTMON_PROVIDER_PACKET_DROP
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The **PKTMON_PROVIDER_PACKET_DROP** callback function is invoked by the Packet Monitor provider to log packet drop events.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,19 +44,40 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_PROVIDER_PACKET_DROP** callback function is invoked by the Packet Monitor provider to log packet drop events. This callback is called when a packet is dropped by a monitored component, recording the drop reason and location for diagnostic purposes.
+
 ## -parameters
 
 ### -param ProviderBindingContext
 
+An opaque context pointer representing the provider binding. This context identifies the specific provider instance handling this packet drop logging operation.
+
 ### -param CompHandle
+
+A handle to the component where the packet drop occurred. This handle was returned from a previous **[PKTMON_PROVIDER_REGISTER_COMPONENT](nc-pktmonclntnpik-pktmon_provider_register_component.md)** callback invocation.
 
 ### -param PacketLog
 
+A pointer to a **[PKTMON_PACKET_LOG_IN](ns-pktmonclntnpik-pktmon_packet_log_in.md)** structure containing information about the dropped packet, including direction, packet type, and optional header information.
+
 ### -param DropReport
+
+A pointer to a **[PKTMON_DROP_REPORT_IN](ns-pktmonclntnpik-pktmon_drop_report_in.md)** structure containing the drop reason code and drop location code that explain why and where the packet was dropped.
 
 ### -param Context
 
+An optional pointer to a **[PKTMON_PACKET_CONTEXT_IN](ns-pktmonclntnpik-pktmon_packet_context_in.md)** structure containing component-specific context information. Can be NULL.
+
 ## -remarks
 
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)** or **[PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)** to report that a packet was dropped.
+
 ## -see-also
+
+- [PKTMON_PACKET_LOG_IN](ns-pktmonclntnpik-pktmon_packet_log_in.md)
+- [PKTMON_DROP_REPORT_IN](ns-pktmonclntnpik-pktmon_drop_report_in.md)
+- [PKTMON_PACKET_CONTEXT_IN](ns-pktmonclntnpik-pktmon_packet_context_in.md)
+- [PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)
+- [PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)
+- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)
 
