@@ -1,8 +1,8 @@
 ---
 UID: NE:pktmondefk._PKTMON_CAPTURE_TYPE
-tech.root: 
+tech.root: netvista
 title: PKTMON_CAPTURE_TYPE
-ms.date: 
+ms.date: 11/11/2025
 targetos: Windows
 description: 
 prerelease: false
@@ -33,6 +33,7 @@ f1_keywords:
  - PKTMON_CAPTURE_TYPE
  - pktmondefk/PKTMON_CAPTURE_TYPE
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_CAPTURE_TYPE

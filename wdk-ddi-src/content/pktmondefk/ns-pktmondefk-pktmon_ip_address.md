@@ -1,8 +1,8 @@
 ---
 UID: NS:pktmondefk._PKTMON_IP_ADDRESS
-tech.root: 
+tech.root: netvista
 title: PKTMON_IP_ADDRESS
-ms.date: 
+ms.date: 11/11/2025
 targetos: Windows
 description: 
 prerelease: true
@@ -37,6 +37,7 @@ f1_keywords:
  - PKTMON_IP_ADDRESS
  - pktmondefk/PKTMON_IP_ADDRESS
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - _PKTMON_IP_ADDRESS

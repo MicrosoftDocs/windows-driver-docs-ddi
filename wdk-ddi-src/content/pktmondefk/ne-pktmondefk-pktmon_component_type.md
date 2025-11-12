@@ -1,6 +1,6 @@
 ---
 UID: NE:pktmondefk._PKTMON_COMPONENT_TYPE
-tech.root: 
+tech.root: netvista
 title: PKTMON_COMPONENT_TYPE
 ms.date: 03/14/2025
 targetos: Windows
@@ -13,7 +13,7 @@ req.include-header:
 req.kmdf-ver: 
 req.max-support: 
 req.target-min-winverclnt: 
-req.target-min-winversvr: 
+req.target-min-winversvr:
 req.target-type: 
 req.typenames: 
 typedef_isUnnamed: false
