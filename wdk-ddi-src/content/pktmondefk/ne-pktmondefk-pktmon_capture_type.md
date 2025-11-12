@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_CAPTURE_TYPE
 ms.date: 11/11/2025
 targetos: Windows
-description: 
+description: Specifies the type of packets to capture during packet monitoring.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
@@ -41,17 +41,32 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_CAPTURE_TYPE** enum specifies the type of packets to capture during packet monitoring. This enumeration is used when starting packet monitoring to control whether to capture all packets, only successfully flowing packets, only dropped packets, or no packets at all.
+
+The capture type is specified when starting packet monitoring and determines which packets are reported by the packet monitor. For a packet monitoring session, the capture type controls whether flow events and drop events are enabled for the monitored components.
+
 ## -enum-fields
 
 ### -field PktMonCapture_All
 
+Capture all packets. Both flow packets and drop packets will be captured.
+
 ### -field PktMonCapture_Flow
+
+Capture flow packets only. Only packets that are successfully flowing through the network stack will be captured.
 
 ### -field PktMonCapture_Drop
 
+Capture drop packets only. Only packets that are dropped by the network stack will be captured.
+
 ### -field PktMonCapture_None
+
+Capture no packets. Packet capturing is disabled.
 
 ## -remarks
 
 ## -see-also
 
+- [PktMonClntNblLog](../pktmonclntk/nf-pktmonclntk-pktmonclntnbllog.md)
+- [PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-PktMonClntNblDrop.md)
+- [PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-PktMonClntComponentRegister.md)
