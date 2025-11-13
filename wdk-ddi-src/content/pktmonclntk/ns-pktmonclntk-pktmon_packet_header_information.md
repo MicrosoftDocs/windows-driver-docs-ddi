@@ -5,6 +5,7 @@ title: PKTMON_PACKET_HEADER_INFORMATION
 ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_PACKET_HEADER_INFORMATION struct contains the packet header information.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -41,6 +42,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - _PKTMON_PACKET_HEADER_INFORMATION
+ai-usage: ai-assisted
 ---
 
 ## -description

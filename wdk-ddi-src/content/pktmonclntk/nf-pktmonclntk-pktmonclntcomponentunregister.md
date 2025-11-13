@@ -5,6 +5,7 @@ title: PktMonClntComponentUnregister
 ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntComponentUnregister function unregisters a component with Packet Monitor.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

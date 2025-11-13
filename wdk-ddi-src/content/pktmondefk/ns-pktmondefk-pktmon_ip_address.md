@@ -5,6 +5,7 @@ title: PKTMON_IP_ADDRESS
 ms.date: 11/11/2025
 targetos: Windows
 description: The **PKTMON_IP_ADDRESS** structure represents an IP address in either IPv4 or IPv6 format for use in packet monitoring operations.
+ai-usage: ai-assisted
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

@@ -5,6 +5,7 @@ title: PKTMON_EDGE_CONTEXT
 ms.date: 04/21/2025
 targetos: Windows
 description: The PKTMON_EDGE_CONTEXT structure holds the context for an edge.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

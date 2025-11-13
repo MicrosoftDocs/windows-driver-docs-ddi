@@ -5,6 +5,7 @@ title: PKTMON_COMPONENT_PROPERTY
 ms.date: 03/14/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_PROPERTY structure defines various properties for a Packet Monitor component.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

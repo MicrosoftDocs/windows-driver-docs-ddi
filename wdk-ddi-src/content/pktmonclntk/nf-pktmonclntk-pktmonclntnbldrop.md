@@ -5,6 +5,7 @@ title: PktMonClntNblDrop
 ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntNblDrop function logs that a network packet was dropped.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

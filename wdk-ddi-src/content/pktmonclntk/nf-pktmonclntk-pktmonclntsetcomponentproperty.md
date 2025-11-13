@@ -5,6 +5,7 @@ title: PktMonClntSetComponentProperty
 ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntSetComponentProperty function sets a property for a specific component.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

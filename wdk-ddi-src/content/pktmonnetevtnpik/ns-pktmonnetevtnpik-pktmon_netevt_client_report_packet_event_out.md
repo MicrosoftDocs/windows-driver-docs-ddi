@@ -5,6 +5,7 @@ title: PKTMON_NETEVT_CLIENT_REPORT_PACKET_EVENT_OUT
 ms.date: 11/12/2025
 targetos: Windows
 description: The **PKTMON_NETEVT_CLIENT_REPORT_PACKET_EVENT_OUT** structure contains the start and end pointers of the buffer containing packet event information.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

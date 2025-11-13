@@ -5,6 +5,7 @@ title: PKTMON_CLNT_HEADER_INFO_LOG
 ms.date: 03/14/2025
 targetos: Windows
 description: Function pointer to PktMonClntHeaderInfoLog.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

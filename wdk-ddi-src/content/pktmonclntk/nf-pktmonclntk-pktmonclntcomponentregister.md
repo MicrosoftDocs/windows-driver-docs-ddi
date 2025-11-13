@@ -5,6 +5,7 @@ title: PktMonClntComponentRegister
 ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntComponentRegister function registers a component with Packet Monitor, allowing it to monitor and report packet activities.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

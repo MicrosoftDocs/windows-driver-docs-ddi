@@ -5,6 +5,7 @@ title: PktMonClntHeaderInfoDrop
 ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntHeaderInfoDrop function logs that a network packet was dropped.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -41,6 +42,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - PktMonClntHeaderInfoDrop
+ai-usage: ai-assisted
 ---
 
 ## -description

@@ -5,6 +5,7 @@ title: PKTMON_CAPTURE_TYPE
 ms.date: 11/11/2025
 targetos: Windows
 description: Specifies the type of packets to capture during packet monitoring.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

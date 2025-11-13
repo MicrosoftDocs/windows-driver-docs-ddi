@@ -5,6 +5,7 @@ title: PktMonClntInitialize
 ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntInitialize function initializes the Packet Monitor client, informing Packet Monitor about the module ID that identifies the client.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

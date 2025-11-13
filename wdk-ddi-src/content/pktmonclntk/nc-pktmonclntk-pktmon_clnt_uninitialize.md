@@ -5,6 +5,7 @@ title: PKTMON_CLNT_UNINITIALIZE
 ms.date: 03/14/2025
 targetos: Windows
 description: Function pointer to PktMonClntUninitialize.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

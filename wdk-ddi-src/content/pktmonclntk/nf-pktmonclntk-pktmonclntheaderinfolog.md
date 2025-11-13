@@ -5,6 +5,7 @@ title: PktMonClntHeaderInfoLog
 ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntHeaderInfoLog function logs that a network packet has flowed through, as opposed to being dropped.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -41,6 +42,7 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - PktMonClntHeaderInfoLog
+ai-usage: ai-assisted
 ---
 
 ## -description
