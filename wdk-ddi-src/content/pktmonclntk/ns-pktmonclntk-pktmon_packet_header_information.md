@@ -42,7 +42,6 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - _PKTMON_PACKET_HEADER_INFORMATION
-ai-usage: ai-assisted
 ---
 
 ## -description
