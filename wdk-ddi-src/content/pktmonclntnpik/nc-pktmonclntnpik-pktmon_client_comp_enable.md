@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntnpik.PKTMON_CLIENT_COMP_ENABLE
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLIENT_COMP_ENABLE
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_CLIENT_COMP_ENABLE callback function is invoked by the Packet Monitor client to enable or disable packet monitoring for a specific component.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,11 +44,21 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_CLIENT_COMP_ENABLE** callback function is invoked by the Packet Monitor client to enable or disable packet monitoring for a specific component. This callback allows components to respond to monitoring state changes by starting or stopping packet capture operations.
+
 ## -parameters
 
 ### -param Enable
 
+A pointer to a **[PKTMON_CLIENT_COMP_ENABLE_IN](ns-pktmonclntnpik-pktmon_client_comp_enable_in.md)** structure that contains the component context and flags indicating whether flow logging and drop logging should be enabled or disabled.
+
 ## -remarks
 
+This callback is part of the **[PKTMON_CLIENT_DISPATCH](ns-pktmonclntnpik-pktmon_client_dispatch.md)** structure. Components can use the `FlowEnabled` and `DropEnabled` fields to determine what type of monitoring to perform.
+
 ## -see-also
+
+- [PKTMON_CLIENT_COMP_ENABLE_IN](ns-pktmonclntnpik-pktmon_client_comp_enable_in.md)
+- [PKTMON_CLIENT_DISPATCH](ns-pktmonclntnpik-pktmon_client_dispatch.md)
+- [PKTMON_CLIENT_COMP_CLOSE](nc-pktmonclntnpik-pktmon_client_comp_close.md)
 

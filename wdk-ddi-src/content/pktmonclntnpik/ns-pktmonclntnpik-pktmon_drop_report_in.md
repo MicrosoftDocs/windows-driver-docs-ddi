@@ -1,10 +1,10 @@
 ---
 UID: NS:pktmonclntnpik._PKTMON_DROP_REPORT_IN
-tech.root: 
+tech.root: netvista
 title: PKTMON_DROP_REPORT_IN
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_DROP_REPORT_IN structure contains information about why and where a packet was dropped in the network stack.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,15 +44,29 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_DROP_REPORT_IN** structure contains information about why and where a packet was dropped in the network stack. This structure is passed to the **[PKTMON_PROVIDER_PACKET_DROP](nc-pktmonclntnpik-pktmon_provider_packet_drop.md)** callback when reporting packet drop events.
+
 ## -struct-fields
 
 ### -field Header
 
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+
 ### -field DropReason
+
+A 32-bit value indicating the reason code for why the packet was dropped. The interpretation of this code is component-specific and provides diagnostic information about the drop cause.
 
 ### -field LocationCode
 
+A 32-bit value indicating the location code where the packet was dropped. This helps identify the specific point in the component's processing path where the drop occurred.
+
 ## -remarks
 
+Components use this structure when calling **[PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)** or **[PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)** to provide detailed diagnostic information about packet drops.
+
 ## -see-also
+
+- [PKTMON_PROVIDER_PACKET_DROP](nc-pktmonclntnpik-pktmon_provider_packet_drop.md)
+- [PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)
+- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)
 

@@ -1,10 +1,10 @@
 ---
 UID: NS:pktmonclntnpik._PKTMON_CLIENT_DISPATCH
-tech.root: 
+tech.root: netvista
 title: PKTMON_CLIENT_DISPATCH
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_CLIENT_DISPATCH structure contains callback function pointers that the Packet Monitor client provides to handle monitoring events and state changes.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,17 +44,33 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_CLIENT_DISPATCH** structure contains callback function pointers that the Packet Monitor client provides to handle monitoring events and state changes. This dispatch table defines the client's interface for responding to monitoring control operations.
+
 ## -struct-fields
 
 ### -field Size
 
+The size of this structure in bytes, used for version validation and compatibility checking.
+
 ### -field ClientEnable
+
+A pointer to a **[PKTMON_CLIENT_ENABLE](nc-pktmonclntnpik-pktmon_client_enable.md)** callback function that enables or disables the entire client monitoring infrastructure.
 
 ### -field CompEnable
 
+A pointer to a **[PKTMON_CLIENT_COMP_ENABLE](nc-pktmonclntnpik-pktmon_client_comp_enable.md)** callback function that enables or disables monitoring for a specific component.
+
 ### -field CompClose
+
+A pointer to a **[PKTMON_CLIENT_COMP_CLOSE](nc-pktmonclntnpik-pktmon_client_comp_close.md)** callback function that notifies the component to clean up when monitoring is disabled.
 
 ## -remarks
 
+Clients must initialize this structure with their callback implementations and pass it during client registration to establish the monitoring infrastructure.
+
 ## -see-also
+
+- [PKTMON_CLIENT_ENABLE](nc-pktmonclntnpik-pktmon_client_enable.md)
+- [PKTMON_CLIENT_COMP_ENABLE](nc-pktmonclntnpik-pktmon_client_comp_enable.md)
+- [PKTMON_CLIENT_COMP_CLOSE](nc-pktmonclntnpik-pktmon_client_comp_close.md)
 

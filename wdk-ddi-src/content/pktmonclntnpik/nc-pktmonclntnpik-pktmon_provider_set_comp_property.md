@@ -1,10 +1,10 @@
 ---
 UID: NC:pktmonclntnpik.PKTMON_PROVIDER_SET_COMP_PROPERTY
-tech.root: 
+tech.root: netvista
 title: PKTMON_PROVIDER_SET_COMP_PROPERTY
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_PROVIDER_SET_COMP_PROPERTY callback function is invoked by the Packet Monitor provider to set a property on a registered component.
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,17 +44,33 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_PROVIDER_SET_COMP_PROPERTY** callback function is invoked by the Packet Monitor provider to set a property on a registered component. This callback allows dynamic configuration of component behavior through property updates.
+
 ## -parameters
 
 ### -param ProviderBindingContext
 
+An opaque context pointer representing the provider binding. This context identifies the specific provider instance handling this operation.
+
 ### -param CompHandle
+
+A handle to the component whose property is being set. This handle was returned from a previous **[PKTMON_PROVIDER_REGISTER_COMPONENT](nc-pktmonclntnpik-pktmon_provider_register_component.md)** callback invocation.
 
 ### -param Property
 
+A pointer to a **[PKTMON_COMP_PROPERTY_IN](ns-pktmonclntnpik-pktmon_comp_property_in.md)** structure containing the property identifier, value, and size information.
+
 ## -returns
+
+Returns `STATUS_SUCCESS` if the property is successfully set. Otherwise, returns an appropriate `NTSTATUS` error code indicating the failure reason.
 
 ## -remarks
 
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntSetComponentProperty](../pktmonclntk/nf-pktmonclntk-pktmonclntsetcomponentproperty.md)**.
+
 ## -see-also
+
+- [PKTMON_COMP_PROPERTY_IN](ns-pktmonclntnpik-pktmon_comp_property_in.md)
+- [PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)
+- [PktMonClntSetComponentProperty](../pktmonclntk/nf-pktmonclntk-pktmonclntsetcomponentproperty.md)
 

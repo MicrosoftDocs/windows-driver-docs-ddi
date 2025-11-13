@@ -1,10 +1,10 @@
 ---
 UID: NS:pktmonclntnpik._PKTMON_COMP_PROPERTY_IN
-tech.root: 
+tech.root: netvista
 title: PKTMON_COMP_PROPERTY_IN
-ms.date: 
+ms.date: 11/12/2025
 targetos: Windows
-description: 
+description: The PKTMON_COMP_PROPERTY_IN structure contains property information for setting component properties in the Packet Monitor infrastructure.
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
@@ -44,17 +44,33 @@ helpviewer_keywords:
 
 ## -description
 
+The **PKTMON_COMP_PROPERTY_IN** structure contains property information for setting component properties in the Packet Monitor infrastructure. This structure is passed to the **[PKTMON_PROVIDER_SET_COMP_PROPERTY](nc-pktmonclntnpik-pktmon_provider_set_comp_property.md)** callback to configure component behavior.
+
 ## -struct-fields
 
 ### -field Header
 
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+
 ### -field Id
+
+A **[PKTMON_COMPONENT_PROPERTY_ID](../pktmondefk/ne-pktmondefk-pktmon_component_property_id.md)** enumeration value that identifies which property is being set.
 
 ### -field Value
 
+A pointer to the property value data. The format and interpretation of this data depends on the property ID.
+
 ### -field Size
+
+The size in bytes of the data pointed to by the `Value` field.
 
 ## -remarks
 
+This structure allows dynamic configuration of component properties after registration, enabling runtime adjustments to monitoring behavior.
+
 ## -see-also
+
+- [PKTMON_PROVIDER_SET_COMP_PROPERTY](nc-pktmonclntnpik-pktmon_provider_set_comp_property.md)
+- [PKTMON_COMPONENT_PROPERTY_ID](../pktmondefk/ne-pktmondefk-pktmon_component_property_id.md)
+- [PktMonClntSetComponentProperty](../pktmonclntk/nf-pktmonclntk-pktmonclntsetcomponentproperty.md)
 
