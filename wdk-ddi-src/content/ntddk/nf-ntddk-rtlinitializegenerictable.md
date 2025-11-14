@@ -3,7 +3,7 @@ UID: NF:ntddk.RtlInitializeGenericTable
 title: RtlInitializeGenericTable function (ntddk.h)
 description: The RtlInitializeGenericTable routine initializes a generic table.
 tech.root: ifsk
-ms.date: 01/10/2023
+ms.date: 11/13/2025
 keywords: ["RtlInitializeGenericTable function"]
 ms.keywords: RtlInitializeGenericTable, RtlInitializeGenericTable routine [Installable File System Drivers], ifsk.rtlinitializegenerictable, ntddk/RtlInitializeGenericTable, rtlref_2ef380c8-bc8a-4711-b0d1-b1c669818f2c.xml
 req.header: ntddk.h
@@ -149,7 +149,7 @@ The caller-supplied *CompareRoutine* is called before the *AllocateRoutine* to l
 By default, the operating system uses splay trees to implement generic tables. Under some circumstances, operations on a splay tree will make the tree deep and narrow and might even turn it into a straight line. Very deep trees degrade the performance of searches. You can ensure a more balanced, shallower tree implementation of generic tables by using Adelson-Velsky/Landis (AVL) trees. If you want to configure the generic table routines to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *Ntddk.h*:
 
 ```cpp
-`#define RTL_USE_AVL_TABLES 0`
+`#define RTL_USE_AVL_TABLES 1`
 ```
 
 If you want to use AVL tables and if RTL_USE_AVL_TABLES is not defined, you must use the AVL form of the generic table routines. For example, use the [RtlInitializeGenericTableAvl](./nf-ntddk-rtlinitializegenerictableavl.md) routine instead of **RtlInitializeGenericTable**. **RtlInitializeGenericTableAvl** returns an initialized [**RTL_AVL_TABLE**](./ns-ntddk-_rtl_avl_table.md) table structure in the buffer to which the *Table* parameter points. In the call to **RtlInitializeGenericTableAvl**, the caller must pass a PRTL_AVL_COMPARE_ROUTINE-typed comparison callback routine, a PRTL_AVL_ALLOCATE_ROUTINE-typed allocation callback routine, and a PRTL_AVL_FREE_ROUTINE-typed deallocation callback routine rather than the similar PRTL_GENERIC_*Xxx*-typed routines.
