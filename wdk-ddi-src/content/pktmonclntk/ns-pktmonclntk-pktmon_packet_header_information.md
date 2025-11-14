@@ -110,7 +110,7 @@ The code for the ICMP protocol.
 
 ## -see-also
 
-- [PktMonClntNblLog](../pktmonclntk/nf-pktmonclntk-pktmonclntnbllog.md)
-- [PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)
-- [PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)
-- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)
+- [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md)
+- [PktMonClntNblDrop](nf-pktmonclntk-pktmonclntnbldrop.md)
+- [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md)
+- [PktMonClntHeaderInfoDrop](nf-pktmonclntk-pktmonclntheaderinfodrop.md)

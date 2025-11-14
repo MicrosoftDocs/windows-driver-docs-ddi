@@ -42,7 +42,6 @@ dev_langs:
  - c++
 helpviewer_keywords:
  - PktMonClntHeaderInfoDrop
-ai-usage: ai-assisted
 ---
 
 ## -description
