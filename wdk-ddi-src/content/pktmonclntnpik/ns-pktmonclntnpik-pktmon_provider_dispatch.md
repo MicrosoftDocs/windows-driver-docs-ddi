@@ -6,7 +6,7 @@ ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_DISPATCH structure contains callback function pointers that the Packet Monitor provider implements to handle component registration, packet logging, and packet drop operations.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

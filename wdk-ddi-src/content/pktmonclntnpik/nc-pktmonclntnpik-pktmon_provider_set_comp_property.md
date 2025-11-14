@@ -6,7 +6,7 @@ ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_SET_COMP_PROPERTY callback function is invoked by the Packet Monitor provider to set a property on a registered component.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

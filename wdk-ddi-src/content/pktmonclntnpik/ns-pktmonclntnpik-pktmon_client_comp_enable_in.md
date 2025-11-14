@@ -6,7 +6,7 @@ ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_CLIENT_COMP_ENABLE_IN structure contains parameters for enabling or disabling packet monitoring on a specific component.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

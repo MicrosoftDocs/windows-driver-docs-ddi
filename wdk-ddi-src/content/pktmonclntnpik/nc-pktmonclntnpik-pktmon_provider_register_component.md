@@ -6,7 +6,7 @@ ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_REGISTER_COMPONENT callback function is invoked by the Packet Monitor provider to register a new monitoring component.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 

@@ -6,7 +6,7 @@ ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_EDGE_IN structure contains information about a monitoring edge being added to a component.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

@@ -6,7 +6,7 @@ ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS structure contains version information and characteristics specific to a Packet Monitor provider implementation.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 

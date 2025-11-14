@@ -6,7 +6,7 @@ ms.date: 11/2/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_PACKET_LOG callback function is invoked by the Packet Monitor provider to log packet flow events.
 ai-usage: ai-assisted
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
