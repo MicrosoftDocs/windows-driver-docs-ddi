@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_NETEVT_PROVIDER_CHARACTERISTICS
 ms.date: 11/12/2025
 targetos: Windows
-description: Defines the characteristics of a Packet Monitor NetEvt NMR provider module.
+description: The PKTMON_NETEVT_PROVIDER_CHARACTERISTICS structure defines the characteristics of a Packet Monitor NetEvt NMR provider module.
 ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure

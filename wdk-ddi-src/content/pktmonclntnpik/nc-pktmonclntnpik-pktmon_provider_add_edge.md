@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_ADD_EDGE
 ms.date: 11/12/2025
 targetos: Windows
-description: The **PKTMON_PROVIDER_ADD_EDGE** callback function is invoked by the Packet Monitor provider to add an edge to a registered component.
+description: The PKTMON_PROVIDER_ADD_EDGE callback function is invoked when a client calls **PktMonClntAddEdge** to add an edge to a registered component
 prerelease: true
 req.assembly: 
 req.construct-type: function
@@ -44,7 +44,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_ADD_EDGE** callback function is invoked by the Packet Monitor provider to add an edge to a registered component. An edge represents a packet monitoring boundary (entry/exit point) where packets flow through the component, allowing the component to report packet events at specific boundaries.
+The **PKTMON_PROVIDER_ADD_EDGE** callback function is invoked when a client calls [**PktMonClntAddEdge**](../pktmonclntk/nf-pktmonclntk-pktmonclntaddedge.md) (via **PKTMON_PROVIDER_DISPATCH**) to add an edge to a registered component An edge represents a packet monitoring boundary (entry/exit point) where packets flow through the component, allowing the component to report packet events at specific boundaries.
 
 ## -parameters
 

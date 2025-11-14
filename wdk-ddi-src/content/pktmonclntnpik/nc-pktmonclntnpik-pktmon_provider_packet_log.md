@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_PACKET_LOG
 ms.date: 11/2/2025
 targetos: Windows
-description: The **PKTMON_PROVIDER_PACKET_LOG** callback function is invoked by the Packet Monitor provider to log packet flow events.
+description: The PKTMON_PROVIDER_PACKET_LOG callback function is invoked by the Packet Monitor provider to log packet flow events.
 prerelease: true
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_NETEVT_CLIENT_DISPATCH_V2
 ms.date: 11/13/2025
 targetos: Windows
-description: Defines version 2 of the Packet Monitor NetEvt NMR client dispatch table, containing callback functions for the client module.
+description: The PKTMON_NETEVT_CLIENT_DISPATCH_V2 structure defines version 2 of the Packet Monitor NetEvt NMR client dispatch table, containing callback functions for the client module.
 ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure

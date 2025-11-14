@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_REGISTER_COMPONENT
 ms.date: 11/12/2025
 targetos: Windows
-description: The **PKTMON_PROVIDER_REGISTER_COMPONENT** callback function is invoked by the Packet Monitor provider to register a new monitoring component.
+description: The PKTMON_PROVIDER_REGISTER_COMPONENT callback function is invoked by the Packet Monitor provider to register a new monitoring component.
 prerelease: true
 req.assembly: 
 req.construct-type: function

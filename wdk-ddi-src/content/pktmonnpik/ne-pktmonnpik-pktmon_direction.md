@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_DIRECTION
 ms.date: 04/04/2025
 targetos: Windows
-description: The **PKTMON_DIRECTION** enum defines the two possible directions in which packets flow into, or out of a component.
+description: The PKTMON_DIRECTION enum defines the two possible directions in which packets flow into, or out of a component.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 
