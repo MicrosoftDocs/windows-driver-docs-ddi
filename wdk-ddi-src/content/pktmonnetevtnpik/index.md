@@ -5,7 +5,7 @@ title: pktmonnetevtnpik
 ms.date: 11/12/2025
 targetos: Windows
 description: Defines the public PktMonNetEvt NPI (NMR) interface for consuming network packet events.
-prerelease: true
+prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
