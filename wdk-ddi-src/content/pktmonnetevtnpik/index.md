@@ -1,7 +1,7 @@
 ---
 UID: NA:pktmonnetevtnpik
 tech.root: netvista
-title: pktmonnetevtnpik
+title: Pktmonnetevtnpik.h header
 ms.date: 11/12/2025
 targetos: Windows
 description: Defines the public PktMonNetEvt NPI (NMR) interface for consuming network packet events.
@@ -38,6 +38,7 @@ f1_keywords:
  - pktmonnetevtnpik
  - pktmonnetevtnpik/pktmonnetevtnpik
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - pktmonnetevtnpik
@@ -51,10 +52,4 @@ Defines the public PktMonNetEvt NPI (NMR) interface for consuming network packet
 
 ## -see-also
 
-- [Pktmonclntk.h header](../pktmonclntk/index.md)
-- [Pktmonclntnpik.h header](../Pktmonclntnpik/index.md)
-- [Pktmondefk.h header](../pktmondefk/index.md)
-- [Pktmonnpik.h header](../pktmonnpik/index.md)
-
 ## -examples
-

@@ -5,6 +5,7 @@ title: PKTMON_COMP_PROPERTY_IN
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_COMP_PROPERTY_IN structure contains property information for setting component properties in the Packet Monitor infrastructure.
+ai-usage: ai-assisted
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

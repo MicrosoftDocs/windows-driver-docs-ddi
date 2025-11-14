@@ -52,10 +52,4 @@ The pktmonnpik.h header file defines the public NPI (NMR) interface for network 
 
 ## -see-also
 
-- [Pktmonclntk.h header](../pktmonclntk/index.md)
-- [Pktmonclntnpik.h header](../Pktmonclntnpik/index.md)
-- [Pktmondefk.h header](../pktmondefk/index.md)
-- [pktmonnetevtnpik.h header](../pktmonnetevtnpik/index.md)
-
 ## -examples
-

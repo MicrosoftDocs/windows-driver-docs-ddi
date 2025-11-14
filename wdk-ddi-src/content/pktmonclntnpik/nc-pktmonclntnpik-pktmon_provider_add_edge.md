@@ -5,6 +5,7 @@ title: PKTMON_PROVIDER_ADD_EDGE
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_ADD_EDGE callback function is invoked when a client calls **PktMonClntAddEdge** to add an edge to a registered component
+ai-usage: ai-assisted
 prerelease: true
 req.assembly: 
 req.construct-type: function

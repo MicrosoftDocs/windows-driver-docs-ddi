@@ -5,6 +5,7 @@ title: PKTMON_CLIENT_DISPATCH
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_CLIENT_DISPATCH structure contains callback function pointers that the Packet Monitor client provides to handle monitoring events and state changes.
+ai-usage: ai-assisted
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

@@ -5,6 +5,7 @@ title: PKTMON_COMPONENT_IN
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_IN structure contains information about a monitoring component being registered with the Packet Monitor infrastructure.
+ai-usage: ai-assisted
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

@@ -5,6 +5,7 @@ title: PKTMON_BUFFER_TYPE
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_BUFFER_TYPE enumeration defines the types of packet buffers that can be monitored by the Packet Monitor infrastructure.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

@@ -5,6 +5,7 @@ title: PKTMON_PACKET_LOG_IN
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PACKET_LOG_IN structure contains information about a packet being logged for monitoring purposes.
+ai-usage: ai-assisted
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

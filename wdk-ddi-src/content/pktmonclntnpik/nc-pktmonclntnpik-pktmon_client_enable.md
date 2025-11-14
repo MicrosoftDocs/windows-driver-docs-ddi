@@ -5,6 +5,7 @@ title: PKTMON_CLIENT_ENABLE
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_CLIENT_ENABLE callback function is invoked by the Packet Monitor client to enable or disable the entire client monitoring infrastructure.
+ai-usage: ai-assisted
 prerelease: true
 req.assembly: 
 req.construct-type: function

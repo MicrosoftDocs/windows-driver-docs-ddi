@@ -1,10 +1,11 @@
 ---
 UID: NA:pktmonclntnpik
 tech.root: netvista
-title: pktmonclntnpik
+title: pktmonclntnpik.h header
 ms.date: 11/12/2025
 targetos: Windows
 description: Defines the public PktMonClnt NPI (NMR) interface for producing network packet events.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
@@ -38,6 +39,7 @@ f1_keywords:
  - pktmonclntnpik
  - pktmonclntnpik/pktmonclntnpik
 dev_langs:
+ - c
  - c++
 helpviewer_keywords:
  - pktmonclntnpik
@@ -51,10 +53,4 @@ Defines the public PktMonClnt NPI (NMR) interface for producing network packet e
 
 ## -see-also
 
-- [Pktmonclntk.h header](../pktmonclntk/index.md)
-- [Pktmondefk.h header](../pktmondefk/index.md)
-- [pktmonnetevtnpik.h header](../pktmonnetevtnpik/index.md)
-- [Pktmonnpik.h header](../pktmonnpik/index.md)
-
 ## -examples
-

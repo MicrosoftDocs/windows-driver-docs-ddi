@@ -5,6 +5,7 @@ title: PKTMON_DROP_REPORT_IN
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_DROP_REPORT_IN structure contains information about why and where a packet was dropped in the network stack.
+ai-usage: ai-assisted
 prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 

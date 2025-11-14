@@ -5,6 +5,7 @@ title: PKTMON_PROVIDER_PACKET_DROP
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_PACKET_DROP callback function is invoked by the Packet Monitor provider to log packet drop events.
+ai-usage: ai-assisted
 prerelease: true
 req.assembly: 
 req.construct-type: function

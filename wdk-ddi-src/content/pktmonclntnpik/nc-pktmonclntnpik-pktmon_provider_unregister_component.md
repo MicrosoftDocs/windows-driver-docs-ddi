@@ -5,6 +5,7 @@ title: PKTMON_PROVIDER_UNREGISTER_COMPONENT
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_PROVIDER_UNREGISTER_COMPONENT callback function is invoked by the Packet Monitor provider to unregister a monitoring component and free its resources.
+ai-usage: ai-assisted
 prerelease: true
 req.assembly: 
 req.construct-type: function

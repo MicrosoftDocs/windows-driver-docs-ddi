@@ -5,6 +5,7 @@ title: PKTMON_CLIENT_COMP_CLOSE
 ms.date: 11/12/2025
 targetos: Windows
 description: The PKTMON_CLIENT_COMP_CLOSE callback function is invoked by the Packet Monitor client to notify a component that monitoring has been disabled and the component should clean up its resources.
+ai-usage: ai-assisted
 prerelease: true
 req.assembly: 
 req.construct-type: function

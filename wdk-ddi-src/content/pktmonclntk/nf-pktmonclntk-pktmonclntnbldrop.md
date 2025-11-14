@@ -64,7 +64,7 @@ The type of packet being logged. This must be one of the values defined in the *
 
 ### -param PacketHeaderInformation
 
-Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information. Can be NULL.
+Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonclntk/ns-pktmonclntk-pktmon_packet_header_information.md)** structure containing the packet header information. Can be NULL.
 
 ### -param UseOnlyFirstNbl
 
