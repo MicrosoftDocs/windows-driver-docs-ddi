@@ -51,7 +51,7 @@ The **PKTMON_PROVIDER_SPECIFIC_CHARACTERISTICS** structure contains version info
 
 ### -field Header
 
-A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header.md) structure used for versioning and size validation.
 
 ### -field ProviderMajorVersion
 

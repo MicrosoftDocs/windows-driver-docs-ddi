@@ -51,7 +51,7 @@ The **PKTMON_DROP_REPORT_IN** structure contains information about why and where
 
 ### -field Header
 
-A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header.md) structure used for versioning and size validation.
 
 ### -field DropReason
 

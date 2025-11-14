@@ -51,7 +51,7 @@ The **PKTMON_COMP_PROPERTY_IN** structure contains property information for sett
 
 ### -field Header
 
-A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header.md) structure used for versioning and size validation.
 
 ### -field Id
 

@@ -81,5 +81,5 @@ Indicates the packet direction. Each component reports packets in two directions
 - **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)**
 - **[NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md)**
 - **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
-- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)**
+- **[PKTMON_PACKET_HEADER_INFORMATION](ns-pktmonclntk-pktmon_packet_header_information.md)**
 - **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)**

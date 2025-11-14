@@ -51,7 +51,7 @@ The **PKTMON_EDGE_IN** structure contains information about a monitoring edge be
 
 ### -field Header
 
-A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header.md) structure used for versioning and size validation.
 
 ### -field Name
 

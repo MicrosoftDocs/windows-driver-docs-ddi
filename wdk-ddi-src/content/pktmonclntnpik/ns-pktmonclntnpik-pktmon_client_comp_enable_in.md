@@ -51,7 +51,7 @@ The **PKTMON_CLIENT_COMP_ENABLE_IN** structure contains parameters for enabling 
 
 ### -field Header
 
-A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header) structure used for versioning and size validation.
+A [PKTMON_HEADER](../pktmonnpik/ns-pktmonnpik-pktmon_header.md) structure used for versioning and size validation.
 
 ### -field CompContext
 
