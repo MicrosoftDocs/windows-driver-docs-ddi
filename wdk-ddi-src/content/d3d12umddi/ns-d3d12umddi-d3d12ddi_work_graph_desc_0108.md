@@ -2,7 +2,7 @@
 UID: NS:d3d12umddi.D3D12DDI_WORK_GRAPH_DESC_0108
 tech.root: display
 title: D3D12DDI_WORK_GRAPH_DESC_0108
-ms.date: 05/03/2024 
+ms.date: 11/14/2024 
 targetos: Windows
 description: Learn more about the D3D12DDI_WORK_GRAPH_DESC_0108 structure.
 prerelease: false
@@ -47,7 +47,7 @@ The **D3D12DDI_WORK_GRAPH_DESC_0108** structure defines the state subobject of t
 
 ### -field ProgramName
 
-Name of the work graph. This name is unique in the given state object.
+Name of the work graph. This name is unique in the given state object and is used to identify the work graph.
 
 ### -field Version
 
