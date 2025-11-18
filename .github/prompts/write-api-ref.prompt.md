@@ -1,8 +1,8 @@
 ---
 mode: 'agent'
 model: Claude Sonnet 4.5
-tools: [microsoft_docs_search, runCommands, edit, runTasks]
-description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git and the Learn MCP tool, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations and source code in attached headers and source files, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git or Learn MCP access is unavailable, the agent reports the problem and stops.'
+tools: [microsoft.docs.mcp/microsoft_docs_search, substrate-mcp-mini/*, runCommands, edit, runTasks]
+description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git, the Learn MCP tool, and the ADO MCP server, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations and source code in attached headers and source files, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git, Learn MCP, or ADO MCP access is unavailable, the agent reports the problem and stops.'
 ---
 
 Prompt:
@@ -13,8 +13,9 @@ Your goal is to write API reference pages for Windows Driver Kit (WDK) entities 
 
 2. Verify environment access:
     - Run `git status` to confirm Git is available in the terminal.
-    - Verify access to the Learn MCP server (`microsoft.docs.mcp`).
-    - If either check fails, stop and report the problem.
+    - Verify access to the Learn MCP server (`microsoft.docs.mcp/microsoft_docs_search`).
+    - Verify access to the ADO MCP server (`substrate-mcp-mini/*`).
+    - If any check fails, stop and report the problem.
 
 3. If the file exists, report it and don't check out its stub file. If the file doesn't exist, from the repository root, use the VS Code terminal window to check out its stub file with:
     `git checkout origin/stubs/main -- <path/filename.md>`
