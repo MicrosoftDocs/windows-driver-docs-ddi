@@ -3,7 +3,7 @@ UID: NF:ntddk.RtlInitializeGenericTableAvl
 title: RtlInitializeGenericTableAvl function (ntddk.h)
 description: The RtlInitializeGenericTableAvl routine initializes a generic table using Adelson-Velsky/Landis (AVL) trees.
 tech.root: ifsk
-ms.date: 01/10/2023
+ms.date: 11/13/2025
 keywords: ["RtlInitializeGenericTableAvl function"]
 ms.keywords: RtlInitializeGenericTableAvl, RtlInitializeGenericTableAvl routine [Installable File System Drivers], ifsk.rtlinitializegenerictableavl, ntddk/RtlInitializeGenericTableAvl
 req.header: ntddk.h
@@ -146,13 +146,7 @@ Callers of the *Rtl...GenericTableAvl* routines are responsible for exclusively 
 
 The caller-supplied *CompareRoutine* is called before the *AllocateRoutine* to locate an appropriate location at which a new element should be inserted. The *CompareRoutine* also is called before the *FreeRoutine* to locate an element to be deleted.
 
-The **RtlInitializeGenericTableAvl** routine explicitly allocates a generic table that uses AVL trees. Use of this routine and the other *Rtl...GenericTableAvl* routines is necessary when AVL tree based tables are desired and RTL_USE_AVL_TABLES is not define before including *Ntddk.h*.
-
- If you want to configure the generic table routines, *Rtl...GenericTable*, to use AVL trees instead of splay trees in your driver, insert the following define statement in a common header file before including *Ntddk.h*:
-
-```cpp
-`#define RTL_USE_AVL_TABLES 0`
-```
+The **RtlInitializeGenericTableAvl** routine explicitly allocates a generic table that uses AVL trees. Use of this routine and the other *Rtl...GenericTableAvl* routines is necessary when AVL tree based tables are desired and RTL_USE_AVL_TABLES is not defined before including *Ntddk.h*.
 
 Callers of **RtlInitializeGenericTableAvl** must be running at IRQL <= DISPATCH_LEVEL. Note that if *Rtl...GenericTableAvl* routines are to be used at IRQL DISPATCH_LEVEL, the *CompareRoutine*, *AllocateRoutine*, and *FreeRoutine* must all be nonpageable code, and the *AllocateRoutine* should allocate memory from nonpaged pool.
 
