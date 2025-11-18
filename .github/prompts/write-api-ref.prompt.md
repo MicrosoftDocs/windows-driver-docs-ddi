@@ -2,7 +2,7 @@
 mode: 'agent'
 model: Claude Sonnet 4.5
 tools: [microsoft.docs.mcp/microsoft_docs_search, substrate-mcp-mini/*, runCommands, edit, runTasks]
-description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git and the Learn MCP tool, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations and source code in attached headers and source files, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git or Learn MCP access is unavailable, the agent reports the problem and stops.'
+description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git, the Learn MCP tool, and the ADO MCP server, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations and source code in attached headers and source files, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git, Learn MCP, or ADO MCP access is unavailable, the agent reports the problem and stops.'
 ---
 
 Prompt:
