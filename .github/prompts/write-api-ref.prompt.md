@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 model: Claude Sonnet 4.5
 tools: [microsoft.docs.mcp/microsoft_docs_search, substrate-mcp-mini/*, runCommands, edit, runTasks]
 description: 'Automated agent prompt that generates API reference pages for WDK DDI entities. It verifies access to git, the Learn MCP tool, and the ADO MCP server, reads the first attached CSV of target filenames, checks out corresponding stub files from origin/stubs/main, locates declarations and source code in attached headers and source files, uses existing repository reference pages as models, consults the Learn MCP server for supplemental information, and writes completed documentation pages. If git, Learn MCP, or ADO MCP access is unavailable, the agent reports the problem and stops.'
@@ -22,9 +22,9 @@ Your goal is to write API reference pages for Windows Driver Kit (WDK) entities 
 
 4. For each target file, use all of the following resources, if present, to gather context:
    - The attached header(s) that contain the entity's definition/declaration.
-   - Any attached source code.
+   - The `substrate-mcp-mini` server to look up any source code.
+   - The `microsoft.docs.mcp` server for any supplemental information relevant to the entity being documented.
    - Any other attached files, such as specifications, meeting notes, etc.
-   - The Learn MCP server for any supplemental information relevant to the entity being documented.
    - One or two existing completed reference pages in the repo for the same entity type to use as models. Use pages in the same header folder; otherwise use pages in a different folder.
 
 5. Open and write the completed documentation pages in the files listed in the CSV, keeping the following guidelines in mind:
