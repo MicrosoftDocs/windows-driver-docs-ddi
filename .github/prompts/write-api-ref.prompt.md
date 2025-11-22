@@ -23,8 +23,8 @@ Your goal is to write API reference pages for Windows Driver Kit (WDK) entities 
 4. For each target file, use all of the following resources, if present, to gather context:
    - The attached header(s) that contain the entity's definition/declaration.
    - The `substrate-mcp-mini` server to look up any source code.
-   - Any other attached files, such as specifications, meeting notes, etc.
    - The `microsoft.docs.mcp` server for any supplemental information relevant to the entity being documented.
+   - Any other attached files, such as specifications, meeting notes, etc.
    - One or two existing completed reference pages in the repo for the same entity type to use as models. Use pages in the same header folder; otherwise use pages in a different folder.
 
 5. Open and write the completed documentation pages in the files listed in the CSV, keeping the following guidelines in mind:
