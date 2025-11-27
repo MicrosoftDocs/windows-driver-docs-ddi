@@ -78,6 +78,8 @@ Wildcard character|Meaning
 |DOS_QM|Matches any single character or, upon encountering a period or end of name string, advances the expression to the end of the set of contiguous DOS_QMs.|
 |DOS_STAR|Matches zero or more characters until encountering and matching the final period in the name.|
 
+In low resource conditions, **FsRtlIsNameInExpression** can raise a structured exception with a code of `STATUS_NO_MEMORY`, which callers should be prepared to handle. For more information, see [Structured Exception Handling](/windows/win32/debug/structured-exception-handling).
+
  
 **Note**  
 
@@ -87,3 +89,4 @@ If both parameters are null strings, FsRtlIsNameInUnUpcasedExpression returns TR
 ## -see-also
 
 - [FsRtlIsNameInExpression](./nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisnameinexpression.md)
+
