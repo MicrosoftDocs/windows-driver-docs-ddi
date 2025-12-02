@@ -142,6 +142,8 @@ Handles can be either user handles or kernel handles. A handle created with OBJ_
 
 Certain situations can occur where holding a section open is incompatible with current file I/O. In particular, file I/O that triggers a cache purge can cause cache incoherency if the cache purge is prevented because of an open section.  A minifilter can provide an optional callback routine for notifications of these events. The minifilter driver implements a [**PFLT_SECTION_CONFLICT_NOTIFICATION_CALLBACK**](nc-fltkernel-pflt_section_conflict_notification_callback.md) to receive these notifications. Conflict notifications are enabled if the **SectionNotificationCallback** member of [**FLT_REGISTRATION**](ns-fltkernel-_flt_registration.md) is set to this callback routine when the minifilter is registered. When a notification is received, the section can be closed to allow the conflicting I/O operation to continue.
 
+Unlike its counterpart FsRtlCreateSectionForDataScan, FltCreateSectionForDataScan can be called using file objects in any state, with or without a valid handle available.
+
 > [!NOTE]
 > A section notification callback might occur before **FltCreateSectionForDataScan** returns. A minifilter must be able to receive the callback and handle the case where **SectionHandle** and **SectionObject** are not yet valid.
 
@@ -175,3 +177,4 @@ For overview information on creating mapped sections and views of memory, see [S
 [**ZwClose**](../ntifs/nf-ntifs-ntclose.md)
 
 [**ZwCreateSection**](../wdm/nf-wdm-zwcreatesection.md)
+
