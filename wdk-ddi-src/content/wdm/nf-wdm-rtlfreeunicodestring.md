@@ -60,7 +60,7 @@ None
 
 ## -remarks
 
-This routine does not release the ANSI string buffer passed to <b>RtlAnsiStringToUnicodeString</b>.
+This routine releases the <b>Buffer</b> of <b>UnicodeString</b>, then sets both <b>Length</b> and <b>MaximumLength</b> to zero and <b>Buffer</b> to NULL. It does not release the ANSI string buffer passed to <b>RtlAnsiStringToUnicodeString</b>.
 
 ## -see-also
 
@@ -69,3 +69,4 @@ This routine does not release the ANSI string buffer passed to <b>RtlAnsiStringT
 
 
 <a href="/windows-hardware/drivers/ddi/ntddk/nf-ntddk-rtlupcaseunicodestring">RtlUpcaseUnicodeString</a>
+
