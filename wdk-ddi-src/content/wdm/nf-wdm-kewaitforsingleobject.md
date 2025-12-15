@@ -67,7 +67,7 @@ Pointer to a time-out value that specifies the absolute or relative time, in 100
 
 A positive value specifies an absolute time, relative to January 1, 1601. A negative value specifies an interval relative to the current time. Absolute expiration times track any changes in the system time; relative expiration times are not affected by system time changes.
 
-If *Timeout* = 0, the routine returns without waiting. If the caller supplies a **NULL** pointer, the routine waits indefinitely until the dispatcher object is set to the signaled state. For more information, see the following Remarks section.
+If *\*Timeout* = 0, the routine returns without waiting. If the caller supplies a **NULL** pointer, the routine waits indefinitely until the dispatcher object is set to the signaled state. For more information, see the following Remarks section.
 
 ## -returns
 
@@ -121,7 +121,7 @@ Time-out intervals are measured relative to the system clock, and the accuracy w
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-Callers of **KeWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. However, if *Timeout* = **NULL** or *Timeout* != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. If *Timeout* != **NULL** and *Timeout* = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.
+Callers of **KeWaitForSingleObject** must be running at IRQL <= DISPATCH_LEVEL. However, if *Timeout* = **NULL** or *\*Timeout* != 0, the caller must be running at IRQL <= APC_LEVEL and in a nonarbitrary thread context. If *Timeout* != **NULL** and *\*Timeout* = 0, the caller must be running at IRQL <= DISPATCH_LEVEL.
 
 **KeWaitForMutexObject** is a macro that converts to **KeWaitForSingleObject**, which can be used instead.
 
@@ -142,5 +142,6 @@ For more information about mutex objects, see [Mutex Objects](/windows-hardware/
 [KeInitializeSemaphore](./nf-wdm-keinitializesemaphore.md)
 
 [KeInitializeTimer](./nf-wdm-keinitializetimer.md)
+
 
 [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
