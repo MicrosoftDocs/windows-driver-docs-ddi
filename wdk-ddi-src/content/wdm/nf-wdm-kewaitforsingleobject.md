@@ -143,5 +143,4 @@ For more information about mutex objects, see [Mutex Objects](/windows-hardware/
 
 [KeInitializeTimer](./nf-wdm-keinitializetimer.md)
 
-
 [KeWaitForMultipleObjects](./nf-wdm-kewaitformultipleobjects.md)
