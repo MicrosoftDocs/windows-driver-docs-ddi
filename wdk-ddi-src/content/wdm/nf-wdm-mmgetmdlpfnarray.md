@@ -70,7 +70,7 @@ The number of entries in the array is **ADDRESS_AND_SIZE_TO_SPAN_PAGES**(**MmGet
 Each array element is an integer value of type PFN_NUMBER, which is defined in the Wdm.h header file as follows:
 
 ```cpp
-typedef ULONG PFN_NUMBER, *PPFN_NUMBER;
+typedef ULONG_PTR PFN_NUMBER, *PPFN_NUMBER;
 ```
 
 Changing the contents of the array can cause subtle system problems that are difficult to diagnose. We recommend that you do not read or change the contents of this array.
