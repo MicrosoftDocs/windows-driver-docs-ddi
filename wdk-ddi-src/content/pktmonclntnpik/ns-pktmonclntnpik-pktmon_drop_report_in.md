@@ -63,8 +63,6 @@ A 32-bit value indicating the location code where the packet was dropped. This h
 
 ## -remarks
 
-Components use this structure when calling **[PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)** or **[PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)** to provide detailed diagnostic information about packet drops.
-
 ## -see-also
 
 - [PKTMON_PROVIDER_PACKET_DROP](nc-pktmonclntnpik-pktmon_provider_packet_drop.md)

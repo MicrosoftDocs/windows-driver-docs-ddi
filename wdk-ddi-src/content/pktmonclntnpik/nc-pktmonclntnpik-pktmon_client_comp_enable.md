@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_CLIENT_COMP_ENABLE
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_CLIENT_COMP_ENABLE callback function is invoked by the Packet Monitor client to enable or disable packet monitoring for a specific component.
+description: The PKTMON_CLIENT_COMP_ENABLE callback function is invoked by the PktMonClnt provider to enable or disable packet monitoring for a specific component.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_CLIENT_COMP_ENABLE** callback function is invoked by the Packet Monitor client to enable or disable packet monitoring for a specific component. This callback allows components to respond to monitoring state changes by starting or stopping packet capture operations.
+The **PKTMON_CLIENT_COMP_ENABLE** callback function is invoked by the PktMonClnt provider to enable or disable packet monitoring for a specific component. This callback allows components to respond to monitoring state changes by starting or stopping packet capture operations.
 
 ## -parameters
 

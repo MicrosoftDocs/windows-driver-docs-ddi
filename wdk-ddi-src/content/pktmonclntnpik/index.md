@@ -47,7 +47,7 @@ helpviewer_keywords:
 
 ## -description
 
-Defines the public PktMonClnt NPI (NMR) interface for producing network packet events.
+Defines the public PktMonClnt NPI ([NMR](/windows-hardware/drivers/network/introduction-to-the-network-module-registrar)) interface for producing network packet events.
 
 ## -remarks
 

@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_PACKET_LOG
 ms.date: 11/2/2025
 targetos: Windows
-description: The PKTMON_PROVIDER_PACKET_LOG callback function is invoked by the Packet Monitor provider to log packet flow events.
+description: The PKTMON_PROVIDER_PACKET_LOG callback function is invoked by the PktMonClnt application to log packet flow events.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_PACKET_LOG** callback function is invoked by the Packet Monitor provider to log packet flow events. This callback is called when a packet successfully flows through a monitored component edge, as opposed to being dropped.
+The **PKTMON_PROVIDER_PACKET_LOG** callback function is invoked by the PktMonClnt application to log packet flow events. This callback is called when a packet successfully flows through a monitored component edge, as opposed to being dropped.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ An optional pointer to a **[PKTMON_PACKET_CONTEXT_IN](ns-pktmonclntnpik-pktmon_p
 
 ## -remarks
 
-This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntNblLog](../pktmonclntk/nf-pktmonclntk-pktmonclntnbllog.md)** or **[PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)** to report that a packet successfully flowed through a monitoring point.
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the PktMonClnt application to report that a packet successfully flowed through a monitoring point.
 
 ## -see-also
 

@@ -67,8 +67,6 @@ A Unicode string tag for outbound packet direction at this edge. This tag appear
 
 ## -remarks
 
-This structure is passed to **[PKTMON_PROVIDER_ADD_EDGE](nc-pktmonclntnpik-pktmon_provider_add_edge.md)** when calling **[PktMonClntAddEdge](../pktmonclntk/nf-pktmonclntk-pktmonclntaddedge.md)** to define a new monitoring boundary within a component.
-
 ## -see-also
 
 - [PKTMON_PROVIDER_ADD_EDGE](nc-pktmonclntnpik-pktmon_provider_add_edge.md)

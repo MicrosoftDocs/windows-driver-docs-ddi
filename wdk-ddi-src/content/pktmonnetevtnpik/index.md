@@ -46,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-Defines the public PktMonNetEvt NPI (NMR) interface for consuming network packet events.
+Defines the public PktMonNetEvt NPI ([NMR](/windows-hardware/drivers/network/introduction-to-the-network-module-registrar)) interface for consuming network packet events.
 
 ## -remarks
 

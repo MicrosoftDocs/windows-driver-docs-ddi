@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_ADD_EDGE
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_PROVIDER_ADD_EDGE callback function is invoked when a client calls **PktMonClntAddEdge** to add an edge to a registered component
+description: The PKTMON_PROVIDER_ADD_EDGE callback function is invoked by the PktMonClnt application to add an edge to a registered component
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -29,7 +29,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - LibDef
+ - Callback
 api_location:
  - pktmonclntnpik.h
 api_name:
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_ADD_EDGE** callback function is invoked when a client calls [**PktMonClntAddEdge**](../pktmonclntk/nf-pktmonclntk-pktmonclntaddedge.md) (via **PKTMON_PROVIDER_DISPATCH**) to add an edge to a registered component An edge represents a packet monitoring boundary (entry/exit point) where packets flow through the component, allowing the component to report packet events at specific boundaries.
+The **PKTMON_PROVIDER_ADD_EDGE** callback function is invoked by the PktMonClnt application to add an edge to a registered component. An edge represents a packet monitoring boundary (entry/exit point) where packets flow through the component, allowing the component to report packet events at specific boundaries.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ Returns `STATUS_SUCCESS` if the edge is successfully added. Otherwise, returns a
 
 ## -remarks
 
-This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntAddEdge](../pktmonclntk/nf-pktmonclntk-pktmonclntaddedge.md)**. Components can have multiple edges representing different monitoring points.
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the PktMonClnt application. Components can have multiple edges representing different monitoring points.
 
 ## -see-also
 

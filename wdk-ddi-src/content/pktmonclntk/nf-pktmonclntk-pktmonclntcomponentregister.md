@@ -76,7 +76,7 @@ If the function succeeds, it returns `STATUS_SUCCESS`. Otherwise, it returns a `
 
 ## -remarks
 
-When the component is no longer needed, the Packet Monitor client should call **[PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md)** to unregister it from Packet Monitor and free any associated resources.
+When the component is no longer needed, the PktMonClnt application should call **[PktMonClntComponentUnregister](nf-pktmonclntk-pktmonclntcomponentunregister.md)** to unregister it from Packet Monitor and free any associated resources.
 
 ## -see-also
 

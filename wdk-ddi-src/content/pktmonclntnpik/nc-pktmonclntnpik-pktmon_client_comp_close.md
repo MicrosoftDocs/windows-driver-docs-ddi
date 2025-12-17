@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_CLIENT_COMP_CLOSE
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_CLIENT_COMP_CLOSE callback function is invoked by the Packet Monitor client to notify a component that monitoring has been disabled and the component should clean up its resources.
+description: The PKTMON_CLIENT_COMP_CLOSE callback function is invoked by the PktMonClnt provider to notify a component that monitoring has been disabled and the component should clean up its resources.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_CLIENT_COMP_CLOSE** callback function is invoked by the Packet Monitor client to notify a component that monitoring has been disabled and the component should clean up its resources. This callback is called when a monitoring session ends or when the component is being shut down.
+The **PKTMON_CLIENT_COMP_CLOSE** callback function is invoked by the PktMonClnt provider to notify a component that monitoring has been disabled and the component should clean up its resources. This callback is called when a monitoring session ends or when the component is being shut down.
 
 ## -parameters
 

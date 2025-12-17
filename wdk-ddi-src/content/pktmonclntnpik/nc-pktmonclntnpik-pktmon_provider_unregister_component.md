@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_UNREGISTER_COMPONENT
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_PROVIDER_UNREGISTER_COMPONENT callback function is invoked by the Packet Monitor provider to unregister a monitoring component and free its resources.
+description: The PKTMON_PROVIDER_UNREGISTER_COMPONENT callback function is invoked by the PktMonClnt application to unregister a monitoring component and free its resources.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_UNREGISTER_COMPONENT** callback function is invoked by the Packet Monitor provider to unregister a monitoring component and free its resources. This callback is called when a component is no longer needed for packet monitoring.
+The **PKTMON_PROVIDER_UNREGISTER_COMPONENT** callback function is invoked by the PktMonClnt application to unregister a monitoring component and free its resources. This callback is called when a component is no longer needed for packet monitoring.
 
 ## -parameters
 
@@ -59,7 +59,7 @@ A handle to the component being unregistered. This handle was returned from a pr
 
 ## -remarks
 
-This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntComponentUnregister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentunregister.md)**. The provider should release all resources associated with this component, including any edges that were added to it.
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the PktMonClnt application. The provider should release all resources associated with this component, including any edges that were added to it.
 
 ## -see-also
 

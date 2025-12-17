@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_SET_COMP_PROPERTY
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_PROVIDER_SET_COMP_PROPERTY callback function is invoked by the Packet Monitor provider to set a property on a registered component.
+description: The PKTMON_PROVIDER_SET_COMP_PROPERTY callback function is invoked by the PktMonClnt application to set a property on a registered component.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_SET_COMP_PROPERTY** callback function is invoked by the Packet Monitor provider to set a property on a registered component. This callback allows dynamic configuration of component behavior through property updates.
+The **PKTMON_PROVIDER_SET_COMP_PROPERTY** callback function is invoked by the PktMonClnt application to set a property on a registered component. This callback allows dynamic configuration of component behavior through property updates.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Returns `STATUS_SUCCESS` if the property is successfully set. Otherwise, returns
 
 ## -remarks
 
-This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntSetComponentProperty](../pktmonclntk/nf-pktmonclntk-pktmonclntsetcomponentproperty.md)**.
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the PktMonClnt application.
 
 ## -see-also
 

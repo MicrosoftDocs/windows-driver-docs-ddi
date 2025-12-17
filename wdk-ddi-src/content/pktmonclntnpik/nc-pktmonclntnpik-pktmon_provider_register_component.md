@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_REGISTER_COMPONENT
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_PROVIDER_REGISTER_COMPONENT callback function is invoked by the Packet Monitor provider to register a new monitoring component.
+description: The PKTMON_PROVIDER_REGISTER_COMPONENT callback function is invoked by the PktMonClnt application to register a new monitoring component.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_REGISTER_COMPONENT** callback function is invoked by the Packet Monitor provider to register a new monitoring component. This callback is part of the provider dispatch table and is called when a client needs to register a component with the packet monitoring infrastructure.
+The **PKTMON_PROVIDER_REGISTER_COMPONENT** callback function is invoked by the PktMonClnt application to register a new monitoring component. This callback is part of the provider dispatch table and is called when a client needs to register a component with the packet monitoring infrastructure.
 
 ## -parameters
 
@@ -67,7 +67,7 @@ Returns `STATUS_SUCCESS` if the component registration succeeds. Otherwise, retu
 
 ## -remarks
 
-This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the provider module when a client calls **[PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentregister.md)**. The provider implementation should validate the component information and allocate necessary resources for tracking this component.
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the PktMonClnt application. The provider implementation should validate the component information and allocate necessary resources for tracking this component.
 
 ## -see-also
 

@@ -4,7 +4,7 @@ tech.root: netvista
 title: PKTMON_PROVIDER_PACKET_DROP
 ms.date: 11/12/2025
 targetos: Windows
-description: The PKTMON_PROVIDER_PACKET_DROP callback function is invoked by the Packet Monitor provider to log packet drop events.
+description: The PKTMON_PROVIDER_PACKET_DROP callback function is invoked by the PktMonClnt application to log packet drop events.
 ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
@@ -29,7 +29,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - LibDef
+ - Callback
 api_location:
  - pktmonclntnpik.h
 api_name:
@@ -45,7 +45,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PKTMON_PROVIDER_PACKET_DROP** callback function is invoked by the Packet Monitor provider to log packet drop events. This callback is called when a packet is dropped by a monitored component, recording the drop reason and location for diagnostic purposes.
+The **PKTMON_PROVIDER_PACKET_DROP** callback function is invoked by the PktMonClnt application to log packet drop events. This callback is called when a packet is dropped by a monitored component, recording the drop reason and location for diagnostic purposes.
 
 ## -parameters
 
@@ -71,7 +71,7 @@ An optional pointer to a **[PKTMON_PACKET_CONTEXT_IN](ns-pktmonclntnpik-pktmon_p
 
 ## -remarks
 
-This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked when a client calls **[PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)** or **[PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)** to report that a packet was dropped.
+This callback is part of the **[PKTMON_PROVIDER_DISPATCH](ns-pktmonclntnpik-pktmon_provider_dispatch.md)** structure and is invoked by the PktMonClnt application to report that a packet was dropped.
 
 ## -see-also
 
