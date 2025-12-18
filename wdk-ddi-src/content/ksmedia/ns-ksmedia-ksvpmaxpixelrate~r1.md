@@ -2,7 +2,7 @@
 UID: NS:ksmedia.KSVPMAXPIXELRATE~r1
 tech.root: display
 title: KSVPMAXPIXELRATE (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 12/18/2025
 targetos: Windows
 description: The KSVPMAXPIXELRATE structure describes the maximum pixel processing rate for a video port.
 prerelease: false
@@ -72,5 +72,5 @@ Video port drivers use this information to validate requested video formats and 
 
 ## -see-also
 
-- [KSVPSIZE_PROP](ns-ksmedia-ksvpsize_prop~r1.md)
-- [KSVPSURFACEPARAMS](ns-ksmedia-ksvpsurfaceparams~r1.md)
+- [KSVPSIZE_PROP](ns-ksmedia-ksvpsize_prop-r1.md)
+- [KSVPSURFACEPARAMS](ns-ksmedia-ksvpsurfaceparams-r1.md)

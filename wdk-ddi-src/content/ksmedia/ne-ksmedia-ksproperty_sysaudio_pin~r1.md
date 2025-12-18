@@ -2,7 +2,7 @@
 UID: NE:ksmedia.KSPROPERTY_SYSAUDIO_PIN~r1
 tech.root: audio
 title: KSPROPERTY_SYSAUDIO_PIN (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 12/18/2025
 targetos: Windows
 description: The KSPROPERTY_SYSAUDIO_PIN enumeration defines the properties supported for SysAudio pin operations.
 prerelease: false
@@ -65,4 +65,4 @@ SysAudio pins represent connection points in the audio filter graph where audio 
 
 ## -see-also
 
-- [KSPROPERTY_SYSAUDIO](ne-ksmedia-ksproperty_sysaudio~r1.md)
+- [KSPROPERTY_SYSAUDIO](ne-ksmedia-ksproperty_sysaudio-r1.md)
