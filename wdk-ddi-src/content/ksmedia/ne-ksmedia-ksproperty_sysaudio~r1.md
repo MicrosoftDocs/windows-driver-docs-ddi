@@ -2,7 +2,7 @@
 UID: NE:ksmedia.KSPROPERTY_SYSAUDIO~r1
 tech.root: audio
 title: KSPROPERTY_SYSAUDIO (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 12/18/2025
 targetos: Windows
 description: The KSPROPERTY_SYSAUDIO enumeration defines the properties supported by the system audio component (SysAudio).
 prerelease: false
@@ -121,4 +121,4 @@ These properties enable applications to enumerate available audio devices, retri
 
 ## -see-also
 
-- [KSPROPERTY_SYSAUDIO_PIN](ne-ksmedia-ksproperty_sysaudio_pin~r1.md)
+- [KSPROPERTY_SYSAUDIO_PIN](ne-ksmedia-ksproperty_sysaudio_pin-r1.md)

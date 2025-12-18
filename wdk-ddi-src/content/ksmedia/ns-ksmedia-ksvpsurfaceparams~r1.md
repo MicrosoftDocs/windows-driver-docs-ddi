@@ -2,7 +2,7 @@
 UID: NS:ksmedia.KSVPSURFACEPARAMS~r1
 tech.root: display
 title: KSVPSURFACEPARAMS (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 12/18/2025
 targetos: Windows
 description: The KSVPSURFACEPARAMS structure describes the surface parameters for a video port operation.
 prerelease: false
@@ -72,5 +72,5 @@ The pitch value is particularly important for video processing as it accounts fo
 
 ## -see-also
 
-- [KSVPMAXPIXELRATE](ns-ksmedia-ksvpmaxpixelrate~r1.md)
-- [KSVPSIZE_PROP](ns-ksmedia-ksvpsize_prop~r1.md)
+- [KSVPMAXPIXELRATE](ns-ksmedia-ksvpmaxpixelrate-r1.md)
+- [KSVPSIZE_PROP](ns-ksmedia-ksvpsize_prop-r1.md)

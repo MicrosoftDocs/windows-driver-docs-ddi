@@ -2,7 +2,7 @@
 UID: NS:ksmedia.KSVPSIZE_PROP~r1
 tech.root: display
 title: KSVPSIZE_PROP (ksmedia.h)
-ms.date: 09/22/2025
+ms.date: 12/18/2025
 targetos: Windows
 description: The KSVPSIZE_PROP structure describes the size properties for a video port operation.
 prerelease: false
@@ -68,6 +68,6 @@ Video port drivers use this information to set up the appropriate hardware confi
 
 ## -see-also
 
-- [KSVPMAXPIXELRATE](ns-ksmedia-ksvpmaxpixelrate~r1.md)
-- [KSVPSURFACEPARAMS](ns-ksmedia-ksvpsurfaceparams~r1.md)
+- [KSVPMAXPIXELRATE](ns-ksmedia-ksvpmaxpixelrate-r1.md)
+- [KSVPSURFACEPARAMS](ns-ksmedia-ksvpsurfaceparams-r1.md)
 - [KSPROPERTY](/windows-hardware/drivers/stream/ksproperty-structure)
