@@ -79,11 +79,10 @@ A Unicode string tag for outbound packet direction. This tag appears in packet l
 
 ## -remarks
 
-Components must populate this structure when calling **[PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentregister.md)** to register with the monitoring infrastructure.
+Components must populate this structure when calling [PKTMON_PROVIDER_REGISTER_COMPONENT](nc-pktmonclntnpik-pktmon_provider_register_component.md) to register with the monitoring infrastructure.
 
 ## -see-also
 
 - [PKTMON_PROVIDER_REGISTER_COMPONENT](nc-pktmonclntnpik-pktmon_provider_register_component.md)
 - [PKTMON_COMPONENT_TYPE](../pktmondefk/ne-pktmondefk-pktmon_component_type.md)
 - [PktMonClntComponentRegister](../pktmonclntk/nf-pktmonclntk-pktmonclntcomponentregister.md)
-

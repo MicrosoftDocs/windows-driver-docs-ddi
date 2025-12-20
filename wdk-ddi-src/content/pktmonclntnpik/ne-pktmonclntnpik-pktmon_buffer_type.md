@@ -63,8 +63,6 @@ Indicates that no packet buffer is provided. This is used when only packet heade
 
 ## -remarks
 
-Components specify the buffer type when logging packets using functions like **[PktMonClntNblLog](../pktmonclntk/nf-pktmonclntk-pktmonclntnbllog.md)** or **[PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)**. The buffer type helps the monitoring infrastructure correctly interpret and process the packet data.
-
 ## -see-also
 
 - [PKTMON_PACKET_LOG_IN](ns-pktmonclntnpik-pktmon_packet_log_in.md)
