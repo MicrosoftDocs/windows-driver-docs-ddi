@@ -136,9 +136,11 @@ Size, in bytes, of the <i>SecurityDescriptor</i> buffer.
 ### -param LengthNeeded [out, optional]
 
 
-Pointer to a caller-allocated variable that receives the number of bytes required to store the copied 
-      security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i> 
-      parameter. This parameter is optional and can be <b>NULL</b>.
+Pointer to a caller-allocated variable that receives the number of bytes required to store the copied
+      security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i>
+      parameter. This parameter is optional and can be <b>NULL</b>. If <i>SecurityDescriptor</i>
+      is <b>NULL</b>, this parameter receives the required buffer size when the function returns
+      <b>STATUS_BUFFER_TOO_SMALL</b>.
 
 ## -returns
 
@@ -168,8 +170,9 @@ The caller did not have the required access. This is an error code.
 </dl>
 </td>
 <td width="60%">
-The buffer is too small to contain the security descriptor. None of the security information was copied 
-        to the buffer. This is an error code.
+The buffer is too small to contain the security descriptor. None of the security information was copied
+        to the buffer. The required buffer size is returned in the <i>LengthNeeded</i> parameter.
+        This is an error code.
 
 </td>
 </tr>
@@ -192,6 +195,47 @@ The object that the <i>FileObject</i> parameter points to can represent a named 
 
 For more information about security and access control, see the Microsoft Windows SDK documentation.
 
+### Two-Step Query Pattern
+
+A common usage pattern involves two calls to **FltQuerySecurityObject** to dynamically determine the required buffer size:
+
+**Step 1: Query the required buffer size**
+
+Call the function with a NULL buffer and zero length to obtain the required buffer size:
+
+```c
+ULONG bytesNeeded;
+
+status = FltQuerySecurityObject(
+    instance,
+    fileObj,
+    securityInfo,
+    NULL,           // SecurityDescriptor - NULL to query size
+    0,              // Length - zero since no buffer provided
+    &bytesNeeded);  // Receives required buffer size
+```
+
+This call returns **STATUS_BUFFER_TOO_SMALL** and populates *bytesNeeded* with the required buffer size.
+
+**Step 2: Allocate and retrieve the security descriptor**
+
+Allocate a buffer of the required size and call the function again:
+
+```c
+secDescriptor = ExAllocatePoolWithTag(PagedPool, bytesNeeded, 'cSeD');
+if (secDescriptor != NULL) {
+    status = FltQuerySecurityObject(
+        instance,
+        fileObj,
+        securityInfo,
+        secDescriptor,  // Allocated buffer
+        bytesNeeded,    // Size from first call
+        NULL);          // LengthNeeded - optional, can be NULL
+}
+```
+
+The *LengthNeeded* parameter is optional and can be NULL on the second call when retry logic on failure is not needed.
+
 ## -see-also
 
 <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information">FILE_STREAM_INFORMATION</a>
@@ -203,3 +247,4 @@ For more information about security and access control, see the Microsoft Window
 
 
 <a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
+
