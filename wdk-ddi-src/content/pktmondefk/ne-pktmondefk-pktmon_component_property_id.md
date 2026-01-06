@@ -1,10 +1,10 @@
 ---
 UID: NE:pktmondefk._PKTMON_COMPONENT_PROPERTY_ID
-tech.root: 
+tech.root: netvista
 title: PKTMON_COMPONENT_PROPERTY_ID
 ms.date: 03/14/2025
 targetos: Windows
-description: The PKTMON_COMPONENT_PROPERTY_ID enum defines the various properties that can be set for a component in Packet Monitor.
+description: The *PKTMON_COMPONENT_PROPERTY_ID* enum defines the various properties that can be set for a component in Packet Monitor.
 prerelease: false
 req.construct-type: enumeration
 req.ddi-compliance: 

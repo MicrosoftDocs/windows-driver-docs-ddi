@@ -5,6 +5,7 @@ title: PKTMON_CLNT_NBL_LOG
 ms.date: 03/14/2025
 targetos: Windows
 description: Function pointer to PktMonClntNblLog.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

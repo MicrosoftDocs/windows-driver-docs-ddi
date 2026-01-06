@@ -1,5 +1,5 @@
 ---
-UID: NS:pktmonnpik._PKTMON_PACKET_CONTEXT_IN
+UID: NS:pktmonclntnpik._PKTMON_PACKET_CONTEXT_IN
 tech.root: netvista
 title: PKTMON_PACKET_CONTEXT_IN
 ms.date: 03/14/2025
@@ -9,7 +9,7 @@ prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonclntnpik.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +27,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonclntnpik.h
 api_name:
  - _PKTMON_PACKET_CONTEXT_IN
  - PKTMON_PACKET_CONTEXT_IN
 f1_keywords:
  - _PKTMON_PACKET_CONTEXT_IN
- - pktmonnpik/_PKTMON_PACKET_CONTEXT_IN
+ - pktmonclntnpik/_PKTMON_PACKET_CONTEXT_IN
  - PKTMON_PACKET_CONTEXT_IN
- - pktmonnpik/PKTMON_PACKET_CONTEXT_IN
+ - pktmonclntnpik/PKTMON_PACKET_CONTEXT_IN
 dev_langs:
  - c
  - c++

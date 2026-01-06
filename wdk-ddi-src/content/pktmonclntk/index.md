@@ -54,7 +54,4 @@ Kernel-mode Pktmon DDIs allow drivers to report network packet flow and drop inf
 
 ## -see-also
 
-- [Pktmonnpik.h header](../pktmonnpik/index.md)
-- [Pktmondefk.h header](../pktmondefk/index.md)
-
 ## -examples

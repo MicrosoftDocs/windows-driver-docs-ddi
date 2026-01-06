@@ -4,7 +4,8 @@ tech.root: netvista
 title: PktMonClntUninitialize
 ms.date: 03/14/2025
 targetos: Windows
-description: The PktMonClntUninitialize function uninitializes the kernel driver that is acting as a Packet Monitor client.
+description: The PktMonClntUninitialize function uninitializes the kernel driver that is acting as a PktMonClnt application.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -45,7 +46,7 @@ helpviewer_keywords:
 
 ## -description
 
-The **PktMonClntUninitialize** function uninitializes the kernel driver that is acting as a Packet Monitor client and was previously initialized through **[PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md)**.
+The **PktMonClntUninitialize** function uninitializes the kernel driver that is acting as a PktMonClnt application and was previously initialized through **[PktMonClntInitialize](nf-pktmonclntk-pktmonclntinitialize.md)**.
 
 ## -remarks
 

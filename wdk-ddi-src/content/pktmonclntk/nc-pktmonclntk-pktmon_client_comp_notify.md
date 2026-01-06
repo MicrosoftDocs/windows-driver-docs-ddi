@@ -5,6 +5,7 @@ title: PKTMON_CLIENT_COMP_NOTIFY
 ms.date: 04/04/2025
 targetos: Windows
 description: Callback function that Packet Monitor calls to notify a component of changes to it's tracing enablement.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

@@ -4,7 +4,8 @@ tech.root: netvista
 title: PktMonClntInitialize
 ms.date: 03/14/2025
 targetos: Windows
-description: The PktMonClntInitialize function initializes the Packet Monitor client, informing Packet Monitor about the module ID that identifies the client.
+description: The PktMonClntInitialize function initializes the PktMonClnt application, informing Packet Monitor about the module ID that identifies the client.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -45,13 +46,13 @@ helpviewer_keywords:
 
 ## -description
 
-The **PktMonClntInitialize** function initializes the Packet Monitor client, informing Packet Monitor about the module ID that identifies the client, as well as some handlers it makes available for Packet Monitor to call.
+The **PktMonClntInitialize** function initializes the PktMonClnt application, informing Packet Monitor about the module ID that identifies the client, as well as some handlers it makes available for Packet Monitor to call.
 
 ## -parameters
 
 ### -param ModuleId
 
-A network module identifier used to identify the Packet Monitor client.
+A network module identifier used to identify the PktMonClnt application.
 
 ### -param EnumComponents
 

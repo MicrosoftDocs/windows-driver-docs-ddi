@@ -52,7 +52,4 @@ The pktmondefk.h header file defines the public core data types shared by the pk
 
 ## -see-also
 
-- [Pktmonclntk.h header](../pktmonclntk/index.md)
-- [Pktmonnpik.h header](../pktmonnpik/index.md)
-
 ## -examples

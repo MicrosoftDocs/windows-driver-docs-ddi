@@ -5,6 +5,7 @@ title: PKTMON_COMPONENT_CONTEXT
 ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_COMPONENT_CONTEXT structure holds the context for the component.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 

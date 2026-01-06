@@ -5,6 +5,7 @@ title: PKTMON_CLNT_SET_COMPONENT_PROPERTY
 ms.date: 03/14/2025
 targetos: Windows
 description: Function pointer to PktMonClntSetComponentProperty.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

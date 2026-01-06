@@ -5,6 +5,7 @@ title: PktMonClntHeaderInfoLog
 ms.date: 03/14/2025
 targetos: Windows
 description: The PktMonClntHeaderInfoLog function logs that a network packet has flowed through, as opposed to being dropped.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -55,7 +56,7 @@ Pointer to a **[PKTMON_EDGE_CONTEXT](ns-pktmonclntk-pktmon_edge_context.md)** st
 
 ### -param PacketHeaderInformation
 
-Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information.
+Pointer to a **[PKTMON_PACKET_HEADER_INFORMATION](ns-pktmonclntk-pktmon_packet_header_information.md)** structure containing the packet header information.
 
 ### -param Direction
 
@@ -63,7 +64,7 @@ Indicates the packet direction. Each component reports packets in two directions
 
 ### -param Context
 
-Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonnpik/ns-pktmonnpik-pktmon_packet_context_in.md)** structure containing the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID for example. Can be NULL.
+Pointer to a **[PKTMON_PACKET_CONTEXT_IN](../pktmonclntnpik/ns-pktmonclntnpik-pktmon_packet_context_in.md)** structure containing the packet context, which can represent a piece of data that is meaningful to the component, like a connection ID for example. Can be NULL.
 
 ## -remarks
 

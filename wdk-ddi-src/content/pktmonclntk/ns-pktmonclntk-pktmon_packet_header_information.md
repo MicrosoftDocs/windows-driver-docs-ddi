@@ -1,15 +1,16 @@
 ---
-UID: NS:pktmonnpik._PKTMON_PACKET_HEADER_INFORMATION
+UID: NS:pktmonclntk._PKTMON_PACKET_HEADER_INFORMATION
 tech.root: netvista
 title: PKTMON_PACKET_HEADER_INFORMATION
 ms.date: 04/04/2025
 targetos: Windows
 description: The PKTMON_PACKET_HEADER_INFORMATION struct contains the packet header information.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonclntk.h
 req.include-header: 
 req.kmdf-ver: 
 req.lib: 
@@ -27,15 +28,15 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonclntk.h
 api_name:
  - _PKTMON_PACKET_HEADER_INFORMATION
  - PKTMON_PACKET_HEADER_INFORMATION
 f1_keywords:
  - _PKTMON_PACKET_HEADER_INFORMATION
- - pktmonnpik/_PKTMON_PACKET_HEADER_INFORMATION
+ - pktmonclntk/_PKTMON_PACKET_HEADER_INFORMATION
  - PKTMON_PACKET_HEADER_INFORMATION
- - pktmonnpik/PKTMON_PACKET_HEADER_INFORMATION
+ - pktmonclntk/PKTMON_PACKET_HEADER_INFORMATION
 dev_langs:
  - c
  - c++
@@ -109,7 +110,7 @@ The code for the ICMP protocol.
 
 ## -see-also
 
-- [PktMonClntNblLog](../pktmonclntk/nf-pktmonclntk-pktmonclntnbllog.md)
-- [PktMonClntNblDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntnbldrop.md)
-- [PktMonClntHeaderInfoLog](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfolog.md)
-- [PktMonClntHeaderInfoDrop](../pktmonclntk/nf-pktmonclntk-pktmonclntheaderinfodrop.md)
+- [PktMonClntNblLog](nf-pktmonclntk-pktmonclntnbllog.md)
+- [PktMonClntNblDrop](nf-pktmonclntk-pktmonclntnbldrop.md)
+- [PktMonClntHeaderInfoLog](nf-pktmonclntk-pktmonclntheaderinfolog.md)
+- [PktMonClntHeaderInfoDrop](nf-pktmonclntk-pktmonclntheaderinfodrop.md)

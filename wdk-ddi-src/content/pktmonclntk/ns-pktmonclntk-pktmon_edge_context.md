@@ -5,6 +5,7 @@ title: PKTMON_EDGE_CONTEXT
 ms.date: 04/21/2025
 targetos: Windows
 description: The PKTMON_EDGE_CONTEXT structure holds the context for an edge.
+ai-usage: ai-assisted
 prerelease: false
 req.construct-type: structure
 req.ddi-compliance: 
@@ -63,11 +64,11 @@ A pointer to the **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_co
 
 ### -field PacketType
 
-The **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type)**.
+The **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**.
 
 ## -remarks
 
 ## -see-also
 
-- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type)**
+- **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
 - **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**

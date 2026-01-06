@@ -4,7 +4,8 @@ tech.root: netvista
 title: PktMonClntAddEdge
 ms.date: 04/04/2025
 targetos: Windows
-description: The **PktMonClntAddEdge** function adds an edge to a Packet Monitor component.
+description: The PktMonClntAddEdge function adds an edge to a Packet Monitor component.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function

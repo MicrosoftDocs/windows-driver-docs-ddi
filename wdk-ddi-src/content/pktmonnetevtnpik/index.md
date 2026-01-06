@@ -1,16 +1,16 @@
 ---
-UID: NA:pktmonnpik
+UID: NA:pktmonnetevtnpik
 tech.root: netvista
-title: Pktmonnpik.h header
-ms.date: 03/14/2025
+title: Pktmonnetevtnpik.h header
+ms.date: 11/12/2025
 targetos: Windows
-description: Defines the public NPI (NMR) interface for network packet monitoring.
+description: Defines the public PktMonNetEvt NPI (NMR) interface for consuming network packet events.
 prerelease: false
 req.assembly: 
 req.construct-type: apiset
 req.ddi-compliance: 
 req.dll: 
-req.header: pktmonnpik.h
+req.header: pktmonnetevtnpik.h
 req.idl: 
 req.include-header: 
 req.irql: 
@@ -31,22 +31,22 @@ topic_type:
 api_type:
  - HeaderDef
 api_location:
- - pktmonnpik.h
+ - pktmonnetevtnpik.h
 api_name:
- - pktmonnpik
+ - pktmonnetevtnpik
 f1_keywords:
- - pktmonnpik
- - pktmonnpik/pktmonnpik
+ - pktmonnetevtnpik
+ - pktmonnetevtnpik/pktmonnetevtnpik
 dev_langs:
  - c
  - c++
 helpviewer_keywords:
- - pktmonnpik
+ - pktmonnetevtnpik
 ---
 
 ## -description
 
-The pktmonnpik.h header file defines the public NPI (NMR) interface for network packet monitoring.
+Defines the public PktMonNetEvt NPI ([NMR](/windows-hardware/drivers/network/introduction-to-the-network-module-registrar)) interface for consuming network packet events.
 
 ## -remarks
 

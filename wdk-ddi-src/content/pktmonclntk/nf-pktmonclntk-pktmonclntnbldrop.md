@@ -5,6 +5,7 @@ title: PktMonClntNblDrop
 ms.date: 04/04/2025
 targetos: Windows
 description: The PktMonClntNblDrop function logs that a network packet was dropped.
+ai-usage: ai-assisted
 prerelease: false
 req.assembly: 
 req.construct-type: function
@@ -63,7 +64,7 @@ The type of packet being logged. This must be one of the values defined in the *
 
 ### -param PacketHeaderInformation
 
-Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)** structure containing the packet header information. Can be NULL.
+Pointer to the **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonclntk/ns-pktmonclntk-pktmon_packet_header_information.md)** structure containing the packet header information. Can be NULL.
 
 ### -param UseOnlyFirstNbl
 
@@ -98,5 +99,5 @@ Integer that indicates the location where the packet got dropped.
 - **[PKTMON_COMPONENT_CONTEXT](ns-pktmonclntk-pktmon_component_context.md)**
 - **[NET_BUFFER_LIST](../nbl/ns-nbl-net_buffer_list.md)**
 - **[PKTMON_PACKET_TYPE](../pktmonnpik/ne-pktmonnpik-pktmon_packet_type.md)**
-- **[PKTMON_PACKET_HEADER_INFORMATION](../pktmonnpik/ns-pktmonnpik-pktmon_packet_header_information.md)**
+- **[PKTMON_PACKET_HEADER_INFORMATION](ns-pktmonclntk-pktmon_packet_header_information.md)**
 - **[PKTMON_DIRECTION](../pktmonnpik/ne-pktmonnpik-pktmon_direction.md)**
