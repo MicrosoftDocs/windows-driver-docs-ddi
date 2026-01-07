@@ -823,7 +823,7 @@
         "**/pktmondefk/*.md": "brbenefield",
         "**/pktmonnpik/*.md": "brbenefield",
         "**/pktmonclntnpik/*.md": "brbenefield",
-        "**/pktmonnetevtnpi/*.md": "brbenefield",
+        "**/pktmonnetevtnpik/*.md": "brbenefield",
         "**/pmi/*.md": "mhopkins",
         "**/pointofservicecommontypes/*.md": "mhopkins",
         "**/pointofservicedriverinterface/*.md": "mhopkins",
