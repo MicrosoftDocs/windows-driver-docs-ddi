@@ -19,7 +19,7 @@ req.redist:
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PKTMON_PACKET_HEADER_INFO
+req.typenames:
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
