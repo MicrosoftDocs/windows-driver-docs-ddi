@@ -18,7 +18,7 @@ req.redist:
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PKTMON_EVT_STREAM_PACKET_DESCRIPTOR
+req.typenames:
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 

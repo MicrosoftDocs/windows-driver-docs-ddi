@@ -19,7 +19,7 @@ req.redist:
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
 req.target-type: 
-req.typenames: PKTMON_COMP_PROPERTY_IN
+req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 
 req.unicode-ansi: 
