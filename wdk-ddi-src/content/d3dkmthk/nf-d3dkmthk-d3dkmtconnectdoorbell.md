@@ -50,7 +50,7 @@ helpviewer_keywords:
 
 ### -param unnamedParam1
 
-[in] Pointer to a *[*D3DKMT_CONNECT_DOORBELL**](ns-d3dkmthk-d3dkmt_connect_doorbell.md) structure that describes the doorbell to connect.
+[in] Pointer to a [**D3DKMT_CONNECT_DOORBELL**](ns-d3dkmthk-d3dkmt_connect_doorbell.md) structure that describes the doorbell to connect.
 
 ## -returns
 
