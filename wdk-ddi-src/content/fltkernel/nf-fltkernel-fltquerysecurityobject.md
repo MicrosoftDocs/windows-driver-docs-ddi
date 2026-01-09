@@ -4,7 +4,7 @@ title: FltQuerySecurityObject function (fltkernel.h)
 description: FltQuerySecurityObject retrieves a copy of an object's security descriptor.
 old-location: ifsk\fltquerysecurityobject.htm
 tech.root: ifsk
-ms.date: 04/16/2018
+ms.date: 01/09/2026
 keywords: ["FltQuerySecurityObject function"]
 ms.keywords: FltApiRef_p_to_z_6fa8f026-1268-4a97-b1e3-a2773e0a1784.xml, FltQuerySecurityObject, FltQuerySecurityObject function [Installable File System Drivers], fltkernel/FltQuerySecurityObject, ifsk.fltquerysecurityobject
 req.header: fltkernel.h
@@ -42,168 +42,71 @@ api_name:
 
 # FltQuerySecurityObject function
 
-
 ## -description
 
-<b>FltQuerySecurityObject</b> retrieves a copy of an object's security 
-   descriptor.
+**FltQuerySecurityObject** retrieves a copy of an object's security descriptor.
 
 ## -parameters
 
 ### -param Instance [in]
 
-
-Opaque instance pointer for the caller. This parameter is required and cannot be 
-      <b>NULL</b>.
+Opaque instance pointer for the caller. This parameter is required and cannot be **NULL**.
 
 ### -param FileObject [in]
 
-
-File object pointer for the object whose security descriptor is being queried. This parameter is required 
-      and cannot be <b>NULL</b>.
+File object pointer for the object whose security descriptor is being queried. This parameter is required and cannot be **NULL**.
 
 ### -param SecurityInformation [in]
 
+[SECURITY_INFORMATION](/windows-hardware/drivers/ifs/security-information) value. This parameter is required and must be one of the following:
 
-
-<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a> value. This parameter is 
-       required and must be one of the following:
-
-<table>
-<tr>
-<th>SecurityInformation Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td>
-OWNER_SECURITY_INFORMATION
-
-</td>
-<td>
-The owner identifier of the object is being queried. Requires <b>READ_CONTROL</b> 
-          access.
-
-</td>
-</tr>
-<tr>
-<td>
-GROUP_SECURITY_INFORMATION
-
-</td>
-<td>
-The primary group identifier of the object is being queried. Requires 
-          <b>READ_CONTROL</b> access.
-
-</td>
-</tr>
-<tr>
-<td>
-DACL_SECURITY_INFORMATION
-
-</td>
-<td>
-The discretionary access control list (DACL) of the object is being queried. Requires 
-          <b>READ_CONTROL</b> access.
-
-</td>
-</tr>
-<tr>
-<td>
-SACL_SECURITY_INFORMATION
-
-</td>
-<td>
-The system ACL (SACL) of the object is being queried. Requires 
-          <b>ACCESS_SYSTEM_SECURITY</b> access.
-
-</td>
-</tr>
-</table>
+| SecurityInformation Value | Meaning |
+|---------------------------|---------|
+| OWNER_SECURITY_INFORMATION | The owner identifier of the object is being queried. Requires **READ_CONTROL** access. |
+| GROUP_SECURITY_INFORMATION | The primary group identifier of the object is being queried. Requires **READ_CONTROL** access. |
+| DACL_SECURITY_INFORMATION | The discretionary access control list (DACL) of the object is being queried. Requires **READ_CONTROL** access. |
+| SACL_SECURITY_INFORMATION | The system ACL (SACL) of the object is being queried. Requires **ACCESS_SYSTEM_SECURITY** access. |
 
 ### -param SecurityDescriptor [in, out]
 
-
-Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the 
-      specified object. The <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> 
-      structure is returned in self-relative format. This parameter is optional and can be 
-      <b>NULL</b>.
+Pointer to a caller-supplied output buffer that receives a copy of the security descriptor for the specified object. The [SECURITY_DESCRIPTOR](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) structure is returned in self-relative format. This parameter is optional and can be **NULL**.
 
 ### -param Length [in]
 
-
-Size, in bytes, of the <i>SecurityDescriptor</i> buffer.
+Size, in bytes, of the *SecurityDescriptor* buffer.
 
 ### -param LengthNeeded [out, optional]
 
-
-Pointer to a caller-allocated variable that receives the number of bytes required to store the copied
-      security descriptor returned in the buffer pointed to by the <i>SecurityDescriptor</i>
-      parameter. This parameter is optional and can be <b>NULL</b>. If <i>SecurityDescriptor</i>
-      is <b>NULL</b>, this parameter receives the required buffer size when the function returns
-      <b>STATUS_BUFFER_TOO_SMALL</b>.
+Pointer to a caller-allocated variable that receives the number of bytes required to store the copiedsecurity descriptor returned in the buffer pointed to by the *SecurityDescriptor* parameter. This parameter is optional and can be **NULL**. If *SecurityDescriptor* is **NULL**, this parameter receives the required buffer size when the function returns **STATUS_BUFFER_TOO_SMALL**.
 
 ## -returns
 
-<b>FltQuerySecurityObject</b> returns STATUS_SUCCESS or an appropriate 
-      <b>NTSTATUS</b> value such as one of the following:
+**FltQuerySecurityObject** returns **STATUS_SUCCESS** or an appropriate **NTSTATUS** value such as one of the following:
 
-<table>
-<tr>
-<th>Return code</th>
-<th>Description</th>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_ACCESS_DENIED</b></dt>
-</dl>
-</td>
-<td width="60%">
-The caller did not have the required access. This is an error code.
-
-</td>
-</tr>
-<tr>
-<td width="40%">
-<dl>
-<dt><b>STATUS_BUFFER_TOO_SMALL</b></dt>
-</dl>
-</td>
-<td width="60%">
-The buffer is too small to contain the security descriptor. None of the security information was copied
-        to the buffer. The required buffer size is returned in the <i>LengthNeeded</i> parameter.
-        This is an error code.
-
-</td>
-</tr>
-</table>
+| Return code | Description |
+|-------------|-------------|
+| **STATUS_ACCESS_DENIED** | The caller did not have the required access. This is an error code. |
+| **STATUS_BUFFER_TOO_SMALL** | The buffer is too small to contain the security descriptor. None of the security information was copied to the buffer. The required buffer size is returned in the *LengthNeeded* parameter. This is an error code. |
 
 ## -remarks
 
-A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the 
-     structure are located contiguously in memory. In absolute form, the structure contains only pointers to its 
-     members.
+A security descriptor can be in absolute or self-relative form. In self-relative form, all members of the structure are located contiguously in memory. In absolute form, the structure contains only pointers to its members.
 
-The NTFS file system imposes a 64-KB limit on the size of the security descriptor that is written to disk for a 
-     file. (The FAT file system does not support security descriptors for files.) Thus, a 64-KB buffer pointed to by 
-     the <i>SecurityDescriptor</i> parameter is guaranteed to be large enough to hold the returned 
-     <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a> structure.
+The NTFS file system imposes a 64-KB limit on the size of the security descriptor that is written to disk for a file. (The FAT file system does not support security descriptors for files.) Thus, a 64-KB buffer pointed to by the *SecurityDescriptor* parameter is guaranteed to be large enough to hold the returned [SECURITY_DESCRIPTOR](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor) structure.
 
-The object that the <i>FileObject</i> parameter points to can represent a named data stream. 
-     For more information about named data streams, see 
-     <a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information">FILE_STREAM_INFORMATION</a>.
+The object that the *FileObject* parameter points to can represent a named data stream. For more information about named data streams, see [FILE_STREAM_INFORMATION](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information).
 
 For more information about security and access control, see the Microsoft Windows SDK documentation.
 
-### Two-Step Query Pattern
+### Two-Step query pattern
 
 A common usage pattern involves two calls to **FltQuerySecurityObject** to dynamically determine the required buffer size:
 
-**Step 1: Query the required buffer size**
+#### Step 1: Query the required buffer size
 
 Call the function with a NULL buffer and zero length to obtain the required buffer size:
 
-```c
+```cpp
 ULONG bytesNeeded;
 
 status = FltQuerySecurityObject(
@@ -217,11 +120,11 @@ status = FltQuerySecurityObject(
 
 This call returns **STATUS_BUFFER_TOO_SMALL** and populates *bytesNeeded* with the required buffer size.
 
-**Step 2: Allocate and retrieve the security descriptor**
+#### Step 2: Allocate and retrieve the security descriptor
 
 Allocate a buffer of the required size and call the function again:
 
-```c
+```cpp
 secDescriptor = ExAllocatePoolWithTag(PagedPool, bytesNeeded, 'cSeD');
 if (secDescriptor != NULL) {
     status = FltQuerySecurityObject(
@@ -238,13 +141,6 @@ The *LengthNeeded* parameter is optional and can be NULL on the second call when
 
 ## -see-also
 
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information">FILE_STREAM_INFORMATION</a>
-
-
-
-<a href="/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="/windows-hardware/drivers/ifs/security-information">SECURITY_INFORMATION</a>
-
+- [FILE_STREAM_INFORMATION](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_file_stream_information)
+- [SECURITY_DESCRIPTOR](/windows-hardware/drivers/ddi/ntifs/ns-ntifs-_security_descriptor)
+- [SECURITY_INFORMATION](/windows-hardware/drivers/ifs/security-information)
