@@ -89,11 +89,15 @@ The number of entries in the UMTS measured results list <b>ruMRL</b>.
 
 ### -field ruMRL\[15\]
 
+UMTS measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
+
 ### -field dwCntTDSCDMAMRL
 
 The number of entries in the TD-SCDMA measured results list <b>rtMRL</b>. This field is not present in RILPOSITIONINFO_V1.
 
 ### -field rtMRL\[15\]
+
+TD-SCDMA measured results list, an array of <a href="..\rilapitypes\ns-rilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
 
 ### -field dwCntEUTRAMRL
 
