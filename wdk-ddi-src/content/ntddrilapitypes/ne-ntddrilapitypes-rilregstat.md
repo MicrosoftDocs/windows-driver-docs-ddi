@@ -4,9 +4,9 @@ title: RILREGSTAT (ntddrilapitypes.h)
 description: This enumeration describes the RILREGSTAT.
 old-location: netvista\rilregstat.htm
 tech.root: netvista
-ms.date: 02/16/2018
+ms.date: 01/26/2025
 keywords: ["RILREGSTAT enumeration"]
-ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_INTL, rilapitypes/RIL_REGSTAT_UNKNOWN, rilapitypes/RIL_REGSTAT_UNREGISTERED
+ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_DOMESTIC, RIL_REGSTAT_MAX, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_DOMESTIC, rilapitypes/RIL_REGSTAT_MAX, rilapitypes/RIL_REGSTAT_UNKNOWN, rilapitypes/RIL_REGSTAT_UNREGISTERED
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
@@ -65,19 +65,18 @@ api_name:
 
 ### -field RIL_REGSTAT_MAX
 
-### -field RIL_REGSTAT_ROAMING_INTL
-
 ## -syntax
 
 ```cpp
 enum RILREGSTAT  {
-  RIL_REGSTAT_UNKNOWN       = 0x00000000,
-  RIL_REGSTAT_UNREGISTERED  = 0x00000001,
-  RIL_REGSTAT_HOME          = 0x00000002,
-  RIL_REGSTAT_ATTEMPTING    = 0x00000003,
-  RIL_REGSTAT_DENIED        = 0x00000004,
-  RIL_REGSTAT_ROAMING       = 0x00000005,
-  RIL_REGSTAT_ROAMING_INTL  = 0x00000006
+  RIL_REGSTAT_UNKNOWN = 0,
+  RIL_REGSTAT_UNREGISTERED = 0x1,
+  RIL_REGSTAT_HOME = 0x2,
+  RIL_REGSTAT_ATTEMPTING = 0x3,
+  RIL_REGSTAT_DENIED = 0x4,
+  RIL_REGSTAT_ROAMING = 0x5,
+  RIL_REGSTAT_ROAMING_DOMESTIC = 0x6,
+  RIL_REGSTAT_MAX = RIL_REGSTAT_ROAMING_DOMESTIC
 
 };
 ```
