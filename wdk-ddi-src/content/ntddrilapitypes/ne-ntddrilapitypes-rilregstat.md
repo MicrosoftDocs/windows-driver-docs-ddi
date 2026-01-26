@@ -6,7 +6,7 @@ old-location: netvista\rilregstat.htm
 tech.root: netvista
 ms.date: 01/26/2025
 keywords: ["RILREGSTAT enumeration"]
-ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_INTL, rilapitypes/RIL_REGSTAT_UNKNOWN, rilapitypes/RIL_REGSTAT_UNREGISTERED
+ms.keywords: RILREGSTAT, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_DENIED, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_DOMESTIC, RIL_REGSTAT_MAX, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_ROAMING_DOMESTIC, rilapitypes/RIL_REGSTAT_MAX, rilapitypes/RIL_REGSTAT_UNKNOWN, rilapitypes/RIL_REGSTAT_UNREGISTERED
 req.header: ntddrilapitypes.h
 req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
