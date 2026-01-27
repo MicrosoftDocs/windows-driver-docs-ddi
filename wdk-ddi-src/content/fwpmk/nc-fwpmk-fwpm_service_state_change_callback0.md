@@ -2,7 +2,7 @@
 UID: NC:fwpmk.FWPM_SERVICE_STATE_CHANGE_CALLBACK0
 tech.root: netvista
 title: FWPM_SERVICE_STATE_CHANGE_CALLBACK0
-ms.date: 05/30/2024
+ms.date: 01/26/2026
 targetos: Windows
 description: The FWPM_SERVICE_STATE_CHANGE_CALLBACK0 function is implemented by a WFP callout driver to add custom behavior to the base filtering engine (BFE) service state change notification process.
 prerelease: false
@@ -48,22 +48,15 @@ The **FWPM_SERVICE_STATE_CHANGE_CALLBACK0** function is implemented by a WFP cal
 
 ## -parameters
 
-### -param context [in, out]
+### -param context
 
 The pointer that was passed in the *context* parameter when the callout driver called the **[FwpmBfeStateSubscribeChanges0](nf-fwpmk-fwpmbfestatesubscribechanges0.md)** function.
 
-### -param newState [in]
+### -param newState
 
 The new BFE service state being changed to.
 
 ## -returns
-
-| Return code/value | Description |
-| --- | --- |
-| **ERROR_SUCCESS**<br>0 | The enumerator was successfully deleted. |
-| **FWP_E_\* error code**<br>0x80320001—0x80320039 | A Windows Filtering Platform (WFP) specific error. See [WFP Error Codes](/windows/win32/fwp/wfp-error-codes) for details. |
-| **RPC_\* error code**<br>0x80010001—0x80010122 | Failure to communicate with the remote or local firewall engine. |
-| **Other NTSTATUS codes** | An error occurred. |
 
 ## -remarks
 
