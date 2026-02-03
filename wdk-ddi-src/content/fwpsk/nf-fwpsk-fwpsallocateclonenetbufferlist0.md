@@ -4,7 +4,7 @@ title: FwpsAllocateCloneNetBufferList0 function (fwpsk.h)
 description: The FwpsAllocateCloneNetBufferList0 function allocates a NET_BUFFER_LIST structure that is a clone of an existing NET_BUFFER_LIST structure.Note  FwpsAllocateCloneNetBufferList0 is a specific version of FwpsAllocateCloneNetBufferList.
 old-location: netvista\fwpsallocateclonenetbufferlist0.htm
 tech.root: netvista
-ms.date: 05/02/2018
+ms.date: 02/03/2026
 keywords: ["FwpsAllocateCloneNetBufferList0 function"]
 ms.keywords: FwpsAllocateCloneNetBufferList0, FwpsAllocateCloneNetBufferList0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsAllocateCloneNetBufferList0, netvista.fwpsallocateclonenetbufferlist0, wfp_ref_2_funct_3_fwps_A-B_1b361080-1a63-485a-89fc-05ef6b0cb1df.xml
 req.header: fwpsk.h
@@ -184,6 +184,9 @@ If the callout driver needs to wait for a potentially lengthy operation, it make
      FwpsAllocateNetBufferAndNetBufferList0</a>, and it blocks and absorbs the original packet.
 
 Callout drivers should always return held packets as quickly as possible.
+
+If a callout driver is cloning packets to get clarification from a user-mode application, the callout must have a timeout associated with any NBLs they are holding. Otherwise, if the user mode process is suspended (for example, when a device moves into Modern Standby), there is a risk of deadlocks.
+The general recommendation for a timeout is 5 seconds, and must not exceed 60 seconds. If a longer timeout is required, the driver should instead deep copy the packet using [FwpsAllocateNetBufferAndNetBufferList0](/windows-hardware/drivers/ddi/fwpsk/nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0), and block and absorb the original packet.
 
 ## -see-also
 
