@@ -84,6 +84,9 @@ A pointer to a filter manager-allocated <a href="/windows-hardware/drivers/ddi/f
 
 This callback routine returns STATUS_SUCCESS or an appropriate NTSTATUS value.
 
+Filters should not return STATUS_NOT_IMPLEMENTED or STATUS_NOT_SUPPORTED.
+
+
 ## -remarks
 
 A minifilter driver that provides file names for the filter manager's name cache can register a routine of type <i>PFLT_GENERATE_FILE_NAME</i> as the minifilter driver's <i>GenerateFileNameCallback</i> routine. 
