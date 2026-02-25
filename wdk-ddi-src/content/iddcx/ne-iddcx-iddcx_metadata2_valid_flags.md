@@ -2,17 +2,17 @@
 UID: NE:iddcx.IDDCX_METADATA2_VALID_FLAGS
 tech.root: display
 title: IDDCX_METADATA2_VALID_FLAGS
-ms.date: 09/22/2023
+ms.date: 02/17/2026
 targetos: Windows
 description: Learn more about the IDDCX_METADATA2_VALID_FLAGS enumeration.
-prerelease: false
+prerelease: true
 req.construct-type: enumeration
 req.ddi-compliance: 
 req.header: iddcx.h
 req.include-header: 
 req.kmdf-ver: 
 req.max-support: 
-req.target-min-winverclnt: Windows 11, version 22H2 September Update (IddCx version 1.10)
+req.target-min-winverclnt: Windows 11, 26H1 (IddCx 1.11)
 req.target-min-winversvr: 
 req.target-type: 
 req.typenames: 
@@ -53,9 +53,15 @@ When set, [**IDDCX_METADATA2::SystemBufferInfo**](ns-iddcx-iddcx_metadata2.md) c
 
 When set, [**IDDCX_METADATA2::Hdr10FrameMetaData**](ns-iddcx-iddcx_metadata2.md) contains valid data.
 
+### -field IDDCX_METADATA2_VALID_FLAGS_D3D12_SURFACE:0x4
+
+When a driver has associated an **ID3D12Device** object with a swap chain in a call to [**IddCxSwapChainSetDevice2**](nf-iddcx-iddcxswapchainsetdevice2.md), this flag is set to indicate the **[IDDCX_METADATA2](ns-iddcx-iddcx_metadata2.md)::pD3D12Surface** field contains valid data. Note that **IDDCX_METADATA2::pSurface** is null in this situation.
+
 ## -remarks
 
 For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
+
+For more information about D3D12 support, see [IddCx version 1.11 updates](/windows-hardware/drivers/display/iddcx1.11-updates).
 
 ## -see-also
 
