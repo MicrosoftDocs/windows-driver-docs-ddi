@@ -1,7 +1,7 @@
 ---
 UID: NF:iddcx.IddCxSwapChainSetDevice2
 title: IddCxSwapChainSetDevice2
-ms.date: 02/17/2026
+ms.date: 02/27/2026
 tech.root: display
 targetos: Windows
 description: An OS callback function the driver calls within its SetSwapChain routine to setup the swap-chain with a particular DXGI device.
@@ -56,11 +56,11 @@ The **IDDCX_SWAPCHAIN** object previously passed to the driver in a call to [EVT
 
 A pointer to an [IDARG_IN_SWAPCHAINSETDEVICE2](ns-iddcx-idarg_in_swapchainsetdevice2.md) structure that contains the input arguments of the function.
 
-### -returns
+## -returns
 
 The method returns S_OK if the operation succeeds, otherwise an appropriate HRESULT error code.
 
-### - remarks
+## -remarks
 
 A driver can call **IddCxSwapChainSetDevice2** to associate a device object used to process swapchain surface objects. The driver must set the **IDARG_IN_SWAPCHAINSETDEVICE2::Type** field and the corresponding pointer in the **IDARG_IN_SWAPCHAINSETDEVICE2::Device** union.
 
@@ -75,7 +75,10 @@ A driver can call **IddCxSwapChainSetDevice2** to associate a device object used
     HRESULT Result = CreateDXGIFactory2(0, IID_PPV_ARGS(&pFactory));
     if (!FAILED(Result))
     {
-        Result = pFactory->EnumAdapterByLuid(pInArgs->RenderAdapterLuid, IID_PPV_ARGS(&pRenderAdapter));
+        // Assume RenderAdapterLuid is obtained from IDARG_IN_SETSWAPCHAIN and passed to this routine
+        LUID renderAdapterLuid = /* obtain from IDARG_IN_SETSWAPCHAIN */;
+        
+        Result = pFactory->EnumAdapterByLuid(renderAdapterLuid, IID_PPV_ARGS(&pRenderAdapter));
         if (!FAILED(Result))
         {
             Result = D3D12CreateDevice(pRenderAdapter.Get(), D3D_FEATURE_LEVEL_12_0, IID_PPV_ARGS(&pD3d12Device));

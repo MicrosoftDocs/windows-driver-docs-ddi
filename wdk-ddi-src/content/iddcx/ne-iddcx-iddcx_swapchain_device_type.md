@@ -5,7 +5,7 @@ description: Enum used to indicate how to set the swap chain device type.
 prerelease: true
 old-location:
 tech.root: display
-ms.date: 02/17/2026
+ms.date: 02/25/2026
 keywords: ["IDDCX_SWAPCHAIN_DEVICE_TYPE enumeration"]
 ms.keywords: IDDCX_SWAPCHAIN_DEVICE_TYPE, IDDCX_SWAPCHAIN_DEVICE_TYPE enumeration [Display Devices], IDDCX_SWAPCHAIN_DEVICE_TYPE_INVALID, IDDCX_SWAPCHAIN_DEVICE_TYPE_DXGI, IDDCX_SWAPCHAIN_DEVICE_TYPE_D3D12, iddcx/IDDCX_SWAPCHAIN_DEVICE_TYPE, iddcx/IDDCX_SWAPCHAIN_DEVICE_TYPE_INVALID, iddcx/IDDCX_SWAPCHAIN_DEVICE_TYPE_DXGI, iddcx/IDDCX_SWAPCHAIN_DEVICE_TYPE_D3D12
 req.header: iddcx.h
@@ -59,7 +59,7 @@ The value used when the driver wants to set **[IDARG_IN_SWAPCHAINSETDEVICE2](ns-
 
 ### -field IDDCX_SWAPCHAIN_DEVICE_TYPE_D3D12:2
 
-The value used when the driver wants to set **IDARG_IN_SWAPCHAINSETDEVICE2::Driver.pD3d12Device**.
+The value used when the driver wants to set **[IDARG_IN_SWAPCHAINSETDEVICE2](ns-iddcx-idarg_in_swapchainsetdevice2.md)::Driver.pD3d12Device**.
 
 ## -see-also
 

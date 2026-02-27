@@ -5,7 +5,7 @@ title: IddCxSwapChainReleaseAndAcquireBuffer2
 ms.date: 02/24/2026
 targetos: Windows
 description: Learn more about the IddCxSwapChainReleaseAndAcquireBuffer2 function.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
