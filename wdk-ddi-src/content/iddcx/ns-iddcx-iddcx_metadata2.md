@@ -2,10 +2,10 @@
 UID: NS:iddcx.IDDCX_METADATA2
 tech.root: display
 title: IDDCX_METADATA2
-ms.date: 09/22/2023
+ms.date: 02/17/2026
 targetos: Windows
 description: Learn more about the IDDCX_METADATA2 structure.
-prerelease: false
+prerelease: true
 req.construct-type: structure
 req.ddi-compliance: 
 req.dll: 
@@ -15,9 +15,9 @@ req.kmdf-ver:
 req.lib: 
 req.max-support: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 22H2 September Update (IddCx version 1.10)
+req.target-min-winverclnt: Windows 11, 26H1 (IddCx 1.11)
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Windows
 req.typenames: 
 typedef_isUnnamed: false
 req.umdf-ver: 
@@ -92,9 +92,17 @@ An [**IDDCX_SYSTEM_BUFFER_INFO**](ns-iddcx-iddcx_system_buffer_info.md) structur
 
 An [**IDDCX_HDR10_FRAME_METADATA**](ns-iddcx-iddcx_hdr10_frame_metadata.md) structure that contains the HDR10 metadata to use with this frame.
 
+### -field pD3D12Surface
+
+Pointer to an [**ID3D12Resource**](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) that contains the image to encode and transmit. The driver can use this surface anytime until [IddCxSwapChainReleaseAndAcquireBuffer2](nf-iddcx-iddcxswapchainreleaseandacquirebuffer2.md) is called again.
+
 ## -remarks
 
 For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
+
+When D3D12 swap chain surfaces are provided to a driver, there's some extra data that must be passed to the OS to ensure access to the surface is synchronized correctly with the OS. The [**ID3D12CommandQueue**](/windows/win32/api/d3d12/nn-d3d12-id3d12commandqueue) object the driver submits commands on that use the swap chain surface as an input must be indicated to the OS so it can correctly synchronize the driver reads with the OS writes.
+
+At the point the driver calls [**IddCxSwapChainReleaseAndAcquireBuffer2**](nf-iddcx-iddcxswapchainreleaseandacquirebuffer2.md), the OS uses this call as an indication that the driver is ready to submit work that uses the swap chain surface. If the driver submits other work to the same command queue, this could be delayed unnecessarily.
 
 ## -see-also
 

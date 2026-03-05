@@ -2,10 +2,10 @@
 UID: NF:iddcx.IddCxSwapChainReleaseAndAcquireBuffer2
 tech.root: display
 title: IddCxSwapChainReleaseAndAcquireBuffer2
-ms.date: 09/22/2023
+ms.date: 02/24/2026
 targetos: Windows
 description: Learn more about the IddCxSwapChainReleaseAndAcquireBuffer2 function.
-prerelease: false
+prerelease: true
 req.assembly: 
 req.construct-type: function
 req.ddi-compliance: 
@@ -19,9 +19,9 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 11, version 22H2 September Update (IddCx version 1.10)
+req.target-min-winverclnt: Windows 11, 26H1 (IddCx 1.11)
 req.target-min-winversvr: 
-req.target-type: 
+req.target-type: Windows
 req.type-library: 
 req.umdf-ver: 
 req.unicode-ansi: 
@@ -83,6 +83,10 @@ If [**IDDCX_METADATA2_VALID_FLAGS_HDR10METADATA**](ne-iddcx-iddcx_metadata2_vali
 Version 1.10 drivers that don't report [FP16 support](ne-iddcx-iddcx_adapter_flags.md) can still call this function if it's available in the OS.
 
 For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
+
+When D3D12 swap chain surfaces are provided to a driver, there's some extra data that must be passed to the OS to ensure access to the surface is synchronized correctly with the OS. The **ID3D12CommandQueue** object in the driver submits commands on that use the swap chain surface as an input must be indicated to the OS so it can correctly synchronize the driver reads with the OS writes.
+
+At the point the driver calls **IddCxSwapChainReleaseAndAcquireBuffer2**, the OS uses this as an indication that the driver is ready to submit work that uses the swap chain surface. If the driver submits other work to the same command queue, this could be delayed unnecessarily.
 
 ### Remote HDR metadata
 

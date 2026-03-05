@@ -2,15 +2,16 @@
 UID: NE:iddcx.IDDCX_MONITOR_DESCRIPTION_TYPE
 title: IDDCX_MONITOR_DESCRIPTION_TYPE (iddcx.h)
 description: Used to describe the monitor description.
+prerelease: true
 old-location: display\iddcx_monitor_description_type.htm
 tech.root: display
-ms.date: 08/08/2022
+ms.date: 02/17/2026
 keywords: ["IDDCX_MONITOR_DESCRIPTION_TYPE enumeration"]
 ms.keywords: IDDCX_MONITOR_DESCRIPTION_TYPE, IDDCX_MONITOR_DESCRIPTION_TYPE enumeration [Display Devices], IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED, display.iddcx_monitor_description_type, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_EDID, iddcx/IDDCX_MONITOR_DESCRIPTION_TYPE_UNINITIALIZED
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
-req.target-min-winverclnt: 
+req.target-min-winverclnt: Windows 11, 26H1 (IddCx 1.11)
 req.target-min-winversvr: 
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -58,7 +59,11 @@ The monitor description is either EDID or no monitor description is available.
 
 ### -field IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID_AND_EDID:2
 
-The monitor description is both DisplayId and EDID.
+The monitor description is both DisplayID and EDID.
+
+### -field IDDCX_MONITOR_DESCRIPTION_TYPE_DISPLAYID: 3
+
+The monitor description is DisplayID only. This means a pure DisplayID block, rather than one embedded inside an EDID block, and no EDID blocks preceding or following.
 
 ## -see-also
 
