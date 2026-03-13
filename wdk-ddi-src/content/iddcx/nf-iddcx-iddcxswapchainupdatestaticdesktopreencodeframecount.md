@@ -5,7 +5,7 @@ description: An OS callback function that overrides the StaticDesktopReencodeFra
 prerelease: true
 old-location: 
 tech.root: display
-ms.date: 02/17/2026
+ms.date: 03/13/2026
 keywords: ["IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount function"]
 ms.keywords: IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount, IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount method [Display Devices], iddcx/IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount
 req.header: iddcx.h
