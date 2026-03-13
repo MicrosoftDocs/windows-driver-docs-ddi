@@ -1,13 +1,13 @@
 ---
-UID: NF:iddcx.IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount
-title: IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount function (iddcx.h)
+UID: NF:iddcx.IddCxSwapChainUpdateStaticDesktopReencodeFrameCount
+title: IddCxSwapChainUpdateStaticDesktopReencodeFrameCount function (iddcx.h)
 description: An OS callback function that overrides the StaticDesktopReencodeFrameCount value specified in the parameters passed to IddCxAdapterInitAsync on a specific swap chain.
 prerelease: true
 old-location: 
 tech.root: display
-ms.date: 02/17/2026
-keywords: ["IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount function"]
-ms.keywords: IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount, IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount method [Display Devices], iddcx/IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount
+ms.date: 03/13/2026
+keywords: ["IddCxSwapChainUpdateStaticDesktopReencodeFrameCount function"]
+ms.keywords: IddCxSwapChainUpdateStaticDesktopReencodeFrameCount, IddCxSwapChainUpdateStaticDesktopReencodeFrameCount method [Display Devices], iddcx/IddCxSwapChainUpdateStaticDesktopReencodeFrameCount
 req.header: iddcx.h
 req.include-header: 
 req.target-type: Windows
@@ -28,8 +28,8 @@ req.irql: _Must_inspect_result_
 targetos: Windows
 req.typenames: 
 f1_keywords:
- - IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount
- - iddcx/IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount
+ - IddCxSwapChainUpdateStaticDesktopReencodeFrameCount
+ - iddcx/IddCxSwapChainUpdateStaticDesktopReencodeFrameCount
 topic_type:
  - APIRef
  - kbSyntax
@@ -38,10 +38,10 @@ api_type:
 api_location:
  - IddCx.dll
 api_name:
- - IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount
+ - IddCxSwapChainUpdateStaticDesktopReencodeFrameCount
 ---
 
-# IddxCxSwapChainUpdateStaticDesktopReencodeFrameCount function
+# IddCxSwapChainUpdateStaticDesktopReencodeFrameCount function
 
 ## -description
 
