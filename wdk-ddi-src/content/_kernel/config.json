@@ -2,6 +2,7 @@
   "tech": "kernel",
   "headers": [
     "aux_klib.h",
+    "ffainterface.h",
     "ioaccess.h",
     "iointex.h",
     "lkmdtel.h",
