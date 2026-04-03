@@ -17,6 +17,14 @@ The skills.md ([Claude Code skills](https://code.claude.com/docs/en/skills)) fil
 
 ## Prerequisites
 
+Before running the AI-Docs workflow, you should have the following configuration set up on your local machine:
+
+- [VS Code](#vs-code-with-github-copilot-chat)
+- [Azure CLI](#azure-cli-(az))
+- [MCP servers](#mcp-servers)
+- [PowerShell](#powershell)
+- [A .csv inventory file exported from Meriwether](#.csv-inventory-file)
+
 ### VS Code with GitHub Copilot Chat
 
 The skills are invoked as Copilot agent commands inside VS Code.
@@ -68,9 +76,13 @@ Used to acquire an Azure DevOps bearer token. Run `az login` once before startin
 
 Restart VS Code after editing `mcp.json` for the servers to become available.
 
-### CSV File
+### PowerShell
 
-A user-created CSV listing the APIs to document, typically exported from the Meriwether report. Must contain a column with file paths such as:
+Version 7.3 or greater.
+
+### .csv inventory file
+
+A user-created .csv file listing the APIs to document, typically exported from the Meriwether report. Must contain a column with file paths such as:
 
 ```
 wdk-ddi-src/content/{header}/nf-{header}-funcname.md
