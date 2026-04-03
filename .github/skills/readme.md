@@ -42,7 +42,7 @@ Used to acquire an Azure DevOps bearer token. Run `az login` once before startin
     ```
 
     After installation, authenticate once:
-    
+
     ```powershell
     az login
     ```
@@ -103,8 +103,7 @@ Your identity (or PAT) needs these permissions in the **cpubwin/drivers** ADO pr
 | `wdk-ddi-build` | Code: Read | Check published docs on the live branch |
 | `windows-driver-docs-ddi` | Code: Read | Check staging branch for index.md existence |
 
-> [!NOTE]
-> If using a PAT instead of Azure CLI for auth, set the scope to **Code (Read & Write)** and **Pull Request Threads (Read & Write)** at minimum.
+  &nbsp;&nbsp;&nbsp;&nbsp;**NOTE:** If using a PAT instead of Azure CLI for auth, set the scope to **Code (Read & Write)** and **Pull Request Threads (Read & Write)** at minimum.
 
 ## Step 1: Prep
 
@@ -115,8 +114,7 @@ Your identity (or PAT) needs these permissions in the **cpubwin/drivers** ADO pr
 1. Save the file as a .csv file in your project folder, for example *C:\ai-docs\\\{header-name}\\\{header-name}.csv*.
 1. In VS Code, select **Open Workspace from file**, navigate to your local clone, and select **\wdk-ddi\ai-docs.code-workspace**.
 
-> [!NOTE]
-> I've tested this successfully with sets of 25 new APIs and am currently running larger jobs to find an acceptable upper limit on the number of files it can handle. 
+  &nbsp;&nbsp;&nbsp;&nbsp;**NOTE:** This workflow has tested successfully with sets of 25 new APIs in a batch - the upper limit on the number of files it can handle hasn't been determined yet. 
 
 
 ## Step 2: Run the workflow
