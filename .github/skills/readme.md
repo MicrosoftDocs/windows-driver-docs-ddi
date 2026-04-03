@@ -36,10 +36,13 @@ The skills are invoked as Copilot agent commands inside VS Code.
 Used to acquire an Azure DevOps bearer token. Run `az login` once before starting the workflow. If az is unavailable, you will be prompted for an ADO Personal Access Token (PAT).
 
 - Install from the [Azure CLI internal install page](https://aka.ms/installazurecliwindows) or via winget:
+
     ```powershell
     winget install Microsoft.AzureCLI
     ```
+
     After installation, authenticate once:
+    
     ```powershell
     az login
     ```
