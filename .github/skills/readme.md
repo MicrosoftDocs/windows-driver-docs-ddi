@@ -142,7 +142,7 @@ Reads the CSV, fetches stubs or existing docs from ADO, retrieves source declara
 **3. Submit**
 
 ```
-/ai-docs-submit {header} {path\to\header.csv}
+/ai-docs-submit {header}
 ```
 
 Reads the new docs in the `output\` folder, creates or reuses an `ai-doc/{header}-update` branch, pushes a commit with all generated files, and opens a pull request targeting main. Displays the PR URL and summary.
@@ -156,7 +156,7 @@ Reads the new docs in the `output\` folder, creates or reuses an `ai-doc/{header
 Runs inventory, generate, and submit in sequence. No prompts between steps. The process stops only if an error is encountered.
 
 > [!NOTE]
-> To enable autopilot mode in VS Code, select **Autopilot (Preview)** from the **Set permissions** selector directly below the chat window.  You can also run the command from a Copilot CLI window in autopilot mode.
+> To enable Autopilot mode in VS Code, select **Autopilot (Preview)** from the **Set permissions** selector directly below the chat window.  You can also run the command from a Copilot CLI window in autopilot mode.
 
 ## Output Locations
 
