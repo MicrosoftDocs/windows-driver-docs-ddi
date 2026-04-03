@@ -101,7 +101,7 @@ Your identity (or PAT) needs these permissions in the **cpubwin/drivers** ADO pr
 1. In VS Code, select **Open Workspace from file**, navigate to your local clone, and select **\wdk-ddi\ai-docs.code-workspace**.
 
 > [!NOTE]
-> I've tested this successfully with sets of 10 new APIs and am currently running larger jobs to find an acceptable upper limit on the number of files it can handle. 
+> I've tested this successfully with sets of 25 new APIs and am currently running larger jobs to find an acceptable upper limit on the number of files it can handle. 
 
 
 ## Step 2: Run the workflow

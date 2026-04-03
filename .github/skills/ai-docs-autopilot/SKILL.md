@@ -614,4 +614,4 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
     - Phase 1: Inventory — {N} APIs classified ({new} new, {update} updates)
     - Phase 2: Generate — {N} files written to `{outputDir}`
     - Phase 3: Submit — PR created at `{prUrl}`
-    - Workflow completed.
+    - Display "Workflow completed".
