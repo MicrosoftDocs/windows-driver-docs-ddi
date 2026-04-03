@@ -6,7 +6,7 @@ Run each step individually for interactive control, or use the autopilot skill t
 
 ## Skills
 
-The skills.md ([Claude Code skills](https://code.claude.com/docs/en/skills)) files for this workflow are located on the repo (and your local clone) in **\wdk-ddi\.github\skills**. 
+The skill.md ([Claude Code skills](https://code.claude.com/docs/en/skills)) files for this workflow are located on the repo (and your local clone) in **\wdk-ddi\.github\skills**. 
 
 | Skill | Description |
 |-------|-------------|
