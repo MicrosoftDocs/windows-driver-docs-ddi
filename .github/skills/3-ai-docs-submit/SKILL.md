@@ -22,7 +22,8 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
 | ADO Project | `drivers` |
 | Docs Repo | `wdk-ddi` |
 | Target Branch | `main` |
-| Source Branch | Auto-generated as `ai-doc/{header}-update` (e.g. `ai-doc/soundwireclass-update`) |
+| Source Branch | Auto-generated as `{user-alias}/{header}-update` (e.g. `brbenefield/soundwireclass-update`) |
+| User Alias | Auto-detected from CSV `Owner` column, `$env:USERNAME`, or `az account show` |
 
 ## Prerequisites
 
@@ -34,7 +35,12 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
 
 1. Strip the `.h` extension from the user-provided header name to get `{header}` (e.g. `soundwireclass.h` → `soundwireclass`).
 
-2. **Resolve paths.** The user provides the CSV path. Derive the working and output directories:
+2. **Resolve the user alias** for branch naming (`{user-alias}`). Try these sources in order and use the first non-empty value:
+   a. The `Owner` column from the CSV (if all rows share the same value).
+   b. The Windows username: `$env:USERNAME`.
+   c. The Azure CLI identity: `az account show --query user.name -o tsv`, extracting the alias portion before `@`.
+
+3. **Resolve paths.** The user provides the CSV path. Derive the working and output directories:
 
    ```powershell
    $csvPath = "{user-provided CSV path}"
@@ -125,7 +131,7 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
    - List of files to be pushed with their change types (`add` / `edit`)
    - Total file count
    - The generated commit message
-   - The target branch name: `ai-doc/{header}-update`
+   - The target branch name: `{user-alias}/{header}-update`
 
    Prompt the user to confirm before proceeding.
 
@@ -135,13 +141,13 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
 
     First, check if the branch already exists:
     ```powershell
-    $branchRef = Invoke-RestMethod -Uri "$adoBase/wdk-ddi/refs?filter=heads/ai-doc/{header}-update&api-version=7.0" -Headers $headers
+    $branchRef = Invoke-RestMethod -Uri "$adoBase/wdk-ddi/refs?filter=heads/{user-alias}/{header}-update&api-version=7.0" -Headers $headers
     if ($branchRef.value.Count -gt 0) {
         # Branch exists — use its current SHA
         $branchSha = $branchRef.value[0].objectId
     } else {
         # Create the branch via the refs API (JSON array body)
-        $createBranchPayload = "[{`"name`":`"refs/heads/ai-doc/{header}-update`",`"oldObjectId`":`"0000000000000000000000000000000000000000`",`"newObjectId`":`"$mainSha`"}]"
+        $createBranchPayload = "[{`"name`":`"refs/heads/{user-alias}/{header}-update`",`"oldObjectId`":`"0000000000000000000000000000000000000000`",`"newObjectId`":`"$mainSha`"}]"
         $refResult = Invoke-RestMethod -Uri "$adoBase/wdk-ddi/refs?api-version=7.0" -Method Post -Headers $headers -Body $createBranchPayload
         $branchSha = $refResult.value[0].newObjectId
     }
@@ -164,7 +170,7 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
     $pushBody = @{
         refUpdates = @(
             @{
-                name = "refs/heads/ai-doc/{header}-update"
+                name = "refs/heads/{user-alias}/{header}-update"
                 oldObjectId = $branchSha   # MUST be a real SHA, never all-zeros
             }
         )
@@ -189,7 +195,7 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
     if (-not $commitDetail.parents -or $commitDetail.parents.Count -eq 0) {
         Write-Error "FATAL: Push created an orphan commit (no parent). The branch must be deleted and recreated. This means oldObjectId was wrong."
         # Clean up: delete the broken branch
-        $deletePayload = "[{`"name`":`"refs/heads/ai-doc/{header}-update`",`"oldObjectId`":`"$($commitDetail.commitId)`",`"newObjectId`":`"0000000000000000000000000000000000000000`"}]"
+        $deletePayload = "[{`"name`":`"refs/heads/{user-alias}/{header}-update`",`"oldObjectId`":`"$($commitDetail.commitId)`",`"newObjectId`":`"0000000000000000000000000000000000000000`"}]"
         Invoke-RestMethod -Uri "$adoBase/wdk-ddi/refs?api-version=7.0" -Method Post -Headers $headers -Body $deletePayload
         Write-Error "Broken branch deleted. Please retry the submission."
         return
@@ -201,9 +207,9 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
 
     ```powershell
     $prBody = @{
-        sourceRefName = "refs/heads/ai-doc/{header}-update"
+        sourceRefName = "refs/heads/{user-alias}/{header}-update"
         targetRefName = "refs/heads/main"
-        title = "ai-doc/{header}-update: API reference docs for {header}.h"
+        title = "{user-alias}/{header}-update: API reference docs for {header}.h"
         description = "<PR description with header name, API entity list, AI-assisted note>"
     } | ConvertTo-Json
 

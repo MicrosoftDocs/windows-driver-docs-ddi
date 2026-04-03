@@ -145,7 +145,7 @@ Reads the CSV, fetches stubs or existing docs from ADO, retrieves source declara
 /ai-docs-submit {header}
 ```
 
-Reads the new docs in the `output\` folder, creates or reuses an `ai-doc/{header}-update` branch, pushes a commit with all generated files, and opens a pull request targeting main. Displays the PR URL and summary.
+Reads the new docs in the `output\` folder, creates or reuses a `{user-name}/{header}-update` branch, pushes a commit with all generated files, and opens a pull request targeting main. Displays the PR URL and summary.
 
 ### Autopilot method (no user interaction)
 
