@@ -404,6 +404,11 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
      $stubContent = Invoke-RestMethod -Uri "$adoBase/wdk-ddi/items?path=wdk-ddi-src/content/{header}/na-{header}.md&versionDescriptor.version=stubs/main&versionDescriptor.versionType=branch&api-version=7.0" -Headers $headers
      $stubContent | Out-File -FilePath (Join-Path $outputDir "index.md") -Encoding utf8
      ```
+   - **Content rules for a new `index.md`:** After retrieving the stub, ensure the `## -description` section follows this strict format:
+     1. Write **no more than one sentence** describing the header.
+     2. Immediately follow it with: `This header is used by [{tech.root display name}](../{tech.root}/index.md). For more information, see: [{tech.root display name}](../{tech.root}/index.md).`
+        Replace `{tech.root display name}` with the human-readable technology area name and `{tech.root}` with the `tech.root` value from the frontmatter (e.g. `_netvista` → `[Networking](/windows-hardware/drivers/ddi/_netvista/)`).
+     3. **Do not add any sections after `-description`.** There must be no `-remarks` or `-see-also` sections in an `index.md` file.
 
 9. **Log progress.** After generation completes, display:
    - List of all generated/updated files in `{outputDir}`
