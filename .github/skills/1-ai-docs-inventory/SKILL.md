@@ -196,3 +196,5 @@ After the script finishes, the agent should:
     - If the user types **y**: automatically invoke the `ai-docs-generate` skill, passing the same header name and CSV path. Behave as if the user typed `/ai-docs-generate {header}.h {workingDir}`.
     - If the user types **n**: stop and tell them they can run it later with: `/ai-docs-generate {header}.h {workingDir}`
 
+    > **Tip:** To run all three steps (inventory → generate → submit) with no interaction, use the `ai-docs-autopilot` skill instead.
+

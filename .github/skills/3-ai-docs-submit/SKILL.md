@@ -27,6 +27,7 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
 ## Prerequisites
 
 - The output folder `{working_dir}\output\` must contain generated documentation files (from the `ai-docs-generate` skill).
+- **Tip:** To run all three steps (inventory → generate → submit) with no interaction, use the `ai-docs-autopilot` skill instead.
 - Azure CLI (`az`) should be available for auth token acquisition. If not, the agent will prompt for an ADO Personal Access Token (PAT) once per session (scope: Code Read+Write, Pull Request Contribute).
 
 ## Procedure

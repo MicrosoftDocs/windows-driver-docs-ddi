@@ -245,3 +245,5 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
 
     - If the user types **y**: automatically invoke the `ai-docs-submit` skill, passing the same header name. Behave as if the user typed `/ai-docs-submit {header}`.
     - If the user types **n**: stop and tell them they can run it later with: `/ai-docs-submit {header}`
+
+    > **Tip:** To run all three steps (inventory → generate → submit) with no interaction, use the `ai-docs-autopilot` skill instead.
