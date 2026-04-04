@@ -89,10 +89,9 @@ Write a single `inventory.ps1` script that performs all of the following steps, 
 
 1. Strip the `.h` extension from the user-provided header name to get `{header}` (e.g. `soundwireclass.h` → `soundwireclass`).
 
-2. **Resolve the user alias** for branch naming (`{user-alias}`). Try these sources in order and use the first non-empty value:
-   a. The `Owner` column from the CSV (if all rows share the same value).
-   b. The Windows username: `$env:USERNAME`.
-   c. The Azure CLI identity: `az account show --query user.name -o tsv`, extracting the alias portion before `@`.
+2. **Resolve the user alias** for branch naming (`{user-alias}`). The alias identifies who is submitting the PR, not who owns the APIs. Try these sources in order and use the first non-empty value:
+   a. The Windows username: `$env:USERNAME`.
+   b. The Azure CLI identity: `az account show --query user.name -o tsv`, extracting the alias portion before `@`.
    
    The resolved alias is used later for the branch name `{user-alias}/{header}-update`. Hardcode it into the generated scripts.
 
@@ -414,7 +413,7 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
      ```
    - **Content rules for a new `index.md`:** After retrieving the stub, ensure the `## -description` section follows this strict format:
      1. Write **no more than one sentence** describing the header.
-     2. Immediately follow it with: `This header is used by [{tech.root display name}](../{tech.root}/index.md). For more information, see: [{tech.root display name}](../{tech.root}/index.md).`
+     2. Immediately follow it with: `This header is used by {tech.root display name}. For more information, see: [{tech.root display name}](../{tech.root}/index.md).`
         Replace `{tech.root display name}` with the human-readable technology area name and `{tech.root}` with the `tech.root` value from the frontmatter (e.g. `_netvista` → `[Networking](/windows-hardware/drivers/ddi/_netvista/)`).
      3. **Do not add any sections after `-description`.** There must be no `-remarks` or `-see-also` sections in an `index.md` file.
 

@@ -35,10 +35,9 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
 
 1. Strip the `.h` extension from the user-provided header name to get `{header}` (e.g. `soundwireclass.h` → `soundwireclass`).
 
-2. **Resolve the user alias** for branch naming (`{user-alias}`). Try these sources in order and use the first non-empty value:
-   a. The `Owner` column from the CSV (if all rows share the same value).
-   b. The Windows username: `$env:USERNAME`.
-   c. The Azure CLI identity: `az account show --query user.name -o tsv`, extracting the alias portion before `@`.
+2. **Resolve the user alias** for branch naming (`{user-alias}`). The alias identifies who is submitting the PR, not who owns the APIs. Try these sources in order and use the first non-empty value:
+   a. The Windows username: `$env:USERNAME`.
+   b. The Azure CLI identity: `az account show --query user.name -o tsv`, extracting the alias portion before `@`.
 
 3. **Resolve paths.** The user provides the CSV path. Derive the working and output directories:
 
