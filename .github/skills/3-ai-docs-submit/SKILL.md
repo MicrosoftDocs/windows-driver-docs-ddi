@@ -226,3 +226,6 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
     $prUrl = "https://dev.azure.com/cpubwin/drivers/_git/wdk-ddi/pullrequest/$($prResult.pullRequestId)"
     Write-Host "PR created: $prUrl"
     ```
+15. Display **Workflow completed** confirming completion.
+
+    ```

@@ -275,7 +275,7 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
    # List files on main branch
    $mainFiles = Invoke-RestMethod -Uri "$adoBase/wdk-ddi/items?scopePath=wdk-ddi-src/content/{header}/&recursionLevel=OneLevel&versionDescriptor.version=main&versionDescriptor.versionType=branch&api-version=7.0" -Headers $headers
    ```
-   If the target filename appears in the listing, retrieve it from `main` and use its content as the starting point — preserve existing text. **Only write the file to the output folder if you make changes.** Do not copy unchanged files.
+   If the target filename appears in the listing, retrieve it from `main` and use its content as the starting point — preserve existing text, but **always update `ms.date` to today's date** when making any content changes. **Only write the file to the output folder if you make changes.** Do not copy unchanged files.
    ```powershell
    $content = Invoke-RestMethod -Uri "$adoBase/wdk-ddi/items?path=wdk-ddi-src/content/{header}/{filename.md}&versionDescriptor.version=main&versionDescriptor.versionType=branch&api-version=7.0" -Headers $headers
    $content | Out-File -FilePath (Join-Path $outputDir "{filename.md}") -Encoding utf8
@@ -336,7 +336,7 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
    - Preserve all existing metadata from the stub
    - Add `ai-usage: ai-assisted` if not already present
    - Set `tech.root` to the same value as existing files in the same header folder. If no existing files in the folder (i.e. a brand-new API set), make an educated guess based on the header's source location, API naming patterns, and functionality (e.g. headers in `minkernel/` are typically `kernel`, networking headers are `netvista`, storage headers are `storage`, etc.). Log the guessed value and add a note for the user: `"NOTE: tech.root guessed as '{value}' — please verify this is correct."`
-   - Ensure `ms.date` is set to today's date in `MM/DD/YYYY` format
+   - **Always** set `ms.date` to today's date in `MM/DD/YYYY` format — both for new files and when updating existing files with changes
    - Verify `req.header`, `f1_keywords`, `api_name`, `topic_type` are correct
    - **`req.header` uses lowercase** (e.g. `classpnp.h`). **`req.include-header` uses sentence capitalization** (e.g. `Classpnp.h`). Note that `req.include-header` does not always require a value — omit it or leave it empty when an include header is not applicable.
    - **`req.construct-type` for macros:** If the source declaration is a preprocessor macro (`#define`), set `req.construct-type: macro`, not `function`. The file prefix remains `nf-` and the title should say "macro" (e.g. `CLEAR_FLAG_NOFENCE macro (classpnp.h)`).
@@ -626,4 +626,4 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
     - Phase 1: Inventory — {N} APIs classified ({new} new, {update} updates)
     - Phase 2: Generate — {N} files written to `{outputDir}`
     - Phase 3: Submit — PR created at `{prUrl}`
-    - Display "Workflow completed".
+    - Display **Workflow completed**
