@@ -418,7 +418,7 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
         Replace `{tech.root display name}` with the human-readable technology area name and `{tech.root}` with the `tech.root` value from the frontmatter (e.g. `_netvista` → `[Networking](/windows-hardware/drivers/ddi/_netvista/)`).
      3. **Do not add any sections after `-description`.** There must be no `-remarks` or `-see-also` sections in an `index.md` file.
 
-9. **Log progress.** After generation completes, display:
+9. **Close editor tabs and log progress.** After all files have been written to `{outputDir}`, close all open editor tabs so the workspace is not cluttered with generated files. Run the VS Code command `workbench.action.closeAllEditors` to close them. Then display:
    - List of all generated/updated files in `{outputDir}`
    - For each file, show the first 20 lines (frontmatter + description) as a sample
    - Highlight any metadata fields marked as TODO that the user should fill in manually (e.g. `req.lib`, `req.dll`, `req.irql` if not determinable from source)
