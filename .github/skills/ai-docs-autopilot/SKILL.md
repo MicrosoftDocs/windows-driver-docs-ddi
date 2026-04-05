@@ -42,6 +42,56 @@ This skill runs **all three phases** (inventory, generate, submit) in sequence w
 
 ---
 
+## Progress Tracking
+
+Track elapsed time and documents written across all three phases. Because each phase may run in a separate PowerShell process (variables don't survive between invocations), persist the start timestamp in a file so it can be read by later phases.
+
+### Start the timer (Phase 1 inventory script)
+
+At the very beginning of the `inventory.ps1` script, record the pipeline start time to a file in the working directory:
+
+```powershell
+$pipelineStartTime = Get-Date
+$pipelineStartTime.ToString('o') | Out-File -FilePath (Join-Path $workingDir '.pipeline-start') -Encoding utf8 -Force
+$docsWrittenCount = 0
+```
+
+### Log per-document progress (Phase 2)
+
+Phase 2 is orchestrated by the agent (not a single script). After writing each documentation file, the agent must:
+
+1. Read the start time from `{workingDir}\.pipeline-start`.
+2. Increment a running document counter.
+3. Report progress to the user with elapsed time.
+
+Run this in the terminal after each file is written:
+
+```powershell
+$start = [DateTime]::Parse((Get-Content '{workingDir}\.pipeline-start' -Raw).Trim())
+$elapsed = (Get-Date) - $start
+Write-Host "[$($elapsed.ToString('hh\:mm\:ss'))] Wrote doc {N}: {filename.md}"
+```
+
+Alternatively, the agent can compute elapsed time from the stored timestamp itself and include it in its console message — the key requirement is that each doc written produces a visible `[HH:MM:SS] Wrote doc N: filename` progress line.
+
+### Report totals (Phase 3 submit script)
+
+At the end of the `submit.ps1` script, read the start time back and compute the total elapsed time:
+
+```powershell
+$startFile = Join-Path $workingDir '.pipeline-start'
+if (Test-Path $startFile) {
+    $pipelineStartTime = [DateTime]::Parse((Get-Content $startFile -Raw).Trim())
+    $totalElapsed = (Get-Date) - $pipelineStartTime
+} else {
+    $totalElapsed = [TimeSpan]::Zero
+}
+```
+
+Include the elapsed time and document count in the final summary banner (see Phase 3, step 15).
+
+---
+
 # Phase 1: Inventory
 
 Read a pre-provided CSV of target API filenames, cross-reference each entry against existing docs, stubs, and published content via the ADO REST API, classify their status, and finalize the CSV.
@@ -102,6 +152,11 @@ Write a single `inventory.ps1` script that performs all of the following steps, 
    $header = "{header}"
    $csvPath = "{user-provided CSV path}"
    $workingDir = Split-Path $csvPath -Parent
+
+   # Start the pipeline timer and persist it for later phases
+   $pipelineStartTime = Get-Date
+   $pipelineStartTime.ToString('o') | Out-File -FilePath (Join-Path $workingDir '.pipeline-start') -Encoding utf8 -Force
+   $docsWrittenCount = 0
 
    if (-not (Test-Path $csvPath)) {
        Write-Error "CSV not found at $csvPath."
@@ -388,6 +443,16 @@ Generate complete API reference documentation pages for WDK DDI entities by comb
    - Use relative paths: `[**OtherFunc**](nf-{header}-otherfunc.md)` for same-header APIs
    - Use `../` paths for cross-header: `[**CrossFunc**](../otherheader/nf-otherheader-crossfunc.md)`
 
+   After writing each file, log progress with elapsed time. Run the following in the terminal (or compute the elapsed time from the stored timestamp and include it in the agent's console output):
+
+   ```powershell
+   $start = [DateTime]::Parse((Get-Content '{workingDir}\.pipeline-start' -Raw).Trim())
+   $elapsed = (Get-Date) - $start
+   Write-Host "[$($elapsed.ToString('hh\:mm\:ss'))] Wrote doc {N}: {filename.md}"
+   ```
+
+   The agent must track the running document count itself (incrementing after each file) and substitute `{N}` with the current count and `{filename.md}` with the actual filename.
+
    #### Formatting Rules
    - Use **bold** for API names in prose: `**IoCreateFile**`
    - Use *italic* for parameter name references in prose: `*DesiredAccess*`
@@ -622,8 +687,30 @@ Submit generated API reference documentation as a pull request to the `wdk-ddi` 
     Write-Host "PR created: $prUrl"
     ```
 
-15. **Final summary.** Report:
+15. **Final summary.** Read the persisted start time and compute the total elapsed time. Include this in the submit script:
+
+    ```powershell
+    $startFile = Join-Path $workingDir '.pipeline-start'
+    if (Test-Path $startFile) {
+        $pipelineStartTime = [DateTime]::Parse((Get-Content $startFile -Raw).Trim())
+        $totalElapsed = (Get-Date) - $pipelineStartTime
+    } else {
+        $totalElapsed = [TimeSpan]::Zero
+    }
+    Write-Host ""
+    Write-Host "========================================"
+    Write-Host " Autopilot Complete"
+    Write-Host "========================================"
+    Write-Host "Total elapsed time : $($totalElapsed.ToString('hh\:mm\:ss'))"
+    Write-Host "Documents written  : $docsWrittenCount"
+    Write-Host "========================================"
+    ```
+
+    The `$docsWrittenCount` value must be hardcoded into the generated `submit.ps1` script by the agent (since the agent tracks the count during Phase 2).
+
+    Then display:
     - Phase 1: Inventory — {N} APIs classified ({new} new, {update} updates)
     - Phase 2: Generate — {N} files written to `{outputDir}`
     - Phase 3: Submit — PR created at `{prUrl}`
+    - Elapsed time: `{totalElapsed}` | Documents written: `{docsWrittenCount}`
     - Display **Workflow completed**
