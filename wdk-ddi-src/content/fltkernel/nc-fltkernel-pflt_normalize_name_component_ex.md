@@ -62,12 +62,12 @@ Pointer to the file object for the file whose name is being requested or the fil
 ### -param ParentDirectory [in]
 
 
-Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the parent directory for this name component.
+Pointer to a <a href="/windows/win32/api/ntdef/ns-ntdef-_unicode_string">UNICODE_STRING</a> structure that contains the name of the parent directory for this name component. This name includes a trailing backslash.
 
 ### -param VolumeNameLength [in]
 
 
-Length, in bytes, of the parent directory name that is stored in the structure that the <i>ParentDirectory</i> parameter points to.
+Length, in bytes, of the Volume/Share name portion of the parent directory name that is stored in the structure that the <i>ParentDirectory</i> parameter points to.
 
 ### -param Component [in]
 
