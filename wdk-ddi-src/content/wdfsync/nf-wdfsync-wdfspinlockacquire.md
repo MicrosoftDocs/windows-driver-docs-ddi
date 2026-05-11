@@ -13,7 +13,7 @@ req.dll:
 req.header: wdfsync.h
 req.idl: 
 req.include-header: Wdf.h
-req.irql: <=DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 1.0
 req.umdf-ver: 2.0
 req.lib: Wdf01000.sys (KMDF); WUDFx02000.dll (UMDF)

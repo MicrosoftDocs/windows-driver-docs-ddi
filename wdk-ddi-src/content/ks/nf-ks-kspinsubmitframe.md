@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: Ks.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:

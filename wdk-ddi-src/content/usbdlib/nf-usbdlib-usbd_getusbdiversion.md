@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: Usbd.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL (See Remarks)
+req.irql: <= DISPATCH_LEVEL (See Remarks)
 targetos: Windows
 req.typenames: 
 f1_keywords:

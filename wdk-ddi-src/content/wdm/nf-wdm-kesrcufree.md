@@ -14,7 +14,7 @@ req.dll: NtosKrnl.exe
 req.header: wdm.h
 req.idl: 
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.irql: <DISPATCH_LEVEL
+req.irql: < DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: NtosKrnl.lib
 req.max-support: 
