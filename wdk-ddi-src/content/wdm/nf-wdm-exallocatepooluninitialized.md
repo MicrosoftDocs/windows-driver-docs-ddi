@@ -12,7 +12,7 @@ req.dll:
 req.header: wdm.h
 req.idl: 
 req.include-header: Wdm.h, Ntddk.h, Ntifs.h
-req.irql: IRQL <= DISPATCH_LEVEL (see Remarks section)
+req.irql: <= DISPATCH_LEVEL (see Remarks section)
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 
