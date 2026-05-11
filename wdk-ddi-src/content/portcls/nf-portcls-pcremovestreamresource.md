@@ -22,7 +22,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Portcls.lib
-req.dll: NA
+req.dll: 
 req.irql: PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
