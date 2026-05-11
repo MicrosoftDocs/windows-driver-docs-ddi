@@ -7,7 +7,7 @@ keywords: ["D3DKMTCreateOutputDupl function"]
 ms.keywords: D3DKMTCreateOutputDupl
 req.header: d3dkmthk.h
 req.include-header: D3dkmthk.h
-req.target-type: Univwrsal
+req.target-type: Universal
 req.target-min-winverclnt: Windows 8
 req.target-min-winversvr: Windows Server 2012
 req.kmdf-ver: 
