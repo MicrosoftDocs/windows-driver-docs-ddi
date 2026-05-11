@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtosKrnl.lib
 req.dll: NtosKrnl.exe
-req.irql: Any level (See Remarks)
+req.irql: Any level (see Remarks)
 targetos: Windows
 req.typenames: 
 f1_keywords:

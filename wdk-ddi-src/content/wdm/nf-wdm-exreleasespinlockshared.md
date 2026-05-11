@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: DISPATCH_LEVEL (See Remarks.)
+req.irql: DISPATCH_LEVEL (see Remarks)
 targetos: Windows
 req.typenames: WORK_QUEUE_TYPE
 f1_keywords:

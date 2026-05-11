@@ -15,7 +15,7 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.lib: 
 req.dll: 
-req.irql: PASSIVE_LEVEL (See Remarks section.)
+req.irql: PASSIVE_LEVEL (see Remarks section)
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
