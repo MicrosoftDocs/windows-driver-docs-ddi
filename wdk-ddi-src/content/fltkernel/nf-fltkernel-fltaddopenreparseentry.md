@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: _IRQL_requires_max_(APC_LEVEL)
+req.irql: <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
