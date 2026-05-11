@@ -13,7 +13,7 @@ req.dll:
 req.header: usermode_accessors.h
 req.idl: 
 req.include-header: 
-req.irql: Less than or equal to APC_LEVEL
+req.irql: <= APC_LEVEL
 req.kmdf-ver: 
 req.lib: umaccess.lib
 req.max-support: 

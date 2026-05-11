@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: Stream.lib
 req.dll: 
-req.irql: Greater than DISPATCH_LEVEL
+req.irql: '> DISPATCH_LEVEL'
 targetos: Windows
 req.typenames: 
 f1_keywords:
