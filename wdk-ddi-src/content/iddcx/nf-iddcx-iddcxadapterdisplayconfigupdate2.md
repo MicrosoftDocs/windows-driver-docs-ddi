@@ -64,6 +64,9 @@ A remote driver can call **IddCxAdapterDisplayConfigUpdate2** to allow a client 
 
 A remote indirect display driver can call **IddCxAdapterDisplayConfigUpdate2** to set the mode, colorimetry and other values that the OS should use for a specific monitor. Only remote drivers are able to call this function.
 
+The OS returns STATUS_SUCCESS if it has stored the newly specified display configuration. These changes will asynchronously reconfigure the swapchains for the monitors as requested. IddCxAdapterDisplayConfigUpdate2
+will first flush any pending monitor arrivals, and process departures to ensure that the list of monitors is current.
+
 For more information about HDR support, see [IddCx version 1.10 updates](/windows-hardware/drivers/display/iddcx1.10-updates).
 
 The [**IDDCX_DISPLAYCONFIGPATH2**](ns-iddcx-iddcx_displayconfigpath2.md) structure is defined in such a way that not all information has to be provided in every call. For example, some paths may not supply colorimetry data if the color mode is not HDR or WCG, or **IddCxAdapterDisplayConfigUpdate2** could be called to only update the SDR white level if no layout changes are required.
