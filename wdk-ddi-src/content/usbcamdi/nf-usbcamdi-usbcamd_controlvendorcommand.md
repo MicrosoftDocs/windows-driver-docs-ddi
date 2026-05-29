@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: Usbcamd2.lib
 req.dll: 
-req.irql: Greater than or equal to PASSIVE_LEVEL (See Remarks section)
+req.irql: '>= PASSIVE_LEVEL (see Remarks section)'
 targetos: Windows
 req.typenames: 
 f1_keywords:

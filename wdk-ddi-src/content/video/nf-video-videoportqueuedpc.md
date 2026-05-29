@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: Videoprt.lib
 req.dll: Videoprt.sys
-req.irql: Greater than or equal to DISPATCH_LEVEL
+req.irql: '>= DISPATCH_LEVEL'
 targetos: Windows
 req.typenames: 
 f1_keywords:
