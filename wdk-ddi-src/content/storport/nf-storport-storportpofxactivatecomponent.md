@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: Storport.lib
 req.dll: 
-req.irql: IRQL <= DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:

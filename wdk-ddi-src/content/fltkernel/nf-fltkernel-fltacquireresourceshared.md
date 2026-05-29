@@ -13,7 +13,7 @@ req.dll:
 req.header: fltkernel.h
 req.idl: 
 req.include-header: 
-req.irql: IRQL <= APC_LEVEL
+req.irql: <= APC_LEVEL
 req.kmdf-ver: 
 req.lib: FltMgr.lib
 req.max-support: 

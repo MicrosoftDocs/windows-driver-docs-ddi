@@ -13,7 +13,7 @@ req.dll:
 req.header: ndis.h
 req.idl: 
 req.include-header: 
-req.irql: IRQL <= DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

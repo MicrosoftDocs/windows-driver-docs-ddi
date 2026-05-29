@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: NtDll.lib (user mode); NtosKrnl.lib (kernel mode)
 req.dll: NtDll.dll (user mode); NtosKrnl.exe (kernel mode)
-req.irql: IRQL <= DIRQL (see Comments section)
+req.irql: <= DIRQL (see Comments section)
 targetos: Windows
 req.typenames: 
 f1_keywords:

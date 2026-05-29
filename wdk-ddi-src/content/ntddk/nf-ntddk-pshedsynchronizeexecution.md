@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: Pshed.lib
 req.dll: Pshed.dll
-req.irql: IRQL <= DIRQL
+req.irql: <= DIRQL
 targetos: Windows
 req.typenames: 
 f1_keywords:

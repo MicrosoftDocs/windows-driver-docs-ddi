@@ -22,7 +22,7 @@ req.assembly:
 req.type-library: 
 req.lib: Clfs.lib
 req.dll: Clfs.sys
-req.irql: IRQL <= APC_LEVEL
+req.irql: <= APC_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
