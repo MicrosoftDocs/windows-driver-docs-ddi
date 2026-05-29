@@ -23,7 +23,7 @@ req.assembly:
 req.type-library: 
 req.lib: Hidparse.lib
 req.dll: 
-req.irql: <= DISPATCH_ LEVEL
+req.irql: <= DISPATCH_LEVEL
 targetos: Windows
 req.typenames: 
 f1_keywords:
