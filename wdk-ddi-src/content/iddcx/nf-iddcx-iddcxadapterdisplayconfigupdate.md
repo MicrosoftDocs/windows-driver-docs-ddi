@@ -64,7 +64,7 @@ A remote driver can call **IddCxAdapterDisplayConfigUpdate** to allow a client t
 
 A remote indirect display driver (IDD) calls **IddCxAdapterDisplayConfigUpdate** when it receives a new display configuration.
 
-The OS returns STATUS_SUCCESS if it has stored the newly specified display configuration. These changes will asynchronously reconfigure the swapchains for the monitors as requested. **IddCxAdapterDisplayConfigUpdate** will first flush any pending monitor arrivals, and process departures to ensure that the list of monitors is current.
+The OS returns STATUS_SUCCESS if it has stored the newly specified display configuration. These changes will asynchronously reconfigure the modes and swapchains for the monitors as requested. **IddCxAdapterDisplayConfigUpdate** will first flush any pending monitor arrivals, and process departures to ensure that the list of monitors is current.
 
 If **IddCxAdapterDisplayConfigUpdate** determines that the supplied display configuration is not currently supported by the driver, it returns STATUS_INVALID_PARAMETER and logs the reason using WPP for debugging purposes. For example, a driver might not support a specified resolution/refresh rate, or an invalid monitor might be specified.
 
