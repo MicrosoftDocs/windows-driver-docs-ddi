@@ -14,7 +14,7 @@ req.dll:
 req.header: wdm.h
 req.idl: 
 req.include-header: Wdm.h
-req.irql: Any level (See Remarks)
+req.irql: Any level (see Remarks)
 req.kmdf-ver: 
 req.lib: NtosKrnl.lib
 req.max-support: 

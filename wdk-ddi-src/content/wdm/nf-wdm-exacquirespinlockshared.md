@@ -15,7 +15,7 @@ req.dll:
 req.header: wdm.h
 req.idl: 
 req.include-header: 
-req.irql: DISPATCH_LEVEL (See Remarks.)
+req.irql: DISPATCH_LEVEL (see Remarks)
 req.kmdf-ver: 
 req.lib: 
 req.max-support: 

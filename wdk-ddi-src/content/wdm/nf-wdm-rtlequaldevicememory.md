@@ -13,7 +13,7 @@ req.dll:
 req.header: wdm.h
 req.idl: 
 req.include-header: Wdm.h
-req.irql: Any level (See Remarks section)
+req.irql: Any level (see Remarks section)
 req.kmdf-ver: 
 req.lib: volatileaccessk.lib (Kernel mode), volatileaccessu.lib (User mode)
 req.max-support: 
