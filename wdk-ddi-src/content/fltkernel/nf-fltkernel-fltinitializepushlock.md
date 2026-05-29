@@ -3,7 +3,7 @@ UID: NF:fltkernel.FltInitializePushLock
 title: FltInitializePushLock function (fltkernel.h)
 description: Learn more about the FltInitializePushLock function.
 tech.root: ifsk
-ms.date: 10/03/2024
+ms.date: 01/04/2026
 req.header: fltkernel.h
 req.include-header: Fltkernel.h
 req.target-type: Universal
@@ -87,9 +87,9 @@ Push locks offer the following *advantages* over ERESOURCE structures:
 
 Unless any of these advantages are compelling, an ERESOURCE is usually the more robust and maintainable solution to the Read/Write synchronization problem.
 
-To acquire a push lock for exclusive access, call[**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
+To acquire a push lock for exclusive access, call [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
 
-To acquire a push lock for shared access, call [**FltAcquirePushLockExclusive**](nf-fltkernel-fltacquirepushlockexclusive.md).
+To acquire a push lock for shared access, call [**FltAcquirePushLockShared**](nf-fltkernel-fltacquirepushlockshared.md).
 
 To release a push lock, call [**FltReleasePushLock**](nf-fltkernel-fltreleasepushlock.md).
 
