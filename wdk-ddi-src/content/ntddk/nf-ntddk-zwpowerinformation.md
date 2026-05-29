@@ -22,7 +22,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Ntoskrnl.lib
-req.dll: Ntoskrnl.lib
+req.dll: NtosKrnl.exe
 req.irql: PASSIVE_LEVEL
 targetos: Windows
 req.typenames: 
