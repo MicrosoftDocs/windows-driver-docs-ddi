@@ -6,7 +6,7 @@ old-location: ifsk\file_link_information.htm
 tech.root: ifsk
 ms.date: 05/24/2022
 keywords: ["FILE_LINK_INFORMATION structure"]
-ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstructures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
+ms.keywords: "*PFILE_LINK_INFORMATION, FILE_LINK_INFORMATION, FILE_LINK_INFORMATION structure [Installable File System Drivers], PFILE_LINK_INFORMATION, PFILE_LINK_INFORMATION structure pointer [Installable File System Drivers], _FILE_LINK_INFORMATION, fileinformationstuctures_6702855e-5076-41aa-a6c8-e9569c782646.xml, ifsk.file_link_information, ntifs/FILE_LINK_INFORMATION, ntifs/PFILE_LINK_INFORMATION"
 req.header: ntifs.h
 req.include-header: Ntifs.h, Fltkernel.h
 req.target-type: Windows
@@ -65,7 +65,7 @@ Set to TRUE to specify that if the link already exists, it should be replaced wi
 
 ### -field DUMMYUNIONNAME.Flags
 
-Flags for the link operation. This field is only applicable when used with the FileLinkInformationEx information class. Available starting with Windows 10, version 1809.
+Flags for the link operation. This field is only applicable when used with the FileLinkInformationEx and FileLinkInformationExBypassAccessCheck information classes. Available starting with Windows 10, version 1809.
 
 Here are the possible values:
 

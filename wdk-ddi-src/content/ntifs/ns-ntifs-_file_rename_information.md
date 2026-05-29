@@ -65,7 +65,7 @@ Set to TRUE to specify that if a file with the given name already exists, it sho
 
 ### -field DUMMYUNIONNAME.Flags
 
-Flags for the rename operation.  This field is only applicable when used with the **FileRenameInformationEx** information class.
+Flags for the rename operation.  This field is only applicable when used with the **FileRenameInformationEx** and **FileRenameInformationExBypassAccessCheck** information classes.
 
 Here are the possible values:
 
