@@ -15,7 +15,7 @@ req.kmdf-ver: 1.27
 req.umdf-ver: N/A
 req.lib: UcmUcsiCxStub.lib
 req.dll: 
-req.irql: <=DISPATCH_LEVEL
+req.irql: <= DISPATCH_LEVEL
 req.ddi-compliance: 
 req.unicode-ansi: 
 req.idl: 
