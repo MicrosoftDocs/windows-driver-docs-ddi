@@ -57,7 +57,12 @@ The <b>FILE_MAILSLOT_SET_INFORMATION</b> structure is used to set a value on a  
 
 ### -field ReadTimeout
 
-The time, in milliseconds, that a read operation can wait for a message to be written to the mailslot before a time-out occurs. A value of –1 requests that the read wait forever for a message without timing out. A value of 0 requests that the read not wait and return immediately whether a pending message is available to be read or not.
+The time that a read operation can wait for a message to be written to the mailslot before a time-out occurs.
+
+* A positive value specifies the operation time-out as an absolute system time, represented as a count of 100-nanosecond intervals since January 1, 1601.
+* A negative value specifies the number of 100-nanosecond intervals for the operation to time out relative to the current time.
+* A value of -1 requests that the read wait forever for a message without timing out.
+* A value of 0 requests that the read not wait and return immediately, whether a pending message is available to be read or not.
 
 ## -remarks
 
