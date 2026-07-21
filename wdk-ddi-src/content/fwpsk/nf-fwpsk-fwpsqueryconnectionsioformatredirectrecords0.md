@@ -58,7 +58,7 @@ The redirect records handle that the  ALE_CONNECT_REDIRECT callout function rece
 
 A WFP redirect record is a buffer of opaque data that WFP must set on an outbound proxy connection so that the redirected connection and the original connection are logically related.
 
-### -param OutputBuffer [_Out_writes_bytes_opt_(outputBufferLength)]
+### -param OutputBuffer [_Out_writes_bytes_opt_(OutputBufferLength)]
 
 
 A pointer to an output buffer that receives the redirect records. The buffer must be pointer-aligned.
@@ -111,7 +111,7 @@ The <i>RedirectRecords</i> parameter was null.
 </dl>
 </td>
 <td width="60%">
-The <i>bytesTransferred</i> parameter was null.
+The <i>BytesTransferred</i> parameter was null.
 
 </td>
 </tr>
