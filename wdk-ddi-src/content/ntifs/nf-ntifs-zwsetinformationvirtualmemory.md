@@ -77,7 +77,7 @@ A pointer to a buffer that contains memory information.
                     specified information class.
 
 
-If <i>VmInformationClass</i> is  <b>VmPrefetchInformation</b>, this parameter cannot be this parameter cannot be NULL and must point to a ULONG variable that is set to 0.
+If <i>VmInformationClass</i> is  <b>VmPrefetchInformation</b>, this parameter cannot be NULL and must point to a ULONG variable that is set to 0.
 
 ### -param VmInformationLength [in]
 
