@@ -54,6 +54,8 @@ The <b>FltSetIoPriorityHintIntoCallbackData</b> routine is used by a minifilter 
 
 A pointer to a <a href="/windows-hardware/drivers/ddi/fltkernel/ns-fltkernel-_flt_callback_data">FLT_CALLBACK_DATA</a> structure that represents an I/O operation. This parameter is required and cannot be <b>NULL</b>.
 
+<b>Note</b>If this parameter was created by a minifilter then it <b>must</b> have be created using <a href="/windows-hardware/drivers/ddi/fltkernel/nf-fltkernel-fltallocatecallbackdataex>FltAllocatedCallbackDataEx</a> wih the FLT_ALLOCATE_CALLBACK_DATA_PREALLOCATE_ALL_MEMORY parameter set.  <em> I have no idea what happens if you call this on non-IRP CBD, I suspect you get sad</em>
+
 ### -param PriorityHint [in]
 
 
