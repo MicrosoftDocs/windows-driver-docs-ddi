@@ -40,7 +40,7 @@ f1_keywords:
 
 ## -description
 
-The **RtlUTF8StringToUnicodeString** function converts the specified UTF8 source string into a Unicode string in accordance with the current system locale information.
+The **RtlUTF8StringToUnicodeString** function converts the specified UTF8 source string into a Unicode string.
 
 ## -parameters
 
