@@ -95,7 +95,7 @@ Supplies the optional index of an EA whose value is to be
 Specifies whether the scan of the EAs should be restarted
         from the beginning.
 
-### -param LengthReturned [out, optional]
+### -param LengthReturned [out]
 
 
 Specifies the amount of valid data that is returned in the
