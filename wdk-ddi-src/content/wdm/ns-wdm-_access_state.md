@@ -95,7 +95,7 @@ An <a href="/windows-hardware/drivers/kernel/access-mask">ACCESS_MASK</a> type t
 
 ### -field SubjectSecurityContext
 
-A <a href="/windows-hardware/drivers/kernel/eprocess">SECURITY_SUBJECT_CONTEXT</a> structure that contains information about the subject security context that is used to validate and audit access.
+A <a href="/windows-hardware/ddi/wdm/ns-wdm-_security_subject_context">SECURITY_SUBJECT_CONTEXT</a> structure that contains information about the subject security context that is used to validate and audit access.
 
 ### -field SecurityDescriptor
 
